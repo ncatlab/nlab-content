@@ -730,6 +730,8 @@ The theory for this more general case is not as far developed yet.
 
 * a general definition of a [[cobordism category]] of cobordisms equipped with **geometric structure** given by a morphism into, roughly, a [[smooth infinity-groupoid]] of structure is discussed in  ([Ayala](#Ayala)).
 
+A full-blown geometric cobordism statement is due to [Grady & Pavlov 2021](#GradyPavlov21).
+
 ## Remarks ##
 
 ### Morphisms of TQFTs
@@ -792,11 +794,11 @@ Higher cobordisms with geometric structure (for non-topological [[extended quant
 
 * {#Ayala} [[David Ayala]], _Geometric cobordism categories_ ([arXiv:0811.2280](https://arxiv.org/abs/0811.2280))
 
-* {#GradyPavlov20} [[Daniel Grady]], [[Dmitri Pavlov]], *Extended field theories are local and have classifying spaces* ([arXiv:2011.01208](https://arxiv.org/abs/2011.01208))
+* {#GradyPavlov20} [[Daniel Grady]], [[Dmitri Pavlov]], *Extended field theories are local and have classifying spaces* &lbrack;[arXiv:2011.01208](https://arxiv.org/abs/2011.01208)&rbrack;
 
 and full proof of the cobordism hypothesis in this geometric generality (hence for non-topological [[extended quantum field theory|extended]] [[FQFT]] such as [[conformal field theory]]) is claimed in:
 
-* {#GradyPavlov21} [[Daniel Grady]], [[Dmitri Pavlov]], *The geometric cobordism hypothesis* ([arXiv:2111.01095](https://arxiv.org/abs/2111.01095))
+* {#GradyPavlov21} [[Daniel Grady]], [[Dmitri Pavlov]], *The geometric cobordism hypothesis* &lbrack;[arXiv:2111.01095](https://arxiv.org/abs/2111.01095)&rbrack;
 
 based on [Grady & Pavlov 2020](#GradyPavlov20).
 
