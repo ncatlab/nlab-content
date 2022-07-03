@@ -12,10 +12,15 @@ On a [[Lefschetz trace formula]] in [[equivariant cohomology]]:
 
 Kim has notably written about conceptual questions that appear in [[Diophantine geometry]] ([[arithmetic geometry]]), [[anabelian geometry]] and the [[Langlands program]], for instance in 
 
-
 * {#MK09} _Galois Theory and Diophantine geometry_, 2009 ([pdf](http://people.maths.ox.ac.uk/kimm/papers/cambridgews.pdf))
 
-He has also applied ideas from [[Chern-Simons theory]] in [[arithmetic Chern-Simons theory]].
+A proposal for [[arithmetic Chern-Simons theory]]:
+
+* {#Kim1} [[Minhyong Kim]], *Arithmetic Chern-Simons Theory I*, in: *Galois Covers, Grothendieck-Teichmüller Theory and Dessins d'Enfants*, Proceedings in Mathematics & Statistics **330**,  Spinger (2020) &lbrack;[arXiv:1510.05818](http://arxiv.org/abs/1510.05818), [doi:10.1007/978-3-030-51795-3_8](https://doi.org/10.1007/978-3-030-51795-3_8)&rbrack;
+
+On [[arithmetic gauge theory]]:
+
+* {#Kim18} [[Minhyong Kim]], *Arithmetic Gauge Theory: A Brief Introduction*,  Modern Physics Letters A **33** 29 (2018) 1830012 &lbrack;[arxiv:1712.07602](https://arxiv.org/abs/1712.07602), [doi:10.1142/S0217732318300124](https://doi.org/10.1142/S0217732318300124)&rbrack;
 
 On [[BF-theory]] in [[arithmetic geometry]]:
 
