@@ -5,7 +5,7 @@
 
 The concept of [[elliptic cohomology]] originates around:
 
-* {#Landweber88} [[Peter Landweber]], _Elliptic Cohomology and Modular Forms_, in _Elliptic Curves and Modular Forms in Algebraic Topology_, Lecture Notes in Mathematics Volume 1326, 1988, pp 55-68 ([doi:10.1007/BFb0078038](https://doi.org/10.1007/BFb0078038))
+* {#Landweber88} [[Peter Landweber]], *Elliptic Cohomology and Modular Forms*, in: _Elliptic Curves and Modular Forms in Algebraic Topology_, Lecture Notes in Mathematics **1326** (1988) 55-68 &lbrack;[doi:10.1007/BFb0078038](https://doi.org/10.1007/BFb0078038)&rbrack;
 
 * {#LandweberRavenelStong93} [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_, in [[Haynes Miller]] et. al. (eds.), _The Cech centennial: A conference on homotopy theory_, June 1993, AMS (1995) ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
 
