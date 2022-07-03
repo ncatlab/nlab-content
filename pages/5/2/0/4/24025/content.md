@@ -16,14 +16,15 @@
 
 ## Definition
 
-Given a [[ring]] $R$, a **left filter** of $R$ is a multiplicative [[submonoid]] $(F, 1, \cdot)$ of $(R, 1, \cdot)$ with [[monoid]] [[monomorphism]] $i:F \hookrightarrow R$ such that for all elements $z \in F$ and $y \in R$, if there is an element $w \in R$ such that $i(z) = w \cdot y$, then there is an element $x \in F$ such that $i(z) = i(x) \cdot y$. 
+Given a [[ring]] $R$, a **left filter** of $R$ is a [[multiplicative subset]] $(F, 1, \cdot)$ (here we assume that multiplicative subsets have the [[unit]] and are thus [[submonoid]]s of $R$) of $(R, 1, \cdot)$, with [[monoid]] [[monomorphism]] $i:F \hookrightarrow R$, such that for all elements $z \in F$ and $y \in R$, if there is an element $w \in R$ such that $i(z) = w \cdot y$, then there is an element $x \in F$ such that $i(z) = i(x) \cdot y$. 
 
-A **right filter** of $R$ is a multiplicative [[submonoid]] $(F, 1, \cdot)$ of $(R, 1, \cdot)$ with [[monoid]] [[monomorphism]] $i:F \hookrightarrow R$ such that for all elements $z \in F$ and $y \in R$, if there is an element $w \in R$ such that $i(z) = y \cdot w$, then there is an element $x \in F$ such that $i(z) = y \cdot i(x)$. 
+A **right filter** of $R$ is a [[multiplicative subset]] $(F, 1, \cdot)$ of $(R, 1, \cdot)$, with [[monoid]] [[monomorphism]] $i:F \hookrightarrow R$, such that for all elements $z \in F$ and $y \in R$, if there is an element $w \in R$ such that $i(z) = y \cdot w$, then there is an element $x \in F$ such that $i(z) = y \cdot i(x)$. 
 
-A **two-sided filter** is a multiplicative [[submonoid]] $(F, 1, \cdot)$ of $(R, 1, \cdot)$ with [[monoid]] [[monomorphism]] $i:F \hookrightarrow R$ that is both a left filter and a right filter. 
+A **two-sided filter** is a [[multiplicative subset]] $(F, 1, \cdot)$ of $(R, 1, \cdot)$ with [[monoid]] [[monomorphism]] $i:F \hookrightarrow R$ that is both a left filter and a right filter. 
 
 ## See also
 
+* [[multiplicative subset]]
 * [[localization of a ring]]
 * [[ideal of a ring]]
 
