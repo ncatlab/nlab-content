@@ -141,7 +141,7 @@ we can associate to it its L-function $L_{f}(s)$, which is given by
 
 $$L_{f}(s)=\sum_{n=1}^{\infty}a_{n}n^{-s}$$
 
-The L-function $L_{f}(s)$ has an analytic continuation to all of $\mathbb{C}$, via the work of [[Erich Hecke]].
+Alternatively the L-function $L_{f}(s)$ is the [[Mellin transform]] of $f$. The L-function $L_{f}(s)$ has an analytic continuation to all of $\mathbb{C}$, via the work of [[Erich Hecke]].
 
 This is important for instance to formulate conjectures such as the [[Birch and Swinnerton-Dyer conjecture]], which involves the special value of the [[Hasse-Weil L-function]] $L(E,s)$ of an elliptic curve at a value of $s$ where it is originally not defined (the series only converges for $s \gt 3/2$). But the [[modularity theorem]] tells us that this Hasse-Weil L-function $L(E,s)$ is equal to the L-function of some cusp form $f$, which we know has an analytic continuation to the entire complex plane.
  
