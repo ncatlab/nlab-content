@@ -41,11 +41,15 @@ Here
 
 * $R_{E}$ is the regulator of $E$
 
-* $c_{p}$ is the Tamagawa number of $E$ at a prime $p$ dividing the conductor $N$ of $E$
+* $c_{p}$ is the [[Tamagawa number]] of $E$ at a prime $p$ dividing the conductor $N$ of $E$
 
 * $\#E(\mathbb{Q})_{Tor}$ is the order of the torsion subgroup of the Mordell-Weil group $E(\mathbb{Q})$ of $E$.
 
 ## Progress
+
+It is known that if the L-function does not vanish at $s=1$ then the elliptic curve has no rational points of infinite order. It is also known that if the L-function has a zero of order $1$ at $s=1$ then the rank of the elliptic curve is $1$.
+
+These results follow from the work of [[Benedict Gross]] and [[Don Zagier]] on the Gross-Zagier formula and Heegner points, and [[Victor Kolyvagin]]'s work on Euler systems (which bound the Selmer group, which in turn control the rational points).
 
 ## Related concepts
 
