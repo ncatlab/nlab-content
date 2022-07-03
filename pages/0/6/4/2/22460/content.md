@@ -46,6 +46,10 @@ Let $\overline{\rho}$ be Schur. Then the deformation functor $\mathrm{Def}_{\ove
 
 (...)
 
+## Derived version
+
+A version of Galois deformation rings in [[derived geometry]] has been developed by [[Soren Galatius]] and [[Akshay Venkatesh]].
+
 ## Related
 
 * [[deformation theory]]
@@ -54,6 +58,7 @@ Let $\overline{\rho}$ be Schur. Then the deformation functor $\mathrm{Def}_{\ove
 
 * [[Toby Gee]], _Modularity Lifting Theorems: Notes for Arizona Winter School_, [pdf](http://wwwf.imperial.ac.uk/~tsg/Index_files/ArizonaWinterSchool2013.pdf)
 
+* [[Soren Galatius]] and [[Akshay Venkatesh]], _Derived Galois Deformation Rings_, [arxiv:1608.07236](https://arxiv.org/abs/1608.07236)
 
 [[!redirects Galois deformation rings]]
 
