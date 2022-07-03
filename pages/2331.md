@@ -215,6 +215,8 @@ The Kontsevich and Soibelman references below are also good.
 
 * [[Lubin-Tate theory]]
 
+* [[Galois deformation ring]]
+
 ## References
 
 * {#SchlessingerStasheff85} [[Michael Schlessinger]], [[Jim Stasheff]], _The Lie algebra structure of tangent cohomology and deformation theory_, Journal of pure and applied algebra 38 (1985) 313-322
