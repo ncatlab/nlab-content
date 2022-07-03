@@ -29,7 +29,37 @@ An element $e \in R$ is *cancellative* or *regular* if it is both left cancellat
 
 $$\mathrm{isCancellative}(e) \coloneqq \mathrm{isLeftCancellative}(e) \wedge \mathrm{isRightCancellative}(e)$$
 
+## Multiplicative subset of cancellative elements ##
+
+The **multiplicative subset of cancellative elements** in $R$ is the [[multiplicative subset]] of all cancellative elements in $R$
+
+$$\mathrm{Can}(R) \coloneqq \{e \in M \vert \mathrm{isCancellative}(e)\}$$
+
+The term 'cancellative element' could be replaced with the synonym 'regular element'. If the synonym 'regular element' is used in place of 'cancellative element', such as in [Lombardi & Quitté 2010](#LombardiQuitté2010), then this multiplicative subset is typically written as $\mathrm{Reg}(R)$. 
+
+This is also called the **[[filter of a ring|filter]] of regular elements** in $R$, as in [Lombardi & Quitté 2010](#LombardiQuitté2010). Similarly as above, 'regular element' could be replaced with 'cancellative element'. 
+
+Since the multiplicative identity element $1$ is always cancellative, the multiplicative subset of all cancellative elements forms a [[cancellative monoid]]. 
+
 ## Properties ##
+
+\begin{theorem}
+Given elements $a \in R$ and $b \in R$, if the product $a \cdot b$ is cancellative, then both $a$ and $b$ is cancellative. 
+\end{theorem}
+
+\begin{theorem}
+Given a commutative ring $R$, if for all elements $a \in R$ and $b \in R$, if the sum $a + b$ is cancellative, then either $a$ is cancellative or $b$ is cancellative, then the addition and multiplication operations on $R$ are strongly extensional with respect to the canonical apartness relation $\#$ defined by $x \# y$ iff $x - y$ is cancellative.
+
+In this way $R$ becomes an internal commutative [[ring object]] in the category $\mathrm{Apart}$, consisting of sets with apartness relations and maps (strongly extensional functions) between them.
+\end{theorem}
+
+\begin{proof}
+Recall that products $X \times Y$ in the category of sets with apartness relations is the cartesian product of the underlying sets equipped with the apartness relation defined by $(x, y) \# (x', y')$ iff $x \# x'$ in $X$ *or* $y \# y'$ in $Y$. Recall also that a function $f: X \to Y$ between sets with apartness relations is *strongly extensional* if $f(x) \# f(y)$ implies $x \# y$. 
+
+For addition, for all elements $a \in R$, $b \in R$, $a' \in R$, $b' \in R$, if $(a + b) \# (a' + b')$, then $a + b - (a' + b') = (a - b') + (a - b')$ is cancellative, so $a - a'$ or $b - b'$ is cancellative since for all elements $a \in R$ and $b \in R$, if the sum $a + b$ is cancellative, then either $a$ is cancellative or $b$ is cancellative, whence $(a, b) # (a', b')$. Thus addition is strongly extensional. 
+
+For multiplication, for all elements $a \in R$, $b \in R$, $a' \in R$, $b' \in R$, if $a \cdot b # a' \cdot b'$, then $a \cdot b - a' \cdot b'$ is cancellative. Write $a \cdot b - a' \cdot b' = (a - a') \cdot b + a' \cdot (b - b')$. Since for all elements $a \in R$ and $b \in R$, if the sum $a + b$ is cancellative, then either $a$ is cancellative or $b$ is cancellative, either $(a - a') \cdot b$ is cancellative or $a' \cdot (b - b')$ is cancellative. Since for all elements $a \in R$ and $b \in R$, if $a \cdot b$ is cancellative, then $a$ is cancellative and $b$ is cancellative, either $a - a'$ is cancellative or $b - b'$ is, whence $(a, b) # (a', b')$. So multiplication is also strongly extensional. 
+\end{proof}
 
 ### Relation with zero-divisors ###
 
@@ -60,35 +90,27 @@ $$\mathrm{isZeroDivisor}(e) \iff \neg \mathrm{isCancellative}(e)$$
 
 ### Integral domains ###
 
-The theorems in the above section provide alternative definition of the various (commutative) [[integral domains]] in constructive mathematics in terms of cancellative elements, in analogy with the definition of fields in terms of invertible elements:
+The theorems relating cancellative elements to zero-divisors provide alternative definition of the various (commutative) [[integral domains]] in constructive mathematics in terms of cancellative elements, in analogy with the definition of [[fields]] in terms of invertible elements:
 
 \begin{definition}
 A commutative ring $R$ is a **integral domain** if an element is non-cancellative (or equivalently, a zero-divisor) iff it is zero. In addition to $0\neq 1$, this condition means that every non-cancellative element (or equivalenty, zero-divisor) is zero.
 \end{definition}
 
 \begin{definition}
-A commutative ring $R$ is a **Heyting integral domain** if it has a [[tight apartness relation]] $\#$, defined as $a # b$ iff $a - b$ is cancellative. In addition to $0 \# 1$, the condition then means that every element apart from $0$ is cancellative.
+A commutative ring $R$ is a **Heyting integral domain** if it is an integral domain and additionally, for all elements $a \in R$ and $b \in R$, if the sum $a + b$ is cancellative, then either $a$ is cancellative or $b$ is cancellative. 
 \end{definition}
 
+\begin{theorem}
+In addition to $0 \# 1$, the above condition in a Heyting integral domain then means that every element apart from $0$ is cancellative.
+\end{theorem}
+
 \begin{definition}
-A commutative ring $R$ is an **discrete integral domain** if all elements $e \in R$ are cancellative [[xor]] equal to zero. This condition means that every element is either $0$ or cancellative, and it also implies that $0 \neq 1$.
+A commutative ring $R$ is a **discrete integral domain** if all elements $e \in R$ are cancellative [[xor]] equal to zero. This condition means that every element is either $0$ or cancellative, and it also implies that $0 \neq 1$.
 \end{definition}
 
 ### Fields ###
 
-Given the above definitions of an integral domain, a [[field]] could be defined as an integral domain where every cancellative element is a [[unit]]. 
-
-## Multiplicative subset of cancellative elements ##
-
-The **multiplicative subset of cancellative elements** in $R$ is the [[multiplicative subset]] of all cancellative elements in $R$
-
-$$\mathrm{Can}(R) \coloneqq \{e \in M \vert \mathrm{isCancellative}(e)\}$$
-
-The term 'cancellative element' could be replaced with the synonym 'regular element', or as proven above in this article, with 'non-zero-divisor'. If the synonym 'regular element' is used in place of 'cancellative element', such as in [Lombardi & Quitté 2010](#LombardiQuitté2010), then this multiplicative subset is typically written as $\mathrm{Reg}(R)$. 
-
-This is also called the **[[filter of a ring|filter]] of regular elements** in $R$, as in [Lombardi & Quitté 2010](#LombardiQuitté2010). Similarly as above, 'regular element' could be replaced with 'cancellative element' or 'non-zero-divisor'. 
-
-Since the multiplicative identity element $1$ is always cancellative, the multiplicative subset of all cancellative elements forms a [[cancellative monoid]]. 
+Given the above definitions of an integral domain, a [[field]] could be defined as an integral domain where every cancellative element is a [[unit]], or equivalently, an integral domain whose multiplicative subset of cancellative elements is the group of units. 
 
 ### Ring of fractions ###
 
