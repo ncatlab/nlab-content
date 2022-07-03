@@ -56,7 +56,7 @@ Seminar notes on Faltings' proof:
 
 Reviews include
 
-* Spencer Bloch, _The Proof of the Mordell Conjecture_, Math. Int. **6** no.2 (1984) p.41-47.
+* [[Spencer Bloch]], _The Proof of the Mordell Conjecture_, Math. Int. **6** no.2 (1984) p.41-47.
 
 * [[Barry Mazur]], _Abelian varieties and the Mordell-Lang conjecture_ ([pdf](http://library.msri.org/books/Book39/files/mazur.pdf))
 
