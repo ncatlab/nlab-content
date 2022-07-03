@@ -2476,17 +2476,17 @@ do not see the difference between the reduced and the unreduced spaces, by prop.
 
 ## References
 
-The original reference for many results about bundles, including the theorem that concordance implies isomorphism, is
+The original reference for many results about bundles, including the theorem that [[concordance]] implies [[isomorphism]], is
 
-* [[Norman Steenrod]], _The Topology of Fibre Bundles_, Princeton University Press, 1951, 1957, 1960.
+* [[Norman Steenrod]], _The Topology of Fibre Bundles_, Princeton University Press (1951, 1957, 1960) &lbrack;[jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5)&rbrack;
 
-Textbook accounts include
+Further textbook accounts:
 
 * Glenys Luke, Alexander S. Mishchenko, _Vector bundles and their applications_, Math. and its Appl. __447__, Kluwer 1998. viii+254 pp. [MR99m:55019](http://www.ams.org/mathscinet-getitem?mr=99m:55019)
 
 * [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
 
-Lecture notes with an eye towards [[topological K-theory]] is in
+Lecture notes with an eye towards [[topological K-theory]]:
 
 * {#Wirthmuller12} [[Klaus Wirthmüller]], _Vector bundles and K-theory_, 2012 ([[wirthmueller-vector-bundles-and-k-theory.pdf:file]])
 
