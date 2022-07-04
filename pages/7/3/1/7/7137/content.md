@@ -114,7 +114,7 @@ Let $\rho_{i}:W_{F}\to \mathbb{C}^{\times}$ be the representation of the Weil gr
 
 ## Geometrization
 
-Fargues-Scholze have developed a geometric approach to the local Langlands conjecture in [FarguesScholze21](#FarguesScholze21). In this formulation the local Langlands correspondence is expressed as an equivalence between the derived category of certain $\ell$-adic sheaves (this requires the theory of [[solid abelian groups]] from [[condensed mathematics]]) on the moduli stack $\mathrm{Bun}_{G}$ of $G$-torsors on the [[Fargues-Fontaine curve]] on one hand, and the derived category of certain coherent sheaves on the [[moduli stack of L-parameters]] in the other (compare [[geometric Langlands correspondence]]). More precisely:
+[[Laurent Fargues]] and [[Peter Scholze]] have developed a geometric approach to the local Langlands conjecture in [FarguesScholze21](#FarguesScholze21). In this formulation the local Langlands correspondence is expressed as an equivalence between the derived category of certain $\ell$-adic sheaves (this requires the theory of [[solid abelian groups]] from [[condensed mathematics]]) on the moduli stack $\mathrm{Bun}_{G}$ of $G$-torsors on the [[Fargues-Fontaine curve]] on one hand, and the derived category of certain coherent sheaves on the [[moduli stack of L-parameters]] (denoted $Z^{1}(W_{F},\widehat{G})_{\mathcal{O}_{L}}/\widehat{G}$ in [FarguesScholze21](#FarguesScholze21)) in the other (compare [[geometric Langlands correspondence]]). More precisely:
 
 \begin{conjecture}
 There is an equivalence
@@ -122,13 +122,17 @@ $$\mathcal{D}(\mathrm{Bun}_{G},\mathcal{O}_{L})^{\omega}\cong\mathcal{D}_{\mathr
 of stable $\infty$-categories equipped with actions of $\Perf(Z^{1}(W_{F},\widehat{G})_{\mathcal{O}_{L}}/\widehat{G})$.
 \end{conjecture}
 
-Fargues-Scholze are also able to associate an L-parameter $\varphi_{A}:W_{F}\to\widehat{G}(\mathbb{Q}_{\ell})$ to a Schur object $A$ in $D(\mathrm{Bun}_{G},\overline{\mathbb{Q}}_{\ell})$ using the method of V. Lafforgue involving excursion operators.
+In their work Fargues and Scholze are able to associate an L-parameter $\varphi_{A}:W_{F}\to\widehat{G}(\mathbb{Q}_{\ell})$ to a Schur object $A$ in $D(\mathrm{Bun}_{G},\overline{\mathbb{Q}}_{\ell})$ using the method of [[Vincent Lafforgue]] (originally developed for the global Langlands correspondence for function fields over $\mathbb{F}_{q}$) involving excursion operators. This is also known as the "automorphic to Galois" direction in the global setting.
+
+In the other direction (analogous to the "Galois to automorphic direction") Fargues and Scholze approach this via the construction of the _spectral action_, which involves the use of [[infinity groupoids]] (which they refer to as _anima_). Subsequent work of Johannes  Anschütz and Arthur-Cesar Le Bras in [AnschutzLeBras21](#AnschutzLeBras21) use this spectral action to show the existence of the [[Hecke eigensheaf]].
 
 ## $p$-adic and mod $p$ local Langlands
 
 The $p$-adic (resp. mod $p$) local Langlands correspondence concerns $p$-adic (resp. mod $p$) representations of the [[absolute Galois group]] of a $p$-adic field $F$, as opposed to complex Weil-Deligne or $\ell$-adic representations. It is related to [[p-adic Hodge theory]]. Currently the only known case is the case $GL_2(\mathbb{Q}_{p})$, see also [Breuil2010](#Breuil2010).
 
 ## Related concepts
+
+* [[Fargues-Fontaine curve]]
 
 * [[global analytic geometry]]
 
@@ -150,6 +154,15 @@ Basic definitions are discussed in:
 An approach via the [[Fargues-Fontaine curve]]:
 
 * {#FarguesScholze21} [[Laurent Fargues]], [[Peter Scholze]], _Geometrization of the local Langlands correspondence_ ([arXiv:2102.13459](https://arxiv.org/abs/2102.13459))
+
+The above work is partially inspired by the following work on the _global_ Langlands correspondence for function fields over $\mathbb{F}_{q}$:
+
+* [[Vincent Lafforgue]], _Chtoucas pour les groupes réductifs et paramétrisation de Langlands
+globale_ [arXiv:1209.5352](http://arxiv.org/abs/1209.5352)
+
+The spectral action of Fargues and Scholze is used to show the existence of the [[Hecke eigensheaf]] in
+
+* {#AnschutzLeBras21} Johannes Anschütz and Arthur-Cesar Le Bras, _Averaging functors in Fargues' program for GL_n_ [arXiv:2104.04701](https://arxiv.org/abs/2104.04701)
 
 The $p$-adic and mod $p$ local Langlands correspondence is discussed in:
 
