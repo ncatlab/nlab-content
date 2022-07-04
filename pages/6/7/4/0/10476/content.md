@@ -74,6 +74,7 @@ Later [Piacenza 91, Sec 6](#Piacenza91) and [May 96, Sec. V.3](#May96) re-prove 
 These results are all based on the [[classical model structure on topological spaces]].  The analogous Quillen equivalence based on the [[classical model structure on simplicial sets]] is proven in [Guillou-May-Rubin 13, Thm. 5.6](#GuillouMayRubin13), assuming $G$ to be a [[discrete group]].
 \end{remark}
 
+
 \begin{remark}\label{AsAStatementAboutEquivariantConcordance}
 **(as a statement about [[concordance]] of [[equivariant maps]])**
 \linebreak
@@ -154,7 +155,178 @@ $$
 \end{remark}
 
 
-## Model category presentation / Quillen equivalence
+
+
+## Statement
+
+### Classical version in topological spaces
+ {#ClassicalVersionInTopologicalSpaces}
+
+Write 
+
+* $kTop$ for the category of [[compactly generated topological spaces]];
+
+\begin{assumption}\label{GeneralInputData}
+**(general input data)**
+\linebreak
+Let 
+
+* $G \,\in\, Grp(kTop)$ be *any* [[topological group]],
+
+* $\mathcal{F} \,\subset\,  Sub(G)$ be *any* [[set]] of [[subgroups]] of $G$.
+
+\end{assumption}
+
+\begin{remark}\label{FixedLociAsEquivariantMappingSpaces}
+**([[fixed loci]] as [[equivariant function|equivariant]] [[mapping spaces]])**
+\linebreak
+For $H \subset G$ any [[subgroup]], notice the usual identification of $H$-[[fixed loci]] $X^H \subset X$ inside [[topological G-spaces|topological $G$-spaces]] $X$ with the $G$-[[equivariant function|equivariant]] [[compact-open topology|mapping space]] out of the [[orbit]]/[[coset space]] $G/H$:
+
+$$
+  Map(G/H,\, -)
+  \;\simeq\;
+  (-)^H
+  \,.
+$$
+
+\end{remark}
+
+\begin{proposition}\label{FProjectiveModelStructureOnGSpaces}
+**($\mathcal{F}$-projective model structure on $G$-spaces)**
+\linebreak
+  In the generality of Assumption \ref{GeneralInputData},
+  the category of [[topological G-spaces|topological $G$-spaces]] carries the [[mathematical structure|structure]] of a  [[simplicial model category]] $G Act(kTop)_{\mathcal{F} proj}$ whose
+
+* [[hom-objects]] are the [[singular simplicial complexes]] of [[compact-open topology|mapping spaces]]:
+
+  \[
+    \label{SimplicialHomComplexBetweenGTopologicalSpaces}
+    [X,Y] 
+      \,\coloneqq\,
+    Sing
+    \big(
+      Map(X,Y)^G
+    \big)
+    \;\;\;
+    \in
+    \;
+    sSet
+  \]
+
+* [[weak equivalences]] and [[fibrations]] $X \xrightarrow{f} Y$ are $H \in \mathcal{F}$-[[fixed point space]]-wise ($[G/H, X] \xrightarrow{\;[G/H, f]\;} [G/H, Y]$, see Rem. \ref{FixedLociAsEquivariantMappingSpaces})
+those of the [[classical model structure on topological spaces]], 
+
+* [[cofibrations]] include the relative [[G-CW complexes|$G$-CW complexes]] which are build (only) from [[orbits]] of the form $G/H$ for $H \,\in\, \mathcal{F} \subset Sub(G)$.
+
+\end{proposition}
+([Dwyer & Kan 1984, §1.2 and Thm. 2.2](#DwyerKan84))
+
+\begin{remark}
+**(relation to classical $G$-equivariant homotopy theory)**
+\linebreak
+In the special case of Assumption \ref{GeneralInputData} that
+ 
+1. $G$ is a [[compact Lie group]];
+
+1. $\mathcal{F} \coloneqq ClsSub(G)$ is the set of all [[closed topological space|closed]] subgroups
+
+1. $X$ is a [[G-CW-complex|$G$-CW complex]]
+
+the [[equivariant Whitehead theorem]] says that weak equivalence $X \longrightarrow{Y}$ in $G Act(kTop)_{ClsSub(G)}$ (from Prop. \ref{FProjectiveModelStructureOnGSpaces}) are exactly the $G$-[[equivariant map|equivariant]] [[homotopy equivalences]].
+
+More generally there may be more weak equivalences in $G Act(KTop)_{\mathcal{F}}$ than there are $G$-[[homotopy equivalences]]:
+
+$$
+  G Heq 
+  \hookrightarrow
+  W_{\mathcal{F}}
+  \,.
+$$
+
+However, observe that the simplicial hom-complex (eq:SimplicialHomComplexBetweenGTopologicalSpaces) is always the classical one, in particular its [[connected components]] are always (no matter the choice of $G$ and $\mathcal{F}$) the plain $G$-[[homotopy classes]]:
+
+$$
+  \pi_0
+  [X,Y]
+  \,=\,
+  G Heq(X,\,Y)
+  \,.
+$$
+
+\end{remark}
+
+
+\begin{definition}\label{SimplicialPresheavesOnFTypeGOrbits}
+**(simplicial presheaves over $\mathcal{F}$-type $G$-orbits)**
+\linebreak
+Given data as in Assumption \ref{GeneralInputData}, write
+
+\[
+  \label{CategoryOfFTypeGOrbits}
+  Orb(G,\mathcal{F})
+  \hookrightarrow
+  G Act(kTop)
+\]
+
+for the [[orbit category|category of $\mathcal{F}$-type $G$ orbits]], namely the [[full subcategory|full sub]]-[[sSet-enriched category]] of [[topological G-spaces]] (eq:SimplicialHomComplexBetweenGTopologicalSpaces) on the [[coset spaces]] $G/H$ for $H \,\in\, \mathcal{F} \subset Sub(G)$.
+
+Moreover, write
+
+$$
+  sPSh
+  \big(
+    Orb(G,\mathcal{F})
+  \big)_{proj}
+$$
+
+
+for the projective [[model structure on sSet-presheaves]] 
+over (eq:CategoryOfFTypeGOrbits), 
+hence that whose [[weak equivalences]] and [[fibrations]] 
+are object-wise those in the [[classical model structure on simplicial sets]].
+
+\end{definition}
+
+
+\begin{proposition}\label{DwyerKanTheorem}
+**(Dwyer-Kan theorem)**
+\linebreak
+In the generality of Assumption \ref{GeneralInputData}, there is a [[Quillen equivalence]]
+$$
+  G Act(kTop)
+  \underoverset
+    {
+      \underset{
+        X \mapsto 
+        \big(
+          G/H \mapsto
+          [G/H, X]
+        \big)
+      }{\longrightarrow}
+    }
+    {\longleftarrow}
+    {\simeq_{\mathrlap{Qu}}}
+  sPSh(
+    Orb(G,\mathcal{F})
+  )
+$$
+between 
+
+1. the $\mathcal{F}$-projective model structure on  topological $G$-spaces  
+ 
+    (Prop. \ref{FProjectiveModelStructureOnGSpaces}) 
+ 
+1. the projective model structure on simplicial presheaves over the $\mathcal{F}$-type $G$-orbits 
+
+   (Def. \ref{SimplicialPresheavesOnFTypeGOrbits})
+
+
+\end{proposition}
+This is [Dwyer & Kan 1984, Thm. 3.1](#DwyerKan84), formulated here as a simplicial Quillen adjunction in view of the recognition principle for simplicial Quillen adjunctions (from [this Prop.](simplicial+Quillen+adjunction#RecognitionOfSimplicialQuillenAdjunctions)).
+
+
+
+### General model category presentation 
  {#ModelCategoryPresentation}
 
 A version of the theorem that applies fairly generally for ([[discrete group|discrete]]) [[group objects]] in suitable [[cofibrantly generated model categories]] is in ([Guillou 06](#Guillou06), [Stephan 10](#Stephan10), [Stephan 13](#Stephan13)).
