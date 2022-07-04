@@ -208,7 +208,7 @@ on page 58 :
 
 Then the first major account and relation to [[twisted de Rham cohomology]]:
 
-* [[Pierre Deligne]], *Equations différentielles à points singuliers réguliers*, Lecture Notes  Math. **163**, Springer (1970) $[$[publications.ias:355](https://publications.ias.edu/node/355)$]$
+* {#Deligne70} [[Pierre Deligne]], *Equations différentielles à points singuliers réguliers*, Lecture Notes  Math. **163**, Springer (1970) $[$[publications.ias:355](https://publications.ias.edu/node/355)$]$
 
 Textbook accounts:
 
