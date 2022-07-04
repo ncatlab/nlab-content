@@ -123,7 +123,7 @@ For the history of the terminology "modular form"/"automorphic form" see also [t
 
 ### Action by Hecke operators
 
-Modular forms can be acted on by Hecke operators. Viewing a modular form as a function on lattices, the most common kind of Hecke operator $T_{n}$ acts on a modular form $f$ as follows:
+Modular forms can be acted on by Hecke operators (related to [[Hecke correspondence]]). Viewing a modular form as a function on lattices, the most common kind of Hecke operator $T_{n}$ acts on a modular form $f$ as follows:
 
 $$T_{n}f(\Lambda)=\sum_{\Lambda'}f(\Lambda')$$
 
@@ -202,6 +202,10 @@ $$
 
 ## Related concepts
 
+* [[elliptic curve]], [[moduli stack of elliptic curves]]
+
+* [[Hecke correspondence]]
+
 * [[Jacobi form]]
 
 * [[elliptic genus]], [[Witten genus]]
@@ -211,6 +215,7 @@ $$
 * generalization to functions on moduli of higher dimensional [[abelian varieties]]: [[Hilbert modular form]], [[Siegel modular forms]]
 
 * [[modularity theorem]]
+
 * [[Rankin-Cohen bracket]]
 
 ## References
