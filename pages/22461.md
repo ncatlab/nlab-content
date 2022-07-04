@@ -8,6 +8,8 @@
 
 The *moduli stack of L-parameters* is an [[algebraic stack|algebraic]] [[moduli stack]] that parametrizes [[L-parameters]], which generalize the [[Weil-Deligne representations]] for the [[local Langlands correspondence]] when the [[reductive group]] is not the [[general linear group]] $GL_n$.
 
+The corresponding notion in the [[geometric Langlands correspondence]] is the [[moduli stack]] of [[local systems]] (recall that local systems on a curve give representations of its [[fundamental group]], hence are akin to [[Galois representations]]).
+
 ## References
 
 * {#SilbergerZink14} [[Allan J. Silberger]], [[Ernst-Wilhelm Zink]], Section 3 of: *Langlands Classification for L-Parameters*, Journal of Algebra Volume 511, 1 October 2018, Pages 299-357 ([arXiv:1407.6494](https://arxiv.org/abs/1407.6494), [doi:10.1016/j.jalgebra.2018.06.012](https://doi.org/10.1016/j.jalgebra.2018.06.012))
