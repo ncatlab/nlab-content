@@ -8,7 +8,7 @@
 
 The *moduli stack of L-parameters* is an [[algebraic stack|algebraic]] [[moduli stack]] that parametrizes [[L-parameters]], which generalize the [[Weil-Deligne representations]] for the [[local Langlands correspondence]] when the [[reductive group]] is not the [[general linear group]] $GL_n$.
 
-The corresponding notion in the [[geometric Langlands correspondence]] is the [[moduli stack]] of [[local systems]] (recall that local systems on a curve give representations of its [[fundamental group]], hence are akin to [[Galois representations]]).
+The corresponding notion in the [[geometric Langlands correspondence]] is the [[moduli stack]] of [[local systems]] (recall -- e.g. from [Deligne 1970](local system#Deligne70) -- that local systems on a curve (or any space) give [[linear representations]] of its [[fundamental group]], hence are akin to [[Galois representations]]).
 
 ## References
 
