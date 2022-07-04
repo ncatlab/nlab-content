@@ -68,7 +68,9 @@ It is not true that every residue field with decidable equality is Heyting. The 
 Let $p$ be a proposition. We define the set $R_p$ to be the union of $\mathbb{Z}$ and $\{x \in \mathbb{Q} \vert p\}$
 \end{definition}
 
-$R_p$ is a subring of $\mathbb{Q}$. Since $R_p$ is a subset of $\mathbb{Q}$ and $\mathbb{Q}$ has decidable equality, $R_p$ also has decidable equality. And of course $0\neq 1$ in $R_p$. 
+$R_p$ is a subring of $\mathbb{Q}$. 
+
+Since $R_p$ is a subset of $\mathbb{Q}$ and $\mathbb{Q}$ has decidable equality, $R_p$ also has decidable equality. And of course $0\neq 1$ in $R_p$. 
 
 \begin{theorem}
 $R_p$ is a residue field iff $\neg \neg p$. 
@@ -81,11 +83,11 @@ Conversely, suppose $R_p$ is a residue field. Then $2\neq 0$, so $2$ does not fa
 \end{proof}
 
 \begin{theorem}
-$R_p$ is a Heyting field iff $p$ iff $R_p$ is a discrete field. 
+$R_p$ is a Heyting field iff it is the case that $p$ iff $R_p$ is a discrete field. 
 \end{theorem}
 
 \begin{proof}
-Suppose $R$ is a Heyting field. Then either $2$ or $3$ has a multiplicative inverse, so either $2-1 \in R_p$ or $3-1\in R_p$. In either case, we see that $p$ holds. If $p$ holds, then $R_p \cong \mathbb{Q}$, which is a discrete field. And if $R_p$ is a discrete field, it is clearly a Heyting field.
+Suppose $R_p$ is a Heyting field. Then either $2$ or $3$ has a multiplicative inverse, so either $2-1 \in R_p$ or $3-1\in R_p$. In either case, we see that $p$ holds. If $p$ holds, then $R_p \cong \mathbb{Q}$, which is a discrete field. And if $R_p$ is a discrete field, it is clearly a Heyting field.
 \end{proof}
 
 \begin{theorem}
