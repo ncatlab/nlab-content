@@ -125,7 +125,7 @@ for the unordered unlabeled configuration space of any [[finite number]] of poin
 ###### Remark
 **([[monoid]]-[[mathematical structure|structure]] on [[configuration space of points]])
 
-For $X = \mathbb{R}^D$ a [[Euclidean spaces]] the configuration space of points $Conf\big( \mathbb{R}^D \big)$ (eq:UnorderedUnlabeledConfigurationSpace) carriesthe [[mathematical structure|structure]] of a [[topological monoid]] with product operation being the [[disjoint union]] of point configurations, after a suitable shrinking to put them next to each other ([Segal 73, p. 1-2](#Segal73)).
+For $X = \mathbb{R}^D$ a [[Euclidean spaces]] the configuration space of points $Conf\big( \mathbb{R}^D \big)$ (eq:UnorderedUnlabeledConfigurationSpace) carries the [[mathematical structure|structure]] of a [[topological monoid]] with product operation being the [[disjoint union]] of point configurations, after a suitable shrinking to put them next to each other ([Segal 73, p. 1-2](#Segal73)).
 
 For emphasis, we write $B_{{}_{\sqcup}\!} Conf(\mathbb{R}^D)$ for the [[delooping]] ("[[classifying space]]") with respect to this [[topological monoid]]-[[structure]]. The corresponding [[based loop space]] is then the [[group completion]] of the configuration space, with respect to disjoint union of points:
 
