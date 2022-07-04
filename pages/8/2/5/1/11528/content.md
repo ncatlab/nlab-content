@@ -153,7 +153,7 @@ $$
 
 * [[right Quillen functor]], $triv$, assigns [[trivial actions]];
 
-* [[left Quillen functor]], $(-)/G$, assigns [[topological quotient spaces]] by the [[relation]] $G \times X \underoverset{pr_2}{\mathclap{(-)\cdot(-)}}{\rightrightarrows}$.
+* [[left Quillen functor]], $(-)/G$, assigns [[topological quotient spaces]] by the [[relation]] $G \times X \underoverset{pr_2}{\mathclap{(-)\cdot(-)}}{\rightrightarrows} X$.
 
 \end{prop}
 ([Guillou 2006, Ex. 5.5](#Guillou06))
