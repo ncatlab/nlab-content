@@ -114,7 +114,7 @@ Let $\rho_{i}:W_{F}\to \mathbb{C}^{\times}$ be the representation of the Weil gr
 
 ## Geometrization
 
-Fargues-Scholze have developed a geometric approach to the local Langlands conjecture in [FarguesScholze21](#FarguesScholze21). In this formulation the local Langlands correspondence is expressed as an equivalence between the category of certain $\ell$-adic sheaves on the moduli stack $\mathrm{Bun}_{G}$ of $G$-torsors on the [[Fargues-Fontaine curve]] on one hand, and the category of certain coherent sheaves on the [[moduli stack of L-parameters]] in the other (compare [[geometric Langlands correspondence]]). More precisely:
+Fargues-Scholze have developed a geometric approach to the local Langlands conjecture in [FarguesScholze21](#FarguesScholze21). In this formulation the local Langlands correspondence is expressed as an equivalence between the derived category of certain $\ell$-adic sheaves (this requires the theory of [[solid abelian groups]] from [[condensed mathematics]]) on the moduli stack $\mathrm{Bun}_{G}$ of $G$-torsors on the [[Fargues-Fontaine curve]] on one hand, and the derived category of certain coherent sheaves on the [[moduli stack of L-parameters]] in the other (compare [[geometric Langlands correspondence]]). More precisely:
 
 \begin{conjecture}
 There is an equivalence
