@@ -88,7 +88,7 @@ This is non-archimedean.
  {#OnTheRealAndComplexNumbers}
 
 
-Since the [[real numbers]] are a [[totally ordered abelian group]], the standard absolute value ${\vert {-} \vert_\infty}$ on the [[real numbers]] is
+Since the [[real numbers]] are a [[pseudolattice ordered abelian group]], the standard absolute value ${\vert {-} \vert_\infty}$ on the [[real numbers]] is
 
 $$
   {\vert x \vert_\infty} = \max(x, -x)
