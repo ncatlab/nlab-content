@@ -46,6 +46,21 @@ Any lattice that satisfies one of the two binary distributivity laws must also s
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+Each distributivity law holds in one direction in any lattice (the proofs of which may be left as an exercise):
+
+* $x \vee (y \wedge z) \leq (x \vee y) \wedge (x \vee z)$
+* $x \wedge (y \vee z) \geq (x \wedge y) \vee (x \wedge z)$
+
+As a result, the real content of the definition consists of the converse directions (and as remarked above, either one suffices):
+
+* $x \vee (y \wedge z) \geq (x \vee y) \wedge (x \vee z)$
+* $x \wedge (y \vee z) \leq (x \wedge y) \vee (x \wedge z)$
+
+=--
+
 ## Alternative characterizations 
 
 As mentioned above, the theory of distributive lattices is self-dual, something that is proved in almost any account (or left as an exercise), but which is not manifestly obvious from the standard definition which chooses one of the two distributivity laws and goes from there. In this section we provide some other characterizations or axiomatizations which *are* manifestly self-dual. 
