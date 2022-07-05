@@ -435,7 +435,11 @@ which can then be linked to from within the same page by writing
 
 #### Definition/Proposition/Theorem-numbering
 
-When you write a numbered definition or proposition or theorem, you can also simultaneously create an anchor by writing:
+When you write a numbered definition or proposition or theorem, you can also simultaneously create an anchor.
+
+In the [LaTeX-style syntax](#LatexSyntax), use `\label` inside the theorem/etc. environment as usual.
+
+In the older syntax, write:
 
      +-- {: .num_defn #definitionname}
      ###### Definition
@@ -454,19 +458,20 @@ When you write a numbered definition or proposition or theorem, you can also sim
      ...
      =--
 
-And then you can link to it in the same ways:
+Then you can link to it in the same ways:
 
 <nowiki>
      [[some page#theoremname|see this theorem]]
      [see this theorem](#theoremname)
 </nowiki>
 
-When you link to a theorem on the *same* page, however, it's better to use the syntax (without the space between `\ref` and `{`, it is present here just to avoid it being parsed:
+When you link to a theorem on the *same* page, however, it's better to use the `\ref` syntax (without the space between `\ref` and `{`, it is present here just to avoid it being parsed):
 
      see Theorem <nowiki>\ref {theoremname}</nowiki>
 
-(which inserts the number, as well as creates a hyperlink) since that will also work properly when the page is exported to LaTeX.
+This inserts the number as well as creating a hyperlink, and will also work properly when the page is exported to LaTeX.
 
+{#LabelNames} Note that not all labels which would be valid in LaTeX are accepted.  In particular, the hyphen character `-` cannot be used in a label.  Instead of <nowiki>\label{foo-bar}</nowiki>, consider <nowiki>\label{FooBar}</nowiki>.
 
 
 #### Equation numbering
@@ -484,9 +489,17 @@ To refer to this numbered equation, add a label
        \exp(\pi i) + 1 = 0 
      \]
 
-and then refer to it later in the text by typing
+and then refer to it later in the text by using `\eqref` just like in LaTeX:
 
-     see equation <nowiki>(eq:SomeEquation)</nowiki>.
+     See equation <nowiki>\eqref {SomeEquation}</nowiki>.
+
+(Leave out the space after `\eqref`, which is present here just to avoid it being parsed.)
+
+There is also an older, non-TeX syntax for equation references (use an actual colon `:` in place of `-colon-`, which is used here to prevent the example from being parsed):
+
+     See equation <nowiki>(eq-colon-SomeEquation)</nowiki>.
+
+Just [as with theorems](#LabelNames), not all labels that would be valid in LaTeX are accepted.
 
 
 #### Table of contents
