@@ -52,6 +52,8 @@ The theory $\mathsf{DLO}$ of the _dense linear order without endpoints_ is the [
 
 * [[homogeneous structure]]
 
+* [[o-minimal structure]]
+
 * [[locator]]
 
 ## References
