@@ -1,4 +1,11 @@
 
+\begin{conjecture}\label{a-b=c}
+**(the $a-b=c$ conjecture)**
+We boldly conjecture that $a - b = c$. 
+\end{conjecture}
+
+See again Conjecture \ref{a-b=c}.
+
 the equations 
 $$
 \begin{aligned}
@@ -11,9 +18,12 @@ x \wedge_{\neg\neg} \neg x
 $$ 
 so that
 
-\[ 1 = 1 \label{a-b} \]
+\[ 
+  \label{a-b}
+  1 = 1  
+\]
 \[ 2 = 2 \label{AbC} \]
-Equation \ref{a-b}; equation \ref{AbC}; equation \eqref{a-b}; equation \eqref{AbC}.
+Equation (eq:a-b) \ref{a-b}; equation \ref{AbC}; equation \eqref{a-b}; equation \eqref{AbC}.
 
 Instead of <nowiki>\label{foo-bar}</nowiki>, consider <nowiki>\label{FooBar}</nowiki>.
 
