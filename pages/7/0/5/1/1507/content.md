@@ -26,7 +26,7 @@ In an [[abelian category|abelian]] or [[semi-abelian category]], a _splitting_ o
 
 $$1 \to A \stackrel{i}{\to} B \stackrel{q}{\to} C \to 1$$
 
-is given by a [[section]] $j: C \to B$ of $q$. This yields an idempotent $\pi = j \circ q$; in the abelian category case, this yields a further idempotent $1_B - \pi$ which is canonically split by a further retraction of $i: A \to B$. 
+is given by a [[section]] $j: C \to B$ of $q$. This yields an idempotent $\pi = j \circ q$; in the abelian category case, this yields a further idempotent $1_B - \pi$ which is canonically split by a further retraction of $i: A \to B$, thus yielding a [[biproduct]] diagram. 
 
 ## Properties 
 
