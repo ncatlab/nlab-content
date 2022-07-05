@@ -43,13 +43,6 @@ Additionally, we tend to use the term 'completion' only for a [[faithful functor
 * [[MacNeille completion]] of a [[partially ordered set]]
 
 * [[profinite completion of a group|profinite completion]] of a discrete group 
-  +--{: .query}
-  Is this a case of profinite completion of a category, i.e., adding cofiltered limits?
-
-  [[Mike Shulman]]: No, I don't think so.  Are you thinking of viewing a group as a one-object groupoid?  The profinite completion of a group is not an ordinary group but a [[profinite group]], which is thus not a category, at least not in the same sense.
-
-  [[Mike Shulman]]: Also, is the unit of this adjunction monic?  Off the top of my head I see no reason for it to be.
-  =--
 
 * [[Grothendieck group]] of a cancellative commutative [[monoid]]; [[group completion]] of a cancellative monoid
 
