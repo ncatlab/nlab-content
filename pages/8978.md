@@ -30,15 +30,32 @@ An **$A_n$-space** or **$A_n$-algebra in spaces** is a space (in the sense of an
 
 * ...
 
-* An [[A-infinity space|$A_\infty$-space]] has all coherent higher associativity homotopies.
+* An [[A-infinity space|$A_\infty$-space]] has all [[coherence|coherent]] higher associativity homotopies.
 
 ## Related concepts
 
+* [[A-infinity space|$A_\infty$-space]]
+
 * [[E-n algebra]]
-* [[A2-spatial groupoid]]
-* [[A3-spatial groupoid]]
-* [[A4-spatial groupoid]]
+
+* [[A2-groupoid]]
+
+* [[A3-groupoid]]
+
 * [[k-tuply associative n-groupoid]]
+
+## References
+
+The notion is originally due to:
+
+* {#Stasheff63a} [[Jim Stasheff]], *Homotopy associativity of H-spaces I*, Trans. Amer. Math. Soc. **108** 2 (1963) 275-292 &lbrack;[doi:10.2307/1993608](https://doi.org/10.2307/1993608)&rbrack;
+
+* {#Stasheff63b} [[Jim Stasheff]], *Homotopy associativity of H-spaces II* **108** 2 (1963) 293-312 &lbrack;[doi:10.2307/1993609](https://doi.org/10.2307/1993609), [doi:10.1090/S0002-9947-1963-0158400-5](https://doi.org/10.1090/S0002-9947-1963-0158400-5)&rbrack;
+
+Early review:
+
+* {#Adams78} [[John Adams]], §2.2 of: _Infinite loop spaces_, Hermann Weyl lectures at IAS 1974, Annals of Mathematics Studies **90**, Princeton University Press (1978) &lbrack;[ISBN:9780691082066](https://press.princeton.edu/books/paperback/9780691082066/infinite-loop-spaces-am-90-volume-90), [doi:10.1515/9781400821259](https://doi.org/10.1515/9781400821259)&rbrack;
+
 
 [[!redirects A-n-space]]
 [[!redirects An-space]]
