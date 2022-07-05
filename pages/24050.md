@@ -40,7 +40,7 @@ A very special case of this general notion has almost been considered in [Scholz
 
 ## Definition
 
-A **condensed spectrum** is a [[(infinity,1)-sheaf]] of [[spectra]] on the [[pro-étale (infinity,1)-site]] of the point, small relative to a universe $\mathcal{U}$. 
+A **condensed spectrum** is a [[hypercomplete object | hypercomplete]] [[(infinity,1)-sheaf]] of [[spectra]] on the [[pro-étale (infinity,1)-site]] of the point, small relative to a universe $\mathcal{U}$. 
 
 ## See also
 
