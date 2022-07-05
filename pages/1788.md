@@ -1,4 +1,16 @@
 
+the equations 
+$$
+\begin{aligned}
+x \vee_{\neg \neg} \neg x
+& = \neg \neg (x \vee \neg x) = \neg (\neg x \wedge \neg \neg x) = \neg 0 = 1
+\\
+x \wedge_{\neg\neg} \neg x
+& = x \wedge \neg x = 0
+\end{aligned}
+$$ 
+so that
+
 \[ 1 = 1 \label{a-b} \]
 \[ 2 = 2 \label{AbC} \]
 Equation \ref{a-b}; equation \ref{AbC}; equation \eqref{a-b}; equation \eqref{AbC}.
