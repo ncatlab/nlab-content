@@ -21,7 +21,7 @@
 
 The **cellular approximation theorem** states that every [[continuous map]] between [[CW complexes]] (with chosen CW presentations) is [[homotopy|homotopic]] to a [[cellular map]], hence a map that respects the [[cell complex]]-structure, mapping [[n-skeleta]] to $n$-skeleta for all $n$.
 
-This is the analogue for [[CW-complexes]] of the [[simplicial approximation theorem]] (sometimes also called lemma): that every continuous map between the [[geometric realizations]] of [[simplicial complexes]] is [[homotopy|homotopic]] to a map induced by a map of [[simplicial complexes]] (after subdivision). 
+This is the analogue for [[CW-complexes]] of the [[simplicial approximation theorem]]: that every continuous map between the [[geometric realizations]] of [[simplicial complexes]] is [[homotopy|homotopic]] to a map induced by a map of [[simplicial complexes]] (after subdivision). 
 
 ## Statement 
 
