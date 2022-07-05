@@ -87,7 +87,7 @@ Suppose otherwise: let $a, b \gt 0$ be given, and suppose $b$ is an upper bound 
 
 The following is a result in classical mathematics. 
 
-+-- {: .un_thm}
++-- {: .un_prop}
 ###### Proposition 
 A field admits an order ("is orderable") if and only if it is a **real field**, i.e., if the element $-1$ is not a sum of squares. 
 =-- 
