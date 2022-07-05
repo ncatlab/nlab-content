@@ -28,6 +28,10 @@ Remarkably, quite a lot can be said about the structure of definable sets in an 
 
 A [[theory]] is o-minimal if every model $M$ of $T$ is an o-minimal structure. 
 
+## Relation to number theory and arithmetic geometry
+
+The theory of o-minimal structures has applications to [[number theory]] and [[arithmetic geometry]], for example via the Pila-Wilkie theorem, which is used in proofs of Lang's conjecture, the Manin-Mumford conjecture, and the Andre-Oort conjecture (see [Tsimerman19](#Tsimerman19)).
+
 ## Links
 
 * wikipedia [o-minimal theory](http://en.wikipedia.org/wiki/O-minimal_theory)
@@ -61,6 +65,7 @@ A [[theory]] is o-minimal if every model $M$ of $T$ is an o-minimal structure.
 
 * [[Reid Barton]], Johan Commelin, _Model categories for o-minimal geometry_ ([arXiv:2108.11952](https://arxiv.org/abs/2108.11952))
 
+* {#Tsimerman19} Jacob Tsimerman, _Functional transcendence results and arithmetic applications_, Proceedings of the International Congress of Mathematicians (ICM 2018), pp. 435-454 (2019) [doi](https://doi.org/10.1142/9789813272880_0062) [pdf] (https://eta.impa.br/dl/091.pdf)
 
 [[!redirects O-minimal structure]]
 [[!redirects o-minimal structures]]
