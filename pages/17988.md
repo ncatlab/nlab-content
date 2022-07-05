@@ -112,7 +112,6 @@ See also:
 
 * {#DonoghuePercacci21} [[John Donoghue]] vs. [[Roberto Percacci]], *Debate on Asymptotically Safe Quantum Gravity*, Perimeter Institute, April 2021 ([video](https://pirsa.org/21040021), [slides](https://pdf.pirsa.org/files/21040021.pdf))
 
-
 * {#BiemansPlataniaSaueressig17} Jorn Biemans, Alessia Platania, Frank Saueressig, _Renormalization group fixed points of foliated gravity-matter systems_ ([arXiv:1702.06539](https://arxiv.org/abs/1702.06539))
 
 The suggestion that asymptotic safety explains the observed [[mass]] of the [[Higgs particle]] is attributed to
@@ -129,13 +128,25 @@ Application to [[scattering amplitudes]]:
 
 * Jan H. Kwapisz, Krzysztof A. Meissner, _Asymptotic safety and quantum gravity amplitudes_ ([arXiv:2005.03559](https://arxiv.org/abs/2005.03559))
 
-Unitarity in Asymptotic Safety:
+Unitarity, causality and stability in Asymptotic Safety:
 
 * Alessia Platania, Christof Wetterich, _Non-perturbative unitarity and fictitious ghosts in quantum gravity_ ([arXiv:2009.06637](https://arxiv.org/abs/2009.06637))
 
-Relation to [[AdS/CFT]]:
+* Alessia Platania _Causality, unitarity and stability in quantum gravity: a non-perturbative perspective_ ([arXiv:2206.04072](https://arxiv.org/abs/2206.04072))
 
-* {#FR22} Renata Ferrero, [[Martin Reuter]], *AdS/CFT and dS/CFT correspondences emerging from Asymptotic Safety?* $[$[arXiv:2205.12030](https://arxiv.org/abs/2205.12030)$]$
+Relation to String Theory:
+
+* Senarath de Alwis, et al. _Asymptotic safety, string theory and the weak gravity conjecture_ ([arXiv:1907.07894](https://arxiv.org/abs/1907.07894))
+
+* Ivano Basile, Alessia Platania _Cosmological α′-corrections from the functional renormalization group_ ([arXiv:2101.02226](https://arxiv.org/abs/2101.02226))
+
+* Ivano Basile, Alessia Platania _String tension between de Sitter vacua and curvature corrections_ ([arXiv:2103.06276](https://arxiv.org/abs/2103.06276))
+
+* Ivano Basile, Alessia Platania _Asymptotic Safety: Swampland or Wonderland?_ ([arXiv:2107.06897](https://arxiv.org/abs/2107.06897))
+
+* Fei Gao, Masatoshi Yamada _Determining holographic wave functions from Wilsonian renormalization group_ ([arXiv:2202.13699](https://arxiv.org/abs/2202.13699))
+
+* Renata Ferrero, [[Martin Reuter]], *AdS/CFT and dS/CFT correspondences emerging from Asymptotic Safety?* $[$[arXiv:2205.12030](https://arxiv.org/abs/2205.12030)$]$
 
 
 
