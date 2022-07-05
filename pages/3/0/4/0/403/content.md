@@ -53,35 +53,72 @@ such that the following [[diagrams]] [[commuting diagram|commute]], expressing t
 
 $$
 \array{
-C_0 & \stackrel{e}{\to} & C_1 \\
-{}  & 1\searrow         & \darr s \\
-{}  & {}                & C_0
+  C_0 
+  & \overset{e}{\longrightarrow} 
+  & 
+  C_1 
+  \\
+  {}  
+  & 
+  \mathllap{{}_{1}}\searrow         
+  & 
+  \big\downarrow \mathrlap{{}^{s}} 
+  \\
+  {}  & {} & C_0
 }
 \quad\quad\quad\quad
 \array{
-C_0 & \stackrel{e}{\to} & C_1 \\
-{}  & 1\searrow         & \darr t \\
-{}  & {}                & C_0
+  C_0 
+  & 
+  \overset{e}{\longrightarrow} 
+  & 
+  C_1 
+  \\
+  {}  & \mathllap{{}_{1}}\searrow & 
+  \big\downarrow \mathrlap{{}^{t}} 
+  \\
+  {} & {} & 
+  C_0
 }
 $$
 
-* laws specifying the source and target of composite morphisms:
+* laws specifying the [[source]] and [[target]] of composite morphisms:
 
 $$
 \array{
-C_1 \times_{C_0} C_1 & \stackrel{c}{\to} & C_1 \\
-{}^{p_1}\downarrow   & {}                & \downarrow^{s} \\
-C_1                  & \stackrel{s}{\to} & C_0
+  C_1 \times_{C_0} C_1 
+  & \overset{c}{\longrightarrow} & C_1 
+  \\
+  \mathllap{{}^{p_1}}\big\downarrow   
+  & {} & 
+  \big\downarrow \mathrlap{{}^{s}} 
+  \\
+  C_1 
+  & 
+  \underset{s}{\longrightarrow} 
+  & 
+  C_0
 }
 \quad\quad\quad\quad
 \array{
-C_1 \times_{C_0} C_1 & \stackrel{c}{\to} & C_1 \\
-{}^{p_2}\downarrow   & {}                & \downarrow^{t} \\
-C_1                  & \stackrel{t}{\to} & C_0
+  C_1 \times_{C_0} C_1 
+  & 
+  \overset{c}{\longrightarrow} 
+  & 
+  C_1 
+  \\
+  \mathllap{{}^{p_2}}\big\downarrow   
+  & {} & 
+  \big\downarrow\mathrlap{{}^{t}} 
+  \\
+  C_1 & 
+  \underset{t}{\longrightarrow} 
+  & 
+  C_0
 }
 $$
 
-* the associative law for composition of morphisms:
+* the [[associative law]] for [[composition]] of morphisms:
 
 \begin{centre}
 
@@ -95,7 +132,7 @@ $$
 
 \end{centre}
 
-* the left and right unit laws for composition of morphisms:
+* the left and right [[unit laws]] for composition of morphisms:
 
 $$
 \array{
@@ -106,13 +143,24 @@ C_0 \times_{C_0} C_1  & \stackrel{e \times_{C_0} 1}{\to} &
 }
 $$
 
-The relevant pullbacks and uniquely induced isomorphisms are formed as below:
+The relevant [[pullbacks]] and [[universal property|uniquely induced]] [[isomorphisms]] are formed as below:
 
 $$
 \array{
-C_1 \times_{C_0} C_1 & \stackrel{p_2}{\to} & C_1 \\
-{}^{p_1}\downarrow   & {}                  & \downarrow^{s} \\
-C_1                  & \stackrel{t}{\to}   & C_0
+  C_1 \times_{C_0} C_1 
+  & 
+  \overset{p_2}{\longrightarrow} 
+  & 
+  C_1 
+  \\
+  \mathllap{{}^{p_1}}\big\downarrow   
+  & {} & 
+  \big\downarrow \mathrlap{{}^{s}} 
+  \\
+  C_1 & 
+  \underset{t}{\longrightarrow} 
+  & 
+  C_0
 }
 $$
 
