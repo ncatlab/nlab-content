@@ -8,9 +8,11 @@
 
 ## Selected writings
 
-On [[A-∞ algebras]]:
+On [[An-spaces|$A_n$-spaces]] and [[A-∞ algebras]]:
 
-* {#Stasheff63} [[Jim Stasheff]], *Homotopy associativity of H-spaces I*, Trans. Amer. Math. Soc. 108 (1963), p. 275-292 ([doi:10.1090/S0002-9947-1963-0158400-5](https://doi.org/10.1090/S0002-9947-1963-0158400-5))
+* {#Stasheff63a} [[Jim Stasheff]], *Homotopy associativity of H-spaces I*, Trans. Amer. Math. Soc. **108** 2 (1963) 275-292 &lbrack;[doi:10.2307/1993608](https://doi.org/10.2307/1993608)&rbrack;
+
+* {#Stasheff63b} [[Jim Stasheff]], *Homotopy associativity of H-spaces II* **108** 2 (1963) 293-312 &lbrack;[doi:10.2307/1993609](https://doi.org/10.2307/1993609), [doi:10.1090/S0002-9947-1963-0158400-5](https://doi.org/10.1090/S0002-9947-1963-0158400-5)&rbrack;
 
 On [[characteristic classes]]:
 
