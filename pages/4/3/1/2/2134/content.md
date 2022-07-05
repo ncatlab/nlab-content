@@ -33,18 +33,15 @@ The lemma consists of two parts that depend on different assumptions (a distinct
 
 Let $G$ be a [[group]]. In the following:
 
-* "representation" means _[[linear representation]] of $G$_, linear over some [[ground field]]. 
+* *representation* means _[[linear representation]] of $G$_, linear over some [[ground field]]. 
 
-* "finite dimensional representation" means that the underlying [[vector space]] is a [[finite-dimensional vector space]].
+* *finite dimensional representation* means that the underlying [[vector space]] is a [[finite-dimensional vector space]].
 
-An
+* an *[[irreducible representation]]* is one whose only $G$-[[invariant]] [[subspaces]] ([[fixed point spaces]]) are the trivial degenerate cases: the [[zero object|zero]]-subspace and the full space itself.
 
-* _[[irreducible representation]]_ is one whose only $G$-[[invariant]] [[subspaces]] are the trivial degenerate cases: the [[zero object|zero]]-subspace and the full space itself.
-
-+-- {: .num_prop}
-###### Proposition
+\begin{prop}\label{SchurLemma}
 **(Schur's lemma)**
-
+\linebreak
 1. A [[homomorphism]] $\phi \;\colon\; V\to W$ between [[irreducible representations]], is either the [[zero morphism]] or an [[isomorphism]]. 
 
    It follows that the [[endomorphism ring]] of an [[irreducible representation]] is a [[division ring]].
@@ -53,12 +50,14 @@ An
 
    In other words, nontrivial automorphisms of irreducible representations, _a priori_ possible by (1), are ruled out over algebraically closed fields.  
 
-=--
+\end{prop}
 
 ## Proof
 
 As it goes with very fundamental lemmas, the [[proof]] of Schur's lemma follows by elementary inspection.
 
+\begin{proof}(of Prop. \ref{SchurLemma})
+\linebreak
 For the first statement:
 
 It is immediate to see that both the [[kernel]] as well as [[image]] of a [[homomorphism]] 
@@ -67,7 +66,7 @@ $$
   V \overset{f}{\longrightarrow} W
 $$
 
-of any $G$-[[representations]] are $G$-[[invariant]] [[subspaces]]. But by the very definition of [[irreducible representation|irreducibility]], the only such subspaces of $V$ and $W$ are the degenerate ones: their zero subspaces and the full spaces themselves.
+of any $G$-[[representations]] are $G$-[[invariant]] [[subspaces]] ([[fixed point spaces]]). But by the very definition of [[irreducible representation|irreducibility]], the only such subspaces of $V$ and $W$ are the degenerate ones: their zero subspaces and the full spaces themselves.
 
 Now if the [[kernel]] is all of $V$ or the [[image]] is [[zero object|zero]], then $f$ is the [[zero morphism]]. The only case left is that the [[kernel]] is [[zero object|zero]] _and_ the [[image]] is all of $W$, but this means that $f$ is [[injective map|injective]] and [[surjective map|surjective]] and is hence an [[isomorphism]].
 
@@ -92,6 +91,7 @@ $$
 $$
 
 is a multiple of the identity.
+\end{proof}
 
 ## Interpretation in categorical algebra
  {#InterpretationInCategoricalAlgebra}
