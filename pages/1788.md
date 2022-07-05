@@ -1,4 +1,9 @@
 
+\[ 1 = 1 \label{a-b} \]
+\[ 2 = 2 \label{AbC} \]
+Equation \ref{a-b}; equation \ref{AbC}; equation \eqref{a-b}; equation \eqref{AbC}.
+
+Instead of <nowiki>\label{foo-bar}</nowiki>, consider <nowiki>\label{FooBar}</nowiki>.
 
 $$
   G Act(kTop)_{/ B_G \Gamma}
