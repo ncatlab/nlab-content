@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
 #### Homotopy theory
 +--{: .hide}
 [[!include homotopy - contents]]
@@ -17,7 +21,8 @@
 
 ## Idea 
 
-The simplicial approximation theorem roughly says that if $X$ and $Y$ are [[simplicial complexes]] and $f: {|X|} \to {|Y|}$ is a [[continuous map]] between their [[geometric realizations]], then after further [[subdivisions]] $X'$, $Y'$ there is a simplicial map $g: X' \to Y'$ such that ${|g|}$ is [[homotopy|homotopic]] to $f$. 
+The *simplicial approximation theorem* (also: *simplicial approximation lemma*) roughly says that if $X$ and $Y$ are [[simplicial complexes]] and $f \colon {|X|} \to {|Y|}$ is a [[continuous map]] between their [[topological realizations]], then after further [[subdivisions]] $X'$, $Y'$ there is a simplicial map $g: X' \to Y'$ such that ${|g|}$ is [[homotopy|homotopic]] to $f$. 
+
 
 ## Statement 
 
