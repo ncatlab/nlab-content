@@ -203,16 +203,20 @@ This establishes the claim.
 
 \begin{proof}
 (Proof of Theorem \ref{thm:NegnegAdjoint}.)
-Since $\neg \neg$ is a monad, and $L_{\neg \neg}$ is the corresponding category (poset) of $\neg \neg$-algebras, the left adjoint $\neg \neg \colon L \to L_{\neg \neg}$ preserves joins. Since this map is epic, this also gives the fact that $L_{\neg \neg}$ has joins. The map $L \to L_{\neg\neg}$ preserves meets by the preceding lemma, and $\neg \neg 1 = \neg 0 = 1$. Thus $L \to L_{\neg\neg}$ is a surjective lattice map, and it follows that $L_{\neg\neg}$ is distributive because (by Proposition \ref{prop:distributive}) $L$ is. 
+Since $\neg \neg$ is a monad, and $L_{\neg \neg}$ is the corresponding category (poset) of $\neg \neg$-algebras, the left adjoint $\neg \neg \colon L \to L_{\neg \neg}$ preserves joins; and by the preceding lemma, it preserves finite meets. Thus $L \to L_{\neg\neg}$ is a surjective lattice map, and it follows that $L_{\neg\neg}$ is distributive because (by Proposition \ref{prop:distributive}) $L$ is. 
 
-Working in $L_{\neg \neg}$ (where the join will be written $\vee_{\neg\neg}$ and the meet $\wedge_{\neg\neg}$), we have for any $x \in L_{\neg \neg}$ the equations 
+For any $x \in L$, we have $x \leq \neg \neg x$ because $\neg \neg$ is a monad, hence $\neg \neg \neg x \leq \neg x$ because $\neg$ is antimonotone, so $\neg x$ is fixed by $\neg \neg$ and is in $L_{\neg \neg}$.
 
-$$x \vee_{\neg \neg} \neg x = \neg \neg (x \vee \neg x) = \neg (\neg x \wedge \neg \neg x) = \neg 0 = 1$$ 
-
-$$\,$$ 
-
-$$x \wedge_{\neg\neg} \neg x = x \wedge \neg x = 0$$ 
-
+Then working in $L_{\neg \neg}$ (where the join will be written $\vee_{\neg\neg}$ and the meet $\wedge_{\neg\neg}$), we have for any $x \in L_{\neg \neg}$ the equations
+$$
+\begin{aligned}
+x \vee_{\neg \neg} \neg x
+& = \neg \neg (x \vee \neg x) = \neg (\neg x \wedge \neg \neg x) = \neg 0 = 1
+\\
+x \wedge_{\neg\neg} \neg x
+& = x \wedge \neg x = 0
+\end{aligned}
+$$
 so that $\neg x$ is the complement of $x \in L_{\neg \neg}$. We have thus shown that $L_{\neg\neg}$ is a complemented distributive lattice, i.e., a Boolean algebra. This calculation also shows that $\neg\neg \colon L \to L_{\neg\neg}$ preserves negation. 
 
 To show $L \to L_{\neg\neg}$ preserves implication, we may start from the observation (see the following lemma) that in any Heyting algebra $L$, we have 
