@@ -136,25 +136,21 @@ and another characterization of Boolean algebra is a Heyting algebra in which th
 
 There are several ways of passing back and forth between Boolean algebras and Heyting algebras, having to do with the [[double negation]] operator. A useful lemma in this regard is 
 
-+-- {: .un_lemma}
-###### Lemma
-
+\begin{lem}\label{lem:NegnegMeets}
 The double negation $\neg \neg\colon L \to L$ is a [[monad]] that preserves finite meets. 
-=--
+\end{lem}
 
 The proof can be made purely equational, and is therefore internally valid in any category with products. Applied to the internal Heyting algebra $L = \Omega$ of a [[topos]], that is the [[subobject classifier]], this lemma says exactly that the double negation operator $\neg \neg\colon \Omega \to \Omega$ defines a [[Lawvere–Tierney topology]]. Similarly, we get the [[double negation sublocale]] of any [[locale]].
 
 Now let $L_{\neg\neg}$ denote the poset of _[[regular element]]s_ of $L$, that is, those elements $x$ such that $\neg\neg x = x$. (When $L$ is the topology of a space, an open set $U$ is [[regular open subspace|regular]] if and only if it is the interior of its closure, that is if it is a regular element of the Heyting algebra of open sets described above.) With the help of the lemma above, we may prove
 
-+-- {: .num_theorem}
-###### Theorem
-
+\begin{thm}\label{thm:NegnegAdjoint}
 The poset $L_{\neg\neg}$ is a Boolean algebra. Moreover, the assignment $L \mapsto L_{\neg\neg}$ is the object part of a functor 
 $$F\colon Heyt \to Bool$$
 called _Booleanization_, which is left adjoint to the full and faithful inclusion 
 $$i\colon Bool \hookrightarrow Heyt.$$
 The unit of the [[adjoint functor|adjunction]], applied to a Heyting algebra $L$, is the map $L \to L_{\neg\neg}$ which maps each element $x$ to its _[[regular element|regularization]]_ $\neg\neg x$.
-=--
+\end{thm}
 
 Thus $\neg\neg\colon L \to L_{\neg\neg}$ preserves finite joins and finite meets and implication. In the other direction, we have an inclusion $i\colon L_{\neg\neg} \to L$, and this preserves meets but not joins. It also preserves negations; more generally and perhaps surprisingly, it preserves implications as well. 
 
@@ -162,38 +158,55 @@ Regular elements are not to be confused with _[[complemented element]]s_, i.e., 
 
 Complemented elements furnish another universal relation between Boolean algebras and Heyting algebras: the set of complemented elements in a Heyting algebra $H$ is a Boolean algebra $Comp(H)$, and the inclusion $Comp(H) \to H$ is a Heyting algebra map which is universal among Heyting algebra maps $B \to H$ out of Boolean algebras $B$. In other words, we have the following result.  
 
-+-- {: .num_theorem}
-###### Theorem 
+\begin{thm}\label{thm:CompAdjoint}
 The assignment $H \mapsto Comp(H)$ is the object part of a right adjoint to the forgetful functor $Bool \to Heyt$. 
-=-- 
+\end{thm}
 
 
 #### Proofs
 {#proofs}
 
-We prove the lemma and theorems of the preceding section. 
+We prove the lemma and theorems of the preceding section.
 
-+-- {: .proof}
-###### Proof of lemma
-Since $\neg \neg$ preserves order, it is clear that $\neg \neg(x \wedge y) \leq \neg \neg x$ and $\neg \neg(x \wedge y) \leq \neg \neg y$, so 
+\begin{proof}
+(Proof of Lemma \ref{lem:NegnegMeets}.)
+We show that $\neg \neg$ preserves finite meets.  Nullary meets are trivial: $\neg \neg 1 = \neg 0 = 1$.
 
-$$\neg \neg (x \wedge y) \leq (\neg \neg x) \wedge (\neg \neg y)$$  
+For binary meets, the direction
+$\neg \neg (x \wedge y) \leq (\neg \neg x) \wedge (\neg \neg y)$
+holds simply because $\neg \neg$ is monotone.
 
-follows. In the other direction, to show 
+In the other direction, we show
+$
+(\neg \neg x) \wedge (\neg \neg y) \leq \neg \neg (x \wedge y)
+$
+by observing that
+$
+\neg (x \wedge y) = (x \Rightarrow \neg y)
+$
+and then calculating:
+$$
+\begin{aligned}
+  (\neg \neg x) \wedge (\neg \neg y) \wedge \neg (x \wedge y)
+  & =
+  (\neg \neg x) \wedge (\neg y \Rightarrow 0) \wedge (x \Rightarrow \neg y)
+  \\
+  & \leq
+  (\neg \neg x) \wedge (x \Rightarrow 0)
+  \\
+  & =
+  (\neg x \Rightarrow 0) \wedge \neg x
+  \\
+  & \leq
+  0
+  \, .
+\end{aligned}
+$$
 
-$$(\neg \neg x) \wedge (\neg \neg y) \leq \neg \neg (x \wedge y),$$ 
+\end{proof}
 
-we show $(\neg \neg x) \wedge (\neg \neg y) \wedge \neg (x \wedge y) \leq 0$. But we have $\neg (x \wedge y) = (y \Rightarrow \neg x)$, and we also have the general result 
-$$(a \Rightarrow b) \wedge (b \Rightarrow c) \leq (a \Rightarrow c).$$ 
-Putting $a = y$, $b = \neg x$, $c = 0$, we obtain 
-$$\neg (x \wedge y) \wedge (\neg \neg x) \leq \neg y$$ 
-and so now 
-$$\neg (x \wedge y) \wedge (\neg \neg x) \wedge (\neg \neg y) \leq (\neg y) \wedge (\neg \neg y) \leq 0$$ 
-as required. 
-=-- 
-
-+-- {: .proof}
-###### Proof of theorem 1
+\begin{proof}
+(Proof of Theorem \ref{thm:NegnegAdjoint}.)
 Since $\neg \neg$ is a monad, and $L_{\neg \neg}$ is the corresponding category (poset) of $\neg \neg$-algebras, the left adjoint $\neg \neg \colon L \to L_{\neg \neg}$ preserves joins. Since this map is epic, this also gives the fact that $L_{\neg \neg}$ has joins. The map $L \to L_{\neg\neg}$ preserves meets by the preceding lemma, and $\neg \neg 1 = \neg 0 = 1$. Thus $L \to L_{\neg\neg}$ is a surjective lattice map, and it follows that $L_{\neg\neg}$ is distributive because (by Proposition \ref{prop:distributive}) $L$ is. 
 
 Working in $L_{\neg \neg}$ (where the join will be written $\vee_{\neg\neg}$ and the meet $\wedge_{\neg\neg}$), we have for any $x \in L_{\neg \neg}$ the equations 
@@ -223,7 +236,8 @@ $$\array{
 where the last expression is $(\neg \neg a) \Rightarrow (\neg \neg b)$ as computed in the Boolean algebra $L_{\neg \neg}$, since in a Boolean algebra we have $(x \Rightarrow y) = (\neg x \vee y)$. 
 
 Therefore $L \to L_{\neg\neg}$ is a Heyting algebra quotient which is the coequalizer of $1, \neg\neg \colon L \stackrel{\to}{\to} L$. It follows that a Heyting algebra map $L \to B$ to any Boolean algebra $B$ factors uniquely through this coequalizer, and the induced map $L_{\neg \neg} \to B$ is a Boolean algebra map. In other words, $L \to L_{\neg\neg}$ is the universal Heyting algebra map to a Boolean algebra, which establishes the adjunction. 
-=-- 
+
+\end{proof}
 
 +-- {: .un_lem}
 ###### Lemma 
@@ -255,8 +269,8 @@ $$\neg \neg(a \Rightarrow b) = \neg ((\neg \neg a) \wedge (\neg b)) = 0^{(\neg \
 This is important for the [[double negation translation]]. 
 =--
 
-+-- {: .proof} 
-###### Proof of theorem 2
+\begin{proof}
+(Proof of Theorem \ref{thm:CompAdjoint}.)
 In a Heyting algebra $H$, the elements $0$ and $1$ are clearly complemented. If $x$ and $y$ are complemented, then so is $x \wedge y$ since 
 
 $$1 = 1 \wedge 1 = (x \vee \neg x \vee \neg y) \wedge (y \vee \neg x \vee \neg y) = (x \wedge y) \vee (\neg x \vee \neg y)$$ 
@@ -274,7 +288,7 @@ $$\,$$
 $$y^x \wedge x \wedge \neg y \leq y \wedge \neg y = 0.$$ 
 
 Thus the complemented elements form a Heyting subalgebra $Comp(H) \hookrightarrow H$. Clearly $Comp(H)$ is a Boolean algebra, and clearly if $B$ is Boolean, then any Heyting algebra map $B \to H$ factors uniquely through $Comp(H) \hookrightarrow H$. This proves the theorem. 
-=-- 
+\end{proof}
 
 
 ### To toposes
