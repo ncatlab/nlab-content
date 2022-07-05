@@ -21,9 +21,7 @@
 
 ## Definition
 
-+-- {: .un_defn}
-###### Definition
-
+\begin{definition}
 A **Heyting algebra** is a [[lattice]] $L$ which as a [[poset]] admits an operation of [[implication]] 
 
 $$\Rightarrow: L^{op} \times L \to L$$ 
@@ -31,37 +29,35 @@ $$\Rightarrow: L^{op} \times L \to L$$
 satisfying the condition (really a [[universal property]])
 
 $$(x \wedge a) \leq b \qquad if\;and\;only\;if \qquad x \leq (a \Rightarrow b)$$ 
-=--
+
+\end{definition}
 
 This is equivalent to the following definition.
 
-+-- {: .un_defn}
-###### Definition
-
-A Heyting algebra is a [[bicartesian closed category|bicartesian closed]] [[poset]], that is a poset which (when thought of as a [[thin category]]) is
+\begin{definition}
+A **Heyting algebra** is a [[bicartesian closed category|bicartesian closed]] [[poset]], that is a poset which (when thought of as a [[thin category]]) is
 
 * [[finitely complete category|finitely complete]], 
 
 * [[finitely cocomplete category|finitely cocomplete]], 
 
 * and [[cartesian closed category|cartesian closed]].
-=--
+
+\end{definition}
+
 
 The implication $a\Rightarrow b$ is the [[exponential object]] $b^a$. 
 
-+-- {: .un_remark}
-###### Remark
-
+\begin{remark}
 Insofar as all these properties of a poset are described by [[universal properties]], being a Heyting algebra is a [[property-like structure]] on a poset; a poset can be a Heyting algebra in at most one way. 
-=--
+
+\end{remark}
 
 The definition of Heyting algebra may be recast into purely [[algebraic theory|equational form]]: add to the equational theory of lattices the inequalities $(x \Rightarrow y) \wedge x \leq y$ and $y \leq x \Rightarrow (y \wedge x)$, writing these inequalities in equational form via the equivalence $a \leq b$ iff $a = a \wedge b$. Hence we can speak of an __[[internalization|internal]] Heyting algebra__ in any [[cartesian monoidal category|category with products]]. 
 
-+-- {: .un_defn}
-###### Definition
-
+\begin{definition}
 A Heyting algebra [[homomorphism]] is a homomorphism of the underlying [[lattice]]s that preserve $\Rightarrow$.  Heyting algebras and their homomorphisms form a [[concrete category]] [[HeytAlg]].
-=--
+\end{definition}
 
 
 ## Properties
@@ -75,7 +71,7 @@ That is, finite meets distribute over finite joins and vice versa.
 As discussed at [[distributive lattice]], it suffices to prove the nontrivial direction of either of the two (dual) binary distributivity laws.  We prove that for any $x, y, z$ in a Heyting algebra $L$:
 $$ x \wedge (y \vee z) \leq (x \wedge y) \vee (x \wedge z) $$
 
-By the universal property of $\Rightarrow$, this is equivalent to:
+By the [[universal property]] of $\Rightarrow$, this is equivalent to:
 $$ y \vee z \leq
    x \Rightarrow \big( (x \wedge y) \vee (x \wedge z) \big) $$
 But then by the universal property of $\vee$, this follows from the two inequalities
@@ -137,7 +133,7 @@ and another characterization of Boolean algebra is a Heyting algebra in which th
 There are several ways of passing back and forth between Boolean algebras and Heyting algebras, having to do with the [[double negation]] operator. A useful lemma in this regard is 
 
 \begin{lem}\label{lem:NegnegMeets}
-The double negation $\neg \neg\colon L \to L$ is a [[monad]] that preserves finite meets. 
+[[double negation|Double negation]] $\neg \neg\colon L \to L$ is a [[monad]] that [[preserved limit|preserves]] [[finite limit|finite]] [[meets]]. 
 \end{lem}
 
 The proof can be made purely equational, and is therefore internally valid in any category with products. Applied to the internal Heyting algebra $L = \Omega$ of a [[topos]], that is the [[subobject classifier]], this lemma says exactly that the double negation operator $\neg \neg\colon \Omega \to \Omega$ defines a [[Lawvere–Tierney topology]]. Similarly, we get the [[double negation sublocale]] of any [[locale]].
@@ -202,7 +198,7 @@ $$
   \, .
 \end{aligned}
 $$
-
+This establishes the claim.
 \end{proof}
 
 \begin{proof}
@@ -236,16 +232,14 @@ $$\array{
 where the last expression is $(\neg \neg a) \Rightarrow (\neg \neg b)$ as computed in the Boolean algebra $L_{\neg \neg}$, since in a Boolean algebra we have $(x \Rightarrow y) = (\neg x \vee y)$. 
 
 Therefore $L \to L_{\neg\neg}$ is a Heyting algebra quotient which is the coequalizer of $1, \neg\neg \colon L \stackrel{\to}{\to} L$. It follows that a Heyting algebra map $L \to B$ to any Boolean algebra $B$ factors uniquely through this coequalizer, and the induced map $L_{\neg \neg} \to B$ is a Boolean algebra map. In other words, $L \to L_{\neg\neg}$ is the universal Heyting algebra map to a Boolean algebra, which establishes the adjunction. 
-
 \end{proof}
 
-+-- {: .un_lem}
-###### Lemma 
+\begin{lemma}
+\label{DoubleNegInHeytingAlg}
 In a Heyting algebra, $\neg(a \Rightarrow b) = (\neg \neg a) \wedge (\neg b)$. 
-=-- 
+\end{lemma}
 
-+-- {: .proof} 
-###### Proof 
+\begin{proof}
 Since $\neg$ is contravariant and $a \Rightarrow -$ is covariant, we have 
 
 $$\neg(a \Rightarrow b) \leq \neg(a \Rightarrow 0) = (\neg \neg a).$$  
@@ -259,15 +253,14 @@ We conclude that $\neg(a \Rightarrow b) \leq (\neg \neg a) \wedge (\neg b).$ On 
 $$(\neg \neg a) \wedge (\neg b) \wedge (a \Rightarrow b) \leq (\neg \neg a) \wedge (\neg a) \leq 0$$ 
 
 whence $(\neg \neg a) \wedge (\neg b) \leq \neg (a \Rightarrow b)$, which completes the proof. 
-=-- 
+\end{proof}
 
-+-- {: .un_remark}
-###### Remark
-
-It follows from this lemma that double negation on a Heyting algebra $\neg \neg \colon L \to L$ preserves implication, since 
+\begin{remark}
+It follows from Lemma \ref{DoubleNegInHeytingAlg} that [[double negation]] on a Heyting algebra $\neg \neg \colon L \to L$ preserves [[implication]], since 
 $$\neg \neg(a \Rightarrow b) = \neg ((\neg \neg a) \wedge (\neg b)) = 0^{(\neg \neg a) \wedge (\neg b)} = (\neg \neg b)^{(\neg \neg a)} = (\neg \neg a) \Rightarrow (\neg \neg b).$$ 
 This is important for the [[double negation translation]]. 
-=--
+
+\end{remark}
 
 \begin{proof}
 (Proof of Theorem \ref{thm:CompAdjoint}.)
