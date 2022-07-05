@@ -64,6 +64,35 @@ A Heyting algebra [[homomorphism]] is a homomorphism of the underlying [[lattice
 =--
 
 
+## Properties
+
+\begin{prop}\label{prop:distributive}
+Any Heyting algebra is a [[distributive lattice]].
+That is, finite meets distribute over finite joins and vice versa.
+\end{prop}
+
+\begin{proof}
+As discussed at [[distributive lattice]], it suffices to prove the nontrivial direction of either of the two (dual) binary distributivity laws.  We prove that for any $x, y, z$ in a Heyting algebra $L$:
+$$ x \wedge (y \vee z) \leq (x \wedge y) \vee (x \wedge z) $$
+
+By the universal property of $\Rightarrow$, this is equivalent to:
+$$ y \vee z \leq
+   x \Rightarrow \big( (x \wedge y) \vee (x \wedge z) \big) $$
+But then by the universal property of $\vee$, this follows from the two inequalities
+$$
+  \begin{aligned}
+    y &\leq
+      x \Rightarrow \big( (x \wedge y) \vee (x \wedge z) \big)
+    \\
+    z &\leq
+      x \Rightarrow \big( (x \wedge y) \vee (x \wedge z) \big)
+    \,.
+  \end{aligned}
+$$
+These in turn each follow from applying the universal property of $\Rightarrow$ in the opposite direction.
+\end{proof}
+
+
 ## Relation to other concepts
 
 ### To logic
@@ -165,7 +194,7 @@ as required.
 
 +-- {: .proof}
 ###### Proof of theorem 1
-Since $\neg \neg$ is a monad, and $L_{\neg \neg}$ is the corresponding category (poset) of $\neg \neg$-algebras, the left adjoint $\neg \neg \colon L \to L_{\neg \neg}$ preserves joins. Since this map is epic, this also gives the fact that $L_{\neg \neg}$ has joins. The map $L \to L_{\neg\neg}$ preserves meets by the preceding lemma, and $\neg \neg 1 = \neg 0 = 1$. Thus $L \to L_{\neg\neg}$ is a surjective lattice map, and it follows that $L_{\neg\neg}$ is distributive because $L$ is. 
+Since $\neg \neg$ is a monad, and $L_{\neg \neg}$ is the corresponding category (poset) of $\neg \neg$-algebras, the left adjoint $\neg \neg \colon L \to L_{\neg \neg}$ preserves joins. Since this map is epic, this also gives the fact that $L_{\neg \neg}$ has joins. The map $L \to L_{\neg\neg}$ preserves meets by the preceding lemma, and $\neg \neg 1 = \neg 0 = 1$. Thus $L \to L_{\neg\neg}$ is a surjective lattice map, and it follows that $L_{\neg\neg}$ is distributive because (by Proposition \ref{prop:distributive}) $L$ is. 
 
 Working in $L_{\neg \neg}$ (where the join will be written $\vee_{\neg\neg}$ and the meet $\wedge_{\neg\neg}$), we have for any $x \in L_{\neg \neg}$ the equations 
 
