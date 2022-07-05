@@ -21,7 +21,7 @@ One often sees the definition using a [[total order]] $\leq$ instead of the line
 
 ### With a positivity predicate
 
-An ordered field is a [[commutative ring]] with a [[predicate]] $\mathrm{isPositive}$ such that 
+An ordered field is a [[field]] with a [[predicate]] $\mathrm{isPositive}$ such that 
 
 * zero is not positive: 
 
@@ -51,10 +51,6 @@ $$\forall a:A. \forall b:A. \mathrm{isPositive}(a) \wedge \mathrm{isPositive}(b)
 
 $$\forall a:A. \forall b:A. \mathrm{isPositive}(a) \wedge \mathrm{isPositive}(b) \implies \mathrm{isPositive}(a \cdot b)$$
 
-* for every term $a:A$, if $a$ is positive, then there exists a $b$ such that $a \cdot b = 1$ and $b \cdot a = 1$
-
-$$\forall a:A. \mathrm{isPositive}(a) \Rightarrow \left(\exists b:A. (a \cdot b = 1) \wedge (b \cdot a = 1)\right)$$
-
 We define the linear order as
 $$a \lt b \coloneqq \mathrm{isPositive}(b - a)$$
 
@@ -77,7 +73,7 @@ The [[archimedean field|archimedean]] ordered fields are precisely the [[subfiel
 
 +-- {: .un_prop}
 ######Proposition 
-Every complete ordered field is archimedean. 
+Every Dedekind complete ordered field is archimedean. 
 =-- 
 
 +-- {: .proof}
