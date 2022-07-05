@@ -34,7 +34,7 @@ However, [[David Corfield]] offers another motivation for condensed infinity-gro
 
 ## Definition
 
-A **condensed infinity-groupoid** is a [[(infinity,1)-sheaf]] of [[infinity-groupoids]] on the [[pro-étale (infinity,1)-site]] of the point, small relative to a universe $\mathcal{U}$. 
+A **condensed infinity-groupoid** or **condensed anima** is a [[hypercomplete (infinity,1)-topos | hypercomplete]] [[(infinity,1)-sheaf]] of [[infinity-groupoids]] on the [[pro-étale (infinity,1)-site]] of the point, small relative to a universe $\mathcal{U}$. 
 
 Equivalently, it is an [[(infinity,1)-functor]] 
 
@@ -48,11 +48,13 @@ and
 
 $$T(S + S^{'}) \to T(S) \times T(S^{'})$$
 
-are [[homotopy equivalences]] for any profinite space $S$ and $S^{'}$, whereas the natural fork 
+are [[homotopy equivalences]] for any profinite space $S$ and $S^{'}$, and the natural map 
 
-$$T(S) \to T(S^{'}) \rightrightarrows T(S^{'} \times_S S^{'})$$
+$$T(S) \to  \operatorname{lim}_{\Delta} T(S_\bullet)$$
 
-is an [[(infinity,1)-equalizer]] for any [[covering]] of profinite spaces $S^{'} \to S$. 
+is a [[homotopy equivalence]] for any [[hypercover]] of profinite spaces $S_\bullet \to S$. 
+
+When restricted to the site of [[extremally disconnected topological space | extremally disconnected]] compact Hausdorff spaces, hyperdescent is automatic, so the simplest equivalent definition of a condensed infinity-groupoid is simply a finite-product-preserving [[(infinity,1)-functor]] $T:ExtrDisc^\op \longrightarrow \infty Grpd_\mathcal{U}$, see ([Barwick-Haine, corollary 2.4.4](#BarwickHaine19)).
 
 ## Properties
 
@@ -76,6 +78,9 @@ In the model of [[infinity-groupoids]] as [[simplicial sets]]/[[Kan complexes]],
 ## References
 
 * {#Corfield20} [[David Corfield]], _Modal homotopy type theory_, Oxford University Press 2020 ([ISBN: 9780198853404](https://global.oup.com/academic/product/modal-homotopy-type-theory-9780198853404))
+
+* {#BarwickHaine19} [[Clark Barwick]], [[Peter Haine]], _Pyknotic objects, I. Basic notions_, ([arXiv:1904.09966](https://arxiv.org/abs/1904.09966)
+
 
 See [[condensed mathematics]] and [[infinity-groupoid#Anima]]. 
 
