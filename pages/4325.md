@@ -48,7 +48,7 @@ See at _[[free infinite loop space]]_.
 
   _Infinite loop space theory revisited_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/28.pdf))
 
-* {#Adams} [[John Adams]], _Infinite loop spaces_, Hermann Weyl lectures at IAS, Annals of Mathematics Studies 90, Princeton University Press (1978) ([ISBN:9780691082066](https://press.princeton.edu/books/paperback/9780691082066/infinite-loop-spaces-am-90-volume-90), [doi:10.1515/9781400821259](https://doi.org/10.1515/9781400821259))
+* {#Adams} [[John Adams]], _Infinite loop spaces_, Hermann Weyl lectures at IAS, Annals of Mathematics Studies **90** Princeton University Press (1978) &lbrack;[ISBN:9780691082066](https://press.princeton.edu/books/paperback/9780691082066/infinite-loop-spaces-am-90-volume-90), [doi:10.1515/9781400821259](https://doi.org/10.1515/9781400821259)&rbrack;
  
 
 * [[Peter May]], _The uniqueness of infinite loop space machines_, Topology, vol 17, pp. 205-224 (1978) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/22.pdf))
@@ -56,8 +56,8 @@ See at _[[free infinite loop space]]_.
 
 Section 5.1.3 of
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Algebra]]_
+ 
 
 
 [[!redirects infinite loop spaces]]
