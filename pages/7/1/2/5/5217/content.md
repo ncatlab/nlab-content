@@ -4,24 +4,22 @@
 
 ## Idea
 
-An ordered field is a [[field]] equipped with a compatible [[linear order]].
+An ordered field is a [[field]] equipped with a compatible [[strict total order]].
 
 Note that while the adjective 'ordered' usually refers to a [[partial order]], it is traditionally used more strictly when placed before 'field'.
 
 
 ## Definition
 
-### With linear order
-An __ordered field__ is a [[field]] $K$ equipped with a [[linear order]] $\lt$ such that:
+Classically: 
 
-*  $1 \gt 0$,
-*  If $a, b \gt 0$, then so are $a + b$ and $a b$.
+\begin{definition}
+An __ordered field__ is a [[field]] $K$ equipped with a [[strict total order]] $\lt$ such that $1 \gt 0$ and if $a, b \gt 0$, then so are $a + b$ and $a b$.
+\end{definition}
 
-One often sees the definition using a [[total order]] $\leq$ instead of the linear order $\lt$.  This makes no difference in [[classical mathematics]], but we need to use linear orders in [[constructive mathematics]] if we wish to have the usual examples. 
+One often sees the definition using a weak [[total order]] $\leq$ instead of the strict total order $\lt$. This makes no difference in [[classical mathematics]], but the definition of the strict total order is the one that generalizes to [[constructive mathematics]]. 
 
-### With a positivity predicate
-
-An ordered field is a [[field]] with a [[predicate]] $\mathrm{isPositive}$ such that 
+An ordered field could also be defined as a [[field]] with a [[predicate]] $\mathrm{isPositive}$ such that 
 
 * zero is not positive: 
 
@@ -51,8 +49,22 @@ $$\forall a:A. \forall b:A. \mathrm{isPositive}(a) \wedge \mathrm{isPositive}(b)
 
 $$\forall a:A. \forall b:A. \mathrm{isPositive}(a) \wedge \mathrm{isPositive}(b) \implies \mathrm{isPositive}(a \cdot b)$$
 
-We define the linear order as
+The strict total order is defined as
 $$a \lt b \coloneqq \mathrm{isPositive}(b - a)$$
+
+### In constructive mathematics. 
+
+Due to the fact that in constructive mathematics, a set having a strict total order no longer implies that the set has a weak total order, and a set having a weak total order no longer implies that the set has a strict total order, the notion of ordered field bifurcates into multiple inequivalent notions. 
+
+In particular, the traditional definition of an ordered field as defined above no longer implies that
+ 
+1. that the ordered field is a [[lattice]], that it has binary [[joins]] and [[meets]]
+
+2. that the ordered field, depending on how field is defined (see [[field#Constructive notions]]), is no longer Heyting. 
+
+Thus, some authors in constructive mathematics, such as [Booij 2020](#Booij20) and [Univalent Foundatiins Project 2013](#UFP13), have defined an ordered field to additionally have a lattice structure on $\leq$ and be a Heyting field, with the [[tight apartness relation]] defined as $a \# b$ if and only if $a \lt b$ or $b \lt a$. 
+
+However, other fields with a strict total order, such as the [[MacNeille real numbers]] and the [[surreal numbers]], do not necessarily have a lattice structure, nor are Heyting, so other authors prefer the more traditional definition given above. 
 
 ## Examples
 
@@ -98,6 +110,11 @@ In the other direction, every real field $F$ may be embedded in a [[real closed 
 ## See also
 
 * [[interval arithmetic]]
+
+## References
+
+* {#Booij20} Auke B. Booij, Analysis in univalent type theory ([pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf))
+* {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
 [[!redirects ordered field]]
 [[!redirects ordered fields]]
