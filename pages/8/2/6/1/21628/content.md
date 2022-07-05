@@ -9,17 +9,24 @@ This entry collects links related to the forthcoming book
 
   Cambridge University Press 
 
-which introduces [[homotopy type theory]] in general and [[Martin-Löf's dependent type theory]], the [[Univalent Foundations for Mathematics]] and [[synthetic homotopy theory]] in particular. The book is based on a course taught by Egbert Rijke at Carnegie Mellon University in the spring semester of 2018.
+  {#pdf} [pdf](https://raw.githubusercontent.com/martinescardo/HoTTEST-Summer-School/main/HoTT/hott-intro.pdf) (478 pages)
 
-Resources:
 
-* [Course webpage](http://www.andrew.cmu.edu/user/erijke/hott/)
+which introduces [[homotopy type theory]] in general and [[Martin-Löf's dependent type theory]], the [[Univalent Foundations for Mathematics]] and [[synthetic homotopy theory]] in particular. 
+
+The book is based on a course taught by the author at Carnegie Mellon University in the spring semester of 2018:
+
+* [course webpage](http://www.andrew.cmu.edu/user/erijke/hott/)
+
+
+Previous versions:
 
 * [pdf (2018 course notes)](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf) (221 pages)
 
 * [pdf (2019 summer school notes)](https://hott.github.io/HoTT-2019/images/hott-intro-rijke.pdf) (134 pages)
 
 * [GitHub repositories](https://github.com/HoTT-Intro)
+
 
 ## Contents
 
