@@ -266,7 +266,7 @@ This is due to the fact that *[the 0-simplex has no horns](horn#ZeroSimplexHasNo
 But:
 \begin{lemma}
   \label{KanFibrationWhichIsEpiInDegreeZeroIsEpi}
-  As soon as a Kan fibration is a [[surjection]] in degree 0, then it is a [[surjection]] in all degrees (and hence an [[epimorphism]] of simplicial sets):
+  As soon as a Kan fibration is a [[surjection]] in degree 0, then it is a [[surjection]] in all degrees (and [hence](SimpSet#EpimorphismsOfSimplicialSetsDetectedDegreewise) an [[epimorphism]] of simplicial sets):
 $$
   X \overset{f}{\underset{\in KanFib}{\longrightarrow}} Y
   \;\;\text{and}\;\;
@@ -316,15 +316,25 @@ $$
 But the left morphism is an [[acyclic cofibration]] in the [[classical model structure on simplicial sets]]. These have the [[left lifting property]] against Kan fibrations, meaning that this last square has a [[lift]] $\widehat{\sigma_n}$. This exhibits the desired preimage of $\sigma_n$.
 \end{proof}
 
-Therefore:
-\begin{proposition}\label{EveryPiZeroEpiIsResolvedByASurjectiveKanFibration}
-  Let $Y$ be a [[Kan complex]] and 
-  $X \xrightarrow{f} Y$ be any morphism of [[simplicial sets]] which is a [[surjection]] on [[connected components]]: $\pi_0(f) \,\colon\, \pi_0(X) \twoheadrightarrow \pi_0(Y)$. Then the [[factorization lemma]] ([here](Introduction+to+Homotopy+Theory#FactorizationLemma)) factors $f$ through (a [[simplicial weak equivalence]] followed by)  a Kan fibration which is a degreewise [[surjection]] (and hence an [[epimorphism]] of [[simplicial sets]]).
-\end{proposition}
+In fact:
+\begin{lemma}
+  \label{KanFibrationWhichIsEpiOnComponentsIsEpi}
+  As soon as a Kan fibration $f$ is a [[surjection]] on [[connected components]], $\pi_0(f) \colon \pi_0(X_\bullet) \twoheadrightarrow \pi_0(Y_\bullet)$, then it is a [[surjection]] in all degrees (and [hence](SimpSet#EpimorphismsOfSimplicialSetsDetectedDegreewise) an [[epimorphism]] of simplicial sets):
+\end{lemma}
 \begin{proof}
-  From the construction of the factorization via [[path space objects]] ([here](Introduction+to+Homotopy+Theory#eq:ConstructionOfFactorizationInFactorizationLemma)) it is clear that the Kan fibration it produces is surjective in degree 0 onto all vertices in those [[connected components]] which are in the image of $f$. By assumption these are all components, so that the factoring Kan fibration is surjective in degree 0. Therefore the claim follows with Lemma \ref{KanFibrationWhichIsEpiInDegreeZeroIsEpi}
+  By definition (of [[simplicial homotopy groups]]), all [[vertices]] in a connected component are connected by some [[zig-zag]] $Z$ of [[edges]]. But the inclusion of an endpoint vertex $\Delta[0] \hookrightarrow Z$ into (the abstract shape of) such a zig-zag is evidently an [[acyclic cofibration]], hence has the [[left lifting property]] against the given Kan fibration (by the [[classical model structure on simplicial sets]]). Evaluating this lift at the other endpoint shows that the Kan fibration is surjective on vertices as soon as it is surjective on connected components. Therefore the claim follows with Lemma \ref{KanFibrationWhichIsEpiInDegreeZeroIsEpi}. 
 \end{proof}
 
+In summary:
+\begin{proposition}\label{EveryPiZeroEpiIsResolvedByASurjectiveKanFibration}
+  Let 
+  $X \xrightarrow{f} Y$ be any morphism of [[simplicial sets]] which is a [[surjection]] on [[connected components]]: $\pi_0(f) \,\colon\, \pi_0(X) \twoheadrightarrow \pi_0(Y)$ (hence presenting an effective epimorphism of $\infty$-groupoids, by [this Prop.](effective+epimorphism+in+an+infinity1-category#EffectiveEpisOfInfinityGroupoids)). Then $f$ factors as a [[simplicial weak equivalence]] followed by a Kan fibration which is a degreewise [[surjection]] (and [hence](SimpSet#EpimorphismsOfSimplicialSetsDetectedDegreewise) an [[epimorphism]] of [[simplicial sets]]).
+\end{proposition}
+\begin{proof}
+  The factorization follows by standard constructions such as the [[factorization lemma]] or the existence of the [[classical model structure on simplicial sets]]. With this the claim follows by Lemma \ref{KanFibrationWhichIsEpiOnComponentsIsEpi}.
+\end{proof}
+
+\linebreak
 
 ### Acyclic Kan fibrations and weak homotopy equivalences
 
@@ -374,7 +384,7 @@ A Kan fibration $f\colon X\to Y$ is acyclic precisely if the [[fiber]] $f^{-1}(y
 
 =--
 
-Purely combinatorial proofs of this statement include ([Joyal, prop. 8.23](#Joyal), [Riehl-Verity 13, lemma 5.4.16](#RiehlVerity13))
+Purely combinatorial proofs of this statement include ([Joyal 2008, prop. 8.23](#Joyal08), [Riehl-Verity 13, lemma 5.4.16](#RiehlVerity13))
 
 ### Pullback and homotopy pullback
 
@@ -530,7 +540,8 @@ That [[geometric realization]] takes Kan fibrations to [[Serre fibrations]] is d
 
 See also
 
-* {#Joyal} [[Andre Joyal]] _Theory of Quasi-Categories and its applications_ [pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf)
+* {#Joyal08} [[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008 ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]])
+
 
 * {#RiehlVerity13} [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_, ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
 
