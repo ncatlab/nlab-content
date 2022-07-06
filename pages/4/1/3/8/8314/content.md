@@ -99,12 +99,20 @@ See at _[[finite abelian group]]_ for details.
 
 ### Group cohomology
 
-For a discussion of the [[group cohomology]] of cyclic groups see at _[[projective resolution]]_ in the section _[Cohomology of cyclic groups](http://ncatlab.org/nlab/show/projective+resolution#CohomologyOfCyclicGroups)_.
+For discussion of the [[group cohomology]] of cyclic groups see 
 
-Relevant for [[Dijkgraaf-Witten theory]] is the fact
+* at _[[projective resolution]]_ the section _[Cohomology of cyclic groups](http://ncatlab.org/nlab/show/projective+resolution#CohomologyOfCyclicGroups)_
+
+* at *[[finite rotation group]]* the section *[Group cohomology](finite+rotation+group#GroupCohomology)*
+
+* in [Golasiński & Gonçalves 2011](#GolasińskiGonçalves11) for the cases $H^n_{Grp}(/mathbb{Z}/n;\, \mathbb{Z}/m)$
+
+For example, relevant for [[Dijkgraaf-Witten theory]] is the fact:
 
 $$
-  H^3_{grp}(\mathbb{Z}/n\mathbb{Z}, U(1)) \simeq \mathbb{Z}/n\mathbb{Z}
+  H^3_{grp}\big(\mathbb{Z}/n\mathbb{Z}, U(1)\big) 
+  \;\simeq\; 
+  \mathbb{Z}/n\mathbb{Z}
   \,.
 $$
 
@@ -191,15 +199,30 @@ $$
 
 ## References
 
-* {#Aluffi09} Paolo Aluffi, _Algebra: Chapter 0, Part 0_, 2009
+Historical discussion of the cyclic group in the context of the [[classification of finite rotation groups]]:
 
-*  _Cyclic groups_ [pdf](http://math.kennesaw.edu/~plaval/math4361/groups_cyclic.pdf)
+* {#Klein1884} [[Felix Klein]], chapter I.3 of: _Vorlesungen über das Ikosaeder und die Auflösung der Gleichungen vom fünften Grade_, 1884, translated as _Lectures on the Icosahedron and the Resolution of Equations of Degree Five_ by George Morrice 1888, [online version](https://archive.org/details/cu31924059413439)
+
+
+Textbook accounts:
+
+* {#Aluffi09} [[Paolo Aluffi]], Part 0 of: *Algebra: Chapter 0*, Graduate Studies in Mathematics **104**,  AMS (2009) &lbrack;[ISBN:978-1-4704-1168-8](https://bookstore.ams.org/gsm-104/)&rbrack;
+
+* [[Joseph A. Gallian]], Section 4 of: *Contemporary Abstract Algebra*, Chapman and Hall/CRC (2020)  &lbrack;[doi:10.1201/9781003142331](https://doi.org/10.1201/9781003142331), [pdf](https://ict.iitk.ac.in/wp-content/uploads/CS203-Mathematics-for-Computer-Science-III-Gallian.pdf)&rbrack;
+
+
+Further review:
+
+*  Philippe B. Laval, _Cyclic groups_ &lbrack;[pdf](http://math.kennesaw.edu/~plaval/math4361/groups_cyclic.pdf)&rbrack;
+
+On the [[fundamental theorem of cyclic groups]]:
 
 *  {#Gallian10} Joseph A. Gallian, _Fundamental Theorem of Cyclic Groups_, Contemporary Abstract Algebra, p. 77, (2010)
 
-Discussion of the cyclic group in the context of the [[classification of finite rotation groups]]:
 
-* {#Klein1884} [[Felix Klein]], chapter I.3 of _Vorlesungen über das Ikosaeder und die Auflösung der Gleichungen vom fünften Grade_, 1884, translated as _Lectures on the Icosahedron and the Resolution of Equations of Degree Five_ by George Morrice 1888, [online version](https://archive.org/details/cu31924059413439)
+On the [[group cohomology]] of cyclic groups with [[coefficients]] in cyclic groups:
+
+* {#GolasińskiGonçalves11} [[Marek Golasiński]], [[Daciberg Lima Gonçalves]], *On cohomologies and extensions of cyclic groups*, Topology and its Applications **158** (2011) 1858–1865 &lbrack;[doi:10.1016/j.topol.2011.06.022](https://doi.org/10.1016/j.topol.2011.06.022)&rbrack;
 
 
 [[!redirects cyclic group]]
