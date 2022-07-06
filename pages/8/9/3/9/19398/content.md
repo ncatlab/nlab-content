@@ -458,6 +458,11 @@ The original article identifying the $2 p$-condition for continuous actions:
 
 * {#Milnor57} [[John Milnor]], *Groups Which Act on $S^n$ Without Fixed Point*, American Journal of Mathematics Vol. 79, No. 3 (Jul., 1957), pp. 623-630 ([jstor:2372566](https://www.jstor.org/stable/2372566))
 
+See also:
+
+* [[Richard G. Swan]], *Periodic Resolutions for Finite Groups*, Annals of Mathematics Second Series **72** 2 (1960) 267-291 &lbrack;[doi:10.2307/1970135](https://doi.org/10.2307/1970135)&rbrack;
+
+
 Existence results:
 
 * {#Wall78} [[C. T. C. Wall]], _Free actions of finite groups on spheres_, Proceedings of Symposia in Pure Mathematics, Volume 32, 1978 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/wall7.pdf))
@@ -485,14 +490,13 @@ Discussion of the fixed point-sets of finite group actions on even-dimensional s
 
 ### Classification of free involutions:
 
-* {#Livesay60} [[George R. Livesay]]  *Fixed Point Free Involutions on the 3-Sphere*, Annals of Mathematics Second Series, Vol. 72, No. 3 (Nov., 1960), pp. 603-611 ([jstor:1970232](https://www.jstor.org/stable/1970232))
+* {#Livesay60} [[George R. Livesay]]:  *Fixed Point Free Involutions on the 3-Sphere*, Annals of Mathematics Second Series, Vol. 72, No. 3 (Nov., 1960), pp. 603-611 ([jstor:1970232](https://www.jstor.org/stable/1970232))
 
 * {#LopezdeMedrano71} [[Santiago López de Medrano]], *Involutions on Manifolds*,  Ergebnisse der Mathematik und ihrer Grenzgebiete **59**, Springer 1971 ([doi:10.1007/978-3-642-65012-3](https://link.springer.com/book/10.1007/978-3-642-65012-3))
 
 * {#FintushelStern81} [[Ronald Fintushel]], [[Ronald J. Stern]], *An Exotic Free Involution on $S^4$*, Annals of Mathematics Second Series, Vol. 113, No. 2 (Mar., 1981), pp. 357-365 ([jstor:2006987](https://www.jstor.org/stable/2006987))
 
 ### Classification of finite free actions by isometries
-
 
 The original article identifying the $p q$-conditions for orthogonal actions:
 
@@ -542,6 +546,10 @@ Discussion of [[circle group]]-actions on spheres:
 [[!redirects free group actions on spheres]]
 [[!redirects free group action on spheres]]
 
+[[!redirects finite group actions on spheres]]
+[[!redirects finite group action on spheres]]
+
+
 [[!redirects group action on an n-sphere]]
 [[!redirects group actions on an n-sphere]]
 
@@ -553,5 +561,6 @@ Discussion of [[circle group]]-actions on spheres:
 
 [[!redirects free group actions on n-spheres]]
 [[!redirects free group action on n-spheres]]
+
 
 
