@@ -88,8 +88,8 @@ in which the total rectangle (consisting of $x,z,u,w$) is a pullback, and moreov
 
 In a [[regular category]] this also works in the other direction, if the bottom left morphisms is a [[regular epimorphism]]:
 \begin{proposition}
-**(reverse pasting law)**
 \label{WrongWayPastingLawInRegularCategory}
+**(reverse pasting law)**
 \linebreak 
   In a [[regular category]], consider a [[commuting diagram]] of the form
 \begin{tikzcd}
@@ -119,9 +119,33 @@ where
 
 1. the bottom left morphism is an [[regular epimorphism]].
 
-Then right right square is a pullback iff the total rectangle is.
+Then the right right square is a pullback iff the total rectangle is.
 \end{proposition}
 (e.g. [Gran 2020, Lem. 1.15](regular+category#Gran20), see also [Carboni, Janelidze, Kelly and Paré 1997, Lemma 4.6](#CarboniJanelidzeKellyParé97), [Garner and Lack 2012, Lemma 2.2](#GarnerLack12))
+
+This implies the $\infty$-category theoretic statement at least in good cases:
+
+\begin{proposition}\label{ReversePastingLawForInfinityGroupoids}
+**(reverse pasting law for $\infty$-pullbacks of $\infty$-groupoids)**
+\linebreak
+  The reverse pasting law (Prop. \ref{WrongWayPastingLawInRegularCategory}) holds also for [[homotopy pullbacks]] of [[infinity-groupoids|$\infty$-groupoids]] as soon as the bottom left morphism is an [[effective epimorphism in an (infinity,1)-category|effective epimorphism in this $\infty$-category]].
+\end{proposition}
+\begin{proof}
+  By the discussion at *[[homotopy pullback]]* and using the [[classical model structure on simplicial sets]], we may model the situation by a diagram of [[simplicial sets]] where both bottom morphisms are [[Kan fibrations]], and then need to show that the ordinary reverse pasting law applies.
+
+Now observe that:
+
+1. an effective epimorphism of $\infty$-groupoids is a [[surjection]] on [[connected components]] (by [this Prop.](effective+epimorphism+in+an+infinity1-category#EffectiveEpisOfInfinityGroupoids));
+
+1. a Kan fibration which resolves a surjection on connected components is degreewise surjective (by [this Prop.](Kan+fibration#EveryPiZeroEpiIsResolvedByASurjectiveKanFibration));
+
+1. a degreewise surjection of simplicial sets is an [[epimorphism]] (by [this Prop.](SimpSet#EpimorphismsOfSimplicialSetsDetectedDegreewise)),
+
+   hence is a [[regular epimorphism]] in a [[regular category]] (since [[sSet]] is a [[topos]]).
+
+Hence the bottom left morphism in our diagram of simplicial sets is a regular epimorphism and the claim follows by Prop. \ref{WrongWayPastingLawInRegularCategory}.
+\end{proof}
+
 
 
 Another related statement involves a pair of rectangles and equalizers.
