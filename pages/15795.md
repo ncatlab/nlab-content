@@ -3,6 +3,11 @@ Marek Golasi&#324;ski is a [[homotopy theory|homotopy theorist]] working at the 
 
 ## Selected writings
 
+
+On the [[model structure on crossed complexes]]:
+
+* [[Ronald Brown]], [[Marek Golasiński]]: _A model structure for the homotopy theory of crossed complexes_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, **30** 1 (1989) 61-82 &lbrack;[numdam:CTGDC_1989__30_1_61_0](http://www.numdam.org/item/?id=CTGDC_1989__30_1_61_0)&rbrack;
+
 On [[twisted Bredon cohomology]]:
 
 * [[Marek Golasiński]], _Equivariant cohomology with local coefficients_, Mathematica Slovaca (1997) Volume: 47, Issue: 5, page 575-586 ([dml:34467](https://eudml.org/doc/34467))
@@ -19,9 +24,9 @@ On the [[model structure on equivariant dgc-algebras]] and the [[fundamental the
 * [[Marek Golasiński]], _Equivariant rational homotopy theory as a closed model category_, Journal of Pure and Applied Algebra Volume 133, Issue 3, 30 December 1998, Pages 271-287 (<a href="https://doi.org/10.1016/S0022-4049(97)00127-8">doi:10.1016/S0022-4049(97)00127-8</a>)
 
 
-With [[Ronnie Brown]], Golasiński  gave the folk model structure on the category of [[crossed complexes]]:
+On [[group cohomology]] of [[cyclic groups]] with [[coefficients]] in cyclic groups:
 
-* [[Ronald Brown]] and [[Marek  Golasiński]], _A model structure for the homotopy theory of crossed complexes_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 30 no. 1 (1989), p. 61-82 ([pdf](http://www.numdam.org/item?id=CTGDC_1989__30_1_61_0))
+* {#GolasińskiGonçalves11} [[Marek Golasiński]], [[Daciberg Lima Gonçalves]], *On cohomologies and extensions of cyclic groups*, Topology and its Applications **158** (2011) 1858–1865 &lbrack;[doi:10.1016/j.topol.2011.06.022](https://doi.org/10.1016/j.topol.2011.06.022)&rbrack;
 
 
 
