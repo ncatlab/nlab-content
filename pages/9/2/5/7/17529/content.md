@@ -412,9 +412,11 @@ $$
 
 ## References
 
-For instance
+Textbook accounts:
 
 * {#Roman12} Steven Roman, _Fundamentals of group theory_, Birkh&#228;user (2012)
+
+* [[Joseph A. Gallian]], Section 11 of: *Contemporary Abstract Algebra*, Chapman and Hall/CRC (2020)  &lbrack;[doi:10.1201/9781003142331](https://doi.org/10.1201/9781003142331)[pdf](https://ict.iitk.ac.in/wp-content/uploads/CS203-Mathematics-for-Computer-Science-III-Gallian.pdf)&rbrack;
 
 A new proof of the [[fundamental theorem of finite abelian groups]] was given in 
 
