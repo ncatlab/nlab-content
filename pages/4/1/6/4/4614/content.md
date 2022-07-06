@@ -472,14 +472,14 @@ the following are sufficient conditions for the geometric realization of any [[h
 
 1. {#RezkConditionForPreservationOfHomotopyPullbacks} [Rezk 2014, Prop. 5.4](#Rezk14):
 
-   * the [[simplicial set]] of [[connected components]] of the base is [[constant functor|constant]]: $\pi_0(Y)_\bullet \simeq const(\pi_0(Y_0))$.
+   * the [[simplicial set]] of [[connected components]] of the base is [[constant functor|constant]]: $\pi_0(Y)_\bullet \simeq const\big(\pi_0(Y_0)\big)_\bullet$.
 
    This is also essentially [Lurie HA, Lem. 5.5.6.17](#LurieHigherAlgebra) (using that simplicial $\infty$-colimits are [[sifted infinity-colimit|sifted]], by [this Prop.](sifted+infinity-colimit#SimplicialInfinityColimitsAreSifted)), which generalizes the statement to [[(infinity,1)-toposes|$(\infty,1)$-toposes]] other than $L_W Top$.
 
 
 1. {#KanLikeFibrationConditionForPreservationOfHomotopyPullbacks} [Mazel-Gee 2014, Cor. 6.7](#MazelGee14), [Lurie 2011, Prop. 10](#Lurie11):
 
-   * the morphism (eq:AMorphismOfSimplicialTopologicalSpacesToBeHomotopyPulledBack) is a [[homotopy Kan fibration]], in that for all $n \in \mathbb{N}$ and $0 \leq k \leq n$ the induced map
+   * the morphism (eq:AMorphismOfSimplicialTopologicalSpacesToBeHomotopyPulledBack) is a [[homotopy Kan fibration]], in that for all [[positive numbers]] $n \in \mathbb{N}_+$ and all $0 \leq k \leq n$ the induced map
 
      \[
        \label{HomotopyTheoreticKanFibration}
