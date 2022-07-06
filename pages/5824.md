@@ -70,8 +70,7 @@ For **proof** see
 
 In general, the implications in the above result do require the hypothesis (e.g. in the pullback case that the right square is a pullback).  However, in some cases this can be omitted.
 
-+-- {: .num_prop}
-###### Proposition
+\begin{prop}
 Suppose we have a diagram of the above shape
 
 $$
@@ -85,11 +84,13 @@ $$
 $$
 
 in which the total rectangle (consisting of $x,z,u,w$) is a pullback, and moreover the induced map $y\to v\times z$ is a [[monomorphism]].  Then the left-hand square (consisting of $x,y,u,v$) is also a pullback.
-=--
+\end{prop}
 
 In a [[regular category]] this also works in the other direction, if the bottom left morphisms is a [[regular epimorphism]]:
 \begin{proposition}
+**(reverse pasting law)**
 \label{WrongWayPastingLawInRegularCategory}
+\linebreak 
   In a [[regular category]], consider a [[commuting diagram]] of the form
 \begin{tikzcd}
   {}
@@ -120,7 +121,7 @@ where
 
 Then right right square is a pullback iff the total rectangle is.
 \end{proposition}
-(e.g. [Gran 2020, Lem. 1.15](regular+category#Gran20))
+(e.g. [Gran 2020, Lem. 1.15](regular+category#Gran20), see also [Carboni, Janelidze, Kelly and Paré 1997, Lemma 4.6](#CarboniJanelidzeKellyParé97), [Garner and Lack 2012, Lemma 2.2](#GarnerLack12))
 
 
 Another related statement involves a pair of rectangles and equalizers.
@@ -149,15 +150,27 @@ such that the vertical arrows are all [[monomorphisms]], the squares on the righ
 
 Discussion in [[1-category|1-]][[category theory]]:
 
+#### Ordinary pasting law
+
 Statements of the pasting law in textbooks, typically leaving the proof to the reader:
 
 * [[Saunders MacLane]], Ex. 8 on p. 72 in: *[[Categories for the Working Mathematician]]*, Graduate texts in mathematics, Springer 1971 ([doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8))
 
 * [[Jiri Adamek]], [[Horst Herrlich]], [[George Strecker]], Prop. 11.10 in: *[[Abstract and Concrete Categories]]*, John Wiley and Sons, New York (1990) reprinted as: Reprints in Theory and Applications of Categories **17** (2006) 1-507 ([tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html), [book webpage](http://katmat.math.uni-bremen.de/acc/), [pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
 
-The proof is spelled out in:
+A proof is spelled out in:
 
 * [[Andrej Bauer]], *The pullback lemma in gory detail*, 2012 ([pdf](http://math.andrej.com/wp-content/uploads/2012/05/pullback.pdf), [[Bauer_PullbackLemma.pdf:file]])
+
+#### Reverse pasting law
+
+The reverse pasting law is discussed in:
+
+* {#CarboniJanelidzeKellyParé97} [[Aurelio Carboni]], [[George Janelidze]], [[Max Kelly]], [[Robert Paré]], Lemma 4.6 of: *On localization and stabilization for factorization systems*, Appl. Categ. Structures **5** (1997) 1-58 &lbrack;[doi:10.1023/A:1008620404444](https://doi.org/10.1023/A:1008620404444)&rbrack;
+
+* {#GarnerLack12} [[Richard Garner]], [[Steve Lack]], Lemma 2.2 in: *On the axioms for adhesive and quasiadhesive categories*, Theory and Applications of Categories, **27**  3 (2012) 27-46 &lbrack;[arXiv:1108.2934](http://arxiv.org/abs/1108.2934), [tac:27-03](http://www.tac.mta.ca/tac/volumes/27/3/27-03abs.html)&rbrack;
+
+
 
 ### In model category theory
 
