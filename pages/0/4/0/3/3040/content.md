@@ -12,6 +12,11 @@ On [[extensive categories]] and [[distributive categories]]:
 
 * {#CarboniLackWalters93} [[Aurelio Carboni]], [[Stephen Lack]], [[Bob Walters|R. F. C. Walters]], _Introduction to extensive and distributive categories_, JPAA **84** (1993) pp. 145-158 (<a href="https://doi.org/10.1016/0022-4049(93)90035-R">doi:10.1016/0022-4049(93)90035-R</a>)
 
+On [[adhesive categories]]:
+
+* {#GarnerLack12} [[Richard Garner]], [[Steve Lack]]: *On the axioms for adhesive and quasiadhesive categories*, Theory and Applications of Categories, **27**  3 (2012) 27-46 &lbrack;[arXiv:1108.2934](http://arxiv.org/abs/1108.2934), [tac:27-03](http://www.tac.mta.ca/tac/volumes/27/3/27-03abs.html)&rbrack;
+
+
 See also:
 
 * John Bourke and Stephen Lack, Skew monoidal categories and skew multicate- gories, Journal of Algebra, 506:237–266, 2018.
