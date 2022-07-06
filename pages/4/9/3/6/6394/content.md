@@ -5,6 +5,10 @@ Paul Howe is emeritus professor in theoretical [[physics]] at King's College Lon
 
 ## Selected writings
 
+On [[spinning particles]] and their [[worldline]] [[supersymmetry]]:
+
+* [[Lars Brink]], [[Paolo Di Vecchia]], [[Paul Howe]], *A Lagrangian formulation of the classical and quantum dynamics of spinning particles*, Nucl. Phys. B **118** (1977) 76 &lbrack;<a href="https://doi.org/10.1016/0550-3213(77)90364-9">doi:10.1016/0550-3213(77)90364-9</a>&rbrack;
+
 On the [[3-brane in 6d]] as a [[black brane]] in an [[M5-brane]]/[[NS5-brane]] [[worldvolume]] 
 
 * {#HoweLambertWest97} [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Threebrane Soliton of the M-Fivebrane_, Phys. Lett. B419 (1998) 79-83 ([arXiv:hep-th/9710033](http://arxiv.org/abs/hep-th/9710033))
