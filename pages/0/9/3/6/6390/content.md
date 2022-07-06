@@ -84,10 +84,9 @@ Lecture notes in view of application to [[perturbative quantum field theory]] vi
 * Olindo Corradini, [[Christian Schubert]], James P. Edwards, Naser Ahmadiniaz, *Spinning Particles in Quantum Mechanics and Quantum Field Theory* ([arXiv:1512.08694](https://arxiv.org/abs/1512.08694))
 
 
-Discussion of worldline dynamics of spinning particles in background fields:
+Discussion of worldline dynamics of spinning particles in [[background fields]]:
 
-* J.W. van Holten, _Relativistic Dynamics of Spin in Strong
-External Fields_([arXiv:hep-th/9303124](http://arxiv.org/abs/hep-th/9303124))
+* [[Jan-Willem van Holten]], *Relativistic Dynamics of Spin in Strong External Fields* &lbrack;[arXiv:hep-th/9303124](http://arxiv.org/abs/hep-th/9303124)&rbrack;
 
 * A. Pomeranskii, R A Sen'kov, I.B. Khriplovich, _Spinning relativistic particles in external fields_ Acta Physica Polonica B Proceedings Supplement Vol. 1 (2008) ([pdf](http://iopscience.iop.org/1063-7869/43/10/R03))
 
@@ -98,14 +97,15 @@ Discussion that cancellation of the [[quantum anomaly]] of the spinning particle
 * {#Witten85} [[Edward Witten]], _Global anomalies in string theory_, in: W. Bardeen and A. White (eds.). _Symposium on Anomalies, Geometry, Topology_, pp. 61&#8211;99. World Scientific, 1985  ([[WittenGlobalAnomaliesInStringTheory.pdf:file]], [spire:214913](https://inspirehep.net/literature/214913))
 
 
+
 ### Worldline supersymmetry
  {#WorldlineSupersymmtryReferences}
 
 Among the early references that describe the observation that the supersymmetric extension of the worldline theory of the [[relativistic particle]] describes ordinary Dirac [[fermion]]s are
 
-* F.A. Berezin and M.S. Marinov, Ann. Phys. (NY) 104 (1977), 336
+* F.A. Berezin and M.S. Marinov, Ann. Phys. (NY) 104 (1977) 336
 
-* L. Brink, P. Di Vecchia and P. Howe, Nucl. Phys. B118 (1977), 76
+* [[Lars Brink]], [[Paolo Di Vecchia]], [[Paul Howe]], *A Lagrangian formulation of the classical and quantum dynamics of spinning particles*, Nucl. Phys. B **118** (1977) 76 &lbrack;<a href="https://doi.org/10.1016/0550-3213(77)90364-9">doi:10.1016/0550-3213(77)90364-9</a>&rbrack;
 
 * R. Casalbuoni, Phys. Lett. B62 (1976), 49
 
@@ -131,19 +131,20 @@ Derivation of the supersymmetric [[worldline]] action of the spinning particle i
 
 * [[Matthew Strassler]], _Field Theory Without Feynman Diagrams: One-Loop Effective Actions_, Nucl. Phys. B385:145-184,1992 ([arXiv:hep-ph/9205205](http://arxiv.org/abs/hep-ph/9205205))
 
-See also
+See also:
 
 * Rachel H. Rietdijk, _Spinning particles in general relativity_ Theoretical and Mathematical Physics, Vol. 98, No. 3 (1994)
 
-also p. 194 of
 
-* Warren Siegel, _Fields_ ([arXiv:hep-th/9912205](http://arxiv.org/abs/hep-th/9912205))
+* [[Warren Siegel]], p. 194 of: _Fields_ ([arXiv:hep-th/9912205](http://arxiv.org/abs/hep-th/9912205))
 
-There, first exercise IIIB1.3 gives the action expanded out in all components, and then the following exercise IIIB1.4 gives the reformulation in [[superfield formalism]] which makes manifest that the action is invariant under worldline [[supersymmetry]].
+  > There, first exercise IIIB1.3 gives the action expanded out in all components, and then the following exercise IIIB1.4 gives the reformulation in [[superfield]] formalism which makes manifest that the action is invariant under worldline [[supersymmetry]].
 
-See also
 
 * Roberto Casalbuoni, Joaquim Gomis, Kiyoshi Kamimura, Giorgio Longhi, _Space-time Vector Supersymmetry and Massive Spinning Particle_ ([web](http://www.mendeley.com/research/spacetime-vector-supersymmetry-and-massive-spinning-particle/))
+
+* E. Boffo, *Particles in the superworldline and BRST* &lbrack;[arXiv:2207.02041](https://arxiv.org/abs/2207.02041)&rbrack;
+
 
 
 [[!redirects spinning particles]]
