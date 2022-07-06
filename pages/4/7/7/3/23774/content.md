@@ -155,7 +155,7 @@ Newton's method isn't valid when $2 a x_0 + b = 0$ because of division by zero. 
 
 * [[quadratic formula]]
 
-* [[real square root]]
+* [[real square root function]]
 
 * [[real cubic function]]
 
