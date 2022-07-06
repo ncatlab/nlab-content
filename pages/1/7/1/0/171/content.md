@@ -1,7 +1,21 @@
-Brown and Golasinski gave a [[model category structure]] on the category of [[crossed complexes]] in
 
-* [[Ronald Brown]] and [[Marek  Golasinski]], _A model structure for the homotopy theory of crossed complexes_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 30 no. 1 (1989), p. 61-82 ([pdf](http://www.numdam.org/item?id=CTGDC_1989__30_1_61_0))
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[model category structure]] on the category of [[crossed complexes]], due to [Brown & Golasiński 1989](#BrownGolasiński89).
 
 The key facts used here are that the category of crossed complexes is monoidal closed, and that there is a good interval object, essentially the groupoid $\mathbf I$ extended to be a crossed complex. 
 
@@ -13,6 +27,12 @@ Notice that by other work of Brown and Higgins, crossed complexes are equivalent
 * [[model structure]]
 
 * [[crossed complex]]
+
+## References
+
+The original article:
+
+* {#BrownGolasiński89} [[Ronald Brown]], [[Marek Golasiński]]: _A model structure for the homotopy theory of crossed complexes_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, **30** 1 (1989) 61-82 &lbrack;[numdam:CTGDC_1989__30_1_61_0](http://www.numdam.org/item/?id=CTGDC_1989__30_1_61_0)&rbrack;
 
 See also
 
