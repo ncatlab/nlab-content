@@ -88,11 +88,13 @@ This is non-archimedean.
  {#OnTheRealAndComplexNumbers}
 
 
-Since the [[real numbers]] are a [[pseudolattice ordered abelian group]], the standard absolute value ${\vert {-} \vert_\infty}$ on the [[real numbers]] is
+Since the [[real numbers]] are a [[sequentially Cauchy complete]] [[Archimedean field]], the standard absolute value ${\vert {-} \vert_\infty}$ on the [[real numbers]] is
 
 $$
-  {\vert x \vert_\infty} = \max(x, -x)
+  {\vert x \vert_\infty} = \lim_{n \to \infty} x \tanh(n x)
 $$
+
+With the standard absolute value function defined, the maximum and principal square root functions could be defined on the real numbers as well. 
 
 The standard absolute value on the [[complex numbers]] is 
 
