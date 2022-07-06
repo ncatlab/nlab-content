@@ -3,12 +3,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
 #### Spin geometry
 +-- {: .hide}
 [[!include higher spin geometry - contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -46,7 +51,7 @@ See also:
 * Wikipedia, _[Dirac equation](https://en.wikipedia.org/wiki/Dirac_equation)_
 
 
-The [[path integral]] approach to the Dirac equation is discussed in
+The [[path integral]] approach to the Dirac equation:
 
 * Takashi Ichinose, Hiroshi Tamura, _Path Integral Approach to Relativistic Quantum Mechanics: Two-Dimensional Dirac Equation_, Progress of Theoretical Physics Supplement, Volume 92, April 1987, Pages 144–175, [doi](https://doi.org/10.1143/PTPS.92.144).
 
@@ -57,6 +62,11 @@ The [[path integral]] approach to the Dirac equation is discussed in
 * Wataru Ichinose, _On the Feynman Path Integral for the Dirac Equation in the General Dimensional Spacetime_, Communications in Mathematical Physics 329, 83–508 (2014), [doi](https://doi.org/10.1007/s00220-014-1997-x).
 
 * Wataru Ichinose, _Notes on the Feynman path integral for the Dirac equation_, Journal of Pseudo-Differential Operators and Applications 9, 789–809 (2018), [doi](https://doi.org/10.1007/s11868-017-0227-7).
+
+The Dirac equation in a [[gravity|gravitational]] [[Schwarzschild spacetime]] [[background field|background]]:
+
+* Paul M. Alsing, *Bound states of the Dirac equation in Schwarzschild spacetime: an exploration of intuition for the curious student* &lbrack;[arXiv:2207.00905](https://arxiv.org/abs/2207.00905)&rbrack;
+
 
 
 [[!redirects Dirac equations]]
