@@ -64,7 +64,7 @@ In particular, the traditional definition of an ordered field as defined above n
 
 Thus, some authors in constructive mathematics, such as [Booij 2020](#Booij20) and [Univalent Foundatiins Project 2013](#UFP13), have defined an ordered field to additionally have a lattice structure on $\leq$ and be a Heyting field, with the [[tight apartness relation]] defined as $a \# b$ if and only if $a \lt b$ or $b \lt a$. 
 
-However, other fields with a strict total order, such as the [[MacNeille real numbers]] and the [[surreal numbers]], do not necessarily have a lattice structure, nor are Heyting, so other authors prefer the more traditional definition given above. 
+However, other fields with a strict total order, such as the [[surreal numbers]], do not necessarily have a lattice structure, nor are Heyting, so other authors prefer the more traditional definition given above. 
 
 ## Examples
 
