@@ -25,6 +25,9 @@ On [[ionads]]:
 
 *  [[Richard Garner]], _Ionads_,  J. Pure Appl. Algebra 216 (2012), no. 8-9, 1734&#8211;1747. ([arXiv](http://arxiv.org/abs/0912.1415)) ([doi](http://dx.doi.org/10.1016/j.jpaa.2012.02.013)) ([author-archived version of published copy](http://comp.mq.edu.au/~rgarner/Papers/Ionads.pdf))
 
+On [[adhesive categories]]:
+
+* {#GarnerLack12} [[Richard Garner]], [[Steve Lack]]: *On the axioms for adhesive and quasiadhesive categories*, Theory and Applications of Categories, **27**  3 (2012) 27-46 &lbrack;[arXiv:1108.2934](http://arxiv.org/abs/1108.2934), [tac:27-03](http://www.tac.mta.ca/tac/volumes/27/3/27-03abs.html)&rbrack;
 
 
 
