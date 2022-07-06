@@ -28,9 +28,8 @@ Just like [[Kan fibrations]] serve as the [[fibrations]] in the [[classical mode
 
 ## Definition
 
-\begin{definition}
-
-A morphism $f_\bullet \,\colon\, X_\bullet \xrightarrow{\;} Y_\bullet$ is a *homotopy Kan fibration* if for all $n \in \mathbb{N}$ and $0 \leq k \leq n$ the induced map
+\begin{definition}\label{HomotopyKanFibration}
+A morphism $f_\bullet \,\colon\, X_\bullet \xrightarrow{\;} Y_\bullet$ is a *homotopy Kan fibration* if for all [[positive numbers]] $n \in \mathbb{N}_+$ and all $0 \leq k \leq n$ the induced map
 
 \[
   \label{HomotopyTheoreticKanFibration}
