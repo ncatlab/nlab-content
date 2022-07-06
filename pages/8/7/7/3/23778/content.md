@@ -28,9 +28,8 @@ This following definition of a principal square root function comes from a joint
 
 Let us define the real numbers to be a Cauchy complete Archimedean ordered field, since that is the minimum requirement for which the inverse function theorem is true. 
 
-There exists a square root function $\mathrm{sqrt}:(0, \infty) \to \mathbb{R}$ which is continuous on $(0,\infty)$, defined by 
+There exists a square root function $\mathrm{sqrt}:(0, \infty) \to \mathbb{R}$ defined by 
 $$\mathrm{sqrt}(x) \coloneqq e^{\frac{1}{2} \ln(x)}$$
-We shall call this the **continuous principal square root**, to distinguish this function from the actual principal square root function that will be defined. 
 
 Let us define continuous functions $f_n:[0, \infty) \to [0, \infty)$: 
 $$f_n(x) = \begin{cases}
