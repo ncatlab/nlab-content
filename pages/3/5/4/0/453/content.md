@@ -365,7 +365,7 @@ Introduction:
 
 * [[Carsten Butz]], _Regular Categories and Regular Logic_ , BRICS LS-98-2 Aarhus 1998. ([brics](http://www.brics.dk/LS/98/2/))
 
-* {#Gran20} [[Marino Gran]], *An introduction to regular categories*, in: New Perspectives in Algebra, Topology and Categories,  Coimbra Mathematical Texts ([arXiv:2004.08964](https://arxiv.org/abs/2004.08964), [ISBN:978-3-030-84319-9](https://www.springerprofessional.de/en/new-perspectives-in-algebra-topology-and-categories/19764096))
+* {#Gran20} [[Marino Gran]], *An introduction to regular categories*, in: New Perspectives in Algebra, Topology and Categories,  Coimbra Mathematical Texts, Springer (2021) &lbrack;[arXiv:2004.08964](https://arxiv.org/abs/2004.08964), [ISBN:978-3-030-84319-9](https://www.springerprofessional.de/en/new-perspectives-in-algebra-topology-and-categories/19764096)&rbrack;
 
 Textbook accounts:
 
