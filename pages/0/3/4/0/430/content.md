@@ -77,9 +77,10 @@ $R_p$ is a residue field iff $\neg \neg p$.
 \end{theorem}
 
 \begin{proof}
-Given a proposition $p$, suppose that $\neg \neg p$, and consider some $x\in R_p$. Suppose $x$ does not have a multiplicative inverse. Now suppose $x\neq 0$. Then we see that $x-1$ is not in $R_p$. If $p$ held, we would have $x-1\in R_p$. So we know $\neg p$ holds. But this is a contradiction. Therefore, $x$ must be zero (using decidable equality).
+Given a proposition $p$, suppose that $\neg \neg p$, and consider some $x\in R_p$. Suppose $x$ does not have a multiplicative inverse. Now suppose $x\neq 0$. Then we see that $x^{-1}$ is not in $R_p$. If $p$ held, we would have $x{-1} \in R_p$. So we know $\neg p$ holds. But this is a contradiction. Therefore, $x$ must be zero (using decidable equality).
 
-Conversely, suppose $R_p$ is a residue field. Then $2\neq 0$, so $2$ does not fail to have an inverse. That is, $2-1$ is not not in $R_p$. Then $\neg \neg p$.
+Conversely, suppose $R_p$ is a residue field. If $\neg p$ held, we would have $R_p = \mathbb{Z}$, which clearly is not a residue field since $2$ is neither invertible nor zero. So we must have $\neg \neg p$.
+
 \end{proof}
 
 \begin{theorem}
@@ -87,7 +88,7 @@ $R_p$ is a Heyting field iff it is the case that $p$ iff $R_p$ is a discrete fie
 \end{theorem}
 
 \begin{proof}
-Suppose $R_p$ is a Heyting field. Then either $2$ or $3$ has a multiplicative inverse, so either $2-1 \in R_p$ or $3-1\in R_p$. In either case, we see that $p$ holds. If $p$ holds, then $R_p \cong \mathbb{Q}$, which is a discrete field. And if $R_p$ is a discrete field, it is clearly a Heyting field.
+Suppose $R_p$ is a Heyting field. Then either $2$ or $3$ has a multiplicative inverse, so either $2^{-1} \in R_p$ or $3^{-1} \in R_p$. In either case, we see that $p$ holds. If $p$ holds, then $R_p = \mathbb{Q}$, which is a discrete field. And if $R_p$ is a discrete field, it is clearly a Heyting field.
 \end{proof}
 
 \begin{theorem}
