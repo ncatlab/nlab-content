@@ -8381,7 +8381,8 @@ We discuss the second case. The first case is [[formal dual|formally dual]].
 
 So consider the [[mapping cocylinder]]-construction from prop. \ref{ConeAndMappingCylinder}
 
-$$
+\[
+  \label{ConstructionOfFactorizationInFactorizationLemma}
   \array{
      Path(f) &\overset{\in W \cap Fib}{\longrightarrow}& X
      \\
@@ -8394,7 +8395,7 @@ $$
      Y
   }
   \,.
-$$
+\]
 
 
 To see that the vertical composite is indeed a fibration, notice that, by the [[pasting law]], the above pullback diagram may be decomposed as a [[pasting]] of two pullback diagram as follows
