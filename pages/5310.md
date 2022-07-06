@@ -37,7 +37,7 @@ Note that there is never any trouble finding a square root of $y$ if we assume t
 
 * [[root of unity]]
 
-* [[real square root]]
+* [[real square root function]]
 
 * [[Euclidean field]]
 
