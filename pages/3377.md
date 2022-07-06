@@ -46,7 +46,7 @@ $$
 
 satisfying the integrability condition $\Phi\wedge\Phi = 0$. The pair of data $(E,\Phi)$ is then called a **Higgs bundle**. 
 
-(Notice that this is similar to but crucially different the definition of a [[flat connection]] on a [[vector bundle]]. For that the map $\Phi$ is just $\mathbb{C}$-linear and the integrability condiiton is $\mathbf{d}\phi + \Phi\wedge\Phi = 0$.)
+(Notice that this is similar to but crucially different the definition of a [[flat connection]] on a [[vector bundle]]. For that the map $\Phi$ is just $\mathbb{C}$-linear and the integrability condition is $\mathbf{d}\phi + \Phi\wedge\Phi = 0$.)
 
 Higgs bundles can be considered as a limiting case of a [[curvature|flat]] [[connection on a bundle|connection]] in the limit in which its exterior differential tends to zero, be obtained by rescaling. So the equation $d u/dz = A(z)u$ where $A(z)$ is a matrix of connection can be rescaled by putting a small parameter in front of $d u/dz$. 
 
