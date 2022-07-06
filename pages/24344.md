@@ -121,6 +121,18 @@ Notice here that
    is the [[terminal object]] (i.e. the simplicial presheaf which is constant on the [[singleton set]]).
 
 
+## In condensed mathematics
+
+A Brown–Gersten-type property holds
+for [[condensed sets]]; as explained in the linked
+article, it suffices to verify the descent
+property for disjoint covers with zero or two elements,
+as well as singleton families given by surjections of [[profinite sets]].
+
+This property no longer holds for [[condensed ∞-groupoids]], and [[hypercovers]] are now necessary.
+However, one can pass to the equivalent site
+of [[compact extremally disconnected Hausdorff spaces]],
+where finite disjoint covers suffice.
 
 
 ## References
