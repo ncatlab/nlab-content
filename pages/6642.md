@@ -139,7 +139,7 @@ The basic theory is developed in
 
 * {#CHK} C. Cassidy, M. H&#233;bert, [[Max Kelly]], _Reflective subcategories, localizations, and factorization systems_,  J. Austral. Math Soc. (Series A) 38 (1985), 287--329 ([doi:10.1017/S1446788700023624](https://doi.org/10.1017/S1446788700023624))
  
-* {#CJKP} [[Aurelio Carboni]], [[George Janelidze]], [[Max Kelly]], [[Robert Paré]], _On localization and stabilization for factorization systems_, Appl. Categ. Structures 5 (1997), 1--58 ([doi:10.1023/A:1008620404444](https://doi.org/10.1023/A:1008620404444))
+* {#CJKP} [[Aurelio Carboni]], [[George Janelidze]], [[Max Kelly]], [[Robert Paré]], _On localization and stabilization for factorization systems_, Appl. Categ. Structures **5** (1997) 1-58 &lbrack;[doi:10.1023/A:1008620404444](https://doi.org/10.1023/A:1008620404444)&rbrack;
  
 
 Discussion of "simple" reflective factorization systems and of simultaneously reflective and coreflective factorization systems is in 
