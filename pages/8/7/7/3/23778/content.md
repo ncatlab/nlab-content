@@ -1,3 +1,4 @@
+[[!redirects real square root]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -23,27 +24,44 @@ The different types of [[square root]] [[partial functions]] on the [[real numbe
 
 ## Definition ##
 
-### Metric principal square root ###
+This following definition of a principal square root function comes from a joint proof of the existence of a principal square root function in the non-negative real numbers in constructive mathematics by Madeleine Birchfield [here](https://mathoverflow.net/questions/426103/proof-in-constructive-mathematics-that-the-principal-square-root-function-exists) and François G. Dorais  [here](https://mathoverflow.net/a/426110). Most of the following text has been copied from the two sources. 
 
-The **metric principal square root** is a function $\mathrm{sqrt}:[0, \infty) \to \mathbb{R}$ defined by the functional equation $\mathrm{sqrt}(x^2) = \vert x \vert$ for all real numbers $x \in \mathbb{R}$. This is the real square root function used to define the [[metric]] in [[Euclidean spaces]]. However, this square root is not [[constructive mathematics|constructively]] [[pointwise continuous]] at $0$. 
+Let us define the real numbers to be a Cauchy complete Archimedean ordered field, since that is the minimum requirement for which the inverse function theorem is true. 
 
-### Continuous principal square root ###
+The square function $x^2$ is an [[analytic function]] on the entire domain, so it is continuously differentiable on $(0,\infty)$, and its derivative $2x$ is positive on $(0,\infty)$. Thus, by the [[inverse function theorem]] there exists a square root function $\mathrm{sqrt}:(0, \infty) \to \mathbb{R}$ which is continuous on $(0,\infty)$. We shall call this the **continuous principal square root**, to distinguish this function from the actual principal square root function that will be defined. 
 
-The **continuous principal square root** is a function $\mathrm{sqrt}_\mathrm{cont}:(0, \infty) \to \mathbb{R}$ defined as the [[solution]] to the first order non-linear [[ordinary differential equation]] 
+Let us define continuous functions $f_n:\mathbb{R}\to\mathbb{R}$: 
+$$f_n(x) = \begin{cases}
+1/2^n & \mathrm{when}\; x \leq 1/4^n \\
+\mathrm{sqrt}(x) & \mathrm{when}\; x \geq 1/4^n \\
+\end{cases}$$
+As stated, that requires knowing whether $x \leq 1/4^n$ or $x \geq 1/4^n$, but it is possible to work around this by patching three functions together:
 
-$$(2 \mathrm{sqrt}_\mathrm{cont}) \frac{d \mathrm{sqrt}_\mathrm{cont}}{d x} = 1$$
+ * $f^{-}_n:(-\infty,1/4^n)\to\mathbb{R}$ is the constant function with value $1/2^n$,
+ * $f^{+}_n:(1/4^n,\infty)\to\mathbb{R}$ is the continuous square root function restricted to the stated domain, and
+ * $f^0_n:(1/4^{n+1},1/4^{n-1})\to\mathbb{R}$ is defined as $\max(1/2^n,\mathrm{sqrt}(x))$.
 
-with initial conditions $\mathrm{sqrt}_\mathrm{cont}(1) = 1$, derived from the [[inverse function theorem]]. This is the real square root function used in constructive versions of the [[real quadratic formula]], or the [[continuous quadratic formula]]. However, $0$ is not in the domain of $\mathrm{sqrt}_\mathrm{cont}$, which means that not every real number with a real square root is in the domain of $\mathrm{sqrt}_\mathrm{cont}$, and it cannot be used in defining the metric for Euclidean spaces. 
+Since these functions agree on their overlap, and their domains comprise all of $\mathbb{R}$ we do get a total function $f_n:\mathbb{R}\to\mathbb{R}$ as a result. 
 
-### Other square roots
+Now the sequence of functions $(f_n)_{n=0}^\infty$ so defined converges uniformly on any bounded interval to a continuous function $f:\mathbb{R}\to\mathbb{R}$. The **principal square root** function $\sqrt{-}:\mathbb{R}\to\mathbb{R}$ is defined to be the function $f$ restricted to $[0,\infty)$ in the domain. 
 
-According to ([Richman 2010](#Richman2010)), there are an uncountable number of functions that satisfy the [[functional equation]] $f(x)^2 = x$ on some [[subset]] of the [[real numbers]]. Each of these could be called a real "square root function". 
+$f$ itself is easily shown to be defined as the function
+$$f(x) = \begin{cases}
+0 & \mathrm{if}\; x \leq 0 \\
+\sqrt{x} & \mathrm{if}\; x \geq 0 \\
+\end{cases}$$
+
+The principal square root function is used to define the [[Euclidean metric]] in [[Euclidean spaces]].  
+
+## Other square root functions
+
+According to ([Richman 2010](#Richman2010)), given the existence of a principal square root function, there are an uncountable number of functions that satisfy the [[functional equation]] $f(x)^2 = x$ on some [[subset]] of the [[real numbers]]. Each of these could be called a real "square root function". 
 
 For example, let $1_{\mathbb{Q}}:\mathbb{R} \to \mathbb{R}$ be the constructive Dirichlet indicator function, defined as $1_{\mathbb{Q}}(x) \coloneqq 1$ for every rational number $q \in \mathbb{Q}$, and $1_{\mathbb{Q}}(x) \coloneqq 0$ for every real number $x$ apart from every rational number $q \in \mathbb{Q}$ 
 
 $$\forall q \in \mathbb{Q}. \vert x - q \vert \gt 0$$
 
-Then the function $f(x) \coloneqq (-1)^{1_{\mathbb{Q}}(x)} \mathrm{sqrt}(x)$ is a real square root function, even though it is nowhere continuous, and not defined on the entire half-open interval $[0, \infty)$. 
+Then the function $f(x) \coloneqq (-1)^{1_{\mathbb{Q}}(x)} \sqrt{x}$ is a real square root function, even though it is nowhere continuous, and not defined on the entire half-open interval $[0, \infty)$. 
 
 ## See also
 
