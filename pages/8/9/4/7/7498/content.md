@@ -150,7 +150,7 @@ Therefore, by the general respect of geometric realization for homotopy fiber pr
 
 1. the sequence (eq:TopologiCALBorelConstructionFiberSequenceLevelOfSimplicialSpaces) of simplicial topological spaces is degreewise a homotopy fiber sequence of topological spaces;
 
-1. the morphism $X \times G^{\times^\bullet} \to G^{\times^\bullet}$ is a homotopical Kan fibration (see [here](geometric+realization+of+simplicial+topological+spaces#eq:HomotopyTheoreticKanFibration)).
+1. the morphism $X \times G^{\times^\bullet} \to G^{\times^\bullet}$ is a [[homotopy Kan fibration]] (see [here](geometric+realization+of+simplicial+topological+spaces#eq:HomotopyTheoreticKanFibration)).
 
 For the first condition observe that the degeneracy maps of the [[nerve]] of an  [[action groupoid]] are all of the form $X \times G^{n} \times ( \{e\} \xhookrightarrow{\;} G)$, hence are closed cofibrations (by [this Example](Hurewicz+cofibration#KifiedProductsOfCofibrationsWithCompactlyGeneratedSpaces)).
 
