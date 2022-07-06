@@ -57,6 +57,8 @@ Discussion with focus on optimization problems ([[quantum annealing]]):
 
 * Erica K. Grant and Travis S. Humble, *Adiabatic Quantum Computing and Quantum Annealing* $[$[doi:10.1093/acrefore/9780190871994.013.32](https://doi.org/10.1093/acrefore/9780190871994.013.32)$]$
 
+* Atanu Rajak, Sei Suzuki, Amit Dutta, Bikas K. Chakrabarti, *Quantum Annealing: An Overview* &lbrack;[arXiv:2207.01827](https://arxiv.org/abs/2207.01827)&rbrack;
+
     
 See also:
 
