@@ -30,10 +30,28 @@ $$
 
 ## Properties
 
+### Basic properties
 
-Like all categories of [[presheaf|presheaves]] on a [[small category]], the [[category]] [[SimpSet]] of simplicial sets is complete and cocomplete (with [[limits]] and [[colimits]] constructed levelwise) and [[cartesian closed category|cartesian closed]]. In fact, like all [[presheaf|presheaf categories]], it is a [[topos]]. 
+Many basic properties of the category of simplicial sets follow as it being a special case of a [[category of presheaves]] over a [[small category]] (namely over the [[simplex category]]), and hence in particular a [[Grothendieck topos]].
 
-### Monoidal structure
+For example, this immediately implies (see [there](category+of +presheaves#GeneralProperties)) that and how $sSet$ is [[complete category|complete]] and [[cocomplete category|cocomplete]] (with [[limits]] and [[colimits]] constructed levelwise) and [[cartesian closed category|cartesian closed]]. 
+
+In this vein:
+
+\begin{prop}\label{EpimorphismsOfSimplicialSetsDetectedDegreewise}
+  A morpism $X_\bullet \xrightarrow{f_\bullet} Y_\bullet$ of simplicial sets is
+
+* a [[monomorphism]] precisely if all component [[functions]] $f_n \colon X_n \to Y_n$ are [[injections]];
+
+* an [[epimorphism]] precisely if all component [[functions]] $f_n \colon X_n \to Y_n$ are [[surjections]].
+
+\end{prop}
+\begin{proof}
+  This is the immediate specialization of [this Proposition](category+of+presheaves#EpimorphismsOfPresheavesAreDetectedObjectwise) for general presheaves.
+\end{proof}
+
+
+### Cartesian closed monoidal structure
 
 As described at [[closed monoidal structure on presheaves]]
 the cartesian tensor product $S \otimes T = S \times T$ of simplicial sets $S$ and $T$ is the simplicial set
@@ -57,12 +75,11 @@ where on the right the cartesian product is in the [[nice category of spaces|nic
 =--
 
 
-See also [[products of simplices]].
+See also at *[[products of simplices]]*.
 
+\linebreak
 
-### Closed structure
-
-As described at [[closed monoidal structure on presheaves]]
+As described at [[closed monoidal structure on presheaves]],
 the [[internal hom]]  $[S,T]$ of simplicial sets is the simplicial set
 $$
   [S,T] : [n] \mapsto Hom_{SSet}(S \times \Delta[n], T)
