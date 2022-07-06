@@ -150,7 +150,7 @@ As a corollary of prop. \ref{CharacterizationAsEpiOnZeroTruncation} we have:
 ###### Proposition
 **(effective epis of $\infty$-groupoids**)
 
-In $C = $ [[∞Grpd]] a morphism $f : Y \to X$ is an effective epimorphism precisely if it induces an [[epimorphism]] $\pi_0 f : \pi_0 Y \to \pi_0 X$ in [[Set]] on [[connected components]].
+In $C = $ [[∞Grpd]] a morphism $f : Y \to X$ is an effective epimorphism precisely if it induces an [[epimorphism]] $\pi_0 f : \pi_0 Y \to \pi_0 X$ in [[Set]] (a [[surjection]]) on [[connected components]].
  
 =--
 
@@ -193,3 +193,5 @@ If $S^1 = \ast \underset{\ast \coprod \ast}{\coprod} \ast$ denotes the [[homotop
 [[!redirects effective epimorphism in an (∞,1)-category]]
 [[!redirects effective epimorphisms in an (∞,1)-category]]
 [[!redirects effective epimorphisms in an (infinity,1)-category]]
+
+[[!redirects effective epimorphism in an infinity1-category]]
