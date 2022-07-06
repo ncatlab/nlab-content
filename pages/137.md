@@ -118,9 +118,7 @@ See [this Prop.](Ring#InclusionOfIntegersIntoRationalsIsEpimorphismOfRings) for 
 
 ## Properties
 
-+-- {: .num_prop}
-###### Proposition
-
+\begin{prop}\label{BasicCharacterizationOfEpimorphisms}
 The following are equivalent:
 
 * $f : x \to y$ is an epimorphism in $C$;
@@ -142,7 +140,7 @@ The following are equivalent:
 
   is a [[pushout]] diagram.
 
-=--
+\end{prop}
 
 +-- {: .num_prop}
 ###### Proposition
