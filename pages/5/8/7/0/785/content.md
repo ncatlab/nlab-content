@@ -430,15 +430,17 @@ Of particular interest are consecutive homotopy pullbacks of point inclusions. T
 
 See the references at _[[homotopy limit]]_ .
 
-Fairly comprehensive resources are
+Fairly comprehensive resources:
 
 * {#Hovey07} [[Mark Hovey]], _Model categories_, Mathematical Surveys and Monographs, vol 63, 1999,reprinted 2007
 
 * {#Lurie} [[Jacob Lurie]], appendix of _[[Higher Topos Theory]]_
   
-See also
+See also:
 
 * {#CPS05} [[Wojciech Chacholski]], Wolfgang Pitsch, and [[Jerome Scherer]], _Homotopy pullback squares up to localization_, in [[Dominique Arlettaz]], [[Kathryn Hess]] (eds.) _An Alpine Anthology of Homotopy Theory_ ([arXiv:math/0501250](http://arxiv.org/abs/math/0501250), [pdf](http://sma.epfl.ch/~jscherer/articles/hopullbacks2.pdf), [doi:10.1090/conm/399](http://dx.doi.org/10.1090/conm/399))
+
+* [[Alisa Govzmann]], [[Damjan Pištalo]], [[Norbert Poncin]], *Indeterminacies and models of homotopy limits* &lbrack;[arXiv:2109.12395](https://arxiv.org/abs/2109.12395)&rbrack;
 
  
 
