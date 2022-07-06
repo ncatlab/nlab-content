@@ -133,7 +133,7 @@ The [[opposite category]] [[Top]]$^{op}$ is regular. The key facts are that [[re
 \end{example}
 
 \begin{example}
-The category of ([[Hausdorff space|Hausdorff]]) [[Kelley spaces]] is regular (but is not, however, locally cartesian closed, nor is it [[exact category|exact]]) ([Cagliari-Matovani-Vitale 95](#CagliariMatovaniVitale95)) 
+The category of ([[Hausdorff space|Hausdorff]]) [[Kelley spaces]] is regular (however, is not locally cartesian closed, nor is it [[exact category|exact]]) ([Cagliari-Matovani-Vitale 95](#CagliariMatovaniVitale95)) 
 \end{example}
 
 \begin{example}
