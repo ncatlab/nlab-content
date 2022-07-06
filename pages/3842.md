@@ -33,12 +33,58 @@ An object in this category is a [[presheaf]]. See there for more details.
 ## Properties
 
 ### General
+ {#GeneralProperties}
 
-* The category of presheaves $PSh(C)$ is the [[free cocompletion]] of $C$.
+For $\mathcal{C}$ any [[category]], consider $PSh(\mathcal{C})$ its category of set-valued presheaves.
 
-* the [[Yoneda lemma]] says that the [[Yoneda embedding]] $j : C \to PSh(C)$ is -- in particular -- a [[full and faithful functor]].
+\begin{proposition}
+  $PSh(\mathcal{C})$ has all small [[limits]] and [[colimits]], and these are computed objectwise: For $\mathcal{I}$ any [[diagram]] (a [[small category]]) we have:
+$$
+  X_{\bullet} \,\colon\, \mathcal{I} \longrightarrow PSh(\mathcal{C})
+  \;\;\;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;\;\;
+  \underset{c \in \mathcal{C}}{\forall}
+  \;\;\;\;
+  \big(
+  \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{lim} X_i
+  \big)
+  (c)
+  \;\simeq\;
+  \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{lim} 
+  \big(
+     X_i(c)
+  \big)
+  \;\;\;\;\text{and}\;\;\;\;
+  \big(
+  \underset{\underset{i \in \mathcal{I}}{\longleftarrow}}{lim} X_i
+  \big)
+  (c)
+  \;\simeq\;
+  \underset{\underset{i \in \mathcal{I}}{\longleftarrow}}{lim} 
+  \big(
+     X_i(c)
+  \big)
+$$
+\end{proposition}
 
-* A category of presheaves is a [[topos]].
+\begin{proposition}
+  $PSh(\mathcal{C})$ is a [[cartesian closed category]].
+\end{proposition}
+\begin{proof}
+  This is spelled out at *[[closed monoidal structure on presheaves]]*.
+\end{proof}
+
+\begin{proposition}
+  $PSh(\mathcal{C})$ is a [[topos]].
+\end{proposition}
+
+
+
+* The category of presheaves $PSh(\mathcal{C})$ is the [[free cocompletion]] of $\mathcal{C}$.
+
+* the [[Yoneda lemma]] says that the [[Yoneda embedding]] $j \colon \mathcal{C} \to PSh(\mathcal{C})$ is -- in particular -- a [[full and faithful functor]].
+
 
 * The construction of forming (co)-presheaves extends to a [[2-functor]]
 
