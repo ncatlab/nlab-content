@@ -15,9 +15,6 @@
 
 
 
-
-
-
 [[geometry]] $\leftarrow$ [[Isbell duality]]  $\rightarrow$ **algebra**
 
 ***
@@ -53,14 +50,25 @@ For many algebraic structures a notion of [[action]] is defined; they embody "sy
 
 See also 
 
+* [[commutative algebra]]
+
 * [[counterexamples in algebra]].
 
 [[!include Isbell duality - table]]
 
-## Further references
+## References
 
-* See [_Wikipedia_](http://en.wikipedia.org/wiki/Algebra)
-* [[commutative algebra]]
+Introductory textbooks:
+
+* {#Aluffi09} [[Paolo Aluffi]], *Algebra: Chapter 0*, Graduate Studies in Mathematics **104**,  AMS (2009) &lbrack;[ISBN:978-1-4704-1168-8](https://bookstore.ams.org/gsm-104/)&rbrack;
+
+* [[Joseph A. Gallian]], *Contemporary Abstract Algebra*, Chapman and Hall/CRC (2020)  &lbrack;[doi:10.1201/9781003142331](https://doi.org/10.1201/9781003142331), [webpage](https://en.wikipedia.org/wiki/Joseph_Gallian), [pdf](https://ict.iitk.ac.in/wp-content/uploads/CS203-Mathematics-for-Computer-Science-III-Gallian.pdf)&rbrack;
+
+
+See also:
+
+* Wikipedia, *[Algebra](http://en.wikipedia.org/wiki/Algebra)*
+
 
 [[!redirects algebras]]
 [[!redirects algebraist]]
