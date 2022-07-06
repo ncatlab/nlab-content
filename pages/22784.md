@@ -18,6 +18,21 @@
 
 In real analysis, the reciprocal $\frac{1}{x}$ is a [[partial function]] implicitly defined over the non-zero [[real numbers]] by the equation $x \left(\frac{1}{x}\right) = 1$. This is the definition commonly used when defining the real numbers as a [[field]]. 
 
+### By the exponential and natural logarithm functions
+
+The __reciprocal__ $\frac{1}{(-)}:(-\infty,0)\union(0,\infty)\to\mathbb{R}$ is piecewise defined as 
+
+$$
+\frac{1}{x} \coloneqq 
+\begin{cases}
+-e^{-\ln(-x)} & x \in (-\infty,0) \\
+e^{-\ln(x)} & x \in (0,\infty) 
+\end{cases}
+$$
+
+This definition implies that the reciprocal is [[analytic function|analytic]] in each of the two connected components of the domain.
+
+
 ### By power series
 
 Let us define the functions $f:(-1,1)\to\mathbb{R}$ and $g:(-1,1)\to\mathbb{R}$ from the open subinterval of the real numbers $(-1,1) \subset \mathbb{R}$ to the real numbers $\mathbb{R}$ as the locally convergent [[power series]]
