@@ -28,28 +28,21 @@ This following definition of a principal square root function comes from a joint
 
 Let us define the real numbers to be a Cauchy complete Archimedean ordered field, since that is the minimum requirement for which the inverse function theorem is true. 
 
-The square function $x^2$ is an [[analytic function]] on the entire domain, so it is continuously differentiable on $(0,\infty)$, and its derivative $2x$ is positive on $(0,\infty)$. Thus, by the [[inverse function theorem]] there exists a square root function $\mathrm{sqrt}:(0, \infty) \to \mathbb{R}$ which is continuous on $(0,\infty)$. We shall call this the **continuous principal square root**, to distinguish this function from the actual principal square root function that will be defined. 
+The square function $x^2$ is uniformly differentiable on every closed subinterval of $(0,\infty)$, and its derivative $2x$ is strictly positive on $(0,\infty)$. Thus, by the [[inverse function theorem]] there exists a square root function $\mathrm{sqrt}:(0, \infty) \to \mathbb{R}$ which is continuous on $(0,\infty)$. We shall call this the **continuous principal square root**, to distinguish this function from the actual principal square root function that will be defined. 
 
-Let us define continuous functions $f_n:\mathbb{R}\to\mathbb{R}$: 
+Let us define continuous functions $f_n:[0, \infty) \to [0, \infty)$: 
 $$f_n(x) = \begin{cases}
 1/2^n & \mathrm{when}\; x \leq 1/4^n \\
 \mathrm{sqrt}(x) & \mathrm{when}\; x \geq 1/4^n \\
 \end{cases}$$
 As stated, that requires knowing whether $x \leq 1/4^n$ or $x \geq 1/4^n$, but it is possible to work around this by patching three functions together:
 
- * $f^{-}_n:(-\infty,1/4^n)\to\mathbb{R}$ is the constant function with value $1/2^n$,
- * $f^{+}_n:(1/4^n,\infty)\to\mathbb{R}$ is the continuous square root function restricted to the stated domain, and
- * $f^0_n:(1/4^{n+1},1/4^{n-1})\to\mathbb{R}$ is defined as $\max(1/2^n,\mathrm{sqrt}(x))$.
+ * $f^{-}_n:[0,1/4^n) \to [0, \infty)$ is the constant function with value $1/2^n$,
+ * $f^{+}_n:(0,\infty) \to [0, \infty)$ is defined as $\max(1/2^n,\mathrm{sqrt}(x))$.
 
-Since these functions agree on their overlap, and their domains comprise all of $\mathbb{R}$ we do get a total function $f_n:\mathbb{R}\to\mathbb{R}$ as a result. 
+Since these functions agree on their overlap, and their domains comprise all of $[0, \infty)$ we do get a total function $f_n:[0, \infty) \to [0, \infty)$ as a result. 
 
-Now the sequence of functions $(f_n)_{n=0}^\infty$ so defined converges uniformly on any bounded interval to a continuous function $f:\mathbb{R}\to\mathbb{R}$. The **principal square root** function $\sqrt{-}:\mathbb{R}\to\mathbb{R}$ is defined to be the function $f$ restricted to $[0,\infty)$ in the domain. 
-
-$f$ itself is easily shown to be defined as the function
-$$f(x) = \begin{cases}
-0 & \mathrm{if}\; x \leq 0 \\
-\sqrt{x} & \mathrm{if}\; x \geq 0 \\
-\end{cases}$$
+Now the sequence of functions $(f_n)_{n=0}^\infty$ so defined converges uniformly on any bounded interval to a continuous function $\sqrt{(-)}:[0, \infty) \to [0, \infty)$ called the **principal square root** function. It is easily seen that $(\sqrt{x})^2 = x$ and $\sqrt{x^2} = x$. 
 
 The principal square root function is used to define the [[Euclidean metric]] in [[Euclidean spaces]].  
 
