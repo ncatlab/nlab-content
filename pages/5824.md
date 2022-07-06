@@ -167,6 +167,10 @@ for [[right proper model categories]]:
 
 * {#Hirschhorn02} [[Philip Hirschhorn]], Prop. 13.3.15 of: _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
 
+and for general model categories:
+
+* [[Alisa Govzmann]], [[Damjan Pištalo]], [[Norbert Poncin]], Prop. 8 in: *Indeterminacies and models of homotopy limits* &lbrack;[arXiv:2109.12395](https://arxiv.org/abs/2109.12395)&rbrack;
+
 ### In $(\infty,1)$-category theory
 
 Discussion in [[(infinity,1)-category theory|$(\infty,1)$-category theory]]
