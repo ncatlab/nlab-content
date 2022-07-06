@@ -100,9 +100,7 @@ See [this Prop.](Ring#InclusionOfIntegersIntoRationalsIsEpimorphismOfRings) for 
 We list the following properties without their (easy) proofs. The proofs can be found spelled out (dually) at [[epimorphism]].
 
 
-+-- {: .num_prop}
-###### Proposition
-
+\begin{prop}\label{BasicCharacterizationOfMonomorphisms}
 The following are equivalent:
 
 * $f : x \to y$ is a monomorphism in $C$;
@@ -124,7 +122,7 @@ The following are equivalent:
 
   is a [[pullback]] diagram.
 
-=--
+\end{prop}
 
 
 +-- {: .num_prop}
