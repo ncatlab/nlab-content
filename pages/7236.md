@@ -101,7 +101,7 @@ In: Walukiewicz I. (eds) Foundations of Software Science and Computation Structu
 * {#Lack} [[Steve Lack]], *An embedding theorem for adhesive categories*, Theory and Applications of Categories, Vol. 25, 2011, No. 7, pp 180-188. [journal page](http://www.tac.mta.ca/tac/volumes/25/7/25-07abs.html), arXiv:[1103.0600](https://arxiv.org/abs/1103.0600)
 
 
-* {#GarnerLack} [[Richard Garner]] and [[Steve Lack]], *On the axioms for adhesive and quasiadhesive categories*, Theory and Applications of Categories, Vol. 27, 2012, No. 3, pp 27-46. ([arXiv:1108.2934](http://arxiv.org/abs/1108.2934), [journal page](http://www.tac.mta.ca/tac/volumes/27/3/27-03abs.html))
+* {#GarnerLack12} [[Richard Garner]], [[Steve Lack]]: *On the axioms for adhesive and quasiadhesive categories*, Theory and Applications of Categories, **27**  3 (2012) 27-46 &lbrack;[arXiv:1108.2934](http://arxiv.org/abs/1108.2934), [tac:27-03](http://www.tac.mta.ca/tac/volumes/27/3/27-03abs.html)&rbrack;
 
 
 [[!redirects adhesive categories]]
