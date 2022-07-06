@@ -35,16 +35,16 @@ An object in this category is a [[presheaf]]. See there for more details.
 ### General
  {#GeneralProperties}
 
-For $\mathcal{C}$ any [[category]], consider $PSh(\mathcal{C})$ its category of set-valued presheaves.
+For $\mathcal{C}$ any [[category]], consider $PSh(\mathcal{C})$ its category of [[Set]]-valued presheaves.
 
-\begin{proposition}
-  $PSh(\mathcal{C})$ has all small [[limits]] and [[colimits]], and these are computed objectwise: For $\mathcal{I}$ any [[diagram]] (a [[small category]]) we have:
+\begin{proposition}\label{LimitsOfPresheavesAreComputedObjectwise}
+  $PSh(\mathcal{C})$ has all [[limits]] and [[colimits]] (over [[small diagrams]]), and these are computed objectwise: For $\mathcal{I}$ any [[diagram]] (a [[small category]]) we have:
 $$
   X_{\bullet} \,\colon\, \mathcal{I} \longrightarrow PSh(\mathcal{C})
   \;\;\;\;\;\;\;\;\;
   \vdash
   \;\;\;\;\;\;\;\;\;
-  \underset{c \in \mathcal{C}}{\forall}
+  \underset{c \in Obj(\mathcal{C})}{\forall}
   \;\;\;\;
   \big(
   \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{lim} X_i
@@ -67,6 +67,18 @@ $$
   \big)
 $$
 \end{proposition}
+\begin{proof}
+  The defining [[universal property]] readily follows from that of the objectwise (co-)limits.
+\end{proof}
+
+\begin{proposition}\label{EpimorphismsOfPresheavesAreDetectedObjectwise}
+  A morphism $X \xrightarrow{\;f\;} Y$ of presheaves $X,Y \,\in\, PSh(\mathcal{C})$ is an [[epimorphism]] or [[monomorphism]] precisely if it is so over each [[object]] of $\mathcal{C}$, hence precisely if it is object-wise a [[surjection]] or [[injection]], respectively.
+\end{proposition}
+\begin{proof}
+  Using for instance the characterization of epimorphisms by [[pushouts]] ([this Prop.](epimorphism#BasicCharacterizationOfEpimorphisms)) and of monomorphism by [[pullbacks]] ([this Prop.](monomorphism#BasicCharacterizationOfMonomorphisms)), the statement follows by Prop. \ref{LimitsOfPresheavesAreComputedObjectwise}.
+\end{proof}
+
+Now assume that $\mathcal{C}$ is a [[small category]]. 
 
 \begin{proposition}
   $PSh(\mathcal{C})$ is a [[cartesian closed category]].
@@ -78,6 +90,9 @@ $$
 \begin{proposition}
   $PSh(\mathcal{C})$ is a [[topos]].
 \end{proposition}
+\begin{proof}
+  This is the base case of *[[sheaf toposes are equivalently the left exact reflective subcategories of presheaf toposes]]*.
+\end{proof}
 
 
 
@@ -116,13 +131,6 @@ A category $E$ is equivalent to a presheaf topos if and only if it is cocomplete
 A proof as well as a second characterization using [[exact completion|exact completions]] can be found in Carboni-Vitale ([1998](#CarboniVitale98)) or Centazzo-Vitale ([2004](#Centazzo-Vitale04)). The first paper has also an interesting comparison to a classical characterization of categories [[monadic category|monadic]] over Set.
 
 
-### Cartesian closed monoidal structure
-
-As every [[topos]], a category of presheaves is a [[cartesian monoidal category|cartesian]] [[closed monoidal category]].
-
-For details on the closed structure see
-
-* [[closed monoidal structure on presheaves]].
 
 
 ### Presheaves on over-categories and over-categories of presheaves {#RelWithOvercategories}
