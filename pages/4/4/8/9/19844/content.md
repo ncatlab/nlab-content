@@ -260,6 +260,9 @@ Implications for the significance across channels:
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately is expected to have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) -- in [HMSN 21](#HMSN21) this is expected for Run 3 data -- and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]]. Extrapolation based on [LHCb Collaboration 18](#LHCbCollaboration18) predicts a [[statistical significance]] between 6 and 10 $\sigma$ by the year 2025 ([LKLR 19, p. 12](#LKLR19)).
 
+From [Guadagnoli & Koppenburg 2022](#GuadagnoliKoppenburg22):
+
+> The main final message is that all the instruments necessary to fully establish the putative new effects are at hand, thanks to running experiments and their upgrades. Therefore this subject stands concrete chances to usher genuinely unexpected discoveries.
 
 
 
@@ -722,6 +725,9 @@ Outlook:
 * {#GGJLMCS21} Li-Sheng Geng, Benjamín Grinstein, Sebastian Jäger, Shuang-Yi Li, Jorge Martin Camalich, Rui-Xiang Shi, _Implications of new evidence for lepton-universality violation in $b \to s \ell^+ \ell^-$ decays_ ([arXiv:2103.12738](https://arxiv.org/abs/2103.12738))
 
 * [[Riccardo Barbieri]], Section 5 of: _A view of flavour physics in 2021_ ([arXiv:2103.15635](https://arxiv.org/abs/2103.15635))
+
+* {#GuadagnoliKoppenburg22} Diego Guadagnoli, [[Patrick Koppenburg]], *Lepton-flavor violation and lepton-flavor-universality violation in b and c decays* &lbrack;[arXiv:2207.01851](https://arxiv.org/abs/2207.01851)&rbrack;
+
 
 Outlook for [[Belle II]] to confirm the [[flavour anomalies]], if they are real:
 
