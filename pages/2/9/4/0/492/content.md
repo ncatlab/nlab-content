@@ -16,34 +16,38 @@
 
 ## Definition
 
-A Kan fibration is one of the notions of [[fibrations of simplicial sets]].
+A Kan fibration is one of the notions of [[fibrations of simplicial sets]]:
 
-A _Kan fibration_ is a [[morphism]] $\pi : Y \to X$ of [[simplicial set|simplicial sets]] with the [[weak factorization system|lifting property]] for all [[horn]] inclusions.
+
+\begin{definition}
+A _Kan fibration_ is a [[morphism]] $\pi \colon Y \to X$ of [[simplicial set|simplicial sets]] with the [[lifting property]] for all [[horn]]-inclusions.
+\end{definition}
 
 This means that for 
 
 $$
  \array{
-   \Lambda^k[n] &\to& Y
+   \Lambda^k[n] &\longrightarrow& Y
    \\
-   \downarrow && \downarrow^\pi
+   \big\downarrow && \big\downarrow\mathrlap{{}^\pi}
    \\
-   \Delta^n &\to& X
+   \Delta^n &\longrightarrow& X
  }
 $$
 
-a commuting square with $n\ge 1$ and $0\le k\le n$, there always exists a lift
+a [[commuting square]] with $n\ge 1$ and $0\le k\le n$, there always exists a [[lift]]
 
-$$
+\[
+  \label{HornFiller}
  \array{
-   \Lambda^k[n] &\to& Y
+   \Lambda^k[n] &\longrightarrow& Y
    \\
-   \downarrow &\nearrow& \downarrow^\pi
+   \big\downarrow &\nearrow& \big\downarrow\mathrlap{{}^\pi}
    \\
-   \Delta^n &\to& X
+   \Delta^n &\longrightarrow& X
  }
  \,.
-$$
+\]
 
 In terms of the canonical [[powering]] of simplicial sets over sets, this is equivalent to the morphisms
 
@@ -244,6 +248,83 @@ Every [[empty bundle]] $\varnothing \to X$ is a [[Kan fibration]], since none of
 
 
 ## Properties
+
+### Surjective Kan fibrations
+ {#SurjectiveKanFibrations}
+
+Notice that a Kan fibration need *not* be a [[surjection]] in any sense:
+\begin{example}
+ \label{KanFibrationNeedNotBeSurjective}
+  For $X \,\in\, sSet$ any [[simplicial set]], the unique morphism from the [[initial object|initial]] simplicial set (which is the [[empty set]] in each degree) is a Kan fibration (the [[empty bundle]]): 
+$$
+  \varnothing \underset{\in KanFib}{\longrightarrow} X
+  \,.
+$$
+This is due to the fact that *[the 0-simplex has no horns](horn#ZeroSimplexHasNoHorns)*, namely that all [[horns]] appearing in the Kan condition (eq:HornFiller) are [[inhabited set|inhabited]], so that none of them has any morphism to $\varnothing$ (which is a [[strict initial object]]), so that the horn filler condition for the [[empty bundle]] is vacuous and hence satisfied.
+\end{example}
+
+But:
+\begin{lemma}
+  \label{KanFibrationWhichIsEpiInDegreeZeroIsEpi}
+  As soon as a Kan fibration is a [[surjection]] in degree 0, then it is a [[surjection]] in all degrees (and hence an [[epimorphism]] of simplicial sets):
+$$
+  X \overset{f}{\underset{\in KanFib}{\longrightarrow}} Y
+  \;\;\text{and}\;\;
+  f_0 \; \text{is surjective}
+  \;\;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;\;
+  \underset{n \in \mathbb{N}}{\forall}
+  \;\;
+  f_n \; \text{is surjective}
+$$
+\end{lemma}
+\begin{proof}
+  Let $\Delta[n] \xrightarrow{\sigma_n} Y$ be any [[n-simplex|$n$-simplex]] (seen, under the [[Yoneda lemma]], as a morphism from the standard [[n-simplex|$n$-simplex]]). We equivalently need to show that this [[lift|lifts]] through $f$, in that we have a [[commuting diagram]] of this form:
+$$
+  \array{
+    && X
+    \\
+    &
+    \mathllap{{}^{\widehat{\sigma_n}}}\nearrow
+    &
+    \big\downarrow \mathrlap{ {}^{f} }
+    \\
+    \Delta[n]
+    &\underset{\sigma_n}{\longrightarrow}&
+    Y
+    \mathrlap{\,.}
+  }
+$$
+Now, by the assumption that $f_0$ is surjective, we do have such a lift at least for any [[vertex]] $v$ of $\sigma_n$, hence we have a [[commuting diagram]] of this form:
+$$
+  \array{
+    \Delta[0]
+    &\overset{\widehat{v}}{\longrightarrow}&
+    X
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow\mathrlap{{}^{f}}
+    \\
+    \Delta[n]
+    &\underset{\sigma_n}{\longrightarrow}&
+    Y
+    \mathrlap{\,.}
+  }
+$$
+But the left morphism is an [[acyclic cofibration]] in the [[classical model structure on simplicial sets]]. These have the [[left lifting property]] against Kan fibrations, meaning that this last square has a [[lift]] $\widehat{\sigma_n}$. This exhibits the desired preimage of $\sigma_n$.
+\end{proof}
+
+Therefore:
+\begin{proposition}\label{EveryPiZeroEpiIsResolvedByASurjectiveKanFibration}
+  Let $Y$ be a [[Kan complex]] and 
+  $X \xrightarrow{f} Y$ be any morphism of [[simplicial sets]] which is a [[surjection]] on [[connected components]]: $\pi_0(f) \,\colon\, \pi_0(X) \twoheadrightarrow \pi_0(Y)$. Then the [[factorization lemma]] ([here](Introduction+to+Homotopy+Theory#FactorizationLemma)) factors $f$ through (a [[simplicial weak equivalence]] followed by)  a Kan fibration which is a degreewise [[surjection]] (and hence an [[epimorphism]] of [[simplicial sets]]).
+\end{proposition}
+\begin{proof}
+  From the construction of the factorization via [[path space objects]] ([here](Introduction+to+Homotopy+Theory#eq:ConstructionOfFactorizationInFactorizationLemma)) it is clear that the Kan fibration it produces is surjective in degree 0 onto all vertices in those [[connected components]] which are in the image of $f$. By assumption these are all components, so that the factoring Kan fibration is surjective in degree 0. Therefore the claim follows with Lemma \ref{KanFibrationWhichIsEpiInDegreeZeroIsEpi}
+\end{proof}
+
 
 ### Acyclic Kan fibrations and weak homotopy equivalences
 
