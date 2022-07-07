@@ -216,5 +216,12 @@ Discussion in [[(infinity,1)-category theory|$(\infty,1)$-category theory]]
 
 [[!redirects pasting law for pullbacks]]
 [[!redirects pasting law for pushouts]]
+
+[[!redirects pasting law for homotopy pullbacks]]
+[[!redirects pasting law for homotopy pushouts]]
+
+
 [[!redirects pasting law]]
 [[!redirects pullback lemma]]
+
+
