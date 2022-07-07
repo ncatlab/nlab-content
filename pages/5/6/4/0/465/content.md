@@ -181,7 +181,7 @@ is not a regular epi in $Cat$. A very similar example is found at [Bednarczyk et
 
 * In [[Set|the category of sets]], every epimorphism is regular. Thus, it can be hard to know, when generalising concepts from $\Set$ to other categories, what kind of epimorphism to use.  Frequently, regular epimorphisms are a good choice.  In particular, one may define a [[projective object]] (and hence the [[axiom of choice]]) using regular epimorphisms.
 
-* More generally, in every [[Grothendieck topos]] every epimorphism is regular (and in fact [[effective epimorphism|effective]], see there).
+* More generally, in every [[Grothendieck topos]] every epimorphism is regular (e.g. [Borceux 1994III, Prop. 3.4.13 on p. 218](#Borceux94III) and in fact [[effective epimorphism|effective]], see there).
 
 * In [[Grp|the category of groups]], every epimorphism is regular. A number of proofs can be found in the literature; one proof that avoids case analysis is given [here](http://ncatlab.org/toddtrimble/published/epimorphisms+in+the+category+of+groups). 
 
@@ -210,6 +210,8 @@ Textbook accounts:
 * {#Borceux94I} [[Francis Borceux]], Def. 4.3.1 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
 
 * {#Borceux94II} [[Francis Borceux]], Chapter 2 of: *[[Handbook of Categorical Algebra]]*, Vol. 2: *Categories and Structures*, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
+
+* {#Borceux94III} [[Francis Borceux]], Section 3.3.4 of: *[[Handbook of Categorical Algebra]]*. Vol. 3. *Categories of Sheaves*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525872](https://doi.org/10.1017/CBO9780511525872)&rbrack;
 
 
 Exposition and examples:
