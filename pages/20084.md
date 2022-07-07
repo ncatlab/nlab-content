@@ -35,6 +35,10 @@ On [[leptoquarks]]:
 
 * [[Andreas Crivellin]], Luc Schnell, *Complete Set of Feynman Rules for Scalar Leptoquarks* ([arXiv:2105.04844](https://arxiv.org/abs/2105.04844))
 
+On the [[Cabibbo anomaly]]:
+
+* [[Andreas Crivellin]], *Explaining the Cabibbo Angle Anomaly* &lbrack;[arXiv:2207.02507](https://arxiv.org/abs/2207.02507)&rbrack;
+
 
 ## Related entries
 
