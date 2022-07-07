@@ -30,7 +30,7 @@ A _monoidal model category_ is a [[model category]] which is also a [[closed mon
 +-- {: .num_defn #MonoidalModelCategory}
 ###### Definition
 
-A (symmetric) **monoidal model category** is [[model category]] $\mathcal{C}$
+A (symmetric) **monoidal model category** is a [[model category]] $\mathcal{C}$
 equipped with the structure of a  [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, I)$
 such that the following two compatibility conditions are satisfied
 
