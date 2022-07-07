@@ -114,10 +114,13 @@ For $G \,\in\, Grp(Grpd_\infty)$ an [[infinity-group|$\infty$-group]], consider 
 
 ## Properties
 
-### Relation to homotopy colimit (geometric realization)
+### General 
+
+* Homotopy Kan fibrations participate in a [[pullback-power axiom]] with (acyclic) homotopy cofibrations as expected in a [[monoidal model category]] ([Mazel-Gee 2015, Def. 4.3 with Exp. 5.3](#MazelGee15))
+
+### Relation to homotopy colimits (geometric realization)
 
 See at *[[geometric realization of simplicial topological spaces]]* the section *[Preservation of homotopy limits](geometric+realization+of+simplicial+topological+spaces#PreservationOfHomotopyLimits)*.
-
 
 
 ## Related concepts
@@ -131,7 +134,11 @@ See at *[[geometric realization of simplicial topological spaces]]* the section 
 
 * {#Lurie11} [[Jacob Lurie]], *Simplicial spaces*, Def. 3 in: *[Algebraic L-theory and Surgery](https://www.math.ias.edu/~lurie/287x.html)*, 2011 ([pdf](https://www.math.ias.edu/~lurie/287xnotes/Lecture7.pdf))
 
-* {#MazelGee14} [[Aaron Mazel-Gee]], _Model $\infty$-categories I: some pleasant properties of the $\infty$-category of simplicial spaces_ ([arXiv:1412.8411](https://arxiv.org/abs/1412.8411))
+* {#MazelGee14} [[Aaron Mazel-Gee]], _Model $\infty$-categories I: some pleasant properties of the $\infty$-category of simplicial spaces_ &lbrack;[arXiv:1412.8411](https://arxiv.org/abs/1412.8411)&rbrack;
+
+* {#MazelGee15} [[Aaron Mazel-Gee]], *Model ∞-categories II: Quillen adjunctions*, New York Journal of Mathematics **27** (2021) 508-550.  &lbrack;[arXiv:1510.04392](https://arxiv.org/abs/1510.04392), [nyjm:27-21](http://nyjm.albany.edu/j/2021/27-21.html)&rbrack;
+
+
 
 [[!redirects homotopy Kan fibrations]]
 
