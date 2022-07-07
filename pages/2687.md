@@ -1,7 +1,7 @@
 
 **[[model category]]**, [[model (infinity,1)-category|model $\infty$-category]]
 
-## Definitions ##
+**Definitions**
 
 * [[category with weak equivalences]]
 
@@ -24,7 +24,7 @@
 
 
 
-## Morphisms ##
+**Morphisms**
 
 * [[Quillen adjunction]]
   
@@ -34,7 +34,8 @@
 
   * [[derived functor]]
 
-## Universal constructions ##
+
+**Universal constructions**
 
 * [[homotopy Kan extension]]
 
@@ -47,7 +48,7 @@
 * [[Bousfield-Kan map]]
 
 
-## Refinements ##
+**Refinements**
 
 * [[monoidal model category]]
 
@@ -77,7 +78,8 @@
 
 * [[stable model category]]
 
-## Producing new model structures
+
+**Producing new model structures**
 
 * [[global model structures on functor categories|on functor categories (global)]]
 
@@ -94,7 +96,7 @@
 * [[Grothendieck construction for model categories]]
 
 
-## Presentation of $(\infty,1)$-categories ##
+**Presentation of $(\infty,1)$-categories**
 
 * [[(∞,1)-category]]
 
@@ -104,11 +106,12 @@
 
 * [[presentable (∞,1)-category]]
 
-## Model structures ##
+
+**Model structures**
 
 * [[Cisinski model structure]]
 
-### for $\infty$-groupoids
+*for $\infty$-groupoids*
 
 [[model structure for ∞-groupoids|for ∞-groupoids]]
 
@@ -148,7 +151,8 @@
 
 * [[model structure on cosimplicial simplicial sets]]
 
-### for equivariant $\infty$-groupoids
+
+*for equivariant $\infty$-groupoids*
 
 * [[fine model structure on topological G-spaces]]
 
@@ -157,24 +161,26 @@
   ([[Borel model structure]])
 
 
-### for rational $\infty$-groupoids
+*for rational $\infty$-groupoids*
 
 * [[model structure on dgc-algebras]]
 
-### for rational equivariant $\infty$-groupoids
+
+*for rational equivariant $\infty$-groupoids*
 
 * [[model structure on equivariant chain complexes]]
 
 * [[model structure on equivariant dgc-algebras]]
 
 
-### for $n$-groupoids
+*for $n$-groupoids*
 
 * [[model structure for n-groupoids|for n-groupoids]]/[[model structure for n-groupoids|for n-types]]
 
 * [[canonical model structure on groupoids|for 1-groupoids]]
 
-### for $\infty$-groups
+
+*for $\infty$-groups*
 
 * [[model structure on simplicial groups]]
 
@@ -182,9 +188,9 @@
 
 
 
-### for $\infty$-algebras
+*for $\infty$-algebras*
 
-#### general
+*general $\infty$-algebras*
 
 * [[model structure on monoids|on monoids]]
 
@@ -195,7 +201,7 @@
 * [[model structure on algebras over an operad|on algebras over an operad]],
   [[model structure on modules over an algebra over an operad|on modules over an algebra over an operad]]
 
-#### specific
+*specific $\infty$-algebras*
 
 * [[model structure on dg-algebras|model structure on differential-graded commutative algebras]]
 
@@ -212,7 +218,7 @@
 
 * [[model structure on dg-modules]]
 
-### for stable/spectrum objects
+*for stable/spectrum objects*
 
 * [[model structure on spectra]]
 
@@ -220,7 +226,8 @@
 
 * [[model structure on presheaves of spectra]]
 
-### for $(\infty,1)$-categories
+
+*for $(\infty,1)$-categories*
 
 * [[model structure on categories with weak equivalences|on categories with weak equivalences]]
 
@@ -232,11 +239,13 @@
 
 * [[model structure for Cartesian fibrations|for Cartesian fibrations]]
 
-### for stable $(\infty,1)$-categories
+
+*for stable $(\infty,1)$-categories*
 
 * [[model structure on dg-categories|on dg-categories]]
 
-### for $(\infty,1)$-operads
+
+*for $(\infty,1)$-operads*
 
 * [[model structure on operads|on operads]], [[model structure for Segal operads|for Segal operads]]
 
@@ -245,7 +254,7 @@
 
 * [[model structure on dendroidal sets|on dendroidal sets]], [[model structure for dendroidal complete Segal spaces|for dendroidal complete Segal spaces]], [[model structure for dendroidal Cartesian fibrations|for dendroidal Cartesian fibrations]]
 
-### for $(n,r)$-categories
+*for $(n,r)$-categories*
 
 * [[Theta space|for (n,r)-categories as ∞-spaces]]
 
@@ -257,7 +266,8 @@
 
 * [[model structure on strict ∞-categories|on strict ∞-categories]]
 
-### for $(\infty,1)$-sheaves / $\infty$-stacks
+
+*for $(\infty,1)$-sheaves / $\infty$-stacks*
 
 * [[model structure on homotopical presheaves|on homotopical presheaves]]
 
