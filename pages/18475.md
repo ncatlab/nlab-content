@@ -124,7 +124,7 @@ and its application to condensed matter physics_,  D-ITP Advanced Topics in Theo
 
 * {#Amoretti17} [[Andrea Amoretti]], _Condensed Matter Applications of AdS/CFT: Focusing on strange metals_, 2017 ([spire:1610363](http://inspirehep.net/record/1610363), [[AmorettiStrangeMetals.pdf:file]])
 
-* Hong Liu, Julian Sonner, _Quantum many-body physics from a gravitational lens_, Nature Rev.Phys. 2 (2020) 11, 615-633 ([arXiv:2004.06159](https://arxiv.org/abs/2004.06159), [doi:10.1038/s42254-020-0225-1](https://doi.org/10.1038/s42254-020-0225-1))
+* [[Hong Liu]], [[Julian Sonner]], _Quantum many-body physics from a gravitational lens_, Nature Rev. Phys. **2** (2020)  615-633 &lbrack;[arXiv:2004.06159](https://arxiv.org/abs/2004.06159), [doi:10.1038/s42254-020-0225-1](https://doi.org/10.1038/s42254-020-0225-1)&rbrack;
 
 * [[Subir Sachdev]], *Statistical mechanics of strange metals and black holes* ([arXiv:2205.02285](https://arxiv.org/abs/2205.02285))
 
@@ -142,6 +142,13 @@ Discussion of [[quantum chromodynamics]] via [[AdS/CFT in condensed matter physi
 * Yuri V. Kovchegov, _AdS/CFT applications to relativistic heavy ion collisions: a brief review_ ([arXiv:1112.5403](http://arxiv.org/abs/1112.5403))
 
 * {#SantiagodeCompostela18} _[Holography and Extreme Chromodynamics](http://igfae.usc.es/~holoquark2018/)_, Santiago de Compostela, July 2018
+
+### Application to BEC and superfluidity
+
+Application to [[Bose-Einstein condensates]], [[superfluidity]] and [[vortices]]:
+
+* Yu-Kun Yan, Shanquan Lan, Yu Tian, Peng Yang, Shunhui Yao, Hongbao Zhang, *Towards an effective description of holographic vortex dynamics* &lbrack;[arXiv:2207.02814](https://arxiv.org/abs/2207.02814)&rbrack;
+
 
 ### Application to superconductivity
 
