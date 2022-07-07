@@ -2453,6 +2453,14 @@ $$
 
 * {#Stolz14} [[Stephan Stolz]], _Topology and Field Theories_, Contemporary Mathematics 613, American Mathematical Society 2014 ([ams:conm-613](https://bookstore.ams.org/conm-613))
 
+### Terminology
+
+The term __functorial quantum field theory__ appears to originate around June 2008 in
+
+* [[Urs Schreiber]], _AQFT from $n$-functorial QFT_, [arXiv:0806.1079v1](https://arxiv.org/abs/0806.1079v1).
+
+At some point later, the adjective “quantum” was dropped because the formalism also encodes classical and prequantum field theories.
+
 ### Formalization of sewing and locality in terms of functoriality
 
 It was in
@@ -2651,28 +2659,13 @@ following conjectures by [[Maxim Kontsevich]], e.g.
 
 * [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_, in Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&uuml;rich, 1994), pages 120&#8211;139, Basel, 1995, Birkh&#228;user.
 
-
-
-
-
 [[!include D=2 CFT a functorial field theory -- references]]
 
-
-
-
 [[!include D=6 N=(2,0) SCFT as an extended functorial field theory -- references]]
-
-
-
-
-
-
 
 [[!redirects FQFTs]]
 [[!redirects Functorial quantum field theory]]
 [[!redirects Functorial quantum field theories]]
 [[!redirects functorial quantum field theory]]
 [[!redirects functorial quantum field theories]]
-
 [[!redirects functorial QFT]]
-
