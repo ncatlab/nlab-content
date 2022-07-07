@@ -1,4 +1,18 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
+=--
+=--
+
+
+#Contents#
+
 #Contents#
 * table of contents
 {:toc}
@@ -20,6 +34,11 @@
 See also:
 
 * Wikipedia, _[Superfluidity](https://en.wikipedia.org/wiki/Superfluidity)_
+
+Discussion of superfluids via [[AdS-CFT in condensed matter physics]]:
+
+* Yu-Kun Yan, Shanquan Lan, Yu Tian, Peng Yang, Shunhui Yao, Hongbao Zhang, *Towards an effective description of holographic vortex dynamics* &lbrack;[arXiv:2207.02814](https://arxiv.org/abs/2207.02814)&rbrack;
+
 
 On superfluidity/[[superconductivity]] *of* [[anyons]]:
 
