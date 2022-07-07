@@ -23,6 +23,8 @@ In [[category theory]], the *pasting law* or *pullback lemma* is a statement abo
 
 ## Statement
 
+### General pasting law
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -58,17 +60,15 @@ Then:
 
 =--
 
-For **proof** see
+For **proof** see:
 
-* for [[category theory]]: at _[pullback -- pasting law](pullback#Pasting)_
+* for [[category theory]]: at _[pullback -- pasting law](pullback#Pasting)_; also e.g. [Bauer 2012](#Bauer12);
 
 * for [[(∞,1)-category theory]]: at _[(∞,1)-limit -- pushout pasting law](limit+in+a+quasi-category#PushoutPasting)_
 
+\linebreak
 
-
-## Related statements
-
-In general, the implications in the above result do require the hypothesis (e.g. in the pullback case that the right square is a pullback).  However, in some cases this can be omitted.
+In general, the implications in the above result do require the hypothesis (e.g. in the pullback case that the right square is a pullback).  However, in some cases this can be omitted:
 
 \begin{prop}
 Suppose we have a diagram of the above shape
@@ -85,6 +85,10 @@ $$
 
 in which the total rectangle (consisting of $x,z,u,w$) is a pullback, and moreover the induced map $y\to v\times z$ is a [[monomorphism]].  Then the left-hand square (consisting of $x,y,u,v$) is also a pullback.
 \end{prop}
+
+
+
+### Reverse pasting law
 
 In a [[regular category]] this also works in the other direction, if the bottom left morphisms is a [[regular epimorphism]]:
 \begin{proposition}
@@ -121,7 +125,7 @@ where
 
 Then the right right square is a pullback iff the total rectangle is.
 \end{proposition}
-(e.g. [Gran 2020, Lem. 1.15](regular+category#Gran20), see also [Carboni, Janelidze, Kelly and Paré 1997, Lemma 4.6](#CarboniJanelidzeKellyParé97), [Garner and Lack 2012, Lemma 2.2](#GarnerLack12))
+(e.g. [Gran 2021, Lem. 1.15](#Gran21), see also [Carboni, Janelidze, Kelly and Paré 1997, Lemma 4.6](#CarboniJanelidzeKellyParé97), [Garner and Lack 2012, Lemma 2.2](#GarnerLack12))
 
 This implies the $\infty$-category theoretic statement at least in good cases:
 
@@ -146,6 +150,7 @@ Now observe that:
 Hence the bottom left morphism in our diagram of simplicial sets is a regular epimorphism and the claim follows by Prop. \ref{WrongWayPastingLawInRegularCategory}.
 \end{proof}
 
+### Further related statements
 
 
 Another related statement involves a pair of rectangles and equalizers.
@@ -167,6 +172,7 @@ $$
 such that the vertical arrows are all [[monomorphisms]], the squares on the right are serially [[commutative diagram|commutative]], and the lower row is an [[equalizer]].  Then the upper row is an equalizer if and only if the left square is a [[pullback]].
 =--
 
+
 ## References
  {#References}
 
@@ -184,7 +190,7 @@ Statements of the pasting law in textbooks, typically leaving the proof to the r
 
 A proof is spelled out in:
 
-* [[Andrej Bauer]], *The pullback lemma in gory detail*, 2012 ([pdf](http://math.andrej.com/wp-content/uploads/2012/05/pullback.pdf), [[Bauer_PullbackLemma.pdf:file]])
+* {#Bauer12} [[Andrej Bauer]], *The pullback lemma in gory detail*, 2012 ([pdf](http://math.andrej.com/wp-content/uploads/2012/05/pullback.pdf), [[Bauer_PullbackLemma.pdf:file]])
 
 #### Reverse pasting law
 
@@ -193,6 +199,8 @@ The reverse pasting law is discussed in:
 * {#CarboniJanelidzeKellyParé97} [[Aurelio Carboni]], [[George Janelidze]], [[Max Kelly]], [[Robert Paré]], Lemma 4.6 of: *On localization and stabilization for factorization systems*, Appl. Categ. Structures **5** (1997) 1-58 &lbrack;[doi:10.1023/A:1008620404444](https://doi.org/10.1023/A:1008620404444)&rbrack;
 
 * {#GarnerLack12} [[Richard Garner]], [[Steve Lack]], Lemma 2.2 in: *On the axioms for adhesive and quasiadhesive categories*, Theory and Applications of Categories, **27**  3 (2012) 27-46 &lbrack;[arXiv:1108.2934](http://arxiv.org/abs/1108.2934), [tac:27-03](http://www.tac.mta.ca/tac/volumes/27/3/27-03abs.html)&rbrack;
+
+* {#Gran21} [[Marino Gran]], *An introduction to regular categories*, in: New Perspectives in Algebra, Topology and Categories,  Coimbra Mathematical Texts, Springer (2021) &lbrack;[arXiv:2004.08964](https://arxiv.org/abs/2004.08964), [ISBN:978-3-030-84319-9](https://www.springerprofessional.de/en/new-perspectives-in-algebra-topology-and-categories/19764096)&rbrack;
 
 
 
