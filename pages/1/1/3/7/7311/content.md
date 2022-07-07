@@ -317,6 +317,97 @@ Therefore also the square on the far right is homotopy Cartesian, by the "revers
 
 \linebreak
 
+More specific cases:
+
+\begin{defn}\label{ConditionHOnFamiliesOfGroupHomomorphisms}
+**(Condition H on families of topological group homomorphisms)**
+\linebreak
+  Let $G, \Gamma \,\in\, Grp(kTop)$ be [[topological groups]] and let 
+$$
+  \mathcal{R} 
+    \,\subset\, 
+  \underset{
+    H \subset G
+  }{\coprod}
+  Hom(H,\Gamma)
+$$ 
+be a [[set]] of [[pairs]] $(H,\rho)$ consisting of a topological [[subgroup]] $H$ of $G$ and a [[continuous map|continuous]] [[homomorphism]] $H \to \Gamma$ such that 
+([Uribe & Lück 2014, Def. 3.4](equivariant+bundle#UribeLück14)) $\mathcal{R}$ is closed under:
+
+1. [[fiber products]], i.e. under products in $Grp(kTop)_{/\Gamma}$,
+
+1. [[conjugation]] by $\Gamma$ (under postcomposition),
+
+1. [[conjugation]] by $G$ (under precomposition).
+
+We say (with [Uribe & Lück 2014, Def. 6.1](equivariant+bundle#UribeLück14)) that such data satisfies *Condition H* if for all $(H,
+\rho) \,\in\, \mathcal{R}$ we have:
+
+1. the [[path component]] of $\rho$ in $HomMap(H,\Gamma)$ is contained in its [[orbit]] under the $\Gamma$-[[conjugation action]]:
+
+   $$
+     HomMap(H,\Gamma)_{\rho}
+     \;\;
+     \subset
+     \;\; 
+     \Gamma(\rho)
+     \;\coloneqq\;
+     \big\{
+       Ad_\gamma \circ \rho
+       \;\big\vert\;
+       \gamma \in \Gamma
+     \big\}
+   $$
+
+1. the [[coset space]]-[[coprojections]]
+
+   1. $G \longrightarrow G/H$
+
+   1. $\Gamma \longrightarrow \Gamma/Stab_\Gamma(\rho)$
+
+      (by the the [[stabilizer subgroup]] $Stab_{\Gamma}(\rho) \subset \Gamma$ under the [[conjugation action]])
+
+   [[coset space coprojection admitting local sections|admit local sections]].
+
+1. the map
+
+   $$
+     \array{
+       \Gamma/Stab_\Gamma(\rho) 
+       &\longrightarrow&
+       HomMap(H,\Gamma)
+       \\
+       [\gamma] &\mapsto& Ad_\gamma \circ \rho 
+     }
+   $$ 
+  
+   is a [[homeomorphism]] onto its [[image]].
+
+\end{defn}
+\begin{example}
+  Examples of families of topological group homomorphisms satsifying *Condition H* (Def. \ref{ConditionHOnFamiliesOfGroupHomomorphisms}) include the following:
+
+1. $\Gamma$ and $G$ any [[Lie groups]] and $\Gamma$ [[almost connected topological group|almost connected]]
+
+   with $\mathcal{R}$ consisting of all [[compact topological group|compact]] subsgroups $H \subset $ and all their homomorphisms $H \to \Gamma$
+
+   (established in [Uribe & Lück 2014, Thm. 6.3](equivariant+bundle#UribeLück14))
+
+1. $\Gamma =$ [[PU(ℋ)]] and $G$ any [[finite group]]
+
+   with $\mathcal{R}$ consisting of all subgroups $H \subset G$ and all their homomorphisms $H \to 
+PU(\mathcal{H})$
+
+   (established in [Uribe & Lück 2014, Sec. 15](equivariant+bundle#UribeLück14))
+
+  
+
+\end{example}
+
+Now...
+
+\linebreak
+
 
 
 
