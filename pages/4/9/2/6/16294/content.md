@@ -55,7 +55,7 @@ Let $f : C \to (\infty,1)Cat$. Then
 * $laxcolim(f) \simeq \overline{el}_{C^\op}(f)$
 * $oplaxcolim(f) \simeq el_C(f)$
 
-where $el$ and $\overline{el}$ are the covariant and contravariant [[(∞,1)-Grothendieck construction]], and $Fun_\cK$ is the hom-category functor on $(\infty,1)Cat_{/\cK}$.
+where $el$ and $\overline{el}$ are the covariant and contravariant [[(∞,1)-Grothendieck construction]], and $Fun_K$ is the hom-category functor on $(\infty,1)Cat_{/K}$.
 
 =--
 
@@ -82,7 +82,7 @@ containing these functors and closed under small colimits, which is the entirety
 
 =--
 
-It's worth noting morphisms in $(\infty,1)infCat_{/C}$ between cocartesian fibrations can be thought of as lax transformations, so this agrees with the intuition that $laxlim(f)$ should be the category of lax natural transformations $1 \Rightarrow f$ and similar.
+It's worth noting morphisms in $(\infty,1)Cat_{/C}$ between cocartesian fibrations can be thought of as lax transformations, so this agrees with the intuition that $laxlim(f)$ should be the category of lax natural transformations $1 \Rightarrow f$ and similar.
 
 
 ## Examples
