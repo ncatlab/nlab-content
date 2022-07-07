@@ -88,6 +88,14 @@ However, by [[Joyal-Tierney calculus#IteratedLifting|Joyal-Tierney calculus]], t
 
 * [[Joyal-Tierney calculus]]
 
+## References
+
+Discussion for [[model (infinity,1)-categories|model $\infty$-categories]] (such as with [[homotopy Kan fibrations]]):
+
+* {#MazelGee15} [[Aaron Mazel-Gee]], around Def. 4.3 in: *Model ∞-categories II: Quillen adjunctions*, New York Journal of Mathematics **27** (2021) 508-550.  &lbrack;[arXiv:1510.04392](https://arxiv.org/abs/1510.04392), [nyjm:27-21](http://nyjm.albany.edu/j/2021/27-21.html)&rbrack;
+
+
+
 [[!redirects pushout product axiom]]
 
 
