@@ -32,6 +32,8 @@ Chow groups appear as the [[cohomology groups]] of [[motivic cohomology]] (see t
 
 ## References
 
+Named after [[Wei-Liang Chow]].
+
 The canonical reference is
 
 * [[William Fulton]], _Intersection theory_, 1998.  Ergebnisse der Mathematik und ihrer Grenzgebiete. 3. Folge. A Series of Modern Surveys in Mathematics, 2, Berlin, New York: Springer-Verlag
@@ -44,9 +46,14 @@ The original references are
 
 * [[Claude Chevalley]], _Les classes d'&#233;quivalence rationnelle, II_. S&#233;minaire Claude Chevalley, 3 (1958), Exp. No. 3, 18 (on [NUMDAM](http://www.numdam.org/numdam-bin/item?id=SCC_1958__3__A3_0))
 
+
 The most general treatment can be found in the [[The Stacks Project]]:
 
 * [[Aise Johan de Jong]] et. al., [[The Stacks Project]], chapter 38, _Chow Homology and Chern Classes_ ([URL](https://stacks.math.columbia.edu/tag/02P3))
+
+See also
+
+* Wikipedia, *[Chow group](https://en.wikipedia.org/wiki/Chow_group)*
 
 Informal lecture notes by [[Jacob Murre]]:
 
