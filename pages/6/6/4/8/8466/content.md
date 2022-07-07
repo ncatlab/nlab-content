@@ -16,10 +16,13 @@ Introducing [[model (infinity,1)-category|model $\infty$-category]]-theory:
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[tmf]]
+
+* [[homotopy Kan fibration]]
 
 category: people
 
 [[!redirects amg]]
+
