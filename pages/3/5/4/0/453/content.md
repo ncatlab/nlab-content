@@ -87,9 +87,10 @@ Examples of regular categories include the following:
 [[Set]] is a regular category. 
 \end{example}
 
-\begin{example}
-More generally, any [[topos]] is regular. 
+\begin{example}\label{ToposesAreRegular}
+  More generally, any [[topos]] is regular. 
 \end{example}
+([Barr, Grillet & von Osdol 1971, p. 17](#BarrGrilletvonOsdol), [Borceux 1994III, Prop. 3.4.14](#Borceux94III), [Johnstone 2002, p. 92](#Johnstone02))
 
 \begin{example}
 Even more generally, a [[locally cartesian closed category]] with [[coequalizers]] is regular, and so any [[quasitopos]] is regular. 
@@ -102,7 +103,7 @@ The category of [[algebra over a Lawvere theory|models]] of any finitary [[algeb
 \begin{example}\label{CategoryOfGroupsIsRegular}
   The category [[Grp]] of all [[groups]] (including [[non-abelian groups]]) is regular.
 \end{example}
-(e.g. [Borceux 1994 II, Ex. 2.4.3](#Borceux94))
+(e.g. [Borceux 1994 II, Ex. 2.4.3](#Borceux94II))
 
 \begin{example}
 Actually, any category that is [[monadic functor|monadic]] over [[Set]] is regular. For example, the category of [[frames]] $Frm \simeq Loc^{op}$ is regular, and the category of [[compact Hausdorff spaces]] is regular. A proof may be found [here](/nlab/show/colimits+in+categories+of+algebras#exact). 
@@ -359,7 +360,7 @@ The notion of regular categories was introduced in:
  
 Historical context:
 
-* [[Peter Johnstone]], Introduction of: _Topos Theory_ (1977)
+* [[Peter Johnstone]], Introduction of: _[[Topos Theory]]_ (1977)
 
 Introduction:
 
@@ -371,9 +372,14 @@ Textbook accounts:
 
 * [[Peter Freyd]], [[Andre Scedrov]], Chapter 1.5 of: _[[Categories, Allegories]]_ , North-Holland Amsterdam 1990. (chap. 1.5. pp.68ff)
 
-* {#Borceux94} [[Francis Borceux]], Chapter 2 of: *[[Handbook of Categorical Algebra]]*, Vol. 2: *Categories and Structures*, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
+* {#Borceux94II} [[Francis Borceux]], Chapter 2 of: *[[Handbook of Categorical Algebra]]*, Vol. 2: *Categories and Structures*, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)&rbrack;
 
-* [[Peter Johnstone]], Section A1.3. pp.18ff of _[[Sketches of an Elephant]] I_ , Oxford UP 2002. 
+* {#Borceux94III} [[Francis Borceux]], Section 3.3.4 of: *[[Handbook of Categorical Algebra]]*. Vol. 3. *Categories of Sheaves*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525872](https://doi.org/10.1017/CBO9780511525872)&rbrack;
+
+  
+
+
+* {#Johnstone02} [[Peter Johnstone]], Section A1.3. pp.18ff of _[[Sketches of an Elephant]] I_ , Oxford UP 2002. 
 
 * [[Dominique Bourn]], [[Marino Gran]], _Regular, Protomodular, and Abelian Categories_, Chapter IV, pp.165-211 in: Maria Pedicchio, [[Walter Tholen]] (eds.), _Categorical Foundations_, Cambridge University Press 2004 ([doi:10.1017/CBO9781107340985.007](https://doi.org/10.1017/CBO9781107340985.007))
 
