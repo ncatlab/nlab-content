@@ -1,7 +1,7 @@
 
 **[[(∞,1)-category theory]]**
 
-## Background
+**Background**
 
 * [[category theory]]
 
@@ -9,7 +9,7 @@
 
 * [[(n,r)-category]]
 
-## Basic concepts
+**Basic concepts**
 
 * [[(∞,1)-category]]
 
@@ -47,7 +47,8 @@
  
     * [[Cartesian morphism]]
 
-## Universal constructions
+
+**Universal constructions**
 
 * [[limit in quasi-categories|limit]]
 
@@ -57,7 +58,7 @@
 
 
 
-## Local presentation
+**Local presentation**
 
 * [[locally presentable (∞,1)-category|locally presentable]]
 
@@ -70,7 +71,7 @@
   * [[idempotent-complete (∞,1)-category|idempotent-complete]]
 
 
-## Theorems
+**Theorems**
 
 * [[(∞,1)-Yoneda lemma]]
 
@@ -80,13 +81,13 @@
 
 * [[monadicity theorem|(∞,1)-monadicity theorem]]
 
-## Extra stuff, structure, properties
+**Extra stuff, structure, properties**
 
 * [[stable (∞,1)-category]]
 
 * [[(∞,1)-topos]]
 
-## Models
+**Models**
 
 * [[category with weak equivalences]]
 
@@ -112,6 +113,5 @@
 
   * [[model structure on simplicial sets|model structure for Kan complexes]]
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/quasi-category+theory+contents)</div>
 
 [[!redirects (infinity,1)-category theory - contents]]
