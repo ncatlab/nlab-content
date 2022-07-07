@@ -1031,6 +1031,10 @@ Another review is
 
 * Anders Jess Pedersen, Magnus Baunsgaard Kristensen, _Straightening and Unstraightening_ [(Dropbox)](https://www.dropbox.com/s/alys3wg59rir3gt/Grothendieck_construction.pdf?dl=0)
 
+Disucssion of the $\infty$-Grothendieck construction for [[(infinity,1)-functors|$\infty$-functors]] to [[(infinity,1)-toposes|$\infty$-toposes]] from [[inverse images]] of [[infinity-groupoid|$\infty$-groupoids]]:
+
+* {#BeardsleyPéroux22} [[Jonathan Beardsley]], [[Maximilien Péroux]], Lemma 3.10 in: *Koszul Duality in Higher Topoi*, Homol. Homot. Appl. [(2022)](https://www.intlpress.com/site/pub/pages/journals/items/hha/_home/acceptedpapers/index.php), &lbrack;[arXiv:1909.11724](https://arxiv.org/abs/1909.11724)&rbrack;
+
 [[!redirects (∞,1)-Grothendieck construction]]
 
 [[!redirects infinity1-Grothendieck construction]]
