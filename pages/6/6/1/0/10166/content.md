@@ -1170,7 +1170,7 @@ For $G$ discrete and $\Gamma$ [[discrete group|discrete]] or [[compact Lie group
      \;\;
      Groupoids(TopSpaces)
      \big(
-       H \rightrightarrows \ast,
+       H \rightrightarrows \ast
        \,,
        \Gamma \rightrightarrows \ast
      \big)
