@@ -27,6 +27,12 @@ is the solution of the [[differential equation]]
 $$ f' = f $$
 with initial value $f(0) = 1$.
 
+It is also the limit of the following [[sequence]] of [[polynomial functions]]
+
+$$f_n(x) \coloneqq \left(1 + \frac{x}{n}\right)^n$$
+
+$$\exp x \coloneqq \lim_{n \to \infty} f_n(x)$$
+
 This classical function is defined on the [[real line]] (or the [[complex plane]]).  To generalise it to other [[manifolds]], we need two things:
 
 *  by its nature, the argument of the function should be a [[tangent vector]]; so in the classical function $\mathbb{R} \to \mathbb{R}$, the [[source]] $\mathbb{R}$ is really the [[tangent space]] to the [[target]] $\mathbb{R}$ at the point $\exp 0 = 1$.
