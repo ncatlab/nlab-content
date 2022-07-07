@@ -22,9 +22,7 @@
 
 A _modular form_  is a [[holomorphic function]] on the [[upper half-plane]] that satisfies certain transformation property under the [[action]] of the [[modular group]]. Abstractly this transformation property makes the function a [[section]] of a certain [[line bundle]] on the [[quotient]] of the [[upper half plane]] that makes it the [[moduli stack of elliptic curves]] (over the [[complex numbers]]) or more generally a [[modular curve]].
 
-Modular forms are also often called _classical [[automorphic forms]]_, see [below]()
-
-
+Modular forms are also often called _classical [[automorphic forms]]_, see [below](). As automorphic forms, they are related to Galois representations as part of the [[Langlands program]].
 
 Modular forms appear as the [[coefficient]] ring of the [[Witten genus]] on manifolds with rational [[string structure]]. For manifolds with actual [[string structure]] this refines to [[topological modular forms]], which are the [[homotopy groups]] of the [[spectrum]] [[tmf]].
 
@@ -139,11 +137,15 @@ Given a cusp form $f$ of weight $k$ with Fourier expansion
 
 $$f(z)=\sum_{n=1}^{\infty}a_{n}e^{2\pi i n z}$$
 
-we can associate to it its L-function $L_{f}(s)$, which is given by
+we can associate to it its L-function $L(f,s)$, which is given by
 
-$$L_{f}(s)=\sum_{n=1}^{\infty}a_{n}n^{-s}$$
+$$L(f,s)=\sum_{n=1}^{\infty}a_{n}n^{-s}$$
 
-Alternatively the L-function $L_{f}(s)$ is the [[Mellin transform]] of $f$. The L-function $L_{f}(s)$ has an analytic continuation to all of $\mathbb{C}$, via the work of [[Erich Hecke]].
+Alternatively the L-function $L(f,s)$ can be defined via the [[Mellin transform]] of $f$:
+
+$$\Lambda(f,s)=(2\pi)^{-s}\Gamma(s)L(f,s)=\int_{0}^{\infty}f(iy)y^{s}d^{\times}$$
+
+The L-function $L(f,s)$ has an analytic continuation to all of $\mathbb{C}$.
 
 This is important for instance to formulate conjectures such as the [[Birch and Swinnerton-Dyer conjecture]], which involves the special value of the [[Hasse-Weil L-function]] $L(E,s)$ of an elliptic curve at a value of $s$ where it is originally not defined (the series only converges for $s \gt 3/2$). But the [[modularity theorem]] tells us that this Hasse-Weil L-function $L(E,s)$ is equal to the L-function of some cusp form $f$, which we know has an analytic continuation to the entire complex plane.
  
