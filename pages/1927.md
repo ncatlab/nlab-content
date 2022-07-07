@@ -54,7 +54,7 @@ Every effective epimorphism is, of course, a [[regular epimorphism]] and hence a
 
 * In [[Set|the category of sets]], every [[epimorphism]] is effective.  Thus, it can be hard to know, when generalising concepts from $\Set$ to other categories, what kind of epimorphism to use.  In particular, one may define a [[projective object]] (and hence the [[axiom of choice]]) using effective epimorphisms.
 
-* More generally, in any [[pretopos]], hence in particular in every [[topos]], every [[epimorphism]] is an effective epimorphism.  See, for instance, ([MacLane-Moerdijk, theorem IV.7.8](#MacLaneMoerdijk)).
+* More generally, in any [[pretopos]], hence in particular in every [[topos]], every [[epimorphism]] is an effective epimorphism.  See, for instance, ([MacLane & Moerdijk 1992, Thm IV.7.8](#MacLaneMoerdijk), [Borceux 1994III, Prop. 3.4.13, 3.4.15](#Borceux94III)).
 
 * In an [[(∞,1)-topos]] the bare notion of epimorphism disappears, and [[effective epimorphism in an (∞,1)-category]] becomes the default notion of epiness. A morphism in an $(\infty,1)$-topos is effective epi precisely if its [[n-truncated object in an (∞,1)-category|0-truncation]] is an epimorphism (hence an effective epimorphism) in the underlying 1-topos. This is Proposition 7.2.1.14 in Higher Topos Theory.
 
@@ -83,6 +83,8 @@ Exposition and examples:
 Discussion in [[toposes]]:
 
 * {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], section IV.7  of _[[Sheaves in Geometry and Logic]]_
+
+* {#Borceux94III} [[Francis Borceux]], Section 3.3.4 of: *[[Handbook of Categorical Algebra]]*. Vol. 3. *Categories of Sheaves*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525872](https://doi.org/10.1017/CBO9780511525872)&rbrack;
  
 
 Discussion in [[homotopy type theory]] is in 
