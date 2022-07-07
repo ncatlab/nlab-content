@@ -85,6 +85,8 @@ $$
 
 However, the shape modality does preserve some useful classes of homotopy fiber products after all:
 
+#### General
+
 \begin{prop}\label{CohesiveShapePreservesLoopingOfDeloopings}
 **(cohesive shape preserves looping and delooping)** 
 \linebreak  
@@ -317,7 +319,13 @@ Therefore also the square on the far right is homotopy Cartesian, by the "revers
 
 \linebreak
 
-More specific cases:
+
+#### More specific cases
+ {#MoreSpecificCases}
+
+The following discussion is about the topological/smooth shape modality commuting with [[looping]] ([[homotopy fiber products]] of points) of [[mapping stacks]] between [[delooping]] stacks of certain [[topological groups]]. This is a technical point of crucial importance in the construction and discussion of [[equivariant classifying spaces]] for [[equivariant principal bundles]] -- though not traditionally presented as being about behaviour under a shape modality. The following perspective is from [[schreiber:Equivariant principal infinity-bundles|SS21]], though the hard results themselves are either classical (essentially [Conner & Floyd 1964, Lemma 31.8](nearby+homomorphisms+from+compact+Lie+groups+are+conjugate#ConnerFloyd64) for the case of compact $\Gamma$) or, in more generality, due to [Uribe & Lück 2014](equivariant+bundle#UribeLück14). (Beware that the following differs from their notation by the exchange "$G$" $\leftrightarrow$ "$\Gamma$"! For us here, $G$ denotes the [[equivariance group]] and $\Gamma$ the [[structure group]].)
+
+\linebreak
 
 \begin{defn}\label{ConditionHOnFamiliesOfGroupHomomorphisms}
 **(Condition H on families of topological group homomorphisms)**
@@ -385,9 +393,10 @@ We say (with [Uribe & Lück 2014, Def. 6.1](equivariant+bundle#UribeLück14)) th
 
 \end{defn}
 \begin{example}
+ \label{ExamplesOfCollectionsOfTopologicalGroupHomsSatisfyingConditionH}
   Examples of families of topological group homomorphisms satsifying *Condition H* (Def. \ref{ConditionHOnFamiliesOfGroupHomomorphisms}) include the following:
 
-1. $\Gamma$ and $G$ any [[Lie groups]] and $\Gamma$ [[almost connected topological group|almost connected]]
+1. $\Gamma$ and $G$ any [[Lie groups]] with $\Gamma$ [[almost connected topological group|almost connected]]
 
    with $\mathcal{R}$ consisting of all [[compact topological group|compact]] subsgroups $H \subset $ and all their homomorphisms $H \to \Gamma$
 
@@ -400,11 +409,114 @@ PU(\mathcal{H})$
 
    (established in [Uribe & Lück 2014, Sec. 15](equivariant+bundle#UribeLück14))
 
-  
-
 \end{example}
 
-Now...
+For the following formulation of the main result of [Uribe & Lück 2014](equivariant+bundle#UribeLück14) in terms of cohesive homotopy theory we use the [[continuous diffeology]]
+$$
+  kTop
+  \xrightarrow{CDfflg}
+  DiffSp
+  \hookrightarrow
+  SmthGrp_\infty
+$$
+and the fact that this preserves shapes and shapes of [[mapping spaces]] (see the introduction of [[schreiber:Equivariant principal infinity-bundles|SS21]]).
+ 
+\begin{proposition}
+**(shape commutes with looping of mapping stacks between delooping stacks of certain pairs of topological groups)**
+\linebreak
+For 
+
+* $G$ a [[finite group]] 
+
+* $\Gamma$ a [[compact Lie group]] or [[PU(ℋ)]], 
+
+we have for all [[homomorphisms]] $\rho \,\colon\, H \to \Gamma$ from [[subgroups]] $H \subset G$ that the shape modality commutes with the [[looping]]-operation on the [[mapping stack]] between the [[deloopings]] of $H$ and $\Gamma$ in [[smooth infinity-groupoids|$SmoothGrpd_{\infty}$]]:
+$$
+  \esh
+  \Omega_\rho 
+  Map
+  \big( 
+    \mathbf{B}H
+    ,\,
+    \mathbf{B}\Gamma
+  \big)
+  \;\;
+  \simeq
+  \;\;
+  \Omega_\rho 
+  \esh
+  Map
+  \big( 
+    \mathbf{B}H
+    ,\,
+    \mathbf{B}\Gamma
+  \big)
+  \,.
+$$
+\end{proposition}
+\begin{proof}
+First notice (e.g. from the discussion at *[[stabilizer subgroup]]*, [here](stabilizer+group#GeneralAbstract))
+\[
+  \label{ConjugationStabilizerSubgroupAsLoopingOfMappingStack}
+  Stab_\Gamma(\rho)
+  \;\simeq\;
+  \Omega_\rho 
+  Map
+  \big(
+    \mathbf{B}H
+    ,\,
+    \mathbf{B}\Gamma
+  \big)
+\]
+
+From the discussion at *[[equivariant principal bundles]]* we have, under the given assumptions, that
+$$
+  B_G \Gamma
+  \;\;\;
+  \colon
+  \;\;\;
+  G/H 
+  \;\mapsto\;
+  \esh
+  \,
+  Map
+  \big(
+    \mathbf{B}H
+    ,\,
+    \mathbf{B}\Gamma
+  \big)
+$$
+is the $G$-[[equivariant homotopy type]] of the $G$-[[equivariant classifying space]] of $\Gamma$. 
+
+(For $\Gamma$ compact Lie this is the [Murayama-Shimakawa result](equivariant+bundle#UniversalEquivariantPrincipalBundles) as reviewed in [Guillou, May & Merling 2017, Thm. 3.1](equivariant+bundle#GuillouMayMerling17), while for $\Gamma = PU(\mathcal{H})$ this is due to [Bárcenas, Espinoza, Joachim & Uribe 2012](equivariant+bundle#BEJU14), with a re-derivation in a more explicitly cohesive context in [[schreiber:Equivariant principal infinity-bundles|SS21]]).
+
+Moreover, by Exp. \ref{ExamplesOfCollectionsOfTopologicalGroupHomsSatisfyingConditionH} both cases satisfy *Condition H* (Def. \ref{ConditionHOnFamiliesOfGroupHomomorphisms}), whence the main result [Uribe & Lück 2014, Sec. 13](equivariant+bundle#UribeLück14) applies, which, using the above identification of the equivariant classifying space, gives a [[weak homotopy equivalence]] of the form
+
+$$
+  \underset{
+     { [\rho] \in }
+     \atop
+     { Hom(H,\Gamma)/\Gamma }
+  }{\coprod}
+  B Stab_\Gamma(\rho)
+  \;\;\;
+  \simeq
+  \;\;\;
+  \esh 
+  Map
+  \big(
+    \mathbf{B}H
+    ,\,
+    \mathbf{B}\Gamma
+  \big)
+  \,.
+$$
+
+(For $\Gamma$ a [[Lie group]] this is the classical fact that [[nearby homomorphisms from compact Lie groups are conjugate]].)
+
+Observing that $B Stab_\Gamma(\rho) \,\simeq\, \mathbf{B} \esh Stab_\Gamma(\rho)$, the looping of this equivalence at the basepoint given by $\rho$ yields the claim.
+\end{proof}
+
 
 \linebreak
 
