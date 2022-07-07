@@ -41,7 +41,7 @@ Much of the literature on equivariant bundles is interested
 
 and/or
 
-* as [[twisted cohomology|twists]] for [[twisted equivariant cohomology theories]], and here most of the existing literature focuses on [[twisted equivariant K-theory]] and specifically on its equivariant degree-3 twist by equivariant [[projective bundles]] (e.g. [Barcenas-Espinoza-Joachim-Uribe 12](#BEJU14),  [Uribe-Lück 14, Sec. 15](#UribeLueck14)).
+* as [[twisted cohomology|twists]] for [[twisted equivariant cohomology theories]], and here most of the existing literature focuses on [[twisted equivariant K-theory]] and specifically on its equivariant degree-3 twist by equivariant [[projective bundles]] (e.g. [Barcenas-Espinoza-Joachim-Uribe 12](#BEJU14),  [Uribe & Lück 2014, Sec. 15](#UribeLück14)).
 
 ## Definition
 
@@ -1398,7 +1398,7 @@ More on [[equivariant principal bundles]] and their [[classifying spaces]]/[[uni
 
 * [[Wolfgang Lück]], *Survey on Classifying Spaces for Families of Subgroups*,  In: *Infinite Groups: Geometric, Combinatorial and Dynamical Aspects* Progress in Mathematics, **248** Birkhäuser (2005) ([arXiv:math/0312378](https://arxiv.org/abs/math/0312378), [doi:10.1007/3-7643-7447-0_7](https://doi.org/10.1007/3-7643-7447-0_7))
 
-* {#UribeLueck14} [[Bernardo Uribe]], [[Wolfgang Lück]], _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
+* {#UribeLück14} [[Bernardo Uribe]], [[Wolfgang Lück]], *Equivariant principal bundles and their classifying spaces*, Algebr. Geom. Topol. **14** (2014) 1925-1995 &lbrack;[arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925)&rbrack;
 
   > (for [[structure group]] commuting with the [[equivariance group]])
 
@@ -1460,7 +1460,7 @@ On 3-[[twisted equivariant K-theory]] via the [[universal equivariant PU(H)-bund
 
 * {#BEJU14} [[Noé Bárcenas Torres|Noé Bárcenas]], [[Jesús Francisco Espinoza Fierro|Jesús Espinoza]], [[Michael Joachim]], [[Bernardo Uribe]], _Universal twist in Equivariant K-theory for proper and discrete actions_, Proceedings of the London Mathematical Society, Volume 108, Issue 5 (2014) ([arXiv:1202.1880](https://arxiv.org/abs/1202.1880), [doi:10.1112/plms/pdt061](https://doi.org/10.1112/plms/pdt061))
 
-* [Uribe-Lueck 14, Sec 15](#UribeLueck14)
+* [Uribe & Lück 2014, Sec. 15](#UribeLück14)
 
 
 ### For equivariant elliptic cohomology
