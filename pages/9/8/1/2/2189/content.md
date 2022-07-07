@@ -119,3 +119,6 @@ On analysis in [[univalent foundations]] ([[homotopy type theory]]):
 
 
 [[!redirects mathematical analysis]]
+
+[[!redirects real analysis]]
+
