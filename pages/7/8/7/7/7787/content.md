@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+Early discussion of [[quantum mechanics]] (and apparently introducing that term):
+
+* [[Max Born]], [[Pascual Jordan]], *Zur Quantenmechanik*, Zeitschrift für Physik **34** (1925) 858–888 &lbrack;[doi:10.1007/BF01328531](https://doi.org/10.1007/BF01328531)&rbrack;
+
 Introducing the [[adiabatic theorem]]:
 
 * [[Max Born]], [[Vladimir Fock]],  *Beweis des Adiabatensatzes*, Zeitschrift für Physik **51**  (1928) 165–180 ([doi:10.1007/BF01343193](https://doi.org/10.1007/BF01343193))
