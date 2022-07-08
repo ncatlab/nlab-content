@@ -23,11 +23,15 @@
 +-- {: .num_defn #AlmostConnected}
 ###### Definition
 
-A [[locally compact topological space|locally compact]] [[topological group]] $G$ is called **[[almost connected topological group|almost connected]]** if the underlying [[topological space]] of the [[quotient]] topological group $G/G_0$ (of $G$ by the [[connected component]] of the neutral element, also called the [[identity component]]) is [[compact topological space|compact]].
+A [[locally compact topological space|locally compact]] [[topological group]] $G$ is called **[[almost connected topological group|almost connected]]** if the underlying [[topological space]] of the [[quotient]] topological group $G/G_0$ (of $G$ by the [[connected component]] of the [[neutral element]], also called the [[identity component]]) is [[compact topological space|compact]].
 
 =--
 
-See for instance ([Hofmann-Morris, def. 4.24](#HofmannMorris)). We remark that since the identity component $G_0$ is closed, the identity in $G/G_0$ is a closed point. It follows that $G/G_0$ is $T_1$ and therefore, because it is a uniform space, $T_{3 \frac1{2}}$ (a [[Tychonoff space]]; see [[uniform space]] for details). In particular, $G/G_0$ is compact Hausdorff. 
+See for instance ([Hofmann-Morris, def. 4.24](#HofmannMorris)). 
+
+\begin{remark}
+Since the connected component $G_0$ is [[closed subspace|closed]], the [[neutral element]] in $G/G_0$ is a [[closed point]]. It follows that $G/G_0$ is [[T1-space|$T_1$]] and therefore (because it is a [[uniform space]]) also $T_{3 \frac1{2}}$ (a [[Tychonoff space]]; see at *[[uniform space]]* for details). In particular, $G/G_0$ is a [[compact Hausdorff space]].
+\end{remark} 
 
 +-- {: .num_defn }
 ###### Example
