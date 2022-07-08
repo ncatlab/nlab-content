@@ -341,7 +341,7 @@ The corollary commonly known as "[Ken Brown's lemma](#KenBrownLemma)" does not a
 
 Lecture notes:
 
-* [here](Introduction+to+Homotopy+Theory#FactorizationLemma) in [here](Introduction+to+Homotopy+Theory#KenBrownLemma) in: *[[Introduction to Homotopy Theory]]*
+* [here](Introduction+to+Homotopy+Theory#FactorizationLemma) and [here](Introduction+to+Homotopy+Theory#KenBrownLemma) in: *[[Introduction to Homotopy Theory]]*
 
 A version in the setup of $\infty$-cosmoi is Lemma 2.1.6 in 
 
