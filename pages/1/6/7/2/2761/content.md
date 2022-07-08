@@ -39,7 +39,7 @@ $$
 given by $y(X) \colon U \mapsto C(U,X)$.
 \end{definition}
 
-See under the [[(infinity,1)-Grothendieck construction|$\infty$-Grothendieck construction]] this is [Riehl & Verity 2018, Def. 6.2.3](#RiehlVerity18)
+Seen under the [[(infinity,1)-Grothendieck construction|$\infty$-Grothendieck construction]] this is [Riehl & Verity 2018, Def. 6.2.3](#RiehlVerity18).
 
 
 
@@ -54,13 +54,13 @@ See under the [[(infinity,1)-Grothendieck construction|$\infty$-Grothendieck con
 Let $C$ be an [[(∞,1)-category]] and $PSh(C) \coloneqq Func(C^\op, \infty Grpd)$ be the corresponding [[(∞,1)-category of (∞,1)-presheaves]]. Then the canonical [[(∞,1)-functor]]
 
 $$
-  Y : C \to PSh(C) 
+  Y \colon C \to PSh(C) 
 $$
 
 is a [[full and faithful (∞,1)-functor]].
 \end{prop}
 
-For small $\infty$-categories this is [[Higher Topos Theory|HTT, prop. 5.1.3.1]]. For large $\infty$-categories see [Riehl & Verity 2018, Thm. 7.2.22](#RiehlVerity18) (which considers $\infty$-presheaves regarded under the [[(infinity,1)-Grothendieck construction|$\infty$-Grothendieck construction]]).
+For small $\infty$-categories this is [[Higher Topos Theory|HTT, prop. 5.1.3.1]]. For possibly large $\infty$-categories see [Riehl & Verity 2018, Thm. 7.2.22](#RiehlVerity18) (which considers $\infty$-presheaves regarded under the [[(infinity,1)-Grothendieck construction|$\infty$-Grothendieck construction]]) and [[Kerodon]], [Thm. 8.2.5.4](https://kerodon.net/tag/03NJ).
 
 
 
@@ -68,10 +68,11 @@ For small $\infty$-categories this is [[Higher Topos Theory|HTT, prop. 5.1.3.1]]
 ###### Proposition
 **$(\infty,1)$-Yoneda theorem**
 
-For $C$ a small $(\infty,1)$-category and $F : C^{op} \to \infty Grpd$ an $(\infty,1)$-functor, the composite
+For $C$ a small $(\infty,1)$-category and $F \colon C^{op} \to \infty Grpd$ an $(\infty,1)$-functor, the composite
 
 $$
-  C^{op} \to PSh_{(\infty,1)}(C)^{op} \stackrel{Hom(-,F)}{\to}
+  C^{op} 
+   \to PSh_{(\infty,1)}(C)^{op} \stackrel{Hom(-,F)}{\to}
   \infty Grpd
 $$
 
@@ -79,12 +80,12 @@ is equivalent to $F$.
 
 =--
 
-([[Higher Topos Theory|HTT, Lemma 5.5.2.1]])
+For small $\infty$-sites this is [[Higher Topos Theory|HTT, Lemma 5.5.2.1]]. For possibly large $\infty$-sites see [[Kerodon]], [Prop. 8.2.1.3](https://kerodon.net/tag/03M5).
 
 +-- {: .proof}
 ###### Proof
 
-The statement is a direct consequence of the [[sSet]]-[[enriched category theory|enriched]] [[Yoneda lemma]] by using the fact that the [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C)$ is modeled by the [[enriched functor category]] $[C^{op}, sSet]_{proj}$ with $C$ regarded as a [[simplicially enriched category]] and using the global [[model structure on simplicial presheaves]].
+For small $\infty$-sites, the statement may be obtained as a consequence of the [[sSet]]-[[enriched category theory|enriched]] [[Yoneda lemma]] by using the fact that the [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C)$ is modeled by the [[enriched functor category]] $[C^{op}, sSet]_{proj}$ with $C$ regarded as a [[simplicially enriched category]] and using the global [[model structure on simplicial presheaves]].
 
 =--
 
@@ -103,6 +104,8 @@ Here, $(\infty,1)\widehat{Cat}$ is the (∞,1)-category of large (∞,1)-categor
 =--
 
 This follows from ([[Higher Topos Theory|HTT, prop. 5.3.6.10]]), together with the identification of $PSh(C)$ with the category obtained by freely adjoining small colimits to $C$. This functor is locally left adjoint to the contravariant functor $C \mapsto Func(C^\op, \infty Grpd)$.
+
+
 
 ### Preservation of limits
 
@@ -162,11 +165,11 @@ is a [[full and faithful (∞,1)-functor]] and its essential image is spanned by
 
 * {#LurieHTT} [[Jacob Lurie]], Prop. 5.1.3.1 and Lemma 5.5.2.1 in: _[[Higher Topos Theory]]_ (2009)
 
-* {#RiehlVerity18} [[Emily Riehl]], [[Dominic Verity]], Def. 6.2.3 and Thm. 7.2.22 in: *The comprehension construction*, Higher Sttructures **2** 1 (2018)  ([arXiv:1706.10023](https://arxiv.org/abs/1706.10023), [hs:39](http://137.111.162.45/index.php/higher_structures/article/view/39))
+* {#RiehlVerity18} [[Emily Riehl]], [[Dominic Verity]], Def. 6.2.3 and Thm. 7.2.22 in: *The comprehension construction*, Higher Structures **2** 1 (2018)  ([arXiv:1706.10023](https://arxiv.org/abs/1706.10023), [hs:39](http://137.111.162.45/index.php/higher_structures/article/view/39))
 
 * MathOverflow, _The Yoneda Lemma for $(\infty,1)$-categories?_ ([MO:9737/381](https://mathoverflow.net/q/9737/381))
 
-* [[Kerodon]], *The Yoneda Embedding* $[$[kerodon:03JA](https://kerodon.net/tag/03JA), esp. [Thm. 8.2.5.4](https://kerodon.net/tag/03NJ)$]$
+* {#Kerodon} [[Kerodon]], Part 2, Chapter 8: *The Yoneda Embedding* $[$[kerodon:03JA](https://kerodon.net/tag/03JA), esp. [Prop. 8.2.1.3](https://kerodon.net/tag/03M5) and [Thm. 8.2.5.4](https://kerodon.net/tag/03NJ)$]$
 
 Discussion in the context of an [[∞-cosmos]]:
 
