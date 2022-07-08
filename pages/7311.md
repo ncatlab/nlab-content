@@ -398,7 +398,7 @@ We say (with [Uribe & Lück 2014, Def. 6.1](equivariant+bundle#UribeLück14)) th
 
 1. $\Gamma$ and $G$ any [[Lie groups]] with $\Gamma$ [[almost connected topological group|almost connected]]
 
-   with $\mathcal{R}$ consisting of all [[compact topological group|compact]] subsgroups $H \subset $ and all their homomorphisms $H \to \Gamma$
+   with $\mathcal{R}$ consisting of all [[compact topological group|compact]] subsgroups $H \subset G$ and all their homomorphisms $H \to \Gamma$
 
    (established in [Uribe & Lück 2014, Thm. 6.3](equivariant+bundle#UribeLück14))
 
@@ -455,7 +455,7 @@ $$
 $$
 \end{proposition}
 \begin{proof}
-First notice (e.g. from the discussion at *[[stabilizer subgroup]]*, [here](stabilizer+group#GeneralAbstract))
+First notice (e.g. from the discussion at *[[stabilizer subgroup]]*, [here](stabilizer+group#GeneralAbstract)) that
 \[
   \label{ConjugationStabilizerSubgroupAsLoopingOfMappingStack}
   Stab_\Gamma(\rho)
