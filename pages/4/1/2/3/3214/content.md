@@ -30,7 +30,7 @@ An **$sSet$-site** is a [[simplicially enriched category]] $C$ together with the
 
 =--
 
-This appears as ([To&#235;nVezzosi, def. 3.1.1](#ToenVezzosi))
+This appears as ([Toën & Vezzosi 005, def. 3.1.1](#ToënVezzosi05))
 
 
 ## Properties
@@ -81,8 +81,8 @@ $$
 
 ## References
 
-* [[Bertrand Toën]], [[Gabriele Vezzosi]],  _Homotopical Algebraic Geometry I: Topos theory_ ([arXiv](http://arxiv.org/abs/math/0207028))
-{#ToenVezzosi}
+* {#ToënVezzosi05} [[Bertrand Toën]], [[Gabriele Vezzosi]],  p. 4 and Def. 3.1.1 of:  _Homotopical Algebraic Geometry I: Topos theory_, Advances in Mathematics **193** 2 (2005) 257-372 &lbrack;[arXiv:0207028](http://arxiv.org/abs/math/0207028)&rbrack;
+
 
 
 
