@@ -44,11 +44,11 @@ These results continue to hold when $G$ is not [[compact]], see \cite{Illman00}.
 
 * {#Illman72} [[Sören Illman]], Theorem 3.1 in: *Equivariant algebraic topology*, Princeton University 1972 ([[Illman_EquivariantAlgebraicTopology1972.pdf:file]])
 
-* {#Illman78} [[Sören Illman]], _Smooth equivariant triangulations of $G$-manifolds for $G$ a finite group_, Math. Ann. (1978) 233: 199 ([doi:10.1007/BF01405351](https://doi.org/10.1007/BF01405351))
+* {#Illman78} [[Sören Illman]], _Smooth equivariant triangulations of $G$-manifolds for $G$ a finite group_, Math. Ann. **233** (1978) 199-220 &lbrack;[doi:10.1007/BF01405351](https://doi.org/10.1007/BF01405351)&rbrack;
 
-* {#Illman83} [[Sören Illman]], _The Equivariant Triangulation Theorem for Actions of Compact Lie Groups_, Mathematische Annalen (1983) Volume: 262, page 487-502 ([dml:163720](https://eudml.org/doc/163720))
+* {#Illman83} [[Sören Illman]], _The Equivariant Triangulation Theorem for Actions of Compact Lie Groups_, Mathematische Annalen **262** (1983) 487-502 &lbrack;[dml:163720](https://eudml.org/doc/163720)&rbrack;
 
-* {#Illman00} [[Sören Illman]], _Existence and uniqueness of equivariant triangulations of smooth proper G-manifolds with some applications to equivariant Whitehead torsion_,  J. Reine Angew. Math. 524 (2000), 129–183.  [doi](https://doi.org/10.1515/crll.2000.054).
+* {#Illman00} [[Sören Illman]], _Existence and uniqueness of equivariant triangulations of smooth proper $G$-manifolds with some applications to equivariant Whitehead torsion_,  J. Reine Angew. Math. **524** (2000) 129–183.  &lbrack;[doi:10.1515/crll.2000.054](https://doi.org/10.1515/crll.2000.054)&rbrack;
 
 See also
 
