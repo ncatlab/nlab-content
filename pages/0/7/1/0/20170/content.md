@@ -26,6 +26,7 @@ The _equivariant triangulation theorem_ ([Illman 78](#Illman78), [Illman 83](#Il
 
 Moreover, if the manifold does have a [[manifold with boundary|boundary]], then its G-CW complex may be chosen such that the boundary is a G-subcomplex. ([Illman 83, last sentence above theorem 7.1](#Illman83))
 
+These results continue to hold when $G$ is not [[compact]], see \cite{Illman00}.
 
 ## Applications
 
@@ -46,6 +47,8 @@ Moreover, if the manifold does have a [[manifold with boundary|boundary]], then 
 * {#Illman78} [[Sören Illman]], _Smooth equivariant triangulations of $G$-manifolds for $G$ a finite group_, Math. Ann. (1978) 233: 199 ([doi:10.1007/BF01405351](https://doi.org/10.1007/BF01405351))
 
 * {#Illman83} [[Sören Illman]], _The Equivariant Triangulation Theorem for Actions of Compact Lie Groups_, Mathematische Annalen (1983) Volume: 262, page 487-502 ([dml:163720](https://eudml.org/doc/163720))
+
+* {#Illman00} [[Sören Illman]], _Existence and uniqueness of equivariant triangulations of smooth proper G-manifolds with some applications to equivariant Whitehead torsion_,  J. Reine Angew. Math. 524 (2000), 129–183.  [doi](https://doi.org/10.1515/crll.2000.054).
 
 See also
 
