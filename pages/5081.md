@@ -118,19 +118,24 @@ See [[base change geometric morphism]].
 
 We spell out how $\mathbf{H}/X$ is the [[(∞,1)-category of (∞,1)-sheaves]] over the [[big site]] of $X$.
 
+The following may be seen as the presheaf version of the [[fundamental theorem of (infinity,1)-topos theory|fundamental theorem of $\infty$-topos theory]].
+
 +-- {: .num_prop #SlicingCommutesWithPassingToPresheaves}
 ###### Proposition
 **(forming overcategories commutes with passing to presheaves)**
 
-Let $C$ be a [[small (∞,1)-category]] and $X : K \to C$
-a [[diagram]]. Write $C_{/X}$ 
-and $PSh(C)/_{X}$ for the corresponding [[over (∞,1)-categories]], where 
--- notationally implicitly -- we use the [[(∞,1)-Yoneda embedding]] $C \to PSh(C)$.
+Let $C$ be a [[small (∞,1)-category]] and $X \colon K \longrightarrow C$ a [[diagram]]. Write $C_{/X}$ 
+and $PSh(C)_{/X}$ for the corresponding [[over (∞,1)-categories]], where 
+-- notationally implicitly -- we use the [[(∞,1)-Yoneda embedding]] $C \hookrightarrow PSh(C)$.
 
 Then we have an [[equivalence of (∞,1)-categories]]
 
 $$
-  PSh(C/X) \stackrel{\simeq}{\longrightarrow} PSh(C)/X
+  PSh\big(
+    C_{/X}
+  \big) 
+  \stackrel{\simeq}{\longrightarrow} 
+  PSh(C)_{/X}
   \,.
 $$
 
