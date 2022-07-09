@@ -394,3 +394,5 @@ Section 1.2.9 of
 [[!redirects coslice (infinity,1)-category]]
 [[!redirects coslice (infinity,1)-categories]]
 
+[[!redirects over-infinity1-category]]
+
