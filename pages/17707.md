@@ -12,3 +12,5 @@ See at:
 * *[[univalent universe]]*
 
 [[!redirects universal Kan fibrations]]
+[[!redirects universal fibration of infinity-groupoids]]
+[[!redirects universal fibration of ∞-groupoids]]
