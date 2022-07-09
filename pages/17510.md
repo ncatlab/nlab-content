@@ -24,6 +24,7 @@ On [[equivariant differential topology]], proving the [[equivariant triangulatio
 
 * {#Illman83} [[Sören Illman]], _The Equivariant Triangulation Theorem for Actions of Compact Lie Groups_, Mathematische Annalen (1983) Volume: 262, page 487-502 ([doi:10.1007/BF01456063](https://doi.org/10.1007/BF01456063), [dml:163720](https://eudml.org/doc/163720))
 
+* {#Illman00} [[Sören Illman]], _Existence and uniqueness of equivariant triangulations of smooth proper $G$-manifolds with some applications to equivariant Whitehead torsion_,  J. Reine Angew. Math. **524** (2000) 129–183.  &lbrack;[doi:10.1515/crll.2000.054](https://doi.org/10.1515/crll.2000.054)&rbrack;
 
 
 
