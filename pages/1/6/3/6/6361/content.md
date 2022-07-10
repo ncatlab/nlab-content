@@ -21,7 +21,7 @@
 
 A _classical state_ is a [[state]] of a [[system of classical mechanics]].
 
-In principle, a [[pure state]] in classical mechanics specifies completely all information about the state of the system, while a [[mixed state]] is a [[probability measure]] on the space of pure states.  This space of pure states my be identified with the [[state space]] in [[Lagrangian mechanics]] or with the [[phase space]] in [[Hamiltonian mechanics]].
+In principle, a [[pure state]] in classical mechanics specifies completely all information about the state of the system, while a [[mixed state]] is a [[probability measure]] on the space of pure states.  This space of pure states may be identified with the [[state space]] in [[Lagrangian mechanics]] or with the [[phase space]] in [[Hamiltonian mechanics]].
 
 
 ## Definition
