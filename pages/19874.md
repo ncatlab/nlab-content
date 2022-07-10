@@ -101,6 +101,15 @@ Claim that  $U(1)$-leptoquark at 1.5 TeV could both explain the [[flavor anomali
 * Arvind Bhaskar, Diganta Das, Tanumoy Mandal, Subhadip Mitra, Cyrin Neeraj, *Precise LHC limits on the U1 leptoquark parameter space* ([arXiv:2110.07638](https://arxiv.org/abs/2110.07638))
 
 
+Claim of an apparent $3\sigma$-excess of possible leptoquark decay products:
+
+* CMS Collaboration, *The search for a third-generation leptoquark coupling to a τ lepton and a b quark through single, pair and nonresonant production at $\sqrt{s} = 13 TeV$* (2022) &lbrack;[cds:2815309](https://cds.cern.ch/record/2815309)&rbrack;
+
+  > Measurements of &lbrack;[[B meson]] decay rates&rbrack; collectively deviate from the SM predictions by about four standard deviations. New physics with larger couplings to the third-generation quarks and leptons could explain this anomaly. Leptoquark (LQ) models have recently received  onsiderable theoretical interest as a possible explanation. 
+
+  > $[\cdots]$
+
+  > For a representative LQ mass of 2 TeV and a coupling strength of $2.5$, an excess with a significance of 3.4 standard deviations above the standard model expectation is observed in the data.
 
 
 ### Relation to flavour anomalies
