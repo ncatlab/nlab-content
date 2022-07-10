@@ -69,7 +69,7 @@ Discussion for [[slice (infinity,1)-toposes|slices of]] Grothendieck [[(infinity
 
 The terminology "fundamental theorem of $\infty$-topos theory" for this is used in 
 
-* [[Marco Vergura]], Rem. 2.2.10 in: *Theory in an Infinity Topos*, 2019 ([pdf](https://ir.lib.uwo.ca/cgi/viewcontent.cgi?article=8583&context=etd), [ir.lib.uwo.ca:etd/6257](https://ir.lib.uwo.ca/etd/6257))
+* [[Marco Vergura]], Rem. 2.2.10 in: *Localization Theory in an Infinity Topos*, 2019 &lbrack;[pdf](https://ir.lib.uwo.ca/cgi/viewcontent.cgi?article=8583&context=etd), [ir.lib.uwo.ca:etd/6257](https://ir.lib.uwo.ca/etd/6257)&rbrack;
 
   > (in a context of [[localization of an (infinity,1)-category|localizations]] motivated by [[modal homotopy type theory]])
 
