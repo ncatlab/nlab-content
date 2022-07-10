@@ -21,7 +21,7 @@ order of the number of articles they publish in the area of category theory, as 
 |[Mathematical Structures in Computer Science](https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science)|Cambridge UP|[[Martin Hyland|Hyland]]; [[Steve Lack|Lack]]; [[Robert Seely|Seely]]|subscription|TCS|
 |[Theoretical Computer Science](https://www.journals.elsevier.com/theoretical-computer-science)|Elsevier|varies|subscription|TCS|
 |[Compositionality](http://www.compositionality-journal.org/)|self|all|open|categories|
-|[Higher Structures](https://journals.mq.edu.au/index.php/higher_structures/)|Macquarie University|all|open|homotopy|
+|[Higher Structures](https://higher-structures.math.cas.cz/)|Institute of Mathematics, Czech Academy of Sciences|all|open|homotopy|
 |[Categories and General Algebraic Structures with Applications](http://cgasa.sbu.ac.ir/)|Shahid Beheshti University|many|open|categories|
 |[Logical Methods in Computer Science](https://lmcs.episciences.org/)|self|[[Valeria de Paiva|de Paiva]]; Jagadeesan; Schröder|open|logic and TCS|
 |[Proceedings of the American Mathematical Society](https://www.ams.org/proc/)|AMS|[[Mark Behrens|Behrens]]|subscription|general|
