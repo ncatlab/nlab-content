@@ -243,6 +243,8 @@ We discuss the statement in plain [[category theory]].
 #### Over a representable
  {#DetailsInPlainCategoryTheoryOverARepresentable}
 
+
+
 \begin{proposition}\label{TheAdjointEquivalenceInOrdinaryCategoryTheory}
 For $X \,\in\, \mathcal{C} \xhookrightarrow{\;y\;} PSh(\mathcal{C})$.
 the following anti-parallel functors constitute an [[adjoint equivalence]]
@@ -613,6 +615,10 @@ Here:
 
 #### Over any presheaf
  {#DetailsInPlainCategoryTheoryOverAnyPresheaf}
+
+The above proof of Prop. \ref{TheAdjointEquivalenceInOrdinaryCategoryTheory} does not actually depend on the assumption that the base object is representable ($y(X)$). 
+
+Alternatively, a slightly weaker statement (just a functor that is an equivalence of categories, not exhibited as an adjoint equivalence of a functor of sections) in the generality of any base presheaf may also be proven as follows:
 
 \begin{proposition}\label{StatementInPlainCategoryTheoryOverAnyPresheaf}
   For $X \,\in\, PSh(\mathcal{C})$ any presheaf, we have an [[equivalence of categories]]
