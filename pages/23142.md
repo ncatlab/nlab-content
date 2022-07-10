@@ -1077,6 +1077,67 @@ is a weak equivalence.  And since this holds for all $U \,\in\, \mathcal{C}$, th
 \end{proof}
 
 
+### In simplicial presheaf theory
+ {#InSimplicialPresheafTheory}
+
+We now promote the [[Quillen equivalence]] in the previous section to the case of Čech-[[local model structures on simplicial presheaves]].
+
+Recall that these are obtained as a [[left Bousfield localization]] of the (say) [[projective model structure]] on [[simplicial presheaves]] with respect to [[Čech nerves]] of [[covering families]].
+
+We reuse the notation of the previous section.
+
+\begin{proposition}
+The [[Quillen equivalence]] of \ref{SimplicialLocalSectionsIsRightQuillen}
+descends to a [[Quillen equivalence]] of the corresponding Čech-local projective model structures.
+\begin{tikzcd}
+   \big(
+    \mathrm{sPSh}(\mathcal{C})_{/y_{\mathcal{C}}(X)}
+  \big)_{\mathrm{\check Cech,proj}}
+    \ar[
+      rrr,
+      shift right=8pt,
+      "{ 
+        \mathrm{PSh}(\mathcal{C})_{/y(X)}
+        \big(
+          (y_{\mathcal{C}})_{/X}(-)
+          ,\,
+          -  
+        \big)
+      }"{below}
+    ]
+    &&&
+    \mathrm{sPSh}
+    \big(
+      \mathcal{C}_{/X}
+    \big)_{\mathrm{\check Cech,proj}}
+    \ar[
+       lll,
+       shift right=8pt
+    ]
+    \ar[
+      lll,
+      phantom,
+      "{ \scalebox{.6}{$\simeq_{\mathrlap{\mathrm{Qu}}}$} }"
+    ]
+\end{tikzcd}
+\end{proposition}
+
+\begin{proof}
+Both [[model categories]] are [[left proper]] and [[combinatorial]].
+Therefore we can take [[left Bousfield localizations]] with respect to arbitrary sets of morphisms.
+
+We localize both sides with respect to [[Čech nerves]] of respective covering families.
+Observe that [[Čech nerves]] of covering families in $\mathcal{C}_{/X}$ are mapped to [[Čech nerves]] of covering families in $sPSh(\mathcal{C})$ and therefore also in the [[slice category]] $sPSh(\mathcal{C})_{y_{\mathcal{C}}(X)}$.
+Thus, we have an induced [[Quillen adjunction]] between localized [[model categories]].
+
+It remains to show that this [[Quillen adjunction]] is a [[Quillen equivalence]].
+
+It suffices to show that the right adjoint reflects [[weak equivalences]] between [[fibrant objects]].
+Here [[fibrant objects]] are objectwise [[Kan complexes]] that satisfy the appropriate variant of the [[homotopy descent property]].
+Local weak equivalences between locally fibrant objects coincide with objectwise weak equivalences.
+As established in the previous section, the right adjoint functor reflects objectwise weak equivalences between objectwise fibrant presheaves, which completes the proof.
+\end{proof}
+
 ### In $\infty$-category theory
  {#InInfinityCategoryTheory}
 
