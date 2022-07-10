@@ -7,9 +7,9 @@
 
 A **semi-left-exact reflection** (also called a *locally cartesian reflection*) is a [[reflector]] into a [[reflective subcategory]] that preserves some [[pullbacks]].  It fits into a hierarchy of left-exactness properties for reflectors:
 
-\begin{center}
-  [[left exact reflection|left exact]] $\Rightarrow$ [[reflection with stable units|stable units]] $\Rightarrow$ **semi-left-exact** $\Rightarrow$ [[simple reflection|simple]]
-\end{center}
+\begin{centre}
+[[left exact reflection|left exact]] $\Rightarrow$[[reflection with stable units|stable units]] $\Rightarrow$ **semi-left-exact** $\Rightarrow$ [[simple reflection|simple]]
+\end{centre}
 
 In particular, semi-left-exactness is sufficient to imply that the corresponding [[reflective factorization system]] exists and can be constructed in one step, and that the reflective subcategory inherits [[local cartesian closure]] from the ambient category.
 
