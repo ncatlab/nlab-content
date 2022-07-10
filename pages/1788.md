@@ -1,4 +1,23 @@
 
+\begin{center}
+
+  $$a$$
+
+\end{center}
+
+\begin{center}
+
+  $a$
+
+\end{center}
+
+\begin{center}
+
+  [[topos]]
+
+\end{center}
+
+
 
 $$
   \big(
