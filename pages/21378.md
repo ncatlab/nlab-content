@@ -42,7 +42,7 @@
 
 Review:
 
-* Mathias Tolotti, _BJC-relations in Quantum Field Theory_ ([pdf](https://publications.ub.uni-mainz.de/theses/volltexte/2014/3941/pdf/3941.pdf))
+* Mathias Tolotti, _BCJ-relations in Quantum Field Theory_ ([pdf](https://openscience.ub.uni-mainz.de/bitstream/20.500.12030/1524/1/3941.pdf))
 
 [[!redirects BCJ-relations]]
 
