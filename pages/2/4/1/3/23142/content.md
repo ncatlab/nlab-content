@@ -237,13 +237,301 @@ but that it is also the [[source]] of the slicing of the plain  Yoneda embedding
 ## Statement
 
 ### In plain category theory
-
-We discuss the statement in plain [[category theory]].
-
-#### Over a representable
  {#DetailsInPlainCategoryTheoryOverARepresentable}
 
+We discuss the statement in plain [[category theory]] with general abstract proofs that will work in any other context (notably in [[enriched category theory]], see [below](#InEnrichedCategoryTheory), and [[(infinity,1)-category theory|$\infty$-category theory]], see [further below](#InInfinityCategoryTheory)) that satisfies the basic theorems of category theory (e.g. the natural [[hom-functor preserves limits|respect of hom-functors for (co-)limits]] etc.).
 
+\linebreak
+
+First we give a quick proof that (Prop. \ref{StatementInPlainCategoryTheoryOverAnyPresheaf} below) there is an [[equivalence of categories]] at all. Then we enhance this statement (in Prop. \ref{TheAdjointEquivalenceInOrdinaryCategoryTheory}) below to an [[adjoint equivalence]] whose [[right adjoint]] is concretely identified as forming [[sections]].
+
+\linebreak
+
+\begin{proposition}\label{StatementInPlainCategoryTheoryOverAnyPresheaf}
+  For $X \,\in\, PSh(\mathcal{C})$ any presheaf, we have an [[equivalence of categories]]
+
+$$
+  PSh(\mathcal{C})_{/X}
+  \;\simeq\;
+  PSh
+  \big(
+    \mathcal{C}_{/X}
+  \big)
+  \,.
+$$
+\end{proposition}
+\begin{proof}
+Using that
+
+1. every presheaf is a [[colimit]] of [[representables]] (the "[[co-Yoneda lemma]]");
+
+1. colimits in slice categories are computed in the underlying categories (see [there](over+category#LimitsAndColimits))
+
+$$
+  \left(
+  \array{
+    U
+    \\
+    \big\downarrow
+    \mathrlap{{}^{p_{U}}}
+    \\
+    X
+  }
+  \;\;\;
+  \right)
+  \;=\;
+  \Big(
+     U, 
+     \,
+     p_U
+  \Big)
+  \;\simeq\;
+  \Big(
+  \underset{
+    \underset{i \in \mathcal{I}}{\longrightarrow}
+  }{\lim}
+  \,
+  c_U(i)
+  ,\,
+  (p_{c_U(i)})_{i \in \mathcal{I}}
+  \big)
+  \;\simeq\;
+  \underset{
+    \underset{i \in \mathcal{I}}{\longrightarrow}
+  }{\lim}
+  \big(
+    c_U(i)
+    ,\, 
+    p_{c_U(i)}
+  \big)
+$$
+we have an evident functor
+$$
+  \array{
+    PSh(\mathcal{C})_{/X}
+    &\longrightarrow&
+    PSh
+    \big(
+      \mathcal{C}_{/X}
+    \big)
+    \\
+    (U,p_U)
+    &\overset{\phantom{----}}{\mapsto}&
+    \underset{\underset{
+      i \in \mathcal{I}
+    }{\longrightarrow}}{\lim}
+    \big(
+      c_U(i)
+      ,\, 
+      p_{c_U(i)}
+    \big)
+  }
+$$
+which is clearly [[essentially surjective functor|essentially surjective]]. That it is also [[fully faithful functor|fully faithful]] is established by the following sequence of [[natural equivalences]]:
+
+$$
+  \begin{array}{l}
+  PSh(\mathcal{C})_{/X}
+  \Big(
+    \big(
+      U, 
+      \,
+      p_U
+    \big)
+    \,,
+    \big(
+      U
+      ,\,
+      p_{U'}
+    \big)
+  \Big)
+  \\
+  \;\simeq\;
+  PSh(\mathcal{C})
+  \big(
+    U
+    \,,
+    U'
+  \big)
+  \underset{
+  PSh(\mathcal{C})
+  \big(
+    U
+    \,,
+    X
+  \big)
+  }{\times}
+  \{p_U\}
+  \\
+  \;\simeq\;
+  \underset{
+    \underset{i \in \mathcal{I}}{\longleftarrow}
+  }{\lim}
+  \,
+  PSh(\mathcal{C})
+  \big(
+    c_U(i)
+    \,,
+    U'
+  \big)
+  \underset{
+  \underset{
+    \underset{i \in \mathcal{I}}{\longleftarrow}
+  }{\lim}
+  \,
+  PSh(\mathcal{C})
+  \big(
+    c_U(i)
+    \,,
+    X
+  \big)
+  }{\times}
+  \Big\{
+    \big(
+      p_{c_U(i)}
+    \big)_{i \in \mathcal{I}}
+  \Big\}
+  \\
+  \;\simeq\;
+  \underset{
+    \underset{i \in \mathcal{I}}{\longleftarrow}
+  }{\lim}
+  \,
+  \bigg(
+  PSh(\mathcal{C})
+  \big(
+    c_U(i)
+    \,,
+    U'
+  \big)
+  \underset{
+  PSh(\mathcal{C})
+  \big(
+    c_U(i)
+    \,,
+    X
+  \big)
+  }{\times}
+  \big\{
+    p_{c_U(i)}
+  \big\}
+  \bigg)
+  \\
+  \;\simeq\;
+  \underset{
+    \underset{i \in \mathcal{I}}{\longleftarrow}
+  }{\lim}
+  \,
+  \bigg(
+  \underset{
+    \underset{i' \in \mathcal{I}'}{\longrightarrow}
+  }{\lim}
+  PSh(\mathcal{C})
+  \big(
+    c_U(i)
+    \,,
+    c_{U'}(i')
+  \big)
+  \underset{
+  PSh(\mathcal{C})
+  \big(
+    c_U(i)
+    \,,
+    X
+  \big)
+  }{\times}
+  \big\{
+    p_{c_U(i)}
+  \big\}
+  \bigg)
+  \\
+  \;\simeq\;
+  \underset{
+    \underset{i \in \mathcal{I}}{\longleftarrow}
+  }{\lim}
+  \,
+  \underset{
+    \underset{i' \in \mathcal{I}'}{\longrightarrow}
+  }{\lim}
+  \,
+  \bigg(
+  PSh(\mathcal{C}_{/X})
+  \Big(
+    \big(
+      c_U(i)
+      ,\, 
+      p_{c_U(i)}
+    \big)
+    \,,
+    \big(
+      c_{U'}(i')
+      ,\, 
+      p_{c_{U'}(i')}
+    \big)
+  \Big)
+  \bigg)
+  \\
+  \;\simeq\;
+  PSh(\mathcal{C}_{/X})
+  \Big(
+    \underset{
+      \underset{i \in \mathcal{I}}{\longrightarrow}
+    }{\lim}
+    \big(
+      c_U(i)
+      ,\, 
+      p_{c_U(i)}
+    \big)
+    \,,
+    \underset{
+      \underset{i' \in \mathcal{I}'}{\longrightarrow}
+    }{\lim}
+    \big(
+      c_{U'}(i')
+      ,\, 
+      p_{c_{U'}(i')}
+    \big)
+  \Big)
+  \bigg)
+  \\
+  \;\simeq\;
+  PSh(\mathcal{C}_{/X})
+  \Big(
+    \big(
+      U
+      ,\,
+      p_U
+    \big)
+    \,,
+    \big(
+      U'
+      ,\,
+      p_{U'}
+    \big)
+  \Big)
+  \bigg)
+  \mathrlap{\,.}
+  \end{array}
+$$
+
+Here 
+
+* the first step is the definition (eq:HomInSliceCategoryAsFiberProduct) of the slice hom;
+
+* the second step is the expression of $U$ as a colimit of representables ([[co-Yoneda lemma]]), together with the fact that any [[hom-functor preserves limits|hom functor sends colimits in the first argument to limits]];
+
+* the third step is the the [[fiber product]] commutes with this limit (since [[limits commute with limits]]);
+
+* the fourth step is the expression of $U'$ as a colimit of representables ([[co-Yoneda lemma]]), together with the [[Yoneda lemma]] and the fact that colimits of presheaves are computed objectwise ([here](category+of+presheaves#LimitsOfPresheavesAreComputedObjectwise));
+
+* the fifth step is [[universal colimits]] in the ambient [[topos]] (of [[Sets]]);
+
+* the sixths step recognizes that the slice hom (eq:HomInSliceCategoryAsFiberProduct) defining $\mathcal{C}_{/X}$ has appeared and moves the colimits back inside by the reverse of the previous arguments, now over the slice side.
+
+\end{proof}
+
+
+The following statement enhances this equivalence of categories to an [[adjoint equivalence]] and identifying its [[right adjoint]] as the [[functor]] of forming [[sections]]. This stronger version further enhances to a [[simplicial Quillen equivalence]] below.
 
 \begin{proposition}\label{TheAdjointEquivalenceInOrdinaryCategoryTheory}
 For $X \,\in\, \mathcal{C} \xhookrightarrow{\;y\;} PSh(\mathcal{C})$.
@@ -613,299 +901,13 @@ Here:
 \end{proof}
 
 
-#### Over any presheaf
- {#DetailsInPlainCategoryTheoryOverAnyPresheaf}
 
 The above proof of Prop. \ref{TheAdjointEquivalenceInOrdinaryCategoryTheory} does not actually depend on the assumption that the base object is representable ($y(X)$). 
 
-Alternatively, a slightly weaker statement (just a functor that is an equivalence of categories, not exhibited as an adjoint equivalence of a functor of sections) in the generality of any base presheaf may also be proven as follows:
 
-\begin{proposition}\label{StatementInPlainCategoryTheoryOverAnyPresheaf}
-  For $X \,\in\, PSh(\mathcal{C})$ any presheaf, we have an [[equivalence of categories]]
-
-$$
-  PSh(\mathcal{C})_{/X}
-  \;\simeq\;
-  PSh
-  \big(
-    \mathcal{C}_{/X}
-  \big)
-  \,.
-$$
-\end{proposition}
-\begin{proof}
-Using that
-
-1. every presheaf is a [[colimit]] of [[representables]] (the "[[co-Yoneda lemma]]");
-
-1. colimits in slice categories are computed in the underlying categories (see [there](over+category#LimitsAndColimits))
-
-$$
-  \left(
-  \array{
-    U
-    \\
-    \big\downarrow
-    \mathrlap{{}^{p_{U}}}
-    \\
-    X
-  }
-  \;\;\;
-  \right)
-  \;=\;
-  \Big(
-     U, 
-     \,
-     p_U
-  \Big)
-  \;\simeq\;
-  \Big(
-  \underset{
-    \underset{i \in \mathcal{I}}{\longrightarrow}
-  }{\lim}
-  \,
-  c_U(i)
-  ,\,
-  (p_{c_U(i)})_{i \in \mathcal{I}}
-  \big)
-  \;\simeq\;
-  \underset{
-    \underset{i \in \mathcal{I}}{\longrightarrow}
-  }{\lim}
-  \big(
-    c_U(i)
-    ,\, 
-    p_{c_U(i)}
-  \big)
-$$
-we have an evident functor
-$$
-  \array{
-    PSh(\mathcal{C})_{/X}
-    &\longrightarrow&
-    PSh
-    \big(
-      \mathcal{C}_{/X}
-    \big)
-    \\
-    (U,p_U)
-    &\overset{\phantom{----}}{\mapsto}&
-    \underset{\underset{
-      i \in \mathcal{I}
-    }{\longrightarrow}}{\lim}
-    \big(
-      c_U(i)
-      ,\, 
-      p_{c_U(i)}
-    \big)
-  }
-$$
-which is clearly [[essentially surjective functor|essentially surjective]]. That it is also [[fully faithful functor|fully faithful]] is established by the following sequence of [[natural equivalences]]:
-
-$$
-  \begin{array}{l}
-  PSh(\mathcal{C})_{/X}
-  \Big(
-    \big(
-      U, 
-      \,
-      p_U
-    \big)
-    \,,
-    \big(
-      U
-      ,\,
-      p_{U'}
-    \big)
-  \Big)
-  \\
-  \;\simeq\;
-  PSh(\mathcal{C})
-  \big(
-    U
-    \,,
-    U'
-  \big)
-  \underset{
-  PSh(\mathcal{C})
-  \big(
-    U
-    \,,
-    X
-  \big)
-  }{\times}
-  \{p_U\}
-  \\
-  \;\simeq\;
-  \underset{
-    \underset{i \in \mathcal{I}}{\longleftarrow}
-  }{\lim}
-  \,
-  PSh(\mathcal{C})
-  \big(
-    c_U(i)
-    \,,
-    U'
-  \big)
-  \underset{
-  \underset{
-    \underset{i \in \mathcal{I}}{\longleftarrow}
-  }{\lim}
-  \,
-  PSh(\mathcal{C})
-  \big(
-    c_U(i)
-    \,,
-    X
-  \big)
-  }{\times}
-  \Big\{
-    \big(
-      p_{c_U(i)}
-    \big)_{i \in \mathcal{I}}
-  \Big\}
-  \\
-  \;\simeq\;
-  \underset{
-    \underset{i \in \mathcal{I}}{\longleftarrow}
-  }{\lim}
-  \,
-  \bigg(
-  PSh(\mathcal{C})
-  \big(
-    c_U(i)
-    \,,
-    U'
-  \big)
-  \underset{
-  PSh(\mathcal{C})
-  \big(
-    c_U(i)
-    \,,
-    X
-  \big)
-  }{\times}
-  \big\{
-    p_{c_U(i)}
-  \big\}
-  \bigg)
-  \\
-  \;\simeq\;
-  \underset{
-    \underset{i \in \mathcal{I}}{\longleftarrow}
-  }{\lim}
-  \,
-  \bigg(
-  \underset{
-    \underset{i' \in \mathcal{I}'}{\longrightarrow}
-  }{\lim}
-  PSh(\mathcal{C})
-  \big(
-    c_U(i)
-    \,,
-    c_{U'}(i')
-  \big)
-  \underset{
-  PSh(\mathcal{C})
-  \big(
-    c_U(i)
-    \,,
-    X
-  \big)
-  }{\times}
-  \big\{
-    p_{c_U(i)}
-  \big\}
-  \bigg)
-  \\
-  \;\simeq\;
-  \underset{
-    \underset{i \in \mathcal{I}}{\longleftarrow}
-  }{\lim}
-  \,
-  \underset{
-    \underset{i' \in \mathcal{I}'}{\longrightarrow}
-  }{\lim}
-  \,
-  \bigg(
-  PSh(\mathcal{C}_{/X})
-  \Big(
-    \big(
-      c_U(i)
-      ,\, 
-      p_{c_U(i)}
-    \big)
-    \,,
-    \big(
-      c_{U'}(i')
-      ,\, 
-      p_{c_{U'}(i')}
-    \big)
-  \Big)
-  \bigg)
-  \\
-  \;\simeq\;
-  PSh(\mathcal{C}_{/X})
-  \Big(
-    \underset{
-      \underset{i \in \mathcal{I}}{\longrightarrow}
-    }{\lim}
-    \big(
-      c_U(i)
-      ,\, 
-      p_{c_U(i)}
-    \big)
-    \,,
-    \underset{
-      \underset{i' \in \mathcal{I}'}{\longrightarrow}
-    }{\lim}
-    \big(
-      c_{U'}(i')
-      ,\, 
-      p_{c_{U'}(i')}
-    \big)
-  \Big)
-  \bigg)
-  \\
-  \;\simeq\;
-  PSh(\mathcal{C}_{/X})
-  \Big(
-    \big(
-      U
-      ,\,
-      p_U
-    \big)
-    \,,
-    \big(
-      U'
-      ,\,
-      p_{U'}
-    \big)
-  \Big)
-  \bigg)
-  \mathrlap{\,.}
-  \end{array}
-$$
-
-Here 
-
-* the first step is the definition (eq:HomInSliceCategoryAsFiberProduct) of the slice hom;
-
-* the second step is the expression of $U$ as a colimit of representables ([[co-Yoneda lemma]]), together with the fact that any [[hom-functor preserves limits|hom functor sends colimits in the first argument to limits]];
-
-* the third step is the the [[fiber product]] commutes with this limit (since [[limits commute with limits]]);
-
-* the fourth step is the expression of $U'$ as a colimit of representables ([[co-Yoneda lemma]]), together with the [[Yoneda lemma]] and the fact that colimits of presheaves are computed objectwise ([here](category+of+presheaves#LimitsOfPresheavesAreComputedObjectwise));
-
-* the fifth step is [[universal colimits]] in the ambient [[topos]] (of [[Sets]]);
-
-* the sixths step recognizes that the slice hom (eq:HomInSliceCategoryAsFiberProduct) defining $\mathcal{C}_{/X}$ has appeared and moves the colimits back inside by the reverse of the previous arguments, now over the slice side.
-
-\end{proof}
-
-\linebreak
 
 ### In enriched category theory
+ {#InEnrichedCategoryTheory}
 
 For $\mathcal{V}$ any [[Bénabou cosmos]] for [[enriched category theory]], the statement and proof of Prop. \ref{TheAdjointEquivalenceInOrdinaryCategoryTheory} holds and applies verbatim also in $\mathcal{V}$-[[enriched category theory]] for [[enriched presheaves]] and [[enriched slice categories]] 
 (with the [[colimit]]-of-[[representable functor|representables]]-expression for [[enriched presheaves]] now being the corresponding [[coend]], as discussed at *[[co-Yoneda lemma]]*).
@@ -939,6 +941,8 @@ With [[Bénabou cosmos]] $\mathcal{V} \,=\,$ [[sSet]] being the category of [[si
 
 ### In simplicial model category theory
  {#InSimplicialModelCategoryTheory}
+
+From this follows fairly straightforwardly the [[Quillen equivalence]]-version of the statement in the [[simplicial model category|simplicial]] [[model category]]-theory of [[simplicial presheaves]].
 
 For 
 
@@ -1076,10 +1080,12 @@ is a weak equivalence.  And since this holds for all $U \,\in\, \mathcal{C}$, th
 ### In $\infty$-category theory
  {#InInfinityCategoryTheory}
 
-#### Over a representable
- {#DetailsInInfinityCategoryTheoryOverARepresentable}
+All the natural equivalences used in a category-theoretic proof such as of Prop. \ref{StatementInPlainCategoryTheoryOverAnyPresheaf} above also hold in [[(infinity,1)-category theory|$\infty$-categoru theory]].
 
-Since [[simplicial localization]] at the [[Quillen equivalences]] [[Ho(CombModCat)|identifies]]  the [[homotopy theory]] ([[(infinity,1)-category|$\infty$-category]]) of [[combinatorial model categories]] (such as [[model categories of simplicial presheaves]] and their [[slice model structures]]) with that of [[presentable (infinity,1)-categories|presentable $\infty$-categories]], Prop. \ref{SimplicialLocalSectionsIsRightQuillen} immediately [[Ho(CombModCat)|implies]]:
+More explicitly, 
+since [[simplicial localization]] at the [[Quillen equivalences]] [[Ho(CombModCat)|identifies]]  the [[homotopy theory]] ([[(infinity,1)-category|$\infty$-category]]) of [[combinatorial model categories]] (such as [[model categories of simplicial presheaves]] and their [[slice model structures]]) with that of [[presentable (infinity,1)-categories|presentable $\infty$-categories]], Prop. \ref{SimplicialLocalSectionsIsRightQuillen} immediately [[Ho(CombModCat)|implies]] [[simplicial Quillen adjunction|simplicial]] [[Quillen equivalences]] which [[presentable (infinity,1)-category|present]] the equivalence of $\infty$-categories.
+
+Either way, we obtain the following conclusion (and again this hold verbatim also over non-representable base presheaves):
 
 \begin{prop}\label{EquivalenceOfInfinityCategories}
   For $\mathbf{C}$ a [[small (infinity,1)-category|small $\infty$-category]] and $X \,\in\, \mathbf{S}$ an [[object]], the operation of forming systems of [[local sections]] of [[bundles]] of [[(infinity,1)-presheaves|$\infty$-presheaves]] over $y(X)$ is an [[equivalence of (infinity,1)-categories|equivalence of $\infty$-categories]]:
@@ -1118,12 +1124,11 @@ In the case that $\mathbf{C} \,=\, Snglrt \,\coloneqq\, Grpd^{fin}_{1,\geq 1}$ i
 Together with the [[adjoint quadruple]] that is induced (see [here](adjoint+quadruple#ViaKanExtensionOfAdjointPairs)) via [[(infinity,1)-Kan extension|$\infty$-Kan extension]] from the [[reflective sub-(infinity,1)-category|reflection]] onto the $G$-[[orbit category]],  this implies the [[cohesion of global- over G-equivariant homotopy theory]]. See there for more.
 \end{example}
 
-### Over any presheaf
- {#DetailsInInfinityCategoryTheoryOverAnyPresheaf}
+\linebreak
 
-A [[model category]]-theory argument for the statement over any [[1-truncated]] simplicial presheaf is in ([Hollander 2008](#Hollander08)).
+A(nother) [[model category]]-theory argument for the statement over any [[1-truncated]] simplicial presheaf is in ([Hollander 2008](#Hollander08)).
 
-But the proof of Prop. \ref{StatementInPlainCategoryTheoryOverAnyPresheaf} above uses only general abstyract properties (such as the interplay of the hom-functor with (co-)limits) which also hold in [[(infinity,1)-category theory|$\infty$-category theory]].
+A [[quasi-category]]-proof of this statement over representables is in [Lurie 2009, Cor. 5.1.6.12](#Lurie09). (This states a more general theorem which superficially looks like it may cover the case of non-representable base presheaves, but at least not directly so.)
 
 \linebreak
 
