@@ -39,9 +39,19 @@ A _simplicial sheaf_ $A$ is equivalently
 
 ## Model structure ##
 
-The Jardine-local [[model structure on simplicial presheaves]] restricts to the standard [[model structure on simplicial sheaves]].  This restriction is a [[Quillen equivalence]], so that equipped with this model structure $SSh(C)$ is a [[models for ∞-stack (∞,1)-toposes|model]] for the [[hypercomplete (infinity,1)-topos]] over the site $C$.
+The Jardine local [[model structure on simplicial presheaves]] restricts to the standard [[model structure on simplicial sheaves]].  This restriction is a [[Quillen equivalence]], so that equipped with this model structure $SSh(C)$ is a [[models for ∞-stack (∞,1)-toposes|model]] for the [[hypercomplete (infinity,1)-topos]] over the site $C$.
+
+Historically, [[Joyal]] constructed his model structure on simplicial sheaves first and [[Jardine]] later constructed his model structure on [[simplicial presheaves]].
+
+## Related concepts
+
+* [[simplicial presheaf]]
 
 ## References
+
+The original construction due to [[Joyal]] in 1984 is in
+
+* [[André Joyal]], _Lettre d’André Joyal à Alexandre Grothendieck_, April 11, 1984, [PDF](https://webusers.imj-prg.fr/~georges.maltsiniotis/ps/lettreJoyal.pdf).
 
 A discussion of the [[homotopy theory]] of [[simplicial objects]] in [[toposes]] using [[Cisinski model structures]] is in 
 
