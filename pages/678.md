@@ -142,12 +142,20 @@ The original articles are
 
 * [[Kenneth S. Brown]], [[Stephen M. Gersten]], _Algebraic K-theory as generalized sheaf cohomology_.  In: Higher K-Theories.  Lecture Notes in Mathematics (1973), 266–292.  [doi](http://dx.doi.org/10.1007/bfb0067062).
 
+The Joyal model structure on [[simplicial sheaves]] was constructed in 1984 by [[Joyal]] in
+
+* [[André Joyal]], _Lettre d’André Joyal à Alexandre Grothendieck_, April 11, 1984, [PDF](https://webusers.imj-prg.fr/~georges.maltsiniotis/ps/lettreJoyal.pdf).
+
+Simplicial sheaves were endowed with a structure of a [[category of fibrant objects]] in
+
 * [[J. F. Jardine]], _Simplicial objects in a Grothendieck topos_.  In: Applications of algebraic K-theory to algebraic geometry and number theory.  Contemporary Mathematics (1986), 193-239.  [doi](http://dx.doi.org/10.1090/conm/055.1/862637)
+
+The model structure on simplicial presheaves is due to [[Jardine]]:
 
 * [[J. F. Jardine]], _Simplical presheaves_.  Journal of Pure and Applied Algebra 47:1 (1987), 35-87.  [doi][1]
   [1]: http://dx.doi.org/10.1016/0022-4049(87)90100-9
 
-A modern expository account is
+A modern expository account is in
 
 * [[John F. Jardine]], _Local Homotopy Theory_, Springer, 2015.  [doi](http://dx.doi.org/10.1007/978-1-4939-2300-7).
 
