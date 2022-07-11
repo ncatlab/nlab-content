@@ -7,6 +7,10 @@
 +--{: .hide}
 [[!include topological physics -- contents]]
 =--
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
 =--
 =--
 
@@ -22,9 +26,9 @@ In [[solid state physics]], many or all [[anyon]]-species of (potential) practic
 If here $\mathfrak{g} = $ [[su(2)|$\mathfrak{su}(2)$]], then one also speaks of "SU(2)-anyons" (with varying conventions on capitalization, etc.). 
 With "Majorana anyonons" ($k = 2$) and "Fibonacci anyons" ($k = 3$) this class subsumes most or all anyon species which seem to have a realistic chance of existing in nature. 
 
-Notably the '[[Majorana anyons]] (in the guise of "[[Majorana zero modes]]") are currently at the focus of attention of an intense effort to finally provide a practical proof of principle for the old idea of [[topological quantum computation]] (see the plan of [Das Sarma, Freedman & Nayak 15](#DasSarmaFreedmanNayak15) and the latest informal announcement [Nayak 22](#Nayak22), after a setback [in 2021](https://www.nature.com/articles/d41586-021-00612-z) and again [in 2022](http://retractionwatch.com/2022/04/24/authors-retract-second-majorana-paper-from-nature/)).
+Notably the '[[Majorana anyons]] (in the guise of "[[Majorana zero modes]]") are (or were until recently, see [arXiv:2106.11840v4](https://arxiv.org/abs/2106.11840v4), [p. 3](https://arxiv.org/pdf/2106.11840v4.pdf#page=3)) at the focus of attention of an intense effort to finally provide a practical proof of principle for the old idea of [[topological quantum computation]] (see the plan of [Das Sarma, Freedman & Nayak 15](#DasSarmaFreedmanNayak15) and the latest informal announcement [Nayak 22](#Nayak22), after a setback [in 2021](https://www.nature.com/articles/d41586-021-00612-z) and again [in 2022](http://retractionwatch.com/2022/04/24/authors-retract-second-majorana-paper-from-nature/)).
 
-On the other hand, Majorana anyons are known not to be universal (not all [[quantum gates]] may be approximated with Majorana braiding). The simplest universal $\mathfrak{su}(2)$-anyon species are the Fibonacci anyons at [[level (Chern-SImons theory)|level]] $k = 3$ (e.g. [Simeon 2021](#Simeon21)).
+On the other hand, Majorana anyons are known not to be universal (not all [[quantum gates]] may be approximated with Majorana braiding). The simplest universal $\mathfrak{su}(2)$-anyon species are the Fibonacci anyons at [[level (Chern-Simons theory)|level]] $k = 3$ (e.g. [Simeon 2021](#Simeon21)).
 
 ## Related concepts
 
