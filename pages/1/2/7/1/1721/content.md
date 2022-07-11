@@ -1018,7 +1018,11 @@ For $E$ and $F$ [[ordinary cohomology]]/[[ordinary homology]] functors a proof o
 
 ## References 
 
-The axioms including the dimension axiom are due to 
+The original article on the Eilenberg–Steenrod axioms is
+
+* [[Samuel Eilenberg]], [[Norman E. Steenrod]], _Axiomatic Approach to Homology Theory_, Proceedings of the National Academy of Sciences 31:4 (1945), 117–120.  [doi](http://dx.doi.org/10.1073/pnas.31.4.117).
+
+Further development and an expository account is given in
 
 * {#EilenbergSteenrod52} [[Samuel Eilenberg]], [[Norman Steenrod]], _Foundations of algebraic topology_, Princeton 1952 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/eilestee.pdf), [ISBN:9780691653297](https://press.princeton.edu/books/hardcover/9780691653297/foundations-of-algebraic-topology))
 
