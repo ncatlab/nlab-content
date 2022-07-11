@@ -38,7 +38,7 @@ Note that despite the name, synthetic Tait computability is not a subfield of [[
 
 * [[Jonathan Sterling]], _First Steps in Synthetic Tait Computability: The Objective Metatheory of Cubical Type Theory_, ([PhD thesis](https://www.jonmsterling.com/pdfs/sterling:2021:thesis.pdf))
 
-* [[Jonathan Sterling]], _Naïve logical relations in synthetic Tait computability_, ([pdf](https://www.jonmsterling.com/papers/sterling:2022:wg6.pdf))
+* [[Jonathan Sterling]], _Naïve logical relations in synthetic Tait computability_, ([pdf](https://www.jonmsterling.com/papers/sterling:2022:naive.pdf))
 
 Further references are documented on [Jon Sterling's personal website](https://www.jonmsterling.com/stc-bibliography.html).
 
