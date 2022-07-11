@@ -214,8 +214,11 @@ We denote by $p : \square^{n} \rightarrow \square^{0}$ the arrow $y(\underbrace{
 
 ## Model structure
 
-The category of cubical sets admits a [[Cisinski model structure]].
+The category of cubical sets admits a [[Cisinski model structure]], which admits a [[Quillen equivalence]] to the [[Kan–Quillen model structure]] on [[simplicial sets]].
 See the article [[model structure on cubical sets]] for more information.
+
+The category of cubical sets also admits a Joyal-type model structure, which admits a [[Quillen equivalence]] to the [[Joyal model structure]] on [[simplicial sets]].
+See the article [[model structure for cubical quasicategories]] for more information.
 
 ## Expository material
 
