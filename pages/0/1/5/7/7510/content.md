@@ -19,7 +19,7 @@ In [[dependent type theory]], a _dependent product type_ $\prod_{x\colon A} B(x)
 
 In a [[model]] of the type theory in [[categorical semantics]], this is a [[dependent product]].  In [[set theory]], it is an element of an indexed product.
 
-It includes [[function types]] as the special case when $B$ is not dependent on $A$.  Note that a binary [[product type]] is rather different, being actually a special case of a [[dependent sum type]].
+It includes [[function types]] as the special case when $B$ is not dependent on $A$, and [[product types]] as a special case when $A$ is the type of [[Booleans]].
 
 ## Overview
 
