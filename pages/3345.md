@@ -118,6 +118,12 @@ In fact, by the discussion at _[[adjoint (∞,1)-functor]]_  it follow that the 
 
 In [[cubical type theory]] one uses more structured notions of cubical set (symmetric, cartesian, De Morgan, etc.)  In most cases such categories have both a test model structure, which is equivalent to spaces, and a [[cubical-type model structure]] that corresponds to the interpretation of type theory.  In many cases these are *not* equivalent, and the cubical-type model structure does not model classical homotopy types.  See [[cubical-type model structure]] for more discussion.
 
+
+## Joyal-type model structures
+
+In complete analogy to [[simplicial sets]], there is also an analogue of the [[Joyal model structure]] on [[cubical sets]], with or without connection.  See the article [[model structures for cubical quasicategories]].
+
+
 ## Related concepts
 
 * [[cubical set]]
@@ -128,6 +134,7 @@ In [[cubical type theory]] one uses more structured notions of cubical set (symm
 
 * [[Cisinski model structure]]
 
+* [[model structures for cubical quasicategories]]
 
 ## References
 
