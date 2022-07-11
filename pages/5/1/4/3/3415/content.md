@@ -176,6 +176,10 @@ A similar model for [[(∞,n)-categories]] is discussed at
 
 * [[model structure on cellular sets]]
 
+There are analogues of the Joyal model structure for [[cubical sets]] (with or without connection):
+
+* [[model structure for cubical quasicategories]]
+
 ## References
 
 The original construction of the Joyal model structure is in
@@ -216,14 +220,9 @@ A model structure for [[(infinity,2)-sheaves]] with values in quasicategories is
 
 * {#Meadows15} [[Nicholas Meadows]], _The Local Joyal Model Structure_ ([arXiv:1507.08723](http://arxiv.org/abs/1507.08723))
 
-
 [[!redirects Joyal model structure]]
 [[!redirects Joyal model structure on simplicial sets]]
 [[!redirects model structure on quasicategories]]
 [[!redirects model structure on quasi-categories]]
 [[!redirects model structure for quasicategories]]
-
 [[!redirects Joyal model structure for quasi-categories]]
-
-
-
