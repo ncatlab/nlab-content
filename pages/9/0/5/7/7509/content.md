@@ -17,7 +17,7 @@
 
 In [[dependent type theory]], a _dependent sum type_ of a [[dependent type]]  $x\colon A\vdash B(x)\colon Type$ is the type whose [[terms]] are [[ordered pairs]] $(a,b)$ with $a\colon A$ and $b\colon B(a)$ (hence also called _dependent pair type_).
 
-In a [[model]] of the type theory in [[categorical semantics]], this is a [[dependent sum]] (indexed [[disjoint union]]).  It includes [[product types]] as the special case where $B$ is not dependent on $A$.
+In a [[model]] of the type theory in [[categorical semantics]], this is a [[dependent sum]] (indexed [[disjoint union]]).  It includes [[product types]] as the special case when B is not dependent on A, and [[sum types]] as a special case when A is the type of Booleans.
 
 ## Overview
 
