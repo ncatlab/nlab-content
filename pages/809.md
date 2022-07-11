@@ -177,12 +177,17 @@ This was proved by [[Maltsiniotis]] \cite{Maltsiniotis}.
 
 See also the article [[model structure on cubical sets]].
 
+## Joyal-type model structures
+
+In complete analogy to [[simplicial sets]], there is also an analogue of the [[Joyal model structure]] on [[cubical sets]], with or without connection.  See the article [[model structures for cubical quasicategories]].
+
 ## Related concepts
 
 * [[cubical set]]
 
 * [[model structure on cubical sets]]
 
+* [[model structures for cubical quasicategories]]
 
 ## References
 
