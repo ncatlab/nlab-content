@@ -38,3 +38,5 @@ On [[compactly generated topological spaces]] as a [[convenient category of topo
 category: people
 
 [[!redirects Steenrod]]
+[[!redirects Norman E. Steenrod]]
+[[!redirects Norman Earl Steenrod]]
