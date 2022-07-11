@@ -248,6 +248,14 @@ For Expository and other material, see [[cubical set - exposition]].
 
 * [[model structure on cubical sets]]
 
+## References
+
+The original reference for cubical sets (based on the 1950 paper by [[Samuel Eilenberg]] and [[J. A. Zilber]] on [[simplicial sets]]) is
+
+* [[Daniel M. Kan]], _Abstract homotopy.  I_, Proceedings of the National Academy of Sciences 41:12 (1955), 1092–1096.  [doi](http://dx.doi.org/10.1073/pnas.41.12.1092).
+
+Kan switched to [[simplicial sets]] in Part III of the series.
+
 [[!redirects Cubical set]]
 [[!redirects Cubical Set]]
 [[!redirects Cubical set]]
