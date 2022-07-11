@@ -176,8 +176,7 @@ $$
 
 The analogous definition clearly makes sense as stated in other contexts, such as in [[enriched category theory]].  
 
-+-- {: .num_prop}
-###### Observation
+\begin{proposition}
 
 If $C' = *$ is the [[terminal category]], then
 
@@ -185,7 +184,7 @@ If $C' = *$ is the [[terminal category]], then
 
 * the right Kan extension operation forms the [[limit]] of a functor.
 
-=--
+\end{proposition}
 
 +-- {: .proof}
 ###### Proof
@@ -981,9 +980,9 @@ The general notion of extensions of [[1-morphisms]] in [[2-categories]] is discu
  
 For the notion of (2-dimensional) (pointwise) bi-Kan extensions of pseudofunctors, see
 
-* [[Fernando Lucatelli Nunes]], *On biadjoint triangles*, TAC [31-9](http://tac.mta.ca/tac/volumes/31/9/31-09abs.html)
+* Fernando Lucatelli Nunes, *On biadjoint triangles*, TAC [31-9](http://tac.mta.ca/tac/volumes/31/9/31-09abs.html)
 
-* [[Fernando Lucatelli Nunes]], *Pseudo-Kan extensions and descent theory*, TAC [33-15](http://www.tac.mta.ca/tac/volumes/33/15/33-15abs.html)
+* Fernando Lucatelli Nunes, *Pseudo-Kan extensions and descent theory*, TAC [33-15](http://www.tac.mta.ca/tac/volumes/33/15/33-15abs.html)
 
 and its applications to the theory of (2-dimensional) [[flat functors]] can be seen in
 
