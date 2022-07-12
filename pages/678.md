@@ -160,6 +160,12 @@ A modern expository account is in
 * [[John F. Jardine]], _Local Homotopy Theory_, Springer, 2015.  [doi](http://dx.doi.org/10.1007/978-1-4939-2300-7).
 
 
+The local [[projective model structure]] (as opposed to the injective model structures used above) on [[simplicial presheaves]] and [[simplicial sheaves]] is due to
+
+* [[Benjamin A. Blander]], _Local Projective Model Structures on Simplicial Presheaves_, K-Theory 24:3, 283-301.  [doi](http://dx.doi.org/10.1023/a:1013302313123).
+
+
+
 Further articles:
 
 * [[J. F. Jardine]], _Stacks and the homotopy theory of simplicial sheaves_.  Homology, Homotopy and Applications 3:2 (2001), 361-384.  [doi](http://dx.doi.org/10.4310/hha.2001.v3.n2.a5).
