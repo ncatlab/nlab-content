@@ -6,6 +6,7 @@ For now we have:
 
 * the [[Birkhoff–von Neumann theorem]]
 * [[distributive lattice|Birkhoff Duality of distributive lattices]]
+* [[Birkhoff's HSP theorem]]
 
 
 ## References
