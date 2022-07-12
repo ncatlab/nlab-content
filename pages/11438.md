@@ -2,7 +2,7 @@ Given a ring $R$ (or some analogue, say a Banach algebra),
 a submodule $K$ of an $R$-module $M$ is called
 __superfluous__ or small in $M$, written $K \ll M$, 
 if, for every submodule $L\subset M$ , the equality $K + L = M$ implies $L = M$.
-An epimorphism $f : M\to N$ is called superfluous (or coessential) if $Ker f \ll M$.
+An [[epimorphism]] $f : M\to N$ is called superfluous (or coessential) if $Ker f \ll M$.
 
 Superfluous epimorphisms (submodules) are a notion dual to essential monomorphisms
 (submodules); their role in the study of [[projective cover]]s is analogous to
