@@ -184,9 +184,9 @@ A definition of a [[free object|free]] [[poset]] as a quotient inductive-inducti
     | trans: (forall x y z: poset A) (x \leq y) -> (y \leq z) -> (x \leq z)
     | pordercontr: forall (x y : poset A) (p q : x \leq y), p == q.
 
-### Partial map classifiers
+### Free pointed omega-complete partial orders
 
-Every [[partial map classifier]] $A_\bot$ is a [[free object|free]] [[pointed object|pointed]] [[countable ordinal|omega]]-complete [[partial order]] on a 0-truncated type $A$. They are usually abbreviated as free pointed $\omega$-cpos. [See Altenkirch, Danielsson, and Kraus, 2016](#partial)
+It is possible to define the [[free object|free]] [[pointed object|pointed]] [[countable ordinal|omega]]-complete [[partial order]] on a 0-truncated type $A$ as a quotient inductive type. They are usually abbreviated as free pointed $\omega$-cpos. [See Altenkirch, Danielsson, and Kraus, 2016](#partial)
 
     Inductive omegacpo (A: Type) :=
     | inj: A -> omegacpo A
