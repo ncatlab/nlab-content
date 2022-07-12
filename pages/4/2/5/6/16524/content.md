@@ -30,9 +30,11 @@ On [[combinatorial model category]] [[presentable (infinity,1)-category|presenta
 
 * [[nLab:Vincent Braunack-Mayer]], 
 
-  _**Combinatorial parametrised spectra**_, 
+  **Combinatorial parametrised spectra**
 
-  ([arXiv:1907.08496](https://arxiv.org/abs/1907.08496))
+  Algebr. Geom. Topol. **21** (2021) 801-891 
+
+  &lbrack;[arXiv:1907.08496](https://arxiv.org/abs/1907.08496), [doi:10.2140/agt.2021.21.801](https://doi.org/10.2140/agt.2021.21.801)&rbrack;
 
 
 On [[rational parameterized stable homotopy theory]] applied to the mathematical analysis of the [[duality between M-theory and type IIA string theory]]:
