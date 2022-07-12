@@ -210,7 +210,7 @@ In the case $Y = *$ is the  [[terminal object]], the base change geometric morph
 +-- {: .num_prop}
 ###### Proposition
 
-If $\mathcal{C}$ is a [[locally cartesian closed category]] then for every morphism $f \colon X \to Y$ in $f$ the [[inverse image]] $f^* \colon \mathcal{C}_{/Y} \to \mathcal{C}_{/X}$ of the base change is a [[cartesian closed functor]].
+If $\mathcal{C}$ is a [[locally cartesian closed category]] then for every morphism $f \colon X \to Y$ in $\mathcal{C}$ the [[inverse image]] $f^* \colon \mathcal{C}_{/Y} \to \mathcal{C}_{/X}$ of the base change is a [[cartesian closed functor]].
 
 =--
 
