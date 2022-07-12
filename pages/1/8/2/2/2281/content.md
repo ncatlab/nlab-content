@@ -5,6 +5,11 @@ The reason for introducing categories was to introduce functors, and the reason 
 
 ## Selected writings
 
+Introducing the *[[Eilenberg-Steenrod axioms]]* for [[ordinary cohomology]]:
+
+* [[Samuel Eilenberg]], [[Norman E. Steenrod]], _Axiomatic Approach to Homology Theory_, Proceedings of the National Academy of Sciences **31** 4 (1945) 117–120  &lbrack;[doi:10.1073/pnas.31.4.117](http://dx.doi.org/10.1073/pnas.31.4.117)&rbrack;
+
+
 Introducing [[simplicial sets]] and [[semi-simplicial sets]] (see the historical remarks [here](semi-simplicial+set#History)):
 
 * {#EilenbergZilber50} [[Samuel Eilenberg]], [[Joseph Zilber]], *Semi-Simplicial Complexes and Singular Homology*, *Annals of Mathematics* vol. 51 no. 3 (1950), 499--513 ([jstor:1969364](https://www.jstor.org/stable/1969364))
