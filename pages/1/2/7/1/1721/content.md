@@ -1015,14 +1015,13 @@ For $E$ and $F$ [[ordinary cohomology]]/[[ordinary homology]] functors a proof o
 [[!include twisted generalized cohomology in linear homotopy type theory -- table]]
 
 
-
 ## References 
 
-The original article on the Eilenberg–Steenrod axioms is
+The original article on the Eilenberg–Steenrod axioms:
 
-* [[Samuel Eilenberg]], [[Norman E. Steenrod]], _Axiomatic Approach to Homology Theory_, Proceedings of the National Academy of Sciences 31:4 (1945), 117–120.  [doi](http://dx.doi.org/10.1073/pnas.31.4.117).
+* [[Samuel Eilenberg]], [[Norman E. Steenrod]], _Axiomatic Approach to Homology Theory_, Proceedings of the National Academy of Sciences **31** 4 (1945) 117–120  &lbrack;[doi:10.1073/pnas.31.4.117](http://dx.doi.org/10.1073/pnas.31.4.117)&rbrack;
 
-Further development and an expository account is given in
+Further development and an expository account:
 
 * {#EilenbergSteenrod52} [[Samuel Eilenberg]], [[Norman Steenrod]], _Foundations of algebraic topology_, Princeton 1952 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/eilestee.pdf), [ISBN:9780691653297](https://press.princeton.edu/books/hardcover/9780691653297/foundations-of-algebraic-topology))
 
