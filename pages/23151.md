@@ -29,7 +29,7 @@ An explicit description of $PSh_{\sqcup}(\mathcal{C})$ is:
 
 * Its [[morphisms]] $\big( X_i \big)_{i \in I} \xrightarrow{ \; ( \phi_i )_{i \in I} \; } \big( Y_j \big)_{j \in J} $ [[pairs]] consisting of 
 
-  * a [[function]] of index sets $f \,\colon\, I \xrightarrow J$.
+  * a [[function]] of index sets $f \,\colon\, I \to J$.
 
   * an $I$-[[indexed set]] of [[morphisms]] $\phi_i \,\colon\, X_i \xrightarrow{\;} Y_{f(j)}$ in $\mathcal{C}$.
 
