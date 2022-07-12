@@ -16,7 +16,7 @@
 
 ## Idea 
 
-The **ultraproduct** construction is an important tool in [[model theory]] that permits to produce a new structure from an infinite family of structures. The construction has a decidedly 'algebraic' flavor and hence occurs naturally in applications of model theory to [[algebra]].
+The **ultraproduct** construction is an important tool in [[model theory]] that permits us to produce a new structure from an infinite family of structures. The construction has a decidedly 'algebraic' flavor and hence occurs naturally in applications of model theory to [[algebra]].
 
 It is closely related via the [[Łoś ultraproduct theorem]] to the [[compactness theorem]]: suppose one is given a set of formulas $S$ in some first-order language and a family of structures such that any finite subset of formulas is modeled by all but a finite number of structures. Then an ultraproduct of those structures may be used to model the entire set $S$.[^compact] 
 
