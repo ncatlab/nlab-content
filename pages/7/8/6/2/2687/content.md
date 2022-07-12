@@ -231,7 +231,7 @@
 
 * [[model structure on categories with weak equivalences|on categories with weak equivalences]]
 
-* [[model structure on quasi-categories|Joyal model for quasi-categories]]
+* [[model structure on quasi-categories|Joyal model for quasi-categories]] (and its [[model structure for cubical quasicategories|cubical version]])
 
 * [[model structure on sSet-categories|on sSet-categories]]
 
