@@ -931,7 +931,7 @@ and
 The [[(infinity,1)-topos]] structure on tangent $(\infty,1)$-categories
 is discussed in 35.5 of
 
-* {#Joyal08} [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
+* {#Joyal08} [[André Joyal]], _Notes on Logoi_, 2008 &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf), [[JoyalOnLogoi2008.pdf:file]]&rbrack;
 
 Presentation by [[model categories]] is discussed in
 
@@ -941,7 +941,8 @@ Presentation by [[model categories]] is discussed in
 
 * [[Yonatan Harpaz]], [[Joost Nuiten]], [[Matan Prasma]], _The tangent bundle of a model category_, Theory and Applications of Categories  Vol. 34, 2019, No. 33, pp 1039-1072, [journal web site](http://tac.mta.ca/tac/volumes/34/33/34-33abs.html)
 
-* {#BraunackMayer19} [[Vincent Braunack-Mayer]], _Combinatorial parametrised spectra_, based on the [[schreiber:thesis Braunack-Mayer|PhD thesis]] ([arXiv:1907.08496](https://arxiv.org/abs/1907.08496))
+* {#BraunackMayer19} [[Vincent Braunack-Mayer]], *Combinatorial parametrised spectra* (based on the [[schreiber:thesis Braunack-Mayer|PhD thesis]]),
+Algebr. Geom. Topol. **21** (2021) 801-891 &lbrack;[arXiv:1907.08496](https://arxiv.org/abs/1907.08496), [doi:10.2140/agt.2021.21.801](https://doi.org/10.2140/agt.2021.21.801)&rbrack;
   
 Generalization to parameterized objects in any [[stable (∞,1)-category]] is discussed in:
 
