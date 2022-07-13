@@ -3,7 +3,6 @@
 
 ## Selected writings
 
-
 On [[single trace operators]]/[[BMN operators]] in [[D=4 N=4 super Yang-Mills theory]] identified as [[integrable system|integrable]] [[spin chains]] with respect to the [[dilatation opetator]], and the correspondence of their spectrum with the [[classical field theory|classical]] [[Green-Schwarz superstring]] on [[anti de Sitter spacetime|AdS5]] under the [[AdS/CFT correspondence]]:
 
 * {#BeisertEtAl10} [[Niklas Beisert]], [[Luis Alday]], [[Radu Roiban]], [[Sakura Schafer-Nameki]], [[Matthias Staudacher]], [[Alessandro Torrielli]], [[Arkady Tseytlin]], et. al., _Review of AdS/CFT Integrability: An Overview_, Lett. Math. Phys. 99, 3 (2012) ([arXiv:1012.3982](https://arxiv.org/abs/1012.3982))
@@ -27,5 +26,10 @@ On the [[D=6 N=(2,0) SCFT]]:
 
 * [[Luis Alday]], [[Shai Chester]], Himanshu Raj, _6d $(2,0)$ and M-theory at 1-loop_ ([arXiv:2005.07175](https://arxiv.org/abs/2005.07175))
 
+On the [[conformal bootstrap]]:
+
+* [[Luis F. Alday]], [[Shai M. Chester]], *Pure anti-de Sitter supergravity and the conformal bootstrap* &lbrack;[arXiv:2207.05085](https://arxiv.org/abs/2207.05085)&rbrack;
+
+[[!redirects Luis F. Alday]]
 
 category: people
