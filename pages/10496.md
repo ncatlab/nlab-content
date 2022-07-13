@@ -299,6 +299,11 @@ Nucl. Phys. B419, 455 (1994).
 * {#JamadagniWeimer20} Amit Jamadagni, Hendrik Weimer, _An Operational Definition of Topological Order_ ([arXiv:2005.06501](https://arxiv.org/abs/2005.06501))
 
 
+Discussion via [[twisted equivariant K-theory]]:
+
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]* &lbrack;[arXiv:2206.13563](https://arxiv.org/abs/2206.13563)&rbrack;
+
+
 
 
 
