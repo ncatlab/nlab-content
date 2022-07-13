@@ -19,7 +19,6 @@
 =--
 
 
-
 # Contents
 * table of contents
 {: toc}
@@ -265,6 +264,11 @@ Classification of [[topological phases of matter]] via [[tensor network states]]
 * C. Wille, O. Buerschaper, [[Jens Eisert]], _Fermionic topological quantum states as tensor networks_, Phys. Rev. B 95, 245127 (2017) ([arXiv:1609.02574](https://arxiv.org/abs/1609.02574))
 
 * Andreas Bauer, [[Jens Eisert]], Carolin Wille, _Towards a mathematical formalism for classifying phases of matter_ ([arXiv:1903.05413](https://arxiv.org/abs/1903.05413))
+
+
+[[!include topological phases of matter via K-theory -- references]]
+
+
 
 ### Interacting topological phases
 
