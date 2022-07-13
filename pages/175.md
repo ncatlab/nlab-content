@@ -44,7 +44,10 @@ There are many generalizations and related structures; for example the vertical 
 
 Textbook accounts
 
-in relation to applications in [[physics]]:
+in relation to applications in ([[quantum physics|quantum]]) [[physics]]:
+
+* [[Eugene P. Wigner]], *Group theory: And its application to the quantum mechanics of atomic spectra*, 5, Academic
+Press (1959) &lbrack;[doi:978-0-12-750550-3](https://www.elsevier.com/books/group-theory/wigner/978-0-12-750550-3)&rbrack;
 
 * {#Sternberg94} [[Shlomo Sternberg]], *Group Theory and Physics*, Cambridge University Press 1994 ([ISBN:9780521558853](https://www.cambridge.org/gb/academic/subjects/mathematics/algebra/group-theory-and-physics?format=PB&isbn=9780521558853))
 
