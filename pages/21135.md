@@ -33,7 +33,7 @@ More on this [[Clifford algebra]]-argument explicit in view of topological insul
 
 The proper [[equivariant K-theory]] formulation expected to apply also to [[topological crystalline insulators]]:
 
-* {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], _Twisted equivariant matter_, Ann. Henri Poincaré (2013) 14: 1927 ([arXiv:1208.5055](https://arxiv.org/abs/1208.5055))
+* {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], *Twisted equivariant matter*, Ann. Henri Poincaré **14** (2013)  1927-2023 &lbrack;[arXiv:1208.5055](https://arxiv.org/abs/1208.5055), [doi:10.1007/s00023-013-0236-x](https://doi.org/10.1007/s00023-013-0236-x)&rbrack;
 
 Further discussion:
 
@@ -44,12 +44,15 @@ Further discussion:
 * Ralph M. Kaufmann, Dan Li, Birgit Wehefritz-Kaufmann, _Topological insulators and K-theory_ ([arXiv:1510.08001](https://arxiv.org/abs/1510.08001), [spire:1401095/](http://inspirehep.net/record/1401095/))
 
 
-
 * Charles Zhaoxi Xiong, _Classification and Construction of Topological Phases of Quantum Matter_ ([arXiv:1906.02892](https://arxiv.org/abs/1906.02892))
+
+Further generalization to include interacting [[topological order]]:
+
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]* &lbrack;[arXiv:2206.13563](https://arxiv.org/abs/2206.13563)&rbrack;
 
 Via [[cobordism cohomology]]:
 
-* [[Anton Kapustin]], [[Ryan Thorngren]], Alex Turzillo, Zitao Wang, _Electrons Fermionic Symmetry Protected Topological Phases and Cobordisms_, 	JHEP 1512:052, 2015 ([arXiv:1406.7329](https://arxiv.org/abs/1406.7329))
+* [[Anton Kapustin]], [[Ryan Thorngren]], Alex Turzillo, Zitao Wang, _Electrons Fermionic Symmetry Protected Topological Phases and Cobordisms_, JHEP 1512:052, 2015 ([arXiv:1406.7329](https://arxiv.org/abs/1406.7329))
 
 * [[Daniel Freed]], [[Michael Hopkins]], _Reflection positivity and invertible topological phases_ ([arXiv:1604.06527](https://arxiv.org/abs/1604.06527))
 
