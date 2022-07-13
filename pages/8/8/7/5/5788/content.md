@@ -38,6 +38,8 @@ In [[physics]], see _[[local symmetry]]_, _[[global symmetry]]_, _[[spontaneous 
 
 * [[symmetry of a Lagrangian]]
 
+* [[quantum symmetry]]
+
 * [[supersymmetry]]
 
 ## References
