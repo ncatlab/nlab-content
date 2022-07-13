@@ -3,6 +3,8 @@ Ji&#345;&#237; Ad&#225;mek is a pure [[category theory|category theorist]]. One 
 
 * [website](https://math.feld.cvut.cz/adamek/)
 
+* [website](https://www.tcs.cs.tu-bs.de/group/adamek/home.html)
+
 * [old website](https://web.archive.org/web/20180819015939/https://www.tu-braunschweig.de/iti/mitarbeiter/adamek/)
 
 ## Selected writings
