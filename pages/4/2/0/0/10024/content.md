@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
 #### Measure and probability theory
 +-- {: .hide}
 [[!include measure theory - contents]]
-=--
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
 =--
 =--
 =--
@@ -32,7 +32,7 @@ is a probability density.
 
 ### General
 
-Probability amplitudes appear as [[pure states]] of [[quantum mechanical systems]] in the form of _[[wave functions]]_ $\psi$ on the [[phase space]] of a corresponding [[classical system]]. The [[Born rule]] of [[quantum physics]] says  that the probability density $\rho = \psi^\ast \psi$ describes the probability to find the physical system in a given classical state (in a given region of its phase space).
+Probability amplitudes appear as [[pure states]] of [[quantum mechanical systems]] in the form of _[[wave functions]]_ $\psi$ on the [[phase space]] of a corresponding [[classical mechanics|classical system]]. The [[Born rule]] of [[quantum physics]] says  that the probability density $\rho = \psi^\ast \psi$ describes the probability to find the physical system in a given classical state (in a given region of its phase space).
 
 The fact that probability amplitudes are complex-valued means that under addition ("[[superposition]]") they exhibit [[quantum interference]] (the addition of their [[complex phases]]) in stark contrast to the addition of probability densities, for which this cannot happen.
 
