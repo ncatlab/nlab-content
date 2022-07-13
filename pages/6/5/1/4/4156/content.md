@@ -114,3 +114,6 @@ Proof for [[Lagrangian]] field theory (not falling back to the [[AQFT]] axiomati
 [[!redirects CPT]]
 [[!redirects CPT symmetry]]
 [[!redirects CPT theorem]]
+
+[[!redirects CPT-theorem]]
+
