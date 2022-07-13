@@ -25,6 +25,8 @@
 
     * [[quantum measurement]]
 
+      [[Born rule]]
+
       [[wave function collapse]]
 
       [[measurement problem]]
@@ -131,6 +133,10 @@
 
     * [[Nuiten's lemma]]
     
+  * [[Wigner's theorem]]
+
   * [[no-cloning theorem]]
 
   * [[Bell's theorem]]
+
+
