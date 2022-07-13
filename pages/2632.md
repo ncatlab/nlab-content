@@ -354,11 +354,9 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
 ### Historical origins
 
-
 * [[Werner Heisenberg]], *Über quantentheoretische Umdeutung kinematischer und mechanischer Beziehungen*, Zeitschrift für Physik **33** (1925) 879–893 &lbrack;[doi:10.1007/BF01328377]( https://doi.org/10.1007/BF01328377), [Engl. pdf](http://users.mat.unimi.it/users/galgani/arch/heis25ajp.pdf)&rbrack;
 
 * [[Max Born]], [[Pascual Jordan]], *Zur Quantenmechanik*, Zeitschrift für Physik **34** (1925) 858–888 &lbrack;[doi:10.1007/BF01328531](https://doi.org/10.1007/BF01328531)&rbrack;
- 
 
 * [[Paul A. M. Dirac]], *On the theory of quantum mechanics*, Proceedings of the Royal Society **112** 762 (1926) &lbrack;[doi:10.1098/rspa.1926.0133](https://doi.org/10.1098/rspa.1926.0133)&rbrack;
 
@@ -367,6 +365,12 @@ Equivalence of the [[Heisenberg picture]] and the [[Schrödinger picture]]:
 * [[Erwin Schrödinger]], *Über das Verhältnis der Heisenberg-Born-Jordanschen Quantenmechanik zu der meinen*, Annalen der Physil **384** 8 (1926) 734-756 &lbrack;[doi:10.1002/andp.19263840804]( https://doi.org/10.1002/andp.19263840804)&rbrack;
 
 * [[Carl Eckart]], *Operator Calculus and the Solution of the Equations of Quantum Dynamics*, Phys. Rev. **28** 4  (1926) 711-726 &lbrack;[doi:10.1103/PhysRev.28.711](https://doi.org/10.1103/PhysRev.28.711)&rbrack;
+
+Introducing the tool of [[group theory]] to quantum physics:
+
+* [[Eugene P. Wigner]], *Group theory: And its application to the quantum mechanics of atomic spectra*, 5, Academic
+Press (1959) &lbrack;[doi:978-0-12-750550-3](https://www.elsevier.com/books/group-theory/wigner/978-0-12-750550-3)&rbrack;
+
 
 
 ### General
