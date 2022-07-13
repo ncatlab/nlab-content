@@ -32,6 +32,9 @@ Review:
 
 * Th. Gutsche, _Exotic Mesons_ ([[GutscheExoticMesons.pdf:file]])
 
+* Luciano Maiani, Alessandro Pilloni, *GGI Lectures on Exotic Hadrons* &lbrack;[arXiv:2207.05141](https://arxiv.org/abs/2207.05141)
+
+
 
 See also
 
