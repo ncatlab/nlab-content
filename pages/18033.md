@@ -95,6 +95,9 @@ For [[superconformal field theory]], such as [[D=4 N=1 SYM]], [[D=4 N=2 SYM]], [
 
 * {#BRR29} [[Christopher Beem]], [[Leonardo Rastelli]], Balt C. van Rees, _More $N=4$ superconformal bootstrap_ ([arXiv:1612.02363](https://arxiv.org/abs/1612.02363))
 
+* [[Luis F. Alday]], [[Shai M. Chester]], *Pure anti-de Sitter supergravity and the conformal bootstrap* &lbrack;[arXiv:2207.05085](https://arxiv.org/abs/2207.05085)&rbrack;
+
+
 
 ### In AdS/CFT
 
