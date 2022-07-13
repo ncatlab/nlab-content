@@ -1,7 +1,6 @@
 
 * [webpage](http://www.weizmann.ac.il/physics/shai-chester)
 
-
 ## Selected writings
 
 On the [[conformal bootstrap]]:
@@ -31,6 +30,10 @@ Specifically for the [[D=3 SCFT]] ([[BLG-model]], [[ABJM model]]) on the [[M2-br
 
 * Damon J. Binder, [[Shai Chester]], Max Jerdee, Silviu S. Pufu, _The 3d $\mathcal{N}=6$ Bootstrap: From Higher Spins to Strings to Membranes_ ([arXiv:2011.05728](https://arxiv.org/abs/2011.05728))
 
+See also:
+
+* [[Luis F. Alday]], [[Shai M. Chester]], *Pure anti-de Sitter supergravity and the conformal bootstrap* &lbrack;[arXiv:2207.05085](https://arxiv.org/abs/2207.05085)&rbrack;
+
 
 Application of [[conformal bootstrap]] to [[experiment|experimental]] [[superfluid]]-transition:
 
@@ -44,6 +47,6 @@ On the [[AdS-CFT correspondence]]  for [[higher spin gauge theory]]:
 
 * [[Ofer Aharony]], [[Shai Chester]], [[Erez Urbach]], _A Derivation of AdS/CFT for Vector Models_ ([arXiv:2011.06328](https://arxiv.org/abs/2011.06328))
 
-
+[[!redirects Shai M. Chester]]
 
 category: people
