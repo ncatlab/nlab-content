@@ -40,7 +40,14 @@ Under the expected [[K-theory classification of topological phases of matter]], 
 
 * [[antiunitary operator]]
 
+* [[Wigner's theorem]]
+
 ## References
+
+### General
+
+* {#Wigner1959} [[Eugene P. Wigner]], §26 in: *Group theory: And its application to the quantum mechanics of atomic spectra*, Academic Press (1959) &lbrack;[doi:978-0-12-750550-3](https://www.elsevier.com/books/group-theory/wigner/978-0-12-750550-3)&rbrack;
+
 
 ### In Relativistic Dirac theory
 
