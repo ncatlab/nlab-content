@@ -63,6 +63,8 @@ The notation used here for the adjoint, $U^{*}$, is commonly used in linear alge
 
 * [[Hermitian operator]]
 
+* [[antiunitary operator]]
+
 * [[unitary fusion category]]
 
 [[!redirects unitary operators]]
