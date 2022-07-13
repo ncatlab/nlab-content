@@ -17,7 +17,7 @@
 
 ## Statement
 
-Wigner's theorem asserts that a [[function]] $f \colon P\mathcal{H} \to P\mathcal{H}$  from the [[projective space]] of a [[Hilbert space]] to itself (not _assumed_ to be a [[linear function]] on $\mathcal{H}$) is ([[antilinear maps|anti]]-)[[linear function|linear]] and in fact a (anti-)[[unitary operator]] (up to a phase) if only the function is 
+Wigner's theorem asserts that a [[function]] $f \colon P\mathcal{H} \to P\mathcal{H}$  from the [[projective space]] of a [[Hilbert space]] to itself (not _assumed_ to be a [[linear function]] on $\mathcal{H}$) lifts to a ([[antilinear maps|anti]]-)[[linear function|linear]] and in fact a (anti-)[[unitary operator]] (up to a phase) if only the function is 
 
 1. [[surjective map|surjective]];
 
