@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Higher linear algebra
+#### Linear algebra
 +-- {: .hide}
 [[!include homotopy - contents]]
 =--
@@ -26,7 +26,20 @@ Given $V$ a [[complex vector space]], a [[function]] $f \colon V \to V$ as _anti
 
 * [[real structure]]
 
+* [[antiunitary operator]]
+
+## References
+
+See also
+
+* Wikipedia, *[Antilinear map](https://en.wikipedia.org/wiki/Antilinear_map)*
+
+and see also the references at *[[Wigner's theorem]]*.
+
 [[!redirects antilinear maps]]
+
+[[!redirects anti-linear map]]
+[[!redirects anti-linear maps]]
 
 [[!redirects antilinear function]]
 [[!redirects antilinear functions]]
