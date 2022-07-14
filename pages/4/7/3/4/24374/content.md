@@ -15,7 +15,7 @@
 1. An [[elementary topos]] $E$ with [[natural numbers object]].
 2. with a [[left exact]] endofunctor $\triangleright$ 
 3. with a [[natural transformation]] $\text{next} : 1 \to \triangleright$ satisfying $\triangleright\text{next} = \text{next}\triangleright$
-4. supporting [[Löb's theorem|Löb-induction]], i.e., $\phi:\Ohm|\triangleright \phi \Rightarrow \phi \vdash \phi$ in the internal logic of $E$.
+4. supporting [[Löb's theorem|Löb-induction]], i.e., $\phi:\Omega|\triangleright \phi \Rightarrow \phi \vdash \phi$ in the internal logic of $E$.
 
 Then "multi-clock" SGDT is simply a topos $E$ with an object of clocks $K : E$ such that the slice $E/K$ is a model of single-clock SGDT.
 
