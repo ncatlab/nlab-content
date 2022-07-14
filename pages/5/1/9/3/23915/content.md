@@ -47,10 +47,11 @@ There is a [[periodic table]] of $k$-tuply monoidal $n$-groupoids:
 | $1$ | trivial | [[pointed set]] | [[pointed object|pointed]] [[groupoid]] | [[pointed object|pointed]] [[2-groupoid]] | $\cdots$ | [[pointed infinity-groupoid|pointed $\infty$-groupoid]] <br/> [[A1-space|$A_1$-space]] | 
 | $2$ | trivial | [[unital magma]] | [[H-groupoid|magmoidal groupoid with unit]] | [[magmoidal 2-groupoid with unit]] | $\cdots$ | [[H-space]]/[[A2-space]] |
 | $3$ | " | [[monoid]] | [[H-monoidal groupoid]] | [[H-monoidal 2-groupoid]] | $\cdots$ | [[H-monoid]]/[[A3-space]] |
-| $4$ | " | " | [[A4-groupoid]] | [[A4 2-groupoid]] | $\cdots$ | [[A4-space]] | 
-| $5$ | " | " | " | [[A5 2-groupoid]] | $\cdots$ | [[A5-space]] | 
+| $4$ | " | " | [[monoidal groupoid]] | [[A4 2-groupoid]] | $\cdots$ | [[A4-space]] | 
+| $5$ | " | " | " | [[monoidal 2-groupoid]] | $\cdots$ | [[A5-space]] | 
 | $\vdots$ | " | " | " | " | $\ddots$ | $\vdots$ |  
 | $\infty$ | trivial | [[monoid]] | [[monoidal groupoid]] | [[monoidal 2-groupoid]] | $\cdots$ | [[A-infinity space|$A_\infty$-space]] | 
+
 
 
 ## See also
