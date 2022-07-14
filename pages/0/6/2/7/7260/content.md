@@ -104,6 +104,11 @@ In any case, as far as the _observable_ universe is concerned, two facts are wor
 
 * Wikipedia _[Observable universe](http://en.wikipedia.org/wiki/Observable_universe)_
 
+
+Popular introduction:
+
+* [[Carl Sagan]], *Cosmos*, Ballantine Books (1985) &lbrack;<a href="https://en.wikipedia.org/wiki/Cosmos_(Sagan_book)">Wikipedia entry</a>, [GoogleBooks entry](https://books.google.de/books/about/Cosmos.html?id=_-XhL6_xsVkC&redir_esc=y)&rbrack;
+
 A visualization of the scales in the [[solar system]] are in
 
 * {#VisSolarSystem} [A tediously accurate scale model of the solar system](http://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html)
