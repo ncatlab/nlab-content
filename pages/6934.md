@@ -37,6 +37,10 @@ More problematically, to support [[identity types]] a la Swan (which are distinc
 
 Ordinary Martin-Lof [[jdentity types]] should, in principle, also be definable in Cubical Agda as an indexed inductive family, with computational behavior as usual for any inductive types in cubical type theory.  As of March 2021, however, there is a bug in Cubical Agda that prevents jdentity types from computing correctly.
 
+### Guarded Cubical Agda
+
+The guarded cubical variant extends cubical Agda to support [[guarded recursive]] definitions which can be used to formalize [[synthetic guarded domain theory]].
+
 ### Agda-flat
   {#AgdaFlat}
  
