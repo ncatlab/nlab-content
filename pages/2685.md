@@ -49,7 +49,7 @@ From [Feynman 1988](#Feynman88) ([here](https://books.google.de/books?id=vbMIlkp
 
 > Have no respect _whatsoever_ for authority; forget who said it and instead look at what he starts with, where he ends up, and ask yourself, "Is it reasonable?"
 
-
+cf. [[Carl Sagan]] [on scepticism](Carl+Sagan#OnScepticism)
 
 
 ## Related $n$Lab entries
