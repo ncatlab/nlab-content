@@ -68,6 +68,14 @@ See also
 
 * Wikipedia, _[Belle II experiment](https://en.wikipedia.org/wiki/Belle_II_experiment)_
 
+More on [[Belle II]]:
+
+* *Belle II Executive Summary* &lbrack;[arXiv:2203.10203](https://arxiv.org/abs/2203.10203)&rbrack;
+
+* *Snowmass White Paper: Belle II physics reach and plans for the next decade and beyond* &lbrack;[arXiv:2207.06307](https://arxiv.org/abs/2207.06307)&rbrack;
+
+  > Belle II is an experiment operating at the [[intensity frontier]].
+
 
 ### On flavour anomalies
 
