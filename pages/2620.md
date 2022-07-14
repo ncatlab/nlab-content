@@ -43,7 +43,7 @@ where $p$ is momentum.
 Now the harmonic oscillator in [[quantum mechanics]].
 
 We [[quantization|quantize]], getting a quantum harmonic oscillator, or QHO.  We set $p = -i \frac{\partial}{\partial x},$ taking units where $\hbar = 1.$  Now 
-\[\array{ [x, p]x^n & = & x p - p x \\ & = &(- x i \frac{\partial}{\partial x} + i \frac{\partial}{\partial x} x)x^n \\ & = & -i(n x^n - (n+1)x^n) \\ & = & i x^n. }\]
+\[\array{ [x, p]x^n & = & (x p - p x)x^n \\ & = &(- x i \frac{\partial}{\partial x} + i \frac{\partial}{\partial x} x)x^n \\ & = & -i(n x^n - (n+1)x^n) \\ & = & i x^n. }\]
 
 If we define a new [[observable]] $z = \frac{p + ix}{\sqrt{2}},$ then 
 \[\array{ z z^* & = & \frac{(p + i x)}{\sqrt{2}} \frac{(p - i x)}{\sqrt{2}} \\ & = & \frac{1}{2}(p^2 + i(x p - p x) + x^2) \\ & = & \frac{1}{2}(p^2 -1 + x^2) \\ & = & H_0. }\]
