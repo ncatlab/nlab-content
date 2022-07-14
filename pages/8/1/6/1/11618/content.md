@@ -119,12 +119,12 @@ Voevodsky has conjectured that any fibrant type definable in HTS is equivalent t
 
 ### Model invariance
 
-The [[model invariance problem]] seems more likely to fail for HTS than for theories that do not include strict equality.  In other words, distinct model categories presenting the same $(\infty,1)$-topos might have different "internal languages" according to HTS, even if we restrict to the fibrant types.  It is unclear whether or not this is true; Voevodsky's conjecture above would imply that model invariance holds if it holds for MLTT.
+The [[model invariance problem]] seems more likely to fail for HTS than for theories that do not include strict equality.  In other words, distinct model categories presenting the same $(\infty,1)$-topos might have different "internal languages" according to HTS.  This can obviously happen if by "internal language" we include the non-fibrant types, but if we restrict to the fibrant types the answer is unclear.  It may be related to Voevodsky's conjecture above.
 
-The following argument, however, shows that model invariance definitely fails if we include fibrant replacement (of types in the empty context), and split inductive types into fibrant and non-fibrant versions (or simply don't include inductive types in the system).
+The following argument, however, shows that model invariance (even for fibrant types) definitely fails if we include fibrant replacement (of types in the empty context), and split inductive types into fibrant and non-fibrant versions (or simply don't include inductive types in the system).
 
 Let $E$ be the poset with four objects $a,b,c,d$ such that $d\lt a$, $d\lt b$, and $d\lt c$ are the only nonidentity relations; thus an $E$-diagram is four
-objects $X_a$, $X_b$, $X_c$, $X_d$ with maps $X_d \to X_a$, $X_d \to X_b$, and $X_d \to X_c$.  Since $E$ is an [[nlab:inverse category]], there is a [[nlab:Reedy model structure]] on $sSet^E$ in which the cofibrations are levelwise monomorphisms, the weak equivalences are levelwise weak equivalences, and the fibrant objects are diagrams such that $X_a$, $X_b$, and $X_c$ are fibrant and the induced map $X_d \to (X_a \times X_b \times X_c)$ is a fibration.  Moreover, this model has [[univalent] [[universes]] induced from those of $sSet$: if $U$ is a univalent universe in $sSet$, then $V$ is a univalent universe in $sSet^E$, where $V_a = V_b = V_c = U$, and the fiber of $V_d$ over $(A,B,C)$ is the type $A \to B \to C \to U$.
+objects $X_a$, $X_b$, $X_c$, $X_d$ with maps $X_d \to X_a$, $X_d \to X_b$, and $X_d \to X_c$.  Since $E$ is an [[nlab:inverse category]], there is a [[nlab:Reedy model structure]] on $sSet^E$ in which the cofibrations are levelwise monomorphisms, the weak equivalences are levelwise weak equivalences, and the fibrant objects are diagrams such that $X_a$, $X_b$, and $X_c$ are fibrant and the induced map $X_d \to (X_a \times X_b \times X_c)$ is a fibration.  Moreover, this model has [[univalence axiom|univalent]] [[universes]] induced from those of $sSet$: if $U$ is a univalent universe in $sSet$, then $V$ is a univalent universe in $sSet^E$, where $V_a = V_b = V_c = U$, and the fiber of $V_d$ over $(A,B,C)$ is the type $A \to B \to C \to U$.
 
 Now we can [[nlab:Bousfield localization|localize]] this Reedy model structure at the maps $0\to a$, $0\to b$, and $0\to c$, where $a$, $b$, and $c$ denote the corresponding [[nlab:representable functor|representables]].  A local object is a fibrant object such that $X_a$, $X_b$, and $X_c$ are contractible, and the local weak equivalences are just the maps that induce a weak equivalence on $d$-components.  In particular, the homotopy category of the localized model structure is equivalent to that of $sSet$.  Moreover, locality and localization (of fibrant objects) can be represented internally as a subobject and an endomorphism, respectively, of the universe $V$.  Because localization is left exact, the subuniverse of local objects is itself local, and thus provides a univalent universe for the localized model structure.
 
@@ -135,7 +135,7 @@ universes, and have equivalent homotopy categories.  Both model HTS as well, alt
 Now, inside HTS, define a (non-fibrant) type $Y$ to be a "strict [[nlab:homotopy level|hprop]]"
 if $\prod_{(x,y:Y)} Id(x,y)$.  Write $sProp$ for the subtype of the universe of non-fibrant types determined by the strict hprops.  Consider the following type
 
-$$\prod_{P,Q,R:sProp} (\neg P \to (Q \vee R)) \to ((\neg P \to Q) or (\neg P \to R)) $$
+$$\prod_{P,Q,R:sProp} (\neg P \to (Q \vee R)) \to ((\neg P \to Q) \vee (\neg P \to R)) $$
 
 Call this type KP (for Kreisel-Putnam).  Note that "false" and "or"
 for strict hprops can be defined impredicatively by quantification
