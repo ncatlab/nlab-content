@@ -1480,6 +1480,10 @@ For more on this see at _[[correlators as differential forms on configuration sp
 
 * [[Hilbert scheme]]
 
+* [[arrangements of hyperplanes]]
+
+* [[Knizhnik-Zamolodchikov connection]]
+
 ## References
 
 ### General 
