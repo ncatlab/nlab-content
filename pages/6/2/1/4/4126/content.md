@@ -43,7 +43,7 @@ to the [[real number]]s, satisfying two conditions:
 +-- {: .num_remark}
 ###### Remark
 
-This has the following equivalent reformulation, which is crucial for the sheaf-theoretic interpretation discussed below.
+This has the following equivalent reformulation, which is crucial for the [[sheaf and topos theory|sheaf-theoretic]] interpretation discussed below.
 
 Observed that if $\hat{A}_{1}$ and $\hat{A}_{2}$ commute, then it follows from the [[spectral theorem]] that there exists an operator $\hat{C}$ and [[continuous functions]] $h_{1}$ and $h_{2}$ such that $\hat{A}_{1}=h_{1}(\hat{C})$ and $\hat{A}_{2}=h_{2}(\hat{C})$.  Then the [[axiom]] FUNC in def. \ref{Valuation} implies that a valuation satisfies
 
@@ -196,16 +196,16 @@ Other theorems about the foundations and [[interpretation of quantum mechanics]]
 
 ## References
 
-The original article is
+The original article:
 
-* [[Simon Kochen]], [[Ernst Specker]], _The problem of hidden variables in quantum mechanics_ , Journal of Mathematics and Mechanics 17, 59&#8211;87 (1967), ([pdf](http://www.iumj.indiana.edu/IUMJ/FTDLOAD/1968/17/17004/pdf))
-  {#KochenSpecker67}
+* {#KochenSpecker67} [[Simon Kochen]], [[Ernst Specker]], _The problem of hidden variables in quantum mechanics_, Journal of Mathematics and Mechanics **17** (1967) 59-87 &lbrack;[pdf](http://www.iumj.indiana.edu/IUMJ/FTDLOAD/1968/17/17004/pdf), [jstor:24902153](https://www.jstor.org/stable/24902153), [doi:10.1007/978-94-010-1795-4_17](https://doi.org/10.1007/978-94-010-1795-4_17)&rbrack;
+  
 
-Alternative proofs are in 
+Alternative proofs:
 
 * Del Rajan, Matt Visser, _Kochen-Specker theorem revisited_ ([arXiv:1708.01380](https://arxiv.org/abs/1708.01380))
 
-The sheaf-theoretic interpretation of the theorem was proposed in
+The [[sheaf and topos theory|sheaf-theoretic]] interpretation of the theorem was proposed in
 
 * {#IshamButterfield98} [[Chris Isham]], [[Jeremy Butterfield]], _A topos perspective on the Kochen-Specker theorem: I. Quantum States as Generalized Valuations_ ([arXiv:quant-ph/9803055](http://arxiv.org/abs/quant-ph/9803055))
   
@@ -221,15 +221,27 @@ The original paper outlining [[Bell's theorem]] is
 
 The original paper outlining [[Gleason's theorem]] is
 
-* {#Gleason57} A. M. Gleason, _Measures on the closed subspaces of a Hilbert space_, Journal of Mathematics and Mechanics,  Indiana Univ. Math. J. 6 No. 4 (1957), 885&#8211;893 ([web](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050))
+* {#Gleason57} [[Andrew M. Gleason]], _Measures on the closed subspaces of a Hilbert space_, Journal of Mathematics and Mechanics,  Indiana Univ. Math. J. 6 No. 4 (1957), 885&#8211;893 ([web](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050))
   
-A technical discussion on the interplay of Gleason's and Kochen-Specker theorems and various issues regarding non-contextuality, locality and Bell inequality appears in Chapter 5 of
+A technical discussion on the interplay of Gleason's and Kochen-Specker theorems and various issues regarding non-contextuality, locality and Bell inequality: 
 
-
-* [[Valter Moretti]], Fundamental Mathematical Structures of Quantum Theory:
-Spectral Theory, Foundational Issues, Symmetries, Algebraic Formulation
+* [[Valter Moretti]], Chapter 5 of: *Fundamental Mathematical Structures of Quantum Theory: Spectral Theory, Foundational Issues, Symmetries, Algebraic Formulation*
 Springer (2019)
 
 The hierarchy of strengths of no-go theorems in quantum context is studied from sheaf theoretic perspective in
 
 * [[Samson Abramsky]], Adam Brandenburger, _The sheaf-theoretic structure of non-locality and contextuality_, [arxiv/1102.0264](https://arxiv.org/abs/1102.0264)
+
+Strengthening of the Kochen-Specker theorem and relation to the "[[free will theorem]]":
+
+* [[Simon Kochen]], *On the Free Will Theorem* &lbrack;[arXiv:2207.06295](https://arxiv.org/abs/2207.06295)&rbrack;
+
+  > The new theorem &lbrack;...&rbrack; does require any use of free will on the experimenter’s part. The theorem also strengthens the Kochen-Specker Theorem
+
+
+
+
+
+[[!redirects free will theorem]]
+
+
