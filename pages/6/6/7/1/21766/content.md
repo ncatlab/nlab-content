@@ -56,6 +56,12 @@ In view of [[flavour anomalies]]:
 
 * J. L. Hewett et al. *Planning the Future of U.S. Particle Physics (Snowmass 2013): Chapter 2: Intensity Frontier* ([arXiv:1401.6077](https://arxiv.org/abs/1401.6077))
 
+and in regards to the [[Belle II]] [[experiment]]:
+
+* *Snowmass White Paper: Belle II physics reach and plans for the next decade and beyond* &lbrack;[arXiv:2207.06307](https://arxiv.org/abs/2207.06307)&rbrack;
+
+  > Belle II is an experiment operating at the intensity frontier.
+
 With emphasis on precision [[QCD]]-predictions:
 
 * Thomas Gehrmann, Bogdan Malaescu, *Precision QCD Physics at the LHC* ([arXiv:2111.02319](https://arxiv.org/abs/2111.02319))
@@ -65,3 +71,5 @@ With emphasis on precision [[QCD]]-predictions:
 
 [[!redirects precision measurement]]
 [[!redirects precision measurements]]
+
+[[!redirects intensity frontier]]
