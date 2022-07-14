@@ -28,7 +28,7 @@ The **plane** is the [[Cartesian space]] $\mathbb{R}^2$. This is naturally a [[t
 
 * [[real line]]
 
-* **plane**, [[surface]]
+* **plane**, [[surface]], [[hyperplane]]
 
 * [[slope of a line]]
 
