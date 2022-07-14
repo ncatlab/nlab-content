@@ -46,10 +46,15 @@ In [[category theory]], a **H-monoidal groupoid** or **$A_3$-spatial groupoid** 
 ## See also
 
 * [[H-space]]
+
 * [[An-space]]
+
 * [[groupoid]]
-* [[H-spatial groupoid]]
-* [[A4-spatial groupoid]]
+
+* [[k-tuply associative n-groupoid]]
+
+* [[H-groupoid]]
+
 
 [[!redirects H-monoidal groupoid]]
 [[!redirects H-monoidal groupoids]]
