@@ -64,6 +64,10 @@ Where the last line reads in words "It is not provable that false is not provabl
 
 * [[Lawvere's fixed point theorem]]
 
+* [[guarded recursion]]
+
+* [[synthetic guarded domain theory]]
+
 ## References
 
 * {#GrossGallagherFallenstein16} [[Jason Gross]], Jack Gallagher, Benya Fallenstein, _L&#246;b's theorem -- A functional pearl of dependently typed quining_, 2016 ([pdf](https://jasongross.github.io/lob-paper/nightly/lob.pdf))
