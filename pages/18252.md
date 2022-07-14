@@ -597,6 +597,8 @@ This plays a key role in [[topological K-theory]] and more generally in [[comple
 
 * [[canonical line bundle]], [[universal complex line bundle]]
 
+* [[hyperplane line bundle]]
+
 * [[tautological equivariant line bundle]]
 
 * [[resolution of singularities]]
