@@ -419,6 +419,8 @@ $$\array{
 \phi(r) \downarrow & \phi(1_r) \swArrow & \downarrow \phi(r) & = & 1_{\phi(r)} \\
 V(r) & \underset{V(1_r)}{\to} & V(r) & & 
 }$$
+
+There is also a requirement that the assignation f \mapsto \phi(f) should be natural as f varies along a $2$-cell \alpha: f \Rightarrow g. That is, \phi(g).U\alpha =V\alpha.\phi(f).
 =-- 
 
 +-- {: .num_defn} 
