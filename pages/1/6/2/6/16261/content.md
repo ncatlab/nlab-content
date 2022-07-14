@@ -24,7 +24,7 @@ The theory of [[classical field theory|classical]] [[gravity]] ([[general relati
 
 While that hence gives consistent theories in themselves -- a set of [[differential equations]] --, not all choices of matter Lagrangians are physically reasonable. One consistency condition for physical reasonable choices is for instance that from far away any non-vanishing matter distribution should behave as a single ball of positive mass. An _energy condition_ is an extra condition imposed on a [[stress-energy tensor]] that is meant to reflect physical plausibility conditions of this kind.
 
-There are vrious conditions of various strengths considered in the literature. One is called the _dominant energy condition_ and that indeed implies the above asymptotic  positivity of mass distributions, this is the content of the _[[positive energy theorem]]_.
+There are various conditions of various strengths considered in the literature. One is called the _dominant energy condition_ and that indeed implies the above asymptotic  positivity of mass distributions, this is the content of the _[[positive energy theorem]]_.
 
 ## Related concepts
 
