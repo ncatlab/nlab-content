@@ -30,6 +30,7 @@ continues to exert a decisive influence today.
 
 * [[topological domain theory]]
 * [[synthetic domain theory]]
+* [[synthetic guarded domain theory]]
 
 ## References
 
