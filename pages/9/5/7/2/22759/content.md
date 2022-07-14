@@ -184,9 +184,12 @@ A definition of a [[free object|free]] [[poset]] as a quotient inductive-inducti
     | trans: (forall x y z: poset A) (x \leq y) -> (y \leq z) -> (x \leq z)
     | pordercontr: forall (x y : poset A) (p q : x \leq y), p == q.
 
-### Free pointed omega-complete partial orders
 
-It is possible to define the [[free object|free]] [[pointed object|pointed]] [[countable ordinal|omega]]-complete [[partial order]] on a 0-truncated type $A$ as a quotient inductive type. They are usually abbreviated as free pointed $\omega$-cpos. [See Altenkirch, Danielsson, and Kraus, 2016](#partial)
+### Free pointed omega-complete partial orders
+ {#FreePointedOmegaCompletePartialOrders}
+
+It is possible to define the [[free object|free]] [[pointed object|pointed]] [[countable ordinal|omega]]-complete [[partial order]] on a 0-truncated type $A$ as a quotient inductive type. They are usually abbreviated as free pointed $\omega$-cpos (see [Altenkirch, Danielsson, and Kraus 2017,  §3.2](#ADK2017))
+
 
     Inductive omegacpo (A: Type) :=
     | inj: A -> omegacpo A
@@ -217,7 +220,7 @@ From Altenkirch and Kaprosi 2017
 
 * [[Univalent Foundations Project]], section 11 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013)
 
-* {#partial} [[Thorsten Altenkirch]], Nils Anders Danielsson, Nicolai Kraus, _Partiality, Revisited: The Partiality Monad as a Quotient Inductive-Inductive Type_ [arXiv](https://arxiv.org/abs/1610.09254), 2016
+* {#ADK2017} [[Thorsten Altenkirch]], [[Nils Anders Danielsson]], [[Nicolai Kraus]], _Partiality, Revisited: The Partiality Monad as a Quotient Inductive-Inductive Type_, FoSSaCS 2017, Lecture Notes in Computer Science **10203** Springer (2017) &lbrack;[arXiv:1610.09254](https://arxiv.org/abs/1610.09254)&rbrack; 
 
 * Thorsten Altenkirch, Paolo Capriotti, Gabe Dijkstra, Fredrik Nordvall Forsberg, _Quotient inductive-inductive types_, [arXiv](https://arxiv.org/abs/1612.02346), 2016
 
