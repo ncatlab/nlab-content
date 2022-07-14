@@ -1,3 +1,4 @@
+[[!redirects H-spatial groupoid]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -30,7 +31,7 @@
 
 ## Idea
 
-In [[type theory]], a [[1-type|1-truncated]] [[H-space]]/[[An-space|$A_2$-space]]. In [[category theory]], the [[groupoidal categorification]] of a [[unital magma]]. 
+In [[homotopy type theory]], a [[1-type|1-truncated]] [[H-space]]/[[An-space|$A_2$-space]]. In [[category theory]], the [[groupoidal categorification]] of a [[unital magma]]. 
 
 ## Definitions
 
@@ -45,18 +46,30 @@ In [[category theory]], a **unital magmoidal groupoid** or **magmoidal groupoid 
 ## See also
 
 * [[unital magma]]
+
 * [[H-space]]
+
 * [[An-space]]
+
+* [[k-tuply associative n-groupoid]]
+
 * [[groupoid]]
+
 * [[magmoidal groupoid]]
+
 * [[H-monoidal groupoid]]
 
-[[!redirects H-spatial groupoid]]
-[[!redirects H-spatial groupoids]]
-[[!redirects A2-spatial groupoid]]
-[[!redirects A2-spatial groupoids]]
+
+
+[[!redirects H-groupoids]]
+
+[[!redirects A2-groupoid]]
+[[!redirects A2-groupoids]]
+
+
 [[!redirects unital magmoidal groupoid]]
 [[!redirects unital magmoidal groupoids]]
+
 [[!redirects magmoidal groupoid with unit]]
 [[!redirects magmoidals groupoid with unit]]
 
