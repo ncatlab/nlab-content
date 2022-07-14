@@ -237,10 +237,11 @@ However, this may be over-interpreting the realism of these simple models. Accor
 
 * {#EllisStoeger87} [[George Ellis]], W. Stoeger, _The 'fitting problem' in cosmology_,  Classical and Quantum Gravity, Volume 4, Number 6, 1987 ([doi:10.1088/0264-9381/4/6/025](https://iopscience.iop.org/article/10.1088/0264-9381/4/6/025))
 
-
 General review:
 
 * {#Ellis18} [[George Ellis]], summary talk at [CosmoBack 2018](https://cosmoback.sciencesconf.org/) ([[EllisCosmoBack18.pdf:file]])
+
+* Pavan Kumar Aluri et al.: *Is the Observable Universe Consistent with the Cosmological Principle?* &lbrack;[arXiv:2207.05765](https://arxiv.org/abs/2207.05765)&rbrack;
 
 On [[computer experiment]]:
 
