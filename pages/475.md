@@ -33,7 +33,7 @@ For $R$ a commutative [[ring]], there is a [[symmetric monoidal bicategory]] $Al
 
 * [[morphism]]s are algebra [[bimodule]]s;
 
-* [[2-morphisms|k-morphism]] are bimodule homomorphisms.
+* [[2-morphisms]] are bimodule homomorphisms.
 
 The monoidal product is given by [[tensor product]] over $R$.
 
