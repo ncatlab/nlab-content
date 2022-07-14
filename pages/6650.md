@@ -56,26 +56,27 @@ A stable reflective factorization system is sometimes called **local**.
 
 ## References
 
-The relation between stable factorization systems and the Beck-Chevalley condition of the associated fibrations is discussed in
 
-* J. Hughes and [[Bart Jacobs]], _Factorization systems and fibrations: Toward a fibred Birkhoff variety
-theorem_, Electr. Notes in Theor. Comp. Sci., 69 (2002)
-
-The notion appears also for instance in
+The notion appears for instance in
 
 * [[Max Kelly]], _A note on relations relative to a factorization system_, Lecture Notes in Mathematics, 1991, Volume 1488 (1991)
 
 * Stefan Milius, _Relations in categories_, PhD thesis ([pdf](http://www.iti.cs.tu-bs.de/~milius/thesis/thesis_a4.pdf))
 
-Discussion of epimorphisms in toposes is for instance in 
+On the relation between stable factorization systems and the [[Beck-Chevalley condition]] of the associated fibrations:
 
-* [[Stephen Lack]], Pawel Soboc&#237;nski, _Toposes are adhesive_ ([pdf](http://users.ecs.soton.ac.uk/ps/papers/toposesAdhesive.pdf))
- {#LackSobocisnski}
+* J. Hughes and [[Bart Jacobs]], _Factorization systems and fibrations: Toward a fibred Birkhoff variety
+theorem_, Electr. Notes in Theor. Comp. Sci., 69 (2002)
 
-Discussion of reflective stable factorization systems in the context of [[(∞,1)-category theory]] (and with an eye towards [[cohesive homotopy type theory]]) is in 
+Discussion of the example [[(epi, mono) factorization system]] in [[toposes]] (for more see at *[[regular category]]*, [here](regular+category#ToposesAreRegular)):
 
-* [[Mike Shulman]], _Axiomatic cohesion in HoTT_ (2011) ([web](http://homotopytypetheory.org/2011/11/02/axiomatic-cohesion-in-hott/))
- {#Shulman}
+* {#LackSobocínski06} [[Stephen Lack]], [[Pawel Sobocínski]], Lemma 18 in:  *Toposes are adhesive*, in: *Graph Transformations* ICGT 2006,  Lecture Notes in Computer Science **4178**, Springer (2006) 184-198 &lbrack;[doi:10.1007/11841883_14](https://doi.org/10.1007/11841883_14), [pdf](http://users.ecs.soton.ac.uk/ps/papers/toposesAdhesive.pdf)&rbrack;
+ 
+
+Discussion of reflective stable factorization systems in the context of [[(∞,1)-category theory]] (and with an eye towards [[cohesive homotopy type theory]]):
+
+* {#Shulman} [[Mike Shulman]], _Axiomatic cohesion in HoTT_ (2011) ([web](http://homotopytypetheory.org/2011/11/02/axiomatic-cohesion-in-hott/))
+ 
 
 [[!redirects stable factorization systems]]
 [[!redirects local factorization system]]
