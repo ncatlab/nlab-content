@@ -40,11 +40,16 @@ A [[category]] $C$ is called **regular** if
 
    $$
      \array{
-       d\times_c d &\stackrel{p_1}{\to}& d
+       d\times_c d 
+       &\stackrel{p_1}{\longrightarrow}& 
+       d
        \\
-       {}^{\mathllap{p_2}}\downarrow && \downarrow^{\mathrlap{f}}
+       {{}^\mathllap{p_2}}
+       \big\downarrow 
+       && 
+       \big\downarrow{{}^\mathrlap{f}}
        \\
-       d &\stackrel{f}{\to}& c
+       d &\stackrel{f}{\longrightarrow}& c
      }
    $$
 
@@ -295,17 +300,14 @@ If a regular category is small, it admits particularly nice embeddings into pres
 
 Roughly speaking, regular categories tend to be relatively well-behaved when it comes to desribing them in formalized logics.
 
-#### Regular functors over a small regular category 
+### Regular functors over a small regular category 
 
-##### A result of Makkai 
-
-
-###### Proposition (Makkai)
-
+\begin{proposition}
+**(Makkai)**
+\linebreak
 If a regular category $\mathcal{R}$ is small, then the full subcategory of the functor category $[\mathcal{R},\mathsf{Set}]$ consisting of the [[regular functors]] only is an [[elementary class]] w.r.t. the signature given by (the underlying graph) of $\mathcal{R}$.
 
-
-=--
+\end{proposition}
 
 ## Stronger conditions
 
