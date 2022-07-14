@@ -77,13 +77,21 @@ Recall that a differential form on $X$ is a section of the exterior algebra of t
 
 Of particular importance are $L$-valued forms when $L$ is a [[line bundle]]; these are also called __$L$-twisted forms__.  (Compare the notion of [[twisted form]] in a more general context.)  In local coordinates, a twisted form looks just like an ordinary form, once you choose a nonzero vector in $L$ as a basis.  Therefore, they can seem sneaky and confusing sometimes when you realise that they do not behave in the same way!
 
-Let $\Psi$ be the [[pseudoscalar]] bundle; that is, a section of $\Psi$ (a pseudoscalar field) is given locally by a simple [[scalar]] field (a real-valued function) for each [[orientation]] of a local patch, with opposite orientations giving oppositely-signed scalars.  A __pseudoform__ is a $\Psi$-twisted form.
+Let $\Psi$ be the [[pseudoscalar]] bundle, obtained as the bundle [[associated bundle|associated]] to the frame bundle by the character $\rho(A)=sgn(det(A))$. That is, a section of $\Psi$ (a pseudoscalar field) is given locally by a simple [[scalar]] field (a real-valued function) for each [[orientation]] of a local patch, with opposite orientations giving oppositely-signed scalars.  A $\Psi$-twisted form is called __pseudoform__.
 
-On an $n$-dimensional manifold $X$, the space $\Omega^n(X)$ of $n$-forms is itself a line bundle; a $p$-form twisted by this line bundle is a __densitised form__.  Sometimes an $n$-form is itself called a __density__.  Actually, as we will see under [integration](#integration) below, it is really an $n$-*pseudo*form that should be called a density, but that is not the traditional terminology.
+On an $n$-dimensional manifold $X$, the bundle $\Lambda^n(X)=\Lambda^n(T^*M)$ is itself a line bundle, which is associated to the frame bundle by the character $A\mapsto det(A)^{-1}$; a $p$-form twisted by this line bundle is called a __densitised form__. Sometimes an $n$-form is itself called a __density__. As we will see under [integration](#integration) below, it is really an $n$-*pseudo*form (a section of the bundle $\Lambda^n\otimes\Psi$, which comes from the character $A\mapsto |\det(A)|^{-1}$) that should be called a density, but that is not the traditional terminology.
 
-Given any real number $w$, there is a line bundle called the line bundle of $w$-[[weighted representation|weighted]] scalars; a form twisted by this line bundle is a __$w$-weighted form__.  Note that a $0$-weighted form is just an ordinary form; also, an $n$-pseudoform turns out to be equivalent to a $1$-weighted $0$-form.  (And thus a densitised form is equivalent to a $1$-weighted pseudoform.)
+Given any real number $w$, the bundle $|\Lambda|^w$ associated to the character $A\mapsto |det A|^{-w}$ is called the line bundle of $w$-weighted scalars (also called [[density|$w$-densities]]); a form twisted by this line bundle is a __$w$-weighted form__. Note that $|Lambda|^0=1$ is the trivial bundle, so a $0$-weighted form is just an ordinary form.
+Also, an $n$-pseudoform turns out to be equivalent to a $1$-weighted scalar:
+$$\Lambda^n \otimes \Psi \simeq |\Lambda|^1.$$
+Since $\Psi\otimes\Psi=1$ is the trivial bundle, we have $\Lambda^n \simeq |\Lambda|^1 \otimes\Psi$, and thus a densitised form is equivalent to a $1$-weighted pseudoform:
+$$\Lambda^k \otimes \Lambda^n \simeq \Lambda^k \otimes \Psi \otimes |\Lambda|^1$$
 
-The line bundle of $n$-pseudoforms (that is of $1$-weighted $0$-forms) is the [[absolute value]] of the line bundle of $n$-forms (that is of densitised $0$-forms), so we may take the absolute value of one of either and get one of the latter.  (Similarly, the line bundle of $0$-forms is the absolute value of the line bundle of pseudo-$0$-forms; that is, the trivial bundle is the absolute value of the pseudoscalar bundle.)
+The bundle $\Lambda^n\otimes\Psi\simeq|\Lambda|^1$ of $n$-pseudoforms is the [[absolute value]] of the bundle of $n$-forms (that is of densitised $0$-forms):
+$$\Lambda^n \simeq \Psi \otimes |\Lambda|^1$$
+(similarly to how $x=sgn(x)|x|$), so we may take the absolute value of one of either and get one of the latter.  In the same way, the bundle of $0$-forms is the absolute value of the bundle $\Psi$ of pseudo-$0$-forms
+$$\Psi \simeq \Psi \otimes 1,$$
+that is, the trivial bundle is the absolute value of the pseudoscalar bundle.
 
 
 ### As smooth functors on $n$-paths
