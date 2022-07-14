@@ -1,9 +1,22 @@
-An arrangement of hyperplanes is a finite set of hyperplanes in a (finite-dimensional) linear, affine or projective space. Usually one studies in fact the __complement of the union of the hyperplanes__, and its topological and other properties. This space is the basis of many interesting fiber bundles appearing in conformal field theory, study of [[hypergeometric function]]s (Aomoto, Gelfand, Varchenko), [[quantum group]]s etc.
 
-* wikipedia [arrangement of hyperplanes](http://en.wikipedia.org/wiki/Arrangement_of_hyperplanes)
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An arrangement of [[hyperplanes]] is a finite set of hyperplanes in a (finite-dimensional) linear, affine or projective space. Usually (such as for [[configuration spaces of points]]) one studies in fact the __[[complement]] of the union of the hyperplanes__, and its topological and other properties. This space is the basis of many interesting [[fiber bundles]] appearing in [[conformal field theory]], study of [[hypergeometric functions]] (Aomoto, Gelfand, Varchenko), [[quantum groups]] etc., for more on which see at 
+*[[Knizhnik-Zamolodchikov equation]]*.
+
+## References
+
+### General
+
+* Wikipedia [arrangement of hyperplanes](http://en.wikipedia.org/wiki/Arrangement_of_hyperplanes)
+
 * [[eom]]: [arrangement of hyperplanes](http://eom.springer.de/A/a110700.htm)
 * Peter Orlik, Hiroaki Terao, _Arrangements of Hyperplanes_, Grundlehren der Mathematischen Wissenschaften __300__, Springer 1992, MR1217488
-* A. Varchenko, _Hypergeometric functions and representation theory of Lie algebras and quantum groups_, Advanced Series in Mathematical Physics __21__, World Scientific (1995)
+
 * [[I. M. Gelfand]], M. M. [[Kapranov]], [[A. Zelevinsky]], _Discriminants, resultants and multidimensional determinants_, Birkh&#228;user 1994, 523 pp.
 * Corrado De Concini, Claudio Procesi, _Topics in hyperplane arrangements, polytopes and box-splines_, Universitext 223, Springer 2010.
 
@@ -14,6 +27,14 @@ Stanley's survey focuses instead more on combinatorics of the intersection poset
 * Richard Randell, _Morse theory, Milnor fibers and minimality of hyperplane arrangements_, [math.AG/0011101](http://arxiv.org/abs/math/0011101)
 
 * [[Daniel C. Cohen]], Michael Falk, Richard Randell, _Discriminantal bundles, arrangement groups, and subdirect products of free groups_, [arxiv/1008.0417](http://arxiv.org/abs/1008.0417)
+
+
+### Relating to configuration spaces of points
+
+See the references on *[Braid representatioons via twisted de Rham cohomology of configuration spaces](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces)*
+
+
+
 
 [[!redirects arrangements of hyperplanes]]
 [[!redirects hyperplane arrangement]]
