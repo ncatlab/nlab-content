@@ -24,22 +24,28 @@ A _density_ on a [[manifold]] of [[dimension]] $n$ is a [[function]] that to eac
 
 ## Definition
 
-For $X$ a [[manifold]] its **density bundle** is the  real [[line bundle]] [[associated bundle|associated]] to the [[principal bundle]] underlying the [[tangent bundle]] by the 1-dimensional [[representation]] of the [[general linear group]] given by the [[determinant]] [[homomorphism]] ([[sign representation]]):
+For $X$ a [[manifold]] its **1-density bundle** is the  real [[line bundle]] [[associated bundle|associated]] to the [[principal bundle]] underlying the [[tangent bundle]] by the 1-dimensional [[representation]] of the [[general linear group]]
 
 $$
-  det \;\colon\; GL(n) \to GL(1) \simeq Aut_{Vect}(\mathbb{R}^1)
-  \,.
+  \array{
+  GL(n) &\to& GL(1) \simeq Aut_{Vect}(\mathbb{R}^1)
+  \\
+  A &\mapsto& |det(A)|^{-1}.
+  }
 $$
 
-A [[section]] of the density bundle on $X$ is called a _density on $X$_ (in [[physics]] also: a [[pseudoscalar]]). 
+A [[section]] of the $1$-density bundle on $X$ is called a _$1$-density on $X$_. 
 
 This is the general object against which one has [[integration]] of functions on $X$.
 
-More generally, for $s \in \mathbb{R} - \{0\}$ an **$s$-density** is a section of the [[line bundle]] which is [[associated bundle|associated]] via the [[determinant]] to the power of $s$:
+More generally, for $s \in \mathbb{R} - \{0\}$ an **$s$-density** is a section of the [[line bundle]] which is [[associated bundle|associated]] to the principal bundle by the representation
 
 $$
-  det^{s} \;\colon \; GL(n) \to GL(1) \simeq Aut_{Vect}(\mathbb{R}^1)
-  \,.
+  \array{
+  GL(n) &\to& GL(1) \simeq Aut_{Vect}(\mathbb{R}^1)
+  \\
+  A &\mapsto& |\det(A)|^{-s}.
+  }
 $$
 
 The parameter $s$ is called the __weight__ of the density.  In particular for $s = 1/2$ one speaks of **half-densities**.
