@@ -90,7 +90,7 @@ where the top square is defined to be the [[pullback]], as indicated.
 ### Adjunction
  {#UniversalCharacterization}
 
-The functor $Rep$ is a [[right adjoint]]; its left adjoint constructs the free monoidal category on a multicategory, which is also known as the [[prop]] associated to the multicategory.  See ([Hermida, theorem 7.3](#Hermida)) for a precise statement in the context of [[non-symmetric operads]] and strict monoidal categories.  In the case of semicartesian multicategories, this free monoidal category is the [[category of operators]] associated to the multicategory.
+The functor $Rep$ is a [[right adjoint]]; its left adjoint constructs the free monoidal category on a multicategory, which is also known as the [[prop]] associated to the multicategory.  See ([Hermida, theorem 7.2](#Hermida)) for a precise statement in the context of [[non-symmetric operads]] and strict monoidal categories.  In the case of semicartesian multicategories, this free monoidal category is the [[category of operators]] associated to the multicategory.
 
 
 ## Related concepts
@@ -112,7 +112,7 @@ The notion of _representable multicategory_ is due to
 * [[Claudio Hermida]], _Representable multicategories_, Adv. Math. 151 (2000), no. 2, 164-225 ([pdf](http://wslc.math.ist.utl.pt/s84.www/cs/claudio/articles/rep-mult.pdf))
   {#Hermida}
 
-Discussion of the [[2-adjunction]] with the left adjoint [[prop]]-construction is around theorem 7.3 there. Characterization of representable multicategories by [[fibrations of multicategories]] is in
+Discussion of the [[2-adjunction]] with the left adjoint [[prop]]-construction is around theorem 7.2 there. Characterization of representable multicategories by [[fibrations of multicategories]] is in
 
 * [[Claudio Hermida]], _Fibrations for abstract multicategories_, Field Institute Communications, Volume 43 (2004) ([pdf](http://sqig.math.ist.utl.pt/pub/HermidaC/fib-mul.pdf)) 
 
