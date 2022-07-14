@@ -164,6 +164,13 @@ $$
 
 ## References
 
+For a mathematical description of physical units and the associated “physical dimensions”,
+including a discussion on how [[densities]] can be used to define real and complex powers of physical quantities, see
+
+* [[Dmitri Pavlov]], Answer to Question 402515 on [[MathOverflow]] (How do we give mathematical meaning to 'physical dimensions'?), <https://mathoverflow.net/questions/402497/how-do-we-give-mathematical-meaning-to-physical-dimensions/402515#402515>.
+
+Additional references:
+
 * [[Robert Loren Jaffe]], *Natural Units and the Scales of Fundamental Physics*, Course Notes 2007 ([pdf](https://stuff.mit.edu/afs/athena/course/8/8.06/spring08/handouts/units.pdf), [[Jaffe_NaturalUnits.pdf:file]])
 
 Discussion in the context of [[philosophy of science]] includes
