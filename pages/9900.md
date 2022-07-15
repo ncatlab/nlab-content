@@ -32,6 +32,11 @@ On the argument that after embedding into consistent [[quantum gravity]], all [[
 
 * [[Daniel Harlow]], [[Hirosi Ooguri]], _Constraints on symmetry from holography_, Phys. Rev. Lett. 122, 191601 (2019) ([arXiv:1810.05337](https://arxiv.org/abs/1810.05337))
 
+On [[quantum error correcting codes]] and [[black hole entropy]]:
+
+* [[Chris Akers]], [[Netta Engelhardt]], [[Daniel Harlow]], [[Geoff Penington]], [[Shreya Vardhan]], *The black hole interior from non-isometric codes and complexity* &lbrack;[arXiv:2207.06536](https://arxiv.org/abs/2207.06536)&rbrack;
+
+
 
 
 
