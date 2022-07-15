@@ -73,7 +73,7 @@ Using this fact we can transport the notion of $n$-truncation to any [[(∞,1)-c
 **($n$-truncated object in an $(\infty,1)$-category)**
 
 Given an [[(∞,1)-category]] $\mathcal{C}$,
-an [[object]] $A \in \mathcal{C}$ is called **$n$-truncated**, for $n \in \mathbb{N}$, if for all objects $X \in \mathcal{C}$ the [[hom-∞-groupoid]] $C\mathca;{C}(X,A)$ is $n$-truncated according to Def. \ref{nTruncatedInfinityGroupoid}.
+an [[object]] $A \in \mathcal{C}$ is called **$n$-truncated**, for $n \in \mathbb{N}$, if for all objects $X \in \mathcal{C}$ the [[hom-∞-groupoid]] $C\mathcal{C}(X,A)$ is $n$-truncated according to Def. \ref{nTruncatedInfinityGroupoid}.
 
 =--
 
