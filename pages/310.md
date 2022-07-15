@@ -106,6 +106,10 @@ The following hold for any $a, b, c$ in any Heyting algebra:
   1. Composition law:
      $(a \Rightarrow b) \wedge (b \Rightarrow c) \leq a \Rightarrow c$.
 
+  1. Currying:
+     $a \wedge b \Rightarrow c =
+      a \Rightarrow (b \Rightarrow c)$.
+
   1. $a \Rightarrow {-}$ is monotone:
      $a \Rightarrow b \leq a \Rightarrow c$ if $b \leq c$.
 
@@ -164,6 +168,130 @@ Most of these facts can be packaged up more abstractly like so:
 \end{proof}
 
 
+### Negation
+
+In any Heyting algebra $H$, we may define a [[negation]] operator:
+
+\begin{definition}\label{Negation}
+The **negation** operator
+$\neg\colon H^{op} \to H$
+is $\neg x = (x \Rightarrow 0)$, where $0$ is the bottom element of
+the lattice.
+\end{definition}
+
+\begin{corollary}\label{DoubleNegationMonad}
+$\neg\neg\colon H \to H$ is a [[monad]].
+\end{corollary}
+\begin{proof}
+Immediate from \ref{Monads}.
+\end{proof}
+
+We collect some further frequently-useful facts:
+
+\begin{proposition}\label{NegationFacts}
+  In any Heyting algebra $H$, we have the following for all $x, y \in H$:
+
+  1. Negation is antimonotone:
+     $\neg y \leq \neg x$ if $x \leq y$.
+
+  1. Currying:
+     $\neg (x \wedge y) = (x \Rightarrow \neg y)$.
+
+  1. Triple negation is just negation:
+     $\neg \neg \neg x = \neg x$.
+
+  1. Proof by contradiction:
+     $x \leq \neg y$ just if $x \wedge y \leq 0$.
+
+  1. [[De Morgan's law]] for negation over disjunction:
+     $\neg (x \vee y) = \neg x \wedge \neg y$.
+
+  1. One-way De Morgan's law for negation over conjunction:
+     $\neg x \vee \neg y \leq \neg (x \wedge y)$.
+
+  1. $x \wedge \neg x = 0$
+
+  1. $\neg \neg (x \vee \neg x) = 1$
+     (equivalently, $\neg (x \vee \neg x) = 0$)
+
+  1. $\neg x \vee y \leq x \Rightarrow y$
+
+  1. \[ \label{NegIfEq}
+     \neg (x \Rightarrow y) = \neg\neg x \wedge \neg y
+     \]
+
+\end{proposition}
+\begin{proof}
+  Each of these is a short [[exercise]] using the universal property
+  \eqref{UniversalProperty}, Proposition \ref{BasicProperties},
+  and the preceding properties in the list.
+\end{proof}
+
+
+### Double negation
+
+The double-negation map $\neg\neg \colon H \to H$ on a Heyting algebra
+$H$ is often relevant, particularly in the relationship
+[with Boolean algebras](#ToBooleanAlgebras).  We saw in
+\ref{DoubleNegationMonad} that $\neg\neg$ is a [[monad]].
+Further:
+
+\begin{lem}\label{lem:NegnegMeets}
+[[double negation|Double negation]] $\neg \neg\colon L \to L$ [[preserved limit|preserves]] [[finite limit|finite]] [[meets]].
+\end{lem}
+
+\begin{proof}
+Nullary meets are trivial: $\neg \neg 1 = \neg 0 = 1$.
+For binary meets, the direction
+$\neg \neg (x \wedge y) \leq (\neg \neg x) \wedge (\neg \neg y)$
+holds simply because $\neg \neg$ is monotone.
+
+In the other direction, we show
+$
+(\neg \neg x) \wedge (\neg \neg y) \leq \neg \neg (x \wedge y)
+$
+by currying (per \ref{NegationFacts}) $\neg (x \wedge y)$ to calculate:
+$$
+\begin{aligned}
+  (\neg \neg x) \wedge (\neg \neg y) \wedge \neg (x \wedge y)
+  & =
+  (\neg \neg x) \wedge (\neg y \Rightarrow 0) \wedge (x \Rightarrow \neg y)
+  \\
+  & \leq
+  (\neg \neg x) \wedge (x \Rightarrow 0)
+  \\
+  & =
+  (\neg x \Rightarrow 0) \wedge \neg x
+  \\
+  & \leq
+  0
+\end{aligned}
+$$
+where the two inequalities follow from composition
+(Proposition \ref{BasicProperties}) and modus ponens \eqref{ModusPonens}.
+\end{proof}
+
+The following Lemma \ref{lem:NegnegImplication} is important for the [[double negation translation]].
+
+\begin{lem}\label{lem:NegnegImplication}
+[[double negation|Double negation]] $\neg \neg\colon L \to L$ preserves [[implication]]:
+$ \neg\neg( a \Rightarrow b ) =
+  (\neg\neg a \Rightarrow \neg\neg b) $.
+\end{lem}
+\begin{proof}
+Applying \eqref{NegIfEq} and currying (by \ref{NegationFacts}), we have
+$$
+ \neg\neg (a \Rightarrow b) =
+ \neg ((\neg\neg a) \wedge (\neg b)) =
+ (\neg\neg a \Rightarrow (\neg b \Rightarrow 0)) =
+ (\neg \neg a \Rightarrow \neg \neg b)
+ \; .
+$$
+\end{proof}
+
+
+
+
 ## Relation to other concepts
 
 ### To logic
@@ -193,27 +321,22 @@ Topologies that are [[Boolean algebras]] are the exception rather than the rule;
 ### To Boolean algebras 
  {#ToBooleanAlgebras}
 
-In any Heyting algebra $L$, we may define a [[negation]] operator 
-
-$$\neg\colon L^{op} \to L$$ 
-
-by $\neg x = (x \Rightarrow 0)$, where $0$ is the bottom element of the lattice. A Heyting algebra is [[Boolean algebra|Boolean]] if the [[double negation]] 
-$$\neg \neg\colon L \to L$$ 
+A Heyting algebra is [[Boolean algebra|Boolean]] if the [[double negation]]
+$\neg \neg\colon L \to L$
+(with negation as defined at \ref{Negation})
 coincides with the identity map; this gives one of many ways of defining a Boolean algebra. 
 
 In any Heyting algebra $L$, we have for all $a, b \in L$ the inequality 
 $$ (\neg a \vee b) \leq (a \Rightarrow b) ,$$ 
 and another characterization of Boolean algebra is a Heyting algebra in which this is an equality for all $a, b$. 
 
-There are several ways of passing back and forth between Boolean algebras and Heyting algebras, having to do with the [[double negation]] operator.  By Proposition \ref{Monads}, double negation $\neg \neg\colon L \to L$ is a [[monad]].  A useful further lemma in this regard is 
+There are several ways of passing back and forth between Boolean algebras and Heyting algebras, having to do with the [[double negation]] operator.
+By \ref{DoubleNegationMonad}, double negation $\neg \neg\colon L \to L$ is a [[monad]].
+Further, by \ref{lem:NegnegMeets}, it [[preserved limit|preserves]] [[finite limit|finite]] [[meets]].
 
-\begin{lem}\label{lem:NegnegMeets}
-[[double negation|Double negation]] $\neg \neg\colon L \to L$ [[preserved limit|preserves]] [[finite limit|finite]] [[meets]]. 
-\end{lem}
+The proof of Lemma \ref{lem:NegnegMeets} can be made purely equational, and is therefore internally valid in any category with products. Applied to the internal Heyting algebra $L = \Omega$ of a [[topos]], that is the [[subobject classifier]], this lemma says exactly that the double negation operator $\neg \neg\colon \Omega \to \Omega$ defines a [[Lawvere–Tierney topology]]. Similarly, we get the [[double negation sublocale]] of any [[locale]].
 
-The proof can be made purely equational, and is therefore internally valid in any category with products. Applied to the internal Heyting algebra $L = \Omega$ of a [[topos]], that is the [[subobject classifier]], this lemma says exactly that the double negation operator $\neg \neg\colon \Omega \to \Omega$ defines a [[Lawvere–Tierney topology]]. Similarly, we get the [[double negation sublocale]] of any [[locale]].
-
-Now let $L_{\neg\neg}$ denote the poset of _[[regular element]]s_ of $L$, that is, those elements $x$ such that $\neg\neg x = x$. (When $L$ is the topology of a space, an open set $U$ is [[regular open subspace|regular]] if and only if it is the interior of its closure, that is if it is a regular element of the Heyting algebra of open sets described above.) With the help of the lemma above, we may prove
+Now let $L_{\neg\neg}$ denote the poset of _[[regular element]]s_ of $L$, that is, those elements $x$ such that $\neg\neg x = x$. (When $L$ is the topology of a space, an open set $U$ is [[regular open subspace|regular]] if and only if it is the interior of its closure, that is if it is a regular element of the Heyting algebra of open sets described above.) With the help of Lemma \ref{lem:NegnegMeets}, we may prove
 
 \begin{thm}\label{thm:NegnegAdjoint}
 The poset $L_{\neg\neg}$ is a Boolean algebra. Moreover, the assignment $L \mapsto L_{\neg\neg}$ is the object part of a functor 
@@ -237,48 +360,11 @@ The assignment $H \mapsto Comp(H)$ is the object part of a right adjoint to the 
 #### Proofs
 {#proofs}
 
-We prove the lemma and theorems of the preceding section.
-
-\begin{proof}
-(Proof of Lemma \ref{lem:NegnegMeets}.)
-We show that $\neg \neg\colon L \rightarrow L$ preserves finite meets.  Nullary meets are trivial: $\neg \neg 1 = \neg 0 = 1$.
-
-For binary meets, the direction
-$\neg \neg (x \wedge y) \leq (\neg \neg x) \wedge (\neg \neg y)$
-holds simply because $\neg \neg$ is monotone.
-
-In the other direction, we show
-$
-(\neg \neg x) \wedge (\neg \neg y) \leq \neg \neg (x \wedge y)
-$
-by observing that
-$
-\neg (x \wedge y) = (x \Rightarrow \neg y)
-$
-and then calculating:
-$$
-\begin{aligned}
-  (\neg \neg x) \wedge (\neg \neg y) \wedge \neg (x \wedge y)
-  & =
-  (\neg \neg x) \wedge (\neg y \Rightarrow 0) \wedge (x \Rightarrow \neg y)
-  \\
-  & \leq
-  (\neg \neg x) \wedge (x \Rightarrow 0)
-  \\
-  & =
-  (\neg x \Rightarrow 0) \wedge \neg x
-  \\
-  & \leq
-  0
-\end{aligned}
-$$
-where the two inequalities follow from composition
-(Proposition \ref{BasicProperties}) and modus ponens \eqref{ModusPonens}.
-\end{proof}
+We prove the theorems of the preceding section.
 
 \begin{proof}
 (Proof of Theorem \ref{thm:NegnegAdjoint}.)
-Since $\neg \neg$ is a monad, and $L_{\neg \neg}$ is the corresponding category (poset) of $\neg \neg$-algebras, the left adjoint $\neg \neg \colon L \to L_{\neg \neg}$ preserves joins; and by the preceding lemma, it preserves finite meets. Thus $L \to L_{\neg\neg}$ is a surjective lattice map, and it follows that $L_{\neg\neg}$ is distributive because (by Proposition \ref{prop:distributive}) $L$ is. 
+Since $\neg \neg$ is a monad, and $L_{\neg \neg}$ is the corresponding category (poset) of $\neg \neg$-algebras, the left adjoint $\neg \neg \colon L \to L_{\neg \neg}$ preserves joins; and by Lemma \ref{lem:NegnegMeets}, it preserves finite meets. Thus $L \to L_{\neg\neg}$ is a surjective lattice map, and it follows that $L_{\neg\neg}$ is distributive because (by Proposition \ref{prop:distributive}) $L$ is.
 
 For any $x \in L$, we have $x \leq \neg \neg x$ because $\neg \neg$ is a monad, hence $\neg \neg \neg x \leq \neg x$ because $\neg$ is antimonotone, so $\neg x$ is fixed by $\neg \neg$ and is in $L_{\neg \neg}$.
 
@@ -294,7 +380,7 @@ x \wedge_{\neg\neg} \neg x
 $$
 so that $\neg x$ is the complement of $x \in L_{\neg \neg}$. We have thus shown that $L_{\neg\neg}$ is a complemented distributive lattice, i.e., a Boolean algebra. This calculation also shows that $\neg\neg \colon L \to L_{\neg\neg}$ preserves negation. 
 
-To show $L \to L_{\neg\neg}$ preserves implication, we may start from the observation (see the following lemma) that in any Heyting algebra $L$, we have 
+To show $L \to L_{\neg\neg}$ preserves implication, we may start from the observation (in Proposition \ref{NegationFacts}) that in any Heyting algebra $L$, we have 
 
 $$\neg(a \Rightarrow b) = (\neg \neg a) \wedge (\neg b).$$ 
 
@@ -312,34 +398,6 @@ where the last expression is $(\neg \neg a) \Rightarrow (\neg \neg b)$ as comput
 
 Therefore $L \to L_{\neg\neg}$ is a Heyting algebra quotient which is the coequalizer of $1, \neg\neg \colon L \stackrel{\to}{\to} L$. It follows that a Heyting algebra map $L \to B$ to any Boolean algebra $B$ factors uniquely through this coequalizer, and the induced map $L_{\neg \neg} \to B$ is a Boolean algebra map. In other words, $L \to L_{\neg\neg}$ is the universal Heyting algebra map to a Boolean algebra, which establishes the adjunction. 
 \end{proof}
-
-\begin{lemma}
-\label{DoubleNegInHeytingAlg}
-In a Heyting algebra, $\neg(a \Rightarrow b) = (\neg \neg a) \wedge (\neg b)$. 
-\end{lemma}
-
-\begin{proof}
-Since $\neg$ is contravariant and $a \Rightarrow -$ is covariant, we have 
-
-$$\neg(a \Rightarrow b) \leq \neg(a \Rightarrow 0) = (\neg \neg a).$$  
-
-Since $- \Rightarrow b$ is contravariant, we have 
-
-$$\neg(a \Rightarrow b) \leq \neg(1 \Rightarrow b) = (\neg b).$$ 
-
-We conclude that $\neg(a \Rightarrow b) \leq (\neg \neg a) \wedge (\neg b).$ On the other hand, we have 
-
-$$(\neg \neg a) \wedge (\neg b) \wedge (a \Rightarrow b) \leq (\neg \neg a) \wedge (\neg a) \leq 0$$ 
-
-whence $(\neg \neg a) \wedge (\neg b) \leq \neg (a \Rightarrow b)$, which completes the proof. 
-\end{proof}
-
-\begin{remark}
-It follows from Lemma \ref{DoubleNegInHeytingAlg} that [[double negation]] on a Heyting algebra $\neg \neg \colon L \to L$ preserves [[implication]], since 
-$$\neg \neg(a \Rightarrow b) = \neg ((\neg \neg a) \wedge (\neg b)) = 0^{(\neg \neg a) \wedge (\neg b)} = (\neg \neg b)^{(\neg \neg a)} = (\neg \neg a) \Rightarrow (\neg \neg b).$$ 
-This is important for the [[double negation translation]]. 
-
-\end{remark}
 
 \begin{proof}
 (Proof of Theorem \ref{thm:CompAdjoint}.)
