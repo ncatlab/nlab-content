@@ -13,19 +13,29 @@
 [Palombi and Sterling](#PalombiSterling22) provide the following simple axiomatization of a model of (single-clock) synthetic guarded domain theory:
 
 1. An [[elementary topos]] $E$ with [[natural numbers object]].
-2. with a [[left exact]] endofunctor $\triangleright$ 
-3. with a [[natural transformation]] $\text{next} : 1 \to \triangleright$ satisfying $\triangleright\text{next} = \text{next}\triangleright$
-4. supporting [[Löb's theorem|Löb-induction]], i.e., $\phi:\Omega|\triangleright \phi \Rightarrow \phi \vdash \phi$ in the internal logic of $E$.
 
-Then "multi-clock" SGDT is simply a topos $E$ with an object of clocks $K : E$ such that the slice $E/K$ is a model of single-clock SGDT.
+2. with a [[left exact]] [[endofunctor]] $\triangleright$ 
+
+3. with a [[natural transformation]] $\text{next} 
+\;\colon\; 1 \to \triangleright$ satisfying $\triangleright\text{next} = \text{next}\triangleright$
+
+4. supporting [[Löb's theorem|Löb-induction]], i.e., $\phi : \Omega|\triangleright \phi \Rightarrow \phi \vdash \phi$ in the [[internal logic]] of $E$.
+
+Then "multi-clock" SGDT is simply a topos $E$ with an object of clocks $K \colon E$ such that the [[slice topos|slice]] $E/K$ is a [[model]] of single-clock SGDT.
 
 ## Type Theory
 
-Mathematics in synthetic guarded domain theory can be formalized in the [[internal language]] of SGDT models. Several presentations have been proposed such as guarded dependent type theory ([BGCMB2016](#BGCMB2016)) which is an [[extensional type theory]] and clocked cubical type theory ([KMV2022](#KMV2022)) an [[intensional type theory]] extending [[cubical type theory]]. Agda includes an implementation of some portions of clocked cubical type theory under the name [Guarded Cubical Agda](#guardedcubical).
+Mathematics in synthetic guarded domain theory can be formalized in the [[internal language]] of SGDT models. Several presentations have been proposed such as:
+
+* *guarded dependent type theory* ([BGCMB2016](#BGCMB2016)) which is an [[extensional type theory]] 
+
+* *clocked cubical type theory* ([KMV2022](#KMV2022)), an [[intensional type theory]] extending [[cubical type theory]]. 
+
+[[Agda]] includes an implementation of some portions of clocked cubical type theory under the name *[Guarded Cubical Agda](#guardedcubical)*.
 
 ## Models
 
-The most basic model of SGDT is given by the [[topos of trees]], the topos given by the category of [[presheaves]] on $\omega$, the first infinite [[ordinal]].
+The most basic model of SGDT is given by the [[topos of trees]], the [[category of presheaves]] on $\omega$, the first infinite [[ordinal]].
 
 
 ## Related pages
