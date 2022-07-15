@@ -320,7 +320,7 @@ References: [Pink, &#167;25](#Pink), [Demazure, III.4](#Demazure)
 
 ## Properties of the Witt group
 
-The group of universal (i.e. not $p$-adic) Witt vectors equals $W(k)= 1+k [ [ X] ]$ i.e. the multiplicative group of power series in one variable $X$ with constant term $1$.
+The group of universal (i.e. not $p$-adic) Witt vectors equals $W(k)= 1+X k [ [ X] ]$ i.e. the multiplicative group of power series in one variable $X$ with constant term $1$.
 
 ## Properties of the Witt ring
 
