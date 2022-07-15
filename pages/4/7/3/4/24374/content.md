@@ -5,7 +5,7 @@
 
 ## Idea
 
-**Synthetic guarded domain theory**, is a field of [[synthetic mathematics]] that provides an alternative to [[synthetic domain theory]], where all [[guarded recursion|guarded recursive]] definitions have [[fixed points]]. It provides a simple setting in which to carry out constructions using the technique of *step-indexing* in programming language semantics.
+**Synthetic guarded domain theory**, is a field of [[synthetic mathematics]] that provides an alternative to [[synthetic domain theory]], where all [[guarded recursion|guarded recursive]] definitions have [[fixed points]]. It provides a simple setting in which to carry out constructions using the technique of *step-indexing* in programming language semantics. In the same way that [[synthetic domain theory]] is inspired by classical [[domain theory]] based on [[cpos]] and continuous maps, synthetic guarded domain theory is inspired by metric (or guarded) domain theory based on various kinds of [[metric space]] and nonexpansive maps.
 
 ## Axiomatics
 
@@ -35,7 +35,7 @@ Mathematics in synthetic guarded domain theory can be formalized in the [[intern
 
 ## Models
 
-The most basic model of SGDT is given by the [[topos of trees]], the [[category of presheaves]] on $\omega$, the first infinite [[ordinal]].
+The most basic model of SGDT is given by the [[topos of trees]], the [[category of presheaves]] on $\omega$, the first infinite [[ordinal]]. The [[topos of trees]] establishes the relationship between synthetic guarded domain theory and metric domain theory: the category of complete bounded ultrametric spaces embeds into the topos of trees as the full subcategory spanned by [[flabby sheaf | flabby sheaves]].
 
 
 ## Related pages
@@ -56,3 +56,5 @@ The most basic model of SGDT is given by the [[topos of trees]], the [[category 
 * Marco Paviotti, _Denotational semantics in Synthetic Guarded Domain Theory_. PhD thesis, IT University of Copenhagen ([pdf](https://mpaviotti.github.io/assets/papers/paviotti-phdthesis.pdf))
 
 * {#guardedcubical} [Guarded Cubical Agda ](https://agda.readthedocs.io/en/latest/language/guarded-cubical.html)
+
+* [[Jonathan Sterling]], [Bibliography of Guarded Domain Theory](https://www.jonmsterling.com/gdt-bibliography.html)
