@@ -31,6 +31,8 @@ Among the nice aspects of the book are
 
 Related books:
 
+* [[Mikio Nakahara]], _[[Geometry, Topology and Physics]]_, Graduate Student Series in Physics (2003).
+
 * [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_
 
   (more advanced [[algebraic topology]])
