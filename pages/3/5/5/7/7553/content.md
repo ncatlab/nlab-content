@@ -33,13 +33,16 @@ Despite this equivalence, the map of the formal field content of teleparallel gr
 
 ## References
 
-Survey of basic ideas and issues are for instance
+Review and survey:
 
 * J. Pereira, _Torsion and the description of the gravitational interaction_ ([pdf slides](http://www.phys.sinica.edu.tw/~heptheory/files/pereira.pdf))
 
 * R. Aldrovandi, J. G. Pereira, K. H. Vu, _Gravitation without the equivalence principle_ ([arXiv:gr-qc/0304106](http://arxiv.org/abs/gr-qc/0304106))
 
-More discussion is in 
+* Manuel Hohmann, *Teleparallel gravity*, in *Signatures and experimental searches for modified and quantum gravity* &lbrack;[arXiv:2207.06438](https://arxiv.org/abs/2207.06438)&rbrack;
+
+
+Further discussion:
 
 * R. Aldrovandi, J. G. Pereira, and K. H. Vu, _Selected topics in teleparallel gravity_ Brazilian Journal of Physics, vol. 34, no. 4A, (2004) ([pdf](http://www.sbfisica.org.br/bjp/files/v34_1374.pdf))
 
