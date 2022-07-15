@@ -102,7 +102,7 @@ $Mod(X_1)$ and $Mod(X_2)$.
 
 Textbook accounts:
 
-* [[Werner Greub]], p. 84 of: *[[Connections, Curvature, and Cohomology]]* Volume 1: _De Rham Cohomology of Manifolds and Vector Bundles_, Academic Press (1973) &lbrack;[ISBN:978-0-12-302701-6](https://www.elsevier.com/books/connections-curvature-and-cohomology-v1/greub/978-0-12-302701-6)&rbrack;
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], p. 84 of: *[[Connections, Curvature, and Cohomology]]* Volume 1: _De Rham Cohomology of Manifolds and Vector Bundles_, Academic Press (1973) &lbrack;[ISBN:978-0-12-302701-6](https://www.elsevier.com/books/connections-curvature-and-cohomology-v1/greub/978-0-12-302701-6)&rbrack;
 
 For general abstract literature dealing with the external tensor products see the references at _[[indexed monoidal category]]_ and at _[[dependent linear type theory]]_.
 
