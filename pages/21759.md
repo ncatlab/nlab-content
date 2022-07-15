@@ -6,7 +6,9 @@ This page collects material related to the textbook
 
   _**Geometry, Topology and Physics**_, 
 
-  IOP 2003 
+  First Edition: Institute of Physics Publishing, 1990.  ISBN 0-85274-094-8 (hardcover), 0-85274-095-6 (paperback)
+
+  Second Edition: Institute of Physics Publishing, 2003.  ISBN: 9780750306065 (paperback), 9781138413368 (hardcover)
 
   [doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), 
 
