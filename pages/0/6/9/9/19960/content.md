@@ -627,9 +627,11 @@ With emphasis on application to the [QCD phase diagram](QCD#PhaseDiagram) and to
 
 
 
-See also
+See also:
 
 * Wikipedia, _[AdS/QCD correspondence](https://en.wikipedia.org/wiki/AdS/QCD_correspondence)_ 
+
+Emphasis of the AdS-QCD correspondence at annual String-conferences:
 
 * {#Klebanov21} [[Igor Klebanov]], *Remarks on Color Confinement*, talk at [Strings 2021](https://www.ictp-saifr.org/strings2021/) ([pdf](https://www.ictp-saifr.org/wp-content/uploads/2021/06/DiscussionConfinementKlebanov.pdf), [video](https://youtu.be/B9NI2LE7d68?t=262))
 
