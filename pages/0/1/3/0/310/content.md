@@ -28,7 +28,9 @@ $$\Rightarrow: L^{op} \times L \to L$$
 
 satisfying the condition (really a [[universal property]])
 
-$$(x \wedge a) \leq b \qquad if\;and\;only\;if \qquad x \leq (a \Rightarrow b)$$ 
+\[ \label{UniversalProperty}
+(x \wedge a) \leq b \qquad \text{if and only if} \qquad x \leq (a \Rightarrow b)
+\]
 
 \end{definition}
 
@@ -68,10 +70,10 @@ That is, finite meets distribute over finite joins and vice versa.
 \end{prop}
 
 \begin{proof}
-As discussed at [[distributive lattice]], it suffices to prove the nontrivial direction of either of the two (dual) binary distributivity laws.  We prove that for any $x, y, z$ in a Heyting algebra $L$:
+As discussed at [[distributive lattice]], it suffices to prove the nontrivial direction of either of the two (dual) binary distributivity laws.  We prove that for any $x, y, z$ in a Heyting algebra $H$:
 $$ x \wedge (y \vee z) \leq (x \wedge y) \vee (x \wedge z) $$
 
-By the [[universal property]] of $\Rightarrow$, this is equivalent to:
+By the universal property \eqref{UniversalProperty}, this is equivalent to:
 $$ y \vee z \leq
    x \Rightarrow \big( (x \wedge y) \vee (x \wedge z) \big) $$
 But then by the universal property of $\vee$, this follows from the two inequalities
@@ -85,7 +87,7 @@ $$
     \,.
   \end{aligned}
 $$
-These in turn each follow from applying the universal property of $\Rightarrow$ in the opposite direction.
+These in turn each follow from applying \eqref{UniversalProperty} in the opposite direction.
 \end{proof}
 
 
@@ -106,7 +108,7 @@ where $U, V$ are open sets, $U^c$ is the set-theoretic complement of $U$, and $i
 
 Somewhat more generally, a [[frame]] (a [[sup-lattice]] in which finite meets distribute over arbitrary sups) also carries a Heyting algebra structure. In a frame, we may define 
 $$(u \Rightarrow v) = \bigvee_{x \wedge u \leq v} x$$ 
-and the distributivity property guarantees that the universal property for implication holds. (The detailed proof is a "baby" application of an [[adjoint functor theorem]].) 
+and the distributivity property guarantees that the universal property \eqref{UniversalProperty} holds. (The detailed proof is a "baby" application of an [[adjoint functor theorem]].)
 
 Thus frames are extensionally the same thing as _[[complete lattice|complete]] Heyting algebras_. However, _intensionally_ they are quite different; that is, a morphism of frames is not usually a morphism of complete Heyting algebras: they do not preserve the implication operator. 
 
