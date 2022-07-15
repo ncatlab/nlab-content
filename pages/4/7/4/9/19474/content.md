@@ -1,9 +1,26 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ##Idea
 
-**Guarded recursion** is a form of recursion that ensures that solutions of self-referential descriptions exist. This is achieved by "guarding" the recursive occurrence of the object under consideration using a unary [[modality]] $\blacktriangleright$ and pronounced "later". 
+**Guarded recursion** is a form of [[recursion]] that ensures that solutions of self-referential descriptions exist. This is achieved by "guarding" the recursive occurrence of the object under consideration using a unary [[modality]] $\blacktriangleright$ and pronounced "later". 
 
-The later modality was first discovered by Nakano ([Nakano 2000](#Nakano00)) and used to  ensure *productivity* of coinductively defined programs. For example, for an object $A$, the type of *guarded streams* is the unique solution to the equation
+The *later modality* was first considered by Nakano ([Nakano 2000](#Nakano00)) and used to  ensure *productivity* of [[coinduction|coinductively]] defined [[programs]]. 
+
+For example, for an object $A$, the [[type]] of *guarded streams* is the unique solution to the equation
 \[
 \text{Str}_g A \cong A \times \blacktriangleright \text{Str}_g A
 \]
@@ -12,7 +29,12 @@ The intended meaning is that the head of the stream is available now while the t
 
 (There are other forms of guarded recursion which act through syntactic restriction.)
 
-##References
+
+## Related concepts
+
+* [[synthetic guarded domain theory]]
+
+## References
 
 * Robert Atkey, Conor McBride, _Productive Coprogramming with Guarded Recursion_, ([Productive Coprogramming with Guarded Recursion](https://bentnib.org/productive.pdf))
 
@@ -22,9 +44,9 @@ The intended meaning is that the head of the stream is available now while the t
 
 * {#Nakano00} Nakano Hiroshi, 2000, _A Modality for Recursion_. In Logic in Computer Science (LICS’00). ([pdf](https://pdfs.semanticscholar.org/a177/47f98e5b821f03ec8be858794f2f83a683b7.pdf))
 
-* Lars Birkedal, Ales Bizjak, Ranald Clouston, Hans Bugge Grathwohl, [[Bas Spitters]], Andrea Vezzosi, _Guarded cubical type theory_ [arxiv](https://arxiv.org/abs/1611.09263)
+* [[Lars Birkedal]], Ales Bizjak, Ranald Clouston, Hans Bugge Grathwohl, [[Bas Spitters]], Andrea Vezzosi, _Guarded cubical type theory_ [arxiv](https://arxiv.org/abs/1611.09263)
 
-* [[Jon Sterling]], Robert Harper, _Guarded Computational Type Theory_ [arxiv](https://arxiv.org/abs/1804.09098)
+* [[Jon Sterling]], [[Robert Harper]], _Guarded Computational Type Theory_ [arxiv](https://arxiv.org/abs/1804.09098)
 
 A general calculus for dependent modal type theories.
 
