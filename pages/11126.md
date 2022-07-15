@@ -100,11 +100,15 @@ $Mod(X_1)$ and $Mod(X_2)$.
 
 ## References
 
+Textbook accounts:
+
+* [[Werner Greub]], p. 84 of: *[[Connections, Curvature, and Cohomology]]* Volume 1: _De Rham Cohomology of Manifolds and Vector Bundles_, Academic Press (1973) &lbrack;[ISBN:978-0-12-302701-6](https://www.elsevier.com/books/connections-curvature-and-cohomology-v1/greub/978-0-12-302701-6)&rbrack;
+
 For general abstract literature dealing with the external tensor products see the references at _[[indexed monoidal category]]_ and at _[[dependent linear type theory]]_.
 
-For discussion in the context of categories of [[quasicoherent sheaves]]  in ([[derived algebraic geometry|derived]]) see for instance
+Discussion in the context of categories of [[quasicoherent sheaves]]  in ([[derived algebraic geometry|derived]]) algebraic geometry: 
 
-* {#BondalvdBerg03} [[Alexei Bondal]] and M. Van den Bergh, _Generators and representability of functors in commutative and noncommutative geometry_, Mosc. Math. J. 3 (2003), no. 1, 1&#8211;36, 258.
+* {#BondalvdBerg03} [[Alexei Bondal]], [[Michel Van den Bergh]], _Generators and representability of functors in commutative and noncommutative geometry_, Mosc. Math. J. **3** 1 (2003) 1-36 &lbrack;[arXiv:math/0204218](https://arxiv.org/abs/math/0204218)&rbrack;
 
 * {#BFN08} [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_, J. Amer. Math. Soc. 23 (2010), no. 4, 909-966 ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
 
