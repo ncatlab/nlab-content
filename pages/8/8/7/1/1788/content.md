@@ -1,4 +1,7 @@
 
+$\phi \colon \Omega \;\;|\; (\!\triangleright \phi) \Rightarrow \phi \;\;\;\;\;\vdash\;\;\;\;\; \phi$
+
+
 In any Heyting algebra $H$, we may define a [[negation]] operator:
 
 \begin{definition}\label{Negation}
