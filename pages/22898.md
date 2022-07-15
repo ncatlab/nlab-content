@@ -24,7 +24,7 @@ This page compiles links related to the book collection:
 
   Cambridge University Press
 
-  (in preparation)
+  ISBN: 9781009123297
 
 on [[stable homotopy theory]] and [[ring spectra]] ([[higher algebra]], [[brave new algebra]]).
 
@@ -39,25 +39,22 @@ On [[model categories of spectra]]:
 
 * [[Daniel Dugger]], _Stable categories and spectra via model categories_ ([pdf](https://pages.uoregon.edu/ddugger/models_chapter.pdf))
 
-On [[Bousfield localization of spectra]]:
-
-* [[Tyler Lawson]], *An introduction to Bousfield localization* ([arXiv:2002.03888](https://arxiv.org/abs/2002.03888))
-
-On [[ring spectra]]:
-
-* [[Birgit Richter]], _Commutative ring spectra_ ([arXiv:1710.02328](https://arxiv.org/abs/1710.02328), [pdf](https://www.math.uni-hamburg.de/home/richter/rev-commringspectra.pdf))
-
-On [[spectral algebraic geometry]]:
-
-* [[Charles Rezk]], *Spectral algebraic geometry* ([pdf](https://faculty.math.illinois.edu/~rezk/sag-chapter-web.pdf))
-
+* [[Clark Barwick]], _Stable homotopy theory via ∞-categories_.
 
 On [[operad]] and [[algebra over an operad]]:
 
 * [[Michael Mandell]], *Operads and Operadic Algebras in Homotopy Theory  ([arxiv.1912.13047](https://arxiv.org/abs/1912.13047))
 
+On [[ring spectra]]:
 
+* [[Birgit Richter]], _Commutative ring spectra_ ([arXiv:1710.02328](https://arxiv.org/abs/1710.02328), [pdf](https://www.math.uni-hamburg.de/home/richter/rev-commringspectra.pdf))
 
-(...)
+On [[Bousfield localization of spectra]]:
+
+* [[Tyler Lawson]], *An introduction to Bousfield localization* ([arXiv:2002.03888](https://arxiv.org/abs/2002.03888))
+
+On [[spectral algebraic geometry]]:
+
+* [[Charles Rezk]], *Spectral algebraic geometry* ([pdf](https://faculty.math.illinois.edu/~rezk/sag-chapter-web.pdf))
 
 category: reference
