@@ -1,68 +1,16 @@
 
-\[ \label{UniversalProperty}
-(x \wedge a) \leq b \qquad \text{if and only if} \qquad x \leq (a \Rightarrow b)
-\]
+In any Heyting algebra $H$, we may define a [[negation]] operator:
 
-The universal property \eqref{UniversalProperty} etc etc
+\begin{definition}\label{Negation}
+The **negation** operator
+$\neg\colon H^{op} \to H$
+is $\neg x = (x \Rightarrow 0)$, where $0$ is the bottom element of
+the lattice.
+\end{definition}
 
-\begin{proposition}
-  The following hold in any Heyting algebra:
+\begin{corollary}\label{DoubleNegationMonad}
+$\neg\neg\colon H \to H$ is a [[monad]].
+\end{corollary}
 
 
-  1. $({-} \Rightarrow a) \Rightarrow a$ is increasing and idempotent:
-     $b \leq ({-} \Rightarrow a) \Rightarrow a
-        = ((({-} \Rightarrow a) \Rightarrow a) \Rightarrow a) \Rightarrow a
-     $.
-
-  1. $({-} \Rightarrow a) \Rightarrow a$ is increasing and idempotent:
-     $$
-     b \leq (b \Rightarrow a) \Rightarrow a
-        = (((b \Rightarrow a) \Rightarrow a) \Rightarrow a) \Rightarrow a
-      \; .
-     $$
-
-  1. $({-} \Rightarrow a) \Rightarrow a$ is increasing:
-     $
-     b \leq
-     (b \Rightarrow a) \Rightarrow a
-     $.
-
-  1. $({-} \Rightarrow a) \Rightarrow a$ is increasing:
-     $
-     b =
-     (b \Rightarrow a) \Rightarrow a
-     $.
-
-  1. $({-} \Rightarrow a) \Rightarrow a$ is idempotent:
-     $
-     (b \Rightarrow a) \Rightarrow a =
-     (((b \Rightarrow a) \Rightarrow a) \Rightarrow a) \Rightarrow a
-     $ .
-
-  1. $({-} \Rightarrow a) \Rightarrow a$ is increasing and idempotent:
-     $$
-     b \, \leq \,
-     (b \Rightarrow a) \Rightarrow a
-     \, = \,
-     (((b \Rightarrow a) \Rightarrow a) \Rightarrow a) \Rightarrow a
-      \; .
-     $$
-
-  1. $({-} \Rightarrow a) \Rightarrow a$ is increasing and idempotent:
-     $$
-     \begin{aligned}
-     b &\leq
-       (b \Rightarrow a) \Rightarrow a
-     \\
-       &=
-       (((b \Rightarrow a) \Rightarrow a) \Rightarrow a) \Rightarrow a
-      \; .
-     \end{aligned}
-     $$
-
-\end{proposition}
-\begin{proof}
-  Exercise.
-\end{proof}
-
-Blah blah use modus ponens (\ref{ModusPonens}) to see etc.
+[[exercise|Exercise]].
