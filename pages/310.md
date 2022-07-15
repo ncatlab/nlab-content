@@ -90,6 +90,79 @@ $$
 These in turn each follow from applying \eqref{UniversalProperty} in the opposite direction.
 \end{proof}
 
+The relation of **modus ponens** is immediate from
+\eqref{UniversalProperty}: for any $a, b$ in a Heyting algebra,
+\[ \label{ModusPonens}
+a \wedge (a \Rightarrow b) \leq b
+\]
+
+We list some further basic facts which are frequently useful,
+including in the proofs below:
+
+\begin{proposition} \label{BasicProperties}
+The following hold for any $a, b, c$ in any Heyting algebra:
+
+
+  1. Composition law:
+     $(a \Rightarrow b) \wedge (b \Rightarrow c) \leq a \Rightarrow c$.
+
+  1. $a \Rightarrow {-}$ is monotone:
+     $a \Rightarrow b \leq a \Rightarrow c$ if $b \leq c$.
+
+  1. $a \Rightarrow {-}$ is increasing:
+     $b \leq a \Rightarrow b$.
+
+  1. $a \Rightarrow {-}$ is idempotent:
+     $a \Rightarrow (a \Rightarrow b) = a \Rightarrow b$.
+
+  1. ${-} \Rightarrow a$ is antimonotone:
+     $c \Rightarrow a \leq b \Rightarrow a$ if $b \leq c$.
+
+  1. ${-} \Rightarrow a$ is self-adjoint:
+     ${-} \Rightarrow a: L \rightarrow L^{\mathrm{op}}$ is left adjoint
+     to ${-} \Rightarrow a: L^{\mathrm{op}} \rightarrow L$.
+
+     Explicitly, $b \leq (c \Rightarrow a)$ just if
+     $(b \Rightarrow a) \leq^{\mathrm{op}} c$, i.e. just if
+     $c \leq (b \Rightarrow a)$.
+
+  1. $({-} \Rightarrow a) \Rightarrow a$ is increasing:
+     $
+     b \leq
+     (b \Rightarrow a) \Rightarrow a
+     $.
+
+  1. $({-} \Rightarrow a) \Rightarrow a$ is idempotent:
+     $
+     (b \Rightarrow a) \Rightarrow a =
+     (((b \Rightarrow a) \Rightarrow a) \Rightarrow a) \Rightarrow a
+     $.
+
+\end{proposition}
+\begin{proof}
+  Each of these is a short exercise using the universal property
+  \eqref{UniversalProperty} and modus ponens \eqref{ModusPonens}.
+\end{proof}
+
+Most of these facts can be packaged up more abstractly like so:
+
+\begin{proposition}\label{Monads}
+  In any Heyting algebra $H$, for any element $a \in H$:
+
+  * $a \Rightarrow {-}$ is a [[monad]].
+
+  * $({-} \Rightarrow a) \Rightarrow a$ is a monad.
+
+\end{proposition}
+\begin{proof}
+  A monad in a poset (or a [[preorder]], aka [[(0,1)-category]]) like
+  $H$ is just a monotone, increasing, idempotent function.
+
+  From Proposition \ref{BasicProperties} it is immediate that
+  this describes both $a \Rightarrow {-}$
+  and $({-} \Rightarrow a) \Rightarrow a$.
+\end{proof}
+
 
 ## Relation to other concepts
 
@@ -132,10 +205,10 @@ In any Heyting algebra $L$, we have for all $a, b \in L$ the inequality
 $$ (\neg a \vee b) \leq (a \Rightarrow b) ,$$ 
 and another characterization of Boolean algebra is a Heyting algebra in which this is an equality for all $a, b$. 
 
-There are several ways of passing back and forth between Boolean algebras and Heyting algebras, having to do with the [[double negation]] operator. A useful lemma in this regard is 
+There are several ways of passing back and forth between Boolean algebras and Heyting algebras, having to do with the [[double negation]] operator.  By Proposition \ref{Monads}, double negation $\neg \neg\colon L \to L$ is a [[monad]].  A useful further lemma in this regard is 
 
 \begin{lem}\label{lem:NegnegMeets}
-[[double negation|Double negation]] $\neg \neg\colon L \to L$ is a [[monad]] that [[preserved limit|preserves]] [[finite limit|finite]] [[meets]]. 
+[[double negation|Double negation]] $\neg \neg\colon L \to L$ [[preserved limit|preserves]] [[finite limit|finite]] [[meets]]. 
 \end{lem}
 
 The proof can be made purely equational, and is therefore internally valid in any category with products. Applied to the internal Heyting algebra $L = \Omega$ of a [[topos]], that is the [[subobject classifier]], this lemma says exactly that the double negation operator $\neg \neg\colon \Omega \to \Omega$ defines a [[Lawvere–Tierney topology]]. Similarly, we get the [[double negation sublocale]] of any [[locale]].
@@ -168,7 +241,7 @@ We prove the lemma and theorems of the preceding section.
 
 \begin{proof}
 (Proof of Lemma \ref{lem:NegnegMeets}.)
-We show that $\neg \neg$ preserves finite meets.  Nullary meets are trivial: $\neg \neg 1 = \neg 0 = 1$.
+We show that $\neg \neg\colon L \rightarrow L$ preserves finite meets.  Nullary meets are trivial: $\neg \neg 1 = \neg 0 = 1$.
 
 For binary meets, the direction
 $\neg \neg (x \wedge y) \leq (\neg \neg x) \wedge (\neg \neg y)$
@@ -197,10 +270,10 @@ $$
   \\
   & \leq
   0
-  \, .
 \end{aligned}
 $$
-This establishes the claim.
+where the two inequalities follow from composition
+(Proposition \ref{BasicProperties}) and modus ponens \eqref{ModusPonens}.
 \end{proof}
 
 \begin{proof}
