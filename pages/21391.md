@@ -55,6 +55,9 @@ Examples of [[scalar mesons]]:
 
 * Eef van Beveren, George Rupp, _Scalar mesons as simple quark+antiquark states_, AIP Conf. Proc. 508 (1999) 310-317, Hadron Physics, Sept. 1999, Coimbra, Portugal ([arXiv:hep-ph/9912332](https://arxiv.org/abs/hep-ph/9912332))
 
+* L. Albino, I. M. Higuera-Angulo, K. Raya, A. Bashir, *Pseudo-scalar mesons: light front wave functions, GPDs and PDFs* &lbrack;[arXiv:2207.06550](https://arxiv.org/abs/2207.06550)&rbrack;
+
+
 [[!redirects scalar mesons]]
 
 [[!redirects pseudoscalar meson]]
