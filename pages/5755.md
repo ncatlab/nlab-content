@@ -1,5 +1,19 @@
-[[!redirects Mal&#39;cev completion]]
-[[!redirects Mal&#39;cev completion]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 In a 1949 paper devoted to the study of the coset spaces of nilpotent Lie groups, [[Anatoly Malcev]] exhibited an equivalence between the category of torsion free radicable nilpotent finite rank groups and the category of finite dimensional, nilpotent rational Lie algebras. This involves a completion construction which is used also in the general formulation of Hausdorff series (cf. Bourbaki) which takes values in the Mal'cev completion of the universal enveloping algebra on two generators. 
@@ -8,11 +22,17 @@ In a 1949 paper devoted to the study of the coset spaces of nilpotent Lie groups
 
 (There are several variants of the definition.)
 
-Mal'cev completion is a left [[adjoint functor]] to the embedding of the category of uniquely divisible nilpotent groups into the category of nilpotent groups. 
+Mal'cev completion is a left [[adjoint functor]] to the embedding of the category of uniquely [[divisible group|divisible]] [[nilpotent groups]] into the category of nilpotent groups. 
 
 ## Applications
 
 Hausdorff series, [[rational homotopy theory]], surgery, combinatorial group theory
+
+## Related concepts
+
+* [[completion of a group]]
+
+* [[rationalization]], [[rational homotopy theory]]
 
 ## References
 
@@ -38,3 +58,7 @@ Commentarii Mathematici Helvetici __71__, n. 1, 192-212, [doi](http://dx.doi.org
 [[!redirects Maltsev completions]]
 [[!redirects Mal'tsev completion]]
 [[!redirects Mal'tsev completions]]
+
+[[!redirects Mal&#39;cev completion]]
+[[!redirects Mal&#39;cev completion]]
+
