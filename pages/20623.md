@@ -4,10 +4,9 @@
 
 * [webpage](https://sites.google.com/site/manuelor/)
 
-##Selected publications
+## Selected writings
 
-* M. Rivera and M. Zeinalian, _The colimit of an infinity local system as a twisted tensor product_, Higher Structures, 3 (2) (2019) 1-24 ,
-[arXiv:1805.01264](https://arxiv.org/abs/1805.01264)
+* M. Rivera and M. Zeinalian, _The colimit of an infinity local system as a twisted tensor product_, Higher Structures, 3 (2) (2019) 1-24, [arXiv:1805.01264](https://arxiv.org/abs/1805.01264)
 
 * M. Rivera and M. Zeinalian, _Cubical rigidification, the cobar construction, and the based loop space_, 
 Algebr. Geom. Topol. 18:7 (2018), 3789-3820
@@ -22,6 +21,10 @@ Proc. Amer. Math. Soc. (2019)
 
 * M. Rivera and Z. Wang, _Singular Hochschild cohomology and algebraic string operations_,  J. Noncommut. Geom. 13 (2019), 297-361. 
 [arXiv:1703.03899](https://arxiv.org/abs/1703.03899)
+
+On [[rational homotopy theory]] for possibly non-[[nilpotent spaces]] via [[deck transformation|deck]]-[[Borel-equivariant rational homotopy theory]]:
+
+* [[Manuel Rivera]], [[Felix Wierstra]], [[Mahmoud Zeinalian]], *Rational homotopy equivalences and singular chains*, Algebr. Geom. Topol. **21** (2021) 1535-1552 &lbrack;[arXiv:1906.03655](https://arxiv.org/abs/1906.03655). [doi:10.2140/agt.2021.21.1535](https://doi.org/10.2140/agt.2021.21.1535)&rbrack;
 
 
 category:people
