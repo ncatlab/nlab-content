@@ -19,13 +19,23 @@
 * table of contents
 {:toc}
 
+
+## Idea
+
+The [[propositions]] in a [[logic]] can be thought of as having an algebraic structure, with operators like "and" and "or", with different logics corresponding to different sets of operators and axioms.
+
+For the [[intuitionistic logic|intuitionistic]] [[propositional calculus]], the operators (including nullary operators, i.e. constants) are "and", "or", "true", "false", and "implies". The concept of a **Heyting algebra** captures these operators and their axioms, so that a Heyting algebra is precisely a model of the intuitionistic propositional calculus.
+
+A Heyting algebra where [[excluded middle]] holds is a [[Boolean algebra]], a model of [[classical logic|classical]] propositional calculus.
+
+To model [[quantifiers]] and variables, i.e. to extend from [[propositional calculus]] to [[first-order logic|first-order]] aka [[predicate logic]], one forms a [[hyperdoctrine]] on Heyting algebras, called a [[first-order hyperdoctrine]].
+
+
 ## Definition
 
 \begin{definition}
 A **Heyting algebra** is a [[lattice]] $L$ which as a [[poset]] admits an operation of [[implication]] 
-
-$$\Rightarrow: L^{op} \times L \to L$$ 
-
+$\Rightarrow: L^{op} \times L \to L$
 satisfying the condition (really a [[universal property]])
 
 \[ \label{UniversalProperty}
@@ -45,10 +55,11 @@ A **Heyting algebra** is a [[bicartesian closed category|bicartesian closed]] [[
 
 * and [[cartesian closed category|cartesian closed]].
 
+The implication $a\Rightarrow b$ is the [[exponential object]] $b^a$. 
+
 \end{definition}
 
 
-The implication $a\Rightarrow b$ is the [[exponential object]] $b^a$. 
 
 \begin{remark}
 Insofar as all these properties of a poset are described by [[universal properties]], being a Heyting algebra is a [[property-like structure]] on a poset; a poset can be a Heyting algebra in at most one way. 
@@ -70,24 +81,9 @@ That is, finite meets distribute over finite joins and vice versa.
 \end{prop}
 
 \begin{proof}
-As discussed at [[distributive lattice]], it suffices to prove the nontrivial direction of either of the two (dual) binary distributivity laws.  We prove that for any $x, y, z$ in a Heyting algebra $H$:
-$$ x \wedge (y \vee z) \leq (x \wedge y) \vee (x \wedge z) $$
-
-By the universal property \eqref{UniversalProperty}, this is equivalent to:
-$$ y \vee z \leq
-   x \Rightarrow \big( (x \wedge y) \vee (x \wedge z) \big) $$
-But then by the universal property of $\vee$, this follows from the two inequalities
-$$
-  \begin{aligned}
-    y &\leq
-      x \Rightarrow \big( (x \wedge y) \vee (x \wedge z) \big)
-    \\
-    z &\leq
-      x \Rightarrow \big( (x \wedge y) \vee (x \wedge z) \big)
-    \,.
-  \end{aligned}
-$$
-These in turn each follow from applying \eqref{UniversalProperty} in the opposite direction.
+As discussed at [[distributive lattice]], it suffices to prove the nontrivial direction of either of the two (dual) binary distributivity laws, e.g.
+$ x \wedge (y \vee z) \leq (x \wedge y) \vee (x \wedge z) $.
+This is a straightforward [[exercise]] applying the universal property \eqref{UniversalProperty}.
 \end{proof}
 
 The relation of **modus ponens** is immediate from
@@ -227,6 +223,23 @@ We collect some further frequently-useful facts:
   and the preceding properties in the list.
 \end{proof}
 
+Several of the facts in \ref{NegationFacts} are weakenings of familiar propositional identities from [[classical logic]]:
+
+* A Heyting algebra where the remaining [[De Morgan law]]
+  $\neg (x \wedge y) = \neg x \vee \neg y$
+  holds is precisely a [[De Morgan Heyting algebra]].
+
+* A Heyting algebra satisfying any of the 
+ following (equivalent) conditions is precisely a [[Boolean algebra]]:
+
+  * $\forall x.\; \neg\neg x = x$
+
+  * $\forall x.\; x \vee \neg x = 1$
+
+  * $\forall x, y.\; x \Rightarrow y = \neg x \vee y$
+
+  These also imply the De Morgan law.
+
 
 ### Double negation
 
@@ -294,11 +307,13 @@ $$
 
 ## Relation to other concepts
 
-### To logic
+### To toposes
 
-In [[logic]], Heyting algebras are precisely algebraic models for [[intuitionistic logic|intuitionistic]] [[propositional calculus]], just as [[Boolean algebra|Boolean algebras]] model [[classical logic|classical]] propositional calculus. As one might guess from this description, the "law of the [[excluded middle]]" does not generally hold in a Heyting algebra; see the discussion below.
+An [[elementary topos]] is a [[vertical categorification]] of a Heyting algebra: the notion of Heyting algebra is essentially equivalent to that of [[(0,1)-topos]].  Note that a [[Grothendieck topos|Grothendieck]] $(0,1)$-topos is a [[frame]] or [[locale]].
 
 In a [[Heyting category]], every [[subobject poset]] $Sub(A)$ is a Heyting algebra.  In particular, this holds for every [[topos]].  Furthermore, in a topos, the [[power object]] $\mathcal{P}(A)$ is an [[internalisation|internal]] Heyting algebra that corresponds to the external Heyting algebra $Sub(A)$.  In a [[boolean topos]], the internal Heyting algebras are all internal [[boolean algebras]].  In general, however, the [[internal logic]] of a topos (or other Heyting category) is intuitionistic.
+
+The proof of Lemma \ref{lem:NegnegMeets} can be made purely equational, and is therefore internally valid in any category with products. Applied to the internal Heyting algebra $L = \Omega$ of a [[topos]], that is the [[subobject classifier]], this lemma says exactly that the double negation operator $\neg \neg\colon \Omega \to \Omega$ defines a [[Lawvere–Tierney topology]]. Similarly, we get the [[double negation sublocale]] of any [[locale]].
 
 
 ### To topology
@@ -318,23 +333,12 @@ A [[locale]] is the same thing as a frame, but again the morphisms are different
 Topologies that are [[Boolean algebras]] are the exception rather than the rule; basic examples include topologies of [[Stone spaces]]; see [[Stone duality]]. Another example is the topology of a [[discrete space]] $X$.
 
 
-### To Boolean algebras 
+## Adjunctions with Boolean algebras 
  {#ToBooleanAlgebras}
-
-A Heyting algebra is [[Boolean algebra|Boolean]] if the [[double negation]]
-$\neg \neg\colon L \to L$
-(with negation as defined at \ref{Negation})
-coincides with the identity map; this gives one of many ways of defining a Boolean algebra. 
-
-In any Heyting algebra $L$, we have for all $a, b \in L$ the inequality 
-$$ (\neg a \vee b) \leq (a \Rightarrow b) ,$$ 
-and another characterization of Boolean algebra is a Heyting algebra in which this is an equality for all $a, b$. 
 
 There are several ways of passing back and forth between Boolean algebras and Heyting algebras, having to do with the [[double negation]] operator.
 By \ref{DoubleNegationMonad}, double negation $\neg \neg\colon L \to L$ is a [[monad]].
 Further, by \ref{lem:NegnegMeets}, it [[preserved limit|preserves]] [[finite limit|finite]] [[meets]].
-
-The proof of Lemma \ref{lem:NegnegMeets} can be made purely equational, and is therefore internally valid in any category with products. Applied to the internal Heyting algebra $L = \Omega$ of a [[topos]], that is the [[subobject classifier]], this lemma says exactly that the double negation operator $\neg \neg\colon \Omega \to \Omega$ defines a [[Lawvere–Tierney topology]]. Similarly, we get the [[double negation sublocale]] of any [[locale]].
 
 Now let $L_{\neg\neg}$ denote the poset of _[[regular element]]s_ of $L$, that is, those elements $x$ such that $\neg\neg x = x$. (When $L$ is the topology of a space, an open set $U$ is [[regular open subspace|regular]] if and only if it is the interior of its closure, that is if it is a regular element of the Heyting algebra of open sets described above.) With the help of Lemma \ref{lem:NegnegMeets}, we may prove
 
@@ -422,10 +426,6 @@ Thus the complemented elements form a Heyting subalgebra $Comp(H) \hookrightarro
 \end{proof}
 
 
-### To toposes
-
-An [[elementary topos]] is a [[vertical categorification]] of a Heyting algebra: the notion of Heyting algebra is essentially equivalent to that of [[(0,1)-topos]].  Note that a [[Grothendieck topos|Grothendieck]] $(0,1)$-topos is a [[frame]] or [[locale]].
-
 
 ## Examples
 
@@ -441,7 +441,7 @@ In particular for $X = \Omega$ the [[subobject classifier]], $Sub(\Omega)$ is a 
 
 In $\mathcal{T} =$ [[Set]] for every set $S$ we have that $Sub(S)$ is the [[Boolean algebra]] of subset of $S$.
 
-More details and examples are spelled out at [[internal logic]]. 
+More details and examples are spelled out at [[internal logic#examples]]. 
 
 +-- {: .num_prop} 
 ###### Proposition 
