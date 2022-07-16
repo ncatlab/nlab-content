@@ -41,7 +41,7 @@ Introductions and further pointers are at
 
 Two introductions are: 
 
-* [[Steve Awodey]], _An Outline of Algebraic Set Theory_ ([pdf](http://caae.phil.cmu.edu/projects/ast/Papers/awodey_outline.pdf))
+* [[Steve Awodey]], _An Outline of Algebraic Set Theory_ ([archived pdf](https://web.archive.org/web/20070614063821/https://caae.phil.cmu.edu/projects/ast/Papers/awodey_outline.pdf))
 
 * [[Benno van den Berg]], [[Ieke Moerdijk]], _A Unified Approach to Algebraic Set Theory_ [arXiv](http://arxiv.org/abs/0710.3066)
 
