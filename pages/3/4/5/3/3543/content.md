@@ -65,8 +65,35 @@ A **rationalization** of a [[simply connected space|simply connected]] [[topolog
 
 ([Bousfield-Kan 72, p. 133-140](#BousfieldKan72), [Bousfield-Gugenheim 76, 11.1](#BousfieldGugenheim76), [Hess 06, Def. 1.4 with Def. 1.7](#Hess06))
 
-(notice here that $\mathbb{Q} \otimes_{\mathbb{Z}} \mathbb{Q}\,\simeq\, \mathbb{Q}$, e.g. [here](http://www-users.math.umn.edu/~garrett/m/algebra/exercises/s19.pdf#page=2))
+(notice here that $\mathbb{Z}$ is a *[[solid ring]]*, in that $\mathbb{Q} \otimes_{\mathbb{Z}} \mathbb{Q}\,\simeq\, \mathbb{Q}$, e.g. [here](http://www-users.math.umn.edu/~garrett/m/algebra/exercises/s19.pdf#page=2))
 
+
+\begin{proposition}
+**(rationalization via group $\mathbb{Q}$-completion under simplicial (de-)looping)**
+\linebreak
+  The rationalization of a [[nilpotent space|nilpotent]] [[connected homotopy type]] is represented (say via the [[classical model structure on simplicial sets]]) by a [[reduced simplicial set]] $S \,\in\, sSet_\ast$ is given by
+$$
+  S_{\mathbb{Q}}
+  \;\simeq\;
+  \overline{W}(G S)_{\widehat{\mathbb{Q}}}
+  \;\;\;
+  \in
+  sSet
+  \xrightarrow{ L^W }
+  Grp_\infty
+  \,,
+$$
+where:
+
+1. $G \;\colon\; sSet_\ast \xrightarrow{\;} sGrp$ is the [[simplicial loop space]]-functor to [[simplicial groups]];
+
+1. $(-)_{\widehat{\mathbb{Q}}} \;\colon\; sGrp \to sGrp$ is degreewise the $\mathbb{Q}$-[[completion of a group|completion]] applied to the component group of a simplicial group;
+
+1. $\overline{W} \;\colon\; sGrp \xrightarrow{\;} sSet$ is the [[simplicial delooping]]-operation.
+
+\end{proposition}
+
+([Bousfield & Kan 1971, §3](#BousfieldKan71), [Bousfield & Kan 1972, IV Prop. 4.1 (p. 109)](#BousfieldKan72), see also [Rivera, Wierstra & Zeinalian 2021](#RiveraWierstraZeinalian21))
 
 
 #### Fiberwise rationalization of general spaces
@@ -498,7 +525,7 @@ Review:
 
 Further developments:
 
-* {#RiveraWierstraZeinalia21} [[Manuel Rivera]], [[Felix Wierstra]], [[Mahmoud Zeinalian]], *Rational homotopy equivalences and singular chains*, Algebr. Geom. Topol. **21** (2021) 1535-1552 &lbrack;[arXiv:1906.03655](https://arxiv.org/abs/1906.03655). [doi:10.2140/agt.2021.21.1535](https://doi.org/10.2140/agt.2021.21.1535)&rbrack;
+* {#RiveraWierstraZeinalian21} [[Manuel Rivera]], [[Felix Wierstra]], [[Mahmoud Zeinalian]], *Rational homotopy equivalences and singular chains*, Algebr. Geom. Topol. **21** (2021) 1535-1552 &lbrack;[arXiv:1906.03655](https://arxiv.org/abs/1906.03655), [doi:10.2140/agt.2021.21.1535](https://doi.org/10.2140/agt.2021.21.1535)&rbrack;
 
 
 
