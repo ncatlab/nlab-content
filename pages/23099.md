@@ -31,7 +31,7 @@ Namely, given any [[connected topological space|connected]] space $X$ (but the s
 $$
   \array{
     \widehat X 
-    &\xrightarrow{\;\;}&
+    &\longrightarrow&
     X
     \\
     && 
@@ -96,4 +96,12 @@ A textbook account is in:
 * {#FelixHalperinThomas15} [[Yves Félix]], [[Steve Halperin]], [[Jean-Claude Thomas]], _Rational Homotopy Theory II_, World Scientific 2015 ([doi:10.1142/9473](https://doi.org/10.1142/9473))
 
 > (While [FHT 15](#FelixHalperinThomas15) does discuss, mostly in its Section 7, some aspects of non-simply connected spaces via the rational homotopy of their [[covering spaces]] with attention to $\pi_1$-actions, it does not seem to establish or mention aspects of a systematic generalization of the [[fundamental theorem of dg-algebraic rational homotopy theory]] to this situation -- nor does it cite any of the above.)
+
+Further discussion of fiberwise rational homotopy theory:
+
+* [[Manuel Rivera]], [[Felix Wierstra]], [[Mahmoud Zeinalian]], Thm. 16 of:  *Rational homotopy equivalences and singular chains*, Algebr. Geom. Topol. **21** (2021) 1535-1552 &lbrack;[arXiv:1906.03655](https://arxiv.org/abs/1906.03655). [doi:10.2140/agt.2021.21.1535](https://doi.org/10.2140/agt.2021.21.1535)&rbrack;
+
+
+
+
 
