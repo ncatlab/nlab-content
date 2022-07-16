@@ -88,7 +88,7 @@ with related discussion in
 
 which is reviewed in:
 
-* Sergei O. Ivanov, Section 12 of: *An overview of rationalization theories of non-simply connected spaces and non-nilpotent groups* ([arXiv:2111.10694](https://arxiv.org/abs/2111.10694))
+* [[Sergei O. Ivanov]], Section 12 of: *An overview of rationalization theories of non-simply connected spaces and non-nilpotent groups* &lbrack;[arXiv:2111.10694](https://arxiv.org/abs/2111.10694)&rbrack;
 
 
 A textbook account is in:
