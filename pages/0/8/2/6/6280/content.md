@@ -20,9 +20,13 @@
 
 This entry is about the book
 
-* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]]
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]]:
 
-  _Connections, Curvature, and Cohomology_
+  \linebreak
+
+  **Connections, Curvature, and Cohomology**
+
+  \linebreak
 
   Academic Press (1973)
 
