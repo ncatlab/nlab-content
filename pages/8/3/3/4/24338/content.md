@@ -1,6 +1,6 @@
 A historically important early manuscript draft.
 
-* [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]], [[Model Categories and More General Abstract Homotopy Theory]], [PDF](https://web.math.rochester.edu/people/faculty/doug/otherpapers/dhk.pdf)
+* [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]], [[Model Categories and More General Abstract Homotopy Theory]], [PDF](https://people.math.rochester.edu/faculty/doug/otherpapers/dhk.pdf)
 
 This manuscript draft later transformed in 
 [[Homotopy Limit Functors on Model Categories and Homotopical Categories]], adding [[Jeffrey H. Smith]] as a coauthor.
