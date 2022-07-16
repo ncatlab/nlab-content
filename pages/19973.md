@@ -191,10 +191,11 @@ On [[flavour physics]] and [[flavour anomalies]] seen at the [[LHCb experiment]]
 
   > In recent years a number of results in flavour physics have drawn some attention due to tensions with respect to Standard Model predictions. An overview of these results will be shown, together with a few recent results from this Spring, both on the flavour anomalies and 'classical' flavour physics
 
-Outlook:
+Survey and outlook:
 
 * [[Riccardo Barbieri]], _A view of flavour physics in 2021_ ([arXiv:2103.15635](https://arxiv.org/abs/2103.15635))
 
+* Vladimir V. Gligorov, *Overview of quark flavour results*, talk at [ICHEP 2022](https://www.ichep2022.it/) (Bologna, 2022) &lbrack;[infn:171923](https://agenda.infn.it/event/28874/contributions/171923/), [pdf](https://agenda.infn.it/event/28874/contributions/171923/attachments/94847/130108/Vladimir_Gligorov.pdf)&rbrack;
 
 
 ### The flavour problem
@@ -202,7 +203,7 @@ Outlook:
 
 On the [[flavour problem]]:
 
-* [[Gino Isidori]], _Kaon decays and the flavour problem_, 	Annales Henri Poincare 4 (2003) S97-S109 ([arXiv:hep-ph/0301159](https://arxiv.org/abs/hep-ph/0301159))
+* [[Gino Isidori]], _Kaon decays and the flavour problem_, Annales Henri Poincare 4 (2003) S97-S109 ([arXiv:hep-ph/0301159](https://arxiv.org/abs/hep-ph/0301159))
 
   (emphasis on [[kaon]] [[scattering|decays]])
 
