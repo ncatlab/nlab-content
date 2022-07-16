@@ -166,9 +166,9 @@ Subsets of some set $S$ are the [[(-1)-truncated objects]] in the [[slice catego
 $$
   Set_{/X}
      \underoverset
-       {\underset{f^\ast}{\longrightarrow}}
+       {\overset{f_\ast}{\longrightarrow}}
        {\overset{f_!}{\longrightarrow}}
-       {\overset{f_\ast}{\longleftarrow}}
+       {\overset{f^\ast}{\longleftarrow}}
   Set_{/Y}
   \,.
 $$
