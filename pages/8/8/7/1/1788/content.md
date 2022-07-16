@@ -1,4 +1,36 @@
 $$
+  Set_{/X}
+     \underoverset
+       {\underset{f^\ast}{\longrightarrow}}
+       {\overset{f_!}{\longrightarrow}}
+       {\overset{f_\ast}{\longleftarrow}}
+  Set_{/Y}
+  \,.
+$$
+
+
+$$
+  Set_{/X}
+     \underoverset
+       {\underset{f_\ast}{\longrightarrow}}
+       {\overset{f_!}{\longrightarrow}}
+       {\overset{f^\ast}{\longleftarrow}}
+  Set_{/Y}
+  \,.
+$$
+
+$$
+  Set_{/X}
+     \underoverset
+       {\overset{f_\ast}{\longrightarrow}}
+       {\overset{f_!}{\longrightarrow}}
+       {\overset{f^\ast}{\longleftarrow}}
+  Set_{/Y}
+  \,.
+$$
+
+
+$$
 \begin{aligned}
 (x \Rightarrow y) \vee \neg(x \Rightarrow y)
 &= (x \Rightarrow y) \vee (\neg\neg x \wedge \neg y)
