@@ -74,3 +74,5 @@ Discussion in [[homotopy type theory]]/[[univalent foundations of mathematics]]:
 
 * [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: Chapter 6 of: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$
 
+[[!redirects finitely generated groups]]
+
