@@ -1230,6 +1230,9 @@ Generalization to [[deck transformation|deck]]-[[Borel-equivariant rational homo
 
 * [[Antonio Gómez-Tato]], [[Stephen Halperin]], [[Daniel Tanré]], *Rational homotopy theory for non-simply connected spaces*, Trans. Amer. Math. Soc. 352 (2000), 1493-1525 ([doi:10.1090/S0002-9947-99-02463-0](https://doi.org/10.1090/S0002-9947-99-02463-0))
 
+* [[Manuel Rivera]], [[Felix Wierstra]], [[Mahmoud Zeinalian]], *Rational homotopy equivalences and singular chains*, Algebr. Geom. Topol. **21** (2021) 1535-1552 &lbrack;[arXiv:1906.03655](https://arxiv.org/abs/1906.03655). [doi:10.2140/agt.2021.21.1535](https://doi.org/10.2140/agt.2021.21.1535)&rbrack;
+
+
 On this non-nilpotent generalization see also:
 
 * Syunji Moriya, _Rational homotopy theory and differential graded category_, Journal of Pure and Applied Algebra, Volume 214, Issue 4, April 2010, Pages 422-439 ([doi:10.1016/j.jpaa.2009.06.015](https://doi.org/10.1016/j.jpaa.2009.06.015))
