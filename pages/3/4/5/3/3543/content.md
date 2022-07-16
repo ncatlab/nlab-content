@@ -22,10 +22,23 @@ Every simply connected space is in this sense equivalent to a [[rational space]]
 Similarly one may consider "real-ification" by considering $\pi_\bullet(X) \otimes_{\mathbb{Z}} \mathbb{R}$, etc.
 
 ## Definition
+ {#Definition}
 
-### Rationalization of a single space
+### Rationalization of a homotopy type
+ {#RationalizationOfAHomotopyType}
+
+We discuss here what it means for a map of [[homotopy types]] to exhibit the rationalization of its [[domain]]. 
+
+A widely appreciated construction applies in the special case that the [[domain]] is a [[simply connected homotopy type]] (in fact, more generally in the case that it is a [[nilpotent homotopy type]]). 
+A slight enhancement of this construction, which is generally much less widely considered, applies to all [[connected homotopy types]]: this forms the rationalization of the [[universal cover]] (which is of course simply connected) but retains on this the information of the [[infinity-action|$\infty$-actions]] of the [[fundamental groups]] by [[deck transformations]] (see also at *[[Borel-equivariant rational homotopy theory]]*):
+
+1. [Rationalization of simply-connected homotopy types](#RationalizationOfSimplyConnectedSpaces)
+
+1. [$\pi_1$-Rationalization of connected homotopy types](#RationalizationOfConnectedSpaces)
+
 
 #### Rationalization of simply-connected spaces
+ {#RationalizationOfSimplyConnectedSpaces}
 
 A **rationalization** of a [[simply connected space|simply connected]] [[topological space]] $X$ is a [[continuous function]] $\phi \colon X \to Y$, where
 
@@ -68,10 +81,10 @@ A **rationalization** of a [[simply connected space|simply connected]] [[topolog
 (notice here that $\mathbb{Z}$ is a *[[solid ring]]*, in that $\mathbb{Q} \otimes_{\mathbb{Z}} \mathbb{Q}\,\simeq\, \mathbb{Q}$, e.g. [here](http://www-users.math.umn.edu/~garrett/m/algebra/exercises/s19.pdf#page=2))
 
 
-\begin{proposition}
-**(rationalization via group $\mathbb{Q}$-completion under simplicial (de-)looping)**
+\begin{proposition}\label{RationalizationViaCompletionOfComponentsOfLoopGroup}
+**(rationalization via $\mathbb{Q}$-completion of simplicial loop group)**
 \linebreak
-  The rationalization of a [[nilpotent space|nilpotent]] [[connected homotopy type]] is represented (say via the [[classical model structure on simplicial sets]]) by a [[reduced simplicial set]] $S \,\in\, sSet_\ast$ is given by
+  The rationalization of a [[simply connected homotopy type]] is represented (say via the [[classical model structure on simplicial sets]]) by a [[reduced simplicial set]] $S \,\in\, sSet_\ast$ is given by
 $$
   S_{\mathbb{Q}}
   \;\simeq\;
@@ -87,18 +100,140 @@ where:
 
 1. $G \;\colon\; sSet_\ast \xrightarrow{\;} sGrp$ is the [[simplicial loop space]]-functor to [[simplicial groups]];
 
-1. $(-)_{\widehat{\mathbb{Q}}} \;\colon\; sGrp \to sGrp$ is degreewise the $\mathbb{Q}$-[[completion of a group|completion]] applied to the component group of a simplicial group;
+1. $(-)_{\widehat{\mathbb{Q}}} \;\colon\; sGrp \to sGrp$ is degreewise the $\mathbb{Q}$-[[completion of a group|completion]] ([hence](completion+of+a+group#ExampleMalcevCompletion) [[Malcev completion]]) applied to the component group of a simplicial group;
 
 1. $\overline{W} \;\colon\; sGrp \xrightarrow{\;} sSet$ is the [[simplicial delooping]]-operation.
 
 \end{proposition}
 
-([Bousfield & Kan 1971, §3](#BousfieldKan71), [Bousfield & Kan 1972, IV Prop. 4.1 (p. 109)](#BousfieldKan72), see also [Rivera, Wierstra & Zeinalian 2021](#RiveraWierstraZeinalian21))
+([Bousfield & Kan 1971, §3](#BousfieldKan71), [Bousfield & Kan 1972, IV Prop. 4.1 (p. 109)](#BousfieldKan72), see also [Rivera, Wierstra & Zeinalian 2021, p. 7](#RiveraWierstraZeinalian21))
 
 
-#### Fiberwise rationalization of general spaces
 
-(...)
+
+#### $\pi_1$-Rationalization of connected spaces
+ {#PiOneRationalizationOfConnectedSpaces}
+
+For [[connected homotopy types]] $X$ which are not necessarily [[simply connected homotopy type|simply connected]], consider their [[universal cover]] $\widehat{X}$, which sits in a [[homotopy fiber sequence]] 
+
+\[
+  \label{HomotopyFiberSequenceForUniversalCover}
+  \array{
+    \widehat{X}
+    &\longrightarrow&
+    X
+    \\
+    \big\downarrow
+    && 
+    \big\downarrow
+    \mathrlap{ {}^{ \eta^{[-]_1}_X } }
+    \\
+    \ast
+    &\longrightarrow&
+    B \pi_1(X)
+  }
+\]
+
+over the [[delooping]]/[[classifying space]] of the [[fundamental group]] (via the [[n-truncated object of an (infinity,1)-category|1-truncation]] [[adjunction unit|unit]]).
+
+(Notice that this fiber sequence exhibits the [[infinity-action|$\infty$-action]] of $\pi_1(X)$ on $\widehat{X}$.)
+
+Here the [[universal cover]] $\widehat{X}$ is [[simply connected homotopy type|simply connected]] (hence in particular [[nilpotent homotopy type|nilpotent]]), so that the [above](#RationalizationOfSimplyConnectedSpaces) notion of rationalization applies to this [[fiber]]:
+
+\begin{definition}\label{PiOneRationalization}
+**($\pi_1$-rationalization)**
+\linebreak
+  A map $\eta^{\mathbb{Q}}_X \;\colon\; X \longrightarrow X_{\mathbb{Q}}$ of [[connected homotopy types]] is called a *$\pi_1$-rationalization* if 
+
+1. the higher [[homotopy group]] $\pi_n\big(X_{\mathbb{Q}}\big)$ are [[rational vector spaces]];
+
+
+1. $\eta^{\mathbb{Q}}_X$ induces [[isomorphisms]]
+
+   1. on the [[fundamental groups]] 
+ 
+      $
+        \pi_1\big(\eta^{\mathbb{Q}}_{X}\big)
+        \;\colon\;
+        \pi_1(X)
+        \xrightarrow{\;\; \sim \;\;}
+        \pi_1
+        \big(
+          X_{\mathbb{Q}}
+        \big)
+      $
+ 
+   1. on the the rationalization of all higher [[homotopy groups]] $\pi_n$ for $n \geq 2$:
+
+      $
+       \pi_n\big(\eta^{\mathbb{Q}}_{X}\big)
+       \otimes_{\mathbb{Z}} \mathbb{Q}
+       \;\colon\;
+       \pi_1(X)
+       \otimes_{\mathbb{Z}} \mathbb{Q}
+       \xrightarrow{\;\; \sim \;\;}
+       \pi_1
+       \big(
+         X_{\mathbb{Q}}
+       \big)
+       \,.
+      $
+
+\end{definition}
+
+In generalization of Prop. \ref{RationalizationViaCompletionOfComponentsOfLoopGroup}:
+
+\begin{proposition}
+  The rationalization (Def. \ref{PiOneRationalization})
+of a [[connected homotopy type]] is represented (say via the [[classical model structure on simplicial sets]]) by a [[reduced simplicial set]] $S \,\in\, sSet_\ast$ is given by
+$$
+  S_{\mathbb{Q}}
+  \;\simeq\;
+  \overline{W}(G S)_{\widehat{\mathbb{Q}/\pi}}
+  \;\;\;
+  \in
+  sSet
+  \xrightarrow{ L^W }
+  Grp_\infty
+  \,,
+$$
+where:
+
+1. $G \;\colon\; sSet_\ast \xrightarrow{\;} sGrp$ is the [[simplicial loop space]]-functor to [[simplicial groups]];
+
+1. $(-)_{\widehat{\mathbb{Q}/\pi}}$ is in degree $n$ the [fiberwise rationalization of](completion+of+a+group#FiberwiseCompletionOfAGroup) of the [[short exact sequences]] of  [[homotopy groups]] (obtained in the present case from the [[long exact sequence of homotopy groups]] of the [[fiber sequence]] (eq:HomotopyFiberSequenceForUniversalCover))
+
+   $$
+     1
+     \to
+     \pi_n
+     \big(
+       \widehat{X}
+     \big)
+     \longrightarrow
+     \pi_n
+     \big(
+       X
+     \big)
+     \longrightarrow
+     \pi_n
+     \big(
+       B \pi_1(X)
+     \big)
+     \to
+     1
+   $$ 
+
+   (in the present case this is trivial in degree 1 and is the plain rationalization in higher degrees, but this formulation makes manifest that both cases are functorially compatible);
+
+1. $\overline{W} \;\colon\; sGrp \xrightarrow{\;} sSet$ is the [[simplicial delooping]]-operation.
+
+
+\end{proposition}
+
+([Bousfield & Kan 1971, §3, p. 1008](#BousfieldKan71), see also [Rivera, Wierstra & Zeinalian 2021, p. 8](#RiveraWierstraZeinalian21) and [Ivanov 2021](#Ivanov21)).
+
+\linebreak
 
 ### Rationalization as a localization of $Top$/$\infty Grpd$
 
@@ -523,9 +658,11 @@ Review:
 
 * [[Tyler Lawson]], Example 8.12 in: *An introduction to Bousfield localization* ([arXiv:2002.03888](https://arxiv.org/abs/2002.03888)) in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds.), *[[Stable categories and structured ring spectra]]*  MSRI Book Series, Cambridge University Press
 
-Further developments:
+Review and further developments:
 
 * {#RiveraWierstraZeinalian21} [[Manuel Rivera]], [[Felix Wierstra]], [[Mahmoud Zeinalian]], *Rational homotopy equivalences and singular chains*, Algebr. Geom. Topol. **21** (2021) 1535-1552 &lbrack;[arXiv:1906.03655](https://arxiv.org/abs/1906.03655), [doi:10.2140/agt.2021.21.1535](https://doi.org/10.2140/agt.2021.21.1535)&rbrack;
+
+* {#Ivanov21} [[Sergei O. Ivanov]], *An overview of rationalization theories of non-simply connected spaces and non-nilpotent groups* &lbrack;[arXiv:2111.10694](https://arxiv.org/abs/2111.10694)&rbrack;
 
 
 
