@@ -386,7 +386,7 @@ And see the references at _[[Hopf invariant one]]_ for more, in particular for t
 ### Whitehead's integral formula
   {#ReferencesWhiteheadIntegralFormula}
 
-Discussion via [[differential forms]]/[[rational homotopy theory]] (see also at [[functional cup product]]):
+Discussion via [[differential forms]]/[[real homotopy theory]]/[[rational homotopy theory]] (see also at [[functional cup product]]):
 
 * {#Whitehead47} [[J. H. C. Whitehead]], _An expression of Hopf's invariant as an integral_, Proc. Nat. Acad. Sci. USA 33 (1947), 117–123 ([jstor:87688](https://www.jstor.org/stable/87688))
 
@@ -402,7 +402,13 @@ Discussion via [[differential forms]]/[[rational homotopy theory]] (see also at 
 
 * {#SinhaWalter13} [[Dev Sinha]], [[Ben Walter]], _Lie coalgebras and rational homotopy theory II: Hopf invariants_, Trans. Amer. Math. Soc. 365 (2013), 861-883  ([arXiv:0809.5084](https://arxiv.org/abs/0809.5084), [doi:10.1090/S0002-9947-2012-05654-6](https://doi.org/10.1090/S0002-9947-2012-05654-6))
 
+* [[Felix Wierstra]], *Hopf Invariants in Real and Rational Homotopy Theory* (2017) &lbrack;[diva:146246](http://urn.kb.se/resolve?urn=urn:nbn:se:su:diva-146246), [pdf](https://www.diva-portal.org/smash/get/diva2:1136442/FULLTEXT02.pdf)&rbrack;
+
+
 * {#FSS19} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_, Comm. Math. Phys. 2020 ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
+
+
+
 
 [[!redirects Hopf invariants]]
 
