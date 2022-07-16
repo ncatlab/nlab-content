@@ -18,13 +18,13 @@
 
 A [[topological space]] is a [[loop space]] if it has a [[delooping]]. It is an **infinite loop space** if this delooping has itself a delooping, and so on.
 
-In [[homotopy theory]] infinite loop spaces are equivalent to [[connective spectra]].
+In [[homotopy theory]] infinite loop spaces with a choice of deloopings are equivalent to [[connective spectra]].
 
 ## Properties 
 
 ### Algebraic characterization
 
-Infinite loop spaces are the grouplike [[E-∞ algebras]] in [[Top]] (grouplike [[E-∞ space|E-∞ spaces]]).
+Infinite loop spaces with a choice of deloopings are the grouplike [[E-∞ algebras]] in [[Top]] (grouplike [[E-∞ space|E-∞ spaces]]).
 
 See for instance ([Adams, pretheorem 2.3.2](#Adams)) and the references listed there for traditional accounts. See ([Lurie, section 5.1.3](#Lurie)) for a modern formulation.
 
