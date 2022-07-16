@@ -1,51 +1,8 @@
-$$
-  Set_{/X}
-     \underoverset
-       {\underset{f^\ast}{\longrightarrow}}
-       {\overset{f_!}{\longrightarrow}}
-       {\overset{f_\ast}{\longleftarrow}}
-  Set_{/Y}
-  \,.
-$$
 
+spelled out at [[internal logic#examples]]
 
-$$
-  Set_{/X}
-     \underoverset
-       {\underset{f_\ast}{\longrightarrow}}
-       {\overset{f_!}{\longrightarrow}}
-       {\overset{f^\ast}{\longleftarrow}}
-  Set_{/Y}
-  \,.
-$$
+$\forall x. \; x = x$
 
-$$
-  Set_{/X}
-     \underoverset
-       {\overset{f_\ast}{\longrightarrow}}
-       {\overset{f_!}{\longrightarrow}}
-       {\overset{f^\ast}{\longleftarrow}}
-  Set_{/Y}
-  \,.
-$$
-
-
-$$
-\begin{aligned}
-(x \Rightarrow y) \vee \neg(x \Rightarrow y)
-&= (x \Rightarrow y) \vee (\neg\neg x \wedge \neg y)
-\\
-&= ((x \Rightarrow y) \vee \neg\neg x)
-  \wedge ((x \Rightarrow y) \vee \neg y)
-\\
-&\geq (\neg x \vee x)
-  \wedge (y \vee \neg y)
-\\
-&= 1
-\; .
-\end{aligned}
-
-$$
 
 $\phi \colon \Omega \;\;|\; (\!\triangleright \phi) \Rightarrow \phi \;\;\;\;\;\vdash\;\;\;\;\; \phi$
 
