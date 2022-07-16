@@ -4,7 +4,10 @@
 ## Selected writings
 
 
-On [[homotopy limits]], [[completion of a space|completions]] and [[localization of a space|localizations]]:
+On [[homotopy limits]], [[completion of a space|completions]] and [[localization of a space|localizations]] (such as [[p-completion]] and [[rationalization]]):
+
+* {#BousfieldKan71} [[Aldridge Bousfield]], [[Daniel Kan]], *Localization and completion in homotopy theory*, Bull. Amer. Math. Soc. **77** 6 (1971) 1006-1010 &lbrack;[doi:10.1090/S0002-9904-1971-12837-9](https://doi.org/10.1090/S0002-9904-1971-12837-9), [pdf](https://www.ams.org/journals/bull/1971-77-06/S0002-9904-1971-12837-9/S0002-9904-1971-12837-9.pdf)&rbrack;
+
 
 * [[Daniel M. Kan]] and [[Aldridge K. Bousfield]], *[[Homotopy Limits, Completions and Localizations]]*, Lecture Notes in Mathematics 304 (1972; 1987), Springer ([doi:10.1007/978-3-540-38117-4](https://link.springer.com/book/10.1007/978-3-540-38117-4))
 
