@@ -346,6 +346,45 @@ $$i\colon Bool \hookrightarrow Heyt.$$
 The unit of the [[adjoint functor|adjunction]], applied to a Heyting algebra $L$, is the map $L \to L_{\neg\neg}$ which maps each element $x$ to its _[[regular element|regularization]]_ $\neg\neg x$.
 \end{thm}
 
+\begin{proof}
+To avoid confusion from two different maps called $\neg\neg$ that
+differ only in their codomain, write $M: L \rightarrow L$ for the
+monad and $U: L \rightarrow L_{\neg\neg}$ for the left adjoint.
+Write $\iota: L_{\neg\neg} \rightarrow L$ for the right adjoint,
+so that $M = \iota \circ U$.
+
+We first show that $L_{\neg\neg}$ is a Heyting algebra and $U$ is a
+Heyting-algebra map.  Because $U$ is surjective (and monotone), it
+suffices to show that it preserves the Heyting-algebra operators:
+finite meets, finite joins, and implication.
+
+Because $\iota$ is full, it reflects meets.
+Therefore because by Lemma \ref{lem:NegnegMeets} $M = \iota \circ U$
+preserves finite meets, so too does $U$, and as a left adjoint
+it preserves joins.
+
+Finally, for $a, b \in L$, we show that $\neg\neg (a \Rightarrow b)$,
+which by Lemma \ref{lem:NegnegImplication} is the $L$-implication
+$\neg\neg a \Rightarrow \neg\neg b$, satisfies the universal property \eqref{UniversalProperty}
+also in $L_{\neg\neg}$.
+For any $x \in L_{\neg\neg}$,
+$\iota(x) \leq \neg\neg a \Rightarrow_L \neg\neg b$
+just if
+$\iota(x) \wedge_L \neg\neg a \leq \neg\neg b$
+by the universal property in $L$;
+but because $\iota$ reflects meets this is equivalent to
+$x \wedge_{L_{\neg\neg}} \neg\neg a \leq \neg\neg b$,
+completing the universal property.
+
+Now because $U$ preserves implication and (the empty join) $0$, it preserves
+negation.  Therefore $\neg\neg$ in $L_{\neg\neg}$ is the identity,
+so the latter is a Boolean algebra.
+
+Therefore $U = \neg\neg \colon L \to L_{\neg\neg}$ is a Heyting algebra quotient which is the coequalizer of $1, \neg\neg \colon L \stackrel{\to}{\to} L$. It follows that a Heyting algebra map $L \to B$ to
+any Boolean algebra $B$, i.e. any Heyting algebra where $1$ and $\neg\neg$ coincide,
+factors uniquely through this coequalizer, and the induced map $L_{\neg \neg} \to B$ is a Boolean algebra map. In other words, $\neg\neg \colon L \to L_{\neg\neg}$ is the universal Heyting algebra map to a Boolean algebra, which establishes the adjunction.
+\end{proof}
+
 Thus $\neg\neg\colon L \to L_{\neg\neg}$ preserves finite joins and finite meets and implication. In the other direction, we have an inclusion $i\colon L_{\neg\neg} \to L$, and this preserves meets but not joins. It also preserves negations; more generally and perhaps surprisingly, it preserves implications as well. 
 
 Regular elements are not to be confused with _[[complemented element]]s_, i.e., elements $x$ in a Heyting algebra such that $x \vee \neg x = 1$, although it is true that every complemented element is regular. An example of a regular element which is not complemented is given by the unit interval $(0, 1)$ as an element of the topology of $\mathbb{R}$; a complemented element in a Heyting algebra given by a topology is the same as a [[clopen subset]]. 
@@ -356,51 +395,7 @@ Complemented elements furnish another universal relation between Boolean algebra
 The assignment $H \mapsto Comp(H)$ is the object part of a right adjoint to the forgetful functor $Bool \to Heyt$. 
 \end{thm}
 
-
-#### Proofs
-{#proofs}
-
-We prove the theorems of the preceding section.
-
 \begin{proof}
-(Proof of Theorem \ref{thm:NegnegAdjoint}.)
-Since $\neg \neg$ is a monad, and $L_{\neg \neg}$ is the corresponding category (poset) of $\neg \neg$-algebras, the left adjoint $\neg \neg \colon L \to L_{\neg \neg}$ preserves joins; and by Lemma \ref{lem:NegnegMeets}, it preserves finite meets. Thus $L \to L_{\neg\neg}$ is a surjective lattice map, and it follows that $L_{\neg\neg}$ is distributive because (by Proposition \ref{prop:distributive}) $L$ is.
-
-For any $x \in L$, we have $x \leq \neg \neg x$ because $\neg \neg$ is a monad, hence $\neg \neg \neg x \leq \neg x$ because $\neg$ is antimonotone, so $\neg x$ is fixed by $\neg \neg$ and is in $L_{\neg \neg}$.
-
-Then working in $L_{\neg \neg}$ (where the join will be written $\vee_{\neg\neg}$ and the meet $\wedge_{\neg\neg}$), we have for any $x \in L_{\neg \neg}$ the equations
-$$
-\begin{aligned}
-x \vee_{\neg \neg} \neg x
-& = \neg \neg (x \vee \neg x) = \neg (\neg x \wedge \neg \neg x) = \neg 0 = 1
-\\
-x \wedge_{\neg\neg} \neg x
-& = x \wedge \neg x = 0
-\end{aligned}
-$$
-so that $\neg x$ is the complement of $x \in L_{\neg \neg}$. We have thus shown that $L_{\neg\neg}$ is a complemented distributive lattice, i.e., a Boolean algebra. This calculation also shows that $\neg\neg \colon L \to L_{\neg\neg}$ preserves negation. 
-
-To show $L \to L_{\neg\neg}$ preserves implication, we may start from the observation (in Proposition \ref{NegationFacts}) that in any Heyting algebra $L$, we have 
-
-$$\neg(a \Rightarrow b) = (\neg \neg a) \wedge (\neg b).$$ 
-
-Then 
-
-$$\array{
-\neg \neg(a \Rightarrow b) & = & \neg((\neg \neg a) \wedge (\neg b)) \\ 
- & = & \neg ((\neg \neg a) \wedge (\neg \neg \neg b)) \\
- & = & \neg \neg ((\neg a) \vee (\neg \neg b)) \\
- & = & \neg a \vee_{\neg \neg} (\neg \neg b) \\
- & = & \neg (\neg \neg a) \vee_{\neg \neg} (\neg \neg b)
-}$$ 
-
-where the last expression is $(\neg \neg a) \Rightarrow (\neg \neg b)$ as computed in the Boolean algebra $L_{\neg \neg}$, since in a Boolean algebra we have $(x \Rightarrow y) = (\neg x \vee y)$. 
-
-Therefore $L \to L_{\neg\neg}$ is a Heyting algebra quotient which is the coequalizer of $1, \neg\neg \colon L \stackrel{\to}{\to} L$. It follows that a Heyting algebra map $L \to B$ to any Boolean algebra $B$ factors uniquely through this coequalizer, and the induced map $L_{\neg \neg} \to B$ is a Boolean algebra map. In other words, $L \to L_{\neg\neg}$ is the universal Heyting algebra map to a Boolean algebra, which establishes the adjunction. 
-\end{proof}
-
-\begin{proof}
-(Proof of Theorem \ref{thm:CompAdjoint}.)
 In a Heyting algebra $H$, the elements $0$ and $1$ are clearly complemented. If $x$ and $y$ are complemented, then so is $x \wedge y$ since 
 
 $$1 = 1 \wedge 1 = (x \vee \neg x \vee \neg y) \wedge (y \vee \neg x \vee \neg y) = (x \wedge y) \vee (\neg x \vee \neg y)$$ 
