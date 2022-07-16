@@ -92,7 +92,7 @@ A [[short exact sequence]] of [[groups]]
 is *fiberwise* or *relative* $R$-complete if $N$ is so (in the sense of Def. \ref{RCompleteGroup}).
 \end{definition}
 
-\begin{proposition}\label{CompletionOfAGroup}
+\begin{proposition}\label{FiberwiseCompletionOfAGroup}
 **(fiberwise completion of a group)**
 \linebreak
 Given a [[solid ring]] $R$ and any [[short exact sequence]] of [[groups]] (eq:AShortExactSequenceOfGroups), there is a [[universal construction]] of a fiberwise $R$-complete exact sequence 
@@ -132,13 +132,22 @@ $$
 
 ([Bousfield & Kan 1971, §2](#BousfieldKan71))
 
+
 ## Properties
 
 ### Special cases
 
-* for $R = \mathbb{Z}/p$ (a [[cyclic group]] of [[prime number|prime]] [[order of a group|order]]) and applied to [[finitely generated groups]], $R$-completion coincides with $p$-[[profinite completion of a group|profinite completion]];
- 
-* for $R = \mathbb{Q}$ (the [[rational numbers]]) and applied to [[nilpotent groups]], $R$-completion coincides with [[Malcev completion]].
+\begin{example}\label{ExampleProfiniteCompletion}
+**([[profinite completion]])**
+\linebreak
+For $R = \mathbb{Z}/p$ (a [[cyclic group]] of [[prime number|prime]] [[order of a group|order]]) and applied to [[finitely generated groups]], $R$-completion coincides with $p$-[[profinite completion of a group|profinite completion]].
+\end{example}
+
+\begin{example}\label{ExampleMalcevCompletion}
+**([[Malcev completion]])**
+\linebreak
+For $R = \mathbb{Q}$ (the [[rational numbers]]) and applied to [[nilpotent groups]], $R$-completion coincides with [[Malcev completion]].
+\end{example}
 
 (e.g. [Bousfield & Kan 1972, p. 99](#BousfieldKan72))
 
