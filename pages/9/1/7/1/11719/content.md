@@ -56,6 +56,9 @@ Therefore, the *real homotopy theory* of [Brown & Szczarba 1995](#BrownSzczarba9
 ## References
  {#References}
 
+### As continuous-real cohomology
+ {#ReferencesAsContinuousRealCohomology}
+
 On [[real homotopy theory]] ([[rational homotopy theory]] over the [[real numbers]]) using [[continuous cohomology|continuous]] [[real cohomology]] and [[topological algebra|topological]] [[dgc-algebras]]:
 
 * {#BrownSzczarba95} [[Edgar Brown]], [[Robert H. Szczarba]], _Real and Rational Homotopy Theory_, Chapter 17 in: *[[Handbook of Algebraic Topology]]*,  Elsevier, 1995 869-915 ([doi:10.1016/B978-044481779-2/50018-3](https://doi.org/10.1016/B978-044481779-2/50018-3), [ZB](http://mirrors.library.cornell.edu/ZMATH/zmath/en/zmath/search/?an=0865.55009))
@@ -72,8 +75,18 @@ with arbitrary [[fundamental group]]:
 
 * [[Edgar Brown]], [[Robert H. Szczarba]], *Real and rational homotopy theory for spaces with arbitrary fundamental group*, Duke Mathematical Journal 71. (1993): 229-316 ([doi:10.1215/S0012-7094-93-07111-6](https://projecteuclid.org/journals/duke-mathematical-journal/volume-71/issue-1/Rational-and-real-homotopy-theory-with-arbitrary-fundamental-groups/10.1215/S0012-7094-93-07111-6.short))
 
+### As rationalization followed by extension of scalars
+
 Discussion of the plain [[Quillen adjunction between simplicial sets and connective dgc-algebras]] over the real numbers, and its relation to [[rationalization]] followed by [[derived functor|derived]] [[extension of scalars]]:
 
 * {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The character map in (twisted differential) non-abelian cohomology]]* ([arXiv:2009.11909](https://arxiv.org/abs/2009.11909))
+
+following
+
+* [[Pierre Deligne]], [[Phillip Griffiths]], [[John Morgan]], [[Dennis Sullivan]], *Real homotopy theory of Kähler manifolds*, Invent Math **29** (1975) 245-274 &lbrack;[doi:10.1007/BF01389853](https://doi.org/10.1007/BF01389853)&rbrack;
+
+For discussion with focus on [[Hopf invariants]] and the [[Whitehead integral formula]] see the references
+
+* [there](Hopf+invariant#ReferencesWhiteheadIntegralFormula).
 
 
