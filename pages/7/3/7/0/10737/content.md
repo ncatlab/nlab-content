@@ -59,11 +59,15 @@ More generally, if $A$ is [[finitely generated object|finitely generated]], then
 
 * [[p-adic integers]]
 
+* [[completion of a group]]
+
 * [[completion of a ring]], [[analytic completion of a ring]]
 
 * [[p-localization]]
 
 * [[p-adic homotopy theory]]
+
+* [[rationalization]], [[rational homotopy theory]]
 
 * [[fracture theorem]]
 
@@ -73,14 +77,18 @@ More generally, if $A$ is [[finitely generated object|finitely generated]], then
 
 * [[L-complete module]]
 
+
+
 ## References
 
-Classical accounts include
+Classical accounts:
 
 * {#Sullivan05} [[Dennis Sullivan]], _Geometric topology: localization, periodicity and Galois symmetry_, volume 8 of K- Monographs in Mathematics. Springer, Dordrecht, 2005. The 1970 MIT notes, Edited and with a preface
 by [[Andrew Ranicki]] ([pdf](http://www.maths.ed.ac.uk/~aar/books/gtop.pdf))
 
-* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _[[Homotopy limits, completions and localizations]]_, Lecture Notes in Mathematics, Vol 304, Springer 1972
+* {#BousfieldKan71} [[Aldridge Bousfield]], [[Daniel Kan]], *Localization and completion in homotopy theory*, Bull. Amer. Math. Soc. **77** 6 (1971) 1006-1010 &lbrack;[doi:10.1090/S0002-9904-1971-12837-9](https://doi.org/10.1090/S0002-9904-1971-12837-9), [pdf](https://www.ams.org/journals/bull/1971-77-06/S0002-9904-1971-12837-9/S0002-9904-1971-12837-9.pdf)&rbrack;
+
+* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _[[Homotopy limits, completions and localizations]]_, Lecture Notes in Mathematics, **304** Springer (1972) &lbrack;[doi:10.1007/978-3-540-38117-4](https://doi.org/10.1007/978-3-540-38117-4)&rbrack;
 
 * {#MayPonto} [[Peter May]], [[Kate Ponto]], chapters 7 and 8 of _More concise algebraic topology: Localization, completion, and model categories_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/mayponto.pdf))
 
