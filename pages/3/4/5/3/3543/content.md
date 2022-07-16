@@ -25,6 +25,8 @@ Similarly one may consider "real-ification" by considering $\pi_\bullet(X) \otim
 
 ### Rationalization of a single space
 
+#### Rationalization of simply-connected spaces
+
 A **rationalization** of a [[simply connected space|simply connected]] [[topological space]] $X$ is a [[continuous function]] $\phi \colon X \to Y$, where
 
 * $Y$ is a [[simply connected space|simply connected]] [[rational space]];
@@ -65,10 +67,16 @@ A **rationalization** of a [[simply connected space|simply connected]] [[topolog
 
 (notice here that $\mathbb{Q} \otimes_{\mathbb{Z}} \mathbb{Q}\,\simeq\, \mathbb{Q}$, e.g. [here](http://www-users.math.umn.edu/~garrett/m/algebra/exercises/s19.pdf#page=2))
 
+
+
+#### Fiberwise rationalization of general spaces
+
+(...)
+
 ### Rationalization as a localization of $Top$/$\infty Grpd$
 
 In [[rational homotopy theory]] one considers
-the [[PL de Rham complex|PL de Rham]] [[Quillen adjunction]]
+the [[PL de Rham complex|PL de Rham]] [[Quillen adjunction]] 
 
 $$
   (\Omega^\bullet
@@ -86,9 +94,9 @@ $$
   \,.
 $$
 
-The [[fundamental theorem of dg-algebraic rational homotopy theory]] says that on [[nilpotent spaces]] with [[finite type]] [[rational chomology]] this induces an [[equivalence of categories|equivalence]] of [[homotopy categories]].
+The [[fundamental theorem of dg-algebraic rational homotopy theory]] says that on [[nilpotent spaces]] with [[finite type]] [[rational cohomology]] this induces an [[equivalence of categories|equivalence]] of [[homotopy categories]].
 
-Intrinsically this should model something like the (partially) left exact [[localization of an (∞,1)-category]] of [[∞Grpd]] at those morphisms that are [[rational homotopy equivalence]]s.
+Intrinsically this should model something like the (partially) left exact [[localization of an (∞,1)-category]] of [[∞Grpd]] at those morphisms that are [[rational homotopy equivalences]].
 
 $$
   \infty Grpd_{ratio} \stackrel{\leftarrow}{\hookrightarrow} 
@@ -472,15 +480,26 @@ For more see at _[[rational stable homotopy theory]]_.
 
 ## References
 
+Classical accounts:
+
+* {#BousfieldKan71} [[Aldridge Bousfield]], [[Daniel Kan]], *Localization and completion in homotopy theory*, Bull. Amer. Math. Soc. **77** 6 (1971) 1006-1010 &lbrack;[doi:10.1090/S0002-9904-1971-12837-9](https://doi.org/10.1090/S0002-9904-1971-12837-9), [pdf](https://www.ams.org/journals/bull/1971-77-06/S0002-9904-1971-12837-9/S0002-9904-1971-12837-9.pdf)&rbrack;
+
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], p. 133-140 in: _[[Homotopy Limits, Completions and Localizations]]_, Lecture Notes in Mathematics Vol. 304, Springer 1972 ([doi:10.1007/978-3-540-38117-4](https://doi.org/10.1007/978-3-540-38117-4))
 
 * {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], Def. 11.1 in: _[[On PL deRham theory and rational homotopy type]]_, Memoirs of the AMS, vol. 179 (1976) ([ams:memo-8-179](https://bookstore.ams.org/memo-8-179))
+
+Review:
 
 * {#Hess06} [[Kathryn Hess]], Def. 1.7 in: _Rational homotopy theory: a brief introduction_, contribution to _[Summer School on Interactions between Homotopy Theory and Algebra](https://jdc.math.uwo.ca/summerschool/)_, University of Chicago, July 26-August 6, 2004, Chicago ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626)), chapter in Luchezar Lavramov, [[Dan Christensen]], [[William Dwyer]], [[Michael Mandell]], [[Brooke Shipley]] (eds.), _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007 ([doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
 
 * {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_ (2011) ([pdf](https://math.mit.edu/events/talbot/2007/tmfproc/Chapter09/Bousfield.pdf), [[Bauer_BousfieldLocalization.pdf:file]]), chapter 6 in:  [[Christopher Douglas]], [[John Francis]], [[André Henriques]], [[Michael Hill]] (eds.), _Topological Modular Forms_, Mathematical Surveys and Monographs Volume 201, AMS 2014  ([ISBN:978-1-4704-1884-7](https://bookstore.ams.org/surv-201))
 
 * [[Tyler Lawson]], Example 8.12 in: *An introduction to Bousfield localization* ([arXiv:2002.03888](https://arxiv.org/abs/2002.03888)) in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds.), *[[Stable categories and structured ring spectra]]*  MSRI Book Series, Cambridge University Press
+
+Further developments:
+
+* {#RiveraWierstraZeinalia21} [[Manuel Rivera]], [[Felix Wierstra]], [[Mahmoud Zeinalian]], *Rational homotopy equivalences and singular chains*, Algebr. Geom. Topol. **21** (2021) 1535-1552 &lbrack;[arXiv:1906.03655](https://arxiv.org/abs/1906.03655). [doi:10.2140/agt.2021.21.1535](https://doi.org/10.2140/agt.2021.21.1535)&rbrack;
+
 
 
 [[!redirects rationalizations]]
