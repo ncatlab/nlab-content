@@ -21,10 +21,11 @@
 
 
 ## Idea
+ {#Idea}
 
-The [[propositions]] in a [[logic]] can be thought of as having an algebraic structure, with operators like "and" and "or", with different logics corresponding to different sets of operators and axioms.
+Generally, the [[propositions]] in a [[formal logic]] may be thought of as having an [[algebra|algebraic]] structure with respect to logical operators like "[[conjunction|and]]" and "[[disjunction|or]]". Under this identification, different systems of logic correspond to different sets of operators and axioms.
 
-For the [[intuitionistic logic|intuitionistic]] [[propositional calculus]], the operators (including nullary operators, i.e. constants) are "and", "or", "true", "false", and "implies". The concept of a **Heyting algebra** captures these operators and their axioms, so that a Heyting algebra is precisely a model of the intuitionistic propositional calculus.
+For the [[intuitionistic logic|intuitionistic]] [[propositional calculus]], the operators (including nullary operators, i.e. constants) are "[[logical conjunction|and]]", "[[logical disjunction|or]]", "[[true]]", "[[false]]", and "[[implication|implies]]". The concept of a **Heyting algebra** captures these operators and their axioms, so that a Heyting algebra is precisely a [[model]] of the intuitionistic propositional calculus.
 
 A Heyting algebra where [[excluded middle]] holds is a [[Boolean algebra]], a model of [[classical logic|classical]] propositional calculus.
 
