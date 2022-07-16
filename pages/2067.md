@@ -95,6 +95,16 @@ $$
 
 In imprecise words: for all commuting triangles in $Y$ (involving $p(f)$ as above) and all lifts through $p$ of its 2-[[horn]] to $X$ (involving $f$ as above), there is a unique refinement to a lift of the entire commuting triangle.
 
+We can make this definition slightly more explicit by working with the fibres of $p$: let $X_x$ denote $p^{-1}(y)$, the set of objects living over $y$; and, for $f : y \to y'$, $x : X_y$ and $x' : X_{y'}$, let $X_f(x,x')$ denote $p^{-1}(f) \cap X(x,x')$, the set of morphisms from $x$ to $x'$ that $p$ maps to $f$.
+
+Then for $x : X_y$, $x' : X_{y'}$ and $f : y' \to y$, a morphism $\bar f : X_f(x',x)$ is *cartesian* iff for any $u : y'' \to y'$, $x'' : X_{y''}$ and $h : X_{f \circ u}(x'', x)$, there is a unique $\bar u : X_u(x'',x')$ with $h = \bar f \circ \bar u$. This can be expressed in the following diagram, where the upper objects and morphisms live in $X$ over their corresponding data in $Y$:
+
+\begin{tikzcd}
+y'' \arrow[d, dotted, maps to] \arrow[rd, "\exists ! \bar u", dashed] \arrow[rrd, "h", bend left] &                                                   &                              \\
+x'' \arrow[rd, "u"]                                                                               & y' \arrow[d, dotted, maps to] \arrow[r, "\bar f"] & y \arrow[d, dotted, maps to] \\
+                                                                                                  & x' \arrow[r, "f"]                                 & x                           
+\end{tikzcd}
+
 There is a weaker universal property, originally devised by Grothendieck and Gabriel, where one requires above lifting property only for $u = id_{p(x_1)}$, and traditionally also called simply cartesian, or rarely weak cartesian. In Grothendieck's [[fibered categories]] (see below), cartesian in the strong sense and cartesian in the weak sense are equivalent properties of morphisms.  
 
 If we pass to the [[nerve]] $N(X)$ and $N(Y)$ of the categories, then in terms of diagrams in [[sSet]] this means that the morphism $f : x \to y$ is $p$-cartesian precisely if for all [[horn]] inclusions
