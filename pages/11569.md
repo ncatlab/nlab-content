@@ -1,4 +1,5 @@
 
+> Not to be confused with *[[completion of a group]]*.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
