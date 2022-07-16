@@ -396,21 +396,27 @@ The assignment $H \mapsto Comp(H)$ is the object part of a right adjoint to the 
 \end{thm}
 
 \begin{proof}
-In a Heyting algebra $H$, the elements $0$ and $1$ are clearly complemented. If $x$ and $y$ are complemented, then so is $x \wedge y$ since 
-
-$$1 = 1 \wedge 1 = (x \vee \neg x \vee \neg y) \wedge (y \vee \neg x \vee \neg y) = (x \wedge y) \vee (\neg x \vee \neg y)$$ 
-
-$$\,$$ 
-
-$$(x \wedge y) \wedge (\neg x \vee \neg y) = (x \wedge y \wedge \neg x) \vee (x \wedge y \wedge \neg y) = 0 \vee 0 = 0.$$ 
-
-By a similar proof, $x \vee y$ is complemented. Finally, $x \Rightarrow y$ has complement $x \wedge \neg y$: writing $x \Rightarrow y = y^x$ for typographical clarity, we have 
-
-$$1 = 1 \wedge 1 = (\neg x \vee x) \wedge (y \vee \neg y) \leq (y^x \vee x) \wedge (y^x \vee \neg y) = y^x \vee (x \wedge \neg y),$$ 
-
-$$\,$$ 
-
-$$y^x \wedge x \wedge \neg y \leq y \wedge \neg y = 0.$$ 
+In a Heyting algebra $H$, the elements $0$ and $1$ are clearly
+complemented. If $x$ and $y$ are complemented, then
+so are $x \wedge y$, $x \vee y$, and $x \Rightarrow y$;
+we leave meet and join as an [[exercise]] applying
+\ref{NegationFacts}, and demonstrate implication
+(using \eqref{NegIfEq}):
+$$
+\begin{aligned}
+(x \Rightarrow y) \vee \neg(x \Rightarrow y)
+&= (x \Rightarrow y) \vee (\neg\neg x \wedge \neg y)
+\\
+&= ((x \Rightarrow y) \vee \neg\neg x)
+  \wedge ((x \Rightarrow y) \vee \neg y)
+\\
+&\geq (\neg x \vee x)
+  \wedge (y \vee \neg y)
+\\
+&= 1
+\; .
+\end{aligned}
+$$
 
 Thus the complemented elements form a Heyting subalgebra $Comp(H) \hookrightarrow H$. Clearly $Comp(H)$ is a Boolean algebra, and clearly if $B$ is Boolean, then any Heyting algebra map $B \to H$ factors uniquely through $Comp(H) \hookrightarrow H$. This proves the theorem. 
 \end{proof}
