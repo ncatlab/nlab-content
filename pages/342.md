@@ -52,7 +52,7 @@ Given a notion of [[infinity-category|$\infty$-category]] (as weak or strict as 
 * any $j$-morphism is an [[equivalence]], for $j \gt r$;
 * any two [[parallel morphisms|parallel]] $j$-morphisms are equivalent, for $j \gt n$.
 
-As explained below, we may assume that $n \geq -2$ and $0 \leq r \leq n + 1$.
+As explained below, we may assume that $n \geq -2$ and $0 \leq r \leq \max(0, n + 1)$.
 
 For finite $r$, we can also define this inductively in terms of [[(∞,r)-categories]] as follows:
 
@@ -68,11 +68,12 @@ For $0 \lt r \lt \infty$, an **(n,r)-category** is an [[(∞,r)-category]] $C$ s
 
 You can also start with a notion of $n$-[[n-poset|poset]], then define an $(n,r)$-category to be an $(n+1)$-poset such that any $j$-morphism is an [[equivalence]] for $j \gt r$. Or, for $r \leq n$, you can start with a notion of $n$-[[n-category|category]], then define an $(n,r)$-category to be an $n$-category such that any $j$-morphism in an [[equivalence]] for $j \gt r$.
 
-To interpret this correctly for low values of $j$, we must assume that all objects ($0$-morphisms) in a given $\infty$-category are parallel, which leads us to speak of the two $(-1)$-morphisms that serve as their common source and target and to accept any object as an equivalence between these. In particular, any $j$-morphism is an equivalence for $j \lt 1$, so if $r = 0$, then the condition is satisfied for any smaller value of $r$. Thus, we assume that $r \geq 0$.
+To interpret the first definition above correctly for low values of $j$, we must assume that all objects ($0$-morphisms) in a given $\infty$-category are parallel, which leads us to speak of the two $(-1)$-morphisms that serve as their common source and target and to accept any object as an equivalence between these. In particular, any $j$-morphism is an equivalence for $j \lt 1$, so if $r = 0$, then the condition is satisfied for any smaller value of $r$. Thus, we assume that $r \geq 0$.
 
 To say that parallel $(-1)$-morphisms must be equivalent is meaningful; it requires that there be an object. One can continue to $(-2)$-morphisms and so on, but there is nothing to vary about these; so we assume that $n \geq -2$. In other words, a $(-2)$-[[(-2)-category|category]] will automatically be an $n$-category for any smaller value of $n$.
 
-If any two parallel $j$-morphisms are equivalent, then any $j$-morphism between equivalent $(j-1)$-morphisms is an equivalence (being parallel to an identity for $j \gt 0$ and automatically for $j \lt 1$). Accordingly, any $(n,r)$-category for $r \gt n + 1$ is also an $(n,n+1)$-category. Thus, we assume that $r \leq n + 1$. 
+If any two parallel $j$-morphisms are equivalent, then any $j$-morphism between equivalent $(j-1)$-morphisms is an equivalence (being parallel to an identity for $j \gt 0$ and automatically for $j \lt 1$). Accordingly, any $(n,r)$-category for $r \gt n + 1$ is also an $(n,n+1)$-category. Thus, we assume that $r \leq n + 1$ (except when $n = -2$, where it would conflict with the convention $r \geq 0$ and so we simply take $r = 0$.)
+
 
 ## Homotopy-theoretic relation {#HomtopyTheory}
 
@@ -163,13 +164,63 @@ An analogous systematics exists for $(n,r)$-categories that in additions have th
 ## The periodic table 
 
 There is a [[periodic table]] of $(n,r)$-categories:
-<table><tr><th markdown="1">$r$&#8595;\$n$&#8594;</th><th markdown="1">$-2$</th><th markdown="1">$-1$</th><th markdown="1">$0$</th><th markdown="1">$1$</th><th markdown="1">$2$</th><th markdown="1">...</th><th markdown="1">$\infty$</th></tr>
-<tr><th markdown="1">$0$</th><td>trivial</td><td>[[truth value]]</td><td>[[set]]</td><td>[[groupoid]]</td><td>[[2-groupoid]]</td><td>...</td><td>[[infinity groupoid]]</td></tr>
-<tr><th markdown="1">$1$</th><td>"</td><td>"</td><td>[[partial order|poset]]</td><td>[[category]]</td><td>[[(2,1)-category]]</td><td>...</td><td>[[(infinity,1)-category]]</td></tr>
-<tr><th markdown="1">$2$</th><td>"</td><td>"</td><td>"</td><td>[[2-poset]]</td><td>[[2-category]]</td><td>...</td><td>[[(infinity,2)-category]]</td></tr>
-<tr><th markdown="1">$3$</th><td>"</td><td>"</td><td>"</td><td>"</td><td>[[3-poset]]</td><td>...</td><td>[[(infinity,3)-category]]</td></tr>
-<tr><th markdown="1">&#8942;</th><td>&#8942;</td><td>&#8942;</td><td>&#8942;</td><td>&#8942;</td><td>&#8942;</td><td>&#8945;</td><td>&#8942;</td></tr>
-<tr><th markdown="1">$\infty$</th><td>trivial</td><td>truth value</td><td>poset</td><td>2-poset</td><td>3-poset</td><td>...</td><td>[[(infinity,infinity)-category]]/[[infinity poset]]</td></tr>
+<table>
+<tr><th markdown="1" style="white-space: nowrap;">$n$&#8594;<br/>$r$&#8595;</th>
+  <th markdown="1">$-2$</th>
+  <th markdown="1">$-1$</th>
+  <th markdown="1">$0$</th>
+  <th markdown="1">$1$</th>
+  <th markdown="1">$2$</th>
+  <th markdown="1">...</th>
+  <th markdown="1">$\infty$</th></tr>
+<tr><th markdown="1">$0$</th>
+  <td>[[point]]</td>
+  <td>[[truth value]]</td>
+  <td>[[set]]</td>
+  <td>[[groupoid]]</td>
+  <td>[[2-groupoid]]</td>
+  <td>...</td>
+  <td>[[∞-groupoid]]</td></tr>
+<tr><th markdown="1">$1$</th>
+  <td>"</td>
+  <td>"</td>
+  <td>[[partial order|poset]]</td>
+  <td>[[category]]</td>
+  <td>[[(2,1)-category]]</td>
+  <td>...</td>
+  <td>[[(∞,1)-category]]</td></tr>
+<tr><th markdown="1">$2$</th>
+  <td>"</td>
+  <td>"</td>
+  <td>"</td>
+  <td>[[2-poset]]</td>
+  <td>[[2-category]]</td>
+  <td>...</td>
+  <td>[[(∞,2)-category]]</td></tr>
+<tr><th markdown="1">$3$</th>
+  <td>"</td>
+  <td>"</td>
+  <td>"</td>
+  <td>"</td>
+  <td>[[3-poset]]</td>
+  <td>...</td>
+  <td>[[(∞,3)-category]]</td></tr>
+<tr><th markdown="1">&#8942;</th>
+  <td>&#8942;</td>
+  <td>&#8942;</td>
+  <td>&#8942;</td>
+  <td>&#8942;</td>
+  <td>&#8942;</td>
+  <td>&#8945;</td>
+  <td>&#8942;</td></tr>
+<tr><th markdown="1">$\infty$</th>
+  <td>point</td>
+  <td>truth value</td>
+  <td>poset</td>
+  <td>2-poset</td>
+  <td>3-poset</td>
+  <td>...</td>
+  <td>[[(∞,∞)-category]]/[[∞-poset]]</td></tr>
 </table>
 
 ## Models for weak (n,r)-categories 
