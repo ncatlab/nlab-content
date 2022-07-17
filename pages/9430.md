@@ -110,7 +110,7 @@ One can compute intervals for homological features algorithmically over field co
 
 * [[quiver representation]], [[Gabriel's theorem]]
 
-* [[persistent object]] of a category
+* [[persistence object]]
 
 ## References
 
@@ -126,7 +126,11 @@ Introduction and survey:
 
 * [[Herbert Edelsbrunner]], [[Dmitriy Morozov]], *Persistent homology: theory and practice*, in: *European Congress of Mathematics Kraków, 2–7 July, 2012* EMS $[$[doi:10.4171/120-1/3](https://www.ems-ph.org/books/show_abstract.php?proj_nr=170&vol=1&rank=3), [pdf](http://mrzv.org/publications/persistent-homology-theory-practice/ecm)$]$
 
+* [[Donald Pinckney]], *[Topological Data Analysis and Persistent Homology](https://donaldpinckney.com/machine%20learning/2019/05/02/tda.html)* (2019)
+
 * [[Stefan Huber]], *Persistent Homology in Data Science* In: *Data Science – Analytics and Applications*, Springer (2021) $[$[doi:10.1007/978-3-658-32182-6_13](https://doi.org/10.1007/978-3-658-32182-6_13), [pdf](https://www.sthu.org/research/publications/files/Hub20.pdf)$]$
+
+
 
 
 Review with emphasis of [[zigzag persistence]] with relation to [[quiver representation theory]]:
