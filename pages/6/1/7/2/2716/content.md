@@ -210,11 +210,11 @@ An article with more details on this:
 
 The notion originates somewhere in the school of [[Alan Weinstein]]'s school of [[higher category theory|higher categorial]] [[symplectic geometry]]. The first published appearance of the notion at least for $0 \leq n \leq 3$ is
 
-* [[Dmitry Roytenberg]], _Courant algebroids, derived brackets and even symplectic supermanifolds_ PhD thesis ([arXiv:9910078](http://arxiv.org/abs/math/9910078))
+* [[Dmitry Roytenberg]], _Courant algebroids, derived brackets and even symplectic supermanifolds_, PhD thesis &lbrack;[arXiv:9910078](http://arxiv.org/abs/math/9910078)&rbrack;
 
 A good writeup of this material is in
 
-* [[Dmitry Roytenberg]], _On the structure of graded symplectic supermanifolds and Courant algebroids_ in _Quantization, Poisson Brackets and Beyond_ , [[Theodore Voronov]] (ed.), Contemp. Math., Vol. 315, Amer. Math. Soc., Providence, RI, 2002 ([arXiv](http://arxiv.org/abs/math/0203110))
+* [[Dmitry Roytenberg]], _On the structure of graded symplectic supermanifolds and Courant algebroids_, in: [[Theodore Voronov]] (ed.),  _Quantization, Poisson Brackets and Beyond_, Contemp. Math. **315**, Amer. Math. Soc. (2002) &lbrack;[arXiv:0203110](http://arxiv.org/abs/math/0203110), [ISBN:978-0-8218-7905-4](https://bookstore.ams.org/conm-315)&rbrack;
 
 The idea for all $n$ was then sketched, together with many other ideas about [[L-infinity algebroid]]s in the article with the nice title
 
@@ -239,7 +239,7 @@ A discussion of symplectic Lie n-algebroids from an [[infinity-Lie theory]] pers
 
 The [[H-cohomology]] of graded symplectic forms is considered in
 
-* {#Severa05} [[Pavol ?evera]], p. 1 of _On the origin of the BV operator on odd symplectic supermanifolds_, Lett Math Phys (2006) 78: 55. ([arXiv:0506331](https://arxiv.org/abs/math/0506331))
+* {#Severa05} [[Pavol Severa]], p. 1 of _On the origin of the BV operator on odd symplectic supermanifolds_, Lett Math Phys (2006) 78: 55. ([arXiv:0506331](https://arxiv.org/abs/math/0506331))
 
 
 [[!redirects symplectic Lie n-algebroids]]
