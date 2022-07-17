@@ -5,8 +5,12 @@
 
 On [[topological stacks]] and [[differentiable stacks]]:
 
-
 * {#Carchedi11} [[David Carchedi]], _Categorical Properties of Topological and Diffentiable Stacks_, PhD thesis, Universiteit Utrecht, 2011 ([dspace:1874/208971](https://dspace.library.uu.nl/handle/1874/208971), [pdf](http://math.gmu.edu/~dcarched/Thesis_David_Carchedi.pdf), [[CarchediDifferentiableStacks.pdf:file]])
+
+On [[smooth superalgebras]]:
+
+* [[David Carchedi]], [[Dmitry Roytenberg]], *On Theories of Superalgebras of Differentiable Functions* &lbrack;[arXiv:1211.6134](http://arxiv.org/abs/1211.6134)&rbrack;
+
 
 
 On [[étale infinity-groupoids]]:
