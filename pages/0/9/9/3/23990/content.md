@@ -45,6 +45,8 @@ However, besides [[homology]] there is, [[duality|dually]], also *[[cohomology]]
 
 * [[homotopy theory]]
 
+* [[persistence object]]
+
 * [[parameterized homotopy theory]]
 
 * [[persistent homology]]
