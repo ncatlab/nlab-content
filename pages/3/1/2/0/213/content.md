@@ -195,6 +195,12 @@ With an eye towards [[Frölicher space]]s the site is also considered in section
 
 category: category
 
+[[!redirects Cart]]
+[[!redirects site of cartesian spaces]]
+[[!redirects sites of cartesian spaces]]
+[[!redirects site of cartesian manifolds]]
+[[!redirects sites of cartesian manifolds]]
+
 [[!redirects CartSp]]
 [[!redirects Cart Sp]]
 [[!redirects CartesianSpace]]
