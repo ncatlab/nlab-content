@@ -25,10 +25,14 @@
 * table of contents
 {: toc}
 
+## Idea
+
+The notion of a *bicartesian closed preordered object* or *Heyting prealgebra object* is the generalization of that of *[[bicartesian closed preordered set]]* or *[[Heyting prealgebra]]* as one passes from the ambient [[category of sets]] [[internalization|into]] more general ambient  [[categories]] with suitable properties.
+
 ## Definition
 
 In a [[finitely complete category]] $C$, a **bicartesian closed preordered object** or **Heyting prealgebra object** is a [[bicartesian preordered object]] 
-$$(X, s, t, \rho, \tau_p \wedge, \top, \tau, \lambda_l, \lambda_r, \vee, \bot, \beta, \kappa_l, \kappa_r)$$ 
+$$(X, R, s, t, \rho, \tau_p \wedge, \top, \tau, \lambda_l, \lambda_r, \vee, \bot, \beta, \kappa_l, \kappa_r)$$ 
 with a morphism $(-)\Rightarrow(-):X \times X \to X$ and functions
 $$\epsilon_l:((* \to X) \times (* \to X)) \to (* \to R)$$ 
 $$\epsilon_r:((* \to X) \times (* \to X)) \to (* \to R)$$ 
@@ -40,6 +44,8 @@ such that for all global elements $a:* \to X$ and $b:* \to X$,
 * $t \circ \epsilon_r(a, b) = b \Rightarrow (a \wedge b)$
 
 ## See also 
+
+* [[Heyting prealgebra]]
 
 * [[bicartesian preordered object]]
 
