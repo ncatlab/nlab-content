@@ -15,6 +15,11 @@
 * table of contents
 {:toc}
 
+## Idea
+
+A __regular value__ of a map $f$ between [[smooth manifolds]] is an element of the codomain of $f$ that is not a __critical value__, i.e., not an image of a [[critical point]] of $f$.
+
+
 ## Definition
 
 +-- {: .num_defn #RegularValue}
@@ -22,7 +27,6 @@
 **([[regular value]])**
 
 For 
-
 $$
   f 
     \;\colon\;
@@ -30,15 +34,11 @@ $$
     \longrightarrow
   Y
 $$
-
 a [[differentiable function]] between [[differentiable manifolds]] (e.g. a [[smooth function]] between [[smooth manifolds]]) a [[point]] $q \in f(X) \subset Y$ in the [[image]] of $f$ is called a _regular value_ of $f$ if at all points $p \in f^{-1}(\{q\})$ in its [[preimage]], the [[differential]]
-
 $$
   d f_p \;\colon\; T_p X \longrightarrow T_{f(x)} Y = T_{q}Y
 $$
-
 is a [[surjective function]] between the corresponding [[tangent spaces]].
-
 
 
 A function all whose values are regular values is called a _[[submersion]]_.
@@ -102,3 +102,5 @@ Together with the [[Thom's transversality theorem]], this is the key to the [[pr
 [[!redirects regular point]]
 [[!redirects regular points]]
 
+[[!redirects critical value]]
+[[!redirects critical values]]
