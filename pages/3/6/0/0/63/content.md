@@ -154,6 +154,9 @@ In relation to [[equivariant de Rham cohomology]]:
 
 [[!redirects BRST complexes]]
 
+[[!redirects BRST-complex]]
+[[!redirects BRST-complexes]]
+
 [[!redirects BRST differential]]
 [[!redirects BRST differentials]]
 
