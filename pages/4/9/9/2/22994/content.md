@@ -8,6 +8,8 @@ Discussion of [[higher gauge theory]] modeling the [[Green-Schwarz mechanisms]] 
 
 * {#SatiSchreiberStasheff12} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_, Comm. Math. Phys. **315** (2012) 169-213 ([arXiv:0910.4001](https://arxiv.org/abs/0910.4001), [doi:10.1007/s00220-012-1510-3](https://link.springer.com/article/10.1007/s00220-012-1510-3))
 
+  > (via [[adjusted Weil algebras]], see there for more)
+
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:The moduli 3-stack of the C-field|The $E_8$ moduli 3-stack of the C-field in M-theory]]*, Comm. Math. Phys. **333** 1 (2015) 117-151 ([arXiv:1202.2455](https://arxiv.org/abs/1202.2455))
 
 * [[Clay Cordova]], [[Thomas Dumitrescu]], [[Kenneth Intriligator]], _Exploring 2-Group Global Symmetries_,  J. High Energ. Phys. **2019** 184 (2019) ([arXiv:1802.04790](https://arxiv.org/abs/1802.04790), <a href="https://doi.org/10.1007/JHEP02(2019)184">doi:10.1007/JHEP02(2019)184</a>)
