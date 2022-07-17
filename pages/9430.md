@@ -110,6 +110,8 @@ One can compute intervals for homological features algorithmically over field co
 
 * [[quiver representation]], [[Gabriel's theorem]]
 
+* [[persistent object]] of a category
+
 ## References
 
 ### General
