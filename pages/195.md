@@ -42,10 +42,10 @@ We still need to clarify exactly what sort of collection a set is.  Although mos
 
 ### In category theory
 
-+-- {: .un_defn}
++-- {: .un_defn #AsCategory}
 ###### Definition
 
-A __set__ is a [[category]] (or instead an $\infty$-[[infinity-groupoid|groupoid]] or even an $\infty$-[[infinity-category|category]]) that is [[small category|small]], [[discrete category|discrete]], and [[skeletal category|skeletal]]. (This definition needs explaination since it seems to be recursive, as "smallness" refers to what a set is.)
+A __set__ is a [[category]] (or instead an $\infty$-[[infinity-groupoid|groupoid]] or even an $\infty$-[[infinity-category|category]]) that is [[small category|small]], [[discrete category|discrete]], and [[skeletal category|skeletal]]. (This definition needs explanation since it seems to be recursive, as "smallness" refers to what a set is.)
 =--
 Each of these three adjectives describes a different aspect of what makes something a 'set', and they serve different purposes, which should not be conflated.
 
