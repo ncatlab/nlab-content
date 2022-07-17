@@ -82,7 +82,6 @@ There is also a 1944 result by Dieudonnne that numerable covers are cofinal in [
 
 Many classical theorems concerning [[fiber bundles]] are stated for the numerable site. For example, the [[classifying space]] $\mathcal{B}G$ actually classifies [[bundles]] which trivialise over a numerable cover. (References? Dold for [[Milnor's classifying space]], and tom Dieck I think for Segal's) These are called [[numerable bundles]]. This is because the standard constructions of the universal bundle by Minor and Segal both are trivialisable over a numerable cover.
 
-
 ## References ##
 
 * {#Stone} [[Arthur H. Stone]], _Paracompactness and product spaces_, Bulletin of the American Mathematical Society 54:10 (1948), 977–983 $[$[doi:10.1090/S0002-9904-1948-09118-2](https://doi.org/10.1090/S0002-9904-1948-09118-2)$]$
