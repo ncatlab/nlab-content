@@ -145,6 +145,8 @@ If the trinary bracket $[-,-,-]$ in a Lie 2-algebra is trivial, one speaks of a 
 
   * [[membrane matrix model]]
 
+* [[Lie 3-algebra]], [[Lie 3-group]]
+
 * [[L-∞ algebra]], [[smooth ∞-group]]
 
 * [[Lie algebroid]], [[Lie groupoid]]
@@ -155,8 +157,12 @@ If the trinary bracket $[-,-,-]$ in a Lie 2-algebra is trivial, one speaks of a 
 
 * {#BaezCrans04} [[John Baez]], [[Alissa Crans]], _Higher-Dimensional Algebra VI: Lie 2-Algebras_ Theory and Applications of Categories, Vol. 12, (2004) No. 15, pp 492-528. ([TAC:12-15](http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html)) 
 
+* [[Daniel Berwick-Evans]], [[Eugene Lerman]], _Lie 2-algebras of vector fields_, [arxiv/1609.03944](http://arxiv.org/abs/1609.03944)
+
+On [[weak Lie 2-algebras]]:
+
 * {#Roytenberg07} [[Dmitry Roytenberg]], _On weak Lie 2-algebras_, AIP Conference Proceedings 956, 180 (2007) ([arXiv:0712.3461](http://arxiv.org/abs/0712.3461), [doi:10.1063/1.2820967]( https://doi.org/10.1063/1.2820967))
 
-* [[Daniel Berwick-Evans]], [[Eugene Lerman]], _Lie 2-algebras of vector fields_, [arxiv/1609.03944](http://arxiv.org/abs/1609.03944)
+
 
 [[!redirects Lie 2-algebras]]
