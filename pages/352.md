@@ -113,6 +113,8 @@ A [[syntax|syntactic]] definition is given by [[Eric Finster]] in terms of [[ope
 
 [[!redirects (infinity,infinity)-category]]
 [[!redirects (infinity,infinity)-categories]]
+[[!redirects (∞,∞)-category]]
+[[!redirects (∞,∞)-categories]]
 
 [[!redirects (∞,?)-category]]
 [[!redirects (∞,?)-categories]]
