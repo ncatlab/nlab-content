@@ -1,4 +1,10 @@
 
++-- {: .un_defn #AsBaz}
+###### Definition
+
+A __foo__ is a barry baz.
+=--
+
 
 ## Idea
 
