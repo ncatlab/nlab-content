@@ -55,11 +55,14 @@ However, besides [[homology]] there is, [[duality|dually]], also *[[cohomology]]
 
 ### General
 
-Original articles with focus on establishing the homotopy-version of the [[stability of persistence diagrams|stability theorem]]:
+Original articles with focus on establishing the homotopy-version of the [[stability of persistence diagrams|stability theorem]] and the persistent version of [[Whitehead theorem]]:
 
 * {#BlumbergLesnick17} [[Andrew J. Blumberg]], [[Michael Lesnick]], *Universality of the Homotopy Interleaving Distance* $[$[arXiv:1705.01690](https://arxiv.org/abs/1705.01690)$]$
 
 * {#Jardine19} [[J. F. Jardine]], *Data and homotopy types* $[$[arXiv:1908.06323](https://arxiv.org/abs/1908.06323)$]$
+
+* {#LanariScoccola22} Edoardo Lanari, [[Luis Scoccola]], _Rectification of interleavings and a persistent Whitehead theorem_, Algebraic & Geometric Topology (to appear), $[$[arXiv:2010.05378] (https://arxiv.org/abs/2010.05378)$]$
+
 
 Review:
 
@@ -72,7 +75,6 @@ Further discussion:
 Discussion with focus on the [[van Kampen theorem]], [[excision]] and the [[Hurewicz theorem]] in persistent homotopy:
 
 * Mehmet Ali Batan, Mehmetcik Pamuk, Hanife Varli, *Persistent Homotopy* $[$[arXiv:1909.08865](https://arxiv.org/abs/1909.08865)$]$
-
 
 
 
