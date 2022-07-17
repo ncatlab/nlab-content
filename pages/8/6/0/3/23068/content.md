@@ -22,6 +22,18 @@
 * table of contents 
 {:toc}
 
+## Idea
+ {#Idea}
+
+The notion of *$E L_\infty$-algebras* is meant to be the fully [[homotopy theory|homotopy theoretic]] (i.e. [[(infinity,1)-category|$(\infty,0)$-]][[categorification|categorified]]) [[higher structure]] enhancing the [[mathematical structure]] of *[[Lie algebras]]*: For $E L_\infty$-algebras both the [[Jacobi identity]] *and* the *[[exterior algebra|skew symmetry]]* of the [[Lie bracket]] are relaxed up to potentially infinite [[coherence law|coherent]] [[higher homotopy]].
+
+This is in contrast to more widely considered notion of [[L-infinity algebras|$L_\infty$-algebras]], which relax the [[Jacobi identity]] but retain strict [[exterior algebra|skew symmetry]]. (Whence the terminology "$E L_\infty$": the "$E$" is for "everything homotopy", a whimsical but time-honored terminology, enshrined in the now classical terminology of [[E-infinity algebras|$E_\infty$-algebras]]).
+
+The [[homotopy theory]] of $E L_\infty$-algebra is in fact [[equivalence of (infinity,1)-categories|equivalent]] to [[model structure for L-infinity algebras|that of $L_\infty$-algebras]] (and thus both [[relation between L-infinity algebras and dg-Lie algebras|are equivalent even to]] [[model structure on dg-Lie algebras|that of dg-Lie algebras]], which are further [[rectification|rectified]] $L_\infty$-algebras): $L_\infty$-algebras are special case of $E L_\infty$-algebras and every $E L_\infty$-algebra is [[weak equivalence|weakly equivalent]] to one that is just an $L_\infty$-algebra (i.e. the homotopy-skew-symmetry may always be [[rectification|rectified]] to strict skew symmetry).
+
+Nevertheless, in some circumstances it is practically useful to work with instances of $E L_\infty$-algebras up to [[isomorphism]] without passing to a [[weak equivalence|weakly equivalent]] [[L-infinity algebra|$L_\infty$-algebra]]. In particular, [Borsten, Kim & Saemann 2021](#BKS21) argue that the notion of $E L_\infty$-algebra serves to give a transparent way to understand [[adjusted Weil algebras]] for [[L-infinity algebras|$L_\infty$-algebras]], and then to understand [[tensor hierarchies]] (in [[gauged supergravity]]-theory) in terms of the resulting [[connection on a smooth principal infinity-bundle|$\infty$-connections]]/[[higher gauge theory]].
+
+
 ## $h\mathcal{L}ie$- and $\mathcal{E}ilh$-algebras
 
 The following notions have been introduced by ([BKS21](#BKS21)).
@@ -142,9 +154,9 @@ for some $m^\beta_\alpha$ and $m^{i,\gamma}_{\alpha\beta}$ is the $\mathcal{E}il
 where $|\beta|\coloneqq|t^\beta|$.
 \end{definition}
 
-## $EL_\infty$-algebras
+## $E L_\infty$-algebras
 
-$EL_\infty$-algebras are the homotopy version of $h\mathcal{L}ie$-algebras, defined by ([BKS21](#BKS21)).
+$E L_\infty$-algebras are the homotopy version of $h\mathcal{L}ie$-algebras, defined by ([BKS21](#BKS21)).
 
     
 Analogously to an $L_\infty$-algebra, an $EL_\infty$-algebra structure on a graded vector space $\mathfrak{E}$ is encoded by a differential $Q$ on the $\mathcal{E}ilh$-algebra $\mathrm{CE}(\mathfrak{E})\coloneqq (\oslash_\bullet^\bullet \mathfrak{E}[1]^\ast, Q, \oslash_i)$. The differential $Q$ is given by its action on $\mathfrak{E}[1]^\ast$, which will be encoded by structure constants $m$ as follows:
@@ -198,8 +210,18 @@ where $I$ is a multi-index consisting of $n-1$ indices $i_1,i_2,\ldots,\in \math
 ## References 
  {#References}
 
+The general notion is discussed in:
 
-* {#BKS21} [[Leron Borsten]], [[Hyungrok Kim]], [[Christian Saemann]], _$EL_\infty$-algebras, Generalized Geometry, and Tensor Hierarchies_ ([arXiv:2106.00108](https://arxiv.org/abs/2106.00108))
+* {#BKS21} [[Leron Borsten]], [[Hyungrok Kim]], [[Christian Saemann]]: _$EL_\infty$-algebras, Generalized Geometry, and Tensor Hierarchies_ ([arXiv:2106.00108](https://arxiv.org/abs/2106.00108))
+
+The special case of weak Lie 2-algebras was originally considered in:
+
+* {#Roytenberg07} [[Dmitry Roytenberg]]: *On weak Lie 2-algebras*, in: *XXVI Workshop on Geometrical Methods in Physics*, AIP Conference Proceedings **956**, American Institute of Physics, (2007) &lbrack;[arXiv:0712.3461](https://arxiv.org/abs/0712.3461), [hdl:10993/10465](http://hdl.handle.net/10993/10465)&rbrack;
+
+and the more general special case of weak Lie 3-algebras in:
+
+* [[Malte Dehling]], *On weak Lie 3-algebras* &lbrack;[arXiv:1710.11104](https://arxiv.org/abs/1710.11104)&rbrack;
+
 
 
 [[!redirects EL-infinity-algebras]]
@@ -209,3 +231,14 @@ where $I$ is a multi-index consisting of $n-1$ indices $i_1,i_2,\ldots,\in \math
 [[!redirects EL-∞ algebras]]
 [[!redirects EL-∞-algebra]]
 [[!redirects EL-∞-algebras]]
+
+[[!redirects hemistrict Lie 2-algebra]]
+[[!redirects hemistrict Lie 2-algebras]]
+
+[[!redirects weak Lie 2-algebra]]
+[[!redirects weak Lie 2-algebras]]
+
+[[!redirects weak Lie 3-algebra]]
+[[!redirects weak Lie 3-algebras]]
+
+
