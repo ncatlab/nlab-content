@@ -23,7 +23,7 @@
 
 The term _discrete category_ (or _discrete groupoid_) is used in two different ways:
 
-1. A category is _discrete_ if it is [[equivalence of categories|equivalent]] to (or, sometimes, isomorphic to) a category whose only morphisms are identities.  In other words, this is a [[truncated object|0-truncated]] object of [[Cat]]; see also [[discrete object in a 2-category]].  This meaning is discussed below in [Categorical meaning](#CategoricalMeaning).
+1. A category is _discrete_ if it is [[equivalence of categories|equivalent]] to (or, sometimes, isomorphic to) a category whose only morphisms are identities; i.e., if [[small]], to a [[set#AsCategory|set]].  In other words, this is a [[truncated object|0-truncated]] object of [[Cat]]; see also [[discrete object in a 2-category]].  This meaning is discussed below in [Categorical meaning](#CategoricalMeaning).
    
 1. A category with additional "topological" or "cohesive" structure is _discrete_ if that topological structure consists only of [[discrete spaces]].  This meaning is discussed below in [Topological meaning](#TopologicalMeaning).
 
