@@ -6,7 +6,7 @@
 
 Discussion of [[higher gauge theory]] modeling the [[Green-Schwarz mechanisms]] for [[anomaly cancellation]] in [[heterotic string theory]], on [[M5-branes]], and in related systems (ordered by arXiv time-stamp):
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_, Comm. Math. Phys. **315** (2012) 169-213 ([arXiv:0910.4001](https://arxiv.org/abs/0910.4001), [doi:10.1007/s00220-012-1510-3](https://link.springer.com/article/10.1007/s00220-012-1510-3))
+* {#SatiSchreiberStasheff12} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_, Comm. Math. Phys. **315** (2012) 169-213 ([arXiv:0910.4001](https://arxiv.org/abs/0910.4001), [doi:10.1007/s00220-012-1510-3](https://link.springer.com/article/10.1007/s00220-012-1510-3))
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:The moduli 3-stack of the C-field|The $E_8$ moduli 3-stack of the C-field in M-theory]]*, Comm. Math. Phys. **333** 1 (2015) 117-151 ([arXiv:1202.2455](https://arxiv.org/abs/1202.2455))
 
