@@ -97,6 +97,8 @@ $$
 
 * [[∞-Lie algebroid valued differential forms]]
 
+* [[adjusted Weil algebra]]
+
 * [[connection on an ∞-bundle]]
 
 * [[curvature]]
