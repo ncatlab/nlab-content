@@ -19,7 +19,7 @@ A [[functor]] $F: C \to B$ is a **discrete fibration** if for every object $c$ i
 
 A functor $F: C \to B$ is a **discrete opfibration** if $F^{op}:C^{op}\to B^{op}$ is a discrete fibration. 
 
-A discrete fibration is a special case of a [[Grothendieck fibration]].
+A discrete fibration is a special case of a [[Grothendieck fibration]], namely one where each [[fiber]] is a [[set]].
 
 Given a cartesian category $E$, [[internal categories]] $C,B$ in $E$, an internal functor $F: C \to B$ is a **discrete fibration of internal categories** if the square
 $$\begin{matrix}
