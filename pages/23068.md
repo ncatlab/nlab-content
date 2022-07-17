@@ -189,6 +189,8 @@ where $I$ is a multi-index consisting of $n-1$ indices $i_1,i_2,\ldots,\in \math
 
 * [[relation between L-∞ algebras and dg-Lie algebras]]
 
+* [[adjusted Weil algebra]]
+
 * [[tensor hierarchy]]
 
 * [[Leibniz algebra]]
