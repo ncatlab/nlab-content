@@ -1,13 +1,20 @@
 
+
 # Contents
 * table of contents 
 {: toc}
 
 ## Idea
 
-A _persistent object_ of a [[category]] $C$ is a functor from a poset, often a product of linear orders, to $C$.
-When the indexing poset is the poset of real numbers or, more generally, a product of copies of the poset of real numbers, the collection of persistent objects of a fixed category $C$ admits a distance called the _interleaving distance_, which, informally, measures how isomorphic any two persistent objects are. 
+A _persistence object_ of a [[category]] $C$ is a [[functor]] from a [[poset]], often a [[Cartesian product]] of [[linear orders]], to $C$.
+This is a [[concept with an attitude]]: One calls such functors "persistence objects" when one is interested in determining their [[persistence diagrams]] or other measures of "persistence" as used in [[topological data analysis]].
 
+The main example in this context arises when $C$ is a [[category of vector spaces]] or more generally a [[category of modules]], in which case one speaks of *[[persistence modules]]* as used in *[[persistent homology]]*. Alternatively, $C$ could be a [[category of groups]], such as [[homotopy groups]], or even of full [[homotopy types]], which is the case of interest in *[[persistent homotopy]]*.
+
+When the indexing poset is the poset of [[real numbers]] or, more generally, a product of copies of the poset of real numbers, the collection of persistent objects of a fixed category $C$ admits a distance called the _interleaving distance_, which, informally, measures how isomorphic any two persistence objects are. 
+
+The key property which one will typically demand of a good theory of persistence objects is a notion of [[persistence diagrams]] (measuring "how persistent" a given persistence object is) which is 
+*[[stability of persistence diagrams|stable]]* with respect to interleaving distance.
 
 ## Definitions
 
@@ -51,9 +58,13 @@ The $\mathbb{R}_{\geq 0}$-persistent objects of $Set$ are known as _persistent s
 ## References
  {#References}
 
-Categorification of persistent homology:
+The terminology "persistence object" is used for instance in
 
-* {#BubenikScott14} Peter Bubenik, Jonathan Scott. _Categorification of Persistent Homology_, Discrete & Computational Geometry, 2014.
+* [[Donald Pinckney]], Section 3.1 *[Persistence objects](https://donaldpinckney.com/machine%20learning/2019/05/02/tda.html#persistence-objects)* in *[Topological Data Analysis and Persistent Homology](https://donaldpinckney.com/machine%20learning/2019/05/02/tda.html)* (2019)
+
+General [[category theory|category theoretic]] discussion of persistence objects (not using that terminology, though):
+
+* {#BubenikScott14} [[Peter Bubenik]], [[Jonathan Scott]] _Categorification of Persistent Homology_, Discrete & Computational Geometry **51** (2014) 600-627 &lbrack;[doi:10.1007/s00454-014-9573-x](https://doi.org/10.1007/s00454-014-9573-x)&rbrack;
 
 * {#CagliariFerriPozzi01} Francesca Cagliari, Massimo Ferri & Paola Pozzi. _Size Functions from a Categorical Viewpoint_, Acta Applicandae Mathematica, 2001.
 
@@ -66,3 +77,7 @@ Original references on multiparameter persistent homotopy groups and multiparame
 Survey on multiparameter persistent homology:
 
 * {#BotnanLesnick22} Magnus Bakke Botnan, Michael Lesnick. _An Introduction to Multiparameter Persistence_. ([arXiv:2203.14289](https://arxiv.org/abs/2203.14289))
+
+[[!redirects persistence objects]]
+
+[[!redirects persistent object]]
