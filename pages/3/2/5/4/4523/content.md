@@ -35,4 +35,11 @@ Lie 3-algebras coming from [[differential 2-crossed module]]s and [[parallel tra
 
 * [[João Faria Martins]], [[Roger Picken]], _The fundamental Gray 3-groupoid of a smooth manifold and local 3-dimensional holonomy based on a 2-crossed module_ ([arXiv:0907.2566](http://arxiv.org/abs/0907.2566))
 
+On [[weak Lie 3-algebras]]:
+
+* [[Malte Dehling]], *On weak Lie 3-algebras* &lbrack;[arXiv:1710.11104](https://arxiv.org/abs/1710.11104)&rbrack;
+
+
+
+
 [[!redirects Lie 3-algebras]]
