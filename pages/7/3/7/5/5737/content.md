@@ -21,9 +21,12 @@
 
 ## Definition
 
-For $f : X \to Y$ a [[smooth function]], a **critical point** is a point $x \in X$ at which the [[derivative]] $d X : T X \to T Y$ vanishes (or at heast has non-maximal rank).
+For $f : X \to Y$ a [[smooth function]], a **critical point** is a point $x \in X$ at which the [[derivative]] $d f : T X \to T Y$ has [[rank]] strictly less than the [[dimension]] of $Y$.
 
 The collection of all critical points is also called the **critical locus** of $f$.
+
+The $f$-image of a critical point is known as a __[[critical value]]__.
+A point in $Y$ that is not a [[critical value]] is known as a __[[regular value]]__.
 
 A formalization of this in [[cohesive (infinity,1)-topos|cohesive geometry]] is at _[cohesive (infinity,1)-topos -- infinitesimal cohesion -- critical locus](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#CriticalLocus)_.
 
@@ -34,6 +37,8 @@ A formalization of this in [[cohesive (infinity,1)-topos|cohesive geometry]] is 
 * Critical loci of [[functionals]] on [[jet bundles]] are studied in [[variational calculus]]. See also at _[[shell]]_.
 
 ## Related concepts
+
+* [[Morse–Sard theorem]]
 
 * [[extremum]]
 
