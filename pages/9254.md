@@ -115,6 +115,8 @@ If the [[topological space]] $X$ of data may be assumed to be a [[smooth manifol
 
 ## Related concepts
 
+* [[persistent homology]], [[persistent homotopy]]
+
 * [[computational topology]]
 
 * [[machine learning]]
@@ -140,6 +142,8 @@ General introduction and survey:
 * [[Steve Y. Oudot]], *Persistence Theory: From Quiver Representations to Data Analysis*, Mathematical Surveys and Monographs **209** AMS (2015) $[$[pdf](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf), [ISBN:978-1-4704-3443-4](https://bookstore.ams.org/surv-209/)$]$
 
 * [[Gunnar Carlsson]], *Persistent Homology and Applied Homotopy Theory*, in: [[Handbook of Homotopy Theory]], CRC Press (2019) $[$[arXiv:2004.00738](https://arxiv.org/abs/2004.00738), [doi:10.1201/9781351251624](https://doi.org/10.1201/9781351251624)$]$
+
+* [[Donald Pinckney]], *[Topological Data Analysis and Persistent Homology](https://donaldpinckney.com/machine%20learning/2019/05/02/tda.html)* (2019)
 
 Flashy exposition for commercial use:
 
