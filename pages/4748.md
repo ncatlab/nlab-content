@@ -682,6 +682,10 @@ Applications are discussed in
 
 * [[Arthur Parzygnat]], _Gauge invariant surface holonomy and monopoles_, Theory and Applications of Categories, Vol. 30, 2015, No. 42, pp 1319-1428 ([TAC](http://www.tac.mta.ca/tac/volumes/30/42/30-42abs.html))
 
+Discussion via [[adjusted Weil algebras]]:
+
+* {#KimSaemann20} [[Hyungrok Kim]], [[Christian Saemann]], *Adjusted Parallel Transport for Higher Gauge Theories*, J. Phys. A **52** (2020) 445206 &lbrack;[arXiv:1911.06390](https://arxiv.org/abs/1911.06390), [doi:10.1088/1751-8121/ab8ef2](https://doi.org/10.1088/1751-8121/ab8ef2)&rbrack;
+
 
 Parallel transport for [[circle n-bundles with connection]] is discussed generally in 
 
