@@ -671,12 +671,6 @@ and
 
 [[!include L-infinity algebras in physics]]
 
-\linebreak
-
-\linebreak
-
-\linebreak
-
 
 
 
