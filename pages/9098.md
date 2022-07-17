@@ -25,7 +25,7 @@ The notion of _smooth superalgebra_ (or _$C^\infty$-superalgebra_) is a [[supera
 
 * [[David Yetter]], _Models for synthetic supergeometry_, Cahiers, 29, 2 (1988) ([NUMDAM](http://www.numdam.org/item?id=CTGDC_1988__29_2_87_0))
 
-* [[David Carchedi]], [[Dmitry Roytenberg]], _On Theories of Superalgebras of Differentiable Functions_ ([arXiv:1211.6134](http://arxiv.org/abs/1211.6134))
+* [[David Carchedi]], [[Dmitry Roytenberg]], *On Theories of Superalgebras of Differentiable Functions* &lbrack;[arXiv:1211.6134](http://arxiv.org/abs/1211.6134)&rbrack;
 
 
 [[!redirects smooth superalgebras]]
