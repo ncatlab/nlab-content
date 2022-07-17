@@ -116,6 +116,8 @@ The canonical example of this phenomenon is the [[RR-field]] in [[string theory]
 
 * [[higher category theory and physics]]
 
+* [[adjusted Weil algebra]]
+
 ## References
 
 ### General
