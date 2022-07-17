@@ -18,15 +18,9 @@ Notice that, while the [[Weil algebra]] by itself is [[contractible homotopy typ
 While the characterization of adjusted Weil algebras for $L_\infty$-algebra in [Saemann & Schmidt 20, Def. 4.2](#SaemannSchmidt20) clearly (generalizes and) conceptually improves on [SSS09, Prop. 21](#SSS09), and while in applications it clearly gives the right answers (the correct higher [[Bianchi identities]]), what is still missing is a purely [[homotopy theory|homotopy theoretic]] justification. Since in practice, these adjusted Weil algebras behave and are used much like [[resolutions]] by [[minimal fibrations]] in [[model category]]-theory, it is natural to wonder if there is the structure of a [[homotopical category|homotopical]] [[fibration category]] on the weil algebra choices for $L_\infty$-algebras, such that this is indeed the case. This question is open.
 
 
-
-
-
-
-
-
-
 ## References
 
+The original discussion for the special case of [[string 2-connections]] and their higher analogs:
 
 * {#SSS09} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], *[[schreiber:L-infinity algebra connections|$L_{\infty}$ algebra connections and applications to String- and Chern-Simons $n$-transport]]*, in *Quantum Field Theory*, Birkhäuser (2009) 303-424 &lbrack;[arXiv:0801.3480](https://arxiv.org/abs/0801.3480), [doi:10.1007/978-3-7643-8736-5_17](https://doi.org/10.1007/978-3-7643-8736-5_17)&rbrack;
 
@@ -47,7 +41,7 @@ Application to [[higher parallel transport]]:
 
 Survey and review:
 
-* [[Christian Saemann]], *Adjusted Higher Gauge Theory: Connections and Parallel Transport* Lisbon (2021) &lbrack;[pdf](https://math.tecnico.ulisboa.pt/seminars/download.php?fid=1485)&rbrack;
+* [[Christian Saemann]], *Adjusted Higher Gauge Theory: Connections and Parallel Transport* Lisbon (2021) &lbrack;[pdf](https://math.tecnico.ulisboa.pt/seminars/download.php?fid=1485), [[Saemann-AdjustedHGT.pdf:file]]&rbrack;
 
 
 <table>
