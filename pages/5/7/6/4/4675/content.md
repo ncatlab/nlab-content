@@ -1032,12 +1032,12 @@ The description of the [[gauge transformation]]s of the [[supergravity C-field]]
 
 The local data for the [[∞-Lie algebra valued differential forms]] for the description of twisted differential string structures as above was given in 
 
-* {#SSSIII} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]],  _[[schreiber:Twisted Differential String and Fivebrane Structures]]_ 
+* {#SSSIII} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]]:  *[[schreiber:Twisted Differential String and Fivebrane Structures]]*, Communications in Mathematical Physics **315** 1 (2012)  169-213 &lbrack;[arXiv:0910.4001](https://arxiv.org/abs/0910.4001), [doi:10.1007/s00220-012-1510-3)]([arXiv:](https://link.springer.com/article/10.1007/s00220-012-1510-3))&rbrack;
   
 
 The full Cech-Deligne cocycles induced by this (but not yet the homotopy fibers over them) were discussed in
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes]]_ 
+* {#FiorenzaSatiSchreiber12} [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes|Čech cocycles for differential characteristic classes]]_, Advances in Theoretical and Mathematical Physics, **16** 1 (2012) 149-250 &lbrack;[arXiv:1011.4735](https://arxiv.org/abs/1011.4735), [doi:10.1007/BF02104916](https://doi.org/10.1007/BF02104916)&rbrack;
 
 The 2-group $String^{\mathbf{c}_2}$ and its differential structurs, etc. are discussed in 
 
@@ -1092,4 +1092,7 @@ More discussion on the relation to spin structures on smooth loop space is in
 [[!redirects twisted String structures]]
 
 [[!redirects smooth first fractional Pontryagin class]]
+
+[[!redirects string 2-connection]]
+[[!redirects string 2-connections]]
 
