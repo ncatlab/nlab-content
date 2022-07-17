@@ -34,7 +34,10 @@ In [[gauged supergravity]] the [[gauge symmetry|gauging]] of a [[subgroup]] of a
 
 * [[embedding tensor]]
 
-* [[EL-∞ algebra]]
+* [[EL-∞ algebra|$E L_\infty$-algebra]]
+
+* [[adjusted Weil algebra]]
+
 
 ## References
 
@@ -65,8 +68,15 @@ A proposal for understanding tensor hierarchies as [[dg-Lie algebra]]/[[L-infini
 
 * {#LavauPalmkvist19} [[Sylvain Lavau]], [[Jakob Palmkvist]], _Infinity-enhancing of Leibniz algebras_ ([arXiv:1907.05752](https://arxiv.org/abs/1907.05752))
 
-
 * [[Sylvain Lavau]], [[Jim Stasheff]], _$L_\infty$-algebra extensions of Leibniz algebras_ ([arXiv:2003.07838](https://arxiv.org/abs/2003.07838))
+
+A proposal for understanding tensor hierarchies via [[higher gauge theory]] with [[adjusted Weil algebras]]:
+
+* [[Leron Borsten]], [[Hyungrok Kim]], [[Christian Saemann]].  *$E L_\infty$-algebras, Generalized Geometry, and Tensor Hierarchies* &lbrack;[arXiv:2106.00108](https://arxiv.org/abs/2106.00108)&rbrack;
+
+survey and review:
+
+* [[Christian Saemann]], *$E L_\infty$-algebras, Generalized Geometry, and Tensor Hierarchies*, talk at [SFT@Cloud 2021](https://indico.cern.ch/event/1042834/) (2021) &lbrack;[pdf](https://indico.cern.ch/event/1042834/contributions/4487418/attachments/2313514/3937748/saemann_generalized_geometry.pdf), [[Saemann-ELInfinityAndTensorHierarchies.pdf:file]]&rbrack;
 
 
 [[!redirects tensor hierarchies]]
