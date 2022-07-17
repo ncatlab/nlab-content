@@ -55,7 +55,7 @@ However, besides [[homology]] there is, [[duality|dually]], also *[[cohomology]]
 
 ### General
 
-Original articles with focus on establishing the homotopy-version of the [[stability of persistence diagrams|stability theorem]] and the persistent version of [[Whitehead theorem]]:
+Original articles with focus on establishing the homotopy-version of the [[stability of persistence diagrams|stability theorem]] and the persistent version of [[Whitehead theorem|Whitehead's theorem]]:
 
 * {#BlumbergLesnick17} [[Andrew J. Blumberg]], [[Michael Lesnick]], *Universality of the Homotopy Interleaving Distance* $[$[arXiv:1705.01690](https://arxiv.org/abs/1705.01690)$]$
 
