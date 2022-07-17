@@ -641,6 +641,8 @@ In the same fashion one sees that given 2-cell in $\exp(\mathfrak{g})(U)$ and an
 
   * [[flat ∞-connection]]
 
+  * [[adjusted Weil algebra]]
+
 * [[parallel transport]], [[higher parallel transport]]
 
 * [[holonomy]]
@@ -657,7 +659,6 @@ The local differential form data of $\infty$-connections was introduced in
   
 * {#SSSIII} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_, Communications in Mathematical Physics, October 2012, Volume 315, Issue 1, pp 169-213 ([arXiv:0910.4001](http://arxiv.org/abs/0910.4001), [doi:10.1007/s00220-012-1510-3](https://link.springer.com/article/10.1007/s00220-012-1510-3))
 
-
 The global description was then introduced in 
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes]] -- An $\infty$-Lie theoretic construction_, Advances in Theoretical and Mathematical Physics, Volume 16 Issue 1 (2012), pages 149-250 ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735), [euclid:atmp/1358950853](http://projecteuclid.org/euclid.atmp/1358950853)) 
@@ -665,8 +666,9 @@ The global description was then introduced in
 
 A more comprehensive account is in sections 3.9.6, 3.9.7 of
 
-
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
+For further developments see the references at *[[adjusted Weil algebra]]*.
 
 
 [[!redirects ∞-connection on a principal ∞-bundle]]
