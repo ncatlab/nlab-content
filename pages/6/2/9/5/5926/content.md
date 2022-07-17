@@ -23,6 +23,7 @@ Cartesian sites play a central role in the construction of [[classifying topos]]
 
 The [[syntactic site]] of any [[theory]] is a cartesian site.
 
+
 ## References
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
