@@ -13,11 +13,15 @@
 =--
 =--
 
-* [Wikipedia entry](http://de.wikipedia.org/wiki/Ren&#233;_Descartes)
+* [Wikipedia entry](http://en.wikipedia.org/wiki/René_Descartes)
+
+Latin name: Renatus Cartesius
+
+Hence the adjective “Cartesian” or “cartesian”, including [[cartesian space]], [[cartesian monad]], [[cartesian logic]], [[cartesian functor]], [[cartesian morphism]], [[cartesian monoidal category]], [[cartesian closed category]], [[cartesian fibration]], and many others.  
 
 * [[Georg Hegel]], _[[Lectures on the History of Philosophy]] -- [Descartes](Lectures+on+the+History+of+Philosophy#Descartes)_
 
-> Ren&#233; Descartes ist in der Tat der wahrhafte Anf&#228;nger der modernen Philosophie, insofern sie das Denken zum Prinzip macht. ([LecthHistPhil, Descartes](#Lectures+on+the+History+of+Philosophy#DescartesDerAnfaenger))
+> René Descartes ist in der Tat der wahrhafte Anf&#228;nger der modernen Philosophie, insofern sie das Denken zum Prinzip macht. ([LecthHistPhil, Descartes](#Lectures+on+the+History+of+Philosophy#DescartesDerAnfaenger))
 
 #Contents#
 * table of contents
