@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _string_ is a [[brane]] of dimension one higher than an ordinary [[particle]]:
+A _string_ or *1-brane* is a [[brane]] of dimension one higher than an ordinary [[particle]]:
 
 where a 1-[[dimension|dimensional]] [[sigma-model]] may be thought of a describing the dynamics of [[particle]]s propagating of a [[target space]] $X$, a 2-dimensional [[sigma-model]] is said to described the dynamics of a string on some target space.
 
@@ -73,4 +73,7 @@ $\,$
 [[!redirects relativistic string]]
 [[!redirects relativistic strings]]
 
-[[!redirects strings]]
+
+[[!redirects 1-brane]]
+[[!redirects 1-branes]]
+
