@@ -154,7 +154,7 @@ This identity is the **Bianchi identity for $\infty$-Lie algebra valued forms**.
 
 * [[curvature]]
 
-* **Bianchi identity**
+* [[adjusted Weil algebra]]
 
 * [[curvature characteristic form]]
 
