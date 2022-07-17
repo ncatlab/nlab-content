@@ -43,7 +43,9 @@ Let $\mathfrak{g}$ be a finite-dimensional [[Lie algebra]]. The **Weil algebra**
 * the graded [[Grassmann algebra]] generated from the dual [[vector space]] $\mathfrak{g}^*$ together with another copy of $\mathfrak{g}^*$ shifted in degree
 
   $$
-    W(\mathfrak{g}) := \wedge^\bullet 
+    W(\mathfrak{g}) 
+    \coloneqq 
+    \wedge^\bullet 
    (\mathfrak{g}^* \oplus \mathfrak{g}^*[1])
   $$
 
@@ -68,30 +70,35 @@ As such, the Weil algebra plays a crucial role in the study of the [[Lie algebra
 
 ## Definition
 
-We first consider Weil algebras of [[L-∞ algebra]]s, then more generally of [[L-∞ algebroid]]s.
+We first consider Weil algebras of [[L-∞ algebras]], then more generally of [[L-∞ algebroid]]s.
 
 We use the notation and grading conventions that are described in detail at [[Chevalley-Eilenberg algebra]].
 
 
 ### For $L_\infty$-algebras
 
+#### Plain Weil algebra
+
 Let $\mathfrak{g}$  be an [[L-∞ algebra]] of [[finite type]]. By our grading conventions this means that the [[graded vector space]] $\mathfrak{g}^*$ obtained by degreewise dualization is in non-negative degree, and $\wedge^1 \mathfrak{g}^* = \mathfrak{g}^*[1]$ is its shift up into positive degree.
 
 A quick abstract way to characterize the Weil algebra of $\mathfrak{g}$ is as follows. Notice that there is a [[free functor]]/[[forgetful functor]] [[adjunction]]
 
 $$
-  (F \dashv U) : dgAlg \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
+  (F \dashv U) 
+  \colon 
+  dgAlg 
+  \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\longrightarrow}}
   Vect[\mathbb{Z}]
 $$
 
-between the [[category]] [[dgAlg]] of [[dg-algebra]]s and the category of $\mathbb{Z}$-graded [[vector space]]s (all over some fixed [[field]]). Notice that a free object is unique _up to [[isomorphism]]_ .
+between the [[category]] [[dgAlg]] of [[dg-algebras]] and the category of $\mathbb{Z}$-graded [[vector space]]s (all over some fixed [[field]]). Notice that a free object is unique _up to [[isomorphism]]_ .
 
-+-- {: .num_defn}
-###### Definition
+\begin{definition}\label{PlainWeilAlgebraOfLInfinityAlgebra}
+**(plain Weil algebra of $L_\infty$-algebra)**
+\linebreak
+The **Weil algebra** $W(\mathfrak{g})$ of an $L_\infty$-algebra is the unique representative of the [[free functor|free]] [[dg-algebra]] on $\wedge^1 \mathfrak{g}^*$ for which the projection of graded vector spaces $\wedge^1(\mathfrak{g}^* \oplus \mathfrak{g}^*[1]) \to \wedge^1 \mathfrak{g}^*$ extends to a [[dg-algebra]] [[homomorphism]] $W(\mathfrak{g}) \to CE(\mathfrak{g})$
 
-The **Weil algebra** $W(\mathfrak{g})$ is the unique representative of the [[free functor|free]] [[dg-algebra]] on $\wedge^1 \mathfrak{g}^*$ for which the projection of graded vector spaces $\wedge^1(\mathfrak{g}^* \oplus \mathfrak{g}^*[1]) \to \wedge^1 \mathfrak{g}^*$ extended to a [[dg-algebra]] [[homomorphism]] $W(\mathfrak{g}) \to CE(\mathfrak{g})$
-
-=--
+\end{definition}
 
 We discuss below in the [Properties](#Properties) section that this is equivalent to the following component-wise definition
 
@@ -124,13 +131,23 @@ of two graded [[derivations]] of degree +1 defined by
   with $\mathbf{d}$:
 
   $$
-    d_{CE(\mathfrak{g})} \mathbf{d} \omega :=
+    d_{CE(\mathfrak{g})} \mathbf{d} \omega 
+    \coloneqq
     - \mathbf{d} d_{CE(\mathfrak{g})} \omega
   $$
 
   for all $\omega \in \wedge^1 \mathfrak{g}^*$.
 
 =--
+
+#### Adjusted Weil algebras
+ {#AdjustedWeilAlgebras}
+
+For some purposes of [[schreiber:L-infinity algebra connections|$L_\infty$-algebra valued connection]], the [above](#WeilForLInfinitityAlgebra) definition of Weil algebra of an $L_\infty$-algebra is not quite appropriate. While Def. \ref{WeilForLInfinitityAlgebra} gives the Weil algebra up to compatible [[isomorphism]], in applications there is in fact the freedom to choose it up to compatible [[quasi-isomorphism]], and this freedom allows to find better representatives.
+
+For more on this see at *[[adjusted Weil algebra]]*.
+
+
 
 ### For $L_\infty$-algebroids
 
@@ -184,7 +201,7 @@ Let now $\mathfrak{a}$ be an [[L-∞ algebroid]] with [[Chevalley-Eilenberg alge
 
 1. a graded commutative [[semifree dga]] $CE(\mathfrak{a})$ over the ground field;
 
-1. the structure of a $T$-[[algebra over a Lawvere theory|algebra]] on the [[associative algebra]] $A := CE(\mathfrak{a})_0$ (over the ground field)
+1. the structure of a $T$-[[algebra over a Lawvere theory|algebra]] on the [[associative algebra]] $A \coloneqq CE(\mathfrak{a})_0$ (over the ground field)
 
    such that $d_{CE(\mathfrak{a})} : CE(\mathfrak{a})_0 \to CE(\mathfrak{a})_1$ is a [[derivation]] of $T$-algebra modules.
 
@@ -360,7 +377,7 @@ The freeness property of the Weil algebra can be made more explicit by exhibitin
 The _canonical free dg-algebra_ on $\mathfrak{g}^*$ is
 
 $$
-  F(\mathfrak{g}) := \wedge^\bullet( \mathfrak{g}^* \oplus \mathfrak{g}^*[1], d_F )
+  F(\mathfrak{g}) \coloneqq \wedge^\bullet( \mathfrak{g}^* \oplus \mathfrak{g}^*[1], d_F )
 $$
 
 where the differential $d_f$ is on the unshifted generators $t \in \mathfrak{g}^*$ the shift isomorphism $\sigma : \mathfrak{g}^* \to \mathfrak{g}^*[1]$ extended as a derivation and vanishes on the shifted generators 
@@ -394,7 +411,7 @@ The [[cochain cohomology]] of $F(\mathfrak{g})$ vanishes in positive degree.
 =--
 
 
-To see this, let $K := \sigma^{-1} : F(\mathfrak{g}) \to F(\mathfrak{g})$ be the degree down-shift isomorphism $\mathfrak{g}^*[1] \to \mathfrak{g}^*$ extended as a graded derivation of degree -1, then 
+To see this, let $K \coloneqq \sigma^{-1} : F(\mathfrak{g}) \to F(\mathfrak{g})$ be the degree down-shift isomorphism $\mathfrak{g}^*[1] \to \mathfrak{g}^*$ extended as a graded derivation of degree -1, then 
 
 $$
   [d_{F(\mathfrak{g})}, K] = Id : F(\mathfrak{g}) \to F(\mathfrak{g})
@@ -522,7 +539,9 @@ That means that the Weil algebra $W(\mathfrak{g})$ of some [[L-∞ algebra]] $\m
 For any $\infty$-Lie algebra $\mathfrak{g}$ write $inn(\mathfrak{g})$ for the $\infty$-Lie algebra whose CE-algebra is $W(\mathfrak{g})$:
 
 $$
-  CE(inn(\mathfrak{g})) := W(\mathfrak{g})
+  CE(inn(\mathfrak{g})) 
+  \coloneqq 
+  W(\mathfrak{g})
   \,.
 $$
 
@@ -552,7 +571,11 @@ whose
 
 * elements in degree 0 are the derivations of degree 0 that are of the form
 
-  $ \mathcal{L}_X := [d_{CE(\mathfrak{g})}, \iota_x] : CE(\mathfrak{g}) \to CE(\mathfrak{g})$;
+  $ \mathcal{L}_X 
+    \coloneqq 
+    [d_{CE(\mathfrak{g})}, \iota_x] 
+    \colon 
+    CE(\mathfrak{g}) \to CE(\mathfrak{g})$;
 
 * the differential $d = [d_{CE}, -] : \mathfrak{g} \to \mathfrak{g}$ is the commutator of derivations with the differential $d_{CE(\mathfrak{g})}$;
 
@@ -648,7 +671,12 @@ $$
 extended as a graded derivation. Then the [[Lie derivative]]
 
 $$
-  \mathcal{L}_x := ad_x := [d_{W(\mathfrak{g})}, \iota_x] : W(\mathfrak{g}) \to W(\mathfrak{g})
+  \mathcal{L}_x 
+   \coloneqq ad_x 
+   \coloneqq 
+   [d_{W(\mathfrak{g})}, \iota_x] 
+   \colon 
+   W(\mathfrak{g}) \to W(\mathfrak{g})
 $$
 
 encodes the coadjoint action of $\mathfrak{g}$ on $\mathfrak{g}^*$. By the above definition of an [[invariant polynomial]] $\langle - \rangle$, we have 
@@ -681,7 +709,9 @@ $$
 This is the [[Chern-Simons element]] of the invariant polynomial. Notice, crucially, that this is ingeneral _not_ restricted to the shifted part $\wedge^\bullet (\mathfrak{g}^*[1])$ Its restriction
 
 $$
-  \mu_{\langle -\rangle} := cs_{\langle - \rangle}|_{\wedge^\bullet \mathfrak{g}^*}
+  \mu_{\langle -\rangle} 
+  \coloneqq 
+  cs_{\langle - \rangle}|_{\wedge^\bullet \mathfrak{g}^*}
 $$
 
 to the unshifted copy, hence to the [[Chevalley-Eilenberg algebra]], is the cocycle that is in transgression with $\langle - \rangle$.
@@ -689,7 +719,7 @@ to the unshifted copy, hence to the [[Chevalley-Eilenberg algebra]], is the cocy
 For 
 
 $$
-  (A,F_A) : W(\mathfrak{g}) \to \Omega^\bullet(X)
+  (A,F_A) \colon W(\mathfrak{g}) \to \Omega^\bullet(X)
 $$
 
 a collection of $\mathfrak{g}$-valued differential forms (as [above](LieAlgValuedForms)) and $\langle -\rangle  : CE(b^{n-1}\mathbb{R}) \to W(\mathfrak{g})$ an [[invariant polynomial]], the composite
@@ -836,8 +866,7 @@ Among the original references on Weil algebras for ordinary Lie algebras is
 
 and
 
-* [[Henri Cartan]], _Notions d'alg&#233;bre diff&#233;rentielle; application aux groupes de Lie et aux vari&#233;t&#233;s ou op&#232;re un
-groupe de Lie_ , Colloque de topologie (espaces fibrs), Bruxelles, (1950), pp. 15&#8211;27.
+* {#Cartan50} [[Henri Cartan]], *Notions d'alg&#233;bre diff&#233;rentielle; application aux groupes de Lie et aux vari&#233;t&#233;s ou op&#232;re un groupe de Lie* , Colloque de topologie (espaces fibrs), Bruxelles, (1950), pp. 15&#8211;27.
 
 
 This also explains the use of the Weil algebra in the calculation of the [[equivariant cohomology|equivariant]] [[de Rham cohomology]] of manifolds acted on by a compact group. These papers are reprinted, explained and put in a modern context in the book
@@ -872,7 +901,7 @@ A survey of Weil algebras for Lie algebras is also available at
 
 Weil algebra for [[L-infinity algebra]]s and their role in defining [[invariant polynomial]]s and [[Chern-Simons element]]s on $\infty$-Lie algebras from [[infinity-Lie algebra cohomology|L-infinity algebra cocycle]] are considered in
 
-* {#SSSI} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_{\infty}$ algebra connections and applications to String- and Chern-Simons $n$-transport_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">ref</a>)
+* {#SSSI} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], *[[schreiber:L-infinity algebra connections|$L_{\infty}$ algebra connections and applications to String- and Chern-Simons $n$-transport]]*, in *Quantum Field Theory*, Birkhäuser (2009) 303-424 &lbrack;[arXiv:0801.3480](https://arxiv.org/abs/0801.3480), [doi:10.1007/978-3-7643-8736-5_17](https://doi.org/10.1007/978-3-7643-8736-5_17)&rbrack;
 
 The abstract characterization is due to
 
