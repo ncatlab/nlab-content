@@ -21,6 +21,10 @@ On the [[AdS/CFT correspondence]]:
 
 * [[Tom Banks]], [[Michael Douglas]], [[Gary Horowitz]], [[Emil Martinec]], _AdS Dynamics from Conformal Field Theory_ ([arXiv:hep-th/9808016](https://arxiv.org/abs/hep-th/9808016), [spire:474214](http://inspirehep.net/record/474214))
 
+On [[black hole entropy]] via [[D1-D5 brane bound states]] as [[black holes in string theory]]:
+
+* [[Emil Martinec]], *The branes behind black holes*, talk at *[Strings 2022](https://indico.cern.ch/event/1085701/)* &lbrack;[indico:4940814](https://indico.cern.ch/event/1085701/contributions/4940814/)&rbrack;
+
 
 ## Related $n$Lab pages
 
