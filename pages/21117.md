@@ -577,6 +577,10 @@ In view of [[black hole thermodynamics]]:
 
 * [[Chris Akers]], [[Netta Engelhardt]], [[Daniel Harlow]], [[Geoff Penington]], [[Shreya Vardhan]], *The black hole interior from non-isometric codes and complexity* &lbrack;[arXiv:2207.06536](https://arxiv.org/abs/2207.06536)&rbrack;
 
+* [[Daniel Harlow]], *A theory of the black hole interior*, talk at *[Strings 2022](https://indico.cern.ch/event/1085701) &lbrack;[indico:4940817/](https://indico.cern.ch/event/1085701/contributions/4940817/)&rbrack;
+
+
+
 
 Discussion of [[gauge symmetry]] of [[holographic tensor networks]] and their [[quantum error correcting codes]]:
 
