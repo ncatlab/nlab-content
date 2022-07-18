@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -440,7 +439,7 @@ In [CFFPV20](#CFFPV20):
 
 > In the Standard Model Effective Theory (SMEFT) [41, 42], the significance of NewPhysics from the global $b \to s \ell^+ \ell^-$ analysis increases with the inclusion of new data, reaching a maximum of almost 6σ for the simple hypothesis of a non-vanishing $[$[[leptoquark]] contribution$]$.
 
-If it is a [[GUT]]-model containing the [[leptoquarks]], then this seems to prefer embedding into a [[Randall-Sundrum model]] ([Blanke Crivellin 18](#BlankeCrivellin18), [Crivellin 18](#Crivellin18)) or similar ([FMIPS21](#FMIPS21)), hence a setup broadly as in [[intersecting D-brane models]].
+If it is a [[GUT]]-model containing the [[leptoquarks]], then this seems to prefer embedding into a [[Randall-Sundrum model]] ([Blanke & Crivellin 18](#BlankeCrivellin18), [Crivellin 18](#Crivellin18)) or similar ([FMIPS21](#FMIPS21)), hence a setup broadly as in [[intersecting D-brane models]].
 
 ### Other
  {#PossibleModelsOther}
@@ -693,6 +692,8 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
 
 * Valerio Gherardi, *New Physics Hints from Flavour* ([arXiv:2111.00285](https://arxiv.org/abs/2111.00285))
 
+* [[Monika Blanke]], *Theory Perspective on Heavy Flavour Physics*, talk at [10th Edition of the Large Hadron Collider Physics Conference](https://indico.cern.ch/event/1109611/) (2022) &lbrack;[arXiv:2207.07354](https://arxiv.org/abs/2207.07354), talk slides and recording: [indico.cern:4686945](https://indico.cern.ch/event/1109611/contributions/4686945)&rbrack;
+
 
 Outlook:
 
@@ -710,7 +711,7 @@ Outlook:
 
 * {#Grinstein19} [[Benjamin Grinstein]], _A path to flavor_, talk at _[Implications of LHCb measurement and future prospects](https://indico.cern.ch/event/769902/)_ CERN 2019 ([pdf](https://indico.cern.ch/event/769902/contributions/3582540/attachments/1926501/3193107/Grinstein-high-res.pdf), [[GrinsteinFlavor2019.pdf:file]], [indico:3582540](https://indico.cern.ch/event/769902/contributions/3582540))
 
-* Monika Blanke, _Flavour Physics from Present to Future Colliders_ ([arxiv:1910.10662](https://arxiv.org/abs/1910.10662))
+* [[Monika Blanke]], _Flavour Physics from Present to Future Colliders_, talk at [LFC19: Strong dynamics for physics within and beyond the Standard Model at LHC and Future Colliders](https://indico.ectstar.eu/event/55/) (2019) ([arxiv:1910.10662](https://arxiv.org/abs/1910.10662))
 
 * {#CrivellinHoferichter20} [[Andreas Crivellin]], Martin Hoferichter, _Beta decays as sensitive probes of lepton flavor universality_ ([arXiv:2002.07184](https://arxiv.org/abs/2002.07184))
 
@@ -778,9 +779,9 @@ Original articles:
 
 * {#CFMVV17} Alejandro Celis, [[Javier Fuentes-Martin]], Avelino Vicente, [[Javier Virto]], _Gauge-invariant implications of the LHCb measurements on Lepton-Flavour Non-Universality_, Phys. Rev. D 96, 035026 (2017) ([arXiv:1704.05672](https://arxiv.org/abs/1704.05672))
 
-* Monika Blanke, [[Andreas Crivellin]], Stefan de Boer, Teppei Kitahara, Marta Moscati, Ulrich Nierste, Ivan Nišandžić, _Impact of polarization observables and $B_c \to \tau \nu$ on new physics explanations of the $b \to c \tau \nu$ anomaly_ ([arXiv:1811.09603](https://arxiv.org/abs/1811.09603))
+* [[Monika Blanke]], [[Andreas Crivellin]], Stefan de Boer, Teppei Kitahara, Marta Moscati, Ulrich Nierste, Ivan Nišandžić, _Impact of polarization observables and $B_c \to \tau \nu$ on new physics explanations of the $b \to c \tau \nu$ anomaly_ ([arXiv:1811.09603](https://arxiv.org/abs/1811.09603))
 
-* Monika Blanke, [[Andreas Crivellin]], Stefan de Boer, Teppei Kitahara, Marta Moscati, Ulrich Nierste, Ivan Nišandžić, _Addendum: "Impact of polarization observables and $B_c \to \tau \nu$ on new physics explanations of the $b \to c \tau \nu$ anomaly"_ ([arXiv:1905.08253](https://arxiv.org/abs/1905.08253))
+* [[Monika Blanke]], [[Andreas Crivellin]], Stefan de Boer, Teppei Kitahara, Marta Moscati, Ulrich Nierste, Ivan Nišandžić, _Addendum: "Impact of polarization observables and $B_c \to \tau \nu$ on new physics explanations of the $b \to c \tau \nu$ anomaly"_ ([arXiv:1905.08253](https://arxiv.org/abs/1905.08253))
 
 
 * {#KumarLondon19} Jacky Kumar, David London, _New physics in $b \to s e^+ e^-$?_, Phys. Rev. D 99, 073008 (2019) ([arXiv:1901.04516](https://arxiv.org/abs/1901.04516), [doi:10.1103/PhysRevD.99.073008](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.99.073008))
@@ -1067,7 +1068,7 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 
 * {#Crivellin18} [[Andreas Crivellin]], _Explaining the Flavour Anomalies with the Pati-Salam Vector Leptoquark_, PoS LHCP2018 (2018) 269 ([spire:1713260](http://inspirehep.net/record/1713260), [doi:10.22323/1.321.0269](https://doi.org/10.22323/1.321.0269))
 
-* {#BlankeCrivellin18} Monika Blanke, [[Andreas Crivellin]], _$B$ Meson Anomalies in a Pati-Salam Model within the Randall-Sundrum Background_, Phys. Rev. Lett. 121, 011801 (2018) ([arXiv:1801.07256](https://arxiv.org/abs/1801.07256))
+* {#BlankeCrivellin18} [[Monika Blanke]], [[Andreas Crivellin]], _$B$ Meson Anomalies in a Pati-Salam Model within the Randall-Sundrum Background_, Phys. Rev. Lett. 121, 011801 (2018) ([arXiv:1801.07256](https://arxiv.org/abs/1801.07256))
 
 or similar [[intersecting D-brane models|brane models]]:
 
