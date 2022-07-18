@@ -122,6 +122,11 @@ On [[hyperbolic 3-manifolds]]:
 
 * [[William Thurston]], _Three dimensional manifolds, Kleinian groups and hyperbolic geometry_, Bull. Amer. Math. Soc. (N.S.) Volume 6, Number 3 (1982), 357-381 ([euclid.bams/1183548782](https://projecteuclid.org/euclid.bams/1183548782))
 
+### Vafa-Witten theory
+
+Computations of Vafa-Witten invariants of 3-manifolds are given in 
+
+* [[Sergei Gukov]], Artan Sheshmani, [[Shing-Tung Yau]], _3-manifolds and Vafa-Witten theory_ ([arXiv:2207.05775](https://arxiv.org/abs/2207.05775)).
 
 
 [[!redirects 3-manifolds]]
