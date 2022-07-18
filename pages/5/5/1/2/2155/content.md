@@ -17,17 +17,25 @@
 * table of contents
 {: toc}
 
-## Definition
+## Idea
+  {#Idea}
 
-+-- {: .un_defn}
-###### Definition
+A __Cartesian space__ is a [[finite product|finite]] [[Cartesian product]] of the [[real line]] $\mathbb{R}$ with itself. Hence, a Cartesian space has the form $\mathbb{R}^n$ where $n$ is some [[natural number]] (possibly [[zero]]). 
 
-A __Cartesian space__ is a finite [[Cartesian product]] of the [[real line]] $\mathbb{R}$ with itself. Hence, a Cartesian space has the form $\mathbb{R}^n$ where $n$ is some [[natural number]] (possibly zero). 
+What exactly this means depends on which [[category]] the [[real line]] $\mathbb{R}$ is being considered as an [[object]] of. 
 
-This definition is silent on which category the real line $\mathbb{R}$ is being considered as an object of. For instance, if $\mathbb{R}$ is regarded as a topological space (hence an object in the category [[Top]]), then the topology on $\mathbb{R}^n$ is [[Euclidean|Euclidean topology]] the [[real line]] $\mathbb{R}$ with itself where $n$ is some [[natural number]]. Another possibility is to regard $\mathbb{R}$ as a smooth manifold (hence an object in the category [[Diff]]). The Cartesian space $\mathbb{R}^n$ with its standard topology (and sometimes smooth structure) is also called __real $n$-dimensional space__ (distinguish from "real $n$-dimensional vector space" which is only isomorphic to it as a vector space). 
-=--
+For instance, if $\mathbb{R}$ is regarded as a [[topological space]] (hence an object in the category [[Top]]), then $\mathbb{R}^n$ is a [[Euclidean space]]. Another possibility is to regard $\mathbb{R}$ as a [[topological manifold]], [[differentiable manifold]] or [[smooth manifold]] (hence an object in the categories [[TopMfd]] or [[Diff]]), in which case $\mathbb{R}^n$ is the archetypical such [[manifold]] of [[dimension of a manifold|dimension]] $n$ (the basic [[coordinate chart]]).
 
-One may also speak of the [[complexified]] cartesian space $\mathbb{C}^n$, or indeed of the cartesian space $K^n$ for any [[field]] $K$, or indeed for any [[set]] $K$, or indeed for any object $K$ of any [[cartesian monoidal category]].
+The Cartesian space $\mathbb{R}^n$ with its standard [[topological space|topology]]/[[smooth structure]] is also called *real $n$-dimensional space*.
+
+One could also regard $\mathbb{R}$ as the [[real vector space]] of [[dimension of a vector space|dimension]] 1, in which case $\mathbb{R}^n$ would be the real vector space of dimension $n$ (maybe understood as equipped with the [[linear basis]] canonically induced by this presentation), hence [[generalized the|the]] "real $n$-dimensional vector space". However, a vector space would typically not be referred to as a "Cartesian space".
+
+But in between the last two examples, regarding $\mathbb{R}^n$ as an *[[affine space]]* makes it the the basis of "[analytic geometry](https://en.m.wikipedia.org/wiki/Analytic_geometry)" in the sense originally due to [[René Descartes]] ([[Cartesian geometry]]), and this is where the term "Cartesian space" originates from.
+
+
+
+One might also speak of the [[complexified]] cartesian space $\mathbb{C}^n$ as a [[complex manifold]], or indeed of the cartesian space $K^n$ for any [[field]] $K$, maybe regarded as an [[analytic space]], though this is not common terminology.
+
 
 +-- {: .un_example}
 ###### Example
@@ -177,3 +185,10 @@ With an eye towards [[Frölicher space]]s the site is also considered in section
 [[!redirects cartesian spaces]]
 [[!redirects Cartesian spaces]]
 [[!redirects real n-dimensional space]]
+
+[[!redirects Cartesian Space]]
+[[!redirects Cartesian Spaces]]
+[[!redirects smooth Cartesian space]]
+[[!redirects smooth Cartesian spaces]]
+
+
