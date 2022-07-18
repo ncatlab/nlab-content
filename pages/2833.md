@@ -14,6 +14,14 @@ On [[AdS3/CFT2 duality]]:
 
 * [[Kevin Costello]], [[Natalie Paquette]], _Twisted Supergravity and Koszul Duality: A case study in $AdS_3$_ ([arXiv:2001.02177](https://arxiv.org/abs/2001.02177))
 
+On [[scattering amplitudes]] and [[chiral correlators]] in 4D [[conformal field theories]]
+
+* [[Kevin Costello]], [[Natalie Paquette]], _Celestial holography meets twisted holography: 4d amplitudes from chiral correlators_ ([arXiv:2201.02595](https://arxiv.org/abs/2201.02595))
+
+On [[operator product expansions]] in 2D [[conformal field theories]]:
+
+* [[Kevin Costello]], [[Natalie Paquette]], _On the associativity of one-loop corrections to the celestial OPE_ ([arXiv:2204.05301](https://arxiv.org/abs/2204.05301))
+
 ## Related $n$Lab entries 
 
 * [[TCFT]]
