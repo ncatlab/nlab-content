@@ -760,6 +760,21 @@ The original definition is in
 
 * [[Jean Leray]], _L'anneau d'homologie d'une représentation_.  Comptes rendus hebdomadaires des séances de l'Académie des Sciences 222 (1946), 1366–1368.  [[Leray-0.pdf:file]]
 
+Subsequent development by Leray, incorporating ideas of [[Henri Cartan]]:
+
+* [[Jean Leray]], _L'anneau spectral et l'anneau filtré d'homologie d'un espace localement compact et d'une application continue_, Journal de Mathématiques Pures et Appliquées. Neuvième Série, 29 (1950), 1–80, 81–139. 
+
+[[Henri Cartan]]'s account of the theory:
+
+* [[Henri Cartan]], _Faisceaux sur un espace topologique. I, II_, Séminaire Henri Cartan, Exposés 14, 15.
+numdam: [I](http://www.numdam.org/item/SHC_1950-1951__3__A14_0/), [II](http://www.numdam.org/item/SHC_1950-1951__3__A15_0/).
+
+It refers to a previous exposition of the theory
+in Exposés 12–17 of the first year (1948/1949),
+which apparently are not scanned, unlike Exposés 1–11.
+
+Further references:
+
 Section C2 in 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
