@@ -25,9 +25,8 @@ On [[operator product expansions]] in 2D [[conformal field theories]]:
 
 * [[Kevin Costello]], [[Natalie Paquette]], _On the associativity of one-loop corrections to the celestial OPE_ ([arXiv:2204.05301](https://arxiv.org/abs/2204.05301))
 
-Talk at [[Strings 2022]]:
-
-* [[Natalie Paquette]], _4d physics from 2d chiral correlators_ ([slides](https://indico.cern.ch/event/1085701/contributions/4940742/attachments/2481322/4259658/Natalie%20Paquette%20Monday-Research-Paquette.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=967d7949-dc4e-47e8-befb-8aa53c589ba9))
+* [[Natalie Paquette]], _4d physics from 2d chiral correlators_, 
+talk at *[Strings 2022](https://indico.cern.ch/event/1085701/)* &lbrack;[slides](https://indico.cern.ch/event/1085701/contributions/4940742/attachments/2481322/4259658/Natalie%20Paquette%20Monday-Research-Paquette.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=967d7949-dc4e-47e8-befb-8aa53c589ba9)&rbrack;
 
 ## Related $n$Lab entries
 
