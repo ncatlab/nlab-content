@@ -22,7 +22,13 @@ Plays a central role in the discussion of [[black holes in string theory]].
 
 ## Related concepts
 
+* [[black hole entropy]]
+
+* [[black holes in string theory]]
+
 [[!include brane bound states -- table]]
+
+
 
 
 ## References
@@ -34,6 +40,8 @@ Review:
 ### Via superstrata
 
 * Daniel R. Mayerson, Masaki Shigemori, _Counting D1-D5-P Microstates in Supergravity_ ([arXiv:2010.04172](https://arxiv.org/abs/2010.04172))
+
+* [[Emil Martinec]], *The branes behind black holes*, talk at *[Strings 2022](https://indico.cern.ch/event/1085701/)* &lbrack;[indico:4940814](https://indico.cern.ch/event/1085701/contributions/4940814/)&rbrack;
 
 
 ### As instantons
