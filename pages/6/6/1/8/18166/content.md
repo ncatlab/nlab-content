@@ -190,7 +190,7 @@ that this has same index set. It is now sufficient to show that this locally fin
 
 
 Since [[paracompact Hausdorff spaces are normal]] we may
-apply lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained} to the given locally finite open cover $\{U_i \subset X\}_i$, to obtain a smaller locally finite open cover $\{V_i \subset X\}_{i \in I}$, and then apply the lemma once more to that result to get a yet small open cover  $\{W_i \subset X\}_{i \in I}$, so that now
+apply lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained} to the given locally finite open cover $\{U_i \subset X\}_i$, to obtain a smaller locally finite open cover $\{V_i \subset X\}_{i \in I}$, and then apply the lemma once more to that result to get a yet smaller open cover  $\{W_i \subset X\}_{i \in I}$, so that now
 
 $$
   \underset{i \in I}{\forall}
