@@ -167,7 +167,7 @@ where the second functor $C' \to C$ is an equivalence, so we may as well work wi
 
 _[[commutative algebraic theory|Commutative algebraic theories]]_ are (single-sorted) algebraic theories for which each operation is an algebra homomorphism. These form an important subclass. Their categories of models are [[closed monoidal category|closed]]: the [[hom sets]] have a natural model-structure (algebra-structure), and the enriched Hom-functor has a [[left adjoint]], _[[tensor product]]_. 
 
-The theory of complete lattices and suprema-preserving functions is an interesting (non-finitary) example.
+The theory of $R$-modules for a fixed commutative ring $R$ is perhaps the most familiar example.  The theory of complete lattices and supremum-preserving functions is an interesting non-finitary example.
 
 
 ## Relation to monads
