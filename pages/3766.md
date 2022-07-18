@@ -72,5 +72,7 @@ See also
 * Wikipedia, _[Hitchin system](https://en.wikipedia.org/wiki/Hitchin_system)_
 
 [[!redirects Hitchin system]]
+[[!redirects Hitchin systems]]
 [[!redirects Hitchin integrable system]]
+[[!redirects Hitchin integrable systems]]
 [[!redirects Hitchin fibrations]]
