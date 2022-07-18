@@ -92,7 +92,7 @@ There was also a talk
 * {#Kontsevich10} [[Maxim Kontsevich]], talk at _[Renormalization: algebraic, geometric and probabilistic aspects](http://math.univ-lyon1.fr/~calaque/Colloque-schedule.htm)_,  Institut Camille Jordan (Lyon) June 16 - 18, 2010
 
 
-On [[operator product expansions]] in 2D [[conformal field theories]]:
+On [[operator product expansions]] in 2D [[conformal field theories]] (via [[holography as Koszul duality]]):
 
 * [[Kevin Costello]], [[Natalie Paquette]], _On the associativity of one-loop corrections to the celestial OPE_ ([arXiv:2204.05301](https://arxiv.org/abs/2204.05301))
 
