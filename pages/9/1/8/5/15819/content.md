@@ -17,7 +17,11 @@
 
 Latin name: Renatus Cartesius
 
-Hence the adjective “Cartesian” or “cartesian”, including [[cartesian space]], [[cartesian monad]], [[cartesian logic]], [[cartesian functor]], [[cartesian morphism]], [[cartesian monoidal category]], [[cartesian closed category]], [[cartesian fibration]], and many others.  
+Hence the adjective “Cartesian” or “cartesian”, including: [[cartesian space]],
+[[cartesian product]],
+[[cartesian monad]], [[cartesian logic]], [[cartesian functor]], [[cartesian morphism]], [[cartesian monoidal category]],
+[[cartesian closed category]],
+[[cartesian fibration]], and many others.  
 
 * [[Georg Hegel]], _[[Lectures on the History of Philosophy]] -- [Descartes](Lectures+on+the+History+of+Philosophy#Descartes)_
 
