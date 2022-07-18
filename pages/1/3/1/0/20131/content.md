@@ -17,7 +17,7 @@
 
 ## Idea
 
-A __regular value__ of a map $f$ between [[smooth manifolds]] is an element of the codomain of $f$ that is not a __critical value__, i.e., not an image of a [[critical point]] of $f$.
+A __regular value__ of a [[map]] $f$ between [[smooth manifolds]] is an [[element]] of the [[codomain]] of $f$ that is not a __critical value__, i.e., not the [[image]] of a [[critical point]] of $f$.
 
 
 ## Definition
@@ -70,7 +70,7 @@ The [[inverse image]] $f^{-1}(q) \subset X$ of a [[smooth function]] $f \colon X
 
 =--
 
-Together with the [[Thom's transversality theorem]], this is the key to the [[proof]] of the [[Pontryagin-Thom isomorphism]].
+Together with [[Thom's transversality theorem]], this is the key to the [[proof]] of the [[Pontryagin-Thom isomorphism]].
 
 
 ## Related concepts
