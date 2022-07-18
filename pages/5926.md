@@ -1,4 +1,6 @@
 
+> This entry is about a general class of [[sites]]. For the specific site *[[CartSp]]* of [[cartesian spaces]], see there.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
