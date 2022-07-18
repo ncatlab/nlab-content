@@ -31,7 +31,7 @@
 
 ## Overview
 
-*Strings 2022* is a [[theoretical physics]] conference held in Vienna, Austria between 18 May and 23 May 2022. This conference consists of a variety of related subjects at the frontier of theoretical physics, such as [[string theory]], [[conformal field theory]], [[holography]], [[black hole]] physics, and other topics in [[quantum field theory]] and [[quantum gravity]]. The website for this conference could be found [here](https://indico.cern.ch/event/1085701/). 
+*[Strings 2022](https://indico.cern.ch/event/1085701)* is a [[theoretical physics]] conference held in Vienna, Austria between 18 May and 23 May 2022. This conference consists of a variety of related subjects at the frontier of theoretical physics, such as [[string theory]], [[conformal field theory]], [[holography]], [[black hole]] physics, and other topics in [[quantum field theory]] and [[quantum gravity]]. The website for this conference could be found [here](https://indico.cern.ch/event/1085701/). 
 
 ## Talks
 
@@ -39,7 +39,11 @@
 
 * [[Emil Martinec]], _The branes behind black holes_ ([slides](https://indico.cern.ch/event/1085701/contributions/4940814/attachments/2481320/4259653/Emil%20Martinec%20Monday-Review-Martinec.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=6645d5b4-ecc8-4849-a870-e1211e85376f))
 
+  > on [[black holes in string theory]] via [[D1-D5 brane bound states]]
+
 * [[Natalie Paquette]], _4d physics from 2d chiral correlators_ ([slides](https://indico.cern.ch/event/1085701/contributions/4940742/attachments/2481322/4259658/Natalie%20Paquette%20Monday-Research-Paquette.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=967d7949-dc4e-47e8-befb-8aa53c589ba9))
+
+  > on 4d [[scattering amplitudes]] via [[holography as Koszul duality]]
 
 * [[Edward Witten]], _Algebras and Entropies_ ([video](https://indico.cern.ch/event/1085701/contributions/4940799/attachments/2479685/4259987/go))
 
@@ -49,10 +53,26 @@
 
 * [[Monica Guica]], _$T\bar T$ deformations and holography: review and open questions_ ([slides](https://indico.cern.ch/event/1085701/contributions/4940816/attachments/2481655/4260285/slides.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=bfe514d2-b4c8-4f03-a2d1-33ee630b74f6))
 
+  > on [[TT deformation|$T \bar T$ deformations]]
+
 * [[Daniel Harlow]], _A theory of the black hole interior_ ([slides](https://indico.cern.ch/event/1085701/contributions/4940817/attachments/2481657/4260295/slides.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=efcf6b09-b948-4d73-a075-f25346f541aa))
 
+  > on [[black hole entropy]] via [[quantum error correcting codes]]
+
 * [[Maxim Pospelov]], _Dark matter identification efforts_ ([video](https://ustream.univie.ac.at/media/core.html?id=118664ce-20a5-4b62-a3b3-735ce5deea20))
+
+  > on [[dark matter]]
 
 * [[Tom Rudelius]], _Consequences of No Global Symmetries in Quantum Gravity_, ([slides](https://indico.cern.ch/event/1085701/contributions/4940824/attachments/2481780/4260540/Tom%20Rudelius%20Strings_2022_Consequences_No_Global_Symmetries.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=ddcba7cd-3342-48dc-aff7-520053645549))
 
 * [[Liam McAllister]], _Small Cosmological Constants in String Theory_ ([slides](https://indico.cern.ch/event/1085701/contributions/4940826/attachments/2481781/4260542/Liam%20McAllister%20Monday-Research-McAllister.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=1e5171ec-597a-4c34-bfb7-58d243b39ece))
+
+  > on realistic values of the [[cosmological constant]] in [[string theory]]
+
+### 19 May
+
+(...)
+
+
+category: reference
+
