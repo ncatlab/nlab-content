@@ -163,3 +163,5 @@ Under [[AdS/CFT duality in solid state physics]] the [[K-theory classification o
 
 [[!redirects K-theory classification of D-brane charge]]
 
+[[!redirects K-theory classification of D-branes]]
+
