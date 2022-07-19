@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+Towards higher [[Atiyah Lie algebroids]] for [[bundle gerbes]]:
+
+* {#Stevenson06} [[Danny Stevenson]], *Lie 2-algebras and the geometry of gerbes*, Unni Namboodiri Lectures 2006 &lbrack;[pdf](http://math.ucr.edu/home/baez/namboodiri/stevenson_maclane.pdf), [[Stevenson-Lie2AlgebrasAndGerbes.pdf:file]]&rbrack;
+
+
 On [[décalage]] and the [[simplicial loop group]] construction:
 
 * [[Danny Stevenson]], _Décalage and Kan's simplicial loop group functor_, Theory and Applications of Categories, Vol. 26, 2012, No. 28, pp 768-787 ([arXiv:1112.0474](https://arxiv.org/abs/1112.0474), [tac:26-28](http://www.tac.mta.ca/tac/volumes/26/28/26-28abs.html))
