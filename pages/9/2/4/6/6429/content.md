@@ -21,6 +21,10 @@ On [[KK-compactification|dimensional reduction]] of [[black rings]] in [[D=5 gra
 * [[Davide Gaiotto]], [[Andrew Strominger]], [[Xi Yin]], _5D Black Rings and 4D Black Holes_, JHEP 0602:023, 2006 ([arXiv:hep-th/0504126](https://arxiv.org/abs/hep-th/0504126))
 
 
+On [[Kerr black holes]] in the context of the [[holographic principle]] and the [[AdS-CFT correspondence]]:
+
+* [[Monica Guica]], [[Thomas Hartman]], Wei Song, [[Andrew Strominger]], _The Kerr/CFT Correspondence_, Phys. Rev. D **80** (2009) 124008 &lbrack;[arXiv:0809.4266](http://arxiv.org/abs/0809.4266), [doi:10.1103/PhysRevD.80.124008](https://doi.org/10.1103/PhysRevD.80.124008)&rbrack;
+
 
 On the [[M5-brane elliptic genus]]:
 
