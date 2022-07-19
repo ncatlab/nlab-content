@@ -6,7 +6,6 @@
 
 There are other mathematical uses of the term 'locus'. See, for example, [[smooth locus]] and [[derived critical locus]].
 
-
 ## Idea
 
 A **locus** is a $(\infty, 1)$-category $C$ such that the $(\infty, 1)$-category of [[indexed families]] of objects of $C$ over [[∞-groupoids]] form a [[(∞,1)-topos]].  Since $(\infty, 1)$-toposes are closed under [[left exact functor|left exact]] [[reflective sub-(∞,1)-category|localizations]], so are loci.  
