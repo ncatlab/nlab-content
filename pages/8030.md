@@ -205,7 +205,7 @@ Discussion of moduli stabilization in [[heterotic string theory]] includes
 
 * {#BuchbinderOvrut04} [[Evgeny Buchbinder]], [[Burt Ovrut]], _Vacuum Stability in Heterotic M-Theory_, Phys.Rev. D69 (2004) 086010 ([arXiv:hep-th/0310112](http://arxiv.org/abs/hep-th/0310112))
 
-* [[Sergei Gukov]], [[Shamit Kachru]], Xiao Liu, Liam McAllister, _Heterotic Moduli Stabilization with Fractional Chern-Simons Invariants_,  	Phys.Rev.D69:086008,2004 ([arXiv:hep-th/0310159](http://arxiv.org/abs/hep-th/0310159))
+* [[Sergei Gukov]], [[Shamit Kachru]], Xiao Liu, [[Liam McAllister]], _Heterotic Moduli Stabilization with Fractional Chern-Simons Invariants_,  Phys.Rev.D **69** (2004) 086008 &lbrack;[arXiv:hep-th/0310159](http://arxiv.org/abs/hep-th/0310159)&rbrack;
 
 
 
