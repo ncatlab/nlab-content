@@ -37,11 +37,15 @@ Review:
 
 * Yunfeng Jiang, _Lectures on solvable irrelevant deformations of 2d quantum field theory_ ([arXiv:1904.13376](https://arxiv.org/abs/1904.13376))
 
+* [[Monica Guica]], _$T\bar T$ deformations and holography: review and open questions_, talk at *[[Strings 2022]]* &lbrack;[indico:4940816](https://indico.cern.ch/event/1085701/contributions/4940816/), [slides](https://indico.cern.ch/event/1085701/contributions/4940816/attachments/2481655/4260285/slides.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=bfe514d2-b4c8-4f03-a2d1-33ee630b74f6)&rbrack;
+
+
 See also
 
 * George Jorjadze, [[Stefan Theisen]], _Canonical maps and integrability in $T \bar T$ deformed 2d CFTs_ ([arXiv:2001.03563](https://arxiv.org/abs/2001.03563))
 
 * [[John Cardy]], Benjamin Doyon, _$T \bar T$deformations and the width of fundamental particles_ ([arXiv:2010.15733](https://arxiv.org/abs/2010.15733))
+
 
 
 
