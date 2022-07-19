@@ -8,9 +8,8 @@ On [[cosmic structure formation]]:
 * [[Daniel Baumann]], _The big bang and the origin of structure_, 2019 ([web](https://www.dropbox.com/s/as3vb4jpv65822k/BigHistory-2019.pdf?dl=0))
 
 On [[cosmic inflation]] in [[string theory]]:
-  
-* [[Daniel Baumann]], Liam McAllister, _Inflation and String Theory_ ([arXiv:1404.2601](https://arxiv.org/abs/1404.2601))
 
+* [[Daniel Baumann]], [[Liam McAllister]], _Inflation and String Theory_, Cambridge University Press (2015) &lbrack;[arXiv:1404.2601](https://arxiv.org/abs/1404.2601), [doi:10.1017/CBO9781316105733]( https://doi.org/10.1017/CBO9781316105733)&rbrack;
 
 On [[cosmology]] and the [[cosmic microwave background]]:
 
