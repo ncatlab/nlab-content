@@ -142,6 +142,7 @@ The AGT correspondence is treated with the help of a [[Riemann-Hilbert problem]]
 
 * G. Vartanov, [[Jörg Teschner]], _Supersymmetric gauge theories, quantization of moduli spaces of flat connections, and conformal field theory_ ([arxiv/1302.3778](http://arxiv.org/abs/1302.3778))
 
+* A. Mironov, A. Morozov, *Superintegrability as the hidden origin of Nekrasov calculus* &lbrack;[arXiv:2207.08242](https://arxiv.org/abs/2207.08242)&rbrack;
 
 
 
