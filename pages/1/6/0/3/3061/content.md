@@ -62,16 +62,16 @@ The $Ext^1$-cohomology class corresponding to the Atiyah exact sequence (usually
 * [[Michael Atiyah]], _Complex analytic connections in fibre bundles_, Trans. Amer. Math. Soc. 85 (1957), 181--207, [doi](http://dx.doi.org/10.2307/1992969),[MR0086359](http://www.ams.org/mathscinet-getitem?mr=0086359) 
 * Pietro Tortella, _Representations of Atiyah algebroids and logarithmic connections_, [arxiv/1505.04763](http://arxiv.org/abs/1505.04763)
 
-A discussion with an emphasis on the relation to [[connection on a bundle|connections]] and [[Lie 2-algebra]]s is on the first pages of
+A discussion with an emphasis on the relation to [[connection on a 2-bundle|2-connections]] and [[Lie 2-algebras]] is on the first pages of
 
-* {#Stevenson06} [[Danny Stevenson]], Lie 2-algebras and the geometry of gerbes, Unni Namboodiri Lectures 2006 [slides](http://math.ucr.edu/home/baez/namboodiri/stevenson_maclane.pdf)
+* {#Stevenson06} [[Danny Stevenson]], *Lie 2-algebras and the geometry of gerbes*, Unni Namboodiri Lectures 2006 &lbrack;[pdf](http://math.ucr.edu/home/baez/namboodiri/stevenson_maclane.pdf), [[Stevenson-Lie2AlgebrasAndGerbes.pdf:file]]&rbrack;
 
-For Atiyah classes see
-
-
+For Atiyah classes see:
 	
-* L. Illusie, _Complexe cotangent et d&#233;formations_ (vol. 1) IV.2.3
+* [[Luc Illusie]], _Complexe cotangent et d&#233;formations_ (vol. 1) IV.2.3
+
 * [MO:atiyah-class-for-non-locally-free-sheaf](http://mathoverflow.net/questions/56405/atiyah-class-for-non-locally-free-sheaf)
+
 * [[M. Kapranov]], _Rozansky&#8211;Witten invariants via Atiyah classes_, Compositio Math.
 115 (1999), 71&#8211;113.
 * U. Bruzzo, I. Mencattini, V. Rubtsov, P. Tortella, _Nonabelian Lie algebroid extensions_, arXiv:1305.2377.
