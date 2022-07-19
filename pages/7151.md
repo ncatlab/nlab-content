@@ -41,6 +41,10 @@ survey and review:
 
 * [[Christian Saemann]], *$E L_\infty$-algebras, Generalized Geometry, and Tensor Hierarchies*, talk at [SFT@Cloud 2021](https://indico.cern.ch/event/1042834/) (2021) &lbrack;[pdf](https://indico.cern.ch/event/1042834/contributions/4487418/attachments/2313514/3937748/saemann_generalized_geometry.pdf), [[Saemann-ELInfinityAndTensorHierarchies.pdf:file]]&rbrack;
 
+Proposal for further enhancement of the [[higher differential geometry]]-formulation of [[T-folds]]  (such as with [[connection on a 2-bundle|2-connections]] and further [[non-geometric backgrounds]]):
+
+* [[Hyungrok Kim]], [[Christian Saemann]], *Non-Geometric T-Duality as Higher Groupoid Bundles with Connections* &lbrack;[arXiv:2204.01783](https://arxiv.org/abs/2204.01783)&rbrack;
+
 
 ## Related $n$Lab entries
 
