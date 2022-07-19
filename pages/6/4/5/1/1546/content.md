@@ -16,11 +16,13 @@
 
 ## Idea
 
-The **Atiyah Lie groupoid** $At(P)$ of a $G$-[[principal bundle]] $P \to X$ is the [[Lie groupoid]] whose objects are the fibers of the bundle, and whose morphisms are the $G$-equivariant morphisms between the fibers. Schematically:
+The **Atiyah Lie groupoid** $At(P)$ of a $G$-[[principal bundle]] $P \to X$ is the [[Lie groupoid]] whose [[objects]] are the [[fibers]] of the bundle, and whose [[morphisms]] are the $G$-[[equivariant maps]] between the fibers. 
+
+Schematically:
 
 $$
   At(P)
-  = 
+  \,=\, 
   \left\{
      P_x \stackrel{\alpha}{\to} P_y
      | x,y \in X
