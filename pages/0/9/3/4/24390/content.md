@@ -46,7 +46,7 @@
 
   > on 4d [[scattering amplitudes]] via [[holography as Koszul duality]]
 
-* [[Edward Witten]], _Algebras and Entropies_ ([slides](https://indico.cern.ch/event/1085701/contributions/4940799/attachments/2479685/4260630/Slides_Witten.pdf), [video](https://indico.cern.ch/event/1085701/contributions/4940799/attachments/2479685/4259987/go))
+* [[Edward Witten]], _Algebras and Entropies_ &lbrack;[indico:4940799](https://indico.cern.ch/event/1085701/contributions/4940799), [slides](https://indico.cern.ch/event/1085701/contributions/4940799/attachments/2479685/4260630/Slides_Witten.pdf), [video](https://indico.cern.ch/event/1085701/contributions/4940799/attachments/2479685/4259987/go)&rbrack;
 
 * [[Shira Chapman]], _Holographic Complexity and de Sitter Space_ &lbrack;[indico:4940811](https://indico.cern.ch/event/1085701/contributions/4940811), [slides](https://indico.cern.ch/event/1085701/contributions/4940811/attachments/2481532/4260404/Slides_Chapman.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=e3ddea36-2f95-42ac-8b26-98c41f1d800d)&rbrack;
 
