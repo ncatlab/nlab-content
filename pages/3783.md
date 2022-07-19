@@ -248,14 +248,20 @@ Kerr-type solutions in dimension $\gt 4$ were first given in
 
 In higher dimensions the uniqueness theorem of 4d breaks down, and there are solutions with non-spherical topology, such as [[black rings]]. This plays a role notably in the discussion of [[black holes in string theory]].
 
-### Observational signature
+On Kerr black holes in the context of the [[holographic principle]] and the [[AdS-CFT correspondence]]:
+
+* [[Monica Guica]], [[Thomas Hartman]], Wei Song, [[Andrew Strominger]], _The Kerr/CFT Correspondence_, Phys. Rev. D **80** (2009) 124008 &lbrack;[arXiv:0809.4266](http://arxiv.org/abs/0809.4266), [doi:10.1103/PhysRevD.80.124008](https://doi.org/10.1103/PhysRevD.80.124008)&rbrack;
+
+
+### Phenomenology
+ {#ReferencesObservation}
+
+Observational signature:
 
 * Minyong Guo, Niels A. Obers, Haopeng Yan, _Observational signature of near-extremal Kerr-like black holes in a modified gravity theory at the Event Horizon Telescope_, Phys. Rev. D 98, 084063 (2018) ([arXiv:1806.05249](https://arxiv.org/abs/1806.05249))
 
-### Actual observation
- {#ReferencesObservation}
 
-Near-extremal spinnin black holes are being observed
+Near-extremal spinning black holes are being observed:
 
 * Xinyu Dai, Shaun Steele, Eduardo Guerras, Christopher W. Morgan, Bin Chen, _Constraining Quasar Relativistic Reflection Regions and Spins with Microlensing_ ([arXiv:1901.06007](https://arxiv.org/abs/1901.06007))
 
@@ -269,6 +275,9 @@ Near-extremal spinnin black holes are being observed
 [[!redirects Kerr black hole spacetime]]
 [[!redirects Kerr black hole spacetimes]]
 
+[[!redirects Kerr black hole]]
+[[!redirects Kerr black holes]]
+
 [[!redirects spinning black hole]]
 [[!redirects spinning black holes]]
 
@@ -279,5 +288,7 @@ Near-extremal spinnin black holes are being observed
 [[!redirects Kerr-Newman black hole]]
 [[!redirects Boyer-Lindquist coordinates]]
 [[!redirects Boyer-Lindquist]]
+
+
 
 
