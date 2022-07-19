@@ -65,7 +65,7 @@
 
 * [[Tom Rudelius]], _Consequences of No Global Symmetries in Quantum Gravity_, ([slides](https://indico.cern.ch/event/1085701/contributions/4940824/attachments/2481780/4260540/Tom%20Rudelius%20Strings_2022_Consequences_No_Global_Symmetries.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=ddcba7cd-3342-48dc-aff7-520053645549))
 
-* [[Liam McAllister]], _Small Cosmological Constants in String Theory_ ([slides](https://indico.cern.ch/event/1085701/contributions/4940826/attachments/2481781/4260542/Liam%20McAllister%20Monday-Research-McAllister.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=1e5171ec-597a-4c34-bfb7-58d243b39ece))
+* [[Liam McAllister]], _Small Cosmological Constants in String Theory_ &lbrack;[indico:4940826](https://indico.cern.ch/event/1085701/contributions/4940826), [slides](https://indico.cern.ch/event/1085701/contributions/4940826/attachments/2481781/4260542/Liam%20McAllister%20Monday-Research-McAllister.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=1e5171ec-597a-4c34-bfb7-58d243b39ece)&rbrack
 
   > on realistic values of the [[cosmological constant]] in [[string theory]]
 
