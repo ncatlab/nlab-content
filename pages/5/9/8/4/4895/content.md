@@ -476,7 +476,9 @@ it is argued that in the [[AdS/CFT correspondence]] it is in fact just the Chern
 
 ### Black hole / CFT correspondence
 
-* Monica Guica, Thomas Hartman, Wei Song, [[Andrew Strominger]], _The Kerr/CFT Correspondence_ ([arXiv:0809.4266](http://arxiv.org/abs/0809.4266))
+For [[Kerr black holes]]:
+
+* [[Monica Guica]], [[Thomas Hartman]], Wei Song, [[Andrew Strominger]], _The Kerr/CFT Correspondence_, Phys. Rev. D **80** (2009) 124008 &lbrack;[arXiv:0809.4266](http://arxiv.org/abs/0809.4266), [doi:10.1103/PhysRevD.80.124008](https://doi.org/10.1103/PhysRevD.80.124008)&rbrack;
 
 * Alejandra Castro, Alexander Maloney, [[Andrew Strominger]], _Hidden Conformal Symmetry of the Kerr Black Hole_ ([arXiv:1004.0996](http://arxiv.org/abs/1004.0996))
 
