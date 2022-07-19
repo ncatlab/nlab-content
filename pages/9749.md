@@ -102,7 +102,7 @@ f( \sum_{i \in \mathbb{N}} p_i x_i) &=& f(h( \sum_{i \in \mathbb{N}} p_i \delta_
 \end{array}
 \end{equation}
 
-  For this reason we are naturally led to the category of super convex spaces, denoted $\mathbf{SCvx}$, which have been referred to as strongly convex spaces in the quantum mechanics literature, e.g., See Mackey - Math. Found. Q.M..  The morphisms of $\mathbf{SCvx}$ are countably affine map (barycenter maps) which generalizes (and is consistent with) the elementary examples of probability monads on compact Hausdorff spaces, etc.. These $G$-algebras, with measurable maps, provide the connection between the continuous (geometric) spaces and discrete (combinatorial) spaces which are necessary for modeling non-determinism.
+  For this reason we are naturally led to the category of [[super convex spaces]], denoted $\mathbf{SCvx}$, which have been referred to as strongly convex spaces in the quantum mechanics literature, e.g., See Mackey - Math. Found. Q.M..  The morphisms of $\mathbf{SCvx}$ are countably affine map (barycenter maps) which generalizes (and is consistent with) the elementary examples of probability monads on compact Hausdorff spaces, etc.. These $G$-algebras, with measurable maps, provide the connection between the continuous (geometric) spaces and discrete (combinatorial) spaces which are necessary for modeling non-determinism.
 
 Now we can describe the two ways in which $\mathbb{N}$ is ''sufficient''.  The full subcategory of super convex spaces consisting of the single object $G(\mathbb{N})$
 is dense in $\mathbf{SCvx}$. (This is almost immediate from the definition because if $A$ is any super convex space then a countably affine map $f: G(\mathbb{N}) \rightarrow A$ is completely defined by where $f$ maps each $\delta_i \in G(\mathbb{N})$.)  On the other hand, there exists a codense functor from the full subcategory of $\mathbf{SCvx}$ consisting of the single object $\mathbb{N}$ to the category of separated standard measurable spaces.  These two constructions are the content of the article ([Sturtz 22](#Sturtz22)) which attempts  to show the category of $G$-algebras on the subcategory (of $\mathbf{Meas}$) given by the category of standard measurable spaces is isomorphic to the category of super convex space.  
@@ -199,7 +199,7 @@ The article
 
 shows, in effect, that the Giry monad restricted to countable measurable spaces (with the discrete $\sigma$-algebra) yields the restricted Giry functor $G|: \mathbf{Meas}_c \rightarrow \mathbf{Meas}$ which has the codensity monad $G$.  This suggest that the natural numbers $\mathbb{N}$ are ''sufficient'' in the sense characterized above which suggest a factorization of the Giry monad, defined on the category of standard measurable spaces, through the category of super convex spaces, spelled out in 
 
-* {#Sturtz22} [[Kirk Sturtz]], _Giry algebras via the support of a probability measure_ $[$[arXiv:2202:10819](https://arxiv.org/abs/2202.10819)$]$
+* {#Sturtz22} [[Kirk Sturtz]], _Giry algebras for standard measurable spaces_ $[$[arXiv:2202:10819](https://arxiv.org/abs/2202.10819)$]$
 
 which has evolved from the preliminary work 
 
