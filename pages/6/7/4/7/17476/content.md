@@ -1,6 +1,6 @@
 [[!redirects Natalie M. Paquette]]
 
-* [webpage](https://sitp.stanford.edu/people/natalie-m-paquette)
+* [webpage](https://phys.washington.edu/people/natalie-paquette)
 
 ## Selected writings
 
