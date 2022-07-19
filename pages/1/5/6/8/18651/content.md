@@ -93,8 +93,8 @@ Briefly, the category of duploids and duploid functors is a [[reflective subcate
 
 ### A Duploid from an Adjunction
 
-First, we construct a duploid from an adjunction, which we think of as a [[forgetful functor]] that only remembers the Kleisli morphisms of the adjunction. To keep the proof unbiased, we start with a [[profunctor]] $O : C_- &#8696; C_+$ that the adjunction [[representable functor|represents]]. This gives us a notion of "oblique-" or [[heteromorphism|hetero-]]morphism from a positive object $P \in C_+$ to a negative object $N \in C-$ as $O(P,N)$ and can be used to define the Kleisli and coKleisli categories. In programming applications these are the "possibly effectful" morphisms. Then let $F \dashv G$ be adjoint functors representing $O$, i.e. there is a natural equivalence:
-$$ C_+(F P, N) \cong O(P,N) \cong C_-(P, G N).$$
+First, we construct a duploid from an adjunction, which we think of as a [[forgetful functor]] that only remembers the Kleisli morphisms of the adjunction. To keep the proof unbiased, we start with a [[profunctor]] $O : C_- &#8696; C_+$ that the adjunction [[representable functor|represents]]. This gives us a notion of "oblique-" or [[heteromorphism|hetero-]]morphism from a positive object $P \in C_+$ to a negative object $N \in C_-$ as $O(P,N)$ and can be used to define the Kleisli and coKleisli categories. In programming applications these are the "possibly effectful" morphisms. Then let $F \dashv G$ be adjoint functors representing $O$, i.e. there is a natural equivalence:
+$$ C_-(F P, N) \cong O(P,N) \cong C_+(P, G N).$$
 The pre-duploid $\mathcal{D}$ has as objects $|\mathcal{D}| = |C_+| + |C_-|$ with $\varpi(P) = +, \varpi(N) = -$.
 The morphisms are defined as:
 $$\mathcal{D}(A,B) = O(A^+,B^-)$$
