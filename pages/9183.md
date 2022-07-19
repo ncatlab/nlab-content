@@ -164,11 +164,16 @@ Evidence for dark matter on large cosmic scales is extremely strong, see the abo
 
 (...)
 
+Observational constraints:
+
+* Torsten Bringmann, [[Maxim Pospelov]], *Novel direct detection constraints on light dark matter*, Phys. Rev. Lett. **122** (2019) 171801 &lbrack;[arXiv:1810.10543](https://arxiv.org/abs/1810.10543), [doi:10.1103/PhysRevLett.122.171801](https://doi.org/10.1103/PhysRevLett.122.171801)&rbrack;
 
 
-Outlook on prospect of direct detection of dark matter, as of 2018:
+Outlook on prospect of direct detection of dark matter:
 
 * Gianfranco Bertone, Tim M. P. Tait, _A New Era in the Quest for Dark Matter_, Nature volume 562, pages 51–56 (2018)  ([arXiv:1810.01668](https://arxiv.org/abs/1810.01668))
+
+* [[Maxim Pospelov]], _Dark matter identification efforts_, talk at *[[Strings 2022]]* &lbrack;[indico:4940821](https://indico.cern.ch/event/1085701/contributions/4940821), [video](https://ustream.univie.ac.at/media/core.html?id=118664ce-20a5-4b62-a3b3-735ce5deea20)&rbrack;
 
 Argument that dark matter has already be seen across a range of direct detection experiments, but mis-interpreted as noise, due to negligence of the possibility of [[inelastic scattering|inelastic]] [[plasmon]] excitations in [[crystal|crystalline]] [[solid state physics|solid state]] detector materials:
 
