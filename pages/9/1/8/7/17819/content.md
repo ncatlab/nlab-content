@@ -5,11 +5,15 @@
 
 ## Idea
 
-An (abstract) clone is equivalent to a [[cartesian operad]] (that is, a [[cartesian multicategory]] with one object). However, clones are presented differently, with projections rather than with symmetries, contraction and weakening. Consequently, an abstract clones is equivalently considered a presentation of a single-sorted [[algebraic theory]] in terms of algebraic operations, equivalent to a [[Lawvere theory]] but organized slightly differently.
+An __abstract clone__ is a structure that describes a single-sorted [[algebraic theory]] in a presentation-invariant way.
+
+An abstract clone is equivalent to a [[cartesian operad]], that is, a [[cartesian multicategory]] with one object. However, clones are presented differently, and quite economically, with projections rather than with symmetries, contraction and weakening. 
+
+Abstract clones are equivalent to [[Lawvere theories]], and also to [[finitary monads]]. These are all different ways of giving presentation-invariant descriptions of single-sorted algebraic theories. 
 
 ## Definition
 
-A set of algebraic operations on a fixed set $S$ is a __(concrete) clone__
+A set of algebraic operations on a fixed set $S$ is a __concrete clone__
 on $S$ if it contains all (component) projections $S^{n}\to S$ and is closed under composition ("superposition").
 
 An **abstract clone** consists of an abstract set of "$n$-ary operations" for every $n$ together with projection and composition operations.  This is the notion that's equivalent to a cartesian operad or a Lawvere theory.
@@ -33,7 +37,7 @@ such that
 
 where we omit subscripts and write $(t \rhd i.u(i))$ for $c(t,(u_i)_i)$. 
 
-This resembles the Kleisli triple presentation of a monad, except that $n$ is a natural number rather than an arbitrary set; in this sense it is the Kleisli triple form of a [[relative monad]] for the embedding $\mathbf{FinSet}\to\mathbf{Set}$. 
+This resembles the [[monad (in computer science)#RelationToMonadsInCategoryTheory|Kleisli triple presentation]] of a [[monad]], except that $n$ is a natural number rather than an arbitrary set; in this sense it is the Kleisli triple form of a [[relative monad]] for the embedding $\mathbf{FinSet}\to\mathbf{Set}$. 
 
 ## Examples
 
@@ -51,7 +55,7 @@ We then build for all $n$ the terms in $n$ variables, written $x_1\dots x_n\vdas
 
 * if $n\vdash t_1\ \ \dots\ \  n\vdash t_m$ are terms and $\sigma\in \Sigma_m$ then $n\vdash \sigma(t_1,\dots, t_m)$ is a term. Here we write $n =(x_1\dots x_n)$. 
 
-Now we form an abstract clone by putting $T_\Sigma(n)=\{t\ \ |\ \ (n\vdash t\ \ \text{ is a term}\}$. 
+Now we form an abstract clone by putting $T_\Sigma(n)=\{t\ \ |\ \ (n\vdash t\ \ \text{ is a term})\}$. 
 The functions $\eta_n$ picks out the variables, and the function $c_{m,n}$ amount to substitutions of terms for variables, which produces well-formed terms. 
 
 The inhabitants of $T_\Sigma$ are sometimes called "derived operations", since although they are not in the signature they have an interpretation in any model. 
@@ -84,22 +88,26 @@ Conversely, if $L$ is a Lawvere theory then we can build a clone $T(n)=L(n,1)$. 
 
 ## Algebras of abstract clones and connection with finitary monads 
 
-We can define an _algebra of an abstract clone $T$_ to be a set $X$ together with $n$-ary function $t \rhd : X^n\to X$ for each $t\in T(n)$, such that 
+We can define an __algebra of an abstract clone $T$__ to be a set $X$ together with $n$-ary function $t \rhd : X^n\to X$ for each $t\in T(n)$, such that 
 
 * $\eta_i \rhd i.x(i)= x(i)$; 
 
 * $(t\rhd i.u(i))\rhd j.x(j)= t\rhd i.(u(i)\rhd j.x(j))$.
 
-For example, an algebra for the abstract clone of groups is a group. Now the category of $T$-algebras has a forgetful functor 
+Here we are writing $\rhd$ for both the clone composition and the algebra structure, and again writing $t \rhd i.x(i)$ for $t\rhd(x_i)_i$.
+
+For example, an algebra for the abstract clone of groups is a group. 
+
+Now the category of $T$-algebras has a forgetful functor 
 
 $$ T\mathbf{-Alg} \to \mathbf{Set}$$
 
 One can show that this functor is [[monadic]] by showing it preserves limits, satisfies the solution set condition, reflects isomorphisms, and has reflexive coequalizers. Thus every abstract clone gives rise to a monad. 
 
 Another way to define this monad is to note that $T$ can be regarded as a functor $\mathbf{FinSet}\to \mathbf{Set}$, with $T(f):T(m)\to T(n)$ given by $T(f)(t)=(t\rhd i.\eta(f(i)))$. 
-Then we define a functor $M:\mathbf{Set}\to\mathbf{Set}$ by a [[coend]]:
+Then we extend this to a functor $M:\mathbf{Set}\to\mathbf{Set}$ by a [[coend]] or by [[Kan extension]]:
 
-$$ M(X) = \int^n T(n)\times X^n$$
+$$ M(X) = \int^n T(n)\times X^n = (\mathrm{Lan}\,T)(X)$$
 
 In other words, an inhabitant of $M(X)$ is a derived operation $t\in T(n)$ formally applied to an $n$-tuple in $X^n$, modulo change of variables. 
 This functor $M$ can be given the structure of a monad on $\mathbf{Set}$, and its [[Eilenberg-Moore algebras]] are the $T$-algebras.
@@ -115,7 +123,15 @@ The definition of abstract clones given here is itself a presentation of algebra
 
 $$ \mathbf{AbstractClones} \to [\mathbf{FinSet},\mathbf{Set}]$$
 
-is [[enriched]] and [[monadic]]. In fact we can consider a more general notion of abstract clone enriched in a [[locally presentable category]], where the arities $n$ are replaced by finitely presentable objects. Then the plain abstract clones themselves form an abstract clone enriched in $[\mathbf{FinSet},\mathbf{Set}]$. 
+is [[monadic]]. 
+
+In fact this adjunction is [[enriched]] in $[\mathbf{FinSet},\mathbf{Set}]$. Moreover, we can consider a more general notion of abstract clone enriched in a [[locally presentable category]], where the arities $n$ are replaced by finitely presentable objects. Then the plain abstract clones themselves are algebras for an abstract clone enriched in $[\mathbf{FinSet},\mathbf{Set}]$. One way to present this formally is in terms of the substitution algebras of Fiore, Plotkin and Turi.
+
+Another view of this adjunction starts from viewing $[\mathbf{FinSet},\mathbf{Set}]$ as a [[monoidal category]]. To get this, we can understand functors $\mathbf{FinSet}\to \mathbf{Set}$ as [[filtered colimit]] preserving endofunctors $\mathbf{Set}\to\mathbf{Set}$, and then composition forms a monoidal structure on a category of endofunctors. In detail, the unit is $\mathbf{FinSet}(1,-)$ and tensor product is 
+
+$$(F \otimes G) (n) = \int^m F(m) \times G(n)^m = ((\mathrm{Lan}\,F)\circ G)(n)$$
+
+Then the category of abstract clones is (equivalent to) the category of [[monoids]] for this monoidal structure. Since a finitary monad is a filtered-colimit-preserving "monoid in the category of endofunctors", this also gives an abstract view of the connection between abstract clones and finitary monads on $\mathbf{Set}$.
 
 ## References 
 
@@ -141,6 +157,14 @@ See also the thesis
 Algebraic theories are treated as abstract clones in the enriched setting (but abstractly), and monadicity is dealt with, in 
 
 * [[Max Kelly]], [[John Power]], _Adjunctions whose counits are coequalizers, and presentations of finitary enriched monads_. JPAA 1993. [doi:10.1016/0022-4049(93)90092-8](https://doi.org/10.1016/0022-4049%2893%2990092-8).
+
+Substitution algebras as a theory over $[\mathbf{FinSet},\mathbf{Set}]$ are presented in: 
+
+* [[Marcelo Fiore]], [[Gordon Plotkin]] and Daniele Turi. Abstract syntax and variable binding. Proc LICS 1999. [preprint](https://www.dcs.ed.ac.uk/home/dt/FiorePlotkinTuri.pdf). 
+
+One description of enriched abstract clones is in Section 5 of 
+
+* [[Sam Staton]], An algebraic presentation of predicate logic. FOSSACS 2013. [preprint](http://www.cs.ox.ac.uk/people/samuel.staton/papers/fossacs13.pdf).
 
 [[!redirects clones]]
 [[!redirects cartesian operad]]
