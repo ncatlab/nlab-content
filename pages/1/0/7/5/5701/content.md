@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[moduli stabilization]] in [[heterotic string theory]]:
+
+* [[Sergei Gukov]], [[Shamit Kachru]], Xiao Liu, [[Liam McAllister]], _Heterotic Moduli Stabilization with Fractional Chern-Simons Invariants_,  Phys.Rev.D **69** (2004) 086008 &lbrack;[arXiv:hep-th/0310159](http://arxiv.org/abs/hep-th/0310159)&rbrack;
+
 On [[Chern-Simons theory with complex gauge group]]:
 
 * {#DGLZ09} [[Tudor Dimofte]], [[Sergei Gukov]], Jonatan Lenells, [[Don Zagier]], _Exact Results for Perturbative Chern-Simons Theory with Complex Gauge Group_ ([arXiv:0903.2472](http://arxiv.org/abs/0903.2472))
