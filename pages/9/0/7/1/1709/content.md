@@ -625,22 +625,18 @@ The above result can be seen as an effective way to compute the sheaf cohomology
 
 ### General
 
-Homology with local coefficients was introduced in
+Original articles on [[twisted ordinary homology]]:
 
-* [[Kurt Reidemeister]], _Überdeckungen von Komplexen_, Crelle 173 (1935), 164-173.  [doi](http://dx.doi.org/10.1515/crll.1935.173.164)
+* [[Kurt Reidemeister]], _Überdeckungen von Komplexen_, Crelle **173** (1935), 164-173 &lbrack;[doi:10.1515/crll.1935.173.164](http://dx.doi.org/10.1515/crll.1935.173.164)&rbrack;
 
-An independent account appeared in
+and independently: 
 
-* [[Norman E. Steenrod]], _Homology with local coefficients_, Annals of Mathematics (Second Series) 44:4 (1943).
-
-The paper 
-
-* [[Samuel Gitler]], _Cohomology operations with local coefficients_, American Journal of Mathematics 85:2 (1963), 156–188.  [doi](http://dx.doi.org/10.2307/2373208)
-
-shows that twisted [[Eilenberg–MacLane spaces]] classify cohomology with local coefficients.
+* [[Norman E. Steenrod]], _Homology with local coefficients_, Annals of Mathematics (Second Series) **44** 4 (1943) 610-627 &lbrack;[doi:10.2307/1969099](https://doi.org/10.2307/1969099)&rbrack;
 
 
-The case of $\pi_1(X)$-twisted [[ordinary cohomology]]:
+On representing twisted [[Eilenberg–MacLane spaces]] and [[cohomology operations]] for twisted ordinary cohomology:
+
+* [[Samuel Gitler]], _Cohomology operations with local coefficients_, American Journal of Mathematics **85** 2 (1963) 156–188  &lbrack;[doi:10.2307/2373208](http://dx.doi.org/10.2307/2373208)&rbrack;
 
 * M. Bullejos, E. Faro, M. A. Garc&iacute;a-Mu&ntilde;oz, _Homotopy colimits and cohomology with local coefficients_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 44 no. 1 (2003), p. 63-80 ([numdam:CTGDC_2003__44_1_63_0](http://www.numdam.org/item?id=CTGDC_2003__44_1_63_0))
 
