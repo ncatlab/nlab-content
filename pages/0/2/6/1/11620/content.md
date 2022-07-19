@@ -6,7 +6,7 @@
 
 On [[T-duality]]:
 
-* [[Katrin Becker]], Aaron Bergman, _Geometric Aspects of D-branes and T-duality_ ([arXiv:0908.2249](http://arxiv.org/abs/0908.2249))
+* [[Katrin Becker]], [[Aaron Bergman]], _Geometric Aspects of D-branes and T-duality_ ([arXiv:0908.2249](http://arxiv.org/abs/0908.2249))
 
 Textbook account of [[perturbative string theory]] and [[M-theory]]/[[F-theory]]:
 
