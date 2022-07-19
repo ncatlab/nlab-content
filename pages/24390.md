@@ -32,7 +32,7 @@
 
 ## Overview
 
-*[Strings 2022](https://indico.cern.ch/event/1085701)* is a [[theoretical physics]] conference held in Vienna, Austria between 18 May and 23 May 2022. This conference consists of a variety of related subjects at the frontier of theoretical physics, such as [[string theory]], [[conformal field theory]], [[holography]], [[black hole]] physics, and other topics in [[quantum field theory]] and [[quantum gravity]]. The website for this conference could be found [here](https://indico.cern.ch/event/1085701/). 
+*[Strings 2022](https://indico.cern.ch/event/1085701)* is a [[theoretical physics]] conference held in Vienna, Austria between 18 May and 23 May 2022. This conference consists of a variety of subjects at the frontier of theoretical physics, such as [[conformal field theory]], [[holography]], [[black hole]] physics, [[string theory]], and other topics in [[quantum field theory]] and [[quantum gravity]]. The website for this conference could be found [here](https://indico.cern.ch/event/1085701/). 
 
 ## Talks
 
@@ -46,7 +46,7 @@
 
   > on 4d [[scattering amplitudes]] via [[holography as Koszul duality]]
 
-* [[Edward Witten]], _Algebras and Entropies_ ([video](https://indico.cern.ch/event/1085701/contributions/4940799/attachments/2479685/4259987/go))
+* [[Edward Witten]], _Algebras and Entropies_ ([slides](https://indico.cern.ch/event/1085701/contributions/4940799/attachments/2479685/4260630/Slides_Witten.pdf), [video](https://indico.cern.ch/event/1085701/contributions/4940799/attachments/2479685/4259987/go))
 
 * [[Shira Chapman]], _Holographic Complexity and de Sitter Space_ &lbrack;[indico:4940811](https://indico.cern.ch/event/1085701/contributions/4940811), [slides](https://indico.cern.ch/event/1085701/contributions/4940811/attachments/2481532/4260404/Slides_Chapman.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=e3ddea36-2f95-42ac-8b26-98c41f1d800d)&rbrack;
 
@@ -63,7 +63,7 @@
 
   > on [[black hole entropy]] via [[quantum error correcting codes]]
 
-* [[Maxim Pospelov]], _Dark matter identification efforts_ &lbrack;[indico:4940821](https://indico.cern.ch/event/1085701/contributions/4940821), [video](https://ustream.univie.ac.at/media/core.html?id=118664ce-20a5-4b62-a3b3-735ce5deea20)&rbrack;
+* [[Maxim Pospelov]], _Dark matter identification efforts_ &lbrack;[indico:4940821](https://indico.cern.ch/event/1085701/contributions/4940821), [slides](https://indico.cern.ch/event/1085701/contributions/4940821/attachments/2481749/4261004/Slides_Pospelov.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=118664ce-20a5-4b62-a3b3-735ce5deea20)&rbrack;
 
   > on [[dark matter]]
 
