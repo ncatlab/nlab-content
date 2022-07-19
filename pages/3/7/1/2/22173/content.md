@@ -13,5 +13,10 @@ and relation to [[EL-infinity algebras|$E L_\infty$-algebras]] and [[tensor hier
 
 * [[Leron Borsten]], [[Hyungrok Kim]], [[Christian Saemann]].  *$E L_\infty$-algebras, Generalized Geometry, and Tensor Hierarchies* &lbrack;[arXiv:2106.00108](https://arxiv.org/abs/2106.00108)&rbrack;
 
+Proposal for further enhancement of the [[higher differential geometry]]-formulation of [[T-folds]]  (such as with [[connection on a 2-bundle|2-connections]] and further [[non-geometric backgrounds]]):
+
+* [[Hyungrok Kim]], [[Christian Saemann]], *Non-Geometric T-Duality as Higher Groupoid Bundles with Connections* &lbrack;[arXiv:2204.01783](https://arxiv.org/abs/2204.01783)&rbrack;
+
+
 
 category: people
