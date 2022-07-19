@@ -17,30 +17,30 @@ Let $\mathcal{G}(\mathbb{N})$ denote the set of all probability measures on the 
   \int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p} := \sum_{i \in \mathbb{N}} p_i a_i.
  \end{equation}
 
-We say a set $A$ has the structure of a super convex space $A$ if and only if the following three axioms are satisfied:
-
-
-Axiom 1. For every sequence $\mathbf{a}: \mathbb{N} \rightarrow A$ and every $\mathbf{p} \in \mathcal{G}(\mathbb{N})$ it follows that 
-\begin{equation} 
-\int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p}  \in A.
+We say a set $A$ has the structure of a super convex space  if it comes equipped with a function
+\begin{equation}
+\begin{array}{ccccc}
+st_A&:& \mathcal{G}{(\mathbb{N})} \times \Set(\mathbb{N}, A) & \rightarrow& A \\
+&:& (\mathbf{p}, \mathbf{a}) & \mapsto & \int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p}
+\end{array}
 \end{equation}
+such that the following two axioms are satisfied:
 
 
-Axiom 2. For every sequence $\mathbf{a}: \mathbb{N} \rightarrow A$ and every  $j \in \mathbb{N}$ the property 
+Axiom 1. For every sequence $\mathbf{a}: \mathbb{N} \rightarrow A$ and every  $j \in \mathbb{N}$ the property 
 \begin{equation} 
 \int_{\mathbb{N}} \mathbf{a} \, \, d\delta_j = a_j
 \end{equation}
 holds.  
 
 
-Axiom 3. If $\mathbf{p} \in \mathcal{G}(\mathbb{N})$ and $\mathbf{Q}: \mathbb{N} \rightarrow \mathcal{G}(\mathbb{N})$ is a sequence of probability measures on $(\mathbb{N}, \powerset{\mathbb{N}})$   then 
+Axiom 2. If $\mathbf{p} \in \mathcal{G}(\mathbb{N})$ and $\mathbf{Q}: \mathbb{N} \rightarrow \mathcal{G}(\mathbb{N})$ is a sequence of probability measures on $(\mathbb{N}, \mathcal{P}(\mathbb{N}))$   then 
 \begin{equation} 
 \int_{j \in \mathbb{N}} \big( \int_{\mathbb{N}} \mathbf{a} \, d\mathbf{Q}^j \big) \, d\mathbf{p} = \int_{\mathbb{N}} \mathbf{a} \,  d(  \int_{j \in \mathbb{N}} \mathbf{Q}^{\bullet} \, d\mathbf{p}  \big).
 \end{equation}
 
-Need to: Add diagram to explain Axiom 3 using the natural transformation $\mu_{\mathbb{N}}: \mathcal{G}^2 \rightarrow \mathcal{G}$
 
-The third axiom uses  the pushforward measure $\mathcal{G}(\mathbf{Q})\mathbf{p} \in \mathcal{G}^2{\mathbb{N}}$ and the natural transformation $\mu$ of the Giry monad at component $\mathbb{N}$, $\mu_{\mathbb{N}}: \mathcal{G}^2(\mathbb{N}) \rightarrow \mathcal{G}(\mathbb{N})$, which yields the probability measure on  the measurable space $(\mathbb{N}, \powerset{\mathbb{N}})$  whose value at the measurable set $\{j\}$ is given by the composite of measurable maps
+The second axiom uses  the pushforward measure $\mathcal{G}(\mathbf{Q})\mathbf{p} \in \mathcal{G}^2{\mathbb{N}}$ and the natural transformation $\mu$ of the Giry monad at component $\mathbb{N}$, $\mu_{\mathbb{N}}: \mathcal{G}^2(\mathbb{N}) \rightarrow \mathcal{G}(\mathbb{N})$, which yields the probability measure on  the measurable space $(\mathbb{N}, \mathcal{P}{\mathbb{N}})$  whose value at the measurable set $\{j\}$ is given by the composite of measurable maps
 \begin{centre}
 \begin{tikzpicture}
       \node   (1)  at  (0,0)  {$1$};
@@ -72,7 +72,7 @@ Super convex spaces with morphisms the countably affine maps form a category den
 
 
 ## Alternative Definition 
- Viewing $\Delta_{\mathbb{N}}$ as a monoid we can model a super convex space $A$ as the subcategory of $\mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$ consisting of those  functors  $\widehat{A} \in \Set^{\Delta_{\mathbb{N}}^{op}}$ given by $\widehat{A}(\star)=\Set(\mathbb{N}, A)$ and for all $\mathbf{p} \in \mathcal{G}{\mathbb{N}}$ (hence $\mathbf{p} \in \Delta_{\mathbb{N}}$ and vice-versa)
+ Viewing $\Delta_{\mathbb{N}}$ as a monoid we can model a super convex space $A$ as the subcategory of $\mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$ consisting of those  functors of the form  $\widehat{A} \in \Set^{\Delta_{\mathbb{N}}^{op}}$ given by $\widehat{A}(\star)=\Set(\mathbb{N}, A)$ and for all $\mathbf{p} \in \mathcal{G}{\mathbb{N}}$ (hence $\mathbf{p} \in \Delta_{\mathbb{N}}$ and vice-versa)
  \begin{equation} 
   \widehat{A}(\mathbf{p})(\mathbf{a}) =  \int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p},
   \end{equation}
@@ -108,12 +108,18 @@ Super convex spaces with morphisms the countably affine maps form a category den
 commutes.
 
 ## Probability Amplitudes
-In physics, super convex spaces have been referred to as strong convex spaces.  In physics, where probability amplitudes are used which make use of the $\ell_2$-norm instead of the tradition ''$\ell_1$-norm'' which is used above, the above definition can be altered by
-taking 
+In physics super convex spaces have been referred to as strong convex spaces, and since probability amplitudes are employed there one makes use of the $\ell_2$-norm instead of the tradition ''$\ell_1$-norm'' which is used above. By using
+ \begin{equation}
+\mathcal{G}(\mathbb{N}) = \{  \mathbf{p}: \mathbb{N} \rightarrow  \mathbf{D}_2  |  \lim_{N \rightarrow \infty} \{ \sum_{i=1}^N p_i p_i^{\star} \}= 1 \}
+ \end{equation}
+where $\mathbf{D}_2 = \{r e^{\imath \theta} \in \mathbb{C} \, | r \in [0,1],  and  \theta \in [0,2 \pi) \}$ and $p_i^{\star}$ is the complex conjugate of $p_i$, 
+applied to the above axioms one obtains super convex spaces useful for physics. 
+
+## Examples
+A fundamental super convex space is the set $\mathbb{N}$ with the super convex space structure defined, for every sequence $\mathbf{s}: \mathbb{N} \rightarrow \mathbb{N}$  by 
 \begin{equation}
-\mathcal{G}(\mathbb{N}) = \{ \mathbf{p}: \mathbb{N} \rightarrow  \mathbf{D}_2  \,  | \,\lim_{N \rightarrow \infty} \{ \sum_{i=1}^N p_i p_i^{\star} \}= 1 \}
+\int_{\mathbb{N}} \mathbf{s} d\mathbf{p} = \inf_i \{\mathbf{s}_i \, | \, p_i>0 \}
 \end{equation}
-where $\mathbf{D}_2 = \{r e^{\imath \theta} \in \mathbb{C} \, | r \in [0,1],  and  \theta \in [0,2 \pi) \}$ and $p_i^{\star}$ is the complex conjugate of $p_i$.
 
 ## Properties
 
@@ -122,13 +128,18 @@ The category $\mathbf{SCvx}$ has all limits and colimits.  Furthermore it is a s
 As shown by Borger and Kemmper (cite)
 there are no coseparators for $\mathbf{SCvx}$.
 
-## Examples
-A fundamental super convex space is the set $\mathbb{N}$ with the super convex space structure defined, for every sequence $\mathbf{s}: \mathbb{N} \rightarrow \mathbb{N}$  by 
+  An ideal in a super convex space $A$ is a subset $\mathcal{I}$ such that whenever $a_0 \in \mathcal{I}$ and $\sum_{i \in \mathbb{N}}p_i a_i$ is a countable affine sum with the coefficient of $a_0$ nonzero then $\sum_{i \in \mathbb{N}}p_i a_i \in \mathcal{I}$.
+
+## More Examples
+The only ideals of the super convex space $\mathbb{N}$ are the principal ideals,
 \begin{equation}
-\int_{\mathbb{N}} \mathbf{s} d\mathbf{p} = \inf_i \{\mathbf{s}_i \, | \, p_i>0 \}
+\{0\} \subset \{0,1\} \subset \{0,1,2\} \subset \ldots
 \end{equation}
+and $\mathbb{N}$ has no maximal ideals.  
  
 Add example of quotient spaces...
+
+Add applications outside of probability theory...
 
 
 ## References
