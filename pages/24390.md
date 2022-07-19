@@ -25,6 +25,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -47,11 +48,14 @@
 
 * [[Edward Witten]], _Algebras and Entropies_ ([video](https://indico.cern.ch/event/1085701/contributions/4940799/attachments/2479685/4259987/go))
 
-* [[Shira Chapman]], _Holographic Complexity and de Sitter Space_ ([slides](https://indico.cern.ch/event/1085701/contributions/4940811/attachments/2481532/4260404/Slides_Chapman.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=e3ddea36-2f95-42ac-8b26-98c41f1d800d))
+* [[Shira Chapman]], _Holographic Complexity and de Sitter Space_ &lbrack;[indico:4940811](https://indico.cern.ch/event/1085701/contributions/4940811), [slides](https://indico.cern.ch/event/1085701/contributions/4940811/attachments/2481532/4260404/Slides_Chapman.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=e3ddea36-2f95-42ac-8b26-98c41f1d800d)&rbrack;
+
+  > on [[computational complexity and physics|computational complexity]] in [[quantum gravity]]
+
 
 * [[Vijay Balasubramanian]], _Complexity, chaos, and black holes_ ([slides](https://indico.cern.ch/event/1085701/contributions/4940812/attachments/2481535/4260044/Vijay%20Balasubramanian%20Monday-Research-Balasubramanian.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=e6fa0823-d9bf-42a9-aa52-694abe79a65a))
 
-* [[Monica Guica]], _$T\bar T$ deformations and holography: review and open questions_ ([slides](https://indico.cern.ch/event/1085701/contributions/4940816/attachments/2481655/4260285/slides.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=bfe514d2-b4c8-4f03-a2d1-33ee630b74f6))
+* [[Monica Guica]], _$T\bar T$ deformations and holography: review and open questions_ &lbrack;[indico:4940816](https://indico.cern.ch/event/1085701/contributions/4940816/), [slides](https://indico.cern.ch/event/1085701/contributions/4940816/attachments/2481655/4260285/slides.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=bfe514d2-b4c8-4f03-a2d1-33ee630b74f6)&rbrack;
 
   > on [[TT deformation|$T \bar T$ deformations]]
 
@@ -59,7 +63,7 @@
 
   > on [[black hole entropy]] via [[quantum error correcting codes]]
 
-* [[Maxim Pospelov]], _Dark matter identification efforts_ ([video](https://ustream.univie.ac.at/media/core.html?id=118664ce-20a5-4b62-a3b3-735ce5deea20))
+* [[Maxim Pospelov]], _Dark matter identification efforts_ &lbrack;[indico:4940821](https://indico.cern.ch/event/1085701/contributions/4940821), [video](https://ustream.univie.ac.at/media/core.html?id=118664ce-20a5-4b62-a3b3-735ce5deea20)&rbrack;
 
   > on [[dark matter]]
 
