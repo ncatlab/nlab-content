@@ -144,19 +144,11 @@ theories without dependent types generally enjoy better [type inference](http://
 properties than those with dependent types, making them
 practical as programming languages.
 
-### Speculative ###
-
-+-- {: .standout}
-Might there be such a thing as an $n$-GAT, where a $0$-GAT is an algebraic theory and an $(n+1)$-GAT is defined as above except that the sort algebra is an $n$-GAT rather than an algebra? -- [[Adam]]
-=--
-
-+-- {: .standout}
-I feel like there must be some sort of way to eliminate the notion of "arity" and put in its place an arbitrary (G)AT, recovering the original notion using the single-sorted Peano algebra (one constant "0", one unary operation "S", and no equations) or binary tree algebra (one constant "0", one binary operation "B", and no equations).  But I can't quite put my finger on how to do it.  -- [[Adam]]
-=--
-
 ## References
 
-* {#Cartmell86} [[John Cartmell]], _Generalised Algebraic Theories and Contextual Categories_, Annals of Pure and Applied Logic, 32(0):209 – 243, 1986, [doi:10.1016/0168-0072(86)90053-9](http://dx.doi.org/10.1016/0168-0072%2886%2990053-9)
+* {#Cartmell1978} [[John Cartmell]], *Generalised Algebraic Theories and Contextual Categories*, PhD thesis, Oxford University (1978) &lbrack;[[Cartmell-Thesis.pdf:file]]&rbrack;
+
+* {#Cartmell86} [[John Cartmell]], *Generalised Algebraic Theories and Contextual Categories*, Annals of Pure and Applied Logic, **32** (1986) 209-243  &lbrack;[doi:10.1016/0168-0072(86)90053-9](http://dx.doi.org/10.1016/0168-0072%2886%2990053-9)&rbrack;
 
 [[!redirects generalized algebraic theories]]
 [[!redirects generalised algebraic theories]]
