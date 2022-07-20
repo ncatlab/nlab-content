@@ -7,6 +7,13 @@ On [[geometric engineering of quantum field theory]]:
 
 * [[Andreas Karch]], _Field Theory Dynamics from Branes in String Theory_, PhD thesis (1998) ([doi:10.18452/14371](https://doi.org/10.18452/14371))
 
+On [[gravity]] in [[Randall-Sundrum models]]:
+
+* [[Andreas Karch]], [[Lisa Randall]], *Locally Localized Gravity*, JHEP 0105:008 (2001) &lbrack;[arXiv:hep-th/0011156](https://arxiv.org/abs/hep-th/0011156), [doi:10.1088/1126-6708/2001/05/008](https://doi.org/10.1088/1126-6708/2001/05/008)&rbrack;
+
+* [[Andreas Karch]], *Randall-Sundrum Branes and Holography*, talk at *[[Strings 2022]]* &lbrack;[indico:4940841](https://indico.cern.ch/event/1085701/contributions/4940841)&rbrack;
+
+
 On [[AdS/CFT]] as [[open/closed string duality]] and early discussion of the concept of [[probe branes]] in [[AdS/CFT]]:
 
 * [[Andreas Karch]], [[Lisa Randall]], _Open and Closed String Interpretation of SUSY CFT's on Branes with Boundaries_, JHEP 0106:063, 2001 ([arXiv:hep-th/0105132](https://arxiv.org/abs/hep-th/0105132))
