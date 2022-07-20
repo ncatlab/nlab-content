@@ -461,7 +461,8 @@ Discussion in [[holographic QCD]]:
 * {#EspiruKatanaeva18} Domenec Espriu, Alisa Katanaeva, _Composite Higgs Models: a new holographic approach_ ([arXiv:1812.01523](https://arxiv.org/abs/1812.01523))
 
 
-* Johanna Erdmenger, Nick Evans, Werner Porod, Konstantinos S. Rigatos, _Gauge/gravity dual dynamics for the strongly coupled sector of composite Higgs models_ ([arXiv:2010.10279](https://arxiv.org/abs/2010.10279))
+* [[Johanna Erdmenger]], [[Nick Evans]], [[Werner Porod]], [[Konstantinos Rigatos]], *Gauge/gravity dual dynamics for the strongly coupled sector of composite Higgs models*, JHEP **58** (2021) &lbrack;[arXiv:2010.10279](https://arxiv.org/abs/2010.10279), <a href="https://doi.org/10.1007/JHEP02(2021)058">doi:10.1007/JHEP02(2021)058</a>&rbrack;
+
 
 Discussion in [[heterotic string theory]]:
 
