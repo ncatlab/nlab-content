@@ -42,6 +42,8 @@ A formalization of this in [[cohesive (infinity,1)-topos|cohesive geometry]] is 
 
 * [[extremum]]
 
+* [[locus]]
+
 * [[derived critical locus]]
 
 ## Rereferences
