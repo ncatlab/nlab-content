@@ -46,7 +46,7 @@ The intended meaning is that the head of the stream is available now while the t
 
 * [[Lars Birkedal]], Ales Bizjak, Ranald Clouston, Hans Bugge Grathwohl, [[Bas Spitters]], Andrea Vezzosi, _Guarded cubical type theory_ [arxiv](https://arxiv.org/abs/1611.09263)
 
-* [[Jon Sterling]], [[Robert Harper]], _Guarded Computational Type Theory_ [arxiv](https://arxiv.org/abs/1804.09098)
+* [[Jon Sterling]], [[Robert Harper]], *Guarded Computational Type Theory*, LICS '18 (2018) 879–888 &lbrack;[arxiv:1804.09098](https://arxiv.org/abs/1804.09098), [doi:10.1145/3209108.3209153](https://doi.org/10.1145/3209108.3209153)&rbrack;
 
 A general calculus for dependent modal type theories.
 
