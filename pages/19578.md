@@ -62,7 +62,7 @@ The model was introduced in
 
 Different but similar approaches are 
 
-* Nima Arkani-Hamed, Savas Dimopoulos, Gia Dvali, _The Hierarchy Problem and New Dimensions at a Millimeter_, Phys.Lett.B429:263-272,1998 ([arXiv:hep-ph/9803315](https://arxiv.org/abs/hep-ph/9803315))
+* [[Nima Arkani-Hamed]], [[Savas Dimopoulos]], [[Gia Dvali]], _The Hierarchy Problem and New Dimensions at a Millimeter_, Phys.Lett.B429:263-272 (1998) ([arXiv:hep-ph/9803315](https://arxiv.org/abs/hep-ph/9803315))
 
 and the GRS model, due to
 
@@ -71,6 +71,13 @@ and the GRS model, due to
 * Csaba Csaki, Joshua Erlich, Timothy J. Hollowood, _Quasi-Localization of Gravity by Resonant Modes_, Phys. Rev. Lett.84:5932-5935, 2000 ([arXiv:hep-th/0002161](https://arxiv.org/abs/hep-th/0002161))
 
 a well as [[intersecting D-brane models]].
+
+More on the localized [[gravity]] in RS-models:
+
+* [[Andreas Karch]], [[Lisa Randall]], *Locally Localized Gravity*, JHEP 0105:008 (2001) &lbrack;[arXiv:hep-th/0011156](https://arxiv.org/abs/hep-th/0011156), [doi:10.1088/1126-6708/2001/05/008](https://doi.org/10.1088/1126-6708/2001/05/008)&rbrack;
+
+
+
 
 Review:
 
