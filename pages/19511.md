@@ -53,6 +53,14 @@ See also
 
 * Wikipedia, _[Extremal black hole](https://en.wikipedia.org/wiki/Extremal_black_hole)_
 
+
+### BH entropy
+
+On [[black hole entropy]] of (near-)[[extremal black holes]]:
+
+* [[Luca Iliesiu]], *From statistical mechanics to microstate counting for extremal and near-extremal black holes*, talk at *[[Strings 2022]]* &lbrack;[indico:4940850](https://indico.cern.ch/event/1085701/contributions/4940850), [slides](https://indico.cern.ch/event/1085701/contributions/4940850/attachments/2482365/4261646/Luca%20Iliesiu%20Tuesday-Reserach-Iliesiu-v2.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=96645a86-6d44-40ab-9abf-dd5a1920d881)&rbrack;
+
+
 ### Near-horizon geometry and JT gravity
 
 Discussion of the [[near horizon geometry]]
@@ -72,19 +80,22 @@ https://arxiv.org/abs/1802.09547))
 
 
 
-### Observational signature
-
-* Minyong Guo, Niels A. Obers, Haopeng Yan, _Observational signature of near-extremal Kerr-like black holes in a modified gravity theory at the Event Horizon Telescope_, Phys. Rev. D 98, 084063 (2018) ([arXiv:1806.05249](https://arxiv.org/abs/1806.05249))
 
 ### Actual observation
  {#ReferencesObservation}
 
-Near-extremal spinnin black holes are being observed
+Observational signature:
+
+* Minyong Guo, Niels A. Obers, Haopeng Yan, _Observational signature of near-extremal Kerr-like black holes in a modified gravity theory at the Event Horizon Telescope_, Phys. Rev. D 98, 084063 (2018) ([arXiv:1806.05249](https://arxiv.org/abs/1806.05249))
+
+
+Actual observation:
 
 * Xinyu Dai, Shaun Steele, Eduardo Guerras, Christopher W. Morgan, Bin Chen, _Constraining Quasar Relativistic Reflection Regions and Spins with Microlensing_ ([arXiv:1901.06007](https://arxiv.org/abs/1901.06007))
 
   exposition in:
 
   [[Chandra Observatory]], _[Chandra Views Spinning Black Holes Across Cosmic Sea](https://scitechdaily.com/chandra-views-spinning-black-holes-across-cosmic-sea/)_, July 5 2019
+
 
 [[!redirects extremal black holes]]
