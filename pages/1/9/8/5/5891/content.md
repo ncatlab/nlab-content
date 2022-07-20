@@ -77,7 +77,7 @@ We give now rules for choices "$[x y z]$" that associate with every string "$x y
      \Gamma \vdash A : Type
    $$
 
-   is interpreted as an object in the slice over $\Gamma$
+   is interpreted as an object in the slice over $[\Gamma]$
 
    $$
      [\Gamma \vdash A : Type] \in Obj(\mathcal{C}_{/\Gamma})
@@ -106,10 +106,10 @@ We give now rules for choices "$[x y z]$" that associate with every string "$x y
 
 Assume for a context $\Gamma$ and a judgement $\Gamma \vdash A : Type$ we have already chosen an interpretation  $[\Gamma, x : A] \stackrel{[\Gamma \vdash A : Type]}{\to} [\Gamma]$ as above.
 
-A judgement of the form $\Gamma \vdash a : A$ (a [[term]] of [[type]] $A$) is to be interpreted as a [[section]] of this morphism, equivalently as a morphism in $\mathcal{C}_{/\Gamma}$ 
+A judgement of the form $\Gamma \vdash a : A$ (a [[term]] of [[type]] $A$) is to be interpreted as a [[section]] of this morphism, equivalently as a morphism in $\mathcal{C}_{/[\Gamma]}$ 
 
 $$   
-  [\Gamma \vdash : a : A] : * \to [\Gamma, x : A]
+  [\Gamma \vdash a : A] : * \to [\Gamma, x : A]
 $$
 
 from the [[terminal object]] to $[\Gamma \vdash A : Type]$, which in $\mathcal{C}$ is a [[commuting diagram|commuting triangle]]
@@ -119,7 +119,7 @@ $$
     [\Gamma] &&\stackrel{[(\Gamma \vdash a : A)]}{\to}&&
     [\Gamma, x : A]
     \\
-    & {}_\mathllap{[\Gamma]}\searrow
+    & {}_\mathllap{\mathrm{id}_{[\Gamma]}}\searrow
     &&
     \swarrow_{\mathrlap{[\Gamma \vdash A : Type]}}
     \\
