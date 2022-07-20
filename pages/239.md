@@ -26,7 +26,7 @@ The term **tensor product** has many different but closely related meanings.
 
 * This generalizes to modules over [[monad|monads]] in a bicategory, which includes the notion of _tensor product of functors_.  
 
-* Finally, tensor products in a multicategory and tensor products over monads in a bicategory are both special cases of tensor products in an [[virtual double category]].
+* Finally, tensor products in a multicategory and tensor products over monads in a bicategory are both special cases of tensor products in a [[virtual double category]].
 
 ## Definitions
 
