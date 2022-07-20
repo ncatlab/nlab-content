@@ -17,6 +17,10 @@ Relation to the [[Monster group]], [[Moonshine]] and the [[Monster vertex operat
 
 * [[Alessio Marrani]], [[Michael Rios]], [[David Chester]], _Monstrous M-theory_ ([arXiv:2008.06742](https://arxiv.org/abs/2008.06742))
 
+On [[quasicrystals]] as a substrate for [[topological quantum computation]]:
+
+* Marcelo Amaral, [[David Chester]], Fang Fang, Klee Irwin, *Exploiting Anyonic Behavior of Quasicrystals for Topological Quantum Computing* &lbrack;[arXiv:2207.08928](https://arxiv.org/abs/2207.08928)&rbrack;
+
 
 
 category: people
