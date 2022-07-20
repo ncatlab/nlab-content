@@ -44,6 +44,8 @@ Using extensionality, we obtain [[M-types]] from W-types.
 
 * Prove or disprove the conjecture that every fibrant type in [[HTS]] is equivalent to one definable in [[Martin-Löf type theory|MLTT]].  A potential method of disproof would be to solve the [[model invariance problem]] positively for MLTT but negatively for fibrant types in HTS.
 
+* Define [[higher inductive types]] in [[higher observational type theory]]. 
+
 ## Homotopy theory and algebraic topology
 
 * [[Homotopy theory in HoTT]]
