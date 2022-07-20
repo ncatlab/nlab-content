@@ -54,7 +54,14 @@ A [[proof]] of the initiality conjecture for a full-featured [[Martin-Löf type 
 ## References
   {#References}
 
-Proof of the initiality conjecture for the [[calculus of constructions]] is due to:
+A proof of the initiality conjecture for [[Martin-Löf dependent type theory]] is implicit in the proof of its [[generalized algebraic theory|generalized algebraic]] semantics (for more on this see [Uemura 2019](#Uemura19)/[21](#Uemura21) below), due to:
+
+* {#Cartmell1978} [[John Cartmell]], *Generalised Algebraic Theories and Contextual Categories*, PhD thesis, Oxford University (1978) &lbrack;[[Cartmell-Thesis.pdf:file]]&rbrack;
+
+* {#Cartmell86} [[John Cartmell]], *Generalised Algebraic Theories and Contextual Categories*, Annals of Pure and Applied Logic, **32** (1986) 209-243  &lbrack;[doi:10.1016/0168-0072(86)90053-9](http://dx.doi.org/10.1016/0168-0072%2886%2990053-9)&rbrack;
+
+
+Proof of the initiality conjecture for the [[calculus of constructions]]:
 
 * {#Streicher91} [[Thomas Streicher]], Chapter 4 of: _Semantics of type theory -- Correctness, completeness and independence results_, Progress in Theoretical Computer Science, Birkhäuser Boston, Inc., Boston, MA, 1991, xii+298 pp., (ISBN:0-8176-3594-7, [doi:10.1007/978-1-4612-0433-6](https://doi.org/10.1007/978-1-4612-0433-6))
 
@@ -83,6 +90,16 @@ A full [[proof]] of the [[initiality conjecture]] for full [[Martin-Löf type th
 * {#deBoer20} Menno de Boer, _A Proof and Formalization of the Initiality Conjecture of Dependent Type Theory_, Stockholm 2020 ([diva2:1431287](https://su.diva-portal.org/smash/record.jsf?pid=diva2%3A1431287), [pdf](https://su.diva-portal.org/smash/get/diva2:1431287/FULLTEXT01.pdf))
 
 * {#BrunerieLumsdaine20} [[Guillaume Brunerie]], [[Peter LeFanu Lumsdaine]] (joint with Menno de Boer, [[Anders Mörtberg]]), _Initiality for Martin-Löf type theory_, [Homotopy Type Theory Electronic Seminar Talks](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html), Sept 10, 2020
+
+
+and in
+
+* {#Uemura19} [[Taichi Uemura]], _A General Framework for the Semantics of Type Theory_ &lbrack;[arXiv:1904.04097](https://arxiv.org/abs/1904.04097), talk slides: [pdf](https://hott.github.io/HoTT-2019/conf-slides/Uemura.pdf)&rbrack;
+
+* {#Uemura21} [[Taichi Uemura]], _Abstract and concrete type theories_, PhD thesis (2021) &lbrack;[pdf](https://pure.uva.nl/ws/files/62028111/Thesis.pdf), [hdl:11245.1/41ff0b60-64d4-4003-8182-c244a9afab3b](https://hdl.handle.net/11245.1/41ff0b60-64d4-4003-8182-c244a9afab3b)&rbrack;
+
+> all the main hold-outs who believed initiality to remain unresolved have been all convinced by [Taichi Uemura’s doctoral thesis](Uemura21), which gives a more detailed and mathematically satisfactory alternative to [Cartmell’s 1978 proof](#Cartmell1978) for a broader class of theories — a class that includes homotopy type theory, cubical type theory, and many other type theories. &lbrack;[[Jon Sterling]], [Jul 19, 2022](https://nforum.ncatlab.org/discussion/14504/open-problems-in-homotopy-type-theory/?Focus=101156#Comment_101156)&rbrack;
+
 
 [[!redirects initiality conjectures]]
 
