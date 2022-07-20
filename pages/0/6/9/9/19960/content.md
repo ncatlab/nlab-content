@@ -637,6 +637,9 @@ Emphasis of the AdS-QCD correspondence at annual String-conferences:
 
 * {#Dubovsky21} [[Sergei Dubovsky]], *Comments on (mostly long) QCD strings*, talk at [Strings 2021](https://www.ictp-saifr.org/strings2021/) ([pdf](https://www.ictp-saifr.org/wp-content/uploads/2021/06/Sergei.pdf), [video](https://youtu.be/B9NI2LE7d68?t=1183))
 
+* [[Nick Evans]], *Holography for Multi-Representation and Chiral Matter*, talk at *[[Strings 2022]]* &lbrack;[indico:4940848](https://indico.cern.ch/event/1085701/contributions/4940848), [slides](https://indico.cern.ch/event/1085701/contributions/4940848/attachments/2482358/4261644/Nick%20Evans%20Tuesday-Research-Evans.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=aecca42b-c952-42f0-84c6-5b23230534b7)&rbrack;
+
+  > (emphasis on [[DBI action]]-effects)
 
 #### Top-down models 
 
@@ -733,12 +736,7 @@ Variant with [[D4-brane|D4]] [[flavor branes]]:
 
 See also:
 
-* Nick Evans, Jack Mitchell, *Domain Wall AdS/QCD* ([arXiv:2108.12152](https://arxiv.org/abs/2108.12152))
-
-
-
-
-
+* [[Nick Evans]], [[Jack Mitchell]], *Domain Wall AdS/QCD*, Phys. Rev. D **104** (2021) 094018 &lbrack;[arXiv:2108.12152](https://arxiv.org/abs/2108.12152), [doi:10.1103/PhysRevD.104.094018](https://doi.org/10.1103/PhysRevD.104.094018)&rbrack;
 
 
 
@@ -909,9 +907,9 @@ Review:
 
 * Deog Ki Hong, _Baryons in holographic QCD_, talk at _[From Strings to Things 2008](http://www.int.washington.edu/PROGRAMS/08-1.html)_ ([pdf](http://www.int.washington.edu/talks/WorkShops/int_08_1/People/Hong_D/Hong.pdf))
 
-* Johanna Erdmenger, Nick Evans, Ingo Kirsch, Ed Threlfall, _Mesons in Gauge/Gravity Duals - A Review_, Eur. Phys. J. A35:81-133, 2008 ([arXiv:0711.4467](https://arxiv.org/abs/0711.4467))
+* [[Johanna Erdmenger]], [[Nick Evans]], [[Ingo Kirsch]], [[Ed Threlfall]], _Mesons in Gauge/Gravity Duals - A Review_, Eur. Phys. J. A **35** (2008) 81-133 &lbrack;[arXiv:0711.4467](https://arxiv.org/abs/0711.4467), [doi:10.1140/epja/i2007-10540-1](https://doi.org/10.1140/epja/i2007-10540-1)&rbrack;
 
-* Stanley J. Brodsky, _Hadron Spectroscopy and Dynamics from Light-Front Holography and Superconformal Algebra_ ([arXiv:1802.08552](https://arxiv.org/abs/1802.08552))
+* [[Stanley Brodsky]], _Hadron Spectroscopy and Dynamics from Light-Front Holography and Superconformal Algebra_ ([arXiv:1802.08552](https://arxiv.org/abs/1802.08552))
 
 * [[Koji Hashimoto]], [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Holographic Baryons : Static Properties and Form Factors from Gauge/String Duality_, Prog. Theor. Phys.120:1093-1137, 2008 ([arXiv:0806.3122](https://arxiv.org/abs/0806.3122))
 
@@ -1190,7 +1188,7 @@ Application to the [[Higgs field]]:
 * {#EspiruKatanaeva18} Domenec Espriu, Alisa Katanaeva, _Composite Higgs Models: a new holographic approach_ ([arXiv:1812.01523](https://arxiv.org/abs/1812.01523))
 
 
-* Johanna Erdmenger, Nick Evans, Werner Porod, Konstantinos S. Rigatos, _Gauge/gravity dual dynamics for the strongly coupled sector of composite Higgs models_ ([arXiv:2010.10279](https://arxiv.org/abs/2010.10279))
+* [[Johanna Erdmenger]], [[Nick Evans]], [[Werner Porod]], [[Konstantinos Rigatos]], *Gauge/gravity dual dynamics for the strongly coupled sector of composite Higgs models*, JHEP **58** (2021) &lbrack;[arXiv:2010.10279](https://arxiv.org/abs/2010.10279), <a href="https://doi.org/10.1007/JHEP02(2021)058">doi:10.1007/JHEP02(2021)058</a>&rbrack;
 
 
 
@@ -1241,7 +1239,7 @@ Application to [[phase of matter|phases]] of [[QCD]]:
 
 To [[colour superconductivity]]:
 
-* Kazem Bitaghsir Fadafan, Jesus Cruz Rojas, Nick Evans, _A Holographic Description of Colour Superconductivity_ ([arXiv:1803.03107](https://arxiv.org/abs/1803.03107))
+* Kazem Bitaghsir Fadafan, Jesus Cruz Rojas, [[Nick Evans]], _A Holographic Description of Colour Superconductivity_, Phys. Rev. D **98** (2018) 066010  &lbrack;[arXiv:1803.03107](https://arxiv.org/abs/1803.03107), [doi:10.1103/PhysRevD.98.066010](https://doi.org/10.1103/PhysRevD.98.066010)&rbrack;
 
 to [[confinement]]/[[quark-gluon plasma|deconfinement]] phase transiton:
 
