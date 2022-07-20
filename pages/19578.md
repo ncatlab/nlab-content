@@ -121,6 +121,10 @@ Relation to [[AdS-CFT duality]]:
 
 * {#Soda10} Jiro Soda, _AdS/CFT on the brane_, Lect.Notes Phys.828:235-270, 2011 ([arXiv:1001.1011](https://arxiv.org/abs/1001.1011))
 
+Review and further relation to [[black hole entropy]]:
+
+* [[Andreas Karch]], *Randall-Sundrum Branes and Holography*, talk at *[[Strings 2022]]* &lbrack;[indico:4940841](https://indico.cern.ch/event/1085701/contributions/4940841)&rbrack;
+
 ### Cosmology
 
 Discussion of [[cosmology]] on branes in $\sim$ [[anti de Sitter spacetime|anti de Sitter]]-[[near horizon geometry|throat]] geometries:
