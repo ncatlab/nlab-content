@@ -201,10 +201,50 @@ We write $Vect(X)_{/\sim}$ for the [[set]] of [[isomorphism classes]] of this ca
 =--
 
 \begin{remark}
-\label{NaturalOperations} 
-**([[natural operations]])**
+\label{FiberwiseOperations} 
+**(fiberwise operations)**
+\linebreak
+The [[category]] $FinVect$ of [[finite dimensional vector spaces]] over a [[topological field|topological]] [[ground field]] is canonically a [[Top]]-[[enriched category]], and so are hence its [[product categories]] $FinVect^{n}$, for $n \in \mathbb{N}$. Any [[Top]]-[[enriched functor]]
 
-Constructions in $Vect(X)$ can be achieved by means of [[smooth functors]], which represent the constructions on vector spaces that can be applied fiberwise to vector bundles.
+$$
+  F
+  \;\colon\;
+  FinVect^n \longrightarrow
+  FinVect
+$$
+
+induces a functorial construction of new topological vector bundles $\widehat{F}(\mathcal{V}_1,, \cdots, \mathcal{V}_n)$ from any [[n-tuple]] $(\mathcal{V}_1, \mathcal{V}_2 , \cdots, \mathcal{V}_n)$ of vector bundles over the same base space $B$, by taking the new [[fiber]] over a point $b \in B$ to be (e.g. [Milnor & Stasheff 1974, p. 32](#MilnorStasheff74)):
+
+$$
+  F
+  \big(
+    \mathcal{V}_1, 
+    \cdots
+    \mathcal{V}_n
+  \big)
+  _b
+  \;\coloneqq\;
+  F
+  \big(
+    (\mathcal{V}_1)_b,
+    \cdots,
+    (\mathcal{V}_n)_b
+  \big)  
+  \,.
+$$
+
+
+
+For example:
+
+* if $F \,\coloneqq\, (-)^\ast \,\colon\, FinVect \longrightarrow FinVect$ is the operation of forming [[dual vector spaces]], then $\widehat{F}$ constructs the fiberwise [[dual vector bundle]];
+
+* if $F \,\coloneqq\, det \,\colon\, FinVect \longrightarrow FinVect$ is the operation of forming [[determinants]], then $\widehat{F}$ is the construction of fiberwise [[determinant line bundles]];
+
+* if $F \,\coloneqq\, \oplus \,\colon\, FinVect^2 \longrightarrow FinVect$ is the [[direct sum]] of vector space, then $\widehat{F}$ constructs the fiberwise [[direct sum of vector bundles]] ("[[Whitney sum]]");
+
+
+* if $F \,\coloneqq\, \otimes \,\colon\, FinVect^2 \longrightarrow FinVect$ is the [[tensor product of vector spaces]], then $\widehat{F}$ constructs the fiberwise [[tensor product of vector bundles]].
 
 \end{remark}
 
@@ -2482,7 +2522,7 @@ The original reference for many results about bundles, including the theorem tha
 
 Further textbook accounts:
 
-* John Milnor, Jim Stasheff, _Characteristic classes_, Princeton Univ. Press 1974
+* {#MilnorStasheff74} [[John Milnor]], [[Jim Stasheff]], _Characteristic classes_, Princeton Univ. Press (1974) &lbrack;[ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76), [doi:10.1515/9781400881826](https://doi.org/10.1515/9781400881826), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnstas.pdf)&rbrack;
 
 * Glenys Luke, Alexander S. Mishchenko, _Vector bundles and their applications_, Math. and its Appl. __447__, Kluwer 1998. viii+254 pp. [MR99m:55019](http://www.ams.org/mathscinet-getitem?mr=99m:55019)
 
