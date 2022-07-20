@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -23,81 +24,129 @@ Typically this arises in situations where $D$ consist of the "same" objects as $
 ## Definition
 
 ### Right transfer
+ {#RightTransfer}
 
-+-- {: .num_defn}
-###### Definition
+\begin{definition}\label{RightTransferredModelStructure}
+**(right transferred model structure)**
+\linebreak
 Let $C$ be a [[model category]] and
 
 $$
-  (F \dashv U )\; : \; D \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} C
+  (F \dashv U )
+  \;\colon\; 
+  D 
+  \underoverset  
+    {\underset{U}{\longrightarrow}}
+    {\overset{F}{\longleftarrow}}
+    {\;\;\;\bot\;\;\;}
+  C
 $$
 
-an [[adjunction]] with [[right adjoint]] $U$.  Define a morphism in $D$ to be
+an [[adjoint functor|adjunction]] with [[right adjoint]] $U$.  Define a morphism in $D$ to be
 
-* a **fibration** or **weak equivalence** precisely if its image under $U$ is, respectively, in $C$.
-* a **cofibration** precisely if it has the left lifting property with respect to the fibrations that are weak equivalences.
+* a **fibration** or **weak equivalence** precisely if its image under $U$ is so, respectively, in $C$;
 
-If these classes of maps define a model structure on $D$, it is called the **right transferred model structure** (or sometimes **right induced model structure** or **right lifted model structure**) from $C$.
-=--
+* a **cofibration** precisely if it has the [[left lifting property]] with respect to the fibrations that are weak equivalences.
 
-Of course, in the above situation by a **trivial fibration** in $D$ we mean a morphism that is both a fibration and a weak equivalence, or equivalently whose image under $U$ is a trivial fibration in $C$.  The term "trivial cofibration", however, is *a priori* ambiguous: for the nonce let us call a morphism in $D$ a **cofibration weak equivalence** if it is both a cofibration and a weak equivalence and an **anodyne map** if it has the left lifting property with respect to all fibrations.  Of course, if the transferred model structure exists, then these two classes of maps coincide.  Conversely we have:
+If these classes of maps define a model category structure on $D$, then it is called the **right transferred model structure** (or sometimes **right induced model structure** or **right lifted model structure**) from $C$ along $U$.
+\end{definition}
 
-+-- {: .num_theorem #NeccSuff}
-###### Theorem
-Necessary and sufficient conditions for the existence of the transferred model structure are:
 
-1. Every morphism in $D$ factors as a cofibration followed by a trivial fibration, and as an anodyne map followed by a fibration.
-1. Every anodyne map is a weak equivalence.
-=--
-+-- {: .proof}
-###### Proof
-Clearly the conditions are necessary.  For the converse, the weak equivalences have the 2-out-of-3 property, all the classes of maps are closed under retracts, the lifting properties hold by definition (for the anodyne maps), and we have assumed the factorization properties (for the anodyne maps), so it remains to show that every cofibration weak equivalence is anodyne.  This follows by the standard retract argument: if $f:A\to B$ is a cofibration weak equivalence, factor it as $f = p i$ with $i$ anodyne and $p$ a fibration.  Then since anodyne maps are weak equivalences and weak equivalences satisfy 2-out-of-3, $p$ is a trivial fibration.  Thus $f$ has the left lifting property against $p$, hence $f$ is a retract of $i$ and thus also anodyne.
-=--
+
+In the above situation of Def. \ref{RightTransferredModelStructure} it is clear what one means by an [[acyclic fibration]] in $D$, but the notion of [[acyclic cofibration]] in $D$ is, *a priori*, ambiguous. For the purpose of stating the following Thm. \ref{NeccSuff} we declare that:
+
+1. an *[[acyclic fibration]]* in $D$ is (of course) a morphism that is both a fibration and a weak equivalence, or equivalently whose image under $U$ is an acyclic fibration in $C$.  
+
+1. a morphism is $D$ is
+
+   1. a **cofibration weak equivalence** if it is both a cofibration and a weak equivalence in the sense of Def. \ref{RightTransferredModelStructure};
+
+   1. an **anodyne map** if it has the [[left lifting property]] with respect to all fibrations.  
+
+   Of course, if the transferred model structure exists, then these two classes of maps coincide.  
+
+Conversely we have:
+
+\begin{theorem}\label{NeccSuff}
+A necessary and sufficient condition for the existence of the right transferred model structure (Def. \ref{RightTransferredModelStructure}) is that:
+
+1. Every morphism in $D$ factors as 
+
+   1. a cofibration followed by a trivial fibration, 
+
+   1. an anodyne map followed by a fibration;
+
+1. every anodyne map is a weak equivalence.
+
+\end{theorem}
+
+\begin{proof}
+Clearly the conditions are necessary.  For the converse, the weak equivalences have the [[2-out-of-3 property]], all the classes of maps are closed under retracts, the lifting properties hold by definition (for the anodyne maps), and we have assumed the factorization properties (for the anodyne maps), so it remains to show that every cofibration weak equivalence is anodyne.  This follows by the standard retract argument: if $f \colon A \longrightarrow B$ is a cofibration weak equivalence, factor it as $f = p i$ with $i$ anodyne and $p$ a fibration.  Then since anodyne maps are weak equivalences and weak equivalences satisfy [[2-out-of-3]], $p$ is an acyclic fibration.  Thus $f$ has the left lifting property against $p$, hence $f$ is a [[retract]] of $i$ and thus also anodyne.
+\end{proof}
+
 
 ### Left transfer
+ {#LeftTransfer}
 
-Dually, if $C$ is a model category and we have an adjunction
+[[formal duality|Dually]], if $C$ is a model category and we have an [[adjoint functor|adjunction]]
 $$
-  (U \dashv G )\; : \; D \stackrel{\overset{G}{\leftarrow}}{\underset{U}{\to}} C
+  (U \dashv G )
+  \;\colon\; 
+  D
+  \underoverset
+    {
+      \underset{G}{\longleftarrow}
+    }
+    {
+      \overset{U}{\longrightarrow}
+    }
+    {\;\;\;\bot\;\;\;} 
+  C
 $$
-with $U$ left adjoint, we define a morphism in $D$ to be
+with $U$ [[left adjoint]],  define a morphism in $D$ to be
 
 * a **cofibration** or **weak equivalence** precisely if its image under $U$ is, respectively, in $C$.
-* a **fibration** precisely if it has the right lifting property with respect to the cofibrations that are weak equivalences.
+
+* a **fibration** precisely if it has the [[right lifting property]] with respect to the cofibrations that are [[weak equivalences]].
 
 If these classes of maps define a model structure on $D$, it is called the **left transferred model structure** (or sometimes **left induced model structure** or **left lifted model structure**) from $C$.
 
 The above necessary and sufficient conditions dualize directly.
 
+
 ## Existence
 
 ### Constructing factorizations
 
-The most traditional way to obtain the factorization properties in the right-transferred case is to assume that $C$ is [[cofibrantly generated]].
+The most traditional way to obtain the factorization properties in the right-transferred case (Thm. \ref{NeccSuff}) is to assume that $C$ is [[cofibrantly generated]].
 
-+-- {: .num_prop #SufficientConditions}
-###### Proposition
-In the right-transferred situation, suppose that
+\begin{proposition}\label{SufficientConditions}
+In the right-transferred situation (Def. \ref{RightTransferredModelStructure}), suppose that
 
-1. $C$ is [[cofibrantly generated]], and
+1. $C$ is [[cofibrantly generated]],
 
-1. The functor $F$ preserves [[small objects]] (which is the case in particular when $U$ preserves [[filtered colimits]]).
+1. the functor $F$ preserves [[small objects]] 
 
-Then every morphism in $D$ factors as a cofibration followed by a trivial fibration, and as an anodyne map followed by a fibration.  Moreover, if every anodyne map is a weak equivalence so that the transferred model structure on $D$ exists, then it is is cofibrantly generated, and for $I$ (resp. $J$) a set of generating cofibrations (resp. trivial cofibrations) in $C$, the image set $F(I)$ (resp. $F(J)$) forms a set of generating cofibrations (resp. trivial cofibrations) in $D$.
-=--
-+-- {: .proof}
-###### Proof
-By the adjunction $F\dashv U$, a morphism $f$ is a fibration (resp. trivial fibration) if and only if it has the right lifting property against the maps in $F(I)$ (resp. $F(J)$).  Since $F$ preserves small objects, the sets $F(I)$ and $F(J)$ permit the small object argument in $D$, which therefore yields (cofibration, trivial fibration) and (anodyne, fibration) factorizations.
-=--
+   (which is the case, in particular, when $U$ preserves [[filtered colimits]]),
 
-Another way to produce these factorizations is to generate them by a functorial factorization.
+then every morphism in $D$ factors as a cofibration followed by a trivial fibration, and as an anodyne map followed by a fibration.  
+
+Moreover, if every anodyne map is a weak equivalence so that the transferred model structure on $D$ exists (by Thm. \ref{NeccSuff}), then it is is itself cofibrantly generated, and for $I$ (resp. $J$) a set of [[generating cofibrations]] (resp. acyclic cofibrations) in $C$, the image set $F(I)$ (resp. $F(J)$) forms a set of generating cofibrations (resp. acyclic cofibrations) in $D$.
+\end{proposition}
+
+\begin{proof}
+By the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) of the [[adjoint pair]] $F\dashv U$, a morphism $f$ is a fibration (resp. trivial fibration) if and only if it has the right lifting property against the maps in $F(I)$ (resp. $F(J)$).  Since $F$ preserves small objects, the sets $F(I)$ and $F(J)$ permit the small object argument in $D$, which therefore yields (cofibration, trivial fibration) and (anodyne, fibration) factorizations.
+\end{proof}
+
+Another way to produce these factorizations is to generate them by a functorial factorization:
 
 +-- {: .num_lemma #AlgebraicLift}
 ###### Lemma
-Suppose $F: C \rightleftarrows D : U$ is an adjunction, where $D$ has [[pushouts]], and that
+Suppose $F \colon C \rightleftarrows D \colon U$ is an [[adjoint functor|adjunction]], where $D$ has [[pushouts]], and that
 
-* $C$ has a [[functorial factorization]] $(L,R)$ with a [[right weak composition law for factorizations]] (e.g. if it is [[awfs|algebraic]]).
-* The induced functorial factorization on $D$ permits Garner's [[small object argument]] (e.g. if $C$ and $D$ are locally presentable and all functors are accessible).
+1. $C$ has a [[functorial factorization]] $(L,R)$ with a [[right weak composition law for factorizations]] (e.g. if it is [[awfs|algebraic]]),
+
+1. the induced functorial factorization on $D$ permits Garner's [[small object argument]] (e.g. if $C$ and $D$ are locally presentable and all functors are accessible).
 
 Then there is an induced ([[awfs|algebraic]]) weak factorization system on $D$ whose right class consists precisely of those maps whose $U$-image admits an $R$-algebra structure.
 =--
@@ -142,23 +191,24 @@ This sort of result seems to be necessary for the case of left-lifting; the simp
 
 ### Verifying acyclicity
 
-The "acyclicity condition" that anodyne maps are weak equivalences is usually the most difficult to check.  Sometimes useful is the observation that for right-lifting in the cofibrantly generated case, it suffices to show that [[sequential colimit]] of [[pushouts]] of images under $F$ of the generating trivial cofibrations in $C$ (i.e. an $F(J)$-[[cell complex]]) yields a weak equivalence in $D$.  This is because the small object actually factors any map as such an $F(J)$-cell complex followed by a fibration; hence by the retract argument every anodyne map is a retract of an $F(J)$-cell complex.
+The "acyclicity condition" in Thm. \ref{NeccSuff}, i.e. that anodyne maps are weak equivalences, is usually the most difficult to check.  Sometimes useful is the observation that for right-lifting in the cofibrantly generated case, it suffices to show that [[sequential colimits]] of [[pushouts]] of [[images]] under $F$ of the generating acyclic cofibrations in $C$ (i.e. forming $F(J)$-[[cell complexes]]) yield weak equivalences in $D$.  This is because the small object actually factors any map as such an $F(J)$-cell complex followed by a fibration; hence by the retract argument every anodyne map is a retract of an $F(J)$-cell complex.
 
 Another useful sufficient condition is the following, going back roughly to section II.4 of ([Quillen](#Quillen)).
 
-+-- {: .num_prop #PathObjects}
-###### Proposition
-In the situation of right transfer, where $U:D\to C$ is a right adjoint, suppose that
+\begin{proposition}\label{PathObjects}
+In the situation of right transfer (Def. \ref{RightTransferredModelStructure}), where $U \colon D\to C$ is a [[right adjoint]], suppose that
 
-* $D$ has a [[fibrant replacement functor]] (in fact it suffices for individual objects and morphisms to have fibrant replacements; functoriality is not required).
+1. $D$ has a [[fibrant replacement functor]] (in fact it suffices for individual objects and morphisms to have fibrant replacements, while functoriality is not necessary),
 
-* $D$ has [[path objects]] for fibrant objects, i.e. a factorization of the [[diagonal]] $\Delta : A \to A \times A$ as a weak equivalence followed by a fibration $\Delta : A \stackrel{\simeq}{\to} P(A) \stackrel{fib}{\to} A \times A$.
+1. $D$ has [[path objects]] for fibrant objects, i.e. a factorization of the [[diagonal]] $\Delta : A \to A \times A$ as a weak equivalence followed by a fibration $\Delta \colon A \stackrel{\simeq}{\to} P(A) \stackrel{fib}{\to} A \times A$.
 
 Then any anodyne map in $D$ is a weak equivalence.  Thus, if the two factorizations exist in $D$, then the transferred model structure exists.
-=--
-+-- {: .proof}
-###### Proof
-The notation here is mostly that of [Rezk 02, Lemma 7.6](#Rezk02).  Let $R$ be a fibrant replacement functor, with natural weak equivalence $j : Id \to R$, suppose $f:X\to Y$ is anodyne, and consider the following diagram:
+\end{proposition}
+
+\begin{proof}
+The notation in the following is mostly that of [Rezk 02, Lemma 7.6](#Rezk02).  
+Let $R$ be a fibrant replacement functor, with natural weak equivalence $j \colon Id \to R$, suppose $f \colon X\to Y$ is anodyne, and consider the following [[commuting diagram]]:
+
 \begin{center}
 \begin{tikzcd}
 X \ar[dr,"i" description] \ar[r,"f"] \ar[d,"{(1,f)}"'] &
@@ -169,17 +219,20 @@ P R f \ar[r] \ar[d]  & P R Y \ar[d]\\
 & R X \ar[r,"R f"'] & R Y
 \end{tikzcd}
 \end{center}
-Both squares are pullbacks, defining the object $P R f$ and the morphism $i$ making the following square commute:
+
+Both squares are [[pullbacks]], defining the object $P R f$ and the morphism $i$ making the following square commute:
+
 \begin{center}
 \begin{tikzcd}
 X \ar[d,"f"'] \ar[r,"i"] & P R f \ar[r,"\pi"] \ar[d] & R X\\
 Y \ar[r,"{j_Y}"'] \ar[ur,dashed,"g"] & R Y.
 \end{tikzcd}
 \end{center}
+
 The morphism $\pi$ is the composite $P R f\to R X \times R Y \to R X$ at the top, which is a pullback of $P R Y \to R Y$; but the latter is a fibration (as the composite $P R Y \to R Y \times R Y \to R Y$) and a weak equivalence (as a retraction for $R Y \to P R Y$), so it and hence also $\pi$ are acyclic fibrations.  Moreover, since $\pi i = j_X$, by [[2-out-of-3]] $i$ is also a weak equivalence.
 
 Now the projection $P R f\to P Y$ is a fibration, so since $f$ is anodyne there is a lift $g$ in the second square as shown.  Since $i$ and $j_Y$ are weak equivalences, by [[2-out-of-6]] it follows that $f$ is a weak equivalence.
-=--
+\end{proof}
 
 Note that this condition also dualizes straightforwardly to the left-transferred case.
 
@@ -188,16 +241,11 @@ Note that this condition also dualizes straightforwardly to the left-transferred
 
 ### General
 
-+-- {: .num_lemma}
-###### Observation
+\begin{lemma}
+If $C$ carries the structure of a [[right proper model category]], then also a right-transferred model structure on $D$ (Def. \ref{RightTransferredModelStructure}) is right proper.
+\end{lemma}
 
-If $C$ carries the structure of a [[right proper model category]], then also a right-transferred model structure on $D$ is right proper.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
+\begin{proof}
 Let 
 
 $$
@@ -225,9 +273,7 @@ $$
 $$
 
 is a pullback diagram in $C$. Since by definition of the transferred model strucure this is still the pullback of a weak equivalence along a fibration, and since $C$ is assumed to be right proper, it follows that $U(f)$ is a weak equivalence in $C$, hence that $f$ is a weak equivalence in $D$.
-
-
-=--
+\end{proof}
 
 
 
@@ -235,9 +281,7 @@ is a pullback diagram in $C$. Since by definition of the transferred model struc
 
 Often the underlying model category $C$ is an [[enriched model category]] over some [[monoidal model category]] $S$ and one wishes to transfer also the model enrichment.
 
-+-- {: .num_prop}
-###### Observation
-
+\begin{proposition}
 Assume the adjunction
 
 $$
@@ -249,12 +293,9 @@ satisfies the conditions of the above proposition for right transfer, so that th
 Assume now that the $S$-powering of $D$ is taken by $U$ to the $S$-powering of $C$, in that $U(d^{(s_1 \to s_2)}) = U(d)^{(s_1 \to s_2)}$.
 
 Then the transferred model structure and the $S$-enrichment on $D$ are compatible and make $D$ an $S$-enriched model category.
+\end{proposition}
 
-=--
-
-+-- {: .proof}
-###### Proof
-
+\begin{proof}
 By the axioms of [[enriched model category]] one sufficient condition to be checked is that for $s \to t$ any cofibration in $S$ and for $X \to Y$ any fibration in $D$, we have that the induced morphism
 
 $$
@@ -268,9 +309,7 @@ $$
 $$
 
 which is the morphism induced from $U(X) \to U(Y)$. That this is indeed an (acyclic) fibration follows now from the fact that $C$ is an $S$-enriched model category.
-
-
-=--
+\end{proof}
 
 
 ## Examples
