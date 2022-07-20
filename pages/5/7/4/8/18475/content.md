@@ -27,7 +27,7 @@ The [[AdS-CFT correspondence]] applies _exactly_ only to a few highly symmetric 
 
 For instance [[quantum chromodynamics]] (one sector of the [[standard model of particle physics]]) is crucially different from but still similar enough to [[N=4 D=4 super Yang-Mills theory]] that some of its [[observables]], in particular otherwise intractable [[non-perturbative effects]], have been argued to be usefully approximated by [[AdS-CFT]]-type dual [[gravity]]-observables, for instance the [[shear viscosity]] of the [[quark-gluon plasma]]. This is hence also called the _[[AdS/QCD correspondence]]_.
 
-Similarly, as far as systems in [[condensed matter physics]] are described well by some [[effective field theory]], one may ask whether this, in turn, is usefully related to [[gravity]] on some [[anti de-Sitter spacetime]] and use this to study the solid state system, notably its [[non-perturbative effects]].
+Similarly, as far as systems in [[condensed matter physics]] are described well by some [[effective field theory]], one may ask whether this, in turn, is usefully related to [[gravity]] on some [[anti de-Sitter spacetime]] and use this to study the solid state system, notably its [[non-perturbative effects]]. This area goes under the name _AdS/CMT_.
 
 [[Andreas Karch]] writes [here](http://www.math.columbia.edu/~woit/wordpress/?p=9426#comment-226376):
 
