@@ -15,12 +15,9 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-
-As described in [[John Cartmell]]'s [Generalised Algebraic Theories and
-Contextual
-Categories](#Cartmell86), a
-generalized algebraic theory (GAT) consists of:
+A *generalized algebraic theory* (GAT, [Cartmell 1978](#Cartmell78)/[86](#Cartmell86)) consists of:
 
 1. An [algebraic theory](algebraic+theory) of sorts, which may itself
      be multi-sorted.
@@ -144,9 +141,15 @@ theories without dependent types generally enjoy better [type inference](http://
 properties than those with dependent types, making them
 practical as programming languages.
 
+
+## Related concepts
+
+* [[initiality conjecture]]
+
+
 ## References
 
-* {#Cartmell1978} [[John Cartmell]], *Generalised Algebraic Theories and Contextual Categories*, PhD thesis, Oxford University (1978) &lbrack;[[Cartmell-Thesis.pdf:file]]&rbrack;
+* {#Cartmell78} [[John Cartmell]], *Generalised Algebraic Theories and Contextual Categories*, PhD thesis, Oxford University (1978) &lbrack;[[Cartmell-Thesis.pdf:file]]&rbrack;
 
 * {#Cartmell86} [[John Cartmell]], *Generalised Algebraic Theories and Contextual Categories*, Annals of Pure and Applied Logic, **32** (1986) 209-243  &lbrack;[doi:10.1016/0168-0072(86)90053-9](http://dx.doi.org/10.1016/0168-0072%2886%2990053-9)&rbrack;
 
