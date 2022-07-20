@@ -75,10 +75,13 @@
 
 ### 19 July
 
-* [[Andreas Karch]], *Randall-Sundrum Branes and Holography*, talk at *[[Strings 2022]]* &lbrack;[indico:4940841](https://indico.cern.ch/event/1085701/contributions/4940841)&rbrack;
+* [[Andreas Karch]], *Randall-Sundrum Branes and Holography*, talk at *[[Strings 2022]]* &lbrack;[indico:4940841](https://indico.cern.ch/event/1085701/contributions/4940841), [slides](https://indico.cern.ch/event/1085701/contributions/4940841/attachments/2482053/4261118/Slides_Karch.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=19f3c464-448d-44ca-907b-91a1bfa5d0ce)&rbrack;
 
   > on [[Randall-Sundrum models]] in [[AdS-CFT duality]] and [[black hole entropy]]
  
+* [[Amit Sever]], _Line Operators in Chern-Simons-Matter Theories and Bosonization in Three Dimensions_, &lbrack;[indico:4940843](https://indico.cern.ch/event/1085701/contributions/4940843), [slides](https://indico.cern.ch/event/1085701/contributions/4940843/attachments/2482058/4261226/Slides_Sever.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=a9f7872c-1603-4954-9030-192a72e4f456)&rbrack;
+
+* [[Hong Liu]], _The emergence of space and time in holography_, &lbrack;[indico:4940845](https://indico.cern.ch/event/1085701/contributions/4940845), [slides](https://indico.cern.ch/event/1085701/contributions/4940845/attachments/2482132/4261244/Hong%20Liu%20Vienna1_Hong.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=9b1a2a73-1a2f-4882-a222-4e5ab52b077f)&rbrack;
 
 (...)
 
