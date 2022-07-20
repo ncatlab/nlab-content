@@ -59,7 +59,7 @@ $$
   \,.
 $$
 
-Any such functor $F : Vect \to Vect$ with certain continuity assumptions induces an endo-functor on the category of [[vector bundles]] $VectBund(X)$ over any [[manifold]] $X$. 
+{#AnySuchFunctor} Any such functor $F \colon Vect \to Vect$ with certain continuity assumptions induces an endo-functor on the category of [[vector bundles]] $VectBund(X)$ over any [[manifold]] $X$ (see [there](topological+vector+bundle#FiberwiseOperations)). 
 
 Concretely, if a vector bundle $E \to X$ is given by a [[Cech cohomology|Cech cocycle]] 
 
