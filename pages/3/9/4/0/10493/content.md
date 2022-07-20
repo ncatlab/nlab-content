@@ -97,8 +97,9 @@ This is essentially the statement of ([Goodwillie 03, theorem 1.8](#Goodwillie03
 
 For $n = 1$ this reflection is _[[spectrification]]_.
 
-+-- {: .num_cor}
-###### Corollary
+\begin{proposition}\label{nExcisiveFunctorsFormInfinityTopos}
+**($n$-excisive functors form an $\infty$-topos)**
+\linebreak
 
 For $\mathcal{D} = \mathbf{H}$ an [[(∞,1)-topos]], then for all $n \in \mathbb{N}$ we have that
 
@@ -108,7 +109,7 @@ $$
 
 is an [[(∞,1)-topos]]. (For $n  \gt 1$ this is in general _not_ a  [[hypercomplete (∞,1)-topos]], even if $\mathbf{H}$ is.)
 
-=--
+\end{proposition}
 
 This observation is due to [[Charles Rezk]]. It appears as ([Lurie, remark 6.1.1.11](#HigherAlg)).
 
