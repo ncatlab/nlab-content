@@ -75,6 +75,11 @@
 
 ### 19 July
 
+* [[Andreas Karch]], *Randall-Sundrum Branes and Holography*, talk at *[[Strings 2022]]* &lbrack;[indico:4940841](https://indico.cern.ch/event/1085701/contributions/4940841)&rbrack;
+
+  > on [[Randall-Sundrum models]] in [[AdS-CFT duality]] and [[black hole entropy]]
+ 
+
 (...)
 
 
