@@ -20,7 +20,7 @@
 
 ## Idea
 
-Given a [[vector bundle]], its _dual_ is the vector bundle obtained by passing [[fiber]]-wise to the [[dual vector space]].
+Given a [[vector bundle]], its _dual_ is the vector bundle obtained by passing [fiber-wise](topological+vector+bundle#FiberwiseOperations) to the [[dual vector space]].
 
 ## Examples
 
