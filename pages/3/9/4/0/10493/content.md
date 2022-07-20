@@ -111,7 +111,8 @@ is an [[(∞,1)-topos]]. (For $n  \gt 1$ this is in general _not_ a  [[hypercomp
 
 \end{proposition}
 
-This observation is due to [[Charles Rezk]]. It appears as ([Lurie, remark 6.1.1.11](#HigherAlg)).
+This observation is due to [[Charles Rezk]]. It appears as ([Lurie, remark 6.1.1.11](#HigherAlg)). See also at *[[Joyal locus]]*.
+
 
 +-- {: .num_remark}
 ###### Remark
