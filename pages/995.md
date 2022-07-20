@@ -68,9 +68,9 @@ Let $S$ be a [[set]], $Prop_{\mathcal{U}(i)}$ be the type of [[propositions]] in
 
 $$p:\prod_{a:S \to Prop_{\mathcal{U}(i)}} \prod_{b:S \to Prop_{\mathcal{U}(i)}} (a = a \wedge b) \times \mathcal{T}_{\mathcal{U}(i)}(F(a)) \to \mathcal{T}_{\mathcal{U}(i)}(F(b))$$
 
-$$p:\left[\sum_{a:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(a))\right]$$
+$$q:\left[\sum_{a:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(a))\right]$$
 
-$$p:\left[\sum_{a:S \to Prop_{\mathcal{U}(i)}} \sum_{b:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(a)) \times \mathcal{T}_{\mathcal{U}(i)}(F(b)) \to \left[\sum_{c:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(c)) \times (c = c \wedge a) \times (c = c \wedge b)\right]\right]$$
+$$r:\left[\sum_{a:S \to Prop_{\mathcal{U}(i)}} \sum_{b:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(a)) \times \mathcal{T}_{\mathcal{U}(i)}(F(b)) \to \left[\sum_{c:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(c)) \times (c = c \wedge a) \times (c = c \wedge b)\right]\right]$$
 
 The filter properties could also be turned into structure:
 
@@ -78,9 +78,9 @@ A filter structure on $S$ is a [[predicate]] $F:(S \to Prop_{\mathcal{U}(i)}) \t
 
 $$p:\prod_{a:S \to Prop_{\mathcal{U}(i)}} \prod_{b:S \to Prop_{\mathcal{U}(i)}} (a = a \wedge b) \times \mathcal{T}_{\mathcal{U}(i)}(F(a)) \to \mathcal{T}_{\mathcal{U}(i)}(F(b))$$
 
-$$p:\sum_{a:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(a))$$
+$$q:\sum_{a:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(a))$$
 
-$$p:\sum_{a:S \to Prop_{\mathcal{U}(i)}} \sum_{b:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(a)) \times \mathcal{T}_{\mathcal{U}(i)}(F(b)) \to \sum_{c:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(c)) \times (c = c \wedge a) \times (c = c \wedge b)$$
+$$r:\sum_{a:S \to Prop_{\mathcal{U}(i)}} \sum_{b:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(a)) \times \mathcal{T}_{\mathcal{U}(i)}(F(b)) \to \sum_{c:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(c)) \times (c = c \wedge a) \times (c = c \wedge b)$$
 
 ## Kinds of filters
 
