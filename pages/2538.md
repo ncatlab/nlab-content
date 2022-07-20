@@ -80,7 +80,11 @@ There are various [[Grothendieck topology|Grothendieck topologies]] on $\mathbb{
 
 For more on this see 
 
-* [[Models for Smooth Infinitesimal Analysis]]
+* *[[Models for Smooth Infinitesimal Analysis]]*
+
+## Related concepts
+
+* [[smooth locus]]
 
 ## References
 
