@@ -28,7 +28,9 @@ For example:
 
   similarly, there is a notion of *[[smooth locus]]*.
 
-Unrelated to this standard use of "locus" is the notion of *[[Joyal locus]]* in ([[higher topos theory|higher]]) [[topos theory]].
+## Unrelated entries
+
+Un-related to this standard use of "locus" is the notion of *[[Joyal locus]]* in ([[higher topos theory|higher]]) [[topos theory]].
 
 ## References
 
