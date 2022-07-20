@@ -1,3 +1,15 @@
+[[!redirects super convex spaces]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+=--
+=--
+
 
 # Contents
 * this block creates the table of contents, leave as is
@@ -5,7 +17,7 @@
 
 ## Idea
 
-Super convex spaces generalize the idea of a convex space by replacing finite affine sums with countable affine sums. 
+The notion of "super convex spaces" generalizes the idea of *[[convex spaces]]* by replacing [[finite set|finite]] affine [[sums]] with [[countable set|countable]] affine sums.
 
 Let $\mathcal{G}(\mathbb{N})$ denote the set of all probability measures on the set of natural numbers, hence every $\mathbf{p}$ can be represented as $\mathbf{p} = \sum_{i \in \mathbb{N}} p_i \delta_i$ where $\sum_{i \in \mathbb{N}} p_i=1$ with each $p_i \in [0,1]$.  Here $\mathcal{G}$ is the [[Giry monad]], but because we want to forget the $\sigma$-algebra associated with that measurable space we often write $\Delta_{\mathbb{N}}$ to denote the underlying set  of $\mathcal{G}(\mathbb{N})$. That set is the countably infinite-dimensional simplex. The set $\mathcal{G}(\mathbb{N})$ (= $\Delta_{\mathbb{N}}$) is the prototype space from which the axioms are abstracted.
 
