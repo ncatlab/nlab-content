@@ -76,6 +76,9 @@ More on [[baryons]] in the [[Sakai-Sugimoto model]] of [[holographic QCD]]:
 
 More on [[mesons]] in [[holographic QCD]]:
 
+* [[Johanna Erdmenger]], [[Nick Evans]], [[Ingo Kirsch]], [[Ed Threlfall]], *Mesons in Gauge/Gravity Duals - A Review*, Eur. Phys. J. A **35** (2008) 81-133 &lbrack;[arXiv:0711.4467](https://arxiv.org/abs/0711.4467), [doi:10.1140/epja/i2007-10540-1](https://doi.org/10.1140/epja/i2007-10540-1)&rbrack;
+
+
 * Daniel Ávila, Leonardo Patiño, _Melting holographic mesons by cooling a magnetized quark gluon plasma_ ([arXiv:2002.02470](https://arxiv.org/abs/2002.02470))
 
 * Xuanmin Cao, Hui Liu, Danning Li, _Pion quasiparticles and QCD phase transitions at finite temperature and isospin density from holography_, Phys. Rev. D 102, 126014 (2020) ([arXiv:2009.00289](https://arxiv.org/abs/2009.00289))
