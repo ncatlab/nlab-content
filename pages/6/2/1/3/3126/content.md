@@ -902,6 +902,8 @@ When $T \mathbf{H}$ is an $\infty$-topos it should carry another structure $\oti
 
 * [[parameterized spectra]]
 
+* [[Joyal locus]]
+
 * [[differentiable (∞,1)-category]]
 
 * [[Goodwillie calculus]]
