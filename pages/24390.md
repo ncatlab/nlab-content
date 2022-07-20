@@ -32,11 +32,11 @@
 
 ## Overview
 
-*[Strings 2022](https://indico.cern.ch/event/1085701)* is a [[theoretical physics]] conference held in Vienna, Austria between 18 May and 23 May 2022. This conference consists of a variety of subjects at the frontier of theoretical physics, such as [[conformal field theory]], [[holography]], [[black hole]] physics, [[string theory]], and other topics in [[quantum field theory]] and [[quantum gravity]]. The website for this conference could be found [here](https://indico.cern.ch/event/1085701/). 
+*[Strings 2022](https://indico.cern.ch/event/1085701)* is a [[theoretical physics]] conference held in Vienna, Austria between 18 July and 22 July 2022. This conference consists of a variety of subjects at the frontier of theoretical physics, such as [[conformal field theory]], [[holography]], [[black hole]] physics, [[string theory]], and other topics in [[quantum field theory]] and [[quantum gravity]]. The website for this conference could be found [here](https://indico.cern.ch/event/1085701/). 
 
 ## Talks
 
-### 18 May
+### 18 July
 
 * [[Emil Martinec]], _The branes behind black holes_ ([slides](https://indico.cern.ch/event/1085701/contributions/4940814/attachments/2481320/4259653/Emil%20Martinec%20Monday-Review-Martinec.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=6645d5b4-ecc8-4849-a870-e1211e85376f))
 
@@ -73,7 +73,7 @@
 
   > on realistic values of the [[cosmological constant]] in [[string theory]]
 
-### 19 May
+### 19 July
 
 (...)
 
