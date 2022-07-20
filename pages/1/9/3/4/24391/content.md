@@ -130,7 +130,7 @@ Every element $\mathbf{p} \in \Delta_{\mathbb{N}}$ has a unique representation a
 Necessary condition.  Suppose that $f: \mathbb{N} \rightarrow \mathbb{N}$ is a countably affine map.  Let $i \lt j$. By the super convex space structure on $\mathbb{N}$ it follows, for all $\alpha \in (0,1)$, that  $\alpha i + (1-\alpha) j = i$ .  If $f$ is not monotone then there exist a pair of elements $i,j \in \mathbb{N}$ such that $i \lt j$ with $f(j) \lt f(i)$.  This implies, for all $\alpha \in (0,1)$, that $f(j)= \alpha f(i) + (1-\alpha) f(j) \lt   f(\alpha i + (1-\alpha) j ) =f(i)$, which contradicts our hypothesis that $f$ is a countably affine map.
  
 Sufficient condition. Suppose $f$ is a monotone function, and
- that we are given an arbitrary countably affine sum $\sum_{i \in \mathbb{N}} p_i i = n$ in $\mathbb{N}$, so that for all $i=0,1,\ldots,n-1$ we have $p_i=0$.  Since the condition defining the super convex structure is conditioned on the property ``for $p_i \ne 0$'', the countably affine sum is not changed  by removing any number of terms $i$ in the countable sum whose coefficient $p_i=0$.  Hence 
+ that we are given an arbitrary countably affine sum $\sum_{i \in \mathbb{N}} p_i i = n$ in $\mathbb{N}$, so that for all $i=0,1,\ldots,n-1$ we have $p_i=0$.  Since the condition defining the super convex structure is conditioned on the property $p_i \ne 0$, the countably affine sum is not changed  by removing any number of terms $i$ in the countable sum whose coefficient $p_i=0$.  Hence 
 for all $j$ such that $n\lt j$ it follows that $f(n) \le f(j)$ so that
 \begin{equation}
 f( \sum_{i=0}^{\infty} p_i \, i) = f(n) = \sum_{i=n}^{\infty} p_i f(i) 
@@ -175,9 +175,27 @@ and $\mathbb{N}$ has no maximal ideals.
 \end{example} 
 
 
-
 ## References
-As shown in the article There is no cogenerator for total convex spaces#Borger and Kemper]({http://www.numdam.org/item/CTGDC_1994__35_4_335_0/})
-there are no coseparators for $\mathbf{SCvx}$.
+The article 
 
-To add: Mackey, Meng, Borger and Kemper, ...
+* {#Borger} B&ouml;rger & Kemper, There is no cogenerator for total convex spaces, 
+Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 35 (1994) no. 4, pp. 335-338.
+
+shows that $\mathbf{SCvx}$ has no cogenerator.
+
+The fact that $\mathbf{SCvx}$ is a symmetric monoidal argument can be proven the same way it is for [[convex spaces]] simply by replacing the finite affine sums with countable affine sums. That proof was given by
+
+* {#Meng} Xiao-qing Meng, _Categories of convex sets and of metric spaces with applications to stochastic programming and related areas_, PhD thesis ([[Meng.djvu|djvu:file]]) 
+
+Many examples of super convex spaces are given in
+
+* {#Sturtz22} [[Kirk Sturtz]], _Giry algebras for standard measurable spaces_ $[$[arXiv:2202:10819](https://arxiv.org/abs/2202.10819)$]$
+
+For purposes of constructing models of complex systems using super convex spaces the construction given in Example 6.1 of the following article applies equally well to super convex spaces.
+
+* [[Tobias Fritz]], Convex spaces I: definition and examples. 
+[arXiv/0903.5522](http://arxiv.org/abs/0903.5522)
+
+[[!redirects Super convex space]]
+[[!redirects super convex spaces]]
+[[!redirects strong convex spaces]]
