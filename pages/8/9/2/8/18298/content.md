@@ -2063,7 +2063,7 @@ Hence corollary \ref{PullbackOfvectorBundlesAlongHomotopicMapsAreIsomorphic} imp
 $$
   f^\ast \circ g^\ast = (g \circ f)^\ast = id
   \phantom{AAAAA}
-  g^\ast \circ f^\ast = (g \circ g)^\ast = id
+  g^\ast \circ f^\ast = (f \circ g)^\ast = id
   \,.
 $$
 
@@ -2481,6 +2481,8 @@ The original reference for many results about bundles, including the theorem tha
 * [[Norman Steenrod]], _The Topology of Fibre Bundles_, Princeton University Press (1951, 1957, 1960) &lbrack;[jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5)&rbrack;
 
 Further textbook accounts:
+
+* John Milnor, Jim Stasheff, _Characteristic classes_, Princeton Univ. Press 1974
 
 * Glenys Luke, Alexander S. Mishchenko, _Vector bundles and their applications_, Math. and its Appl. __447__, Kluwer 1998. viii+254 pp. [MR99m:55019](http://www.ams.org/mathscinet-getitem?mr=99m:55019)
 
