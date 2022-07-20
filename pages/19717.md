@@ -47,10 +47,10 @@ Sometimes a lens satisfying all three laws is said to be _lawful_. Sometimes it 
 
 Lenses (regardless of their lawfulness) organize in a category $\mathrm{Lens}(\mathbf C)$ whose objects are the same as $\mathbf C$ and whose morphisms $X \to Y$ are lenses with states $X$ and views $Y$. The identity lens is given by $(1_X, \pi_1) :X \to X$. Composition of $(\mathrm{get}_1, \mathrm{put}_{1}):X \to Y$ and $(\mathrm{get}_2, \mathrm{put}_{2}):Y \to Z$ is given by:
 $$
-  \mathrm{get}_{12} = \mathrm{get}_1 \circ \mathrm{get}_2
+  \mathrm{get}_{12} = \mathrm{get}_2 \circ \mathrm{get}_1
 $$
 $$
-  \mathrm{put}_{12} = \mathrm{put}_1 \circ \langle \mathrm{put}_2 \circ \langle 1_Z, \mathrm{get}_1\rangle, 1_X \rangle \circ \langle 1_Z, \Delta_X \rangle
+  \mathrm{put}_{12} = \mathrm{put}_1 \circ ((\mathrm{put}_2 \circ (1_Z \times \mathrm{get}_1)) \times 1_X) \circ (1_Z \times \Delta_X)
 $$
 The $\mathrm{put}_{12}$ morphism is probably easier to describe using generalized elements:
 $$
