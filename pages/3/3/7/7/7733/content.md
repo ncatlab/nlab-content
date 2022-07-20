@@ -13,4 +13,6 @@ In the first two cases, at least locally, varieties are given by satisfaction of
 
 * [[complex variety]]
 
+* [[locus]]
+
 [[!redirects varieties]]
