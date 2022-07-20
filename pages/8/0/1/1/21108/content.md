@@ -40,13 +40,20 @@ See also
 
 * Wikipedia, _[Quasicrystal](https://en.m.wikipedia.org/wiki/Quasicrystal)
 
-In relation to [[topological phases of matter]]:
+### As topological phases
+
+As or in relation to [[topological phases of matter]]:
 
 * Yao Wang et al., *Quantum Topological Boundary States in Quasi-crystal*,  Adv Mater 2019 Dec;31(49):e1905624 ([doi:10.1002/adma.201905624](https://doi.org/10.1002/adma.201905624))
 
 * Dominic V. Else, Sheng-Jie Huang, Abhinav Prem, Andrey Gromov, *Quantum many-body topology of quasicrystals* ([arXiv:2103.13393](https://arxiv.org/abs/2103.13393))
 
 * Oded Zilberberg, *Topology in quasicrystals*, Optical Materials Express Vol. 11, Issue 4, pp. 1143-1157 (2021) ([doi:10.1364/OME.416552](https://doi.org/10.1364/OME.416552))
+
+As a substrate for [[topological quantum computation]]:
+
+* Marcelo Amaral, [[David Chester]], Fang Fang, Klee Irwin, *Exploiting Anyonic Behavior of Quasicrystals for Topological Quantum Computing* &lbrack;[arXiv:2207.08928](https://arxiv.org/abs/2207.08928)&rbrack;
+
 
 
 ### Mathematical description
