@@ -35,6 +35,8 @@ according to the [classification of superconformal symmetry](supersymmetry#Class
 
 [[!include superconformal symmetry -- table]]
 
+[[!redirects D=4 SYM]]
+
 
 
 
