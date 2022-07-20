@@ -603,9 +603,9 @@ Comparisons of various models can be found in
 
 Recent work on abstract definitions of (models of) type theory include:
 
-* Valery Isaev, _Algebraic Presentations of Dependent Type Theories_ [arXiv](https://arxiv.org/abs/1602.08504)
+* [[Valery Isaev]], _Algebraic Presentations of Dependent Type Theories_ ([arXiv:1602.08504](https://arxiv.org/abs/1602.08504))
 
-* Taichi Uemura, _A General Framework for the Semantics of Type Theory_ [arXiv](https://arxiv.org/abs/1904.04097)
+* [[Taichi Uemura]], _A General Framework for the Semantics of Type Theory_ ([arXiv:1904.04097](https://arxiv.org/abs/1904.04097))
 
 A category with families structure is constructed on the $(2,1)$-category of all locally cartesian closed categories, which since locally presentable may be treated via model categories, in:
 
@@ -666,7 +666,7 @@ More abstractly formulated than the others above, and more general by default. F
 
 #### Joyal's Categorical Homotopy Type Theory
 
-Andr'e Joyal's approach based on the notion of a "tribe".  Slides from a talk available here [[MIT.pdf:file]]. Later [PDF](https://arxiv.org/abs/1710.10238).
+Andr&eacute; Joyal's approach based on the notion of a "tribe".  Slides from a talk available here [[MIT.pdf:file]]. Later [PDF](https://arxiv.org/abs/1710.10238).
 
 #### Natural Models {#natural model}
 
