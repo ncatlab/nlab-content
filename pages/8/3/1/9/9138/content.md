@@ -177,6 +177,24 @@ A _D-poset_ is a poset $(P, \leq, \ominus, 1)$ with a difference operation and g
 
 Any effect algebra is automatically a D-poset under the difference $c := b \ominus a \iff a \oplus c = b$, well-defined by the cancellation property of generalized effect algebras. Ultimately this determines an isomorphism of categories between D-posets and effect algebras.
 
+## Relation to Boolean algebras
+
+Every [[Boolean algebra]] is an effect algebra, with $a\bot b$ whenever $a \wedge b=0$. Then the partial monoid of the effect algebra is a restriction of the join of the Boolean algebra. The orthocomplement is $a^\bot=\neg a$. 
+
+Starting from a [[powerset]] Boolean algebra, for example, we have $a\bot b$ when $a$ and $b$ are disjoint, and $a\vee b$ is the disjoint union.
+
+
+A function is a Boolean algebra homomorphism if and only if it is a morphism of effect algebras. 
+
+In fact the finite Boolean algebras form a [[dense subcategory]] of the category $\mathbf{EA}$ of effect algebras. This means that every effect algebra is a canonical colimit of finite Boolean algebras. 
+
+Since the powerset functor $\mathbf{FinSet}\to \mathbf{FinBool}^{\mathrm{op}}$ is an equivalence of categories ([[Stone duality#StoneSpacesAndProfiniteSets|Stone duality]]), this density property also means that we have a full and faithful functor $T:\mathbf{EA}\to [\mathbf{FinSet},\mathbf{Set}]$. 
+This functor can be given explicitly as finding the __tests__ of an effect algebra. 
+A test is a sequence of orthogonal elements that sum to $1$. Hence 
+
+$$ T(E) (n) = \{ (a_1,\dots,a_n)\ |\ a_1\vee\dots \vee a_n=1\} $$
+
+For example, starting from the unit interval, $T([0,1])(n)$ gives the $(n-1)$-[[simplex#TopologicalSimplex|simplex]].
 
 ## Related concepts
 
@@ -221,7 +239,7 @@ A survey of the use of effect algebras in [[quantum mechanics]] is in
 
 * Hans de Groote, _On a canonical lattice structure on the effect algebra of a von Neumann algebra_ [arXiv:0410018](http://arxiv.org/abs/math-ph/0410018){#DeGroote}
 
-Discussion in relation to [[presheaves]] on [[FinSet]]${}^{op}$ (hence in the [[classifying topos]] for objects) is in
+Discussion in relation to [[presheaves]] on [[FinSet]]${}^{op}$ (hence in the [[classifying topos]] for objects) and density of Boolean algebras is in
 
 * Sam Staton, Sander Uijlen, _Effect algebras, presheaves, non-locality and contextuality_ ([pdf](http://www.cs.ru.nl/S.Uijlen/ICALP-camera-ready.pdf))
 
