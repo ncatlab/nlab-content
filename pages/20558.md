@@ -59,4 +59,7 @@ See also
 
 Discussion via [[AdS/CFT]]:
 
-* Kazem Bitaghsir Fadafan, Jesus Cruz Rojas, Nick Evans, _A Holographic Description of Colour Superconductivity_ ([arXiv:1803.03107](https://arxiv.org/abs/1803.03107))
+* Kazem Bitaghsir Fadafan, Jesus Cruz Rojas, [[Nick Evans]], _A Holographic Description of Colour Superconductivity_, Phys. Rev. D **98** (2018) 066010  &lbrack;[arXiv:1803.03107](https://arxiv.org/abs/1803.03107), [doi:10.1103/PhysRevD.98.066010](https://doi.org/10.1103/PhysRevD.98.066010)&rbrack;
+
+
+
