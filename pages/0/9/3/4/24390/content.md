@@ -75,23 +75,45 @@
 
 ### 19 July
 
+
 * [[Andreas Karch]], *Randall-Sundrum Branes and Holography*, talk at *[[Strings 2022]]* &lbrack;[indico:4940841](https://indico.cern.ch/event/1085701/contributions/4940841), [slides](https://indico.cern.ch/event/1085701/contributions/4940841/attachments/2482053/4261118/Slides_Karch.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=19f3c464-448d-44ca-907b-91a1bfa5d0ce)&rbrack;
 
   > on [[Randall-Sundrum models]] in [[AdS-CFT duality]] and [[black hole entropy]]
  
+
+
 * [[Amit Sever]], _Line Operators in Chern-Simons-Matter Theories and Bosonization in Three Dimensions_, &lbrack;[indico:4940843](https://indico.cern.ch/event/1085701/contributions/4940843), [slides](https://indico.cern.ch/event/1085701/contributions/4940843/attachments/2482058/4261226/Slides_Sever.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=a9f7872c-1603-4954-9030-192a72e4f456)&rbrack;
 
-  > on [[Wilson line]]-[[quantum observables]] in 3d [[Chern-Simons theory|Chern-Simons]]/[[matter]]-theories (such as the [[ABJM model]])
+  > on [[Wilson line]]-[[quantum observables]] and [[bosonization]] in 3d [[Chern-Simons theory|Chern-Simons]]/[[matter]]-theories (such as the [[ABJM model]])
+
+
 
 * [[Hong Liu]], *The emergence of space and time in holography*, &lbrack;[indico:4940845](https://indico.cern.ch/event/1085701/contributions/4940845), [slides](https://indico.cern.ch/event/1085701/contributions/4940845/attachments/2482132/4261244/Hong%20Liu%20Vienna1_Hong.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=9b1a2a73-1a2f-4882-a222-4e5ab52b077f)&rbrack;
 
+  > on [[holographic principle|holography]]
+
+
 * [[Nick Evans]], *Holography for Multi-Representation and Chiral Matter*, &lbrack;[indico:4940848](https://indico.cern.ch/event/1085701/contributions/4940848), [slides](https://indico.cern.ch/event/1085701/contributions/4940848/attachments/2482358/4261644/Nick%20Evans%20Tuesday-Research-Evans.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=aecca42b-c952-42f0-84c6-5b23230534b7)&rbrack;
+
+  > on [[holographic QCD]], related non-conformal [[holographic principle|holography]] and [[DBI action]]-effects
+
+
 
 * [[Luca Iliesiu]], *From statistical mechanics to microstate counting for extremal and near-extremal black holes*, &lbrack;[indico:4940850](https://indico.cern.ch/event/1085701/contributions/4940850), [slides](https://indico.cern.ch/event/1085701/contributions/4940850/attachments/2482365/4261646/Luca%20Iliesiu%20Tuesday-Reserach-Iliesiu-v2.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=96645a86-6d44-40ab-9abf-dd5a1920d881)&rbrack;
 
-* [[Shlomo Razamat]], *News from the higher D SQFT frontier*, &lbrack;[indico:4940856](https://indico.cern.ch/event/1085701/contributions/4940856), [slides](https://indico.cern.ch/event/1085701/contributions/4940856/attachments/2482369/4261653/Shlomo%20Razamat%20Tuesday-Review-Razamat.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=ad1f1a6b-5018-4b69-9e38-e499daabda1c)&rbrack;
+  > on [[black hole entropy]] for (near-)[[extremal black holes]]
+
+
+
+* [[Shlomo Razamat]], *News from the higher $\mathcal{D}$ SQFT frontier*, &lbrack;[indico:4940856](https://indico.cern.ch/event/1085701/contributions/4940856), [slides](https://indico.cern.ch/event/1085701/contributions/4940856/attachments/2482369/4261653/Shlomo%20Razamat%20Tuesday-Review-Razamat.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=ad1f1a6b-5018-4b69-9e38-e499daabda1c)&rbrack;
+
+  > on [[SCFTs]] in higher dimensions ([[D=4 SYM]], [[D=5 SYM]], [[D=6 N=(1,0) SCFT|D=6 N=1]], [[D=6 N=(2,0) SCFT|D=6, N=2]]) their [[moduli]] ([[Higgs branches]]/[[Coulomb branches]]) and their [[duality in string theory|dualities]] ([[KK-compactification]], [[AGT correspondence]], [[AdS/CFT duality]], ...)
+
 
 * [[James Sparks]], *Black hole entropy functions and spinning spindles*, &lbrack;[indico:4940857](https://indico.cern.ch/event/1085701/contributions/4940857), [slides](https://indico.cern.ch/event/1085701/contributions/4940857/attachments/2482432/4261772/James%20Sparks%20Tuesday-Research-Sparks.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=758eace7-ef2a-4b54-b385-0fc244285886)&rbrack;
+
+  > on [[black hole entropy]]
+
 
 (...)
 
