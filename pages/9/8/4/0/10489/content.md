@@ -5,7 +5,7 @@ The term "logos" is used
 
 * in [Freyd-Scedrov](#FreydScedrov) as a synonym for _[[Heyting category]]_;
 
-* in [Joyal 08](#Joyal08) as a synonym for _[[quasi-category]]_ ([[(∞,1)-category]]).
+* in [Joyal 08](#Joyal08) as a synonym for _[[quasi-category]]_ ([[(∞,1)-category]], cf. also *[[Joyal locus]]*).
 
 * In [Joyal 2015](#Joyal15) and [Anel–Joyal 2019](#AnelJoyal19) for an object of the opposite of the category of [[toposes]]. This works on the same lines as the duality between [[frames]] and [[locales]]. There is a [[higher category theory|higher]] version of logos, known as an $\infty$-logos.
 
@@ -27,6 +27,7 @@ Discussion of relation to [[taoism]]:
 
 * {#Butti13} Elena Butti, _A comparison between Heraclitus' "Logos" and Lao-Tzu's "Tao"_, Ephemeris 2013 ([[Butti13.pdf:file]])
   
+
 
 category: disambiguation
 
