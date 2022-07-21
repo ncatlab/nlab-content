@@ -117,6 +117,11 @@ The above necessary and sufficient conditions dualize directly.
 ## Existence
 
 ### Constructing factorizations
+ {#ConstructingFactorizations}
+
+
+#### For right transfer
+ {#ConstructingFactorizationsForRightTransfer}
 
 The most traditional way to obtain the factorization properties in the right-transferred case (Thm. \ref{NeccSuff}) is to assume that $C$ is [[cofibrantly generated]].
 
@@ -154,17 +159,32 @@ Then there is an induced ([[awfs|algebraic]]) weak factorization system on $D$ w
 ###### Proof
 Given a morphism $f:A\to B$ in $D$, factor it as follows, where the upper commutative square is a pushout:
 $$\array{
-  F U A & \to & A \\
-  ^{F ((U f)_L)}\downarrow & & \downarrow \\
-  F E (U f) & & E f \\
-  ^{F ((U f)_R)}\downarrow & & \downarrow \\
-  F U B & \to & B
+  F U A & \longrightarrow & A 
+  \\
+  \mathllap{ {}^{F ((U f)_L)} }
+  \big\downarrow & & \big\downarrow 
+  \\
+  F E (U f) & & E f 
+  \\
+  \mathllap{ {}^{F ((U f)_R)} }
+  \big\downarrow & & \big\downarrow 
+  \\
+  F U B & \longrightarrow & B
 }$$
 This yields a functorial factorization $(L',R')$ on $D$.  By the universal property of pushout, an $R'$-algebra structure on $f$ is determined by a diagonal lifting in the square
-$$ \array{
-  F U A & \to & A \\
-  ^{F ((U f)_L)}\downarrow & & \downarrow^f \\
-  F E (U f) & \xrightarrow{F ((U f)_R)} & B }
+$$ 
+  \array{
+    F U A & \longrightarrow & A 
+    \\
+    \mathllap{ {}^{F ((U f)_L)} }
+    \big\downarrow & & \big\downarrow \mathrlap{{}^f} 
+    \\
+    F E (U f) 
+    & 
+    \underset{F ((U f)_R)}{\longrightarrow}
+    & 
+    B 
+  }
 $$
 which corresponds by adjunction to precisely an $R$-algebra structure on $U f$.  Thus, the right weak composition law for $R$-algebras lifts to a right weak composition law for $R'$-algebras.  Garner's small object argument applied to $(L',R')$ then produces a monad over $cod$ with a right strong composition law, which is therefore an [[algebraic weak factorization system]] whose algebraic right maps are the $R'$-algebras, and in particular whose underlying right chlass is as desired those maps whose $U$-image is in $R$.
 =--
@@ -188,6 +208,33 @@ Left-lifting is generally rather trickier.  But by invoking fancier categorical 
 
 This sort of result seems to be necessary for the case of left-lifting; the simpler cofibrantly-generated argument does not dualize as directly.
 
+
+#### For left transfer
+ {#ConstructingFactorizationsForLeftTransfer}
+
+\begin{proposition}
+\label{RecognitionOfLeftTransferUnderCofibrantlyGeneration}
+Given a pair of [[adjoint functors]]
+$
+  \mathcal{D}
+    \underoverset
+      {\underset{R}{\longleftarrow}}
+      {\overset{L}{\longrightarrow}}
+      {\;\;\bot\;\;}
+  \mathcal{C}
+$
+such that:
+
+1. $\mathcal{C}$ and $\mathcal{D}$ are [[locally presentable categories]],
+
+1. $\mathcal{C}$ is equipped with the [[mathematical structure|structure]] of a [[cofibrantly generated model category]] (hence a [[combinatorial model category]]) with [[class|classes]] of ([[cofibration|co]]-)/[[fibrations]] and [[weak equivalences]] $Cof, Fib, W \,\subset\, Mor(\mathcal{C})$,
+
+1. $RLP\big( L^{-1} Cof \big) \,\subset\, L^{-1}(W)$ (i.e. co-anodyne maps are weak equivalences),
+
+then the left-transferred model category structure on $\mathcal{D}$ exists (i.e. with cofibrations $L^{-1}(Cof)$ and weak equivalences $L^{-1}(W)$) and is itself [[cofibrantly generated model category|cofibrantly generated]].
+\end{proposition}
+
+([BHKKRS 2015, Thm. 2.23](#BHKKRS15))
 
 ### Verifying acyclicity
 
@@ -362,19 +409,21 @@ and on p. 6 of
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_  ([pdf](http://www.math.uu.nl/publications/preprints/1242.pdf))
 
-Left transfer in the accessible case is studied in
+Discussion of left transfer in the accessible case:
 
-* Marzieh Bayeh, [[Kathryn Hess]], [[Varvara Karpova]], [[Magdalena Kedziorek]], [[Emily Riehl]], [[Brooke Shipley]], _Left-induced model structures and diagram categories_ ([arXiv:1401.3651](http://arxiv.org/abs/1401.3651))
+* {#BHKKRS15} [[Marzieh Bayeh]], [[Kathryn Hess]], [[Varvara Karpova]], [[Magdalena Kedziorek]], [[Emily Riehl]], [[Brooke Shipley]], *Left-induced model structures and diagram categories*, in: *Women in Topology: Collaborations in Homotopy Theory*, Contemporary Mathematics **641** American Mathematical Society (2015) &lbrack;[arXiv:1401.3651](http://arxiv.org/abs/1401.3651), [ISBN:978-1-4704-2495-4](https://bookstore.ams.org/conm-641)&rbrack;
 
-* {#HKRS15} [[Kathryn Hess]], [[Magdalena Kedziorek]], [[Emily Riehl]], [[Brooke Shipley]], _A necessary and sufficient condition for induced model structures_ ([arXiv:1509.08154](http://arxiv.org/abs/1509.08154)).  This paper contains an error, corrected by:
+* {#HKRS15} [[Kathryn Hess]], [[Magdalena Kedziorek]], [[Emily Riehl]], [[Brooke Shipley]], *A necessary and sufficient condition for induced model structures*, J. Topology **10** 2  (2017) 324-369 &lbrack;[arXiv:1509.08154](http://arxiv.org/abs/1509.08154), [doi:10.1112/topo.12011](https://doi.org/10.1112/topo.12011)&rbrack;  
 
-* {#GKR18} [[Richard Garner]], [[Magdalena Kedziorek]], [[Emily Riehl]], _Lifting accessible model structures_, [arXiv:1802.09889](https://arxiv.org/abs/1802.09889)
+Beware that [HKRS15](#HKRS15) contains an error, corrected by:
 
-while in the combinatorial (cofibrantly generated) case it is studied in
+* {#GKR18} [[Richard Garner]], [[Magdalena Kedziorek]], [[Emily Riehl]], *Lifting accessible model structures*, J. Topology **13** 1 (2020) 59-76 &lbrack;[arXiv:1802.09889](https://arxiv.org/abs/1802.09889), [doi:10.1112/topo.12123](https://doi.org/10.1112/topo.12123)&rbrack;
+
+Discussion in the the combinatorial (cofibrantly generated) case:
 
 * [[Higher Topos Theory]], Appendix A
 
-* {#MR13} [[M. Makkai]], [[J. Rosický]], _Cellular categories_, 2013, [arXiv:1304.7572](https://arxiv.org/abs/1304.7572)
+* {#MR13} [[M. Makkai]], [[J. Rosický]], _Cellular categories_ (2013) &lbrack;[arXiv:1304.7572](https://arxiv.org/abs/1304.7572)&rbrack;
 
 The right-transferred model structure on algebras for a 2-monad is from
 
