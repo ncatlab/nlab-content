@@ -128,8 +128,10 @@ and its application to condensed matter physics_,  D-ITP Advanced Topics in Theo
 
 * [[Subir Sachdev]], *Statistical mechanics of strange metals and black holes* ([arXiv:2205.02285](https://arxiv.org/abs/2205.02285))
 
+* [[Umut Gürsoy]], *Recent developments in gauge-gravity duality applied to quantum many-body systems*, talk at *[[Strings 2022]]*  &lbrack;[indico:4940863](https://indico.cern.ch/event/1085701/contributions/4940863), [pdf](https://indico.cern.ch/event/1085701/contributions/4940863/attachments/2483542/4263813/Slides_Gursoy.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=69bc5a22-b77a-4830-97b8-49c7d6aa1c29) &rbrack;
 
-More pointers:
+
+See also:
 
 * [[Jan Zaanen]], _[Anti-de-Sitter/Condensed Matter Theory](https://www.lorentz.leidenuniv.nl/zaanen/wordpress/research/anti-de-sittercondensed-matter/)_
 
