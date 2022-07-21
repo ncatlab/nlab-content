@@ -104,10 +104,8 @@ The above instant talk notes have been refined into typeset lecture notes:
 * [[Christoph Wockel]], [[Wockel.pdf:file]], talk summary by [[Christoph Wockel]]
 
 ##Gabriel Drummond-Cole##
-+-- {: .query}
-Can someone who has these notes or wants to write a summary put something here please?
-=--
 
+* [[Gabriel Drummond-Cole]]: “Gravity and homotopy BV”
 
 #Conference Talks#
 
