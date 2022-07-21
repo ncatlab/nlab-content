@@ -35,12 +35,6 @@ Depending on the author, the *axiom of multiple choice* is one of the following 
 
 The nLab uses the initialization AMC to cover either the first two formulations.
 
-+--{: .query}
-[[Mike Shulman]]: Are the first two the same?  If not, why are they given the same name?
-
-[[Peter LeFanu Lumsdaine]]: Yes, they are equivalent.  For any $X$, given a collection family $\{D_c\}_{c \in C}$ including $X$, then the family $\{D_c\}_{(c \in C, f : D_c \twoheadrightarrow X)}$” is an inhabited collection family equipped with surjections to $X$.  Conversely, given an inhabited collection family equipped with surjections to $X$, throwing $X$ into the family gives a collection family including $X$. 
-=--
-
 The third is a weaker condition, and while some may refer to as a "weak axiom of multiple choice", van den Berg obviously does not; he calls his the AMC and the Moerdijk-Palmgren formulation rather the "strong axiom of multiple choice". 
 
 
