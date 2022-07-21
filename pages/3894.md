@@ -467,13 +467,18 @@ and specifically so for [[M-theory on 8-manifolds]]:
 
 * Vikas Yadav, Aalok Misra, *On M-Theory Dual of Large-$N$ Thermal QCD-Like Theories up to $\mathcal{O}(R^4)$ and $G$-Structure Classification of Underlying Non-Supersymmetric Geometries* ([arXiv:2004.07259](https://arxiv.org/abs/2004.07259))
 
-  > (relation to [[AdS/QCD duality]])
+  > (relation to [[holographic QCD]])
 
 See also
 
 * Johannes Held, Section 3 of: _Non-SupersymmetricFlux Compactifications of Heterotic String- and M-theory_ ([pdf](https://edoc.ub.uni-muenchen.de/14341/1/Held_Johannes.pdf))
 
 * {#Papadopoulos18} [[George Papadopoulos]], _Geometry and symmetries of null $G$-structures_ ([arXiv:1811.03500](https://arxiv.org/abs/1811.03500))
+
+
+* [[Daniel Waldram]], *Fluxes, holography and uses of Exceptional Generalized Geometry*, talk at *[[Strings 2022]]*  &lbrack;[indico:4940880](https://indico.cern.ch/event/1085701/contributions/4940880), [slides](https://indico.cern.ch/event/1085701/contributions/4940880/attachments/2482886/4262576/Daniel%20Waldram%20Strings2022-waldram.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=e222a3a9-ebf4-445c-ada0-f7b1d592d908) &rbrack;
+
+  > on generalized [[G-structures]] and [[exceptional generalized geometry]] of [[flux compactifications]] and in [[AdS/CFT]] 
 
 
 ### In complex geometry
