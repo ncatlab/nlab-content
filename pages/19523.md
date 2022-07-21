@@ -357,8 +357,7 @@ The proposal that backreaction of cosmic inhomogeneities may mimic a [[cosmologi
 
 * {#Sarkar08} [[Subir Sarkar]], _Is the evidence for dark energy secure?_, Gen. Rel. Grav.40:269-284, 2008 ([arXiv:0710.5307](https://arxiv.org/abs/0710.5307))
 
-* {#Notari09} Alessio Notari, _Can an Inhomogeneous Universe mimic
-Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
+* {#Notari09} Alessio Notari, _Can an Inhomogeneous Universe mimic Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
  
 * {#Blomqvist10} Michael Blomqvist, _Inhomogeneous cosmologies with clustered dark energy or a local matter void_,  2010 ([web](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A353689&dswid=2010))
 
@@ -373,7 +372,7 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 
 * {#OdderskovKoksbangHannestad16} I. Odderskov, S. M. Koksbang, S. Hannestad, _The Local Value of $H_0$ in an Inhomogeneous Universe_, JCAP02(2016)001 ([arXiv:1601.07356](https://arxiv.org/abs/1601.07356))
 
-* {#RiessEtAl16} Adam G. Riess et al., _A 2.4% Determination of the Local Value of the Hubble Constant_,  The Astrophysical Journal, Volume 826, Number 1 ([arXiv:1604.01424](https://arxiv.org/abs/1604.01424))
+* {#RiessEtAl16} [[Adam G. Riess]] et al., _A 2.4% Determination of the Local Value of the Hubble Constant_,  The Astrophysical Journal **826** 1 (2016) &lbrack;[arXiv:1604.01424](https://arxiv.org/abs/1604.01424), [doi:10.3847/0004-637X/826/1/56](https://iopscience.iop.org/article/10.3847/0004-637X/826/1/56)&rbrack;
 
 * {#BelejkoKorzynski16} Krzysztof Bolejko, Mikołaj Korzyński, _Inhomogeneous cosmology and backreaction: Current status and future prospects_, Int. J. Mod. Phys. D 26, 1730011 (2017) ([arXiv:1612.08222](https://arxiv.org/abs/1612.08222))
 
