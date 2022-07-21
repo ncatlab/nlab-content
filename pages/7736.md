@@ -31,6 +31,11 @@ On [[flux compactifications]] in terms of [[G-structure]]:
 
 * [[Jerome Gauntlett]], Dario Martelli, Stathis Pakis, [[Daniel Waldram]], _G-Structures and Wrapped NS5-branes_, Commun.Math.Phys. 247 (2004) 421-445 ([arxiv:hep-th/0205050](https://arxiv.org/abs/hep-th/0205050))
 
+On generalized [[G-structures]] and [[exceptional generalized geometry]] of [[flux compactifications]] and in [[AdS/CFT]]: 
+
+* [[Daniel Waldram]], *Fluxes, holography and uses of Exceptional Generalized Geometry*, talk at *[[Strings 2022]]* &lbrack;[indico:4940880](https://indico.cern.ch/event/1085701/contributions/4940880), [slides](https://indico.cern.ch/event/1085701/contributions/4940880/attachments/2482886/4262576/Daniel%20Waldram%20Strings2022-waldram.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=e222a3a9-ebf4-445c-ada0-f7b1d592d908) &rbrack;
+
+
 
 
 ## Related $n$Lab entries
