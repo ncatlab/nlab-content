@@ -29,6 +29,10 @@ On [[adhesive categories]]:
 
 * {#GarnerLack12} [[Richard Garner]], [[Steve Lack]]: *On the axioms for adhesive and quasiadhesive categories*, Theory and Applications of Categories, **27**  3 (2012) 27-46 &lbrack;[arXiv:1108.2934](http://arxiv.org/abs/1108.2934), [tac:27-03](http://www.tac.mta.ca/tac/volumes/27/3/27-03abs.html)&rbrack;
 
+On [[transferred model structures]]:
+
+* {#GKR18} [[Richard Garner]], [[Magdalena Kedziorek]], [[Emily Riehl]], *Lifting accessible model structures*, J. Topology **13** 1 (2020) 59-76 &lbrack;[arXiv:1802.09889](https://arxiv.org/abs/1802.09889), [doi:10.1112/topo.12123](https://doi.org/10.1112/topo.12123)&rbrack;
+
 
 
 category: people
