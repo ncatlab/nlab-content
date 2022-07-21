@@ -398,9 +398,13 @@ A quick survey of the big picture as of 2016 is in
 
 * {#Sen16} [[Ashoke Sen]], _What is string theory?_, talk at YITP50, Stony Brook 2016 ([pdf](http://media.scgp.stonybrook.edu/presentations/2016/20161010_Sen.pdf))
 
-A useful survey of the status of string theory as a theory of [[quantum gravity]] is in
+Survey of the status of string theory as a theory of [[quantum gravity]]:
 
 * [[Matthias Blau]], _String theory as a theory of quantum gravity -- A status report_ Talk at _[Quantum theory and Gravitation](http://www.conferences.itp.phys.ethz.ch/doku.php?id=qg11:programme)_ Z&#252;rich (2011) ([pdf](http://www.conferences.itp.phys.ethz.ch/lib/exe/fetch.php?media=qg11:zurichblau.pdf))
+
+Annual conference
+
+* *[[Strings 2022]]*
 
 
 An article summarizing information about [[cohomology|cohomological]] models for aspects of string theory and listing plenty of useful further references is
