@@ -633,13 +633,16 @@ See also:
 
 Emphasis of the AdS-QCD correspondence at annual String-conferences:
 
-* {#Klebanov21} [[Igor Klebanov]], *Remarks on Color Confinement*, talk at [Strings 2021](https://www.ictp-saifr.org/strings2021/) ([pdf](https://www.ictp-saifr.org/wp-content/uploads/2021/06/DiscussionConfinementKlebanov.pdf), [video](https://youtu.be/B9NI2LE7d68?t=262))
+* {#Klebanov21} [[Igor Klebanov]], *Remarks on Color Confinement*, talk at *[Strings 2021](https://www.ictp-saifr.org/strings2021/)* ([pdf](https://www.ictp-saifr.org/wp-content/uploads/2021/06/DiscussionConfinementKlebanov.pdf), [video](https://youtu.be/B9NI2LE7d68?t=262))
 
-* {#Dubovsky21} [[Sergei Dubovsky]], *Comments on (mostly long) QCD strings*, talk at [Strings 2021](https://www.ictp-saifr.org/strings2021/) ([pdf](https://www.ictp-saifr.org/wp-content/uploads/2021/06/Sergei.pdf), [video](https://youtu.be/B9NI2LE7d68?t=1183))
+* {#Dubovsky21} [[Sergei Dubovsky]], *Comments on (mostly long) QCD strings*, talk at *[Strings 2021](https://www.ictp-saifr.org/strings2021/)* ([pdf](https://www.ictp-saifr.org/wp-content/uploads/2021/06/Sergei.pdf), [video](https://youtu.be/B9NI2LE7d68?t=1183))
 
 * [[Nick Evans]], *Holography for Multi-Representation and Chiral Matter*, talk at *[[Strings 2022]]* &lbrack;[indico:4940848](https://indico.cern.ch/event/1085701/contributions/4940848), [slides](https://indico.cern.ch/event/1085701/contributions/4940848/attachments/2482358/4261644/Nick%20Evans%20Tuesday-Research-Evans.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=aecca42b-c952-42f0-84c6-5b23230534b7)&rbrack;
 
   > (emphasis on [[DBI action]]-effects)
+
+* [[Umut Gürsoy]], *Recent developments in gauge-gravity duality applied to quantum many-body systems*, talk at *[[Strings 2022]]* &lbrack;[indico:4940863](https://indico.cern.ch/event/1085701/contributions/4940863), [pdf](https://indico.cern.ch/event/1085701/contributions/4940863/attachments/2483542/4263813/Slides_Gursoy.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=69bc5a22-b77a-4830-97b8-49c7d6aa1c29) &rbrack;
+
 
 #### Top-down models 
 
@@ -1356,3 +1359,5 @@ Application to [[thermal field theory|thermal]] [[QCD]]:
 [[!redirects improved holographic quantum chromodynamics]]
 
 [[!redirects Ads/QCD]]
+
+
