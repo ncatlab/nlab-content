@@ -225,12 +225,6 @@ A **club** over $\mathbf{G}$ is a monoid in the monoidal category $((Cat/\mathbf
 
 A club over $\mathbf{G}$ induces (via the actegory structure) a monad on $Cat$, and an **algebra** over the club is an algebra for this monad.  Unlike in the covariant cases, this monad is *not* a 2-monad, but it does give a 2-monad if one restricts to the locally groupoidal 2-category of categories, functors, and natural isomorphisms.
 
-+--{: .query}
-[[Mike Shulman]]: Is this sort of club also a generalized operad for some cartesian monad on $Cat$? 
-
-[[Todd Trimble]]: I'm pretty sure that it's a cartesian monad on $Cat$, and actually I don't know any real examples of Kelly's clubs which aren't.
-=--
-
 ### Examples
 
 As shown above, we cannot expect to describe compact closed categories with a club.  However, we can describe various other structures of mixed variance, such as symmetric monoidal *closed* categories.  Specifically, let $F(1)$ be the free smc category on one generator. There is a "graph functor" $\Gamma: F(1) \to \mathbf{G}$ which takes a morphism of $F(1)$ to its extranaturality graph. The crucial observation is that no basepoint morphism lies in the image of $\Gamma$, i.e., no islands can occur in formal compositions for this doctrine.  This fact is nontrivial; its proof relies on a [[cut-elimination theorem]] (see [KellyCET](#KellyCET)) and works for any structure obtained by adding [[multivariable adjunction|multi-variable right adjoints]] to any of the operations of a club over $\mathbf{P}$.
