@@ -77,7 +77,7 @@ $$
   exists.
 \end{proposition}
 \begin{proof}
-  We need to check that co-anodyne maps are weak equivalences: 
+  Since both categories are [[cofibrantly generated model category|cofibrantly generated]] and the [[model structure on simplicial presheaves]] is in addition [[cofibrantly generated model category|cofibrantly generated]], [this Prop.](transferred+model+structure#RecognitionOfLeftTransferUnderCofibrantlyGeneration) reduces us to checking that co-anodyne maps are weak equivalences: 
 $$
   \begin{array}{ll}
     (i^\ast)^{-1}(Cof)
