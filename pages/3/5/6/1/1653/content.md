@@ -156,26 +156,6 @@ See also
 * {#Henry14} [[Simon Henry]], _From toposes to non-commutative geometry through the study of internal Hilbert spaces_, 2014  ([pdf](http://www.normalesup.org/~henry/Thesis.pdf))
 
 
-+-- {: .query}
-
-**Revision plan**
-
-1.  Describe several variations of definition:
-    *  with a filter of full sets,
-    *  localizable,
-    *  Cheng,
-    *  from a delta-ring etc,
-    *  localic,
-    *  finitary,
-    *  noncommutative.
-
-2.  Do measurable functions only afterwards, stressing almost-everywhere equality.  Describe the relevant categories.
-
-3.  Mention measure spaces and anything else.
-
-=--
-
-
 [[!redirects measurable space]]
 [[!redirects measurable spaces]]
 
