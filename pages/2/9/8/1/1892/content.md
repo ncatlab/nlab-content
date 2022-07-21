@@ -145,7 +145,6 @@ Congratulations!  By helping the $n$Lab, you have done your good deed for the da
 
 For more information, try the [[nlab:HowTo|HowTo]] page.
 
-
 [[!redirects How to Copy and Paste Material from the n-Cafe and Include Links Back and Forth]]
 [[!redirects How to Copy and Paste Material from the n-Cafe and Include L]]
 
