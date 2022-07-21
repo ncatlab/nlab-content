@@ -50,32 +50,9 @@ From the perspective of structural [[set theory]], it is [[evil]] to care about 
 
 * A __cardinal__ is a [[set]] (that is, an object of [[Set]]).
 
-+-- {: .query}
-_Madeleine Birchfield_: Wouldn't a cardinal number be an object of the [[decategorification]] of the category [[Set]], just as a [[natural number]] is an object of the decategorification of the category [[FinSet]]?
-=--
-
 However, one still may need sets of cardinals, that is sets that serve as the target of a cardinality function satisfying (1--3) on any (small) collection of sets.  One can construct this as a [[quotient set]] of that collection.
 
 Lowercase Greek letters starting from $\kappa$ are often used for cardinal numbers.
-
-+-- {: .query}
-_Roger Witte_
-First of all sorry if I am posting in the wrong place
-
-While thinking about graphs, I wanted to define them as subobjects of naive cardinal **2** and this got me thinking about the behaviour of the full subcategories of **Set** defined by isomorphism classes.  These categories turned out to be more interesting than I had expected.
-
-If the background set theory is ZFC or similar, these are all large but locally small categories with all hom sets being isomorphic.  They all contain the same number of objects (except **0**, which contains one object and no non-identity morphisms) and are equinumerous with **Set**.  Each hom Set contains $N^N$ arrows.  In the finite case $N!$ of the morphisms in a particular hom set are isomorphisms.  In particular, only **0** and **1** are groupoids.  I haven't worked out how this extends to infinite cardinalities, yet.
-
-If the background theory is NF, then they are set and **1** is smaller than **Set**.  I haven't yet worked out how **2** compares to **1**.  I need to brush up on my NF to see how NF and category theory interact.
-
-I am acutely aware that NF/NFU is regarded as career suicide by proffesional mathematicians, but, fortunately, I am a proffesional transport planner, not a mathematician.
-
-_Toby_:  Each of these categories is [[equivalence of categories|equivalent]] (but not isomorphic, except for **0**) to a category with exactly one object, which may be thought of as a [[monoid]].  Given a cardinal $N$, if you pick a set $X$ with $N$ elements, then this is (up to equivalence, again) the monoid of functions from $X$ to itself.  The invertible elements of this monoid form the symmetric group, with order $N!$ as you noticed.  Even for infinite cardinalities, we can say $N^N$ and $N!$, where we *define* these numbers to be the cardinalities of the sets of functions (or invertible functions) from a set of cardinality $N$ to itself.
-
-From a [[structural set theory|structural]] perspective, there\'s no essential difference between equivalent categories, so the fact that these categories (except for **0**) are equinumerous with all of **Set** is irrelevant; what matters is not the number of objects but the number of *isomorphism classes* of objects (and similarly for morhpisms).  That doesn\'t mean that your result that they are equinumerous with **Set** is meaningless, of course; it just means that it says more about how sets are represented in ZFC than about sets themselves.  So it should be no surprise if it comes out differently in NF or NFU, but I\'m afraid that I don\'t know enough about NF to say whether they do or not.
-
-By the way, every time you edit this page, you wreck the links to external web pages (down towards the bottom in the last query box).  It seems as if something in your editor is removing URLs.
-=--
 
 
 ## Cardinal arithmetic 
