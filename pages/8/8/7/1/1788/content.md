@@ -24,4 +24,4 @@ $$
 the left adjoint produces the required homotopy fibers
 
 
-now use that $i^\ast \circ i_!$
+now use that $i^\ast \circ i_! \;\simeq\; \pi_1 \times (-)$
