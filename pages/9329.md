@@ -22,7 +22,7 @@ A [[Kan fibration]] that at the same time is a [[weak homotopy equivalence]] is 
 Acyclic Kan fibrations are the [[acyclic fibrations]] in the [[classical model structure on simplicial sets]] $sSet_{Qu}$, hence those morphisms which have the [[right lifting property]] against [[monomorphisms]] (degreewise [[injections]]) of [[simplicial sets]].
 
 \begin{remark}\label{AcyclicKanFibrationsAreSurjective}
- In particular, this implies that acyclic Kan fibrations are always (in particular: degreewise) [[surjective]] in that they have right lifting against any [[empty bundle]] $\varnothing \xhookrightarrow{\;} S$ (as opposed to plain [[Kan fibrations]], see [this remark](horn#ZeroSimplexHasNoHorns)).
+ In particular, this implies that acyclic Kan fibrations are always (in particular: degreewise) [[surjective]] in that they have the [[right lifting property]] against any [[empty bundle]] $\varnothing \xhookrightarrow{\;} S$ (this is in contrast to plain [[Kan fibrations]], see [this remark](horn#ZeroSimplexHasNoHorns)).
 \end{remark}
 
 In fact:
