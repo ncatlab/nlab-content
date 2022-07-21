@@ -28,42 +28,6 @@ In many cases, the assumption of a global choice operator implies the [[axiom of
 
 However, in some [[foundations]] it seems to be possible to avoid this conclusion (if it is unwanted) by not requiring the choice operator to be extensional, i.e. it may not be the case that $A = B$ implies $\varepsilon x.A = \varepsilon x.B$.
 
-+-- {: .query}
-[[Mike Shulman]]: Is there a formal statement in some formal system along the lines of "a non-extensional choice operator does not imply AC"?
-
-_Toby_:  I don\'t know about a formal statement, but I can give you an example.
-
-Recall:  In Per Martin-L&#246;f\'s Intuitionistic Type Theory (and many other systems along similar lines), the basic notion axiomatised is not really that of a set (even though it might be called 'set') but instead a [[preset]] (or 'type').  Often one hears that the axiom of choice *does* hold in these systems, which doesn\'t imply classical logic due to a lack of quotient (pre)sets.  However, if we define a set to be a preset equipped with an equivalence predicate, then the axiom of choice fails (although we have [[COSHEP]] if presets come with an identity predicate).
-
-A lot of these systems (including Martin-L&#246;f\'s) use 'propositions as types', in which $\exists_{x:A} P(x)$ is represented as $\sum_{x:A} P(x)$, which comes equipped with an operation $\pi: \sum_{x:A} P(x) \to A$.  That is not going to get us our choice operator, but since a choice operator is constructively questionable anyway, then let\'s throw in excluded middle.  This is known to not imply choice, but we do have, for every preset $A$, an element $\varepsilon_A$ of $A \vee \neg{A}$, that is of $A \uplus \empty^A$.  It\'s not literally true that $\varepsilon_A$ is of type $A$, of course, but that would be unreasonable in a structural theory; what we do have is a fixed $\varepsilon_A$ such that, if $A$ is inhabited, then $\varepsilon_A = \iota_A(e)$ for some (necessarily unique) $e$ of type $A$ (where $\iota_A$ is the natural inclusion $A \to A \uplus \empty^A$), which I think should be considered good enough.  This is for presets (types), but every set has a type of elements, so that gets us our operator.
-
-How is this nonextensional?  We do have $\varepsilon_A = \varepsilon_B$ if $A = B$ (which is a meaningful statement to Martin-L&#246;f, albeit not a proposition exactly), but if $A$ and $B$ are given as subsets of some $U$, then we may well have $A = B$ as subsets of $U$ without $A = B$ in the sense of identity of their underlying (pre)sets.  In particular, if $f: U \to V$ is a surjection and $A$ and $B$ are the preimages of elements $x$ and $y$ of $V$, then $x =_V y$ will not imply that $\varepsilon_A = \varepsilon_B$, and the proof of the axiom of choice does not go through.  It *will* go through if $x$ and $y$ are identical, that is if $x = y$ in the underlying preset of $V$, so again we do get choice for presets (again), but not for sets.
-
-I\'m not *certain* that a nonextensional global choice operator won\'t imply excluded middle in some other way, but I don\'t see how it would.  You\'d want to do something with the idea that $\varepsilon_A$ always exists but belongs to $A$ if and only if $A$ is inhabited, but I don\'t see how to parse it (just by assuming that it exists) to decide the question.
-
-[[Mike Shulman]]: That's a very nice explanation/example, and it did help me to understand better what's going on; thanks!  (Did you mean to say "excluded middle" and not "AC" in your final paragraph?)  What I would really like, though, is a statement like "the addition of a nonextensional global choice operator to ____ set theory is conservative" (i.e. doesn't enable the proving of any new theorems that doen't refer explicitly to the choice operator).  Of course I am coming from [this comment](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026817), wondering whether what you suggested really is a way to get a choice operator without implying the axiom of choice.
-
-_Toby_:  Yeah, I really did mean to say 'excluded middle'; remembering that comment, I assume that the real question is whether the thing is OK for a constructivist.  I just argued $\mathbf{ITT} + EM \vDash CO$, and I know the result $\mathbf{ITT} + EM \not\vDash AC$, so I conclude $\mathbf{ITT} + CO \not\vDash AC$; but I don\'t know $\mathbf{ITT} + CO \not\vDash EM$ for certain.  I certainly don\'t have $\mathbf{ITT} + CO$ conservative over $\mathbf{ITT}$, nor with any other theory (other than those that already model $CO$, obviously).
-
-[[Mike Shulman]]: Where should I look for a proof that $\mathbf{ITT} + EM$ doesn't imply AC?
-
-_Toby_:  I\'m not sure, it\'s part of my folk knowledge now.  Probably Michael J. Beeson\'s _Foundations of Constructive Mathematics_ is the best bet.  I\'ll try to get a look in there myself next week; I can see that it\'s not exactly obvious, and perhaps my memory is wrong now that I think about it.
-
-[[Mike Shulman]]: I'm trying to prove the sort of statement I want over at [[SEAR+?]].
-
-_Toby_:  No, I can\'t get anything at all out of Beeson (or other references) about full AC (for types equipped with equivalence relations) in $\mathbf{ITT}$.
-
-_Harry Gindi_: I have references for this discussion that should settle the issue at hand:
-
-Bell, J. L., 1993a. 'Hilbert's epsilon-operator and classical logic', Journal of Philosophical Logic, 22:1-18
-
-Bell, J. L., 1993b. 'Hilbert's epsilon operator in intuitionistic type theories', Mathematical Logic Quarterly 39:323-337
-
-Meyer Viol, W., 1995a. 'A proof-theoretic treatment of assignments', Bulletin of the IGPL, 3:223-243
-
-_Toby_:  Thanks, Harry!  Now I just have to find these journals at the library.
-=--
-
 Like the [[axiom of choice]], the existence of a global choice operator is consistent with the other axioms of most foundations.  For example, in ZF, the [[constructible universe]] (which models $ZF + (V=L)$, the [[axiom of constructibility]]) admits a natural classical [[well-ordering]] of the entire universe, giving rise to a naturally defined global choice operator (namely, $\varepsilon x.P$ = the smallest $x$ such that $P$ in the global well-ordering).
 
 On the other hand, a global choice operator is inconsistent with the [[univalence axiom]] of [[homotopy type theory]].  For univalence requires that all operations on the [[type of types]] must be natural with respect to equivalences, which no global choice operator can be.
