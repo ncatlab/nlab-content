@@ -192,7 +192,7 @@ $[$[Maldacena 97](AdS-CFT#Maldacena97a)$]$, he had three examples: $AdS_4 \times
 
 (15:05) But of course, in order to do that, you have to have some good ideas. We need more good ideas.
 
-**Q**: In that same interview with Farmelo, you said: "In a certain sense, and this is not a popular statement, I think it's premature to be asking: 'What are the empirical consequences?', because it's not yet in a mature enogh state, where we can sensibly make falsifiable predictions." Would you like to expand on that?
+**Q**: In that same interview with Farmelo, you said: "In a certain sense, and this is not a popular statement, I think it's premature to be asking: 'What are the empirical consequences?', because it's not yet in a mature enough state, where we can sensibly make falsifiable predictions." Would you like to expand on that?
 
 **Duff**:
 
@@ -237,7 +237,7 @@ $[$[Banks 19](swampland#Banks19)$]$. Do you think it's possible that an actual f
 
 (19:25) It certainly does, because in the absence of empirical data, what do we have to guide us? We have consistency as our criterion.
 
-(19:37) Whatever our theories are, they must be, first of all, mathematically consistent -- no self-conradictions -- and they must be consistent with what we already know to be true. 
+(19:37) Whatever our theories are, they must be, first of all, mathematically consistent -- no self-contradictions -- and they must be consistent with what we already know to be true. 
 
 (19:51) This is, in a way, a straightjacket, that constrains our speculations and our projections where the theory is going to go.
 
