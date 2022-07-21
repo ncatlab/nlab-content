@@ -173,6 +173,7 @@ $$
     \pi_1(\mathscr{X}) \times Cof
     \,.
   $$
+  Hence ...
 \end{proof}
 
 
