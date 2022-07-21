@@ -410,7 +410,7 @@ on those [[profunctor]]s with a [[right adjoint]] in $\mathcal{V}$[[Prof]].
 
 ## Examples 
 
-* When $\mathcal{V} = \mathbf{Set}$, a $\mathcal{V}$-category is an ordinary category. The Cauchy completion of an ordinary category is its _idempotent completion_, or [[Karoubi envelope]]. This also holds when $\mathcal{V} = \mathbf{Cat}$ or $\mathcal{V} = \mathbf{sSet}$, or more generally whenever $\mathcal{V}$ is a cartesian [[cosmos]] where the terminal object is [[tiny]].
+* When $\mathcal{V} = \mathbf{Set}$, a $\mathcal{V}$-category is an ordinary category. The Cauchy completion of an ordinary category is its _idempotent completion_, or [[Karoubi envelope]]. This also holds when $\mathcal{V} = \mathbf{Cat}$ or $\mathcal{V} = \mathbf{sSet}$, or more generally whenever $\mathcal{V}$ is a cartesian [[cosmos]] where the terminal object is [[tiny]] by Corollary 3.16 of [Lack and Tendas](#LT2022).
 
 * When $\mathcal{V} = [0,\infty]$ is the extended nonnegative reals ordered by $\geq$ and with $+$ as monoidal product, $\mathcal{V}$-categories are generalized metric spaces. The Cauchy completion is the usual completion under _Cauchy nets_ or _Cauchy filters_.
 
@@ -659,7 +659,9 @@ Further references include for instance
 
 * R. Walters, _Sheaves on sites as Cauchy-complete categories, J. Pure Appl. Algebra 24 (1982) 95-102
 
-* {#NST2020} Branko Nikolić, [[Ross Street]], Giacomo Tendas, _Cauchy completeness for DG-categories_, [arxiv](https://arxiv.org/abs/2012.10157), 2020
+* {#NST2020} Branko Nikolić, [[Ross Street]], Giacomo Tendas, _Cauchy completeness for DG-categories_, Theory and Applications of Categories, 37(28):940-963, 2021 [link](http://www.tac.mta.ca/tac/volumes/37/28/37-28abs.html).
+
+* {#LT2022} Stephen Lack, Giacomo Tendas, _Flat vs. filtered colimits in the enriched context_, Advances in Mathematics, 404(A):108381, 2022. Also [arXiv](https://arxiv.org/abs/2107.08612).
 
 Cauchy completion of [[internalization|internal]] [[prosets]] is discussed in 
 
