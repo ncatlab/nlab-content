@@ -1335,9 +1335,9 @@ A nice introduction and survey is provided in the notes
 * [[Dan Dugger]], _Sheaves and homotopy theory_, 1998 ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf), [[DuggerSheavesAndHomotopyTheory.pdf:file]])
 
 
-Detailed discussion of the injective model structures on simplicial presheaves is in
+Detailed discussion of the injective model structures on simplicial presheaves:
 
-* {#JardineLecture} [[John F. Jardine]], _Simplicial presheaves_, Journal of Pure and Applied Algebra 47 (1987), 35-87 ([pdf](https://core.ac.uk/download/pdf/82485559.pdf))
+* {#JardineLecture} [[John F. Jardine]], _Simplicial presheaves_, Journal of Pure and Applied Algebra 47 (1987), 35-87 ([pdf](http://math.uchicago.edu/~amathew/simplicialpresheaves.pdf))
 
 * [[John F. Jardine]], _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3 (2), 2001, pp.361--384 ([euclid:hha/1139840259](https://projecteuclid.org/euclid.hha/1139840259))
 
