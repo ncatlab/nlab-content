@@ -43,11 +43,6 @@ In either case the same result can be obtained by adding in $5$ or $(5)_i$ in pl
 This is highly doubtful as a property of knowledge when applied to human beings. If an agent is ignorant of the truth of an assertion, it is very often unlikely that (s)he knows this ignorance.
 =--
 
-+-- {: .query}
-[[Tim Porter]] It would be good to have some discussion on this axiom.  (Donald Rumsfeld's known unknowns has been worked to death, (although sometimes quite well done as [here](http://wn.com/modal_logic)), so please... something worth saying :-)).  This might stray over to a new entry as I would hope to see what there is to say especially looking to models of 'why' an agent 'knows' something.  My query is whether that aspect has been explored and if so where. My feeling is that in S5 (and elsewhere) the reasons may give a groupoid-like structure (see below about the Kripke semantics) for the geometric semantics.
-=--
-
-
 ## Equivalence frames
 
 With $T_{(m)}$, the models corresponded to frames where each relation $R_i$ was reflexive. With $S4_{(m)}$, the frames needed to be transitive as well.  Here we consider the class $\mathcal{S}5(m)$ of models with frames, where each $R_i$ is an equivalence relation.  These are sometimes called _equivalence frames_.
