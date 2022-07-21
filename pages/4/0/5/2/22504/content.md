@@ -91,7 +91,7 @@ a *semistandard Young tableau* $T$ *of shape* $\lambda$
 
 \end{definition}
 
-\begin{remark}
+\begin{remark}\label{RemarkOnSSYTAxioms}
 Beware that in a semistandard Young tableau (Def. \ref{SemistandardYoungTableau}):
 
 * the label $T_{1,  1}$ in the top left box is *not required* to be 1; 
@@ -101,20 +101,21 @@ Beware that in a semistandard Young tableau (Def. \ref{SemistandardYoungTableau}
 \end{remark}
 
 \begin{definition}\label{StandardYoungTableau}
-**([[standard Young tableau]])** \linebreak
-A [[semistandard Young tableau]] (Def. \ref{SemistandardYoungTableau}) is called a [[standard Young tableau]] if, in addition to (eq:RowsAreWeaklyIncreasing) and (eq:ColumnsAreStrictlyIncreasing), it satisfies the following equivalent conditions:
-
-* every element of $\big\{1, \cdots, n\}$ appears exactly once;
-
-* the following two conditions hold:
-
-  1. not just the columns but also the rows are strictly increasing,
-
-  1. the last label is $T_{rows(\lambda), \lambda_{rows(\lambda)}} = n$ (eq:NumberOfBoxes)
-
-(Which implies that the first label of a standard Young tableau must be $T_{1,1} = 1$.)
-
+**([[standard Young tableau]])** 
+\linebreak
+A [[semistandard Young tableau]] (Def. \ref{SemistandardYoungTableau}) 
+of $n$ boxes (eq:NumberOfBoxes)
+is called a *[[standard Young tableau]]* if every element of $\big\{1, \cdots, n\}$ appears exactly once as a label.
 \end{definition}
+
+\begin{remark}\label{RemarkOnSYTAxioms}
+In particular, in a standard Young tableau (Def.\ref{StandardYoungTableau}) we have that:
+
+1. not just the columns but also the rows are strictly increasing (cf. (eq:RowsAreWeaklyIncreasing)),
+
+1. the first label of a standard Young tableau must be $T_{1,1} = 1$ (cf. Rem. \ref{RemarkOnSSYTAxioms}).
+
+\end{remark}
 
 
 
