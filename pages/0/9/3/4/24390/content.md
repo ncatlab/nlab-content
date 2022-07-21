@@ -2,39 +2,46 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Algebraic quantum field theory
-+--{: .hide}
-[[!include AQFT and operator algebra contents]]
-=--
-#### Functorial quantum field theory
-+--{: .hide}
-[[!include functorial quantum field theory - contents]]
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
 =--
 #### Gravity
 +--{: .hide}
 [[!include gravity contents]]
 =--
-#### Physics
+#### Algebraic quantum field theory
 +--{: .hide}
-[[!include physicscontents]]
+[[!include AQFT and operator algebra contents]]
 =--
-#### String theory
-+-- {: .hide}
-[[!include string theory - contents]]
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
 =--
 =--
 =--
+
+The meeting
+
+* **[Strings 2022](https://indico.cern.ch/event/1085701)** 
+
+  Vienna, Austria. 
+
+  18-22 July (2022)
+
+  [indico.cern:1085701](https://indico.cern.ch/event/1085701)
+
+was an installment of the annual [[string theory]]-conference, on the first two days with some emphasis on [[quantum gravity]]-topics via [[holographic principle|holography]]/[[AdS-CFT duality]] (such as [[black hole entropy]] [[black holes in string theory|in string theory]]).
+
 
 
 #Contents#
 * table of contents
 {:toc}
 
-## Overview
-
-*[Strings 2022](https://indico.cern.ch/event/1085701)* is a [[theoretical physics]] conference held in Vienna, Austria between 18 July and 22 July 2022. This conference consists of a variety of subjects at the frontier of theoretical physics, such as [[conformal field theory]], [[holography]], [[black hole]] physics, [[string theory]], and other topics in [[quantum field theory]] and [[quantum gravity]]. The website for this conference could be found [here](https://indico.cern.ch/event/1085701/). 
 
 ## Talks
+
 
 ### 18 July
 
@@ -73,8 +80,9 @@
 
   > on realistic values of the [[cosmological constant]] in [[string theory]]
 
-### 19 July
 
+
+### 19 July
 
 * [[Andreas Karch]], *Randall-Sundrum Branes and Holography*, talk at *[[Strings 2022]]* &lbrack;[indico:4940841](https://indico.cern.ch/event/1085701/contributions/4940841), [slides](https://indico.cern.ch/event/1085701/contributions/4940841/attachments/2482053/4261118/Slides_Karch.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=19f3c464-448d-44ca-907b-91a1bfa5d0ce)&rbrack;
 
@@ -115,8 +123,23 @@
   > on [[black hole entropy]]
 
 
+
+### 20 July
+
+* [[Daniel Waldram]], *Fluxes, holography and uses of Exceptional Generalized Geometry* &lbrack;[indico:4940880](https://indico.cern.ch/event/1085701/contributions/4940880), [slides](https://indico.cern.ch/event/1085701/contributions/4940880/attachments/2482886/4262576/Daniel%20Waldram%20Strings2022-waldram.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=e222a3a9-ebf4-445c-ada0-f7b1d592d908) &rbrack;
+
+  > on generalized [[G-structures]] and [[exceptional generalized geometry]] of [[flux compactifications]] and in [[AdS/CFT]] 
+
 (...)
 
+
+### 21 July
+
+* [[Umut Gürsoy]], *Recent developments in gauge-gravity duality applied to quantum many-body systems* &lbrack;[indico:4940863](https://indico.cern.ch/event/1085701/contributions/4940863), [pdf](https://indico.cern.ch/event/1085701/contributions/4940863/attachments/2483542/4263813/Slides_Gursoy.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=69bc5a22-b77a-4830-97b8-49c7d6aa1c29) &rbrack;
+
+  > on applications of [[AdS/CFT duality]] to many-body [[quantum systems]], such as to high-$T_c$ [[superconductivity]] ([[AdS/CMT correspondence]]) and to [[QCD]] ([[AdS/QCD correspondence]])
+
+(...)
 
 category: reference
 
