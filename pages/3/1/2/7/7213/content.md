@@ -67,7 +67,7 @@ This is reviewed in ([GLSW, section 2](#GLSW)).
 
 ### General
 
-Original articles include
+Original articles:
 
 * K. Koepsell, [[Hermann Nicolai]], [[Henning Samtleben]], _An exceptional geometry for d=11 supergravity?_, Class. Quant. Grav.17:3689-3702, 2000 ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034))
 
@@ -94,11 +94,16 @@ Original articles include
 
 * [[David Baraglia]], _Exceptional generalized geometry and $N = 2$ backgrounds_ ([pdf](http://mitchell.physics.tamu.edu/Conference/GeneralizedGeometries/Mon-1-Grana.pdf))
 
-Reviews include
+Review:
 
 * Daniel Persson, _Arithmetic and Hyperbolic Structures in String Theory_ ([arXiv:1001.3154](http://arxiv.org/abs/1001.3154))
 
 * Nassiba Tabti, _Kac-Moody algebraic structures in supergravity theories_ ([arXiv:0910.1444](http://arxiv.org/abs/0910.1444))
+
+* [[Daniel Waldram]], *Fluxes, holography and uses of Exceptional Generalized Geometry*, talk at *[[Strings 2022]]*  &lbrack;[indico:4940880](https://indico.cern.ch/event/1085701/contributions/4940880), [slides](https://indico.cern.ch/event/1085701/contributions/4940880/attachments/2482886/4262576/Daniel%20Waldram%20Strings2022-waldram.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=e222a3a9-ebf4-445c-ada0-f7b1d592d908) &rbrack;
+
+  > on generalized [[G-structures]] and [[exceptional generalized geometry]] of [[flux compactifications]] and in [[AdS/CFT]] 
+
 
 Relation to [[Borcherds superalgebras]] is surveyed and discussed in 
 
