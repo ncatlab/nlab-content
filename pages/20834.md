@@ -172,3 +172,5 @@ Combined argument that experimental data disfavours both a [[cosmological consta
 
 
 [[!redirects Witten's dark fantasy]]
+
+[[!redirects Witten's Dark Phantasy]]
