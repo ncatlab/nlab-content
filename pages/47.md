@@ -1,4 +1,3 @@
-
 # General Discussion
 
 Below we used to discuss general issues concerning the $n$Lab. But it seems that we found a consensus that _discussion_ (as opposed to incremental work on entries) is best hosted at the blog, not the wiki. So now you are encouraged to post any messages concerning the $n$Lab community to:
@@ -922,4 +921,3 @@ category: meta
 
 [[!redirects general discussion]]
 [[!redirects General discussion]]
-[[!redirects General Discussion]]
