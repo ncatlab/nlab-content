@@ -1,3 +1,4 @@
+
 ### September 2012 ###
 
 Wow, time flies! I'm now a Ph.D. student at UT Austin, and you can find some of my writing and stuff on my [department home page](http://www.ma.utexas.edu/users/afenyes). Things I'm thinking about these days include...
