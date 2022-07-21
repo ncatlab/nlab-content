@@ -173,7 +173,7 @@ $$
     \pi_1(\mathscr{X}) \times Cof
     \,.
   $$
-  Hence ...
+  Hence ... hm, so it only works if $\pi_1(\mathscr{X})$ is cofibrant, which is rarely the case...
 \end{proof}
 
 
