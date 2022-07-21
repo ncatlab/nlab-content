@@ -156,7 +156,7 @@ The functor $U$ of def. \ref{ForgetfulFromCatToSemicat} has a [[left adjoint]], 
 
 ### Transitive relations
 
-A [[transitive relation]] is a semicategory [[enriched category|enriched]] on [[truth values]], or a semicategory $C$ where thete is at most one morphism from every object $a$ to object $b$ in $C$
+A [[transitive relation]] is a semicategory [[enriched category|enriched]] on [[truth values]], or a semicategory $C$ where there is at most one morphism from every object $a$ to object $b$ in $C$
 
 ### Nerves and semi-simplicial sets
 
