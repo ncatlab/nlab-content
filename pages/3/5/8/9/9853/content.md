@@ -1,5 +1,16 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A _multifunction_ is a [[function]] of several [[variables]], hence equivalently an ordinary [[function]] on a [[cartesian product]].  [[set|Sets]] and multifunctions form a [[multicategory]].
+
+## Related concepts
+
+* [[multifunctor]]
+
 
 
 [[!redirects multifunction]]
