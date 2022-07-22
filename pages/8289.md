@@ -65,6 +65,8 @@ Famous bifunctors are
 
   [[end]]/[[coend]]
 
+* [[multifunctor]]
+
 [^fine]: Outside of certain computer science contexts, it is not clear that the term 'bifunctor' is used frequently nowadays, even for the sense of a functor of two variables. It is used more frequently in older texts. 
 
 [[!redirects bifunctor]]
