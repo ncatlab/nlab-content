@@ -15,5 +15,9 @@ On [[M5-branes]] and their [[quantum anomaly]]-cancellation:
 
 * {#BBMN19b} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], [[Emily Nardoni]], _Anomalies of QFTs from M-theory and Holography_, J. High Energ. Phys. 2020, 125 (2020) ([arXiv:1910.04166](https://arxiv.org/abs/1910.04166))
 
+On [[supersymmetry breaking]] of [[D=4 N=2 SYM]] to [[confinement|confining]] [[QCD]] with [[adjoint representation|adjoint]] [[fermions]]:
+
+* [[Emily Nardoni]], *From $\mathcal{N} = 2$ Supersymmetry to adjoint QCD*, talk at *[[Strings 2022]]* &lbrack;[indico:4940894](https://indico.cern.ch/event/1085701/contributions/4940894), [pdf](https://indico.cern.ch/event/1085701/contributions/4940894/attachments/2484206/4265102/Slides_Nardoni.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=035dfeb0-ef40-4530-8f20-01e5b890f43d)&rbrack;
+
 
 category:people
