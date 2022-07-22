@@ -136,7 +136,7 @@ The most basic property of super convex spaces is
 Every element $\mathbf{p} \in \Delta_{\mathbb{N}}$ has a unique representation as a countable affine sum $\mathbf{p} = \sum_{i \in \mathbb{N}} p_i \delta_i$, and hence a countably affine map $m:\Delta_{\mathbb{N}} \rightarrow A$ is uniquely determined by where it maps each Dirac measure $\delta_i$.  Thus  $i \mapsto m(\delta_i)$  specifies a sequence in $A$.  
 \end{proof}
 
-\begin{lemma} \label{NS} A function $f: \mathbb{N} \rightarrow \mathbb{N}$ is a countably affine map if and only if $f$ is monotone, $i \lt j$ implies $f(i) \le f(j)$.
+\begin{lemma} A function $f: \mathbb{N} \rightarrow \mathbb{N}$ is a countably affine map if and only if $f$ is monotone, $i \lt j$ implies $f(i) \le f(j)$.
 \end{lemma}
 \begin{proof}
 Necessary condition.  Suppose that $f: \mathbb{N} \rightarrow \mathbb{N}$ is a countably affine map.  Let $i \lt j$. By the super convex space structure on $\mathbb{N}$ it follows, for all $\alpha \in (0,1)$, that  $\alpha i + (1-\alpha) j = i$ .  If $f$ is not monotone then there exist a pair of elements $i,j \in \mathbb{N}$ such that $i \lt j$ with $f(j) \lt f(i)$.  This implies, for all $\alpha \in (0,1)$, that $f(j)= \alpha f(i) + (1-\alpha) f(j) \lt   f(\alpha i + (1-\alpha) j ) =f(i)$, which contradicts our hypothesis that $f$ is a countably affine map.
@@ -152,16 +152,30 @@ where the last equality follows from the definition of the super convex space st
 
 
 The category $\mathbf{SCvx}$ has all limits and colimits.  Furthermore it is a symmetric monoidal closed category under the tensor product. The proof of the latter condition follows the proof by Meng, replacing finite sums with countable sums.
+From the alternative definition it is clear that the subcategory consisting of the single object $\Delta_{\mathbb{N}}$ is a dense subcategory of $\mathbf{SCvx}$.
 
 
   An ideal in a super convex space $A$ is a subset $\mathcal{I}$ such that whenever $a_0 \in \mathcal{I}$ and $\sum_{i \in \mathbb{N}}p_i a_i$ is a countable affine sum with the coefficient of $a_0$ nonzero then $\sum_{i \in \mathbb{N}}p_i a_i \in \mathcal{I}$.   Ideals are useful for defining functors to or from $\mathbf{SCvx}$.
 
 ## Examples
 \begin{example}
+As an example of the utility of ideals in a super convex space we note that for $\mathcal{G}$ the [[Giry monad]] the measurable space $\mathcal{G}(X)$, with the smallest $\sigma$-algebra such that the evaluation maps $ev_U: \mathcal{G}(X) \rightarrow [0,1]$ are measurable for every measurable set $U$ in $X$, has a super convex space structure 
+defined on it pointwise.
+
+Note that if  $X$ is any measurable space  the maximal proper ideals of $\mathcal{G}{X}$ are of the form $ev_{U}^{-1}( (0,1])$ or $ev_U^{-1}([0,1))$ for $U\ne X$ a nonempty measurable set in $X$. 
+
+To prove this, note that  both $(0,1]$ and $[0,1)$ are ideals in the super convex space $[0,1]$, with the natural super convex space structure, and it follows that $ev_{U}^{-1}( [0,1))$ and $ev_U^{-1}((0,1])$ are ideals in $\mathcal{G}{X}$. (The preimage of an ideal under a countably affine map is an ideal in the domain space. The proof is the standard argument for ideals in any category.)  Consider the ideal $ev_U^{-1}( [0,1))$.  To show that this is a maximal proper ideal suppose that $\mathcal{I}$ is another ideal of $\mathcal{G}{X}$ such that $ev_U^{-1}( [0,1)) \varsubsetneqq  \mathcal{I}$.  Every element $P \in \mathcal{I}$ which is not in $ev_U^{-1}([0,1))$ has the defining  property that $P(U^c)=1$.    Now let $Q \in \mathcal{G}{X}$.  If  $Q \notin \mathcal{J}$ then $Q(U^c) \ne 1$ which implies  $Q \in ev_U^{-1}( [0,1)) \varsubsetneqq J$ which is self-contradictory.  Thus $\mathcal{J}$ must be all of $\mathcal{G}{X}$ which shows $ev_U^{-1}([0,1))$ is a maximal (proper) ideal.
+The argument that the ideal $ev_U^{-1}( (0,1])$ is a maximal ideal is similiar except we replace the condition $P(U^c)=1$ in the above proof with $P(U)=0$.
+
+If we restrict to the category of standard measurable spaces then every object has a countable generating basis and it is then clear that every ideal in $\mathcal{G}(X)$ is a  countable intersection of maximal ideals, and hence measurable.
+\end{example}
+
+\begin{example}
 A fundamental super convex space is the set $\mathbb{N}$ with the super convex space structure defined, for every sequence $\mathbf{s}: \mathbb{N} \rightarrow \mathbb{N}$  by 
 \begin{equation}
 \int_{\mathbb{N}} \mathbf{s} d\mathbf{p} = \inf_i \{\mathbf{s}_i \, | \, p_i \gt 0 \}
 \end{equation}
+That structure on $\mathbb{N}$ shows that the function $\epsilon: \mathcal{G}(\mathbb{N}) \rightarrow \mathbb{N}$ defined by $\sum_{i \in \mathbb{N}} p_i \delta_i \mapsto \inf_i \{i | p_i\gt 0\}$ is a countably affine map.
 \end{example}
 
 \begin{example} 
@@ -171,14 +185,6 @@ The one point compactification of the real line $\mathbb{R}_{\infty}$, with one 
 \end{example}
 
 \begin{example} A pathological space, useful for counterexamples, is given by the closed unit interval with the super convex space structure defined by the infimum function, $\sum_{i \in \mathbb{N}} p_i u_i := inf_i \{ u_i | p_i \gt 0\}$.
-\end{example}
-
-\begin{example}
-The only ideals of the super convex space $\mathbb{N}$ are the principal ideals,
-\begin{equation}
-\{0\} \subset \{0,1\} \subset \{0,1,2\} \subset \ldots
-\end{equation}
-and $\mathbb{N}$ has no maximal ideals.  
 \end{example}
  
 \begin{example}
@@ -207,6 +213,12 @@ For purposes of constructing models of complex systems using super convex spaces
 
 * [[Tobias Fritz]], Convex spaces I: definition and examples. 
 [arXiv/0903.5522](http://arxiv.org/abs/0903.5522)
+
+The term strong convex spaces was employed in the text
+
+* [[George Mackey]], _The Mathematical Foundations of Quantum Mechanics_ A
+Lecture-note Volume, ser. The mathematical physics monograph series.
+Princeton university, 1963
 
 [[!redirects Super convex space]]
 [[!redirects super convex spaces]]
