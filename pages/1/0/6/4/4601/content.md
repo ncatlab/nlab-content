@@ -23,6 +23,8 @@ $$
       f = g
 $$
 
+Another synonym is [[(0,1)-category]].
+
 
 ## Properties
 
@@ -38,7 +40,7 @@ A [[poset]] is a thin category. In particular so are [[lattice|(semi)lattices]],
 
 * [[setoid]]
 
-* [[specializaton order]]
+* [[specialization order]]
 
 * [[separation axioms in terms of lifting properties]]
 
