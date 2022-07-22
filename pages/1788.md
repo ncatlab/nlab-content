@@ -1,4 +1,9 @@
 
+
+[[relation between preorders and (0,1)-categories|here]]
+
+
+
 Let 
 
 * $G$ a [[finite group]], with
