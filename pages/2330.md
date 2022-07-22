@@ -36,7 +36,7 @@ Notice that
 +-- {: .num_prop}
 ###### Proposition
 
-An $(0,1)$-category is [[equivalence of categories|equivalently]] a [[proset]] (hence a [[poset]]).
+An $(0,1)$-category is [[equivalence of categories|equivalently]] a [[proset]] ([[relation between preorders and (0,1)-categories|hence]] a [[poset]]).
 
 =--
 
