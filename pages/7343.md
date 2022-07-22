@@ -93,14 +93,15 @@ The [[confinement]]-phenomenon was observed in
 
 * {#SeibergWitten94} [[Nathan Seiberg]], [[Edward Witten]], _Monopole Condensation, And Confinement In N=2 Supersymmetric Yang-Mills Theory_,  	Nucl.Phys.B426:19-52,1994; Erratum-ibid.B430:485-486,1994 ([arXiv:hep-th/9407087](http://arxiv.org/abs/hep-th/9407087))
   
-
-Reviews of that include
+Reviews of this confinement mechanism:
 
 * Alexei Yung, _What Do We Learn about Confinement from the Seiberg-Witten Theory_ ([arXiv:hep-th/0005088](http://arxiv.org/abs/hep-th/0005088))
 
 * {#Albertsson03} Cecilia Albertsson, _Superconformal D-branes and moduli spaces_ ([arXiv:hep-th/0305188](http://arxiv.org/abs/hep-th/0305188))
 
 * [[Yang-Hui He]], _Lectures on D-branes, Gauge Theories and Calabi-Yau Singularities_, International Summer School in Mathematical Physics ([arXiv:hep-th/0408142](https://arxiv.org/abs/hep-th/0408142))
+
+* [[Emily Nardoni]], *From $\mathcal{N} = 2$ Supersymmetry to adjoint QCD*, talk at *[[Strings 2022]]* &lbrack;[indico:4940894](https://indico.cern.ch/event/1085701/contributions/4940894), [pdf](https://indico.cern.ch/event/1085701/contributions/4940894/attachments/2484206/4265102/Slides_Nardoni.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=035dfeb0-ef40-4530-8f20-01e5b890f43d)&rbrack;
 
 For references on [[wall crossing]] of [[BPS states]] see the references given there.
 
@@ -174,7 +175,7 @@ The corresponding dual theory under [[AdS-CFT duality]] is discussed in
 
 Discussion of construction of just [[N=1 D=4 super Yang-Mills theory]] this way is in 
 
-* Ibrahima Bah, Christopher Beem, Nikolay Bobev, Brian Wecht, _Four-Dimensional SCFTs from M5-Branes_ ([arXiv:1203.0303](http://arxiv.org/abs/1203.0303))
+* [[Ibrahima Bah]], Christopher Beem, Nikolay Bobev, Brian Wecht, _Four-Dimensional SCFTs from M5-Branes_ ([arXiv:1203.0303](http://arxiv.org/abs/1203.0303))
 
 
 ### Relation to 3-branes in M5-branes (M5 self-intersections)
