@@ -136,7 +136,7 @@ In the right-transferred situation (Def. \ref{RightTransferredModelStructure}), 
 
 then every morphism in $D$ factors as a cofibration followed by a trivial fibration, and as an anodyne map followed by a fibration.  
 
-Moreover, if every anodyne map is a weak equivalence so that the transferred model structure on $D$ exists (by Thm. \ref{NeccSuff}), then it is is itself cofibrantly generated, and for $I$ (resp. $J$) a set of [[generating cofibrations]] (resp. acyclic cofibrations) in $C$, the image set $F(I)$ (resp. $F(J)$) forms a set of generating cofibrations (resp. acyclic cofibrations) in $D$.
+Moreover, if every anodyne map is a weak equivalence so that the transferred model structure on $D$ exists (by Thm. \ref{NeccSuff}), then it is itself cofibrantly generated, and for $I$ (resp. $J$) a set of [[generating cofibrations]] (resp. acyclic cofibrations) in $C$, the image set $F(I)$ (resp. $F(J)$) forms a set of generating cofibrations (resp. acyclic cofibrations) in $D$.
 \end{proposition}
 
 \begin{proof}
