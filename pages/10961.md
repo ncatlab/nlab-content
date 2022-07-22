@@ -158,9 +158,13 @@ The approach to [[wave function collapse]] via macroscopic decoherence is review
 * Wojciech H. Zurek, _Decoherence, einselection, and the quantum origins of the classical_, Rev. Mod. Phys. 75, 715--775 (2003) [quant-ph/0105127](http://arxiv.org/abs/quant-ph/0105127) [doi](http://dx.doi.org/10.1103/RevModPhys.75.715)
 
 
-Discussion specifically with an eye towards the [[quantum measurement]] problem is also in 
+Discussion specifically with an eye towards the [[quantum measurement]] problem is also in:
 
 * {#Wallace07} [[David Wallace]], _The Quantum Measurement Problem: State of Play_ ([arXiv:0712.0149](http://arxiv.org/abs/0712.0149))
+
+See also:
+
+* [[Arnold Neumaier]], *Coherent Quantum Physics: A Reinterpretation of the Tradition*, 1st edition, De Gruyter (2019) &lbrack;ISBN:9783110667295, [doi:10.1515/9783110667387](https://doi.org/10.1515/9783110667387)&rbrack;
  
 
 One quote above is taken from the first paragraphs of
