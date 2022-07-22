@@ -43,6 +43,8 @@ satisfying the condition (really a [[universal property]])
 (x \wedge a) \leq b \qquad \text{if and only if} \qquad x \leq (a \Rightarrow b)
 \]
 
+In other words, $a \Rightarrow {-}$ must be [[right adjoint]] to ${-} \wedge a$.
+
 \end{definition}
 
 This is equivalent to the following definition.
@@ -73,6 +75,8 @@ The definition of Heyting algebra may be recast into purely [[algebraic theory|e
 A Heyting algebra [[homomorphism]] is a homomorphism of the underlying [[lattice]]s that preserve $\Rightarrow$.  Heyting algebras and their homomorphisms form a [[concrete category]] [[HeytAlg]].
 \end{definition}
 
+If one relaxes the requirement that $\leq$ be antisymmetric, so that instead of a [[poset]] $L$ is only a [[preorder]], the result is a [[Heyting prealgebra]].
+
 
 ## Properties
 
@@ -85,6 +89,8 @@ That is, finite meets distribute over finite joins and vice versa.
 As discussed at [[distributive lattice]], it suffices to prove the nontrivial direction of either of the two (dual) binary distributivity laws, e.g.
 $ x \wedge (y \vee z) \leq (x \wedge y) \vee (x \wedge z) $.
 This is a straightforward [[exercise]] applying the universal property \eqref{UniversalProperty}.
+
+More abstractly: the distributivity law $x \wedge (y \vee z) = (x \wedge y) \vee (x \wedge z)$ says precisely that $x \wedge {-}$ preserves binary joins, which it does because it has a [[right adjoint]] (namely $x \Rightarrow {-}$) and therefore [[left adjoints preserve colimits|preserves all colimits]].
 \end{proof}
 
 The relation of **modus ponens** is immediate from
