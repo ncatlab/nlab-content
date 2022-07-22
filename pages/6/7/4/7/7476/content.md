@@ -3,6 +3,8 @@
 
 **[[(0,1)-category]]**
 
+* [[relation between preorders and (0,1)-categories]]
+
 * [[proset]], [[partially ordered set]]  ([[directed set]], [[total order]], [[linear order]])
 
   * [[top]], [[true]], 
@@ -47,5 +49,4 @@
 
 * [[Stone duality]]
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/%280%2C1%29-category+theory+-+contents)</div>
 
