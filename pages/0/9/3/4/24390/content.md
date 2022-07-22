@@ -141,5 +141,14 @@ was an installment of the annual [[string theory]]-conference, on the first two 
 
 (...)
 
+### 22 July
+
+
+* [[Emily Nardoni]], *From $\mathcal{N} = 2$ Supersymmetry to adjoint QCD*, talk at *[[Strings 2022]]* &lbrack;[indico:4940894](https://indico.cern.ch/event/1085701/contributions/4940894), [pdf](https://indico.cern.ch/event/1085701/contributions/4940894/attachments/2484206/4265102/Slides_Nardoni.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=035dfeb0-ef40-4530-8f20-01e5b890f43d)&rbrack;
+
+  > on [[supersymmetry breaking]] of [[D=4 N=2 SYM]] to [[confinement|confining]] [[QCD]] with [[adjoint representation|adjoint]] [[fermions]]:
+
+(...)
+
 category: reference
 
