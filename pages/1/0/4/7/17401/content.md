@@ -48,8 +48,7 @@ One can of course additionally ask that a relevance monoidal category be [[close
 
 ## References
 
-* {#Jacobs94} B. Jacobs, _Semantics of Weakening and Contraction_, Annals of Pure and Applied Logic, volume 69, Issue 1, (1994) pp.73-106,
-https://doi.org/10.1016/0168-0072(94)90020-5
+* {#Jacobs94} B. Jacobs, _Semantics of Weakening and Contraction_, Annals of Pure and Applied Logic, volume 69, Issue 1, (1994) pp.73-106, doi:[10.1016/0168-0072(94)90020-5](https://doi.org/10.1016/0168-0072%2894%2990020-5)
 
 * {#Petric02} Z. Petrić, _Coherence in Substructural Categories_, Studia Logica volume 70, (2002) pp.271–296, doi:[10.1023/A:1015186718090](https://doi.org/10.1023/A:1015186718090), arXiv:[math/0006061](https://arxiv.org/abs/math/0006061)
 
