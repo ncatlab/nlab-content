@@ -13,10 +13,11 @@ these subjects).
 
 ## Publications
 
-On the foundations and interpretation of quantum mechanics:
+On the foundations and [[interpretation of quantum mechanics|interpretation]] of [[quantum physics]]:
 
 * [[Arnold Neumaier]], *Introduction to [[coherent product|coherent spaces]]*, ([arXiv:1804.01402](https://arxiv.org/abs/1804.01402))
 
-* [[Arnold Neumaier]], *Coherent Quantum Physics: A Reinterpretation of the Tradition*, 1st edition, De Gruyter, 2019. ISBN:9783110667295
+
+* [[Arnold Neumaier]], *Coherent Quantum Physics: A Reinterpretation of the Tradition*, 1st edition, De Gruyter (2019) &lbrack;ISBN:9783110667295, [doi:10.1515/9783110667387](https://doi.org/10.1515/9783110667387)&rbrack;
 
 category: people
