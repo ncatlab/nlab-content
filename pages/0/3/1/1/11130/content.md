@@ -212,6 +212,12 @@ perspective: A simple example_ , Categories and General Algebraic Structures wit
 
 * {#Tholen} [[Walter Tholen]], _Nullstellen and Subdirect Representation_ ([pdf](http://www.math.yorku.ca/~tholen/nullstMarch2013bis.pdf))
 
+### In spectral algebraic geometry
+
+For a version of the Nullstellensatz in [[spectral algebraic geometry]] see
+
+* Robert Burklund, Tomer M. Schlank, Allen Yuan, _The Chromatic Nullstellensatz_ ([arXiv:2207.09929](https://arxiv.org/abs/2207.09929))
+
 
 [[!redirects Nullstellensätze]]
 
