@@ -45,6 +45,8 @@ The [[(0,1)-category]] of a (0,1)-presheaf on a [[(0,1)-site]] forms a [[(0,1)-t
 
 ## Related concepts
 
+* [[lower set]]
+
 * **(0,1)-presheaf**, [[(0,1)-sheaf]]
 
 * [[presheaf]]
