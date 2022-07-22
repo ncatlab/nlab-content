@@ -91,7 +91,7 @@ This means that given an abelian group $A$ then
 
 * [[Frank Adams]], Part III.6 of _[[Stable homotopy and generalised homology]]_, 1974
 
-* {#Schwede12} [[Stefan Schwede]], section II.6.3 of _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+* {#Schwede12} [[Stefan Schwede]], section II.6.3 of _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/people/schwede/SymSpec-v3.pdf))
 
 Lecture notes include 
 
@@ -99,7 +99,7 @@ Lecture notes include
 
 * {#VanKoughnett13} [[Paul VanKoughnett]], _Spectra and localization_, 2013 ([[VanKoughnettLocalization.pdf:file]])
 
-* {#Rognes12} [[John Rognes]], section 4.6 of _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
+* {#Rognes12} [[John Rognes]], section 4.6 of _The Adams spectral sequence_, 2012 ([pdf](https://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/notes.050612.pdf))
 
 
 Discussion in the context of [[Bousfield localization of spectra]] is in 
