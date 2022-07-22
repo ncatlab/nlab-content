@@ -10,11 +10,9 @@
 
 This page gives hints for how to edit [[nLab:HomePage|nLab]]-pages.
 
-An easy introduction for elementary basics is
-
-* [[How to get started]].
-
-The following provides more details. For technical help with special features of Instiki (including peculiarities with itex), HTML and XML, and assorted specifics of the nLab, see also the [[FAQ]].
+If you feel you can most easily start by modifying an  example, look at the *[[template page]]* and do experiments in the *[[Sandbox]]*.
+ 
+The following provides more details. For technical help with   special features of Instiki (including peculiarities with itex), HTML and XML, and assorted specifics of the nLab, see also the [[FAQ]].
 
 # Contents
 
