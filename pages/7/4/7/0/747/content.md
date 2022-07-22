@@ -1130,7 +1130,7 @@ $$
   \otimes : sPSh(C)_{proj} \times sPSh(C)_{proj} \to sPSh(C)_{proj}
 $$
 
-is a left [[Quillen bifunctor]]. As discussed at [[Quillen bifunctor]], since $sPSh(C)$ is a [[cofibrantly generated model category]] for that it is sufficient to check that $\otimes$ satisfies the pushout-prodct axiom on generating (acyclic) cofibrations. 
+is a left [[Quillen bifunctor]]. As discussed there, since $sPSh(C)$ is a [[cofibrantly generated model category]] for that it is sufficient to check that $\otimes$ satisfies the [[pushout-prodct axiom]] on [[cofibrantly generated model category|generating (acyclic) cofibrations]]. 
 
 As discussed at [[model structure on functors]], these are those morphisms of the form
 
