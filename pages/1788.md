@@ -28,7 +28,8 @@ Let
 
 By the assumption that $[\mathscr{X}]_0 \,\simeq\, \ast$ there exists a $G$-fixed point $x \,\colon\, G/G \to \mathscr{X}$. This induces a morphism of sites
 
-$$
+\[
+  \label{GFixedPointAsFunctorFromGOrbitsToFundamentalCategory}
   \array{
     Orb(G)
     &
@@ -46,141 +47,75 @@ $$
       \mathscr{X}
     \big]
   }
-$$
+\]
 and thus the induced [[Kan extension]] of [[simplicial presheaves]]:
-$$
+\[
+  \label{QuillenTransferOfGHomotopyTypesToFundamentalCategory}
     sPSh
     \big(
        \Pi^G_1 \mathscr{X}
-    \big)
+    \big)_{proj}
     \underoverset
-      {\underset{i_\ast}{\longleftarrow}}
-      {\overset{i^\ast}{\longrightarrow}}
-      {\;\; \bot \;\;}
-    sPSh
-    \big(
-       Orb(G)
-    \big)
-$$
-
-\begin{proposition}
-  The [left](transferred+model+structure#LeftTransfer)-[[transferred model structure]] along
-  $$
-    sPSh
-    \big(
-       \Pi^G_1 \mathscr{X}
-    \big)
-    \underoverset
-      {\underset{i_\ast}{\longleftarrow}}
-      {\overset{i^\ast}{\longrightarrow}}
-      {\;\; \bot \;\;}
+      {\underset{i^\ast}{\longrightarrow}}
+      {\overset{i_!}{\longleftarrow}}
+      {\;\;\;\;\; \bot_{\mathrlap{Qu}} \;\;\;\;\;}
     sPSh
     \big(
        Orb(G)
     \big)_{proj}
-  $$
-  exists.
-\end{proposition}
-\begin{proof}
-  Since both categories are [[cofibrantly generated model category|cofibrantly generated]] and the [[model structure on simplicial presheaves]] is in addition [[cofibrantly generated model category|cofibrantly generated]], [this Prop.](transferred+model+structure#RecognitionOfLeftTransferUnderCofibrantlyGeneration) reduces us to checking that co-anodyne maps are weak equivalences: 
-$$
-  \begin{array}{ll}
-    (i^\ast)^{-1}(Cof)
-    \;&solb;\;
-    f
-    \\
-    \;\Rightarrow\;
-    i_!(Cof) \;&solb;\; f    
-    \\
-    \;\Leftrightarrow\;
-    Cof \;&solb;\; i^\ast(f)    
-    \\
-    \;\Rightarrow\;
-    i^\ast(f) \;\in\; W
-    \\
-    \;\Leftrightarrow\;
-    f \;\in\; (i^\ast)^{-1}(W)
-  \end{array}
-$$
-Here the first step is by Lemma \ref{LeftCaseChangeOfCofibrationsAreTransferredCofibrations}.
-\end{proof}
-
-
-\begin{lemma}
-\label{LeftPushPullIsProductWithFundamentalGroup}
-$$
-  i^\ast \circ i_! (-)
-  \;\simeq\;
-  \pi_1(\mathscr{X}) \times (-)
   \,.
+\]
+
+This is a [[Quillen adjunction]] between the corresponding [[projective model structures on simplicial presheaves]] (e.g. since the [[right adjoint]] $i^\ast$, being given by [[precomposition]], evidently preserves all projective [[fibrations]] and even all [[weak equivalences]]).
+
+In fact, since $i$ (eq:GFixedPointAsFunctorFromGOrbitsToFundamentalCategory) is an [[essentially surjective functor]], $i^\ast$ also *detects* fibrations and weak equivalences, in that $f \,\in\, SPSh\big( \Pi_G(X) \big)_{proj}$ is a fibration or weak equivalence precisely of $i^\ast(f)$ is so, respectively.
+
+This means that (eq:QuillenTransferOfGHomotopyTypesToFundamentalCategory) in fact exhibits $sPSh\big(\Pi^G_1 \mathscr{X}\big)_{proj}$ as the right-[[transferred model structure]] of/from $sPSh\big( Orb(G)\big)_{proj}$
+
+\begin{example}
+  When $G = 1$ is the [[trivial group]], then $X$ is just a plain topological space. If it is connected, then 
+$\Pi_G(X) \,\simeq\, B \pi_1(X)$. In this case (eq:QuillenTransferOfGHomotopyTypesToFundamentalCategory) becomes the $\pi_1(X)$-[[Borel model structure]].
 $$
-\end{lemma}
-\begin{proof}
-On the level of presheaves on 1-sites:
+  \pi_1 Act\big(sSet_{Qu}\big)_{proj}
+    \underoverset
+      {\underset{underlying}{\longrightarrow}}
+      {\overset{free}{\longleftarrow}}
+      {\;\; \bot_{\mathrlap{Qu}} \;\;}
+  sSet_{Qu}
 $$
-  i^\ast i_! (G/H)
-  \;\simeq\;
-  i^\ast
-  \big[
-    G/H \to G/G \xrightarrow{x} \mathscr{X}
-  \big]
-  \;\simeq\;
-  \big(
-    G/K
-    \mapsto
-    Hom(G/K, G/H)
-    \times
-    \pi^K_1(\mathscr{X})
-  \big)
-$$
-Alternatively, via slicing of 2-sites:
+\end{example}
+
+So consider now this diagram of right adjoints:
+
 $$
   \array{
-    \pi_1(\mathscr{X})
-      \times
-    \mathscr{A}
-    &\longrightarrow&
-    \mathscr{A}
+    Func
+    \big(
+      \Pi_G(X)
+      ,\,
+      dgcAlg_{\mathbb{Q}}^{\geq 0} 
+    \big)
+    &&
+    sPSh
+    \big(
+      \Pi_G(X)
+    \big)
     \\
-    \big\downarrow
-    &(pb)&
-    \big\downarrow
-    \\
-    \pi_1(\mathscr{X})
-    &\longrightarrow&
-    \ast
-    \\ 
-    \big\downarrow
-    &(pb)&
+    &&
     \big\downarrow
     \\
-    \ast
-    &\longrightarrow&
-    [\mathscr{X}]_1   
+    Func
+    \big(
+      Orb(G)
+      ,\,
+      dgcAlg_{\mathbb{Q}}^{\geq 0} 
+    \big)
+    &&
+    sPSh
+    \big(
+      Orb(G)
+    \big)
   }
 $$
-\end{proof}
-
-\begin{lemma}
-  \label{LeftCaseChangeOfCofibrationsAreTransferredCofibrations}
-  $$
-    i_!(Cof)
-    \;\subset\;
-    (i^\ast)^{-1}(Cof)
-  $$
-\end{lemma}
-\begin{proof}
-  By Lemma \ref{LeftPushPullIsProductWithFundamentalGroup} 
-  we have
-  $$
-    i^\ast \circ i_! (Cof)
-    \;=\;
-    \pi_1(\mathscr{X}) \times Cof
-    \,.
-  $$
-  Hence ... hm, so it only works if $\pi_1(\mathscr{X})$ is cofibrant, which is rarely the case...
-\end{proof}
-
-
 
 
