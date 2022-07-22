@@ -1,6 +1,5 @@
 
 
-[[relation between preorders and (0,1)-categories|here]]
 
 
 
@@ -89,33 +88,55 @@ So consider now this diagram of right adjoints:
 
 $$
   \array{
-    Func
-    \big(
+    PSh
+    \Big(
       \Pi_G(X)
       ,\,
-      dgcAlg_{\mathbb{Q}}^{\geq 0} 
-    \big)
-    &&
-    sPSh
+      \big(dgcAlg_{\mathbb{Q}}^{\geq 0} \big)^{op}
+    \Big)_{traScu}
+    &
+    \overset
+      {\;\;\; exp \;\;\;}
+      {\longrightarrow}
+    &
+    PSh
     \big(
       \Pi_G(X)
-    \big)
+      \,,
+      sSet
+    \big)_{proj}
     \\
+    \big\downarrow
     &&
     \big\downarrow
+    \mathrlap{
+      {}^{i^\ast}
+    }
     \\
-    Func
-    \big(
+    PSh
+    \Big(
       Orb(G)
       ,\,
-      dgcAlg_{\mathbb{Q}}^{\geq 0} 
-    \big)
-    &&
-    sPSh
+      \big(dgcAlg_{\mathbb{Q}}^{\geq 0} \big)^{op}
+    \Big)_{Scu}
+    &
+    \overset
+      {\;\;\; exp \;\;\;}
+      {\longrightarrow}
+    &
+    PSh
     \big(
       Orb(G)
-    \big)
+      \,,
+      sSet
+    \big)_{proj}
   }
+  \,,
 $$
+
+where on the bottom we have the [[Quillen adjunction between equivariant simplicial sets and equivariant connective dgc-algebras]].
+
+Notice that *if* the transferred model structure on the top left exists, then the top functor is right Quillen (by the previous comment, it preserves (acyclic) fibrations iff its composite with the right functor does, which is equivalently the case if the left-bottom composite is right Quillen, which is the case by the existence of the transferred structure on the left)
+
 
 
