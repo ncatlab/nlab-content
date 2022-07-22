@@ -53,11 +53,11 @@ such that
 
 ### As a category ###
 
-Equivalently, a proset is a ([[strict category|strict]]) [[thin category]]: a [[strict category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$.  The existence of such a morphism corresponds to the truth of the relation $x\leq y$.  In other words, it's a (strict) [[category enriched]] over the [[cartesian monoidal category]] of [[truth values]].
+Equivalently, a proset is a ([[strict category|strict]]) [[thin category]]: a [[strict category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$.  The existence of such a morphism corresponds to the truth of the relation $x\leq y$.  In other words, it's a (strict) [[category enriched]] over the [[cartesian monoidal category]] of [[truth values]] (a [[(0,1)-category]]).
 
 ### In homotopy type theory
 
-A __preorder__ $A$ in homotopy type theory consists of the following: 
+A __preorder__ $A$ in [[homotopy type theory]] consists of the following: 
 
 * A homotopy type $A_0$, whose terms $a:A_0$ we write as $a:A$.  
 * For every $a, b:A$, a proposition $p: a \leq_A b$ 
