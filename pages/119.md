@@ -52,8 +52,10 @@ such that
 * for every $f \in E$, $g \in E$, and $h \in E$ such that $t(f) =_V s(g)$ and $t(g) =_V s(h)$, $tr(h,tr(g,f)) =_E tr(tr(h,g),f)$
 
 ### As a category ###
+ {#AsACategory}
 
-Equivalently, a proset is a ([[strict category|strict]]) [[thin category]]: a [[strict category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$.  The existence of such a morphism corresponds to the truth of the relation $x\leq y$.  In other words, it's a (strict) [[category enriched]] over the [[cartesian monoidal category]] of [[truth values]] (a [[(0,1)-category]]).
+[[relation between preorders and (0,1)-categories|Equivalently, a proset is]] a ([[strict category|strict]]) [[thin category]]: a [[strict category]] such that for any [[pair]] of [[objects]] $x, y$, there is at most one [[morphism]] from $x$ to $y$.  The existence of such a morphism corresponds to the truth of the relation $x \leq y$.  [[relation between preorders and (0,1)-categories|In other words, it's]] a (strict) [[category enriched]] over the [[cartesian monoidal category]] of [[truth values]] (a [[(0,1)-category]]).
+
 
 ### In homotopy type theory
 
@@ -120,6 +122,8 @@ This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
 
 
 ## Related concepts
+
+* [[relation between preorders and (0,1)-categories]]
 
 * **preorder**
 
