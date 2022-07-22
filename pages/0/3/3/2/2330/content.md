@@ -13,35 +13,27 @@
 * table of contents
 {: toc}
 
+
 ## Idea
+ {#Idea}
 
-Following the general concept of $(n,r)$-[[(n,r)-category|category]], a $(0,1)$-category is (up to [[equivalence of categories|equivalence]]) a [[poset]] or (up to [[isomorphism of categories|isomorphism]]) a [[proset]].  We may also call this a $1$-[[1-poset|poset]].  This view is an instance of [[negative thinking]].
+Following the general concept of *[[(n,r)-category|$(n,r)$-category]]*, a *$(0,1)$-category* is a [[category]] whose [[hom-objects]] are [[(-1)-groupoids]], hence which for every [[pair]] of [[objects]] $a,b$ have either no morphism $a \to b$ or an [[essentially unique]] one.
 
+More in detail, recall that:
 
-## Definition
-
-+-- {: .num_defn}
-###### Definition
-
-An [[(n,1)-category]] is an [[(∞,1)-category]] such that every [[hom-space|hom ∞-groupoid]] is [[n-truncated|(n-1)-truncated]].
-
-=--
-
-Notice that
+* an [[(n,1)-category]] is an [[(∞,1)-category]] such that every [[hom-space|hom ∞-groupoid]] is [[n-truncated|(n-1)-truncated]].
 
 * a [[0-truncated]] [[∞-groupoid]] is equivalently a set;
 
 * a [[(-1)-truncated]] [[∞-groupoid]] is either [[contractible]] or [[empty set|empty]].
 
-+-- {: .num_prop}
-###### Proposition
+Therefore:
 
++-- {: .num_remark}
+###### Remark
+**([[relation between preorders and (0,1)-categories]])**
+\linebreak
 An $(0,1)$-category is [[equivalence of categories|equivalently]] a [[proset]] ([[relation between preorders and (0,1)-categories|hence]] a [[poset]]).
-
-=--
-
-+-- {: .proof}
-###### Proof
 
 We may without restriction assume that every hom-$\infty$-groupoid is just a set. Then since this is [[(-1)-truncated]] it is either empty or the singleton. So there is at most one morphism from any object to any other.
 
@@ -60,6 +52,8 @@ We may without restriction assume that every hom-$\infty$-groupoid is just a set
 
 
 ## Related concepts
+
+* [[relation between preorders and (0,1)-categories]]
 
 * [[(-2)-groupoid]]
 
