@@ -19,14 +19,20 @@
 
 ## Idea
 
-In the presence of a notion of [[fibration]] and a given [[class]] of such, a [[morphism]] is called _anodyne_ if it has the [[left lifting property]] against all these.
+The original definition by Gabriel–Zisman (Definition IV.2.1.4 \cite{GabrielZisman67})
+defined __anodyne extensions__ as the [[weak saturation]] of [[simplicial horn]] inclusions.
+
+More generally, the same definition can be used to talk about the [[weak saturation]] of any set $S$ of morphisms
+in any category.  One also talks about _anodyne maps_ or _anodyne morphisms_.
+
+If the [[small object argument]] is applicable,
+anodyne maps are precisely maps with a [[left lifting property]] with respect to all [[fibrations]], where the latter is defined as morphisms with a [[right lifting property]] with respect to $S$.
+
+In particular, if $S$ is a set of generating [[acyclic cofibrations]] in a [[model category]] with applicable [[small object argument]], then anodyne maps are precisely [[acyclic cofibrations]].
 
 The standard example, often taken to be the default, is that of morphisms in the category [[sSet]] of [[simplicial sets]] which have the [[left lifting property]] against all [[Kan fibrations]]. In this case, anodyne morphisms ([Gabriel-Zisman 67, chapter IV.2](#GabrielZisman67)) are equivalent to [[acyclic cofibrations]] in the [[classical model structure on simplicial sets]].
 
-Typically one says _anodyne morphism_ or, actually, _anodyne extension_ if one thinks of these morphisms produced by [[retracts]] of [[transfinite composition]] of [[pushouts]] of [[coproducts]] of a certain generating set of morphisms.
-
 So in the standard example of left lifting against Kan fibrations, one typically speaks of _anodyne extensions_ if one produces morphisms by these operations from the set of [[horn]] inclusions. (see for instance ([Jardine](#Jardine))).
-
 
 ## Definition
 
@@ -136,9 +142,13 @@ Inner anodyne morphisms of [[dendroidal sets]] are discussed in
 
 
 [[!redirects anodyne morphisms]]
+[[!redirects anodyne map]]
+[[!redirects anodyne maps]]
 
 [[!redirects anodyne extension]]
 [[!redirects anodyne extensions]]
 
 [[!redirects inner anodyne morphism]]
 [[!redirects inner anodyne morphisms]]
+[[!redirects inner anodyne map]]
+[[!redirects inner anodyne maps]]
