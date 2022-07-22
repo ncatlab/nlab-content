@@ -42,7 +42,9 @@ Distributive lattices and [[lattice]] [[homomorphisms]] form a [[concrete catego
 +-- {: .num_remark}
 ###### Remark
 
-Any lattice that satisfies one of the two binary distributivity laws must also satisfy the other; isn\'t that nice? (This may safely be left as an [[exercise]].) This convenience does *not* extend to infinitary distributivity, however.
+Any lattice that satisfies one of the two binary distributivity laws must also satisfy the other; isn\'t that nice? (This may safely be left as an [[exercise]].) This also means that a distributive lattice is precisely a lattice (or indeed a [[poset]]) which is a [[distributive category]] (when viewed as a [[thin category]].)
+
+This convenience does *not* extend to infinitary distributivity, however.
 
 =--
 
@@ -231,7 +233,7 @@ Birkhoff duality does not hold for infinite distributive lattices. However, in t
 
 Posets also give rise to a "free" distributive lattice, which is not the same as their Birkhoff dual. Instead, it is formed by the following procedure: First, take the poset of upsets with the reverse ordering (this is the free finite meet completion). Then form the distributive lattice of finitely generated downsets in that.
 
-In the case that one begins with a discrete poset (i.e., a set) then the number of elements in the resultant free distributive lattice is known as a Dedekind number, which also counts the number of monotone Boolean functions in $n$ variables. Dedekind numbers increase extremely rapidly, and there is no good known closed-form summation to compute them. The first nine (and only known) Dedekind numbers are (starting at $n = 0$): 2, 3, 6, 20, 168, 7581, 7828354, 2414682040998, and 56130437228687557907788.
+In the case that one begins with a discrete poset (i.e., a set) then the number of elements in the resultant free distributive lattice is known as a Dedekind number, which also counts the number of monotone Boolean functions in $n$ variables. Dedekind numbers increase extremely rapidly, and there is no good known closed-form summation to compute them. The first nine (and only known) Dedekind numbers are (starting at $n = 0$): 2, 3, 6, 20, 168, 7581, 7828354, 2414682040998, and 56130437228687557907788; see [OEIS A000372](#A000372).
 
 ### Categorification
 
@@ -243,5 +245,8 @@ Every distributive lattice, regarded as a [[category]] (a [[(0,1)-category]]), i
 The [[completely distributive lattice|completely distributive]] [[algebraic lattices]] (the [[frames of opens]] of [[Alexandroff locales]] ) form a [[reflective subcategory]] of that of all distributive lattices. The reflector is called _[[canonical extension]]_.
 
 
+## References
+
+* {#A000372} OEIS sequence [A000372](https://oeis.org/A000372)
 
 [[!redirects distributive lattices]]
