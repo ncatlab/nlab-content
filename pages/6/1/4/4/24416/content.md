@@ -23,7 +23,7 @@
 
 ## Statement
 
-Hypothesis H says that the M-brane charge is quantized in tangentially [[twisted cohomotopy|J-twisted]] 4-[[cohomotopy theory]].
+Hypothesis H says that the M-brane charge is quantized in differential tangentially [[twisted cohomotopy|J-twisted]] 4-[[cohomotopy theory]].
 
 ## See also
 
