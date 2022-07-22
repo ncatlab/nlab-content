@@ -201,6 +201,20 @@ For example, given any projections $A\times B\to A$ and $A\times B\to B$ that ex
 (It is true in a few cases, though, that skeletality implies uniqueness on the nose.  For instance, a [[terminal object]] can have no nonidentity automorphisms, so in a skeletal category, a terminal object (if one exists) really is unique on the nose.)
 
 
+## Examples
+
+### Posets as skeleta of prosets
+ {#PosetsAsSkeletaOfProsets}
+
+In terms of [[(n,r)-category]]-theory one may essentially identify [[preordered sets]] with *[[thin categories]]* or *[[(0,1)-categories]]*. Under this identification, the passage of skeleta of categories corresponds to choosing an [[equivalence of categories|equivalent]] [[partial order]] inside a [[preorder]]. 
+
+For more details (and more precise statements, see at *[[relation between preorders and (0,1)-categories]]*.
+
+## References
+
+See also:
+
+* Wikipedia, *<a href="https://en.wikipedia.org/wiki/Skeleton_(category_theory)">Skeleton_(category_theory)</a>*
 
 
 [[!redirects skeleton of a fibration]]
