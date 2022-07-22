@@ -179,15 +179,6 @@ No uvw contains more than three letters.
 
 
 
-+-- {: .query}
-_[[Urs Schreiber|First person]]_:  I listed all of the special cases that I know above, but didn\'t Grothendieck study an important version too?
-
-_[[Toby Bartels|Second person]]_:  No, you\'re thinking of Lawvere.  When I find the reference, I\'ll put it here.
-=--
-
-
-
-
 ### Specific examples
 {#Specific_examples}
 
