@@ -383,7 +383,7 @@ Classical textbooks (on the [[Hilbert space]] description) include
 (German) Mathematical Foundations of Quantum Mechanics. Berlin,
 Germany: Springer Verlag, 1932.
 
-* [[George Mackey]], _The Mathematical Foundations of Quamtum Mechanics_ A
+* [[George Mackey]], _The Mathematical Foundations of Quantum Mechanics_ A
 Lecture-note Volume, ser. The mathematical physics monograph series.
 Princeton university, 1963
 
