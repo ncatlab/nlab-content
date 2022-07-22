@@ -159,6 +159,14 @@ From the alternative definition it is clear that the subcategory consisting of t
 
 ## Examples
 \begin{example}
+A fundamental super convex space is the set $\mathbb{N}$ with the super convex space structure defined, for every sequence $\mathbf{s}: \mathbb{N} \rightarrow \mathbb{N}$  by 
+\begin{equation}
+\int_{\mathbb{N}} \mathbf{s} d\mathbf{p} = \inf_i \{\mathbf{s}_i \, | \, p_i \gt 0 \}
+\end{equation}
+That structure on $\mathbb{N}$ shows that the function $\epsilon: \mathcal{G}(\mathbb{N}) \rightarrow \mathbb{N}$ defined by $\sum_{i \in \mathbb{N}} p_i \delta_i \mapsto \inf_i \{i | p_i\gt 0\}$ is a countably affine map.
+\end{example}
+
+\begin{example}
 As an example of the utility of ideals in a super convex space we note that for $\mathcal{G}$ the [[Giry monad]] the measurable space $\mathcal{G}(X)$, with the smallest $\sigma$-algebra such that the evaluation maps $ev_U: \mathcal{G}(X) \rightarrow [0,1]$ are measurable for every measurable set $U$ in $X$, has a super convex space structure 
 defined on it pointwise.
 
@@ -167,15 +175,7 @@ Note that if  $X$ is any measurable space  the maximal proper ideals of $\mathca
 To prove this, note that  both $(0,1]$ and $[0,1)$ are ideals in the super convex space $[0,1]$, with the natural super convex space structure, and it follows that $ev_{U}^{-1}( [0,1))$ and $ev_U^{-1}((0,1])$ are ideals in $\mathcal{G}{X}$. (The preimage of an ideal under a countably affine map is an ideal in the domain space. The proof is the standard argument for ideals in any category.)  Consider the ideal $ev_U^{-1}( [0,1))$.  To show that this is a maximal proper ideal suppose that $\mathcal{I}$ is another ideal of $\mathcal{G}{X}$ such that $ev_U^{-1}( [0,1)) \varsubsetneqq  \mathcal{I}$.  Every element $P \in \mathcal{I}$ which is not in $ev_U^{-1}([0,1))$ has the defining  property that $P(U^c)=1$.    Now let $Q \in \mathcal{G}{X}$.  If  $Q \notin \mathcal{J}$ then $Q(U^c) \ne 1$ which implies  $Q \in ev_U^{-1}( [0,1)) \varsubsetneqq J$ which is self-contradictory.  Thus $\mathcal{J}$ must be all of $\mathcal{G}{X}$ which shows $ev_U^{-1}([0,1))$ is a maximal (proper) ideal.
 The argument that the ideal $ev_U^{-1}( (0,1])$ is a maximal ideal is similiar except we replace the condition $P(U^c)=1$ in the above proof with $P(U)=0$.
 
-If we restrict to the category of standard measurable spaces then every object has a countable generating basis and it is then clear that every ideal in $\mathcal{G}(X)$ is a  countable intersection of maximal ideals, and hence measurable.  This implies, for example, that every countably affine map $k: \mathcal{G}(X) \rightarrow \mathbb{N}$ is also a  measurable function with $\mathbb{N}$ having the powerset $\sigma$-algebra on $\mathbb{N}$.(The only ideals of $\mathbb{N}$ are the principal ideals $\downarrow \! 0 \subset \downarrow \! 1 \subset \ldots$.)
-\end{example}
-
-\begin{example}
-A fundamental super convex space is the set $\mathbb{N}$ with the super convex space structure defined, for every sequence $\mathbf{s}: \mathbb{N} \rightarrow \mathbb{N}$  by 
-\begin{equation}
-\int_{\mathbb{N}} \mathbf{s} d\mathbf{p} = \inf_i \{\mathbf{s}_i \, | \, p_i \gt 0 \}
-\end{equation}
-That structure on $\mathbb{N}$ shows that the function $\epsilon: \mathcal{G}(\mathbb{N}) \rightarrow \mathbb{N}$ defined by $\sum_{i \in \mathbb{N}} p_i \delta_i \mapsto \inf_i \{i | p_i\gt 0\}$ is a countably affine map.
+If we restrict to the category of standard measurable spaces then every object has a countable generating basis and it is then clear that every ideal in $\mathcal{G}(X)$ is a  countable intersection of maximal ideals, and hence measurable.  This implies, for example, that every countably affine map $k: \mathcal{G}(X) \rightarrow \mathbb{N}$ is also a  measurable function with $\mathbb{N}$ having the powerset $\sigma$-algebra. (The only ideals of $\mathbb{N}$ are the principal ideals $\downarrow \! 0 \subset \downarrow \! 1 \subset \ldots$.)
 \end{example}
 
 \begin{example} 
