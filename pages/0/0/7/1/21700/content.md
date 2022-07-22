@@ -98,7 +98,7 @@ and in
 
 * {#Uemura21} [[Taichi Uemura]], _Abstract and concrete type theories_, PhD thesis (2021) &lbrack;[pdf](https://pure.uva.nl/ws/files/62028111/Thesis.pdf), [hdl:11245.1/41ff0b60-64d4-4003-8182-c244a9afab3b](https://hdl.handle.net/11245.1/41ff0b60-64d4-4003-8182-c244a9afab3b)&rbrack;
 
-> all the main hold-outs who believed initiality to remain unresolved have been all convinced by [Taichi Uemura’s doctoral thesis](Uemura21), which gives a more detailed and mathematically satisfactory alternative to [Cartmell’s 1978 proof](#Cartmell1978) for a broader class of theories — a class that includes homotopy type theory, cubical type theory, and many other type theories. &lbrack;[[Jon Sterling]], [Jul 19, 2022](https://nforum.ncatlab.org/discussion/14504/open-problems-in-homotopy-type-theory/?Focus=101156#Comment_101156)&rbrack;
+> most of those who believed initiality to remain unresolved have been convinced by [Taichi Uemura’s doctoral thesis](Uemura21), which gives a more detailed alternative to [Cartmell’s 1978 proof](#Cartmell1978) for a more structured class of theories called second-order generalized algebraic theories — a class that includes homotopy type theory, cubical type theory, and many other type theories. &lbrack;Paraphrased from a comment by [[Jon Sterling]], [Jul 19, 2022](https://nforum.ncatlab.org/discussion/14504/open-problems-in-homotopy-type-theory/?Focus=101156#Comment_101156)&rbrack;
 
 
 [[!redirects initiality conjectures]]
