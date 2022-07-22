@@ -52,17 +52,17 @@ $x \leq y \leq x$ implies that $x = y$.
 ### As a category with extra properties 
  {#AsACategoryWithExtraProperties}
 
-A poset may be understood as a [[category]] with [[extra property]], sometimes called its _order category_.
+A poset [[relation between preorders and (0,1)-categories|may be understood]] as a [[category]] with [[extra property]], sometimes called its _order category_.
 
-A __poset__ is a [[category]] such that:
+A __poset__ [[relation between preorders and (0,1)-categories|is]] a [[category]] such that:
 
-* for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$
+* for any [[pair]] of [[objects]] $x, y$, there is at most one morphism from $x$ to $y$
 
 * if there is a morphism from $x$ to $y$ and a morphism from $y$ to $x$ (which by the above implies that $x$ and $y$ are [[isomorphic]]), then $x = y$.
 
-Equivalently, this says that a poset is a [[skeletal category|skeletal]] [[thin category|thin]] category, or equivalently a skeletal [[category enriched]] over the [[cartesian monoidal category]] of [[truth values]] or equivalently a skeletal [[(0,1)-category]]. (See also at *[[enriched poset]]*).
+[[relation between preorders and (0,1)-categories|Equivalently]], this says that a poset is a [[skeletal category|skeletal]] [[thin category|thin]] category, or equivalently a skeletal [[category enriched]] over the [[cartesian monoidal category]] of [[truth values]] or equivalently a skeletal [[(0,1)-category]]. (See also at *[[enriched poset]]*).
 
-When we do this, we are soon led to contemplate a slight generalization of partial orders: namely [[preorder|preorders]]. The reason is that the antisymmetry law, saying that $x \le y$ and $y \le x$ imply $x = y$, violates the [[principle of equivalence]] in a certain sense.  (On the other hand, it does not violate it if taken as a *definition* of [[equality]].)
+When we do this, we are soon [[relation between preorders and (0,1)-categories|led to contemplate]] a slight generalization of partial orders: namely [[preorder|preorders]]. The reason is that the antisymmetry law, saying that $x \le y$ and $y \le x$ imply $x = y$, violates the [[principle of equivalence]] in a certain sense.  (On the other hand, it does not violate it if taken as a *definition* of [[equality]].)
 
 
 ### Monotone functions 
@@ -180,6 +180,8 @@ In [[homotopy type theory]], every [[type]] with a partial order in a [[univalen
 * More generally, if $A$ is a [[vector space]] on the [[rational numbers]] with a [[quadratic form]], then $A$ is a partial order, and its Cauchy completion is a vector space of same dimension on the [[Cauchy real numbers]] with a quadratic form. In particular, the Cauchy [[complex numbers]] and the [[Gaussian rationals]] are partial orders. 
 
 ## Related concepts
+
+* [[relation between preorders and (0,1)-categories]]
 
 * [[preorder]]
 
