@@ -86,7 +86,7 @@ $$
   \vert a \vert \coloneqq ramp(a) + ramp(-a)
 $$
 
-The order relation is defined as in all pseudolattices: $a \leq b$ if $a = a \wedge b$. 
+The order relation is defined as $a \leq b$ if $ramp(a - b) = 0$. 
 
 ## Examples
 
