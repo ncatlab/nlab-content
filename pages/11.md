@@ -11,6 +11,12 @@ __Tom Leinster__ is a mathematician at the University of Edinburgh.
 * _A survey of definitions of n-category_, e-print [math.CT/0107188](http://arxiv.org/abs/math.CT/0107188),
 2001; also [Theory and Applications of Categories 10 (2002), no. 1, 1&#8211;70.](http://www.tac.mta.ca/tac/volumes/10/1/10-01abs.html)
 
+* _An informal introduction to topos theory_, Publications of the nLab vol. 1 no. **_1_** (2011).
+
+  At https://ncatlab.org/publications/published/Leinster2011 , but as of 2022 the live version is not entirely readable: the diagrams and some other typesetting are broken.
+
+  A [readable version](https://web.archive.org/web/20131212071554/http://ncatlab.org:80/publications/published/Leinster2011) (give the scripts a few seconds to load after opening the page) can be found in the Internet Archive.
+
 
 ## Books
 
@@ -28,8 +34,9 @@ __Tom Leinster__ is a mathematician at the University of Edinburgh.
   >
   > Advanced topics are omitted, leaving more space for careful explanations of the core concepts. I have used versions of this text to teach final-year undergraduate and master's-level courses at the Universities of Glasgow and Edinburgh.
 
-
 * _Higher operads, higher categories_, London Math. Soc. Lec. Note Series __298__, [math.CT/0305049](http://arxiv.org/abs/math.CT/0305049)
+
+* _[Entropy and Diversity: The Axiomatic Approach](https://www.cambridge.org/us/academic/subjects/mathematics/logic-categories-and-sets/entropy-and-diversity-axiomatic-approach?isbn=9781108832700)_, Cambridge UP, 2021
 
 
 category: people
