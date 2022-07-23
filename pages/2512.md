@@ -17,7 +17,7 @@ From his [cached Pitt faculty page](https://web.archive.org/web/20170811155442/h
 
 * _M-theory and cohomotopy_, talk at _[[M-Theory and Mathematics]]_, NYU AD 2020 ([pdf slides](https://ncatlab.org/nlab/files/Sati_MTheoryCohomotopy_2020.pdf))
 
-  > (on [[schreiber:Hypothesis H]]_)
+  > (on [[Hypothesis H]]_)
 
 
 ## Selected publications
@@ -110,7 +110,7 @@ Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]
 
 * {#GradySati19b} [[Daniel Grady]], [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
-On ([[cohomotopy|co-]])[[homotopy theory|homotopical]] foundations of [[M-theory]] ([[schreiber:Hypothesis H]]):
+On ([[cohomotopy|co-]])[[homotopy theory|homotopical]] foundations of [[M-theory]] ([[Hypothesis H]]):
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]] _[[schreiber:The rational higher structure of M-theory]]_, _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/):_ _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html), August 2018_. Fortschritte der Physik, 2019 ([doi:10.1002/prop.201910017](https://doi.org/10.1002/prop.201910017), [arXiv:1903.02834](https://arxiv.org/abs/1903.02834))
  
@@ -121,11 +121,11 @@ In relation to the [[Hopf WZ term]] and [[Page charge]]:
 * {#FSS19WZ} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_ ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
 
 
-On [[Cohomotopy]] and [[schreiber:Hypothesis H]]:
+On [[Cohomotopy]] and [[Hypothesis H]]:
 
 * {#GS20} [[Daniel Grady]], [[Hisham Sati]], _Differential cohomotopy versus differential cohomology for M-theory and differential lifts of Postnikov towers_ ([arXiv:2001.07640](https://arxiv.org/abs/2001.07640))
 
-On [[U-duality]] (and possibly [[mysterious duality]]) via [[schreiber:Hypothesis H]] as [[automorphisms]] of [[iterated loop space|iterated]] ([[Sullivan model of loop space|rational]]) [[cyclic loop spaces]] of the ([[rational n-sphere|rational]]) [[4-sphere]]:
+On [[U-duality]] (and possibly [[mysterious duality]]) via [[Hypothesis H]] as [[automorphisms]] of [[iterated loop space|iterated]] ([[Sullivan model of loop space|rational]]) [[cyclic loop spaces]] of the ([[rational n-sphere|rational]]) [[4-sphere]]:
 
 * [[Hisham Sati]], [[Alexander Voronov]], *Mysterious triality* ([arXiv:2111.14810](https://arxiv.org/abs/2111.14810))
 
