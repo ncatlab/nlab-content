@@ -14,7 +14,7 @@ The following is a list of references that involve ([[weight systems]] on) [[cho
 
    1. [As dimer/bit thread codes for holographic entanglement entropy](#ForHolographicEntanglementEntropy)
 
-For a unifying perspective (via [[schreiber:Hypothesis H]]) and further pointers, see:
+For a unifying perspective (via [[Hypothesis H]]) and further pointers, see:
 
 * {#SatiSchreiber19c} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Differential Cohomotopy implies intersecting brane observables]]* ([arXiv:1912.10425](https://arxiv.org/abs/1912.10425))
 
