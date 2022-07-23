@@ -384,7 +384,7 @@ This [[basic differential form|basic form]] component $G_4^{M5}$ (eq:BasicFormCo
 
 See also at _[M-theory -- Open problems -- M5-brane anomaly cancellation](M-theory#OpenProblemM5BraneAnomalyCancellation)_.
 
-The observation that the remaing anomaly  (eq:RemainingAnomaly) vanishes if one assumes [[schreiber:Hypothesis H]] is [SS 20, Cor. 6](#SS20).
+The observation that the remaing anomaly  (eq:RemainingAnomaly) vanishes if one assumes [[Hypothesis H]] is [SS 20, Cor. 6](#SS20).
 
 \linebreak
 
