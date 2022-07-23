@@ -137,6 +137,8 @@ $$
 
 * [[reduction modality]] $\dashv$ [[infinitesimal shape modality]] $\dashv$ [[infinitesimal flat modality]]
 
+* [[fermionic modality]] $\dashv$ [[bosonic modality]] $\dashv$ [[rheonomy modality]]
+
 * [[affine modality]]
 
 * [[graded modality]]
@@ -197,7 +199,6 @@ Discussion in [[category theory]] (fot more see at _[[modal operator]]_):
 * {#ReyesEtAl} Reyes/Reyes/Zolfaghari, _Generic Figures and Their Glueings_ 2004, Polimetrica
 
 * {#Hermida10} [[Claudio Hermida]], section 3.3. of _A categorical outlook on relational modalities and simulations_, 2010 ([pdf](http://maggie.cs.queensu.ca/chermida/papers/sat-sim-IandC.pdf))
-
 
 
 
