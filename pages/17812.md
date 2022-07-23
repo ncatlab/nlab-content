@@ -513,7 +513,7 @@ We call this the [[category]] of _[[infinitesimally thickened points]]_.
 
 Alternative terminology:
 
-1. In [[synthetic differential geometry]] these algebras are called [[Weil algebra|Weil algebras]]**,
+1. In [[synthetic differential geometry]] these algebras are called [[infinitesimally thickened point|Weil algebras]]**,
 
 1. in [[algebraic geometry]] they are known as _[[local ring|local]] [[real numbers|real]] [[Artin algebras]]_.
 
