@@ -255,7 +255,7 @@ Application in [[string phenomenology]]
 
 * [[Mirjam Cvetic]], [[James Halverson]], Ling Lin, Muyang Liu, Jiahua Tian, equation (9) in _A Quadrillion Standard Models from F-theory_ ([arXiv:1903.00009](https://arxiv.org/abs/1903.00009))
 
-Discussion via [[schreiber:Hypothesis H]]:
+Discussion via [[Hypothesis H]]:
 
 * {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_,  
 Comm. Math. Phys. **377**  (2020) 1961-2025 ([doi:10.1007/s00220-020-03707-2](https://doi.org/10.1007/s00220-020-03707-2), [arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
