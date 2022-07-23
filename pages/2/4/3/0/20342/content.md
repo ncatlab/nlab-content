@@ -31,10 +31,10 @@
 
 ## Idea
 
-_Twisted Cohomotopy_ is the [[twisted cohomology]]-variant of the
-the [[non-abelian cohomology]]-[[generalized cohomology theory|theory]] _[[Cohomotopy]]_, [[representable functor|represented]] by [[homotopy types]] of [[n-spheres]].
+_Twisted cohomotopy_ is the [[twisted cohomology]]-variant of the
+the [[non-abelian cohomology]]-[[generalized cohomology theory|theory]] _[[cohomotopy]]_, [[representable functor|represented]] by [[homotopy types]] of [[n-spheres]].
 
-The [[coefficients]]/[[twisted cohomology|twist]] for twisted Cohomotopy are [[spherical fibrations]], and [[cocycles]] are [[sections]] of these. For those [[spherical fibrations]] arising as [[unit sphere bundles]] of [[real vector bundles]] the twist may be understood as given by the [[J-homomorphism]].
+The [[coefficients]]/[[twisted cohomology|twist]] for twisted cohomotopy are [[spherical fibrations]], and [[cocycles]] are [[sections]] of these. For those [[spherical fibrations]] arising as [[unit sphere bundles]] of [[real vector bundles]] the twist may be understood as given by the [[J-homomorphism]].
 
 ## Properties
 
@@ -50,7 +50,7 @@ Various classical theorems of [[differential topology]] are secretly theorems ab
  {#TwistedPontrjaginThomTheorem}
 
 
-The _[[twisted Pontrjagin theorem]]_ relates twisted Cohomotopy with [[cobordism classes]] of [[normally twisted-framed submanifolds]].
+The _[[twisted Pontrjagin theorem]]_ relates twisted cohomotopy with [[cobordism classes]] of [[normally twisted-framed submanifolds]].
 
 ### Twisted May-Segal theorem
 
@@ -71,7 +71,7 @@ Then the [[scanning map]] constitutes a [[weak homotopy equivalence]]
 $$
   \underset{
     \color{blue}
-    { \phantom{a} \atop \text{ J-twisted Cohomotopy space}}
+    { \phantom{a} \atop \text{ J-twisted cohomotopy space}}
   }{
     Maps_{{}_{/B O(n)}}
     \Big(
@@ -115,7 +115,7 @@ $$
 
 between 
 
-1. the [[J-homomorphism|J]]-[[twisted Cohomotopy|twisted (n+k)-Cohomotopy]] space of $X^n$, hence the [[space of sections]] of the $(n + k)$-[[spherical fibration]] over $X$ which is [[associated fiber bundle|associated]] via the [[tangent bundle]] by the [[O(n)]]-[[action]] on $S^{n+k} = S(\mathbb{R}^{n} \times \mathbb{R}^{k+1})$
+1. the [[J-homomorphism|J]]-[[twisted cohomotopy|twisted (n+k)-cohomotopy]] space of $X^n$, hence the [[space of sections]] of the $(n + k)$-[[spherical fibration]] over $X$ which is [[associated fiber bundle|associated]] via the [[tangent bundle]] by the [[O(n)]]-[[action]] on $S^{n+k} = S(\mathbb{R}^{n} \times \mathbb{R}^{k+1})$
 
 1. the [[configuration space of points]] on $X^n$ with labels in $S^k$.
 
@@ -139,7 +139,7 @@ Then the [[scanning map]] constitutes a [[weak homotopy equivalence]]
 $$
   \underset{
     \color{blue}
-    { \phantom{a} \atop \text{ Cohomotopy space}}
+    { \phantom{a} \atop \text{ cohomotopy space}}
   }{
     Maps
     \Big(
@@ -181,7 +181,7 @@ $$
 
 between 
 
-1. $(n+k)$-[[Cohomotopy]] space of $X^n$, hence the [[space of maps]] from $X$ to the [[n-sphere|(n+k)-sphere]]
+1. $(n+k)$-[[cohomotopy]] space of $X^n$, hence the [[space of maps]] from $X$ to the [[n-sphere|(n+k)-sphere]]
 
 1. the [[configuration space of points]] on $X^n$ with labels in $S^k$.
 
@@ -196,7 +196,7 @@ See at
 
 ### Equivariant Hopf degree theorem
 
-On [[flat orbifolds]], twisted Cohomotopy becomes [[equivariant Cohomotopy]] and the twisted [[Hopf degree theorem]] becomes the
+On [[flat orbifolds]], twisted cohomotopy becomes [[equivariant cohomotopy]] and the twisted [[Hopf degree theorem]] becomes the
 
 * [[equivariant Hopf degree theorem]]
 
@@ -221,7 +221,7 @@ Discussion of the [[twisted Pontrjagin theory]] and of twisted [[stable cohomoto
 
 * {#Cruickshank03} [[James Cruickshank]], Lemma 5.2 and Section 7 of: _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">doi:10.1016/S0166-8641(02)00183-9</a>)
 
-Discussion of unstabilized twisted cohomotopy, with application to foundations of [[M-theory]] ([[schreiber:Hypothesis H]]):
+Discussion of unstabilized twisted cohomotopy, with application to foundations of [[M-theory]] ([[Hypothesis H]]):
 
 * {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
 
