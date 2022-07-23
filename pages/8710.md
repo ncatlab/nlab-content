@@ -21,7 +21,7 @@
 
 ## Idea
 
-_Differential cohesive homotopy type theory_ is the [[modal type theory]] obtained by adding to [[cohesive homotopy type theory]] an [[adjoint triple]] of [[idempotent monad|idempotent (co)monadic]] [[modalities]]:
+**Differential cohesive homotopy type theory** or **elastic homotopy type theory** is the [[modal type theory]] obtained by adding to [[cohesive homotopy type theory]] an [[adjoint triple]] of [[idempotent monad|idempotent (co)monadic]] [[modalities]]:
 
 $$
   \Re \dashv \Im \dashv \&
@@ -130,6 +130,8 @@ for a space $S$.
 ## Related concepts
 
 * [[cohesive homotopy type theory]]
+
+* [[super homotopy type theory]]
 
 * [[differential cohesive (infinity,1)-topos]]
 
