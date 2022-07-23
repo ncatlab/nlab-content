@@ -253,7 +253,7 @@ $$ \Omega^{\mathrm{QG}}_d = 0. $$
 \end{conjecture}
 
 \begin{remark}
-A rigorous discussion of a possible role of [[cobordism cohomology]] in [[M-theory]], assuming [[schreiber:Hypothesis H]], is in [Sati & Schreiber 21a](#SatiSchreiber21a); for relation to discussion of Conj. \ref{OriginalSwamplandCobordismConjecture} see [p. 83](https://arxiv.org/pdf/2103.01877.pdf#page=83) there.
+A rigorous discussion of a possible role of [[cobordism cohomology]] in [[M-theory]], assuming [[Hypothesis H]], is in [Sati & Schreiber 21a](#SatiSchreiber21a); for relation to discussion of Conj. \ref{OriginalSwamplandCobordismConjecture} see [p. 83](https://arxiv.org/pdf/2103.01877.pdf#page=83) there.
 \end{remark}
 
 
