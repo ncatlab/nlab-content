@@ -18,14 +18,14 @@ $\,$
 </a>
 </div>
 
-
 ## position
 
 I work in <br>
 the [Mathematics Department](https://nyuad.nyu.edu/en/academics/divisions/science/academic-programs/math.html) <br/>
 of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/) <br/>
 in the group of Prof. [[Hisham Sati]] leading the <br/>
-[Research Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) (see *[[CQTS]]*).
+[Research Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) $\;\;\;$
+(see at *[[CQTS]]* for latest activity).
 
 
 ## contact
@@ -61,6 +61,7 @@ For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+
 
   * *[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]*, Proceedings of Symposia in Pure Mathematics **83** Amer. Math. Soc (2011) $[$[ISBN:978-0-8218-5195-1](http://bookstore.ams.org/PSPUM-83)$]$
 
+
 ## research wiki
 
 <a href="http://ncatlab.org/nlab/show/HomePage"><div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://i.stack.imgur.com/1hvpz.png" alt="nLab banner" /></div></a>
@@ -69,11 +70,11 @@ I like to put math/phys information into context. <br/> For that purpose I had s
 
 * *[[Home Page|the $n$Lab research wiki project]]*
 
-with edit logs and discussion on:
+with edit logs and discussion being had on:
 
 * [the nForum discussion board](https://nforum.ncatlab.org/).
 
-For more on what the $n$Lab is, see:
+For more on the $n$Lab, see:
 
 * me on: _[[schreiber:What is... the nLab|What is... the nLab?]]_
 
