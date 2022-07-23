@@ -38,7 +38,7 @@ Relation to [[Borcherds algebras]]:
 * Pierre Henry-Labordere, [[Bernard Julia]], Louis Paulot, _Borcherds symmetries in M-theory_, ([arXiv:hep-th/0203070](https://arxiv.org/abs/hep-th/0203070))
 
 
-Relation to [[schreiber:Hypothesis H]] via [[automorphisms]] of [[iterated loop space|iterated]] [[cyclic loop spaces]] of the [[4-sphere]]:
+Relation to [[Hypothesis H]] via [[automorphisms]] of [[iterated loop space|iterated]] [[cyclic loop spaces]] of the [[4-sphere]]:
 
 * [[Hisham Sati]], [[Alexander Voronov]], *Mysterious triality* ([arXiv:2111.14810](https://arxiv.org/abs/2111.14810))
 
