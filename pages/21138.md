@@ -115,7 +115,7 @@ Taken at face value, the K-theory conjecture applied to [[type IIB string theory
 
 An old argument of [BDHKMMS 01, Sec. 4.5.2](#BDHKMMS01) says that [[equivariant K-theory]] by itself produces spurious [[fractional D-brane]] charges that need to be eliminated by some modification of the K-theory conjecture. 
 
-Evidence that this correction is provided by lifting to [[equivariant stable Cohomotopy]] instead ([[schreiber:Hypothesis H]]) is offered in [[schreiber:Lift of fractional D-brane charge to equivariant Cohomotopy theory|BSS 20]].
+Evidence that this correction is provided by lifting to [[equivariant stable Cohomotopy]] instead ([[Hypothesis H]]) is offered in [[schreiber:Lift of fractional D-brane charge to equivariant Cohomotopy theory|BSS 20]].
 
 
 ### Spurious D-brane charges on group manifolds
@@ -134,7 +134,7 @@ Finally, the lift of the putative [[D-brane]] [[Dirac charge quantization|charge
 However, a highly non-trivial check in [DMW 00](#DMW00) successfully matched
 the first non-trivial differential in the [[Atiyah-Hirzebruch spectral sequence]] for [[topological K-theory]], applied on the RR-flux component $F_4$, to a constraint on the [[supergravity C-field|C-fied]] flux $G_4$ obtained from a [[path integral]]-argument in [[D=11 supergravity]].
 
-Incidentally, this and related conditions on the [[supergravity C-field|C-field]] derived in [DMW 00](#DMW00) from a [[path integral]]-argument in [[D=11 supergravity]] are all implied also by the [[schreiber:Hypothesis H]] that the [[supergravity C-field|C-field]], in turn, is [[Dirac charge quantization|charge quantized]] in [[twisted Cohomotopy theory]] ([[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation on 8-manifolds|FSS 19]]).
+Incidentally, this and related conditions on the [[supergravity C-field|C-field]] derived in [DMW 00](#DMW00) from a [[path integral]]-argument in [[D=11 supergravity]] are all implied also by the [[Hypothesis H]] that the [[supergravity C-field|C-field]], in turn, is [[Dirac charge quantization|charge quantized]] in [[twisted Cohomotopy theory]] ([[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation on 8-manifolds|FSS 19]]).
 
 ## Properties
 
