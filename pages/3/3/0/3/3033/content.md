@@ -34,7 +34,7 @@ I have my PhD in [[mathematics|math]] from the University of Pisa. Have been a p
 
 ## my research {#myresearch}
 
-I'm principally interested in categorical constructions arising from theoretical [[physics]]. See _[[schreiber:Hypothesis H]]_.
+I'm principally interested in categorical constructions arising from theoretical [[physics]]. See _[[Hypothesis H]]_.
 
 Something like a personal research wiki with more information is beginning to develop at
 
