@@ -37,6 +37,9 @@ The [[modal objects]] for $\rightsquigarrow$ are the _bosonic objects_.
 
 The [[right adjoint]] of the bosonic modality is the _[[rheonomy modality]]_.
 
+## See also
+
+[[!include cohesion - table]]
 
 [[!redirects fermionic modality]]
 
