@@ -15,7 +15,7 @@
 
 ## General idea
 
-The notions of *[[posets]]* and *[[prosets]]* (in [[order theory]]),  and of *[[thin categories]]*, *[[truth-value]]-[[enriched categories]]* and *[[(0,1)-categories]]* (in [[category theory]] and [[higher category theory]]) are all closely related and yet possibly subtly but crucially different:
+The notions of *[[posets]]* and *[[prosets]]* (in [[order theory]]),  and of *[[thin categories]]*, *[[truth-value]]-[[enriched categories]]* and *[[(0,1)-categories]]* (in [[category theory]] and [[higher category theory]]) are all closely related and yet possibly subtly but crucially different (see also at *[[category theory vs order theory]]*):
 
 
 In [[category theory]]-language:
