@@ -136,7 +136,7 @@ It may seem on first sight that foundational questions in mathematics are remote
 
 [[practical foundations|Practical foundations]] in terms of [[type theory]] language are laid out in
 
-* [[Paul Taylor]], _[[Practical Foundations of Mathematics]]_, Cambridge University Press ([web](http://www.cs.man.ac.uk/~pt/Practical-Foundations/html/index.html))
+* [[Paul Taylor]], _[[Practical Foundations of Mathematics]]_, Cambridge University Press ([web](http://www.paultaylor.eu/~pt/prafm/index.html))
 {#Taylor}
 
 Under [[computational trinitarianism]] this corresponds to a practical foundation in [[program|programming]], laid out in
