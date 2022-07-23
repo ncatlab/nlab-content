@@ -19,24 +19,32 @@
 
 When formulating a [[theory of physics]] in terms of [[mathematics]] one typically models the range of certain physical quantities by [[torsors]] over some [[group]] of transformations.  
 
-For instance a [[wavelength]] would be identified as element in the [[real line]] minus its origin, $\mathbb{R}-\{0\}$ , being a torsor over the [[multiplicative group]] $\mathbb{R}^\times$ of [[real numbers]]. 
+For instance a [[wavelength]] would be identified as an element in the [[positive real numbers]], $\mathbb{R}_{\gt0}$ , being a torsor over the [[multiplicative group]] $\mathbb{R}_{\gt0}^\times$ of [[positive reals]].
 
 In order for the "[[coordination]]" of the mathematical theory with physical [[experiment]] to take place, one needs to choose an identification of this abstract torsor with the (idealized) one that it is supposed to model in nature. Such a choice is equivalent to a choice of [[unit]] (in the mathematical sense), hence a choice of element of the torsor. In this context this is then a _physical unit_. 
 
-For instance picking an element in $\mathbb{R}-\{0\}$ and declaring this to be length of the path travelled by light in a vacuum in 
-1/299 792 458 second means defining a _physical unit of length_ (in this example:  of the [[meter]]).
+For instance picking an element in $\mathbb{R}_{\gt0}$ and declaring this to be the length of the path travelled by light in a vacuum in 
+1/299 792 458 second means defining a _physical unit of length_ (in this example: of the [[meter]]).
+
+Notice that _choice of unit_ is also called _choice of gauge_. This is indeed the same "[[gauge]]" as in "[[gauge theory]]", as it is how ([Weyl 23](gauge#Weyl23)) introduced the concept of gauge theory: as a theory in which the choice of unit of length may change along paths in space.
+
+
+## Relation to physical constants
 
 Physical units are often called _physical constants_. But by definition physical units are arbitrary choices made in the desciption of a physical system. Of course once made, one wants to keep these choices constant, such as to be useful. 
 
-The actual _constants of nature_ are instead quotients of physical units. For instance the [[fine structure constant]] is the [[quotient]]
+The actual _constants of nature_, when they are "dimensionful", are instead elements of these abstract torsors. For example, the [[Planck length]] belongs to the torsor of length, a torsor over $\mathbb{R}_{\gt0}^\times$. We can describe it by its ratio to another element of the same torsor, such as the meter — the Planck length is approximately $1.616 \cdot 10^{-35} \mathrm{m}$ — but the number appearing in this statement is completely driven by our arbitrary choice of the meter.
+
+An actual constant of nature corresponds to a specific, non-arbitrary real number only when it is a _dimensionless_ quotient of physical quantities. For instance the [[fine structure constant]] is the [[quotient]]
 
 $$
   \alpha \coloneqq \frac{e^2}{ (4 \pi \epsilon_0) \hbar c} \in \mathbb{R}
 $$
 
-where $e$ is the [[electric charge]] of the [[electron]] expressed in physical units of charge (such as [[coulomb]]s), $\hbar$ is [[Planck's constant]] etc. The resulting quotient is then independent of any choices and is hence a [[real number]] characterizing nature independently of any conventions about how to parameterize it.
+where $e$ is the [[electric charge]] of the [[electron]], $\hbar$ is [[Planck's constant]], etc. These quantities are such that their dimensionalities cancel out, meaning their quotient is a member not of an abstract torsor but of $\mathbb{R}$ itself, and hence a [[real number]] characterizing nature independently of any conventions about how to parameterize it.
 
-Notice that _choice of unit_ is also called _choice of gauge_. This is indeed the same "[[gauge]]" as in "[[gauge theory]]", as it is how ([Weyl 23](gauge#Weyl23)) introduced the concept of gauge theory: as a theory in which the choice of unit of length may change along paths in space.
+For computing such a quotient concretely, one expresses each of the constituent quantities as some real multiple of an appropriate physical unit: e.g. $e$ as a multiple of the [[coulomb]], $c$ as a multiple of the meter per second, etc. If the units are chosen such that their quotient is unity, then the quotient of the numbers is the actual physical constant.
+
 
 ## Units of length in Lagrangian field theory
  {#UnitsOfLengthInLagrangianFieldTheory}
