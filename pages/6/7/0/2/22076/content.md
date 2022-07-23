@@ -16,7 +16,7 @@ and for [[KO]]:
 
 * {#GradySati19b} [[Daniel Grady]], [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
-On [[Cohomotopy]] and [[schreiber:Hypothesis H]]:
+On [[Cohomotopy]] and [[Hypothesis H]]:
 
 * {#GS20} [[Daniel Grady]], [[Hisham Sati]], _Differential cohomotopy versus differential cohomology for M-theory and differential lifts of Postnikov towers_ ([arXiv:2001.07640](https://arxiv.org/abs/2001.07640))
 
