@@ -34,7 +34,7 @@ in the group of Prof. [[Hisham Sati]] leading the <br/>
 
 ## research 
 
-I am doing research in mathematical fundamental physics (e.g *[[schreiber:Hypothesis H]]*).
+I am doing research in mathematical fundamental physics (e.g *[[Hypothesis H]]*).
 
 For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References).
 
@@ -45,7 +45,7 @@ For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+
 
 * on the [arXiv](https://arxiv.org/find/math/1/au:+Schreiber_U/0/1/0/all/0/1) preprint server
 
-* about *[Hypothesis H](https://ncatlab.org/schreiber/show/Hypothesis%20H#References)*
+* about *[Hypothesis H](https://ncatlab.org/nLab/show/Hypothesis%20H#References)*
 
 * monographs on the [[nLab]]:
 
