@@ -16,7 +16,7 @@ Suppose a scheme $S$ is defined over  a field $k$, so is equipped with a morphis
 +-- {: .num_defn}
 ###### Definition
 
-A **geometric point** $\xi$ in $S$ is a [[morphism]] from the [[spectrum of a commutative ring|spectrum]] $Spec(\overline{k})$ to $S$ where $\overline{k}$ is an [[algebraic closure]]/[[separable closure]] of $k$.
+A **geometric point** $\xi$ in $S$ is a [[morphism]] from the [[spectrum of a commutative ring|spectrum]] $Spec(K)$ to $S$ where $K$ is an [[algebraic closure]]/[[separable closure]] of $k$.
 
 =--
 
