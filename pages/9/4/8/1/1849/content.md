@@ -63,7 +63,7 @@ This condition was originally argued for in ([Witten 96a](#Witten96a), [Witten 9
 
 Proposals for encoding this condition by a [[Wu class]]-shifted variant of [[generalized (Eilenberg-Steenrod) cohomology theory|stable]] [[ordinary differential cohomology]] were considered in [[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 02]], [Diaconescu-Freed-Moore 03](#DiaconescuFreedMoore03), [FSS 12](#FSS12).
 
-It turns out that the shifted flux quantization condition on the C-field is naturally implied ([FSS1 19b, Prop. 4.12](#FSS19b)) by the requirement that $G_4$ is the differential form datum underlying, via [[Sullivan model|Sullivan's theorem]], a [[cocycle]] in unstable [[J-homomorphism|J-]] [[twisted Cohomotopy]] in degree 4 ([[schreiber:Hypothesis H]]).
+It turns out that the shifted flux quantization condition on the C-field is naturally implied ([FSS1 19b, Prop. 4.12](#FSS19b)) by the requirement that $G_4$ is the differential form datum underlying, via [[Sullivan model|Sullivan's theorem]], a [[cocycle]] in unstable [[J-homomorphism|J-]] [[twisted Cohomotopy]] in degree 4 ([[Hypothesis H]]).
 
 
 ### C-Field tadpole cancellation condition
@@ -141,7 +141,7 @@ One proposal for a mathematical model of the C-field is as a [[cocycle]] in a [[
 
 * [The DFM model](#DFMmodel)
 
-Another proposal is that the C-field is simply a [[cocycle]] in [[J-homomorphism|J-]] [[twisted Cohomotopy]] ([[schreiber:Hypothesis H]]):
+Another proposal is that the C-field is simply a [[cocycle]] in [[J-homomorphism|J-]] [[twisted Cohomotopy]] ([[Hypothesis H]]):
 
 * [C-field charge quantization in J-twisted Cohomotopy](#ModelByTwistedCohomotopy)
 
@@ -828,7 +828,7 @@ This means that cocycles with coefficients in this subobject for $C = 0$ are coc
 ### Model by twisted Cohomotopy
  {#ModelByTwistedCohomotopy}
 
-It turns out that the [[shifted C-field flux quantization condition]] is naturally implied ([FSS1 19b, Prop. 4.12](#FSS19b)) by the requirement that $G_4$ is the differential form datum underlying, via [[Sullivan model|Sullivan's theorem]], a [[cocycle]] in unstable [[J-homomorphism|J-]] [[twisted Cohomotopy]] in degree 4 ([[schreiber:Hypothesis H]]).
+It turns out that the [[shifted C-field flux quantization condition]] is naturally implied ([FSS1 19b, Prop. 4.12](#FSS19b)) by the requirement that $G_4$ is the differential form datum underlying, via [[Sullivan model|Sullivan's theorem]], a [[cocycle]] in unstable [[J-homomorphism|J-]] [[twisted Cohomotopy]] in degree 4 ([[Hypothesis H]]).
 
 
 ## Related concepts
