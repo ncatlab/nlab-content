@@ -35,7 +35,7 @@ Later this will lead naturally on to an infinite sequence of steps:  first [[2-c
 
 =--
 
-The concept that formalizes this is that of a [[category]]: a collection of arrows/morphism that can be [[composition|composed]] if they are adjacent.
+The concept that formalizes this is that of a [[category]]: a collection of arrows/morphism that can be [[composition|composed]] if they are adjacent
 
 $$
   \left(
