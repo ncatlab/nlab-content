@@ -115,7 +115,7 @@ But in fact (eq:FirstCorrectionToG7) does not quite make general sense, for two 
 
 **Charge-quantized $\widetilde G_7$-flux with [[shifted C-field flux quantization]]** ([FSS 19b, Prop. 4.3](#FSS19b), [FSS 19c, Section 4](#FSS19c))
 
-Both of these issues are solved if the [[C-field]] is taken to be [[charge quantization|charge quantized]] in [[J-homomorphism|J-]][[twisted Cohomotopy]] ([[schreiber:Hypothesis H]]). This gives the corrected formula 
+Both of these issues are solved if the [[C-field]] is taken to be [[charge quantization|charge quantized]] in [[J-homomorphism|J-]][[twisted Cohomotopy]] ([[Hypothesis H]]). This gives the corrected formula 
 
 \[
   \label{FullCorrectionToG7}
@@ -137,7 +137,7 @@ where
      h \coloneqq h_{\mathbb{H}}\sslash Sp(2)
    $$ 
 
-   to [[spacetime]], along the [[twisted Cohomotopy]]-[[cocycle]] that represents the [[C-field]] under [[schreiber:Hypothesis H]];
+   to [[spacetime]], along the [[twisted Cohomotopy]]-[[cocycle]] that represents the [[C-field]] under [[Hypothesis H]];
 
 1. $\widetilde G_4 \coloneqq h^\ast G_4 + \tfrac{1}{4}h^\ast p_1(\nabla)$ is the integral [[shifted C-field flux quantization|shifted C-field]] pulled back to that 3-[[spherical fibration]] over spacetime;
 
