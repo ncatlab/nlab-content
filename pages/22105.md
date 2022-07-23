@@ -119,7 +119,7 @@ The vanishing of the [[Euler characteristic]] of K3 after cutting out the [[comp
     "caption": "from [SS21](https://ncatlab.org/schreiber/show/M-Theory+as+Mf-Theory)"
 \end{imagefromfile}
 
-This relates the number of 24 branes transverse on K3 to [[schreiber:Hypothesis H]]:
+This relates the number of 24 branes transverse on K3 to [[Hypothesis H]]:
 
 \begin{imagefromfile}
     "web": "schreiber",
