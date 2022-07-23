@@ -134,7 +134,7 @@ Normed division algebras are used to describe the construction of [[Lie 2-algebr
 
 * [[John Huerta]], _Division Algebras and supersymmetry III_, ([arXiv:1109.3574](http://arxiv.org/abs/1109.3574))
 
-This is made use of in the [[schreiber:Hypothesis H|homotopy theoretic description of M-theory]] in:
+This is made use of in the [[Hypothesis H|homotopy theoretic description of M-theory]] in:
 
 * [[John Huerta]], [[Urs Schreiber]], _[[schreiber:M-Theory from the Superpoint]]_, Letters of Mathematical Physics, 2018 ([arXiv:1702.01774](https://arxiv.org/abs/1702.01774))
 
