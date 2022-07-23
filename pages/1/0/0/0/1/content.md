@@ -85,7 +85,7 @@ Usually this works well. If there is need for discussion, the
 ## Server and setup
  {#Server}
 
-The domain `ncatlab.org` is owned by [[Urs Schreiber]]. 
+The domain `ncatlab.org` is owned by the string theorist [[Urs Schreiber]]. 
 
 The $n$Lab server is currently hosted at Carnegie Mellon University, funded in the context of the [HoTT MURI grant](http://homotopytypetheory.org/2014/04/29/hott-awarded-a-muri/). 
 
