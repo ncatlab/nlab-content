@@ -105,7 +105,7 @@ Discussion via [[machine learning]] of [[connection on a bundle|connections]] on
 
 * [[Anthony Ashmore]], Rehan Deen, [[Yang-Hui He]], [[Burt Ovrut]], *Machine Learning Line Bundle Connections* ([arXiv:2110.12483](https://arxiv.org/abs/2110.12483))
 
-Appearance of heterotic line bundles via [[schreiber:Hypothesis H]]:
+Appearance of heterotic line bundles via [[Hypothesis H]]:
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Twistorial Cohomotopy implies Green-Schwarz anomaly cancellation]]*, Reviews in Mathematical Physics **34** 05 (2022) 2250013 &lbrack;[arXiv:2008.08544](https://arxiv.org/abs/2008.08544), [doi:10.1142/S0129055X22500131](https://doi.org/10.1142/S0129055X22500131)&rbrack;
 
