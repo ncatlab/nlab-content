@@ -152,7 +152,7 @@ where the last equality follows from the definition of the super convex space st
 
 
 The category $\mathbf{SCvx}$ has all limits and colimits.  Furthermore it is a symmetric monoidal closed category under the tensor product. The proof of the latter condition follows the proof by Meng, replacing finite sums with countable sums.
-From the alternative definition it is clear that the subcategory consisting of the single object $\Delta_{\mathbb{N}}$ is a dense subcategory of $\mathbf{SCvx}$.
+From the alternative definition it is clear that the full subcategory consisting of the single object $\Delta_{\mathbb{N}}$ is a dense subcategory of $\mathbf{SCvx}$.
 
 
   An ideal in a super convex space $A$ is a subset $\mathcal{I}$ such that whenever $a_0 \in \mathcal{I}$ and $\sum_{i \in \mathbb{N}}p_i a_i$ is a countable affine sum with the coefficient of $a_0$ nonzero then $\sum_{i \in \mathbb{N}}p_i a_i \in \mathcal{I}$.   Ideals are useful for defining functors to or from $\mathbf{SCvx}$.
