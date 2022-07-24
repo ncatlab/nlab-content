@@ -661,7 +661,7 @@ Further references include for instance
 
 * {#NST2020} Branko Nikolić, [[Ross Street]], Giacomo Tendas, _Cauchy completeness for DG-categories_, Theory and Applications of Categories, 37(28):940-963, 2021 [link](http://www.tac.mta.ca/tac/volumes/37/28/37-28abs.html).
 
-* {#LT2022} Stephen Lack, Giacomo Tendas, _Flat vs. filtered colimits in the enriched context_, Advances in Mathematics, 404(A):108381, 2022. Also [arXiv](https://arxiv.org/abs/2107.08612).
+* {#LT2022} [[Stephen Lack]], Giacomo Tendas, _Flat vs. filtered colimits in the enriched context_, Advances in Mathematics, 404(A):108381, 2022. [arXiv:2107.08612](https://arxiv.org/abs/2107.08612), [doi](https://doi.org/10.1016/j.aim.2022.108381).
 
 Cauchy completion of [[internalization|internal]] [[prosets]] is discussed in 
 
