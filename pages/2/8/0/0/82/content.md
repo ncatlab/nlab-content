@@ -59,7 +59,7 @@ Discussion in [[algebraic geometry]]:
 
 ### Introductions
 
-A gentle basic introduction is 
+A gentle basic introduction, with recommendations for further reading, is 
 
 * [[John Baez]], [Topos Theory in a Nutshell](http://math.ucr.edu/home/baez/topos.html).
 
@@ -98,7 +98,7 @@ Other introductions include
 
 Introducing even category theory from the scratch while still managing to cover some ground, the following textbook is the _royal road to topos theory_ for people with some background in [[first-order logic]]:
 
-* {#Goldblatt84} R. Goldblatt, _Topoi - The Categorical Analysis of Logic_ , 2nd ed. North-Holland Amsterdam 1984. (Dover reprint New York 2006; [project euclid](http://projecteuclid.org/euclid.bia/1403013939))
+* {#Goldblatt84} [[Robert Goldblatt]], _Topoi: The Categorial Analysis of Logic_, 2nd ed. North-Holland Amsterdam 1984. ([Dover reprint](https://store.doverpublications.com/0486450260.html) New York 2006; free online at [Project Euclid](http://projecteuclid.org/euclid.bia/1403013939).)
 
 
 See also 
@@ -126,7 +126,7 @@ A nice and concise introduction is available in
 
 A historical analysis of Grothendieck's 1973 Buffalo lecture series on toposes and their precedents is in
 
-* {#McLarty18} [[Colin McLarty]], _Grothendieck's 1973 topos lectures_, Séminaire Lectures grothendieckiennes, 3 May (2018) ([YouTube video](https://www.youtube.com/watch?v=hhWT5V0oaSI))
+* {#McLarty18} [[Colin McLarty]], _Grothendieck's 1973 topos lectures_, Séminaire Lectures grothendieckiennes, 3 May (2018) ([YouTube video](https://www.youtube.com/watch?v=5AR55ZsHmKI))
 
 * _[The peripatetic seminar on sheaves and logic 1976-1999](http://www.wra1th.plus.com/gcw/math/PSSL/index.html)_
 
