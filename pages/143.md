@@ -281,7 +281,7 @@ Inspection then shows that the [[limit]] $\underset{\leftarrow}{\lim}_{i \in I} 
 #### As étale spaces
  {#AsEtaleSpace}
 
-Further in the case whete the [[site]] the the [[category of open subsets]] of a [[topological space]] $B$.
+Further in the case where the [[site]] is the [[category of open subsets]] of a [[topological space]] $B$.
 
 Some authors (e.g., [[Robert Goldblatt|Goldblatt]] in _Topoi: The Categorial Analysis of Logic_, §4.5, p. 96) use _sheaf_ to mean what we call an [[étale space]]: a topological [[bundle]] where the projection map is a [[local homeomorphism]].
 
