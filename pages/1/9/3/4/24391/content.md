@@ -172,7 +172,7 @@ defined on it pointwise.
 
 Note that if  $X$ is any measurable space  the maximal proper ideals of $\mathcal{G}{X}$ are of the form $ev_{U}^{-1}( (0,1])$ or $ev_U^{-1}([0,1))$ for $U\ne X$ a nonempty measurable set in $X$. 
 
-To prove this, note that  both $(0,1]$ and $[0,1)$ are ideals in the super convex space $[0,1]$, with the natural super convex space structure, and it follows that $ev_{U}^{-1}( [0,1))$ and $ev_U^{-1}((0,1])$ are ideals in $\mathcal{G}{X}$. (The preimage of an ideal under a countably affine map is an ideal in the domain space. The proof is the standard argument for ideals in any category.)  Consider the ideal $ev_U^{-1}( [0,1))$.  To show that this is a maximal proper ideal suppose that $\mathcal{I}$ is another ideal of $\mathcal{G}{X}$ such that $ev_U^{-1}( [0,1)) \varsubsetneqq  \mathcal{I}$.  Every element $P \in \mathcal{I}$ which is not in $ev_U^{-1}([0,1))$ has the defining  property that $P(U^c)=1$.    Now let $Q \in \mathcal{G}{X}$.  If  $Q \notin \mathcal{J}$ then $Q(U^c) \ne 1$ which implies  $Q \in ev_U^{-1}( [0,1)) \varsubsetneqq J$ which is self-contradictory.  Thus $\mathcal{J}$ must be all of $\mathcal{G}{X}$ which shows $ev_U^{-1}([0,1))$ is a maximal (proper) ideal.
+To prove this, note that  both $(0,1]$ and $[0,1)$ are ideals in the super convex space $[0,1]$, with the natural super convex space structure, and it follows that $ev_{U}^{-1}( [0,1))$ and $ev_U^{-1}((0,1])$ are ideals in $\mathcal{G}{X}$. (The preimage of an ideal under a countably affine map is an ideal in the domain space. The proof is the standard argument for ideals in any category.)  Consider the ideal $ev_U^{-1}( [0,1))$.  To show that this is a maximal proper ideal suppose that $\mathcal{I}$ is another ideal of $\mathcal{G}{X}$ such that $ev_U^{-1}( [0,1)) \varsubsetneqq  \mathcal{I}$.  Every element $P \in \mathcal{I}$ which is not in $ev_U^{-1}([0,1))$ has the defining  property that $P(U^c)=1$.    Now let $Q \in \mathcal{G}{X}$.  If  $Q \notin \mathcal{J}$ and $Q \notin ev_U^{-1}([0,1))$ then $Q(U^c) \ne 1$ which implies  $Q \in ev_U^{-1}( [0,1)) \varsubsetneqq J$ which is self-contradictory.  Thus $\mathcal{J}$ must be all of $\mathcal{G}{X}$ which shows $ev_U^{-1}([0,1))$ is a maximal (proper) ideal.
 The argument that the ideal $ev_U^{-1}( (0,1])$ is a maximal ideal is similiar except we replace the condition $P(U^c)=1$ in the above proof with $P(U)=0$.
 
 If we restrict to the category of standard measurable spaces then every object has a countable generating basis and it is then clear that every ideal in $\mathcal{G}(X)$ is a  countable intersection of maximal ideals, and hence measurable.  This implies, for example, that every countably affine map $k: \mathcal{G}(X) \rightarrow \mathbb{N}$ is also a  measurable function with $\mathbb{N}$ having the powerset $\sigma$-algebra. (The only ideals of $\mathbb{N}$ are the principal ideals $\downarrow \! 0 \subset \downarrow \! 1 \subset \ldots$.)
@@ -192,6 +192,10 @@ The one point compactification of the real line $\mathbb{R}_{\infty}$, with one 
  
 \end{example} 
 
+## Related concepts
+
+* [[totally convex space]]
+* [[convex space]]
 
 ## References
 The article 
