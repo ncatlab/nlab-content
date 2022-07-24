@@ -188,7 +188,7 @@ The one point compactification of the real line $\mathbb{R}_{\infty}$, with one 
 \end{example}
  
 \begin{example}
- Let $A=\{\underline{u}, \underline{0}, \underline{1}\}$ denote the quotient space obtained as the coequalizer of a parallel pair of distinct maps, say $\frac{1}{3}: \one \rightarrow [0,1]$ and $\frac{2}{3}: \mathbf{1} \rightarrow [0,1]$,   in $\mathbf{SCvx}$, where $[0,1]$ has the natural super convex space structure. The quotient space $A$ has the (super) convex space structure specified by $r \underline{0} + (1-r) \underline{u} = \underline{u}$ for all $r \in (0,1)$, $r \underline{1} + (1-r) \underline{u} = \underline{u}$ for all $r \in (0,1)$, and $r \underline{0} + (1-r) \underline{1} = \underline{u}$ for all $r \in (0,1)$.
+ Let $A=\{\underline{u}, \underline{0}, \underline{1}\}$ denote the quotient space obtained as the coequalizer of a parallel pair of distinct maps, say $\frac{1}{3}: \mathbf{1} \rightarrow [0,1]$ and $\frac{2}{3}: \mathbf{1} \rightarrow [0,1]$,   in $\mathbf{SCvx}$, where $[0,1]$ has the natural super convex space structure. The quotient space $A$ has the (super) convex space structure specified by $r \underline{0} + (1-r) \underline{u} = \underline{u}$ for all $r \in (0,1)$, $r \underline{1} + (1-r) \underline{u} = \underline{u}$ for all $r \in (0,1)$, and $r \underline{0} + (1-r) \underline{1} = \underline{u}$ for all $r \in (0,1)$.
  
 \end{example} 
 
