@@ -422,6 +422,10 @@ The case for [[locally presentable categories]] is discussed in
 * [[Jiří Adámek]], V. Koubek and V. Trnkov&#225;, *How large are left exact functors?*, Theory and Applications of Categories **8** (2001), pp. 377-390. ([abstract](http://www.emis.de/journals/TAC/volumes/8/n13/8-13abs.html))
  {#AdamekKoubekTrnkova}
 
+A specialization to the locally $\alpha$-presentable case is given in Theorem 2.11 of
+
+* Giacomo Tendas, *On continuity of accessible functors*, Applied Categorical Structures, 2022, [doi](https://doi.org/10.1007/s10485-022-09677-x).
+
 A relative version of Freyd's classical results is in
 
 * [[Brian Day]], *An adjoint-functor theorem over topoi*, Bull. Austral. Math. Soc. **15** (1976), pp. 381-394.
