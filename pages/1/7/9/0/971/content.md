@@ -225,6 +225,12 @@ See also
 
 which further stratifies the accessible categories in terms of [[sound doctrines]].
 
+New characterizations of (enriched) accessible categories have been given in
+
+* [[Stephen Lack]], Giacomo Tendas, _Virtual concepts in the theory of accessible categories_, Journal of Pure and Applied Algebra, 2022. [arXiv:2205.11056](https://arxiv.org/abs/2205.11056), [doi](https://doi.org/10.1016/j.jpaa.2022.107196)
+
+where the notions of virtual orthogonality and virtual reflectivity are introduced. 
+
 The concept is studied in a 2-categorical setting in
 
 * [[John Bourke]], _Accessible aspects of 2-category theory_ , arXiv:2003.06375 (2020). ([abstract](https://arxiv.org/abs/2003.06375))
