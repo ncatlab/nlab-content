@@ -1,17 +1,11 @@
 
-> abc def
+# A heading about [[sets]]
 
-* Stuff
+discussed [[étale space#RelationToSheaves|at étale space]] [[étale space#RelationToSheaves]], etc.
 
-  > Blah blah
-  >
-  > * Thing
-  >
-  > * Other thing
-  >
-  > After thing
+* Foo bar
 
-
+  > A point of terminology: - I have consistently used the word “categorial” where the literature uniformly employs “categorical”. The reason is that while both can serve as adjectival forms of the noun “category”, the second of them already has a different and long established usage in the domain of logic, one that derives from its ordinary-language meaning of “absolute”. Logicians have known since the work of Gödel that set theory has no categorical axiomatisation. One function of this book will be to explain to them why it does have a categorial one.
 
 
 Let 
