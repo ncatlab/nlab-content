@@ -403,6 +403,8 @@ Generalization of the notion of regular categories to [[enriched category theory
 
 * Dimitri Chikhladze, _Barr's embedding theorem for enriched categories_, J. Pure Appl. Alg. __215__, n. 9 (2011) 2148-2153, [arxiv/0903.1173](http://arxiv.org/abs/0903.1173), [doi](http://dx.doi.org/10.1016/j.jpaa.2010.12.004)
 
+* [[Stephen Lack]], Giacomo Tendas, _Enriched regular theories_, J. Pure Appl. Alg. __226__, n. 6 (2020) 106268, [arXiv:1907.02301](https://arxiv.org/abs/1907.02301), [doi](https://doi.org/10.1016/j.jpaa.2019.106268)
+
 Regularity of (Hausdorff) [[compactly generated topological spaces]]:
 
 * {#CagliariMatovaniVitale95} F. Cagliari, S. Mantovani, [[Enrico Vitale]], *Regularity of the category of Kelley spaces*, Applied Categorical Structures volume 3, pages 357–361 (1995) ([doi:10.1007/BF00872904](https://link.springer.com/article/10.1007/BF00872904), [pdf](http://www.dm.unibo.it/~cagliari/articoli/Regularkelley.pdf))
