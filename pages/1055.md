@@ -58,8 +58,10 @@ Every [[covering space]] (even in the more general sense not requiring any conne
 * even if the the stalks of the étale space are finite, it need not be locally trivial. For instance the [[disjoint union]] $\coprod_i U_i$ of a collection of [[open subsets]] of a topological space $X$ with the obvious projection $(\coprod_i U_i) \to X$ is étale, but does not have a typical fiber: the fiber over a given point has [[cardinality]] the number of open sets $U_i$ that contain this particular point.
 
 
-## Grammar note
+## Grammar/pronunciation note
 {#grammar}
+
+### Grammar and spelling
 
 In French, the verb 'étaler' means, roughly, to spread out; '-er' becomes '-é' to make a past participle.  So an 'espace étalé' is a space that has been spread out over $B$.  On the other hand, 'étale' is a (relatively obscure, distantly related) nautical adjective that can be translated as 'calm' or 'slack'.  
 
@@ -69,6 +71,18 @@ To quote from the [Wiktionnaire français](https://fr.wiktionary.org/wiki/%C3%A9
 > 'étale' _qualifie la mer qui ne monte ni ne descend &#224; la fin du flot ou du jusant_ 
 ('flot' = 'flow' and 'jusant' = 'ebb').
 
+
+* [Further reference](https://en.wikipedia.org/wiki/Wikipedia_talk:WikiProject_Mathematics/Archive11#french_spelling)
+
+
+### Pronunciation
+
+The French pronunciation of "étalé" is three syllables; that of "étale" is two syllables, with the final "e" silent.
+
+When speaking English, however, [[Grothendieck]] himself pronounced both forms alike, with the two-syllable pronunciation of French "étale", even when writing "étalé". (See [[Colin McLarty#McLarty18|McLarty18]], from 4:45 to 6:05 and particularly [at 5:26](https://www.youtube.com/watch?v=5AR55ZsHmKI&t=326s).)
+
+
+### Poem
 
 There is an interesting stanza from a song of L&#233;o Ferr&#233;:
 
@@ -86,8 +100,6 @@ There is an interesting stanza from a song of L&#233;o Ferr&#233;:
 
 He also mentions geometry and 'th&#233;or&#232;me' elsewhere in the song.
 
-
-* [Further reference](https://en.wikipedia.org/wiki/Wikipedia_talk:WikiProject_Mathematics/Archive11#french_spelling)
 
 
 ## Related concepts
