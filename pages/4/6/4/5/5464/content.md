@@ -1,9 +1,13 @@
 
 <a id="DocStart"></a>
 
-# An informal introduction to topos theory # {: #title}
 
 This is a changing, editable document.  You can also read a [peer-reviewed, unchanging, non-editable version](http://ncatlab.org/publications/published/Leinster2011).  
+
+As of 2022, the version below is not entirely readable: the diagrams and some other typesetting are broken. A [readable copy of the peer-reviewed, non-editable version](https://web.archive.org/web/20131212071554/http://ncatlab.org:80/publications/published/Leinster2011) (give the scripts a few seconds to load after opening the page) can be found in the Internet Archive.
+
+
+# An informal introduction to topos theory # {: #title}
 
 ##### Tom Leinster ##### {: #author}
 
@@ -993,25 +997,3 @@ So there is a back-and-forth translation between [[nlab:geometric theories]] and
 * {: #citePare }Par&#233;, R., 1974. Colimits in [[nlab:topoi]]. *Bulletin of the American Mathematical Society* **80**:556--561.
 
 * {: #citeStrNT }Street, R., 1981. Notions of [[nlab:topos]]. *Bulletin of the Australian Mathematical Society* **23**:199--208.
-<a href="http://www.seoweblog.net">Jasa SEO</a>
-<a href="http://www.seoweblog.net">Jasa SEO Murah</a>
-<a href="http://www.seoweblog.net">SEO Indonesia</a>
-<a href="http://www.seoweblog.net">SEO</a>
-<a href="http://www.bisnisukm.biz">Bisnis UKM</a>
-<a href="http://www.tertinggal.com">Tertinggal</a>
-<a href="http://www.bisnismodalkecil.org">Bisnis Modal Kecil</a>
-<a href="http://www.cheapes.info">Cheapes</a>
-<a href="http://www.hostgator-coupon.co">Hostgator Coupon</a>
-<a href="http://www.linkbooking.info">Link Booking</a>
-<a href="http://www.televisoriofferte.info">Televisori offerte</a>
-<a href="http://www.notebook-offerte.info">Notebook Offerte</a>
-<a href="http://www.govr.info">Govr</a>
-<a href="http://www.ezido.info">Edo Ziedo</a>
-<a href="http://www.portatileapple.info">Portatile Apple</a>
-<a href="http://www.rdanet.info">RDAnet</a>
-<a href="http://www.lorks.info">Lorks</a>
-<a href="http://www.karikaturmurah.com">Karikatur</a>
-<a href="http://www.pusatsepatuonline.com">Sepatu Online</a>
-<a href="http://www.pusatsepatuonline.com">Toko Sepatu Online</a>
-<a href="http://www.pusatsepatuonline.com">Sepatu</a>
-<a href="http://www.pusatsepatuonline.com">Sepatu Safety</a>
