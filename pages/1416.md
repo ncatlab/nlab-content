@@ -340,6 +340,10 @@ A notion of "flat 2-functor" is discussed, with an eye towards applications with
 
 * M.E. Descotte, E.J. Dubuc, M. Szyld, _On the notion of flat 2-functors_, arXiv:[1610.09429](https://arxiv.org/abs/1610.09429)
 
+Enriched flat functors are studied and characterized in
+
+* [[Stephen Lack]], Giacomo Tendas, _Flat vs. filtered colimits in the enriched context_, Advances in Mathematics, 404(A):108381, 2022. [arXiv:2107.08612](https://arxiv.org/abs/2107.08612), [doi](https://doi.org/10.1016/j.aim.2022.108381).
+
 [[!redirects flat functor]]
 [[!redirects flat functors]]
 
