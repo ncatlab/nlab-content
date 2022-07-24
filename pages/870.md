@@ -124,6 +124,19 @@ $$ \prod_{A,B} \neg(A \wedge B) \to (\neg A + \neg B) $$
 Combine the two lemmas.
 =--
 
+### In the theory of pseudolattice ordered abelian groups
+
+Peter Freyd's definition of a [[pseudolattice ordered abelian group]] in [Freyd 08](#Freyd08) is equational, and so is a [[Lawvere theory]] and could be defined in a category with finite products and a generic object $A$ where every object is equivalent to a finite product of $A$. 
+
+Freyd then showed that the de Morgan laws are satisfied in any [[pseudolattice ordered abelian group]]:
+
+$$-(p \vee q) = (-p) \wedge (-q)$$
+$$-(p \wedge q) = (-p) \vee (-q)$$
+
+with the join and meet being the pseudolattice operations and negation being the negation of the abelian group. 
+
+In particular, the de Morgan laws are valid for the [[integers]], the [[rational numbers]], and the [[Dedekind real numbers]], with the join being the maximum function and the meet being the minimum function. 
+
 ## Related concepts
 
 * [[De Morgan Heyting algebra]]
@@ -133,6 +146,10 @@ Combine the two lemmas.
 * [[De Morgan topos]]
 
 * [[excluded middle]]
+
+## References
+
+* {#Freyd08} [[Peter Freyd]], *Algebraic real analysis*, Theory and Applications of Categories, Vol. 20, 2008, No. 10, pp 215-306 ([tac:20-10](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html))
 
 
 [[!redirects De Morgan duality]]
