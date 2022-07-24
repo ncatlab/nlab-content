@@ -19,7 +19,7 @@
 
 ## Definition
 
-Let [[Top]] be a category of [[topological space]]s and $B$ an object in $Top$ (the 'base' space). The [[over category|slice category]] $Top/B$ is called the category of (topological) spaces over $B$ (or sometimes simply bundles).
+Let [[Top]] be a category of [[topological space]]s and $B$ an object in $Top$ (the 'base' space). The [[over category|slice category]] $Top/B$ is called the category of (topological) spaces over $B$ (or sometimes simply [[bundles]]).
 
 An __étale space__ (or _[[étale map]]_, sometimes *étalé space*) over $B$ is an object $p:E\to B$ in $Top/B$ such that $p$ is a [[local homeomorphism]]: that is, for every $e\in E$, there is an open set $U \ni e$ such that the [[image]] $p(U)$ is open in $B$ and the restriction of $p$ to $U$ is a [[homeomorphism]] $p|_U: U \to p(U)$. 
 
