@@ -27,6 +27,8 @@ See also
 
 * [[motivation for sheaves, cohomology and higher stacks]].
 
+A competing, though related, definition which one sometimes sees uses "sheaf" as a synonym for [[étale space]]; see [discussion below](#AsEtaleSpace).
+
 
 ## Definition
 
@@ -288,6 +290,13 @@ Let $\mathcal{T}$ be be a [[topos]], regarded as a [[large site]] when equipped 
 
 =--
 
+
+### Alternate definition as synonym of [[étale space]]
+ {#AsEtaleSpace}
+
+Some authors (e.g., [[Robert Goldblatt|Goldblatt]] in _Topoi: The Categorial Analysis of Logic_, §4.5, p. 96) use _sheaf_ to mean what we call an [[étale space]]: a topological [[bundle]] where the projection map is a [[local homeomorphism]].
+
+As discussed at [[étale space#RelationToSheaves]], there is an [[equivalence of categories]] between the "sheaves" in this sense over a given base space $B$ (i.e., the étale spaces over $B$), and the sheaves as defined above over $B$.
 
 
 ## Sheaves and localization
