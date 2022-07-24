@@ -87,6 +87,7 @@ Of course, most of the examples given above are cancellative, being manifestly g
 
 ## Related concepts
 
+* [[super convex space]]
 * [[convex function]]
 * [[distribution monad]]
 * [[monads of probability, measures, and valuations]]
