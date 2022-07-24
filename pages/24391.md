@@ -72,6 +72,8 @@ The second axiom uses  the pushforward measure $\mathcal{G}(\mathbf{Q})\mathbf{p
 \end{array}$} (01);
 \end{tikzpicture}
 \end{centre}
+Note the second axiom alone is sufficient because by choosing the constant sequence $\mathbf{Q}: \mathbb{N} \rightarrow \mathcal{G}\mathbb{N}$ with value $\delta_j$ it follows that the second axiom implies the first axiom.
+
 
 A morphism of super convex spaces, called a countably affine map, is a set function $m: A \rightarrow B$ such that
 \begin{equation} 
@@ -80,7 +82,6 @@ m\big( \int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p}\big) = \int_{\mathbb{N}} (m \
 where the composite  $m \circ \mathbf{a}$ gives the sequence in $B$  with component $m(a_i)$.
 Composition of countably affine maps is the set-theoretical composition.
 Super convex spaces with morphisms the countably affine maps form a category denoted $\SCvx$. 
-
 
 
 ## Alternative Definition 
