@@ -77,9 +77,9 @@ To quote from the [Wiktionnaire français](https://fr.wiktionary.org/wiki/%C3%A9
 
 ### Pronunciation
 
-The French pronunciation of "étalé" is three syllables; that of "étale" is two syllables, with the final "e" silent.
+The French pronunciation of "étalé" is three syllables; that of "étale" is two syllables, with the final "e" silent. Many English-speaking mathematicians follow the respective French pronunciations; see for example [this nForum thread](https://nforum.ncatlab.org/discussion/11283/etale-space/?Focus=84522#Comment_84522).
 
-When speaking English, however, [[Grothendieck]] himself pronounced both forms alike, with the two-syllable pronunciation of French "étale", even when writing "étalé". (See [[Colin McLarty#McLarty18|McLarty18]], from 4:45 to 6:05 and particularly [at 5:26](https://www.youtube.com/watch?v=5AR55ZsHmKI&t=326s).)
+Others use the two-syllable pronunciation (corresponding to French "étale") for both written forms "étale" and "étalé". This group included [[Grothendieck]] himself, when speaking English. (See [[Colin McLarty#McLarty18|McLarty18]], from 4:45 to 6:05 and particularly [at 5:26](https://www.youtube.com/watch?v=5AR55ZsHmKI&t=326s).)
 
 
 ### Poem
