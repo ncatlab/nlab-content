@@ -82,7 +82,7 @@ A formal-categorical account using [[Yoneda structure|Yoneda structures]] can be
 
 For a discussion of Gabriel--Ulmer duality and related dualities in the context of [[enriched category theory]] see 
 
-* {#LackTendas} [[Stephen Lack]], Giacomo Tendas, _Enriched Regular Theories_, ([arXiv:1907.02301](https://arxiv.org/abs/1907.02301))
+* {#LackTendas} [[Stephen Lack]], Giacomo Tendas, _Enriched regular theories_, J. Pure Appl. Alg. __226__, n. 6 (2020) 106268, [arXiv:1907.02301](https://arxiv.org/abs/1907.02301), [doi](https://doi.org/10.1016/j.jpaa.2019.106268)
 
 This discusses (see Theorem 2.1) Kelly's original result for $V$-[[enriched categories]], where $V$ is a closed symmetric monoidal category whose underlying category $V_0$ is locally small, complete and cocomplete, in section 9 (cf. theorem 9.8) of
 
