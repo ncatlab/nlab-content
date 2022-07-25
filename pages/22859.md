@@ -115,6 +115,14 @@ following discussion of [[differential linear logic]] in:
 
 * {#EhrhardtRegnier09} [[Thomas Ehrhard]], [[Laurent Regnier]]: _The differential lambda-calculus_, Theor. Comput. Sci. **309** 1 (2003) 1–41  (<a href="https://doi.org/10.1016/S0304-3975(03)00392-X">doi:10.1016/S0304-3975(03)00392-X</a>)
 
-* [[Thomas Ehrhard]], [[Laurent Regnier]]: _Differential interaction nets,_ Theor. Comput. Sci. **364** 2 (2006) 166–195 ([doi:10.1016/j.tcs.2006.08.003](https://doi.org/10.1016/j.tcs.2006.08.003))
+* [[Thomas Ehrhard]], [[Laurent Regnier]]: _Differential interaction nets,_ Theor. Comput. Sci. **364** 2 (2006) 166–195 ([doi:10.1016/j.tcs.2006.08.003](https://doi.org/10.1016/j.tcs.2006.08.003)).
+
+The focus is more on codifferential categories in:
+
+* [[Jean-Simon Lemay]]: _Why FHilb is Not an Interesting (Co)Differential Category_, conference proceedings of QPL2019 ([arXiv:1803.02304](https://arxiv.org/abs/1803.02304),  	
+[doi:10.4202/EPTCS.318.2](https://doi.org/10.4204/EPTCS.318.2))
+
+* [[Jean-Simon Lemay]]: _Differential algebras in codifferential categories_, Journal of pure and applied algebra (2019) ([arXiv:1803.02304](https://arxiv.org/abs/1803.02304),  	
+[doi:10.1016/j.jpaa.2019.01.005](https://doi.org/10.1016/j.jpaa.2019.01.005))
 
 [[!redirects differential categories]]
