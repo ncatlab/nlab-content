@@ -317,3 +317,6 @@ For more references see [[category theory]].
 [[!redirects categories]]
 [[!redirects Category]]
 [[!redirects Categories]]
+
+[[!redirects monoidoid]]
+[[!redirects monoidoids]]
