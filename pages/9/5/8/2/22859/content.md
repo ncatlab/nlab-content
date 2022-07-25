@@ -42,14 +42,14 @@ An algebra modality in a [[symmetric monoidal category]] $(\mathcal{C}, \otimes,
 \begin{definition}
 A codifferential category is a CMon-enriched [[symmetric monoidal category]] together with an algebra modality and a deriving transformation ie. a [[natural transformation]] $d:!A \rightarrow !A \otimes A$ such that the following diagrams commute:
 
-* Leibniz rule:
+* [[Leibniz rule]]:
 \begin{tikzcd}
 !A \arrow[rrrrr, "d"]                                                                                &  &  &  &  & !A \otimes A                                               \\
                                                                                                         &  &  &  &  &                                                               \\
 !A \otimes !A \arrow[uu, "\nabla"] \arrow[rrrrr, "(d \otimes 1)(1\otimes \gamma) + 1 \otimes d"'] &  &  &  &  & !A \otimes \!A \otimes A \arrow[uu, "\nabla \otimes 1"']
 \end{tikzcd}
 
-* Chain rule:
+* [[chain rule|Chain rule]]:
 \begin{tikzcd}
 !!A \otimes !A \arrow[rrr, "m \otimes d"] &  &  & !A \otimes !A \otimes A \arrow[rrd, "\nabla \otimes 1"] &  &                 \\
                                                    &  &  &                                                               &  & !A \otimes A \\
