@@ -24,7 +24,7 @@ The notion of *differential categories* ([Blute, Cocket & Seely 2006](#BluteCock
 
 ## Definition and example
 
-We give the definition of a codifferential category which is the dual of a differential category in the sense that a codifferential category is a category $\mathcal{C}$ such that $\mathcal{C}^{op}$ is a differential category and a differential category is a category $\mathcal{C}$ such that $\mathcal{C}^{op}$ is a codifferential category. Codifferential categories are more intuitive mathematically because they involve monoids and monads instead of comonoids and monads, while differential categories are closer to linear logic where we have comonads and differential linear logic where we have comonads and comonoids.
+We give the definition of a codifferential category which is the dual of a differential category in the sense that a codifferential category is a category $\mathcal{C}$ such that $\mathcal{C}^{op}$ is a differential category and a differential category is a category $\mathcal{C}$ such that $\mathcal{C}^{op}$ is a codifferential category. Codifferential categories are more intuitive mathematically because they involve monoids and monads instead of comonoids and monads, while differential categories are closer to [[linear logic]] where we have comonads and [[differential linear logic]] where we have comonads and comonoids.
 
 In the following sequence of definitions, the object $!A$ must be interpreted as if it was a space of smooth functions with variables in $A$. 
 
@@ -90,7 +90,7 @@ If $\mathbb{K}$ is a field, then $Vect_{\mathbb{K}}$ is a codifferential categor
 * It is a commutative algebra as usual.
 * The unit $A \rightarrow S(A)$ of the monad is just the injection $x \mapsto x$.
 * The multiplication $S(S(A)) \rightarrow S(A)$ of the monad is given on pure tensors by $(x_{1}^{(1)} \otimes_{s} ... \otimes_{s} x_{n_{1}}^{(1)}) \boxtimes_{s} ... \boxtimes_{s}  (x_{1}^{(p)} \otimes_{s} ... \otimes_{s} x_{n_{p}}^{(p)}) \mapsto x_{1}^{(1)} \otimes_{s} ... \otimes_{s} x_{n_{1}}^{(1)} \otimes ... \otimes x_{1}^{(p)} \otimes_{s} ... \otimes_{s} x_{n_{p}}^{(p)}$. It is a kind of composition of polynomials.
-* The deriving transformation $S(A) \rightarrow S(A) \otimes A$ is defined on pure tensors by $!A \rightarrow !A \otimes A$ defined on pure tensors by $x_{1} \otimes_{s} ... \otimes_{s} x_{n} \mapsto \underset{1 \le k \le n}{\sum}(x_{1} \otimes_{s} ... \otimes_{s} x_{k-1} \otimes_{s} x_{k+1} \otimes_{s} ... \otimes_{s} x_{n}) \otimes x_{k}$. For instance, if $X,Y,Z$ is a basis of $A$, then $d(X^{2}+YZ) = 2X \otimes X + Y \otimes Z + Z \otimes Y$.
+* The deriving transformation $S(A) \rightarrow S(A) \otimes A$ is defined on pure tensors by $x_{1} \otimes_{s} ... \otimes_{s} x_{n} \mapsto \underset{1 \le k \le n}{\sum}(x_{1} \otimes_{s} ... \otimes_{s} x_{k-1} \otimes_{s} x_{k+1} \otimes_{s} ... \otimes_{s} x_{n}) \otimes x_{k}$. For instance, if $X,Y,Z$ is a basis of $A$, then $d(X^{2}+YZ) = 2X \otimes X + Y \otimes Z + Z \otimes Y$.
 
 \end{example}
 
