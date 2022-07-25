@@ -24,9 +24,7 @@ Contractible types are also called of **[[h-level]] $0$**. They represent the no
 
 We work in [[intensional type theory|intensional]] [[type theory]] with [[dependent sums]], [[dependent products]], and [[identity types]], 
 
-+-- {: .num_defn}
-###### Definition
-
+\begin{definition}
 For $X$ a [[type]], let
 
 $$
@@ -36,21 +34,15 @@ $$
 be the [[dependent sum]] in one [[variable]] $x : X$ over the [[dependent product]] on the other [[variable]] $y \colon X$ of the $x,y$-[[dependent type|dependent]] [[identity type]] $(x = y)$.
 
 We say that $X$ is a **contractible type** if $isContr(X)$ is an [[inhabited type]].
+\end{definition}
 
-=--
-
-+-- {: .num_remark}
-###### Remark
-
+\begin{remark}
 In [[propositions as types]] language, this can be pronounced as "there exists a point $x\colon X$ such that every other point $y\colon X$ is equal to $x$."  
 
 Under the [[homotopy theory|homotopy-theoretic]] interpretation, it should be thought of as the type of *contractions* of $X$ --- since the dependent product describes *continuous* functions, the paths from $y$ to $x$ depend continuously on $y$ and thus exhibit a contraction of $X$ to $x$.
+\end{remark}
 
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
+\begin{definition}
 A provably [[equivalence in homotopy type theory|equivalent]] definition is
 the [[product type]] of $X$ with the [[isProp]]-type of $X$:
 
@@ -58,37 +50,31 @@ $$
   isContr(X) \coloneqq X \;\times\; isProp(X) 
   \,.
 $$
-
-=--
+\end{definition}
 
 (Here of course we have to use a definition of [[isProp]] which doesn't refer to $isContr$).  
 
-+-- {: .num_remark}
-###### Remark
-
+\begin{remark}
 This now says that $X$ is contractible iff $X$ is [[inhabited type|inhabited]] and an [[h-proposition]].
+\end{remark}
 
-=--
+There is a third definition of a contractible type, provably equivalent to the others. 
+
+\begin{definition}
+Let $(A, a:A)$ be a [[pointed type]]. $A$ satisfies **singleton induction** if for every [[type family]] $B$ over $A$ the dependent function 
+$$\mathrm{evpt}(a):\left(\prod_{x:A} B(x)\right) \to B(a)$$
+has a [[section]]. A **contractible type** is a pointed type which satisfies singleton induction. 
+\end{definition}
 
 ## Properties
 
-+-- {: .num_prop}
-###### Proposition
-
-
+\begin{proposition}
 For any type $A$, the type $isContr(A)$ is an [[h-proposition]].  In particular, we can show $isContr(A) \to isContr(isContr(A))$: if a type is contractible, then its space of contractions is also contractible.
+\end{proposition}
 
-=--
-
-
-+-- {: .num_prop}
-###### Proposition
-
+\begin{proposition}
 A type is contractible if and only if it is [[equivalence in homotopy type theory|equivalent]] to the [[unit type]].
-
-=--
-
-
+\end{proposition}
 
 ## Categorical semantics
  {#CategoricalSemantics}
@@ -121,9 +107,7 @@ $$
 
 The interpretation $[\hat a : isContr(A)]$ of a [[term]] of $isContr(A)$ is precisely a morphism $\hat a : * \to \prod_{p_2} A^I$.
 
-+-- {: .num_prop}
-###### Proposition
-
+\begin{proposition}
 Let $\mathcal{C}$ be a [[type-theoretic model category]]. Write $[isContr(A)]$ for the [[categorical semantics|interpretation]] of $isContr(A)$ in $\mathcal{C}$. Then:
 
 Global points $* \to [isContr(A)]$ in $\mathcal{C}$ are in bijection with [[contraction]] [[right homotopies]] of the object $A$, hence to [[diagrams]] in $\mathcal{C}$ of the form
@@ -140,12 +124,9 @@ $$
 $$
 
 where $const_a$ is a morphism of the form $A \to * \stackrel{a}{\to} A$ and where $A^I$ is the [[path space object]] of $A$ in $\mathcal{C}$.
+\end{proposition}
 
-=--
-
-+-- {: .proof}
-###### Proof
-
+\begin{proof}
 Given a global point $\hat a : * \to \prod_{p_2} A^I$, write $a : * \to A$ for the corresponding composite
 
 $$
@@ -189,13 +170,9 @@ $$
 $$
 
 This is by definition a [[contraction]] right [[homotopy]] of $A$.
+\end{proof}
 
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
+\begin{remark}
 Thus if $isContr(A)$, then 
 $A\to 1$ is a (right) [[homotopy equivalence]], and hence (since $A$ is [[fibrant]]) an [[acyclic fibration]].
 
@@ -210,8 +187,7 @@ represented by a fibration $isContr(A)\to B$.  By applying the above argument in
 We can also construct the type
 $$\prod_{x\colon B} isContr(A(x))$$
 in global context, which has a global element precisely when $isContr(A)\to B$ has a section.  Thus, a global element of this type is also equivalent to $A\to B$ being an acyclic fibration.
-
-=--
+\end{remark}
 
 ## Examples
 
@@ -242,7 +218,7 @@ in global context, which has a global element precisely when $isContr(A)\to B$ h
 * [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/Contractible.v)
 
 
-
+[[!redirects singleton induction]]
 
 
 [[!redirects contractible type]]
