@@ -20,7 +20,7 @@
 
 The notion of a _2-category_ generalizes that of [[category]]: a 2-category is a [[higher category theory|higher category]], where on top of the objects and morphisms, there are also 2-morphisms.
 
-A 2-category consists of 
+A 2-category or monoidal [[monoidoid]][[oidification|oid]] consists of 
 
 * [[objects]];
 
