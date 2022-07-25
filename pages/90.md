@@ -53,7 +53,7 @@ $$
 
 ### Relation to simplices
 
-The _[[orientals]]_ translate between [[simplices]] and globles.
+The _[[orientals]]_ translate between [[simplices]] and globes.
 
 ## References
 
