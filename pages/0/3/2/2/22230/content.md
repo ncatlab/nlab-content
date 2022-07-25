@@ -1,5 +1,7 @@
 
-* [institute page](https://www.math.sissa.it/users/fabio-ferrari-ruffino)
+* [website](https://www.dm.ufscar.br/profs/ferrariruffino/)
+
+* [old institute page](https://www.math.sissa.it/users/fabio-ferrari-ruffino)
 
 ## Selected writings
 
