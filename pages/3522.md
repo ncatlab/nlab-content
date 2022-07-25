@@ -353,7 +353,7 @@ Surveys and introductions:
 
 * [[Michael Ching]], [[Nicholas Kuhn]], [[Victor Turchin]], _[Functor Calculus and Operads](http://www.birs.ca/events/2011/5-day-workshops/11w5058)_, BANFF Workshop 2011
 
-* [[Gregory Arone]], [[Michael Ching]] _[Talbot Workshop 2012: Calculus of Functors](https://math.mit.edu/events/talbot/index.php?year=2012)_ ([Talk schedule](http://math.mit.edu/conferences/talbot/2012/2012TalbotTalks.pdf), [Notes](http://math.mit.edu/conferences/talbot/index.php?year=2012&sub=talks))
+* [[Gregory Arone]], [[Michael Ching]] _[Talbot Workshop 2012: Calculus of Functors](https://math.mit.edu/events/talbot/index.php?year=2012)_ ([Talk schedule](https://math.mit.edu/events/talbot/2012/2012TalbotTalks.pdf), [Notes](https://math.mit.edu/events/talbot/index.php?year=2012&sub=talks))
 
 
 A [[model category]] presentation for [[n-excisive functors]]:
