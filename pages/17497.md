@@ -2649,7 +2649,7 @@ $$
   Z(c)
 $$
 
-are in [[natural bijection]] with natural transformations of functors on the [[product category]] $\mmathcal{C}\times \mathcal{C}$ (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}) of the form
+are in [[natural bijection]] with natural transformations of functors on the [[product category]] $\mathcal{C}\times \mathcal{C}$ (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}) of the form
 
 $$
   X(c_1) \wedge Y(c_2)
@@ -2818,7 +2818,7 @@ $$
      &
      =
      \overset{c_1,c_2 \in \mathcal{C}}{\int}
-      \mathcal{C}(c_1\otimes_{\mathcal{D}} c_2,-)
+      \mathcal{C}(c_1\otimes_{\mathcal{C}} c_2,-)
       \wedge
      X(c_1) \wedge \mathcal{C}(1,c_2)
      \\
