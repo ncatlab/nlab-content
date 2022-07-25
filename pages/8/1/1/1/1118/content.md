@@ -76,7 +76,7 @@ $$
 G 
   & 
    \overset{
-     (id,(-)^{-1})
+     ((-)^{-1},id)
    }
    {\longrightarrow} 
    & 
@@ -84,7 +84,7 @@ G
    \\
    {}^{
      \mathllap{
-       ((-)^{-1},id)
+       (id,(-)^{-1})
      }
    }
    \big\downarrow 
