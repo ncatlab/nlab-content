@@ -22,6 +22,56 @@
 The notion of *differential categories* ([Blute, Cocket & Seely 2006](#BluteCocketSeely06) is meant to provide [[categorical semantics]] for 
 [[differential linear logic]] ([Ehrhardt & Regnier 2009](#EhrhardtRegnier09)) which in turn is meant to be a [[syntax|syntactic]] [[proof theory|proof-theoretic]] approach to [[differential calculus]].
 
+## Definition
+
+We give the definition of a codifferential category which is the dual of a differential category. Codifferential categories are more intuitive.
+
+\begin{definition}
+A CMon-enriched [[symmetric monoidal category]] is a [[symmetric monoidal category]] $\mathcal{C}$ such that each hom-set $\mathcal{C}[A,B]$ is a [[commutative monoid]] (in Set) and $- \otimes -$ as well as $-;-$ are bilinear ie. preserve sums and the zero in each variable.
+\end{definition}
+
+\begin{definition}
+An algebra modality in a [[symmetric monoidal category]] $(\mathcal{C}, \otimes, I)$ is given by a [[monad]] $(!,m,u)$ and two [[natural transformations]] $\eta:I \rightarrow !A$ and $\nabla:!A \otimes !A \rightarrow !A$ such that for every $A \in \mathcal{C}$, $(!A, \nabla, \eta)$ is a [[commutative monoid]] in $(\mathcal{C},\otimes,I)$ and this diagram commutes:
+\begin{tikzcd}
+!!A \otimes !!A \arrow[dd, "m \otimes m"'] \arrow[rr, "\nabla"] &  & !!A \arrow[dd, "m"] \\
+                                                                            &  &                           \\
+!A \otimes !A \arrow[rr, "\nabla"']                                   &  & !A                    
+\end{tikzcd}
+\end{definition}
+
+\begin{definition}
+A codifferential category is a CMon-enriched [[symmetric monoidal category]] together with an algebra modality and a deriving transformation ie. a [[natural transformation]] $d:!A \rightarrow !A \otimes A$ such that the following diagrams commute:
+
+* Leibniz rule:
+\begin{tikzcd}
+!A \arrow[rrrrr, "d"]                                                                                &  &  &  &  & !A \otimes A                                               \\
+                                                                                                        &  &  &  &  &                                                               \\
+!A \otimes !A \arrow[uu, "\nabla"] \arrow[rrrrr, "(d \otimes 1)(1\otimes \gamma) + 1 \otimes d"'] &  &  &  &  & !A \otimes \!A \otimes A \arrow[uu, "\nabla \otimes 1"']
+\end{tikzcd}
+
+* Chain rule:
+\begin{tikzcd}
+!!A \otimes !A \arrow[rrr, "m \otimes d"] &  &  & !A \otimes !A \otimes A \arrow[rrd, "\nabla \otimes 1"] &  &                 \\
+                                                   &  &  &                                                               &  & !A \otimes A \\
+!!A \arrow[rrr, "m"'] \arrow[uu, "d"]        &  &  & !A \arrow[rru, "d"']                                       &  &                
+\end{tikzcd}
+
+* Linear rule:
+\begin{tikzcd}
+A \arrow[dd, "u"'] \arrow[rrdd, "\eta \otimes 1"] &  &                 \\
+                                                  &  &                 \\
+!A \arrow[rr, "d"']                            &  & !A \otimes A
+\end{tikzcd}
+
+* Schwarz rule:
+\begin{tikzcd}
+!A \otimes A \arrow[rrrr, "d \otimes 1"] &  &                                            &  & !A \otimes A \otimes A \arrow[dd, "1 \otimes \gamma"] \\
+                                            &  &                                            &  &                                                          \\
+!A \arrow[uu, "d"] \arrow[rr, "d"']      &  & !A \otimes A \arrow[rr, "d \otimes 1"'] &  & !A \otimes A \otimes A                               
+\end{tikzcd}
+
+\end{definition}
+
 ## Related concepts
 
 * [[cartesian differential category]]
