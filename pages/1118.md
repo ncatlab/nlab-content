@@ -64,7 +64,7 @@ $$
   \\
   {}^{\mathllap{(\id,1)}}
   \big\downarrow 
-  &\underset{=}{\searrow}& 
+  &\underset{\id}{\searrow}& 
   \big\downarrow m 
   \\
   G\times G & \stackrel{m}{\longrightarrow} &G
@@ -76,7 +76,7 @@ $$
 G 
   & 
    \overset{
-     (id,(-)^{-1})\circ\Delta
+     (id,(-)^{-1})
    }
    {\longrightarrow} 
    & 
@@ -84,7 +84,7 @@ G
    \\
    {}^{
      \mathllap{
-       ((-)^{-1},id)\circ\Delta
+       ((-)^{-1},id)
      }
    }
    \big\downarrow 
@@ -98,7 +98,7 @@ G
    G
 }
 $$
-(telling us that the inverse map really does take an inverse), where we have let $1: G \to G$ denote the composite $G \to * \stackrel{1}{\to} G$ and $\Delta$ is a [[diagonal morphism]].
+(telling us that the inverse map really does take an inverse), where we have let $1: G \to G$ denote the composite $G \to * \stackrel{1}{\to} G$, and where the [[pairing]] $(f,g)$ is $(f\times g)\circ\Delta$ and $\Delta$ is a [[diagonal morphism]].
 
 Even if $C$ doesn\'t have *all* binary products, as long as products with $G$ (and the terminal object $*$) exist, then one can still speak of a group object $G$ in $C$.
 
