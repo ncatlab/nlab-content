@@ -52,7 +52,7 @@ describes the process by which
 
 * Since, by the [[Gelfand-Naimark theorem]], [[C-star algebra]]s are dual to [[topological space]]s, Paolo Bertozzini et. al proposed to define [[spaceoid]]s to be entities dual to $C^*$-categories ([blog](http://golem.ph.utexas.edu/category/2008/01/spaceoids.html)).
 
-* And finally the **exception to the rule**: a many-object [[monoid]] is _not_ called a _monoidoid_ -- but is called a [[category]]! :-)
+* And finally the **exception to the rule**: a many-object [[monoid]] is _not_ called a _[[monoidoid]]_ -- but is called a [[category]]! :-)
 
 [[!include oidification - table]]
 
