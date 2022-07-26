@@ -74,6 +74,9 @@ $$
 
 More generally, for $t \colon a \to a$ is a monad in any [[2-category]] $K$, then the __Eilenberg--Moore object__ $a^t$ of $t$ is, if it exists, the universal (left) $t$-module.  That is, there is a morphism $u^t \colon a^t \to a$ and a 2-cell $t u^t \Rightarrow u^t$ that mediate a natural isomorphism $K(x, a^t) \cong LMod(x,t)$ between morphisms $x \to a^t$ and $t$-modules $(m \colon x \to a, \lambda \colon t m \Rightarrow m)$.  Not every 2-category admits Eilenberg--Moore objects.
 
+### (Non)example
+
+Let [[Rel|REL]] be the (locally posetal) 2-category of sets and relations. A monad on a set $X$ is just an endorelation $R$ satisfying $id_X\subseteq R$ (reflexivity) and $R\circ R \subseteq R$ (transitivity) i.e. a [[preorder]] on $X$. When $R$ arises from an adjunction it is necessarily of the form $R=F\circ F^{op}$ implying $R=R^{op}$ (symmetry) since adjunctions in $REL$ consist of functional relations as the left adjoint with their opposite relation as right adjoint. In other words, only [[equivalence relation|equivalence relations]] admit Eilenberg--Moore objects which then consist of the set $X/R$ of equivalence classes with "free algebra functor" $F$ relating $x\in X$ to its equivalence class $[x]\in X/R$.
 
 ## Properties
 
