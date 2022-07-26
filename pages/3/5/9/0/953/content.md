@@ -109,6 +109,6 @@ Waldhausen categories are discussed with an eye towards their application in the
 
 Section 1 of
 
-* [[R. W. Thomason]], Thomas Trobaugh, _Higher algebraic K-theory of schemes and of derived categories_, _The Grothendieck Festschrift_, 1990, 247-435.
+* [[R. W. Thomason]], Thomas Trobaugh, _Higher algebraic K-theory of schemes and of derived categories_, _The Grothendieck Festschrift_, 1990, 247-435.([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/tt.pdf))
 
 [[!redirects Waldhausen categories]]
