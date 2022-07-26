@@ -47,7 +47,7 @@ Oslo, Norway, 12 - 14 June 2019
 
 * [6WFTop](http://www.cs.bham.ac.uk/~sjv/6WFTop/) Mon 8 to Fri 12 April 2019
 
-* [Geometry in Modal Homotopy Type Theory](http://www.andrew.cmu.edu/user/fwellen/modal-workshop.html), CMU, March 11-15, 2019
+* [Geometry in Modal Homotopy Type Theory](https://felix-cherubini.de/modal-workshop.html), CMU, March 11-15, 2019
 
 * [[HoTT in Bonn2018]]:  Types, Homotopy Type Theory, and Verification,  
 Hausdorff Institute for Mathematics
