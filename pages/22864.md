@@ -7,17 +7,42 @@
 
 ## Idea
 
-Differential linear logic is an extension of linear logic. New inference rules are added which allow to differentiate proofs. Differential linear logic can be presented in different guises whether we include the additives or not, and whether we include the promotion or not.
+Differential linear logic is an extension of [[linear logic]]. New inference rules are added which allow to differentiate proofs. Differential linear logic can be presented in different guises whether we include the additives or not, and whether we include the promotion or not. The intuitive understanding of linear logic is difficult to extend to differential linear logic. Proofs must be understood as morphisms and the new inference rules are here to differentiate them.
 
 ## Syntax
 
-We present the version without additives and with promotion.
+We present the version without additives and with promotion. We will refer to this logic as DiLL.
 
 ### Formulas
 
-(...)
+There is no novelties concerning formulas compared to linear logic. We will work with the formulas of Multiplicative Exponential Linear Logic (MELL). In the next subsection, the difference between MELL and DiLL will appear as additional inference rules.
+
+Formulas are given by induction starting from atoms and applying connectives. In accordance with the tradition, formulas and atoms are denoted in the same way by upper case letters:
+
+* Atoms are denoted by upper case letter $A,B,...$.
+* If we have two formulas $A,B$, we can form $A \otimes B$.
+* If we have two formulas $A,B$, we can form $A \parr B$.
+* If we have a formula $A$, we can form $!{A}$.
+* If we have a formula $A$, we can form $?{A}$.
+* If we have a formula $A$, we can form $A^\perp$.
+* We have the formula $1$.
+* We have the formula $\bot$.
+
+Formulas are quotiented by the following equalities:
+
+* If we have a formula $A$, we put $A^{\perp\perp} = A$.
+* If we have two formulas $A,B$, we put $(A \otimes B)^\perp = A^\perp \parr B^\perp$.
+* If we have two formulas $A,B$, we put $(A \parr B)^\perp = A^\perp \otimes B^\perp$.
+* If we have a formula $A$, we put $(!{A})^\perp = ?{A^\perp}$.
+* If we have a formula $A$, we put $(?{A})^\perp = !{A^\perp}$.
+* We have $1^\perp = \bot$.
+* We have $\bot^\perp = 1$.
+
+Notice that some equalities are implied by other ones and thus we could give a shorter list. We have preferred writting directly all the equalities of pratical use.
 
 ### Inference rules
+
+Inference rules will allow us to build proofs. Notice that compared to MELL, we need the ability to sum proofs. We give an explicit rule for this summation of proofs. We give also a rule for null proofs. Finally, the new inference rules are: coderiliction, cocontraction, coweakening, sum of proofs, null proof.
 
 (...)
 
