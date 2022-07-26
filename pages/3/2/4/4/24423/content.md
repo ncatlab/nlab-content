@@ -36,6 +36,6 @@ A **super homotopy type theory** is a [[modal homotopy type theory]] which exten
 
 * **[[schreiber:Equivariant Super Homotopy Theory]]**
 
-  talk at _[Geometry in Modal Homotopy Type Theory](http://www.andrew.cmu.edu/user/fwellen/modal-workshop.html)_, CMU Pittsburgh, 2019
+  talk at _[Geometry in Modal Homotopy Type Theory](https://felix-cherubini.de/modal-workshop.html)_, CMU Pittsburgh, 2019
 
 [[!redirects solid homotopy type theory]]
