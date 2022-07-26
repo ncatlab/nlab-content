@@ -121,9 +121,11 @@ The role in shape theory is discussed in
 
 * J.-M. Cordier, [[Tim Porter|T. Porter]], _Shape Theory: Categorical Methods of Approximation_ , (1989), Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
 
-For a description of the [[Giry monad]] as a codensity monad, see
+For a description of the [[Giry monad]] and other [[probability monads]] as codensity monads, see
 
 * {#Avery14} [[Tom Avery]], _Codensity and the Giry monad_, ([arXiv:1410.4432](https://arxiv.org/abs/1410.4432))
+
+* Ruben Van Belle, _Probability monads as codensity monads_. Theory and Applications of Categories 38 (2022), 811–842, ([tac](http://tac.mta.ca/tac/volumes/38/21/38-21abs.html))
 
 
 
