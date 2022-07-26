@@ -23,7 +23,7 @@ What are called _Weyl relations_ is the incarnation of [[canonical commutation r
 For example if $a,a^\ast$ are two elements of an [[associative algebra]] with [[commutator]]
 
 $$
-  [a,a^\ast] = \mathrm{i}\hbar
+  [a,a^\ast] = \hbar
 $$
 
 then the corresponding Weyl relation is, by the [[Baker-Campbell-Hausdorff formula]],
@@ -34,7 +34,7 @@ $$
   \;=\;  
   e^{z^\ast a^\ast} 
   e^{z a} 
-  e^{\mathrm{i}\hbar z z^\ast} 
+  e^{\hbar z z^\ast} 
 $$
 
 for $z,z^\ast \in \mathbb{C}$
