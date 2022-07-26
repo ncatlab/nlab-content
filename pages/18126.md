@@ -1540,7 +1540,6 @@ $$
 
 
 is a topological space modelling the closed square. The [[quotient space]] (example \ref{QuotientTopologicalSpace}) of that
-
 by the relation which identifies a pair of opposite sides is a model for the [[cylinder]].
 The further quotient by the relation that identifies the remaining pair of sides yields a model for the [[torus]].
 
