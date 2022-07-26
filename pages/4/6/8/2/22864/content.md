@@ -50,6 +50,25 @@ Inference rules will allow us to build proofs. Notice that compared to MELL, we 
 
 ### Categorical semantics
 
+We need a [[*-autonomous category]] in order to interpret the connectors and rules related to these connectors: $\otimes, \parr, 1, \bot, {}^{\perp}$.
+
+This category must be enriched over commutative monoids in order to be able to interpret sum of proofs and null proofs.
+
+\begin{definition}
+We say that a [[*-autonomous category]] $\mathcal{C}$ is enriched over commutative monoids if it is enriched over commutative monoids as a [[symmetric monoidal category]] ie. every hom-set $\mathcal{C}[A,B]$ is a commutative monoid and $-\otimes-$ as well as $-;-$ are bilinear over morphisms ie. preserve addition and zero in every variable.
+\end{definition}
+
+The tricky part is to interpret the exponentials $!,?$. We just need to add enough to interpret $!$, the interpretation of $?$ will follow by the $*$-autonomous structure. We need:
+
+* A natural transformation $!A \otimes !A \rightarrow !A$ to interpret the cocontraction.
+* A natural transformation $!A \rightarrow !A \otimes !A$ to interpret the contraction.
+* A natural transformation $I \rightarrow !A$ to interpret the coweakening.
+* A natural transformation $!A \rightarrow I$ to interpret the weakening.
+* A natural transformation $A \rightarrow !A$ to interpret the codereliction.
+* A natural transformation $!A \rightarrow A$ to interpret the dereliction.
+
+Thus, for every object $A$, we will have that $!A$ is a bimonoid. $!$ will be a comonad. The coderiliction is added on top of this structure.
+
 (...)
 
 ### Concrete models
@@ -80,6 +99,12 @@ Original articles:
 Review:
 
 * [[Thomas Ehrhard]], *An introduction to Differential Linear Logic: proof-nets, models and antiderivatives*, Mathematical Structure in Computer Science **28** 7 (2018) 995-1060 ([arXiv:1606.01642](https://arxiv.org/abs/1606.01642), [doi:10.1017/S0960129516000372](https://doi.org/10.1017/S0960129516000372))
+
+Recent work on categorical semantics:
+
+* [[R. F. Blute]], [[J. R. B. Cockett]], [[Jean-Simon Lemay]], [[R. A. G. Seely]], *Differential Categories Revisited*, Appl Categor Struct **28** (2020) 171-235 ([arXiv:1806.04804](https://arxiv.org/abs/1806.04804), [doi:10.1007/s10485-019-09572-y](https://doi.org/10.1007/s10485-019-09572-y))
+
+
 
 
 
