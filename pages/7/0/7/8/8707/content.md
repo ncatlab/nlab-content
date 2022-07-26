@@ -225,13 +225,13 @@ A general framework is discussed in
 
 * {#Licata18} [[Dan Licata]], _Synthetic Mathematics in Modal Dependent Type Theories_, notes for tutorial at _[Types, Homotopy Theory and Verification](https://www.him.uni-bonn.de/programs/current-trimester-program/types-sets-constructions/workshop-types-homotopy-type-theory-and-verification/)_, 2018 ([pdf](http://dlicata.web.wesleyan.edu/pubs/lsr17multi/him-tutorial.pdf))
 
-* {#Shulman19} [[Michael Shulman]], _Semantics of higher modalities_, talk at _[Geometry in Modal HoTT (2019)](http://www.andrew.cmu.edu/user/fwellen/modal-workshop.html)_ ([pdf slides](http://home.sandiego.edu/~shulman/papers/cmu2019b.pdf), [video recording](https://www.youtube.com/watch?v=Wcpi1vVMrCs))
+* {#Shulman19} [[Michael Shulman]], _Semantics of higher modalities_, talk at _[Geometry in Modal HoTT (2019)](https://felix-cherubini.de/modal-workshop.html)_ ([pdf slides](http://home.sandiego.edu/~shulman/papers/cmu2019b.pdf), [video recording](https://www.youtube.com/watch?v=Wcpi1vVMrCs))
 
-* [[Felix Wellen]], _Geometry in Modal HoTT_, talk at _[Geometry in Modal HoTT (2019)](http://www.andrew.cmu.edu/user/fwellen/modal-workshop.html)_ ([video recording](https://www.youtube.com/watch?v=oHc552-hzBY))
+* [[Felix Cherubini]], _Geometry in Modal HoTT_, talk at _[Geometry in Modal HoTT (2019)](https://felix-cherubini.de/modal-workshop.html)_ ([video recording](https://www.youtube.com/watch?v=oHc552-hzBY))
 
-* [[Egbert Rijke]], _Reflective subuniverses and modalities_, talk at _[Geometry in Modal HoTT (2019)](http://www.andrew.cmu.edu/user/fwellen/modal-workshop.html)_ ([video recording](https://youtu.be/OQthe5HpiKM))
+* [[Egbert Rijke]], _Reflective subuniverses and modalities_, talk at _[Geometry in Modal HoTT (2019)](https://felix-cherubini.de/modal-workshop.html)_ ([video recording](https://youtu.be/OQthe5HpiKM))
 
-* [[Egbert Rijke]], _Modal descent_, talk at _[Geometry in Modal HoTT (2019)](http://www.andrew.cmu.edu/user/fwellen/modal-workshop.html)_ ([video recording](https://youtu.be/InaRkqKdyp4))
+* [[Egbert Rijke]], _Modal descent_, talk at _[Geometry in Modal HoTT (2019)](https://felix-cherubini.de/modal-workshop.html)_ ([video recording](https://youtu.be/InaRkqKdyp4))
 
 
 See also
