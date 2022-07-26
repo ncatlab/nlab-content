@@ -3,13 +3,39 @@
 * table of contents
 {:toc}
 
+(work in progress)
 
 ## Idea
+
+Differential linear logic is an extension of linear logic. New inference rules are added which allow to differentiate proofs. Differential linear logic can be presented in different guises whether we include the additives or not, and whether we include the promotion or not.
+
+## Syntax
+
+We present the version without additives and with promotion.
+
+### Formulas
+
+(...)
+
+### Inference rules
+
+(...)
+
+## Semantics
+
+### Categorical semantics
+
+(...)
+
+### Concrete models
+
+(...)
+
+## Relations between differential linear logic and differential categories
 
 (...)
 
 ## Related concepts
-
 
 * [[linear logic]]
 
