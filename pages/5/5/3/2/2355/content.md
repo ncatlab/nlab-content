@@ -24,7 +24,7 @@ There are many equivalent definitions of the ordinary notion of [[adjoint functo
 * One definition of ordinary adjoint functors says that a pair of functors $C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ is an adjunction if there is a [[natural transformation|natural isomorphism]]
 
   $$
-    Hom_C(L(-),(-) \simeq Hom_D(-,R(-))
+    Hom_C(L(-),-) \simeq Hom_D(-,R(-))
     \,.
   $$
 
