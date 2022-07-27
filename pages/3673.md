@@ -32,30 +32,33 @@ Typically this arises in situations where $D$ consist of the "same" objects as $
 Let $C$ be a [[model category]] and
 
 $$
-  (F \dashv U )
+  (L \dashv R )
   \;\colon\; 
   D 
   \underoverset  
-    {\underset{U}{\longrightarrow}}
-    {\overset{F}{\longleftarrow}}
+    {\underset{R}{\longrightarrow}}
+    {\overset{L}{\longleftarrow}}
     {\;\;\;\bot\;\;\;}
   C
 $$
 
-an [[adjoint functor|adjunction]] with [[right adjoint]] $U$.  Define a morphism in $D$ to be
+a pair of [[adjoint functors]] with [[right adjoint]] $R$.  Define a morphism in $D$ to be
 
-* a **fibration** or **weak equivalence** precisely if its image under $U$ is so, respectively, in $C$;
+* a *fibration* or *weak equivalence* precisely if its image under $R$ is so in $C$, respectively
 
-* a **cofibration** precisely if it has the [[left lifting property]] with respect to the fibrations that are weak equivalences.
+  (by adjointness this means that the fibrations form equivalently the class with the [[right lifting property]] against the image under $L$ of the [[acyclic cofibrations]] in $C$);
 
-If these classes of maps define a model category structure on $D$, then it is called the **right transferred model structure** (or sometimes **right induced model structure** or **right lifted model structure**) from $C$ along $U$.
+* a *cofibration* precisely if it has the [[left lifting property]] with respect to the fibrations that are also weak equivalences, according to the previous item.
+
+If these classes of maps define a [[model category]] [[mathematical structure|structure]] on $D$, then it is called the *right transferred model structure* ([Crans 1995, §3](#Crans95))
+or sometimes *right induced model structure* or *right lifted model structure* from $C$ along $R$.
 \end{definition}
 
 
 
 In the above situation of Def. \ref{RightTransferredModelStructure} it is clear what one means by an [[acyclic fibration]] in $D$, but the notion of [[acyclic cofibration]] in $D$ is, *a priori*, ambiguous. For the purpose of stating the following Thm. \ref{NeccSuff} we declare that:
 
-1. an *[[acyclic fibration]]* in $D$ is (of course) a morphism that is both a fibration and a weak equivalence, or equivalently whose image under $U$ is an acyclic fibration in $C$.  
+1. an *[[acyclic fibration]]* in $D$ is (of course) a morphism that is both a fibration and a weak equivalence, or equivalently whose image under $R$ is an acyclic fibration in $C$.  
 
 1. a morphism is $D$ is
 
@@ -81,7 +84,7 @@ A necessary and sufficient condition for the existence of the right transferred 
 \end{theorem}
 
 \begin{proof}
-Clearly the conditions are necessary.  For the converse, the weak equivalences have the [[2-out-of-3 property]], all the classes of maps are closed under retracts, the lifting properties hold by definition (for the anodyne maps), and we have assumed the factorization properties (for the anodyne maps), so it remains to show that every cofibration weak equivalence is anodyne.  This follows by the standard retract argument: if $f \colon A \longrightarrow B$ is a cofibration weak equivalence, factor it as $f = p i$ with $i$ anodyne and $p$ a fibration.  Then since anodyne maps are weak equivalences and weak equivalences satisfy [[2-out-of-3]], $p$ is an acyclic fibration.  Thus $f$ has the left lifting property against $p$, hence $f$ is a [[retract]] of $i$ and thus also anodyne.
+Clearly the conditions are necessary.  For the converse, the weak equivalences have the [[2-out-of-3 property]], all the classes of maps are closed under [[retracts]], the lifting properties hold by definition (for the anodyne maps), and we have assumed the factorization properties (for the anodyne maps), so it remains to show that every cofibration weak equivalence is anodyne.  This follows by the standard [[retract argument]]: if $f \colon A \longrightarrow B$ is a cofibration weak equivalence, factor it as $f = p i$ with $i$ anodyne and $p$ a fibration.  Then since anodyne maps are weak equivalences and weak equivalences satisfy [[2-out-of-3]], $p$ is an acyclic fibration.  Thus $f$ has the left lifting property against $p$, hence $f$ is a [[retract]] of $i$ and thus also anodyne.
 \end{proof}
 
 
@@ -140,10 +143,10 @@ Moreover, if every anodyne map is a weak equivalence so that the transferred mod
 \end{proposition}
 
 \begin{proof}
-By the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) of the [[adjoint pair]] $F\dashv U$, a morphism $f$ is a fibration (resp. trivial fibration) if and only if it has the right lifting property against the maps in $F(I)$ (resp. $F(J)$).  Since $F$ preserves small objects, the sets $F(I)$ and $F(J)$ permit the small object argument in $D$, which therefore yields (cofibration, trivial fibration) and (anodyne, fibration) factorizations.
+By the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) of the [[adjoint pair]] $F \dashv U$, a morphism $f$ is a fibration (resp. trivial fibration) if and only if it has the right lifting property against the maps in $F(I)$ (resp. $F(J)$).  Since $F$ preserves small objects, the sets $F(I)$ and $F(J)$ permit the small object argument in $D$, which therefore yields (cofibration, trivial fibration) and (anodyne, fibration) factorizations.
 \end{proof}
 
-Another way to produce these factorizations is to generate them by a functorial factorization:
+Another way to produce these factorizations is to generate them by a [[functorial factorization]]:
 
 +-- {: .num_lemma #AlgebraicLift}
 ###### Lemma
@@ -157,7 +160,7 @@ Then there is an induced ([[awfs|algebraic]]) weak factorization system on $D$ w
 =--
 +-- {: .proof}
 ###### Proof
-Given a morphism $f:A\to B$ in $D$, factor it as follows, where the upper commutative square is a pushout:
+Given a morphism $f\colon A\to B$ in $D$, factor it as follows, where the upper commutative square is a pushout:
 $$\array{
   F U A & \longrightarrow & A 
   \\
@@ -378,18 +381,21 @@ of the symmetric algebra functor and the forgetful functor between graded commut
 
 ## References
 
-The arguments for right transfers of model structures go back to
+The arguments used for right transfers of model structures go back to
 
-* {#Quillen} [[Dan Quillen]], _Homotopical Algebra_ , Lecture Notes in Math. 43, Springer-Verlag, Berlin-eidelberg-New York, 1967.
+* {#Quillen67} [[Daniel Quillen]], _[[Homotopical Algebra]]_, Lecture Notes in Mathematics **43**, Springer (1967) &lbrack;[doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438)&rbrack;
 
-The explicit study of right transfers of model structures on model categories is originally due to 
+The explicit notion of right transfer is due to
 
-* {#Crans} [[Sjoerd Crans]], _Quillen closed model structure for sheaves_ ([doi](http://dx.doi.org/10.1016/0022-4049(94)00033-f), [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.7459))
+* {#Crans95} [[Sjoerd Crans]], §3-§4 in: *Quillen closed model structure for sheaves*, Journal of Pure and Applied Algebra
+**101** 1 (1995) 35-57 &lbrack;
+<a href="http://dx.doi.org/10.1016/0022-4049(94)00033-f">doi:10.1016/0022-4049(94)00033-f
+</a>, [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.7459)&rbrack;
 
 
 Further proofs can be found in 
 
-* {#GoerssJardine} [[Paul Goerss]], [[J. F. Jardine]], _[[Simplicial homotopy theory]]_ , Progress Mathematics 174, Birkhäuser Verlag, Basel, 1999.
+* {#GoerssJardine} [[Paul Goerss]], [[J. F. Jardine]], _[[Simplicial homotopy theory]]_ , Progress Mathematics **174** Birkhäuser Verlag, Basel, 1999.
 
 
 See also prop. 1.4.23 of
@@ -398,7 +404,7 @@ See also prop. 1.4.23 of
 
 The above proof of acyclicity in the presence of path objects is taken from
 
-* {#Rezk02} [[Charles Rezk]], Every homotopy theory of simplicial algebras admits a proper model. Topology Appl. 119 (2002), no. 1, 65--94, [arxiv:math/0003065](https://arxiv.org/abs/math/0003065)
+* {#Rezk02} [[Charles Rezk]], *Every homotopy theory of simplicial algebras admits a proper model*, Topology Appl. **119** 1 (2002) 65-94 &rbrack;[arxiv:math/0003065](https://arxiv.org/abs/math/0003065)&lbrack;
 
 A summary of the result is on [p. 20](http://arxiv.org/PS_cache/math/pdf/0609/0609537v2.pdf#page=20) of
 
@@ -409,7 +415,7 @@ and on p. 6 of
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_  ([pdf](http://www.math.uu.nl/publications/preprints/1242.pdf))
 
-Discussion of left transfer in the accessible case:
+Discussion of left transfer:
 
 * {#BHKKRS15} [[Marzieh Bayeh]], [[Kathryn Hess]], [[Varvara Karpova]], [[Magdalena Kedziorek]], [[Emily Riehl]], [[Brooke Shipley]], *Left-induced model structures and diagram categories*, in: *Women in Topology: Collaborations in Homotopy Theory*, Contemporary Mathematics **641** American Mathematical Society (2015) &lbrack;[arXiv:1401.3651](http://arxiv.org/abs/1401.3651), [ISBN:978-1-4704-2495-4](https://bookstore.ams.org/conm-641)&rbrack;
 
@@ -419,7 +425,7 @@ Beware that [HKRS15](#HKRS15) contains an error, corrected by:
 
 * {#GKR18} [[Richard Garner]], [[Magdalena Kedziorek]], [[Emily Riehl]], *Lifting accessible model structures*, J. Topology **13** 1 (2020) 59-76 &lbrack;[arXiv:1802.09889](https://arxiv.org/abs/1802.09889), [doi:10.1112/topo.12123](https://doi.org/10.1112/topo.12123)&rbrack;
 
-Discussion in the the combinatorial (cofibrantly generated) case:
+Generally related discussion:
 
 * [[Higher Topos Theory]], Appendix A
 
