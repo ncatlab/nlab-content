@@ -27,7 +27,7 @@
 
 ## Idea
 
-A _left-strength_ and a _right-strength_ for a [[monad]] on a [[monoidal category]] are [[structures]] relating the monad with the [[tensor product]] of the category "in one direction". A monad equipped with a (left/right) strength is called a _(left/right) strong monad_. For a [[symmetric monoidal category]], the concepts of left-strength and rihgt-strength coincide, and we simply talk about _strengths_.
+A _left-strength_ and a _right-strength_ for a [[monad]] on a [[monoidal category]] are [[structures]] relating the monad with the [[tensor product]] of the category "in one direction". A monad equipped with a (left/right) strength is called a _(left/right) strong monad_. For a [[symmetric monoidal category]], the concepts of left-strength and right-strength coincide, and we simply talk about _strengths_.
 The notion of strength can be motivated at least in the following ways.
 
 * A strong monad over a [[monoidal category]] $V$ is a [[monad]] in the [[bicategory]] of $V$-[[actegory|actegories]], on the category $V$ (acting on itself on the left for a left-strength, on the right for a right-strength). 
