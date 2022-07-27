@@ -84,7 +84,7 @@ A survey which includes the McCord theorems as background material is in
 
 published as
 
-* [[Jonathan Barmak]], _Algebraic Topology of Finite Topological Spaces and Applications_, Lecture Notes in Mathematics,2032. Springer, Heidelberg (2011).
+* [[Jonathan Barmak]], _Algebraic Topology of Finite Topological Spaces and Applications_, Lecture Notes in Mathematics,2032. Springer, Heidelberg (2011). [doi:10.1007/978-3-642-22003-6](https://doi.org/10.1007/978-3-642-22003-6) 
 
 The original results by McCord are in
 
