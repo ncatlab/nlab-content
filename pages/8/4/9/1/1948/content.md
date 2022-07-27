@@ -52,13 +52,13 @@ The projective model structure can be regarded as a right-[[transferred model st
 Suppose that
 
 1. $C$ is a [[cofibrantly generated model category]], and
-2. $C$ admits [[copowers]] by the hom-objects $D(x,y)\in \mathbf{S}$, which preserve trivial cofibrations.  (For instance, this is the case if $\mathbf{S}=Set$, or if $\mathbf{S}$ is a monoidal model category, $C$ is an $\mathbf{S}$-model category, and the hom-objects $D(x,y)$ are cofibrant in $\mathbf{S}$.)
+2. $C$ admits [[copowers]] by the [[hom-objects]] $D(x,y)\in \mathbf{S}$, which preserve [[acyclic cofibrations]].  (For instance, this is the case if $\mathbf{S}=$ [[Set]], or if $\mathbf{S}$ is a [[monoidal model category]], $C$ is an [[enriched model category|$\mathbf{S}$-model category]], and the [[hom-objects]] $D(x,y)$ are cofibrant in $\mathbf{S}$.)
 
 Then the projective model structure $[D,C]_{proj}$ exists, and is again cofibrantly generated.
 =--
 +-- {: .proof}
 ###### Proof
-Assuming the existence of such copowers, for any $x\in ob(D)$ the "evaluation at $x$" functor $ev_x : [D,C]\to C$ has a left adjoint $F_x$ sending $A\in C$ to the functor $y\mapsto D(x,y)\odot A$, where $\odot$ denotes the [[copower]].  Now if $I$ and $J$ are generating sets of cofibrations and trivial cofibrations for $C$, let $I^D$ be the set of maps $F_x(i)$ in $[D,C]$, for all $i\in I$ and $x\in ob(D)$, and similarly for $J$.  Then the projective fibrations and trivial fibrations are characterized by having the right lifting property with respect to $J^D$ and $I^D$ respectively, while both $I^D$ and $J^D$ permit the [[small object argument]] since $I$ and $J$ do and colimits in $[D,C]$ are pointwise.  Since the trivial fibrations in $[D,C]$ clearly coincide with the fibrations that are weak equivalences, it remains only to show that all $J^D$-cell complexes are weak equivalences.  But a $J^D$-cell complex is objectwise a cell complex built from cells $D(x,y)\odot j$ for maps $j\in J$, and the assumption ensures that these are trivial cofibrations in $C$, hence so is any cell complex built from them.
+Assuming the existence of such copowers, for any $x\in ob(D)$ the "[[evaluation]] at $x$" functor $ev_x \colon [D,C]\to C$ has a [[left adjoint]] $F_x$ sending $A\in C$ to the functor $y\mapsto D(x,y)\odot A$, where $\odot$ denotes the [[copower]].  Now if $I$ and $J$ are generating sets of cofibrations and trivial cofibrations for $C$, let $I^D$ be the set of maps $F_x(i)$ in $[D,C]$, for all $i\in I$ and $x\in ob(D)$, and similarly for $J$.  Then the projective fibrations and trivial fibrations are characterized by having the right lifting property with respect to $J^D$ and $I^D$ respectively, while both $I^D$ and $J^D$ permit the [[small object argument]] since $I$ and $J$ do and colimits in $[D,C]$ are pointwise.  Since the trivial fibrations in $[D,C]$ clearly coincide with the fibrations that are weak equivalences, it remains only to show that all $J^D$-cell complexes are weak equivalences.  But a $J^D$-cell complex is objectwise a cell complex built from cells $D(x,y)\odot j$ for maps $j\in J$, and the assumption ensures that these are trivial cofibrations in $C$, hence so is any cell complex built from them.
 =--
 
 There do exist projective model structures that do not fall under this theorem, however, such as the following.
@@ -80,10 +80,11 @@ Note that $C$ need not be cofibrantly generated (and the 2-trivial model structu
 In the case when $C$ is an [[accessible model category]], i.e. it is a [[locally presentable category]] and its constituent [[weak factorization systems]] have [[accessible functor|accessible]] realizations as [[functorial factorizations]], we have the following general result from [Moser](#Moser) (the unenriched case appears in [HKRS15](#HKRS15) and [GKR18](#GKR18)).
 
 \begin{theorem}\label{Accessible}
-Let $\mathbf{S}$ be a [[locally presentable base]], $C$ an $\mathbf{S}$-cocomplete locally $\mathbf{S}$-presentable $\mathbf{S}$-enriched category that is an [[accessible model category]], and $D$ a small $\mathbf{S}$-category.  Then:
+Let $\mathbf{S}$ be a [[locally presentable category|locally presentable]] [[cosmos]], $C$ an $\mathbf{S}$-cocomplete locally $\mathbf{S}$-presentable $\mathbf{S}$-[[enriched category]] that is an [[accessible model category]], and $D$ a small $\mathbf{S}$-category.  Then:
 
-1. If [[copowers]] by the hom-objects $D(x,y)$ preserve trivial cofibrations, then the projective model structure on $[D,C]$ exists and is accessible.
-1. If [[copowers]] by the hom-objects $D(x,y)$ preserve cofibrations, then the injective model structure on $[D,C]$ exists and is accessible
+1. If [[copowers]] by the [[hom-objects]] $D(x,y)$ preserve [[acyclic cofibrations]], then the projective model structure on $[D,C]$ exists and is accessible.
+
+1. If [[copowers]] by the hom-objects $D(x,y)$ preserve [[cofibrations]], then the injective model structure on $[D,C]$ exists and is accessible
 
 \end{theorem}
 
@@ -93,9 +94,10 @@ Let $\mathbf{S}$ be a [[locally presentable base]], $C$ an $\mathbf{S}$-cocomple
 Every [[combinatorial model category]] (i.e. locally presentable and cofibrantly generated) is accessible, so Theorem \ref{Accessible} shows that both model structures exist, and Theorem \ref{CofGenProj} shows that the projective model structure is cofibrantly generated, hence also combinatorial.  In fact the injective model structure is also combinatorial, although the proof is much more involved, because there is no explicit description of the generating cofibrations and acyclic cofibrations; they have to be produced by a cardinality argument.  This was first proven by in [[Higher Topos Theory|HTT, prop. A.2.8.2 and A.3.3.2]] under strong assumptions on the enriching category (in particular that all objects are cofibrant), and later generalized by [Makkai and Rosicky](#MR13) to essentially the following:
 
 \begin{theorem}\label{Combinatorial}
-Let $\mathbf{S}$ be a [[locally presentable base]], $C$ an $\mathbf{S}$-cocomplete locally $\mathbf{S}$-presentable $\mathbf{S}$-enriched category that is a [[combinatorial model category]], and $D$ a small $\mathbf{S}$-category.  Then:
+Let $\mathbf{S}$ be a [[locally presentable category|locally presentable]] [[cosmos]], $C$ an $\mathbf{S}$-cocomplete locally $\mathbf{S}$-presentable $\mathbf{S}$-[[enriched category]] that is a [[combinatorial model category]], and $D$ a small $\mathbf{S}$-category.  Then:
 
 1. If [[copowers]] by the hom-objects $D(x,y)$ preserve trivial cofibrations, then the projective model structure on $[D,C]$ exists and is combinatorial.
+
 1. If [[copowers]] by the hom-objects $D(x,y)$ preserve cofibrations, then the injective model structure on $[D,C]$ exists and is combinatorial.
 
 \end{theorem}
