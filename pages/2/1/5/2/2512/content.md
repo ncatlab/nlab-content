@@ -3,7 +3,7 @@ Hisham Sati ([faculty page](https://nyuad.nyu.edu/en/academics/divisions/science
 
 Hisham Sati is an associate  professor of [mathematics at NYU Abu Dhabi](https://nyuad.nyu.edu/en/academics/divisions/science/academic-programs/math.html) and lead-PI of the *[[Center for Quantum and Topological Systems]]*.
 
-* [webpage](https://nyuad.nyu.edu/en/academics/divisions/science/faculty/hisham-ahmad-sati.html)
+* [webpage](https://nyuad.nyu.edu/en/academics/divisions/science/faculty/hisham-sati.html)
 
 
 From his [cached Pitt faculty page](https://web.archive.org/web/20170811155442/http://www.mathematics.pitt.edu/person/hisham-sati):
