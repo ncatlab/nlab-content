@@ -18,3 +18,6 @@ In the context of [[cofibrantly generated model category]] theory one says that 
 
 [[!redirects weakly saturated class of maps]]
 [[!redirects weakly saturated classes of maps]]
+
+[[!redirects weak saturation]]
+
