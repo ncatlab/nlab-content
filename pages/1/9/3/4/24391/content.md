@@ -193,6 +193,12 @@ The one point compactification of the real line $\mathbb{R}_{\infty}$, with one 
  
 \end{example} 
 
+\begin{example}  Consider the probability monad on compact Hausdorff spaces, where the algebras are precisely the compact convex sets $K$ in locally convex topological vector spaces together with the barycenter maps $\beta_K:\mathcal{P}K\rightarrow K$.  
+
+Given such a space $K$ we can endow it with a super convex space structure by defining, for all $\mathbf{p} \in \mathcal{G}\mathbb{N}$, countable affine sums by  $\sum_{i \in \mathbb{N}} p_i k_i := \beta_K( \sum_{i \in \mathbb{N}} p_i \delta_{k_i})$ which, along with the pointwise super convex space structure on $\mathcal{P}K$ makes the barycenter map $\beta_K$ a countably affine map.  
+
+\end{example}
+
 ## Related concepts
 
 * [[totally convex space]]
