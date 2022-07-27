@@ -203,3 +203,8 @@ See the references at *[[simplicial homotopy theory]]*.
 [[!redirects horns]]
 [[!redirects inner horn]]
 [[!redirects inner horns]]
+
+[[!redirects simplicial horn]]
+[[!redirects simplicial horns]]
+
+
