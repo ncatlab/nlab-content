@@ -458,7 +458,7 @@ Model structures can be induced on certain (usually [[lax limit|lax]]) limits an
 
 The concept of a model category originates with
 
-* {#Quillen67} [[Daniel Quillen]], Chapter I, _Axiomatic homotopy theory_ in: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics 43, Springer 1967([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438))
+* {#Quillen67} [[Daniel Quillen]], Chapter I, _Axiomatic homotopy theory_ in: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics **43** Springer (1967) &lbrack;[doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438)&rbrack;
 
 #### Monographs and textbooks
 
