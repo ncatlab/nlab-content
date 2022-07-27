@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -38,7 +39,7 @@ So in the standard example of left lifting against Kan fibrations, one typically
 
 ### Relative to Kan fibrations of simplicial sets
 
-A [[morphism]] $f : A \to B$ of [[simplicial sets]] is called **anodyne** if it has the left [[lifting property]] with respect to all [[Kan fibration]]s.
+A [[morphism]] $f : A \to B$ of [[simplicial sets]] is called **anodyne** if it has the left [[lifting property]] with respect to all [[Kan fibrations]].
 
 So $f$ is anodyne if for every [[Kan fibration]] $X \to Y$ and every commuting diagram
 
