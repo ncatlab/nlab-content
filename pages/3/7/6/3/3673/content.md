@@ -32,21 +32,21 @@ Typically this arises in situations where $D$ consist of the "same" objects as $
 Let $C$ be a [[model category]] and
 
 $$
-  (L \dashv R )
+  (F \dashv U )
   \;\colon\; 
   D 
   \underoverset  
-    {\underset{R}{\longrightarrow}}
-    {\overset{L}{\longleftarrow}}
+    {\underset{U}{\longrightarrow}}
+    {\overset{F}{\longleftarrow}}
     {\;\;\;\bot\;\;\;}
   C
 $$
 
-a pair of [[adjoint functors]] with [[right adjoint]] $R$.  Define a morphism in $D$ to be
+a pair of [[adjoint functors]] with [[right adjoint]] $U$.  Define a morphism in $D$ to be
 
-* a *fibration* or *weak equivalence* precisely if its image under $R$ is so in $C$, respectively
+* a *fibration* or *weak equivalence* precisely if its image under $U$ is so in $C$, respectively
 
-  (by adjointness this means that the fibrations form equivalently the class with the [[right lifting property]] against the image under $L$ of the [[acyclic cofibrations]] in $C$);
+  (by adjointness this means that the fibrations form equivalently the class with the [[right lifting property]] against the image under $F$ of the [[acyclic cofibrations]] in $C$);
 
 * a *cofibration* precisely if it has the [[left lifting property]] with respect to the fibrations that are also weak equivalences, according to the previous item.
 
@@ -58,7 +58,7 @@ or sometimes *right induced model structure* or *right lifted model structure* f
 
 In the above situation of Def. \ref{RightTransferredModelStructure} it is clear what one means by an [[acyclic fibration]] in $D$, but the notion of [[acyclic cofibration]] in $D$ is, *a priori*, ambiguous. For the purpose of stating the following Thm. \ref{NeccSuff} we declare that:
 
-1. an *[[acyclic fibration]]* in $D$ is (of course) a morphism that is both a fibration and a weak equivalence, or equivalently whose image under $R$ is an acyclic fibration in $C$.  
+1. an *[[acyclic fibration]]* in $D$ is (of course) a morphism that is both a fibration and a weak equivalence, or equivalently whose image under $U$ is an acyclic fibration in $C$.  
 
 1. a morphism is $D$ is
 
