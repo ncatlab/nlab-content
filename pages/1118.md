@@ -98,7 +98,9 @@ G
    G
 }
 $$
-(telling us that the inverse map really does take an inverse), where we have let $1: G \to G$ denote the composite $G \to * \stackrel{1}{\to} G$, and where the [[pairing]] $(f,g)$ is $(f\times g)\circ\Delta$ and $\Delta$ is a [[diagonal morphism]].
+(telling us that the inverse map really does take an inverse).
+
+As a slight abuse of notation we have reused $1$ here to denote $1: G \to G$, defined as the composite $G \to * \stackrel{1}{\to} G$. Also, the associativity law technically factors through the isomorphisms between $(G\times G)\times G$ and $G\times (G\times G)$. The [[pairing]] $(f,g)$ denotes $(f\times g)\circ\Delta$ where $\Delta$ is a [[diagonal morphism]].
 
 Even if $C$ doesn\'t have *all* binary products, as long as products with $G$ (and the terminal object $*$) exist, then one can still speak of a group object $G$ in $C$.
 
