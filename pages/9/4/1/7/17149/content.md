@@ -23,7 +23,9 @@ This page collects links related to
 
   The University of Chicago Press 1974
 
-  [ucp:bo21302708](https://www.press.uchicago.edu/ucp/books/book/chicago/S/bo21302708.html), [pdf](https://www.uio.no/studier/emner/matnat/math/MAT9580/v17/documents/adams-shgh.pdf)
+  [ucp:bo21302708](https://www.press.uchicago.edu/ucp/books/book/chicago/S/bo21302708.html)
+
+  [pdf](https://www.uio.no/studier/emner/matnat/math/MAT9580/v17/documents/adams-shgh.pdf), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/Adams-SHGH-latex.pdf)
 
 
 on [[stable homotopy theory]] and [[generalised homology]] theory, with emphasis on [[complex cobordism cohomology theory|complex]] [[cobordism theory]], [[complex oriented cohomology theory]], and the [[Adams spectral sequence]]/[[Adams-Novikov spectral sequence]] (today: "[[chromatic homotopy theory]]").
