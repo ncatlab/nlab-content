@@ -81,18 +81,24 @@ S(A) \arrow[uu, "d"] \arrow[rr, "d"']      &  & S(A) \otimes A \arrow[rr, "d \ot
 
 It expresses that the second differential of a function is invariant by permutation of the two variables with respect to we differentiate successively.
 
-\end{definition}
-
 \begin{example}
 If $\mathbb{K}$ is a field, then $Vect_{\mathbb{K}}$ is a codifferential category.
 
-* We define $S(A) = Sym(A)$, the symmetric algebra on the vector space $A$.
+* We define $S(A) = Sym(A)$, the [[symmetric algebra]] of the vector space $A$.
 * It is a commutative algebra as usual.
 * The unit $A \rightarrow Sym(A)$ of the monad is just the injection $x \mapsto x$.
 * The multiplication $Sym(Sym(A)) \rightarrow Sym(A)$ of the monad is given on pure tensors by $(x_{1}^{(1)} \otimes_{s} ... \otimes_{s} x_{n_{1}}^{(1)}) \boxtimes_{s} ... \boxtimes_{s}  (x_{1}^{(p)} \otimes_{s} ... \otimes_{s} x_{n_{p}}^{(p)}) \mapsto x_{1}^{(1)} \otimes_{s} ... \otimes_{s} x_{n_{1}}^{(1)} \otimes ... \otimes x_{1}^{(p)} \otimes_{s} ... \otimes_{s} x_{n_{p}}^{(p)}$. It is a kind of composition of polynomials.
 * The deriving transformation $Sym(A) \rightarrow Sym(A) \otimes A$ is defined on pure tensors by $x_{1} \otimes_{s} ... \otimes_{s} x_{n} \mapsto \underset{1 \le k \le n}{\sum}(x_{1} \otimes_{s} ... \otimes_{s} x_{k-1} \otimes_{s} x_{k+1} \otimes_{s} ... \otimes_{s} x_{n}) \otimes x_{k}$. For instance, if $X,Y,Z$ is a basis of $A$, then $d(X^{2}+YZ) = 2X \otimes X + Y \otimes Z + Z \otimes Y$.
 
 \end{example}
+
+## Commentary on the type of the deriving transformation
+
+The deriving transformation in a codifferential category is a natural transformation of type $!A \rightarrow !A \otimes A$. As written before, in the example of vector spaces and symmetric algebras, we have thus $d(X^{2}+YZ) = 2X \otimes X + Y \otimes Z + Z \otimes Y$.
+
+It could be more natural to have a deriving transformation of type $!A \rightarrow !A \otimes A^{*}$ and requiring the category to be $*$-autonomous. Thus, we would have $d(X^{2}+YZ) = 2X \otimes dX + Y \otimes dZ + Z \otimes dY$. However, the concept of [[graded codifferential category]] explains why the type $!A \rightarrow !A \otimes A$ is more natural.
+
+\end{definition}
 
 ## Related concepts
 
