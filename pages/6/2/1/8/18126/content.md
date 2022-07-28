@@ -6160,7 +6160,7 @@ For every [[topological space]] $X$ there exists
 
 1. a [[sober topological spaces]] $S X$;
 
-1. a [[continuous function]] $s_n \colon X \longrightarrow S X$
+1. a [[continuous function]] $s_X \colon X \longrightarrow S X$
 
 such that ...
 
