@@ -85,11 +85,11 @@ Super convex spaces with morphisms the countably affine maps form a category den
 
 
 ## Alternative Definition 
- Viewing $\Delta_{\mathbb{N}}$ as a [[monoid]] we can model a super convex space $A$ as the subcategory of $\mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$ consisting of those  functors of the form  $\widehat{A} \in \Set^{\Delta_{\mathbb{N}}^{op}}$ given by $\widehat{A}(\star)=\Set(\mathbb{N}, A)$ and for all $\mathbf{p} \in \mathcal{G}{\mathbb{N}}$ (hence $\mathbf{p} \in \Delta_{\mathbb{N}}$ and vice-versa)
+ Viewing $\Delta_{\mathbb{N}}$ as a [[monoid]] we can model a super convex space $A$ as the subcategory of $\mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$ consisting of those  functors of the form  $\widehat{A} \in \Set^{\Delta_{\mathbb{N}}^{op}}$ given by $\widehat{A}(\star)= \Set(\mathbb{N}, A)$, and for all $\mathbf{p} \in \mathcal{G}{\mathbb{N}}$ (hence $\mathbf{p} \in \Delta_{\mathbb{N}}$ and vice-versa)
  \begin{equation} 
   \widehat{A}(\mathbf{p})(\mathbf{a}) =  \int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p},
   \end{equation}
- which we identify with the constant sequence in $A$ with the value $ \int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p}$.
+ which we identify with the constant sequence in $A$ with the value $ \int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p}$.  (Because $\widehat{A}$ is a presheaf it is determined by the hom set $\mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}(\widehat{\Delta_{\mathbb{N}}},\widehat{A})$, hence $\widehat{A}(\star)= \mathbf{SCvx}(\Delta_{\mathbb{N}}, A) \cong \mathbf{Set}(\mathbb{N},A)$ where the second isomorphism  follows from Lemma 5.1.)
 
   A natural transformation $m: \widehat{A} \Rightarrow \widehat{B}$ given at the single component is the function $m_{\star} = \mathbf{Set}(\mathbb{N}, m)$ such that the $\mathbf{Set}$-diagram
 
