@@ -187,7 +187,8 @@ where $\sigma: V \otimes W \to W \otimes V$ is the symmetry. The unit is the ten
 
 * The [[Chu construction]] can be used to form many more examples of $*$-autonomous categories.
 
-* Various [[subcategories]] of Chu constructions are also $*$-autonomous.  For instance, if [[Vect]] is the category of [[vector spaces]] over a [[field]] $k$, then $Chu(Vect,k)$ is the category of vector spaces equipped with a specified "dual" having no further structure than an evaluation map $V\otimes W\to k$.  One often wants to impose nondegeneracy conditions on this "dual", which in turn can be reflected as [[topological vector space|topological]] properties of the original space $V$.
+* Various [[subcategories]] of Chu constructions are also $*$-autonomous.  For instance, if [[Vect]] is the category of [[vector spaces]] over a [[field]] $k$, then $Chu(Vect,k)$ is the category of vector spaces equipped with a specified "dual" having no further structure than an evaluation map $V\otimes W\to k$.  One often wants to impose nondegeneracy conditions on this "dual", which in turn can be reflected as [[topological vector space|topological]] properties of the original space $V$. 
+Write $(V,V')$ for an object of $Chu(Vect,k)$ and $\langle v,w \rangle$ the evaluation of $w$ on $v$. We say that $(V,V')$ is separated if for each $v \neq 0 \in V$, there exists $v' \in V'$ such that $\langle v,v' \rangle \neq 0$ and we say that it is extensional if for each $v' \neq 0 \in V'$, there exists $v \in V$ such that $\langle v,v' \rangle \neq 0$. Then, the full subcategory $chu(Vect,k)$ of separated, extensional pairs is $*$-autonomous.
 
 * A [[quantale]] (see there) is a $\ast$-autonomous category if it has a [[dualizing object]].
 
@@ -238,6 +239,11 @@ These authors call any closed monoidal category with a [[dualizing object in a c
 Here it is explained how $*$-autonomous categories give Frobenius pseudomonads in the 2-category where morphisms are [[profunctors]]:
 
 *  Ross Street, Frobenius monads and pseudomonoids, J. Math. Physics 45 (2004) 3930-3948. ([pdf](http://www.math.mq.edu.au/~street/Frob.pdf))
+
+Examples using toplogical vector spaces are given here:
+
+* Michael Barr, On $*$-autonomous categories of topological vector spaces, Cahiers de topologie et géométrie différentielle catégoriques, tome
+41, no 4 (2000), p. 243-254. ([pdf] (http://www.numdam.org/item/CTGDC_2000__41_4_243_0.pdf))
 
 Relation to linearly distributive categories:
 
