@@ -1,14 +1,14 @@
-Bob Walters, often called R F C Walters, taught at the University of Sydney and died in January 2015.
+Bob Walters (1943-2015), often called R F C Walters (Robert Frank Carslaw Walters), taught at the University of Sydney and from 1999 at the University of Insubria.
 
-* [Web biography](http://dscpi.uninsubria.it/staff/Walters/Biography) (link no longer working?)
+* [Web biography](http://dscpi.uninsubria.it/staff/Walters/Biography) (not working) [InternetArchive](https://web.archive.org/web/20130207023208/dscpi.uninsubria.it/staff/Walters/Biography)
 
 * [blog](http://rfcwalters.blogspot.de/)
 
-* [list of publications](http://comocategoryarchive.com/People/Walters-papers/pdffiles.html)
+* [list of publications](http://comocategoryarchive.com/People/Walters-papers/pdffiles.html) (not working) 
 
 * [list of publications at University of Sydney](https://www.maths.usyd.edu.au/ut/pub-seek.py?sau=Walters+RFC&pp=3)
 
-* [Como Category Theory Archive](http://comocategoryarchive.com/)
+* [Como Category Theory Archive](http://comocategoryarchive.com/) (not working) 
 
 ## Selected writings
 
