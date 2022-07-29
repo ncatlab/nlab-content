@@ -68,7 +68,7 @@ It is interesting how to generalize this notion in various nonsymmetric situatio
 
 ## Related concepts
 
-* [[Hopf monoid]], [[Frobenius monoid]]
+* [[Hopf monoid]], [[Frobenius monoid]], [[graded bimonoid]]
 
 ## References
 
