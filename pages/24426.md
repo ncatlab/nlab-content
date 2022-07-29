@@ -1,6 +1,10 @@
 [[!redirects symmetric powers in symmetric monoidal categories enriched over modules over a Q+ - algebra]]
 [[!redirects symmetric powers in symmetric monoidal categories enriched over modules over $\mathbb{Q}^{+}$-algebras]]
 
+#Contents#
+* table of contents
+{:toc}
+
 ##Idea
 
 A conjectural characterization of [[symmetric powers]] in [[symmetric monoidal categories]] [[enriched]] over [[modules]] over a $\mathbb{Q}^{+}$-[[associative algebra]] is described here. The description in terms of [[universal properties]] would be equivalent to a much longer one but much more constructive in algebraic terms. It would be similar to the characterization of products known as [[Fox theorem]] but where [[products]] are replaced by [[symmetric powers]]. We work in symmetric monoidal categories enriched over modules over a $\mathbb{Q}^{+}$-algebra. The adaptation to [[CMon-enriched symmetric monoidal categories]] would involve symmetric and [[divided powers]] which are equal in this simpler setting. This conjecture seems to be true and if it is really the case, the proof is not trivial.
@@ -46,6 +50,31 @@ such that:
 \begin{conjecture}
 Let $R$ be a $\mathbb{Q}^{+}$-algebra. Let $\mathcal{C}$ be a symmetric monoidal category enriched over $R$-modules. Let $(S_{n}:\mathcal{C} \rightarrow \mathcal{C})_{n \ge 0}$ be a family of endofunctors such that $S_{0}(A)=I$ and $S_{1}(A) = A$. Then, there is a bijection between families of natural transformations $(r_{n}(A):A^{\otimes_{n}} \rightarrow S_{n}(A))_{n \ge 0}$ which make $(S_{n}(A))$ symmetric powers and families of natural transformations $(\nabla_{n,p}:S_{n}(A) \otimes S_{p}(A) \rightarrow S_{n+p}(A))_{n,p \ge 0}, (\Delta_{n,p}:S_{n+p}(A) \rightarrow S_{n}(A) \otimes S_{p}(A))_{n,p \ge 0}$ which make $(S_{n}(A))$ a functorial special bicommutative graded bimonoid.
 \end{conjecture}
+
+## Towards a proof
+
+### Symmetric powers in symmetric monoidal categories enriched over modules over a $\mathbb{Q}^{+}$-algebra
+
+In a symmetric monoidal category $\mathcal{C}$ enriched over modules over a $\mathbb{Q}^{+}$-algebra, symmetric powers are equivalent to divided powers ie.:
+\begin{proposition}
+Let $R$ be a $\mathbb{Q}^{+}$-algebra and $\mathcal{C}$ be a symmetric monoidal category enriched over $R$-modules. Let $n \ge 0$ and $S_{n}:\mathcal{C} \rightarrow \mathcal{C}$ be an endofunctor. There is a bijection between natural transformations $r_{n}:A^{\otimes n} \rightarrow S_{n}(A)$ which make $(S_{n}(A))$ symmetric powers and natural transformations $s_{n}:S_{n}(A) \rightarrow A^{\otimes n}$ which make $(S_{n}(A))$ divided powers ie. such that for every $A \in \mathcal{C}$, we have this equalizer:
+\begin{tikzcd}[ampersand replacement=\&]
+A^{\otimes_{s}n} \arrow[rr, "s_{n}(A)"] \&  \& A^{\otimes n} \arrow[rr, "\sigma", shift left=3] \arrow[rr, "...", shift right=3] \&  \& A^{\otimes n}
+\end{tikzcd}
+\end{proposition}
+
+\begin{proposition}
+Let $R$ be a $\mathbb{Q}^{+}$-algebra and $\mathcal{C}$ be a symmetric monoidal category enriched over $R$-modules. Let $n \ge 0$ and $S_{n}:\mathcal{C} \rightarrow \mathcal{C}$ be an endofunctor. There is a bijection between natural transformations $r_{n}:A^{\otimes n} \rightarrow S_{n}(A)$ which make $(S_{n}(A))$ symmetric powers and pairs of natural transformations $(r_{n}:A^{\otimes n} \rightarrow S_{n}(A), s_{n}:S_{n}(A) \rightarrow A^{\otimes n})$ such that:
+
+* $s_{n};r_{n}=1:S_{n}(A) \rightarrow S_{n}(A)$
+* $r_{n};s_{n} = \frac{1}{n!} \underset{\sigma \in \mathfrak{S}_{n}}{\sum}\sigma:A^{\otimes n} \rightarrow A^{\otimes n}$
+
+\end{proposition}
+
+With this last equivalent definition, we have already replaced the universal property defining symmetric powers by two natural transformations which verify some equations. The work is now to show the equivalence between these two equations and the ones defining a functorial special bicommutative graded bimonoid.
+
+### Piecewise conjecture
+
 ## Related concepts
 
 [[graded codifferential category]]
