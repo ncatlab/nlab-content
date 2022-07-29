@@ -3,7 +3,7 @@
 
 ##Idea
 
-A conjectural characterization of [[symmetric powers]] in [[symmetric monoidal categories]] [[enriched]] over [[modules]] over a $\mathbb{Q}^{+}$-[[associative algebra]] is described here. The description in terms of universal properties would be equivalent to a much longer one but much more constructive in algebraic terms. It would be similar to the characterization of products known as [[Fox theorem]] but where products are replaced by symmetric powers. We work in symmetric monoidal categories enriched over modules over a $\mathbb{Q}^{+}$-algebra. The adaptation to $CMon$-enriched symmetric monoidal categories would involve symmetric and divided powers which are equal in this simpler setting. This conjecture seems to be true and if it is really the case, the proof is not trivial.
+A conjectural characterization of [[symmetric powers]] in [[symmetric monoidal categories]] [[enriched]] over [[modules]] over a $\mathbb{Q}^{+}$-[[associative algebra]] is described here. The description in terms of [[universal properties]] would be equivalent to a much longer one but much more constructive in algebraic terms. It would be similar to the characterization of products known as [[Fox theorem]] but where [[products]] are replaced by [[symmetric powers]]. We work in symmetric monoidal categories enriched over modules over a $\mathbb{Q}^{+}$-algebra. The adaptation to [[CMon-enriched symmetric monoidal categories]] would involve symmetric and [[divided powers]] which are equal in this simpler setting. This conjecture seems to be true and if it is really the case, the proof is not trivial.
 
 ##Conjecture
 We suppose that the symmetric monoidal categories are strict monoidal categories.
@@ -17,17 +17,17 @@ and $r_{n}(A):A^{\otimes n} \rightarrow S_{n}(A)$ is a natural transformation.
 \end{definition}
 
 \begin{definition}
-A functorial special bicommutative [[graded bimonoid]] in a $CMon$-enriched symmetric monoidal category is given by:
+A functorial special bicommutative graded bimonoid in a $CMon$-enriched symmetric monoidal category is given by:
 
-* a family $(S_{n}:\mathcal{C}\rightarrow \mathcal{C})_{n \ge 0}$ of endofunctors
-* a family $(\nabla_{n,p}:S_{n}(A) \otimes S_{p}(A) \rightarrow S_{n+p}(A))_{n,p \ge 0}$ of natural transformations
+* a family $(S_{n}:\mathcal{C}\rightarrow \mathcal{C})_{n \ge 0}$ of [[endofunctors]]
+* a family $(\nabla_{n,p}:S_{n}(A) \otimes S_{p}(A) \rightarrow S_{n+p}(A))_{n,p \ge 0}$ of [[natural transformations]]
 * a family $(\Delta_{n,p}:S_{n+p}(A) \rightarrow S_{n}(A) \otimes S_{p}(A))_{n,p \ge 0}$ of natural transformations
 
 such that:
 
 * $S_{0}(A)=I$
 * $S_{1}(A)=A$
-* for every $A \in \mathcal{C}$, $(A,(\nabla_{n,p})_{n,p \ge 0}, (\Delta_{n,p})_{n,p \ge 0})$) is a special bicommutative graded bimonoid ie.:
+* for every $A \in \mathcal{C}$, $(A,(\nabla_{n,p})_{n,p \ge 0}, (\Delta_{n,p})_{n,p \ge 0})$) is a special bicommutative [[graded bimonoid]] ie.:
 
 * $\gamma;\nabla_{p,n} = \nabla_{n,p}$ (commutativity)
 * $\Delta_{p,n};\gamma = \Delta_{n,p}$ (cocommutativity)
