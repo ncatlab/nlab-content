@@ -86,3 +86,5 @@ See [[condensed mathematics]] and [[infinity-groupoid#Anima]].
 
 [[!redirects condensed infinity-groupoids]]
 [[!redirects condensed anima]]
+[[!redirects condensed ∞-groupoids]]
+[[!redirects condensed ∞-groupoid]]
