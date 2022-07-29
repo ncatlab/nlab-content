@@ -1,5 +1,5 @@
 
-* [webpage](http://www.renyi.hu/~szamuely/)
+* [webpage](https://pagine.dm.unipi.it/tamas/)
 
 
 ## Selected writings
