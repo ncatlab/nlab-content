@@ -167,4 +167,6 @@ where on the bottom we have the [[Quillen adjunction between equivariant simplic
 Notice that *if* the transferred model structure on the top left exists, then the top functor is right Quillen (by the previous comment, it preserves (acyclic) fibrations iff its composite with the right functor does, which is equivalently the case if the left-bottom composite is right Quillen, which is the case by the existence of the transferred structure on the left)
 
 
+## Test
 
+[[CMon-enriched symmetric monoidal categories]]
