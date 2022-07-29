@@ -1,13 +1,51 @@
 [[!redirects symmetric powers in symmetric monoidal categories enriched over modules over a Q+ - algebra]]
-[[!redirects symmetric powers in symmetric monoidal categories enriched over modules over a Q+ - algebra]]
-[[!redirects symmetric powers in symmetric monoidal categories enriched over modules over $\mathbb{Q}^{+}$-algebras]]
 [[!redirects symmetric powers in symmetric monoidal categories enriched over modules over $\mathbb{Q}^{+}$-algebras]]
 
 ##Idea
 
-A conjectural characterization of [[symmetric powers]] in [[symmetric monoidal categories]] [[enriched]] over [[modules]] over a $\mathbb{Q}^{+}$-[[associative algebra]] will be described here.
+A conjectural characterization of [[symmetric powers]] in [[symmetric monoidal categories]] [[enriched]] over [[modules]] over a $\mathbb{Q}^{+}$-[[associative algebra]] is described here. The description in terms of universal properties would be equivalent to a much longer one but much more constructive in algebraic terms. It would be similar to the characterization of products known as [[Fox theorem]] but where products are replaced by symmetric powers. We work in symmetric monoidal categories enriched over modules over a $\mathbb{Q}^{+}$-algebra. The adaptation to $CMon$-enriched symmetric monoidal categories would involve symmetric and divided powers which are equal in this simpler setting. This conjecture seems to be true and if it is really the case, the proof is not trivial.
 
+##Conjecture
+We suppose that the symmetric monoidal categories are strict monoidal categories.
 
+\begin{definition}
+We say that a symmetric monoidal category $\mathcal{C}$ possesses the $n$-th symmetric power ($n \ge 0$) iff it possesses this coequalizer for every $A \in \mathcal{C}$:
+\begin{tikzcd}
+A^{\otimes n} \arrow[rr, "\sigma", shift left=3] \arrow[rr, "...", shift right=3] &  & A^{\otimes n} \arrow[rr, "r_{n}(A)"] &  & S_{n}(A)
+\end{tikzcd}
+and $r_{n}(A):A^{\otimes n} \rightarrow S_{n}(A)$ is a natural transformation.
+\end{definition}
+
+\begin{definition}
+A functorial special bicommutative [[graded bimonoid]] in a $CMon$-enriched symmetric monoidal category is given by:
+
+* a family $(S_{n}:\mathcal{C}\rightarrow \mathcal{C})_{n \ge 0}$ of endofunctors
+* a family $(\nabla_{n,p}:S_{n}(A) \otimes S_{p}(A) \rightarrow S_{n+p}(A))_{n,p \ge 0}$ of natural transformations
+* a family $(\Delta_{n,p}:S_{n+p}(A) \rightarrow S_{n}(A) \otimes S_{p}(A))_{n,p \ge 0}$ of natural transformations
+
+such that:
+
+* $S_{0}(A)=I$
+* $S_{1}(A)=A$
+* for every $A \in \mathcal{C}$, $(A,(\nabla_{n,p})_{n,p \ge 0}, (\Delta_{n,p})_{n,p \ge 0})$) is a special bicommutative graded bimonoid ie.:
+
+* $\gamma;\nabla_{p,n} = \nabla_{n,p}$ (commutativity)
+* $\Delta_{p,n};\gamma = \Delta_{n,p}$ (cocommutativity)
+* $\nabla_{n,0}=1$ (unitality)
+* $\Delta_{n,0}=1$ (counitality)
+* $(\nabla_{n,p} \otimes 1);\nabla_{n+p,q} = (1 \otimes \nabla_{p,q});\nabla_{n,p+q}$ (associativity)
+* $\Delta_{n+p,q};(\delta_{n,p} \otimes 1) = \Delta_{n+p,q};(1 \otimes \Delta_{p,q})$
+(coassociativity)
+* if $n+p = q+r$, then $\nabla_{n,p};\Delta_{q,r} = \underset{\substack{a,b,c,d \ge 0 \\ a+b=n \\ c+d=p \\ a+c=q \\ b+d=r}}{\sum} (\Delta_{a,b} \otimes \Delta_{c,d});(1 \otimes \gamma \otimes 1);(\nabla_{a,c} \otimes \nabla_{b,d})$
+(compatibility multiplication/comultiplication)
+* $\Delta_{n,p};\nabla_{n,p} = \binom{n+p}{n}$
+(specialty)
+
+\end{definition}
+
+\begin{conjecture}
+Let $R$ be a $\mathbb{Q}^{+}$-algebra. Let $\mathcal{C}$ be a symmetric monoidal category enriched over $R$-modules. Let $(S_{n}:\mathcal{C} \rightarrow \mathcal{C})_{n \ge 0}$ be a family of endofunctors such that $S_{0}(A)=I$ and $S_{1}(A) = A$. Then, there is a bijection between families of natural transformations $(r_{n}(A):A^{\otimes_{n}} \rightarrow S_{n}(A))_{n \ge 0}$ which make $(S_{n}(A))$ symmetric powers and families of natural transformations $(\nabla_{n,p}:S_{n}(A) \otimes S_{p}(A) \rightarrow S_{n+p}(A))_{n,p \ge 0}, (\Delta_{n,p}:S_{n+p}(A) \rightarrow S_{n}(A) \otimes S_{p}(A))_{n,p \ge 0}$ which make $(S_{n}(A))$ a functorial special bicommutative graded bimonoid.
+\end{conjecture}
 ## Related concepts
 
 [[graded codifferential category]]
