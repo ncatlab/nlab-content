@@ -189,10 +189,10 @@ The one point compactification of the real line $\mathbb{R}_{\infty}$, with one 
 \end{example}
  
 \begin{example}
-Because we can represent a super convex space as a functor $\widehat{A} \in  \mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$ we can make use of the  contravariant functor $\mathbf{Spec}: \mathbf{Set}^{\Delta_{\mathbb{N}}^{op}} \rightarrow \mathbf{Set}^{\Delta_{\mathbb{N}}}$  which, because $\Delta_{\mathbb{N}}$ is a monoid with the single object denoted $\star$, is easy to describe.  We have
+Because we can represent a super convex space as a functor $\widehat{A} \in  \mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$ we can make use of the  contravariant functor $\mathcal{O}: \mathbf{Set}^{\Delta_{\mathbb{N}}^{op}} \rightarrow \mathbf{Set}^{\Delta_{\mathbb{N}}}$  which, because $\Delta_{\mathbb{N}}$ is a monoid with the single object denoted $\star$, is easy to describe.  We have
 \begin{equation}
 \begin{array}{lcl}
-\mathbf{Spec}(\widehat{A}) &=& Nat( \widehat{A}, \Delta_{\mathbb{N}}(\bullet, \star)) \\
+\mathcal{O}(\widehat{A}) &=& Nat( \widehat{A}, \Delta_{\mathbb{N}}(\bullet, \star)) \\
 &=& \{ \mathbf{Set}(\mathbb{N}, A) \stackrel{\omega}{\longrightarrow} \Delta_{\mathbb{N}} \, | \, \int_{\mathbb{N}} \omega(\mathbf{a}) \, dp = \omega\big( \int_{\mathbb{N}} \mathbf{a} \, dp \big) \, \forall p\in \Delta_{\mathbb{N}}, \forall \mathbf{a}: \mathbb{N} \rightarrow A \}
 \end{array},
 \end{equation}
@@ -214,18 +214,18 @@ To view this set as a countably generated measurable space  take the generating 
 \end{centre}
  and define, for all $n \in \mathbb{N}$ the set $M_n = \{ \omega \in Nat( \widehat{A}, \Delta_{\mathbb{N}}(\bullet, \star)) \, | \, \tau(\omega)(i) = 1 \, \forall i\le n \}$.
  
-There is also a contravariant functor $\mathcal{O}: \mathbf{Set}^{\Delta_{\mathbb{N}}} \rightarrow\mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$ given by $\mathcal{O}(\widehat{X}) = Nat( \widehat{X}, \Delta_{\mathbb{N}}(\star,\bullet))$
+There is also a contravariant functor $\mathbf{Spec}: \mathbf{Set}^{\Delta_{\mathbb{N}}} \rightarrow\mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$ given by $\mathbf{Spec}(\widehat{X}) = Nat( \widehat{X}, \Delta_{\mathbb{N}}(\star,\bullet))$
 and if we take $\widehat{X} = \mathbf{Meas}(X, \bullet)$ then we have 
 \begin{equation} 
 \begin{array}{lcl}
-\mathcal{O}(\widehat{X})(\star) &=& Nat( \mathbf{Meas}(X,\bullet), \Delta_{\mathbb{N}}(\star,\bullet)) \\
+\mathbf{Spec}(\widehat{X})(\star) &=& Nat( \mathbf{Meas}(X,\bullet), \Delta_{\mathbb{N}}(\star,\bullet)) \\
 &=& \{ \mathbf{Meas}(X, \Delta_{\mathbb{N}}) \stackrel{J}{\longrightarrow} \Delta_{\mathbb{N}} \, | \,  \int_{i \in \mathbb{N}} J(f)[i] dp = J\big( \int_{i \in \mathbb{N}} f(\cdot)[i] \, dp\big) \quad  \forall f \in \mathbf{Meas}(X, \Delta_{\mathbb{N}})  \}
 \end{array}
 \end{equation}
 where $\Delta_{\mathbb{N}}$ is viewed as the measurable space $\mathcal{G}(\mathbb{N})$ where $\mathcal{G}$ is the Giry monad, and
-where $\int_{i \in \mathbb{N}} f(\cdot)[i] dp: X \rightarrow \Delta_{\mathbb{N}}$ and $J(f) = \sum_{i \in \mathbb{N}} J(f)[i] \delta_i \in \Delta_{\mathbb{N}}$. This set is a super convex space because $\Delta_{\mathbb{N}}$ is a super convex space.  It is not difficult to interpret $\mathcal{O}(\widehat{X})(\star)$ as $\mathcal{G}{X}$, the set of all probability measures on $X$, because the natural transformations $J$ are weakly-averaging countably affine functions.  
+where $\int_{i \in \mathbb{N}} f(\cdot)[i] dp: X \rightarrow \Delta_{\mathbb{N}}$ and $J(f) = \sum_{i \in \mathbb{N}} J(f)[i] \delta_i \in \Delta_{\mathbb{N}}$. The set $\mathbf{Spec}(\widehat{X})(\star)$ is a super convex space because $\Delta_{\mathbb{N}}$ is a super convex space.  It is not difficult to interpret $\mathbf{Spec}(\widehat{X})(\star)$ as $\mathcal{G}{X}$, the set of all probability measures on $X$, because the natural transformations $J$ are weakly-averaging countably affine functions.  
 
-We can restrict the two categories $\mathbf{Meas}$ and $\mathbf{SCvx}$ so that the usual adjunction $\mathbf{Spec} \dashv \mathcal{O}$, which views the contravariant functors described above as  covariant functors, restricts to nice subcategories giving an adjunction.  Take the pullback of the inclusion functor $\iota: \mathbf{Std} \hookrightarrow \mathbf{Meas}$ along the functor $\mathbf{Spec}$ restricted to the full subcategory of functors $\widehat{A}$ characterizing super convex spaces,
+We can restrict the two categories $\mathbf{Meas}$ and $\mathbf{SCvx}$ so that the usual adjunction $\mathcal{O} \dashv \mathbf{Spec}$, which views the contravariant functors described above as  covariant functors, restricts to nice subcategories giving an adjunction.  Take the pullback of the inclusion functor $\iota: \mathbf{Std} \hookrightarrow \mathbf{Meas}$ along the functor $\mathcal{O}$ restricted to the full subcategory of functors $\widehat{A}$ characterizing super convex spaces,
 \begin{centre}
 \begin{tikzpicture}
     \node   (SCvxstar)  at  (0,0)   {$\mathbf{SCvx}_{\star}$};
@@ -233,7 +233,7 @@ We can restrict the two categories $\mathbf{Meas}$ and $\mathbf{SCvx}$ so that t
     \node   (SCvx)    at  (0,-1.5)  {$\mathbf{SCvx}$};
     \node   (Meas)     at  (3., -1.5)   {$\mathbf{Meas}$};
     
-    \draw[->,below] (SCvx) to node {$\mathbf{Spec}|$} (Meas);
+    \draw[->,below] (SCvx) to node {$\mathcal{O}|$} (Meas);
     \draw[>->,right] (Std) to node {$\iota$} (Meas);
     \draw[->,left,dashed] (SCvxstar) to node {$$} (SCvx);
     \draw[->,above,dashed] (SCvxstar) to node {$\mathbf{\Sigma}$} (Std);
