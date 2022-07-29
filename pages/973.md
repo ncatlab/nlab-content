@@ -314,7 +314,7 @@ From the discussion there we have that
 
 We can "break in half" the difference between the two and define
 
-* a *locally multipresentable category* to be equivalently:
+* a [[locally multipresentable category]] to be equivalently:
   * a *multireflective* full subcategory of a presheaf category that's closed under $\kappa$-filtered colimits for some $\kappa$
   * the category of models of a *limit and coproduct* sketch
   * an accessible category with all small *connected* limits
