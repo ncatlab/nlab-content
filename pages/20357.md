@@ -50,3 +50,7 @@ A standard textbook is
 [[!redirects Stonean]]
 [[!redirects Stonean duality]]
 [[!redirects Stonean dualities]]
+[[!redirects compact extremally disconnected Hausdorff space]]
+[[!redirects compact extremally disconnected Hausdorff spaces]]
+[[!redirects compact extremally disconnected Hausdorff topological space]]
+[[!redirects compact extremally disconnected Hausdorff topological spaces]]
