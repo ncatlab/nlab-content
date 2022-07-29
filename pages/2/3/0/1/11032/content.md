@@ -88,7 +88,7 @@ Furthermore, a traced monoidal category that is $\ast$-[[star-autonomous categor
 
 ### In cartesian monoidal categories
 
-For a [[cartesian monoidal category]], the existence of a trace operator is equivalent to the existence of a "parameterized" [[fixed point]] operator satisfying certain properties ([Hasegawa 1997](#Hasegawa97)).
+For a [[cartesian monoidal category]], the existence of a trace operator is equivalent to the existence of a "parameterized" [[fixed point]] operator satisfying certain properties ([Hasegawa 1997](#Hasegawa97)). When the category is a [[Lawvere theory]], this is related to the notion of [[iteration theory]]. 
 
 ### Adding traces
 
