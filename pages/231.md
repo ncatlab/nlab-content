@@ -206,7 +206,7 @@ $$
 which, while evident, is, strictly speaking, non-trivial.
 
 This means that the [[associator]] (eq:AssociatorInAMonoidalCategory)
-in a monoidal categorty $\mathcal{C}$ is actually of the form
+in a monoidal category $\mathcal{C}$ is actually of the form
 
    $$
      a 
