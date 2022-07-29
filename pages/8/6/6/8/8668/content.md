@@ -34,7 +34,7 @@
 ## Basic idea in category theory
  {#BasicIdea}
 
-The general idea is that a _[[locally presentable category]]_ is a [[large category]] [[generators and relations|generated from]] small data: from [[small objects]] under [[small colimit]]. 
+The general idea is that a _[[locally presentable category]]_ is a [[large category]] [[generators and relations|generated from]] small data: from [[small objects]] under [[small colimits]]. 
 
 ### Generation from generators
 
