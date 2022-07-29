@@ -1,3 +1,9 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 
 This is a theorem due to [[Thomas Fox]] which characterizes products in a [[cartesian monoidal category]] as an algebraic structure given by natural transformations rather than in terms of a universal poperty.
