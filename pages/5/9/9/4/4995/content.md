@@ -1349,7 +1349,7 @@ The [[category theory|category-theoretic]] definition of [[cohesive topos]] was 
 
 The observation that the further left adjoint $\Pi$ in a [[locally ∞-connected (∞,1)-topos]] defines an intrinsic notion of paths and [[geometric homotopy groups in an (∞,1)-topos]] was suggested by [[Richard Williamson]].
 
-The observation that the further right adjoint $coDisc$ in a [[local (∞,1)-topos]] serves to characterize [[concrete sheaf|concrete (∞,1)-sheaves]] was amplified by [[David Carchedi]].
+The observation that the further right adjoint $coDisc$ in a [[local (∞,1)-topos]] serves to characterize [[concrete (∞,1)-sheaves]] was amplified by [[David Carchedi]].
 
 Some aspects of the discussion here are, more or less explicitly, in 
 
