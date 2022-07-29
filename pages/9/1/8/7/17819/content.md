@@ -167,5 +167,7 @@ One description of enriched abstract clones is in Section 5 of
 * [[Sam Staton]], An algebraic presentation of predicate logic. FOSSACS 2013. [preprint](http://www.cs.ox.ac.uk/people/samuel.staton/papers/fossacs13.pdf).
 
 [[!redirects clones]]
+[[!redirects abstract clone]]
+[[!redirects abstract clones]]
 [[!redirects cartesian operad]]
 [[!redirects cartesian operads]]
