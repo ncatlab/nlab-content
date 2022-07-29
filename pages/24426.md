@@ -59,9 +59,18 @@ In a symmetric monoidal category $\mathcal{C}$ enriched over modules over a $\ma
 \begin{proposition}
 Let $R$ be a $\mathbb{Q}^{+}$-algebra and $\mathcal{C}$ be a symmetric monoidal category enriched over $R$-modules. Let $n \ge 0$ and $S_{n}:\mathcal{C} \rightarrow \mathcal{C}$ be an endofunctor. There is a bijection between natural transformations $r_{n}:A^{\otimes n} \rightarrow S_{n}(A)$ which make $(S_{n}(A))$ symmetric powers and natural transformations $s_{n}:S_{n}(A) \rightarrow A^{\otimes n}$ which make $(S_{n}(A))$ divided powers ie. such that for every $A \in \mathcal{C}$, we have this equalizer:
 \begin{tikzcd}[ampersand replacement=\&]
-A^{\otimes_{s}n} \arrow[rr, "s_{n}(A)"] \&  \& A^{\otimes n} \arrow[rr, "\sigma", shift left=3] \arrow[rr, "...", shift right=3] \&  \& A^{\otimes n}
+S_{n}(A) \arrow[rr, "s_{n}(A)"] \&  \& A^{\otimes n} \arrow[rr, "\sigma", shift left=3] \arrow[rr, "...", shift right=3] \&  \& A^{\otimes n}
 \end{tikzcd}
 \end{proposition}
+\begin{proof}
+Suppose that we have a natural transformation $r_{n}:A^{\otimes n} \rightarrow S_{n}(A)$ which make $(S_{n}(A))$ symmetric powers. Define the natural transformation $e_{n}=\frac{1}{n!} \underset{\sigma \in \mathfrak{S}_{n}}{\sum}\sigma:A^{\otimes n} \rightarrow A^{\otimes}$. For every permutation $\rho \in \mathfrak{S}_{n}$, we have $\rho;e_{n}=\rho;\frac{1}{n!} \underset{\sigma \in \mathfrak{S}_{n}}{\sum}\sigma = \frac{1}{n!} \underset{\sigma \in \mathfrak{S}_{n}}{\sum}\rho;\sigma = \frac{1}{n!} \underset{\sigma \in \mathfrak{S}_{n}}{\sum}\sigma=e_{n}$ by using a change of variables in the last step. We thus have this factorization for every $A \in \mathcal{C}$:
+\begin{tikzcd}
+A^{\otimes n} \arrow[r, "r_{n}"] \arrow[rd, "e_{n}"'] & S_{n}(A) \arrow[d, "s_{n}"] \\
+                                                      & A^{\otimes n}         
+\end{tikzcd}
+It is not difficult to show that $s_{n}:S_{n}(A) \rightarrow A^{\otimes n}$ is a natural transformation. 
+
+\end{proof}
 
 \begin{proposition}
 Let $R$ be a $\mathbb{Q}^{+}$-algebra and $\mathcal{C}$ be a symmetric monoidal category enriched over $R$-modules. Let $n \ge 0$ and $S_{n}:\mathcal{C} \rightarrow \mathcal{C}$ be an endofunctor. There is a bijection between natural transformations $r_{n}:A^{\otimes n} \rightarrow S_{n}(A)$ which make $(S_{n}(A))$ symmetric powers and pairs of natural transformations $(r_{n}:A^{\otimes n} \rightarrow S_{n}(A), s_{n}:S_{n}(A) \rightarrow A^{\otimes n})$ such that:
