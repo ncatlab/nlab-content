@@ -83,7 +83,33 @@ Suppose that $f:A^{\otimes n} \rightarrow B$ is a morphism such that $\sigma;f=f
 
 With this equivalent definition, we have already replaced the universal property defining symmetric powers by two natural transformations which verify some equations. The work is now to show the equivalence between these two equations and the ones defining a functorial special bicommutative graded bimonoid.
 
-### Piecewise conjecture
+
+### From symmetric powers to creation/annihilation operators
+
+\begin{definition}
+Let $R$ be $\mathbb{Q}^{+}$-algebra and $\mathcal{C}$ a symmetric monoidal category enriched over $R$-modules. Suppose that we have a family $(S_{n}:\mathcal{C} \rightarrow \mathcal{C})_{n \ge 0}$ of endofunctors such that $S_{0}(A)=I$ and $S_{1}(A)=A$. Creation/annihilation operators are defined as two families $(c_{n}:S_{n}(A) \otimes A \rightarrow S_{n+1}(A))_{n \ge 0}$ and $(a_{n}:S_{n}(A) \rightarrow S_{n-1}(A) \otimes A)_{n \ge 1}$ such that:
+
+\begin{imagefromfile}
+        "file_name": "n12.jpg",
+        "width": 400
+    \end{imagefromfile}
+\end{definition}
+
+where $k$ must be read as $S_{k}(A)$.
+
+### From symmetric powers to functorial special bicommutative graded bimonoid
+
+\begin{proposition}
+Let $R$ be $\mathbb{Q}^{+}$-algebra and $\mathcal{C}$ a symmetric monoidal category enriched over $R$-modules. Suppose that we have a family $(S_{n}:\mathcal{C} \rightarrow \mathcal{C})_{0 \le n \le p}$ of endofunctors such that $S_{0}(A)=I$ and $S_{1}(A)=A$. Suppose that we have a family $(r_{n}:A^{\otimes n} \rightarrow S_{n}(A))_{0 \le n \le p}$ of natural transformations which make $(S_{n}A)_{0 \le n \le p}$ symmetric powers. We define a (bounded) functorial special bicommutative graded bimonoid by putting:
+
+\begin{tikzcd}
+S_{n}(A) \otimes S_{n'}(A) \arrow[d, "s_{n} \otimes s_{n'}"'] \arrow[rd, "{\nabla_{n,n'}}"] &            &  & S_{n+n'}(A) \arrow[d, "s_{n+n'}"'] \arrow[rd, "{\Delta_{n,n'}}"] &                           \\
+A^{\otimes (n+n')} \arrow[r, "r_{n+n'}"']                                                  & S_{n+n'}(A) &  & A^{\otimes(n+n')} \arrow[r, "r_{n} \otimes r_{n'}"']            & S_{n}(A) \otimes S_{n'}(A)
+\end{tikzcd}
+
+for all $0 \le n,n' \le p$ such that $0 \le n+n' \le p$.
+
+\end{proposition}
 
 ## Related concepts
 
