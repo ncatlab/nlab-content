@@ -349,6 +349,7 @@ Further examples are discussed in
 [[!redirects enriched categories]]
 [[!redirects category enriched]]
 [[!redirects categories enriched]]
+[[!redirects enriched]]
 
 [[!redirects enriched groupoid]]
 [[!redirects enriched groupoids]]
