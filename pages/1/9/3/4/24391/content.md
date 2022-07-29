@@ -214,17 +214,14 @@ To view this set as a countably generated measurable space  take the generating 
 \end{centre}
  and define, for all $n \in \mathbb{N}$ the set $M_n = \{ \omega \in Nat( \widehat{A}, \Delta_{\mathbb{N}}(\bullet, \star)) \, | \, \tau(\omega)(n) = 1  \}$.
  
-There is also a contravariant functor $\mathbf{Spec}: \mathbf{Set}^{\Delta_{\mathbb{N}}} \rightarrow\mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$ given by $\mathbf{Spec}(\widehat{X})(\star) = Nat( \widehat{X}, \Delta_{\mathbb{N}}(\star,\bullet))$.  Taking $\widehat{X} = \mathbf{Meas}(X, \bullet)$ we have for each $f \in \mathbf{Meas}(X, \Delta_{\mathbb{N}})$, and each $x \in X$ the result $f(x) \in \Delta_{\mathbb{N}}$, and hence $\lambda_x =\int_{i \in \mathbb{N}} f(x)[i] d\mathbf{p} \in [0,1]$.
-We have the action $\widehat{X}(\mathbf{p})f: X \rightarrow \Delta_{\mathbb{N}}$ defined by
- $\widehat{X}(\mathbf{p})f(x) = \sum_{i \in \mathbb{N}} \frac{1}{\lambda_x} f(x)[i]p_i \delta_i \in \Delta_{\mathbb{N}}$. Thus
+There is also a contravariant functor $\mathbf{Spec}: \mathbf{Set}^{\Delta_{\mathbb{N}}} \rightarrow\mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$ given by $\mathbf{Spec}(\widehat{X})(\star) = Nat( \widehat{X}, \Delta_{\mathbb{N}}(\star,\bullet))$.  Taking $\widehat{X} = \mathbf{Meas}(X, \bullet)$ we have for each $f \in \mathbf{Meas}(X, \Delta_{\mathbb{N}})$, and each $x \in X$ the result $f(x) \in \Delta_{\mathbb{N}}$. Note that for any fixed $\mathbf{p} \in \Delta_{\mathbb{N}}$ we have the pushforward action $\mathcal{G}(\mathbf{p})$ as in  Axiom 2 with each $\mathbf{Q}^j:\mathbb{N} \rightarrow \mathcal{G}(\mathbb{N})$ given by $\mathbf{p}$.  Hence we have the action $\widehat{X}(\mathbf{p})f: X \rightarrow \Delta_{\mathbb{N}}$ defined by composition with that pushforward map, which we denote for simplicity by $\mathcal{G}(\mathbf{p})$ (rather than writing $\mu_{\mathbb{N}} \circ \mathcal{G}(\mathbf{p})$).  Thus
  
 \begin{equation} 
 \begin{array}{lcl}
 \mathbf{Spec}(\widehat{X})(\star) &=& Nat( \mathbf{Meas}(X,\bullet), \Delta_{\mathbb{N}}(\star,\bullet)) \\
-&=& \{ \mathbf{Meas}(X, \Delta_{\mathbb{N}}) \stackrel{J}{\longrightarrow} \Delta_{\mathbb{N}} \, | \, \mathbf{p}(J(f)) = J\big( \widehat{X}(\mathbf{p})f \big) \quad  \forall f \in \mathbf{Meas}(X, \Delta_{\mathbb{N}})  \}
+&=& \{ \mathbf{Meas}(X, \Delta_{\mathbb{N}}) \stackrel{J}{\longrightarrow} \Delta_{\mathbb{N}} \, | \, \mathcal{G}(\mathbf{p})(J(f)) = J\big( \mathcal{G}(\mathbf{p})\circ f \big) \quad  \forall f \in \mathbf{Meas}(X, \Delta_{\mathbb{N}}) \, \forall \mathbf{p}\in \Delta_{\mathbb{N}}  \}
 \end{array}
 \end{equation}
-(Ed. note: Still need to define the action of $\mathbf{p}$ on $\Delta_{\mathbb{N}}$.)
 
  Because $\Delta_{\mathbb{N}}$ is a super convex space, we endow $\mathbf{Spec}(\widehat{X})(\star)$ with the pointwise super convex space structure.  It is not difficult to interpret $\mathbf{Spec}(\widehat{X})(\star)$ as $\mathcal{G}{X}$, the set of all probability measures on $X$, because the natural transformations $J$ are weakly-averaging countably affine functions.  
 
