@@ -1,4 +1,4 @@
-A **graded comonoid** in a symmetric monoidal category $\mathcal{V}$ is a monoid in the opposite category $\mathcal{V}^{op}$.
+A **graded comonoid** in a [[symmetric monoidal category]] $\mathcal{V}$ is a [[graded monoid]] in the [[opposite category]] $\mathcal{V}^{op}$.
 
 ## See also
 
