@@ -17,6 +17,8 @@ Thus, a graded monoid is in particular a [[graded object]]. In fact, a graded mo
 
 * [[monoid object]]
 * [[graded object]]
+* [[graded comonoid]]
+* [[graded bimonoid]]
 
 [[!redirects graded unitary monoid]]
 [[!redirects graded unital monoid]]
