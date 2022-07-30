@@ -38,7 +38,7 @@ In an *expansion* of a $p$-adic number $a=\Sigma a_i p^i$ the $a^i$ are called *
 
 Equivalently the digits can be defined to be taken from the set $T_p:=\{x|x^{p-1}=1\}\cup \{0\}$. Elements from this set are called *Teichm&#252;ller digits* or *Teichm&#252;ller representatives*.
 
-The set $T$ is in bijection with the [[finite field]] $F_p$. The set $W(F_p)$ of (countably) infinite sequences of elements in $F_p$ hence is in bijection to the set $\mathbb{Z}_p$ of $p$-adic integers. There is a ring structure on $W(F_p)$ called *Witt ring structure* such that all ''truncated expansion polynomials'' $\Phi_n=X^{p^n}+pX^{p^{n-1}}+p^2X^{p^{n-2}}+\dots +p^n X$ called *Witt polynomials* are morphisms
+The set $T$ is in bijection with the [[finite field]] $F_p$. The set $W(F_p)$ of (countably) infinite sequences of elements in $F_p$ hence is in bijection to the set $\mathbb{Z}_p$ of $p$-adic integers. There is a ring structure on $W(F_p)$ called *Witt ring structure* such that all ''truncated expansion polynomials'' $\Phi_n=X^{p^n}+p X^{p^{n-1}}+p^2X^{p^{n-2}}+\dots +p^n X$ called *Witt polynomials* are morphisms
 
 $$\Phi_n:W(F_p)\to \mathbb{Z}_p$$
 
