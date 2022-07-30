@@ -16,13 +16,8 @@ If $(k,1,l)$ is a composition of $n$ as above, then:
 
 $\mathfrak{S}_{k} \times \mathfrak{S}_{1} \times \mathfrak{S}_{l} \hookrightarrow \mathfrak{S}_{n}$
 
-is the subgroup of permutations $\sigma \in \mathfrak{S}_{n}$ such that $k+1$ is a [[fixed point]] of $\sigma$.
-
-We then have the decomposition:
-
-$\mathfrak{S}_{n} = (\mathfrak{S}_{k} \times \mathfrak{S}_{1} \times \mathfrak{S}_{l}) \sqcup U_{k+1}$
-
-where $U_{k+1} \subseteq \mathfrak{S}_{n}$ is the set of permutations $\sigma$ such that $k+1$ is an unfixed point of $\sigma$. 
+is a subgroup of permutations $\sigma \in \mathfrak{S}_{n}$ which verify that $k+1$ is a [[fixed point]] of $\sigma$. However some permutations fix $k+1$ without being an element of this subgroup.
+ 
 ## Related notions
 
 [[symmetric group]]
