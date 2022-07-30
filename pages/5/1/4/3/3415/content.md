@@ -169,6 +169,12 @@ The following proposition shows that $(k_! \dashv k^!)$ is indeed a model for $(
 
 This is ([JoTi, prop 1.20](#JoyalTierney))
 
+## History
+
+[[André Joyal]] on the history of the Joyal model structure (also on [MathOverflow](https://mathoverflow.net/questions/425082/when-did-the-joyal-model-structure-on-simplicial-sets-originate/427514#427514)):
+
+> I became interested in quasi-categories (without the name) around 1980 after attending a talk by Jon Beck on the work of Boardman and Vogt. I wondered if category theory could be extended to quasi-categories. In my mind, a crucial test was to show that a quasi-category is a Kan complex if its homotopy category is a groupoid. All my attempts at showing this have failed for about 15 years, until I stopped trying hard! I found a proof after extending to quasi-categories a few basic notions of category theory. This was around 1995. The model structure for quasi-categories was discovered soon after. I did not publish it immediately because I wanted to show that it could be used for proving something new in homotopy theory. I am a bit of a perfectionist (and overly ambitious?). I was hoping to develop a synthesis between category theory and homotopy theory (hence the name quasi-categories). I met Lurie at a conference organised by Carlos Simpson in Nice (in 2001?). I gave a talk on the model structure and Lurie asked for a copy of my notes afterward.
+
 
 ## Related concepts
 
@@ -189,8 +195,6 @@ The original construction of the Joyal model structure is in
 Unfortunately, this is still not publicly available, but see the lecture notes:
 
 * {#Joyal08} [[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008 ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]])
-
-
 
 or the construction of the model structure in Cisinski's book
 
