@@ -465,6 +465,8 @@ See [[cut elimination]].
 
 * [[cut rule]]
 
+* [[hypersequent calculus]]
+
 * [[Paul Hertz]]
 
 ## References
