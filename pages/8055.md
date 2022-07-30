@@ -36,6 +36,8 @@ If subtraction is available (as when $\mu$ is a [[finite measure]]), we may solv
 *  $\mu(A \cup B \cup C) = \mu(A) + \mu(B) + \mu(C) - \mu(A \cap B) - \mu(A \cap C) - \mu(B \cap C) + \mu(A \cap B \cap C)$,
 *  etc.
 
+The general formula is $\mu(\underset{1 \le i \le n}{\bigcup A_{i}}) = \underset{I \subseteq [1,n]}{\sum}(-1)^{|I|}.\mu(A_{i})$.
+
 This explains the term 'inclusion-exclusion'; we are alternately adding (including) and subtracting (excluding) various intersections.
 
 
