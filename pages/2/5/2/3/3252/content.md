@@ -87,6 +87,8 @@ $$
 
 * [[congruence subgroup]]
 
+* [[Young subgroup]]
+
 
 ## Related concepts
 
