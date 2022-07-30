@@ -343,6 +343,8 @@ Notice that the squares on the right are _not_ [[homotopy pullback]] squares. (T
 
 * [[signature of a permutation]]
 
+* [[Young subgroup]]
+
 * [[permutation category]]
 
 * [[permutation D-brane]]
