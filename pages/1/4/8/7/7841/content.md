@@ -24,7 +24,7 @@ More abstractly, the ring of Witt vectors carries the structure of a [[Lambda-ri
 Moreover $W(-)$ is [[representable functor|representable]] by ring of [[symmetric function|symmetric functions]], $\Lambda$.   The reason is that $\Lambda$ is the free Lambda-ring on the commutative ring $\mathbb{Z}$.   Since $\Lambda$ is a [[Hopf algebra]], $W$ is a [[group scheme]]. This is explained at [[Lambda-ring]].
 
 The construction of Witt vectors gives a functorial way to lift a commutative ring $A$ of [[prime]] [[characteristic]] $p$ to a commutative ring $W(A)$ of [[characteristic]] 0. Since this construction is functorial, it can be applied to the [[structure sheaf]] of an [[algebraic variety]].
-In interesting special cases the resulting ring $W(A)$ has even more desirable properties: If $A$ is a [[perfect field]] then $W(A)$ is a [[discrete-valuation ring|discrete valuation]]. This is partly due to the fact that the construction of $W(A)$ involves a ring of [[power series]] and a ring of power series over a field is always a discrete valuation ring.
+In interesting special cases the resulting ring $W(A)$ has even more desirable properties: If $A$ is a [[perfect field]] then $W(A)$ is a [[discrete-valuation ring|discrete valuation ring]]. This is partly due to the fact that the construction of $W(A)$ involves a ring of [[power series]] and a ring of power series over a field is always a discrete valuation ring.
 
 There is a generalization, $W_G$, to any profinite group, $G$, due to Dress and Siebeneicher ([DS88](#DS88)), known as [[Witt-Burnside functors|Witt-Burnside functor]].
 
