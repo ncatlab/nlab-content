@@ -207,6 +207,8 @@ The notion of [[Eilenberg?Mac Lane object]] makes sense in every $(\infty,1)$-[[
 
 * [[Eilenberg-MacLane space type]]
 
+* [[Eilenberg-MacLane spectrum]] 
+
 ## References
 
 ### General
