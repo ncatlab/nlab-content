@@ -42,7 +42,6 @@ A [[model category]] is called
 
 More in detail this means the following. 
 A model category is right proper if for every weak equivalence $f : A \to B$ in $W\subset Mor(C)$ and every fibration $h : C \to B$ the pullback $h^* f : A \times_B C \to C$ in
-
 $$
   \array{
     A \times_C B &\longrightarrow& A
@@ -54,7 +53,6 @@ $$
     C &\underset{h \in F}{\longrightarrow}& B
   }
 $$
-
 is a weak equivalence.
 
 =--
@@ -63,6 +61,24 @@ is a weak equivalence.
 The above definition is the way it is usually phrased, but in fact it is equivalent to a seemingly weaker condition that is sometimes easier to check: for right properness it suffices to assume that weak equivalences are preserved by pullback along fibrations *between fibrant objects*.  That is, in the more explicit version above, we are free to assume that $B$ (hence also $C$) is fibrant; this then implies the more general version without this hypothesis.  See Proposition \ref{FibrationsBetweenFibrantObjectsSuffice} below.
 \end{remark}
 
+## The Rezk criterion for properness
+
+The following criterion shows that the notion of left or right properness only depends on the underlying [[relative category]] of a [[model category]],
+i.e., does not depend on fibrations or cofibrations.
+This is clear once we observe that the notion of a [[Quillen equivalence]] in the statement below can be replaced by the notion of a [[Dwyer–Kan equivalence]] of underlying [[relative categories]],
+or just ordinary equivalences of underlying [[homotopy categories]].
+
+\begin{theorem}
+(Rezk \cite{Rezk02}, Proposition 2.7 (arXiv), Proposition 2.5 (journal).)
+A model category $M$ is left proper if and only if for every weak equivalence $f\colon X\to Y$
+the induced [[Quillen adjunction]]
+$$X/M\leftrightarrows Y/M$$
+is a [[Quillen equivalence]].
+A model category $M$ is right proper if and only if for every weak equivalence $f\colon X\to Y$
+the induced [[Quillen adjunction]]
+$$M/X\leftrightarrows M/Y$$
+is a [[Quillen equivalence]].
+\end{theorem}
 
 ## Examples 
  {#Examples}
@@ -93,7 +109,7 @@ A class of model structures which tends to be _not_ left proper are model struct
 
 For instance 
 
-* the standard model structure on [[simplicial object|simplicial]] [[associative unital algebra]]s (weak equivalences and fibrations are those of the underlying simplicial sets) is  _not_  left proper (see [Rezk2000, example 2.11](http://arxiv.org/PS_cache/math/pdf/0003/0003065v1.pdf#page=5))
+* the standard model structure on [[simplicial object|simplicial]] [[associative unital algebra]]s (weak equivalences and fibrations are those of the underlying simplicial sets) is  _not_  left proper (see \cite{Rezk02}, Example 2.11 (arXiv), Example 2.7 (journal)).
 
 But it is [[Quillen equivalence|Quillen equivalent]] to a model structure that _is_ left proper. This is discussed [below](#ProperEquivModels).
 
