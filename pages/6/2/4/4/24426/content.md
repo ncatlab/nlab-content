@@ -53,7 +53,8 @@ Let $R$ be a $\mathbb{Q}^{+}$-algebra. Let $\mathcal{C}$ be a symmetric monoidal
 
 ## Towards a proof
 
-### Symmetric powers in symmetric monoidal categories enriched over modules over a $\mathbb{Q}^{+}$-algebra
+
+### $n^{th}$ symmetric power in symmetric monoidal categories enriched over modules over a $\mathbb{Q}^{+}$-algebra
 
 \begin{proposition}
 Let $R$ be a $\mathbb{Q}^{+}$-algebra and $\mathcal{C}$ be a symmetric monoidal category enriched over $R$-modules. Let $n \ge 0$ and $S_{n}:\mathcal{C} \rightarrow \mathcal{C}$ be an endofunctor. There is a bijection between natural transformations $r_{n}:A^{\otimes n} \rightarrow S_{n}(A)$ which make $(S_{n}(A))$ symmetric powers and pairs of natural transformations $(r_{n}:A^{\otimes n} \rightarrow S_{n}(A), s_{n}:S_{n}(A) \rightarrow A^{\otimes n})$ such that:
@@ -89,13 +90,25 @@ With this equivalent definition, we have already replaced the universal property
 \begin{definition}
 Let $R$ be $\mathbb{Q}^{+}$-algebra and $\mathcal{C}$ a symmetric monoidal category enriched over $R$-modules. Suppose that we have a family $(S_{n}:\mathcal{C} \rightarrow \mathcal{C})_{n \ge 0}$ of endofunctors such that $S_{0}(A)=I$ and $S_{1}(A)=A$. Creation/annihilation operators are defined as two families $(c_{n}:S_{n}(A) \otimes A \rightarrow S_{n+1}(A))_{n \ge 0}$ and $(a_{n}:S_{n}(A) \rightarrow S_{n-1}(A) \otimes A)_{n \ge 1}$ such that:
 
-\begin{imagefromfile}
-        "file_name": "n12.jpg",
-        "width": 400
-    \end{imagefromfile}
+[[n12.jpg:pic]]
+
+and:
+
+[[specialop2.jpg:pic]]
+
+where $k$ must be read as $S_{k}(A)$. Be aware that "$n.$" depicts the multiplication by the scalar $n$.
+
 \end{definition}
 
-where $k$ must be read as $S_{k}(A)$.
+\begin{proposition}
+Let $R$ be $\mathbb{Q}^{+}$-algebra and $\mathcal{C}$ a symmetric monoidal category enriched over $R$-modules. Suppose that we have a family $(S_{n}:\mathcal{C} \rightarrow \mathcal{C})_{0 \le n \le p}$ of endofunctors such that $S_{0}(A)=I$ and $S_{1}(A)=A$. Suppose that we have a family $(r_{n}:A^{\otimes n} \rightarrow S_{n}(A))_{0 \le n \le p}$ of natural transformations which make $(S_{n}A)_{0 \le n \le p}$ symmetric powers. We define creation/annihilation operators (for $0$ to $p$ particles) by putting:
+
+\begin{tikzcd}
+S_{n}(A) \otimes A \arrow[d, "s_{n} \otimes 1"'] \arrow[rd, "c_{n}"] &            &  & S_{n+1}(A) \arrow[d, "s_{n+1}"'] \arrow[rd, "a_{n}"] &                    \\
+A^{\otimes (n+1)} \arrow[r, "r_{n+1}"']                              & S_{n+1}(A) &  & A^{\otimes (n+1)} \arrow[r, "r_{n}\otimes 1"']       & S_{n}(A) \otimes A
+\end{tikzcd}
+
+\end{proposition}
 
 ### From symmetric powers to functorial special bicommutative graded bimonoid
 
