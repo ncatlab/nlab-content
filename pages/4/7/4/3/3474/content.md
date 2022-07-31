@@ -30,7 +30,7 @@ For more on this area, see at _[[étale homotopy]]_.
 
 ##References
 
-* [[Tamás Szamuely ]], [Heidelberg Lectures on Fundamental Groups](http://www.renyi.hu/~szamuely/pia.pdf), 2010.
+* [[Tamás Szamuely ]], [Heidelberg Lectures on Fundamental Groups](http://pagine.dm.unipi.it/tamas/pia.pdf), 2010.
 
 or in a lengthier form:
 
