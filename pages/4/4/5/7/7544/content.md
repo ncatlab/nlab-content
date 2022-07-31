@@ -142,8 +142,9 @@ Note that the stronger universe axiom implies, as above, that finite colimits ar
 
 ## Examples
  {#Examples}
+* [ (Rasekh21) ] (#Rasekh21) gives a construction using filter products using which we get a large class of elementary $(\infty,1)$-toposes that aren't Grothendieck $(\infty,1)$ toposes. To be precise Corollary 2.31 in the paper gives the following construction: Suppose we've an elementary $(\infty,1)$-topos $\mathcal{C}$, and a [[filter]] $\zeta$ which is product-closed, such that the [[filter quotient]] of the elementary topos of 0-truncated objects $(\tau_{0}(\mathcal{C}))_{\zeta}$ is not a Grothendieck topos, then the [[filter quotient]] $\mathcal{C}_{\zeta}$ is an elementary $(\infty,1)$-topos that isn't a Grothendieck $(\infty,1)$ -topos. Further , examples for the specific case of  filter products are constructed.
 
-* There is presently no known example of an elementary $(\infty,1)$-topos which is not a [[Grothendieck (∞,1)-topos]], though there are some ideas (cf. [Anel 21](#Anel21)). 
+* Other ideas for the construction of an  elementary $(\infty,1)$-topos which is not a [[Grothendieck (∞,1)-topos]] also exist in the literature. (cf. [Anel 21](#Anel21)). 
 
 * [[Peter Scholze]] speculates in [this comment on the nCafé](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057721) that the [[(∞,1)-category]] $\mathrm{Cond}\infty\mathrm{Grpd}$ of [[condensed infinity-groupoids|condensed $\infty$-groupoids]] might form a [[predicative elementary (∞,1)-topos]] which is not a [[Grothendieck (∞,1)-topos]]. 
 
@@ -211,7 +212,10 @@ Comprehension schemes are used to characterize categorical properties of element
 On [[homotopy type with finite homotopy groups|π-finite homotopy types]] as a partial analogue of the elementary 1-topos [[FinSet]]:
 
 * {#Anel21} [[Mathieu Anel]], *The elementary infinity-topos of truncated coherent spaces*, 2021 ([arxiv:2107.02082](https://arxiv.org/abs/2107.02082))
- 
+
+The filter product construction is used to construct elementary (∞,1)-toposes which aren't Grothendieck (∞,1)-toposes in:
+
+*{#Rasekh21} [[Nima Rasekh]], *Filter Quotients and Non-Presentable (∞,1)-Toposes*, ([arXiv:2001.10088](https://arxiv.org/abs/2001.10088))
 
 [[!redirects elementary (∞,1)-topos]]
 [[!redirects elementary (infinity,1)-topos]]
