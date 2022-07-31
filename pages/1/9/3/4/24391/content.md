@@ -81,49 +81,8 @@ m\big( \int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p}\big) = \int_{\mathbb{N}} (m \
 \end{equation}
 where the composite  $m \circ \mathbf{a}$ gives the sequence in $B$  with component $m(a_i)$.
 Composition of countably affine maps is the set-theoretical composition.
-Super convex spaces with morphisms the countably affine maps form a category denoted $\SCvx$. 
-
-
-## Alternative Definition 
- Because the full subcategory of $\mathbf{SCvx}$ consisting of the single object $\Delta_{\mathbb{N}}$ is dense in $\mathbf{SCvx}$ we can employ the restricted Yoneda embedding to view super convex spaces as the functors $\widehat{A}=\mathbf{SCvx}(\cdot,A) \in \mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$, where $\Delta_{\mathbb{N}}$ is viewed as a [[monoid]].  
-
-Noting that every countably affine map $\Delta_{\mathbb{N}} \rightarrow A$ is uniquely specified by where it maps each $\delta_i$ we obtain $\mathbf{SCvx}(\Delta_{\mathbb{N}},A) \cong \mathbf{Set}(\mathbb{N},A)$, and denote the correspondence $\langle \mathbf{a} \rangle \leftrightarrow \mathbf{a}$, where $\mathbf{a}: \mathbb{N} \rightarrow A$ specifies a sequence in $A$. 
-With this result, we have for each $\langle \mathbf{a} \rangle \in \mathbf{SCvx}(\Delta_{\mathbb{N}},A)$, the action is given by
-
- \begin{equation}
-\widehat{A}(\mathbf{p})(\langle\mathbf{a}\rangle) =  \int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p},
-\end{equation}
-
- which we identify with the constant map into $A$ with the value $ \int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p}$.
-
- Using the above mentioned correspondence a natural transformation $m: \widehat{A} \Rightarrow \widehat{B}$ given at the single component is the function $m_{\star} = \mathbf{Set}(\mathbb{N}, m)$ such that the $\mathbf{Set}$-diagram
-
- \begin{centre}
- \begin{tikzpicture}
-           \node  (A)  at  (0,0)   {$\mathbf{Set}(\mathbb{N}, A)$};
-           \node   (B)  at  (3,0)   {$\mathbf{Set}(\mathbb{N}, B)$};
-           \node   (a)  at  (0,-1.5)  {$\mathbf{Set}(\mathbb{N},A)$};
-           \node   (b)   at  (3, -1.5)  {$\mathbf{Set}(\mathbb{N},B)$};
-           \draw[->,above] (A) to node {$m_{\star}$} (B);
-           \draw[->,below] (a) to node  {$m_{\star}$} (b);
-           \draw[->,left] (A) to node {$\mathbf{p}$} (a);
-           \draw[->,right] (B) to node {$\mathbf{p}$} (b);
-           
-           \node  (A2)  at  (5.8,0)   {$\mathbf{a}$};
-           \node   (B2)  at  (10.6,0)   {$m \circ \mathbf{a}$};
-           \node   (b3)  at  (10.6,-1.5)  {$= \int_{\mathbb{N}} (m \circ \mathbf{a}) \, d\mathbf{p}$};
-           \node   (a2)  at  (5.8,-1.5)  {$\int_{\mathbb{N}}  \mathbf{a} \,  d\mathbf{p}$};
-           \node   (b2)   at  (8.3, -1.5)  {$m( \int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p})$};
-           \draw[|->,above] (A2) to node {} (B2);
-           \draw[|->,below] (a2) to node  {} (b2);
-           \draw[|->,left] (A2) to node {} (a2);
-           \draw[|->,right] (B2) to node {} (b3);
-           
-           \node  (c)  at  (12,0)  {$$};
+Super convex spaces with morphisms the countably affine maps form a category denoted $\mathbf{SCvx}$. 
  
- \end{tikzpicture}
- \end{centre}
-commutes.
 
 ## Probability Amplitudes
 In physics super convex spaces have been referred to as strong convex spaces, and since [[probability amplitudes]] are employed there one makes use of the $\ell_2$-norm instead of the tradition ''$\ell_1$-norm'' which is used above. By using
@@ -135,12 +94,14 @@ applied to the above axioms one obtains super convex spaces useful for physics.
 
 
 ## Properties
-The most basic property of super convex spaces, which we have already used, is
+The most basic property of super convex spaces,  is
 \begin{lemma} For $A$  any super convex space  every countably affine map $m \in \SCvx(\Delta_{\mathbb{N}}, A)$ is uniquely specified by a sequence in $A$, hence we have $\SCvx(\Delta_{\mathbb{N}}, A) \cong  \Set(\mathbb{N},A)$.
 \end{lemma}
 \begin{proof}
 Every element $\mathbf{p} \in \Delta_{\mathbb{N}}$ has a unique representation as a countable affine sum $\mathbf{p} = \sum_{i \in \mathbb{N}} p_i \delta_i$, and hence a countably affine map $m:\Delta_{\mathbb{N}} \rightarrow A$ is uniquely determined by where it maps each Dirac measure $\delta_i$.  Thus  $i \mapsto m(\delta_i)$  specifies a sequence in $A$.  
 \end{proof}
+We denote the bijective correspondence $\SCvx(\Delta_{\mathbb{N}}, A) \cong  \Set(\mathbb{N},A)$ by 
+ $\langle \mathbf{a} \rangle \leftrightarrow \mathbf{a}$, where $\mathbf{a}: \mathbb{N} \rightarrow A$ specifies a sequence in $A$. 
 
 \begin{lemma} A function $f: \mathbb{N} \rightarrow \mathbb{N}$ is a countably affine map if and only if $f$ is monotone, $i \lt j$ implies $f(i) \le f(j)$.
 \end{lemma}
@@ -158,7 +119,8 @@ where the last equality follows from the definition of the super convex space st
 
 
 The category $\mathbf{SCvx}$ has all limits and colimits.  Furthermore it is a symmetric monoidal closed category under the tensor product. The proof of the latter condition follows the proof by Meng, replacing finite sums with countable sums.
-From the alternative definition it is clear that the full subcategory consisting of the single object $\Delta_{\mathbb{N}}$ is a dense subcategory of $\mathbf{SCvx}$.
+
+The full subcategory consisting of the single object $\Delta_{\mathbb{N}}$ is dense in $\mathbf{SCvx}$, and hence we can employ the restricted Yoneda embedding to view super convex spaces as the functors $\widehat{A}=\mathbf{SCvx}(\cdot,A) \in \mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$, where $\Delta_{\mathbb{N}}$ is viewed as a [[monoid]].  
 
 
   An ideal in a super convex space $A$ is a subset $\mathcal{I}$ such that whenever $a_0 \in \mathcal{I}$ and $\sum_{i \in \mathbb{N}}p_i a_i$ is a countable affine sum with the coefficient of $a_0$ nonzero then $\sum_{i \in \mathbb{N}}p_i a_i \in \mathcal{I}$.   Ideals are useful for defining functors to or from $\mathbf{SCvx}$.
@@ -176,7 +138,7 @@ That structure on $\mathbb{N}$ shows that the function $\epsilon: \mathcal{G}(\m
 As an example of the utility of ideals in a super convex space we note that for $\mathcal{G}$ the [[Giry monad]] the measurable space $\mathcal{G}(X)$, with the smallest $\sigma$-algebra such that the evaluation maps $ev_U: \mathcal{G}(X) \rightarrow [0,1]$ are measurable for every measurable set $U$ in $X$, has a super convex space structure 
 defined on it pointwise.
 
-Note that if  $X$ is any measurable space  the maximal proper ideals of $\mathcal{G}{X}$ are of the form $ev_{U}^{-1}( (0,1])$ or $ev_U^{-1}([0,1))$ for $U\ne X$ a nonempty measurable set in $X$. 
+Note that if  $X$ is any [[measurable space]]  the maximal proper ideals of $\mathcal{G}{X}$ are of the form $ev_{U}^{-1}( (0,1])$ or $ev_U^{-1}([0,1))$ for $U\ne X$ a nonempty measurable set in $X$. 
 
 To prove this, note that  both $(0,1]$ and $[0,1)$ are ideals in the super convex space $[0,1]$, with the natural super convex space structure, and it follows that $ev_{U}^{-1}( [0,1))$ and $ev_U^{-1}((0,1])$ are ideals in $\mathcal{G}{X}$. (The preimage of an ideal under a countably affine map is an ideal in the domain space. The proof is the standard argument for ideals in any category.)  Consider the ideal $ev_U^{-1}( [0,1))$.  To show that this is a maximal proper ideal suppose that $\mathcal{I}$ is another ideal of $\mathcal{G}{X}$ such that $ev_U^{-1}( [0,1)) \varsubsetneqq  \mathcal{I}$.  Every element $P \in \mathcal{I}$ which is not in $ev_U^{-1}([0,1))$ has the defining  property that $P(U^c)=1$.    Now let $Q \in \mathcal{G}{X}$.  If  $Q \notin \mathcal{J}$ and $Q \notin ev_U^{-1}([0,1))$ then $Q(U^c) \ne 1$ which implies  $Q \in ev_U^{-1}( [0,1)) \varsubsetneqq J$ which is self-contradictory.  Thus $\mathcal{J}$ must be all of $\mathcal{G}{X}$ which shows $ev_U^{-1}([0,1))$ is a maximal (proper) ideal.
 The argument that the ideal $ev_U^{-1}( (0,1])$ is a maximal ideal is similiar except we replace the condition $P(U^c)=1$ in the above proof with $P(U)=0$.
