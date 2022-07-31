@@ -1,3 +1,10 @@
+[[topos#ElementaryTopos|(elementary) toposes]]
+
+$PSh(C) = Set^{C^{op}}$
+
+ $PSh(\ast)$.
+
+
 # Title
 ## Section
 
