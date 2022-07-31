@@ -85,13 +85,18 @@ Super convex spaces with morphisms the countably affine maps form a category den
 
 
 ## Alternative Definition 
- Viewing $\Delta_{\mathbb{N}}$ as a [[monoid]] we can model a super convex space $A$ as the subcategory of $\mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$ consisting of those  functors of the form  $\widehat{A} \in \Set^{\Delta_{\mathbb{N}}^{op}}$ given by $\widehat{A}(\star)= \Set(\mathbb{N}, A)$, and for all $\mathbf{p} \in \mathcal{G}{\mathbb{N}}$ (hence $\mathbf{p} \in \Delta_{\mathbb{N}}$ and vice-versa)
- \begin{equation} 
-  \widehat{A}(\mathbf{p})(\mathbf{a}) =  \int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p},
-  \end{equation}
- which we identify with the constant sequence in $A$ with the value $ \int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p}$.  (Because $\widehat{A}$ is a presheaf it is determined by the hom set $\mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}(\widehat{\Delta_{\mathbb{N}}},\widehat{A})$, hence $\widehat{A}(\star)= \mathbf{SCvx}(\Delta_{\mathbb{N}}, A) \cong \mathbf{Set}(\mathbb{N},A)$ where the second isomorphism  follows from Lemma 5.1.)
+ Because the full subcategory of $\mathbf{SCvx}$ consisting of the single object $\Delta_{\mathbb{N}}$ is dense in $\mathbf{SCvx}$ we can employ the restricted Yoneda embedding to view super convex spaces as the functors $\widehat{A}=\mathbf{SCvx}(\cdot,A) \in \mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$, where $\Delta_{\mathbb{N}}$ is viewed as a [[monoid]].  
 
-  A natural transformation $m: \widehat{A} \Rightarrow \widehat{B}$ given at the single component is the function $m_{\star} = \mathbf{Set}(\mathbb{N}, m)$ such that the $\mathbf{Set}$-diagram
+Noting that every countably affine map $\Delta_{\mathbb{N}} \rightarrow A$ is uniquely specified by where it maps each $\delta_i$ we obtain $\mathbf{SCvx}(\Delta_{\mathbb{N}},A) \cong \mathbf{Set}(\mathbb{N},A)$, and denote the correspondence $\langle \mathbf{a} \rangle \leftrightarrow \mathbf{a}$, where $\mathbf{a}: \mathbb{N} \rightarrow A$ specifies a sequence in $A$. 
+With this result, we have for each $\langle \mathbf{a} \rangle \in \mathbf{SCvx}(\Delta_{\mathbb{N}},A)$, the action is given by
+
+ \begin{equation}
+\widehat{A}(\mathbf{p})(\langle\mathbf{a}\rangle) =  \int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p},
+\end{equation}
+
+ which we identify with the constant map into $A$ with the value $ \int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p}$.
+
+ Using the above mentioned correspondence a natural transformation $m: \widehat{A} \Rightarrow \widehat{B}$ given at the single component is the function $m_{\star} = \mathbf{Set}(\mathbb{N}, m)$ such that the $\mathbf{Set}$-diagram
 
  \begin{centre}
  \begin{tikzpicture}
@@ -130,7 +135,7 @@ applied to the above axioms one obtains super convex spaces useful for physics.
 
 
 ## Properties
-The most basic property of super convex spaces is
+The most basic property of super convex spaces, which we have already used, is
 \begin{lemma} For $A$  any super convex space  every countably affine map $m \in \SCvx(\Delta_{\mathbb{N}}, A)$ is uniquely specified by a sequence in $A$, hence we have $\SCvx(\Delta_{\mathbb{N}}, A) \cong  \Set(\mathbb{N},A)$.
 \end{lemma}
 \begin{proof}
@@ -188,44 +193,47 @@ The one point compactification of the real line $\mathbb{R}_{\infty}$, with one 
 \begin{example} A pathological space, useful for counterexamples, is given by the closed unit interval with the super convex space structure defined by the infimum function, $\sum_{i \in \mathbb{N}} p_i u_i := inf_i \{ u_i | p_i \gt 0\}$.
 \end{example}
  
-\begin{example}
-Because we can represent a super convex space as a functor $\widehat{A} \in  \mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$ we can make use of the  contravariant functor $\mathcal{O}: \mathbf{Set}^{\Delta_{\mathbb{N}}^{op}} \rightarrow \mathbf{Set}^{\Delta_{\mathbb{N}}}$  which, because $\Delta_{\mathbb{N}}$ is a monoid with the single object denoted $\star$, is easy to describe.  We have
-\begin{equation}
-\begin{array}{lcl}
-\mathcal{O}(\widehat{A}) &=& Nat( \widehat{A}, \Delta_{\mathbb{N}}(\bullet, \star)) \\
-&=& \{ \mathbf{Set}(\mathbb{N}, A) \stackrel{\omega}{\longrightarrow} \Delta_{\mathbb{N}} \, | \, \int_{\mathbb{N}} \omega(\mathbf{a}) \, dp = \omega\big( \int_{\mathbb{N}} \mathbf{a} \, dp \big) \, \forall p\in \Delta_{\mathbb{N}}, \forall \mathbf{a}: \mathbb{N} \rightarrow A \}
-\end{array},
-\end{equation}
-where we have used $\Delta_{\mathbb{N}}(\star,\star) = \Delta_{\mathbb{N}}$ where the term on  the right hand side of this equation is viewed as a super convex space. On the left hand side of the equation $\Delta_{\mathbb{N}}$ denotes the hom set functor of the monoid $\Delta_{\mathbb{N}}$.
 
-To view this set as a countably generated measurable space  take the generating sets $M_n$ as follows:  Let
-\begin{centre}
-\begin{tikzpicture}
-    \node   (Nat)  at  (-1,0)   {$Nat( \widehat{A}, \Delta_{\mathbb{N}}(\bullet, \star))$};
-    \node   (2N)    at   (3,0)   {$\mathbf{2}^{\mathbb{N}}$};
-    \node   (w)     at   (0, -.8)  {$\omega$};
-    \node   (p)     at   (2., -.8)  {};
-    \node   (N)    at  (2.2, -.8)  {$\big( \mathbb{N}$};
-    \node   (2)     at  (3.8, -.8)   {$\mathbf{2} \big)$};
-    \draw[->,above] (Nat) to node {$\tau$} (2N);
-    \draw[->,below] (N) to node {$\tau(\omega)$} (2);
-    \draw[|->] (w) to node {} (p);
-\end{tikzpicture}
-\end{centre}
- and define, for all $n \in \mathbb{N}$ the set $M_n = \{ \omega \in Nat( \widehat{A}, \Delta_{\mathbb{N}}(\bullet, \star)) \, | \, \tau(\omega)(n) = 1  \}$.
- 
-There is also a contravariant functor $\mathbf{Spec}: \mathbf{Set}^{\Delta_{\mathbb{N}}} \rightarrow\mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$ given by $\mathbf{Spec}(\widehat{X})(\star) = Nat( \widehat{X}, \Delta_{\mathbb{N}}(\star,\bullet))$.  Taking $\widehat{X} = \mathbf{Meas}(X, \bullet)$ we have for each $f \in \mathbf{Meas}(X, \Delta_{\mathbb{N}})$, and each $x \in X$ the result $f(x) \in \Delta_{\mathbb{N}}$. Note that for any fixed $\mathbf{p} \in \Delta_{\mathbb{N}}$ we have the pushforward action $\mathcal{G}(\mathbf{p})$ as in  Axiom 2 with each $\mathbf{Q}^j:\mathbb{N} \rightarrow \mathcal{G}(\mathbb{N})$ given by $\mathbf{p}$.  Hence we have the action $\widehat{X}(\mathbf{p})f: X \rightarrow \Delta_{\mathbb{N}}$ defined by composition with that pushforward map, which we denote for simplicity by $\mathcal{G}(\mathbf{p})$ (rather than writing $\mu_{\mathbb{N}} \circ \mathcal{G}(\mathbf{p})$).  Thus
- 
+\begin{example}  Consider the probability monad on compact Hausdorff spaces, where the algebras are precisely the compact convex sets $K$ in locally convex topological vector spaces together with the barycenter maps $\beta_K:\mathcal{P}K\rightarrow K$.  
+
+Given such a space $K$ we can endow it with a super convex space structure by defining, for all $\mathbf{p} \in \mathcal{G}\mathbb{N}$, countable affine sums by  $\sum_{i \in \mathbb{N}} p_i k_i := \beta_K( \sum_{i \in \mathbb{N}} p_i \delta_{k_i})$ which, along with the pointwise super convex space structure on $\mathcal{P}K$ makes the barycenter map $\beta_K$ a countably affine map.  
+
+To prove this endows $K$ with a super convex space structure note that $\beta_K(\delta_{k_i})= k_i$ for all $k_i \in K$ to obtain
+$$
+\sum_{i \in \mathbb{N}} p_i \beta_K(\delta_{k_i}) = \sum_{i \in \mathbb{N}} p_i k_i := \beta_K(\sum_{i \in \mathbb{N}} p_i \delta_{k_i}).
+$$
+To prove $\beta_K$ is countably affine on $\mathcal{P}K$ use the property that $\beta_K \circ \mu_K = \beta_K \circ \mathcal{P}\beta_K$.
+
+The method employed in this example is not restricted to locally convex compact Hausdorff spaces. It shows that the algebras of a probability monad are a super convex space.
+That implication is the motivation for the next example.
+\end{example}
+
+\begin{example}
+Because we can represent a super convex space as the functor $\mathbf{SCvx}(\cdot,A) \in  \mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$, where $\Delta_{\mathbb{N}}$ is the category viewed with a single object $\Delta_{\mathbb{N}}$ and all endomorphisms of $\Delta_{\mathbb{N}}$,  we can make use of the  contravariant functor $\mathcal{O}: \mathbf{Set}^{\Delta_{\mathbb{N}}^{op}} \rightarrow \mathbf{Set}^{\Delta_{\mathbb{N}}}$  which, because $\Delta_{\mathbb{N}}$ is a monoid with the single object $\Delta_{\mathbb{N}}$, is easy to describe.  We have
 \begin{equation} 
 \begin{array}{lcl}
-\mathbf{Spec}(\widehat{X})(\star) &=& Nat( \mathbf{Meas}(X,\bullet), \Delta_{\mathbb{N}}(\star,\bullet)) \\
-&=& \{ \mathbf{Meas}(X, \Delta_{\mathbb{N}}) \stackrel{J}{\longrightarrow} \Delta_{\mathbb{N}} \, | \, \mathcal{G}(\mathbf{p})(J(f)) = J\big( \mathcal{G}(\mathbf{p})\circ f \big) \quad  \forall f \in \mathbf{Meas}(X, \Delta_{\mathbb{N}}) \, \forall \mathbf{p}\in \Delta_{\mathbb{N}}  \}
+\mathcal{O}(\mathbf{SCvx}(\cdot,A))(\Delta_{\mathbb{N}}) &=& Nat( \mathbf{SCvx}(\cdot,A), \mathbf{SCvx}(\cdot, \Delta_{\mathbb{N}})) \\
+&=& \{ \mathbf{SCvx}(\Delta_{\mathbb{N}}, A) \stackrel{\omega}{\longrightarrow} \mathbf{SCvx}(\Delta_{\mathbb{N}},\Delta_{\mathbb{N}}) \, | \, \omega(\mathbf{a} \circ \mathbf{Q}) = \omega(\mathbf{a})\circ \mathbf{Q} \quad \forall \mathbf{Q}, \forall \mathbf{a} \}
 \end{array}
 \end{equation}
+where $\mathbf{a} \in \mathbf{SCvx}(\Delta_{\mathbb{N}},A)$ and $\mathbf{Q} \in \mathbf{SCvx}(\Delta_{\mathbb{N}},\Delta_{\mathbb{N}})$.
 
- Because $\Delta_{\mathbb{N}}$ is a super convex space, we endow $\mathbf{Spec}(\widehat{X})(\star)$ with the pointwise super convex space structure.  It is not difficult to interpret $\mathbf{Spec}(\widehat{X})(\star)$ as $\mathcal{G}{X}$, the set of all probability measures on $X$, because the natural transformations $J$ are weakly-averaging countably affine functions.  
+For each measurable space $X$ there is a functor $\widehat{X} \in \Set^{\Delta_{\mathbb{N}}}$ given on objects by 
+$\widehat{X}(\Delta_{\mathbb{N}})=\mathbf{Meas}(X, \mathcal{G}{\mathbb{N}})$  and $\widehat{X}(\mathbf{Q}):\mathbf{Meas}(X, \mathcal{G}{\mathbb{N}}) \rightarrow \mathbf{Meas}(X,\mathcal{G}{\mathbb{N}})$ sends $f \mapsto  \mathbf{Q} \circ f$ which is clearly functorial. (Endowing the spaces $\Delta_{\mathbb{N}}$ with the $\sigma$-algebra assignment of the Giry monad makes $\mathbf{Q}$ measurable.)
+ 
+ The  functor $\mathbf{Spec}: \Set^{\Delta_{\mathbb{N}}} \rightarrow \Set^{\Delta^{op}_{\mathbb{N}}}$ gives 
+ \begin{equation}
+ \begin{array}{lcl}
+ \mathbf{Spec}(\widehat{X})(\Delta_{\mathbb{N}}) &=& Nat\big(\widehat{X}, \mathbf{SCvx}(\Delta_{\mathbb{N}},\cdot) \big) \\
+ &=& \{ \mathbf{Meas}(X,\mathcal{G}{\mathbb{N}}) \stackrel{\omega}{\longrightarrow} \SCvx(\Delta_{\mathbb{N}},\Delta_{\mathbb{N}}) \,| \, \mathbf{Q} \circ \omega(f) = \omega(\mathbf{Q} \circ f) \}
+ \end{array}
+ \end{equation}
+where the second equality follows because there only exists a single component of each natural transformation.  The set  $\mathbf{Spec}(\widehat{X})(\Delta_{\mathbb{N}})$ has a super convex space structure defined pointwise, using the fact $\SCvx(\Delta_{\mathbb{N}},\Delta_{\mathbb{N}})$ has a super convex space structure (as does $\mathbf{Meas}(X,\mathcal{G}{\mathbb{N}}))$.  Note that the condition  $\omega(\mathbf{Q}\circ f)=\mathbf{Q}( \omega(f))$ implies $\omega$ is weakly averaging because by taking $\mathbf{Q}$ to be a constant function the condition implies $\omega$ must be weakly-averaging.
 
-We can restrict the two categories $\mathbf{Meas}$ and $\mathbf{SCvx}$ so that the usual adjunction $\mathcal{O} \dashv \mathbf{Spec}$, which views the contravariant functors described above as  covariant functors, restricts to nice subcategories giving an adjunction.  Take the pullback of the inclusion functor $\iota: \mathbf{Std} \hookrightarrow \mathbf{Meas}$ along the functor $\mathcal{O}$ restricted to the full subcategory of functors $\widehat{A}$ characterizing super convex spaces,
+By replacing the monoid $\Delta_{\mathbb{N}}$ with the two-object full subcategory $\mathbf{\Omega}=\{\mathbb{N}, \Delta_{\mathbb{N}} \}$ of $\mathbf{SCvx}$ it is not difficult to  
+interpret  $\mathbf{Spec}(\widehat{X})(\mathbb{N})$ as the set of probability measures on $X$ because the natural transformations are weakly-averaging countably affine maps.   To see this take a disjoint countable cover of $X$ by measurable sets $\{U_i\}_{i \in \mathbb{N}}$ and define $f: X \rightarrow \mathbb{N}$ by $f(x) = \sum_{i \in \mathbb{N}} \chi_{U_i}(x) \underline{i}$. The additional object $\mathbb{N}$ is required because standard measurable spaces have the codense subcategory determined by the single space $(\mathbb{N}, \mathcal{P}{\mathbb{N}})$ along with the monotonic functions on $\mathbb{N}$.
+
+The trick is to restrict the two categories $\mathbf{Meas}$ and $\mathbf{SCvx}$ so that the usual adjunction $\mathcal{O} \dashv \mathbf{Spec}$, which views the contravariant functors described above as  covariant functors, restricts to nice subcategories giving an adjunction.  Taking the pullback of the inclusion functor $\iota: \mathbf{Std} \hookrightarrow \mathbf{Meas}$ along the functor $\mathcal{O}$ restricted to the full subcategory of functors $\widehat{A}$ characterizing super convex spaces,
 \begin{centre}
 \begin{tikzpicture}
     \node   (SCvxstar)  at  (0,0)   {$\mathbf{SCvx}_{\star}$};
@@ -240,21 +248,10 @@ We can restrict the two categories $\mathbf{Meas}$ and $\mathbf{SCvx}$ so that t
 
 \end{tikzpicture}
 \end{centre}
-This provides an adjunction $\mathcal{P} \dashv \mathbf{\Sigma}$ where $\mathcal{P}$ is the Giry monad viewed as a functor into $\mathbf{SCvx}_{\star}$.
-Warning: This is not quite an accurate picture because it is necessary to replace the monoid category $\Delta_{\mathbb{N}}$ with the full subcategory of $\mathbf{SCvx}$ consisting of two objects, $\mathbb{N}$ and $\Delta_{\mathbb{N}}$. $\mathbb{N}$ is required because the category of standard measurable spaces has the codense subcategory consisting of the discrete space $\mathbb{N}$ with monotonic maps ($\Delta_{\mathbb{N}}$ is not a codense subcategory of $\mathbf{Std}$).
+This is one approach to obtain an adjunction $\mathcal{P} \dashv \mathbf{\Sigma}$ where $\mathcal{P}$ is the Giry monad viewed as a functor into $\mathbf{SCvx}_{\star}$. 
+
 \end{example} 
 
-
-\begin{example}  Consider the probability monad on compact Hausdorff spaces, where the algebras are precisely the compact convex sets $K$ in locally convex topological vector spaces together with the barycenter maps $\beta_K:\mathcal{P}K\rightarrow K$.  
-
-Given such a space $K$ we can endow it with a super convex space structure by defining, for all $\mathbf{p} \in \mathcal{G}\mathbb{N}$, countable affine sums by  $\sum_{i \in \mathbb{N}} p_i k_i := \beta_K( \sum_{i \in \mathbb{N}} p_i \delta_{k_i})$ which, along with the pointwise super convex space structure on $\mathcal{P}K$ makes the barycenter map $\beta_K$ a countably affine map.  
-
-To prove this endows $K$ with a super convex space structure note that $\beta_K(\delta_{k_i})= k_i$ for all $k_i \in K$ to obtain
-$$
-\sum_{i \in \mathbb{N}} p_i \beta_K(\delta_{k_i}) = \sum_{i \in \mathbb{N}} p_i k_i := \beta_K(\sum_{i \in \mathbb{N}} p_i \delta_{k_i}).
-$$
-To prove $\beta_K$ is countably affine on $\mathcal{P}K$ use the property that $\beta_K \circ \mu_K = \beta_K \circ \mathcal{P}\beta_K$.
-\end{example}
 
 ## Related concepts
 
@@ -273,9 +270,17 @@ The fact that $\mathbf{SCvx}$ is a symmetric monoidal argument can be proven the
 
 * {#Meng} Xiao-qing Meng, _Categories of convex sets and of metric spaces with applications to stochastic programming and related areas_, PhD thesis ([[Meng.djvu|djvu:file]]) 
 
-Many examples of super convex spaces are given in
+Proposition 1.2 in 
+
+* {#Borger} B&ouml;rger & Kemper, Cogenerators for convex spaces, Applied Categorical Structures, Vol. 2 (1994), 1-11.
+
+is particularly useful for viewing super convex spaces as positively convex spaces which are somewhat easier to work with because the condition $\sum_{i \in \mathbb{N}}p_i=1$  is replaced by the inequality $\le 1$.
+
+The fact that the full subcategory of $\mathbf{SCvx}$ consisting of the single object is dense in $\mathbf{SCvx}$, along with more properties and examples of super convex spaces is given in
 
 * {#Sturtz22} [[Kirk Sturtz]], _Giry algebras for standard measurable spaces_ $[$[arXiv:2202:10819](https://arxiv.org/abs/2202.10819)$]$
+
+although the proper restriction of the Isbell adjunction ala Example 6.6 has yet to be worked out.
 
 For purposes of constructing models of complex systems using super convex spaces the construction given in Example 6.1 of the following article applies equally well to super convex spaces.
 
