@@ -182,6 +182,31 @@ Constructivism as such is irrelevant; even in [[classical mathematics]], most Gr
 The theorem that every Grothendieck topos is [[cocomplete category|cocomplete]] is a subtle point; it fails only in finitist predicative mathematics.  (The key point in the proof is to generate the [[transitive relation|transitive closure]] $\sim^*$ of a binary relation $\sim$.  One proof defines $a \sim^* b$ to mean that $a \sim x_0 \sim \cdots \sim x_{n-1} \sim b$ for some $n$, which is predicative but infinitary; another defines $a \sim^* b$ to mean that $a \sim' b$ for every transitive relation $\sim'$ that contains $\sim$, which is finitary but impredicative.)
 
 
+## Examples and non-examples
+
+By definition, every [[category of sheaves]] is a Grothendieck topos.  Examples include:
+
+* Every [[presheaf]] category $PSh(C) = Set^{C^{op}}$ is a Grothendieck topos.
+
+* In particular [[Set]] is a Grothendieck topos, because it is equivalent to $PSh(\ast)$.
+
+* Broadly, most of the [[toposes]] that people have worked with are Grothendieck.
+
+
+On the other hand, there are [[topos#ElementaryTopos|(elementary) toposes]] that fail to be Grothendieck toposes:
+
+* Because a Grothendieck topos [[complete category|has all small limits]], $FinSet$ is not Grothendieck.
+
+* More generally, the category $Set_{\lt \pi}$ of sets with [[cardinality]] below any bound $\pi$ is not a Grothendieck topos, even when $\pi$ is a [[strong limit cardinal]] so that $Set_{\lt \pi}$ is an (elementary) topos.
+
+* Similarly, any category $FinSet^{C^{op}}$ of $FinSet$-valued presheaves is a topos but not a Grothendieck topos, and the same goes more generally for $Set_{\lt \pi}^{C^{op}}$ for $\pi$ a [[strong limit cardinal]].
+
+* The [[effective topos]], the maps in which can be thought of as computable functions, is not Grothendieck.
+
+* Other non-Grothendieck toposes occur in the topos-theoretic approach to [[nonstandard analysis]].
+
+
+
 ## Related concepts
 
 * [[topos]]
