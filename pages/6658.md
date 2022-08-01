@@ -71,7 +71,7 @@ If $C$ is [[exact category|exact]], or has stable [[reflexive coequalizers]], th
 
 However, there are also important effective descent morphisms in non-exact categories.
 
-* In [[Top]], there are characterizations of effective descent morphisms, see \cite{EDM}.
+* In [[Top]], there are characterizations of effective descent morphisms, see [CJ20](#EDM).
 
 * In the category [[Loc]] of [[locales]], every [[triquotient map]] is an effective descent morphism.  These includes [[open map|open]] surjections and also [[proper map|proper]] surjections.
 
@@ -113,10 +113,7 @@ Of course, there are also many effective descent morphisms relative to fibration
  {#RST}
 
 
-\bibitem{EDM} [[Maria Manuel Clementino]], [[George Janelidze]],
-_Another note on effective descent morphisms of topological spaces and relational algebras_.
-Topology Appl. 273 (2020), 106961.
-[DOI](https://doi.org/10.1016/j.topol.2019.106961).
+* {#EDM} [[Maria Manuel Clementino]], [[George Janelidze]], _Another note on effective descent morphisms of topological spaces and relational algebras_. Topology Appl. 273 (2020), 106961. [DOI](https://doi.org/10.1016/j.topol.2019.106961).
 
 [[!redirects descent morphism]]
 [[!redirects descent morphisms]]
