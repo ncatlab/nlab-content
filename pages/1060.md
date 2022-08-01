@@ -210,6 +210,9 @@ Write $(V,V')$ for an object of $Chu(Vect,k)$ and $\langle v,w \rangle$ the eval
 
 * It is shown in [HH13](#HH13) that a $\ast$-autonomous category that is [[traced monoidal category|traced]] must be compact closed.
 
+* We can weaken the requirement that the canonical morphism
+$ d_A: A \to (A \multimap \bot) \multimap \bot $ is an isomorphism to the one that it is a monomorphism: [[weak (star)-autonomous category]].
+
 
 ## References ##
 
