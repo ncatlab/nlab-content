@@ -104,7 +104,7 @@ In this context the free compact closure $Int(\mathcal{C})$ from [above](#Relati
 
 The concept was introduced in
 
-* {#JoyalStreetVerity96} [[André Joyal]], [[Ross Street]], [[Dominic Verity]], _Traced monoidal categories_, Math. Proc. Camb. Phil. Soc. (1996), 119, 447 ([pdf](http://sci-prew.inf.ua/v119/3/S0305004100074338.pdf))
+* {#JoyalStreetVerity96} [[André Joyal]], [[Ross Street]], [[Dominic Verity]], _Traced monoidal categories_, Math. Proc. Camb. Phil. Soc. (1996), 119, 447 ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/jsv.pdf))
 
 A characterization of trace structures on cartesian monoidal categories is given in
 
