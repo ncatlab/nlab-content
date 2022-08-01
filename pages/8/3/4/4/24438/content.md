@@ -22,7 +22,6 @@ A strict weak $*$-autonomous category is a weak $*$-autonomous category such tha
 ## Example
 
 * For every [[field]] $\mathbb{K}$, the category $Vec_{\mathbb{K}}$ is a strict weak $*$-autonomous category.
-
 * For every [[commutative ring]] $R$, the category $Mod_{R}$ is a strict weak $*$-autonomous category.
 
 ## Related concepts
