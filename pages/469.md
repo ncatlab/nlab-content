@@ -35,7 +35,9 @@ A closed monoidal category is a special case of the notion of [[closed pseudomon
 
 ## Definitions
 
+
 ### Symmetric closed monoidal category
+
 
 A [[symmetric monoidal category|symmetric]] [[monoidal category]] $C$ is **closed** if for all [[objects]] $b \in C_0$ the [[tensor product]] [[functor]] $ b \otimes - : C \to C$ has a [[right adjoint]] functor $[b,-] \colon C \to C$.
 
