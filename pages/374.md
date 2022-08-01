@@ -86,7 +86,7 @@ Since by definition the elements in this [[poset]] are closed under finite [[mee
 +-- {: .num_defn}
 ###### Definition
 
-A [[homomorphisms]] between topological spaces $f : X \to Y$ is a **[[continuous function]]**: 
+A [[homomorphism]] between topological spaces $f : X \to Y$ is a **[[continuous function]]**: 
 
 a [[function]] $f:X\to Y$ of the underlying [[sets]] such that the [[preimage]] of every open set of $Y$ is an open set of $X$.
 
