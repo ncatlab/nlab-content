@@ -26,6 +26,11 @@ A **permutative category** is a [[symmetric monoidal category]] (possibly taken 
 
 ([May, def. 1](#May)) ([Elmendorf-Mandell, def. 3.1](#ElmendorfMandell)).
 
+A permutative category is a [[strict monoidal category]] equipped with a natural transformation $B_{x,y}:x \otimes y \rightarrow y \otimes x$ such that:
+
+* $B_{x,y};(Id \otimes B_{y,z}) = B_{x,y \otimes z}$
+* $B_{x,y};B_{y,x} = Id$
+
 ## Properties
 
 Every [[symmetric monoidal category]] is [[equivalence of categories|equivalent]] to a permutative one ([Isbell](#Isbell)). 
