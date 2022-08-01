@@ -77,7 +77,7 @@ from [[CartSp]] to the [[1-category]] [[Grpd]].
 
 =--
 
-See at _[geometry of physics -- homotopy types -- groupoids](geometry+of+physic+--+homotopy+types#Groupoids)_ for more on bare groupoids. Here we will freely assume familiarity with these.
+See at _[geometry of physics -- homotopy types -- groupoids](geometry+of+physics+--+homotopy+types#Groupoids)_ for more on bare groupoids. Here we will freely assume familiarity with these.
 
 +-- {: .num_remark #YonedaIntuition}
 ###### Remark
