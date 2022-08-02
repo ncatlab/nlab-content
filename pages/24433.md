@@ -30,7 +30,15 @@ such that, for $f\in T(m+n)^m$, (omitting subscripts):
 
 $$ f^\dagger(i) \quad = \quad f(i) \rhd j. \begin{cases} f^\dagger(j) & j\in m \\ \eta(j) & j\in n\end{cases}$$
 
-and satisfying axioms: the parameter identity, composition identity, and double dagger identities. 
+and satisfying axioms:
+
+* parameter identity: $((1_n \oplus g) \circ f)^\dagger = g \circ f ^\dagger$ where $f:n \to n+p, \ g:p \to q$
+
+* composition identity: $\langle (\langle f , \ 0_m \oplus 1_p \rangle \circ g)^\dagger , 1_p \rangle \circ f = (\langle g , \ 0_n \oplus 1_p \rangle \circ f)^\dagger$ where $f:n \to m+p, \ g:m \to n+p$
+
+* double dagger identity: $(\langle 1_n , \ 1_n \rangle \oplus 1_p) \circ f)^\dagger = (f^\dagger)^\dagger$ where $f: n \to n+n+p$
+
+in the corresponding [[Lawvere theory]].
 
 It is an _iteration theory_ if the operations also satisfy the "commutative identity".   
 
