@@ -148,7 +148,7 @@ Examples of categories which are **not regular** include
 
 * [[Cat]], [[Pos]], and [[Top]]. 
 
-The following example proves failure of regularity in all three cases: l
+The following example proves failure of regularity in all three cases:
 
 Let $A$ be the poset $\{a, b\} \times (0 \to 1)$; let $B$ be the poset $(0 \to 1 \to 2)$, and let $C$ be the poset $(0 \to 2)$. There is a regular epi $p: A \to B$ obtained by identifying $(a, 1)$ with $(b, 0)$, and there is the evident inclusion $i: C \to B$. The pullback of $p$ along $i$ is the inclusion $\{0, 2\} \to (0 \to 2)$, which is certainly an epi but not a regular epi. Hence regular epis in $Pos$ are not stable under pullback. 
 
