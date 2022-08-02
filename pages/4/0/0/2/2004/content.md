@@ -137,7 +137,7 @@ of the [[category of presheaves]] on the [[Kleisli category]] along the [[Yoneda
 
 =--
 
-This statement appears as ([Street 72, theorem 14](#Street72)). It seems to go back to ([Linton 69](#Linton69)), see ([Melli&#232;s 10, p. 4](#Mellies10)). ([Street-Walters 78](#StreetWalters78)) show that it holds in any 2-category equipped with a [[Yoneda structure]].
+This statement appears as [(Linton 69, Observation 1.1)](#Linton69) (cf. [(Street 72, Theorem 14)](#Street72)). [(Street-Walters 78)](#StreetWalters78) show that it holds in any 2-category equipped with a [[Yoneda structure]].
 
 +-- {: .proof}
 ###### Sketch of proof
@@ -150,7 +150,7 @@ is given by $\alpha=P(1_{TA})(1_A)$, where $1_{TA}$ is viewed as a [[Kleisli cat
 Just as the [[Kleisli object]] of a monad $t$ in a 2-category $K$ can be defined as the [[lax colimit]] of the [[lax functor]] $\ast \to K$ [[monad|corresponding]] to $t$, the EM object of $t$ is its [[lax limit]].
 
 
-S. Lack has shown how Eilenberg--Moore objects $C^T$ can be obtained as combinations of certain simpler lax limits, when the 2-category $K$ in question is the 2-category of 2-algebras over a 2-monad $\mathbf{G}$ and lax, colax or pseudo morphisms of such: 
+[[Steve Lack]] has shown how Eilenberg--Moore objects $C^T$ can be obtained as combinations of certain simpler lax limits, when the 2-category $K$ in question is the 2-category of 2-algebras over a 2-monad $\mathbf{G}$ and lax, colax or pseudo morphisms of such: 
 
 * [[Steve Lack]], _Limits for lax morphisms_ , Applied Categorical Structures __13__:3 (2005) , pp. 189--203(15) 
 
