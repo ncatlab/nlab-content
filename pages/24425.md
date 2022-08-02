@@ -1,3 +1,7 @@
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 A graded codifferential category is like a [[codifferential category]] but where the algebra modality is replaced by a graded algebra modality. Whereas $FVec_{\mathbb{K}}$ is only a trivial codifferential category, with all the structure equal to zero, $FVec_{\mathbb{K}}$ is a non-trivial codifferential category.
@@ -33,11 +37,52 @@ S_{r+s}(S_{t}(A)) \arrow[rr, "m"']                                              
 \end{tikzcd}
 \end{definition}
 
+\begin{definition}
+A $R$-graded codifferential category is a [[CMon-enriched symmetric monoidal category]] with a $R$-graded algebra modality and a $R$-graded deriving transformation ie. a family $(d_{r}A:S_{r+1}(A) \rightarrow S_{r}(A) \otimes A)$ of natural transformation such that:
+
+* [[Leibniz rule]]:
+\begin{tikzcd}
+                                                                                                                                                           &  &  & S_{n+p}(A) \arrow[rrrdd, "d"] &  &  &                         \\
+                                                                                                                                                           &  &  &                                &  &  &                         \\
+S_{n}(A) \otimes S_{p}(A) \arrow[rrruu, "\nabla"] \arrow[rrrrrr, "(d \otimes 1)( 1 \otimes \gamma)(\nabla \otimes 1)+ (1 \otimes d)(\nabla \otimes 1)"'] &  &  &                                &  &  & S_{n+p-1}(A) \otimes A
+\end{tikzcd}
+
+* [[chain rule|Chain rule]]:
+
+\begin{tikzcd}
+S_{n-1}(S_{p}(A)) \otimes S_{p}(A) \arrow[rr, "m \otimes d"] &  & S_{(n-1)p}(A) \otimes S_{p-1}(A) \otimes A \arrow[ddd, "\nabla \otimes 1"'] \\
+                                                                &  &                                                                               \\
+                                                                &  &                                                                               \\
+                                                                &  & S_{np-1}(A) \otimes A                                                        \\
+S_{n}(S_{p}(A)) \arrow[uuuu, "d"] \arrow[rr, "m"']            &  & S_{np}(A) \arrow[u, "d"]                                                    
+\end{tikzcd}
+
+* Linear rule:
+
+\begin{tikzcd}
+A \arrow[dd, "u"'] \arrow[rrdd, "\eta \otimes 1"] &  &                     \\
+                                                          &  &                     \\
+S_{1}(A) \arrow[rr, "d"']                             &  & S_{0}(A) \otimes A
+\end{tikzcd}
+
+* Schwarz rule:
+
+\begin{tikzcd}
+S_{n-1}(A) \otimes A \arrow[rr, "d \otimes A"] &  & S_{n-2}(A) \otimes A \otimes A \arrow[d, "1 \otimes \gamma"] \\
+                                                                    &  & S_{n-2}(A) \otimes A \otimes A                               \\
+                                                                    &  &                                                               \\
+S_{n}(A) \arrow[uuu, "d"] \arrow[rr, "d"']                 &  & S_{n-1}(A) \otimes A \arrow[uu, "d \otimes 1"']       
+\end{tikzcd}
+
+\end{definition}
+
 ## Related concepts
 
 [[symmetric powers in symmetric monoidal categories enriched over modules over a (Q plus)-algebra]]
 
 [[differential category]]
+
+[[Homogeneous polynomial codifferential category]]
 
 [[!redirects graded codifferential categories]]
 
