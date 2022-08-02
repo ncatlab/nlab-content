@@ -38,6 +38,11 @@ Less generally, a **[[commutative algebra]]** (where associative and unital are 
 
 For a given ring the algebras form a category, [[Alg]], and the commutative algebras a subcategory, [[CommAlg]].
 
+
+### Over semi-rings
+
+Note that everywhere rings can be replaced by [[semi-rings]] in the previous paragraph. For example a commutative associative unital $\mathbb{Q}^{+}$-algebra is nothing more than a commutative semi-ring $R$ with a [[semi-ring homomorphism]] $\mathbb{Q}^{+} \rightarrow R$.
+
 ### Over monoids in a monoidal category
  {#OverMonoidsInAMonoidalCategory}
 
