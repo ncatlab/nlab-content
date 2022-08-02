@@ -40,7 +40,11 @@ and satisfying axioms:
 
 in the corresponding [[Lawvere theory]].
 
-It is an _iteration theory_ if the operations also satisfy the "commutative identity".   
+It is an _iteration theory_ if the operations also satisfy:
+
+* commutative identity: $\langle (\rho_1 \oplus 1_p) \circ (f \circ \rho)_1 , \ ... \ , \ (\rho_m \oplus 1_p) \circ (f \circ \rho)_m) \rangle ^\dagger = ((\rho \oplus 1_p) \circ f)^\dagger \circ \rho$ 
+
+where $f: n \to m+p, \ \rho: m \to n$ is a surjective base morphism and $\rho_i: m \to m$ are base with $\rho \circ \rho_i = \rho$ for every i.
 
 
 This connects with the basic idea, because $f\in T(m+n)^m$ can be thought of as a sequence of $m$ terms with $m+n$ variables, and the solution $f^\dagger$ comprises $m$ terms just having the $n$ free variables. 
