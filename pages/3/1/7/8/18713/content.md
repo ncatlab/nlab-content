@@ -1,9 +1,9 @@
 
-Severin Bunk is working on [[mathematical physics]], currently at Hamburg University.
+Severin Bunk is working on higher structures in geometry and topology, field theories and [[mathematical physics]], currently at the University of Oxford.
 
-* [website](https://www.math.uni-hamburg.de/home/bunk/)
+* [website](http://people.maths.ox.ac.uk/bunk/)
 
-## Selected wrirings
+## Selected writings
 
 On [[schreiber:Higher Prequantum Geometry]]:
 
