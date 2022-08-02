@@ -29,3 +29,6 @@ $\underset{0 \le i_{1},...,i_{q} \le n}{\sum} a_{i_{1},...,i_{q}}.n.X_{1}^{i_{1}
 
 which is equivalent to $a_{i_{1},...,i_{q}}.(i_{1}+...+i_{q}) = a_{i_{1},...,i_{q}}.n$ for all $0 \le i_{1},...,i_{q} \le n$ which is equivalent to $a_{i_{1},...,i_{q}}.(i_{1}+...+i_{q}) = a_{i_{1},...,i_{q}}.n$ for all $0 \le i_{1},...,i_{q} \le n$ such that $a_{i_{1},...,i_{q}} \neq 0$. $R$ is multiplicatively cancellable, thus it is equivalent to $i_{1}+...+i_{q} = n$ for all $0 \le i_{1},...,i_{q} \le n$ such that $a_{i_{1},...,i_{q}} \neq 0$ which is equivalent to $P\in R_{n}[X_{1},...,X_{q}]$.
 \end{proof}
+
+[[!redirects homogeneous polynomials]]
+[[!redirects Euler identity]]
