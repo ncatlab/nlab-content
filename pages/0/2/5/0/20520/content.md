@@ -66,3 +66,5 @@ A *useful feature* of such constructions is that the multiplication of the grade
 * {#OrchPet} [[Dominic Orchard]], Tomas Petricek, _Embedding effect systems in Haskell_, ([pdf](https://www.doc.ic.ac.uk/~dorchard/publ/haskell14-effects.pdf))
 
 * {#OrchWadEad} Dominic Orchard, Philip Wadler, Harley Eades, _Unifying graded and parameterised monads_, ([arXiv:2001.10274](https://arxiv.org/abs/2001.10274))
+
+[[!redirects graded monads]]
