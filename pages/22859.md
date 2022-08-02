@@ -130,3 +130,5 @@ The focus is more on codifferential categories in:
 [doi:10.1016/j.jpaa.2019.01.005](https://doi.org/10.1016/j.jpaa.2019.01.005))
 
 [[!redirects differential categories]]
+[[!redirects codifferential category]]
+[[!redirects codifferential categories]]
