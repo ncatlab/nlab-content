@@ -7,7 +7,7 @@
 
 ##Idea
 
-A conjectural characterization of [[symmetric powers]] in [[symmetric monoidal categories]] [[enriched]] over [[modules]] over a $\mathbb{Q}^{+}$-[[associative algebra]] is described here. The description in terms of [[universal properties]] would be equivalent to a much longer one but much more constructive in algebraic terms. It would be similar to the characterization of products known as [[Fox theorem]] but where [[products]] are replaced by [[symmetric powers]]. We work in symmetric monoidal categories enriched over modules over a $\mathbb{Q}^{+}$-algebra. The adaptation to [[CMon-enriched symmetric monoidal categories]] would involve symmetric and [[divided powers]] which are equal in this simpler setting. This conjecture seems to be true and if it is really the case, the proof is not trivial.
+A conjectural characterization of [[symmetric powers]] in [[symmetric monoidal categories]] [[enriched]] over [[modules]] over a commutative $\mathbb{Q}^{+}$-[[associative unital algebra]] is described here. The description in terms of [[universal properties]] would be equivalent to a much longer one but much more constructive in algebraic terms. It would be similar to the characterization of products known as [[Fox theorem]] but where [[products]] are replaced by [[symmetric powers]]. We work in symmetric monoidal categories enriched over modules over a $\mathbb{Q}^{+}$-algebra. The adaptation to [[CMon-enriched symmetric monoidal categories]] would involve symmetric and [[divided powers]] which are equal in this simpler setting. This conjecture seems to be true and if it is really the case, the proof is not trivial.
 
 ##Conjecture
 We suppose that the symmetric monoidal categories are strict monoidal categories.
