@@ -37,7 +37,7 @@ Given a [[commutative ring]] $R$ (usually a [[field]] $F$), an **$\mathbb{N}$-gr
 
 * for all $v:V$ and $n:\mathbb{N}$, $\langle \langle v \rangle_n \rangle_n = \langle v \rangle_n$
 
-* for all $v:V$, $m:\mathbb{N}$, and $n:\mathbb{N}$, $(m \neq n) \times (\langle \langle v \rangle_m \rangle_n = 0)$
+* for all $v:V$, $m:\mathbb{N}$, and $n:\mathbb{N}$, $(m \neq n) \Rightarrow (\langle \langle v \rangle_m \rangle_n = 0)$
 
 Terms of $V$ are called **multivectors**. 
 
