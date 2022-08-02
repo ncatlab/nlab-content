@@ -84,6 +84,8 @@ Some rigs which are neither rings nor distributive lattices include:
 
 * [[division rig]]
 
+* [[multiplicatively cancellable semi-ring]]
+
 ## References
 
 * {#Golan1999} [[Jonathan S. Golan]], _Semirings and their applications_. Updated and expanded version of The theory of semirings, with applications to mathematics and theoretical computer science, Longman Sci. Tech., Harlow, 1992, MR1163371. Kluwer Academic Publishers, Dordrecht, 1999. xii+381 pp.
