@@ -29,7 +29,7 @@ A mathematical structure used to define [[geometric algebras]].
 
 ## Definition ##
 
-Given a [[commutative ring]] $R$ (usually a [[field]] $F$), an **$\mathbb{N}$-graded $R$-module** is an $R$-[[module]] $V$ (usually a [[vector space]] $V$) with a binary function $\langle - \rangle_{(-)}: A \times \mathbb{N} \to V$ called the **grade projection operator** such that
+Given a [[commutative ring]] $R$ (usually a [[field]] $F$), an **$\mathbb{N}$-graded $R$-module** is an $R$-[[module]] $V$ (usually a [[vector space]] $V$) with a binary function $\langle - \rangle_{(-)}: V \times \mathbb{N} \to V$ called the **grade projection operator** such that
 
 * for all $v:V$, $v = \sum_{n:\mathbb{N}} \langle v \rangle_n$
 
