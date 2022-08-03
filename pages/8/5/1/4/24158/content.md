@@ -124,6 +124,16 @@ See also the commented list of problems at:
 
   * [open problems](https://ncatlab.org/schreiber/show/Some+thoughts+on+the+future+of+modal+homotopy+type+theory#OpenProblems)
 
+## In cubical type theory
+ {#InCubicalTypeTheory}
+
+* Does [[cubical type theory]] with [[regularity]] have [[canonicity]]?
+
+* Does [[cubical type theory]] with [[regularity]] have an [[algorithm]] to compute the [[canonical forms]] of [[closed terms]]?
+
+* Does [[cubical type theory]] with [[regularity]] have [[normalization]]?
+
+* Does [[cubical type theory]] with [[regularity]] have an [[algorithm]] to compute [[normal forms]]?
 
 ## Formalization
 
@@ -168,7 +178,6 @@ OK, here's the rule: if it was stated here (or on the UF-wiki) as an open proble
 *  Prove the [[Seifert-van Kampen theorem]]. (Shulman did it in 2013.)
 
 * Construct Eilenberg--MacLane spaces and use them to define cohomology. (Licata and Finster did it in 2013, written up in [this paper](http://dlicata.web.wesleyan.edu/pubs/lf14em/lf14em.pdf) (pdf).)
-
 
 * Define the Whitehead product.
 Guillaume Brunerie did this in 2017, written up in [this paper](https://arxiv.org/abs/1710.10307). He also gives a constructive proof of $\pi_4( S^3)= Z/n Z$ for some $n$ and a construction of the [reduced James product](https://ncatlab.org/nlab/show/EHP+spectral+sequence#via_the_james_model) as a HIT and a homotopy colimit. It is also proven that $\Omega \Sigma X \simeq J(X)$ for some pointed connected type $X$. All of these constructions can be found in detail in [his thesis](https://arxiv.org/abs/1606.05916).
