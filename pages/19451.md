@@ -114,6 +114,8 @@ First note that all kinds of lax monoidal categories can be generalized to **lax
 
 [[!redirects skew monoidal]]
 [[!redirects skew monoidal categories]]
+[[!redirects skew-monoidal category]]
+[[!redirects skew-monoidal categories]]
 [[!redirects right-skew monoidal categories]]
 [[!redirects left-skew monoidal categories]]
 
