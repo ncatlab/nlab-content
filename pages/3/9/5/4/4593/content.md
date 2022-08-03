@@ -50,7 +50,7 @@ To bring this down to earth, let $S$ and $T$ be [[sets]] and let $f\colon S \to 
 
 *  $\exists_f\, A \coloneqq \{ y\colon T \;|\; \exists\, x\colon S,\; f(x) = y \;\wedge\; x \in A \}$.
 
-Note that $\exists_f A$ is simply the [[image]] of $f$ restricted to $A$.  Accordingly, one often denotes $\exists_f$ as $f_*$ (if not simply $f$).  When using this notation, one can also denote $\forall_f$ as $f_!$.
+Note that $\exists_f A$ is simply the [[image]] of $f$ restricted to $A$.  Accordingly, one often denotes $\exists_f$ as $f_!$ (if not simply $f$).  When using this notation, one can also denote $\forall_f$ as $f_*$.
 
 When $f$ is the unique function from a set $X$ to the terminal set, $\mathcal{P}1$ is the two-element set and an object in $\mathcal{P}X$ is a predicate on $X$.  The adjoints then map a predicate $Q$ to a truth value:
 
