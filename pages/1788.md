@@ -26,3 +26,5 @@ An algebra modality in a [[symmetric monoidal category]] $(\mathcal{C}, \otimes,
 ## Test
 
 [[CMon-enriched symmetric monoidal categories]]
+
+$\multiscripts{_^2}{R}{_i^j}$
