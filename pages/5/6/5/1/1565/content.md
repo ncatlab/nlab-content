@@ -84,7 +84,7 @@ Some rigs which are neither rings nor distributive lattices include:
 
 * [[division rig]]
 
-* [[multiplicatively cancellable semi-ring]]
+* [[multiplicatively cancellable rig]]
 
 ## References
 
