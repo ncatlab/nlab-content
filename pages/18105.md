@@ -30,5 +30,7 @@ $$
 
 * [[representable multicategory]]
 
+* [[operad of set operations]]
+
 
 [[!redirects endomorphism operads]]
