@@ -38,7 +38,7 @@ The notion of $C$-action (hence a $C$-actegory) is easily extendable to [[bicate
 
 +-- {: .num_defn #Actegory}
 ###### Definition
-A **(left) $\mathcal{C}$-(pseudo)actegory** is
+A **(left) $\mathcal{C}$-actegory** is
 
 1. a category $\mathcal{A}$;
 1. a functor $\oslash : \mathcal{C} \times \mathcal{A} \to \mathcal{A}$ called the *action*;
@@ -66,5 +66,9 @@ Conversely, if an actegory is such that the functor $(-)\oslash d:C\to D$ has a 
 * P. Schauenburg, _Actions of monoidal categories and generalized Hopf smash products_, J. Algebra __270__ (2003) 521&#8211;563 (remark: actegories with action in the strong monoidal sense)
 
 * [[Zoran Škoda]], _Distributive laws for actions of monoidal categories_, [arxiv:0406310](http://arxiv.org/abs/math/0406310), _Equivariant monads and equivariant lifts versus a 2-category of distributive laws_, [arxiv:0707.1609](http://arxiv.org/abs/0707.1609)
+
+A recent survey of many basic definitions and operations on actegories is
+
+* Matteo Capucci, Bruno Gavranovic, _Actegories for the working amthematician_, [arxiv](https://arxiv.org/abs/2203.16351), 2022
 
 [[!redirects actegories]]
