@@ -54,7 +54,7 @@ Then $[\mathbf J, \mathbf C]$ is skew-monoidal, with unit $J$ and product $F \ci
 
 Discussion with an eye towards [[monad (in computer science)|monads in computer science]] is in 
 
-* {#ACU14} [[Thorsten Altenkirch]], James Chapman, Tamathrmo Uustalu, _Monads need not be endofunctors_, Logical methods in computer science ([arxiv](https://arxiv.org/abs/1412.7148))
+* {#ACU14} [[Thorsten Altenkirch]], James Chapman, Tarmo Uustalu, _Monads need not be endofunctors_, Logical methods in computer science ([arxiv](https://arxiv.org/abs/1412.7148))
 
 
 [[!redirects relative monads]]
