@@ -31,3 +31,5 @@ In the [[untyped lambda calculus]] the term $(\lambda x . x x x) (\lambda x . x 
 ## Related concepts
 
 * [[canonical form]]
+
+[[!redirects normal forms]]
