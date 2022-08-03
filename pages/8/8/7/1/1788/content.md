@@ -1,30 +1,21 @@
+Let $X$ be a set. The usual operations intersection, union, symmetric difference, complementary... on the subsets of $X$ can be presented in an homogeneous way using an operation $\multiscripts{_^n}{\Delta}{_i^j}:\mathcal{P}(X)^{\times n} \rightarrow \mathcal{P}(X)$ for every $n \ge 1$ and $0 \le i \le j \le n$. The operad thus generated gives much more operations.
 
+For every $n \ge 1$, $A_{1},...,A_{n}$ subsets of $X$, and $0 \le i \le j \le j$, define the set:
+$
+\multiscripts{_^n}{\Delta}{_i^j}(A_{1},...,A_{n}) = \{x \in A_{1} \cup ... \cup A_{n}, i \le |k \in [1,n], x \in A_{k}| \le j\}
+$
 
-# Title
-## Section
+We then have:
 
-\begin{definition}
-Camembert is a moist, soft, creamy, surface-ripened cow's milk cheese.
-\end{definition}
+* $A_{1} \cap ... \cap A_{n} = \multiscripts{_^n}{\Delta}{_n^n}(A_{1},...,A_{n})$
+* $A_{1} \cup ... \cup A_{n} = \multiscripts{_^n}{\Delta}{_1^n}(A_{1},...,A_{n})$
+* $A_{1} \Delta A_{2} = \multiscripts{_^n}{\Delta}{_1^1}(A_{1}, A_{2})$ 
+* $\emptyset = \multiscripts{_^n}{\Delta}{_1^1}(A_{1},A_{1})$
+* $X = \multiscripts{_^n}{\Delta}{_0^n}(A_{1},...,A_{n})$
+* $X - A_{1} = \multiscripts{_^n}{\Delta}{_0^0}(A_{1})$
+* $A_{1} = \multiscripts{_^n}{\Delta}{_1^1}(A_{1})$
 
-## Definition
+We also have:
 
-\begin{definition}
-A CMon-enriched [[symmetric monoidal category]] is a [[symmetric monoidal category]] $\mathcal{C}$ such that each hom-set $\mathcal{C}[A,B]$ is a [[commutative monoid]] (in Set) and $- \otimes -$ as well as $-;-$ are bilinear ie. preserve sums and the zero in each variable.
-\end{definition}
-
-\begin{definition}
-An algebra modality in a [[symmetric monoidal category]] $(\mathcal{C}, \otimes, I)$ is given by a [[monad]] $(!,m,u)$ and two [[natural transformations]] $\eta:I \rightarrow !A$ and $\nabla:!A \otimes !A \rightarrow !A$ such that for every $A \in \mathcal{C}$, $(!A, \nabla, \eta)$ is a [[commutative monoid]] in $(\mathcal{C},\otimes,I)$ and this diagram commutes:
-\begin{tikzcd}
-!!A \otimes !!A \arrow[dd, "m \otimes m"'] \arrow[rr, "\nabla"] &  & !!A \arrow[dd, "m"] \\
-                                                                            &  &                           \\
-!A \otimes !A \arrow[rr, "\nabla"']                                   &  & !A                    
-\end{tikzcd}
-\end{definition}
-
-
-## Test
-
-[[CMon-enriched symmetric monoidal categories]]
-
-$\multiscripts{_^2}{R}{_i^j}$
+* $X - (A_{1} \cup ... \cup A_{n}) = \multiscripts{_^n}{\Delta}{_0^0}(A_{1},...,A_{n})$
+* $X - (A_{1} \cap ... \cap A_{n}) =$
