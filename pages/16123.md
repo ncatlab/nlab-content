@@ -1,11 +1,11 @@
 A polynomial all of whose monomial terms have the same degree. See also [[polynomial]].
 
-If $R$ is a commutative semi-ring, then the set $R_{n}[X_{1},...,X_{q}]$ of homogeneous polynomials of degree $n$ with variables $X_{1},...,X_{q}$ is given by all the expressions of the form $\underset{\substack{0\le i_{1},...,i_{q} \le n\\ i_{1}+...+i_{q} = n}}{\sum} a_{i_{1},...,i_{q}}X_{1}^{i_{1}}...X_{q}^{i_{q}}$.
+If $R$ is a commutative rig, then the set $R_{n}[X_{1},...,X_{q}]$ of homogeneous polynomials of degree $n$ with variables $X_{1},...,X_{q}$ is given by all the expressions of the form $\underset{\substack{0\le i_{1},...,i_{q} \le n\\ i_{1}+...+i_{q} = n}}{\sum} a_{i_{1},...,i_{q}}X_{1}^{i_{1}}...X_{q}^{i_{q}}$.
 
 A specific property of homogeneous polynomials is the Euler identity:
 
 \begin{theorem}
-If $R$ is a commutative semi-ring and if $P \in R_{n}[X_{1},...,X_{q}]$ then $\underset{1 \le k \le q}{\sum} \frac{\partial P}{\partial X_{k}}X_{k} = n.P$. Reciprocally, if $R$ is a commutative [[multiplicatively cancellable semi-ring]], if $P \in R[X_{1},...,X_{q}]$ and $\underset{1 \le k \le q}{\sum} \frac{\partial P}{\partial X_{k}}X_{k} = n.P$, then $P \in R_{n}[X_{1},...,X_{q}]$.
+If $R$ is a commutative rig and if $P \in R_{n}[X_{1},...,X_{q}]$ then $\underset{1 \le k \le q}{\sum} \frac{\partial P}{\partial X_{k}}X_{k} = n.P$. Reciprocally, if $R$ is a commutative [[multiplicatively cancellable rig]], if $P \in R[X_{1},...,X_{q}]$ and $\underset{1 \le k \le q}{\sum} \frac{\partial P}{\partial X_{k}}X_{k} = n.P$, then $P \in R_{n}[X_{1},...,X_{q}]$.
 \end{theorem}
 
 \begin{proof}
