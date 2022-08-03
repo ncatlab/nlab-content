@@ -110,6 +110,11 @@ Is there a general theory of bases?  That\'s a good question.  I don\'t know!
 
 Obviously this has something to do with [[Moore closures]] (and hence [[monads]]); generating a structure from a subbase is (often) taking a Moore closure.  But there\'s some particular property of some closure operators that makes the intermediate concept of base work out.
 
+## References
+
+This paper discusses bases in the generality of algebras over a monad:
+
+* [[Stefan Zetzsche1]], [[Alexandra Silva1]], [[Matteo Sammartino]]: _Generators and bases for algebras over a monad_ (2020), ([arXiv:010.10223](https://arxiv.org/abs/2010.10223))
 
 [[!redirects base]]
 [[!redirects subbase]]
