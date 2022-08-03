@@ -9,13 +9,13 @@
 =--
 =--
 
-#Rigs and semirings#
+#Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A __rig__ is a [[ring]] 'without negatives' (hence the missing 'n' in the name, get it?).  Rigs are commonly also called __semirings__, but by analogy with [[semigroup]] it would be more appropriate to use that word for a ring having neither negatives nor even zero, so that is what we will do here.
+A __rig__ is a [[ring]] 'without negatives' (hence the missing 'n' in the name, get it?).  Rigs are commonly also called __[[semirings]]__, but by analogy with [[semigroup]] it would be more appropriate to use that word for a ring having neither negatives nor even zero, so that is what we will do here.
 
 ## Definition
 
@@ -64,6 +64,8 @@ Some rigs which are neither rings nor distributive lattices include:
 
 ## Related concepts
 
+* [[semiring]]
+
 * [[rng]] ([[nonunital ring]])
 
 * [[ring]], [[near-ring]]
@@ -96,10 +98,4 @@ Some rigs which are neither rings nor distributive lattices include:
 
 
 [[!redirects rigs]]
-
-[[!redirects semiring]]
-[[!redirects semirings]]
-
-[[!redirects semi-ring]]
-[[!redirects semi-rings]]
 
