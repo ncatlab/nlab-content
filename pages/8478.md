@@ -93,7 +93,7 @@ $$
   (\Gamma_1 \vdash \Delta_1), \cdots, (\Gamma_n \vdash \Delta_n)
 $$
 
-and if these are read [[disjunction|disjunctively]] it is like a higher-order sequent without [[antecedent]] and called a **hypersequent**.
+and if these are read [[disjunction|disjunctively]] it is like a higher-order sequent without [[antecedent]] and called a *[[hypersequent]]*.
 
 Rules for formal manipulation of sequents are called _[[sequent calculi]]_ or _[[deduction calculi]]_. See there for more details.
 
