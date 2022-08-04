@@ -1,5 +1,6 @@
 
-Severin Bunk is working on higher structures in geometry and topology, field theories and [[mathematical physics]], currently at the University of Oxford.
+Severin Bunk is working on [[higher structures]] in geometry and topology, field theories and [[mathematical physics]], currently at the University of Oxford.
+
 
 * [website](http://people.maths.ox.ac.uk/bunk/)
 
