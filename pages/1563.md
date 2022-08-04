@@ -213,7 +213,7 @@ Lecture notes University of Chicago 1975.
 
   (a proposal for a general axiomatization of [[homotopy]]/[[homology]]-like "[[extensive]] quantities" and [[cohomology]]-like "[[intensive]] quantities")
 
-* _State Categories, Closed Categories, and the Existence Semi-Continuous Entropy Functions_ , IMA reprint 86, 1984 ([pdf](http://www.ima.umn.edu/preprints/pp1984/86s.pdf))
+* _State Categories, Closed Categories, and the Existence Semi-Continuous Entropy Functions_ , IMA reprint 86, 1984 ([pdf](https://conservancy.umn.edu/bitstream/handle/11299/4672/86s.pdf?sequence=1&isAllowed=y))
 
 * _Functional Remarks on the General Concept of Chaos_ , IMA reprint 87, 1984 ([pdf](http://www.ima.umn.edu/sites/default/files/87s.pdf))
 
