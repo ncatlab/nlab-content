@@ -15,14 +15,18 @@
 
 ## Idea
 
-A __rig__ is a [[ring]] 'without negatives' (hence the missing 'n' in the name, get it?).  Rigs are commonly also called __[[semirings]]__, but by analogy with [[semigroup]] it would be more appropriate to use that word for a ring having neither negatives nor even zero, so that is what we will do here.
+A __rig__ is a [[ring]] 'without negatives' (hence the missing 'n' in the name, get it?).  
+
+## Rigs and semirings
+
+Rigs are commonly also called _semirings_, but the term 'semiring' is overloaded in the mathematics literature, with different authors each defining a semiring to be different algebraic structures from each other. See [[semiring]] for a discussion about the various definitions of semirings; only one of the proposed definitions is the same as the rig definition. 
 
 ## Definition
 
 A _rig_ is a [[set]] $R$ with binary operations of addition and multiplication, such that
 
 * $R$ is a [[monoid]] under multiplication;
-* $R$ is an [[abelian monoid]] (for a rig) or an abelian [[semigroup]] (for a semiring) under addition;
+* $R$ is an [[commutative monoid]] 
 * multiplication distributes over addition, i.e. the distributivity laws hold:
   $$x\cdot (y+z) = (x\cdot y) + (x\cdot z)$$
   $$(y+z)\cdot x = (y\cdot x) + (z\cdot x)$$
@@ -31,9 +35,9 @@ A _rig_ is a [[set]] $R$ with binary operations of addition and multiplication, 
 
 In a ring, absorption follows from distributivity, since $0\cdot x + 0\cdot x = (0+0)\cdot x = 0\cdot x$ and we can cancel one copy to obtain $0\cdot x = 0$.  In a [[rig]], however, we have to assert absorption separately.
 
-More sophisticatedly, we can say that, just as a ring is a [[monoid object]] in [[abelian group]]s, so a rig is a monoid object in [[abelian monoid]]s and a semiring is a monoid object in abelian [[semigroup]]s, where abelian groups, abelian monoids and abelian semigroups have suitable monoidal structures (they are not the cartesian ones).
+More sophisticatedly, we can say that, just as a ring is a [[monoid object]] in [[abelian group]]s, so a rig is a monoid object in [[commutative monoid]]s, where abelian groups and commitative monoids have suitable monoidal structures (they are not the cartesian ones).
 
-Equivalently, a semiring is the [[hom-set]] of a category with a single object that is [[enriched category|enriched]] in the category of abelian [[semigroup]]s.
+Equivalently, a rig is the [[hom-set]] of a category with a single object that is [[enriched category|enriched]] in the category of [[commutative monoids]].
 
 ### Further weakening
 
