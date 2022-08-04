@@ -30,7 +30,7 @@ that is associative and unital up to natural isomorphism with respect to $\otime
 
 For any [[category]] $A$, the category of [[endofunctors]] $End(A)$ is [[monoidal category|monoidal]] with respect to the (horizontal) composition (the composition of functors and the [[Godement product]] for natural transformations).
 
-Given a [[monoidal category]] $(C,\otimes,I,l,r,a)$ a (left or right) __$C$-actegory__ is a category $A$ together with a (left or right) coherent action of $C$ on $A$. Depending on an author and context, the left coherent action of $C$ on $A$ is a morphism of monoidal categories $C\to End(A)$ in the lax, colax, pseudo or strict sense (most often in pseudo-sense) or, in another terminology, a monoidal, comonoidal, strong monoidal or strict [[monoidal functor]]. Right coherent actions correspond to the monoidal functors into the category $End(A)$ with the opposite tensor product. 
+Given a [[monoidal category]] $(C,\otimes,I,l,r,a)$ a (left or right) __$C$-actegory__ is a category $A$ together with a (left or right) coherent action of $C$ on $A$. Depending on author and context, the left coherent action of $C$ on $A$ is a morphism of monoidal categories $C\to End(A)$ in the lax, colax, pseudo or strict sense (most often in pseudo-sense) or, in another terminology, a monoidal, comonoidal, strong monoidal or strict [[monoidal functor]]. Right coherent actions correspond to the monoidal functors into the category $End(A)$ with the opposite tensor product. 
 
 $C$-actegories, colax $C$-equivariant functors and natural transformations of colax $C$-equivariant functors form a [[strict 2-category]] $_C Act^c$. A [[monad]] in $_C Act^c$ amounts to a pair of a monad in $Cat$ and a [[distributive law]] between the monad and an action of $C$. 
 
