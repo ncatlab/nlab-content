@@ -35,7 +35,7 @@ Mathematics in synthetic guarded domain theory can be formalized in the [[intern
 
 ## Models
 
-The most basic model of SGDT is given by the [[topos of trees]], the [[category of presheaves]] on $\omega$, the first infinite [[ordinal]]. The [[topos of trees]] establishes the relationship between synthetic guarded domain theory and metric domain theory: the category of complete bounded ultrametric spaces embeds into the topos of trees as the full subcategory spanned by [[flabby sheaf | flabby sheaves]].
+The most basic model of SGDT is given by the [[topos of trees]], the [[category of presheaves]] on $\omega$, the first infinite [[ordinal]]. The [[topos of trees]] establishes the relationship between synthetic guarded domain theory and metric domain theory: the category of [[complete space|complete]], bisected, [[metric space|ultrametric spaces]] embeds into the topos of trees as the full subcategory spanned by [[flabby objects]] ([Proposition 5.1](#BMSS2012), there called "total" objects).
 
 
 ## Related pages
@@ -45,7 +45,7 @@ The most basic model of SGDT is given by the [[topos of trees]], the [[category 
 
 ## References
 
-* [[Lars Birkedal]], Rasmus Ejlers Møgelberg, Jan Schwinghammer, Kristian Støvring, _First steps in synthetic guarded domain theory: step-indexing in the topos of trees_.  Logical Methods in Computer Science **8** 4 (2012)   &lbrack;<a href="https://doi.org/10.2168/LMCS-8(4:1)2012">doi:10.2168/LMCS-8(4:1)2012</a>&rbrack;
+* {#BMSS2012} [[Lars Birkedal]], Rasmus Ejlers Møgelberg, Jan Schwinghammer, Kristian Støvring, _First steps in synthetic guarded domain theory: step-indexing in the topos of trees_.  Logical Methods in Computer Science **8** 4 (2012)   &lbrack;<a href="https://doi.org/10.2168/LMCS-8(4:1)2012">doi:10.2168/LMCS-8(4:1)2012</a>&rbrack;
 
 * {#BGCMB2016} Aleš Bizjak, Hans Bugge Grathwohl, Ranald Clouston, Rasmus E. Møgelberg, Lars Birkedal. _Guarded Dependent Type Theory with Coinductive Types_. FoSSaCS 2016 ([doi](https://doi.org/10.1007/978-3-662-49630-5_2))
 
