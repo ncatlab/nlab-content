@@ -29,6 +29,8 @@ However, more recently, rings have been defined with multiplicative units, and t
 
 Moreover, some mathematicians argue that semiring should be used in analogy to semigroup, where semirings do not have additive identity elements, and semirings with 0 are instead called [[rigs]], resulting in the first and second definitions of a semiring respectively. 
 
+The first definition is the most general of the four definitions of a semiring, and some authors use it precisely because of its generality. 
+
 The nLab uses the second definition to define a semiring, and the fourth definition to define a [[rig]]. The first and third are then called nonunital semirings and nonunital rigs respectively. 
 
 ## See also
