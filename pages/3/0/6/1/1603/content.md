@@ -141,6 +141,8 @@ This shows $T Q$ is isomorphic to the product bundle $Q \times V$.
 
 * [[loop (algebra)]], [[Moufang loop]]
 
+* [[n-ary quasigroup]]
+
 [[!include oidification - table]]
 
 ## Literature
