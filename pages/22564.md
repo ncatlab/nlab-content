@@ -32,6 +32,8 @@ $$
 
 from the $n$th [[cartesian power]] $S^n$ of $S$ to $S$ itself, where [n] is a set with $n$ elements. The __arity__ of the operation is $n$.
 
+Sets with $n$-ary operations are called **$n$-ary magmas** or **$n$-ary groupoids**. 
+
 More generally, an n-ary operation in a [[multicategory]] is just a [[multimorphism]]. 
 
 ## Properties
@@ -65,6 +67,22 @@ where $ S \overset{diag_n}{\longrightarrow} S^n$ is the [[diagonal morphism]].
 
 * [[multicategory]]
 
-[[!redirects n-ary operation]]
+### $n$-ary algebraic structures
 
+* [[n-ary semigroup]]
+
+* [[n-ary quasigroup]]
+
+* [[n-ary group]]
+
+* [[group]]
+
+## References
+
+* Wikipedia, [n-ary group](https://en.wikipedia.org/wiki/N-ary_group)
+
+[[!redirects n-ary operation]]
 [[!redirects n-ary operations]]
+
+[[!redirects n-ary magma]]
+[[!redirects n-ary magmas]]
