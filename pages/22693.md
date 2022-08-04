@@ -114,10 +114,15 @@ Every associative quasigroup $G$ and associative subquasigroup $H \hookrightarro
 
 * [[group]]
 
+* [[n-ary group]]
+
 [[!include oidification - table]]
 
 ## References
 
 * [The Group With No Elements](https://golem.ph.utexas.edu/category/2020/08/the_group_with_no_elements.html#c059798) at the [n-category café](https://golem.ph.utexas.edu/category/)
 
+[[!redirects associative quasigroups]]
+
 [[!redirects possibly empty group]]
+[[!redirects possibly empty groups]]
