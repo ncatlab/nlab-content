@@ -17,20 +17,20 @@ Let $\mathbf J, \mathbf C$ be categories and $J: \mathbf J \to \mathbf C$ be a f
 \label{def}
 A **relative monad $T$ on $J$** is a functor $T:\mathbf J \to \mathbf C$ equipped with
 
-* a _unit_ $\eta_X : JX \to TX$ natural in $X : \mathbf J$,
-* a _Kleisli extension_ $(-)^* : \mathbf C(JX, TY) \to \mathbf C(TX, TY)$ in both $X,Y:\mathbf J$
+* a _unit_ $\eta_X : J X \to T X$ natural in $X : \mathbf J$,
+* a _Kleisli extension_ $(-)^* : \mathbf C(J X, T Y) \to \mathbf C(T X, T Y)$ in both $X,Y:\mathbf J$
 
-such that for every $X,Y,Z:\mathbf J$ and $k:JX \to TY$,
+such that for every $X,Y,Z:\mathbf J$ and $k:J X \to T Y$,
 
 * _(left unital law)_ $k = k^* \circ \eta_X$,
-* _(right unital law)_ $\eta_X^* = 1_{TX}$,
-* _(associativity law)_ $(\ell^* \circ k)^* = \ell^* \circ k^*$ for every $\ell : JY \to TZ$.
+* _(right unital law)_ $\eta_X^* = 1_{T X}$,
+* _(associativity law)_ $(\ell^* \circ k)^* = \ell^* \circ k^*$ for every $\ell : J Y \to T Z$.
 
 \end{definition}
 
 Notice that for any $f:X \to Y$ in $\mathbf J$, one has
 \[
-    Tf = (\eta_{JY} \circ Jf)^*.
+    Tf = (\eta_{J Y} \circ J f)^*.
 \]
 
 In computer science, monads are usually defined by a unit and an extension operator, as above, so that relative monads are very close to plain monads in that regard. Since $[\mathbf J, \mathbf C]$ lacks a monoidal structure (unlike $[\mathbf C, \mathbf C]$), to define relative monads like mathematicians define monads (as monoids in a category of endofunctors) we need to be more clever.
