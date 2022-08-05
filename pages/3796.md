@@ -11,4 +11,4 @@ It seems that the vision of this program fits well with [[nPOV]]. See also [[D-g
 
 A short but quite complete overview of algebraic analysis can be found in:
 
-* [[Pierre Schapira]] Triangulated categories for the analysts. In "Triangulated categories" London Math. Soc. LNS 375 Cambridge University Press, pp 371-389 (2010) [pdf](http://people.math.jussieu.fr/~schapira/respapers/Tricat.pdf);
+* [[Pierre Schapira]] Triangulated categories for the analysts. In "Triangulated categories" London Math. Soc. LNS 375 Cambridge University Press, pp 371-389 (2010) [pdf](https://webusers.imj-prg.fr/~pierre.schapira/ResPapers/Tricat.pdf);
