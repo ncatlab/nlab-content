@@ -28,7 +28,7 @@ The conditions to be verified are:
 ## References
 
 * Wikipedia, _[Coherent space](http://en.wikipedia.org/wiki/Coherent_space)_
-* LLwiki, [Coherent semantics](http://llwiki.ens-lyon.fr/mediawiki/index.php/Coherent_semantics)
+* LLwiki, _[Coherent semantics](http://llwiki.ens-lyon.fr/mediawiki/index.php/Coherent_semantics)_
 
 [[!redirects coherence space]]
 [[!redirects coherence spaces]]
