@@ -69,7 +69,7 @@ This page lists [[counterexamples]] in [[algebra]].
 
    Matrices of the form $\begin{bmatrix} a & b \\ 0 & c \end{bmatrix}$ where $a \in \mathbb{Z}$ and $b,c \in \mathbb{Q}$.
 
-1. A ring that is local commutative Noetherian but not Cohen-Macaulay
+1. A ring that is local commutative Noetherian but is not a [[Cohen-Macaulay ring]].
 
    $$
    k[x,y]/(x^2, x y)
