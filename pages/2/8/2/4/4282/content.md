@@ -15,21 +15,11 @@
 
 ## Idea
 
-A __$*$-algebra__ is an [[algebra]] $A$ ([[associative algebra|associative]] or [[nonassociative algebra|non-associative]])  equipped with an [[anti-involution]]:
+A __$*$-algebra__ is an [[algebra]] $A$ ([[associative algebra|associative]] or [[nonassociative algebra|non-associative]]) equipped with an [[anti-involution]] $(-)^\ast:A \to A$ such that 
 
-$$
-  (-)^\ast \;\colon\; A \longrightarrow A
-  \;\;\;\;
-  \text{s.t.}
-  \;\;\;\;
-  \underset{a,b \in A}{\forall} \; 
-  (a b)^\ast \;=\; b^\ast a^\ast
-  \,,
-  \;\;\;\;\;\;
-  \underset{a \in A}{\forall} \; \left((a)^\ast\right)^\ast \;=\; a
-  \,.
-$$
+* for all elements $a \in A$ and $b \in A$, $(a b)^\ast = b^\ast a^\ast$
 
+* for all elements $a \in A$, $(a^\ast)^\ast = a$
 
 ## Definition
 
