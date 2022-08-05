@@ -118,6 +118,12 @@ To be written, possibly with some original research.
 
 ## References 
 
+For a treatment of the category of matroids and strong maps, see
+
+* [[Chris Heunen]], Vaia Patta, _The category of matroids_ ([arXiv:1512.01390](https://arxiv.org/abs/1512.01390))
+
+Other references
+
 * wikipedia [matroid](http://en.wikipedia.org/wiki/Matroid), [Mn&#235;v's universality theorem](http://en.wikipedia.org/wiki/Mnev%27s_universality_theorem), [oriented matroid](http://en.wikipedia.org/wiki/Oriented_matroid)
 * Hassler Whitney, _On the abstract properties of linear dependence_, American Journal of Mathematics (The Johns Hopkins University Press) 57 (3): 509&#8211;533, 1935, [jstor](http://jstor.org/stable/2371182), [MR1507091](http://www.ams.org/mathscinet-getitem?mr=1507091)
 * J. Oxley, _What is a matroid_, [pdf](http://www.math.lsu.edu/~oxley/survey4.pdf)
