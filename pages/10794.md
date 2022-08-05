@@ -1,3 +1,7 @@
+> Not to be confused with the notion of [[coherence space]] in models of [[linear logic]].
+
+***
+
 #Contents#
 * table of contents
 {:toc}
