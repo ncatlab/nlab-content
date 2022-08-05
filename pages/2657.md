@@ -101,7 +101,6 @@ Discussions of Hodge theory in relation to [[motives]] can be found in:
 
 General references on nonabelian Hodge theory include:
 
-* [[Ron Donagi]], [[Tony Pantev]], _Lectures on the geometric Langlands
-conjecture and non-abelian Hodge theory_, 2009 ([pdf](http://www.icmat.es/seminarios/langlands/school/handouts/pantev.pdf))
+* [[Ron Donagi]], [[Tony Pantev]], _Lectures on the geometric Langlands conjecture and non-abelian Hodge theory_, 2009 ([pdf](http://www.icmat.es/seminarios/langlands/school/handouts/pantev.pdf))
 
 * [[Alberto García Raboso]], [[Steven Rayan]], _Introduction to Nonabelian Hodge Theory: flat connections, Higgs bundles, and complex variations of Hodge structure_,  Fields Inst. Monogr. 34 (2015), 131--171 ([arXiv](https://arxiv.org/abs/1406.1693)) ([Springer](http://link.springer.com/chapter/10.1007/978-1-4939-2830-9_5))
