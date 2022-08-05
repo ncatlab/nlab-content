@@ -45,6 +45,19 @@ Suppose $J:\mathbf J \to \mathbf C$ is such that $\mathrm{Lan}_J : [\mathbf J, \
 Then $[\mathbf J, \mathbf C]$ is skew-monoidal, with unit $J$ and product $F \circ^J G = (\mathrm{Lan}_J F) \circ G$, and a relative monad is a monoid in $([\mathbf J, \mathbf C], J, \circ^J)$.
 \end{theorem}
 
+When $J:\mathbf J \to \mathbf C$ is a free completion of $\mathbf{J}$ under colimits from some set $\mathcal{F}$ of indexing types, then this skew-monoidal structure on $[\mathbf J, \mathbf C]$ is properly monoidal, since it is equivalent to the $\mathcal{F}$-colimit preserving functors $\mathbf C\to\mathbf C$, and the monoidal structure is just functor composition. 
+
+## Examples
+
+* A relative monad on the embedding $J:\mathbf{FinSet} \to \mathbf {Set}$ is the same thing as an [[abstract clone]]. These are equivalent to [[finitary monads]] and single-sorted [[algebraic theories]]. 
+
+* Any monad $T$ on $\mathbf{C}$ induces a relative monad $TJ$ on $J$, for any $J:\mathbf{J}\to \mathbf{C}$. 
+
+* Fixing a category $\mathbb{V}$ with finite products, to give a [[Freyd category]] is to give a strong relative monad on the [[Yoneda embedding]] $\mathbb{V}\to [\mathbb{V}^{\mathrm{op}},\mathbf{Set}]$. 
+
+* The presheaf construction $(\mathbb{C}\mapsto [{\mathbb{C}}^{\mathrm{op}},\mathbf{Set}])$ can be regarded as a (2-) monad relative to the inclusion $\mathbf{Cat}\to \mathbf{CAT}$. (See also [[Yoneda structures]].)
+
+* A [[monad with arities|monad on $\mathbf C$ with arities in $\mathbf{J}\subseteq \mathbf C$]] is the same thing as a relative monad for the embedding $\mathbf{J}\to \mathbf C$. (Here $\mathbf{J}\subseteq \mathbf{C}$ is required to be a [[dense subcategory]], so that to give a functor $\mathbf{J}\subseteq \mathbf{C}$ is to give a functor $\mathbf{C}\to\mathbf{C}$ preserving $J$-absolute colimits.)
 
 ## Related pages
 
