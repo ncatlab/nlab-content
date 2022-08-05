@@ -1,3 +1,6 @@
+> Not to be confused with the notion of [[coherent space]] in [[topology]].
+
+***
 
 * table of contents
 {:toc}
