@@ -15,7 +15,7 @@
 
 ## Definition
 
-The **[[topos]] of trees** is the category of [[presheaves]] over the [[ordinal]] of [[natural numbers]], $\omega$.
+The **[[topos]] of trees** is the category of [[presheaves]] over the [[ordinal]] of [[natural numbers]], $\omega$. More properly, this is the category of trees of  _height_ $\omega$, in that the supremum of the lengths of paths from the root (considered as ordinals) is $\omega$. These trees can, however, be arbitrarily branching at every level.
 
 An object is then a family of sets $X_i$ for each $i \in \omega$ with restriction functions $X_i \leftarrow X_{i+1}$. We can visualize this as a (potentially infinite) tree (really, forest) where an element of any $X_i$ is a node of the tree, and the restriction functions map each node to its parent node.
 
