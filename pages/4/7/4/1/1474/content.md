@@ -485,7 +485,7 @@ See also
 
 A detailed discussion of Hausdorff reflection is in 
 
-* {#vanMunster14} Bart van Munster, _The Hausdorff quotient_, 2014 ([pdf](https://www.math.leidenuniv.nl/scripties/BachVanMunster.pdf))
+* {#vanMunster14} Bart van Munster, _The Hausdorff quotient_, 2014 ([pdf](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.728.5810))
 
 On epimorphisms of Hausdorff spaces:
 
