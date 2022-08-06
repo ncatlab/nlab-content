@@ -3,6 +3,10 @@
 * table of contents
 {:toc}
 
+## Idea
+
+The Newman lemma is a useful result to prove good properties of a [[rewriting system]]. At the best, a rewriting system is [[strongly normalizing]] and [[confluent]]. The lemma allows to verify only the weaker property of [[local confluence]], once we have first proved the [[strong normalization]], in the case where the rewriting system possesses these two good properties.
+
 ## Statement
 
 Let $(X,\rightarrow)$ be an abstract [[rewriting system]] ie. a [[set]] equipped with a [[binary relation]] $\rightarrow$. The Newman lemma asserts that:
