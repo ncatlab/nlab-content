@@ -48,7 +48,7 @@ In this case, we may consider instead classes $\mathcal{J}$ of small categories;
 
 Note that in practically all cases, the saturation of $\Delta_{\mathcal{J}}$ will contain weights that are not of the form $\Delta_D 1$.  Moreover, even when $V=Set$ there are nontrivial saturated classes of *weights* that do not contain any nontrivial *conical* weights, such as the saturation of the weight for "cartesian squares" $A\times A$.
 
-However, for conical weights the answer to the above open question is known to be affirmative.  On the one hand, if $\mathcal{X}$ is a class of $Set$-weights such that every $\mathcal{X}$-complete category is also $\Delta_D 1$-complete, then every $\mathcal{X}$-continuous funtor is also $\Delta_D 1$-continuous.  See [AK](#AK) for a proof of this.
+However, for conical weights the answer to the above open question is known to be affirmative.  On the one hand, if $\mathcal{X}$ is a class of $Set$-weights such that every $\mathcal{X}$-complete category is also $\Delta_D 1$-complete, then every $\mathcal{X}$-continuous functor is also $\Delta_D 1$-continuous.  See [AK](#AK) for a proof of this.
 
 On the other hand, if $\mathcal{J}$ is a class of $Set$-categories and $\Phi$ is a $Set$-weight such that every $\Delta_{\mathcal{J}}$-complete category is also $\Phi$-complete, then every $\Delta_{\mathcal{J}}$-continuous functor is also $\Phi$-continuous.  In fact, this is still true if instead of $\Delta_{\mathcal{J}}$ we consider a class of weights all of which take only nonempty sets as values.  See [KP](#KP) for a proof of this.
 
