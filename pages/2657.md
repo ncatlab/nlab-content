@@ -19,10 +19,9 @@
 
 ## Overview
 
-_Hodge theory_ is the study of properties of (complex, rational and integer) [[cohomology]] (and [[motives]]) of [[Kähler manifolds]], induced by a [[Hodge filtration]] -- given in the classical situation by [[harmonic differential forms]] --  and the corresponding [[Hodge theorem]].
+_Hodge theory_ is the study of properties of (complex, rational and integer) [[cohomology]] (and [[motives]]) of [[Kähler manifolds]], induced by a [[Hodge filtration]] -- given in the classical situation by [[harmonic differential forms]] --  and the corresponding [[Hodge theorem]]. Hodge theory also applies in [[combinatorics]], for instance to [[matroids]] ([Huh 22](#Huh22)).
 
 Central aspects of the theory include Hodge decomposition, [[hard Lefschetz theorem]], [[pure Hodge structures]], [[mixed Hodge structures]], [[variations of Hodge structure]], [[Hodge to de Rham spectral sequence]], [[periods]]... This basic setup is however by now vastly generalized. 
-
 
 The nomenclature "nonabelian"/"noncommutative" Hodge theory may be confusing - to clarify:
 
@@ -104,3 +103,8 @@ General references on nonabelian Hodge theory include:
 * [[Ron Donagi]], [[Tony Pantev]], _Lectures on the geometric Langlands conjecture and non-abelian Hodge theory_, 2009 ([pdf](http://www.icmat.es/seminarios/langlands/school/handouts/pantev.pdf))
 
 * [[Alberto García Raboso]], [[Steven Rayan]], _Introduction to Nonabelian Hodge Theory: flat connections, Higgs bundles, and complex variations of Hodge structure_,  Fields Inst. Monogr. 34 (2015), 131--171 ([arXiv](https://arxiv.org/abs/1406.1693)) ([Springer](http://link.springer.com/chapter/10.1007/978-1-4939-2830-9_5))
+
+### In [[combinatorics]]
+
+* {#Huh22} [[June Huh]], _Combinatorics and Hodge theory_ ([pdf](https://www.mathunion.org/fileadmin/IMU/Prizes/Fields/2022/jh.pdf))
+
