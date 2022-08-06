@@ -169,6 +169,9 @@ On [[Hodge theory]] and [[intersection cohomology]] of matroids:
 * {#Huh22} [[June Huh]], _Combinatorics and Hodge theory_, Proc. Int. Cong. Math. **1** (2022)
  &lbrack;[doi:10.4171/ICM2022/205](), [pdf](https://www.mathunion.org/fileadmin/IMU/Prizes/Fields/2022/jh.pdf), [[Huh-CombinatoricsAndHodgeTheory.pdf:file]]&rbrack;
 
+On the axiomatization of [[infinite set|infinite]] matroids:
+
+* [[Henning Bruhn]], [[Reinhard Diestel]], [[Matthias Kriesell]], [[Rudi Pendavingh]], [[Paul Wollan]], *Axioms for infinite matroids*, Advances in Mathematics, **239** (2013) 18–46 &lbrack;[arXiv:1003.3919](https://arxiv.org/abs/1003.3919), [doi:10.1016/j.aim.2013.01.011](https://doi.org/10.1016/j.aim.2013.01.011)&rbrack;
 
 Further references:
 
