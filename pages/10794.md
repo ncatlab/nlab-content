@@ -1,4 +1,4 @@
-> Not to be confused with the notion of [[coherence space]] in models of [[linear logic]].
+> Not to be confused with the notion of *[[coherence space]]* in [[models]] of [[linear logic]].
 
 ***
 
