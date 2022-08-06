@@ -16,7 +16,7 @@
 
 ## Idea
 
-The notion of **final $(\infty,1)$-functor** (also called a **cofinal $(\infty,1)$-functor**) is the generalization of the notion of [[final functor]] from [[category theory]] to [[(∞,1)-category]]-theory.
+The notion of **final $(\infty,1)$-functor** (also called a **cofinal $(\infty,1)$-functor**) is the [[vertical categorification]] of the notion of [[final functor]] from [[category theory]] to [[(∞,1)-category]]-theory.
 
 An [[(∞,1)-functor]] $p : K' \to K$ is final precisely if precomposition with $p$ preserves [[(∞,1)-colimit]]: 
 if $p$ is final then for $F : K \to C$ any [[(∞,1)-functor]] we have
