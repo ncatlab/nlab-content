@@ -180,6 +180,9 @@ Textbooks on mathematical logic:
 
 * {#BellMach77} [[John Lane Bell]], M. Machover, _A Course in Mathematical Logic_, North-Holland Amsterdam 1977. (ch. 10,&#167;5) ([ISBN:9780720428445](https://www.elsevier.com/books/a-course-in-mathematical-logic/bell/978-0-7204-2844-5))
 
+* {#Girard89} [[Jean-Yves Girard]] (translated and with appendiced by [[Paul Taylor]] and [[Yves Lafont]]), *Proofs and Types*, Cambridge University Press (1989) &lbrack;[ISBN:978-0-521-37181-0](), [webpage](http://www.paultaylor.eu/stable/Proofs+Types.html), [pdf](https://www.paultaylor.eu/stable/prot.pdf)&rbrack;
+
+
 * [[Open Logic Project]], _The open logic text_ ([pdf](http://people.ucalgary.ca/~rzach/static/open-logic/open-logic-complete.pdf))
 
 ### On categorical logic
