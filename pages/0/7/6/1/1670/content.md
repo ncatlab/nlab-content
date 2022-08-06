@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Moore closures
 * table of contents
 {: toc}
@@ -96,15 +97,17 @@ Moore closures on $X$ are precisely [[monads]] on  the [[subobject lattice]] $\m
 
 
 ## Examples
+ {#Examples}
 
-What are examples?  Better to ask what *isn\'t* an example!  (Answer: preclosure in a [[pretopological space]], even though some authors call this 'closure'.)
-
-Of course, the [[closed subsets]] in a [[topological space]] form a Moore collection; then the closure of a set $A$ is its closure in the usual sense.  In fact, a topological space can be *defined* as a set equipped with a Moore closure with either of these additional properties (which are equivalent):
+The [[closed subsets]] in a [[topological space]] form a Moore collection; here the closure of a set $A$ is its closure in the usual sense.  In fact, a topological space can be *defined* as a set equipped with a Moore closure with either of these additional properties (which are equivalent):
 
 *  $Cl(\empty) = \empty$ and $Cl(A \cup B) = Cl(A) \cup Cl(B)$.
 *  $\empty$ is closed, and so is $A \cup B$ if $A$ and $B$ are closed.
 
 (However, these properties may fail in [[constructive mathematics]]; in fact, a topology cannot be constructively recovered from its closure operation.)
+
+Notice that a preclosure in a [[pretopological space]], is not a closure in the above sense, even though some authors do call this 'closure'.
+
 
 Here are some algebraic examples:
 
@@ -151,14 +154,20 @@ The definition of Moore collection really makes sense in any [[inflattice]]; eve
 
 Since Galois connections are simply [[adjunction]]s between posets, the concept of Moore closure cries out for [[categorification]].  And in fact, the answer is well known in category theory: it is a [[monad]].
 
+## Related conceots
+
+* [[matroid]]
+
+* [[modal operator]], [[modality]]
+
+* [[modal logic]], [[modal type theory]], [[modal homotopy type theory]]
+
 
 ## References
 
-Section 4.1--4.12 in
+*  Erich Schechter, Section 4.1-4.12 in: *[[Handbook of Analysis and its Foundations]]*
 
-*  Erich Schechter, _[[Handbook of Analysis and its Foundations]]_
-
-See also
+See also:
 
 * Wikipedia, _[Closure operator](http://en.wikipedia.org/wiki/Closure_operator)_
 
