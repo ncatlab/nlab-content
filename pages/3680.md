@@ -9,17 +9,16 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The notion of **final $(\infty,1)$-functor** (also called a **cofinal $(\infty,1)$-functor**) is the [[vertical categorification]] of the notion of [[final functor]] from [[category theory]] to [[(∞,1)-category]]-theory.
+The notion of **final $(\infty,1)$-functor** (also called a *cofinal $(\infty,1)$-functor*, but see Rem \ref{CofinalTerminologyWarning}) is the [[vertical categorification]] of the notion of *[[final functor]]* from [[category theory]] to [[(∞,1)-category]]-theory:
 
-An [[(∞,1)-functor]] $p : K' \to K$ is final precisely if precomposition with $p$ preserves [[(∞,1)-colimit]]: 
-if $p$ is final then for $F : K \to C$ any [[(∞,1)-functor]] we have
+An [[(∞,1)-functor]] $p \colon K' \to K$ is final precisely if precomposition with $p$ [[preserved colimit|preserves]] [[(∞,1)-colimits]]: 
+if $p$ is final then for $F \colon K \to C$ any [[(∞,1)-functor]] we have
 $$
   \lim_\to (K \stackrel{F}{\to} C)
   \simeq
@@ -46,19 +45,20 @@ A mnemonic rule for this terminology is that [[final objects]] are picked out by
 
 * [[Lurie]]'s [[Kerodon]]: colimit-preserving: _right cofinal_ ([Tag 02N1](https://kerodon.net/tag/02N1)); limit-preserving: _left cofinal_.
 
-## Warning
-
-The term “cofinal (∞,1)-functor” can mean either a functor for which the precomposition functor preserves colimits (in Lurie's [[Higher Topos Theory]]) or limits (in Cisinski's [[Higher Categories and Homotopical Algebra]]).
+\begin{remark}\label{CofinalTerminologyWarning}
+Beware that
+the term “cofinal (∞,1)-functor” can mean either a functor for which the precomposition functor preserves colimits (as in Lurie's *[[Higher Topos Theory]]*) or limits (as in Cisinski's *[[Higher Categories and Homotopical Algebra]]*).
 
 Given that the two main sources for [[quasicategories]] assign opposite meanings to this term, it is best to avoid its usage altogether.
 
 Further adding to the confusion is that some sources, like Borceux's [[Handbook of Categorical Algebra]] use the term “final functor” for a functor for which the precomposition functor preserves limits, in contrast to the majority of the literature.
 Such usage, fortunately, is marginal.
 
-See also the warning in the article [[final functor]].
+See also the warning in the article *[[final functor]]*.
 
 In [[Kerodon]], final (∞,1)-functors are referred to as _right cofinal functors_.
 Likewise, [[initial (∞,1)-functors]] are known as _left cofinal functors_.
+\end{remark}
 
 ## Definition
 
