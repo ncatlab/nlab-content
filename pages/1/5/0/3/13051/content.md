@@ -62,7 +62,10 @@ The hard Leftschetz theorem also applies to other objects, for instance, to [[ma
 * MO discussion _[Intuition for primitive cohomology](http://mathoverflow.net/a/14727/381)_
 [[!redirects Lefschetz decompositions]]
 
-* {#Huh22} [[June Huh]], _Combinatorics and Hodge theory_ ([pdf](https://www.mathunion.org/fileadmin/IMU/Prizes/Fields/2022/jh.pdf))
+In the generality of [[matroids]]:
+
+* {#Huh22} [[June Huh]], _Combinatorics and Hodge theory_, Proc. Int. Cong. Math. **1** (2022)
+ &lbrack;[doi:10.4171/ICM2022/205](), [pdf](https://www.mathunion.org/fileadmin/IMU/Prizes/Fields/2022/jh.pdf), [[Huh-CombinatoricsAndHodgeTheory.pdf:file]]&rbrack;
 
 [[!redirects Lefschetz operator]]
 [[!redirects Lefschetz operators]]
