@@ -223,6 +223,8 @@ This observation may be exploited in various neat ways. One is that if $p(x)$ is
 
 * [[monic polynomial]]
 
+* [[Lorentzian polynomial]]
+
 * [[tensor algebra]]
 
 * [[affine line]], [[affine space]]
