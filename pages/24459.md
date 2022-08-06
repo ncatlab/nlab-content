@@ -1,4 +1,10 @@
+## Idea
+
 Cohen-Macaulay rings are an important class of commutative rings.
+
+## Definition
+
+A [[commutative ring]] is Cohen-Macaulay iff it is a [[Cohen-Macaulay module]] as a module on itself.
 
 ## References 
 
