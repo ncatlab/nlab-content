@@ -50,6 +50,8 @@ This exhibits the symmetry of the [[Hodge diamond]] under reflection about the h
 
 The hard Lefschetz theorem induces the _[[Lefschetz decomposition]]_ (see there) of the de Rham cohomology of $X$.
 
+The hard Leftschetz theorem also applies to other objects, for instance, to [[matroids]] (see [Huh 22](#Huh22)).
+
 ## References
 
 * {#Voisin02} [[Claire Voisin]], section 6 of _[[Hodge theory and Complex algebraic geometry]] I,II, Cambridge Stud. in Adv. Math. 76, 77, 2002/3
@@ -59,6 +61,8 @@ The hard Lefschetz theorem induces the _[[Lefschetz decomposition]]_ (see there)
 
 * MO discussion _[Intuition for primitive cohomology](http://mathoverflow.net/a/14727/381)_
 [[!redirects Lefschetz decompositions]]
+
+* {#Huh22} [[June Huh]], _Combinatorics and Hodge theory_ ([pdf](https://www.mathunion.org/fileadmin/IMU/Prizes/Fields/2022/jh.pdf))
 
 [[!redirects Lefschetz operator]]
 [[!redirects Lefschetz operators]]
