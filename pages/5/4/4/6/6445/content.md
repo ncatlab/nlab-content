@@ -22,7 +22,7 @@
 
 The concept of *matroid* ([Whitney 1935](#Whitney35)) is fundamental to [[combinatorics]], giving several different ways of encoding/defining and presenting a general notion of "independence", e.g., [[linearly independent subset|linear independence]] in a [[vector space]], algebraic independence in a [[field extension]], etc. 
 
-There is also a similar concept of an [[oriented matroid]]; every oriented matroid has an underlying matroid. 
+There is also a similar concept of an *[[oriented matroid]]*; every oriented matroid has an underlying matroid. 
 
 ## Definitions 
 
@@ -150,19 +150,29 @@ Mn&#235;v's universality theorem says that any [[semialgebraic set]] in $\mathbb
 (...)
 
 
+## Related concepts
+
+* [[oriented matroid]]
+
 ## References 
 
 The original article:
 
 * {#Whitney35} [[Hassler Whitney]], _On the abstract properties of linear dependence_, American Journal of Mathematics (The Johns Hopkins University Press) **57** 3  (1935) 509-533 &lbrack;[jstor:2371182](http://jstor.org/stable/2371182), [MR1507091](http://www.ams.org/mathscinet-getitem?mr=1507091)&rbrack;
 
-For a treatment of the category of matroids and strong maps, see
+On the [[category]] of matroids with *strong maps* between them:
 
-* [[Chris Heunen]], Vaia Patta, _The category of matroids_ ([arXiv:1512.01390](https://arxiv.org/abs/1512.01390))
+* [[Chris Heunen]], [[Vaia Patta]], *The category of matroids*, Applied Categorical Structures **26** (2018) 205–237 &lbrack;[arXiv:1512.01390](https://arxiv.org/abs/1512.01390), [doi:10.1007/s10485-017-9490-2](https://doi.org/10.1007/s10485-017-9490-2)&rbrack;
 
-Other references
+On [[Hodge theory]] and [[intersection cohomology]] of matroids:
 
-* wikipedia [matroid](http://en.wikipedia.org/wiki/Matroid), [Mn&#235;v's universality theorem](http://en.wikipedia.org/wiki/Mnev%27s_universality_theorem), [oriented matroid](http://en.wikipedia.org/wiki/Oriented_matroid)
+* {#Huh22} [[June Huh]], _Combinatorics and Hodge theory_, Proc. Int. Cong. Math. **1** (2022)
+ &lbrack;[doi:10.4171/ICM2022/205](), [pdf](https://www.mathunion.org/fileadmin/IMU/Prizes/Fields/2022/jh.pdf), [[Huh-CombinatoricsAndHodgeTheory.pdf:file]]&rbrack;
+
+
+Further references:
+
+* Wikipedia [matroid](http://en.wikipedia.org/wiki/Matroid), [Mn&#235;v's universality theorem](http://en.wikipedia.org/wiki/Mnev%27s_universality_theorem), [oriented matroid](http://en.wikipedia.org/wiki/Oriented_matroid)
 
 
 * J. Oxley, _What is a matroid_, [pdf](http://www.math.lsu.edu/~oxley/survey4.pdf)
