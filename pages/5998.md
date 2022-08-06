@@ -116,6 +116,11 @@ Most [[functional programming|functional]] [[programming language|programming la
 
 ## References
 
+Introduction to [[type theory|typed]] $\lambda$-calculus:
+
+* {#Girard89} [[Jean-Yves Girard]] (translated and with appendiced by [[Paul Taylor]] and [[Yves Lafont]]), *Proofs and Types*, Cambridge University Press (1989) &lbrack;[ISBN:978-0-521-37181-0](), [webpage](http://www.paultaylor.eu/stable/Proofs+Types.html), [pdf](https://www.paultaylor.eu/stable/prot.pdf)&rbrack;
+
+
 The idea that untyped lambda calculus can be modeled internally to a cartesian closed category as a [[reflexive object]] (an object $U$ such that the exponential $U^U$ is a [[retract]] of $U$) was formulated explicitly by [[Dana Scott]] in
 
 * Dana Scott. Relating theories of the $\lambda$-calculus. In _To H.B. Curry: Essays on Combinatory Logic, Lambda-Calculus and Formalism_ (eds. Hindley and Seldin), Academic Press, 403--450, 1980.
