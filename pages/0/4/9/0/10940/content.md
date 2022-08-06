@@ -2,7 +2,7 @@ Max Newman was one of the fathers of computer science, working at Manchester on 
 
 * [wikipedia page](http://en.wikipedia.org/wiki/Max_Newman)
 
-* [The Newmanry](http://en.wikipedia.org/wiki/Max_Newman)
+* [The Newmanry](https://en.wikipedia.org/wiki/Newmanry)
 
 
 ## Selected writings
