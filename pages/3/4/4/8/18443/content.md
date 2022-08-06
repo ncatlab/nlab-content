@@ -58,6 +58,17 @@ $$
 
 Where the last line reads in words "It is not provable that false is not provable." 
 
+## Guarded Recursion Variant
+
+A variant of the Löb axiom is used in [[guarded recursion]] and [[synthetic guarded domain theory]], which uses a modality $\blacktriangleright$, usually pronounced "later". Then the Löb induction axiom is for any proposition $P$,
+
+$$(\blacktriangleright P \to P) \to P$$
+
+In a setting with the principle of [[unique choice]], this can be used to prove the existence of all guarded [[fixed points]].
+
+Note that the assumptions about the later modality $\blacktriangleright$ are usually quite different from the provability modality $\Box$. For instance, $\Box$ is usually assumed to have some subset of the properties of a [[comonadic]] [[modality]], but $\blacktriangleright$ typically satisfies $P \to \blacktriangleright P$.
+
+
 ## Related concepts
 
 * [[fixed-point combinator]] 
@@ -98,3 +109,9 @@ See also
 
 [[!redirects Loeb axiom]]
 [[!redirects Loeb axioms]]
+
+
+[[!redirects Löb induction]]
+[[!redirects Löb induction]]
+[[!redirects Loeb induction]]
+[[!redirects Loeb induction]]
