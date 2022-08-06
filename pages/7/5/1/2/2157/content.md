@@ -130,7 +130,7 @@ However, we can also simplify the requisite axioms in this presentation.  The fo
   }
   $$
   The first is defined whenever $r\neq 1$, the second whenever $s\neq 1$, and the third whenever $t\neq 1$.  Since $k$ has characteristic $\neq 2$, we cannot have $r=s=t=1$ and $r+s+t=1$ at the same time, so at least one of these expressions is always defined.  We write $r x + s y + t z$ for the common value of whichever of them are defined.
-* Cancellation: for any $r\in k$ and $x,y\in A$, we have $x + a y - a y = x$.
+* Cancellation: for any $r\in k$ and $x,y\in A$, we have $x + r y - r y = x$.
 
 
 #### Unbiased definition
