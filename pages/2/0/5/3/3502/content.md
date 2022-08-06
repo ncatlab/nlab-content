@@ -36,6 +36,10 @@ While for [[smooth manifolds]] there is a [[Poincaré duality]] relating [[singu
 
 * [[George Lusztig]], _Intersection cohomology methods in representation theory_, Proc. ICM 1990, [pdf](http://mathunion.org/ICM/ICM1990.1/Main/icm1990.1.0155.0174.ocr.pdf)
 
+In the generality of [[matroids]]:
+
+* {#Huh22} [[June Huh]], _Combinatorics and Hodge theory_, Proc. Int. Cong. Math. **1** (2022)
+ &lbrack;[doi:10.4171/ICM2022/205](), [pdf](https://www.mathunion.org/fileadmin/IMU/Prizes/Fields/2022/jh.pdf), [[Huh-CombinatoricsAndHodgeTheory.pdf:file]]&rbrack;
 
 [[!redirects intersection cohomology]]
 [[!redirects intersection homology]]
