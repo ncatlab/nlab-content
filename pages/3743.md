@@ -28,7 +28,7 @@ It is usual to choose a '[[normal form]]' for each word.  In the example, in the
 
 In order to transform a rewriting system into a computation [[algorithm]], one needs to apply the rules in a deterministic way, using a reduction strategy. We also need to know that there is a unique normal form that can be found for each word and that the 'algorithm' will _terminate_, that is it really _is_ an algorithm!. 
 
-We therefore will need to discuss [[confluence]], [[termination]] and [[reduction strategy|reduction strategies]].
+We therefore will need to discuss [[confluence]], [[normal form]], [[termination]] and [[reduction strategy|reduction strategies]].
 
 
 ## References
@@ -39,7 +39,7 @@ A classical foundational paper is
 
 * Axel Thue,  Probleme &#252;ber Ver&#228;nderungen von Zeichenreihen nach gegebenen Regeln., Kristiania Vidensk. Selsk, Skr. (1914), no. 10, 493&#8211;524.
 
-A key lemma is given in the beautiful paper:
+A key lemma, often called [[Newman lemma]], is given in the beautiful paper:
 
 * [[Max Newman|Maxwell Herman Alexander Newman]], _On theories with a combinatorial definition of "equivalence"_, Annals of Mathematics __43__ (1942), no. 2, 223&#8211;243. 
 
