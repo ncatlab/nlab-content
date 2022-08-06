@@ -10,7 +10,7 @@ A [[category]] is **confluent** if for any [[span]] $B \leftarrow A \to C$, ther
 
 ## Remarks
 
-If the morphisms in a category represent (sequences of) "rewriting" operations, then confluence means that any two ways to rewrite the same thing can eventually be brought back together.  
+If the morphisms in a category represent (sequences of) "[[rewriting]]" operations, then confluence means that any two ways to rewrite the same thing can eventually be brought back together.  
 
 If $(X,\rightarrow)$ is an abstract rewriting system ie. a set equipped with a binary relation $\rightarrow$ and if $\rightarrow^{*}$ is the [[reflexive-transitive closure]] of $\rightarrow$, then we say that $\rightarrow$ is confluent iff for every $a,b,c \in X$ such that $a \rightarrow^{*} b$ and $a \rightarrow^{*} c$, there exists $d \in X$ such that $b \rightarrow^{*} d$ and $c \rightarrow^{*} d$. 
 
