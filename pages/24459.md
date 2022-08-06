@@ -1,6 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-Cohen-Macaulay rings are an important class of commutative rings.
+Cohen-Macaulay rings are an important class of [[commutative rings]].
 
 ## Definition
 
