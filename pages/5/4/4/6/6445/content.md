@@ -20,27 +20,45 @@
 
 ## Idea 
 
-The concept of *matroid*, due to Hassler Whitney, is fundamental to [[combinatorics]], giving several different ways of encoding/defining and presenting a general notion of "independence", e.g., [[linearly independent subset|linear independence]] in a [[vector space]], algebraic independence in a [[field extension]], etc. 
+The concept of *matroid* ([Whitney 1935](#Whitney35)) is fundamental to [[combinatorics]], giving several different ways of encoding/defining and presenting a general notion of "independence", e.g., [[linearly independent subset|linear independence]] in a [[vector space]], algebraic independence in a [[field extension]], etc. 
 
 There is also a similar concept of an [[oriented matroid]]; every oriented matroid has an underlying matroid. 
 
 ## Definitions 
 
-+-- {: .num_defn} 
-###### Definition 
-A **matroid** on a set $X$ is a [[Moore closure|closure operator]] $cl: P(X) \to P(X)$ satisfying the _exchange axiom_: if $a \in cl(S \cup\{b\}) \setminus cl(S)$, then $b \in cl(S \cup\{a\}) \setminus cl(S)$. 
-=-- 
+### Plain definition
 
-Usually when combinatorialists speak of matroids as such, $X$ is taken to be a [[finite set]]. A typical example is $X$ some finite subset of a vector space $V$, taking $cl(S) \coloneqq X \cap Span(S)$ for any $S \subseteq X$. 
+\begin{definition}\label{Matroid}
+A **matroid** on a [[set]] $X$ is a [[Moore closure|closure operator]] $cl \colon P(X) \to P(X)$ satisfying the _exchange axiom_: if $a \in cl(S \cup\{b\}) \setminus cl(S)$, then $b \in cl(S \cup\{a\}) \setminus cl(S)$. 
+\end{definition}
 
-Under this definition, a subset $S \subseteq X$ is _independent_ if there is a strict inclusion $cl(T) \subset cl(S)$ for every strict inclusion $T \subset S$ (this is the same as requiring $x \notin cl(S\setminus \{x\})$ for every $x \in S$). Again under this definition, $S$ is a _basis_ if $cl(S) = X$ and $S$ is independent. A _hyperplane_ is a closed subset $S$ (meaning $cl(S) = S$) that is maximal among proper closed subsets of $X$. It is possible to axiomatize the notion of matroid by taking bases as the primitive notion, or independent sets as the primitive notion, or hyperplanes as the primitive notion, etc. -- Rota (after Birkhoff) speaks of _cryptomorphism_ between these differing definitions. Much of the power and utility of matroid theory comes from this multiplicity of definitions and the possibility of moving seamlessly between them; for example, a matroid structure might be easy to detect from the viewpoint of one definition, but not from another. 
+\begin{remark}
+When [[combinatorics|combinatorialists]] speak of matroids as such, $X$ is usually taken to be a [[finite set]]. A typical example is $X$ some finite [[subset]] of a [[vector space]] $V$, taking $cl(S) \,\coloneqq\, X \cap Span(S)$ for any $S \subseteq X$. 
+\end{remark}
+
+Further terminology:
+
+\begin{definition}\label{Bases}
+Under Def. \ref{Matroid}: 
+
+1. A [[subset]] $S \subseteq X$ is called *independent* if there is a strict inclusion $cl(T) \subset cl(S)$ for every strict inclusion $T \subset S$ (this is the same as requiring $x \notin cl(S\setminus \{x\})$ for every $x \in S$). 
+
+1. A [[subset]] $S \subset X$ is called a _basis_ if $cl(S) = X$ and $S$ is independent. 
+
+1. A _hyperplane_ is a closed subset $S$ (meaning $cl(S) = S$) that is maximal among proper closed subsets of $X$. 
+
+\end{definition}
+
+It is possible to axiomatize the notion of matroid by taking bases (Def. \ref{Bases}) as the primitive notion, or independent sets as the primitive notion, or hyperplanes as the primitive notion, etc. -- Rota (after Birkhoff) speaks of _cryptomorphism_ between these differing definitions. Much of the power and utility of matroid theory comes from this multiplicity of definitions and the possibility of moving seamlessly between them; for example, a matroid structure might be easy to detect from the viewpoint of one definition, but not from another. 
 
 +-- {: .num_prop #dim1} 
 ###### Proposition 
-Any two bases of a matroid $X$ have the same [[cardinality]], provided that one of them is finite.  
+
+Any two bases (Def. \ref{Bases}) of a matroid $X$ have the same [[cardinality]], provided that one of them is finite.  
+
 =-- 
 
-The cardinality of such a basis is called of course the _dimension_ of the matroid. Clearly then a finite matroid has a well-defined dimension. 
+The cardinality of such a basis is called of course the _[[dimension]]_ of the matroid. Clearly then a finite matroid has a well-defined dimension. 
 
 +-- {: .proof} 
 ###### Proof 
@@ -59,34 +77,31 @@ $$cl(D \setminus \{x\}) \subseteq cl((A_0 \cup B_0) \setminus \{x\})$$
 with neither side containing $x$ since $A_0 \cup B_0$ is independent; whereas if $x = a$ and supposing to the contrary that $a \in cl(D \setminus \{a\}) = cl((A_0 \cup (B_0 \setminus \{b\}))$, we conclude $A_0 \cup (B \setminus \{b\})$ has the same span as $D$. Since $D$ already spans, $b \in cl(A_0 \cup (B_0 \setminus \{b\}))$, again impossible since $A_0 \cup B_0$ is independent. This proves the claim. 
 
 Again assuming $A$ independent and $B$ is a finite basis, now we show that $card(A) \leq card(B)$, which will finish the proof. Let $n = card(B)$, and suppose on the contrary that there are distinct elements $a_1, \ldots, a_{n+1} \in A$. Set $A_0 = \emptyset$ and $B_0 = B$. Applying the claim above inductively, we have that $\{a_1, \ldots, a_i\} \cup (B \setminus \{b_1, \ldots, b_i\})$ is a basis for $1 \leq i \leq n$, so in particular $\{a_1, \ldots, a_n\}$ spans $X$. Hence $a_{n+1} \in cl(\{a_1, \ldots, a_{n}\})$, contradicting the independence of $A$. 
+
 =-- 
 
-## Examples 
 
-Vector spaces, algebraic closures, graphs, restrictions, localizations, ... 
 
-* A *graphic matroid* is a matroid $M$ derived from a [[simple graph]] by taking the underlying set of $M$ to be the set of edges $E$, and taking as independent sets of $M$ those $S \subseteq E$ such that the edges of $S$ (and their incident vertices) form a [[forest]], i.e., a graph without cycles.  
+### Model-theoretic geometry 
+ {#ModelTheoreticGeometry}
 
-* A *vector matroid* is a matroid $M$ derived from a a collection of vectors $E$ in a vector space. Independent sets of $M$ are those $S \subseteq E$ such that $S$ is linearly independent. Providing an equivalence to such a vector matroid is the problem of representability over a specified field.
+Essentially the very same notion arises in [[model theory]], except instead of being called a matroid it is called a "pregeometry" or "geometry", and in contrast to combinatorialists, model theorists usually mean _infinite_ matroids. The notion arises in the study of geometry of strongly minimal sets, with applications to stability theory (part of Shelah's classification theory). 
 
-* An *algebraic matroid* for a field extension $K/F$ is derived from a collection of elements $E \subset K$ and independent sets of $M$ are those such that $F(S)$ has transcendence degree equal to $\mid S \mid$ so all of $S$ are algebraically independent.
+\begin{definition}
 
-* If $M$ is a (finite) matroid, then the *matroid dual* $M^\ast$ of $M$ has the same underlying set as $M$, and where a basis in $M^\ast$ is precisely the complement of a basis of $M$. It follows that $M^{\ast\ast} \cong M$ (this is even an equality according to the definition). 
+A _pregeometry_ (in [[model theory]]) is a (possibly infinite) matroid (Def. \ref{Matroid}, given by a [[set]] $X$ equipped with a [[closure operator]] $cl$) that is _finitary_: 
 
-* For a topological space $X$ the exchange condition is equivalent to
-$$ \forall x,y \in X: x\in cl({y}) \Leftrightarrow y\in cl({x}) $$
-In particular, every $T1$-space is a matroid.
+* for all $S \subseteq X$, if $x \in cl(S)$ then $x \in cl(S_0)$ for some [[finite set|finite]] [[subset]] $S_0 \subseteq S$. 
 
-## Model-theoretic geometry 
+A *geometry* is a pregeometry such that, in addition:
 
-Essentially the very same notion arises in model theory, except instead of being called a matroid it is called a "pregeometry" or "geometry", and in contrast to combinatorialists, model theorists usually mean _infinite_ matroids. The notion arises in the study of geometry of strongly minimal sets, with applications to stability theory (part of Shelah's classification theory). 
+1. $cl(\varnothing) = \varnothing$ (the [[empty set|empty subset]] is closed),
 
-+-- {: .num_defn} 
-###### Definition 
-A _pregeometry_ is a (possibly infinite) matroid (given by a set $X$ equipped with a closure operator $cl$) that is _finitary_: for all $S \subseteq X$, if $x \in cl(S)$ then $x \in cl(S_0)$ for some finite subset $S_0 \subseteq S$. A **geometry** is a pregeometry such that $cl(\emptyset) = \emptyset$ and $cl(\{x\}) = \{x\}$ for every $x \in X$. 
-=-- 
+1. $cl(\{x\}) = \{x\}$ for every $x \in X$ (all [[singleton]] subsets are closed).
 
-(See also [[geometric stability theory]].) 
+\end{definition}
+
+(See also *[[geometric stability theory]]*.) 
 
 The language of independence, spanning, and basis carry over as before. A maximal independent set spans (i.e., is a basis), and maximal independent sets exist according to [[axiom of choice|Zorn's lemma]]. Again we have a notion of dimension by the following proposition. 
 
@@ -105,18 +120,41 @@ where the second equality follows from the finitary condition. Since each summan
 =-- 
 
 
-## Combinatorial optimization 
+
+## Examples 
+
+Vector spaces, algebraic closures, graphs, restrictions, localizations, ... 
+
+* A *graphic matroid* is a matroid $M$ derived from a [[simple graph]] by taking the underlying set of $M$ to be the set of edges $E$, and taking as independent sets of $M$ those $S \subseteq E$ such that the edges of $S$ (and their incident vertices) form a [[forest]], i.e., a graph without cycles.  
+
+* A *vector matroid* is a matroid $M$ derived from a a collection of vectors $E$ in a vector space. Independent sets of $M$ are those $S \subseteq E$ such that $S$ is linearly independent. Providing an equivalence to such a vector matroid is the problem of representability over a specified field.
+
+* An *algebraic matroid* for a field extension $K/F$ is derived from a collection of elements $E \subset K$ and independent sets of $M$ are those such that $F(S)$ has transcendence degree equal to $\mid S \mid$ so all of $S$ are algebraically independent.
+
+* If $M$ is a (finite) matroid, then the *matroid dual* $M^\ast$ of $M$ has the same underlying set as $M$, and where a basis in $M^\ast$ is precisely the complement of a basis of $M$. It follows that $M^{\ast\ast} \cong M$ (this is even an equality according to the definition). 
+
+* For a topological space $X$ the exchange condition is equivalent to
+$$ \forall x,y \in X: x\in cl({y}) \Leftrightarrow y\in cl({x}) $$
+In particular, every $T1$-space is a matroid.
 
 
-## Mnev's theorem 
+## Properties
+
+### Mnev's theorem 
 
 Mn&#235;v's universality theorem says that any [[semialgebraic set]] in $\mathbb{R}^n$ defined over integers is stably equivalent to the realization space of some oriented matroid. 
 
-## Categories of matroids 
 
-To be written, possibly with some original research. 
+### Combinatorial optimization 
+
+(...)
+
 
 ## References 
+
+The original article:
+
+* {#Whitney35} [[Hassler Whitney]], _On the abstract properties of linear dependence_, American Journal of Mathematics (The Johns Hopkins University Press) **57** 3  (1935) 509-533 &lbrack;[jstor:2371182](http://jstor.org/stable/2371182), [MR1507091](http://www.ams.org/mathscinet-getitem?mr=1507091)&rbrack;
 
 For a treatment of the category of matroids and strong maps, see
 
@@ -125,10 +163,12 @@ For a treatment of the category of matroids and strong maps, see
 Other references
 
 * wikipedia [matroid](http://en.wikipedia.org/wiki/Matroid), [Mn&#235;v's universality theorem](http://en.wikipedia.org/wiki/Mnev%27s_universality_theorem), [oriented matroid](http://en.wikipedia.org/wiki/Oriented_matroid)
-* Hassler Whitney, _On the abstract properties of linear dependence_, American Journal of Mathematics (The Johns Hopkins University Press) 57 (3): 509&#8211;533, 1935, [jstor](http://jstor.org/stable/2371182), [MR1507091](http://www.ams.org/mathscinet-getitem?mr=1507091)
+
+
 * J. Oxley, _What is a matroid_, [pdf](http://www.math.lsu.edu/~oxley/survey4.pdf)
 * James G. Oxley, _Matroid theory_, Oxford Grad. Texts in Math. 1992, 2010
 * some papers on Coxeter matroids [html](http://www.math.ufl.edu/~white/cox.html)
+
 * MathOverflow question [Mn&#235;v's universality corollaries, quantitative versions](http://mathoverflow.net/questions/72154/mnevs-universality-corollaries-quantitative-versions) 
 * Eric Katz, Sam Payne, _Realization space for [[tropical geometry|tropical]] fans_, [pdf](http://users.math.yale.edu/~sp547/pdf/Realization-spaces.pdf)
 * Nikolai E. Mnev, _The universality theorems on the classification problem of configuration varieties and convex polytopes varieties_, pp. 527-543, in "Topology and geometry: Rohlin Seminar." Edited by O. Ya. Viro. Lecture Notes in Mathematics, __1346__, Springer 1988; _A lecture on universality theorem_ (in Russian) [pdf](http://club.pdmi.ras.ru/~panina/9.pdf)
