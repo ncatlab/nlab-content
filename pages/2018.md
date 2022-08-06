@@ -148,6 +148,8 @@ A dual condition is artinian: an __[[artinian ring]]__ is a ring satisfying the 
 
 
 [[!redirects noetherian ring]]
+[[!redirects noetherian]]
 [[!redirects noetherian rings]]
 [[!redirects Noetherian ring]]
 [[!redirects Noetherian rings]]
+
