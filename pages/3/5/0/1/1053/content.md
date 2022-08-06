@@ -367,6 +367,8 @@ Since every proposition comes with an antithesis proposition in the antithesis i
 
 * [[bounded linear logic]]
 
+* [[coherence space]]
+
 * [[game semantics]]
 
 * [[linear type theory]]
