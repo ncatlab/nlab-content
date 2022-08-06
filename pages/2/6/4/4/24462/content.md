@@ -17,9 +17,14 @@ If $\rightarrow$ is [[strongly normalizing]] and [[locally confluent]] then, it 
 
 ## References
 
+The original article:
+
+* [[Maxwell Herman Alexander Newman]], _On theories with a combinatorial definition of "equivalence"_, Annals of Mathematics **43** 2 (1942) 223–243 &lbrack;[doi:10.2307/2269299](https://doi.org/10.2307/2269299)&rbrack;
+
+See also:
+
 * [Wikipedia article](https://en.wikipedia.org/wiki/Newman%27s_lemma)
 
-* [[Max Newman|Maxwell Herman Alexander Newman]], _On theories with a combinatorial definition of "equivalence"_, Annals of Mathematics 43 (1942), no. 2, 223–243. 
 
 (...)
 
