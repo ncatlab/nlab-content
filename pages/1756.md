@@ -315,3 +315,5 @@ The case for [[simplicial model categories]] is also in
 
 [[!redirects Quillen functor]]
 [[!redirects Quillen functors]]
+[[!redirects Quillen pair]]
+[[!redirects Quillen pairs]]
