@@ -1,5 +1,5 @@
 
-* [website](http://www.math.cornell.edu/~hatcher/)
+* [website](https://math.cornell.edu/allen-hatcher)
 
 ## Related $n$Lab entries
 
