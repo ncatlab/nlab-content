@@ -10,7 +10,11 @@ A [[category]] is **confluent** if for any [[span]] $B \leftarrow A \to C$, ther
 
 ## Remarks
 
-If the morphisms in a category represent (sequences of) "rewriting" operations, then confluence means that any two ways to rewrite the same thing can eventually be brought back together.  This is a good property of rewriting in systems such as the [[lambda calculus]] (the [[Church-Rosser theorem]]), and as such it is a property one might expect for the hom-categories in a [[2-category|2-categorical]] model of lambda calculus.
+If the morphisms in a category represent (sequences of) "rewriting" operations, then confluence means that any two ways to rewrite the same thing can eventually be brought back together.  
+
+If $(X,\rightarrow)$ is an abstract rewriting system ie. a set equipped with a binary relation $\rightarrow$ and if $\rightarrow^{*}$ is the [[reflexive-transitive closure]] of $\rightarrow$, then we say that $\rightarrow$ is confluent iff for every $a,b,c \in X$ such that $a \rightarrow^{*} b$ and $a \rightarrow^{*} c$, there exists $d \in X$ such that $b \rightarrow^{*} d$ and $c \rightarrow^{*} d$. 
+
+This is a good property of rewriting in systems such as the [[lambda calculus]] (the [[Church-Rosser theorem]]), and as such it is a property one might expect for the hom-categories in a [[2-category|2-categorical]] model of lambda calculus.
 
 Another good property one might want to assume is termination, i.e. the lack of infinite chains of nonidentity arrows.
 
@@ -22,6 +26,8 @@ As stated in the definition, the notion of confluence is perfectly sensible if w
 * [[lambda-calculus]]
 
 * [[diamond]]
+
+* [[locally confluent]]
 
 
 ## References
@@ -36,4 +42,5 @@ As stated in the definition, the notion of confluence is perfectly sensible if w
 [[!redirects confluent categories]]
 
 [[!redirects confluence]]
+[[!redirects confluent]]
 [[!redirects confluences]]
