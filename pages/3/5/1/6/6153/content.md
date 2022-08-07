@@ -12,6 +12,10 @@ On the [[spectrum of a tensor triangulated category]] ([[prime spectrum of a sym
 
 * {#Balmer10} [[Paul Balmer]], _Spectra, spectra, spectra&#8212;tensor triangular spectra versus Zariski spectra of endomorphism rings_, Algebr. Geom. Topol., 10(3):1521&#8211;1563, 2010 ([pdf](http://www.math.ucla.edu/~balmer/research/Pubfile/SSS.pdf))
 
+On [[stacks]] of [[group representations]]:
+
+* [[Paul Balmer]], *Stacks of group representations*, J. European Math. Soc. **17** 1 (2015) 189-228 &lbrack;[arXiv:1302.6290](https://arxiv.org/abs/1302.6290), [doi:10.4171/jems/501](https://doi.org/10.4171/jems/501)&rbrack;
+
 On [[tensor triangulated categories]]:
 
 * [[Paul Balmer]], _A guide to tensor-triangular classification_, in: [[Haynes Miller]] (ed.) _[[Handbook of Homotopy Theory]]_ ([arXiv:1912.08963](https://arxiv.org/abs/1912.08963))
