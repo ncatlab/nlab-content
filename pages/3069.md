@@ -291,11 +291,11 @@ and in the generality of [[(infinity,1)-categories|$\infty$-categories]]:
 
 Discussion for [[subobject lattices]]:
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], chapter IV.9 (around page 205) of _[[Sheaves in Geometry and Logic]]_
+* [[Saunders MacLane]], [[Ieke Moerdijk]], chapter IV.9 (around p. 205) of: _[[Sheaves in Geometry and Logic]]_,   Springer (1992) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0)&rbrack;
 
 Discussion for presheaf categories in the context of [[quasicategories]] ([[(infinity,1)-categories of (infinity,1)-presheaves|$\infty$-categories of $\infty$-presheaves]]):
 
-* {#Joyal08} [[André Joyal]], [p. 175](https://ncatlab.org/nlab/files/JoyalTheoryOfQuasiCategories.pdf#page=27) of: *[[The Theory of Quasi-Categories and its Applications]]*, lectures at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008 ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]])
+* {#Joyal08} [[André Joyal]], [p. 175](https://ncatlab.org/nlab/files/JoyalTheoryOfQuasiCategories.pdf#page=27) of: *[[The Theory of Quasi-Categories and its Applications]]*, lectures at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM (2008) &lbrack;[pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]]&rbrack;
 
 Discussion for [[Goursat categories]]:
 
