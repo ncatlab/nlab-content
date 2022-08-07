@@ -225,7 +225,7 @@ The more general case of general [[symmetric monoidal categories]] is reviewed a
 
 * {#Schalk04} Andrea Schalk, _What is a categorical model for linear logic?_ ([pdf](http://www.cs.man.ac.uk/&#8764;schalk/notes/llmodel.pdf))
 
-* [[Richard Blute]], [[Philip Scott]], _Category theory for linear logicians_, 2004 ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.83.6250))
+* [[Richard Blute]], [[Philip Scott]], *Category theory for linear logicians*, in: *Linear Logic in Computer Science*, Cambridge University Press (2004) 3-64 &lbrack; [doi:10.1017/CBO9780511550850.002](https://doi.org/10.1017/CBO9780511550850.002), [pdf](https://www.site.uottawa.ca/~phil/papers/catsurv.web.pdf)&rbrack;
 
 * {#Mellies09} [[Paul-André Melliès]] , _Categorial Semantics of Linear Logic_, in _Interactive models of computation and program behaviour_, Panoramas et synth&#232;ses 27, 2009 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/panorama.pdf))
 
