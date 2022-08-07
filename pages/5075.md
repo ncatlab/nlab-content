@@ -1,10 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
+
+## Idea
+
+Where a *[[triangulation]]* of a [[topological space]] is its [[homeomorphism|homeomorphic]] identification with the [[topological realization]] of a [[simplicial set]] ([[simplicial complex]]), the analogous construction with [[cubical sets]] may be referred to as "cubulation".
+
 
 ## The category of cubes
 
-The category $Cube$ may be defined universally to be a [[walking structure|walking]] [[interval]]: it is initial among monoidal categories that are equipped with an object $I$, two maps $i_0, i_1: 1 \to I$ (where $1$ is the monoidal unit) and a map $p: I \to 1$ such that $p \circ i_0 = id_1 = p \circ i_1$. The monoidal unit $1$ in $Cube$ is terminal, hence there is a unique map $!: X \to 1$ for any object $X$. The interval $I$ of $Cube$ monoidally generates $Cube$ in the sense of [[PROP|PROS]]. 
+The [[category of cubes]], $Cube$, may be defined universally to be a [[walking structure|walking]] [[interval]]: it is [[initial object|initial]] among [[monoidal categories]] that are equipped with an object $I$, two maps $i_0, i_1: 1 \to I$ (where $1$ is the monoidal unit) and a map $p: I \to 1$ such that $p \circ i_0 = id_1 = p \circ i_1$. The monoidal unit $1$ in $Cube$ is [[terminal object|terminal]], hence there is a unique map $!: X \to 1$ for any object $X$. The interval $I$ of $Cube$ monoidally generates $Cube$ in the sense of [[PROP|PROS]]. 
 
 It may be shown that if $m \leq n$, there are $\binom{n}{m}2^{n-m}$ injections $I^{\otimes m} \to I^{\otimes n}$, the same as the number of $m$-dimensional faces of the geometric $n$-cube. There are no diagonal maps in the category of cubes as defined here. 
 
@@ -12,13 +29,13 @@ It may be shown that if $m \leq n$, there are $\binom{n}{m}2^{n-m}$ injections $
 
 ## Standard geometric cube functor
 
-From the universal property of $Cube$, it follows that if $Top$ is considered as a cartesian monoidal category equipped with $I = [0, 1]$ in this sense of interval, we get an induced monoidal functor
+From the [[universal property]] of $Cube$, it follows that if [[Top]] is considered as a [[cartesian monoidal category]] equipped with $I = [0, 1]$ in this sense of interval, we get an induced monoidal functor
 
 $$\Box: Cube \to Top$$
 
-The monoidal product on $Cube$ induces a monoidal product $\otimes$ on $Set^{Cube^{op}}$ by [[Day convolution]]. The cubical realization functor $R_{cub}: Set^{Cube^{op}} \to Top$ is, up to isomorphism, the unique cocontinuous monoidal functor which extends the monoidal functor $\Box$ along the Yoneda embedding; therefore $R_{cub}$ takes $\otimes$-products of cubical sets to the corresponding cartesian products of spaces. 
+The monoidal product on $Cube$ induces a monoidal product $\otimes$ on $Set^{Cube^{op}}$ by [[Day convolution]]. The [[topological realization of cubical sets|cubical realization functor]] $R_{cub}: Set^{Cube^{op}} \to Top$ is, up to isomorphism, the unique [[cocontinuous functor|cocontinuous]] [[monoidal functor]] which extends the monoidal functor $\Box$ along the Yoneda embedding; therefore $R_{cub}$ takes $\otimes$-products of [[cubical sets]] to the corresponding [[product topological space|cartesian products of spaces]]. 
 
-In terms of an explicit formula, the cubical realization of a cubical set $C: \Cube^{op} \to Set$ is given by the coend formula 
+In terms of an explicit formula, the [[topological cubical realization of a cubical set]] $C: \Cube^{op} \to Set$ is given by the [[coend]] formula 
 
 $$R_{cub} C = \int^{m \in Ob(Cube)} C(m) \times \Box(m)$$ 
 
@@ -28,11 +45,11 @@ A **cubulation** of a [[topological space]] $Y$ is a [[cubical set]] $C: Cube^{o
 
 ## Relation between triangulation and cubulation
 
-In rough terms, a space can be triangulated if and only if it can be cubulated. This can be shown by simple conceptual arguments, as follows. 
+In rough terms, a space can be [[triangulation|triangulated]] if and only if it can be cubulated. This can be shown by simple conceptual arguments, as follows. 
 
 ### Cubulating a triangulated space 
 
-In this section, $Top$ may be taken to be the category of topological spaces, or otherwise any sufficiently convenient category of spaces (completeness and cocompleteness are baseline assumptions). 
+In this section, $Top$ may be taken to be the category of topological spaces, or otherwise any sufficiently [[convenient category of topological spaces]] (completeness and cocompleteness are baseline assumptions). 
 
 #### Simplices as cubical sets
 
@@ -40,7 +57,7 @@ We define a functor
 
 $$\Sigma: \Delta \to Set^{Cube^{op}}$$ 
 
-The functor $\Sigma$ effectively regards an $n$-simplex as an iterated [[join of simplicial sets]] and then produces the analogous join in the category of cubical sets. This for instance regards the 2-simplex as a square with one degenerate edge.
+The functor $\Sigma$ effectively regards an [[n-simplex|$n$-simplex]] as an iterated [[join of simplicial sets]] and then produces the analogous join in the category of [[cubical sets]]. This for instance regards the 2-simplex as a square with one degenerate edge.
 
 To define $\Sigma: \Delta \to Set^{Cube^{op}}$, we mimic the [second definition](http://ncatlab.org/nlab/show/triangulation#second_definition_5) of the affine simplex functor given at [[triangulation]], replacing $Top$ by cubical sets and the topological simplicial join by a suitable "cubical simplicial join". Formally, we define a monoidal structure on cubical sets by taking $X \star Y$ to be the pushout of the diagram
 
@@ -60,7 +77,7 @@ which plays a role analogous to the affine simplex functor into $Top$.
 
 #### Cubulating geometric simplices 
 
-Observe that geometric realization $R_{cub}: Set^{Cube^{op}} \to Top$ takes cubical simplicial joins to topological simplicial joins, because $R_{cub}$ sends $\otimes$-products to cartesian products, and preserves pushouts because it is cocontinuous. We conclude that both $\sigma: \Delta \to Top$ and $R_{cub} \circ \Sigma: \Delta \to Top$ take monoidal products in $\Delta$ to topological simplicial joins, and both take the walking monoid of $\Delta$ to the one-point space. By the universal property of $\Delta$, it follows that there is a natural isomorphism
+Observe that geometric realization $R_{cub}: Set^{Cube^{op}} \to Top$ takes cubical simplicial joins to topological simplicial joins, because $R_{cub}$ sends $\otimes$-products to cartesian products, and [[preserved colimit|preserves]] [[pushouts]] because it is [[cocontinuous functor|cocontinuous]]. We conclude that both $\sigma: \Delta \to Top$ and $R_{cub} \circ \Sigma: \Delta \to Top$ take monoidal products in $\Delta$ to topological simplicial joins, and both take the walking monoid of $\Delta$ to the one-point space. By the universal property of $\Delta$, it follows that there is a natural isomorphism
 
 $$\sigma \cong R_{cub} \circ \Sigma$$
 
@@ -70,7 +87,7 @@ $$\sigma(n) \cong \int^m \Sigma_n(m) \cdot \Box(m)$$
 
 #### Standard cubulation of a triangulated space
 
-Given a [[triangulation]] $(X, h: R X \to Y)$ of a space $Y$, we have [[isomorphism]]s
+Given a [[triangulation]] $(X, h: R X \to Y)$ of a space $Y$, we have [[isomorphisms]]
 
 $$\array{
 Y & \cong & \int^n X(n) \cdot \sigma(n) & & \\
@@ -78,7 +95,7 @@ Y & \cong & \int^n X(n) \cdot \sigma(n) & & \\
  & \cong & \int^m (\int^n X(n) \cdot \Sigma_n(m)) \cdot \Box(m) & & interchange of coends
 }$$
 
-where in the last line we used the [[coend Fubini theorem]]. Thus, defining the cubical set $C$ by
+where in the last line we used the [coend Fubini theorem](end#Fubini). Thus, defining the cubical set $C$ by
 
 $$C(m) = \int^n X(n) \cdot \Sigma_n(m)$$
 
@@ -86,7 +103,7 @@ we have a homeomorphism $Y \cong \int^m C(m) \cdot \Box(m) = R_{cub} C$, i.e., w
 
 ### Triangulating a cubulated space
 
-In this section we assume $Top$ is a [[convenient category of spaces]], so that [[geometric realization]] of simplicial sets is product-preserving. 
+In this section we assume $Top$ is a [[convenient category of spaces]], so that [[geometric realization]] of simplicial sets is product-preserving (see [there](geometric+realization#GeometricRealizationIsLeftExact)). 
 
 #### Cubes as simplicial sets 
 
@@ -114,7 +131,7 @@ Y & \cong & \int^m C(m) \cdot \Box(m) & & \\
  & \cong & \int^n (\int^m C(m) \cdot \Box_{\delta m}(n)) \cdot \sigma(n) & & interchange of coends
 }$$
 
-where in the last line we used the [[coend Fubini theorem]]. Thus, defining the simplicial set $X$ by
+where in the last line we used the [coend Fubini theorem](end#Fubini). Thus, defining the simplicial set $X$ by
 
 $$X(n) = \int^m C(m) \cdot \Box_{\delta m}(n)$$
 
