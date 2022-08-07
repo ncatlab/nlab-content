@@ -3,7 +3,7 @@
 
 ## Selected writings
 
-On [[AdS/CFT]] for $AdS_3/CFT_2$:
+On proof of [[AdS/CFT duality]] for the special case of [[AdS3-CFT2|$AdS_3/CFT_2$]]:
 
 * Shouvik Datta, [[Lorenz Eberhardt]], [[Matthias Gaberdiel]], _Stringy $\mathcal{N} = (2,2)$ holography for $AdS_3$_ JHEP 1801 (2018) 146 ([arXiv:1709.06393](https://arxiv.org/abs/1709.06393))
 
@@ -18,6 +18,8 @@ On [[AdS/CFT]] for $AdS_3/CFT_2$:
 * [[Lorenz Eberhardt]], _$AdS_3/CFT_2$ at higher genus_ ([arXiv:2002.11729](https://arxiv.org/abs/2002.11729))
 
 * [[Lorenz Eberhardt]], ,_Summing over Geometries in String Theory_ ([arXiv:2102.12355](https://arxiv.org/abs/2102.12355))
+
+* [[Lorenz Eberhardt]], *A perturbative CFT dual for pure NS-NS $AdS_3$ strings*, J. Phys. A: Math. Theor. **55** 064001 &lbrack;[arXiv:2110.07535](https://arxiv.org/abs/2110.07535), [arXiv:10.1088/1751-8121/ac47b2](https://doi.org/10.1088/1751-8121/ac47b2)&rbrack;
 
 
 
