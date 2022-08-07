@@ -4,6 +4,9 @@
 * [Wikipedia entry](https://de.wikipedia.org/wiki/Reinhard_Diestel)
 
 ## Selected writings
+A standard text on [[graph theory]]:
+
+* Reinhard Diestel, *Graph Theory*, Graduate Texts in Mathematics **173** 5th edition (2017) &lbrack;[website](https://diestel-graph-theory.com/), [doi:10.1007/978-3-662-53622-3](https://doi.org/10.1007/978-3-662-53622-3)]
 
 On the [[axiomatization]] of [[infinite set|infinite]] [[matroids]]:
 
