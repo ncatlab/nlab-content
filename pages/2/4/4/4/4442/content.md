@@ -153,7 +153,7 @@ Comparison to [[string scattering amplitudes]] beyond the planar SCFT limit: [AB
 
 Numerical checks using [[lattice gauge theory]] are reviewed in [Joseph 15](#Joseph15).
 
-Exact duality checks pertaining to the full stringy regime for $AdS_3/CFT_2$: [Eberhardt-Gaberdiel 19a](#EberhardtGaberdiel19a), [Eberhardt-Gaberdiel 19b](#EberhardtGaberdiel19b), [Eberhardt-Gaberdiel-Gopakumar 19](#EberhardtGaberdielGopakumar19).
+Exact duality checks pertaining to the full stringy regime for [[AdS3-CFT2|$AdS_3/CFT_2$]]: [Eberhardt-Gaberdiel 19a](#EberhardtGaberdiel19a), [Eberhardt-Gaberdiel 19b](#EberhardtGaberdiel19b), [Eberhardt-Gaberdiel-Gopakumar 19](#EberhardtGaberdielGopakumar19). For more see the references [there](AdS3-CFT2+and+CS-WZW+correspondence#ReferencesAdS3CFT2).
 
 
 
