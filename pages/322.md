@@ -524,9 +524,10 @@ Monographs:
 
 * {#FresseMOF} [[Benoit Fresse]], _Modules over operads and functors_, Springer LNM __1967__, 2009, x+308 pp. [MR2010e:18009](http://www.ams.org/mathscinet-getitem?mr=2494775)
 
-* {#FresseHOGTG} [[Benoit Fresse]], _Homotopy of Operads and Grothendieck-Teichm&#252;ller Groups (Volumes 1 & 2)_, [website](http://math.univ-lille1.fr/~fresse/OperadHomotopyBook/) 
+* {#FresseHOGTG} [[Benoit Fresse]], *Homotopy of Operads and Grothendieck-Teichm&#252;ller Groups (Volumes 1 & 2)*, Mathematical Surveys and Monographs **217** (2017) &lbrack;[ISBN:978-1-4704-3480-9](https://bookstore.ams.org/surv-217/), [website](http://math.univ-lille1.fr/~fresse/OperadHomotopyBook/), [pdf (draft of Part I)](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.648.9110&rep=rep1&type=pdf)&rbrack;
 
-See also
+
+See also:
 
 * [[Todd Trimble]], _[[toddtrimble:Notes on operads and the Lie operad]]_ ([pdf](http://math.ucr.edu/home/baez/trimble/trimble_lie_operad.pdf))
 
