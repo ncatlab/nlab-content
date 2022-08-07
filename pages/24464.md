@@ -8,6 +8,9 @@ On [[Lorentzian polynomials]]:
 
 and on [[intersection cohomology]] of [[matroids]]:
 
+* Tom Braden, [[June Huh]], Jacob P. Matherne, [[Nicholas Proudfoot]], Botong Wang, *Singular Hodge theory for combinatorial geometries* &lbrack;[arXiv:2010.06088](https://arxiv.org/abs/2010.06088)&rbrack;
+
+
 * {#Huh22} [[June Huh]], _Combinatorics and Hodge theory_, Proc. Int. Cong. Math. **1** (2022)
  &lbrack;[doi:10.4171/ICM2022/205](), [pdf](https://www.mathunion.org/fileadmin/IMU/Prizes/Fields/2022/jh.pdf), [[Huh-CombinatoricsAndHodgeTheory.pdf:file]]&rbrack;
 
