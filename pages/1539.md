@@ -167,7 +167,7 @@ By contrast, if a solid quasitopos is additionally [[exact category|exact]], and
 
 ### Internal logic
 
-Like a topos, a quasitopos has an [[internal logic]], for which the usual choice is to represent propositions by *strong* subobjects.  The resulting internal logic fails to satisfy the [[function comprehension principle]], forcing one to distinguish between [[functions]] and [[anafunctions]].
+Like a topos, a quasitopos has an [[internal logic]], for which the usual choice is to represent propositions by *strong* subobjects.  The resulting internal logic fails to satisfy the [[function comprehension|function comprehension principle]], forcing one to distinguish between [[functions]] and [[anafunctions]].
 
 
 ## Examples ##
