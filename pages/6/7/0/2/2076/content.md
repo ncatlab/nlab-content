@@ -1,4 +1,13 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
 
 
 
@@ -102,14 +111,19 @@ then every square $\Theta$ over $Q$ satisfies conditions (a-c) iff there is a ca
 d) $f^*\circ s_! \cong g_! \circ t^*$.
 =--
 
+## Related concepts
+
+* [[Beck-Chevalley condition]]
+
+* [[monadicity theorem]]
+
 ## References
 
-* {#BenabouRoubaud70} [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, t. 270 (12 Janvier 1970), Serie A, 96--98, ([link](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f100), Biblioth&#232;que nationale de France)
+The original article:
 
-A translation into English of the above article appears at 
+* {#BenabouRoubaud70} [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, Ser. A **270**  (1970) 96-98 &lbrack;[gallica:12148/bpt6k480298g/f100](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f100), [[BenabouRoubaud-MonadesEtDescente.pdf:file]],   English translation (by [[Peter Heinig]]): [MO:q/279152](https://mathoverflow.net/q/279152)&rbrack;
 
-* Peter Heinig ([MO user page](https://mathoverflow.net/users/108556/peter-heinig)), English Reference for the B&#233;nabou-Roubaud theorem, [link](https://mathoverflow.net/q/279152) (version: 2017-08-20).
-
+See also:
 
 * {#JanelidzeTholen94} [[George Janelidze]], [[Walter Tholen]], _Facets of Descent I_, Applied Categorical Structures 1994, Volume 2, Issue 3, pp 245-281
 
@@ -120,7 +134,7 @@ A translation into English of the above article appears at
 
 There has been some historical discussion on this in the category list; Zoran's response is [here](http://mathlight.wordpress.com/2010/01/07/becks-theorem-vs-benabou-roubaud).
 
-
+[[!redirects Benabou-Roubaud theorem]]
 [[!redirects Benabou–Roubaud theorem]]
 [[!redirects Benabou--Roubaud theorem]]
 [[!redirects Bénabou-Roubaud theorem]]
