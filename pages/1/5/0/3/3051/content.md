@@ -4,6 +4,8 @@ Jean B&#233;nabou is a French mathematician working in [[category theory]]. He s
 ## Selected writings
  {#SelectedWritings}
 
+
+
 Introducing the notion of [[enriched categories]]:
 
 * [[Jean Bénabou]], *Catégories relatives*, C. R. Acad. Sci. Paris, 260 (1965), pp. 3824-3827 ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4019v/f37.item))
@@ -11,6 +13,11 @@ Introducing the notion of [[enriched categories]]:
 On [[bicategories]]
 
 * Jean B&#233;nabou, _Introduction to Bicategories_, Lecture Notes in Mathematics 47, Springer (1967), pp.1-77. ([doi](http://dx.doi.org/10.1007/BFb0074299))
+
+On the [[Beck-Chevalley condition]], the [[monadicity theorem]] and introducing the [[Bénabou-Roubaud theorem]]:
+
+* {#BenabouRoubaud70} [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, Ser. A **270**  (1970) 96-98 &lbrack;[gallica:12148/bpt6k480298g/f100](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f100), [[BenabouRoubaud-MonadesEtDescente.pdf:file]],   English translation (by [[Peter Heinig]]): [MO:q/279152](https://mathoverflow.net/q/279152)&rbrack;
+
 
 On [[fibered categories]]:
 
