@@ -18,6 +18,7 @@ On [[cell complexes]] ([[CW-complexes]]) in [[topology]] ([[algebraic topology]]
 
 * [[CW-complexes are paracompact Hausdorff spaces]]
 
+* [[simplicial approximation theorem]]
 
 
 category:people
