@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 \section{Idea}
@@ -14,6 +25,19 @@ We make use of the notation at [[category of cubes]] and [[cubical set]], and de
 
 \begin{defn} The _geometric realisation_ functor $\mathsf{Set}^{\square^{op}} \rightarrow \mathsf{Top}$ is the canonical functor determined by $\left| - \right|_{\square}$, the fact that $\mathsf{Top}$ is co-complete, and the universal property of $\mathsf{Set}^{\square^{op}}$. \end{defn}
 
+## Related concepts
+
+* [[topological realization]]
+
+* [[cubulation]]
+
 [[!redirects cubical geometric realization]]
 [[!redirects geometric realisation of cubical sets]]
 [[!redirects geometric realization of cubical sets]]
+
+[[!redirects cubical topological realization]]
+[[!redirects topological realisation of cubical sets]]
+[[!redirects topological realization of cubical sets]]
+
+[[!redirects topological cubical realization of a cubical set]]
+
