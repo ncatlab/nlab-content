@@ -107,22 +107,6 @@ An __[[isomorphism]]__ from $G = (V,E,d)$ to $G' = (V',E',d')$ consists of a bij
 
 A __[[morphism]]__ from $G$ to $G'$ should consist of functions $f: V \to V'$ and $f: E \to E'$ such that $f$ commutes with $d$.  However, some authors allow $f(e)$ to be undefined if $d(e) = (x,y)$ or $d(e) = \{x,y\}$ but $f(x) = f(y)$ when using a notion of graph where loops are forbidden.  The difference amounts to whether one interprets a simple graph as a special kind of loop graph in which no loops exist (the first kind of morphism) or in which each vertex has a unique loop (the second kind of morphism).  Either way, an isomorphism (as defined above) is precisely an invertible morphism.
 
-+--{: .query}
-[[Mike Shulman]]: Isn't there something backwards about defining "isomorphic" and _then_ "isomorphism" and _then_ "morphism"?  Doesn't the logic generally flow in the other direction (especially around here)?
-
-[[David Roberts]]: well at least there's a historical precedent: this is how Bourbaki would have done it via structures :)
-
-_Toby_:  That, and it\'s simpler to state the definition of 'isomorphic' than 'isomorphism'.  Not to mention that graph theorists, in my experience, tend to care much more about the property of being isomorphic than the structure of having an isomorphism.  As for 'morphism', there\'s even disagreement about what that should be; I think that my definition is the obvious correct one, but it disagrees with the one at, for example, [Wikipedia](http://en.wikipedia.org/wiki/graph) (although they had my definition in the past); both versions give the same notion of isomorphism, however.
-
-[[Mike Shulman]]: Well, but we aren't graph theorists here, are we?  Isn't it okay for us to rephrase their definitions in the more categorically sensible order?
-
-_Toby_:  I disagree that 'morphism' before 'isomorphism' is more categorially sensible.  That\'s like defining $\leq$ before $=$; sometimes useful, sometimes not.  Since I am getting ambiguity about morphisms in what I find online, I\'d prefer to do isomorphisms first.  With luck, I\'ll find some terminology to distinguish the two kinds of morphisms, or we can make up our own.
-
-[[Mike Shulman]]: Okay, I'll accept that sometimes it makes sense to have isomorphisms before morphisms.  Certainly there are other situations in which the notion of isomorphism is more obvious, or less subject to debate, than the notion of morphism.  But I am happy that now "isomorphism" comes before "isomorphic."
-
-[[RonnieBrown]]: I hope it is helpful to add the reference below, which also contains quite a few references to categorical treatments of graphs. 
-
-=--
 
 Under the second notion of morphism (where simple graphs are identified with sets equipped with a symmetric reflexive relation), the [[category of simple graphs]] has many desirable properties (q.v.). 
 
