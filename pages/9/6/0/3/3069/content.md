@@ -280,8 +280,13 @@ Review:
 
 * {#Pavlović91} [[Duško Pavlović]], Section 1 of: *Categorical interpolation: Descent and the Beck-Chevalley condition without direct images*, in: *Category Theory*, Lecture Notes in Mathematics **1488** (1991) &lbrack;[doi:10.1007/BFb0084229](https://doi.org/10.1007/BFb0084229), [pdf](http://www.isg.rhul.ac.uk/dusko/papers/1990-BCDE-Como.pdf)&rbrack;
 
-
 * [[Paul Balmer]], around §7.5 of: *Stacks of group representations*, J. European Math. Soc. **17** 1 (2015) 189-228 &lbrack;[arXiv:1302.6290](https://arxiv.org/abs/1302.6290), [doi:10.4171/jems/501](https://doi.org/10.4171/jems/501)&rbrack;
+
+and in the generality of [[(infinity,1)-categories|$\infty$-categories]]:
+
+* [[Urs Schreiber]], around Def. 5.5 of: *[[schreiber:Quantization via Linear homotopy types]]* &lbrack;[arXiv:1402.7041](https://arxiv.org/abs/1402.7041)&rbrack;
+
+* {#GaitsgoryLurie} [[Dennis Gaitsgory]], [[Jacob Lurie]], Section 2.4.1 of: _Weil's conjecture for function fields_ (2014-2017) &lbrack;["first volume of expanded account" pdf](https://www.math.ias.edu/~lurie/papers/tamagawa-abridged.pdf)&rbrack;
 
 
 Discussion for [[subobject lattices]]:
