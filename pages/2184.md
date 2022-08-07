@@ -273,7 +273,7 @@ Textbooks:
 
 * Chris Godsil and Gordon Royle (2001), _Algebraic Graph Theory_, Springer.
 
-* {#DiestelGraphTheoryFourthEd} R. Diestel, Graph Theory, 4. ed., Springer 2010
+* {#DiestelGraphTheoryFourthEd} [[Reinhard Diestel]], *Graph Theory*, Graduate Texts in Mathematics **173** 5th edition (2017) &lbrack;[website](https://diestel-graph-theory.com/), [doi:10.1007/978-3-662-53622-3](https://doi.org/10.1007/978-3-662-53622-3)]
 
 Other references:
 
