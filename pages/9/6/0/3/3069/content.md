@@ -264,14 +264,17 @@ A kind of Beck-Chevalley condition appears in the axioms of Grothendieck's [[six
 ## References
  {#References}
 
-> The Beck-Chevalley condition has arisen in the theory of descent - as developed from [[Grothendieck]] 1959. [[Jon Beck]] and [[Claude Chevalley]] studied it independently from
-each another. &lbrack;...&rbrack; It is conspicuous that neither of them ever published anything on it. &lbrack;[Pavlović 1991, §14](#Pavlović91)&rbrack;
+> The Beck-Chevalley condition has arisen in the theory of [[monadic descent|descent]] - as developed from [[Grothendieck]] 1959. [[Jon Beck]] and [[Claude Chevalley]] studied it independently from each another. &lbrack;...&rbrack; It is conspicuous that neither of them ever published anything on it. &lbrack;[Pavlović 1991, §14](#Pavlović91)&rbrack;
 
 Original articles:
 
 * {#BenabouRoubaud70} [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, Ser. A **270**  (1970) 96-98 &lbrack;[gallica:12148/bpt6k480298g/f100](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f100), [[BenabouRoubaud-MonadesEtDescente.pdf:file]],   English translation (by [[Peter Heinig]]): [MO:q/279152](https://mathoverflow.net/q/279152)&rbrack;
 
   > (proving the [[Bénabou-Roubaud theorem]])
+
+* {#Lawvere70} [[William Lawvere]], p. 8 of: *[[Equality in hyperdoctrines and comprehension schema as an adjoint functor]]*, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970) 1-14 &lbrack;[pdf](https://ncatlab.org/nlab/files/LawvereComprehension.pdf)&rbrack;
+
+  > (in terms of [[base change]] as the [[categorical semantics]] for [[universal quantification]]/[[dependent product]] and [[existential quantification]]/[[dependent sum]])
 
 Review:
 
