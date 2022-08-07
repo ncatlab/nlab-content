@@ -48,6 +48,7 @@ A general argument that in sectors of the [[AdS-CFT correspondence]] the [[confo
 
 * [[TT deformation]]
 
+
 ## References
 
 ### CS/WZW
@@ -95,6 +96,7 @@ Discussion of the [[Ising model]] [[2d CFT]] as a boundary theory to a 3d [[TQFT
 [[!include 3d gravity and Chern-Simons theory -- references]]
 
 ### $AdS_3$/$CFT_2$
+ {#ReferencesAdS3CFT2}
 
 Discussion of [[AdS/CFT correspondence]] for [[3d gravity]]/[[2d CFT]]:
 
@@ -118,6 +120,11 @@ based on
 See also
 
 * [[Lorenz Eberhardt]], _$AdS_3/CFT_2$ at higher genus_ ([arXiv:2002.11729](https://arxiv.org/abs/2002.11729))
+
+* [[Lorenz Eberhardt]], *A perturbative CFT dual for pure NS-NS $AdS_3$ strings*, J. Phys. A: Math. Theor. **55** 064001 &lbrack;[arXiv:2110.07535](https://arxiv.org/abs/2110.07535), [arXiv:10.1088/1751-8121/ac47b2](https://doi.org/10.1088/1751-8121/ac47b2)&rbrack;
+
+* Kiarash Naderi, *DDF operators in the Hybrid Formalism* &lbrack;[arXiv:2208.01617](https://arxiv.org/abs/2208.01617)&rbrack;
+
 
 
 Relation of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry]] of [[algebraic curves]]:
