@@ -37,24 +37,24 @@ In [[type theory]], a [[type]] closely related to the subobject classifier is th
 
 ## Definition
 
-+-- {: .num_defn}
+\begin{definition}\label{DefinitionOfSubobjectClassifier}
 
-###### Definition
-
-In a [[category]] $C$ with [[finite limit]]s, a **subobject classifier** is a [[monomorphism]] $true : * \to \Omega$ out of the [[terminal object]], such that for every [[monomorphism]] $U \to X$ in $C$ there is a unique morphism $\chi_U : X \to \Omega$ such that there is a [[pullback]] [[diagram]] of the following form:
+In a [[category]] $C$ with [[finite limit]]s, a **subobject classifier** is a [[monomorphism]] $true \,\colon\, * \to \Omega$ out of the [[terminal object]], such that for every [[monomorphism]] $U \to X$ in $C$ there is a unique [[morphism]] $\chi_U \colon X \to \Omega$ such that the following [[commuting square|square commutes]] and is [[Cartesian square|Cartesian]] (a [[pullback]]):
 
 $$
   \array{
-    U &\to& *   
+    U &\longrightarrow& *   
     \\
-    \downarrow && \downarrow^{\mathrlap{true}}
+    \big\downarrow 
+    &{}^{{}_{(pb)}}& 
+    \big\downarrow{{}^\mathrlap{true}}
     \\
-    X &\stackrel{\chi_U}{\to}& \Omega
+    X &\underset{\chi_U}{\longrightarrow}& \Omega
+    \mathrlap{\,.}
   }
-  \,.
 $$
 
-=--
+\end{definition}
 
 See for instance ([MacLane-Moerdijk, p. 32](#MacLaneMoerdijk)).
 
