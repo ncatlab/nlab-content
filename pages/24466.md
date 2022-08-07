@@ -16,14 +16,13 @@
 
 ## Idea
 
-_Lorentzian polynomials_ are a class of [[homogeneous polynomials]] with [[real number|real]] coefficients that are used to
-relate continuous [[convex analysis]] and discrete convex analysis via [[tropical geometry]]. They arise in the study of [[matroids]].
+_Lorentzian polynomials_ are a class of [[homogeneous polynomials]] with [[real number|real]] [[coefficients]] that are used to relate continuous [[convex analysis]] and discrete convex analysis via [[tropical geometry]]. They arise in the study of [[matroids]].
 
 ## Definition
 
 \begin{definition}
 \label{LorentzianPolynomial}
-Let $f \in \mathbb{R}[x_1, \ldots, x_n]$ be a homogeneous polynomial of degree $d$ such that all coefficients of $f$ are strictly positive. If either $d = 0, 1$, or $d\geq 2$  and the [[Hessian]] of any $(d-2)$th partial derivative $\partial_{i_1} \cdots \partial_{i_{d-2}}f$ has Hessian matrix with signature  $(+,-,-,\ldots,-)$, then $f$ is said to be **strictly Lorentzian**. If $f$ is in the closure of the set of strictly Lorentzian polynomials, then it is said to be **Lorentzian**.
+Let $f \in \mathbb{R}[x_1, \ldots, x_n]$ be a homogeneous polynomial of degree $d$ such that all coefficients of $f$ are strictly [[positive number|positive]]. If either $d = 0, 1$, or $d\geq 2$  and the [[Hessian]] of any $(d-2)$th partial derivative $\partial_{i_1} \cdots \partial_{i_{d-2}}f$ has Hessian matrix with signature  $(+,-,-,\ldots,-)$, then $f$ is said to be **strictly Lorentzian**. If $f$ is in the closure of the set of strictly Lorentzian polynomials, then it is said to be **Lorentzian**.
 \end{definition}
 
 
