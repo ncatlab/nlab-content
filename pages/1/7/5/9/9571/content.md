@@ -106,15 +106,15 @@ Review:
 
 * {#Fresse18} [[Benoit Fresse]], _Little discs operads, graph complexes and Grothendieck--Teichmüller groups_, in [[Haynes Miller]] (ed.) _[[Handbook of Homotopy Theory]]_ ([arXiv:1811.12536](https://arxiv.org/abs/1811.12536))
 
-See also
+See also:
 
 *  Leila Schneps, Pierre Lotchak, _Geometric Galois actions_, 1, London Math. Soc. Lecture Note Ser. 242 ([doi](http://dx.doi.org/10.1017%2FCBO9780511666124))-- it contains a reprint of Groethendieck's Esquisse and some surveys by contributors, including Leila Schneps, _The Grothendieck-Teichmueller group GT: a survey_, [pdf](http://www.math.jussieu.fr/~leila/SchnepsGT.pdf)
 
 * [[Maxim Kontsevich]], _Operads and motives in deformation quantization_, Lett. Math. Phys. 48 (1999), 35-72,  [math.QA/9904055](http://arxiv.org/abs/math/9904055)
 
-The following monograph is in progress (and as of early 2016, recently completed):
 
-* Benoit Fresse, _Homotopy of Operads and Grothendieck-Teichm&#252;ller groups_, [website](http://math.univ-lille1.fr/~fresse/OperadHomotopyBook/) 
+* {#FresseHOGTG} [[Benoit Fresse]], *Homotopy of Operads and Grothendieck-Teichmüller Groups (Volumes 1 & 2)*, Mathematical Surveys and Monographs **217** (2017) &lbrack;[ISBN:978-1-4704-3480-9](https://bookstore.ams.org/surv-217/), [website](http://math.univ-lille1.fr/~fresse/OperadHomotopyBook/), [pdf (draft of Part I)](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.648.9110&rep=rep1&type=pdf)&rbrack;
+
 
 > The second purpose of the book is to explain, from a homotopical viewpoint, a deep relationship between operads and Grothendieck-Teichm&#252;ller groups. This connection, which has been foreseen by M. Kontsevich (from researches on the deformation quantization process in mathematical physics), gives a new approach to understanding internal symmetries of structures occurring in various constructions of algebra and topology. In the book, we set up the background required by an in-depth study of this subject, and we make precise the interpretation of the Grothendieck-Teichm&#252;ller group in terms of the homotopy of operads. The book is actually organized for this ultimate objective, which readers can take either as a main motivation or as a leading example to learn about general theories.
 
