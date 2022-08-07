@@ -20,7 +20,7 @@
 
 ## Idea 
 
-What is commonly called _geometric realization_ (or, less commonly but more accurately: *topological realization*) is the operation that builds from a [[simplicial set]] $X$ a [[topological space]] $|X|$ obtained by interpreting each 
+What is commonly called _geometric realization_ (or, less commonly but more accurately: *topological realization*,see Rem. \ref{OnTerminology}) is the operation that builds from a [[simplicial set]] $X$ a [[topological space]] $|X|$ obtained by interpreting each 
 element in $X_n$ -- each abstract [[n-simplex|$n$-simplex]] in $X$ -- as one copy of the standard topological $n$-simplex $\Delta^n_{Top}$ and then gluing together all these along their [[boundaries]] to a big topological space, using the information encoded in the [[face map|face and degeneracy maps]] of $X$ on how these simplices are supposed to be stuck together. This procedure generalises the geometric realization of [[simplicial complexes]] as described at that entry.
 
 Geometric realization is the special case of the general notion of [[nerve and realization]] that is induced from the standard [[simplicial set|cosimplicial]] [[topological space]] $[n] \mapsto \Delta^n_{Top}$. (N.B.: in this article, $[n]$ denotes the ordinal with $n+1$ elements. The corresponding contravariant representable is denoted $\Delta(-, n)$.)  Analogous constrtuctions yield [[cubical geometric realization]], etc.
@@ -34,9 +34,9 @@ The dual concept is _[[totalization]]_ .
 \begin{remark}\label{OnTerminology}
 **(alternative terminology: "topological realization")**
 \linebreak
-While the term *geometric realization* is classical ([Quillen 1968](#Quillen68)) and in common use by [[algebraic topology|algebraic topologists]] (e.g. [Goerss and Jardine 2009, §VII.3](#GoerssJardine09)), it is somewhat inaccurate or at least misleading, in that the bare [[topological spaces]] produced by the realization construction are not yet what [[geometry|geometers]] would commonly regard as reflecting [[geometry|geometric]] [[mathematical structure|structure]]: [[geometry|Geometry]] on a topological space is instead typically taken to be the [[extra structure]] of a [[differentiable manifold]] (e.g. [[smooth structure]]) together with some kind of [[G-structure]] (such as [[Riemannian structure]], [[conformal structure]], etc.). This terminological mismatch is quite stark in the main application to [[homotopy theory]], where one cares only about the ([[weak homotopy type|weak]]) [[homotopy type]] of the realization, which is the most non-geometric aspect of any notion of "[[space]]". The becomes a real issue in contexts of [[differential topology]] and more generally of [[geometric homotopy theory]] (such as for [[differential cohomology theories]]) where realizations of simplicial sets to genuine geometric spaces richer than topological spaces do play a role (e.g. already for the notion of smooth/[[equivariant triangulation|equivariant]] [[triangulations]] of [[smooth manifolds]]). 
+While the term *geometric realization* is classical ([Quillen 1968](#Quillen68)) and in common use by [[algebraic topology|algebraic topologists]] (e.g. [Goerss & Jardine 2009, §VII.3](#GoerssJardine09)), it is somewhat inaccurate or at least misleading, in that the bare [[topological spaces]] produced by the realization construction are not yet what [[geometry|geometers]] would commonly regard as reflecting [[geometry|geometric]] [[mathematical structure|structure]]: [[geometry|Geometry]] on a topological space is instead typically taken to be the [[extra structure]] of a [[differentiable manifold]] (e.g. [[smooth structure]]) together with some kind of [[G-structure]] (such as [[Riemannian structure]], [[conformal structure]], etc.). This terminological mismatch is quite stark in the main application to [[homotopy theory]], where one cares only about the ([[weak homotopy type|weak]]) [[homotopy type]] of the realization, which is the most non-geometric aspect of any notion of "[[space]]". This becomes a real issue in contexts of [[differential topology]] and more generally of [[geometric homotopy theory]] (such as for [[differential cohomology theories]]) where realizations of simplicial sets to genuine geometric spaces richer than topological spaces do play a role (e.g. already for the notion of smooth/[[equivariant triangulation|equivariant]] [[triangulations]] of [[smooth manifolds]]). 
 
-In conclusion, a more accurate and more descriptive term for the realization operation discussed here would be **topological realization**. Reference which use this terminology include [Simpson 1996](#Simpson96), [Lackenby 2008, §I.2](#Lackenby08). In [Fresse 2017](operad#FresseHOGTG) the term "topological realization" is used in the pdf draft but is replaced by "geometric realization" in the published version.
+In conclusion, a more accurate and more descriptive term for the realization operation discussed here would be **topological realization**. References which use this terminology include [Simpson 1996](#Simpson96), [Jardine 2004](simplicial+approximation+theorem#Jardine04), [Lackenby 2008, §I.2](#Lackenby08). In [Fresse 2017](operad#FresseHOGTG) the term "topological realization" is used in the pdf draft but is replaced by "geometric realization" in the published version.
 \end{remark}
 
 ## Definition
@@ -371,9 +371,10 @@ Modern Birkh&#228;user Classics (2009)
 
 * {#FP90}  [[Rudolf Fritsch]], [[Renzo A. Piccinini]], _Cellular structures in topology_, Cambridge studies in advanced mathematics Vol. 19, Cambridge University Press (1990). ([doi:10.1017/CBO9780511983948](https://doi.org/10.1017/CBO9780511983948), [pdf](https://epub.ub.uni-muenchen.de/4493/1/4493.pdf)) 
 
+
 Lecture notes:
 
-* {#Lackenby08} [[Marc Lackenby]], Section I.2 of: *Topology and Groups* (2008, 2018) &lbrack;[pdf](http://people.maths.ox.ac.uk/lackenby/tg050908.pdf)&rbrack;
+* {#Lackenby08} [[Marc Lackenby]], Section I.2 of: *Topology and Groups* (2008, 2018) &lbrack;[pdf](http://people.maths.ox.ac.uk/lackenby/tg050908.pdf), [[Lackenby-TopologyAndGroups.pdf:file]]&rbrack;
 
 Generalization to realization of [[simplicial presheaves]]:
 
