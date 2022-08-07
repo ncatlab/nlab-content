@@ -36,10 +36,6 @@ Joyal has contributed to the $n$Lab as 'joyal'; he once began a project at [[joy
 
 * A. Joyal, R. Street, D. Verity, _Traced monoidal categories_.  Math. Proc. Cambridge Philos. Soc.  __119__  (1996),  no. 3, 447--468. 
 
-* A. Joyal, [[Ieke Moerdijk|I. Moerdijk]], _Algebraic set theory_. London Mathematical Society Lecture Note Series __220__. Cambridge Univ. Press 1995. viii+123 pp. ISBN: 0-521-55830-1
-
-* {#Joyal08} [[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008 ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]])
-
 
 * A Joyal, _Notes on quasicategories_, ([draft](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf))
 
@@ -54,6 +50,16 @@ Sciences Mathematiques du Qu&#233;bec 1(4):46&#8211;52, 1977; Robin Houston's ro
 scientific methods. Volume one of the proceedings of the tenth international
 congress of logic, methodology and philosophy of science, Florence, Italy, Synth.
 Libr. 259, pages 29&#8211;68. Dordrecht: Kluwer Academic Publishers, 1997.
+
+On [[algebraic set theory]]:
+
+* A. Joyal, [[Ieke Moerdijk|I. Moerdijk]], _Algebraic set theory_. London Mathematical Society Lecture Note Series __220__. Cambridge Univ. Press 1995. viii+123 pp. ISBN: 0-521-55830-1
+
+On [[quasi-categories]]:
+
+* {#Joyal08} [[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008 ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]])
+
+
 
 
 On [[simplicial homotopy theory]], the [[classical model structure on simplicial sets]] and the [[classical model structure on topological spaces]]:
