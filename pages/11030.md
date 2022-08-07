@@ -19,9 +19,11 @@ see also his
 
 * [[differential category]]
 
-##Selected publications
+## Selected writings
 
+On [[categorical semantics]] of [[linear type theory]]:
 
+* [[Richard Blute]], [[Philip Scott]], *Category theory for linear logicians*, in: *Linear Logic in Computer Science*, Cambridge University Press (2004) 3-64 &lbrack; [doi:10.1017/CBO9780511550850.002](https://doi.org/10.1017/CBO9780511550850.002), [pdf](https://www.site.uottawa.ca/~phil/papers/catsurv.web.pdf)&rbrack;
 
 * {#BCS96} [[R.F.Blute]] , [[J. R. B. Cockett]] and [[R. A. G. Seely]].  *! and ? &#8211; Storage as tensorial strength* [doi](https://doi.org/10.1017/S0960129500001055), [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.26.7317&rep=rep1&type=pdf)
 
