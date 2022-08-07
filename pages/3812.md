@@ -159,8 +159,9 @@ Finally, because $R: Set^{\Delta^{op}} \to Top$ is product-preserving and preser
 
 * [[equivariant triangulation]]
 
-  [[equivariant triangulation theorem]]
+* [[equivariant triangulation theorem]]
 
+* [[cubulation]]
 
 ## References
 
