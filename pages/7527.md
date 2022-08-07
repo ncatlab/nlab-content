@@ -13,7 +13,7 @@ On [[categorical logic]] and [[topos theory]]:
 
 On [[categorical semantics]] of [[linear type theory]]:
 
-* [[Richard Blute]], [[Philip Scott]], *Category theory for linear logicians*, in: *Linear Logic in Computer Science*, Cambridge University Press (2004) 3-64 &lbrack; [doi:10.1017/CBO9780511550850.002](https://doi.org/10.1017/CBO9780511550850.002), [pdf](https://www.site.uottawa.ca/~phil/papers/catsurv.web.pdf)&rbrack;
+* [[Richard Blute]], [[Philip Scott]], *Category theory for linear logicians*, in: *Linear Logic in Computer Science*, Cambridge University Press (2004) 3-64 &lbrack;[doi:10.1017/CBO9780511550850.002](https://doi.org/10.1017/CBO9780511550850.002), [pdf](https://www.site.uottawa.ca/~phil/papers/catsurv.web.pdf)&rbrack;
 
 
 category: people
