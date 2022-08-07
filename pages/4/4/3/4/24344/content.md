@@ -153,14 +153,14 @@ Detailed review of these two cases:
 
 * {#Jardine15} [[John F. Jardine]], Section 5.4 of: *Local homotopy theory*, Springer Monographs in Mathematics (2015) &#x5B;[doi:10.1007/978-1-4939-2300-7](https://doi.org/10.1007/978-1-4939-2300-7)]
 
-
 Generalization of these two cases to [[completely decomposable topology|completely decomposable topologies]]:
 
 * {#Voevodsky10} [[Vladimir Voevodsky]], *Homotopy theory of simplicial presheaves in completely decomposable topologies*, Journal of Pure and Applied Algebra **214** 8 (2010) 1384-1398  &#x5B;[arXiv:0805.4578](https://arxiv.org/abs/0805.4578), [doi:10.1016/j.jpaa.2009.11.004](https://doi.org/10.1016/j.jpaa.2009.11.004)]
 
 Discussion for [[numerable open covers]] of [[topological spaces]] and of [[smooth manifolds]] with application to [[smooth infinity-groupoids|smooth $\infty$-groupoids]] and their [[shape via cohesive path ∞-groupoids]]:
 
-* {#Pavlov22} [[Dmitri Pavlov]], *Numerable open covers and representability of topological stacks* &#x5B;[arXiv:2203.03120](https://arxiv.org/abs/2203.03120)]
+* {#Pavlov22} [[Dmitri Pavlov]], *Numerable open covers and representability of topological stacks*, Topology and its Applications **318** (2022) 108203 &lbrack;[arXiv:2203.03120](https://arxiv.org/abs/2203.03120), [doi:10.1016/j.topol.2022.108203](https://doi.org/10.1016/j.topol.2022.108203)&rbrack;
+
 
 [[!redirects Brown-Gersten properties]]
 
