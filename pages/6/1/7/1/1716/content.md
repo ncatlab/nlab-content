@@ -108,7 +108,7 @@ talks about "stacked covers": these are useful for 'decomposing' numerable cover
 
 Detailed review of numerable covers and discussion of [[descent]] over them for [[simplicial presheaves]] via a [[Brown-Gersten property]]:
 
-* [[Dmitri Pavlov]], *Numerable open covers and representability of topological stacks* &#x5B;[arXiv:2203.03120](https://arxiv.org/abs/2203.03120)]
+* [[Dmitri Pavlov]], *Numerable open covers and representability of topological stacks*, Topology and its Applications **318** (2022) 108203 &lbrack;[arXiv:2203.03120](https://arxiv.org/abs/2203.03120), [doi:10.1016/j.topol.2022.108203](https://doi.org/10.1016/j.topol.2022.108203)&rbrack;
 
 
 
