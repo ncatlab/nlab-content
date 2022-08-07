@@ -9,6 +9,10 @@ On [[simplicial homotopy theory]]:
 
 * (with [[Paul Goerss|P.G. Goerss]]) _[[Simplicial homotopy theory]]_, 1999
 
+On the [[simplicial approximation theorem]]:
+
+* {#Jardine04} [[John F. Jardine]], *Simplicial approximation*, Theory and Applications of Categories, **12** 2 (2004) 34-72 &lbrack;[tac:12-02](https://www.emis.de/journals/TAC/volumes/12/2/12-02abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/12/2/12-02.pdf)&rbrack;
+
 On [[model structures on simplicial presheaves]]:
 
 * _[[Local homotopy theory]]_, 2015
