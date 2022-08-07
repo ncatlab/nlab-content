@@ -8,5 +8,13 @@ On [[regular categories]] and [[protomodular categories]]:
 
 * {#Gran20} [[Marino Gran]], *An introduction to regular categories*, in: New Perspectives in Algebra, Topology and Categories,  Coimbra Mathematical Texts, Springer (2021) &lbrack;[arXiv:2004.08964](https://arxiv.org/abs/2004.08964), [ISBN:978-3-030-84319-9](https://www.springerprofessional.de/en/new-perspectives-in-algebra-topology-and-categories/19764096)&rbrack;
 
+On [[Goursat categories]]:
+
+* [[Marino Gran]], [[Diana Rodelo]], *A New Characterisation of Goursat Categories*, Applied Categorical Structures **20** (2012) 229–238 &lbrack;[doi:10.1007/s10485-010-9236-x](https://doi.org/10.1007/s10485-010-9236-x)&rbrack;
+
+On the [[Beck-Chevalley condition]] in [[Goursat categories]]:
+
+* [[Marino Gran]], [[Diana Rodelo]], *Beck-Chevalley condition and Goursat categories*, Journal of Pure and Applied Algebra **221** 10 (2017) 2445-2457 &lbrack;[arXiv:1512.04066](https://arxiv.org/abs/1512.04066), [doi:10.1016/j.jpaa.2016.12.031](https://doi.org/10.1016/j.jpaa.2016.12.031)&rbrack;
+
 
 category:people
