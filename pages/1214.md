@@ -42,6 +42,8 @@ In any Malcev category, every [[internal category]] is an [[internal groupoid]].
 
 * [[subtractive category]]
 
+* [[Goursat category]]
+
 ## References
 
 * {#BorceuxBourn04} [[Francis Borceux]], [[Dominique Bourn]], _[[Mal'cev, protomodular, homological and semi-abelian categories]]_, Mathematics and Its Applications __566__, Kluwer 2004 ([doi:10.1007/978-1-4020-1962-3](https://link.springer.com/book/10.1007/978-1-4020-1962-3))
