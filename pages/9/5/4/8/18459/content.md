@@ -7,9 +7,11 @@ This page collects material related to the article
 
   Proceedings of the AMS Symposium on Pure Mathematics XVII (1970), 1-14. 
 
-  ([pdf](https://ncatlab.org/nlab/files/LawvereComprehension.pdf))
+  [pdf](https://ncatlab.org/nlab/files/LawvereComprehension.pdf)
 
-on [[hyperdoctrines]] and [[comprehension]] in terms of [[base change]] [[adjoint functors]].
+  [GoogleBooks](https://books.google.de/books?hl=en&lr=&id=uuYCCAAAQBAJ&oi=fnd&pg=PA1&dq=Equality+in+hyperdoctrines+and+comprehension+schema+as+an+adjoint+functor&ots=v8gWJvEIyI&sig=pbl-hby1aUC1zJ1sav4flLz-OWM&redir_esc=y#v=onepage&q=Equality%20in%20hyperdoctrines%20and%20comprehension%20schema%20as%20an%20adjoint%20functor&f=false)
+
+on [[hyperdoctrines]] and [[comprehension]] in terms of [[base change]] [[adjoint functors]] (and on the [[Beck-Chevalley condition]]).
 
 ## Related articles
 
