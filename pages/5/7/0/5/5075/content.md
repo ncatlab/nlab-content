@@ -120,5 +120,8 @@ $$X(n) = \int^m C(m) \cdot \Box_{\delta m}(n)$$
 
 we have a homeomorphism $Y \cong \int^n X(n) \cdot \sigma(n) = R X$, i.e., we obtain a triangulation of $Y$. 
 
+## Related concepts
+
+* [[triangulation]]
 
 [[!redirects cubulation]]
