@@ -79,3 +79,6 @@ Moreover, if $(X, A)$ is a finite simplicial pair, we may choose the subdivision
 ## References 
 
 * {#Switzer75} [[Robert Switzer]], Lemma 6.8, p. 76 in: _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975 ([doi:10.1007/978-3-642-61923-6](https://link.springer.com/book/10.1007/978-3-642-61923-6))
+
+* {#FritschPiccini90} [[Rudolf Fritsch]], [[Renzo A. Piccinini]], Section 2.4 in: _Cellular structures in topology_, Cambridge studies in advanced mathematics Vol. 19, Cambridge University Press (1990). ([doi:10.1017/CBO9780511983948](https://doi.org/10.1017/CBO9780511983948), [pdf](https://epub.ub.uni-muenchen.de/4493/1/4493.pdf)) 
+
