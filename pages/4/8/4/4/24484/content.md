@@ -23,7 +23,7 @@ A Dedekind-Hasse norm is a generalization of the degree function in an [[Euclide
 \begin{definition}
 Let $R$ be an [[integral domain]]. A Dededekind-Hasse norm is a function $v:R \rightarrow \mathbb{N}$ such that:
 
-* $v(r)=0 \Leftrightarrow r=0$
+* $v(s)=0 \Leftrightarrow s=0$
 * $\forall a \in R$, $\forall (b \neq 0) \in R$:
    * $b|a$, or
    * $\exists p,q,r \in R$ such that $pa = bq + r$ and $0 \lt v(r) \lt v(b)$ 
@@ -33,6 +33,11 @@ Let $R$ be an [[integral domain]]. A Dededekind-Hasse norm is a function $v:R \r
 \begin{proposition}
 Let $R$ be an integral domain. Then it is a principal ideal domain iff it possesses a Dedekind-Hasse norm.
 \end{proposition}
+\begin{proof}
+Suppose that $R$ possesses a Dedekind-Hasse norm. Let $I$ be a non-zero ideal. Let $b$ be a non-zero element of $I$ of minimal norm. We know that $(b) \subseteq I$. Let $a$ be an element of $I$. Suppose that $b$ doesn't divide $a$. Then, there exists $p,q,r \in R$ such that $pa = bq+r$ and $0 \lt v(r) \lt v(b)$. Thus, $r=pa-bq \in I$, $r \neq 0$ and $v(r) \lt v(b)$, absurd! Therefore $b|a$ and $a \in (b)$. Thus, $I \subseteq (b)$ and $I = (b)$. We have proved that $R$ is a pid.
+
+Suppose that $R$ is a pid. Thus, it is a [[unique factorization domain| UFD]]. Put $v(s)=0$ if $s=0$, and $v(s)$ equal to $2^{n}$ where $n$ is the number of irreducible elements in the factorization of $n$, if $s \neq 0$. Let $a \in R$ and $(b \neq 0) \in R$. Suppose that $b$ doesn't divide $a$. We know that $(a,b) = (r)$ and thus there exists $p,q,r \in R$ such that $pa+bq = r$.  $r$ divides $b$ but $b$ doesn't divide $r$ because it would imply that $b$ divides $a$. Thus, there is strictly less irreducible elements in the factorization of $r$ than in the one of $b$ and $v(r) \lt v(b)$. Moreover $r \neq 0$ because $(a,b) = (r)$ and $b \neq 0$. Thus $0 \lt v(r) \lt v(b)$. We have proved that $v$ is a Dedekind-Hasse norm.
+\end{proof} 
 
 ## References
 
