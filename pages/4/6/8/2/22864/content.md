@@ -7,11 +7,13 @@
 
 ## Idea
 
-Differential linear logic is an extension of [[linear logic]]. New inference rules are added which allow to differentiate proofs. Differential linear logic can be presented in different guises whether we include the additives or not, and whether we include the promotion or not. The intuitive understanding of linear logic is difficult to extend to differential linear logic. Proofs must be understood as morphisms and the new inference rules are here to differentiate them.
+Differential linear logic is an extension of [[linear logic]]. New inference rules are added which allow to differentiate proofs. Proofs must be understood as morphisms and the new inference rules are here to differentiate them. It was realised than in some denotational models of linear logic, the morphisms of the [[Kleisli category|co-Kleisli category]] are differentiable, and it was then reflected in the syntax by these new inference rules. Thus, one really needs to take the point of view of [[computational trinitarianism]] in order to understand the transition from linear logic to differential linear logic. It is more difficult to understand naively the proofs of differential linear logic than the ones of linear logic.
+
+Differential linear logic can be presented in different guises whether we include the additives or not, and whether we include the promotion or not. We start by presenting the version without additives and with promotion. We will refer to this logic as DiLL.
 
 ## Syntax
 
-We present the version without additives and with promotion. We will refer to this logic as DiLL. There is two way to present the syntax in  [[sequent calculus]]. With bilateral sequents or monolateral sequents. The first one is closer to the language of category theory but the second one allows to make the links with the syntax in [[proof nets]] and to divide by two the number of inference rules. Using the monolateral version (or proof nets) require to quotient the formulas by some equalities related to negation and [[De Morgan duality]].
+There is two way to present the syntax in  [[sequent calculus]]. With bilateral sequents or monolateral sequents. The first one is closer to the language of category theory but the second one allows to make the links with the syntax in [[proof nets]] and to divide by two the number of inference rules. Using the monolateral version (or proof nets) require to quotient the formulas by some equalities related to negation and [[De Morgan duality]].
 
 ### Formulas - Generalities
 
@@ -46,11 +48,49 @@ Notice that some equalities are implied by other ones and thus we could give a s
 
 Inference rules will allow us to build proofs. Notice that compared to MELL, we need the ability to sum proofs. We give an explicit rule for this summation of proofs. We give also a rule for null proofs. Finally, the new inference rules are: coderiliction, cocontraction, coweakening, sum of proofs, null proof.
 
-(...)
+* Axiom: $\frac{}{A \vdash A}^{ax}$
+* Left exchange: $\frac{\Gamma_{1},A,B,\Gamma_{2} \vdash \Delta}{\Gamma_{1},B,A,\Gamma_{2} \vdash \Delta}$
+* Right exchange: $\frac{\Gamma \vdash \Delta_{1},A,B,\Delta_{2}}{\Gamma \vdash \Delta_{1},B,A,\Delta_{2}}$
+* Left $\otimes$: $\frac{\Gamma_{1}, A, B, \Gamma_{2} \vdash \Delta}{\Gamma_{1}, A \otimes B, \Gamma_{2} \vdash \Delta}$
+* Right $\parr$: $\frac{\Gamma \vdash \Delta_{1}, A, B, \Delta_{2}}{\Gamma \vdash \Delta_{1}, A \parr B, \Delta_{2}}$
+* Right $\otimes$: $\frac{\Gamma_{1} \vdash \Delta_{1}, A, \Delta_{2} \qquad \Gamma_{2} \vdash \Delta_{3}, B, \Delta_{4}}{\Gamma_{1}, \Gamma_{2} \vdash \Delta_{1}, \Delta_{3}, A \otimes B, \Delta_{4}, \Delta_{2}}$
+* Left $\parr$: $\frac{\Gamma_{1}, A, \Gamma_{2} \vdash \Delta_{1} \qquad \Gamma_{3}, B, \Gamma_{4} \vdash \Delta_{2}}{\Gamma_{1}, \Gamma_{3}, A \parr B, \Gamma_{4}, \Gamma_{2} \vdash \Delta_{1}, \Delta_{2}}$
+* Left $1$: $\frac{\Gamma_{1}, \Gamma_{2} \vdash \Delta}{\Gamma_{1}, 1, \Gamma_{2} \vdash \Delta}$
+* Right $\bot$: $\frac{\Gamma \vdash \Delta_{1},\Delta_{2}}{\Gamma \vdash \Delta_{1}, \bot, \Delta_{2}}$
+* Right $1$: $\frac{}{\vdash 1}$
+* Left $\bot$: $\frac{}{\bot \vdash}$
+* Left negation: $\frac{\Gamma \vdash A, \Delta}{\Gamma, A^{\perp} \vdash \Delta}$
+* Right negation: $\frac{\Gamma, A \vdash \Delta}{\Gamma, \vdash A^{\perp}, \Delta}$
+* Left dereliction: $\frac{\Gamma_{1},A ,\Gamma_{2} \vdash \Delta}{\Gamma_{1}, !A, \Gamma_{2} \vdash \Delta}$
+* Right dereliction: $\frac{\Gamma \vdash \Delta_{1},A ,\Delta_{2}}{\Gamma \vdash \Delta_{1}, ?A, \Delta_{2}}$
+* Left weakening: $\frac{\Gamma_{1},\Gamma_{2} \vdash \Delta}{\Gamma_{1}, !A, \Gamma_{2} \vdash \Delta}$
+* Right weakening: $\frac{\Gamma \vdash \Delta_{1}, \Delta_{2}}{\Gamma \vdash \Delta_{1}, ?A, \Delta_{2}}$
+* Left contraction: $\frac{\Gamma_{1},!A ,!A, \Gamma_{2} \vdash \Delta}{\Gamma_{1}, !A, \Gamma_{2} \vdash \Delta}$
+* Right contraction: $\frac{\Gamma \vdash \Delta_{1},?A , ?A, \Delta_{2}}{\Gamma \vdash \Delta_{1}, ?A, \Delta_{2}}$
+* Right Promotion: $\frac{!\Gamma \vdash ?\Delta_{1}, A, ?\Delta_{2}}{!\Gamma \vdash ?\Delta_{1}, !A, ?\Delta_{2}}$
+* Left promotion: $\frac{!\Gamma_{1}, A, !\Gamma_{2} \vdash \Delta}{!\Gamma_{1}, ?A, !\Gamma_{2} \vdash \Delta}$
+* Right codereliction: $\frac{\Gamma \vdash \Delta_{1}, A, \Delta_{2}}{\Gamma \vdash \Delta_{1}, !A, \Delta_{2}}$
+* Left codereliction: $\frac{\Gamma_{1}, A, \Gamma_{2} \vdash \Delta}{\Gamma_{1}, ?A, \Gamma_{2} \vdash \Delta}$
+* Right coweakening: $\frac{}{\vdash !A}$
+* Left coweakening: $\frac{}{?A \vdash}$
+* Right cocontraction: $\frac{\Gamma_{1} \vdash \Delta_{1}, !A, \Delta_{2} \qquad \Gamma_{3} \vdash \Delta_{3}, !A, \Delta_{4}}{\Gamma_{1}, \Gamma_{3} \vdash \Delta_{1}, \Delta_{3}, !A, \Delta_{4}, \Delta_{2}}
+$
+* Left cocontraction: $\frac{\Gamma_{1}, ?A, \Gamma_{2} \vdash \Delta_{1} \qquad \Gamma_{3}, ?A, \Gamma_{4} \vdash \Delta_{2}}{\Gamma_{1}, \Gamma_{3}, ?A, \Gamma_{4}, \Gamma_{2} \vdash \Delta_{1}, \Delta_{2}}$
+* Nul proof: $\frac{}{\Gamma \vdash \Delta}^{0}$
+* Sum of proofs: $\frac{\Gamma \vdash \Delta \qquad \Gamma \vdash \Delta}{\Gamma \vdash \Delta}$
+* Cut: $\frac{\Gamma_{1} \vdash \Delta_{1}, A, \Delta_{2} \qquad \Gamma_{2}, A, \Gamma_{3} \vdash \Delta_{3}}{\Gamma_{2}, \Gamma_{1}, \Gamma_{3} \vdash \Delta_{1}, \Delta_{3}, \Delta_{2}}$
 
 ### Inference rules - Monolateral syntax
 
 ## Isomorphisms in bilateral syntax
+
+## Cut elimination
+
+There is a [[rewriting system]] which, given an instance of the cut rule in a proof, reduces the proof by making the cut go higher in the proof. There is the key cases which induce important commuting diagrams in the categorical semantics and the commuting cases which are less important. The idea is that when a cut arrives at the beginning of the proof, ie. at the level of the leafs which are axioms, we can finally eliminate it by a final rewriting step. This is when a cut is made against an axiom rule, that we can finally eliminate it. We know that this rewriting system is [[strongly normalizing]] and that the [[normal forms]] are the cut-free proofs. It means that by using rewriting rules in the order you want, at the end you obtain a proof without cut, thus the name [[cut-elimination]]. It is important to know actually this rewriting system and not only that we can eleminate the cuts in a proof because this cut-elimination prodecure creates the commuting diagrams of the categorical semantics when we quotient the proofs by these cut-elimination steps.
+
+### Cut elimination steps
+
+### What is an isomorphism?
 
 ## Semantics
 
@@ -93,9 +133,11 @@ $$
 \frac{\frac{\frac{\frac{\frac{}{!A \vdash !A}^{ax} \frac{\frac{}{A \vdash A}^{ax}}{A \vdash !A}}{!A,A \vdash !A} !A \vdash B}{!A,A \vdash B}}{!A \vdash A^{\perp},B}}{!A \vdash A \multimap B}
 $$
 
-## Relations between differential linear logic and differential categories
+## Categorical semantics of differential linear logic and differential categories
 
 (...)
+
+## Additives and Seely isomorphisms
 
 ## Related concepts
 
