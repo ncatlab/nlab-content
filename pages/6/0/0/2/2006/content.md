@@ -168,7 +168,5 @@ Discussion of Kleisli categories in [[type theory]] is in
 
 
 [[!redirects Kleisli construction]]
-[[!redirects Kleisli constructions]
-
-]
+[[!redirects Kleisli constructions]]
 
