@@ -15,7 +15,12 @@ We then have:
 * $X - A_{1} = \multiscripts{_^n}{\Delta}{_0^0}(A_{1})$
 * $A_{1} = \multiscripts{_^n}{\Delta}{_1^1}(A_{1})$
 
-We also have:
+## The logic at work
 
-* $X - (A_{1} \cup ... \cup A_{n}) = \multiscripts{_^n}{\Delta}{_0^0}(A_{1},...,A_{n})$
-* $X - (A_{1} \cap ... \cap A_{n}) =$
+### Differentiating a proof
+
+We start from a proof of $!A \vdash B$ and by using as only exponential rules cocontraction and codereliction, we obtain a proof of $!A \vdash A \multimap B$. In the co-Kleisli category we thus go from a morphism $f:A \rightarrow B$, which must be interpreted as a smooth function, to a morphism $df: A \rightarrow (A \multimap B)$. It is the differential of $f$ which associate to every point of $A$ the linear approximation of $f$ around this point.
+
+$$
+\frac{\frac{\frac{\frac{\frac{}{!A \vdash !A}^{ax} \frac{\frac{}{A \vdash A}^{ax}}{A \vdash !A}}{!A,A \vdash !A} !A \vdash B}{!A,A \vdash B}}{!A \vdash A^{\perp},B}}{!A \vdash A \multimap B}
+$$
