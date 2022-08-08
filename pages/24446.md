@@ -31,9 +31,13 @@ Moreover, some mathematicians argue that semiring should be used in analogy to s
 
 The first definition is the most general of the four definitions of a semiring, and some authors use it precisely because of its generality. 
 
-The nLab uses the second definition to define a semiring, and the fourth definition to define a [[rig]]. The first and third are then called nonunital semirings and nonunital rigs respectively. 
+If one adopts the second definition to define a semiring, and the fourth definition to define a [[rig]], then the first and third are then called *nonunital semirings* and *nonunital rigs* respectively. 
 
-## See also
+## Examples
+
+* [[tropical semiring]]
+
+## Related concepts
 
 * [[rig]]
 
@@ -43,9 +47,9 @@ The nLab uses the second definition to define a semiring, and the fourth definit
 
 ## References
 
-* Wikipedia, [Semiring](http://en.wikipedia.org/wiki/Semiring)
+* Wikipedia, *[Semiring](http://en.wikipedia.org/wiki/Semiring)*
 
-* Wolfram Mathworld, [Semiring](https://mathworld.wolfram.com/Semiring.html)
+* Wolfram Mathworld, *[Semiring](https://mathworld.wolfram.com/Semiring.html)*
 
 * Kazimierz Glazek, [A guide to the literature on semirings and their applications in mathematics and information sciences](https://zbmath.org/?format=complete&q=an:1072.16040)
 
