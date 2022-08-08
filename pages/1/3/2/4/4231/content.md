@@ -1583,7 +1583,7 @@ The original articles are
 * {#Cisinski02} [[Denis-Charles Cisinski]] , _Th&#233;ories homotopiques dans les topos_, JPAA, Volume 174 (2002), p.43-82
  
 
-* {#Cisinski06} [[Denis-Charles Cisinski]], _Les préfaisceaux comme types d'homotopie|Les préfaisceaux comme modèles des types d'homotopie_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([numdam:AST_2006__308__R1_0](http://www.numdam.org/item/?id=AST_2006__308__R1_0) [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
+* {#Cisinski06} [[Denis-Charles Cisinski]], *Les préfaisceaux comme types d'homotopie|Les préfaisceaux comme modèles des types d'homotopie*, Astérisque **308** Soc. Math. France (2006), 392 pages &lbrack;[numdam:AST_2006__308__R1_0](http://www.numdam.org/item/?id=AST_2006__308__R1_0) [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf)&rbrack;
  
 A more recent, English presentation of much of this material appears in section 2.4 of
 
