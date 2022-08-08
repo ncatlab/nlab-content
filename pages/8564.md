@@ -21,7 +21,9 @@ A [[ring]] $R$ is a **principal ideal domain** if
 
 2. every [[ideal]] in $R$ is a [[principal ideal]]. 
 
-Often _pid_ is used as an abbreviation of "principal ideal domain". 
+Often _pid_ is used as an abbreviation of "principal ideal domain".
+
+A _pid_ can also be characterized as an [[integral domain]] wich possesses a [[Dedekind-Hasse norm]], making very clear the fact that it is a generalization of an [[Euclidean domain]].
 
 ## Examples
 
