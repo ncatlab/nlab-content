@@ -61,9 +61,9 @@ Let $C$ be
 
 * a [[locally presentable category]] 
 
-* or, more generally, such that it has all [[colimit]]s and each domain of morphisms in $I$ is a [[small object]].
+* or, more generally, such that it has all [[colimits]] and each domain of morphisms in $I$ is a [[small object]].
 
-* or, yet more generally, such that it has all [[colimit]]s and each domain of morphisms in $I$ is small relative to [[transfinite composition|transfinite composites]] of [[pushout]]s of maps in $I$.
+* or, yet more generally, such that it has all [[colimit]]s and each [[domain]] of [[morphisms]] in $I$ is [[small object|small]] relative to [[transfinite composition|transfinite composites]] of [[pushouts]] of maps in $I$.
 
 Then 
 
