@@ -142,7 +142,7 @@ The concept of relative adjoint functors is a generalization of the concept of a
 	\[
 		N_F \colon B \to \mathbf{Set}^{A^{\mathop{op}}}
 	\]
-	given by $N_F(b)(a) = A(Fa,b)$. It is a fundamental fact that $F = \mathop{Lift}_{N_F} y_A$ and this lifting is _absolute_; or, in relative adjoint notation, $F {\,\,}_{y_A}\!\dashv N_F$. The universal 2-cell $\iota\colon y_A \to N_F F$ is given by the action of $F$ on morphisms:
+	given by $N_F(b)(a) = B(Fa,b)$. It is a fundamental fact that $F = \mathop{Lift}_{N_F} y_A$ and this lifting is _absolute_; or, in relative adjoint notation, $F {\,\,}_{y_A}\!\dashv N_F$. The universal 2-cell $\iota\colon y_A \to N_F F$ is given by the action of $F$ on morphisms:
 	\[
 		\iota_a \colon y_A a \to (N_F F)(a)
 	\]
