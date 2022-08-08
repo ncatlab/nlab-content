@@ -46,7 +46,7 @@ That both the [[integers]] and the [[polynomial rings]] $\mathbb{F}_q[x]$ over [
 
 +-- {: .num_lemma} 
 ###### Lemma 
-In a pid $R$, an element $x$ is irreducible iff $(x)$ is a maximal ideal. 
+In a pid $R$, an element $x$ is irreducible iff $(x)$ is a [[maximal ideal]]. 
 =-- 
 
 +-- {: .proof} 
