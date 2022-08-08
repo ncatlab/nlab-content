@@ -30,7 +30,7 @@ The Cartesian space $\mathbb{R}^n$ with its standard [[topological space|topolog
 
 One could also regard $\mathbb{R}$ as the [[real vector space]] of [[dimension of a vector space|dimension]] 1, in which case $\mathbb{R}^n$ would be the real vector space of dimension $n$ (maybe understood as equipped with the [[linear basis]] canonically induced by this presentation), hence [[generalized the|the]] "real $n$-dimensional vector space". However, a vector space would typically not be referred to as a "Cartesian space".
 
-But in between the last two examples, regarding $\mathbb{R}^n$ as an *[[affine space]]* makes it the the basis of "[analytic geometry](https://en.m.wikipedia.org/wiki/Analytic_geometry)" in the sense originally due to [[René Descartes]] ([[Cartesian geometry]]), and this is where the term "Cartesian space" originates from.
+But in between the last two examples, regarding $\mathbb{R}^n$ as an *[[affine space]]* makes it the basis of "[analytic geometry](https://en.m.wikipedia.org/wiki/Analytic_geometry)" in the sense originally due to [[René Descartes]] ([[Cartesian geometry]]), and this is where the term "Cartesian space" originates from.
 
 
 
