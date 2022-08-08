@@ -22,6 +22,7 @@ A __rig__ is a [[ring]] 'without negatives' (hence the missing 'n' in the name, 
 Rigs are commonly also called _semirings_, but the term 'semiring' is overloaded in the mathematics literature, with different authors each defining a semiring to be different algebraic structures from each other. See [[semiring]] for a discussion about the various definitions of semirings; only one of the proposed definitions is the same as the rig definition. 
 
 ## Definition
+ {#Definition}
 
 A _rig_ is a [[set]] $R$ with binary operations of addition and multiplication, such that
 
@@ -60,9 +61,10 @@ Some rigs which are neither rings nor distributive lattices include:
 * The nonnegative [[rational number]]s and the nonnegative [[real numbers]].
 * Polynomials with coefficients in any rig.
 * The set of isomorphism classes of objects in any [[distributive category]], or more generally in any [[rig category]].
+
 * The [[tropical rig]], which is $\mathbb{R}\cup \{\infty\}$ with addition $x\oplus y = min(x,y)$  and multiplication $x\otimes y = x+y$.
 
- Tropical rigs are one of an important class of [[idempotent semirings]]. 
+  Tropical rigs are among the important class of *[[idempotent semirings]]*. 
 
 * The [[ideals]] of a [[commutative ring]] form a rig under ideal addition and multiplication, where the unit and zero ideals are the unit and zero elements of the rig, respectively.  They also form a [[distributive lattice]] and therefore a rig in another way; note that the addition operation is the same in both rigs but the multiplication operation is different (being intersection in the lattice).
 
