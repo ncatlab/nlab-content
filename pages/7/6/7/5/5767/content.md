@@ -28,14 +28,31 @@ The tropical rig is also called the [[min-plus algebra]]. There is a related, in
 In his survey article, cited below, Pin uses the term for a wide range of similar idempotent semirings. For instance $\mathcal{M} = (\mathbb{N} \cup{\infty}, min, +)$ is a tropical semiring introduced by [[Imre Simon]] in 1978.
 
 
-## Elementary properties
+## Properties
 
-The tropical semiring is an example of an [[idempotent semiring]], since for all elements $x$, we have $x\oplus x=x$.
+* The tropical semiring is an example of an [[idempotent semiring]], since for all elements $x$, we have $x\oplus x=x$.
 
 
-## Elementary example
+## Examples
+ {#Examples}
 
-$$(5\oplus 6)\otimes 7 = 12$$
+In the min-plus algebra we have, for instance:
+
+$$
+  \begin{aligned}
+    (5\oplus 6)\otimes 7 
+    &
+    = min(5,6) + 7
+    \\
+    & = 
+    5 + 7
+    \\
+    & = 
+    12
+    \,.
+  \end{aligned}
+$$
+
 
 
 ## Applications
