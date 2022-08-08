@@ -76,13 +76,28 @@ Notice that the channel $R_K$ (eq:RKInIntroduction) is just one among the more p
 
 See [Alonso 2019](#Alonso19) for general introduction to an audience with basic background in [[quantum field theory]].
 
-
 ## Statistical significance
  {#StatisticalSignificance}
 
+While the [[statistical significance]] of the [[flavour anomalies]] in every single decay channel is about $2\sigma$-$3\sigma$ (around $4 \sigma$ for some), the observations across channels are all compatible with each other, with a high joint/global statistical significance.
+
+[Garisto 20](#Garisto20):
+
+> Alone, each notable B physics result is only a few-sigma discrepancy. But taken together, the aggregate of the results is—depending on whom you ask—a 5- to 7-sigma deviation from the standard model estimates. 
+
+and quoting [[Gino Isidori|Isodori]]:
+
+> "We’ve seen a lot of anomalies here and there popping up and going back, but this time I think it’s different… . For the first time, it’s not just one thing that doesn't fit with the other, but it's a coherent set of things."
+
+Moreover, there are other types of anomalies currently observed in the data (such as in the [[anomalous magnetic moment]] of the [[muon]] and in the [[mass]] of the [[W-boson]]) which have been argued to possibly have a joint origin with the anomalies in $B$-meson decays (see [below](#RelationToOtherAnomalies) for more).
+
+It is expected that if the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately is expected to have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19), in [HMSN 21](#HMSN21) this is expected for Run 3 data) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]]. Extrapolation based on [LHCb Collaboration 18](#LHCbCollaboration18) predicts a [[statistical significance]] between 6 and 10 $\sigma$ by the year 2025 ([LKLR 19, p. 12](#LKLR19)).
+
+
+
 ### Up to 2019
 
-Indications of flavour anomalies have been observed (first suggested in [Hiller 2002](#Hiller02), [Koppenburg 2007](#Koppenburg07), for introduction and review see [Koppenburg 21](#Koppenburg21)) consistently and with increasing [[statistical significance]] around $2.5-3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various decay channels and by a number of independent [[experiments]]: the [[LHCb experiment]], the [[Belle experiment]] and the [[BaBar experiment]]:
+Indications of flavour anomalies have been observed (first suggested in [Hiller 2002](#Hiller02), [Koppenburg 2007](#Koppenburg07), for introduction and review see [Koppenburg 21](#Koppenburg21)) consistently and with increasing [[statistical significance]] around $2$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various decay channels and by a number of independent [[experiments]]: the [[LHCb experiment]], the [[Belle experiment]] and the [[BaBar experiment]]:
 
 \begin{center}
 \begin{imagefromfile}
@@ -107,9 +122,10 @@ Indications of flavour anomalies have been observed (first suggested in [Hiller 
   "caption": "graphics grabbed from [Dey 18](#Dey18)" 
 \end{imagefromfile}
 
+The global (all channels and experiments combined) tension  with the standard model by end of 2018 had [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18), [Bouchard-Cao-Owen 19](#BouchardCaoOwen19)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $5.3 \sigma - 5.8 \sigma$ ([ACDGMM 19](#ACDGMM19)) or $5-6 \sigma$ ([Kumar-London 19](#KumarLondon19), [Kumar 19](#Kumar19)). 
 
+More recent measurements in March 2021 make even just the combination of the particularly "clean" observables reach $4\sigma - 4.6\sigma$, see [below](#SignificanceMarch2021) for more recent references.
 
-{#GlobalSignificance} The global (all channels and experiments combined) tension  with the standard model by end of 2018 had [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18), [Bouchard-Cao-Owen 19](#BouchardCaoOwen19)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $5.3 \sigma - 5.8 \sigma$ ([ACDGMM 19](#ACDGMM19)) or $5-6 \sigma$ ([Kumar-London 19](#KumarLondon19), [Kumar 19](#Kumar19)). More recent measurements in March 2021 make even just the combination of the particularly "clean" observables reach $4\sigma - 4.6\sigma$, see [below](#SignificanceMarch2021) for more recent references.
 
 ### Updates in 2019
 
@@ -217,11 +233,11 @@ Implications for the significance across channels:
 
 [AlSt 21](#AltmannshoferStangl21):
 
-> With the recent updates $[...]$ the case for new physics inrare B decays has been further strengthened. $[...]$ Even if only the theoretically  clean  LFU observables  $[...]$ are considered, muon specific $[$ Wilson coefficients for New Physics$]$ im prove over the Standard Model by $\sqrt{\Delta^2} \simeq 4.7 \sigma$.
+> With the recent updates $[...]$ the case for new physics inrare B decays has been further strengthened. $[...]$ Even if only the theoretically  clean  LFU observables  $[...]$ are considered, muon specific $[$ Wilson coefficients for New Physics$]$ improve over the Standard Model by $\sqrt{\Delta^2} \simeq 4.7 \sigma$.
 
 [CFFIN 21](#CFFIN21):
 
-> With the recent result $[$ of [[LHCb]] $]$, for the first time a single observable affected by negligible theoretical uncertainties exhibits a deviation from the SM exceeding the $3 \sigma$ level.  Equally striking is the overall coherence of the picture that emerges, especially in $b \to s \ell^+ \ell^-$ −transitions.  As we shall show in this paper, combining all the $b \to s \ell^+ \ell^-$−observables in a very conservative way, the significance of the New Physics (NP) hypothesis formulated in 2014–2015 of a purely left-handed LFU-violating contact interaction has now reached a [[statistical significance|significance]] of $4.6 \sigma$.
+> With the recent result $[$ of [[LHCb]] $]$, for the first time a single observable affected by negligible theoretical uncertainties exhibits a deviation from the SM exceeding the $3 \sigma$ level. Equally striking is the overall coherence of the picture that emerges, especially in $b \to s \ell^+ \ell^-$ −transitions.  As we shall show in this paper, combining all the $b \to s \ell^+ \ell^-$−observables in a very conservative way, the significance of the New Physics (NP) hypothesis formulated in 2014–2015 of a purely left-handed LFU-violating contact interaction has now reached a [[statistical significance|significance]] of $4.6 \sigma$.
 
 > $[\ldots]$  A more structural way of addressing the flavor structure of the model is the idea of implementing [[GUT|Pati-Salam unification]]
 
@@ -242,6 +258,12 @@ Implications for the significance across channels:
 
 > From the global fits to various $b \to  s l^+ l^-$−data, the discrepancy is more than $5\sigma$ from the SM predictions. The new result ([59](https://arxiv.org/abs/2103.11769)) further strengthens the lepton flavor universality violation. This anomaly alone convincingly indicates New Physics
 
+[CFFIN 21](#CFFIN21): 
+
+> striking is the overall coherence of the picture that emerges, especially in $b \to s \ell^+ \ell^-$ −transitions.  As we shall show in this paper, combining all the $b \to s \ell^+ \ell^-$−observables in a very conservative way, the significance of the New Physics (NP) hypothesis formulated in 2014–2015 of a purely left-handed LFU-violating contact interaction has now reached a [[statistical significance|significance]] of $4.6 \sigma$.
+
+
+
 ### Updates in 2022
  {#UpdatesIn2022}
 
@@ -251,92 +273,20 @@ Implications for the significance across channels:
 
 > $[...]$ Scalar [[leptoquarks]], either a singlet or a doublet of weak interactions, can explain all the anomalies. 
 
-\linebreak
 
 
+[ACMM 22](#ACMM22):
 
-### Outlook
-
-If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately is expected to have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) -- in [HMSN 21](#HMSN21) this is expected for Run 3 data -- and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]]. Extrapolation based on [LHCb Collaboration 18](#LHCbCollaboration18) predicts a [[statistical significance]] between 6 and 10 $\sigma$ by the year 2025 ([LKLR 19, p. 12](#LKLR19)).
-
-From [Guadagnoli & Koppenburg 2022](#GuadagnoliKoppenburg22):
-
-> The main final message is that all the instruments necessary to fully establish the putative new effects are at hand, thanks to running experiments and their upgrades. Therefore this subject stands concrete chances to usher genuinely unexpected discoveries.
-
+> when combining all tests of LFUV (like $R_{K^+}$ ) with $B$ decays involving muon pairs &lbrack;...&rbrack;, one finds a preference for new physics (NP) hypotheses of more than 7σ compared to the [[standard model of particle physics|SM]]. Note that such a high significance is only possible since all measurements are compatible with each other, i.e. they form a coherent picture
 
 
 \linebreak
-
-## Status and Outlook
- {#Outlook}
-
-In conclusion, with currently available data, the observed flavour anomalies are possible signs of New Physics beyond the current [[standard model of particle physics]].
-
-\begin{center}
-\begin{imagefromfile}
-  "file_name": "DordeiConclusion.jpg",
-  "width": 740,
-  "caption": "graphics taken from [Dordei 18, slide 22](#Dordei18)"
-\end{imagefromfile} 
-\end{center}
-
-
-
-\begin{imagefromfile}
-  "file_name": "TuningFLavourAnomaliesInterlocking.jpg",
-  "width": 560,
-  "float": "right",
-  "margin": {
-    "top": -30,
-    "right": 0,
-    "bottom": 10,
-    "left": 20,
-    "unit": "px"
-  },
-  "caption": "from [Tuning 20](#Tuning20)" 
-\end{imagefromfile}
-
-
-While the [[statistical significance]] of the [[flavour anomalies]] in every single decay channel is about $2\sigma -  3 \sigma$, the effects are all compatible with each other, with a high joint/global statistical significance:
-
-> [Garisto 20](#Garisto20): Alone, each notable B physics result is only a few-sigma discrepancy. But taken together, the aggregate of the results is—depending on whom you ask—a 5- to 7-sigma deviation from the standard model estimates. 
-
-> [[Gino Isidori|Isodori]]: "We’ve seen a lot of anomalies here and there popping up and going back, but this time I think it’s different… . For the first time, it’s not just one thing that doesn't fit with the other, but it's a coherent set of things."
-
-[CFFIN 21](#CFFIN21): 
-
-> striking is the overall coherence of the picture that emerges, especially in $b \to s \ell^+ \ell^-$ −transitions.  As we shall show in this paper, combining all the $b \to s \ell^+ \ell^-$−observables in a very conservative way, the significance of the New Physics (NP) hypothesis formulated in 2014–2015 of a purely left-handed LFU-violating contact interaction has now reached a [[statistical significance|significance]] of $4.6 \sigma$.
-
-
-In any case, further and more sensitive experiments are needed to  confirm and explore the effect, such as possibly the "[HL-LHC](http://hilumilhc.web.cern.ch)" or "HE-LHC" experiment. General outlook, prospects and suggestions for future collider design in this respect are discussed in detail in [Allanach-Gripaios-You 17](#AllanachGripaiosYou17), [Crivellin et al.  18](#CrivellinEtAl18).
-
-From [Isidori 19, slide 6](#Isidori19):
-
-\begin{center}
-\begin{imagefromfile}
-  "file_name": "IsidoriExpectations19.jpg",
-  "width": 610
-\end{imagefromfile} 
-\end{center}
-
-\linebreak
-
-Outlook on the [[Belle II experiement]] to confirm the flavour anomalies, if real ([HHJLQV 20](#HHJLQV20)):
-
-> With $[$ ... $]$ [[Belle II]], we are at the brink of a new era in [[quark]] [[flavour physics]] $[...]$ we present a phenomenological study of  the potential for [[Belle II]] to reveal possible new physics in the inclusive decay channel
-
-> ([p. 15](#HHJLQV20):) We see that [[flavour anomalies|anomalies]] in the exclusive sector can be confirmed at the [[statistical significance|5σ]] level by inclusive measurements if the true values of $C_{9,10}^{\mu NP}$ are at the current best-fit point of the exclusive fits
-
-> ([p. 16](#HHJLQV20):)  After including $B_s \to \mu^+ \mu_-$, the reach in the $[C_9^{\mu NP}, C_{10}^{\mu NP}]$ plane improves considerably.  Exclusive [[flavour anomalies|anomalies]] could be confirmed at the [[statistical significance|6σ]] level.
-
-> ([p. 20](#HHJLQV20):) Should  the  true  value  of $C_9^{NP}$ and $C_{10}^{NP}$ be at  the current best-fit points of the global fits, an analysis of inclusive $\bar B_ \to X_s \ell^+ \ell^-$ at [[Belle II]] with $50 ab^{-1}$ of data will exclude the SM point $C_9^{NP} = C_{10}^{NP} = 0$ at the level of $\sim 5$[[statistical significance|σ]].  This again underlines the necessity of a full angular analysis of $\bar B_ \to X_s \ell^+ \ell^-$ at [[Belle II]].
-
 
 
 ## Relation to other anomalies
  {#RelationToOtherAnomalies}
 
-There is possibly a relation between the [[flavour anomalies]] and the  [anomalies](anomalous+magnetic+moment#Anomalies) observed in the [[anomalous magnetic moment]] of the [[electron]] and/or the [[muon]] (e.g. [Chiang-Okada 17](#ChiangOkada17)) which might point to a common origin of these anomalies in the [[flavour sector]] (e.g. [Crivellin-Hoferichter 20](#CrivellinHoferichter20)):
+There is possibly a relation between the [[flavour anomalies]] to anomalies currently observed in other processes, notably to the [anomalies](anomalous+magnetic+moment#Anomalies) observed in the [[anomalous magnetic moment]] of the [[electron]] and/or the [[muon]] (e.g. [Chiang-Okada 17](#ChiangOkada17)) which might point to a common origin in the [[flavour sector]] (e.g. [Crivellin-Hoferichter 20](#CrivellinHoferichter20)):
 
 
 \begin{center}
@@ -399,8 +349,74 @@ Some authors therefore begin to speak jointly of _muon anomalies_ ([GST 21](#GST
   "caption": "from [Koppenburg 21, slide 53](#Koppenburg21)" 
 \end{imagefromfile}
 
-
 A [[leptoquark]]-model meaning to explain all of the [[flavour anomalies]], the [[(g-2)-anomaly]] and the [[Cabibbo anomaly]] at once: [Marzocca-Trifinopoulos 21](#MarzoccaTrifinopoulos21).
+
+In [ACMM22](#ACMM22) it is argued (see [footnote 3](https://arxiv.org/pdf/2201.08170.pdf#page=2)) that also the huge anomaly reported by [CDF collaboration 2022](W-boson#CDF22) in the [[mass]] of the [[W-boson]] is compatible with (in fact predicted by) the $B$-meson decay anomalies.
+
+
+
+\linebreak
+
+
+## Status and Outlook
+ {#Outlook}
+
+In conclusion, with currently available data, the observed flavour anomalies are possible signs of New Physics beyond the current [[standard model of particle physics]].
+
+\begin{center}
+\begin{imagefromfile}
+  "file_name": "DordeiConclusion.jpg",
+  "width": 740,
+  "caption": "graphics taken from [Dordei 18, slide 22](#Dordei18)"
+\end{imagefromfile} 
+\end{center}
+
+\linebreak
+
+
+\begin{imagefromfile}
+  "file_name": "TuningFLavourAnomaliesInterlocking.jpg",
+  "width": 560,
+  "margin": {
+    "top": -30,
+    "right": 0,
+    "bottom": 10,
+    "left": 20,
+    "unit": "px"
+  },
+  "caption": "from [Tuning 20](#Tuning20)" 
+\end{imagefromfile}
+
+
+
+\linebreak
+
+In any case, further and more sensitive experiments are needed to  confirm and explore the effect, such as possibly the "[HL-LHC](http://hilumilhc.web.cern.ch)" or "HE-LHC" experiment. General outlook, prospects and suggestions for future collider design in this respect are discussed in detail in [Allanach-Gripaios-You 17](#AllanachGripaiosYou17), [Crivellin et al.  18](#CrivellinEtAl18).
+
+From [Isidori 19, slide 6](#Isidori19):
+
+\begin{center}
+\begin{imagefromfile}
+  "file_name": "IsidoriExpectations19.jpg",
+  "width": 610
+\end{imagefromfile} 
+\end{center}
+
+\linebreak
+
+Outlook on the [[Belle II experiement]] to confirm the flavour anomalies, if real ([HHJLQV 20](#HHJLQV20)):
+
+> With $[$ ... $]$ [[Belle II]], we are at the brink of a new era in [[quark]] [[flavour physics]] $[...]$ we present a phenomenological study of  the potential for [[Belle II]] to reveal possible new physics in the inclusive decay channel
+
+> ([p. 15](#HHJLQV20):) We see that [[flavour anomalies|anomalies]] in the exclusive sector can be confirmed at the [[statistical significance|5σ]] level by inclusive measurements if the true values of $C_{9,10}^{\mu NP}$ are at the current best-fit point of the exclusive fits
+
+> ([p. 16](#HHJLQV20):)  After including $B_s \to \mu^+ \mu_-$, the reach in the $[C_9^{\mu NP}, C_{10}^{\mu NP}]$ plane improves considerably.  Exclusive [[flavour anomalies|anomalies]] could be confirmed at the [[statistical significance|6σ]] level.
+
+> ([p. 20](#HHJLQV20):) Should  the  true  value  of $C_9^{NP}$ and $C_{10}^{NP}$ be at  the current best-fit points of the global fits, an analysis of inclusive $\bar B_ \to X_s \ell^+ \ell^-$ at [[Belle II]] with $50 ab^{-1}$ of data will exclude the SM point $C_9^{NP} = C_{10}^{NP} = 0$ at the level of $\sim 5$[[statistical significance|σ]].  This again underlines the necessity of a full angular analysis of $\bar B_ \to X_s \ell^+ \ell^-$ at [[Belle II]].
+
+From [Guadagnoli & Koppenburg 2022](#GuadagnoliKoppenburg22):
+
+> The main final message is that all the instruments necessary to fully establish the putative new effects are at hand, thanks to running experiments and their upgrades. Therefore this subject stands concrete chances to usher genuinely unexpected discoveries.
 
 
 
@@ -1129,6 +1145,9 @@ explanations via assumption of [[Z'-bosons]]:
   > (in view of [[Higgs field]] [metastability](Higgs+field#MassAndVacuumInstability))
 
 * Disha Bhatia, Nishita Desai, Amol Dighe, Frugal $U(1)_X$ models with non-minimal flavor violation for $b \to s \ell \ell$ anomalies and neutrino mixing* ([arXiv:2109.07093](https://arxiv.org/abs/2109.07093))
+
+* {#ACMM22} Marcel Algueró, [[Andreas Crivellin]], Claudio Andrea Manzari, Joaquim Matias, *Unified Explanation of the Anomalies in Semi-Leptonic $B$ decays and the $W$ Mass*, Physical Review D (2022) &lbrack;[arXiv:2201.08170](https://arxiv.org/abs/2201.08170)&rbrack;
+
 
 
 #### Dark matter
