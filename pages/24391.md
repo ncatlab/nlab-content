@@ -171,46 +171,51 @@ That implication is the motivation for the next example.
 \end{example}
 
 \begin{example}
-Because we can represent a super convex space as the functor $\mathbf{SCvx}(\cdot,A) \in  \mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$, where $\Delta_{\mathbb{N}}$ is the category viewed with a single object $\Delta_{\mathbb{N}}$ and all endomorphisms of $\Delta_{\mathbb{N}}$,  we can make use of the  contravariant functor $\mathcal{O}: \mathbf{Set}^{\Delta_{\mathbb{N}}^{op}} \rightarrow \mathbf{Set}^{\Delta_{\mathbb{N}}}$  which, because $\Delta_{\mathbb{N}}$ is a monoid with the single object $\Delta_{\mathbb{N}}$, is easy to describe.  We have
-\begin{equation} 
-\begin{array}{lcl}
-\mathcal{O}(\mathbf{SCvx}(\cdot,A))(\Delta_{\mathbb{N}}) &=& Nat( \mathbf{SCvx}(\cdot,A), \mathbf{SCvx}(\cdot, \Delta_{\mathbb{N}})) \\
-&=& \{ \mathbf{SCvx}(\Delta_{\mathbb{N}}, A) \stackrel{\omega}{\longrightarrow} \mathbf{SCvx}(\Delta_{\mathbb{N}},\Delta_{\mathbb{N}}) \, | \, \omega(\mathbf{a} \circ \mathbf{Q}) = \omega(\mathbf{a})\circ \mathbf{Q} \quad \forall \mathbf{Q}, \forall \mathbf{a} \}
-\end{array}
-\end{equation}
-where $\mathbf{a} \in \mathbf{SCvx}(\Delta_{\mathbb{N}},A)$ and $\mathbf{Q} \in \mathbf{SCvx}(\Delta_{\mathbb{N}},\Delta_{\mathbb{N}})$.
 
-For each measurable space $X$ there is a functor $\widehat{X} \in \Set^{\Delta_{\mathbb{N}}}$ given on objects by 
-$\widehat{X}(\Delta_{\mathbb{N}})=\mathbf{Meas}(X, \mathcal{G}{\mathbb{N}})$  and $\widehat{X}(\mathbf{Q}):\mathbf{Meas}(X, \mathcal{G}{\mathbb{N}}) \rightarrow \mathbf{Meas}(X,\mathcal{G}{\mathbb{N}})$ sends $f \mapsto  \mathbf{Q} \circ f$ which is clearly functorial. (Endowing the spaces $\Delta_{\mathbb{N}}$ with the $\sigma$-algebra assignment of the Giry monad makes $\mathbf{Q}$ measurable.)
- 
- The  functor $\mathbf{Spec}: \Set^{\Delta_{\mathbb{N}}} \rightarrow \Set^{\Delta^{op}_{\mathbb{N}}}$ gives 
- \begin{equation}
- \begin{array}{lcl}
- \mathbf{Spec}(\widehat{X})(\Delta_{\mathbb{N}}) &=& Nat\big(\widehat{X}, \mathbf{SCvx}(\Delta_{\mathbb{N}},\cdot) \big) \\
- &=& \{ \mathbf{Meas}(X,\mathcal{G}{\mathbb{N}}) \stackrel{\omega}{\longrightarrow} \SCvx(\Delta_{\mathbb{N}},\Delta_{\mathbb{N}}) \,| \, \mathbf{Q} \circ \omega(f) = \omega(\mathbf{Q} \circ f) \}
- \end{array}
- \end{equation}
-where the second equality follows because there only exists a single component of each natural transformation.  The set  $\mathbf{Spec}(\widehat{X})(\Delta_{\mathbb{N}})$ has a super convex space structure defined pointwise, using the fact $\SCvx(\Delta_{\mathbb{N}},\Delta_{\mathbb{N}})$ has a super convex space structure (as does $\mathbf{Meas}(X,\mathcal{G}{\mathbb{N}}))$.  Note that the condition  $\omega(\mathbf{Q}\circ f)=\mathbf{Q}( \omega(f))$ implies $\omega$ is weakly averaging because by taking $\mathbf{Q}$ to be a constant function the condition implies $\omega$ must be weakly-averaging.
+Let $\mathbf{\Omega}$ denote the full subcategory of $\mathbf{SCvx}$ consisting of the two objects $\mathbb{N}$ and $\Delta_{\mathbb{N}}$.   Let $\mathbf{\Sigma}'': \mathbf{\Omega} \rightarrow \mathbf{Meas}$ denote the functor mapping the object $\mathbb{N} \mapsto \mathbb{N}$ (super convex space structure to measurable space structure) and $\Delta_{\mathbb{N}} \mapsto \mathcal{G}{\mathbb{N}}$.  Recall $\mathbf{Meas}$ has all limits, and hence the right Kan extension $Ran_{\iota}(\mathbf{\Sigma}'')$ exists and can be computed pointwise.  
 
-By replacing the monoid $\Delta_{\mathbb{N}}$ with the two-object full subcategory $\mathbf{\Omega}=\{\mathbb{N}, \Delta_{\mathbb{N}} \}$ of $\mathbf{SCvx}$ it is not difficult to  
-interpret  $\mathbf{Spec}(\widehat{X})(\mathbb{N})$ as the set of probability measures on $X$ because the natural transformations are weakly-averaging countably affine maps.   To see this take a disjoint countable cover of $X$ by measurable sets $\{U_i\}_{i \in \mathbb{N}}$ and define $f: X \rightarrow \mathbb{N}$ by $f(x) = \sum_{i \in \mathbb{N}} \chi_{U_i}(x) \underline{i}$. The additional object $\mathbb{N}$ is required because standard measurable spaces have the codense subcategory determined by the single space $(\mathbb{N}, \mathcal{P}{\mathbb{N}})$ along with the monotonic functions on $\mathbb{N}$.
-
-The trick is to restrict the two categories $\mathbf{Meas}$ and $\mathbf{SCvx}$ so that the usual adjunction $\mathcal{O} \dashv \mathbf{Spec}$, which views the contravariant functors described above as  covariant functors, restricts to nice subcategories giving an adjunction.  Taking the pullback of the inclusion functor $\iota: \mathbf{Std} \hookrightarrow \mathbf{Meas}$ along the functor $\mathcal{O}$ restricted to the full subcategory of functors $\widehat{A}$ characterizing super convex spaces,
+ The right Kan extension of the functor $\mathbf{\Sigma}''$ along the inclusion function $\iota: \mathbf{\Omega} \hookrightarrow \mathbf{SCvx}$,
 \begin{centre}
 \begin{tikzpicture}
+        \node  (Omega)  at  (0,0)  {$\mathbf{\Omega}$};
+        \node  (SC)          at   (3,0)  {$\mathbf{SCvx}$};
+        \node   (Std2)        at     (0, -1.5)  {$\mathbf{Meas}$};
+        \draw[->,above] (Omega) to node {$\iota$} (SC);
+        \draw[->,left] (Omega) to node {$\mathbf{\Sigma}''$} (Std2);
+        \draw[->,right,dashed] (SC) to node [yshift=-4pt]{$Ran_{\iota}(\mathbf{\Sigma}'')$} (Std2);
+\end{tikzpicture}
+\end{centre}
+has the universal arrow $\varepsilon:Ran_{\iota}(\mathbf{\Sigma}'') \circ \iota \Rightarrow \mathbf{\Sigma}''$ specified at 
+component $\mathbb{N}$ by $\varepsilon_{\mathbb{N}} = \mathbf{1}_{\mathbb{N}}$ and at component $\Delta_{\mathbb{N}}$ by $\varepsilon_{\Delta_{\mathbb{N}}} = \mathbf{1}_{\mathcal{G}{\mathbb{N}}}$. (Hence $Ran_{\iota}(\mathbf{\Sigma}'')$ really is an extension of $\mathbf{\Sigma}''$.)
+
+The proof is straight forward.
+
+
+Now take the pullback of $Ran_{\iota}(\mathbf{\Sigma}'')$ along the inclusion functor $\mathbf{Std}_2 \hookrightarrow \mathbf{Meas}$ 
+ \begin{centre}
+\begin{tikzpicture}
     \node   (SCvxstar)  at  (0,0)   {$\mathbf{SCvx}_{\star}$};
-    \node   (Std)    at   (3,0)   {$\mathbf{Std}$};
+    \node   (Std)    at   (4,0)   {$\mathbf{Std}_2$};
     \node   (SCvx)    at  (0,-1.5)  {$\mathbf{SCvx}$};
-    \node   (Meas)     at  (3., -1.5)   {$\mathbf{Meas}$};
+    \node   (Meas)     at  (4., -1.5)   {$\mathbf{Meas}$};
     
-    \draw[->,below] (SCvx) to node {$\mathcal{O}|$} (Meas);
+    \draw[->,below] (SCvx) to node {$Ran_{\iota}(\mathbf{\Sigma}'')$} (Meas);
     \draw[>->,right] (Std) to node {$\iota$} (Meas);
-    \draw[->,left,dashed] (SCvxstar) to node {$$} (SCvx);
+    \draw[>->,left,dashed] (SCvxstar) to node {$$} (SCvx);
     \draw[->,above,dashed] (SCvxstar) to node {$\mathbf{\Sigma}$} (Std);
 
 \end{tikzpicture}
 \end{centre}
-This is one approach to obtain an adjunction $\mathcal{P} \dashv \mathbf{\Sigma}$ where $\mathcal{P}$ is the Giry monad viewed as a functor into $\mathbf{SCvx}_{\star}$. 
+to define the functor $\mathbf{\Sigma}: \mathbf{SCvx}_{\star} \rightarrow \mathbf{Std}_2$. 
+
+  The functor $\mathcal{G}$, viewed as the functor  $\mathcal{P}: \mathbf{Std}_2 \rightarrow \mathbf{SCvx}_{\star}$ is left adjoint to $\mathbf{\Sigma}$.  To prove this the general argument is as follows. Suppose we are given a separated standard measurable space $X$ with the countable generating basis $\{U_i\}_{i \in \mathbb{N}}$ so that $\Sigma_X=\sigma(\mathcal{F})$ where  $\mathcal{F}: X \rightarrow \mathbb{N}$ specifies the field which generates the $\sigma$-algebra on $X$.  In other words, $U_i = \mathcal{F}^{-1}(i)$.  Then $\mathcal{P}{X}$ is a super convex space which lies in $\mathbf{SCvx}_{\star}$ because if we compute the right Kan extension $Ran_{\iota}(\mathbf{\Sigma}'')\big(\mathcal{P}{X})$ we obtain $\mathcal{G}{X}$ since the set of evaluation maps $ev_{U_i}: \mathcal{P}{X} \rightarrow \Delta_{\mathbb{N}}$ given by $ev_{U_i}(P)= P(U^c)\delta_0 + P(U) \delta_1$ are all countably affine maps and coseparate $\mathcal{P}{X}$.  More generally, every countable cover of $X$ by disjoint measurable sets $\{U_i\}_{i \in \mathbb{N}}$ specifies a countably affine map $\mathcal{P}{X} \rightarrow \Delta_{\mathbb{N}}$ given by $P \mapsto \sum_{i \in \mathbb{N}} P(U_i) \delta_i$. Hence the right Kan extension of $\mathcal{P}{X}$ is just the underlying set of $\mathcal{P}{X}$ with the initial $\sigma$-algebra making the evaluation maps measurable functions - which is precisely how the Giry monad assigns the $\sigma$-algebra to the underlying set of $\mathcal{G}{X}$. This argument proves, for $\mathcal{G}$ the Giry monad on $\mathbf{Std}_2$, that    the composite functor $\mathbf{\Sigma} \circ \mathcal{P} = \mathcal{G}$.
+
+To prove that $\mathcal{P} \dashv \mathbf{\Sigma}$ it is necessary, among other things,  to show that the counit of the proposed adjunction yields a barycenter map $\epsilon_A: \mathcal{P}(\mathbf{\Sigma} A) \rightarrow A$ for every $A \in_{ob} \mathbf{SCvx}_{\star}$. Now let $\mathbf{\Sigma}'$ denote the functor $\mathbf{\Sigma}''$ with the codomain restricted to $\mathbf{Std}_2$.  The functor $\mathbf{\Sigma}': \mathbf{\Omega} \rightarrow \mathbf{Std}_2$ is codense so that the measurable functions  $f:\mathbf{\Sigma} A \rightarrow \mathbb{N}$ characterize $\mathbf{\Sigma} A$,
+\begin{equation}
+ \lim \big( \mathbf{\Sigma} A \! \downarrow \! \mathbf{\Sigma}' \rightarrow \mathbf{\Omega} \stackrel{\mathbf{\Sigma}'}{\longrightarrow} \mathbf{Std}_2\big) =   (\mathbf{\Sigma} A, \{f: \mathbf{\Sigma} A \rightarrow \mathbb{N}\}). 
+\end{equation}
+   But we can construct a family of  composite arrows $\epsilon_{\mathbb{N}} \circ \mathcal{G}{f}: \mathcal{G}(\mathbf{\Sigma} A) \rightarrow \mathbb{N}$ specifying a cone over  the diagram $\mathbf{\Sigma} A \! \downarrow \! \mathbf{\Sigma}' \rightarrow \mathbf{\Omega} \stackrel{\mathbf{\Sigma}'}{\longrightarrow} \mathbf{Std}_2$,
+and hence there exists a unique measurable function $\epsilon_A: \mathcal{G}(\mathbf{\Sigma} A) \rightarrow \mathbf{\Sigma} A$. To show that $\epsilon_A$ is  countably affine consider the two maps $\mathcal{G}{\epsilon_A}, \mu_{\mathbf{\Sigma} A}: \mathcal{G}^2(\mathbf{\Sigma} A) \rightarrow \mathcal{G}(\mathbf{\Sigma} A)$ and show the two composites $\epsilon_A \circ \mathcal{G}{\epsilon_A}$ and $\epsilon_A \circ \mu_{\mathbf{\Sigma} A}$ are equal.  
 
 \end{example} 
 
@@ -238,11 +243,10 @@ Proposition 1.2 in
 
 is particularly useful for viewing super convex spaces as positively convex spaces which are somewhat easier to work with because the condition $\sum_{i \in \mathbb{N}}p_i=1$  is replaced by the inequality $\le 1$.
 
-The fact that the full subcategory of $\mathbf{SCvx}$ consisting of the single object is dense in $\mathbf{SCvx}$, along with more properties and examples of super convex spaces is given in
+The fact that the full subcategory of $\mathbf{SCvx}$ consisting of the single object is dense in $\mathbf{SCvx}$, along with the property that the functor $\mathbf{\Sigma}': \mathbf{\Omega} \rightarrow \mathbf{Std}_2$ is a codense functor, along with more properties and examples of super convex spaces is given in
 
 * {#Sturtz22} [[Kirk Sturtz]], _Giry algebras for standard measurable spaces_ $[$[arXiv:2202:10819](https://arxiv.org/abs/2202.10819)$]$
 
-although the proper restriction of the Isbell adjunction ala Example 6.6 has yet to be worked out.
 
 For purposes of constructing models of complex systems using super convex spaces the construction given in Example 6.1 of the following article applies equally well to super convex spaces.
 
