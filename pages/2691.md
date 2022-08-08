@@ -614,7 +614,8 @@ Discussion of a restricted kind of homotopy-faithfulness of the forgetful functo
 
 
 
-## Unbounded dg-algebras {#Unbounded}
+## Unbounded dg-algebras 
+ {#Unbounded}
 
 We discuss now the case of unbounded dg-algebras. For these there is no longer the [[monoidal Dold-Kan correspondence]] available. Instead, these can be understood as arising naturally as function $\infty$-algebras in the [[derived geometry|derived]] [[dg-geometry]] over formal duals of bounded dg-algebras, see [[function algebras on ∞-stacks]].
 
@@ -801,6 +802,7 @@ $$
 
 
 ### Definition
+ {#ForUnboundedDGAlgebrasDefinition}
 
 
 +-- {: .num_theorem }
@@ -812,7 +814,7 @@ $$
   cdgAlg = CMon(Ch_\bullet(k))
 $$ 
 
-be the category of undounded commutative dg-algebras. With fibrations the degreewise surjections and weak equivalences the [[quasi-isomorphism]]s this is a 
+be the category of undounded commutative dg-algebras. With fibrations the degreewise surjections and weak equivalences the [[quasi-isomorphisms]] this is a 
 
 * [[model category]]
 
