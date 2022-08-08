@@ -111,8 +111,8 @@ Often, the fibrant and cofibrant objects are the ones one is "really" interested
 ### Slight variations on the axioms
 
 Quillen's original definition required only [[finite limits]] and [[finite colimits]], which are enough for the basic constructions.  Colimits of larger cardinality are sometimes required for the [[small object argument]], however.
-This change was popularized by [[Dwyer]], [[Hirschhorn]], [[Kan]], and [[Jeff Smith|Smith]]
-in their book [[Homotopy Limit Functors on Model Categories and Homotopical Categories]]
+This change was popularized by [Dwyer, Hirschhorn & Kan 1997](#DwyerHirschhornKan97), published as [Dwyer, Hirschhorn, Kan & Smith 2004](#DwyerHirschhornKanSmith2004).
+
 
 [[Robert W. Thomason]] proposed to require that the factorizations given by (ii) are actually _[[functorial factorization systems]]_,
 resulting in the notion of a [[Thomason model category]].
@@ -460,13 +460,17 @@ The concept of a model category originates with
 
 * {#Quillen67} [[Daniel Quillen]], Chapter I, _Axiomatic homotopy theory_ in: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics **43** Springer (1967) &lbrack;[doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438)&rbrack;
 
+and the modern form of the axioms (replacing requirement of finite (co-)limits by small (co-)limits ) is due to:
+
+* {#DwyerHirschhornKan97} [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]], *[[Model Categories and More General Abstract Homotopy Theory]]* (1997) &lbrack;[pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/dhk.pdf), [[DwyerHirschhornKan-ModelCategories.pdf:file]]&rbrack;
+
 #### Monographs and textbooks
 
 * {#Hovey99} [[Mark Hovey]], _[[Model Categories]]_, Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
 
-* {#Hirschhorn02} [[Philip Hirschhorn]], _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
+* {#Hirschhorn02} [[Philip Hirschhorn]], _[[Model Categories and Their Localizations]]_, AMS Math. Survey and Monographs Vol 99 (2002) &lbrack;[ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)&rbrack;
 
-* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], [[Jeff Smith]], **[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]**, Mathematical Surveys and Monographs **113**, AMS 2004 ([ISBN: 978-1-4704-1340-8](https://bookstore.ams.org/surv-113-s), [pdf](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf))
+* {#DwyerHirschhornKanSmith04} [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], [[Jeff Smith]], **[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]**, Mathematical Surveys and Monographs **113**, AMS 2004 ([ISBN: 978-1-4704-1340-8](https://bookstore.ams.org/surv-113-s), [pdf](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf))
 
 
 * [[J. Peter May]], [[Kate Ponto]], _[[More Concise Algebraic Topology]]_, The University of Chicago Press, 2012.  Part 4.
