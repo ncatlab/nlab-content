@@ -52,4 +52,4 @@ Let $R$ be an [[integral domain]]. Then, $R$ is a UFD iff every non-zero [[prime
 
 * [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
-* [[Irving Kaplansky]], *Commutative rings*, rev. ed., he University of Chicago (1974), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kaprings.pdf)
+* [[Irving Kaplansky]], *Commutative rings*, rev. ed., the University of Chicago (1974), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kaprings.pdf)
