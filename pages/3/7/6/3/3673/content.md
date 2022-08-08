@@ -387,11 +387,18 @@ The explicit notion of right transfer is due to:
 
 * {#Crans95} [[Sjoerd Crans]], §3-§4 in: *Quillen closed model structure for sheaves*, Journal of Pure and Applied Algebra **101** 1 (1995) 35-57 &lbrack;<a href="https://doi.org/10.1016/0022-4049(94)00033-F">doi:10.1016/0022-4049(94)00033-F</a>, [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.7459)&rbrack;
 
-{#FurtherReferencesForRightTransfer} The existence result of right transfer due to [Crans 1995, Thm. 3.3](#Crans95) is reviewed/reworked, with variations, in:
+and for the case of [[cofibrantly generated model categories]] due to:
+
+* {#DwyerHirschhornKan97} [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]], §9.1 in: *[[Model Categories and More General Abstract Homotopy Theory]]* (1997) &lbrack;[pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/dhk.pdf), [[DwyerHirschhornKan-ModelCategories.pdf:file]]&rbrack;
+
+
+{#FurtherReferencesForRightTransfer} The existence result of right transfer due to [Crans 1995, Thm. 3.3](#Crans95) and [Dwyer, Hirschhorn & Kan 1997, Thm. 91](#DwyerHirschhornKan97) ("Crans-Kan transfer theorem") is reviewed/reworked, with variations, in:
 
 * {#GoerssJardine99} [[Paul Goerss]], [[J. F. Jardine]], Section II.4 of: _[[Simplicial homotopy theory]]_, Progress Mathematics **174**, Birkhäuser (1999) &lbrack;[doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4)&rbrack;
 
-* {#Cisinski06} [[Denis-Charles Cisinski]], Prop. 1.4.23 of: *Les préfaisceaux comme types d'homotopie|Les préfaisceaux comme modèles des types d'homotopie*, Astérisque **308** Soc. Math. France (2006), 392 pages &lbrack;[numdam:AST_2006__308__R1_0](http://www.numdam.org/item/?id=AST_2006__308__R1_0) [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf)&rbrack;
+* {#Hirschhorn02} [[Philip Hirschhorn]], Thm. 11.3.2 in: *[[Model Categories and Their Localizations]]*, Math. Survey and Monographs **99**, AMS (2002) &lbrack;[ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)&rbrack;
+
+* {#Cisinski06} [[Denis-Charles Cisinski]], Prop. 1.4.23 of: *Les préfaisceaux comme types d'homotopie|Les préfaisceaux comme modèles des types d'homotopie*, Astérisque **308** Soc. Math. France (2006), 392 pages &lbrack;[numdam:AST_2006__308__R1_0](http://www.numdam.org/item/?id=AST_2006__308__R1_0), [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf)&rbrack;
 
 
 
