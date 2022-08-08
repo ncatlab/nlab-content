@@ -7,7 +7,7 @@
 
 [[rewriting]]
 
-### Basic structures
+**Basic structures**
 
 * [[binary linear code]]
 * [[chord diagram]]
@@ -21,13 +21,13 @@
 * [[tree]]
 * [[Young diagram]]
 
-### Generating functions
+**Generating functions**
 
 * [[combinatorial species]]
 * [[generating function]]
 * [[power series]]
 
-### Proof techniques
+**Proof techniques**
 
 * [[bijective proof]]
 * [[Lagrange inversion]]
@@ -36,16 +36,15 @@
   * [[zeta polynomial]]
 * [[Pólya enumeration theorem]]
 
-### Combinatorial identities
+**Combinatorial identities**
 
 * [[binomial theorem]]
 * [[Catalan number]]
 * [[Chu–Vandermonde identity]]
 
-### Polytopes
+**Polytopes**
 
 * [[associahedron]]
 
-[edit this sidebar](http://ncatlab.org/nlab/edit/combinatorics+-+contents)
 
 category: combinatorics
