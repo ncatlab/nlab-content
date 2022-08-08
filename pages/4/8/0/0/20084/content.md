@@ -26,6 +26,7 @@ Via [[Z' bosons]]:
 
 * [[Andreas Crivellin]], Claudio Andreas Manzari, Marcel Alguero, Joaquim Matias, _Combined Explanation of the $Z \to b \bar b$ Forward-Backward Asymmetry, the Cabibbo Angle Anomaly, $\tau \to \mu \nu \nu$ and $b \to s \ell^+ \ell^-$ Data_ ([arXiv:2010.14504](https://arxiv.org/abs/2010.14504))
 
+* {#ACMM22} Marcel Algueró, [[Andreas Crivellin]], Claudio Andrea Manzari, Joaquim Matias, *Unified Explanation of the Anomalies in Semi-Leptonic $B$ decays and the $W$ Mass*, Physical Review D (2022) &lbrack;[arXiv:2201.08170](https://arxiv.org/abs/2201.08170)&rbrack;
 
 On [[leptoquarks]]:
 
