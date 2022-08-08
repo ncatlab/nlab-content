@@ -4,7 +4,7 @@
 
 ## Definition 
 
-Let $R$ be a [[discrete integral domain]]. We say that an element $r\in R$ is a _unit_ if it is [[invertible element|invertible]]. A non-unit is called _irreducible_ if it can not be represented as a product of two non-units. Note that then, $0$ is never irreducible, because it is a product of two non-units under the form $0 = 0.0$. It is often included in the definition of an irreducible element that it must be non-zero but is in fact redudant. 
+Let $R$ be a [[discrete integral domain]]. We say that an element $r\in R$ is a _unit_ if it is [[invertible element|invertible]]. A non-unit is called _irreducible_ if it can not be represented as a product of two non-units. Note that then, $0$ is never irreducible, because it is a product of two non-units under the form $0 = 0.0$. It is often included in the definition of an irreducible element that it must be non-zero but this is in fact redudant. 
 
 An integral domain $R$ is a __unique factorization domain__ (UFD for short) if every non-zero non-unit has a factorization $u = r_1 \cdots r_n$ (where $n \ge 1$) as product of irreducibles and this decomposition is unique up to renumbering and rescaling the irreducibles by units. 
 
