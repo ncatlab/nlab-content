@@ -175,7 +175,7 @@ In this deeper form yet another equivalence -- to [[algebraic topology]] ([[schr
 |--|--|--|--|
 | A [[term]] of some [[type]] <br/> in [[context]]. | A [[program]] of some [[data type]] <br/> in [[context]]. | An [[generalized element|element]] of an [[object]] <br/> in a [[slice (∞,1)-category|slice]]. | A [[cocycle]] <br/> in [[twisted cohomology]]. |
 
-> (from *[[CQTS]]*)
+> (graphics from *[[schreiber:Topological Quantum Programming in TED-K|SS22]]*)
 
 
 \begin{tikzpicture}
@@ -277,7 +277,8 @@ Combining the [classical parametrized trilogy](#ClassicalParametrized) with the 
 
 there appears the "classically controlled quantum computational tetralogy":
 
-> (from [[CQTS]])
+> (graphics from *[[schreiber:Topological Quantum Programming in TED-K|SS22]]*)
+
 
 | In [[dependent linear type theory|dependent linear]] <br/> [[homotopy type theory]]: | In  [classically controlled](quantum+computation#ClassicalControlQuantumData) <br/> [[quantum programming languages]]: | In [[indexed monoidal (∞,1)-categories|indexed monoidal]] <br/> [[parameterized stable homotopy theory|∞-cats of par. spectra]]: | In [[Whitehead generalized cohomology theory|Whitehead-generalized]] <br/> [[twisted cohomology theory]]:
 |--|--|--|--|
