@@ -217,8 +217,9 @@ This is a stable version of the [[monoidal Dold-Kan correspondence]]. See there 
  
 * {#SchwedeShipley03} [[Stefan Schwede]], [[Brooke Shipley]], _Stable model categories are categories of modules_, Topology 42 (2003), 103-153 ([pdf](http://www.math.uic.edu/~bshipley/classTopFinal.pdf), <a href="https://doi.org/10.1016/S0040-9383(02)00006-X">doi:10.1016/S0040-9383(02)00006-X</a>)
 
-* {#Shipley02} [[Brooke Shipley]], _$H \mathbb{Z}$-algebra spectra are differential graded algebras_, Amer. Jour. of Math. 129 (2007) 351-379. ([arXiv:math/0209215](http://arxiv.org/abs/math/0209215))
+* {#Shipley02} [[Brooke Shipley]], _$H \mathbb{Z}$-algebra spectra are differential graded algebras_, Amer. Jour. of Math. 129 (2007) 351-379. &lbrack;[arXiv:math/0209215](http://arxiv.org/abs/math/0209215), [jstor:40068065](https://www.jstor.org/stable/40068065)&rbrack;
  
+
 * {#Jardine91} [[John Frederick Jardine]], _Stable Dold-Kan theory_, section 4.6 of _Generalized &Eacute;tale cohomology theories_, Modern Birkh&#228;user classics (1991)
 
 * {#BCT} [[Andrew Blumberg]], [[Ralph Cohen]], [[Constantin Teleman]], _Open-closed field theories, string topology and Hochschild homology_ ([arXiv:0906.5198](http://arxiv.org/abs/0906.5198))
