@@ -27,6 +27,11 @@ The conditions to be verified are:
 * If $a$ is a point, then $\{a\}$ is a clique.
 * If $A$ is a family of cliques such that $(x,y \in A) \Rightarrow (x \cup y \in A)$, then $\bigcup A$ is a clique.
 
+## Properties
+
+\begin{proposition}
+The map which send an [[undirected simple graph]] $G$ to the pair $(C(G), V(G))$ where $V(G)$ is the set of all the vertices of $G$ and $C(G)$ is the set of all the [[cliques]] of $G$ is a bijection between undirected simple graphs and coherence spaces where the coherence space associated to $G$ is $C(G)$ with $|C(G)|=V(G)$. The reciprocal map associates to a coherence space $X$ the undirected simple graph $G$ obtained by taking $V(G)=|X|$ and the set $E(G)$ of edges equal to the set of all cliques of cardinal $2$.
+\end{proposition}
 
 ## References
 
@@ -39,6 +44,8 @@ Other references say instead "coherent space":
 * Wikipedia, _[Coherent space](http://en.wikipedia.org/wiki/Coherent_space)_
 
 * LLwiki, _[Coherent semantics](http://llwiki.ens-lyon.fr/mediawiki/index.php/Coherent_semantics)_
+
+*  [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science 50:1, 1987.  ([pdf](http://iml.univ-mrs.fr/~girard/linear.pdf))
 
 [[!redirects coherence space]]
 [[!redirects coherence spaces]]
