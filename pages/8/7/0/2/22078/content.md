@@ -1,14 +1,29 @@
-[[Philip S. Hirschhorn]]
 
-Mathematical Surveys and Monographs, Volume 99
+This page is about the textbook:
 
-Model Categories and Their Localizations
 
-American Mathematical Society
+* [[Philip S. Hirschhorn]]
 
-ISBN 0-8218-3279-4
+  \linebreak
 
-[doi:10.1090/surv/099](https://doi.org/10.1090/surv/099)
+  **Model Categories and Their Localizations**
+
+  \linebreak
+
+  American Mathematical Society
+
+  Mathematical Surveys and Monographs **99**
+
+  (2002)
+
+  ISBN 0-8218-3279-4
+
+  [doi:10.1090/surv/099](https://doi.org/10.1090/surv/099)
+
+  [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)
+
+on [[model categories]] and their [[Bousfield localization of model categories|localization]].
+
 
 # Contents
 
@@ -176,3 +191,5 @@ ISBN 0-8218-3279-4
 #### 19.9. Reedy cofibrant diagrams and Reedy fibrant diagrams
 ## Index
 ## Bibliography
+
+category: reference
