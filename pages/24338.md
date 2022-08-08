@@ -1,12 +1,23 @@
-A historically important early manuscript draft.
+A historically important early manuscript draft:
 
-* [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]], [[Model Categories and More General Abstract Homotopy Theory]], [PDF](https://people.math.rochester.edu/faculty/doug/otherpapers/dhk.pdf)
+* [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]]:
+
+  \linebreak
+
+  **Model Categories and More General Abstract Homotopy Theory**
+
+  \linebreak
+
+  (1997)
+
+  [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/dhk.pdf), [[DwyerHirschhornKan-ModelCategories.pdf:file]]
+
+on [[model category]]-theory in general and on [[cofibrantly generated model categories]] and [[Reedy model categories]] in particular.
 
 This manuscript draft later transformed in 
 [[Homotopy Limit Functors on Model Categories and Homotopical Categories]], adding [[Jeffrey H. Smith]] as a coauthor.
 
-However, the draft serves as an original reference for the [[Kan recognition theorem]] (in §II.8) and the [[Kan transfer theorem]] (in §II.9),
-as well as [[cofibrantly generated model categories]] (in Chapter II).
+However, the draft serves as an original reference for the [[Kan recognition theorem]] (in §II.8) and the [[Kan transfer theorem]] (in §II.9), as well as [[cofibrantly generated model categories]] (in Chapter II).
 
 Furthermore, this draft originates the modern definition of a [[model category]] (in §I.1.2), modifying the original definition of closed model category by [[Quillen]] by replacing finite (co)limits with small (co)limits and requiring factorizations to be functorial.
 
