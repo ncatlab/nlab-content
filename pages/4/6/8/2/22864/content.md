@@ -11,9 +11,9 @@ Differential linear logic is an extension of [[linear logic]]. New inference rul
 
 ## Syntax
 
-We present the version without additives and with promotion. We will refer to this logic as DiLL.
+We present the version without additives and with promotion. We will refer to this logic as DiLL. There is two way to present the syntax in  [[sequent calculus]]. With bilateral sequents or monolateral sequents. The first one is closer to the language of category theory but the second one allows to make the links with the syntax in [[proof nets]] and to divide by two the number of inference rules. Using the monolateral version (or proof nets) require to quotient the formulas by some equalities related to negation and [[De Morgan duality]].
 
-### Formulas
+### Formulas - Generalities
 
 There is no novelties concerning formulas compared to linear logic. We will work with the formulas of Multiplicative Exponential Linear Logic (MELL). In the next subsection, the difference between MELL and DiLL will appear as additional inference rules.
 
@@ -28,7 +28,9 @@ Formulas are given by induction starting from atoms and applying connectives. In
 * We have the formula $1$.
 * We have the formula $\bot$.
 
-Formulas are quotiented by the following equalities:
+### Formulas - Quotienting by duality in monolateral syntax
+
+If we want to use the monolateral sequent calculus (or proof nets), formulas must be quotiented by the following equalities:
 
 * If we have a formula $A$, we put $A^{\perp\perp} = A$.
 * If we have two formulas $A,B$, we put $(A \otimes B)^\perp = A^\perp \parr B^\perp$.
@@ -40,11 +42,15 @@ Formulas are quotiented by the following equalities:
 
 Notice that some equalities are implied by other ones and thus we could give a shorter list. We have preferred writting directly all the equalities of pratical use.
 
-### Inference rules
+### Inference rules - Bilateral syntax
 
 Inference rules will allow us to build proofs. Notice that compared to MELL, we need the ability to sum proofs. We give an explicit rule for this summation of proofs. We give also a rule for null proofs. Finally, the new inference rules are: coderiliction, cocontraction, coweakening, sum of proofs, null proof.
 
 (...)
+
+### Inference rules - Monolateral syntax
+
+## Isomorphisms in bilateral syntax
 
 ## Semantics
 
@@ -74,6 +80,18 @@ Thus, for every object $A$, we will have that $!A$ is a bimonoid. $!$ will be a 
 ### Concrete models
 
 (...)
+
+## The logic at work
+
+### The co-Kleisli category
+
+### Differentiating a proof
+
+We start from a proof of $!A \vdash B$ and by using as only exponential rules cocontraction and codereliction, we obtain a proof of $!A \vdash A \multimap B$. In the co-Kleisli category we thus go from a morphism $f:A \rightarrow B$, which must be interpreted as a smooth function, to a morphism $df: A \rightarrow (A \multimap B)$. It is the differential of $f$ which associates to every point of $A$ the linear approximation of $f$ around this point.
+
+$$
+\frac{\frac{\frac{\frac{\frac{}{!A \vdash !A}^{ax} \frac{\frac{}{A \vdash A}^{ax}}{A \vdash !A}}{!A,A \vdash !A} !A \vdash B}{!A,A \vdash B}}{!A \vdash A^{\perp},B}}{!A \vdash A \multimap B}
+$$
 
 ## Relations between differential linear logic and differential categories
 
