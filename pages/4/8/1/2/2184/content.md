@@ -291,5 +291,6 @@ Discussion of use of [[simplicial complexes]] in graph theory:
 [[!redirects undirected graph]]
 [[!redirects undirected graphs]]
 [[!redirects simple directed graph]]
+[[!redirects undirected simple graph]]
 [[!redirects simple directed graphs]]
 [[!redirects graph theory]]
