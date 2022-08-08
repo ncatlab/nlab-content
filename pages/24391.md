@@ -1,4 +1,3 @@
-[[!redirects super convex spaces]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -19,7 +18,7 @@
 
 The notion of "super convex spaces" generalizes the idea of *[[convex spaces]]* by replacing [[finite set|finite]] affine [[sums]] with [[countable set|countable]] affine sums.
 
-Let $\mathcal{G}(\mathbb{N})$ denote the set of all probability measures on the set of natural numbers, hence every $\mathbf{p}$ can be represented as $\mathbf{p} = \sum_{i \in \mathbb{N}} p_i \delta_i$ where $\sum_{i \in \mathbb{N}} p_i=1$ with each $p_i \in [0,1]$.  Here $\mathcal{G}$ is the [[Giry monad]], but because we want to forget the $\sigma$-algebra associated with that measurable space we often write $\Delta_{\mathbb{N}}$ to denote the underlying set  of $\mathcal{G}(\mathbb{N})$. That set is the countably infinite-dimensional simplex. The set $\mathcal{G}(\mathbb{N})$ (= $\Delta_{\mathbb{N}}$) is the prototype space from which the axioms are abstracted.
+Let $\mathcal{G}(\mathbb{N})$ denote the set of all [[probability measures]] on the set of [[natural numbers]], hence every $\mathbf{p}$ can be represented as $\mathbf{p} = \sum_{i \in \mathbb{N}} p_i \delta_i$ where $\sum_{i \in \mathbb{N}} p_i=1$ with each $p_i \in [0,1]$.  Here $\mathcal{G}$ is the [[Giry monad]], but because we want to forget the $\sigma$-algebra associated with that measurable space we often write $\Delta_{\mathbb{N}}$ to denote the underlying set  of $\mathcal{G}(\mathbb{N})$. That set is the [[countable set|countably]] [[infinite]]-[[dimension|dimensional]] [[simplex]]. The set $\mathcal{G}(\mathbb{N})$ (= $\Delta_{\mathbb{N}}$) is the prototype space from which the axioms are abstracted.
 
 
 ## Definition 
@@ -226,12 +225,15 @@ and hence there exists a unique measurable function $\epsilon_A: \mathcal{G}(\ma
 * [[convex space]]
 
 ## References
-The article 
 
-* {#Borger} B&ouml;rger & Kemper, There is no cogenerator for total convex spaces, 
-Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 35 (1994) no. 4, pp. 335-338.
+The notion of superconvex spaces originates with:
 
-shows that $\mathbf{SCvx}$ has no cogenerator.
+* [[Dieter Pumplün]], *Banach spaces and superconvex modules*, in *Symposia Gaussiana -- Conference A: Mathematics and Theoretical Physics*, De Gruyter (1995) &lbrack;[doi:10.1515/9783110886726.323](https://doi.org/10.1515/9783110886726.323)&rbrack;
+
+The proof that $\mathbf{SCvx}$ has no cogenerator is due to:
+
+* {#BörgerKemper94a} [[Reinhard Börger]], [[Ralf Kemper]], *There is no cogenerator for total convex spaces*, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome **35** 4 (1994) 335-338 &lbrack;[numdam:CTGDC_1994__35_4_335_0](http://www.numdam.org/item/CTGDC_1994__35_4_335_0)&rbrack;
+
 
 The fact that $\mathbf{SCvx}$ is a symmetric monoidal argument can be proven the same way it is for [[convex spaces]] simply by replacing the finite affine sums with countable affine sums. That proof was given by
 
@@ -239,7 +241,7 @@ The fact that $\mathbf{SCvx}$ is a symmetric monoidal argument can be proven the
 
 Proposition 1.2 in 
 
-* {#Borger} B&ouml;rger & Kemper, Cogenerators for convex spaces, Applied Categorical Structures, Vol. 2 (1994), 1-11.
+* {#BörgerKemper94b} [[Reinhard Börger]], [[Ralf Kemper]], *Cogenerators for convex spaces*, Applied Categorical Structures **2** (1994) 1-11 &lbrack;[doi:10.1007/BF00878499](https://doi.org/10.1007/BF00878499)&rbrack;
 
 is particularly useful for viewing super convex spaces as positively convex spaces which are somewhat easier to work with because the condition $\sum_{i \in \mathbb{N}}p_i=1$  is replaced by the inequality $\le 1$.
 
@@ -255,10 +257,13 @@ For purposes of constructing models of complex systems using super convex spaces
 
 The term strong convex spaces was employed in the text
 
-* [[George Mackey]], _The Mathematical Foundations of Quantum Mechanics_ A
-Lecture-note Volume, ser. The mathematical physics monograph series.
-Princeton university, 1963
+* [[George Mackey]], _The Mathematical Foundations of Quantum Mechanics_ A Lecture-note Volume, ser. The mathematical physics monograph series. Princeton university, 1963
+
+[[!redirects super convex spaces]]
 
 [[!redirects Super convex space]]
 [[!redirects super convex spaces]]
 [[!redirects strong convex spaces]]
+
+[[!redirects superconvex space]]
+[[!redirects superconvex spaces]]
