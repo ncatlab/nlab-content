@@ -122,6 +122,7 @@ where the second equality follows from the finitary condition. Since each summan
 
 
 ## Examples 
+ {#Examples}
 
 Vector spaces, algebraic closures, graphs, restrictions, localizations, ... 
 
