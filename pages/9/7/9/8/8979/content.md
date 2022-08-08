@@ -9,7 +9,7 @@
 
 * [[reflective subcategory]], [[coreflective subcategory]]
 
-### Examples
+**Examples**
 
 * [[Moore closure]]
 
