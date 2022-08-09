@@ -3,9 +3,23 @@
 
 This entry is about the article
 
-* [[Dan Dugger]], _Combinatorial model categories have presentations_, Adv. Math. 164 (2001), no. 1, 177-201 ([arXiv:math/0007068](http://arxiv.org/abs/math/0007068))
+* [[Daniel Dugger]]:
 
-  **Abstract** _We show that every combinatorial model category can be obtained, up to Quillen equivalence, by localizing a model category of diagrams of simplicial sets. This says that any combinatorial model category can be built up from a category of "generators" and a set of "relations" --- that is, any combinatorial model category has a presentation._ 
+  \linebreak
+
+  **Combinatorial model categories have presentations** 
+
+  \linebreak
+
+   Adv. Math. **164** 1 (2001) 177-201 
+
+  [arXiv:math/0007068](http://arxiv.org/abs/math/0007068)
+
+  [doi:10.1006/aima.2001.2015](https://doi.org/10.1006/aima.2001.2015)
+
+on [[combinatorial model categories]] and their identifications with [[Bousfield localization of model categories|Bousfield localizations]] of [[model categories of simplicial presheaves]].
+
+> **Abstract.** _We show that every combinatorial model category can be obtained, up to Quillen equivalence, by localizing a model category of diagrams of simplicial sets. This says that any combinatorial model category can be built up from a category of "generators" and a set of "relations" --- that is, any combinatorial model category has a presentation._ 
 
 This builds on the companion paper
 
