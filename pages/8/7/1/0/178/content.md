@@ -430,6 +430,9 @@ Further discussion of the [[shape modality]] on smooth $\infty$-groupoids is in
 
 * {#Carchedi15} [[David Carchedi]], _On The Homotopy Type of Higher Orbifolds and Haefliger Classifying Spaces_ ([arXiv:1504.02394](http://arxiv.org/abs/1504.02394))
 
+On smooth ∞-groupoids (called "[[differentiable stacks]]" there) and the [[smooth Oka principle]]:
+
+* {#Clough21} [[Adrian Clough]], *A Convenient Category for Geometric Topology*, PhD thesis, UT Austin (2021) &lbrack;[pdf](https://repositories.lib.utexas.edu/bitstream/handle/2152/114981/CLOUGH-DISSERTATION-2021.pdf), [[Clough-ConvenientCategory.pdf:file]]&rbrack;
 
 [[!redirects Smooth∞Grpd]]
 
