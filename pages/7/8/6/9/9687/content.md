@@ -243,7 +243,9 @@ See also:
 
 * Erich Poppitz, *Notes on Confinement on $\mathbb{R}^3 \times S^1$: From Yang-Mills, super-Yang-Mills, and QCD(adj) to QCD(F)* ([arXiv:2111.10423](https://arxiv.org/abs/2111.10423))
 
+Recognition of [[instantons]] and confinement in [[lattice gauge theory]] via [[topological data analysis]] ([[persistent homology]]):
 
+* Daniel Spitz, Julian M. Urban, Jan M. Pawlowski, *Confinement in non-Abelian lattice gauge theory via persistent homology* &lbrack;[arXiv:2208.03955](https://arxiv.org/abs/2208.03955)&rbrack;
 
 
 #### Via monopole condensation
