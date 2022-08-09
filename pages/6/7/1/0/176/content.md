@@ -446,6 +446,9 @@ Mathematical Aspects of Quantum Field Theories. Mathematical Physics Studies. Sp
 
 * Joaquin Liniado, *Two Dimensional Conformal Field Theory and a Primer to Chiral Algebras* ([arXiv:2110.15164](https://arxiv.org/abs/2110.15164))
 
+* Marc Gillioz, *Conformal field theory for particle physicists* &lbrack;[arXiv:2207.09474](https://arxiv.org/abs/2207.09474)&rbrack;
+
+
 
 For a discussion of mathematical formalization ([[vertex operator algebras]], [[conformal nets]], [[functorial QFT]]) see
 
