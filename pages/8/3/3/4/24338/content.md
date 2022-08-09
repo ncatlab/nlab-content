@@ -15,7 +15,7 @@ A historically important early manuscript draft:
 on [[model category]]-theory in general and on [[cofibrantly generated model categories]] and [[Reedy model categories]] in particular.
 
 This manuscript draft later transformed in 
-[[Homotopy Limit Functors on Model Categories and Homotopical Categories]], adding [[Jeffrey H. Smith]] as a coauthor.
+*[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]*, adding [[Jeffrey H. Smith]] as a coauthor.
 
 However, the draft serves as an original reference for the [[Kan recognition theorem]] (in §II.8) and the [[Kan transfer theorem]] (in §II.9), as well as [[cofibrantly generated model categories]] (in Chapter II).
 
