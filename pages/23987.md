@@ -304,6 +304,18 @@ Stone-von Neumann**
 
 \linebreak
 
+## External talks
+ {#ExternalTalk}
+
+* 15 Sep 2022 at *[PlanQC 2022](https://icfp22.sigplan.org/home/planqc-2022)*
+
+  [[Urs Schreiber]] on joint work with [[Hisham Sati]]:
+
+  **[[schreiber:Topological Quantum Programming in TED-K]]**
+
+\linebreak
+
+
 ***
 
 \linebreak
