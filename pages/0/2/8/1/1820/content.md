@@ -614,25 +614,25 @@ See [[combinatorial simplicial model category]].
 
 Much of the theory of combinatorial model categories goes back to [[Jeff Smith]]. Apparently Smith will eventually present a book on this subject. To date, however, his ideas and results appear reproduced in articles of other authors.
 
-After [[Jeff Smith]] presented his recognition theorem at a conference in Barcelona, its first appearance in a publication is apparently Theorem 1.7 in 
+After [[Jeff Smith]] presented his recognition theorem at a conference in Barcelona, its first appearance in a publication is apparently  
 
-* {#Beke} [[Tibor Beke]], _Sheafifiable homotopy model categories_, Math. Proc. Cambr. Phil. Soc. 129 (2000), 447&#8211;475 ([arXiv:math/0102087](http://arxiv.org/abs/math/0102087))
+* {#Beke} [[Tibor Beke]], Theorem 1.7 in: _Sheafifiable homotopy model categories_, Math. Proc. Cambr. Phil. Soc. 129 (2000), 447&#8211;475 ([arXiv:math/0102087](http://arxiv.org/abs/math/0102087))
 
-The definition of combinatorial model categories appears also for instance as 
+An early explicit account of the notion of combinatorial model categories is in Section II of:
 
-* {#Lurie} [[Jacob Lurie]], Def. A.2.6.1 in: _[[Higher Topos Theory]]_;
- 
+* {#Dugger01} [[Daniel Dugger]], *[[Combinatorial model categories have presentations]]*, Adv. Math. **164** 1 (2001) 177-201 &lbrack;[arXiv:math/0007068](http://arxiv.org/abs/math/0007068), [doi:10.1006/aima.2001.2015](https://doi.org/10.1006/aima.2001.2015)&rbrack;
+
+(which goes on to state and proof [[Dugger's theorem]], based on results in Dugger's _[[Universal homotopy theories]]_).
+
+The definition of combinatorial model categories is recalled also as:
+
 * {#Barwick} [[Clark Barwick]], Def. 1.3 in: _On (enriched) left Bousfield localization of model categories_ ([arXiv:0708.2067](http://arxiv.org/abs/0708.2067))
 
-Smith's theorem appears as ([Lurie, A.2.6.10](#Lurie))  and as ([Barwick, prop. 1.7](#Barwick)).
-
-[[Dugger's theorem]] is due to
-
-* {#Dugger01} [[Daniel Dugger]], _[[Combinatorial model categories have presentations]]_, Adv. Math. 164 (2001), no. 1, 177-201 ([arXiv:math/0007068](http://arxiv.org/abs/math/0007068))
+* {#Lurie} [[Jacob Lurie]], Def. A.2.6.1 in: _[[Higher Topos Theory]]_ (2009)
  
-based on results in
 
-* {#DuggerUniversalHomotopy} [[Dan Dugger]], _[[Universal homotopy theories]]_
+Smith's theorem appears as ([Lurie, A.2.6.10](#Lurie))  and as ([Barwick, prop. 1.7](#Barwick)).
+ 
 
 Futher details are discussed in:
 
