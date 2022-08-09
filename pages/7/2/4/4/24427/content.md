@@ -20,3 +20,5 @@ A graded bimonoid in a [[CMon-enriched symmetric monoidal category]] is given by
 [[symmetric powers in symmetric monoidal categories enriched over modules over a (Q plus)-algebra]]
 
 [[graded codifferential category]]
+
+[[Hasse-Schmidt derivative]]
