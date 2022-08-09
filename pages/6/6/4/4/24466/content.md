@@ -16,7 +16,7 @@
 
 ## Idea
 
-_Lorentzian polynomials_ are a class of [[homogeneous polynomials]] with [[real number|real]] [[coefficients]] that are used to relate continuous [[convex analysis]] and discrete convex analysis via [[tropical geometry]]. They arise in the study of [[matroids]].
+_Lorentzian polynomials_ are a class of [[homogeneous polynomials]] with [[real number|real]] [[coefficients]] that are used to relate continuous [[convex analysis]] and discrete convex analysis via [[tropical geometry]]. The theory of Lorentzian polynomials provides techniques to prove that various naturally-occurring sequences of non-negative real numbers, $(a_i)$, are log-concave, i.e., $a_k^2 \geq a_{k-1}a_{k+1}$ for all $k$.
 
 ## Definition
 
@@ -30,6 +30,7 @@ Let $f \in \mathbb{R}[x_1, \ldots, x_n]$ be a homogeneous polynomial of degree $
 ## Related concepts
 
 * [[polynomial]]
+* [[matroid]]
 
 ## References
 
