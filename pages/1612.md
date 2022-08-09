@@ -93,7 +93,9 @@ This may be found highlighted in [EGNO 15, p. 266](#EGNO15), [Runkel, Sec. 4.3](
 
 A database of examples is given by ([Gannon & Höhn](#GannonHoehn)).
 
+## Related concepts
 
+* [[tensor category]]
 
 
 ## References
