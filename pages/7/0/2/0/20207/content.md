@@ -1,5 +1,5 @@
 [[!redirects David Myers]]
-David Jaz Myers is a graduate student at Johns Hopkins.
+David Jaz Myers is graduating at Johns Hopkins, now transitioning to [[CQTS]].
 
 * [personal webpage](http://davidjaz.com/)
 
