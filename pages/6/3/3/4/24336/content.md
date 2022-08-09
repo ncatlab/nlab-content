@@ -1,5 +1,5 @@
 
-* [Institute page](https://www.mathematik.tu-darmstadt.de/fb/personal/details/jonathan_weinberger.de.jsp)
+* [Personal page](https://sites.google.com/view/jonathanweinberger)
 
 ## Selected writings
 
