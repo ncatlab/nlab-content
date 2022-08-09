@@ -39,5 +39,7 @@ Let $f \in \mathbb{R}[x_1, \ldots, x_n]$ be a homogeneous polynomial of degree $
 * {#Huh22} [[June Huh]], _Combinatorics and Hodge theory_, Proc. Int. Cong. Math. **1** (2022)
  &lbrack;[doi:10.4171/ICM2022/205](), [pdf](https://www.mathunion.org/fileadmin/IMU/Prizes/Fields/2022/jh.pdf), [[Huh-CombinatoricsAndHodgeTheory.pdf:file]]&rbrack;
 
+* {#Huh19} [[June Huh]], _Lorentzian polynomials_, Simons Lectures 2019 ([videos](https://math.mit.edu/news/seminars/simons19.php))
+
 
 [[!redirects Lorentzian polynomials]]
