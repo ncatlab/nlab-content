@@ -9,7 +9,10 @@
 
 I work on [[bundle gerbes]], [[principal 2-bundles|2-bundles]], [[geometric stacks]] and [[internal category|internal groupoids and categories]], and [[category theory]] more generally with a side interest in [[foundations]]. I have a particular interest in constructing examples in (low-dimensional) [[higher geometry]].
 
-From May 2022 I am a Visiting Associate Lecturer at Adelaide University, in the School of Mathematical Sciences, and I teach in the Maths Learning Centre (NB this is an independent part of the university!).
+
+From May 2022 I am a Visiting Associate Lecturer at Adelaide University, in the School of Mathematical Sciences, and I teach in the Maths Learning Centre (NB this is an independent part of the university, not attached to the School of Maths!).
+For August–December 2022 I am also a casual lecturer for two pure mathematics subjects at Flinders University.
+
 
 For March 2018–December 2021 I was a Research Associate (that is, a postdoc) at the [Institute for Geometry and its Applications](http://www.iga.adelaide.edu.au/) in the [School of Mathematical Sciences](http://maths.adelaide.edu.au/) at the University of Adelaide.
 
