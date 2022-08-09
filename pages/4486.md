@@ -457,6 +457,8 @@ so $E(v) = v (4\sin(\frac{1}{2v}) - \sin(\frac{1}{v})) \to 0$.
 
 * [[derivative of distributions]]
 
+* [[Hasse-Schmidt derivative]]
+
 * [[integrable function]], [[square-integrable function]]
 
 * [[bounded function]]
