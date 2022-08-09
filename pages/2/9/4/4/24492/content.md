@@ -1,6 +1,14 @@
 
+* member of [[CQTS]]
+
+* [old home page at UT Austin](https://web.ma.utexas.edu/users/adrian.clough/)
+
 
 ## Selected writings
+
+On pro-algebraic resolutions of [[regular schemes]]:
+
+* [[Adrian Clough]], *Pro-algebraic Resolutions of Regular Schemes*, MSc thesis, ETC Z&uuml;rich (2014) &lbrack;[pdf](https://web.ma.utexas.edu/users/adrian.clough/Master_thesis.pdf)&rbrack;
 
 On [[smooth ∞-groupoids]] (called "[[differentiable stacks]]") and the [[smooth Oka principle]]:
 
