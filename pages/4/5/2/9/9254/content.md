@@ -161,7 +161,7 @@ and see the references at
 
 * [[persistent cohomotopy]]
 
-### Implementation and Applications
+### Implementation
 
 Implementation via concrete [[algorithms]], etc.
 
@@ -171,9 +171,9 @@ Review:
 
 * [[Stefan Huber]], *Persistent Homology in Data Science* In: *Data Science – Analytics and Applications* Springer (2021) $[$[doi:10.1007/978-3-658-32182-6_13](https://doi.org/10.1007/978-3-658-32182-6_13), [pdf](https://www.sthu.org/research/publications/files/Hub20.pdf)$]$
 
+### Applications
 
-
-Application of [[topological data analysis]] ([[persistent homology]]) to 
+Application of [[topological data analysis]] ([[persistent homology]]) to
 
 analysis of [[quasicrystals]]:
 
@@ -184,9 +184,14 @@ analysis of [[cosmological structure formation]]:
 
 * Matteo Biagetti, [[Alex Cole]], [[Gary Shiu]], _The Persistence of Large Scale Structures I: Primordial non-Gaussianity_ ([arXiv:2009.04819](https://arxiv.org/abs/2009.04819))
 
-to analysis of [[phase transitions]]:
+analysis of [[phase transitions]]:
 
 * [[Alex Cole]], Gregory J. Loges, [[Gary Shiu]], _Quantitative and Interpretable Order Parameters for Phase Transitions from Persistent Homology_ ([arXiv:2009.14231](https://arxiv.org/abs/2009.14231))
+
+recognition of [[instantons]] and [[confinement]] in [[lattice gauge theory]]:
+
+* Daniel Spitz, Julian M. Urban, Jan M. Pawlowski, *Confinement in non-Abelian lattice gauge theory via persistent homology* &lbrack;[arXiv:2208.03955](https://arxiv.org/abs/2208.03955)&rbrack;
+
 
 
 ### See also
