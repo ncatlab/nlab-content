@@ -21,7 +21,7 @@
 
 While every [[continuous map]] sends [[compact subsets]] to [[compact subsets]] (see at _[[continuous images of compact spaces are compact]]_), it is not true in general that the [[preimage]] of a compact set along a continuous map is compact.
 
-A [[continuous function]] $f : X \to Y$ between [[topological space]]s is **[[proper map]]** if the [[inverse image]] of any [[compact space|compact]] subset is itself compact.
+A [[continuous function]] $f : X \to Y$ between [[topological spaces]] is a **[[proper map]]** if the [[inverse image]] of any [[compact space|compact]] subset is itself compact.
 
 A notion of proper homotopy between proper maps leads to [[proper homotopy theory]].
 
