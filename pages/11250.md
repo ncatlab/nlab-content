@@ -14,7 +14,8 @@
 ## writings
 
 * [[Tractatus Logico-Philosophicus]]
-* Philosophical investigations, see [[language game]].
+* Philosophical investigations, see [[language game]]
+* [[Blue and Brown Books]]
 
 category: people
 
