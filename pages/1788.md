@@ -1,3 +1,5 @@
+My super small edit.
+
 Let $X$ be a set. The usual operations intersection, union, symmetric difference, complementary... on the subsets of $X$ can be presented in an homogeneous way using an operation $\multiscripts{_^n}{\Delta}{_i^j}:\mathcal{P}(X)^{\times n} \rightarrow \mathcal{P}(X)$ for every $n \ge 1$ and $0 \le i \le j \le n$. The operad thus generated gives much more operations.
 
 For every $n \ge 1$, $A_{1},...,A_{n}$ subsets of $X$, and $0 \le i \le j \le j$, define the set:
