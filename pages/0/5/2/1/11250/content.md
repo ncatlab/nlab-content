@@ -11,7 +11,7 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Ludwig_Wittgenstein)
 
-## writings
+## Selected writings
 
 * [[Tractatus Logico-Philosophicus]]
 * Philosophical investigations, see [[language game]]
