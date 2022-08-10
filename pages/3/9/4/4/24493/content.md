@@ -5,11 +5,11 @@
 
 ## Idea
 
-*Georgias* is a dialogue on rethoric by [[Plato]]. The main characters are Socrates and Gorgias, a sophist who teaches rethoric to young people.
+*Georgias* is a dialogue on rhetoric by [[Plato]]. The main characters are Socrates and Gorgias, a sophist who teaches rhetoric to young people.
 
 ## What is it to discuss
 
-Whereas discussing is about progressing together towards the truth on a precise question for Socrates, the clarification of the question being also part of the process, it is more about convincing the other for Gorgias. Thus, the dialogue can be seen as a mise en abyme of the subject it is discussing about. Not very long after the beginning of the dialogue, Plato precises the conditions of a good discussion between two partners. Perhaps, it would be good to agree on this before any discussion, including mathematical discussions.
+Whereas discussion is about progressing together towards the truth on a precise question for Socrates, the clarification of the question being also part of the process, it is more about convincing the other for Gorgias. Thus, the dialogue can be seen as a _mise en abyme_ of the subject it is discussing. Early in the dialogue, Plato specifies the conditions of a good discussion between two partners. Perhaps, it would be good to agree on this before any discussion, including mathematical discussions.
 
 > SOCRATES: You, Gorgias, like myself, have had great experience of disputations, and you must have observed, I think, that they do not always terminate in mutual edification, or in the definition by either party of the subjects which they are discussing; but disagreements
 are apt to arise -- somebody says that another has not spoken truly or clearly; and then they get into a passion and begin to quarrel, both parties conceiving that their opponents are arguing from personal feeling only and jealousy of themselves, not from any interest in the question at issue. And sometimes they will go on abusing one another until the company at last are quite vexed at themselves for ever listening to such fellows. Why do I say this? Why, because I cannot help feeling that you are now saying what is not quite consistent or accordant with what you were saying at first about rhetoric. And I am afraid to point this out to you, lest you should think that I have some animosity against you, and that I speak, not for the sake of discovering the truth, but from jealousy of you. Now if you are one of my sort, I should like to cross-examine you, but if not I will let you alone. And what is my sort? you will ask. **I am one of those who are very willing
