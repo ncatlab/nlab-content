@@ -19,6 +19,8 @@
 
 * [[Republic dialogue]]
 
+* [[Gorgias dialogue]]
+
 * [[doctrine of ideas]]
 
 * [[Socrates]]
