@@ -15,6 +15,15 @@ We then have:
 * $X - A_{1} = \multiscripts{_^n}{\Delta}{_0^0}(A_{1})$
 * $A_{1} = \multiscripts{_^n}{\Delta}{_1^1}(A_{1})$
 
+\linebreak
+
+Knots for quantum computation from defect branes
+
+Already 25 years ago, Kitaev famously proposed that intrinsically fault-tolerant quantum computation should be possible by knotting the worldlines of defect points in effectively 2-dimensional quantum materials akin to graphene. Meanwhile, there have been striking advances (a) in the theoretical understanding of such quantum materials, in terms of the topological K-theory and (b) in the practical construction of toy quantum computers -- but the "topological quantum gates" proposed by Kitaev have remained somewhat elusive, both practically but also theoretically. Recently we have shown that a previously neglected sector of topological K-theory in its fully-fledged "twisted & equivariant & differential" refinement does reflect exactly those topological quantum gates that are thought to be practically realizable -- namely the "su(2)-anyon braid gates". This insight was drawn from the study of "defect branes" in string theory and points to a fully non-perturbative enhancement of what is known as "holographic" condensed matter theory. I will give a gentle exposition and motivation of these results, which are joint work with Hisham Sati at CQTS. Talk slides and further pointers may be found at: https://ncatlab.org/schreiber/show/Erice+2022
+
+
+\linebreak
+
 ## The logic at work
 
 ### Differentiating a proof
