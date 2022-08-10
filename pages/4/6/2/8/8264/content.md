@@ -129,6 +129,10 @@ On [[structure formation]] during inflation by [[inhomogeneous cosmology|inhomog
 
 * [[Martin Bojowald]], Ding Ding, *Canonical description of cosmological backreaction*, JCAP **03** (2021) 083
 ([arXiv:2011.03018](https://arxiv.org/abs/2011.03018))
+
+In [[supersymmetric quantum cosmology]]:
+
+* N.E. Martínez-Pérez, C. Ramírez, V.M. Vázquez Báez, *Phenomenological inflationary model in Supersymmetric Quantum Cosmology* &lbrack;[arXiv:2208.04412](https://arxiv.org/abs/2208.04412)&rbrack;
  
 
 ### Experimental evidence 
