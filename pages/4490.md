@@ -1,3 +1,4 @@
+[[!redirects phenomenology]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -37,4 +38,5 @@ For example, while so-called [[standard model of particle physics]] has inconsis
 
 * [string theory FAQ - Did string theory provide any insight relevant in experimental particle physics?](string+theory+FAQ#InsightInParticlePhysics)
 
+* [[phenomenology (philosophy)]]
 
