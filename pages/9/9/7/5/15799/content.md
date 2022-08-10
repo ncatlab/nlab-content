@@ -68,6 +68,10 @@ On [[2d CFT]] in terms of [[AQFT on curved spacetimes]]:
 
 * [[Marco Benini]], [[Luca Giorgetti]], [[Alexander Schenkel]], *A skeletal model for 2d conformal AQFTs* ([arXiv:2111.01837](https://arxiv.org/abs/2111.01837))
 
+On the [[time slice axiom]] in [[homotopical AQFT]]:
+
+* [[Marco Benini]], [[Victor Carmona]], [[Alexander Schenkel]], *Strictification theorems for the homotopy time-slice axiom* &lbrack;[arxiv:2208.04344](https://arxiv.org/abs/2208.04344)&rbrack;
+
 
 
 
