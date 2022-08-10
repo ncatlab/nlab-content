@@ -23,7 +23,7 @@
 
 ## Idea
 
-In [[solid state physics]], by a *quantum material* one means -- broadly and somewhat vaguely -- a [[phase of matter]] whose properties are deeply controlled by [[quantum physics]] and often by [[topological physics -- contents|topology]]. Prime examples are [[superconductors]] and, more recently and more prominently, [[topological phases of matter]] controlled by [[topological order]], such as [[topological insulators]]; also [[quasicrystals]]. A concrete example is [[graphene]].
+In [[solid state physics]], by a *quantum material* one means -- broadly and somewhat vaguely -- a [[phase of matter]] whose properties are deeply controlled by [[quantum physics]] and often by [[topological physics -- contents|topology]], for instance in that their [[quantum state|quantum]] [[ground state]] exhibits [[long-range entanglement]]. Prime examples are [[superconductors]] and, more recently and more prominently, [[topological phases of matter]] possibly controlled by [[topological order]], such as [[topological insulators]]; also [[quasicrystals]]. A concrete example is [[graphene]].
 
 ## Related concepts
 
