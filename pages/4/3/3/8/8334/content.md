@@ -62,6 +62,11 @@ Quantum cosmology for [[supergravity]] and its relation to the [[E10]] [[U-duali
 
 * {#Damour14} [[Thibault Damour]], _Quantum supersymmetric Bianchi IX  Cosmology and its hidden Kac-Moody Structure_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[DamourSQC14.pdf:file]])
 
+In regards of [[cosmic inflation]]:
+
+* N.E. Martínez-Pérez, C. Ramírez, V.M. Vázquez Báez, *Phenomenological inflationary model in Supersymmetric Quantum Cosmology* &lbrack;[arXiv:2208.04412](https://arxiv.org/abs/2208.04412)&rbrack;
+
+
 
 ### On conceptual problems
 
@@ -75,3 +80,5 @@ Discussion of the problem of internal quantum observers with an eye towards the 
  {#DoeringIsham}
 
 For more on this see at _[[Bohr topos]]_.
+
+[[!redirects supersymmetric quantum cosmology]]
