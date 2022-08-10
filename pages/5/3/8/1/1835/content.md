@@ -162,7 +162,7 @@ In [[algebraic geometry]] this is a basic object of study, since the revolution 
 
 ## References
 
-Terminology: [[EGA]] says prescheme, for what we call algebraic scheme, and says scheme for what we call [[separated scheme]].
+Terminology: [[EGA]] says prescheme, for what we call scheme, and says scheme for what we call [[separated scheme]].
 
 ### Standard monographs
 
