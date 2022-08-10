@@ -1,0 +1,1 @@
+Edmund Husserl is a philosopher who initiated the movement of [[phenomenology (philosophy)|phenomelogy]].
