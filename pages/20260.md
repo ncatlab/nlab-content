@@ -21,6 +21,11 @@ Review of the [[flavour anomalies]]:
 
 * {#GuadagnoliKoppenburg22} Diego Guadagnoli, [[Patrick Koppenburg]], *Lepton-flavor violation and lepton-flavor-universality violation in b and c decays* &lbrack;[arXiv:2207.01851](https://arxiv.org/abs/2207.01851)&rbrack;
 
+Updated plots:
+
+* {#KoppenburgAnomalies} [[Patrick Koppenburg]], *Flavour Anomalies* &lbrack;[anomalies.htlm](https://www.nikhef.nl/~pkoppenb/anomalies.html)&rbrack;
+
+
 
 ## Related $n$Lab entries
 
