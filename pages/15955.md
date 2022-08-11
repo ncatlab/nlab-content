@@ -18,3 +18,5 @@ It is also known (starting from Jacquet and Langlands' work for $\GL_2$) in the 
 ##References
 
 * [[Minhyong Kim]], _A superficial introduction to Langlands functoriality_, [slides](http://people.maths.ox.ac.uk/kimm/lectures/functoriality.pdf)
+
+* Jae-Hyun Yang, _Langlands Functoriality Conjecture_, Kyungpook Math. J. vol. 49, no. 2 (June 2009), 355-387 ([arXiv:0808.0917](https://arxiv.org/abs/0808.0917))
