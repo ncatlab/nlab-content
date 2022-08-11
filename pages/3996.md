@@ -10,7 +10,6 @@
 =--
 
 
-
 # Reflection of limits
 * table of contents
 {: toc}
@@ -90,6 +89,12 @@ If $J$ in def. \ref{ReflectedLimit} has some limit $\theta$ which is preserved b
 * [[created limit]]
 
 * [[lifted limit]]
+
+## References
+
+* [[Emily Riehl]], §3.3 in: *[[Category Theory in Context]]*, Dover Publications (2017) &lbrack;[pdf](http://www.math.jhu.edu/~eriehl/context.pdf), [book website](http://www.math.jhu.edu/~eriehl/context/)&rbrack;
+  
+
 
 [[!redirects reflection of limits]]
 [[!redirects reflected limits]]
