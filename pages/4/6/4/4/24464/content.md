@@ -10,12 +10,21 @@ and on [[intersection cohomology]] of [[matroids]]:
 
 * Tom Braden, [[June Huh]], Jacob P. Matherne, [[Nicholas Proudfoot]], Botong Wang, *Singular Hodge theory for combinatorial geometries* &lbrack;[arXiv:2010.06088](https://arxiv.org/abs/2010.06088)&rbrack;
 
+A survey of the use of [[Hodge theory]] in [[combinatorics]]:
 
 * {#Huh22} [[June Huh]], _Combinatorics and Hodge theory_, Proc. Int. Cong. Math. **1** (2022)
  &lbrack;[doi:10.4171/ICM2022/205](), [pdf](https://www.mathunion.org/fileadmin/IMU/Prizes/Fields/2022/jh.pdf), [[Huh-CombinatoricsAndHodgeTheory.pdf:file]]&rbrack;
 
+[[Schur polynomials]] as Lorentzian:
+
+* [[June Huh]], Jacob P. Matherne, Karola Mészáros, Avery St. Dizier, _Logarithmic concavity of Schur and related polynomials_ ([arXiv:1906.09633](https://arxiv.org/abs/1906.09633))
+
+* Petter Brändén, [[June Huh]], _Hodge-Riemann relations for Potts model partition functions_ ([arXiv:1811.01696](https://arxiv.org/abs/1811.01696))
+
 ## Related $n$Lab entries
 
 * [[hard Lefschetz theorem]]
+* [[Hodge theory]]
+* [[Lorentzian polynomial]]
 
 category: people
