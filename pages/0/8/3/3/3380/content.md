@@ -19,7 +19,7 @@ This is an example of an [[algebraic theory]] (in the strong sense that it is [[
 
 +-- {: .num_defn #concrete}
 ###### Concrete definition
-A __totally convex space__ is a set $X$ equipped with, for each [[infinite sequence]] $(a_1, a_2, \ldots)$ of [[real numbers]] such that $\sum_i {|a_i|} \leq 1$, an operation from $X^{\mathbb{N}}$ to $X$, written $(x_1,x_2,\ldots) \mapsto \sum_i a_i x_i$, such that:
+A __totally convex space__ is a non-empty set $X$ equipped with, for each [[infinite sequence]] $(a_1, a_2, \ldots)$ of [[real numbers]] such that $\sum_i {|a_i|} \leq 1$, an operation from $X^{\mathbb{N}}$ to $X$, written $(x_1,x_2,\ldots) \mapsto \sum_i a_i x_i$, such that:
 
 1.  Reordering:  If $\sigma$ is any [[permutation]] of $\mathbb{N}$, then $\sum_i a_i x_i = \sum_i a_{\sigma(i)} x_{\sigma(i)}$;
 2.  Nullary substitution:  If $\delta_i$ is the [[Kronecker delta]] at $0$ (so $\delta_i = 0$ normally, but $\delta_0 = 1$), then $\sum_i \delta_i x_i = x_0$;
@@ -28,9 +28,12 @@ A __totally convex space__ is a set $X$ equipped with, for each [[infinite seque
 
 Of course, one would normally write the right-hand side of the last equation as $\sum_{i,j} a_i b_{i,j} x_{i,j}$, but that is not technically an operation in the theory, except as mediated by $\pi$ and $\rho$.  A common choice for $(\pi,\rho)$ is the [[inverse]] of $(i,j) \mapsto \big({i + j + 1 \atop 2}\big) + j$, where for this expression to work we take $0$ to be a natural number.
 
+A totally convex space $X$ has the same axioms as a [[super convex space]] except that a totally convex space $X$ must be a nonempty set, and the condition for countable affine sums $\sum_{i \in \mathbb{N}} a_i x_i$, given by $\sum_{i \in \mathbb{N}} |a_i| = 1$ for super convex spaces, is replaced by the inequality $\sum_{i \in \mathbb{N}} |a_i|\le 1$.
+
 +-- {: .query}
 I haven\'t actually checked that this list is complete; but it\'s what I get if I take Andrew at his word that we need only substitution and reordering rules.  I wouldn\'t be terribly surprised if nullary substitution is redundant, but right now I don\'t see how.  ---Toby
 =--
+
 
 
 ## Properties
@@ -60,9 +63,20 @@ I haven\'t actually checked that this list is complete; but it\'s what I get if 
 
 1. Going back one step, $(-1,1)$ is a totally convex space.   It is illuminating to describe this as a [[coequaliser]] of free totally convex spaces.  Consider a functional $f \colon \ell^1(\mathbb{N}) \to \mathbb{R}$ which is bounded of norm $1$ but does not achieve its norm; for example, let $f$ be represented by the sequence $(\frac{1}{2},\frac{2}{3},\frac{3}{4},\ldots)$.  Then for any $x \in B\ell^1(\mathbb{N})$, $f(x) \in (-1,1)$.  Thus $(-1,1)$ is the coequaliser of the inclusion $\ker f \to \ell^1(\mathbb{N})$ and the [[zero map]] $\ker f \to \ell^1(\mathbb{N})$.
 
+## Related concepts
+* [[super convex space]]
+* [[convex space]]
+* positively convex space
+
 ## References
 
 * [[Dieter Pumplün]] and Helmut Röhrl, *Totally convex algebras*, Comment.Math.Univ.Carolin. 33,2 (1992)205–235
 [totally convex algebras](http://emis.maths.tcd.ie/journals/CMUC/pdf/cmuc9202/pump.pdf)
+
+
+* _Banach Spaces and totally convex spaces I_, Comm. Alg. 12 (1984)
+
+
+* _Banach Spaces and totally convex spaces II_, Comm. Alg. 13 (1985)
 
 [[!redirects totally convex spaces]]
