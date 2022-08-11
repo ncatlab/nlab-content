@@ -448,6 +448,9 @@ Mathematical Aspects of Quantum Field Theories. Mathematical Physics Studies. Sp
 
 * Marc Gillioz, *Conformal field theory for particle physicists* &lbrack;[arXiv:2207.09474](https://arxiv.org/abs/2207.09474)&rbrack;
 
+* Satoshi Nawata, Runkai Tao, Daisuke Yokoyama, *Fudan lectures on 2d conformal field theory* &lbrack;[arXiv2208.05180](https://arxiv.org/abs/2208.05180)&rbrack;
+
+
 
 
 For a discussion of mathematical formalization ([[vertex operator algebras]], [[conformal nets]], [[functorial QFT]]) see
