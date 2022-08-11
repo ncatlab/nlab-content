@@ -60,5 +60,9 @@ I haven\'t actually checked that this list is complete; but it\'s what I get if 
 
 1. Going back one step, $(-1,1)$ is a totally convex space.   It is illuminating to describe this as a [[coequaliser]] of free totally convex spaces.  Consider a functional $f \colon \ell^1(\mathbb{N}) \to \mathbb{R}$ which is bounded of norm $1$ but does not achieve its norm; for example, let $f$ be represented by the sequence $(\frac{1}{2},\frac{2}{3},\frac{3}{4},\ldots)$.  Then for any $x \in B\ell^1(\mathbb{N})$, $f(x) \in (-1,1)$.  Thus $(-1,1)$ is the coequaliser of the inclusion $\ker f \to \ell^1(\mathbb{N})$ and the [[zero map]] $\ker f \to \ell^1(\mathbb{N})$.
 
+## References
+
+* [[Dieter Pumplün]] and Helmut Röhrl, *Totally convex algebras*, Comment.Math.Univ.Carolin. 33,2 (1992)205–235
+[totally convex algebras](http://emis.maths.tcd.ie/journals/CMUC/pdf/cmuc9202/pump.pdf)
 
 [[!redirects totally convex spaces]]
