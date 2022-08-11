@@ -80,38 +80,40 @@ Every [[monadic functor]] is a conservative functor: for a $T$-algebra homomorph
 
 ## Properties
 
-+-- {: .num_prop}
-###### Proposition
+\begin{proposition}
+\label{ConservativeFunctorsReflectLimitsWhichTheyPreserve}
+A conservative functor $F \colon C \to D$ [[reflected limit|reflects]] all [[limits]] and [[colimits]] that it [[preserved limit|preserves]] and which exist in the source category.
+\end{proposition}
 
-A conservative functor $F : C \to D$ [[reflected limit|reflects]] all [[limits]] and [[colimits]] that it [[preserved limit|preserves]] and which exist in the source category.
+\begin{proof}
+We discuss the case of limits (the argument for colimits is [[formally dual]]):
 
-=--
-
-+-- {: .proof}
-###### Proof
-
-Let $K : J \to C$ be a [[diagram]] in $C$ whose limit $\lim K$ exists and such that $\lim F\circ K \simeq F \lim K$. Then if $const_c \to K$ is a [[cone]] in $C$ that is sent to a limiting cone $F const_c$ in $D$, then by the [[universal property]] of the limit in $D$ the morphism $F( c \to \lim K)$ is an isomorphism in $D$, hence must have been an isomorphism in $C$, hence $const_c$ must have been a limiting cone in $C$.
-
-The arguments for colimits is analogous.
-=--
+Let $K \colon J \to C$ be a [[diagram]] in $C$ whose limit $\lim K$ exists and such that $\lim (F\circ K) \,\simeq\, F (\lim K)$. Now if $const_c \to K$ is a [[cone]] in $C$ that is sent to a limiting cone $F const_c$ in $D$, then by the [[universal property]] of the limit in $D$ the morphism $F( c \to \lim K)$ is an [[isomorphism]] in $D$, hence must have been an isomorphism in $C$ (by the assumption that $F$ is conservative), hence $const_c$ must have been a limiting cone in $C$.
+\end{proof}
 
 
 
 
 ## Related concepts
 
+* [[monadicity theorem]]
+
 * [[conservative (∞,1)-functor]]
 
-## Literature
 
+
+## Literature
 
 * Geun Bin Im, [[Gregory Maxwell Kelly]], _Some remarks on conservative functors with left adjoints_,  J. Korean Math. Soc. __23__ (1986),  no. 1, 19&#8211;33, [MR87i:18002b](http://www.ams.org/mathscinet-getitem?mr=843247), [pdf](http://mathnet.kaist.ac.kr/mathnet/thesis_file/JKMS-23-1-19-33.pdf); _On classes of morphisms closed under limits_, J. Korean Math. Soc. __23__ (1986), no. 1, 1&#8211;18, _Adjoint-triangle theorems for conservative functors_, Bull. Austral. Math. Soc. __36__ (1987),  no. 1, 133&#8211;136, [MR88k:18005](http://www.ams.org/mathscinet-getitem?mr=897429), [doi](http://dx.doi.org/10.1017/S000497270002637X) 
 
 * {#Jonstone} [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
 
-For an example of a conservative, but not faithful, functor $f: A\to Set$ having a left adjoint see Example 2.4 in
+For an example of a conservative, but not faithful, functor $f: A\to Set$ having a left adjoint see Example 2.4 in:
 
-* Reinhard B&#246;rger, [[Walter Tholen]], _Strong regular and dense generators_, [[Cahiers]] de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques __32__, no. 3 (1991), p. 257-276, [MR1158111](http://www.ams.org/mathscinet-getitem?mr=1158111), [numdam](http://www.numdam.org/item?id=CTGDC_1991__32_3_257_0)
+* [[Reinhard Börger]], [[Walter Tholen]], _Strong regular and dense generators_,  [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]] **32** 3 (1991) 257-276 &lbrack;[numdam:CTGDC_1991__32_3_257_0](http://www.numdam.org/item?id=CTGDC_1991__32_3_257_0), [MR1158111](http://www.ams.org/mathscinet-getitem?mr=1158111)&rbrack;
+
+
 
 [[!redirects conservative functors]]
+
