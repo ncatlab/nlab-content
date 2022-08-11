@@ -143,8 +143,16 @@ There is also a 2-categorical approach using quasicategories in
 ## Related concepts
 
 * [[monadic functor]], [[comonadic functor]]
+
 * [[functor of descent type]]
+
 * [[monadic decomposition]]
+
+* [[Bénabou-Roubaud's theorem]]
+
+* [[monadic descent]]
+
+
 
 ## References
 
@@ -160,9 +168,14 @@ Textbook accounts:
 
 * {#BarrWells} Chapter 3 of [[Michael Barr]], [[Charles Wells]], _[[Toposes, Triples, and Theories]]_  Grundlehren der math. Wissenschaften 278, Springer-Verlag 1983.  Available as [TAC Reprint 12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html).
 
-Other references include:
+Further references:
 
-* [[descent]], [[FGA explained]], [[SGA 1]], [[Benabou-Roubaud theorem| Bénabou-Roubaud's theorem]]
+
+* [[FGA explained]], [[SGA 1]], 
+
+
+* [[Fred Linton]], _Some aspects of equational categories_, Proceedings of the Conference on Categorical Algebra. Springer 1966.
+
 
 * {#BenabouRoubaud70} [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, Ser. A **270**  (1970) 96-98 &lbrack;[gallica:12148/bpt6k480298g/f100](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f100), [[BenabouRoubaud-MonadesEtDescente.pdf:file]],   English translation (by [[Peter Heinig]]): [MO:q/279152](https://mathoverflow.net/q/279152)&rbrack;
 
@@ -175,7 +188,9 @@ Other references include:
 
 * John Bourke, _Two dimensional monadicity_, [arxiv/1212.5123](http://arxiv.org/abs/1212.5123)
 
-* [[Fred Linton]], _Some aspects of equational categories_, Proceedings of the Conference on Categorical Algebra. Springer 1966.
+
+* [[Emily Riehl]], §5.5 in: *[[Category Theory in Context]]*, Dover Publications (2017) &lbrack;[pdf](http://www.math.jhu.edu/~eriehl/context.pdf), [book website](http://www.math.jhu.edu/~eriehl/context/)&rbrack;
+  
 
 There is a version for [[Morita context]]s instead of monads:
 
