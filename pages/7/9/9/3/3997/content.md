@@ -75,16 +75,16 @@ The definitions given above are all "up to isomorphism", i.e. they satisfy the [
 * [[lifted limit]]
 
 
-
 ## References
 
-Definition V.1 in
+* {#MacLane71} [[Saunders Mac Lane]], Definition V.1 in: _[[Categories for the Working Mathematician]]_ (1971)
 
-* {#MacLane71} [[Saunders Mac Lane]], _[[Categories for the Working Mathematician]]_ (1971)
 
-Definition 13.17(2) in
+* [[Jiří Adámek]], [[Horst Herrlich]], [[George E. Strecker]], Definition 13.17(2) in: _[[Abstract and Concrete Categories]]_.
 
-* [[Jiří Adámek]], [[Horst Herrlich]], [[George E. Strecker]], _[[Abstract and Concrete Categories]]_.
+
+* [[Emily Riehl]], §3.3 in: *[[Category Theory in Context]]*, Dover Publications (2017) &lbrack;[pdf](http://www.math.jhu.edu/~eriehl/context.pdf), [book website](http://www.math.jhu.edu/~eriehl/context/)&rbrack;
+  
 
 
 [[!redirects created limits]]
