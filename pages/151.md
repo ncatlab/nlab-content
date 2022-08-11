@@ -172,3 +172,7 @@ See also
 
 [[!redirects formal dual]]
 [[!redirects formal duals]]
+
+[[!redirects formally dual]]
+
+
