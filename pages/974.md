@@ -269,7 +269,7 @@ Hence a a set of generators that exhibits $Set$ as a locally finitely complete c
 +-- {: .num_example }
 ###### Example
 
-More generally, for $C$ any [[small category]] the [[category of presheaves]] $Set^C$ is locally finitely presentable if $C$ is small. 
+More generally, for $C$ any [[small category]] the [[category of presheaves]] $Set^C$ is locally finitely presentable. 
 
 This follows with [[Gabriel-Ulmer duality]]: 
 the [[lex completion|finite limit completion]] of $C$, $Lex(C)$, is also small, and $Set^C$ is [[equivalence of categories|equivalent]] to the category of finitely continuous functors $Lex(C) \to Set$. 
