@@ -365,6 +365,11 @@ and with both:
 
 * Rongge Xu, Zhi-Hao Zhang, *Categorical descriptions of 1-dimensional gapped phases with abelian onsite symmetries* $[$[arXiv:2205.09656](https://arxiv.org/abs/2205.09656)$]$
 
+Observation in [[experiment]]:
+
+* Zhihuang Luo, Wenzhao Zhang, Xinfang Nie, Dawei Lu, *Observation of a symmetry-protected topological phase in external magnetic fields* &lbrack;[arXiv2208.05357](https://arxiv.org/abs/2208.05357)&rbrack;
+
+
 
 
 #### Conference and seminar cycles
