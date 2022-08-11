@@ -16,7 +16,7 @@
 
 ## Idea
 
-The notion of "super convex spaces" generalizes the idea of *[[convex spaces]]* by replacing [[finite set|finite]] affine [[sums]] with [[countable set|countable]] affine sums.
+The notion of "superconvex spaces" generalizes the idea of *[[convex spaces]]* by replacing [[finite set|finite]] affine [[sums]] with [[countable set|countable]] affine sums.
 
 Let $\mathcal{G}(\mathbb{N})$ denote the set of all [[probability measures]] on the set of [[natural numbers]], hence every $\mathbf{p}$ can be represented as $\mathbf{p} = \sum_{i \in \mathbb{N}} p_i \delta_i$ where $\sum_{i \in \mathbb{N}} p_i=1$ with each $p_i \in [0,1]$.  Here $\mathcal{G}$ is the [[Giry monad]], but because we want to forget the $\sigma$-algebra associated with that measurable space we often write $\Delta_{\mathbb{N}}$ to denote the underlying set  of $\mathcal{G}(\mathbb{N})$. That set is the [[countable set|countably]] [[infinite]]-[[dimension|dimensional]] [[simplex]]. The set $\mathcal{G}(\mathbb{N})$ (= $\Delta_{\mathbb{N}}$) is the prototype space from which the axioms are abstracted.
 
@@ -28,7 +28,7 @@ Let $\mathcal{G}(\mathbb{N})$ denote the set of all [[probability measures]] on 
   \int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p} := \sum_{i \in \mathbb{N}} p_i a_i.
  \end{equation}
 
-We say a set $A$ has the structure of a super convex space  if it comes equipped with a function
+We say a set $A$ has the structure of a superconvex space  if it comes equipped with a function
 \begin{equation}
 \begin{array}{ccccc}
 st_A&:& \mathcal{G}{(\mathbb{N})} \times \Set(\mathbb{N}, A) & \rightarrow& A \\
@@ -74,27 +74,28 @@ The second axiom uses  the pushforward measure $\mathcal{G}(\mathbf{Q})\mathbf{p
 Note the second axiom alone is sufficient because by choosing the constant sequence $\mathbf{Q}: \mathbb{N} \rightarrow \mathcal{G}\mathbb{N}$ with value $\delta_j$ it follows that the second axiom implies the first axiom.
 
 
-A morphism of super convex spaces, called a countably affine map, is a set function $m: A \rightarrow B$ such that
+A morphism of superconvex spaces, called a countably affine map, is a set function $m: A \rightarrow B$ such that
 \begin{equation} 
 m\big( \int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p}\big) = \int_{\mathbb{N}} (m \circ \mathbf{a}) \, d\mathbf{p},
 \end{equation}
 where the composite  $m \circ \mathbf{a}$ gives the sequence in $B$  with component $m(a_i)$.
 Composition of countably affine maps is the set-theoretical composition.
-Super convex spaces with morphisms the countably affine maps form a category denoted $\mathbf{SCvx}$. 
+Superconvex spaces with morphisms the countably affine maps form a category denoted $\mathbf{SCvx}$. 
  
 
 ## Probability Amplitudes
-In physics super convex spaces have been referred to as strong convex spaces, and since [[probability amplitudes]] are employed there one makes use of the $\ell_2$-norm instead of the tradition ''$\ell_1$-norm'' which is used above. By using
+
+In physics, superconvex spaces have been referred to as *strong convex spaces*, and since [[probability amplitudes]] are employed there one makes use of the $\ell_2$-norm instead of the tradition ''$\ell_1$-norm'' which is used above. By using
  \begin{equation}
 \mathcal{G}(\mathbb{N}) = \{  \mathbf{p}: \mathbb{N} \rightarrow  \mathbf{D}_2  |  \lim_{N \rightarrow \infty} \{ \sum_{i=1}^N p_i p_i^{\star} \}= 1 \}
  \end{equation}
 where $\mathbf{D}_2 = \{r e^{\imath \theta} \in \mathbb{C} \, | r \in [0,1],  and  \theta \in [0,2 \pi) \}$ and $p_i^{\star}$ is the complex conjugate of $p_i$, 
-applied to the above axioms one obtains super convex spaces useful for physics. 
+applied to the above axioms one obtains superconvex spaces useful for physics. 
 
 
 ## Properties
-The most basic property of super convex spaces,  is
-\begin{lemma} For $A$  any super convex space  every countably affine map $m \in \SCvx(\Delta_{\mathbb{N}}, A)$ is uniquely specified by a sequence in $A$, hence we have $\SCvx(\Delta_{\mathbb{N}}, A) \cong  \Set(\mathbb{N},A)$.
+The most basic property of superconvex spaces,  is
+\begin{lemma} For $A$  any superconvex space  every countably affine map $m \in \SCvx(\Delta_{\mathbb{N}}, A)$ is uniquely specified by a sequence in $A$, hence we have $\SCvx(\Delta_{\mathbb{N}}, A) \cong  \Set(\mathbb{N},A)$.
 \end{lemma}
 \begin{proof}
 Every element $\mathbf{p} \in \Delta_{\mathbb{N}}$ has a unique representation as a countable affine sum $\mathbf{p} = \sum_{i \in \mathbb{N}} p_i \delta_i$, and hence a countably affine map $m:\Delta_{\mathbb{N}} \rightarrow A$ is uniquely determined by where it maps each Dirac measure $\delta_i$.  Thus  $i \mapsto m(\delta_i)$  specifies a sequence in $A$.  
@@ -105,28 +106,28 @@ We denote the bijective correspondence $\SCvx(\Delta_{\mathbb{N}}, A) \cong  \Se
 \begin{lemma} A function $f: \mathbb{N} \rightarrow \mathbb{N}$ is a countably affine map if and only if $f$ is monotone, $i \lt j$ implies $f(i) \le f(j)$.
 \end{lemma}
 \begin{proof}
-Necessary condition.  Suppose that $f: \mathbb{N} \rightarrow \mathbb{N}$ is a countably affine map.  Let $i \lt j$. By the super convex space structure on $\mathbb{N}$ it follows, for all $\alpha \in (0,1)$, that  $\alpha i + (1-\alpha) j = i$ .  If $f$ is not monotone then there exist a pair of elements $i,j \in \mathbb{N}$ such that $i \lt j$ with $f(j) \lt f(i)$.  This implies, for all $\alpha \in (0,1)$, that $f(j)= \alpha f(i) + (1-\alpha) f(j) \lt   f(\alpha i + (1-\alpha) j ) =f(i)$, which contradicts our hypothesis that $f$ is a countably affine map.
+Necessary condition.  Suppose that $f: \mathbb{N} \rightarrow \mathbb{N}$ is a countably affine map.  Let $i \lt j$. By the superconvex space structure on $\mathbb{N}$ it follows, for all $\alpha \in (0,1)$, that  $\alpha i + (1-\alpha) j = i$ .  If $f$ is not monotone then there exist a pair of elements $i,j \in \mathbb{N}$ such that $i \lt j$ with $f(j) \lt f(i)$.  This implies, for all $\alpha \in (0,1)$, that $f(j)= \alpha f(i) + (1-\alpha) f(j) \lt   f(\alpha i + (1-\alpha) j ) =f(i)$, which contradicts our hypothesis that $f$ is a countably affine map.
  
 Sufficient condition. Suppose $f$ is a monotone function, and
- that we are given an arbitrary countably affine sum $\sum_{i \in \mathbb{N}} p_i i = n$ in $\mathbb{N}$, so that for all $i=0,1,\ldots,n-1$ we have $p_i=0$.  Since the condition defining the super convex structure is conditioned on the property $p_i \ne 0$, the countably affine sum is not changed  by removing any number of terms $i$ in the countable sum whose coefficient $p_i=0$.  Hence 
+ that we are given an arbitrary countably affine sum $\sum_{i \in \mathbb{N}} p_i i = n$ in $\mathbb{N}$, so that for all $i=0,1,\ldots,n-1$ we have $p_i=0$.  Since the condition defining the superconvex structure is conditioned on the property $p_i \ne 0$, the countably affine sum is not changed  by removing any number of terms $i$ in the countable sum whose coefficient $p_i=0$.  Hence 
 for all $j$ such that $n\lt j$ it follows that $f(n) \le f(j)$ so that
 \begin{equation}
 f( \sum_{i=0}^{\infty} p_i \, i) = f(n) = \sum_{i=n}^{\infty} p_i f(i) 
 \end{equation}
-where the last equality follows from the definition of the super convex space structure on $\mathbb{N}$.
+where the last equality follows from the definition of the superconvex space structure on $\mathbb{N}$.
 \end{proof}
 
 
 The category $\mathbf{SCvx}$ has all limits and colimits.  Furthermore it is a symmetric monoidal closed category under the tensor product. The proof of the latter condition follows the proof by Meng, replacing finite sums with countable sums.
 
-The full subcategory consisting of the single object $\Delta_{\mathbb{N}}$ is dense in $\mathbf{SCvx}$, and hence we can employ the restricted Yoneda embedding to view super convex spaces as the functors $\widehat{A}=\mathbf{SCvx}(\cdot,A) \in \mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$, where $\Delta_{\mathbb{N}}$ is viewed as a [[monoid]].  
+The full subcategory consisting of the single object $\Delta_{\mathbb{N}}$ is dense in $\mathbf{SCvx}$, and hence we can employ the restricted Yoneda embedding to view superconvex spaces as the functors $\widehat{A}=\mathbf{SCvx}(\cdot,A) \in \mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$, where $\Delta_{\mathbb{N}}$ is viewed as a [[monoid]].  
 
 
-  An ideal in a super convex space $A$ is a subset $\mathcal{I}$ such that whenever $a_0 \in \mathcal{I}$ and $\sum_{i \in \mathbb{N}}p_i a_i$ is a countable affine sum with the coefficient of $a_0$ nonzero then $\sum_{i \in \mathbb{N}}p_i a_i \in \mathcal{I}$.   Ideals are useful for defining functors to or from $\mathbf{SCvx}$.
+  An ideal in a superconvex space $A$ is a subset $\mathcal{I}$ such that whenever $a_0 \in \mathcal{I}$ and $\sum_{i \in \mathbb{N}}p_i a_i$ is a countable affine sum with the coefficient of $a_0$ nonzero then $\sum_{i \in \mathbb{N}}p_i a_i \in \mathcal{I}$.   Ideals are useful for defining functors to or from $\mathbf{SCvx}$.
 
 ## Examples
 \begin{example}
-A fundamental super convex space is the set $\mathbb{N}$ with the super convex space structure defined, for every sequence $\mathbf{s}: \mathbb{N} \rightarrow \mathbb{N}$  by 
+A fundamental superconvex space is the set $\mathbb{N}$ with the superconvex space structure defined, for every sequence $\mathbf{s}: \mathbb{N} \rightarrow \mathbb{N}$  by 
 \begin{equation}
 \int_{\mathbb{N}} \mathbf{s} d\mathbf{p} = \inf_i \{\mathbf{s}_i \, | \, p_i \gt 0 \}
 \end{equation}
@@ -134,44 +135,44 @@ That structure on $\mathbb{N}$ shows that the function $\epsilon: \mathcal{G}(\m
 \end{example}
 
 \begin{example}
-As an example of the utility of ideals in a super convex space we note that for $\mathcal{G}$ the [[Giry monad]] the measurable space $\mathcal{G}(X)$, with the smallest $\sigma$-algebra such that the evaluation maps $ev_U: \mathcal{G}(X) \rightarrow [0,1]$ are measurable for every measurable set $U$ in $X$, has a super convex space structure 
+As an example of the utility of ideals in a superconvex space we note that for $\mathcal{G}$ the [[Giry monad]] the measurable space $\mathcal{G}(X)$, with the smallest $\sigma$-algebra such that the evaluation maps $ev_U: \mathcal{G}(X) \rightarrow [0,1]$ are measurable for every measurable set $U$ in $X$, has a superconvex space structure 
 defined on it pointwise.
 
 Note that if  $X$ is any [[measurable space]]  the maximal proper ideals of $\mathcal{G}{X}$ are of the form $ev_{U}^{-1}( (0,1])$ or $ev_U^{-1}([0,1))$ for $U\ne X$ a nonempty measurable set in $X$. 
 
-To prove this, note that  both $(0,1]$ and $[0,1)$ are ideals in the super convex space $[0,1]$, with the natural super convex space structure, and it follows that $ev_{U}^{-1}( [0,1))$ and $ev_U^{-1}((0,1])$ are ideals in $\mathcal{G}{X}$. (The preimage of an ideal under a countably affine map is an ideal in the domain space. The proof is the standard argument for ideals in any category.)  Consider the ideal $ev_U^{-1}( [0,1))$.  To show that this is a maximal proper ideal suppose that $\mathcal{I}$ is another ideal of $\mathcal{G}{X}$ such that $ev_U^{-1}( [0,1)) \varsubsetneqq  \mathcal{I}$.  Every element $P \in \mathcal{I}$ which is not in $ev_U^{-1}([0,1))$ has the defining  property that $P(U^c)=1$.    Now let $Q \in \mathcal{G}{X}$.  If  $Q \notin \mathcal{J}$ and $Q \notin ev_U^{-1}([0,1))$ then $Q(U^c) \ne 1$ which implies  $Q \in ev_U^{-1}( [0,1)) \varsubsetneqq J$ which is self-contradictory.  Thus $\mathcal{J}$ must be all of $\mathcal{G}{X}$ which shows $ev_U^{-1}([0,1))$ is a maximal (proper) ideal.
+To prove this, note that  both $(0,1]$ and $[0,1)$ are ideals in the superconvex space $[0,1]$, with the natural superconvex space structure, and it follows that $ev_{U}^{-1}( [0,1))$ and $ev_U^{-1}((0,1])$ are ideals in $\mathcal{G}{X}$. (The preimage of an ideal under a countably affine map is an ideal in the domain space. The proof is the standard argument for ideals in any category.)  Consider the ideal $ev_U^{-1}( [0,1))$.  To show that this is a maximal proper ideal suppose that $\mathcal{I}$ is another ideal of $\mathcal{G}{X}$ such that $ev_U^{-1}( [0,1)) \varsubsetneqq  \mathcal{I}$.  Every element $P \in \mathcal{I}$ which is not in $ev_U^{-1}([0,1))$ has the defining  property that $P(U^c)=1$.    Now let $Q \in \mathcal{G}{X}$.  If  $Q \notin \mathcal{J}$ and $Q \notin ev_U^{-1}([0,1))$ then $Q(U^c) \ne 1$ which implies  $Q \in ev_U^{-1}( [0,1)) \varsubsetneqq J$ which is self-contradictory.  Thus $\mathcal{J}$ must be all of $\mathcal{G}{X}$ which shows $ev_U^{-1}([0,1))$ is a maximal (proper) ideal.
 The argument that the ideal $ev_U^{-1}( (0,1])$ is a maximal ideal is similiar except we replace the condition $P(U^c)=1$ in the above proof with $P(U)=0$.
 
 If we restrict to the category of standard measurable spaces then every object has a countable generating basis and it is then clear that every ideal in $\mathcal{G}(X)$ is a  countable intersection of maximal ideals, and hence measurable.  This implies, for example, that every countably affine map $k: \mathcal{G}(X) \rightarrow \mathbb{N}$ is also a  measurable function with $\mathbb{N}$ having the powerset $\sigma$-algebra. (The only ideals of $\mathbb{N}$ are the principal ideals $\downarrow \! 0 \subset \downarrow \! 1 \subset \ldots$.)
 \end{example}
 
 \begin{example} 
-The one point compactification of the real line $\mathbb{R}_{\infty}$, with one point adjoined, denoted $\infty$, which satisfies the property that any countably affine sum $\sum_{i \in \mathbb{N}} p_i r_i = \infty$ if either (1) $r_j = \infty$ and $p_j \gt 0$ for any index $j$, or (2) the sequence of partial sums does not converge, is a super convex space.  The real line $\mathbb{R}$ is not a super convex space since we could take $p_i = \frac{1}{2^i}$ and $r_i = 2^{i+1}$ and the limit of the sequence does not exist in $\mathbb{R}$.  Thus while $\mathbb{R}$ is a convex space it is not a super convex space.  
+The one point compactification of the real line $\mathbb{R}_{\infty}$, with one point adjoined, denoted $\infty$, which satisfies the property that any countably affine sum $\sum_{i \in \mathbb{N}} p_i r_i = \infty$ if either (1) $r_j = \infty$ and $p_j \gt 0$ for any index $j$, or (2) the sequence of partial sums does not converge, is a superconvex space.  The real line $\mathbb{R}$ is not a super convexspace since we could take $p_i = \frac{1}{2^i}$ and $r_i = 2^{i+1}$ and the limit of the sequence does not exist in $\mathbb{R}$.  Thus while $\mathbb{R}$ is a convex space it is not a superconvex space.  
 
- The only nonconstant countably affine map $j: \mathbb{R}_{\infty} \rightarrow \mathbb{2}$ is given by $j(u)=1$ for all $u \in \mathbb{R}$ and $j(\infty)=0$ (for the super convex space structure on $\mathbf{2}$ determined by $\frac{1}{2} \underline{0} + \frac{1}{2} \underline{1} = \underline{0}$).  
+ The only nonconstant countably affine map $j: \mathbb{R}_{\infty} \rightarrow \mathbb{2}$ is given by $j(u)=1$ for all $u \in \mathbb{R}$ and $j(\infty)=0$ (for the superconvex space structure on $\mathbf{2}$ determined by $\frac{1}{2} \underline{0} + \frac{1}{2} \underline{1} = \underline{0}$).  
 \end{example}
 
-\begin{example} A pathological space, useful for counterexamples, is given by the closed unit interval with the super convex space structure defined by the infimum function, $\sum_{i \in \mathbb{N}} p_i u_i := inf_i \{ u_i | p_i \gt 0\}$.
+\begin{example} A pathological space, useful for counterexamples, is given by the closed unit interval with the superconvex space structure defined by the infimum function, $\sum_{i \in \mathbb{N}} p_i u_i := inf_i \{ u_i | p_i \gt 0\}$.
 \end{example}
  
 
 \begin{example}  Consider the probability monad on compact Hausdorff spaces, where the algebras are precisely the compact convex sets $K$ in locally convex topological vector spaces together with the barycenter maps $\beta_K:\mathcal{P}K\rightarrow K$.  
 
-Given such a space $K$ we can endow it with a super convex space structure by defining, for all $\mathbf{p} \in \mathcal{G}\mathbb{N}$, countable affine sums by  $\sum_{i \in \mathbb{N}} p_i k_i := \beta_K( \sum_{i \in \mathbb{N}} p_i \delta_{k_i})$ which, along with the pointwise super convex space structure on $\mathcal{P}K$ makes the barycenter map $\beta_K$ a countably affine map.  
+Given such a space $K$ we can endow it with a superconvex space structure by defining, for all $\mathbf{p} \in \mathcal{G}\mathbb{N}$, countable affine sums by  $\sum_{i \in \mathbb{N}} p_i k_i := \beta_K( \sum_{i \in \mathbb{N}} p_i \delta_{k_i})$ which, along with the pointwise superconvex space structure on $\mathcal{P}K$ makes the barycenter map $\beta_K$ a countably affine map.  
 
-To prove this endows $K$ with a super convex space structure note that $\beta_K(\delta_{k_i})= k_i$ for all $k_i \in K$ to obtain
+To prove this endows $K$ with a superconvex space structure note that $\beta_K(\delta_{k_i})= k_i$ for all $k_i \in K$ to obtain
 $$
 \sum_{i \in \mathbb{N}} p_i \beta_K(\delta_{k_i}) = \sum_{i \in \mathbb{N}} p_i k_i := \beta_K(\sum_{i \in \mathbb{N}} p_i \delta_{k_i}).
 $$
 To prove $\beta_K$ is countably affine on $\mathcal{P}K$ use the property that $\beta_K \circ \mu_K = \beta_K \circ \mathcal{P}\beta_K$.
 
-The method employed in this example is not restricted to locally convex compact Hausdorff spaces. It shows that the algebras of a probability monad are a super convex space.
+The method employed in this example is not restricted to locally convex compact Hausdorff spaces. It shows that the algebras of a probability monad are a superconvex space.
 That implication is the motivation for the next example.
 \end{example}
 
 \begin{example}
 
-Let $\mathbf{\Omega}$ denote the full subcategory of $\mathbf{SCvx}$ consisting of the two objects $\mathbb{N}$ and $\Delta_{\mathbb{N}}$.   Let $\mathbf{\Sigma}'': \mathbf{\Omega} \rightarrow \mathbf{Meas}$ denote the functor mapping the object $\mathbb{N} \mapsto \mathbb{N}$ (super convex space structure to measurable space structure) and $\Delta_{\mathbb{N}} \mapsto \mathcal{G}{\mathbb{N}}$.  Recall $\mathbf{Meas}$ has all limits, and hence the right Kan extension $Ran_{\iota}(\mathbf{\Sigma}'')$ exists and can be computed pointwise.  
+Let $\mathbf{\Omega}$ denote the full subcategory of $\mathbf{SCvx}$ consisting of the two objects $\mathbb{N}$ and $\Delta_{\mathbb{N}}$.   Let $\mathbf{\Sigma}'': \mathbf{\Omega} \rightarrow \mathbf{Meas}$ denote the functor mapping the object $\mathbb{N} \mapsto \mathbb{N}$ (superconvex space structure to measurable space structure) and $\Delta_{\mathbb{N}} \mapsto \mathcal{G}{\mathbb{N}}$.  Recall $\mathbf{Meas}$ has all limits, and hence the right Kan extension $Ran_{\iota}(\mathbf{\Sigma}'')$ exists and can be computed pointwise.  
 
  The right Kan extension of the functor $\mathbf{\Sigma}''$ along the inclusion function $\iota: \mathbf{\Omega} \hookrightarrow \mathbf{SCvx}$,
 \begin{centre}
@@ -207,7 +208,7 @@ Now take the pullback of $Ran_{\iota}(\mathbf{\Sigma}'')$ along the inclusion fu
 \end{centre}
 to define the functor $\mathbf{\Sigma}: \mathbf{SCvx}_{\star} \rightarrow \mathbf{Std}_2$. 
 
-  The functor $\mathcal{G}$, viewed as the functor  $\mathcal{P}: \mathbf{Std}_2 \rightarrow \mathbf{SCvx}_{\star}$ is left adjoint to $\mathbf{\Sigma}$.  To prove this the general argument is as follows. Suppose we are given a separated standard measurable space $X$ with the countable generating basis $\{U_i\}_{i \in \mathbb{N}}$ so that $\Sigma_X=\sigma(\mathcal{F})$ where  $\mathcal{F}: X \rightarrow \mathbb{N}$ specifies the field which generates the $\sigma$-algebra on $X$.  In other words, $U_i = \mathcal{F}^{-1}(i)$.  Then $\mathcal{P}{X}$ is a super convex space which lies in $\mathbf{SCvx}_{\star}$ because if we compute the right Kan extension $Ran_{\iota}(\mathbf{\Sigma}'')\big(\mathcal{P}{X})$ we obtain $\mathcal{G}{X}$ since the set of evaluation maps $ev_{U_i}: \mathcal{P}{X} \rightarrow \Delta_{\mathbb{N}}$ given by $ev_{U_i}(P)= P(U^c)\delta_0 + P(U) \delta_1$ are all countably affine maps and coseparate $\mathcal{P}{X}$.  More generally, every countable cover of $X$ by disjoint measurable sets $\{U_i\}_{i \in \mathbb{N}}$ specifies a countably affine map $\mathcal{P}{X} \rightarrow \Delta_{\mathbb{N}}$ given by $P \mapsto \sum_{i \in \mathbb{N}} P(U_i) \delta_i$. Hence the right Kan extension of $\mathcal{P}{X}$ is just the underlying set of $\mathcal{P}{X}$ with the initial $\sigma$-algebra making the evaluation maps measurable functions - which is precisely how the Giry monad assigns the $\sigma$-algebra to the underlying set of $\mathcal{G}{X}$. This argument proves, for $\mathcal{G}$ the Giry monad on $\mathbf{Std}_2$, that    the composite functor $\mathbf{\Sigma} \circ \mathcal{P} = \mathcal{G}$.
+  The functor $\mathcal{G}$, viewed as the functor  $\mathcal{P}: \mathbf{Std}_2 \rightarrow \mathbf{SCvx}_{\star}$ is left adjoint to $\mathbf{\Sigma}$.  To prove this the general argument is as follows. Suppose we are given a separated standard measurable space $X$ with the countable generating basis $\{U_i\}_{i \in \mathbb{N}}$ so that $\Sigma_X=\sigma(\mathcal{F})$ where  $\mathcal{F}: X \rightarrow \mathbb{N}$ specifies the field which generates the $\sigma$-algebra on $X$.  In other words, $U_i = \mathcal{F}^{-1}(i)$.  Then $\mathcal{P}{X}$ is a superconvex space which lies in $\mathbf{SCvx}_{\star}$ because if we compute the right Kan extension $Ran_{\iota}(\mathbf{\Sigma}'')\big(\mathcal{P}{X})$ we obtain $\mathcal{G}{X}$ since the set of evaluation maps $ev_{U_i}: \mathcal{P}{X} \rightarrow \Delta_{\mathbb{N}}$ given by $ev_{U_i}(P)= P(U^c)\delta_0 + P(U) \delta_1$ are all countably affine maps and coseparate $\mathcal{P}{X}$.  More generally, every countable cover of $X$ by disjoint measurable sets $\{U_i\}_{i \in \mathbb{N}}$ specifies a countably affine map $\mathcal{P}{X} \rightarrow \Delta_{\mathbb{N}}$ given by $P \mapsto \sum_{i \in \mathbb{N}} P(U_i) \delta_i$. Hence the right Kan extension of $\mathcal{P}{X}$ is just the underlying set of $\mathcal{P}{X}$ with the initial $\sigma$-algebra making the evaluation maps measurable functions - which is precisely how the Giry monad assigns the $\sigma$-algebra to the underlying set of $\mathcal{G}{X}$. This argument proves, for $\mathcal{G}$ the Giry monad on $\mathbf{Std}_2$, that    the composite functor $\mathbf{\Sigma} \circ \mathcal{P} = \mathcal{G}$.
 
 To prove that $\mathcal{P} \dashv \mathbf{\Sigma}$ it is necessary, among other things,  to show that the counit of the proposed adjunction yields a barycenter map $\epsilon_A: \mathcal{P}(\mathbf{\Sigma} A) \rightarrow A$ for every $A \in_{ob} \mathbf{SCvx}_{\star}$. Now let $\mathbf{\Sigma}'$ denote the functor $\mathbf{\Sigma}''$ with the codomain restricted to $\mathbf{Std}_2$.  The functor $\mathbf{\Sigma}': \mathbf{\Omega} \rightarrow \mathbf{Std}_2$ is codense so that the measurable functions  $f:\mathbf{\Sigma} A \rightarrow \mathbb{N}$ characterize $\mathbf{\Sigma} A$,
 \begin{equation}
@@ -243,14 +244,14 @@ Proposition 1.2 in
 
 * {#BörgerKemper94b} [[Reinhard Börger]], [[Ralf Kemper]], *Cogenerators for convex spaces*, Applied Categorical Structures **2** (1994) 1-11 &lbrack;[doi:10.1007/BF00878499](https://doi.org/10.1007/BF00878499)&rbrack;
 
-is particularly useful for viewing super convex spaces as positively convex spaces which are somewhat easier to work with because the condition $\sum_{i \in \mathbb{N}}p_i=1$  is replaced by the inequality $\le 1$.
+is particularly useful for viewing superconvex spaces as positively convex spaces which are somewhat easier to work with because the condition $\sum_{i \in \mathbb{N}}p_i=1$  is replaced by the inequality $\le 1$.
 
-The fact that the full subcategory of $\mathbf{SCvx}$ consisting of the single object is dense in $\mathbf{SCvx}$, along with the property that the functor $\mathbf{\Sigma}': \mathbf{\Omega} \rightarrow \mathbf{Std}_2$ is a codense functor, along with more properties and examples of super convex spaces is given in
+The fact that the full subcategory of $\mathbf{SCvx}$ consisting of the single object is dense in $\mathbf{SCvx}$, along with the property that the functor $\mathbf{\Sigma}': \mathbf{\Omega} \rightarrow \mathbf{Std}_2$ is a codense functor, along with more properties and examples of superconvex spaces is given in
 
 * {#Sturtz22} [[Kirk Sturtz]], _Giry algebras for standard measurable spaces_ $[$[arXiv:2202:10819](https://arxiv.org/abs/2202.10819)$]$
 
 
-For purposes of constructing models of complex systems using super convex spaces the construction given in Example 6.1 of the following article applies equally well to super convex spaces.
+For purposes of constructing models of complex systems using superconvex spaces the construction given in Example 6.1 of the following article applies equally well to superconvex spaces.
 
 * [[Tobias Fritz]], Convex spaces I: definition and examples. 
 [arXiv/0903.5522](http://arxiv.org/abs/0903.5522)
@@ -259,11 +260,16 @@ The term strong convex spaces was employed in the text
 
 * [[George Mackey]], _The Mathematical Foundations of Quantum Mechanics_ A Lecture-note Volume, ser. The mathematical physics monograph series. Princeton university, 1963
 
+
+[[!redirects superconvex spaces]]
+
+[[!redirects strong convex space]]
+[[!redirects strong convex spaces]]
+
+[[!redirects super convex space]]
 [[!redirects super convex spaces]]
 
 [[!redirects Super convex space]]
-[[!redirects super convex spaces]]
-[[!redirects strong convex spaces]]
+[[!redirects Super convex spaces]]
 
-[[!redirects superconvex space]]
-[[!redirects superconvex spaces]]
+
