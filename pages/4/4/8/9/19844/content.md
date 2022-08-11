@@ -279,6 +279,9 @@ Implications for the significance across channels:
 
 > when combining all tests of LFUV (like $R_{K^+}$ ) with $B$ decays involving muon pairs &lbrack;...&rbrack;, one finds a preference for new physics (NP) hypotheses of more than 7σ compared to the [[standard model of particle physics|SM]]. Note that such a high significance is only possible since all measurements are compatible with each other, i.e. they form a coherent picture
 
+[PBD22](#PBD22): 
+
+> We have used our improved scalar, vector and tensor [[form factors]] calculated in $N_f = 2+1+1$ [[lattice QCD]]  &lbrack;...&rbrack; Our improved form factors significantly sharpen the tension, which becomes particularly strong in the  region below the charmonium resonances. For $1.1 \lt  q^2 \lt 6 GeV^2$ we find a tension of 4.7σ for $B^+ \to K^+ \mu^+ \mu^-$ and 3.6σ for $B^0 \to K^+ \mu^+ \mu^-$ with LHCb ’14A and 3.3σ for $B^+ \to K^+ e^+ e^-$ with LHCb ’21
 
 \linebreak
 
@@ -334,7 +337,9 @@ Some authors therefore begin to speak jointly of _muon anomalies_ ([GST 21](#GST
   "caption": "from [Koppenburg Scholarp.](#KoppenburgScholarpedia)" 
 \end{imagefromfile}
 
-(This is as of April 2021, see [here](http://www.scholarpedia.org/article/Rare_decays_of_b_hadrons#Prospects) for the source text with more details; also [Koppenburg 21, slide 44](#Koppenburg21))
+(This is as of April 2021, see [here](http://www.scholarpedia.org/article/Rare_decays_of_b_hadrons#Prospects) for the source text with more details; also [Koppenburg 21, slide 44](#Koppenburg21). For more data points and updates see [Koppenburg Fl. Anom.](#KoppenburgAnomalies))
+
+\linebreak
 
 \begin{imagefromfile}
   "file_name": "KoppenburgFlavourAnomaliesPattern.jpg",
@@ -548,6 +553,11 @@ Detailed introduction and survey as of May 2021;
 
 * {#Koppenburg21} [[Patrick Koppenburg]], *Penguin B decays*, 2021 ([cds:2767155](https://cds.cern.ch/record/2767155), [pdf](https://cds.cern.ch/record/2767155/files/Koppenburg-20210519-Usach.pdf))
 
+Up-to-date plots of observed anomalies:
+
+* {#KoppenburgAnomalies} [[Patrick Koppenburg]], *Flavour Anomalies* &lbrack;[anomalies.htlm](https://www.nikhef.nl/~pkoppenb/anomalies.html)&rbrack;
+
+
 Textbook account:
 
 * Marina Artuso, [[Gino Isidori]], Sheldon Stone, *New Physics in $b$ Decays*, World Scientific (2020) $[$[doi:10.1142/9789811251306](https://www.worldscientific.com/doi/abs/10.1142/9789811251306_0001)$]$
@@ -624,6 +634,10 @@ Brief review from the point of view of [[non-perturbative effect|non-perturbativ
 * {#LHCb2012} [[LHCb collaboration]], _Angular analysis of the $B^+ \to K^{\ast + } \mu^+ \mu^-$ decay_ ([arXiv:2012.13241](https://arxiv.org/abs/2012.13241))
 
 * {#LHCB21} [[LHCb collaboration]] *Tests of lepton universality using $B^0 \to K^0_S l^+ l^-$− and $B^+ \to K^\ast \ell^+ \ell^-$ decays* ([arXiv:2110.09501](https://arxiv.org/abs/2110.09501))
+
+More accurate predictions from [[lattice QCD]] of the expected branching ratios:
+
+* {#PBD22} W. G. Parrott, C. Bouchard, C. T. H. Davies, *Standard Model predictions for $B \to K \ell^+ \ell^-$, $B \to K \ell^-_1 \ell^+_2$ and $B \to K \nu \bar\nu$ using form factors from Nf=2+1+1 lattice QCD* &lbrack;[arXiv:2207.13371](https://arxiv.org/abs/2207.13371)&rbrack;
 
 
 
@@ -1214,7 +1228,6 @@ _Explaining $b\to s \ell^+ \ell^-$ data by sneutrinos in the R-parity violating 
 * Quan-Yi Hu, Ya-Dong Yang, Min-Di Zheng, _Revisiting the B-physics anomalies in R-parity violating MSSM_ ([arXiv:2002.09875](https://arxiv.org/abs/2002.09875))
 
 * Wolfgang Altmannshofer, P. S. Bhupal Dev, Amarjit Soni, Yicong Sui, _Addressing $R_{D^\ast}$, $R_{K^\ast}$, muon $g-2$ and ANITA anomalies in a minimal R-parity violating supersymmetric framework_ ([arXiv:2002.12910](https://arxiv.org/abs/2002.12910))
-
 
 
 [[Horava-Witten theory]]-type [[KK-compactification]]:
