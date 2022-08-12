@@ -283,6 +283,10 @@ Implications for the significance across channels:
 
 > We have used our improved scalar, vector and tensor [[form factors]] calculated in $N_f = 2+1+1$ [[lattice QCD]]  &lbrack;...&rbrack; Our improved form factors significantly sharpen the tension, which becomes particularly strong in the  region below the charmonium resonances. For $1.1 \lt  q^2 \lt 6 GeV^2$ we find a tension of 4.7σ for $B^+ \to K^+ \mu^+ \mu^-$ and 3.6σ for $B^0 \to K^+ \mu^+ \mu^-$ with LHCb ’14A and 3.3σ for $B^+ \to K^+ e^+ e^-$ with LHCb ’21
 
+[Mahmoudi 2022](#Mahmoudi22):
+
+> The updated NP fits to rare B decays &lbrack;...&rbrack; follow the same trend as with the previous set of results favouring in particular new physics contributions in the Wilson coefficient $C^\mu_9$, with an increased significance. &lbrack;...&rbrack; The projections for clean observables, show that if the current tensions remain, $R_K$ can establish NP with 5σ significance already with less than 20 $fb^{-1}$ of data. The main source of theory uncertainty in global fits is due to non-local hadronic contributions. However, different fits with different setups, inputs and statistical frameworks show a remarkable agreement so that the experimental observation of the discrepancy in these observables would be a clear sign of physics beyond the SM.
+
 \linebreak
 
 
@@ -724,8 +728,11 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
 
 * [[Monika Blanke]], *Theory Perspective on Heavy Flavour Physics*, talk at [10th Edition of the Large Hadron Collider Physics Conference](https://indico.cern.ch/event/1109611/) (2022) &lbrack;[arXiv:2207.07354](https://arxiv.org/abs/2207.07354), talk slides and recording: [indico.cern:4686945](https://indico.cern.ch/event/1109611/contributions/4686945)&rbrack;
 
+* F. Mahmoudi, *Theoretical Review of Rare B Decays* &lbrack;[arXiv:2208.05755](https://arxiv.org/abs/2208.05755)&rbrack;
 
-Outlook:
+
+
+Further outlook:
 
 * {#AllanachGripaiosYou17} [[Ben Allanach]], Ben Gripaios, Tevong You, _The Case for Future Hadron Colliders From $B \to K^{(\ast)}\mu^+ \mu^-$ Decays_, JHEP03(2018)021 ([arXiv:1710.06363](https://arxiv.org/abs/1710.06363))
 
