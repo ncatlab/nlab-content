@@ -184,7 +184,7 @@ for the full [[subcategory]] on biseparated presheaves.
 
 $$
   \coprod_{u\in U}
-  \mathbf{R}^0 
+  \mathbb{R}^0 
     \longrightarrow 
   U
 $$
