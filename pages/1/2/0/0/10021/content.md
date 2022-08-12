@@ -61,6 +61,9 @@ See also:
 
 * Zhihao Duan, Kimyeong Lee, Kaiwen Sun, *Hecke Relations, Cosets and the Classification of 2d RCFTs* $[$[arXiv:2206.07478](https://arxiv.org/abs/2206.07478)$]$
 
+Classification:
+
+* Sunil Mukhi, Brandon C. Rayhaun, *Classification of Unitary RCFTs with Two Primaries and Central Charge Less Than 25* &lbrack;[arXiv:2208.05486](https://arxiv.org/abs/2208.05486)&rbrack;
 
 
 [[!redirects rational 2d conformal field theories]]
