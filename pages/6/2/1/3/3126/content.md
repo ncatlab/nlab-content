@@ -950,9 +950,9 @@ Generalization to parameterized objects in any [[stable (∞,1)-category]] is di
 
 * [[Marc Hoyois]], _Topoi of parametrized objects_, Theory and Applications of Categories, Vol. 34, 2019, No. 9, pp 243-248. ([arXiv:1611.02267](https://arxiv.org/abs/1611.02267), [tac:34-09](http://www.tac.mta.ca/tac/volumes/34/9/34-09abs.html))
 
-A more general notion of a _tangent structure on an $(\infty, 1)$-category_ is developed to reformulate the [[Goodwillie calculus]] in:
+A more general notion of a _tangent structure on an $(\infty, 1)$-category_ was attempted to reformulate the [[Goodwillie calculus]] in:
 
-* {#BauerBurkeChing21} [[Kristine Bauer]], [[Matthew Burke]], [[Michael Ching]], _Tangent $\infty$-categories and Goodwillie calculus_ ([arXiv:2101.07819](https://arxiv.org/abs/2101.07819))
+* {#BauerBurkeChing21} [[Kristine Bauer]], [[Matthew Burke]], [[Michael Ching]], _Tangent $\infty$-categories and Goodwillie calculus_ ([arXiv:2101.07819](https://arxiv.org/abs/2101.07819)).  As of August 2022, this paper is withdrawn due to an error.
 
 Two further examples of tangent structures on an $(\infty,1)$-category, on [[(∞,1)-Topos]] and its [[opposite (infinity,1)-category|opposite]], are given in:
 
