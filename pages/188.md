@@ -69,6 +69,7 @@ The axioms $\mu \cdot (\eta \otimes M) = 1_M = \mu \cdot (M \otimes \eta)$ and $
 
 
 ### As a one-object category
+ {#AsAOneObjectCategory}
 
 Equivalently, and more efficiently, we may say that a (classical) monoid is the [[hom-set]] of a [[category]] with a single [[object]], equipped with the structure of its unit element and composition. 
 
