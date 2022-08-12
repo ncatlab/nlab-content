@@ -672,46 +672,86 @@ Write $sPSh(C)_{inj,cov}$ for the left [[Bousfield localization of model categor
 +-- {: .num_prop}
 ###### Proposition
 
-A subfunctor inclusion $\widetilde S \hookrightarrow j(U)$ corresponding to a sieve that _contains_ a covering sieve $S(\{U_i\})$ is a weak equivalence in $sPSh(C)_{inj,cov}$
+A subfunctor inclusion 
+$$
+  S
+  \big(
+    \{U_i\}_{i \in I}
+    \cup
+    \{V\}
+  \big)
+  \overset{
+    \phantom{---}
+  }{\hookrightarrow}
+  y(U)
+$$ 
+
+corresponding to a sieve that is generated from 
+
+* a covering $\big\{ U_i \to U \big\}_{i \in I}$ 
+
+together with
+
+* one further morphism $V \longrightarrow U$
+
+  such that the pullback of the cover to $V$ exists and is still covering
+
+is a weak equivalence in $sPSh(C)_{inj,cov}$
  
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Write $J$ for the set of morphisms in $\widetilde S$ but not in $S$.
 
-Let $j(V_j) \to j(U)$ be a morphism not in $S\big(\{U_i\}\big)$. By assumption we can find a covering family $\{V_{j,k} \to V_j\}$ such that for all $j,i$ we have commuting diagrams 
+The assumption means that we have covering family 
+$\big\{ V_i \to V \}_{i \in I}$
 
 $$
   \array{
-    V_{j,k} 
+    \mathllap{
+      V_{i} 
+      \,\coloneqq\;
+    }
+    V \times_U U_i
     &\longrightarrow& 
     U_{i}
     \\
     \big\downarrow 
-    && 
+    &{}^{{}_{(pb)}}& 
     \big\downarrow
     \\
-    V_j 
-    &\underset{f}{\longrightarrow}& 
+    V
+    &
+    \underset{
+      \phantom{-}
+      f
+      \phantom{-}
+    }
+    {
+      \longrightarrow
+    }
+    & 
     U
+    \mathrlap{\,.}
   }
-  \,.
 $$ 
 
-Consider the commuting diagram
+Consider then the commuting diagram:
 
 $$
   \array{
-    \coprod_j 
     S\big(
-      \{V_{j,k}\}
+      \{V_{i}\}_{i \in I}
     \big) 
-    &\overset{\phantom{---}}{\hookrightarrow}& 
+    &\overset{
+      \phantom{-}
+      f_\ast
+      \phantom{-}
+    }{\hookrightarrow}& 
     S
     \big(
-      \{U_i\} \cup \{V_{j,k}\}
+      \{U_i\}_{i \in I}
     \big)
     \\
     {}^{\mathllap{\simeq}}
@@ -719,32 +759,52 @@ $$
     && 
     \big\downarrow
     \\
-    \coprod_j j(V_j) 
-    &\longrightarrow& 
+    y(V) 
+    &\overset{\phantom{---}}{\longrightarrow}& 
     S\big(
-      \{U_i\} \cup \{V\}
+      \{U_i\}_{i \in I} 
+        \cup 
+      \{V\}
     \big)
+    \mathrlap{\,.}
   }
+$$
+
+Observe that:
+
+1. this is a [[pushout]] in $sPSh(C)$:
+
+   a map which factors through any of $U_i$ or $V$ (bottom right) is a factorizatin through some $V$ (bottom left) or through some $U_i$ (top right) and the pushout identifies those that are both (by the [[universal property]] of the [[pullback]]).
+
+1. the top morphism is a cofibration in $sPSh(C)_{inj}$: 
+
+   it injects into the set of morphisms that factor through the cover $\{U_i\}_{i \in I}$ those that factor even through the pullback cover.     
+
+1. the left morphism is a weak equivalence in $sPSh(C)_{inj,cov}$:
+
+   since it is a covering sieve map for $V$, by assumption.
+
+1. by general properties of [[Bousfield localization of model categories|left Bousfield localization]] the localization $sPSh(C)_{inj,cov}$ is [[proper model category|left proper]]. 
+
+Therefore the morphism on the right is a weak equivalence. The statement follows by [[2-out-of-3]] applied to the composite
+
+$$
+  S
+  \big(
+    \{U_i\}_{i \in I}
+  \big)
+  \xrightarrow{\phantom{--}}
+  S
+  \big(
+    \{U_i\}_{i \in I}
+    \cup
+    V
+  \big)
+  \xrightarrow{\phantom{--}}
+  y(U)
   \,.
 $$
 
-Observe that this is a [[pushout]] in $sPSh(C)$, that the top morphism is a cofibration in $sPSh(C)_{inj}$ and hence in $sPSh(C)_{inj,cov}$, 
-that the left morphism is a local weak equivalence, that by general properties of [[Bousfield localization of model categories|left Bousfield localization]] the localization $sPSh(C)_{inj,cov}$ is [[proper model category|left proper]]. Therefore the morphism $S(\{U_i\} \cup \{V_{j,k}\}) \to S(\{U_i\} \cup \{V\}) = \tilde S$ is a weak equivalence.
-
-Next observe that from the horizontal morphisms of the above commuting diagrams that defined the covers $\{V_{j,k} \to V_j\}$ we have an induced morphism $S(\{U_i\} \cup \{V_{j,k}\}) \to S(\{U_i\})$, and this exhibits $S(\{U_i\})$ as a [[retract]]
-
-$$
-  \array{
-    S(\{U_i\}) &\to& S(\{U_i\} \cup \{V_{j,k}\}) &\to& S(\{U_i\})
-    \\
-    \downarrow && \downarrow && \downarrow
-    \\
-    \tilde S &=& \tilde S &=& \tilde S 
-  }
-  \,.
-$$
-
-By closure of weak equivalences under retracts, this shows that the inclusion $S(\{U_i\}) \to \tilde S$ is a weak equivalence.  By 2-out-of-3 this finally means that $\tilde S \hookrightarrow j(U)$ is a weak equivalence.
 
 =--
 
