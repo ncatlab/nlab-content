@@ -303,6 +303,8 @@ Here:
 
 * the [[left adjoint]] forms [[homotopy fibers]].
 
+(This may also be understood as an instance of the "[[fundamental theorem of (infinity,1)-topos theory|fundamental theorem of $\infty$-topos theory]]", see [there](slice+of+presheaves+is+presheaves+on+slice#InfinityActionsAsSlice).)
+
 \begin{proof}\label{SimplicialProofOfEquivalenceToSliceModelStructure}
 Consider any [[morphism]] in $sSet_{/\overline{W}G}$:
 
