@@ -269,3 +269,11 @@ In total this shows that the localization at the [[coverage]] produces the [[top
 
 =--
 
+$$
+\begin{array}{l l}
+recnat &: \forall A. A \rightarrow (A \rightarrow A) \rightarrow \mathbb{N} \rightarrow A \\
+recnat & A z s = cata (\phi \circ out) where \\
+& \phi (inl \ast) = z \\
+& \phi (inr n) = s n
+\end{array}
+$$
