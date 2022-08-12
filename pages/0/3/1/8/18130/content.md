@@ -24,6 +24,10 @@ A [[topological space]] $(X,\tau)$ is called a _Kolmogorov space_ if it satisfie
  {#Properties}
 
 
+### Alternative Characterizations
+
+A space $X$ is $T_0$ precisely when the unit of the [[continuation monad]] for the [[Sierpinski space]] $\eta : X \to \Sigma^(\Sigma^X)$ is a [[monomorphism]].
+
 [[!include main separation axioms -- as lifting properties]]
 
 
