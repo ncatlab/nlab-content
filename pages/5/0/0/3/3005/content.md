@@ -122,7 +122,17 @@ Note however that if $U: D \to C$ is an [[amnestic functor|amnestic]] [[isofibra
 
 \begin{example}
 \label{BaseChangeOfPresheavesAlongFullyFaithfulFunctor}
-  Let $F \,\colon\, \mathcal{S} \longrightarrow \mathcal{S}'$ be a [[functor]] between [[small categories]] which is [[essentially surjective]]. Then for $\mathcal{C}$ any [[bicomplete category]] (e.g. [[Set]]), the corresponding [[precomposition]]-functor on [[category of presheaves|categories of]] $\mathcal{C}$-valued [[presheaves]] 
+**([[base change]] of [[presheaves]] along [[essentially surjective functor]])**
+\linebreak
+Let 
+$$
+  F 
+    \,\colon\, 
+  \mathcal{S} 
+    \overset{\phantom{---}}{\longrightarrow}
+  \mathcal{S}'
+$$ 
+be a [[functor]] between [[small categories]] which is [[essentially surjective]]. Then for $\mathcal{C}$ any [[bicomplete category]] (e.g. [[Set]]), the corresponding [[precomposition]]-functor on [[category of presheaves|categories of]] $\mathcal{C}$-valued [[presheaves]] 
 $$
   PSh
   \big(
@@ -169,6 +179,58 @@ is [[monadic functor|monadic]]. To see this, we check the conditions in Thm. \re
 1. The assumption that $F$ is [[essentially surjective functor|essentially surjective]] implies that $F^\ast$ is [[conservative functor|conservative]] (because [[isomorphisms]] of presheaves are [[natural transformation]] of the underlying functors which are [[natural isomorphisms]], which is the case iff their component [[morphisms]] for each [[object]] is an isomorphism.)
 
 \end{example}
+
+
+
+\begin{example}\label{GroupActions}
+**([[group actions]]/[[G-sets]])**
+\linebreak
+Specializating Ex. \ref{BaseChangeOfPresheavesAlongFullyFaithfulFunctor} to the case (where $\mathcal{C} = $ [[Sets]], just for definiteness and) where $F \,\colon\,\mathcal{S} \longrightarrow \mathcal{S}'$ is the [[terminal category|point]]-inclusion
+$$
+  pt_{\mathbf{B}G}
+  \,\colon\,
+  \ast 
+  \overset{\phantom{---}}{\hookrightarrow}
+  \mathbf{B}G
+  \,.
+$$
+into the [[delooping groupoid]] of a ([[discrete group|discrete]]) [[group]], and observing that 
+
+1. $PSh\big(\ast \big) \;\simeq\;$ [[Sets]],
+
+1. $PSh\big(\mathbf{B}G \big) \;\simeq\;$ [[G-set|$G$Sets]]
+
+   is the category [[G-sets]], i.e. of $G$-[[group actions]] with [[equivariant functions]] between them,
+
+gives that the [[forgetful functor]]
+
+$$
+  G Sets \overset{\phantom{--}}{\longrightarrow} Sets
+$$
+
+is [[monadic functor|monadic]]. This is of course the forgetful functor on the [[algebra over a monad|algebras]] of the [[monad]]
+
+$$
+  T \,\coloneqq\, G \times (-)
+  \;\colon\;
+  Sets \longrightarrow Sets
+$$
+
+which forms the [[Cartesian product]] with (the [[underlying]] [[set]]) of $G$, and whose monad product is 
+
+$$
+  T \circ T 
+    \,=\, 
+  G \times G \times (-)
+  \longrightarrow 
+  G \times (-)
+    \,=\,
+  T
+$$
+
+is given by the group operation.
+\end{example}
+
 
 ### Groups over sets
 
