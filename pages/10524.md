@@ -80,6 +80,11 @@ The 2+1 dim [[Dirac equation]] is used in modeling graphene:
 
 * Mar&#237;a A. H. Vozmediano, _Renormalization group aspects of graphene_, [pdf](http://www.isis.stfc.ac.uk/groups/theory/downloads/the-strong-correlations-puzzle8120.pdf)
 
+On [[non-perturbative effects]] in graphene:
+
+* Juan Angel Casimiro Olivares, Ana Julia Mizher, Alfredo Raya, *Non-perturbative field theoretical aspects of graphene and related systems* &lbrack;[arXi:2109.10420](https://arxiv.org/abs/2109.10420)&rbrack;
+
+
 ### Berry connection
 
 On "fictitious" contributions to the [[Berry connection]] on the [[Brillouin torus]] of graphene:
