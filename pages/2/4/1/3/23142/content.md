@@ -531,7 +531,7 @@ Here
 \end{proof}
 
 
-The following statement enhances this equivalence of categories to an [[adjoint equivalence]] and identifying its [[right adjoint]] as the [[functor]] of forming [[sections]]. This stronger version further enhances to a [[simplicial Quillen equivalence]] below.
+The following statement enhances this equivalence of categories to an [[adjoint equivalence]] and identifying its [[right adjoint]] as the [[functor]] of forming [[sections]]. This stronger version further enhances to a [[simplicial Quillen adjunction|simplicial]] [[Quillen equivalence]] below.
 
 \begin{proposition}\label{TheAdjointEquivalenceInOrdinaryCategoryTheory}
 For $X \,\in\, \mathcal{C} \xhookrightarrow{\;y\;} PSh(\mathcal{C})$.
@@ -1149,6 +1149,8 @@ since [[simplicial localization]] at the [[Quillen equivalences]] [[Ho(CombModCa
 Either way, we obtain the following conclusion (and again this hold verbatim also over non-representable base presheaves):
 
 \begin{prop}\label{EquivalenceOfInfinityCategories}
+**(fundamental theorem of $\infty$-presheaf $\infty$-topos theory)**
+\linebreak
   For $\mathbf{C}$ a [[small (infinity,1)-category|small $\infty$-category]] and $X \,\in\, \mathbf{S}$ an [[object]], the operation of forming systems of [[local sections]] of [[bundles]] of [[(infinity,1)-presheaves|$\infty$-presheaves]] over $y(X)$ is an [[equivalence of (infinity,1)-categories|equivalence of $\infty$-categories]]:
 
 
@@ -1177,6 +1179,62 @@ from the [[slice (infinity,1)-category|slice $\infty$-category]] of the [[(infin
 
 An alternative proof of this statement in terms of [[quasi-categories]] is in [Lurie 2009, Prop. 5.1.6.12](#Lurie09). (See also [here](slice+infinity1-topos#SheavesOnBigSite) at *[[slice (infinity,1)-topos|slice $\infty$-topos]]*.)
 
+A(nother) [[model category]]-theory argument for the statement over any [[1-truncated]] simplicial presheaf is in ([Hollander 2008](#Hollander08)).
+
+A [[quasi-category]]-proof of this statement over representables is in [Lurie 2009, Cor. 5.1.6.12](#Lurie09). (This states a more general theorem which superficially looks like it may cover the case of non-representable base presheaves, but at least not directly so.)
+
+
+\begin{example}\label{InfinityActionsAsSlice}
+**($\mathcal{G}$-[[infinity-action|$\infty$-actions]] as slice over $B\mathcal{G}$)**
+\linebreak
+  Consider 
+$$
+  \mathcal{G} 
+    \,\simeq\, 
+  \Omega B \mathcal{G} 
+    \,\in\, 
+  Grp\big(Grpd_\infty\big)
+$$
+an [[infinity-group|$\infty$-group]] with [[delooping]]/[[classifying space]] $B \mathcal{G} \,\in\, Grpd_\infty^{\geq 1}$. Observe that the external slice of the point by any $\mathcal{X} \,\in\, Grpd_\infty$ is that $\infty$-groupoid:
+$$
+  \ast_{/\mathcal{X}}
+  \;\simeq\;
+  \mathcal{X}
+  \,,
+$$
+so that Prop. \ref{EquivalenceOfInfinityCategories} here gives the following sequence of equivalences:
+$$
+  \array{
+    \big(Grpd_\infty\big)_{/\mathbf{B}\mathcal{G}}
+    \,\simeq\,
+    \big(
+      PSh_\infty(\ast)
+    \big)_{/\mathbf{B}\mathcal{G}}
+    &
+    \underoverset
+      {\phantom{--}\sim\phantom{--}}
+      {\Gamma}
+      {\longrightarrow}
+    &
+    PSh_\infty
+    \big(
+      \ast_{/\mathbf{B}\mathcal{G}}
+    \big)
+    \;\simeq\;
+    PSh_\infty(
+      \mathbf{B}\mathcal{G}
+    \big)
+    \;\simeq\;
+    \mathcal{G} Act
+    \big(
+      Grpd_\infty
+    \big)
+    \,.
+  }
+$$
+This is the identification of the slice over $B \mathcal{G}$ with [[infinity-action|$\infty$-actions]] of $\mathcal{G}$. For a [[model category]]-presentation see at *[Borel model structure -- Relation to the slice over the simplicial classifying space](Borel+model+structure#RelationToSliceOverSimplicialClassifyingSpace)*.
+\end{example}
+
 \begin{example}\label{CohesionOfGlobalOverGEquivariantHomotopyTheory}
 **([[cohesion of global- over G-equivariant homotopy theory]])**
 \linebreak
@@ -1185,11 +1243,6 @@ In the case that $\mathbf{C} \,=\, Snglrt \,\coloneqq\, Grpd^{fin}_{1,\geq 1}$ i
 Together with the [[adjoint quadruple]] that is induced (see [here](adjoint+quadruple#ViaKanExtensionOfAdjointPairs)) via [[(infinity,1)-Kan extension|$\infty$-Kan extension]] from the [[reflective sub-(infinity,1)-category|reflection]] onto the $G$-[[orbit category]],  this implies the [[cohesion of global- over G-equivariant homotopy theory]]. See there for more.
 \end{example}
 
-\linebreak
-
-A(nother) [[model category]]-theory argument for the statement over any [[1-truncated]] simplicial presheaf is in ([Hollander 2008](#Hollander08)).
-
-A [[quasi-category]]-proof of this statement over representables is in [Lurie 2009, Cor. 5.1.6.12](#Lurie09). (This states a more general theorem which superficially looks like it may cover the case of non-representable base presheaves, but at least not directly so.)
 
 \linebreak
 
