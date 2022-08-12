@@ -4790,9 +4790,8 @@ This exhibits the bottom left morphism as the [[derived adjunction unit]], hence
 
 In certain situations the conditions on a Quillen equivalence simplify. For instance:
 
-+-- {: .num_prop #InCaseTheRightAdjointCreatesWeakEquivalences}
-###### Proposition
-
+\begin{proposition}
+\label{InCaseTheRightAdjointCreatesWeakEquivalences}
 If in a [[Quillen adjunction]]  $ \array{\mathcal{C} &\underoverset{\underset{R}{\to}}{\overset{L}{\leftarrow}}{\bot}& \mathcal{D}}$ (def. \ref{QuillenAdjunction}) the [[right adjoint]] $R$ "creates weak equivalences" (in that a morphism $f$ in $\mathcal{C}$ is a weak equivalence precisly if $R(f)$ is) then $(L \dashv R)$ is a [[Quillen equivalence]] (def. \ref{QuillenEquivalence}) precisely already if for all cofibrant objects $d \in \mathcal{D}$ the plain [[adjunction unit]]
 
 $$
@@ -4801,7 +4800,7 @@ $$
 
 is a weak equivalence.
 
-=--
+\end{proposition}
 
 +-- {: .proof}
 ###### Proof
