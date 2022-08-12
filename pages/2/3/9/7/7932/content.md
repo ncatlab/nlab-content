@@ -140,11 +140,18 @@ $$
 The [[(∞,1)-category]] of $G$-actions in $\mathbf{H}$ is the [[slice (∞,1)-topos]] of $\mathbf{H}$ over $\mathbf{B}G$:
 
 $$
-  Act_{\mathbf{H}}(G) \coloneqq \mathbf{H}_{/\mathbf{B}G}
+  Act_{\mathbf{H}}(G) 
+    \;\coloneqq\; 
+  \mathbf{H}_{/\mathbf{B}G}
   \,.
 $$
 
 =--
+
+\begin{remark}
+At least in the special case that $\mathbf{H} \,=\, Grpd_\infty$, this may also be understood as an instance of the "[[fundamental theorem of (infinity,1)-topos theory|fundamental theorem of $\infty$-topos theory]]", see [there](slice+of+presheaves+is+presheaves+on+slice#InfinityActionsAsSlice).
+For a [[model category]]-presentation see also  *[Borel model structure -- Relation to the slice over the simplicial classifying space](Borel+model+structure#RelationToSliceOverSimplicialClassifyingSpace)*.
+\end{remark}
 
 +-- {: .num_remark}
 ###### Remark
@@ -1471,9 +1478,14 @@ Actions of [[A-∞ algebras]] in some [[symmetric monoidal (∞,1)-category]] ar
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
 
-Aspects of actions of [[∞-groups]] in an [[∞-topos]] in the contect of [[associated ∞-bundles]] are discussed in section I 4.1 of 
+The discussion of $\infty$-actions as presented above follows:
+ 
+* {#NSS} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], I §4.1 of: _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_, Journal of Homotopy and Related Structures (2014) &lbrack;[arXiv:1207.0248](http://arxiv.org/abs/1207.0248)&rbrack;
 
-* {#NSS} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_, Journal of Homotopy and Related Structures, June 2014 ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
+* {#SatiSchreiber20} [[Hisham Sati]], [[Urs Schreiber]]: §2.2 of: _[[schreiber:Proper Orbifold Cohomology]]_ &lbrack;[arXiv:2008.01101](https://arxiv.org/abs/2008.01101)&rbrack;
+
+* {#SatiSchreiber21} [[Hisham Sati]], [[Urs Schreiber]]: §3.2.3 in: *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]* &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
+
  
 Discussion in [[homotopy type theory]]:
 
