@@ -52,6 +52,11 @@ A new kind of [[perturbation series]] for the quantized super-membrane:
 
 * [[Olaf Lechtenfeld]], [[Hermann Nicolai]], *A perturbative expansion scheme for supermembrane and matrix theory* ([arXiv:2109.00346](https://arxiv.org/abs/2109.00346))
 
+Relation to the string [[dilaton]] under [[double dimensional reduction]]:
+
+* [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Fundamental Membranes and the String Dilaton* &lbrack;[arXiv:2208.05822](https://arxiv.org/abs/2208.05822)&rbrack;
+
+
 
 [[!redirects quantization of M2-brane on Minkowski spacetime to BFSS matrix model -- references]]
 
