@@ -36,6 +36,48 @@ A
 \end{tikzcd}
 \end{centre}
 
+## Properties
+
+### Fusion law
+
+\begin{lemma}
+Let $h: A \rightarrow B$ be a homomorphism between two F-algebras $\varphi: F A \rightarrow A$ and $\psi: F B \rightarrow B$ so that $h \circ \varphi = \psi \circ F h$. Then $h \circ cata \varphi = cata \psi$.
+\end{lemma}
+
+\begin{centre}
+\begin{tikzcd}
+F (\mu F)
+  \arrow[r, "F (\textrm{cata}\:\varphi)"]
+  \arrow[d, "\textrm{in}"] &
+F A
+  \arrow[r, "F h"]
+  \arrow[d, "\varphi"] &
+F B
+  \arrow[d, "\psi"] \\
+\mu F
+  \arrow[r, "\textrm{cata}\:\varphi"] &
+A \arrow[r, "h"] &
+B
+\end{tikzcd}
+\end{centre}
+
+## As a recursion scheme
+
+If $\mu F$ is an inductive type, then the catamorphism is a fold over the type. Some recursive functions can then be implemented in terms of a catamorphism.
+
+### Example: Natural numbers
+
+Let $F$ be the functor $F X = 1 + X$ so that the naturals $\mathbb{N} = \mu F$ are represented by the fixed point of $F$ (i.e. the carrier of the initial F-algebra). The recursor for the naturals can then be defined by a catamorphism.
+
+$$
+\begin{array}{l l}
+natrec &: \forall A. A \rightarrow (A \rightarrow A) \rightarrow \mathbb{N} \rightarrow A \\
+natrec & A z s = cata \varphi, where \\
+& \varphi (inl \ast) = z \\
+& \varphi (inr n) = s n
+\end{array}
+$$
+
 ## References
 
 * HaskellWiki, [Catamorphisms](https://wiki.haskell.org/Catamorphisms)
