@@ -19,7 +19,22 @@
 
 ## Idea
 
-Given an [[endofunctor]] $F$ such that the [[category]] of [[algebra for an endofunctor|$F$-algebras]] has an [[initial object]] $T$, the *catamorphism* for an $F$-algebra $A$ is the unique [[homomorphism]] from the [[initial algebra of an endofunctor | initial $F$-algebra]] $T$ to $A$.
+Given an [[endofunctor]] $F$ such that the [[category]] of [[algebra for an endofunctor|$F$-algebras]] has an [[initial object]] $(\mu F, in)$, the *catamorphism* for an $F$-algebra $(A, \varphi)$ is the unique [[homomorphism]] from the [[initial algebra of an endofunctor | initial $F$-algebra]] $(\mu F, in)$ to $(A, \varphi)$. The unique morphism between the carriers is also denoted $cata \varphi : \mu F \rightarrow A$.
+
+From the commuting square of the homomorphism, we have $(cata \varphi) \circ in = \varphi \circ F (cata \varphi)$. By [[initial algebra of an endofunctor#LambeksTheorem|Lambek's theorem]], $\mathit{in}$ has an inverse $\mathit{out}$, so the catamorphism can be recursively defined by $cata \varphi = \varphi \circ F (cata \varphi) \circ out$.
+
+\begin{centre}
+\begin{tikzcd}
+F (\mu F)
+  \arrow[r, "F (\textrm{cata}\:\varphi)"]
+  \arrow[d, "\textrm{in}"] &
+F A
+  \arrow[d, "\phi"] \\
+\mu F
+  \arrow[r, "\textrm{cata}\:\varphi"] &
+A
+\end{tikzcd}
+\end{centre}
 
 ## References
 
