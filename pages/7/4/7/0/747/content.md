@@ -672,24 +672,30 @@ Write $sPSh(C)_{inj,cov}$ for the left [[Bousfield localization of model categor
 +-- {: .num_prop}
 ###### Proposition
 
-A subfunctor inclusion $\tilde S \hookrightarrow j(U)$ corresponding to a sieve that _contains_ a covering sieve $S(\{U_i\})$ is a weak equivalence in $sPSh(C)_{inj,cov}$
+A subfunctor inclusion $\widetilde S \hookrightarrow j(U)$ corresponding to a sieve that _contains_ a covering sieve $S(\{U_i\})$ is a weak equivalence in $sPSh(C)_{inj,cov}$
  
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Write $J$ for the set of morphisms in $\tilde S$ but not in $S$.
+Write $J$ for the set of morphisms in $\widetilde S$ but not in $S$.
 
-Let $j(V_j) \to j(U)$ be a morphism not in $S(\{U_i\})$. By assumption we can find a covering family $\{V_{j,k} \to V_j\}$ such that for all $j,i$ we have commuting diagrams 
+Let $j(V_j) \to j(U)$ be a morphism not in $S\big(\{U_i\}\big)$. By assumption we can find a covering family $\{V_{j,k} \to V_j\}$ such that for all $j,i$ we have commuting diagrams 
 
 $$
   \array{
-    V_{j,k} &\to& U_{i}
+    V_{j,k} 
+    &\longrightarrow& 
+    U_{i}
     \\
-    \downarrow && \downarrow
+    \big\downarrow 
+    && 
+    \big\downarrow
     \\
-    V_j &\stackrel{f}{\to}& U
+    V_j 
+    &\underset{f}{\longrightarrow}& 
+    U
   }
   \,.
 $$ 
@@ -698,11 +704,26 @@ Consider the commuting diagram
 
 $$
   \array{
-    \coprod_j S(\{V_{j,k}\}) &\hookrightarrow& S(\{U_i\} \cup \{V_{j,k}\})
+    \coprod_j 
+    S\big(
+      \{V_{j,k}\}
+    \big) 
+    &\overset{\phantom{---}}{\hookrightarrow}& 
+    S
+    \big(
+      \{U_i\} \cup \{V_{j,k}\}
+    \big)
     \\
-    {}^{\mathllap{\simeq}}\downarrow && \downarrow
+    {}^{\mathllap{\simeq}}
+    \big\downarrow 
+    && 
+    \big\downarrow
     \\
-    \coprod_j j(V_j) &\to& S(\{U_i\} \cup \{V_j\})
+    \coprod_j j(V_j) 
+    &\longrightarrow& 
+    S\big(
+      \{U_i\} \cup \{V\}
+    \big)
   }
   \,.
 $$
