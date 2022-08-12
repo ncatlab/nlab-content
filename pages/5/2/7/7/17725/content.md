@@ -7,6 +7,8 @@
 
 In [[synthetic topology]] done as a branch of [[constructive mathematics]], a *dominance* is a set $\Sigma$ that functions as an analogue of the [[Sierpinski space]].  In particular, it allows us to define synthetically a notion of [[open subset]]: $\Sigma$ is a [[subset]] of the set of [[truth values]] $\Omega$, and a subset of a set $A$ is called "open" if its classifying map $A\to \Omega$ lands in $\Sigma$.
 
+The name *dominance* is meant to evoke that the set is used to define the domains of a class of [[partial functions]]. I.e., in synthetic topology the partial functions whose domain is an open set and in [[synthetic computability theory]] the domains of [[computable functions|partial computable functions]]. 
+
 ## Definition
 
 Let $\Omega$ be the set of [[truth values]].  A **dominance** is a subset $\Sigma\subseteq \Omega$ such that
