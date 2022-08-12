@@ -140,3 +140,5 @@ There has been some historical discussion on this in the category list; Zoran's 
 [[!redirects Bénabou-Roubaud theorem]]
 [[!redirects Bénabou–Roubaud theorem]]
 [[!redirects Bénabou--Roubaud theorem]]
+
+[[!redirects Bénabou-Roubaud's theorem]]
