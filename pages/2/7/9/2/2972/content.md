@@ -79,6 +79,12 @@ The derivation of dilaton gravity as part of the [[effective QFT]] of [[string t
 * [[Eric D'Hoker]], _String theory_ in [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
 [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], (eds.) _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
+Relation of the [[string theory]]-dilaton to the [[double dimensional reduction]] of the quantum [[M2-brane]]:
+
+
+* [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Fundamental Membranes and the String Dilaton* &lbrack;[arXiv:2208.05822](https://arxiv.org/abs/2208.05822)&rbrack;
+
+
 
 [[!redirects dilaton field]]
 
