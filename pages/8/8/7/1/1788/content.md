@@ -1,5 +1,39 @@
 
 
+$$
+  \array{
+    \big(Grpd_\infty\big)_{/\mathbf{B}\mathcal{G}}
+    \,\simeq\,
+    \big(
+      PSh_\infty(\ast)
+    \big)_{/\mathbf{B}\mathcal{G}}
+    &
+    \underoverset
+      {\phantom{--}\sim\phantom{--}}
+      {\Gamma}
+      {\longrightarrow}
+    &
+    PSh_\infty
+    \big(
+      \ast_{/\mathbf{B}\mathcal{G}}
+    \big)
+    \;\simeq\;
+    PSh_\infty(
+      \mathbf{B}\mathcal{G}
+    \big)
+    \;\simeq\;
+    \mathcal{G} Act
+    \big(
+      Grpd_\infty
+    \big)
+    \,.
+  }
+$$
+
+
+\linebreak
+
+
 ### Čech localization at a coverage {#LocalizationAtCoverage}
 
 
