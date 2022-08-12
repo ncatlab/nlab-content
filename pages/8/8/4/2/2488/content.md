@@ -457,9 +457,9 @@ _finite_ product, this gives an equivalence
 $$
   L \tau_{\leq k} \prod_j i(X_j)
   \stackrel{\simeq}{\to}
-  L \prod_j \tau_{\leq} i(X_j)
+  L \prod_j \tau_{\leq k} i(X_j)
   \simeq
-  \prod_j L \tau_{\leq} i(X_j)
+  \prod_j L \tau_{\leq k} i(X_j)
 $$
 
 in $C$. The claim follows now with the above result that $L \circ \tau_{\leq n} \simeq \tau_{\leq n} \circ L$.
