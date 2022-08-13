@@ -1,10 +1,5 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Differential geometry
-+--{: .hide}
-[[!include synthetic differential geometry - contents]]
-=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
@@ -18,7 +13,7 @@
 
 ## Idea
 
-The notion of algebra modality is used to define [[differential categories]]. However, it could be use in other types of [[doctrines|categorical doctrines]].
+The notion of algebra modality is used to define [[differential categories|codifferential categories]]. However, it could be use in other types of [[doctrines|categorical doctrines]].
 
 ## Definition
 
@@ -30,6 +25,23 @@ S(S(A)) \otimes S(S(A)) \arrow[dd, "m \otimes m"'] \arrow[rr, "\nabla"] &  & S(S
 S(A) \otimes S(A) \arrow[rr, "\nabla"']                                   &  & S(A)                    
 \end{tikzcd}
 \end{definition}
+
+## Properties
+
+\begin{proposition}
+If $R$ is a commutative rig, then the symmetric algebra defines an algebra modality in $Mod_{R}$.
+
+* $Sym(A)$ is the [[symmetric algebra]] of the module $A$.
+* We have $\nabla_{A}:Sym(A) \otimes Sym(A) \rightarrow Sym(A)$.
+* We have $\eta_{A}:A \rightarrow Sym(A)$.
+* The unit $A \rightarrow Sym(A)$ of the monad is just the injection $x \mapsto x$.
+* The multiplication $Sym(Sym(A)) \rightarrow Sym(A)$ of the monad is given on pure tensors by $(x_{1}^{(1)} \otimes_{s} ... \otimes_{s} x_{n_{1}}^{(1)}) \boxtimes_{s} ... \boxtimes_{s}  (x_{1}^{(p)} \otimes_{s} ... \otimes_{s} x_{n_{p}}^{(p)}) \mapsto x_{1}^{(1)} \otimes_{s} ... \otimes_{s} x_{n_{1}}^{(1)} \otimes ... \otimes x_{1}^{(p)} \otimes_{s} ... \otimes_{s} x_{n_{p}}^{(p)}$.  It is a kind of composition of polynomials.
+
+\end{proposition}
+
+\begin{proposition}
+[[rigs|Commutative rigs]] are exactly the [[algebra over a monad|algebras]] over the algebra modality $Sym$. 
+\end{proposition}
 
 ## References
 
