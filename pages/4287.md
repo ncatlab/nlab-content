@@ -10,6 +10,15 @@
 
 * _Against philosophy_, in _Dreams of a final theory_ ([pdf](http://emilkirkegaard.dk/en/wp-content/uploads/Steven-Weinberg-%E2%80%9CAgainst-Philosophy%E2%80%9D.pdf))
 
+Introducing the [[electroweak field|electroweak]] [[symmetry breaking]]:
+
+* {#Weinberg67} [[Steven  Weinberg]], *A model of Leptons*, Phys. Rev. Lett. **19** (1967) 1264 &lbrack;[doi:10.1103/PhysRevLett.19.1264](https://doi.org/10.1103/PhysRevLett.19.1264)&rbrack;
+
+and personal recollection:
+
+* [[Steven Weinberg]], *The Red Camaro*, in *George* (1997), reprinted in: [[Steven Weinberg]]: *Facing Up: Science and its Cultural Adversaries*, Harvard University Press (2001) &lbrack;[pdf](https://www.ictp.it/media/1867057/100reasons-Weinberg.pdf), [[Weinberg-RedCamaro.pdf:file]], [ISBN:9780674011205](https://www.hup.harvard.edu/catalog.php?isbn=9780674011205)&rbrack;
+
+
 Introducing [[quark-hadron duality]]:
 
 * E. C. Poggio, H. R. Quinn, and [[Steven Weinberg]], _Smearing method in the quark model_, Phys. Rev. D 13, 1958 (1976) ([doi:10.1103/PhysRevD.13.1958](https://doi.org/10.1103/PhysRevD.13.1958))
