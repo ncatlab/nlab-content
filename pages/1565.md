@@ -104,4 +104,5 @@ Some rigs which are neither rings nor distributive lattices include:
 
 
 [[!redirects rigs]]
+[[!redirects commutative rig]]
 
