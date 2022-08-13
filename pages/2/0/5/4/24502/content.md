@@ -1,3 +1,4 @@
+[[!redirects recursion schemes]]
 #Contents#
 * table of contents
 {:toc}
