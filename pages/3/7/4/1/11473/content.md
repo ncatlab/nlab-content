@@ -12,6 +12,8 @@ Introducing the [[Hasse-Schmidt derivative]]:
 ## Related entries
 
 * [[local-global principle]]
+* [[Hasse-Schmidt derivative]]
+* [[Dedekind-Hasse norm]]
 
 category: people
 
