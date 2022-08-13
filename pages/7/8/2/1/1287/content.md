@@ -3,6 +3,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
@@ -200,13 +204,11 @@ This is before the formal notion of [[sheaf]] was published by [[Jean Leray]].  
 
 A definition  appears as an exercise in 
 
-* [[Edwin Spanier]], 1966, Algebraic Topology , McGraw Hill. (republished by Springer, 1982).
+* {#Spanier66} [[Edwin Spanier]], _Algebraic topology_, McGraw Hill (1966), Springer (1982) &lbrack;[doi:10.1007/978-1-4684-9322-1](https://link.springer.com/book/10.1007/978-1-4684-9322-1)&rbrack;
 
-on page 58 : 
+> _A local system on a space $X$ is a [[covariant functor]] from the [[fundamental groupoid]] of $X$ to some [[category]]._ &lbrack;p. 58&rbrack;
 
->_A local system on a space $X$ is a covariant functor from the fundamental groupoid of $X$ to some category._
-
-Then the first major account and relation to [[twisted de Rham cohomology]]:
+Then the first major account with discussion of the relation to [[twisted de Rham cohomology]]:
 
 * {#Deligne70} [[Pierre Deligne]], *Equations différentielles à points singuliers réguliers*, Lecture Notes  Math. **163**, Springer (1970) $[$[publications.ias:355](https://publications.ias.edu/node/355)$]$
 
@@ -216,6 +218,9 @@ Textbook accounts:
 
 * [[Alexandru Dimca]], Section 2.5 of: *Sheaves in Topology*, Universitext, Springer (2004) $[$[doi:10.1007/978-3-642-18868-8](https://doi.org/10.1007/978-3-642-18868-8)$]$
 
+See also:
+
+* [[Anatoly Libgober]], [[Sergey Yuzvinsky]], *Cohomology of local systems*, Advanced Studies in Pure Mathematics **27**, Mathematics Society of Japan (2000) 169-184 &lbrack;[pdf](http://homepages.math.uic.edu/~libgober/otherpapers/export/2000sergeytokyo.pdf), [doi:10.2969/aspm/02710169](https://doi.org/10.2969/aspm/02710169)&rbrack;
 
 A blog exposition of some aspects of linear local system is developed here:
 
