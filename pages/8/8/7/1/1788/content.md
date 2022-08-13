@@ -1,4 +1,9 @@
+$\binom{n+p}{n}$
 
+\begin{tikzcd}
+A_{n+p} \arrow[d, "\Delta"'] \arrow[rd, "{n+p \choose n}Id"] &         \\
+A_{n} \otimes A_{p} \arrow[r, "\nabla"']                     & A_{n+p}
+\end{tikzcd}
 
 $$
   \array{
