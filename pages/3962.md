@@ -22,7 +22,7 @@ This article concerns the notion of "local field" as it is commonly used in [[al
 
 A **local field** is a [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] (non-[[discrete space|discrete]]) [[topological field]]. 
 
-Basic examples are the [[p-adic numbers]] $\mathbb{Q}_p$ and the field of [[Laurent series]] $\mathbb{F}_q((t))$ over a [[finite field]] $\mathbb{F}_q$. Local fields are opposite to _[[global fields]]_ in that where (under the [[function field analogy]]) the latter may be thought of as fields of [[rational functions]] on [[arithmetic curves]], local fields are like fields of functions on [[formal disks]] inside such curves. Accordingly the [[Langlands correspondence]] for [[global fields]] has a "localization" to the [[local Langlands corrrespondence]] for local fields.
+Basic examples are the [[p-adic numbers]] $\mathbb{Q}_p$ and the field of [[Laurent series]] $\mathbb{F}_q((t))$ over a [[finite field]] $\mathbb{F}_q$. Local fields are opposite to _[[global fields]]_ in that where (under the [[function field analogy]]) the latter may be thought of as fields of [[rational functions]] on [[arithmetic curves]], local fields are like fields of functions on [[formal disks]] inside such curves. Accordingly the [[Langlands correspondence]] for [[global fields]] has a "localization" to the [[local Langlands correspondence]] for local fields.
 
 Note that for a [[topological field]], the [[closed subspace|topological closure]] of $\{0\}$ is an [[ideal]], which must therefore be either $\{0\}$ or the whole field. It follows that either a topological field is [[separation axioms|T]]$_1$ (and therefore Hausdorff or T$_2$; see [[uniform space]]), or has the [[discrete and codiscrete topology|codiscrete topology]]. 
 
