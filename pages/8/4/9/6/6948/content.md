@@ -151,3 +151,6 @@ comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on
 [[!redirects universal quantifiers]]
 [[!redirects universal quantification]]
 [[!redirects universal quantifications]]
+
+[[!redirects every]]
+
