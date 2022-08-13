@@ -1,6 +1,5 @@
-[[!redirects symmetric powers in (Q plus)-linear categories]]
-[[!redirects symmetric powers in (Q plus)-linear categories]]
-[[!redirects symmetric powers in (Q plus)-linear categories]]
+[[!redirects symmetric powers in symmetric monoidal (Q plus)-linear categories]]
+
 #Contents#
 * table of contents
 {:toc}
