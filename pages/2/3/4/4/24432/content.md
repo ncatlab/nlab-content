@@ -1,8 +1,15 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
+
 A **CMon-enriched symmetric monoidal category** is a [[symmetric monoidal category]] such that each [[hom-set]] is a [[commutative monoid]] and the [[tensor product]] on [[morphisms]] and the [[composition]] are [[bilinear]].
 
 ## Definition
-In details, a **CMon-enriched symmetric monoidal category** is a symmetric monoidal category such that each hom-set $\mathcal{C}[A,B]$ is a commutative monoid (we write $f + g$ for the [[sum]] of two morphisms $f,g:A \rightarrow B$ and $0$ for the [[zero]] $A \rightarrow B$), such that for every $f,g:A \rightarrow B$, $h,i:C \rightarrow D$ and $j,k:B \rightarrow C$:
+
+In details, a **CMon-enriched symmetric monoidal category** is a symmetric monoidal category such that each hom-set $\mathcal{C}[A,B]$ is a commutative monoid (we write $f + g$ for the [[sum]] of two morphisms $f,g:A \rightarrow B$ and $0$ for the [[zero]] $A \rightarrow B$), such that for [[every]] $f,g \colon A \rightarrow B$, $h,i \colon C \rightarrow D$ and $j,k \colon B \rightarrow C$:
 
 * $(f+g)\otimes h = f \otimes h + g \otimes h$
 * $f \otimes (h+i) = f \otimes h + f \otimes i$
