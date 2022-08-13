@@ -508,6 +508,8 @@ The classical case of twisted de Rham cohomology with twists in *degree 1*, give
 
 Review:
 
+* [[Anatoly Libgober]], [[Sergey Yuzvinsky]], *Cohomology of local systems*, Advanced Studies in Pure Mathematics **27**, Mathematics Society of Japan (2000) 169-184 &lbrack;[pdf](http://homepages.math.uic.edu/~libgober/otherpapers/export/2000sergeytokyo.pdf), [doi:10.2969/aspm/02710169](https://doi.org/10.2969/aspm/02710169)&rbrack;
+
 * Cailan Li, *Cohomology of Local Systems on $X_\Gamma$* ([pdf](http://math.columbia.edu/~mundy/L3.pdf), [[Li_CohomologyOfLocalSystems.pdf:file]])
 
 * Youming Chen, Song Yang, Section 2.1 in: *On the blow-up formula of twisted de Rham cohomology*. Annals of Global Analysis and Geometry volume 56, pages 277–290 (2019) ([arXiv:1810.09653](https://arxiv.org/abs/1810.09653), [doi:10.1007/s10455-019-09667-8](https://doi.org/10.1007/s10455-019-09667-8))
