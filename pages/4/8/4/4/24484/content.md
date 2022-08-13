@@ -16,16 +16,19 @@
 
 ## Idea
 
-A Dedekind-Hasse norm is a generalization of the degree function in an [[Euclidean domain]]. It makes clear the links between a [[principal ideal domain]] and an [[Euclidean domain]]: a pid is like an Euclidean domain but with a weaker notion of Euclidean division.
+The notion of a *Dedekind-Hasse norm* is a generalization of the notion of the degree function in a [[Euclidean domain]]. It makes clear the links between a [[principal ideal domain]] and an [[Euclidean domain]]: a pid is like an Euclidean domain but with a weaker notion of Euclidean division.
 
 ## Definition and characterization of pids
 
 \begin{definition}
-Let $R$ be an [[integral domain]]. A Dededekind-Hasse norm is a function $v:R \rightarrow \mathbb{N}$ such that:
+Let $R$ be an [[integral domain]]. A *Dededekind-Hasse* norm is a function $v \colon R \rightarrow \mathbb{N}$ such that:
 
 * $v(s)=0 \Leftrightarrow s=0$
+
 * $\forall a \in R$, $\forall (b \neq 0) \in R$:
+
    * $b|a$, or
+
    * $\exists p,q,r \in R$ such that $pa = bq + r$ and $0 \lt v(r) \lt v(b)$ 
 
 \end{definition}
@@ -41,4 +44,9 @@ Suppose that $R$ is a pid. Thus, it is a [[unique factorization domain| UFD]]. P
 
 ## References
 
-Wikipedia, *[Dedekind-Hasse norm](https://en.wikipedia.org/wiki/Dedekind%E2%80%93Hasse_norm)*
+Named after [[Helmut Hasse]].
+
+* Wikipedia, *[Dedekind-Hasse norm](https://en.wikipedia.org/wiki/Dedekind%E2%80%93Hasse_norm)*
+
+
+
