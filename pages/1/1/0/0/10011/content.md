@@ -21,7 +21,7 @@
 
 Given an [[endofunctor]] $F$ such that the [[category]] of [[algebra for an endofunctor|$F$-algebras]] has an [[initial object]] $(\mu F, in)$, the *catamorphism* for an $F$-algebra $(A, \varphi)$ is the unique [[homomorphism]] from the [[initial algebra of an endofunctor | initial $F$-algebra]] $(\mu F, in)$ to $(A, \varphi)$. The unique morphism between the carriers is also denoted $cata \varphi : \mu F \rightarrow A$.
 
-From the commuting square of the homomorphism, we have $(cata \varphi) \circ in = \varphi \circ F (cata \varphi)$. By [[initial algebra of an endofunctor#LambeksTheorem|Lambek's theorem]], $\mathit{in}$ has an inverse $\mathit{out}$, so the catamorphism can be recursively defined by $cata \varphi = \varphi \circ F (cata \varphi) \circ out$.
+From the [[commuting square]] of the homomorphism, we have $(cata \varphi) \circ in = \varphi \circ F (cata \varphi)$. By [[initial algebra of an endofunctor#LambeksTheorem|Lambek's theorem]], $\mathit{in}$ has an [[inverse]] $\mathit{out}$, so the catamorphism can be [[recursion|recursively]] defined by $cata \varphi = \varphi \circ F (cata \varphi) \circ out$.
 
 \begin{centre}
 \begin{tikzcd}
@@ -41,7 +41,7 @@ A
 ### Fusion law
 
 \begin{lemma}
-Let $h: A \rightarrow B$ be a homomorphism between two F-algebras $\varphi: F A \rightarrow A$ and $\psi: F B \rightarrow B$ so that $h \circ \varphi = \psi \circ F h$. Then $h \circ cata \varphi = cata \psi$.
+Let $h \colon A \rightarrow B$ be a homomorphism between two $F$-algebras $\varphi \colon F A \rightarrow A$ and $\psi \colon F B \rightarrow B$ so that $h \circ \varphi = \psi \circ F h$. Then $h \circ cata \varphi = cata \psi$.
 \end{lemma}
 
 \begin{centre}
@@ -63,7 +63,7 @@ B
 
 ## As a recursion scheme
 
-If $\mu F$ is an inductive type, then the catamorphism is a fold over the type. Some recursive functions can then be implemented in terms of a catamorphism.
+If $\mu F$ is an [[inductive type]], then the catamorphism is a [[fold]] over the type. Some [[recursive functions]] can then be implemented in terms of a catamorphism.
 
 ### Example: Natural numbers
 
