@@ -1,10 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A graded bimonoid is like a [[bimonoid]] but graded, as a [[graded monoid]]. We don't look as an object $A$ but as a [[graded object]] $(A_{n})_{n \ge 0}$. The multiplication, comultiplication, unit and counit are defined as morphisms which respect the grading.
+A graded bimonoid is like a [[bimonoid]] but graded, as a [[graded monoid]], with [[underlying]] [[graded object]] $(A_{n})_{n \ge 0}$. The multiplication, comultiplication, unit and counit are defined as morphisms which respect the grading.
 
 Whereas we're not sure if the notion of graded bimonoid under this form is new or not, the notion of special graded bimonoid above is certainly.
 
