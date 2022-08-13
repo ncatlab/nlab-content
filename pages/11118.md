@@ -1,3 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
+
 Let $M$ be a [[commutative monoid]]. A **$M$-graded monoid** $\Phi$ in a [[symmetric monoidal category]] $\mathcal{V}$ with [[unit object]] $I$ is the data of
 
 * for each $m \in M$, an [[object]] $\Phi_m$,
