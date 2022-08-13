@@ -21,7 +21,7 @@ A linear category, or algebroid, is a [[category]] whose [[hom-sets]] are all [[
 
 ## Definitions
 
-Fix a [[commutative ring]] $K$.  (Often we want $K$ to be a [[field]], such as the field $\mathbb{C}$ of [[complex numbers]].)
+Fix a [[commutative ring]] $K$.  (Often we want $K$ to be a [[field]], such as the field $\mathbb{C}$ of [[complex numbers]] but we could also chose more generaly a [[rig|commutative rig]] for $K$.)
 
 A __$K$-linear category__, or __$K$-algebroid__, is a [[enriched category|category enriched]] over $K\,$[[Mod]], the [[monoidal category]] of $K$-[[modules]] with the usual [[tensor product]].  (Note that we usually speak of $K\,$[[Vect]] instead of $K\,Mod$ when $K$ is a field.)
 
@@ -33,6 +33,8 @@ Just as a $\mathbb{Z}$-algebra is the same thing as a [[ring]], so a $\mathbb{Z}
 *  An [[unital associative algebra|algebra]] is a [[pointed category|pointed]] algebroid with a single object, hence a one-object $K\,Mod$-enriched (or $K\,Vect$-enriched) category.  Compare with similar '[[oidification|oidfied]]' concepts such as [[groupoid]] and [[ringoid]].
 
 *  Many linear categories are also assumed to be [[additive category|additive]].  A [[linear functor]] (that is, a $K\,Mod$-enriched or $K\,Vect$-[[enriched functor]]) between additive linear categories is automatically an [[additive functor]].
+
+* A **symmetric monoidal $K$-linear category** is a category which is at the same time a $K$-linear category and a [[symmetric monoidal category]] and such that the composition and the tensor product on morphisms are bilinear.
 
 *  Beware that a [[Lie algebroid]] is not a special case of an algebroid in the above sense, just as a [[Lie algebra]] is not a [[unital associative algebra]]. The point is that there is a restrictive and a general sense of "algebra". In the restrictive sense an algebra is an associative unital algebra, hence a [[monoid]] in $Vect$, hence a one-object $Vect$-enriched category. But in a more general sense an algebra is an algebra over an [[operad]]. It is this more general sense in terms of which Lie algebras are special cases of algebras and [[Lie algebroid]]s their [[horizontal categorification]].
 
