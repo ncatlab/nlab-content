@@ -35,5 +35,7 @@ A **constant stack** is a section of a constant 2-stack.
 A locally constant sheaf / $\infty$-stack is also called a [[local system]].
 ## References
 
-* [[Pietro Polesello]], [[Ingo Waschkies]], _Higher monodromy_ , Homology, Homotopy and Applications, Vol. 7(2005), No. 1, pp. 109-150; [arXiv:0407507](http://arxiv.org/abs/math/0407507)
-{#PoleselloWaschkies}
+* {#PoleselloWaschkies} [[Pietro Polesello]], [[Ingo Waschkies]], _Higher monodromy_ , Homology, Homotopy and Applications, Vol. 7(2005), No. 1, pp. 109-150; [arXiv:0407507](http://arxiv.org/abs/math/0407507)
+
+
+[[!redirects locally constant stacks]]
