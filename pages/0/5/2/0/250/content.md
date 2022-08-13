@@ -16,16 +16,16 @@
 
 ## Idea
 
-A linear category, or algebroid, is a [[category]] whose [[hom-sets]] are all [[vector spaces]] (or [[modules]]) and whose composition operation is [[bilinear map|bilinear]].  This concept is a [[horizontal categorification]] of the concept of (unital associative) [[unital associative algebra|algebra]].
+A *linear category*, or *algebroid*, is a [[category]] whose [[hom-sets]] are all [[vector spaces]] (or [[modules]]) and whose [[composition]] operation is [[bilinear map|bilinear]].  This concept is a [[horizontal categorification]] of the concept of (unital associative) *[[unital associative algebra|algebra]]*.
 
 
 ## Definitions
 
-Fix a [[commutative ring]] $K$.  (Often we want $K$ to be a [[field]], such as the field $\mathbb{C}$ of [[complex numbers]] but we could also chose more generaly a [[rig|commutative rig]] for $K$.)
+Fix a [[commutative ring]] $K$.  (Often we want $K$ to be a [[field]], such as the field $\mathbb{C}$ of [[complex numbers]], but we could also chose more generaly a [[rig|commutative rig]] for $K$.)
 
-A __$K$-linear category__, or __$K$-algebroid__, is a [[enriched category|category enriched]] over $K\,$[[Mod]], the [[monoidal category]] of $K$-[[modules]] with the usual [[tensor product]].  (Note that we usually speak of $K\,$[[Vect]] instead of $K\,Mod$ when $K$ is a field.)
+A __$K$-linear category__, or __$K$-algebroid__, is a [[enriched category|category enriched]] over $K\,$[[Mod]], the [[monoidal category]] of $K$-[[modules]] with the usual [[tensor product of modules]].  (Note that one usually speaks of $K\,$[[Vect]] instead of $K\,Mod$ when $K$ is a [[field]].)
 
-Just as a $\mathbb{Z}$-algebra is the same thing as a [[ring]], so a $\mathbb{Z}$-algebroid is the same thing as a [[ringoid]].
+Just as a $\mathbb{Z}$-algebra is the same thing as a [[ring]], so a $\mathbb{Z}$-algebroid is the same thing as a *[[ringoid]]*.
 
 
 ## Remarks
