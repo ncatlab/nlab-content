@@ -546,7 +546,7 @@ $$
 
 Classical references:
 
-* [[Joan S. Birman]], _Braids, links, and mapping class groups_, Princeton Univ Press, 1974.
+* [[Joan S. Birman]], _Braids, links, and mapping class groups_, Princeton Univ Press (1975) &lbrack;[preview pdf](https://api.pageplace.de/preview/DT0400.9781400881420_A26691398/preview-9781400881420_A26691398.pdf)&rbrack;
 
 * {#FoxNeuwirth62} [[Ralph H. Fox]], [[Lee Neuwirth]], *The braid groups*, Math. Scand. **10** (1962) 119-126
 $[$[doi:10.7146/math.scand.a-10518](https://doi.org/10.7146/math.scand.a-10518), [pdf](https://www.mscand.dk/article/view/10518/8539), [MR150755](http://www.ams.org/mathscinet-getitem?mr=150755)$]$
@@ -561,6 +561,8 @@ Textbook accounts:
 See also:
 
 * Wikipedia: _[Braid group](http://en.wikipedia.org/wiki/Braid_group)_
+
+* [[Joan S. Birman]], [[Anatoly Libgober]] (eds.) *Braids*, Contemporary Mathematics **78** (1988) &lbrack;[doi:10.1090/conm/078](http://dx.doi.org/10.1090/conm/078)&rbrack;
 
 * Joshua Lieber, *Introduction to Braid Groups*, 2011 ([pdf](https://math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Lieber.pdf))
 
