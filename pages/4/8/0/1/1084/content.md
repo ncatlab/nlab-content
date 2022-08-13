@@ -30,7 +30,7 @@ The dual notion is that of [[mapping cocone]].
 
 <img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="660" >
 
-(graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
+(graphics taken from [Muro 2010](#Muro10))
 
 
 ## Definition
@@ -1422,5 +1422,8 @@ In the context of [[spectra]] discussion includes
 
 * {#Switzer75} [[Robert Switzer]], around 8. 17 of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
 
+Graphics taken from
+
+* {#Muro10} [[Fernando Muro]], _Representability of Cohomology Theories_, Joint Mathematical Conference CSASC 2010, 22–27 January 2010, Prague, Czech Republic ([slides](https://personal.us.es/fmuro/files/slides/praha.pdf))
 
 [[!redirects mapping cones]]
