@@ -78,7 +78,7 @@ S_{n}(A) \arrow[uuu, "d"] \arrow[rr, "d"']                 &  & S_{n-1}(A) \otim
 
 ## Related concepts
 
-[[symmetric powers in symmetric monoidal categories enriched over modules over a (Q plus)-algebra]]
+[[symmetric powers in a symmetric monoidal (Q plus)-linear category]]
 
 [[differential category]]
 
