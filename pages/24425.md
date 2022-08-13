@@ -84,5 +84,7 @@ S_{n}(A) \arrow[uuu, "d"] \arrow[rr, "d"']                 &  & S_{n-1}(A) \otim
 
 [[Homogeneous polynomial codifferential category]]
 
+[[Anticommutative graded codifferential category]]
+
 [[!redirects graded codifferential categories]]
 
