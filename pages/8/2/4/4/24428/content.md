@@ -14,7 +14,7 @@ This is a theorem due to [[Thomas Fox]] which characterizes products in a [[cart
 
 ## Related concepts
 
-A similar but slightly more complicated theorem seems to exist for [[symmetric powers in symmetric monoidal categories enriched over modules over a (Q plus)-algebra]].
+A similar but slightly more complicated theorem seems to exist for [[symmetric powers in a symmetric monoidal (Q plus)-linear category|symmetric powers in symmetric monoidal (Q plus)-linear categories]].
 
 ## Reference
 
