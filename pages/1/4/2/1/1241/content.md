@@ -248,7 +248,7 @@ Original articles include
 * {#PatiSalam74} [[Jogesh Pati]], [[Abdus Salam]], _Lepton number as the fourth "color"_, Phys. Rev. D 10, 275 – Published 1 July 1974 ([doi:10.1103/PhysRevD.10.275](https://doi.org/10.1103/PhysRevD.10.275))
 
 
-* {#GeorgiGlashow74} [[Howard Georgi]], [[Sheldon Glashow]], _Unity of All Elementary-Particle Forces_, Phys. Rev. Lett. 32, 438, 1974 ([doi:10.1103/PhysRevLett.32.438](https://doi.org/10.1103/PhysRevLett.32.438))
+* {#GeorgiGlashow74} [[Howard Georgi]], [[Sheldon Glashow]], _Unity of All Elementary-Particle Forces_, Phys. Rev. Lett. **32** (1974) 438 &lbrack;[doi:10.1103/PhysRevLett.32.438](https://doi.org/10.1103/PhysRevLett.32.438)&rbrack;
 
 Textbook accounts:
 
