@@ -19,6 +19,9 @@
 
 ## Idea
 
+In the study of [[recursion schemes]], a *catamorphism* is the simple case of a *fold* over an inductive datatype. In categorical terms, this is simply the unique [[homomorphism]] out of an [[initial algebra]].
+
+## Definition
 Given an [[endofunctor]] $F$ such that the [[category]] of [[algebra for an endofunctor|$F$-algebras]] has an [[initial object]] $(\mu F, in)$, the *catamorphism* for an $F$-algebra $(A, \varphi)$ is the unique [[homomorphism]] from the [[initial algebra of an endofunctor | initial $F$-algebra]] $(\mu F, in)$ to $(A, \varphi)$. The unique morphism between the carriers is also denoted $cata \varphi : \mu F \rightarrow A$.
 
 From the [[commuting square]] of the homomorphism, we have $(cata \varphi) \circ in = \varphi \circ F (cata \varphi)$. By [[initial algebra of an endofunctor#LambeksTheorem|Lambek's theorem]], $\mathit{in}$ has an [[inverse]] $\mathit{out}$, so the catamorphism can be [[recursion|recursively]] defined by $cata \varphi = \varphi \circ F (cata \varphi) \circ out$.
@@ -63,7 +66,7 @@ B
 
 ## As a recursion scheme
 
-If $\mu F$ is an [[inductive type]], then the catamorphism is a [[fold]] over the type. Some [[recursive functions]] can then be implemented in terms of a catamorphism.
+If $\mu F$ is an [[inductive type]], then the catamorphism is a fold over the type. Some [[recursive functions]] can then be implemented in terms of a catamorphism.
 
 ### Example: Natural numbers
 
