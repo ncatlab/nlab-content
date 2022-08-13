@@ -144,7 +144,7 @@ $$
 
 
 
-* {#Kohno88} [[Toshitake Kohno]], _Linear representations of braid groups and classical  Yang-Baxter equations_, in: [[Joan S. Birman]], Anatoly Libgober (eds.) _Braids_ Cont. Math. 78 (1988), 339-363 ([doi:10.1090/conm/078](http://dx.doi.org/10.1090/conm/078))
+* {#Kohno88} [[Toshitake Kohno]], _Linear representations of braid groups and classical  Yang-Baxter equations_, in: [[Joan S. Birman]], [[Anatoly Libgober]] (eds.) _Braids_ Cont. Math. 78 (1988), 339-363 ([doi:10.1090/conm/078](http://dx.doi.org/10.1090/conm/078))
 
 * {#BarNatan96} [[Dror Bar-Natan]], Fact 3 in: _Vassiliev and Quantum Invariants of Braids_, Geom. Topol. Monogr. 4 (2002) 143-160 ([arxiv:q-alg/9607001](https://arxiv.org/abs/q-alg/9607001))
 
