@@ -30,17 +30,19 @@ The name is due to the fact that this gauge field unifies the [[electromagnetic 
 
 ### General
 
-The electroweak interaction was introduced in
+The electroweak interaction was introduced in:
 
-* [[Sheldon Glashow]], _The renormalizability of vector meson interactions_, Nucl. Phys. 10, 107. (1959)
+* [[Sheldon Glashow]], *The renormalizability of vector meson interactions*, Nucl. Phys. **10** (1959) 107-117 &lbrack;<a href="https://doi.org/10.1016/0029-5582(59)90196-8">doi:10.1016/0029-5582(59)90196-8</a>&rbrack; 
 
-* [[Abdus Salam]], [[John Clive Ward]], _Weak and electromagnetic interactions_, Nuovo Cimento. 11 (4): 568&#8211;577. (1959)
+* [[Abdus Salam]], [[John Clive Ward]], *Weak and electromagnetic interactions*, Nuovo Cimento. **11** 4 (1959) 568–577 &lbrack;[doi:10.1007/BF02726525](https://doi.org/10.1007/BF02726525)&rbrack;
 
-The electroweak symmetry breaking via the [[Higgs mechanism]] is due to
+* [[Sheldon Glashow]], *Partial-symmetries of weak interactions*, Nuclear Physics **22** 4 (1961) 579-588 &lbrack;<a href="https://doi.org/10.1016/0029-5582(61)90469-2">doi:10.1016/0029-5582(61)90469-2</a>&rbrack;
 
-* {#Weinberg67} [[Steven  Weinberg]], _A model of Leptons_, Phys. Rev. Lett. 19, 1264, 1967 ([doi:10.1103/PhysRevLett.19.1264](https://doi.org/10.1103/PhysRevLett.19.1264))
+* {#Weinberg67} [[Steven  Weinberg]], *A model of Leptons*, Phys. Rev. Lett. **19** (1967) 1264 &lbrack;[doi:10.1103/PhysRevLett.19.1264](https://doi.org/10.1103/PhysRevLett.19.1264)&rbrack;
 
-The history of [Weinberg 67](#Weinberg67) is recounted in
+The history of [Weinberg 67](#Weinberg67) is recounted in:
+
+* [[Steven Weinberg]], *The Red Camaro*, in *George* (1997), reprinted in: [[Steven Weinberg]]: *Facing Up: Science and its Cultural Adversaries*, Harvard University Press (2001) &lbrack;[pdf](https://www.ictp.it/media/1867057/100reasons-Weinberg.pdf), [[Weinberg-RedCamaro.pdf:file]], [ISBN:9780674011205](https://www.hup.harvard.edu/catalog.php?isbn=9780674011205)&rbrack;
 
 * Frank Close, _[Birth of a Symmetry](http://cerncourier.com/cws/article/cern/70137)_, Cern Courier, Oct 13 2017
 
