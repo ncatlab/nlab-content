@@ -1,8 +1,6 @@
-[[!redirects symmetric powers in symmetric monoidal categories enriched over modules over a (Q plus)-algebra]]
-[[!redirects symmetric powers in symmetric monoidal categories enriched over modules over a (Q plus)-algebra]]
-[[!redirects symmetric powers in symmetric monoidal categories enriched over modules over a Q+ - algebra]]
-[[!redirects symmetric powers in symmetric monoidal categories enriched over modules over $\mathbb{Q}^{+}$-algebras]]
-
+[[!redirects symmetric powers in (Q plus)-linear categories]]
+[[!redirects symmetric powers in (Q plus)-linear categories]]
+[[!redirects symmetric powers in (Q plus)-linear categories]]
 #Contents#
 * table of contents
 {:toc}
