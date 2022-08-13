@@ -8,6 +8,11 @@
 =--
 =--
 
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 In a [[field]] of [[positive characteristic]], the usual [[derivative]] of [[polynomials]] has bad properties. Let $\mathbb{K}$ be such a field of [[characteristic]] $p \gt 0$. Consider the [[polynomial algebra]] $\mathbb{K}[X]$. The usual derivative of polynomials in one indeterminate defines a [[derivation]] $\mathbb{K}[X] \rightarrow \mathbb{K}[X]$ which associates $P'$ to $P$.
@@ -30,7 +35,7 @@ Suppose that $R$ is a [[commutative rig]]. For every polynomial $P \in R[X]$ and
 
 The notion was introduced in:
 
-* [[H. Hasse]]: _Noch eine Begründung der Theorie der höheren Differrentialquotienten in einem algebraischen Funktionenkörper einer Unbestimmten. (Nach einer brieflichen Mitteilung von [[F. K. Schmidt]] in Jena.)_, Reine Angew. Math.  **177** (1937) 215-223 ([paper](https://gdz.sub.uni-goettingen.de/id/PPN243919689_0177?tify={%22pages%22:[219],%22view%22:%22export%22}))
+* [[Helmut Hasse]]: *Noch eine Begründung der Theorie der höheren Differrentialquotienten in einem algebraischen Funktionenkörper einer Unbestimmten. (Nach einer brieflichen Mitteilung von [[Friedrich Karl Schmidt|F. K. Schmidt]] in Jena.)*, Reine Angew. Math.  **177** (1937) 215-223 &lbrack;[paper](https://gdz.sub.uni-goettingen.de/id/PPN243919689_0177?tify={%22pages%22:[219],%22view%22:%22export%22})&rbrack;
 
 The definition and basic properties are reviewed on this blog page:
 
