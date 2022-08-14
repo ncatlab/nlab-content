@@ -226,11 +226,13 @@ More discussion of this is at [[deformation theory]].
 *  Let $A$ consist of the smooth [[differential forms]] on a smooth space $X$.  Then [[exterior differentiation]] is a graded derivation (of degree $1$).
 *  In any of the above examples containing the adjective 'smooth', replace it with $C^k$ and augment $A$ by the inclusion of $C^k$ into $C^{k-1}$.  Then we have an augmented derivation.
 
-There should be some more clearly algebraic examples (other than obvious things like restricting the above to polynomials), but I don\'t know how to state them.
+More algebraic examples:
 
 * Let $A$ be any algebra over a ring. The constant function $D(a) = 0$ for all $a \in A$ is a derivation. 
 
-* Let $R[[x]]$ be a [[formal power series]] over a ring $R$. Then the [[formal derivative]] is a derivation. 
+* Let $R[[x]]$ be a [[formal power series]] over a ring $R$. Then the [[formal derivative]] is a derivation.
+
+* A less obvious one: Let $R[X_{1},...,X_{n}]$ be a [[symmetric algebra|polynomial algebra]] over a [[commutative rig]] $R$. Define $L(P)=\underset{1 \le k \le n}{\sum}\frac{\partial P}{\partial X_{i}}X_{i}$. Then $L:R[X_{1},...,X_{n}] \rightarrow R[X_{1},...,X_{n}]$ is a derivation. Moreover, if we suppose that $R$ is a [[multiplicatively cancellable rig]], then the homogeneous polynomials of degree $n$ are exactly the solutions of the differential equation $L(P)=n.P$ (see the page [[homogeneous polynomials]]).
 
 ### Derivations with values in a bimodule
 
