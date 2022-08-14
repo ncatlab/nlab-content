@@ -547,6 +547,8 @@ Therefore $p$ exhibits $\mathbb{R}^1$ as a universal covering space of $S^1$, by
 
 * [[fundamental theorem of covering spaces]]
 
+* [homotopy of smooth paths relative to their endpoints](smooth+homotopy#HomotopyOfSmoothPathsRelativeToTheirEndpoints)
+
 
 ## References
 
