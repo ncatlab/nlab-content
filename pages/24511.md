@@ -40,7 +40,7 @@ If $R$ is a commutative rig, then the symmetric algebra defines an algebra modal
 \end{proposition}
 
 \begin{proposition}
-[[rigs|Commutative rigs]] are exactly the [[algebra over a monad|algebras]] over the algebra modality $Sym$. 
+[[rigs|Commutative rigs]] are exactly the [[algebra over a monad|algebras]] over the algebra modality $Sym$ in the category of commutative monoids.
 \end{proposition}
 
 ## References
