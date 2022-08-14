@@ -228,6 +228,15 @@ where $\flat Sets$ is the actual classifier for covering spaces in the generalit
 
 This is the topic of [[schreiber:differential cohomology in a cohesive topos|dcct, sec. 3.8.6]], [p. 358](https://arxiv.org/pdf/1310.7930v1.pdf#page=358), see also [Cherubini & Rijke 2020, Thm. 8.7](#CherubiniRijke20).
 
+## Related concepts
+
+* [[universal cover]]
+
+* [[G-set]]
+
+* [homotopy of smooth paths relative to their endpoints](smooth+homotopy#HomotopyOfSmoothPathsRelativeToTheirEndpoints)
+
+
 ## References
 
 Lecture notes on the classical theory:
