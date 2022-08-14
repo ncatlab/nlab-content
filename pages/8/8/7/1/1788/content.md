@@ -1,3 +1,6 @@
+
+      verb when indented #%*_(
+
 $\binom{n+p}{n}$
 
 \begin{tikzcd}
