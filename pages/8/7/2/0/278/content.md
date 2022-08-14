@@ -120,7 +120,7 @@ the study of [[curves]]  and [[surfaces]] [[embedding of smooth manifolds|embedd
 
 ### General but traditional diff geometry
 
-* [[Shoshichi Kobayashi]], [[Katsumi Nomizu]], _Foundations of differential geometry_ , Volume 1 (1963), Volume 2 (1969), Interscience Publishers, reprinted 1996 by Wiley Classics Library
+* [[Shoshichi Kobayashi]], [[Katsumi Nomizu]], _Foundations of differential geometry_, Volume 1 (1963), Volume 2 (1969), Interscience Publishers, reprinted 1996 by Wiley Classics Library
 
 * [[Yvonne Choquet-Bruhat]], [[Cécile DeWitt-Morette]], *Analysis, manifolds and physics*, North Holland (1982, 2001) $[$[ISBN:9780444860170](https://www.elsevier.com/books/analysis-manifolds-and-physics-revised-edition/choquet-bruhat/978-0-444-86017-0)$]$
 
@@ -131,7 +131,8 @@ the study of [[curves]]  and [[surfaces]] [[embedding of smooth manifolds|embedd
 
 * [[Michael Spivak]], _[[Calculus on Manifolds]]_ (1971)
 
-* {#Lee12} [[John Lee]], _Introduction to Smooth Manifolds_, Springer 2012 ([doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [pdf](https://lost-contact.mit.edu/afs/adrake.org/usr/rkh/Books/books/Introduction%20to%20Smooth%20Manifolds%20-%20J.%20Lee.pdf))
+* {#Lee12} [[John Lee]], *Introduction to Smooth Manifolds*, Springer (2012) &lbrack;[doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/), [pdf](https://math.berkeley.edu/~jchaidez/materials/reu/lee_smooth_manifolds.pdf)&rbrack;
+
 
 * [[Loring Tu]], _Differential Geometry -- Connections, Curvature, and Characteristic Classes_, Springer 2017 ([ISBN:978-3-319-55082-4](https://www.springer.com/gp/book/9783319550824))
 
