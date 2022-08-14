@@ -290,7 +290,7 @@ Let $G_{ADE} \xhookrightarrow{i} SU(2)$ be a [[finite subgroup of SU(2)]]. Then 
   \right.
 \]
 
-Here $G_{ADE}^{ab}$ denotes the [[abelianization]]  of $G_{ADE}$ and $\vert G_{ADE}\vert$ its [[cardinality]], hence $\mathbb{Z}/{\vert G_{ADE}\vert}$ the [[cyclic group]] whose [[order of a group|order]] is the cardinality of $G_{ADE}$.
+Here $G_{ADE}^{ab}$ denotes the [[abelianization]]  of $G_{ADE}$ and $\vert G_{ADE}\vert$ its [[cardinality]], hence $\mathbb{Z}/{\vert G_{ADE}\vert}$ is the [[cyclic group]] whose [[order of a group|order]] is the cardinality of $G_{ADE}$.
 
 The [[group homology]] with [[integer]] [[coefficients]] is
 
