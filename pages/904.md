@@ -323,6 +323,8 @@ By definition \ref{EMSpace}, the fundamental group of any [[Eilenberg-MacLane sp
 
 * [[fundamental theorem of covering spaces]]
 
+* [homotopy of smooth paths relative to their endpoints](smooth+homotopy#HomotopyOfSmoothPathsRelativeToTheirEndpoints)
+
 * [[winding number]]
 
 * [[algebraic fundamental group]]
