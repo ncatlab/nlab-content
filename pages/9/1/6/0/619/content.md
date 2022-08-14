@@ -30,7 +30,7 @@ $$
   C \hookrightarrow D
 $$
 
-such that [[objects]] $d$ and [[morphisms]] $f \colon d \to d'$ in $D$ have "reflections" $T d$ and $T f \colon T d \to T d'$ in $C$. Every object in $D$ looks at its own reflection via a morphism $d \to Td$ and the reflection of an object $c \in C$ is equipped with an [[isomorphism]] $T c \cong c$. 
+such that [[objects]] $d$ and [[morphisms]] $f \colon d \to d'$ in $D$ have "reflections" $T d$ and $T f \colon T d \to T d'$ in $C$. Every object in $D$ looks at its own reflection via a morphism $d \to T d$ and the reflection of an object $c \in C$ is equipped with an [[isomorphism]] $T c \cong c$. 
 
 A canonical example is the inclusion 
 
@@ -331,7 +331,7 @@ In a [[recollement]] situation, we have several reflectors and coreflectors. We 
 
 Assuming classical logic, the category [[Set]] has exactly three reflective (and [[replete subcategory|replete]]) subcategories: the full subcategory containing all [[singleton set|singleton sets]]; the full subcategory containing all [[subsingletons]]; and $Set$ itself.
 
-In [[constructive mathematics]], there are potentially more reflective subcategories, for instance the subcategory of $j$-sheaves for any [[Lawvere-Tierney topology|Lawvere?Tierney topology]] on $Set$.
+In [[constructive mathematics]], there are potentially more reflective subcategories, for instance the subcategory of $j$-sheaves for any [[Lawvere-Tierney topology]] on $Set$.
 
 =--
 
@@ -388,6 +388,8 @@ is a reflective subcategory [Buckley, theorem 5.2.1](#Buckley). Therefore, becau
 * [[adjoint cylinder]], describing the situation when the reflector has a further left adjoint
 
 * [[sheaf toposes are equivalently the left exact reflective subcategories of presheaf toposes]]
+
+* [[coreflective subcategory]]
 
 
 ## References
