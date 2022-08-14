@@ -346,6 +346,8 @@ $$
 
 * [[sequence algebra]]
 
+* [[Hasse-Schmidt derivation]]
+
 ## References
 
 Derivations on [[infinity-algebra over an (infinity,1)-operad|algebras]] over a [[dg-operad]] are discussed in section 7 of
