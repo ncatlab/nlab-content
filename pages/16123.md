@@ -1,6 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A polynomial all of whose monomial terms have the same degree. See also [[polynomial]].
 
+## Definition
+
 If $R$ is a commutative rig, then the set $R_{n}[X_{1},...,X_{q}]$ of homogeneous polynomials of degree $n$ with variables $X_{1},...,X_{q}$ is given by all the expressions of the form $\underset{\substack{0\le i_{1},...,i_{q} \le n\\ i_{1}+...+i_{q} = n}}{\sum} a_{i_{1},...,i_{q}}X_{1}^{i_{1}}...X_{q}^{i_{q}}$.
+
+## Euler identity
 
 A specific property of homogeneous polynomials is the Euler identity:
 
