@@ -22,14 +22,17 @@
 
 The **Poincar&#233; Lemma** in [[differential geometry]] and [[complex analytic geometry]] asserts that "every [[differential form]] $\omega$ which is closed, $d_{dR}\omega = 0$, is _locally_ exact, $\omega|_U = d_{dR}\kappa$."
 
-In more detail: if $X$ is contractible then for every closed [[differential form]] $\omega \in \Omega^k_{cl}(X)$ with $k \geq 1$ there exists a differential form $\lambda \in \Omega^{k-1}(X)$ such that 
+In more detail: if $X$ is [[contractible topological space|contractible]] then for every closed [[differential form]] $\omega \in \Omega^k_{cl}(X)$ with $k \geq 1$ there exists a differential form $\lambda \in \Omega^{k-1}(X)$ such that 
 
 $$
-  \omega = d_{dR} \lambda
+  \omega 
+  \,=\, 
+  d_{dR} \lambda
   \,.
 $$
 
 Moreover, for $\omega$ a smooth family of closed forms, there is a smooth family of $\lambda$s satisfying this condition.
+
 
 This statement has several more abstract incarnations. One is that it says that on a [[Cartesian space]] (or a complex [[polydisc]]) the [[de Rham cohomology]] (the [[holomorphic de Rham complex|holomorphic de Rham cohomology]]) vanishes in positive degree.
 
@@ -146,7 +149,9 @@ form on $X$ in positive degree an explicit formula for a form
 $\lambda$ with $d \lambda = \omega$ is given by
 
 $$
-  \lambda = - \int_{[0,1]} \iota_{\partial_t}\Psi^*(\omega) d t
+  \lambda 
+  \,=\, 
+  - \int_{[0,1]} \iota_{\partial_t}\Psi^*(\omega) d t
   \,.
 $$
 
@@ -155,8 +160,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-In the general situation discussed above we now have $f_2^* = 0$
-in positive degree.
+In the general situation discussed above we now have $f_2^* = 0$ in positive degree.
 
 =--
 
