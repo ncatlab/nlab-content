@@ -180,7 +180,7 @@ based on original articles such as
 
 See also
 
-* {#Freed87} [[Daniel Freed]], _Geometry of Dirac operators_, 1987 ([pdf](http://www.ma.utexas.edu/users/dafr/DiracNotes.pdf), [[FreedGeometryOfDiracOperators.pdf:file]])
+* {#Freed87} [[Daniel Freed]], *Geometry of Dirac operators*, (1987) &lbrack;[pdf](http://www.ma.utexas.edu/users/dafr/DiracNotes.pdf), [[FreedGeometryOfDiracOperators.pdf:file]]&rbrack;
  
 
 * C. Nash, _Differential topology and quantum field theory_, Acad. Press 1991. 
