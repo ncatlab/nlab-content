@@ -1215,11 +1215,11 @@ Every [[adjunction]] $(L \dashv R)$ induces a [[monad]] $R \circ L$ and a [[como
 More precisely:
 
 \begin{proposition}
-Let $(\mathcal{C},\mathcal{D},F,U,\eta,\epsilon)$ be a pair of adjoint functors ie $F \dashv U$ are adjoint functors where $F \colon \mathcal{C} \rightarrow \mathcal{D}$, $R \colon\mathcal{D} \rightarrow \mathcal{C}$, $\eta_{A}:A \rightarrow U(F(A))$ is the unit and $\epsilon_{B}:F(U(B)) \rightarrow B$ is the counit. Then:
+Let $(\mathcal{C},\mathcal{D},F,U,\eta,\epsilon)$ be a pair of adjoint functors ie $F \dashv U$ are adjoint functors where $F \colon \mathcal{C} \rightarrow \mathcal{D}$, $U \colon\mathcal{D} \rightarrow \mathcal{C}$, $\eta_{A}:A \rightarrow U(F(A))$ is the unit and $\epsilon_{B}:F(U(B)) \rightarrow B$ is the counit. Then:
 
 * $U \circ F$ is a [[monad]] on $\mathcal{C}$, with unit $\eta$ and multiplication $U(\epsilon_{F(A)}):U(F(U(F(A)))) \rightarrow U(F(A))$.
 
-* $F \circ U$ is a [[comonad]] on $\mathcal{D}$, with counit $\espilon$ and comultiplication $F(\eta_{U(B)}):F(U(B)) \rightarrow F(U(F(B))$.
+* $F \circ U$ is a [[comonad]] on $\mathcal{D}$, with counit $\epsilon$ and comultiplication $F(\eta_{U(B)}):F(U(B)) \rightarrow F(U(F(B))$.
 
 \end{proposition}
 \begin{proof}
