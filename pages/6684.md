@@ -41,10 +41,6 @@ Often we are more interested in a [[quotient category]] of the Moore path catego
 
 In graph theory, the Moore path category is known as the __[[free category]]__ on the graph.
 
-## References
-
-{#tomDieck2008} [[Tammo tom Dieck]], _Algebraic Topology_, European Mathematical Society, 2008
-
 
 ## Related entries
 
@@ -59,6 +55,17 @@ In graph theory, the Moore path category is known as the __[[free category]]__ o
 * [[fundamental group]], [[fundamental groupoid]]
 
 * [[fundamental theorem of covering spaces]]
+
+* [homotopy of smooth paths relative to their endpoints](smooth+homotopy#HomotopyOfSmoothPathsRelativeToTheirEndpoints)
+
+
+## References
+
+E.g.
+
+* {#tomDieck2008} [[Tammo tom Dieck]], _Algebraic Topology_, European Mathematical Society, 2008
+
+(...)
 
 
 
