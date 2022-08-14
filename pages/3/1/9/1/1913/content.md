@@ -240,6 +240,7 @@ where $\partial{R}$, which may be interpreted as the __boundary__ of $R$, is als
 
 * [[differential form with logarithmic singularities]]
 
+
 ## References
 
 The concept of differential forms (and their [[exterior algebra]]), at least on [[affine spaces]]/[[Euclidean spaces]] originates in
@@ -248,7 +249,9 @@ The concept of differential forms (and their [[exterior algebra]]), at least on 
 
 Textbook accounts:
 
-* [[Raoul Bott]], [[Loring Tu]], *[[Differential Forms in Algebraic Topology]]*, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0))
+* [[Raoul Bott]], [[Loring Tu]], *[[Differential Forms in Algebraic Topology]]*, Graduate Texts in Mathematics 82, Springer (1982) &lbrack;[doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0)&rbrack;
+
+* [[Manfredo P. Carmo]], *Differential Forms and Applications*, Springer (1994) &lbrack;[doi:10.1007/978-3-642-57951-6](https://doi.org/10.1007/978-3-642-57951-6)&rbrack;
 
 * {#GuilleminHaine19} [[Victor Guillemin]], [[Peter Haine]], _Differential Forms_, World Scientific (2019) ([doi:10.1142/11058](https://doi.org/10.1142/11058))
 
