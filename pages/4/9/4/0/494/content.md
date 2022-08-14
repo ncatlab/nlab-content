@@ -1257,7 +1257,6 @@ U(F(A)) \arrow[r, "\eta_{U(F(A))}"] \arrow[rd, "="'] & U(F(U(F(A)))) \arrow[d, "
                                                      & U(F(A))
 \end{tikzcd}
 
-
 **(3)**
 The naturality of $\epsilon$ is written, for every $f:B \rightarrow B'$:
 
