@@ -44,17 +44,6 @@ So the fundamental groupoid gets rid of the choice of basepoint for the fundamen
 The fundamental groupoid $\Pi_1(X)$ can be made into a [[topological groupoid]] (i.e. a [[internal groupoid|groupoid internal]] to [[Top]]) when $X$ is [[path-connected space|path-connected]], [[locally path-connected space|locally path-connected]] and [[semi-locally simply connected space|semi-locally simply connected]]. This is a special case of ([Brown 06, 10.5.8](#Browno6)). 
 This construction is closely linked with the construction of a [[universal covering space]] for a path-connected pointed space. The object space of this groupoid is just the space $X$.
 
-+-- {: .query}
-[[Mike Shulman]]: Could you say something about what topology you have in mind here?  Is the space of objects just $X$ with its original topology?
-
-[[David Roberts]]: The short answer is that it is propositions 4.17 and 4.18 in my [[davidroberts:HomePage|thesis]], but I will put it here soon. 
-
-
-
-Regarding topology on the fundamental groupoid for a general space; it inherits a topology from the path space $X^I$, but there is also a topology (unless I've missed some subtlety) as given in 4.17 mentioned above, but the extant literature on the topological fundamental group uses the first one.
-
-[[Ronnie Brown]]: See the account in "Topology and Groupoids" referred to below. But there is also an account using path spaces in Proposition 6.2 of Mackenzie's 1987  book  "Lie groupoids and Lie algebroids in differential geometry".  
-=--
 
 When $X$ is not semi-locally simply connected, the set of arrows of the fundamental groupoid inherits the [[quotient space|quotient topology]] from the path space such that the fibres of $(s,t):Mor(\Pi_1(X)) \to X\times X$ are not discrete, which is an obstruction to the above-mentioned source fibre\'s being a covering space. However the composition is no longer continuous. When $X$ is not locally path-connected, $\Pi_0(X)$ also inherits a non-discrete topology (the quotient topology of $X$ by the relation of path connections).
 
@@ -90,6 +79,8 @@ See [[simplicial fundamental groupoid]].
 ## Related concepts
 
 * **fundamental groupoid**, [[fundamental ∞-groupoid]]
+
+* [homotopy of smooth paths relative to their endpoints](smooth+homotopy#HomotopyOfSmoothPathsRelativeToTheirEndpoints)
 
 * [[simplicial fundamental groupoid]]
 
