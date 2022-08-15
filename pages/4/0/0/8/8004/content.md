@@ -56,7 +56,7 @@ Note that it is not really possible to do this proof by using string diagrams.
 
 \end{proof}
 
-The equation $B_{I,x}=Id_{x}$ is taken as an axiom of a permutative category in the references above. This is maybe the consequence of a lack of care about what is an [[identity natural transformation]] in the definition of a [[strict monoidal category]]. The equations $f \otimes Id_{1} = f = Id_{1} \otimes f$ are of critical importance in the proposition above and they are obtained by requiring that the structural natural isomorphims $\lambda_{x}:1 \otimes x \rightarrow x$ and $\rho_{x}:x \otimes 1 \rightarrow x$ are [[identity natural transformations]]. However, even knowing this, the proposition is not completely trivial and appears in a version for non-strict braided monoidal categories in the paper "Braided monoidal categories" (Joyal, Street, 1986). 
+The equation $B_{x,1}=Id_{x}$ is taken as an axiom of a permutative category in the references above. This is maybe the consequence of a lack of care about what is an [[identity natural transformation]] in the definition of a [[strict monoidal category]]. The equations $f \otimes Id_{1} = f = Id_{1} \otimes f$ are of critical importance in the proposition above and they are obtained by requiring that the structural natural isomorphims $\lambda_{x}:1 \otimes x \rightarrow x$ and $\rho_{x}:x \otimes 1 \rightarrow x$ are [[identity natural transformations]]. However, even knowing this, the proposition is not completely trivial and appears in a version for non-strict braided monoidal categories in the paper "Braided monoidal categories" (Joyal, Street, 1986). 
 
 ## Related concepts
 
