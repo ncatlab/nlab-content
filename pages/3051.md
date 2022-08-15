@@ -1,5 +1,7 @@
 [[!redirects Jean Benabou]]
-Jean B&#233;nabou is a French mathematician working in [[category theory]]. He studied under the supervision of [[Charles Ehresmann]] and received his Thèse d'État  from the Université de Paris in 1966 on the topic of what we now call [[monoidal categories]].
+Jean B&#233;nabou (1932-2022) was a French mathematician working in [[category theory]]. He studied under the supervision of [[Charles Ehresmann]] and received his Thèse d'État  from the Université de Paris in 1966 on the topic of what we now call [[monoidal categories]].
+
+* [JEAN BÉNABOU (1932–2022): The man and the mathematician](http://cahierstgdc.com/wp-content/uploads/2022/07/F.-BORCEUX-LXIII-3.pdf), a biographical and mathematical sketch of Bénabou written by [[Francis Borceux]], published in _Cahiers de Topologie et Géométrie Différentielle Catégoriques_, volume LXIII-3, 2022
 
 ## Selected writings
  {#SelectedWritings}
@@ -44,6 +46,10 @@ See also:
 * [[Grothendieck fibration]]
 
 * [[Bénabou cosmos]]
+
+* [[foliated category]]
+
+* [[displayed category]]
 
 category: people
 
