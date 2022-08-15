@@ -90,7 +90,7 @@ The [[Lie differentiation]] of $\tau_0 \mathbf{Pic}(X)$ is, if it exists as a [[
 
 * {#Lurie04} [[Jacob Lurie]], section 8.2 of _Derived algebraic geometry_, PhD thesis, 2004 ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG.pdf), [web](http://dspace.mit.edu/handle/1721.1/30144))
 
-* {#Deligne74} _Lettre de Grothendieck à Deligne_, 1974 ([pdf](http://www.iaz.uni-stuttgart.de/LstAlg/Kuenzer/Kuenzer/grothendieck_to_deligne_on_sinh.pdf)) (Edited by M. Künzer)
+* {#Deligne74} _Lettre de Grothendieck à Deligne_, 1974 ([pdf](https://pnp.mathematik.uni-stuttgart.de/lexmath/kuenzer/grothendieck_to_deligne_on_sinh.pdf)) (Edited by M. Künzer)
 
 
 [[!redirects Picard stack]]
