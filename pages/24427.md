@@ -15,11 +15,11 @@
 
 ## Idea
 
-A graded bimonoid is like a [[bimonoid]] but graded, as a [[graded monoid]], with [[underlying]] [[graded object]] $(A_{n})_{n \ge 0}$. The multiplication, comultiplication, unit and counit are defined as morphisms which respect the grading.
+A graded bimonoid is like a [[bimonoid]] but graded, as a [[graded monoid]], with [[underlying]] [[graded object]] $(A_{n})_{n \ge 0}$. We suppose in this entry, that the graduations are taken with indexes in $\mathbb{N}$. The multiplication, comultiplication, unit and counit are defined as morphisms which respect the grading.
 
 Whereas we're not sure if the notion of graded bimonoid under this form is new or not, the notion of special graded bimonoid below is certainly.
 
-Under the conjecture of the page [[symmetric powers in a symmetric monoidal (Q plus)-linear category]], bicommutative special graded bimonoids are necessarily given by the [[symmetric powers]] of an [[object]] $A$.
+Under the conjecture of the page [[symmetric powers in a symmetric monoidal (Q plus)-linear category]], bicommutative special graded bimonoids with trivial units are necessarily given by the [[symmetric powers]] of the [[object]] $A_{1}$.
 
 ## Definition
 
@@ -67,11 +67,20 @@ A_{n} \otimes A_{p} \arrow[r, "\nabla"']                     & A_{n+p}
 
 * We say that a graded bimonoid is bicommutative if the underlying graded monoid is commutative and the underlying graded comonoid is cocommutative.
 
+* We say that a graded bimonoid has trivial units if:
+  - $\eta$ is an isomorphism (equivalently, $\epsilon$ is an isomorphism)
+  - $\nabla_{n,p}$ is an isomorphism if either $n = 0$ or $p = 0$ (we have these equivalences with further properties assumed: $\nabla_{n,0}$ is an isomorphism iff $\nabla_{0,n}$ is an isomorphism in case of commutativity, $\Delta_{n,0}$ is an isomorphism iff $\Delta_{0,n}$ is an isomorphism in case of cocommutativity, $\nabla_{n,0}$ is an isomorphism iff $\Delta_{n,0}$ is an isomorphism in case of specialty and $\nabla_{0,n}$ is an isomorphism iff $\Delta_{0,n}$ is an isomorphism in case of specialty).
+
 Under the conjecture of the page [[symmetric powers in a symmetric monoidal (Q plus)-linear category]], we have:
 
 \begin{conjecture}
-Suppose that $\mathcal{C}$ is a symmetric monoidal $\mathbb{Q}^{+}$-linear category. If $(A_{n})_{n \ge 0}$ is the underlying graded object of a bicommutative graded bimonoid, then it exists an object $A \in \mathcal{C}$ such that each $A_{n}$ is a $n^{th}$ symmetric power of $A$.
+Suppose that $\mathcal{C}$ is a symmetric monoidal $\mathbb{Q}^{+}$-linear category. If $(A_{n})_{n \ge 0}$ is the underlying graded object of a special bicommutative graded bimonoid with trivial units, then each $A_{n}$ is a $n^{th}$ symmetric power of $A_{1}$.
 \end{conjecture}
+
+Note that for a special bicommutative graded bimonoids, the condition of trivial units is equivalent to:
+  
+  - $\eta$ is an isomorphism
+  - $\nabla_{n,0}$ is an isomorphism for every $n \ge 0$
 
 ## Related concepts
 
