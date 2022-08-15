@@ -58,7 +58,9 @@ Algebras of this sort are called **free algebras**.
 
 Given any morphism $f:X\to Y$ of $C$, the map $T f:T X\to T Y$ is a morphism of algebras, by naturality of $\mu$. In general, not every morphism of algebras between $T X$ and $T Y$ arises this way.
 
-The subcategory of free algebras and their morphisms is (equivalent to) the **[[Kleisli category]]**.
+However, for any morphism $g \colon X \to T Y$, the map $\mu_{Y} \circ T g \colon T X \to T Y$ is also a morphism of algebras, again by naturality of $\mu$. Now, all morphisms of algebras between $T X$ and $T Y$ (as free algebras) *do* arise this way.
+
+In other words, the full subcategory of free algebras of $T$ and their morphisms is (equivalent to) the **[[Kleisli category]]** of $T$. 
 
 
 ## Examples
