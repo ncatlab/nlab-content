@@ -66,7 +66,7 @@ Some terminology: $X\in C$ is called _finite_ if $F(X)$ is a finite [[set]]. Let
 
 * **G2)** $C$ has an [[initial object]], finite [[coproduct]]s and [[quotient object|quotients]] by finite [[group]]s
 
-* **G3)** Given $f:x\to z$ in $C$ there is a factorisation $x \stackrel{e}{\to} y \stackrel{i}{\to} z$ where $e$ is a strict epimorphism and $i$ is a mono. Also, $y$ is assumed to be a [[direct sum]]mand of $z$.
+* **G3)** Given $f:x\to z$ in $C$ there is a factorisation $x \stackrel{e}{\to} y \stackrel{i}{\to} z$ where $e$ is a strict epimorphism and $i$ is a mono. Also, $y$ is assumed to be a [[coproduct|direct sum]]mand of $z$.
 
 * **G4)** $F$ preserves finite limits
 
