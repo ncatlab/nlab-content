@@ -33,7 +33,7 @@ In the classical examples of $C$, the direct sum and weak direct product are the
 
 ## Definitions
 
-Let $\mathcal{C}$ be a [[category]] with [[products]] and [[coproducts]], as well as [[zero morphisms]].  Let $I$ be a [[set]], and let $(A_i)_{i \in I}$ be an $I$-indexed [[family]] of of [[objects]] in $\mathcal{C}$, hence a [[function]] $A : I \to Obj(\mathcal{C})$.
+Let $\mathcal{C}$ be a [[category]] with [[products]] and [[coproducts]], as well as [[zero morphisms]].  Let $I$ be a [[set]], and let $(A_i)_{i \in I}$ be an $I$-indexed [[family]] of [[objects]] in $\mathcal{C}$, hence a [[function]] $A : I \to Obj(\mathcal{C})$.
 
 We now define both the direct sum and weak direct product of this family.  The $A_i$ will be called the __direct summands__ or (weak) __direct factors__.
 
@@ -67,7 +67,7 @@ where $0_{ij}$ is the [[zero morphism]] from $A_i$ to $A_j$.
 The __direct sum__ over the family $\{A_i\}$ is the [[image]] 
 
 $$
-  \coprod_i A_i \overset{\coim r}\to \bigoplus_i A_I \overset{\im r}\to \prod_i A_i
+  \coprod_i A_i \overset{\coim r}\to \bigoplus_i A_i \overset{\im r}\to \prod_i A_i
 $$
 
 of the morphism $r$.
