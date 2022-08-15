@@ -3,9 +3,11 @@
 
 Xiao-Gang Wen is the BMO Financial Group Isaac Newton Chair in Theoretical Physics at Perimeter Institute. His expertise is in [[condensed matter]] theory of [[strongly correlated system|strongly correlated]] electronic systems and [[topological phases of matter]]. He introduced and studied the concept of *[[topological order]]* and its *[[symmetry protected topological phase|symmetry proteced]]* versions.
 
-* [Perimeter Institute page](http://www.perimeterinstitute.ca/people/xiao-gang-wen) 
 
-* [personal page](http://dao.mit.edu/~wen) at MIT
+* [Institute page](https://physics.mit.edu/faculty/xiao-gang-wen/) at MIT
+
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Xiao-Gang_Wen)
 
 Interview on [[topological order]]:
 
