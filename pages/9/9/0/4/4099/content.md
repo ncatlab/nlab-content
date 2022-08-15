@@ -44,7 +44,7 @@ However, the two definitions do coincide for [[fibration in a 2-category|fibrati
 
 ### Discrete categories
 
-A discrete object in the [[2-category]] [[Cat]] is, of course, a [[discrete category]].
+A discrete object in the [[2-category]] [[Cat]] is, of course, a [[discrete category]]. A functor is a discrete morphism if and only if the functor itself is [[faithful functor|faithful]] and [[conservative functor|conservative]].
 
 ### Discrete groupoids
 
