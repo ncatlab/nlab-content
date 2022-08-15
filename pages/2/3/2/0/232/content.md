@@ -207,6 +207,10 @@ Moreover, this operation is itself functorial from $MonCat$ to $2Cat$.  In parti
 
 This and further properties of such "[[change of enriching category|change of base]]" are explored in [Crutwell 14](#Crutwell14)
 
+##Tensor product of enriched categories
+
+If $V$ is a [[symmetric monoidal category]], then there is a tensor product of **V-enriched categories** which makes the category **V-Cat** of V-enriched categories a symmetric monoidal category. In fact V-Cat is even a [[symmetric monoidal 2-category]]. See [Kelly 82](#Kelly82).
+
 ##Internalization versus Enrichment
 
 The idea of enriched categories is not unrelated to that of [[internal category|internal categories]], but is different.  One difference is that in a $K$-enriched category, the objects still form a _set_ (or a proper class) while the arrows are replaced by objects of $K$, while in a category internal to $K$, both the set of objects _and_ the set of arrows are replaced by objects of $K$.
@@ -302,7 +306,7 @@ Enrichment in a [[multicategory]] was first suggested in:
 
 Textbook accounts:
 
-* [[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press 1982, 245 pp. ([ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029)); 
+* {#Kelly82}[[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press 1982, 245 pp. ([ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029)); 
 
   republished as:
 
