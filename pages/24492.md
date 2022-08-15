@@ -1,7 +1,7 @@
 
 * member of [[CQTS]]
 
-* [old home page at UT Austin](https://web.ma.utexas.edu/users/adrian.clough/)
+* [webpage](https://adrianclough.github.io/)
 
 
 ## Selected writings
