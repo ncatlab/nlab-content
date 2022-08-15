@@ -1,6 +1,6 @@
 
 
-* [webpage](https://www.adelaide.edu.au/directory/guochuan.thiang)
+* [personal page](https://bicmr.pku.edu.cn/~guochuanthiang/)
 
 ## Selected writings
 
@@ -16,5 +16,10 @@ Aspects of the classification of [[semi-metals]] seen in [[ordinary cohomology]]
 
 * [[Varghese Mathai]], [[Guo Chuan Thiang]], *Differential Topology of Semimetals*,
 Commun. Math. Phys. **355** (2017) 561–602, ([arXiv:1611.08961](https://arxiv.org/abs/1611.08961), [doi:10.1007/s00220-017-2965-z](https://doi.org/10.1007/s00220-017-2965-z))
+
+On [[T-duality]] in the [[K-theory classification of topological phases of matter]]:
+
+* [[Kiyonori Gomi]], [[Guo Chuan Thiang]], *Crystallographic T-duality*. J.Geom.Phys **139** (2019) 50-77 &lbrack;[arXiv:1806.11385](https://arxiv.org/abs/1806.11385), [doi:10.1016/j.geomphys.2019.01.002](https://doi.org/10.1016/j.geomphys.2019.01.002)&rbrack;
+
 
 category: people
