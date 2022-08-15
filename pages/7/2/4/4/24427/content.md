@@ -17,7 +17,7 @@
 
 A graded bimonoid is like a [[bimonoid]] but graded, as a [[graded monoid]], with [[underlying]] [[graded object]] $(A_{n})_{n \ge 0}$. The multiplication, comultiplication, unit and counit are defined as morphisms which respect the grading.
 
-Whereas we're not sure if the notion of graded bimonoid under this form is new or not, the notion of special graded bimonoid above is certainly.
+Whereas we're not sure if the notion of graded bimonoid under this form is new or not, the notion of special graded bimonoid below is certainly.
 
 Under the conjecture of the page [[symmetric powers in a symmetric monoidal (Q plus)-linear category]], bicommutative special graded bimonoids are necessarily given by the [[symmetric powers]] of an [[object]] $A$.
 
