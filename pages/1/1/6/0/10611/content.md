@@ -48,14 +48,15 @@ and the modalities contain the three [[unity of opposites|pairs of opposites]]
 
 In [[formal logic]] and [[type theory]] modalities are formalized by _[[modal operators]]_ or _[[closure operators]]_ $\sharp$, that send [[propositions]]/[[types]] $X$ to new propositions/types $\sharp X$, satisfying some properties. 
 
-Adding such modalities to [[propositional logic]] or similar produces what is called [[modal logic]]. Here operators that are meant to formalize [[necessity]] and [[possibility]] ([[S4 modal logic]]) are maybe most famous. Adding modalities more generally to [[type theory]] and [[homotopy type theory]] yields _[[modal type theory]]_ and _[[modal homotopy type theory]]_. See there for more details.
+Adding such modalities to [[propositional logic]] or similar produces what is called [[modal logic]]. Here the most famous modal operators are those meant to formalize [[necessity]] (denoted $\Box$) and [[possibility]] (denoted $\lozenge$), which together form [[S4 modal logic]].  Similarly, adding modalities more generally to [[type theory]] and [[homotopy type theory]] yields _[[modal type theory]]_ and _[[modal homotopy type theory]]_; See there for more details.
 
-The [[categorical semantics]] of these modalities is that $\sharp$ is interpreted as an [[idempotent monad]]/[[comonad]] on the [[category of contexts]]. 
+In general, the [[categorical semantics]] of these modalities is that $\sharp$ is interpreted as some kind of [[functor]] on the [[category of contexts]] or types.  Often it is either a [[monad]] or [[comonad]], and often this monad or comonad is [[idempotent monad|idempotent]], but not always.  Similarly, in [[homotopy type theory]], the [[categorical semantics]] of a _higher modality_ or _homotopy modality_ is an [[(infinity,1)-functor]] or [[(infinity,1)-monad|monad]], perhaps idempotent.
 
-This has  a refinement to [[homotopy type theory]], where the [[categorical semantics]] of a _higher modality_ or _homotopy modality_ as an idempotent [[(infinity,1)-monad]] ([Shulman 12](#Shulman), [Rijke, Shulman, Spitters](#RSS) ).
+#### Idempotent monadic modalities in homotopy type theory
 
+Since idempotent monadic modalities are very common and important in homotopy type theory, and other sorts are more difficult to formalize internally, sometimes those adjectives are dropped and we speak merely of "modalities" (e.g. [Shulman 12](#Shulman), [Rijke, Shulman, Spitters](#RSS) ).  Here we describe the idempotent monadic case, although it should be noted that comonadic and non-idempotent modalities also arise and are important; they are generally formalized using some kind of [[modal type theory]].
 
-More in detail, there are a number of different but equivalent ways to define a modality in [[homotopy type theory]] (see at [[modal homotopy type theory]]). From [Rijke, Shulman, Spitters 17](#RSS):
+In fact, there are a number of different but equivalent ways to define an (idempotent, monadic) modality in [[homotopy type theory]] (see at [[modal homotopy type theory]]). From [Rijke, Shulman, Spitters 17](#RSS):
 
 * Higher modality: A modality consists of a modal operator $L : {Type} \to {Type}$ and for every type $X$ a modal unit $(-)^L : X \to LX$ together with 
 
@@ -95,9 +96,9 @@ Conversely, given a stable factorization system, the modal operator and unit are
 
 Typical notation (e.g. [SEP](#SEP), [Reyes 91](#Reyes91), but not [Hermida 10](#Hermida10)) is as follows: 
 
-* a co-modality represented by an [[idempotent comonad]]  is typically denoted by $\Box$, following the traditional example of _[[necessity]]_ in [[modal logic]];
+* a co-modality represented by a [[comonad]] (perhaps idempotent) is typically denoted by $\Box$, following the traditional example of _[[necessity]]_ in [[modal logic]];
 
-* a modality represented by an [[idempotent monad]] is typically denoted by $\lozenge$ or (less often) by $\bigcirc$, following the traditional example of _[[possibility]]_ in [[modal logic]].
+* a modality represented by a [[monad]] (perhaps idempotent) is typically denoted by $\lozenge$ or (less often) by $\bigcirc$, following the traditional example of _[[possibility]]_ in [[modal logic]].
 
 When [[adjunctions]] between modalities matter ([[adjoint modalities]]), then some authors ([Reyes 91, p. 367](#Reyes91) [RRZ 04, p. 116](#ReyesEtAl), [Hermida 10, p.11](#Hermida10)) use $\lozenge$ for a [[left adjoint]] of a $\Box$. That leaves $\bigcirc$ as the natural choice of notation for a [[right adjoint]] (if any) of a $\Box$-modality.
 
@@ -177,7 +178,7 @@ Origin in [[philosophy]]:
 
 ### In formal logic
 
-Discussion in [[formal logic]], [[type theory]] and [[homotopy type theory]] (fot more see at _[[modal logic]]_, _[[modal type theory]]_ and _[[modal homotopy type theory]]_):
+Discussion in [[formal logic]], [[type theory]] and [[homotopy type theory]] (for more see at _[[modal logic]]_, _[[modal type theory]]_ and _[[modal homotopy type theory]]_):
 
 * {#Shulman} [[Mike Shulman]], _Higher modalities_, talk at [[UF-IAS-2012]], October 2012  ([pdf](http://uf-ias-2012.wikispaces.com/file/view/modalitt.pdf))
  
