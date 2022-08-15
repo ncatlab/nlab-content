@@ -17,6 +17,6 @@ On [[synthetic (infinity,1)-category theory|synthetic $(\infty,1)$-category theo
 
 On [[cubical-type model category|model structures on cubical sets]] and [[univalence axiom|univalent universes]]:
 
-* [[Thomas Streicher]], [[Jonathan Weinberger]]: *Simplicial sets inside cubical sets* $[$[arXiv:1911.09594](https://arxiv.org/abs/1911.0959)$]$, [Theory and Applications of Categories, Vol. 37, 2021, No. 10, pp 276–286](http://www.tac.mta.ca/tac/volumes/37/10/37-10abs.html)]
+* [[Thomas Streicher]], [[Jonathan Weinberger]]: *Simplicial sets inside cubical sets* $[$[arXiv:1911.09594](https://arxiv.org/abs/1911.0959)$]$, [Theory and Applications of Categories, Vol. 37, 2021, No. 10, pp 276–286](http://www.tac.mta.ca/tac/volumes/37/10/37-10abs.html)
 
 category: people
