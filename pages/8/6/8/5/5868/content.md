@@ -1,5 +1,7 @@
 
-* [webpage](http://www.math.kyoto-u.ac.jp/~kgomi/)
+* [personal page](http://www.math.titech.ac.jp/~kgomi/)
+
+* [Institute page](http://t2r2.star.titech.ac.jp/cgi-bin/researcherinfo.cgi?lv=en&q_researcher_content_number=CTT100804216)
 
 ## Selected writings
 
@@ -28,9 +30,12 @@ On [[discrete torsion]]:
 
 * [[Kiyonori Gomi]], [[Yuji Terashima]], _Discrete Torsion Phases as Topological Actions_, Commun. Math. Phys. (2009) 287: 889 ([doi:10.1007/s00220-009-0736-1](https://doi.org/10.1007/s00220-009-0736-1))
 
-
 On combined [[twisted K-theory|twisted]] [[equivariant K-theory|equivariant]] [[KR-theory]] of [[orbifold|orbi-]] [[orientifolds]]:
 
 * {#Gomi17} [[Kiyonori Gomi]], _Freed-Moore K-theory_ ([arXiv:1705.09134](https://arxiv.org/abs/1705.09134), [spire:1601772](http://inspirehep.net/record/1601772))
+
+On [[T-duality]] in the [[K-theory classification of topological phases of matter]]:
+
+* [[Kiyonori Gomi]], [[Guo Chuan Thiang]], *Crystallographic T-duality*. J.Geom.Phys **139** (2019) 50-77 &lbrack;[arXiv:1806.11385](https://arxiv.org/abs/1806.11385), [doi:10.1016/j.geomphys.2019.01.002](https://doi.org/10.1016/j.geomphys.2019.01.002)&rbrack;
 
 category: people
