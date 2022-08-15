@@ -53,7 +53,7 @@ lattice containing the cylinder endpoints (the faces of cubes). To get
 ## Equivalence with simplicial sets
 
 One may wonder whether these models structures are equivalent to the model in [[simplicial sets]]. This is not the case for Cartesian cubes; see [mailing-list](https://groups.google.com/d/msg/homotopytypetheory/RQkLWZ_83kQ/tAyb3zYTBQAJ). However, this model does form a Grothendieck [[(infinity,1)-topos]], because it satisfies the Giraud axioms. For deMorgan cubical sets the geometric realization is not a Quillen equivalence (because of the reversal map); the counterexample is the unit interval quotient by the symmetry); see [Sattler](#sattlerHIM). Whether they are equivalent by another map is not yet excluded.
-The question whether the geometric realization for the cubical sets based on distributive lattices is an equivalence is still open.
+The question whether the geometric realization for the cubical sets based on distributive lattices is an equivalence is still open, cf. also [Hackney and Rovelli](#hrInduced) and [Streicher and Weinberger](#swCuSi).
 
 ## References
 
@@ -62,6 +62,10 @@ The question whether the geometric realization for the cubical sets based on dis
 * {#cis3} [[Thierry Coquand]], *Some examples of complete Cisinski model structures*, [pdf](http://www.cse.chalmers.se/~coquand/cis3.pdf)
 
 * {#sattlerHIM} [[Christian Sattler]], *Do cubical models of type theory also model homotopy types*, lecture at Hausdorff Trimester Program: Types, Sets and Constructions, [youtube](https://www.youtube.com/watch?v=wkPDyIGmEoA)
+
+* {#hrInduced} [[Philip Hackney]] and [[Martina Rovelli]], *Induced model structures for ∞-categories and ∞-groupoids*, $[$[arXiv:2102.01104](https://arxiv.org/abs/2102.01104)$]$, [Proc. Amer. Math. Soc., June 10, 2022](https://www.ams.org/journals/proc/0000-000-00/S0002-9939-2022-15982-6/home.html)
+
+* {#swCuSi} [[Thomas Streicher]] and [[Jonathan Weinberger]], *Simplicial sets inside cubical sets* $[$[arXiv:1911.09594](https://arxiv.org/abs/1911.0959)$]$, [Theory and Applications of Categories, Vol. 37, 2021, No. 10, pp 276–286](http://www.tac.mta.ca/tac/volumes/37/10/37-10abs.html)
 
 [[!redirects type-theoretic model structures]]
 [[!redirects type theoretic model structures]]
