@@ -70,3 +70,5 @@ Advances in Applied Probability, Vol. 6, No. 1 (Mar., 1974), pp. 131-146 ([jstor
 [[!redirects Hartley entropies]]
 
 
+[[!redirects maximum entropy]]
+
