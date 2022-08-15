@@ -15,5 +15,11 @@ On the evidence for [[dark energy]] in [[cosmology]]:
 
 * {#MRS21} [[Roya Mohayaee]], [[Mohamed Rameez]], [[Subir Sarkar]], *Do supernovae indicate an accelerating universe?* ([arXiv:2106.03119](https://arxiv.org/abs/2106.03119))
 
+On evidence for [[inhomogeneous cosmology]] (large anisotropies) in observed radio galaxies and quasars:
+
+* {#SHRMS22} Nathan Secrest, Sebastian von Hausegger, [[Mohamed Rameez]], [[Roya Mohayaee]], [[Subir Sarkar]], *A Challenge to the Standard Cosmological Model*,  ApJ Letters (2022) &lbrack;[arXiv2206.05624](https://arxiv.org/abs/2206.05624)&rbrack;
+
+
+
 
 category: people
