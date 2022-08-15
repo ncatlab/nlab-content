@@ -33,21 +33,37 @@ We will want a couple of preliminary definitions.  Fix a [[probability space]] $
 #### Surprisal
 
 If $A$ is a [[measurable subset]] of $X$, then the __surprisal__ or __self-[[information]]__ of $A$ (with respect to $\mu$) is
-$$ \sigma_\mu(A) \coloneqq -\log \mu(A) .$$
+
+\[ 
+  \sigma_\mu(A) \coloneqq -\log \mu(A)
+  \,.
+\]
+
 Notice that, despite the minus sign in this formula, $\sigma$ is a nonnegative function (since $\log p \leq 0$ for $p \leq 1$); more precisely, $\sigma$ takes values in $[0,\infty]$.  The term 'surprisal' is intended to suggest how surprised one ought to be upon learning that the event modelled by $A$ is true: from no surprise for an event with probability $1$ to infinite surprise for an event with probability $0$.
 
 The __expected surprisal__ of $A$ is then
-$$ h_\mu(A) \coloneqq \mu(A) \sigma_\mu(A) = -\mu(A) \log \mu(A) = -\log(\mu(A)^{\mu(A)}) $$
+
+\[ 
+  \label{EqA}
+  h_\mu(A) \coloneqq \mu(A) \sigma_\mu(A) = -\mu(A) \log \mu(A) = -\log(\mu(A)^{\mu(A)}) 
+\]
+
 (with $h_\mu(A) = 0$ when $\mu(A) = 0$).  Like $\sigma$, $h$ is a nonnegative function; it is also important that $h_\mu$ is [[convex function|concave]].  Both $h_\mu(\nothing)$ and $h_\mu(X)$ are $0$, but for different reasons; $h_\mu(A) = 0$ when $\mu(A) = 1$ because, upon observing an event with probability $1$, one gains no information; while $h_\mu(A) = 0$ when $\mu(A) = 0$ because one expects never to observe an event with probability $0$.  The maximum possible value of $h$ is $\mathrm{e}^{-1} \log \,\mathrm{e}$ (so $\mathrm{e}^{-1}$ if we use [[natural logarithms]]), which occurs when $\mu(A) = \mathrm{e}^{-1}$.
 
 We have not specified the base of the [[logarithm]], which amounts to a constant factor (proportional to the logarithm of the base), which we think of as specifying the [[unit of measurement]] of entropy.  Common choices for the base are $2$ (whose unit is the [[bit]], originally a unit of memory in computer science), $256$ (for the byte, which is $8$ bits), $3$ (for the trit), $\mathrm{e}$ (for the nat or neper), $10$ (for the bel, originally a unit of relative power intensity in telegraphy, or ban, dit, or hartley), and $\root{10}{10}$ (for the decibel, $1/10$ of a bel).  In applications to [[statistical physics]], common bases are exactly (since 2019) 
-$$
+
+\[
+  \label{EqB}
 \mathrm{e}^{10^{29}/1\,380\,649} \approx 10^{3.145\,582\,127\,704\,085\,743 \times 10^{22}} \qquad \text{(for the joule per kelvin)},
-$$ 
+\] 
+
 or
-$$
+
+\[
+  \label{EqC}
 \mathrm{e}^{104\,600\,000\,000\,000/207\,861\,565\,453\,831} \approx 1.654\,037\,938\,063\,167\,336 \qquad \text{(for the calorie per mole-kelvin)},
-$$
+\]
+
 and so on; although $\mathrm{e}$ is common in theoretical work (and then the unit of measurement is said to be [[Boltzmann's constant]] rather than the nat or neper).
 
 
@@ -65,7 +81,10 @@ For definiteness, call such a collection of subsets a __$\mu$-almost partition__
 This is a general mathematical definition of entropy.
 
 Given a probability [[measure space]] $(X,\mu)$ and a $\sigma$-[[sigma-algebra|algebra]] $\mathcal{M}$ of [[measurable sets]] in $X$, the __entropy__ of $\mathcal{M}$ with respect to $\mu$ is
-\[ \label{general} H_\mu(\mathcal{M}) \coloneqq \sup \{ \sum_{A \in \mathcal{F}} h_\mu(A) \;|\; \mathcal{F} \subseteq \mathcal{M},\; {|\mathcal{F}|} \lt \aleph_0,\; X = \biguplus \mathcal{F} \} .\]
+\[ 
+  \label{general} H_\mu(\mathcal{M}) \coloneqq \sup \{ \sum_{A \in \mathcal{F}} h_\mu(A) \;|\; \mathcal{F} \subseteq \mathcal{M},\; {|\mathcal{F}|} \lt \aleph_0,\; X = \biguplus \mathcal{F} \} 
+  \,.
+\]
 
 In words, the entropy is the [[supremum]], over all ways of expressing $X$ as an internal [[disjoint union]] of [[finite set|finitely many]] elements of the $\sigma$-algebra $\mathcal{M}$, of the sum, over these measurable sets, of the expected surprisals of these sets.  This supremum can also be expressed as a [[convergence|limit]] as we take $\mathcal{F}$ to be finer and finer, since $h_\mu$ is concave and the partitions are [[directed set|directed]].
 
@@ -93,10 +112,21 @@ In most of the following special cases, we will consider only partitions, althou
 Recall that a __discrete probability space__ is a [[set]] $X$ equipped with a function $\mu\colon X \to ]0,1]$ such that $\sum_{i \in X} \mu(i) = 1$; since $\mu(i) \gt 0$ is possible for only countably many $i$, $X$ must be [[countable set|countable]].  We make $X$ into a measure space (with every subset measurable) by defining $\mu(A) \coloneqq \sum_{i \in A} \mu(i)$.  Since every inhabited set has positive measure, every almost-partition of $X$ is a partition; since every set is measurable, any partition is measurable.
 
 Given a discrete probability space $(X,\mu)$ and a partition $\mathcal{P}$ of $X$, the __entropy__ of $\mathcal{P}$ with respect to $\mu$ is defined to be the entropy of $\mathcal{P}$ with respect to the probability measure induced by $\mu$.  Simplifying (eq:partition), we find
-$$ H_\mu(\mathcal{P}) = -\sum_{A \in \mathcal{P}} \log((\sum_{i \in A} \mu(i))^{\sum_{i \in A} \mu(i)}) .$$
+
+\[ 
+  \label{EqD}
+  H_\mu(\mathcal{P}) = -\sum_{A \in \mathcal{P}} \log((\sum_{i \in A} \mu(i))^{\sum_{i \in A} \mu(i)})
+  \,.
+\]
 
 More specially, the __entropy__ of the discrete probability space $(X,\mu)$ is the entropy of the partition of $X$ into [[singletons]]; we find
-$$ H_\mu(X) = \sum_{i \in X} h_\mu(i) = -\sum_{i \in X} \log(\mu(i)^{\mu(i)}) .$$
+
+\[
+  \label{EqE}
+  H_\mu(X) = \sum_{i \in X} h_\mu(i) = -\sum_{i \in X} \log(\mu(i)^{\mu(i)})
+  \,.
+\]
+
 This is actually a special case of the entropy of a probability space, since the $\sigma$-algebra generated by the singletons is the power set of $X$.
 
 Yet more specially, the __entropy__ of a [[finite set]] $X$ is the entropy of $X$ equipped with the uniform discrete probability measure; we find
@@ -113,11 +143,27 @@ Recall that a [[Borel measure]] $\mu$ on an [[interval]] $X$ in the [[real line]
 where the integral is taken with respect to Lebesgue measure.
 
 If $\mathcal{P}$ is a partition (or a Lebesgue-almost-partition) of an interval $X$ into [[Borel sets]], then the __entropy__ of $\mathcal{P}$ with respect to an integrable function $f$ is the entropy of $\mathcal{P}$ with respect to the measure induced by $f$ using the integral formula (eq:pdf); we find
-$$ H_f(\mathcal{P}) = -\sum_{A \in \mathcal{P}} \log((\int_A f(x) \mathrm{d}x)^{\int_A f(x) \mathrm{d}x}) .$$
+
+\[ 
+  \label{EqF}
+  H_f(\mathcal{P}) 
+  = 
+   -\sum_{A \in \mathcal{P}} 
+  \log\big(
+     (\int_A f(x) \mathrm{d}x)^{\int_A f(x) \mathrm{d}x}
+  \big)
+\,.
+\]
 
 On the other hand, the __entropy__ of the probability distribution space $(X,f)$ is the entropy of the entire $\sigma$-algebra of all Borel sets (which is *not* generated by a partition) with respect to $f$; we find
-$$ H_f(X) = -\int_{x \in X} \log(f(x)^{f(x)}) \mathrm{d}x $$
+
+\[ 
+  \label{EqG}
+  H_f(X) = -\int_{x \in X} \log(f(x)^{f(x)}) \mathrm{d}x 
+\]
+
 by a fairly complicated argument.
+
 +-- {: .query}
 I haven\'t actually managed to check this argument yet, although my memory tags it as a true fact.  &#8212;Toby
 =--
@@ -128,7 +174,13 @@ I haven\'t actually managed to check this argument yet, although my memory tags 
 In the analogy between [[classical physics]] and [[quantum physics]], we move from probability distributions on a [[phase space]] to [[density operators]] on a [[Hilbert space]].
 
 So just as the entropy of a probability distribution $f$ is given by $- \int f \log f$, so the __entropy__ of a density operator $\rho$ is
-$$ H_\rho \coloneqq -Tr (\rho \log \rho) ,$$
+
+\[ 
+  \label{EqH}
+  H_\rho \coloneqq -Tr (\rho \log \rho)
+  \,.
+\]
+
 using the [[functional calculus]].
 
 These are both special cases of the entropy of a [[state]] on a $C^*$-[[C-star-algebra|algebra]].
@@ -141,17 +193,19 @@ There is a way to fit this into the framework given by (eq:general), but I don\'
 
 For two finite probability distributions $p$ and $q$, their **relative entropy** is 
 
-$$
+\[
+  \label{EqJ}
   S(p/q) \coloneqq \sum_{k = 1}^n p_k(log p_k - log q_k)
   \,.
-$$
+\]
 
 Or alternatively, for $\rho, \phi$ two [[density matrix|density matrices]], their relative entropy is 
 
-$$
+\[
+  \label{EqK}
   S(\rho/\phi) \coloneqq tr \rho(log \rho - log \phi)
   \,.
-$$
+\]
 
 There is a generalization of these definitions to [[state]]s on general [[von Neumann algebra]]s, due to ([Araki](#Araki)).
 
