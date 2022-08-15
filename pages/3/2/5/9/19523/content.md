@@ -28,7 +28,7 @@ What is called _inhomogeneous cosmology_ is the study of [[cosmology]] via cosmo
 
 This is in contrast to the [[standard model of cosmology]], based on [[FRW model]]-type solutions to [[Einstein's equations]], where [[spacetime]] _is_ assumed to be spatially homogeneous (an assumption also known as the _cosmological principle_). 
 
-Of course the [[observable universe]] is clearly not _exactly_ homogeneous (due to initial [[CMB]] fluctuation and ensuing [[structure formation]], see for instance the *[[KBC void]]*, [KBC 13](#KBC13), and see [Aluri et al. 2022](#AluriEtAl22) for extensive survey of observed inhomogeneity), but the question is whether on cosmic [[scales]] the deviation from homogeneity is small enough that it may be neglected, to good approximation, for the purpose of modelling cosmological evolution, or whether it exerts relevant "[[backreaction]]" on the global evolution of spacetime. For a clean account of the question see [Kolb-Marra-Matarrese 10](#KolbMarraMatarrese10), for review see [Buchert-Räsänen 11](#BuchertRasanen11), [Ellis 18](#Ellis18).
+Of course the [[observable universe]] is clearly not _exactly_ homogeneous (due to initial [[CMB]] fluctuation and ensuing [[structure formation]] -- see for instance the *[[KBC void]]*, [KBC 13](#KBC13), large observed an-isotropies [SHRMS22](#SHRMS22), and see [Aluri et al. 2022](#AluriEtAl22) for extensive survey of observed inhomogeneity) -- but the question is whether on cosmic [[scales]] the deviation from homogeneity is small enough that it may be neglected, to good approximation, for the purpose of modelling cosmological evolution, or whether it exerts relevant "[[backreaction]]" on the global evolution of spacetime. For a clean account of the question see [Kolb-Marra-Matarrese 10](#KolbMarraMatarrese10), for review see [Buchert-Räsänen 11](#BuchertRasanen11), [Ellis 18](#Ellis18).
 
 It has been shown that the effect of such [[backreaction]] is small or invisible if the inhomogeneity is modeled in a non-[[relativistic field theory|relativistic]] (i.e. Newtonian) limit, instead of taking [[general relativity|relativity]] into account ([Buchert 00](#Buchert00), [Buchert-Ehlers 95](#BuchertEhlers95)), which however is the standard approximation currently used in comparing the [[standard model of cosmology]] to data.
 
@@ -461,6 +461,11 @@ Its potential relevance for the [[Hubble tension]] (apparently too small):
 
 * Hao-Yi Wu, Dragan Huterer, _Sample variance in the local measurements of the Hubble constant_, Monthly Notices of the Royal Astronomical Society, Volume 471, Issue 4, November 2017, Pages 4946–4955 ([arXiv:1706.09723](https://arxiv.org/abs/1706.09723))
 
+Anisotropy:
+
+* {#SHRMS22} Nathan Secrest, Sebastian von Hausegger, [[Mohamed Rameez]], [[Roya Mohayaee]], [[Subir Sarkar]], *A Challenge to the Standard Cosmological Model*, ApJ Letters (2022) &lbrack;[arXiv2206.05624](https://arxiv.org/abs/2206.05624)&rbrack;
+
+  > The joint significance of this rejection of the cosmological principle is 5.2σ.
 
 
 
