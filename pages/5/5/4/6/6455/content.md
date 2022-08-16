@@ -49,6 +49,10 @@ On [[2-loop]] [[string scattering amplitudes]] of the [[superstring]]:
 
 * [[Eric D'Hoker]], [[Carlos Mafra]], [[Boris Pioline]], [[Oliver Schlotterer]], _Two-loop superstring five-point amplitudes II: Low energy expansion and S-duality_ ([doi:2008.08687](https://arxiv.org/abs/2008.08687))
 
+On [[modular forms]] in relation to [[string theory]]:
+
+* [[Eric D'Hoker]], [[Justin Kaidi]], *Lectures on modular forms and strings* &lbrack;[arXiv:2208.07242](https://arxiv.org/abs/2208.07242)&rbrack;
+
 
 
 ## Related entries
