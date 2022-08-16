@@ -44,6 +44,11 @@ A _Skyrmion_ is a [[soliton]] in certain ([[flavour physics|flavour]]) [[gauge f
 
 > graphics grabbed form [FLM 12](#FLM12)
 
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/Skyrmions-from-Gudnason-Halcrow-2022.jpg" width="660">
+\end{center}
+
+> graphics grabbed from [Gudnason & Halcrow 2022](#GudnasonHalcrow22)
 
 ## Definition
  {#Definition}
@@ -302,14 +307,18 @@ Further development:
 
 * C. Adam, K. Oles, A. Wereszczynski, _The Dielectric Skyrme model_ ([arXiv:2005.00018](https://arxiv.org/abs/2005.00018))
 
-* Sven Bjarke Gudnason, Marco Barsanti, Stefano Bolognesi, _Near-BPS baby Skyrmions_ ([arXiv:2006.01726](https://arxiv.org/abs/2006.01726))
+* [[Sven Bjarke Gudnason]], Marco Barsanti, [[Stefano Bolognesi]], _Near-BPS baby Skyrmions_ ([arXiv:2006.01726](https://arxiv.org/abs/2006.01726))
 
 
-* Sven Bjarke Gudnason, _Dielectric Skyrmions_ ([arXiv:2009.03082](https://arxiv.org/abs/2009.03082))
+* [[Sven Bjarke Gudnason]], _Dielectric Skyrmions_ ([arXiv:2009.03082](https://arxiv.org/abs/2009.03082))
 
 * Francisco Correa, Andreas Fring, Takanobu Taira, _Complex BPS Skyrmions with real energy_ ([arXiv:2102.05781](https://arxiv.org/abs/2102.05781))
 
 * [[Chris Halcrow]], [[Thomas Winyard]], _A consistent two-skyrmion configuration space from instantons_ ([arXiv:2103.15669](https://arxiv.org/abs/2103.15669))
+
+Large computer search for Skyrmion solutions:
+
+* {#GudnasonHalcrow22} [[Sven Bjarke Gudnason]], [[Chris Halcrow]], *A Smörgåsbord of Skyrmions* &lbrack;[arXiv:2202.01792](https://arxiv.org/abs/2202.01792)&rbrack;
 
 
 
