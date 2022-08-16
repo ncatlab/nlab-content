@@ -535,7 +535,7 @@ On [[rectification]] of [[symmetric operad|symmetric]] [[colored operads]]:
 
 * {#PavlovScholbach18} [[Dmitri Pavlov]], [[Jakob Scholbach]], *Admissibility and rectification of colored symmetric operads*, Journal of Topology **11** 3 (2018) 559-601 $[$[doi:10.1112/topo.12008](https://doi.org/10.1112/topo.12008), [arXiv:1410.5675](https://arxiv.org/abs/1410.5675)$]$
 
-On operads as double functors between certain [[double categories]]:
+On operads as [[double functors]] between certain [[double categories]]:
 
 * [[Claudio Pisani]], _Operads as double functors_ ([arXiv:2208.07028](https://arxiv.org/abs/2208.07028))
 
