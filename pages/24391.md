@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -171,51 +172,51 @@ That implication is the motivation for the next example.
 \end{example}
 
 \begin{example}
-
-Let $\mathbf{\Omega}$ denote the full subcategory of $\mathbf{SCvx}$ consisting of the two objects $\mathbb{N}$ and $\Delta_{\mathbb{N}}$.   Let $\mathbf{\Sigma}'': \mathbf{\Omega} \rightarrow \mathbf{Meas}$ denote the functor mapping the object $\mathbb{N} \mapsto \mathbb{N}$ (superconvex space structure to measurable space structure) and $\Delta_{\mathbb{N}} \mapsto \mathcal{G}{\mathbb{N}}$.  Recall $\mathbf{Meas}$ has all limits, and hence the right Kan extension $Ran_{\iota}(\mathbf{\Sigma}'')$ exists and can be computed pointwise.  
-
- The right Kan extension of the functor $\mathbf{\Sigma}''$ along the inclusion function $\iota: \mathbf{\Omega} \hookrightarrow \mathbf{SCvx}$,
-\begin{centre}
-\begin{tikzpicture}
-        \node  (Omega)  at  (0,0)  {$\mathbf{\Omega}$};
-        \node  (SC)          at   (3,0)  {$\mathbf{SCvx}$};
-        \node   (Std2)        at     (0, -1.5)  {$\mathbf{Meas}$};
-        \draw[->,above] (Omega) to node {$\iota$} (SC);
-        \draw[->,left] (Omega) to node {$\mathbf{\Sigma}''$} (Std2);
-        \draw[->,right,dashed] (SC) to node [yshift=-4pt]{$Ran_{\iota}(\mathbf{\Sigma}'')$} (Std2);
-\end{tikzpicture}
-\end{centre}
-has the universal arrow $\varepsilon:Ran_{\iota}(\mathbf{\Sigma}'') \circ \iota \Rightarrow \mathbf{\Sigma}''$ specified at 
-component $\mathbb{N}$ by $\varepsilon_{\mathbb{N}} = \mathbf{1}_{\mathbb{N}}$ and at component $\Delta_{\mathbb{N}}$ by $\varepsilon_{\Delta_{\mathbb{N}}} = \mathbf{1}_{\mathcal{G}{\mathbb{N}}}$. (Hence $Ran_{\iota}(\mathbf{\Sigma}'')$ really is an extension of $\mathbf{\Sigma}''$.)
-
-The proof is straight forward.
-
-
-Now take the pullback of $Ran_{\iota}(\mathbf{\Sigma}'')$ along the inclusion functor $\mathbf{Std}_2 \hookrightarrow \mathbf{Meas}$ 
- \begin{centre}
-\begin{tikzpicture}
-    \node   (SCvxstar)  at  (0,0)   {$\mathbf{SCvx}_{\star}$};
-    \node   (Std)    at   (4,0)   {$\mathbf{Std}_2$};
-    \node   (SCvx)    at  (0,-1.5)  {$\mathbf{SCvx}$};
-    \node   (Meas)     at  (4., -1.5)   {$\mathbf{Meas}$};
-    
-    \draw[->,below] (SCvx) to node {$Ran_{\iota}(\mathbf{\Sigma}'')$} (Meas);
-    \draw[>->,right] (Std) to node {$\iota$} (Meas);
-    \draw[>->,left,dashed] (SCvxstar) to node {$$} (SCvx);
-    \draw[->,above,dashed] (SCvxstar) to node {$\mathbf{\Sigma}$} (Std);
-
-\end{tikzpicture}
-\end{centre}
-to define the functor $\mathbf{\Sigma}: \mathbf{SCvx}_{\star} \rightarrow \mathbf{Std}_2$. 
-
-  The functor $\mathcal{G}$, viewed as the functor  $\mathcal{P}: \mathbf{Std}_2 \rightarrow \mathbf{SCvx}_{\star}$ is left adjoint to $\mathbf{\Sigma}$.  To prove this the general argument is as follows. Suppose we are given a separated standard measurable space $X$ with the countable generating basis $\{U_i\}_{i \in \mathbb{N}}$ so that $\Sigma_X=\sigma(\mathcal{F})$ where  $\mathcal{F}: X \rightarrow \mathbb{N}$ specifies the field which generates the $\sigma$-algebra on $X$.  In other words, $U_i = \mathcal{F}^{-1}(i)$.  Then $\mathcal{P}{X}$ is a superconvex space which lies in $\mathbf{SCvx}_{\star}$ because if we compute the right Kan extension $Ran_{\iota}(\mathbf{\Sigma}'')\big(\mathcal{P}{X})$ we obtain $\mathcal{G}{X}$ since the set of evaluation maps $ev_{U_i}: \mathcal{P}{X} \rightarrow \Delta_{\mathbb{N}}$ given by $ev_{U_i}(P)= P(U^c)\delta_0 + P(U) \delta_1$ are all countably affine maps and coseparate $\mathcal{P}{X}$.  More generally, every countable cover of $X$ by disjoint measurable sets $\{U_i\}_{i \in \mathbb{N}}$ specifies a countably affine map $\mathcal{P}{X} \rightarrow \Delta_{\mathbb{N}}$ given by $P \mapsto \sum_{i \in \mathbb{N}} P(U_i) \delta_i$. Hence the right Kan extension of $\mathcal{P}{X}$ is just the underlying set of $\mathcal{P}{X}$ with the initial $\sigma$-algebra making the evaluation maps measurable functions - which is precisely how the Giry monad assigns the $\sigma$-algebra to the underlying set of $\mathcal{G}{X}$. This argument proves, for $\mathcal{G}$ the Giry monad on $\mathbf{Std}_2$, that    the composite functor $\mathbf{\Sigma} \circ \mathcal{P} = \mathcal{G}$.
-
-To prove that $\mathcal{P} \dashv \mathbf{\Sigma}$ it is necessary, among other things,  to show that the counit of the proposed adjunction yields a barycenter map $\epsilon_A: \mathcal{P}(\mathbf{\Sigma} A) \rightarrow A$ for every $A \in_{ob} \mathbf{SCvx}_{\star}$. Now let $\mathbf{\Sigma}'$ denote the functor $\mathbf{\Sigma}''$ with the codomain restricted to $\mathbf{Std}_2$.  The functor $\mathbf{\Sigma}': \mathbf{\Omega} \rightarrow \mathbf{Std}_2$ is codense so that the measurable functions  $f:\mathbf{\Sigma} A \rightarrow \mathbb{N}$ characterize $\mathbf{\Sigma} A$,
+ The standard *free space* construction can be applied to superconvex spaces to obtain  an adjoint pair $\mathcal{F}:\mathbf{Set} \leftrightarrows \mathbf{SCvx}: \mathcal{U}$
+where $\mathcal{F}(A)$ consists of all formal countable affine sums, $\int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p} := \sum_{i \in \mathbb{N}}p_i a_i$ for $\mathbf{p} \in \mathcal{G}{\mathbb{N}}$ and $\mathbf{a} \in \mathbf{Set}(\mathbb{N},A)$,
+modulo the relations 
 \begin{equation}
- \lim \big( \mathbf{\Sigma} A \! \downarrow \! \mathbf{\Sigma}' \rightarrow \mathbf{\Omega} \stackrel{\mathbf{\Sigma}'}{\longrightarrow} \mathbf{Std}_2\big) =   (\mathbf{\Sigma} A, \{f: \mathbf{\Sigma} A \rightarrow \mathbb{N}\}). 
+\int_{j \in \mathbb{N}} \big( \int_{i \in \mathbb{N}} \mathbf{a} \, d\mathbf{Q}^i \big) \, d\mathbf{p} \cong  \int_{j \in \mathbb{N}} \mathbf{a} \, d\big( \int_{i \in \mathbb{N}} \mathbf{Q}^{\bullet} \,   d\mathbf{p} \big)  \quad \forall \, \mathbf{Q} \in \mathbf{Set}( \mathbb{N},  \mathcal{G}{\mathbb{N}})
 \end{equation}
-   But we can construct a family of  composite arrows $\epsilon_{\mathbb{N}} \circ \mathcal{G}{f}: \mathcal{G}(\mathbf{\Sigma} A) \rightarrow \mathbb{N}$ specifying a cone over  the diagram $\mathbf{\Sigma} A \! \downarrow \! \mathbf{\Sigma}' \rightarrow \mathbf{\Omega} \stackrel{\mathbf{\Sigma}'}{\longrightarrow} \mathbf{Std}_2$,
-and hence there exists a unique measurable function $\epsilon_A: \mathcal{G}(\mathbf{\Sigma} A) \rightarrow \mathbf{\Sigma} A$. To show that $\epsilon_A$ is  countably affine consider the two maps $\mathcal{G}{\epsilon_A}, \mu_{\mathbf{\Sigma} A}: \mathcal{G}^2(\mathbf{\Sigma} A) \rightarrow \mathcal{G}(\mathbf{\Sigma} A)$ and show the two composites $\epsilon_A \circ \mathcal{G}{\epsilon_A}$ and $\epsilon_A \circ \mu_{\mathbf{\Sigma} A}$ are equal.  
+ so that the sole necessary axiom of a superconvex space is satisfied. 
+    
+ Now let $X$ denote a standard measurable space, so $\mathcal{G}{X}$ is standard also. Forgetting the measurable structure on $\mathcal{G}{X}$ we can take the free space of that set, $\mathcal{F}( \mathcal{U}( \mathcal{G}{X}))$ which consist of all countable affine sums $\int_{\mathbb{N}} \mathbf{P} \, d\mathbf{p}$ for all $\mathbf{P} \in \mathbf{Set}(\mathbb{N}, \mathcal{U}(\mathcal{G}{X}))$ and all $\mathbf{p} \in \mathcal{G}{\mathbb{N}}$.  These countable affine sums are  defined pointwise $(\int_{\mathbb{N}} \mathbf{P} \, d\mathbf{p})U := \sum_{i \in \mathbb{N}} p_i P_i(U)$ for all $U \in \Sigma_X$. 
+  
+ We observe that the free space $\mathcal{F}(\mathcal{U}(\mathcal{G}{X}))$ can also be viewed as the image of the functor $\mathcal{P}: \mathbf{Meas} \rightarrow \mathbf{SCvx}$ on $X$, where $\mathcal{P}$  is the Giry monad (functor) viewed as a functor into $\mathbf{SCvx}$.  Replacing $X$ with $\mathbb{N}$ in the preceding argument  we have
+\begin{equation}
+\mathcal{F}(\mathcal{U}(\mathcal{G}{\mathbb{N}})) =\Delta_{\mathbb{N}} = \{ \sum_{i \in \mathbb{N}} p_i \delta_i \, | \, \mathbf{p} \in \mathcal{G}{\mathbb{N}}\} = \mathcal{P}(\mathbb{N}). 
+\end{equation} 
+
+ We would like to replace the free space adjunction $\mathcal{F} \dashv \mathcal{U}$ with an adjunction $\mathcal{P}: \mathbf{Std} \leftrightarrows \mathbf{SCvx}: \mathbf{\Sigma}$
+such that the composite is the Giry monad on $\mathbf{Std}$. The category $\mathbf{SCvx}_{\star}$ denotes some subcategory of $\mathbf{SCvx}$ so that the adjunction can be constructed.  If such an adjunction exists the counit of the adjunction says every space $A$  is the quotient of a free space, i.e., $A$ is the coequalizer of a parallel pair of maps into a free space.    To illustrate this consider the following elementary example.
+ 
+ The coequalizer of the pair of points $\frac{1}{3}: \mathbf{1} \rightarrow [0,1]$ and $\frac{2}{3}: \mathbf{1} \rightarrow [0,1]$, where $[0,1] \cong \mathbf{P}{\mathbf{2}}$.  The coequalizer of those pair of points is the discrete space  $A=\{0,u,1\}$ with the structure defined by $p u + (1-p) 0 = u$ for all $p \in (0,1]$, $p u + (1-p) 1 = u$ for all $p \in (0,1]$, and $p 0 + (1-p) 1 = u$ for all $p \in (0,1)$.  
+
+If the functor $\mathbf{\Sigma}: \mathbf{SCvx}_{\star} \rightarrow \mathbf{Std}$ exists  it should recognize that that superconvex space arises as a quotient space of $\mathcal{P}{\mathbf{2}}$, and hence should have the barycenter map $\epsilon_A: \mathcal{P}{\mathbf{2}} \rightarrow A$ given by
+the mapping $\delta_0 \mapsto 0$, $\delta_1 \mapsto 1$, and $r \delta_0 + (1-r) \delta_1 \mapsto u$ for all $r \in (0,1)$.
+
+Let $\mathbf{\Omega}$ denote the full subcategory of $\mathbf{SCvx}$ consisting of the two objects $\mathbb{N}$ and $\Delta_{\mathbb{N}}$, and let $\iota:\mathbf{\Omega} \rightarrow \mathbf{SCvx}$ be the inclusion functor.  
+
+If we look at the category $A \downarrow \iota$ there are two countably affine maps, 
+\begin{equation}
+\begin{array}{lcccc}
+\phi_{0,u} &:& A & \rightarrow & \mathbb{N} \\
+&:& a & \mapsto & \left\{ \begin{array}{ll} 0 & for \, a \in \{0,u\} \\ 1 & for \, a=1 \end{array} \right.
+\end{array}
+\end{equation}
+and 
+\begin{equation}
+\begin{array}{lcccc}
+\phi_{1,u} &:& A & \rightarrow & \mathbb{N} \\
+&:& a & \mapsto & \left\{ \begin{array}{ll} 0 & for \, a \in \{1,u\} \\ 1 & for \, a=0 \end{array} \right.
+\end{array},
+\end{equation}
+from which every other countably affine map  $A \rightarrow \mathbb{N}$ can be obtained by composing either $\phi_{0,u}$ or $\phi_{1,u}$
+ with a monotonic function $\phi: \mathbb{N} \rightarrow \mathbb{N}$.  Because $A$ is discrete there are no non-constant countably affine maps $A \rightarrow \Delta_{\mathbb{N}}$.
+  
+ The coequalizer of those two maps yields the discrete space $\mathbf{2}$ for which $\mathcal{P}{\mathbf{2}}$ is the space we are trying to find - it is the smallest free space such that there is a countably affine map  $\mathcal{P}{\mathbf{2}} \rightarrow A$.
+ 
+ Whether probing a space $A$ with arrows to objects and products of objects  in $\mathbf{\Omega}$  is sufficient is unknown but a clue is given in the fact that every standard space is $\mathbf{Std}$-isomorphic to either $[0,1]$ or a countable discrete space. Hence $\mathbf{SCvx}_{\star}$ should intuitively consists of quotients of $\prod_{i \in \mathbb{N}} \Delta_{\mathbb{N}}$ (and smaller) - the countability condition being the critical condition. That condition rules out spaces such as $\prod_{i \in [0,1]}\Delta_{\mathbb{N}}$ and the pathological space of Example 5.4.
 
 \end{example} 
 
@@ -246,10 +247,11 @@ Proposition 1.2 in
 
 is particularly useful for viewing superconvex spaces as positively convex spaces which are somewhat easier to work with because the condition $\sum_{i \in \mathbb{N}}p_i=1$  is replaced by the inequality $\le 1$.
 
-The fact that the full subcategory of $\mathbf{SCvx}$ consisting of the single object is dense in $\mathbf{SCvx}$, along with the property that the functor $\mathbf{\Sigma}': \mathbf{\Omega} \rightarrow \mathbf{Std}_2$ is a codense functor, along with more properties and examples of superconvex spaces is given in
+The fact that  the functor $\mathbf{\Sigma}: \mathbf{\Omega} \rightarrow \mathbf{Std}_2$ is a codense functor can be found  in
 
 * {#Sturtz22} [[Kirk Sturtz]], _Giry algebras for standard measurable spaces_ $[$[arXiv:2202:10819](https://arxiv.org/abs/2202.10819)$]$
 
+although several aspects, such as the claim that $\mathbf{\Omega}$ is dense in $\mathbf{SCvx}$ are incorrect. 
 
 For purposes of constructing models of complex systems using superconvex spaces the construction given in Example 6.1 of the following article applies equally well to superconvex spaces.
 
