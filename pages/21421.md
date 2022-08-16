@@ -88,7 +88,7 @@ More on [[mesons]] in [[holographic QCD]]:
 
 * Artur Amorim, Miguel S. Costa, Matti Järvinen, _Regge theory in a Holographic dual of QCD in the Veneziano Limit_ ([arXiv:2102.11296](https://arxiv.org/abs/2102.11296))
 
-* {#daRocha21} R. da Rocha, _Information in AdS/QCD: mass spectroscopy of isovector mesons_ ([arXiv:2103.03924](https://arxiv.org/abs/2103.03924))
+* {#daRocha21} [[Roldão da Rocha]], *Information in AdS/QCD: mass spectroscopy of isovector mesons*, Phys. Rev. D **103** 106027 (2021) &lbrack;[arXiv:2103.03924](https://arxiv.org/abs/2103.03924), [doi:10.1103/PhysRevD.103.106027](https://doi.org/10.1103/PhysRevD.103.106027)&rbrack;
 
 * Shahin Mamedov, Narmin Nasibova, _Temperature dependence of $\rho$ meson-nucleon coupling constant from the  soft-wall model_ ([arXiv:2103.10494](https://arxiv.org/abs/2103.10494))
 
