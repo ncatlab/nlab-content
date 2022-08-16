@@ -228,7 +228,7 @@ A formulation of confinement as an open problem of mathematical physics, togethe
 * {#JaffeWitten} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.claymath.org/millennium/Yang-Mills_Theory/yangmills.pdf))
  
 
-Other technical reviews include
+Other technical reviews:
 
 * G. M. Prosperi, _Confinement and bound states in QCD_ ([arXiv:hep-ph/0202186](http://arxiv.org/abs/hep-ph/0202186))
 
@@ -246,6 +246,11 @@ See also:
 Recognition of [[instantons]] and confinement in [[lattice gauge theory]] via [[topological data analysis]] ([[persistent homology]]):
 
 * Daniel Spitz, Julian M. Urban, Jan M. Pawlowski, *Confinement in non-Abelian lattice gauge theory via persistent homology* &lbrack;[arXiv:2208.03955](https://arxiv.org/abs/2208.03955)&rbrack;
+
+In relation to [[conformal symmetry]] and [[AdS-CFT duality]] (see also at *[[AdS-QCD]]*):
+
+* {#KPV22} M. Kirchbach, T. Popov, J.-A. Vallejo, *The Conformal-Symmetry -- Color-Neutrality Connection in Strong Interaction* &lbrack;[arXiv:2208.06484](https://arxiv.org/abs/2208.06484)&rbrack;
+
 
 
 #### Via monopole condensation
