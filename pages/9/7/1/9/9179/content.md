@@ -159,6 +159,10 @@ Discussion of neutrinos as [[dark matter]]-candidates:
 
 * {#NeutrinoWhite16} _A White Paper on keV Sterile Neutrino Dark Matter_,  Journal of Cosmology and Astroparticle Physics, Volume 2017, January 2017 ([arXiv:1602.04816](https://arxiv.org/abs/1602.04816))
 
+* D. J. Buettner, P. D. Morley, *Why not Neutrinos as the Dark Matter? A Critical Review, KATRIN and New Research Directions*, [7th Symposium on Neutrinos and Dark Matter in Nuclear Physics (NDM22)](https://indico.phy.ornl.gov/event/142/#:~:text=The%207th%20Symposium%20on%20Neutrinos,NC%2C%2028801%2C%20US)
+&lbrack;[arXiv:2208.06460](https://arxiv.org/abs/2208.06460)&rbrack;
+
+
 Discussion of [[neutrino]] [[masses]] in [[leptoquark]]-[[model (in theoretical physics)|models]] for [[flavour anomalies]]:
 
 * {#BGV19} Innes Bigaran, John Gargalionis, Raymond R. Volkas, _A near-minimal leptoquark model for reconciling flavour anomalies and generating radiative neutrino masses_ ([arXiv:1906.01870](https://arxiv.org/abs/1906.01870))
