@@ -83,7 +83,7 @@ Cartesian multicategories are also a natural place to talk about the semantics o
 
 ## References
 
-* Claudio Pisani. "Sequential multicategories." (2014), ([arXiv](https://arxiv.org/abs/1402.0253))
+* [[Claudio Pisani]], _Sequential multicategories_, ([arXiv:1402.0253](https://arxiv.org/abs/1402.0253))
 * Nathanael Arkor, and Dylan McDermott. "Abstract Clones for Abstract Syntax." 6th International Conference on Formal Structures for Computation and Deduction (FSCD 2021). Schloss Dagstuhl-Leibniz-Zentrum für Informatik, 2021. ([arXiv](https://arxiv.org/abs/2105.00969))
 
 
