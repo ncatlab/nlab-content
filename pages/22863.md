@@ -9,3 +9,5 @@ On [[differential categories]]:
 
 
 category: people
+
+[[!redirects Jean-Simon Pacaud Lemay]]
