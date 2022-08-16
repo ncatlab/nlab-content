@@ -30,6 +30,11 @@ Due to
 
 * {#KBC13} Ryan C. Keenan, Amy J. Barger, Lennox L. Cowie, _Evidence for a ~300 Mpc Scale Under-density in the Local Galaxy Distribution_, 2013, ApJ, 775, 62 ([arXiv:1304.2884](https://arxiv.org/abs/1304.2884))
 
+Review in:
+
+* {#Peebles22} [[Phillip James E. Peebles]], §4 of: *Anomalies in Physical Cosmology* &lbrack;[arXiv:2208.05018](https://arxiv.org/abs/2208.05018)&rbrack;
+
+
 See also:
 
 * Wikipedia, _[KBC void](https://en.m.wikipedia.org/wiki/KBC_Void)
