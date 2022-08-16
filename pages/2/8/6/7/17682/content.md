@@ -41,7 +41,7 @@ _, [pdf]
 
 For a summary of uses, see 
 
-* {#Cohn-Gordon} Reuben Cohn-Gordon, _Monad Transformers for Natural Language:Combining Monads to Model Effect Interaction_, [pdf](https://reubenharry.github.io/docs/monads.pdf)
+* {#Cohn-Gordon} Reuben Cohn-Gordon, _Monad Transformers for Natural Language: Combining Monads to Model Effect Interaction_, [pdf](https://reubencohngordon.com/docs/monads.pdf)
 
 * {#Asudeh} [[Ash Asudeh]], _Monads: Some Linguistic Applications_, [pdf](http://www.sas.rochester.edu/lin/sites/asudeh/handouts/asudeh-se-lfg13.pdf)
 
