@@ -37,7 +37,7 @@ and if $n \ge 1$:
 
 ## Definition for several indeterminates
 
-Suppose that $R$ is a [[commutative rig]]. We look at the polynomials in $R[X_{1},...,X_{q}]$. For every multiset $Y_{1}...Y_{n} \in \{X_{1},...,X_{q}\}$ and $P \in R[X_{1},...,X_{q}]$ we define the derivative $D_{Y_{1}...Y_{n}}(P)$.
+Suppose that $R$ is a [[commutative rig]]. We look at the polynomials in $R[X_{1},...,X_{q}]$. For every multiset $Y_{1}...Y_{n} \in \{X_{1},...,X_{q}\}$ and $P \in R[X_{1},...,X_{q}]$ we define the derivative $D_{Y_{1}...Y_{n}}(P)$. Note that we treat in the same way all the higher-order derivatives and define them directly and not by induction. It is in this way directly clear that the order of the variables with respect to we derivate doesn't matter.
 
 Suppose that $P$ is a monic monomial, that is a multiset of variables in $\{X_{1},...,X_{q}\}$.
 
