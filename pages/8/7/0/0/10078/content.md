@@ -151,6 +151,11 @@ Further development:
 
 * Naser Ahmadiniaz, Victor Miguel Banda Guzman, Fiorenzo Bastianelli, Olindo Corradini, James P. Edwards, [[Christian Schubert]], _Worldline master formulas for the dressed electron propagator, part 2: On-shell amplitudes_ ([arXiv:2107.00199](https://arxiv.org/abs/2107.00199)) 
 
+* [[Christian Schubert]] et al., *Summing Feynman diagrams in the worldline formalism* &lbrack;[arXiv:2208.06585](https://arxiv.org/abs/2208.06585) &rbrack;
+
+
+
+
 As a means of constructing [[UV-completions]]:
 
 * Steven Abel, Nicola Andrea Dondi, _UV Completion on the Worldline_ ([arXiv:1905.04258](https://arxiv.org/abs/1905.04258))
