@@ -82,6 +82,32 @@ Note that for a special bicommutative graded bimonoids, the condition of trivial
   - $\eta$ is an isomorphism
   - $\nabla_{n,0}$ is an isomorphism for every $n \ge 0$
 
+Of course, if our category possesses the symmetric powers of an object, we also generate a special bicommutative graded bimonoid with trivial units by taking $A_{n} = A^{\otimes_{s}n}$. Let's see how it works in a concrete case. Suppose that $\mathbb{K}$ is a field of characteristic $0$. Take a vector space $A$ of basis $X_{1},...,X_{q}$. Then $A^{\otimes_{s}m} \cong \mathbb{K}_{m}[X_{1},...,X_{q}]$, the space of [[homogeneous polynomials]] of degree $m$ in the variables $X_{1},...,X_{q}$. The unit $\mathbb{K} \cong \mathbb{K}_{0}[X_{1},...,X_{q}]$ and the multiplication $\mathbb{K}_{m}[X_{1},...,X_{q}] \otimes \mathbb{K}_{n}[X_{1},...,X_{q}] \rightarrow \mathbb{K}_{m+n}[X_{1},...,X_{q}]$ are straightforward as well as the counit $\mathbb{K}_{0}[X_{1},...,X_{n}] \cong \mathbb{K}$.
+The comultiplication 
+$$\mathbb{K}_{m+n}[X_{1},...,X_{q}] \rightarrow \mathbb{K}_{m}[X_{1},...,X_{q}] \otimes \mathbb{K}_{n}[X_{1},...,X_{q}]$$
+is defined by:
+$$
+X_{i_{1}}...X_{i_{m+n}} \mapsto \frac{1}{n!p!}\underset{\sigma \in \mathfrak{S}_{n+p}}{\sum} X_{\sigma(i_{1})}...X_{\sigma(i_{n})} \otimes X_{\sigma(i_{n+1})}...X_{\sigma(i_{n+p})}
+$$
+The intuition is that it takes a monomial of degree $n+p$, decomposes it in all the possible decompositions of a monomial of degree $n$ and a monomial of degree $p$ and then sum all the possibilites (however, the result is obtained by considering the different instances of a variable in a monomial as different entities). For example:
+$$
+\Delta_{2,2}(XYZW) = XY \otimes ZW + XZ \otimes YW + XW \otimes YZ + YZ \otimes ZW + YW \otimes XZ + ZW \otimes XY
+$$
+and 
+$$
+\Delta_{2,2}(XYZ^{2}) = XY \otimes Z^{2} + XZ \otimes YZ + XZ \otimes YZ + YZ \otimes Z^{2} + YZ \otimes XZ + Z^{2} \otimes XY
+$$
+$$
+= XY \otimes Z^{2} + 2XZ \otimes YZ + 2YZ \otimes Z^{2} + Z^{2} \otimes XY 
+$$
+The number of decomposition of a monomial of degree $n+p$ in on part of degree $n$ and one part of degree $p$ is equal to the number of choice of $n$ of the variables in the monomial amongst the $n+p$ which appear, thus $\binom{n+p}{n}=\frac{(n+p)!}{n!p!}$. When we recompose the two part of the decomposition together, we find each time the same compositie that we had at the beginning. Thus, the result of the decomposition followed by the recomposition is nothing more than a multipliation by the scalar $\binom{n+p}{n}$.
+$$
+\nabla_{2,2}(\Delta_{2,2}(XYZW)) = \binom{2+2}{2}XYZW = 6XYZW
+$$
+$$
+\nabla_{2,2}(\Delta_{2,2}(XYZ^{2})) = \binom{2+2}{2}XYZ^{2} = 6XYZ^{2}
+$$
+
 ## Properties
 
 * With the above notations, if we have a graded bimonoid, then $(A_{0},\nabla_{0,0}, \Delta_{0,0}, \eta, \epsilon)$ is a bimonoid.
