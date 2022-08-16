@@ -47,7 +47,7 @@ X          &              & C_1          & \stackrel{t}\to & C_0 \\
            &              & C_0
 } $$
 
-In particular, in a category with a [[terminal object|terminal]] [[generator]] $*$, we may identitfy morphisms $x,y: * \to C_0$ with [[global element|global]] objects of $C$ and form $C(x,y)$ as above.
+In particular, in a category with a [[terminal object|terminal]] [[generator]] $*$, we may identify morphisms $x,y: * \to C_0$ with [[global element|global]] objects of $C$ and form $C(x,y)$ as above.
 
 ## Related concepts
 
