@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -79,6 +80,8 @@ General review includes
 * Wikipedia, _[Modified Newtonian dynamics](https://en.wikipedia.org/wiki/Modified_Newtonian_dynamics)_
 
 * Wikipedia, _[Tensor&#8211;vector&#8211;scalar gravity](https://en.wikipedia.org/wiki/Tensor%E2%80%93vector%E2%80%93scalar_gravity)_
+
+* {#Peebles22} [[Phillip James E. Peebles]], §5.7 "Why is MOND Successful but Unpoular" of: *Anomalies in Physical Cosmology* &lbrack;[arXiv:2208.05018](https://arxiv.org/abs/2208.05018)&rbrack;
 
 
 ### Experimental constraints
