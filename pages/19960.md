@@ -1043,6 +1043,12 @@ nucleon [[form factors]] via [[holographic QCD]]:
 
 * Kiminad A. Mamo, [[Ismail Zahed]],  _Nucleon mass radii and distribution: Holographic QCD, Lattice QCD and GlueX data_ ([arXiv:2103.03186](https://arxiv.org/abs/2103.03186))
 
+* Roldao da Rocha, *Information entropy of nuclear electromagnetic transitions in AdS/QCD* &lbrack;[arXiv:2208.07191](https://arxiv.org/abs/2208.07191)&rbrack;
+
+>  The derived parameters are shown
+to corroborate experimental data with great accuracy
+
+
 via a [[nuclear matrix model]]:
 
 * [[Koji Hashimoto]], [[Norihiro Iizuka]], [[Piljin Yi]], _A Matrix Model for Baryons and Nuclear Forces_, JHEP 1010:003, 2010 ([arXiv:1003.4988](https://arxiv.org/abs/1003.4988))
