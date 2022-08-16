@@ -124,7 +124,7 @@ name | $(\ast, \ast)$ | $(\ast, \square)$ | $(\square, \ast)$ | $(\square, \squa
 -----|----------------|-------------------|-------------------|-----------------------|
 $\lambda\rightarrow$ [[simply typed lambda calculus]] | yes |   |   |   |
 ${\lambda}P$ [[logical framework]] | yes | yes |   |   |
-$\lambda2$ [[system F]] | yes |   | yes |   |
+$\lambda2$ [[System F]] | yes |   | yes |   |
 $\lambda\underline{\omega}$ | yes |   |   | yes |
 ${\lambda}C$ [[calculus of constructions]] | yes | yes | yes | yes |
 
