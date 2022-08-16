@@ -124,7 +124,10 @@ Possible tensions in the model, regarding determination of the [[Hubble constant
 
 review:
 
-* L. Verde T. Treu, A.G. Riess, _Tensions between the Early and the Late Universe_ ([arXiv:1907.10625](https://arxiv.org/abs/1907.10625))
+* L. Verde, T. Treu, [[Adam G. Riess]], _Tensions between the Early and the Late Universe_, Nature Astronomy (2019) &lbrack;[arXiv:1907.10625](https://arxiv.org/abs/1907.10625), [doi:10.1038/s41550-019-0902-0](https://doi.org/10.1038/s41550-019-0902-0)&rbrack;
+
+* {#SWP22} Snowmass White Paper: *Cosmology Intertwined: A Review of the Particle Physics, Astrophysics, and Cosmology Associated with the Cosmological Tensions and Anomalies*, J. High En. Astrophys. **34** (2022) 49-211 &lbrack;[arXiv:2203.06142](https://arxiv.org/abs/2203.06142), [doi:10.1016/j.jheap.2022.04.002](https://doi.org/10.1016/j.jheap.2022.04.002)&rbrack;
+
 
 Indication that the tension is not in the data but in systematic errors:
 
