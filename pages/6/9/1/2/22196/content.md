@@ -47,15 +47,13 @@ As of 05 May 2022 the funds available to the nLab due to donations are
 \section{Expenditures}
  {#Expenditures}
 
-The above sum is essentially the total sum of donations received so far (just minus USD 95 of cost for a migration experiment which has meanwhile been suspended). 
-
-We are now putting these funds to use for the following tasks:
+The [[nlabmeta:technical board]] has decided to put these funds to use for the following tasks:
 
 1. Starting in July 2022 we have hired a sysadmin on a basis of
 
    * USD 400 / month .
 
-1. We are still in the process of migrating the nLab installation to a new server. (The server we have been running on -- which had been kindly donated to us -- was sunsetted already $\ 2$ years ago, and we had been urged to migrate already then.) We have meanwhile been offered a new server for free, again (and a million and more thanks are due to the people who make this work), but actually performing the migration to the new server is a non-trivial task. This is now underway in a joint effort of some nLab technical team members and an IT company. The costs are not in yet but should amount to
+1. We are still in the process of migrating the nLab installation to a new server. (The server we have been running on -- which had been kindly donated to us -- was sunsetted already $\ 2$ years ago, and we had been urged to migrate already then.) We have meanwhile been offered a new server for free, again (and a million and more thanks are due to the people who make this work), but actually performing the migration to the new server is a non-trivial task. This is now underway in a joint effort of some nLab technical team members and an IT company. The total costs are not in yet but should amount to
 
    * $\sim$ EUR 4000 .
 
