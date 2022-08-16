@@ -1,5 +1,5 @@
 
-* [webpage](http://iml.univ-mrs.fr/~girard/)
+* [webpage](http://girard.perso.math.cnrs.fr/Accueil.html)
 
 ## Selected writings
  {#SelectedWritings}
@@ -9,7 +9,7 @@ On [[System F]]:
 * [[Jean-Yves Girard]], _Interprétation functionelle et élimination des coupures dans l'arithmétique d'ordre supérieure_, Ph.D. thesis, Université Paris VII (1972) &lbrack;[pdf](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/kw/www/scans/girard72thesis.pdf), [[Girard-InterpretationFunctionelle.pdf:file]]&rbrack;
 
 
-On [[formal logic|form]] [[logic]] and [[formal proof|formal]] [[proof]] [[proof theory|theory]] ([[type theory|typed]] [[lambda-calculus|$\lambda$-calculus]], [[linear logic]],  [[coherence spaces]], ...)
+On [[formal logic|formal]] [[logic]] and [[formal proof|formal]] [[proof]] [[proof theory|theory]] ([[type theory|typed]] [[lambda-calculus|$\lambda$-calculus]], [[linear logic]],  [[coherence spaces]], ...)
 
 * {#Girard89} [[Jean-Yves Girard]] (translated and with appendiced by [[Paul Taylor]] and [[Yves Lafont]]), *Proofs and Types*, Cambridge University Press (1989) &lbrack;[ISBN:978-0-521-37181-0](), [webpage](http://www.paultaylor.eu/stable/Proofs+Types.html), [pdf](https://www.paultaylor.eu/stable/prot.pdf)&rbrack;
 
