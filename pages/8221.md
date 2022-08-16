@@ -130,6 +130,11 @@ Indication that the tension is not in the data but in systematic errors:
 
 * Freedman et al. _The Carnegie-Chicago Hubble Program. VIII. An Independent Determination of the Hubble Constant Based on the Tip of the Red Giant Branch_ ([arxiv:1907.05922](https://arxiv.org/abs/1907.05922))
 
+Review of further observed deviations (such as large-scale [[inhomogeneous cosmology|inhomogeneties]] like the [[KBC void]]):
+
+* {#Peebles22} [[Phillip James E. Peebles]], *Anomalies in Physical Cosmology* &lbrack;[arXiv:2208.05018](https://arxiv.org/abs/2208.05018)&rbrack;
+
+
 
 ### In AQFT on Curved spacetimes
 
