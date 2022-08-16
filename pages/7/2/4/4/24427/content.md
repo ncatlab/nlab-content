@@ -108,6 +108,11 @@ $$
 \nabla_{2,2}(\Delta_{2,2}(XYZ^{2})) = \binom{2+2}{2}XYZ^{2} = 6XYZ^{2}
 $$
 
+The comultiplication can be expressed using the [[Hasse-Schmidt derivative]]. As explained in the referred entry, for any commutative rig $R$, given a monomial $P \in R_{m+n}[X_{1},...,X_{q}]$ and a monic monomial $Y_{1}...Y_{p} \in R_{p}[X_{1},...,X_{q}]$, equivalently a multiset of $p$ variables in $\{X_{1},...,X_{q}\}$, the Hasse-Schmidt derivative $D_{Y_{1}...Y_{p}}(P)$ is the number of way of extracting $Y_{1}...Y_{p}$ from $P$, multiplied by $\frac{P}{Y_{1}...Y_{p}}$. If there is no way of extracting $Y_{1}...Y_{p}$, ie. if $Y_{1}...Y_{p}$ isn't a divisor of $P$, then $D_{Y_{1}...Y_{p}}(P)=0$. The comultiplication $\Delta_{m,n}:R_{m+n}[X_{1},...,X_{q}] \rightarrow R_{m}[X_{1},...,X_{q}] \otimes R_{n}[X_{1},...,X_{q}]$ can thus be expressed without using any rational coefficient, ie. without assuming that $R$ is a field of characteristic $0$, or more generally a $\mathbb{Q}^{+}$-algebra. It is then expressed in this way, for any $P \in R_{m+n}[X_{1},...,X_{q}]$ (writing $\mathcal{M}_{p}(X_{1},...,X_{q})$ for the set of all multisets of $p$ elements in $\{X_{1},...,X_{q}\}$):
+$$
+\Delta_{n,p}(P) = \underset{Y_{1}...Y_{p} \in \mathcal{M}_{p}(X_{1},...,X_{q})}{\sum} D_{Y_{1}...Y_{p}}(P) \otimes Y_{1}...Y_{p}
+$$ 
+ 
 ## Properties
 
 * With the above notations, if we have a graded bimonoid, then $(A_{0},\nabla_{0,0}, \Delta_{0,0}, \eta, \epsilon)$ is a bimonoid.
