@@ -77,7 +77,9 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[length 
 
 ### General
 
-* [[John Peacock]], _Cosmological Physics_, Cambridge University Press ([web](http://www.roe.ac.uk/~jap/book.html))
+* [[P. J. E. Peebles]], *Principles of Physical Cosmology*, Princeton University Press (1993, 2020) &lbrack;[ISBN:9780691209814](https://press.princeton.edu/books/paperback/9780691209814/principles-of-physical-cosmology), [pdf](http://fma.if.usp.br/~mlima/teaching/PGF5292_2021/Peebles_PPC.pdf)&rbrack;
+
+* [[John Peacock]], _Cosmological Physics_, Cambridge University Press (1998, 2012) &lbrack;[doi:10.1017/CBO9780511804533](https://doi.org/10.1017/CBO9780511804533), [book webpage](http://www.roe.ac.uk/~jap/book.html)&rbrack;
 
 * Jorge L. Cervantes-Cota, George Smoot, _Cosmology today -- A brief review_ (2011) ([arXiv:1107.1789](http://arxiv.org/abs/1107.1789))
 
