@@ -39,6 +39,7 @@
 
 What is called _holographic QCD_ or _AdS/QCD correspondence_ or similar (review includes [Aharony 02](#Aharony02), [Erlich 09](#Erlich09), [Kim-Yi 11](#KimYi11), [Erlich 14](#Erlich14), [Rebhan 14](#Rebhan14), [Rho-Zahed 16](#RhoZahed16)) is a quantitatively predictive [[model (in theoretical physics)|model]] for [[quantum chromodynamics]] ("[[QCD]]", the [[strong nuclear force]]-sector of the [[standard model of particle physics]]) via "holography" (as in the [[AdS/CFT correspondence]]), hence regarding it as the [[boundary field theory]] of an (at least) [[D=5 super Yang-Mills theory|5-dimensional]] [[Yang-Mills theory]] ("[[bottom-up model building|bottom-up]] holographic QCD"), specifically one [[geometric engineering|geometrically engineered]] on [[intersecting D-brane model|intersecting D-branes]] ("[[top-down model building|top-down]] holographic QCD") and here specifically on [[D4-D8 brane intersections]] (the _[[Witten-Sakai-Sugimoto model]]_ due to [Witten 98](#Witten98), [Karch-Katz 02](#KarchKatz02), [Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05)). 
 
+{#QCDNotManifestlyAnSCFT} While [[QCD]], taken at face value, is not a [[quantum field theory]] of the kind considered in the plain [[AdS-CFT correspondence]] -- since it is not a [[conformal field theory]] (but see [KPV22](confinement#KPV22)) and not [[supersymmetry|supersymmetric]] (hence not an [[SCFT]], but see at *[[hadron supersymmetry]]*) and does not have a large number $N$ of [[color charge|colors]] (but see [below](#SmallNOpenProblem)), it is thought that approximations/deformations of [[AdS-CFT]] may still usefully apply.
 
 Holographic QCD captures the [[non-perturbative effect|non-perturbative]] [[confinement|confined]] regime of [[QCD]], which is otherwise elusive (the [[mass gap problem|Mass Gap Millennium Problem]]), where the would-be [[quarks]] are all [[bound state|bound]]/[[confinement|confined]] inside [[color charge|color]]-less [[hadrons]], with the [[meson]] [[field (physics)|fields]] instead being the [[gauge field]] of a [[flavour (particle physics)|flavour]]-[[chiral perturbation theory|gauge theory]] (holographic dictionary, e.g. [Kim-Yi 11 (3.1)](#KimYi11), see also "[[hidden local symmetry]]") and the [[baryons]] being [[solitons]] of this flavour/meson field, namely _[[skyrmions]]_.
 
@@ -1043,7 +1044,7 @@ nucleon [[form factors]] via [[holographic QCD]]:
 
 * Kiminad A. Mamo, [[Ismail Zahed]],  _Nucleon mass radii and distribution: Holographic QCD, Lattice QCD and GlueX data_ ([arXiv:2103.03186](https://arxiv.org/abs/2103.03186))
 
-* Roldao da Rocha, *Information entropy of nuclear electromagnetic transitions in AdS/QCD* &lbrack;[arXiv:2208.07191](https://arxiv.org/abs/2208.07191)&rbrack;
+* [[Roldão da Rocha]], *Information entropy of nuclear electromagnetic transitions in AdS/QCD* &lbrack;[arXiv:2208.07191](https://arxiv.org/abs/2208.07191)&rbrack;
 
 >  The derived parameters are shown
 to corroborate experimental data with great accuracy
