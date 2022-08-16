@@ -21,7 +21,7 @@ _System F_, also known as the _[[polymorphic]] [[lambda-calculus]]_ or _[[second
 
 Models of System F can be described as a form of [[hyperdoctrine]]:
 
-1. A [[cartesian category]] K of *kinds*.
+1. A [[category]] K of *kinds* with [[cartesian products]].
 2. A [[functor]] $P \colon K^o \to CCC$, i.e., a [[contravariant functor]] from $K$ to the category of [[cartesian closed categories]] and [[functors]] preserving the CC structure.
 3. A [[representable functor|representing object]] $U \in K$, i.e., $K(-,U) \cong P_0$ where $P_0 : K^o \to Set$ is the [[presheaf]] of objects of the corresponding CCC.
 4. Such that for any $\Delta \in K$, the functor $P(\pi) \colon P(\Delta) \to P(\Delta \times U)$ induced from the [[projection]] $\pi \colon \Delta \times U \to \Delta$ has a [[right adjoint]] $\forall \colon P(\Delta \times U) \to P(\Delta)$ satisfying a [[Beck-Chevalley condition]].
