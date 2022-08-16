@@ -82,6 +82,16 @@ Note that for a special bicommutative graded bimonoids, the condition of trivial
   - $\eta$ is an isomorphism
   - $\nabla_{n,0}$ is an isomorphism for every $n \ge 0$
 
+## Properties
+
+* With the above notations, if we have a graded bimonoid, then $(A_{0},\nabla_{0,0}, \Delta_{0,0}, \eta, \epsilon)$ is a bimonoid.
+
+* Suppose that our [[CMon-enriched symmetric monoidal category]] possesses a [[zero object]] such that $A \otimes 0 \cong 0$ for every object $A$. We can then associate a graded bimonoid to every bimonoid by putting:
+  - $A_{0} = A$
+  - $\nabla_{0,0} = \nabla$
+  - $\Delta_{0,0} = \Delta$
+  - $A_{n} = 0$ if $n \ge 1$
+
 ## Related concepts
 
 [[bimonoid]]
