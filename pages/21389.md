@@ -13,8 +13,11 @@ On the [[Skyrmion model]] with [[omega-meson]]-contribution:
 
 On [[baryons]] in the [[Sakai-Sugimoto model]] of [[holographic QCD]]:
 
-
 * Salvatore Baldino, Lorenzo Bartolini, [[Stefano Bolognesi]], [[Sven Bjarke Gudnason]], _Holographic Nuclear Physics with Massive Quarks_ ([arXiv:2102.00680](https://arxiv.org/abs/2102.00680))
+
+Computer-survey of [[Skyrmion]]-solutions:
+
+* {#GudnasonHalcrow22} [[Sven Bjarke Gudnason]], [[Chris Halcrow]], *A Smörgåsbord of Skyrmions* &lbrack;[arXiv:2202.01792](https://arxiv.org/abs/2202.01792)&rbrack;
 
 
 category: people
