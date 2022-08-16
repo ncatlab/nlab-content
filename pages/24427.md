@@ -100,7 +100,7 @@ $$
 $$
 = XY \otimes Z^{2} + 2XZ \otimes YZ + 2YZ \otimes Z^{2} + Z^{2} \otimes XY 
 $$
-The number of decomposition of a monomial of degree $n+p$ in on part of degree $n$ and one part of degree $p$ is equal to the number of choice of $n$ of the variables in the monomial amongst the $n+p$ which appear, thus $\binom{n+p}{n}=\frac{(n+p)!}{n!p!}$. When we recompose the two part of the decomposition together, we find each time the same compositie that we had at the beginning. Thus, the result of the decomposition followed by the recomposition is nothing more than a multipliation by the scalar $\binom{n+p}{n}$.
+The number of decomposition of a monomial of degree $n+p$ in one part of degree $n$ and one part of degree $p$ is equal to the number of choice of $n$ of the variables in the monomial amongst the $n+p$ which appear, thus $\binom{n+p}{n}=\frac{(n+p)!}{n!p!}$. When we recompose the two part of the decomposition together, we find each time the same compositie that we had at the beginning. Thus, the result of the decomposition followed by the recomposition is nothing more than a multiplication by the scalar $\binom{n+p}{n}$.
 $$
 \nabla_{2,2}(\Delta_{2,2}(XYZW)) = \binom{2+2}{2}XYZW = 6XYZW
 $$
