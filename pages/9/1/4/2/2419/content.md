@@ -233,7 +233,7 @@ Textbook accounts:
 * {#DiamondShurman05} [[Fred Diamond]], [[Jerry Shurman]], *A First Course in Modular Forms*, GTM **228**, Springer (2005) $[$[doi:10.1007/978-0-387-27226-9](https://doi.org/10.1007/978-0-387-27226-9), ISBN-13: ‎978-0387232294$]$ 
 
 
-Lecture notes and reviews include
+Lecture notes and reviews:
 
 * {#Hain08} Richard Hain, section 4 of _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
 
@@ -252,6 +252,11 @@ Lecture notes and reviews include
 * {#Calegari13} Frank Calegari, _Congruences between modular forms_, 2013 [pdf](https://swc-math.github.io/aws/2013/2013CalegariLectureNotes.pdf)
 
 * Wikipedia, _[Modular form](http://en.wikipedia.org/wiki/Modular_form)_
+
+Introduction in relation to [[string theory]]:
+
+* [[Eric D'Hoker]], [[Justin Kaidi]], *Lectures on modular forms and strings* &lbrack;[arXiv:2208.07242](https://arxiv.org/abs/2208.07242)&rbrack;
+
 
 
 The work of Erich Hecke:
