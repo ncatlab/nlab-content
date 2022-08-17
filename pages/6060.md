@@ -487,7 +487,7 @@ Then equivariant twisted de Rham cohomology of $X$ is the de Rham cohomology of 
 
 In the following, let $\mathrm{X}$ be a [[smooth manifold]], which we assume, without real restriction of generality, to be [[connected topological space|connected]]. Therefore we write $\pi_1(\mathrm{X})$ for its [[fundamental group]], for any fixed choice of [[basepoint]] $x_0 \,\in\, \mathrm{X}$.
 
-We write $\widehat{\mathrm{X}} \xrightarrow{\;} \mathrm{X}$ for its [[universal cover]] (also canonically a smooth manifold). This is a $\pi_1(\mathrm{X})$-[[principal bundle]], in particular it has a canonical $\p_1(\mathrm{X})$-[[group action|action]] by [[deck transformations]].
+We write $\widehat{\mathrm{X}} \xrightarrow{\;} \mathrm{X}$ for its [[universal cover]] (also canonically a smooth manifold). This is a $\pi_1(\mathrm{X})$-[[principal bundle]], in particular it has a canonical $\pi_1(\mathrm{X})$-[[group action|action]] by [[deck transformations]].
 
 For $\mathcal{L}$ a [[complex line bundle]] over $\mathrm{X}$ with [[flat connection]] $\nabla$, write
 \[
