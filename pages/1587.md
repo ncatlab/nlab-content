@@ -1147,6 +1147,8 @@ This indeed is then the usual construction of the universal covering space in te
 
 ## Related concepts
 
+* [[deck transformation]]
+
 * [[branched covering space]]
 
 ## References
