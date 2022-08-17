@@ -27,6 +27,8 @@ The term “covering” may refer to:
 
    [[covers]], such as [[open covers]] or [[covering spaces]]; 
 
+   in which case "covering map" means: "[[deck transformation]]"
+
 1. more generally in [[sheaf and topos theory]]:
 
    [[covering families]] of a [[coverage]] or [[Grothendieck topology]]
