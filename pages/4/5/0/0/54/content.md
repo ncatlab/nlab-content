@@ -34,7 +34,7 @@ in the group of Prof. [[Hisham Sati]] leading the <br/>
 
 ## research 
 
-I am doing research in mathematical fundamental physics (e.g *[[Hypothesis H]]*).
+I am doing research in mathematical fundamental physics (e.g. on *[[Hypothesis H]]* and *[[schreiber:Topological Quantum Programming in TED-K|TQC in TED-K]]*).
 
 For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References).
 
