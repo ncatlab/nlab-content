@@ -90,6 +90,11 @@ On formalizing [[short-range entanglement]] in [[topological phases of matter]] 
 
 * {#Freed14} [[Daniel S. Freed]], *Short-range entanglement and invertible field theories* $[$[arXiv:1406.7278](https://arxiv.org/abs/1406.7278) $]$
 
+On [[spectral networks]] and [[Chern-Simons theory with complex gauge group]]:
+
+* [[Daniel S. Freed]], [[Andrew Neitzke]], *3d spectral networks and classical Chern-Simons theory* &lbrack;[arXiv:2208.07420](https://arxiv.org/abs/2208.07420)&rbrack;
+
+
 
 ## Related entries
 
