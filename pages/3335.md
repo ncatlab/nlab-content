@@ -9,6 +9,10 @@ On the [[stable Dold-Kan correspondence]]:
 
 * {#Shipley02} [[Brooke Shipley]], _$H \mathbb{Z}$-algebra spectra are differential graded algebras_, Amer. Jour. of Math. 129 (2007) 351-379. &lbrack;[arXiv:math/0209215](http://arxiv.org/abs/math/0209215), [jstor:40068065](https://www.jstor.org/stable/40068065)&rbrack;
  
+On [[model categories]] of [[coalgebras over a comonad]] via left-[[transferred model category|left transfer]] (left-induction):
+
+* [[Kathryn Hess]], [[Brooke Shipley]], *The homotopy theory of coalgebras over a comonad*, Proceedings of the London Mathematical Society **108** 2 (2014) &lbrack;[arXiv:1205.3979](https://arxiv.org/abs/1205.3979), [doi:10.1112/plms/pdt038](https://doi.org/10.1112/plms/pdt038)&rbrack;
+
 
 
 On left-[[transferred model structures]] and [[model structures on functors]]:
