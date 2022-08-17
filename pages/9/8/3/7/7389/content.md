@@ -3,9 +3,11 @@
 
 ## Selected writings
 
-On [[Chern-Simons theory with complex gauge group]]:
+On [[perturbative quantum field theory|perturbative]] [[Chern-Simons theory with complex gauge group]]:
 
-* {#DGLZ09} [[Tudor Dimofte]], [[Sergei Gukov]], Jonatan Lenells, [[Don Zagier]], _Exact Results for Perturbative Chern-Simons Theory with Complex Gauge Group_ ([arXiv:0903.2472](http://arxiv.org/abs/0903.2472))
+* {#DGLZ09} [[Tudor Dimofte]], [[Sergei Gukov]], [[Jonatan Lenells]], [[Don Zagier]], _Exact Results for Perturbative Chern-Simons Theory with Complex Gauge Group_, Commun. Num. Theor. Phys. **3** (2009) 363-443 &lbrack;[arXiv:0903.2472](http://arxiv.org/abs/0903.2472), [doi:10.4310/CNTP.2009.v3.n2.a4](https://dx.doi.org/10.4310/CNTP.2009.v3.n2.a4)&rbrack;
+
+
 
 * {#Dimofte16} [[Tudor Dimofte]],  _Perturbative and nonperturbative aspects of complex Chern-Simons Theory_, Journal of Physics A: Mathematical and Theoretical, Volume 50, Number 44 ([arXiv:1608.02961](https://arxiv.org/abs/1608.02961))
 
