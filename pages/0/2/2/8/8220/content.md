@@ -75,21 +75,41 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[length 
 
 ## References
 
+See also the references at *[[standard model of cosmology]]*.
+
 ### General
+ {#ReferencesGeneral}
+
+
+Brief review:
+
+* Jorge L. Cervantes-Cota, George Smoot, *Cosmology today -- A brief review*, AIP Conf. Proc. **1396** (2011) 28-52 &lbrack;[arXiv:1107.1789](http://arxiv.org/abs/1107.1789), [doi:10.1063/1.3647524](https://doi.org/10.1063/1.3647524)&rbrack;
+
+Textbook accounts:
 
 * [[P. J. E. Peebles]], *Principles of Physical Cosmology*, Princeton University Press (1993, 2020) &lbrack;[ISBN:9780691209814](https://press.princeton.edu/books/paperback/9780691209814/principles-of-physical-cosmology), [pdf](http://fma.if.usp.br/~mlima/teaching/PGF5292_2021/Peebles_PPC.pdf)&rbrack;
 
 * [[John Peacock]], _Cosmological Physics_, Cambridge University Press (1998, 2012) &lbrack;[doi:10.1017/CBO9780511804533](https://doi.org/10.1017/CBO9780511804533), [book webpage](http://www.roe.ac.uk/~jap/book.html)&rbrack;
 
-* Jorge L. Cervantes-Cota, George Smoot, _Cosmology today -- A brief review_ (2011) ([arXiv:1107.1789](http://arxiv.org/abs/1107.1789))
+Lecture notes:
 
-* Oliver F. Piattella, _Lecture Notes in Cosmology_ ([arXiv:1803.00070](https://arxiv.org/abs/1803.00070))
+* [[Matthias Blau]], Part F of: *Lecture notes on general relativity* ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
 
-* Daniel Baumann, _TASI Lectures on Primordial Cosmology_ ([arXiv:1807.03098](https://arxiv.org/abs/1807.03098))
+* Oliver F. Piattella, *Lecture Notes in Cosmology*, UNITEXT for Physics, Springer (2018)  &lbrack;[arXiv:1803.00070](https://arxiv.org/abs/1803.00070), [doi:10.1007/978-3-319-95570-4](https://doi.org/10.1007/978-3-319-95570-4)&rbrack;
+
+* [[Daniel Baumann]], _TASI Lectures on Primordial Cosmology_ ([arXiv:1807.03098](https://arxiv.org/abs/1807.03098))
+
+* Gianluca Calcagni, Maria Grazia Di Luca, Tomáš Fodran, Lecture at [Corfu2021](http://www.physics.ntua.gr/corfu2021/)*Lectures on classical and quantum cosmology* &lbrack;[arXiv:2202.13875](https://arxiv.org/abs/2202.13875), [spire:2039729](https://inspirehep.net/literature/2039729)&rbrack;
+
+
+See also:
 
 * Ned Wright, _[Cosmology tutorial](http://www.astro.ucla.edu/~wright/cosmolog.htm)_
 
-Emphasis of [[non-perturbative effects]]:
+* Wikipedia, *[Cosmology](https://en.wikipedia.org/wiki/Cosmology)*
+
+
+Emphasis on [[non-perturbative effects]]:
 
 * Anna Ijjas, Frans Pretorius, [[Paul Steinhardt]], _Stability and the gauge problem in non-perturbative cosmology_,  Journal of Cosmology and Astroparticle Physics, Volume 2019, January 2019 ([arXiv:1809.07010](https://arxiv.org/abs/1809.07010), [doi:10.1088/1475-7516/2019/01/015](https://iopscience.iop.org/article/10.1088/1475-7516/2019/01/015))
 
