@@ -179,6 +179,9 @@ Discussion for [[internal groupoids]] in [[Top]] ([[topological groupoids]]):
 
 * [[Susan B. Niefield]], [[Dorette A. Pronk]], *Internal groupoids and exponentiability*, Cahiers de topologie et géométrie différentielle catégoriques, [**LX** 4 (2019)](http://cahierstgdc.com/index.php/volume-lx/) ([pdf](http://cahierstgdc.com/wp-content/uploads/2019/10/Niefield-Pronk-LX-4.pdf))
 
+Exponentiable relational structures are considered in
+
+* [[Jason Parker]], _Exponentiability in categories of relational structures_ , arXiv:2208:07350 (2022) ([abstract](https://arxiv.org/abs/2208.07350))
 
 [[!redirects exponential object]]
 [[!redirects exponential objects]]
