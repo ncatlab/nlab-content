@@ -552,6 +552,8 @@ Further discussion of holographic quantum error correcting codes:
 
 * Jason Pollack, Patrick Rall, Andrea Rocchetto, *Understanding holographic error correction via unique algebras and atomic examples*, Journal of High Energy Physics, 56 (2022) $[$[arXiv:2110.14691](https://arxiv.org/abs/2110.14691)$]$
 
+* Dmitry S. Ageev, *Exploring uberholography* &lbrack;[arXiv:2208.07387](https://arxiv.org/abs/2208.07387)&rbrack;
+
 
 Understanding in terms of the [[eigenstate thermalization hypothesis]]:
 
