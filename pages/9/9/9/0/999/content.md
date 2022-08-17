@@ -55,56 +55,87 @@ More generally, if $\kappa$ is a [[regular cardinal]], then an object $X$ such t
 
 =--
 
+
 ## Properties
   {#Properties}
 
-+-- {: .num_prop}
-###### Proposition
 
+\begin{proposition}
+\label{SmoothColimitsOfCompactObjectsAreCompact}
+**(smooth colimits of compact objects are compact)**
+\linebreak
 A $\kappa$-small [[colimit]] of $\kappa$-compact objects is again a $\kappa$-compact object.
+\end{proposition}
 
-=--
-
-+-- {: .proof}
-###### Proof
-
+\begin{proof}
 Let $D$ be a $\kappa$-[[small category]] and $X : D \to C$ a [[diagram]] of $\kappa$-compact objects. Let $I$ be a $\kappa$-[[filtered category]] and $A : I \to C$ a $\kappa$-filtered diagram in $C$. Then
 
 $$
-  Hom(\lim_{\to_d} X_d, \lim_{\to_i} A_i)
-  \simeq
-  \lim_{\leftarrow_d} Hom(X_d, \lim_{\to_i} A_i)
+  Hom
+  \Big(
+    \underset{\underset{d}{\longrightarrow}}{\lim}
+    X_d
+    ,\, 
+    \underset{\underset{i}{\longrightarrow}}{\lim}
+    A_i
+  \Big)
+  \;\simeq\;
+  \underset{\underset{d}{\longleftarrow}}{\lim}
+  \;
+   Hom
+   \Big(
+     X_d
+     ,\, 
+    \underset{\underset{i}{\longrightarrow}}{\lim}
+     A_i
+   \Big)
 $$
 
-by general properties of the [[hom functor]]. Now using that every $X_d$ is $\kappa$-compact and $I$ is $\kappa$-filtered this is
+by [[hom-functor preserves limits|general properties of]] the [[hom functor]]. Now using that every $X_d$ is $\kappa$-compact and $I$ is $\kappa$-filtered this is
 
 $$
   \cdots 
-  \simeq
-  \lim_{\leftarrow_d} \lim_{\to_i} Hom(X_d, A_i)
+  \;\simeq\;
+  \underset{\underset{d}{\longleftarrow}}{\lim}
+  \;
+  \underset{\underset{i}{\longrightarrow}}{\lim}
+  \;
+  Hom\big(X_d, A_i\big)
   \,.
 $$
 
-Since this (co)limit is taken in [[Set]] ,the $\kappa$-small limit over $D$ commutes with the $\kappa$-filtered colimit
+Since this (co)limit is taken in [[Set]], the $\kappa$-small limit over $D$ [[limits commuting with colimits|commutes]] with the $\kappa$-filtered colimit
 
 $$
   \cdots 
-  \simeq
-  \lim_{\to_i} \lim_{\leftarrow_d}  Hom(X_d, A_i)
+  \;\simeq\;
+  \underset{\underset{i}{\longrightarrow}}{\lim}
+  \;
+  \underset{\underset{d}{\longleftarrow}}{\lim}
+  \,
+  Hom\big(X_d, A_i\big)
   \,.
 $$
 
-We can take the limit again to a colimit in the first argument
+Finally we make take the limit again to a colimit in the first argument
 
 $$
   \cdots 
-  \simeq
-  \lim_{\to_i}  Hom(\lim_{\to_d}  X_d, A_i)
+  \;\simeq\;
+  \underset{\underset{i}{\longrightarrow}}{\lim}
+  \;
+  Hom
+  \big(
+    \underset{\underset{d}{\longrightarrow}}{\lim}
+    X_d
+    ,\, 
+    A_i
+  \big)
   \,,
 $$
 
-which proves the claim.
-=--
+which yields the claim.
+\end{proof}
 
 +-- {: .num_prop}
 ###### Proposition
