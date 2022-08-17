@@ -483,23 +483,28 @@ Then equivariant twisted de Rham cohomology of $X$ is the de Rham cohomology of 
 ### Of 1-Twisted de Rham cohomology
 
 #### Equivalence with $\pi_1$-invariant dR cohomology
+ {#EquivalenceWithPiOneInvariantdRCohomology}
 
 In the following, let $\mathrm{X}$ be a [[smooth manifold]], which we assume, without real restriction of generality, to be [[connected topological space|connected]]. Therefore we write $\pi_1(\mathrm{X})$ for its [[fundamental group]], for any fixed choice of [[basepoint]] $x_0 \,\in\, \mathrm{X}$.
 
 We write $\widehat{\mathrm{X}} \xrightarrow{\;} \mathrm{X}$ for its [[universal cover]] (also canonically a smooth manifold). This is a $\pi_1(\mathrm{X})$-[[principal bundle]], in particular it has a canonical $\p_1(\mathrm{X})$-[[group action|action]] by [[deck transformations]].
 
 For $\mathcal{L}$ a [[complex line bundle]] over $\mathrm{X}$ with [[flat connection]] $\nabla$, write
-$$
+\[
+  \label{HolonomyMap}
   hol_\nabla
   \,\colon\,
   \pi_1(\mathrm{X})
   \xrightarrow{\;\;}
   \mathbb{C}^\times
-$$
+\]
 for the [[group homomorphism]] from the [[fundamental group]] to the multiplicative [[group of units]] $\mathbb{C}^\times \,=\, \mathbb{C} \setminus \{0\}$ which is given by sending a [[smooth curve]] $\lambda \colon [0,1] \to \mathrm{X}$ (with $\lambda(0) = \lambda(1)$) to its [[holonomy]] under the [[parallel transport]] with respect to $\nabla$.
 
 \begin{proposition}
-  For $\mathcal{L}$ a [[complex line bundle]] over $\mathrm{X}$ with [[flat connection]] $\nabla$, there is an [[isomorphism]] between
+\label{OneTwisteddRCohomologyEquivalentToPiOneInvariantOnUniversalCover}
+**(1-Twisted dR cohomology equivalent to $\pi_1$-invariant dR cohomology on universal cover)**
+\linebreak
+  For $\mathcal{L}$ a [[complex line bundle]] over $\mathrm{X}$ with [[flat connection]] $\nabla$, there is a [[natural isomorphism|natural]] [[isomorphism]] between
 
 1. the $\nabla$-twisted de Rham cohomology on $\mathrm{X}$:
 
@@ -535,40 +540,52 @@ for the [[group homomorphism]] from the [[fundamental group]] to the multiplicat
      \bigg)
    $$
 
-where $\pi_1(\mathrm{X})$ acts on differential forms by pullback along [[deck transformations]] combined with multiplication by the [[holonomy]] of $\nabla$:
+   where [[fundamental group|$\pi_1(\mathrm{X})$]] [[group action|acts]] on [[differential forms]] by [[pullback of differential forms|pullback]] along [[deck transformations]] combined with multiplication by the [[holonomy]] (eq:HolonomyMap) of $\nabla$:
 
-$$
-  \array{
-    \pi_1(\mathrm{X})
-    \times
-    \Omega^\bullet_{\mathrm{dR}}
-    \big(
-      \widehat{\mathrm{X}}
-      ;\,
-      \mathbb{C}
-    \big)
-    &\xrightarrow{\phantom{--}}&
-    \Omega^\bullet_{\mathrm{dR}}
-    \big(
-      \widehat{\mathrm{X}}
-      ;\,
-      \mathbb{C}
-    \big)
-    \\
-    \big(
-      [\lambda]
-      ,\,
-      A 
-    \big)
-    &\longmapsto&
-    hol_\nabla(\lambda)
-    \cdot
-    [\lambda]^\ast(A)
-  }
-$$
+   $$
+     \array{
+       \pi_1(\mathrm{X})
+       \times
+       \Omega^\bullet_{\mathrm{dR}}
+       \big(
+         \widehat{\mathrm{X}}
+         ;\,
+         \mathbb{C}
+       \big)
+       &\xrightarrow{\phantom{--}}&
+       \Omega^\bullet_{\mathrm{dR}}
+       \big(
+         \widehat{\mathrm{X}}
+         ;\,
+         \mathbb{C}
+       \big)
+       \\
+       \big(
+         [\lambda]
+         ,\,
+         A 
+       \big)
+       &\mapsto&
+       hol_\nabla(\lambda)
+       \cdot
+       [\lambda]^\ast(A)
+     }
+   $$
+
 \end{proposition}
+A **proof** is spelled out in [this pdf](https://www.dropbox.com/s/l51nx8ptjgi1cff/TwistedDeRhamCohomology.pdf?dl=0).
 
-\newline
+\begin{example}
+**(Hypergeometric integral solutions of KZ-equation)**
+\linebreak
+  For the special case that the [[complex line bundle]] $\mathcal{L}$ is [[trivial bundle|trivial]] (so that the [[flat connection]] $\nabla$ is represented by a globally defined [[differential 1-form]] already on the base manifold $\mathrm{X}$) the statement of Prop. \ref{OneTwisteddRCohomologyEquivalentToPiOneInvariantOnUniversalCover} (or rather its [[holomorphic line bundle|holomorphic]] version) plays a central role in the discussion of the "[hypergeometric integral construction](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces)" of solutions to the [[Knizhnik-Zamolodchikov equation]], where it is applied to the case that $\mathrm{X}$ is a punctured [[Riemann sphere]]. In fact it is so central to this construction that the function $\ell$ which trivializes the connection form on the universal cover and thereby induces the isomorphism in Prop. \ref{OneTwisteddRCohomologyEquivalentToPiOneInvariantOnUniversalCover} came to be called the "master function", in this context ([Slinkin & Varchenko 2019, §2.1](#SlinkinVarchenko19)).
+
+On the other hand, none of the many references listed [there](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces) really make the Proposition explicit.
+\end{example}
+
+
+\linebreak
+
 
 ### Of 3-Twisted de Rham cohomology
 
@@ -605,6 +622,13 @@ Review:
 * Cailan Li, *Cohomology of Local Systems on $X_\Gamma$* ([pdf](http://math.columbia.edu/~mundy/L3.pdf), [[Li_CohomologyOfLocalSystems.pdf:file]])
 
 * Youming Chen, Song Yang, Section 2.1 in: *On the blow-up formula of twisted de Rham cohomology*. Annals of Global Analysis and Geometry volume 56, pages 277–290 (2019) ([arXiv:1810.09653](https://arxiv.org/abs/1810.09653), [doi:10.1007/s10455-019-09667-8](https://doi.org/10.1007/s10455-019-09667-8))
+
+For extensive application, see also the "[hypergeometric integral construction](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces)" of solutions to the [[Knizhnik-Zamolodchikov equation]]. 
+
+In this context there is also:
+
+* {#SlinkinVarchenko19} [[Alexey Slinkin]], [[Alexander Varchenko]], *Twisted de Rham Complex on Line and Singular Vectors in $\widehat{\mathfrak{sl}}_2$ Verma Modules*, SIGMA **15** (2019) 075 &lbrack;[arXiv:1812.09791](https://arxiv.org/abs/1812.09791), [doi:10.3842/SIGMA.2019.075](https://doi.org/10.3842/SIGMA.2019.075)&rbrack;
+
 
 
 ### Twist in degree 3
