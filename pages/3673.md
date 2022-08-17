@@ -428,11 +428,14 @@ Beware that [HKRS15](#HKRS15) contains an error, corrected by:
 
 * {#GKR18} [[Richard Garner]], [[Magdalena Kedziorek]], [[Emily Riehl]], *Lifting accessible model structures*, J. Topology **13** 1 (2020) 59-76 &lbrack;[arXiv:1802.09889](https://arxiv.org/abs/1802.09889), [doi:10.1112/topo.12123](https://doi.org/10.1112/topo.12123)&rbrack;
 
+Technical lemmas regarding the underlying [[cellular categories]]:
+
+* {#MR13} [[M. Makkai]], [[J. Rosický]], _Cellular categories_, J. Pure Appl. Alg. **218** (2014) 1652-1664 &lbrack;[arXiv:1304.7572](https://arxiv.org/abs/1304.7572), [doi:10.1016/j.jpaa.2014.01.005](https://doi.org/10.1016/j.jpaa.2014.01.005)&rbrack;
+
 Generally related discussion:
 
-* [[Higher Topos Theory]], Appendix A
 
-* {#MR13} [[M. Makkai]], [[J. Rosický]], _Cellular categories_ (2013) &lbrack;[arXiv:1304.7572](https://arxiv.org/abs/1304.7572)&rbrack;
+* [[Jacob Lurie]], Appendix A of: *[[Higher Topos Theory]]*, 
 
 The right-transferred model structure on algebras for a 2-monad is from
 
