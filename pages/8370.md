@@ -243,7 +243,7 @@ An analogous trilogy is seen under passage:
 
 1. from [[computation]] to [[quantum computation]];
 
-1. from [[cartesian closed categories]] to [[closed monoidal categories|closed]].
+1. from [[cartesian closed categories]] to [[closed monoidal categories]]
 
 This is the main point of [Melliès 06, Sec. 1](#Mellies06), only that where Melliès shows "[[proof nets]]" ([p. 4](https://hal.archives-ouvertes.fr/hal-00154243/document#page=5)) we refer to them as "[[quantum computation]]" for better emphasis, following [Abramsky-Coecke 04](quantum+programming+language#AbramskyCoecke04), [Abramsky & Duncan 05](quantum+programming+language#AbramskyDuncan05), [Duncan 06](quantum+programming+language#Duncan06); going back to [Pratt 92](quantum+programming+language#Pratt92):
 
