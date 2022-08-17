@@ -173,6 +173,7 @@ More generally, the conclusion of the Poincaré lemma for differential forms of 
 Explicitly:
 
 \begin{proposition}
+\label{ForOneFormsOnSimplyConnectedDomain}
   On a [[simply-connected topological space|simply-connected]] (i.e.: 1-connected) [[smooth manifold]], a closed [[differential 1-form]] $\omega$ is exact, with potential function given at $x \in X$ by the [[integration of differential forms|integral]] of $\omega$ from any fixed base point along any smooth path to $x$.
 \end{proposition}
 
