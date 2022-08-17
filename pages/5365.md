@@ -48,6 +48,8 @@ A _finite cell complex_ or _countable cell complex_ is a cell complex with a [[f
 
 ## Related concepts
 
+* [[cellular category]]
+
 * [[cellular map]]
 
 * [[CW complex]]
