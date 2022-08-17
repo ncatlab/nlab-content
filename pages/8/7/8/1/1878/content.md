@@ -392,15 +392,20 @@ The category of diagrams indexed by a fixed small category $D$, taking values in
 
 ## Related concepts ##
 
-* A cofibrantly generated model category that is also a [[locally presentable category]] is called a [[combinatorial model category]].
+* A cofibrantly generated model category that is also a [[locally presentable category]] is called a *[[combinatorial model category]]*.
 
-* A cofibrantly generated model category for which the domains of the morphisms in $I$ and $J$ are [[compact object]]s or [[small object]]s is a [[cellular model category]].
+* A cofibrantly generated model category for which the [[domains]] of the morphisms in $I$ and $J$ are [[compact objects]] or [[small objects]] is a *[[cellular model category]]*.
+
+* [[cellular category]]
+
+* [[transferred model structure]]
+
 
 ## References ##
 
-The original reference is Chapter II of
+The original reference is:
 
-* [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]], *[[Model Categories and More General Abstract Homotopy Theory]]*, &lbrack;[pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/dhk.pdf), [[DwyerHirschhornKan-ModelCategories.pdf:file]]&rbrack;
+* [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]], Chapter II of: *[[Model Categories and More General Abstract Homotopy Theory]]*, &lbrack;[pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/dhk.pdf), [[DwyerHirschhornKan-ModelCategories.pdf:file]]&rbrack;
 
 In particular, the Kan recognition theorem is in §II.8 and the [[Kan transfer theorem]] is in §II.9.
 This manuscript draft later transformed in 
@@ -437,3 +442,4 @@ See also:
 [[!redirects cofibrantly generated]]
 
 [[!redirects Kan recognition theorem]]
+
