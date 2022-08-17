@@ -573,12 +573,45 @@ for the [[group homomorphism]] from the [[fundamental group]] to the multiplicat
    $$
 
 \end{proposition}
-A **proof** is spelled out in [this pdf](https://www.dropbox.com/s/l51nx8ptjgi1cff/TwistedDeRhamCohomology.pdf?dl=0).
+A **proof** is spelled out in [this pdf](https://www.dropbox.com/s/l51nx8ptjgi1cff/TwistedDeRhamCohomology.pdf?dl=0). It proceeds by observing that the bundle and its connection trivialize after pullback to the universal cover $\widehat{\mathrm{X}}$, in fact that the local connection form $\widehat{\omega}$ on $\widehat{\mathrm{X}}$ becomes exact (by the [[Poincaré lemma]] for simply connected domains, [here](Poincaré+lemma#ForOneFormsOnSimplyConnectedDomain)):
+\[
+  \label{MasterFunction}
+  \underset{
+    \mathclap{\phantom{\vert^{\vert}}}
+    { \ell \in }
+    \atop
+    { 
+      C^\infty\big(
+        \widehat{\mathrm{X}}
+        ;\, 
+        \mathbb{C}^\times
+     \big) 
+    }
+  }{\exists}
+  \;\;\;
+  \widehat{\omega}
+  \;=\;
+  - \mathrm{d} log \ell
+  \,,
+  \;\;\;\;
+  \in
+  \;
+  \Omega^1_{dR}
+  \big(
+    \widehat{\mathrm{X}}
+    ,\,
+    \mathbb{C}
+  \big)
+  \,,
+\]
+and checking that multiplication by this potential $\ell$ (eq:MasterFunction) constitutes a [[isomorphism|isomorphic]] ([[bijection|bijective]]) [[chain map]] between the [[cochain complexes]] in question.
+
 
 \begin{example}
 **(Hypergeometric integral solutions of KZ-equation)**
 \linebreak
-  For the special case that the [[complex line bundle]] $\mathcal{L}$ is [[trivial bundle|trivial]] (so that the [[flat connection]] $\nabla$ is represented by a globally defined [[differential 1-form]] already on the base manifold $\mathrm{X}$) the statement of Prop. \ref{OneTwisteddRCohomologyEquivalentToPiOneInvariantOnUniversalCover} (or rather its [[holomorphic line bundle|holomorphic]] version) plays a central role in the discussion of the "[hypergeometric integral construction](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces)" of solutions to the [[Knizhnik-Zamolodchikov equation]], where it is applied to the case that $\mathrm{X}$ is an $n$-punctured [[Riemann sphere]] (e.g. a [[trinion]]). In fact it is so central to this construction that the function $\ell$ which trivializes the connection form on the universal cover and thereby induces the isomorphism in Prop. \ref{OneTwisteddRCohomologyEquivalentToPiOneInvariantOnUniversalCover} came to be called the "master function", in this context ([Slinkin & Varchenko 2019, §2.1](#SlinkinVarchenko19)).
+  For the special case that the [[complex line bundle]] $\mathcal{L}$ is [[trivial bundle|trivial]] (so that the [[flat connection]] $\nabla$ is represented by a globally defined [[differential 1-form]] already on the base manifold $\mathrm{X}$) the statement of Prop. \ref{OneTwisteddRCohomologyEquivalentToPiOneInvariantOnUniversalCover} (or rather its [[holomorphic line bundle|holomorphic]] version) plays a central role in the discussion of the "[hypergeometric integral construction](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces)" of solutions to the [[Knizhnik-Zamolodchikov equation]], where it is applied to the case that $\mathrm{X}$ is an $n$-punctured [[Riemann sphere]] (e.g. a [[trinion]]). In fact it is so central to this construction that the function $\ell$ (eq:MasterFunction)
+which trivializes the connection form on the universal cover and thereby induces the isomorphism in Prop. \ref{OneTwisteddRCohomologyEquivalentToPiOneInvariantOnUniversalCover} came to be called the "master function", in this context ([Slinkin & Varchenko 2019, §2.1](#SlinkinVarchenko19)).
 
 On the other hand, none of the many references listed [there](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces) really make the Proposition explicit.
 \end{example}
