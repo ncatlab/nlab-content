@@ -19,14 +19,19 @@ On [[convenient categories of topological spaces]] and [[directed homotopy theor
 
 * {#FajstrupRosicky08} [[Lisbeth Fajstrup]], [[Jiří Rosický]], _A convenient category for directed homotopy_, Theory and Applications of Categories, Vol. 21, 2008, No. 1, pp 7-20. ([arXiv:0708.3937](https://arxiv.org/abs/0708.3937), [tac:21-01](http://www.tac.mta.ca/tac/volumes/21/1/21-01abs.html))
 
-
 On [[class-locally presentable categories]]:
 
 * [[Boris Chorny]], [[Jiří Rosický]], _Class-locally presentable and class-accessible categories_, Journal of Pure and Applied Algebra **216**, Issue 10 (2012) pp 2113–2125 ([doi:10.1016/j.jpaa.2012.01.015](https://doi.org/10.1016/j.jpaa.2012.01.015))
 
+
+Introducing [[cellular categories]]:
+
+* {#MakkaiRosický14} [[M. Makkai]], [[J. Rosický]], _Cellular categories_, J. Pure Appl. Alg. **218** (2014) 1652-1664 &lbrack;[arXiv:1304.7572](https://arxiv.org/abs/1304.7572), [doi:10.1016/j.jpaa.2014.01.005](https://doi.org/10.1016/j.jpaa.2014.01.005)&rbrack;
+
+
+
+
 ## Related $n$Lab entries
-
-
 
 * [[locally presentable category]]
 
