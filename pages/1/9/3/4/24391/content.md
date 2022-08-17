@@ -179,6 +179,10 @@ modulo the relations
 \int_{j \in \mathbb{N}} \big( \int_{i \in \mathbb{N}} \mathbf{a} \, d\mathbf{Q}^i \big) \, d\mathbf{p} \cong  \int_{j \in \mathbb{N}} \mathbf{a} \, d\big( \int_{i \in \mathbb{N}} \mathbf{Q}^{\bullet} \,   d\mathbf{p} \big)  \quad \forall \, \mathbf{Q} \in \mathbf{Set}( \mathbb{N},  \mathcal{G}{\mathbb{N}})
 \end{equation}
  so that the sole necessary axiom of a superconvex space is satisfied. 
+
+The importance of the free space adjunction is that it implies
+
+*Every quotient of a free space is the free space of a quotient.*  The proof is straight forward. Every congruence relation $\mathcal{R}$ on $\mathcal{F}X$ specifies an equivalence relation $\mathcal{S}$ on the set $X$ by $(x_1,x_2) \in \mathcal{S}$ iff $(1 x_1, 1 x_2) \in \mathcal{R}$. Consequently $\mathcal{F}X/\mathcal{R} \cong \mathcal{F}(X/\mathcal{S})$ via $\sum_{i \in \mathbb{N}} p_i [x_i]_{\mathcal{R}} \mapsto \sum_{i \in \mathbb{N}} p_i [x_i]_{\mathcal{S}}$. 
     
  Now let $X$ denote a standard measurable space, so $\mathcal{G}{X}$ is standard also. Forgetting the measurable structure on $\mathcal{G}{X}$ we can take the free space of that set, $\mathcal{F}( \mathcal{U}( \mathcal{G}{X}))$ which consist of all countable affine sums $\int_{\mathbb{N}} \mathbf{P} \, d\mathbf{p}$ for all $\mathbf{P} \in \mathbf{Set}(\mathbb{N}, \mathcal{U}(\mathcal{G}{X}))$ and all $\mathbf{p} \in \mathcal{G}{\mathbb{N}}$.  These countable affine sums are  defined pointwise $(\int_{\mathbb{N}} \mathbf{P} \, d\mathbf{p})U := \sum_{i \in \mathbb{N}} p_i P_i(U)$ for all $U \in \Sigma_X$. 
   
@@ -251,7 +255,7 @@ The fact that  the functor $\mathbf{\Sigma}: \mathbf{\Omega} \rightarrow \mathbf
 
 * {#Sturtz22} [[Kirk Sturtz]], _Giry algebras for standard measurable spaces_ $[$[arXiv:2202:10819](https://arxiv.org/abs/2202.10819)$]$
 
-although several aspects, such as the claim that $\mathbf{\Omega}$ is dense in $\mathbf{SCvx}$ are incorrect. 
+although several aspects, such as the construction with the right-Kan is incorrect. 
 
 For purposes of constructing models of complex systems using superconvex spaces the construction given in Example 6.1 of the following article applies equally well to superconvex spaces.
 
