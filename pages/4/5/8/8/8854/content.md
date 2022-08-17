@@ -26,3 +26,7 @@ This construction is used also for many other Lie algebras with triangular decom
 ## Related concepts
 
 * [[BGG resolution]]
+
+[[!redirects Verma modules]]
+
+
