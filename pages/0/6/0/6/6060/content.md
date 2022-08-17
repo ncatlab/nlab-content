@@ -480,6 +480,98 @@ Then equivariant twisted de Rham cohomology of $X$ is the de Rham cohomology of 
 
 ## Properties
 
+### Of 1-Twisted de Rham cohomology
+
+#### Equivalence with $\pi_1$-invariant dR cohomology
+
+In the following, let $\mathrm{X}$ be a [[smooth manifold]], which we assume, without real restriction of generality, to be [[connected topological space|connected]]. Therefore we write $\pi_1(\mathrm{X})$ for its [[fundamental group]], for any fixed choice of [[basepoint]] $x_0 \,\in\, \mathrm{X}$.
+
+We write $\widehat{\mathrm{X}} \xrightarrow{\;} \mathrm{X}$ for its [[universal cover]] (also canonically a smooth manifold). This is a $\pi_1(\mathrm{X})$-[[principal bundle]], in particular it has a canonical $\p_1(\mathrm{X})$-[[group action|action]] by [[deck transformations]].
+
+For $\mathcal{L}$ a [[complex line bundle]] over $\mathrm{X}$ with [[flat connection]] $\nabla$, write
+$$
+  hol_\nabla
+  \,\colon\,
+  \pi_1(\mathrm{X})
+  \xrightarrow{\;\;}
+  \mathbb{C}^\times
+$$
+for the [[group homomorphism]] from the [[fundamental group]] to the multiplicative [[group of units]] $\mathbb{C}^\times \,=\, \mathbb{C} \setminus \{0\}$ which is given by sending a [[smooth curve]] $\lambda \colon [0,1] \to \mathrm{X}$ (with $\lambda(0) = \lambda(1)$) to its [[holonomy]] under the [[parallel transport]] with respect to $\nabla$.
+
+\begin{proposition}
+  For $\mathcal{L}$ a [[complex line bundle]] over $\mathrm{X}$ with [[flat connection]] $\nabla$, there is an [[isomorphism]] between
+
+1. the $\nabla$-twisted de Rham cohomology on $\mathrm{X}$:
+
+   $$
+     H^\bullet
+     \Big(
+       \Omega_{dR}^\bullet
+       \big(
+         \mathrm{X}
+          ;\,
+          \mathcal{L}
+       \big)
+       ,\,
+       \nabla
+     \Big)
+   $$
+
+1. the untwisted but $\pi_1$-[[invariant]] complex-valued de Rham cohomology on the [[universal cover]] $\widehat{\mathrm{X}}$
+
+   $$
+     H^\bullet
+     \bigg(
+       \Big(
+         \Omega^\bullet_{dR}
+         \big(
+           \widehat{\mathrm{X}}
+           ;\,
+           \mathbb{C}
+         \big)
+       \Big)^{\pi_1(\mathrm{X})}  
+       ,\,
+       \mathrm{d}
+     \bigg)
+   $$
+
+where $\pi_1(\mathrm{X})$ acts on differential forms by pullback along [[deck transformations]] combined with multiplication by the [[holonomy]] of $\nabla$:
+
+$$
+  \array{
+    \pi_1(\mathrm{X})
+    \times
+    \Omega^\bullet_{\mathrm{dR}}
+    \big(
+      \widehat{\mathrm{X}}
+      ;\,
+      \mathbb{C}
+    \big)
+    &\xrightarrow{\phantom{--}}&
+    \Omega^\bullet_{\mathrm{dR}}
+    \big(
+      \widehat{\mathrm{X}}
+      ;\,
+      \mathbb{C}
+    \big)
+    \\
+    \big(
+      [\lambda]
+      ,\,
+      A 
+    \big)
+    &\longmapsto&
+    hol_\nabla(\lambda)
+    \cdot
+    [\lambda]^\ast(A)
+  }
+$$
+\end{proposition}
+
+\newline
+
+### Of 3-Twisted de Rham cohomology
+
 +-- {: .num_prop #TwistedDeRhamCohomologyCoincidesWithHCohomologyOnInfinitesimllayThickenedPoint}
 ###### Proposition
 
