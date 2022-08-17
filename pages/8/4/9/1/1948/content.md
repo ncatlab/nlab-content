@@ -91,7 +91,7 @@ Let $\mathbf{S}$ be a [[locally presentable category|locally presentable]] [[cos
 
 ### Combinatorial case
 
-Every [[combinatorial model category]] (i.e. locally presentable and cofibrantly generated) is accessible, so Theorem \ref{Accessible} shows that both model structures exist, and Theorem \ref{CofGenProj} shows that the projective model structure is cofibrantly generated, hence also combinatorial.  In fact the injective model structure is also combinatorial, although the proof is much more involved, because there is no explicit description of the generating cofibrations and acyclic cofibrations; they have to be produced by a cardinality argument.  This was first proven by in [[Higher Topos Theory|HTT, prop. A.2.8.2 and A.3.3.2]] under strong assumptions on the enriching category (in particular that all objects are cofibrant), and later generalized by [Makkai and Rosicky](#MR13) to essentially the following:
+Every [[combinatorial model category]] (i.e. locally presentable and cofibrantly generated) is accessible, so Theorem \ref{Accessible} shows that both model structures exist, and Theorem \ref{CofGenProj} shows that the projective model structure is cofibrantly generated, hence also combinatorial.  In fact the injective model structure is also combinatorial, although the proof is much more involved, because there is no explicit description of the generating cofibrations and acyclic cofibrations; they have to be produced by a cardinality argument.  This was first proven by in [[Higher Topos Theory|HTT, prop. A.2.8.2 and A.3.3.2]] under strong assumptions on the enriching category (in particular that all objects are cofibrant), and later generalized by [Makkai & Rosický 2014](#MakkaiRosický14) to essentially the following:
 
 \begin{theorem}\label{Combinatorial}
 Let $\mathbf{S}$ be a [[locally presentable category|locally presentable]] [[cosmos]], $C$ an $\mathbf{S}$-cocomplete locally $\mathbf{S}$-presentable $\mathbf{S}$-[[enriched category]] that is a [[combinatorial model category]], and $D$ a small $\mathbf{S}$-category.  Then:
@@ -102,7 +102,7 @@ Let $\mathbf{S}$ be a [[locally presentable category|locally presentable]] [[cos
 
 \end{theorem}
 \begin{proof}
-It suffices to construct the factorizations, which follows from [MR13, Remark 3.8](#MR13) about left-lifting combinatorial weak factorization systems.
+It suffices to construct the factorizations, which follows from [Makkai & Rosický 2014, Remark 3.8](#MakkaiRosický14) about left-lifting combinatorial weak factorization systems.
 \end{proof}
 
 ## Properties
@@ -332,7 +332,7 @@ It was generalized to enriched diagrams in
 
 The more general result above on combinatoriality of injective model structures follows from Remark 3.8 of
 
-* {#MR13} [[M. Makkai]], [[J. Rosický]], _Cellular categories_, 2013, [arXiv:1304.7572](https://arxiv.org/abs/1304.7572)
+* {#MakkaiRosický14} [[M. Makkai]], [[J. Rosický]], _Cellular categories_, J. Pure Appl. Alg. **218** (2014) 1652-1664 &lbrack;[arXiv:1304.7572](https://arxiv.org/abs/1304.7572), [doi:10.1016/j.jpaa.2014.01.005](https://doi.org/10.1016/j.jpaa.2014.01.005)&rbrack;
 
 See also 
 
