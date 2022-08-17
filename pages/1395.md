@@ -5,7 +5,6 @@ __Michael Makkai__ (Hungarian original __Mih&#225;ly Makkai__) is a Canadian mat
 
 * [Mathematics Genealogy page](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=62420)
 
-
 * _Models, logics, and higher-dimensional categories  A tribute to the work of Mih&#225;ly Makkai_ Proceedings of the meeting held at the Universit&#233; de Montr&#233;al, June 18&#8211;20, 2009. Edited by Bradd Hart, Thomas G. Kucera, Anand Pillay, Philip J. Scott and Robert [[R.A.G. Seely]]. CRM Proceedings & Lecture Notes __53__,  Amer. Math. Soc. 2011. x+426 pp.
 
 
@@ -14,7 +13,12 @@ __Michael Makkai__ (Hungarian original __Mih&#225;ly Makkai__) is a Canadian mat
 
 On [[accessible categories]] and [[categorical semantics|categorical]] [[model theory]] via [[sketches]]:
 
-* {#MakkaiPare} [[Michael Makkai]], [[Robert Paré]],  _Accessible categories: The foundations of categorical model theory_,  Contemporary Mathematics 104. American Mathematical Society, Rhode Island, 1989 ([ISBN:978-0-8218-7692-3](https://bookstore.ams.org/conm-104))
+* {#MakkaiPare} [[Michael Makkai]], [[Robert Paré]],  _Accessible categories: The foundations of categorical model theory_,  Contemporary Mathematics 104. American Mathematical Society, Rhode Island (1989) ([ISBN:978-0-8218-7692-3](https://bookstore.ams.org/conm-104))
+
+Introducing [[cellular categories]]:
+
+* {#MakkaiRosický14} [[M. Makkai]], [[J. Rosický]], _Cellular categories_, J. Pure Appl. Alg. **218** (2014) 1652-1664 &lbrack;[arXiv:1304.7572](https://arxiv.org/abs/1304.7572), [doi:10.1016/j.jpaa.2014.01.005](https://doi.org/10.1016/j.jpaa.2014.01.005)&rbrack;
+
 
 
 ## Related $n$Lab entries
