@@ -15,6 +15,10 @@ Discussion of [[topological quantum field theory]] with an eye towards [[supersy
 
 * [[Christopher Beem]], [[David Ben-Zvi]], [[Mathew Bullimore]], [[Tudor Dimofte]], [[Andrew Neitzke]], _Secondary products in supersymmetric field theory_ ([arXiv:1809.00009](https://arxiv.org/abs/1809.00009))
 
+On [[spectral networks]] and [[Chern-Simons theory with complex gauge group]]:
+
+* [[Daniel S. Freed]], [[Andrew Neitzke]], *3d spectral networks and classical Chern-Simons theory* &lbrack;[arXiv:2208.07420](https://arxiv.org/abs/2208.07420)&rbrack;
+
 
 
 category: people
