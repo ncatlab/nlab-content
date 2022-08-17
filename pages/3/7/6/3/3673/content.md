@@ -119,12 +119,14 @@ The above necessary and sufficient conditions dualize directly.
 
 ## Existence
 
-### Constructing factorizations
+### For right transfer
+ {#ConstructingFactorizationsForRightTransfer}
+
+
+#### Constructing factorizations
  {#ConstructingFactorizations}
 
 
-#### For right transfer
- {#ConstructingFactorizationsForRightTransfer}
 
 The most traditional way to obtain the factorization properties in the right-transferred case (Thm. \ref{NeccSuff}) is to assume that $C$ is [[cofibrantly generated]].
 
@@ -197,49 +199,25 @@ In particular, therefore, the factorizations of any [[accessible model structure
 Left-lifting is generally rather trickier.  But by invoking fancier categorical machinery, one can show more generally:
 
 \begin{lemma}
-  Suppose given a functor $U:D\to C$ between locally presentable categories and an [[accessible weak factorization system]] $(L,R)$ on $C$.
+  \label{TransferFromAnAccessibleFactorizationSystem}
+  Suppose given a functor $U \colon D\to C$ between [[locally presentable categories]] and an [[accessible weak factorization system]] $(L,R)$ on $C$.
 
   1. If $U$ has a left adjoint $F$, then $(L,R)$ right-lifts along $U$ to an accessible wfs on $D$.
+
   1. If $U$ has a right adjoint $G$, then $(L,R)$ left-lifts along $U$ to an accessible wfs on $D$.
 
   Moreover, if $(L,R)$ is cofibrantly generated, so are the lifted wfs.
 
 \end{lemma}
 \begin{proof}
-  See [HKRS15](#HKRS15) and [GKR18](#GKR18) for the lifting of accessible wfs.  Cofibrant generation of a right-lifted wfs follows as in Theorem \ref{SufficientConditions} above, while in the left-lifted case it is Remark 3.8 of [MR13](#MR13).
+  See [HKRS15](#HKRS15) and [GKR18](#GKR18) for the lifting of accessible wfs.  Cofibrant generation of a right-lifted wfs follows as in Theorem \ref{SufficientConditions} above, while in the left-lifted case it is Remark 3.8 of [Makkai & Rosický 2014](#MakkaiRosický14).
 \end{proof}
 
 This sort of result seems to be necessary for the case of left-lifting; the simpler cofibrantly-generated argument does not dualize as directly.
 
 
-#### For left transfer
- {#ConstructingFactorizationsForLeftTransfer}
 
-\begin{proposition}
-\label{RecognitionOfLeftTransferUnderCofibrantlyGeneration}
-Given a pair of [[adjoint functors]]
-$
-  \mathcal{D}
-    \underoverset
-      {\underset{R}{\longleftarrow}}
-      {\overset{L}{\longrightarrow}}
-      {\;\;\bot\;\;}
-  \mathcal{C}
-$
-such that:
-
-1. $\mathcal{C}$ and $\mathcal{D}$ are [[locally presentable categories]],
-
-1. $\mathcal{C}$ is equipped with the [[mathematical structure|structure]] of a [[cofibrantly generated model category]] (hence a [[combinatorial model category]]) with [[class|classes]] of ([[cofibration|co]]-)/[[fibrations]] and [[weak equivalences]] $Cof, Fib, W \,\subset\, Mor(\mathcal{C})$,
-
-1. $RLP\big( L^{-1} Cof \big) \,\subset\, L^{-1}(W)$ (i.e. co-anodyne maps are weak equivalences),
-
-then the left-transferred model category structure on $\mathcal{D}$ exists (i.e. with cofibrations $L^{-1}(Cof)$ and weak equivalences $L^{-1}(W)$) and is itself [[cofibrantly generated model category|cofibrantly generated]].
-\end{proposition}
-
-([BHKKRS 2015, Thm. 2.23](#BHKKRS15))
-
-### Verifying acyclicity
+#### Verifying acyclicity
 
 The "acyclicity condition" in Thm. \ref{NeccSuff}, i.e. that anodyne maps are weak equivalences, is usually the most difficult to check.  Sometimes useful is the observation that for right-lifting in the cofibrantly generated case, it suffices to show that [[sequential colimits]] of [[pushouts]] of [[images]] under $F$ of the generating acyclic cofibrations in $C$ (i.e. forming $F(J)$-[[cell complexes]]) yield weak equivalences in $D$.  This is because the small object actually factors any map as such an $F(J)$-cell complex followed by a fibration; hence by the retract argument every anodyne map is a retract of an $F(J)$-cell complex.
 
@@ -285,6 +263,39 @@ Now the projection $P R f\to P Y$ is a fibration, so since $f$ is anodyne there 
 \end{proof}
 
 Note that this condition also dualizes straightforwardly to the left-transferred case.
+
+
+
+
+### For left transfer
+ {#ConstructingFactorizationsForLeftTransfer}
+
+\begin{proposition}
+\label{RecognitionOfLeftTransferUnderCofibrantlyGeneration}
+Given a pair of [[adjoint functors]]
+$
+  \mathcal{D}
+    \underoverset
+      {\underset{R}{\longleftarrow}}
+      {\overset{L}{\longrightarrow}}
+      {\;\;\bot\;\;}
+  \mathcal{C}
+$
+such that:
+
+1. $\mathcal{C}$ and $\mathcal{D}$ are [[locally presentable categories]],
+
+1. $\mathcal{C}$ is equipped with the [[mathematical structure|structure]] of a [[cofibrantly generated model category]] (hence a [[combinatorial model category]]) with [[class|classes]] of ([[cofibration|co]]-)/[[fibrations]] and [[weak equivalences]] $Cof, Fib, W \,\subset\, Mor(\mathcal{C})$,
+
+1. $RLP\big( L^{-1} Cof \big) \,\subset\, L^{-1}(W)$ (i.e. co-anodyne maps are weak equivalences),
+
+then the left-transferred model category structure on $\mathcal{D}$ exists (i.e. with cofibrations $L^{-1}(Cof)$ and weak equivalences $L^{-1}(W)$) and is itself [[cofibrantly generated model category|cofibrantly generated]].
+\end{proposition}
+\begin{proof}
+\label{ProofOfCombinatorialLeftTransfer}
+  As observed in the proof of [BHKKRS 2015, Thm. 2.23](#BHKKRS15), the existence of the required cofibrantly generated [[factorization systems]] follows by [Makkai & Rosický 2014, Rem. 3.8](#MakkaiRosický14) with the comment below Def. 2.3 there, which in turn invokes [Lurie 2009, §A.1.5.12](#Lurie09). In particular, from inside the proof of [Makkai & Rosický 2014, Thm. 3.2](#MakkaiRosický14) one has that a [[small set]] of generating (acyclic) cofibrations of the left transferred model structure is given by those between [[presentable object|$\kappa$-presentable objects]], for some  un-[[countable set|countable]] [[regular cardinal]] $\kappa$.
+\end{proof}
+
 
 
 ## Properties
@@ -418,7 +429,10 @@ The above proof of acyclicity in the presence of path objects is taken from:
 
 
 
-Discussion of left transfer:
+Discussion of left transfer (left-induced model structures):
+
+* {#HessShipley14} [[Kathryn Hess]], [[Brooke Shipley]], §4 in: *The homotopy theory of coalgebras over a comonad*, Proceedings of the London Mathematical Society **108** 2 (2014) &lbrack;[arXiv:1205.3979](https://arxiv.org/abs/1205.3979), [doi:10.1112/plms/pdt038](https://doi.org/10.1112/plms/pdt038)&rbrack;
+
 
 * {#BHKKRS15} [[Marzieh Bayeh]], [[Kathryn Hess]], [[Varvara Karpova]], [[Magdalena Kedziorek]], [[Emily Riehl]], [[Brooke Shipley]], *Left-induced model structures and diagram categories*, in: *Women in Topology: Collaborations in Homotopy Theory*, Contemporary Mathematics **641** American Mathematical Society (2015) &lbrack;[arXiv:1401.3651](http://arxiv.org/abs/1401.3651), [ISBN:978-1-4704-2495-4](https://bookstore.ams.org/conm-641)&rbrack;
 
@@ -430,12 +444,11 @@ Beware that [HKRS15](#HKRS15) contains an error, corrected by:
 
 Technical lemmas regarding the underlying [[cellular categories]]:
 
-* {#MR13} [[M. Makkai]], [[J. Rosický]], _Cellular categories_, J. Pure Appl. Alg. **218** (2014) 1652-1664 &lbrack;[arXiv:1304.7572](https://arxiv.org/abs/1304.7572), [doi:10.1016/j.jpaa.2014.01.005](https://doi.org/10.1016/j.jpaa.2014.01.005)&rbrack;
+* {#MakkaiRosický14} [[M. Makkai]], [[J. Rosický]], _Cellular categories_, J. Pure Appl. Alg. **218** (2014) 1652-1664 &lbrack;[arXiv:1304.7572](https://arxiv.org/abs/1304.7572), [doi:10.1016/j.jpaa.2014.01.005](https://doi.org/10.1016/j.jpaa.2014.01.005)&rbrack;
 
-Generally related discussion:
+* {#Lurie09} [[Jacob Lurie]], Appendix A of: *[[Higher Topos Theory]]* (2009) 
 
 
-* [[Jacob Lurie]], Appendix A of: *[[Higher Topos Theory]]*, 
 
 The right-transferred model structure on algebras for a 2-monad is from
 
