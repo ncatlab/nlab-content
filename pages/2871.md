@@ -22,13 +22,13 @@ It is similar to a [[combinatorial model category]]. (For the moment, see there 
 
 ## Definition ##
 
-A **cellular model category** is a [[cofibrantly generated model category]] such that there is a [[set]] of generating cofibrations $I$ and a set of generating acyclic cofibrations $J$, such that
+A **cellular model category** is a [[cofibrantly generated model category]] such that there is a [[set]] of generating [[cofibrations]] $I$ and a set of generating [[acyclic cofibrations]] $J$, such that:
 
-* all domain and codomain objects of elements of $I$ are compact objects relative to $I$ (in the sense of Hirschhorn);
+* all [[domain]] and [[codomain]] [[objects]] of elements of $I$ are [[compact objects]] relative to $I$ (in the sense of Hirschhorn);
 
-* the domain objects of the elements of $J$ are [[small object]]s relative to $I$;
+* the domain objects of the elements of $J$ are [[small objects]] relative to $I$;
 
-* the cofibrations are [[effective monomorphism]]s.
+* the [[cofibrations]] are [[effective monomorphism]]s.
 
 
 ## Examples ##
@@ -48,15 +48,24 @@ For $C$ a cellular model category we have that
 
 For cellular model categories $C$ that are [[proper model category|left proper model categories]] all left [[Bousfield localization]]s $L_S C$ at any set $S$ of morphisms are guaranteed to exist.
 
+## Related concepts
 
+* the notions of *[[cellular categories]]* and of *cellular model categories* are vaguely related, but not as systematically as the (independently chosen) terminology might suggest
 
+* [[combinatorial model category]]
 
-## References ##
+## References
 
-A standard textbook reference is section 12 of
+Textbook account:
 
-* Hirschhorn, _Model categories and their localizations_
+* {#Hirschhorn02} [[Philip Hirschhorn]], Section 12 of: _[[Model Categories and Their Localizations]]_, AMS Math. Survey and Monographs Vol 99 (2002) &lbrack;[ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)&rbrack;
 
-In the context of [[algebraic model categories]] related discussion is in
+Discussion in the context of [[algebraic model categories]]:
 
 * [[Emily Riehl]], _Cellularity in algebraic model structures_ ([blog post](http://golem.ph.utexas.edu/category/2011/12/cellularity_in_algebraic_model.html#c040417))
+
+
+[[!redirects cellular model categories]]
+
+
+
