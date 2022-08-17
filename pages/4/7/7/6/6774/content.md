@@ -43,6 +43,11 @@ On [[Lie algebra weight systems]] for the [[special linear Lie algebra]] $\mathf
 
 * [[Sergei Chmutov]], [[Alexander Varchenko]], _Remarks on the Vassiliev knot invariants coming from $\mathfrak{sl}(2)$_, Topology 36 (1), 153-178, 1997 (<a href="https://doi.org/10.1016/0040-9383(95)00071-2">doi:10.1016/0040-9383(95)00071-2</a>)
 
+Further on 1-[[twisted de Rham cohomology]] related to [[sl(2)|$\mathfrak{sl}(2)$]]-[[Verma modules]]:
+
+* {#SlinkinVarchenko19} [[Alexey Slinkin]], [[Alexander Varchenko]], *Twisted de Rham Complex on Line and Singular Vectors in $\widehat{\mathfrak{sl}}_2$ Verma Modules*, SIGMA **15** (2019) 075 &lbrack;[arXiv:1812.09791](https://arxiv.org/abs/1812.09791), [doi:10.3842/SIGMA.2019.075](https://doi.org/10.3842/SIGMA.2019.075)&rbrack;
+
+
 ## Related $n$Lab entries
 
 * [[hypergeometric function]]
