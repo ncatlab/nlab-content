@@ -48,7 +48,7 @@ $$
 
 * If $Y_{1}...Y_{n}$ divides $P$, then:
 $$
-D_{Y_{1}...Y_{n}}(P) = \left[\underset{\substack{1 \le i \le q \\ X_{i} | Y_{1}...Y_{n}}}{\prod}\binom{nbr\;of\;time\;X_{i}\;in\;P}{nbr\;of\;time\;X_{i}\;in\;Y_{1}...Y_{n}}\right]\frac{P}{Y_{1}...Y_{n}}
+D_{Y_{1}...Y_{n}}(P) = \left[\underset{\substack{1 \le i \le q \\ X_{i} | Y_{1}...Y_{n}}}{\prod}\binom{nbr\;of\;time\;X_{i}\;in\;P}{nbr\;of\;time\;X_{i}\;in\;Y_{1}...Y_{n}}.1_{R}\right]\frac{P}{Y_{1}...Y_{n}}
 $$
 
 We then prolongate by linearity:
