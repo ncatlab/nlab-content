@@ -204,6 +204,11 @@ Lecture notes:
 
 * Reinhard Werner, _Mathematical methods of quantum information theory_, 18 lecture course (2017) video playlist [yt](https://www.youtube.com/playlist?list=PLDfPUNusx1EoBAn8vXYjcF95R7mI_eR6o)
 
+Status update:
+
+* [[John Preskill]], *The Physics of Quantum Information*, talk at
+*The Physics of Quantum Information*, 28th Solvay Conference on Physics (2022) &lbrack;[arXiv:2208.08064](https://arxiv.org/abs/2208.08064)&lbrack;
+
 See also:
 
 * Wikipedia, *[Quantum information](https://en.wikipedia.org/wiki/Quantum_information)* 
