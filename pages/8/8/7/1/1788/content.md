@@ -1,15 +1,3 @@
+$(X, Y, \perp)$
 
-\[
-  \label{MasterFunction}
-  \underset{
-    { \ell \in }
-    \atop
-    { 
-      C^\infty\big(
-        \widehat{\mathrm{X}}
-        ;\, 
-        \mathbb{C}^\times
-     \big) 
-    }
-  }{\exists}
-\]
+$x \perp_2 y$
