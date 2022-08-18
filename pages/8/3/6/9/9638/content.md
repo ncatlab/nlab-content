@@ -179,6 +179,10 @@ Further introduction and survey:
 
 * Christine Middleton, *What’s under the hood of a quantum computer?*, Physics Today, March 2021 ([doi:10.1063/PT.6.1.20210305a](https://physicstoday.scitation.org/do/10.1063/PT.6.1.20210305a))
 
+* [[John Preskill]], *The Physics of Quantum Information*, talk at
+*The Physics of Quantum Information*, 28th Solvay Conference on Physics (2022) &lbrack;[arXiv:2208.08064](https://arxiv.org/abs/2208.08064)&rbrack;
+
+
 See also:
 
 * Wikipedia, _[Quantum computation](http://en.wikipedia.org/wiki/Quantum_computation)_
