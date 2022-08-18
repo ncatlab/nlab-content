@@ -13,14 +13,6 @@
 =--
 =--
 
-
-#Contents#
-* table of contents
-{:toc}
-
-## Idea
-
-
 #Contents#
 * table of contents
 {:toc}
