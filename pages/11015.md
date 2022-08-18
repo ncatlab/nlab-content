@@ -1,17 +1,26 @@
 
 This page collects links related to the article
 
-* [[William Lawvere]], 
+* [[William Lawvere]]:
 
-  _Unity and Identity of Opposites in Calculus and Physics_, 
+  \linebreak
+
+  **Unity and Identity of Opposites in Calculus and Physics**
+
+  \linebreak 
 
   Proceedings of ECCT 1994 Tours Conference, 
 
-  Applied Categorical Structures, 4: 167-174 Kluwer Academic Publishers, (1996), ([pdf](https://github.com/mattearnshaw/lawvere/blob/master/pdfs/1996-unity-and-identity-of-opposites-in-calculus-and-physics.pdf))
+  Applied Categorical Structures **4** 167-174 (1996)
+
+  Kluwer Academic Publishers, 
+
+  [github](https://github.com/mattearnshaw/lawvere/blob/master/pdfs/1996-unity-and-identity-of-opposites-in-calculus-and-physics.pdf)
+
 
 on the formalization of [[unity of opposites]] in [[calculus]] and [[physics]].
 
-See also at _[[Aufhebung]]_.
+See also at *[[adjoint cylinder]]*, *[[objective and subjective logic]]* and at *[[Aufhebung]]*.
 
 ### Abstract
 
