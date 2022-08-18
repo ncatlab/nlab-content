@@ -58,7 +58,7 @@ Quoting:
 
 Discussion in [[homotopy type theory]]:
 
-* [[David Corfield]], _Expressing 'The Structure of' in Homotopy Type Theory_, [pdf](https://ncatlab.org/davidcorfield/show/Expressing+%27The+Structure+of%27+in+Homotopy+Type+Theory), revised as Chapter 4 of _Modal Homotopy Type Theory: The Prospect of a New Logic for Philosophy_.
+* [[David Corfield]], _Expressing 'The Structure of' in Homotopy Type Theory_, Synthese 197, 681–700 ([doi:10.1007/s11229-017-1569-7](https://doi.org/10.1007/s11229-017-1569-7), [pdf](https://ncatlab.org/davidcorfield/show/Expressing+%27The+Structure+of%27+in+Homotopy+Type+Theory)), revised and expanded as Chapter 3 of [Modal Homotopy Type Theory: The Prospect of a New Logic for Philosophy](https://ncatlab.org/davidcorfield/show/Modal+Homotopy+Type+Theory).
 
 
 [[!redirects the]]
