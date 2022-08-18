@@ -50,25 +50,32 @@ More generally one may ask for other types of function algebras which satisfy th
 
 ## Statement
 
-+-- {: .num_prop}
++-- {: .num_prop #HadamardLemma}
 ###### Proposition
 **(Hadamard lemma)**
 
 For every [[smooth function]] $f \in C^\infty(\mathbb{R})$ on the [[real line]] there is a smooth function $g$ such that
 
-$$
+\[
+  \label{TheDifferenceEquation}
   f(x) = f(0) + x \cdot g(x)
   \,.
-$$
+\]
 
 =--
 
 This function $g$ is also called a **Hadamard quotient**.
 
-+-- {: .num_cor}
++-- {: .num_cor #AndItsCorollary}
 ###### Corollary
 
-It follows that $g(0) = f'(0)$ is the [[derivative]] of $f$ at 0. By applying this repeatedly the lemma says that $f$ has a partial [[Taylor series]] expansion whose remainder $h$ is a smooth function:
+It follows that 
+
+$$
+  g(0) \,=\, f'(0)
+$$ 
+
+is the [[derivative]] of $f$ at 0. By applying this repeatedly the lemma says that $f$ has a partial [[Taylor series]] expansion whose remainder $h$ is a smooth function:
 
 $$
   f(x) = f(0) + x f'(0) + \frac1{2} x^2 f''(0) + \cdots + \frac1{n!} x^n h(x)
@@ -155,7 +162,9 @@ The Hadamard lemma is what makes the standard _convenient models_ for [[syntheti
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes|Gonzalo E. Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ Springer (1991)
 
+Mathema-philosophical discussion of the ingredients of the Hadamard lemma as analogous to an [[adjoint cylinder]] resembling a [[duality of opposites]]:
 
+* [[William Lawvere]], *Unity and Identity of Opposites in Calculus and Physics*, Proceedings of ECCT 1994 Tours Conference, Applied Categorical Structures **4** 167-174 (1996) Kluwer Academic Publishers &lbrack;[doi:10.1007/BF00122250](https://doi.org/10.1007/BF00122250), [github](https://github.com/mattearnshaw/lawvere/blob/master/pdfs/1996-unity-and-identity-of-opposites-in-calculus-and-physics.pdf)&rbrack;
 
 [[!redirects Hadamard\'s lemma]]
 [[!redirects Hadamard's lemma]]
