@@ -51,5 +51,10 @@ On [[noisy intermediate-scale quantum computing]]:
 
 * [[John Preskill]], *Quantum Computing in the NISQ era and beyond*, Quantum  2018-08-06, volume 2, page 79 ([arXiv:1801.00862](https://arxiv.org/abs/1801.00862), [doi:10.22331/q-2018-08-06-79](https://doi.org/10.22331/q-2018-08-06-79))
 
+On the state of [[quantum information]] and [[quantum computation]]:
+
+* [[John Preskill]], *The Physics of Quantum Information*, talk at
+*The Physics of Quantum Information*, 28th Solvay Conference on Physics (2022) &lbrack;[arXiv:2208.08064](https://arxiv.org/abs/2208.08064)&lbrack;
+
 
 category: people
