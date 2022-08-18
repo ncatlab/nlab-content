@@ -31,7 +31,7 @@ Suppose that $R$ is a [[commutative rig]]. For every polynomial $P \in R[X]$ and
 
 and if $n \ge 1$:
 
-* $(X^{n+p})^{(n)} = \binom{n+p}{n} X^{p}$ if $p \ge 0$
+* $(X^{n+p})^{(n)} = \left[\binom{n+p}{n}.1_{R}\right] X^{p}$ if $p \ge 0$
 * $(X^{k})^{(n)} = 0$ if $n \gt k$
 * $(aP+bQ)^{(n)} = aP^{(n)} + bQ^{(n)}$
 
