@@ -160,6 +160,10 @@ In [[algebraic geometry]] this is a basic object of study, since the revolution 
 
 * [[super-scheme]]
 
+### Semiring scheme
+
+* [[semiring scheme]]
+
 ## References
 
 Terminology: [[EGA]] says prescheme, for what we call scheme, and says scheme for what we call [[separated scheme]].
