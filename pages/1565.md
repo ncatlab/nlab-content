@@ -40,6 +40,8 @@ More sophisticatedly, we can say that, just as a ring is a [[monoid object]] in 
 
 Equivalently, a rig is the [[hom-set]] of a category with a single object that is [[enriched category|enriched]] in the category of [[commutative monoids]].
 
+Rigs and rig [[homomorphisms]] form the category [[Rig]].
+
 ### Further weakening
 
 As with rings, one sometimes considers non-associative or non-unital versions (where multiplication may not be [[associative]] or may have no [[identity]]).  It is rarer to remove requirements from addition as we have done here.  But notice that while $R$ can be proved (from the other axioms) to be an [[abelian group]] under addition (and therefore a ring) as long as it is a [[group]], this argument does not go through if it is only a monoid.  If we assert only distributivity on one side, however, then we can have a noncommutative addition; see [[near-ring]].
@@ -104,5 +106,6 @@ Some rigs which are neither rings nor distributive lattices include:
 
 
 [[!redirects rigs]]
+[[!redirects Rigs]]
 [[!redirects commutative rig]]
 
