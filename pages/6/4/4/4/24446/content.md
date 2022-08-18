@@ -56,5 +56,7 @@ If one adopts the second definition to define a semiring, and the fourth definit
 [[!redirects semiring]]
 [[!redirects semirings]]
 
+[[!redirects commutative semiring]]
+
 [[!redirects semi-ring]]
 [[!redirects semi-rings]]
