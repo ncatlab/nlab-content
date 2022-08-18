@@ -36,4 +36,23 @@ A **morphism** or **relation** between $\kappa$-arity spaces is a [[relation]] $
 
 This might follow from constructing it using [[double gluing]] and orthogonality.
 
+## Construction as a Comma Double Category
+
+We can define arity spaces by a variation on the [[double gluing]] construction.
+
+Define a double category $Orth$ of orthogonalities 
+1. Objects are relations $\bot \subseteq X \times Y$
+2. A vertical morphism from $(X_1,Y_1,\perp_1)$ to $(X_2, Y_2, \perp_2)$ exists when $X_1$ and $Y_1$ are orthogonal subsets of $X_2$ and $Y_2$ respectively.
+3. A horizontal morphism from $(X_1,Y_1,\perp_1)$ to $(X_2,Y_2,\perp_2)$ is a pair of a function $f_* : X_1 \to X_2$ and $f^* : Y_2 \to Y_1$
+4. A square from $f$ to $g$ exists when $f_*$ is the restriction of $g_*$ and similarly for $f^*$ and $g^*$.
+
+Then the (2-)category of arity spaces can be defined as the comma double category (where $Rel$ and $Set$ are viewed as vertically discrete double categories:
+
+\begin{tikzcd}
+  Arity(\kappa) \ar[d] \ar[r] \ar[dr,phantom,"\Downarrow"] & Set \times Set^o \ar[d] \\
+  Rel \ar[r,"L_\kappa"'] & Orth
+\end{tikzcd}
+
+Where $L_\kappa$ maps a set $X$ to the orthogonality $|U \cap V| \leq \kappa$ on $Subset(X) \times Subset(X)$ and a pair of sets $X, Y$ is given the trivial orthogonality $x \perp y = \bot$
+
 [[!redirects arity spaces]]
