@@ -1,3 +1,8 @@
-$(X, Y, \perp)$
 
-$x \perp_2 y$
+Direct code rendering:
+
+* &lbrack;and&rbrack;
+
+Same code but `!include`d:
+
+[[!include Sandbox2]]
