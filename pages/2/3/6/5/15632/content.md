@@ -45,7 +45,7 @@ Quality types together with the **continuity axiom** are an essential ingredient
 
 >That Continuity axiom (preservation of infinite products by $\pi_0$) was introduced in order to obtain homotopy types that are "qualities" in an intuitive sense[^qual] (as they should be automatically in the continuous case). Lawvere ([message to catlist oct 26th 2011](https://github.com/punkdit/categories/blob/master/gmane/science/mathematics/categories/7016))
 
-([Lawvere 1998](#Law98), [Lawvere 2008](#Law08), [Marmolejo-Menni 2016](#MarmoMenni16)) also point to the role of continuity in insuring that the Hurewicz homotopy category becomes a quality type. The definition of quality type yields important contrasts with _pure variation_ and _sufficient cohesion_ permitting to attend to the _fine structure_ of the [[gros topos|petit-gros]] landscape. So we can say with only slight exaggeration that the 2007 axioms revolve around the concept of a quality type and that cohesive spaces are those that admit qualitative (homotopical) analysis!
+([Lawvere 1998](#Law98), [Lawvere 2008](#Law08), [Marmolejo-Menni 2016](#MarmoMenni16)) also point to the role of continuity in ensuring that the Hurewicz homotopy category becomes a quality type. The definition of quality type yields important contrasts with _pure variation_ and _sufficient cohesion_ permitting to attend to the _fine structure_ of the [[gros topos|petit-gros]] landscape. So we can say with only slight exaggeration that the 2007 axioms revolve around the concept of a quality type and that cohesive spaces are those that admit qualitative (homotopical) analysis!
 
 In the following we discuss the case for ordinary categories, for the higher order generalization see [[infinitesimal cohesive (infinity,1)-topos]].
 
