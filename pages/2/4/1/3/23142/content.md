@@ -1010,7 +1010,7 @@ Together this implies that their composite (eq:SliceHomOfPresheavesAsFiberOfPlai
 By [[Ken Brown's lemma]] ([here](factorization+lemma#KenBrownLemma)) it follows that the right adjoint preserves weak equivalences between [[fibrant objects]]. We claim that it also *reflects* weak equivalences between fibrant objects, in that a morphism between fibrant objects on the left is a weak equivalence if and only if its image under the right adjoint functor is a weak equivalences. 
 Since the functor is also an [[equivalence of categories]], by Prop. \ref{TheAdjointEquivalenceInOrdinaryCategoryTheory}, this immediately implies that the [[derived adjunction]] is an [[equivalence of categories|equivalence]] of [[homotopy category of a model category|homotopy categories]], and hence that we have a [[Quillen adjunction]].
 
-To see this remaining claim that the right adjoint reflects weak equivalences between fibrant objects, consider a morphism $f \,\in\, sPsh(\mathcal{C})_{/y_{\mathcal{C}}(X)}$ between fibrations such that for all $U \xrightarrow{\phi} X$ in $\mathcal{C}_{/X}$ the [[base change]] (eq:SliceHomOfPresheavesAsFiberOfPlainHom) of its values on $U \,\in\, \mathcal{C}$ is a weak equivalence:
+To see this remaining claim (that the right adjoint reflects weak equivalences between fibrant objects) consider a morphism $f \,\in\, sPsh(\mathcal{C})_{/y_{\mathcal{C}}(X)}$ between fibrations such that for all $U \xrightarrow{\phi} X$ in $\mathcal{C}_{/X}$ the [[base change]] (eq:SliceHomOfPresheavesAsFiberOfPlainHom) of its values on $U \,\in\, \mathcal{C}$ is a weak equivalence:
 
 \begin{tikzcd}[column sep=20pt]
    &[30pt]
