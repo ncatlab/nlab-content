@@ -303,7 +303,7 @@ Model structures on the category of double categories are discussed in:
 
 * {#MSV2Cat} Lyne Moser, Maru Sarazola, Paula Verdugo, *A 2Cat-inspired model structure for double categories*, [arxiv](https://arxiv.org/abs/2004.14233), 2020
 
-* {#CampbellGreg} [[Alexander Campbell]], *The gregarious model structure for double categories*, [talk slides](https://acmbl.github.io/greg_slides.pdf), 2020
+* {#CampbellGreg} [[Alexander Campbell]], *The gregarious model structure for double categories* (2020) &lbrack;[talk slides pdf](https://acmbl.github.io/greg_slides.pdf)&rbrack;
 
 * {#MSVHInvar} Lyne Moser, Maru Sarazola, Paula Verdugo,  *A model structure for weakly horizontally invariant double categories*, [arxiv](https://arxiv.org/abs/2007.00588), 2020
 
