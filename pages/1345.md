@@ -151,3 +151,5 @@ The Bousfield--Kan map(s) are on p. 397, def. 18.7.1 and def. 18.7.3.
  _Realization_ and _totalization_ are defs 18.6.2 and 18.6.3 on p. 395.
 
 Notice that this book writes $B$ for the nerve!
+
+[[!redirects Bousfield-Kan formula]]
