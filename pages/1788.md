@@ -1,9 +1,11 @@
 
-Direct code rendering:
+`$ f : X \to Y $` produces:
 
-* &lbrack;and&rbrack;
+$ f : X \to Y $
 
-Same code but `!include`d:
+while
 
-[[!include Sandbox2]]
+`$ f \colon X \longrightarrow Y $` produces:
+
+$ f \colon X \longrightarrow Y $
 
