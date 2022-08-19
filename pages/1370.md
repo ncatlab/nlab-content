@@ -16,7 +16,40 @@ Joyal has contributed to the $n$Lab as 'joyal'; he once began a project at [[joy
 
 ## Selected writings
 
-* A. Joyal, M. Tierney, _An extension of the Galois theory of Grothendieck_,  Mem. Amer. Math. Soc.  __51__  (1984),  no. 309, vii+71 pp. (historical $n$lab note: according to MR756176 (86d:18002) featured review by [[Peter Johnstone]], the main results of this monograph were obtained by the authors around 1978-1979, typed version circulated from 1982, and the results influenced the field much before the actual publication)
+On [[forcing]] via [[classifying toposes]] and the [[classifying topos of a localic groupoid]]:
+
+* {#JoyalTierney84} [[André Joyal]], [[Myles Tierney]], *An extension of the Galois theory of Grothendieck*,  Mem. Amer. Math. Soc. **309** (1984) &lbrack;[ISBN:978-1-4704-0722-3](https://bookstore.ams.org/memo-51-309)&rbrack;
+
+  (historical note: according to MR756176 (86d:18002) by [[Peter Johnstone]], the main results of this monograph were obtained by the authors around 1978-1979, typed version circulated from 1982, and the results influenced the field much before the actual publication)
+
+On [[algebraic set theory]]:
+
+* A. Joyal, [[Ieke Moerdijk|I. Moerdijk]], _Algebraic set theory_. London Mathematical Society Lecture Note Series __220__. Cambridge Univ. Press (1995) viii+123 pp. ISBN: 0-521-55830-1
+
+On [[quasi-categories]]:
+
+* {#Joyal08} [[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008 ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]])
+
+
+
+
+On [[simplicial homotopy theory]], the [[classical model structure on simplicial sets]] and the [[classical model structure on topological spaces]]:
+
+
+* {#JoyalTierney08} [[André Joyal]], [[Myles Tierney]] _Notes on simplicial homotopy theory_, Lecture at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008  ([[JoyalTierneyNotesOnSimplicialHomotopyTheory.pdf:file]])
+
+* {#JoyalTierney09} [[André Joyal]], [[Myles Tierney]] _An introduction to simplicial homotopy theory_, 2009  ([web](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01), [[JoyalTierneySimplicialHomotopyTheory.pdf:file]])
+
+Proving the [[Blakers-Massey theorem]] in any [[(infinity,1)-topos|$(\infty,1)$-topos]] and with the [[(n-connected, n-truncated) factorization system]] allowed to be replaced by more general [[modal homotopy type theory|modalities]]:
+
+* {#AnelBiedermanFinsterJoyal17a} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]], _A Generalized Blakers-Massey Theorem_, Journal of Topology **13** 4 (2020) 1521-1553 $[$[arXiv:1703.09050](https://arxiv.org/abs/1703.09050), [doi:10.1112/topo.12163](https://doi.org/10.1112/topo.12163)$]$
+
+PDF of slides from a talk given by André Joyal at the MIT Topology Seminar on March 17, 2014:
+
+* {#JoyalCategorialHoTT} [[André Joyal]], [[Categorical Homotopy Type Theory.pdf:file]]
+
+
+See also:
 
 * A. Joyal, _Quasi-categories and Kan complexes_, (in Special volume celebrating the 70th birthday of Prof. Max Kelly) J. Pure Appl. Algebra  __175__ (2002),  no. 1-3, 207--222 ([doi](http://dx.doi.org/10.1016/S0022-4049%2802%2900135-4)).
 
@@ -51,31 +84,6 @@ scientific methods. Volume one of the proceedings of the tenth international
 congress of logic, methodology and philosophy of science, Florence, Italy, Synth.
 Libr. 259, pages 29&#8211;68. Dordrecht: Kluwer Academic Publishers, 1997.
 
-On [[algebraic set theory]]:
-
-* A. Joyal, [[Ieke Moerdijk|I. Moerdijk]], _Algebraic set theory_. London Mathematical Society Lecture Note Series __220__. Cambridge Univ. Press 1995. viii+123 pp. ISBN: 0-521-55830-1
-
-On [[quasi-categories]]:
-
-* {#Joyal08} [[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008 ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]])
-
-
-
-
-On [[simplicial homotopy theory]], the [[classical model structure on simplicial sets]] and the [[classical model structure on topological spaces]]:
-
-
-* {#JoyalTierney08} [[André Joyal]], [[Myles Tierney]] _Notes on simplicial homotopy theory_, Lecture at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008  ([[JoyalTierneyNotesOnSimplicialHomotopyTheory.pdf:file]])
-
-* {#JoyalTierney09} [[André Joyal]], [[Myles Tierney]] _An introduction to simplicial homotopy theory_, 2009  ([web](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01), [[JoyalTierneySimplicialHomotopyTheory.pdf:file]])
-
-Proving the [[Blakers-Massey theorem]] in any [[(infinity,1)-topos|$(\infty,1)$-topos]] and with the [[(n-connected, n-truncated) factorization system]] allowed to be replaced by more general [[modal homotopy type theory|modalities]]:
-
-* {#AnelBiedermanFinsterJoyal17a} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]], _A Generalized Blakers-Massey Theorem_, Journal of Topology **13** 4 (2020) 1521-1553 $[$[arXiv:1703.09050](https://arxiv.org/abs/1703.09050), [doi:10.1112/topo.12163](https://doi.org/10.1112/topo.12163)$]$
-
-PDF of slides from a talk given by André Joyal at the MIT Topology Seminar on March 17, 2014:
-
-* {#JoyalCategorialHoTT} [[André Joyal]], [[Categorical Homotopy Type Theory.pdf:file]]
 
 category: people
 
