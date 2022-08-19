@@ -39,7 +39,7 @@ $$
 
 Since this is all considered (only) for [[homotopy types]] of topological spaces (e.g. via the [[classical model structure on topological spaces]]) and there is a [[weak homotopy equivalence]] $B GL(n) \simeq  B O(n)$ to the [[classifying space]] of the [[orthogonal group]] (the latter being the [[maximal compact subgroup]] of $GL(n)$), authors typically consider the equivalent diagram over $B O(n)$.
 
-Beware that the same kind of lift but understood in [[differentiable stack|differentiable]] [[classifying stacks]] instead of just [[classifying spaces]] is a _[[G-structure]]_ as commonly understood bow (for $A = \mathbf{B}G$ is the classifying stack/[[delooping]] of a [[Lie group]] $G$). 
+Beware that the same kind of lift but understood in [[differentiable stack|differentiable]] [[classifying stacks]] instead of just [[classifying spaces]] is a _[[G-structure]]_ as commonly understood now (for $A = \mathbf{B}G$, the classifying stack/[[delooping]] of a [[Lie group]] $G$). 
 
 
 
