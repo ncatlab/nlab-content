@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Categories of simplices
 * table of contents
 {: toc}
@@ -41,7 +42,11 @@ The **category of simplices** of $X$ is equivalently (in increasing order of exp
 
   $$
     \array{ 
-      \Delta^n &&\stackrel{f}{\to}&& \Delta^{n'}
+      \Delta^n 
+        &&
+        \stackrel{f}{\longrightarrow}
+        && 
+      \Delta^{n'}
       \\
       & {}_{c}\searrow && \swarrow_{c'}  
       \\
@@ -180,18 +185,23 @@ Therefore, the simplicial set $N(\Delta\downarrow X)$ itself can be computed as 
 
 ## References
 
-A basic disussion is for instance in section 3.1 of 
+The terminology "category of simplices" is attributed by [Hovey 1999](#Hovey99) to:
 
-* [[Mark Hovey]], _Model categories_, Mathematical surveys and monographs volume 63, American Mathematical Society
+* [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]], Section 5.9 of: *[[Model Categories and More General Abstract Homotopy Theory]]* (1997) &lbrack;[pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/dhk.pdf), [[DwyerHirschhornKan-ModelCategories.pdf:file]]&rbrack;
 
-Homotopy finality of the non-degenerate simplices is discussed in section 4.1 of 
+Textbook account:
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
- {#Lurie}
+* {#Hovey99} [[Mark Hovey]], Section 3.1 (specifically [p. 75](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf#page=85)) in: *[[Model Categories]]*, Mathematical Surveys and Monographs, **63** AMS (1999) &lbrack;[ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover)&rbrack;
 
-For more on [[barycentric subdivision]] see also section 2 of
 
-* [[Rick Jardine]], _Simplicial approximation_, Theory and Applications of Categories, Vol. 12, 2004, No. 2, pp 34-72. ([web](ftp://ftp.math.ethz.ch/EMIS/journals/TAC/volumes/12/2/12-02aabs.html))
+[[homotopy final functor|Homotopy finality]] of the non-degenerate simplices:
+
+* {#Lurie} [[Jacob Lurie]], Prop. 4.2.3.14 ([p. 254](https://www.math.ias.edu/~lurie/papers/HTT.pdf#page=272)) of: _[[Higher Topos Theory]]_, Annals of Mathematics Studies **170**, Princeton University Press (2009) &lbrack;[pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf)&rbrack;
+
+
+More on [[barycentric subdivision]]:
+
+* [[J. F. Jardine]], Section 2 of: *Simplicial approximation*, Theory and Applications of Categories, **12** 2 (2004) 34-72 &lbrack;[tac:12-02](http://www.tac.mta.ca/tac/volumes/12/2/12-02abs.html)&rbrack;
 
 
 [[!redirects category of simplices]]
