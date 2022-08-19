@@ -5,7 +5,9 @@
 
 ## Idea
 
-A **weak adjoint** is like an [[adjoint functor]] but without the uniqueness of factorizations.
+A **weak adjoint** is like an [[adjoint functor]] but without the uniqueness of factorizations. 
+
+Importantly, this means that unlike adjoint functors, weak adjoints are not unique, and so a weak adjoint of a given functor is a [[structure]] whereas a functor having an adjoint is a [[property]].
 
 ## Definition
 
@@ -18,6 +20,10 @@ Let $G:D\to C$ be a [[functor]].  We say $G$ has a **left weak adjoint** if for 
 ## Remarks
 
 Of course, if the factorizations $g$ are always unique, this is precisely an ordinary [[left adjoint]].  A weak adjoint can also be regarded as a stronger form of the [[solution set condition]] in which the solution sets are required to be singletons.  The "dual" property, in which the solution sets need not be singletons but the factorizations are unique, is called a [[multi-adjoint]].
+
+## Related Concepts
+
+* [[weak representation of a functor]]
 
 [[!redirects weak adjoints]]
 [[!redirects weak adjunction]]
