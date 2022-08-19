@@ -16,9 +16,11 @@ On [[configuration spaces of points]] and a possible [[Galois group]] over the [
 
 * {#MoravaBeardsly17} [[Jack Morava]], [[Jonathan Beardsley]], _Toward a Galois theory of the integers over the sphere spectrum_,  Journal of Geometry and Physics Volume 131, September 2018, Pages 41-51 ([arXiv:1710.05992](https://arxiv.org/abs/1710.05992), [doi:10.1016/j.geomphys.2018.04.011](https://doi.org/10.1016/j.geomphys.2018.04.011))
 
-On the [[Grothendieck construction]] in [[enriched category theory]]:
+On the [[enriched Grothendieck construction]]:
 
-* {#BeardsleyWong18} [[Jonathan Beardsley]], Liang Ze Wong, _The Enriched Grothendieck Construction_, Advances in Mathematics, Volume 344, 21 February 2019, Pages 234-261 ([arXiv:1804.03829](https://arxiv.org/abs/1804.03829), [doi:10.1016/j.aim.2018.12.009](https://doi.org/10.1016/j.aim.2018.12.009)) 
+* {#BeardsleyWong18} [[Jonathan Beardsley]], [[Liang Ze Wong]], _The Enriched Grothendieck Construction_, Advances in Mathematics **344** (2019) 234-261 &lbrack;[arXiv:1804.03829](https://arxiv.org/abs/1804.03829), [doi:10.1016/j.aim.2018.12.009](https://doi.org/10.1016/j.aim.2018.12.009)&rbrack;
+
+* {#BeardsleyWong19} [[Jonathan Beardsley]], [[Liang Ze Wong]], *The operadic nerve, relative nerve and the Grothendieck construction*, Theory and Applications of Categories, **34** 13 (2019) 349-374 &lbrack;[tac:34-13](http://www.tac.mta.ca/tac/volumes/34/13/34-13abs.html)&rbrack;
 
 
 
