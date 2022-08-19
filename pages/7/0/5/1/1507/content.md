@@ -78,3 +78,4 @@ In [[triangulated categories]]:
 [[!redirects splitting]]
 [[!redirects splittings]]
 [[!redirects splitting of idempotents]]
+[[!redirects idempotent splitting]]
