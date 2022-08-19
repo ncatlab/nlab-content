@@ -58,7 +58,7 @@ In more detail:
 
 * [[Cisinski]]'s *[[Higher Categories and Homotopical Algebra]]*: 
 
-  colimit-preserving: _final_ (Definition 4.1.8); 
+  colimit-preserving: _final_ (Definition .4.1.8); 
 
   limit-preserving: _cofinal_ (Definition 4.4.13); 
 
@@ -460,7 +460,7 @@ $$
 +-- {: .num_defn}
 ###### Definition
 
-For $K \in $ [[sSet]] a [[simplicial set]], write $\Delta_{/K}$ for its [[category of elements]], called here the [[category of simplices]] of the simplicial set: 
+For $K \in $ [[sSet]] a [[simplicial set]], write $\Delta_{/K}$ for its [[category of elements]], called here the *[[category of simplices]]* of the simplicial set: 
 
 an [[object]] of $\Delta_{/K}$ is a morphism of simplicial sets of the form $\Delta^n \to K$ for some $n \in \mathbb{N}$ (hence an $n$-[[simplex]] of $K$) and a morphism is a [[commuting diagram]]
 
@@ -550,7 +550,7 @@ This appears as ([Shah, 12.2](#Shah)) and also follows from the fact that this m
 +-- {: .num_remark}
 ###### Remark
 
-This can be used to establish a Bousfield-Kan formula for homotopy colimits; see ([Shah, 12.3](#Shah)). 
+This can be used to establish a [[Bousfield-Kan formula]] for [[homotopy colimits]]; see ([Shah, 12.3](#Shah)). 
 
 =--
 
