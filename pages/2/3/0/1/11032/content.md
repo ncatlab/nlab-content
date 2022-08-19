@@ -19,6 +19,8 @@
 
 The concept of _traced monoidal category_ axiomatizes the structure on a [[monoidal category]] for it to have a sensible notion of [[trace]] the way it exists canonically in [[compact closed categories]].
 
+In [[denotational semantics]] of programming languages, the trace is used to model [[recursion]], though if the language is not [[substructural]], then this can be simplified to a [[fixed point operator]].
+
 ## Definition
 
 The original definition due to ([Joyal-Street-Verity 96](#JoyalStreetVerity96)) is stated in the general setting of [[balanced monoidal categories]].  Here we give just the slightly simpler formulation for the case of symmetric monoidal categories ([Hasegawa 1997](#Hasegawa97)).
