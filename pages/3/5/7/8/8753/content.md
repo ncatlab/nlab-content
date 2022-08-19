@@ -73,17 +73,27 @@ The following is a model for the [[powering]] of simplicial objects in $\mathcal
 Let $\mathcal{C} \in QCat \hookrightarrow sSet$ be an [[(∞,1)-category]] incarnated as a [[quasi-category]], and let $X \colon \Delta^{op} \to \mathcal{C}$ be a simplicial object. Then for $K \in sSet$ any [[simplicial set]], write
 
 $$
-  X[K] \colon \Delta_{/K}^{op} \to \Delta^{op} \stackrel{X}{\to} \mathcal{C}
+  X[K] 
+  \;\colon\; 
+  \Delta_{/K}^{op} 
+  \longrightarrow 
+  \Delta^{op} 
+  \stackrel{X}{\longrightarrow} 
+  \mathcal{C}
 $$
 
-for the the composite [[(∞,1)-functor]] of $X_\bullet$ with the projection from (the [[opposite category]] of) the [[category of simplices]] of $K$, and write
+for the the [[composition|composite]] [[(∞,1)-functor]] of $X_\bullet$ with the projection from (the [[opposite category]] of) the [[category of simplices]] of $K$, and write
 
 $$
   X(K) 
-    \colon 
+    \;\colon\; 
   \underset{\leftarrow}{\lim}
   \left(
-    \Delta_{/K}^{op} \to \Delta^{op} \stackrel{X}{\to} \mathcal{C}
+    \Delta_{/K}^{op} 
+    \longrightarrow
+    \Delta^{op} 
+    \stackrel{X}{\longrightarrow} 
+    \mathcal{C}
   \right)
 $$
 
@@ -92,6 +102,7 @@ for the [[(∞,1)-limit]] over it (if it exists).
 =--
 
 This is discussed in ([Lurie HTT 4.2.3, notation 6.1.2.5](#Lurie)). See also around ([Lurie 2, notation 1.1.7](#LurieGood)).
+
 
 +-- {: .num_remark}
 ###### Remark
@@ -113,7 +124,8 @@ is the [[homotopy fiber product]] in
 
 $$
   \array{
-    && X(K)
+    && 
+    X(K)
     \\
     & \swarrow && \searrow
     \\
@@ -292,7 +304,7 @@ $$
 * [[homotopy Kan fibration]]
 
 
-## Reference
+## References
 
 Simplicial objects in general [[(∞,1)-categories]] are discussed in 
 
