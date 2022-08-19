@@ -76,8 +76,19 @@ The original result is due to:
 * {#Lurie09} [[Jacob Lurie]], Sec. 3.2 of: _[[Higher Topos Theory]]_, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
 
 
-A considerably simplified presentation is available in
+Further discussion:
+
+* {#Stevenson15} [[Danny Stevenson]], *Covariant Model Structures and Simplicial Localization*, North-West. Eur. J. Math. **3** (2017) 141-202 &lbrack;[arXiv:1512.04815](http://arxiv.org/abs/1512.04815)&rbrack;
+
+* [[Gijs Heuts]], [[Ieke Moerdijk]], *Left fibrations and homotopy colimits II* &lbrack;[arXiv:1602.01274](https://arxiv.org/abs/1602.01274)&rbrack;
+
+* [[Alexander Campbell]], *A modular proof of the straightening theorem*, talk at Macquarie University (2020) &lbrack;[pdf](https://acmbl.github.io/straight_slides.pdf), [[Campbell-ModularProofofStraightening.pdf:file]]&rbrack;
 
 * [[Fabian Hebestreit]], [[Gijs Heuts]], [[Jaco Ruit]], _A short proof of the straightening theorem_ ([arXiv:2111.00069](https://arxiv.org/abs/2111.00069)).
 
+
 [[!redirects straightening and unstraightening]]
+
+[[!redirects straightening theorem]]
+
+
