@@ -21,7 +21,7 @@ On [[quantum mechanics]] (and some [[quantum field theory]]):
 
 * {#Dirac78} [[Paul Dirac]], _The mathematical foundations of quantum theory_, pages 1-8 in A. R. Marlow (ed.) _Mathematical Foundations of Quantum Theory_, Ac. Press 1978
 
-* {#Dirac78} [[Paul Dirac]], _[[The Principles of Quantum Mechanics]]_, International series of monographs on physics, Oxford University Press, 1978
+* {#Dirac78} [[Paul Dirac]], *[[The Principles of Quantum Mechanics]]*, International series of monographs on physics, Oxford University Press (1978) &lbrack;[ISBN:9780198520115](https://global.oup.com/academic/product/the-principles-of-quantum-mechanics-9780198520115)&rbrack;
   
 ## Quotes
 
