@@ -289,9 +289,9 @@ For purposes of constructing models of complex systems using superconvex spaces 
 * [[Tobias Fritz]], Convex spaces I: definition and examples. 
 [arXiv/0903.5522](http://arxiv.org/abs/0903.5522)
 
-The term strong convex spaces was employed in the text
+The term *strong convex space* was employed in:
 
-* [[George Mackey]], _The Mathematical Foundations of Quantum Mechanics_ A Lecture-note Volume, ser. The mathematical physics monograph series. Princeton university, 1963
+* [[George Mackey]], p. 68 of: *The Mathematical Foundations of Quantum Mechanics: a Lecture-note Volume*, Mathematical physics monograph series, Benjamin (1963), Dover (2004) &lbrack;[google books](https://books.google.de/books?id=qlpb2mWYmfYC&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)&rbrack;
 
 
 [[!redirects superconvex spaces]]
