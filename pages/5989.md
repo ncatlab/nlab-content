@@ -21,10 +21,11 @@ On [[comonads]]:
 * {#ApplegateTierney70} [[Harry Applegate]], [[Myles Tierney]], _Iterated cotriples_, Lecture Notes in Math. **137** (1970) 56-99 ([doi:10.1007/BFb0060440](https://doi.org/10.1007/BFb0060440))
 
   
-On [[forcing]] via [[classifying toposes]]:
+On [[forcing]] via [[classifying toposes]] and the [[classifying topos of a localic groupoid]]:
 
+* {#JoyalTierney84} [[André Joyal]], [[Myles Tierney]], *An extension of the Galois theory of Grothendieck*,  Mem. Amer. Math. Soc. **309** (1984) &lbrack;[ISBN:978-1-4704-0722-3](https://bookstore.ams.org/memo-51-309)&rbrack;
 
-*  [[André Joyal]] and [[Myles Tierney]], _An Extension of the Galois Theory of Grothendieck_, Memoirs of the American Mathematical Society 51 (1984). 
+  (historical note: according to MR756176 (86d:18002) by [[Peter Johnstone]], the main results of this monograph were obtained by the authors around 1978-1979, typed version circulated from 1982, and the results influenced the field much before the actual publication)
 
 
 On [[stacks]] and [[classifying spaces]]:
