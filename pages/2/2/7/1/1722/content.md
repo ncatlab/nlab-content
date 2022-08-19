@@ -60,6 +60,6 @@ Another discussion more in the style of the [[Lie groupoid]] community is in sec
 
 * Ginot, Sti&#233;non, _$G$-gerbes, principal 2-group bundles and characteristic classes_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0801/0801.1238v2.pdf))
 
-Giraud's gerbes as being the objects classified by nonabelian cohomology are recovered from general principles in
+Giraud's gerbes as being the objects classified by [[nonabelian cohomology]] are recovered from general principles:
 
-* [[Alexander Campbell]], _A higher categorical approach to Giraud's non-abelian cohomology_, PhD thesis, Macquarie University 2016 &lt;http://hdl.handle.net/1959.14/1261186>
+* [[Alexander Campbell]], _A higher categorical approach to Giraud's non-abelian cohomology_, PhD thesis, Macquarie University (2016) &lbrack;[hdl:1959.14/1261186](http://hdl.handle.net/1959.14/1261186)&rbrack;
