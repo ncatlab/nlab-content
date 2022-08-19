@@ -379,21 +379,15 @@ Press (1959) &lbrack;[doi:978-0-12-750550-3](https://www.elsevier.com/books/grou
 
 Classical textbooks (on the [[Hilbert space]] description) include
 
-* [[John von Neumann]], _Mathematische Grundlagen der Quantenmechanik_.
-(German) Mathematical Foundations of Quantum Mechanics. Berlin,
-Germany: Springer Verlag, 1932.
+* [[John von Neumann]], _Mathematische Grundlagen der Quantenmechanik_ (German) Mathematical Foundations of Quantum Mechanics. Berlin, Germany: Springer Verlag, 1932.
 
-* [[George Mackey]], _The Mathematical Foundations of Quantum Mechanics_ A
-Lecture-note Volume, ser. The mathematical physics monograph series.
-Princeton university, 1963
+* [[George Mackey]], *The Mathematical Foundations of Quantum Mechanics: a Lecture-note Volume* Mathematical physics monograph series, Benjamin (1963), Dover (2004) &lbrack;[google books](https://books.google.de/books?id=qlpb2mWYmfYC&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)&rbrack;
 
-* E. Prugovecki, _Quantum mechanics in Hilbert Space_. Academic Press,
-1971.
+* E. Prugovecki, _Quantum mechanics in Hilbert Space_. Academic Press (1971)
 
-
-* {#Dirac78} [[Paul Dirac]], _[[The Principles of Quantum Mechanics]]_, International series of monographs on physics, Oxford University Press, 1978
+* {#Dirac78} [[Paul Dirac]], *[[The Principles of Quantum Mechanics]]*, International series of monographs on physics, Oxford University Press (1978) &lbrack;[ISBN:9780198520115](https://global.oup.com/academic/product/the-principles-of-quantum-mechanics-9780198520115)&rbrack;
   
-* Anthony Sudbery, Quantum mechanics and the particles of nature: an outline for mathematicians 
+* Anthony Sudbery, *Quantum mechanics and the particles of nature: an outline for mathematicians*
 
 Modern textbooks:
 
