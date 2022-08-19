@@ -109,19 +109,25 @@ A special case of this is the following: the category of [[étale scheme|étale 
 
 ## Galois theorem for locales and topoi
 
-Let $E$ be a Grothendieck topos. Then there exist an open [[localic groupoid]] $G$ such that $E$ is equivalent to the category of &#233;tale presheaves over $G$. One of the classical references is
+Let $E$ be a [[Grothendieck topos]]. Then there exist an open [[localic groupoid]] $G$ such that $E$ is equivalent to the category of &#233;tale presheaves over $G$. ([Joyal & Tierney 1984](#JoyalTierney84), see also at *[[classifying topos of a localic groupoid]]*).
 
-* J. P. Murre, _Lectures on an introduction to Grothendieck's theory of the fundamental group_, Tata Inst. of Fund. Res. Lectures on Mathematics _40_, Bombay, 1967. iv+176+iv pp. 
 
-This is a variant of the theorem in the setting of [[locales]] from 
+## Related entries
 
-* [[Andre Joyal]], M. Tierney, _An extension of the Galois theory of Grothendieck_,  Mem. Amer. Math. Soc. 51 (1984), no. 309, vii+71 pp. 
+* [[classifying topos of a localic groupoid]]
 
 ## References
 
-The original development of the theory by [[Grothendieck]]  is in [[SGA1]]. 
+The original development of the theory by [[Grothendieck]]  is in . 
 
-* [[Alexander Grothendieck]], (1971), S.G.A.1 - Revetements  &#233;tales et groupe fondamental, Lecture Notes in Maths. 224, Springer-Verlag. 
+* [[Alexander Grothendieck]], (1971), *[[SGA1]] -- Revetements  &#233;tales et groupe fondamental*, Lecture Notes in Maths. 224, Springer-Verlag. 
+
+See also:
+
+* J. P. Murre, _Lectures on an introduction to Grothendieck's theory of the fundamental group_, Tata Inst. of Fund. Res. Lectures on Mathematics _40_, Bombay, 1967. iv+176+iv pp. 
+
+* {#JoyalTierney84} [[André Joyal]], [[Myles Tierney]], *An extension of the Galois theory of Grothendieck*,  Mem. Amer. Math. Soc. **309** (1984) &lbrack;[ISBN:978-1-4704-0722-3](https://bookstore.ams.org/memo-51-309)&rbrack;
+
 
 A more recent treatment can be found in
 
