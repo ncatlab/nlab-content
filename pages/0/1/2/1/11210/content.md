@@ -13,6 +13,10 @@ On [[Pontrjagin duality]]:
 
 * {#Mackey48} [[George Mackey]], *The Laplace Transform For Locally Compact Abelian Groups*, Proceedings of the National Academy of Sciences of the United States of America Vol. 34, No. 4 (Apr. 15, 1948), pp. 156-162 ([jstor:87968](https://www.jstor.org/stable/87968))
 
+On the [[mathematical physics]] of [[quantum mechanics]]:
+
+* [[George Mackey]], *The Mathematical Foundations of Quantum Mechanics: a Lecture-note Volume*, Mathematical physics monograph series, Benjamin (1963), Dover (2004) &lbrack;[google books](https://books.google.de/books?id=qlpb2mWYmfYC&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)&rbrack;
+
 
 On [[harmonic analysis]]:
 
