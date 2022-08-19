@@ -177,7 +177,7 @@ $$
   \array{
     c
     \\
-    \downarrow^{\mathrlap{c_X}}
+    \big\downarrow{\mathrlap{{}^{c_X}}}
     \\
     X
   }
@@ -327,7 +327,7 @@ $$
     \big)
   }
 $$
-which is clearly [[essentially surjective functor|essentially surjective]]. That it is also [[fully faithful functor|fully faithful]] is established by the following sequence of [[natural equivalences]]:
+which is clearly [[essentially surjective functor|essentially surjective]]. That it is also [[fully faithful functor|fully faithful]] is established by the following sequence of [[natural isomorphisms]]:
 
 $$
   \begin{array}{l}
@@ -594,11 +594,15 @@ Here:
    \[
      \label{SliceHomOfPresheavesAsFiberOfPlainHom}
      PSh(\mathcal{C})_{/y_{\mathcal{C}}(X)}
-     \big(
-       (y_{\mathcal{C}})_{/X}(U \xrightarrow{\phi} X)
+     \Big(
+       \big(
+         y_{\mathcal{C}})_{/X}(U \xrightarrow{\phi} X
+       \big)
        ,\,
-       (E \xrightarrow{p} y_{\mathcal{C}}(X) )
-     \big)
+       \big(
+         E \xrightarrow{p} y_{\mathcal{C}}(X) 
+       \big)
+     \Big)
      \;=\;
      PSh(\mathcal{C})
      \big(
@@ -624,11 +628,15 @@ Here:
 
 \begin{tikzcd}[column sep=20pt]
      \mathrm{PSh}(\mathcal{C})_{/y_{\mathcal{C}}(X)}
-     \big(
-       (y_{\mathcal{C}})_{/X}(U \xrightarrow{\phi} X)
+     \Big(
+       \big(
+         y_{\mathcal{C}})_{/X}(U \xrightarrow{\phi} X
+       \big)
        ,\,
-       (E \xrightarrow{p} y_{\mathcal{C}}(X) )
-     \big)
+       \big(
+         E \xrightarrow{p} y_{\mathcal{C}}(X) 
+       \big)
+     \Big)
      \ar[
        rr
      ]
@@ -686,11 +694,11 @@ $$
     A
     ,\,
     PSh(\mathcal{C})_{/y_{\mathcal{C}}(X)}
-    (
+    \big(
       (y_{\mathcal{C}})_{/X}(-)
       ,\,
       B
-    )
+    \big)
   \Big)
   \\
   & \;\simeq\;
@@ -705,11 +713,11 @@ $$
     y_{(\mathcal{C}_{/X})}(c_{X})
     ,\,
     PSh(\mathcal{C})_{/y_{\mathcal{C}}(X)}
-    (
+    \big(
       (y_{\mathcal{C}})_{/X}(-)
       ,\,
       B
-    )
+    \big)
   \Big)
   \\
   & \;\simeq\;
@@ -721,11 +729,11 @@ $$
     y_{(\mathcal{C}_{/X})}(c_{X})
     ,\,
     PSh(\mathcal{C})_{/y_{\mathcal{C}}(X)}
-    (
+    \big(
       (y_{\mathcal{C}})_{/X}(-)
       ,\,
       B
-    )
+    \big)
   \Big)
   \\
   &
@@ -819,7 +827,7 @@ Here:
 
 * the third step follows by the [[Yoneda lemma]] over $\mathcal{C}$, to which applies by observing that that:
 
-  1. colimits in slices are reflected a colimits in the underlying category (by [this Prop](over+category#ColimitInSliceAreReflectedByColimitsInPlainCategory)),
+  1. colimits in slices are [[reflected colimit|reflected]] as colimits in the underlying category (by [this Prop](over+category#ColimitInSliceAreReflectedByColimitsInPlainCategory)),
 
   1. [[colimits of presheaves are computed objectwise]],
 
@@ -1138,6 +1146,7 @@ Local weak equivalences between locally fibrant objects coincide with objectwise
 As established in the previous section, the right adjoint functor reflects objectwise weak equivalences between objectwise fibrant presheaves, which completes the proof.
 \end{proof}
 
+
 ### In $\infty$-category theory
  {#InInfinityCategoryTheory}
 
@@ -1249,6 +1258,7 @@ Together with the [[adjoint quadruple]] that is induced (see [here](adjoint+quad
 
 ## References
 
+
 Textbook accounts for the statement in plain [[category theory]]:
 
 * {#SGA41}[[Michael Artin]], [[Alexander Grothendieck]], [[Jean-Louis Verdier]], Ex. 1 Prop. 5.11, p. [27](http://www.cmls.polytechnique.fr/perso/laszlo/sga4/SGA4-1/sga41.pdf#page=27) in:  _Théorie des Topos et Cohomologie Etale des Schémas_ ([[SGA4]]) Tome 1: *Théorie des Topos* Springer **LNM** **269** (1972) ([doi:10.1007/BFb0081551](https://link.springer.com/book/10.1007/BFb0081551), [pdf](http://www.cmls.polytechnique.fr/perso/laszlo/sga4/SGA4-1/sga41.pdf))
@@ -1265,5 +1275,4 @@ via [[model categories]]:
 and via [[quasi-categories]]:
 
 * {#Lurie09} [[Jacob Lurie]], Prop. 5.1.6.12 in: *[[Higher Topos Theory]]*, Annals of Mathematics Studies 170, Princeton University Press, 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
-
 
