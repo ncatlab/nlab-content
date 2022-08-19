@@ -330,20 +330,18 @@ Cartesian lifts are not required to be unique, but are automatically unique up t
 
 #### Statement of the equivalence
 
+\begin{proposition}
 
-+-- {: .un_proposition}
-###### Proposition
-
-The Grothendieck construction factors through [[Grothendieck fibration]]s over $C$
+The Grothendieck construction factors through [[Grothendieck fibrations]] over $C$
 
 $$
-  \int : [C^{op}, Cat] \to Fib(C) \hookrightarrow Cat/C
+  \int \colon [C^{op}, Cat] \to Fib(C) \hookrightarrow Cat/C
 $$
 
-and establishes an equivalence of bicategories
+and establishes an [[equivalence of bicategories]]
 
 $$
-  \int : [C^{op}, Cat] \stackrel{\simeq}{\to} Fib(C)
+  \int \colon [C^{op}, Cat] \stackrel{\simeq}{\to} Fib(C)
   \,.
 $$
 
@@ -362,7 +360,7 @@ $$
   \,.
 $$
 
-=--
+\end{proposition}
 
 +-- {: .proof}
 ###### Proof
@@ -681,10 +679,9 @@ Textbook accounts:
 
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Chapter 10 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
 
+Survey in the generality of [[enriched category theory|enriched-]], [[internal category|internal-]] and [[(infinity,1)-category theory|$\infty$-category theory]] (see also the *[[enriched Grothendieck construction|enriched-]] and [[(infinity,1)-Grothendieck construction|$\infty$-Grothendieck construction]]):
 
-
-
-
+* [[Liang Ze Wong]], *The Grothendieck Construction in Enriched, Internal and ∞-Category Theory*, PhD thesis, Univ. Washington (2019) &lbrack;[pdf](http://sheaves.github.io/slides/thesis.pdf), [[Wong-GrothendieckConstruction.pdf:file]]&rbrack;
 
 The [[geometric realization of categories|geometric realization]] of Grothendieck constructions has been analyzed in
 
@@ -718,9 +715,11 @@ Discussion of the Grothendieck construction as a [[lax colimit]] includes (see a
 
 * {#GepnerHaugsengNikolaus15} [[David Gepner]], [[Rune Haugseng]], [[Thomas Nikolaus]], _Lax colimits and free fibrations in $\infty$-categories_ ([arXiv:1501.02161](http://arxiv.org/abs/1501.02161))
 
-The Grothendieck construction in [[enriched category theory]]:
+On the [[enriched Grothendieck construction]]:
 
-* {#BeardsleyWong18} [[Jonathan Beardsley]], Liang Ze Wong, _The Enriched Grothendieck Construction_, Advances in Mathematics, Volume 344, 21 February 2019, Pages 234-261 ([arXiv:1804.03829](https://arxiv.org/abs/1804.03829), [doi:10.1016/j.aim.2018.12.009](https://doi.org/10.1016/j.aim.2018.12.009)) 
+* {#BeardsleyWong18} [[Jonathan Beardsley]], [[Liang Ze Wong]], _The Enriched Grothendieck Construction_, Advances in Mathematics, **344** (2019) 234-261 &lbrack;[arXiv:1804.03829](https://arxiv.org/abs/1804.03829), [doi:10.1016/j.aim.2018.12.009](https://doi.org/10.1016/j.aim.2018.12.009)&rbrack;
+
+* {#BeardsleyWong19} [[Jonathan Beardsley]], [[Liang Ze Wong]], *The operadic nerve, relative nerve and the Grothendieck construction*, Theory and Applications of Categories, **34** 13 (2019) 349-374 &lbrack;[tac:34-13](http://www.tac.mta.ca/tac/volumes/34/13/34-13abs.html)&rbrack;
 
 A [[monoidal category|monoidal]] version:
 
@@ -728,5 +727,6 @@ A [[monoidal category|monoidal]] version:
 
 
 [[!redirects Grothendieck constructions]]
+
 [[!redirects enriched Grothendieck construction]]
 [[!redirects enriched Grothendieck constructions]]
