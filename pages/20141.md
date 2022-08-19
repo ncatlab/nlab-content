@@ -94,3 +94,5 @@ The [[formal duality|dual]] concept is the
 [[!redirects enriched under-category]]
 [[!redirects enriched under-categories]]
 
+[[!redirects slice enriched category]]
+[[!redirects slice enriched categories]]
