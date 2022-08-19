@@ -42,26 +42,40 @@ For $E \in Sh(\mathcal{G}_0)$ a [[sheaf]] on the [[topological space]] of its [[
 
 
 ## Properties
+ {#Properties}
 
 ### Exhaustion of the category of all toposes
+ {#ExhaustionOfTheCategoryOfToposes}
 
-**Proposition** ([Joyal-Tierney 84](#JoyalTierney84))
-
+\begin{proposition}\label{EveryGrToposIsSheavesOnLocalicGroupoid}
+([Joyal-Tierney 84](#JoyalTierney84))
+\linebreak
 For every [[Grothendieck topos]] $\mathcal{E}$ there is a [[localic groupoid]] $\mathcal{G}$ such that $\mathcal{E} \simeq Sh(\mathcal{G})$.
+\end{proposition}
 
-**Proposition** ([Moerdijk 88, theorem 5](#Moerdijk88))
+\begin{proposition}
+([Moerdijk 88, theorem 5](#Moerdijk88))
+\linebreak
+The construction in Prop. \ref{EveryGrToposIsSheavesOnLocalicGroupoid} extends to an [[equivalence of 2-categories]] between that of Grothendieck toposes [[Topos]] and a [[localization]] of that of localic groupoids.
+\end{proposition}
 
-This construction extends to an [[equivalence of 2-categories]] between that of Grothendieck toposes [[Topos]] and a [[localization]] of that of localic groupoids.
+\begin{proposition}
+([Butz-Moerdijk 98](#ButzMoerdijk98)) 
+\linebreak
+If $\mathcal{E}$ has [[point of a topos|enough points]], then the [[localic groupoid]] in Prop. \ref{EveryGrToposIsSheavesOnLocalicGroupoid} may in fact be taken to be a [[topological groupoid]] $\mathcal{G}$ such that $\mathcal{E} \simeq Sh(\mathcal{G})$.
+\end{proposition}
 
-**Proposition** ([Butz-Moerdijk 98](#ButzMoerdijk98)) If $\mathcal{E}$ has [[point of a topos|enough points]], then there exists in fact a [[topological groupoid]] $\mathcal{G}$ such that $\mathcal{E} \simeq Sh(\mathcal{G})$.
 
+## Related entries
+
+* [[Grothendieck's Galois theory]]
 
 
 ## References
 
-The original result for localic groupoids and arbitrary Grothendieck toposes is due to 
+The original result for localic groupoids and arbitrary Grothendieck toposes is due to:
 
-* {#JoyalTierney84} [[Andre Joyal]], [[Myles Tierney]], _An extension of the Galois theory of Grothendieck_ Mem. Amer. Math. Soc. no 309 (1984)
+* {#JoyalTierney84} [[André Joyal]], [[Myles Tierney]], *An extension of the Galois theory of Grothendieck*,  Mem. Amer. Math. Soc. **309** (1984) &lbrack;[ISBN:978-1-4704-0722-3](https://bookstore.ams.org/memo-51-309)&rbrack;
 
 The above equivalence of categories can in fact be lifted
 to an equivalence between the bicategory of localic groupoids, complete flat bispaces, and their morphisms and the bicategory of Grothendieck toposes, geometric morphisms, and natural transformations. The equivalence is implemented by the classifying topos functor, as explained in
