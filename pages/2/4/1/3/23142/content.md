@@ -917,35 +917,13 @@ The above proof of Prop. \ref{TheAdjointEquivalenceInOrdinaryCategoryTheory} doe
 ### In enriched category theory
  {#InEnrichedCategoryTheory}
 
-For $\mathcal{V}$ any [[Bénabou cosmos]] for [[enriched category theory]], the statement and proof of Prop. \ref{TheAdjointEquivalenceInOrdinaryCategoryTheory} holds and applies verbatim also in $\mathcal{V}$-[[enriched category theory]] for [[enriched presheaves]] and [[enriched slice categories]] 
-(with the [[colimit]]-of-[[representable functor|representables]]-expression for [[enriched presheaves]] now being the corresponding [[coend]], as discussed at *[[co-Yoneda lemma]]*).
+(...)
 
-\begin{example}\label{ForSimplicialPresheaves}
-**(for [[simplicial presheaves]])**
-\linebreak
-With [[Bénabou cosmos]] $\mathcal{V} \,=\,$ [[sSet]] being the category of [[simplicial sets]] with its [[cartesian monoidal category]]-structure (see at *[[products of simplicial sets]]*), the [[enriched presheaves]] are [[simplicial presheaves]] over [[simplicial sites]] $\mathcal{C}$.  With [[categories of simplicial presheaves]] denoted $sPSh(-)$, Prop. \ref{TheAdjointEquivalenceInOrdinaryCategoryTheory} reads:
+> **Warning.** The statement that used to be here needs fixing, and so does its model-category theoretic statement [below.](#InSimplicialModelCategoryTheory).
 
-\begin{tikzcd}
-    \mathrm{sPSh}(\mathcal{C})_{/y_{\mathcal{C}}(X)}
-    \ar[
-      rrr,
-      "{ 
-        \mathrm{PSh}(\mathcal{C})_{/y(X)}
-        \big(
-          (y_{\mathcal{C}})_{/X}(-)
-          ,\,
-          -  
-        \big)
-      }"{above},
-      "{ \sim }"{below}
-    ]
-    &&&
-    \mathrm{sPSh}
-    \big(
-      \mathcal{C}_{/X}
-    \big)
-\end{tikzcd}
-\end{example}
+(...)
+
+
 
 ### In simplicial model category theory
  {#InSimplicialModelCategoryTheory}
