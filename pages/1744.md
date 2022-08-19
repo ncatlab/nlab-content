@@ -114,15 +114,19 @@ For $X \in $ [[sSet]], the following are equivalent:
 
 * $X$ is $n$-coskeletal; 
 
-* on $X$ the unit  $X \to \mathbf{cosk}_n(X)$ of the adjunction is an [[isomorphism]];
+* on $X$ the [[adjunction unit]] $X \to \mathbf{cosk}_n(X)$ is an [[isomorphism]];
 
 * the map
 
   $$
-   X_k = Hom(\Delta[k], X) \stackrel{tr_n}{\to} Hom(tr_n(\Delta[k]), tr_n(X))
+    X_k 
+    \;=\; 
+    Hom(\Delta[k], X) 
+     \stackrel{tr_n}{\to} 
+    Hom(tr_n(\Delta[k]), tr_n(X))
   $$
 
-  is a bijection for all $k \gt n$
+  is a [[bijection]] for all $k \gt n$
 
 * for $k \gt n$ and every morphism $\partial\Delta[k] \to X$ from the [[boundary of a simplex|boundary]] of the $k$-[[simplex]] there exists a _unique_ filler $\Delta[k] \to X$
 
@@ -167,7 +171,7 @@ More generally, $\mathbf{cosk}_n$ preserves those [[Kan fibrations]] between [[K
 For each $n \in \mathbb{N}$, the [[unit of an adjunction|unit of the adjunction]]
 
 $$
-  X \to \mathbf{cosk}_n(X)
+  X \longrightarrow \mathbf{cosk}_n(X)
 $$
 
 induces an [[isomorphism]] on all [[simplicial homotopy groups]] in degree $\lt n$.
@@ -183,7 +187,7 @@ $$
 
 is a [[Postnikov tower]] for $X$.
 
-See also the discussion on [p. 140, 141](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf#page=3) of [DwKan1984](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf). 
+See also the discussion in [Dwyer & Kan 1984, p. 140, 141](#DwyerKan84). 
 
 For the interpretation of this in terms of  [[(n,1)-topos]]es inside the [[(∞,1)-topos]] [[∞Grpd]] see [[n-truncated object in an (∞,1)-category]], example <a href="http://ncatlab.org/nlab/show/n-truncated+object+of+an+(infinity%2C1)-category#InInfGrpd">In ∞Grpd and Top</a>.
 
@@ -211,7 +215,7 @@ For the interpretation of this in terms of  [[(n,1)-topos]]es inside the [[(∞,
 
 * [[Peter May]], Section II.8 of: _Simplicial objects in algebraic topology_, The University of Chicago Press 1967 ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html))
 
-* {#DwyerKan84} [[William Dwyer]], [[Dan Kan]], Section 1.2 (vi) of: _An obstruction theory for diagrams of simplicial sets_, Indagationes Mathematicae (Proceedings) Volume 87, Issue 2, 1984, Pages 139-146 ( <a href="https://doi.org/10.1016/1385-7258(84)90015-5">doi:10.1016/1385-7258(84)90015-5</a>, [pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf))
+* {#DwyerKan84} [[William Dwyer]], [[Dan Kan]], Section 1.2 (vi) of: *An obstruction theory for diagrams of simplicial sets*, Indagationes Mathematicae (Proceedings) **87** 2 (1984) 139-146 &lbrack;<a href="https://doi.org/10.1016/1385-7258(84)90015-5">doi:10.1016/1385-7258(84)90015-5</a>&rbrack;
 
 * [[Paul Goerss]], [[J. F. Jardine]], Section VI.3 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999)  Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4))
 
