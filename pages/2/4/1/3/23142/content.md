@@ -912,34 +912,55 @@ Here:
 
 The above proof of Prop. \ref{TheAdjointEquivalenceInOrdinaryCategoryTheory} does not actually depend on the assumption that the base object is representable ($y(X)$). 
 
+\linebreak
 
-
-### In enriched category theory
- {#InEnrichedCategoryTheory}
-
-(...)
-
-> **Warning.** The statement that used to be here needs fixing, and so does its model-category theoretic statement [below.](#InSimplicialModelCategoryTheory).
-
-(...)
-
-
-
-### In simplicial model category theory
+### For simplicial presheaves on plain categories
  {#InSimplicialModelCategoryTheory}
 
-From this follows fairly straightforwardly the [[Quillen equivalence]]-version of the statement in the [[simplicial model category|simplicial]] [[model category]]-theory of [[simplicial presheaves]].
+We discuss generalizations of the above situation from [[presheaves]] to the [[homotopy theory]] of [[simplicial presheaves]].
+
+
+#### Over 0-truncated objects
+ {#SimplicialPresheavesOverZeroTruncatedObjects}
+
 
 For 
 
-* $\mathcal{C}$ an [[sSet-enriched category]], 
+* $\mathcal{C}$ an [[category]], 
 
 * $X \,\in\, \mathcal{C}$ an object,
 
 * $\mathcal{C}_{/X}$ the [[sSet]]-[[enriched slice category]]
 
-write:
+\begin{lemma}\label{ForSimplicialPresheaves}
+With [[categories of simplicial presheaves]] denoted $sPSh(-)$, Prop. \ref{TheAdjointEquivalenceInOrdinaryCategoryTheory} generalizes to:
 
+\begin{tikzcd}
+    \mathrm{sPSh}(\mathcal{C})_{/y_{\mathcal{C}}(X)}
+    \ar[
+      rrr,
+      "{ 
+        \mathrm{PSh}(\mathcal{C})_{/y(X)}
+        \big(
+          (y_{\mathcal{C}})_{/X}(-)
+          ,\,
+          -  
+        \big)
+      }"{above},
+      "{ \sim }"{below}
+    ]
+    &&&
+    \mathrm{sPSh}
+    \big(
+      \mathcal{C}_{/X}
+    \big)
+\end{tikzcd}
+\end{lemma}
+
+
+##### Globally
+
+Write:
 
 * $sPSh\big(\mathcal{C}_{/X}\big)_{proj}$ for the projective [[model structure on sSet-enriched presheaves]] (relative to the [[classical model structure on simplicial sets]] $sSet_{Qu}$) on the [[enriched slice category]],
   
@@ -1063,8 +1084,7 @@ is a weak equivalence.  And since this holds for all $U \,\in\, \mathcal{C}$, th
 \end{proof}
 
 
-### In simplicial presheaf theory
- {#InSimplicialPresheafTheory}
+##### Locally
 
 We now promote the [[Quillen equivalence]] in the previous section to the case of Čech-[[local model structures on simplicial presheaves]].
 
@@ -1123,6 +1143,24 @@ Here [[fibrant objects]] are objectwise [[Kan complexes]] that satisfy the appro
 Local weak equivalences between locally fibrant objects coincide with objectwise weak equivalences.
 As established in the previous section, the right adjoint functor reflects objectwise weak equivalences between objectwise fibrant presheaves, which completes the proof.
 \end{proof}
+
+\linebreak
+
+#### Over 1-truncated objects
+ {#SimplicialpresheavesSlicedOverOneTruncatedObjects}
+
+Over a 1-truncated object (hence over a simplicial presheaf with values in the [[simplicial nerve]] of a [[groupoid]]):
+
+* the slice category needs to be generalized to the homotopy slice, now given by the [[Grothendieck construction]] (in groupoids);
+
+* the right adjoint needs to be generalized from forming [[fibers]] (eq:SliceHomOfPresheavesAsFiberOfPlainHom) to forming [[homotopy fibers]]. 
+
+This happens in [Hollander 2008, Def. 5.1](#Hollander08). 
+
+The resulting Quillen equivalences for the global [[model structure on simplicial presheaves]] is [Hollander 2008, Them. 5.2](#Hollander08), and that for any local model structure is [Hollander 2008, Thm. 6.2](#Hollander08).
+
+
+\linebreak
 
 
 ### In $\infty$-category theory
@@ -1229,6 +1267,8 @@ This is the identification of the slice over $B \mathcal{G}$ with [[infinity-act
 In the case that $\mathbf{C} \,=\, Snglrt \,\coloneqq\, Grpd^{fin}_{1,\geq 1}$ is the [[global orbit category]] (a [[(2,1)-category]]) the equivalence of Prop. \ref{EquivalenceOfInfinityCategories} extracts the system of [[fixed loci]] of an object in [[global equivariant homotopy theory]] sliced over the archetypical $G$-[[orbi-singularity]], for some [[equivariance group]] $G$.
 Together with the [[adjoint quadruple]] that is induced (see [here](adjoint+quadruple#ViaKanExtensionOfAdjointPairs)) via [[(infinity,1)-Kan extension|$\infty$-Kan extension]] from the [[reflective sub-(infinity,1)-category|reflection]] onto the $G$-[[orbit category]],  this implies the [[cohesion of global- over G-equivariant homotopy theory]]. See there for more.
 \end{example}
+
+
 
 
 \linebreak
