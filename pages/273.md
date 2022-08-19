@@ -278,7 +278,7 @@ Discussion in terms of [[gerbes]]:
 
 * [[Amnon Yekutieli]], Combinatorial descent data for gerbes, Journal of Noncommutative Geometry Volume 8, Issue 4, 2014, pp. 1083–1099, arXiv:1109.1919 ([webpage](https://www.math.bgu.ac.il/~amyekut/publications/comb-descent/comb-descent.html))
 
-* [[Alexander Campbell]], _A higher categorical approach to Giraud's non-abelian cohomology_, PhD thesis, Macquarie University 2016 <http://hdl.handle.net/1959.14/1261186>
+* [[Alexander Campbell]], _A higher categorical approach to Giraud's non-abelian cohomology_, PhD thesis, Macquarie University (2016) &lbrack;[hdl:1959.14/1261186](http://hdl.handle.net/1959.14/1261186)&rbrack;
 
 
 Existence of [[classifying spaces]] for [[principal 2-bundles]]/[[nonabelian gerbes]]:
