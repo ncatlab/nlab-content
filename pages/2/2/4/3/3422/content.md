@@ -1019,6 +1019,9 @@ More on model-category theoretic construction of the $\infty$-Grothendieck const
 
 * {#HeutsMoerdijk13} [[Gijs Heuts]], [[Ieke Moerdijk]], _Left fibrations and homotopy colimits_ ([arXiv:1308.0704](http://arxiv.org/abs/1308.0704))
 
+* [[Gijs Heuts]], [[Ieke Moerdijk]], *Left fibrations and homotopy colimits II* &lbrack;[arXiv:1602.01274](https://arxiv.org/abs/1602.01274)&rbrack;
+
+
 Discussion in terms of [[lax (infinity,1)-colimits]] is in
 
 * {#GepnerHaugsengNikolaus15} [[David Gepner]], [[Rune Haugseng]], [[Thomas Nikolaus]], _Lax colimits and free fibrations in $\infty$-categories_ ([arXiv:1501.02161](http://arxiv.org/abs/1501.02161))
