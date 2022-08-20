@@ -472,23 +472,22 @@ A simplicial set is the nerve of a category precisely if it satisfies the [[Sega
 
 See at _[[Segal condition]]_ for more on this.
 
-+-- {: .num_prop}
-###### Proposition
 
+\begin{proposition}
+\label{sSetIsNerveOfCategoryIffAllInnerHornsHaveUniqueFillers}
+\linebreak
 A [[simplicial set]] is the nerve of a [[small category]] precisely if all [[inner horn|*inner* horns]] have _unique_ fillers.
+\end{proposition}
 
-=--
+(e.g. [[Kerodon]], [Prop. 1.2.3.1](https://kerodon.net/tag/0031); see also at *[[inner fibration]]*.)
 
-See *[[inner fibration]]* for details on this.
-
-
-+-- {: .num_prop}
-###### Proposition
-
+\begin{proposition}
+\label{sSetIsNerveOfGroupoidIffAllHornsHaveUniqueFillers}
+\linebreak
 A [[simplicial set]] is the nerve of a [[groupoid]] precisely if _all_ [[horns]] of dimension $\gt 1$ have _unique_ fillers.
+\end{proposition}
 
-=--
-
+(cf. e.g. [[Kerodon]], [Prop. 1.2.4.2](https://kerodon.net/tag/0037))
 
 +-- {: .num_prop}
 ###### Proposition
