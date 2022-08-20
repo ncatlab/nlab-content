@@ -242,6 +242,7 @@ Also:
 
 * [[adjoint modality]]
 
+* [[hypergroupoid]]
 
 ## References
 
