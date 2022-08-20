@@ -48,11 +48,17 @@ The $n$-groupoids form an [[(n,1)-category|(n+1,1)-category]], [[nGrpd]].
 ### As Kan complexes
  {#AsKanComplexes}
 
-A general model for [[∞-groupoid]]s is that of [[Kan complex]]es. In this context an  $n$-groupoid in the general sense is modeled by a Kan complex all of whose [[homotopy group]]s vanish in degree $k \gt n$. In this generality one also speaks of a [[homotopy n-type]]. 
+A general model for [[∞-groupoids]] is provided by [[Kan complexes]] (the [[fibrant objects]] in the [[classical model structure on simplicial sets]] which [[presentable (infinity,1)-category|presents]] [[∞Grpd]]). 
 
-Every such $n$-type is equivalent to a "small" model, an $(n+1)$-[[coskeletal]] Kan complex: one in which every $k$-sphere $\partial \Delta^{k+1}$ for $k \geq n+1$ has a _unique_ filler.
+In this context an  $n$-groupoid in the general sense is modeled by a Kan complex all of whose [[homotopy groups]] vanish in degree $k \gt n$. In this generality one also speaks of a *[[homotopy n-type|homotopy $n$-type]]* or an *[[n-truncated object of an (infinity,1)-category|$n$-truncated object]]* of [[∞Grpd]]. 
 
-Even a bit smaller than this is a Kan complex that is an $n$-[[hypergroupoid]], where in addition to these spheres also the [[horn]] fillers in degree $n+1$ are unique.
+Every such $n$-type is [[equivalence in an (infinity,1)-category|equivalent]] to a "small" model, an $(n+1)$-[[coskeletal]] Kan complex (see [there](simplicial+skeleton#Truncation)): one in which every $k$-sphere $\partial \Delta^{k+1}$ for $k \geq n+1$ has a _unique_ filler. 
+
+Yet a bit smaller than this are Kan complexes that is an $n$-[[hypergroupoid]], where in addition to these sphere-fillers also the [[horn]] fillers in degree $n+1$ are unique.
+
+(For [[1-groupoids]]/[1-hypergroupoids](hypergroupoid#OneHypergroupoids)  this situation is further spelled out [here](simplicial+skeleton#CoskeletalityOfSimplicialNervesOfCategories)).
+
+
 
 ## Related entries
 
