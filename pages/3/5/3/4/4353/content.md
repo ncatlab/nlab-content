@@ -2,10 +2,20 @@
 __John Duskin__ is a [[category theory|category theorist]] from the [[joyalscatlab:North American School of Category Theory]] in the [Buffalo group](http://ncatlab.org/joyalscatlab/published/North+American+School+of+Category+Theory#BuffaloGroup). He is often refered to as **Jack Duskin**.
 
 
-##References
 
-*  J. Duskin, 1975, Simplicial methods and the interpretation of "triple" cohomology , number 
-163 in Mem. Amer. Math. Soc., 3, Amer. Math. Soc. 
+## Selected writings
+
+On [[monadic cohomology]]:
+
+*  {#Duskin75} [[John Duskin]], *Simplicial methods and the interpretation of "triple" cohomology"*  Memoirs  of the AMS **163**, Amer. Math. Soc. (1975) &lbrack;[ISBN:978-1-4704-0645-5](https://bookstore.ams.org/memo-3-163)&rbrack;
+
+On [[nerves of bicategories]]:
+
+* {#Duskin02} [[John Duskin]], _Simplicial matrices and the nerves of weak n-categories I: nerves of bicategories_, Theory and Applications of Categories **9** 10 (2002) 198&#8211;308 &lbrack;[tac:9-10](http://www.tac.mta.ca/tac/volumes/9/n10/9-10abs.html)&rbrack;
+
+
+See also:
+
 
 * J. Duskin, 1979, Higher-dimensional torsors and the cohomology of topoi: the abelian theory , 
 in Applications of Sheaves , number 753 in Lecture Notes in Maths., Springer-Verlag. 
@@ -19,7 +29,6 @@ Belgique, 41, (1989), 249 &#8211; 277.
 Appl. Alg., 86, (1993), 135 &#8211; 154.
 
 
-* John W. Duskin, Simplicial matrices and the nerves of weak n-categories I: nerves of bicategories, [Theory and Applications of Categories, 9, (2002), 198 &#8211; 308] (http://tac.mta.ca/tac/volumes/9/n10/9-10abs.html).
 
 * John W. Duskin, _Non-abelian cohomology in a topos , [Reprints in Theory and Applications of Categories, No. 23 (2013) pp. 1-165](http://www.tac.mta.ca/tac/reprints/articles/23/tr23abs.html)
 
