@@ -30,7 +30,7 @@ Precsisely what this condition is like for the particular model constituted by s
 
 and
 
-* Toën-Vezzosi, _Segal topoi and stacks over Segal categories_ ([pdf](http://poincare.dma.unifi.it/~vezzosi/papers/msri.pdf))
+* Toën-Vezzosi, _Segal topoi and stacks over Segal categories_ ([pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1046.508&rep=rep1&type=pdf))
 
 recalled as corollary 6.5.3.13 in 
 
