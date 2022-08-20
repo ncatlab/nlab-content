@@ -193,10 +193,43 @@ For the interpretation of this in terms of  [[(n,1)-topos]]es inside the [[(∞,
 
 
 ## Examples
+ {#Examples}
 
-* The [[nerve]] of a [[category]] is a 2-coskeletal simplicial set.
+\begin{example}
+\label{CoskeletalityOfSimplicialNervesOfCategories}
+**(coskeletality of simplicial nerves of categories)**
+\linebreak
+The [[simplicial nerve]] of a [[category]] (i.e. of a [[1-category]]) is a [[coskeleton|2-coskeletal]] [[simplicial set]] (e.g. [Duskin 1975, §0.18(b)](monadic+cohomology#Duskin75), [Joyal 2008, Cor. 1.2](quasi-category#Joyal08)): The unique filler of the [[boundary of a simplex|boundary of an $n \geq 3$-simplex]] encodes the [[associativity]]-condition on [[n-tuple|$n$-tuples]] of composable morphisms.
 
-* A [[Kan complex]] that is $(n+1)$-coskeletal is equivalent to (the [[nerve]] of) an [[n-groupoid]].
+Of course there is more to a category than its associativity condition, and hence the converse fails: Not every [[coskeleton|2-coskeletal]] [[simplicial set]] is the [[nerve of a category]]. For example the [[boundary of a simplex|boundary of the 2-simplex]], $\partial \Delta^2$, is 2-coskeletal but not the nerve of a category, since it is missing a [[composition]] of the edges $0 \to 1 \to 2$, namely it is missing a filler of this [[inner horn]].
+
+So a simplicial set is the nerve of a [[1-category]] iff it is 
+
+1. an [[inner Kan complex]],
+
+2. [[coskeleton|2-coskeletal]] 
+
+(cf. e.g. [[Higher Topos Theory|Lurie 2009, Def. 2.3.4.1]]).
+
+In particular, a simplicial set is the nerve of a [[1-groupoid]] iff it is 
+
+1. a [[Kan complex]],
+
+2. [[coskeleton|2-coskeletal]]. 
+
+But this characterization now has a lot of redundancy, since with the unique fillers of boundaries of $n \geq 3$-simplices given by 2-coskeltality, we obtain fillers also of all $n \geq 3+1$-horns (first fill the missing $(n-1)$-face and then the interior $n$-cell). Therefore a simplicial set is the nerve of a [[1-groupoid]] already iff it
+
+1. has fillers of $\leq 3$-[[horns]] (encoding: (i) [[inverse morphisms]], (ii) [[composition]] and (iii) [[associativity]]);
+
+1. is [[coskeleton|2-coskeletal]] (encoding that associativity in a [[1-category]] is a [[property]], not a [[stuff, structure, property|structure]]).
+
+\end{example}
+
+Accordingly, essentially by definition:
+
+* A [[Kan complex]] that is $(n+1)$-coskeletal is equivalent to (the [[nerve]] of) a strict [[n-groupoid]].
+
+Also:
 
 * A 0-coskeletal simplicial set $X$ is (-1)-[[truncated]] and hence either empty or a [[contractible]] [[Kan complex]] , $X \stackrel{\simeq}{\to} *$ that is the [[nerve]] $X = N(C)$ of a [[groupoid]] $C$ that has a [[equivalence of categories]] $C \simeq *$.
 
