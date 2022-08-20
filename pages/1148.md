@@ -345,18 +345,21 @@ This uses homotopical structures of a [[category of fibrant objects]] on complex
 
 * [[Mark Hovey]], _Model category structures on chain complexes of sheaves_, Trans. Amer. Math. Soc. 353, 6 ([pdf](http://www.mathaware.org/tran/2001-353-06/S0002-9947-01-02721-0/S0002-9947-01-02721-0.pdf))
 
-A discussion of the [[Čech cohomology]] description of sheaf cohomology along the above lines is in
+A discussion of the [[Čech cohomology]] description of sheaf cohomology along the above lines is in
 
 * [[Tibor Beke]], _Higher &#268;ech Theory_ ([web](http://www.math.uiuc.edu/K-theory/0646/), [pdf](http://www.math.uiuc.edu/K-theory/0646/cech.pdf))
 
 
-See also
+See also:
 
-* [[Günter Tamme]], section II 1 of _[[Introduction to Étale Cohomology]]_
- {#Tamme}
+* {#Duskin79} [[John Duskin]], _Higher-dimensional torsors and the cohomology of topoi: the abelian theory_, p. 255-279 in: _Applications of sheaves_,  Lecture Notes in Mathematics **753**, Springer (1979) &lbrack;[doi:10.1007/BFb0061822](https://doi.org/10.1007/BFb0061822)&rbrack; 
 
-* [[James Milne]], section 7 of _[[Lectures on Étale Cohomology]]_
- {#Milne}
+
+* {#Tamme} [[Günter Tamme]], section II 1 of _[[Introduction to Étale Cohomology]]_
+ 
+
+* {#Milne} [[James Milne]], section 7 of _[[Lectures on Étale Cohomology]]_
+ 
 
 
 [[!redirects chain complex of sheaves]]
