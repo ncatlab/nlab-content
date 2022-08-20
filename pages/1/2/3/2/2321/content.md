@@ -36,7 +36,7 @@ A fancier way to say the same is
 +-- {: .num_defn #bigwedge}
 ###### Definition
 
-For $V$ a vector space of dimension $n$, an __orientation__ of $V$ is an equivalence class of nonzero elements of the [[line]] $\bigwedge^n V$, the $n$th [[alternating power]] of $V$, where two such elements are considered equivalent is either (hence each) is a positive multiple of the other.
+For $V$ a vector space of dimension $n$, an __orientation__ of $V$ is an equivalence class of nonzero elements of the [[line]] $\bigwedge^n V$, the $n$th [[alternating power]] of $V$, where two such elements are considered equivalent when either (hence each) is a positive multiple of the other.
 =--
 
 Note that by both definitions, an orientation of a [[line]] (with $n = 1$) is an equivalence class of nonzero elements.
