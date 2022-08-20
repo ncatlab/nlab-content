@@ -13,12 +13,14 @@ On [[nerves of bicategories]]:
 
 * {#Duskin02} [[John Duskin]], _Simplicial matrices and the nerves of weak n-categories I: nerves of bicategories_, Theory and Applications of Categories **9** 10 (2002) 198&#8211;308 &lbrack;[tac:9-10](http://www.tac.mta.ca/tac/volumes/9/n10/9-10abs.html)&rbrack;
 
+On [[ordinary cohomology]] in [[toposes]] ([[abelian sheaf cohomology]]), higher [[gerbes]] and introducing the notion of [[hypergroupoids]]:
+
+* {#Duskin79} [[John Duskin]], _Higher-dimensional torsors and the cohomology of topoi: the abelian theory_, p. 255-279 in: _Applications of sheaves_,  Lecture Notes in Mathematics **753**, Springer (1979) &lbrack;[doi:10.1007/BFb0061822](https://doi.org/10.1007/BFb0061822)&rbrack; 
+
+
 
 See also:
 
-
-* J. Duskin, 1979, Higher-dimensional torsors and the cohomology of topoi: the abelian theory , 
-in Applications of Sheaves , number 753 in Lecture Notes in Maths., Springer-Verlag. 
 
 * John Duskin, _The Azumaya complex of a commutative ring_, in: Categorical algebra and its applications (Louvain-La-Neuve, 1987), 107&#8211;117, Lecture Notes in Math. __1348__, Springer 1988. 
 
