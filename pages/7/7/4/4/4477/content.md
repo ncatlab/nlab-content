@@ -365,6 +365,8 @@ If $R$ is the [[integers]] $\mathbb{Z}$, or a [[field]] $k$, or a [[division rin
 
 ## Related concepts
 
+* [[Schanuel's lemma]]
+
 * [[projective object]], [[projective presentation]], [[projective cover]], [[projective resolution]]
 
 * [[injective object]], [[injective presentation]], [[injective envelope]], [[injective resolution]]
