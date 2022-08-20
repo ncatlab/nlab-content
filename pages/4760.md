@@ -55,7 +55,7 @@ There are also an oplax version and two non-normalized versions.
 
 * The [[simplicial set]]s in the image of the geometric nerve are 3-[[coskeletal]].
 
-* The geometric nerve identifies precisely [[bigroupoid]]s with 2-[[hypergroupoid]]s: those [[Kan complexes]] for which the horn fillers in dimension $\geq 3$ are _unique_ . (Theorem 8.6 in ([Duskin](#Duskin)))  
+* The geometric nerve identifies precisely [[bigroupoid]]s with 2-[[hypergroupoid]]s: those [[Kan complexes]] for which the horn fillers in dimension $\geq 3$ are _unique_ . (Theorem 8.6 in ([Duskin 2002](#Duskin02)))  
 
 (This shows in particular that bigroupoids model all [[homotopy 2-type]]s.)
 
@@ -201,8 +201,7 @@ Following ([Johnson–Yau, Section 5.4](#JohnsonYau20)), one may picture the Dus
 
 * [[Ross Street]], _The algebra of oriented simplexes_, Journal of Pure and Applied Algebra, Volume 49, Issue 3, December 1987, Pages 283&#8211;335
 
-* [[John Duskin]], _Simplicial matrices and the nerves of weak n-categories I: nerves of bicategories_ ([tac](http://www.tac.mta.ca/tac/volumes/9/n10/9-10abs.html)), Theory and Applications of Categories, Vol. 9, No. 10, 2002, pp. 198&#8211;308.
-{#Duskin}
+* {#Duskin02} [[John Duskin]], _Simplicial matrices and the nerves of weak n-categories I: nerves of bicategories_, Theory and Applications of Categories **9** 10 (2002) 198&#8211;308 &lbrack;[tac:9-10](http://www.tac.mta.ca/tac/volumes/9/n10/9-10abs.html)&rbrack;
 
 * V. Blanco, M. Bullejos, E. Faro, _A Full and faithful Nerve for 2-categories_, Applied 
 Categorical Structures, Vol 13-3, 223-233, 2005. (See also [arxiv](http://arxiv.org/abs/math/0406615)).
@@ -211,4 +210,7 @@ Categorical Structures, Vol 13-3, 223-233, 2005. (See also [arxiv](http://arxiv.
 
 [[!redirects bicategory nerve]]
 [[!redirects nerve of bicategories]]
+[[!redirects nerves of bicategories]]
+
 [[!redirects nerve of a bicategory]]
+
