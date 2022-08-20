@@ -60,6 +60,9 @@ See also
 
 Introductory textbooks:
 
+* [[Carl Faith]], _Algebra: Rings, Modules, Categories_, vol. 1,  Grundlehren der mathematischen Wissenschaften **190**, Springer (1973) &lbrack;[doi:10.1007/978-3-642-80634-6](https://doi.org/10.1007/978-3-642-80634-6)&rbrack;
+
+
 * {#Aluffi09} [[Paolo Aluffi]], *Algebra: Chapter 0*, Graduate Studies in Mathematics **104**,  AMS (2009) &lbrack;[ISBN:978-1-4704-1168-8](https://bookstore.ams.org/gsm-104/)&rbrack;
 
 * [[Joseph A. Gallian]], *Contemporary Abstract Algebra*, Chapman and Hall/CRC (2020)  &lbrack;[doi:10.1201/9781003142331](https://doi.org/10.1201/9781003142331), [webpage](https://en.wikipedia.org/wiki/Joseph_Gallian), [pdf](https://ict.iitk.ac.in/wp-content/uploads/CS203-Mathematics-for-Computer-Science-III-Gallian.pdf)&rbrack;
