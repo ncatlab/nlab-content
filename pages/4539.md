@@ -5,7 +5,7 @@
 
 _[[schreiber:Introduction to Homological Algebra|Introduction]]_
 
-### Context
+**Context**
 
 * [[additive and abelian categories]]
 
@@ -25,7 +25,8 @@ _[[schreiber:Introduction to Homological Algebra|Introduction]]_
 
 * [[semi-abelian category]]
 
-### Basic definitions
+
+**Basic definitions**
 
 * [[kernel]], [[cokernel]]
 
@@ -64,7 +65,8 @@ _[[schreiber:Introduction to Homological Algebra|Introduction]]_
   * [[flat resolution]]
 
 
-### Stable homotopy theory notions
+
+**Stable homotopy theory notions**
 
 * [[derived category]]
 
@@ -89,7 +91,8 @@ _[[schreiber:Introduction to Homological Algebra|Introduction]]_
 * [[abelian sheaf cohomology]]
 
 
-### Constructions
+
+**Constructions**
 
 * [[double complex]]
 
@@ -109,7 +112,8 @@ _[[schreiber:Introduction to Homological Algebra|Introduction]]_
 
     * [[Hochschild-Serre spectral sequence]]
 
-### Lemmas
+
+**Lemmas**
 
 [[diagram chasing]]
 
@@ -123,13 +127,18 @@ _[[schreiber:Introduction to Homological Algebra|Introduction]]_
 
 * [[Baer's criterion]]
 
-### Homology theories
+[[Schanuel's lemma]]
+
+
+
+**Homology theories**
 
 * [[singular homology]]
 
 * [[cyclic homology]]
 
-### Theorems
+
+**Theorems**
 
 * [[Dold-Kan correspondence]] / [[monoidal Dold-Kan correspondence|monoidal]], [[operadic Dold-Kan correspondence|operadic]]
 
@@ -143,5 +152,3 @@ _[[schreiber:Introduction to Homological Algebra|Introduction]]_
 
 * [[Künneth theorem]]
 
-
-<div markdown="1">[Edit this sidebar](/nlab/edit/homological+algebra+-+contents)</div>
