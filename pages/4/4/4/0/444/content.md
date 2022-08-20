@@ -475,11 +475,11 @@ See at _[[Segal condition]]_ for more on this.
 +-- {: .num_prop}
 ###### Proposition
 
-A [[simplicial set]] is the nerve of a [[small category]] precisely if all _inner_ [[horns]] have _unique_ fillers.
+A [[simplicial set]] is the nerve of a [[small category]] precisely if all [[inner horn|*inner* horns]] have _unique_ fillers.
 
 =--
 
-See [[inner fibration]] for details on this.
+See *[[inner fibration]]* for details on this.
 
 
 +-- {: .num_prop}
@@ -497,7 +497,9 @@ The nerve $N(C)$ of a category is [[coskeleton|2-coskeletal]].
 
 =--
 
-Hence all [[horn]] inclusions $\Lambda[n]_i \hookrightarrow \Delta[n]$ have unique fillers for $n \gt 3$, and all boundary inclusions $\partial \Delta[n] \hookrightarrow \Delta[n]$ have unique fillers for $n \geq 3$.
+(e.g. [Joyal 2008, Cor. 1.2](quasi-category#Joyal08))
+
+Hence in the nerve of a category, all [[horn]] inclusions $\Lambda[n]_i \hookrightarrow \Delta[n]$ have unique fillers for $n \gt 3$, and all [[boundary of a simplex|boundary]] inclusions $\partial \Delta[n] \hookrightarrow \Delta[n]$ have unique fillers for $n \geq 3$.
 
 Here the point as compared to the previous statements is that in particular all the outer horns have fillers for $n \gt 3$.
 
