@@ -54,6 +54,36 @@ $$
   \,.
 $$
 
+## Proof
+
+Observe the following commutative diagram 
+
+$$
+  \array{   
+     &&  && 0 && 0 &&
+     \\
+     &&  && \downarrow && \downarrow && 
+     \\
+      & &  & & P_0' &\to& P_0'&\to& 0
+     \\
+     &&  && \downarrow && \downarrow && 
+     \\
+     0 & \to & P_0 &\to& Q &\to& P_1' &\to& 0
+     \\
+     && \downarrow && \downarrow && \downarrow && 
+     \\
+     0 & \to & P_0 &\to& P_1 &\to& M &\to& 0
+     \\
+     &&  && \downarrow && \downarrow && 
+     \\
+     && && 0 && 0 &&
+  }
+$$
+where the square $Q-P_1'-M-P_1$ is cartesian and the morphisms
+$P_0\to Q$ and $P_0'\to Q$ are obtained by the universal property of cartesian square. These morphisms are then necessarily monic and the rows and columns are also exact at $Q$. Thus rows and columns of the diagram are exact. Now, by the projectivity of $P_1'$ and $P_1$ the upper and the left  short exact sequences split, hence
+$P_0\oplus P_1' = Q = P_0'\oplus P_1$.
+
+
 ## Literature
 
 Textbook accounts:
