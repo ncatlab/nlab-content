@@ -7,6 +7,8 @@
 
 * [[Schanuel topos]]
 
+* [[Schanuel's lemma]]
+
 category: people
 
 [[!redirects Stephen H. Schanuel]] 
