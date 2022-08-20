@@ -47,17 +47,18 @@ This is due to ([Duskin 79](#Duskin79), [Glenn 82](#Glenn82)), however their def
 
 Equivalently, this are those [[Kan complex]]es which are $(n+1)$-[[coskeletal]] and such that the $(n+1)$-horns and $(n+2)$-horns have unique fillers.
 
-+-- {: .num_remark }
-###### Remark
-
-=--
 
 
 ## Properties
 
-* 1-hypergroupoids are precisely the [[nerve]]s of [[groupoid]]s.
+\begin{example}
+\label{OneHypergroupoids}
+1-Hypergroupoids are precisely the [[nerve]]s of [[groupoid]]s, see also the example [here](simplicial+skeleton#CoskeletalityOfSimplicialNervesOfCategories).
+\end{example}
 
-* 2-hypergroupoids are precisely the [[Duskin nerve]]s of [[bigroupoids]].
+\begin{example}
+2-hypergroupoids are precisely the [[Duskin nerves]] of [[bigroupoids]].
+\end{example}
 
 ## References
 
