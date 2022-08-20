@@ -220,8 +220,9 @@ A [[simplicial set]] is the [[nerve]] of a [[groupoid]] iff
 
 1. all 2- and 3-[[horns]] have unique fillers.
 
-Notice that a [[Kan complex]] which is [[coskeleton|2-coskeletal]] but with possibly non-unique 2-horn fillers is still a [[homotopy 1-type]] and may still be called a *[[1-groupoid]]* in the sense of [[homotopy theory]].
+For better or worse, such a simplicial set has at times alse been called a *[[1-hypergroupoid]]*.
 
+Notice that a [[Kan complex]] which is [[coskeleton|2-coskeletal]] but with possibly non-unique 2-horn fillers is still a [[homotopy 1-type]] and may still be called a *[[1-groupoid]]* in the sense of [[homotopy theory]], but need not be the [[nerve]] of a [[groupoid]]. It may be thought of as a [[bigroupoid]] (2-[[hypergroupoid]]) which happens to be just a [[homotopy 1-type]].
 \end{example}
 
 Accordingly, essentially by definition:
