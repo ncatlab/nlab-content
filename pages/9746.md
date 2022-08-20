@@ -6,8 +6,10 @@ Paul Glenn is an American mathematician, whose thesis work (with [[Jack Duskin]]
 
 ## Selected writings
 
-On [[principal infinity-bundles]] and [[nonabelian cohomology]]:
+On [[principal infinity-bundles|principal $\infty$-bundles]],  [[nonabelian cohomology]] and [[hypergroupoids]]:
 
-* [[Paul Glenn]], _Realization of cohomology classes in arbitrary exact categories_, J. Pure Appl. Algebra 25, 1982, no. 1, 33- 105 (<a href="https://doi.org/10.1016/0022-4049(82)90094-9">doi:10.1016/0022-4049(82)90094-9</a>)
+* [[Paul G. Glenn]], *Realization of cohomology classes in arbitrary exact categories*, J. Pure Appl. Algebra **25** 1 (1982) 33-105 &lbrack;<a href="https://doi.org/10.1016/0022-4049(82)90094-9">doi:10.1016/0022-4049(82)90094-9</a>&rbrack;
 
 category:people
+
+[[!redirects Paul G. Glenn]]
