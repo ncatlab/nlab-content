@@ -203,31 +203,30 @@ The [[simplicial nerve]] of a [[category]] (i.e. of a [[1-category]]) is a [[cos
 
 Of course there is more to a category than its associativity condition, and hence the converse fails: Not every [[coskeleton|2-coskeletal]] [[simplicial set]] is the [[nerve of a category]]. For example the [[boundary of a simplex|boundary of the 2-simplex]], $\partial \Delta^2$, is 2-coskeletal but not the nerve of a category, since it is missing a [[composition]] of the edges $0 \to 1 \to 2$, namely it is missing a filler of this [[inner horn]].
 
-So a simplicial set is the nerve of a [[1-category]] iff it is 
+In fact, a [[simplicial set]] is the [[nerve]] of a [[category]] iff it has *unique* [[inner horn|inner $n$-horn]]-fillers for $n \geq 2$ (e.g. [this Prop.](nerve#sSetIsNerveOfCategoryIffAllInnerHornsHaveUniqueFillers)).
+But [[coskeleton|2-coskeletality]] already implies that all $k \geq 4$-horns have unique filles (first uniquely fill the missing $k-1$-face then the interior $k$)-cell. Together this implies that:
 
-1. an [[inner Kan complex]],
+A [[simplicial set]] is the [[nerve]] of a [[category]] iff
 
-2. [[coskeleton|2-coskeletal]] 
+1. it is [[coskeleton|2-coskeletal]],
 
-(cf. e.g. [[Higher Topos Theory|Lurie 2009, Def. 2.3.4.1]]).
+1. all *[[inner horn|inner]]* 2- and 3-[[horns]] have unique fillers (encoding [[composition]] and [[associativity]]).
 
-In particular, a simplicial set is the nerve of a [[1-groupoid]] iff it is 
+Similarly for [[groupoids]] (by [this Prop.](nerve#sSetIsNerveOfGroupoidIffAllHornsHaveUniqueFillers)):
 
-1. a [[Kan complex]],
+A [[simplicial set]] is the [[nerve]] of a [[groupoid]] iff
 
-2. [[coskeleton|2-coskeletal]]. 
+1. it is [[coskeleton|2-coskeletal]],
 
-But this characterization now has a lot of redundancy, since with the unique fillers of boundaries of $n \geq 3$-simplices given by 2-coskeltality, we obtain fillers also of all $n \geq 3+1$-horns (first fill the missing $(n-1)$-face and then the interior $n$-cell). Therefore a simplicial set is the nerve of a [[1-groupoid]] already iff it
+1. all 2- and 3-[[horns]] have unique fillers.
 
-1. has fillers of $\leq 3$-[[horns]] (encoding: (i) [[inverse morphisms]], (ii) [[composition]] and (iii) [[associativity]]);
-
-1. is [[coskeleton|2-coskeletal]] (encoding that associativity in a [[1-category]] is a [[property]], not a [[stuff, structure, property|structure]]).
+Notice that a [[Kan complex]] which is [[coskeleton|2-coskeletal]] but with possibly non-unique 2-horn fillers is still a [[homotopy 1-type]] and may still be called a *[[1-groupoid]]* in the sense of [[homotopy theory]].
 
 \end{example}
 
 Accordingly, essentially by definition:
 
-* A [[Kan complex]] that is $(n+1)$-coskeletal is equivalent to (the [[nerve]] of) a strict [[n-groupoid]].
+* A [[Kan complex]] that is $(n+1)$-coskeletal is equivalent to (the [[nerve]] of) an [[n-groupoid|$n$-groupoid]].
 
 Also:
 
