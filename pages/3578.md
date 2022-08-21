@@ -297,6 +297,17 @@ This is a corollary of the characterization of left anodyne morphisms in [Proper
 
 =--
 
+By the [[pasting law for pullbacks]] this implies
+
+
++-- {: .num_cor}
+###### Corollary
+
+Let $p : X \to S$ be a left fibration of simplicial sets, and $f : Y \to X$ be a morphism of simplicial sets. Then $f$ is a left fibration iff $p f$ is a left fibration
+
+=--
+
+
 
 ### As fibrations in $\infty$-groupoids
  {#AsFibrationsInInfinityGroupoids}
@@ -347,7 +358,7 @@ Right (left) fibrations are preserved by [[pullback]] in [[sSet]].
 
 ([Cisinski 2019, Cor. 5.3.6](#Cisinski19))
 
-+-- {: .num_corollary}
++-- {: .num_cor}
 ###### Corollary
 
 It follows that the fiber $X_c$ of every right fibration $X \to C$ over every point $c \in C$, i.e. the [[pullback]]
