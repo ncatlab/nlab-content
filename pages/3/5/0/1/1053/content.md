@@ -465,6 +465,10 @@ This is reviewed/further discussed in
 * [[Paul-André Melliès]] , _Categorial Semantics of Linear Logic_, in _Interactive models of computation and program behaviour_, Panoramas et synth&#232;ses 27, 2009 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/panorama.pdf))
  {#Mellies09}
 
+* [[Paul-André Melliès]], _A Functorial Excursion Between Algebraic Geometry and Linear Logic_, in 37th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS) (LICS '22), August 2–5, 2022, Haifa, Israel. ACM, New York, ([doi:10.1145/3531130.3532488](https://doi.org/10.1145/3531130.3532488), [pdf](https://www.irif.fr/~mellies//papers/functorial-excursion.pdf))
+
+
+
 The relation of dual intuitionistic linear logic and $\pi$-calculus is given in
 
 * Luis Caires, Frank Pfenning. _Session Types as Intuitionistic Linear Propositions_.
