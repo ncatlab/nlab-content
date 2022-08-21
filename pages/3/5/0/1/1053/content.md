@@ -416,40 +416,37 @@ Reviews include
 
 The [[categorical semantics]] of linear logic in [[star-autonomous categories]] originally appeared in
 
-*  [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
- {#Seely}
+* {#Seely} [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
+ 
 
 and for the special case of [[quantales]] in 
 
-* [[David Yetter]], _Quantales and (noncommutative) linear logic_, Journal of Symbolic Logic 55 (1990), 41--64.
- {#Yetter90}
+* {#Yetter90} [[David Yetter]], _Quantales and (noncommutative) linear logic_, Journal of Symbolic Logic 55 (1990), 41--64.
+ 
 
 The more general case of of multiplicative intuitionistic linear logic interpreted more generally in [[symmetric monoidal categories]] was systematically developed in
 
-* M.E. Szabo, _Algebra of Proofs_, Studies in Logic and the Foundations of Mathematics, vol. 88 (1978), North-Holland. 
- {#Szabo78}
+* {#Szabo78} M.E. Szabo, _Algebra of Proofs_, Studies in Logic and the Foundations of Mathematics, vol. 88 (1978), North-Holland. 
+ 
 
 (that was before Girard introduced the "linear" terminology).
 
 More recent articles exploring this include
 
-* [[Valeria de Paiva]], _The Dialectica Categories_, _Contemporary Mathematics_ 92, 1989. ([web] (http://www.cs.bham.ac.uk/~vdp/publications/dial87.pdf)) 
- {#dePaiva89}
+* {#dePaiva89} [[Valeria de Paiva]], _The Dialectica Categories_, _Contemporary Mathematics_ 92, 1989. ([web] (http://www.cs.bham.ac.uk/~vdp/publications/dial87.pdf)) 
+ 
 
-* [[Richard Blute]], _Linear logic, coherence, and dinaturality_, Dissertation, University of Pennsylvania 1991, published in Theoretical Computer Science archive
+* {#Blute91} [[Richard Blute]], _Linear logic, coherence, and dinaturality_, Dissertation, University of Pennsylvania 1991, published in Theoretical Computer Science archive
 Volume 115 Issue 1, July 5, 1993  Pages 3--41 
- {#Blute91}
+ 
 
-* Nick Benton, Gavin Bierman, [[Valeria de Paiva]], [[Martin Hyland]], _Term assignments for intuitionistic linear logic_. Technical report 262, Cambridge 1992 ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.31.8666), [ps](http://www.cs.bham.ac.uk/~vdp/publications/tr262.ps))
- {#BentonBiermanPaivaHyland92}
+* {#BentonBiermanPaivaHyland92} [[Nick Benton]], Gavin Bierman, [[Valeria de Paiva]], [[Martin Hyland]], _Term assignments for intuitionistic linear logic_. Technical report 262, Cambridge 1992 ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.31.8666), [ps](http://www.cs.bham.ac.uk/~vdp/publications/tr262.ps))
+ 
 
 * [[Martin Hyland]], [[Valeria de Paiva]], _Full Intuitionistic Linear Logic_ (extended abstract). Annals of Pure and Applied Logic, 64(3), pp. 273--291, 1993. ([pdf](http://www.cs.bham.ac.uk/~vdp/publications/fill.pdf))
  {#HylandPaiva93}
 
-* G. Bierman, _On Intuitionistic Linear Logic_ PhD thesis, Computing
-Laboratory, University of Cambridge, 1995 ([pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.114.588&rep=rep1&type=pdf))
- {#Bierman95}
-
+* {#Bierman95} G. Bierman, _On Intuitionistic Linear Logic_ PhD thesis, Computing Laboratory, University of Cambridge, 1995 ([pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.114.588&rep=rep1&type=pdf))
 
 * {#Barber97} Andrew Graham Barber, _Linear Type Theories, Semantics and Action Calculi_, PhD thesis, Edinburgh 1997 ([web](http://www.lfcs.inf.ed.ac.uk/reports/97/ECS-LFCS-97-371/&#8206;), [pdf](http://www.lfcs.inf.ed.ac.uk/reports/97/ECS-LFCS-97-371/ECS-LFCS-97-371.pdf))
 
@@ -457,16 +454,15 @@ Laboratory, University of Cambridge, 1995 ([pdf](https://citeseerx.ist.psu.edu/v
 
 This is reviewed/further discussed in
 
-* Andrea Schalk, _What is a categorical model for linear logic?_ ([pdf](http://www.cs.man.ac.uk/~schalk/notes/llmodel.pdf))
- {#Schalk04}
+* {#Schalk04} Andrea Schalk, _What is a categorical model for linear logic?_ ([pdf](http://www.cs.man.ac.uk/~schalk/notes/llmodel.pdf))
+ 
 
 * [[Richard Blute]], Philip Scott, _Category theory for linear logicians_, 2004 ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.83.6250))
 
-* [[Paul-André Melliès]] , _Categorial Semantics of Linear Logic_, in _Interactive models of computation and program behaviour_, Panoramas et synth&#232;ses 27, 2009 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/panorama.pdf))
- {#Mellies09}
+* {#Mellies09} [[Paul-André Melliès]] , _Categorial Semantics of Linear Logic_, in _Interactive models of computation and program behaviour_, Panoramas et synth&#232;ses 27, 2009 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/panorama.pdf))
+ 
 
-* [[Paul-André Melliès]], _A Functorial Excursion Between Algebraic Geometry and Linear Logic_, in 37th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS) (LICS '22), August 2–5, 2022, Haifa, Israel. ACM, New York, ([doi:10.1145/3531130.3532488](https://doi.org/10.1145/3531130.3532488), [pdf](https://www.irif.fr/~mellies//papers/functorial-excursion.pdf))
-
+* [[Paul-André Melliès]], *A Functorial Excursion Between Algebraic Geometry and Linear Logic*, in 37th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS '22), Haifa, Israel  (2022). ACM, New York &lbrack;[doi:10.1145/3531130.3532488](https://doi.org/10.1145/3531130.3532488), [pdf](https://www.irif.fr/~mellies//papers/functorial-excursion.pdf)&rbrack;
 
 
 The relation of dual intuitionistic linear logic and $\pi$-calculus is given in
