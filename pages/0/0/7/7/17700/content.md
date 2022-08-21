@@ -35,7 +35,7 @@ A dual approach would be to start with a category of linear morphisms and constr
 
 The conditions on monads above and their relationship to structural rules are described in the following (though the notions themselves are originally due to [[Anders Kock]]).
 
-* {#Jacobs94} B. Jacobs, _Semantics of Weakening and Contraction_, Annals of Pure and Applied Logic, volume 69, Issue 1, (1994) pp.73-106, doi:[10.1016/0168-0072(94)90020-5](https://doi.org/10.1016/0168-0072%2894%2990020-5)
+* {#Jacobs94} [[Bart Jacobs]], _Semantics of Weakening and Contraction_, Annals of Pure and Applied Logic, volume 69, Issue 1, (1994) pp.73-106, doi:[10.1016/0168-0072(94)90020-5](https://doi.org/10.1016/0168-0072%2894%2990020-5)
 
 
 On side effects in [[dependent type theory|dependent]] ([[dependent linear type theory|linear]]) [[type theory]]:
