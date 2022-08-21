@@ -75,7 +75,7 @@ Then
 +-- {: .num_prop }
 ###### Proposition
 
-The functor $p : E \to B$ is an  [[fibration fibered in groupoids|fibration in groupoids]] precisely if the morphism $N(p) : N(E) \to N(B)$ is a right Kan fibration of simplicial sets
+The functor $p : E \to B$ is a  [[fibration fibered in groupoids|fibration in groupoids]] precisely if the morphism $N(p) : N(E) \to N(B)$ is a right Kan fibration of simplicial sets
 =--
 
 To see this, first notice the following facts:
