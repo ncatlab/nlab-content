@@ -31,6 +31,8 @@ Waldhausen's _A-theory_ ([Waldhausen 85](#Waldhausen85)) of a connected [[homoto
 
 * [[iterated algebraic K-theory]]
 
+* [[coring spectrum]]
+
 ## References
 
 The definition is originally due to 
@@ -41,8 +43,8 @@ The interpretation in terms of certain [[module spectra]] over the [[Spanier-Whi
 
 * [[Andrew Blumberg]], [[Michael Mandell]], _Derived Koszul Duality and Involutions in the Algebraic K-Theory of Spaces_, J. Topology 4 (2011), no. 2, 327-342 ([arXiv:0912.1670](https://arxiv.org/abs/0912.1670))
 
-and the interpretation in temrs of $\mathbb{S}[\Omega X]$-[[module spectra]]  and [[Koszul duality|Koszul dually]] in terms of $\mathbb{S}[X]$-[[comodule spectra]] is due to
+and the interpretation in terms of $\mathbb{S}[\Omega X]$-[[module spectra]]  and [[Koszul duality|Koszul dually]] in terms of $\mathbb{S}[X]$-[[comodule spectra]] (using the canonical [[coring spectrum]]-[[structure]] of [[suspension spectra]]) is due to:
 
-* {#HessShipley14} [[Kathryn Hess]], [[Brooke Shipley]], _Waldhausen K-theory of spaces via comodules_, Advances in Mathematics 290 (2016): 1079-1137 ([arXiv:1402.4719](https://arxiv.org/abs/1402.4719))
+* {#HessShipley14} [[Kathryn Hess]], [[Brooke Shipley]], _Waldhausen K-theory of spaces via comodules_, Advances in Mathematics **290** (2016) 1079-1137 &lbrack;[arXiv:1402.4719](https://arxiv.org/abs/1402.4719), [doi:10.1016/j.aim.2015.12.019](https://doi.org/10.1016/j.aim.2015.12.019)&rbrack;
 
 [[!redirects Waldhausen a-theory]]
