@@ -467,7 +467,7 @@ A [[Higman's embedding theorem|famous result by G. Higman]] in group theory says
 
 ## Related concepts
 
-* [[algebraic theory]] / [[generalized algebraic theory]] / **Lawvere theory** /  [[2-Lawvere theory]] [[(∞,1)-algebraic theory]]
+* [[algebraic theory]] / [[generalized algebraic theory]] / **Lawvere theory** / [[second order algebraic theory]] / [[2-Lawvere theory]] / [[(∞,1)-algebraic theory]]
 
 * [[internalization]]
 
