@@ -199,7 +199,7 @@ For the interpretation of this in terms of  [[(n,1)-topos]]es inside the [[(∞,
 \label{CoskeletalityOfSimplicialNervesOfCategories}
 **(coskeletality of simplicial nerves of categories)**
 \linebreak
-The [[simplicial nerve]] of a [[category]] (i.e. of a [[1-category]]) is a [[coskeleton|2-coskeletal]] [[simplicial set]] (e.g. [Duskin 1975, §0.18(b)](monadic+cohomology#Duskin75), [Joyal 2008, Cor. 1.2](quasi-category#Joyal08)): The unique filler of the [[boundary of a simplex|boundary of an $n \geq 3$-simplex]] encodes the [[associativity]]-condition on [[n-tuple|$n$-tuples]] of composable morphisms.
+The [[simplicial nerve]] of a [[category]] (i.e. of a [[1-category]]) is a [[coskeleton|2-coskeletal]] [[simplicial set]] ([this Prop.](nerve#NerveOfACategoryIsTwoCoskeletal)): The unique filler of the [[boundary of a simplex|boundary of an $n \geq 3$-simplex]] encodes the [[associativity]]-condition on [[n-tuple|$n$-tuples]] of composable morphisms.
 
 Of course there is more to a category than its associativity condition, and hence the converse fails: Not every [[coskeleton|2-coskeletal]] [[simplicial set]] is the [[nerve of a category]]. For example the [[boundary of a simplex|boundary of the 2-simplex]], $\partial \Delta^2$, is 2-coskeletal but not the nerve of a category, since it is missing a [[composition]] of the edges $0 \to 1 \to 2$, namely it is missing a filler of this [[inner horn]].
 
@@ -220,7 +220,7 @@ A [[simplicial set]] is the [[nerve]] of a [[groupoid]] iff
 
 1. all 2- and 3-[[horns]] have unique fillers.
 
-For better or worse, such a simplicial set has at times alse been called a *[[1-hypergroupoid]]*.
+For better or worse, such a simplicial set has at times also been called a *[[1-hypergroupoid]]*, pointing to the fact that this is the first non-trivial stage in a pattern that recognizes $n+1$-coskeletal [[Kan complexes]] with unique horn fillers as models for [[n-groupoids|$n$-groupoids]] 
 
 Notice that a [[Kan complex]] which is [[coskeleton|2-coskeletal]] but with possibly non-unique 2-horn fillers is still a [[homotopy 1-type]] and may still be called a *[[1-groupoid]]* in the sense of [[homotopy theory]], but need not be the [[nerve]] of a [[groupoid]]. It may be thought of as a [[bigroupoid]] (2-[[hypergroupoid]]) which happens to be just a [[homotopy 1-type]].
 \end{example}
