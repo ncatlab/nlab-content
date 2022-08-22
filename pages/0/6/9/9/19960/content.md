@@ -57,7 +57,7 @@ Holographic QCD captures the [[non-perturbative effect|non-perturbative]] [[conf
     "caption": "From [Rebhan 14](#Rebhan14)"
 \end{imagefromfile}
 
-This [[duality in physics|dual]] description of the [[color charge|color]] [[gauge theory]] of [[quarks]] and [[gluons]] instead as [[flavour (particle physics)|flavour]] [[gauge theory]] of [[baryons]] and [[mesons]] is [[geometric engineering of QFT|geometrically brought out]] by the [[D4-D8 brane intersections]] of the [[Witten-Sakai-Sugimoto model|Witten-Sakai-Sugimoto]] [[intersecting D-brane model]]: Here the [[open strings]] on the [[D4-branes|D4]] _[[color branes]]_ give the [[color charge|color]]/[[gluon]] gauge field, while those on the [[D8-brane|D8]] _[[flavor branes]]_ give the [[flavour (particle physics)|flavour]]/[[meson]] gauge field, those stretching between D4 and D8 give the [[quarks]] and the [[closed strings]] give the [[glueballs]].
+This [[duality in string theory|dual]] description of the [[color charge|color]] [[gauge theory]] of [[quarks]] and [[gluons]] instead as [[flavour (particle physics)|flavour]] [[gauge theory]] of [[baryons]] and [[mesons]] is [[geometric engineering of QFT|geometrically brought out]] by the [[D4-D8 brane intersections]] of the [[Witten-Sakai-Sugimoto model|Witten-Sakai-Sugimoto]] [[intersecting D-brane model]]: Here the [[open strings]] on the [[D4-branes|D4]] _[[color branes]]_ give the [[color charge|color]]/[[gluon]] gauge field, while those on the [[D8-brane|D8]] _[[flavor branes]]_ give the [[flavour (particle physics)|flavour]]/[[meson]] gauge field, those stretching between D4 and D8 give the [[quarks]] and the [[closed strings]] give the [[glueballs]].
 (See at _[WSS brane configuration](#WSSBraneConfiguration)_ below.) This way [[color charge|color]]/[[flavour (particle physics)|flavor]] [[duality in physics|duality]] is mapped to [[open/closed string duality]] (as the [[D8-branes]] are treated as probe branes).
  
 
@@ -790,6 +790,10 @@ where an appropriate [[bulk]] geometry is computer-generated from specified boun
 More on this:
 
 * Tetsuya Akutagawa, Koji Hashimoto, Takayuki Sumimoto, _Deep Learning and AdS/QCD_ ([arXiv:2005.02636](https://arxiv.org/abs/2005.02636))
+
+On the other hand, an embedding of the hard-wall model into [[type IIB string theory]] is discussed in:
+
+* [[Akash Singh]], [[K. P. Yogendran]], *Phases of a 10-D Holographic hard wall model* &lbrack;[arXiv:2208.09387](https://arxiv.org/abs/2208.09387)&rbrack;
 
 
 
