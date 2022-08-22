@@ -19,14 +19,14 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-By regarding a [[simplicial set]] as an [[object]] in the standard [[model structure on simplicial sets]], one effectively identifies it (up to weak equivalence) with that [[∞-groupoid]] that it presents under [[Kan fibrant replacement]].
+By regarding a [[simplicial set]] as an [[object]] in the standard [[model structure on simplicial sets]], one effectively identifies it (up to [[simplicial weak homotopy equivalence|weak equivalence]]) with that [[∞-groupoid]] that it presents under [[Kan fibrant replacement]].
 
-If the original simplicial set is the [[nerve]] of a [[category]], the corresponding Kan fibrant replacement is something like the _$\infty$-groupoidification_ of that category: see [[geometric realization of categories]].
+If the original simplicial set is the [[nerve]] of a [[category]], then the corresponding Kan fibrant replacement is something like the _$\infty$-groupoidification_ of that category: see [[geometric realization of categories]].
 
 This way each ordinary category models an [[∞-groupoid]]. The _Thomason_ [[model category]] structure on [[Cat]] exhibits this: in this [[model category]] a morphism between two categories is a weak equivalence, precisely if it induces a weak equivalence of the corresponding $\infty$-groupoids.  
 
@@ -34,11 +34,11 @@ It turns out the Thomason model structure on [[Cat]] is [[Quillen equivalence|Qu
 
 This is remarkable, in that it says that every [[homotopy n-type|homotopy type]], i. e. every weak equivalence class of $\infty$-groupoids, is obtained by $\infty$-groupoidifying just categories.
 
-In fact, every cofibrant object in this structure is a [[poset]]. Since every object in a model category is weakly equivalent to a cofibrant one, this means that even the [[nerve]]s of just posets are sufficient to model all homotopy types.
+In fact, every [[cofibrant object]] in this structure is a [[poset]]. Since every object in a model category is weakly equivalent to a cofibrant one, this means that even the [[nerves]] of just posets are sufficient to model all homotopy types.
 
 
-This is a rather curious aspect of the [[Robert Thomason|Thomason]] model on [[Cat]]: it does not really have anything intrinsically to do with [[category|categories]], but rather uses these as a way to present [[∞-groupoid]]s. In particular, the class of weak equivalences is much larger than just the [[equivalence of categories|equivalences of categories]]. 
-There is a _different_ model structure on [[Cat]] in which the weak equivalences are precisely the "true" weak [[equivalence of categories|equivalences of categories]] (not of anything constructed from them). This is called the [[canonical model structure on Cat]].
+This is a rather curious aspect of the [[Robert Thomason|Thomason]] model on [[Cat]]: it does not really have anything intrinsically to do with [[category|categories]], but rather uses these as a way to present [[∞-groupoids]]. In particular, the class of [[weak equivalences]] is much larger than just the [[equivalence of categories|equivalences of categories]]. 
+There is a _different_ model structure on [[Cat]] in which the weak equivalences are precisely the "true" weak [[equivalence of categories|equivalences of categories]] (not of anything constructed from them). This is called the *[[canonical model structure on Cat]]*.
 
 ## Definition
 
@@ -81,12 +81,15 @@ Let $f : C \to Cat$ be a functor. Its [[homotopy colimit]] in the Thomason model
 structure can be computed using the [[Grothendieck construction]]:
 
 ### Homotopy limits
+ {#HomotopyLimits}
 
 Let $f : C \to Cat$ be a functor. It's [[homotopy limit]] in the Thomason model structure can be computed by the [[end]]
 $$
-  holim(f) = \int_{c \in C} f(c)^{(C \downarrow c)}
+  holim(f) 
+  \,=\, 
+  \int_{c \in C} f(c)^{(C \downarrow c)}
 $$
-where $(C \downarrow x)$ is the [[comma category]]. This can be seen since the [[nerve]] functor preserves limits and exponentials, and this formula computes homotopy limits of shape $C$ in any simplicial model category, and in particular, in $sSet$.
+where $(C \downarrow x)$ is the [[comma category]]. This can be seen since the [[nerve]] functor [[preserved limit|preserves limits]] and [[exponential object|exponentials]], and this formula computes homotopy limits of shape $C$ in any [[simplicial model category]], and in particular, in [[classical model structure on simplicial sets|$sSet$]].
 
 ### The nerve is a homotopy colimit of simplicial sets
 
