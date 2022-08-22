@@ -80,17 +80,6 @@ $L$ is the ∞-groupoidification functor functor $C \mapsto C[C^{-1}]$.
 Let $f : C \to Cat$ be a functor. Its [[homotopy colimit]] in the Thomason model
 structure can be computed using the [[Grothendieck construction]]:
 
-### Homotopy limits
- {#HomotopyLimits}
-
-Let $f : C \to Cat$ be a functor. It's [[homotopy limit]] in the Thomason model structure can be computed by the [[end]]
-$$
-  holim(f) 
-  \,=\, 
-  \int_{c \in C} f(c)^{(C \downarrow c)}
-$$
-where $(C \downarrow x)$ is the [[comma category]]. This can be seen since the [[nerve]] functor [[preserved limit|preserves limits]] and [[exponential object|exponentials]], and this formula computes homotopy limits of shape $C$ in any [[simplicial model category]], and in particular, in [[classical model structure on simplicial sets|$sSet$]].
-
 ### The nerve is a homotopy colimit of simplicial sets
 
 By [Hirschhorn proposition 18.1.6](#Hir), the nerve of any category is the homotopy colimit of the constant point-valued diagram:
