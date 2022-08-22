@@ -1,8 +1,12 @@
+> This entry is about a paracategory in which all the composites are generated from binary and nullary ones. For the category whose objects form a [[type]] or [[infinity-groupoid]] rather than a [[set]], see [[precategory]]. 
+
+---
+
 ## Idea
 
 A *paracategory* is a [[category]] where [[composition]] is only partially defined.
 
-The definition is "unbiased" in that it comes with basic (partial) $n$-ary composition operations for all $n$, and unlike in the total case these cannot always be reduced to binary and nullary operations.  A paracategory in which all the composites are generated from binary and nullary ones is sometimes called a *precategory*.
+The definition is "unbiased" in that it comes with basic (partial) $n$-ary composition operations for all $n$, and unlike in the total case these cannot always be reduced to binary and nullary operations.  A paracategory in which all the composites are generated from binary and nullary ones is sometimes called a *precategory*, but the term *[[precategory]]* is already used in the category theory literature for a category whose objects form a [[type]] or [[infinity-groupoid]] rather than a [[set]]. 
 
 ## Definition
 
@@ -39,7 +43,5 @@ The definition is due to [[Peter Freyd]] in apparently unpublished work.  It has
 * [[Claudio Hermida|Hermida]] and Mateus, "Paracategories II: Adjunctions, fibrations and examples from probabilistic automata theory"
 
 [[!redirects paracategories]]
-[[!redirects precategory]]
-[[!redirects precategories]]
 [[!redirects partial category]]
 [[!redirects partial categories]]
