@@ -54,7 +54,7 @@ The Jacobson radical of a [[formal power series algebra]] consists of those form
 
 ## References
 
-See also
+* EoM: [Jacobson radical](https://encyclopediaofmath.org/wiki/Jacobson_radical)
 
 * Wikipedia, _[Jacobson radical](https://en.wikipedia.org/wiki/Jacobson_radical#Examples)_
 [[!redirects Jacobson ideal]]
