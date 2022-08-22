@@ -97,6 +97,11 @@ A notion of (non-strict) *premonoidal functor* is somewhat tricky to define.  Pa
 
 It seems unlikely that these desiderata can be reconciled purely in the world of premonoidal categories as usually defined.  One solution is to pass to [[Freyd-categories]], which are essentially premonoidal categories equipped with a family of "special" central morphisms forming a cartesian monoidal category with the same tensor product.  Morphisms of Freyd-categories are easy to define, and include all the morphisms $C_{T_1} \to C_{T_2}$ if $C$ is cartesian (and if it isn't, then there should be a suitable non-cartesian generalization of Freyd-categories).  Other solutions that use different ways of representing a "special subfamily of central (iso)morphisms" are to consider the tensor product functor of a premonoidal category to be a not-necessarily-saturated [[anafunctor]], or (in [[homotopy type theory]]) to allow the underlying category of a premonoidal category to be merely a [[homotopytypetheory:precategory]].
 
+## Related pages
+
+* [[premulticategory]]
+* [[Freyd category]]
+
 ## References
 
 * {#PR97} [[John Power]] and [[Edmund Robinson]], _Premonoidal categories and notions of computation_, Math. Structures Comput. Sci., 7(5):453&#8211;468, 1997. Logic, domains, and programming languages (Darmstadt, 1995). 
