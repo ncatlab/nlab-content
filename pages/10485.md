@@ -250,7 +250,7 @@ Here the mapping stack adjunction...
 
 See also:
 
-* {#YeWen13} Peng Ye, [[Xiao-Gang Wen]], *Projective construction of two-dimensional symmetry-protected topological phases with $\mathrm{U}(1)$, $SO(3)$, or $SU(2)$ symmetries*, Phys. Rev. B **87** 195128 (2013) $[$[doi:10.1103/PhysRevB.87.195128](https://doi.org/10.1103/PhysRevB.87.195128), [arXiv:1212.2121](https://arxiv.org/abs/1212.2121)$]$
+* {#YeWen13} [[Peng Ye]], [[Xiao-Gang Wen]], *Projective construction of two-dimensional symmetry-protected topological phases with $\mathrm{U}(1)$, $SO(3)$, or $SU(2)$ symmetries*, Phys. Rev. B **87** 195128 (2013) $[$[doi:10.1103/PhysRevB.87.195128](https://doi.org/10.1103/PhysRevB.87.195128), [arXiv:1212.2121](https://arxiv.org/abs/1212.2121)$]$
 
 
 * {#CLM12} Gil Young Cho, Yuan-Ming Lu, and [[Joel E. Moore]], *Gapless edge states of background field theory and translation-symmetric $\mathbb{Z}_2$ spin liquids*, Phys. Rev. B **86** 125101 (2012) $[$[arXiv:10.1103/PhysRevB.86.125101](https://doi.org/10.1103/PhysRevB.86.125101)$]$
