@@ -90,6 +90,10 @@ Textbook accounts:
 
 * [[Carl Faith]], _Algebra: Rings, Modules, Categories_, vol. 1,  Grundlehren der mathematischen Wissenschaften **190**, Springer (1973) &lbrack;[doi:10.1007/978-3-642-80634-6](https://doi.org/10.1007/978-3-642-80634-6)&rbrack;
 
+It is Proposition 2.8.26 in 
+
+* Louis Rowen, _Ring theory_, student edition.
+
 See also
 
 * Wikipedia, *[Schanuel's lemma](https://en.wikipedia.org/wiki/Schanuel%27s_lemma)*
