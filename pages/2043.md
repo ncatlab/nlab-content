@@ -34,6 +34,8 @@ The properties required remain the same if one interchanges left and right (modu
 $J(R)$ is a $2$-sided [[ideal]] in $R$. The rings for which $J(R)=0$ are called __semiprimitive rings__. In other words, for each nonzero element $r$ in a semiprimitive ring, by the definition, there is a simple module **not** left annihilated by $r$.
 Given any ring $R$, the [[quotient object|quotient]] $R/J(R)$ is semiprimitive. 
 
+Some authors occasionally say Jacobson ideal.
+
 ## Examples
 
 +-- {: .num_example #JacobsonRadicalOfFormalPowerSeriesAlgebra}
@@ -55,6 +57,7 @@ The Jacobson radical of a [[formal power series algebra]] consists of those form
 See also
 
 * Wikipedia, _[Jacobson radical](https://en.wikipedia.org/wiki/Jacobson_radical#Examples)_
+[[!redirects Jacobson ideal]]
 
 [[!redirects Jacobson radicals]]
 
