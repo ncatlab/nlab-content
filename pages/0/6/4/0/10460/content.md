@@ -33,7 +33,7 @@ Discussion of [[defect QFT|line defects]] and the [[loop braid group]] statistic
 
 * Alex Bullivant, Marcos Calcada, Zoltán Kádár, [[João Faria Martins]], Paul Martin, *Higher lattices, discrete two-dimensional holonomy and topological phases in (3+1) D with higher gauge symmetry*, Reviews in Mathematical Physics, Vol. 32, No. 04, 2050011 (2020) ([arXi:1702.00868](https://arxiv.org/abs/1702.00868))
 
-* AtMa P.O. Chan, Peng Ye, Shinsei Ryu, *Braiding with Borromean Rings in (3+1)-Dimensional Spacetime*, Phys. Rev. Lett. 121, 061601 (2018) ([arXiv:1703.01926](https://arxiv.org/abs/1703.01926))
+* AtMa P.O. Chan, Peng Ye, Shinsei Ryu, *Braiding with Borromean Rings in (3+1)-Dimensional Spacetime*, Phys. Rev. Lett. 121, 061601 (2018) &lbrack;[arXiv:1703.01926](https://arxiv.org/abs/1703.01926)&rbrack;
 
 * Tian Lan, [[Liang Kong]], [[Xiao-Gang Wen]], *A classification of 3+1D bosonic topological orders (I): the case when point-like excitations are all bosons*, Phys. Rev. X 8, 021074 (2018) ([arXiv:1704.04221](https://arxiv.org/abs/1704.04221))
 
