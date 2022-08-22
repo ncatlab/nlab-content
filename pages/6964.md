@@ -93,8 +93,8 @@ In the particular case of [[metric spaces]], it is common to see this definition
 ###### Definition
 **(uniformly continuous map between [[metric spaces]])**
 
-Given [[metric spaces]] $X$ and $Y$, a __uniformly continuous map__ from $X$ to $Y$ is a function between their underlying sets such that, given any [[positive number|positive]] [[real number]] $\epsilon$, there is a positive number $\delta$ such that the distance in $Y$ between $f(a)$ and $f(b)$ is less than $\epsilon$ whenever the distance in $X$ between $a$ and $b$ is less than $\delta$:
-$$ \forall\, \epsilon \gt 0,\; \exists\, \delta \gt 0,\; \forall\, a, b\colon X,\; d_X(a, b) \lt \delta \;\Rightarrow\; d_Y(a, b) \lt \epsilon .$$
+Given [[metric spaces]] $X$ and $Y$, a __uniformly continuous map__ from $X$ to $Y$ is a function $f\colon X\to Y$ between their underlying sets such that, given any [[positive number|positive]] [[real number]] $\epsilon$, there is a positive number $\delta$ such that the distance in $Y$ between $f(a)$ and $f(b)$ is less than $\epsilon$ whenever the distance in $X$ between $a$ and $b$ is less than $\delta$:
+$$ \forall\, \epsilon \gt 0,\; \exists\, \delta \gt 0,\; \forall\, a, b\colon X,\; d_X(a, b) \lt \delta \;\Rightarrow\; d_Y(f(a), f(b)) \lt \epsilon .$$
 Again, this is exactly like the definition of [[continuous map]] between metric spaces, except for the order of the quantifiers $\exists\, \delta$ and $\forall\, a$.
 
 =--
