@@ -201,7 +201,7 @@ The arrow $\mathsf{true} : 1 \to \Omega_J$ picks the maximal sieve on each objec
 
 Given a mono $m : B \to A$, the classifying arrow $\chi_m : A \to \Omega_J$ is given by
 $$
-  \chi_m(c)(x) = \{f : d \to c | A(f)(x) \in A'(d)\},
+  \chi_m(c)(x) = \{f : d \to c | A(f)(x) \in B(d)\},
 $$
 for any $c \in C$ and $x \in A(c)$.
 
