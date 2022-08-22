@@ -1262,11 +1262,13 @@ With [[magnetic fields]]:
 
 Of relevance in [[neutron stars]]:
 
-* Carlos Hoyos, Niko Jokela, [[Matti Jarvinen]], Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, _Transport in strongly coupled quark matter_ ([arXiv:2005.14205](https://arxiv.org/abs/2005.14205))
+* Carlos Hoyos, Niko Jokela, [[Matti Jarvinen]], Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, *Transport in strongly coupled quark matter*, Phys.Rev.Lett. 125 (2020) 241601 ([arXiv:2005.14205](https://arxiv.org/abs/2005.14205))
 
-* Carlos Hoyos, Niko Jokela, [[Matti Järvinen]], Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, *Holographic approach to transport in dense QCD matter* ([arXiv:2109.12122](https://arxiv.org/abs/2109.12122))
+* Carlos Hoyos, Niko Jokela, [[Matti Järvinen]], Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, *Holographic approach to transport in dense QCD matter*, Phys.Rev.D 105 (2022) 6, 066014 ([arXiv:2109.12122](https://arxiv.org/abs/2109.12122))
 
 * [[Matti Järvinen]], *Holographic modeling of nuclear matter and neutron stars*,  Eur.Phys.J.C. 56 2021 ([arXiv:2110.08281](https://arxiv.org/abs/2110.08281))
+
+* Carlos Hoyos, Niko Jokela, Aleksi Vuorinen, *Holographic approach to compact stars and their binary mergers*, Prog.Part.Nucl.Phys. 126 (2022) 103972 ([arXiv:2112.08422] (https://arxiv.org/abs/2112.08422))
 
 
 See also
