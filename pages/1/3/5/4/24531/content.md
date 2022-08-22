@@ -21,7 +21,7 @@
 
 A _second-order algebraic theory_ is a generalization of the notion of [[Lawvere theory]] to describe algebraic structures with variable binding.
 
-While single-sorted Lawvere theories are categories with [[cartesian products]] generated from a single object, single-sorted second-order algebraic theories are cartesian categories generated from an [[exponentiable object]].
+While single-sorted Lawvere theories are categories with [[cartesian products]] generated from a single object, single-sorted second-order algebraic theories are [[cartesian categories]] generated from an [[exponentiable object]].
 
 ## Examples
 
