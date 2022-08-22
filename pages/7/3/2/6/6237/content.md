@@ -141,10 +141,9 @@ The character $\chi(X,x)$ of a [[topological space]] $X$ at a point $x$ is the m
 
 Character rings of [[compact Lie groups]] are discussed in 
 
-* [[Graeme Segal]], _The representation ring of a compact Lie group_, Publications Math&#233;matiques de l'Institut des Hautes &#201;tudes Scientifiques
-January 1968, Volume 34, Issue 1, pp 113-128 ([NUMDAM](http://archive.numdam.org/numdam-bin/fitem?id=PMIHES_1968__34__113_0))
+* [[Graeme Segal]], _The representation ring of a compact Lie group_, Publications Math&#233;matiques de l'Institut des Hautes &#201;tudes Scientifiques __34__:1 (1968) 113-128 ([NUMDAM](http://archive.numdam.org/numdam-bin/fitem?id=PMIHES_1968__34__113_0))
 
-* Masaru Tackeuchi, _A remark on the character ring of a compact Lie group_, J. Math. Soc. Japan Volume 23, Number 4 (1971), 555-705 ([Euclid](http://projecteuclid.org/euclid.jmsj/1259849785))
+* Masaru Takeuchi, _A remark on the character ring of a compact Lie group_, J. Math. Soc. Japan __23__:4 (1971), 555-705 ([Euclid](http://projecteuclid.org/euclid.jmsj/1259849785))
 
 * Troels Roussauc Johansen, _Character Theory for Finite Groups and Compact Lie Groups_ [pdf](http://www.math.upb.de/~johansen/character-theory.pdf)
 
