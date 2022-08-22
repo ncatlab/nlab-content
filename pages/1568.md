@@ -147,6 +147,8 @@ That every ideal is contained in a prime ideal is a [[prime ideal theorem]]; tha
 
 * [[filter of a ring]]
 
+* [[modular ideal]]
+
 [[!redirects ideal]]
 [[!redirects ideals]]
 
