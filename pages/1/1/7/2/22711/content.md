@@ -84,10 +84,14 @@ and in 3d [[symmetry protected topological phases]]:
 
 * Shenghan Jiang, Andrej Mesaros, and Ying Ran, *Generalized Modular Transformations in (3+1)D Topologically Ordered Phases and Triple Linking Invariant of Loop Braiding*, Phys. Rev. X **4** 031048 ([doi:10.1103/PhysRevX.4.031048](https://doi.org/10.1103/PhysRevX.4.031048))
 
-
-and similar models for [[condensed matter theory]]:
+and similar models in [[condensed matter theory]]:
 
 * [[Chenjie Wang]], [[Michael Levin]], *Braiding Statistics of Loop Excitations in Three Dimensions*, Phys. Rev. Lett. **113** (2014) 080403 ([doi:10.1103/PhysRevLett.113.080403](https://doi.org/10.1103/PhysRevLett.113.080403))
+
+* AtMa P. O. Chan, [[Peng Ye]], [[Shinsei Ryu]], *Braiding with Borromean Rings in (3+1)-Dimensional Spacetime*, Phys. Rev. Lett. 121, 061601 (2018) &lbrack;[arXiv:1703.01926](https://arxiv.org/abs/1703.01926)&rbrack;
+
+* Zhi-Feng Zhang, Qing-Rui Wang, [[Peng Ye]], *Wilson Operators, Non-Abelian Fusion Rules, and Loop Shrinking Rules of Borromean Rings Topological Order* &lbrack;[arXiv:2208.09228](https://arxiv.org/abs/2208.09228)&rbrack;
+
 
 
 Relation to [[braided monoidal category|braided]] [[tensor categories]]:
