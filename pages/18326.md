@@ -81,6 +81,9 @@ On the other hand, a colimit-preserving monad on $\hat{\mathbb{V}}$ is the [same
 * [[monad in computer science]]
 * [[Kleisli category]]
 * [[thunk-force category]]
+* [[premonoidal category]]
+* [[duploid]]
+* [[Freyd multicategory]]
 
 ## References
 
