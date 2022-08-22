@@ -49,6 +49,10 @@ with a comprehensive account in:
 
 * {#NicholsThesis02} Alexander Nichols, *$SU(2)_k$ Logarithmic Conformal Field Theories*, PhD thesis, Oxford (2002) $[$[arXiv:hep-th/0210070](https://arxiv.org/abs/hep-th/0210070), [spire:599081](https://inspirehep.net/literature/599081)$]$
 
+On quasi-characters at fractional level:
+
+* Sachin Grover, *Quasi-Characters in $\widehat{\mathfrak{su}}(2)$ Current Algebra at Fractional Levels* $[$[arXiv:2208.09037](https://arxiv.org/abs/2208.09037)$]$
+
 
 
 Identification of would-be fractional level [[su(2)|$\mathfrak{su}(2)$]] [[conformal blocks]] in [[twisted equivariant K-theory]] of [[configuration spaces of points]]:
