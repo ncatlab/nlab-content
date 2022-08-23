@@ -16,8 +16,6 @@
 
 ## Definitions
 
-### As a functor
-
 \begin{definition}
 An **identity-on-objects [[functor]]** $F: A\to B$ between [[categories]] $A$ and $B$ is a functor between categories with the same [[set]] of [[objects]], i.e. $Ob = ob(A) = ob(B)$, and has as its underlying object function $F_{ob}: Ob \to Ob$ the [[identity function]] on $Ob$. 
 \end{definition}
@@ -60,6 +58,8 @@ This is additionally the same as postulating that there is only one type $Ob$ wi
 
 More abstractly, this can be defined as a category [[enriched category|enriched]] over the [[arrow category]] $Set^\to$.  See also [[M-category]] and [[F-category]].
 
+### Alternative: using displayed categories
+
 ## Examples
 
 * Every [[equivalence of categories]] between two categories is an identity-of-objects functor where additionally the morphism functions of the functor are [[bijections]]. 
@@ -73,6 +73,12 @@ More abstractly, this can be defined as a category [[enriched category|enriched]
 * [[Freyd multicategory]]
 * [[dagger category]]
 * [[principle of equivalence]]
+
+## References
+
+For the use of [[displayed categories]] instead of [[identity-on-objects functors]] in definitions:
+
+* Benedikt Ahrens, Peter LeFanu Lumsdaine, *Displayed Categories*, ([arXiv:1705.04296](https://arxiv.org/abs/1705.04296))
 
 [[!redirects identity-on-objects]]
 [[!redirects identity on objects]]
