@@ -3,7 +3,8 @@ A __radical ring__ is a ring $R$ whose [[Jacobson ideal]] equals the ring, $J(R)
 
 Regarding that one characterization of the Jacobson ideal is that it is the intersection of all left annihilators of simple $R$-modules, that means that there are no simple modules.
 
-For every ring $(R,+,\cdot,0,1)$ there is a Jacobson circle operation $\circle$ defined by
+For every ring $(R,+,\cdot,0,1)$ there is a Jacobson circle operation
+$\circ$ defined by
 $$
 a\circ b = a\cdot b + a + b
 $$
