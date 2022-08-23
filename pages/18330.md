@@ -31,7 +31,17 @@ One solution is to alter the definition of equality so that equality is no longe
 
 ### Type theoretic definition
 
-In type theory, the objects of a category form a general type, rather than a set, which means that categories are not in general strict categories anymore, nor are functors in general strict functors. Moreover, the proper of notion of equality between types is not [[bijection]] (as those are limited to sets), but rather [[equivalence in homotopy type theory|type equivalence]]: a function $f:A \to B$ where for all elements $b:B$ the fiber of $f$ at $b$ is a singleton. This suggests the following definition of an identity-on-objects functor:
+In type theory, the objects of a category form a general type, rather than a set, which means that categories are not in general strict categories anymore, nor are functors in general strict functors. Moreover, there are multiple notions of equality, [[judgmental equality]] and [[homotopy equivalences]]/[[identity types]]. 
+
+#### With judgmental equality
+
+...
+
+perhaps talk about [[displayed categories]] and the identity-on-objects condition being a literal [[judgmental equality]]
+
+#### With homotopy equivalences/identity types
+
+The proper of notion of equality between types is not [[bijection]] (as those are limited to sets), but rather [[equivalence in homotopy type theory|type equivalence]]: a function $f:A \to B$ where for all elements $b:B$ the fiber of $f$ at $b$ is a singleton. This suggests the following definition of an identity-on-objects functor:
 
 \begin{definition}
 An **identity-on-objects [[functor]]** $F: A\to B$ between [[categories]] $A$ and $B$ is a [[functor]] whose underlying object function $F_{ob}: ob(A) \to ob(B)$ is an [[equivalence in homotopy type theory|equivalence of types]] $F_{ob}: ob(A) \simeq ob(B)$. 
