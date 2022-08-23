@@ -7,7 +7,7 @@
 
 A **displayed category** over a [[category]] $C$ is the "classifying map" of a category over $C$.  That is, it is equivalent to the data of a category $D$ and a functor $F:D\to C$, but organized differently as a "functor" associating to each object or morphism of $C$ the [[fiber]] over it.  The operation (which is an [[equivalence]]) taking a displayed category to the corresponding functor $F:D\to C$ is a generalization of the [[Grothendieck construction]].
 
-Displayed categories are particularly useful in [[type theory]] (especially [[internal categories in homotopy type theory]]) and to preserve the [[principle of equivalence]], since they allow a more "category-theoretic" formulation of various notions (such as [[Grothendieck fibrations]] and strict [[creation of limits]]) that, if stated in terms of a functor $F:D\to C$, would involve equality of objects.
+Displayed categories are particularly useful in [[type theory]] (especially [[internal categories in homotopy type theory]]) and to preserve the [[principle of equivalence]], since they allow a more "category-theoretic" formulation of various notions (such as [[identity-on-objects]] and [[Grothendieck fibrations]] and strict [[creation of limits]]) that, if stated in terms of a functor $F:D\to C$, would involve equality of objects.
 
 ## Definition
 
