@@ -1310,6 +1310,10 @@ Together with the fact that $i^*: dSet \to sSet$ is a [[right Quillen functor]] 
 ## References 
  {#References}
 
+Textbook:
+
+* [[Gijs Heuts]], [[Ieke Moerdijk]], _Simplicial and Dendroidal Homotopy Theory_, Ergebnisse der Mathematik und ihrer Grenzgebiete 75, Springer, ISBN 9783031104473, 9783031104473, [doi:10.1007/978-3-031-10447-3](https://doi.org/10.1007/978-3-031-10447-3).
+
 Surveys of the theory as developed currently include:
 
 * [[Ieke Moerdijk]], _Lectures on dendroidal sets_ , lectures given at the Barcelona workshop on _[Simplicial methods in higher categories](http://www.crm.es/HigherCategories/)_ (2008) ([preliminary writeup](http://www.crm.cat/HigherCategories/hc1.pdf))
