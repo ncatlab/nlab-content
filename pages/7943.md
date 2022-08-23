@@ -21,3 +21,8 @@ A _2-representation_ of a [[2-group]] $G$ is an [[infinity-action]] of $G$ on a 
 ## Related concepts
 
 * [[representation]], [[infinity-representation]]
+
+## References
+
+* Zhen Huan, _2-Representations of Lie 2-groups and 2-Vector Bundles_ ([arXiv:2208.10042](https://arxiv.org/abs/2208.10042))
+
