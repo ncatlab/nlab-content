@@ -63,6 +63,10 @@ Reviews and surveys include
 
 * [[David Tong]], _TASI Lectures on Solitons_ ([web](http://www.damtp.cam.ac.uk/user/tong/tasi.html)), part 3: _Vortices_ ([pdf](http://www.damtp.cam.ac.uk/user/tong/tasi/vortex.pdf)) 
 
+On water vortices forming [[knots]]:
+
+* Dustin Kleckner and William T. M. Irvine, *Creation and dynamics of knotted vortices*, Nature Physics **9** (2013) 253–258 &lbrack;[doi:10.1038/nphys2560](https://doi.org/10.1038/nphys2560)&rbrack;
+
 On quantum vortices as in [[superconductors]] or [[Bose-Einstein condensates]]/[[superfluids]]:
 
 * Rufus Phillips, *[Quantum Vortices](https://www.physics.umd.edu/courses/Phys726/The_Quantum_Vortex.htm)*.
