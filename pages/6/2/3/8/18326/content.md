@@ -25,6 +25,10 @@ Freyd categories resolve the following complaint about using [[monads]] and [[Kl
 
 ## Definition
 
+### With an identity-on-objects functor
+
+The following definitions violate the [[principle of equivalence]], because they use an [[identity-on-objects functor]] in the definitions:
+
 A **Freyd category** (following [Levy 04](#Levy04)) may be defined as
 
 * a [[category]] $\mathbb{V}$ with [[finite products]];
