@@ -109,6 +109,13 @@ Proof for [[Lagrangian]] field theory (not falling back to the [[AQFT]] axiomati
 
 * Hilary Greaves, [[Teruji Thomas]], _The CPT theorem_, Studies in History and Philosophy of Modern Physics 45 (2014) 46-66 ([arXiv:1204.4674](http://arxiv.org/abs/1204.4674))
 
+See also:
+
+* Juven Wang, *C-P-T Fractionalization* &lbrack;[arXiv:2109.15320](https://arxiv.org/abs/2109.15320)&rbrack;
+
+
+
+
 [[!redirects PCT]]
 [[!redirects PCT symmetry]]
 [[!redirects CPT]]
