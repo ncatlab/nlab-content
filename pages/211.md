@@ -6,6 +6,8 @@ The **Anonymous Coward** is the original default username for editing [[nLab:Hom
 
 However, people who *really* want to be anonymous should know that every editor\'s IP address is (usually) listed in the entry's history (found by clicking _history_ at the bottom of any page).
 
+Happy Learning :-)
+
 
 category: people
 
