@@ -48,9 +48,8 @@ the third the notion of
 ### Kapranov&#8211;Voevodsky $2$-vector spaces
  {#KV2VectorSpace}
 
-These were introduced in: 
+These were introduced in [Kapranov & Voevodsky 2091](#KapranovVoevodsky91).
 
-* M. Kapranov and V. Voevodsky, _$2$-categories and Zamolodchikov tetrahedra equations_ in _Algebraic groups and their generalization: quantum and infinite-dimensional methods, University Park, PA (1991) (eds: W. J. Haboush and B. J. Parshall), Proc. Sympos. Pure Math. 56 (Amer. Math. Soc., Providence RI 1994), pp. 177-259
 
 The idea here is that just as a vector space can be regarded as a [[module]] over the [[ground field]] $k$, a $2$-vector space $W$ should be a [[category]] which is a [[monoidal category module]] with some nice properties (such as being an abelian category) over a suitable [[monoidal category]] $V$ which plays the role of the categorified ground field. There is then an obvious [[bicategory]] of such module categories.
 
@@ -65,9 +64,8 @@ An example of a Kapranov--Voevodsky $2$-vector space is $Rep(G)$, the category o
 ### Baez&#8211;Crans $2$-vector spaces
  {#BaezCrans2VectorSpaces}
 
-These were explicitly described in:
+These were explicitly described in [Baez & Crans 2004](#BaezCrans04).
 
-* John C. Baez and Alissa S. Crans, _Higher-Dimensional Algebra VI: Lie $2$-Algebras_ ([tac](http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html), [pdf](http://math.ucr.edu/home/baez/hda6.pdf)).
 
 A **Baez--Crans $2$-vector space** is defined as a [[internal category|category internal]] to [[Vect]]. They categorify the idea of a vector as a 'direction in space', and crop up when considering the _infinitesimal directions_ of a structure, such as in higher [[Lie theory]]. In fact, (following for instance from an extension of the [[Dold-Kan correspondence|Dold-Kan theorem]] by Brown and Higgins), [[strict omega-category|strict omega-categories]] internal to $\Vect$ are equivalent to chain complexes in non-negative degree and can be regarded as strict $Disc(k)$-$\infty$-modules. This allows to conceive much of [[homological algebra]] and many of the structures appearing in higher [[Lie theory]] -- for instance the definition of $L_\infty$-[[L-infinity-algebra|algebras]], as being about $\infty$-vector spaces. Regarding a chain complex as an $\infty$-vector space is useful conceptually for understanding the meaning of some constructions on chain complexes, while of course chain complexes themselves are well suited for direct computation with the $\infty$-vector spaces which they are equivalent to. (See also the remark about different notions of 2-vector spaces further below.)
 
@@ -213,23 +211,76 @@ A review of these ideas of 2-Hilbert spaces as well as applications of 2-Hilbert
 
 ## References
 
+### As $n$-tuples of vector spaces
+ {#ReferencesAsnTuplesOfvectorSpaces}
+
+The notion of 2-vector spaces as $n$-tuples of vector spaces is due to
+
+* {#KapranovVoevodsky91} [[Mikhail Kapranov]], [[Vladimir Voevodsky]], *$2$-categories and Zamolodchikov tetrahedra equations* in *Algebraic groups and their generalization: quantum and infinite-dimensional methods*, University Park, PA (1991) (eds: W. J. Haboush and B. J. Parshall), Proc. Sympos. Pure Math. 56 (Amer. Math. Soc., Providence RI 1994), pp. 177-259 &lbrack;[pdf](https://www.math.ias.edu/vladimir/sites/math.ias.edu.vladimir/files/1994_Kapranov_Voevodsky.pdf)&rbrack;
+
+
+### As 2-term chain complexes
+ {#ReferencesAsTwoTermChainComplexes}
+
+The notion of 2-vector spaces as 2-term [[chain complexes]] is due to
+
+* {#BaezCrans04} [[John C. Baez]], [[Alissa S. Crans]], §3 of: *Higher-Dimensional Algebra VI: Lie 2-Algebras*, Theor. Appl. Categor. **12** (2004) 492-528 &lbrack;[arXiv:math/0307263](https://arxiv.org/abs/math/0307263)&rbrack;
+
+and used in
 
 * {#Forrester-Barker} Magnus Forrester-Barker, _Representations of Crossed Modules and $Cat^1$-Groups_, PhD thesis U. Wales Bangor (2004) ([pdf](http://www.maths.bangor.ac.uk/research/ftp/theses/forrester-barker.pdf))
 
-A systematic definition of 2-modules over [[2-rings]] (see there for more) is in 
 
-* [[Alexandru Chirvasitu]], [[Theo Johnson-Freyd]], _The fundamental pro-groupoid of an affine 2-scheme_, Applied Categorical Structures, Vol 21, Issue 5 (2013), pp. 469–522. ([DOI](http://dx.doi.org/10.1007/s10485-011-9275-y), [arXiv:1105.3104](http://arxiv.org/abs/1105.3104))
- {#CJF}
 
-A treatment of [[2-representations]] of [[Lie 2-groups]] is in
+### As algebras with bimodules between them
+ {#ReferencesAsAlgebrasWithBimodules}
 
-* Zhen Huan, _2-Representations of Lie 2-groups and 2-Vector Bundles_ ([arXiv:2208.10042](https://arxiv.org/abs/2208.10042))
+The notion of 2-vector spaces with 2-linear maps between them as algebras with bimodules between them (subsuming the definition in [Kapranov & Voevodsky 1991](#KapranovVoevodsky91) as the special case of algebras that are [[direct sums]] of the [[ground field]]) is due to 
+
+* [[Urs Schreiber]], §A of: *AQFT from n-functorial QFT*, Commun. Math. Phys. **291** (2009) 357-401 &lbrack;[arXiv:0806.1079](https://arxiv.org/abs/0806.1079), [doi:10.1007/s00220-009-0840-2](https://doi.org/10.1007/s00220-009-0840-2)&rbrack;
+
+following earlier discussion in 
+
+* [[Urs Schreiber]], *[2-vectors in Trondheim](https://golem.ph.utexas.edu/category/2006/10/topology_in_trondheim_and_kro.html)* (2006)
+
+* [[Urs Schreiber]], *[Topology in Trondheim and Kro, Baas & Bökstedt on 2-vector bundles](https://golem.ph.utexas.edu/category/2007/11/2vectors_in_trondheim.html)* (2007)
+
+which is picked up in 
+
+* [[Urs Schreiber]], [[Konrad Waldorf]], §4.4 *Connections on non-abelian Gerbes and their Holonomy*, Theory Appl. Categ., **28** 17 (2013)  476-540 &lbrack;[arXiv:0808.1923](https://arxiv.org/abs/0808.1923), [tac:28-17](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html)&rbrack;
+
+and further developed into a theory of [[2-vector bundles]] (via algebra bundles with bundles of bimodules between them) in:
+
+* [[Peter Kristel]], [[Matthias Ludewig]], [[Konrad Waldorf]], *The insidious bicategory of algebra bundles* &lbrack;[arXiv:2204.03900](https://arxiv.org/abs/2204.03900)&rbrack;
+
+Essentially the same notion also appears, apparently independently, in:
+
+* [[Daniel S. Freed]], [[Michael J. Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], §7.1 with Ex. 2.13 in: *[[Topological Quantum Field Theories from Compact Lie Groups]]* &lbrack;[arXiv:0905.0731](https://arxiv.org/abs/0905.0731)&rbrack;
+
+The notion is reviewed in a list of "standard" definitions in [BDSPV15](#BDSPV15), without however referencing it.
 
 See also at
 
 * _[[geometry of physics]]: [[geometry of physics - modules]]_
 
 the section on 2-modules.
+
+### Further discussion
+
+Review includes
+
+* {#BDSPV15} [[Bruce Bartlett]], [[Christopher L. Douglas]], [[Chris Schommer-Pries]], [[Jamie Vicary]], *A bestiary of 2–vector spaces*, Appendix A in:  *Modular categories as representations of the 3-dimensional bordism 2-category* &lbrack;[arXiv:1509.06811](https://arxiv.org/abs/1509.06811)&rbrack;
+
+
+Another definition of 2-modules over [[2-rings]] (see there for more) is in 
+
+* {#CJF} [[Alexandru Chirvasitu]], [[Theo Johnson-Freyd]], _The fundamental pro-groupoid of an affine 2-scheme_, Applied Categorical Structures, Vol 21, Issue 5 (2013), pp. 469–522. ([DOI](http://dx.doi.org/10.1007/s10485-011-9275-y), [arXiv:1105.3104](http://arxiv.org/abs/1105.3104))
+ 
+
+A treatment of [[2-representations]] of [[Lie 2-groups]] is in
+
+* Zhen Huan, _2-Representations of Lie 2-groups and 2-Vector Bundles_ ([arXiv:2208.10042](https://arxiv.org/abs/2208.10042))
+
 
 [[!redirects 2-vector spaces]]
 
