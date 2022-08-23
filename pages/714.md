@@ -82,7 +82,9 @@ which
 
 \end{definition}
 
-This definition historically was thought to violate the [[principle of equivalence]], since it imposes equations on objects. However, this is only the case if equality is valued in propositions. If equality is instead [[set]]-valued (for strict dagger categories) or [[type]]-valued, as is common with [[identity types]] in [[type theory]], then this definition does not violate the [[principle of equivalence]]. Alternatively, if equality was replaced with [[bijection]] (for strict dagger categories) or [[equivalence in homotopy type theory|equivalence]] in the definition of identity-on-objects functor, then similarly this definition does not violate the principle of equivalence. 
+This definition historically was thought to violate the [[principle of equivalence]], since it imposes equations on objects. However, this is only the case when defining in [[set theory]], since the objects of a category form a set in set theory, resulting in propositional valued equality on objects. This is true regardless whether the identity-on-objects functor is defined via propositional equality of the object sets $Ob(C^\op) = Ob(C)$, as in a [[material set theory]], or via [[bijection]] of the object sets $\dagger_{ob}:Ob(C^\op) \cong Ob(C)$, as in a [[structural set theory]].  
+
+If equality is instead [[type]]-valued, as is common with [[identity types]] in [[type theory]], then this definition does not violate the [[principle of equivalence]]. Alternatively, if equality was replaced with [[equivalence in homotopy type theory|equivalence]] in the definition of identity-on-objects functor, then similarly this definition does not violate the principle of equivalence. 
 
 ### Special morphisms
 
