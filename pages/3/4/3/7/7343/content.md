@@ -77,11 +77,29 @@ Specifically the _[[AGT correspondence]]_ expresses this relation in terms of th
 
 ## References
 
+### Introductions and surveys
+ {#Surveys}
+
+
+* [[Davide Gaiotto]], _Recent progress in $N=2$ $4d$ field theory_ (2009) ([pdf](http://www.physics.rutgers.edu/het/video/gaiotto09a.pdf))
+
+* {#Moore12} [[Gregory Moore]], _Four-dimensional $N=2$ Field Theory and Physical Mathematics_ ([arXiv:1211.2331](http://arxiv.org/abs/1211.2331))
+ 
+
+* [[Greg Moore]], _Surface Defects and the BPS Spectrum of $4d$ $N=2$ Theories_ ([pdf](http://www.physics.rutgers.edu/~gmoore/SolvayMay19Final.pdf))
+
+* [[Yuji Tachikawa]], *$\mathcal{N}=2$ supersymmetric dynamics for pedestrians*, Lecture Notes in Physics, vol. 890, 2014 ([arXiv:1312.2684](https://arxiv.org/abs/1312.2684), [doi:10.1007/978-3-319-08822-8](https://link.springer.com/book/10.1007%2F978-3-319-08822-8), [web version](http://www-hep.phys.s.u-tokyo.ac.jp/~yujitach/tmp/dummies/dummies.html#dummiesse7.html))
+
+* Mohammad Akhond, Guillermo Arias-Tamargo, Alessandro Mininno, Hao-Yu Sun, Zhengdi Sun, Yifan Wang, Fengjun Xu, *The Hitchhiker's Guide to 4d $\mathcal{N}=2$ Superconformal Field Theories* &lbrack;[arXiv:2112.14764](https://arxiv.org/abs/2112.14764)&rbrack;
+
+
 ### General
 
 The terminology "Coulomb branch" and "Higgs branch" first appears in 
 
 * {#SeibergWitten94} [[Nathan Seiberg]], [[Edward Witten]], _Monopoles, Duality and Chiral Symmetry Breaking in $N=2$ Supersymmetric QCD_ ([arXiv:hep-th/9408099](http://arxiv.org/abs/hep-th/9408099))
+
+See also at *[[Seiberg-Witten theory]]:
  
 
 The dimensional reduction to $D = 3$ was first considered in
@@ -107,18 +125,7 @@ For references on [[wall crossing]] of [[BPS states]] see the references given t
 
 
 
-### Introductions and surveys
- {#Surveys}
 
-
-* [[Davide Gaiotto]], _Recent progress in $N=2$ $4d$ field theory_ (2009) ([pdf](http://www.physics.rutgers.edu/het/video/gaiotto09a.pdf))
-
-* {#Moore12} [[Gregory Moore]], _Four-dimensional $N=2$ Field Theory and Physical Mathematics_ ([arXiv:1211.2331](http://arxiv.org/abs/1211.2331))
- 
-
-* [[Greg Moore]], _Surface Defects and the BPS Spectrum of $4d$ $N=2$ Theories_ ([pdf](http://www.physics.rutgers.edu/~gmoore/SolvayMay19Final.pdf))
-
-* [[Yuji Tachikawa]], *$\mathcal{N}=2$ supersymmetric dynamics for pedestrians*, Lecture Notes in Physics, vol. 890, 2014 ([arXiv:1312.2684](https://arxiv.org/abs/1312.2684), [doi:10.1007/978-3-319-08822-8](https://link.springer.com/book/10.1007%2F978-3-319-08822-8), [web version](http://www-hep.phys.s.u-tokyo.ac.jp/~yujitach/tmp/dummies/dummies.html#dummiesse7.html))
 
 
 
