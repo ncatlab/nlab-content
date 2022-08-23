@@ -119,7 +119,7 @@ The original reference is
 
 A correction to this article was made in
 
-* [[Denis-Charles Cisinski]], _Les morphisme de Dwyer ne sont pas stables par r&eacute;tractes_, Cahiers Topologie et G&eacute;om. Diff&eacute;rentielle Cat&eacute;goriques, **40** no. 3 (1999), pp. 227--231. ([Numdam](http://www.numdam.org/item?id=CTGDC_1999__40_3_227_0))
+* [[Denis-Charles Cisinski]], _La classe des morphismes de Dwyer n'est pas stable par r&eacute;tractes_, Cahiers Topologie et G&eacute;om. Diff&eacute;rentielle Cat&eacute;goriques, **40** no. 3 (1999), pp. 227--231. ([Numdam](http://www.numdam.org/item?id=CTGDC_1999__40_3_227_0))
 
 There it was clarified that every cofibrant object in the Thomason model structure is a [[poset]] (although this is already explicitly mentioned in Thomason's paper -- see the beginning of section 5). 
 
