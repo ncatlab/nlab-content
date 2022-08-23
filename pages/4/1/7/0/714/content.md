@@ -33,18 +33,23 @@ The notation and terminology here is motivated from the example [[Hilb]] of Hilb
 
 a _unitary_ [[FQFT|functorial QFT]] of dimension $n$ is supposed to be a functor $n Cob \to Hilb$ which respects the &#8224;-structure on both sides.
 
+
+## Terminology and wording
+
+In certain parts of the type theory literature, these are also called *dagger precategories*, with [[univalent dagger categories]] being called *dagger categories*. However, in the nLab we follow the convention that the objects here are called *dagger categories*, and univalent dagger categories are called *univalent dagger categories*. 
+
+This is in parallel to the convention for [[categories]], which are called categories instead of precategories, and for [[univalent categories]], which are called univalent categories instead of categories. This also parallels the definition of categories and dagger categories in a class-set theory, where categories and dagger categories come with a class of objects, and similarly do not have a Rezk completion condition which define univalent categories and univalent dagger categories. 
+
+In Wikipedia a [dagger category](http://en.wikipedia.org/wiki/Dagger_category) is said to be the same as _involutive category_ or _category with involution_, but [Springer's Encyclopedy](http://eom.springer.de/C/c020780.htm) requires for a category with involution additional conditions namely a partial order on the set of morphisms and that the order is compatible with the composition of morphisms.
+
 ## Definition
 
 ### Dagger categories
 
-\begin{remark}
-In certain parts of the type theory literature, these are also called *dagger precategories*. However, in the nLab we adopt the view that the objects of a dagger category form a [[type]] or [[infinity-groupoid]], in the same way that the objects of a category form a type. 
-\end{remark}
-
 #### With a function
 
 \begin{definition}
-Given a category $C$ with a type of objects $Ob(C)$ and a set of morphisms $Mor(C)$ with source and target functions $s:Mor(C) \to Ob(C)$ and $t:Mor(C) \to Ob(C)$, $C$ is a **dagger category** if it has a function $(-)^\dagger:Mor(C) \to Mor(C)$ such that 
+Given a category $C$ with a type or class of objects $Ob(C)$ and a set of morphisms $Mor(C)$ with source and target functions $s:Mor(C) \to Ob(C)$ and $t:Mor(C) \to Ob(C)$, $C$ is a **dagger category** if it has a function $(-)^\dagger:Mor(C) \to Mor(C)$ such that 
 
 * for every term $f:Mor(C)$, $s(f) = t(f^\dagger)$
 * for every term $f:Mor(C)$, $t(f) = s(f^\dagger)$
@@ -257,11 +262,6 @@ that respect daggering all morphisms, in the evident way.
 Keeping $d_1$ and $d_2$ fixed, respectively this makes $F(-,d_1), F(-,d_2) : C \to E$ &#8224;-functors. We see from the diagrams that $F(-,(d_1 \stackrel{g}{\to}) d_2)$ is a natural transformation between these &#8224;-functors, and the fact that $F$ intertwines the dagger operation of $D$ with that of $E$ means $F$ regarded as a functor $D \to [C,E]$ intertwines the &#8224;-structures of $D$ and $[D,E]_{dag}$, by the above definition.
 
 =--
-
-## Terminology and wording
-
-In Wikipedia [dagger category](http://en.wikipedia.org/wiki/Dagger_category) is said to be the same as _involutive category_ or _category with involution_, but [Springer's Encyclopedy](http://eom.springer.de/C/c020780.htm) requires for a category with involution additional conditions namely a partial order on the set of morphisms and that the order is compatible with the composition of morphisms.
-
 
 ## Examples
 
