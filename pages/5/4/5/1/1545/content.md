@@ -13,7 +13,12 @@ On [[T-folds]] via [[principal 2-bundles]] for the [[T-duality 2-group]]:
 
 On geometric [[T-duality]]:
 
-* [[Konrad Waldorf]], *Geometric T-duality: Buscher rules in general topology* &lbrack;[arXiv:2207.11799](https://arxiv.org/abs/2207.11799)&rbrack
+* [[Konrad Waldorf]], *Geometric T-duality: Buscher rules in general topology* &lbrack;[arXiv:2207.11799](https://arxiv.org/abs/2207.11799)&rbrack;
+
+On [[2-vector bundles]] for [[2-vector spaces]] regarded ([here](2-vector+space#ReferencesAsAlgebrasWithBimodules)) as algebras with bimodules between them:
+
+* [[Peter Kristel]], [[Matthias Ludewig]], [[Konrad Waldorf]], *The insidious bicategory of algebra bundles* &lbrack;[arXiv:2204.03900](https://arxiv.org/abs/2204.03900)&rbrack;
+
 
 
 
