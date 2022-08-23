@@ -37,11 +37,13 @@ a _unitary_ [[FQFT|functorial QFT]] of dimension $n$ is supposed to be a functor
 
 ### Dagger categories
 
+\begin{remark}
+In certain parts of the type theory literature, these are also called *dagger precategories*. However, in the nLab we adopt the view that the objects of a dagger category form a [[type]] or [[infinity-groupoid]], in the same way that the objects of a category form a type. 
+\end{remark}
+
 #### With a function
 
-+-- {: .un_defn}
-###### Definition
-
+\begin{definition}
 Given a category $C$ with a type of objects $Ob(C)$ and a set of morphisms $Mor(C)$ with source and target functions $s:Mor(C) \to Ob(C)$ and $t:Mor(C) \to Ob(C)$, $C$ is a **dagger category** if it has a function $(-)^\dagger:Mor(C) \to Mor(C)$ such that 
 
 * for every term $f:Mor(C)$, $s(f) = t(f^\dagger)$
@@ -50,12 +52,11 @@ Given a category $C$ with a type of objects $Ob(C)$ and a set of morphisms $Mor(
 * for every term $a:Ob(C)$, $id(a)^\dagger = id(a)$
 * for every term $f:Mor(C)$ and $g:Mor(C)$ such that $t(f) =_D s(g)$, $(g \circ f)^\dagger = f^\dagger \circ g^\dagger$. 
 
-=--
+\end{definition}
 
 #### With a family of functions
 
-+-- {: .un_defn}
-###### Definition
+\begin{definition}
 
 A **dagger category** or $\dagger$-category $C$ is a [[category]] with a function $(-)^\dagger: Hom_C(A,B) \to hom_C(B,A)$ for every object $A,B \in Ob(C)$, such that 
 
@@ -63,11 +64,12 @@ A **dagger category** or $\dagger$-category $C$ is a [[category]] with a functio
 * For every $A,B \in Ob(C)$ and every $f \in Hom_C(A,B)$ and $g \in Hom_C(B,C)$, $(g \circ f)^\dagger = f^\dagger \circ g^\dagger$
 * For every $A,B \in Ob(C)$ and every $f \in Hom_C(A,B)$, $((f)^\dagger)^\dagger = f$. 
 
-=--
+\end{definition}
 
 #### With a contravariant endofunctor 
 
-There is another definition which violates the [[principle of equivalence]], since it imposes equations on objects: a [[category]] $C$ equipped with a [[contravariant functor|contravariant endofunctor]], hence an ordinary [[functor]] from the [[opposite category]] $C^{op}$ of $C$ to $C$ itself
+\begin{definition}
+A **dagger category** is a [[category]] $C$ equipped with a [[contravariant functor|contravariant endofunctor]], hence an ordinary [[functor]] from the [[opposite category]] $C^{op}$ of $C$ to $C$ itself
 
 $$
   \dagger : C^{op} \to C
@@ -75,9 +77,13 @@ $$
 
 which 
 
-1. is the identity on [[objects]], 
+1. is an [[identity-on-objects functor]], 
 
 1. is an [[involution]] $\dagger \circ \dagger = \mathrm{id}_C$.
+
+\end{definition}
+
+This definition historically was thought to violate the [[principle of equivalence]], since it imposes equations on objects. However, this is only the case if equality is valued in propositions. If equality is instead [[set]]-valued (for strict dagger categories) or [[type]]-valued, as is common with [[identity types]] in [[type theory]], then this definition does not violate the [[principle of equivalence]]. Alternatively, if equality was replaced with [[bijection]] (for strict dagger categories) or [[equivalence in homotopy type theory|equivalence]] in the definition of identity-on-objects functor, then similarly this definition does not violate the principle of equivalence. 
 
 ### Special morphisms
 
@@ -268,7 +274,7 @@ In Wikipedia [dagger category](http://en.wikipedia.org/wiki/Dagger_category) is 
 
 ## Variants
 
-### Univalent &#8224;-categories
+* [[strict dagger category]]
 
 * [[univalent dagger category]]
 
