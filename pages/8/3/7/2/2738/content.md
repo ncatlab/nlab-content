@@ -1310,18 +1310,16 @@ Together with the fact that $i^*: dSet \to sSet$ is a [[right Quillen functor]] 
 ## References 
  {#References}
 
-Textbook:
+Textbook account:
 
-* [[Gijs Heuts]], [[Ieke Moerdijk]], _Simplicial and Dendroidal Homotopy Theory_, Ergebnisse der Mathematik und ihrer Grenzgebiete 75, Springer, ISBN 9783031104473, 9783031104473, [doi:10.1007/978-3-031-10447-3](https://doi.org/10.1007/978-3-031-10447-3).
+* [[Gijs Heuts]], [[Ieke Moerdijk]], _Simplicial and Dendroidal Homotopy Theory_, Ergebnisse der Mathematik und ihrer Grenzgebiete **75**, Springer (2022) &lbrack;ISBN 9783031104473, 9783031104473, [doi:10.1007/978-3-031-10447-3](https://doi.org/10.1007/978-3-031-10447-3)&rbrack;
 
-Surveys of the theory as developed currently include:
+Surveys:
 
 * [[Ieke Moerdijk]], _Lectures on dendroidal sets_ , lectures given at the Barcelona workshop on _[Simplicial methods in higher categories](http://www.crm.es/HigherCategories/)_ (2008) ([preliminary writeup](http://www.crm.cat/HigherCategories/hc1.pdf))
 
 * {#Weiss} [[Ittay Weiss]], _From operads to dendroidal sets_ , in _[[Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, AMS (2011)
  
-
-
 Dendroidal sets were introduced in 
 
 * {#MoerdijkWeiss}  [[Ieke Moerdijk]] [[Ittay Weiss]], _Dendroidal sets_,  Algebraic & Geometric Topology 7 (2007) 1441&#8211;1470,  ([doi:10.2140/agt.2007.7.1441](http://msp.warwick.ac.uk/agt/2007/07/p056.xhtml), [arXiv:math.AT/0701293](http://arxiv.org/abs/math.AT/0701293))
