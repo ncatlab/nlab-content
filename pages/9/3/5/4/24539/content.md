@@ -13,7 +13,7 @@ A definition of premulticategory is obtained by starting from a definition of [[
 
 $$ \circ_i : C(y_1,\dots,y_i, \dots,y_n; z) \times C(x_1,\dots,x_m; y_i) \to C(y_1,\dots,y_{i-1},x_1,\dots,x_n,y_{i+1},\dots,y_n;z) $$
 
-and removing the "parallel associativity" or "commutativity" which says that composing $h\in C(y_1,\dots,y_n;z$ with two morphisms $f\in C(x_1,\dots,x_n ; y_i)$ and $g\in C(w_1,\dots,w_p; y_j)$ can be done in either order.
+and removing the "parallel associativity" or "commutativity" which says that composing $h\in C(y_1,\dots,y_n;z)$ with two morphisms $f\in C(x_1,\dots,x_n ; y_i)$ and $g\in C(w_1,\dots,w_p; y_j)$ can be done in either order.
 
 ## Relation to premonoidal categories
 
