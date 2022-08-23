@@ -25,9 +25,9 @@ While single-sorted Lawvere theories are [[cartesian monoidal categories]] gener
 
 ## Definition
 
-A second-order algebraic theory is a category $T$ with cartesian products and an exponentiable object $o$ such that every object of $T$ is isomorphic to a finite cartesian product of objects of the form $o \Rightarrow^n o$.
+A second-order algebraic theory is a category $T$ with cartesian products and an exponentiable object $o$ such that every object of $T$ is isomorphic to a finite cartesian product of objects of the form $o^n \Rightarrow o$.
 
-A model of a theory $T$ is given by a functor $M : T \to \Set$ that preserves cartesian products (not necessarily exponentials). On objects, such a functor must give for each $o \Rightarrow^n o$ a set $M(n)$ and the functoriality determines a first-order Lawvere theory/cartesian multicategory structure on $M$. So models of second order algebraic theories are first order algebraic theories with additional structure.
+A model of a theory $T$ is given by a functor $M : T \to \Set$ that preserves cartesian products (not necessarily exponentials). On objects, such a functor must give for each $o^n \Rightarrow o$ a set $M(n)$ and the functoriality determines a first-order Lawvere theory/cartesian multicategory structure on $M$. So models of second order algebraic theories are first order algebraic theories with additional structure.
 
 ## Multicategory
 
