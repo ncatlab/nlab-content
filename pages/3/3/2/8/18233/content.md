@@ -9,7 +9,28 @@ A **displayed category** over a [[category]] $C$ is the "classifying map" of a c
 
 Displayed categories are particularly useful in [[type theory]] (especially [[internal categories in homotopy type theory]]) and to preserve the [[principle of equivalence]], since they allow a more "category-theoretic" formulation of various notions (such as [[identity-on-objects]] and [[Grothendieck fibrations]] and strict [[creation of limits]]) that, if stated in terms of a functor $F:D\to C$, would involve equality of objects.
 
-## Definition
+## Definitions
+
+### By components
+
+A **dsplayed category** $D$ over a category $C$ consists of
+
+* for each object $a:C$, a type $D(a)$
+* for each object $a:C$ and $b:C$, morphism $f:a \to b$, and element $x:D(a)$ and $y:D(b)$, a set of morphisms $Hom_f(x, y)$ from $x$ to $y$ over $f$
+* for each object $a:C$ and element $x:D(a)$, a morphism $id_x:Hom_{id_a}(x, x)$
+* for each object $a:C$, $b:C$, and $c:C$, morphism $f:a \to b$ and $g:b \to c$, and elements $x:D(a)$, $y:D(b)$, $z:D(c)$, a function: 
+$$(-)\circ_{a, b, c, f, g, x, y, z}(-):Hom_g(y, z) \times Hom_f(x, y) \to Hom_{g \circ f}(x, z)$$
+such that 
+* for all morphisms $k:Hom_f(x, y)$, there is the dependent identification 
+$$\lambda(k):id_y \circ k =_* k$$
+* for all morphisms $k:Hom_f(x, y)$, there is the dependent identification 
+$$\rho(k):k \circ id_x =_* k$$
+* for all morphisms $k:Hom_f(x, y)$, $l:Hom_f(y, z)$, $m:Hom_f(z, w)$, 
+$$(k \circ l) \circ m =_* k \circ (l \circ m)$$
+
+...
+
+### Abstract definition
 
 A **displayed category** over a category $C$ is a [[lax functor]] from $C$, regarded as a bicategory with only identity 2-cells, to the [[bicategory]] [[Span]].
 
