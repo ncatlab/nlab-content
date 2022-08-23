@@ -166,6 +166,9 @@ Discussion of precision experiment and possible deviation from theory:
 
   Priscilla Cushman, _Muon’s Escalating Challenge to the Standard Model_,  Physics 14, 54, April 2021 ([web](https://physics.aps.org/articles/v14/54))
 
+* Maarten Golterman, *Theory review for hadronic corrections to $g-2$* &lbrack;[arXiv:2208.05560](https://arxiv.org/abs/2208.05560)&rbrack;
+
+
 ### Relation to flavour anomalies
 
 Possible explanation of the anomaly in the anomalous magnetic moments in terms of [[leptoquarks]]:
