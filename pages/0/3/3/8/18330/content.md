@@ -43,7 +43,7 @@ $$\array{& Ob & \overset{a}\rightarrow & ob(A) & \\
 This is the same as saying that the underlying object function $F_{ob}: ob(A) \to ob(B)$ is a bijection $F_{ob}: ob(A) \simeq ob(B)$. 
 
 \begin{definition}
-An **identity-on-objects [[functor]]** $F: A\to B$ between [[strict categories]] $A$ and $B$ is a [[strict functor]] whose underlying object function $F_{ob}: ob(A) \simeq ob(B)$ is a bijection of sets of objects. 
+An **identity-on-objects [[functor]]** $F: A\to B$ between [[strict categories]] $A$ and $B$ is a [[strict functor]] whose underlying object function $F_{ob}: ob(A) \simeq ob(B)$ is a [[bijection]]. 
 \end{definition}
 
 This definition reflects the [[principle of equivalence]] that the true notion of identity between sets is bijection, rather than propositional equality. 
@@ -52,8 +52,7 @@ On the other hand, in category theory the notion of "two categories with an iden
 
 More abstractly, this can be defined as a category [[enriched category|enriched]] over the [[arrow category]] $Set^\to$.  See also [[M-category]] and [[F-category]].
 
-
-### Identity-on-objects prefunctors
+## Identity-on-objects prefunctors
 
 There is a similar notion of an identity-on-objects prefunctor between [[precategories]], where the objects form a [[type]] or [[infinity-groupoid]] rather than a [[set]]:
 
@@ -64,6 +63,10 @@ An **identity-on-objects [[prefunctor]]** $F: A\to B$ between [[precategories]] 
 \begin{definition}
 An **identity-on-objects [[prefunctor]]** $F: A\to B$ between [[precategories]] $A$ and $B$ is a [[prefunctor]] whose underlying object function $F_{ob}: ob(A) \simeq ob(B)$ is an [[equivalence in homotopy type theory|equivalence of types]] of objects. 
 \end{definition}
+
+## Examples
+
+* A dagger precategory is a precategory $\mathcal{C}$ with a contravariant endoprefunctor $\dagger:\mathcal{C}^\op \to \mathcal{C}$ that is an identity-on-objects prefunctor, such that for all objects $A:\mathcal{C}$ and $B:\mathcal{C}$ and morphisms $f:Hom(A,B)$, $(f^\dagger)^\dagger = f$. 
 
 ## Related pages
 
