@@ -87,13 +87,21 @@ The most common source of the breaking of equivalence-invariance is a statement 
 
 It does not break equivalence-invariance to state that two [[morphisms]] are equal, given a common [[source]] and [[target]]; this is because a [[hom-set]] is a [[set]], where equality is meaningful.  However, it violates the principle of equivalence to state that two morphisms are equal if the source and target are *not* given, because this includes the claim that their sources (which are objects) are equal, and similarly for the targets.
 
+#### Identity-on-objects functors
 
-#### In higher category theory
+Traditionally, an [[identity-on-objects functor]] was defined as the following:
 
-It violates the principle of equivalence to state that two morphisms in a $2$-[[2-category|category]] are equal, because these morphisms are objects in a [[hom-category]], but does not violate the principle of equivalence to state that that two $2$-morphisms are equal, given a common source and target.  And so on.  In an $\infty$-[[infinity-category|category]], *every* claim of equality break equivalence-invariance.
+\begin{definition}
+An identity-on-objects [[functor]] is a [[functor]] $F: A\to B$ between [[categories]] $A$ and $B$ is a functor between categories with the same [[set]] of [[objects]], i.e. $Ob = ob(A) = ob(B)$, and has as its underlying object function $F_{ob}: Ob \to Ob$ the [[identity function]] on $Ob$. 
+\end{definition}
 
-Defining higher categorial structures using such equalities tends to lead to *strict* concepts; avoiding them and imposing coherence relations leads to *weak* concepts.  Sometimes there is a [[coherence theorem]] showing that every weak concept can be strictified, which justifies using equality as a figure of speech.  See [[bicategory]], [[Gray-category]], and [[model category]] for examples of this in action.
+However, this definition mentions equality of sets, which means that the definition is not even definable in a [[structural set theory]] such as [[SEAR]] or [[ETCS with elements]], where there is no notion of equality of sets, only equality of [[functions]], [[relations]], and [[elements]]. Instead, in structural set theories, instead of talking about equality of sets, one talks about having a [[bijection]] between sets, resulting in this definition:
 
+\begin{definition}
+An identity-on-objects [[functor]] $F: A\to B$ between [[categories]] $A$ and $B$ is a [[functor]] whose underlying object function $F_{ob}: ob(A) \to ob(B)$ is a [[bijection]] $F_{ob}: ob(A) \simeq ob(B)$. 
+\end{definition}
+
+However, this definition still violates the [[principle of equivalence]], since it mentions equality of objects. This is the exact same problem as the above section for categories: it is a limitation of all definitions of categories based in [[set theories]], since every object is a set, every category is a [[strict category]], and thus has equality of objects. 
 
 #### In the concept of $\dagger$-categories
   {#daggers}
@@ -118,6 +126,12 @@ It was once believed that there was no known way to express the idea without equ
 
 A discussion about this is [archived on the nForum](https://nforum.ncatlab.org/discussion/4201/principle-of-equivalence/?Focus=101442#Comment_101442).
 
+
+#### In higher category theory
+
+It violates the principle of equivalence to state that two morphisms in a $2$-[[2-category|category]] are equal, because these morphisms are objects in a [[hom-category]], but does not violate the principle of equivalence to state that that two $2$-morphisms are equal, given a common source and target.  And so on.  In an $\infty$-[[infinity-category|category]], *every* claim of equality break equivalence-invariance.
+
+Defining higher categorial structures using such equalities tends to lead to *strict* concepts; avoiding them and imposing coherence relations leads to *weak* concepts.  Sometimes there is a [[coherence theorem]] showing that every weak concept can be strictified, which justifies using equality as a figure of speech.  See [[bicategory]], [[Gray-category]], and [[model category]] for examples of this in action.
 
 ### In physics
 
