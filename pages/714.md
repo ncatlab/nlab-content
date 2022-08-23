@@ -57,7 +57,6 @@ Given a category $C$ with a type of objects $Ob(C)$ and a set of morphisms $Mor(
 #### With a family of functions
 
 \begin{definition}
-
 A **dagger category** or $\dagger$-category $C$ is a [[category]] with a function $(-)^\dagger: Hom_C(A,B) \to hom_C(B,A)$ for every object $A,B \in Ob(C)$, such that 
 
 * For every $A \in Ob(C)$, $(1_A)^\dagger = 1_A$
