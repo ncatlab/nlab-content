@@ -221,6 +221,10 @@ A systematic definition of 2-modules over [[2-rings]] (see there for more) is in
 * [[Alexandru Chirvasitu]], [[Theo Johnson-Freyd]], _The fundamental pro-groupoid of an affine 2-scheme_, Applied Categorical Structures, Vol 21, Issue 5 (2013), pp. 469–522. ([DOI](http://dx.doi.org/10.1007/s10485-011-9275-y), [arXiv:1105.3104](http://arxiv.org/abs/1105.3104))
  {#CJF}
 
+A treatment of [[2-representations]] of [[Lie 2-groups]] is in
+
+* Zhen Huan, _2-Representations of Lie 2-groups and 2-Vector Bundles_ ([arXiv:2208.10042](https://arxiv.org/abs/2208.10042))
+
 See also at
 
 * _[[geometry of physics]]: [[geometry of physics - modules]]_
