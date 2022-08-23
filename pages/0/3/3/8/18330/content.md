@@ -48,13 +48,22 @@ An **identity-on-objects [[functor]]** $F: A\to B$ between [[strict categories]]
 
 This definition reflects the [[principle of equivalence]] that the true notion of identity between sets is bijection, rather than propositional equality. 
 
-On the other hand, in category theory the notion of "two categories with an identity-on-objects functor between them" is much more commonly used than the notion of "an identity-on-objects functor between two previously given categories". Instead of postulating two categories with a functor whose object function is a set isomorphism/type equivalence, one instead postulates one set or type $Ob$ of objects, with two families of arrows $A(x,y)$ and $B(x,y)$ for $x,y\in Ob$, each with composition and identities making each of $(Ob, A)$ and $(Ob, B)$ into a category structure, plus a family of functions $A(x,y) \to B(x,y)$ commuting with these category structures. This is the approach used to define [[dagger categories]] on the nLab in a way which doesn't violate the [[principle of equivalence]]. 
+On the other hand, in category theory the notion of "two categories with an identity-on-objects functor between them" is much more commonly used than the notion of "an identity-on-objects functor between two previously given categories". Instead of postulating two categories with a functor whose object function is a bijection, one instead postulates one set or type $Ob$ of objects, with two families of arrows $A(x,y)$ and $B(x,y)$ for $x,y\in Ob$, each with composition and identities making each of $(Ob, A)$ and $(Ob, B)$ into a category structure, plus a family of functions $A(x,y) \to B(x,y)$ commuting with these category structures. This is the approach used to define [[dagger categories]] on the nLab in a way which doesn't violate the [[principle of equivalence]]. 
 
 More abstractly, this can be defined as a category [[enriched category|enriched]] over the [[arrow category]] $Set^\to$.  See also [[M-category]] and [[F-category]].
 
-### For univalent categories
 
-...
+### Identity-on-objects prefunctors
+
+There is a similar notion of an identity-on-objects prefunctor between [[precategories]], where the objects form a [[type]] or [[infinity-groupoid]] rather than a [[set]]:
+
+\begin{definition}
+An **identity-on-objects [[prefunctor]]** $F: A\to B$ between [[precategories]] $A$ and $B$ in a [[univalent universe]] $\mathcal{U}$ is a [[prefunctor]] between precategories with the same [[type]] of [[objects]], i.e. there exists a set $Obj:\mathcal{U}$ and [[identity types]] $a:Ob =_\mathcal{U} ob(A)$ and $b:Ob =_\mathcal{U} ob(B)$, and has as its underlying object function $F_{ob}: Ob \to Ob$ the [[identity function]] on $Ob$. 
+\end{definition}
+
+\begin{definition}
+An **identity-on-objects [[prefunctor]]** $F: A\to B$ between [[precategories]] $A$ and $B$ is a [[prefunctor]] whose underlying object function $F_{ob}: ob(A) \simeq ob(B)$ is an [[equivalence in homotopy type theory|equivalence of types]] of objects. 
+\end{definition}
 
 ## Related pages
 
@@ -70,3 +79,12 @@ More abstractly, this can be defined as a category [[enriched category|enriched]
 [[!redirects io functors]]
 [[!redirects i.o. functor]]
 [[!redirects i.o. functors]]
+
+[[!redirects identity-on-objects prefunctor]]
+[[!redirects identity-on-objects prefunctors]]
+[[!redirects identity on objects prefunctor]]
+[[!redirects identity on objects prefunctors]]
+[[!redirects io prefunctor]]
+[[!redirects io prefunctors]]
+[[!redirects i.o. prefunctor]]
+[[!redirects i.o. prefunctors]]
