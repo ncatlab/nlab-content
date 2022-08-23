@@ -137,6 +137,13 @@ Possible relation to [[bosonic M-theory]]:
 
 * [[Alessio Marrani]], [[Michael Rios]], [[David Chester]], _Monstrous M-theory_ ([arXiv:2008.06742](https://arxiv.org/abs/2008.06742))
 
+Relation to [[Seiberg-Witten theory]]:
+
+* Shun'ya Mizoguchi, *Seiberg-Witten Theory and Monstrous Moonshine* &lbrack;[arXiv:2208.10301](https://arxiv.org/abs/2208.10301)&rbrack;
+
+
+
+
 
 
 
