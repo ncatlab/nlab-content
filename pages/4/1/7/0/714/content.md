@@ -81,15 +81,19 @@ $$
 
 which 
 
-1. is an [[identity-on-objects functor]], 
+1. is the [[identity-on-objects]], 
 
 1. is an [[involution]] $\dagger \circ \dagger = \mathrm{id}_C$.
 
 \end{definition}
 
-This definition historically was thought to violate the [[principle of equivalence]], since it imposes equations on objects. However, this is only the case when defining in [[set theory]], since the objects of a category form a set in set theory, resulting in propositional valued equality on objects. This is true regardless whether the identity-on-objects functor is defined via propositional equality of the object sets $Ob(C^\op) = Ob(C)$, as in a [[material set theory]], or via [[bijection]] of the object sets $\dagger_{ob}:Ob(C^\op) \cong Ob(C)$, as in a [[structural set theory]].  
+This definition violates the [[principle of equivalence]], since it imposes equations on objects. 
 
-If equality is instead [[type]]-valued, as is common with [[identity types]] in [[type theory]], then this definition does not violate the [[principle of equivalence]]. Alternatively, if equality was replaced with [[equivalence in homotopy type theory|equivalence]] in the definition of identity-on-objects functor, then similarly this definition does not violate the principle of equivalence. 
+When defining in [[set theory]], the objects of a category form a set in set theory, resulting in propositional valued equality on objects. This is true regardless whether the identity-on-objects functor is defined via propositional equality of the object sets $Ob(C^\op) = Ob(C)$, as in a [[material set theory]], or via [[bijection]] of the object sets $\dagger_{ob}:Ob(C^\op) \cong Ob(C)$, as in a [[structural set theory]]. 
+
+When defining in [[type theory]], the objects of a category form a type in type theory, resulting in type-valued equality on objects, or [[equivalence in homotopy type theory|equivalence]] of objects, so it doesn't suffer from the exact issue as set theory definitions do. However, it still suffers from a variant of the [[principle of equivalence]], in the same way that the usual definition of [[Grothendieck fibrations]] and strict [[creation of limits]] in type theory also violates the [[principle of equivalence]]. 
+
+In order to satisfy the [[principle of equivalence]], the [[identity-on-objects]] in [[type theory]] needs to be a [[displayed category]] instead of a [[functor]]. 
 
 ### Special morphisms
 
