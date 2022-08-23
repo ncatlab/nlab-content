@@ -39,6 +39,10 @@ Review:
 
 * Bernard Field, Tapio Simula, _Introduction to topological quantum computation with non-Abelian anyons_, Quantum Science and Technology **3** (2018) 045004 ([arXiv:1802.06176](https://arxiv.org/abs/1802.06176), [doi:10.1088/2058-9565/aacad2](https://iopscience.iop.org/article/10.1088/2058-9565/aacad2))
 
+* [[Muhammad Ilyas]], *Quantum Field Theories, Topological Materials, and Topological Quantum Computing* $[$[arXiv:2208.09707](https://arxiv.org/abs/2208.09707)$]$
+
+
+
 Focus on **[[abelian anyons]]**:
 
 * [[Jiannis K. Pachos]], *Quantum computation with abelian anyons on the honeycomb lattice*, International Journal of Quantum Information **4** 6 (2006) 947-954 ([arXiv:quant-ph/0511273](https://arxiv.org/abs/quant-ph/0511273))
