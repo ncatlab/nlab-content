@@ -59,7 +59,7 @@ See at *[[BDR 2-vector bundle]]*.
 
 The notion of 2-vector bundles based on regarding 2-vector spaces as algebras with bimodules between them ([here](2-vector+space#ReferencesAsAlgebrasWithBimodules)) is first discussed in
 
-* [[Urs Schreiber]], [[Konrad Waldorf]], §4.4 *Connections on non-abelian Gerbes and their Holonomy*, Theory Appl. Categ., **28** 17 (2013)  476-540 &lbrack;[arXiv:0808.1923](https://arxiv.org/abs/0808.1923), [tac:28-17](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html)&rbrack;
+* [[Urs Schreiber]], [[Konrad Waldorf]], §4.4 of: *Connections on non-abelian Gerbes and their Holonomy*, Theory Appl. Categ., **28** 17 (2013)  476-540 &lbrack;[arXiv:0808.1923](https://arxiv.org/abs/0808.1923), [tac:28-17](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html)&rbrack;
 
 and much further developed in
 
