@@ -89,35 +89,21 @@ It does not break equivalence-invariance to state that two [[morphisms]] are equ
 
 #### Identity-on-objects functors
 
-Traditionally, an [[identity-on-objects functor]] was defined as the following:
-
 \begin{definition}
-An identity-on-objects [[functor]] is a [[functor]] $F: A\to B$ between [[categories]] $A$ and $B$ is a functor between categories with the same [[set]] of [[objects]], i.e. $Ob = ob(A) = ob(B)$, and has as its underlying object function $F_{ob}: Ob \to Ob$ the [[identity function]] on $Ob$. 
+An **identity-on-objects [[functor]]** $F: A\to B$ between [[categories]] $A$ and $B$ is a functor between categories with the same collection of [[objects]], and has as its underlying object function $F_{ob}$ the [[identity function]] on the collection of objects. 
 \end{definition}
 
-However, this definition mentions equality of sets, which means that the definition is not even definable in a [[structural set theory]] such as [[SEAR]] or [[ETCS with elements]], where there is no notion of equality of sets, only equality of [[functions]], [[relations]], and [[elements]]. Instead, in structural set theories, instead of talking about equality of sets, one talks about having a [[bijection]] between sets, resulting in this definition:
+The problem with the definition is that it is unclear how to define two categories with the same collection of objects. There are a number of different ways to define two categories with the same collection of objects:
 
-\begin{definition}
-An identity-on-objects [[functor]] $F: A\to B$ between [[categories]] $A$ and $B$ is a [[functor]] whose underlying object function $F_{ob}: ob(A) \to ob(B)$ is a [[bijection]] $F_{ob}: ob(A) \simeq ob(B)$. 
-\end{definition}
+In set theory, the objects of a category are required to be a set. In [[material set theories]], one could postulate the condition that $Ob = ob(A) = ob(B)$. However, it mentions equality of sets, which means that the definition is not even definable in a [[structural set theory]] such as [[SEAR]] or [[ETCS with elements]], where there is no notion of equality of sets, only equality of [[functions]], [[relations]], and [[elements]]. In structural set theories, instead of talking about equality of sets, one talks about having [[bijection]] between sets $a:Ob \cong ob(A)$, $b:Ob \cong ob(B)$, and $F_{ob}:ob(A) \cong ob(B)$. This yields a [[bijective-on-objects functor]]. 
 
-However, this definition still violates the [[principle of equivalence]], since it mentions equality of objects. This is the exact same problem as the above section for categories: it is a limitation of all definitions of categories based in [[set theories]], since every object is a set, every category is a [[strict category]], and thus has equality of objects. 
+In type theories, the objects of a category do not form a set, but a type. The categories whose type of objects is a set is a strict category, and as a result, the above definitions are only valid for [[strict categories]]. However, there is a generalization of both material set theory equality of sets and structural set theory bijection of sets to type theory: identity types and equivalence of types. 
 
-One could attempt to the definition of equality so that equality is no longer a proposition, such as the case in [[type theory]], and accordingly alter the definition of category to reflect that equality of objects is no longer a proposition. 
+For identity types, one postulates the existence of [[identifications]] $a:Ob =_\mathcal{U} ob(A)$ and $b:Ob =_\mathcal{U} ob(B)$, resulting in an identification $a^{-1} b: ob(A) =_\mathcal{U} ob(B)$. This is what is called an **identity-on-objects functor** in type theory. For equivalences, one postulates the existence of [[equivalence in homotopy type theory|equivalence]] $a:Ob \simeq_\mathcal{U} ob(A)$ and $b:Ob \simeq_\mathcal{U} ob(B)$, and $F_{ob}:ob(A) \simeq_\mathcal{U} ob(B)$. This yields an [[equivalent-on-objects functor]]. If the background universe $\mathcal{U}$ is an [[univalent universe]], then equivalent-on-objects functors and identity-on-objects functors are equivalent to each other. If the categories are strict, then both equivalent-on-objects functors and identity-on-objects functors are equivalent to bijective-on-objects functors. 
 
-In type theory, the objects of a category form a general type, rather than a set, which means that categories are not in general strict categories anymore, nor are functors in general strict functors. Since the objects of a category form a type, the equivalent of bijections in structural set theories are [[equivalences in homotopy type theory|equivalences]]. A function $f:A \to B$ between two types $A$ and $B$ is an equivalence if for all elements $b:B$ the fiber of $f$ at $b$ is a singleton. This suggests the following definition of an identity-on-objects functor:
+However, in general categories, all these definitions still nevertheless violate the [[principle of equivalence]]. What one actually needs are [[essentially surjective functors]]. Only in [[univalent categories]] are essentially surjective functors the same as equivalent-on-object functors, and additionally only when both the source and target univalent categories are in a [[univalent universe]] are essentially surjective functors between univalent categories identity-on-object functors. 
 
-\begin{definition}
-An **identity-on-objects [[functor]]** $F: A\to B$ between [[categories]] $A$ and $B$ is a [[functor]] whose underlying object function $F_{ob}: ob(A) \to ob(B)$ is an [[equivalence in homotopy type theory|equivalence of types]] $F_{ob}: ob(A) \simeq ob(B)$. 
-\end{definition}
-
-In type theory, there *is* a way to also speak about equality of types, provided that both types live in a [[univalent universe]] $\mathcal{U}$. For types $A:\mathcal{U}$ and $B:\mathcal{U}$, there is an [[identity type]] $A =_\mathcal{U} B$ and a type of equivalences between $A$ and $B$, $A \simeq_\mathcal{U} B$, as well as a canonical function $\mathrm{IdtoEquiv}:A =_\mathcal{U} B \to A \simeq_\mathcal{U} B$. Since $\mathcal{U}$ is univalent, $\mathrm{IdtoEquiv}$ is an equivalence of types $\mathrm{IdtoEquiv}:A =_\mathcal{U} B \simeq A \simeq_\mathcal{U} B$ and thus there is a homotopy inverse $\mathrm{EquivtoId}:A \simeq_\mathcal{U} B \to A =_\mathcal{U} B$ This provides us with an alternate definition which does talk about equality of objects:
-
-\begin{definition}
-An **identity-on-objects [[functor]]** $F: A\to B$ between [[categories]] $A$ and $B$ in a [[univalent universe]] $\mathcal{U}$ is a [[functor]] with an [[identification]] $\mathrm{EquivtoId}(F_{ob}):ob(A) =_\mathcal{U} ob(B)$, where $F_{ob}: ob(A) \to ob(B)$ is the underlying object function of the functor $F$.
-\end{definition}
-
-However, both these definitions still nevertheless violate the [[principle of equivalence]], for the same reason that the translation of the usual definition of a [[Grothendieck fibration]] or strict [[creation of limits]] into type theory violates the principle of equivalence. 
+One could thus equally argue that due to the above result, the correct notion of universe which satisfies the principle of equivalence is a [[univalent universe]] and the correct notion of a category which satisfies the principle of equivalence is a [[univalent category]]. But then this lies bare the result that [[dagger categories]] are not [[univalent categories]], and that identity-on-objects for dagger categories behave differently from identity-on-objects for categories. 
 
 #### In the concept of $\dagger$-categories
   {#daggers}
