@@ -15,10 +15,18 @@
 ## Definitions
 
 \begin{definition}
-An **identity-on-objects [[functor]]** $F: A\to B$ between [[categories]] $A$ and $B$ is a functor between categories with the same collection of [[objects]], and has as its underlying object function $F_{ob}$ the [[identity function]] on the collection of objects. 
+An **identity-on-objects [[functor]]** $F: A\to B$ between [[categories with the same collection of objects]] $(A, B) \coloneqq (Ob, Mor_A, Mor_B)$ is a [[functor between categories with the same collection of objects|functor between categories]] $A \coloneqq (Ob, Mor_A)$ and $B \coloneqq (Ob, Mor_B)$ that has as its underlying object function $F_{ob}$ the [[identity function]] on the collection of objects. 
 \end{definition}
 
-The problem with the definition is that it is unclear how to define two [[categories with the same collection of objects]]. There are a number of different ways to define two categories with the same collection of objects:
+In a [[material set theory]] or [[structural set theory]], the above definition violates the [[principle of equivalence]], so instead they use the following definition which does satisfy the principle of equivalence:
+
+\begin{definition}
+An **identity-on-objects functor** $F: A\to B$ between [[categories with the same collection of objects]] $(A, B) \coloneqq (Ob, Mor_A, Mor_B)$ is a family of functions $F_{x, y}:Mor_A(x, y) \to Mor_B(x, y)$ indexed by objects $x:Ob$ and $y:Ob$. 
+\end{definition}
+
+...
+
+There are a number of different ways to define two categories with the same collection of objects:
 
 ### With propositional equality or equivalence
 
@@ -52,8 +60,6 @@ More abstractly, this can be defined as a category [[enriched category|enriched]
 
 ## Examples
 
-* Assuming definition 1.3 or 1.4, every isomorphism of categories between two categories is by definition a [[fully faithful functor|fully faithful]] identity-of-objects functor. 
-* Assuming definition 1.3 or 1.4, every [[equivalence of categories|adjoint equivalence]] of [[univalent categories]] is an identity-of-objects functor, as isomorphism and adjoint equivalence are the same for univalent categories. 
 * A [[dagger category]] is a category $\mathcal{C}$ with a [[contravariant functor|contravariant endofunctor]] $\dagger:\mathcal{C}^\op \to \mathcal{C}$ that is an identity-on-objects functor, such that for all objects $A:\mathcal{C}$ and $B:\mathcal{C}$ and morphisms $f:Hom(A,B)$, $(f^\dagger)^\dagger = f$. 
 
 ## Related pages
