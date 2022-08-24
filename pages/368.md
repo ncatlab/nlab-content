@@ -31,6 +31,8 @@ This can be generalized to any [[regular 2-category]].
 
 ## Related pages
 
+* [[identity-on-objects functor]]
+
 [[!include properties of functors -- contents]]
 
 
