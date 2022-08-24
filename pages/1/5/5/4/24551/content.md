@@ -1,3 +1,4 @@
+[[!redirects LNL Polycategory]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
