@@ -142,7 +142,7 @@ Moreover:
 
 1. the limits are the limits of the underlying diagrams in $\mathcal{C}$, with the base point of the limit induced by its universal property in $\mathcal{C}$;
 
-1. the colimits are the limits in $\mathcal{C}$ of the diagrams _with the basepoint adjoined_.
+1. the colimits are the colimits in $\mathcal{C}$ of the diagrams _with the basepoint adjoined_.
 
 =--
 
