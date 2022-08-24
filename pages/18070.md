@@ -503,6 +503,7 @@ $$
 (...)
 
 ### Cohomotopy charge map
+ {#CohomotopyChargeMap}
 
 
 The _Cohomotopy charge map_ is the [[function]] that assigns to a [[configuration space of points|configuration of points]] their total [[charge]] as measured in [[Cohomotopy]]-[[generalized cohomology|cohomology theory]].
