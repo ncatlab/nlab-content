@@ -24,7 +24,7 @@ The following is an incomplete list of structures that can be defined as LNL doc
 * [[symmetric multicategories]]
 * [[symmetric polycategories]]
 * [[linear-non-linear logic]]
-* [[skew multicategories]]
+* [[skew-multicategories]]
 * [[call-by-push-value]]
 * [[Freyd multicategories]]
 * [[adjunctions]]
