@@ -317,6 +317,12 @@ Discussion of the corresponding continuum theory, formulated via [[local nets of
 
 * {#Faulkner20} [[Thomas Faulkner]], _The holographic map as a conditional expectation_ ([arXiv:2008.04810](https://arxiv.org/abs/2008.04810))
 
+See also:
+
+* Matthew Headrick, Veronika E. Hubeny, *Covariant bit threads* &lbrack;[arXiv:2208.10507](https://arxiv.org/abs/2208.10507)&rbrack;
+
+
+
 ### Via holographic tensor networks and quantum codes
 
 Relation to [[renormalization]] of [[entanglement]] and [[tensor networks]] is due to 
