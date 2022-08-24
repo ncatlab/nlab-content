@@ -53,6 +53,10 @@ On [[Evgeny Likhtman]]:
 
 * encyclopedia entry: **[[Likhtman_Evgeny_Pinkhasovich.pdf:file]]** (by [[Mikhail Shifman]])
 
+On [[non-perturbative effects]] in [[QCD]] ([[hadrodynamics]]) via [[operator product expansion]]:
+
+* [[Mikhail Shifman]], *OPE-based Methods in Nonperturbative QCD*, Eur. Phys. J. C (2022) &lbrack;[arXiv:2208.10600](https://arxiv.org/abs/2208.10600)&rbrack;
+
 
 category: people
 
