@@ -24,7 +24,7 @@ This definition is problematic for multiple different reasons. First of all, it 
 An **identity-on-objects [[functor]]** $F: A\to B$ between [[categories]] $A$ and $B$ is a [[functor]] whose underlying object function $F_{ob}: ob(A) \to ob(B)$ is a [[bijection]] $F_{ob}: ob(A) \simeq ob(B)$. 
 \end{definition}
 
-However, this definition still goes against the [[principle of equivalence]], since it mentions equality of objects. This is a limitation of all definitions of categories based in [[set theories]], since every object is a set, every category is a [[strict category]], and thus has equality of objects. 
+However, this is just a [[bijective-on-objects functor]]. Moreover, this definition still goes against the [[principle of equivalence]], since it mentions equality of objects. This is a limitation of all definitions of categories based in [[set theories]], since every object is a set, every category is a [[strict category]], and thus has equality of objects. 
 
 One could attempt to the definition of equality so that equality is no longer a proposition, such as the case in [[type theory]], and accordingly alter the definition of category to reflect that equality of objects is no longer a proposition. 
 
@@ -62,12 +62,14 @@ More abstractly, this can be defined as a category [[enriched category|enriched]
 
 ## Examples
 
-* Every [[equivalence of categories]] between two categories is an identity-of-objects functor where additionally the morphism functions of the functor are [[bijections]]. 
-
+* Assuming definition 1.2, every isomorphism of [[strict categories]] is a identity-of-objects functor. 
+* Assuming definition 1.3 or 1.4, every isomorphism of categories between two categories is by definition a [[fully faithful functor|fully faithful]] identity-of-objects functor. 
+* Assuming definition 1.3 or 1.4, every [[equivalence of categories|adjoint equivalence]] of [[univalent categories]] is an identity-of-objects functor, as isomorphism and adjoint equivalence are the same for univalent categories. 
 * A [[dagger category]] is a category $\mathcal{C}$ with a [[contravariant functor|contravariant endofunctor]] $\dagger:\mathcal{C}^\op \to \mathcal{C}$ that is an identity-on-objects functor, such that for all objects $A:\mathcal{C}$ and $B:\mathcal{C}$ and morphisms $f:Hom(A,B)$, $(f^\dagger)^\dagger = f$. 
 
 ## Related pages
 
+* [[bijective-on-objects functor]] 
 * [[displayed category]]
 * [[Freyd category]]
 * [[Freyd multicategory]]
@@ -75,6 +77,10 @@ More abstractly, this can be defined as a category [[enriched category|enriched]
 * [[principle of equivalence]]
 
 ## References
+
+For the definition of isomorphism of categories and adjoint equivalence of univalent categories: 
+
+* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
 For the use of [[displayed categories]] instead of [[identity-on-objects functors]] in definitions:
 
