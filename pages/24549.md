@@ -58,3 +58,12 @@ An isomorphism of categories is a [[fully faithful functor|fully faithful]] equi
 For the definition of isomorphism of categories and adjoint equivalence of univalent categories, and equivalence of the two definitions for functors between univalent categories: 
 
 * Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+
+[[!redirects equivalent-on-objects]]
+[[!redirects equivalent on objects]]
+
+[[!redirects equivalent on objects functor]]
+[[!redirects equivalent on objects functors]]
+
+[[!redirects equivalent-on-objects functor]]
+[[!redirects equivalent-on-objects functors]]
