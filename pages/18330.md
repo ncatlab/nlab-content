@@ -18,7 +18,7 @@
 An **identity-on-objects [[functor]]** $F: A\to B$ between [[categories with the same collection of objects]] $(A, B) \coloneqq (Ob, Mor_A, Mor_B)$ is a [[functor between categories with the same collection of objects|functor between categories]] $A \coloneqq (Ob, Mor_A)$ and $B \coloneqq (Ob, Mor_B)$ that has as its underlying object function $F_{ob}$ the [[identity function]] on the collection of objects. 
 \end{definition}
 
-In a [[material set theory]] or [[structural set theory]], the above definition violates the [[principle of equivalence]], so instead they use the following definition which does satisfy the principle of equivalence:
+In type theory, [[identity functions]] do not necessarily violate the [[principle of equivalence]], because the [[identity type]] $id(x) =_Ob x$ for object $x:A$ is not necessarily a proposition, and in the presence of [[univalence]], is necessarily required to satisfy the [[principle of equivalence]]. However, in a [[material set theory]] or [[structural set theory]] or a type theory with [[axiom K]], the above definition violates the [[principle of equivalence]], so instead they use the following definition which does satisfy the principle of equivalence:
 
 \begin{definition}
 An **identity-on-objects functor** $F: A\to B$ between [[categories with the same collection of objects]] $(A, B) \coloneqq (Ob, Mor_A, Mor_B)$ is a family of functions $F_{x, y}:Mor_A(x, y) \to Mor_B(x, y)$ indexed by objects $x:Ob$ and $y:Ob$. 
