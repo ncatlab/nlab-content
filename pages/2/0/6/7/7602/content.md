@@ -63,6 +63,7 @@ Just as [[multicategories]] are a special case of [[generalized multicategories]
 * [[properad]]
 * [[multicategory]]
 * [[operad]]
+* [[LNL Polycategory]]
 
 ## References
 
