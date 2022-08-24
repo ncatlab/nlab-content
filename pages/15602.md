@@ -19,7 +19,7 @@ to a single output in an operad.
 
 ### Relation to polycategories, dioperads and PROPs
 
-The notion of coloured properads is more general than that of [[polycategories]] in that prperads have [[composition]]-operationd along more than one object. See at *[polycategory -- Relation to properads](polycategory#RelationToProperads)* for a more detailed explanation.
+The notion of coloured properads is more general than that of [[polycategories]] in that properads have [[composition]]-operations along more than one object. See at *[polycategory -- Relation to properads](polycategory#RelationToProperads)* for a more detailed explanation.
 
 Unlike with polycategories and dioperads (and [[multicategories]] and [[operads]]), there doesn't appear to be different terminology in the literature for one-coloured versus multicoloured properads.
 
