@@ -272,4 +272,14 @@ the many experimental cross section measurements.
 
 > The *problem of confinement* concerns the strongly-coupled sector of QCD composed of interacting colored partons (quarks and gluons). $[\cdots]$ Despite the major efforts of the research community and tremendous progress made over last few decades, it does not appear to be fully and consistently resolved yet. 
 
+\linebreak
+
+* [[Mikhail Shifman]], *OPE-based Methods in Nonperturbative QCD*, Eur. Phys. J. C (2022) $[$[arXiv:2208.10600](https://arxiv.org/abs/2208.10600)$]$
+
+> QCD and its relatives are special because QCD is the theory of nature. QCD is strongly coupled in the infrared domain where it is impossible to treat it quasi-classically -- perturbation theory fails even qualitatively. It does not capture drastic rearrangement of the vacuum structure related to confinement. The Lagrangian is defined at short distances in terms of gluons and quarks, while at large distances we deal with [[hadrons]], e.g. pions, ρ mesons, protons, etc. Certainly, the latter are connected with quarks and gluons in a divine way, but this connection is highly nonlinear and non-local; even now, 50 years later, the full analytic solution of QCD
+is absent.
+
+> [[non-perturbative effect|Non-perturbative methods]] were desperately needed.
+
+
 
