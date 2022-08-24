@@ -69,7 +69,9 @@ More abstractly, this can be defined as a category [[enriched category|enriched]
 
 ## Related pages
 
-* [[bijective-on-objects functor]] 
+* [[bijective-on-objects functor]]
+* [[equivalent-on-objects functor]]
+* [[essentially surjective functor]] 
 * [[displayed category]]
 * [[Freyd category]]
 * [[Freyd multicategory]]
