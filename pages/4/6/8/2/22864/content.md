@@ -164,7 +164,7 @@ Recent work on categorical semantics:
 
 * [[R. F. Blute]], [[J. R. B. Cockett]], [[Jean-Simon Lemay]], [[R. A. G. Seely]], *Differential Categories Revisited*, Appl Categor Struct **28** (2020) 171-235 ([arXiv:1806.04804](https://arxiv.org/abs/1806.04804), [doi:10.1007/s10485-019-09572-y](https://doi.org/10.1007/s10485-019-09572-y))
 
-
+[[!redirects Differential linear logic]]
 
 
 
