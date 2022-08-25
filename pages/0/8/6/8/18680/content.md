@@ -262,13 +262,13 @@ A dependent linear version of [[system L]] is considered in
 
 More recent work in the type-theoretic literature includes:
 
-* [[Ugo Dal Lago]], _Linear Dependent Types in a Subrecursive Setting_, in _Bounded Linear Logic Workshop_ Fontainebleau, 2013.
+* [[Ugo Dal Lago]], _Linear Dependent Types in a Subrecursive Setting_, in _[Bounded Linear Logic Workshop](https://www.cs.bham.ac.uk/~drg/bll.html)_ Fontainebleau, 2013, [slides](https://www.cs.bham.ac.uk/~drg/bll/dallago.pdf).
 
 * [[Ugo Dal Lago]], M. Gaboardi, _Linear Dependent Types and Relative Completeness-, in _Logical Methods in Computer Science_ Vol. 8(4:11), 2012.
 
 * [[Ugo Dal Lago]] and B. Petit, _Linear dependent types in a call-by-value scenario_, in _Science of Computer Programming 84_, 2014.
 
-* F.N. Forsberg, _Restricted linear dependent types for resource allocation_, in _Bounded Linear Logic Workshop_, Fontainebleau, 2013.
+* F.N. Forsberg, _Restricted linear dependent types for resource allocation_, in _[Bounded Linear Logic Workshop](https://www.cs.bham.ac.uk/~drg/bll.html)_, Fontainebleau, 2013, [slides](https://www.cs.bham.ac.uk/~drg/bll/fredrik.pdf).
 
 * M. Gaboardi et al., _Linear Dependent Types for Differential Privacy_, in POPL '13, 2013.
 
