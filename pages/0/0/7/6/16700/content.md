@@ -11,6 +11,10 @@ On [[Kac-Moody algebras]] in [[M-theory]] ([[U-duality]]):
 
 * [[Paul Cook]], _Connections between Kac-Moody algebras and M-theory_ PhD thesis ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
 
+On the [[dual graviton]] in terms of [[E11]] [[U-duality]]:
+
+* Nicolas Boulanger, [[Paul P. Cook]], Josh A. O'Connor, [[Peter West]], *Higher dualisations of linearised gravity and the $A_1^{+++}$ algebra* &lbrack;[arXiv:2208.11501](https://arxiv.org/abs/2208.11501)&rbrack
+
 
 ## related $n$Lab entries
 
@@ -19,3 +23,5 @@ On [[Kac-Moody algebras]] in [[M-theory]] ([[U-duality]]):
 * [[M-theory]]
 
 category: people
+
+[[!redirects Paul P. Cook]]
