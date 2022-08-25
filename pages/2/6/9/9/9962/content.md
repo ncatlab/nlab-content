@@ -132,7 +132,9 @@ Critical comments are in
 
 * Goran Senjanovic, _Natural Philosophy versus Philosophy of Naturalness_ ([arXiv:2001.10988](https://arxiv.org/abs/2001.10988))
 
+* {#Mooij-Shaposhnikov} [[Sander Mooij]], [[Mikhail Shaposhnikov]], _QFT without infinities and hierarchy problem_ &lbrack;[arXiv:2110.05175](https://arxiv.org/abs/2110.05175)&rbrack;
 
+  > The aim of this work has been to stress that there is no physical sense in the [[naturalness]] criterion.
 
 See also
 
