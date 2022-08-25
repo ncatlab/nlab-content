@@ -357,7 +357,7 @@ The concept is due to
 
 Introduction is in
 
-* M. Ern&#233;, E. Klossoswki, A. Melton, G. E. Strecker, _A primer in Galois connections_ , Annals New York Academy of Sciences **704** (1993) pp.103-125. ([draft](http://www.math.ksu.edu/~strecker/primer.ps))
+* M. Ern&#233;, E. Koslowski, A. Melton, G. E. Strecker, _A primer in Galois connections_ , Annals New York Academy of Sciences **704** (1993) pp.103-125. ([draft](http://www.math.ksu.edu/~strecker/primer.ps))
 
 See also
 
