@@ -88,7 +88,7 @@ The concept is due to
 
 Review includes
 
-* [[Tom Goodwillie]], section 3 of _The differential calculus of homotopy functors_ ([pdf](http://math.mit.edu/~nrozen/juvitop/goodwillie-icm.pdf))
+* [[Tom Goodwillie]], section 3 of _The differential calculus of homotopy functors_, Proceedings of the International Congress of Mathematicians in Kyoto 1990, Vol. I, Math. Soc. Japan, 1991, pp. 621–6 ([article pdf](https://math.mit.edu/juvitop/old/notes/2009_Fall/goodwillie-icm.pdf), [full proceedings Vol I pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1990.2/ICM1990.2.ocr.pdf), [[GoodwillieICM1990.pdf:file]])
 
 * {#Johnson95} Brenda Johnson, _The derivatives of homotopy theory_, Transactions of the AMS, Volume 347, 1995 ([pdf](http://www.ams.org/journals/tran/1995-347-04/S0002-9947-1995-1297532-6/S0002-9947-1995-1297532-6.pdf))
 
