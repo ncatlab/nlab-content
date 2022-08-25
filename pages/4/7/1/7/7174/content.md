@@ -52,8 +52,9 @@ Discussion of the [[dual graviton]] in terms of [[E11]] [[U-duality]]:
 
 * {#Wess11} [[Peter West]], section N (pp. 19) of _Generalised geometry, eleven dimensions and $E_{11}$_ ([arXiv:1111.1642](http://arxiv.org/abs/1111.1642))
 
-* Keith Glennon, [[Peter West]],
-_Gravity, Dual Gravity and $A_1^{+++}$_ ([arXiv:2004.03363](https://arxiv.org/abs/2004.03363))
+* Keith Glennon, [[Peter West]], _Gravity, Dual Gravity and $A_1^{+++}$_ ([arXiv:2004.03363](https://arxiv.org/abs/2004.03363))
+
+* Nicolas Boulanger, [[Paul P. Cook]], Josh A. O'Connor, [[Peter West]], *Higher dualisations of linearised gravity and the $A_1^{+++}$ algebra* &lbrack;[arXiv:2208.11501](https://arxiv.org/abs/2208.11501)&rbrack
 
 
 On basics of [[string theory]]:
