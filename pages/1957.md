@@ -69,7 +69,7 @@ $$   V^{\otimes p} \otimes V^{\otimes q} \to V^{\otimes (p+q)} $$
 
 This monoid object is called the [[tensor algebra]] of $V$.
 
-The [[symmetric group]] $S_n$ acts on $V^{\otimes n}$, and if $C$ is a [[linear category]] over a [[field]] of [[characteristic]] zero, then we can form the antisymmetrization map 
+The [[symmetric group]] $S_n$ acts on $V^{\otimes n}$, and if $C$ is a [[symmetric monoidal]] $\mathbb{K}$-[[linear category]] over a [[field]] $\mathbb{K}$ of [[characteristic]] zero, then we can form the antisymmetrization map 
 
 $$  p_A : V^{\otimes n} \to V^{\otimes n} $$
 
