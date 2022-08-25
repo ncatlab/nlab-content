@@ -17,4 +17,6 @@ A kind of [[linear logic]] in which the [[exponential modality]] is indexed by, 
 
 * Ugo Dal Lago, [[Martin Hofmann]], _Bounded Linear Logic, Revisited_, Logical Methods in Computer Science, Volume 6, Issue 4 (December 18, 2010) lmcs:1064 ([arXiv:0904.2675](https://arxiv.org/abs/0904.2675))
 
+* _Bounded Linear Logic Workshop_, Fontainebleau, 2-4 December 2013, ([webpage](https://www.cs.bham.ac.uk/~drg/bll.html))
+
 [[!redirects bounded linear logics]]
