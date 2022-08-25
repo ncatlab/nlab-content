@@ -44,7 +44,9 @@ In the context of [[M-theory on G2-manifolds]] (the [[G2-MSSM]]) a generic solut
 
 * Seth Koren, _The Hierarchy Problem: From the Fundamentals to the Frontiers_ ([arXiv:2009.11870](https://arxiv.org/abs/2009.11870))
 
-* {#Mooij-Shaposhnikov} Sander Mooij, Mikhail Shaposhnikov, _QFT without infinities and hierarchy problem_ ([arXiv:2110.05175](https://arxiv.org/abs/2110.05175))
+* {#Mooij-Shaposhnikov} [[Sander Mooij]], [[Mikhail Shaposhnikov]], _QFT without infinities and hierarchy problem_ &lbrack;[arXiv:2110.05175](https://arxiv.org/abs/2110.05175)&rbrack;
+
+  > The aim of this work has been to stress that there is no physical sense in the [[naturalness]] criterion.
 
 In the context of [[M-theory on G2-manifolds]]/[[G2-MSSM]] a solution is proposed in 
 
