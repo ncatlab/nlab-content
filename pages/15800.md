@@ -179,11 +179,11 @@ and of the resulting [[phenomenology]] of baryon number non-conservation is in
 
 * {#Dine90} [[Michael Dine]], _Baryon number violation at high-energy in the standard model: Fact or fiction?_ Sep 1990, ([spire](https://inspirehep.net/record/299206?ln=de), [pdf](http://www.slac.stanford.edu/cgi-wrap/getdoc/ssi90-020.pdf))
 
-Review includes 
+Review:
 
 * Heidi Kuismanen, section 2 of _Leptogenesis as the origin of matter-antimatter asymmetry in extra dimensionaL and supersymmetric modeLs_ ([[KuismanenBaryogenesis.pdf:file]])
 
-* V.A. Rubakov, [[Mikhail Shaposhnikov]], _Electroweak Baryon Number Non-Conservation in the Early Universe and in High Energy Collisions_, Usp.Fiz.Nauk 166:493-537,1996; Phys.Usp.39:461-502,1996 ([arXiv:hep-ph/9603208](https://arxiv.org/abs/hep-ph/9603208))
+* V. A. Rubakov, [[Mikhail Shaposhnikov]], *Electroweak Baryon Number Non-Conservation in the Early Universe and in High Energy Collisions*, Usp. Fiz. Nauk **166** (1996) 493-537 Phys. Usp. 39  (1996) 461-502 7lbrack;[arXiv:hep-ph/9603208](https://arxiv.org/abs/hep-ph/9603208)&rbrack;
 
 * Antonio Riotto, Mark Trodden, _Recent Progress in Baryogenesis_, Ann.Rev.Nucl.Part.Sci.49:35-75,1999 ([arXiv:hep-ph/9901362](http://arxiv.org/abs/hep-ph/9901362))
 
