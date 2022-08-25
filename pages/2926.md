@@ -101,7 +101,7 @@ Now $d h : T X \to T G$ is no longer (necessarily) the identity map as $g$ was w
 
 The Maurer-Cartan form crucially appears in the formula for the gauge transformation of [[Lie-algebra valued 1-form]]s.
 
-For $u : \mathbb{R} \to G$ a smooth function and $A \in \Omega^1(\mathbb{R}, \mathfrak{g})$ a Lie-algebra valued form, the condition that $u$ is _flat_ with respect to $u$ is that it satisfies the [[differential equation]]
+For $u : \mathbb{R} \to G$ a smooth function and $A \in \Omega^1(\mathbb{R}, \mathfrak{g})$ a Lie-algebra valued form, the condition that $u$ is _flat_ with respect to $A$ is that it satisfies the [[differential equation]]
 
 $$
   d u = -(R_u)_* \circ A
