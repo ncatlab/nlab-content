@@ -252,20 +252,6 @@ $$
 
 The pattern of this proof has the advantage that it goes through in great generality also on [[higher category theory]] without reference to a higher notion of enriched category theory.
 
-
-
-+-- {: .num_defn}
-###### Definition
-
-An object $X$ or $A$ is **Isbell-self-dual** if 
-
-* $A \stackrel{}{\to} \mathcal{O} Spec(A)$ is an [[isomorphism]] in $[C,\mathcal{V}]$;
-
-* $X \to Spec \mathcal{O} X$ is an [[isomorphism]] in $[C^{op}, \mathcal{V}]$, respectively.
-
-
-=--
-
 +-- {: .num_remark}
 ###### Remark
 
@@ -366,6 +352,18 @@ $$
 
 ### Isbell self-dual objects
 
++-- {: .num_defn}
+###### Definition
+
+An object $X$ or $A$ is **Isbell-self-dual** if 
+
+* $A \stackrel{}{\to} \mathcal{O} Spec(A)$ is an [[isomorphism]] in $[C,\mathcal{V}]$;
+
+* $X \to Spec \mathcal{O} X$ is an [[isomorphism]] in $[C^{op}, \mathcal{V}]$, respectively.
+
+
+=--
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -407,8 +405,6 @@ where the second step is the [[Yoneda lemma]]. Similarly the other way round.
 ### Isbell envelope
 
 See [[Isbell envelope]].
-
-
 
 
 ## Examples and similar dualities
