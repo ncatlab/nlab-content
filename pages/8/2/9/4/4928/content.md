@@ -68,9 +68,19 @@ What do you think? As I suggested please do get onto the n-forum if you have the
 
 * [[higher dimensional transition system]];
 
-*  [[cubical set]].
+* [[cubical set]].
 
-##References##
+## Related entries
+
+* [[transition system]]
+
+* [[bisimulation]]
+
+## References 
+
+
+* [[Mogens Nielsen]], [[Glynn Winskel]]: *Models for concurrency*, in: *Handbook of Logic in Computer Science* vol 4, Oxford Univ. Press (1994) 1-148 &lbrack;[pdf](https://www.cl.cam.ac.uk/~gw104/winskel-nielsen-models-for-concurrency.pdf), [[WinskelNielsen-Concurrency.pdf:file]], [doi:10.5555/218623.218630](https://dl.acm.org/doi/10.5555/218623.218630), [ISBN:9780198537809](https://global.oup.com/academic/product/handbook-of-logic-in-computer-science-9780198537809?lang=en&cc=at)&rbrack;
+
 
  * [[Lisbeth Fajstrup]], [[Eric Goubault]], [[Emmanuel Haucourt]], [[Samuel Mimram]], [[Martin Raussen]], [[Directed Algebraic Topology and Concurrency]],Springer International Publishing 2016 (xi+167 pages)
 
