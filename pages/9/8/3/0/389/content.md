@@ -20,7 +20,7 @@
 
 ## Definition
 
-There is an [[orthogonal factorization system]] on the category [[Cat]], whose left class is the class of [[bo functor|bijective-on-objects functors]], or "bo functors" and whose right class is the class of [[full and faithful functor|full and faithful functors]], or "ff functors".
+There is an [[orthogonal factorization system]] on the category [[StrCat]], whose left class is the class of [[bo functor|bijective-on-objects functors]], or "bo functors" and whose right class is the class of [[full and faithful functor|full and faithful functors]], or "ff functors".
 
 This means that each functor $f$ decomposes as a composition of the form $j e$, where $e$ is bijective on objects and $j$ fully faithful; and if 
 
