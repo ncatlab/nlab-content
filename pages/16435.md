@@ -1,5 +1,5 @@
 
-> This page is about S. Frolov working in [[high energy physics]]/[[string theory]]. There is also *[[Sergey M. Frolov]]* working on [[condensed matter theory]]/[[anyons]].
+> This page is about S. Frolov working in [[high energy physics]]/[[string theory]]. There is also *[[Sergey M. Frolov]]* working on [[condensed matter theory]]/[[Majorana zero modes]].
 
 
 ***
