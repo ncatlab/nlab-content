@@ -51,7 +51,7 @@ In applications, such co-occuring pairs of negation operators $\neg$ and $\sim$ 
 
 * Suppose the element $a$ of a co-Heyting algebra has a [[complement]] $x$ i.e. $a\vee x = 1$ and $a\wedge x = 0$, then the complement $x$ coincides with $\sim a$. Because from $a\vee x=1$ follows $\sim a\leq x$ since $\sim a$ is the least element with this property; conversely, $\sim a=\sim a\vee (a\wedge x)=(\sim a\vee a)\wedge (\sim a\vee x)=\sim a\vee x$ whence $x\leq \sim a$. {#co-Heyting_complement}
 
-* A complemented element is obviously regular. Conversely, a regular element $a$ is complemented since $0=\sim 1=\sim (a\vee\sim a)=(\sim a )\wedge (\sim\sim a)=\sim a\wedge a$.
+* A complemented element is obviously regular. The converse is not true. Complemented elements and regular elements of a co-Heyting algebra both form Boolean algebras, but in general regular elements do not inherit the meet operation while complemented elements do. See [[Heyting algebra#ToBooleanAlgebras|relations between Heyting and Boolean algebras]].
 
 * In a bi-Heyting algebra: $\neg a=\neg a\wedge 1=\neg a\wedge (a\vee\sim a)=(\neg a\wedge a)\vee (\neg a\wedge \sim a)= 0\vee (\neg a\wedge\sim a)=\neg a\wedge\sim a$ hence $\neg a\leq\sim a$ and we see that $\neg$ is more strongly negative than $\sim$.
 
