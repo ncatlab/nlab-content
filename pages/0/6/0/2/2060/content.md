@@ -178,6 +178,13 @@ $$
 (See remark 3.2.5.5 of [[Higher Topos Theory|HTT]]).
 
 
+## Related concepts
+
+* [[universal Kan fibration]]
+
+* [[fibration of (∞,1)-categories]]
+
+
 ## References
 
 Textbook accounts:
