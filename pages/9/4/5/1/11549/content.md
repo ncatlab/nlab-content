@@ -1,6 +1,8 @@
 # Giraud's subcategories and Gabriel-Popescu theorem
 
-The __Gabriel-Popescu theorem__, also quoted as Popesco-Gabriel theorem because of that spelling in the original published paper (cf. the spelling in that order, which is sometimes considered wrong when in the order of the authors!) asserts that every [[Grothendieck category]] can be represented as a reflective subcategory of a category ${}_R Mod$ of modules over a unital ring, where the localization functor is exact (one calls such subcategories of module categories Giraud subcategories).
+The __Gabriel-Popescu theorem__, also quoted as Popesco-Gabriel theorem because of that spelling in the original published paper (cf. the spelling in that order, which is sometimes considered wrong when in the order of the authors!) asserts that every [[Grothendieck category]] can be represented as a reflective subcategory of a category ${}_R Mod$ of modules over a unital ring, where the localization functor is exact (one calls such subcategories of module categories Giraud subcategories). The right adjoint (reflection) is in this setup sometimes called the section functor. 
+
+# Literature
 
 * [[Nicolae Popescu|Nicolae Popesco]], [[Pierre Gabriel]], _Caract&#233;risation des cat&#233;gories ab&#233;liennes avec g&#233;n&#233;rateurs et limites inductives exactes_, Les Comptes rendus de l'Acad&#233;mie des sciences Paris __258__: 4188&#8211;4190 [MR 0166241](http://www.ams.org/mathscinet-getitem?mr=0166241)
 * wikipedia [Gabriel-Popesco theorem](http://en.wikipedia.org/wiki/Gabriel%E2%80%93Popesco_theorem)
@@ -18,3 +20,5 @@ N. Kuhn had related results in the study of [[Steenrod algebra]], cf. also
 
 [[!redirects Popesco-Gabriel theorem]]
 [[!redirects Gabriel-Popescu theorem]]
+[[!redirects Giraud subcategory]]
+[[!redirects Giraud subcategories]]
