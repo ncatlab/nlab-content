@@ -22,7 +22,9 @@
 
 ### General
 
-_Quantum computation_ is [[computation]] in terms of [[quantum information theory]], possibly implemented on _quantum computers_, hence on [[physical systems]] for which phenomena of [[quantum mechanics]] are not negligible. In terms of [[computational trinitarianism]] quantum computation is the computation corresponding to (some kind of) [[quantum logic]].
+_Quantum computation_ is [[computation]] in terms of [[quantum information theory]], possibly implemented on _quantum computers_, hence on [[physical systems]] for which phenomena of [[quantum mechanics]] are not negligible. In terms of the [[computational trilogy]], quantum computation is the computation corresponding to (some kind of) [[quantum logic]]/[[linear type theory]].
+
+Usually [[quantum gates]] are understood/required to implement [[unitary operators]] on a given [[Hilbert space]] [[space of quantum states|of quantum states]], which implies that quantum comptuation is a form of [[reversible computation]]. This implies its susceptibility to noise and the practical need for [[quantum error correction]] and/or [[topological quantum computation|topological quantum stabilization]].
 
 Specifically, _[[topological quantum computation]]_ is (or is meant to be) quantum computation implemented on [[physical systems]] governed by [[topological quantum field theory]], such as [[Chern-Simons theory]]. A prominent example of this is the (fractional) [[quantum Hall effect]] in [[solid state physics]].
 
