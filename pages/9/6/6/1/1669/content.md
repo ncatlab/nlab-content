@@ -43,15 +43,6 @@ It is widely said that 'or' in English can mean either inclusive or exclusive di
 
 For the literature on this subject, see [the Stanford Encylopedia entry](http://plato.stanford.edu/entries/disjunction/#NatLan) and The Myth of the Exclusive 'Or' (*Mind*, 80 (317), 116--121).
 
-+-- {: .query}
-What about the 'or' of parental threat? Consider the logician parent who says "Come here or I'll smack you" to his child and smacks even after obedience as they believe in the inclusive 'or'. -David
-
-That\'s no different from 'If you don\'t come here, then I\'ll smack you.', which also suggests (but does not state) the converse.  And in fact, no parent, logician or otherwise, is actually making the promise implied by the $\neg(p \wedge q)$ clause; if the child comes to such a parent and then kicks the parent in the shin, then the parent will still smack the child.  Instead, if you *want* to make that promise, then you say 'If you come here, then I won\'t smack you.' explicitly.  This has a very different tenor (unless you say it in a wink-nudge mafia kind of way), as it\'s a promise rather than a threat.  (I know, it\'s *only* a promise, which is still different in tenor than a statement that is *both* promise and threat, as an exclusive disjunction would be.  But I still hold that your statement is *only* a threat.)  Note that a logician child who believes the parent\'s literal expression would still choose to come if avoiding smacking is the highest priority; but the reason is that refusal guarantees a smack, not that obedience necessarily avoids it.  That is why the wise child also throws in a contrite expression and an oral apology, to improve the odds.  ---Toby
-
-I see there's a literature on the [subject](http://plato.stanford.edu/entries/disjunction/#NatLan) including "The Myth of the Exclusive 'Or'" (Mind, 80 (317), 116&#8211;121). ---David
-
-Also:  I argued above that the meaning of 'Come here or I\'ll smack you' must be weaker than exclusive disjunction, since the parent will smack the child anyway under some circumstances.  However, I agree that it is stronger than inclusive disjunction, but that is because we may go beyond the literal meaning of the words and apply a Gricean [implicature](http://plato.stanford.edu/entries/implicature/).  To be specific, if the parent intends to smack the child regardless, then the parent should say 'I\'ll smack you' by the Maxim of Quantity, but the parent in fact said something more wordy.  Thus we conclude that the parent does not intend to smack the child if the child comes, without ruling out the possibility that the parent will still smack the child for some other reason, as yet unanticipated.  ---Toby
-=--
 
 
 [[!redirects exclusive disjunction]]
