@@ -367,7 +367,7 @@ The relevance of String structures (like that of Spin structures half a century 
 
 The article
 
-* TP Killingback, _World-sheet anomalies and loop geometry_ Nuclear Physics B Volume 288, 1987, Pages 578-588 [doi:10.1016/0550-3213(87)90229-X](https://doi.org/10.1016/0550-3213%2887%2990229-X)
+* [[Timothy Killingback|T.P. Killingback]], _World-sheet anomalies and loop geometry_ Nuclear Physics B Volume 288, 1987, Pages 578-588 [doi:10.1016/0550-3213(87)90229-X](https://doi.org/10.1016/0550-3213%2887%2990229-X)
 
 was (it seems) the first to derive the Green-Schwarz anomaly cancellation condition of the effective background theory as the [[quantum anomaly]] cancellation condition for the worldsheet theory of the heterotic string's [[sigma-model]] by direct generalization of the way the condition of a [[spin structure]] may be deduced from anomaly cancellation for the superparticle.
 
@@ -387,7 +387,7 @@ The relation between the two pictures is analyzed for instance in
 
 * A. Asada, _Characteristic classes of loop group bundles and generalized string classes_ , Differential geometry and its applications (Eger, 1989), 33--66, Colloq. Math. Soc. J&#225;nos Bolyai, 56, North-Holland, Amsterdam, 1992. ([[Asada.pdf:file]])
 
-A precise formulation of Killingbacks original argument in [[differential K-theory]] appeared in 
+A precise formulation of Killingback's original argument in [[differential K-theory]] appeared in 
 
 * [[Ulrich Bunke]], _String structures and trivialisations of a Pfaffian line bundle_, Commun. Math. Phys. (2011) 307: 675 ([arXiv:0909.0846](http://arxiv.org/abs/0909.0846), [doi:10.1007/s00220-011-1348-0](https://doi.org/10.1007/s00220-011-1348-0))
 
