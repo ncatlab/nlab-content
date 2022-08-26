@@ -118,7 +118,7 @@ One expects that in this way, the $(n+1)$-category of fibered $n$-categories ove
 
 * [[fibration in a 2-category]]
 
-* A notion of fibration of [[(∞,1)-category|(∞,1)-categories]] exists in terms of [[Cartesian fibration]]s of [[simplicial set]]s. (See also [[left fibration]], and [[right fibration]] .)
+* A notion of fibration of [[(∞,1)-category|(∞,1)-categories]] exists in terms of [[Cartesian fibrations]] of [[simplicial sets]]. (See also *[[fibration of quasi-categories]]*, *[[left fibration]]*, and *[[right fibration]]*.)
 
 
 ## References 
