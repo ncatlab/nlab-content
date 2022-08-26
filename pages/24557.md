@@ -64,9 +64,10 @@ Discussion in view of quantum computation:
 
 * {#NielsenChuang00} [[Michael A. Nielsen]], [[Isaac L. Chuang]], §1.4.1 and §3.2.5 in: *Quantum computation and quantum information*, Cambridge University Press (2000) $[$[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]$]$
 
-* {#Frank03} [[Michael P. Frank]], *Reversible Computing -- Quantum Computing’s Practical Cousin*, Simons Conference Lecture, Stony Brook (2003) &lbrack;[pdf](http://insti.physics.sunysb.edu/conf/simons-qcomputation/talks/frank.pdf)&rbrack;
+* {#Frank03} [[Michael P. Frank]], *Reversible Computing -- Quantum Computing’s Practical Cousin*, Simons Conference Lecture, Stony Brook (2003) &lbrack;[pdf](http://insti.physics.sunysb.edu/conf/simons-qcomputation/talks/frank.pdf), [[Frank-ReversibleComputing.pdf:file]]&rbrack;
 
 * [[Michael P. Frank]], Karpur Shukla, *Quantum Foundations of Classical Reversible Computing*, Entropy **23** 6 (2021) 701  &lbrack;[arXiv:2105.00065](https://arxiv.org/abs/2105.00065), [doi:10.3390/e23060701](https://doi.org/10.3390/e23060701)&rbrack;
+
 
 [[!redirects reversible computations]]
 
