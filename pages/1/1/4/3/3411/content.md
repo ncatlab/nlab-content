@@ -116,10 +116,12 @@ For instance ([JoyalMoerdijk, section 1](#JoyalMoerdijk)).
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_, volume II, Oxford University Press 2002. (Section C1.5, pp.520-522)
 
-* [[André Joyal]], [[Ieke Moerdijk]], _A completeness theorem for open maps_, Annals of Pure and Applied Logic __70__ no.1 (1994) pp.51-86. [MR95j:03104](http://www.ams.org/mathscinet-getitem?mr=1303663), <a href="http://dx.doi.org/10.1016/0168-0072(94)90069-8">doi</a> 
-{#JoyalMoerdijk}
+* {#JoyalMoerdijk} [[André Joyal]], [[Ieke Moerdijk]], _A completeness theorem for open maps_, Annals of Pure and Applied Logic __70__ no.1 (1994) pp.51-86. [MR95j:03104](http://www.ams.org/mathscinet-getitem?mr=1303663), <a href="http://dx.doi.org/10.1016/0168-0072(94)90069-8">doi</a> 
 
-An application:
 
-* [[André Joyal]], [[Mogens Nielsen]] and [[Glynn Winskel]], _Bisimulation from open maps_, BRICS report series RS-94-7 (1994) ([abstract page](http://ojs.statsbiblioteket.dk/index.php/brics/article/view/21663), [pdf](http://www.brics.dk/RS/94/7/BRICS-RS-94-7.pdf)).
+Application to [[transition systems]] and [[bisimulations]]
+
+* {#JoyalNielsenWisnkel94} [[André Joyal]], [[Mogens Nielsen]], [[Glynn Winskel]]: *Bisimulation from open maps*, BRICS report series RS-94-7 (1994) &lbrack;[doi:10.7146/brics.v1i7.21663](https://doi.org/10.7146/brics.v1i7.21663), [pdf](http://www.brics.dk/RS/94/7/BRICS-RS-94-7.pdf)&rbrack;, Information and Computation **127** 2 (1996) 164-185 &lbrack;[doi:10.1006/inco.1996.0057](https://doi.org/10.1006/inco.1996.0057)&rbrack;
+
+[[!redirects open morphisms]]
 
