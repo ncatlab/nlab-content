@@ -1,5 +1,51 @@
 
-FC-ee
+$$
+  \array{
+    P
+    &\xrightarrow{\;\;\;}&
+    Set^{\ast/}
+    \\
+    \Bigg\downarrow
+    &{}^{{}_{(pb)}}&
+    \Bigg\downarrow
+    \\
+    \mathbf{B}
+    FM
+    \Big(
+      \big\{
+        NOT
+      \big\}
+    \Big)
+    &\xrightarrow{}&
+    Set 
+    \\
+    \ast
+    &\mapsto&
+    \{0,1\}
+    \\
+    \mathllap{{}^{NOT}}
+    \Big\downarrow
+    &&
+    \Big\downarrow
+    \mathrlap{{}^{
+      \left[
+        \array{
+           0 &\mapsto& 1
+           \\
+           1 &\mapsto& 0
+        }
+      \right]
+    }}
+    \\
+    \ast
+    &\mapsto&
+    \{0,1\}
+  }
+$$
+
+\linebreak
+
+\linebreak
 
 Original articles:
 
