@@ -14,8 +14,6 @@
 =--
 
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -62,6 +60,21 @@
 * Ángel Murcia, C. S. Shahbazi, _Contact metric three manifolds and Lorentzian geometry with torsion in six-dimensional supergravity_ ([arXiv:1912.08723](https://arxiv.org/abs/1912.08723))
 
 * Edoardo Lauria, [[Antoine Van Proeyen]], _$\mathcal{N}=2$ Supergravity in $D=4,5,6$ Dimensions_ ([arXiv:2004.11433](https://arxiv.org/abs/2004.11433))
+
+For "exotic" $\mathcal{N} = (4,0)$-supersymmetry:
+
+* [[Chris Hull]], *Strongly Coupled Gravity and Duality*, Nucl.Phys. B **583** (2000) 237-259 &lbrack;[arXiv:hep-th/0004195](https://arxiv.org/abs/hep-th/0004195), <a href="https://doi.org/10.1016/S0550-3213(00)00323-0">doi:10.1016/S0550-3213(00)00323-0</a>&rbrack;
+
+
+* [[Chris Hull]], *Symmetries and Compactifications of $(4,0)$ Conformal Gravity*, JHEP 0012: 007 (2000) &lbrack;[arXiv:hep-th/0011215](https://arxiv.org/abs/hep-th/0011215), [doi:10.1088/1126-6708/2000/12/007](https://doi.org/10.1088/1126-6708/2000/12/007)&rbrack;
+
+
+* [[Yannick Bertrand]], [[Stefan Hohenegger]], [[Olaf Hohm]], [[Henning Samtleben]], *Toward Exotic 6D Supergravities*, Phys. Rev. D **103** (2021) 046002 &lbrack;[arXiv:2007.11644](https://arxiv.org/abs/2007.11644), [doi:10.1103/PhysRevD.103.046002](https://doi.org/10.1103/PhysRevD.103.046002)&rbrack; 
+
+
+* [[Yannick Bertrand]], [[Stefan Hohenegger]], [[Olaf Hohm]], [[Henning Samtleben]], *Supersymmetric action for 6D $(4,0)$ supergravity*, JHEP (2022) &lbrack;[arXiv:2206.04100](https://arxiv.org/abs/2206.04100)&rbrack;
+
+
 
 ### Killing spinors
 
