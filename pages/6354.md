@@ -101,6 +101,14 @@ On the [[M-wave]]:
 
 * {#Hull84} [[Chris Hull]], _Exact pp wave solutions of eleven-dimensional supergravity_, Phys. Lett. B 139 (1984) 39 ([spire](http://inspirehep.net/record/14499?ln=en))
 
+On [[D=6 supergravity]] with [[number of supersymmetries|$\mathcal{N} = (4,0)$]]:
+
+* [[Chris Hull]], *Strongly Coupled Gravity and Duality*, Nucl.Phys. B **583** (2000) 237-259 &lbrack;[arXiv:hep-th/0004195](https://arxiv.org/abs/hep-th/0004195), <a href="https://doi.org/10.1016/S0550-3213(00)00323-0">doi:10.1016/S0550-3213(00)00323-0</a>&rbrack;
+
+* [[Chris Hull]], *Symmetries and Compactifications of $(4,0)$ Conformal Gravity*, JHEP 0012: 007 (2000) &lbrack;[arXiv:hep-th/0011215](https://arxiv.org/abs/hep-th/0011215), [doi:10.1088/1126-6708/2000/12/007](https://doi.org/10.1088/1126-6708/2000/12/007)&rbrack;
+
+
+
 
 ## Related $n$Lab entries
 
