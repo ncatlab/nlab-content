@@ -41,6 +41,7 @@ Review:
 
 * [[Muhammad Ilyas]], *Quantum Field Theories, Topological Materials, and Topological Quantum Computing* $[$[arXiv:2208.09707](https://arxiv.org/abs/2208.09707)$]$
 
+* [[Eric C. Rowell]], *Braids, Motions and Topological Quantum Computing* &lbrack;[arXiv:2208.11762](https://arxiv.org/abs/2208.11762)&rbrack;
 
 
 Focus on **[[abelian anyons]]**:
