@@ -25,11 +25,11 @@ There is an [[orthogonal factorization system]] on the category [[StrCat]], whos
 This means that each functor $f$ decomposes as a composition of the form $j e$, where $e$ is bijective on objects and $j$ fully faithful; and if 
 
 $$\array{
-A &\stackrel{u}\longrightarrow& C
+A &\overset{u}{\longrightarrow}& C
 \\
-e\downarrow &&\downarrow j
+\mathllap{{}^{e}}\big\downarrow &&\big\downarrow \mathrlap{{}^{j}}
 \\
-B &\stackrel{v}\longrightarrow& D
+B &\underset{v}\longrightarrow& D
 }$$
 
 is a commutative diagram with $e$ bijective on objects and $j$ fully faithful, then there is a unique functor $h \colon B\to C$ such that $h e = u$ and $j h = v$. The object through which $f$ factors is called the [[full image]] of $f$.
