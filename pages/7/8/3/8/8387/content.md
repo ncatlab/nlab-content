@@ -45,6 +45,8 @@ A [[program]]. A construction of a [[term]] of some [[type]]. The topic of [[com
 
 * [[programming language]]
 
+* [[reversible computation]]
+
 * [[quantum computation]], [[computable physics]]
 
 * [[hypercomputation]]
@@ -59,4 +61,5 @@ A [[program]]. A construction of a [[term]] of some [[type]]. The topic of [[com
 
 [[!redirects computing]]
 
-
+[[!redirects computer]]
+[[!redirects classical computer]]
