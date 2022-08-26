@@ -83,7 +83,11 @@ The rules above are written so as to remain valid in logics without the [[exchan
 
 
 [[!redirects and]]
+[[!redirects AND]]
 [[!redirects logical conjunction]]
 [[!redirects logical conjunctions]]
 [[!redirects additive conjunction]]
 [[!redirects additive conjunctions]]
+
+
+
