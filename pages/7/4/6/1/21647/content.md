@@ -80,6 +80,7 @@ Conferences and proceedings:
 
 * {#JSSW18} [[Branislav Jurčo]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]], _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html)_, LMS EPSRC Durham Symposium 2018
 
+* *[Higher Structures and Field Theory](https://www.esi.ac.at/events/e430/)* ESI, Vienna (2022)
 
 Journals:
 
