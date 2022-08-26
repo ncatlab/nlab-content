@@ -89,21 +89,19 @@ Instead, what does break the principle of equivalence is to say that certain [[c
 
 #### Identity-on-objects functors
 
+The concept of an [[identity-on-objects functor]] appears in category theory as well, particularly when defining [[Freyd categories]] and [[dagger categories]]. The traditional definition goes as follows:
+
 \begin{definition}
 An **identity-on-objects [[functor]]** $F: A\to B$ between [[categories]] $A$ and $B$ is a functor between categories with the same collection of [[objects]], and has as its underlying object function $F_{ob}$ the [[identity function]] on the collection of objects. 
 \end{definition}
 
-The problem with the definition is that it is unclear how to define two categories with the same collection of objects. There are a number of different ways to define two categories with the same collection of objects:
+However, in [[material set theories]] or material class theories, "having the same collection of objects" is sometimes defined as $Ob = ob(A) = ob(B)$. This definition involves equality of sets, which violates the principle of equality. 
 
-In set theory, the objects of a category are required to be a set. In [[material set theories]], one could postulate the condition that $Ob = ob(A) = ob(B)$. However, it mentions equality of sets, which means that the definition is not even definable in a [[structural set theory]] such as [[SEAR]] or [[ETCS with elements]], where there is no notion of equality of sets, only equality of [[functions]], [[relations]], and [[elements]]. In structural set theories, instead of talking about equality of sets, one talks about having [[bijection]] between sets $a:Ob \cong ob(A)$, $b:Ob \cong ob(B)$, and $F_{ob}:ob(A) \cong ob(B)$. This yields a [[bijective-on-objects functor]]. 
+Instead, what category theorists usually mean by two categories having the same objects is actually having a single $(Set \times Set)$-[[enriched category]], where morphisms are in families of sets of pairs $(f,g):A(x,y) \times B(x,y))$ for objects $x$ and $y$, and composition is composition of pairs of morphisms $(h,k)\circ(f,g) = (h \circ f,k \circ g)$ for $f:A(x,y)$, $g:B(x,y)$, $h:A(y,z)$, and $k:B(y,z)$. 
 
-In type theories, the objects of a category do not form a set, but a type. The categories whose type of objects is a set is a strict category, and as a result, the above definitions are only valid for [[strict categories]]. However, there is a generalization of both material set theory equality of sets and structural set theory bijection of sets to type theory: identity types and equivalence of types. 
+Another problem occurs in [[set theories]] with certain [[concrete categories]] like [[Rel]], [[Hilb]], and the [[permutation category]] $\mathbb{P}$: the objects of the categories are sets, and so saying that the underlying function $F_ob$ on the objects is the identity function violates the principle of equality, because by definition $F_ob(x) = x$ for all objects $x$, and because objects are sets, one is talking about equality of sets. 
 
-For identity types, one postulates the existence of [[identifications]] $a:Ob =_\mathcal{U} ob(A)$ and $b:Ob =_\mathcal{U} ob(B)$, resulting in an identification $a^{-1} b: ob(A) =_\mathcal{U} ob(B)$. This is what is called an **identity-on-objects functor** in type theory. For equivalences, one postulates the existence of [[equivalence in homotopy type theory|equivalence]] $a:Ob \simeq_\mathcal{U} ob(A)$ and $b:Ob \simeq_\mathcal{U} ob(B)$, and $F_{ob}:ob(A) \simeq_\mathcal{U} ob(B)$. This yields an [[equivalent-on-objects functor]]. If the background universe $\mathcal{U}$ is an [[univalent universe]], then equivalent-on-objects functors and identity-on-objects functors are equivalent to each other. If the categories are strict, then both equivalent-on-objects functors and identity-on-objects functors are equivalent to bijective-on-objects functors. 
-
-However, in general categories, all these definitions still nevertheless violate the [[principle of equivalence]]. What one actually needs are [[essentially surjective functors]]. Only in [[univalent categories]] are essentially surjective functors the same as equivalent-on-object functors, and additionally only when both the source and target univalent categories are in a [[univalent universe]] are essentially surjective functors between univalent categories identity-on-object functors. 
-
-One could thus equally argue that due to the above result, the correct notion of universe which satisfies the principle of equivalence is a [[univalent universe]] and the correct notion of a category which satisfies the principle of equivalence is a [[univalent category]]. But then this lies bare the result that [[dagger categories]] are not [[univalent categories]], and that identity-on-objects for dagger categories behave differently from identity-on-objects for categories. 
+Instead, when category theorists are talking about two categories with the same collection of objects and and identity-on-objects functor, what they really are talking about is an $Set^I$-enriched category, where $Set^I$ is the [[arrow category]] of $Set$. 
 
 #### In the concept of $\dagger$-categories
   {#daggers}
