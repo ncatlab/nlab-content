@@ -353,9 +353,15 @@ But see
 for a possible solution by strong [[interaction]] between the Higgs field and the [[inflaton]].
 
 
-The interpretation in terms of [[asymptotic safety]] is discussed in
+An interpretation in terms of [[asymptotic safety]]:
 
-* {#ShaposhnikovWetterich09} M. Shaposhnikov and C. Wetterich, _Asymptotic safety of gravity and the Higgs boson mass_, Phys. Lett. B 683 (2010) 196 ([arXiv:0912.0208](https://arxiv.org/abs/0912.0208))
+* {#ShaposhnikovWetterich09} [[Mikhail Shaposhnikov]], [[Christof Wetterich]], _Asymptotic safety of gravity and the Higgs boson mass_, Phys. Lett. B 683 (2010) 196 &lbrack;[arXiv:0912.0208](https://arxiv.org/abs/0912.0208)&rbrack;
+
+Proposals for further [[experiments]]:
+
+* Roberto Franceschini, [[Alessandro Strumia]], Andrea Wulzer, *The collider landscape: which collider for establishing the SM instability?*, Journal of High Energy Physics **2022** 229 (2022) &lbrack;[arXiv:2203.17197](https://arxiv.org/abs/2203.17197), <a href="https://doi.org/10.1007/JHEP08(2022)229">doi:10.1007/JHEP08(2022)229</a>&rbrack;
+
+
 
 ### Diphoton decay
 
