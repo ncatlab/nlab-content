@@ -367,18 +367,17 @@ The relevance of String structures (like that of Spin structures half a century 
 
 The article
 
-* Killingback, _World-sheet anomalies and loop geometry_ Nuclear Physics B Volume 288, 1987, Pages 578-588
+* TP Killingback, _World-sheet anomalies and loop geometry_ Nuclear Physics B Volume 288, 1987, Pages 578-588 [doi:10.1016/0550-3213(87)90229-X](https://doi.org/10.1016/0550-3213%2887%2990229-X)
 
 was (it seems) the first to derive the Green-Schwarz anomaly cancellation condition of the effective background theory as the [[quantum anomaly]] cancellation condition for the worldsheet theory of the heterotic string's [[sigma-model]] by direct generalization of the way the condition of a [[spin structure]] may be deduced from anomaly cancellation for the superparticle.
 
 String stuctures had at that time been discussed in terms of their transgressions to loop spaces
 
-* [[Edward Witten]], _The Index of the Dirac Operator in Loop Space_ Proc. of Conf. on Elliptic Curves and Modular Forms in Algebraic Topology, Princeton, N.J., Sep 1986.
-{#WittenIndexLoopSpace}
+* {#WittenIndexLoopSpace} [[Edward Witten]], _The Index of the Dirac Operator in Loop Space_, In: Landweber, P.S. (eds) Elliptic Curves and Modular Forms in Algebraic Topology (Princeton, N.J., Sep 1986). Lecture Notes in Mathematics **1326**  (1988) Springer, Berlin, Heidelberg. [doi:10.1007/BFb0078045](https://doi.org/10.1007/BFb0078045)
 
-* [[Edward Witten]], _Elliptic Genera and Quantum Field Theory_
-Commun.Math.Phys.109:525,1987
-{#WittenElliptic}
+
+* {#WittenElliptic} [[Edward Witten]], _Elliptic Genera and Quantum Field Theory_, Commun. Math. Phys. **109** (1987) 525–536 [doi:10.1007/BF01208956](https://doi.org/10.1007/BF01208956)
+
 
 later it was reformulated in terms of the classes down on base space just mentioned in
 
