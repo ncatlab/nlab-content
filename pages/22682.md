@@ -45,3 +45,6 @@ Introduction and review:
 
 * [[Colleen Delaney]], [[Eric C. Rowell]], [[Zhenghan Wang]], *Local unitary representations of the braid group and their applications to quantum computing*, Revista Colombiana de Matemáticas(2017), 50 (2):211 ([arXiv:1604.06429](https://arxiv.org/abs/1604.06429), [doi:10.15446/recolma.v50n2.62211](http://dx.doi.org/10.15446/recolma.v50n2.62211))
 
+* [[Eric C. Rowell]], *Braids, Motions and Topological Quantum Computing* &lbrack;[arXiv:2208.11762](https://arxiv.org/abs/2208.11762)&rbrack;
+
+
