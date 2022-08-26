@@ -66,6 +66,8 @@ With emphasis on precision [[QCD]]-predictions:
 
 * Thomas Gehrmann, Bogdan Malaescu, *Precision QCD Physics at the LHC* ([arXiv:2111.02319](https://arxiv.org/abs/2111.02319))
 
+* Francesco Giuli, *High-precision QCD physics at FCC-ee* &lbrack;[arXiv:2208.09621](https://arxiv.org/abs/2208.09621)&rbrack;
+
 
 [[!redirects precision experiments]]
 
