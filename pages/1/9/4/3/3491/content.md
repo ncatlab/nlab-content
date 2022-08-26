@@ -1,3 +1,4 @@
+[[!redirects fibrations of quasi-categories]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -439,18 +440,37 @@ $$
 
 
 
+## Related concepts
 
+* [[fibered category]]
+
+* [[n-fibration|$n$-fibration]]
+
+* [[universal fibration of (∞,1)-categories]]
 
 
 
 ## References
 
+* [[Jacob Lurie]], chapter 2 of:  _[[Higher Topos Theory]]_
 
-* [[Jacob Lurie]], chapter 2 of  _[[Higher Topos Theory]]_
 * {#AyalaFrancis} [[David Ayala]] and [[John Francis]], _Fibrations of ∞-categories_, ([arxiv:1702.02681](https://arxiv.org/abs/1702.02681))
-* [[Clark Barwick]], [[Jay Shah]], _Fibrations in ∞-category theory_, ([arXiv:1607.04343](https://arxiv.org/abs/1607.04343))
+
+* [[Clark Barwick]], [[Jay Shah]], _Fibrations in ∞-category theory_ ([arXiv:1607.04343](https://arxiv.org/abs/1607.04343))
+
+Discussion in [[homotopy type theory]]:
+
+* [[Ulrik Buchholtz]], [[Jonathan Weinberger]], *Synthetic fibered (∞,1)-category theory* &lbrack;[arXiv:2105.01724](https://arxiv.org/abs/2105.01724)&rbrack;
+
+[[!redirects fibered (infinity,1)-category]]
+[[!redirects fibered (infinity,1)-categories]]
+
+[[!redirects fibered (∞,1)-category]]
+[[!redirects fibered (∞,1)-categories]]
 
 
+
+[[!redirects fibration of quasi-categories]]
 
 
 [[!redirects fibration of quasi-categories]]
@@ -461,4 +481,5 @@ $$
 [[!redirects weak fibration]]
 [[!redirects weak fibrations]]
 
-[[!redirects fibration of quasi-categories]]
+
+
