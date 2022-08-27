@@ -3,6 +3,8 @@
 
 * [institute page](https://www.avcr.cz/en/about-us/cas-structure/council-for-sciences/list-of-members-of-council-for-sciences/prof-RNDr-Jiri-Wiedermann-DrSc/)
 
+* [list](https://webspace.science.uu.nl/~leeuw112/list-vLW.html) of joint writings with [[Jan van Leeuwen]]
+
 ## Selected writings
 
 On [[computation]]:
