@@ -38,6 +38,18 @@ In [[enriched homotopy theory]], the presentation is given by an [[enriched mode
 Maybe the most commonly encountered setup for homotopy limits is that where the [[(∞,1)-category]] in question is [[presentable (∞,1)-category|presented]] by a [[simplicial model category]]. See also [[homotopy Kan extension]], of which (globally defined) homotopy (co)limits are a special case.
 
 
+## Terminology
+
+In older literature, such as the original work of Bousfield–Kan \cite{BousfieldKan}, the homotopy limit of a diagram $X\colon I\to sSet$ is defined as the [[weighted limit]]
+$$hom(I/-, X),$$
+where the weight $I/-$ sends $i\mapsto N(I/i)$, the [[nerve]] of the [[comma category]] of $i$.
+
+Such a functor must be derived in order to get the correct (homotopy invariant) notion, which in this case amounts to replacing $X$ with an objectwise weakly equivalent diagram valued in [[Kan complexes]].
+
+At some point (when?) a shift in terminology happened,
+and in the modern parlance homotopy limits are commonly assumed to be derived.
+
+
 ## Definitions 
 
 As for ordinary [[limit]]s,
@@ -1053,7 +1065,7 @@ This appears as theorem 1.5 in
 
 Classical references:
 
-* [[Daniel M. Kan]] and [[Aldridge K. Bousfield]], Chapter IX in: *[[Homotopy Limits, Completions and Localizations]]*, Lecture Notes in Mathematics 304 (1972; 1987), Springer ([doi:10.1007/978-3-540-38117-4](https://link.springer.com/book/10.1007/978-3-540-38117-4))
+* {#BousfieldKan} [[Aldridge K. Bousfield]] and [[Daniel M. Kan]], Chapter IX in: *[[Homotopy Limits, Completions and Localizations]]*, Lecture Notes in Mathematics 304 (1972; 1987), Springer ([doi:10.1007/978-3-540-38117-4](https://link.springer.com/book/10.1007/978-3-540-38117-4))
 
 *  [[R. M. Vogt]], _Homotopy limits and colimits_, Math. Z., 134 (1973) 11-52.
 
