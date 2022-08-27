@@ -1,5 +1,4 @@
 
-
 ### Anyons in momentum-space
  {#ReferencesAnyonicBraidingInMomentumSpace}
 
@@ -19,6 +18,15 @@ On non-trivial [[braid group statistics|braiding]] of modal points in the [[Bril
 * [[Adrien Bouhon]], QuanSheng Wu, [[Robert-Jan Slager]], Hongming Weng, Oleg V. Yazyev, [[Tomáš Bzdušek]], *Non-Abelian reciprocal braiding of Weyl points and its manifestation in ZrTe*, Nature Physics **16** (2020)  1137--1143 ([arXiv:1907.10611](https://arxiv.org/abs/1907.10611), [doi:10.1038/s41567-020-0967-9](https://doi.org/10.1038/s41567-020-0967-9))
 
 > Here we report that Weyl points in three-dimensional (3D) systems with $\mathcal{C}_2\mathcal{T}$ symmetry carry non-Abelian topological charges. These charges are transformed via non-trivial phase factors that arise upon braiding the nodes inside the reciprocal momentum space. 
+
+* Bin Jiang, [[Adrien Bouhon]], Zhi-Kang Lin, Xiaoxi Zhou, Bo Hou, Feng Li, [[Robert-Jan Slager]], Jian-Hua Jiang *Observation of non-Abelian topological semimetals and their phase transitions*,  	Nature Physics **17** (2021) 1239-1246 &lbrack;[arXiv:2104.13397](https://arxiv.org/abs/2104.13397), [doi:10.1038/s41567-021-01340-x](https://doi.org/10.1038/s41567-021-01340-x)&rbrack;
+
+> Here, we consider an exotic type of topological phases beyond the above paradigms that, instead, depend on topological charge conversion processes when band nodes are braided with respect to each other in momentum space or recombined over the Brillouin zone. The braiding of band nodes is in some sense the reciprocal space analog of the non-Abelian braiding of particles in real space.
+
+> &lbrack;...&rbrack;
+
+> we experimentally observe non-Abelian topological semimetals and their evolutions using acoustic Bloch bands in kagome acoustic metamaterials. By tuning the geometry of the metamaterials, we experimentally confirm the creation, annihilation, moving, merging and splitting of the topological band nodes in multiple bandgaps and the associated non-Abelian topological phase transitions 
+
 
 * {#CBSM22} Siyu Chen, [[Adrien Bouhon]], [[Robert-Jan Slager]], [[Bartomeu Monserrat]], *Non-Abelian braiding of Weyl nodes via symmetry-constrained phase transitions* (formerly: *Manipulation and braiding of Weyl nodes using symmetry-constrained phase transitions*), Phys. Rev. B **105** (2022) L081117 $[$[arXiv:2108.10330](https://arxiv.org/abs/2108.10330), [doi:10.1103/PhysRevB.105.L081117](https://doi.org/10.1103/PhysRevB.105.L081117)$]$
 
