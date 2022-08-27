@@ -57,6 +57,8 @@ A [[program]]. A construction of a [[term]] of some [[type]]. The topic of [[com
 
 * [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
 
+\linebreak
+
 * {#vanLeeuwenWiedermann17} [[Jan van Leeuwen]], [[Jiří Wiedermann]]: *Knowledge, Representation and the Dynamics of Computation*, pp. 69-89 in: *Representation and Reality in Humans, Other Living Organisms and Intelligent Machines*, Studies in Applied Philosophy, Epistemology and Rational Ethics **28**, Springer (2017) &lbrack;[doi:10.1007/978-3-319-43784-2_5](https://doi.org/10.1007/978-3-319-43784-2_5), [[LeeuwenWiedermann-Computation.pdf:file]]&rbrack;
 
 
@@ -70,7 +72,7 @@ A [[program]]. A construction of a [[term]] of some [[type]]. The topic of [[com
         "right": 0, 
         "left": 10
     },
-    "caption": "(from [van Leeuwen & Wiedermann 2017](#vanLeeuwenWiedermann17))"
+    "caption": "(from [van Leeuwen and Wiedermann 2017](#vanLeeuwenWiedermann17))"
 \end{imagefromfile}
 
 
