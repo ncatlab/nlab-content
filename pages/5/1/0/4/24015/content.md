@@ -19,6 +19,11 @@ On non-trivial [[braid group statistics|braiding]] of modal points in the [[Bril
 
 > Here we report that Weyl points in three-dimensional (3D) systems with $\mathcal{C}_2\mathcal{T}$ symmetry carry non-Abelian topological charges. These charges are transformed via non-trivial phase factors that arise upon braiding the nodes inside the reciprocal momentum space. 
 
+Braiding of Dirac points in twisted bilayer [[graphene]]:
+
+* Jian Kang, Oskar Vafek, *Non-Abelian Dirac node braiding and near-degeneracy of correlated phases at odd integer filling in magic angle twisted bilayer graphene*, Phys. Rev. B **102** (2020) 035161 &lbrack;[arXiv:2002.10360](https://arxiv.org/abs/2002.10360), [doi:10.1103/PhysRevB.102.035161](https://doi.org/10.1103/PhysRevB.102.035161)&rbrack;
+
+
 * Bin Jiang, [[Adrien Bouhon]], Zhi-Kang Lin, Xiaoxi Zhou, Bo Hou, Feng Li, [[Robert-Jan Slager]], Jian-Hua Jiang *Observation of non-Abelian topological semimetals and their phase transitions*,  	Nature Physics **17** (2021) 1239-1246 &lbrack;[arXiv:2104.13397](https://arxiv.org/abs/2104.13397), [doi:10.1038/s41567-021-01340-x](https://doi.org/10.1038/s41567-021-01340-x)&rbrack;
 
 > Here, we consider an exotic type of topological phases beyond the above paradigms that, instead, depend on topological charge conversion processes when band nodes are braided with respect to each other in momentum space or recombined over the Brillouin zone. The braiding of band nodes is in some sense the reciprocal space analog of the non-Abelian braiding of particles in real space.
@@ -44,7 +49,7 @@ On non-trivial [[braid group statistics|braiding]] of modal points in the [[Bril
   > it is possible to controllably braid Kagome band nodes in monolayer $\mathrm{Si}_2 \mathrm{O}_3$ using strain and/or an external electric field.
 
 
-* Haedong Park, Wenlong Gao, Xiao Zhang, Sang Soon Oh, *Nodal lines in momentum space: topological invariants and recent realizations in photonic and other systems*, Nanophotonics (2022) ([doi:10.1515/nanoph-2021-0692](https://doi.org/10.1515/nanoph-2021-0692))
+* Haedong Park, Wenlong Gao, Xiao Zhang, Sang Soon Oh, *Nodal lines in momentum space: topological invariants and recent realizations in photonic and other systems*, Nanophotonics **11** 11  (2022) 2779–2801 ([doi:10.1515/nanoph-2021-0692](https://doi.org/10.1515/nanoph-2021-0692))
 
 * [[Adrien Bouhon]], [[Robert-Jan Slager]], *Multi-gap topological conversion of Euler class via band-node braiding: minimal models, PT-linked nodal rings, and chiral heirs* $[$[arXiv:2203.16741](https://arxiv.org/abs/2203.16741)$]$
 
