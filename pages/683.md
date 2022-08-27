@@ -39,12 +39,13 @@ Maybe the most commonly encountered setup for homotopy limits is that where the 
 
 
 ## Terminology
+ {#Terminology}
 
 In older literature, such as the original work of Bousfield–Kan \cite{BousfieldKan}, the homotopy limit of a diagram $X\colon I\to sSet$ is defined as the [[weighted limit]]
 $$hom(I/-, X),$$
-where the weight $I/-$ sends $i\mapsto N(I/i)$, the [[nerve]] of the [[comma category]] of $i$.
+where the weight $I/-$ sends $i\mapsto N(I/i)$, the [[nerve]] of the [[comma category]] of $i$ (for more see the section "[Resolved (co)ends](#ResolvedCoEnds)" *[[Bousfield-Kan map]]*).
 
-Such a functor must be derived in order to get the correct (homotopy invariant) notion, which in this case amounts to replacing $X$ with an objectwise weakly equivalent diagram valued in [[Kan complexes]].
+Such a functor must be [[derived functor|derived]] in order to get the correct (homotopy invariant) notion, which in this case amounts to replacing $X$ with an objectwise weakly equivalent diagram valued in [[Kan complexes]].
 
 At some point (when?) a shift in terminology happened,
 and in the modern parlance homotopy limits are commonly assumed to be derived.
@@ -241,7 +242,7 @@ $$
 $$
 
 
-This formula is sometimes called the **Bousfield-Kan formula** (see also [[Bousfield-Kan map]]). The coend is a [[weighted limit]] and this formula for the plain homotopy colimit can be understood the left derived _weighted_ colimit which trivial weight (the underived weight is trivial, but becomes non-trivial after derivation -- this extra complexity helps reduce the complexity for the replacement for the functor $F$ itself).
+This formula is sometimes called the **Bousfield-Kan formula** (see at *[[Bousfield-Kan map]]*). The coend is a [[weighted limit]] and this formula for the plain homotopy colimit can be understood the left derived _weighted_ colimit which trivial weight (the underived weight is trivial, but becomes non-trivial after derivation -- this extra complexity helps reduce the complexity for the replacement for the functor $F$ itself).
 
 In detail, let $V$ be a [[monoidal model category]] and $C$ a $V$-[[enriched model category]] (for instance $V = sSet_{Quillen}$ as in the above discussion). Let $D$ be a small $V$-[[enriched category]]. Then for a any given [[weighted limit|weight]]
 
