@@ -315,6 +315,8 @@ Classification of [[topological phases of matter]] via [[tensor network states]]
 
 [[!redirects topological phases of matter]]
 
+[[!redirects topological phase]]
+[[!redirects topological phases]]
 
 [[!redirects topological state of matter]]
 [[!redirects topological states of matter]]
