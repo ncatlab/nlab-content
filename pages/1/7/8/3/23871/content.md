@@ -75,6 +75,14 @@ The general strategy of realizing majorana zero modes in supercondocuting/semico
 
 * Pasquale Marra: *Majorana nanowires for topological quantum computation: A tutorial* &lbrack;[arXiv:2206.14828](https://arxiv.org/abs/2206.14828)&rbrack;
 
+
+On the general problem of distinguishing the expected effect from noise:
+
+* [[Sankar Das Sarma]], Haining Pan, *Disorder-induced zero-bias peaks in Majorana nanowires* Phys. Rev. B **103** 195158 (2021) &lbrack;[arXiv:2103.05628](https://arxiv.org/abs/2103.05628), [doi:10.1103/PhysRevB.103.195158](https://doi.org/10.1103/PhysRevB.103.195158)&rbrack;
+
+> we believe that similar confirmation bias applies to many other topological discovery claims in the literature during 2000–2020 where a precise knowledge of what one is looking for has been the key factor in the discovery claim, with the experimental quantization results themselves not being sufficiently compelling. &lbrack;...&rbrack; Our results certainly apply to most of the Majorana experiments during 2012–2021 in the literature.
+
+
 Non-retracted claims of experimental realization of something in the direction of Majorana zero modes:
 
 * {#MMBDRSC19} Gerbold C. Ménard, Andrej Mesaros, Christophe Brun, François Debontridder, Dimitri Roditchev, Pascal Simon, Tristan Cren, *Isolated pairs of Majorana zero modes in a disordered superconducting lead monolayer*,  Nat Commun **10** 2587 (2019) $[$[doi:10.1038/s41467-019-10397-5](https://doi.org/10.1038/s41467-019-10397-5)$]$
