@@ -18,7 +18,7 @@
 
 The notion of _cocommutative [[coalgebra]]_ is the formal [[duality|dual]] of [[commutative algebra]].
 
-Coommutative coalgebras form the [[category]] [[CocommCoalg]].
+Cocommutative coalgebras form the [[category]] [[CocommCoalg]].
 
 ## Definition
 
