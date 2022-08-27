@@ -10,6 +10,10 @@ On [[braid group statistics|anyonic braiding]] of nodal points in the [[Brilloui
 
 * [[Adrien Bouhon]], QuanSheng Wu, [[Robert-Jan Slager]], Hongming Weng, Oleg V. Yazyev, [[Tomáš Bzdušek]], *Non-Abelian reciprocal braiding of Weyl points and its manifestation in ZrTe*, Nature Physics **16** (2020)  1137--1143 ([arXiv:1907.10611](https://arxiv.org/abs/1907.10611), [doi:10.1038/s41567-020-0967-9](https://doi.org/10.1038/s41567-020-0967-9))
 
+* Bin Jiang, [[Adrien Bouhon]], Zhi-Kang Lin, Xiaoxi Zhou, Bo Hou, Feng Li, [[Robert-Jan Slager]], Jian-Hua Jiang *Observation of non-Abelian topological semimetals and their phase transitions*,  	Nature Physics **17** (2021) 1239-1246 &lbrack;[arXiv:2104.13397](https://arxiv.org/abs/2104.13397), [doi:10.1038/s41567-021-01340-x](https://doi.org/10.1038/s41567-021-01340-x)&rbrack;
+
+
+
 * Siyu Chen, [[Adrien Bouhon]], [[Robert-Jan Slager]], [[Bartomeu Monserrat]], *Non-Abelian braiding of Weyl nodes via symmetry-constrained phase transitions* (formerly: *Manipulation and braiding of Weyl nodes using symmetry-constrained phase transitions*),
 Phys. Rev. B **105** (2022) L081117 $[$[arXiv:2108.10330](https://arxiv.org/abs/2108.10330), [doi:10.1103/PhysRevB.105.L081117](https://doi.org/10.1103/PhysRevB.105.L081117)$]$
 
