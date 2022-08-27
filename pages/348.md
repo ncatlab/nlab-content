@@ -79,6 +79,10 @@ Sometimes the condition of a sieve being closed under the operation of precompos
 
 ## Properties
 
+### Relation to fibrations
+
+Just as a [[Grothendieck fibration]] is equivalent to a functor $C^o \to Cat$ and a [[discrete fibration]] is equivalent to a functor $C^o \to Set$, a sieve in $C$ is equivalent to a functor $C^o \to \Ohm$, where $\Ohm$ is the preordered category of [[truth values]]. This makes it obvious that a sieve picks out a subset of the objects in a way that is "downward closed". This is a form of [[negative thinking]], as $\Ohm, Set, Cat$ are the categories of all [[(-1,0)-categories]], [[(0,0)-categories]] and [[(1,1)-categories]] respectively..
+
 ### Relation to subfunctors 
 
 There is a canonical way to create subfunctors from sieves and sieves from subfunctors.
