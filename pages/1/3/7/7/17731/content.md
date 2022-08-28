@@ -2133,6 +2133,8 @@ If $\tilde\phi = \phi$ then $(-,-)$ is called _compatible_ with $\langle-,- \ran
 
 * [[charge conjugation matrix]]
 
+* vaguely related only: *[[Majorana zero modes]]* in [[solid state physics]]
+
 ## References
 
 The traditional component discussion in terms of a [[charge conjugation matrix]] is discussed for instance in 
