@@ -21,5 +21,7 @@ On (non-)detection of [[Majorana zero modes]] in [[experiment]]:
 
 * {#Frolov22} [[Sergey M. Frolov]], *Superconductors and semiconductors, nanowires and majorana, research and integrity* &lbrack;[video](https://www.youtube.com/watch?v=FR7J4yH67GA), general caution: [55:34](https://youtu.be/FR7J4yH67GA?t=3334), concrete criticism: [1:01:41](https://youtu.be/FR7J4yH67GA?t=3701)&rbrack;
     
+* [[Sergey M. Frolov]], *How do we discover MAJORANA PARTICLES in NANOWIRES?*, talk via [ Instituto de Física, Universidade de São Paulo](http://portal.if.usp.br/ifusp/) (May 2021) &lbrack;[video](https://www.youtube.com/watch?v=7btnPqmSh_0)&rbrack;
+
 
 category: people
