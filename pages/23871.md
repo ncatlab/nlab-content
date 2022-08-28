@@ -15,6 +15,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -24,7 +25,7 @@
 In [[solid state physics]], many or all [[anyon]]-species of (potential) practical interest (such as for [[topological quantum computation]]) are thought to be characterized by [[affine Lie algebras]] $\widehat{\mathfrak{g}}^k$ (at some [[level (Chern-Simons theory)|level]] $k$), in that their [[wavefunctions]] are, essentially, $\widehat{g}$-[[conformal blocks]] and their [[braid group representation|braiding]] is described by $G$-[[Chern-Simons theory]] at [[level (Chern-Simons theory)|level]] $k$ (possibly fractional, see at *[[logarithmic CFT]]* [here](logarithmic+CFT#FractionalLevelWZWModelReferences)).
 
 If here $\mathfrak{g} = $ [[su(2)|$\mathfrak{su}(2)$]], then one also speaks of "SU(2)-anyons" (with varying conventions on capitalization, etc.). 
-With "Majorana anyonons" ($k = 2$) and "Fibonacci anyons" ($k = 3$) this class subsumes most or all anyon species which seem to have a realistic chance of existing in nature. 
+With "Majorana anyons" ($k = 2$) and "Fibonacci anyons" ($k = 3$) this class subsumes most or all anyon species which seem to have a realistic chance of existing in nature. 
 
 {#NonRealizationOfMZZInNanowires} Notably [[Majorana anyons]] (in the guise of "[[Majorana zero modes]]" in super/semi-conducting nanowires) are (or were until recently, see [arXiv:2106.11840v4](https://arxiv.org/abs/2106.11840v4), [p. 3](https://arxiv.org/pdf/2106.11840v4.pdf#page=3)) at the focus of attention of an intense effort to finally provide a practical proof of principle for the old idea of [[topological quantum computation]] (following the plan laid out in [Das Sarma, Freedman & Nayak 15](#DasSarmaFreedmanNayak15)). After initial claims had to be retracted [in 2021](https://www.nature.com/articles/d41586-021-00612-z) &lbrack;[doi:10.1038/s41586-021-03373-x](https://doi.org/10.1038/s41586-021-03373-x), [doi:10.5281/zenodo.4587841](https://doi.org/10.5281/zenodo.4587841), [doi:10.5281/zenodo.4545812](https://doi.org/10.5281/zenodo.4545812), [TU Delft press release](https://www.delta.tudelft.nl/article/majorana-not-fraud-confirmation-bias#)&rbrack; and again [in 2022](http://retractionwatch.com/2022/04/24/authors-retract-second-majorana-paper-from-nature/)&lbrack;[doi:10.1038/s41586-022-04704-2](https://doi.org/10.1038/s41586-022-04704-2)&rbrack; (further claims are under criticism, see e.g. [doi:10.5281/zenodo.6344447](https://doi.org/10.5281/zenodo.6344447), [doi:10.5281/zenodo.6325378](https://doi.org/10.5281/zenodo.6325378) and the list [here](https://twitter.com/spinespresso/status/1503352928656138241)) there is a new claim of detection by [Nayak 22](#Nayak22) & [MicrosoftQuantum 22](#MicrosoftQuantum22), but see [Frolov & Mourik 22a](#FrolovMourik22a), [22b](#FrolovMourik22a) and [Frolov 22](#Frolov22).
 
@@ -69,9 +70,18 @@ Discussion of Fibonacci anyons:
 ### Experimental realization
 
 
+
 #### (Non-)Observation of Majorana zero modes
 
-The general strategy of realizing majorana zero modes in supercondocuting/semiconducting nanowires:
+The general strategy of realizing [[Majorana zero modes]] in supercondocuting/semiconducting nanowires is due to
+
+* [[Alexei Kitaev]], *Unpaired Majorana fermions in quantum wires*,  Physics-Uspekhi, **44** 10S (2001) 131-136 &lbrack;[doi:10.1070/1063-7869/44/10S/S29](https://iopscience.iop.org/article/10.1070/1063-7869/44/10S/S29)&rbrack;
+
+* Roman M. Lutchyn, Jay D. Sau, [[Sankar Das Sarma]], *Majorana Fermions and a Topological Phase Transition in Semiconductor-Superconductor Heterostructures*, Phys. Rev. Lett. **105** (2010) 077001 &lbrack;[doi:10.1103/PhysRevLett.105.077001](https://doi.org/10.1103/PhysRevLett.105.077001)&rbrack;  
+
+* Yuval Oreg, Gil Refael, and Felix von Oppen, *Helical Liquids and Majorana Bound States in Quantum Wires*, Phys. Rev. Lett. **105** (2010) 177002 &lbrack;[doi:10.1103/PhysRevLett.105.177002](https://doi.org/10.1103/PhysRevLett.105.177002)&rbrack;
+
+reviewed in:
 
 * Pasquale Marra: *Majorana nanowires for topological quantum computation: A tutorial* &lbrack;[arXiv:2206.14828](https://arxiv.org/abs/2206.14828)&rbrack;
 
@@ -96,6 +106,8 @@ but see commentary in:
 * {#FrolovMourik22a} [[Sergey M. Frolov]], [[Vincent Mourik]], *We cannot believe we overlooked these Majorana discoveries* &lbrack;[arXiv:2203.17060](https://arxiv.org/abs/2203.17060), [doi:10.5281/zenodo.6364928](https://doi.org/10.5281/zenodo.6364928), conclusion on: [p. 7](https://arxiv.org/ftp/arxiv/papers/2203/2203.17060.pdf#page=7)&rbrack;
 
 * {#FrolovMourik22b} [[Sergey M. Frolov]], [[Vincent Mourik]]: *Majorana Fireside Podcast, Episode 1: The Microsoft TGP paper live review* &lbrack;[video](https://www.youtube.com/watch?v=RnYghkDaHH0), conclusion at: [1:01:31](https://www.youtube.com/watch?v=RnYghkDaHH0&t=3691s)&rbrack;
+
+  > [1:01:52](https://youtu.be/RnYghkDaHH0?t=3712) The signal is fully consistent, from what we see, with *not* having discovered any Majorana or topological superconductivity here. At the same time, the amount of data is extremely narrow.
 
 * {#Frolov22} [[Sergey M. Frolov]], *Superconductors and semiconductors, nanowires and majorana, research and integrity* &lbrack;[video](https://www.youtube.com/watch?v=FR7J4yH67GA), general caution: [55:34](https://youtu.be/FR7J4yH67GA?t=3334), concrete criticism: [1:01:41](https://youtu.be/FR7J4yH67GA?t=3701)&rbrack;
 
@@ -132,8 +144,6 @@ See also:
 [[!redirects Majorana anyon]]
 [[!redirects Majorana anyons]]
 
-[[!redirects Majorana zero mode]]
-[[!redirects Majorana zero modes]]
 
 [[!redirects Fibonacci anyon]]
 [[!redirects Fibonacci anyons]]
