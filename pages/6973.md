@@ -1,5 +1,5 @@
 
-* [website](http://www.mathematik.tu-darmstadt.de/fbereiche/logik/staff/streicher.php)
+* [website](https://www2.mathematik.tu-darmstadt.de/~streicher/)
 
 
 ## Selected writings
