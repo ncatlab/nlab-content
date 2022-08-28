@@ -49,6 +49,7 @@ For the moment see at *[[topological phase of matter]]*.
 
 * [[quantum material]]
 
+* [[Majorana zero mode]]
 
 ## References
 
