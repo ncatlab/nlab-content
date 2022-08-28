@@ -23,6 +23,10 @@ A [[full subcategory]] $T$ of an [[abelian category]] $A$ is a __Serre subcatego
 $$M\to M'\to M''$$
 $M'$ is in $T$ if $M$ and $M''$ are in $T$. 
 
+Alternative definition: a full subcategory $T$ of an abelian category such that for every short exact sequence
+$$ 0\to A\to B\to C\to 0$$ $B$ is in $T$ _if and only if_ $A$ and $C$ are in $T$.
+
+Every Serre subcategory is automatically abelian.
 
 ##Terminology
  
@@ -43,6 +47,8 @@ Moreover $\bar{T}$ is always [[thick subcategory|thick]] in the stronger sense (
 __Serre subcategories in the strong sense__ are those nonempty full subcategories which are stable under the operation $T\mapsto\bar{T}$.
 
 ## References
+
+* [[Carl Faith]], _Algebra: Rings, Modules, Categories_, vol. 1, Chapter 15, Grundlehren der mathematischen Wissenschaften **190**, Springer (1973) &lbrack;[doi:10.1007/978-3-642-80634-6](https://doi.org/10.1007/978-3-642-80634-6)&rbrack;
 
 * [[The Stacks Project]], *[Serre subcategories](https://stacks.math.columbia.edu/tag/02MN)*
 
