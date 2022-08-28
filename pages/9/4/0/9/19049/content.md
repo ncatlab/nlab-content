@@ -66,8 +66,10 @@ of [[context extension]], followed by [[dependent product]] , followed by [[cont
 
 Here $\prod_W W^\ast = [W,-]$ is called the _[[function monad]]_ or _[[reader monad]]_ and $\sum_W W^\ast = W \times (-)$ is the _[[writer comonad]]_.
 
-## Reference
+## References
 * [[Bartosz Milewski]], [Lenses, Stores, and Yoneda](https://bartoszmilewski.com/2013/10/08/lenses-stores-and-yoneda/)
+
+A discussion of [[coalgebra for an endofunctor|coalgebras]] for the costate monad as [[lens (in computer science)|lenses]]:
 
 * Jeremy Gibbons, [Lenses are the coalgebras for the costate comonad](https://patternsinfp.wordpress.com/2011/01/31/lenses-are-the-coalgebras-for-the-costate-comonad/)
 
