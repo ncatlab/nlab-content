@@ -41,6 +41,11 @@ On [[braid group representations]] (specifically the [[Burau representation]] an
 * [[Colleen Delaney]], [[Eric C. Rowell]], [[Zhenghan Wang]], *Local unitary representations of the braid group and their applications to quantum computing*, Revista Colombiana de Matemáticas(2017), 50 (2):211 ([arXiv:1604.06429](https://arxiv.org/abs/1604.06429), [doi:10.15446/recolma.v50n2.62211](http://dx.doi.org/10.15446/recolma.v50n2.62211))
 
 
+On [[quantum adiabatic theorem|adiabatic transformations]] of certain 2d [[topological insulators]]:
+
+* David Aasen, [[Zhenghan Wang]], [[Matthew B. Hastings]], *Adiabatic paths of Hamiltonians, symmetries of topological order, and automorphism codes* &lbrack;[arXiv:2203.11137](https://arxiv.org/abs/2203.11137)&rbrack;
+
+
 
 ## Related entries
 
