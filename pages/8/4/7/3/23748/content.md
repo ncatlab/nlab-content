@@ -92,6 +92,13 @@ Review:
 
 * [[Sven Bachmann]], [[Wojciech De Roeck]], [[Martin Fraas]], *The adiabatic theorem in a quantum many-body setting*, in: *Analytic Trends in Mathematical Physics*, Contemporary Mathematics **741** (2020) 43-58 ([arXiv:1808.09985](https://arxiv.org/abs/1808.09985), [ISBN:978-1-4704-5388-6](https://bookstore.ams.org/conm-741))
 
+See also:
+
+* David Aasen, [[Zhenghan Wang]], [[Matthew B. Hastings]], *Adiabatic paths of Hamiltonians, symmetries of topological order, and automorphism codes* &lbrack;[arXiv:2203.11137](https://arxiv.org/abs/2203.11137)&rbrack;
+
+
+### For topological quantum computation
+
 References which make explicit that the standard model of [[topological quantum computation]] by [[braid group statistics|braiding]] of [[anyons]] is a form of [[adiabatic quantum computation]]:
 
 
