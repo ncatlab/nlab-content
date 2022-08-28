@@ -123,6 +123,11 @@ In relation to *[[correlation]]*:
 
 * {#LuoLuo03} Shun-long Luo, You-feng Luo, *Correlation and Entanglement*, Acta Mathematicae Applicatae Sinica **19** (2003) 581–598 $[$[doi:10.1007/s10255-003-0133-z](https://doi.org/10.1007/s10255-003-0133-z)$]$
 
+and in relation to [[quantum computation]]/[[quantum supremacy]]:
+
+* [[John Preskill]]: *Quantum computing and the entanglement frontier*: pp. 63-80 in: *The Theory of the Quantum World -- Proceedings of the 25th Solvay Conference on Physics*, World Scientific (2013) &lbrack;[arXiv:1203.5813](https://arxiv.org/abs/1203.5813), [doi:10.1142/8674](https://doi.org/10.1142/8674), slides: [pdf](https://simons.berkeley.edu/sites/default/files/docs/394/preskilljohn.pdf)&rbrack;
+
+
 and in the context of [[entanglement entropy]] of [[topological phases of matter]]:
 
 * [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
