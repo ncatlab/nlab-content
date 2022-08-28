@@ -1,6 +1,10 @@
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
-An object $A$ in a category $C$ is a __locally small object__ if the [[slice category]] $C/A$ is essentially small (has a small skeleton). In other words, isomorphism classes of monomorphisms with target $A$ (=[[subobject]]s of $A$) form a set.
+An object $A$ in a category $C$ is a __locally small object__ if the [[full subcategory]] of the [[slice category]] $C/A$ on the [[monomorphisms]] is [[essentially small category|essentially small]] (has a small skeleton). In other words, isomorphism classes of monomorphisms with target $A$ (=[[subobject]]s of $A$) form a set.
 
 An object $B$ in a category $C$ is __colocally small__ if it is locally small in the dual category. In other words, (isomorphism classes of) quotient objects form a set.
 
@@ -9,5 +13,5 @@ A category is [[well-powered category|well-powered]] if its every object is loca
 
 ## Literature
 
-* (1.2 in) N. Popescu, [[Abelian categories with applications to rings and modules]], London Mathematical Society Monographs 3, Academic Press 1973, xii + 470 pp
+* (1.2 in) N. Popescu, *[[Abelian categories with applications to rings and modules]]*, London Mathematical Society Monographs 3, Academic Press 1973, xii + 470 pp
 * Bo Stenström, _Rings of quotients_
