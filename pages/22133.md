@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+Proposing nanowire experiments potentially realizing [[Majorana zero modes]]:
+
+* Roman M. Lutchyn, Jay D. Sau, [[Sankar Das Sarma]], *Majorana Fermions and a Topological Phase Transition in Semiconductor-Superconductor Heterostructures*, Phys. Rev. Lett. **105** (2010) 077001 &lbrack;[doi:10.1103/PhysRevLett.105.077001](https://doi.org/10.1103/PhysRevLett.105.077001)&rbrack;  
+
 On [[anyons]] in application to [[quantum computation]]:
 
 * [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. 80, 1083 (2008) ([arXiv:0707.1888] (http://arxiv.org/abs/0707.1889))
