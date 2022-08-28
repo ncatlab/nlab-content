@@ -47,6 +47,11 @@ Discussion of complexity classes via [[linear logic]]:
 
 * Pierre Boudes, Damiano Mazza, Lorenzo Tortora de Falco, _An Abstract Approach to Stratification in Linear Logic_ ([arXiv:1206.6504](http://arxiv.org/abs/1206.6504))
 
+Discussion for [[quantum computation]] and [[quantum supremacy]]:
+
+* [[Scott Aaronson]], [[Lijie Chen]], *Complexity-Theoretic Foundations of Quantum Supremacy Experiments*, CCC '17: Proceedings of the 32nd Computational Complexity Conference (2017) **22** 1–67 &lbrack;[arXiv:1612.05903](https://arxiv.org/abs/1612.05903), [doi;10.5555/3135595.3135617](https://dl.acm.org/doi/10.5555/3135595.3135617)&rbrack;
+
+
 [[!redirects Complexity theory]] 
 [[!redirects computational complexity]] 
 
