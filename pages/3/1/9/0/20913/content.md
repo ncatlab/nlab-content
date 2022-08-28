@@ -26,6 +26,7 @@
 
 * [[integrable system]]
 
+* [[Kitaev spin chain]]
 
 ## References
 
