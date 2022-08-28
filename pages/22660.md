@@ -37,6 +37,7 @@ In [[solid state physics]], by a *quantum material* one means -- broadly and som
 
 * [[quantum phase transition]]
 
+* [[Majorana zero mode]]
 
 ## References
 
