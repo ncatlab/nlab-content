@@ -17,6 +17,11 @@ On [[topological insulators]]:
 
 * [[M. Zahid Hasan]], [[Charles Kane]], *Colloquium: Topological insulators*, Rev. Mod. Phys. **82** (2010) 3045 $[$[doi:10.1103/RevModPhys.82.3045](https://doi.org/10.1103/RevModPhys.82.3045)$]$
 
+On realizing [[Majorana zero modes]] via [[topological insulators]]:
+
+* {#FuKane08} [[Liang Fu]], [[Charles Kane]], *Superconducting Proximity Effect and Majorana Fermions at the Surface of a Topological Insulator*, Phys. Rev. Lett. **100** (2008) 096407 &lbrack;[doi:10.1103/PhysRevLett.100.096407](https://doi.org/10.1103/PhysRevLett.100.096407)&rbrack;
+
+
 On [[topological crystalline insulators]] and their classification by [[equivariant K-theory]]:
 
 * Jorrit Kruthoff, [[Jan de Boer]], Jasper van Wezel, [[Charles L. Kane]], [[Robert-Jan Slager]], *Topological Classification of Crystalline Insulators through Band Structure Combinatorics*, Phys. Rev. X **7** (2017) 041069 $[$[doi:10.1103/PhysRevX.7.041069](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.7.041069)$]$
