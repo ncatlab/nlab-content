@@ -42,6 +42,11 @@ Exposition:
 
 * [[John Preskill]], *Is spacetime a quantum error-correcting code?*, talk at KITP 2015 ([pdf](http://theory.caltech.edu/~preskill/talks/Preskill-KITP-holographic-2015.pdf), [[Preskill_SpacetimeQEC.pdf:file]])
 
+Highlighting the role of [[quantum entanglement]] in [[quantum computation]] and [[quantum supremacy]] (and introducing that term):
+
+* [[John Preskill]]: *Quantum computing and the entanglement frontier*: pp. 63-80 in: *The Theory of the Quantum World -- Proceedings of the 25th Solvay Conference on Physics*, World Scientific (2013) &lbrack;[arXiv:1203.5813](https://arxiv.org/abs/1203.5813), [doi:10.1142/8674](https://doi.org/10.1142/8674), slides: [pdf](https://simons.berkeley.edu/sites/default/files/docs/394/preskilljohn.pdf)&rbrack;
+
+
 
 More on [[quantum error correcting codes]] via [[holographic tensor networks]]:
 
