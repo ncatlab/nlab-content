@@ -101,6 +101,12 @@ but see commentary in:
 
   > [1:01:50](https://youtu.be/FR7J4yH67GA?t=3710): The claims of the discovery of Majorana have been overblown and are false. Majorana has not been discovered in nanowires. I don't believe in any other system it has been discovered either.
 
+On how this could happen:
+
+* Elizabeth Gibney, *Inside Microsoft’s quest for a topological quantum computer* (Interview with Alex Bocharov), Nature (2016) &lbrack;[doi:10.1038/nature.2016.20774](https://doi.org/10.1038/nature.2016.20774)&rbrack;
+
+  > &lbrack;Bocharov:&rbrack; We’re people-centric, rather than problem-centric.
+
 See also:
 
 * {#Frolov21} [[Sergey M. Frolov]], *So, You Think You Discovered a New State of Matter?*, Physics **14** 68 (2021) &lbrack;[physics.aps:v14/68](https://physics.aps.org/articles/v14/68)&rbrack;
