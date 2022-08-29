@@ -1,4 +1,19 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -7,6 +22,15 @@
 
 A [[prime factorization]] [[algorithm]] for [[quantum computers]].
 
+## Related concepts
+
+* [[Grover's algorithm]]
+
+* [[Deutsch-Jozsa algorithm]]
+
+* [[quantum complexity theory]]
+
+* [[quantum supremacy]]
 
 ## References
  {#References}
