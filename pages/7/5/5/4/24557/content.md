@@ -72,7 +72,7 @@ See also:
 
 * Wikipedia, *[Landauer's principle](https://en.wikipedia.org/wiki/Landauer%27s_principle)*
 
-Discussion in view of quantum computation:
+Discussion of reversible computation in view of [[quantum computation]]:
 
 * {#NielsenChuang00} [[Michael A. Nielsen]], [[Isaac L. Chuang]], §1.4.1 and §3.2.5 in: *Quantum computation and quantum information*, Cambridge University Press (2000) $[$[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]$]$
 
@@ -80,6 +80,8 @@ Discussion in view of quantum computation:
 
 * {#Kaye04} [[Phillip Kaye]], *Reversible addition circuit using one ancillary bit with application to quantum computing* &lbrack;[quant-ph/0408173](https://arxiv.org/abs/quant-ph/0408173)&rbrack;
 
+* [[Phillip Kaye]], [[Raymond Laflamme]], [[Michele Mosca]], §1.5 in: *An Introduction to Quantum Computing*, Oxford University Press (2007) &lbrack;[pdf](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149125645.pdf), [ISBN:9780198570493](https://global.oup.com/academic/product/an-introduction-to-quantum-computing-9780198570493?cc=at&lang=en&)&rbrack;
+ 
 
 * [[Michael P. Frank]], Karpur Shukla, *Quantum Foundations of Classical Reversible Computing*, Entropy **23** 6 (2021) 701  &lbrack;[arXiv:2105.00065](https://arxiv.org/abs/2105.00065), [doi:10.3390/e23060701](https://doi.org/10.3390/e23060701)&rbrack;
 
