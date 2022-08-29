@@ -21,8 +21,20 @@ More generally, as far as a [[computation]] is any [[morphism]] (under the [[com
 
 
 
-Typical operations of a [[classical computer]] are not reversible: For example standard logical gates such as [[AND]], [[XOR]] etc. are [[functions]] of the form $\{0,1\}^2 \longrightarrow \{0,1\}$ and as such not [[invertible]]. Standard classical gates which are invertible include the [[NOT]]-gate $\{0,1\} \xrightarrow{\sim} \{0,1\}$ (which switches its single input bit) and the [[CNOT]]-gate $\{0,1\}^2 \xrightarrow{\sim} \{0,1\}^2$ (which keeps the first "control" bit and switches the second bit if the first equals 1), but these two alone are not universal. 
+Typical operations of a [[classical computer]] are not reversible: For example standard logical gates such as [[AND]], [[XOR]] etc. are [[functions]] of the form $\{0,1\}^2 \longrightarrow \{0,1\}$ and as such not [[invertible]]. Standard classical gates which are invertible include the [[NOT]]-gate $\{0,1\} \xrightarrow{\sim} \{0,1\}$ (which switches its single input bit) and the [[CNOT]]-gate $\{0,1\}^2 \xrightarrow{\sim} \{0,1\}^2$ (which keeps the first "control" bit and switches the second bit if the first equals 1). 
 
+<div style="float:left;margin:0 10px 10px 0;">
+<img src="https://www.hannover.de/var/storage/images/_aliases/full/media/01-data-neu/bilder/redaktion-hannover.de/portale/leibnizjahr/rechenmaschine-pano/12515698-1-ger-DE/Rechenmaschine-Pano.jpg" width="550">
+</div>
+
+{#ExampleOfIncrementalAddition} Using just these reversible NOT- and CNOT-gates one may for instance implement the operation of *incremental [[addition]]* $(-)+n \;\colon\; \mathbb{Z} \xrightarrow{\sim} \mathbb{Z}$ by a fixed [[natural number]] $n$ (e.g. [Kaye 2004](#Kaye04)). As opposed to binary addition $(-) + (-) \,\colon\, \mathbb{Z}^2 \xrightarrow{\;} \mathbb{Z}$, this operation is invertible, the [[inverse]] being the corresponding incremental [[subtraction]] $(-)-n \;\colon\; \mathbb{Z} \xrightarrow{\sim} \mathbb{Z}$. 
+
+
+This state of affairs was reflected, for instance, in [[Gottfried Leibniz]]'s *[stepped reckoner](https://en.wikipedia.org/wiki/Stepped_reckoner)* machine, which performs incremental addition when its crank is turned in one direction, and the inverse incremental subtraction when the crank is turned back in the opposite direction.
+
+\linebreak
+
+But the NOT- and CNOT-gates by themselves are not universal.
 On the other hand, the [[CCNOT]] gate $\{0,1\}^3 \xrightarrow{\sim} \{0,1\}^3$ (which regards the first two inputs as control bits and switches the third input if these two are both 1) is both invertible as well as universal (e.g. [Nielsen & Chuang 2000, §1.4.1](#NielsenChuang00)), in that any function of the form $\{0,1\}^{n_1} \xrightarrow{\;} \{0,1\}^{n_2}$ is equal to a circuit of CCNOT gates pre-composed with some cartesian power of $\{0\} \xhookrightarrow{\;} \{0,1\}$ (introducing auxiliary "bath" or "ancilla" bits) and post-composed with some cartesian power of $\{0,1\} \to \ast$ (deleting auxiliary bits). In other words: Every irreversible classical computation on some computing system may be understood as a reversible computation on the system coupled to an ambient "bath" together with a loss of information of computation output into this bath.
 
 Indeed, in terms of [[physics|physical]] implementation of computation, the distinction between reversible and irreversible computation is essentially that of reversible or irreversible dynamical processes as known from [[thermodynamics]]: Fundamentally and under idealized conditions, physical processes are invertible, but "at finite temperature" there is [[entropy]]-increase associated with most processes, making them irreversible. This relation between (non-)reversible computation and [[thermodynamics]] is known as *Landauer's principle* (due to [Landauer 1961](#Landauer61), review e.g. in [Nielsen & Chuang 2000, §3.2.5](#NielsenChuang00)).
@@ -66,7 +78,12 @@ Discussion in view of quantum computation:
 
 * {#Frank03} [[Michael P. Frank]], *Reversible Computing -- Quantum Computing’s Practical Cousin*, Simons Conference Lecture, Stony Brook (2003) &lbrack;[pdf](http://insti.physics.sunysb.edu/conf/simons-qcomputation/talks/frank.pdf), [[Frank-ReversibleComputing.pdf:file]]&rbrack;
 
+* {#Kaye04} [[Phillip Kaye]], *Reversible addition circuit using one ancillary bit with application to quantum computing* &lbrack;[quant-ph/0408173](https://arxiv.org/abs/quant-ph/0408173)&rbrack;
+
+
 * [[Michael P. Frank]], Karpur Shukla, *Quantum Foundations of Classical Reversible Computing*, Entropy **23** 6 (2021) 701  &lbrack;[arXiv:2105.00065](https://arxiv.org/abs/2105.00065), [doi:10.3390/e23060701](https://doi.org/10.3390/e23060701)&rbrack;
+
+
 
 
 [[!redirects reversible computations]]
