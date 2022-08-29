@@ -61,6 +61,7 @@ An account with focus on [[programming languages]]:
 
 \linebreak
 
+{#ReferencesConceptualizationViaPathLifting}
 A conceptualization of computation as something at least close to [[path]]-[[lifting]] and/or as [[functors]] between [[path groupoids]] of [[topological spaces]] (a "semantical mapping" from an "action space" parameterizing the possible computing instructions to a "knowledge space" expressing their executions):
 
 * {#vanLeeuwen15} [[Jan van Leeuwen]], *The Philosophy of Computation*, p. xix-xxx in: Proceedings of *IIT.SRC 2015 -- Student Research Conference* Bratislava (2015) &lbrack;full proceedings: [pdf](http://www2.fiit.stuba.sk/iitsrc/iit-src2015-proceedings.pdf), [web](https://www.fiit.stuba.sk/iit-src2015/proceedings.html?page_id=4340); article: [pdf](https://webspace.science.uu.nl/~leeuw112/Bratislava-2015.pdf); slides: [pdf](https://www.fiit.stuba.sk/buxus/docs/IIT.SRC/2015/iit-src-2015_leeuwen_philosophy-of-computation.pdf)&rbrack;
