@@ -24,7 +24,7 @@ More generally, as far as a [[computation]] is any [[morphism]] (under the [[com
 Typical operations of a [[classical computer]] are not reversible: For example standard logical gates such as [[AND]], [[XOR]] etc. are [[functions]] of the form $\{0,1\}^2 \longrightarrow \{0,1\}$ and as such not [[invertible]]. Standard classical gates which are invertible include the [[NOT]]-gate $\{0,1\} \xrightarrow{\sim} \{0,1\}$ (which switches its single input bit) and the [[CNOT]]-gate $\{0,1\}^2 \xrightarrow{\sim} \{0,1\}^2$ (which keeps the first "control" bit and switches the second bit if the first equals 1). 
 
 <div style="float:left;margin:0 10px 10px 0;">
-<img src="https://www.hannover.de/var/storage/images/_aliases/full/media/01-data-neu/bilder/redaktion-hannover.de/portale/leibnizjahr/rechenmaschine-pano/12515698-1-ger-DE/Rechenmaschine-Pano.jpg" width="550">
+<img src="https://ncatlab.org/nlab/files/LeibnizMachineReversible.jpg" width="550">
 </div>
 
 {#ExampleOfIncrementalAddition} Using just these reversible NOT- and CNOT-gates one may for instance implement the operation of *incremental [[addition]]* $(-)+n \;\colon\; \mathbb{Z} \xrightarrow{\sim} \mathbb{Z}$ by a fixed [[natural number]] $n$ (e.g. [Kaye 2004](#Kaye04)). As opposed to binary addition $(-) + (-) \,\colon\, \mathbb{Z}^2 \xrightarrow{\;} \mathbb{Z}$, this operation is invertible, the [[inverse]] being the corresponding incremental [[subtraction]] $(-)-n \;\colon\; \mathbb{Z} \xrightarrow{\sim} \mathbb{Z}$. 
