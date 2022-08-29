@@ -43,7 +43,7 @@ A Freyd category is given by
 * a symmetric [[premonoidal category]] $\mathbb{C}$, that [[categories with the same collection of objects|has the same objects]] as $\mathbb{V}$;
 * an identity-on-objects functor $J: \mathbb{V} \to \mathbb{C}$ strictly preserving symmetric premonoidal structure, whose image lies in the centre of $\mathbb{C}$. 
 
-These definitions arguably violate the [[principle of equivalence]], because they use an [[identity-on-objects functor]] in the definitions. Perhaps $\mathbb{V}$ is [[equivalent]] to some $\mathbb{V}'$, and $\mathbb{C}$ is equivalent to some $\mathbb{C}'$, so that even if $J: \mathbb{V} \to \mathbb{C}$ is a Freyd category, there might be no way to make a Freyd category $\mathbb{V}' \to \mathbb{C}'$. A resolution of this is to regard a Freyd category as a single structure, with one set of objects, two sets of morphisms, and so on. 
+These definitions arguably violate the [[principle of equivalence]], because they use an [[identity-on-objects functor]] in the definitions.  That is, if $\mathbb{V}$ is [[equivalent]] to some $\mathbb{V}'$, and $\mathbb{C}$ is equivalent to some $\mathbb{C}'$, while $J: \mathbb{V} \to \mathbb{C}$ is a Freyd category, there may be no way to make a Freyd category $\mathbb{V}' \to \mathbb{C}'$. A resolution of this is to regard a Freyd category as a single structure, with one set of objects, two sets of morphisms, and so on; see [[identity-on-objects functor]] and [[M-category]] for further discussion.
 
 
 ## Properties
