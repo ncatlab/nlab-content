@@ -146,6 +146,11 @@ Discussion of [[BTZ black holes]]:
 * [[Ingmar Saberi]], around Figure 4.3 of: _Knots, Trees, and Fields: Common Ground Between Physics and Mathematics_, 2016 ([doi:10.7907/Z9VX0DHZ](https://thesis.library.caltech.edu/9896), [pdf](https://thesis.library.caltech.edu/9896/1/Saberi_Ingmar_2016.pdf))
 
 
+Proposal for generalization to $p$-adic [[superstrings]]:
+
+* Hugo Garcia-Compean, Edgar Y. Lopez, *Towards Non-archimedean Superstrings* &lbrack;[arXiv:2202.02425](https://arxiv.org/abs/2202.02425)&rbrack;
+
+
 [[!redirects p-adic string theories]]
 
 [[!redirects adelic string theory]]
