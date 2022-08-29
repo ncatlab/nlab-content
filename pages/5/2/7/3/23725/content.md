@@ -28,6 +28,8 @@ $$
 
 ## Related concepts
 
+* [[Brillouin zone]]
+
 * [[Bravais lattice]]
 
 * [[Bloch-Floquet theory]]
@@ -36,6 +38,10 @@ $$
 
 ## References
  {#References}
+
+The concept is named after:
+
+* {#Brillouin30} [[Léon Brillouin]], *Les électrons libres dans les métaux et le role des réflexions de Bragg*, J. Phys. Radium **1** (1930) 377-400 &lbrack;[doi:10.1051/jphysrad:01930001011037700](https://doi.org/10.1051/jphysrad:01930001011037700), [hal:jpa-00233038](https://hal.archives-ouvertes.fr/jpa-00233038), [pdf](https://hal.archives-ouvertes.fr/jpa-00233038/document)&rbrack;
 
 Textbooks on [[solid state physics]] traditionally speak of the "reciprocal lattice" (e.g. [Kittel 1953](solid+state+physics#Kittel53), [p. 27](http://metal.elte.hu/~groma/Anyagtudomany/kittel.pdf#page=47)) which is the dual lattice $Hom_{Grp}\big(\Lambda, \, \mathbb{Z} \big)$, e.g.:
 
@@ -51,3 +57,5 @@ The resulting Brillouin torus $Hom_{Grp}\big(\Lambda, \, \mathbb{R} \big)/Hom_{G
 
 [[!redirects Brillouin tori]]
 
+[[!redirects Brillouin zone]]
+[[!redirects Brillouin zones]]
