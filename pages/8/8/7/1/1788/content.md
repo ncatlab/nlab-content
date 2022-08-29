@@ -1,4 +1,6 @@
 
+[[LeibnizMachineReversible.jpg:file]]
+
 $$
   \array{
     P
