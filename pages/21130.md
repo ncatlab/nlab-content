@@ -23,6 +23,17 @@
 
 A search [[algorithm]] for [[quantum computers]].
 
+## Related concepts
+
+* [[Shor's algorithm]]
+
+* [[Deutsch-Jozsa algorithm]]
+
+* [[quantum complexity theory]]
+
+* [[quantum supremacy]]
+
+
 ## References
 
 See also
