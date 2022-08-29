@@ -6,8 +6,13 @@
 +--{: .hide}
 [[!include quantum systems -- contents]]
 =--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
 =--
 =--
+=--
+
 
 
 #Contents#
@@ -19,9 +24,21 @@
 
 [[complexity theory]] for [[quantum systems]] and [[quantum computation]]
 
+## Related concepts
+
+* [[quantum supremacy]]
+
 ## References
 
-* Richard Cleve, *An Introduction to Quantum Complexity Theory* ([pdf](https://cds.cern.ch/record/392006/files/9906111.pdf))
+Original articles:
+
+* [[Ethan Bernstein]], [[Umesh Vazirani]], *Quantum Complexity Theory*, Siam Journal of Computation **26** 5 (1997) 1411-1473 &lbrack;[doi:10.1137/S0097539796300921](https://doi.org/10.1137/S0097539796300921), [pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.655.1186&rep=rep1&type=pdf)&rbrack;
+
+Introduction and review:
+
+* [[Umesh Vazirani]], *A survey of quantum complexity theory*, in: [[Samuel J. Lomonaco]] (ed.): *Quantum Computation: A Grand Mathematical Challenge for the Twenty-First Century and the Millennium*, Proceedings of Symposia in Applied Mathematics **58**, AMS (2002) &lbrack;[doi:10.1090/psapm/058](https://doi.org/10.1090/psapm/058)&rbrack;
+
+* [[Richard Cleve]], *An Introduction to Quantum Complexity Theory*, p. 103-127 of: *Quantum Computation and Quantum Information Theory*, World Scientific (2001) &lbrack;[arXiv:quant-ph/9906111](https://arxiv.org/abs/quant-ph/9906111), [doi:10.1142/9789810248185_0004](https://doi.org/10.1142/9789810248185_0004)&rbrack;
 
 
 See also 
