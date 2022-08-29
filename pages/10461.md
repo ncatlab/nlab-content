@@ -8,6 +8,10 @@ On [[modular tensor categories]]:
 
 * [[Eric Rowell]], [[Richard Stong]], [[Zhenghan Wang]], *On classification of modular tensor categories*, Comm. Math. Phys. 292 (2009) no. 2, 343--389 ([arXiv:0712.1377](https://arxiv.org/abs/0712.1377))
 
+On [[braiding]] of [[su(2)-anyons]] providing universal [[quantum gates]] for [[topological quantum computation]]:
+
+* {#FreedmanLarsenWang00} [[Michael Freedman]], [[Michael Larsen]], [[Zhenghan Wang]], _A modular functor which is universal for quantum computation_, Communications in Mathematical Physics **227** (2002) 605–622 &lbrack;[arXiv:quant-ph/0001108](http://arxiv.org/abs/quant-ph/0001108), [doi:10.1007/s002200200645](https://doi.org/10.1007/s002200200645)&rbrack;
+
 
 On [[topological quantum computation]] with [[anyons]] in [[Chern-Simons theory]]:
 
