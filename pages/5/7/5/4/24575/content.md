@@ -25,6 +25,10 @@ An early example of an [[algorithm]] for which [[quantum computers]] are expecte
 
 * [[Shor's algorithm]]
 
+* [[Grover's algorithm]]
+
+* [[quantum complexity theory]]
+
 * [[quantum supremacy]]
 
 
