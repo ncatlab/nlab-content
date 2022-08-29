@@ -13,7 +13,7 @@ A **Freyd multicategory** consists of
 
 * A [[multicategory]] $\mathcal{V}$ (usually [[cartesian multicategory|cartesian]])
 * A [[premulticategory]] $\mathcal{C}$
-* A functor $return : \mathcal{V}\to\mathcal{C}$ that is the identity on objects and preserves central morphisms.
+* A functor $return : \mathcal{V}\to\mathcal{C}$ that is the [[identity-on-objects functor|identity on objects]] and preserves central morphisms.
 
 ## Relation to Freyd categories
 
