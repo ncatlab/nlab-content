@@ -47,6 +47,14 @@ Either way, the material concept is actually more general than the structural on
 A __partial binary function__ from $A$ and $B$ to $C$ is a function to $C$ from a [[subset]] of $A \times B$.
 =--
 
+One can also define a notion of binary function without any notion of ordered pair, as long as one has the [[function set|set of functions]] from any set to any other set.  This is called a [[currying|curried]] representation.
+
++-- {: .num_defn}
+###### Definition
+A __binary function__ from $A$ and $B$ to $C$ is a [[function]] from $A$ to the set $C^B$ of all functions from $B$ to $C$.
+=--
+
+The connection is that if $f$ is a binary function defined as having ordered pairs in its domain, the corresponding function from $A$ to $C^B$ sends $a\in A$ to the function that sends $b\in B$ to $f(a,b)\in C$.  One can give a similar comparison of material and structural versions of this definition.  In addition, this definition is usually the one used in [[type theory]].
 
 It\'s also possible to take the concept of binary function as an undefined primitive concept, on the same level as that of [[function]].  Then we want [[axioms]] such as the following (depending on the style of [[foundations]]):
 
@@ -57,12 +65,13 @@ It\'s also possible to take the concept of binary function as an undefined primi
 *  Given two such binary functions $f$ and $f'$, if $f(x,y) = f'(x,y)$ for every $x$ in $A$ and every $y$ in $B$, then $f = f'$.
 
 
-## Internalisation
+## Internalization
 
-We could conceivably have the notion of binary function *without* the notion of [[cartesian product]]; then a binary function could not be understood as a special case of a function.  I doubt that anybody has proposed such a [[foundation of mathematics]], but there are situations where this is true in some [[internal logic]].
+The cartesian-product-based definitions make sense internal to any [[category]] with binary [[cartesian products]].  More generally, we can consider any [[monoidal category]].
 
-In particular, a binary function [[internalisation|internal to]] a [[multicategory]] is simply a [[binary morphism]] in that multicategory.  This is most like a binary function between sets in the case of a [[cartesian multicategory]].  But even so, there may be no [[tensor product]] in the multicategory, and then a binary morphism cannot be understood as a special case of a [[morphism]].
+Similarly, the curried definition makes sense internal to any [[closed category]].  The cartesian analogue of a closed category (not to be confused with a [[cartesian closed category]], which also has finite products) exists but is not well-known.
 
+Finally, the undefined concept of "binary function" can be internalized to the [[binary morphisms]] in any [[multicategory]], in particular perhaps a [[cartesian multicategory]].  If a multicategory has tensor products, then its binary morphisms are representable in the ordered-pair style, while if it has hom-objects, they are representable in the curried style; but in general a multicategory may have neither.
 
 ## Special cases
 
