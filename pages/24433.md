@@ -38,7 +38,7 @@ and satisfying axioms:
 
 * double dagger identity: $(\langle 1_n , \ 1_n \rangle \oplus 1_p) \circ f)^\dagger = (f^\dagger)^\dagger$ where $f: n \to n+n+p$
 
-in the corresponding [[Lawvere theory]].
+in its [[Kleisli category]].
 
 It is an _iteration theory_ if the operations also satisfy:
 
