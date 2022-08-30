@@ -222,6 +222,14 @@ and adapted to [[supergravity]] in
 
 * F. del Aguila, A. Culatti, R. Munoz-Tapia, M. Perez-Victoria, _Supergravity corrections to $(g-2)_l$ in differential renormalization_, Nuclear Physics  B  504  (1997)  532-550 ([arXiv:hep-ph/9702342](https://arxiv.org/abs/hep-ph/9702342))
 
+See also:
+
+* F. T. Brandt, J. Frenkel, D. G. C. McKeon, *Quantum gravity in a general background gauge* &lbrack;[arXiv:2208.13004](https://arxiv.org/abs/2208.13004)&rbrack;
+
+
+
+
+
 Concrete discussion of [[graviton]] [[scattering amplitudes]]:
 
 * S. Abreu, F. Febres Cordero, H. Ita, M. Jaquier, B. Page, M. S. Ruf, V. Sotnikov, _The Two-Loop Four-Graviton Scattering Amplitudes_ ([arXiv:2002.12374](https://arxiv.org/abs/2002.12374))
