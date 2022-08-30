@@ -133,18 +133,28 @@ The terminology *[[q-bit]]* goes back to:
 * [[Benjamin Schumacher]], *Quantum coding*, Phys. Rev. A **51** (1995) 2738 $[$[doi:10.1103/PhysRevA.51.2738](https://doi.org/10.1103/PhysRevA.51.2738)$]$
 
 
-The potential practical relevance of quantum computation became widely appreciated with the discovery of [[Shor's algorithm]]: 
+The potential practical relevance of quantum computation was highlighted early on via toy examples
 
-* [[Peter W. Shor]], *Algorithms for quantum computation: discrete logarithms and factoring*,  Proceedings 35th Annual Symposium on Foundations of Computer Science, IEEE Comput. Soc. Press: 124-134 (1994) &lbrack;[doi:10.1109/SFCS.1994.365700](https://doi.org/10.1109/SFCS.1994.365700)&rbrack;
-
-as first highlighted in:
-
-* [[Daniel R. Simon]], *On the power of quantum computation*, SIAM Journal on Computing **26** 5 (1997) &lbrack;[doi:10.1137/S0097539796298637](https://doi.org/10.1137/S0097539796298637), [pdf](https://courses.cs.washington.edu/courses/cse599/01wi/papers/simon_qc.pdf)&rbrack;
-
-and the [[Deutsch-Jozsa algorithm]]:
+such as the [[Deutsch-Jozsa algorithm]]:
 
 * [[David Deutsch]], [[Richard Jozsa]], *Rapid solution of problems by quantum computation*. Proc. R. Soc. Lond. A **439** 1907 (1992) 553-558 &lbrack;[pdf](https://www.isical.ac.in/~rcbose/internship/lectures2016/rt08deutschjozsa.pdf), [doi:10.1098/rspa.1992.0167](https://doi.org/10.1098/rspa.1992.0167)&rbrack;
 
+and became widely appreciated in 1996/1997 with the discovery of several practically interesting [[algorithms]] exhibiting "[[quantum supremacy]]", such as:
+
+in [[quantum chemistry]]
+
+* [[Seth Lloyd]], *Universal Quantum Simulators*, Science New Series **273** 5278 (1996) 1073-1078 &lbrack;[jstor:2899535](https://www.jstor.org/stable/2899535), [doi:10.1126/science.273.5278.1073](https://doi.org/10.1126/science.273.5278.1073)&rbrack;
+
+in search algorithms ([[Grover's algorithm]])
+
+* [[Lov K. Grover]], *A fast quantum mechanical algorithm for database search*, STOC '96: Proceedings of the twenty-eighth annual ACM symposium on Theory of Computing (1996) 212-219 &lbrack;[arXiv:quant-ph/9605043](https://arxiv.org/abs/quant-ph/9605043), [doi:10.1145/237814.237866](https://doi.org/10.1145/237814.237866)&rbrack;
+
+
+and in ([[quantum cryptography|quantum]]) [[cryptography]] ([[Shor's algorithm]])
+
+* [[Daniel R. Simon]], *On the power of quantum computation*, SIAM Journal on Computing **26** 5 (1997) &lbrack;[doi:10.1137/S0097539796298637](https://doi.org/10.1137/S0097539796298637), [pdf](https://courses.cs.washington.edu/courses/cse599/01wi/papers/simon_qc.pdf)&rbrack;
+
+* [[Peter W. Shor]], *Algorithms for quantum computation: discrete logarithms and factoring*,  Proceedings 35th Annual Symposium on Foundations of Computer Science, IEEE Comput. Soc. Press: 124-134 (1994) &lbrack;[doi:10.1109/SFCS.1994.365700](https://doi.org/10.1109/SFCS.1994.365700)&rbrack;
 
 Quantum computation became widely thought to be not just a theoretical but a plausible practical possibility with the understanding of [[quantum error correction]]:
 
@@ -201,8 +211,11 @@ Further introduction and survey:
 
 * Christine Middleton, *What’s under the hood of a quantum computer?*, Physics Today, March 2021 ([doi:10.1063/PT.6.1.20210305a](https://physicstoday.scitation.org/do/10.1063/PT.6.1.20210305a))
 
+* Sophie Choe, *Quantum computing overview: discrete vs. continuous variable models* $[$[arXiv:2206.07246](https://arxiv.org/abs/2206.07246)$]$
+
 * [[John Preskill]], *The Physics of Quantum Information*, talk at
 *The Physics of Quantum Information*, 28th Solvay Conference on Physics (2022) &lbrack;[arXiv:2208.08064](https://arxiv.org/abs/2208.08064)&rbrack;
+
 
 
 See also:
@@ -236,8 +249,7 @@ Discussion in terms of [[monoidal category]]-theory and [[finite quantum mechani
 * {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], *Categories for Quantum Theory*, Oxford University Press 2019 ([ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616))
 
 
-
-Experimental demonstration of "quantum supremacy" ("quantum advantage"):
+Experimental demonstration of "[[quantum supremacy]]" ("quantum advantage"):
 
 * F. Arute et al. *Quantum supremacy using a programmable superconducting processor*, Nature **574** (2019) 505–510 ([doi:10.1038/s41586-019-1666-5](https://doi.org/10.1038/s41586-019-1666-5))
 
@@ -253,7 +265,6 @@ Review:
 
   > The [[qubit]] systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. $[\cdots]$ What is missing is the breakthrough $[\cdots]$ bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called [[topological quantum computing]].
 
-* Sophie Choe, *Quantum computing overview: discrete vs. continuous variable models* $[$[arXic:2206.07246](https://arxiv.org/abs/2206.07246)$]$
 
 
 [[!include quantum programming languages -- references]]
