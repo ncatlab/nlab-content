@@ -3,9 +3,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Homotopy theory
+#### Type theory
 +-- {: .hide}
-[[!include homotopy - contents]]
+[[!include type theory - contents]]
 =--
 #### Category theory
 +-- {: .hide}
@@ -20,56 +20,13 @@
 
 ## Idea
 
-A precategory is a category whose objects form a [[type]] or [[infinity-groupoid]] rather than a [[set]]. Equivalently, the 1-categorical analogue of a [[Segal space]]. 
+In [[homotopy type theory]], when defining a [[category]] (meaning a *1-category*), one has to decide whether to impose an [[h-level]] restriction on the [[type]] of [[objects]].  A **precategory** is a category in which *no* such restriction is imposed; thus the type of objects may be a set, or a 1-type, or an even higher type.
 
-## Definition 
+Surprisingly much [[category theory]] can be done purely with precategories, and some authors call them merely "categories".  However, there are notable differences between precategories and the familiar notion of "category" from [[set theory|set-theoretic]] foundations.  Moreover, the two do not coincide under the standard interpretation of homotopy type theory into set theory (e.g. the model in [[simplicial sets]]).  Indeed, the semantics of a precategory is the 1-categorical analogue of a [[Segal space]].
 
-### In set theory
+Alternative notions of "1-category" in homotopy type theory include [[strict categories]], whose type of objects is a set, and [[univalent categories]], whose type of objects is a 1-type whose identifications coincide with isomorphisms for the category structure.  The latter are generally better-behaved and include naturally-occurring examples, but the former are sometimes technically useful.
 
-A **precategory** $\mathcal{C}$ consists of 
-
-* a [[set theory|set-theoretic]] [[model]] of [[infinity-groupoids]] (such as a [[Kan complex]]) of [[objects]] $Ob(\mathcal{C})$, 
-* for each object $A \in Ob(\mathcal{C})$ and $B \in Ob(\mathcal{C})$, a [[set]] $Hom(A, B)$ of [[morphisms]]
-* for each object $A \in Ob(\mathcal{C})$, $B \in Ob(\mathcal{C})$, and $C \in Ob(\mathcal{C})$, a [[binary function]] 
-$$(-)\circ_{A, B, C}(-) :Hom(B, C) \times Hom(A, B) \to Hom(A, C)$$
-* for each object $A \in Ob(\mathcal{C})$, a morphism $\mathrm{id}_A \in Hom(A, A)$
-* such that 
-  * the composition of morphisms is [[associative]]: for each object $A \in Ob(\mathcal{C})$, $B \in Ob(\mathcal{C})$, $C \in Ob(\mathcal{C})$, and $D \in Ob(\mathcal{C})$, and for each morphism $f:Hom(A, B)$, $g:Hom(B, C)$, and $h:Hom(C, D)$, 
-$$h \circ_{A, C, D} (g \circ_{A, B, C} f) = h \circ_{B, C, D} (g \circ_{A, B, D} f)$$
-  * the composition of morphisms satisfies the left and right [[unit laws]]: for each object $A \in Ob(\mathcal{C})$ and $B \in Ob(\mathcal{C})$ and morphism $f:Hom(A, B)$, $\mathrm{id}_B \circ_{A, B, B} f = f$ and $f \circ_{A, A, B} \mathrm{id}_A = f$. 
-
-### In type theory
-
-#### With a set of morphisms
-
-A **precategory** $C$ consists of
-
-* A [[type]] of objects $Ob(C)$
-
-* A [[set]] of morphisms $Mor(C)$
-
-* A function $s:Mor(C) \to Ob(C)$ for the source object of a morphism
-
-* A function $t:Mor(C) \to Ob(C)$ for the target object of a morphism
-
-* A function $id:Ob(C) \to Mor(C)$ representing the identity morphism of an object
-
-* A function 
-$$(-)\circ(-):\left(\sum_{f:Mor(C)} \sum_{g:Mor(C)} id(t(f)) = id(s(g))\right) \to Mor(C)$$
-
-such that
-
-* $id(s(g \circ f)) = id(s(f))$ and $id(t(g \circ f)) = id(t(g))$
-
-* $id(s(id(x))) = id(x)$ and $id(t(id(x))) = id(x)$
-
-* $h \circ (g \circ f) = (h \circ g) \circ f$
-
-* $id(s(f)) \circ f = f$ and $f \circ id(t(f)) = f$
-
-
-
-#### With a family of sets of morphisms
+## Definition
 
 A **precategory** $\mathcal{C}$ consists of 
 
@@ -81,11 +38,16 @@ $$(-)\circ_{A, B, C}(-) :Hom(B, C) \times Hom(A, B) \to Hom(A, C)$$
 * such that 
   * the composition of morphisms is [[associative]]: for each object $A:Ob(\mathcal{C})$, $B:Ob(\mathcal{C})$, $C:Ob(\mathcal{C})$, and $D:Ob(\mathcal{C})$, and for each morphism $f:Hom(A, B)$, $g:Hom(B, C)$, and $h:Hom(C, D)$, 
 $$h \circ_{A, C, D} (g \circ_{A, B, C} f) = h \circ_{B, C, D} (g \circ_{A, B, D} f)$$
-  * the composition of morphisms satisfies the left and right [[unit laws]]: for each object $A:Ob(\mathcal{C})$ and $B :Ob(\mathcal{C})$ and morphism $f:Hom(A, B)$, $\mathrm{id}_B \circ_{A, B, B} f = f$ and $f \circ_{A, A, B} \mathrm{id}_A = f$. 
+  * the composition of morphisms satisfies the left and right [[unit laws]]: for each object $A:Ob(\mathcal{C})$ and $B :Ob(\mathcal{C})$ and morphism $f:Hom(A, B)$, $\mathrm{id}_B \circ_{A, B, B} f = f$ and $f \circ_{A, A, B} \mathrm{id}_A = f$.
 
-## Prefunctors 
+Of course, the latter two axioms are actually inhabitants of the [[identity type]], hence are data included in the definition just like the first four.  However, since each $Hom(A,B)$ is a set, such equalities are (typally) unique whenever they exist, so in most cases their presence as data can be ignored.
 
-...
+## Remarks
+
+* The interpretation of the notion of precategory in the model of homotopy type theory in [[simplicial sets]] yields a [[Segal space]] in which the morphism $A_1 \to A_0 \times A_0$ has homotopically discrete fibers.
+
+* The definition of precategory is evidently a type-theoretic notion of the definition of category with [[category#AFamilyOfCollectionsOfMorphisms|a family of collections of morphisms]].  An equivalent definition analogous to the definition of category with [[category#OneCollectionOfMorphisms|one collection of morphisms]] could be given, but it would be much less convenient to use.  In particular, the "type of all morphisms" $\sum_{A,B:Ob(\mathcal{C})} Hom(A,B)$ in a precategory is *not* itself a set, since it can incorporate nontrivial identifications from $Ob(\mathcal{C})$; the "hom-types are sets" condition in a one-type-of-morphisms definition of precategory would have to be stated as "the function $\mathcal{C}_1 \to \mathcal{C}_0$ is 0-truncated" (i.e. its fibers are sets).
+
 
 ## See also
 
