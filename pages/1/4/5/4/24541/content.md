@@ -89,8 +89,6 @@ PreCat should be a sub-$(\infty,2)$-category of the $(\infty,2)$-category $(\inf
 
 * [[complete Segal space]]
 
-* [[functor in homotopy type theory]]
-
 ## References
 
 * {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
