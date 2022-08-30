@@ -21,7 +21,7 @@
 
 ## Idea
 
-A search [[algorithm]] for [[quantum computers]].
+A search [[algorithm]] for [[quantum computers]] which is expected to produce quadratic speedup (from $O(N)$ to $O(\sqrt{N})$) compared to classical computers.
 
 ## Related concepts
 
@@ -35,6 +35,10 @@ A search [[algorithm]] for [[quantum computers]].
 
 
 ## References
+
+Due to:
+
+* [[Lov K. Grover]], *A fast quantum mechanical algorithm for database search*, STOC '96: Proceedings of the twenty-eighth annual ACM symposium on Theory of Computing (1996) 212-219 &lbrack;[arXiv:quant-ph/9605043](https://arxiv.org/abs/quant-ph/9605043), [doi:10.1145/237814.237866](https://doi.org/10.1145/237814.237866)&rbrack;
 
 See also
 
