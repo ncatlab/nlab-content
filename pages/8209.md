@@ -129,6 +129,10 @@ Exposition and review:
 
 * Maria Elena Tejeda-Yeomans, _Heavy-ion physics: freedom to do hot, dense, exciting QCD_ ([arXiv:2004.13812](https://arxiv.org/abs/2004.13812))
 
+Status report:
+
+* *Dynamics of Hot QCD Matter -- Current Status and Developments* &lbrack;[arXiv:2208.13440](https://arxiv.org/abs/2208.13440)&rbrack;
+
 
 ### In early universe cosmology
  {#ReferencesInEarlyUniverseCosmology}
