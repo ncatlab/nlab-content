@@ -30,7 +30,9 @@ Phys. Rev. B **105** (2022) L081117 $[$[arXiv:2108.10330](https://arxiv.org/abs/
 
 *  *[[Bo Peng]], [[Adrien Bouhon]], [[Bartomeu Monserrat]], [[Robert-Jan Slager]], *Phonons as a platform for non-Abelian braiding and its manifestation in layered silicates*, Nature Communications volume 13, Article number: 423 (2022) ([doi:10.1038/s41467-022-28046-9](https://doi.org/10.1038/s41467-022-28046-9))
 
-* [[Adrien Bouhon]], [[Robert-Jan Slager]], *Multi-gap topological conversion of Euler class via band-node braiding: minimal models, PT-linked nodal rings, and chiral heirs* $[$[arXiv:2203.16741](https://arxiv.org/abs/2203.16741)$]$
+* [[Adrien Bouhon]], [[Robert-Jan Slager]], *Multi-gap topological conversion of Euler class via band-node braiding: minimal models, PT-linked nodal rings, and chiral heirs* &lbrack;[arXiv:2203.16741](https://arxiv.org/abs/2203.16741)&rbrack;
+
+* [[Robert-Jan Slager]], [[Adrien Bouhon]], [[Fatma Nur Ünal]], *Floquet multi-gap topology: Non-Abelian braiding and anomalous Dirac string phase* &lbrack;[arXiv:2208.12824](https://arxiv.org/abs/2208.12824)&rbrack;
 
 
 
