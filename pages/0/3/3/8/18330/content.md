@@ -117,16 +117,6 @@ This is used in particular for defining [[dagger categories]] and [[groupoids]].
 * [[dagger category]]
 * [[principle of equivalence]]
 
-## References
-
-For the definition of isomorphism of categories and adjoint equivalence of univalent categories: 
-
-* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
-
-For the use of [[displayed categories]] instead of [[identity-on-objects functors]] in definitions:
-
-* Benedikt Ahrens, Peter LeFanu Lumsdaine, *Displayed Categories*, ([arXiv:1705.04296](https://arxiv.org/abs/1705.04296))
-
 [[!redirects identity-on-objects]]
 [[!redirects identity on objects]]
 
