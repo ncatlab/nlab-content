@@ -1,7 +1,5 @@
 
 
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -20,11 +18,19 @@
 
 Quantum cryptography is [[cryptography]] making use of effects of [[quantum physics]] and [[quantum information theory]]/[[quantum computation]], such as the [[no-cloning theorem]].
 
+## Related concepts
+
+* [[Shor's algorithm]], [[Grover's algorithm]]
+
+* [[quantum supremacy]]
+
+* [[quantum chemistry]], [[quantum biology]]
+
 ## References
 
 Original articles:
 
-* [[Stephen Wiesner]], *Conjugate Coding* circulated in the 1960s, finally published in ACM SIGACT News **15** 1 (1083) 78–88 ([original pdf](http://users.cms.caltech.edu/~vidick/teaching/120_qcrypto/wiesner.pdf), [doi:10.1145/1008908.1008920](https://doi.org/10.1145/1008908.1008920))
+* [[Stephen Wiesner]], *Conjugate Coding*, circulated in the 1960s, finally published in ACM SIGACT News **15** 1 (1083) 78–88 ([original pdf](http://users.cms.caltech.edu/~vidick/teaching/120_qcrypto/wiesner.pdf), [doi:10.1145/1008908.1008920](https://doi.org/10.1145/1008908.1008920))
 
 See also 
 
