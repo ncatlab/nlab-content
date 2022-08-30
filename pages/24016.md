@@ -25,4 +25,9 @@ Phys. Rev. B **105** (2022) L081117 $[$[arXiv:2108.10330](https://arxiv.org/abs/
 
 * [[Adrien Bouhon]], [[Robert-Jan Slager]], *Multi-gap topological conversion of Euler class via band-node braiding: minimal models, PT-linked nodal rings, and chiral heirs* $[$[arXiv:2203.16741](https://arxiv.org/abs/2203.16741)$]$
 
+* [[Robert-Jan Slager]], [[Adrien Bouhon]], [[Fatma Nur Ünal]], *Floquet multi-gap topology: Non-Abelian braiding and anomalous Dirac string phase* &lbrack;[arXiv:2208.12824](https://arxiv.org/abs/2208.12824)&rbrack;
+
+
+
+
 category: people
