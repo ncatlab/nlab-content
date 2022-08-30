@@ -34,17 +34,24 @@ The notation and terminology here is motivated from the example [[Hilb]] of Hilb
 a _unitary_ [[FQFT|functorial QFT]] of dimension $n$ is supposed to be a functor $n Cob \to Hilb$ which respects the &#8224;-structure on both sides.
 
 
-## Terminology and wording
+## Terminology
 
-In certain parts of the type theory literature, these are also called *dagger precategories*, with [[univalent dagger categories]] being called *dagger categories*. However, in the nLab we follow the convention that the objects here are called *dagger categories*, and univalent dagger categories are called *univalent dagger categories*. 
-
-This is in parallel to the convention for [[categories]], which are called categories instead of precategories, and for [[univalent categories]], which are called univalent categories instead of categories. This also parallels the definition of categories and dagger categories in a class-set theory, where categories and dagger categories come with a class of objects, and similarly do not have a Rezk completion condition which define univalent categories and univalent dagger categories. 
-
-In Wikipedia a [dagger category](http://en.wikipedia.org/wiki/Dagger_category) is said to be the same as _involutive category_ or _category with involution_, but [Springer's Encyclopedy](http://eom.springer.de/C/c020780.htm) requires for a category with involution additional conditions namely a partial order on the set of morphisms and that the order is compatible with the composition of morphisms.
+In Wikipedia a [dagger category](http://en.wikipedia.org/wiki/Dagger_category) is said to be the same as _involutive category_ or _category with involution_.  However, [Springer's Encyclopedia of Mathematics](https://encyclopediaofmath.org/wiki/Category_with_involution) requires that a "category with involution" is also compatibly [[enriched category|enriched]] over [[posets]].
 
 ## Definition
 
 ### Dagger categories
+
+#### With a family of functions
+
+\begin{definition}
+A **dagger category** or $\dagger$-category $C$ is a [[category]] with a function $(-)^\dagger: Hom_C(A,B) \to hom_C(B,A)$ for every object $A,B \in Ob(C)$, such that 
+
+* For every $A \in Ob(C)$, $(1_A)^\dagger = 1_A$
+* For every $A,B \in Ob(C)$ and every $f \in Hom_C(A,B)$ and $g \in Hom_C(B,C)$, $(g \circ f)^\dagger = f^\dagger \circ g^\dagger$
+* For every $A,B \in Ob(C)$ and every $f \in Hom_C(A,B)$, $((f)^\dagger)^\dagger = f$. 
+
+\end{definition}
 
 #### With a function
 
@@ -59,20 +66,7 @@ Given a category $C$ with a type or class of objects $Ob(C)$ and a set of morphi
 
 \end{definition}
 
-#### With a family of functions
-
-\begin{definition}
-A **dagger category** or $\dagger$-category $C$ is a [[category]] with a function $(-)^\dagger: Hom_C(A,B) \to hom_C(B,A)$ for every object $A,B \in Ob(C)$, such that 
-
-* For every $A \in Ob(C)$, $(1_A)^\dagger = 1_A$
-* For every $A,B \in Ob(C)$ and every $f \in Hom_C(A,B)$ and $g \in Hom_C(B,C)$, $(g \circ f)^\dagger = f^\dagger \circ g^\dagger$
-* For every $A,B \in Ob(C)$ and every $f \in Hom_C(A,B)$, $((f)^\dagger)^\dagger = f$. 
-
-\end{definition}
-
 #### With a functor 
-
-Historically, the definition of a dagger category is given by the following:
 
 \begin{definition}
 A **dagger category** is a [[category]] $C$ equipped with a [[contravariant functor|contravariant endofunctor]], hence an ordinary [[functor]] from the [[opposite category]] $C^{op}$ of $C$ to $C$ itself
@@ -89,30 +83,14 @@ which
 
 \end{definition}
 
-This definition by using a functor has numerous problems, detailed in the [[identity-on-objects functor]] article. The solution is to define "contravariant endofunctor which is the identity-on-objects" to not be a [[functor]]:
-
-\begin{definition}
-A **contravariant endofunctor which is the identity-on-objects** on a category $C$ is a family of functions $F_{Mor}(x, y):Mor(x, y) \to Mor(y, x)$ such that 
-
-* [[composition]] of [[morphisms]] is reversed: for all morphisms $f: Mor_A(x, y)$ and $g:Mor_B(y, z)$, $F_{Mor}(x, z)(g \circ_{x, y, z} f) = F_{Mor}(x, y)(f) \circ_{x, y, z} F_{Mor}(y, z)(g)$,
-
-* identity morphisms are preserved: $F_{Mor}(x, x)(id_x) = id_x$.
- 
-\end{definition}
-
-\begin{definition}
-A **dagger category** is a [[category]] $C$ equipped with a [[contravariant functor|contravariant endofunctor]] which is is the [[identity-on-objects]] $\dagger_{A, B}:Hom(A, B) \to Hom(B, A)$ such that $(f^\dagger_{A, B})^\dagger_{B, A} = f$.
-
-\end{definition}
-
-However, this results in the same definition as the definition with a family of functions. 
+This definition, which is perhaps the most concise, does rely on a notion of [[identity-on-objects functor]].  This is no problem in most foundations for mathematics, although it violates the [[principle of equivalence]] (except for [[strict categories]]).  In [[homotopy type theory]] (or more generally [[intensional type theory]]) it doesn't make sense to talk about "being the identity on objects" as a property of a given functor, but one can still define an "identity-on-objects endofunctor" (covariant or contravariant) as a basic notion; see [[identity-on-objects functor]] for details.  When unwound for $\dagger$-categories, this yields the above "family of functions" definition.
 
 ### Special morphisms
 
 +-- {: .un_defn}
 ###### Definition
 
-A morphism $f$ in a &#8224;-category is called **[[unitary morphism]]** if its &#8224;-adjoint equals its [[inverse]]:
+A morphism $f$ in a &#8224;-category is called a **[[unitary morphism]]** if its &#8224;-adjoint equals its [[inverse]]:
 
 $$
   f^\dagger = f^{-1}
@@ -155,7 +133,7 @@ Given two $\dagger$-categories $A$ and $B$, a [[dagger functor|$\dagger$-functor
 * for every object $a,b \in Ob(A)$ and morphism $f \in Hom_A(a,b)$, $F(f^{\dagger_A}) = (F f)^{\dagger_B}$. 
 =--
 
-There is another definition which violates the [[principle of equivalence]], since the definition of the dagger in a dagger category in this case is a functor that imposes equations on objects: A $\dagger$-functor $F : (C, \dagger) \to (D, \ddagger)$ between two $\dagger$-categories $(C, \dagger)$ and $(D, \ddagger)$ is a [[functor]] $F : C \to D$ of the underlying categories, which commutes with the $\dagger$-structures in that $F \circ \dagger = \ddagger \circ F^{op}$. 
+More concisely, one can say that a $\dagger$-functor $(A,\dagger) \to (B,\ddagger)$ is a [[functor]] $F : A \to B$ of the underlying categories that commutes with the $\dagger$-structures in that $F \circ \dagger = \ddagger \circ F^{op}$.  This appears to violate the [[principle of equivalence]], since it is a strict equality of functors; however, once $\dagger$ and $\ddagger$ are known to be the identity on objects (whatever that means), the two functors $F\circ \dagger$ and $\ddagger \circ F^{op}$ automatically agree on objects.
 
 A [[natural transformation]] between $\dagger$-functors is just a natural transformation of the underlying functors. 
 
@@ -219,7 +197,7 @@ $$
 by the fact that $F$ and $G$ are &#8224;-functors. This is the naturality square over $f$ of $\eta^* : G \to F$.
 
 
-+-- {: .un_def}
++-- {: .un_defn}
 ###### Definition
 
 Write $DagCat$ for the [[category]] whose objects are &#8224;-categories and whose morphisms are &#8224;-functors.
@@ -413,7 +391,7 @@ For more on this see
 
 * [[dagger functor]]
 
-* [[univalent dagger category]]
+* [[dagger category in homotopy type theory]]
 
 ## References
 
