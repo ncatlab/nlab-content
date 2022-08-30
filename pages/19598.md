@@ -28,6 +28,6 @@ New models of various type theories may be formed by taking categories of [[inve
 
 * [[Michael Shulman]], _Univalence for inverse diagrams and homotopy canonicity_, Math. Structures Comput. Sci.25 (2015), no. 5, 1203–1277, ([arXiv:1203.3253](https://arxiv.org/abs/1203.3253)).
 
-* [[Nicolai Kraus]], [[Christian Sattler]], _Space-valued diagrams, type-theoretically, extended abstract_, ([arXiv:1704.04543](https://arxiv.org/abs/1203.3253)).
+* [[Nicolai Kraus]], [[Christian Sattler]], _Space-valued diagrams, type-theoretically, extended abstract_, ([arXiv:1704.04543](https://arxiv.org/abs/1704.04543)).
 
 * [[Chris Kapulkin]], [[Peter Lumsdaine]], _Homotopical inverse diagrams in categories with attributes_, ([arXiv:1808.01816](https://arxiv.org/abs/1808.01816)).
