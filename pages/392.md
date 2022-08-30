@@ -37,8 +37,6 @@ Thus, "red herring" as used here is to be interpreted neutrally: it refers to a 
 
 * A [[planar ternary ring]] is not a [[ring]].  A general ring is not a planar ternary ring either; their "intersection" is the class of [[division rings]].
 
-* An [[identity-on-objects functor]] is not a [[functor]]. Historically, category theorists did define it as a functor, but in certain foundations (such as [[set theory]]) the functor definition violated the [[principle of equivalence]], while in other foundations (such as [[univalent type theory]]) the functor definition resulted in a structure which does not behave the same as the current definition. 
-
 Some adjectives are almost universally used as "red herring adjectives," i.e. placing that adjective in front of something makes it *more* general in some way.  Some red herring adjectives almost always have the same meaning, such as "pseudo" and "lax," but others, such as "weak," have different meanings in different contexts.
 
 * A [[weak factorization system]] is not a factorization system, as originally defined, but rather the reverse.  This has led some people to the use of [[orthogonal factorization system]] in place of the classical term "factorization system."
