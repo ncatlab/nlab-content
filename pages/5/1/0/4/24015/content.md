@@ -53,6 +53,11 @@ Braiding of Dirac points in twisted bilayer [[graphene]]:
 
 * [[Adrien Bouhon]], [[Robert-Jan Slager]], *Multi-gap topological conversion of Euler class via band-node braiding: minimal models, PT-linked nodal rings, and chiral heirs* $[$[arXiv:2203.16741](https://arxiv.org/abs/2203.16741)$]$
 
+See also:
+
+* [[Robert-Jan Slager]], [[Adrien Bouhon]], [[Fatma Nur Ünal]], *Floquet multi-gap topology: Non-Abelian braiding and anomalous Dirac string phase* &lbrack;[arXiv:2208.12824](https://arxiv.org/abs/2208.12824)&rbrack;
+
+
 Incidentally, references indicating that the required toroidal (or yet higher genus) geometry for anyonic topological order in position space is dubious (as opposed to the evident toroidal geometry of the momentum-space [[Brillouin torus]]): [Lan 19, p. 1](Laughlin+state#Lan19), ....
 
 
