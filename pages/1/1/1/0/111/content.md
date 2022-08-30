@@ -61,7 +61,7 @@ The two definitions may be distinguished by whether they use a single collection
 
 A __category__ $C$ consists of 
 
-*  a [[collection]] (see [Size issues](#size)) $C_0$ of __[[objects]]__;
+*  a [[collection]] (see [Foundational issues](#foundations) and [Size issues](#size)) $C_0$ of __[[objects]]__;
 
 *  a collection $C_1$ of __[[morphisms]]__ (or __arrows__);
 
@@ -93,7 +93,7 @@ If the [[identity]]-assigning map and its axiom is omitted, then one speaks of a
 
 A __category__ $C$ consists of 
 
-*  a [[collection]] (see [Size issues](#size)) $C_0$ of __[[objects]]__;
+*  a [[collection]] (see [Foundational issues](#foundations) and [Size issues](#size)) $C_0$ of __[[objects]]__;
 
 *  for each pair $x,y$ of objects, a collection $C_1(x,y)$ of __[[morphisms]] from $x$ to $y$__;
 
@@ -119,6 +119,10 @@ Note, though, that this 2-equivalence is not an *isomorphism* of 2-categories, b
 
 In ordinary category theory one rarely specifies which of the two definitions is being used, although often language implicitly suggests that it is the latter, e.g. when defining a category one first specifies the objects and then specifies what "the morphisms from $X$ to $Y$ are" rather than specifying what "a morphism" is and then what the domain and codomain of each morphism are.  Indeed, when defining a category in this way, one rarely worries about whether the hom-sets are disjoint, meaning that it must be the second definition in use.  Even for the prototypical category [[Set]], if constructed in a material-set-theoretic foundation like [[ZFC]], the natural definition "a morphism from $X$ to $Y$ is a function, i.e. a subset of $X\times Y$ that is total and functional", produces hom-sets that are not disjoint, since a total and functional set of ordered pairs can have any codomain that is a superset of its range.  Moreover, categorical constructions do not "naturally" preserve disjointness of homsets, e.g. in the [[category of elements]] $el(P)$ of a functor $P:C\to Set$ a given morphism in $C$ can "be" a morphism between many different elements of $P$, and similarly for a [[slice category]] and so on.
 
+### Foundational issues
+{#foundations}
+
+We said a category has a 'collection' of objects and 'collection'(s) of morphisms. However, different mathematical foundations have different notions of equality. For foundations whose notion of 'collection' have proposition-valued equality, such as in [[set theory]], [[class]]-set theory, or [[extensional type theory]], the two definitions above suffice for defining a category. However, in for other foundations, with a weaker notion of equality, such as internally in a [[(2,1)-topos]] such as [[Grpd]], in [[Thomas Streicher]]'s groupoid model of types, or in [[homotopy type theory]], there are multiple definitions of a category. The naive definition of the category above with a collection of objects and a collection of morphisms results in a [[wild category]]. If the morphism collections are sets, then the resulting structure is a [[precategory]], and if the collection of objects is a set as well, then the resulting structure is a [[strict category]]. The above definitions in set theory foundations are the same as strict categories in the alternative foundations, but in the alternative foundations categories like [[Set]] are not strict categories. Instead, they happen to be a special kind of precategory called [[univalent categories]], where equality of objects is isomorphism of objects. 
 
 ### Size issues
 {#size}
