@@ -47,6 +47,9 @@ Historical articles identifying the point-[[lattice (discrete subgroup)|lattice]
 
 Textbook accounts:
 
+* {#Tilley2020} Richard Tilley, *Crystals and Crystal Structure*, Wiley (2020) &lbrack;[ISBN:978-1-119-54838-6](https://www.wiley.com/en-us/Crystals+and+Crystal+Structures,+2nd+Edition-p-9781119548386)&rbrack;
+
+
 * [[Sheng San Li]], Chapter 1 of: *Semiconductor Physical Electronics*, Springer (2006)   $[$[doi:10.1007/0-387-37766-2](https://link.springer.com/book/10.1007/0-387-37766-2)$]$
 
   > (in [[semiconductor]]-theory)
