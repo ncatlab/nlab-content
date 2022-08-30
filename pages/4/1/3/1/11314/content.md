@@ -22,6 +22,8 @@ Since the nature of [[atoms]] is described by [[quantum mechanics]] and since [[
 
 * [[quantum biology]]
 
+* [[quantum cryptography]]
+
 ## References
 
 ### General
@@ -35,6 +37,13 @@ See also:
 * Wikipedia, _[Quantum chemistry](http://en.wikipedia.org/wiki/Quantum_chemistry)_
 
 * {#Feynman63} [[Richard Feynman]], _The Feynman Lectures on Physics, vol III_, Chapter 19, [Lectures](http://www.feynmanlectures.caltech.edu/III_toc.html)
+
+Potential application of [[quantum computation]] ([[quantum supremacy]]) to quantum chemistry:
+
+* {#Lloyd96} [[Seth Lloyd]], *Universal Quantum Simulators*, Science New Series **273** 5278 (1996) 1073-1078 &lbrack;[jstor:2899535](https://www.jstor.org/stable/2899535), [doi:10.1126/science.273.5278.1073](https://doi.org/10.1126/science.273.5278.1073)&rbrack;
+
+* {#QuantumChemistryInAgeOfQuantumComputing} *Quantum Chemistry in the Age of Quantum Computing*, Chem. Rev. (2019) **119** 19 (2019) 10856–10915 &lbrack;[doi:10.1021/acs.chemrev.8b00803](https://doi.org/10.1021/acs.chemrev.8b00803)&rbrack;
+
 
 ### Topological quantum chemistry
 
