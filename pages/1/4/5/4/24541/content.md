@@ -20,15 +20,13 @@
 
 ## Idea
 
-In [[homotopy type theory]], when defining a [[category]] (meaning a *1-category*), one has to decide whether to impose an [[h-level]] restriction on the [[type]] of [[objects]].  A **precategory** is a category in which *no* such restriction is imposed; thus the type of objects may be a set, or a 1-type, or an even higher type.
+In [[homotopy type theory]] (or more generally [[intensional type theory]]), when defining a [[category]] (meaning a *1-category*), one has to decide whether to impose an [[h-level]] restriction on the [[type]] of [[objects]].  A **precategory** is a category in which *no* such restriction is imposed; thus the type of objects may be a set, or a 1-type, or an even higher type.
 
 Surprisingly much [[category theory]] can be done purely with precategories, and some authors call them merely "categories".  However, there are notable differences between precategories and the familiar notion of "category" from [[set theory|set-theoretic]] foundations.  Moreover, the two do not coincide under the standard interpretation of homotopy type theory into set theory (e.g. the model in [[simplicial sets]]).  Indeed, the semantics of a precategory is the 1-categorical analogue of a [[Segal space]].
 
 Alternative notions of "1-category" in homotopy type theory include [[strict categories]], whose type of objects is a set, and [[univalent categories]], whose type of objects is a 1-type whose identifications coincide with isomorphisms for the category structure.  The latter are generally better-behaved and include naturally-occurring examples, but the former are sometimes technically useful.
 
 ## Definition
-
-### In homotopy type theory
 
 A **precategory** $\mathcal{C}$ consists of 
 
@@ -44,36 +42,12 @@ $$h \circ_{A, C, D} (g \circ_{A, B, C} f) = h \circ_{B, C, D} (g \circ_{A, B, D}
 
 Of course, the latter two axioms are actually inhabitants of the [[identity type]], hence are data included in the definition just like the first four.  However, since each $Hom(A,B)$ is a set, such equalities are (typally) unique whenever they exist, so in most cases their presence as data can be ignored.
 
-### In simplicial type theory
-
-In [[simplicial type theory]] a **precategory** is a Segal type whose hom types are 0-truncated and discrete. 
-
-### Internal to a (2, 1)-topos
-
-A similar definition could be found internally in any [[(2,1)-topos]]:
-
-A **precategory object** in a (2, 1)-topos $\mathcal{T}$ is an object $\mathcal{C} \in \mathcal{T}$ with a morphism $Hom: \mathcal{C} \times \mathcal{C} \to Set$, where $Set \in \mathcal{T}$ is a [[discrete object classifier]], such that 
-
-  * for every [[global element]] $A:1 \to \mathcal{C}$, $B:1 \to \mathcal{C}$, and $C:1 \to \mathcal{C}$, where $1 \in \mathcal{T}$ is a [[terminal object]], there is a [[discrete morphism]] $(-)\circ_{A, B, C}(-):(Hom \circ (B, C) \times Hom \circ (A, B)) \to (Hom \circ (A, C))$ in the functor groupoid $1 \to Set$
-  * for every global element $A:1 \to \mathcal{C}$, there is a [[discrete morphism]] $id_A:1_{Set} \to Hom \circ (A, A)$ in the functor groupoid $1 \to Set$ 
-
-such that
-
-  * composition is [[associative]]: for $A:1 \to \mathcal{C}$, $B:1 \to \mathcal{C}$, $C:1 \to \mathcal{C}$, and $D:1 \to \mathcal{C}$, and for $f:1_{Set} \to (Hom \circ (A, B))$, $g:1_{Set} \to (Hom \circ (B, C))$, and $h:1_{Set} \to (Hom \circ (C, D))$, 
-$$h \circ_{A, C, D} (g \circ_{A, B, C} f) = h \circ_{B, C, D} (g \circ_{A, B, D} f)$$
-  * composition satisfies the left and right [[unit laws]]: for $A:1 \to \mathcal{C}$ and $B :1 \to \mathcal{C}$ and $f:1_{Set} \to (Hom \circ (A, B))$, $\mathrm{id}_B \circ_{A, B, B} f = f$ and $f \circ_{A, A, B} \mathrm{id}_A = f$.
-
-## The $(\infty,2)$-category PreCat
-
-There should be an [[(infinity,2)-category|$(\infty,2)$-category]] PreCat whose objects are precategories and whose morphisms are functors between precategories.
-
-PreCat should be a sub-$(\infty,2)$-category of the $(\infty,2)$-category $(\infty,1)Cat$ of [[(infinity,1)-category|$(\infty,1)$-categories]], since precategories are (infinity,1)-categories whose hom-infinity-groupoids are 0-truncated. 
-
 ## Remarks
 
 * The interpretation of the notion of precategory in the model of homotopy type theory in [[simplicial sets]] yields a [[Segal space]] in which the morphism $A_1 \to A_0 \times A_0$ has homotopically discrete fibers.
 
 * The definition of precategory is evidently a type-theoretic notion of the definition of category with [[category#AFamilyOfCollectionsOfMorphisms|a family of collections of morphisms]].  An equivalent definition analogous to the definition of category with [[category#OneCollectionOfMorphisms|one collection of morphisms]] could be given, but it would be much less convenient to use.  In particular, the "type of all morphisms" $\sum_{A,B:Ob(\mathcal{C})} Hom(A,B)$ in a precategory is *not* itself a set, since it can incorporate nontrivial identifications from $Ob(\mathcal{C})$; the "hom-types are sets" condition in a one-type-of-morphisms definition of precategory would have to be stated as "the function $\mathcal{C}_1 \to \mathcal{C}_0$ is 0-truncated" (i.e. its fibers are sets).
+
 
 ## See also
 
