@@ -17,7 +17,7 @@ is a [[monomorphism]] for all $A$.  (Here, $\multimap$ denotes the [[internal ho
 
 A $*$-autonomous category is a weak $*$-autonomous category such that for every object $A$, $d_{A}: A \to (A \multimap \bot) \multimap \bot$ is an isomorphism.
 
-A strict weak $*$-autonomous category is a weak $*$-autonomous category such that for at least one object $A$, $d_{A}$ is not an isomorphism. Equivalently, a strict weak $*$-autonomous category is a $*$-autonomous category which is not a $*$-autonomous category.
+A strictly weak $*$-autonomous category is a weak $*$-autonomous category such that for at least one object $A$, $d_{A}$ is not an isomorphism. Equivalently, a strictly weak $*$-autonomous category is a $*$-autonomous category which is not a $*$-autonomous category.
 
 ## Example
 
