@@ -11,6 +11,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -24,6 +25,13 @@ A _wallpaper group_ is a [[crystallographic group]] ([[space group]]) in [[dimen
 1. the [[point group]] is [[finite group|finite]].
 
 
+{#Tilley2020Fig310} [Fig. 3.10 in Tilley 2020](#Tilley2020):
+
+<center>
+<img src="https://ncatlab.org/nlab/files/SymmetryElementsOfWallpaperGroups.jpg"  width="600">
+</center>
+
+
 ## Related concepts
 
 * [[flat orbifold]]
@@ -35,6 +43,8 @@ A _wallpaper group_ is a [[crystallographic group]] ([[space group]]) in [[dimen
 ## References
 
 e. g. 
+
+* {#Tilley2020} Richard Tilley, Sec. 3.5 in: *Crystals and Crystal Structure*, Wiley (2020) &lbrack;[ISBN:978-1-119-54838-6](https://www.wiley.com/en-us/Crystals+and+Crystal+Structures,+2nd+Edition-p-9781119548386)&rbrack;
 
 * [[Patrick Morandi]], _The Classification of Wallpaper Patterns: From Group Cohomology to Escherís Tessellations_ ([pdf](http://sierra.nmsu.edu/morandi/notes/Wallpaper.pdf))
 
