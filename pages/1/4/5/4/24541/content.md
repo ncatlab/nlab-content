@@ -40,6 +40,37 @@ $$h \circ_{A, C, D} (g \circ_{A, B, C} f) = h \circ_{B, C, D} (g \circ_{A, B, D}
 
 ### In type theory
 
+#### With a set of morphisms
+
+A **precategory** $C$ consists of
+
+* A [[type]] of objects $Ob(C)$
+
+* A [[set]] of morphisms $Mor(C)$
+
+* A function $s:Mor(C) \to Ob(C)$ for the source object of a morphism
+
+* A function $t:Mor(C) \to Ob(C)$ for the target object of a morphism
+
+* A function $id:Ob(C) \to Mor(C)$ representing the identity morphism of an object
+
+* A function 
+$$(-)\circ(-):\left(\sum_{f:Mor(C)} \sum_{g:Mor(C)} id(t(f)) = id(s(g))\right) \to Mor(C)$$
+
+such that
+
+* $id(s(g \circ f)) = id(s(f))$ and $id(t(g \circ f)) = id(t(g))$
+
+* $id(s(id(x))) = id(x)$ and $id(t(id(x))) = id(x)$
+
+* $h \circ (g \circ f) = (h \circ g) \circ f$
+
+* $id(s(f)) \circ f = f$ and $f \circ id(t(f)) = f$
+
+
+
+#### With a family of sets of morphisms
+
 A **precategory** $\mathcal{C}$ consists of 
 
 * a [[type]] of [[objects]] $Ob(\mathcal{C})$, 
