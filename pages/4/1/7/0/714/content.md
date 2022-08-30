@@ -70,7 +70,9 @@ A **dagger category** or $\dagger$-category $C$ is a [[category]] with a functio
 
 \end{definition}
 
-#### With a contravariant endofunctor 
+#### With a functor 
+
+Historically, the definition of a dagger category is given by the following:
 
 \begin{definition}
 A **dagger category** is a [[category]] $C$ equipped with a [[contravariant functor|contravariant endofunctor]], hence an ordinary [[functor]] from the [[opposite category]] $C^{op}$ of $C$ to $C$ itself
@@ -87,13 +89,23 @@ which
 
 \end{definition}
 
-This definition violates the [[principle of equivalence]], since it imposes equations on objects. 
+This definition by using a functor has numerous problems, detailed in the [[identity-on-objects functor]] article. The solution is to define "contravariant endofunctor which is the identity-on-objects" to not be a [[functor]]:
 
-When defining in [[set theory]], the objects of a category form a set in set theory, resulting in propositional valued equality on objects. This is true regardless whether the identity-on-objects functor is defined via propositional equality of the object sets $Ob(C^\op) = Ob(C)$, as in a [[material set theory]], or via [[bijection]] of the object sets $\dagger_{ob}:Ob(C^\op) \cong Ob(C)$, as in a [[structural set theory]]. 
+\begin{definition}
+A **contravariant endofunctor which is the identity-on-objects** on a category $C$ is a family of functions $F_{Mor}(x, y):Mor(x, y) \to Mor(y, x)$ such that 
 
-When defining in [[type theory]], the objects of a category form a type in type theory, resulting in type-valued equality on objects, or [[equivalence in homotopy type theory|equivalence]] of objects, so it doesn't suffer from the exact issue as set theory definitions do. However, it still suffers from a variant of the [[principle of equivalence]], in the same way that the usual definition of [[Grothendieck fibrations]] and strict [[creation of limits]] in type theory also violates the [[principle of equivalence]]. 
+* [[composition]] of [[morphisms]] is reversed: for all morphisms $f: Mor_A(x, y)$ and $g:Mor_B(y, z)$, $F_{Mor}(x, z)(g \circ_{x, y, z} f) = F_{Mor}(x, y)(f) \circ_{x, y, z} F_{Mor}(y, z)(g)$,
 
-In order to satisfy the [[principle of equivalence]], the [[identity-on-objects]] in [[type theory]] needs to be a [[displayed category]] instead of a [[functor]]. 
+* identity morphisms are preserved: $F_{Mor}(x, x)(id_x) = id_x$.
+ 
+\end{definition}
+
+\begin{definition}
+A **dagger category** is a [[category]] $C$ equipped with a [[contravariant functor|contravariant endofunctor]] which is is the [[identity-on-objects]] $\dagger_{A, B}:Hom(A, B) \to Hom(B, A)$ such that $(f^\dagger_{A, B})^\dagger_{B, A} = f$.
+
+\end{definition}
+
+However, this results in the same definition as the definition with a family of functions. 
 
 ### Special morphisms
 
