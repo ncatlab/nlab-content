@@ -48,11 +48,11 @@ except that in Artin's definition only the relevant pullbacks are required to ex
 
 ## Definition using sieves
 
-If $g:d\to c$ is a morphism in a category $C$ and $F\subset C(-,c)$ a [[sieve]] on $C$ then 
+If $g:d\to c$ is a morphism in a category $C$ and $F\subset C(-,c)$ a [[sieve]] on $c$ then 
 $$
 g^* F = \{ h: dom(h)\to d | g\circ h \in F\}\subset C(-,d)
 $$
-is a sieve in $d$, the pullback sieve of $F$ along $g$.
+is a sieve on $d$, the pullback sieve of $F$ along $g$.
 
 The following definition can be found in [[SGA]] 4, Exposé II.
 
