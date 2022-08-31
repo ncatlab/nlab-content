@@ -22,9 +22,9 @@
 
 ### In set theory
 
-In general, the notion of [[bijective-on-objects functor]] and [[essentially surjective functor]] between two [[categories]] $A$ and $B$ are not the same, and the [[bo-ff factorization system]] and the [[eso-ff factorization system]] are likewise not the same. However, there is a subclass of categories for which the [[essentially surjective functors]] are the [[bijective-on-objects functors]]. These categories are the *univalent* categories. 
+In general, the notion of [[equivalence of categories]] and [[isomorphism]] of [[categories]] are not the same. However, there is a subclass of categories for which [[equivalence of categories]] are the same as [[isomorphism]] of [[categories]]. These categories are the *univalent* categories. 
 
-### In homotopy type theory
+### In type theory
 
 One may consider [[internal categories]] in [[homotopy type theory]]. Under the [[relation between type theory and category theory|interpretation]] of [[HoTT]] in an [[(infinity,1)-topos]], this corresponds to the concept of a [[category object in an (infinity,1)-category]]. The general idea is presented there at _[Homotopy Type Theory Formulation](category+object+in+an+%28infinity%2C1%29-category#HomotopyTypeTheoryFormulation)_.
 
@@ -36,41 +36,22 @@ Similarly to the [[univalence axiom]] we make two notions of sameness the same. 
 
 ## Definition ##
 
-In a [[dependent type theory]] with some notion of [[identity type]] or [[path type]], a **univalent category** or **saturated category** is a precategory such that the canonical function 
-$$idtoiso : (a=b) \to (a \cong b)$$
-from the identity type between two objects $a$ and $b$ to the type of isomorphisms between $a$ and $b$ is an equivalence of types. 
-
-### In extensional type theory and set theory
-
-In [[extensional type theory]], every [[identity type]] is a [[proposition]]. Thus, in order to make equality of objects and isomorphism of objects coincide, one has to require the type of isomorphisms between two objects of a category to also be a proposition. Thus, the above definition is also equivalent to the following definition:
+### In set theory
 
 \begin{definition}
-A **univalent category** in extensional type theory is a precategory $C$ such that the type of isomorphisms $A \cong B$ between every two objects $A:Ob(C)$ and $B:Ob(C)$ of $C$ is a [[proposition]], and if there is a given isomorphism $f:A \cong B$, then $A = B$. 
+A **univalent category** is a category $C$ such that the set of isomorphisms $A \cong B$ between every two objects $A \in Ob(C)$ and $B \in Ob(C)$ of $C$ is a [[subsingleton]], and if $A$ is [[isomorphic]] to $B$, then $A = B$. 
 
 \end{definition}
 
-The above definition also is valid in any mathematical foundations with propositional valued equality, such as set theory. However, some of the terminology is different:
+### In type theory
 
-\begin{definition}
-A **univalent category** in set theory is a category $C$ such that the set of isomorphisms $A \cong B$ between every two objects $A:Ob(C)$ and $B:Ob(C)$ of $C$ is a [[subsingleton]], and if $A$ is isomorphic to $B$ ($A \cong B$), then $A = B$. 
-
-\end{definition}
-
-Univalent categories in extensional type theory and set theory are *[[strict category|strict]] univalent categories* in [[intensional type theory]]. 
-
-Important examples of univalent categories in extensional type theory and set theory include the [[walking parallel pair]], [[posets]], and the [[free object|free]] [[category]] on a [[directed acyclic graph]]. 
-
-### In homotopy type theory
-
-In [[homotopy type theory]], there are two notions of "sameness" for objects of a precategory. On one hand we have an [[isomorphism]] between objects $a$ and $b$, on the other hand we have equality of objects $a$ and $b$. 
+In a [[dependent type theory]] with some notion of [[identity type]] or [[path type]], there are two notions of "sameness" for objects of a precategory. On one hand we have an [[isomorphism]] between objects $a$ and $b$, on the other hand we have equality of objects $a$ and $b$. 
 
 There is a special kind of category called a **univalent category** where these two notions of equality coincide and some very nice properties arise.
 
-\begin{lemma}
 If $A$ is a category and $a,b:A$, then there is a map
 
 $$idtoiso : (a=b) \to (a \cong b)$$
-\end{lemma}
 
 \begin{proof}
 By induction on identity, we may assume $a$ and $b$ are the same. But then we have $1_a:hom_A(a,a)$, which is clearly an isomorphism. $\square$
@@ -78,7 +59,23 @@ By induction on identity, we may assume $a$ and $b$ are the same. But then we ha
 
 The inverse of $idtoiso$ is denoted $isotoid$.
 
+A **univalent category** or **saturated category** is a category which satisfies a categorical version of [[antisymmetry]] for [[posets]] called *Rezk completeness*: the canonical function 
+$$idtoiso : (a=b) \to (a \cong b)$$
+from the identity type between two objects $a$ and $b$ to the type of isomorphisms between $a$ and $b$ is an equivalence of types. 
+
+In [[extensional type theory]], the type theoretic definition and thd set theoretic definitions are equivalent to each other. Every [[identity type]] is a [[proposition]]/[[subsingleton]] in extensional type theory. Thus, by the Rezk completeness condition, the set of isomorphisms is a subsingleton, and two objects which are isomorphic to each other are also equal to each other. 
+
+However, the two definitions are not the same in [[intensional type theory]] for general categories; instead, they only coincide for [[strict categories]], where the definitions define *[[strict category|strict]] univalent categories*. 
+
 ## Examples ##
+
+### In set theory
+
+* Every [[poset]] is a univalent category
+* The [[walking parallel pair]] is a univalent category which is not a [[poset]]
+* The [[free object|free]] [[category]] on a [[directed acyclic graph]] is a univalent category. 
+
+### In type theory 
 Note: All categories given can become univalent via the [[Rezk completion]].
 
 * There is a category $\mathit{Set}$, whose type of objects is $Set$, and with $hom_{\mathit{Set}}(A,B)\equiv (A \to B)$. Under [[univalence]] this becomes a [[category]]. One can also show that any [[category]] of set-level structures such as groups, rings topologicial spaces, etc. is also univalent.
@@ -93,6 +90,24 @@ is defined by induction on [[truncation]] from concatenation of the [[identity t
 
 ## Properties ##
 
+### In set theory
+
+A [[bijective-on-objects functor]] between two categories $A$ and $B$ is a functor $F:A \to B$ where the object function $F_{ob}:Ob(A) \to Ob(B)$ is a [[bijection]]. 
+
+An [[essentially surjective functor]] between $A$ and $B$ is a functor $F:A \to B$ where for every object $b \in Ob(B)$, there is an object $a \in Ob(A)$ such that $F_{ob}(a) \cong b$. 
+
+While every bijective-on-objects functor between two categories is essentially surjective, every essentially surjective functor between two univalent categories is bijective-on-objects.  
+
+These definitions are important for defining the two notions of equality for categories: 
+
+An **[[isomorphism]] of categories** is a fully faithful bijective-on-objects functor. 
+
+An **[[equivalence of categories]]** is a fully faithful essentially surjective functor. 
+
+Thus, univalent categories are precisely those categories where the notions of isomorphism and equivalence of categories coincide. 
+
+### In type theory
+
 \begin{lemma}
 In a univalent category, the type of objects is a 1-type.
 \end{lemma}
@@ -104,6 +119,8 @@ It suffices to show that for any $a,b:A$, the type $a=b$ is a set. But $a=b$ is 
 There is a canonical way to turn a [[category]] into a univalent category via the [[Rezk completion]].
 
 ## Related pages
+
+* [[category]]
 
 * [[type-theoretic definition of category]]
 
