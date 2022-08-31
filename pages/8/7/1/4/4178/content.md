@@ -1,4 +1,4 @@
-> This entry is about a paracategory in which all the composites are generated from binary and nullary ones. For the category whose objects form a [[type]] or [[infinity-groupoid]] rather than a [[set]], see [[precategory]]. 
+> This entry is about a paracategory in which all the composites are generated from binary and nullary ones. For the category whose objects form a [[type]] rather than a [[set]], see [[precategory]]. 
 
 ---
 
