@@ -88,6 +88,8 @@ Only the intensional, but not the extensional, [[Martin-Löf type theory]] has [
 
 * [[Homotopy Type System]] is [[dependent type theory]] with a mix of extensional and intensional [[identity types]].
 
+* [[XTT]], an extensional [[cubical type theory]]
+
 ## References
 
 * {#Hofmann95} [[Martin Hofmann]], _Extensional concepts in intensional type theory_, Ph.D. thesis, University of Edinburgh, (1995) ([ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]])
@@ -97,6 +99,6 @@ Only the intensional, but not the extensional, [[Martin-Löf type theory]] has [
 
 * [[Ieke Moerdijk]], E. Palmgren, _Type theories, toposes and constructive set theory: predicative aspects of AST_,  Ann. Pure Appl. Logic, 114:155-201, (2002)
 
-
+* [[Jonathan Sterling]], [[Carlo Angiuli]], [[Daniel Gratzer]], _A Cubical Language for Bishop Sets_, Logical Methods in Computer Science, 18 (1), 2022. ([arXiv:2003.01491](https:arxiv.org/abs/2003.01491)). 
 
 [[!redirects extensional type theories]]
