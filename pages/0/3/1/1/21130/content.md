@@ -40,6 +40,11 @@ Due to:
 
 * [[Lov K. Grover]], *A fast quantum mechanical algorithm for database search*, STOC '96: Proceedings of the twenty-eighth annual ACM symposium on Theory of Computing (1996) 212-219 &lbrack;[arXiv:quant-ph/9605043](https://arxiv.org/abs/quant-ph/9605043), [doi:10.1145/237814.237866](https://doi.org/10.1145/237814.237866)&rbrack;
 
+Lecture notes:
+
+* [[Scott Aaronson]], Chapters 22-24 of: *Introduction to Quantum Information Science* (2018) &lbrack;[pdf](https://www.scottaaronson.com/qclec.pdf), [webpage](https://www.scottaaronson.com/cs378/)&rbrack;
+
+
 See also
 
 * Wikipedia, _[Grover's algorithm](https://en.wikipedia.org/wiki/Grover%27s_algorithm)_
