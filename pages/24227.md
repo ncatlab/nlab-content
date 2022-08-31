@@ -6,4 +6,8 @@
 * _Computational Higher Type Theory II: Dependent Cubical Realizability_, [[Carlo Angiuli]], [[Robert Harper]], [arxiv](https://arxiv.org/abs/1606.09638), 2016
 * _Computational Higher Type Theory III: Univalent Universes and Exact Equality_, [[Carlo Angiuli]], [[Kuen-Bang Hou]], [[Robert Harper]], [arxiv](https://arxiv.org/abs/1712.01800), 2017
 
+On [[XTT]]:
+
+* [[Jonathan Sterling]], [[Carlo Angiuli]], [[Daniel Gratzer]], _A Cubical Language for Bishop Sets_, Logical Methods in Computer Science, 18 (1), 2022. ([arXiv:2003.01491](https:arxiv.org/abs/2003.01491)). 
+
 category: people
