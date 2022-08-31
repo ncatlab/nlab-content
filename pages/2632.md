@@ -395,13 +395,19 @@ Modern textbooks:
 
 
 
-Lecture notes include
+Lecture notes:
 
 * Uni Bonn, _[Lecture scripts and Online courses -- Quantum mechanics](http://www-cip.physik.uni-bonn.de/~baehren/scripts/quantum.html)_
 
 * [[Valter Moretti]], _Mathematical Foundations of Quantum Mechanics: An Advanced Short Course_ ([arXiv:1508.06951](http://arxiv.org/abs/1508.06951))
 
-Some standard references include
+With an eye towards [[quantum probability]] and [[quantum computation]]:
+
+* {#Kuperberg05} [[Greg Kuperberg]], _A concise introduction to quantum probability, quantum mechanics, and quantum computation_ (2005) &lbrack;[pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf), [[Kuperberg-ConciseQuantum.pdf:file]]&rbrack;
+
+
+
+Some standard references:
 
 * Glimm and Jaffe, [[Glimm-Jaffe|Quantum physics - a functional integral point of view]] 
 
