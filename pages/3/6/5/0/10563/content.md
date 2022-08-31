@@ -10,6 +10,7 @@ A certain sub-variety of a [[Grassmannian]].
 ## Related concepts
 
 * [[Schubert calculus]]
+* [[quantum Schubert cell]]
 
 ## References
 
