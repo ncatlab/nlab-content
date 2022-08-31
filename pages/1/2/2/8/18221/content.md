@@ -39,7 +39,7 @@ Similarly to the [[univalence axiom]] we make two notions of sameness the same. 
 ### In set theory
 
 \begin{definition}
-A **univalent category** is a category $C$ such that the set of isomorphisms $A \cong B$ between every two objects $A \in Ob(C)$ and $B \in Ob(C)$ of $C$ is a [[subsingleton]], and if $A$ is [[isomorphic]] to $B$, then $A = B$. 
+A **univalent category** is a category $C$ such that the set of isomorphisms $A \cong B$ between every two objects $A \in Ob(C)$ and $B \in Ob(C)$ of $C$ is a [[subsingleton]], and there is an isomorphism $f:A \cong B$ if and only if $A = B$. 
 
 \end{definition}
 
@@ -92,19 +92,33 @@ is defined by induction on [[truncation]] from concatenation of the [[identity t
 
 ### In set theory
 
+Given two categories $A$ and $B$, if $B$ is univalent, then the functor category $B^A$ is univalent. 
+
+\begin{proof}
+Let $F:A \to B$ and $G:A \to B$ be functors from $A$ to $B$. We must show that there is at most one natural isomorphism between $F$ and $G$, and if $F \cong G$, then $F = G$. 
+
+Suppose that $\gamma:F \to G$ is a natural isomorphism. Then for any object $a \in A$, there is an isomorphism $\gamma_a: F_{ob}(a) \cong G_{ob}(a)$ in $B$. Since $B$ is univalent, this shows that $F_{ob}(a) = G_{ob}(a)$, and by function extensionality, that $F_{ob} = G_{ob}$. 
+
+Now, for 
+\end{proof}
+
 A [[bijective-on-objects functor]] between two categories $A$ and $B$ is a functor $F:A \to B$ where the object function $F_{ob}:Ob(A) \to Ob(B)$ is a [[bijection]]. 
 
-An [[essentially surjective functor]] between $A$ and $B$ is a functor $F:A \to B$ where for every object $b \in Ob(B)$, there is an object $a \in Ob(A)$ such that $F_{ob}(a) \cong b$. 
+A [[split essentially surjective functor]] between $A$ and $B$ is a functor $F:A \to B$ where for every object $b \in Ob(B)$, there is an object $a \in Ob(A)$ and a n isomorphism $f:F_{ob}(a) \cong b$. 
 
-While every bijective-on-objects functor between two categories is essentially surjective, every essentially surjective functor between two univalent categories is bijective-on-objects.  
+A [[fully faithful functor]] is a functor where 
 
 These definitions are important for defining the two notions of equality for categories: 
 
 An **[[isomorphism]] of categories** is a fully faithful bijective-on-objects functor. 
 
-An **[[equivalence of categories]]** is a fully faithful essentially surjective functor. 
+An **[[equivalence of categories]]** is a fully faithful split essentially surjective functor. Equivalently, it is a functor $F:A \to B$ which has a left adjoint $G:B \to A$ such that the unit $\eta:1_A \to G F$ and counit $\epsilon:F G \to 1_B$ are isomorphisms. 
 
-Thus, univalent categories are precisely those categories where the notions of isomorphism and equivalence of categories coincide. 
+\begin{theorem}
+For univalent categories, isomorphism of categories and equivalence of categories coincide.
+\end{theorem}
+
+...
 
 ### In type theory
 
