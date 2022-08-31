@@ -44,17 +44,16 @@ This is definition 2.1.1 in ([Kashiwara](#Kashiwara)).
 
 * [[pseudo-abelian category]]
 
+* [[semi-abelian category]]
+
 ## References
 
-* {#Kashiwara} [[Masaki Kashiwara]], _Equivariant derived category and
-representation of real semisimple Lie groups_, 
+* {#Kashiwara} [[Masaki Kashiwara]], _Equivariant derived category and representation of real semisimple Lie groups_, 
 [pdf](http://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara/sd.pdf)
 
-* {#ProsmansSchneiders00} [[Fabienne Prosmans]], [[Jean-Pierre Schneiders]], _A homological study of bornological spaces_, December 2000, Prepublications Mathematiques de l'Universite Paris 13, 46 ([pdf](http://www.analg.ulg.ac.be/jps/rec/hsbs.pdf))
+* {#ProsmansSchneiders00} [[Fabienne Prosmans]], [[Jean-Pierre Schneiders]], _A homological study of bornological spaces_,  Prepublications Mathematiques de l'Universite Paris 13, 46 (December 2000) ([pdf](http://www.analg.ulg.ac.be/jps/rec/hsbs.pdf))
 
 * Rhiannon Savage, _Koszul monoids in quasi-abelian categories_, [arXiv:2203.08789](https://arxiv.org/abs/2203.08789) 
-
-
 
 * {#Bambozzi14} [[Federico Bambozzi]], section 1 of _On a generalization of affinoid varieties_ ([arXiv:1401.5702](http://arxiv.org/abs/1401.5702))
 
