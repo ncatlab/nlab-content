@@ -93,4 +93,4 @@ For [[simple type theory]], type inhabitation is  decidable, whereas it is undec
 * {#Hofmann95} [[Martin Hofmann]], _Extensional concepts in intensional type theory_, Ph.D. dissertation, University of Edinburgh (1995). ([link](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/)) 
  
 
-
+[[!redirects decidable]]
