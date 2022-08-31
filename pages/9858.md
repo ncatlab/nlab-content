@@ -44,6 +44,6 @@ A cotorsion pair $(\mathcal{D},\mathcal{E})$ is called **complete** if it has en
 
 ## References
 
-* [[Mark Hovey]], _Cotorsion pairs and model categories_, [pdf](http://homepages.math.uic.edu/~bshipley/hovey.pdf)
+* [[Mark Hovey]], _Cotorsion pairs and model categories_, Contemp. Math. __436__ (2007) 277-296 [pdf](http://homepages.math.uic.edu/~bshipley/hovey.pdf) [gBooks](https://books.google.hr/books?id=UZ8bCAAAQBAJ) [doi](https://doi.org/10.1090/conm/436/08413)
 
 [[!redirects cotorsion pairs]]
