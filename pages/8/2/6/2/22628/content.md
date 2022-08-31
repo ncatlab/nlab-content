@@ -38,7 +38,12 @@ Introduction and review:
 
 * [[Umesh Vazirani]], *A survey of quantum complexity theory*, in: [[Samuel J. Lomonaco]] (ed.): *Quantum Computation: A Grand Mathematical Challenge for the Twenty-First Century and the Millennium*, Proceedings of Symposia in Applied Mathematics **58**, AMS (2002) &lbrack;[doi:10.1090/psapm/058](https://doi.org/10.1090/psapm/058)&rbrack;
 
-* [[Richard Cleve]], *An Introduction to Quantum Complexity Theory*, p. 103-127 of: *Quantum Computation and Quantum Information Theory*, World Scientific (2001) &lbrack;[arXiv:quant-ph/9906111](https://arxiv.org/abs/quant-ph/9906111), [doi:10.1142/9789810248185_0004](https://doi.org/10.1142/9789810248185_0004)&rbrack;
+* [[Richard Cleve]], *An Introduction to Quantum Complexity Theory*, p. 103-127 of: *Quantum Computation and Quantum Information Theory*, World Scientific (2001) &lbrack;[arXiv:quant-ph/9906111](https://arxiv.org/abs/quant-ph/9906111), [doi:10.1142/9789810248185_0004]
+(https://doi.org/10.1142/9789810248185_0004)&rbrack;
+
+Lecture notes:
+
+* [[Scott Aaronson]], Section 24.3 of: *Introduction to Quantum Information Science* (2018) &lbrack;[pdf](https://www.scottaaronson.com/qclec.pdf), [webpage](https://www.scottaaronson.com/cs378/)&rbrack;
 
 
 See also 
