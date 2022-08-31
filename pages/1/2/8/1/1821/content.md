@@ -437,7 +437,7 @@ Comparing with the general definition of cocycles and coboudnaries from above, o
 [[!include cohomology -- early references]]
 
 
-Review of basi
+Review of basics
 
 * [[Charles Weibel]], Section 1.1: _[[An Introduction to Homological Algebra]]_
 
