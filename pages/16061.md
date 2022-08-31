@@ -25,7 +25,7 @@
 
 * [[volume conjecture]] ([DGLZ 09 (4.6)](#DGLZ09), [Dimofte 16, Section 4.1](#Dimofte16))
 
-## related concepts
+## Related concepts
 
 * [[hyperbolic manifold]]
 
@@ -50,6 +50,13 @@ With an eye towards [[entanglement entropy]]:
 In relation to [[spectral networks]]:
 
 * [[Daniel S. Freed]], [[Andrew Neitzke]], *3d spectral networks and classical Chern-Simons theory* &lbrack;[arXiv:2208.07420](https://arxiv.org/abs/2208.07420)&rbrack;
+
+In the context of [[resurgence]]:
+
+* Zhihao Duan, Jie Gu, *Resurgence in complex Chern-Simons theory at generic levels* &lbrack;[arXiv:2208.14188](https://arxiv.org/abs/2208.14188)&rbrack;
+
+
+
 
 
 
