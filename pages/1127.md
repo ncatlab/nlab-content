@@ -107,7 +107,7 @@ The proof that filtered colimits in $R Mod$ are exact is spelled out for instanc
 See also 
 
 * [[Peter Freyd]], _Abelian categories_, Harper (1966O) 
-* Nicolae Popescu, _An introduction to Abelian categories with applications to rings and modules_, Academic Press 1973
+* Nicolae Popescu, [[An introduction to Abelian categories with applications to rings and modules]]_, Academic Press 1973
 
 The fact that all Grothendieck categories are [[locally presentable]] is proved in Corollary 5.2 of
 
