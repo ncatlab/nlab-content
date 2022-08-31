@@ -103,7 +103,7 @@ A different and more widely used concept was developed independently in these tw
 
 * [[G. Böhm]], _An alternative notion of Hopf algebroid_; in "Hopf algebras in noncommutative geometry and physics",  31--53, Lecture Notes in Pure and Appl. Math. __239__, Dekker, New York, 2005; <a href="http://arxiv.org/abs/math.QA/0301169"> math.QA/0301169 </a>
 
-* [[R. Street]] and [[B. Day]], Quantum categories, star autonomy, and quantum groupoids, in "Galois Theory, Hopf Algebras, and Semiabelian Categories", Fields Institute Communications 43 (American Math. Soc. 2004) 187-226; <a href = "http://arxiv.org/abs/math/0301209">arXiv:0301209</a>
+* [[R. Street]], [[B. Day]], Quantum categories, star autonomy, and quantum groupoids, in "Galois Theory, Hopf Algebras, and Semiabelian Categories", Fields Institute Communications __43__ (American Math. Soc. 2004) 187-226; <a href = "http://arxiv.org/abs/math/0301209">arXiv:0301209</a>
 
 and also described in:
 
@@ -115,9 +115,17 @@ M. Hazewinkel, Elsevier 2009, 173&#8211;236 [arxiv:math.RA/0805.3806](http://arx
 
 This starts with a different concept of [[bialgebroid]], which is discussed here on the nLab.  Namely: any $k$-algebra $R$ gives a pseudomonoid $R^e = R^{op} \otimes R$ in the bicategory $Mod_k$ of k-algebras, bimodules, and bimodule homomorphisms, and a **bialgebroid** is then an opmonoidal monad $A$ on $R^e$.   When the fusion (or Galois) operator for this opmonoidal monad is invertible, we say that $A$ is a **Hopf algebroid**.  In G. B&#246;hm's work this definition is stated in a less compressed, more down-to-earth way.
 
-A class of examples of such Hopf algebroids internally in a symmetric monoidal category of filtered cofiltered vector spaces is in
+A class of examples of Hopf algebroids have as underyling algebra the smash product of a Hopf algebra with a Yetter-Drinfeld module algebra over it. These are the scalar extension Hopf algebroids introduced in Brzeziński-Militaru article above modifying slightly a construction of Lu who considered modules over a Drinfeld double instead of Yetter-Drinfeld modules (what is equivalent for finite dimensional Hopf algebras). For a symmetric version see
 
-* M. Stojić, PhD thesis, _Completed Hopr algebroids_, University of Zagreb, 2017
+* M. Stojić, _Scalar extension Hopf algebroids_, [arXiv:2208.11696](https://arxiv.org/abs/2208.11696)
+
+An internal version of associative bialgebroids in a symmetric monoidal category admiting coqualizers commuting with the monoidal product is studied in
+
+* [[G. Böhm]], _Internal bialgebroids, entwining structures and corings_, AMS Contemp. Math. __376__ (2005) 207-226 [arXiv:math/0311244](https://arxiv.org/abs/math/0311244) [doi](https://doi.org/10.48550)
+
+The concept has been extended to an internal version of Hopf algebroids and a class of examples of Hopf algebroids internally in a symmetric monoidal category of filtered cofiltered vector spaces is described in
+
+* M. Stojić, PhD thesis, _Completed Hopf algebroids_, University of Zagreb, 2017
 
 A somewhat less canonical version of the same main subexample, written in coordinates, and with somewhat ad hoc treatment of completions (focusing on global cofiltrations only) is in 
 
@@ -126,7 +134,7 @@ A somewhat less canonical version of the same main subexample, written in coordi
 
 A definition of a variant of Hopf algebroid which is somewhat similar to Lu's definition but involves working with a 2-sided ideal, with help of a distinguished „balancing” subalgebra, is in
 
-* [[Zoran Škoda]], Martina Stojić, _Hopf algebroids with balancing subalgebra_, [arxiv:1610.03837](https://arxiv.org/pdf/1610.03837)
+* [[Zoran Škoda]], Martina Stojić, _Hopf algebroids with balancing subalgebra_, Journal of Algebra __598__ (2022) 445-469 [arxiv:1610.03837](https://arxiv.org/pdf/1610.03837) [doi](https://doi.org/10.1016/j.jalgebra.2022.01.027)
 
 A notion of multiplier Hopf algebroid is studied in
 
