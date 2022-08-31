@@ -167,6 +167,8 @@ CPM, classical structures, ...
 
 * [[quantum logic]], [[quantum theory]]
 
+* [[quantum probability]], [[quantum mechanics]]
+
 * [[quantum computation]], [[quantum cryptography]]
 
 * [[qbit]], [[quantum circuit model]]
