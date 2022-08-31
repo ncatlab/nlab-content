@@ -15,7 +15,6 @@
 =--
 
 
-
 # Contents
 * table of contents
 {: toc}
@@ -176,6 +175,8 @@ The original [[wave function]] is $\psi \in \mathcal{H}$, and after observing $P
 
 * [[quantum statistical mechanics]]
 
+* [[quantum information theory]], [[quantum mechanics]]
+
 * [[Bayesian interpretation of quantum mechanics]]
 
 * [[quantum logic]]
@@ -198,7 +199,7 @@ Discussion of quantum probability theory:
 
 * [[Hans Maassen]], _Quantum Probability Theory_, Lecture notes 1998 ([pdf](https://www.math.ru.nl/~maassen/lectures/qp.pdf), [[MaassenQuantumProbability.pdf:file]])
 
-* {#Kuperberg05} [[Greg Kuperberg]], _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
+* {#Kuperberg05} [[Greg Kuperberg]], _A concise introduction to quantum probability, quantum mechanics, and quantum computation_ (2005) &lbrack;[pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf), [[Kuperberg-ConciseQuantum.pdf:file]]&rbrack;
 
 * {#RedeiSummers06} [[Miklos Redei]], [[Stephen Summers]], _Quantum Probability Theory_, Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics Volume 38, Issue 2, June 2007, Pages 390-417 ([arXiv:quant-ph/0601158](https://arxiv.org/abs/quant-ph/0601158), [doi:10.1016/j.shpsb.2006.05.006](https://doi.org/10.1016/j.shpsb.2006.05.006))
 
