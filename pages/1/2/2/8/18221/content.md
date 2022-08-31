@@ -1,3 +1,4 @@
+[[!redirects internal category in homotopy type theory]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
