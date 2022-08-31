@@ -51,6 +51,10 @@ Textbook account:
 
 * [[Giuliano Benenti]], [[Giulio Casati]], [[Davide Rossini]], Section 3.14 of: *Principles of Quantum Computation and Information*, World Scientific 2018  ([doi:10.1142/10909](https://doi.org/10.1142/10909), [2004 pdf](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149307696.pdf))
 
+Lecture notes:
+
+* [[Scott Aaronson]], Chapters 18-21 of: *Introduction to Quantum Information Science* (2018) &lbrack;[pdf](https://www.scottaaronson.com/qclec.pdf), [webpage](https://www.scottaaronson.com/cs378/)&rbrack;
+
 
 See also: 
 
