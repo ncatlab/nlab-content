@@ -264,7 +264,7 @@ $$
   (A_i, \lambda_{i j} mod \mathbb{Z})
 $$   
 
-is a [[?ech cohomology|?ech cocycle]] with coefficients in the degree 2 [[Deligne cohomology|Deligne complex]] whose [[curvature]]2-form is the given Maxwell [[curvature]] 2-form.
+is a [[Čech cohomology|Čech cocycle]] with coefficients in the degree 2 [[Deligne cohomology|Deligne complex]] whose [[curvature]]2-form is the given Maxwell [[curvature]] 2-form.
 
 
 
@@ -424,8 +424,6 @@ For undergraduate lectures including experimental material see
 The [[Lorentz group|Lorentz]]-[[invariants]] of the [[electromagnetic field]]:
 
 * C. A. Escobar, L. F. Urrutia, _The invariants of the electromagnetic field_, Journal of Mathematical Physics 55, 032902 (2014) ([arXiv:1309.4185](https://arxiv.org/abs/1309.4185))
-
-
 
 
 [[!redirects electromagnetic field]]
