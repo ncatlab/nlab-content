@@ -1,4 +1,4 @@
-> This entry is about a category whose objects form a [[type]] or [[infinity-groupoid]] rather than a [[set]]. For the specific type of paracategory also known as a *precategory*, in which all the composites are generated from binary and nullary ones, see [[paracategory]]. 
+> This entry is about a category whose objects form a [[type]] rather than a [[set]]. For the specific type of paracategory also known as a *precategory*, in which all the composites are generated from binary and nullary ones, see [[paracategory]]. 
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
