@@ -22,7 +22,7 @@
 
 ### In set theory
 
-In general, the notion of [[equivalence of categories]] and [[isomorphism]] of [[categories]] are not the same. However, there is a subclass of categories for which [[equivalence of categories]] are the same as [[isomorphism]] of [[categories]]. These categories are the *univalent* categories. 
+In general, the notion of [[equivalence of categories]] and [[isomorphism]] of [[categories]] are not the same. However, there is a subclass of categories for which [[equivalence of categories]] are the same as [[isomorphism]] of [[categories]]. These categories are the *univalent* or *saturated* categories. 
 
 ### In type theory
 
@@ -39,7 +39,7 @@ Similarly to the [[univalence axiom]] we make two notions of sameness the same. 
 ### In set theory
 
 \begin{definition}
-A **univalent category** is a category $C$ such that the set of isomorphisms $A \cong B$ between every two objects $A \in Ob(C)$ and $B \in Ob(C)$ of $C$ is a [[subsingleton]], and there is an isomorphism $f:A \cong B$ if and only if $A = B$. 
+A **univalent category** or **saturated category** is a category $C$ such that the set of isomorphisms $A \cong B$ between every two objects $A \in Ob(C)$ and $B \in Ob(C)$ of $C$ is a [[subsingleton]], and there is an isomorphism $f:A \cong B$ if and only if $A = B$. 
 
 \end{definition}
 
@@ -74,6 +74,7 @@ However, the two definitions are not the same in [[intensional type theory]] for
 * Every [[poset]] is a univalent category
 * The [[walking parallel pair]] is a univalent category which is not a [[poset]]
 * The [[free object|free]] [[category]] on a [[directed acyclic graph]] is a univalent category. 
+* The univalent [[walking isomorphism]] is isomorphic to the [[terminal category]]. 
 
 ### In type theory 
 Note: All categories given can become univalent via the [[Rezk completion]].
@@ -95,11 +96,15 @@ is defined by induction on [[truncation]] from concatenation of the [[identity t
 Given two categories $A$ and $B$, if $B$ is univalent, then the functor category $B^A$ is univalent. 
 
 \begin{proof}
-Let $F:A \to B$ and $G:A \to B$ be functors from $A$ to $B$. We must show that there is at most one natural isomorphism between $F$ and $G$, and if $F \cong G$, then $F = G$. 
+Let $F:A \to B$ and $G:A \to B$ be functors from $A$ to $B$. We must show that there is at most one natural isomorphism between $F$ and $G$, and there is an isomorphism $\gamma:F \cong G$ if and only if $F = G$. 
 
-Suppose that $\gamma:F \to G$ is a natural isomorphism. Then for any object $a \in A$, there is an isomorphism $\gamma_a: F_{ob}(a) \cong G_{ob}(a)$ in $B$. Since $B$ is univalent, this shows that $F_{ob}(a) = G_{ob}(a)$, and by function extensionality, that $F_{ob} = G_{ob}$. 
+Suppose that $\gamma:F \to G$ is a natural isomorphism. Then for any object $a \in A$, there is an isomorphism $\gamma_a: F_{ob}(a) \cong G_{ob}(a)$ in $B$. Since $B$ is univalent, this shows that $F_{ob}(a) = G_{ob}(a)$ for all objects $a$, and by function extensionality, that $F_{ob} = G_{ob}$. 
 
-Now, for 
+Now, for any $a \in Ob(A)$ and $b \in Ob(B)$, the functions $F_{mor}(a,b):Mor_A(a,b) \to Mor_B(F_{ob}(a),F_{ob}(b))$ and $G_{mor}(a,b):Mor_A(a,b) \to Mor_B(G_{ob}(a),G_{ob}(b))$ are equal, because we established above that $F(a) = G(a)$ for all $a \in Ob(a)$. Because the object functions and morphism functions of $F$ and $G$ are equal to each other, $F = G$. 
+
+Thus, if there is an isomorphism $\gamma:F \cong G$, then $F = G$. 
+
+Now we have to show that any two natural isomorphisms $\gamma:F \cong G$ and $\delta:F \cong G$ to be equal to each other: $\gamma = \delta$. 
 \end{proof}
 
 A [[bijective-on-objects functor]] between two categories $A$ and $B$ is a functor $F:A \to B$ where the object function $F_{ob}:Ob(A) \to Ob(B)$ is a [[bijection]]. 
