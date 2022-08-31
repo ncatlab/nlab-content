@@ -17,7 +17,11 @@
 
 ## Idea
 
-_Cubical type theory_ is a version of [[homotopy type theory]] in which [[univalence]] is not just an [[axiom]] but a [[theorem]], hence, since this is [[constructive mathematics|constructive]], has "computational content". Cubical type theory models the [[infinity-groupoid]]-structure implied by [[Martin-Löf type theory|Martin-Löf]] [[identity types]] on [[constructive set theory|constructive]] [[cubical sets]], whence the name.
+_Cubical type theory_ is a flavor of [[dependent type theory]] in which maps out of an interval primitive is used to define [[path types]], rather than the inductively-defined family of [[identity types]] as in [[Martin-Löf type theory]]. 
+
+Cubical type theory comes in [[extensional type theory|extensional]] and [[intensional type theory|intensional]] flavours as well. Extensional cubical type theory, such as [[XTT]], is a version in which [[UIP]] is not just an [[axiom]] but a [[theorem]]. Intensional cubical type theory is usually a version of [[homotopy type theory]] in which [[univalence]] is not just an [[axiom]] but a [[theorem]]. Hence, since this is [[constructive mathematics|constructive]], both kinds of cubical type theory have "computational content". 
+
+Intensional cubical type theory models the [[infinity-groupoid]]-structure implied by [[Martin-Löf type theory|Martin-Löf]] [[identity types]] on [[constructive set theory|constructive]] [[cubical sets]], whence the name.
 
 The first constructive account of the univalence axiom was given in ([Coquand 13](#Coquand13), [Bezem-Coquand-Huber 17](#BezemCoquandHuber17)), called the "BCH-model".
 
@@ -90,5 +94,8 @@ On [[normal form|normalization]] for cubical type theory:
 * [[Jonathan Sterling]], Carlo Angiuli, _Normalization for Cubical Type Theory_, ([arXiv:2101.11479](https://arxiv.org/abs/2101.11479))
 * [[Jonathan Sterling]], _First Steps in Synthetic Tait Computability: The Objective Metatheory of Cubical Type Theory_, ([pdf](https://www.jonmsterling.com/papers/sterling:2021:thesis.pdf))
 
+On [[XTT]]:
+
+* [[Jonathan Sterling]], [[Carlo Angiuli]], [[Daniel Gratzer]], _A Cubical Language for Bishop Sets_, Logical Methods in Computer Science, 18 (1), 2022. ([arXiv:2003.01491](https:arxiv.org/abs/2003.01491)). 
 
 [[!redirects cubical type theories]]
