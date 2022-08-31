@@ -52,6 +52,9 @@ representation of real semisimple Lie groups_,
 
 * {#ProsmansSchneiders00} [[Fabienne Prosmans]], [[Jean-Pierre Schneiders]], _A homological study of bornological spaces_, December 2000, Prepublications Mathematiques de l'Universite Paris 13, 46 ([pdf](http://www.analg.ulg.ac.be/jps/rec/hsbs.pdf))
 
+* Rhiannon Savage, _Koszul monoids in quasi-abelian categories_, [arXiv:2203.08789](https://arxiv.org/abs/2203.08789) 
+
+
 
 * {#Bambozzi14} [[Federico Bambozzi]], section 1 of _On a generalization of affinoid varieties_ ([arXiv:1401.5702](http://arxiv.org/abs/1401.5702))
 
