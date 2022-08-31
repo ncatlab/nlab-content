@@ -17,11 +17,19 @@
 
 ## Idea
 
-_Cubical type theory_ is a flavor of [[dependent type theory]] in which maps out of an interval primitive is used to define [[path types]], rather than the inductively-defined family of [[identity types]] as in [[Martin-Löf type theory]]. 
+_Cubical type theory_ is a flavor of [[dependent type theory]] in which maps out of an interval primitive is used to define [[path types]], rather than the [[inductive family]] of [[identity types]] as in [[Martin-Löf type theory]]. Cubical type theory additionally differs from [[Martin-Löf type theory]] in that [[function extensionality]] is a [[theorem]] in cubical type theory, rather than an axiom as is the case in [[Martin-Löf type theory]]. 
 
-Cubical type theory comes in [[extensional type theory|extensional]] and [[intensional type theory|intensional]] flavours as well. Extensional cubical type theory, such as [[XTT]], is a version in which [[UIP]] is not just an [[axiom]] but a [[theorem]]. Intensional cubical type theory is usually a version of [[homotopy type theory]] in which [[univalence]] is not just an [[axiom]] but a [[theorem]]. Hence, since this is [[constructive mathematics|constructive]], both kinds of cubical type theory have "computational content". 
+Similarly to [[Martin-Löf type theory]], cubical type theory comes in [[extensional type theory|extensional]] and [[intensional type theory|intensional]] flavours as well. One could also add an [[equality reflection]] rule for path types to make the cubical type theory definitionally extensional. 
 
-Intensional cubical type theory models the [[infinity-groupoid]]-structure implied by [[Martin-Löf type theory|Martin-Löf]] [[identity types]] on [[constructive set theory|constructive]] [[cubical sets]], whence the name.
+Univalent cubical type theory models the [[infinity-groupoid]]-structure implied by [[Martin-Löf type theory|Martin-Löf]] [[identity types]] on [[constructive set theory|constructive]] [[cubical sets]], whence the name.
+
+## Canonicity in cubical type theory
+
+In contrast to [[Martin-Löf type theory]], there exist cubical type theories, such as [[XTT]], in which [[UIP]] is not just an [[axiom]] but a [[theorem]]. Similarily, there exist cubical type theories in which [[univalence]] is not just an [[axiom]] but a [[theorem]]. As a result, in those cubical type theories, [[canonicity]] still holds. This is useful for computational purposes, and for the use of [[cubical type theory]] in [[proof assistants]]. 
+
+However, it is equally valid to add an [[axiom]] to a cubical type theory that says all [[type universe]] satisfy [[UIP]] or [[univalence]], so canonicity is not required to hold in all cubical type theories. 
+
+## Univalent cubical type theories
 
 The first constructive account of the univalence axiom was given in ([Coquand 13](#Coquand13), [Bezem-Coquand-Huber 17](#BezemCoquandHuber17)), called the "BCH-model".
 
