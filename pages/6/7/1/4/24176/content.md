@@ -20,11 +20,11 @@
 
 ## Idea ##
 
-There is a canonical way to turn any [[internal category in homotopy type theory]] into a [[weak equivalence|weakly equivalent]] [[univalent category]]. This can be thought of as an analogue of [[univalence]] but for [[isomorphisms]] instead of [[equivalence]].
+There is a canonical way to turn any [[category]] in [[homotopy type theory]] into a [[weak equivalence|weakly equivalent]] [[univalent category]]. This can be thought of as an analogue of [[univalence]] but for [[isomorphisms]] instead of [[equivalence]].
 
 ## Construction ##
 
-These results are from [UFP13](#UFP13). Note: [UFP13](#UFP13)  calls an [[internal category in HoTT]] a "precategory" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
+These results are from [UFP13](#UFP13). Note: [UFP13](#UFP13)  calls a [[category]] a "[[precategory]]" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
 
 \begin{theorem}\label{Theorem995}
 **(Theorem 9.9.5 in [UFP13](#UFP13))**
