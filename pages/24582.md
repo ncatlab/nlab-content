@@ -18,7 +18,7 @@ XTT is an [[extensional type theory|extensional]] [[cubical type theory]] develo
 
 [[UIP]] is a theorem of [[XTT]], rather than an axiom as in [[Martin-Löf type theory]]. As a result, it is an example of a [[cubical type theory]] which is not a [[homotopy type theory]]. 
 
-Additionally, XTT has [[regularity]], [[canonicity]], and certain [[higher inductive types]] like [[propositional truncation]]. It is an open question if it additionally has [[decidable]] [[type checking]] and [[strong normalization]]. 
+Additionally, XTT has [[regularity]], [[canonicity]], and certain [[higher inductive types]] like [[propositional truncation]]. It is an open question if it additionally has [[decidable]] [[type checking]] and normalization. 
 
 ## See also
 
