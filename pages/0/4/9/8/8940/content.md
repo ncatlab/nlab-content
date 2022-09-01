@@ -17,6 +17,8 @@
 
 A [[category]] is called **gaunt** if all its [[isomorphisms]] are in fact [[identities]]. This is a property of [[strict categories]]; that is, it is not [[principle of invariance|invariant]] under [[equivalence of categories]]. See below for some related concepts that are invariant.
 
+In foundations with a weakened notion of equality, where the usual notion of a category is called a **[[strict category]]**, [[gaunt categories]] are precisely the **[[strict univalent categories]]**. 
+
 ## Definitions
 
 ### In set theory
@@ -103,7 +105,13 @@ For gaunt categories, isomorphism of strict categories and equivalence of strict
 In addition, 
 
 \begin{theorem}
-The [[core]] of a univalent category is a [[set]]. 
+The [[core]] of a gaunt category is a [[set]]. 
+\end{theorem}
+
+and 
+
+\begin{theorem}
+The [[Rezk completion]] of a core-thin category is a gaunt category. 
 \end{theorem}
 
 ### Relation to skeletal categories, thin categories, poset categories
