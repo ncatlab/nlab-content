@@ -21,14 +21,15 @@ On non-trivial [[braid group statistics|braiding]] of modal points in the [[Bril
 
 Braiding of Dirac points in twisted bilayer [[graphene]]:
 
-* Jian Kang, Oskar Vafek, *Non-Abelian Dirac node braiding and near-degeneracy of correlated phases at odd integer filling in magic angle twisted bilayer graphene*, Phys. Rev. B **102** (2020) 035161 &lbrack;[arXiv:2002.10360](https://arxiv.org/abs/2002.10360), [doi:10.1103/PhysRevB.102.035161](https://doi.org/10.1103/PhysRevB.102.035161)&rbrack;
+* Jian Kang, Oskar Vafek, *Non-Abelian Dirac node braiding and near-degeneracy of correlated phases at odd integer filling in magic angle twisted bilayer graphene*, Phys. Rev. B **102** (2020) 035161 
+$[$ [arXiv:2002.10360](https://arxiv.org/abs/2002.10360), [doi:10.1103/PhysRevB.102.035161](https://doi.org/10.1103/PhysRevB.102.035161)$]$
 
 
-* Bin Jiang, [[Adrien Bouhon]], Zhi-Kang Lin, Xiaoxi Zhou, Bo Hou, Feng Li, [[Robert-Jan Slager]], Jian-Hua Jiang *Observation of non-Abelian topological semimetals and their phase transitions*,  	Nature Physics **17** (2021) 1239-1246 &lbrack;[arXiv:2104.13397](https://arxiv.org/abs/2104.13397), [doi:10.1038/s41567-021-01340-x](https://doi.org/10.1038/s41567-021-01340-x)&rbrack;
+* Bin Jiang, [[Adrien Bouhon]], Zhi-Kang Lin, Xiaoxi Zhou, Bo Hou, Feng Li, [[Robert-Jan Slager]], Jian-Hua Jiang *Observation of non-Abelian topological semimetals and their phase transitions*,  	Nature Physics **17** (2021) 1239-1246 $[$[arXiv:2104.13397](https://arxiv.org/abs/2104.13397), [doi:10.1038/s41567-021-01340-x](https://doi.org/10.1038/s41567-021-01340-x)$]$
 
 > Here, we consider an exotic type of topological phases beyond the above paradigms that, instead, depend on topological charge conversion processes when band nodes are braided with respect to each other in momentum space or recombined over the Brillouin zone. The braiding of band nodes is in some sense the reciprocal space analog of the non-Abelian braiding of particles in real space.
 
-> &lbrack;...&rbrack;
+> $[$...$]$
 
 > we experimentally observe non-Abelian topological semimetals and their evolutions using acoustic Bloch bands in kagome acoustic metamaterials. By tuning the geometry of the metamaterials, we experimentally confirm the creation, annihilation, moving, merging and splitting of the topological band nodes in multiple bandgaps and the associated non-Abelian topological phase transitions 
 
