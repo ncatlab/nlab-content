@@ -475,3 +475,76 @@ $$
 
 
 
+
+The two adjunctions in \ref{SliceAdjoints} admit the following joint generalisation, which is proven [[Higher Topos Theory|HTT, lem. 5.2.5.2]].
+(Note that the statement there is even more general and here we only use the case where $K = \Delta^0$.)
+
+\begin{proposition}\label{SliceAdjointsGeneralized}
+**(sliced adjoints)** \linebreak
+Let
+
+$$
+   \mathcal{C} 
+   \underoverset
+    {\underset{\;\;\;\;R\;\;\;\;}{\longleftarrow}}
+    {\overset{\;\;\;\;L\;\;\;\;}{\longrightarrow}}
+    {\bot}
+  \mathcal{D}
+$$
+
+be a pair of [[adjoint (∞,1)-functors|adjoint ∞-functors]], where the [[(∞,1)-category|∞-category]] $\mathcal{C}$ has all [[homotopy pullbacks]]. 
+Suppose further we are given objects $c \in \mathcal{C}$ and $d \in \mathcal{D}$ together with a morphism $\alpha: c \to R(d)$ and its adjunct $\beta:L(c) \to d$.
+
+Then there is an induced a pair of [[adjoint (∞,1)-functors|adjoint ∞-functors]] between the [[slice (∞,1)-categories|slice ∞-categories]] of the form
+
+   \[
+     \label{SlicedAdjointFunctorsGeneral}
+     \mathcal{C}_{/c}
+     \underoverset
+       {\underset{\;\;\;\;R_{/b}\;\;\;\;}{\longleftarrow}}
+       {\overset{\;\;\;\;L_{/b}\;\;\;\;}{\longrightarrow}}
+       {\bot}
+     \mathcal{D}_{/d}
+     \mathrlap{\,,} 
+   \]
+
+   where:
+
+   * $L_{/c}$ is the [[composition|composite]]
+
+     $$
+       L_{/c} 
+         \;\colon\; 
+       \mathcal{C}_{/{c}} 
+         \overset{\;\;L\;\;}{\longrightarrow} 
+       \mathcal{D}_{/{L(c)}} 
+         \overset{\;\;\beta_!\;\;}{\longrightarrow}
+       \mathcal{D}_{/d}
+     $$
+
+     of 
+
+     1. the evident functor induced by $L$;
+
+     1. the [[composition]] with $\beta:L(c) \to d$ (i.e. the left [[base change]] along $\beta$).
+
+   * $R_{/d}$ is the [[composition|composite]]
+
+     $$
+       R_{/d} 
+         \;\colon\; 
+       \mathcal{D}_{/{d}} 
+         \overset{\;\;R\;\;}{\longrightarrow} 
+       \mathcal{C}_{/{R(d)}} 
+         \overset{\;\;(\alpha^*\;\;}{\longrightarrow}
+       \mathcal{C}_{/c}
+     $$
+
+     of 
+
+     1. the evident functor induced by $R$;
+
+     1. the [[homotopy pullback|homotopy]] along $\alpha:c \to R(d)$ (i.e. the [[base change]] along $\alpha$).
+
+\end{proposition}
+
