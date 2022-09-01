@@ -35,6 +35,7 @@ By contrast, "set-level foundations" does *not* include foundations of mathemati
   * [[cubical type theory]], including CCHM cubical type theory, Cubical Agda, and Cartesian cubical type theory
   * [[higher observational type theory]]
 * More generally, [[intensional type theory]], in which no types of higher h-level can be shown to exist, but neither can all types be shown to be [[h-sets]].
+* Hypothetical elementary theories of the [[bicategory]] of [[categories]] and the [[(2,1)-category]] of [[groupoids]], expressed in [[first-order logic]] with dependent sorts in the same way that [[ETCS]] is. 
 
 ### Characteristic axiom
 
