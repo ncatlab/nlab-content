@@ -343,11 +343,15 @@ Original articles on quantum error correcting codes:
 
 Realization that quantum error correcting codes could make quantum computation practically feasible:
 
+* [[Emanuel Knill]], [[Raymond Laflamme]], [[Wojciech H. Zurek]], *Resilient Quantum Computation: Error Models and Thresholds*, Proceedings of the Royal Society A **454** 1969 (1998) &lbrack;[arXiv:quant-ph/9702058](https://arxiv.org/abs/quant-ph/9702058)&rbrack;
+
 * [[John Preskill]], *Fault-tolerant quantum computation*, in: *Introduction to Quantum Computation and Information*, World Scientific (1998) $[$[arXiv:quant-ph/9712048](https://arxiv.org/abs/quant-ph/9712048), [doi:10.1142/3724](https://doi.org/10.1142/3724)$]$
 
 * [[John Preskill]], *Reliable Quantum Computers*, Proc. Roy. Soc. Lond. A **454** (1998) 385-410 $[$[arXiv:quant-ph/9705031](https://arxiv.org/abs/quant-ph/9705031), [doi:10.1098/rspa.1998.0167](https://doi.org/10.1098/rspa.1998.0167)$]$
 
 * [[Daniel Gottesman]], *Theory of fault-tolerant quantum computation*, Phys. Rev. A **57** (1998) 127-137 $[$[doi:10.1103/PhysRevA.57.127](https://doi.org/10.1103/PhysRevA.57.127)$]$
+
+* [[Dorit Aharonov]], [[Michael Ben-Or]], *Fault-Tolerant Quantum Computation With Constant Error Rate*, SIAM J. Comput., **38** 4 (2008) 1207–1282 &lbrack;[arXiv:quant-ph/9906129](https://arxiv.org/abs/quant-ph/9906129), [doi:10.1007/978-3-642-32512-0_31](https://doi.org/10.1007/978-3-642-32512-0_31)&rbrack;
 
 * [[Daniel Gottesman]], *Fault-Tolerant Quantum Computation*,  Physics in Canada **63** 4  (2007) 183-189 $[$[arXiv:quant-ph/0701112](https://arxiv.org/abs/quant-ph/0701112)$]$
 
