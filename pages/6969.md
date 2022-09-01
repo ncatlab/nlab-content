@@ -16,11 +16,11 @@
 
 ## Idea
 
-_Intensional type theory_ is the flavor of [[type theory]] in which [[identity types]] are not necessarily [[propositions]] (that is, [[(-1)-truncated]]).  [[Per Martin-Löf|Martin-Löf]]'s original definition of identity types, and the equivalent formulation as an [[inductive type]], are by default intensional; one has to impose extra axioms or rules in order to get [[extensional type theory]] (in which identity types are propositions).
+_Intensional type theory_ is the flavor of [[type theory]] in which [[identity types]] are not necessarily [[propositions]] (that is, [[(-1)-truncated]]).  [[Per Martin-Löf|Martin-Löf]]'s original definition of identity types, and the equivalent formulation as an [[inductive type]], are by default "intensional"; one has to impose extra [[axioms]] or rules in order to get [[extensional type theory]] (in which identity types are propositions).
 
 In particular, [[homotopy type theory]] is intensional, because identity types represent [[path objects]].
 
-Note that some type theorists use "intensional type theory" to refer to type theory which fails to satisfy [[function extensionality]].  This is in general an orthogonal requirement to how we are using the term here.
+Note that some type theorists use "intensional type theory" to refer to type theories which fail to satisfy [[function extensionality]].  This is in general an orthogonal requirement to how we are using the term here.
 
 +-- {: .num_remark}
 ###### Remark
