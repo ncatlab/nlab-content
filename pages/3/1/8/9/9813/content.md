@@ -38,7 +38,7 @@ $$
   \,.
 $$
 
-This was introduced by [[Grothendieck]]. See e.g. ([Vishik09, p. 6](#Vishik09)), ([Mazza-Voevosky-Weibel, p. 181](#MazzaVoevodskyWeibel)).
+This was introduced by [[Grothendieck]]. See e.g. ([Vishik09, p. 6](#Vishik09)), ([Mazza-Voevodsky-Weibel, p. 181](#MazzaVoevodskyWeibel)).
 
 This is a special case of the more general notion of _[[pure motives]]_. See there for more.
 
