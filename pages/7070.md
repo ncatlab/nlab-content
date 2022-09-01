@@ -7,7 +7,7 @@
 
 ## Idea
 
-Given a [[proposition]] $P$ on [[terms]] of [[type]] $X$, its _extension_ is the type $\{x \in X | P(x)\}$ of all elements $x$ for which $P(x)$ is true.
+Given a [[proposition]] $P$ on [[terms]] of [[type]] $X$, its _extension_ is the type $\{x \in X | P(x)\}$ of all elements $x$ for which $P(x)$ is [[true]].
 
 
 
