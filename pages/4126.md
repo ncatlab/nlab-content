@@ -162,6 +162,7 @@ Other theorems about the foundations of [[quantum mechanics]] include:
 
 * [[Bub-Clifton theorem]]
 
+
 ## Related concepts
 
 * [[Bohr topos]]
@@ -204,6 +205,12 @@ The original article:
 Alternative proofs:
 
 * Del Rajan, Matt Visser, _Kochen-Specker theorem revisited_ ([arXiv:1708.01380](https://arxiv.org/abs/1708.01380))
+
+Review:
+
+* Costantino Budroni, Adán Cabello, Otfried Gühne, Matthias Kleinmann, Jan-Åke Larsson, *Kochen-Specker Contextuality* &lbrack;[arXiv:2102.13036](https://arxiv.org/abs/2102.13036)&rbrack;
+
+
 
 The [[sheaf and topos theory|sheaf-theoretic]] interpretation of the theorem was proposed in
 
