@@ -124,9 +124,15 @@ This idea of classically controlled quantum programming via [[dependent linear t
 
 The idea of quantum computation was first expressed in:
 
-* Paul Benioff, *The computer as a physical system: A microscopic quantum mechanical Hamiltonian model of computers as represented by Turing machines*, J Stat Phys 22, 563–591 (1980) ([doi:10.1007/BF01011339](https://doi.org/10.1007/BF01011339))
+* {#Manin1980} [[Yuri I. Manin]], Introduction to: *Computable and Uncomputable*, Sov. Radio (1980) &lbrack;Russian original: [[Manin-1980.pdf:file]]&rbrack;, Enlish translation on p. 69-77 of *Mathematics as Metaphor: Selected essays of Yuri I. Manin*, Collected Works **20**, AMS (2007) &lbrack;[ISBN:978-0-8218-4331-4](https://bookstore.ams.org/cworks-20/)&rbrack;
+
+  > Perhaps, for a better understanding of &lbrack;molecular bilogy&rbrack;, we need a mathematical theory of quantum automata.
+
+* Paul Benioff, *The computer as a physical system: A microscopic quantum mechanical Hamiltonian model of computers as represented by Turing machines*, J Stat Phys 22, 563–591 (1980) &lbrack;[doi:10.1007/BF01011339](https://doi.org/10.1007/BF01011339)&rbrack;
 
 * {#Feynman82} [[Richard Feynman]], *Simulating physics with computers*,  Int J Theor Phys 21, 467–488 (1982) ([doi:10.1007/BF02650179](https://doi.org/10.1007/BF02650179))
+
+  > because nature isn't classical, dammit, if you want to make a simulation of nature, you'd better make it quantum mechanical
 
 
 
@@ -135,7 +141,7 @@ The terminology *[[q-bit]]* goes back to:
 * [[Benjamin Schumacher]], *Quantum coding*, Phys. Rev. A **51** (1995) 2738 $[$[doi:10.1103/PhysRevA.51.2738](https://doi.org/10.1103/PhysRevA.51.2738)$]$
 
 
-The potential practical relevance of quantum computation was highlighted early on via toy examples
+The potential practical relevanc ()e of quantum computation was highlighted early on via toy examples
 
 such as the [[Deutsch-Jozsa algorithm]]:
 
