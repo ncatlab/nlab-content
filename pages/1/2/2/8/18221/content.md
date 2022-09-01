@@ -33,7 +33,7 @@ Weak univalent categories are of huge significance in [[category theory]] becaus
 
 In certain parts of the [[type theory]] literature, such as the [[HoTT book]], categories are sometimes called **[[precategories]]**, and univalent categories are called categories, but strict categories are still called strict categories, which means that strict univalent categories are lacking a name. In this article, we shall follow established terminology outside of the type theory community and call a category a category, and a univalent category a univalent category. We shall also use the adjectives "weak" and "strict" when appropriate. 
 
-Historically, the notion of a univalent category came out of a subfield of type theory called [[homotopy type theory]], where types model [[infinity-groupoids]], and where the interpretation of the usual definition of category in the [[simplicial set]] model does not result in a strict categories, but rather in a [[Segal space]] whose hom spaces are [[homotopy theory|homotopically]] [[0-truncated]] and [[discrete]]. Univalent categories then arose as the [[complete Segal spaces]] whose hom spaces are homotopically 0-truncated and discrete. Complete Segal spaces differ from Segal spaces in that they have a condition, called *Rezk completeness*, that homotopy equivalence of objects (a weakened version of isomorphism) are the same as a weakened version of equality of objects. 
+Historically, the notion of a univalent category came out of a subfield of type theory called [[homotopy type theory]], where types model [[infinity-groupoids]], and where the interpretation of the usual definition of category in the [[simplicial set]] model does not result in a strict categories, but rather in a [[Segal space]] whose hom spaces are [[homotopy theory|homotopically]] [[0-truncated]] and [[discrete]]. Univalent categories then arose as the [[complete Segal spaces]] whose hom spaces are homotopically 0-truncated and discrete. Complete Segal spaces differ from Segal spaces in that they have a condition, analogous to the antisymmetry condition for [[prosets]] and [[posets]], called *Rezk completeness*, that homotopy equivalence of objects (a weakened version of isomorphism) are the same as a weakened version of equality of objects. 
 
 See [[relation between type theory and category theory]] for the interpretation of [[HoTT]] in an [[(infinity,1)-topos]], as well as [[category object in an (infinity,1)-category]], for more information. The general idea is presented there at _[Homotopy Type Theory Formulation](category+object+in+an+%28infinity%2C1%29-category#HomotopyTypeTheoryFormulation)_. For internal [[1-categories]] in HoTT (as opposed to more general internal [[(infinity,1)-categories]]) a comprehensive discussion was given in ([Ahrens-Kapulkin-Shulman-13](#AhrensKapulkinShulman13)).
 
@@ -67,7 +67,7 @@ By induction on identity, we may assume $a$ and $b$ are the same. But then we ha
 
 The inverse of $idtoiso$ is denoted $isotoid$.
 
-A **univalent category** or **saturated category** is a category which satisfies a categorical version of [[antisymmetry]] for [[posets]] called *Rezk completeness*: the canonical function 
+A **univalent category** or **saturated category** is a category which satisfies a condition called *Rezk completeness*: the canonical function 
 $$idtoiso : (a=b) \to (a \cong b)$$
 from the identity type between two objects $a$ and $b$ to the type of isomorphisms between $a$ and $b$ is an equivalence of types. 
 
