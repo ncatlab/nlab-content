@@ -38,6 +38,10 @@ On [[celestial amplitudes]]:
 
 * [[Nima Arkani-Hamed]], Monica Pate, Ana-Maria Raclariu, [[Andrew Strominger]], *Celestial Amplitudes from UV to IR*, JHEP 08 (2021) 062 ([arXiv:2012.04208](https://arxiv.org/abs/2012.04208))
 
+On the [[soft graviton theorem]] in the [[BFSS matrix model]]:
+
+* Noah Miller, [[Andrew Strominger]], Adam Tropper, Tianli Wang, *Soft Gravitons in the BFSS Matrix Model* &lbrack;[arXiv:2208.14547](https://arxiv.org/abs/2208.14547)&rbrack;
+
 
 category: people
 
