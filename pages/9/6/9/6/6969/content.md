@@ -22,6 +22,11 @@ In particular, [[homotopy type theory]] is intensional, because identity types r
 
 Note that some type theorists use "intensional type theory" to refer to type theory which fails to satisfy [[function extensionality]].  This is in general an orthogonal requirement to how we are using the term here.
 
++-- {: .num_remark}
+###### Remark
+The origin of the names "extensional" and "intensional" is somewhat confusing.  In fact they refer to the behavior of the [[definitional equality]].  The idea is that the [[identity type]] is always an "extensional" notion of equality (although it can be more or less extensional, depending on whether further extensionality principles like [[function extensionality]] and [[univalence]] hold).  Thus, if the definitional equality *coincides* with the identity type, the former is also extensional, and so we call the type theory "extensional" --- while if the two equalities do *not* coincide, then the definitional equality has room to be more intensional than the identity type, and so we call the type theory "intensional".  (On this historical reading, "extensional type theory" should refer only to *definitionally* extensional type theory with the reflection rule, which is much stronger than merely requiring all types to be h-sets.)
+=--
+
 ## Properties
 
 ### Decidability
