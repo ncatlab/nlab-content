@@ -136,6 +136,13 @@ See also:
 * [[Jan Zaanen]], _[Anti-de-Sitter/Condensed Matter Theory](https://www.lorentz.leidenuniv.nl/zaanen/wordpress/research/anti-de-sittercondensed-matter/)_
 
 
+### Application to band structure
+
+Application to [[electron band structure]] of multi-layer [[graphene]]:
+
+* Jeong-Won Seo, Taewon Yuk, Young-Kwon Han, Sang-Jin Sin, *ABC-stacked multilayer graphene in holography* &lbrack;[arXiv:2208.14642](https://arxiv.org/abs/2208.14642)&rbrack;
+
+
 
 ### Application to quantum chromodynamics
 
