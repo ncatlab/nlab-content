@@ -20,18 +20,19 @@
 * table of contents
 {:toc}
 
-## Definitions
+## Definition
 
-### Skeleton of a Category
+A [[category]] is __skeletal__ if objects that are [[isomorphism|isomorphic]] are necessarily [[equality|equal]]. 
 
-A [[category]] is __skeletal__ if objects that are [[isomorphism|isomorphic]] are necessarily [[equality|equal]].  The only such categories which do not violate the [[principle of equivalence]] are ([[strict category|strict]]) [[univalent categories]]. 
-
-A __skeleton__ of a category $C$ is defined to be a skeletal [[subcategory]] of $C$ whose [[inclusion functor]] exhibits it as 
-[[equivalence of categories|equivalent]] to $C$. A __weak skeleton__ of $C$ is any skeletal category which is [[equivalence of categories|weakly equivalent]] to $C$.
+A __skeleton__ of a category $C$ is defined to be a skeletal [[subcategory]] of $C$ whose [[inclusion functor]] exhibits it as [[equivalence of categories|equivalent]] to $C$. A __weak skeleton__ of $C$ is any skeletal category which is [[equivalence of categories|weakly equivalent]] to $C$.
 
 In the absence of the [[axiom of choice]], it is more appropriate to define a __skeleton__ of $C$ to be a weak skeleton as defined above.
 
-#### Existence of Skeletons of Categories
+## Constructions
+
+In this section, we work in [[set-level foundations]] to construct skeleta of categories and more general objects.
+
+### Existence of Skeletons of Categories
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -120,6 +121,12 @@ although they are trivially equivalent. As an example of this construction in ac
 
 ## Properties
 
+In this section we collect some properties of skeleta in [[set-level foundations]].
+
+### Non-invariance
+
+Of course, two categories can be equivalent even if one is skeletal and the other is not.  Thus, the notion of skeletal category violates the [[principle of equivalence]].  (It doesn't make sense to ask whether a *particular* category, skeletal or not, "violates the principle of equivalence".)
+
 ### Skeletons without Choice
 
 Without any choice, we have the following theorems.
@@ -194,25 +201,37 @@ For convenience we add:
 
 It is well-known that objects defined by [[universal property|universal properties]] in a category, such as [[limits]] and [[colimits]], are not unique on the nose, but only unique up to unique canonical isomorphism.  It can be tempting to suppose that in a *skeletal* category, where any two isomorphic objects are equal, such objects will in fact be unique on the nose.  However, under the most appropriate definition of "unique," this is *not* true (in general), because of the presence of automorphisms.
 
-More explicitly, consider the notion [[cartesian product]] in a category.  Although we colloquially speak of "a product" of objects $A$ and $B$ as being the *object* $A\times B$, strictly speaking a product consists of the object $A\times B$ *together with* the projections $A\times B\to A$ and $A\times B\to B$ which exhibit its universal property.  Thus, even if the category in question is skeletal, so that there can be only one object $A\times B$ that is a product of $A$ and $B$, in general this object can still "be the product of $A$ and $B$" in many different ways.
+More explicitly, consider the notion of [[cartesian product]] in a category.  Although we colloquially speak of "a product" of objects $A$ and $B$ as being the *object* $A\times B$, strictly speaking a product consists of the object $A\times B$ *together with* the projections $A\times B\to A$ and $A\times B\to B$ which exhibit its universal property.  Thus, even if the category in question is skeletal, so that there can be only one object $A\times B$ that is a product of $A$ and $B$, in general this object can still "be the product of $A$ and $B$" in many different ways.
 
 For example, given any projections $A\times B\to A$ and $A\times B\to B$ that exhibit $A\times B$ as a product of $A$ and $B$, we can compose them both with any automorphism of $A\times B$ to get a new, different, pair of projections that also exhibit $A\times B$ as a product of $A$ and $B$.  In fact, the universal property of a product implies that any two pairs of projections are related by an automorphism of $A\times B$, so this example is generic.  Thus, even in a skeletal category, we cannot speak of "the" product of $A$ and $B$, except in the same [[generalized the|generalized sense]] that makes sense in any category.  A formal way to say this is that the "category of products of $A$ and $B$," while still *equivalent* to the [[trivial category]], as it is in any category with products, will not be *isomorphic* to the trivial category even when the ambient category is skeletal.
 
 (It is true in a few cases, though, that skeletality implies uniqueness on the nose.  For instance, a [[terminal object]] can have no nonidentity automorphisms, so in a skeletal category, a terminal object (if one exists) really is unique on the nose.)
 
+## In intensional/homotopy type theory
+
+All the discussion above pertains to [[set-level foundations]].  In [[intensional type theory]] such as [[homotopy type theory]], additional care is needed.
+
+A first guess is to define a [[precategory]] $C$ to be skeletal if for any objects $a,b$ there is a function $\Vert a\cong b\Vert \to (a=b)$, i.e. if $a$ and $b$ are merely isomorphic then they are equal.  (Here $\Vert-\Vert$ denotes the [[propositional truncation]].)  However, if the [[type]] $ob(C)$ of objects is not a set, then $a=b$ is not a [[proposition]], and so under this definition a category could "be skeletal" in more than one way.
+
+Arguably a better definition is to say that a precategory $C$ is **skeletal** if for any objects $a,b$ the canonical function
+$$ (a=b) \to \Vert a\cong b\Vert $$
+is an equivalence.  Since $\Vert a\cong b\Vert$ is always a proposition, this entails that $a=b$ is also a proposition.  Thus, this implies that $ob(C)$ *is* a set, i.e. that $C$ is a [[strict category]].
+
+Note the analogy between this condition and the notion of [[univalent category]]: the only difference is the propositional truncation.  It follows that if a precategory is both skeletal and univalent, then $a\cong b$ is always a proposition (since it is equivalent to its propositional truncation), and thus the category is [[gaunt category|gaunt]].  Indeed, the gaunt categories are precisely those that are both skeletal and univalent.
+
+Unlike in set-level foundations, in intensional type theory not every precategory (and not even every univalent category) has a skeleton.  Indeed, if the axiom [[sets cover]] fails, then there can be univalent categories that are not weakly equivalent to any strict category.  For this reason, the notion of skeleton tends to be less useful outside of set-level foundations, although particular concrete examples may turn out to be skeletal.
 
 ## Examples
 
-### Univalent categories
+* Every [[poset]] is skeletal.
+ 
+* The [[walking parallel pair]] is a skeletal category which is not a poset.
 
-In [[set theory]], every [[univalent category]] is a skeletal category whose [[core]] is [[thin category|thin]]; i.e. where every set of isomorphisms $A \cong B$ between two objects $A$ and $B$ is a [[subsingleton]]. 
+* The [[free object|free]] [[category]] on a [[directed acyclic graph]] is skeletal.
 
-Examples include: 
+All of the above examples are in fact [[gaunt categories|gaunt]]: not only are any two isomorphic objects equal, but any isomorphism is an identity morphism.
 
-* Every [[poset]] is a univalent category, and thus skeletal. 
-* The [[walking parallel pair]] is a univalent category which is not a [[poset]], and thus skeletal. 
-* The [[free object|free]] [[category]] on a [[directed acyclic graph]] is a univalent category, and thus skeletal 
-* The univalent [[walking isomorphism]] is isomorphic to the [[terminal category]], and thus skeletal. 
+* The [[delooping]] of a [[group]] is a skeletal category that is not gaunt (unless the group is [[trivial group|trivial]]).  In intensional type theory, this is a non-univalent precategory; its [[Rezk completion]] is no longer skeletal according to the above improved definition.
 
 ### Posets as skeleta of prosets
  {#PosetsAsSkeletaOfProsets}
