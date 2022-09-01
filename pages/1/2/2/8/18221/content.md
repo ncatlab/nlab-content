@@ -61,7 +61,7 @@ In [[extensional type theory]], univalent categories and gaunt categories are eq
 
 Note: All categories given can become univalent via the [[Rezk completion]].
 
-* Every [[gaunt category]] is a [[strict category|strict]] univalent category. 
+* Every [[gaunt category]] is a [[strict category|strict]] univalent category, or equivalently a [[skeletal category|skeletal]] univalent category.
 * There is a category $\mathit{Set}$, whose type of objects is $Set$, and with $hom_{\mathit{Set}}(A,B)\equiv (A \to B)$. Under [[univalence]] this becomes a [[category]]. One can also show that any [[category]] of set-level structures such as groups, rings topologicial spaces, etc. is also univalent.
 
 * For any 1-type $X$, there is a univalent category with $X$ as its type of objects and with $hom(x,y)\equiv(x=y)$. If $X$ is a set we call this the **discrete category** on $X$. In general, we call this a **groupoid**.
@@ -123,6 +123,8 @@ There is a canonical way to turn a [[category]] into a univalent category via th
 * [[category]]
 
 * [[gaunt category]]
+
+* [[locally univalent bicategory]]
 
 * [[type-theoretic definition of category]]
 
