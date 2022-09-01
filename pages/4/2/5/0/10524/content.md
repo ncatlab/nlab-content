@@ -85,12 +85,18 @@ On [[non-perturbative effects]] in graphene:
 
 * Juan Angel Casimiro Olivares, Ana Julia Mizher, Alfredo Raya, *Non-perturbative field theoretical aspects of graphene and related systems* &lbrack;[arXi:2109.10420](https://arxiv.org/abs/2109.10420)&rbrack;
 
+Discussion via [[Ads-CFT in condensed matter physics]]:
+
+* Jeong-Won Seo, Taewon Yuk, Young-Kwon Han, Sang-Jin Sin, *ABC-stacked multilayer graphene in holography* &lbrack;[arXiv:2208.14642](https://arxiv.org/abs/2208.14642)&rbrack;
+
 
 ### Berry connection
 
 On "fictitious" contributions to the [[Berry connection]] on the [[Brillouin torus]] of graphene:
 
 * Mircea Trif, Pramey Upadhyaya, Yaroslav Tserkovnyak, *Theory of electromechanical coupling in dynamical graphene*, Phys. Rev. B **88** 245423 (2013) $[$[doi:10.1103/PhysRevB.88.245423](https://doi.org/10.1103/PhysRevB.88.245423), [arXiv:1210.7384](https://arxiv.org/abs/1210.7384)$]$
+
+
 
 
 ### Movement of Dirac points
