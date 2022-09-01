@@ -41,6 +41,8 @@ Whereas "continuation-passing style" refers to a programming technique, the term
 
 ## Related concepts
 
+* [[Response category]]
+
 * [[continuation monad]]
 
 * [[programming language]]
