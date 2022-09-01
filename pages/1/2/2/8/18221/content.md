@@ -36,7 +36,18 @@ Similarly to the [[univalence axiom]] we make two notions of sameness the same. 
 
 ## Definition ##
 
+There are two notions of "sameness" for objects of a category. On one hand we have an [[isomorphism]] between objects $a$ and $b$, on the other hand we have equality of objects $a$ and $b$. 
+
+There is a special kind of category called a **univalent category** where these two notions of equality coincide and some very nice properties arise.
+
 ### In set theory
+
+\begin{definition}
+A **univalent category** or **saturated category** is a [[skeletal category]] $C$ whose [[core]] is a [[setoid]]. 
+
+\end{definition}
+
+Expanding out, this becomes
 
 \begin{definition}
 A **univalent category** or **saturated category** is a category $C$ such that the set of isomorphisms $A \cong B$ between every two objects $A \in Ob(C)$ and $B \in Ob(C)$ of $C$ is a [[subsingleton]], and there is an isomorphism $f:A \cong B$ if and only if $A = B$. 
@@ -45,11 +56,7 @@ A **univalent category** or **saturated category** is a category $C$ such that t
 
 ### In type theory
 
-In a [[dependent type theory]] with some notion of [[identity type]] or [[path type]], there are two notions of "sameness" for objects of a precategory. On one hand we have an [[isomorphism]] between objects $a$ and $b$, on the other hand we have equality of objects $a$ and $b$. 
-
-There is a special kind of category called a **univalent category** where these two notions of equality coincide and some very nice properties arise.
-
-If $A$ is a category and $a,b:A$, then there is a map
+In a [[dependent type theory]] with some notion of [[identity type]] or [[path type]], if $A$ is a category and $a,b:A$, then there is a map
 
 $$idtoiso : (a=b) \to (a \cong b)$$
 
@@ -93,7 +100,13 @@ is defined by induction on [[truncation]] from concatenation of the [[identity t
 
 ### In set theory
 
+\begin{theorem}
+The [[core]] of a univalent category is a [[set]]. 
+\end{theorem}
+
+\begin{theorem}
 Given two categories $A$ and $B$, if $B$ is univalent, then the functor category $B^A$ is univalent. 
+\end{theorem}
 
 \begin{proof}
 Let $F:A \to B$ and $G:A \to B$ be functors from $A$ to $B$. We must show that there is at most one natural isomorphism between $F$ and $G$, and there is an isomorphism $\gamma:F \cong G$ if and only if $F = G$. 
@@ -140,6 +153,12 @@ There is a canonical way to turn a [[category]] into a univalent category via th
 ## Related pages
 
 * [[category]]
+
+* [[skeletal category]]
+
+* [[setoid]]
+
+* [[core]]
 
 * [[type-theoretic definition of category]]
 
