@@ -126,7 +126,9 @@ The idea of quantum computation was first expressed in:
 
 * Paul Benioff, *The computer as a physical system: A microscopic quantum mechanical Hamiltonian model of computers as represented by Turing machines*, J Stat Phys 22, 563–591 (1980) ([doi:10.1007/BF01011339](https://doi.org/10.1007/BF01011339))
 
-* [[Richard Feynman]], *Simulating physics with computers*,  Int J Theor Phys 21, 467–488 (1982) ([doi:10.1007/BF02650179](https://doi.org/10.1007/BF02650179))
+* {#Feynman82} [[Richard Feynman]], *Simulating physics with computers*,  Int J Theor Phys 21, 467–488 (1982) ([doi:10.1007/BF02650179](https://doi.org/10.1007/BF02650179))
+
+
 
 The terminology *[[q-bit]]* goes back to:
 
@@ -163,6 +165,10 @@ Quantum computation became widely thought to be not just a theoretical but a pla
 * {#Steane96} [[Andrew M. Steane]], *Error Correcting Codes in Quantum Theory*, Phys. Rev. Lett. 77, 793 1996 ([doi:10.1103/PhysRevLett.77.793](https://doi.org/10.1103/PhysRevLett.77.793))
 
 * {#CalderbankShor96} [[Robert Calderbank]], [[Peter W. Shor]], *Good Quantum Error-Correcting Codes Exist*, Phys. Rev. A, Vol. 54, No. 2, pp. 1098-1106, 1996 ([doi:10.1103/PhysRevA.54.1098](https://doi.org/10.1103/PhysRevA.54.1098))
+
+Early review:
+
+* [[Yuri I. Manin]], *Classical computing, quantum computing, and Shor's factoring algorithm*, Astérisque, **266** Séminaire Bourbaki 862 (2000) 375-404 &lbrack;[arXiv:quant-ph/9903008](https://arxiv.org/abs/quant-ph/9903008), [numdam:SB_1998-1999__41__375_0](http://www.numdam.org/item/?id=SB_1998-1999__41__375_0)&rbrack;
 
 
 Textbook accounts:
