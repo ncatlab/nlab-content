@@ -217,6 +217,12 @@ Computation of [[graviton]] [[scattering amplitudes]]:
 
 * Robert Echols, _M-theory, supergravity and the matrix model: Graviton scattering and non-renormalization theorems_, PhD thesis, 1999 [pdf](https://web.calpoly.edu/~rechols/phys403/mythesis.pdf)
 
+In relation to the [[soft graviton theorem]]:
+
+* Noah Miller, [[Andrew Strominger]], Adam Tropper, Tianli Wang, *Soft Gravitons in the BFSS Matrix Model* &lbrack;[arXiv:2208.14547](https://arxiv.org/abs/2208.14547)&rbrack;
+
+
+
 ### Black holes
 
 Relation to [[black holes in string theory]]:
