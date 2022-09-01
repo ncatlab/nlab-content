@@ -205,7 +205,7 @@ For example, given any projections $A\times B\to A$ and $A\times B\to B$ that ex
 
 ### Univalent categories
 
-In [[set theory]], every [[univalent category]] is a skeletal category whose [[core]] is a [[setoid]]; i.e. where every set of isomorphisms $A \cong B$ between two objects $A$ and $B$ is a [[subsingleton]]. 
+In [[set theory]], every [[univalent category]] is a skeletal category whose [[core]] is [[thin category|thin]]; i.e. where every set of isomorphisms $A \cong B$ between two objects $A$ and $B$ is a [[subsingleton]]. 
 
 Examples include: 
 
