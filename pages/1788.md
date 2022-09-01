@@ -1,6 +1,8 @@
 
 [[LeibnizMachineReversible.jpg:file]]
 
+[[Manin-1980.pdf:file]]
+
 $$
   \array{
     P
@@ -65,7 +67,7 @@ Review:
 
 * [[Charles H. Bennett]], *Notes on the history of reversible computation*,  IBM Journal of Research and Development *32* 1 (1988) &lbrack;[doi:10.1147/rd.321.0016](https://doi.org/10.1147/rd.321.0016)&rbrack;
 
-* [[Charles H.Bennett]], *Notes on Landauer's principle, reversible computation, and Maxwell's Demon*, Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics, **34** 3 (2003) 501-510 (<a href="https://doi.org/10.1016/S1355-2198(03)00039-X">doi:10.1016/S1355-2198(03)00039-X</a>)
+* [[Charles H. Bennett]], *Notes on Landauer's principle, reversible computation, and Maxwell's Demon*, Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics, **34** 3 (2003) 501-510 (<a href="https://doi.org/10.1016/S1355-2198(03)00039-X">doi:10.1016/S1355-2198(03)00039-X</a>)
 
 
 
