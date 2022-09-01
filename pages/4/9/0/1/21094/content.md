@@ -37,3 +37,10 @@ Review with focus on [[photons]] in [[electromagnetism]]:
 Discussion of application to [[gravitational waves]] in the [[classical limit]]:
 
 * {#SahaSahooSen19} Arnab Priya Saha, Biswajit Sahoo, [[Ashoke Sen]], _Proof of the Classical Soft Graviton Theorem in $D=4$_ ([arXiv:1912.06413](https://arxiv.org/abs/1912.06413))
+
+Discussion in the [[BFSS matrix model]]:
+
+* Noah Miller, [[Andrew Strominger]], Adam Tropper, Tianli Wang, *Soft Gravitons in the BFSS Matrix Model* &lbrack;[arXiv:2208.14547](https://arxiv.org/abs/2208.14547)&rbrack;
+
+
+
