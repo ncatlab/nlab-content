@@ -41,7 +41,11 @@ Due to:
 
 * {#Simon97} [[Daniel R. Simon]], *On the power of quantum computation*, SIAM Journal on Computing **26** 5 (1997) &lbrack;[doi:10.1137/S0097539796298637](https://doi.org/10.1137/S0097539796298637), [pdf](https://courses.cs.washington.edu/courses/cse599/01wi/papers/simon_qc.pdf)&rbrack;
 
-Review in:
+Early review:
+
+* [[Yuri I. Manin]], *Classical computing, quantum computing, and Shor's factoring algorithm*, Astérisque, **266** Séminaire Bourbaki 862 (2000) 375-404 &lbrack;[arXiv:quant-ph/9903008](https://arxiv.org/abs/quant-ph/9903008), [numdam:SB_1998-1999__41__375_0](http://www.numdam.org/item/?id=SB_1998-1999__41__375_0)&rbrack;
+
+Further review:
 
 * [[Daniel Simon]], *[Exploring Simon’s Algorithm with Daniel Simon](https://aws.amazon.com/blogs/quantum-computing/simons-algorithm/)* (Oct 2021)
 
