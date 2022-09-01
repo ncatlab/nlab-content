@@ -27,6 +27,13 @@ Introducing what came to be called the *[[Gauss-Manin connection]]*:
 
 * {#Manin58} [[Yuri Manin]], _Algebraic curves over fields with differentiation_, Izv. Akad. Nauk SSSR Ser. Mat. **22** 6 (1958) 737-756 $[$[mathnet:izv3998](http://mi.mathnet.ru/izv3998), [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=im&paperid=3998&volume=22&year=1958&issue=6&fpage=737&what=fullt&option_lang=eng)$]$ (in Russian)
 
+Introducing the notion of [[quantum computation]]
+
+...
+
+and review of [[Shor's algorithm]]:
+
+* [[Yuri I. Manin]], *Classical computing, quantum computing, and Shor's factoring algorithm*, Astérisque, **266** Séminaire Bourbaki 862 (2000) 375-404 &lbrack;[arXiv:quant-ph/9903008](https://arxiv.org/abs/quant-ph/9903008), [numdam:SB_1998-1999__41__375_0](http://www.numdam.org/item/?id=SB_1998-1999__41__375_0)&rbrack;
 
 On [[homological algebra]] and [[homotopical algebra]] (via a [[model structure on dgc-algebras]] for [[rational homotopy theory]]):
 
@@ -50,6 +57,8 @@ _Mathematics as Metaphor_: Selected Essays of Yuri I. Manin (ed. 2007) ([libquot
 
 
 category: people
+
+[[!redirects Yuri I. Manin]]
 
 [[!redirects Yu. Manin]]
 [[!redirects Yu. I. Manin]]
