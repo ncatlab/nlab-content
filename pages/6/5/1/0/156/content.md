@@ -24,7 +24,7 @@
 
 ### Skeleton of a Category
 
-A [[category]] is __skeletal__ if objects that are [[isomorphism|isomorphic]] are necessarily [[equality|equal]].  (So this is a notion irredeemably violating the [[principle of equivalence]] of [[category theory]].)
+A [[category]] is __skeletal__ if objects that are [[isomorphism|isomorphic]] are necessarily [[equality|equal]].  The only such categories which do not violate the [[principle of equivalence]] are ([[strict category|strict]]) [[univalent categories]]. 
 
 A __skeleton__ of a category $C$ is defined to be a skeletal [[subcategory]] of $C$ whose [[inclusion functor]] exhibits it as 
 [[equivalence of categories|equivalent]] to $C$. A __weak skeleton__ of $C$ is any skeletal category which is [[equivalence of categories|weakly equivalent]] to $C$.
@@ -202,6 +202,17 @@ For example, given any projections $A\times B\to A$ and $A\times B\to B$ that ex
 
 
 ## Examples
+
+### Univalent categories
+
+In [[set theory]], every [[univalent category]] is a skeletal category whose [[core]] is a [[setoid]]; i.e. where every set of isomorphisms $A \cong B$ between two objects $A$ and $B$ is a [[subsingleton]]. 
+
+Examples include: 
+
+* Every [[poset]] is a univalent category, and thus skeletal. 
+* The [[walking parallel pair]] is a univalent category which is not a [[poset]], and thus skeletal. 
+* The [[free object|free]] [[category]] on a [[directed acyclic graph]] is a univalent category, and thus skeletal 
+* The univalent [[walking isomorphism]] is isomorphic to the [[terminal category]], and thus skeletal. 
 
 ### Posets as skeleta of prosets
  {#PosetsAsSkeletaOfProsets}
