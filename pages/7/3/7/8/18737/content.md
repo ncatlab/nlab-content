@@ -23,6 +23,34 @@ Similarly to [[Martin-Löf type theory]], cubical type theory comes in [[extensi
 
 Univalent cubical type theory models the [[infinity-groupoid]]-structure implied by [[Martin-Löf type theory|Martin-Löf]] [[identity types]] on [[constructive set theory|constructive]] [[cubical sets]], whence the name.
 
+## Syntax
+
+### The interval and face formulas
+
+We begin with a [[dependent type theory]] which has rules for [[dependent product types]], [[dependent sum types]], the [[empty type]], [[unit type]], [[booleans type]], and [[natural numbers type]]. 
+
+Cubical type theory adds to dependent type theory an interval primitive $I$, whose elements are called "dimensions" as well as face formulas $F$, which behave like propositions in a [[propositional logic]]. Both come with the following judgments for dimension variables and face formulae:
+
+$$\frac{\Gamma \; ctx}{\Gamma, i:I \; ctx} \qquad \frac{\Gamma \; ctx \quad \Gamma \vdash \phi:F}{\Gamma, \phi \; ctx}$$
+
+Similarly to types, dimension variables and face formulas come with their own [[substitution rules]], [[weakening rules]], and [[hypothesis rules]]. 
+
+In addition, there are rules for forming the endpoints of the interval:
+
+$$\frac{\Gamma}{\Gamma \vdash 0:I} \qquad \frac{\Gamma}{\Gamma \vdash 1:I}$$
+
+Equality of dimensions in the interval is a face formula:
+
+$$\frac{\Gamma \vdash r:I \quad \Gamma \vdash s:I}{\Gamma \vdash r = s:I}$$
+
+and face formulas are closed under disjunction
+
+$$\frac{\Gamma \vdash \phi:F \quad \Gamma \vdash \psi:F}{\Gamma \vdash \phi \vee \psi:F}$$
+
+Since face formulae behave like propositions, it should be possible to judge them to be true. Thus, we have the following rules:
+
+$$\frac{\Gamma \vdash \phi \; true}{\Gamma \vdash \phi \vee \psi \; true} \qquad \frac{\Gamma \vdash \psi \; true}{\Gamma \vdash \phi \vee \psi \; true} \qquad \frac{\Gamma \vdash \phi \vee \psi \; true \quad \Gamma, \phi \vdash \chi \; true \quad \Gamma, \psi \vdash \chi \; true}{\Gamma \vdash \chi \; true}$$
+
 ## Canonicity in cubical type theory
 
 In contrast to [[Martin-Löf type theory]], there exist cubical type theories, such as [[XTT]], in which [[UIP]] is not just an [[axiom]] but a [[theorem]]. Similarily, there exist cubical type theories in which [[univalence]] is not just an [[axiom]] but a [[theorem]]. As a result, in those cubical type theories, [[canonicity]] still holds. This is useful for computational purposes, and for the use of [[cubical type theory]] in [[proof assistants]]. 
