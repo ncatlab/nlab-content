@@ -35,3 +35,7 @@ By contrast, "set-level foundations" does *not* include foundations of mathemati
   * [[cubical type theory]], including CCHM cubical type theory, Cubical Agda, and Cartesian cubical type theory
   * [[higher observational type theory]]
 * More generally, [[intensional type theory]], in which no types of higher h-level can be shown to exist, but neither can all types be shown to be [[h-sets]].
+
+### Characteristic axiom
+
+Even though all the basic objects in a set-level foundation are sets, it's of course possible to talk about objects of higher [[h-level]] (e.g., via [[Kan complexes]], [[model categories]], [[quasicategories]], etc.). However, as compared to a higher-level foundation, in any set-level foundation, these objects will satisfy the principle that [[sets cover]]. For example, in a set-level foundation, every [[homotopy type]] admits a surjection from a set and every [[(∞,1)-category]] admits a surjection from a set to its [[core]] [[∞-groupoid]].
