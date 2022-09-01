@@ -23,39 +23,23 @@ In [[set theory]], there are two ways to identify two [[objects]] of a [[categor
 
 There are two ways to make equality and isomorphism of objects the same, without violating the [[principle of equivalence]]:
 
-1. By requiring the [[isomorphism]] sets to be [[subsingletons]], so that a [[biconditional]] could be established without violating the [[principle of equivalence]] between the [[propositions]] that an isomorphism exists between two [[objects]] and that two objects are equal. This is the approach taken in [[set theory]] foundations. 
+1. By requiring the [[isomorphism]] sets to be [[subsingletons]], so that a [[biconditional]] could be established without violating the [[principle of equivalence]] between the [[propositions]] that an isomorphism exists between two [[objects]] and that two objects are equal. This is the approach taken in [[set theory]] foundations, but results in a [[gaunt category]]. 
 
 2. By weakening the notion of [[equality]] so that equality of [[objects]] is no longer valued solely in [[propositions]], allowing for equality of objects to be [[sets]] and possibly the same as [[isomorphisms]], without violating the [[principle of equivalence]]. However, this necessitates a change in the [[mathematical foundations]] from [[set theory]] to an alternative, such as [[type theory]]. 
 
-Adopting either approach results in what is usually called a **univalent category** or **saturated category**. In foundations with a weakened notion of equality, the usual notion of a category is called a **[[strict category]]**, and the first notion is thus called a **strict univalent category** or **strict saturated category**. The second notion could conceivably be called **weak univalent category** or **weak saturated category**, in analogy with **[[weak category]]** for non-strict categories for disambiguation. 
+This second notion is what is called a **univalent category** or **saturated category**. 
 
-Weak univalent categories are of huge significance in [[category theory]] because many [[concrete categories]] of set-level structures, such as [[Set]], [[Grp]], [[Ring]], [[Mod]], [[Top]], [[Met]], [[StrCat]], and so on are all weak univalent categories. 
+Univalent categories are of huge significance in [[category theory]] because many [[concrete categories]] of set-level structures, such as [[Set]], [[Grp]], [[Ring]], [[Mod]], [[Top]], [[Met]], [[StrCat]], and so on are all weak univalent categories. 
 
-In certain parts of the [[type theory]] literature, such as the [[HoTT book]], categories are sometimes called **[[precategories]]**, and univalent categories are called categories, but strict categories are still called strict categories, which means that strict univalent categories are lacking a name. In this article, we shall follow established terminology outside of the type theory community and call a category a category, and a univalent category a univalent category. We shall also use the adjectives "weak" and "strict" when appropriate. 
+In certain parts of the [[type theory]] literature, such as the [[HoTT book]], categories are sometimes called **[[precategories]]**, and univalent categories are called categories. In this article, we shall follow established terminology outside of the type theory community and call a category a category, and a univalent category a univalent category. 
 
 Historically, the notion of a univalent category came out of a subfield of type theory called [[homotopy type theory]], where types model [[infinity-groupoids]], and where the interpretation of the usual definition of category in the [[simplicial set]] model does not result in a strict categories, but rather in a [[Segal space]] whose hom spaces are [[homotopy theory|homotopically]] [[0-truncated]] and [[discrete]]. Univalent categories then arose as the [[complete Segal spaces]] whose hom spaces are homotopically 0-truncated and discrete. Complete Segal spaces differ from Segal spaces in that they have a condition, analogous to the antisymmetry condition for [[prosets]] and [[posets]], called *Rezk completeness*, that homotopy equivalence of objects (a weakened version of isomorphism) are the same as a weakened version of equality of objects. 
 
 See [[relation between type theory and category theory]] for the interpretation of [[HoTT]] in an [[(infinity,1)-topos]], as well as [[category object in an (infinity,1)-category]], for more information. The general idea is presented there at _[Homotopy Type Theory Formulation](category+object+in+an+%28infinity%2C1%29-category#HomotopyTypeTheoryFormulation)_. For internal [[1-categories]] in HoTT (as opposed to more general internal [[(infinity,1)-categories]]) a comprehensive discussion was given in ([Ahrens-Kapulkin-Shulman-13](#AhrensKapulkinShulman13)).
 
-It was later realized that the definition of a category and a univalent category are not just applicable to homotopy type theory, but to any [[dependent type theory]] with [[identity types]] or [[path types]]. However, in a type theories without [[univalence]], the type theory no longer models [[infinity-groupoids]], and categories and univalent categories do not model certain [[Segal spaces]] and [[complete Segal spaces]]. In fact, the definitions remain valid in an [[extensional type theory]], where types model [[sets]], and the definition of a category results in the same definition as that in set theory. The definition of a univalent category in extensional type theory resulted in something else: in a [[skeletal category]] whose [[core]] is [[thin category|thin]]. As a result, univalent categories are a well-defined notion in set theory foundations as well. 
+It was later realized that the definition of a category and a univalent category are not just applicable to homotopy type theory, but to any [[dependent type theory]] with [[identity types]] or [[path types]]. However, in a type theories without [[univalence]], the type theory no longer models [[infinity-groupoids]], and categories and univalent categories do not model certain [[Segal spaces]] and [[complete Segal spaces]]. In fact, the definitions remain valid in an [[extensional type theory]], where types model [[sets]], and the definition of a category results in a [[strict category]] and the definition of a univalent category results in a [[gaunt category]]. 
 
 ## Definition ##
-
-### In set theory
-
-\begin{definition}
-A **univalent category** or **saturated category** is a [[skeletal category]] $C$ whose [[core]] is [[thin category|thin]]. 
-
-\end{definition}
-
-Expanding out, this becomes
-
-\begin{definition}
-A **univalent category** or **saturated category** is a category $C$ such that the set of isomorphisms $A \cong B$ between every two objects $A \in Ob(C)$ and $B \in Ob(C)$ of $C$ is a [[subsingleton]], and there is an isomorphism $f:A \cong B$ if and only if $A = B$. 
-
-\end{definition}
-
-### In type theory
 
 In a [[dependent type theory]] with some notion of [[identity type]] or [[path type]], if $A$ is a category and $a,b:A$, then there is a map
 
@@ -71,22 +55,13 @@ A **univalent category** or **saturated category** is a category which satisfies
 $$idtoiso : (a=b) \to (a \cong b)$$
 from the identity type between two objects $a$ and $b$ to the type of isomorphisms between $a$ and $b$ is an equivalence of types. 
 
-In [[extensional type theory]], the type theoretic definition and thd set theoretic definitions are equivalent to each other. Every [[identity type]] is a [[proposition]]/[[subsingleton]] in extensional type theory. Thus, by the Rezk completeness condition, the set of isomorphisms is a subsingleton, and two objects which are isomorphic to each other are also equal to each other. 
+In [[extensional type theory]], univalent categories and gaunt categories are equivalent to each other, since every category is a [[strict category]]. However, univalent categories and gaunt categories are not the same in [[intensional type theory]] for general categories; they only coincide for [[strict categories]]. 
 
-However, the two definitions are not the same in [[intensional type theory]] for general categories; instead, they only coincide for [[strict categories]], where the definitions define *[[strict category|strict]] univalent categories*. 
+## Examples 
 
-## Examples ##
-
-### In set theory
-
-* Every [[poset]] is a univalent category
-* The [[walking parallel pair]] is a univalent category which is not a [[poset]]
-* The [[free object|free]] [[category]] on a [[directed acyclic graph]] is a univalent category. 
-* The univalent [[walking isomorphism]] is isomorphic to the [[terminal category]]. 
-
-### In type theory 
 Note: All categories given can become univalent via the [[Rezk completion]].
 
+* Every [[gaunt category]] is a [[strict category|strict]] univalent category. 
 * There is a category $\mathit{Set}$, whose type of objects is $Set$, and with $hom_{\mathit{Set}}(A,B)\equiv (A \to B)$. Under [[univalence]] this becomes a [[category]]. One can also show that any [[category]] of set-level structures such as groups, rings topologicial spaces, etc. is also univalent.
 
 * For any 1-type $X$, there is a univalent category with $X$ as its type of objects and with $hom(x,y)\equiv(x=y)$. If $X$ is a set we call this the **discrete category** on $X$. In general, we call this a **groupoid**.
@@ -99,18 +74,12 @@ is defined by induction on [[truncation]] from concatenation of the [[identity t
 
 ## Properties ##
 
-### In set theory
-
-\begin{theorem}
-The [[core]] of a univalent category is a [[set]]. 
-\end{theorem}
-
 \begin{theorem}
 Given two categories $A$ and $B$, if $B$ is univalent, then the functor category $B^A$ is univalent. 
 \end{theorem}
 
 \begin{proof}
-Let $F:A \to B$ and $G:A \to B$ be functors from $A$ to $B$. We must show that there is at most one natural isomorphism between $F$ and $G$, and there is an isomorphism $\gamma:F \cong G$ if and only if $F = G$. 
+Let $F:A \to B$ and $G:A \to B$ be functors from $A$ to $B$. 
 
 Suppose that $\gamma:F \to G$ is a natural isomorphism. Then for any object $a \in A$, there is an isomorphism $\gamma_a: F_{ob}(a) \cong G_{ob}(a)$ in $B$. Since $B$ is univalent, this shows that $F_{ob}(a) = G_{ob}(a)$ for all objects $a$, and by function extensionality, that $F_{ob} = G_{ob}$. 
 
@@ -118,10 +87,10 @@ Now, for any $a \in Ob(A)$ and $b \in Ob(B)$, the functions $F_{mor}(a,b):Mor_A(
 
 Thus, if there is an isomorphism $\gamma:F \cong G$, then $F = G$. 
 
-Now we have to show that any two natural isomorphisms $\gamma:F \cong G$ and $\delta:F \cong G$ to be equal to each other: $\gamma = \delta$. 
+this proof needs to be revised since it is missing the explicit identifications
 \end{proof}
 
-A [[bijective-on-objects functor]] between two categories $A$ and $B$ is a functor $F:A \to B$ where the object function $F_{ob}:Ob(A) \to Ob(B)$ is a [[bijection]]. 
+An [[equivalent-on-objects functor]] between two categories $A$ and $B$ is a functor $F:A \to B$ where the object function $F_{ob}:Ob(A) \to Ob(B)$ is a equivalence of types. 
 
 A [[split essentially surjective functor]] between $A$ and $B$ is a functor $F:A \to B$ where for every object $b \in Ob(B)$, there is an object $a \in Ob(A)$ and a n isomorphism $f:F_{ob}(a) \cong b$. 
 
@@ -139,8 +108,6 @@ For univalent categories, isomorphism of categories and equivalence of categorie
 
 ...
 
-### In type theory
-
 \begin{lemma}
 In a univalent category, the type of objects is a 1-type.
 \end{lemma}
@@ -155,11 +122,7 @@ There is a canonical way to turn a [[category]] into a univalent category via th
 
 * [[category]]
 
-* [[skeletal category]]
-
-* [[setoid]]
-
-* [[core]]
+* [[gaunt category]]
 
 * [[type-theoretic definition of category]]
 
@@ -246,11 +209,6 @@ _[agda-infinity-categories](https://github.com/freebroccolo/agda-infinity-catego
 [[!redirects univalent category]]
 [[!redirects saturated categories]]
 [[!redirects univalent categories]]
-
-[[!redirects strict saturated category]]
-[[!redirects strict univalent category]]
-[[!redirects strict saturated categories]]
-[[!redirects strict univalent categories]]
 
 [[!redirects weak saturated category]]
 [[!redirects weak univalent category]]
