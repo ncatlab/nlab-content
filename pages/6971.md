@@ -15,13 +15,20 @@
 
 ## Idea
 
-_Extensional type theory_ denotes the flavor of [[type theory]] in which [[identity types]] are demanded to be [[propositions]] / of [[h-level 1]].  In other words, they are determined by their [[extension (semantics)|extensions]] --- the collection of pairs of points which are equal.  Type theory which is not extensional is called _[[intensional type theory]]_.
+_Extensional type theory_ denotes the flavor of [[type theory]] in which [[identity types]] are demanded to be [[propositions]] / of [[h-level 1]], or equivalently all types are required to be [[h-sets]].  Thus, it is a form of [[set-level foundations]].
+
+Type theory which is not extensional is called _[[intensional type theory]]_.
 
 +-- {: .num_remark}
 ###### Remark
+The word "extensional" in type theory (even when applied to identity types) sometimes refers instead to the axiom of  [[function extensionality]].  In general this property is orthogonal to the one considered here: function extensionality can hold or fail in both extensional and intensional type theory.
 
-The word "extensional" in type theory (even when applied to identity types) sometimes refers instead to the axiom of  [[function extensionality]].  In general this property is orthogonal to the one considered here: function extensionality can hold or fail in both extensional and intensional type theory.  In particular, [[homotopy type theory]] is [[intensional type theory|intensional]] in that [[identity types]] are crucially _not_ demanded to be [[propositions]], but [[function extensionality]] is often assumed (in terms of these intensional identity types, of course) --- in particular, it follows from the [[univalence axiom]].
+In particular, [[homotopy type theory]] is [[intensional type theory|intensional]] in that [[identity types]] are crucially _not_ demanded to be [[propositions]], but [[function extensionality]] is often assumed (in terms of these intensional identity types, of course) --- in particular, it follows from the [[univalence axiom]].  Indeed, univalence itself is arguably an "extensionality" property for the universe (Hofmann and Streicher originally introduced it under the name "universe extensionality"), but it is inconsistent with "extensional type theory" in the sense considered here.
+=--
 
++-- {: .num_remark}
+###### Remark
+The origin of the names "extensional" and "intensional" is somewhat confusing.  In fact they refer to the behavior of the [[definitional equality]].  The idea is that the [[identity type]] is always an "extensional" notion of equality (although it can be more or less extensional, depending on whether further extensionality principles like [[function extensionality]] and [[univalence]] hold).  Thus, if the definitional equality *coincides* with the identity type, the former is also extensional, and so we call the type theory "extensional" --- while if the two equalities do *not* coincide, then the definitional equality has room to be more intensional than the identity type, and so we call the type theory "intensional".  (This historical explanation only applies to what we below call "definitionally extensional" type theories, which were the original use of the term.)
 =--
 
 
