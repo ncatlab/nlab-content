@@ -26,6 +26,10 @@ Concrete [[vortex]]$\;$[[anyons]] in [[Bose-Einstein condensates]]:
 
 * {#PFCZ01} B. Paredes, P. Fedichev, J. I. Cirac, P. Zoller *1/2-Anyons in small atomic Bose-Einstein condensates*, Phys. Rev. Lett. **87** (2001) 010402 $[$[arXiv:cond-mat/0103251](https://arxiv.org/abs/cond-mat/0103251), [doi:10.1103/PhysRevLett.87.010402](https://doi.org/10.1103/PhysRevLett.87.010402)$]$
 
+* Julien Garaud, Jin Dai, [[Antti J. Niemi]], *Vortex precession and exchange in a Bose-Einstein condensate*, J. High Energ. Phys. **2021** 157 (2021)
+$[$[arXiv:2010.04549](https://arxiv.org/abs/2010.04549)$]$
+
+
 
 * {#MPSS19} Thomas Mawson, Timothy Petersen, Joost Slingerland, Tapio Simula, *Braiding and fusion of non-Abelian vortex anyons*, Phys. Rev. Lett. **123** (2019) 140404 $[$[doi:10.1103/PhysRevLett.123.140404](https://doi.org/10.1103/PhysRevLett.123.140404)$]$
 
