@@ -42,6 +42,7 @@ A [[functor]] $F : C \to D$ is **essentially surjective** if for all $y:D$ there
 
 * The [[inclusion functor]] of a [[subcategory]] is essentially surjective precisely when the subcategory is [[essentially wide subcategory|essentially wide]].
 
+* Every [[split essentially surjective functor]] is essentially surjective. The converse is true for [[strict functors]] in the presence of the [[axiom of choice]]. 
 
 ## Properties
 
