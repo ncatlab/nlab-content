@@ -70,18 +70,8 @@ Two categories are called **equivalent** if there exists an equivalence between 
 
 =--
 
-
-
-+-- {: .num_prop #ViaEssentiallySurjectiveAndFullyFaithful}
++-- {: .num_prop #ViaSplitEssentiallySurjectiveAndFullyFaithful}
 ###### Proposition
-
-Assume the ambient context is one of the following (see below at _[Variants](#Variants)_ for more):
-
-* [[classical mathematics]] with the [[axiom of choice]];
-
-* [[constructive mathematics|constructive]] or [[internal category|internal]] category theory with "functor" meaning _[[anafunctor]]_;
-
-* [[homotopy type theory]] with formalization as discussed at _[[internal categories in homotopy type theory]]_.
 
 Let $F \colon \mathcal{C} \to \mathcal{D}$ be a [[functor]]. Then the following are equivalent:
 
@@ -89,10 +79,9 @@ Let $F \colon \mathcal{C} \to \mathcal{D}$ be a [[functor]]. Then the following 
 
 2. $F$ is 
 
-   1. an [[essentially surjective functor]] and
+   1. a [[split essentially surjective functor]] and
 
    2. a [[fully faithful functor]].
-
 =--
 
 \begin{proof}
@@ -123,7 +112,7 @@ $$
 
 using [[natural transformation|naturality]] of $\epsilon$, and the triangle identities twice. Thus, $F_{a,b}$ is an equivalence, so $F$ is [[fully faithful]]. Finally, for any $b:B$, we have $G b : A$ and $\epsilon_b : F G b \cong b$.
 
-On the other hand, suppose $F$ is [[fully faithful]] and (split) [[essentially surjective]]. Define $G_0:B_0\to A_0$ by sending $b:B$ to the $a:A$ given by the specified essential splitting, and write $\epsilon_b$ for the likewise specified [[isomorphism]] $F G b \cong b$.
+On the other hand, suppose $F$ is [[fully faithful]] and [[split essentially surjective]]. Define $G_0:B_0\to A_0$ by sending $b:B$ to the $a:A$ given by the specified essential splitting, and write $\epsilon_b$ for the likewise specified [[isomorphism]] $F G b \cong b$.
 
 Now for any $g: hom_B(b,b')$, define $G(g): hom_A(G b, G b')$ to be the unique morphism such that $F(G(g))=(\epsilon_{b'})^{-1} \circ g \circ \epsilon_b$ which exists since $F$ is [[fully faithful]]. Finally for $a:A$ define $\eta_a : hom_A(a,G F a)$ to be the unique morphism such that $F \eta_a = \epsilon^{-1}_{F a}$. It is easy to verify that $G$ is a functor and that $(G,\eta \epsilon)$ exhibit $F$ as an equivalence of categories.
 
@@ -136,10 +125,9 @@ But this holds by [[natural transformation|naturality]] of $\epsilon$. Then we s
 
 We discuss some possible variants of the definition of equivalence of categories, each of which comes naturally from a different view of [[Cat]].
 
-The first, _isomorphism_, comes from viewing $Cat$ as a mere [[1-category]]; it is too strong and is really only of interest for [[strict categories]].  The next, _strong equivalence_, comes from viewing $Cat$ as a [[strict 2-category]]; it is the most common definition given and is correct if and only if the [[axiom of choice]] holds.  The next definition, _weak equivalence_, comes from viewing $Cat$ as a [[model category]]; it is correct with or without choice and is about as simple to define as strong equivalence. The last, _anaequivalence_, comes from viewing $Cat$ as a [[bicategory]] that is not (without the axiom of choice) equivalent (as a bicategory!) to the strict $2$-category that defines strong equivalence; it is also always correct.
+The first, _isomorphism_, comes from viewing $Cat$ as a mere [[1-category]]; it is too strong and is really only of interest for [[strict categories]].  The next, _strong equivalence_, comes from viewing $Cat$ as a [[strict 2-category]]; it is the most common definition given and is correct if and only if the [[axiom of choice]] holds.  The next definition, _weak equivalence_, comes from viewing $Cat$ as a [[model category]]; it is correct with or without choice and is about as simple to define as strong equivalence. The third, _anaequivalence_, comes from viewing $Cat$ as a [[bicategory]] that is not (without the axiom of choice) equivalent (as a bicategory!) to the strict $2$-category that defines strong equivalence; it is also always correct.
 
 It is also possible to define 'category' in such a way that only a correct definition can be stated, but here we use the usual algebraic definitions of category, [[functor]], and [[natural isomorphism]].
-
 
 ### Isomorphism {#Isomorphism}
 
@@ -184,6 +172,32 @@ If you think of $Cat$ as the [[bicategory]] of categories, anafunctors, and [[an
 
 We can also regard the $2$-category $Cat$ above as obtained from the $2$-category $Str Cat$ of strict categories, strict functors, and natural transformations by formally inverting the weak equivalences as in [[homotopy theory]].
 
+### Fully faithful essentially surjective functors
+
+Finally, there are [[fully faithful]] and [[essentially surjective functors]]. However, while in general, these are not the same as equivalences in all mathematical foundations, they are the same under certain restrictions:
+
++-- {: .num_prop #ViaEssentiallySurjectiveAndFullyFaithful}
+###### Proposition
+
+Assume the ambient context is one of the following:
+
+* [[classical mathematics]] with the [[axiom of choice]];
+
+* [[constructive mathematics|constructive]] or [[internal category|internal]] category theory with "functor" meaning _[[anafunctor]]_;
+
+* [[higher-level foundations]] with "category" meaning [[univalent category]].
+
+Let $F \colon \mathcal{C} \to \mathcal{D}$ be a [[functor]]. Then the following are equivalent:
+
+1. $F$ is part of an equivalence of categories in the sense of def. \ref{EquivalenceViaInverseFunctor}
+
+2. $F$ is 
+
+   1. an [[essentially surjective functor]] and
+
+   2. a [[fully faithful functor]].
+
+=--
 
 ### Remarks
 
