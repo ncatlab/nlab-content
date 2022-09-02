@@ -227,6 +227,8 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 * We-Fu Chang, *One colorful resolution to the neutrino mass generation, three lepton flavor universality anomalies, and the Cabibbo angle anomaly* ([arXiv:2105.06917](https://arxiv.org/abs/2105.06917))
 
+* Mario Fernández Navarro, Stephen F. King, *$B$-anomalies in a twin Pati-Salam theory of flavour* &lbrack;[arXiv:2209.00276](https://arxiv.org/abs/2209.00276)&rbrack;
+
 and [[intersecting D-brane model|on branes]]:
 
 * [[Javier Fuentes-Martin]], [[Gino Isidori]], Julie Pagès, Ben A. Stefanek,
