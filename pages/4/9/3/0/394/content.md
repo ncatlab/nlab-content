@@ -24,9 +24,7 @@ A [[functor]] $F\colon C \to D$ is **essentially surjective**, or **essentially 
 
 $F\colon C \to D$ is **essentially surjective** if for every [[object]] $y$ of $D$, there exists an object $x$ of $C$ and an [[isomorphism]] $F(x) \cong y$ in $D$.
 
-### In homotopy type theory
-
-In [[homotopy type theory]], a [[functor]] $F : C \to D$ is **split essentially surjective** if for all $y:D$ there exists an $x:C$ such that $F(x) \cong y$. 
+### In homotopy type theory 
 
 A [[functor]] $F : C \to D$ is **essentially surjective** if for all $y:D$ there *merely* exists an $x:C$ such that $F(x) \cong y$.
 
@@ -55,15 +53,9 @@ A [[functor]] $F : C \to D$ is **essentially surjective** if for all $y:D$ there
 
 * In any 2-category there is a notion of [[eso morphism]] which generalizes the essentially surjective functors in [[Cat]].  In a [[regular 2-category]], these form a [[factorization system in a 2-category]] together with the [[ff morphisms]].
 
-
 ## Related concepts
 
 [[!include properties of functors -- contents]]
-
-[[!redirects split essentially surjective functor]]
-[[!redirects split essentially surjective functors]]
-[[!redirects split essentially surjective on objects functor]]
-[[!redirects split essentially surjective on objects functors]]
 
 [[!redirects essentially surjective functor]]
 [[!redirects essentially surjective functors]]
