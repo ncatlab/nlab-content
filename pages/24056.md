@@ -33,6 +33,12 @@ and in (other) [[superfluids]]:
 
 * {#MMN21} Yusuke Masaki, Takeshi Mizushima, Muneto Nitta, *Non-Abelian Half-Quantum Vortices in 3P2 Topological Superfluids* $[$[arXiv:2107.02448](https://arxiv.org/abs/2107.02448)$]$
 
+and in condensates *of* non-defect anyons:
+
+* {#CDLR19} Michele Correggi, Romain Duboscq, Douglas Lundholm, Nicolas Rougerie, *Vortex patterns in the almost-bosonic anyon gas*, Europhys. Lett. **126** (2019), 20005 $[$[arXiv:1901.10739](https://arxiv.org/abs/1901.10739), [doi:10.1209/0295-5075/126/20005](https://doi.org/10.1209/0295-5075/126/20005)$]$
+ 
+
+
 See also [Ahn, Park & Yang 19](anyon#AhnParkYang19) who refer to the band nodes in the [[Brillouin torus]] of a  [[semi-metal]] as "vortices in momentum space".
 
 And see at *[[defect brane]]*.
