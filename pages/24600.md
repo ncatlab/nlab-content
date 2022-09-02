@@ -1,0 +1,35 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Path types are an alternative to [[identity types]] in [[dependent type theory]]. They are primarily used in [[cubical type theories]]. 
+
+A major difference between path types and identity types is the behaviour of the J rule. In [[identity types]] the J rule holds up to definitional equality, but for path types, the J rule only holds up to a path. 
+
+Another difference is that [[transport]] behaves better with path types, holding up to definitional equality for path types but only up to an identification for [[identity types]]. 
+
+## See also
+
+* [[cubical type theory]]
+
+* [[identity type]]
+
+[[!redirects path type]]
+[[!redirects path types]]
