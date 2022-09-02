@@ -94,4 +94,4 @@ $$
 
 For instance section 2.5 of 
 
-* [[Eckhard Meinrenken]], _Clifford algebras and Lie groups_ ([pdf](http://www.math.toronto.edu/mein/teaching/clif_main.pdf))
+* [[Eckhard Meinrenken]], _Clifford algebras and Lie groups_ ([pdf](https://sites.icmc.usp.br/grossi/other/meinrenken.pdf))
