@@ -15,12 +15,17 @@
 
 ## Definition
 
-An $(\infty,1)$-[[(infinity,1)-functor|functor]] $F : C \to D$ is **essentially surjective** if, when modeled as a functor of [[simplicially enriched category|simplicially enriched categories]], the [[homotopy category of an (infinity,1)-category|induced]]
-functor 
+An $(\infty,1)$-[[(infinity,1)-functor|functor]] $F : C \to D$ is **essentially surjective** if the induced functor of the [[core]] [[infinity-groupoids]] 
+$$
+  core(F_0) : core(C_0) \to core(D_0)
+$$ 
+is an [[effective epimorphism]]. 
+
+An $(\infty,1)$-[[(infinity,1)-functor|functor]] $F : C \to D$ is **essentially surjective** if the induced functor of the [[homotopy category of an (infinity,1)-category|homotopy categories]] of the $(\infty,1)$-categories
 $$
   h F_0 : h C_0 \to h D_0
 $$ 
-of ordinary categories is [[essentially surjective functor|essentially surjective]]
+is [[essentially surjective functor|essentially surjective]]
 
 ## Properties
 
