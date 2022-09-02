@@ -15,14 +15,14 @@ On non-trivial [[braid group statistics|braiding]] of modal points in the [[Bril
 
 > a new type non-Abelian "braiding" of nodal-line rings inside the momentum space
 
-* [[Adrien Bouhon]], QuanSheng Wu, [[Robert-Jan Slager]], Hongming Weng, Oleg V. Yazyev, [[Tomáš Bzdušek]], *Non-Abelian reciprocal braiding of Weyl points and its manifestation in ZrTe*, Nature Physics **16** (2020)  1137--1143 ([arXiv:1907.10611](https://arxiv.org/abs/1907.10611), [doi:10.1038/s41567-020-0967-9](https://doi.org/10.1038/s41567-020-0967-9))
+* {#BWSWYB20} [[Adrien Bouhon]], QuanSheng Wu, [[Robert-Jan Slager]], Hongming Weng, Oleg V. Yazyev, [[Tomáš Bzdušek]], *Non-Abelian reciprocal braiding of Weyl points and its manifestation in ZrTe*, Nature Physics **16** (2020)  1137--1143 ([arXiv:1907.10611](https://arxiv.org/abs/1907.10611), [doi:10.1038/s41567-020-0967-9](https://doi.org/10.1038/s41567-020-0967-9))
 
 > Here we report that Weyl points in three-dimensional (3D) systems with $\mathcal{C}_2\mathcal{T}$ symmetry carry non-Abelian topological charges. These charges are transformed via non-trivial phase factors that arise upon braiding the nodes inside the reciprocal momentum space. 
 
 Braiding of Dirac points in twisted bilayer [[graphene]]:
 
 * Jian Kang, Oskar Vafek, *Non-Abelian Dirac node braiding and near-degeneracy of correlated phases at odd integer filling in magic angle twisted bilayer graphene*, Phys. Rev. B **102** (2020) 035161 
-$[$ [arXiv:2002.10360](https://arxiv.org/abs/2002.10360), [doi:10.1103/PhysRevB.102.035161](https://doi.org/10.1103/PhysRevB.102.035161)$]$
+$[$[arXiv:2002.10360](https://arxiv.org/abs/2002.10360), [doi:10.1103/PhysRevB.102.035161](https://doi.org/10.1103/PhysRevB.102.035161)$]$
 
 
 * Bin Jiang, [[Adrien Bouhon]], Zhi-Kang Lin, Xiaoxi Zhou, Bo Hou, Feng Li, [[Robert-Jan Slager]], Jian-Hua Jiang *Observation of non-Abelian topological semimetals and their phase transitions*,  	Nature Physics **17** (2021) 1239-1246 $[$[arXiv:2104.13397](https://arxiv.org/abs/2104.13397), [doi:10.1038/s41567-021-01340-x](https://doi.org/10.1038/s41567-021-01340-x)$]$
