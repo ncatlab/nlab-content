@@ -17,9 +17,23 @@
 
 ## Idea
 
-The _quantum Yang-Baxter equation_ has been proposed by Baxter in the context of a particular model of [[statistical mechanics]] (6-vertex model ??) and called star-triangle relation. Later it has been generalized and axiomatized to a number of contexts: it is most notably satisfied by the universal R-element in a [[quasitriangular Hopf algebra]]. In some context it is equivalent to a braid relation for certain transposed matrix. The solution to a quantum Yang-Baxter equation for matrices is called the quantum Yang-Baxter matrix or quantum R-matrix; some solutions to quantum Yang-Baxter equation have good limits in classical mechanics which are [[classical r-matrices]], and the latter satisfy the classical Yang-Baxter equation. 
+Given a monoidal category $C$ with monoidal product $\otimes$,
+and an object $V$ in $C$, the quantum Yang-Baxter operator
+is a morphism $R : V\otimes V\to V\otimes V$ which satisfies quantum Yang-Baxter equation in $V\otimes V\otimes V$
+$$
+R_{12}  R_{13}  R_{23} = R_{23} R_{13} R_{12}
+$$
 
-## Equation
+where the subscripts indicate which tensor factors are being utilized, for instance $R_{12} = R\otimes id_V\in V\otimes V\otimes V$.
+
+This equation is in particular satisfied by the component $\mathcal{R}_{VV}$ at $V$ of any brading $\mathcal{R}$ on $C$.
+Typical categories where the equation is considered are the category of vector spaces when the solutions are called $R$-matrices (or quantum Yang-Baxter matrices), categores of representations of quantum groups when a particular solution is called a universal $\mathcal{R}$-element and the category of sets when we talk about [[set theoretic Yang-Baxter equation|set theoretic solutions of Yang-Baxter equation]].
+
+#### Historical motivation
+
+The _quantum Yang-Baxter equation_ has been proposed by Baxter in the context of a particular model of [[statistical mechanics]] (6-vertex model ??) and called star-triangle relation. Later it has been generalized and axiomatized to a number of contexts: it is most notably satisfied by the universal R-element in a [[quasitriangular Hopf algebra]]. In some context it is equivalent to a braid relation for certain transposed matrix. Some solutions to quantum Yang-Baxter equation have good limits in classical mechanics which are [[classical r-matrices]], and the latter satisfy the classical Yang-Baxter equation. 
+
+## Equation with spectral parameter
 
 With multiplicative spectral parameter, the equation reads
 
