@@ -26,7 +26,7 @@ By **set-level foundations** we mean any [[foundation of mathematics]] in which 
   * [[structural set theory]], such as [[ETCS]] and [[SEAR]].
 * [[extensional type theory]], including both
   * definitionally extensional type theory
-  * propositionally/typally extensional type theory, such as [[MLTT]] with [[UIP]], the default type theory of [[Agda]], [[observational type theory]], and [[XTT]].
+  * propositionally/typally extensional type theory, such as [[MLTT]] with [[UIP]], [[Lean]], the default type theory of [[Agda]], [[observational type theory]], and [[XTT]].
 
 By contrast, "set-level foundations" does *not* include foundations of mathematics such as [[homotopy type theory]] in which there are basic objects of higher [[h-level]], which behave like [[groupoids]] or [[infinity-groupoids]] (or even [[categories]] or [[infinity-categories]]).  We call these [[higher-level foundations]].
 
