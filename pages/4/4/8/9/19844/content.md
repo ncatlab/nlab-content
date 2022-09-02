@@ -1122,6 +1122,10 @@ or similar [[intersecting D-brane models|brane models]]:
 
 * Shyam Balaji, Michael A. Schmidt, _A unified $SU(4)$ theory for the $R_D^{(\ast)}$ and $R_K^{(\ast)}$ anomalies_ ([arXiv:1911.08873](https://arxiv.org/abs/1911.08873))
 
+* Mario Fernández Navarro, Stephen F. King, *$B$-anomalies in a twin Pati-Salam theory of flavour* &lbrack;[arXiv:2209.00276](https://arxiv.org/abs/2209.00276)&rbrack;
+
+
+
 and in relation to [[axions]]:
 
 * [[Javier Fuentes-Martin]], Mario Reig, Avelino Vicente, _4321... axion!_ ([arXiv:1907.02550](https://arxiv.org/abs/1907.02550))
