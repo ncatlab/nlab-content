@@ -17,6 +17,8 @@
 
     * [[bijective-on-objects functor]]
 
+  * [[split essentially surjective functor]]
+
   * [[essentially surjective and full functor]]
 
   * [[equivalence of categories]]
