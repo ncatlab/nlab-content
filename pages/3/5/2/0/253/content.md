@@ -159,6 +159,8 @@ When we do have a strict 2-category, however, other strict notions can be quite 
 
 * [[locally univalent bicategory]]
 
+* [[univalent bicategory]]
+
 * [[monoidal bicategory]]
 
 * [[closed bicategory]]
