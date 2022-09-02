@@ -84,7 +84,7 @@ Note: All categories given can become univalent via the [[Rezk completion]].
 $$\|y=z\|_0 \to \|x=y\|_0 \to \|y=z\|_0$$
 is defined by induction on [[truncation]] from concatenation of the [[identity type]]. We call this the **fundamental pregroupoid** of $X$.  It is univalent if and only if $X$ is a 1-type; its Rezk completion is the **fundamental (univalent) groupoid** of $X$.
 
-* There is a precategory whose type of objects is the [[universe type]] $\mathcal{U}$ and with $hom(X,Y)\equiv \| X \to Y\|_0$, and composition defined by induction on truncation from ordinary composition of functions.  We call this the **homotopy precategory of types**; it is not univalent (although it contains the univalent category [[Set]] as a sub-precategory).
+* There is a precategory whose type of objects is the [[type universe]] $\mathcal{U}$ and with $hom(X,Y)\equiv \| X \to Y\|_0$, and composition defined by induction on truncation from ordinary composition of functions.  We call this the **homotopy precategory of types**; it is not univalent (although it contains the univalent category [[Set]] as a sub-precategory).
 
 ## Properties ##
 
