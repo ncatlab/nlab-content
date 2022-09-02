@@ -48,6 +48,15 @@ Of course, the latter two axioms are actually inhabitants of the [[identity type
 
 * The definition of precategory is evidently a type-theoretic notion of the definition of category with [[category#AFamilyOfCollectionsOfMorphisms|a family of collections of morphisms]].  An equivalent definition analogous to the definition of category with [[category#OneCollectionOfMorphisms|one collection of morphisms]] could be given, but it would be much less convenient to use.  In particular, the "type of all morphisms" $\sum_{A,B:Ob(\mathcal{C})} Hom(A,B)$ in a precategory is *not* itself a set, since it can incorporate nontrivial identifications from $Ob(\mathcal{C})$; the "hom-types are sets" condition in a one-type-of-morphisms definition of precategory would have to be stated as "the function $\mathcal{C}_1 \to \mathcal{C}_0$ is 0-truncated" (i.e. its fibers are sets).
 
+## Properties
+
+In [[univalent type theory]] there is a [[structure identity principle]] for precategories:
+
+Equality of precategories in a univalent universe is the same as having a [[fully faithful]] [[equivalent-on-objects functor]] between precategories in the univalent universe. 
+
+This is because fully faithful functors establish an equivalence of hom-sets between the two precategories, and equivalent-on-objects functors establish an equivalence of object types between the two precategories, which means that fully faithful equivalent-on-objects functors is the right notion of equivalence between precategories. 
+
+Only in univalent categories are such functors the same as [[adjoint equivalence]]. 
 
 ## See also
 
