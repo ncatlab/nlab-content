@@ -26,3 +26,5 @@ A flagged category is a [[1-truncated]] [[precategory]].
 * [[univalent category]]
 
 * [[gaunt category]]
+
+[[!redirects flagged categories]]
