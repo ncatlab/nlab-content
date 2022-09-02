@@ -12,13 +12,15 @@ This page records material related to the talk
 
   Oxford, July 5 - July 8, 2014
 
-  [a message to Sarnak on general issues](https://publications.ias.edu/node/2605)
+  * [a message to Sarnak on general issues](https://publications.ias.edu/node/2605)
 
-  [review and discussion of further issues (pdf)](https://www.maths.nottingham.ac.uk/personal/ibf/files/RL-oxford.pdf)
+  * [review and discussion of further issues (pdf)](https://www.maths.nottingham.ac.uk/personal/ibf/files/RL-oxford.pdf)
 
-  [lecture video 1](http://video.ias.edu/files/ams/2014/LanglandsEdit.mp4), [video 2](http://video.ias.edu/files/ams/2014/LanglandsP1.mp4), [video 3](http://video.ias.edu/files/ams/2014/LanglandsP2.mp4).[^wontPlay]
+  * [lecture video 1](http://video.ias.edu/files/ams/2014/LanglandsEdit.mp4), [video 2](http://video.ias.edu/files/ams/2014/LanglandsP1.mp4), [video 3](http://video.ias.edu/files/ams/2014/LanglandsP2.mp4).[^wontPlay]
 
-  [technical remarks on the video material (pdf)](https://www.maths.nottingham.ac.uk/personal/ibf/files/RL-comments.pdf)
+  * technical remarks on the video material ([[Langlands-VideoForFosenko.pdf:file]])
+
+  * "Video for Fosenko" ([[Langlands-VideoForFosenko.pdf:file]])
  
 on the state of the art of the [[Langlands program]], including some cautionary remarks on the [[geometric Langlands correspondence]].
 
