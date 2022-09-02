@@ -2,6 +2,8 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Frank_Wilczek)
 
+* [research group page](https://www.su.se/english/research/research-groups/quantum-frontiers?open-collapse-boxes=research-group-members)
+
 
 ## Selected writings
 
