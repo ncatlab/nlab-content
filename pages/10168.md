@@ -1,5 +1,5 @@
 
-* [webpage](http://www.andrew.cmu.edu/user/ulrikb/)
+* [webpage](https://ulrikbuchholtz.dk/)
 
 ## Selected writings
 
