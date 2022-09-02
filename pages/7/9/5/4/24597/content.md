@@ -20,15 +20,11 @@ In foundations without the [[axiom of choice]], it is not true that every [[equi
 
 ## Definition
 
+\begin{definition}
 A [[functor]] $F : C \to D$ is **split essentially surjective** if the functor come with the structure of a [[family]] of [[isomorphisms]]  
 $$p_y \in \biguplus_{x \in C} F(x) \cong y$$
 indexed by objects $y \in D$. 
-
-### In homotopy type theory
-
-In [[homotopy type theory]], a [[functor]] $F : C \to D$ is **split essentially surjective** if the functor comes with the structure of an dependent [[isomorphism]]  
-$$p(y):\sum_{x:C} F(x) \cong y$$
-for all objects $y:D$. 
+\end{definition}
 
 ## Examples
 
@@ -40,7 +36,31 @@ for all objects $y:D$.
 
 * Every split essentially surjective functor is [[essentially surjective]]. 
 
+* That every essentially surjective functor is split essentially surjective is equivalent to the [[axiom of choice]]
+
+## In homotopy type theory
+
+In [[homotopy type theory]], the definition above still holds for general [[precategories]], when translated into type theoretic language: 
+
+\begin{definition}
+A [[functor]] $F : C \to D$ is **split essentially surjective** if the functor comes with the structure of an dependent [[isomorphism]]  
+$$p(y):\sum_{x:C} F(x) \cong y$$
+for all objects $y:D$. 
+\end{definition}
+
+This differs from the definition of an [[essentially surjective functor]] by the lack of [[propositional truncations]] in the definition: 
+
+\begin{definition}
+A [[functor]] $F : C \to D$ is **essentially surjective** if the there is a dependent term  
+$$p(y):\left[\sum_{x:C} F(x) \cong y\right]$$
+for all objects $y:D$. 
+\end{definition}
+
+However, in the case for precategories, that every essentially surjective functor is split essentially surjective is false for precategories. The categories for which essentially surjective functors are split essentially surjective are the broader class of [[univalent categories]], rather than the [[gaunt categories]]. 
+
 ## Related concepts
+
+* [[axiom of choice]]
 
 [[!include properties of functors -- contents]]
 
