@@ -167,6 +167,25 @@ But the notion of codimension=2 defects subsumes situations that are quite diffe
 
 Specifically, *[[vortex]] anyons* are realized in [[Bose-Einstein condensates]] ([MPSS19](#MPSS19), following [PFCZ01](#PFCZ01)) and in (other) [[superfluids]] ([MMN21](#MMN21)). 
 
+{#VorticesInAnyonCondensate} In fact, defect-type *vortex anyons* generically appear in [[condensates]] *of non-defect anyons* ([CDLR19](#CDLR19)):
+
+
+\begin{imagefromfile}
+    "file_name": "VorticesInAnyonCondensate.jpg",
+    "width": 430,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [CDLR19](#CDLR19)"
+\end{imagefromfile}
+
+
+
+
 A theoretical model of vortex anyons in a [[Higgs field]] [[interaction|coupled to]] [[Chern-Simons theory]] is discussed in [Fröhlich & Marchetti 1988](#FroehlichMarchetti88).
 An instructive [[lattice model]] of vortex anyons is analyzed in detail in [Kitaev 2006](#Kitaev06).
 
@@ -390,7 +409,6 @@ The claimed observation of abelian anyons is apparently more securely establishe
 * James Nakamura, Shuang Liang, Geoffrey C. Gardner, Michael J. Manfra, _Direct observation of anyonic braiding statistics_, Nat. Phys. 16, 931–936 (2020). ([arXiv:2006.14115](https://arxiv.org/abs/2006.14115), [doi:10.1038/s41567-020-1019-1](https://doi.org/10.1038/s41567-020-1019-1))
 
 * Bob Yirka, _Best evidence yet for existence of anyons_, PhysOrg News July 10, 2020  ([phys.org/news/2020-07](https://phys.org/news/2020-07-evidence-anyons.html))
-
 
 
 
