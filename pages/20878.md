@@ -10,3 +10,5 @@
 * [[associative Yang-Baxter equation]]
 
 * [[infinitesimal braid relation]]
+
+* [[set theoretic quantum Yang-Baxter equation]]
