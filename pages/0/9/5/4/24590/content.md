@@ -26,9 +26,15 @@ More specifically, it is a bicategory $C$ for which the canonical functions
 $$idtoiso^{2,1}(f, g):(f = g) \to inv2cell(f, g)$$
 is an equivalence of types for all objects $a:Ob(C)$, $b:Ob(C)$, and morphisms $f:Mor_C(a,b)$ and $g:Mor_C(a,b)$. 
 
+### In set-level foundations
+
+A locally univalent bicategory in [[set-level foundations]] is the same thing as a locally [[gaunt category|gaunt]] bicategory whose type of objects is a [[set]]. 
+
 ## See also
 
 * [[bicategory]]
+
+* [[univalent bicategory]]
 
 ## References
 
