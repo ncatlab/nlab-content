@@ -64,6 +64,11 @@ In [[set-level type theory]], the type theoretic definition and the set-level de
 
 ## Properties
 
+### Functors and equivalences between gaunt categories
+
+Every [[essentially surjective functor]] between two gaunt categories is [[split essentially surjective]]. This is true even in foundations without the [[axiom of choice]]. 
+
+Thus, every [[equivalence of categories]] between two [[gaunt categories]] is [[fully faithful]] and [[essentially surjective]], even in the absence of the [[axiom of choice]]. 
 
 ### Relation to other properties of categories
 
