@@ -1,3 +1,4 @@
+[[!redirects categories with the same collection of objects]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
