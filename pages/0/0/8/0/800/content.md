@@ -25,7 +25,7 @@ Concretely, an equivalence between two categories is a pair of [[functors]] betw
 
 This is like an [[isomorphism]], but weakened such as to accomodate for the fact that the correct ambient context for categories is not iself a 1-category, but is the [[2-category]] [[Cat]] of all categories. Hence abstractly an equivalence of categories is just the special case of an [[equivalence in a 2-category]] specialized to [[Cat]].
 
-If some foundational fine print is taken care of, then a functor exhibits an equivalence of categories precisely if it is both [[essentially surjective functor|essentially surjective]] and [[fully faithful functor|fully faithful]]. This is true in [[classical mathematics]] if the [[axiom of choice]] is assumed. It remains true non-classically, say for [[internal categories]], if the concept of functor is suitably adapted ("[[anafunctors]]").
+If some foundational fine print is taken care of, then a functor exhibits an equivalence of categories precisely if it is both [[essentially surjective functor|essentially surjective]] and [[fully faithful functor|fully faithful]]. This is true in [[classical mathematics]] if the [[axiom of choice]] is assumed. It remains true non-classically, say for [[internal categories]], if the concept of functor is suitably adapted ("[[anafunctors]]"), or the concept of essentially surjective is suitably adapted ("[[split essentially surjective]]").
 
 From the point of view of [[logic]] one may say that two [[categories]] are _equivalent_ if they have the same [[properties]] &#8212; although this only applies (by definition) to properties that obey the _[[principle of equivalence]]_.  
 
