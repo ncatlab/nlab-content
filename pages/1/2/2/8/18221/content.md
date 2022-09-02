@@ -19,58 +19,72 @@
 
 ## Idea
 
-In [[set theory]], there are two ways to identify two [[objects]] of a [[category]] together, by [[equality]] of objects through the underlying predicate, or by [[isomorphism]] of objects through the [[core]] of the category. However, in general these are not the same, because equality of two objects is a [[proposition]], while isomorphism of two objects is a [[set]]. A naive attempt of saying isomorphic objects are equal leads to [[skeletal categories]], many of which violate the [[principle of equivalence]]. 
+In [[set-level foundations]], there are two ways to compare two [[objects]] of a [[category]] for sameness: by [[equality]] or by [[isomorphism]].  The [[principle of equivalence]] argues that isomorphism is the "correct" notion of "sameness" for objects of a category, but the notion of equality is still present to be ignored.
 
-There are two ways to make equality and isomorphism of objects the same, without violating the [[principle of equivalence]]:
+Note that even in a [[skeletal category]], where the mere *property* of "being isomorphic" coincides with the property of "being equal", one cannot collapse the notions of isomorphism and equality because an object can still be isomorphic to itself in more than one way.  This distinction only disappears in a [[gaunt category]], but not every category is equivalent to a gaunt one.
 
-1. By requiring the [[isomorphism]] sets to be [[subsingletons]], so that a [[biconditional]] could be established without violating the [[principle of equivalence]] between the [[propositions]] that an isomorphism exists between two [[objects]] and that two objects are equal. This is the approach taken in [[set theory]] foundations, but results in a [[gaunt category]]. 
+By contrast, in [[higher foundations]], it is possible to expand the notion of "equality" so that it coincides with isomorphism: just as two objects can be isomorphic in more than one way, they can also be equal in more than one way.  The notion of "category" in which equality and isomorphism coincide in this way is called *univalent* or *saturated*.  This is an analogue for 1-categories of imposing antisymmetry on a [[preordered set]] (a.k.a. a [[(0,1)-category]]) to obtain a [[partially ordered set]] (a.k.a. a skeletal or gaunt (0,1)-category).
 
-2. By weakening the notion of [[equality]] so that equality of [[objects]] is no longer valued solely in [[propositions]], allowing for equality of objects to be [[sets]] and possibly the same as [[isomorphisms]], without violating the [[principle of equivalence]]. However, this necessitates a change in the [[mathematical foundations]] from [[set theory]] to an alternative, such as [[type theory]]. 
-
-This second notion is what is called a **univalent category** or **saturated category**. 
-
-Univalent categories are of huge significance in [[category theory]] because many [[concrete categories]] of set-level structures, such as [[Set]], [[Grp]], [[Ring]], [[Mod]], [[Top]], [[Met]], [[StrCat]], and so on are all weak univalent categories. 
-
-In certain parts of the [[type theory]] literature, such as the [[HoTT book]], categories are sometimes called **[[precategories]]**, and univalent categories are called categories. In this article, we shall follow established terminology outside of the type theory community and call a category a category, and a univalent category a univalent category. 
-
-Historically, the notion of a univalent category came out of a subfield of type theory called [[homotopy type theory]], where types model [[infinity-groupoids]], and where the interpretation of the usual definition of category in the [[simplicial set]] model does not result in a strict categories, but rather in a [[Segal space]] whose hom spaces are [[homotopy theory|homotopically]] [[0-truncated]] and [[discrete]]. Univalent categories then arose as the [[complete Segal spaces]] whose hom spaces are homotopically 0-truncated and discrete. Complete Segal spaces differ from Segal spaces in that they have a condition, analogous to the antisymmetry condition for [[prosets]] and [[posets]], called *Rezk completeness*, that homotopy equivalence of objects (a weakened version of isomorphism) are the same as a weakened version of equality of objects. 
-
-See [[relation between type theory and category theory]] for the interpretation of [[HoTT]] in an [[(infinity,1)-topos]], as well as [[category object in an (infinity,1)-category]], for more information. The general idea is presented there at _[Homotopy Type Theory Formulation](category+object+in+an+%28infinity%2C1%29-category#HomotopyTypeTheoryFormulation)_. For internal [[1-categories]] in HoTT (as opposed to more general internal [[(infinity,1)-categories]]) a comprehensive discussion was given in ([Ahrens-Kapulkin-Shulman-13](#AhrensKapulkinShulman13)).
-
-It was later realized that the definition of a category and a univalent category are not just applicable to homotopy type theory, but to any [[dependent type theory]] with [[identity types]] or [[path types]]. However, in a type theories without [[univalence]], the type theory no longer models [[infinity-groupoids]], and categories and univalent categories do not model certain [[Segal spaces]] and [[complete Segal spaces]]. In fact, the definitions remain valid in an [[extensional type theory]], where types model [[sets]], and the definition of a category results in a [[strict category]] and the definition of a univalent category results in a [[gaunt category]]. 
+Since we are talking about [[1-categories]] whose hom-types are [[h-sets]], in a univalent category the type of objects is a [[1-type]].  By contrast, a "[[precategory]]" in higher foundations maintains equality of objects (which can have arbitrary [[h-level]]) as separate from isomorphism, while a "[[strict category]]" requires that the type of objects form a set.
 
 ## Definition ##
 
-In a [[dependent type theory]] with some notion of [[identity type]] or [[path type]], if $A$ is a category and $a,b:A$, then there is a map
+We work in a [[dependent type theory]] with some notion of [[identity type]] or [[path type]], denoted $a=b$.  If $A$ is a [[precategory]] and $a,b:ob(A)$, we write $a\cong b$ for the type of isomorphisms from $a$ to $b$.
 
+\begin{lemma}
+There is a map
 $$idtoiso : (a=b) \to (a \cong b)$$
-
+\end{lemma}
 \begin{proof}
-By induction on identity, we may assume $a$ and $b$ are the same. But then we have $1_a:hom_A(a,a)$, which is clearly an isomorphism. $\square$
+By induction on identity, we may assume $a$ and $b$ are the same. But then we have $1_a:hom_A(a,a)$, which is clearly an isomorphism.
 \end{proof}
 
-The inverse of $idtoiso$ is denoted $isotoid$.
-
-A **univalent category** or **saturated category** is a category which satisfies a condition called *Rezk completeness*: the canonical function 
+\begin{definition}
+A **univalent category** or **saturated category** is a precategory which is *Rezk complete*, meaning that the above canonical function 
 $$idtoiso : (a=b) \to (a \cong b)$$
-from the identity type between two objects $a$ and $b$ to the type of isomorphisms between $a$ and $b$ is an equivalence of types. 
+an equivalence of types. 
+\end{definition}
 
-In [[extensional type theory]], univalent categories and gaunt categories are equivalent to each other, since every category is a [[strict category]]. However, univalent categories and gaunt categories are not the same in [[intensional type theory]] for general categories; they only coincide for [[strict categories]]. 
+## Comparing notions of category
+
+In [[homotopy type theory]], univalent categories are arguably the best notion of "category".  Specifically, in HoTT/UF:
+
+1. Most naturally occurring precategories are in fact univalent categories, such as the category [[Set]] and most categories of structured objects built from it such as [[Grp]], [[Ring]], [[Vect]], [[Mod]], [[Top]], [[Met]], [[StrCat]], etc.
+2. Furthermore, *every* precategory is [[equivalence of categories|weakly equivalent]] to a univalent category (its [[Rezk completion]]).
+3. The theory of univalent categories is abstractly nicer than that of either precategories or strict categories.  For instance, the statement "a fully faithful and essentially surjective functor is an equivalence" for strict categories is equivalent to the [[axiom of choice]], for precategories it is just false, and for univalent categories it is just true.
+4. Under the semantics of HoTT/UF in [[(infinity,1)-toposes]], univalent categories are interpreted by the correct notion of [[stacks]] of 1-categories.  (See [[relation between type theory and category theory]] and [[category object in an (infinity,1)-category]].)  This is not true for either precategories or strict categories.  (Although in the "classical" model in [[∞Gpd]], univalent categories are interpreted by 1-truncated [[complete Segal spaces]], while strict categories are interpreted by 1-truncated [[Segal categories]] and precategories are interpreted by 1-truncated [[Segal spaces]].  Thus, in this model only, strict categories also give a correct notion of "category", although precategories still do not.)
+
+For these reasons, some of the HoTT/UF literature (including the [[HoTT Book]]) refers to univalent categories as simply "categories".
+
+The situation in plain [[intensional type theory]] is less clear, since without the [[univalence axiom]], naturally-occurring precategories cannot be shown to be univalent (or strict) and the Rezk completion need not exist.  Thus, in this case precategories seem unavoidable.  Fortunately, a surprising amount of category theory can be developed with precategories.
+
+(To be completely precise, the notion of "univalent category" can also be defined in [[set-level foundations]].  In that case it turns out to be equivalent to the notion of [[gaunt category]], which again is not satisfactory as a general notion of "category".  More generally, a [[strict category]] is univalent if and only if it is gaunt.)
+
+On this page we will not use the plain term "category" at all, but speak only of "precategories", "univalent categories", and "strict categories".
+
+\begin{remark}
+Most nLab pages about category theory are, and should remain, written in a fairly foundation-agnostic way.  If the reader is interpreting them in HoTT/UF, it is usually best to read "category" as meaning "univalent category" for the reasons above.  However, in many cases it is also possible to read it as meaning "precategory" or "strict category", as would be necessary if interpreting them in plain intensional type theory.
+
+It is not usually necessary for pages about ordinary category theory to remark on this issue at all.  However, if there are subtleties regarding the choice of interpretation (e.g. if some construction, such as a [[Kleisli category]], may lead out of the world of univalent categories; or if some structure, such as a [[dagger category]], requires changing the notion of "univalence"), it is appropriate to include a remark.  Such a remark should generally be lower down on the page, not at the top, so that it doesn't confuse first-time readers.
+\end{remark}
+
+
 
 ## Examples 
 
 Note: All categories given can become univalent via the [[Rezk completion]].
 
-* Every [[gaunt category]] is a [[strict category|strict]] univalent category, or equivalently a [[skeletal category|skeletal]] univalent category.
-* There is a category $\mathit{Set}$, whose type of objects is $Set$, and with $hom_{\mathit{Set}}(A,B)\equiv (A \to B)$. Under [[univalence]] this becomes a [[category]]. One can also show that any [[category]] of set-level structures such as groups, rings topologicial spaces, etc. is also univalent.
+* As noted above, every [[gaunt category]] is a [[strict category|strict]] univalent category, or equivalently a [[skeletal category|skeletal]] univalent category.
 
-* For any 1-type $X$, there is a univalent category with $X$ as its type of objects and with $hom(x,y)\equiv(x=y)$. If $X$ is a set we call this the **discrete category** on $X$. In general, we call this a **groupoid**.
+* There is a precategory [[Set]], whose type of objects is $Set$, and with $hom_{Set}(A,B)\equiv (A \to B)$.  The [[univalence axiom]] implies that this is a univalent category.  One can also show from this that any precategory of set-level structures such as groups, rings topological spaces, etc. is also univalent.
 
-* For any type $X$, there is a category with $X$ as its type of objects and with $hom(x,y)\equiv \| x= y \|_0$. The composition operation
+* For any [[1-type]] $X$, there is a univalent category with $X$ as its type of objects and with $hom(x,y)\equiv(x=y)$. If $X$ is a set we call this the **discrete category** on $X$. In general, we call it a **(univalent) groupoid**.
+
+* More generally, or any type $X$, there is a precategory with $X$ as its type of objects and with $hom(x,y)\equiv \| x= y \|_0$. The composition operation
 $$\|y=z\|_0 \to \|x=y\|_0 \to \|y=z\|_0$$
-is defined by induction on [[truncation]] from concatenation of the [[identity type]]. We call this the **fundamental groupoid** of $X$.
+is defined by induction on [[truncation]] from concatenation of the [[identity type]]. We call this the **fundamental pregroupoid** of $X$.  It is univalent if and only if $X$ is a 1-type; its Rezk completion is the **fundamental (univalent) groupoid** of $X$.
 
-* There is a category whose type of objects is $\mathcal{U}$ and with $hom(X,Y)\equiv \| X \to Y\|_0$, and composition defined by induction on truncation from ordinary composition of functions. We call this the **homotopy category of types**. 
+* There is a precategory whose type of objects is the [[universe type]] $\mathcal{U}$ and with $hom(X,Y)\equiv \| X \to Y\|_0$, and composition defined by induction on truncation from ordinary composition of functions.  We call this the **homotopy precategory of types**; it is not univalent (although it contains the univalent category [[Set]] as a sub-precategory).
 
 ## Properties ##
 
@@ -81,24 +95,24 @@ Given two categories $A$ and $B$, if $B$ is univalent, then the functor category
 \begin{proof}
 Let $F:A \to B$ and $G:A \to B$ be functors from $A$ to $B$. 
 
-Suppose that $\gamma:F \to G$ is a natural isomorphism. Then for any object $a \in A$, there is an isomorphism $\gamma_a: F_{ob}(a) \cong G_{ob}(a)$ in $B$. Since $B$ is univalent, this shows that $F_{ob}(a) = G_{ob}(a)$ for all objects $a$, and by function extensionality, that $F_{ob} = G_{ob}$. 
+Suppose that $\gamma:F \to G$ is a natural isomorphism. Then for any object $a : Ob(A)$, there is an isomorphism $\gamma_a: F_{ob}(a) \cong G_{ob}(a)$ in $B$. Since $B$ is univalent, this shows that $F_{ob}(a) = G_{ob}(a)$ for all objects $a$, and by function extensionality, that $F_{ob} = G_{ob}$. 
 
-Now, for any $a \in Ob(A)$ and $b \in Ob(B)$, the functions $F_{mor}(a,b):Mor_A(a,b) \to Mor_B(F_{ob}(a),F_{ob}(b))$ and $G_{mor}(a,b):Mor_A(a,b) \to Mor_B(G_{ob}(a),G_{ob}(b))$ are equal, because we established above that $F(a) = G(a)$ for all $a \in Ob(a)$. Because the object functions and morphism functions of $F$ and $G$ are equal to each other, $F = G$. 
+Now, for any $a : Ob(A)$ and $b : Ob(B)$, the functions $F_{mor}(a,b):Mor_A(a,b) \to Mor_B(F_{ob}(a),F_{ob}(b))$ and $G_{mor}(a,b):Mor_A(a,b) \to Mor_B(G_{ob}(a),G_{ob}(b))$ are equal, because we established above that $F(a) = G(a)$ for all $a : Ob(a)$. Because the object functions and morphism functions of $F$ and $G$ are equal to each other, $F = G$. 
 
 Thus, if there is an isomorphism $\gamma:F \cong G$, then $F = G$. 
 
 this proof needs to be revised since it is missing the explicit identifications
 \end{proof}
 
-An [[equivalent-on-objects functor]] between two categories $A$ and $B$ is a functor $F:A \to B$ where the object function $F_{ob}:Ob(A) \to Ob(B)$ is a equivalence of types. 
+An [[equivalent-on-objects functor]] between two precategories $A$ and $B$ is a functor $F:A \to B$ where the object function $F_{ob}:Ob(A) \to Ob(B)$ is a equivalence of types.
 
-A [[split essentially surjective functor]] between $A$ and $B$ is a functor $F:A \to B$ where for every object $b \in Ob(B)$, there is an object $a \in Ob(A)$ and a n isomorphism $f:F_{ob}(a) \cong b$. 
+A [[split essentially surjective functor]] between $A$ and $B$ is a functor $F:A \to B$ where for every object $b : Ob(B)$, there is a specified object $a : Ob(A)$ and an isomorphism $f:F_{ob}(a) \cong b$. 
 
-A [[fully faithful functor]] is a functor where 
+A [[fully faithful functor]] is a functor $F:A\to B$ such that each map on [[hom-sets]] $F_{a,b} : A(a_0,a_1) \to B(F(a_0),F(a_1))$ is an [[equivalence of types]].
 
 These definitions are important for defining the two notions of equality for categories: 
 
-An **[[isomorphism]] of categories** is a fully faithful bijective-on-objects functor. 
+An **[[isomorphism]] of categories** is a fully faithful equivalent-on-objects functor. 
 
 An **[[equivalence of categories]]** is a fully faithful split essentially surjective functor. Equivalently, it is a functor $F:A \to B$ which has a left adjoint $G:B \to A$ such that the unit $\eta:1_A \to G F$ and counit $\epsilon:F G \to 1_B$ are isomorphisms. 
 
