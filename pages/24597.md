@@ -16,47 +16,44 @@
 
 ## Idea
 
-In foundations without the [[axiom of choice]], it is not true that every [[equivalence of categories]] is a [[fully faithful functor|fully faithful]] [[essentially surjective functor]], since the mere property of being isomorphic is not enough to get a specific isomorphism between two objects without the axiom of choice. Instead one has to use split essentially surjective functors, where the isomorphisms are structure rather than mere property. 
+In foundations without the [[axiom of choice]], it is not true that every [[fully faithful functor|fully faithful]] and [[essentially surjective functor]] is an [[equivalence of categories]], since the mere property of being isomorphic to some object in the image is not enough to get a specific such object and isomorphism without the axiom of choice.  However, it is true if instead one uses split essentially surjective functors, where the isomorphisms are structure rather than mere property. 
 
 ## Definition
 
 \begin{definition}
-A [[functor]] $F : C \to D$ is **split essentially surjective** if the functor come with the structure of a [[family]] of [[isomorphisms]]  
-$$p_y \in \biguplus_{x \in C} (F(x) \cong y)$$
+A [[functor]] $F : C \to D$ is **split essentially surjective** if there is a specified [[family]]
+$$ \Big\{ (x\in C, p_y : F(x) \cong y) \Big\}_{y\in D}$$
 indexed by objects $y \in D$. 
 \end{definition}
 
 ## Examples
 
-* Every [[equivalence of categories]] is fully faithful and split essentially surjective. 
-
-* Every essentially surjective functor between [[gaunt categories]] is split essentially surjective. 
+* A functor is an [[equivalence of categories]] if and only if it is fully faithful and split essentially surjective, without any use of the [[axiom of choice]].
 
 ## Properties
 
 * Every split essentially surjective functor is [[essentially surjective]]. 
 
-* That every essentially surjective functor is split essentially surjective is equivalent to the [[axiom of choice]]
+* That every essentially surjective functor is split essentially surjective is equivalent to the [[axiom of choice]].
 
 ## In homotopy type theory
 
-In [[homotopy type theory]], the definition above still holds for general [[precategories]], when translated into type theoretic language: 
+In [[homotopy type theory]] (or, indeed, any dependent type theory), the definition above can be phrased for general [[precategories]] in type theoretic language: 
 
 \begin{definition}
-A [[functor]] $F : C \to D$ is **split essentially surjective** if the functor comes with the structure of an dependent [[isomorphism]]  
-$$p(y):\sum_{x:C} (F(x) \cong y)$$
-for all objects $y:D$. 
+A [[functor]] $F : C \to D$ is **split essentially surjective** if there is a specified dependent function
+$$p: \prod_{y:D} \sum_{x:C} (F(x) \cong y).$$
 \end{definition}
 
 This differs from the definition of an [[essentially surjective functor]] by the lack of [[propositional truncations]] in the definition: 
 
 \begin{definition}
 A [[functor]] $F : C \to D$ is **essentially surjective** if the there is a dependent term  
-$$p(y):\left[\sum_{x:C} (F(x) \cong y)\right]$$
+$$p(y):\Vert \sum_{x:C} (F(x) \cong y)\Vert$$
 for all objects $y:D$. 
 \end{definition}
 
-However, in the case for precategories, that every essentially surjective functor is split essentially surjective is false for precategories. The categories for which essentially surjective functors are split essentially surjective are the broader class of [[univalent categories]], rather than the [[gaunt categories]]. 
+However, for precategories, and even for [[univalent categories]], the axiom of choice is insufficient to ensure that every essentially surjective functor is split essentially surjective.  For instance, let $G$ be a nontrivial group and $BG$ the corresponding connected univalent groupoid, and $\ast$ the terminal category; then the functor $\ast \to BG$ is essentially surjective, but not split essentially surjective.
 
 ## Related concepts
 
