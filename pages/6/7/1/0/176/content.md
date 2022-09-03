@@ -425,7 +425,7 @@ Textbook accounts:
 
 With emphases on [[braid group representations]] constituted by [[conformal blocks]] via the [[Knizhnik-Zamolodchikov equation]]:
 
-* [[Toshitake Kohno]], _Conformal field theory and topology_, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. 2002 $[$[AMS:mmono-210](https://bookstore.ams.org/mmono-210)$]$
+* [[Toshitake Kohno]], *Conformal field theory and topology*, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. (2002) &lbrack;[AMS:mmono-210](https://bookstore.ams.org/mmono-210)&rbrack;
 
 
 
