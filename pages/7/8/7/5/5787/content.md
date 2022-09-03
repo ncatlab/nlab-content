@@ -53,7 +53,7 @@ In a $\kappa$-[[accessible category]] $C$ every $\kappa$-pure morphism is [[moni
 
 We work with unital, possibly commutative, [[rings]] and [[modules]].
 Given a ring $R$, a morphism $f: M\to M'$ of left $R$-modules is pure if the tensoring the [[exact sequence]] of left $R$-modules
-
+3
 $$
 0\to Ker f \to M\stackrel{f}\to M'\to Coker f\to 0
 $$
@@ -90,6 +90,10 @@ Clean proofs are by Mesablishvili and by Janelidze,
 * [[T. Brzeziński]], R. Wisbauer, _Corings and comodules_, London Math. Soc. Lec. Note Series __309__, Cambridge Univ. Press 2003; [errata pdf](http://maths.swan.ac.uk/staff/tb/corinerr.pdf)
 
 * [[George Janelidze]], [[Walter Tholen]], _Facets of descent III: monadic descent for rings and algebras_,  Appl. Categ. Structures __12__ (2004), no. 5-6, 461&#8211;477, [MR2005i:13019](http://www.ams.org/mathscinet-getitem?mr=2107397), [doi](http://dx.doi.org/10.1023/B:APCS.0000049312.36783.0a)
+
+Much attention on the descent along pure morphism is in a recent survey
+
+* Yves André, Luisa Fiorot, _On the canonical, fpqc, and finite topologies on affine schemes. The state of the art_, in Ann. Sc. Norm. Super. Pisa Cl. Sci. [arXiv:1912.04957](https://arxiv.org/abs/1912.04957)
 
 #### Ziegler spectrum and connections to model theory
 
