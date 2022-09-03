@@ -14,13 +14,13 @@
 
 ## Idea
 
-A [[type theory]] where types behaves like [[sets]]. This includes:
+A [[type theory]] where types behave like [[sets]]. This includes:
 
-* Any definitional [[extensional type theory]], where there is an equality reflection rule for [[identity types]] or [[path types]] which turns them into judgmental equalities. This includes [[Martin-Löf type theory]] with equality reflection and [[cubical type theory]] with equality reflection. 
+* Any (definitionally) [[extensional type theory]], where there is an equality reflection rule for [[identity types]] or [[path types]] which turns their inhabitants into judgmental equalities. This includes [[Martin-Löf type theory]] with equality reflection and [[cubical type theory]] with equality reflection. 
 
-* Any definitionally [[intensional type theory]] with an axiom like [[UIP]] or [[axiom K]] or rules which prove said axioms like [[boundary separation]], which makes all [[identity types]] or [[path types]] valued in [[propositions]]/[[subsingletons]]. Examples of the latter include [[MLTT]] with [[UIP]], [[Lean]], the default type theory of [[Agda]], [[observational type theory]], and [[XTT]]
+* Any [[intensional type theory]] with an axiom like [[UIP]] or [[axiom K]], or rules which prove said axioms such as strong [[pattern matching]] or [[boundary separation]], which makes all [[identity types]] or [[path types]] valued in [[propositions]]/[[subsingletons]]. Examples of the latter include [[MLTT]] with [[UIP]], [[Lean]], the default type theory of [[Agda]], [[observational type theory]], and [[XTT]].
 
-Contrast with higher-level type theory, where types behave like [[n-groupoids]] or even [[infinity-groupoids]], and type theories where types behave like [[propositions]]. 
+Set-level type theory contrasts with higher-level type theory such as [[homotopy type theory]] or plain [[intensional type theory]], where types behave (at least potentially) like [[n-groupoids]] or even [[infinity-groupoids]].  In the [[negative thinking|other direction]], it contrasts with type theories where types behave like [[propositions]] (type theories of this sort are often called [[logics]]).
 
 ## See also
 
