@@ -47,7 +47,7 @@ This sort of computational axiom K can also be implemented with, and is sufficie
 
 ## Related concepts
 
-* [[axiom UIP]]
+* [[uniqueness of identity proofs]]
 
 * [[boundary separation]]
 
