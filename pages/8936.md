@@ -62,6 +62,8 @@ $$
 
 * [[axiom K]]
 
+* [[boundary separation]]
+
 ## References
 
 * "[The groupoid interpretation of type theory](http://www.tcs.ifi.lmu.de/mitarbeiter/martin-hofmann/pdfs/agroupoidinterpretationoftypetheroy.pdf)" [PDF], by Martin Hofmann and Thomas Streicher, 1996.
