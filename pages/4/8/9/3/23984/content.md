@@ -34,15 +34,18 @@ then there are compatible **transport functions**
 
 \[
   \label{TheTransportFunctions}
-  \overrightarrow{\mathrm{tr}}_{B}^{p}:B(x) \to B(y) 
+  \overrightarrow{\mathrm{tr}}_{B}^{p}
+  \,\colon\, 
+  B(x) \longrightarrow B(y) 
   \;\;\;
   \text{and}
   \;\;\;
-  \overleftarrow{\mathrm{tr}}_{B}^{p}:B(y) \to B(x)
+  \overleftarrow{\mathrm{tr}}_{B}^{p}
+  \,\colon\, B(y) \longrightarrow B(x)
   \,,
 \] 
 
-such that for all $v:B(y)$, the [[fiber]] of $\overrightarrow{\mathrm{tr}}_{B}^{p}$ at $v$ is [[contractible]], and for all $u:B(x)$, the [[fiber]] of $\overleftarrow{\mathrm{tr}}_{B}^{p}$ at $u$ is [[contractible]]. 
+such that for all $v:B(y)$, the ([[homotopy fiber|homotopy]]) [[fiber]] of $\overrightarrow{\mathrm{tr}}_{B}^{p}$ at $v$ is [[contractible]], and for all $u:B(x)$, the [[fiber]] of $\overleftarrow{\mathrm{tr}}_{B}^{p}$ at $u$ is [[contractible]]. 
 
 ## Examples and applications
 
@@ -65,6 +68,14 @@ In this case, the identity transport (eq:TheTransportFunctions) along paths in [
 ## References ##
 
 * [[Univalent Foundations Project|UVP]], [§2.3 "Type families and fibrations"](https://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf#page=81) in: *[[Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
+
+Some more details are spelled out in:
+
+* [[Egbert Rijke]], pp. 18 in: *Homotopy Type Theory* (2012) &lbrack;[pdf](https://studenttheses.uu.nl/bitstream/handle/20.500.12932/11704/hott.pdf?sequence=1)&rbrack;
+
+Implementation in [[Agda]]:
+
+* [[Martín Hötzel Escardó]], *Introduction to Univalent Foundations of Mathematics with Agda* &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580), [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)&rbrack;
 
 [[!redirects transports]]
 [[!redirects transporting]]
