@@ -35,6 +35,11 @@ On [[injective objects]] in [[homotopy type theory]]:
 
 * {#Escardo19} [[Martín Escardó]], _Injectives types in univalent mathematics_ ([arXiv:1903.01211](https://arxiv.org/abs/1903.01211))
 
+On [[homotopy type theory]] and [[univalent foundations of mathematics]] in/with [[Agda]]:
+
+* [[Martín Hötzel Escardó]], *Introduction to Univalent Foundations of Mathematics with Agda* &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580), [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)&rbrack;
+
+
 On the [[selection monad]]:
 
 * [[Martín Escardó]] and Paulo Oliva, _Selection Functions, Bar Recursion, and Backward Induction_, ([pdf](https://www.cs.bham.ac.uk/~mhe/papers/selection-escardo-oliva.pdf))
