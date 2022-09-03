@@ -22,7 +22,7 @@ In foundations without the [[axiom of choice]], it is not true that every [[equi
 
 \begin{definition}
 A [[functor]] $F : C \to D$ is **split essentially surjective** if the functor come with the structure of a [[family]] of [[isomorphisms]]  
-$$p_y \in \biguplus_{x \in C} F(x) \cong y$$
+$$p_y \in \biguplus_{x \in C} (F(x) \cong y)$$
 indexed by objects $y \in D$. 
 \end{definition}
 
@@ -44,7 +44,7 @@ In [[homotopy type theory]], the definition above still holds for general [[prec
 
 \begin{definition}
 A [[functor]] $F : C \to D$ is **split essentially surjective** if the functor comes with the structure of an dependent [[isomorphism]]  
-$$p(y):\sum_{x:C} F(x) \cong y$$
+$$p(y):\sum_{x:C} (F(x) \cong y)$$
 for all objects $y:D$. 
 \end{definition}
 
@@ -52,7 +52,7 @@ This differs from the definition of an [[essentially surjective functor]] by the
 
 \begin{definition}
 A [[functor]] $F : C \to D$ is **essentially surjective** if the there is a dependent term  
-$$p(y):\left[\sum_{x:C} F(x) \cong y\right]$$
+$$p(y):\left[\sum_{x:C} (F(x) \cong y)\right]$$
 for all objects $y:D$. 
 \end{definition}
 
