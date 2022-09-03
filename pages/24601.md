@@ -37,9 +37,9 @@ $$\Gamma \coloneqq (\Delta, A \; \mathrm{type}, a:A, b:A, p:a =_{A} b, q: a =_A 
 
 ## See also
 
-* [[UIP]]
+* [[uniqueness of identity proofs]]
 
-* [[axiom K]]
+* [[axiom K (type theory)|axiom K]]
 
 ## References
 
