@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -77,15 +78,17 @@ _[[relation between type theory and category theory]]_.
 
 All the essential ingredients are listed in 
 
-* [[Nicola Gambino]], _Lectures on dependent type theory_ ([pdf](http://www.cs.le.ac.uk/events/mgs2009/courses/gambino/lecturenotes-gambino.pdf))
+* [[Nicola Gambino]], _Lectures on dependent type theory_ (2009) &lbrack;[pdf](http://www.cs.le.ac.uk/events/mgs2009/courses/gambino/lecturenotes-gambino.pdf)&rbrack;
 
-In [part I](http://www.math.unipa.it/~ngambino/Research/Lectures/lecture1.pdf) there the standard [[type formation]], [[term introduction]]/[[term elimination]] and [[computation rules]] of dependent type theory are listed.
+  > (In [part I](http://www.math.unipa.it/~ngambino/Research/Lectures/lecture1.pdf) there the standard [[type formation]], [[term introduction]]/[[term elimination]] and [[computation rules]] of dependent type theory are listed.)
 
 An introduction with parallel details on [[Coq]]-programming is in 
 
 * [[Adam Chlipala]], _[Certified programming with dependent types](http://adam.chlipala.net/cpdt/)_ 
 
-See also
+Discussion for [[Agda]]:
+
+* {#Norell08} [[Ulf Norell]], *Dependently Typed Programming in Agda*, p. 230-266 in: *Advanced Functional Programming* AFP 2008. Lecture Notes in Computer Science **5832** (2009) &lbrack;[doi:10.1007/978-3-642-04652-0_5](https://doi.org/10.1007/978-3-642-04652-0_5), [pdf](https://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf)&rbrack;
 
 * [[Agda]] Tutorial: _Introduction to dependent type theory_ ([webpage](http://ocvs.cfv.jp/Agda/tutorial/node128.html))
 
@@ -95,11 +98,11 @@ A discussion of dependent type theory as the [[internal language]] of [[locally 
 
 A formal definition of dependent type theories is given in
 
-* [[Andrej Bauer]], [[Philipp Haselwarter]], [[Peter LeFanu Lumsdaine]], _A general definition of dependent type theories_, ([arXiv:2009.05539](https://arxiv.org/abs/2009.05539))
+* [[Andrej Bauer]], Philipp Haselwarter, [[Peter LeFanu Lumsdaine]], _A general definition of dependent type theories_, ([arXiv:2009.05539](https://arxiv.org/abs/2009.05539))
 
 {#CSystemsReferences} On ([[essentially algebraic theory|essentially algebraic]])  formulations of dependent type theory (see [here](categorical+model+of+dependent+types#ContextualCategoriesOrCSystems) at *[[categorical models of dependent type theory]]*):
 
-* Egbert Rijke, _An algebraic formulation of dependent type theory_, ([mailing list discussion](https://groups.google.com/forum/#!topic/homotopytypetheory/OraMqbnCYy8/discussion))
+* [[Egbert Rijke]], _An algebraic formulation of dependent type theory_, ([mailing list discussion](https://groups.google.com/forum/#!topic/homotopytypetheory/OraMqbnCYy8/discussion))
 * Vladimir Voevodsky, _B-systems_, ([arXiv:1410.5389](http://arxiv.org/abs/1410.5389))
 * Vladimir Voevodsky, _A C-system defined by a universe in a category_, ([arXiv:1406.7413](http://arxiv.org/abs/1409.7925))
 * Vladimir Voevodsky, _C-system of a module over a monad on sets_, ([arXiv:1406.7413](http://arxiv.org/abs/1407.3394))
