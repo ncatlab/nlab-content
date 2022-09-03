@@ -49,7 +49,7 @@ This differs from the definition of an [[essentially surjective functor]] by the
 
 \begin{definition}
 A [[functor]] $F : C \to D$ is **essentially surjective** if the there is a dependent term  
-$$p(y):\Vert \sum_{x:C} (F(x) \cong y)\Vert$$
+$$p(y) \colon \left\Vert \sum_{x:C} (F(x) \cong y)\right\Vert$$
 for all objects $y:D$. 
 \end{definition}
 
