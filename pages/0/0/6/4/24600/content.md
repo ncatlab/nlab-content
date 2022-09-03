@@ -25,6 +25,30 @@ A major difference between path types and identity types is the behaviour of the
 
 Another difference is that [[transport]] behaves better with path types, holding up to definitional equality for path types but only up to an identification for [[identity types]]. 
 
+## Rules
+
+The rules for (dependent) path types are as follows
+
+* Formation
+
+$$\frac{\Gamma, i:I \vdash A \; \mathrm{type} \quad \Gamma \vdash a:[0/i]A \quad \Gamma \vdash b:[1/i]A}{\Gamma \vdash \mathrm{path}_{i.A}(a,b) \; \mathrm{type}}$$
+
+* Introduction
+
+$$\frac{\Gamma, i:I \vdash a:A}{\Gamma \vdash \lambda i.a:\mathrm{path}_{i.A}([0/i]a,[1/i]a)}$$
+
+* Elimination
+
+$$\frac{\Gamma \vdash p:\mathrm{path}_{i.A}(a,b) \quad \Gamma \vdash r:I}{\Gamma \vdash p(r):[r/i]A [\partial(r) \to [r \equiv 0 \to a \vert r \equiv 1 \to b]]}$$
+
+* Computation
+
+$$\frac{.}{\Gamma \vdash (\lambda i.a)(r) \equiv [r/i]a:[r/i]A}$$
+
+* Uniqueness (optional)
+
+$$\frac{.}{\Gamma \vdash p \equiv \lambda i.p(i) : \mathrm{path}_{i.A}(a,b)}$$
+
 ## Regularity
 
 In general, path types in cubical type theory do not satisfy the J rule definitionally. However one could force the J rule to hold definitionally by appending coercion operations: 
