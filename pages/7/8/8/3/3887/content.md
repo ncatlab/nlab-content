@@ -72,10 +72,11 @@ A review is around p. 30 of
 
 * {#Gawedzki99} [[Krzysztof Gawędzki]], _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
 
+On the [[Knizhnik-Zamolodchikov connection]] on [[configuration spaces of points]] and [[conformal blocks]]:
 
-On the [[Knizhnik-Zamolodchikov connection]] on [[configuration spaces of point]] and [[conformal blocks]]:
+* {#Kohno14} [[Toshitake Kohno]], _Local Systems on Configuration Spaces, KZ Connections and Conformal Blocks_,  Acta Math Vietnam 39, 575–598 (2014)  &lbrack;[doi:10.1007/s40306-014-0088-6](https://doi.org/10.1007/s40306-014-0088-6), [pdf](https://www.ms.u-tokyo.ac.jp/~kohno/papers/kohno_config.pdf)&rbrack;
 
-* {#Kohno14} [[Toshitake Kohno]], _Local Systems on Configuration Spaces, KZ Connections and Conformal Blocks_,  Acta Math Vietnam 39, 575–598 (2014)  ([doI;10.1007/s40306-014-0088-6](doi:10.1007/s40306-014-0088-6), [pdf](https://www.ms.u-tokyo.ac.jp/~kohno/papers/kohno_config.pdf))
+* [[Toshitake Kohno]], §1.4 in: *Conformal field theory and topology*, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. (2002) &lbrack;[AMS:mmono-210](https://bookstore.ams.org/mmono-210)&rbrack;
 
 
 Detailed discussion in terms of [[conformal nets]] is in
