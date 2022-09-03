@@ -25,18 +25,18 @@ The _store comonad_ (also _costate comonad_) is a co[[monad (in computer science
 
 As a comonadic triple $(D,\varepsilon,\delta)$ it is given by an [[endofunctor]],
 $$
-DX : X \rightarrow W \times [W,X],
+D X : X \rightarrow W \times [W,X],
 $$
 with [[natural transformations]] the counit,
 $$
-\varepsilon : DX \rightarrow Id_X 
+\varepsilon : D X \rightarrow Id_X 
 $$
 $$
 \varepsilon(v,f) \mapsto f(v),
 $$
 usually called **extract** and comultiplication,
 $$
-\delta: DX \rightarrow DDX
+\delta: D X \rightarrow D D X
 $$
 $$
 \delta (s, v) \mapsto (s, \lambda  s' . (s', v)),
