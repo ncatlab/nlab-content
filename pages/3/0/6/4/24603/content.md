@@ -6,7 +6,7 @@ Disambiguation: not a mathematician [[Ivan G. Todorov]].
 
 ## Selected writings
 
-* N. N. Bogoliubov, A. A. Logunov, I. T. Todorov, Introduction to axiomatic quantum field theory, 1975
+* N. N. Bogoliubov, A. A. Logunov, I. T. Todorov, *Introduction to axiomatic quantum field theory* (1975)
 
 On [[braid group representations]] via [[monodromy]] of the [[Knizhnik-Zamolodchikov connection]] on [[conformal blocks]]:
 
