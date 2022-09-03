@@ -19,7 +19,7 @@
 In the most general sense, a **bundle** over an [[object]] $B$ in a [[category]] $\mathcal{C}$ is simply an object $E$ of $\mathcal{C}$ equipped with a [[morphism]] in $\mathcal{C}$ from $E$ to $B$:
 $$ \array { E \\ \downarrow^{\mathrlap{p}} \\ B } $$
 
-One often refers to such a bundle simply as $E$, even though $p$ is really part of the data.
+One often refers to such a bundle simply as $E$, even though $B$ is really part of the data.
 
 For $x \in B$ a [[generalized element]] of $B$, the [[fiber]] $E_x$ of the bundle over $x$ is the [[pullback]] $x^* E$.
 
