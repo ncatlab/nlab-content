@@ -7,7 +7,6 @@ On [[linear representations]] of braid groups (see also at *[[braid group statis
 
 Review:
 
-
 * [[Camilo Arias Abad]], *Introduction to representations of braid groups*, Rev. colomb. mat. vol.49 no.1 (2015) ([arXiv:1404.0724](https://arxiv.org/abs/1404.0724), [doi:10.15446/recolma.v49n1.54160](https://doi.org/10.15446/recolma.v49n1.54160))
 
 * [[Toshitake Kohno]], *Introduction to representation theory of braid groups*, Peking 2018 ([pdf](https://www.math.pku.edu.cn/misc/puremath/summerschool/Peking_SummerSchool_kohno.pdf), [[KohnoBraidRepresentations.pdf:file]])
@@ -15,6 +14,18 @@ Review:
 in relation to [[modular tensor categories]]:
 
 * [[Colleen Delaney]], *Lecture notes on modular tensor categories and braid group representations*, 2019 ([pdf](http://web.math.ucsb.edu/~cdelaney/MTC_Notes.pdf), [[DelaneyModularTensorCategories.pdf:file]])
+
+Braid representations from the [[monodromy]] of the [[Knizhnik-Zamolodchikov connection]] on bundles of [[conformal blocks]] over [[configuration spaces of points]]:
+
+* [[Ivan Todorov]], [[Ludmil Hadjiivanov]], *Monodromy Representations of the Braid Group*, Phys. Atom. Nucl. **64** (2001) 2059-2068; Yad.Fiz. **64** (2001) 2149-2158 &lbrack;[arXiv:hep-th/0012099](https://arxiv.org/abs/hep-th/0012099), [doi:10.1134/1.1432899](https://doi.org/10.1134/1.1432899)&rbrack;
+
+* [[Ivan Marin]], *Sur les représentations de Krammer génériques*, Annales de l'Institut Fourier, **57** 6 (2007) 1883-1925 &lbrack;[numdam:AIF_2007__57_6_1883_0](http://www.numdam.org/item/AIF_2007__57_6_1883_0)&rbrack;
+
+and understood in terms of [[anyon statistics]]:
+
+* Xia Gu, [[Babak Haghighat]], Yihua Liu, *Ising- and Fibonacci-Anyons from KZ-equations* &lbrack;[arXiv:2112.07195](https://arxiv.org/abs/2112.07195)&rbrack;
+
+
 
 Braid representations seen inside the [[topological K-theory]] of the [[braid group]]'s [[classifying space]]:
 
