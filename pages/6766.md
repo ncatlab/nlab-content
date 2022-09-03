@@ -61,12 +61,18 @@ This flat connection is the Knizhnik-Zamolodchikov connection. This was maybe fi
 
 The original articles:
 
-* [[Vadim Knizhnik]], [[Alexander Zamolodchikov]], _Current algebra and Wess&#8211;Zumino model in two-dimensions_, Nucl. Phys. __B247__, 83&#8211;103 (1984) <a href="http://dx.doi.org/10.1016%2F0550-3213%2884%2990374-2">doi</a>, [MR87h:81129](http://www.ams.org/mathscinet-getitem?mr=87h:81129)
- {#KnizhnikZamolodchikov84}
+* {#KnizhnikZamolodchikov84} [[Vadim Knizhnik]], [[Alexander Zamolodchikov]], _Current algebra and Wess&#8211;Zumino model in two-dimensions_, Nucl. Phys. __B247__, 83&#8211;103 (1984) <a href="http://dx.doi.org/10.1016%2F0550-3213%2884%2990374-2">doi</a>, [MR87h:81129](http://www.ams.org/mathscinet-getitem?mr=87h:81129)
+ 
 
 * [[Alexander Belavin]], [[Alexander Polyakov]] , [[Alexander Zamolodchikov]], _Infinite conformal symmetry in two-dimensional quantum field theory_ (1984) Nucl. Phys. B 241 (2): 333&#8211;80. 
 
 * [[Daniel Friedan]], [[Stephen Shenker]], *The analytic geometry of two-dimensional conformal field theory*, Nuclear Physics B281 (1987) ([pdf](http://www.physics.rutgers.edu/~friedan/papers/Nucl_Phys_B281_509_1987.pdf))
+
+Relation to [[braid representations]]:
+
+* [[Ivan Marin]], *Sur les représentations de Krammer génériques*, Annales de l'Institut Fourier, **57** 6 (2007) 1883-1925 &lbrack;[numdam:AIF_2007__57_6_1883_0](http://www.numdam.org/item/AIF_2007__57_6_1883_0)&rbrack;
+
+
 
 The generalization to higher [[genus of a surface|genus]] surfaces: 
 
