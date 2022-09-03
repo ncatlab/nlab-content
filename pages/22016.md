@@ -1,5 +1,5 @@
 
-* [webpage](http://www1.maths.leeds.ac.uk/pure/logic/homepages/swan.html)
+* [webpage](https://awswan.github.io/)
 
 ## Selected writings
 
