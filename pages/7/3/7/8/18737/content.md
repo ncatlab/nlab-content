@@ -17,7 +17,7 @@
 
 ## Idea
 
-_Cubical type theory_ is a flavor of [[dependent type theory]] in which maps out of an interval primitive is used to define [[path types]], rather than the [[inductive family]] of [[identity types]] as in [[Martin-Löf type theory]]. Cubical type theory additionally differs from [[Martin-Löf type theory]] in that [[function extensionality]] is a [[theorem]] in cubical type theory, rather than an axiom as is the case in [[Martin-Löf type theory]]. 
+_Cubical type theory_ is a flavor of [[dependent type theory]] in which maps out of an interval primitive is used to define [[cubical path types]], rather than the [[inductive family]] of Martin-Löf [[identity types]] as in [[Martin-Löf type theory]]. Cubical type theory additionally differs from [[Martin-Löf type theory]] in that [[function extensionality]] is a [[theorem]] in cubical type theory, rather than an axiom as is the case in [[Martin-Löf type theory]]. 
 
 Similarly to [[Martin-Löf type theory]], cubical type theory comes in [[extensional type theory|extensional]] and [[intensional type theory|intensional]] flavours as well. One could also add an [[equality reflection]] rule for path types to make the cubical type theory definitionally extensional. 
 
