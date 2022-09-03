@@ -14,4 +14,8 @@ On [[E-strings]]:
 
 * {#GHKKLV15} Abhijit Gadde, [[Babak Haghighat]], Joonho Kim, Seok Kim, [[Guglielmo Lockhart]], [[Cumrun Vafa]], _6d String Chains_, JHEP 1802 (2018) 143 ([arXiv:1504.04614](https://arxiv.org/abs/1504.04614)) 
 
+On [[braid group representations]] for [[su(2)-anyon]]-[[anyon statistics|statistics]] from the [[monodromy]] of the [[Knizhnik-Zamolodchikov connection]] of bundles of [[conformal blocks]] over [[configuration spaces of points]]:
+
+* Xia Gu, [[Babak Haghighat]], Yihua Liu, *Ising- and Fibonacci-Anyons from KZ-equations* &lbrack;[arXiv:2112.07195](https://arxiv.org/abs/2112.07195)&rbrack;
+
 category: people
