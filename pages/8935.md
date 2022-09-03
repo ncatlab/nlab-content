@@ -49,6 +49,7 @@ This sort of computational axiom K can also be implemented with, and is sufficie
 
 * [[axiom UIP]]
 
+* [[boundary separation]]
 
 ## References
 
