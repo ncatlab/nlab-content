@@ -212,7 +212,11 @@ $$\pi_2(\pi_2(\nabla(\mathrm{refl}_A))):\prod_{b:\mathcal{T}_\mathcal{U}(A)} \ma
 
 ## Definition in cubical type theory
 
-Identity types in [[cubical type theory]] are called **path types** and are defined using a primitive interval. I'm not exactly sure how they work so somebody with more expertise with cubical type theory should expand on it. 
+The primary identity types are the nondependent [[cubical path types]] in [[cubical type theory]]. Like the identity types in higher observational type theory, they do not satisfy the definitional version of identification elimination; only the propositional version of identification elimination. See [[dependent identity type]] and [[cubical path type]] for more information on the construction of the cubical path types. 
+
+Some cubical type theories include a second identity type which satisfies the definitional version of identification elimination. This is called [[Swan's identity type]], and is defined by the following rules:
+
+Identity types in [[cubical type theory]] are called **path types** and are defined using a primitive interval.  
 
 ## Categorical semantics
 
@@ -401,7 +405,7 @@ In retrospect, this is roughly an algebraic version of the standard fact that ev
 
 * [[axiom K]]
 
-* [[axiom UIP]]
+* [[uniqueness of identity proofs]]
 
 * [[identity system]]
 
