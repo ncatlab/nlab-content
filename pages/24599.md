@@ -14,7 +14,7 @@
 
 ## Idea
 
-A [[type theory]] where types behave like [[sets]]. This includes:
+A [[type theory]] where types behave like [[sets]], i.e. in which all types are [[h-sets]].  Thus, it is a form of [[set-level foundations]]. This includes:
 
 * Any (definitionally) [[extensional type theory]], where there is an equality reflection rule for [[identity types]] or [[path types]] which turns their inhabitants into judgmental equalities. This includes [[Martin-Löf type theory]] with equality reflection and [[cubical type theory]] with equality reflection. 
 
