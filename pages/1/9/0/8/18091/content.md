@@ -1,8 +1,11 @@
 
 * [webpage](https://vipulnaik.com/)
 
-## related $n$Lab entries
+## Selected writings
 
-* [[separation axiom]]
+On [[separation axioms]]:
+
+* {#Naik} [[Vipul Naik]], _Topology: The journey into separation axioms_  &lbrack;[[Naik-SeparationAxioms.pdf:file]]&rbrack;
+
 
 category: people
