@@ -46,10 +46,10 @@ There are many different notions of identity type appearing in the type theory l
 
 * higher observational identity types
 
-The key factors distinguishing these identity types from other type families is the fact that given a term $x:A$, each type $Id_A(x,x)$ of the type family has a term $\mathrm{refl}(x):Id_A(x,x)$, and satisfy what is called the **J-rule**, **path induction** or **identification elimination**. In [[dependent type theory]] with [[dependent product types]] the J-rule states that given any type family $C(x, y, p)$ indexed by $x:A$, $y:A$ and $p:Id_A(x,y)$, there is an element $J:\Pi(x:A).\Pi(y:A).\Pi(p:Id_A(x,y)).C(x, y, p)$ such that $C(x, x, \mathrm{refl}(x))$ is equal to $x$. 
+The key factors distinguishing these identity types from other type families is the fact that given a term $x:A$, each type $Id_A(x,x)$ of the type family has a term $\mathrm{refl}(x):Id_A(x,x)$, and satisfy what is called the **J-rule**, **path induction** or **identification elimination**. In [[dependent type theory]] with [[dependent product types]] the J-rule states that given any type family $C(x, y, p)$ indexed by $x:A$, $y:A$ and $p:Id_A(x,y)$, and an element $c(x):C(x, x, \mathrm{refl}(x))$ for each $x:A$, there is an element $J(x, y, p):C(x, y, p)$ for all $x:A$, $y:A$ and $p:Id_A(x,y)$, such that $J(x, x, \mathrm{refl}(x))$ is equal to $c(x)$. 
 
-However, since there are two notions of [[equality]] in type theory, there are similarly two notions of the J-rule in type theory. The **definitional J-rule** states that $C(x, x, \mathrm{refl}(x))$ is definitionally equal to $x$ (i.e. $C(x, x, \mathrm{refl}(x)) = x$). The **propositional J-rule** or **typal J-rule** states that there is a dependent term 
-$$q(x):Id_{A}(C(x, x, \mathrm{refl}(x)), x)$$
+However, since there are two notions of [[equality]] in type theory, there are similarly two notions of the J-rule in type theory. The **definitional J-rule** states that $J(x, x, \mathrm{refl}(x))$ is definitionally equal to $c(x)$ (i.e. $J(x, x, \mathrm{refl}(x)) = c(x)$). The **propositional J-rule** or **typal J-rule** states that there is a dependent term 
+$$q(x):Id_{C(x,x,\mathrm{refl}(x))}(J(x, x, \mathrm{refl}(x)), c(x))$$
 Identity types which satisfy the definitional J-rule could be called **strict identity types**, while identity types which only satisfy the propositional J-rule could be called **weak identity types**, in parallel with similar definitions for a (weak and strict) [[Tarski universe]]. Martin-Löf identity types come in both strict and weak flavours. However, most other identity types in the literature, such as cubical path types and higher observational identity types, are only weak identity types. 
 
 Another dividing line between the various identity types of the type theory are whether they are [[dependent identity types]] or not. The Martin-Löf identity types are by definition non-dependent, and one first needs to define [[transport]] between type families in order to define a dependent identity type. In contrast, the cubical path types in [[cubical type theory]] and the identity types found in [[higher observational type theory]] are both [[dependent identity types]] by default, and reduce to non-dependent identity types in the case of constant dependence or reflexivity in the base. 
@@ -114,7 +114,7 @@ Note that the equality $=$ in the conclusion of this computation rule is [[defin
 
 $$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \qquad
 \Gamma, x:A, \Delta(x,x,r(x)) \vdash t : C(x,x,r(x))}
-{\Gamma, x:A, \Delta(x,x,r(x)) \vdash q(x):Id_A(J(t;x,x,r(x)) ,t)}$$
+{\Gamma, x:A, \Delta(x,x,r(x)) \vdash q(x):Id_{C(x,x,r(x))}(J(t;x,x,r(x)) ,t)}$$
 
 These rules may seem a little ad-hoc, but they are actually a particular case of the general notion of [[inductive type]].
 
