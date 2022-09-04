@@ -29,7 +29,7 @@ h-Sets can also be regarded as a way of embedding [[extensional type theory]] in
 
 ## Definition
 
-Let $A$ be a [[type]] in [[intensional type theory|intensional]] [[type theory]] with [[dependent sums]], [[dependent products]], and [[identity types]].  We define a new type $isSet(A)$ as follows:
+Let $A$ be a [[type]] in [[dependent type theory]] with [[dependent sums]], [[dependent products]], and [[identity types]].  We define a new type $isSet(A)$ as follows:
 
 $$isSet(A) \coloneqq \prod_{x\colon A} \prod_{y\colon A} isProp(x=y)$$
 
@@ -48,6 +48,10 @@ This says that a version of Streicher's "[[axiom K]]" holds for h-sets. (See als
 ## Examples
 
 * Most (non-[[higher inductive type|higher]]) [[inductive types]] are h-sets (assuming that all their parameters and indices are so).  In particular, the type of [[natural numbers]] is an h-set.  This can be proven from Theorem \ref{DecidableIsSet} below.
+
+* In a [[set-level type theory]], *all* types are h-sets.
+
+* The [[univalence axiom]] is the only well-known property that implies that *not* all types are h-sets.  In particular, it implies that the [[universe type]] is not an h-set, and that many [[higher inductive types]] are not h-sets.
 
 
 ## Properties
