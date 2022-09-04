@@ -15,7 +15,7 @@
 
 ## Idea
 
-XTT is an [[extensional type theory|extensional]] [[cubical type theory]] developed by [[Jonathan Sterling]], [[Carlo Angiuli]], and [[Daniel Gratzer]]. 
+XTT is an [[extensional type theory|extensional]] [[cubical type theory]] developed by [[Jonathan Sterling]], [[Carlo Angiuli]], and [[Daniel Gratzer]]. While it might seem that XTT should stand for "X type theory", the authors have stated that XTT isn't an acronym and doesn't stand for anything. 
 
 [[XTT]] features [[boundary separation]], which implies [[UIP]] as a theorem of [[XTT]], rather than an axiom as in [[Martin-Löf type theory]]. As a result, it is an example of a [[cubical type theory]] which is not a [[homotopy type theory]]. 
 
