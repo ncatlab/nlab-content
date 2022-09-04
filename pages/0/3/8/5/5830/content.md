@@ -99,7 +99,7 @@ With the [[univalence]] axiom included (for a [[type of types]] "weakly a la Tar
 
 See also at _[[relation between type theory and category theory#HomotopyWithUnivalence|relation between type theory and category theory --- univalent homotopy type theory and elementary $(\infty,1)$-toposes]]_.
 
-For a short introduction to a simplicial model of homotopy type theory see [[T. Streicher - a model of type theory in simplicial sets - a brief introduction to Voevodsky' s homotopy type theory]].
+For a short introduction to a simplicial model of homotopy type theory see [Streicher 2014](#Streicher14).
 
 
 
@@ -469,7 +469,7 @@ The HoTT electronic seminar talks:
 
 The first [[model]] for [[intensional type theory|intensional]] [[Martin-Löf type theory]] on [[groupoids]] (instead of [[sets]] = [[0-groupoids]]) was
 
-* {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]]  _The groupoid interpretation of type theory_, in: Giovanni Sambin et al. (ed.) , _Twenty-five years of constructive type theory_, Proceedings of a congress, Venice, Italy, October 19&#8212;21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. 36, 83-111 (1998).  ([ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz))
+* {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]]  _The groupoid interpretation of type theory_, in: Giovanni Sambin et al. (ed.) , _Twenty-five years of constructive type theory_, Proceedings of a congress, Venice, Italy, October 19&#8212;21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. 36, 83-111 (1998) &lbrack;[ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz), [[HofmannStreicherGroupoidInterpretation.pdf:file]], [doi:10.1093/oso/9780198501275.003.0008](https://doi.org/10.1093/oso/9780198501275.003.0008)&rbrack;
 
 Generalization of this to [[strict ∞-groupoids]] were discussed in
 
@@ -503,7 +503,7 @@ The trickiest question in finding models of homotopy type theory is to validate 
 
 * [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], [[Vladimir Voevodsky]], *Univalence in simplicial sets*, [arXiv:v](http://arxiv.org/abs/1203.2553)
 
-* [[T. Streicher - a model of type theory in simplicial sets - a brief introduction to Voevodsky's homotopy type theory]]
+* {#Streicher14} [[Thomas Streicher]], *A model of type theory in simplicial sets: A brief introduction to Voevodsky's homotopy type theory*, Journal of Applied Logic **12** 1 (2014) 45-49 &lbrack;[doi:10.1016/j.jal.2013.04.001](https://doi.org/10.1016/j.jal.2013.04.001)&rbrack;
 
 * [[Ieke Moerdijk]] (notes by [[Chris Kapulkin]]): *Fiber bundles and univalence*, [link](http://www.pitt.edu/~krk56/fiber_bundles_univalence.pdf)
 
