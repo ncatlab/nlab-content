@@ -24,7 +24,7 @@ Cubical path types are a form of [[path types]] in [[dependent type theory]] use
 
 A major difference between cubical path types and Martin-Löf identity types is the behaviour of the J rule. In Martin-Löf identity types the J rule holds up to definitional equality, but for cubical path types, the J rule only holds up to a path. 
 
-Another difference is that [[transport]] behaves better with cubical path types, holding up to definitional equality for cubical path types but only up to an identification for Martin-Löf identity types. 
+Another difference is that [[transport]] generally behaves better with cubical path types.  Certain rules for the computation of transports in concrete type families hold up to definitional equality for cubical path types, but only up to an identification for Martin-Löf identity types. 
 
 ## Rules
 
