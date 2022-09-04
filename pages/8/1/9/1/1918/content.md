@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # The separation axioms
 * table of contents
 {: toc}
@@ -718,9 +719,10 @@ An original article is
 
 * {#Tietze23} Heinrich Tietze, _Beitrage zur allgemeinen Topologie. I. Axiome f&#252;r verschiedene Fassungen des Umgebungsbegriffs_, Mathematische Annalen, vol 88, pages 290-311 (1923) ([online scan](https://www.digizeitschriften.de/en/dms/img/?PID=GDZPPN00226921X&physid=phys298#navi))
 
-Lecture notes include
+Lecture notes:
 
-* {#Naik} [[Vipul Naik]], _Topology: The journey into separation axioms_ ([pdf](http://www.cmi.ac.in/~vipul/mathjourneys/contytopologysep.pdf))
+* {#Naik} [[Vipul Naik]], _Topology: The journey into separation axioms_  &lbrack;[[Naik-SeparationAxioms.pdf:file]]&rbrack;
+
 
 See also the entry
 
