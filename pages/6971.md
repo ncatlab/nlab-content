@@ -15,7 +15,13 @@
 
 ## Idea
 
-_Extensional type theory_ denotes the flavor of [[type theory]] in which [[identity types]] are demanded to be [[propositions]] / of [[h-level 1]], or equivalently all types are required to be [[h-sets]].  Thus, it is a form of [[set-level foundations]].
+_Extensional type theory_ denotes the flavor of [[type theory]] in which [[identity types]] satisfy the *reflection rule*, saying that if two terms are propositionally equal then they are also definitionally equal.
+
+In particular, this implies that all identity types are [[propositions]] / of [[h-level 1]], and thus equivalently that all types are required to be [[h-sets]].  Therefore, extensional type theory is a [[set-level type theory]], and hence a form of [[set-level foundations]].  However, there are other set-level type theories, such as those obtained by adding [[UIP]] as an axiom.
+
+__Note:__ *For a while, the nLab incorrectly used "extensional type theory" to refer to what we now call [[set-level type theory]].  If you encounter uses of this sort, please correct them.*
+
+Extensional type theory is poorly behaved metatheoretically, and very difficult to implement in a proof assistant.  However, it is sometimes more convenient to work with informally, and there are conservativity theorems relating it to other set-level type theories that are better-behaved.
 
 Type theory which is not extensional is called _[[intensional type theory]]_.
 
@@ -23,23 +29,18 @@ Type theory which is not extensional is called _[[intensional type theory]]_.
 ###### Remark
 The word "extensional" in type theory (even when applied to identity types) sometimes refers instead to the axiom of  [[function extensionality]].  In general this property is orthogonal to the one considered here: function extensionality can hold or fail in both extensional and intensional type theory.
 
-In particular, [[homotopy type theory]] is [[intensional type theory|intensional]] in that [[identity types]] are crucially _not_ demanded to be [[propositions]], but [[function extensionality]] is often assumed (in terms of these intensional identity types, of course) --- in particular, it follows from the [[univalence axiom]].  Indeed, univalence itself is arguably an "extensionality" property for the universe (Hofmann and Streicher originally introduced it under the name "universe extensionality"), but it is inconsistent with "extensional type theory" in the sense considered here.
+In particular, [[homotopy type theory]] is [[intensional type theory|intensional]] in that [[identity types]] are crucially _not_ demanded to be [[propositions]], but [[function extensionality]] is often assumed (in terms of these intensional identity types, of course) --- in particular, it follows from the [[univalence axiom]].  Indeed, univalence itself is arguably an [[extensionality principle]] for the universe (Hofmann and Streicher originally introduced it under the name "universe extensionality"), but it is inconsistent with "extensional type theory" in the sense considered here.
 =--
 
 +-- {: .num_remark}
 ###### Remark
-The origin of the names "extensional" and "intensional" is somewhat confusing.  In fact they refer to the behavior of the [[definitional equality]].  The idea is that the [[identity type]] is always an "extensional" notion of equality (although it can be more or less extensional, depending on whether further extensionality principles like [[function extensionality]] and [[univalence]] hold).  Thus, if the definitional equality *coincides* with the identity type, the former is also extensional, and so we call the type theory "extensional" --- while if the two equalities do *not* coincide, then the definitional equality has room to be more intensional than the identity type, and so we call the type theory "intensional".  (This historical explanation only applies to what we below call "definitionally extensional" type theories, which were the original use of the term.)
+The origin of the names "extensional" and "intensional" is somewhat confusing.  In fact they refer to the behavior of the [[definitional equality]].  The idea is that the [[identity type]] is always an "extensional" notion of equality (although it can be more or less extensional, depending on whether further extensionality principles like [[function extensionality]] and [[univalence]] hold).  Thus, if the definitional equality *coincides* with the identity type, as it does under the reflection rule, the former is also extensional, and so we call the type theory "extensional" --- while if the two equalities do *not* coincide, then the definitional equality has room to be more intensional than the identity type, and so we call the type theory "intensional".
 =--
 
 
 ## Definition
 
-The basic definition of [[identity types]] as an [[inductive type]] family makes them intensional.  There are two sorts of ways to make them extensional: [[definitional equality|definitionally]] or propositionally.
-
-
-### Definitional extensionality
-
-In a definitionally extensional type theory, any [[inhabitant]] of an identity type $p:Id_A(x,y)$ induces a [[definitional equality]] between $x$ and $y$.  In other words, we have an "equality reflection rule" of the form
+The Martin-Lof definition of [[identity types]] as an [[inductive type]] family makes them intensional.  To make the type theory extensional, we add a rule that any [[inhabitant]] of an identity type $p:Id_A(x,y)$ induces a [[definitional equality]] between $x$ and $y$.  In other words, we have an "equality reflection rule" of the form
 
 $$ \frac{p:Id_A(x,y)}{x\equiv y} $$
 
@@ -53,33 +54,16 @@ Thus, by induction on identity, we have a term in the above type, witnessing a [
 
 +-- {: .num_remark}
 ###### Remark
-On the other hand, if in addition to the equality reflection rule we postulate that all equality proofs are definitionally equal to reflexivity, then we can derive the induction rule for identity types.  Definitionally extensional type theory is often presented in this form.
+On the other hand, if in addition to the equality reflection rule we postulate that all equality proofs are definitionally equal to reflexivity, then we can derive the induction rule for identity types.  Extensional type theory is often presented in this form.
 =--
 
-A different, also equivalent, way of presenting definitionally extensional type theory is with a definitional [[eta-conversion]] rule for the identity types; see _[here](identity+type#EtaConversion)_.
-
-
-### Propositional extensionality
- {#PropositionalExtensionality}
- 
-In a propositionally extensional type theory, we still distinguish [[definitional equality|definitional]] and [[propositional equality]], but no two terms can be propositionally equal in more than one way (up to propositional equality).  In the language of [[homotopy type theory]], this means that all types are [[h-sets]].  There are a number of equivalent ways to force this to be true by adding [[axioms]] to type theory.
-
-1. We can add as an axiom the "uniqueness of identity proofs" ([[axiom UIP]]) property that any two inhabitants of the same identity type $Id_A(x,y)$ are themselves equal (in the corresponding higher identity type).
-
-1. We can add Streicher's *[[axiom K]]* which says that any inhabitant of a self-equality type $Id_A(x,x)$ is (propositionally) equal to the identity/reflexivity equality $1_x$.  (Axiom K is so named because $K$ comes after $J$, and $J$ usually denotes the [[elimination rule|eliminator]] for [[identity types]].)
-
-1. In the presence of [[dependent sum types]], we can add an axiom saying that if $(a,b_1)$ and $(a,b_2)$ are pairs in a dependent sum $\sum_{x\colon A} B(x)$ with the same first component, and the identity type $Id_{\sum_{x\colon A} B(x)}((a,b_1), (a,b_2))$ is inhabited, then so is $Id_{B(a)}(b_1,b_2)$.
-
-1. We can allow definition of functions by a strong form of *pattern matching*, as in unmodified [[Agda]].  The relevant "extra strength" is to allow output *types* of a pattern match which are only well-defined *after* the pattern has been matched.
-
-Propositionally extensional type theory has some of the attributes of intensional type theory, and many type theorists use "extensional type theory" to refer only to the definitional version.
-
+A different, also equivalent, way of presenting extensional type theory is with a definitional [[eta-conversion]] rule for the identity types; see _[here](identity+type#EtaConversion)_.
 
 ## Properties
 
 ### Decidability
 
-Only the intensional, but not the extensional, [[Martin-Löf type theory]] has [[decidability|decidable]] type checking.  See _[[intensional type theory]]_ for more on this.
+Extensional [[Martin-Löf type theory]] does not have [[decidability|decidable]] type checking.  See _[[intensional type theory]]_ for more on this.
 
 ## Related concepts
 
@@ -93,9 +77,7 @@ Only the intensional, but not the extensional, [[Martin-Löf type theory]] has [
 
 * [[NuPRL]]
 
-* [[Homotopy Type System]] is [[dependent type theory]] with a mix of extensional and intensional [[identity types]].
-
-* [[XTT]], an extensional [[cubical type theory]]
+* [[Andromeda]]
 
 ## References
 
@@ -111,3 +93,5 @@ Only the intensional, but not the extensional, [[Martin-Löf type theory]] has [
 * [[Jonathan Sterling]], [[Carlo Angiuli]], [[Daniel Gratzer]], _A Cubical Language for Bishop Sets_, Logical Methods in Computer Science, 18 (1), 2022. ([arXiv:2003.01491](https://arxiv.org/abs/2003.01491)). 
 
 [[!redirects extensional type theories]]
+[[!redirects equality reflection]]
+[[!redirects equality reflection rule]]
