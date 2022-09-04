@@ -74,7 +74,7 @@ It is well known that [[extensional type theory|extensional]] [[dependent type t
 
 The step from extensional to [[intensional type theory]] and the [[identity types]] that this brings with it makes intensional dependent type theory have models in certain [[(∞,1)-categories]].  This connection is usually shown by means of a presentation of the $(\infty,1)$-category using a [[weak factorization system]], a [[category of fibrant objects]], a [[model category]], or other similar structure.
 
-It is conjectured (due to [Awodey 09](#Awodey09), [Awodey, 2010](#Awodey), [Joyal, 2011](#Joyal11), see [[Awodey's conjecture]]) that
+It is conjectured (due to [Awodey 09](#Awodey09), [Awodey, 2010](#Awodey12), [Joyal, 2011](#Joyal11), see [[Awodey's conjecture]]) that
 
 * intensional dependent type theory with dependent sums and products and [[function extensionality]] (a form of homotopy type theory) is an internal language for [[locally cartesian closed (∞,1)-categories]]; and
 
@@ -353,8 +353,7 @@ Early sketches and introductions to the idea of homotopy type theory include
 
 * {#Awodey09} [[Steve Awodey]], _Homotopy and Type Theory_, grant proposal project description ([pdf](https://ncatlab.org/homotopytypetheory/files/proposal2009.pdf))
 
-* {#Awodey} [[Steve Awodey]], _Type theory and homotopy_, Epistemology versus Ontology. Springer Netherlands, 2012. 183-201. (2010) [arXiv:1010.1810](http://arxiv.org/abs/1010.1810)
- 
+* {#Awodey12} [[Steve Awodey]], *Type theory and homotopy*, in: *Epistemology versus Ontology* Springer (2012) 183-201 &lbrack;[arXiv:1010.1810](http://arxiv.org/abs/1010.1810), [doi:10.1007/978-94-007-4435-6_9](https://doi.org/10.1007/978-94-007-4435-6_9)&rbrack;
 
 
 * [[Michael Shulman]], _Homotopy type theory_ [I](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_i.html), [II](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_ii.html), [III](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_iii.html), [IV](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_iv.html), [V](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_v.html), [VI](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_vi.html)
@@ -478,7 +477,7 @@ Generalization of this to [[strict ∞-groupoids]] were discussed in
 
 The fact that every [[simplicial model category]] in which the cofibrations are [[monomorphisms]] provides a sound [[model]] for [[intensional type theory|intensional]] [[Martin-Löf type theory]] is discussed in 
 
-* {#AwodeyWarren07} [[Steve Awodey]], [[Michael Warren]], _Homotopy theoretic models of identity type_,  Mathematical Proceedings of the Cambridge Philosophical Society vol 146, no. 1 (2009) ([arXiv:0709.0248](http://arxiv.org/abs/0709.0248))
+* {#AwodeyWarren07} [[Steve Awodey]], [[Michael Warren]], *Homotopy theoretic models of identity type*,  Mathematical Proceedings of the Cambridge Philosophical Society **146** 1 (2009) &lbrack;[arXiv:0709.0248](http://arxiv.org/abs/0709.0248), [doi:10.1017/S0305004108001783](https://doi.org/10.1017/S0305004108001783)&rbrack;
 
 and with more details in 
 
