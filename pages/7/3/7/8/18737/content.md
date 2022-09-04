@@ -51,6 +51,12 @@ Since face formulae behave like propositions, it should be possible to judge the
 
 $$\frac{\Gamma \vdash \phi \; true}{\Gamma \vdash \phi \vee \psi \; true} \qquad \frac{\Gamma \vdash \psi \; true}{\Gamma \vdash \phi \vee \psi \; true} \qquad \frac{\Gamma \vdash \phi \vee \psi \; true \quad \Gamma, \phi \vdash \chi \; true \quad \Gamma, \psi \vdash \chi \; true}{\Gamma \vdash \chi \; true}$$
 
+The interval primitive $I$ has more points than $0$ and $1$, so it is not the case that the sequent
+$$r:I \vdash r = 0 \vee r = 1 \;\mathrm{true}$$
+holds.  Thus, there is a **boundary formula**
+$$\delta(r) \coloneqq r = 0 \vee r = 1$$
+
+
 ## Canonicity in cubical type theory
 
 In contrast to [[Martin-Löf type theory]], there exist cubical type theories, such as [[XTT]], in which [[UIP]] is not just an [[axiom]] but a [[theorem]]. Similarily, there exist cubical type theories in which [[univalence]] is not just an [[axiom]] but a [[theorem]]. As a result, in those cubical type theories, [[canonicity]] still holds. This is useful for computational purposes, and for the use of [[cubical type theory]] in [[proof assistants]]. 
@@ -137,3 +143,6 @@ On [[XTT]]:
 * [[Jonathan Sterling]], [[Carlo Angiuli]], [[Daniel Gratzer]], _A Cubical Language for Bishop Sets_, Logical Methods in Computer Science, 18 (1), 2022. ([arXiv:2003.01491](https://arxiv.org/abs/2003.01491)). 
 
 [[!redirects cubical type theories]]
+[[!redirects boundary in cubical type theory]]
+[[!redirects boundary (cubical type theory)]]
+[[!redirects boundary formula]]
