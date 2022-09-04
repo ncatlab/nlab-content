@@ -495,6 +495,8 @@ See also
 [[!redirects identity types]]
 [[!redirects equality type]]
 [[!redirects equality types]]
+[[!redirects path type]]
+[[!redirects path types]]
 [[!redirects path space type]]
 [[!redirects path space types]]
 [[!redirects stable path object]]
