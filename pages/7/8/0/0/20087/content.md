@@ -24,11 +24,22 @@ On [[Yang-Mills monopoles]]:
 
 * {#GibbonsManton86} [[Gary Gibbons]], [[Nicholas Manton]], _Classical and Quantum Dynamics of BPS Monopoles_, Nucl. Phys. B274 (1986) 183-224 ([spire:18322](http://inspirehep.net/record/18322), <a href="https://doi.org/10.1016/0550-3213(86)90624-3">doi:10.1016/0550-3213(86)90624-3</a>)
 
+
+
+
+
+
+
 On [[Skyrmions]] via [[rational maps]] from the [[complex plane]], hence [[holomorphic functions]] from the [[Riemann sphere]], to itself, as for [[Yang-Mills monopoles]]:
 
 * [[Conor J. Houghton]], [[Nicholas Manton]], [[Paul Sutcliffe]], *Rational Maps, Monopoles and Skyrmions*, Nucl. Phys. B510 (1998) 507-537 ([arXiv:hep-th/9705151](https://arxiv.org/abs/hep-th/9705151), <a href="https://doi.org/10.1016/S0550-3213(97)00619-6">doi:10.1016/S0550-3213(97)00619-6</a>)
 
 * [[Nicholas S. Manton]], [[Bernard M.A.G. Piette]], *Understanding Skyrmions using Rational Maps*, in: Casacuberta C., Miró-Roig R.M., Verdera J., Xambó-Descamps S. (eds.) European Congress of Mathematics. Progress in Mathematics, vol 201. Birkhäuser, Basel. 2001 ([doi:10.1007/978-3-0348-8268-2_27](https://doi.org/10.1007/978-3-0348-8268-2_27), [arXiv:hep-th/0008110](https://arxiv.org/abs/hep-th/0008110))
+
+
+
+
+
 
 On constructing [[Skyrmions]] from [[instantons]] in [[D=5 Yang-Mills theory]] ([[hadron Kaluza-Klein theory]]):
 
@@ -46,8 +57,12 @@ On [[skyrmion]] [[model (in theoretical physics)|models]] of [[atomic nuclei]]:
 
 * {#BattyeMantonSutcliffe10} [[Richard A. Battye]], [[Nicholas Manton]], [[Paul Sutcliffe]], _Skyrmions and Nuclei_, pp. 3-39 (2010) ([doi:10.1142/9789814280709_0001](https://doi.org/10.1142/9789814280709_0001)) in:  [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
-
 * [[Nicholas Manton]], _Lightly Bound Skyrmions, Tetrahedra and Magic Numbers_ ([arXiv:1707.04073](https://arxiv.org/abs/1707.04073))
+
+* [[Nicholas Manton]], *Skyrmions – A Theory of Nuclei*, World Scientific (2022) &lbrack;[doi:10.1142/q0368 ](https://doi.org/10.1142/q0368 )&rbrack;
+
+* [[Nicholas Manton]], *Skyrmions as Models for Nuclei*, Ischia (2022) &lbrack;[pdf](https://agenda.infn.it/event/19753/contributions/170544/attachments/90671/122280/SkyIschia.pdf)&rbrack;
+
 
 
 On patterns in the [[characteristic classes]] ([[Chern classes]]) of [[complex surfaces]], together with some speculations about an anlogy with [[atomic number]] of [[atomic nuclei]]:
