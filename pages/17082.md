@@ -339,7 +339,7 @@ in other words, each point $y\in Y$).
      \{c\}\longrightarrow \{o{ \searrow}c\},\,\{a{ \swarrow}o{ \searrow}b\}\longrightarrow \{a=o=b\}\,\,\}^{&solb;lr}$$
 
 * a topological space $X$ is compactly generated iff 
-$\varnothing\longrightarrow X$ is in  $\bigcup(\{\{0 \leftrightarrow 1\}\to\{0=1\}\}\cup\{\varnothing \to K \,\,:\,\, K\,\, \text{ compact}\}\big)^{&solb;rl}$
+$\varnothing\longrightarrow X$ is in  $\big(\{\{0 \leftrightarrow 1\}\to\{0=1\}\}\cup\{\varnothing \to K \,\,:\,\, K\,\, \text{ compact}\}\big)^{&solb;rl}$
 
 *   a space $D$ is discrete iff $ \emptyset \longrightarrow  D$ is in $   (\emptyset\longrightarrow \{o\})^{&solb;rl}      $
 
