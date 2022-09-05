@@ -8,6 +8,8 @@ On [[quantum information theory]]:
 
 * [[Scott Aaronson]], *Introduction to Quantum Information Science* (2018) &lbrack;[pdf](https://www.scottaaronson.com/qclec.pdf), [webpage](https://www.scottaaronson.com/cs378/)&rbrack;
 
+  *Introduction to Quantum Information Science II* (2022) &lbrack;[pdf](https://www.scottaaronson.com/qisii.pdf)&rbrack;
+
 
 On [[complexity theory|complexity theoretic]] aspects of [[quantum supremacy]]:
 
