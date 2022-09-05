@@ -58,7 +58,8 @@ For Skyrmion models of nuclei to match well to [[experiment]], not just the [[pi
 
 ## References
 
-[[skyrmion]] [[model (in theoretical physics)|models]]:
+On [[Skyrmion]] [[model (in theoretical physics)|models]] for nucleons:
+
 
 * {#Riska93} D. O. Riska, _Baryons and nuclei as skyrmions_,  Czech J Phys (1993) 43: 449 ([doi:10.1007/BF01589856](https://doi.org/10.1007/BF01589856))
 
@@ -69,8 +70,12 @@ For Skyrmion models of nuclei to match well to [[experiment]], not just the [[pi
 
 * {#Manton16} [[Nicholas Manton]], _Skyrmions and Nuclei_, talk at Brookhaven National Lab, November 2016 ([pdf](https://quark.phy.bnl.gov/~pisarski/talks/Manton_SkyBNL.pdf))
 
-
 * {#NayaSutcliffe18} [[Carlos Naya]], [[Paul Sutcliffe]], _Skyrmions and clustering in light nuclei_, Phys. Rev. Lett. 121, 232002 (2018) ([arXiv:1811.02064](https://arxiv.org/abs/1811.02064)) 
+
+Textbook account:
+
+* [[Nicholas Manton]], *Skyrmions – A Theory of Nuclei*, World Scientific (2022) &lbrack;[doi:10.1142/q0368 ](https://doi.org/10.1142/q0368 )&rbrack;
+
 
 See also
 
