@@ -70,7 +70,7 @@ The original articles:
 
 Relation to [[braid representations]]:
 
-* [[Ivan Todorov]], [[Ludmil Hadjiivanov]], *Monodromy Representations of the Braid Group*, Phys. Atom. Nucl. **64** (2001) 2059-2068; Yad.Fiz. **64** (2001) 2149-2158 &lbrack;[arXiv:hep-th/0012099](https://arxiv.org/abs/hep-th/0012099), [doi:10.1134/1.1432899](https://doi.org/10.1134/1.1432899)&rbrack;
+* {#TodorovHadjiivanov01} [[Ivan Todorov]], [[Ludmil Hadjiivanov]], *Monodromy Representations of the Braid Group*, Phys. Atom. Nucl. **64** (2001) 2059-2068; Yad.Fiz. **64** (2001) 2149-2158 &lbrack;[arXiv:hep-th/0012099](https://arxiv.org/abs/hep-th/0012099), [doi:10.1134/1.1432899](https://doi.org/10.1134/1.1432899)&rbrack;
 
 * [[Ivan Marin]], *Sur les représentations de Krammer génériques*, Annales de l'Institut Fourier, **57** 6 (2007) 1883-1925 &lbrack;[numdam:AIF_2007__57_6_1883_0](http://www.numdam.org/item/AIF_2007__57_6_1883_0)&rbrack;
 
