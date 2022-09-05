@@ -208,6 +208,11 @@ Further introduction and survey:
  
 * {#Loceff13} Michael Loceff, _A course in quantum computing_, 2013 ([pdf](https://www.fgamedia.org/faculty/loceff/cs_courses/cs_83a/Intro_to_QC_Vol_1_Loceff.pdf))
 
+* [[Scott Aaronson]], *Introduction to Quantum Information Science* (2018) &lbrack;[pdf](https://www.scottaaronson.com/qclec.pdf), [webpage](https://www.scottaaronson.com/cs378/)&rbrack;
+
+  *Introduction to Quantum Information Science II* (2022) &lbrack;[pdf](https://www.scottaaronson.com/qisii.pdf)&rbrack;
+
+
 * National Academies of Sciences, Engineering, and Medicine, _Quantum Computing: Progress and Prospects_, The National Academies Press 2019 ([doi:10.17226/25196](https://doi.org/10.17226/25196))
 
 * Qiang Zhang, Feihu Xu, Li Li, Nai-Le Liu, Jian-Wei Pan, *Quantum information research in China*, Quantum Sci. Technol. 4 040503 ([doi:10.1088/2058-9565/ab4bea](https://iopscience.iop.org/article/10.1088/2058-9565/ab4bea))
