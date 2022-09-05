@@ -115,12 +115,6 @@ in which both legs are split monics.  Filling in one of the equivalent definitio
 
 * If $C$ is exact and protomodular with finite colimits, then for any $x\in C$ the [[over category|over]]-[[under category|under]] category $(x/C/x)$ is semi-abelian.  For example, the opposite of the category of [[pointed object|pointed objects]] in a [[topos]] is semi-abelian, and in particular, $Set_*^{op}$ is semi-abelian.
 
-+-- {: .query}
-[[Urs Schreiber|Urs]]: how can I understand that this (has to?) involve the opposite category?
-
-[[Mike Shulman|Mike]]: Well, as the previous example shows, $Set_*$ itself is not semi-abelian.  The way I'm thinking of it is that a surjection of pointed sets is not determined by its kernel, but an injection of pointed sets is determined by its cokernel.
-=--
-
 * The categories of [[crossed module|crossed modules]], [[crossed complex]]es, and their friends are semi-abelian; see example 4.2.6 of the Van der Linden paper referenced below.
 
 * the category of cocommutative Hopf algebras over a field. Was proven in papers by Gran/Kadjo/Vercruysse and Gran/Sterck/Vercruyse
