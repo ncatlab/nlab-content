@@ -189,7 +189,7 @@ Textbook accounts:
 
 * Masahito Hayashi, _Quantum information theory - mathematical foundation_ Graduate Texts in Physics (2017)
 
-* [[Michael A. Nielsen]], [[Isaac L. Chuang]], *Quantum computation and quantum information*, Cambridge University Press (2000) $[$[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]$]$
+* [[Michael A. Nielsen]], [[Isaac L. Chuang]], *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
 
 * Sumeet Khatri, Mark M. Wilde, _Principles of Quantum Communication Theory: A Modern Approach_ ([arXiv:2011.04672](https://arxiv.org/abs/2011.04672))
@@ -201,6 +201,9 @@ Lecture notes:
 * Reinhard Werner, _Mathematical methods of quantum information theory_, 18 lecture course (2017) video playlist [yt](https://www.youtube.com/playlist?list=PLDfPUNusx1EoBAn8vXYjcF95R7mI_eR6o)
 
 * [[Scott Aaronson]], *Introduction to Quantum Information Science* (2018) &lbrack;[pdf](https://www.scottaaronson.com/qclec.pdf), [webpage](https://www.scottaaronson.com/cs378/)&rbrack;
+
+  *Introduction to Quantum Information Science II* (2022) &lbrack;[pdf](https://www.scottaaronson.com/qisii.pdf)&rbrack;
+
 
 
 In a context of [[quantum optics]]:
