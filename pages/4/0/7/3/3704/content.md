@@ -102,7 +102,7 @@ The behaviour of [[quantum channel]]s and _completely positive maps_ has an eleg
 
 The idea that the natural language of [[quantum mechanics]] and [[quantum computation]] is that of [[†-compact categories]] became popular with the publication
 
-* {#AbramskyCoecke} [[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_ , Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) ([arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130))
+* {#AbramskyCoecke04} [[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_ , Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) ([arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130))
 
 with an expanded version in 
 
