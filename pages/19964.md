@@ -228,11 +228,16 @@ The original articles:
 
 * {#Skyrme62} [[Tony Skyrme]], _A unified field theory of mesons and baryons_, Nuclear Physics Volume 31, March–April 1962, Pages 556-569 (<a href="https://doi.org/10.1016/0029-5582(62)90775-7">doi:10.1016/0029-5582(62)90775-7</a>)
 
-
 * {#AdkinsNappiWitten83} [[Gregory Adkins]], [[Chiara Nappi]], [[Edward Witten]], _Static Properties of Nucleons in the Skyrme Model_, Nucl. Phys. B228 (1983) 552 ([spire:190174](http://inspirehep.net/record/190174), <a href="https://doi.org/10.1016/0550-3213(83)90559-X">doi:10.1016/0550-3213(83)90559-X</a>)
 
+Textbook accounts:
 
-Review:
+* {#RhoZahed16} [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific (2016) &lbrack;[doi:10.1142/9710](https://doi.org/10.1142/9710)&rbrack;
+
+* [[Nicholas Manton]], *Skyrmions – A Theory of Nuclei*, World Scientific (2022) &lbrack;[doi:10.1142/q0368 ](https://doi.org/10.1142/q0368 )&rbrack;
+
+
+Other review:
 
 * [[Edward Witten]], _Skyrmions and QCD_, in: Current Algebra and Anomalies, pp. 529-537, World Scientific (1985) ([doi:10.1142/9789814503044_0010](https://doi.org/10.1142/9789814503044_0010))
 
@@ -282,8 +287,8 @@ Review:
 
 * Yong-Liang Ma, Masayasu Harada, _Lecture notes on the Skyrme model_ ([arXiv:1604.04850](https://arxiv.org/abs/1604.04850), [spire:1448311](https://inspirehep.net/literature/1448311))
 
+* [[Nicholas Manton]], *Skyrmions as Models for Nuclei*, Ischia (2022) &lbrack;[pdf](https://agenda.infn.it/event/19753/contributions/170544/attachments/90671/122280/SkyIschia.pdf)&rbrack;
 
-* {#RhoZahed16} [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
 See also
 
