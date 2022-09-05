@@ -77,7 +77,7 @@ A central motivating example comes from $K$-theory. If $C$ is a [[Quillen-exact 
 
 ## References
 
-For more references along these lines see at _[[n-fold complete Segal space]]_
+For more references along these lines do *not* see at _[[n-fold complete Segal space]]_ -- that is a different concept.
 
 The Dyckerhoff-Kapranov "higher Segal spaces" [above](#DyckerhoffKapranov) are discussed in
 
