@@ -156,6 +156,8 @@ For instance various resonances of the [[carbon]] [[nucleus]] are modeled well b
 
 > graphics grabbed form [Lau-Manton 14](#LauManton14)
 
+See also the animated computations in [Gudnason & Halcrow 2018](#GudnasonHalcrow18).
+
 {#IncludingTowerOfMesons} For Skyrmion models of nuclei to match well to [[experiment]], not just the [[pion field]] but also the tower of [[vector mesons]] need to be included in the construction. 
 
 Including the [[rho meson]] gives good results for light nuclei ([Naya-Sutcliffe 18a](#NayaSutcliffe18a), [Naya-Sutcliffe 18b](#NayaSutcliffe18b))
@@ -304,6 +306,11 @@ Further development:
 * {#FLM12} D. T. J. Feist, P. H. C. Lau, [[Nicholas Manton]], _Skyrmions up to Baryon Number 108_ ([arXiv:1210.1712](https://arxiv.org/abs/1210.1712))
 
 * {#Manton17} [[Nicholas Manton]], _Lightly Bound Skyrmions, Tetrahedra and Magic Numbers_ ([arXiv:1707.04073](https://arxiv.org/abs/1707.04073))
+
+* {#GudnasonHalcrow18} [[Sven Bjarke Gudnason]], [[Chris Halcrow]], *Vibrational modes of Skyrmions*, Phys. Rev. D **98** 125010 (2018) &lbrack;[arXiv:1811.00562](https://arxiv.org/abs/1811.00562), [doi:10.1103/PhysRevD.98.125010](https://doi.org/10.1103/PhysRevD.98.125010)&rbrack;
+
+  *Database of Skyrmion Vibrations* &lbrack;[www1.maths.leeds.ac.uk/pure/geometry/SkyrmionVibrations/](http://www1.maths.leeds.ac.uk/pure/geometry/SkyrmionVibrations/)&rbrack;
+
 
 * Avner Karasik, _Skyrmions, Quantum Hall Droplets, and one current to rule them all_ ([arXiv:2003.07893](https://arxiv.org/abs/2003.07893))
 
