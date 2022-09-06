@@ -72,6 +72,8 @@ On [[Skyrmion]] [[model (in theoretical physics)|models]] for nucleons:
 
 * {#NayaSutcliffe18} [[Carlos Naya]], [[Paul Sutcliffe]], _Skyrmions and clustering in light nuclei_, Phys. Rev. Lett. 121, 232002 (2018) ([arXiv:1811.02064](https://arxiv.org/abs/1811.02064)) 
 
+* [[Nicholas Manton]], *Skyrmions as Models for Nuclei*, Ischia (2022) &lbrack;[pdf](https://agenda.infn.it/event/19753/contributions/170544/attachments/90671/122280/SkyIschia.pdf)&rbrack;
+
 Textbook account:
 
 * [[Nicholas Manton]], *Skyrmions – A Theory of Nuclei*, World Scientific (2022) &lbrack;[doi:10.1142/q0368 ](https://doi.org/10.1142/q0368 )&rbrack;
