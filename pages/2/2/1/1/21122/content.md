@@ -21,7 +21,11 @@
 
       * [[bra-ket]]
 
+      * [[Bell state]]
+
     * [[quantum superposition]], [[quantum interference]]
+
+    * [[quantum entanglement]]
 
     * [[quantum measurement]]
 
