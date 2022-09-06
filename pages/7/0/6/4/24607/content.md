@@ -43,7 +43,7 @@ This suggests the following alternative answer, from [Coecke 2005, p. 1](#Coecke
 
 > We claim that this is due to a ‘bad quantum formalism’ (bad $\neq$ wrong) and this badness is in particular due to the fact that the formalism is ‘too low level'.
  
-Here "bad quantum formalism" refers to the traditional notation as in the original [BBCJPW93](#BBCJPW93) and in traditional reviews (e.g. [Aaronson 2018](#Aaronson18)), while the suggested high-level improvement is [[string diagram]]-calculus for the ambient [[tensor category]] of finite-dimensional Hilbert spaces, further discussed at *[[finite quantum mechanics in terms of dagger-compact categories]]*.
+Here "bad quantum formalism" refers to the traditional notation as in the original [BBCJPW93](#BBCJPW93) and in traditional reviews (e.g. [Aaronson 2018](#Aaronson18), see also [Coecke 05](#Coecke05) [ftn. 5 on p. 8](https://arxiv.org/pdf/quant-ph/0510032.pdf#page=8)), while the suggested high-level improvement is [[string diagram]]-calculus for the ambient [[tensor category]] of finite-dimensional Hilbert spaces, further discussed at *[[finite quantum mechanics in terms of dagger-compact categories]]*.
 
 
 ## Statement
@@ -52,13 +52,16 @@ Here "bad quantum formalism" refers to the traditional notation as in the origin
 
 {#StatementInStringDiagramLanguage}The quantum teleportation protocol is neatly expressed in [[string diagram]]-calculus as follows (essentially following [Coecke 2005](#Coecke05)):
 
-<img src="https://ncatlab.org/nlab/files/QuantumTeleportationProtocol-220906.jpg" width="850"> 
 
-That this indeed takes the quantum state $\Psi$ to $\Psi$, as shown, is immediate from the [[zig-zag identity]], hence the fact that the curved line may be "yanked straight" to an [[identity]] line, without changing the operational value of the diagram.
+<img src="https://ncatlab.org/nlab/files/QuantumTeleportationProtocol-220906b.jpg" width="850"> 
 
-Here the top box shows the [[projector]] onto a Bell state with one variable transformed by a [[unitary operator]] $\sigma$ (currently $\overline{(-)}$ in the diagram denotes the inverse -- better to change this...). This reflects the (random/unpredictable!) result of a [[quantum measurement]] in this  [[linear basis]] (according to the [[wavefunction collapse|collapse postulate]]). 
+Here, by the general laws of [[string diagrams]], a solid line pointing to the right represents a given [[finite dimensional vector space|finite dimensional]] [[Hilbert space]] $\mathscr{H} \,\simeq\, \mathbb{C}^D$ (of [[dimension of a vector space|dimension]] $D$), the same line pointing backwards denotes its [[dual vector space]], two lines running parallel reflects the [[tensor product of Hilbert spaces|tensor product]] and the curve "$\supset$" denotes [[evaluation]] $\mathscr{H}^\ast \otimes \mathscr{H} \xrightarrow{ev} \mathbb{C}$.
 
-Concretely, if the [[Hilbert space]] represented by a single solid line is that of a single [[qbit]], $\mathscr{H} = \mathbb{C}^2$, then  $\sigma$ may be taken to range over the [[unitary operator|unitary]] [[Pauli matrices]]: 
+That this [[string diagram]] (represents a [[linear map]] which) takes the [[quantum state]] $\Psi$ from "Agent A" ("Alice") to the same state $\Psi$ for "Agent B" ("Bob"), as shown is *immediate* from the [[zig-zag identity]], hence from the fact that the curved line may be "yanked straight" to an [[identity]] line, without changing the operational value of the diagram. This is the transparent [[proof]] of the quantum teleporation protocol.
+
+Here the top box shows the [[projector]] onto a [[Bell state]] with one variable transformed by a [[unitary operator]] $\sigma$. This reflects the (random/unpredictable!) result of a [[quantum measurement]] in a corresponding  [[linear basis]] for $\mathscr{H} \otimes \mathscr{H}^\ast$ (according to the [[wavefunction collapse|collapse postulate]]). 
+
+Concretely, if the [[Hilbert space]] represented by a single solid line is that of a single [[qbit]], i.e. if $\mathscr{H} = \mathbb{C}^2$ ($D = 2$), then  $\sigma$ may be taken to range over the [[unitary operator|unitary]] [[Pauli matrices]]: 
 $$
   \sigma_0 
   \coloneqq 
@@ -116,7 +119,7 @@ In this case, the component-evaluation of the above diagram yields the quantum t
 
 ## References
 
-Original article:
+The original article:
 
 * {#BBCJPW93} Charles H. Bennett, Gilles Brassard, Claude Crépeau, Richard Jozsa, Asher Peres, and William K. Wootters, *Teleporting an unknown quantum state via dual classical and Einstein-Podolsky-Rosen channels*, Phys. Rev. Lett. **70** 1895 (1993) &lbrack;[doi:10.1103/PhysRevLett.70.1895](https://doi.org/10.1103/PhysRevLett.70.1895)&rbrack;
 
