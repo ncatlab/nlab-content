@@ -78,7 +78,7 @@ Other contributions to the issue include the following
 
 * [[Mark van Raamsdonk]], _Building up spacetime with quantum entanglement_, Gen. Rel. Grav.42:2323-2329,2010; Int.J.Mod.Phys.D19:2429-2435,2010 ([arXiv:1005.3035](http://arxiv.org/abs/1005.3035))
 
-* Braunstein, S. L.; Pirandola, S. & &#379;yczkowski, K. Better Late than Never: Information Retrieval from Black Holes 2013 ([arXiv:0907.1190](http://arxiv.org/abs/0907.1190))
+* [[Samuel L. Braunstein]]; Pirandola, S. & &#379;yczkowski, K. Better Late than Never: Information Retrieval from Black Holes 2013 ([arXiv:0907.1190](http://arxiv.org/abs/0907.1190))
 
 * Samir D. Mathur, David Turton, Comments on black holes I: The possibility of complementarity 2012, [arXiv:1208.2005](http://arxiv.org/abs/1208.2005)
 
