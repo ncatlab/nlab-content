@@ -55,11 +55,13 @@ Here "bad quantum formalism" refers to the traditional notation as in the origin
 
 <img src="https://ncatlab.org/nlab/files/QuantumTeleportationProtocol-220906b.jpg" width="850"> 
 
-Here, by the general laws of [[string diagrams]], a solid line pointing to the right represents a given [[finite dimensional vector space|finite dimensional]] [[Hilbert space]] $\mathscr{H} \,\simeq\, \mathbb{C}^D$ (of [[dimension of a vector space|dimension]] $D$), the same line pointing backwards denotes its [[dual vector space]], two lines running parallel reflects the [[tensor product of Hilbert spaces|tensor product]] and the curve "$\supset$" denotes [[evaluation]] $\mathscr{H}^\ast \otimes \mathscr{H} \xrightarrow{ev} \mathbb{C}$.
+Here, by the general laws of [[string diagrams]]: a solid line pointing to the right represents a given [[finite dimensional vector space|finite dimensional]] [[Hilbert space]] $\mathscr{H} \,\simeq\, \mathbb{C}^D$ (of [[dimension of a vector space|dimension]] $D$), the same line pointing backwards denotes its [[dual vector space]], two lines running parallel reflects the [[tensor product of Hilbert spaces|tensor product]] of the corresponding Hilbert spaces, and the curve "$\supset$" denotes [[evaluation]] $\mathscr{H}^\ast \otimes \mathscr{H} \xrightarrow{ev} \mathbb{C}$.
 
-That this [[string diagram]] (represents a [[linear map]] which) takes the [[quantum state]] $\Psi$ from "Agent A" ("Alice") to the same state $\Psi$ for "Agent B" ("Bob"), as shown is *immediate* from the [[zig-zag identity]], hence from the fact that the curved line may be "yanked straight" to an [[identity]] line, without changing the operational value of the diagram. This is the transparent [[proof]] of the quantum teleporation protocol.
+That this [[string diagram]] (represents a [[linear map]] which) takes the [[quantum state]] $\Psi$ from "Agent A" ("Alice") to the same state $\Psi$ for "Agent B" ("Bob"), as shown is *immediate* from the [[zig-zag identity]], hence from the fact that the curved line may be "yanked straight" to an [[identity]] line, without changing the operational value of the diagram. This is the transparent [[proof]] of the quantum teleporation protocol. 
 
-Here the top box shows the [[projector]] onto a [[Bell state]] with one variable transformed by a [[unitary operator]] $\sigma$. This reflects the (random/unpredictable!) result of a [[quantum measurement]] in a corresponding  [[linear basis]] for $\mathscr{H} \otimes \mathscr{H}^\ast$ (according to the [[wavefunction collapse|collapse postulate]]). 
+Notice that this is a [[rigorous proof]], and yet this [[string diagram]] is close to informal flow-charts traditionally used to illustrate the idea of quantum teleportation (e.g [Bouwmeester, Ekert & Zeilinger 2020, Fig. 3.1](#BouwmeesterEkertZeilinger20)).
+
+In more detail, here the top box shows the [[projector]] onto a [[Bell state]] with one variable transformed by a [[unitary operator]] $\sigma$. This reflects the (random/unpredictable!) result of a [[quantum measurement]] in a corresponding  [[linear basis]] for $\mathscr{H} \otimes \mathscr{H}^\ast$ (according to the [[wavefunction collapse|collapse postulate]]). 
 
 Concretely, if the [[Hilbert space]] represented by a single solid line is that of a single [[qbit]], i.e. if $\mathscr{H} = \mathbb{C}^2$ ($D = 2$), then  $\sigma$ may be taken to range over the [[unitary operator|unitary]] [[Pauli matrices]]: 
 $$
@@ -127,6 +129,10 @@ Traditional review:
 
 * {#Aaronson18} [[Scott Aaronson]], §10.1 in *Introduction to Quantum Information Science* (2018) &lbrack;[pdf](https://www.scottaaronson.com/qclec.pdf), [webpage](https://www.scottaaronson.com/cs378/)&rbrack;
 
+and with focus on the [[experiment|experimental]] realization:
+
+* {#BouwmeesterEkertZeilinger20} [[Dirk Bouwmeester]], [[Artur Ekert]], [[Anton Zeilinger]] (eds.), §3.3 of: *The Physics of Quantum Information -- Quantum Cryptography, Quantum Teleportation, Quantum Computation*, Springer (2020) &lbrack;[doi:10.1007/978-3-662-04209-0](https://doi.org/10.1007/978-3-662-04209-0)&rbrack;
+
 See also: 
 
 * Wikipedia, *[Quantum teleportation](https://en.wikipedia.org/wiki/Quantum_teleportation)*
@@ -141,6 +147,9 @@ Discussion via [[string diagram]]-calculus ([[finite quantum mechanics in terms 
 
 * {#Coecke10} [[Bob Coecke]], *Quantum Picturalism*, Contemporary Physics **51** (2010) 59-83 &lbrack;[arXiv:0908.1787](https://arxiv.org/abs/0908.1787), [doi:10.1080/00107510903257624](https://doi.org/10.1080/00107510903257624)&rbrack;
 
+Realization in [[experiment]]:
+
+* [[Dirk Bouwmeester]], Jian-Wei Pan, Klaus Mattle, Manfred Eibl, Harald Weinfurter, [[Anton Zeilinger]], *Experimental quantum teleportation*, Nature **390** 575–579 (1997) &lbrack;[doi:10.1038/37539](https://doi.org/10.1038/37539)&rbrack;
 
 
 Implementation in [[quantum programming languages]]:
