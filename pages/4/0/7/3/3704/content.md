@@ -89,6 +89,8 @@ The behaviour of [[quantum channel]]s and _completely positive maps_ has an eleg
 
 ## Related concepts
 
+* [[quantum teleportation]]
+
 * [[order-theoretic structure in quantum mechanics]]
 
 * [[linear logic]], [[linear type theory]], [[quantum logic]], [[quantum computing]]
