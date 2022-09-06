@@ -81,7 +81,7 @@ on her qubit as well as her part of the state $|\Psi\rangle$. She then measures 
 Two states are SLOCC-equivalent iff they can be inter-converted by applying arbitrary invertible local operations (ILOs).
 =--
 
-Its easy to show using the Schur decomposition that there are only two SLOCC-equivalence classes in $\mathbb{C}^2 \otimes \mathbb{C}^2$, namely the product state class and the Bell state class. Perhaps more surprising is the following result to to Dur, Vidal, and Cirac. [2]
+Its easy to show using the Schur decomposition that there are only two SLOCC-equivalence classes in $\mathbb{C}^2 \otimes \mathbb{C}^2$, namely the product state class and the [[Bell state]] class. Perhaps more surprising is the following result to to Dur, Vidal, and Cirac. [2]
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -105,6 +105,8 @@ Each of these states yields the structure of a commutative [[Frobenius algebra]]
 * [[short-range entanglement]]
 
 * [[tensor network]]
+
+* [[quantum teleportation]]
 
 * [[quantum error correction]]
 
