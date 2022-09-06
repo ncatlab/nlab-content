@@ -37,6 +37,8 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
 * [[quantum programming language]]
 
+* [[logic programming]]
+
 
 ### Specific examples
 
