@@ -3,4 +3,15 @@ Sam Braunstein is a professor in the department of Computer Science of the Unive
 * [Webpage](https://www-users.cs.york.ac.uk/~schmuel/)
 
 
-category :people
+## Selected writings
+
+On the [[black hole firewall problem]]:
+
+* [[Samuel L. Braunstein]]; S. Pirandola, K. &#379;yczkowski, *Better Late than Never: Information Retrieval from Black Holes* (2013) &lbrack;[arXiv:0907.1190](http://arxiv.org/abs/0907.1190)&rbrack;
+
+
+
+
+category: people
+
+[[!redirects Samuel Braunstein]]
