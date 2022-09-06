@@ -63,7 +63,7 @@ The original source:
 
 refined in:
 
-* [[Nick Gurski]], _An algebraic theory of tricategories_ ([pdf](http://gauss.math.yale.edu/~mg622/tricats.pdf))
+* [[Nick Gurski]], _An algebraic theory of tricategories_ ([pdf](https://dokumen.tips/documents/an-algebraic-theory-of-tricategories.html))
 
 See also:
 
