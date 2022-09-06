@@ -279,7 +279,7 @@ The resulting total $(\infty,1)$-pullback rectangle is the fiber of $Z \to (\inf
 * P.J. Higgins, 1971, "Categories and Groupoids", van
 Nostrand, {New   York}. Reprints in Theory and Applications of Categories, 7 (2005) pp 1--195.
 
-* R. Brown, "Topology and groupoids", Booksurge, 2006, details [here](http://groupoids.org.uk/topgpds.html).
+* [[Ronnie Brown]], *Topology and groupoids*, Booksurge (2006) &lbrack;[webpage](http://groupoids.org.uk/topgpds.html), [pdf](https://groupoids.org.uk/pdffiles/topgrpds-e.pdf)&rbrack;
 
 
 * John Armstrong's article, [Groupoids (and more group actions)](http://unapologetic.wordpress.com/2007/06/09/groupoids-and-more-group-actions/)
