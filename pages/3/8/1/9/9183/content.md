@@ -154,7 +154,7 @@ Discussion of [[neutrino]]-dark matter:
 
 Issues with defining gravitating mass on non-stationary spacetimes:
 
-* Zhi-Wei Wang, Samuel L. Braunstein, _Could dark matter be a natural consequence of a dynamical universe?_ ([arXiv:2011.09923](https://arxiv.org/abs/2011.09923))
+* Zhi-Wei Wang, [[Samuel L. Braunstein]], _Could dark matter be a natural consequence of a dynamical universe?_ ([arXiv:2011.09923](https://arxiv.org/abs/2011.09923))
 
 
 ### Evidence
