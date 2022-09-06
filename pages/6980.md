@@ -196,3 +196,7 @@ Consideration of the relation of mathematical proof to physics icludes
 
 [[!redirects formal proof]]
 [[!redirects formal proofs]]
+
+[[!redirects rigorous proof]]
+[[!redirects rigorous proofs]]
+
