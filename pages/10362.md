@@ -19,10 +19,10 @@ A statement about [[entanglement]] in [[quantum mechanics]] that rules out certa
 
 ## References
 
-The original article is
+The original article:
 
-* [[John Bell]], _On the Einstein Podolsky Rosen paradox_, Physics 1, 195, 1964 ([pdf](http://www.drchinese.com/David/Bell_Compact.pdf))
-  {#Bell64}
+* {#Bell64} [[John Bell]], *On the Einstein Podolsky Rosen paradox*, Physics **1** 195 (1964) &lbrack;[doi:10.1103/PhysicsPhysiqueFizika.1.195](https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195), [pdf](http://www.drchinese.com/David/Bell_Compact.pdf)&rbrack;
+  
 
 A quick review is for instance in 
 
