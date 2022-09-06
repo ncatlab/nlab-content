@@ -5,7 +5,7 @@
 
 ## Idea
 
-The "EPR paradox" is an argument (historically perceived of as leading to a "[[paradox]]") about fundamental properties of [[quantum mechanics]], due to ([EPR](#EPR)).
+The "EPR paradox" is an argument (historically perceived of as leading to a "[[paradox]]") about fundamental properties of [[quantum mechanics]], due to ([Einstein, Podoldsky & Rosen 1935](#EinsteinPodoldskyRosen35)).
 
 The argument begins by giving a necessary condition for a [[theory]] to be complete, that every element of reality features in the theory.
 
@@ -25,7 +25,7 @@ Thus they conclude that quantum mechanics is not complete.
 
 The original article is
 
-* {#EPR} [[Albert Einstein]], [[Boris Podolsky]], [[Nathan Rosen]], _Can the Quantum-Mechanical Description of Physical Reality be Considered Complete?_ Physical Review 47 (10): 777&#8211;780. (1935) ([doi:10.1103/PhysRev.47.777](https://doi.org/10.1103/PhysRev.47.777))
+* {#EinsteinPodoldskyRosen35} [[Albert Einstein]], [[Boris Podolsky]], [[Nathan Rosen]], _Can the Quantum-Mechanical Description of Physical Reality be Considered Complete?_ Physical Review 47 (10): 777&#8211;780. (1935) &lbrack[doi:10.1103/PhysRev.47.777](https://doi.org/10.1103/PhysRev.47.777)&rbrack;
  
 
 A thorough treatment is in:
