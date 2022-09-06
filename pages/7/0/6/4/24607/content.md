@@ -127,6 +127,10 @@ Traditional review:
 
 * {#Aaronson18} [[Scott Aaronson]], §10.1 in *Introduction to Quantum Information Science* (2018) &lbrack;[pdf](https://www.scottaaronson.com/qclec.pdf), [webpage](https://www.scottaaronson.com/cs378/)&rbrack;
 
+See also: 
+
+* Wikipedia, *[Quantum teleportation](https://en.wikipedia.org/wiki/Quantum_teleportation)*
+
 Discussion via [[string diagram]]-calculus ([[finite quantum mechanics in terms of dagger-compact categories]]):
 
 * {#Coecke04} [[Bob Coecke]], §4 of: *The logic of entanglement*, in: *Horizons of the Mind. A Tribute to Prakash Panangaden*, Lecture Notes in Computer Science **8464** (2014)  &lbrack;[arXiv:quant-ph/0402014](https://arxiv.org/abs/quant-ph/0402014), [doi:10.1007/978-3-319-06880-0_13](https://doi.org/10.1007/978-3-319-06880-0_13)&rbrack;
@@ -137,9 +141,11 @@ Discussion via [[string diagram]]-calculus ([[finite quantum mechanics in terms 
 
 * {#Coecke10} [[Bob Coecke]], *Quantum Picturalism*, Contemporary Physics **51** (2010) 59-83 &lbrack;[arXiv:0908.1787](https://arxiv.org/abs/0908.1787), [doi:10.1080/00107510903257624](https://doi.org/10.1080/00107510903257624)&rbrack;
 
-See also: 
 
-* Wikipedia, *[Quantum teleportation](https://en.wikipedia.org/wiki/Quantum_teleportation)*
+
+Implementation in [[quantum programming languages]]:
+
+* *[Qiskit: Quantum Teleportation](https://qiskit.org/textbook/ch-algorithms/teleportation.html)*
 
 
 
