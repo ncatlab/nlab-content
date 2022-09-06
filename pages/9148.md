@@ -42,6 +42,11 @@ Real-world [[physical systems]] that show behaviour described by the Ising model
 
 ## References
 
+On historical work by [[Yoichiro Nambu]]:
+
+* [[Lars Brink]], [[Pierre Ramond]], *Nambu and the Ising Model* &lbrack;[arXiv:2209.01122](https://arxiv.org/abs/2209.01122)&rbrack;
+
+
 Original articles:
 
 * {#Wegner71} [[Franz Wegner]], _Duality in Generalized Ising Models and Phase Transitions without Local Order Parameters_, Journal of Mathematical Physics 12, 2259 (1971) ([doi:10.1063/1.1665530](https://doi.org/10.1063/1.1665530))
