@@ -17,6 +17,10 @@ On [[grand unified theory]]:
 
 * [[Murray Gell-Mann]], [[Pierre Ramond]], Richard Slansky, _Complex Spinors and Unified Theories_, Supergravity, [[Peter van Nieuwenhuizen]] and D.Z. Freedman, eds, North Holland Publishing Co, 1979, (reprinted as [arXiv:1306.4669](http://arxiv.org/abs/1306.4669))
 
+On historical work by [[Yoichiro Nambu]] on the [[Ising model]]:
+
+* [[Lars Brink]], [[Pierre Ramond]], *Nambu and the Ising Model* &lbrack;[arXiv:2209.01122](https://arxiv.org/abs/2209.01122)&rbrack;
+
 
 ## Related $n$Lab entries
 
