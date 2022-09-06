@@ -1,0 +1,5 @@
+## Idea
+
+A logic programming language is a kind of programming language where programs are roughly a signatures for a logical theory paired with a formula in the generated theory. The implementation of the language is a kind of proof search mechanism.
+
+This provides an alternative relationship between [[logic]] and [[programming]] to the one in [[functional programming]]. In functional programming, [[types]] correspond to propositions and programs correspond to proofs, and computation proceeds by finding some kind of normal form for the proof. In logic programming, the program itself is a proposition and the computation proceeds by searching for proofs of the proposition. In categorical terms, functional programs denote morphisms of a category, whereas logic programs denote objects of a category.
