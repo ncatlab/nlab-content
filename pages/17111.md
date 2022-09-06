@@ -140,7 +140,6 @@ $$
 
 =--
 
-(
 
 +-- {: .num_defn}
 ###### Definition
