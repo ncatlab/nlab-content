@@ -266,7 +266,9 @@ Implementation in [[Agda]]/[[Coq]] is discussed in
 * Bruno Barras, _Native implementation of Higher Inductive
 Types (HITs) in Coq_ [PDF](http://www.crm.cat/en/activities/documents/barras-crm-2013.pdf)
 
+For [[coinduction]] via HITs: 
 
+* [[Magnus Baunsgaard Kristensen]], [[Rasmus Ejlers Møgelberg]], [[Andrea Vezzosi]], *Greatest HITs: Higher inductive types in coinductive definitions via induction under clocks* ([arXiv:2102.01969](https://arxiv.org/abs/2102.01969))
 
 [[!redirects higher inductive types]]
 
