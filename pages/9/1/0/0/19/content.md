@@ -465,6 +465,8 @@ The [[foundation]] of category theory in [[homotopy type theory]] (see at _[[int
 
 * [[André Joyal]], *[[joyalscatlab:Categories]]*
 
+* [[Benedikt Ahrens]] and [[Kobe Wullaert]], _Category Theory for Programming_, ([arXiv:2209.01259](https://arxiv.org/abs/2209.01259))
+
 \subsection{Videos} 
 
 * The Catsters, Videos on various topics in category theory. ([YouTube link](https://www.youtube.com/user/TheCatsters))
