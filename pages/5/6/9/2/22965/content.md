@@ -16,7 +16,7 @@
 
 ## Idea
 
-Quantum cryptography is [[cryptography]] making use of effects of [[quantum physics]] and [[quantum information theory]]/[[quantum computation]], such as the [[no-cloning theorem]].
+Quantum cryptography is [[cryptography]] making use of effects of [[quantum physics]] and [[quantum information theory]]/[[quantum computation]], such as the [[no-cloning theorem]] and versions of [[quantum teleportation]].
 
 ## Related concepts
 
@@ -31,6 +31,11 @@ Quantum cryptography is [[cryptography]] making use of effects of [[quantum phys
 Original articles:
 
 * [[Stephen Wiesner]], *Conjugate Coding*, circulated in the 1960s, finally published in ACM SIGACT News **15** 1 (1083) 78–88 ([original pdf](http://users.cms.caltech.edu/~vidick/teaching/120_qcrypto/wiesner.pdf), [doi:10.1145/1008908.1008920](https://doi.org/10.1145/1008908.1008920))
+
+Textbook account with focus on [[experiment|experimental]] realization:
+
+* [[Dirk Bouwmeester]], [[Artur Ekert]], [[Anton Zeilinger]] (eds.), *The Physics of Quantum Information -- Quantum Cryptography, Quantum Teleportation, Quantum Computation*, Springer (2020) &lbrack;[doi:10.1007/978-3-662-04209-0](https://doi.org/10.1007/978-3-662-04209-0)&rbrack;
+
 
 See also 
 
