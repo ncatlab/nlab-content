@@ -65,12 +65,14 @@ Listed here are some little-known or undocumented features of Agda that are some
   * `agda2-highlight-level`, when set to `interactive`, uses highlighting to display realtime information about which terms  and subterms in the buffer Agda is currently typechecking.
   * `agda2-program-args` allows you to add command-line arguments to be used every time (e.g. the `-v` options below).  This in in addition to the arguments specified by a particular file in the `OPTIONS` line.
 
+  To change the values of these variables, run `M-x customize-variable RET` and enter the variable name, change the value, and then "Set and Save".
+
 * The command `-v` (verbose output) accepts various additional options that are, according to the developers, "documented by their implementation".  These include:
   * `rewriting.rewrite:50` --- displays information about attempted uses of rewrite rules.
   * `rewriting.match:60` --- displays information about attempted matches during rewriting.
   * `import.chase:2` --- when compiling imported files, displays a notification when each file is completed in addition to when it is started.
 
-  Unfortunately, the output produced by these flags appears in the `*Agda debug*` buffer, which is not visible by default, rather than the standard `AgdaInfo` buffer.
+  Unfortunately, the output produced by these flags appears in the `*Agda debug*` buffer, which is not visible by default, rather than the standard `AgdaInfo` buffer.  To turn these flags on, you can add (for instance) `-v import.chase:2` to `agda2-program-args` via Customization, as above, or to the `OPTIONS` line of a particular file.
 
 
 ## Related concepts
