@@ -25,7 +25,7 @@ Thus they conclude that quantum mechanics is not complete.
 
 The original article is
 
-* {#EinsteinPodoldskyRosen35} [[Albert Einstein]], [[Boris Podolsky]], [[Nathan Rosen]], _Can the Quantum-Mechanical Description of Physical Reality be Considered Complete?_ Physical Review 47 (10): 777&#8211;780. (1935) &lbrack[doi:10.1103/PhysRev.47.777](https://doi.org/10.1103/PhysRev.47.777)&rbrack;
+* {#EinsteinPodoldskyRosen35} [[Albert Einstein]], [[Boris Podolsky]], [[Nathan Rosen]], _Can the Quantum-Mechanical Description of Physical Reality be Considered Complete?_ Physical Review **47** 10 (1935) 777-780  &lbrack;[doi:10.1103/PhysRev.47.777](https://doi.org/10.1103/PhysRev.47.777)&rbrack;
  
 
 A thorough treatment is in:
