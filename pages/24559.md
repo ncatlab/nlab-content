@@ -16,6 +16,10 @@ On [[reversible computing]]:
 
 * [[Charles H. Bennett]], *Notes on Landauer's principle, reversible computation, and Maxwell's Demon*, Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics, **34** 3 (2003) 501-510 (<a href="https://doi.org/10.1016/S1355-2198(03)00039-X">doi:10.1016/S1355-2198(03)00039-X</a>)
 
+Introducing the notion of [[quantum teleportation]]:
+
+* {#BBCJPW93} [[Charles H. Bennett]], [[Gilles Brassard]], [[Claude Crépeau]], [[Richard Jozsa]], [[Asher Peres]], [[William K. Wootters]]: *Teleporting an unknown quantum state via dual classical and Einstein-Podolsky-Rosen channels*, Phys. Rev. Lett. **70** 1895 (1993) &lbrack;[doi:10.1103/PhysRevLett.70.1895](https://doi.org/10.1103/PhysRevLett.70.1895)&rbrack;
+
 category: people
 
 [[!redirects Charles Bennet]]
