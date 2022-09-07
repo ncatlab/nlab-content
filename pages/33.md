@@ -52,7 +52,7 @@ One may understand _vertical categorification_ as any operation that is a [[sect
 
 ### As internalization in $n Cat$
 
-Common structures such as [[group]]s, [[ring]]s, etc. may be defined entirely diagrammatically as a collection of objects, morphisms and 2-morphisms in a [[category]] like [[Set]] (the 2-morphisms then are the identities required to hold between the given morphisms).
+Common structures such as [[group]]s, [[ring]]s, etc. may be defined entirely diagrammatically as a collection of objects, morphisms and [[2-morphisms]] in a [[category]] like [[Set]] (the 2-morphisms then are the identities required to hold between the given morphisms).
 
 For instance a [[group]] is an object $G$ in [[Set]] equipped with a morphism $\mu : G \times G \to G$ and so on, and equipped with a 2-morphism from $\mu \circ Id_G \times \mu $ to $\mu \circ \mu \times Id_G$.
 
