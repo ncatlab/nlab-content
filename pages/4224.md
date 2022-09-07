@@ -58,14 +58,14 @@ $$CH(-, \mathbf{2})^n \cong CH(-, \mathbf{2}^n) \stackrel{CH(-, \theta)}{\to} CH
 
 and therefore we obtain a lift 
 
-$$CH(-, \mathbf{2}): CH^{op} \to BoolAlg$$ 
+$$CH(-, \mathbf{2}): CH^{op} \to Bool$$ 
 
 A _[[Stone space]]_ is by definition a [[totally disconnected topological space|totally disconnected]] [[compact topological space|compact]] [[Hausdorff topological space]]. Let $Stone \hookrightarrow CH$ denote the [[full subcategory]] of Stone spaces. 
 
 +-- {: .num_theorem}
 ###### Theorem (Stone representation)
 
-The representable functor restricts to an [[equivalence of categories]] $Stone^{op} \to BoolAlg$. 
+The representable functor restricts to an [[equivalence of categories]] $Stone^{op} \to Bool$. 
 =-- 
 
 This important theorem can be exploited to give a third description of the free Boolean algebra on a set $X$: 
@@ -74,15 +74,15 @@ $$Bool(X) \cong CH(2^X, \mathbf{2})$$
 
 where $2$ denotes the 2-element compact Hausdorff space, and $2^X$ the product space $\prod_X 2$. Indeed, the inverse equivalence 
 
-$$BoolAlg^{op} \to Stone$$ 
+$$Bool^{op} \to Stone$$ 
 
 takes a Boolean algebra $B$ to its [[spectrum]], i.e., the space of Boolean algebra maps $Bool(B, 2)$ (*this* $2$ is the two-element Boolean algebra $\mathbb{Z}_2$!) equipped with the [[Zariski topology]]. Applied to $B = Bool(X)$, we have 
 
-$$BoolAlg(B, 2) \cong Set(X, 2) = 2^X$$ 
+$$Bool(B, 2) \cong Set(X, 2) = 2^X$$ 
 
 where the Zariski topology coincides with the [[product topology]] on $2^X$. By the equivalence, we therefore retrieve $Bool(X)$ as $CH(2^X, \mathbf{2})$. This in turn is identified with the Boolean algebra of [[clopen subset]]s of the generalised [[Cantor space]] $2^X$.
 
-A second description of the inverse equivalence $BoolAlg^{op} \to Stone$ comes about through the yoga of [[ambimorphic object|ambimorphic objects]]. Namely, the Boolean compact Hausdorff space $\mathbf{2}$ can equally well be seen as a [compact Hausdorff object](/nlab/show/compact+Hausdorff+object#comphaus) in the category of Boolean algebras. Thus, the representable functor $Bool(-, \mathbf{2}): Bool^{op} \to Set$ lifts canonically to a functor 
+A second description of the inverse equivalence $Bool^{op} \to Stone$ comes about through the yoga of [[ambimorphic object|ambimorphic objects]]. Namely, the Boolean compact Hausdorff space $\mathbf{2}$ can equally well be seen as a [compact Hausdorff object](/nlab/show/compact+Hausdorff+object#comphaus) in the category of Boolean algebras. Thus, the representable functor $Bool(-, \mathbf{2}): Bool^{op} \to Set$ lifts canonically to a functor 
 $$Bool^{op} \to CH$$ 
 and in fact part of the Stone representation theorem is that this factors through the inclusion $Stone \hookrightarrow CH$ as the inverse equivalence $Bool^{op} \to Stone$. In particular this lift determines the topology, providing an description alternative to the description in terms of the Zariski topology (although they are of course the same). 
 
