@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+Introducing the [[no-cloning theorem]] in [[quantum information theory]]:
+
+* [[William Wooters]], [[Wojciech Zurek]], *A single quantum cannot be cloned*, Nature **299** (1982) 802-803 &lbrack;[doi:10.1038/299802a0](https://doi.org/10.1038/299802a0)&rbrack;
+
 Mathematical argument that [[quantum computation]] with [[quantum error correction]] is practically feasible:
 
 * [[Emanuel Knill]], [[Raymond Laflamme]], [[Wojciech H. Zurek]], *Resilient Quantum Computation: Error Models and Thresholds*, Proceedings of the Royal Society A **454** 1969 (1998) &lbrack;[arXiv:quant-ph/9702058](https://arxiv.org/abs/quant-ph/9702058)&rbrack;
