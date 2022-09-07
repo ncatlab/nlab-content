@@ -118,17 +118,17 @@ Discussion by the founders of quantum mechanics includes the following.
 
 In
 
-* [[Albert Einstein]], B. Podolsky, N. Rosen, _Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?_, Phys. Rev. 47, 777&#8211;780 (1935) ([publisher](http://prola.aps.org/abstract/PR/v47/i10/p777_1))
+* {#EinsteinPodoldskyRosen35} [[Albert Einstein]], [[Boris Podolsky]], [[Nathan Rosen]], _Can the Quantum-Mechanical Description of Physical Reality be Considered Complete?_ Physical Review **47** 10 (1935) 777-780  &lbrack;[doi:10.1103/PhysRev.47.777](https://doi.org/10.1103/PhysRev.47.777)&rbrack;
+ 
 
-it is argued that quantum mechanics cannot be a complete description of fundamental physics. In 
+it was argued (see at *[[EPR paradox]]*) that quantum mechanics cannot be a complete description of fundamental physics. In 
 
 * [[Nils Bohr]], _Can Quantum-Mechanical Description of Physical Reality be Considered Complete?_ Physical Review 48, 696&#8211;702 (1935)  ([publisher](http://prola.aps.org/abstract/PR/v48/i8/p696_1))
 
-the contrary is argued. In
+the contrary was argued. In
 
 * {#Bohr49} [[Nils Bohr]], _Discussion with Einstein on Epistemological Problems in Atomic Physics_ in P. A. Schilpp (ed.) _Albert Einstein, Philosopher-Scientist_ (Evanston: Library of Living Philosophers) pp. 201&#8211;241. (1949)
  
-
 is the famous assertion by Bohr that all experiments in quantum mechanics must be possible to describe in "classical terms".
 
 
@@ -146,7 +146,7 @@ The book
 
 has a focus on the [[Bub-Clifton theorem]]. This book is reviewed in 
 
-* {#Peres97} [[Asher Peres]], [arXiv:quant-ph/9711003](http://arxiv.org/abs/quant-ph/9711003)
+* {#Peres97} [[Asher Peres]], *Interpreting the Quantum World*, Stud. History Philos. Modern Physics **29** (1998) 611 &lbrack;[arXiv:quant-ph/9711003](http://arxiv.org/abs/quant-ph/9711003)&rbrack;
  
 
 See also
