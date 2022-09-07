@@ -53,13 +53,13 @@ From this perspective one gets a more interesting statement if one turns this ar
 
 ## References
 
-The original articles are
+The original articles:
 
 * [[Dennis Dieks]], _Communication in EPR devices_, Physics Letters A 92, 271-272 (1982)
 
-* [[William Wooters]], [[Wojciech Zurek]], _A single quantum cannot be cloned_, Nature 299, 802-803 (1982)
+* [[William Wooters]], [[Wojciech Zurek]], *A single quantum cannot be cloned*, Nature **299** (1982) 802-803 &lbrack;[https://doi.org/10.1038/299802a0](https://doi.org/10.1038/299802a0)&rbrack;
 
-General reviews include
+See also:
 
 * Wikipedia, _[No-cloning theorem](http://en.wikipedia.org/wiki/No-cloning_theorem)_
 
