@@ -50,13 +50,19 @@ $$\frac{.}{\Gamma \vdash (\lambda i.a)(r) \equiv [r/i]a:[r/i]A}$$
 
 $$\frac{.}{\Gamma \vdash p \equiv \lambda i.p(i) : \mathrm{path}_{i.A}(a,b)}$$
 
-## Regularity
+In addition, there are coercion and composition operations which make the path type behave like an identity type:
 
-In general, cubical path types in cubical type theory do not satisfy the J rule definitionally. However one could force the J rule to hold definitionally by appending coercion operations: 
+* Coercion:
 
 $$\frac{\Gamma, i:I \vdash A \; \mathrm{type} \quad \Gamma \vdash a:[r/i]A}{\Gamma \vdash \mathrm{coe}^{r \rightsquigarrow r'}_{i.A} a:[r'/i]A \; [r' \equiv r \to a]}$$
 
-and a coercion [[regularity]] rule:
+* Composition:
+
+...
+
+## Regularity
+
+In general, cubical path types in cubical type theory do not satisfy the J rule definitionally. However one could force the J rule to hold definitionally by appending a coercion [[regularity]] rule:
 
 $$\frac{\Gamma, i:I, j:I \vdash A \equiv [j/i]A \; \mathrm{type}}{\Gamma \vdash \mathrm{coe}^{r \rightsquigarrow r'}_{i.A} a \equiv a:[r'/i]A}$$
 
