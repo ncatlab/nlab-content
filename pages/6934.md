@@ -30,7 +30,7 @@ Agda can be compiled to Haskell, Epic or Javascript.
 ### Cubical Agda
  {#CubicalAgda}
 
-[Cubical Agda](https://agda.readthedocs.io/en/latest/language/cubical.html)  is a version of Agda (turned on by the flag `--cubical`) that implements a type theory similar to CCHM (De Morgan) [[cubical type theory]].
+[Cubical Agda](https://agda.readthedocs.io/en/latest/language/cubical.html)  is a mode of Agda (turned on by the flag `--cubical`) that implements a type theory similar to CCHM (De Morgan) [[cubical type theory]].
 
 Its main difference from CCHM is that instead of an exotype of "cofibrant propositions" it uses the interval itself, replacing cofibrant propositions by statements of the form $r \equiv 1$ for some dimension expression $r$.  This change does not prevent the construction of a model for the theory in De Morgan [[cubical sets]], although it doesn't technically fall under the Orton-Pitts axioms since $I$ is not a subobject of $\Omega$, and no one has checked whether this model can be strengthened to a [[Quillen model category]].
 
@@ -44,15 +44,34 @@ The guarded cubical variant extends cubical Agda to support [[guarded recursive]
 
 ### Agda-flat
   {#AgdaFlat}
- 
 
-The variant `Agda-flat` implements a [[comonad|co-]][[idempotent monad|monadic]] [[modal operator]] $\flat$ ("flat", following the notation used in [[cohesive homotopy type theory]] as introduced in [[schreiber:dcct|dcct]] and type-theorertically developed in [Shulman 15](cohesive+homotopy+type+theory#Shulman15)). This makes Agda model a [[modal type theory]] and hence a [[modal homotopy type theory]], such as used, for instance, in [[schreiber:thesis Wellen|Wellen 2017]].
+`Agda-flat` is a mode of Agda that implements a [[comonad|co-]][[idempotent monad|monadic]] [[modal operator]] $\flat$ ("flat", following the notation used in [[cohesive homotopy type theory]] as introduced in [[schreiber:dcct|dcct]] and type-theorertically developed in [Shulman 15](cohesive+homotopy+type+theory#Shulman15)).  This makes Agda model a [[modal type theory]] and hence a [[modal homotopy type theory]], such as used, for instance, in [[schreiber:thesis Wellen|Wellen 2017]].
 
 See:
 
 * [`Agda-flat` documentation](https://agda.readthedocs.io/en/v2.6.2.2/language/flat.html)
 
 * [installation instructions](http://www.cl.cam.ac.uk/~amp12/agda/internal-universes/code/agda-flat/install.txt)
+
+## Little-known features {#LittleKnownFeatures}
+
+Listed here are some little-known or undocumented features of Agda that are sometimes useful.  Note that undocumented "features" may change without warning; this list is current as of September 2022, Agda v2.6.2.
+
+* There are a lot of useful documented [keybindings](https://agda.readthedocs.io/en/v2.6.2.2/tools/emacs-mode.html#keybindings) that you may not be aware of.
+  * This appears not to be documented in the manual (although it is in the Emacs docstring): When in a hole, the commands `C-c C-,` and `C-c C-.` can be prefixed with `C-u C-u` to normalize the type of the hole (and the term, in the second case) before displaying them.
+
+* The manual doesn't document the customizable variables in the Emacs mode.  Of particular note are:
+  * `agda-input-user-translations` allows you to add new bindings to the Unicode input mode
+  * `agda2-highlight-level`, when set to `interactive`, uses highlighting to display realtime information about which terms  and subterms in the buffer Agda is currently typechecking.
+  * `agda2-program-args` allows you to add command-line arguments to be used every time (e.g. the `-v` options below).  This in in addition to the arguments specified by a particular file in the `OPTIONS` line.
+
+* The command `-v` (verbose output) accepts various additional options that are, according to the developers, "documented by their implementation".  These include:
+  * `rewriting.rewrite:50` --- displays information about attempted uses of rewrite rules.
+  * `rewriting.match:60` --- displays information about attempted matches during rewriting.
+  * `import.chase:2` --- when compiling imported files, displays a notification when each file is completed in addition to when it is started.
+
+  Unfortunately, the output produced by these flags appears in the `*Agda debug*` buffer, which is not visible by default, rather than the standard `AgdaInfo` buffer.
+
 
 ## Related concepts
 
