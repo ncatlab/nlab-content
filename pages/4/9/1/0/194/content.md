@@ -91,6 +91,8 @@ $$\alpha_a\circ g \simeq f\circ\alpha_b$$
 
 [[Eric]]: I think the [[exchange law]] might be what I had in mind.
 
+Jon Slaughter:  Yes, clearly any higher order structure superimposed cannot corrupt the lower structure. Given any $g = \alpha \circ f$ must be a structurally valid/preserving map between $f$ and $g$. As Urs mentions, for Cat the 2-morphisms are natural transforms and must preserve the structure of the functors below them. In general what must be preserved depends on the sub-structure. Since composable morphisms must be reducible, this requires 2-morphisms to preserve the composability rule. For 2-morphisms this does work out to be the exchange laws. For higher order morphisms one can expect compositions of higher order composiblity rules. E.g., if natural transformations must preserve functorality in Cat then 3-morphisms will have to preserve naturality(but in terms of the functor category these 3-morphisms reduce to 2-morphisms and their structural preserving rules reduce to the exchange laws). It generally is not valid to talk about components with n-morphisms since one does not know the object structure. In Cat, with functors, we know by definition they have components(the image of an arrow under the functor) and the natural transformation that must preserve the composibility of components. The exchange laws are more general in that they are not expressed in terms of components.
+
 =--
 
 
