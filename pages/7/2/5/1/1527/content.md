@@ -76,6 +76,9 @@ Discussion of [[differential calculus]] in terms of coinduction is in
 
 * Martin Escardo, Du&#353;ko Pavlovi&#263;, _Calculus in coinductive form_ (1998) ([pdf](http://www.isg.rhul.ac.uk/dusko/papers/1998-lapl-LICS.pdf))
 
+About coinduction in [[cubical type theory]]:
+
+* [[Magnus Baunsgaard Kristensen]], [[Rasmus Ejlers Møgelberg]], [[Andrea Vezzosi]], *Greatest HITs: Higher inductive types in coinductive definitions via induction under clocks* ([arXiv:2102.01969](https://arxiv.org/abs/2102.01969))
 
 [[!redirects coinductions]]
 
