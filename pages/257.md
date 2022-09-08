@@ -455,6 +455,7 @@ Model structures can be induced on certain (usually [[lax limit|lax]]) limits an
 [[!include algebraic model structures - table]]
 
 ## References
+ {#References}
 
 The concept of a model category originates with
 
