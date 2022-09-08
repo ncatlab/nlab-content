@@ -35,6 +35,10 @@ Namely by the [above](#Definition) a quantum measurement is formally reflected i
 
 * [[decoherence]]
 
+* [[Bell's inequality]]
+
+* [[quantum probability]]
+
 * [[interpretation of quantum mechanics]]
 
 ## References
@@ -51,7 +55,9 @@ See also
 
 * {#Wallace07} [[David Wallace]], _The Quantum Measurement Problem: State of Play_ ([arXiv:0712.0149](http://arxiv.org/abs/0712.0149))
 
-
+[[!redirects quantum measurements]]
 
 [[!redirects quantum measurement]]
 [[!redirects measurement problem]]
+
+
