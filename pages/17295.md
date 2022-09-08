@@ -48,7 +48,7 @@ Frequently one furthermore says:
 +-- {: .num_prop #ClosurePropertiesOfInjectiveAndProjectiveMorphisms}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[category]] and let $K\subset Mor(\mathcal{C})$ be a [[class]] of [[morphisms]]. Write $K Proj$ and $K Inj$, respectively, for the sub-classes of $K$-[[projective morphisms]] and of $K$-[[injective morphisms]]. Then:
+Let $\mathcal{C}$ be a [[category]] and let $K\subset Mor(\mathcal{C})$ be a [[class]] of [[morphisms]]. Write $K Proj$ and $K Inj$, respectively, for the sub-classes of $K$-[[projective morphisms]] and of $K$-[[injective morphisms]] (the "[[Quillen negation]]" of $K$). Then:
 
 1. Both classes contain the class of [[isomorphism]] of $\mathcal{C}$.
 
