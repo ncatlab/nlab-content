@@ -177,6 +177,8 @@ The original [[wave function]] is $\psi \in \mathcal{H}$, and after observing $P
 
 * [[quantum information theory]], [[quantum mechanics]]
 
+* [[Bell's inequalities]]
+
 * [[Bayesian interpretation of quantum mechanics]]
 
 * [[quantum logic]]
@@ -193,7 +195,11 @@ The axiomatization of [[probability theory]] in terms of the concept of [[expect
 
 * {#Whittle92} [[Peter Whittle]], _Probability via expectation_, Springer 1992 ([doi:10.1007/978-1-4612-0509-8](https://link.springer.com/book/10.1007/978-1-4612-0509-8))
 
-Discussion of quantum probability theory:
+Further/other discussion of quantum probability theory:
+
+* [[Itamar Pitowsky]], *Quantum Probability -- Quantum Logic*, Lecture Notes in Physics **321**, Springer (1989) &lbrack;[doi:10.1007/BFb0021186](https://doi.org/10.1007/BFb0021186)&rbrack;
+
+  > (emphasis on the [[Bell's inequalities]] and [[quantum logic]])
 
 * {#Meyer95} [[Paul-André Meyer]], *Quantum Probability for Probabilists*,  Lecture Notes in Mathematics **1538**, Springer 1995 ([doi:10.1007/BFb0084701](https://link.springer.com/book/10.1007/BFb0084701))
 
