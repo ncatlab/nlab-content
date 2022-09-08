@@ -352,6 +352,8 @@ Let $f : X \to Y$ be a morphism in $[\Delta^{op}, sSet]$. Then
 
 * [[pullback-power]]
 
+* [[Quillen negation]]/[[weak orthogonal class]]
+
 ## References
 
 * {#JoyalTierney} [[André Joyal]], [[Myles Tierney]], _Quasi-categories vs Segal spaces_ ([arXiv:0607820](http://arxiv.org/abs/math/0607820))
