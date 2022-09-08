@@ -49,6 +49,8 @@ See [[probability monad#algebras_expectation_values|probability monad - algebras
 
 * [[random variable]]
 
+* [[correlation function]]
+
 * [[moment]]
 
 * [[vacuum expectation value]]
