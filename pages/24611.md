@@ -1,6 +1,6 @@
 
 
-* [Wikipedia entry](https://en.m.wikipedia.org/wiki/Anton_Zeilinger)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Anton_Zeilinger)
 
 * [research group](https://www.iqoqi-vienna.at/people/staff/anton-zeilinger)
 
