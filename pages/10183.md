@@ -25,6 +25,9 @@ Via the [[Pauli exclusion principle]]/[[spin-statistics theorem]], this implies 
 (Notice that there is [[supergeometry]] independently of [[supersymmetry]], which may or may not be present in addition).
 
 
+## Related entries
+
+* [[Bell's inequality]]
 
 ## References
 
