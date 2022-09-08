@@ -25,8 +25,6 @@ This page compiles links related to the book:
 
   [Wikipedia entry](https://en.wikipedia.org/wiki/The_Laws_of_Thought)
 
-  \linebreak
-
   [Project Gutenberg eBook](https://gutenberg.org/ebooks/15114)
 
 
