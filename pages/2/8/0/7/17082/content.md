@@ -28,17 +28,14 @@ For example, a morphism in [[Sets]] is [[surjective]] iff it has the right lifti
 
 ## Definition
 
-\begin{definition}
-A morphism $i$ in a category has the ''left lifting property'' with respect to a morphism $p$, and $p$ also has the ''right lifting property'' with respect to $i$, sometimes denoted $i\,\,&solb;\,\, p$ or $i\downarrow p$, iff the following implication holds for each morphism $f$ and $g$ in the category:
+\begin{definition}\label{LiftingPropertiesOfMorphisms}
+**(lifting poperties of morphisms)**
+\linebreak
+A morphism $i$ in a category has the *left lifting property* with respect to a morphism $p$, and $p$ also has the *right lifting property* with respect to $i$, sometimes denoted $i\,\,&solb;\,\, p$ or $i\downarrow p$, iff the following implication holds for each morphism $f$ and $g$ in the category:
 
 * if the outer square of the following diagram commutes, then there exists $h$ completing the diagram, i.e. for each $f:A\to X$ and $g:B\to Y$ such that $p\circ f = g \circ i$ there exists $h:B\to X$ such that $h\circ i = f$ and $p\circ h = g$.
 
-
 \begin{tikzcd}
-[
-  column sep={between origins, 160pt},
-  row sep={between origins, 40pt}
-]
   A
   \ar[dd, "i"]
   \ar[rr, "f"]
@@ -52,33 +49,110 @@ A morphism $i$ in a category has the ''left lifting property'' with respect to a
   \ar[
     uurr,
     dashed,
-    "{ \exists }"
+    "{ \exists }"{description}
   ]
   &&Y
 \end{tikzcd}
 \end{definition}
 
-This is sometimes also known as the morphism $i$ being ''weakly orthogonal to'' the morphism $p$; however, ''orthogonal to'' will refer to
-the stronger property that whenever $f$ and $g$ are as above, the diagonal morphism $h$ exists and is also required to be unique.
+This is sometimes also known as the morphism $i$ being ''weakly orthogonal to'' the morphism $p$; however, ''orthogonal to'' will refer to the stronger property that whenever $f$ and $g$ are as above, the diagonal morphism $h$ exists and is also required to be unique.
 
-For a class $C$ of morphisms in a category, its ''left weak orthogonal'' or its ''left Quillen negation''
- $C^{&solb; \ell}$ with respect to the lifting property, respectively its ''right weak orthogonal'' and its ''right Quillen negation'' 
-$C^{&solb;r}$  is the class of all morphisms which have the left, respectively right, lifting property 
-with respect to each morphism in the class $C$. In notation,
+\begin{remark} \label{LiftingForObjects}
+**(lifting properties of objects)**
+\linebreak
+One also speaks of *[[objects]]* having left or right lifting properties (for instance in the definition of [[projective objects]] and [[injective objects]], respectively, or in the characterization of [[cofibrant objects]] and [[fibrant objects]], respectively), by which one then means, respectively:
+\end{remark}
+
+* that the corresponding unique morphisms $\varnothing \longrightarrow B$ (from the [[initial object]]) has the left lifting property in the sense of Def. \ref{LiftingPropertiesOfMorphisms} (against the given morphism $p$):
+
+\begin{tikzcd}
+  \color{lightgray}
+  \varnothing
+  \ar[dd, "\exists !", lightgray]
+  \ar[rr, "\exists !", lightgray]
+  && 
+  X \ar[dd,"p"]
+  \\
+  \\
+  B
+  \ar[
+    rr,"g"
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"{description}
+  ]
+  &&
+  Y
+  \mathrlap{\,,}
+\end{tikzcd}
+
+* that the unique morphism $X \longrightarrow \ast$ (to the [[terminal object]]) has the right lifting property (against the given morphism $i$):
+
+\begin{tikzcd}
+  A
+  \ar[dd, "i"]
+  \ar[rr, "f"]
+  && 
+  X\ar[dd,"\exists !", lightgray]
+  \\
+  \\
+  B
+  \ar[
+    rr, "\exists !", lightgray
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"{description}
+  ]
+  &&
+  \color{lightgray}
+  \ast
+  \mathrlap{\,,}
+\end{tikzcd}
+
+
+
+
+\begin{definition}\label{QuillenNegation}
+**([[orthogonal class]]/[[Quillen negation]])**
+\linebreak
+Given a [[class]] $M \;\subset\; Mor(\mathcal{C})$ of [[morphisms]] in a [[category]] $\mathcal{C}$, its 
+
+* *left weak orthogonal class* or *left [[Quillen negation]]*
+ ${}^{&solb;} M$ 
+
+or 
+
+* *right weak orthogonal class* or *right [[Quillen negation]]* 
+$M^{&solb;}$  
+
+is the class of all morphisms which have the left, respectively right, lifting property (in the sense of Def. \ref{LiftingPropertiesOfMorphisms}) with respect to each morphism in the class $M$:
 
 $$
-C^{&solb; \ell} := \{ i \mid \forall p\in C, i\,\,&solb;\,\, p\} \,\,\,
-C^{&solb; r} := \{ p \mid \forall i\in C, i\,\,&solb;\,\, p\}, \,\,\,
-C^{&solb; lr} := (C^{&solb; l})^{&solb; r}  
+  M^{&solb;} 
+  \;\coloneqq\;
+  \Big\{ 
+    p \,\in\, Mor(\mathcal{C})
+    \;\big\vert\; 
+   \underset{i \in M}{\forall}
+   \; i \,&solb;\, p
+  \Big\}, 
+  \;\;\;\;\;
+  {}^{&solb;}M 
+  \;\coloneqq\;
+  \Big\{ 
+    i \,\in\, Mor(\mathcal{C})
+    \;\big\vert\; 
+   \underset{p \in M}{\forall}
+   \; i \,&solb;\, p
+  \Big\}
+  \,.
 $$ 
 
-Taking the Quillen negation of a class $C$ is a simple way to define a class of morphisms excluding [[isomorphisms]] from $C$, in a way which is useful in a [[diagram chasing]] computation.
-
-Thus, in the category _Set_ of [[Set|sets]], the right Quillen negation $\{\emptyset \to \{*\}\}^{&solb;  r}$ of the simplest [[surjective|non-surjection]] $\emptyset\to \{*\},$ is the class of surjections. The left and right Quillen negation of $\{x_1,x_2\}\to \{*\},$ the simplest non-injection, are both precisely the class of injections, 
-$\{\{x_1,x_2\}\to \{*\}\}^{&solb; \ell} = \{\{x_1,x_2\}\to \{*\}\}^{&solb;  r} = \{ f \mid f \text{ is an injection } \}.$
-
-It is clear that $C^{&solb;\ell r} \supset C$ and $C^{&solb; r\ell} \supset C$. The class $C^{&solb;  r}$ is always closed under retracts, [[pullback|pullbacks]], (small) [[product|products]] (whenever they exist in the category) and composition of morphisms, and contains all isomorphisms of C. Meanwhile, $C^{&solb;  \ell}$ is closed under retracts, [[pushout]]s, (small) [[coproduct]]s and transfinite composition ([[filtered colimit]]s) of morphisms (whenever they exist in the category), and also contains all isomorphisms.
-
+\end{definition}
 
 
 ## Examples of lifting properties
