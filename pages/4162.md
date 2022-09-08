@@ -1,4 +1,6 @@
 
+> This entry needs to be merged with *[[Bell's inequalities]]*. 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -21,59 +23,9 @@ _Bell's theorem_ is the collective name for a family of results, all showing the
 
 * [[Gleason's theorem]].
 
-### Original derivation
+### Statement
 
-Let us denote the result _A_ of a measurement that is determined by a unit vector, $\vec{a}$, and some parameter $\lambda$ as $A(\vec{a},\lambda)=\pm 1$ where we further suppose that the outcome of the measurement is either +1 or -1.  Likewise, we may do the same for the result _B_ of a second measurement, i.e. $B(\vec{b},\lambda)$.  We further make the vital assumption that the result _B_ does not depend on $\vec{a}$ and likewise _A_ does not depend on $\vec{b}$.
-
-Before proceeding, we should note that $\lambda$ here plays the role of a "hidden" parameter or variable.  We say it is "hidden" because its precise nature is not known.  However, it is still a very real parameter with a probability distribution $\rho(\lambda)$.  The expectation value of the product of the two measurements is
-
-\[
-  P(\vec{a},\vec{b})=\int d\lambda\rho(\lambda)A(\vec{a},\lambda)B(\vec{b},\lambda).
-\]
-
-Because $\rho$ is a normalized probability distribution,
-
-$$
-  \int d\lambda \rho(\lambda) = 1
-$$
-
-and because $A(\vec{a},\lambda)=\pm 1$ and $B(\vec{b},\lambda)=\pm 1$, P cannot be less than -1.  It can be equal to -1 at $\vec{a}=\vec{b}$ only if $A(\vec{a},\lambda)=\pm 1 = -B(\vec{a},\lambda)=\pm 1$ except at a set of points $\lambda$ of zero probability.  Thus we can write (1) as
-
-\[
-  P(\vec{a},\vec{b})=-\int d\lambda\rho(\lambda)A(\vec{a},\lambda)A(\vec{b},\lambda).
-\]
-
-If we introduce a third unit vector $\vec{c}$ we can find the difference between the correlation of $\vec{a}$ to the two other unit vectors,
-
-\[
-  P(\vec{a},\vec{b})-P(\vec{a},\vec{c})=-\int d\lambda\rho(\lambda)[A(\vec{a},\lambda)A(\vec{b},\lambda)-A(\vec{a},\lambda)A(\vec{c},\lambda)].
-\]
-
-Rearranging this we may write (3) as
-
-\[
-  P(\vec{a},\vec{b})-P(\vec{a},\vec{c})=-\int d\lambda\rho(\lambda)A(\vec{a},\lambda)A(\vec{b},\lambda)[A(\vec{b},\lambda)A(\vec{c},\lambda)-1].
-\]
-
-Given the limitations we have placed on the value of _A_, we may write
-
-\[
-  |P(\vec{a},\vec{b})-P(\vec{a},\vec{c})| \le \int d\lambda\rho(\lambda)[1-A(\vec{b},\lambda)A(\vec{c},\lambda)].
-\]
-
-But the second term on the right is simply $P(\vec{b},\vec{c})$ and thus
-
-\[
-  1 + P(\vec{b},\vec{c}) \ge |P(\vec{a},\vec{b})-P(\vec{a},\vec{c})|
-\]
-
-which is the original form of Bell's inequality.  Note that this may be written in terms of correlation coefficients, 
-
-\[
-  1 + C(b,c) \ge |C(a,b)-C(a,c)|
-\]
-
-where _a_, _b_, and _c_ are now settings on the measurement apparatus.
+(...)
 
 ### Quantum mechanical violations
 
