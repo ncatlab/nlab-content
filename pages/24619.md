@@ -25,7 +25,15 @@ This page compiles links related to the book:
 
   [Wikipedia entry](https://en.wikipedia.org/wiki/The_Laws_of_Thought)
 
+  \linebreak
+
+  [Project Gutenberg eBook](https://gutenberg.org/ebooks/15114)
+
+
 on [[formal logic]] (for which [[George Boole|Boole]] became widely famous, cf. *[[Boolean algebra]]*) but also on [[probability theory]], where  (as observed by [Pitowsky 1989a](Bell's+inequalities#Pitowsky89a), reviewed, e.g., in [Khrennikov 2008](Bell's+inequalities#Khrennikov08)) Boole's book derives the inequalities that later became known as *[[Bell's inequalities]]* in [[quantum probability theory]].
+
+
+## References
 
 Review includes:
 
