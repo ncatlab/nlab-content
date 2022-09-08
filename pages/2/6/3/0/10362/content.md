@@ -21,11 +21,11 @@
 ## Idea
 
 
-What came to be called *Bell's inequality* ([Bell 1964](#Bell64)) is an [[inequality]] satisfied by the three pairwise [[correlation functions]] between three [[random variables]] defined on one and the same classical [[probability space]]. As such, this is an elementary statement about classical probability theory which as been argued ([Pitowsky 1989a](#Pitowsky89a)) to have be known already to [[Boole -- The Laws of Thought|Boole (1854)]].
+What came to be called *Bell's inequality* ([Bell 1964](#Bell64)) is an [[inequality]] satisfied by the three pairwise [[correlation functions]] between three [[random variables]] defined on one and the same classical [[probability space]]. As such, it is an elementary statement about classical probability theory which as been argued ([Pitowsky 1989a](#Pitowsky89a)) to have been known already to [[Boole -- The Laws of Thought|Boole (1854)]].
 
-The thrust of the argument by [Bell 1964](#Bell64) was to point out that when taking these three random variables to be the results of [[quantum measurements]] of the [[spin]] of an [[electron]] along three pairwise non-orthogonal axes (as in the [[Stern-Gerlach experiment]]) then this equality is *violated* -- implying that there is no single classical [[probability space]] (called a *[[hidden variable theory|hidden variable]]* in the context of [[interpretations of quantum mechanics]]) on which these three [[quantum measurement]]-results are jointly [[random variables]].
+The point of the argument by [Bell 1964](#Bell64) was to highlight that when taking these three random variables to be the results of [[quantum measurements]] of the [[spin]] of an [[electron]] along three pairwise non-orthogonal axes (as in the [[Stern-Gerlach experiment]]) then [[quantum theory]] predicts that this inequality is *violated* -- implying that there is no single classical [[probability space]] (called a *[[hidden variable theory|hidden variable]]* in the context of [[interpretations of quantum mechanics]]) on which these three [[quantum measurement]]-results are jointly [[random variables]].
 
-A number of [[experiments]] have sought to check Bell's inequalities in [[quantum physics]] ("[[Bell tests]]") and all claim to have verified that it is *violated* in nature (see [Aspect 2015](#Aspect15)).
+A number of [[experiments]] have sought to check Bell's inequalities in [[quantum physics]] ("[[Bell tests]]") and all claim to have verified that it is indeed violated in nature (see [Aspect 2015](#Aspect15)), as predicted by [[quantum theory]].
 
 Bell's inequality has been and is receiving an enormous amount of attention, first in discussions of [[interpretations of quantum mechanics]], but more recently and more concretely also in the context of [[quantum information theory]].
 
