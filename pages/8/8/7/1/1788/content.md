@@ -1,4 +1,11 @@
 
+$$
+  \multiscripts{^a}{\Big( A \Big)}{_b}
+$$
+
+$$
+  \multiscripts{^&solb;}{M}{_b}
+$$
 
 \begin{tikzcd}
   \color{lightgray}
