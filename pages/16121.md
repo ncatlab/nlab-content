@@ -21,8 +21,29 @@
 
 ## Statement
 
-Given a real or complex [[inner product space]], we have
-$$|\langle u,v\rangle|\le \|u\|\cdot\|v\|.$$
+Given a real or complex [[inner product space]] $\big(V, \langle-,-\rangle\big)$, we have for all [[pairs]] of [[vectors]] $v,w \,\in\, V$ the following [[inequality]]:
+
+$$
+  \langle u,v\rangle^2 
+  \;\leq\; 
+  \langle u,u \rangle
+  \cdot
+  \langle v,v \rangle
+  \,.
+$$
+
+In terms of the [[norm]] $\Vert-\Vert \,\coloneqq\, \sqrt{\langle -,-\rangle}$ and the [[absolute value]] $\left\vert-\right\vert \,\colon\, \mathbb{R} \to \mathbb{R}_{\geq 0}$ this means equivalently:
+
+$$
+  \big\vert \langle u,v\rangle \big\vert 
+  \;\leq\; 
+  \left\Vert u \right\Vert
+  \cdot
+  \left\Vert v \right\Vert
+  \,.
+$$
+
+ 
 
 ## Attribution
 
