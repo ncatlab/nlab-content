@@ -1,4 +1,51 @@
 
+
+\begin{tikzcd}
+  \color{lightgray}
+  \varnothing
+  \ar[dd, "\exists !", lightgray]
+  \ar[rr, "\exists !", lightgray]
+  && 
+  X \ar[dd,"p"]
+  \\
+  \\
+  B
+  \ar[
+    rr,"g"
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&Y
+\end{tikzcd}
+
+
+\begin{tikzcd}
+  A
+  \ar[dd, "i"]
+  \ar[rr, "f"]
+  && X\ar[dd,"p", lightgray]
+  \\
+  \\
+  B
+  \ar[
+    rr,"g", lightgray
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"{description}
+  ]
+  &&
+  \color{lightgray}
+  \ast
+  \,.
+\end{tikzcd}
+
+
+
 ## Idea
 
 What has been called quantum "teleportation" ([BBCJPW 1993](#BBCJPW93)) is a procedure (a "protocol") in [[quantum information theory]] by which the exact transmission of a [[quantum state]] (such as that of some [[qbits]]) is equivalently established by the transmission of [[classical physics|classical]] information, *provided* that sender and receiver "share a [[Bell state]]", hence each have access to one half of a pair of [[subsystems]] which are in a maximally [[entanglement|entangled]] [[quantum state]] with each other. The protocol involves a [[quantum measurement]] and its ensuing [[wavefunction collapse]] destroys ("uses up") this entangled state in order to transmit the remaining quantum state -- which somewhat relativizes the imagery of "teleportation".
