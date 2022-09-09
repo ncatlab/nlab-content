@@ -43,6 +43,10 @@ Emphasis of the need of [[topological quantum computation|topological stabilizat
 
   > The [[qubit]] systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. $[\cdots]$ What is missing is the breakthrough $[\cdots]$ bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called [[topological quantum computing]].
 
+See also:
+
+* Takashi Yamakawa, Mark Zhandry, *Verifiable Quantum Advantage without Structure* &lbrack;[arXiv:2204.02063](https://arxiv.org/abs/2204.02063)&rbrack;
+
 
 ### Experimental realizations
 
@@ -84,8 +88,11 @@ Application of quantum computing to [[quantum chemistry]]:
 
 * [[Seth Lloyd]], *Universal Quantum Simulators*, Science New Series **273** 5278 (1996) 1073-1078 &lbrack;[jstor:2899535](https://www.jstor.org/stable/2899535), [doi:10.1126/science.273.5278.1073](https://doi.org/10.1126/science.273.5278.1073)&rbrack;
 
-
 * *Quantum Chemistry in the Age of Quantum Computing*, Chem. Rev. (2019) **119** 19 (2019) 10856–10915 &lbrack;[doi:10.1021/acs.chemrev.8b00803](https://doi.org/10.1021/acs.chemrev.8b00803)&rbrack;
+
+Argument that quantum supremacy in quantum chemistry is elusive:
+
+* [[Garnet Kin-Lic Chan]] et al., *Is there evidence for exponential quantum advantage in quantum chemistry?* &lbrack;[arXiv:2208.02199](https://arxiv.org/abs/2208.02199), [talk video](https://youtu.be/DZPH7ENcRLU)&rbrack;
 
 Survey:
 
