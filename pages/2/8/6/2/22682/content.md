@@ -58,4 +58,8 @@ Introduction and review:
 
 * [[Eric C. Rowell]], *Braids, Motions and Topological Quantum Computing* &lbrack;[arXiv:2208.11762](https://arxiv.org/abs/2208.11762)&rbrack;
 
+Realization on [[supersymmetry|supersymmetric]] [[spin chains]]:
+
+* Indrajit Jana, Filippo Montorsi, Pramod Padmanabhan, Diego Trancanelli, *Topological Quantum Computation on Supersymmetric Spin Chains* $[$[arXiv:2209.03822](https://arxiv.org/abs/2209.03822)$]$
+
 
