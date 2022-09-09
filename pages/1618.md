@@ -111,7 +111,7 @@ The action of the [[direct image]] $x_* : Set \to Sh(X)$ and the [[inverse image
        colim_{{*} \to x^{-1}(V)} A(V)
        \\
        &=
-       colim_{V\subset X| x \in V} F(V)
+       colim_{V\subset X| x \in V} A(V)
     \end{aligned}
     \,.
   $$
