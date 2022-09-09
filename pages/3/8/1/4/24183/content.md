@@ -35,3 +35,8 @@ Further discussion (all without attribution):
 
 * Zhuan Li, Roger S.K. Mong, *Detecting topological order from modular transformations of ground states on the torus* $[$[arXiv:2203.04329](https://arxiv.org/abs/2203.04329)$]$
 
+See also:
+
+* [[Sachin J. Valera]], *Fusion Structure from Exchange Symmetry in (2+1)-Dimensions*, Annals of Physics **429** (2021) &lbrack;
+[arXiv:2004.06282](https://arxiv.org/abs/2004.06282), [doi:10.1016/j.aop.2021.168471](https://doi.org/10.1016/j.aop.2021.168471)&rbrack;
+
