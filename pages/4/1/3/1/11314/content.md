@@ -44,6 +44,10 @@ Potential application of [[quantum computation]] ([[quantum supremacy]]) to quan
 
 * {#QuantumChemistryInAgeOfQuantumComputing} *Quantum Chemistry in the Age of Quantum Computing*, Chem. Rev. (2019) **119** 19 (2019) 10856–10915 &lbrack;[doi:10.1021/acs.chemrev.8b00803](https://doi.org/10.1021/acs.chemrev.8b00803)&rbrack;
 
+Argument that quantum advantage in quantum chemistry may be elusive:
+
+* [[Garnet Kin-Lic Chan]] et al., *Is there evidence for exponential quantum advantage in quantum chemistry?* &lbrack;[arXiv:2208.02199](https://arxiv.org/abs/2208.02199), [talk video](https://youtu.be/DZPH7ENcRLU)&rbrack;
+
 
 ### Topological quantum chemistry
 
