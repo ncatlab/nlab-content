@@ -38,7 +38,7 @@ PROPs generalise properads further by, in addition to having the multiple compos
 
 ### Internal logic
 
-Polycategories provide a natural [[categorical semantics]] for [[linear logic]].
+Polycategories provide a natural [[categorical semantics]] for [[classical logic|classical]] [[linear logic]].
 
 ### Representability
 
