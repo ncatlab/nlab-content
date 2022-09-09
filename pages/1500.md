@@ -19,14 +19,16 @@
 +-- {: .num_defn}
 ###### Definition
 
-A **fusion category** is a [[rigid monoidal category|rigid]] [[semisimple category|semisimple]] [[linear category|linear]] ([[Vect]]-[[enriched category|enriched]]) [[monoidal category]] ("[[tensor category]]"), with only [[finite number|finitely]] many [[decategorification|isomorphism classes]] of [[simple objects]], such that the [[endomorphism]]s of the unit object form just the [[ground field]] $k$.
+A **fusion category** is a [[rigid monoidal category|rigid]] [[semisimple category|semisimple]] [[linear category|linear]] ([[Vect]]-[[enriched category|enriched]]) [[monoidal category]] ("[[tensor category]]"), with only [[finite number|finitely]] many [[decategorification|isomorphism classes]] of [[simple objects]], such that the [[endomorphisms]] of the unit object form just the [[ground field]] $k$.
 
 =--
+
+Often one also assumed a [[braided monoidal category|braiding]] and speaks of a *braided fusion category*.
 
 
 ## Examples
 
-The name "fusion category" comes from the central examples of structures whose canonical [[tensor product]] is called a "fusion product", notably [[representation]]s of [[loop group]]s and of [[Hopf algebra]]s and of [[vertex operator algebra]]s. 
+The name "fusion category" comes from the central examples of structures whose canonical [[tensor product]] is called a "fusion product", notably [[representations]] of [[loop groups]] and of [[Hopf algebras]] and of [[vertex operator algebras]]. 
 
 Some of the easiest examples are:
 
@@ -124,6 +126,8 @@ Together 1 and 2 let you go between the two different obvious notions of semisim
 
 * [[spherical category]]
 
+* [[modular tensor category]]
+
 * [[Deligne's theorem on tensor categories]]
 
 * [[graded fusion category]]
@@ -145,28 +149,34 @@ Original articles:
 * [[Vladimir Drinfeld]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], *On braided fusion categories I*, Selecta Mathematica. New Series 16 (2010), no. 1, 1–119 ([doi:10.1007/s00029-010-0017-z](https://doi.org/10.1007/s00029-010-0017-z))
 
 
-A review is also in chapter 6 of
+Further review:
 
-* [[Bruce Bartlett]], [On unitary 2-representations of finite groups and topological quantum field theory](http://arxiv.org/abs/0901.3975).
+* [[Bruce Bartlett]], chapter 6 of
+*[On unitary 2-representations of finite groups and topological quantum field theory](http://arxiv.org/abs/0901.3975)*.
 
-The [[Tannaka duality]] to [[weak Hopf algebras]] is discussed in
+On the [[Tannaka duality]] to [[weak Hopf algebras]]:
 
 * Takahiro Hayashi, _A canonical Tannaka duality for finite seimisimple tensor categories_ ([arXiv:math/9904073](http://arxiv.org/abs/math/9904073))
 
-* [[Victor Ostrik]], _Module categories, weak Hopf algebras and modular invariants_ ([arXiv:math/0111139](http://arxiv.org/abs/math/0111139)) 
- {#Ostrik}
+* {#Ostrik} [[Victor Ostrik]], _Module categories, weak Hopf algebras and modular invariants_ ([arXiv:math/0111139](http://arxiv.org/abs/math/0111139)) 
+ 
 
 
-The relation to [[3d TQFT]] is clarified via the [[cobordism hypothesis]] in
+The relation to [[3d TQFT]] clarified via the [[cobordism hypothesis]]:
 
 * {#DSPS} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _The Structure of Fusion Categories via 3D TQFTs_ ([talk pdf](https://sites.google.com/site/chrisschommerpriesmath/Home/recent-and-upcoming-talks/UPennTalk.pdf?attredirects=0))
  
 
 * {#DSPS13} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _Dualizable tensor categories_ ([arXiv:1312.7188](http://arxiv.org/abs/1312.7188))
 
-and for the case of [[modular tensor categories]] in
+and for the case of [[modular tensor categories]]:
 
 * [[Bruce Bartlett]], [[Christopher Douglas]], [[Chris Schommer-Pries]], [[Jamie Vicary]], _Modular categories as representations of the 3-dimensional bordism 2-category_ ([arXiv:1509.06811](http://arxiv.org/abs/1509.06811))
+
+Relation to [[anyons]]:
+
+
+
 
 
 For some discussion see
@@ -177,7 +187,6 @@ For some discussion see
 
 
 [[!include anyonic topological order via braided fusion categories -- references]]
-
 
 
 
