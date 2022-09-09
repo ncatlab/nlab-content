@@ -71,6 +71,9 @@ For [[D3-D7 brane bound states]] and [[D3-D5 brane bound states]]:
 
 * Marius de Leeuw, Tamás Gombor, Charlotte Kristjansen, Georgios Linardopoulos, Balázs Pozsgay, _Spin Chain Overlaps and the Twisted Yangian_ ([arXiv:1912.09338](https://arxiv.org/abs/1912.09338))
 
+On [[supersymmetry|supersymmetric]] [[spin chains]] carrying [[braid group representations]] ("[[anyons]]"):
+
+* Indrajit Jana, Filippo Montorsi, Pramod Padmanabhan, Diego Trancanelli, *Topological Quantum Computation on Supersymmetric Spin Chains* &lbrack;[arXiv:2209.03822](https://arxiv.org/abs/2209.03822)&rbrack;
 
 
 
