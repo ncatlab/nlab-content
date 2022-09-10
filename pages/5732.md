@@ -9,7 +9,7 @@ A [[subobject]] of [[dimension]] $k$ inside an [[object]] of dimension $d$ is sa
 
 ## Examples
 
-* A [[submanifold]] of dimension $k$ inside a manifold of dimension $d$ has codimension $d-k$.
+* A [[submanifold]] of dimension 3 inside a manifold of dimension 5 has codimension 5-3.
 
 * In [[algebraic geometry]] a [[subvariety]] of codimension 1 is called a _[[divisor (algebraic geometry)]]_.
 
