@@ -50,7 +50,9 @@ $[$[arXiv:2002.10360](https://arxiv.org/abs/2002.10360), [doi:10.1103/PhysRevB.1
   > it is possible to controllably braid Kagome band nodes in monolayer $\mathrm{Si}_2 \mathrm{O}_3$ using strain and/or an external electric field.
 
 
-* Haedong Park, Wenlong Gao, Xiao Zhang, Sang Soon Oh, *Nodal lines in momentum space: topological invariants and recent realizations in photonic and other systems*, Nanophotonics **11** 11  (2022) 2779–2801 ([doi:10.1515/nanoph-2021-0692](https://doi.org/10.1515/nanoph-2021-0692))
+* {#ParkGaoZhangOh22} Haedong Park, Wenlong Gao, Xiao Zhang, Sang Soon Oh, *Nodal lines in momentum space: topological invariants and recent realizations in photonic and other systems*, Nanophotonics **11** 11  (2022) 2779–2801 $[$[doi:10.1515/nanoph-2021-0692](https://doi.org/10.1515/nanoph-2021-0692)$]$
+
+  > (analog realization in [[photonic crystals]])
 
 * [[Adrien Bouhon]], [[Robert-Jan Slager]], *Multi-gap topological conversion of Euler class via band-node braiding: minimal models, PT-linked nodal rings, and chiral heirs* $[$[arXiv:2203.16741](https://arxiv.org/abs/2203.16741)$]$
 
