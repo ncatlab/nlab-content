@@ -1,4 +1,6 @@
 
+<div style="float:left;margin:0 10px 10px 0;"><img src="https://www.dropbox.com/s/po50pdd55cqbtw4/CQTS_Researchers.png" width="600" alt="CQTS Researchers" /></div>
+
 
 \begin{tikzcd}[sep={between origins, 30pt}]
   &
