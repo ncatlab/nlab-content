@@ -50,6 +50,12 @@ The band geometry around the electron [[chemical potential]] of a material contr
 
 * [[dispersion relation]]
 
+* energy band structure is also observed in "[[metamaterials]]" such as:
+
+  * [[photonic crystals]]
+
+  * [[phononic crystals]]
+
 
 ## References
 
