@@ -47,6 +47,7 @@ and (p. 13)
 
 * [[radiation]]
 
+* [[photonic crystal]]
 
 
 ## References
