@@ -16,6 +16,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -154,9 +155,9 @@ Discussion via [[AdS/CFT in solid state physics]]:
 {#ReferencesOnExternalManipulationViaStrain} External manipulation of topological phases via [[strain]] (see also the references [here](graphene#ReferencesMovementOfDiracPoints) at *[[graphene]]*):
  
 
-* Marwa Mannaï, Sonia Haddad, *Strain tuned topology in the Haldane and the modified Haldane models*., J of Physics: Condens. Matter **32** 225501 (2020) $[$[arXiv:1907.11213](https://arxiv.org/abs/1907.11213), [doi:10.1088/1361-648X/ab73a1](https://doi.org/10.1088/1361-648X/ab73a1)$]$
+* [[Marwa Mannaï]], [[Sonia Haddad]], *Strain tuned topology in the Haldane and the modified Haldane models*., J of Physics: Condens. Matter **32** 225501 (2020) $[$[arXiv:1907.11213](https://arxiv.org/abs/1907.11213), [doi:10.1088/1361-648X/ab73a1](https://doi.org/10.1088/1361-648X/ab73a1)$]$
 
-* Marwa Mannaï, Sonia Haddad, *Twistronics versus straintronics in twisted bilayers of graphene and transition metal dichalcogenides*, Phys. Rev. B **103** 201112 (2021) $[$[arXiv:2011.08818](https://arxiv.org/abs/2011.08818), [doi:10.1103/PhysRevB.103.L121112](https://doi.org/10.1103/PhysRevB.103.L121112)$]$
+* [[Marwa Mannaï]], [[Sonia Haddad]], *Twistronics versus straintronics in twisted bilayers of graphene and transition metal dichalcogenides*, Phys. Rev. B **103** 201112 (2021) $[$[arXiv:2011.08818](https://arxiv.org/abs/2011.08818), [doi:10.1103/PhysRevB.103.L121112](https://doi.org/10.1103/PhysRevB.103.L121112)$]$
 
 * Jiesen Li, Wanxing Lin, D. X. Yao, *Strain-induced topological phase transition in two-dimensional platinum ditelluride* $[$[arXiv:2106.16212](https://arxiv.org/abs/2106.16212)$]$
 
