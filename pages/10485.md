@@ -284,9 +284,15 @@ Review with focus on the case of [[topological insulators]] [[symmetry protected
 
 * [[Yoichi Ando]], [[Liang Fu]], *Topological Crystalline Insulators and Topological Superconductors: From Concepts to Materials*, Annual Review of Condensed Matter Physics **6** (2015) 361-381 $[$[arXiv:1501.00531](https://arxiv.org/abs/1501.00531), [doi:10.1146/annurev-conmatphys-031214-014501](https://doi.org/10.1146/annurev-conmatphys-031214-014501)$]$
 
-Discussion with focus on symmetry protected [[topological order]]:
+A proposal for classifying symmetry-protected [[topological order]] in terms of [[2-group|2-groupoidal]]-actions on [[modular tensor categories]]:
 
 * {#BBCW19} [[Maissam Barkeshli]], [[Parsa Bonderson]], [[Meng Cheng]], [[Zhenghan Wang]], *Symmetry Fractionalization, Defects, and Gauging of Topological Phases*, Phys. Rev. B **100** 115147 (2019) $[$[arXiv:1410.4540](https://arxiv.org/abs/1410.4540), [doi:10.1103/PhysRevB.100.115147](https://doi.org/10.1103/PhysRevB.100.115147), [talk pdf](http://helper.ipam.ucla.edu/publications/stq2015/stq2015_12401.pdf)$]$
+
+* [[Zhenghan Wang]], §2.2 of: *Beyond Anyons*,  Modern Physics Letters A **33** 28 (2018) 1830011  &lbrack;[arXiv:1710.00464](https://arxiv.org/abs/1710.00464), [doi:10.1142/S0217732318300112](https://doi.org/10.1142/S0217732318300112)&rbrack;
+
+
+
+
 
 See also:
 
