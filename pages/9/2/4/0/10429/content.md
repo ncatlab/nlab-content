@@ -155,15 +155,19 @@ Indeed, the [[dynamics]] of the [[electrons]] in graphene is "$T I$"-symmetric, 
 
 * [[quantum Hall effect]]
 
-* [[topological order]]
-
 * [[topological insulator]]
+
+* [[topological order]]
 
 * [[strange metal]]
 
 * [[Weyl semimetal]]
 
-* [[topological photonics]]
+* in [[metamaterials]]:
+
+  * [[topological photonics]]
+
+  * [[topological phononics]]
 
 * [[topological quantum computing]]
 
