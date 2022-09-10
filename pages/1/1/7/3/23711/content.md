@@ -182,10 +182,17 @@ Some of the above material is taken from
 [[!redirects topological semimetals]]
 
 
-
 [[!redirects Dirac point]]
 [[!redirects Dirac points]]
 
 [[!redirects Weyl point]]
 [[!redirects Weyl points]]
+
+[[!redirects band node]]
+[[!redirects band nodes]]
+
+[[!redirects nodal line]]
+[[!redirects nodal lines]]
+
+
 
