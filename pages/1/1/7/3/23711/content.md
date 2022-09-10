@@ -85,7 +85,8 @@ After the synthesis of graphene, which is an effectively 2-dimensional material 
 
 * [[topological insulator]]
 
-* [[photonic semimetal]]
+* [[photonic semimetal]], [[phononic semimetal]]
+
 
 
 ## References
