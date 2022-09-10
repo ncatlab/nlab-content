@@ -138,6 +138,9 @@ See also:
 
 [[!redirects su(2)-anyons]]
 
+[[!redirects SU(2)-anyon]]
+[[!redirects SU(2)-anyons]]
+
 [[!redirects su2-anyon]]
 [[!redirects su2-anyons]]
 
@@ -151,3 +154,4 @@ See also:
 
 [[!redirects Ising anyon]]
 [[!redirects Ising anyons]]
+
