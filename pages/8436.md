@@ -22,6 +22,7 @@
 
 The [[physics]] of [[solid]] condensed [[matter]] (made of [[fermions]], due to the [[Pauli exclusion principle]]), also _[[continuum mechanics]]_.
 
+
 ## Properties
 
 ### Topological phases of matter
@@ -33,6 +34,8 @@ See at _[[K-theory classification of topological phases of matter]]_.
 * [[quantum many-body physics]]
 
 * [[Bloch's theorem]]
+
+* [[phonon]]
 
 * [[degeneracy pressure]]
 
