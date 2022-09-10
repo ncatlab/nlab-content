@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents 
 {:toc}
@@ -23,7 +24,7 @@ A **fusion category** is a [[rigid monoidal category|rigid]] [[semisimple catego
 
 =--
 
-Often one also assumed a [[braided monoidal category|braiding]] and speaks of a *braided fusion category*.
+Often one also assume a [[braided monoidal category|braiding]] and speaks of a *braided fusion category*.
 
 
 ## Examples
@@ -173,9 +174,9 @@ and for the case of [[modular tensor categories]]:
 
 * [[Bruce Bartlett]], [[Christopher Douglas]], [[Chris Schommer-Pries]], [[Jamie Vicary]], _Modular categories as representations of the 3-dimensional bordism 2-category_ ([arXiv:1509.06811](http://arxiv.org/abs/1509.06811))
 
-Relation to [[anyons]]:
+Discussion in terms of [[skein relations]]:
 
-
+* Anup Poudel, [[Sachin J. Valera]], *Skein-Theoretic Methods for Unitary Fusion Categories* &lbrack;[arXiv:2008.07129](https://arxiv.org/abs/2008.07129)&rbrack;
 
 
 
@@ -194,4 +195,9 @@ For some discussion see
 
 [[!redirects fusion categories]]
 
+[[!redirects braided fusion category]]
+[[!redirects braided fusion categories]]
+
 [[!redirects fusion]]
+
+
