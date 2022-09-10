@@ -347,7 +347,7 @@ Stone-von Neumann**
 |  |  |  |  |
 |--|--|--|--|
 | [[Urs Schreiber]] | [[Mitchell Riley]] | [[David Jaz Myers]] | [Tatiana Ezubova](https://de.linkedin.com/in/tatiana-ezubova-0b21091b9) | 
-| [[Marwa Mannaï]] | [[Sachin Valera]] | [Amara Javed](https://arxiv.org/search/physics?searchtype=author&query=Javed%2C+A) | [[Adrian Clough]] |
+| [[Marwa Mannaï]] | [[Sachin Valera]] | [[Amaria Javed]] | [[Adrian Clough]] |
 
 
 
