@@ -342,6 +342,12 @@ Review:
 
 * [[Jérôme Cayssol]], [[Jean-Noël Fuchs]], Section IV.C of: *Topological and geometrical aspects of band theory*, J. Phys. Mater. **4** (2021) 034007 ([arXiv:2012.11941](https://arxiv.org/abs/2012.11941), [doi:10.1088/2515-7639/abf0b5](https://doi.org/10.1088/2515-7639/abf0b5))
 
+Modified Haldene model for [[Chern insulators]]:
+
+* Doru Sticlet, [[Frédéric Piéchon]], [[Jean-Noël Fuchs]], Pavel Kalugin, Pascal Simon, *Geometrical engineering of a two-bands Chern insulator in two dimensions with arbitrary topological index*, Phys. Rev. B **85** 165456 (2012) &lbrack;[arXiv:1201.6613](https://arxiv.org/abs/1201.6613), [doi:10.1103/PhysRevB.85.165456](https://doi.org/10.1103/PhysRevB.85.165456)&rbrack;
+
+* [[Marwa Mannaï]], [[Jean-Noël Fuchs]], [[Frédéric Piéchon]], [[Sonia Haddad]], *Stacking-induced Chern insulator* &lbrack;[arXiv:2208.02491](https://arxiv.org/abs/2208.02491)&rbrack;
+
 
 
 Much of the above material follows:
