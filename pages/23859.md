@@ -36,6 +36,8 @@ In addition to these *spatial symmetries*, the [[dynamics]] of the [[electrons]]
 
 * [[crystalline topological insulator]]
 
+* [[photonic crystal]]
+
 ## References
 
 Historical articles identifying the point-[[lattice (discrete subgroup)|lattice]] nature of crystals:
