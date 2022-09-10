@@ -1,4 +1,10 @@
 
+<div style="float:right;margin:0px 0px 0px 30px;">
+<img src="https://nyuad.nyu.edu/content/nyuad/en/home/academics/divisions/science/faculty/hisham-sati/jcr:content/bio-info/image.adaptive.m1510293714140/290.jpg" alt="Hisham Sati" />
+</div>
+
+
+
 Hisham Sati ([faculty page](https://nyuad.nyu.edu/en/academics/divisions/science/faculty/hisham-ahmad-sati.html)) is working on [[non-perturbative effects|non-perturbative]] phenomena  in [[string theory]]/[[M-theory]] using tools of [[cohomology]], [[homotopy theory]], [[algebraic topology]] and [[higher category theory]]. His thesis advisor was [[Michael Duff]].
 
 Hisham Sati is an associate  professor of [mathematics at NYU Abu Dhabi](https://nyuad.nyu.edu/en/academics/divisions/science/academic-programs/math.html) and lead-PI of the *[[Center for Quantum and Topological Systems]]*.
