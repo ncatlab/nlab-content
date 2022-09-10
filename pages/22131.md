@@ -22,11 +22,15 @@ In [[solid state physics]]:
 
     [[anyons]], [[braid group statistics]]
 
+In [[metamaterials]]:
+
+  * [[topological photonics]] ([[light waves]])
+
+  * [[topological phononics]] ([[sound waves]])
+
+For [[quantum computation]]:
+
 * [[topological quantum computation]]
-
-In [[electromagnetism]]:
-
-* [[topological photonics]]
 
 In [[quantum hadrodynamics]]:
 
