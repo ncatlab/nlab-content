@@ -316,6 +316,42 @@ Stone-von Neumann**
 \linebreak
 
 
+## Members
+ {#Members}
+
+
+**Principal Investigator:**
+
+<img src="https://nyuad.nyu.edu/content/nyuad/en/home/academics/divisions/science/faculty/hisham-sati/jcr:content/bio-info/image.adaptive.m1510293714140/290.jpg" width="200" alt="Hisham Sati" />
+
+<center>
+ [[Hisham Sati]] --  Professor of Mathematics
+</center>
+
+**Co-Principal Investigators:**
+
+<img src="https://ncatlab.org/nlab/files/CQTS-CoPIs-2022-09.jpg" width="600">
+
+|  |  |  |
+|--|--|--|
+| [Muhammad Shafique](https://nyuad.nyu.edu/en/academics/divisions/engineering/faculty/muhammad-shafique.html) |  [Saurabh Ray](https://nyuad.nyu.edu/en/academics/divisions/science/faculty/saurabh-ray.html) | [Farah Shamout](https://nyuad.nyu.edu/en/academics/divisions/engineering/faculty/farah-emad-shamout.html) |
+| [Tuka Alhanai](https://nyuad.nyu.edu/en/academics/divisions/engineering/faculty/tuka-waddah-alhanai.html) | [Tim Byrnes](https://shanghai.nyu.edu/academics/faculty/directory/tim-byrnes) |  [Pilkyung Moon](https://shanghai.nyu.edu/academics/faculty/directory/pilkyung-moon) | 
+
+
+\linebreak
+
+**Researchers:**
+
+<img src="https://ncatlab.org/nlab/files/CQTS-Researchers-2022.jpg" width="750" alt="researchers at CQTS as of Sept 2022" />
+
+|  |  |  |  |
+|--|--|--|--|
+| [[Urs Schreiber]] | [[Mitchell Riley]] | [[David Jaz Myers]] | [Tatiana Ezubova](https://de.linkedin.com/in/tatiana-ezubova-0b21091b9) | 
+| [[Marwa Mannaï]] | [[Sachin Valera]] | [Amara Javed](https://arxiv.org/search/physics?searchtype=author&query=Javed%2C+A) | [[Adrian Clough]] |
+
+
+
+
 ***
 
 \linebreak
