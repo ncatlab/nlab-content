@@ -26,6 +26,8 @@ The _photon_ is the [[gauge boson]] of the [[electromagnetic field]], hence of _
 
 In [[quantum electrodynamics]] the photon [[interaction|interacts]] with the [[electron]] via the [[electron-photon interaction]].
 
+Compare to *[[phonons]]* which are the [[quanta]] of [[sound]] [[waves]] in [[condensed matter]].
+
 ## Related concepts
 
 * [[photon propagator]]
