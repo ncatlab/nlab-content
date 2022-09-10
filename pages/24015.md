@@ -41,6 +41,8 @@ $[$[arXiv:2002.10360](https://arxiv.org/abs/2002.10360), [doi:10.1103/PhysRevB.1
 
 * {#PBSM22} [[Bo Peng]], [[Adrien Bouhon]], [[Robert-Jan Slager]], [[Bartomeu Monserrat]], *Multi-gap topology and non-Abelian braiding of phonons from first principles*, Phys. Rev. B **105** (2022) 085115 ([arXiv:2111.05872](https://arxiv.org/abs/2111.05872), [doi:10.1103/PhysRevB.105.085115](https://doi.org/10.1103/PhysRevB.105.085115))
 
+  (analog realization in [[phononic crystals]])
+
 > new opportunities for exploring non-Abelian braiding of band crossing points (nodes) in reciprocal space, providing an alternative to the real space braiding exploited by other strategies. 
 
 > Real space braiding is practically constrained to boundary states, which has made experimental observation and manipulation difficult; instead, reciprocal space braiding occurs in the bulk states of the band structures and we demonstrate in this work that this provides a straightforward platform for non-Abelian braiding.
@@ -52,7 +54,7 @@ $[$[arXiv:2002.10360](https://arxiv.org/abs/2002.10360), [doi:10.1103/PhysRevB.1
 
 * {#ParkGaoZhangOh22} Haedong Park, Wenlong Gao, Xiao Zhang, Sang Soon Oh, *Nodal lines in momentum space: topological invariants and recent realizations in photonic and other systems*, Nanophotonics **11** 11  (2022) 2779–2801 $[$[doi:10.1515/nanoph-2021-0692](https://doi.org/10.1515/nanoph-2021-0692)$]$
 
-  > (analog realization in [[photonic crystals]])
+  (analog realization in [[photonic crystals]])
 
 * [[Adrien Bouhon]], [[Robert-Jan Slager]], *Multi-gap topological conversion of Euler class via band-node braiding: minimal models, PT-linked nodal rings, and chiral heirs* $[$[arXiv:2203.16741](https://arxiv.org/abs/2203.16741)$]$
 
