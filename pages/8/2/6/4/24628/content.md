@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include physicscontents]]
 =--
+#### Solid state physics
++-- {: .hide}
+[[!include solid state physics -- contents]]
+=--
 =--
 =--
 
@@ -20,7 +24,16 @@ A *photonic crystal* ([Benisty et a. 1999](#BenistyEtAl99), going back to [Yablo
 
 By suitably engineering photonic crystals they may emulate various phenomena seen elsewhere in nature (for instance transport properties analogous to those in [[semiconductors]]) or not seen anywhere else, whence one also speaks of "[[metamaterial|meta-materials]]". 
 
-For instance, many aspects of [[topological phases of matter]] ([[topological insulators]], [[semimetals]], ...) have analogs realizations in photonic crystals ("topological photonics", see the references [below](#ReferencesTopologicalPhotonics)). Notably  [[braiding]] of [[band nodes]] has been demonstrated in [[photonic semimetals]] ([Park, Gao, Zhang & Oh 2022](#ParkGaoZhangOh22)) and similarly for [[phonons]] ([Peng, Bouhon, Monserrat & Slager 2022](#PBMS22)).
+In much the same way, there are *[[phononic crystals]]*.
+
+For instance, many aspects of [[topological phases of matter]] ([[topological insulators]], [[semimetals]], ...) have analogs realizations in photonic crystals ("[[topological photonics]]", see the references [below](#ReferencesTopologicalPhotonics)). Notably  [[braiding]] of [[band nodes]] has been demonstrated in [[photonic semimetals]] ([Park, Gao, Zhang & Oh 2022](#ParkGaoZhangOh22)) and similarly for [[phonons]] ([Peng, Bouhon, Monserrat & Slager 2022](#PBMS22)).
+
+
+## Related concepts
+
+* [[crystal]]
+
+* [[phononic crystal]]
 
 ## References
 
@@ -31,6 +44,8 @@ Original articles:
 * {#Yablonovitch87} Eli Yablonovitch, *Inhibited Spontaneous Emission in Solid-State Physics and Electronics*, Phys. Rev. Lett. **58** 2059 (1987) &lbrack;[doi:10.1103/PhysRevLett.58.2059](https://doi.org/10.1103/PhysRevLett.58.2059)&rbrack;
 
 * {#John87} Sajeev John, *Strong localization of photons in certain disordered dielectric superlattices* Phys. Rev. Lett. **58** 2486 (1987) &lbrack;[doi:10.1103/PhysRevLett.58.2486](https://doi.org/10.1103/PhysRevLett.58.2486)&rbrack;
+
+Further early articles:
 
 * Thomas F. Krauss, Richard M. De La Rue,  Stuart Brand, *Two-dimensional photonic-bandgap structures operating at near-infrared wavelengths*, Nature **383** (1996) 699–702 &lbrack;[doi:10.1038/383699a0](https://doi.org/10.1038/383699a0)&rbrack;
 
@@ -112,4 +127,4 @@ Photonic analog of [[nodal lines]]:
 [[!redirects photonic topological semimetal]]
 [[!redirects photonic topological semimetals]]
 
-
+[[!redirects topological photonics]]
