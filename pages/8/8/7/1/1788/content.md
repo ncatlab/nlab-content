@@ -1,4 +1,44 @@
 
+
+\begin{tikzcd}[sep={between origins, 30pt}]
+  &
+  {} && {}
+  &[+30pt] & 
+  {} \ar[-Latex, from=ddrr, line width=1.5pt]  && {}
+  &[+30pt] & 
+  {} && {}
+  \\
+  L_d = 
+  &
+  & \raisebox{-2.5pt}{\scalebox{1.8}{$\bullet$}}
+  & 
+  &
+  L_+ =
+  &
+  &
+  & 
+  &
+  L_- =
+  \\
+  &
+  {} \ar[-Latex, uurr, line width=1.5pt] 
+  && 
+  {} \ar[-Latex, uull, line width=1.5pt] 
+  &&
+  {} \ar[-Latex, uurr, line width=1.5pt, crossing over] 
+  && 
+  {} 
+  &&
+  {} \ar[-Latex, uurr, line width=1.5pt] 
+  && 
+  {} \ar[-Latex, uull, line width=1.5pt, crossing over] 
+\end{tikzcd}
+
+
+
+
+
+
 $$
   \multiscripts{^a}{\Big( A \Big)}{_b}
 $$
