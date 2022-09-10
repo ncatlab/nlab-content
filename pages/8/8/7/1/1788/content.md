@@ -1,82 +1,60 @@
 
+
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A *photonic crystal* ([Benisty et a. 1999](#BenistyEtAl99), going back to [Yablonovitch 1987](#Yablonovitch87), [John 1987](#John87)) (often: a *waveguide array*) is a material with periodic dielectric structure/refractive index in which [[light waves]] behave like [[Bloch waves]] of [[electrons]] in an actual [[crystal]], such as in that they form [[energy bands]] separated by band gaps ([Yablonovitch 1987](#Yablonovitch87)). (Of course, the underlying material may itself be made form actual [[crystal|crystalline]] structures, such as [[graphene]], see e.g. [BBKKL10](#BBKKL10)).
+A *phononic crystal* or *acoustic crystal* is a material with periodic elastic properties in which [[sound]] [[waves]] (ultimately: [[phonons]]) behave much like [[Bloch waves]] of [[electrons]] inside an actual [[crystal]], such as in that they form [[energy bands]] separated by band gaps ([KHDD93](#KHDD93)). 
 
-By suitably engineering photonic crystals they may emulate various phenomena seen elsewhere in nature (for instance transport properties analogous to those in [[semiconductors]]) or not seen anywhere else, whence one also speaks of "[[metamaterial|meta-materials]]". 
+By suitably engineering phononic crystals they may emulate various phenomena seen elsewhere in nature or not seen anywhere else, whence one also speaks of "[[metamaterial|meta-materials]]". 
 
-For instance, many aspects of [[topological phases of matter]] ([[topological insulators]], [[semimetals]], ...) have analogs realizations in photonic crystals ("topological photonics", see the references [below](#ReferencesTopologicalPhotonics)). Notably  [[braiding]] of [[band nodes]] has been demonstrated in [[photonic semimetals]] ([Park, Gao, Zhang & Oh 2022](#ParkGaoZhangOh22)) and similarly for [[phonons]] ([Peng, Bouhon, Monserrat & Slager 2022](#PBMS22)).
+
+
+For instance, various aspects of [[topological phases of matter]] (such as 
+[[Berry phases]], see [Liu, Chen & Xu 2020](#LiuChenXu20); 
+or 
+[[phononic semimetals]], see [Li et al. 2022](#LiEtAl21)) have analogs realizations in phononic crystals ("topological phononics", see the references [below](#ReferencesTopologicalPhononics)). Notably  [[braiding]] of [[band nodes]] has been demonstrated in [[phononic crystals]] ([Peng, Bouhon, Monserrat & Slager 2022](#PBMS22)) and similarly in 
+[[photonic semimetals]] ([Park, Gao, Zhang & Oh 2022](#ParkGaoZhangOh22)).
+
+
 
 ## References
 
 ### General
 
-Original articles:
+Early articles on acoustic [[energy band structure]] in phononic crystals:
 
-* {#Yablonovitch87} Eli Yablonovitch, *Inhibited Spontaneous Emission in Solid-State Physics and Electronics*, Phys. Rev. Lett. **58** 2059 (1987) &lbrack;[doi:10.1103/PhysRevLett.58.2059](https://doi.org/10.1103/PhysRevLett.58.2059)&rbrack;
+* {#KHDD93} M. S. Kushwaha, P. Halevi, L. Dobrzynski, and B. Djafari-Rouhani, *Acoustic band structure of periodic elastic composites*, Phys. Rev. Lett. **71** 2022 (1993) &lbrack;[doi:10.1103/PhysRevLett.71.2022](https://doi.org/10.1103/PhysRevLett.71.2022)&rbrack;
 
-* {#John87} Sajeev John, *Strong localization of photons in certain disordered dielectric superlattices* Phys. Rev. Lett. **58** 2486 (1987) &lbrack;[doi:10.1103/PhysRevLett.58.2486](https://doi.org/10.1103/PhysRevLett.58.2486)&rbrack;
+* M. M. Sigalas, E. N. Economou, *Elastic and acoustic wave band structure*, Journal of Sound and Vibration **158** 2 (1992) 377-382 &lbrack;<a href="https://doi.org/10.1016/0022-460X(92)90059-7">doi:10.1016/0022-460X(92)90059-7</a>&rbrack;
 
-* Thomas F. Krauss, Richard M. De La Rue,  Stuart Brand, *Two-dimensional photonic-bandgap structures operating at near-infrared wavelengths*, Nature **383** (1996) 699–702 &lbrack;[doi:10.1038/383699a0](https://doi.org/10.1038/383699a0)&rbrack;
+Review of phononic crystals:
 
-* {#BenistyEtAl99} H. Benisty et al., *Optical and confinement properties of two-dimensional photonic crystals*, Journal of Lightwave Technology **17** 11 (1999) 2063-2077 &lbrack;[doi:10.1109/50.802996](https://doi.org/10.1109/50.802996)&rbrack;
+* Ming-Hui Lu, Liang Feng, Yan-Feng Chen, *Phononic crystals and acoustic metamaterials*, Materials Today **12** 12 (2009) 34-42 &lbrack;<a href="https://doi.org/10.1016/S1369-7021(09)70315-3">doi:10.1016/S1369-7021(09)70315-3</a>&rbrack;
 
-* D. N. Chigrin & C. M. Sotomayor Torres, *Periodic thin-film interference filters as one-dimensional photonic crystals*, Optics and Spectroscopy **91** (2001) 484–489 &lbrack;[doi:10.1134/1.1405232](https://doi.org/10.1134/1.1405232)&rbrack;
+* {#LiuChenXu20} Yizhou Liu, Xiaobin Chen, Yong Xu, *Topological Phononics: From Fundamental Models to Real Materials*, Advanced Functional Materials **30** 8 (2020) &lbrack;[doi:10.1002/adfm.201904784](https://doi.org/10.1002/adfm.201904784)&rbrack;
 
-Early history:
+Further resources:
 
-* David Lindley, *Landmarks -- The Birth of Photonic Crystals*,  Physics **6** 94 (2013) &lbrack;[physics:v6/94](https://physics.aps.org/articles/v6/94)&rbrack;
+* *[Phononics 2017](https://phononics2017.phononics.org/conf/index.php/phononics/2017/index.html)* -- The 4th International Conference on Phononic Crystals/Metamaterials, Phonon Transport/Coupling and Topological Phononics (2017)
 
-Review of experimental realizations:
+* *[Phononics 2019](https://phononics2019.phononics.org/conf/index.php/phononics/2019/index.html)* -- 5th International Conference on Phononic Crystals/Metamaterials, Phonon Transport, Topological Phononics (2019)
 
-* Steven G. Johnson, *Photonic Crystals: Periodic Surprises in Electromagnetism*, lecture notes (2003) &lbrack;[webpage](http://ab-initio.mit.edu/photons/tutorial/), [pdf](http://ab-initio.mit.edu/photons/tutorial/L3-fab.pdf)&rbrack;
+### Topological phononics
 
-Further review:
+On [[topological phononics]]:
 
-* *Light propagation and localization in modulated photonic lattices and waveguides*, Physics Reports **518** 1–2 (2012) 1-79 &lbrack;[doi:10.1016/j.physrep.2012.03.005](https://doi.org/10.1016/j.physrep.2012.03.005)&rbrack;
+* S. Huber, *Topological mechanics*, Nature Phys **12*** 621–623 (2016) &lbrack;[doi:10.1038/nphys3801](https://doi.org/10.1038/nphys3801)&rbrack;
 
-Textbook account:
+* {#LiEtAl21} J. Li, J. Liu, S.A. Baronett, *Computation and data driven discovery of topological phononic materials*, Nat Commun **12** 1204 (2021) &lbrack;[doi:10.1038/s41467-021-21293-2](https://doi.org/10.1038/s41467-021-21293-2)&rbrack;
 
-* John D. Joannopoulos, Steven G. Johnson, Joshua N. Winn, and Robert D. Meade, *Photonic Crystals: Molding the Flow of Light* &lbrack;[webpage](http://ab-initio.mit.edu/book/), [ISBN:9780691124568](https://press.princeton.edu/books/hardcover/9780691124568/photonic-crystals)&rbrack;
-
-Realization with [[graphene]]:
-
-* {#BBKKL10} Oleg L. Berman, Vladimir S. Boyko, Roman Ya. Kezerashvili, Anton A. Kolesnikov, Yurii E. Lozovik, *Graphene-based photonic crystal*, Physics Letters A **374** (2010) 4784-4786 &lbrack;[arXiv:1012.4143](https://arxiv.org/abs/1012.4143), [doi:10.1016/j.physleta.2010.09.064](https://doi.org/10.1016/j.physleta.2010.09.064)&rbrack;
+* {#LiuChenXu20} Yan Du, Weiguo Wu, Wei Chen, Yongshui Lin, Qingjia Chi: *Control the structure to optimize the performance of sound absorption of acoustic metamaterial: A review*, AIP Advances **11** 060701 (2021) &lbrack;[doi:10.1063/5.0042834](https://doi.org/10.1063/5.0042834)&rbrack;
 
 
-See also: 
 
-* Wikipedia, *[Photonic crystal](https://en.wikipedia.org/wiki/Photonic_crystal)*
-
-### Topological photonics
- {#ReferencesTopologicalPhotonics}
-
-#### General
-
-On [[soliton|solitonic]] excitations in waveguide arrays:
-
-* Nikolaos K. Efremidis  et al., *Spatial photonics in nonlinear waveguide arrays*, Optics Express **13** 6 (2005) 1780-1796 &lbrack;[doi:10.1364/OPEX.13.001780](https://doi.org/10.1364/OPEX.13.001780)&rbrack;
-
-* [[Amaria Javed]], Alaa Shaheen U.Al Khawaja, *Amplifying optical signals with discrete solitons in waveguide arrays*, Physics Letters A **384** 26 (2020) 126654 &lbrack;[doi:10.1016/j.physleta.2020.126654](https://doi.org/10.1016/j.physleta.2020.126654)&rbrack;
-
-#### Photonic topological phases
-
-On photonic analogs of [[topological insulators]] ([[photonic topological insulator|photonic topological insulators]]):
-
-On photonic analogs of [[topological semimetals]] ([[photonic topological semimetal|photonic topological semimetals]]):
-
-* Shuqi sehn et al., *A Review of Topological Semimetal Phases in Photonic Artificial Microstructures*, Front. Phys., **16** &lbrack;[doi:10.3389/fphy.2021.771481](https://doi.org/10.3389/fphy.2021.771481)&rbrack; 
-
-* Ruey-Lin Chern and You-Zhong Yu, *Photonic topological semimetals in bigyrotropic metamaterials*,  **30** 14 (2022) 25162-25176 &lbrack;[doi:10.1364/OE.459097](https://doi.org/10.1364/OE.459097)&rbrack;
-
-Photonic analog of [[nodal lines]]:
-
-* Shuang Zhang et al., *Experimental observation of photonic nodal line degeneracies in metacrystals*, Nature Communications **9** 950 (2018) &lbrack;[doi:10.1038/s41467-018-03407-5](https://doi.org/10.1038/s41467-018-03407-5)&rbrack;
-
-[[!include anyonic braiding in momentum space -- references]]
 
 
