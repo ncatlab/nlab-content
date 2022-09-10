@@ -75,4 +75,6 @@ See also
 [[!redirects Bloch state]]
 [[!redirects Bloch states]]
 
+[[!redirects Bloch wave]]
+[[!redirects Bloch waves]]
 
