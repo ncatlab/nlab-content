@@ -40,6 +40,8 @@ For the moment see at *[[topological phase of matter]]*.
 
 * [[topological crystalline insulator]]
 
+* [[photonic topological insulator]]
+
 * [[gapped Hamiltonian]]
 
 * [[topological phase of matter]]
