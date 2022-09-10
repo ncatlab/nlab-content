@@ -1,251 +1,82 @@
 
-<div style="float:left;margin:0 10px 10px 0;"><img src="https://www.dropbox.com/s/po50pdd55cqbtw4/CQTS_Researchers.png" width="600" alt="CQTS Researchers" /></div>
-
-
-\begin{tikzcd}[sep={between origins, 30pt}]
-  &
-  {} && {}
-  &[+30pt] & 
-  {} \ar[-Latex, from=ddrr, line width=1.5pt]  && {}
-  &[+30pt] & 
-  {} && {}
-  \\
-  L_d = 
-  &
-  & \raisebox{-2.5pt}{\scalebox{1.8}{$\bullet$}}
-  & 
-  &
-  L_+ =
-  &
-  &
-  & 
-  &
-  L_- =
-  \\
-  &
-  {} \ar[-Latex, uurr, line width=1.5pt] 
-  && 
-  {} \ar[-Latex, uull, line width=1.5pt] 
-  &&
-  {} \ar[-Latex, uurr, line width=1.5pt, crossing over] 
-  && 
-  {} 
-  &&
-  {} \ar[-Latex, uurr, line width=1.5pt] 
-  && 
-  {} \ar[-Latex, uull, line width=1.5pt, crossing over] 
-\end{tikzcd}
-
-
-
-
-
-
-$$
-  \multiscripts{^a}{\Big( A \Big)}{_b}
-$$
-
-$$
-  \multiscripts{^&solb;}{M}{_b}
-$$
-
-\begin{tikzcd}
-  \color{lightgray}
-  \varnothing
-  \ar[dd, "\exists !", lightgray]
-  \ar[rr, "\exists !", lightgray]
-  && 
-  X \ar[dd,"p"]
-  \\
-  \\
-  B
-  \ar[
-    rr,"g"
-  ]
-  \ar[
-    uurr,
-    dashed,
-    "{ \exists }"
-  ]
-  &&Y
-\end{tikzcd}
-
-
-\begin{tikzcd}
-  A
-  \ar[dd, "i"]
-  \ar[rr, "f"]
-  && X\ar[dd,"p", lightgray]
-  \\
-  \\
-  B
-  \ar[
-    rr,"g", lightgray
-  ]
-  \ar[
-    uurr,
-    dashed,
-    "{ \exists }"{description}
-  ]
-  &&
-  \color{lightgray}
-  \ast
-  \,.
-\end{tikzcd}
-
-
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
-What has been called quantum "teleportation" ([BBCJPW 1993](#BBCJPW93)) is a procedure (a "protocol") in [[quantum information theory]] by which the exact transmission of a [[quantum state]] (such as that of some [[qbits]]) is equivalently established by the transmission of [[classical physics|classical]] information, *provided* that sender and receiver "share a [[Bell state]]", hence each have access to one half of a pair of [[subsystems]] which are in a maximally [[entanglement|entangled]] [[quantum state]] with each other. The protocol involves a [[quantum measurement]] and its ensuing [[wavefunction collapse]] destroys ("uses up") this entangled state in order to transmit the remaining quantum state -- which somewhat relativizes the imagery of "teleportation".
+A *photonic crystal* ([Benisty et a. 1999](#BenistyEtAl99), going back to [Yablonovitch 1987](#Yablonovitch87), [John 1987](#John87)) (often: a *waveguide array*) is a material with periodic dielectric structure/refractive index in which [[light waves]] behave like [[Bloch waves]] of [[electrons]] in an actual [[crystal]], such as in that they form [[energy bands]] separated by band gaps ([Yablonovitch 1987](#Yablonovitch87)). (Of course, the underlying material may itself be made form actual [[crystal|crystalline]] structures, such as [[graphene]], see e.g. [BBKKL10](#BBKKL10)).
 
-While this prose -- and certainly the imagery of "teleportation" -- may appear somewhat exotic, the actual mathematics underlying the "quantum teleportation protocol" is a short and elementary consequence of the most basic [[axioms]] of [[quantum mechanics]] (in fact it is all but a self-evident consequence when formulated in modern notation, see [below](#HistoryAndPerspective)). What makes quantum teleportation interesting is the ([[quantum information theory|quantum]]) [[information theory|information theoretic]] perspective on it.
+By suitably engineering photonic crystals they may emulate various phenomena seen elsewhere in nature (for instance transport properties analogous to those in [[semiconductors]]) or not seen anywhere else, whence one also speaks of "[[metamaterial|meta-materials]]". 
 
-
-## History and perspective
- {#HistoryAndPerspective}
-
-Given that the basic axioms of quantum physics were established in the 1920s and widely appreciated by the 1930s, while the possibility of "quantum teleportation" was observed only [in 1993](#BBCJPW93), using neither tools nor notation not available to the founding fathers, one may naturally wonder (e.g [Coecke 2010, p. 1](#Coecke10)):
-
-> why did it take us 60 years to discover the conceptually
-intriguing and easily derivable physical phenomenon of 'quantum teleportation'?
-
-Traditional reviews of the matter maintain that the phenomenon just happens to be intrinsically tricky to see through -- e.g. [Aaronson 2018](#Aaronson18), [p. 71](https://www.scottaaronson.com/qclec.pdf#page=71), apparently in reply to his student's puzzlement "How do people come up with this stuff?":
-
-> These sorts of protocols can be hard to find. 
-
-On the other hand, it was observed around [Coecke 2004](#Coecke04), [Abramsky & Coecke 2004](#AbramskyCoecke04), and pronouncedly brought out in [Coecke 2005](#Coecke05), [2010](#Coecke10) that the logical structure of [[quantum information theory]] in general and that of quantum teleportation in particular is accurately and transparently captured by [[string diagram]]-calculus for the ambient [[compact closed category|compact closed]] [[tensor category]] of [[finite dimensional vector space|finite dimensional]] [[Hilbert spaces]] (see *[[finite quantum mechanics in terms of dagger-compact categories]]*).
-
-This suggests the following alternative answer, from [Coecke 2005, p. 1](#Coecke05):
-
-> Why did discovering quantum teleportation take 60 year? We claim that this is due to a ‘bad quantum formalism’ (bad $\neq$ wrong) and this badness is in particular due to the fact that the formalism is ‘too low level'.
- 
-(Here "this formalism" refers to the traditional notation as in [BBCJPW93](#BBCJPW93), while the suggested high-level improvement is [[string diagram]]-calculus for the ambient [[tensor category]] of finite-dimensional Hilbert spaces.)
-
-## Statement
-
-(...)
-
-
+For instance, many aspects of [[topological phases of matter]] ([[topological insulators]], [[semimetals]], ...) have analogs realizations in photonic crystals ("topological photonics", see the references [below](#ReferencesTopologicalPhotonics)). Notably  [[braiding]] of [[band nodes]] has been demonstrated in [[photonic semimetals]] ([Park, Gao, Zhang & Oh 2022](#ParkGaoZhangOh22)) and similarly for [[phonons]] ([Peng, Bouhon, Monserrat & Slager 2022](#PBMS22)).
 
 ## References
 
-Original article:
-
-* {#BBCJPW93} Charles H. Bennett, Gilles Brassard, Claude Crépeau, Richard Jozsa, Asher Peres, and William K. Wootters, *Teleporting an unknown quantum state via dual classical and Einstein-Podolsky-Rosen channels*, Phys. Rev. Lett. **70** 1895 (1993) &lbrack;[doi:10.1103/PhysRevLett.70.1895](https://doi.org/10.1103/PhysRevLett.70.1895)&rbrack;
-
-Traditional review:
-
-* {#Aaronson18} [[Scott Aaronson]], §10.1 in *Introduction to Quantum Information Science* (2018) &lbrack;[pdf](https://www.scottaaronson.com/qclec.pdf), [webpage](https://www.scottaaronson.com/cs378/)&rbrack;
-
-Discussion via [[string diagram]]-calculus ([[finite quantum mechanics in terms of dagger-compact categories]]):
-
-* {#Coecke04} [[Bob Coecke]], §4 of: *The logic of entanglement* &lbrack;[arXiv:quant-ph/0402014](https://arxiv.org/abs/quant-ph/0402014)&rbrack;
-
-* {#AbramskyCoecke04} [[Samson Abramsky]], [[Bob Coecke]], §2 in: *A categorical semantics of quantum protocols*, Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) &lbrack;[arXiv:quant-ph/0402130](https://arxiv.org/abs/quant-ph/0402130), [doi:10.1109/LICS.2004.1319636](https://doi.org/10.1109/LICS.2004.1319636)&rbrack;
-
-* {#Coecke05} [[Bob Coecke]], §3c in: *Kindergarten Quantum Mechanics*, in *Quantum Theory: Reconsideration of Foundations* (QTRF 3) Vaxjo, Sweden, June 6-11, 2005, AIP Conf. Proc. **810** (2006) &lbrack;[arXiv:quant-ph/0510032](https://arxiv.org/abs/quant-ph/0510032), [doi:10.1063/1.2158713](https://doi.org/10.1063/1.2158713)&rbrack;
-
-* {#Coecke10} [[Bob Coecke]], *Quantum Picturalism*, Contemporary Physics **51** (2010) 59-83 &lbrack;[arXiv:0908.1787](https://arxiv.org/abs/0908.1787), [doi:10.1080/00107510903257624](https://doi.org/10.1080/00107510903257624)&rbrack;
-
-
-
-\linebreak
-
-
-+-- {: .query} 
-$\,$ 
- <div align="center" >
- <em>Search the nLab ([[Searching the nLab|hints]])</em> 
- <form  name="gsearch" method="get" action="https://www.google.com/search"><input type="text" size="30" name="as_q"/><input type="hidden" name="as_sitesearch" value="https://ncatlab.org/nlab/"/></form>
-</div>
-$\,$
-=-- 
-
-<p style="padding: 1px; border: 1px solid black;">
- <div align="center" >
- <em>Search the nLab ([[Searching the nLab|hints]])</em> 
- <form  name="gsearch" method="get" action="https://www.google.com/search"><input type="text" size="30" name="as_q"/><input type="hidden" name="as_sitesearch" value="https://ncatlab.org/nlab/"/></form>
-</div>
-</p>
----
-
-[[LeibnizMachineReversible.jpg:file]]
-
-[[Manin-1980.pdf:file]]
-
-$$
-  \array{
-    P
-    &\xrightarrow{\;\;\;}&
-    Set^{\ast/}
-    \\
-    \Bigg\downarrow
-    &{}^{{}_{(pb)}}&
-    \Bigg\downarrow
-    \\
-    \mathbf{B}
-    FM
-    \Big(
-      \big\{
-        NOT
-      \big\}
-    \Big)
-    &\xrightarrow{}&
-    Set 
-    \\
-    \ast
-    &\mapsto&
-    \{0,1\}
-    \\
-    \mathllap{{}^{NOT}}
-    \Big\downarrow
-    &&
-    \Big\downarrow
-    \mathrlap{{}^{
-      \left[
-        \array{
-           0 &\mapsto& 1
-           \\
-           1 &\mapsto& 0
-        }
-      \right]
-    }}
-    \\
-    \ast
-    &\mapsto&
-    \{0,1\}
-  }
-$$
-
-\linebreak
-
-\linebreak
+### General
 
 Original articles:
 
-* [[Rolf Landauer]], *Irreversibility and Heat Generation in the Computing Process*,  IBM Journal of Research and Development **5** 3 (1961) 183–191 &lbrack;[doi:10.1147%2Frd.53.0183](https://doi.org/10.1147%2Frd.53.0183)&rbrack; 
+* {#Yablonovitch87} Eli Yablonovitch, *Inhibited Spontaneous Emission in Solid-State Physics and Electronics*, Phys. Rev. Lett. **58** 2059 (1987) &lbrack;[doi:10.1103/PhysRevLett.58.2059](https://doi.org/10.1103/PhysRevLett.58.2059)&rbrack;
 
-* [[Charles H. Bennett]], *Logical Reversibility of Computation*, IBM Journal of Research and Development  **17** 6  (1973) &lbrack;[doi:10.1147/rd.176.0525](https://doi.org/10.1147/rd.176.0525)&rbrack;
+* {#John87} Sajeev John, *Strong localization of photons in certain disordered dielectric superlattices* Phys. Rev. Lett. **58** 2486 (1987) &lbrack;[doi:10.1103/PhysRevLett.58.2486](https://doi.org/10.1103/PhysRevLett.58.2486)&rbrack;
 
-Review:
+* Thomas F. Krauss, Richard M. De La Rue,  Stuart Brand, *Two-dimensional photonic-bandgap structures operating at near-infrared wavelengths*, Nature **383** (1996) 699–702 &lbrack;[doi:10.1038/383699a0](https://doi.org/10.1038/383699a0)&rbrack;
 
-* [[Charles H. Bennett]], *The thermodynamics of computation -- a review*, International Journal of Theoretical Physics **21** (1982) 905–940 &lbrack;[doi:10.1007/BF02084158](https://doi.org/10.1007/BF02084158)&rbrack;
+* {#BenistyEtAl99} H. Benisty et al., *Optical and confinement properties of two-dimensional photonic crystals*, Journal of Lightwave Technology **17** 11 (1999) 2063-2077 &lbrack;[doi:10.1109/50.802996](https://doi.org/10.1109/50.802996)&rbrack;
 
-* [[Rolf Landauer]], [[Charles H. Bennett]]: *[The Fundamental Physical Limits of Computation](https://www.scientificamerican.com/article/the-fundamental-physical-limits-of-computation/)*, Scientific American **253** 1 (1985)
+* D. N. Chigrin & C. M. Sotomayor Torres, *Periodic thin-film interference filters as one-dimensional photonic crystals*, Optics and Spectroscopy **91** (2001) 484–489 &lbrack;[doi:10.1134/1.1405232](https://doi.org/10.1134/1.1405232)&rbrack;
 
-* [[Rolf Landauer]]: *Computation: A Fundamental Physical View*, Phys. Scr. **35** (1987) 88 &lbrack;[doi:10.1088/0031-8949/35/1/021](https://iopscience.iop.org/article/10.1088/0031-8949/35/1/021)&rbrack;
+Early history:
 
-* [[Charles H. Bennett]], *Notes on the history of reversible computation*,  IBM Journal of Research and Development *32* 1 (1988) &lbrack;[doi:10.1147/rd.321.0016](https://doi.org/10.1147/rd.321.0016)&rbrack;
+* David Lindley, *Landmarks -- The Birth of Photonic Crystals*,  Physics **6** 94 (2013) &lbrack;[physics:v6/94](https://physics.aps.org/articles/v6/94)&rbrack;
 
-* [[Charles H. Bennett]], *Notes on Landauer's principle, reversible computation, and Maxwell's Demon*, Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics, **34** 3 (2003) 501-510 (<a href="https://doi.org/10.1016/S1355-2198(03)00039-X">doi:10.1016/S1355-2198(03)00039-X</a>)
+Review of experimental realizations:
+
+* Steven G. Johnson, *Photonic Crystals: Periodic Surprises in Electromagnetism*, lecture notes (2003) &lbrack;[webpage](http://ab-initio.mit.edu/photons/tutorial/), [pdf](http://ab-initio.mit.edu/photons/tutorial/L3-fab.pdf)&rbrack;
+
+Further review:
+
+* *Light propagation and localization in modulated photonic lattices and waveguides*, Physics Reports **518** 1–2 (2012) 1-79 &lbrack;[doi:10.1016/j.physrep.2012.03.005](https://doi.org/10.1016/j.physrep.2012.03.005)&rbrack;
+
+Textbook account:
+
+* John D. Joannopoulos, Steven G. Johnson, Joshua N. Winn, and Robert D. Meade, *Photonic Crystals: Molding the Flow of Light* &lbrack;[webpage](http://ab-initio.mit.edu/book/), [ISBN:9780691124568](https://press.princeton.edu/books/hardcover/9780691124568/photonic-crystals)&rbrack;
+
+Realization with [[graphene]]:
+
+* {#BBKKL10} Oleg L. Berman, Vladimir S. Boyko, Roman Ya. Kezerashvili, Anton A. Kolesnikov, Yurii E. Lozovik, *Graphene-based photonic crystal*, Physics Letters A **374** (2010) 4784-4786 &lbrack;[arXiv:1012.4143](https://arxiv.org/abs/1012.4143), [doi:10.1016/j.physleta.2010.09.064](https://doi.org/10.1016/j.physleta.2010.09.064)&rbrack;
 
 
+See also: 
 
-Discussion in view of quantum computation:
+* Wikipedia, *[Photonic crystal](https://en.wikipedia.org/wiki/Photonic_crystal)*
 
-* [[Michael A. Nielsen]], [[Isaac L. Chuang]], §1.4.1 and §3.2.5 in: *Quantum computation and quantum information*, Cambridge University Press (2000) $[$[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]$]$
+### Topological photonics
+ {#ReferencesTopologicalPhotonics}
 
-* [[Michael P. Frank]], *Reversible Computing -- Quantum Computing’s Practical Cousin*, Simons Conference Lecture, Stony Brook (2003) &lbrack;[pdf](http://insti.physics.sunysb.edu/conf/simons-qcomputation/talks/frank.pdf)&rbrack;
+#### General
 
-* [[Michael P. Frank]], Karpur Shukla, *Quantum Foundations of Classical Reversible Computing*, Entropy **23** 6 (2021) 701  &lbrack;[arXiv:2105.00065](https://arxiv.org/abs/2105.00065), [doi:10.3390/e23060701](https://doi.org/10.3390/e23060701)&rbrack;
+On [[soliton|solitonic]] excitations in waveguide arrays:
+
+* Nikolaos K. Efremidis  et al., *Spatial photonics in nonlinear waveguide arrays*, Optics Express **13** 6 (2005) 1780-1796 &lbrack;[doi:10.1364/OPEX.13.001780](https://doi.org/10.1364/OPEX.13.001780)&rbrack;
+
+* [[Amaria Javed]], Alaa Shaheen U.Al Khawaja, *Amplifying optical signals with discrete solitons in waveguide arrays*, Physics Letters A **384** 26 (2020) 126654 &lbrack;[doi:10.1016/j.physleta.2020.126654](https://doi.org/10.1016/j.physleta.2020.126654)&rbrack;
+
+#### Photonic topological phases
+
+On photonic analogs of [[topological insulators]] ([[photonic topological insulator|photonic topological insulators]]):
+
+On photonic analogs of [[topological semimetals]] ([[photonic topological semimetal|photonic topological semimetals]]):
+
+* Shuqi sehn et al., *A Review of Topological Semimetal Phases in Photonic Artificial Microstructures*, Front. Phys., **16** &lbrack;[doi:10.3389/fphy.2021.771481](https://doi.org/10.3389/fphy.2021.771481)&rbrack; 
+
+* Ruey-Lin Chern and You-Zhong Yu, *Photonic topological semimetals in bigyrotropic metamaterials*,  **30** 14 (2022) 25162-25176 &lbrack;[doi:10.1364/OE.459097](https://doi.org/10.1364/OE.459097)&rbrack;
+
+Photonic analog of [[nodal lines]]:
+
+* Shuang Zhang et al., *Experimental observation of photonic nodal line degeneracies in metacrystals*, Nature Communications **9** 950 (2018) &lbrack;[doi:10.1038/s41467-018-03407-5](https://doi.org/10.1038/s41467-018-03407-5)&rbrack;
+
+[[!include anyonic braiding in momentum space -- references]]
+
+
