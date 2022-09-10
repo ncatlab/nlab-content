@@ -32,11 +32,16 @@ Further discussion (all without attribution):
 
 * [[Parsa Bonderson]], *Measuring Topological Order*, Phys. Rev. Research **3**, 033110 (2021) $[$[arXiv:2102.05677](https://arxiv.org/abs/2102.05677), [doi:10.1103/PhysRevResearch.3.033110](https://doi.org/10.1103/PhysRevResearch.3.033110)$]$
 
-
 * Zhuan Li, Roger S.K. Mong, *Detecting topological order from modular transformations of ground states on the torus* $[$[arXiv:2203.04329](https://arxiv.org/abs/2203.04329)$]$
 
-See also:
+Emphasis that the expected description of [[anyons]] by [[braided fusion categories]] had remained [[folklore]], together with a list of minimal assumptions that would need to be shown:
 
-* [[Sachin J. Valera]], *Fusion Structure from Exchange Symmetry in (2+1)-Dimensions*, Annals of Physics **429** (2021) &lbrack;
-[arXiv:2004.06282](https://arxiv.org/abs/2004.06282), [doi:10.1016/j.aop.2021.168471](https://doi.org/10.1016/j.aop.2021.168471)&rbrack;
+* [[Sachin J. Valera]], *Fusion Structure from Exchange Symmetry in (2+1)-Dimensions*, Annals of Physics **429** (2021) $[$
+[arXiv:2004.06282](https://arxiv.org/abs/2004.06282), [doi:10.1016/j.aop.2021.168471](https://doi.org/10.1016/j.aop.2021.168471)$]$
+
+An argument that the statement at least for [[SU(2)-anyons]] does follow from an enhancement of the [[K-theory classification of topological phases of matter]] to interacting [[topological order]]:
+
+* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Anyonic topological order in TED K-theory]]* $[$[arXiv:2206.13563](https://arxiv.org/abs/2206.13563)$]$
+
+
 
