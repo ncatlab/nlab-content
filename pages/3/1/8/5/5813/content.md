@@ -158,8 +158,6 @@
  </g> 
  </g> 
  
-                 </g> 
 </svg> 
 
 
-category: svg
