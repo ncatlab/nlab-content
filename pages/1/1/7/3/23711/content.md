@@ -81,6 +81,11 @@ The archetypical and original example of a semi-metal is *[[graphene]]*, where t
 
 After the synthesis of graphene, which is an effectively 2-dimensional material (an atomic mono-layer) much attention has shifted to the synthesis and understanding of 3-dimensional semi-metals.
 
+## Related concepts
+
+* [[topological insulator]]
+
+* [[photonic semimetal]]
 
 
 ## References
