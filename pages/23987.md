@@ -316,6 +316,7 @@ Stone-von Neumann**
 \linebreak
 
 
+
 ## Members
  {#Members}
 
@@ -349,13 +350,13 @@ Stone-von Neumann**
 | [[Urs Schreiber]] | [[Mitchell Riley]] | [[David Jaz Myers]] | [Tatiana Ezubova](https://de.linkedin.com/in/tatiana-ezubova-0b21091b9) | 
 | [[Marwa Mannaï]] | [[Sachin Valera]] | [[Amaria Javed]] | [[Adrian Clough]] |
 
-
-
+<center>
+<a href="https://dioscuri-tda.org/members/ahmad.html">Ahmad Farhat</a>
+</center>
 
 ***
 
 \linebreak
-
 
 
 
