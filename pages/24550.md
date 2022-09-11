@@ -13,6 +13,14 @@
 * table of contents
 {: toc}
 
++-- {: .query}
+This page is currently under major revision. See the nForum's discussion post on this article for more information. Feel free to contribute. 
+=--
+
+## Definition
+
+A **category with an atlas** is a category $C$ with a set $G$ and an essentially surjective functor $F:G \to C$. 
+
 ## Idea
 
 When category theorists say that two categories have the same collection of objects, they usually mean that there is one collection of objects $Ob$, and two families of sets $A(x, y)$ and $B(x, y)$ for objects $x:Ob$ and $y:Ob$, such that $(Ob, A)$ is a category and $(Ob, B)$ is also a category. 
