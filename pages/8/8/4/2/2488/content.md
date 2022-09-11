@@ -31,7 +31,7 @@ An **$n$-truncated object** in a general [[(∞,1)-category]] is an object such 
 
 If an object in an [[(∞,1)-topos]]_ is $k$-truncated for any (possibly large) $k$, then it is $n$-truncated precisely if all its [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]] above degree $n$ are trivial. 
 
-The complementary notion of $n$-truncated object  is that of an [[n-connected object of an (∞,1)-category]].
+The complementary notion of $n$-truncated object is that of an [[n-connected object of an (∞,1)-category]].
 
 ## Definition
 
@@ -48,7 +48,7 @@ Precisely: in the model of [[∞-groupoid]]s given by [[Kan complex]]es $A$ is *
 
 =--
 
-It makes sense for the following to adopt the convention that $A$ is called 
+It makes sense for the following to adopt the convention that $A$ is called. 
 
 * _$(-1)$-truncated_ if it is empty or contractible -- this is a [[(-1)-groupoid]].
 
@@ -58,7 +58,7 @@ It makes sense for the following to adopt the convention that $A$ is called
 
 To generalize this, let now $C$ be an arbitrary [[(∞,1)-category]]. For $X,A$ objects in $C$ write $C(X,A) \in $ [[∞Grpd]] for the [[(∞,1)-categorical hom-space]] (if $C$ is given as a [[simplicially enriched category]] then this is just the [[SSet]]-[[hom-object]] which is guaranteed to be a [[Kan complex]]).
 
-Using this, it is useful to slightly reformulate the above as follows:
+Using this, it is useful to reformulate the above as follows slightly:
 
 \begin{lemma}
 An [[∞-groupoid]] $A$ is $n$-truncated precisely when for all [[∞-groupoids]] $X$ the [[(infinity,1)-categorical hom-space|hom-$\infty$-groupoid]] $\infty Grpd(X,A)$ is $n$-truncated.
@@ -84,7 +84,7 @@ Some terminology:
 
 * A 0-truncated object is also called **discrete**. Notice that this is _categorically discrete_ as in [[discrete category]], not discrete in the sense of [[discrete topological space]]. An object in an [[(∞,1)-topos]] is discrete in this sense if, regarded as an [[∞-groupoid]] with extra structure, it has only trivial morphisms.
 
-* By the above convention on (-2)-truncated $\infty$-groupoids, it is only the [[terminal object]]s of $C$ that are (-2)-truncated.
+* By the above convention on (-2)-truncated $\infty$-groupoids, it is only the [[terminal object]]s of $C$ that is (-2)-truncated.
 
 * Similarly, the (-1)-truncated objects are the [[subterminal objects]].
 
@@ -192,11 +192,11 @@ $X \times_Y X$ in $\infty$-Grpd is then modeled by the ordinary
 homotopy fibers of $f$ over $y \in Y$ are then given by the ordinary fibers 
 $\bar X_y$ of $\bar f$ in $sSet$.
 
-This way the statement is reduced to the following fact: a [[Kan complex]]
+This way, the statement is reduced to the following fact: a [[Kan complex]]
 $\bar X_y$ is $k$-truncated precisely if the [[homotopy fiber]]s of
 $\bar X_y \to \bar X_y \times \bar X_y$ are $(k-1)$-truncated.
 
-We write now $X$ for $\bar X_y$, for simplicity. To see the last statement, 
+We now write $X$ for $\bar X_y$ for simplicity. To see the last statement, 
 let $(a,b) : * \to X \times X$ and compute the [[homotopy pullback]]
 
 $$
@@ -209,18 +209,18 @@ $$
   }
 $$
 
-as usual by replacing the right vertical morphism by the fibration
+as usual by replacing the right vertical morphism with the fibration
 $(X \times X)^I \times_{X \times X} (a,b) \to X \times X$
 and then forming the ordinary pullback. This shows that 
 $Q$ is equivalent to the space of paths $P_{a,b}X$ in $X$ from $a$ to $b$.
 (Use that gluing of [[path space object]]s at endpoints of 
 paths produces a new
-path space, see for instance section 4 of [[BrownAHT]]).
+path space; see, for instance, section 4 of [[BrownAHT]]).
 
 If $X$ is [[connected]], then choosing any path $a \to b$ 
-gives an isomorphism from the the homotopy groups of $P_{a,b} X$
+gives an isomorphism from the homotopy groups of $P_{a,b} X$
 to those of the [[loop space]] $\Omega_a X$. These latter are indeed those
-of $X$, shifted down in degree by one (as described for instance at
+of $X$, shifted down in degree by one (as described, for instance, at
 [[fiber sequence]]).
 
 If $X$ is not connected, we can easily reduce to the case that it is.
@@ -327,7 +327,7 @@ $P$ takes values in $n Grpd$.
 
 Conversely, if $P$ takes values in $n Grpd$, then 
 the fact every presheaf is a colimit of representables
-implies $hom(Q, P)$ is a limit of $n$-truncated spaces, and is thus
+implies $hom(Q, P)$ is a limit of $n$-truncated spaces and is thus
 $n$-truncated.
 
 Given this identification of the subcategory of $n$-truncated objects,
@@ -410,7 +410,7 @@ $$
   \,.
 $$
 
-evidently commutes, since it just expresses this restriction.
+evidently commutes since it just expresses this restriction.
 
 =--
 
@@ -431,7 +431,7 @@ First notice that the statement is true for $C = $ [[∞Grpd]]. For instance we 
 
 From that we deduce that the statement is true for  $C$ any [[(∞,1)-category of (∞,1)-presheaves]] $C = PSh_{(\infty,1)}(K) = Func_{(\infty,1)}(K^{op}, \infty Grpd)$ because all relevant operations there are objectwise those in $\infty Grpd$.
 
-So far this shows even that on presheaf $(\infty,1)$-toposes all products (not necessarily finite) are preserved by truncation.
+So far, this shows even that on presheaf $(\infty,1)$-toposes, all products (not necessarily finite) are preserved by truncation.
 
 A general [[(∞,1)-topos]] $C$ is (by definition) a left exact [[reflective sub-(∞,1)-category]] of a presheaf $(\infty,1)$-topos, 
 
@@ -442,7 +442,7 @@ $$
 $$ 
 
 Let $\prod_{j} i(X_j)$ be the product of the objects in question
-taken in $PSh(K)$. By the above there we have an equivalence
+taken in $PSh(K)$. By the above there, we have an equivalence
 
 $$
   \tau_{\leq k} \prod_j i(X_j)
@@ -471,7 +471,7 @@ in $C$. The claim follows now with the above result that $L \circ \tau_{\leq n} 
 
 #### Postnikov tower
 
-By the fact that the truncation functor $\tau_{\leq n}$ is a [[left adjoint]] one obtains canonical morphisms
+By the fact that the truncation functor $\tau_{\leq n}$ is a [[left adjoint]], one obtains canonical morphisms
 
 $$
   \tau_{\leq n}A  \to A
@@ -484,7 +484,7 @@ $$
   \,.
 $$
 
-For any $A \in C$ the sequence
+For any $A \in C$, the sequence
 
 $$
   \cdots
@@ -511,7 +511,7 @@ An object $A$ in the [[(∞,1)-topos]] [[∞Grpd]] is $n$-truncated precisely if
 
 =--
 
-This simple relation between $n$-truncation and categorical homotopy groups is almost, but not exactly true in an arbitrary [[(∞,1)-topos]].
+This simple relation between $n$-truncation and categorical homotopy groups is almost, but not exactly, true in an arbitrary [[(∞,1)-topos]].
 
 +-- {: .num_prop}
 ###### Proposition
@@ -535,7 +535,7 @@ If $A \in \mathbf{H}$ is truncated at all (for any value), then it is $n$-trunca
 
 =--
 
-**Notice.** If $A$ on the other hand is not truncated at all, then all its homotopy groups may be trivial and $A$ may still not be equivalent to the [[terminal object]]. This means that [[Whitehead's theorem]] may fail in a general [[(∞,1)-topos]] for untruncated objects. It holds, however, in [[hypercomplete (∞,1)-topos]]es.
+**Notice.** If $A$, on the other hand, is not truncated at all, then all its homotopy groups may be trivial, and $A$ may still not be equivalent to the [[terminal object]]. This means that [[Whitehead's theorem]] may fail in a general [[(∞,1)-topos]] for untruncated objects. It holds, however, in [[hypercomplete (∞,1)-topos]]es.
 
 
 ## Examples
@@ -589,7 +589,7 @@ $$
 $$
 
 hence $\pi_1(F_{y}) = *$ for all points $y$ in the essential image of $f$. 
-For $y$ not in the essential image we have $F_y \simeq \emptyset$. In either case it follows that $F$ is 0-truncated.
+For $y$ not in the essential image we have $F_y \simeq \emptyset$. In either case, it follows that $F$ is 0-truncated.
 
 By def. \ref{nTruncatedMorphism} this is the defining condition for $f$ to be 0-truncated.
 
@@ -609,7 +609,7 @@ and write $[C^{op}, sSet]_{proj,loc}$ for the local projective [[model structure
 +-- {: .num_prop}
 ###### Proposition
 
-Let $f : X \to Y$ be a morphism of stacks which has a presentation by a degreewise [[faithful functor]] that, under the [[nerve]], goes between fibrant [[simplicial presheaves]].
+Let $f : X \to Y$ be a morphism of stacks that has a presentation by a degreewise [[faithful functor]] that, under the [[nerve]], goes between fibrant [[simplicial presheaves]].
 
 Then $f$ is 0-truncated as a morphism in $Sh_{(\infty,1)}(C)$.
 
@@ -618,7 +618,7 @@ Then $f$ is 0-truncated as a morphism in $Sh_{(\infty,1)}(C)$.
 +-- {: .proof}
 ###### Proof
 
-We need to check that for any $\infty$-stack $A$ the morphism 
+We need to check that for any $\infty$-stack $A$, the morphism 
 $Sh_\infty(A,f)$ is 0-truncated in [[∞Grpd]]. We may choose a cofibrant
 model for $A$ in $[C^{op}, sSet]_{proj,loc}$ and by assumption that
 $X$ and $Y$ is fibrant we have that the ordinary hom of simplicial presheaves
@@ -632,7 +632,7 @@ prop. \ref{TruncatedFunctorsOfGroupoids}.
 
 ### In $\infty Grpd$ and in $Top$ {#InInfGrpd}
 
-An object in [[∞Grpd]] is $n$-truncated precisely if it is an [[n-groupoid]]. To some extent this is so by definition. Equivalently, an object in [[Top]] is $n$-truncated if it is (in the equivalence class of) a [[homotopy n-type]].
+An object in [[∞Grpd]] is $n$-truncated precisely if it is an [[n-groupoid]]. To some extent, this is so by definition. Equivalently, an object in [[Top]] is $n$-truncated if it is (in the equivalence class of) a [[homotopy n-type]].
 
 So we have for $n \in \mathbb{N}$ a [[reflective sub-(∞,1)-category]]
 
@@ -696,7 +696,7 @@ Moreover, by the fact discussed at <a href="http://ncatlab.org/nlab/show/adjoint
 ###### Example
 
 In ordinary [[category theory]] we have that a morphism is a
-[[monomorphism]] (as discussed there), precisely if its [[diagonal]] is an [[isomorphism]]. Embedded into [[(∞,1)-category]] this becomes 
+[[monomorphism]] (as discussed there), precisely if its [[diagonal]] is an [[isomorphism]]. Embedded into [[(∞,1)-category]], this becomes 
 the special case of prop. \ref{DiagonalCharacterization}
 for $n = 0$: a morphism is (-1)-truncated 
 (hence a [[monomorphism in an (∞,1)-category]]), precisely
@@ -720,7 +720,7 @@ $$
 
 is an $(n-1)$-truncated morphism, and precisely if it is $(n-1)$-truncated is $X$ $n$-truncated.
 
-In particular, the diaginal is a [[monomorphism in an (∞,1)-category]], 
+In particular, the diagonal is a [[monomorphism in an (∞,1)-category]], 
 hence (-1)-truncated, precisely if $X$ is $0$-truncated (an [[h-set]]). 
 
 =--
