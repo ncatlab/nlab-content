@@ -45,13 +45,16 @@ Original articles:
 
 * {#John87} Sajeev John, *Strong localization of photons in certain disordered dielectric superlattices* Phys. Rev. Lett. **58** 2486 (1987) &lbrack;[doi:10.1103/PhysRevLett.58.2486](https://doi.org/10.1103/PhysRevLett.58.2486)&rbrack;
 
-Further early articles:
+Further articles:
 
 * Thomas F. Krauss, Richard M. De La Rue,  Stuart Brand, *Two-dimensional photonic-bandgap structures operating at near-infrared wavelengths*, Nature **383** (1996) 699–702 &lbrack;[doi:10.1038/383699a0](https://doi.org/10.1038/383699a0)&rbrack;
 
 * {#BenistyEtAl99} H. Benisty et al., *Optical and confinement properties of two-dimensional photonic crystals*, Journal of Lightwave Technology **17** 11 (1999) 2063-2077 &lbrack;[doi:10.1109/50.802996](https://doi.org/10.1109/50.802996)&rbrack;
 
 * D. N. Chigrin & C. M. Sotomayor Torres, *Periodic thin-film interference filters as one-dimensional photonic crystals*, Optics and Spectroscopy **91** (2001) 484–489 &lbrack;[doi:10.1134/1.1405232](https://doi.org/10.1134/1.1405232)&rbrack;
+
+* [[Duncan Haldane]], S. Raghu, *Possible Realization of Directional Optical Waveguides in Photonic Crystals with Broken Time-Reversal Symmetry*, Phys. Rev. Lett. **100** (2008) 013904 &lbrack;[doi:10.1103/PhysRevLett.100.013904](https://doi.org/10.1103/PhysRevLett.100.013904)&rbrack;
+
 
 Early history:
 
@@ -127,4 +130,3 @@ Photonic analog of [[nodal lines]]:
 [[!redirects photonic topological semimetal]]
 [[!redirects photonic topological semimetals]]
 
-[[!redirects topological photonics]]
