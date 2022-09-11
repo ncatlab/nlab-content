@@ -58,6 +58,10 @@ Introduction and review:
 
 * [[Eric C. Rowell]], *Braids, Motions and Topological Quantum Computing* &lbrack;[arXiv:2208.11762](https://arxiv.org/abs/2208.11762)&rbrack;
 
+Realization of [[Fibonacci anyons]] on [[quasicrystal]]-states:
+
+* Marcelo Amaral, [[David Chester]], Fang Fang, Klee Irwin, *Exploiting Anyonic Behavior of Quasicrystals for Topological Quantum Computing*, Symmetry **14** 9 (2022) 1780 &lbrack;[arXiv:2207.08928](https://arxiv.org/abs/2207.08928), [doi:10.3390/sym14091780](https://doi.org/10.3390/sym14091780)&rbrack;
+
 Realization on [[supersymmetry|supersymmetric]] [[spin chains]]:
 
 * Indrajit Jana, Filippo Montorsi, Pramod Padmanabhan, Diego Trancanelli, *Topological Quantum Computation on Supersymmetric Spin Chains* $[$[arXiv:2209.03822](https://arxiv.org/abs/2209.03822)$]$
