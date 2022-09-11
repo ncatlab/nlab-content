@@ -19,10 +19,9 @@ The subject of free Lie algebras is combinatorially rich with lots of open probl
 * [[N. Bourbaki]], _Lie groups and Lie algebras_, Chap. II: Free Lie Algebras
 * Christophe Reutenauer, _Free Lie algebras_, Oxford Univeristy Press 1993
 
-* C. Reutanauer, _Free Lie algebras_, Handbook of Algebra, vol. 3, 2003, 887-903, <a href="http://dx.doi.org/10.1016/S1570-7954(03)80075-X">doi</a>
+* [[C. Reutenauer]], _Free Lie algebras_, Handbook of Algebra, vol. 3, 2003, 887-903, <a href="http://dx.doi.org/10.1016/S1570-7954(03)80075-X">doi</a>
 
-
-* C. Reutanauer, _Applications of a noncommutative jacobian matrix_, Journal of Pure and Applied Algebra __77__, n. 2, 1992, p. 169-181, <a href="http://dx.doi.org/10.1016/0022-4049(92)90083-R">doi</a>
+* [[C. Reutenauer]], _Applications of a noncommutative jacobian matrix_, Journal of Pure and Applied Algebra __77__, n. 2, 1992, p. 169-181, <a href="http://dx.doi.org/10.1016/0022-4049(92)90083-R">doi</a>
  
 * wikipedia: [free Lie algebra](http://en.wikipedia.org/wiki/Free_Lie_algebra)
 
@@ -40,6 +39,7 @@ Lie series_, [pdf](www.ehu.es/ccwmuura/research/MS111rev.pdf)
 * F. Chapoton, _Free pre-Lie algebras are free as Lie algebras_, 
 [math.RA/0704.2153](http://arxiv.org/abs/math/0704.2153), Bulletin Canadien de Mathe'matiques
 
+category: algebra
 
 [[!redirects free Lie algebra]]
 [[!redirects free Lie algebras]]
