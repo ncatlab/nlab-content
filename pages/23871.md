@@ -70,7 +70,6 @@ Discussion of Fibonacci anyons:
 ### Experimental realization
 
 
-
 #### (Non-)Observation of Majorana zero modes
 
 The general strategy of realizing [[Majorana zero modes]] in supercondocuting/semiconducting nanowires is due to
@@ -124,6 +123,13 @@ See also:
 * {#Frolov21} [[Sergey M. Frolov]], *So, You Think You Discovered a New State of Matter?*, Physics **14** 68 (2021) &lbrack;[physics.aps:v14/68](https://physics.aps.org/articles/v14/68)&rbrack;
 
 * [[Sergey M. Frolov]], *Quantum computing’s reproducibility crisis: Majorana fermions*, Nature **592** (2021) 350-352 &lbrack;[doi:10.1038/d41586-021-00954-8](https://doi.org/10.1038/d41586-021-00954-8)&rbrack;
+
+#### Other
+
+Proposal to realize [[Fibonacci anyons]] on [[quasicrystal]]-states:
+
+* Marcelo Amaral, [[David Chester]], Fang Fang, Klee Irwin, *Exploiting Anyonic Behavior of Quasicrystals for Topological Quantum Computing*, Symmetry **14** 9 (2022) 1780 &lbrack;[arXiv:2207.08928](https://arxiv.org/abs/2207.08928), [doi:10.3390/sym14091780](https://doi.org/10.3390/sym14091780)&rbrack;
+
 
 \linebreak
 
