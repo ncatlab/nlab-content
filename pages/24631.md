@@ -51,6 +51,7 @@ Review of phononic crystals:
 
 * {#LiuChenXu20} Yizhou Liu, Xiaobin Chen, Yong Xu, *Topological Phononics: From Fundamental Models to Real Materials*, Advanced Functional Materials **30** 8 (2020) &lbrack;[doi:10.1002/adfm.201904784](https://doi.org/10.1002/adfm.201904784)&rbrack;
 
+
 Further resources:
 
 * *[Phononics 2017](https://phononics2017.phononics.org/conf/index.php/phononics/2017/index.html)* -- The 4th International Conference on Phononic Crystals/Metamaterials, Phonon Transport/Coupling and Topological Phononics (2017)
@@ -70,6 +71,10 @@ On [[topological phononics]]:
 * {#LiEtAl21} J. Li, J. Liu, S.A. Baronett, *Computation and data driven discovery of topological phononic materials*, Nat Commun **12** 1204 (2021) &lbrack;[doi:10.1038/s41467-021-21293-2](https://doi.org/10.1038/s41467-021-21293-2)&rbrack;
 
 * {#LiuChenXu20} Yan Du, Weiguo Wu, Wei Chen, Yongshui Lin, Qingjia Chi: *Control the structure to optimize the performance of sound absorption of acoustic metamaterial: A review*, AIP Advances **11** 060701 (2021) &lbrack;[doi:10.1063/5.0042834](https://doi.org/10.1063/5.0042834)&rbrack;
+
+The phononic ananlog of [[topological insulators]]/[[quantum Hall effect]]:
+
+* Roman Süsstrunk, Sebastian D. Huber, *Observation of phononic helical edge states in a mechanical 'topological insulator'*, Science **349** 47 (2015) &lbrack;[arXiv:1503.06808](https://arxiv.org/abs/1503.06808)&rbrack;
 
 
 [[!redirects phononic crystals]]
