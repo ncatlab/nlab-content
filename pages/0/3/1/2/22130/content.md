@@ -16,9 +16,11 @@
 
 ## Idea
 
-The field of _topological photonics_ deals with [[electromagnetism|electromagnetic]] phenomena (specifically the propagation of [[light]] in suitable materials) which mimic the behaviour of [[electrons]] in [[topological insulator]] materials.
+The field of _topological photonics_ deals with [[electromagnetism|electromagnetic]] phenomena (specifically the propagation of [[light]] in suitable materials) which mimic the behaviour of [[electrons]] in [[topological insulator]] materials: [[photonic crystals]].
 
 ## Related concepts
+
+* [[photonic crystal]]
 
 * [[topological insulator]]
 
@@ -44,7 +46,7 @@ First realizations:
 
 Review:
 
-* Ling Lu, John D. Joannopoulos, Marin Soljačić, _Topological photonics_, Nature Photonics volume 8, pages 821–829 (2014) ([nphoton:2014.248](https://www.nature.com/articles/nphoton.2014.248))
+* Ling Lu, John D. Joannopoulos, Marin Soljačić, _Topological photonics_, Nature Photonics **8** (2014) 821–829 &lbrack;[nphoton:2014.248](https://www.nature.com/articles/nphoton.2014.248)&rbrack;
 
 
 * Tomoki Ozawa, et al., _Topological photonics_, Rev. Mod. Phys. 91, 015006 2019 ([doi:10.1103/RevModPhys.91.015006](https://doi.org/10.1103/RevModPhys.91.015006))
