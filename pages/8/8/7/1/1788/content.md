@@ -5,7 +5,7 @@ play around with the editing functionality
 
 ## Definition
 
-\begin{defn} \label{defn_anchor} {#html_anchor} The **sandbox** is a box full of sand.
+\begin{defn}(Title of defn). \label{defn_anchor} {#html_anchor} The **sandbox** is a box full of sand.
 \end{defn}
 
 One usually defines waterboxes analogous to  [[Sandbox#defn_anchor|this Definition]] (which could be on another page).
