@@ -19,7 +19,7 @@ This page is currently under major revision. See the nForum's discussion post on
 
 ## Definition
 
-A **category with an atlas** is a category $C$ with a set $G$ and an essentially surjective functor $F:G \to C$. 
+A **category with an atlas** is a [[category]] $C$ equipped with with a [[set]] $G$ and an [[essentially surjective functor]] $F:G \to C$, where the set $G$ is considered as a [[discrete category]].
 
 ## Idea
 
