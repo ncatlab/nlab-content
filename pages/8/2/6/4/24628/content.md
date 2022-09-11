@@ -53,7 +53,6 @@ Further articles:
 
 * D. N. Chigrin & C. M. Sotomayor Torres, *Periodic thin-film interference filters as one-dimensional photonic crystals*, Optics and Spectroscopy **91** (2001) 484–489 &lbrack;[doi:10.1134/1.1405232](https://doi.org/10.1134/1.1405232)&rbrack;
 
-* [[Duncan Haldane]], S. Raghu, *Possible Realization of Directional Optical Waveguides in Photonic Crystals with Broken Time-Reversal Symmetry*, Phys. Rev. Lett. **100** (2008) 013904 &lbrack;[doi:10.1103/PhysRevLett.100.013904](https://doi.org/10.1103/PhysRevLett.100.013904)&rbrack;
 
 
 Early history:
@@ -83,6 +82,11 @@ See also:
 
 ### Topological photonics
  {#ReferencesTopologicalPhotonics}
+
+Original idea of [[topological photonics]]:
+
+* [[Duncan Haldane]], S. Raghu, *Possible Realization of Directional Optical Waveguides in Photonic Crystals with Broken Time-Reversal Symmetry*, Phys. Rev. Lett. **100** (2008) 013904 &lbrack;[doi:10.1103/PhysRevLett.100.013904](https://doi.org/10.1103/PhysRevLett.100.013904)&rbrack;
+
 
 #### General
 
