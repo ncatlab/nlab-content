@@ -20,7 +20,7 @@
 
 ## Idea
 
-A *photonic crystal* ([Benisty et a. 1999](#BenistyEtAl99), going back to [Yablonovitch 1987](#Yablonovitch87), [John 1987](#John87)) (often: a *waveguide array*) is a material with periodic dielectric structure/refractive index in which [[light waves]] behave like [[Bloch waves]] of [[electrons]] in an actual [[crystal]], such as in that they form [[energy bands]] separated by band gaps ([Yablonovitch 1987](#Yablonovitch87)). (Of course, the underlying material may itself consist of actual [[crystal|crystalline]] structures, such as [[graphene]], see e.g. [BBKKL10](#BBKKL10)).
+A *photonic crystal* ([Benisty et a. 1999](#BenistyEtAl99), going back to [Yablonovitch 1987](#Yablonovitch87), [John 1987](#John87)) (often: a *waveguide array*, see [Trompeter et al. 2003](#TrompeterEtAl03)) is a material with periodic dielectric structure/refractive index in which [[light waves]] behave like [[Bloch waves]] of [[electrons]] in an actual [[crystal]], such as in that they form [[energy bands]] separated by band gaps ([Yablonovitch 1987](#Yablonovitch87)). (Of course, the underlying material may itself consist of actual [[crystal|crystalline]] structures, such as [[graphene]], see e.g. [BBKKL10](#BBKKL10)).
 
 By suitably engineering photonic crystals they may emulate various phenomena seen elsewhere in nature (for instance transport properties analogous to those in [[semiconductors]]) or not seen anywhere else, whence one also speaks of "[[metamaterial|meta-materials]]". 
 
@@ -62,6 +62,11 @@ Early history:
 Review of experimental realizations:
 
 * Steven G. Johnson, *Photonic Crystals: Periodic Surprises in Electromagnetism*, lecture notes (2003) &lbrack;[webpage](http://ab-initio.mit.edu/photons/tutorial/), [pdf](http://ab-initio.mit.edu/photons/tutorial/L3-fab.pdf)&rbrack;
+
+and for waveguide arrays:
+
+* {#TrompeterEtAl03} Henrike Trompeter et al., *Tailoring guided modes in waveguide arrays*, **11** 25 (2003) 3404-3411 &lbrack;[doi:10.1364/OE.11.003404](https://doi.org/10.1364/OE.11.003404)&rbrack;
+
 
 Further review:
 
