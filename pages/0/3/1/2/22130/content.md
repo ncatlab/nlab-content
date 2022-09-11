@@ -32,6 +32,8 @@ The field of _topological photonics_ deals with [[electromagnetism|electromagnet
 
 ## References
 
+(For more see the references at *[[photonic crystal]]*.)
+
 Original proposal:
 
 * [[Duncan Haldane]], S. Raghu, *Possible Realization of Directional Optical Waveguides in Photonic Crystals with Broken Time-Reversal Symmetry*, Phys. Rev. Lett. **100** (2008) 013904 &lbrack;[doi:10.1103/PhysRevLett.100.013904](https://doi.org/10.1103/PhysRevLett.100.013904)&rbrack;
