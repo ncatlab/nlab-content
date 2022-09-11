@@ -71,6 +71,11 @@ Textbook account:
 
 * John D. Joannopoulos, Steven G. Johnson, Joshua N. Winn, and Robert D. Meade, *Photonic Crystals: Molding the Flow of Light* &lbrack;[webpage](http://ab-initio.mit.edu/book/), [ISBN:9780691124568](https://press.princeton.edu/books/hardcover/9780691124568/photonic-crystals)&rbrack;
 
+Description of photonic crystals by a [[non-linear Schrödinger equation]]:
+
+* A. Pankov, *Periodic Nonlinear Schrödinger Equation with Application to Photonic Crystals*,  Milan J. Math. **73** (2005) 259–287 &lbrack;[doi:10.1007/s00032-005-0047-8](https://doi.org/10.1007/s00032-005-0047-8)&rbrack;
+
+
 Realization with [[graphene]]:
 
 * {#BBKKL10} Oleg L. Berman, Vladimir S. Boyko, Roman Ya. Kezerashvili, Anton A. Kolesnikov, Yurii E. Lozovik, *Graphene-based photonic crystal*, Physics Letters A **374** (2010) 4784-4786 &lbrack;[arXiv:1012.4143](https://arxiv.org/abs/1012.4143), [doi:10.1016/j.physleta.2010.09.064](https://doi.org/10.1016/j.physleta.2010.09.064)&rbrack;
@@ -88,11 +93,15 @@ Original idea of [[topological photonics]]:
 * [[Duncan Haldane]], S. Raghu, *Possible Realization of Directional Optical Waveguides in Photonic Crystals with Broken Time-Reversal Symmetry*, Phys. Rev. Lett. **100** (2008) 013904 &lbrack;[doi:10.1103/PhysRevLett.100.013904](https://doi.org/10.1103/PhysRevLett.100.013904)&rbrack;
 
 
-#### General
+#### Solitons
+ {#ReferencesSolitons}
 
 On [[soliton|solitonic]] excitations in waveguide arrays:
 
 * Nikolaos K. Efremidis  et al., *Spatial photonics in nonlinear waveguide arrays*, Optics Express **13** 6 (2005) 1780-1796 &lbrack;[doi:10.1364/OPEX.13.001780](https://doi.org/10.1364/OPEX.13.001780)&rbrack;
+
+* Thawatchai Mayteevarunyoo, Boris A. Malomed, *Solitons in one-dimensional photonic crystals*, Journal of the Optical Society of America B **25** 11 (2008) 1854-1863 &lbrack;[doi:10.1364/JOSAB.25.001854](https://doi.org/10.1364/JOSAB.25.001854)&rbrack;
+
 
 * [[Amaria Javed]], Alaa Shaheen U. Al Khawaja, *Amplifying optical signals with discrete solitons in waveguide arrays*, Physics Letters A **384** 26 (2020) 126654 &lbrack;[doi:10.1016/j.physleta.2020.126654](https://doi.org/10.1016/j.physleta.2020.126654)&rbrack;
 
@@ -111,6 +120,16 @@ On photonic analogs of [[topological semimetals]] ([[photonic topological semime
 Photonic analog of [[nodal lines]]:
 
 * Shuang Zhang et al., *Experimental observation of photonic nodal line degeneracies in metacrystals*, Nature Communications **9** 950 (2018) &lbrack;[doi:10.1038/s41467-018-03407-5](https://doi.org/10.1038/s41467-018-03407-5)&rbrack;
+
+#### Topological lasers
+
+On [[topological lasers]]:
+
+* Babak Bahari, Abdoulaye Ndao, Felipe Vallini, Abdelkrim El Amili, Yeshaiahu Fainman, Boubacar Kanté, *Nonreciprocal lasing in topological cavities of arbitrary geometries*, Science
+ **358** 6363 (2017) 636-640 &lbrack;[doi:10.1126/science.aao4551](https://www.science.org/doi/10.1126/science.aao4551), [pdf](https://triontech.com/wp-content/uploads/2017/12/grandcentr_5a33e9da82b1d2045611513355242.pdf)&rbrack;
+
+* Gal Harari, Miguel A. Bandres, Yaakov Lumer, Mikael C. Rechtsman, Y. D. Chong, Mercedeh Khajavikhan, Demetrios N. Christodoulides, Mordechai Segev, *Topological insulator laser: Theory*, Science **359** 6 (2018) &lbrack;[doi:10.1126/science.aar4003](https://doi.org/10.1126/science.aar4003), [pdf](https://dr.ntu.edu.sg/bitstream/10356/90137/1/Topological%20insulator%20laser-Theory.pdf)&rbrack;
+
 
 [[!include anyonic braiding in momentum space -- references]]
 
@@ -133,4 +152,7 @@ Photonic analog of [[nodal lines]]:
 
 [[!redirects photonic topological semimetal]]
 [[!redirects photonic topological semimetals]]
+
+[[!redirects topological laser]]
+[[!redirects topological lasers]]
 
