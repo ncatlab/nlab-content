@@ -34,7 +34,7 @@ The field of _topological photonics_ deals with [[electromagnetism|electromagnet
 
 Original proposal:
 
-* F. D. M. Haldane, S. Raghu, _Possible realization of directional optical waveguides in photonic crystals with broken time-reversal symmetry_, Phys. Rev. Lett., vol. 100, no. 1, p. 013904, 2008 ([doi:10.1103/physrevlett.100.013904](https://doi.org/10.1103/physrevlett.100.013904))
+* [[Duncan Haldane]], S. Raghu, *Possible Realization of Directional Optical Waveguides in Photonic Crystals with Broken Time-Reversal Symmetry*, Phys. Rev. Lett. **100** (2008) 013904 &lbrack;[doi:10.1103/PhysRevLett.100.013904](https://doi.org/10.1103/PhysRevLett.100.013904)&rbrack;
 
 * Z. Wang, Y. D. Chong, J. D. Joannopoulos, M. Soljačić, _Reflection-free one-way edge modes in a gyromagnetic photonic crystal_, Phys. Rev. Lett., vol. 100, no. 1, p. 013905, 2008 ([doi:10.1103/physrevlett.100.013905](https://doi.org/10.1103/physrevlett.100.013905))
 
