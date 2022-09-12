@@ -85,7 +85,7 @@ On [[non-perturbative effects]] in graphene:
 
 * Juan Angel Casimiro Olivares, Ana Julia Mizher, Alfredo Raya, *Non-perturbative field theoretical aspects of graphene and related systems* &lbrack;[arXi:2109.10420](https://arxiv.org/abs/2109.10420)&rbrack;
 
-Discussion via [[Ads-CFT in condensed matter physics]]:
+Discussion via [[AdS-CFT in condensed matter physics]]:
 
 * Jeong-Won Seo, Taewon Yuk, Young-Kwon Han, Sang-Jin Sin, *ABC-stacked multilayer graphene in holography* &lbrack;[arXiv:2208.14642](https://arxiv.org/abs/2208.14642)&rbrack;
 
@@ -104,7 +104,7 @@ On "fictitious" contributions to the [[Berry connection]] on the [[Brillouin tor
 
 Moving the nodal points in graphene(-variants) by application of external [[strain]] (see also further discussion of external manipulation by strain [here](topological+insulator#ReferencesOnExternalManipulationViaStrain), and see the [references on momentum-space braiding](braid+group+statistics#ReferencesAnyonicBraidingInMomentumSpace) of band nodes):
 
-* Cui-Lian Lia, *New position of Dirac points in the strained graphene reciprocal lattice*, AIP Advances **4** (2014) 087119 &lbrack;[doi:10.1063/1.4893239](https://doi.org/10.1063/1.4893239)&rbrack
+* Cui-Lian Lia, *New position of Dirac points in the strained graphene reciprocal lattice*, AIP Advances **4** (2014) 087119 &lbrack;[doi:10.1063/1.4893239](https://doi.org/10.1063/1.4893239)&rbrack;
 
 * Zhenzhu Li, Zhongfan Liu, Zhirong Liu: *Movement of Dirac points and band gaps in graphyne under rotating strain*, Nano Research **10** (2017) 2005–2020 &lbrack;[doi:10.1007/s12274-016-1388-z](https://doi.org/10.1007/s12274-016-1388-z)&rbrack;
 
