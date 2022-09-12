@@ -110,7 +110,7 @@ Further, if $f: A \to C$ is *also* the inclusion fo a subset, so that $A$ and $B
 Alternatively, we can view the map $f: A \to C$ as a collection of sets indexed by elements of $C$, where the set indexed by $c \in C$ is given by $A_c = f^{-1}(c)$. Under this interpretation, pulling $f$ back along $g$ gives a collection of sets indexed by elements of $B$, where the set indexed by $b \in B$ is given b $A_{g(b)}$.
 
 #### General limits
-Given a general [[Set]]-valued functor $F : D \to Set$, if the limit $lim F$ exists, then by definition, for any set $A$, a function $f: A \to lim F$ is equivalent to a compatible family of maps $f_d: A \to F(d)$ for each $d \in Obj(d)$.
+Given a general [[Set]]-valued functor $F : D \to Set$, if the limit $lim F$ exists, then by definition, for any set $A$, a function $f: A \to lim F$ is equivalent to a compatible family of maps $f_d: A \to F(d)$ for each $d \in Obj(D)$.
 
 In particular, since an element of a set $X$ bijects with maps $1 \to X$ from the singleton $1 = \{\emptyset\}$, we have
 $$
