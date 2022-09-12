@@ -18,7 +18,7 @@
 
 ## Idea
 
-In [[topology]], a not necessarily [[continuous function|continuous]] [[function]] $ \colon X \to Y$ between [[Hausdorff space|Hausdorff spaces]] is _dominant_, or _dense_, in the sense that the [[image]] of $f$ is a [[dense subspace]] of $Y$, precisely if every [[continuous function]]  $g \colon Y \to Z$ to any  [[Hausdorff space]] $Z$ is uniquely determined by the [[composition]] $g \circ f$.
+In [[topology]], a not necessarily [[continuous function|continuous]] [[function]] $f \colon X \to Y$ between [[Hausdorff space|Hausdorff spaces]] is _dominant_, or _dense_, in the sense that the [[image]] of $f$ is a [[dense subspace]] of $Y$, precisely if every [[continuous function]]  $g \colon Y \to Z$ to any  [[Hausdorff space]] $Z$ is uniquely determined by the [[composition]] $g \circ f$.
 
 In [[category theory]], the concept of a **dense functor** is a generalization of this concept to [[functors]]. 
 
