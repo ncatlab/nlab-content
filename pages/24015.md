@@ -19,6 +19,7 @@ On non-trivial [[braid group statistics|braiding]] of modal points in the [[Bril
 
 > Here we report that Weyl points in three-dimensional (3D) systems with $\mathcal{C}_2\mathcal{T}$ symmetry carry non-Abelian topological charges. These charges are transformed via non-trivial phase factors that arise upon braiding the nodes inside the reciprocal momentum space. 
 
+
 Braiding of Dirac points in twisted bilayer [[graphene]]:
 
 * Jian Kang, Oskar Vafek, *Non-Abelian Dirac node braiding and near-degeneracy of correlated phases at odd integer filling in magic angle twisted bilayer graphene*, Phys. Rev. B **102** (2020) 035161 $[$[arXiv:2002.10360](https://arxiv.org/abs/2002.10360), [doi:10.1103/PhysRevB.102.035161](https://doi.org/10.1103/PhysRevB.102.035161)$]$
