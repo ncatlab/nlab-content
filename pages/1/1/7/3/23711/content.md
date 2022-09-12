@@ -158,6 +158,10 @@ Related discussion of Dirac mass terms is in:
 
 * {#FreedHopkins21} [[Daniel S. Freed]], [[Michael J. Hopkins]], *Reflection positivity and invertible topological phases*, Geom. Topol. **25** (2021) 1165-1330 $[$[arXiv:1604.06527](https://arxiv.org/abs/1604.06527), [doi:10.2140/gt.2021.25.1165](https://doi.org/10.2140/gt.2021.25.1165)$]$
 
+Lists of actual semi-metals:
+
+* Md. Rakibul Karim Akand. *Catalog of magnetic topological semimetals*, : AIP Advances **10** 095222 (2020) &lbrack;[doi:10.1063/5.0020096](https://doi.org/10.1063/5.0020096)&rbrack;
+
 
 Some of the above material is taken from 
 
