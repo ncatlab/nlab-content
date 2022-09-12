@@ -146,6 +146,13 @@ Photonic analog of [[nodal lines]]:
 
 * Shuang Zhang et al., *Experimental observation of photonic nodal line degeneracies in metacrystals*, Nature Communications **9** 950 (2018) &lbrack;[doi:10.1038/s41467-018-03407-5](https://doi.org/10.1038/s41467-018-03407-5)&rbrack;
 
+Movement of [[nodal points]] in photonic crystals:
+
+* Yong-Heng Lu et al., *Observing movement of Dirac cones from single-photon dynamics*, Phys. Rev. B **103** 064304 (2021) &lbrack;[doi:10.1103/PhysRevB.103.064304](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.064304)&rbrack;
+
+* María Blanco de Paz, Alejandro González-Tudela, Paloma Arroyo Huidobro, *Manipulating Generalized Dirac Cones In Quantum Metasurfaces* &lbrack;[arXiv:2203.11195](https://arxiv.org/abs/2203.11195)&rbrack;
+
+
 #### Topological lasers
 
 On [[topological lasers]]:
