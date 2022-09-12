@@ -130,7 +130,7 @@ $$
   dvol(g)
 $$
 
-which is the Nambu goto action with "[[cosmological constant]]" $(p-1)$.
+which is the Polyakov action with "[[cosmological constant]]" $(p-1)$.
 
 (So the case where this cosmological constant correction disappears is $p = 1$ corresponding to the [[string]].)
 
