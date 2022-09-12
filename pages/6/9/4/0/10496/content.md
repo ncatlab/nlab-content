@@ -263,6 +263,13 @@ See also:
 * E. Keski-Vakkuri and [[Xiao-Gang Wen]], [Ground state structure of hierarchical QH states on torus and modular transformation](http://dao.mit.edu/~wen/pub/kw.pdf)
 Int. J. Mod. Phys. B7, 4227 (1993). 
 
+### Topologically ordered materials
+
+On [[semimetals]] with degenerate ground states:
+
+* Huaiming Guo, Yongfei Jia, *Interaction-driven phases in a Dirac Semimetal: Exact Diagonalization Results*, J. Phys.: Condens. Matter **26** 475601 (2014) &lbrack;[arXiv:1402.4274](https://arxiv.org/abs/1402.4274), [doi:10.1088/0953-8984/26/47/475601](https://doi.org/10.1088/0953-8984/26/47/475601)&rbrack;
+
+
 ### Other articles
 
 * Davide Gaiotto, Anton Kapustin, _Spin TQFTs and fermionic phases of matter_, [arxiv/1505.05856](http://arxiv.org/abs/1505.05856)
