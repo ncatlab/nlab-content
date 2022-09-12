@@ -78,17 +78,26 @@ Account with focus on [[topological phases of matter]] ([[topological insulators
 
 * [[Jérôme Cayssol]], [[Jean-Noël Fuchs]], *Topological and geometrical aspects of band theory*, J. Phys. Mater. **4** (2021) 034007 ([arXiv:2012.11941](https://arxiv.org/abs/2012.11941), [doi:10.1088/2515-7639/abf0b5](https://doi.org/10.1088/2515-7639/abf0b5))
 
-
-
 See also:
 
 * Wikipedia, *[Electronic band structure](https://en.wikipedia.org/wiki/Electronic_band_structure)*
+
+Discussion of bands of [[metamaterials]] over [[hyperbolic spaces]] by a hyperbolic variant of [[Bloch's theorem]]:
+
+* Joseph Maciejko, Steven Rayan, *Hyperbolic band theory*, Science Advances **7** 36 (2021) &lbrack;[doi:10.1126/sciadv.abe9170](https://doi.org/10.1126/sciadv.abe9170)&rbrack;
+
+* Adil Attar, Igor Boettcher, *Selberg trace formula in hyperbolic band theory*, Phys. Rev. E **106** 034114 (2022) &lbrack;[arXiv:2201.06587](https://arxiv.org/abs/2201.06587), [doi:10.1103/PhysRevE.106.034114](https://doi.org/10.1103/PhysRevE.106.034114)&rbrack;
+
+
 
 ### Examples
 
 The electronic band structure of [[graphene]] was predicted in
 
 * [[Philip Russel Wallace]], *The Band Theory of Graphite*, Phys. Rev. **71** (1947) 622 ([doi:10.1103/PhysRev.71.622](https://doi.org/10.1103/PhysRev.71.622))
+
+* Selberg trace formula in hyperbolic band theory
+Adil Attar, Igor Boettcher
 
 
 ### For interacting electrons
