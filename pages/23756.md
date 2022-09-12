@@ -52,9 +52,16 @@ In the context of [[topological phases of matter]]:
 
 * [[Jérôme Cayssol]], [[Jean-Noël Fuchs]], Section IV.B of: *Topological and geometrical aspects of band theory*, J. Phys. Mater. **4** (2021) 034007 ([arXiv:2012.11941](https://arxiv.org/abs/2012.11941), [doi:10.1088/2515-7639/abf0b5](https://doi.org/10.1088/2515-7639/abf0b5))
 
-See also
+See also:
 
 * Wikipedia, *[Bloch's theorem](https://en.wikipedia.org/wiki/Bloch%27s_theorem)*
+
+Variant for [[hyperbolic spaces]]:
+
+* Joseph Maciejko, Steven Rayan, *Hyperbolic band theory*, Science Advances **7** 36 (2021) &lbrack;[doi:10.1126/sciadv.abe9170](https://doi.org/10.1126/sciadv.abe9170)&rbrack;
+
+* Adil Attar, Igor Boettcher, *Selberg trace formula in hyperbolic band theory*, Phys. Rev. E **106** 034114 (2022) &lbrack;[arXiv:2201.06587](https://arxiv.org/abs/2201.06587), [doi:10.1103/PhysRevE.106.034114](https://doi.org/10.1103/PhysRevE.106.034114)&rbrack;
+
 
 
 ### For interacting electrons
