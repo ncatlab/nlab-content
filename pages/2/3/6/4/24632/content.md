@@ -10,6 +10,12 @@ Given a cyclic derivation $D$ a corresponding cyclic derivative $\delta:A\to A$ 
 [doi](https://doi.org/10.4171/JNCG/415)
 * Daniel Lopez-Aguayo, _Cyclic derivations, species realizations and potentials_, [pdf](https://revistas.unal.edu.co/index.php/recolma/article/view/84083/73220)
 
+A class of identities involving multiple zeta functions is described using cyclic derivations in
+
+* Michael E.Hoffman, Yasuo Ohno, _Relations of multiple zeta values and their algebraic expression_, J. Algebra __262__:2 (2003) 332-347 <a href="https://doi.org/10.1016/S0021-8693(03)00016-4">doi</a>
+
+
+
 category: algebra
 
 [[!redirects cyclic derivative]]
