@@ -30,7 +30,7 @@ In much the same way, there are *[[phononic crystals]]*.
 For instance, various aspects of [[topological phases of matter]] (such as 
 [[Berry phases]], see [Liu, Chen & Xu 2020](#LiuChenXu20); 
 or 
-[[phononic semimetals]], see [Li et al. 2022](#LiEtAl21)) have analogs realizations in phononic crystals ("topological phononics", see the references [below](#ReferencesTopologicalPhononics)). Notably  [[braiding]] of [[band nodes]] has been demonstrated in [[phononic crystals]] ([Peng, Bouhon, Monserrat & Slager 2022](#PBMS22)) and similarly in 
+[[phononic semimetals]], see [Li et al. 2022](#LiEtAl21)) have analogs realizations in phononic crystals ("topological phononics", see the references [below](#ReferencesTopologicalPhononics)). Notably  [[braiding]] of [[band nodes]] has been demonstrated in [[phononic crystals]] ([Peng, Bouhon, Monserrat & Slager 2022](#PBMS22), [Peng, Bouhon, Slager & Monserrat 2022](#PBSM22)) and similarly in 
 [[photonic semimetals]] ([Park, Gao, Zhang & Oh 2022](#ParkGaoZhangOh22)).
 
 
@@ -75,6 +75,13 @@ On [[topological phononics]]:
 The phononic ananlog of [[topological insulators]]/[[quantum Hall effect]]:
 
 * Roman Süsstrunk, Sebastian D. Huber, *Observation of phononic helical edge states in a mechanical 'topological insulator'*, Science **349** 47 (2015) &lbrack;[arXiv:1503.06808](https://arxiv.org/abs/1503.06808)&rbrack;
+
+
+
+[[!include anyonic braiding in momentum space -- references]]
+
+
+
 
 
 [[!redirects phononic crystals]]
