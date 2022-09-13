@@ -58,10 +58,13 @@ This construction induces an [[equivalence of categories]] $Disp(C) \to Cat/C$, 
 
 * An arbitrary displayed category $C\to Prof$ is a pseudofunctor if and only if $F:D\to C$ is a [[Conduché functor]], i.e. an exponentiable morphism in $Cat$.
 
-## The Grothendieck construction
-As mentioned above, there is a construction turning a normal lax functor $F:C \to Prof$ into a functor $\pi_F : \int F \to C$. Here we spell it out.
+### The construction, explicitly
+As mentioned above, there is a construction $\int$ turning a normal lax functor $F:C \to Prof$ into a functor $\pi_F : \int F \to C$. Here we spell it out.
 
-First, the category $\int_F$ is built as follows:
+But first, let us explictly remark how the opposite construction works. Using notation from [Benaboù's lectures](#Benabou), the normal lax functor $dP : C \to Prof$ associated to a functor $P:E \to C$ is obtained by 'taking fibers'. On objects, it maps $x:C$ to the category $P^{-1}x$ of objects and maps of $E$ mapping to $x$ and its identity arrow, respectively. On morphisms, it maps an arrow $f:x \to y$ to the profunctor $P^{-1}y^{op} \times P^{-1}x \to Set$ mapping a choice of objects $y'$ and $x'$ 'lifting' $y$ and $x$ respectively to the set of maps $f^\sharp : x'\to y'$ that project down to $f$, i.e.~the 'fiber over $f$' of the arrow part of $P$ (which is defined given two objects).
+
+#### The Grothendieck construction
+The category $\int F$ is built as follows:
 
 * objects are pairs $(x:C, x' : Fx)$
 
@@ -75,11 +78,55 @@ Finally, the functor $\pi_F$ simply discards the second component on objects and
 
 One can readily observe how this construction reduces to the usual [[Grothendieck construction]] when $F$ factors through $Cat$.
 
+##### On morphisms
+The above construction is functorial and turns 'morphisms of normal lax functors into $Prof$' into morphisms in $Cat/C$.
+To describe this, is useful to notice the category of normal lax functors into Prof is given by $Dbl_{normal,lax}^{vertical}(hC, Cat)$, where $hC$ is the casting of $C$, a category, as a double category whose vertical and 2-cells are all trivial.
+
+This category has as objects normal lax [[double functors]] $C \to Cat$, where $Cat$ is the [[proarrow equipment]] of categories, functors (in the vertical/tight direction), profunctors (in the horizontal/loose direction) and suitable natural transformations as 2-cells. The morphisms are then [[vertical natural transformations]] between them.
+
+Let's spell out the definition of one of these vertical natural transformations $\phi : F \Rightarrow G$. Its components are given by functors (i.e. vertical cells in $Cat$) $\phi_x : Fx \to Gx$, indexed by objects $x:C$, and squares
+
+\begin{centre}
+\begin{tikzcd}[ampersand replacement=\&,sep=scriptsize]
+	Fx \&\& Fy \\
+	\\
+	Gx \&\& Gy
+	\arrow["Ff", "\shortmid"{marking}, from=1-1, to=1-3]
+	\arrow["Gf"', "\shortmid"{marking}, from=3-1, to=3-3]
+	\arrow["{\phi_x}"', from=1-1, to=3-1]
+	\arrow["{\phi_y}", from=1-3, to=3-3]
+	\arrow["{\mathrm{st}^\phi}"{description}, shorten <=11pt, shorten >=11pt, Rightarrow, from=1-3, to=3-1]
+\end{tikzcd}
+\end{centre}
+
+indexed by morphisms $f:x\to y$ in $C$. These have, moreover, to satisfy various 'natural' conditions of compatibility with horizontal composition of squares in $Cat$ and so on.
+
+The equivalence $\int$ converts this data back to a commutative triangle
+\begin{centre}
+\begin{tikzcd}[ampersand replacement=\&,row sep=scriptsize]
+	{\int F} \&\& {\int G} \\
+	\& C
+	\arrow["{\pi_F}"', from=1-1, to=2-2]
+	\arrow["{\pi_G}", from=1-3, to=2-2]
+	\arrow["{\int \phi}", from=1-1, to=1-3]
+\end{tikzcd}
+\end{centre}
+
+The crucial thing to notice here is that, fundamentally, such a functor over $C$ is defined 'fiberwise', in the sense that, choosen an object $x:C$, $\int \phi$ has to restrict to a functor $\int\phi_x : \pi_F^{-1}x \to \pi_G^{-1}x$. But these categories are, by definition, $Fx$ and $Gx$, so that $\int \phi_x$ can be naturally defined to be $\phi_x$ itself.
+
+Now what's left to define is the action of $\int \phi$ on those arrows that cross fibers (in a sense, all the arrows except those that map to identities in $C$ -- or, put differently again, the above discussion pinned down the object part of $\int \phi$).
+
+Thus let $(f,f^\sharp):(x,x') \to (y,y')$ be a morphism in $\int F$. We know how to map $(x,x')$ and $(y,y')$ using $\phi_x$ and $\phi_y$ respectively, so that $\int \phi(f,f^\sharp)$ has to be an arrow $(x,\phi_x(x')) \to (y,\phi_y(y'))$.
+The exact arrow is picked by the last piece of data from the vertical transformation $\phi$, the 'strength' $\mathrm{st}^{\phi}$. In fact this is a natural transformation whose components are $\mathrm{st}^{\phi}_{x',y'} : Ff(x',y') \to Gf(\phi_x(x'),\phi_y(y'))$, which is exactly the data needed to define the arrow part of $\int \phi$.
+
+Functoriality of $\int \phi$ is a direct consequence of the properties required to $\phi$, which are spelled out at [[vertical natural transformation]].
+
+
 ## References
 
 The correspondence between categories over $C$ and [[normal lax functors]] $C\to Prof$ was observed by
 
-* Jean B&#233;nabou, *Distributors at work*, Notes by Thomas Streicher from lectures given at TU Darmstadt, 2000, [pdf](http://www.mathematik.tu-darmstadt.de/~streicher/FIBR/DiWo.pdf)
+* Jean B&#233;nabou, *Distributors at work*, Notes by Thomas Streicher from lectures given at TU Darmstadt, 2000, [pdf](http://www.mathematik.tu-darmstadt.de/~streicher/FIBR/DiWo.pdf) {#Benabou}
 
 The term "displayed category", and the applications to type theory, are due to:
 
