@@ -46,7 +46,9 @@ despite the fact that the composites $G' \circ F$ and $F'\circ G$ do not exist a
 
 Finally, we can also define vertical transformations between functors of (horizontally) [[virtual double categories]].
 
+## References
 
+* [[Robert Parè]], *Yoneda theory for double categories*, TAC, 2011 ([pdf](http://emis.library.cornell.edu/journals/TAC/volumes/25/17/25-17.pdf))
 
 [[!redirects horizontal transformation]]
 [[!redirects vertical transformations]]
