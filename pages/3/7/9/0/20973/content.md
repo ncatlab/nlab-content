@@ -16,5 +16,9 @@ On the exact [[gauge group]] of the [[standard model of particle physics]] (see 
 
 * {#Krasnov19} [[Kirill Krasnov]], _$SO(9)$ characterisation of the Standard Model gauge group_ ([arXiv:1912.11282](https://arxiv.org/abs/1912.11282))
 
+New perspective on the [[symmetry breaking]] of [[Spin(10)]]-[[GUT]] to the [[standard model of particle physics|standard model]] [[gauge group]]:
+
+* [[Kirill Krasnov]], *Geometry of $Spin(10)$ Symmetry Breaking* &lbrack;[arXiv:2209.05088](https://arxiv.org/abs/2209.05088)&rbrack;
+
 
 category: people
