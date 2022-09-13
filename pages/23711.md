@@ -162,6 +162,16 @@ Lists of actual semi-metals:
 
 * Md. Rakibul Karim Akand. *Catalog of magnetic topological semimetals*, : AIP Advances **10** 095222 (2020) &lbrack;[doi:10.1063/5.0020096](https://doi.org/10.1063/5.0020096)&rbrack;
 
+Simulation of Dirac semimetals with [[lattice field theory]]:
+
+* *Lattice field theory simulations of Dirac semimetals*, Annals of Physics **391** (2018) 278-292 &lbrack;[doi:10.1016/j.aop.2018.02.016](https://doi.org/10.1016/j.aop.2018.02.016)&rbrack;
+
+and other numerical calculuations:
+
+* *The study of magnetic topological semimetals by first principles calculations*, npj Computational Materials **5** 96 (2019) &lbrack;[doi:10.1038/s41524-019-0237-5](https://doi.org/10.1038/s41524-019-0237-5)&rbrack;
+
+* *Topological semimetals from the perspective of first-principles calculations*, Journal of Applied Physics **128** (2020) 191101 &lbrack;[doi:10.1063/5.0025396](https://doi.org/10.1063/5.0025396)&rbrack;
+
 
 Some of the above material is taken from 
 
@@ -200,6 +210,9 @@ Some of the above material is taken from
 
 [[!redirects band node]]
 [[!redirects band nodes]]
+
+[[!redirects nodal point]]
+[[!redirects nodal points]]
 
 [[!redirects nodal line]]
 [[!redirects nodal lines]]
