@@ -35,7 +35,7 @@ The _Schanuel topos_ is the [[sheaf topos]] $Sh(FinSet^{op}_{mono},J)$ where $Fi
 
 * $Sh(FinSet^{op}_{mono},J)$ is the [[classifying topos]] $Set[D_\infty]$ for the [[theory of decidable objects#Infinite decidable objects|theory of infinite decidable objects]] $D_\infty$ i.e. for a Grothendieck topos $\mathcal{E}$ geometric morphisms $\mathcal{E}\to Sh(FinSet^{op}_{mono},J)$ correspond to infinite [[decidable objects]] in $\mathcal{E}$. $Sh(FinSet^{op}_{mono},J)$ is equivalent to $Sh_{\neg\neg}([FinSet_mono,Set])$ where $[FinSet_mono,Set]$ classifies [[decidable object|decidable objects]].
 
-* $Sh(FinSet^{op}_{mono},J)$ is the category of continuous actions for the group of bijections of $N$ equipped with the topology derived from the product topology for $\prod_{N}N\quad .$
+* $Sh(FinSet^{op}_{mono},J)$ is the [[category of G-sets|category of continuous actions for the group]] of bijections of $N$ equipped with the topology derived from the product topology for $\prod_{N}N\quad .$
 
 * $Sh(FinSet^{op}_{mono},J)$ is the [[Kleisli category]] of the monad on the topos of [[species]] $Set^{FinSet_{iso}}$ induced by the inclusion of finite sets and bijections $FinSet_{iso}\hookrightarrow FinSet_{mono}$ (cf. Fiore-Menni 2004).
 
