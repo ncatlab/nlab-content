@@ -134,7 +134,7 @@ On photonic analogs of the [[quantum Hall effect]]:
 
 On photonic analogs of [[topological insulators]] ([[photonic topological insulator|photonic topological insulators]]):
 
-(...)
+* *Photonic topological insulators*, Nature Materials **12** (2013) 233-239 &lbrack;[doi:10.1038/nmat3520](https://doi.org/10.1038/nmat3520)&rbrack; 
 
 On photonic analogs of [[topological semimetals]] ([[photonic topological semimetal|photonic topological semimetals]]):
 
