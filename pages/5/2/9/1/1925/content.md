@@ -21,7 +21,14 @@ $$ t(a,b,t(c,d,e)) = t(t(a,b,c),d,e) $$
 
 More generally, a ternary operation in some [[variety of algebras]] satisfying the first pair of equations is called a [[Mal'cev operation]].  A Mal'cev operation is  called _associative_ if it also satisfies the latter equation (i.e. it makes its domain into a heap).
 
-A **heap homomorphism**, of course, is a function that preserves the ternary operations.  This defines a category $Heap$ of heaps.
+A heap is **abelian** if it additionally satisfies the relation
+$$
+t(a,b,c) = t(c,b,a)
+$$
+
+A **heap homomorphism**, of course, is a function that preserves the ternary operations.  This defines a category $Heap$ of heaps. 
+
+The hom-sets of the full subcategory $AbHeap$ of abelian heaps inherit an abelian heap structure from the pointwise operation in the codomain: given $f,g,h\colon H \to G$, the function $a\mapsto t_G(f(a),g(a),h(a))$ is again a heap homomorphism. 
 
 
 ## Automorphism group
