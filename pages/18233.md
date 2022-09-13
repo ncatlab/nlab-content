@@ -63,7 +63,7 @@ As mentioned above, there is a construction $\int$ turning a normal lax functor 
 
 But first, let us explictly remark how the opposite construction works. Using notation from [Benaboù's lectures](#Benabou), the normal lax functor $dP : C \to Prof$ associated to a functor $P:E \to C$ is obtained by 'taking fibers'. On objects, it maps $x:C$ to the category $P^{-1}x$ of objects and maps of $E$ mapping to $x$ and its identity arrow, respectively. On morphisms, it maps an arrow $f:x \to y$ to the profunctor $P^{-1}y^{op} \times P^{-1}x \to Set$ mapping a choice of objects $y'$ and $x'$ 'lifting' $y$ and $x$ respectively to the set of maps $f^\sharp : x'\to y'$ that project down to $f$, i.e.~the 'fiber over $f$' of the arrow part of $P$ (which is defined given two objects).
 
-#### The Grothendieck construction
+#### The generalized Grothendieck construction
 The category $\int F$ is built as follows:
 
 * objects are pairs $(x:C, x' : Fx)$
