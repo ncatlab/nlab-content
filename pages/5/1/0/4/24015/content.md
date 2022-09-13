@@ -34,6 +34,9 @@ Braiding of Dirac points in twisted bilayer [[graphene]]:
 
 > we experimentally observe non-Abelian topological semimetals and their evolutions using acoustic Bloch bands in kagome acoustic metamaterials. By tuning the geometry of the metamaterials, we experimentally confirm the creation, annihilation, moving, merging and splitting of the topological band nodes in multiple bandgaps and the associated non-Abelian topological phase transitions 
 
+* {#ParkWongZhangOh21} Haedong Park, Stephan Wong, Xiao Zhang, and Sang Soon Oh, *Non-Abelian Charged Nodal Links in a Dielectric Photonic Crystal*, ACS Photonics **8**
+(2021) 2746–2754 &lbrack;[doi:10.1021/acsphotonics.1c00876](https://doi.org/10.1021/acsphotonics.1c00876)&rbrack;
+
 
 * {#CBSM22} Siyu Chen, [[Adrien Bouhon]], [[Robert-Jan Slager]], [[Bartomeu Monserrat]], *Non-Abelian braiding of Weyl nodes via symmetry-constrained phase transitions* (formerly: *Manipulation and braiding of Weyl nodes using symmetry-constrained phase transitions*), Phys. Rev. B **105** (2022) L081117 $[$[arXiv:2108.10330](https://arxiv.org/abs/2108.10330), [doi:10.1103/PhysRevB.105.L081117](https://doi.org/10.1103/PhysRevB.105.L081117)$]$
 
