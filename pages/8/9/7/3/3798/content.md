@@ -51,3 +51,7 @@ Finally, we can also define vertical transformations between functors of (horizo
 [[!redirects horizontal transformation]]
 [[!redirects vertical transformations]]
 [[!redirects horizontal transformations]]
+[[!redirects vertical natural transformation]]
+[[!redirects horizontal natural transformation]]
+[[!redirects vertical natural transformations]]
+[[!redirects horizontal natural transformations]]
