@@ -26,7 +26,7 @@ By suitably engineering photonic crystals they may emulate various phenomena see
 
 In much the same way, there are *[[phononic crystals]]*.
 
-For instance, many aspects of [[topological phases of matter]] ([[topological insulators]], [[semimetals]], ...) have analogs realizations in photonic crystals ("[[topological photonics]]", see the references [below](#ReferencesTopologicalPhotonics)). Notably  [[braiding]] of [[band nodes]] has been demonstrated in [[photonic semimetals]] ([Park, Gao, Zhang & Oh 2022](#ParkGaoZhangOh22)) and similarly for [[phonons]] ([Peng, Bouhon, Monserrat & Slager 2022](#PBMS22)).
+For instance, many aspects of [[topological phases of matter]] ([[topological insulators]], [[semimetals]], ...) have analogs realizations in photonic crystals ("[[topological photonics]]", see the references [below](#ReferencesTopologicalPhotonics)). Notably [[nodal lines]] have been demonstrated in [[photonic semimetals]] ([Park, Wong, Zhang& Oh 2021](#ParkWongZhangOh21), [Park, Gao, Zhang & Oh 2022](#ParkGaoZhangOh22)) and similarly for [[phonons]] ([Peng, Bouhon, Monserrat & Slager 2022](#PBMS22)).
 
 
 ## Related concepts
