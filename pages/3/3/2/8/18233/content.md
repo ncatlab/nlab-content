@@ -58,6 +58,22 @@ This construction induces an [[equivalence of categories]] $Disp(C) \to Cat/C$, 
 
 * An arbitrary displayed category $C\to Prof$ is a pseudofunctor if and only if $F:D\to C$ is a [[Conduché functor]], i.e. an exponentiable morphism in $Cat$.
 
+## The Grothendieck construction
+As mentioned above, there is a construction turning a normal lax functor $F:C \to Prof$ into a functor $\pi_F : \int F \to C$. Here we spell it out.
+
+First, the category $\int_F$ is built as follows:
+
+* objects are pairs $(x:C, x' : Fx)$
+
+* a morphism $(x,x') \to (y,y')$ is given by a pair of morphisms $(f,f^\sharp)$ where $f:x \to y$ is an arrow in $C$ and $f^\sharp \in Ff(y',x')$
+
+* identities are given by picking $1_x : x \to x$ and $1_x^\sharp = 1_x' \in F(1_x)(x',x') = \mathrm{Hom}_{Fx}(x',x')$
+
+* composition is defined componentwise: given $(f,f^\sharp) : (x,x') \to (y,y')$ and $(g,g^\sharp):(y,y') \to (z,z')$, the composite is the pair $(gf, \ell_{f,g}(y', f^\sharp, g^\sharp))$, where $(y', f^\sharp, g^\sharp)$ is the equivalence class of the coend defining the composition $Fg \circ Ff$ (see [[profunctor]]) and $\ell_{f,g}$ is the laxator of $F$.
+
+Finally, the functor $\pi_F$ simply discards the second component on objects and morphisms.
+
+One can readily observe how this construction reduces to the usual [[Grothendieck construction]] when $F$ factors through $Cat$.
 
 ## References
 
