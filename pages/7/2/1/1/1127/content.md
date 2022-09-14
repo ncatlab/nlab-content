@@ -27,7 +27,7 @@ _Grothendieck categories_ are those [[abelian category|abelian categories]] $\ma
 
 * such that all [[complexes]] in $\mathcal{A}$ (with respect to a [[category with translation|translation]]) are [[quasi-isomorphism|quasi-isomorphic]] to [[injective object|homotopically injective]] complexes (so that [[derived functor on a derived category|derived functor]] can be computed on homotopically injective replacements).
 
-More abstractly, Grothendieck categories are precisely [[Ab-enriched]] [[toposes]]. This follows from the [[Gabriel-Popescu theorem]] together with the theory of enriched [[sheaves]].
+More abstractly, Grothendieck categories are precisely [[Ab-enriched]] [[Grothendieck topos]]es. This follows from the [[Gabriel-Popescu theorem]] together with the theory of [[enriched sheaves]].
 
 ## Definition
 
