@@ -98,6 +98,12 @@ Then $End \mathcal{E}$ is a Calabi-Yau algebra of dimension $d$ precisely if $X$
 
 This appears as ([Ginzburg, prop. 3.3.1](#Ginzburg)).
 
+#### $0$-Calabi-Yau algebras
+
+A cochain dg-algebra over $k$ is $0$-Calabi-Yau iff it is Koszul and $Tor^0_A(k_A,{}_A k)$ is a symmetric coalgebra. Proven in  
+
+*  J.-W. He, X.-F. Mao, _Connected cochain DG algebras of Calabi-Yau dimension 0_, Proc. Amer. Math. Soc. 145 (2017) 937-953 [doi](https://doi.org/10.1090/proc/13081) 
+
 ### Relation to 2d extended TQFT and the Cobordism hypothesis
 
 +-- {: .num_example }
