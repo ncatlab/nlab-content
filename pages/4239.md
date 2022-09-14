@@ -152,6 +152,9 @@ Calabi-Yau $A_\infty$-categories classify [[TCFT]]s. This remarkable result is w
 
 * {#Lurie09} [[Jacob Lurie]], section 4.2 of _[[On the Classification of Topological Field Theories]]_ ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
 
+A relative version is defined for functors instead of categories,
+
+* Christopher Brav , Tobias Dyckerhoff, _Relative Calabi–Yau structures_, Compositio Math. 155 (2019) 372–412 [doi](https://doi.org/10.1112/S0010437X1900702)
 
 [[!redirects Calabi-Yau category]]
 [[!redirects Calabi-Yau categories]]
