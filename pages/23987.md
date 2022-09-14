@@ -144,6 +144,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 ## CQTS Colloquium
  {#CQTSColloquium}
 
+
 ### May 2022
 
 * [[Urs Schreiber]] on joint work with [[Hisham Sati]]:
@@ -154,6 +155,19 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
   \linebreak
 
   > **Abstract.** The aim of *[[topological data analysis]]* (TDA) is to provide qualitative analysis of large data/parameter sets in a way which is *robust* against uncertainties and noise. This is accomplished using tools and theorems from the mathematical field of *[[algebraic topology]]*. While a tool called *[[persistent homology]]* has become the signature method of TDA, it tends to produce answers that are either hard to interpret (persistent [[cycles]]) or impossible to compute ([[well groups]]). Both problems are solved by a variant method $[$[FK17](persistent+cohomotopy#FranekKrcal17)$]$ which we may call *[[persistent cohomotopy]]*: A first result shows $[$[FKW18](persistent+cohomotopy#FranekKrcalWagner18)$]$ that this new method provides computable answers to the concrete question of detecting whether there exist data+parameters that meet a prescribed target indicator precisely, even in the presence of uncertainty and noise. More generally, efficient data analysis will require further refining [[persistent cohomotopy]] to [[equivariant cohomotopy]] and/or [[twisted cohomotopy]] $[$[[schreiber:Proper Orbifold Cohomology|SS20]]$]$. Curiously, these flavors of [[cohomotopy theory]] have [[Hypothesis H|profound relations]] to formal [[high energy physics]] and [[topological phase of matter|quantum materials]], connecting to which might help to further enhance the power of [[topological data analysis]].
+
+### Sep 2022
+ {#ColloquiumSep22}
+
+* 14 Sep 2022
+  {#InitialResearcherMeeting-Schreiber}
+
+  [[Urs Schreiber]]
+
+  **Initial Researchers' Meeting -- Motivation, Strategy & Technology** 
+
+  (pdf slides -- to appear)  
+  
 
 \linebreak
 
