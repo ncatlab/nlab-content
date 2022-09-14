@@ -152,6 +152,10 @@ Movement of [[nodal points]] in photonic crystals:
 
 * María Blanco de Paz, Alejandro González-Tudela, Paloma Arroyo Huidobro, *Manipulating Generalized Dirac Cones In Quantum Metasurfaces* &lbrack;[arXiv:2203.11195](https://arxiv.org/abs/2203.11195)&rbrack;
 
+On something like [[anyon]] [[braiding]] in photonic crystals:
+
+* {#ZhangEtAl22} Xu-Lin Zhang et al., *Non-Abelian braiding on photonic chips*, Nature Photonics **16** (2022) 390–395 &lbrack;[arXiv:2112.01776](https://arxiv.org/abs/2112.01776), [doi:10.1038/s41566-022-00976-2](https://doi.org/10.1038/s41566-022-00976-2)&rbrack;
+
 
 #### Topological lasers
 
