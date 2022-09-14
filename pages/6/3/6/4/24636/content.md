@@ -8,6 +8,10 @@ It is introduced in
 
 * Raf Bocklandt, Travis Schedler, Michael Wemyss, _Superpotentials and higher order derivations_, J. Pure and Appl. Alg. __214__:9 (2010) 1501-1522 [doi](https://doi.org/10.1016/j.jpaa.2009.07.013)
 
+Relation to generalized cluster categories is in 
+
+* Claire Amiot, _Cluster categories for algebras of global dimension 2 and quivers with potential_, Ann. Inst. Fourier __59__:6 (2009) 2525-2590 [link](http://aif.cedram.org/item?id=AIF_2009__59_6_2525_0)
+
 The proof that an important class of "exact" $d$-[[Calabi-Yau algebra]]s are derived from superpotentials is in 
 
 * Michel Van den Bergh, _Calabi-Yau algebras and superpotentials_, Sel. Math. New Ser. __21__, 555–603 (2015). [doi](https://doi.org/10.1007/s00029-014-0166-6)
