@@ -305,6 +305,9 @@ Nucl. Phys. B419, 455 (1994).
 
 * {#JamadagniWeimer20} Amit Jamadagni, Hendrik Weimer, _An Operational Definition of Topological Order_ ([arXiv:2005.06501](https://arxiv.org/abs/2005.06501))
 
+* Nathanan Tantivasadakarn, Ashvin Vishwanath, Ruben Verresen, *A hierarchy of topological order from finite-depth unitaries, measurement and feedforward* &lbrack;[arXiv:2209.06202](https://arxiv.org/abs/2209.06202)&rbrack;
+
+
 
 Discussion via [[twisted equivariant K-theory]]:
 
