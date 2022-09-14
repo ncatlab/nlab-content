@@ -21,6 +21,7 @@ These are notable for allowing a geometrical construction of the [[universal env
 
 *  {#Nakajima98} [[Hiraku Nakajima]], _Quiver varieties and Kac-Moody algebras._ Duke Math. J. 91 (1998), no. 3, 515&#8211;560.
 
+* [[Bernard Leclerc]], _Quantum loop algebras, quiver varieties, and cluster algebraṣ_, 117-152 in in A. Skowronski, K. Yamagata K. (eds.), Representations of algebras and related topics, Eur. Math. Soc. 2011
 
 On [[equivariant elliptic cohomology]] of [[quiver varieties]] in relation to the [[AGT correspondence]]:
 
@@ -30,7 +31,7 @@ On [[equivariant elliptic cohomology]] of [[quiver varieties]] in relation to th
 
 following the analogous non-elliptic discussion in:
 
-* [[Davesh Maulik]], [[Andrei Okounkov]], _Quantum Groups and Quantum Cohomology_, Asterisque 408(2019) ([arXiv:1211.1287](https://arxiv.org/abs/1211.1287), [ISBN: 978-2-85629-900-5](https://bookstore.ams.org/ast-408))
+* [[Davesh Maulik]], [[Andrei Okounkov]], _Quantum groups and quantum cohomology_, Asterisque 408(2019) ([arXiv:1211.1287](https://arxiv.org/abs/1211.1287), [ISBN: 978-2-85629-900-5](https://bookstore.ams.org/ast-408))
 
 Review in:
 
