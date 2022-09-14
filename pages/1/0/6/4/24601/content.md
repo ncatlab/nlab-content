@@ -31,6 +31,10 @@ $$\delta(r) \coloneqq r = 0 \vee r = 1$$
 
 (The interval primitive $I$ has more points than $0$ and $1$, so it is not the case that the sequent $r:I \vdash r = 0 \vee r = 1 \;\mathrm{true}$ holds.)
 
+There is also a typal version of boundary separation which refers to [[cubical path types]] rather than definitional equality, given by the following rule:
+
+$$\frac{\Gamma \vdash A \;  \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash r:I \quad \Gamma, \partial(r) \vdash p:a =_A b}{\Gamma \vdash p:a =_A b}$$
+
 ## Proof of UIP from boundary separation
 
 We denote path types by $a =_A b$ and dependent path types by $a =_{i.A} b$. 
