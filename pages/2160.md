@@ -8,7 +8,7 @@ The dilogarithm is a special case of the [[polylogarithm]] $Li_n$. The __Bloch--
 
 $$ D(z) := Im(Li_2(z)) + arg(1-z) log |z| $$
 
-The dilogarithm has remarkable relations to many areas of mathematics and mathematical physics including [[scissors congruence]], Reidemeister's torsion, regulators in higher [[algebraic K-theory]], the Bloch group, [[CFT]], [[Liouville's gravity]], [[hyperbolic geometry]] and [[cluster transformation]]s.  
+The dilogarithm has remarkable relations to many areas of mathematics and [[mathematical physics]] including [[scissors congruence]], [[Reidemeister torsion]], [[regulator]]s in higher [[algebraic K-theory]], the Bloch group, [[CFT]], [[Liouville gravity]], [[hyperbolic geometry]] and [[cluster transformation]]s.  
 
 See also the references at [mathworld](http://mathworld.wolfram.com/Dilogarithm.html)
 and P.P. Cook's [blog](http://ppcook.blogspot.com/2005/12/dilogarithms.html) and the related entry [[quantum dilogarithm]].
@@ -32,12 +32,8 @@ and P.P. Cook's [blog](http://ppcook.blogspot.com/2005/12/dilogarithms.html) and
 
 * Andreas Deser, _Lie algebroids, non-associative structures and non-geometric fluxes_, [arXiv]()
 
-* Fock, Vladimir V.; Goncharov, Alexander B., _Cluster ensembles, quantization and the dilogarithm_, Annales scientifiques de l'École Normale Supérieure, Serie 4, __42__:6 (2009) 865-930 [doi](https://doi.org/10.24033/asens.2112)
+* Vladimir V. Fock, Alexander B. Goncharov, _Cluster ensembles, quantization and the dilogarithm_, Annales scientifiques de l'École Normale Supérieure, Serie 4, __42__:6 (2009) 865-930 [doi](https://doi.org/10.24033/asens.2112)
 
-* E. Aldrovandi, _On hermitian-holomorphic classes related to uniformization, the dilogarithm, and the Liouville Aaction_, Commun. Math. Phys. (2004) 251: 27. [doi](https://doi.org/10.1007/s00220-004-1168-6)
-
-* S. Alexandrov, B. Pioline, _Theta series, wall-crossing and quantum dilogarithm identities_, Lett. Math. Phys. __106__:1037 (2016) [doi](https://doi.org/10.1007/s11005-016-0857-3)
-
-* S. L. Woronowicz, _Quantum exponential function_, Rev. Math. Phys. __12__ (2000) 873–920.
+* E. Aldrovandi, _On hermitian-holomorphic classes related to uniformization, the dilogarithm, and the Liouville action_, Commun. Math. Phys. (2004) 251: 27. [doi](https://doi.org/10.1007/s00220-004-116
 
 category: analysis, physics
