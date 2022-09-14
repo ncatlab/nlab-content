@@ -979,6 +979,9 @@ See also
 * S. S. Afonin, _AdS/QCD without Kaluza-Klein modes: Radial spectrum from higher dimensional QCD operators_ ([arXiv:1905.13086](https://arxiv.org/abs/1905.13086))
 
 
+In relation to the [[open syring]] [[tachyon]]:
+
+* M. Järvinen, E. Kiritsis, F. Nitti, E. Préau, *Tachyon-dependent Chern-Simons terms and the V-QCD Baryon* &lbrack;[arXiv:2209.05868](https://arxiv.org/abs/2209.05868)&rbrack;
 
 
 
