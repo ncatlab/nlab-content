@@ -98,6 +98,11 @@ Survey:
 
 * Andrew M. Childs, Wim van Dam, *Quantum algorithms for algebraic problems*, Rev. Mod. Phys. **82** 1 (2010) &lbrack;[arXiv:0812.0380](https://arxiv.org/abs/0812.0380), [doi:10.1103/RevModPhys.82.1](https://doi.org/10.1103/RevModPhys.82.1)&rbrack;
 
+For [[integral transforms]]:
+
+* Doğa Veske et al., *Quantum Advantage for Integral Transforms* &lbrack;[arXiv:2204.04159](https://arxiv.org/abs/2204.04159)&rbrack;
+.
+
 
 ### Quantum complexity theory
 
