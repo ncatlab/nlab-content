@@ -17,4 +17,9 @@ Other literature
 
 > We interpret the Landau-Ginzburg potentials associated to Gross-Hacking-Keel-Kontsevich's partial compactifications of [[cluster variety|cluster varieties]] as F-polynomials of projective representations of Jacobian algebras. Along the way, we show that both the projective and the injective representations of Jacobi-finite quivers with potential are well-behaved under Derksen-Weyman-Zelevinsky's mutations of representations. 
 
+* C. Geiß, D. Labardini-Fragoso, J. Schröer, _The representation type of Jacobian algebras_, Adv. Math. 290 (2016) 364–452
+
+* M. Pressland, _Mutation of frozen Jacobian algebras_, J. Algebra 546 (2020) 236–273
+
+
 
