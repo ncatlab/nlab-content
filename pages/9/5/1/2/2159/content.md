@@ -23,9 +23,16 @@ Some references:
 
 * Aug 9-13, 2010 -- workshop on quantum dilogarithm in Aarhus: [web](http://www.qgm.au.dk/events/quantumdilogarithm)
 
-* [[Bernhard Keller]], _On cluster theory and quantum dilogarithm identities_, [arxiv/1102.4148](http://arxiv.org/abs/1102.4148)
+8-6)
 
-Apopearance of quantum dilogarithm in computations related to some cases of [[mirror symmetry]] and in [[topological string]]s are studied in
+* S. Alexandrov, B. Pioline, _Theta series, wall-crossing and quantum dilogarithm identities_, Lett. Math. Phys. __106__:1037 (2016) [doi](https://doi.org/10.1007/s11005-016-0857-3)
+
+* S. L. Woronowicz, _Quantum exponential function_, Rev. Math. Phys. __12__ (2000) 873–920
+
+* [[Bernhard Keller]], _On cluster theory and quantum dilogarithm identities_, pp. 85–116 in A. Skowronski, K. Yamagata K. (eds.), Representations of algebras and related topics, Eur. Math. Soc. 2011 [doi](https://doi.org/10.4171/101-1/3) [arXiv/1102.4148](httpa://arxiv.org/abs/1102.4148)
+
+
+Appearance of quantum dilogarithm in computations related to some cases of [[mirror symmetry]] and in [[topological string]]s are studied in
 
 * Rinat Kashaev, Marcos Mari&#241;o, _Operators from mirror curves and the quantum dilogarithm_, Comm. Math. Phys. 2016 (Online First) [arxiv/1501.01014](http://arxiv.org/abs/1501.01014) [doi](http://dx.doi.org/10.1007/s00220-015-2499-1)
 
