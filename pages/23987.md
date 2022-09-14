@@ -128,7 +128,6 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
     > This talk describes work in progress. The idea is to develop methods for analyzing a very large data sets $X \subset \mathbb{R}^{N}$ in high dimensional spaces. There are well-known pitfalls to avoid, including the inability to computationally analyze [[TDA]] constructions for $X$ on account of its size, the "curse of high dimensionality", and the failure of [[excision]] for standard [[TDA]] constructions. We discuss the curse of high dimensionality and define a hypercube metric on $\mathbb{R}^{N}$ that may lessen its effects. The excision problem for the [[Vietoris-Rips complex|Vietoris-Rips construction]] can be addressed by expanding the [[TDA]] discussion to [[filtered object|filtered]] subobjects $K$ of Vietoris-Rips constructions. Unions of such subobjects satisfy excision in path components (clusters) and [[homology groups]], by classical results. The near-term goal is to construct, for each data point $x$, a "computable" filtered subcomplex $K_{x} \subset V(X)$ with $x \in K_{x}$, which would capture spatial local behaviour of the data set $X$ near $x$. A large (but highly parallelizable) algorithm finds a nearest neighbour, or a set of $k$-nearest neighbours for a fixed data point $x \in X$. Some variant of this algorithm may lead to a good construction of the local subcomplex $K_{x}$.
 
   
-
 \linebreak
 
 
@@ -162,11 +161,13 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 * 14 Sep 2022
   {#InitialResearcherMeeting-Schreiber}
 
-  [[Urs Schreiber]]
+  \linebreak
+
+  [[Urs Schreiber]]:
 
   **Initial Researchers' Meeting -- Motivation, Strategy & Technology** 
 
-  (pdf slides -- to appear)  
+  slides: [[CQTS-InitialResearcherMeeting-Schreiber-220914.pdf:file]]  
   
 
 \linebreak
@@ -356,6 +357,7 @@ Stone-von Neumann**
 \linebreak
 
 **Researchers:**
+ {#Researchers}
 
 <img src="https://ncatlab.org/nlab/files/CQTS-Researchers-2022.jpg" width="750" alt="researchers at CQTS as of Sept 2022" />
 
@@ -369,6 +371,12 @@ Stone-von Neumann**
 </center>
 
 ***
+
+\linebreak
+
+\linebreak
+
+\linebreak
 
 \linebreak
 
