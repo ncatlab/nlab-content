@@ -13,5 +13,8 @@ It is called derivation-quotient algebra in
 
 Other literature
 
+* Daniel Labardini-Fragoso, Bea Schumann, _Landau-Ginzburg potentials via projective representations_, [arXiv:2208.00028](https://arxiv.org/abs/2208.00028)
+
+> We interpret the Landau-Ginzburg potentials associated to Gross-Hacking-Keel-Kontsevich's partial compactifications of [[cluster variety|cluster varieties]] as F-polynomials of projective representations of Jacobian algebras. Along the way, we show that both the projective and the injective representations of Jacobi-finite quivers with potential are well-behaved under Derksen-Weyman-Zelevinsky's mutations of representations. 
 
 
