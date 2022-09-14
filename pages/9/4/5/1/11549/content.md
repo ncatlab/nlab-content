@@ -2,7 +2,7 @@
 
 The __Gabriel–Popescu theorem__, also quoted as Popesco–Gabriel theorem because of that spelling in the original published paper (cf. the spelling in that order, which is sometimes considered wrong when in the order of the authors!) asserts that every [[Grothendieck category]] can be represented as a reflective subcategory of a category ${}_R Mod$ of modules over a unital ring, where the localization functor is exact (one calls such subcategories of module categories Giraud subcategories). The right adjoint (reflection) is in this setup sometimes called the section functor.
 
-This is the [[Ab-enriched]] analogue of the fact that [[sheaf toposes are equivalently the left exact reflective subcategories of presheaf toposes]].
+This is the [[Ab-enriched]] analogue of the fact that [[sheaf toposes are equivalently the left exact reflective subcategories of presheaf toposes]]. See a more general statement at [[enriched sheaf]].
 
 # Literature
 
