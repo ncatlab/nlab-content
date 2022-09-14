@@ -262,6 +262,11 @@ The [[phenomenology]] of Higgs [[model (in particle physics)|models]] is discuss
 
 * Marcela Carena, Howard E. Haber, _Higgs Boson Theory and Phenomenology_, Prog.Part.Nucl.Phys.50:63-152,2003 ([arXiv:hep-ph/0208209](http://arxiv.org/abs/hep-ph/0208209))
 
+Discussion in "string localized" [[AQFT]] and claim of derivation of the quartic form of the Higgs potential:
+
+* Jens Mund, Karl-Henning Rehren, [[Bert Schroer]], *How the Higgs potential got its shape* &lbrack;[arXiv:2209.06133](https://arxiv.org/abs/2209.06133)&rbrack;
+
+
 ### Detection
 
 Early discussion of the detection of a Higgs field of 125 [[GeV]] at [[LHC]] is in
