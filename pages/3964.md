@@ -351,7 +351,7 @@ The $Set_*$-enriched approach is taken as basic in
 
 See also
 
-* [[Moritz Groth]], _Derivators, pointed derivators, and stable derivators_ ([pdf](http://www.math.uni-bonn.de/~mgroth/groth_derivators.pdf))
+* [[Moritz Groth]], _Derivators, pointed derivators, and stable derivators_ ([pdf](https://arxiv.org/pdf/1112.3840.pdf))
 
 
 [[!redirects pointed derivators]]
