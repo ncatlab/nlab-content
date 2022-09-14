@@ -111,7 +111,7 @@ The [[derived category]] of [[D-brane]]s in type B LG-models is discussed in
 
 * {#Orlov} [[Dmitri Orlov]], _Triangulated categories of singularities and D-branes in Landau--Ginzburg models_, Proc. Steklov Inst. Math. 2004, no. 3 (246), 227--248 ([arXiv:math/0302304](http://arxiv.org/abs/math/0302304))
 
-* [[Dmitri Orlov]]_Derived categories of coherent sheaves and triangulated categories of singularities_, Algebra, arithmetic, and geometry: in honor of Yu. I. Manin. Vol. II, 503&#8211;531, Progr. Math., 270, Birkh&#228;user Boston,
+* [[Dmitri Orlov]], _Derived categories of coherent sheaves and triangulated categories of singularities_, Algebra, arithmetic, and geometry: in honor of Yu. I. Manin. Vol. II, 503&#8211;531, Progr. Math., 270, Birkh&#228;user Boston,
 Inc., Boston, MA, 2009 ([arXiv:math.ag/0503632](http://arxiv.org/abs/math.ag/0503632))
  
 
@@ -172,3 +172,5 @@ Discussions of topological Landau--Ginzburg [[B-models]] explicitly as open [[TC
 [[!redirects Landau–Ginzburg models]]
 [[!redirects Landau--Ginzburg model]]
 [[!redirects Landau--Ginzburg models]]
+[[!redirects Landau-Ginzburg theory]]
+
