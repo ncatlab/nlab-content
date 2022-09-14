@@ -8,4 +8,6 @@ While Wolff in principle defines localizations more generally, most of the theor
 
 * [[F. Borceux]], C. Quinteiro, _A theory of enriched sheaves_, [[Cahiers]] de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, __37__ no. 2 (1996), p. 145-162, [MR1394507](http://www.ams.org/mathscinet-getitem?mr=1394507), [numdam](http://www.numdam.org/item?id=CTGDC_1996__37_2_145_0)
  
-consider reflective $V$-localizations which preserve finite limits of the enriched category of presheaves $[C^{op},V]$, and relate them to an enriched version of Grothendieck topology on $C$, and to a "universal closure operation" on $[C^{op},V]$.
+consider reflective $V$-localizations which preserve finite limits of the enriched category of presheaves $[C^{op},V]$, and relate them to an enriched version of Grothendieck topology on $C$, and to a "universal closure operation" on $[C^{op},V]$. See also under [[enriched sheaf]].
+
+[[!redirects enriched localization]]
