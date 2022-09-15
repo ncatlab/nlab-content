@@ -158,12 +158,21 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 ### Sep 2022
  {#ColloquiumSep22}
 
+* 13 Sep 2022
+  {#InitialResearcherMeeting-Riley}
+
+  [[Mitchell Riley]] (CQTS):
+
+  **Dependent Type Theories à la Carte** 
+
+  slides: [[CQTS-InitialResearcherMeeting-Riley-220913.pdf:file]]  
+
+\linebreak
+
 * 14 Sep 2022
   {#InitialResearcherMeeting-Schreiber}
 
-  \linebreak
-
-  [[Urs Schreiber]]:
+  [[Urs Schreiber]] (CQTS):
 
   **Initial Researchers' Meeting -- Motivation, Strategy & Technology** 
 
