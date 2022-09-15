@@ -59,7 +59,7 @@ So let $f \colon X \longrightarrow Y$ be an acyclic fibration between fibrant-co
 
 $$
   \array{
-    \emptyset &\rightarrow& X
+    \emptyset &\rightarrow& Y
     \\
     {}^{\mathllap{\in cof}}\downarrow 
      &{}^{{f^{-1}}}\nearrow& 
@@ -85,7 +85,7 @@ $$
     \\
     {}^{\mathllap{\iota_X}}{}_{\mathllap{\in Cof}}\downarrow && \downarrow^{\mathrlap{f}}_{\mathrlap{\in W \cap Fib}}
     \\
-    Cyl(X) &\underset{f\circ \sigma}{\longrightarrow}& y
+    Cyl(X) &\underset{f\circ \sigma}{\longrightarrow}& Y
   }
   \,,
 $$
