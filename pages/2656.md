@@ -201,6 +201,8 @@ Textbook accounts are in any book on [[representation theory]] in general and on
 
 * {#FultonHarris91} [[William Fulton]], [[Joe Harris]], _Representation Theory: a First Course_, Springer, Berlin, 1991 ([pdf](http://isites.harvard.edu/fs/docs/icb.topic1381051.files/fulton-harris-representation-theory.pdf))
 
+* {#Sagan2001} [[Bruce E. Sagan]], _The Symmetric Group: Representations, Combinatorial Algorithms, and Symmetric Functions_, Springer, 2001
+
 More details:
 
 * Kazuhiko Koike, Itaru Terada, _Young-diagrammatic methods for the representation theory of the classical groups of type $B_n$, $C_n$, $D_n$_,  Journal of Algebra, Volume 107, Issue 2, May 1987, Pages 466-511
