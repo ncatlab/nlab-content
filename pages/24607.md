@@ -111,6 +111,16 @@ In this case, the component-evaluation of the above diagram yields the quantum t
 
 \linebreak
 
+The concrete implementation of the above protocol on given quantum hardware will look more complicated. 
+
+{#AsABraidGateCircuit} For instance, the implementation of the quantum teleportation protocol as a circuit of [[braid representation|braid]] gates of [[Ising anyons]] ([[topological quantum computation]]) is given in [Xu & Zhou 2022](#XuZhou22):
+
+<img src="https://ncatlab.org/nlab/files/BraidCircuitQuantumTeleProtocol-220915.jpg" width="450">
+
+
+
+\linebreak
+
 ## Related concepts
 
 * [[quantum entanglement]]
@@ -154,6 +164,9 @@ Realization in [[experiment]]:
 * Dario Lago-Rivera, Jelena V. Rakonjac, Samuele Grandi, Hugues de Riedmatten, *Long-distance multiplexed quantum teleportation from a telecom photon to a solid-state qubit* &lbrack;[arXiv:2209.06249](https://arxiv.org/abs/2209.06249)&rbrack;
 
 
+Implementation of the quantum teleportation protocol in [[topological quantum computation]] via [[braiding]] of [[Ising anyons]]:
+
+* {#XuZhou22} Cheng-Qian Xu, D. L. Zhou, *Quantum teleportation using Ising anyons*, Phys. Rev. A **106** 012413 (2022) &lbrack;[arXiv:2201.11923](https://arxiv.org/abs/2201.11923), [doi:10.1103/PhysRevA.106.012413](https://doi.org/10.1103/PhysRevA.106.012413)&rbrack;
 
 
 
