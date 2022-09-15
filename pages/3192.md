@@ -128,7 +128,7 @@ Textbook accounts:
 
 Discussion of the space of Fredholm operators as the [[classifying space]] for [[topological K-theory]]:
 
-*  {#Atiyah67}  [[Michael Atiyah]], Appendix of: _K-theory_, Harvard Lecture 1964 (notes by D. W. Anderson), Benjamin 1967 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahk.pdf), [[AtiyahKTheory.pdf:file]])
+* {#Atiyah67}  [[Michael Atiyah]], Appendix of: _K-theory_, Harvard Lecture 1964 (notes by D. W. Anderson), Benjamin 1967 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahk.pdf), [[AtiyahKTheory.pdf:file]])
 
 
 See also:
