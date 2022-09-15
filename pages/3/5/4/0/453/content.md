@@ -354,6 +354,8 @@ When the reg/lex completion is followed by the [[ex/reg completion]] which compl
 
 * [[Barr embedding theorem]]
 
+* [[allegory]]
+
 ## References
 
 The notion of regular categories was introduced in:
