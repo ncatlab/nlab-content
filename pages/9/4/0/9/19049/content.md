@@ -29,7 +29,7 @@ D X : X \rightarrow W \times [W,X],
 $$
 with [[natural transformations]] the counit,
 $$
-\varepsilon : D X \rightarrow Id_X 
+\varepsilon : D X \rightarrow X 
 $$
 $$
 \varepsilon(v,f) \mapsto f(v),
