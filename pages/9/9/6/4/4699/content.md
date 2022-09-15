@@ -1,6 +1,6 @@
-__Andrey Lazarev__ is a mathematician at the University of Leicester. His research is at the interface of [[mathematical physics]] and pure mathematics, including [[algebraic topology]], [[homological algebra]] and [[deformation theory]], [[noncommutative geometry]] and [[conformal field theory]].
+__Andrey Lazarev__ is a mathematician at the University of Lancaster. His research is at the interface of [[mathematical physics]] and pure mathematics, including [[algebraic topology]], [[homological algebra]] and [[deformation theory]], [[noncommutative geometry]] and [[conformal field theory]].
 
-* [homepage](http://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/al179)
+* [homepage](https://www.maths.lancs.ac.uk/~lazarev/)
 
 
 ## Selected writings
