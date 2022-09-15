@@ -315,9 +315,20 @@ The concept of twisted K-theory originates in
 
 * {#Karoubi68} [[Max Karoubi]], _Alg&#232;bres de Clifford et K-th&#233;orie._ Ann. Sci. Ecole Norm. Sup. (4), pp. 161-270 (1968) ([numdam:ASENS_1968_4_1_2_161_0](http://www.numdam.org/item/ASENS_1968_4_1_2_161_0))
 
-* [[Peter Donovan]], [[Max Karoubi]], _Graded Brauer groups and $K$-theory with local coefficients_, Publications Math&#233;matiques de l'IH&#201;S, 38 (1970), p. 5-25  ([numdam:PMIHES_1970__38__5_0](http://www.numdam.org/item?id=PMIHES_1970__38__5_0))
+* {#DonovanKaroubi70} [[Peter Donovan]], [[Max Karoubi]], _Graded Brauer groups and $K$-theory with local coefficients_, Publications Math&#233;matiques de l'IH&#201;S, 38 (1970), p. 5-25  ([numdam:PMIHES_1970__38__5_0](http://www.numdam.org/item?id=PMIHES_1970__38__5_0))
 
 which discusses twists of $KO$ and $KU$ over some $X$ by elements in $H^0(X,\mathbb{Z}_2) \times H^1(X,\mathbb{Z}_2) \times H^3(X, \mathbb{Z})$.
+
+Including the twist in degree 1 (see also at *[[PU(ℋ)]]*):
+
+* {#Parker88} [[Ellen Maycock Parker]], around Prop. 2.2 of: *The Brauer Group of Graded Continuous Trace $C^\ast$-Algebras*, Transactions of the American Mathematical Society **308** 1 (1988) &lbrack;[jstor:2000953](https://www.jstor.org/stable/2000953)&rbrack;
+
+reviewed in 
+
+* [[Alan Carey]], [[Bai-Ling Wang]], p. 5 of: *Thom isomorphism and Push-forward map in twisted K-theory*, Journal of K-Theory **1** 2 (2008) 357-393  ([arXiv:math/0507414](https://arxiv.org/abs/math/0507414), [doi:10.1017/is007011015jkt011](https://doi.org/10.1017/is007011015jkt011))
+
+
+
 
 The formulation in terms of sections of Fredholm bundles seems to go back to 
 
