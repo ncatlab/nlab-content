@@ -151,6 +151,11 @@ Realization in [[experiment]]:
 
 * [[Dirk Bouwmeester]], Jian-Wei Pan, Klaus Mattle, Manfred Eibl, Harald Weinfurter, [[Anton Zeilinger]], *Experimental quantum teleportation*, Nature **390** 575–579 (1997) &lbrack;[doi:10.1038/37539](https://doi.org/10.1038/37539)&rbrack;
 
+* Dario Lago-Rivera, Jelena V. Rakonjac, Samuele Grandi, Hugues de Riedmatten, *Long-distance multiplexed quantum teleportation from a telecom photon to a solid-state qubit* &lbrack;[arXiv:2209.06249](https://arxiv.org/abs/2209.06249)&rbrack;
+
+
+
+
 
 Implementation in [[quantum programming languages]]:
 
