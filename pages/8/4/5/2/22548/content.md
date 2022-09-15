@@ -66,6 +66,11 @@ See also:
 
 * Wikipedia, *[Simon's problem](https://en.wikipedia.org/wiki/Simon's_problem)*
 
+On compiling Shor's algorithm to [[su(2)-anyon]] [[braid representation|braid]] [[quantum gates]] (i.e. implementation in [[topological quantum computation]]):
+
+* M. Baraban, Nicholas E. Bonesteel, Steven H. Simon, *Resources required for topological quantum factoring*, Phys. Rev. A **81** 062317 (2010) &lbrack;[doi:10.1103/PhysRevA.81.062317](https://doi.org/10.1103/PhysRevA.81.062317), [arXiv:1002.0537](https://arxiv.org/abs/1002.0537)&rbrack;
+
+
 category: people
 
 [[!redirects Shor algorithm]]
