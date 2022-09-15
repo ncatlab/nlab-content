@@ -87,6 +87,11 @@ Application to [[FRW models]] of [[cosmology]]:
 
 * R. Loll, _Quantum Gravity from Causal Dynamical Triangulations: A Review_ ([arXiv:1905.08669](https://arxiv.org/abs/1905.08669))
 
+* Jan Ambjorn, *Lattice Quantum Gravity: EDT and CDT* &lbrack;[arXiv:2209.06555](https://arxiv.org/abs/2209.06555)&rbrack;
+
+
+
+
 [[!redirects piecewise flat spacetimes]]
 
 [[!redirects Regge calculus]]
