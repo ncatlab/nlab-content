@@ -159,7 +159,7 @@ More on extended QFTs is also at
 
 ### General
 
-* [[Ruth J. Lawrence]], _Triangulations, categories and extended topological field theories_. Quantum topology, 191–208, Ser. Knots Everything, 3, World Sci. Publ., River Edge, NJ, 1993.  [doi](https://doi.org/10.1142/9789812796387_0011).
+* Ruth J. Lawrence, _Triangulations, categories and extended topological field theories_. Quantum topology, 191–208, Ser. Knots Everything, 3, World Sci. Publ., River Edge, NJ, 1993.  [doi](https://doi.org/10.1142/9789812796387_0011).
 Presented at the AMS Meeting 876, held in Dayton, Ohio, on October 31, 1992.
 
 * [[Daniel S. Freed]], _Higher Algebraic Structures and Quantization_ ([arXiv:hep-th/9212115](http://arxiv.org/abs/hep-th/9212115))
@@ -190,6 +190,10 @@ For TQFTs appearing in [[solid state physics]] in the context of [[topological o
 * [[Daniel Freed]], [[Michael Hopkins]], *Reflection positivity and invertible topological phases*, Geometry & Topology ([arXiv:1604.06527](https://arxiv.org/abs/1604.06527))
 
 * [[Davide Gaiotto]], [[Theo Johnson-Freyd]], *Condensations in higher categories* ([arXiv:1905.09566](https://arxiv.org/abs/1905.09566))
+
+See also: 
+
+* [[Daniel S. Freed]], [[Gregory W. Moore]], [[Constantin Teleman]], *Topological symmetry in quantum field theory* &lbrack;[arXiv:2209.07471](https://arxiv.org/abs/2209.07471)&rbrack;
 
 
 
