@@ -23,6 +23,10 @@ On regularized [[quantization]] of [[Green-Schwarz sigma-models]] for [[super p-
 
 * [[Meer Ashwinkumar]], [[Lennart Schmidt]], [[Meng-Chwan Tan]], Section 2 of: _Matrix Regularization of Classical Nambu Brackets and Super $p$-Branes_ ([arXiv:2103.06666](https://arxiv.org/abs/2103.06666))
 
+On [[Vafa-Witten theory]]:
+
+* Zhi-Cong Ong, [[Meng-Chwan Tan]], *Vafa-Witten Theory: Invariants, Floer Homologies, Higgs Bundles, a Geometric Langlands Correspondence, and Categorification* &lbrack;[arXiv:2203.17115](https://arxiv.org/abs/2203.17115)&rbrack;
+
 
 ## Related $n$Lab entries
 
