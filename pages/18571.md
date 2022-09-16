@@ -39,6 +39,9 @@ Discussion of superfluids via [[AdS-CFT in condensed matter physics]]:
 
 * Yu-Kun Yan, Shanquan Lan, Yu Tian, Peng Yang, Shunhui Yao, Hongbao Zhang, *Towards an effective description of holographic vortex dynamics* &lbrack;[arXiv:2207.02814](https://arxiv.org/abs/2207.02814)&rbrack;
 
+* Aristomenis Donos, Polydoros Kailidis, *Dissipative effects in finite density holographic superfluids* &lbrack;[arXiv:2209.06893](https://arxiv.org/abs/2209.06893)&rbrack;
+
+
 
 On superfluidity/[[superconductivity]] *of* [[anyons]]:
 
