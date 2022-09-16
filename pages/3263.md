@@ -5,7 +5,7 @@
 
 ## Idea
 
-The classical **hypergeometric series** (introduced by [[Gauss]]) are solutions of certain [[ordinary differential equations]] of second order.
+The classical **hypergeometric series** (introduced by [[Gauss]]) are solutions of certain [[ordinary differential equations]] of second order, the hypergeometric differential equation. 
 
 Special cases appear in classical problems of [[mathematical physics]], solutions to the [[wave equation]], Laplace equation or similar are attacked by Fourier method of separation of variables (cf. [[Legendre polynomial]], [[Hermite polynomial]]). 
 
@@ -30,9 +30,9 @@ $$
 $$
 and $\sum c_n = c_0 {}_p F_q(a_1,\ldots,a_p; b_1,\ldots, b_q; x)$.
 
-There are variants like the confluent hypergeometric function (e.g. [[Bessel functions]]), $q$-hypergeometric functions and the basic hypergeometric series. The classical orthogonal polynomials appear as special cases for choices of parameters. There is a recent elliptic version due Spiridonov. 
+If some singular point of the differential equation coalesce, in the limiting case we obtain __confluent hypergeometric function__ (e.g. [[Bessel functions]]). There are other variants like  $q$-hypergeometric functions and the basic hypergeometric series. The classical orthogonal polynomials appear as special cases for choices of parameters, for example Jacobi polynomials and their special case [[Legendre polynomial]]s. There is a recent elliptic version of hypergeometric functions due Spiridonov. 
 
-There are now modern generalizations to many variables due Aomoto and another variant due [[Mikhail Kapranov]], [[Israel Gelfand]] and [[Andrei Zelevinsky]]. These multidimensional generalizations express pairings between representations of quantum groups at root of unity and representations of affine Lie algebras, which can be interpreted as pairings between certain kind of homlogy and cohomology on configuration spaces. This has been extensively studied by Varchenko, Terao and others; often in connection to the study of (complements of) [[arrangements of hyperplanes]] in $\mathbb{C}^n$. [[Selberg integral|Selberg-type integrals]] are involved. 
+There are now modern generalizations to many variables due Aomoto and another variant due [[Mikhail Kapranov]], [[Israel Gelfand]] and [[Andrei Zelevinsky]]. These multidimensional generalizations express pairings between representations of quantum groups at root of unity and representations of affine Lie algebras, which can be interpreted as pairings between certain kind of homology and cohomology on configuration spaces. This has been extensively studied by Varchenko, Terao and others; often in connection to the study of (complements of) [[arrangements of hyperplanes]] in $\mathbb{C}^n$. [[Selberg integral|Selberg-type integrals]] are involved. 
 
 ## References
 
@@ -42,8 +42,9 @@ There are now modern generalizations to many variables due Aomoto and another va
 
 * [[Israel Gelfand|I. M. Gelfand]], M. M. [[Kapranov]], [[Andrei Zelevinsky|A. Zelevinsky]], _Discriminants, resultants and multidimensional determinants_, Birkh&#228;user 1994, 523 pp.
 
-
 * [[Ian G. Macdonald]], _Hypergeometric functions I_, 1987 ([arxiv/1309.4568](http://arxiv.org/abs/1309.4568))
+
+* (dedicated chapter 2 of) Katsunori Iwasaki, Hironobu Kimura, Shun Shimomura, Masaaki Yoshida, _From Gauss to Painlevé, A modern theory of special functions_, 184 pp.
 
 In relation to the [[Knizhnik-Zamolodchikov equation]] and [[quantum groups]]:
 
