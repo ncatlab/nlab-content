@@ -7,6 +7,9 @@
 
 * _[[Physical Mathematics and the Future]]_ (2014)
 
+* _PiTP lectures on BPS states and wall-crossing in
+d = 4, N = 2 theories_ [pdf](http://www.physics.rutgers.edu/grad/695/PiTP-LectureNotes.pdf)
+
 On [[anyons]] satisfying [[non-abelian group|non-abelian]] [[braid group statistics]] in the [[fractional quantum Hall effect]]:
 
 * [[Gregory Moore]], [[Nicholas Read]], _Nonabelions in the fractional quantum Hall effect_, Nucl. Phys. 360B (1991)362 ([pdf](http://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf), <a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>)
