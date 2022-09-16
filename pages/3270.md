@@ -54,6 +54,8 @@ Surely, one often works at the derived level. An adaptation of the  notion of st
 
 * [[Mina Aganagic]], _Wall crossing, quivers and crystals_, [arxiv/1006.2113](http://arxiv.org/abs/1006.2113)
 
+* [[Gregory Moore]], _PiTP lectures on BPS states and wall-crossing in d = 4, N = 2 theories_ [pdf](http://www.physics.rutgers.edu/grad/695/PiTP-LectureNotes.pdf)
+
 * S. Cecotti, [[Cumrun Vafa]], _BPS wall crossing and topological strings_, 
 [arXiv/0910.2615](http://arxiv.org/abs/0910.2615)
 
