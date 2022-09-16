@@ -119,7 +119,12 @@ often referred to as "[[cohomological field theory]]"
 
 where it is [[N=2 D=4 super Yang-Mills theory]] that is twisted and related to [[Donaldson theory]]. The analogous twisting of [[N=4 D=4 super Yang-Mills theory]] is due to 
 
-* [[Cumrun Vafa]], [[Edward Witten]], _A Strong Coupling Test of S-Duality_, Nucl. Phys. B431:3-77,1994 ([arXiv:hep-th/9408074](http://arxiv.org/abs/hep-th/9408074))
+* [[Cumrun Vafa]], [[Edward Witten]], _A Strong Coupling Test of S-Duality_, Nucl. Phys. B **431** (1994) 3-77 &lbrack;[arXiv:hep-th/9408074](http://arxiv.org/abs/hep-th/9408074)&rbrack;
+
+This *Vafa-Witten theory* reviewed and further developed in:
+
+* Zhi-Cong Ong, [[Meng-Chwan Tan]], *Vafa-Witten Theory: Invariants, Floer Homologies, Higgs Bundles, a Geometric Langlands Correspondence, and Categorification* &lbrack;[arXiv:2203.17115](https://arxiv.org/abs/2203.17115)&rbrack;
+
 
 The $N=4$-case and  one of the possible $N=2$-twists yield [[instanton]] invariants captured by the [[Seiberg-Witten theory]] generalization of [[Donaldson theory]]. Another variant of the $N=2$ twist was described in 
 
@@ -173,4 +178,4 @@ is discussed that the holomorphically twisted $N=1$ theory is controled by the [
 [[!redirects topologically twisted N=4 D=4 super Yang-Mills theory]]
 [[!redirects topologically twisted N=4 D=4 super Yang-Mills theories]]
 
-
+[[!redirects Vafa-Witten theory]]
