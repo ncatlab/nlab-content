@@ -31,6 +31,10 @@ More generally, an _equivariant morphism_ is a [[homomorphism]] of $G$-[[actions
 
 ## Related concepts
 
+* [[equivariance]]
+
+* [[equivariant structure]]
+
 * [[equivariant cohomology]]
 
 * [[equivariant homotopy theory]]
