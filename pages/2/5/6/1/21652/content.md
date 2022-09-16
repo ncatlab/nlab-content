@@ -53,7 +53,7 @@ is uniquely determined by the following properties:
 * If a multiple of one row of $T$ is added to another row of $T$, then $\alpha(T)$ is unchanged.
 
 Composing the homomorphism $\alpha$ (eq:TheGroupHomomorphism)
-with the [[quotient]] [[coprojection]] 
+with the [[quotient]] map 
 
 $$
   q
