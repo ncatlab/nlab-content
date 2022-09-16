@@ -36,6 +36,7 @@ Proc Natl Acad Sci USA 111(27):9696-703  (2014) [doi](https://doi.org/10.1073/pn
 * Christof Geiss, Bernard Leclerc, Jan Schr&#246;er, _Preprojective algebras and cluster algebras_, [arxiv/0804.3168](http://arxiv.org/abs/0804.3168); _Kac-Moody groups and cluster algebras_, [arxiv/1001.3545](http://arxiv.org/abs/1001.3545); _Cluster structures on quantum coordinate rings_, [arxiv/1104.0531](http://arxiv.org/abs/1104.0531)
 
 * Tomoki Nakanishi, _[[dilogarithm|Dilogarithm]] identities for conformal field theories and cluster algebras: Simply laced case_, Nagoya Math. J. __202__ (2011), 23-43, [MR2804544](http://www.ams.org/mathscinet-getitem?mr=2804544) [doi](http://dx.doi.org/10.1215/00277630-1260432)
+* Kentaro Nagao, _Donaldson–Thomas theory and cluster algebras_, Duke Math. J. 162(7): 1313-1367 [doi](https://doi.org/10.1215/00127094-2142753)
 
 The connections to the exact WKB method a la Voros are studied in 
 
