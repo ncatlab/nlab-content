@@ -25,7 +25,7 @@ The text
 
   ([web](http://zapatopi.net/kelvin/papers/on_vortex_atoms.html))
 
-presented the hypothesis that [[atoms]] ([[elementary particles]]) are fundamentally [[vortices]] in some [[spacetime]]-filling substance (the "aether").
+presented the hypothesis, developed with [[Peter Tait]], that [[atoms]] ([[elementary particles]]) are fundamentally [[vortices]] in some [[spacetime]]-filling substance (the "aether").
 
 
 
@@ -36,7 +36,7 @@ presented the hypothesis that [[atoms]] ([[elementary particles]]) are fundament
 
 ## Impact
 
-As a literal theory of [[physics]] the vortex atom hypothesis lasted no more than 30 years, even Thomson himself giving up on it by 1890 ([Krage 02, p. 34](#Krage)), but it did make [[Peter Tait]] start thinking about classification of [[knots]], which eventually led to modern [[knot theory]] in [[mathematics]]. Moreover, faint shadows of Kelvin's original idea have been argued to be visible in [[string theory]] -- and the failure of the vortex atom theory has been used to warn of too much hope into string theory.
+As a literal theory of [[physics]] the vortex atom hypothesis lasted no more than 30 years, even Thomson himself giving up on it by 1890 ([Krage 02, p. 34](#Krage)), but it did prompt [[Peter Tait]] to begin the classification of [[knots]], each knot type thought to correspond to a different chemical element, and this work eventually led to modern [[knot theory]] in [[mathematics]]. Moreover, faint shadows of Kelvin's original idea have been argued to be visible in [[string theory]] -- and the failure of the vortex atom theory has been used to warn of too much hope into string theory.
 
 ## Similarity with Descartes' thoughts
  {#SimilarityWithDescartesThoughts}
@@ -86,7 +86,7 @@ Review and discussion:
 
 * {#Krage} Helge Kragh, 2002, _The Vortex Atom: A Victorian Theory of Everything_, Centaurus, 44(1-2), pp. 32&#8211;114 ([philpapers:KRAVTA](https://philpapers.org/rec/KRATVA), [doi:10.1034/j.1600-0498.2002.440102.x](https://doi.org/10.1034/j.1600-0498.2002.440102.x))
 
-* {#Corfield} [[David Corfield]] ([[CorfieldVortexAtoms.pdf:file]])
+* {#Corfield} [[David Corfield]], _Smoke Rings_, ([[CorfieldVortexAtoms.pdf:file]])
 
 * [[Samuel Lomonaco]], _The modern legacies of Thomson's atomic vortex theory in classical electrodynamics_, in: [[Louis Kauffman]] (ed.) _The Interface of Knots and Physics_, Proceedings of Symposia in Applied Mathematics, Volume 51 (1996) ([pdf](http://www.csee.umbc.edu/~lomonaco/kelvin/kelvin23.pdf), [doi:10.1090/psapm/051](https://doi.org/10.1090/psapm/051))
 
