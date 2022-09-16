@@ -352,6 +352,8 @@ Stone-von Neumann**
 ## External talks
  {#ExternalTalk}
 
+\linebreak
+
 * 15 Sep 2022 at *[PlanQC 2022](https://icfp22.sigplan.org/home/planqc-2022)*
 
   [[Urs Schreiber]] on joint work with [[Hisham Sati]]:
@@ -360,6 +362,25 @@ Stone-von Neumann**
 
 \linebreak
 
+* {#MathFacultyMeetingSep2022} 16 Sep 2022 at *Math Faculty Meeting*, NYU Abu Dhabi
+
+  [[Urs Schreiber]] on joint work with [[Hisham Sati]]:
+
+  **Practical Foundations for Topological Quantum Programming**
+
+  slides: [[TQPFoundations-MathFacultyMeeting-20220916.pdf:file]]
+
+  
+
+\linebreak
+
+\linebreak
+
+***
+
+\linebreak
+
+\linebreak
 
 
 ## Members
