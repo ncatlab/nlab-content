@@ -18,6 +18,10 @@ These make up the thesis:
 
 * [[Sachin J. Valera]], *Topological Quantum and Skein-Theoretic Aspects of Braided Fusion Categories* &lbrack;[hdl:11250/2770245](https://hdl.handle.net/11250/2770245)&rbrack;
 
+Exposition and review:
+
+* [[Sachin Valera]], *A Quick Introduction to the Algebraic Theory of Anyons*, talk at *[[CQTS]] Inituial Researcher Meeting* (Sep 2022) &lbrack;[[CQTS-InitialResearcherMeeting-Valera-220914.pdf:file]]&rbrack;
+
 
 category: people
 
