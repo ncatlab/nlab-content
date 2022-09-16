@@ -3440,7 +3440,7 @@ for all $c_1,c_2 \in \mathcal{C}$.
 Under the [[Yoneda lemma]] (prop. \ref{YonedaReductionTopological}) the first of these is equivalently a morphism in $[\mathcal{C}, Top^{\ast/}_{cg}]$ of the form
 
 $$
-  y(S^0) \longrightarrow F
+  y(1_{\mathcal{C}}) \longrightarrow F
   \,.
 $$
 
@@ -10180,4 +10180,5 @@ which all goes back to
 A compendium on [[symmetric spectra]] is
 
 * {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+
 
