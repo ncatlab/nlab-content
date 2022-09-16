@@ -167,7 +167,26 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
   slides: [[CQTS-InitialResearcherMeeting-Riley-220913.pdf:file]]  
 
+  > (on realizing [[linear homotopy type theory]])
+
+
 \linebreak
+
+
+* 14 Sep 2022
+  {#InitialResearcherMeeting-Valera}
+
+  [[Sachin Valera]] (CQTS):
+
+  **A Quick Introduction to the Algebraic Theory of Anyons**
+
+  slides: [[CQTS-InitialResearcherMeeting-Valera-220914.pdf:file]]
+
+  > (on [[anyon]] [[braid representation|braiding]] described by [[braided fusion categories]])
+ 
+
+\linebreak
+
 
 * 14 Sep 2022
   {#InitialResearcherMeeting-Schreiber}
@@ -177,6 +196,8 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
   **Initial Researchers' Meeting -- Motivation, Strategy & Technology** 
 
   slides: [[CQTS-InitialResearcherMeeting-Schreiber-220914.pdf:file]]  
+
+  > (outline of a research program on [[schreiber:Topological Quantum Programming in TED-K]])
   
 
 \linebreak
