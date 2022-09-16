@@ -27,21 +27,7 @@ The text
 
 presented the hypothesis that [[atoms]] ([[elementary particles]]) are fundamentally [[vortices]] in some [[spacetime]]-filling substance (the "aether").
 
-Review and discussion:
 
-* {#Krage} Helge Kragh, 2002, _The Vortex Atom: A Victorian Theory of Everything_, Centaurus, 44(1-2), pp. 32&#8211;114 ([philpapers:KRAVTA](https://philpapers.org/rec/KRATVA), [doi:10.1034/j.1600-0498.2002.440102.x](https://doi.org/10.1034/j.1600-0498.2002.440102.x))
-
-* {#Corfield} [[David Corfield]] ([[CorfieldVortexAtoms.pdf:file]])
-
-* [[Samuel Lomonaco]], _The modern legacies of Thomson's atomic vortex theory in classical electrodynamics_, in: [[Louis Kauffman]] (ed.) _The Interface of Knots and Physics_, Proceedings of Symposia in Applied Mathematics, Volume 51 (1996) ([pdf](http://www.csee.umbc.edu/~lomonaco/kelvin/kelvin23.pdf), [doi:10.1090/psapm/051](https://doi.org/10.1090/psapm/051))
-
-Discussion in comparison to [[knot|knotted]] states in [[superconductors]]:
-
-* Filipp N. Rybakov, Julien Garaud, Egor Babaev, _Kelvin knots in superconducting state_, Phys. Rev. B 100, 094515 (2019) ([arXiv:1807.02509](https://arxiv.org/abs/1807.02509))
-
-Discussion in relation to [[skyrmions]]:
-
-* {#RanadaTrueba01} Antonio Ranada, J. Trueba, _Force Lines, Vortex Atoms, Topology, and Physics_, Section I.A In: _Topological Electromagnetism with hidden nonlinearlity_ in: Myron Evans (ed.) _Modern Nonlinear Optics -- Part 3_, Wiley 2001 ([doi:10.1002/0471231495.ch2](https://doi.org/10.1002/0471231495.ch2))
 
 
 #Contents#
@@ -93,5 +79,23 @@ According to [Ranada-Trueba 01, p. 200](#RanadaTrueba01):
 * [[William Clifford]], _[[On the Space-Theory of Matter]]_
 
 * [[Skyrmion]]
+
+## References
+
+Review and discussion:
+
+* {#Krage} Helge Kragh, 2002, _The Vortex Atom: A Victorian Theory of Everything_, Centaurus, 44(1-2), pp. 32&#8211;114 ([philpapers:KRAVTA](https://philpapers.org/rec/KRATVA), [doi:10.1034/j.1600-0498.2002.440102.x](https://doi.org/10.1034/j.1600-0498.2002.440102.x))
+
+* {#Corfield} [[David Corfield]] ([[CorfieldVortexAtoms.pdf:file]])
+
+* [[Samuel Lomonaco]], _The modern legacies of Thomson's atomic vortex theory in classical electrodynamics_, in: [[Louis Kauffman]] (ed.) _The Interface of Knots and Physics_, Proceedings of Symposia in Applied Mathematics, Volume 51 (1996) ([pdf](http://www.csee.umbc.edu/~lomonaco/kelvin/kelvin23.pdf), [doi:10.1090/psapm/051](https://doi.org/10.1090/psapm/051))
+
+Discussion in comparison to [[knot|knotted]] states in [[superconductors]]:
+
+* Filipp N. Rybakov, Julien Garaud, Egor Babaev, _Kelvin knots in superconducting state_, Phys. Rev. B 100, 094515 (2019) ([arXiv:1807.02509](https://arxiv.org/abs/1807.02509))
+
+Discussion in relation to [[skyrmions]]:
+
+* {#RanadaTrueba01} Antonio Ranada, J. Trueba, _Force Lines, Vortex Atoms, Topology, and Physics_, Section I.A In: _Topological Electromagnetism with hidden nonlinearlity_ in: Myron Evans (ed.) _Modern Nonlinear Optics -- Part 3_, Wiley 2001 ([doi:10.1002/0471231495.ch2](https://doi.org/10.1002/0471231495.ch2))
 
 category: reference
