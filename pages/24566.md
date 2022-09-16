@@ -37,6 +37,11 @@ See also:
 
 * Wikipedia, *[Quantum supremacy](https://en.wikipedia.org/wiki/Quantum_supremacy)*
 
+Review:
+
+* [[Scott Aaronson]], *How Much Structure Is Needed for Huge Quantum Speedups?*, talk at: *28th Solvay Physics Conference* in Brussels on May 21, 2022 &lbrack;[arXiv:2209.06930](https://arxiv.org/abs/2209.06930), slides: [ppt](https://www.scottaaronson.com/talks/aar-solvay.ppt)&rbrack;
+
+
 Emphasis of the need of [[topological quantum computation|topological stabilization]]:
 
 * {#DasSarma22} [[Sankar Das Sarma]], *Quantum computing has a hype problem*, [MIT Technology Review (March 2022)](https://www.technologyreview.com/2022/03/28/1048355/quantum-computing-has-a-hype-problem/)
