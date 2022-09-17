@@ -400,6 +400,7 @@ For more see the references at _[[multisymplectic geometry]]_, at _[[n-plectic g
 [[!redirects de Donder-Weyl equations]]
 
 [[!redirects De Donder-Weyl formalism]]
+[[!redirects de Donder-Weyl formalism]]
 
 [[!redirects Hamilton-De Donder-Weyl equations of motion]]
 [[!redirects Hamilton-De Donder-Weyl equations of motion]]
