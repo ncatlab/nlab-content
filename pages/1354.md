@@ -20,7 +20,9 @@
 
 ## Idea
 
-Any [[stable (∞,1)-category]] $C$ gives rise to a canonical [[triangulated category]] $ho(C)$, its [[homotopy category of an (∞,1)-category|homotopy category]].  Much of the information contained in $C$ is still present in $ho(C)$, so that in many situations it can be enough to work at the level of [[triangulated categories]].  However, in general various problems with [[triangulated categories]] require one to work with some sort of higher structure lying above $ho(C)$.  Such a structure is often called an _enhancement_ of the [[triangulated category]] $ho(C)$.  Examples of enhanced triangulated categories are, in order of increasing information:
+Any [[stable (∞,1)-category]] $C$ gives rise to a canonical [[triangulated category]] $ho(C)$, its [[homotopy category of an (∞,1)-category|homotopy category]].  Much of the information contained in $C$ is still present in $ho(C)$, so that in many situations it can be enough to work at the level of [[triangulated categories]].  However, in general various problems with [[triangulated categories]] require one to work with some sort of higher structure lying above $ho(C)$.  Such a structure is often called an _enhancement_ of the [[triangulated category]] $ho(C)$.  
+
+{#ExamplesOfNotions} Examples of enhanced triangulated categories are, in order of increasing information:
 
 * [[stable derivators]],
 * [[pretriangulated dg-categories]] or [[pretriangulated A-∞-categories]],
