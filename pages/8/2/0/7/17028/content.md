@@ -49,6 +49,7 @@ For the analogous statement on the equivariant [[Lazard ring]] see [Greenlees 01
 
 ## References
 
+
 * [[Peter May]], _Equivariant and non-equivariant module spectra_, Journal of Pure and Applied Algebra Volume 127, Issue 1, 1 May 1998, Pages 83&#8211;97 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/modfinal.pdf))
 
 * {#Greenlees01a} [[John Greenlees]], _The coefficient ring of equivariant homotopical bordism classifies equivariant formal group laws over Noetherian rings_, 2001 ([preprint](https://homepages.abdn.ac.uk/d.j.benson/pages/html/archive/greenlees.html))
@@ -61,6 +62,11 @@ For the analogous statement on the equivariant [[Lazard ring]] see [Greenlees 01
 * [[William Abram]], _A note on the equivariant formal group law of the equivariant complex cobordism ring_ ([arXiv:1309.0722](http://arxiv.org/abs/1309.0722))
 
 * [[William Abram]], [[Igor Kriz]], _The equivariant complex cobordism ring of a finite abelian group_ ([arXiv:1509.08540](http://arxiv.org/abs/1509.08540))
+
+Generalization of the [[Conner-Floyd isomorphism]] to [[equivariant cohomology theory]], relating [[equivariant cobordism cohomology]] to [[equivariant K-theory]]:
+
+* [[Steven Costenoble]], *Equivariant Conner-Floyd isomorphism*, Trans. Amer. Math. Soc. **304** 2 (1987) 801--818, &lbrack;[jstor:2000742](http://www.jstor.org/stable/2000742)&rbrack;
+
 
 
 [[!redirects equivariant complex cobordism theory]]
