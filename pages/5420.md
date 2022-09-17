@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -97,9 +98,10 @@ The version for [[MSpin^c]]$\to$[[MU]] and [[MSpin]]$\to$[[KO]] is due to:
 
 * {#HopkinsHovey92} [[Michael Hopkins]], [[Mark Hovey]], _Spin cobordism determines real K-theory_, Mathematische Zeitschrift volume 210, pages 181–196 (1992) ([doi:10.1007/BF02571790](https://doi.org/10.1007/BF02571790), [[HopkinsHoveyCobordismK.pdf:file]])
 
-Generalization to [[equivariant cohomology theory]]:
+Generalization to [[equivariant cohomology theory]], now relating [[equivariant cobordism cohomology]] to [[equivariant K-theory]]:
 
-* [[Steven Costenoble]], _Equivariant Conner-Floyd isomorphism_, Trans. Amer. Math. Soc. __304__, No. 2 (Dec., 1987), 801--818, [jstor:2000742](http://www.jstor.org/stable/2000742)
+* [[Steven Costenoble]], *Equivariant Conner-Floyd isomorphism*, Trans. Amer. Math. Soc. **304** 2 (1987) 801--818, &lbrack;[jstor:2000742](http://www.jstor.org/stable/2000742)&rbrack;
+
 
 Discussion in [[motivic cohomology]]:
 
