@@ -3,9 +3,9 @@
 
 ## Selected writings
 
-Discussion of $\mathbb{Z}_2$-[[equivariant stable homotopy groups]]/[[equivsriant stable cohomptopy]] of [[spheres]]:
+Discussion of $\mathbb{Z}_2$-[[equivariant stable homotopy groups]]/[[equivariant stable cohomotopy]] of [[spheres]]:
 
-* {#ArakiIriye82} Sh&#244;r&#244; Araki, [[Kouyemon Iriye]], _Equivariant stable homotopy groups of spheres with involutions. I_, Osaka J. Math. Volume 19, Number 1 (1982), 1-55. ([Euclid:1200774828](http://projecteuclid.org/euclid.ojm/1200774828))
+* {#ArakiIriye82} [[Shôrô Araki]], [[Kouyemon Iriye]], _Equivariant stable homotopy groups of spheres with involutions. I_, Osaka J. Math. Volume 19, Number 1 (1982), 1-55. ([Euclid:1200774828](http://projecteuclid.org/euclid.ojm/1200774828))
 
 * {#Iriye82} [[Kouyemon Iriye]], _Equivariant stable homotopy groups of spheres with involutions. II_, Osaka J. Math. Volume 19, Number 4 (1982), 733-743 ([euclid:1200775536](https://projecteuclid.org/euclid.ojm/1200775536))
 
