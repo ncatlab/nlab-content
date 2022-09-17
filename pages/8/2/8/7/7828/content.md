@@ -153,6 +153,11 @@ The version of $KSC$-theory was introduced in
 
 * {#Anderson64} D. W. Anderson, _The real K-theory of classifying spaces_ Proc. Nat. Acad. Sci. U. S. A., 51(4):634&#8211;636, 1964.
 
+Early discussion in the broader context of [[real-oriented cohomology theory]] and [[Real cobordism cohomology]]:
+
+* [[Shôrô Araki]], *$\tau$-Cohomology Theories*, Japanese Journal of Mathematics **4** 2 (1978) &lbrack;[doi:10.4099/math1924.4.363](https://doi.org/10.4099/math1924.4.363)&rbrack;
+
+
 The dual concept of KR-homology was defined in
 
 * [[Gennady Kasparov]], _The operator K-functor and extensions of $C^\ast$-algebras,_ Izv. Akad. Nauk. SSSR Ser. Mat. 44, 571-636 (1980).
@@ -252,4 +257,8 @@ Discussion of [[twisted cohomology|twists]] of [[KR-theory]] by [[HZR-theory]] i
 
 [[!redirects KR]]
 
+[[!redirects Real K-theory]]
 [[!redirects real K-theory]]
+
+
+
