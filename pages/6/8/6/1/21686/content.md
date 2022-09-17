@@ -98,7 +98,17 @@ With an eye towards applications in [[mathematical physics]]:
 
 * [[Gerd Rudolph]], [[Matthias Schmidt]], Chapter 4 of: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
 
-
 See also in:
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+
+Enhancement of the Chern-Weil homomorphism from [[ordinary cohomology]]-groups to [[dg-categories]] of [[flat infinity-connections]]:
+
+* [[Camilo Arias Abad]], Santiago Pineda Montoya, Alexander Quintero Velez, *Chern-Weil theory for $\infty$-local systems* $[$[arXiv:2105.00461](https://arxiv.org/abs/2105.00461)$]$
+
+
+
+
+
+
+
