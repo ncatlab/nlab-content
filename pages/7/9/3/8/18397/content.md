@@ -35,6 +35,14 @@ Review includes
 
 See also 
 
-* Wikiedia, _[h-cobordism](https://en.wikipedia.org/wiki/H-cobordism)_
+* Wikipedia, _[h-cobordism](https://en.wikipedia.org/wiki/H-cobordism)_
+
+Generalization to [[equivariant cobordism]]:
+
+* [[Shôrô Araki]], *Equivariant $s$-cobordism theorems*, J. Math. Soc.  Japan **40** 2 (1988) &lbrack;[pdf](file:///C:/Users/us13/Downloads/04020349-2.pdf)&rbrack;
+
 
 [[!redirects h cobordism theorem]]
+
+
+
