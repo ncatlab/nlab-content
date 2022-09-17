@@ -54,11 +54,16 @@ In [[physics]] ([[string theory]]) where ([[gauge field|gauge]]) [[field (physic
 
 * [[ER-theory]]
 
+
 ## Related concepts
+
+* [[orientifold]]
 
 * [[complex oriented cohomology theory]], [[quaternionic oriented cohomology theory]]
 
 * [[equivariant complex oriented cohomology theory]]
+
+
 
 \linebreak
 
@@ -67,13 +72,15 @@ In [[physics]] ([[string theory]]) where ([[gauge field|gauge]]) [[field (physic
 
 ## References
 
-The definition is originally due to
+The definition is originally due to:
 
-* {#Araki78} S. Araki, _$\tau$-cohomology theories_, Japan Journal of Mathematics (N.S.) 4 (2) (1978) 363-416.
+* {#Araki78} [[Shôrô Araki]], *$\tau$-Cohomology Theories*, Japanese Journal of Mathematics **4** 2 (1978) 363-416 &lbrack;[doi:10.4099/math1924.4.363](https://doi.org/10.4099/math1924.4.363)&rbrack;
 
-* {#Araki79} S. Araki, _Forgetful spectral sequences_, Osaka Journal of Mathematics 16 (1) (1979) 173-199.
+* {#Araki79} [[Shôrô Araki]], *Forgetful spectral sequences*, Osaka Journal of Mathematics **16** 1 (1979) 173-199 &lbrack;[Euclid](https://projecteuclid.org/journals/osaka-journal-of-mathematics/volume-16/issue-1/Forgetful-spectral-sequences/ojm/1200771837.full)&rbrack;
 
-* S. Araki, _Orientations in $\tau$-cohomology theories_, Japan Journal of Mathematics (N.S.) 5 (2) (1979) 403-430.
+  > (on the relevant [[spectral sequences]])
+
+* [[Shôrô Araki]], *Orientations in $\tau$-cohomology theories*, Japan Journal of Mathematics (N.S.) **5** 2 (1979) 403-430 &lbrack;[doi:10.4099/math1924.5.403](https://doi.org/10.4099/math1924.5.403)&rbrack;
 
 Discussion of the [[Adams-Novikov spectral sequence]] in this context is in
 
