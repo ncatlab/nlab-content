@@ -31,6 +31,7 @@ The conditions to be verified are:
 ### As an Undirected Graph
 
 Equivalently, a coherence space $X$ consists of
+
 1. A set $|X|$, called the web of $X$, whose elements are called "tokens"
 2. A reflexive, symmetric binary relation $~$ on $|X|$ called the _coherence_ relation
 
