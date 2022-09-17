@@ -56,7 +56,7 @@ In [[derivator#Renaudin|(Renaudin 2006)]] it is shown that the [[2-category]] of
 
 ## References
 
-* {#BondalKapranov91} [[Alexei Bondal]], [[Mikhail Kapranov]], _Enhanced Triangulated Categories_, Sbornik: Mathematics, Volume 70, Issue 1, pp. 93-107 (1991) ([doi:10.1070/SM1991v070n01ABEH001253](http://dx.doi.org/10.1070/SM1991v070n01ABEH001253))
+* {#BondalKapranov91} [[Alexei Bondal]], [[Mikhail Kapranov]], _Enhanced triangulated categories_, Mat. Sb. (Russian) 181:5 (1990), 669–683 [link](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=1196); Engl. transl. in Sbornik Math. 70:1 (1991)  93–107 [doi:10.1070/SM1991v070n01ABEH001253](https://doi.org/10.1070/SM1991v070n01ABEH001253) [MR1055981](https://www.ams.org/mathscinet-getitem?mr=1055981)
 
 * [[Valery Lunts|Valery A. Lunts]], [[Dmitri Orlov|Dmitri O. Orlov]], _Uniqueness of enhancement for triangulated categories_, J. Amer. Math. Soc. 23 (2010), no. 3, 853–908
 
