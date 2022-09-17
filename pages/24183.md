@@ -41,7 +41,7 @@ Emphasis that the expected description of [[anyons]] by [[braided fusion categor
 
 Exposition and review:
 
-* [[Sachin Valera]], *A Quick Introduction to the Algebraic Theory of Anyons*, talk at *[[CQTS]] Inituial Researcher Meeting* (Sep 2022) &lbrack;[[CQTS-InitialResearcherMeeting-Valera-220914.pdf:file]]&rbrack;
+* [[Sachin Valera]], *A Quick Introduction to the Algebraic Theory of Anyons*, talk at *[[CQTS]] Inituial Researcher Meeting* (Sep 2022) $[$[[CQTS-InitialResearcherMeeting-Valera-220914.pdf:file]]$]$
 
 An argument that the statement at least for [[SU(2)-anyons]] does follow from an enhancement of the [[K-theory classification of topological phases of matter]] to interacting [[topological order]]:
 
