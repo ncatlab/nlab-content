@@ -59,6 +59,8 @@ From here, the terminology generalizes to [[infinity-stacks|$\infty$-stacks]] in
 
 ## Related concepts
 
+* [[category with an atlas]]
+
 * [[n-types cover]]
 
 ## References
