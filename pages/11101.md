@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+Generalization of the [[Conner-Floyd isomorphism]] to [[equivariant cohomology theory]], relating [[equivariant cobordism cohomology]] to [[equivariant K-theory]]:
+
+* [[Steven Costenoble]], *Equivariant Conner-Floyd isomorphism*, Trans. Amer. Math. Soc. **304** 2 (1987) 801--818, &lbrack;[jstor:2000742](http://www.jstor.org/stable/2000742)&rbrack;
+
 On [[equivariant complex oriented cohomology theory]]:
 
 * [[Steven Costenoble]], [[Peter May]], [[Stefan Waner]], _Equivariant orientation theory_, Homology Homotopy Appl.
