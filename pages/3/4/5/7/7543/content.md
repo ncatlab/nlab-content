@@ -20,7 +20,7 @@ The _Segal condition_ is a condition on a [[simplicial object]] $X_\bullet \in \
 
 Hence if one thinks of $X_0$ as a collection of [[objects]] and of $X_1$ as a collection of [[morphisms]], then $X_\bullet$ satisfies the Segal condition precisely if each $X_{n \geq 2}$ can be interpreted as the collection of sequences of [[composition|composable]] morphisms of length $n$. The precise formulation is below in _[Definition -- For simplicial objects](#ForSimplicialObjects)_.
 
-Accordingly, if $\mathcal{C} = $ [[Set]] is the category of [[sets]], then the Segal condition characterizes precisely those [[simplicial sets]] which are the [[nerve]] of a [[small category]], theorem \ref{NerveTheorem} below. This is the observation due to [Grothendieck 1961](#Grothendieck61) as recalled in [Segal 1968](#Segal68)), which today gives the Segal condition its name. Sometimes this statement also called the _nerve theorem_ (no relation to what is called _[[nerve theorem]]_ in [[homotopy theory]]).
+Accordingly, if $\mathcal{C} = $ [[Set]] is the category of [[sets]], then the Segal condition characterizes precisely those [[simplicial sets]] which are the [[nerve]] of a ([[strict category|strict]]) [[small category]], theorem \ref{NerveTheorem} below. This is the observation due to [Grothendieck 1961](#Grothendieck61) as recalled in [Segal 1968](#Segal68)), which today gives the Segal condition its name. Sometimes this statement also called the _nerve theorem_ (no relation to what is called _[[nerve theorem]]_ in [[homotopy theory]]).
 
 It is useful to decompose this statement into its constituents as follows: 
 
