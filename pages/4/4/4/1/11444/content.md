@@ -71,6 +71,13 @@ The definition of Real cobordism cohomology goes back to:
 
 * {#Landweber68} [[Peter Landweber]], _Conjugations on complex manifolds and equivariant homotopy of $MU$_, Bulletin of the American Mathematical Society **74** (1968) 271-274 &lbrack;[Euclid](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-74/issue-2/Conjugations-on-complex-manifolds-and-equivariant-homotopy-of-MU/bams/1183529527.full)&rbrack;
 
+and in the broader context of [[real-oriented cohomology theories]]:
+
+* {#Araki78} [[Shôrô Araki]], *$\tau$-Cohomology Theories*, Japanese Journal of Mathematics **4** 2 (1978) 363-416 &lbrack;[doi:10.4099/math1924.4.363](https://doi.org/10.4099/math1924.4.363)&rbrack;
+
+* {#Araki79} [[Shôrô Araki]], *Forgetful spectral sequences*, Osaka Journal of Mathematics **16** 1 (1979) 173-199 &lbrack;[Euclid](https://projecteuclid.org/journals/osaka-journal-of-mathematics/volume-16/issue-1/Forgetful-spectral-sequences/ojm/1200771837.full)&rbrack;
+
+* [[Shôrô Araki]], *Orientations in $\tau$-cohomology theories*, Japan Journal of Mathematics (N.S.) **5** 2 (1979) 403-430 &lbrack;[doi:10.4099/math1924.5.403](https://doi.org/10.4099/math1924.5.403)&rbrack;
 
 The [[Adams spectral sequence]] for Real cobordism:
 
