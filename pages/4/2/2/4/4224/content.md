@@ -160,9 +160,9 @@ The corresponding fact is also notably false for [[groupoids]], i.e. $Gpd(Stone)
 
 * G. D. Dimov, Some generalizations of the Stone Duality Theorem, Publ. Math. Debrecen 80/3-4 (2012), 255--293.
 
-* G. Dimov, E. Ivanova-Dimova, [[W. Tholen]], _Categorical extension of dualities: From Stone to de Vries and beyond, I._ Appl Categor Struct 30, 287–329 (2022) [doi](https://doi.org/10.1007/s10485-021-09658-6)
+* G. Dimov, E. Ivanova-Dimova, [[W. Tholen]], _Categorical extension of dualities: From Stone to de Vries and beyond, I._ Appl. Categ. Struct. 30, 287–329 (2022) [doi](https://doi.org/10.1007/s10485-021-09658-6)
 
-* H. P. Doctor, The categories of Boolean lattices, Boolean rings and Boolean spaces, Canad. Math. Bulletin 7 (1964), 245--252.
+* H. P. Doctor, _The categories of Boolean lattices, Boolean rings and Boolean spaces_, Canad. Math. Bulletin 7 (1964), 245--252 [doi](https://doi.org/10.4153/CMB-1964-022-6)
 
 * [[Jacob Lurie]], section A.1.1 of _[[Spectral Algebraic Geometry]]_.
 
