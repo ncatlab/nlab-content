@@ -742,7 +742,7 @@ This discussion so far concerns field theories of first order, i.e. where the La
 
 A comprehensive source on covariant field theory with plenty of further references is
 
-* Mark J. Gotay, James Isenberg, [[Jerrold Marsden]], Richard Montgomery, _Momentum Maps and Classical Relativistic Fields. Part I: Covariant Field Theory_ ([arXiv:physics/9801019](http://arxiv.org/abs/physics/9801019))
+* Mark J. Gotay, James Isenberg, [[Jerrold Marsden]], Richard Montgomery, _Momentum maps and classical relativistic fields. Part I: covariant field theory_ ([arXiv:physics/9801019](http://arxiv.org/abs/physics/9801019))
 
 Much of the material in the [section on covariant field theory](#extended phase space) is based on this.
 
@@ -750,7 +750,7 @@ Other discussions include
 
 * {#Helein02} [[Frédéric Hélein]], _Hamiltonian formalisms for multidimensional calculus of variations and perturbation theory_ ([arXiv:math-ph/0212036](http://arxiv.org/abs/math-ph/0212036))
   
-* [[Narciso Román-Roy]], _Multisymplectic Lagrangian and Hamiltonian Formalisms of Classical Field Theories_, SIGMA 5 (2009), 100 ([journal](http://www.emis.de/journals/SIGMA/2009/100/), [arXiv:math-ph/0506022](http://arxiv.org/abs/math-ph/0506022)) 
+* [[Narciso Román-Roy]], _Multisymplectic Lagrangian and Hamiltonian formalisms of classical field theories, SIGMA 5 (2009), 100 ([journal](http://www.emis.de/journals/SIGMA/2009/100/), [arXiv:math-ph/0506022](http://arxiv.org/abs/math-ph/0506022)) 
 
 
 The relation to [[covariant phase space]] methods is discussed in 
@@ -765,12 +765,6 @@ A discussion of [[Hamiltonian n-forms]] as [[observables]] is in
 Other texts include
 
 * [[Carlo Rovelli]], _Covariant hamiltonian formalism for field theory: Hamilton-Jacobi equation on the space $\mathcal{G}$_ ([arXiv:gr-qc/0207043](http://arxiv.org/abs/gr-qc/0207043))
-
-
-* xyz...
-
-
-
 
 Much of the above [survey of recent developments](#SurveyDevelopments) and of the following list of references is reproduced from the web-page
 
@@ -826,14 +820,15 @@ In G. E. Kaiser, J. E. Marsden, Geometric methods in mathematical physics, Proc.
 
 * [21] D. J. Saunders, _The Geometry of Jet Bundles_ Lond. Math. Soc. Lect. Notes Ser. 142, Cambr. Univ. Pr., Cambridge, 1989.
 
-A [[higher category theory|higher categorial]] interpretation of [[2-plectic geometry]] is given in
+A [[higher category theory|higher categorial]] interpretation of [[2-plectic geometry]] and connection to $L_\infty$-algebras is given in
 
-* [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_. [arXiv:0901.4721](http://arxiv.org/abs/0901.4721).
+* [[John Baez]], [[Chris Rogers]], _Categorified symplectic geometry and the string Lie 2-algebra_. [arXiv:0901.4721](http://arxiv.org/abs/0901.4721).
 
-* [[John Baez]], Alexander E. Hoffnung, [[Chris Rogers]], _Categorified Symplectic Geometry and the Classical String_ ([arXiv:0808.0246](http://arxiv.org/abs/0808.0246/))
+* [[John Baez]], Alexander E. Hoffnung, [[Chris Rogers]], _Categorified symplectic geometry and the classical string_ ([arXiv:0808.0246](http://arxiv.org/abs/0808.0246/))
 
-* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
+* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068)); _$L_\infty$-algebras from multisymplectic geometry_, Lett. Math. Phys., 100(1):29–50 (2012); _2-plectic geometry, Courant algebroids, and categorified prequantization_, J. Symplectic Geom. 11(1):53–91 (2013)
 
+* Antonio Michele Miti, [[Marco Zambon]], _Observables on multisymplectic manifolds and higher Courant algebroids_, [arXiv:2209.05836](https://arxiv.org/abs/2209.05836)
 
 Higher order [[moment maps]] are considered in
 
@@ -843,14 +838,14 @@ Higher order [[moment maps]] are considered in
 
 A [[higher differential geometry]]-generalization of [[contact geometry]] in line with multisymplectic geometry/[[n-plectic geometry]] is discussed in 
 
-* Luca Vitagliano, _L-infinity Algebras From Multicontact Geometry_ ([arXiv.1311.2751](http://arxiv.org/abs/1311.2751))
- 
+* Luca Vitagliano, _$L_\infty$ algebras from multicontact geometry_, Diff. Geom. Appl. __39__ (2015) 147-165 [arXiv:1311.2751](http://arxiv.org/abs/1311.2751) [doi](https://doi.org/10.1016/j.difgeo.2015.01.006)
+
 
 ### Relation to covariant phase space formalism
 
 The relation of multisymplectic formalism to [[covariant phase space]] and [[variational bicomplex]] methods is discussed in 
 
-* [[Michael Forger]], [[Sandro Romero]], _Covariant Poisson Brackets in Geometric Field Theory._, Commun. Math. Phys. 256 (2005) 375-410, ([arXiv:math-ph/0408008](http://arxiv.org/abs/math-ph/0408008))
+* [[Michael Forger]], [[Sandro Romero]], _Covariant Poisson brackets in geometric field theory._, Commun. Math. Phys. 256 (2005) 375-410, ([arXiv:math-ph/0408008](http://arxiv.org/abs/math-ph/0408008))
  {#ForgerRomero04}
 
 * [[Narciso Román-Roy]], _Multisymplectic Lagrangian and Hamiltonian Formalisms of Classical Field Theories_, SIGMA 5 (2009), 100, 25 pages ([arXiv:math-ph/0506022](http://arxiv.org/abs/math-ph/0506022))
