@@ -1257,9 +1257,11 @@ and in the context of [[differential K-theory]] in
 
 * {#SimonsSullivan08} [[James Simons]], [[Dennis Sullivan]], _Structured vector bundles define differential K-theory_ ([arXiv:0810.4935](http://arxiv.org/abs/0810.4935))
 
-proven also in
+discussed also in
 
 * {#FreedLott10} [[Daniel Freed]], [[John Lott]], _An index theorem in differential K-theory_, Geometry and Topology 14 (2010) ([pdf](http://math.berkeley.edu/~lott/gt-2010-14-021p.pdf))
+
+* Jiahao Hu, *Characterization of differential K-theory by hexagon diagram* &lbrack;[arXiv:2209.04925](https://arxiv.org/abs/2209.04925)&rbrack;
 
 
 An artistic impression of the differential cohomology hexagon as a dance choreography inspired by a talk by [[James Simons]] is at
