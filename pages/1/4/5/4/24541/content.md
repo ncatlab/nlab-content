@@ -72,6 +72,8 @@ Only in univalent categories are such functors the same as [[adjoint equivalence
 
 * [[complete Segal space]]
 
+* [[pregroupoid]]
+
 ## References
 
 * {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
