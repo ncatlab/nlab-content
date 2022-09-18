@@ -30,10 +30,13 @@ See also
 
 * Klaus Bering, [[Tom Lada]], _Examples of Homotopy Lie Algebras_ Archivum Mathematicum ([arXiv:0903.5433](http://arxiv.org/abs/0903.5433))
  
+Comprehensive survey with emphasis on [[L-infinity algebra cohomology]]:
 
-A detailed reference for [[Lie 2-algebras]] is:
+* Ben Reinhold, *$L_\infty$-algebras and their cohomology*, Emergent Scientist **3** 4 (2019) &lbrack;[doi:10.1051/emsci/2019003](https://doi.org/10.1051/emsci/2019003)&rbrack;
 
-* [[John Baez]] and Alissa Crans, _Higher-dimensional algebra VI: Lie 2-algebras_, [TAC](http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html) 12, (2004), 492--528. ([arXiv:math/0307263](http://arxiv.org/abs/math/0307263))
+Review for the special case of [[Lie 2-algebras]] with emphasis on the perspective of [[categorification]]:
+
+* [[John Baez]], [[Alissa Crans]], _Higher-dimensional algebra VI: Lie 2-algebras_, [TAC](http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html) 12, (2004), 492--528. ([arXiv:math/0307263](http://arxiv.org/abs/math/0307263))
  
 ### As models for rational homotopy types
 
