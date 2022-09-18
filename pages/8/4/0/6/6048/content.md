@@ -368,7 +368,7 @@ Discussion of the history includes
 
 ### Decoupled worldvolume theory
 
-On the [[BLG model]]/[[ABJM model]] for the [[worldvolume]]-theory of [[coindicent branes|coincident]] [[M2-branes]] see there.
+On the [[BLG model]]/[[ABJM model]] for the [[worldvolume]]-theory of [[coincident branes|coincident]] [[M2-branes]] see there.
 
 Review:
 
@@ -421,7 +421,7 @@ Discussion of [[M2-M5 brane bound states]], i.e.
 
 * [[George Papadopoulos]], [[Dimitrios Tsimpis]], _The holonomy of the supercovariant connection and Killing spinors_, JHEP 0307:018, 2003 ([arXiv:hep-th/0306117](https://arxiv.org/abs/hep-th/0306117))
 
-* {#Petri18} Nicolò Petri, slide 14 of _Surface defects in massive IIA_, talk at [Recent Trends in String Theory and Related Topics](http://physics.ipm.ac.ir/conferences/stringtheory3/) 2018 ([pdf](http://physics.ipm.ac.ir/conferences/stringtheory3/note/N.Petri.pdf))
+* {#Petri18} [[Nicolò Petri]], slide 14 of _Surface defects in massive IIA_, talk at [Recent Trends in String Theory and Related Topics](http://physics.ipm.ac.ir/conferences/stringtheory3/) 2018 ([pdf](http://physics.ipm.ac.ir/conferences/stringtheory3/note/N.Petri.pdf))
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
 
