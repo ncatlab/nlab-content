@@ -38,7 +38,7 @@ By a *category with an atlas* we shall mean a [[category]] $\mathcal{C}$ which i
   \mathcal{C}
 \]
 
-from a [[set]] (or [[class]]) $C_0$ regarded as a ([[large category|large]]) [[discrete category]]. 
+from a [[set]] (or [[class]]) $C_0$ regarded as a ([[large category|large]]) [[discrete category]]. This is also known as a *[[flagged category]]* (in which case one would allow the [[domain]] $C_0$ to be itself a [[groupoid]], but one could agree to do the same here).
 
 This is an "invariant"  or "intrinsic" way of speaking (namely [[internal language|internal]] to the [[2-topos]] [[CAT]]) about categories which are equipped with a notion of a fixed class of objects. Another terminology for this is "[[strict categories]]", but saying "category with atlas" naturally connects to the well-established notion of *[[atlas]]* in the context of [[stacks]], maybe most commonly used in the literature on [[topological stacks]]: 
 
@@ -46,7 +46,7 @@ An [[atlas]] for a [[topological stack]] $\mathscr{X}$ is classically taken to b
 
 By the [[Giraud-Rezk-Lurie theorem]], this state of affairs holds in any [[(2,1)-topos]] of [[stacks]]: The ("strict"!) [[groupoid object in an (infinity,1)-category|groupoid objects]] in the underlying [[1-topos]] are equivalently the *[[stacks]] equipped with an [[atlas]]*, namely equivalently objects in the [[(2,1)-topos]] equipped with an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] out of a [[0-truncated]] object.
 
-If here the the underlying [[site]] is the [[terminal category]], then "stacks" are [[groupoids]] regarded up to [[equivalence of groupoids]] (i.e. as objects of the [[(2,1)-category [[Grpd]], and "stacks with atlas" are groupoids equipped with a choice of a fixed set of objects, hence "strict groupoids". This is just the notion of "category with an atlas" restricted to categories that happen to be groupoids. 
+If here the the underlying [[site]] is the [[terminal category]], then "stacks" are [[groupoids]] regarded up to [[equivalence of groupoids]] (i.e. as objects of the [[(2,1)-category]] [[Grpd]], and "stacks with atlas" are groupoids equipped with a choice of a fixed set of objects, hence "strict groupoids". This is just the notion of "category with an atlas" restricted to categories that happen to be groupoids. 
 
 In short, we have the following dictionary between "stack theory" and [[category theory]] (which are unified in [[2-topos theory]]):
 
@@ -119,9 +119,9 @@ Such morphisms are evidently equivalent (by [[2-morphisms]] in $CAT^{C_0/}$) to
 
 ## References
 
-A generalization of the notion to [[higher category theory]] is considered (under the name "flagged categories") in
+A generalization of the notion to [[higher category theory]] is considered (under the name "[[flagged categories]]") in
 
-* [[David Ayala]], [[John Francis]], Def. 0.12 of: *Flagged higher categories*, in: *Topology and Quantum Theory in Interaction*,  Contemporary Mathematics **718**, AMS (2018) &lbrack;[arXiv:1801.08973](https://arxiv.org/abs/1801.08973), [ISBN:978-1-4704-4941-4](https://bookstore.ams.org/conm-718)&rbrack;
+* {#AyalaFrancis18} [[David Ayala]], [[John Francis]], Def. 0.12 of: *Flagged higher categories*, in: *Topology and Quantum Theory in Interaction*,  Contemporary Mathematics **718**, AMS (2018) &lbrack;[arXiv:1801.08973](https://arxiv.org/abs/1801.08973), [ISBN:978-1-4704-4941-4](https://bookstore.ams.org/conm-718)&rbrack;
 
 
 
