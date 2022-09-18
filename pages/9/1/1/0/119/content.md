@@ -59,23 +59,15 @@ such that
 
 ### In homotopy type theory
 
-A __preorder__ $A$ in [[homotopy type theory]] consists of the following: 
+In [[homotopy type theory]], we must be careful to distinguish _preorders_ (on a homotopy type of arbitrary [[h-level]]) and _preordered sets_ (which apply to an [[h-set]]). When translating ordinary, set-level mathematics to HoTT, preordered sets are almost always what is wanted. A preorder on a type $A$ consists of:
 
-* A homotopy type $A_0$, whose terms $a:A_0$ we write as $a:A$.  
-* For every $a, b:A$, a proposition $p: a \leq_A b$ 
-* For every $a:A$, a proposition $refl_a: a \leq_A a$ called reflexivity
-* For every $a, b, c:A$, a function 
-$$(a \leq_A b) \rightarrow (b \leq_A c) \rightarrow (a \leq_A c)$$
-called transitivity, and denoted infix as an implication by $p \implies q \implies p \wedge q$
-* For every $a,b:A$, and $p: a \leq b$ we have $p \iff refl_a \wedge p$ and $p \iff p \wedge refl_b$
-* For every $a,b,c,d:A$ and $p:a\leq b$, $q:b\leq c$, $r:c\leq d$, we have $p \wedge (q \wedge r) \iff (p \wedge q) \wedge r$. 
+* For each pair of elements $a, b : A$, a [[mere proposition | proposition]] $a \le b$;
 
-A proposition $p:a \leq b$ is an __equivalence relation__ if there is a proposition $q:b \leq a$ such that $p \wedge q \iff refl_a$ and $q \wedge p \iff refl_b$. We write $a ~_A b$ for the type of such equivalence relation, which is also a proposition. 
+* For every $a : A$, a witness of _reflexivity_ $\operatorname{refl}_a : a \le a$
 
-The only relationship between the equivalence relation $a ~_A b$ as defined and the [[identity type]] $Id_A(a, b)$ for $a,b:A$ is that there exists a function 
-$$idtoeq_{a,b}: Id_A(a,b) \rightarrow a ~_A b$$
+* For every $a, b, c : A$, $p : a \le b$ and $q : b \le c$, a witness of _transitivity_ $\operatorname{trans}_{a,b,c}(p, q) : a \le c$.
 
-A __preordered set__ or __proset__ is a preorder such that the type $A_0$ is [[0-truncated]], and a __partial order__ is a preorder such that for every $a,b:A$, the function $idtoeq_{a,b}$ is a homotopy equivalence. A __partially ordered set__ or __poset__ is a preordered set and a partial order. Every set is the [[core]] of a proset. 
+Note that, as usual, the quantifiers "for each" and "for every" should be interpreted as applications of the corresponding [[dependent function types]]. Every homotopy type $A$ has an [[h-set]] of possible preordered structures, but the [[dependent sum type|sum]] of all possible structures has h-level bounded by $A$'s.
 
 ## Properties
 
@@ -83,7 +75,9 @@ A __preordered set__ or __proset__ is a preorder such that the type $A_0$ is [[0
 
 Any preordered set is [[equivalence of categories|equivalent]] to a [[partial order|poset]].  This is a special case of the theorem that every category has a [[skeleton]], but (if you define 'equivalence' weakly enough) this case does _not_ require the [[axiom of choice]].
 
-If the [[foundations]] have [[quotient sets]], then every preorder has a quotient set equivalent to a poset. Let $(P, \leq)$ be a preorder. Define the [[equivalence relation]] $\sim$ on $P$ for all elements $a, b \in P$ as $a \sim b := (a \leq b) \wedge (b \leq a)$. Then the quotient set $P / \sim$ is a poset. This is the 0-truncated version of the fact that because every [[category object in an (infinity,1)-category|precategory]] has a [[core]] [[groupoid object in an (infinity,1)-category|pregroupoid]] and every pregroupoid has a Rezk completion into a [[groupoid]], every precategory has a Rezk completion into a [[category]]. 
+If the [[foundations]] have [[quotient sets]], then every preorder has a quotient set equivalent to a poset. Let $(P, \leq)$ be a preorder. Define the [[equivalence relation]] $\sim$ on $P$ for all elements $a, b \in P$ as $a \sim b := (a \leq b) \wedge (b \leq a)$. Then the quotient set $P / \sim$ is a poset. This is the 0-truncated version of the fact that because every [[category object in an (infinity,1)-category|precategory]] has a [[core]] [[groupoid object in an (infinity,1)-category|pregroupoid]] and every pregroupoid has a Rezk completion into a [[groupoid]], every precategory has a Rezk completion into a [[category]].
+
+Note that while in [[homotopy type theory]], preorders can be applied to general types (thus the need for differentiating between preorders and preordered _sets_), partial orders necessarily apply to sets: Any map $p : (a \le b) \wedge (b \le a) \to (a = b)$ is necessarily a fibrewise equivalence (fixing $a$ and quantifying over $b$), since it induces an equivalence of total spaces. Thus, the codomain type $(a = b)$ is a proposition, since the domain $(a \le b) \wedge (b \le a)$, being a product of propositions, is a proposition.
 
 ### Relation to thin categories
 
