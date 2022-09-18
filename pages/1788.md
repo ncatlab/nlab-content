@@ -1,4 +1,22 @@
 
+
+\begin{tikzcd}
+  \mathrm{Top}_{(0,1)}
+  \ar[rr, "\mathrm{Sh}(-)"]
+  \ar[d, "{\mathrm{forget}}"{pos=.9,yshift=5pt,sloped}]
+  \ar[drr, phantom, "{\#}"]
+  &&
+  \mathrm{Top}_{(1,1)}
+  \ar[d, "{\mathrm{forget}}"{pos=.9,yshift=5pt,sloped}]
+  \\
+  \mathrm{Cat}_{(0,1)}
+  \ar[rr, hook]
+  &&
+  \mathrm{Cat}_{(1,1)}  
+\end{tikzcd}
+
+
+
 ## Idea
 
 play around with the editing functionality
