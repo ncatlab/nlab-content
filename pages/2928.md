@@ -51,7 +51,7 @@ On [[algebras]] and other [[mathematical structures]] where this makes sense, an
 \linebreak
 A [[topological space]] equipped with an involutive [[homeomorphism]] is sometimes called a *[[real space]]* (at least in the context of [[KR-theory]]).
 
-In view of Rem. \ref{InvolutionsAreZModTwoActions}, involutions on topological spaces are equivalently known as *[[topological G-spaces]] for $G = $ [[cyclic group of order 2|\mathbb{Z}/2$]]*. The case of [[n-spheres]] with involution is discussed [here](group+actions+on+spheres#Involutions).
+In view of Rem. \ref{InvolutionsAreZModTwoActions}, involutions on topological spaces are equivalently known as *[[topological G-spaces]]* for $G = $[[cyclic group of order 2|$\mathbb{Z}/2$]]. The case of [[n-spheres]] with involution is discussed [here](group+actions+on+spheres#Involutions).
 \end{remark}
 
 
