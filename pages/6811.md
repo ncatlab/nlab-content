@@ -13,14 +13,17 @@ On [[D4-D8 brane bound states]] as [[black branes]], and [[holographic QCD]]:
 
 * {#Nastase03} [[Horatiu Nastase]], Sections 2, 3 of: _On Dp-Dp+4 systems, QCD dual and phenomenology_ ([arXiv:hep-th/0305069](https://arxiv.org/abs/hep-th/0305069))
 
-On the [[AdS/CFT correspondence]]
-
+On the [[AdS/CFT correspondence]]:
 
 * [[Horatiu Nastase]], _Introduction to AdS-CFT_ ([arXiv:0712.0689](http://arxiv.org/abs/0712.0689))
 
 * [[Horatiu Nastase]], _Introduction to AdS/CFT correspondence_, Cambridge University Press, 2015 ([cds:1984145](http://cds.cern.ch/record/1984145), [doi:10.1017/CBO9781316090954](https://doi.org/10.1017/CBO9781316090954))
 
 * {#Nastase18} [[Horatiu Nastase]], _Towards deriving the AdS/CFT correspondence_ ([arXiv:1812.10347](https://arxiv.org/abs/1812.10347))
+
+On the [[AdS/CMT correspondence]]:
+
+* [[Horatiu Nastase]], *String Theory Methods for Condensed Matter Physics*, Cambridge University Press (2017) &lbrack;[doi:10.1017/9781316847978](https://doi.org/10.1017/9781316847978) &rbrack;
 
 
 
