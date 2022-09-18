@@ -22,7 +22,7 @@ The proof can be divided into three parts. Recall that "second-countable" means 
 
 1. A [[regular space]] with a countable base is [[normal space|normal]]. 
 
-1. A normal space $X$ is a [[completely regular space]], i.e., given a point $x \in X$ and an open set $U \subseteq X$ containing $x$, there exists a continuous function $f: X \to [0, 1]$ such that $f(x) = 1$ and $f(x) = 0$ for $x \notin U$. 
+1. A normal space $X$ is a [[completely regular space]], i.e., given a point $x \in X$ and an open set $U \subseteq X$ containing $x$, there exists a continuous function $f: X \to [0, 1]$ such that $f(x) = 1$ and $f(y) = 0$ for $y \notin U$. 
 
 1. A completely regular space $X$ with a countable base can be embedded in the [[Hilbert cube]] $[0, 1]^\mathbb{N}$. Since $[0, 1]^\mathbb{N}$ is metrizable, so is $X$. 
 
