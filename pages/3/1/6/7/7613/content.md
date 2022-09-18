@@ -450,11 +450,7 @@ Despite the magic and mystery, the relation to the original abbreviation for _me
 * [[Paul Townsend]], _M(embrane) theory on $T^0$_, Nucl. Phys. Proc. Suppl. 68:11-16, 1998 ([arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034))
 
 
-More recent review includes
-
-* {#ObersPioline98} N.A. Obers, B. Pioline, _U-duality and M-Theory_, Phys.Rept.318:113-225,1999 ([arXiv:hep-th/9809039](http://arxiv.org/abs/hep-th/9809039))
-
-Early articles clarifying the relation to [[type II string theory]] now known as [[F-theory]] include
+Early articles clarifying the relation to [[type II string theory]] now known as [[F-theory]]:
 
 * {#Schwarz95} [[John Schwarz]], _The Power of M Theory_, Phys.Lett. B367 (1996) 97-103 ([arXiv:hep-th/9510086](http://arxiv.org/abs/hep-th/9510086))
 
@@ -462,9 +458,16 @@ Early articles clarifying the relation to [[type II string theory]] now known as
 
 The relation also to the [[heterotic string]] was understood in ([Horava-Witten 95](#HoravaWitten95))&#10075; see at _[[Horava-Witten theory]]_.
 
-More technical surveys include
+Early review:
 
-* [[Paul Townsend]], _Four Lectures on M-theory_,  procs. of the ICTP summer school on High Energy Physics and Cosmology, Trieste, June 1996. ([arXiv:hep-th/9612121](http://arxiv.org/abs/hep-th/9612121))
+* [[Paul Townsend]], _Four Lectures on M-theory_,  in: Proceedings of the ICTP summer school on High Energy Physics and Cosmology, Trieste, June 1996. ([arXiv:hep-th/9612121](http://arxiv.org/abs/hep-th/9612121))
+
+* {#ObersPioline98} N. A. Obers, B. Pioline, _U-duality and M-Theory_, Phys. Rept. **318** 113-225,1999 ([arXiv:hep-th/9809039](http://arxiv.org/abs/hep-th/9809039))
+
+* [[John Schwarz]], *Introduction to M Theory and AdS/CFT Duality* &lbrack;[arXiv:hep-th/9812037](https://arxiv.org/abs/hep-th/9812037)&rbrack;
+
+  >  (with an eye towards [[AdS/CFT duality]])
+
 
 Surveys of the discussion of E-series [[Kac-Moody algebras]]/[[Kac-Moody groups]] in the context of M-theory include 
 
