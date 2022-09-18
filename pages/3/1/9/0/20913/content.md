@@ -75,6 +75,10 @@ On [[supersymmetry|supersymmetric]] [[spin chains]] carrying [[braid group repre
 
 * Indrajit Jana, Filippo Montorsi, Pramod Padmanabhan, Diego Trancanelli, *Topological Quantum Computation on Supersymmetric Spin Chains* &lbrack;[arXiv:2209.03822](https://arxiv.org/abs/2209.03822)&rbrack;
 
+On [[topological phases]] (i.e. gapped  [[ground states]]) of spin chains:
+
+* [[Houssam Abdul-Rahman]], Marius Lemm, Angelo Lucia, [[Bruno Nachtergaele]], Amanda Young,  *A class of two-dimensional AKLT models with a gap*, in: *Analytic Trends in Mathematical Physics*,  Contemporary Mathematics **741**,  AMS (2020) &lbrack;[arXiv:1901.09297](https://arxiv.org/abs/1901.09297), [doi:10.1090/conm/741/14917](https://doi.org/10.1090/conm/741/14917)&rbrack;
+
 
 
 [[!redirects spin chains]]
