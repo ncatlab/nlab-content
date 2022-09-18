@@ -96,7 +96,7 @@ This echoes how one might understand the definition in [[univalent foundations]]
 
 Alternatively, we could avoid the equality on objects by requiring only that every [[automorphism]] $f : a \cong a$ be equal to the identity at $a$. This amounts to requiring that the [[core]] be a [[thin category]], i.e., that parallel isomorphisms are equal.  A category has this property if and only if it is *equivalent* to a gaunt one.
 
-Incidentally, we may view both strict categories and categories up to equivalence as embedded in the type of [[flagged categories]]. Recall that a flagged category consists of a category $C$, a groupoid $X$, and an essentially surjective functor $p:X\to C$. In this way, we can view categories as those flagged categories where $p$ is an equivalence onto the core of $C$, and strict categories as those flagged categories where $X$ is a set (up to homotopy). The intersection of the categories and the strict categories within the type of flagged categories is then exactly this type of core-thin categories.  (This is the semantics in [[Gpd]] of the fact that in [[homotopy type theory]], the gaunt categories are precisely the strict and univalent categories.)
+{#Incidentally} Incidentally, we may view both [[strict categories]] and categories up to [[equivalence of categories|equivalence]] as embedded in the type of [[flagged categories]]. Recall that a [[flagged category]] consists of a category $C$, a [[groupoid]] $X$, and an [[essentially surjective functor]] $p \colon X \to C$. In this way, we can view categories as those [[flagged categories]] where $p$ is an [[equivalence of groupoids|equivalence]] onto the [[core]] of $C$, and [[strict categories]] as those flagged categories where $X$ is a [[set]] (up to homotopy: an "[[h-set]]"): see at *[[category with an atlas]]*. The [[intersection]] of categories-up-to-equivalence and [[strict categories]] within the type of flagged categories is then exactly this type of core-thin categories.  (This is the semantics in [[Gpd]] of the fact that in [[homotopy type theory]], the gaunt categories are precisely the [[strict category|strict]] and [[univalent categories]].)
 
 ## See also
 
@@ -116,8 +116,8 @@ Incidentally, we may view both strict categories and categories up to equivalenc
 
 The term "gaunt category" was apparently introduced in 
 
-* [[Clark Barwick]], [[Chris Schommer-Pries]], _On the Unicity of the Homotopy Theory of Higher Categories_ ([arXiv:1112.0040](http://arxiv.org/abs/1112.0040), [slides](http://prezi.com/w0ykkhh5mxak/the-uniqueness-of-the-homotopy-theory-of-higher-categories/))
- {#BarwickSchommerPries}
+* {#BarwickSchommerPries} [[Clark Barwick]], [[Chris Schommer-Pries]], _On the Unicity of the Homotopy Theory of Higher Categories_ ([arXiv:1112.0040](http://arxiv.org/abs/1112.0040), [slides](http://prezi.com/w0ykkhh5mxak/the-uniqueness-of-the-homotopy-theory-of-higher-categories/))
+
 
 in the context of a discussion of [[(infinity,n)-categories]].
 
