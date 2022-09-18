@@ -38,15 +38,17 @@ By a *category with an atlas* we shall mean a [[category]] $\mathcal{C}$ which i
   \mathcal{C}
 \]
 
-from a [[set]] (or [[class]]) $C_0$ regarded as a ([[large category|large]]) [[discrete category]]. This is an "invariant"  or "intrinsic" way of speaking (namely [[internal language|internal]] to the [[2-topos]] [[CAT]]) about categories which are equipped with a notion of a fixed class of objects. Another terminology for this is "[[strict categories]]", but saying "category with atlas" naturally connects to the well-established notion of *[[atlas]]* in the context of [[stacks]], maybe most commonly used in the literature on [[topological stacks]]: 
+from a [[set]] (or [[class]]) $C_0$ regarded as a ([[large category|large]]) [[discrete category]]. 
+
+This is an "invariant"  or "intrinsic" way of speaking (namely [[internal language|internal]] to the [[2-topos]] [[CAT]]) about categories which are equipped with a notion of a fixed class of objects. Another terminology for this is "[[strict categories]]", but saying "category with atlas" naturally connects to the well-established notion of *[[atlas]]* in the context of [[stacks]], maybe most commonly used in the literature on [[topological stacks]]: 
 
 An [[atlas]] for a [[topological stack]] $\mathscr{X}$ is classically taken to be a [[topological space]] $X_0$ and an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] $X_0 \twoheadrightarrow \mathscr{X}$. Given this, its [[homotopy fiber product|homotopy]]-[[Cech nerve]] $X_0 \times_{\mathscr{X}} X_0 \rightrightarrows X_0$ is known as the corresponding *[[topological groupoid]]*, whose space of [[objects]] is nothing but $X_0$. 
 
-By the [[Giraud-Rezk-Lurie theorem]], this state of affairs holds in any [[(2,1)-topos]] of [[stacks]]: The [[groupoid object in an (infinity,1)-category|groupoid objects]] in the underlying [[1-topos]] are equivalently the [[stacks]] equipped with an atlas, namely the objects in the [[(2,1)-topos]] which are equipped with an effective epimorphism out of a [[0-truncated]] object.
+By the [[Giraud-Rezk-Lurie theorem]], this state of affairs holds in any [[(2,1)-topos]] of [[stacks]]: The ("strict"!) [[groupoid object in an (infinity,1)-category|groupoid objects]] in the underlying [[1-topos]] are equivalently the *[[stacks]] equipped with an [[atlas]]*, namely equivalently objects in the [[(2,1)-topos]] equipped with an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] out of a [[0-truncated]] object.
 
-If here the the underlying [[site]] is the [[terminal category]], then "stacks" are groupoids regarded up to [[equivalence of groupoids]] and "stacks with atlas" are groupoids equipped with a choice of a fixed set of objects. This is just the notion of "category with an atlas" restricted to categories that happen to be groupoids. 
+If here the the underlying [[site]] is the [[terminal category]], then "stacks" are [[groupoids]] regarded up to [[equivalence of groupoids]] (i.e. as objects of the [[(2,1)-category [[Grpd]], and "stacks with atlas" are groupoids equipped with a choice of a fixed set of objects, hence "strict groupoids". This is just the notion of "category with an atlas" restricted to categories that happen to be groupoids. 
 
-In short, we have the following dictionary:
+In short, we have the following dictionary between "stack theory" and [[category theory]] (which are unified in [[2-topos theory]]):
 
 | stack theory  | stack theory over the point | category theory |
 |---------------|----------------------------|-----------------|
@@ -78,7 +80,7 @@ For example, the correct category of categories-with-atlas is evidently the full
   \ar[from=s, to=t, Rightarrow, "\sim"{sloped}]
 \end{tikzcd}
 
-Similarly, for a given [[class]] $C_0$ of objects are naturally the morphisms in the analogous full sub-$(2,1)$-category of the [[co-slice category|co-slice]] of [[CAT]] under $C_0$ are of the form:
+Similarly, for a given [[class]] $C_0$ of objects, the morphisms in the analogous full sub-$(2,1)$-category of the [[co-slice category|co-slice]] of [[CAT]] under $C_0$ are of the form:
 
 \begin{tikzcd}
   & 
@@ -93,7 +95,8 @@ Similarly, for a given [[class]] $C_0$ of objects are naturally the morphisms in
   \ar[from=s, to=t, Rightarrow, "\sim"{sloped}]
 \end{tikzcd}
 
-Notice that this is slightly more general than what one might call an "[[identity-on-objects functor]]", but it naturally appears in practice. 
+Such morphisms are evidently equivalent (by [[2-morphisms]] in $CAT^{C_0/}$) to 
+"[[identity-on-objects functors]]".
 
 
 \linebreak
@@ -118,7 +121,7 @@ Notice that this is slightly more general than what one might call an "[[identit
 
 A generalization of the notion to [[higher category theory]] is considered (under the name "flagged categories") in
 
-* [[David Ayala]], [[John Francis]], Def. 0.12 of: *Flagged higher categories*, in *Topology and Quantum Theory in Interaction*. Contemporary Mathematics **718** (2018) &lbrack[arXiv:1801.08973](https://arxiv.org/abs/1801.08973)&rbrack;
+* [[David Ayala]], [[John Francis]], Def. 0.12 of: *Flagged higher categories*, in: *Topology and Quantum Theory in Interaction*,  Contemporary Mathematics **718**, AMS (2018) &lbrack;[arXiv:1801.08973](https://arxiv.org/abs/1801.08973), [ISBN:978-1-4704-4941-4](https://bookstore.ams.org/conm-718)&rbrack;
 
 
 
