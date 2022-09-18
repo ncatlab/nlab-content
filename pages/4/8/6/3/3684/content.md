@@ -130,6 +130,8 @@ London Math. Soc. Lec. Note Ser. __151__, Cambridge Univ. Press 1990.
 
 * Paolo Piccione, Daniel Victor Tausk, _A student's guide to symplectic spaces, Grassmannians and Maslov index_, IMPA 2011, [pdf](http://www.impa.br/opencms/pt/biblioteca/pm/PM_27.pdf)
 
+* M. V. Finkelberg, _Orthogonal Maslov index_, Funct. Anal. Appl. 29(1) 72–74 (1995) [doi](https://doi.org/10.1007/bf01077047)
+
 Application in the theory of Schroedinger operators:
 
 * Yuri Latushkin, Alim Sukhtayev, Selim Sukhtaiev, _The Morse and Maslov indices for Schr&#246;dinger operators_, [arxiv/1411.1656](http://arxiv.org/abs/1411.1656); Yuri Latushkin, Alim Sukhtayev, _Hadamard-type formulas via the Maslov form_, [arxiv/1601.07509](http://arxiv.org/abs/1601.07509)
