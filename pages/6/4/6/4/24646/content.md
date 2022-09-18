@@ -10,6 +10,9 @@ A construction generalizing deformed preprojective algebra of quivers and assign
 
 * _Preprojective algebras, differential operators and a Conze embedding for deformations of Kleinian singularities_, Comment. Math. Helv. 74 (1999) 548-574 [doi](https://doi.org/10.1007/S000140050105)
 
+Flavour of noncommutative differential geometry based on [[double derivation]]s:
+
+* [[William Crawley-Boevey]], [[Pavel Etingof]], [[Victor Ginzburg]], _Noncommutative geometry and quiver algebras_,  Adv. Math. __209__:1 (2007) 274-336 [doi](https://doi.org/10.1016/j.aim.2006.05.004)
 
 Some papers
 
