@@ -4270,7 +4270,7 @@ A [[homomorphism]] of orthogonal spectra $f\colon X \longrightarrow Y$ is
 
 such that
 
-1. each $f_n$ [[intertwiner|intetwines]] the $O(n)$-[[action]];
+1. each $f_n$ [[intertwiner|intertwines]] the $O(n)$-[[action]];
 
 1. the following [[commuting diagram|diagrams commute]]
 
@@ -4420,7 +4420,7 @@ $$
 Finally The structure maps of $X \wedge Y$ are those induced under the coequalizer by
 
 $$
-  S^1 \wedge (X_p \wedge Y_q \wedge)
+  S^1 \wedge (X_p \wedge Y_q)
   \simeq
   (S^1 \wedge X_p) \wedge Y_q
     \overset{\sigma^X_{p} \wedge id}{\longrightarrow}
