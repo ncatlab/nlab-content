@@ -33,7 +33,7 @@ A signal feature of allegories is emphasis on the _modular law_ (see def. \ref{A
 +-- {: .num_defn #Allegory}
 ###### Definition
 
-An **allegory** is a [[locally posetal 2-category]] $A$ equipped with an [[involution]] $(-)^o \colon A^{op} \to A$ which is the [[identity]] on [[objects]], such that
+An **allegory** is a [[locally posetal 2-category]] $A$ equipped with an [[involution]] $(-)^o \colon A^{op} \to A$ which is the [[identity-on-objects]], such that
 
 1. the involution is order preserving and distributes over composition, i.e. $ (\psi\phi)^o = \phi^o\psi^o $,
 1. each [[hom-object|hom-poset]] $A(x,y)$ has binary [[meet|meets]], and
