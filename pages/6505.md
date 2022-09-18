@@ -265,14 +265,13 @@ Further developments are in
 * M. Spera, _On a generalized uncertainty principle, [[coherent state]]s and the moment map_, J. of Geometry and Physics __12__ (1993) 165-182, [MR94m:58097](http://www.ams.org/mathscinet-getitem?mr=1237511), <a href="http://dx.doi.org/10.1016/0393-0440(93)90032-A">doi</a>
 
 
-* [[Ctirad Klimcik]], [[Pavol Severa]], _[[T-duality]] and the moment map_, IHES/P/96/70, [hep-th/9610198](http://arxiv.org/abs/hep-th/9610198); _Poisson-Lie T-duality: open strings and D-branes_, CERN-TH/95-339. Phys.Lett. B376 (1996) 82-89, [hep-th/9512124](http://arxiv.org/abs/hep-th/9512124)
+* [[Ctirad Klimčik]], [[Pavol Ševera]], _[[T-duality]] and the moment map_, IHES/P/96/70, [hep-th/9610198](http://arxiv.org/abs/hep-th/9610198); _Poisson-Lie T-duality: open strings and D-branes_, CERN-TH/95-339. Phys.Lett. B376 (1996) 82-89, [hep-th/9512124](http://arxiv.org/abs/hep-th/9512124)
 
 * A. Cannas da Silva, [[Alan Weinstein]], _Geometric models for noncommutative algebras_, Berkeley Math. Lec. Notes Series, AMS 1999, ([pdf](http://math.berkeley.edu/%7Ealanw/Models.pdf))
 
 * Friedrich Knop, _Automorphisms of multiplicity free Hamiltonian manifolds_, [arxiv/1002.4256](http://arxiv.org/abs/1002.4256)
 
-* W. Crawley-Boevey, _Geometry of the moment map for representations of
-quivers_, Compositio Math. __126__ (2001), no. 3, 257-293.
+* [[W. Crawley-Boevey]], _Geometry of the moment map for representations of quivers_, Compositio Math. __126__ (2001), no. 3, 257-293 [doi](https:/doi.org/10.1023/A:1017558904030) [MR1834739](https://mathscinet.ams.org/mathscinet-getitem?mr=1834739)
 
 See also
 
@@ -320,32 +319,32 @@ Since momentum maps generalize [[energy]]-functionals, they provide a covariant 
 
 * [[Jean-Marie Souriau]], _Thermodynamique et g&#233;om&#233;trie_,  Lecture Notes in Math. 676 (1978), 369&#8211;397 ([scan](http://www-lib.kek.jp/cgi-bin/kiss_prepri.v8?KN=197810025))
 
-* {#IglesiasSouriau84} [[Patrick Iglesias-Zemmour]], [[Jean-Marie Souriau]] _Heat, cold and Geometry_, in: M. Cahen et al (eds.) Differential geometry and mathematical physics, 37-68, D. Reidel 1983 ([web](http://www.jmsouriau.com/Heat_Cold_And_Geometry_1983.htm), [pdf](http://www.jmsouriau.com/Publications/JMSouriau-PIglesias-HeatColdAndGeometry1983.pdf), [doi:978-94-009-7022-9_5](https://doi.org/10.1007/978-94-009-7022-9_5))
+* {#IglesiasSouriau84} [[Patrick Iglesias-Zemmour]], [[Jean-Marie Souriau]], _Heat, cold and Geometry_, in: M. Cahen et al (eds.) Differential geometry and mathematical physics, 37-68, D. Reidel 1983 ([web](http://www.jmsouriau.com/Heat_Cold_And_Geometry_1983.htm), [pdf](http://www.jmsouriau.com/Publications/JMSouriau-PIglesias-HeatColdAndGeometry1983.pdf), [doi:978-94-009-7022-9_5](https://doi.org/10.1007/978-94-009-7022-9_5))
 
 * [[Jean-Marie Souriau]], chapter IV "Statistical mechanics" of _Structure of dynamical systems. A symplectic view of physics_ . Translated from the French by C. H. Cushman-de Vries. Translation edited and with a preface by R. H. Cushman and G. M. Tuynman. Progress in Mathematics, 149. Birkh&#228;user Boston, Inc., Boston, MA, 1997
 
 * [[Patrick Iglesias-Zemmour]], _Essai de «thermodynamique rationnelle» des milieux continus_, Annales de l'I.H.P. Physique théorique, Volume 34 (1981) no. 1,  p. 1-24 ([numdam:AIHPA_1981__34_1_1_0](http://www.numdam.org/item/AIHPA_1981__34_1_1_0))
 
-* [[Jean-Marie Souriau]],Mécanique statistique, groupes de Lie et cosmologie. In Colloques int. du CNRS; numéro 237; Aix-en-Provence, France, 1974; pp. 24–28, 59–113. English translation by F. Barbaresco, April, 2020. Available online: https://www.academia.edu/42630654/Statistical_Mechanics_Lie_Group_and_Cosmology_
+* [[Jean-Marie Souriau]], _Mécanique statistique, groupes de Lie et cosmologie_, In Colloques int. du CNRS; numéro 237; Aix-en-Provence, France, 1974; pp. 24–28, 59–113. English translation by F. Barbaresco, April, 2020. Available online: https://www.academia.edu/42630654/Statistical_Mechanics_Lie_Group_and_Cosmology_
 1_st_part_Symplectic_Model_of_Statistical_Mechanics(access on 20 April 2020)
 
 Review includes
 
 * {#Marle16} Charles-Michel Marle, _From tools in symplectic and Poisson geometry to Souriau's theories of statistical mechanics and thermodynamics_, Entropy 2016, 18(10), 370 ([arXiv:1608.00103](https://arxiv.org/abs/1608.00103))
 
-* Charles-Michel Marle, On Gibbs states of mechanical systems with symmetries, arXiv:2012.00582v2 [math.DG], Januray 13th 2021  
+* Charles-Michel Marle, _On Gibbs states of mechanical systems with symmetries_, arXiv:2012.00582v2 [math.DG] (2021)  
 
-* Barbaresco, F.; Gay-Balmaz, F. Lie Group Cohomology and (Multi)Symplectic Integrators: New Geometric Tools for Lie Group Machine Learning Based on Souriau Geometric Statistical Mechanics. Entropy 2020, 22, 498. https://www.mdpi.com/1099-4300/22/5/498
+* F. Barbaresco, F. Gay-Balmaz, _Lie group cohomology and (multi)symplectic integrators: new geometric tools for Lie group machine learning based on Souriau geometric statistical mechanics_, Entropy 22 (2020) 498  [link](https://www.mdpi.com/1099-4300/22/5/498)
 
-* Koszul, J.-L., Introduction to Symplectic Geometry, SPRINGER, 2019
+* Koszul, J.-L., _Introduction to symplectic geometry_, SPRINGER, 2019
 
-* Barbaresco F. (2021) Archetypal Model of Entropy by Poisson Cohomology as Invariant Casimir Function in Coadjoint Representation and Geometric Fourier Heat Equation. In: Nielsen F., Barbaresco F. (eds) Geometric Science of Information. GSI 2021. Lecture Notes in Computer Science, vol 12829. Springer
+* F. Barbaresco (2021) Archetypal Model of Entropy by Poisson Cohomology as Invariant Casimir Function in Coadjoint Representation and Geometric Fourier Heat Equation. In: Nielsen F., Barbaresco F. (eds) Geometric Science of Information. GSI 2021. Lecture Notes in Computer Science, vol 12829. Springer
 
-* Barbaresco, F. Koszul lecture related to geometric and analytic mechanics, Souriau’s Lie group thermodynamics and information geometry. Info. Geo. 4, 245–262 (2021)
+* F. Barbaresco, _Koszul lecture related to geometric and analytic mechanics, Souriau’s Lie group thermodynamics and information geometry_, Info. Geo. 4, 245–262 (2021)
 
-* Barbaresco F. (2021) Jean-Marie Souriau’s Symplectic Model of Statistical Physics: Seminal Papers on Lie Groups Thermodynamics - Quod Erat Demonstrandum. In: Barbaresco F., Nielsen F. (eds) Geometric Structures of Statistical Physics, Information Geometry, and Learning. SPIGL 2020. Springer Proceedings in Mathematics & Statistics, vol 361. Springer
+* F. Barbaresco, (2021) Jean-Marie Souriau’s Symplectic Model of Statistical Physics: Seminal Papers on Lie Groups Thermodynamics - Quod Erat Demonstrandum. In: Barbaresco F., Nielsen F. (eds) Geometric Structures of Statistical Physics, Information Geometry, and Learning. SPIGL 2020. Springer Proceedings in Mathematics & Statistics, vol 361. Springer
 
-* Marle CM. (2021) Gibbs States on Symplectic Manifolds with Symmetries. In: Nielsen F., Barbaresco F. (eds) Geometric Science of Information. GSI 2021. Lecture Notes in Computer Science, vol 12829. Springer
+* CM Marle, _Gibbs states on symplectic manifolds with symmetries_, In: F. Nielsen, F. Barbaresco (eds) Geometric Science of Information. GSI 2021. Lec. Notes in Comp. Sci. 12829. Springer 2021
 
 
 [[!redirects moment maps]]
