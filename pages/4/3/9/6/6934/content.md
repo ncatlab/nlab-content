@@ -74,6 +74,26 @@ Listed here are some little-known or undocumented features of Agda that are some
 
   Unfortunately, the output produced by these flags appears in the `*Agda debug*` buffer, which is not visible by default, rather than the standard `AgdaInfo` buffer.  To turn these flags on, you can add (for instance) `-v import.chase:2` to `agda2-program-args` via Customization, as above, or to the `OPTIONS` line of a particular file.
 
+## Minimizing bugs
+
+Since Agda has many experimental features under active development, bugs in these features are not uncommon.  When [reporting a bug](https://github.com/agda/agda/issues/new/choose), it is helpful to "minimize" it to make the shortest possible [MRE](https://en.wikipedia.org/wiki/Minimal_reproducible_example).  Some tips for doing this [from the developers](https://github.com/agda/agda/issues/6067#issuecomment-1236313145) include
+
+* Enable `--type-in-type`, `--no-termination-check`, `--no-positivity-check`, `--no-projection-like`, `--no-fast-reduce`
+* Disable unused flags
+* Remove unused imports
+* Copy definitions from imported modules (other than `Agda.Builtin` modules)
+* Delete unused definitions
+* Turn functions into postulates
+* Inline functions
+* Remove clauses from definitions
+* Replace patterns by `_` if they are not used
+* Replace types by Set
+* Delete unused arguments to functions or constructors
+* Remove dependencies from types
+* Replace (sub)terms by `w/e` where `w/e : ∀ {ℓ} {A : Set ℓ} → A` is a postulate
+* Make implicit arguments explicit
+* Replace wildcards `_` in terms by their solution
+
 
 ## Related concepts
 
