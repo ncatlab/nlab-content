@@ -1,6 +1,6 @@
 **Victor Ginzburg** (in some 1980s articles spelled Ginsburg) is a professor of mathematics at the University of Chicago. His thesis in Moscow was under [[Alexandre Kirillov]]. His main interests are [[representation theory]], especially [[geometric representation theory]], including more recently [[noncommutative algebraic geometry]]. 
 
-Warning: there is another mathematician (global analysis, [[symplectic geometry]]), **Viktor** Ginzburg (note the English spelling).
+Warning: there is another mathematician (global analysis, [[symplectic geometry]]), *Viktor* Ginzburg (note the English spelling).
 
 * [U. Chicago: faculty research interests](http://www.math.uchicago.edu/research); wikipedia: [Victor Ginzburg](http://en.wikipedia.org/wiki/Victor_Ginzburg); an [article](http://chronicle.uchicago.edu/060608/gta-ginzburg.shtml) in Chicago Chronicle
 
@@ -19,6 +19,10 @@ Warning: there is another mathematician (global analysis, [[symplectic geometry]
 * V. Ginsburg, _Characteristic varieties and vanishing cycles_, Inv. Math. __84__, 327--402 (1986) [MR87j:32030](http://www.ams.org/mathscinet-getitem?mr=833194), [doi](http://dx.doi.org/10.1007/BF01388811)
 
 * V.G. _Lectures on D-modules_, 1998 Chicago notes, writeup by V. Baranovsky, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/Ginzburg.pdf)
+
+He introduced the notion of $d$-Calabi-Yau algebra (and also a construction of a class of examples, [[Ginzburg dg-algebra]]s) in  
+
+* _Calabi-Yau algebras_, [arXiv:math.AG/0612139](https://arxiv.org/abs/math/0612139)
 
 category: people
 
