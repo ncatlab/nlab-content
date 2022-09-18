@@ -442,6 +442,10 @@ Via [[exceptional field theory]]:
 
 Surveys and introductions include
 
+* [[John Schwarz]], *Introduction to M Theory and AdS/CFT Duality* &lbrack;[arXiv:hep-th/9812037](https://arxiv.org/abs/hep-th/9812037)&rbrack;
+
+  >  (early review with an eye towards [[M-theory]])
+
 
 * [[Alexander Polyakov]], _The wall of the cave_, Int. J. Mod. Phys. A14 (1999) 645-658 ([arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057))
 
