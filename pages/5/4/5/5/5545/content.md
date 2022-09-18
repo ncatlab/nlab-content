@@ -55,6 +55,7 @@ Here the terminology has a bifurcation:
 
 From here, the terminology generalizes to [[infinity-stacks|$\infty$-stacks]] in general [[(infinity,1)-toposes|$\infty$-toposes]], see [this Remark](groupoid+objects+in+an+infinity1-topos+are+effective#InterpretationInTermsOfInfinityStacksWithAtlases) at *[[groupoid objects in an (∞,1)-topos are effective]]*.
 
+{#AtlasForACategory} Yet more generally, the notion generalizes to [[2-topos theory]] and higher. Over the point this yields the notion of *[[category with an atlas]]* and *[[flagged categories]]* (depending on the truncation of the atlas) and relates to the notions of *flagged higher categories* ([Ayala & Francis 2018](category+with+an+atlas#AyalaFrancis18)).
 
 
 ## Related concepts
