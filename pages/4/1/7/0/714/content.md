@@ -79,7 +79,7 @@ which
 
 1. is the [[identity-on-objects]], 
 
-1. is an [[involution]] $\dagger \circ \dagger = \mathrm{id}_C$.
+1. is an [[involution]] $\dagger^{op} \circ \dagger = \mathrm{id}_C$.
 
 \end{definition}
 
@@ -392,6 +392,8 @@ For more on this see
 * [[dagger functor]]
 
 * [[dagger category in homotopy type theory]]
+
+* [[symmetric bicategory]]
 
 ## References
 
