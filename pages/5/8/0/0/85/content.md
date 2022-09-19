@@ -410,31 +410,33 @@ $$
 
 =--
 
+While most of this page discusses the covariant Day convolution, the contravariant one interacts conveniently with the Yoneda embedding.
+
 +-- {: .num_prop}
 ###### Proposition
 
-The [[Yoneda embedding]] constitutes a  [[strong monoidal functor]] $(\mathcal{C},\otimes_{\mathcal{C}}, I) \hookrightarrow ([\mathcal{C},V], \otimes_{Day}, y(I))$.
+The [[Yoneda embedding]] constitutes a  [[strong monoidal functor]] $(\mathcal{C},\otimes_{\mathcal{C}}, I) \hookrightarrow ([\mathcal{C}^{\mathrm{op}},V], \otimes_{Day}, y(I))$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-That the [[tensor unit]] is respected is part of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}. To see that the tensor product is respected, apply the [[co-Yoneda lemma]] twice to get the following natural isomorphism
+The proof that the [[tensor unit]] is respected is dual to the argument in prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}. To see that the tensor product is respected, apply the [[co-Yoneda lemma]] twice to get the following natural isomorphism
 
 $$
   \begin{aligned}
     (y(c_1) \otimes_{Day} y(c_2))(c)
     &
     \simeq
-    \overset{d_1, d_2}{\int} 
-      \mathcal{C}(d_1 \otimes_{\mathcal{C}} d_2, c )
+    \underset{d_1, d_2}{\int} 
+      \mathcal{C}( c ,d_1 \otimes_{\mathcal{C}} d_2)
     \otimes_V
-      \mathcal{C}(c_1,d_1)
+      \mathcal{C}(d_1,c_1)
     \otimes_V
-      \mathcal{C}(c_2,d_2)
+      \mathcal{C}(d_2,c_2)
     \\
-    & \simeq \mathcal{C}(c_1\otimes_{\mathcal{C}}c_2 , c )
+    & \simeq \mathcal{C}( c ,c_1\otimes_{\mathcal{C}}c_2 )
     \\
     & 
     = y(c_1 \otimes_{\mathcal{C}} c_2 )(c)
