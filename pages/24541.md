@@ -42,25 +42,7 @@ $$h \circ_{A, C, D} (g \circ_{A, B, C} f) = h \circ_{B, C, D} (g \circ_{A, B, D}
 
 Of course, the latter two axioms are actually inhabitants of the [[identity type]], hence are data included in the definition just like the first four.  However, since each $Hom(A,B)$ is a set, such equalities are (typally) unique whenever they exist, so in most cases their presence as data can be ignored.
 
-### With equivalence relations on the hom-types 
-
-There is another definition of a precategory in the context of a [[univalent type theory]]:
-
-A **precategory** $\mathcal{C}$ consists of 
-
-* a [[type]] of [[objects]] $Ob(\mathcal{C})$, 
-* for each object $A:Ob(\mathcal{C})$ and $B:Ob(\mathcal{C})$, a [[setoid]] $(Hom(A, B), \equiv_{A, B}$ of [[morphisms]]
-* for each object $A:Ob(\mathcal{C})$, $B:Ob(\mathcal{C})$, and $C:Ob(\mathcal{C})$, a [[binary function]] 
-$$(-)\circ_{A, B, C}(-) :Hom(B, C) \times Hom(A, B) \to Hom(A, C)$$
-* for each object $A:Ob(\mathcal{C})$, a morphism $\mathrm{id}_A:Hom(A, A)$
-* such that 
-  * the composition of morphisms is [[associative]]: for each object $A:Ob(\mathcal{C})$, $B:Ob(\mathcal{C})$, $C:Ob(\mathcal{C})$, and $D:Ob(\mathcal{C})$, and for each morphism $f:Hom(A, B)$, $g:Hom(B, C)$, and $h:Hom(C, D)$, 
-$$h \circ_{A, C, D} (g \circ_{A, B, C} f) \equiv_{A, D} h \circ_{B, C, D} (g \circ_{A, B, D} f)$$
-  * the composition of morphisms satisfies the left and right [[unit laws]]: for each object $A:Ob(\mathcal{C})$ and $B :Ob(\mathcal{C})$ and morphism $f:Hom(A, B)$, $\mathrm{id}_B \circ_{A, B, B} f \equiv_{A, B} f$ and $f \circ_{A, A, B} \mathrm{id}_A \equiv_{A, B} f$.
-
-The latter two axioms are actually inhabitants of the [[equivalence relation]], hence are data included in the definition just like the first four.  However, by definitions equivalence relations are (typally) unique whenever they exist, so in most cases their presence as data can be ignored.
-
-Furthermore, since the [[univalence axiom]] implies that all [[setoids]] are [[sets]], this definition is the same as the above definition in a [[univalent type theory]] such as [[homotopy type theory]]. However, in more general [[intensional type theories]], this definition is not the same as the above definition; in fact, it is more general than the above definition; every precategory with hom sets in the above sense is a precategory with hom setoids in this sense, but only the precategories with univalent hom setoids in this sense are the precategories with hom sets in the above sense. 
+Since the [[univalence axiom]] implies that all [[setoids]] are [[sets]], every [[(2,1)-preorder]] in a [[univalent type theory]] such as [[homotopy type theory]] is a precategory. However, in more general [[intensional type theories]], only the locally univalent (2,1)-preorders are precategories. 
 
 ## Remarks
 
