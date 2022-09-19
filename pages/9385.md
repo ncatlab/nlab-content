@@ -33,15 +33,28 @@ $$
 or equivalently a morphism
 
 $$
-  \nabla \;\colon\; \Pi(X) \to A
+  \nabla \;\colon\; \esh(X) \to A
   \,.
 $$
 
 This is also sometimes called a _[[local system]]_ on $X$ with [[coefficients]] in $A$, or a _[[cocycle]]_ in [[nonabelian cohomology]] of $X$ with _constant_ [[coefficients]] $A$.
 
-For $A = \mathbf{B}G$ the [[delooping]] of an [[∞-group]], flat $\infty$-connections with coefficients in $A$ are a special case of $G$-[[principal ∞-connections]].
 
 For more see at _[structures in a cohesive (∞,1)-topos -- flat ∞-connections](cohesive+%28infinity,1%29-topos+--+structures#FlatDifferentialCohomology)_.
+
+## Examples
+
+### Flat principal $\infty$-bundles
+
+For $A = \mathbf{B}G$ the [[delooping]] of an [[∞-group]], flat $\infty$-connections with coefficients in $A$ are a special case of $G$-[[principal ∞-connections]].
+
+### Flat $(\infty,1)$-vector bundles ($\infty$-local systems)
+
+For $A = Core(Ch_k)$ the [[core]] of an [[(infinity,1)-category]] of chain complexes, functors $\esh X \longrightarrow A$ are [[(infinity,1)-vector bundles|$(\infty,1)$-vector bundles]] with [[flat infinity-connections|flat $\infty$-connections]].
+
+In parts of the literature this case is understood by default when speaking of "$\infty$-local systems".
+
+
 
 ## Related concepts
 
@@ -55,6 +68,25 @@ For more see at _[structures in a cohesive (∞,1)-topos -- flat ∞-connections
 
 * [[Riemann-Hilbert correspondence]]
 
+
+## References
+
+### General
+
+(...)
+
+### Flat $(\infty,1)$-vector bundles ($\infty$-local systems)
+
+
+* [[Camilo Arias Abad]], [[Florian Schätz]]: *The $A_\infty$ de Rham theorem and integration of representations up to homotopy* 
+
+
+
+* [[Manuel Rivera]], [[Mahmoud Zeinalian]], §5 of: *The colimit of an $\infty$-local system as a twisted tensor product*, Higher Structures **4** 1 (2020) 33-56  &lbrack;[arXiv:1805.01264](https://arxiv.org/abs/1805.01264), [higher-structures:Vol4Iss1](https://higher-structures.math.cas.cz/api/files/issues/Vol4Iss1/RiveraZeinalian)&rbrack;
+
+
+
+
 [[!redirects flat infinity-connections]]
 
 [[!redirects flat ∞-connection]]
@@ -63,6 +95,10 @@ For more see at _[structures in a cohesive (∞,1)-topos -- flat ∞-connections
 
 [[!redirects infinity-local system]]
 [[!redirects infinity-local systems]]
+
+[[!redirects ∞-local system]]
+[[!redirects ∞-local systems]]
+
 
 [[!redirects flat (∞,1)-bundle]]
 [[!redirects flat (∞,1)-bundles]]
