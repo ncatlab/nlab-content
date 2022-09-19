@@ -110,6 +110,7 @@ When you do this, the new kind of set is called a setoid, and then there may be 
 * [[monoidal setoid]]
 * [[enriched setoid]]
 * [[quotient setoid]]
+* [[complete loop graph]]
 
 [[!include types and logic - table]]
 
