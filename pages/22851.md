@@ -29,6 +29,8 @@ The notion of symmetric bicategory is a [[horizontal categorification]] of that 
 Note, however, that single-object symmetric bicategories are more expressive than [[symmetric monoidal categories]]: a symmetric bicategory with a single object, $Obj(B) \simeq \{\ast\}$, is a symmetric monoidal category if and only if the component functor of $t$ is the [[identity functor]] on the single [[hom-category]] $B(\ast,\ast)$.
 \end{remark}
 
+A symmetric bicategory is a [[categorified]] [[dagger-category]].
+
 ## Examples
 
 \begin{example}
@@ -40,6 +42,8 @@ Note, however, that single-object symmetric bicategories are more expressive tha
 * [[closed bicategory]]
 
 * [[duality involution]]
+
+* [[dagger category]]
 
 
 ## References
