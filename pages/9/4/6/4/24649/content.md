@@ -47,7 +47,7 @@ An isomorphism in a (2,1)-preorder is a morphism $f:Hom(A, B)$ with a morphism $
 
 A (2,1)-preorder is **globally univalent** if for all objects $A$ and $B$ the canonical function 
 $$idtoiso(A, B):A =_{Ob(\mathcal{C})} B \to A \cong_{Ob(\mathcal{C})} B$$ 
-reflects the equivalence relation and is an equivalence of types. 
+is an equivalence of setoids. 
 
 A (2,1)-preorder is **univalent** or a **[[univalent category]]** if it is both locally univalent and globally univalent. 
 
