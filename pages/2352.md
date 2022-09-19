@@ -49,6 +49,8 @@ Let $H:C^{op}\to D$ be a [[profunctor]]; it has the following four **graphs**.  
 
 * Pairs $(f:c'\to c, g:d'\to d)$ such that $H(1,g)(x') = H(f,1)(x)$.  This graph comes with a projection to $C^{op}\times D^{op}$, which is a [[two-sided discrete fibration]] that is covariant over $C^{op}$ and contravariant over $D^{op}$; it is the opposite of the first graph.
 
+If the profunctor is the [[hom profunctor]] of a category $C$, then the first graph is the [[arrow category]] of $C$ and the second graph is the [[twisted arrow category]] of $C$.
+
 ### Graphs of a functor
 
 Let $F:C\to D$ be a functor, and let $F^\bullet : C^{op}\times D \to Set$ and $F_\bullet$ be the corresponding representable [[profunctors]]:
