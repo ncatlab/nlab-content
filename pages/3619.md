@@ -23,7 +23,7 @@ While in [[classical mechanics]] a ([[pure state|pure]]) [[state]] is an [[gener
 
 ## Definition
 
-In [[quantum mechanics]] a [[state]] of a [[physical system]] is represented by a [[vector]] in some ([[Hilbert space|Hilbert]]-)[[vector space]] $H$. If the system is the composite of two [[subsystems]] with state spaces $H_1$ and $H_2$, respectively, then the state space of the total system is the [[tensor product]] $H = H_1 \otimes H_2$. The [[universal property]] of the [[tensor product]] gives a [[linear map]]
+In [[quantum mechanics]] a [[state]] of a [[physical system]] is represented by a [[vector]] in some ([[Hilbert space|Hilbert]]-)[[vector space]] $H$. If the system is the composite of two [[subsystems]] with state spaces $H_1$ and $H_2$, respectively, then the state space of the total system is the [[tensor product]] $H = H_1 \otimes H_2$. The [[universal property]] of the [[tensor product]] gives a [[bilinear map]]
 
 $$
   p : H_1 \times H_2 \to H_1 \otimes H_2
