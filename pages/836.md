@@ -69,8 +69,6 @@ Just as the motivating example of a $2$-category is the $2$-category [[Cat]] of 
 
 
 [[!redirects 2-posets]]
-[[!redirects 2-preorder]]
-[[!redirects 2-preorders]]
 [[!redirects 2-proset]]
 [[!redirects 2-prosets]]
 [[!redirects (1,2)-category]]
