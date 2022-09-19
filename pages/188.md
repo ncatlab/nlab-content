@@ -163,6 +163,8 @@ In summary, it is important to make people understand that groups can be identif
 
 * [[monoid in a monoidal category]], [[category of monoids]]
 
+* [[monoidal setoid]]
+
 * **monoid**, internal monoid/monoid object,
 
   * [[commutative monoid]], [[cancellative monoid]]
