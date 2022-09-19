@@ -76,14 +76,22 @@ In parts of the literature this case is understood by default when speaking of "
 (...)
 
 ### Flat $(\infty,1)$-vector bundles ($\infty$-local systems)
+  {#ReferencesFlatInfinityVectorBundles}
 
+On [[infinity-local systems|$\infty$-local systems]] in the sense of [[(infinity,1)-vector bundles|$(\infty,1)$-vector bundles]] with [[flat infinity-connections|flat $\infty$-connections]]:
 
-* [[Camilo Arias Abad]], [[Florian Schätz]]: *The $A_\infty$ de Rham theorem and integration of representations up to homotopy* 
+* [[Camilo Arias Abad]], [[Florian Schätz]]: *The $A_\infty$ de Rham theorem and integration of representations up to homotopy*, International Mathematics Research Notices, **2013** 16 (2013) 3790–3855 &lbrack;[arXiv:1011.4693](https://arxiv.org/abs/1011.4693), [doi:10.1093/imrn/rns166](https://doi.org/10.1093/imrn/rns166)&rbrack;
 
+* [[Jonathan Block]], [[Aaron M. Smith]], *The higher Riemann--Hilbert correspondence*, Advances in Mathematics
+**252** (2014) 382-405 &lbrack;[arXiv:0908.2843](https://arxiv.org/abs/0908.2843), [doi:10.1016/j.aim.2013.11.001](https://doi.org/10.1016/j.aim.2013.11.001)&rbrack;
 
 
 * [[Manuel Rivera]], [[Mahmoud Zeinalian]], §5 of: *The colimit of an $\infty$-local system as a twisted tensor product*, Higher Structures **4** 1 (2020) 33-56  &lbrack;[arXiv:1805.01264](https://arxiv.org/abs/1805.01264), [higher-structures:Vol4Iss1](https://higher-structures.math.cas.cz/api/files/issues/Vol4Iss1/RiveraZeinalian)&rbrack;
 
+
+* [[Camilo Arias Abad]], Santiago Pineda Montoya, Alexander Quintero Velez, *Chern-Weil theory for $\infty$-local systems* $[$[arXiv:2105.00461](https://arxiv.org/abs/2105.00461)$]$
+
+  > (enhancement of the [[Chern-Weil homomorphism]] from [[ordinary cohomology]]-groups to [[dg-categories]] of [[infinity-local systems|$\infty$-local systems]])
 
 
 
