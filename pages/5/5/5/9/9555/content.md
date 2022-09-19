@@ -3,7 +3,7 @@
 
 ## Selected writings
 
-Introducing the [[Sachdef-Ye-Kitaev model]]:
+Introducing the [[Sachdev-Ye-Kitaev model]]:
 
 * {#SachdevYe93} [[Subir Sachdev]], Jinwu Ye, _Gapless Spin-Fluid Ground State in a Random Quantum Heisenberg Magnet_, Phys. Rev. Lett. 70:3339, 1993 ([arXiv:cond-mat/9212030](https://arxiv.org/abs/cond-mat/9212030))
 
