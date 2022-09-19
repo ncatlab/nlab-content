@@ -103,6 +103,11 @@ $\pi_3(\mathbb{S})$
 
 * [[Theo Johnson-Freyd]], *Topological Mathieu Moonshine* ([arXiv:2006.02922](https://arxiv.org/abs/2006.02922))
 
+See also
+
+* Ying-Hsuan Lin, [[Du Pei]], *Holomorphic CFTs and topological modular forms* &lbrack;[arXiv:2112.10724](https://arxiv.org/abs/2112.10724)&rbrack;
+
+
 
 #### Occurrences in string theory
 
