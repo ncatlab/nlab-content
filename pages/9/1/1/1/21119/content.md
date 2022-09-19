@@ -17,5 +17,9 @@ On [classically controlled quantum computation](quantum+computation#ClassicalCon
 
 * {#KimSwingle17} [[Isaac H. Kim]], [[Brian Swingle]], *Robust entanglement renormalization on a noisy quantum computer* ([arXiv:1711.07500](https://arxiv.org/abs/1711.07500))
 
+On [[AdS/CFT in condensed matter physics]]:
+
+* Mike Blake, Yingfei Gu, [[Sean A. Hartnoll]], Hong Liu, [[Andrew Lucas]], Krishna Rajagopal, [[Brian Swingle]], [[Beni Yoshida]], *Snowmass White Paper: New ideas for many-body quantum systems from string theory and black holes* &lbrack;[arXiv:2203.04718](https://arxiv.org/abs/2203.04718)&rbrack;
+
 
 category: people
