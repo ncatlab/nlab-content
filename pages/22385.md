@@ -109,6 +109,7 @@ When you do this, the new kind of set is called a setoid, and then there may be 
 * [[completely presented set]]
 * [[monoidal setoid]]
 * [[enriched setoid]]
+* [[quotient setoid]]
 
 [[!include types and logic - table]]
 
