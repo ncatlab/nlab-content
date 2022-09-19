@@ -23,7 +23,7 @@
 
 ## Idea
 
-The [[AdS-CFT correspondence]] applies _exactly_ only to a few highly symmetric [[quantum field theories]], notably to [[N=4 D=4 super Yang-Mills theory]]. However, it does not completely break away from these special points in field theory space, but applies in some approximation and/or with suitable modifications on the [[gravity]]-side of the correspondence.
+The [[AdS-CFT correspondence]] applies _exactly_ only to a few highly symmetric [[quantum field theories]], notably to [[N=4 D=4 super Yang-Mills theory]]. However, it still applies in adjusted form when moving away from these special points in field theory space (e.g [Park 2022](#Park22)).
 
 For instance [[quantum chromodynamics]] (one sector of the [[standard model of particle physics]]) is crucially different from but still similar enough to [[N=4 D=4 super Yang-Mills theory]] that some of its [[observables]], in particular otherwise intractable [[non-perturbative effects]], have been argued to be usefully approximated by [[AdS-CFT]]-type dual [[gravity]]-observables, for instance the [[shear viscosity]] of the [[quark-gluon plasma]]. This is hence also called the _[[AdS/QCD correspondence]]_.
 
@@ -108,7 +108,7 @@ Textbooks:
 
 Reviews and lectures:
 
-* [[Sean Hartnoll]], _Lectures on holographic methods for condensed matter physics_, Class. Quant. Grav. 26:224002, 2009 ([arXiv:0903.3246](https://arxiv.org/abs/0903.3246))
+* [[Sean Hartnoll]], _Lectures on holographic methods for condensed matter physics_, Class. Quant. Grav. **26** 224002, 2009 &lbrack;[arXiv:0903.3246](https://arxiv.org/abs/0903.3246)&rbrack;
 
 * [[John McGreevy]], *Holographic duality with a view toward many-body physics*, Adv. High Energy Phys. 723105 (2010) ([arXiv:0909.0518](https://arxiv.org/abs/0909.0518))
 
@@ -129,6 +129,9 @@ and its application to condensed matter physics_,  D-ITP Advanced Topics in Theo
 
 * [[Hong Liu]], [[Julian Sonner]], _Quantum many-body physics from a gravitational lens_, Nature Rev. Phys. **2** (2020)  615-633 &lbrack;[arXiv:2004.06159](https://arxiv.org/abs/2004.06159), [doi:10.1038/s42254-020-0225-1](https://doi.org/10.1038/s42254-020-0225-1)&rbrack;
 
+* Mike Blake, Yingfei Gu, [[Sean A. Hartnoll]], Hong Liu, [[Andrew Lucas]], Krishna Rajagopal, [[Brian Swingle]], [[Beni Yoshida]], *Snowmass White Paper: New ideas for many-body quantum systems from string theory and black holes* &lbrack;[arXiv:2203.04718](https://arxiv.org/abs/2203.04718)&rbrack;
+
+
 * [[Subir Sachdev]], *Statistical mechanics of strange metals and black holes* ([arXiv:2205.02285](https://arxiv.org/abs/2205.02285))
 
 * [[Umut Gürsoy]], *Recent developments in gauge-gravity duality applied to quantum many-body systems*, talk at *[[Strings 2022]]*  &lbrack;[indico:4940863](https://indico.cern.ch/event/1085701/contributions/4940863), [pdf](https://indico.cern.ch/event/1085701/contributions/4940863/attachments/2483542/4263813/Slides_Gursoy.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=69bc5a22-b77a-4830-97b8-49c7d6aa1c29) &rbrack;
@@ -137,6 +140,11 @@ and its application to condensed matter physics_,  D-ITP Advanced Topics in Theo
 See also:
 
 * [[Jan Zaanen]], _[Anti-de-Sitter/Condensed Matter Theory](https://www.lorentz.leidenuniv.nl/zaanen/wordpress/research/anti-de-sittercondensed-matter/)_
+
+On Lifshitz holography relevant forvdescribing disorder systems:
+
+* {#Park22} Chanyong Park, *Holographic two-point functions in a disorder system* &lbrack;[arXiv:2209.07721](https://arxiv.org/abs/2209.07721)&rbrack;
+
 
 
 ### Application to band structure
