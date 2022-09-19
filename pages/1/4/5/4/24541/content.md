@@ -96,6 +96,8 @@ Only in univalent categories are such functors the same as [[adjoint equivalence
 
 * [[preallegory]]
 
+* [[(2,1)-preorder]]
+
 ## References
 
 * {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
