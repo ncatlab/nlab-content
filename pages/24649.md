@@ -68,3 +68,7 @@ is an equivalence of types.
 * [[locally univalent bicategory]]
 
 * [[univalent bicategory]]
+
+[[!redirects (2,1)-preorders]]
+[[!redirects (2, 1)-preorder]]
+[[!redirects (2, 1)-preorders]]
