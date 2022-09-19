@@ -181,6 +181,8 @@ $D_X$-[[D-module|modules]] and local systems on $X$.
 
 * [[flat vector bundle]], [[Gauss-Manin connection]]
 
+* [[infinity-local system]]
+
 * [[inner local system]]
 
 * [[simplicial local system]]: within Sullivan's (1977) theory of _Infinitesimal computations in topology_, he refers to 'local systems' several times. This seems to be simplicial in nature. [[simplicial local system|This]] entry explores some of the uses of that notion based on Halperin's lecture notes on minimal models
