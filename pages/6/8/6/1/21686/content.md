@@ -102,7 +102,7 @@ See also in:
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
-Enhancement of the Chern-Weil homomorphism from [[ordinary cohomology]]-groups to [[dg-categories]] of [[flat infinity-connections]]:
+Enhancement of the Chern-Weil homomorphism from [[ordinary cohomology]]-groups to [[dg-categories]] of [[infinity-local systems|$\infty$-local systems]]:
 
 * [[Camilo Arias Abad]], Santiago Pineda Montoya, Alexander Quintero Velez, *Chern-Weil theory for $\infty$-local systems* $[$[arXiv:2105.00461](https://arxiv.org/abs/2105.00461)$]$
 
