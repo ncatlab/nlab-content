@@ -98,6 +98,8 @@ If Pauli had really been relying on symmetry and the Noether theorem, he could h
 
 * M. Sajjad Athar, A. Fatima, S. K. Singh, *Neutrinos and their interactions with matter* &lbrack;[arXiv:2206.13792](https://arxiv.org/abs/2206.13792)&rbrack;
 
+* *Theory of Neutrino Physics -- Snowmass TF11 (aka NF08) Topical Group Report* &lbrack;[arXiv:2209.07983](https://arxiv.org/abs/2209.07983)&rbrack;
+
 
 See also
 
