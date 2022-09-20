@@ -22,5 +22,8 @@ A point of view on preprojective algebras is a part of a picture in
 
 * [[William Crawley-Boevey]], [[Pavel Etingof]], [[Victor Ginzburg]], _Noncommutative geometry and quiver algebras_,  Adv. Math. __209__:1 (2007) 274-336 [doi](https://doi.org/10.1016/j.aim.2006.05.004)
 
+Other contributions
+
+* Tristan Bozec, [[Damien Calaque]], Sarah Scherotzke, _Calabi-Yau structures for multiplicative preprojective algebras_, [arXiv:2102.12336](https://arxiv.org/abs/2102.12336)
 
 category: algebra
