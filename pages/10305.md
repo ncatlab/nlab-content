@@ -67,6 +67,12 @@ Hypothetically:
 
 [[!include brane bound states -- table]]
 
+## Related concepts
+
+* [[binding energy]]
+
+* [[quantum state]]
+
 ## References
 
 On bound states in [[QED]] and [[QCD]]:
