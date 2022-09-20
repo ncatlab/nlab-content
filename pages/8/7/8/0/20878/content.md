@@ -11,4 +11,4 @@
 
 * [[infinitesimal braid relation]]
 
-* [[set theoretic quantum Yang-Baxter equation]]
+* [[set theoretic Yang-Baxter equation]]
