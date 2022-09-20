@@ -1,11 +1,15 @@
 
 * [webpage](https://www.nikhef.nl/~pkoppenb/)
 
-## selected writings
+## Selected writings
 
 Early proposal to investigate [[flavour anomalies]] in [[B-meson]] decays, specifically at the [[LHCb]]-experiment:
 
 * {#Koppenburg07} [[Patrick Koppenburg]], _Selection of $B_u \to \ell \ell K$ at LHCb and Sensitivity to $R_K$_, 2007 ([cern:1027442](cds.cern.ch/record/1027442), [pdf](cds.cern.ch/record/1027442/files/lhcb-2007-034.pdf))
+
+List of [[hadrons]] dicovered at the [[LHC experiment]]:
+
+* {#Koppenburg21} [[Patrick Koppenburg]] for the [[LHCb collaboration]]: *List of hadrons observed at the LHC* (2021) &lbrack;[pdf](https://cds.cern.ch/record/2749030/files/FIGURE-2021-001.pdf), [webpage](https://www.nikhef.nl/~pkoppenb/particles.html), [cds:2749030](https://cds.cern.ch/record/2749030)&rbrack;
 
 
 On [[B meson]]-[[decays]]:
