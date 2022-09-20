@@ -4,7 +4,7 @@
 * Natalia Iyudu, [[Maxim Kontsevich]], _Pre-Calabi-Yau algebras and noncommutative calculus on higher cyclic Hochschild cohomology_, [arXiv:2011.11888](https://arxiv.org/abs/2011.11888); _Pre-Calabi-Yau algebras and ξ∂-calculus on higher cyclic Hochschild cohomology_, preprint IHES M-19-14 (2019) [pdf](https://preprints.ihes.fr/2019/M/M-19-14.pdf)
 * Johan Leray, [[Bruno Vallette]], _Pre-Calabi--Yau algebras and homotopy double Poisson gebras_, [arXiv:2203.05062](https://arxiv.org/abs/2203.05062)
 * Wai-Kit Yeung, _Pre-Calabi-Yau structures and moduli of representations_, [arXiv:1802.05398](https://arxiv.org/abs/1802.05398); _Ribbon dioperads and modular ribbon properads_, [arXiv:2202.13269](https://arxiv.org/abs/2202.13269)
-* David Fernández, Estanislao Herscovich, _Double quasi-Poisson algebras are pre-Calabi-Yau_, [arXiv:2002.10495](https://arxiv.org/abs/2002.10495)
+* [[David Fernández]], Estanislao Herscovich, _Double quasi-Poisson algebras are pre-Calabi-Yau_, [arXiv:2002.10495](https://arxiv.org/abs/2002.10495)
 
 category: algebra
 
