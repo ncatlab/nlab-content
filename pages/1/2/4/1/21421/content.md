@@ -1,5 +1,6 @@
 
 ### Hadrons as KK-modes of 5d Yang-Mills theory
+ {#ReferencesHadronsAsKKModesOf5dYangMillsTheory}
 
 The suggestion that the tower of observed [[vector mesons]] -- when regarded as [[gauge fields]] of [[hidden local symmetry|hidden local symmetries]] of [[chiral perturbation theory]] -- is reasonably modeled as a [[Kaluza-Klein theory|Kaluza-Klein tower]] of [[D=5 Yang-Mills theory]]:
 
