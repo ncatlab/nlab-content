@@ -1,4 +1,4 @@
-Given a [[quiver]] $Q$, a potential for $Q$ is a cyclically invariant element in its path algebra or its completion. Cyclic invariance means that it is a linear combination of cyclic paths; cyclic invariance can be in a ${\mathbf Z}_2$-graded sense in which case it is called a superpotential. This is in agreement with another notion of a superpotential in [[Donaldson-Thomas theory]]. 
+Given a [[quiver]] $Q$, a potential for $Q$ is a cyclically invariant element in its path algebra or its completion. Cyclic invariance means that it is a linear combination of cyclic paths; cyclic invariance can be in a ${\mathbf Z}_2$-graded sense in which case it is called a superpotential. This is in agreement with another notion of a superpotential in [[Donaldson-Thomas theory]]. The space of superpotentials has a [[necklace Lie algebra]] structure. 
 
 It is introduced in 
 
