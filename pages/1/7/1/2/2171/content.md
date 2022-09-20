@@ -315,17 +315,31 @@ This is the inverse of the first 3-braid we saw.
 
 There are useful [[group presentations]] of the braid groups.   We will return later to the interpretation of the [[generators and relations]] in terms of diagrams. 
 
-## Definition
+\linebreak
 
-### Geometric definition 
- {#GeometricDefinition}
+## Definitions and characterizations
+ {#DefinitionsAndCharacterizations}
 
-(due to [Fadell & Neuwirth 1962, p. 118](#FadellNeuwirth62), [Fox & Neuwirth 1962, §7](#FoxNeuwirth62), reviewed in [Williams 2020, pp. 9](#Williams20))
+* *[As the fundamental group of a configuration space of points](#AsFundamentalGroupOfConfigurationSpace)*
 
-#### Ordinary braid group
+* *[Via generators and relations](#ByGeneratorsAndRelations)*
 
-Geometrically, one may understand the group of braids in $\mathbb{R}^3$ as the [[fundamental group]] of the [[configuration space of points]] in the [[plane]] $\mathbb{R}^2$ (traditionally regarded as the [[complex plane]] $\mathbb{C}$ in this context, though the [[complex structure]] plays no role in the definition of the braid group).
+* *[As mapping class group of a punctured disk](#AsMappingClassGroupOfAPuncturedDisk)*
 
+* *[As automorphisms of a free group](#AsAutomorphismsOfAFreeGroup)*
+
+#### As fundamental group of a configuration space of points
+ {#AsFundamentalGroupOfConfigurationSpace}
+
+Geometrically, one may understand the group of braids in $\mathbb{R}^3$ as the [[fundamental group]] of the [[configuration space of points]] in the [[plane]] $\mathbb{R}^2$ (traditionally regarded as the [[complex plane]] $\mathbb{C}$ in this context, though the [[complex structure]] plays no role in the definition of the braid group as such).
+
+(due to [Fadell & Neuwirth 1962, p. 118](#FadellNeuwirth62), [Fox & Neuwirth 1962, §7](#FoxNeuwirth62), review includes [Birman 1975, §1](#Birman75), [Williams 2020, pp. 9](#Williams20))
+
+
+\linebreak
+
+
+**In the plane**
 
 We say this in more detail:
 
@@ -381,7 +395,9 @@ $$1 \to PBr(n) \to Br(n) \to Sym(n) \to 1$$
 
 which is part of a [[long exact sequence of homotopy groups|long exact homotopy sequence]] corresponding to the [[fibration]] $\pi \colon C_n \to C_n/S_n$. 
 
-#### For general topological base spaces
+\linebreak
+
+**In general surfaces or graphs**
  {#ForMoreGeneralTopologicalSpaces}
 
 Since the notion of a [[configuration space of points]] makes sense for points in any [[topological space]], not necessarily the [[plane]] $\mathbb{R}^2$, the [above](#GeometricDefinition) geometric definition has an immediate generalization:
@@ -405,10 +421,10 @@ It has been shown ([An & Maciazek 2006](#AnMaciazek2006), using discrete [[Morse
 \linebreak
 
 
-### Group-theoretic definition
- {#GroupTheoreticDefinition}
+#### By generators and relations
+ {#ByGeneratorsAndRelations}
 
-#### Artin's presentation
+The braid group as  a [[finitely generated group]]:
 
 \begin{definition}\label{ArtinPresentation}
 **(Artin presentation)**
@@ -418,29 +434,33 @@ The **Artin braid group**, $Br({n+1})$, on $n+1$ strands is the [[finitely gener
 
 * generators: 
 
-  $y_i\;$, $i = 1, \ldots, n$;
+  \[
+    \label{ArtinGenerators}
+    b_i\;\; i = 1, \ldots, n
+  \]
 
 * relations: 
 
-  $$  
+  \[
+    \label{ArtinRelations}
     \begin{array}{ccccc}
     \underset{
       i+1 \lt j    
     }{\forall}
     &\;&
-     y_i \cdot y_j 
+     b_i \cdot b_j 
      &=&  
-     y_j \cdot y_i
+     b_j \cdot b_i
     \\
     \underset{
       1 \leq i \lt n    
     }{\forall}
     &&
-    y_i \cdot y_{i+1} \cdot y_i 
+    b_i \cdot b_{i+1} \cdot b_i 
     &=&
-    y_{i+1} \cdot y_i \cdot y_{i+1}
+    b_{i+1} \cdot b_i \cdot b_{i+1}
     \end{array}
-  $$
+  \]
 
 \end{definition}
 
@@ -449,12 +469,83 @@ The **Artin braid group**, $Br({n+1})$, on $n+1$ strands is the [[finitely gener
 review in, e.g.:  [Fox & Neuwirth 1962, §7](#FoxNeuwirth62))
 
 
-#### In terms of automorphisms on free groups 
- {#InTermsOfAutomorphismsOfFreeGroups}
 
-The braid group $Br(n)$ may be alternatively described as the [[mapping class group]] of a 2-disk $D^2$ with $n$ punctures -- i.e. the [[complement]] $D^2 \setminus \{z_1, \cdots, z_n\}$ of $n$ distinct points in the [[disk]]. Since the [[fundamental group]] of $D^2 \setminus \{z_1, \cdots, z_n\}$ is [[generalized the|the]]  [[free group]] of $n$ generators, this induces a realization of the braid group inside the [[automorphism group]] of a [[free group]], which turns out to be [[faithful representation|faithful]].
 
-This presentation is due to [Artin 1925, §6](#Artin25), review includes [Bardakov 2005, p.  2](#Bardakov05).
+#### As mapping class group of punctured disk
+ {#AsMappingClassGroupOfAPuncturedDisk}
+
+
+The braid group $Br(n)$ may be alternatively described as the [[mapping class group]] of a 2-disk $D^2$ with $n$ punctures. 
+
+(review includes [Birman 1975, §4](#Birman75), [González-Meneses 2011, §1.4](#González-Meneses11))
+
+Concretely, consider 
+
+1. $D^2 \setminus \{z_1, \cdots, z_n\}$ 
+
+   denoting the [[complement]] of $n$ distinct points in the [[closed disk]] (with [[boundary]] the [[circle]]);
+
+1. $Homeo^{\partial}\big(D^2 \setminus \{z_1, \cdots, z_n\} \big)$ 
+
+   denoting the [[mapping space]] of [[automorphism|auto]]-[[homeomorphisms]] which restrict to the [[identity]] on the [[boundary]] [[circle]], regarding with its canonical [[group]] structure;
+
+1. $Homeo^{\partial}_id\big(D^2 \setminus \{z_1, \cdots, z_n\} \big)$ 
+
+   denoting the [[subgroup]] which is the [[connected component]] of the [[identity]].
+
+Then the [[mapping class group]] is 
+
+$$
+  MCG
+  \big(
+    D^2 \setminus \{z_1, \cdots, z_n\}
+  \big)
+  \;\coloneqq\;
+  Homeo^{\partial}\big(D^2 \setminus \{z_1, \cdots, z_n\} \big)
+  \Big/
+  Homeo^{\partial}_{id}\big(D^2 \setminus \{z_1, \cdots, z_n\} \big)
+  \,.
+$$
+
+Now observe that 
+
+1. for the case that $n = 0$ this group is [[trivial group|trivial]], by *[[Alexander's trick]]*. 
+
+1. continuous extension yields an [[injection]]
+
+   $$
+     Homeo^{\partial}\big(D^2 \setminus \{z_1, \cdots, z_n\} \big)
+     \xhookrightarrow{\phantom{-}\iota\phantom{-}}
+     Homeo^{\partial}\big(D^2\big)
+     \,.
+   $$
+
+Combining this implies that for every $[\phi] \,\in\, MCG\big(D^2 \setminus \{z_1, \cdots, z_n\}big)$ therese is an [[isotopy]] of $\iota[\phi] \to id$ under which the locations of the punctures trace out a braid (in the sense of a [[loop]] in the symmetrized [[configuration space of points]]). This construction zields a morphism
+
+and this is [[isomorphism|isomorphic]] to the braid group
+
+$$
+  MCG
+  \big(
+    D^2 \setminus \{z_1, \cdots, z_n\}
+  \big)
+  \xrightarrow{\;\;\sim\;\;}
+  Br(n) 
+  \,.
+$$
+
+which is an [[isomorphism]].
+
+
+
+
+
+#### As automorphisms of a free group
+ {#AsAutomorphismsOfAFreeGroup}
+
+Since the [[fundamental group]] of $D^2 \setminus \{z_1, \cdots, z_n\}$ is [[generalized the|the]]  [[free group]] of $n$ generators, the MCG-presentation of the braid group ([above](#InTermsOfAutomorphismsOfFreeGroups)) induces a [[group homomorphism]] of the braid group into the [[automorphism group]] of a [[free group]], which turns out to be [[faithful representation|faithful]].
+
+This presentation is due to [Artin 1925, §6](#Artin25), review includes [González-Meneses 2011, §1.6](#González-Meneses11), see also pointer in [Bardakov 2005, p.  2](#Bardakov05).
 
 
 More in detail, since the [[homotopy type]] of this punctured disk is, evidently, that of the the [[wedge sum]] of $n$ [[circles]], it follows that its [[fundamental group]] is is the [[free group]] $F_n$ on $n$ generators:
@@ -510,7 +601,7 @@ $$
   \big)
 $$ 
 
-Therefore, the above gives a homomrophism of the following form, which turns out to be a [[monomorphism]]:
+Therefore, the above gives a homomorphism of the following form, which turns out to be a [[monomorphism]]:
 
 $$
   Br(n) 
@@ -539,7 +630,7 @@ $$
 
 
 
-Explicitly, the generator $y_i$ used in the Artin presentation above (Def. \ref{ArtinPresentation}) is mapped to the automorphism $\sigma_i$ on the free group on $n$ generators $t_1, \ldots, t_n$ given as follows:
+Explicitly, the generator $yb_i$ (eq:ArtinGenerators) in the Artin presentation(Def. \ref{ArtinPresentation}) is mapped to the automorphism $\sigma_i$ on the free group on $n$ generators $t_1, \ldots, t_n$ which is given as follows:
 
 $$
   \sigma_i(t_j)
@@ -558,6 +649,20 @@ $$
 $$
 
 ([Artin 1925, (24)](#Artin25))
+
+\begin{imagefromfile}
+    "file_name": "BraidActingOnFundamentalGroup-Gonzalez2011.jpg",
+    "width": 540,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "from [González-Meneses 2011](#González-Meneses11)"
+\end{imagefromfile}
+
 
 
 
@@ -628,7 +733,9 @@ This is also known as the "trefoil [[knot group]]", i.e., the [[fundamental grou
 The group $Br(4)$ (simplifying notation as [before](#TheBraidgroupBr3)) has generators $u,v,w$ and relations:
 
  *  $r_u \equiv  v w v w^{-1} v^{-1} w^{-1}$,
+
  *  $r_v \equiv  u w u^{-1} w^{-1}$,
+
  *  $r_w \equiv  u v u v^{-1} u^{-1} v^{-1}$.
 
 \end{example}
@@ -683,14 +790,13 @@ Early history:
 
 * [[Michael Friedman]], *Mathematical formalization and diagrammatic reasoning: the case study of the braid group between 1925 and 1950*, British Journal for the History of Mathematics **34** 1 (2019) 43-59 &lbrack;[doi:10.1080/17498430.2018.1533298](https://doi.org/10.1080/17498430.2018.1533298)&rbrack;
 
-Further classical references:
+The understanding of the braid group as the [[fundamental group]] of a [[configuration space of points]] is due to:
 
-* [[Joan S. Birman]], _Braids, links, and mapping class groups_, Princeton Univ Press (1975) &lbrack;[preview pdf](https://api.pageplace.de/preview/DT0400.9781400881420_A26691398/preview-9781400881420_A26691398.pdf)&rbrack;
-
-* {#FoxNeuwirth62} [[Ralph H. Fox]], [[Lee Neuwirth]], *The braid groups*, Math. Scand. **10** (1962) 119-126
-$[$[doi:10.7146/math.scand.a-10518](https://doi.org/10.7146/math.scand.a-10518), [pdf](https://www.mscand.dk/article/view/10518/8539), [MR150755](http://www.ams.org/mathscinet-getitem?mr=150755)$]$
+* {#FoxNeuwirth62} [[Ralph H. Fox]], [[Lee Neuwirth]], *The braid groups*, Math. Scand. **10** (1962) 119-126 $[$[doi:10.7146/math.scand.a-10518](https://doi.org/10.7146/math.scand.a-10518), [pdf](https://www.mscand.dk/article/view/10518/8539), [MR150755](http://www.ams.org/mathscinet-getitem?mr=150755)$]$
 
 * {#FadellNeuwirth62} [[Edward Fadell]], [[Lee Neuwirth]], *Configuration spaces*, Math. Scand. __10__ (1962) 111-118 $[$[doi:10.7146/math.scand.a-10517](https://doi.org/10.7146/math.scand.a-10517), [MR141126](http://www.ams.org/mathscinet-getitem?mr=141126)$]$
+
+* {#Birman75} [[Joan S. Birman]], _Braids, links, and mapping class groups_, Princeton Univ Press (1975) &lbrack;[preview pdf](https://api.pageplace.de/preview/DT0400.9781400881420_A26691398/preview-9781400881420_A26691398.pdf)&rbrack;
 
 Textbook accounts:
 
@@ -702,7 +808,7 @@ Further introduction and review:
 
 * Joshua Lieber, *Introduction to Braid Groups*, 2011 ([pdf](https://math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Lieber.pdf))
 
-* Juan González-Meneses, *Basic results on braid groups*, Annales Mathématiques Blaise Pascal, Tome 18 (2011) no. 1, pp. 15-59 ([ambp:AMBP_2011__18_1_15_0](https://ambp.centre-mersenne.org/item/?id=AMBP_2011__18_1_15_0))
+* {#González-Meneses11} Juan González-Meneses, *Basic results on braid groups*, Annales Mathématiques Blaise Pascal, Tome 18 (2011) no. 1, pp. 15-59 ([ambp:AMBP_2011__18_1_15_0](https://ambp.centre-mersenne.org/item/?id=AMBP_2011__18_1_15_0))
 
 * Alexander I. Suciu, He Wang, *The pure braid groups and their relatives*,  Perspectives in Lie theory, 403-426, Springer INdAM series, vol. 19, Springer, Cham, 2017 ([arXiv:1602.05291](https://arxiv.org/abs/1602.05291))
 
@@ -715,6 +821,8 @@ On the braid representation on [[automorphism group|automorphisms]] of [[free gr
 * [[Lluís Bacardit]], [[Warren Dicks]], *Actions of the braid group, and new algebraic proofs of results of Dehornoy and Larue*, Groups Complexity Cryptology **1** (2009) 77-129 &lbrack;[arXiv:0705.0587](https://arxiv.org/abs/0705.0587), [doi;10.1515/GCC.2009.77](https://doi.org/10.1515/GCC.2009.77)&rbrack;
 
 * {#Bardakov05} [[Valerij G. Bardakov]], *Extending representations of braid groups to the automorphism groups of free groups*, Journal of Knot Theory and Its Ramifications **14** 08 (2005) 1087-1098 &lbrack;[arXiv:math/0408330](https://arxiv.org/abs/math/0408330), [doi:10.1142/S0218216505004251](https://doi.org/10.1142/S0218216505004251)&rbrack;
+
+* Tetsuya Ito, *Actions of the $n$-strand braid groups on the free group of rank n which are similar to the Artin representation*, Quart. J. Math **66** (2015) 563-581 &lbrack;[arXiv;1406.2411](https://arxiv.org/abs/1406.2411), [doi:10.1093/qmath/hau033](https://doi.org/10.1093/qmath/hau033)&rbrack;
 
 
 See also:
