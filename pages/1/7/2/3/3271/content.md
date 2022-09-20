@@ -19,6 +19,8 @@ Warning: there is another mathematician (global analysis, [[symplectic geometry]
 * V. Ginsburg, _Characteristic varieties and vanishing cycles_, Inv. Math. __84__, 327--402 (1986) [MR87j:32030](http://www.ams.org/mathscinet-getitem?mr=833194), [doi](http://dx.doi.org/10.1007/BF01388811)
 
 * V.G. _Lectures on D-modules_, 1998 Chicago notes, writeup by V. Baranovsky, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/Ginzburg.pdf)
+* [[William Crawley-Boevey]], [[Pavel Etingof]], [[Victor Ginzburg]], _Noncommutative geometry and quiver algebras_,  Adv. Math. __209__:1 (2007) 274-336 [doi](https://doi.org/10.1016/j.aim.2006.05.004)
+* V. Ginzburg, T. Schedler, _Differential operators and BV structures in noncommutative geometry_, Sel. Math. New Ser. 16, 673–730 (2010) [doi](https://doi.org/10.1007/s00029-010-0029-8)
 
 He introduced the notion of $d$-Calabi-Yau algebra (and also a construction of a class of examples, [[Ginzburg dg-algebra]]s) in  
 
