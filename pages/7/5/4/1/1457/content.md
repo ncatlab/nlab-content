@@ -111,7 +111,7 @@ $$\mathrm{idtozerodis}(x, y):(x = y) \to (d(x, y) = 0)$$
 
 The last axiom is equivalent to the point inequality axiom 
 $$\mathrm{ptineq}(x):d(x, x) = 0$$ 
-by the induction principle of [[identity types]]. Every pseudometric space can be shown to be a [[setoid]] with respect to the [[binary relation]] 
+by the induction principle of [[identity types]]. Every pseudometric can be shown to have an [[equivalence relation]]  
 $$x \sim y \coloneqq d(x, y) = 0$$ 
 through the axioms of a pseudometric space. 
 
