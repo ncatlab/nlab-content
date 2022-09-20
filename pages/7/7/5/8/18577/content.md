@@ -56,9 +56,13 @@ See also:
 * [[Masaki Kashiwara]], _Systems of microdifferential equations_, Birkh&#228;user 1983, 87 pp.
 
 * [[Masaki Kashiwara]], Takahiro Kawai, Tatsuo Kimura, _Foundations of algebraic analysis_, Transl. from Japanese by Goro Kato. Princeton Mathematical Series __37__, 1986. xii+255 pp.
-[MR87m:58156](http://www.ams.org/mathscinet-getitem?mr=855641); [[Jean-Luc Brylinski]], Book Review: Foundations of algebraic analysis. Bull. Amer. Math. Soc. (N.S.) __18__ (1988), no. 1, 104&#8211;108, [doi](http://dx.doi.org/10.1090/S0273-0979-1988-15622-4)
+[MR87m:58156](http://www.ams.org/mathscinet-getitem?mr=855641); [[Jean-Luc Brylinski]], Book Review: Foundations of algebraic analysis. Bull. Amer. Math. Soc. (N.S.) __18__ (1988), no. 1, 104&#8211;108, [doi](https://doi.org/10.1090/S0273-0979-1988-15622-4)
 
-* [[Masaki Kashiwara]], Pierre Schapira, _Hochschild homology and microlocal Euler classes_, [arxiv/1203.4869](http://arxiv.org/abs/1203.4869)
+* [[Masaki Kashiwara]], Pierre Schapira, _Hochschild homology and microlocal Euler classes_, [arxiv/1203.4869](https://arxiv.org/abs/1203.4869)
 
+* Vivek Shende, _Microsheaves from Hitchin fibers via Floer theory_, [arXiv:2108.13571](https://arxiv.org/abs/2108.13571)
 
+See also [[microlocal category]].
+
+category: geometry, analysis
 
