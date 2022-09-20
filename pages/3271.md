@@ -20,7 +20,8 @@ Warning: there is another mathematician (global analysis, [[symplectic geometry]
 
 * V.G. _Lectures on D-modules_, 1998 Chicago notes, writeup by V. Baranovsky, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/Ginzburg.pdf)
 * [[William Crawley-Boevey]], [[Pavel Etingof]], [[Victor Ginzburg]], _Noncommutative geometry and quiver algebras_,  Adv. Math. __209__:1 (2007) 274-336 [doi](https://doi.org/10.1016/j.aim.2006.05.004)
-* V. Ginzburg, T. Schedler, _Differential operators and BV structures in noncommutative geometry_, Sel. Math. New Ser. 16, 673–730 (2010) [doi](https://doi.org/10.1007/s00029-010-0029-8)
+* V. Ginzburg, [[T. Schedler]], _Differential operators and BV structures in noncommutative geometry_, Sel. Math. New Ser. 16, 673–730 (2010) [doi](https://doi.org/10.1007/s00029-010-0029-8)
+* V. Ginzburg, [[T. Schedler]], _A new construction of cyclic homology_, Proc. Lon. Math. Soc 112 (2016), no. 3, 549-587; [doi](https://doi.org/10.1112/plms/pdw001; arXiv:1201.6635)
 
 He introduced the notion of $d$-Calabi-Yau algebra (and also a construction of a class of examples, [[Ginzburg dg-algebra]]s) in  
 
