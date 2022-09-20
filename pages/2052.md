@@ -19,9 +19,9 @@ Nowadays combinatorial group theory uses fruitful connections to [[topology]] an
 
 ## References
 
-Two of the classic texts on the subject are:
+Two of the classic texts on the subject:
 
-* W. Magnus, A. Karras, D. Solitar, _Combinatorial group theory_
+* [[Wilhelm Magnus]], A. Karras, D. Solitar, *Combinatorial group theory: Presentation of groups in terms of generators and relations*, Courier Corporation (1966, 2004) &lbrack;[GoogleBooks](https://books.google.com/books?hl=en&lr=&id=1LW4s1RDRHQC&oi=fnd&pg=PP1&ots=WszNa-0hEz&sig=Hn_MTbyLcEreBBNZ8jJtQUVKlZk)&rbrack;
 
 * R. Lindon, P. Schupp, _Combinatorial group theory_, Springer 1977 (Russian transl. Mir, Moskva 1980)
 
