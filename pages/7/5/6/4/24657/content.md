@@ -6,7 +6,7 @@ Related notions: [[double derivation]], [[shited symplectic structure]], [[Poiss
 
 Double Poisson vertex algebra generalize double Poisson algebras:
 
-* Alberto De Sole, Victor G. Kac, Daniele Valeri, _Double Poisson vertex algebras and non-commutative Hamiltonian equations_, Adv. Math. __281__ (2015) 1025--1099 [doi](https://doi.org/10.1016/j.aim.2015.05.011)
+* Alberto De Sole, [[Victor G. Kac]], Daniele Valeri, _Double Poisson vertex algebras and non-commutative Hamiltonian equations_, Adv. Math. __281__ (2015) 1025--1099 [doi](https://doi.org/10.1016/j.aim.2015.05.011)
 * Luis Álvarez-Cónsul, David Fernández, Reimundo Heluani, _Noncommutative Poisson vertex algebras and Courant-Dorfman algebras_, [arXiv:2106.00270](https://arxiv.org/abs/2106.00270) 
 
 There is also a viewpoint of double algebras
@@ -21,3 +21,4 @@ There are some restrictions and no-go theorems for commutative algebras
 category: algebra
 
 [[!redirects double Poisson algebra]]
+[[!redirects double Poisson bracket]]
