@@ -152,7 +152,7 @@ Shortly thereafter,
 
 defined symplectic relations as [[isotropic submanifolds]] of products and showed that this class of relations was closed under "clean" composition.  Following in part some (unpublished) ideas of [[Alan Weinstein]], 
 
-* [[Victor Guillemin]] [[Shlomo Sternberg]], _Some problems in integral geometry and some related problems in microlocal analysis_, Amer. J. Math. 101 (1979), 915&#8211;955 ([JSTOR](http://www.jstor.org/stable/2373923))
+* [[Victor Guillemin]], [[Shlomo Sternberg]], _Some problems in integral geometry and some related problems in microlocal analysis_, Amer. J. Math. 101 (1979), 915&#8211;955 ([JSTOR](http://www.jstor.org/stable/2373923))
 
 observed that the linear canonical relations (i.e., lagrangian subspaces of products of [[symplectic vector spaces]]) could be considered as the morphisms of a category, and they constructed a
 partial [[quantization]] of this category (in which lagrangian subspaces are enhanced by halfdensities.) 
@@ -162,6 +162,10 @@ and this program was set out more formally
 * [[Alan Weinstein]], _Symplectic manifolds and their lagrangian submanifolds_, Advances in Math. 6 (1971), 329&#8211;346.
 
 * [[Alan Weinstein]], _Symplectic geometry_, Bulletin Amer. Math. Soc. (new series) 5 (1981), 1&#8211;13.
+
+See also 
+
+* W.M.Tulczyjew, S.Zakrzewski, _The category of Fresnel kernels_, J. Geom. Phys. 1:3, 1984, 79--120 <a href="https://doi.org/10.1016/0393-0440(84)90021-4">doi</a>
 
 Lecture notes reviewing these developments include
 
@@ -174,7 +178,7 @@ from the introduction of which parts of the commented list of references above i
 
 Further refinements in [[higher category theory]] are discussed in
 
-* [[Katrin Wehrheim]] and [[Chris Woodward]], _Functoriality for Lagrangian correspondences in Floer theory_, [arXiv:0708.2851](http://arxiv.org/abs/0708.2851)
+* [[Katrin Wehrheim]], [[Chris Woodward]], _Functoriality for Lagrangian correspondences in Floer theory_, [arXiv:0708.2851](http://arxiv.org/abs/0708.2851)
  {#WehrheimWoodward}
 
 * [[Nitu Kitchloo]], _The Stable Symplectic Category and Geometric Quantization_ ([arXiv:1204.5720](http://arxiv.org/abs/1204.5720v1))
@@ -184,8 +188,9 @@ Further refinements in [[higher category theory]] are discussed in
 
 A closed [[symmetric monoidal category]] version of the symplectic category and the observation that this hence is a [[categorical semantics]] for [[quantum logic]] qua [[linear logic]] is in
 
-* [[Sergey Slavnov]], _From proof-nets to bordisms: the geometric meaning of multiplicative connectives_, Mathematical Structures in Computer Science / Volume 15 / Issue 06 / December 2005, pp 1151 - 1178
+* [[Sergey Slavnov]], _From proof-nets to bordisms: the geometric meaning of multiplicative connectives_, Mathematical Structures in Computer Science __15__:06  (2005) 1151--1178
  {#Slavnov05}
+* [[Sergey Slavnov]], _Geometrical semantics for linear logic (multiplicative fragment)_, Theoretical Computer Science 357, no. 1--3 (2006) 215--229 [doi](https://doi.org/10.1016/j.tcs.2006.03.020)
 
 Remarks about refinements to correspondences of smooth $\infty$-groupoids in the slice over prequantum moduli is in 
 
