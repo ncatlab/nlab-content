@@ -145,6 +145,7 @@ This is ([Lurie 09, example 4.2.8](#Lurie09)).
   * **Calabi-Yau algebra**, [[Calabi-Yau manifold]]
 
   * [[Calabi-Yau category]]
+* [[pre-Calabi-Yau algebra]]
 
 ## References
 
