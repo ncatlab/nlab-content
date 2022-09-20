@@ -28,7 +28,7 @@ Usually these are called simply **tangent categories**, but on the nLab the page
 
 ## Definition
 
-Tangent bundle categories have three equivalent definitions: the first is due to Rosicky and was rediscovered/refined by [[Robin Cockett|Cockett]] and [[Geoff Cruttwell|Cruttwell]]. In his thesis, Poon Leung found an equivalent definition of tangent categories using a category structure that acts as an abstract Weil prolongation, and later [[Richard Garner]] gave a definition of a tangent category as a sort of enriched category.
+Tangent bundle categories have three equivalent definitions: the first is due to [[Jiří Rosický]] and was rediscovered/refined by [[Robin Cockett|Cockett]] and [[Geoff Cruttwell|Cruttwell]]. In his thesis, Poon Leung found an equivalent definition of tangent categories using a category structure that acts as an abstract Weil prolongation, and later [[Richard Garner]] gave a definition of a tangent category as a sort of enriched category.
 
 ### Classical Definition
 
