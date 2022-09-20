@@ -438,9 +438,14 @@ by analysis of the [[event horizon]] of the [[black hole]] in the center of the 
 
 [[!redirects intersecting D-brane models]]
 
+[[!redirects intersecting brane model]]
+[[!redirects intersecting brane models]]
+
 [[!redirects intersecting D-brane model building]]
 
 [[!redirects branes at angles]]
 
 [[!redirects brane world model]]
 [[!redirects brane world models]]
+
+
