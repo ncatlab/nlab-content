@@ -1,6 +1,3 @@
-[[!redirects Derived microlocalization]]
-[[!redirects derived microlocalization]]
-
 #Contents#
 * table of contents
 {:toc}
