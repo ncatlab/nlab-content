@@ -65,6 +65,7 @@ arXiv:[math.QA/0612493](https://arxiv.org/abs/math.QA/0612493)
 * V. Sokolov, _Classification of constant solutions for associative Yang-Baxter on $gl(3)$_, [arxiv/1212.6421](http://arxiv.org/abs/1212.6421)
 
 * [[A. Odesskii]], [[V. Rubtsov]], V. Sokolov, _Double Poisson brackets on free associative algebras_, in: Noncommutative Birational Geometry, Representations and Combinatorics, Contemp. Math. __592__, Amer. Math. Soc. (2013) 225--239 [doi](https://arxiv.org/abs/1208.2935) [arxiv/1208.2935](https://arxiv.org/abs/1208.2935)
+*  [[A. Odesskii]], [[V. Rubtsov]], V. Sokolov, _Parameter-dependent associative Yang–Baxter equations and Poisson brackets_, Int. J. Geom. Meth. Mod. Phys. __11__:09, 1460036 (2014) Proc. XXII IFWGP, Univ. of Évora, Portugal, 2013 [doi](https://doi.org/10.1142/S0219887814600366)
 
 category: algebra, physics
 
