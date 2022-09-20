@@ -112,6 +112,9 @@ Discussion in a general context of [[bound states]]:
 
 * [[Paul Hoyer]], _Journey to the Bound States_ ([arXiv:2101.06721](https://arxiv.org/abs/2101.06721))
 
+List of hadrons discovered at the [[LHC experiment]]:
+
+* {#Koppenburg21} [[Patrick Koppenburg]] for the [[LHCb collaboration]]: *List of hadrons observed at the LHC* (2021) &lbrack;[pdf](https://cds.cern.ch/record/2749030/files/FIGURE-2021-001.pdf), [webpage](https://www.nikhef.nl/~pkoppenb/particles.html), [cds:2749030](https://cds.cern.ch/record/2749030)&rbrack;
 
 
 [[!include quantum hadrodynamics -- references]]
