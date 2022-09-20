@@ -56,7 +56,11 @@ $ f_x(a): f_y(b)\cong f_x(b):f_{a^{-1}}(y) $ .
 
 * Mauro William Barbosa de Almeida, _A fórmula canônicado mito_ , ms. University of São Paulo 2009. (Available online)
 
+* {#DaWiKi14}S. Darányi, P. Wittek, K. Kitto, _The Sphinx's New Riddle: How to Relate the Canonical Formula of Myth to Quantum Interaction_ , pp.47-58 in LNCS **8369** (2014).
+
 * Maurice Godelier, _L&#233;vi-Strauss_ , Seuil Paris 2013.
+
+* Lucien d'Huy, _Cosmogonies - La Préhistoire des mythes_ , La Découverte Paris 2020. (pp.247-252)
 
 * {#Lacan07}Jacques Lacan, _Le mythe individuel du n&#233;vros&#233;_ , Seuil Paris 2007.
 
@@ -95,6 +99,8 @@ $ f_x(a): f_y(b)\cong f_x(b):f_{a^{-1}}(y) $ .
 * {#Saussure02}Ferdinand de Saussure, _&#201;crits de linguistique g&#233;n&#233;rale_ , Gallimard Paris 2002.
 
 * {#Scubla98}Lucien Scubla, _Lire L&#233;vi-Strauss_ , Odile Jacob Paris 1998.
+
+* {#ThuiLeQue17}M. Thuillard, J.-L. Le Quellec, _A phylogenetic interpretation of the canonical formula of myths by Lévi-Strauss_ , Cultural Anthropology and Ethnosemiotics **3** no.2 (2017) pp.1-12.
 
 [[!redirects canonical formula]]
 [[!redirects Canonical formula]]
