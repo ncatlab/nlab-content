@@ -537,6 +537,8 @@ $$
 
 * [[loop braid group]]
 
+* [[parenthesized braid operad]]
+
 [[!include chord diagrams and weight systems -- table]]
 
 
@@ -544,7 +546,19 @@ $$
 
 ### General
 
-Classical references:
+Original articles:
+
+* [[Emil Artin]], *Theory of Braids*, Annals of Mathematics, Second Series, **48** 1 (1947) 101-126 &lbrack;[doi:10.2307/1969050](https://doi.org/10.2307/1969050)&rbrack;
+
+* [[Frederic Bohnenblust]], *The Algebraical Braid Group*, Annals of Mathematics Second Series **48** 1 (1947) 127-136 &lbrack;[doi:10.2307/1969219](https://doi.org/10.2307/1969219)&rbrack;
+
+* [[Wei-Liang Chow]], *On the Algebraical Braid Group*, Annals of Mathematics Second Series, **49** 3 (1948) 654-658 &lbrack;[doi:10.2307/1969050](https://doi.org/10.2307/1969050)&rbrack;
+
+Early history:
+
+* [[Michael Friedman]], *Mathematical formalization and diagrammatic reasoning: the case study of the braid group between 1925 and 1950*, British Journal for the History of Mathematics **34** 1 (2019) 43-59 &lbrack;[doi:10.1080/17498430.2018.1533298](https://doi.org/10.1080/17498430.2018.1533298)&rbrack;
+
+Further classical references:
 
 * [[Joan S. Birman]], _Braids, links, and mapping class groups_, Princeton Univ Press (1975) &lbrack;[preview pdf](https://api.pageplace.de/preview/DT0400.9781400881420_A26691398/preview-9781400881420_A26691398.pdf)&rbrack;
 
@@ -552,7 +566,6 @@ Classical references:
 $[$[doi:10.7146/math.scand.a-10518](https://doi.org/10.7146/math.scand.a-10518), [pdf](https://www.mscand.dk/article/view/10518/8539), [MR150755](http://www.ams.org/mathscinet-getitem?mr=150755)$]$
 
 * {#FadellNeuwirth62} [[Edward Fadell]], [[Lee Neuwirth]], *Configuration spaces*, Math. Scand. __10__ (1962) 111-118 $[$[doi:10.7146/math.scand.a-10517](https://doi.org/10.7146/math.scand.a-10517), [MR141126](http://www.ams.org/mathscinet-getitem?mr=141126)$]$
-
 
 Textbook accounts:
 
@@ -578,6 +591,11 @@ See also:
 On the [[group homology]] and [[group cohomology]] of braid groups:
 
 * [[Vladimir Vershinin]], *Homology of Braid Groups and their Generalizations*, Banach Center Publications (1998) **42** 1 421-446 ([pdf](https://hopf.math.purdue.edu/Vershinin/hobr.pdf), [dml:208821](https://eudml.org/doc/208821))
+
+Relation of [[automorphism groups]] of the [[profinite completion]] of braid groups to the [[Grothendieck-Teichmüller group]]:
+
+* [[Pierre Lochak]], [[Leila Schneps]], *The Grothendieck-Teichmüller group and automorphisms of braid groups*, in: *The Grothendieck Theory of Dessins d’Enfant*, Cambridge University Press (1994, 2011) &lbrack;[pdf](https://webusers.imj-prg.fr/~leila.schneps/Fls.pdf), [doi:10.1017/CBO9780511569302](https://doi.org/10.1017/CBO9780511569302)&rbrack;
+
 
 For orderings of the braid group see
 
