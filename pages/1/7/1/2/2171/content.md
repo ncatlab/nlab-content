@@ -333,7 +333,7 @@ There are useful [[group presentations]] of the braid groups.   We will return l
 
 Geometrically, one may understand the group of braids in $\mathbb{R}^3$ as the [[fundamental group]] of the [[configuration space of points]] in the [[plane]] $\mathbb{R}^2$ (traditionally regarded as the [[complex plane]] $\mathbb{C}$ in this context, though the [[complex structure]] plays no role in the definition of the braid group as such).
 
-(due to [Fadell & Neuwirth 1962, p. 118](#FadellNeuwirth62), [Fox & Neuwirth 1962, §7](#FoxNeuwirth62), review includes [Birman 1975, §1](#Birman75), [Williams 2020, pp. 9](#Williams20))
+(originally due to [Hurwitz 1891, §II](#Hurwitz1891), then re-discovered/re-vived in [Fadell & Neuwirth 1962, p. 118](#FadellNeuwirth62), [Fox & Neuwirth 1962, §7](#FoxNeuwirth62), review includes [Birman 1975, §1](#Birman75), [Williams 2020, pp. 9](#Williams20))
 
 
 \linebreak
@@ -776,29 +776,41 @@ $$
 
 ### General
 
-The original articles:
+The braid group regarded as the [[fundamental group]] of a [[configuration space of points]] is considered (neither of them under these names, though) already in:
+
+* {#Hurwitz1891} [[Adolf Hurwitz]], §II of: *&Uuml;ber Riemann'sche Flächen mit gegebenen Verzweigungspunkten*, Mathematische Annalen **39** (1891) 1–60 &lbrack;[doi:10.1007/BF01199469](https://doi.org/10.1007/BF01199469)&rbrack;
+
+there regarded as [[group action|acting]] on [[Riemann surfaces]] forming [[branched covers]], by movement of the branch points.
+
+The original articles dedicated to analysis of the braid group:
 
 * {#Artin25} [[Emil Artin]], *Theorie der Zöpfe*, Abh. Math. Semin. Univ. Hambg. **4**  (1925) 47–72 &lbrack;[doi;10.1007/BF02950718](https://doi.org/10.1007/BF02950718)&rbrack;
 
+  >(the braid group via generators & relations and via automorphisms of free groups)
+
+* [[Wilhelm Magnus]], *Über Automorphismen von Fundamentalgruppen berandeter Flächen*, Mathematische Annalen **109** (1934) 617–646 &lbrack;[doi:10.1007/BF01449158](https://doi.org/10.1007/BF01449158)&rbrack;
+
+  > (the braid group as a [[mapping class group]])
+    
 * {#Artin47} [[Emil Artin]], *Theory of Braids*, Annals of Mathematics, Second Series, **48** 1 (1947) 101-126 &lbrack;[doi:10.2307/1969218](https://doi.org/10.2307/1969218)&rbrack;
 
 * [[Frederic Bohnenblust]], *The Algebraical Braid Group*, Annals of Mathematics Second Series **48** 1 (1947) 127-136 &lbrack;[doi:10.2307/1969219](https://doi.org/10.2307/1969219)&rbrack;
 
 * [[Wei-Liang Chow]], *On the Algebraical Braid Group*, Annals of Mathematics Second Series, **49** 3 (1948) 654-658 &lbrack;[doi:10.2307/1969050](https://doi.org/10.2307/1969050)&rbrack;
 
-Early history:
+Survey of the early history:
 
 * [[Michael Friedman]], *Mathematical formalization and diagrammatic reasoning: the case study of the braid group between 1925 and 1950*, British Journal for the History of Mathematics **34** 1 (2019) 43-59 &lbrack;[doi:10.1080/17498430.2018.1533298](https://doi.org/10.1080/17498430.2018.1533298)&rbrack;
 
-The understanding of the braid group as the [[fundamental group]] of a [[configuration space of points]] is due to:
+The understanding of the braid group as the [[fundamental group]] of a [[configuration space of points]] was re-discovered/re-vived (after [Hurwitz 1891](#Hurwitz1891)) in:
 
 * {#FoxNeuwirth62} [[Ralph H. Fox]], [[Lee Neuwirth]], *The braid groups*, Math. Scand. **10** (1962) 119-126 $[$[doi:10.7146/math.scand.a-10518](https://doi.org/10.7146/math.scand.a-10518), [pdf](https://www.mscand.dk/article/view/10518/8539), [MR150755](http://www.ams.org/mathscinet-getitem?mr=150755)$]$
 
 * {#FadellNeuwirth62} [[Edward Fadell]], [[Lee Neuwirth]], *Configuration spaces*, Math. Scand. __10__ (1962) 111-118 $[$[doi:10.7146/math.scand.a-10517](https://doi.org/10.7146/math.scand.a-10517), [MR141126](http://www.ams.org/mathscinet-getitem?mr=141126)$]$
 
-* {#Birman75} [[Joan S. Birman]], _Braids, links, and mapping class groups_, Princeton Univ Press (1975) &lbrack;[preview pdf](https://api.pageplace.de/preview/DT0400.9781400881420_A26691398/preview-9781400881420_A26691398.pdf)&rbrack;
-
 Textbook accounts:
+
+* {#Birman75} [[Joan S. Birman]], _Braids, links, and mapping class groups_, Princeton Univ Press (1975) &lbrack;[preview pdf](https://api.pageplace.de/preview/DT0400.9781400881420_A26691398/preview-9781400881420_A26691398.pdf)&rbrack;
 
 * [[Christian Kassel]], [[Vladimir Turaev]], _Braid Groups_, GTM **247** Springer Heidelberg 2008 ([doi:10.1007/978-0-387-68548-9](https://link.springer.com/book/10.1007/978-0-387-68548-9), [webpage](http://irma.math.unistra.fr/~kassel/Braids-bk.html))
 
