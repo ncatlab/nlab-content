@@ -118,6 +118,10 @@ The [[ordinary cohomology]] with rational coefficients of the [[delooping]] of t
 
 * [[diffeomorphism group]]
 
+* [[Alexander's trick]]
+
+* [[braid group]]
+
 ## References
 
 Surveys include
