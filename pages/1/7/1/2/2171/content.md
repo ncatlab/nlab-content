@@ -406,39 +406,162 @@ It has been shown ([An & Maciazek 2006](#AnMaciazek2006), using discrete [[Morse
 
 
 ### Group-theoretic definition
+ {#GroupTheoreticDefinition}
+
+#### Artin's presentation
 
 \begin{definition}\label{ArtinPresentation}
 **(Artin presentation)**
 \linebreak
+
 The **Artin braid group**, $Br({n+1})$, on $n+1$ strands is the [[finitely generated group]] given via [[generators and relations]] by:
 
-* generators: $y_i$, $i = 1, \ldots, n$;
+* generators: 
+
+  $y_i\;$, $i = 1, \ldots, n$;
 
 * relations: 
 
-  * $r_{i,j} \equiv y_i y_j y_i^{-1} y_j^{-1}$ for $i+1 \lt j$
-
-  * $r_{i,i+1}\equiv y_i y_{i+1} y_i y_{i+1}^{-1} y_i^{-1} y_{i+1}^{-1}$ for $1 \leq i \lt n$. 
+  $$  
+    \begin{array}{ccccc}
+    \underset{
+      i+1 \lt j    
+    }{\forall}
+    &\;&
+     y_i \cdot y_j 
+     &=&  
+     y_j \cdot y_i
+    \\
+    \underset{
+      1 \leq i \lt n    
+    }{\forall}
+    &&
+    y_i \cdot y_{i+1} \cdot y_i 
+    &=&
+    y_{i+1} \cdot y_i \cdot y_{i+1}
+    \end{array}
+  $$
 
 \end{definition}
-(e.g. [Fox & Neuwirth 1962, §7](#FoxNeuwirth62))
+
+
+([Artin 1925, (5)-(6)](#Artin25); [Artin 1947, (18)-(19)](#Artin47);
+review in, e.g.:  [Fox & Neuwirth 1962, §7](#FoxNeuwirth62))
 
 
 #### In terms of automorphisms on free groups 
+ {#InTermsOfAutomorphismsOfFreeGroups}
 
-The braid group $Br(n)$ may be alternatively described as the [[mapping class group]] of a 2-disk $D^2$ with $n$ punctures (call it $X_n$). Meanwhile, the [[fundamental group]] $\pi_1(X_n)$ (with basepoint on the boundary) is a [[free group]] $F_n$ on $n$ generators; the functoriality of $\pi_1$ implies we have an induced homomorphism 
+The braid group $Br(n)$ may be alternatively described as the [[mapping class group]] of a 2-disk $D^2$ with $n$ punctures -- i.e. the [[complement]] $D^2 \setminus \{z_1, \cdots, z_n\}$ of $n$ distinct points in the [[disk]]. Since the [[fundamental group]] of $D^2 \setminus \{z_1, \cdots, z_n\}$ is [[generalized the|the]]  [[free group]] of $n$ generators, this induces a realization of the braid group inside the [[automorphism group]] of a [[free group]], which turns out to be [[faithful representation|faithful]].
 
-$$Aut(X_n) \to Aut(\pi_1(X_n)) = Aut(F_n).$$ 
+This presentation is due to [Artin 1925, §6](#Artin25), review includes [Bardakov 2005, p.  2](#Bardakov05).
 
-If an automorphism $\phi: X_n \to X_n$ is isotopic to the identity, then of course $\pi_1(\phi)$ is trivial, and so the homomorphism factors through the quotient $MCG(X_n) = Aut(X_n)/Aut_0(X)$, so we get a homomorphism 
 
-$$Br(n) = MCG(X_n) \to Aut(F_n)$$ 
+More in detail, since the [[homotopy type]] of this punctured disk is, evidently, that of the the [[wedge sum]] of $n$ [[circles]], it follows that its [[fundamental group]] is is the [[free group]] $F_n$ on $n$ generators:
 
-and this turns out to be an injection. 
+$$
+  \pi_1
+  \big(
+    D^2 \setminus \{z_1, \cdots, z_ n\}
+  \big)
+  \;\simeq\;
+  \pi_1
+  \big(
+    \vee_n S^1
+  \big)
+  \;\simeq\;
+  F_n
+  \,.
+$$ 
 
-Explicitly, the generator $y_i$ used in the Artin presentation above is mapped to the automorphism $\sigma_i$ on the free group on $n$ generators $x_1, \ldots, x_n$ defined by 
+Now the [[functor|functoriality]] of $\pi_1 \,\colon\, Top^{\ast/} \longrightarrow Grp$ implies we have an induced homomorphism 
 
-$$\sigma_i(x_i) = x_{i+1}, \sigma_i(x_{i+1}) = x_{i+1}^{-1} x_i x_{i+1}, \; \else\; \sigma(x_j) = x_j.$$ 
+$$
+  Aut
+  \big(
+    D^2 \setminus \{z_1, \cdots, z_n\} 
+  \big)
+  \longrightarrow 
+  Aut
+  \Big(
+    \pi_1\big(
+      D^2 \setminus \{z_1, \cdots, z_n\} 
+    \big)
+  \Big) 
+  \,\simeq\, 
+  Aut(F_n)
+  \,.
+$$ 
+
+If such an automorphism $\phi$ of $D^2 \setminus \{z_1, \cdots, z_n\} $ is [[isotopy|isotopic]] to the [[identity]], then of course $\pi_1(\phi)$ is trivial, which means that the above homomorphism factors through the [[quotient group]] known as the [[mapping class group]]:
+
+$$
+  MCG
+  \big(
+    D^2 \setminus \{z_1, \cdots, z_n\}
+  \big) 
+  \,=\, 
+  Aut
+  \big(
+    D^2 \setminus \{z_1, \cdots, z_n\}
+  \big)/Aut_0
+  \big(
+     D^2 \setminus \{z_1, \cdots, z_n\}  
+  \big)
+$$ 
+
+Therefore, the above gives a homomrophism of the following form, which turns out to be a [[monomorphism]]:
+
+$$
+  Br(n) 
+    \,=\, 
+  MCG
+  \big(
+    D^2 \setminus \{z_1, \cdots, z_n\}
+  \big) 
+  \xhookrightarrow{\phantom{--}} 
+  Aut(F_n)
+$$ 
+
+\begin{imagefromfile}
+    "file_name": "BraidActingOnFundamentalGroup-Artin1925.jpg",
+    "width": 440,
+    "float": "right",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "from [Artin 1925](#Artin25)"
+\end{imagefromfile}
+
+
+
+Explicitly, the generator $y_i$ used in the Artin presentation above (Def. \ref{ArtinPresentation}) is mapped to the automorphism $\sigma_i$ on the free group on $n$ generators $t_1, \ldots, t_n$ given as follows:
+
+$$
+  \sigma_i(t_j)
+  \,=\,
+  \left\{
+  \begin{array}{lcl}
+    t_{i+1} & \vert & j = i
+    \\  
+    t_{i+1}^{-1} \cdot t_i \cdot t_{i+1}
+    & \vert & 
+    j = i + 1
+    \\
+    t_j &\vert& \text{otherwise.}
+  \end{array}
+  \right.
+$$
+
+([Artin 1925, (24)](#Artin25))
+
+
+
+\linebreak
 
 ## Properties
 
@@ -546,9 +669,11 @@ $$
 
 ### General
 
-Original articles:
+The original articles:
 
-* [[Emil Artin]], *Theory of Braids*, Annals of Mathematics, Second Series, **48** 1 (1947) 101-126 &lbrack;[doi:10.2307/1969050](https://doi.org/10.2307/1969050)&rbrack;
+* {#Artin25} [[Emil Artin]], *Theorie der Zöpfe*, Abh. Math. Semin. Univ. Hambg. **4**  (1925) 47–72 &lbrack;[doi;10.1007/BF02950718](https://doi.org/10.1007/BF02950718)&rbrack;
+
+* {#Artin47} [[Emil Artin]], *Theory of Braids*, Annals of Mathematics, Second Series, **48** 1 (1947) 101-126 &lbrack;[doi:10.2307/1969218](https://doi.org/10.2307/1969218)&rbrack;
 
 * [[Frederic Bohnenblust]], *The Algebraical Braid Group*, Annals of Mathematics Second Series **48** 1 (1947) 127-136 &lbrack;[doi:10.2307/1969219](https://doi.org/10.2307/1969219)&rbrack;
 
@@ -571,9 +696,7 @@ Textbook accounts:
 
 * [[Christian Kassel]], [[Vladimir Turaev]], _Braid Groups_, GTM **247** Springer Heidelberg 2008 ([doi:10.1007/978-0-387-68548-9](https://link.springer.com/book/10.1007/978-0-387-68548-9), [webpage](http://irma.math.unistra.fr/~kassel/Braids-bk.html))
 
-See also:
-
-* Wikipedia: _[Braid group](http://en.wikipedia.org/wiki/Braid_group)_
+Further introduction and review:
 
 * [[Joan S. Birman]], [[Anatoly Libgober]] (eds.) *Braids*, Contemporary Mathematics **78** (1988) &lbrack;[doi:10.1090/conm/078](http://dx.doi.org/10.1090/conm/078)&rbrack;
 
@@ -587,6 +710,16 @@ See also:
 
 * {#Williams20} [[Lucas Williams]], *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal, **21** 1 (2020) Article 8. ([arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8](https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8))
 
+On the braid representation on [[automorphism group|automorphisms]] of [[free groups]]:
+
+* [[Lluís Bacardit]], [[Warren Dicks]], *Actions of the braid group, and new algebraic proofs of results of Dehornoy and Larue*, Groups Complexity Cryptology **1** (2009) 77-129 &lbrack;[arXiv:0705.0587](https://arxiv.org/abs/0705.0587), [doi;10.1515/GCC.2009.77](https://doi.org/10.1515/GCC.2009.77)&rbrack;
+
+* {#Bardakov05} [[Valerij G. Bardakov]], *Extending representations of braid groups to the automorphism groups of free groups*, Journal of Knot Theory and Its Ramifications **14** 08 (2005) 1087-1098 &lbrack;[arXiv:math/0408330](https://arxiv.org/abs/math/0408330), [doi:10.1142/S0218216505004251](https://doi.org/10.1142/S0218216505004251)&rbrack;
+
+
+See also:
+
+* Wikipedia: _[Braid group](http://en.wikipedia.org/wiki/Braid_group)_
 
 On the [[group homology]] and [[group cohomology]] of braid groups:
 
