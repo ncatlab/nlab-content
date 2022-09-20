@@ -96,6 +96,37 @@ This is equivalently an $(R_{\geq 0}, \geq, +, 0)$-[[enriched univalent setoid]]
 
 Given any [[Archimedean integral domain]] $R$ and an Archimedean integral subdomain $S \subseteq R$, then $S$ is an $(R_{\geq 0}, \geq, +, 0)$-enriched univalent setoid. 
 
+### In homotopy type theory
+
+In [[homotopy type theory]], metric and pseudometric spaces could be defined as any [[type]], not just 0-truncated types. Let $\mathbb{R}$ be some suitable notion of real number, and 
+$$\mathbb{R}_{\geq 0} \coloneqq \sum_{a:\mathbb{R}} a \geq 0$$ 
+be the non-negative real numbers. 
+
+\begin{definition}
+A **pseudometric space** is a type $X$ with a function $d:X \times X \to \mathbb{R}_{\geq 0}$, which comes with  witnesses for symmetry, the triangle identity, and the identity-to-zero-distance condition:
+$$\mathrm{sym}(x, y):d(x, y) = d(y, x)$$
+$$\mathrm{triangle}(x, y, z):d(x, z) \leq d(x, y) + d(y, z)$$
+$$\mathrm{idtozerodis}(x, y):(x = y) \to (d(x, y) = 0)$$
+\end{definition}
+
+The last axiom is equivalent to the point inequality axiom 
+$$\mathrm{ptineq}(x):d(x, x) = 0$$ 
+by the induction principle of [[identity types]]. Every pseudometric space can be shown to be a [[setoid]] with respect to the [[binary relation]] 
+$$x \sim y \coloneqq d(x, y) = 0$$ 
+through the axioms of a pseudometric space. 
+
+In set theory, the separation axiom is usually defined as the converse of the identity-to-zero-distance axiom. However, in type theory, since not all identity types are propositions, merely postulating a function 
+$$\mathrm{sepax}(x, y):(d(x, y) = 0) \to (x = y)$$
+does not result in a metric space, since there might be many such functions into the identity type $x = y$. Instead, one must strengthen the condition to a [[Rezk completion|Rezk completeness]] condition for pseudometric spaces, similar to the type-theoretic antisymmetry condition in [[posets]] from [[preorder|preordered types]]: 
+
+\begin{definition}
+A pseudometric space is a **metric space** if the axiom 
+$$\mathrm{idtozerodis}(x, y):(x = y) \to (d(x, y) = 0)$$
+is an [[equivalence in homotopy type theory|equivalence of types]]. 
+\end{definition}
+
+Since any type of non-negative real numbers is a set, the Rezk completeness condition automatically implies that every metric space is a set. 
+
 ### Category of metric spaces
 
 When working with metric spaces one encounters a broad variety of different maps including non-[[continuous map|continuous]] ones like almost isometries. For a convenient categorical set-up one often restricts to __[[short map|short maps]]__, i.e. maps that do not increase any distance or, equivalently, have are of [[Lipschitz map|Lipschitz norm]] not greater than 1. The category of Lawvere metric spaces and short maps forms the [[category of metric spaces]] $Met$. The restriction to ordinary metric spaces is denoted by $Met_{ord}$.
@@ -214,6 +245,8 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 * {#Porton} [[Victor Porton]], _[Algebraic General Topology: Book 3: Algebra](https://mathematics21.org/the-algebra-of-general-topology/)_
 
 * [[Fred Richman]], Real numbers and other completions ([pdf](http://math.fau.edu/richman/docs/RealNums.pdf))
+
+* Auke B. Booij, Analysis in univalent type theory ([pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf))
 
 [[!redirects metric space]]
 [[!redirects metric spaces]]
