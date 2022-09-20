@@ -48,7 +48,7 @@ On the other hand, a number of categorifications of rather special structures in
 
 * [[Catharina Stroppel]], [[Ben Webster]], _Quiver Schur algebras and q-Fock space_, [arXiv:1110.1115](http://arxiv.org/abs/1110.1115)
 
-* Ivan Losev, Ben Webster, _On uniqueness of tensor products of irreducible categorifications_, [arxiv/1303.1336](http://arxiv.org/abs/1303.1336)
+* [[Ivan Losev]], Ben Webster, _On uniqueness of tensor products of irreducible categorifications_, [arXiv/1303.1336](https://arxiv.org/abs/1303.1336)
 
 category: algebra
 
