@@ -131,6 +131,7 @@ London Math. Soc. Lec. Note Ser. __151__, Cambridge Univ. Press 1990.
 * Paolo Piccione, Daniel Victor Tausk, _A student's guide to symplectic spaces, Grassmannians and Maslov index_, IMPA 2011, [pdf](http://www.impa.br/opencms/pt/biblioteca/pm/PM_27.pdf)
 
 * M. V. Finkelberg, _Orthogonal Maslov index_, Funct. Anal. Appl. 29(1) 72–74 (1995) [doi](https://doi.org/10.1007/bf01077047)
+* [[Alan Weinstein]], _The Maslov cycle as a Legendre singularity and projection of a wavefront set_, Bull. Braz. Math. Soc., N.S. 44, 593--610 (2013) [doi](https://doi.org/10.1007/s00574-013-0026-6)
 
 Application in the theory of Schroedinger operators:
 
