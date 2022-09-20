@@ -6,9 +6,8 @@ Double Hecke algebras or __Cherednik algebras__.
 
 * [[double affine Hecke algebra]]
 
-* See also [[Calogero-Moser system]] and [[Dunkl operator]]. 
-
-
+* [[Calogero-Moser system]], [[Dunkl operator]]
+* [[symplectic reflection algebra]] 
 
 ## References
 
