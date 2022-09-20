@@ -41,7 +41,7 @@ Among the papers in the volume:
 
 Modern viewpoint to R. Fuchs work 
 
-* Yu. Manin, _Sixth Painlevé equation, universal elliptic curve, and mirror of $\mathbf{P}^2$_, In: Geometry of Differential Equations, ed. by A. Khovanskii, A. Varchenko, V. Vassiliev. Amer. Math. Soc. Transl. (2), vol. 186 (1998) 131–151 [alg–geom/9605010](https://arxiv.org/abs/alg-geom/9605010)
+* [[Yuri Manin]], _Sixth Painlevé equation, universal elliptic curve, and mirror of $\mathbf{P}^2$_, In: Geometry of Differential Equations, ed. by A. Khovanskii, A. Varchenko, V. Vassiliev. Amer. Math. Soc. Transl. (2), vol. 186 (1998) 131–151 [alg–geom/9605010](https://arxiv.org/abs/alg-geom/9605010)
 
 Connection to [[mirror symmetry]] is in
 
@@ -67,7 +67,8 @@ An arithmetic analogue is studied in
 
 * A. A. Bolibruch, A. R. Its, A. A. Kapaev, _On the Riemann&#8211;Hilbert&#8211;Birkhoff inverse monodromy problem and the Painlev&#233; equations_, &#1040;&#1083;&#1075;&#1077;&#1073;&#1088;&#1072; &#1080; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;, 16:1 (2004), 121&#8211;162 
 * M. V. Babich, _Isomonodromic deformations and Painlevé equations_, Constr. Approx. 41:3 (2015) 335-356 [doi](https://doi.org/10.1007/s00365-015-9286-2)
-* Leonid O. Chekhov, Marta Mazzocco, Vladimir N. Rubtsov, _Painlevé monodromy manifolds, decorated character varieties, and cluster algebras_, IMRN __24__ (2017) 7639–7691 [arxiv/1511.03851](https://arxiv.org/abs/1511.03851) [doi](https://doi.org/10.1093/imrn/rnw219); _Algebras of quantum monodromy data and decorated character varieties_, [arxiv/1705.01447](https://arxiv.org/abs/1705.01447); _Quantised Painlevé monodromy manifolds, Sklyanin and Calabi-Yau algebras_, [arxiv/1905.02772](https://arxiv.org/abs/1905.02772)
+* Leonid O. Chekhov, Marta Mazzocco, Vladimir N. Rubtsov, _Painlevé monodromy manifolds, decorated character varieties, and cluster algebras_, IMRN __24__ (2017) 7639–7691 [arxiv/1511.03851](https://arxiv.org/abs/1511.03851) [doi](https://doi.org/10.1093/imrn/rnw219); _Algebras of quantum monodromy data and decorated character varieties_, n: Geometry and physics: A Festschrift in honour of Nigel Hitchin, Oxford Univ. Press 2018 [arxiv/1705.01447](https://arxiv.org/abs/1705.01447); _Quantised Painlevé monodromy manifolds, Sklyanin and Calabi-Yau algebras_, Adv. Math. __376__ (2021) 107442 [arxiv/1905.02772](https://arxiv.org/abs/1905.02772) [doi](https://doi.org/10.1016/j.aim.2020.107442)
+* Marta Mazzocco, Vladimir Rubtsov, _Confluence on the Painlevé monodromy manifolds, their Poisson structure and quantisation_, [arXiv/1212.6723](https://arxiv.org/abs/1212.6723)
 
 * Marco Bertola, _Fredholm determinants and (noncommutative) Painlev&#233; II equation_, slides, [pdf](http://www.impan.pl/~fasde/presentations/Bertola.pdf)
 
@@ -79,12 +80,13 @@ An arithmetic analogue is studied in
 
 Multidimensional generalizations of Painlev&#233; VI are introduced in 
 
-* G. Aminov, S. Arthamonov, A. Levin, M. Olshanetsky, A. Zotov, _Painlev&#233; field theory_, [arxiv/1306.3265](http://arxiv.org/abs/1306.3265
+* G. Aminov, S. Arthamonov, A. Levin, M. Olshanetsky, A. Zotov, _Painlev&#233; field theory_, [arXiv/1306.3265](https://arxiv.org/abs/1306.3265)
+* Nalini Joshi, Pieter Roffelsen, _On the monodromy manifold of $q$-Painlevé VI and its Riemann-Hilbert problem_, [arXiv/2202.10597](https://arxiv.org/abs/2202.10597)
 
 #### Model-theoretic aspects
 
 * Joel Nagloo, _Geometric triviality of the strongly minimal second Painlevé equations_ Annals of Pure and Applied Logic, 166(3):358–368, 2015.
-* J. Nagloo, A. Pillay, _On  the  algebraic  independence  of  generic  Painlevé transcendents_, Compos.Math. 150 (2014) 668-678.
+* J. Nagloo, A. Pillay, _On  the  algebraic  independence  of  generic  Painlevé transcendents_, Compos.Math. __150__ (2014) 668-678.
 * James Freitag, _Algebraic relations between solutions of Painlevé equations_, [arXiv:1710.03304](https://arXiv.org/abs/1710.03304)
 * Guy Casale, James Freitag, Joel Nagloo, _Ax-Lindemann-Weierstrass with derivatSives and the genus 0 Fuchsian groups_, Annals of Mathematics __192__ (2020), 721–765 [doi](https://doi.org/10.4007/annals.2020.192.3.2)
 
