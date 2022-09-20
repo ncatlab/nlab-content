@@ -93,8 +93,17 @@ Application in [[perturbative quantum field theory]]:
 
 * Christian Gérard, *Microlocal Analysis of Quantum Fields on Curved Spacetimes* ([arXiv:1901.10175](https://arxiv.org/abs/1901.10175))
 
+Some categories related to microlocal analysis
 
+* [[Dmitry Tamarkin]], _Microlocal category_, [arXiv:1511.08961](https://arxiv.org/abs/1511.08961)
 
+> Given a compact symplectic manifold whose symplectic form has integer periods, one associates to it a dg category based on the microlocal analysis according to Kashiwara-Schapira.
 
+* [[Boris Tsygan]], _A microlocal category associated to a symplectic manifold_, In: M. Hitrik, D. Tamarkin, B. Tsygan, S. Zelditch (eds), Algebraic and Analytic Microlocal Analysis. AAMA 2013. Springer Proc. in Math. & Stat. __269__ [doi](https://doi.org/10.1007/978-3-030-01588-6_4)
+* [[Jun Zhang]], _Quantitative Tamarkin theory_, book, CRM Short Courses, [arXiv:1807.09878](https://arxiv.org/abs/1807.09878)
+[doi](https://doi.org/10.1007/978-3-030-37888-2)
 
+> ...we try to explain how standard symplectic techniques, for instance, generating function, capacities, symplectic homology, etc., are elegantly packaged in the language of sheaves as well as related intriguing sheaf operators. In addition, many concepts developed in Tamarkin category theory are natural generalizations of [[persistent homology]] theory...
+
+category: analysis, geometry
 
