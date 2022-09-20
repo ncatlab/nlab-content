@@ -5,6 +5,9 @@
 
 Introducing the [[braid group]]:
 
+* {#Artin25} [[Emil Artin]], *Theorie der Zöpfe*, Abh. Math. Semin. Univ. Hambg. **4**  (1925) 47–72 &lbrack;[doi;10.1007/BF02950718](https://doi.org/10.1007/BF02950718)&rbrack;
+
+
 * [[Emil Artin]], *Theory of Braids*, Annals of Mathematics, Second Series, **48** 1 (1947) 101-126 &lbrack;[doi:10.2307/1969050](https://doi.org/10.2307/1969050)&rbrack;
 
 
