@@ -80,7 +80,7 @@ hence that the unary operation $l_1$ no longer necessarily squares to zero (no l
 
 * {#Markl11} [[Martin Markl]], _Deformation Theory of Algebras and Their Diagrams_, Regional Conference Series in Mathematics Number 116, American Mathematical Society (2011)
 
-* [[Andrey Lazarev]], Travis Schedler, _Curved infinity-algebras and their characteristic classes_, J Topology (2012) 5 (3): 503-528 ([arXiv:1009.6203](https://arxiv.org/abs/1009.6203))
+* [[Andrey Lazarev]], [[Travis Schedler]], _Curved infinity-algebras and their characteristic classes_, J Topology (2012) 5 (3): 503-528 ([arXiv:1009.6203](https://arxiv.org/abs/1009.6203))
 
 * {#MehtaZambon12} [[Rajan Mehta]], [[Marco Zambon]], _$L_\infty$-Actions_, Differential Geometry and its Applications 30 (2012), 576-587 ([arXiv:1202.2607](https://arxiv.org/abs/1202.2607))
 
