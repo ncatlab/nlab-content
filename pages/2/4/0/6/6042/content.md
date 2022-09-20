@@ -26,6 +26,13 @@ See [[relativistic particle]] for details.
 If one models the [[electromagnetic field]] via the [[Kaluza-Klein mechanism]] as a field of [[gravity]] on a [[fiber bundle]], then [[trajectories]] of [[charged particles]] subject to the Lorentz force in the base space of that bundle are euivalently just [[geodesics]] on the total space, e.g. ([Bleecker 81](#Bleecker81)). An exposition of this fact is in ([Bartlett 13](#Bartlett13)).
 
 
+## Related concepts
+
+* [[strong nuclear force]]
+
+* [[weak nuclear force]]
+
+
 ## References
 
 Named after [[Hendrik Lorentz]].
@@ -50,3 +57,7 @@ and exposition is in
  
 
 [[!redirects Lorentz forces]]
+
+[[!redirects electromagnetic force]]
+[[!redirects electromagnetic forces]]
+
