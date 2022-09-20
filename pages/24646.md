@@ -1,4 +1,4 @@
-__William Crawley-Boevey__ is an English mathematician, mainly algebraist. Topics he contributed to include representations of quivers, quiver varieties, [[Deligne-Simpson problem]], Kleinian singularities, double derivations. 
+__William Crawley-Boevey__ is an English mathematician, mainly algebraist. Topics he contributed to include representations of quivers, quiver varieties, [[Deligne-Simpson problem]], Kleinian singularities, [[double derivation]]s. 
 
 * [Webpage](https://www.math.uni-bielefeld.de/~wcrawley/)
 
