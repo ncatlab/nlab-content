@@ -9,6 +9,7 @@ __Travis Schedler__ is a mathematician at  Imperial College London ([webpage](ht
 * Travis Schedler, _Poisson algebras and Yang-Baxter equations_, in: Advances in quantum computation (Tyler, TX, 2007) (Providence, RI) (K. Mahdavi and D. Koslover, eds.), Contemp. Math. __482__ (2009) 91--106
 arXiv:[math.QA/0612493](https://arxiv.org/abs/math.QA/0612493)
 * [[Pavel Etingof]], [[Travis Schedler]], Alexandre Soloviev, _Set-theoretical solutions to the quantum Yang-Baxter equation_,  Duke Math. J. 100(2) (1999) 169--209 [doi](10.1215/S0012-7094-99-10007-X)
+* Daniel Kaplan, Travis Schedler, _Multiplicative preprojective algebras are 2-Calabi-Yau_, [arXiv:1905.12025](https://arxiv.org/abs/1905.12025)
 
 category: people
 
