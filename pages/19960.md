@@ -761,6 +761,11 @@ while the soft-wall refinement is due to
 
 * {#KKSS06} [[Andreas Karch]], [[Emanuel Katz]], Dam T. Son, Mikhail A. Stephanov, _Linear Confinement and AdS/QCD_, Phys.Rev.D74:015005, 2006 ([arXiv:hep-ph/0602229](https://arxiv.org/abs/hep-ph/0602229))
 
+reviewed in 
+
+* Sergey Afonin, Timofey Solomko, *Motivations for the Soft Wall holographic approach to strong interactions* &lbrack;[arXiv:2209.09042](https://arxiv.org/abs/2209.09042)&rbrack;
+
+
 see also
 
 * Alfredo Vega, Paulina Cabrera, _Family of dilatons and metrics for AdS/QCD models_, Phys. Rev. D 93, 114026 (2016) ([arXiv:1601.05999](https://arxiv.org/abs/1601.05999))
