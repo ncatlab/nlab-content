@@ -193,13 +193,24 @@ See also:
 
 * {#FelixHalperinThomas92} [[Yves Felix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], _Adams' Cobar Equivalence_, Transactions of the American Mathematical Society, Vol. 329, No. 2 (1992), pp. 531-549 ([jstor:2153950](https://www.jstor.org/stable/2153950))
 
-* Rivera, _Adams' cobar construction revisited_ ([arxiv:1910.08455](https://arxiv.org/abs/1910.08455))
+
 
 
 
 Review:
 
 * [[Dev Sinha]], Section 1 in: _Koszul duality in algebraic topology - an historical perspective_, J. Homotopy Relat. Struct. (2013) 8: 1 ([arXiv:1001.2032](https://arxiv.org/abs/1001.2032))
+
+
+
+Identifying the cobar construction on [[singular homology|singular chains]] on a [[topological space]] with the dg-algebra of chains on its [[loop space]]:
+
+* [[John Frank Adams]], *On the cobar construction*,  Proc Natl Acad Sci USA **42** 7 (1956) 409–412 &lbrack;[doi:10.1073/pnas.42.7.409](https://doi.org/10.1073%2Fpnas.42.7.409)&rbrack;
+
+* [[Manuel Rivera]], [[Mahmoud Zeinalian]], *Cubical rigidification, the cobar construction, and the based loop space*, Algebr. Geom. Topol. **18** (2018) 3789-3820
+ &lbrack;[arXiv:1612.04801](https://arxiv.org/abs/1612.04801), [doi:10.2140/agt.2018.18.3789](https://doi.org/10.2140/agt.2018.18.3789)&rbrack;
+
+* [[Manuel Rivera]], *Adams' cobar construction revisited*, Documenta Math. **27** (2022) 1213-1223 &lbrack;[arxiv:1910.08455](https://arxiv.org/abs/1910.08455)&rbrack;
 
 Generalization of the bar-cobar constructions to [[dg-Hopf algebras]]:
 
@@ -208,6 +219,7 @@ Generalization of the bar-cobar constructions to [[dg-Hopf algebras]]:
 * [[Murray Gerstenhaber]], [[Alexander Voronov]], Section 3.2 of: _Homotopy G-algebras and moduli space operad_, Internat. Math. Research Notices (1995) 141-153 ([arXiv:hep-th/9409063](https://arxiv.org/abs/hep-th/9409063))
 
 * Justin Young, _Brace Bar-Cobar Duality_ ([arXiv:1309.2820](https://arxiv.org/abs/1309.2820))
+
 
 [[!redirects cobar construction]]
 [[!redirects cobar constructions]]
