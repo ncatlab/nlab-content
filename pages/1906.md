@@ -4,7 +4,7 @@ The tensor algebra $T_A Der(A,A\otimes A)$ of the $A$-bimodule $Der(A,A\otimes A
 
 * Michel Van den Bergh, _Double Poisson algebras_, Trans. Amer. Math. Soc. __360__ (2008) 5711--5769, [arXiv:math.AG/0410528](https://arXiv.org/abs/math/0410528)
 * Anne Pichereau, Geert Van de Weyer, _Double Poisson cohomology of path algebras of quivers_, J. Alg. __319__, 5 (2008), 2166--2208 [doi](https://doi.org/10.1016/j.jalgebra.2007.09.021)
-* Jorge A. &#71;uccione, Juan J. &#71;uccione, _A characterization of quiver algebras based on double derivations_, [arXiv:0807.1148](https://arxiv.org/abs/0807.1148)
+* Jorge A. Guccione, Juan J. Guccione, _A characterization of quiver algebras based on double derivations_, [arXiv:0807.1148](https://arxiv.org/abs/0807.1148)
 * [[William Crawley-Boevey]], [[Pavel Etingof]], [[Victor Ginzburg]], _Noncommutative geometry and quiver algebras_,  Adv. Math. __209__:1 (2007) 274-336 [doi](https://doi.org/10.1016/j.aim.2006.05.004)
 * V. Ginzburg, T. Schedler, _Differential operators and BV structures in noncommutative geometry_, Sel. Math. New Ser. 16, 673–730 (2010) [doi](https://doi.org/10.1007/s00029-010-0029-8)
 
