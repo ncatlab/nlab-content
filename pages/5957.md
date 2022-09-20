@@ -1,9 +1,9 @@
 
-Jonathan Pridham is a mathematician based in Edinburgh.  
+Jonathan P. Pridham is a mathematician based in Edinburgh.  
 
-* [webpage](http://www.maths.ed.ac.uk/~jpridham/)
+* [webpage](https://www.maths.ed.ac.uk/~jpridham/)
 
-* [publications](http://www.maths.ed.ac.uk/~jpridham/#preprints)
+* [publications](https://www.maths.ed.ac.uk/~jpridham/#preprints)
 
 ## related $n$Lab entries
 
