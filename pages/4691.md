@@ -277,11 +277,18 @@ Introduction and survey:
 
 * Erling St&#248;rmer, _Entropy in operator algebras_, Astérisque, no. 232 (1995), p. 211-230. ([web](http://www.numdam.org/item/AST_1995__232__211_0/), [pdf](http://www.numdam.org/article/AST_1995__232__211_0.pdf))
 
+In quantum mechanics, the basic notion is the von Neumann entropy defined in terms of [[density matrix]]. For type III [[von Neumann algebra]]s the density matrix is not well defined (physically, the problem is usually in ultraviolet divergences). Von Neumann entropy is generalized to arbitrary semifinite von Neumann algebra in
+
+* [[Irving Segal|I. E. Segal]], _A note on the concept of entropy_, J. Math. Mech. 9 (1960) 623--629
 
 [Relative entropy](#RelativeEntropy) of [[states]] on  [[von Neumann algebras]] was introduced in
 
-* {#Araki} [[Huzihiro Araki]], _Relative Entropy of States of von Neumann Algebras_ ([pdf](http://www.google.de/url?sa=t&source=web&cd=5&ved=0CEsQFjAE&url=http%3A%2F%2Fwww.ems-ph.org%2Fjournals%2Fshow_pdf.php%3Fissn%3D0034-5318%26vol%3D11%26iss%3D3%26rank%3D9&rct=j&q=entropy%20cocycle%20von%20Neumann%20algebra&ei=n3jrTYyxOI-c-waJvMnPDw&usg=AFQjCNGuJgVUE7CtGPmb2PZLhOOWt1_JPQ&cad=rja))
- 
+* {#Araki} [[Huzihiro Araki]], _Relative entropy of states of von Neumann algebras_, Publ. RIMS Kyoto Univ.
+11 (1976) 809--833 ([pdf](https://ems.press/content/serial-article-files/2833))
+
+A note relating I. Segal's notion to relative entropy is 
+
+* [[Roberto Longo]], [[Edward Witten]], _A note on continuous entropy_, [arXiv:2202.03357](https://arxiv.org/abs/2202.03357)
 
 A large collection of references on quantum entropy is in 
 
