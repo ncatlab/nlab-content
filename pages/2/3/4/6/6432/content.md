@@ -1,5 +1,4 @@
-[[!redirects microlocalization]]
-
+[[!redirects Microlocalization]]
 ## Idea
 
 Microlocalization is a tool invented by [[Mikio Sato]] to study linear [[partial differential equations]] (as a part of his [[algebraic analysis]] program) not only locally in space but also locally in momentum variable. It is a purely algebraic theory that was also continued in parallel by analysts, like Hormander, giving the domain of [[microlocal analysis]].
@@ -38,13 +37,15 @@ $$\pi_*\mu hom(F,G)\cong \mathbb{R}Hom(F,G).$$
 
 ## Related subjects
 
-[[Index theory]]
+[[index theory]]
 
-[[Microlocal formulation of index theory]]
+[[microlocal formulation of index theory]]
 
-[[Global analytic index theory]]
+[[global analytic index theory]]
 
-[[Derived microlocalization]]
+[[derived microlocalization]]
+
+[[algebraic microlocalization]]
 
 ## References
 
@@ -61,9 +62,8 @@ This theory of microlocalization of (ind)-sheaves (and also sub-analytic sheaves
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _Ind-sheaves, distributions and microlocalization_, describes the program.
 * [[Masaki Kashiwara]], [[Pierre Schapira]], [[Florian Ivorra]], [[Ingo Waschkies]] _Microlocalization of ind-sheaves_, gives the main results
 and proofs.
-* [[Masaki Kashiwara]], [[Pierre Schapira]] _Ind-sheaves_, SMF, gives a
-complete account of the theory.
-* [[Luca Prelli]] _Microlocalization of sub-analytic sheaves_, gives the theory in the sub-analytic setting.
+* [[Masaki Kashiwara]], [[Pierre Schapira]] _Ind-sheaves_, SMF, gives a complete account of the theory.
+* [[Luca Prelli]], _Microlocalization of sub-analytic sheaves_, gives the theory in the sub-analytic setting.
 
 A good overview of the theory can by found at:
 
