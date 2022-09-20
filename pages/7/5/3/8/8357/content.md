@@ -52,6 +52,11 @@ Resolution about $10^{-20}m \simeq 10$ [[TeV]] and currently reached $\simeq 7 T
 
 * [[John Ellis]], _Summary of the Nobel Symposium on LHC Results_ ([arXiv:1309.3549](http://arxiv.org/abs/1309.3549))
 
+List of [[hadrons]] discovered at the LHC:
+
+* {#Koppenburg21} [[Patrick Koppenburg]] for the [[LHCb collaboration]]: *List of hadrons observed at the LHC* (2021) &lbrack;[pdf](https://cds.cern.ch/record/2749030/files/FIGURE-2021-001.pdf), [webpage](https://www.nikhef.nl/~pkoppenb/particles.html), [cds:2749030](https://cds.cern.ch/record/2749030)&rbrack;
+
+
 The [[LHCb]] experiment on [[B-meson]] decays (see also at _[[flavour anomaly]]_):
 
 * [lhcbproject.web.cern.ch/lhcbproject/Publications/LHCbProjectPublic/Summary_all.html](http://lhcbproject.web.cern.ch/lhcbproject/Publications/LHCbProjectPublic/Summary_all.html)
