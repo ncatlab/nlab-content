@@ -59,11 +59,12 @@ The skew-symmetric solutions ($r_{1 2} = - r_{2 1}$) of AYBE give rise to
 
 * Chengming Bai, Li Guo, Xiang Ni, _$\mathcal{O}$-operators on associative algebras and associative Yang-Baxter equations_, Pacific J. Math. __256__ (2012) 257-289, [arxiv/0910.3261](http://arxiv.org/abs/0910.3261)
 
-* Travis Schedler, _Poisson algebras and Yang-Baxter equations_, [math.QA/0612493](http://arxiv.org/abs/math.QA/0612493)
+* Travis Schedler, _Poisson algebras and Yang-Baxter equations_, in: Advances in quantum computation (Tyler, TX, 2007) (Providence, RI) (K. Mahdavi and D. Koslover, eds.), Contemp. Math. __482__ (2009) 91--106
+arXiv:[math.QA/0612493](https://arxiv.org/abs/math.QA/0612493)
 
 * V. Sokolov, _Classification of constant solutions for associative Yang-Baxter on $gl(3)$_, [arxiv/1212.6421](http://arxiv.org/abs/1212.6421)
 
-* [[A. Odesskii]], V. Rubtsov, V. Sokolov, _Double Poisson brackets on free associative algebras_, in: Noncommutative Birational Geometry, Representations and Combinatorics, Contemp. Math. __592__, Amer. Math. Soc. (2013) 225--239 [doi](https://arxiv.org/abs/1208.2935) [arxiv/1208.2935](https://arxiv.org/abs/1208.2935)
+* [[A. Odesskii]], [[V. Rubtsov]], V. Sokolov, _Double Poisson brackets on free associative algebras_, in: Noncommutative Birational Geometry, Representations and Combinatorics, Contemp. Math. __592__, Amer. Math. Soc. (2013) 225--239 [doi](https://arxiv.org/abs/1208.2935) [arxiv/1208.2935](https://arxiv.org/abs/1208.2935)
 
 category: algebra, physics
 
