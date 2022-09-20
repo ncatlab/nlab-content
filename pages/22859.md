@@ -106,6 +106,8 @@ It could be more natural to have a deriving transformation of type $!A \rightarr
 
 * [[tangent category]], [[tangent (∞,1)-category]]
 
+* [[tangent bundle category]]
+
 
 ## References
 
