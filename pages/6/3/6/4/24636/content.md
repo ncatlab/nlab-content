@@ -19,3 +19,7 @@ The proof that an important class of "exact" $d$-[[Calabi-Yau algebra]]s are der
 An important counterexample of a Calabi-Yau algebras which are not of this form (but are related to topology) is exhibited in 
 
 * B. Davison, _Superpotential algebras and manifolds_, Adv. Math. 231(2), 879–912 (2012)
+
+* B. Davison, _The critical CoHA of a quiver with potential_, The Quarterly Journal of Mathematics 68(2):635–703, 2017
+
+* Ben Davison, Sven Meinhardt, _Cohomological Donaldson-Thomas theory of a quiver with potential and quantum enveloping algebras_, [arXiv:1601.02479](https://arxiv.org/abs/1601.02479)
