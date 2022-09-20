@@ -18,6 +18,7 @@ Flavour of noncommutative differential geometry based on [[double derivation]]s:
 
 Some papers
 
+* _Poisson structures on moduli spaces of representations_, J. Algebra 325, 205–215 (2011) [MR2745537](https://mathscinet.ams.org/mathscinet-getitem?mr=2745537) [doi](https://doi.org/10.1016/j.jalgebra.2010.09.033)
 * _Geometry of the moment map for representations of quivers_, Comp. Math. __126__ (3): 257–293 [doi](https:/doi.org/10.1023/A:1017558904030) [MR1834739](https://mathscinet.ams.org/mathscinet-getitem?mr=1834739)
 
 category: people
