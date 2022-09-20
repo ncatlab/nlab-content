@@ -93,3 +93,6 @@ Specifically for [[smooth isotopy]]:
 [[!redirects ambient isotopies]]
 [[!redirects Ambient Isotopies]]
 [[!redirects Ambient isotopies]]
+
+[[!redirects isotopy class]]
+[[!redirects isotopy classes]]
