@@ -828,9 +828,15 @@ Further introduction and review:
 
 * {#Williams20} [[Lucas Williams]], *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal, **21** 1 (2020) Article 8. ([arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8](https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8))
 
-On the braid representation on [[automorphism group|automorphisms]] of [[free groups]]:
+Algebraic presentation of braid groups:
 
-* [[Lluís Bacardit]], [[Warren Dicks]], *Actions of the braid group, and new algebraic proofs of results of Dehornoy and Larue*, Groups Complexity Cryptology **1** (2009) 77-129 &lbrack;[arXiv:0705.0587](https://arxiv.org/abs/0705.0587), [doi;10.1515/GCC.2009.77](https://doi.org/10.1515/GCC.2009.77)&rbrack;
+* [[Warren Dicks]], Edward Formanek, around Ex. 15.2 of: *Algebraic Mapping-Class Groups of Orientable Surfaces with Boundaries*, in: *Infinite Groups: Geometric, Combinatorial and Dynamical Aspects*, Progress in Mathematics **248** Birkhäuser (2005) &lbrack;[doi :10.1007/3-7643-7447-0_4](https://doi.org/10.1007/3-7643-7447-0_4)&rbrack;
+
+* [Bacardit & Dicks 2009](#BacarditDicks09)
+
+More on the braid representation on [[automorphism group|automorphisms]] of [[free groups]]:
+
+* {#BacarditDicks09} [[Lluís Bacardit]], [[Warren Dicks]], *Actions of the braid group, and new algebraic proofs of results of Dehornoy and Larue*, Groups Complexity Cryptology **1** (2009) 77-129 &lbrack;[arXiv:0705.0587](https://arxiv.org/abs/0705.0587), [doi;10.1515/GCC.2009.77](https://doi.org/10.1515/GCC.2009.77)&rbrack;
 
 * {#Bardakov05} [[Valerij G. Bardakov]], *Extending representations of braid groups to the automorphism groups of free groups*, Journal of Knot Theory and Its Ramifications **14** 08 (2005) 1087-1098 &lbrack;[arXiv:math/0408330](https://arxiv.org/abs/math/0408330), [doi:10.1142/S0218216505004251](https://doi.org/10.1142/S0218216505004251)&rbrack;
 
