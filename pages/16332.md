@@ -8,7 +8,7 @@ This he does in particular through detailed historical studies of the response o
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Friedman_%28philosopher%29)
 
-## related $n$Lab entries
+## Related entries
 
 * [[philosophy of science]]
 
@@ -31,6 +31,10 @@ This he does in particular through detailed historical studies of the response o
 * _Extending the Dynamics of Reason_ (2011), Erkenntnis 75(3): 431-444.
 
 * _Kant’s Construction of Nature_ (2013), Cambridge University Press.
+
+On the early history of the discussion of the [[braid group]]:
+
+* [[Michael Friedman]], *Mathematical formalization and diagrammatic reasoning: the case study of the braid group between 1925 and 1950*, British Journal for the History of Mathematics **34** 1 (2019) 43-59 &lbrack;[doi:10.1080/17498430.2018.1533298](https://doi.org/10.1080/17498430.2018.1533298)&rbrack;
 
 
 
