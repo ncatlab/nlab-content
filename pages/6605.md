@@ -13,6 +13,15 @@ J. Reine Angew. Math. __607__ (2007), 69&#8211;112, [MR2009f:16019](http://www.a
 * Yuri Berest, _The theory of lacunas and quantum integrable systems_,  Calogero-Moser-Sutherland models (Montr&#233;al, QC, 1997), 53&#8211;64, CRM Ser. Math. Phys., Springer 2000.
 * [[Yuri Berest]], Oleg Chalykh, Farkhod Eshmatov, _Recollement of deformed preprojective algebras and the Calogero-Moser correspondence_, Mosc. Math. J. __8__:1 (2008) 21--37
 [arXiv:0706.3006](https://arxiv.org/abs/0706.3006) [doi](https://doi.org/10.17323/1609-4514-2008-8-1-21-37) [MR2422265](https://www.ams.org/mathscinet-getitem?mr=2422265)
-mathnet.ru/[mmj2](http://mi.mathnet.ru/mmj2) 
+mathnet.ru/[mmj2](http://mi.mathnet.ru/mmj2)
+* Yu. Berest, X. Chen, F. Eshmatov, A. Ramadoss, _Noncommutative Poisson structures, derived representation schemes and Calabi-Yau algebras_, Contemp. Math. __583__ (2012) 219--246 [arXiv:1202.2717](https://arxiv.org/pdf/1202.2717)
+* Yu. Berest, [[G. Felder]], A. Ramadoss, _Derived representation schemes and noncommutative geometry_, [arXiv:1304.5314](https://arxiv.org/abs/1304.5314)
+* George Khachatryan, _Derived representation schemes and non-commutative geometry_, Cornell PhD thesis under guidance of Yuri Berest [online](https://hdl.handle.net/1813/29138]
+* Yuri Berest, George Khachatryan, Ajay Ramadoss, _Derived representation schemes and cyclic homology_, Adv. Math.
+__245,__ (2013) 625--689 [arXiv:1112.1449](https://arxiv.org/abs/1112.1449)
+* [[Yuri Berest]], [[Giovanni Felder]], Sasha Patotski, Ajay C. Ramadoss, [[Thomas Willwacher]], _Representation homology, Lie algebra cohomology and derived Harish-Chandra homomorphism_, J. Eur. Math. Soc. 19:9 (2017) 2811--2893 [arXiv:1410.0043](https://arxiv.org/abs/1410.0043)
+
 
 category: people
+
+[[!redirects Yu. Berest]]
