@@ -7,6 +7,11 @@ On higher [[Hochschild homology]] and [[factorization algebras]]:
 
 * [[Grégory Ginot]], [[Thomas Tradler]], [[Mahmoud Zeinalian]], _Derived higher Hochschild homology, topological chiral homology and factorization algebras_ ([arxiv/1011.6483](http://arxiv.org/abs/1011.6483))
 
+Identifying the cobar construction on [[singular homology|singular chains]] on a [[topological space]] with the dg-algebra of chains on its [[loop space]]:
+
+* [[Manuel Rivera]], [[Mahmoud Zeinalian]], *Cubical rigidification, the cobar construction, and the based loop space*, Algebr. Geom. Topol. **18** (2018) 3789-3820
+ &lbrack;[arXiv:1612.04801](https://arxiv.org/abs/1612.04801), [doi:10.2140/agt.2018.18.3789](https://doi.org/10.2140/agt.2018.18.3789)&rbrack;
+
 
 On [[infinity-local systems|$\infty$-local systems]] in the sense of [[(infinity,1)-vector bundles|$(\infty,1)$-vector bundles]] with [[flat infinity-connections|flat $\infty$-connections]]:
 
