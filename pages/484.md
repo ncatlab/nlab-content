@@ -50,6 +50,7 @@ A set equipped with an equivalence relation is sometimes called a __[[setoid]]__
 
 * [[congruence]]
 
+* [[sets in homotopy type theory]]
 
 ## References
 
@@ -57,3 +58,12 @@ For the history of the notion of equivalence relation see _[this MO discussion](
 
 [[!redirects equivalence relation]]
 [[!redirects equivalence relations]]
+
+[[!redirects symmetric preorder]]
+[[!redirects symmetric preorders]]
+[[!redirects symmetric proset]]
+[[!redirects symmetric prosets]]
+[[!redirects symmetric preordered set]]
+[[!redirects symmetric preordered sets]]
+[[!redirects symmetric preordered type]]
+[[!redirects symmetric preordered types]]
