@@ -269,14 +269,15 @@ For the string product and the BV-operator this extension has been known early o
 
 Evidence for the existence of the [[TCFT]] version by exhibiting a [[dg-category]] that looks like it ought to be the dg-category of string-topology [[branes]] (hence ought to correspond to the TCFT under the suitable version of the [[TCFT]]-version of the [[cobordism hypothesis]]) is discussed in
 
-* {#BlumbergCoheneTeleman09} [[Andrew Blumberg]], [[Ralph Cohen]], [[Constantin Teleman]], _Open-closed field theories, string topology, and Hochschild homology_ ([arXiv:0906.5198](http://arxiv.org/abs/0906.5198))
+* {#BlumbergCoheneTeleman09} [[Andrew Blumberg]], [[Ralph Cohen]], [[Constantin Teleman]], _Open-closed field theories, string topology, and Hochschild homology_, pp. 53--56 in Alpine Perspectives on Algebraic Topology, Contemp. Math. 504, Amer. Math. Soc. 2009
+([arXiv:0906.5198](https://arxiv.org/abs/0906.5198))
  
 
 Refinements of string topology from [[homology groups]] to the full [[ordinary homology]]-[[spectra]] is discussed in ([Blumberg-Cohen-Teleman 09](#BlumbergCoheneTeleman09)) and in
 
-* [[Ralph Cohen]], [[John Jones]], _A homotopy theoretic realization of string topology_, Mathematische Annalen ([arXiv:math/0107187](http://arxiv.org/abs/math/0107187))
+* [[Ralph Cohen]], [[John Jones]], _A homotopy theoretic realization of string topology_, Mathematische Annalen ([arXiv:math/0107187](https://arxiv.org/abs/math/0107187))
 
-* [[Ralph Cohen]], [[John Jones]], _Gauge theory and string topology_ ([arXiv:1304.0613](http://arxiv.org/abs/1304.0613))
+* [[Ralph Cohen]], [[John Jones]], _Gauge theory and string topology_ ([arXiv:1304.0613](https://arxiv.org/abs/1304.0613))
 
 
 Further generalization to target spaces that are more generally [[differentiable stacks]]/[[Lie groupoids]] is discussed in
