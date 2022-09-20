@@ -22,8 +22,7 @@ In the original sense, _microlocal analysis_ (e.g. [Strohmaier 09](#Strohmaier09
 Since the wave front set is the set of (co-)directions along which, locally, the [[Fourier transform of distributions]] is not rapidly decreasing (the set of "[[UV divergences]]" in applications to [[perturbative quantum field theory]]), much of microlocal analysis is concerned with constructions related to Fourier transformation, such as the discussion of [[pseudodifferential operators]].
 
 Microlocal analysis in this sense was introduced by ([Sato 70](#Sato70)),  soon  followed  by  ([H&#246;rmander 71](#Hoermander71), [H&#246;rmander 83](#Hoermander83)) who  both  introduced the notion of [[wave front set]].
-This microlocal point of  view was then extended to [[sheaf  theory]]  by
-[Kashiwara-Schapira 82](#KashiwaraSchapira82), [Kashiwara-Schapira 85](#KashiwaraSchapira85)) who  introduced  the  notion  of _[[microsupport]]_  of  sheaves giving rise to _[[microlocal sheaf theory]]_ (see [Schapira 17](#Schapira17)). Beware that some authors still use the term "microlocal analysis" for this sheaf theoretic concept.
+This microlocal point of  view was then extended to [[sheaf  theory]] by [Kashiwara-Schapira 82](#KashiwaraSchapira82), [Kashiwara-Schapira 85](#KashiwaraSchapira85)) who  introduced  the  notion  of _[[microsupport]]_  of  sheaves giving rise to _[[microlocal sheaf theory]]_ (see [Schapira 17](#Schapira17)). Beware that some authors still use the term "microlocal analysis" for this sheaf theoretic concept.
 
 
 ## Overview
@@ -44,7 +43,7 @@ As the name suggests, normal ordering was originally an operation implementd sim
 
 * [[wave front set]], [[microsupport]]
 
-* [[microlocal sheaf theory]]
+* [[microlocal sheaf theory]], [[microlocal category]]
 
 * [[propagation of singularities theorem]]
 
@@ -91,9 +90,9 @@ See also
 
 Application in [[perturbative quantum field theory]]:
 
-* Christian Gérard, *Microlocal Analysis of Quantum Fields on Curved Spacetimes* ([arXiv:1901.10175](https://arxiv.org/abs/1901.10175))
+* Christian Gérard, *Microlocal analysis of quantum fields on curved spacetimes* ([arXiv:1901.10175](https://arxiv.org/abs/1901.10175))
 
-Some categories related to microlocal analysis
+Some categories related to microlocal analysis (see also [[microlocal category]])
 
 * [[Dmitry Tamarkin]], _Microlocal category_, [arXiv:1511.08961](https://arxiv.org/abs/1511.08961)
 
