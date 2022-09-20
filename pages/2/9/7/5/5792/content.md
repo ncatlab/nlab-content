@@ -1,5 +1,5 @@
 
-* [webpage](http://www.liu.edu/CWPost/Academics/Faculty/Z/Mahmoud-Zeinalian.aspx?rn=Faculty&ru=/CWPost/Academics/Faculty.aspx)
+* [webpage](https://www.zeinalian.com/)
 
 ## Some publications
 
