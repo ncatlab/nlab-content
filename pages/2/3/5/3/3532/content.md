@@ -14,7 +14,7 @@ Their motivation is an analogue of a Beilinson-Bernstein localization theorem fo
 
 There are some other approaches to rings of differential operators in noncommutative geometry. In easy semicommutative cases (like nilpotent thickenings of commutative schemes) one can use the standard Grothendieck definition without change. On the other hand, there is an approahc by generators and relations in affine case, corresponding to the recipe for preprojective algebras of quivers. It has some nice localization properties and relations to double derivations and double Poisson geometry. See papers by Yuri Berest and
 
-* Victor Ginzburg, Travis Schedler, _Differential operators and BV structures in noncommutative geometry_, [arxiv.org/abs/0710.3392](http://arxiv.org/abs/0710.3392) 
+* [[V. Ginzburg]], [[T. Schedler]], _Differential operators and BV structures in noncommutative geometry_, Sel. Math. New Ser. 16, 673–730 (2010) [doi](https://doi.org/10.1007/s00029-010-0029-8) [arXiv:0710.3392](https://arxiv.org/abs/0710.3392) 
 
 and a sequence of article by Yuri Berest and various colaborators including
 
