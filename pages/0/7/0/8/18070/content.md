@@ -1489,7 +1489,13 @@ For more on this see at _[[correlators as differential forms on configuration sp
 
 ### General 
 
-Original articles:
+The [[braid group]] regarded as the [[fundamental group]] of a configuration space of points is considered (neither of them under these names, though) already in:
+
+* {#Hurwitz1891} [[Adolf Hurwitz]], §II of: *&Uuml;ber Riemann'sche Flächen mit gegebenen Verzweigungspunkten*, Mathematische Annalen **39** (1891) 1–60 &lbrack;[doi:10.1007/BF01199469](https://doi.org/10.1007/BF01199469)&rbrack;
+
+there regarded as [[group action|acting]] on [[Riemann surfaces]] forming [[branched covers]], by movement of the branch points.
+
+The concept of configuration spaces is then re-discovered/re-vived by:
 
 * {#FadellNeuwirth62} [[Edward Fadell]], [[Lee Neuwirth]], *Configuration spaces*, Math. Scand. __10__ (1962) 111-118 $[$[doi:10.7146/math.scand.a-10517](https://doi.org/10.7146/math.scand.a-10517), [MR141126](http://www.ams.org/mathscinet-getitem?mr=141126)$]$
 
