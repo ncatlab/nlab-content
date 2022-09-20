@@ -55,7 +55,7 @@ where the subscripts indicate which tensor factors are being utilized.
 
 * [[V. G. Drinfel'd]], _Quantum groups_, Proceedings of the International Congress of Mathematicians 1986, Vol. 1, 798&#8211;820, AMS 1987, [djvu:1.3M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.djvu), [pdf:2.5M](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1986.1/ICM1986.1.ocr.pdf)
 
-* D. Gurevich, V. Rubtsov, _Yang-Baxter equation and deformation of associative and Lie algebras_, in: Quantum Groups, Springer Lecture Notes in Math. __1510__ (1992) 47-55,[doi](http://dx.doi.org/10.1007/BFb0101177)
+* D. Gurevich, [[V. Rubtsov]], _Yang-Baxter equation and deformation of associative and Lie algebras_, in: Quantum Groups, Springer Lecture Notes in Math. __1510__ (1992) 47-55,[doi](https://doi.org/10.1007/BFb0101177)
 
 * P. P. Kulish, N. Yu. Reshetikhin, E. K. Sklyanin, _Yang-Baxter equation and representation theory: I_, Lett. Math. Phys. __5__:5 (1981), 393-403, [doi](http://dx.doi.org/10.1007/BF02285311)
 
