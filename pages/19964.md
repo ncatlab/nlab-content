@@ -237,7 +237,7 @@ Textbook accounts:
 
 * {#RhoZahed16} [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific (2016) &lbrack;[doi:10.1142/9710](https://doi.org/10.1142/9710)&rbrack;
 
-* [[Nicholas Manton]], *Skyrmions – A Theory of Nuclei*, World Scientific (2022) &lbrack;[doi:10.1142/q0368 ](https://doi.org/10.1142/q0368 )&rbrack;
+* {#Manton22} [[Nicholas Manton]], *Skyrmions – A Theory of Nuclei*, World Scientific (2022) &lbrack;[doi:10.1142/q0368 ](https://doi.org/10.1142/q0368 )&rbrack;
 
 
 Other review:
