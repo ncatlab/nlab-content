@@ -25,5 +25,6 @@ A point of view on preprojective algebras is a part of a picture in
 Other contributions
 
 * Tristan Bozec, [[Damien Calaque]], Sarah Scherotzke, _Calabi-Yau structures for multiplicative preprojective algebras_, [arXiv:2102.12336](https://arxiv.org/abs/2102.12336)
+* [[Travis Schedler]], _Zeroth Hochschild homology of preprojective algebras over the integers_, Adv. Math. __299__ (2016) 451--542 [doi](https://doi.org/10.1016/j.aim.2016.02.015)
 
 category: algebra
