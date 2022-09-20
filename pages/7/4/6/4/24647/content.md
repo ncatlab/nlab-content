@@ -26,5 +26,7 @@ Other contributions
 
 * Tristan Bozec, [[Damien Calaque]], Sarah Scherotzke, _Calabi-Yau structures for multiplicative preprojective algebras_, [arXiv:2102.12336](https://arxiv.org/abs/2102.12336)
 * [[Travis Schedler]], _Zeroth Hochschild homology of preprojective algebras over the integers_, Adv. Math. __299__ (2016) 451--542 [doi](https://doi.org/10.1016/j.aim.2016.02.015)
+* Daniel Kaplan, Travis Schedler, _Multiplicative preprojective algebras are 2-Calabi-Yau_, [arXiv:1905.12025](https://arxiv.org/abs/1905.12025)
+
 
 category: algebra
