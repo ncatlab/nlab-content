@@ -86,6 +86,8 @@ In [[general relativity]], the concept of total energy of a system does not make
 
 * [[rest energy]]
 
+* [[binding energy]]
+
 * [[Dirichlet energy]], [[harmonic map]]
 
 ## References
