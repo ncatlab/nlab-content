@@ -184,8 +184,7 @@ Further refinements in [[higher category theory]] are discussed in
 
 A closed [[symmetric monoidal category]] version of the symplectic category and the observation that this hence is a [[categorical semantics]] for [[quantum logic]] qua [[linear logic]] is in
 
-* [[Sergey Slavnov]], _From proof-nets to bordisms: the geometric meaning of
-multiplicative connectives_, Mathematical Structures in Computer Science / Volume 15 / Issue 06 / December 2005, pp 1151 - 1178
+* [[Sergey Slavnov]], _From proof-nets to bordisms: the geometric meaning of multiplicative connectives_, Mathematical Structures in Computer Science / Volume 15 / Issue 06 / December 2005, pp 1151 - 1178
  {#Slavnov05}
 
 Remarks about refinements to correspondences of smooth $\infty$-groupoids in the slice over prequantum moduli is in 
