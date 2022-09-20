@@ -274,7 +274,7 @@ the many experimental cross section measurements.
 
 \linebreak
 
-* {#Koppenburg21} [[Patrick Koppenburg]] for the [[LHCb collaboration]]: *List of hadrons observed at the LHC* (2021) &lbrack;[pdf](https://cds.cern.ch/record/2749030/files/FIGURE-2021-001.pdf), [webpage](https://www.nikhef.nl/~pkoppenb/particles.html), [cds:2749030](https://cds.cern.ch/record/2749030)&rbrack;
+* {#Koppenburg21} [[Patrick Koppenburg]] for the [[LHCb collaboration]]: *List of hadrons observed at the LHC* (2021) $[$[pdf](https://cds.cern.ch/record/2749030/files/FIGURE-2021-001.pdf), [webpage](https://www.nikhef.nl/~pkoppenb/particles.html), [cds:2749030](https://cds.cern.ch/record/2749030)$]$
 
 > While the LHC is best known for the observation of the first fundamental scalar particle, the Higgs Boson, it has also yielded many observations of yet unknown hadrons.  Hadrons are composed of quarks and are thus not fundamental particles of the Standard Model. However, their properties follow from yet unsolved mysteries of the strong interaction.
 
