@@ -124,7 +124,7 @@ The [[ordinary cohomology]] with rational coefficients of the [[delooping]] of t
 
 ## References
 
-Surveys include
+Surveys:
 
 * Massyuyeau, _A short introduction to mapping class groups_ ([pdf](http://www-irma.u-strasbg.fr/~massuyea/talks/MCG.pdf))
 
@@ -136,9 +136,15 @@ topology, pages 523&#8211;633. North-Holland, Amsterdam, 2002; 1998 draft: [ps](
 
 * {#BakalovKirillov} [[Bojko Bakalov]], [[Alexander Kirillov]], chapter 5 of _Lectures on tensor categories and modular functor_ ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html), [[BakalovKirillovChapter5.pdf:file]])
 
-See also
+See also:
 
-* wikipedia: [mapping class group](http://en.wikipedia.org/wiki/Mapping_class_group)
+* Wikipedia: [mapping class group](http://en.wikipedia.org/wiki/Mapping_class_group)
+
+Understanding the [[braid group]] as a mapping class gorup of punctured [[surfaces]] with [[boundary]]:
+
+* [[Wilhelm Magnus]], *Über Automorphismen von Fundamentalgruppen berandeter Flächen*, Mathematische Annalen **109** (1934) 617–646 &lbrack;[doi:10.1007/BF01449158](https://doi.org/10.1007/BF01449158)&rbrack;
+
+
 
 * {#MadsenWeiss02} [[Ib Madsen]], [[Michael Weiss]], _The stable moduli space of Riemann surfaces: [[Mumford's conjecture]]_,  Ann. of Math. (2) __165__ (2007), no. 3, 843--941, [MR2009b:14051](http://www.ams.org/mathscinet-getitem?mr=2009b:14051), [doi](http://dx.doi.org/10.4007/annals.2007.165.843), [math.AT/0212321](http://arxiv.org/abs/math.AT/0212321)
 
@@ -147,7 +153,7 @@ of an orientable surface_, Invent. Math., 72(2):221&#8211;239, 1983; _The cohomo
 
 * Robert C. Penner, _The decorated Teichm&#252;ller space of punctured surfaces_, Commun. Math. Phys. __113__ (2) (1987) 299--339. [MR89h:32044](http://www.ams.org/mathscinet-getitem?mr=89h:32044); _A construction of pseudo-Anosov homeomorphisms_, Trans. Amer. Math. Soc. __310__ (1):179&#8211;197, 1988.
 
-{#EarleEells67} C.J. Earle,  J. Eells, _The diffeomorphism group of a compact Riemann surface,
+* {#EarleEells67} C.J. Earle,  J. Eells, _The diffeomorphism group of a compact Riemann surface,
 Bulletin of the American Mathematical Society 73(4) 557--559, 1967
 
 
@@ -155,17 +161,17 @@ Bulletin of the American Mathematical Society 73(4) 557--559, 1967
 
 * {#Hatcher12} [[Allen Hatcher]], _A 50-Year View of Diffeomorphism Groups_, talk at the 50th Cornell Topology Festival in May 2012 ([pdf](http://www.math.cornell.edu/~hatcher/Papers/Diff%28M%292012.pdf))
 
-* [[Max Dehn]], Papers on group theory and topology. Springer-Verlag,
-New York, 1987. Transl. from German with intro. and appendix by John Stillwell, and appendix by [[Otto Schreier]].
+* [[Max Dehn]], Papers on group theory and topology. Springer-Verlag, New York, 1987. Transl. from German with intro. and appendix by John Stillwell, and appendix by [[Otto Schreier]].
 
 * [[Jakob Nielsen]], _Untersuchungen zur Topologie der geschlossenen zweiseitigen Fl&#228;chen. I-III_, Acta Math. 50 (1927), no. 1, 189--358, MR1555256, [doi](http://dx.doi.org/10.1007/BF02547775); Acta Math. 53 (1929), no. 1, 1--76, MR1555290, [doi](http://dx.doi.org/10.1007/BF02547566);  Acta Math. 58 (1932), no. 1, 87--167, MR1555345, [doi](http://dx.doi.org/10.1007/BF02547775)
 
-
-* [[David Mumford]], _Abelian quotients of the Teichm&#252;ller modular
-group_, J. Analyse Math., 18:227&#8211;244, 1967.
+* [[David Mumford]], _Abelian quotients of the Teichm&#252;ller modular group_, J. Analyse Math., 18:227&#8211;244, 1967.
 * [[David Mumford]], _Towards an enumerative geometry of the moduli space of curves_, Arithmetic and geometry, Vol. II, Birkh&#228;user Boston, Boston, MA, 1983, pp. 271&#8211;328, [MR85j:14046](http://www.ams.org/mathscinet-getitem?mr=85j:14046)
-* Ulrike Tillmann, _On the homotopy of the stable mapping class group_,  Invent. Math. __130__ (1997), no. 2, 257--275, [MR99k:57036](http://www.ams.org/mathscinet-getitem?mr=99k:57036), [doi](http://dx.doi.org/10.1007/BF02421324)
+
+* [[Ulrike Tillmann]], _On the homotopy of the stable mapping class group_,  Invent. Math. __130__ (1997), no. 2, 257--275, [MR99k:57036](http://www.ams.org/mathscinet-getitem?mr=99k:57036), [doi](http://dx.doi.org/10.1007/BF02421324)
+
 * S. Morita, _Introduction to mapping class groups of surfaces and related groups_, in: Handbook of Teichm&#252;ller theory (A. Papadopoulos, editor), vol. I, EMS Publishing House, Z&#252;rich, 2007, 353&#8211;386.
+
 * E. Y. Miller, _The homology of the mapping class group_, J. Differential Geom. __24__ (1986), no. 1, 1&#8211;14, [MR88b:32051](http://www.ams.org/mathscinet-getitem?mr=88b:32051), [euclid](http://projecteuclid.org/euclid.jdg/1214440254)
 
 [[!redirects mapping class groups]]
