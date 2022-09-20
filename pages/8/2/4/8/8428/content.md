@@ -9,6 +9,11 @@ On $n$-[[manifolds]] as [[branched covers]] of the [[n-sphere]]:
 
 * {#Alexander20} [[James W. Alexander]], _Note on Riemann spaces_, Bull. Amer. Math. Soc. 26 (1920) 370–373
 
+Introducing [[Alexander's trick]]:
+
+* [[James W. Alexander]], *On the Deformation of an $n$ Cell*, Proc Natl Acad Sci USA. **9** 12 (1923) 406–407 &lbrack;[doi:10.1073%2Fpnas.9.12.406](https://doi.org/10.1073%2Fpnas.9.12.406) &rbrack;
+
+
 Introducing the [[Alexander polynomial]]:
 
 * {#Alexander28} [[James W. Alexander]], *Topological invariants of knots and links*, Trans. Amer. Math. Soc. **30** (1928) 275-306 $[$[doi:10.1090/S0002-9947-1928-1501429-1](https://doi.org/10.1090/S0002-9947-1928-1501429-1)$]$
