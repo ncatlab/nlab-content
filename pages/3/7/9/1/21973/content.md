@@ -67,6 +67,27 @@ As [[probe brane|probe]] [[D1-branes]] of [[D1-D5 brane bound states]] in a cont
 
 * Roberto Auzzi, S. Prem Kumar, Section 5.2 in: _Non-Abelian k-Vortex Dynamics in $\mathcal{N} = 1^\ast$ theory and its Gravity Dual_, JHEP 0812:077, 2008 ([arXiv:0810.3201](https://arxiv.org/abs/0810.3201))
 
+On [[vortex strings]] in $\mathcal{N}=2$ super QCD identified as [[superstrings]] in [[type II string theory]] [[KK-compactification|compactified]] on a [[conifold]]:
+
+
+* [[Mikhail Shifman]], [[A. Yung]], *Supersymmetric Solitons and How They Help Us Understand Non-Abelian Gauge Theories*, Rev. Mod. Phys. **79** 1139 (2007) &lbrack;[doi:10.1103/RevModPhys.79.1139](https://doi.org/10.1103/RevModPhys.79.1139), [arXiv:hep-th/0703267](https://arxiv.org/abs/hep-th/0703267)
+
+* [[Mikhail Shifman]], [[A. Yung]], *Supersymmetric Solitons*, Cambridge University Press (2009) &lbrack;[doi:10.1017/CBO9780511575693](https://doi.org/10.1017/CBO9780511575693)&rbrack;
+
+
+* [[Mikhail Shifman]], [[A. Yung]], *Critical String from Non-Abelian Vortex in Four Dimensions*,
+Physics Letters B **750** (2015) 416-419
+&lbrack;[arXiv:1502.00683](https://arxiv.org/abs/1502.00683), [doi:10.1016/j.physletb.2015.09.045](https://doi.org/10.1016/j.physletb.2015.09.045)
+&rbrack;
+
+
+* P. Koroteev, [[Mikhail Shifman]], [[A. Yung]], *Studying Critical String Emerging from Non-Abelian Vortex in Four Dimensions*, Phys.Lett. B **759** (2016) 154-158
+&lbrack;[arXiv:1605.01472](https://arxiv.org/abs/1605.01472), [doi:10.1016/j.physletb.2016.05.075](https://doi.org/10.1016/j.physletb.2016.05.075)
+&rbrack;
+
+
+
+
 
 [[!redirects vortex strings]]
 
