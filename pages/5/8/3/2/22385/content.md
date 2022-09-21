@@ -36,7 +36,7 @@
 
 A **setoid** is a collection of things (which could be a [[set]], a [[type]], or a [[preset]] depending on the chosen [[foundations]]) equipped with an [[equivalence relation]] or a [[pseudo-equivalence relation]]. Setoids are commonly used in "impoverished" foundations of mathematics that lack a primitive notion of [[quotient]]; see for instance [[Bishop set]].
 
-## Definition with pseudo equivalence relation
+## Definition
 
 ### With a set and a family of sets
 
@@ -85,33 +85,43 @@ Given a one-set-of-edges setoid $E\rightrightarrows V$, we define a family-of-se
 
 Every [[category]] with a [[contravariant functor|contravariant]] [[endofunctor]] that is the [[identity-on-objects]] is a [[setoid]] where
 
-* for every vertex $a:V$, $b:V$, $c:V$, and $d:V$ and morphisms $f:E(a, b)$, $g:E(b, c)$, and $h:E(c, d)$
+* for every vertex $a \in V$, $b \in V$, $c \in V$, and $d \in V$ and edge $f \in E(a, b)$, $g \in E(b, c)$, and $h \in E(c, d)$
 $$\mathrm{trans}(a, b, d)(f, \mathrm{trans}(b, c, d)(g, h)) = \mathrm{trans}(a, c, d)(\mathrm{trans}(a, b, c)(f, g), h)$$
 
-* for every vertex $a:V$, $b:V$ and morphism $f:E(a, b)$
+* for every vertex $a \in V$, $b \in V$ and edge $f \in E(a, b)$
 $$\mathrm{trans}(a, b, b)(f, \mathrm{refl}(b)) = f$$
 
-* for every vertex $a:V$, $b:V$ and morphism $f:E(a, b)$
+* for every vertex $a \in V$, $b \in V$ and edge $f \in E(a, b)$
 $$\mathrm{trans}(a, a, b)(\mathrm{refl}(a), f) = f$$
 
 This includes [[dagger categories]], where additionally
 
-* for every vertex $a:V$, $b:V$ and morphism $f:E(a, b)$
+* for every vertex $a \in V$, $b \in V$ and edge $f \in E(a, b)$
 $$\mathrm{sym}(a, b)(\mathrm{sym}(b, a)(f)) = f$$
 
-* for every vertex $a:V$, $b:V$, $c:V$ and morphism $f:E(a, b)$, $g:E(b, c)$
+* for every vertex $a \in V$, $b \in V$, $c \in V$ and edge $f \in E(a, b)$, $g \in E(b, c)$
 $$\mathrm{sym}(a, c)(\mathrm{trans}(a, b, c)(f, g)) = \mathrm{trans}(c, b, a)(\mathrm{sym}(a, b)(f), \mathrm{sym}(b, c)(g))$$
 
-* for every vertex $a:V$
+* for every vertex $a \in V$
 $$\mathrm{sym}(a, a)(\mathrm{refl}(a)) = \mathrm{refl}(a)$$
 
 and [[groupoids]], where
 
-* for every vertex $a:V$, $b:V$ and morphism $f:E(a, b)$
+* for every vertex $a \in V$, $b \in V$ and edge $f \in E(a, b)$
 $$\mathrm{trans}(a, b, a)(f, \mathrm{sym}(a, b)(f)) = \mathrm{refl}(a)$$
 
-* for every vertex $a:V$, $b:V$ and morphism $f:E(a, b)$
+* for every vertex $a \in V$, $b \in V$ and edge $f:E(a, b)$
 $$\mathrm{trans}(b, a, b)(\mathrm{sym}(a, b)(f), f) = \mathrm{refl}(b)$$
+
+## Thin setoids
+
+Recall in graph theory that a loop directed pseudograph is a **loop digraph** if for every object $a \in V$ and $b \in V$, the set of edges $E(a, b)$ is a [[subsingleton]]: for every edge $f \in E(a, b)$ and $g \in E(a, b)$, $f = g$. In the other definition, a loop directed pseudograph is a loop digraph if the functions $s:E \to V$ and $t:E \to V$ are [[jointly monic]]. 
+
+A setoid is **thin** or **simple** if its underlying loop directed pseudograph is a loop digraph. In both cases, the pseudo-equivalence relation becomes an **[[equivalence relation]]**. The term "thin" originates from category theory, while the term "simple" originates from graph theory. 
+
+A thin setoid is equivalently a [[thin category|thin]] [[dagger category]], or a dagger category [[enriched category|enriched]] in [[truth values]]. A thin setoid is also a thin [[groupoid]], or a groupoid enriched in truth values. 
+
+Sometimes in the mathematical literature, setoids are thin by default. 
 
 ## Core of a setoid
 
@@ -125,7 +135,7 @@ A subgroupoid $G$ of a setoid $A$ is a maximal subgroupoid if for every other su
 
 ## In homotopy type theory
 
-In [[homotopy type theory]] (and more generally in any [[intensional type theory]]), the definitions above define a "[[strict setoid]]". 
+In [[homotopy type theory]] (and more generally in any [[intensional type theory]]), in anology with [[category]], the definitions above define a [[strict setoid]]. 
 
 When the vertex types are only required to be a [[type]] rather than a [[set]], then this defines a "[[presetoid]]", and when additionally the edge types are only required to be a type, then this defines a "[[wild setoid]]". 
 
@@ -133,48 +143,13 @@ There is also the notion of a [[univalent setoid]], which is a [[presetoid]] $A$
 $$\mathrm{idtocorehoms}(a, b):(a =_A b) \to (a \cong_A b)$$
 from the [[identity type]] of elements $a:A$ and $b:A$ to the hom-set of $a:A$ and $b:A$ of the [[core]] [[pregroupoid]] $\mathrm{Core}(A)$ is an [[equivalence in homotopy type theory|equivalence of types]]. 
 
-## Definition with equivalence relation
-
-### In graph theory
-
-A **setoid** is a [[loop digraph object|loop]] [[digraph]] $(V, E, s:E \to V, t:E \to V)$ with functions $refl:V \to E$, $sym:E \to E$, and  
-$$tr:\{(f,g) \in E \times E \vert t(f) =_V s(g)\} \to E$$ 
-such that 
-
-* for every $f \in E$, $s(f) =_V t(sym(f))$
-* for every $f \in E$, $t(f) =_V s(sym(f))$
-* for every $f \in E$, $sym(sym(f)) =_E f$
-* for every $a \in V$, $sym(refl(a)) =_E refl(a)$
-* for every $f \in E$, $s(tr(g,f)) =_E s(f)$ 
-* for every $f \in E$, $t(tr(g,f)) =_E t(g)$
-* for every $f \in E$, $tr(f, refl(s(f))) =_E f$ 
-* for every $f \in E$, $tr(refl(t(f)), f) =_E f$ 
-* for every $f \in E$ and $g \in E$ such that $t(f) =_V s(g)$, $sym(tr(g,f)) =_E tr(sym(f),sym(g)$. 
-* for every $f \in E$, $g \in E$, and $h \in E$ such that $t(f) =_V s(g)$ and $t(g) =_V s(h)$, $tr(h,tr(g,f)) =_E tr(tr(h,g),f)$
-
-### In category theory
-
-A **setoid** is a [[thin category|thin]] [[dagger category]], or a dagger category [[enriched category|enriched]] in [[truth values]]. 
-
-The [[groupoidal categorification]] of a setoid is a [[dagger category]]. 
-
-### In type theory
-
-Many [[foundations]] based on [[type theory]], such as those of Per Martin-L&#246;f and Thierry Coquand, use [[type|types]], which sometimes called 'sets', but they don\'t have [[quotient set|quotients]]. A **setoid** is a type $T$ equipped with an [[equivalence relation]] $\equiv$. Sometimes these are called "[[presets]]", but strictly speaking, they are not presets, as these types have [[identity types]], while presets do not. 
-
-Some foundations also adopt an [[axiom of choice]] for functions which do not preserve the equivalence relation that, together with the identity relations, proves the [[presentation axiom]] for general sets, which means that free sets are completely presented sets. 
-
-If you are willing to accept the [[presentation axiom]], then you can define a notion of setoid internal to a given theory of sets: as a [[projective set]].  (With the full axiom of choice, therefore, a setoid is simply a set.)  Alternatively, you might forgo setoid as such but define a [[prefunction]] between sets to be an entire relation.
-
-A similar result holds for [[SEAR plus epsilon|SEAR+$\epsilon$]].
-
 ## Category of setoids
 
-Let the category $ExtType$ be defined as a [[weak category|weak]] [[category]] that is [[finitely complete category|finitely complete]], [[extensive category|infinitary extensive]], and [[well-pointed category|well-pointed]] (i.e. whose [[terminal object]] is a [[extremal epimorphism|extremal]] [[separator|generating object]]). $ExtType$ is the [[categorical semantics]] of an [[extensional type theory]] (whose types are extensional types) without quotient types (see above) such as Martin-Löf type theory. While some think of extensional types as [[presets]], extensional types still have another notion of equality, represented by the [[diagonal morphism]] $\Delta_A: A \rightarrow A \times A$ which could be found in any [[well-pointed category]] with [[finite products]]. See [[tobybartels:preset]] for a discussion of this issue.
+Let the category [[Set|$Set$]] be defined as a [[weak category|weak]] [[category]] that is [[finitely complete category|finitely complete]], [[extensive category|infinitary extensive]], and [[well-pointed category|well-pointed]] (i.e. whose [[terminal object]] is a [[extremal epimorphism|extremal]] [[separator|generating object]]). This definition of $Set$ is weak, as it is not a [[cocomplete category]]. 
 
-The category [[Set|$Set$]] of [[set|sets]] is the [[full subcategory]] of $ExtType$ where all [[congruence|equivalence prerelations]] have [[effective epimorphism|effective]] [[quotient object|quotients]], and the category $Setoid$ of __[[setoid|setoids]]__ and is the [[exact completion|ex/lex completion]] of $ExtType$. This means both $Set$ and $Setoid$ are [[Grothendieck topos|Grothendieck topoi]] over the [[point]] satisfying [[Giraud's axioms]]. As the ex/lex completion is a [[free completion]], there is a [[free functor]] $F: ExtType \rightarrow Set$ that is the left adjoint of the [[forgetful functor]] $U: Set \rightarrow ExtType$, and $Setoid$ could also be thought of as a subcategory of $Set$, as the category of __[[free object|free]] sets__. (Note that the cofree set on a preset always exists; it is a [[subsingleton]].)
+The category SetsWithQuotients of [[set|sets]] with [[quotient sets]] is the [[full subcategory]] of $Set$ where all [[congruence|equivalence prerelations]] have [[effective epimorphism|effective]] [[quotient object|quotients]], and the category $Setoid$ of __[[setoid|setoids]]__ and is the [[exact completion|ex/lex completion]] of Set. This means both $SetWithQuotients$ and $Setoid$ are [[Grothendieck topos|Grothendieck topoi]] over the [[point]] satisfying [[Giraud's axioms]]. As the ex/lex completion is a [[free completion]], there is a [[free functor]] $F: Set \rightarrow SetWithQuotients$ that is the left adjoint of the [[forgetful functor]] $U: SetWithQuotients \rightarrow Set$, and $Setoid$ could also be thought of as a subcategory of SetWithQuotients, as the category of __[[free object|free]] sets__. (Note that the cofree set on a preset always exists; it is a [[subsingleton]].)
 
-If the [[presentation axiom]] (a weak form of the full axiom of choice) holds in $ExtType$, as a subcategory of $Set$, $ExtType$ could be thought of as the category of [[completely presented sets]], the category of sets with a [[projective presentation]]. If the [[axiom of choice]] holds in $ExtType$, then $ExtType$ is equivalent to $Setoid$, as the axiom of choice implies that $Preset$ is its own free exact completion, and $ExtType$ is equivalent to $Set$ because the free functor from $ExtType$ to $Set$ is an [[equivalence of categories]]. 
+If the [[presentation axiom]] (a weak form of the full axiom of choice) holds in $Set$, as a subcategory of $SetWithQuotients$, $Set$ could be thought of as the category of [[completely presented sets]], the category of sets with a [[projective presentation]]. If the [[axiom of choice]] holds in $Set$, then $Set$ is equivalent to $Setoid$, as the axiom of choice implies that $Set$ is its own free exact completion, and $Set$ is equivalent to $SetWithQuotients$ because the free functor from $Set$ to $SetWithQuotients$ is an [[equivalence of categories]]. 
 
 ## Applications
 
@@ -183,6 +158,16 @@ In [[constructive mathematics]], we want the [[real numbers]] to form a [[linear
 The construction of $R$ above may also be done with entire relations if the [[axiom of fullness]] holds (see also [[real numbers object]]). Conversely, the axiom of fullness follows from the existence of sets of prefunctions; in addition to defining a functional entire prerelation, a prefunction between sets also defines an entire relation, and the set of these satisfies fullness.  (This is related to the idea that prefunctions between sets may be formalised as entire relations.)
 
 See also the discussion at [[net]] about how to force the domain of a net to be [[partially ordered|partial order]], by using either entire relations or prefunctions as nets.
+
+## In type theory
+
+Many [[foundations]] based on [[type theory]], such as those of Per Martin-L&#246;f and Thierry Coquand, use [[type|types]], which sometimes called 'sets', but they don\'t have [[quotient set|quotients]]. A **setoid** is a type $T$ equipped with an [[equivalence relation]] $\equiv$. Sometimes these are called "[[presets]]", but strictly speaking, they are not presets, as these types have [[identity types]], while presets do not. 
+
+Some foundations also adopt an [[axiom of choice]] for functions which do not preserve the equivalence relation that, together with the identity relations, proves the [[presentation axiom]] for general sets, which means that free sets are completely presented sets. 
+
+If you are willing to accept the [[presentation axiom]], then you can define a notion of setoid internal to a given theory of sets: as a [[projective set]].  (With the full axiom of choice, therefore, a setoid is simply a set.)  Alternatively, you might forgo setoid as such but define a [[prefunction]] between sets to be an entire relation.
+
+A similar result holds for [[SEAR plus epsilon|SEAR+$\epsilon$]].
 
 ## Fixing inadequate foundations
 
