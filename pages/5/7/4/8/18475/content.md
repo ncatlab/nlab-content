@@ -171,6 +171,9 @@ Application to [[Bose-Einstein condensates]], [[superfluidity]] and [[vortices]]
 
 * Aristomenis Donos, Polydoros Kailidis, *Dissipative effects in finite density holographic superfluids* &lbrack;[arXiv:2209.06893](https://arxiv.org/abs/2209.06893)&rbrack;
 
+* Mario Flory, Sebastian Grieninger, Sergio Morales-Tejera, *Critical and near-critical relaxation of holographic superfluids* &lbrack;[arXiv:2209.09251](https://arxiv.org/abs/2209.09251)&rbrack;
+
+
 
 ### Application to superconductivity
 
