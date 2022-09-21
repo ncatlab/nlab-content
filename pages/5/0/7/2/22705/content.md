@@ -2,6 +2,7 @@
 |----------------|----------|
 |[[truth value]]|[[preorder]]|
 |[[magma]]|[[magmoid]]|
+|[[pointed set|pointed]] [[magma]] with an [[endofunction]]|[[setoid]]/[[Bishop set]]|
 |[[unital magma]]|[[unital magmoid]]|
 |[[quasigroup]]|[[quasigroupoid]]|
 |[[loop (algebra)|loop]]|[[loopoid]]|
