@@ -34,7 +34,7 @@
 
 ## Idea
 
-A **setoid** is a collection of things (which could be a [[set]], a [[type]], or a [[preset]] depending on the chosen [[foundations]]) equipped with an [[equivalence relation]] or a [[pseudo-equivalence relation]]. Setoids are commonly used in "impoverished" foundations of mathematics that lack a primitive notion of [[quotient]]; see for instance [[Bishop set]].
+A **setoid** is a [[collection]] of things (which could be a [[set]], a [[type]], or a [[preset]] depending on the chosen [[foundations]]) equipped with an [[equivalence relation]] or a [[pseudo-equivalence relation]]. In the same way that [[magmoids]] are the raw structure used to build [[categories]] (i.e. a category without the associative and unital law equational axioms), setoids are the raw structure used to build [[dagger categories]] and [[groupoids]] (i.e. a groupoid without associativity, unital laws, and inverse laws). Setoids are also commonly used in "impoverished" [[foundations of mathematics]] that lack a primitive notion of [[quotient]]; see for instance [[Bishop set]].
 
 ## Definition
 
@@ -66,11 +66,11 @@ such that
 * for every $f \in E$ and $g \in E$ such that $t(f) =_V s(g)$, $s(\mathrm{trans}(f,g)) =_E s(f)$ 
 * for every $f \in E$ and $g \in E$ such that $t(f) =_V s(g)$, $t(\mathrm{trans}(f,g)) =_E t(g)$
 
-The structure $(E, s:E \to V, t:E \to V)$ is called a **pseudo-equivalence relation**. 
+The structure $(E, s, t, \mathrm{refl}, \mathrm{sym}, \mathrm{trans})$ is called a **pseudo-equivalence relation**. 
 
-### Extensional functions
+### Extensional functions and dagger functors
 
-We define an **extensional function** $f:A \to B$ between two setoids $A = (V_A, E_A, \mathrm{refl}_A, \mathrm{sym}_A, \mathrm{trans}_A)$ and $B = (V_B, E_B, \mathrm{refl}_B, \mathrm{sym}_B, \mathrm{trans}_B)$ to be a function $f_V:V_A \to V_B$ and a family of functions $f_E(a, b):E_A(a, b) \to E_B(f_V(a), f_V(b))$ such that 
+We define an **[[extensional function]]** $f:A \to B$ between two setoids $A = (V_A, E_A, \mathrm{refl}_A, \mathrm{sym}_A, \mathrm{trans}_A)$ and $B = (V_B, E_B, \mathrm{refl}_B, \mathrm{sym}_B, \mathrm{trans}_B)$ to be a function $f_V:V_A \to V_B$ and a family of functions $f_E(a, b):E_A(a, b) \to E_B(f_V(a), f_V(b))$ An extensional function is a **[[dagger functor]]** if additionally it preserves the functions $\mathrm{refl}$, $\mathrm{sym}$, $\mathrm{trans}$ 
 $$f_E(a, a)(\mathrm{refl}_A(a)) = \mathrm{refl}_B(f_V(a))$$
 $$f_E(a, b)(\mathrm{sym}_A(a, b)(f)) = \mathrm{sym}_B(f_V(a), f_V(b))(f_E(a, b)(f))$$
 $$f_E(a, c)(\mathrm{trans}_A(f,g)) = \mathrm{trans}_B(f_E(a, b)(f), f_E(b, c)(g)$$
@@ -127,7 +127,7 @@ Sometimes in the mathematical literature, setoids are thin by default.
 
 For any setoid $A$, the [[core]] of $A$ is defined as the maximal [[subgroupoid]] $\mathrm{Core}(A)$ of $A$. 
 
-More specifically, a subsetoid $G$ of a setoid $A$ is a setoid $G$ with an extensional function $f:G \to A$ such that $f_V:V_G \to V_A$ is an [[injection]], and for all vertices $a:V_G$ and $b:V_G$ the function $f_E(a, b):E_{G}(a, b) \to E_A(a, b)$ is an injection. 
+More specifically, a subsetoid $G$ of a setoid $A$ is a setoid $G$ with an dagger functor $f:G \to A$ such that $f_V:V_G \to V_A$ is an [[injection]], and for all vertices $a:V_G$ and $b:V_G$ the function $f_E(a, b):E_{G}(a, b) \to E_A(a, b)$ is an injection. 
 
 A subsetoid $G$ of $A$ is a subgroupoid if the edges of $G$ additionally satisfy the groupoid dependent equational axioms. 
 
