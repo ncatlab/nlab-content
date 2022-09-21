@@ -39,7 +39,7 @@ There are several constructions of the ex/lex completion.  Perhaps the quickest 
 * $F$ admits a [[regular epimorphism]] $y(X)\twoheadrightarrow F$ from a [[representable presheaf]], 
 * with the additional property that if $K\rightrightarrows y(X)$ is the [[kernel pair]] of $y(X)\twoheadrightarrow F$, then $K$ also admits a regular epi $y(Z)\to K$ from a representable presheaf.
 
-A more explicit construction is as follows.  Let us think, informally, of the objects of $C$ as [[presets]] and the morphisms of $C$ as "proofs".  An object of $C_{ex} = C_{ex/lex}$ will then be a "set" or [[setoid]] constructed from $C$.  Precisely, we take the objects of $C_{ex}$ to be the **pseudo-equivalence relations** in $C$: a pseudo-equivalence relation consists of:
+A more explicit construction is as follows.  Let us think, informally, of the objects of $C$ as [[presets]] and the morphisms of $C$ as "proofs".  An object of $C_{ex} = C_{ex/lex}$ will then be a "set" or [[setoid]] constructed from $C$.  Precisely, we take the objects of $C_{ex}$ to be the [[pseudo-equivalence relations]] in $C$: a pseudo-equivalence relation consists of:
 
 * an object $X\in C$ and
 * a parallel pair $s,t\colon R\rightrightarrows X$, such that
@@ -263,6 +263,3 @@ On the other hand, some properties are *not* preserved by the completions.
 [[!redirects ex/lex completions]]
 [[!redirects ex/reg completions]]
 [[!redirects reg/lex completions]]
-
-[[!redirects pseudo-equivalence relation]]
-[[!redirects pseudo-equivalence relations]]
