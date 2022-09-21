@@ -81,10 +81,6 @@ Given a one-set-of-edges setoid $E\rightrightarrows V$, we define a family-of-se
 
 ...
 
-## Core of a setoid
-
-For any setoid $A$, the [[core]] of $A$ is defined as the maximal [[subgroupoid]] $\mathrm{Core}(A)$ of $A$. 
-
 ## Examples
 
 Every [[category]] with a [[contravariant functor|contravariant]] [[endofunctor]] that is the [[identity-on-objects]] is a [[setoid]] where
@@ -116,6 +112,16 @@ $$\mathrm{trans}(a, b, a)(f, \mathrm{sym}(a, b)(f)) = \mathrm{refl}(a)$$
 
 * for every vertex $a:V$, $b:V$ and morphism $f:E(a, b)$
 $$\mathrm{trans}(b, a, b)(\mathrm{sym}(a, b)(f), f) = \mathrm{refl}(b)$$
+
+## Core of a setoid
+
+For any setoid $A$, the [[core]] of $A$ is defined as the maximal [[subgroupoid]] $\mathrm{Core}(A)$ of $A$. 
+
+More specifically, a subsetoid $G$ of a setoid $A$ is a setoid $G$ with an extensional function $f:G \to A$ such that $f_V:V_G \to V_A$ is an [[injection]], and for all vertices $a:V_G$ and $b:V_G$ the function $f_E(a, b):E_{G}(a, b) \to E_A(a, b)$ is an injection. 
+
+A subsetoid $G$ of $A$ is a subgroupoid if the edges of $G$ additionally satisfy the groupoid dependent equational axioms. 
+
+A subgroupoid $G$ of a setoid $A$ is a maximal subgroupoid if for every other subgroupoid $H$ of $A$ the... 
 
 ## In homotopy type theory
 
