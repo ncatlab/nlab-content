@@ -157,7 +157,7 @@ such that the following conditions hold:
 
    where $\chi(\sigma,v_1,\cdots, v_n)$ is the $(v_1,\cdots,v_n)$-graded signature of the permuation $\sigma$, according to def. \ref{GradedSignatureOfPermutation};
 
-1. (**strong homotopy [[Jacobi identity]]**) for all $n \in \mathbb{N}$, and for all [[n-tuple|$n$-tuples]] $(v_1, \cdots, v_n)$ of homogeneously graded elements $v_i \in \mathfrak{g}_{\vert v_i \vert}$ the followig [[equation]] holds
+1. (**strong homotopy [[Jacobi identity]]**) for all $n \in \mathbb{N}$, and for all [[n-tuple|$n$-tuples]] $(v_1, \cdots, v_n)$ of homogeneously graded elements $v_i \in \mathfrak{g}_{\vert v_i \vert}$ the following [[equation]] holds
 
    \[
      \label{LInfinityJacobiIdentity}
