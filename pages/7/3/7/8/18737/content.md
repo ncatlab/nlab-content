@@ -21,7 +21,7 @@ _Cubical type theory_ is a flavor of [[dependent type theory]] in which maps out
 
 Similarly to [[Martin-Löf type theory]], cubical type theory comes in [[extensional type theory|extensional]] and [[intensional type theory|intensional]] flavours as well. One could also add an [[equality reflection]] rule for path types to make the cubical type theory definitionally extensional. 
 
-Univalent cubical type theory models the [[infinity-groupoid]]-structure implied by [[Martin-Löf type theory|Martin-Löf]] [[identity types]] on [[constructive set theory|constructive]] [[cubical sets]], whence the name.
+{#UnivalentCubicalTypeTheory} [[univalence|Univalent]] cubical type theory models the [[infinity-groupoid|$\infty$-groupoid]]-structure implied by [[Martin-Löf type theory|Martin-Löf]] [[identity types]] on [[constructive set theory|constructive]] [[cubical sets]] (whence the name) thus making it a form of [[homotopy type theory]].
 
 ## Syntax
 
