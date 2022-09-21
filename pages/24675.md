@@ -1,6 +1,6 @@
 Gromov's non-squeezing theorem is an analogue of [[Heisenberg uncertainty relations]] in [[symplectic geometry]] proved in seminal work of Gromov,
 
-* Mikhail Gromov, _Pseudo holomorphic curves in symplectic manifolds_, Invent. Math. 82 (1985) 307--347
+* [[Mikhail Gromov]], _Pseudo holomorphic curves in symplectic manifolds_, Invent. Math. 82 (1985) 307--347
 
 Some generalizations and consequences are studied in terms of symplectic capacities. A survey:
 
