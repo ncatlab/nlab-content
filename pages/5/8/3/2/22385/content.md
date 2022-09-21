@@ -83,7 +83,7 @@ Given a one-set-of-edges setoid $E\rightrightarrows V$, we define a family-of-se
 
 ## Core of a setoid
 
-For any setoid $A$, the [[core]] of $A$ is defined as the maximal [[subgroupoid]] $B$ of $A$. 
+For any setoid $A$, the [[core]] of $A$ is defined as the maximal [[subgroupoid]] $\mathrm{Core}(A)$ of $A$. 
 
 ## Examples
 
@@ -122,6 +122,10 @@ $$\mathrm{trans}(b, a, b)(\mathrm{sym}(a, b)(f), f) = \mathrm{refl}(b)$$
 In [[homotopy type theory]] (and more generally in any [[intensional type theory]]), the definitions above define a "[[strict setoid]]". 
 
 When the vertex types are only required to be a [[type]] rather than a [[set]], then this defines a "[[presetoid]]", and when additionally the edge types are only required to be a type, then this defines a "[[wild setoid]]". 
+
+There is also the notion of a [[univalent setoid]], which is a [[presetoid]] $A$ whose canonical functions 
+$$\mathrm{idtocorehoms}(a, b):(a =_A b) \to (a \cong_A b)$$
+from the [[identity type]] of elements $a:A$ and $b:A$ to the hom-set of $a:A$ and $b:A$ of the [[core]] [[pregroupoid]] $\mathrm{Core}(A)$ is an [[equivalence in homotopy type theory|equivalence of types]]. 
 
 ## Definition with equivalence relation
 
@@ -194,8 +198,9 @@ When you do this, the new kind of set is called a setoid, and then there may be 
 * [[completely presented set]]
 * [[monoidal setoid]]
 * [[enriched setoid]]
-* [[quotient setoid]]
 * [[complete loop graph]]
+
+[[!include oidification - table]]
 
 [[!include types and logic - table]]
 
