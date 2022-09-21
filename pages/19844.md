@@ -68,7 +68,8 @@ is essentially equal to 1. Any [[statistical significance|significant]] departur
 
 Moreover, in the [[standard model of particle physics|standard model]] the decays involved here are "forbidden" (have vanishing decay rate) at [[tree level]], so that only [[loop orders]] contribute to any possible flavour anomaly. But these loop contributions are sensitive to effects from putative undiscovered [[fundamental particles]] which "run in the loops" as [[virtual particles]], and which thus may show up as a flavour anomaly even if their [[mass]] is too large for them to be seen as scattering products (i.e. as actual, non-[[virtual particles]]). 
 
-{#CleanObservablesInIntroduction} Finally, in forming the "branching" [[ratios]] (eq:RKInIntroduction) it is expected that "hadronic uncertainties cancel out", namely that [[non-perturbative effects]] of [[QCD]], which remain largely unknown (due to the [open problem of confinement](confinement#OpenProblemConfinementReferences)), contribute the same (unknown) factor to numerator and denominator and hence do not affect the ratio ([Hiller & Krüger 2004](#HillerKrueger04), see also [Isidori et al. 2021](#IsidoriEtAl21)). Also [[QED]]-[[radiative corrections]], while not cancelling out in this way, have been argued to be negligible ([Bordone, Isidori and Pattori 2016](#BordoneIsidoriPattori16), but see [CFFPSSV 2021](#CFFPSSV21) for cautionary remarks). Therefore these branching ratios are regarded as "clean observables" in that their value, to relevant precision, is unambiguously predicted by the [[standard model of particle physics]].
+{#CleanObservablesInIntroduction} Finally, in forming the "branching" [[ratios]] (eq:RKInIntroduction) it is expected (see e.g. [Nabeebaccus & Zwicky 2022](#NabeebaccusZwicky22))
+that "hadronic uncertainties cancel out", namely that [[non-perturbative effects]] of [[QCD]], which remain largely unknown (due to the [open problem of confinement](confinement#OpenProblemConfinementReferences)), contribute the same (unknown) factor to numerator and denominator and hence do not affect the ratio ([Hiller & Krüger 2004](#HillerKrueger04), see also [Isidori et al. 2021](#IsidoriEtAl21)). Also [[QED]]-[[radiative corrections]], while not cancelling out in this way, have been argued to be negligible ([Bordone, Isidori and Pattori 2016](#BordoneIsidoriPattori16), but see [CFFPSSV 2021](#CFFPSSV21) for cautionary remarks). Therefore these branching ratios are regarded as "clean observables" in that their value, to relevant precision, is unambiguously predicted by the [[standard model of particle physics]].
 
 This way, tests of lepton flavour universality through measurement of branching ratios like (eq:RKInIntroduction) provide a means to potentially detect "New Physics" (effects not described by the present [[standard model of particle physics|standard model]]) via *indirect* high-luminosity/high-[[precision experiment]] (see e.g. [Brambilla et al. 2014, Section 5](#Brambilla14) [AHRS 2020](#AHRS20)), complementary to traditional high-energy *direct* detection measurements.
 
@@ -589,6 +590,12 @@ Comprehensive overview of the latest world-averaged results to be found at:
 Brief review from the point of view of [[non-perturbative effect|non-perturbative]] [[QCD]]:
 
 * {#Brambilla14} Brambilla et al., Section 5 of: _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981 ([arXiv:1404.3723](https://arxiv.org/abs/1404.3723), [doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
+
+On $R_K$ beingba "clean" observable with negligible theoretical error:
+
+* {#NabeebaccusZwicky22}
+Saad Nabeebaccus, Roman Zwicky, *On the $R_K$ Theory Error* &lbrack;[arXiv:2209.09585](https://arxiv.org/abs/2209.09585)&rbrack;
+
 
 
 ### Experimental results
