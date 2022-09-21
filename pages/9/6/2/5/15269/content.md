@@ -149,12 +149,13 @@ As an isomorphism between the [[equivariant K-theory]] of [[ADE-singularity]] an
 
 An analogous discussion for [[derived categories]] of coherent sheaves is in
 
-* [[Tom Bridgeland]], [[Alastair King]], [[Miles Reid]], _The McKay correspondence as an equivalence of derived categories_ ([pdf](http://www.ams.org/journals/jams/2001-14-03/S0894-0347-01-00368-X/S0894-0347-01-00368-X.pdf))
+* [[Tom Bridgeland]], [[Alastair King]], [[Miles Reid]], _The McKay correspondence as an equivalence of derived categories_, J. Amer. Math. Soc. 14 (2001) 535--554  ([pdf](https://www.ams.org/journals/jams/2001-14-03/S0894-0347-01-00368-X/S0894-0347-01-00368-X.pdf) [doi](https://doi.org/10.1090/S0894-0347-01-00368-X))
 
 See also:
 
 * [[Duiliu-Emanuel Diaconescu]], Mauro Porta, Francesco Sala, _McKay correspondence, cohomological Hall algebras and categorification_ ([arXiv:2004.13685](https://arxiv.org/abs/2004.13685))
-
+* J. Denef, F. Loeser, _Motivic integration, quotient singularities and the McKay correspondence_, Compositio Math. 131 (2002) 267--290
+* V. Batyrev, D. Dais, _Strong McKay correspondence, string-theoretic Hodge numbers and mirror symmetry_, Topology __35__ (1996) 901--929 alg-geom/9410001
 
 
 Introductions and surveys include
