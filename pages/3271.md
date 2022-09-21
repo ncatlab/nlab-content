@@ -17,11 +17,13 @@ Warning: there is another mathematician (global analysis, [[symplectic geometry]
 * A. Beilinson, V. Ginzburg, W. Soergel, _Koszul duality patterns in representation theory_, J. Amer. Math. Soc. 9 (1996), no. 2, 473&#8211;527.
 
 * V. Ginsburg, _Characteristic varieties and vanishing cycles_, Inv. Math. __84__, 327--402 (1986) [MR87j:32030](http://www.ams.org/mathscinet-getitem?mr=833194), [doi](http://dx.doi.org/10.1007/BF01388811)
-
-* V.G. _Lectures on D-modules_, 1998 Chicago notes, writeup by V. Baranovsky, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/Ginzburg.pdf)
-* [[William Crawley-Boevey]], [[Pavel Etingof]], [[Victor Ginzburg]], _Noncommutative geometry and quiver algebras_,  Adv. Math. __209__:1 (2007) 274-336 [doi](https://doi.org/10.1016/j.aim.2006.05.004)
-* V. Ginzburg, [[T. Schedler]], _Differential operators and BV structures in noncommutative geometry_, Sel. Math. New Ser. 16, 673–730 (2010) [doi](https://doi.org/10.1007/s00029-010-0029-8)
-* V. Ginzburg, [[T. Schedler]], _A new construction of cyclic homology_, Proc. Lon. Math. Soc 112 (2016), no. 3, 549-587; [doi](https://doi.org/10.1112/plms/pdw001; arXiv:1201.6635)
+* V.G. _Lectures on D-modules_, 1998 Chicago notes, writeup by V. Baranovsky, [pdf](https://www.math.harvard.edu/~gaitsgde/grad_2009/Ginzburg.pdf)
+* P. Etingof, V. Ginzburg, _Symplectic reflection algebras, Calogero-Moser space, and deformed Harish-Chandra homomorphism_, Invent. math. __147__, 243--348 (2002) [doi](https://doi.org/10.1007/s002220100171) arXiv:[math.AG/0011114](https://arxiv.org/abs/math/0011114)
+* [[Pavel Etingof]], Wee Liang Gan, Victor Ginzburg, Alexei Oblomkov, _Harish-Chandra homomorphisms and [[symplectic reflection algebra]]s for wreath-products_, arXiv:[math.RT/0511489](https://arxiv.org/abs/math/0511489)
+* Victor Ginzburg, [[Dmitry Kaledin]], _Poisson deformations of symplectic quotient singularities_, Adv. Math. __186__(1) 1--57 (2003) [doi](https://doi.org/10.1016/j.aim.2003.07.006)  
+* [[William Crawley-Boevey]], [[Pavel Etingof]], [[Victor Ginzburg]], _Noncommutative geometry and quiver algebras_,  Adv. Math. __209__:1 (2007) 274--336 [doi](https://doi.org/10.1016/j.aim.2006.05.004)
+* V. Ginzburg, [[T. Schedler]], _Differential operators and BV structures in noncommutative geometry_, Sel. Math. New Ser. 16, 673--730 (2010) [doi](https://doi.org/10.1007/s00029-010-0029-8)
+* V. Ginzburg, [[T. Schedler]], _A new construction of cyclic homology_, Proc. Lon. Math. Soc 112 (2016), no. 3, 549--587; [doi](https://doi.org/10.1112/plms/pdw001; arXiv:1201.6635)
 
 He introduced the notion of $d$-Calabi-Yau algebra (and also a construction of a class of examples, [[Ginzburg dg-algebra]]s) in  
 
