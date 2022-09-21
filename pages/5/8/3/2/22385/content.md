@@ -36,7 +36,94 @@
 
 A **setoid** is a collection of things (which could be a [[set]], a [[type]], or a [[preset]] depending on the chosen [[foundations]]) equipped with an [[equivalence relation]] or a [[pseudo-equivalence relation]]. Setoids are commonly used in "impoverished" foundations of mathematics that lack a primitive notion of [[quotient]]; see for instance [[Bishop set]].
 
-## Definition 
+## Definition with pseudo equivalence relation
+
+### With a set and a family of sets
+
+Using graph theoretic terminology, a **setoid** is a loop [[directed pseudograph]], a [[set]] $V$ of **vertices** with a family of sets $E(a, b)$ of **edges** for each vertex $a \in A$ and $b \in A$, which comes with the following additional structure 
+
+* for each vertex $a \in A$ a family of edges 
+$$\mathrm{refl}(a) \in E(a, a)$$ 
+
+* for each vertex $a \in A$ and $b \in A$ a family of functions
+$$\mathrm{sym}(a, b):E(a, b) \to E(b, a)$$
+
+* for each vertex $a \in A$, $b \in A$, and $c \in A$, a family of functions
+$$\mathrm{trans}(a, b, c):(E(a, b) \times E(b, c)) \to E(a, c)$$
+
+The edge family $(E, \mathrm{refl}, \mathrm{sym}, \mathrm{trans})$ is called a **pseudo-equivalence relation**. 
+
+### With two sets
+
+A **setoid** is a [[set]] $V$ with a set $E$ and functions $s:E \to V$, $t:E \to V$ (a loop [[directed pseudograph]]), with with functions $\mathrm{refl}:V \to E$, $\mathrm{sym}:E \to E$, and  
+$$\mathrm{trans}:\{(f,g) \in E \times E \vert t(f) =_V s(g)\} \to E$$ 
+such that 
+
+* for every $a \in V$, $s(\mathrm{refl}(a)) =_E a$
+* for every $a \in V$, $t(\mathrm{refl}(a)) =_E a$
+* for every $f \in E$, $s(f) =_V t(\mathrm{sym}(f))$
+* for every $f \in E$, $t(f) =_V s(\mathrm{sym}(f))$
+* for every $f \in E$ and $g \in E$ such that $t(f) =_V s(g)$, $s(\mathrm{trans}(f,g)) =_E s(f)$ 
+* for every $f \in E$ and $g \in E$ such that $t(f) =_V s(g)$, $t(\mathrm{trans}(f,g)) =_E t(g)$
+
+The structure $(E, s:E \to V, t:E \to V)$ is called a **pseudo-equivalence relation**. 
+
+### Extensional functions
+
+We define an **extensional function** $f:A \to B$ between two setoids $A = (V_A, E_A, \mathrm{refl}_A, \mathrm{sym}_A, \mathrm{trans}_A)$ and $B = (V_B, E_B, \mathrm{refl}_B, \mathrm{sym}_B, \mathrm{trans}_B)$ to be a function $f_V:V_A \to V_B$ and a family of functions $f_E(a, b):E_A(a, b) \to E_B(f_V(a), f_V(b))$ such that 
+$$f_E(a, a)(\mathrm{refl}_A(a)) = \mathrm{refl}_B(f_V(a))$$
+$$f_E(a, b)(\mathrm{sym}_A(a, b)(f)) = \mathrm{sym}_B(f_V(a), f_V(b))(f_E(a, b)(f))$$
+$$f_E(a, c)(\mathrm{trans}_A(f,g)) = \mathrm{trans}_B(f_E(a, b)(f), f_E(b, c)(g)$$
+
+### Equivalence of definitions
+
+Given a one-set-of-edges setoid $E\rightrightarrows V$, we define a family-of-sets-of-edges setoid by taking $E(x,y)$ to be the [[preimage]] of $(x,y)$ under the [[function]] $(s,t):E \to V\times V$.  Conversely, given a family-of-sets-of-edges setoid we define a one-set-of-edges setoid by taking $E$ to be the [[disjoint union]] of the families of morphisms $E = \coprod_{x,y\in V} E(x,y)$. 
+
+...
+
+## Core of a setoid
+
+For any setoid $A$, the [[core]] of $A$ is defined as the maximal [[subgroupoid]] $B$ of $A$. 
+
+## Examples
+
+Every [[category]] with a [[contravariant functor|contravariant]] [[endofunctor]] that is the [[identity-on-objects]] is a [[setoid]] where
+
+* for every vertex $a:V$, $b:V$, $c:V$, and $d:V$ and morphisms $f:E(a, b)$, $g:E(b, c)$, and $h:E(c, d)$
+$$\mathrm{trans}(a, b, d)(f, \mathrm{trans}(b, c, d)(g, h)) = \mathrm{trans}(a, c, d)(\mathrm{trans}(a, b, c)(f, g), h)$$
+
+* for every vertex $a:V$, $b:V$ and morphism $f:E(a, b)$
+$$\mathrm{trans}(a, b, b)(f, \mathrm{refl}(b)) = f$$
+
+* for every vertex $a:V$, $b:V$ and morphism $f:E(a, b)$
+$$\mathrm{trans}(a, a, b)(\mathrm{refl}(a), f) = f$$
+
+This includes [[dagger categories]], where additionally
+
+* for every vertex $a:V$, $b:V$ and morphism $f:E(a, b)$
+$$\mathrm{sym}(a, b)(\mathrm{sym}(b, a)(f)) = f$$
+
+* for every vertex $a:V$, $b:V$, $c:V$ and morphism $f:E(a, b)$, $g:E(b, c)$
+$$\mathrm{sym}(a, c)(\mathrm{trans}(a, b, c)(f, g)) = \mathrm{trans}(c, b, a)(\mathrm{sym}(a, b)(f), \mathrm{sym}(b, c)(g))$$
+
+* for every vertex $a:V$
+$$\mathrm{sym}(a, a)(\mathrm{refl}(a)) = \mathrm{refl}(a)$$
+
+and [[groupoids]], where
+
+* for every vertex $a:V$, $b:V$ and morphism $f:E(a, b)$
+$$\mathrm{trans}(a, b, a)(f, \mathrm{sym}(a, b)(f)) = \mathrm{refl}(a)$$
+
+* for every vertex $a:V$, $b:V$ and morphism $f:E(a, b)$
+$$\mathrm{trans}(b, a, b)(\mathrm{sym}(a, b)(f), f) = \mathrm{refl}(b)$$
+
+## In homotopy type theory
+
+In [[homotopy type theory]] (and more generally in any [[intensional type theory]]), the definitions above define a "[[strict setoid]]". 
+
+When the vertex types are only required to be a [[type]] rather than a [[set]], then this defines a "[[presetoid]]", and when additionally the edge types are only required to be a type, then this defines a "[[wild setoid]]". 
+
+## Definition with equivalence relation
 
 ### In graph theory
 
@@ -44,8 +131,6 @@ A **setoid** is a [[loop digraph object|loop]] [[digraph]] $(V, E, s:E \to V, t:
 $$tr:\{(f,g) \in E \times E \vert t(f) =_V s(g)\} \to E$$ 
 such that 
 
-* for every $a \in V$, $s(refl(a)) =_E a$
-* for every $a \in V$, $t(refl(a)) =_E a$
 * for every $f \in E$, $s(f) =_V t(sym(f))$
 * for every $f \in E$, $t(f) =_V s(sym(f))$
 * for every $f \in E$, $sym(sym(f)) =_E f$
