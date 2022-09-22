@@ -3,7 +3,7 @@
 
 ## In a 1-category
 
-* [[Bishop set]], [[setoid]]
+* [[congruence]]
 
 * [[internal category]], [[internal groupoid]]
 
