@@ -133,11 +133,11 @@ It follows that biperfect syntopogenies are equivalent to [[quasi-uniformities]]
 Constructively, this equivalence still holds for both nearness *and* neighborhood syntopogenous spaces.  In general, topogenous nearnesses and topogenous neighborhood relations are not equivalent, but a *biperfect* topogenous neighborhood relation is determined by giving for each $x$ the smallest set $B$ such that $\{x\}\ll B$, and as $x$ varies these sets again determine exactly a binary relation on $X$ (containing the diagonal).  Syntopogenous apartness spaces, on the other hand, correspond to [[uniform apartness spaces]].
 
 
-### Preorders and setoids
+### Preorders and symmetric prosets
 
 A syntopogeny which is both simple and biperfect is determined uniquely by a single relation on $X$ which must be both [[reflexive relation|reflexive]] and [[transitive relation|transitive]], i.e. a [[preorder]].  Thus, the intersection $Top \cap QUnif$ inside $STpg$ is equivalent to $Preord$.
 
-Of course, it follows that a simple, symmetric, (bi)perfect syntopogeny is determined uniquely by a relation on $X$ that is reflexive, transitive, and also symmetric -- i.e. an [[equivalence relation]].  Thus, the intersections $Top \cap Unif$, $Top \cap Prox$, and $Prox\cap (Q)Unif$ inside $STpg$ are all equivalent to the category $Setoid$ of [[setoids]] (sets equipped with an equivalence relation).
+Of course, it follows that a simple, symmetric, (bi)perfect syntopogeny is determined uniquely by a relation on $X$ that is reflexive, transitive, and also symmetric -- i.e. an [[equivalence relation]].  Thus, the intersections $Top \cap Unif$, $Top \cap Prox$, and $Prox\cap (Q)Unif$ inside $STpg$ are all equivalent to the category $SymPreOrd$ of [[symmetric prosets]] (sets equipped with an equivalence relation).
 
 
 ## Some coreflections
@@ -168,7 +168,7 @@ In general, of course, coreflections into distinct subcategories do not commute 
 syntopogenous spaces are all coreflective in $STpg$, with coreflections $(-)^{t s}$, $(-)^{t p}$, and $(-)^{t b}$ respectively.  Finally, it is evident by construction that $(-)^b$ preserves symmetry, so the full subcategories of
 
 * symmetric biperfect (i.e. uniformity), and
-* simple symmetric biperfect (i.e. setoids)
+* simple symmetric biperfect (i.e. symmetric prosets)
 
 syntopogenous spaces are also both coreflective in $STpg$, with coreflections $(-)^{s b}$ and $(-)^{t s b}$ respectively.
 
