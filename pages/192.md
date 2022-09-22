@@ -35,7 +35,7 @@ This definition is somewhat vague by design. Rather than canonize a fixed set of
 
 * classical logic vs. intuitionistic logic 
 
-* quotient structures (i.e. [[presets]]/sets vs. sets/[[setoids]])
+* [[image factorizations]] and [[quotient sets]], i.e. [[sets]] vs [[setoids]]. 
 
 * [[initial object|initial]] and [[free object|free]] structures, i.e. [[transfinite construction of free algebras]]/[[quotient inductive types]]
 
