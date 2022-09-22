@@ -20,7 +20,7 @@ On the [[representation rings]] of [[compact Lie groups]]:
 
 On the [[group completion theorem]]:
 
-* {#McDuffSegal76} [[Dusa McDuff]], [[Graeme Segal]], _Homology fibrations and the “group-completion” theorem_, Inventiones mathematicae, October 1976, Volume 31, Issue 3, pp 279–284 ([doi:10.1007/BF01403148](https://doi.org/10.1007/BF01403148))
+* {#McDuffSegal76} [[Dusa McDuff]], [[Graeme Segal]], _Homology fibrations and the “group-completion” theorem_, Invent. Math. __31__:3 (1976) 279--284 ([doi:10.1007/BF01403148](https://doi.org/10.1007/BF01403148))
 
 On [[equivariant K-theory]]:
 
@@ -49,12 +49,12 @@ On [[K-theory of permutative categories]], [[Gamma spaces]] as models for [[conn
 
 Proving the [[equivariant Whitehead theorem]]:
 
-* {#JamesSegal78}  [[Ioan James]], [[Graeme Segal]], Theorem 1.1 in: _On equivariant homotopy type_, Topology Volume 17, Issue 3, 1978, Pages 267-272 (<a href="https://doi.org/10.1016/0040-9383(78)90030-7">doi:10.1016/0040-9383(78)90030-7</a>)
+* {#JamesSegal78}  [[Ioan James]], [[Graeme Segal]], Theorem 1.1 in: _On equivariant homotopy type_, Topology __17__:3, 1978, 267--272 (<a href="https://doi.org/10.1016/0040-9383(78)90030-7">doi:10.1016/0040-9383(78)90030-7</a>)
 
 
 On the [[homotopy type of spaces of rational functions]] from the [[Riemann sphere]] to itself (related to the [[moduli space of monopoles]] in $\mathbb{R}^3$ and to the [[configuration space of points]] in $\mathbb{R}^2$):
 
-* [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. Volume 143 (1979), 39-72 ([euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033))
+* [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. __143__ (1979), 39-72 ([euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033))
 
 * [[Ralph L. Cohen]], [[John D. S. Jones]], [[Graeme B. Segal]], *Stability for holomorphic spheres and Morse theory*, in: K. Grove, I. H. Madsen, E. K. Pedersen (eds.) *Geometry and Topology: Aarhus*, Contemporary Mathematics
 Volume: 258;  ([arXiv:math/9904185](https://arxiv.org/abs/math/9904185), [ ISBN:978-0-8218-2158-9](https://bookstore.ams.org/conm-258))
@@ -66,7 +66,7 @@ On the [[ordinary cohomology]] of the [[moduli space of Yang-Mills monopoles]]:
 
 On [[equivariant bundles]] with [[abelian group|abelian]] [[structure group]]:
 
-* {#LashofMaySegal83} [[Richard Lashof]], [[Peter May]], [[Graeme Segal]], _Equivariant bundles with abelian structural group_, Contemporary Mathematics,  Volume 19, 1983 ([doi:10.1090/conm/019](http://dx.doi.org/10.1090/conm/019), [pdf](http://www.math.uchicago.edu/~may/PAPERS/45.pdf), [[LashofMaySegalEquivariantBundles.pdf:file]])
+* {#LashofMaySegal83} [[Richard Lashof]], [[Peter May]], [[Graeme Segal]], _Equivariant bundles with abelian structural group_, Contemporary Mathematics __19__, 1983 ([doi:10.1090/conm/019](https://doi.org/10.1090/conm/019), [pdf](http://www.math.uchicago.edu/~may/PAPERS/45.pdf), [[LashofMaySegalEquivariantBundles.pdf:file]])
 
 
 On [[loop groups]] of [[compact Lie groups]] and their [[Kac-Moody group]] [[central extension]]:
@@ -74,6 +74,10 @@ On [[loop groups]] of [[compact Lie groups]] and their [[Kac-Moody group]] [[cen
 * {#PressleySegal} Andrew Pressley, [[Graeme Segal]], _Loop groups_ Oxford University Press (1988)
   
 * [[Graeme Segal]], _Loop groups_ ([pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0084581/chapter08.pdf))
+
+On integrable functions in terms of infinitedimensional [[Sato-Segal-Wilson Grassmannian]]
+
+* G. Segal, [[George Wilson]], _Loop groups and equations of KdV type_, Publ. Math. IHÉS __61__, 5--65 (1985) [numdam](http://www.numdam.org/item/PMIHES_1985__61__5_0) [MR87b:58039](https://mathscinet.ams.org/mathscinet-getitem?mr=87b:58039) [Zbl0592.35112](https://zbmath.org/?q=an:0592.35112)
 
 On [[2d conformal field theory]] and [[modular functors]]:
 
