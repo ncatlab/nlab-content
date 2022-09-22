@@ -202,16 +202,15 @@ When you do this, the new kind of set is called a setoid, and then there may be 
 
 * [[directed graph]]
 * [[pseudo-proset]]
-* [[thin category]]
 * [[equivalence relation]]
 * [[extensional function]]
+* [[dagger functor]]
+* [[presetoid]]
 * [[univalent setoid]]
-* [[stable setoid]]
 * [[internal setoid]]
 * [[completely presented set]]
 * [[monoidal setoid]]
 * [[enriched setoid]]
-* [[complete loop graph]]
 
 [[!include oidification - table]]
 
