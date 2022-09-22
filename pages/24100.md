@@ -15,7 +15,7 @@
 
 ## Definition 
 
-A **premetric locale** is a [[locally positive locale]] that is also a [[enriched setoid|setoid enriched in]] $(\overleftarrow{\mathbb{R}_+^\infty}, \geq, +, 0)$, the [[locale]] of [[non-negative number|non-negative]] [[extended real numbers]] whose [[topology]] is upper [[semi-continuity]]. 
+A **premetric locale** is a [[locally positive locale]] that is also a [[symmetric proset]] [[enriched set|enriched in]] $(\overleftarrow{\mathbb{R}_+^\infty}, \geq, +, 0)$, the [[locale]] of [[non-negative number|non-negative]] [[extended real numbers]] whose [[topology]] is upper [[semi-continuity]]. 
 
 ## See also
 
