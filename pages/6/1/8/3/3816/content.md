@@ -52,4 +52,6 @@ proteins.
 
 * Fritz Gesztesy, Helge Holden, _Soliton equations and their algebro-geometric solutions_ (vol. I), Cambridge Univ. Press 2003; vol. II, with Johanna Michor, Gerald Teschl, 2008.
 
+* [[Emma Previato]], _Hyperelliptic quasi-periodic and soliton solutions of the nonlinear Schrödinger equation_, Duke Math. J. 52(2): 329--377 (1985) [doi](https://doi.org/10.1215/S0012-7094-85-05218-4) 
+
 [[!redirects solitons]]
