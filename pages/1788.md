@@ -47,6 +47,16 @@ How to do a list
 * sand 
 * sand
 
+## Figures
+
+<center>
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Hopf_Fibration.png/500px-Hopf_Fibration.png" alt="" style="width:80%; max-width: 400px; height:auto;">
+<figcaption>Figure 1: The hopfy caption of the figure</figcaption>
+</figure>
+</center>
+
+
 ## LaTeX punctuation
 
 In view of Rembrandt, involutions on topological spaces are equivalently known as *[[topological G-spaces]]* for $G = $[[cyclic group of order 2|$\mathbb{Z}/2$]]. The 
