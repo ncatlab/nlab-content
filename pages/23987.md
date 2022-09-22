@@ -343,7 +343,7 @@ Stone-von Neumann**
 
   [[Alex Fok]] (NYU Shanghai)
 
-  **Equvariant twisted KK-theory of noncompact Lie groups**
+  **Equivariant twisted KK-theory of noncompact Lie groups**
 
   > The [[Loop Groups and Twisted K-Theory|Freed-Hopkins-Teleman theorem]] asserts a canonical link between the [[twisted ad-equivariant K-theory|equivariant twisted K-theory]] of a [[compact Lie group]] equipped with the conjugation action by itself and the representation theory of its loop group. Motivated by this, we will present results on the [[twisted equivariant K-theory|equivariant twisted]] [[KK-theory]] of a noncompact semisimple Lie group $G$. We will give a geometric description of generators of the equivariant twisted KK-theory of G with equivariant correspondences, which are applied to formulate the geometric quantization of quasi-Hamiltonian manifolds with proper G-actions. We will also show that the Baum-Connes [[assembly map]] for the $C^\ast$-algebra of sections of the Dixmier-Douady bundle which realizes the twist is an isomorphism, and discuss a conjecture on representations of the loop group $L G$. This talk is based on joint work with [[Mathai Varghese]].
 
