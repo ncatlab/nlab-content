@@ -349,7 +349,7 @@ there appears the "classically controlled quantum computational tetralogy":
 
 
 \begin{imagefromfile}
-    "file_name": "ComputationalTrilogyTopologizedQuantized.jpg",
+    "file_name": "ComputationalTrilogyTopologizedAndQuantized.jpg",
     "width": 800,
     "unit": "px",
     "margin": {
@@ -360,7 +360,8 @@ there appears the "classically controlled quantum computational tetralogy":
     }
 \end{imagefromfile}
 
-> (from [[CQTS]])
+> (from [[schreiber:Topological Quantum Programming in TED-K|SS22]])
+
 
 \linebreak
 
