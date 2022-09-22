@@ -1279,21 +1279,13 @@ $\,$
 
 3. From any [[group action|action]] of a [[group]] $H$ on a [[set]] $X$ we obtain an [[action groupoid]] or "[[weak quotient]]" $X/ \!\! /H$. This is also written $X \rtimes H$, a semidirect product, since it is a special case of the semidirect product of an action of a groupoid on a groupoid.  If $X=\{*\}$ this gives the groupoid $\mathbf{B}H$, above.
 
-4. A [[setoid]], that is a set $X$ equipped with an [[equivalence relation]] $E$, becomes a groupoid with the multiplication $(x,y);(y,z) = (x,z)$ for all $(x,y), (y,z) \in E$.  (This gives one reason for the forward notation for composition.)  Such a groupoid is equivalent to the [[discrete category]] on the [[quotient set]] $X/E$.
+4. A [[symmetric proset]], that is a set $X$ equipped with an [[equivalence relation]] $E$, becomes a groupoid with the multiplication $(x,y);(y,z) = (x,z)$ for all $(x,y), (y,z) \in E$.  (This gives one reason for the forward notation for composition.)  Such a groupoid is equivalent to the [[discrete category]] on the [[quotient set]] $X/E$.
 
 5. In particular, if $E$ is the universal relation $X \times X$, then we get the _[[square groupoid]]_ $X^2$, also called the _[[trivial groupoid]]_ on $X$. Despite the latter name, there is an important special case, namely the groupoid $I= \{0,1\}^2$. This groupoid has non-identity elements $\iota:0 \to 1, \iota^{-1}: 1 \to 0$, and can be regarded as a groupoid model of the unit [[interval]] $[0,1]$ in [[topology]].
 
 6. More generally, if we choose some [[subset]] $S$ of the points of a space $X$, then we have a [[full subcategory|full subgroupoid]] of $\pi_1(X)$ containing only those points in $S$, denoted $\pi_1(X,S)$.  This can result in much more manageable groupoids; for instance $\Pi_1([0,1],\{0,1\})$ is the groupoid $I$ considered above, while $\Pi_1([0,1])$ has [[uncountable set|uncountably]] many objects (but is [[equivalence of categories|equivalent]] to $I$).
 
 7. If $\Gamma$ is a [[directed graph]] or [[quiver]], then the _[[free groupoid]]_ $F(\Gamma)$ is well defined. It is the left [[adjoint functor]] to the [[forgetful functor]] from groupoids to directed graphs. This shows an advantage of groupoids: the notion of _free equivalence relation_ or _free action groupoid_ does not easily make sense. But we can still talk of a presentation of an equivalence relation or action groupoid by [[generators and relations]], by considering presentations of groupoids instead.
-
-   +-- {: .query}
-   [[Mike Shulman|Mike]]: It's not clear to me that the notion of "free equivalence relation" doesn't make sense.  Can't I talk about a left adjoint to the forgetful functor from equivalence relations to, say, directed graphs?  Maybe sets-equipped-with-a-binary-relation would be more appropriate, but either one works fine.
-
-   [[Ronnie Brown|Ronnie]]: Are you sure this forgetful functor equivalence relations to directed graphs has a left adjoint? Suppose the directed graph $\Gamma$ has one vertex $x$ and one loop $u:x  \to x$. The free groupoid on $\Gamma$ is the group of integers, which as a groupoid is not an equivalence relation.
-
-   _Toby_:  But there is still a free [[setoid]] (set equipped with an equivalence relation) on $\Gamma$; it is the [[point]].  As a groupoid, it is not the same as the free groupoid on $\Gamma$, although it *is* the same as the free setoid on the free groupoid on $\Gamma$.  If there\'s an advantage to working with groupoids, perhaps it\'s that the free groupoid functor preserves distinctions that the free setoid functor forgets?  (In this case, a distinction preserved or forgotten is that between $\Gamma$ and the point, which as a graph does not have $u$.)
-   =--
 
 8. A [paper by &#381;ivaljevi&#263;](#Zivaljevic) gives examples of groupoids used in combinatorics.
 
