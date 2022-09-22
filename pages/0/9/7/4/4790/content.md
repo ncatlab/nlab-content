@@ -83,5 +83,13 @@ On [[homotopy groups]]:
 
 * {#MimuraToda63} Mamoru Mimura, Hiroshi Toda, _Homotopy groups of symplectic groups_, J. Math. Kyoto Univ. Volume 3, Number 2 (1963), 251-273 ([Euclid:1250524819](https://projecteuclid.org/euclid.kjm/1250524819))
 
+O. Meara's book studies symplectic group of a finite dimensional symplectic or even alternating space (space with an alternating form, not necessarily nondegenerate) over an arbitrary field
+
+* O. T. Meara, _Symplectic groups_, Math. Surveys __16__, Amer. Math. Soc. 1978
+
+A generalization, a symplectic group over a noncommutative algebra with involution is studied in 
+
+* D. Alessandrini, A. Berenstein, [[V. Retakh]], E. Rogozinnikov,  A. Wienhard, _Symplectic groups over noncommutative algebras_ Sel. Math. New Ser. __28__, 82 (2022) [doi](https://doi.org/10.1007/s00029-022-00787-x)
+
 [[!redirects symplectic group]]
 [[!redirects symplectic groups]]
