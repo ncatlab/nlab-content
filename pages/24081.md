@@ -26,7 +26,7 @@
 
 * [[enriched poset]]
 
-* [[enriched setoid]]
+* [[enriched set]]
 
 ## References
 
