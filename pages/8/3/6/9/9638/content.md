@@ -134,14 +134,16 @@ The idea of quantum computation was first expressed in:
 
   > because nature isn't classical, dammit, if you want to make a simulation of nature, you'd better make it quantum mechanical
 
+The notion of [[quantum logic gates]] and [[quantum circuits]] was first made explicit in:
 
+* [[David E. Deutsch]], *Quantum computational networks*, Proceedings of the Royal Society A, **425** 1868 (1989) 73-90 &lbrack;[doi:10.1098/rspa.1989.0099](https://doi.org/10.1098/rspa.1989.0099), [jstor:2398494](https://www.jstor.org/stable/2398494)&rbrack;
 
 The terminology *[[q-bit]]* goes back to:
 
 * [[Benjamin Schumacher]], *Quantum coding*, Phys. Rev. A **51** (1995) 2738 $[$[doi:10.1103/PhysRevA.51.2738](https://doi.org/10.1103/PhysRevA.51.2738)$]$
 
 
-The potential practical relevanc ()e of quantum computation was highlighted early on via toy examples
+The potential practical relevance of quantum computation was highlighted early on via toy examples
 
 such as the [[Deutsch-Jozsa algorithm]]:
 
