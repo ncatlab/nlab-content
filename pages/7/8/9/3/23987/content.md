@@ -395,15 +395,9 @@ Stone-von Neumann**
  [[Hisham Sati]] --  Professor of Mathematics
 </center>
 
-**Co-Principal Investigators:**
+\linebreak
 
-<img src="https://ncatlab.org/nlab/files/CQTS-CoPIs-2022-09.jpg" width="600">
-
-|  |  |  |
-|--|--|--|
-| [Muhammad Shafique](https://nyuad.nyu.edu/en/academics/divisions/engineering/faculty/muhammad-shafique.html) |  [Saurabh Ray](https://nyuad.nyu.edu/en/academics/divisions/science/faculty/saurabh-ray.html) | [Farah Shamout](https://nyuad.nyu.edu/en/academics/divisions/engineering/faculty/farah-emad-shamout.html) |
-| [Tuka Alhanai](https://nyuad.nyu.edu/en/academics/divisions/engineering/faculty/tuka-waddah-alhanai.html) | [Tim Byrnes](https://shanghai.nyu.edu/academics/faculty/directory/tim-byrnes) |  [Pilkyung Moon](https://shanghai.nyu.edu/academics/faculty/directory/pilkyung-moon) | 
-
+(For the list of co-PIs see [here](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html).)
 
 \linebreak
 
@@ -417,9 +411,6 @@ Stone-von Neumann**
 | [[Urs Schreiber]] | [[Mitchell Riley]] | [[David Jaz Myers]] | [Tatiana Ezubova](https://de.linkedin.com/in/tatiana-ezubova-0b21091b9) | 
 | [[Marwa Mannaï]] | [[Sachin Valera]] | [[Amaria Javed]] | [[Adrian Clough]] |
 
-<center>
-<a href="https://dioscuri-tda.org/members/ahmad.html">Ahmad Farhat</a>
-</center>
 
 ***
 
