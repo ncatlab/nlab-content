@@ -28,7 +28,7 @@ In [[constructive mathematics]], a [[set]] $X$ has __stable equality__ if any tw
 ## See also ##
 
 * [[decidable equality]]
-* [[stable setoid]]
+* [[stable equivalence relation]]
 
 ## References
 
