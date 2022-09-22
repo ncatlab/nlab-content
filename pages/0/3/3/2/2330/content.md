@@ -48,7 +48,7 @@ We may without restriction assume that every hom-$\infty$-groupoid is just a set
 
 * A $(0,1)$-category with the structure of a [[Grothendieck topos]] is a [[Grothendieck (0,1)-topos]]: a [[frame]] or [[locale]].
 
-* A $(0,1)$-category which is also a [[groupoid]] (that is, every morphism is an isomorphism) is a $(0,0)$-category (which may think of as either a $0$-category or as a $0$-groupoid), which is the same as a [[set]] (up to equivalence) or a [[setoid]] (up to isomorphism).
+* A $(0,1)$-category which is also a [[groupoid]] (that is, every morphism is an isomorphism) is a $(0,0)$-category (which may think of as either a $0$-category or as a $0$-groupoid), which is the same as a [[set]] (up to equivalence) or a [[symmetric proset]] (up to isomorphism).
 
 
 ## Related concepts
