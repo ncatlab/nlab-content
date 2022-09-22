@@ -40,3 +40,5 @@ In a set-level but intensional type theory, we distinguish [[definitional equali
 ## See also
 
 * [[set-level foundations]]
+
+[[!redirects set-level type theories]]
