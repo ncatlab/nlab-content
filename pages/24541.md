@@ -42,7 +42,7 @@ $$h \circ_{A, C, D} (g \circ_{A, B, C} f) = h \circ_{B, C, D} (g \circ_{A, B, D}
 
 Of course, the latter two axioms are actually inhabitants of the [[identity type]], hence are data included in the definition just like the first four.  However, since each $Hom(A,B)$ is a set, such equalities are (typally) unique whenever they exist, so in most cases their presence as data can be ignored.
 
-Since the [[univalence axiom]] implies that all [[setoids]] are [[sets]], every [[(2,1)-preorder]] in a [[univalent type theory]] such as [[homotopy type theory]] is a precategory. However, in more general [[intensional type theories]], only the locally univalent (2,1)-preorders are precategories. 
+Since the [[univalence axiom]] implies that all [[symmetric prosets]] are [[sets]], every [[(2,1)-preorder]] in a [[univalent type theory]] such as [[homotopy type theory]] is a precategory. However, in more general [[intensional type theories]], only the locally univalent (2,1)-preorders are precategories. 
 
 ## Remarks
 
