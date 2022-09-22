@@ -30,7 +30,9 @@ Let $(M, \leq, \wedge, \top)$ be a [[monoidal poset]], such as a [[meet-semilatt
 
 * A [[quasipseudometric space]] is a $\mathbb{R}_{\geq 0}$-enriched [[proset]], where $\mathbb{R}_{\geq 0}$ are the [[non-negative number|non-negative]] [[Dedekind real numbers]]. 
 
-* A [[pseudometric space]] is a $\mathbb{R}_{\geq 0}$-enriched [[setoid]], where $\mathbb{R}_{\geq 0}$ are the [[non-negative number|non-negative]] [[Dedekind real numbers]]. 
+* A [[pseudometric space]] is a $\mathbb{R}_{\geq 0}$-enriched [[symmetric proset]], where $\mathbb{R}_{\geq 0}$ are the [[non-negative number|non-negative]] [[Dedekind real numbers]]. 
+
+* A [[metric space]] is a $\mathbb{R}_{\geq 0}$-enriched [[set]], where $\mathbb{R}_{\geq 0}$ are the [[non-negative number|non-negative]] [[Dedekind real numbers]]. 
 
 ## See also ##
 
