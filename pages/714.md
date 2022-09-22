@@ -265,7 +265,7 @@ Keeping $d_1$ and $d_2$ fixed, respectively this makes $F(-,d_1), F(-,d_2) : C \
 
 * $\mathcal{R}(G)$, the category of unitary [[representation]]s of a (discrete) [[group]] $G$ and intertwining maps, is a &#8224;-category. For an intertwiner $\phi : R \rightarrow S$, let $\phi^\dagger : S \rightarrow R$ be the adjoint of $\phi$ in [[Hilb]].
 
-* Every [[setoid]] is a [[thin category|thin]] &#8224;-category. 
+* Every [[symmetric proset]] is a [[thin category|thin]] &#8224;-category. 
 
 ## Variants
 
@@ -362,9 +362,9 @@ There should be a notion of &#8224;-[[quasi-category]] based on $\dagger$-simpli
 
 The [[horizontal categorification]] of an [[anti-involution|anti-involutive]] [[monoid]] is a $\dagger$-category
 
-### Relation to setoids
+### Relation to symmetric prosets
 
-Every setoid is a [[thin category|thin]] $\dagger$-category, and the [[groupoidal categorification]] of a setoid is a $\dagger$-category, with the $\dagger$ operation being the groupoidal categorification of the symmetric property. 
+Every [[symmetric proset]] is a [[thin category|thin]] $\dagger$-category, and the [[groupoidal categorification]] of a symmetric proset is a $\dagger$-category, with the $\dagger$ operation being the groupoidal categorification of the symmetric property. 
 
 ### Relation to star-algebras
 
