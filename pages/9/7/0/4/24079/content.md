@@ -43,8 +43,6 @@ For $M$-enriched sets, $o(a, b) = o(b, a)$, $o(a, a) = 1$, and $1 = o(a, b) \Rig
 
 * An ordinary [[set]] is just an $\Omega$-enriched set, with $\Omega$ the set of [[truth values]]. 
 
-* A [[pseudometric space]] is a $(\mathbb{R}_{\geq 0}, \geq, +, 0)$-enriched [[symmetric proset]], where $\mathbb{R}_{\geq 0}$ are the [[non-negative number|non-negative]] [[Dedekind real numbers]]. 
-
 * A [[metric space]] is a $(\mathbb{R}_{\geq 0}, \geq, +, 0)$-enriched set, where $\mathbb{R}_{\geq 0}$ are the [[non-negative number|non-negative]] [[Dedekind real numbers]]. 
 
 * Given any [[Archimedean integral domain]] $A$ and an Archimedean integral subdomain $B \subseteq A$, then $B$ is an $(A_{\geq 0}, \geq, +, 0)$-enriched set, where $A_{\geq 0}$ is the non-negative elements of $A$. 
