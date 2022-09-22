@@ -257,8 +257,8 @@ A kind of Beck-Chevalley condition appears in the axioms of Grothendieck's [[six
 
 ## Related pages
 
+* [[exact square]]
 * [[Benabou-Roubaud theorem]]
-
 
 
 ## References
