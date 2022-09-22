@@ -36,9 +36,9 @@ Let $(M, \leq, \wedge, \top)$ be a [[monoidal poset]]. A **$M$-enriched [[proset
 
 * A [[quasimetric space]] is a $\mathbb{R}_{\geq 0}$-enriched [[poset]], where $\mathbb{R}_{\geq 0}$ are the [[non-negative number|non-negative]] [[Dedekind real numbers]]. 
 
-* A [[pseudometric space]] is a $\mathbb{R}_{\geq 0}$-enriched [[setoid]], where $\mathbb{R}_{\geq 0}$ are the [[non-negative number|non-negative]] [[Dedekind real numbers]]. 
+* A [[pseudometric space]] is a $\mathbb{R}_{\geq 0}$-enriched [[symmetric proset]], where $\mathbb{R}_{\geq 0}$ are the [[non-negative number|non-negative]] [[Dedekind real numbers]]. 
 
-* A [[metric space]] is a $\mathbb{R}_{\geq 0}$-enriched set/[[univalent setoid]], where $\mathbb{R}_{\geq 0}$ are the [[non-negative number|non-negative]] [[Dedekind real numbers]]. 
+* A [[metric space]] is a $\mathbb{R}_{\geq 0}$-[[enriched set]], where $\mathbb{R}_{\geq 0}$ are the [[non-negative number|non-negative]] [[Dedekind real numbers]]. 
 
 * A set with an [[irreflexive]] [[comparison]], such as an [[apartness relation]] or a [[linear order]], is an $\Omega^\op$-enriched poset, where the [[co-Heyting algebra]] $\Omega^\op$ is the [[opposite poset]] of the set of [[truth values]] $\Omega$. 
 
@@ -46,7 +46,7 @@ Let $(M, \leq, \wedge, \top)$ be a [[monoidal poset]]. A **$M$-enriched [[proset
 
 * [[Lawvere metric space]]
 * [[enriched category]] (for the (1, 1)-category version)
-* [[enriched setoid]]
+* [[enriched set]]
 * [[enriched directed loop graph]]
 * [[enriched monotone]]
 * [[enriched monotone preorder]]
