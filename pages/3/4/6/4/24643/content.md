@@ -26,7 +26,7 @@ Equivalently, it is a [[dagger precategory]] with identifications $\lambda(a, b,
 
 ## Examples
 
-* A pregroupoid whose sets of morphisms are all subsingletons is a [[setoid]]. 
+* A pregroupoid whose sets of morphisms are all subsingletons is a [[symmetric proset]]. 
 
 * A pregroupoid whose object type is a set is a [[strict groupoid]]. 
 
