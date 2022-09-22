@@ -49,6 +49,8 @@ Conversely, give a functor $F^*: B^{op} \to Set$, define a category $C$ and a di
 
 If you start from $F^*$, construct $C$ and $F$, and then construct a new $F^*$, it will be equal to the original $F^*$.  Conversely, if you start with $C$ and $F$, construct $F^*$, and then construct a new $C'$ and $F'$, then there will be an [[isomorphism of categories]] between $C$ and $C'$, relative to which $F$ and $F'$ are equal.
 
+Under this equivalence, the [[representable presheaf]] on an object $X$ corresponds to the canonical functor $B/X \to B$ from the [[slice category]] over $X$.
+
 ## Invariance under equivalence
 
 Note that the definition of fibration refers to [[equality]] of morphisms without previously assuming that the sources match, while the construction of $F^*$ from $F$ refers to equality of objects.  This is also why we get [[equality]] of [[functors]] and [[isomorphism]] of [[categories]] in the immediately preceding paragraph.  So the only thing on this page which respects the [[principle of equivalence]] is the idea of a functor to [[Set]].  That is the fundamental invariant notion; a discrete fibration is just a convenient way of talking about it.
