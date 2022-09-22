@@ -22,9 +22,7 @@
 +-- {: .num_defn #Definition}
 ###### Definition
 
-In a [[finitely complete category]] $C$, a **congruence** on an object $X$ is an [[internalization|internal]] [[equivalence relation]] on $X$. The object $X$ itself is called an **internal [[setoid]]** or **setoid object** if it comes with a congruence. 
-
-This means that it consists of a [[subobject]] of the product $R\stackrel{(p_1,p_2)}\hookrightarrow X \times X$ equipped with the following [[morphisms]]: 
+In a [[finitely complete category]] $C$, a **congruence** on an object $X$ is an [[internalization|internal]] [[equivalence relation]] on $X$. This means that it consists of a [[subobject]] of the product $R\stackrel{(p_1,p_2)}\hookrightarrow X \times X$ equipped with the following [[morphisms]]: 
 
 * internal [[reflexive relation|reflexivity]]: $r \colon X \to R$ which is a [[section]] both of $p_1$ and of $p_2$, i.e., $p_1 r = p_2 r = 1_X$;
 
@@ -159,6 +157,7 @@ A special case of this is that of a _[[quotient module]]_.
 ## See also 
 
 * [[preordered object]]
+* [[setoid object]]
 
 [[!redirects congruence]]
 [[!redirects congruences]]
@@ -168,7 +167,3 @@ A special case of this is that of a _[[quotient module]]_.
 [[!redirects internal equivalence relations]]
 [[!redirects internal congruence]]
 [[!redirects internal congruences]]
-[[!redirects internal setoid]]
-[[!redirects internal setoids]]
-[[!redirects setoid object]]
-[[!redirects setoid objects]]
