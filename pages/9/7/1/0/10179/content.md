@@ -32,10 +32,9 @@ For $(\mathcal{C}, \otimes)$ a small [[monoidal category]], the [[presheaf topos
 
 =--
 
-+-- {: .num_example}
-###### Example
-
-
+\begin{example}\label{SliceToposOverAMonoidObject}
+**(slice topos over a monoid object)**
+\linebreak
 For $\mathbf{H}$ a [[topos]] and $\mathbb{G} \in \mathbf{H}$ a [[monoid object]], the [[slice topos]]  $\mathbf{H}_{/\mathbb{G}}$ inherits a non-cartesian monoidal structure $\otimes_G$ induced from the product structure on $\mathbb{G}$:
 
 $$
@@ -73,13 +72,13 @@ $$
       \\
       \mathbb{G}
     }
+    \;\;\;\;
   \right]
   \,.
 $$
 
 Such monoidal toposes appear as categories of [[local action functionals]] in the context of _[[motivic quantization]]_. 
-
-=--
+\end{example}
 
 +-- {: .num_example #ClassifyingToposForTheoryOfObjects}
 ###### Example
