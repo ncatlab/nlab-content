@@ -44,7 +44,7 @@ A set with a reflexive relation is the same as a [[loop digraph object|loop]] [[
 
 * [[first law of thought]]
 
-* [[setoid]]
+* [[equivalence relation]]
 
 [[!redirects reflexive relation]]
 [[!redirects reflexive relations]]
