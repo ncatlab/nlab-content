@@ -136,10 +136,7 @@ This insight dates from the late 1970s; an early record is [Lambek & Scott 86](#
 
 (Notice that [Melliès 06](#Mellies06) on [p.2](https://hal.archives-ouvertes.fr/hal-00154243/document#page=3) does mean to regard [[λ-calculus]] as [[programming language]].)
 
-
-
-
-In [Harper 11](#Harper11) the profoundness of the trilogy inspires the following emphatic prose:
+In [Harper 11](#Harper11) the profoundness of the trilogy inspires the following emphatic prose, alluding to the doctrinal position of 'trinitarianism':
 
 > The central dogma of computational trinitarianism holds that Logic, Languages, and Categories are but three manifestations of one divine notion of computation. There is no preferred route to enlightenment: each aspect provides insights that comprise the experience of computation in our lives.
 
