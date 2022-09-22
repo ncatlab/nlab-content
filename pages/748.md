@@ -52,7 +52,7 @@ The [[duality|dual]] notion is an [[under category]].
 
 * For $X$ a [[topological space]] then the [[category of covering spaces]] over $X$ is a [[full subcategory]] of the slice category $Top_{/X}$ of the [[category of topological spaces]].
 
-* The [[fundamental theorem of topos theory]] states that the slice category for any object in a topos is itself a topos.
+* The [[fundamental theorem of topos theory]] states that the slice category over any object in a topos is itself a topos.
 
 * For a [[monoidal category]] the slice category over any [[monoid object]] is monoidal.
 
