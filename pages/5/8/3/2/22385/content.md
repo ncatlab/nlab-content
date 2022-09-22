@@ -174,7 +174,7 @@ This construction could be generalized to any [[finitely complete category]] $C$
 
 ## In type theory
 
-Many [[set-level type theories]] use [[type|types]] which are [[0-truncated]] and thus [[h-sets]] by default because of the inclusion of [[uniqueness of identity proofs]] or [[axiom K]] to the rule system of the type theory. Sometimes, these type theories do not have [[quotient set|quotients]], and as a result, setoids are used instead of the native h-sets. If there are [[propositional truncations]] in the [[type theory]], then the pseudo-equivalence relation used are sometimes actual [[equivalence relations]]. 
+Many [[set-level type theories]] use [[type|types]] which are [[0-truncated]] and thus [[h-sets]] by default because of the inclusion of [[uniqueness of identity proofs]] or [[axiom K]] to the rule system of the type theory. Sometimes, these type theories do not have [[quotient set|quotients]] and [[image factorizations]], and as a result, setoids are used instead of the native h-sets. 
 
 In [[homotopy type theory]], and more generally in any [[intensional type theory]] where not all types are [[h-sets]], such as in a type theory without [[uniqueness of identity proofs]] or [[axiom K]], the notion of "setoid" bifurcates into multiple distinct notions. In analogy with [[category]], the definitions used above in this article could be called a **strict setoid**. When the vertex types are only required to be a [[type]] rather than a [[set]], then this defines a **[[presetoid]]**. There is also the notion of a **[[univalent setoid]]**, where equality of vertices is isomorphism of vertices in the core of a presetoid. 
 
@@ -212,8 +212,6 @@ A similar result holds for [[SEAR plus epsilon|SEAR+$\epsilon$]].
 * [[univalent setoid]]
 * [[setoid object]]
 * [[completely presented set]]
-* [[monoidal setoid]]
-* [[enriched setoid]]
 
 [[!include oidification - table]]
 
