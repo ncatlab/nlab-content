@@ -17,7 +17,7 @@
 =--
 =--
 
-# Setoids
+# Contents
 * table of contents
 {: toc}
 
