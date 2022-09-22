@@ -36,6 +36,12 @@ At the time of writing (2021) most of the actual programming of [[experiment|exp
 
 ### Quantum circuit diagrams
 
+The notion of [[quantum gates]] and quantum circuits originates with:
+
+* [[David E. Deutsch]], *Quantum computational networks*, Proceedings of the Royal Society A, **425** 1868 (1989) 73-90 &lbrack;[doi:10.1098/rspa.1989.0099](https://doi.org/10.1098/rspa.1989.0099), [jstor:2398494](https://www.jstor.org/stable/2398494)
+&rbrack;
+
+
 Textbook accounts:
 
 * [[Giuliano Benenti]], [[Giulio Casati]], [[Davide Rossini]], Chapter 3 of: *Principles of Quantum Computation and Information*, World Scientific 2018  ([doi:10.1142/10909](https://doi.org/10.1142/10909), [2004 pdf](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149307696.pdf))
