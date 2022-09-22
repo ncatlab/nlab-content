@@ -116,7 +116,7 @@ $$
   }
 $$
 
-This way of composing spans lets us define a [[2-category]] [[Span]]$(C)$ with:
+This way of composing spans lets us define a [[bicategory]] [[Span]]$(C)$ with:
 
 * objects of $C$ as objects
 * spans as morphisms
@@ -126,7 +126,7 @@ This is a weak 2-category: it has a nontrivial [[associator]]: composition of sp
 
 (Note that we must choose a specific pullback when defining the composite of a pair of morphisms in $Span(C)$, if we want to obtain a [[bicategory]] as traditionally defined; this requires the [[axiom of choice]]. Otherwise we obtain a bicategory with 'composites of morphisms defined only up to canonical iso-2-morphism'; such a structure can be modeled by an [[anabicategory]] or an [[opetopic bicategory]].)
 
-By including functions as well, instead of a 2-category we obtain a [[double category]].
+By including functions as well, instead of a bicategory we obtain a [[pseudo-double category]].
 
 
 ## Properties
@@ -144,8 +144,8 @@ Next assume that $C$ is a [[cartesian monoidal category]]. Then clearly $Span_1(
 * $Span_1(C)$ is a [[dagger compact category]].
 
 
-### Universal property of the 2-category of spans
- {#UniversalPropertyOfThe2CategoryOfSpans}
+### Universal property of the bicategory of spans
+ {#UniversalPropertyOfTheBicategoryOfSpans}
 
 We discuss the [[universal property]] that characterizes 2-categories of spans. 
 
@@ -187,7 +187,7 @@ Now let
 Then: 
 
 \begin{proposition}
-**(universal property of the 2-category of spans)**
+**(universal property of the bicategory of spans)**
 \linebreak
 The following holds:
 
@@ -306,6 +306,7 @@ Generally, an [[(∞,n)-category of spans]] is indicated in section 3.2 of
 
 [[!redirects category of spans]]
 [[!redirects categories of spans]]
+[[!redirects bicategory of spans]]
 
 [[!redirects category of correspondences]]
 [[!redirects categories of correspondences]]
