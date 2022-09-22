@@ -66,7 +66,12 @@ The original formulation:
 
 * [[Tosio Kato]], *On the Adiabatic Theorem of Quantum Mechanics*, J. Phys. Soc. Jpn. **5** (1950) 435-439 ([doi:10.1143/JPSJ.5.435](https://journals.jps.jp/doi/10.1143/JPSJ.5.435))
 
-* [[Gheorghe Nenciu]], *On the adiabatic theorem of quantum mechanics*,  J. Phys. A: Math. Gen. **13** (1980) L15 ([doi:10.1088/0305-4470/13/2/002](https://iopscience.iop.org/article/10.1088/0305-4470/13/2/002))
+* [[Gheorghe Nenciu]], *On the adiabatic theorem of quantum mechanics*,  J. Phys. A: Math. Gen. **13** (1980) L15 &lbrack;[doi:10.1088/0305-4470/13/2/002](https://iopscience.iop.org/article/10.1088/0305-4470/13/2/002)&rbrack;
+
+Making explicitbthe unitary action by non-abelian [[Berry phases]]:
+
+* Gustavo Rigolin, Gerardo Ortiz, *The Adiabatic Theorem for Quantum Systems with Spectral Degeneracy*, Phys. Rev. A **85** 062111 (2012) &lbrack;[arXiv:1111.5333](https://arxiv.org/abs/1111.5333), [doi:10.1103/PhysRevA.85.062111](https://doi.org/10.1103/PhysRevA.85.062111)&rbrack;
+
 
 See also:
 
