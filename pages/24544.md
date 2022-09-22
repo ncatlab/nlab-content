@@ -22,3 +22,5 @@ Categories are called [[locally presentable]] if they are [[accessible category|
 ## Ambiguity
 
 Unfortunately, these meanings can overlap. For instance, the term "locally cartesian closed 2-category" could in theory refer either to a 2-category whose [[slice 2-categories]] are [[locally cartesian closed]], or a 2-category each of whose [[hom-categories]] are locally cartesian closed. For this reason, it is often worth considering whether a different term than "locally" may be used when naming such a concept.
+
+(In a special circumstance, namely for the [[bicategory of spans]] in some [[finitely complete category]] $E$, two of the meanings coincide, since $Span(A, B)$ is the [[slice category]] $E/(A \times B)$, and so hom-wise properties coincide with slice-wise properties.)
