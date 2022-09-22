@@ -158,13 +158,7 @@ A subgroupoid $G$ of a setoid $A$ is a maximal subgroupoid if the dagger functor
 
 ## In homotopy type theory
 
-In [[homotopy type theory]] (and more generally in any [[intensional type theory]]), in anology with [[category]], the definitions above define a [[strict setoid]]. 
-
-When the vertex types are only required to be a [[type]] rather than a [[set]], then this defines a "[[presetoid]]", and when additionally the edge types are only required to be a type, then this defines a "[[wild setoid]]". 
-
-There is also the notion of a [[univalent setoid]], which is a [[presetoid]] $A$ whose canonical functions 
-$$\mathrm{idtocorehoms}(a, b):(a =_A b) \to (a \cong_A b)$$
-from the [[identity type]] of elements $a:A$ and $b:A$ to the hom-set of $a:A$ and $b:A$ of the [[core]] [[pregroupoid]] $\mathrm{Core}(A)$ is an [[equivalence in homotopy type theory|equivalence of types]]. 
+In [[homotopy type theory]] (and more generally in any [[intensional type theory]]), in anology with [[category]], the definitions above define a *strict setoid*. When the vertex types are only required to be a [[type]] rather than a [[set]], then this defines a [[presetoid]]. There is also the notion of a [[univalent setoid]], where equality of vertices is isomorphism of vertices in the core of a presetoid. 
 
 ## Category of setoids
 
