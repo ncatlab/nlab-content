@@ -56,6 +56,8 @@ The [[duality|dual]] notion is an [[under category]].
 
 * For a [[monoidal category]] the slice category over any [[monoid object]] is monoidal.
 
+  {#MonoidalTopos} For instance, the [[slice topos]] of a given [[topos]] over any [[monoid object]] is canonically a *[[monoidal topos]]* (see the Example [there](monoidal+topos#SliceToposOverAMonoidObject)).
+
 ## Properties
 
 ### Relation to codomain fibration
