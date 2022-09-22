@@ -130,7 +130,7 @@ Regardless of Symmetry, a (quasi)-proximity space is separated iff this preorder
 
 Conversely, given a set equipped with a preorder $\leq$, let $A \;\delta\; B$ if $x \leq y$ for some $x \in A$ and some $y \in B$, or equivalently let $A \bowtie B$ if $x \leq y$ for no $x \in A$ and no $y \in B$, or equivalently let $A \ll B$ if $x \leq y$ for $x \in A$ implies $y \in B$.  Then we have a quasiproximity space which is symmetric iff $\leq$ is.
 
-In this way, we get the category $Proset$ of preordered sets as a [[reflexive subcategory]] of $QProx$, with the category $Setoid$ of [[setoids]] (sets equipped with equivalence relations) as a reflexive subcatgory of $Prox$.
+In this way, we get the category $Proset$ of preordered sets as a [[reflexive subcategory]] of $QProx$, with the category $SymPreOrd$ of [[symmetric prosets]] (sets equipped with equivalence relations) as a reflexive subcatgory of $Prox$.
 
 In [[constructive mathematics]], a quasi-proximal nearness space (despite its general unreasonableness) or neighborhood space gives rise to a preordered set as above, while a proximal apartness space yields an [[inequality relation]] that is an [[apartness relation]] if we have Local Decomposability.
 
