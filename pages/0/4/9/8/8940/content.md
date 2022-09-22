@@ -106,9 +106,9 @@ Alternatively, we could avoid the equality on objects by requiring only that eve
 
 * [[skeletal category]]
 
-* [[setoid]]
-
 * [[thin category]]
+
+* [[symmetric proset]]
 
 * [[core]]
 
