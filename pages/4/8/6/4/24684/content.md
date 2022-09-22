@@ -20,7 +20,7 @@
 
 Pseudo-preorders are to [[preorders]] as [[pseudo-equivalence relations]] are to [[equivalence relations]]. A set with a pseudo-preorder is then a pseudo-preordered set or a pseudo-proset. 
 
-Pseudo-prosets are important because they are the basic structure out of which many other structures like [[categories]] and [[setoids]] are built out of. 
+Pseudo-prosets are important because they are the basic structure used to build many other structures like [[categories]] and [[setoids]]. 
 
 ## Definition
 
@@ -30,7 +30,7 @@ Pseudo-prosets are important because they are the basic structure out of which m
 
 ### With one set
 
-A **pseudo-preorder** on a set $A$ is a set $E$ of **morphisms** and functions $s:E \to V$, $t:E \to V$ (a loop [[directed pseudograph]]), with with functions $\mathrm{id}:V \to E$ and  
+A **pseudo-preorder** on a set $A$ is a set $E$ of **morphisms** and functions $s:E \to V$, $t:E \to V$ (a loop [[directed pseudograph]]), with functions $\mathrm{id}:V \to E$ and  
 $$\mathrm{comp}:\{(f,g) \in E \times E \vert t(f) =_V s(g)\} \to E$$ 
 such that 
 
