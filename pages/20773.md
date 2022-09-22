@@ -1,7 +1,7 @@
 [[Mikio Sato]] introduced an infinite-dimensional Grassmannian in relation to the [[integrable system]]s. It gives a standard way to describe the $\tau$-[[tau-function|function]]. Constructed also by [[Graeme Segal]] and Wilson so it is often called Sato-Segal-Wilson Grassmannian.  
 
-* [[Mikio Sato|M. Sato]], _The KP hierarchy and infinite dimensional Grassmann manifolds_, Proc. Sympos. Pure Math. 49 Part 1. (pp. 51–66) Amer. Math. Soc., Providence, RI, 1989.
-* G. Segal, G. Wilson, _Loop groups and equations of KdV type_, Publ. Math. IHES __61__, 5–65 (1985)
+* [[Mikio Sato|M. Sato]], _The KP hierarchy and infinite dimensional Grassmann manifolds_, Proc. Sympos. Pure Math. 49 Part 1. (pp. 51–66) Amer. Math. Soc. 1989.
+* [[Graeme Segal]], [[George Wilson]], _Loop groups and equations of KdV type_, Publ. Math. IHÉS __61__, 5--65 (1985) [numdam](http://www.numdam.org/item/PMIHES_1985__61__5_0) [MR87b:58039](https://mathscinet.ams.org/mathscinet-getitem?mr=87b:58039) [Zbl0592.35112](https://zbmath.org/?q=an:0592.35112)
 
 Textbooks include 
 
@@ -13,15 +13,17 @@ Other references
 
 * [[Mattia Cafasso]], Chao-Zhong Wu, _Tau functions and the limit of block Toeplitz determinants_ [arxiv/1404.5149](https://arxiv.org/abs/1404.5149)
 
-> A classical way to introduce tau functions for integrable hierarchies of solitonic equationsis by means of the Sato–Segal–Wilson infinite-dimensional Grassmannian. Every point in the Grassmannian is naturally related to a [[Riemann–Hilbert problem]] on the unit circle, for which Bertola proposed a tau function that generalizes the Jimbo–Miwa–Ueno tau function for isomonodromic deformation problems. In this paper, we prove that the Sato–Segal–Wilson tau functionand the (generalized) Jimbo–Miwa–Ueno isomonodromy tau function coincide under a very general setting, by identifying each of them to the large-size limit of a block Toeplitz determinant. As an application, we give a new definition of tau function for Drinfeld–Sokolov hierarchies (and their generalizations) by means of infinite-dimensional Grassmannians, and clarify their relation with other tau functions given in the literature.
+> A classical way to introduce tau functions for integrable hierarchies of solitonic equationsis by means of the Sato–Segal–Wilson infinite-dimensional Grassmannian. Every point in the Grassmannian is naturally related to a [[Riemann–Hilbert problem]] on the unit circle, for which Bertola proposed a tau function that generalizes the Jimbo–Miwa–Ueno tau function for isomonodromic deformation problems. In this paper, we prove that the Sato–Segal–Wilson tau function and the (generalized) Jimbo–Miwa–Ueno isomonodromy tau function coincide under a very general setting, by identifying each of them to the large-size limit of a block Toeplitz determinant. As an application, we give a new definition of tau function for Drinfeld–Sokolov hierarchies (and their generalizations) by means of infinite-dimensional Grassmannians, and clarify their relation with other tau functions given in the literature.
 
 * Dinakar Muthiah, Alex Weekes, Oded Yacobi, _The equations defining affine Grassmannians in type A and a conjecture of Kreiman, Lakshmibai, Magyar, and Weyman_ [arxiv/1708.06076](https://arxiv.org/abs/1708.06076)
 
 > The affine Grassmannian of $SL_n$ admits an embedding into the Sato Grassmannian, which further admits a [[Plücker embedding]] into the projectivization of Fermion Fock space...
 
-* Maurice J. Dupré, James F. Glazebrook, Emma Previato, _A Banach algebra version of the Sato Grassmannian and commutative rings of differential operators_ Acta Appl Math (2006) 92: 241 [doi](https://doi.org/10.1007/s10440-006-9052-3); _On Banach bundles and operator-valued Baker functions_, [pdf](http://mittag-leffler.se/sites/default/files/IML-0607-12.pdf)
+* Maurice J. Dupré, James F. Glazebrook, [[Emma Previato]], _A Banach algebra version of the Sato Grassmannian and commutative rings of differential operators_ Acta Appl Math (2006) 92: 241 [doi](https://doi.org/10.1007/s10440-006-9052-3); _On Banach bundles and operator-valued Baker functions_, [pdf](http://mittag-leffler.se/sites/default/files/IML-0607-12.pdf)
 
-* Ema Previato, Mauro Spera, _Isometric embeddings of infinite-dimensional Grassmannians_, Regul. Chaot. Dyn. (2011) 16: 356 [doi](https://doi.org/10.1134/S1560354711030099)
+* [[Emma Previato]], Mauro Spera, _Isometric embeddings of infinite-dimensional Grassmannians_, Regul. Chaot. Dyn. (2011) 16: 356 [doi](https://doi.org/10.1134/S1560354711030099)
+* M. J. Dupré, J. F. Glazebrook, E. Previato, _A Banach algebra version of the Sato Grassmannian and commutative rings of differential operators_ Acta Appl. Math. __92__, 241--267 (2006) [doi](https://doi.org/10.1007/s10440-006-9052-3)
+
 [[!redirects Segal-Wilson Grassmannian]]
 [[!redirects Sato-Segal-Wilson Grassmannian]]
 [[!redirects Sato Grassmanian]]
