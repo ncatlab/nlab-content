@@ -43,7 +43,7 @@ A [[poset]] is a thin category. In particular so are [[lattice|(semi)lattices]],
 
 ## Related concepts
 
-* [[setoid]]
+* [[symmetric proset]]
 
 * [[specialization order]]
 
