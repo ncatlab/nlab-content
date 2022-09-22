@@ -38,7 +38,7 @@ is an equivalence of types.
 
 * [[loop graph]]
 * [[directed loop graph]]
-* [[setoid]]
+* [[equivalence relation]]
 * [[pregroupoid]]
 * [[precategory]]
 * [[Segal space]]
