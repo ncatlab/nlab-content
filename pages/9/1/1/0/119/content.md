@@ -135,7 +135,7 @@ This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
 
 * [[graph]], [[digraph]]
 
-* [[setoid]]
+* [[symmetric preorder]]
 
 * [[preordered object]]
 
