@@ -19,6 +19,12 @@ The principle of _identity of indiscernibles_ states that two objects are [[iden
 
 This is also known as "[[Leibniz]]'s Law" (not to be confused with the [[product rule]], also so-called).
 
+> Two terms are the same if one can be substituted for the otherwithout altering the truth of any statement. If we have $P$ and $Q$, and $P$ enters into some true proposition, and the substitution of $Q$ for $P$ wherever it appears results in a new proposition that is likewise true, and if this can be done for every proposition, then $P$ and $Q$ are said to be the same; 
+
+> conversely, if $P$ and $Q$ are the same, they can be substituted for one another.
+
+(quoted from [Gries & Schneider 1998](https://ecommons.cornell.edu/handle/1813/7340))
+
 
 ## In homotopy type theory
  {#InHomotopyTypeTheory}
@@ -45,8 +51,7 @@ Formalization in [[homotopy type theory]] is in
 
 * [Ladyman & Presnell (2016)](https://academic.oup.com/philmat/article/doi/10.1093/philmat/nkw023/2593919/Identity-in-Homotopy-Type-Theory-Part-II-The) formulate four variants of this principle in [[homotopy type theory]].
 
-* {#Favonia17} [[Favonia]], appendix B of _Higher-Dimensional Types in the
-Mechanization of Homotopy Theory_, PhD thesis 2017, ([pdf](https://www.cs.cmu.edu/~kuenbanh/files/thesis.pdf))
+* {#Favonia17} [[Favonia]], appendix B of _Higher-Dimensional Types in the Mechanization of Homotopy Theory_, PhD thesis 2017, ([pdf](https://www.cs.cmu.edu/~kuenbanh/files/thesis.pdf))
 
 
 [[!redirects identity of indiscernibles]]
