@@ -38,7 +38,7 @@ In [this paper](#Beilinson2011), Beilinson proves the following generalisation o
 +-- {: .num_theorem #Beilinson}
 ###### Theorem
 
-Let $B$ be an [[essentially small category]] and $C$ be an essentially small [[site]].  Suppose that $u : B \to C$ is a faithful functor which exhibits a [[dense subsite]], hence satisfying the following condition:
+Let $B$ be an [[essentially small category]] and $C$ be an essentially small [[site]].  Suppose that $u : B \to C$ is a faithful functor which exhibits $B$ (with the induced topology) as a [[dense subsite]] of $C$, i.e. which satisfies the following condition:
 
 (B) for every object $x \in C$ and finite family $(x \to u(a_\alpha))_\alpha$, with $a_\alpha \in B$, there exists a [[covering family]] $(u(b_\beta) \to x)_\beta$ of $x$ such that every composite $u(b_\beta) \to x \to u(a_\alpha)$ lies in the image of $\Hom(b_\beta, a_\alpha) \hookrightarrow \Hom(u(b_\beta), u(a_\alpha))$.
 
