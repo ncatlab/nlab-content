@@ -46,4 +46,4 @@ A set with a symmetric relation is the same as a [[loop digraph object|loop]] [[
 
 * [[loop graph object]]
 
-* [[setoid]]
+* [[equivalence relation]]
