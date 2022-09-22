@@ -37,7 +37,7 @@ $$\mathrm{dagger}(a, b):Hom(a, b) \to Hom(b, a)$$
 * for each object $a:A$, $b:A$, and $c:A$, a family of functions
 $$\mathrm{comp}(a, b, c):(Hom(a, b) \times Hom(b, c)) \to Hom(a, c)$$
 
-A **presetoid** $A$ consists of a type $Ob(A)$ and a pseudo-equivalence relation $(\mathrm{Hom}, \mathrm{id}, \mathrm{dagger}, \mathrm{comp})$. 
+A **presetoid** $A$ consists of a type $Ob(A)$ of **objects** and a pseudo-equivalence relation $(\mathrm{Hom}, \mathrm{id}, \mathrm{dagger}, \mathrm{comp})$. 
 
 ## Dagger functors 
 
@@ -89,7 +89,7 @@ from the [[identity type]] to the type of isomorphisms in the [[core]] [[pregrou
 $$\mathrm{idtoiso}(a, b):(a =_A b) \simeq (a \cong_A b)$$
 is an equivalence of types. 
 
-Since every type of morphisms in the core of the presetoid is a [[set]], this means that every univalent setoid is [[1-truncated]]. 
+Since every type of morphisms in the core of the presetoid is a [[h-set]], this means that every univalent setoid is an [[h-groupoid]]. 
 
 ## See also
 
