@@ -49,6 +49,10 @@ A set equipped with an equivalence relation is sometimes called a __[[setoid]]__
 
 * [[congruence]]
 
+* [[complete loop graph]]
+
+* [[stable equivalence relation]]
+
 * [[pseudo-equivalence relation]]
 
 * [[quotient equivalence relation]]
