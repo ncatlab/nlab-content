@@ -92,9 +92,9 @@ Thus, given an [[Archimedean integral domain]] $R$, an **$R$-metric** on a set $
 
 * Symmetry: $d(x, y) = d(y, x)$.
 
-This is equivalently an $(R_{\geq 0}, \geq, +, 0)$-[[enriched univalent setoid]]. 
+This is equivalently an $(R_{\geq 0}, \geq, +, 0)$-[[enriched set]]. 
 
-Given any [[Archimedean integral domain]] $R$ and an Archimedean integral subdomain $S \subseteq R$, then $S$ is an $(R_{\geq 0}, \geq, +, 0)$-enriched univalent setoid. 
+Given any [[Archimedean integral domain]] $R$ and an Archimedean integral subdomain $S \subseteq R$, then $S$ is an $(R_{\geq 0}, \geq, +, 0)$-enriched set. 
 
 ### In homotopy type theory
 
