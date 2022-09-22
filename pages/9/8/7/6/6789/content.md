@@ -25,8 +25,8 @@ Invent. Math. 147 (2) (2002) 243&#8211;348, [MR2003b:16021](http://www.ams.org/m
 * V. Ginzburg, N. Guay, E. Opdam, R. Rouquier, On the category $\mathcal{O}$ for rational Cherednik algebras, Invent. Math. __154__ (3) (2003) 617&#8211;651
 * Kevin McGerty, _Microlocal KZ functors and rational Cherednik algebras_, [arxiv/1006.1599](http://arxiv.org/abs/1006.1599)
 
-There is also a $q$-deformation:
+There is also a braided/$q$-deformation:
 
-* Yuri Bazlov, Arkady Berenstein, _Noncommutative Dunkl operators and braided Cherednik algebras_, Selecta Math. (N.S.) __14__ (2009), no. 3-4, 325&#8211;372, [pdf](http://pages.uoregon.edu/arkadiy/doubles.pdf), [MR2010k:16044](http://www.ams.org/mathscinet-getitem?mr=2511188), [doi](http://dx.doi.org/10.1007/s00029-009-0525-x) 
+* Yuri Bazlov, [[Arkady Berenstein]], _Noncommutative Dunkl operators and braided Cherednik algebras_, Selecta Math. (N.S.) __14__ (2009), no. 3-4, 325--372, [pdf](https://pages.uoregon.edu/arkadiy/doubles.pdf), [MR2010k:16044](https://mathscinet.ams.org/mathscinet-getitem?mr=2511188) [doi](https://doi.org/10.1007/s00029-009-0525-x)
 
 [[!redirects Cherednik algebra]]
