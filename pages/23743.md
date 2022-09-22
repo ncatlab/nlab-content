@@ -23,23 +23,23 @@
 
 ## Idea
 
-Similar to how an [[inequality space]] has an [[apartness relation]] whose [[negation]] implies [[equality]], a *stable setoid* ought to have a [[equivalence relation]] (i.e. setoid) whose [[double negation]] [[implication|implies]] equality. 
+Similar to how equality is stable if its [[double negation]] implies equality, an *equivalence relation* ought is **stable** if its [[double negation]] [[implication|implies]] equality. 
 
 ## Definition 
 
-In [[type theory]], a [[setoid]] $(T, \equiv)$ is **stable** if for all $a:T$ and $b:T$, $p(a, b):\neg\neg(a \equiv b) \to (a = b)$. 
+In [[set theory]], an [[equivalence relation]] $\equiv$ on a set $S$ is **stable** if for all $a \in S$ and $b \in S$, if $\neg\neg(a \equiv b)$ then $a \equiv b$. 
 
-## Properties 
+In [[type theory]], a ([[proposition]]-valued) [[equivalence relation]] $\equiv$ on a type $T$ is **stable** if for all $a:T$ and $b:T$, there is a function $p(a, b):\neg\neg(a \equiv b) \to (a \equiv b)$. 
 
-* Every stable setoid is a [[univalent setoid]], and thus a [[set]] (i.e. an [[h-set]]) with [[stable equality]]. 
+## Properties
 
-* Every stable setoid is a [[inequality space]]. 
+* The negation of every stable equivalence relation is an [[apartness relation]]. 
 
 ## See also 
 
-* [[setoid]]
+* [[equivalence relation]]
 * [[stable equality]]
 * [[inequality space]]
-* [[univalent setoid]]
+* [[univalent equivalence relation]]
 
-[[!redirects stable setoids]]
+[[!redirects stable equivalence relations]]
