@@ -163,7 +163,9 @@ There are many additional [[extra structures]] on monoidal categories, or simila
 
 * string diagrams for bicategories can be generalized to string diagrams for [[double categories]] and [[proarrow equipments]] by distinguishing between "vertical" and "horizontal" strings.
 
-* Similarly, one can [[categorification|categorify]] this to "[[surface diagrams]]" for [[3-categories]] (including [[monoidal bicategories]]) and so on; see for instance [[toddtrimble:Surface diagrams|here]].
+* One can also [[categorification|categorify]] string diagrams to "[[surface diagram|surface diagrams]]", which are dual to commutative diagrams in [[3-category|3-categories]] (including [[monoidal bicategory|monoidal bicategories]], and [[braided monoidal category|braided monoidal categories]].
+
+* Yet more generally, one can [[categorification|categorify]] string diagrams to diagrams that are dual to commutative diagrams in [[n-category|$n$-categories]], which yields the notion of [[manifold diagram|manifold $n$-diagrams]].
 
 * As explained [here](http://sbseminar.wordpress.com/2007/07/12/the-operadic-periodic-table/), in the presence of certain levels of duality it may be better to work with diagrams on cylinders or spheres rather than in boxes. This relates to [[planar algebras]] and [[canopolis|canopolises]]. 
 
