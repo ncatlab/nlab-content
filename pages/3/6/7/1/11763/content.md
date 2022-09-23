@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -19,11 +20,13 @@ The principle of _identity of indiscernibles_ states that two objects are [[iden
 
 This is also known as "[[Leibniz]]'s Law" (not to be confused with the [[product rule]], also so-called).
 
-According to [Gries & Schneider 1998](https://ecommons.cornell.edu/handle/1813/7340), Leibniz wrote the following, in translation:
+Concretely, Leibniz wrote the following, in translation (recalled e.g. in  [Cartwright 1971, p. 119](#Cartwright71); [Gries & Schneider 1998](#GriesSchneider98))
 
-> Two terms are the same if one can be substituted for the otherwithout altering the truth of any statement. If we have $P$ and $Q$, and $P$ enters into some true proposition, and the substitution of $Q$ for $P$ wherever it appears results in a new proposition that is likewise true, and if this can be done for every proposition, then $P$ and $Q$ are said to be the same; 
+> Two terms are the same if one can be substituted for the otherwithout altering the truth of any statement. If we have $P$ and $Q$, and $P$ enters into some true proposition, and the substitution of $Q$ for $P$ wherever it appears results in a new proposition that is likewise true, and if this can be done for every proposition, then $P$ and $Q$ are said to be the same; ...
 
-> conversely, if $P$ and $Q$ are the same, they can be substituted for one another.
+This paragraph of Leibniz in fact closes with a statement of the converse, often known as the "principle of substitutivity" but which may deserve to be called the *indiscernibility of identicals*:
+
+> ... conversely, if $P$ and $Q$ are the same, they can be substituted for one another.
 
 
 
@@ -43,7 +46,16 @@ A [[topology|topological]] or geometrical version of the idea of identity of ind
 
 ## References
 
+Leibniz's original statements are reproduced and discussed in:
+
+* {#Cartwright71} [[Richard Cartwright]], *Identity and Substitutivity*, p. 119-133 of: Milton Munitz (ed.) *Identity and Individuation*, New York University Press (1971) &lbrack;[[Cartwright-IdentityAndSubstitutivity.pdf:file]]&rbrack;
+
+* {#GriesSchneider98} Gries & Schneider (1998) &lbrack;[ecommons:1813/7340](https://ecommons.cornell.edu/handle/1813/7340)
+
+See also:
+
 * [Wikipedia](http://en.wikipedia.org/wiki/Identity_of_indiscernibles)
+
 * [SEP](http://plato.stanford.edu/entries/identity-indiscernible/)
 
 Formalization in [[homotopy type theory]] is in 
@@ -56,5 +68,8 @@ Formalization in [[homotopy type theory]] is in
 
 
 [[!redirects identity of indiscernibles]]
+
 [[!redirects Leibniz's Law]]
 [[!redirects Leibniz's law]]
+
+[[!redirects indiscernibility of identicals]]
