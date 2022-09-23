@@ -12,7 +12,7 @@ This page is intended to record doctoral theses whose focus is primarily categor
 |Limits in 2-categories of locally presentable categories|Greg Bird|1984|[Scan](http://science.mq.edu.au/~street/BirdPhD.pdf)| |
 |Pasting diagrams in n-categories with applications to coherence theorems and categories of paths|[[Michael Johnson]]|1988|[postscript](http://web.science.mq.edu.au/~mike/papers/0.ps)| |
 |Enriched categories, internal categories and change of base|[[Dominic Verity]]|1992|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html)| |
-|The algebra of distributive and extensive categories|[[Stephen Lack]]|1995| Unknown| | 
+|The algebra of distributive and extensive categories|[[Stephen Lack]]|1995| | | 
 |Polycategories|[[Richard Garner]]|2006|[pdf](http://web.science.mq.edu.au/~rgarner/Thesis/Thesis.pdf)| |
 
 
