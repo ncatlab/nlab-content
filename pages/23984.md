@@ -13,6 +13,8 @@
 =--
 =--
 
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -77,10 +79,17 @@ Implementation in [[Agda]]:
 
 * [[Martín Hötzel Escardó]], *Introduction to Univalent Foundations of Mathematics with Agda* &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580), [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)&rbrack;
 
-The understanding of [[Leibniz]]'s principle of "[[indiscernibility of identicals]]" as transport in [[homotopy type theory]] is made explicit in:
+The understanding of transport in HoTT as expressing [[Leibniz]]'s principle of "[[indiscernibility of identicals]]" (aka "substitution of equals", "substitutivity") has been made explicit in:
+
+* {#LadymanPresnell15} [[James Ladyman]], [[Stuart Presnell]], §6.3 in: *Identity in Homotopy Type Theory, Part I: The Justification of Path Induction*, Philosophia Mathematica **23** 3 (2015) 386–406 &lbrack;[doi:10.1093/philmat/nkv014](https://doi.org/10.1093/philmat/nkv014), [pdf](http://philsci-archive.pitt.edu/11079/1/Identity_in_HTT_public.pdf)&rbrack;
 
 * [[Benedikt Ahrens]], [[Paige Randall North]], §3.1 in: *Univalent foundations and the equivalence principle*, in: *Reflections on the Foundations of Mathematics*, Synthese Library **407** Springer (2019)  &lbrack;[arXiv:2202.01892](https://arxiv.org/abs/2202.01892), [doi:10.1007/978-3-030-15655-8](https://doi.org/10.1007/978-3-030-15655-8)&rbrack;
 
+The converse implication of  [[path induction]] from transport (together with the uniqueness principle for id-types) is made explicit in:
+
+* [Ladyman & Presnell 2015, §6.3](#LadymanPresnell15)
+
+* Lennard Götz, §4.2 of: *Martin-Löf's J-rule*, LMU (2018) &lbrack;[pdf](https://www.math.lmu.de/~petrakis/Goetz.pdf)&rbrack; 
 
 [[!redirects transports]]
 [[!redirects transporting]]
