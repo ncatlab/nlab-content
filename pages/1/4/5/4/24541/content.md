@@ -44,8 +44,6 @@ $$h \circ_{A, C, D} (g \circ_{A, B, C} f) = h \circ_{B, C, D} (g \circ_{A, B, D}
 
 Of course, the latter two axioms are actually inhabitants of the [[identity type]], hence are data included in the definition just like the first four.  However, since each $Hom(A,B)$ is a set, such equalities are (typally) unique whenever they exist, so in most cases their presence as data can be ignored.
 
-Equivalently, a **precategory** is a locally univalent [[(2,1)-preorder]]. 
-
 ### With one type of morphism
 
 A **precategory** $\mathcal{C}$ consists of 
@@ -54,11 +52,17 @@ A **precategory** $\mathcal{C}$ consists of
 
 * a type $Mor(C)$ of __[[morphisms]]__ (or __arrows__);
 
-* functions $s:Mor(C) \to Ob(C)$, called the __[[source]]__ or __domain__, and $t:Mor(C) \to Ob(C)$, called its __[[target]]__ or __codomain__,
+* functions $s:Mor(C) \to Ob(C)$, called the __[[source]]__ or __domain__, and $t:Mor(C) \to Ob(C)$, called its __[[target]]__ or __codomain__, such that $s$ and $t$ are jointly 0-truncated: the type of functions $u:Mor(C) \to (Ob(C) \times Ob(C))$ such that the following conditions are met:
 
-* such that $s$ and $t$ are jointly 0-truncated: there exists a function $u:Mor(C) \to (Ob(C) \times Ob(C))$ such that the fibers of $u$ at each pair of objects $a:Ob(C) \times Ob(C)$ is a set
-$$\prod_{f:Mor(C)} \mathrm{isSet}\left(\sum_{a:Ob(C) \times Ob(C)} u(f) = a\right)$$
-and for the universal product projection functions $\pi_1:(Ob(C) \times Ob(C)) \to Ob(C)$ and $\pi_2:(Ob(C) \times Ob(C)) \to Ob(C)$ out of the product type and for every morphism $f:Mor(C)$, there are identifications $\mathrm{leftuniversal}(f):\pi_1(u(f)) = s(f)$ and $\mathrm{rightuniversal}(f):\pi_2(u(f)) = t(f)$. This recalls the definition of a [[preorder]], where the source and target functions are required to be [[jointly monic]], i.e. jointly (-1)-truncated;
+  * the fibers of $u$ at each pair of objects $a:Ob(C) \times Ob(C)$ is a set 
+
+  * for the universal product projection functions $\pi_1:(Ob(C) \times Ob(C)) \to Ob(C)$ and $\pi_2:(Ob(C) \times Ob(C)) \to Ob(C)$ out of the product type and for every morphism $f:Mor(C)$, there are identifications $\mathrm{leftuniversal}(f):\pi_1(u(f)) = s(f)$ and $\mathrm{rightuniversal}(f):\pi_2(u(f)) = t(f)$
+
+is contractible:
+
+$$\mathrm{isContr}\left(\sum_{u:Mor(C) \to (Ob(C) \times Ob(C))} \prod_{f:Mor(C)} \mathrm{isSet}\left(\sum_{a:Ob(C) \times Ob(C)} u(f) = a\right) \times (\pi_1(u(f)) = s(f)) \times \pi_2(u(f)) = t(f)))\right)$$
+
+This recalls the definition of a [[preorder]], where the source and target functions are required to be [[jointly monic]], i.e. jointly (-1)-truncated;
 
 * a function 
 $$(-) \circ (-): \left(\sum_{f:Mor(C)} \sum_{g:Mor(C)} t(f) = s(g)\right) \to Mor(C)$$ 
@@ -85,6 +89,8 @@ called __composition__;
 * The definition of precategory is evidently a type-theoretic notion of the definition of category with [[category#AFamilyOfCollectionsOfMorphisms|a family of collections of morphisms]].  An equivalent definition analogous to the definition of category with [[category#OneCollectionOfMorphisms|one collection of morphisms]] could be given, but it would be much less convenient to use.  In particular, the "type of all morphisms" $\sum_{A,B:Ob(\mathcal{C})} Hom(A,B)$ in a precategory is *not* itself a set, since it can incorporate nontrivial identifications from $Ob(\mathcal{C})$; the "hom-types are sets" condition in a one-type-of-morphisms definition of precategory would have to be stated as "the function $\mathcal{C}_1 \to \mathcal{C}_0$ is 0-truncated" (i.e. its fibers are sets).
 
 ## Properties
+
+Every **precategory** is a locally univalent [[(2,1)-preorder]]. 
 
 In [[univalent type theory]] there is a [[structure identity principle]] for precategories:
 
