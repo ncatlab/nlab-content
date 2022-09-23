@@ -20,9 +20,25 @@ The principle of _identity of indiscernibles_ states that two objects are [[iden
 
 This is also known as "[[Leibniz]]'s Law" (not to be confused with the [[product rule]], also so-called).
 
-Concretely, Leibniz wrote the following, in translation (recalled e.g. in  [Cartwright 1971, p. 119](#Cartwright71); [Gries & Schneider 1998](#GriesSchneider98))
+\begin{imagefromfile}
+    "file_name": "LeibnizOnIndiscernibles-Phil7SecXIX.jpg",
+    "float": "right",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 20
+    },
+    "caption": "From [Gerhard 1890, p. 288](#Gerhard1890)"
+\end{imagefromfile}
 
-> Two terms are the same if one can be substituted for the otherwithout altering the truth of any statement. If we have $P$ and $Q$, and $P$ enters into some true proposition, and the substitution of $Q$ for $P$ wherever it appears results in a new proposition that is likewise true, and if this can be done for every proposition, then $P$ and $Q$ are said to be the same; ...
+
+{#LeibnizWroteTheFollowing} Concretely, Leibniz wrote the following,  (in translation from [Lewis 1918, p. 373](#Lewis18) with original Latin terms in parenthesis; see also [Cartwright 1971, p. 119](#Cartwright71) and [Gries & Schneider 1998](#GriesSchneider98)):
+
+
+> Two terms are the *same* (*eadem*) if one can be substituted for the otherwithout altering the truth of any statement (*salwa veritate*). If we have $P$ and $Q$, and $P$ enters into some true proposition, and the substitution of $Q$ for $P$ wherever it appears results in a new proposition that is likewise true, and if this can be done for every proposition, then $P$ and $Q$ are said to be the same; ...
 
 This paragraph of Leibniz in fact closes with a statement of the converse, often known as the "principle of substitutivity" but which may deserve to be called the *indiscernibility of identicals*:
 
@@ -43,10 +59,22 @@ In the presence of an [[identity type]], identity of indiscernibles is trivial b
 
 A [[topology|topological]] or geometrical version of the idea of identity of indiscernibles is [[separation axioms|separation]]: if two points are distinct, then they are separated in some sense. This means in turn that if two points in a space subject to a given separation axiom can not be separated by any admissible separation condition then they are identical.
 
+## Related entries
+
+* [[first law of thought]]
+
 
 ## References
 
-Leibniz's original statements are reproduced and discussed in:
+Leibniz's original paragraph (from an unpublished manuscript probably written after 1683) is reproduced in the Latin Original in
+
+* {#Gerhard1890} K. Gerhard (ed.), Section XIX, [p. 228](https://archive.org/details/diephilosophisc00gerhgoog/page/228/mode/2up) in: *Die philosophischen Schriften von Gottfried Wilhelm Leibniz*, Siebenter Band, Weidmannsche Buchhandlung (1890) &lbrack;[archive.org](https://archive.org/details/diephilosophisc00gerhgoog/page/n7/mode/2up)&rbrack;
+
+and in English translation in:
+
+* {#Lewis18} [[Clarence I. Lewis]], Appendix (p. 373) of: *A Survey of Symbolic Logic*, University of California (1918) &lbrack;[[LewisAppendix-LeibnizIndiscernibles.pdf:file]]&rbrack;
+
+and further discussed in:
 
 * {#Cartwright71} [[Richard Cartwright]], *Identity and Substitutivity*, p. 119-133 of: Milton Munitz (ed.) *Identity and Individuation*, New York University Press (1971) &lbrack;[[Cartwright-IdentityAndSubstitutivity.pdf:file]]&rbrack;
 
