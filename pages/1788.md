@@ -26,7 +26,7 @@ play around with the editing functionality
 \begin{defn}(Title of defn). \label{defn_anchor} {#html_anchor} The **sandbox** is a box full of sand.
 \end{defn}
 
-One usually defines waterboxes analogous to  [[Sandbox#defn_anchor|this Definition]] (which could be on another page).
+One usually defines *waterboxes* analogous to  [[Sandbox#defn_anchor|this Definition]] (which could be on another page).
 
 ## A sandtable
 
@@ -49,6 +49,8 @@ How to do a list
 
 ## Figures
 
+make a responsive figure (that scales, but not too much):
+
 <center>
 <figure>
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Hopf_Fibration.png/500px-Hopf_Fibration.png" alt="" style="width:80%; max-width: 400px; height:auto;">
@@ -56,6 +58,9 @@ How to do a list
 </figure>
 </center>
 
+## Formulas
+
+a $a \text{<} b$
 
 ## LaTeX punctuation
 
