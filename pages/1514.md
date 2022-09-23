@@ -215,7 +215,7 @@ The single major insight into the right [[higher category theory|higher categori
 
 * [[Dan Freed]]
 
-  * _Quantum groups from path integrals_ ([arXiv:q-alg/9501025](http://xxx.lanl.gov/abs/q-alg/9501025))
+  * _Quantum groups from path integrals_ ([arXiv:q-alg/9501025](https://arxiv.org/abs/q-alg/9501025))
 
   * _[[Higher Algebraic Structures and Quantization]]_ ([arXiv:hep-th/9212115](http://arxiv.org/abs/hep-th/9212115))
 
