@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Contents
 * table of contents
 {: toc}
@@ -40,7 +39,7 @@ This is also known as "[[Leibniz]]'s Law" (not to be confused with the [[product
 
 > Two terms are the *same* (*eadem*) if one can be substituted for the otherwithout altering the truth of any statement (*salwa veritate*). If we have $P$ and $Q$, and $P$ enters into some true proposition, and the substitution of $Q$ for $P$ wherever it appears results in a new proposition that is likewise true, and if this can be done for every proposition, then $P$ and $Q$ are said to be the same; ...
 
-This paragraph of Leibniz in fact closes with a statement of the converse, often known as the "principle of substitutivity" but which may deserve to be called the *indiscernibility of identicals*:
+This paragraph of Leibniz in fact closes with a statement of the converse, often known as the "[[principle of substitutivity]]" but which may deserve to be called the *indiscernibility of identicals*:
 
 > ... conversely, if $P$ and $Q$ are the same, they can be substituted for one another.
 
@@ -63,6 +62,7 @@ A [[topology|topological]] or geometrical version of the idea of identity of ind
 
 * [[first law of thought]]
 
+* [[transport]]
 
 ## References
 
@@ -107,5 +107,3 @@ See also:
 
 [[!redirects Leibniz's Law]]
 [[!redirects Leibniz's law]]
-
-[[!redirects indiscernibility of identicals]]
