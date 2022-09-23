@@ -16,7 +16,6 @@
 
 A _directed topological space_ is a [[topological space]] $X$ in which there is some 'sense of direction'. This can happen in various different ways and the level of the 'directedness' can be different in different situations, so naturally there are several 'competing' ideas, but the beginning of a consensus on what the overarching idea is.
 
-
 If one bases homotopy theory on the idea of a [[singular simplex]] or more generally a singular cell of any shape, then there is no way in which a 'sense of direction' can be encode.  If we have a path in a space we can go along it (traverse it) in either direction, from 0 to 1 or from 1 to 0.  From this perspective a directed space is one in which not every singular cell $\Delta^n \to X$ (for $\Delta^n$ the standard topological [[simplex]]) is supposed to be _traversable_ in all directions, in some sense: instead these $k$-dimensional _paths_ may have a _direction_ .
 
 As an example one can base the 'sense of direction' on a closed [[preorder]] or [[partial order]], (that is a [[pospace]]),so that the paths from the directed interval $[0,1]$ with the usual order to the space $X$, can only be 'traversed' in one direction. Another example which does not fit into this first type would be the directed circle.
@@ -41,7 +40,7 @@ As an example one can base the 'sense of direction' on a closed [[preorder]] or 
      id="defs2385">
     <marker
        inkscape:stockid="Arrow1Lstart"
-       orient="auto"
+       orient="90deg"
        refY="0"
        refX="0"
        id="Arrow1Lstart"
@@ -101,13 +100,11 @@ As an example one can base the 'sense of direction' on a closed [[preorder]] or 
 </svg>
 In other words, a circle with direction determined by the anticlockwise sense. Again it is easy to see that there are certain paths that respect the direction, 'directed paths' whilst others do not. 
 
-
-So far there exists a well-developed theory for a notion of _directed spaces_ $X$ where 1-dimensional paths given by maps $[0,1] \to X$ from the [[interval]] into the space are equipped with a direction. See in particular the book by  [[Marco Grandis]] on [[Directed Algebraic Topology]] listed below. 
+So far there exists a well-developed theory for a notion of _directed spaces_ $X$ where 1-dimensional paths given by maps $[0,1] \to X$ from the [[interval]] into the space are equipped with a direction. See in particular the book by  [[Marco Grandis]] on [[Directed Algebraic Topology]] listed below. Another suggested notion for modelling directed spaces is that of _framed spaces_, which is tailored towards certain higher categorical applications.
 
 Note that a directed space is like a generalised space; not every directed space need be a space in the traditional sense, in accordance with the [[red herring principle]]. As an instance of this, note that [[Marco Grandis]] in his book [[Directed Algebraic Topology]] handles the directed homotopy of small categories, and of cubical complexes, since this is useful for comparison an interpretation of directed homotopy 'invariants'.
 
 Directed spaces are studied in [[directed homotopy theory]], a relatively young topic. In generalization of how a [[topological space]] has a [[fundamental groupoid]], a [[directed space]] has a [[fundamental category]].
-
 
 
 
@@ -132,7 +129,9 @@ See [[(n,r)-category]] for more on that.
 =--
 
 
-## Definition
+## Variants
+
+### $d$-Spaces
 
 A **directed topological space** or **d-space** is pair $(X, d X)$ consisting of a [[topological space]] $X$ and a subset $d X \subset C(I,X)$ of continuous maps from the interval $I = [0,1]$ into $X$ -- called _directed paths_ or d-paths -- satisfying the following conditions:
 
@@ -147,6 +146,15 @@ $$(a+b)(t) = a(2t),\,\text{if}\, 0\le t\le \frac{1}{2},$$
 $$(a+b)(t) = b(2t-1),\,\text{if}\, \frac{1}{2}\le t\le 1.$$
 
 A **morphism of directed topological spaces**  $f : (X, d X)\to (Y , d Y)$ is a morphism of topological spaces $f: X \to Y$ which preserves directed paths in that for every $\gamma: I \to X$ in $d X$ the path $f_* \gamma : I \stackrel{\gamma}{\to} X \stackrel{f}{\to} Y$ is in $d Y$.
+
+\begin{example} Basic examples of $d$-spaces include:
+
+* The _standard directed interval_ is $I_d = ([0,1], d I)$ with $d I$ the set of all _monotonic_ continuous maps $[0,1] \to [0,1]$ is a d-space
+
+* Any [[pospace]] $X$ gives rise to a d-space by taking the directed paths to be, well, directed paths, i.e. continuous order-preserving maps from $I_d$ to $X$.
+
+Many other example can be found in the references.
+\end{example}
 
 
 ### Streams
@@ -166,12 +174,44 @@ _Remarks_
 * The category of streams has good properties. In particular, there is an further notion of compactly flowing streams_ extending the notion of compactly generated Hausdorff spaces, and indeed the forgetful functor creates limits and colimits.
 * The category of compactly flowing streams is Cartesian closed.
 
+### Framed spaces {#framed_spaces}
 
-## Examples
+Another way to endow spaces with directions is via [[frame of a vector space|framings]], i.e. choices of a "basis of the vector space of tangential directions at each point". Somewhat abstracting this idea, frames may also be thought about in terms of [[projection#in_linear_algebra|projections]], as the following remark motivates.
 
-* The _standard directed interval_ is $I_d = ([0,1], d I)$ with $d I$ the set of all _monotonic_ continuous maps $[0,1] \to [0,1]$.
+\begin{rmk} Let $V$ be an $n$-dimensional [[vector space]] with an [[inner product]] $g$. The following structures on $V$ are equivalent.
 
-* Any [[pospace]] $X$ gives rise to a directed space by taking the directed paths to be, well, directed paths, i.e. continuous order-preserving maps from $I_d$ to $X$.
+* An orthonormal frame of $V$, i.e. an ordered sequence of vectors $v_i$, $1 \leq i \leq n$, such that  $g(v_i,v_j)=\delta_{ij}$.
+* A sequence of surjections $V_i \to V_{i-1}$, $1 \leq i \leq n$, where $V_i$ is an oriented $i$-dimensional vector space (and $V_n = V$).
+
+The two structures are related by setting $v_i$ to be the unit vector spanning $\ker(V_i \to V_{i-1})$ such that $V_{i-1} \oplus v_i$ recovers the orientation of $V_i$ (note that all $V_i$ canonically embed in $V$ as the orthogonal complement of the kernel of the composite map $V \to V_i$).
+
+In the absence of inner products, one cannot speak of orthonormal frames any longer. However, sequences of projections can still be defined, and may be regarded as playing the role of "metric-free orthonormal" frames. (A vaguely analogous line of thinking is that a [[Morse function]] $M \to \mathbb{R}$ provides useful "direction" information on $M$, e.g. for the construction of handlebodies, that is ultimately independent from any chosen metric on $M$.) Moreover, this approach offers room for generalization by varying the length of the projection sequence and the vector space dimensions.
+\end{rmk}
+
+\begin{example} The standard orthonormal frame of $n$-dimensional euclidean space $\mathbb{R}^n$ consists for the ordered sequence of vectors $e_1 = (1,0,...,0)$, $e_2 = (0,1,0,...,0)$, ..., $e_n = (0,...,0,1)$. By the previous remark, this orthonormal frame is equivalently described by the sequence of projections $\pi_i : \mathbb{R}^i = \mathbb{R}^{i-1} \times \mathbb{R} \to \mathbb{R}^{i-1}$ (each $\mathbb{R}^i$ being endowed with standard orientation).
+\end{example}
+
+When forgetting basepoints, then the previous remark and example equally apply to [[affine space|affine spaces]], now endowing each point in the space with a basis of frames. Using affine standard framed $\mathbb{R}^n$ as our local model for framed spaces, one may define global framed (and thereby, directed) spaces and their maps as follows.
+
+\begin{defn} \label{defn:framed-space} Let $X$ be a (convenient) topological space. Fix $n \in \mathbb{N}$ and denote by $\pi_{\gt i}$ the projection $\mathbb{R}^i \times \mathbb{R}^{n-i} \to \mathbb{R}^i$.
+
+* An *$n$-framed chart* $(U,\gamma)$ in $X$ is an embedding $\gamma : U \hookrightarrow \mathbb{R}^n$ of a subspace $U \subset X$. If $U' \subset U$, then $\gamma$ restricts to the *restricted chart* $(U',\gamma)$.
+* Given two $n$-framed charts $(U,\gamma)$, $(V,\rho)$ in spaces $X$ resp. $Y$, a map $F : X \to Y$ is said to be *framed* on the given charts, if it restricts to a map $F : U \to V$ such that, for all $i$, there is a continuous map $F_i : \pi_{\gt i}(U) \to \pi_{\gt i}(V)$ making $\pi_{\gt i} \circ \rho \circ F = F_i \circ \pi_{\gt i} \circ \gamma$ commute.
+* Two $n$-framed charts $(U,\gamma)$, $(V,\gamma')$ in $X$ are *framed compatible* if $\mathrm{id} : X = X$ is a framed map on the restricted charts $(U \cap V, \gamma)$ resp. $(U \cap V,\gamma')$.
+
+An *$n$-framing structure* on $X$ is an "atlas" $\mathcal{A}$ of framed compatible charts $\{(U_i,\gamma_i)\}$ such that the subspaces $U_i$ are a locally finite compact cover of $X$. An **$n$-framed space** is a space endowed with an $n$-framing structure.
+\end{defn}
+
+\begin{rmk} The condition for covers to be locally finite and compact is convenient as it precisely describes the situation of locally finite [[cell complex|cell complexes]], however, the condition may be weakened/amended in several ways.
+\end{rmk}
+
+\begin{defn} Given spaces with $n$-framing structure $(X,\mathcal{A})$, $(Y,\mathcal{B})$ then a map $F : X \to Y$ is said to be a **framed map** if for each point $x \in X$, denoting by $(U_i,\gamma_i) \in \mathcal{A}$ the charts containing $x$ and by $(V_j,\rho_j) \in \mathcal{B}$ the charts containing $F(x)$, the map $F : (U_i \cap F^{-1}(V_j), \gamma_i) \to (V_j,\rho_j)$ is framed (for all $i,j$).
+\end{defn}
+
+Framed spaces and framed maps are, in a sense, "very rigid" variants of directed spaces. Nonetheless, they are interesting to study as they turn out to have a rich [[framed combinatorial topology|combinatorial theory associated to them]]. This combinatorial counterpart is particular useful when translating between the topology of directed spaces and the combinatorics of higher categories: an example of this is the definition of [[manifold diagram|manifold diagrams]] in the language of framed spaces.
+
+
+
 
 
 ## Remarks
@@ -192,14 +232,13 @@ _Toby_: I don\'t think that you need internal homs and all that.  But see my edi
 
 ## References
 
-The above definition is from
+The above definition of $d$-spaces is from
 
 * [[Marco Grandis]], _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
 
 This has now developed into a book
 
 * [[Marco Grandis]], _[[Directed Algebraic Topology]], Models of non-reversible worlds_ , Cambridge University Press, 2009.
-
 
 A discussion of reparameterization of directed paths in directed topological spaces is in
 
@@ -208,6 +247,15 @@ A discussion of reparameterization of directed paths in directed topological spa
 Further references are given in [[directed homotopy theory]].
 
 * Emmanuel Haucourt, [_Streams, d-Spaces and Their Fundamental Categories_, Electronic Notes in Theoretical Computer Science, Volume 283, 15 June 2012, Pages 111-151](https://doi.org/10.1016/j.entcs.2012.05.008)
+
+For framed spaces see:
+
+* {#DornDouglas21} Christoph Dorn and Christopher Douglas, _Framed combinatorial topology_, 2021 ([pdf](https://cxdorn.github.io/assets/pdfs/fct_latest.pdf))
+
+* {#DornDouglas22B} Christoph Dorn and Christopher Douglas, _A brief introduction to framed combinatorial topology_, 2022 ([pdf](https://cxdorn.github.io/assets/pdfs/fctintro_latest.pdf))
+
+
+
 
 ## Discussion
 
