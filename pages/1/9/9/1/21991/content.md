@@ -37,6 +37,8 @@ There is a [[distributive law]] $T J_S \Rightarrow J_S T$ for every strong monad
 
 ## References
 
+* §2.5 of Kieburtz, Richard B., Borislav Agapiev, and James Hook. _Three monads for continuations_. Oregon Graduate Institute of Science and Technology, Department of Computer Science and Engineering, 1992.
+
 * [[Martín Escardó]] and Paulo Oliva, _Selection Functions, Bar Recursion, and Backward Induction_, Mathematical Structures in Computer Science, 20(2):127–168, 2010, ([pdf](https://www.cs.bham.ac.uk/~mhe/papers/selection-escardo-oliva.pdf))
 
 * [[Martín Escardó]] and Paulo Oliva, _What Sequential Games, the Tychonoff Theorem and the Double-Negation Shift have in Common_, ([pdf](https://www.cs.bham.ac.uk/~mhe/papers/msfp2010/Escardo-Oliva-MSFP2010.pdf))
