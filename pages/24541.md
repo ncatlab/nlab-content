@@ -28,6 +28,8 @@ Alternative notions of "1-category" in homotopy type theory include [[strict cat
 
 ## Definition
 
+### With a family of morphisms
+
 A **precategory** $\mathcal{C}$ consists of 
 
 * a [[type]] of [[objects]] $Ob(\mathcal{C})$, 
@@ -43,6 +45,38 @@ $$h \circ_{A, C, D} (g \circ_{A, B, C} f) = h \circ_{B, C, D} (g \circ_{A, B, D}
 Of course, the latter two axioms are actually inhabitants of the [[identity type]], hence are data included in the definition just like the first four.  However, since each $Hom(A,B)$ is a set, such equalities are (typally) unique whenever they exist, so in most cases their presence as data can be ignored.
 
 Equivalently, a **precategory** is a locally univalent [[(2,1)-preorder]]. 
+
+### With one type of morphism
+
+A **precategory** $\mathcal{C}$ consists of 
+
+* a [[type]] $Ob(C)$ of __[[objects]]__;
+
+* a type $Mor(C)$ of __[[morphisms]]__ (or __arrows__);
+
+* functions $s:Mor(C) \to Ob(C)$, called the __[[source]]__ or __domain__, and $t:Mor(C) \to Ob(C)$, called its __[[target]]__ or __codomain__,
+
+* such that $s$ and $t$ are jointly 0-truncated: there exists a function $u:Mor(C) \to (Ob(C) \times Ob(C))$ such that the fibers of $u$ at each pair of objects $a:Ob(C) \times Ob(C)$ is a set
+$$\prod_{f:Mor(C)} \mathrm{isSet}\left(\sum_{a:Ob(C) \times Ob(C)} u(f) = a\right)$$
+and for the universal product projection functions $\pi_1:(Ob(C) \times Ob(C)) \to Ob(C)$ and $\pi_2:(Ob(C) \times Ob(C)) \to Ob(C)$ out of the product type and for every morphism $f:Mor(C)$, there are identifications $\mathrm{leftuniversal}(f):\pi_1(u(f)) = s(f)$ and $\mathrm{rightuniversal}(f):\pi_2(u(f)) = t(f)$. This recalls the definition of a [[preorder]], where the source and target functions are required to be [[jointly monic]], i.e. jointly (-1)-truncated;
+
+* a function 
+$$(-) \circ (-): \left(\sum_{f:Mor(C)} \sum_{g:Mor(C)} t(f) = s(g)\right) \to Mor(C)$$ 
+called __composition__;
+
+* a function $id:Ob(C) \to Mor(C)$, called the __identity__;
+
+*  such that the following properties are satisfied:
+
+   *  source and target are respected by composition: $s(g \circ f) = s(f)$ and $t(g\circ f) = t(g)$;
+
+   *  source and target are respected by identities: $s(1_x) = x$ and $t(1_x) = x$;
+
+   *  composition is [[associative]]:
+      $(h \circ g)\circ f = h\circ (g \circ f)$ whenever $t(f) = s(g)$ and $t(g) = s(h)$;
+
+   *  composition satisfies the [[unit law|left and right unit laws]]:
+      if $s(f) = x$ and $t(f) = y$, then $1_y \circ f = f = f \circ 1_x$.
 
 ## Remarks
 
