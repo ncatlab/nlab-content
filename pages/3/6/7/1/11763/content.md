@@ -19,11 +19,12 @@ The principle of _identity of indiscernibles_ states that two objects are [[iden
 
 This is also known as "[[Leibniz]]'s Law" (not to be confused with the [[product rule]], also so-called).
 
+According to [Gries & Schneider 1998](https://ecommons.cornell.edu/handle/1813/7340), Leibniz wrote the following, in translation:
+
 > Two terms are the same if one can be substituted for the otherwithout altering the truth of any statement. If we have $P$ and $Q$, and $P$ enters into some true proposition, and the substitution of $Q$ for $P$ wherever it appears results in a new proposition that is likewise true, and if this can be done for every proposition, then $P$ and $Q$ are said to be the same; 
 
 > conversely, if $P$ and $Q$ are the same, they can be substituted for one another.
 
-(quoted from [Gries & Schneider 1998](https://ecommons.cornell.edu/handle/1813/7340))
 
 
 ## In homotopy type theory
