@@ -28,9 +28,9 @@ In [[computer science]] this [[monad (in computer science)]] is used to model [[
 
 * [[extensive quantity]]
 
-* [[selection monad]]
-
 ## Related concepts
+
+* [[selection monad]]
 
 * [[continuation-passing style]]
 
