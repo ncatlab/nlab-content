@@ -30,7 +30,7 @@ It is closely related to the [[de Donder-Weyl formalism]] of [[variational calcu
 ### From the $n$POV
 
 We comment a bit on how to, presumably, think of multisymplectic geometry 
-from the [[nPOV]], in the context of [[higher geometric quantization]]. Readers may want to skip ahead to traditional technical discussion at _[Extended phase space](#extended phase space)_.
+from the [[nPOV]], in the context of [[higher geometric quantization]]. Readers may want to skip ahead to traditional technical discussion at _[Extended phase space](#extendedphasespace)_.
 
 +-- {: .standout}
 
@@ -57,7 +57,7 @@ By effectively undoing this implicit transgression in the ordinary [[Hamiltonian
 
 
 ## Extended phase spaces in covariant field theory 
- {#extended phase space}
+ {#extendedphasespace}
 
 We discuss here the refinement in multisymplectic geometry of the [[covariant phase spaces]] of [[classical field theory]]/[[prequantum field theory]] from ([[presymplectic manifold|pre]]-)[[symplectic manifolds]] of initial value data in a [[Cauchy surface]] to multisymplectic manifolds of local initial value data.
 
@@ -68,7 +68,7 @@ Recall that an ordinary [[phase space]] of a [[physical system]] is a [[symplect
 
 * a state of the theory "at that event".
 
-So **extended phase spaces _localizes_ the information about states** : a point in here encodes not just the entire state of the system, but remembers explcitly what that state is like over any point in parameter space.
+So **extended phase spaces _localizes_ the information about states** : a point in here encodes not just the entire state of the system, but remembers explicitly what that state is like over any point in parameter space.
 
 ### Covariant configuration bundle
 
@@ -94,8 +94,7 @@ into some prescribed **[[target space]]** $X$. This is the case where $E = \Sigm
 
 Beware of the standard source of confusion here when correlating this formalism with actual physics: the physical [[spacetime]] that we inhabit may be given either by $\Sigma$ or by $X$:
 
-* in the description of the [[quantum mechanics]] of objects propagating _in_ our physical [[spacetime]], subject to [[forces]] exerted by fixed 
-[[background gauge fields]] (such as electrons propagating in our particle accelerator, subject to the electromagnetic field in the accelerator tube), physical spacetime is identifid with target space $X$, while $\Sigma$ is the **worldvolume** of the object that propagates through $X$. The _field configurations_ on $\Sigma$ are really the maps $\Sigma \to X$ that determine how the object sits in spacetime.
+* in the description of the [[quantum mechanics]] of objects propagating _in_ our physical [[spacetime]], subject to [[forces]] exerted by fixed [[background gauge fields]] (such as electrons propagating in our particle accelerator, subject to the electromagnetic field in the accelerator tube), physical spacetime is identified with target space $X$, while $\Sigma$ is the **worldvolume** of the object that propagates through $X$. The _field configurations_ on $\Sigma$ are really the maps $\Sigma \to X$ that determine how the object sits in spacetime.
 
 * in quantum mechanics of fields on spacetime, such as the quantized electromagnetic field in a laser, it is $\Sigma$ which represents physical spacetime, and $X$ is some abstract space, for instance a smooth version of the [[classifying space]] $\mathcal{B}U(1)$, so that a field configuration $\Sigma \to X$ encodes a [[line bundle]] [[connection on a bundle|with connection]] that encodes a configuration of the [[electromagnetic field]].
 
@@ -744,7 +743,7 @@ A comprehensive source on covariant field theory with plenty of further referenc
 
 * Mark J. Gotay, James Isenberg, [[Jerrold Marsden]], Richard Montgomery, _Momentum maps and classical relativistic fields. Part I: covariant field theory_ ([arXiv:physics/9801019](http://arxiv.org/abs/physics/9801019))
 
-Much of the material in the [section on covariant field theory](#extended phase space) is based on this.
+Much of the material in the [section on covariant field theory](#extendedphasespace) is based on this.
 
 Other discussions include
 
