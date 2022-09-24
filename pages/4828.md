@@ -109,7 +109,7 @@ It seems unlikely that these desiderata can be reconciled purely in the world of
 
 * Alan Jeffrey, _Premonoidal categories and a graphical view of programs,_ [pdf file](http://fpl.cs.depaul.edu/ajeffrey/papers/premonA.pdf)
 
-* {#SL13} Sam Staton and Paul Blain Levy, *Universal Properties of Impure Programming Languages*.  ACM Sigplan Notices, 2013, [doi](https://doi.org/10.1145/2480359.2429091).
+* {#SL13} [[Sam Staton]] and Paul Blain Levy, *Universal Properties of Impure Programming Languages*.  ACM Sigplan Notices, 2013, [doi](https://doi.org/10.1145/2480359.2429091).
 
 [[!redirects premonoidal category]]
 [[!redirects premonoidal categories]]
