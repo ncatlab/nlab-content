@@ -186,7 +186,7 @@ $$
 
 ### Relation to deformation quantization
 
-There does not seem to be in the literazure a precise relation between the methods of [[geometric quantization]] discussed here and methods of [[deformation quantization]]. But the following similarity might be relevant:
+There does not seem to be in the literature a precise relation between the methods of [[geometric quantization]] discussed here and methods of [[deformation quantization]]. But the following similarity might be relevant:
 
 If the task is to quantize a [[Poisson manifold]], then both methods, [[Maxim Kontsevich]]'s construction of [[deformation quantization]] as well as [[Eli Hawkins]]' geometric quantization pass through a [[n-plectic geometry|2-plectic geometry]] on the [[Poisson Lie algebroid]] which is induced by the Poisson manifold; Kontsevich's construction of the [[star product]], as clarified by Cattaneo and Felder, is really that of the 3-point function in the 2-dimension [[sigma-model]] QFT whose [[target space]] is that Poisson Lie algebroid -- the [[Poisson sigma-model]] --, and the symplectic 2-groupoid that Hawkins et al consider is the 
 "extended" geometric quantization over the as in [[extended prequantum field theory]] associated with this theory.
