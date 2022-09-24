@@ -17,38 +17,45 @@
 
 The principle of _identity of indiscernibles_ states that two objects are [[identical]] if they have all the same [[properties]].
 
-This is also known as "[[Leibniz]]'s Law" (not to be confused with the [[product rule]], also so-called).
+This is also known as "Leibniz's Law", in honor of [[Gottfried Leibniz]] (not to be confused with his [[product rule]], also so-called).
 
 \begin{imagefromfile}
     "file_name": "LeibnizOnIndiscernibles-Phil7SecXIX.jpg",
     "float": "right",
-    "width": 400,
+    "width": 490,
     "unit": "px",
     "margin": {
         "top": -40,
         "bottom": 20,
         "right": 0, 
-        "left": 20
+        "left": 40
     },
-    "caption": "From [Gerhard 1890, p. 288](#Gerhard1890)"
+    "caption": "G. W. Leibniz around 1700, from [Gerhard 1890, p. 288](#Gerhard1890)"
 \end{imagefromfile}
 
 
 {#LeibnizWroteTheFollowing} Concretely, Leibniz wrote the following,  (in translation from [Lewis 1918, p. 373](#Lewis18) with original Latin terms in parenthesis; see also [Cartwright 1971, p. 119](#Cartwright71) and [Gries & Schneider 1998](#GriesSchneider98)):
 
 
-> Two terms are the *same* (*eadem*) if one can be substituted for the other without altering the truth of any statement (*salva veritate*). If we have $P$ and $Q$, and $P$ enters into some true proposition, and the substitution of $Q$ for $P$ wherever it appears results in a new proposition that is likewise true, and if this can be done for every proposition, then $P$ and $Q$ are said to be the same; ...
+> Two terms are the *same* (*eadem*) if one can be substituted for the other without altering the truth of any statement (*salva veritate*). If we have $A$ and $B$, and $A$ enters into some true proposition, and the substitution of $B$ for $A$ wherever it appears results in a new proposition that is likewise true, and if this can be done for every proposition, then $A$ and $B$ are said to be the same; ...
 
 This sentence of Leibniz in fact closes with a statement of the converse, often known as the "[[principle of substitutivity]]" but which may deserve to be called the *indiscernibility of identicals*:
 
 > ... conversely, if $P$ and $Q$ are the same, they can be substituted for one another.
 
+The paragraph ends with the assertion that 
+
+> $A$ and $A$ are, of course, said to be the same
+
+This is what [[Grundlage der gesamten Wissenschaftslehre|Fichte 1794]] later called the "first, absolutely unconditioned principle" and [[Science of Logic|Hegel 1812-]] [called](https://ncatlab.org/nlab/show/Science+of+Logic#875) the "[[first law of thought]]". 
+
+From the perspective of [[homotopy type theory]], the "[[first law of thought]]" is the [[term introduction]]-rule for [[identity types]], and "indiscernability of identicals" is the [[transport]]-rule, which together with "identiy of indiscernible" is implied by the [[induction]]-rule of the [[identity type]] (the "[[J-rule]]"). For more on this see [below](#InHomotopyTypeTheory).
 
 
 ## In homotopy type theory
  {#InHomotopyTypeTheory}
 
-In the presence of an [[identity type]], identity of indiscernibles is trivial because of [[haecceity|haecceities]]; but extensionality principles like [[function extensionality]], [[propositional extensionality]], and [[univalence]] ("typal extensionality") are naturally regarded as a stronger form of identity of indiscernibles.
+In [[type theories]] with [[identity types]] ([[homotopy type theory]]), identity of indiscernibles holds trivially because of [[haecceity|haecceities]]; but extensionality principles like [[function extensionality]], [[propositional extensionality]], and [[univalence]] ("typal extensionality") are naturally regarded as a stronger form of identity of indiscernibles.
 In particular, the [[consistency]] of [[univalence]] means that in [[Martin-Löf type theory]] without univalence, one cannot define any [[predicate]] that provably distinguishes [[equivalence in homotopy type theory|equivalent]] [[types]]; thus equivalent types are "externally indiscernible", and univalence incarnates that principle internally by making them identical.
 
 
@@ -61,6 +68,14 @@ On the other hand, the converse substitution/substitutivity principle of "indisc
  {#InPointSetTopology}
 
 A [[topology|topological]] or geometrical version of the idea of identity of indiscernibles is [[separation axioms|separation]]: if two points are distinct, then they are separated in some sense. This means in turn that if two points in a space subject to a given separation axiom can not be separated by any admissible separation condition then they are identical.
+
+{#InTopologicalSpacesMoreInDetail} More in detail: 
+
+Given a [[topological space]] one might declare that "topological observations" about the space are questions of the form: "Which points are contained in a given open subset?", and hence that two points are "discernible", namely "topologically distinct", if there exists an [[open subset]] that contains one but not the other. 
+With this convention, the condition that "indiscernibles be identical" is equivalently the condition that the topological space
+satisfies the $T_0$-[[separation axiom]], hence that it is a [[Kolmogorov space]]. Generally, one could regard the [$T_0$-reflection](Kolmogorov+topological+space#KolmogorovQuotient) as the [[modality]] under which identity becomes indiscernibility, in this sense.
+
+
 
 ## Related entries
 
