@@ -327,8 +327,17 @@ and is in section 10 of
 
 * {#ABG11} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_ ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
  
-
 with an emphases on [[parameterized spectra]].
+
+### Stratified versions
+
+Instead of relating (structured) cobordisms with homs into Thom spectra, one may also relate [[stratified space|stratified]] cobordisms with homs into [[cell complex|cell complexes]]. A version of this relation is spelled out in *Section VII.4* of:
+
+* {#BRS} Sandro Buonchristiano, Colin Rourke, and Brian Sanderson. _A geometric approach to homology theory_. Vol. 18. Cambridge University Press, 1976.
+
+The stratified Pontrjagin-Thom construction may also be considered in higher categorical terms, where it relates functors between weak [[computad|computads]] to [[manifold diagram|manifold diagrams]]. This is discussed at:
+
+* {#DornCategoricalTP} [[Christoph Dorn]], _The categorical Pontryagin-Thom construction_. [link](https://cxdorn.github.io/tcptc/)
 
 [[!redirects Pontrjagin-Thom construction]]
 [[!redirects Pontryagin-Thom construction]]
