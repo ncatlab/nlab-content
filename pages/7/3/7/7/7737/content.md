@@ -39,7 +39,7 @@ There are many different definitions of stratifications on spaces:
 
 Most of the above variants share the same basic structure, captured by the following definitions.
 
-\begin{terminology} Given a decomposition $f$ of a [[topological space]] $X$ into [[subspace#topological_subspaces|subspaces]] (denoted, in the following, by lower-case letters such as $s$), the *exit path preorder* $\mathsf{Exit}(f)$ of $f$ is the preorder of subspaces $s$ in $f$ with a generating arrow $s \to r$ whenever the closure of $r$ intersects $s$ non-trivially.
+\begin{terminology} Given a decomposition $f$ of a [[topological space]] $X$ into [[connected space|connected]] [[subspace#topological_subspaces|subspaces]] (denoted, in the following, by lower-case letters such as $s$), the *exit path preorder* $\mathsf{Exit}(f)$ of $f$ is the preorder of subspaces $s$ in $f$ with a generating arrow $s \to r$ whenever the closure of $r$ intersects $s$ non-trivially.
 \end{terminology}
 
 \begin{defn} A **stratification** $f$ on $X$ is a decomposition of $X$ such that $\mathsf{Exit}(f)$ is a poset.
@@ -60,7 +60,7 @@ The characteristic map need not be continuous in general (unless the stratificat
 \begin{example} *(Filtered spaces).* Any filtered space $X_0 \subset X_1 \subset ... \subset X_n$ in which $X_i$ is a closed subspace of $X_{i+1}$ defines a continuous map $X \to [n] = (0 \to 1 \to ... \to n)$ mapping points in $X_{i+1} \setminus X_{i}$ to $i$, and thus a stratification by the previous example. As a concrete instance of this example, the filtration by skeleta of any [[cell complex]] defines the "stratification by cells" in this way.
 \end{example}
 
-\begin{example} *(Trivial stratification).* Every topological space $U$ is trivially a stratification with a single stratum $U$.
+\begin{example} *(Trivial stratification).* Every topological space $U$ is trivially stratified with strata being the connected components of $U$.
 \end{example}
 
 \begin{rmk} *(Continuity of characteristic map).* Let $(X,f)$ be a stratified space. One says that the stratification $f$ is "locally finite" if each stratum $s$ of $f$ has an open neighborhood in $X$ which only contains finitely many strata. (If $(X,f)$ satisfies the frontier condition, see next remark, then, equivalently, $(X,f)$ is locally finite iff each point $x \in X$ has an open neighborhood intersecting only finitely many strata.) If $f$ is locally finite, then the characteristic map $f : X \to \mathsf{Exit}(f)$ is a [[continuous map]].
@@ -120,17 +120,18 @@ In order to make the above precise, one must work with sufficiently convenient s
 
 Every conical stratification is frontier-constructible.
 
-\begin{defn} Given a conical stratification $(X,f)$, then [Lurie]{#LurieHA} constructs **entrance path $\infty$-category** $\mathcal{E}\mathrm{ntr}(f)$ as a quasicategory: the $k$-simplices of the quasicategory $\mathcal{E}\mathrm{ntr}(f)$ are precisely stratified maps $\parallel [k]\parallel \to (X,f)$, where $[k] = (0 \to 1 \to ... \to k)$.
+\begin{defn} Given a conical stratification $(X,f)$, then [Lurie]{#LurieHA} constructs **exit path $\infty$-category** $\mathcal{E}\mathrm{xit}(f)$ as a quasicategory: the $k$-simplices of the quasicategory $\mathcal{E}\mathrm{xit}(f)$ are precisely stratified maps $\parallel [k]\parallel \to (X,f)$, where $[k] = (0 \to 1 \to ... \to k)$.
 \end{defn}
 
-The construction translates objects in the middle row from the first column to the second column. See also [[poset-stratified spaces]] under "exit path $\infty$-category" for more.
+The construction translates from "stratified spaces" to 
+"$\infty$-posets" in the above table: the conservative functor $\mathcal{E}\mathrm{xit}(f) \to \mathsf{Exit}(f)$ takes objects $\parallel [0]\parallel \to X$ to the stratum $s \in \mathsf{Exit}(f)$ that their image lies in.
 
 ### For regular stratifications {#regular_strat}
 
 \begin{defn} A stratification $(X,f)$ is **regular** if it admits a refinement $\parallel P \parallel \to (X,f)$ by the stratified realization of some poset $P$.
 \end{defn}
 
-\begin{defn} Given a regular stratification $(X,f)$ and a refinement $\parallel P\parallel \to (X,f)$, one can construct the **presented entrance path $\infty$-category** $\mathcal{PE}\mathrm{ntr}(f)$ as a poset with weak equivalences with underlying poset $P$ and weak equivalences $\mathsf{Exit}(F)^{-1}(\mathrm{id})$.
+\begin{defn} Given a regular stratification $(X,f)$ and a refinement $\parallel P\parallel \to (X,f)$, one can construct the **presented exit path $\infty$-category** $\mathcal{PE}\mathrm{xit}(f)$ as a poset with weak equivalences with underlying poset $P$ and weak equivalences $\mathsf{Exit}(F)^{-1}(\mathrm{id})$.
 \end{defn}
 
 (Showing that this construction is, in an appropriate sense, independent of the choice of $P$ requires a bit more work...)
@@ -138,7 +139,7 @@ The construction translates objects in the middle row from the first column to t
 \begin{rmk} \label{rmk_cellulable} A special case of the definition asks for refinements by regular cell complexes (or simplicial complexes) in place of classifying stratifications of posets, in which case one speaks of **cellulable** (resp. **triangulable**) stratifications.
 \end{rmk}
 
-The construction translates objects in the middle row from the first column to the third column in the above table.
+The construction translates between "stratified spaces" and "posets with weak equivalences" in the above table. Since spaces are trivially stratified spaces, this specializes to a translation between "spaces" and "sets with weak equivalences".
 
 ## Related concepts
 
@@ -202,7 +203,7 @@ Poset-stratified spaces and the conicality condition, as well as the constructio
 
 The perspective of stratifications as spatial decompositions that determine exit path posets and characteristic maps can be found e.g. in:
 
-* {#DornDouglas21} Christoph Dorn and Christopher Douglas, _Framed combinatorial topology_, 2021, in particular Appendix B ([pdfs](https://cxdorn.github.io/fct-book/))
+* {#DornDouglas21} Christoph Dorn and Christopher Douglas, _Framed combinatorial topology_, 2021, in particular Appendix B ([pdf](https://cxdorn.github.io/assets/pdfs/fct_latest.pdf))
 
 
 [[!redirects stratified space]]
