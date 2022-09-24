@@ -51,6 +51,12 @@ In [[natural deduction]] the type formation rule for a kind of type is the first
 
 Under the [[relation between type theory and category theory]], the [[categorical semantics]] of type formation essentially corresponds to certain [[universal constructions]] in [[category theory]].
 
+## References
+
+Introductory textbook account:
+
+* [[Simon Thompson]], §4.2  4.3 in: *[[Type Theory and Functional Programming]]*, Addison-Wesley (1991) &lbrack;ISBN:0-201-41667-0, [webpage](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP), [pdf](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)&rbrack;
+
 
 
 [[!redirects type formation]]
