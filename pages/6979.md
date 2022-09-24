@@ -76,7 +76,10 @@ _[[relation between type theory and category theory]]_.
 
 ## References
 
-All the essential ingredients are listed in 
+Introductory accounts:
+
+* [[Simon Thompson]], §6.3 in: *[[Type Theory and Functional Programming]]*, Addison-Wesley (1991) &lbrack;ISBN:0-201-41667-0, [webpage](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP), [pdf](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)&rbrack;
+
 
 * [[Nicola Gambino]], _Lectures on dependent type theory_ (2009) &lbrack;[pdf](http://www.cs.le.ac.uk/events/mgs2009/courses/gambino/lecturenotes-gambino.pdf)&rbrack;
 
