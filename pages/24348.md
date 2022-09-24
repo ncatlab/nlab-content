@@ -14,6 +14,7 @@ This page is intended to record doctoral theses whose focus is primarily categor
 |Enriched categories, internal categories and change of base|[[Dominic Verity]]|1992|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html)| |
 |The algebra of distributive and extensive categories|[[Stephen Lack]]|1995| | | 
 |Polycategories|[[Richard Garner]]|2006|[pdf](http://web.science.mq.edu.au/~rgarner/Thesis/Thesis.pdf)| |
+| Théorie formelle des bicatégories | Syméon Bozapalides | 1976 | [[BOZAPALIDES_theorie_formelle_bicategories.pdf:file]] |         |
 
 
 ## Related pages
