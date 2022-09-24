@@ -29,7 +29,7 @@ In [[constructive mathematics]], a [[set]] $X$ has __decidable equality__ if any
 
 +--{: .un_remark}
 ###### Remark
-In fact, these examples come close to to exhausting the sets than can be *proven* to have decidable equality in intuitionistic logic; by [BauerSwan18](#BauerSwan18) there is a [[topos]] (the [[function realizability]] topos, which moreover satisfies [[countable choice]], [[Markov's principle]], and other axioms) [[internal logic|in which]] all sets with decidable equality are [[countable set|countable]] (admit a surjection from a [[decidable subset]] of $\mathbb{N}$).  More precisely, although the statement "all sets with decidable equality are countable" is not true [[stack stemantics|in]] that topos, every global object with decidable equality in that topos is countable.
+In fact, these examples come close to to exhausting the sets than can be *proven* to have decidable equality in intuitionistic logic; by [BauerSwan18](#BauerSwan18) there is a [[topos]] (the [[function realizability]] topos, which moreover satisfies [[countable choice]], [[Markov's principle]], and other axioms) [[internal logic|in which]] all sets with decidable equality are [[countable set|countable]] (admit a surjection from a [[decidable subset]] of $\mathbb{N}$).  More precisely, although the statement "all sets with decidable equality are countable" is not true [[stack semantics|in]] that topos, every global object with decidable equality in that topos is countable.
 =--
 
 
