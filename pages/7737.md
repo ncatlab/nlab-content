@@ -115,12 +115,12 @@ In order to make the above precise, one must work with sufficiently convenient s
 \begin{defn} Given a stratification $(X,f)$, the **stratified (open) cone** $(\mathrm{cone}(X), \mathrm{cone}(f))$ stratifies the topological open cone $\mathrm{cone}(X) = X \times [0,1) / X \times \{0\}$ by the product $(X,f) \times (0,1)$ away from the cone point $\{0\}$ (here, the open interval $(0,1)$ is trivially stratified), and by setting the cone point $\{0\}$ to be its own stratum.
 \end{defn}
 
-\begin{defn} A **conical** stratification $(X,f)$ is a stratification in which each point $x \in X$ has a neighborhood (i.e. an open substratification) that is a stratified product $U \times (\mathrm{cone}(Z),\mathrm{cone}(l))$ with $x \in U \times \{0\}$.
+\begin{defn} A **conical** stratification $(X,f)$ is a stratification in which each point $x \in X$ has a neighborhood (i.e. an open substratification) that is a stratified product $U \times (\mathrm{cone}(Z),\mathrm{cone}(l))$ for some "link" stratification $(Z,l)$ and such that $x \in U \times \{0\}$.
 \end{defn}
 
 Every conical stratification is frontier-constructible.
 
-\begin{defn} Given a conical stratification $(X,f)$, then [Lurie]{#LurieHA} constructs **exit path $\infty$-category** $\mathcal{E}\mathrm{xit}(f)$ as a quasicategory: the $k$-simplices of the quasicategory $\mathcal{E}\mathrm{xit}(f)$ are precisely stratified maps $\parallel [k]\parallel \to (X,f)$, where $[k] = (0 \to 1 \to ... \to k)$.
+\begin{defn} Given a conical stratification $(X,f)$, then [Lurie](#LurieHA) constructs **exit path $\infty$-category** $\mathcal{E}\mathrm{xit}(f)$ as a quasicategory: the $k$-simplices of the quasicategory $\mathcal{E}\mathrm{xit}(f)$ are precisely stratified maps $\parallel [k]\parallel \to (X,f)$, where $[k] = (0 \to 1 \to ... \to k)$.
 \end{defn}
 
 The construction translates from "stratified spaces" to 
@@ -131,7 +131,7 @@ The construction translates from "stratified spaces" to
 \begin{defn} A stratification $(X,f)$ is **regular** if it admits a refinement $\parallel P \parallel \to (X,f)$ by the stratified realization of some poset $P$.
 \end{defn}
 
-\begin{defn} Given a regular stratification $(X,f)$ and a refinement $\parallel P\parallel \to (X,f)$, one can construct the **presented exit path $\infty$-category** $\mathcal{PE}\mathrm{xit}(f)$ as a poset with weak equivalences with underlying poset $P$ and weak equivalences $\mathsf{Exit}(F)^{-1}(\mathrm{id})$.
+\begin{defn} Given a regular stratification $(X,f)$ and a refinement $F : \parallel P\parallel \to (X,f)$, one can construct the **presented exit path $\infty$-category** $\mathcal{PE}\mathrm{xit}(f)$ as a poset with weak equivalences with underlying poset $P$ and weak equivalences $\mathsf{Exit}(F)^{-1}(\mathrm{id})$.
 \end{defn}
 
 (Showing that this construction is, in an appropriate sense, independent of the choice of $P$ requires a bit more work...)
@@ -199,7 +199,7 @@ An earlier paper on exit paths is
 
 Poset-stratified spaces and the conicality condition, as well as the construction of the fundamental $\infty$-poset of a conical stratification as a quasicategory, first appeared in:
 
-* {#LurieHA} Jacob Lurie, [[Higher Algebra]], 2012, in particular Appendix A
+* {#LurieHA} Jacob Lurie, [[Higher Algebra]], 2012, in particular Appendix A ([pdf](https://www.math.ias.edu/~lurie/papers/HA.pdf))
 
 The perspective of stratifications as spatial decompositions that determine exit path posets and characteristic maps can be found e.g. in:
 
