@@ -50,6 +50,10 @@ Textbook account:
 
 * {#Winitzki} [[Sergei Winitzki]], *The Science of Functional Programming -- A tutorial, with examples in Scala* ([leanpub:sofp](https://leanpub.com/sofp))
 
+and with emphasis on the relation to [[type theory]]:
+
+* [[Simon Thompson]], *[[Type Theory and Functional Programming]]*, Addison-Wesley (1991) &lbrack;ISBN:0-201-41667-0, [webpage](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP), [pdf](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)&rbrack;
+
 See also:
 
 * Wikipedia, _[Functional programming](https://en.wikipedia.org/wiki/Functional_programming)_
