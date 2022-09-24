@@ -196,6 +196,10 @@ The standard rules for type-formation, term introduction/elimination and computa
 
 * [[Nicola Gambino]], _Lectures on dependent type theory_ ([pdf](http://www.cs.le.ac.uk/events/mgs2009/courses/gambino/lecturenotes-gambino.pdf))
 
+Introductory textbook account:
+
+* [[Simon Thompson]], §4.2  4.3 in: *[[Type Theory and Functional Programming]]*, Addison-Wesley (1991) &lbrack;ISBN:0-201-41667-0, [webpage](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP), [pdf](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)&rbrack;
+
 
 [[!redirects natural deduction]]
 [[!redirects natural deductions]]
