@@ -669,9 +669,9 @@ Textbook accounts in from the point of view of [[programming languages]] include
 * [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
 
 
-Further discussion of type theory in the context of [[programming languages]] includes
+Further discussion of type theory in the context of ([[functional programming|functional]]) [[programming languages]]:
 
-* Simon Thompson, _Type theory and functional programming_, Addison-Wesley, 1991 (ISBN:0-201-41667-0, [webpage](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP), [pdf](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf))
+* [[Simon Thompson]], *[[Type Theory and Functional Programming]]*, Addison-Wesley (1991) &lbrack;ISBN:0-201-41667-0, [webpage](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP), [pdf](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)&rbrack;
 
 * {#Girard89} [[Jean-Yves Girard]] (translated and with appendiced by [[Paul Taylor]] and [[Yves Lafont]]), *Proofs and Types*, Cambridge University Press (1989) &lbrack;[ISBN:978-0-521-37181-0](), [webpage](http://www.paultaylor.eu/stable/Proofs+Types.html), [pdf](https://www.paultaylor.eu/stable/prot.pdf)&rbrack;
 
