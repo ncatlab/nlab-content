@@ -37,7 +37,12 @@ One says optics are defined _up to sliding_ along the residual, a terminology su
 
 ## Profunctor representation
 
-(TODO)
+Let $(\mathbf M, I, \otimes)$ be a monoidal V-category with two monoidal actions $(\bullet) \colon \mathbf{M} \otimes \mathbf{C} \to \mathbf{C}$ and $(\ast) \colon \mathbf{M} \otimes \mathbf{D} \to \mathbf{D}$. 
+A generalized **Tambara module** is of a V-profunctor $P \colon \mathbf{C}^{op} \otimes \mathbf{D} \to \mathbf{V}$ endowed with a family of morphisms
+  \[t_{M,A,B} \colon P(A,B) \to P(M \bullet A, M \ast B)\]
+V-natural in $A \in \mathbf{C}$ and $B \in \mathbf{D}$ and V-dinatural in $M \in \mathbf{M}$, which additionally satisfies some axioms, see [PS07](#PS07).
+
+Generalized Tambara modules are the copresheaves of the category of optics, see [CEGLMPR20](#CEGLMPR20). 
 
 ## References
 
@@ -47,16 +52,16 @@ A brief account of the purpose of optics is in:
 
 A similar, but more detailed account, is in:
 
-* Emily Pillmore, Mario Román, _Profunctor Optics: The Categorical View_, ([blog post](https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html#more))
+* Emily Pillmore, [[Mario Román]], _Profunctor Optics: The Categorical View_, ([blog post](https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html#more))
 
 Articles:
 
 * {#Riley} [[Mitchell Riley]], _Categories of optics_, ([arXiv:1809.00738](https://arxiv.org/abs/1809.00738))
 
-* {#CEGLMPR20} [[Bryce Clarke]], Derek Elkins, Jeremy Gibbons, [[Fosco Loregian]], [[Bartosz Milewski]], Emily Pillmore, Mario Román, _Profunctor optics, a categorical update_, 2020, ([arXiv:2001.07488](https://arxiv.org/abs/2001.07488))
+* {#CEGLMPR20} [[Bryce Clarke]], Derek Elkins, Jeremy Gibbons, [[Fosco Loregian]], [[Bartosz Milewski]], Emily Pillmore, [[Mario Román]], _Profunctor optics, a categorical update_, 2020, ([arXiv:2001.07488](https://arxiv.org/abs/2001.07488))
 
 
-* {#Roman} Mario Román, _Open Diagrams via Coend Calculus_, ([arXiv:2004.04526](https://arxiv.org/abs/2004.04526))
+* {#Roman} [[Mario Román]], _Open Diagrams via Coend Calculus_, ([arXiv:2004.04526](https://arxiv.org/abs/2004.04526))
 
 [[!redirects optics (in computer science)]]
 
