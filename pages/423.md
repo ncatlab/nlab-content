@@ -1595,9 +1595,9 @@ On [[counterexamples]] in topology:
 * [[Lynn Arthur Steen]], [[J. Arthur Seebach]], _[[Counterexamples in Topology]]_, Springer 1971 ([doi:10.1007/978-1-4612-6290-9](https://link.springer.com/book/10.1007/978-1-4612-6290-9))
 
 
-With emphasis on [[category theory|category theoretic]] aspects of [[general topology]]:
+With emphasis on [[category theory|category theoretic]] aspects of [[general topology]], notably on [$T_n$-reflections](separation+axioms#Reflection):
 
-* [[Horst Herrlich]], [[George Strecker]], *Categorical topology -- Its origins as exemplified by the unfolding of the theory of topological reflections and coreflections before 1971* ([pdf](https://link.springer.com/content/pdf/10.1007%2F978-94-017-0468-7_15.pdf)), pages 255-341 in: C. E. Aull, R Lowen (eds.), *Handbook of the History  of General Topology. Vol. 1*, Kluwer 1997 ([doi:10.1007/978-94-017-0468-7](https://link.springer.com/book/10.1007/978-94-017-0468-7))
+* {#HerrlichStrecker71} [[Horst Herrlich]], [[George Strecker]], *Categorical topology -- Its origins as exemplified by the unfolding of the theory of topological reflections and coreflections before 1971* ([pdf](https://link.springer.com/content/pdf/10.1007%2F978-94-017-0468-7_15.pdf)), pages 255-341 in: C. E. Aull, R Lowen (eds.), *Handbook of the History  of General Topology. Vol. 1*, Kluwer 1997 ([doi:10.1007/978-94-017-0468-7](https://link.springer.com/book/10.1007/978-94-017-0468-7))
 
 
 * {#BradleyBrysonTerilla20} [[Tai-Danae Bradley]], [[Tyler Bryson]], [[John Terilla]], _Topology -- A categorical approach_, MIT Press 2020 ([ISBN:9780262539357](https://mitpress.mit.edu/books/topology), [web version](https://topology.pubpub.org/))
