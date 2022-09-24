@@ -7,7 +7,8 @@ On [[synthetic (infinity,1)-category theory|synthetic $(\infty,1)$-category theo
 
 * {#BuchholtzWeinberger21} [[Ulrik Buchholtz]], [[Jonathan Weinberger]], *Synthetic fibered $(\infty,1)$-category theory* $[$[arXiv:2105.01724](https://arxiv.org/abs/2105.01724), [talk slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Weinberger-2022-01-20-HoTTEST.pdf)$]$
 
-* [[Jonathan Weinberger]], *A Synthetic Perspective on $(\infty,1)$-Category Theory: Fibrational and Semantic Aspects* $[$[arXiv:2202.13132](https://arxiv.org/abs/2202.13132)$]$
+* [[Jonathan Weinberger]], *A Synthetic Perspective on $(\infty,1)$-Category Theory: Fibrational and Semantic Aspects*
+$[$[arXiv:2202.13132](https://arxiv.org/abs/2202.13132)$]$. PhD Thesis, TU Darmstadt, Germany, 2022.
 
 * [[Jonathan Weinberger]], *Strict stability of extension types* $[$[arXiv:2203.07194](https://arxiv.org/abs/2203.07194)$]$
 
