@@ -453,10 +453,11 @@ Original articles:
 * [[Per Martin-Löf]], p. 31-34 in: _Intuitionistic type theory_, Lecture notes Padua 1984 (notes by [[Giovanni Sambin]]), Bibliopolis, Napoli (1984) ([pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]])
 
 
+* Bengt Nordström, Kent Petersson, Jan M. Smith, §8.1 of: *Programming in Martin-Löf's Type Theory*, Oxford University Press (1990) &lbrack;[webpage](https://www.cse.chalmers.se/research/group/logic/book/), [pdf](https://www.cse.chalmers.se/research/group/logic/book/book.pdf), [[NordstromPeterssonSmith-TypeTheory.pdf:file]]&rbrack;
+
 Survey in
 
-
-* {#Warren} [[Michael Warren]], Chapter 1 ofL _Homotopy theoretic aspects of constructive type theory_, PhD thesis (2008) ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
+* {#Warren} [[Michael Warren]], Chapter 1 of: _Homotopy theoretic aspects of constructive type theory_, PhD thesis (2008) ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
  
 
 Issues of [[extensional type theory|extensional]]/[[intensional type theory]] 
