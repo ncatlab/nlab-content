@@ -34,6 +34,10 @@ On combined [[twisted K-theory|twisted]] [[equivariant K-theory|equivariant]] [[
 
 * {#Gomi17} [[Kiyonori Gomi]], _Freed-Moore K-theory_ ([arXiv:1705.09134](https://arxiv.org/abs/1705.09134), [spire:1601772](http://inspirehep.net/record/1601772))
 
+On the [[K-theory classification of topological phases of matter]] for the case of [[topological crystalline insulators]] classified by [[equivariant K-theory]]:
+
+* Ken Shiozaki, Masatoshi Sato, [[Kiyonori Gomi]], *Topological Crystalline Materials - General Formulation, Module Structure, and Wallpaper Groups*, Phys. Rev. B **95** (2017) 235425 &lbrack;[arXiv:1701.08725](https://arxiv.org/abs/1701.08725), [doi:10.1103/PhysRevB.95.235425](https://doi.org/10.1103/PhysRevB.95.235425)&rbrack;
+
 On [[T-duality]] in the [[K-theory classification of topological phases of matter]]:
 
 * [[Kiyonori Gomi]], [[Guo Chuan Thiang]], *Crystallographic T-duality*. J.Geom.Phys **139** (2019) 50-77 &lbrack;[arXiv:1806.11385](https://arxiv.org/abs/1806.11385), [doi:10.1016/j.geomphys.2019.01.002](https://doi.org/10.1016/j.geomphys.2019.01.002)&rbrack;
