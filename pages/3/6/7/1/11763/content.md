@@ -37,7 +37,7 @@ This is also known as "Leibniz's Law", in honor of [[Gottfried Leibniz]] (not to
 {#LeibnizWroteTheFollowing} Concretely, Leibniz wrote the following,  (in translation from [Lewis 1918, p. 373](#Lewis18) with original Latin terms in parenthesis; see also [Cartwright 1971, p. 119](#Cartwright71) and [Gries & Schneider 1998](#GriesSchneider98)):
 
 
-> Two terms are the *same* (*eadem*) if one can be substituted for the other without altering the truth of any statement (*salva veritate*). If we have $A$ and $B$, and $A$ enters into some true proposition, and the substitution of $B$ for $A$ wherever it appears results in a new proposition that is likewise true, and if this can be done for every proposition, then $A$ and $B$ are said to be the same; ...
+> Two terms are the *same* (*eadem*) if one can be substituted for the other without altering the truth of any statement (*[[salva veritate]]*). If we have $A$ and $B$, and $A$ enters into some true proposition, and the substitution of $B$ for $A$ wherever it appears results in a new proposition that is likewise true, and if this can be done for every proposition, then $A$ and $B$ are said to be the same; ...
 
 This sentence of Leibniz in fact closes with a statement of the converse, often known as the "[[principle of substitutivity]]" but which may deserve to be called the *indiscernibility of identicals*:
 
@@ -76,7 +76,6 @@ With this convention, the condition that "indiscernibles be identical" is equiva
 satisfies the $T_0$-[[separation axiom]], hence that it is a [[Kolmogorov space]]. Generally, one could regard the [$T_0$-reflection](Kolmogorov+topological+space#KolmogorovQuotient) as the [[modality]] under which identity becomes indiscernibility, in this sense.
 
 
-
 ## Related entries
 
 * [[first law of thought]]
@@ -99,11 +98,18 @@ and further discussed in:
 
 * {#GriesSchneider98} David Gries, Fred Schneider, *Formalizations Of Substitution Of Equals For Equals* (1998) &lbrack;[pdf](https://ecommons.cornell.edu/bitstream/handle/1813/7340/98-1686.pdf?sequence=1&isAllowed=y), [ecommons:1813/7340](https://ecommons.cornell.edu/handle/1813/7340)
 
+Leibniz's original terminology "salva veritate" for the substitution principle is prominently used in:
+
+* [[W. V. O. Quine]], §3 of *Two Dogmas of Empiricism* and *Three grades of modal involvement*, as reprinted in: Roger F. Gibson (ed.) *Quintessence -- Basic readings from the philosophy of W. V. Quine*, The Belknap Press of Harvard University Press (2004) &lbrack;[ISBN:9780674027558](https://www.hup.harvard.edu/catalog.php?isbn=9780674027558)&rbrack;
+
+
 See also:
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Identity_of_indiscernibles)
+* Wikipedia, *[Identity of indiscernibles](http://en.wikipedia.org/wiki/Identity_of_indiscernibles)*
 
-* [SEP](http://plato.stanford.edu/entries/identity-indiscernible/)
+* Wikipedia, *[Salva veritate](https://en.wikipedia.org/wiki/Salva_veritate)*
+
+* Standord Encyclopedia of Philosophy, *[The Identity of Indiscernibles](http://plato.stanford.edu/entries/identity-indiscernible/)*
 
 Formalization in [[homotopy type theory]] is in 
 
@@ -126,3 +132,5 @@ See also:
 
 [[!redirects Leibniz's Law]]
 [[!redirects Leibniz's law]]
+
+[[!redirects salva veritate]]
