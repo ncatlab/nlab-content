@@ -17,4 +17,6 @@
 
 * [[identity type]]
 
+* [[identity of indiscernibles]]
+
 [[!redirects identities]]
