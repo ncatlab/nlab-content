@@ -13,6 +13,11 @@ On [[quantum optics]] in [[quantum information theory]]:
 
 * [[Tim Byrnes]], [[Ebubechukwu Ilo-Okeke]], *Quantum Atom Optics: Theory and Applications to Quantum Technology*, Cambridge University Press 2021 ([arXiv:2007.14601](https://arxiv.org/abs/2007.14601), [CUP](https://www.cambridge.org/core/books/quantum-atom-optics/2D867888B5C666D3A936F1C942C99568))
 
+On [[topological lasers]]:
+
+* Natsuko Ishida*, Yasutomo Ota*, Wenbo Lin, [[Tim Byrnes]], Yasuhiko Arakawa and Satoshi Iwamoto, *A large-scale single-mode array laser based on a topological edge mode*, Nanophotonics **11** 9 (2022) 2169–2181 &lbrack;[doi:10.1515/nanoph-2021-0608](https://doi.org/10.1515/nanoph-2021-0608)&rbrack;
+
+
 ## Related nLab entries
 
 * [[Bose-Einstein condensate]]
