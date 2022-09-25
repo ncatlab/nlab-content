@@ -35,6 +35,7 @@ For instance, many aspects of [[topological phases of matter]] ([[topological in
 
 * [[phononic crystal]]
 
+
 ## References
 
 ### General
@@ -126,6 +127,7 @@ On [[soliton|solitonic]] excitations in waveguide arrays:
 
 * Alaa Shaheen, [[Amaria Javed]], U. Al Khawaja, *Adding binary numbers with discrete solitons in waveguide arrays*, Phys. Scr. **95** (2020) 085107 &lbrack;[arXiv:2108.01406](https://arxiv.org/abs/2108.01406), [doi:10.1088/1402-4896/aba2b2](https://doi.org/10.1088/1402-4896/aba2b2)&rbrack;
 
+
 #### Photonic topological phases
 
 On photonic analogs of the [[quantum Hall effect]]:
@@ -157,6 +159,7 @@ On something like [[anyon]] [[braiding]] in photonic crystals:
 * {#ZhangEtAl22} Xu-Lin Zhang et al., *Non-Abelian braiding on photonic chips*, Nature Photonics **16** (2022) 390–395 &lbrack;[arXiv:2112.01776](https://arxiv.org/abs/2112.01776), [doi:10.1038/s41566-022-00976-2](https://doi.org/10.1038/s41566-022-00976-2)&rbrack;
 
 
+
 #### Topological lasers
 
 On [[topological lasers]]:
@@ -165,6 +168,8 @@ On [[topological lasers]]:
  **358** 6363 (2017) 636-640 &lbrack;[doi:10.1126/science.aao4551](https://www.science.org/doi/10.1126/science.aao4551), [pdf](https://triontech.com/wp-content/uploads/2017/12/grandcentr_5a33e9da82b1d2045611513355242.pdf)&rbrack;
 
 * Gal Harari, Miguel A. Bandres, Yaakov Lumer, Mikael C. Rechtsman, Y. D. Chong, Mercedeh Khajavikhan, Demetrios N. Christodoulides, Mordechai Segev, *Topological insulator laser: Theory*, Science **359** 6 (2018) &lbrack;[doi:10.1126/science.aar4003](https://doi.org/10.1126/science.aar4003), [pdf](https://dr.ntu.edu.sg/bitstream/10356/90137/1/Topological%20insulator%20laser-Theory.pdf)&rbrack;
+
+* Natsuko Ishida*, Yasutomo Ota*, Wenbo Lin, [[Tim Byrnes]], Yasuhiko Arakawa and Satoshi Iwamoto, *A large-scale single-mode array laser based on a topological edge mode*, Nanophotonics **11** 9 (2022) 2169–2181 &lbrack;[doi:10.1515/nanoph-2021-0608](https://doi.org/10.1515/nanoph-2021-0608)&rbrack;
 
 
 [[!include anyonic braiding in momentum space -- references]]
