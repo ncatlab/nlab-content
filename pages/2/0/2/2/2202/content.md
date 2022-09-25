@@ -20,7 +20,7 @@
 
 ## Definition
 
-A [[monoidal category]] is **semicartesian** if the unit for the tensor product is a [[terminal object]], a weakening of the concept of [[cartesian monoidal category]].
+A [[monoidal category]] is **semicartesian** if the unit for the tensor product is a [[terminal object]], a weakening of the concept of [[cartesian monoidal category]]. Dually, a monoidal category is **semicocartesian** if the unit for the tensor product is an [[initial object]], a weakening of the concept of [[cocartesian monoidal category]].
 
 Many semicartesian monoidal categories are also [[symmetric monoidal category|symmetric]], and sometimes that is included in the definition.
 
@@ -125,3 +125,12 @@ The notion of [[semicartesian operad]] is a type of [[generalized multicategory]
 [[!redirects semicartesian categories]]
 [[!redirects semi-cartesian categories]]
 [[!redirects semi-Cartesian categories]]
+
+[[!redirects semicocartesian category]]
+[[!redirects semi-cocartesian category]]
+[[!redirects semicocartesian monoidal category]]
+[[!redirects semi-cocartesian monoidal category]]
+[[!redirects semicocartesian categories]]
+[[!redirects semi-cocartesian categories]]
+[[!redirects semicocartesian monoidal categories]]
+[[!redirects semi-cocartesian monoidal categories]]
