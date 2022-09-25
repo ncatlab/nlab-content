@@ -52,6 +52,14 @@ $$(g \circ f)_0 \coloneqq g_0 \circ f_0$$
 and for all objects $a:A_0$ and $b:A_0$, 
 $$(g \circ f)_\equiv(a, b) \coloneqq g_equiv(f_0(a), f_0(b)) \circ f_equiv(a, b)$$
 
+### Injections, surjections, and bijections
+
+An extensional function $f:A \to B$ is a **[[injection]]** if for all elements $b:B_0$ the type of elements $a:A_0$ with a witness $p(a, b):f_0(a) \equiv b$ is a [[subsingleton]].
+
+An extensional function $f:A \to B$ is a **[[surjection]]** if for all elements $b:B_0$ the type of elements $a:A_0$ with a witness $p(a, b):f_0(a) \equiv b$ is a [[pointed type]].
+
+An extensional function $f:A \to B$ is a **[[bijection]]** if it is both an [[injection]] and a [[surjection]]; i.e. for all elements $b:B_0$ the type of elements $a:A_0$ with a witness $p(a, b):f_0(a) \equiv b$ is a pointed subsingleton, or a [[singleton]].
+
 ### Bijections, isomorphisms, and equivalences
 
 An extensional function $f:A \to B$ is a **[[bijection]]** if for all elements $b:B_0$ the type of elements $a:A_0$ with a witness $p(a, b):f_0(a) \equiv b$ is a [[singleton]].
