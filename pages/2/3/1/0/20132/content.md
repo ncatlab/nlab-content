@@ -20,7 +20,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -199,7 +198,7 @@ The existence of the $G$-equivariant tubular neighbourhoods is for instance in [
 
 * {#Kankaanrinta07} [[Marja Kankaanrinta]], _Equivariant collaring, tubular neighbourhood and gluing theorems for proper Lie group actions_,     Algebr. Geom. Topol. Volume 7, Number 1 (2007), 1-27 ([euclid:agt/1513796653](https://projecteuclid.org/euclid.agt/1513796653))
 
-* {#PflaumPosthumaTang11} [[Markus Pflaum]], Hessel Posthuma, X. Tang, _Geometry of orbit spaces of proper Lie groupoids_, Journal für die reine und angewandte Mathematik (Crelles Journal) 2014.694 ([arXiv:1101.0180](https://arxiv.org/abs/1101.0180), [doi:10.1515/crelle-2012-0092](https://doi.org/10.1515/crelle-2012-0092))
+* {#PflaumPosthumaTang11} [[Markus Pflaum]], [[Hessel Posthuma]], X. Tang, *Geometry of orbit spaces of proper Lie groupoids*, Journal für die reine und angewandte Mathematik (Crelles Journal) 2014.694 &lbrack;[arXiv:1101.0180](https://arxiv.org/abs/1101.0180), [doi:10.1515/crelle-2012-0092](https://doi.org/10.1515/crelle-2012-0092)&rbrack;
 
 
 * {#Ziller13} [[Wolfgang Ziller]], _Group actions_, 2013 ([pdf](https://www.math.upenn.edu/~wziller/math661/LectureNotesLee.pdf), [[ZillerGroupActions.pdf:file]])
