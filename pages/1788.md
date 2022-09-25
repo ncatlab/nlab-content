@@ -1,3 +1,6 @@
+
+[[MetaLogicOfIdentifications-220925.jpg:file]]
+
 <a href="https://ncatlab.org/nlab/files/BOZAPALIDES_theorie_formelle_bicategories.pdf">pdf</a>
 
 \begin{tikzcd}
