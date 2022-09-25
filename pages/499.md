@@ -192,6 +192,16 @@ It seems that the notation "&#x3088;" for the Yoneda embedding (the [hiragana ka
 
 * [[Theo Johnson-Freyd]], Claudia Scheimbauer, p. 33 of _(Op)lax natural transformations, twisted quantum field theories, and "even higher" Morita categories_,  ([arxiv:1502.06526](https://arxiv.org/pdf/1502.06526.pdf))
 
+Their Latex code for the command reads as follows: 
+
+`\usepackage[utf8]{inputenc}`
+
+`\DeclareFontFamily{U}{min}{}`
+
+`\DeclareFontShape{U}{min}{m}{n}{<-> udmj30}{}`
+
+`\newcommand\yo{\!\text{\usefont{U}{min}{m}{n}\symbol{'207}}\!}`
+
 Subsequent references that use this notation include:
 
 * [[Emily Riehl]], [[Dominic Verity]], p. 10 of _Elements of $\infty$-category theory_ ([web](http://www.math.jhu.edu/~eriehl/elements.pdf#page=10)) 
