@@ -517,6 +517,7 @@ See also
 * [[Peter LeFanu Lumsdaine]], _Weak $\omega$-categories from intensional type theory_ , ([arXiv:0812.0409](http://arxiv.org/abs/0812.0409))
 
 
+
 [[!redirects identity types]]
 [[!redirects equality type]]
 [[!redirects equality types]]
