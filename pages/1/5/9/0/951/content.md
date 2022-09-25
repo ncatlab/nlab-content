@@ -110,6 +110,8 @@ The [[cartesian monoidal category]] $FinSet_+$ of nonempty finite sets is the mu
 
 * [[FinRel]]
 
+* [[FinInj]]
+
 
 
 ## References
