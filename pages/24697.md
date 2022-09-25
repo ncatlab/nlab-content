@@ -1,0 +1,7 @@
+Argument shift method is a method to construct commutative subalgebras of the symmetric algebra on a Lie algebra with respect to the Poisson-Lie bracket. It is of importance in the study of [[integrable system]]s.
+
+* A. S. Mishchenko, A. T. Fomenko, _Euler equations on finite-dimensional Lie groups_, Izv. Akad. Nauk SSSR Ser. Mat. [Math. USSR-Izv.], 42 (1978), no. 2, 386--415; _Integrability of Euler equations on semisimple Lie algebras_, in: Proc. Seminars on Vector and Tensor Analysis [in Russian], no. 19, Moskov. Gos. Univ., Moscow, 1979, 3--94
+* S. V. Manakov, _Remark on integrability of Euler equations of the dynamics of an n-dimensional rigid body_, Funktsional. Anal. i Prilozhen. [Functional Anal. Appl.], 10 (1976), no. 4, 93--94
+* L. G. Rybnikov, _The argument shift method and the Gaudin model_, Funct. Anal. Appl. 40, 188--199 (2006) 
+* V. V. Shuvalov, _On limits of Mishchenko--Fomenko subalgebras in Poisson algebras of semisimple Lie algebras_, Funct. Anal. Appl. 36, 298–305 (2002) [doi](https://doi.org/10.1023/A:1021713927119)
+* Y. Ikeda, _Quasidifferential operator and quantum argument shift method_, Theor Math Phys 212, 918--924 (2022) [doi](https://doi.org/10.1134/S0040577922070030)
