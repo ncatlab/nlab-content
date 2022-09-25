@@ -22,3 +22,4 @@ On [[quasi-toposes]]:
 
 category: people
 [[!redirects Eduardo J. Dubuc]]
+[[!redirects E. J. Dubuc]]
