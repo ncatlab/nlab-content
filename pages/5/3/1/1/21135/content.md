@@ -43,10 +43,14 @@ Further discussion:
 
 * Ralph M. Kaufmann, Dan Li, Birgit Wehefritz-Kaufmann, _Topological insulators and K-theory_ ([arXiv:1510.08001](https://arxiv.org/abs/1510.08001), [spire:1401095/](http://inspirehep.net/record/1401095/))
 
+* Ken Shiozaki, Masatoshi Sato, [[Kiyonori Gomi]], *Topological Crystalline Materials - General Formulation, Module Structure, and Wallpaper Groups*, Phys. Rev. B **95** (2017) 235425 &lbrack;[arXiv:1701.08725](https://arxiv.org/abs/1701.08725), [doi:10.1103/PhysRevB.95.235425](https://doi.org/10.1103/PhysRevB.95.235425)&rbrack;
+
+
 * [[Luuk Stehouwer]], [[Jan de Boer]], [[Jorrit Kruthoff]], [[Hessel Posthuma]], *Classification of crystalline topological insulators through K-theory*, Adv. Theor. Math. Phys, **25** 3 (2021) 723–775 $[$[arXiv:1811.02592](https://arxiv.org/abs/1811.02592), [doi:10.4310/ATMP.2021.v25.n3.a3](https://doi.org/10.4310/ATMP.2021.v25.n3.a3)$]$
 
 
 * Charles Zhaoxi Xiong, _Classification and Construction of Topological Phases of Quantum Matter_ ([arXiv:1906.02892](https://arxiv.org/abs/1906.02892))
+
 
 Further generalization to include interacting [[topological order]]:
 
