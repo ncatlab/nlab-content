@@ -16,7 +16,7 @@
 
 ## Idea
 
-The evident generalization of the concept of _[[localization of categories]]_ from [[categories]] to [[2-categories]].
+The generalization of the concept of _[[localization of categories]]_ from [[categories]] to [[2-categories]].
 
 ## Definition
 
@@ -148,16 +148,25 @@ This is the statement of [Renaudin 06, cor. 2.3.8](#Renaudin06).
 
 * [[homotopy 2-category]]
 
+* [[localization of an enriched category]]
+
 
 ## References
 
-* {#Renaudin06} [[Olivier Renaudin]], Section 1.2 of: *Plongement de certaines théories homotopiques de Quillen dans les dérivateurs*, Journal of Pure and Applied Algebra Volume 213, Issue 10, October 2009, Pages 1916-1935
+* {#Renaudin06} [[Olivier Renaudin]], Section 1.2 of: *Plongement de certaines théories homotopiques de Quillen dans les dérivateurs*, J. Pure Appl. Alg. __213__:10 (2009) 1916--1935
 ([arXiv:math/0603339](https://arxiv.org/abs/math/0603339), [doi:10.1016/j.jpaa.2009.02.014](https://doi.org/10.1016/j.jpaa.2009.02.014))
 
 Via [[bicategories of fractions]]:
 
 * [[Dorette A. Pronk]], Section 2 of: _Etendues and stacks as bicategories of fractions_, Comp. Math. **102** 3 (1996) pp.243-303. ([numdam:CM_1996__102_3_243_0](http://www.numdam.org/item/?id=CM_1996__102_3_243_0))
 
+Another related construction
+
+* M. E. Descotte, E. J. Dubuc, M. Szyld, _A localization of bicategories via homotopies_, Theory and Applications of Categories __35__, 2020, No. 23, 845--874, [TAC](http://tac.mta.ca/tac/volumes/35/23/35-23abs.html) [[zoranskoda:MR4112764]]
+
+Yer another related subject
+
+* M. E. Descotte, [[E. J. Dubuc]], M. Szyld, _Model bicategories and their homotopy bicategories_, Adv. Math. __404__B, (2022) 108455 [arXiv:1805.07749](https://arxiv.org/abs/1805.07749) [doi](https://doi.org/10.1016/j.aim.2022.108455)
 
 [[!redirects localizations of a 2-category]]
 [[!redirects localizations of 2-categories]]
