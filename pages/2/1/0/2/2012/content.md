@@ -37,7 +37,9 @@ were invented with a view toward quantum integrable systems systematizing analog
 
 * [[quasitriangular bialgebra]], [[Yangian]], [[quantum group]] 
 
-* [[Lax equation]], [[spectral curve]], [[Burchnall-Chaundy theory]]
+* [[Lax equation]], [[spectral curve]]
+
+* [[Burchnall-Chaundy theory]], [[argument shift method]]
 
 * [[tau-function]], [[Sato Grassmannian]]
 
