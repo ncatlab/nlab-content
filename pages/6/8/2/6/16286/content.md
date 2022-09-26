@@ -17,7 +17,7 @@
 
 In the 19th century, _speculation_, from Latin _speculari_ = _observing_, referred to a method in [[philosophy]] by which truths were meant to be "observed" in a kind of [[mysticism|mystic]] insight. Specifically in the school of [[idealism]] this _speculation_ is used with positive connotation and is meant to be closer to the truth. 
 
-Evidently, later this attitute widely changed.
+Evidently, later this attitude widely changed.
 
 
 ## Hegel on speculation
