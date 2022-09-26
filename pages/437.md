@@ -20,33 +20,67 @@
 
 ## Idea
 
-A _path space object_ in [[homotopy theory]] is an object that behaves for many purposes as the [[topology|topological]] [[path space]] in [[topological homotopy theory]].
+A _path space object_ in [[homotopy theory]] is an [[object]] in a [[homotopical category]] that behaves for many purposes as the [[topology|topological]] [[path space]] does in [[topological homotopy theory]].
 
 
 ## Definition
+ {#Definition}
 
-In $C$ a [[category with weak equivalences]] and with [[products]] a **path space object of an object $X$** is a factorization of the diagonal morphism $X \stackrel{(Id, Id)}{\to} X \times X$ into the [[product]] as
+\begin{definition}\label{PathSpaceObject}
+**(path space object)**
+\linebreak
+For $\mathcal{C}$ a [[category with weak equivalences]] and with [[binary products]], a **path space object of/for an [[object]] $X$** of $\mathcal{C}$ is a factorization of the [[diagonal]] morphism $X \stackrel{(Id, Id)}{\to} X \times X$ into the [[product]] as
 
 $$
-  X \stackrel{s}{\to} X^I \stackrel{(d_0, d_1)}{\to} X \times X
+  X 
+    \xrightarrow{\;\;\; s \;\;\;} 
+  Paths_X
+    \xrightarrow{\;\;\; (d_0, d_1) \;\;\;}
+  X \times X
 $$
 
-such that $s$ is a weak equivalence.  (This also makes sense even if the product $X \times X$ doesn't exist.)  We interpret a ([[generalised element|generalised]]) [[global element|element]] of $X^I$ as a [[path]] in $X$.
+such that $s$ is a [[weak equivalence]] ([Quillen 1967, §I.1](#Quillen67)).  
 
-+-- {: .un_remark}
-###### Notice
-Here $C^I$ is a primitive symbol. $I$ is _not_ assumed to be an object and $C^I$ is not assumed to be an [[closed category|internal hom]]. This is standard but somewhat abusive notation. It is supposed to remind us of the "nice" situation where the path object _is_ co-represented by an [[interval object]].
-=--
+Moreover ([Dwyer & Spalinski 1995](#DwyerSpalinski95)):
 
-If the category in question also has a notion of [[fibration]]s, such as in a [[category of fibrant objects]] or in a [[model category]], the morphism 
-$C^I \stackrel{(d_0, d_1)}{\to} C \times C$ in the definition of a path object is required to be a fibration.
+If $\mathcal{C}$ in addition has the structure of a [[fibration category]] then one speaks, furthermore, of a *good path space object* if $(d_0,d_1)$ is a [[fibration]].
 
-Path space objects are in particular guaranteed to exist in any [[model category]].
+If $\mathcal{C}$ furthermore has the structure of a [[model category]] then one speaks of a *very good path space object* if $(d_0,d_1)$ is a [[fibration]] and $s$ is a [[cofibration]] (hence an [[acyclic cofibration]]).
+\end{definition}
+
+\begin{remark}
+In Def. \ref{PathSpaceObject} one interprets 
+
+1. a ([[generalised element|generalised]]) [[global element|element]] of $X^I$ as a [[path]] in $X$;
+
+1. $d_0, d_1$ as the maps that send a path to its start- or endpoint, respectivelyl
+
+1. $s$ as the map that sends a point to the path [[constant function|constant]] on that point.
+
+\end{remark}
+
+\begin{remark}
+  In any [[model category]], the [[factorization system|factoization axioms]] applied to the [[diagonal maps]] immediately imply that every object has a path space object, and in fact a "very good" one. (See [below](#InModelCategories).)
+\end{remark}
+
+\begin{remark}
+In the presence of a (good, very good) [[interval object]] 
+
+$$
+  \ast \sqcup \ast \to I \to \ast
+  \,,
+$$
+
+the [[exponential objects]] of the form $X^I$ are (good, very good) path space objects (at least for the evident corresponding definition of "interval object").
+
+In particular, in a [[convenient category of topological spaces]], with $I = [0,1]$ the standard [[closed interval]], the [[compact-open topology|mapping space]] $X^{[0,1]}$ is the standard [[path space]] and is a path object in the general sense of Def. \ref{PathSpaceObject}.
+\end{remark}
 
 
 ## Examples
 
 ### In model categories
+ {#InModelCategories}
 
 If $C$ is a [[model category]] then the factorization axiom ensures that for every object $X \in C$ there is a factorization of the diagonal 
 
@@ -119,7 +153,15 @@ From a path space object may be derived [[loop space object]]s.
 
 The general definition in [[model categories]] is due to:
 
-* {#Quillen67} [[Daniel Quillen]], Section I.1, Def. 4, p. 9 (15 of 165) in: _Axiomatic homotopy theory_ in: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics 43, Springer 1967 ([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438))
+* {#Quillen67} [[Daniel Quillen]], § I.1, Def. 4, p. 9 (15 of 165) in: _Axiomatic homotopy theory_ in: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics 43, Springer 1967 ([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438))
+
+The terminology of "good" and "very good" path space objects appears in:
+
+* {#DwyerSpalinski95} [[William Dwyer]], [[Jan Spalinski]], §4.12 in: *[[Homotopy theories and model categories]]* ([[DwyerSpalinski_HomotopyTheories.pdf:file]]) 
+
+  in: [[Ioan Mackenzie James|I. M. James]], *[[Handbook of Algebraic Topology]]*, North Holland 1995 ([ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2), [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
+
+
 
 Lecture notes:
 
