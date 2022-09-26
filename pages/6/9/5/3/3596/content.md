@@ -19,7 +19,6 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -260,9 +259,9 @@ Conversely, since any weak factorization system gives rise to [[path objects]] b
 
 1. In order to handle the additional [[context]] $\Delta$ in the explicit definition above, it turns out to be necessary to assume that $L$-maps are preserved by [[pullback]] along $R$-maps between $R$-objects.  (Such a condition is also necessary in order to interpret type-theoretic [[dependent products]] in a [[locally cartesian closed category]].)
 
-1. This enables us to define identity types with their elimination and computation rules "locally", i.e. for each type individually.  However, every construction in type theory is stable under [[substitution]].  This means that if $y\colon Y\vdash A(y)\colon Type$ is a dependent type and $f\colon X\to Y$ is a morphism, then the identity type $x\colon X \vdash Id_{A(f(x))}(-,-)\colon Type$ is the same whether we first construct $Id_{A(y)}$ and then substitute $f(x)$ for $y$, or first substitute $f(x)$ for $y$ to obtain $A(f(x))$ and then construct its identity type.  In order for this to hold up to isomorphism, we need to require that the WFS have *stable path objects* --- a choice of path object data in each slice category which is preserved by pullback.  In [(Warren)](#Warren) it is shown that any [[simplicial model category]] in which the [[cofibrations]] are the [[monomorphisms]] can be equipped with stable path objects, while [(Garner-van den Berg)](#vdBergGarner) it is shown that the presence of internal path-categories also suffices.
+1. This enables us to define identity types with their elimination and computation rules "locally", i.e. for each type individually.  However, every construction in type theory is stable under [[substitution]].  This means that if $y\colon Y\vdash A(y)\colon Type$ is a dependent type and $f\colon X\to Y$ is a morphism, then the identity type $x\colon X \vdash Id_{A(f(x))}(-,-)\colon Type$ is the same whether we first construct $Id_{A(y)}$ and then substitute $f(x)$ for $y$, or first substitute $f(x)$ for $y$ to obtain $A(f(x))$ and then construct its identity type.  In order for this to hold up to isomorphism, we need to require that the WFS have *stable path objects* --- a choice of path object data in each slice category which is preserved by pullback.  In [Warren 2008](#Warren08) it is shown that any [[simplicial model category]] in which the [[cofibrations]] are the [[monomorphisms]] can be equipped with stable path objects, while [Garner & van den Berg 2011](#vdBergGarner11) it is shown that the presence of internal path-categories also suffices.
 
-1. The eliminator term $J$ of identity types in type theory is also preserved by substitution.  This imposes an additional *[[coherence]]* requirement which is tricky to obtain categorically.  See the references by [Warren](#Warren) and [Garner-van den Berg](#vdBergGarner) for methods that ensure this, such as by invoking an [[algebraic weak factorization system]].  It can also be handled *a la* [[Vladimir Voevodsky|Voevodsky]] by using a (possibly [[univalence axiom|univalent]]) [[universe]].
+1. The eliminator term $J$ of identity types in type theory is also preserved by substitution.  This imposes an additional *[[coherence]]* requirement which is tricky to obtain categorically.  See [Warren 2008](#Warren08) and [Garner & van den Berg 2011](#vdBergGarner11) for methods that ensure this, such as by invoking an [[algebraic weak factorization system]].  It can also be handled *a la* [[Vladimir Voevodsky|Voevodsky]] by using a (possibly [[univalence axiom|univalent]]) [[universe]].
 
 1. Finally, substitution in type theory is strictly functorial/[[associativity|associative]], whereas it is modeled categorically by pullback which is generally not strictly so.  This is a general issue with the categorical interpretation of [[dependent type theory]], not something specific to identity types.  It can be resolved by passing to a [[split fibration]] which is equivalent to the [[codomain fibration]], or by making use of a [[universe]].  See [[categorical model of dependent types]].
 
@@ -439,33 +438,56 @@ In retrospect, this is roughly an algebraic version of the standard fact that ev
 
 * [[encode-decode method]]
 
+
 ## References
+ {#References}
 
 ### Explicit definition
  {#ReferencesExplicitDefinition}
 
-Original articles:
+The [[induction principle]] for identity types (also known as "path induction" or the "[[J-rule]]") is first stated in
 
-* {#MartinLof75} [[Per Martin-Löf]], Section 1.7 in: _An intuitionistic theory of types: predicative part_, in: H. E. Rose, J. C. Shepherdson (eds.), *Logic Colloquium '73, Proceedings of the Logic Colloquium*, Studies in Logic and the Foundations of Mathematics **80** Pages 73-118,  Elsevier 1975 (<a href="https://doi.org/10.1016/S0049-237X(08)71945-1">doi:10.1016/S0049-237X(08)71945-1</a>, [CiteSeer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
+* {#MartinLof75} [[Per Martin-Löf]], §1.7 and p. 94 of: _An intuitionistic theory of types: predicative part_, in: H. E. Rose, J. C. Shepherdson (eds.), *Logic Colloquium '73, Proceedings of the Logic Colloquium*, Studies in Logic and the Foundations of Mathematics **80** Pages 73-118,  Elsevier 1975 (<a href="https://doi.org/10.1016/S0049-237X(08)71945-1">doi:10.1016/S0049-237X(08)71945-1</a>, [CiteSeer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
+
+and in the modern form of [[inference rules]] in 
+
+* Bengt Nordström, Kent Petersson, Jan M. Smith, §8.1 of: *Programming in Martin-Löf's Type Theory*, Oxford University Press (1990) &lbrack;[webpage](https://www.cse.chalmers.se/research/group/logic/book/), [pdf](https://www.cse.chalmers.se/research/group/logic/book/book.pdf), [[NordstromPeterssonSmith-TypeTheory.pdf:file]]&rbrack;
+
+with early survey in §1.0.1 of: 
+
+* {#Warren08} [[Michael Warren]], *Homotopy theoretic aspects of constructive type theory*, PhD thesis (2008) &lbrack;[pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf), [[Warren-HomotopyTypeTheory.pdf:file]]&rbrack;
+
+
+See also (?):
 
 * [[Per Martin-Löf]], p. 169 (17 of 23) in: *Constructive Mathematics and Computer Programming*, Studies in Logic and the Foundations of Mathematics Volume 104, 1982, Pages 153-175 (<a href="https://doi.org/10.1016/S0049-237X(09)70189-2">doi:10.1016/S0049-237X(09)70189-2</a>)
 
 * [[Per Martin-Löf]], p. 31-34 in: _Intuitionistic type theory_, Lecture notes Padua 1984 (notes by [[Giovanni Sambin]]), Bibliopolis, Napoli (1984) ([pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]])
 
 
-* Bengt Nordström, Kent Petersson, Jan M. Smith, §8.1 of: *Programming in Martin-Löf's Type Theory*, Oxford University Press (1990) &lbrack;[webpage](https://www.cse.chalmers.se/research/group/logic/book/), [pdf](https://www.cse.chalmers.se/research/group/logic/book/book.pdf), [[NordstromPeterssonSmith-TypeTheory.pdf:file]]&rbrack;
+The observation that the Id-induction principle (the J-rule) is equivalent to [[transport]] ("[[salva veritate]]") together with [[contractible type|contractibility]] of the type of identifications ("by reversal of identifications") is stated in:
 
-Survey in
+* [[Thierry Coquand]], slides 26-28 of: *Equality and dependent type theory* (2011) &lbrack;[pdf](https://www.cse.chalmers.se/~coquand/equality.pdf), [[Coquand-EqualityAndDependentTypeTheory.pdf:file]]&rbrack;
 
-* {#Warren} [[Michael Warren]], Chapter 1 of: _Homotopy theoretic aspects of constructive type theory_, PhD thesis (2008) ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
- 
+further highlighted in
 
-Issues of [[extensional type theory|extensional]]/[[intensional type theory]] 
+* {#LadymanPresnell15} [[James Ladyman]], [[Stuart Presnell]], §6.3 of: *Identity in Homotopy Type Theory, Part I: The Justification of Path Induction*, Philosophia Mathematica **23** 3 (2015) 386–406 &lbrack;[doi:10.1093/philmat/nkv014](https://doi.org/10.1093/philmat/nkv014), [pdf](http://philsci-archive.pitt.edu/11079/1/Identity_in_HTT_public.pdf)&rbrack;
+
+and the proof of the equivalence is spelled out in:
+
+* Lennard Götz, §4.2 of: *Martin-Löf's J-rule*, LMU (2018) &lbrack;[pdf](https://www.math.lmu.de/~petrakis/Goetz.pdf)&rbrack; 
+
+
+  
+Discussion of issues of [[extensional type theory|extensional]]/[[intensional type theory]]:
 
 * {#Hofmann95} [[Martin Hofmann]], _Extensional concepts in intensional type theory_, Ph.D. thesis, University of Edinburgh, (1995) ([ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]])
 
 * {#Streicher} [[Thomas Streicher]], _Investigations Into Intensional Type Theory_, Habilitationsschrift ([pdf](http://www.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf))
  
+The observation that Id
+
+
 
 ### As inductive types
  {#ReferencesByInductiveTypes}
@@ -513,7 +535,7 @@ See also
 
 * [Using Yoneda rather than J to present the identity type](https://www.cs.bham.ac.uk/~mhe/yoneda/yoneda.html)
  
-* {#vdBergGarner}[[Benno van den Berg]], [[Richard Garner]], _Types are weak $\omega$-groupoids_ , ([arXiv:0812.0298](http://arxiv.org/abs/0812.0298))
+* {#vdBergGarner11}[[Benno van den Berg]], [[Richard Garner]], *Types are weak $\omega$-groupoids*, Proceedings of the London Mathematical Society **102** 2 (2011) 370-394 &lbrack;[arXiv:0812.0298](http://arxiv.org/abs/0812.0298), [doi:10.1112/plms/pdq026](https://doi.org/10.1112/plms/pdq026)&rbrack;
  
 * [[Peter LeFanu Lumsdaine]], _Weak $\omega$-categories from intensional type theory_ , ([arXiv:0812.0409](http://arxiv.org/abs/0812.0409))
 
