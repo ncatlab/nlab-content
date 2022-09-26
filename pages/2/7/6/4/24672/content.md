@@ -50,8 +50,6 @@ $$\mathrm{sym}(a, b):A_1(a, b)\to A_1(b, a)$$
 * **reflexive** if it comes with a family of elements
 $$\mathrm{refl}(a):A_1(a, a)$$
 
-* a **pseudo-relation** if every type $A_1(a, b)$ is an [[h-set]]. 
-
 * a **[[relation]]** if every type $A_1(a, b)$ is an propositon. 
 
 The graph $(A_0, A_1)$ is similarly called 
@@ -75,8 +73,6 @@ A **univalent set** is a preset which satisfies the Rezk completion condition
 $$\mathrm{idToArr}:a =_{A_0} b \simeq A_1(a, b)$$
 
 Univalent sets are the same as [[h-sets]], and so they are typically just called **[[sets]]**. 
-
-A **[[pseudo-equivalence relation]]** is a reflexive, transitive, and symmetric pseudo-relation. A **[[setoid]]** or  **[[Bishop set]]** is an h-set with a pseudo-equivalence relation. 
 
 ## Bijections, isomorphisms, and equivalences 
 
