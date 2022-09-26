@@ -1,3 +1,4 @@
+[[!redirects sets in homotopy type theory]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -24,13 +25,13 @@
 
 Historically, there have been [[foundations]] which do not take the notion of [[set]] to be the fundamental notion. These include [[preset]] theories over [[first order logic]] such as [[SEAR#eqfree|certain presentations of SEAR]], as well as [[type theories]] like [[MLTT]] and [[cubical type theory]]. In such theories, there have been multiple proposed definitions of what a [[set]] should be. These include:
 
-* An [[h-set]] (as common in [[cubical type theory]])
+* An [[h-set]] (as common in [[cubical type theory]] and [[Martin-Löf type theory]])
 * A preset/type with an [[equivalence relation]]/[[symmetric relation|symmetric]] [[preorder]] (as common in preset theories)
 * An h-set with an [[equivalence relation]]/[[symmetric relation|symmetric]] [[preorder]] 
 * A [[Bishop set]] (as common in [[Errett Bishop]]'s [[Bishop's constructive mathematics|branch of constructive mathematics]])
 * A [[setoid]] (as common in [[MLTT]] without the [[quotient set]] [[higher inductive type]])
 
-In [[homotopy type theory]] (and more generally in any [[intensional type theory]]), all these definitions are valid definitions of "sets", but they lead to different structures which behave differently from each other. This article is dedicated to distinguishing between the different notions of sets which have popped up throughout history, in the context of homotopy type theory. 
+In [[homotopy type theory]] (and more generally in any [[intensional type theory]]), all these definitions are valid, but they lead to different structures which behave differently from each other. This article is dedicated to distinguishing between the different set-like structures which have popped up throughout history, in the context of homotopy type theory. 
 
 ## Definitions
 
@@ -61,19 +62,68 @@ The graph $(A_0, A_1)$ is similarly called
 
 * **reflexive** if its edge type family is reflexive
 
-A **[[Bishop set]]** $(A_0, A_1,\mathrm{trans}, \mathrm{sym}, \mathrm{refl})$ is a reflexive, symmetric, transitive graph. Historically in type theory $A_1$ was called an "equivalence relation", but the term "relation" in the context of [[homotopy type theory]] refers to edge type families for which all its edge types are [[propositions]]. 
+In analogy with similar concepts in category theory ([[wild category]], [[precategory]], [[strict category]], and [[univalent category]]), we define the following:
 
-A **[[pseudo-equivalence relation]]** is a reflexive, transitive, and symmetric pseudo-relation. A **[[setoid]]** is an h-set with a pseudo-equivalence relation. 
+A **wild set** $(A_0, A_1,\mathrm{trans}, \mathrm{sym}, \mathrm{refl})$ is a reflexive, symmetric, transitive graph. 
 
-A **[[preorder]]** is a reflexive and transitive relation. An  **[[equivalence relation]]** is a [[symmetric relation|symmetric]] [[preorder]]. Thus, every type with an equivalence relation is a **symmetric preordered type**, and every h-set with an equivalence relation is a **symmetric [[proset]]**. 
+A **preset** is a wild set whose hom-types are [[h-propositions]]. This is the same as a type with an [[equivalence relation]], reflexive, symmetric, and transitive relation. Note that "preset" used here is different from the notion of [[preset]] in preset theories like [[SEAR]] without equality, which correspond more to bare types in homotopy type theory. 
 
-Every symmetric preordered type is thus a Bishop set whose edge type family is a relation, or equivalently, if every edge type $A_1(a, b)$ is a propositon for elements $a:A_0$ and $b:A_0$. 
+A **strict set** or **strict preset** is a preset whose object type is also an h-set. 
 
-Every symmetric proset is a setoid whose pseudo-equivalence relation is an [[equivalence relation]], or equivalently, if every edge type $A_1(a, b)$ is a propositon for elements $a:A_0$ and $b:A_0$. 
+A **univalent set** is a preset which satisfies the Rezk completion condition
 
-Every h-set is equivalent to a type with an equivalence relation for which the canonical function
-$$\mathrm{idtoequiv}(a, b):(a = b) \to A_1(a, b)$$
-is an equivalence for all $a:A_0$ and $b:A_0$. 
+$$\mathrm{idToArr}:a =_{A_0} b \simeq A_1(a, b)$$
+
+Univalent sets are the same as [[h-sets]], and so they are typically just called **[[sets]]**. 
+
+A **[[pseudo-equivalence relation]]** is a reflexive, transitive, and symmetric pseudo-relation. A **[[setoid]]** or  **[[Bishop set]]** is an h-set with a pseudo-equivalence relation. 
+
+## Bijections, isomorphisms, and equivalences 
+
+We begin with wild sets 
+$$A \coloneqq (A_0, A_1, \mathrm{trans}_A, \mathrm{refl}_A, \mathrm{sym}_A)$$ 
+$$B \coloneqq (B_0, B_1, \mathrm{trans}_B, \mathrm{refl}_B, \mathrm{sym}_B)$$ 
+$$C \coloneqq (C_0, C_1, \mathrm{trans}_C, \mathrm{refl}_C, \mathrm{sym}_C)$$ 
+An extensional function between two wild sets $f:A \to B$ consists of a function $f_0:A_0 \to B_0$ and for each object $a:A_0$ and $b:B_0$ a function $f_1(a, b):A_1(a, b) \to B_1(a, b)$. 
+
+The identity function $id_A:A \to A$ is an extensional function which consists of the identity function $id_{A_0}:A_0 \to A_0$ for all elements $a:A_0$ and $b:A_0$, the identity function $id_\equiv(a, b):(a \equiv_A b) \to (a \equiv_A b))$. 
+
+The composition $g \circ f:A \to C$ of extensional functions $f:A \to B$ and $g:B \to C$ is defined as 
+$$(g \circ f)_0 \coloneqq g_0 \circ f_0$$ 
+and for all objects $a:A_0$ and $b:A_0$, 
+$$(g \circ f)_\equiv(a, b) \coloneqq g_equiv(f_0(a), f_0(b)) \circ f_equiv(a, b)$$
+
+We naively copy the set-theoretic definitions of [[injection]], [[surjection]], and [[bijection]] over to type theory
+
+An extensional function $f:A \to B$ is a **[[injection]]** if for all elements $b:B_0$ the type of elements $a:A_0$ with a witness $p(a, b):B_1(f_0(a), b)$ is a [[subsingleton]].
+
+$$\mathrm{isInj}(f) \coloneqq \prod_{b:B_0} \mathrm{isProp}\left(\sum_{a:A} B_1(f_0(a), b)\right)$$
+
+An extensional function $f:A \to B$ is a **[[surjection]]** if for all elements $b:B_0$ the type of elements $a:A_0$ with a witness $p(a, b):B_1(f_0(a), b)$ is inhabited.
+
+$$\mathrm{isSurj}(f) \coloneqq \prod_{b:B_0} \left|\sum_{a:A} B_1(f_0(a), b)\right|$$
+
+An extensional function $f:A \to B$ is a **[[bijection]]** if for all elements $b:B_0$ the type of elements $a:A_0$ with a witness $p(a, b):B_1(f_0(a), b)$ is a [[singleton]].
+
+$$\mathrm{isBij}(f) \coloneqq \prod_{b:B_0} \mathrm{isContr}\left(\sum_{a:A} B_1(f_0(a), b)\right)$$
+
+We also naively copy the categorical-theoretic definition of [[isomorphism]] over to type theory
+
+An extensional function $f:A \to B$ is an **[[isomorphism]]** if there exist an extensional function $g:B \to A$ with witnesses 
+$$\mathrm{ret}_0(f, g):(g \circ f)_0 = id_{A_0}$$ 
+$$\mathrm{sec}_0(f, g):(f \circ g)_0 = id_{B_0}$$ 
+$$\mathrm{ret}_1(f, g)(a, b):(g \circ f)_1(a, b) = id_{A_1}(a, b)$$ 
+$$\mathrm{sec}_1(f, g)(a, b):(f \circ g)_1(a, b) = id_{B_1}(a, b)$$
+
+An extensional function $f:A \to B$ is an **[[equivalence]]** if the function $f_0:A_0 \to B_0$ is an equivalence of types and for all elements $a:A_0$ and $b:A_0$ the function $f_1(a, b):A_1(a, b) \to B_1(f_0(a), f_0(b))$ is an equivalence of types. 
+
+The only notion of wild sets for which the set-theoretic notions of [[bijection]], [[isomorphism]], and [[equivalence]] are all the same is an [[h-set]]: a transitive, reflexive, and symmetric graph whose hom-types are propositionally truncated, and which satisfy the [[Rezk completion]] condition
+
+$$\mathrm{idToArr}:a =_{A_0} b \simeq A_1(a, b)$$
+
+Isomorphism and equivalence of wild sets are the same only when both the object type and the hom-types are [[h-sets]]. Bijection and equivalence of wild sets are the same only in the presence of the Rezk completion condition on the structure. Combined with the requirement that the object type is an [[h-set]], this automatically means that the hom-types are [[h-propositions]], which makes the entire structure an [[h-set]]. 
+
+This is why [[h-sets]] are simply called [[sets]] in [[homotopy type theory]] and more generally in [[intensional type theory]]. 
 
 ## See also
 
