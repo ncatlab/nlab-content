@@ -107,6 +107,8 @@ On [[D=6 supergravity]] with [[number of supersymmetries|$\mathcal{N} = (4,0)$]]
 
 * [[Chris Hull]], *Symmetries and Compactifications of $(4,0)$ Conformal Gravity*, JHEP 0012: 007 (2000) &lbrack;[arXiv:hep-th/0011215](https://arxiv.org/abs/hep-th/0011215), [doi:10.1088/1126-6708/2000/12/007](https://doi.org/10.1088/1126-6708/2000/12/007)&rbrack;
 
+* [[Chris Hull]], *Gravity, Duality and Conformal Symmetry* &lbrack;[arXi:2209.11716](https://arxiv.org/abs/2209.11716)&rbrack;
+
 
 
 
