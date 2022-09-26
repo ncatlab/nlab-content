@@ -85,7 +85,7 @@ The [[set]] of [[extended natural numbers]] as it behaves in [[classical mathema
     Inductive extnat : Type :=
     | zero : extnat
     | succ : extnat -> extnat
-    | inf : extnat -> extnat
+    | inf : extnat
     | fixpoint : succ inf == inf
     | contr1 : forall (x y : int) (p q : x == y), p == q.
 
@@ -210,7 +210,7 @@ Examples include the [[Sierpinski space]] $1_\bot$.
 
 ### Internal type theory
 
-From Altenkirch and Kaprosi 2017
+From Altenkirch and Kaposi 2017
 
 ## Related concepts
 
