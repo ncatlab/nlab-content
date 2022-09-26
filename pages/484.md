@@ -107,7 +107,7 @@ This terminology is particularly common in [[foundations]] of mathematics where 
 
 * [[monoidal symmetric proset]]
 
-* [[sets in homotopy type theory]]
+* [[set-like structure in homotopy type theory]]
 
 ## References
 
