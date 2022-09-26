@@ -74,6 +74,9 @@ For "exotic" $\mathcal{N} = (4,0)$-supersymmetry:
 
 * [[Yannick Bertrand]], [[Stefan Hohenegger]], [[Olaf Hohm]], [[Henning Samtleben]], *Supersymmetric action for 6D $(4,0)$ supergravity*, JHEP (2022) &lbrack;[arXiv:2206.04100](https://arxiv.org/abs/2206.04100)&rbrack;
 
+* [[Chris Hull]], *Gravity, Duality and Conformal Symmetry* &lbrack;[arXi:2209.11716](https://arxiv.org/abs/2209.11716)&rbrack;
+
+
 
 
 ### Killing spinors
