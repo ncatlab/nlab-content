@@ -481,7 +481,7 @@ The fact that every [[simplicial model category]] in which the cofibrations are 
 
 and with more details in 
 
-* [[Michael Warren]], _Homotopy theoretic aspects of constructive type theory_, PhD thesis (2008) ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
+* {#Warren} [[Michael Warren]], _Homotopy theoretic aspects of constructive type theory_, PhD thesis (2008) &lbrack;[pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf), [[Warren-HomotopyTypeTheory.pdf:file]]&rbrack;
 
 * [[Richard Garner]],  [[Benno van den Berg]], _Topological and simplicial models of identity types_. , ACM Transactions on Computational Logic ([pdf](http://www.mathematik.tu-darmstadt.de/~berg/papers/main.pdf))
 
