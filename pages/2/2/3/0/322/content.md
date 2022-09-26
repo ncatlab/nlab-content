@@ -85,7 +85,7 @@ There is an evident generalization of the above where we allow the operad to hav
 
 Let $C$ be a [[set]], called the _set of colours_ . Then a **coloured operad** is 
 
-* for each $n \in \mathbb{N}$ and each $(n+1)$-tuple $(c_1, \cdots c_n, c)$ an object $P(c_1, \cdots, c_n;c) \in V$;
+* for each $n \in \mathbb{N}$ and each $(n+1)$-tuple $(c_1, \cdots, c_n, c)$ an object $P(c_1, \cdots, c_n;c) \in V$;
 
 * for each $c \in C$ a morphism $1_c : I \to P(c;c)$ in $V$ -- the _identity_ on $c$; 
 
