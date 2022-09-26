@@ -3,7 +3,14 @@ Thierry Coquand is a professor in computer science at the University of Gothenbu
 
 * [webpage](http://www.cse.chalmers.se/~coquand/)
 
-## related $n$Lab entries
+## Selected writings
+
+On [[identity types]] in [[dependent type theory]] ([[homotopy type theory]]):
+
+* [[Thierry Coquand]], slides 26-28 of: *Equality and dependent type theory* (2011) &lbrack;[pdf](https://www.cse.chalmers.se/~coquand/equality.pdf), [[Coquand-EqualityAndDependentTypeTheory.pdf:file]]&rbrack;
+
+
+## Related entries
 
 * [[calculus of constructions]]
 
