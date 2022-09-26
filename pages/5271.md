@@ -69,6 +69,11 @@ The [[pure spinor]] superparticle:
 
 * [[Nathan Berkovits]], Eduardo Casali, [[Max Guillen]], Lionel Mason, _Notes on the $D=11$ pure spinor superparticle_ ([arXiv:1905.03737](https://arxiv.org/abs/1905.03737))
 
+In a [[superfield|super]]-[[background field]]:
+
+* Yu.A. Markov, M.A. Markova, A.I. Bondarenko, N.Yu. Markov, *Superparticle in an external chiral matter superfield* &lbrack[https://arxiv.org/abs/2209.11565](https://arxiv.org/abs/2209.11565)&rbrack;
+
+
 
 [[!redirects superparticles]]
 
