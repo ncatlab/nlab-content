@@ -50,8 +50,6 @@ $$\mathrm{sym}(a, b):A_1(a, b)\to A_1(b, a)$$
 * **reflexive** if it comes with a family of elements
 $$\mathrm{refl}(a):A_1(a, a)$$
 
-* a **[[relation]]** if every type $A_1(a, b)$ is an propositon. 
-
 The graph $(A_0, A_1)$ is similarly called 
 
 * **transitive** if its edge type family is transitive
@@ -64,7 +62,7 @@ In analogy with similar concepts in category theory ([[wild category]], [[precat
 
 A **wild set** $(A_0, A_1,\mathrm{trans}, \mathrm{sym}, \mathrm{refl})$ is a reflexive, symmetric, transitive graph. 
 
-A **preset** is a wild set whose hom-types are [[h-propositions]]. This is the same as a type with an [[equivalence relation]], reflexive, symmetric, and transitive relation. Note that "preset" used here is different from the notion of [[preset]] in preset theories like [[SEAR]] without equality, which correspond more to bare types in homotopy type theory. 
+A **preset** is a wild set whose hom-types are [[h-propositions]]. This is the same as a type with an [[equivalence relation]]. Note that "preset" used here is different from the notion of [[preset]] in preset theories like [[SEAR]] without equality, which correspond more to bare types in homotopy type theory. 
 
 A **strict set** or **strict preset** is a preset whose object type is also an h-set. 
 
@@ -73,6 +71,20 @@ A **univalent set** is a preset which satisfies the Rezk completion condition
 $$\mathrm{idToArr}:a =_{A_0} b \simeq A_1(a, b)$$
 
 Univalent sets are the same as [[h-sets]], and so they are typically just called **[[sets]]**. 
+
+We do the same for the notion of [[setoids]]/[[Bishop set]]:
+
+A **wild setoid** $(A_0, A_1,\mathrm{trans}, \mathrm{sym}, \mathrm{refl})$ is the same as a wild set, a reflexive, symmetric, transitive graph. These are the [[setoids]]/[[Bishop sets]] talked about in general [[intensional type theory]]. 
+
+A **[[presetoid]]** is a wild setoid whose hom-types are [[h-sets]]. This is the same as a type with a [[pseudo-equivalence relation]]. 
+
+A **[[strict category|strict]] setoid** is a presetoid whose object type is also an h-set. These are the [[setoids]]/[[Bishop sets]] talked about in [[set-level foundations]]. 
+
+A **[[univalent setoid]]** is a [[presetoid]] which satisfies the Rezk completion condition
+
+$$\mathrm{idToIso}:a =_{A_0} b \simeq a \cong b$$
+
+where $a \cong b$ are the hom-sets of the [[core]] [[pregroupoid]] of the [[presetoid]]. 
 
 ## Bijections, isomorphisms, and equivalences 
 
