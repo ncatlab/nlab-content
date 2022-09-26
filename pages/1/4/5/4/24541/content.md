@@ -20,11 +20,13 @@
 
 ## Idea
 
-In [[homotopy type theory]] (or more generally [[intensional type theory]]), when defining a [[category]] (meaning a *1-category*), one has to decide whether to impose an [[h-level]] restriction on the [[type]] of [[objects]].  A **precategory** is a category in which *no* such restriction is imposed; thus the type of objects may be a set, or a 1-type, or an even higher type.
+In [[homotopy type theory]] (or more generally [[intensional type theory]]), when defining a [[category]] (meaning a *1-category*), one has to decide whether to impose an [[h-level]] restriction on the [[type]] of [[objects]].  A **precategory** is a category in which *no* such restriction is imposed; thus the type of objects may be a set (i.e. a 0-type), or a 1-type, or an even higher type.
 
 Surprisingly much [[category theory]] can be done purely with precategories, and some authors call them merely "categories".  However, there are notable differences between precategories and the familiar notion of "category" from [[set theory|set-theoretic]] foundations.  Moreover, the two do not coincide under the standard interpretation of homotopy type theory into set theory (e.g. the model in [[simplicial sets]]).  Indeed, the semantics of a precategory is the 1-categorical analogue of a [[Segal space]].
 
 Alternative notions of "1-category" in homotopy type theory include [[strict categories]], whose type of objects is a set, and [[univalent categories]], whose type of objects is a 1-type whose identifications coincide with isomorphisms for the category structure.  The latter are generally better-behaved and include naturally-occurring examples, but the former are sometimes technically useful.
+
+There are also "even more pre-" notions of category in intensional type theory, such as [[E-categories]].
 
 ## Definition
 
@@ -90,7 +92,7 @@ called __composition__;
 
 ## Properties
 
-Every **precategory** is a locally univalent [[(2,1)-preorder]]. 
+Every **precategory** is a locally univalent [[E-category]]. 
 
 In [[univalent type theory]] there is a [[structure identity principle]] for precategories:
 
@@ -118,7 +120,7 @@ Only in univalent categories are such functors the same as [[adjoint equivalence
 
 * [[preallegory]]
 
-* [[(2,1)-preorder]]
+* [[E-category]]
 
 ## References
 
