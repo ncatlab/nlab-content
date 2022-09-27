@@ -20,9 +20,10 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Enriched categories, internal categories and change of base|[[Dominic Verity]]|1992|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html)| |
 |Cobordism Categories|Sean Carmody|1995| | | 
 |The algebra of distributive and extensive categories|[[Stephen Lack]]|1995| | | 
-|Polycategories|[[Richard Garner]]|2006|[PDF](http://web.science.mq.edu.au/~rgarner/Thesis/Thesis.pdf)| | |
-|Bigroupoid 2-torsors|Igor Baković|2008|[doi](https://doi.org/10.5282/edoc.9209)|
-|
+|Polycategories|[[Richard Garner]]|2006|[PDF](http://web.science.mq.edu.au/~rgarner/Thesis/Thesis.pdf)| |
+| Bigroupoid 2-torsors | [[Igor Baković]] | 2008 | [doi](https://doi.org/10.5282/edoc.9209)  | on [[principal 2-bundles]] |
+
+
 
 ## Related pages
 
