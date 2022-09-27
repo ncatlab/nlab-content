@@ -972,6 +972,9 @@ Review:
 
 * {#AbdolmalekiBoroun18} M. Abdolmaleki, G.R. Boroun, _The Survey of Proton Structure Function with the AdS/QCD Correspondence_ Phys.Part.Nucl.Lett. 15 (2018) no.6, 581-584 ([doi:10.1134/S154747711806002X](https://doi.org/10.1134/S154747711806002X))
 
+* Si-wen Li, Hao-qian Li, Sen-kai Luo, *Corrections to the instanton configuration as baryon in holographic QCD* &lbrack;[arXiv:2209.12521](https://arxiv.org/abs/2209.12521)&rbrack;
+
+
 On relation to [[type 0 string theory]]:
 
 * {#GLMR00} Roberto Grena, Simone Lelli, Michele Maggiore, Anna Rissone, _Confinement, asymptotic freedom and renormalons in type 0 string duals_, JHEP 0007 (2000) 005 ([arXiv:hep-th/0005213](https://arxiv.org/abs/hep-th/0005213))
@@ -984,7 +987,7 @@ See also
 * S. S. Afonin, _AdS/QCD without Kaluza-Klein modes: Radial spectrum from higher dimensional QCD operators_ ([arXiv:1905.13086](https://arxiv.org/abs/1905.13086))
 
 
-In relation to the [[open syring]] [[tachyon]]:
+In relation to the [[open string]] [[tachyon]]:
 
 * M. Järvinen, E. Kiritsis, F. Nitti, E. Préau, *Tachyon-dependent Chern-Simons terms and the V-QCD Baryon* &lbrack;[arXiv:2209.05868](https://arxiv.org/abs/2209.05868)&rbrack;
 
