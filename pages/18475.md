@@ -141,9 +141,14 @@ See also:
 
 * [[Jan Zaanen]], _[Anti-de-Sitter/Condensed Matter Theory](https://www.lorentz.leidenuniv.nl/zaanen/wordpress/research/anti-de-sittercondensed-matter/)_
 
-On Lifshitz holography relevant forvdescribing disorder systems:
+On Lifshitz holography relevant fordescribing disorder systems:
 
 * {#Park22} Chanyong Park, *Holographic two-point functions in a disorder system* &lbrack;[arXiv:2209.07721](https://arxiv.org/abs/2209.07721)&rbrack;
+
+On holographic description of [[phonon]] gases in non-merallic [[crystals]]:
+
+* Xiangqing Kong, Tao Wang, Liu Zhao, *High temperature AdS black holes are low temperature quantum phonon gases* &lbrack;[arXiv:2209.12230](https://arxiv.org/abs/2209.12230)&rbrack;
+
 
 
 
