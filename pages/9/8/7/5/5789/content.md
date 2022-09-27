@@ -107,8 +107,13 @@ On [[supersymmetric quantum mechanics]] in the perspective of [[supergeometry]] 
 
 * [[Leonardo Castellani]], [[Roberto Catenacci]], [[Pietro Grassi]], _Super Quantum Mechanics in the Integral Form Formalism_, Ann. Henri Poincaré (2018) 19: 1385 ([arXiv:1706.04704](https://arxiv.org/abs/1706.04704))
 
+See also:
 
-### Relation to Morse theory
+* Nick Dorey, Boan Zhao, *Supersymmetric quantum mechanics and growth of sheaf cohomology* &lbrack;[arXiv:2209.11834](https://arxiv.org/abs/2209.11834)&rbrack;
+
+
+
+### Relation to Morse theory and string theory
  {#ReferencesRelationToMorseTheory}
 
 Supersymmetric quantum mechanics gained attention with the work
