@@ -28,7 +28,7 @@ Although it may seem that in general the closed structure is less intuitive to w
 
 ### Basic definition
 
-A __closed category__ is a [[category]] $C$ together with the following data:
+A __(left) closed category__ is a [[category]] $C$ together with the following data:
 
 * A [[functor]] $[-,-] : C^{op} \times C \to C$, called the [[internal hom]]-functor.
 
@@ -70,11 +70,7 @@ which is required to satisfy the following axioms.
 
 * Finally, the map $\gamma\colon C(X,Y) \to C(I,[X,Y])$ defined by $f \mapsto [1,f](j_X)$ is a [[bijection]].
 
-+-- {: .query}
-[[Tobias Fritz]]: I suspect there is a variant of the definition involving a transformation $R^Z_{X Y} \colon  [X,Y] \to [ [Y,Z],[X,Z]]$ rather than $L$. Is this correct? If so, how do these two definitions relate? Can one of them be expressed in terms of the other? Or is there a refined definition which comprises both $L$ and $R$?
-
-[Discussion](http://nforum.ncatlab.org/discussion/4632/closed-category/)
-=--
+There is also a right variant, defined in terms of a natural transformation $R^Z_{X Y} \colon  [X,Y] \to [[Y,Z],[X,Z]]$. This is analogous to how a (nonsymmetric) [[monoidal category]] can be closed on the left or the right. See the discussion [on the nForum](http://nforum.ncatlab.org/discussion/4632/closed-category/).
 
 ### The Eilenberg-Kelly definition
 
