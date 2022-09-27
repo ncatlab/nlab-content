@@ -36,5 +36,10 @@ See also:
 
 * Wikipedia, *[Phonon](https://en.wikipedia.org/wiki/Phonon)*
 
+On [[AdS-CMT correspondence|holographic]] description of phonon gases in non-merallic [[crystals]]:
+
+* Xiangqing Kong, Tao Wang, Liu Zhao, *High temperature AdS black holes are low temperature quantum phonon gases* &lbrack;[arXiv:2209.12230](https://arxiv.org/abs/2209.12230)&rbrack;
+
+
 [[!redirects phonons]]
 
