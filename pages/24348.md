@@ -8,6 +8,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |[[Functorial Semantics of Algebraic Theories]]|[[William Lawvere]]|1963|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html)| |
 |Categories of Set Valued Functors|[[Marta Bunge]]|1966| | |
 |Triples, algebras and cohomology|[[Jon Beck]]|1967|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/2/tr2abs.html)| |
+|Limit monads in categories|[[Anders Kock]]|1967|[proquest](https://www.proquest.com/openview/61883e900f1fd8585fe4dfc4c3f271dc)|------|
 |Homotopy Classification of Filtered Complexes|[[Ross Street]]|1968|[Scan](http://science.mq.edu.au/~street/Thesis.pdf)| |
 |Construction of Biclosed Categories|[[Brian Day]]|1970|[Scan](http://web.science.mq.edu.au/~street/DayPhD.pdf)| |
 |A categorical approach to universal algebra|[[Bob Walters]]|1970|[ANU repository](https://openresearch-repository.anu.edu.au/handle/1885/133321)| |
