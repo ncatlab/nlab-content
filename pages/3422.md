@@ -20,7 +20,7 @@
 
 The **$(\infty,1)$-Grothendieck construction** is the generalization of the [[Grothendieck construction]] from [[category theory]] to [[(∞,1)-category theory]].
 
-Recall that the [[1-category]]-theoretic [[Grothendieck construction]] establishes an [[equivalence of categories]]
+Recall that the [[1-category]]-theoretic [[Grothendieck construction]] establishes  [[equivalence of categories|equivalences of categories]],
 
 $$
   Fib(C) \simeq 2Func(C^{op}, Cat)
