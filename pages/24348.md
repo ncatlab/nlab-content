@@ -25,8 +25,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 | Bigroupoid 2-torsors | [[Igor Baković]] | 2008 | [doi](https://doi.org/10.5282/edoc.9209)  | on [[principal 2-bundles]] |
 | Double Categories and Base Change in Homotopy Theory | [[Michael Shulman]] | 2009 | | |
 | Codescent objects in 2-dimensional universal algebra | [[John Bourke]] | 2010 | [pdf](http://www.math.muni.cz/~bourkej/papers/JohnBThesis.pdf) | |
-
-
+|Grothendieck categories of enriched functors|Hassan Al Hwaeer    | 2014 |[core](https://core.ac.uk/outputs/161880844)|    |
 
 ## Related pages
 
