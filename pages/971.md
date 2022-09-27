@@ -250,7 +250,11 @@ Some recent developments in the theory of accessible categories can be found in 
 
 See also:
 
-* {#Rezk2021} [[Charles Rezk]], *Generalizing accessible ∞-categories*, 2021 ([pdf](https://faculty.math.illinois.edu/~rezk/accessible-cat-thoughts.pdf)).
+* {#Rezk2021} [[Charles Rezk]], *Generalizing accessible ∞-categories*, 2021 ([pdf](https://faculty.math.illinois.edu/~rezk/accessible-cat-thoughts.pdf))
+
+Enriched version
+
+* [[Francis Borceux]], Carmen Quinteriro, _Enriched accessible categories_, Bull. Austral. Math. Soc. __54__ (1996) 489--501 [doi](https://doi.org/10.1017/S0004972700021900)
 
 
 [[!redirects accessible categories]]
