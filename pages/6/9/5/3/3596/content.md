@@ -25,10 +25,11 @@
 
 
 ## Idea
+ {#Idea}
 
 In [[type theory]] -- where one understands every piece of data (every "[[term]]") as being of a given *[[type]]* which specifies its operational behaviour -- *identity types* (maybe better: *identification types*) $Id_X$ are the types of those terms which serve as "witnesses" or "certificates" (see at "[[propositions  as types]]") of identification of terms of type $X$. 
 
-What exactly this means depends on the nature of the ambient [[type theory]] and the choices for the [[inference rules]] of the identity types (see at *[[extensional type theory|extensional]]* and *[[intensional type theory]]*). In some setups (see  [below](#IdeaStrictIdentityTypes)), having a term of identity type means much the same as having an [[equality]] in [[classical mathematics]] ([[definitional equality]]), and for this (historical) reasons identity types are often denoted simply by equality signs, for better or worse.
+What exactly this means depends on the nature of the ambient [[type theory]] and the choices for the [[inference rules]] of the identity types (see at *[[extensional type theory|extensional]]* and *[[intensional type theory]]*). In some setups (see  [below](#IdeaStrictIdentityTypes)), having a term of identity type means much the same as having an [[equality]] in [[classical mathematics]] ([[definitional equality]]), and for this (historical) reason identity types are often denoted simply by equality signs, for better or worse. 
 
 But the power of the notion of identity types goes beyond this classical situation and results from the fact that they may give the notion of equality a [[constructive mathematics|constructive]] meaning ("[[propositional equality]]"). Taking this constructive principle of identity types to its logical conclusion, leads -- notably in [[Martin-Löf dependent type theory]], see [below](#IdeaMLIdentityTypes) -- to identity types which themselves have identity types, reflecting identifications-of-identification, and so ever on, paralleling the [[higher structure]] of [[homotopies]] and [[homotopies of homotopies]] in [[homotopy theory]], whence one refers to type theories with such identity types also as *[[homotopy type theories]]*.
 
@@ -50,8 +51,8 @@ In the jargon of [[dependent type theory]] this means that there is a [[type for
 
 On the right we are indicating, here and in the following, the [[categorical semantics]] of the [[judgement]] on the left, under the [[relation between type theory and category theory]], specifically [[categorical model of dependent types|between dependent type theory and LCC category theory]]. The lay reader may take the diagrams shown on the right as intuitive illustrations of [[dependent types]] as [[bundles]] of types, their [[terms]] as [[sections]], etc. Technically, these are [[diagrams]] in some [[locally cartesian closed category|locally cartesian closed]] ([[locally cartesian closed model category|model]]) [[category]]. (Beware that we are showing an actual [[interval object]] $I$ for ease of illustration, but its existence is not required by the rules for ML identity types: $X^I$ may denote an object that does not arise as an [[internal hom]]. Making the interval object syntactically explicit leads to "[[cubical identity types]]", see [below](#CubicalIdentityTypes).)
 
-The archetypical example is the ([[classical model structure on simplicial sets|classical model structure on]]) [[SimplicialSets]] in which case all [[fibrations]] shown are [[Kan fibrations]] between [[Kan complexes]] which may be thought of as models for ([[left fibration|fibrations of]]) [[infinity-groupoid|$\infty$-groupoids]]. 
-
+The archetypical example is the ([[classical model structure on simplicial sets|classical model structure on]]) [[SimplicialSets]] 
+(with [[interval object]] $I = \Delta[1]$ the [[1-simplex]]) in which case all [[fibrations]] shown are [[Kan fibrations]] between [[Kan complexes]] which may be thought of as models for ([[left fibration|fibrations of]]) [[infinity-groupoid|$\infty$-groupoids]].
 But the power of ML identity types is that they may just as well be interpreted in much more general [[model categories]], such as the [[injective model structure on simplicial presheaves]] over any [[simplicial site]], modelling [[(infinity,1)-topos|$\infty$-toposes]] of [[infinity-stack|$\infty$-stacks]].
 
 \linebreak
@@ -78,20 +79,22 @@ In [[homotopy type theory]] this has come to be known as *[[transport]]*, compat
 
 \linebreak
 
-**(IIb) -- Identifications are reversible.** This may seem so obvious that it is left implicit by the logical forefathers (such as [in Leibniz writings](identity%20of%20indiscernibles#Lewis18))  but when thought of operationally/constructively this is more subtle than the previous two principles, since  in asserting reversibility of identifications we are speaking of *identifications of identifications*:
+**(IIb) -- Identifications are preserved under composition with self-identifications.** While still "self-evident", this is more subtle than the previous two principles, since it concerns an *identification of identifications*, a possibility that was ignored by the logical forefathers (Leibniz [does highlight](identity+of+indiscernibles#Lewis18) at least the composition of identifications, such as $p \cdot id_x$):
 
 \begin{tikzcd}
   & 
   x
   \ar[
     dl, 
-    "{ \scalebox{.6}{\clap{an identification}} }"{sloped, swap,  pos=.45},
-    "{ }"{name=s,  pos=.83}
+    "{ \scalebox{.6}{\clap{self-identification}} }"{sloped, swap,  pos=.45},
+    "{\mathrm{id}_x}"{pos=.4, yshift=2pt},
+    "{ }"{name=s,  pos=.82}
   ]
   \ar[
     dr, 
-    "{ \scalebox{.6}{\clap{self-identification}} }"{sloped,  pos=.45},
-    "{ }"{name=t, swap,  pos=.81}
+    "{ \scalebox{.6}{\clap{an identification}} }"{sloped,  pos=.45},
+    "{p}"{swap, pos=.4, yshift=2pt},
+    "{ }"{name=t, swap,  pos=.82}
   ]
   \ar[
     from=s, to=t,
@@ -101,39 +104,39 @@ In [[homotopy type theory]] this has come to be known as *[[transport]]*, compat
     } }"{swap}
   ]
   \\
-  x'
+  x
   \ar[
     rr,
     "{
-      \scalebox{.65}{reverse identification}
+      p
     }"{swap}
   ]
   &&
-  x
+  x'
 \end{tikzcd}
 
 In type  theory language, the existence of these identifications-of-identifications is the following [[judgement]] (with $\underset{x'  : X}{\coprod}$ denoting the [[dependent sum]]-type):
 
 <center>
-<img src="/nlab/files/MetaLogicOfIdentifications-3-220927.jpg" width="700">
+<img src="/nlab/files/MetaLogicOfIdentifications-3-220927b.jpg" width="700">
 </center>
 
 \linebreak
 
 
 **(J) $\Leftrightarrow$ (II) -- Id-induction.** 
-Applying the above [[transport]]  rule (IIa) to the identifications-of-identifications provided by the reversal rule  (IIb) yields the following  "[[J-rule]]", which was not known to  the forefathers:
+Applying the above [[transport]]  rule (IIa) to the identifications-of-identifications provided by the composition rule  (IIb) yields the following  "[[J-rule]]", which was not known to  the forefathers:
 
 <center>
 <img src="/nlab/files/MetaLogicOfIdentifications-4-220927.jpg" width="700">
 </center>
 
-(This "[[induction]]-rule" for identity types was proposed in [Martin-Löf 1975, §1.7 and p. 94 ](#MartinLof75), its modern rendering as a formal [[inference rule]] is due to [Nordström,  Petersson & Smith 1990,  §8.1](#NordströmPeterssonSmith90). It may be understood as the [[term  elimination rule]] or the [[induction]]=principle for identity types, whence also called "Id-elimination" or "Id-induction",  or similar.)
+(This "[[induction]]-rule" for identity types was proposed in [Martin-Löf 1975, §1.7 and p. 94 ](#MartinLof75); its modern rendering as a formal [[inference rule]] is due to [Nordström,  Petersson & Smith 1990,  §8.1](#NordströmPeterssonSmith90). It may be understood as the [[term  elimination rule]] or the [[induction]]-principle for identity types, whence also called "Id-elimination" or "Id-induction", or similar.)
 
-While the J-rule is naturally understood as the application of the transport rule (IIa) to the identifications-of-identification provided by the reversal rule (IIb), it also implies both these  rules, hence is equivalent to their combination (IIa and IIb). 
+While the J-rule is naturally understood as the application of the transport rule (IIa) to the identifications-of-identification provided by the composition rule (IIb), it also implies both these  rules, hence is equivalent to their combination (IIa and IIb). 
 (This fact was briefly mentioned by [Coquand 2011, slides 26+28](#Coquand11) and amplified by [Ladyman & Presnell 2015](#LadymanPresnell15);  the detailed proof is spelled out by [Götz 2018, §4.2](#Götz18).) 
 
-Importantly, the [[categorical semantics]]  of the [[J-rule]] is manifestly that of the [[left lifting property]] of $X \xrightarrow{diag} X^I$ against all [[fibrations]], which means that this rule manifestly prescribes the interpretation of identity types by "[[very good path space objects]] " in the sense of [[model category theory]] (cf. [Shulman 2012](#Shulman12) [III,, Slide 34](http://home.sandiego.edu/~shulman/hottminicourse2012/03models.pdf#page=34); [Riehl  2022,  §1.1](#Riehl22)). 
+Importantly, as indicated on the right above, the [[categorical semantics]]  of the [[J-rule]] is manifestly that of the [[left lifting property]] of $X \xrightarrow{diag} X^I$ against all [[fibrations]], which means that this rule manifestly prescribes the [[categorical semantics|interpretation]] of identity types by "[[very good path space objects]] " in the sense of [[model category theory]] (cf. [Shulman 2012](#Shulman12) [III,, Slide 34](http://home.sandiego.edu/~shulman/hottminicourse2012/03models.pdf#page=34); [Riehl  2022,  §1.1](#Riehl22)). 
 It is ultimately fact which connects identity types to the notion of [[homotopy]] in [[homotopy theory]],  hence to the interpretation of [[Martin-Löf dependent type theory]] as  "[[homotopy type theory]]" with [[categorical semantics]] in  [[locally cartesian closed (infinity,1)-category|locally cartesian closed  $\infty$-categories]].
  
 
@@ -146,7 +149,7 @@ Besides the Martin-Löf identity types [above](#IdeaMLIdentityTypes)  there are 
 
 For instance, [[cubical identity types]]* (such as Swan identity types) are the identity types in [[cubical type theory]], which are such that that applied to the [[type universe]] they *provably* (computationally) satisfy the [[univalence axiom]].
 
-Namely, the [[J-rule]] in [[Martin-Löf dependent type theory]] [above](#IdeaMLIdentityTypes) still involves an ordinary [[definition equality]] in its statement that the lifted term $\widehat{\sigma}$ is *equal* to the given term $\sigma$ after restriction to self-identitfication. Cubical identity types essentially turns this equality itself into a [[propositional equality]]. 
+Namely, the [[J-rule]] in [[Martin-Löf dependent type theory]] [above](#IdeaMLIdentityTypes) still involves an ordinary [[definitional equality]] in its statement that the lifted term $\widehat{\sigma}$ is *equal* to the given term $\sigma$ after restriction to self-identitfication. Cubical identity types essentially turns this equality itself into a [[propositional equality]]. 
 
 
 Similarly, [[higher observational type theory]] has its appropriate version of higher identity types.
@@ -581,7 +584,7 @@ See also (?):
 * [[Per Martin-Löf]], p. 31-34 in: _Intuitionistic type theory_, Lecture notes Padua 1984 (notes by [[Giovanni Sambin]]), Bibliopolis, Napoli (1984) ([pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]])
 
 
-The observation that the Id-induction principle (the J-rule) is equivalent to [[transport]] ("[[salva veritate]]") together with [[contractible type|contractibility]] of the type of identifications ("by reversal of identifications") is stated in:
+The observation that the Id-induction principle (the J-rule) is equivalent to [[transport]] ("[[salva veritate]]") together with [[contractible type|contractibility]] of the type of identifications ("composition with self-identifications") is stated in:
 
 * {#Coquand11} [[Thierry Coquand]], slides 26-28 of: *Equality and dependent type theory* (2011) &lbrack;[pdf](https://www.cse.chalmers.se/~coquand/equality.pdf), [[Coquand-EqualityAndDependentTypeTheory.pdf:file]]&rbrack;
 
