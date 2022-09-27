@@ -139,6 +139,12 @@ Traditional review:
 
 * {#Aaronson18} [[Scott Aaronson]], §10.1 in *Introduction to Quantum Information Science* (2018) &lbrack;[pdf](https://www.scottaaronson.com/qclec.pdf), [webpage](https://www.scottaaronson.com/cs378/)&rbrack;
 
+and phrased in the [[quantum programming language]] [[Quipper]]:
+
+
+* [[Alexander Green]], [[Peter LeFanu Lumsdaine]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], p. 5 of: 
+_An Introduction to Quantum Programming in Quipper_, Lecture Notes in Computer Science 7948:110-124, Springer, 2013 ([arXiv:1304.5485](https://arxiv.org/abs/1304.5485))
+
 and with focus on the [[experiment|experimental]] realization:
 
 * {#BouwmeesterEkertZeilinger20} [[Dirk Bouwmeester]], [[Artur Ekert]], [[Anton Zeilinger]] (eds.), §3.3 of: *The Physics of Quantum Information -- Quantum Cryptography, Quantum Teleportation, Quantum Computation*, Springer (2020) &lbrack;[doi:10.1007/978-3-662-04209-0](https://doi.org/10.1007/978-3-662-04209-0)&rbrack;
