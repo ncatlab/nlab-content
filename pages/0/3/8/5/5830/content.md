@@ -571,9 +571,14 @@ A slightly more human readable version is collected as a single pdf in
 
 
 [[!redirects homotopy type theory]]
+[[!redirects homotopy type theories]]
+
 [[!redirects (∞,1)-type theory]]
 [[!redirects (infinity,1)-type theory]]
 [[!redirects Homotopy type theory]]
 [[!redirects HoTT]]
 [[!redirects internal language of an (∞,1)-topos]]
+
+
+
 
