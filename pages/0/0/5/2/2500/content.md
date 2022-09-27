@@ -370,13 +370,19 @@ An early survey is
 
 * {#Nieuwenhuizen81} [[Peter van Nieuwenhuizen]], _Supergravity_, Physics Reports, Vol. 68, p. 189 - 398, 1981
 
-Textbook accounts include
+Textbook accounts:
 
 * {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
-* [[Antoine Van Proeyen]], [[Daniel Freedman]], _Supergravity_, Cambridge University Press, 2012
+* [[Antoine Van Proeyen]], [[Daniel Freedman]], _Supergravity_, Cambridge University Press (2012)
 
-Lecture notes include
+Survey:
+
+* Florian Domingo, Michel Rausch de Traubenberg
+*Supergravity: Application in Particle Physics*, Handbook of Quantum Gravity (2023) &lbrack;[arXiv:2209.12541](https://arxiv.org/abs/2209.12541)&rbrack;
+
+
+Lecture notes:
 
 * P. Binetruy, G. Girardi, R. Grimm, _Supergravity couplings: a geometric formulation_, Phys.Rept.343:255-462,2001 ([arXiv:hep-th/0005225](http://arxiv.org/abs/hep-th/0005225))
 
