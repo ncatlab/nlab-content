@@ -31,7 +31,7 @@ In [[type theory]] -- where one understands every piece of data (every "[[term]]
 
 What exactly this means depends on the nature of the ambient [[type theory]] and the choices for the [[inference rules]] of the identity types (see at *[[extensional type theory|extensional]]* and *[[intensional type theory]]*). In some setups (see  [below](#IdeaStrictIdentityTypes)), having a term of identity type means much the same as having an [[equality]] in [[classical mathematics]] ([[definitional equality]]), and for this (historical) reason identity types are often denoted simply by equality signs, for better or worse. 
 
-But the power of the notion of identity types goes beyond this classical situation and results from the fact that they may give the notion of equality a [[constructive mathematics|constructive]] meaning ("[[propositional equality]]"). Taking this constructive principle of identity types to its logical conclusion, leads -- notably in [[Martin-Löf dependent type theory]], see [below](#IdeaMLIdentityTypes) -- to identity types which themselves have identity types, reflecting identifications-of-identification, and so ever on, paralleling the [[higher structure]] of [[homotopies]] and [[homotopies of homotopies]] in [[homotopy theory]], whence one refers to type theories with such identity types also as *[[homotopy type theories]]*.
+But the power of the notion of identity types goes beyond this classical situation and results from the fact that they may give the notion of equality a [[constructive mathematics|constructive]] meaning ("[[propositional equality]]"). Taking this constructive principle of identity types to its logical conclusion, leads -- notably in [[Martin-Löf dependent type theory]], see [below](#IdeaMLIdentityTypes) -- to identity types which themselves have identity types, reflecting identifications-of-identification, and so on forever, paralleling the [[higher structure]] of [[homotopies]] and [[homotopies of homotopies]] in [[homotopy theory]], whence one refers to type theories with such identity types also as *[[homotopy type theories]]*.
 
 \linebreak
 
@@ -42,7 +42,7 @@ The [[inference rules]] for identity types in [[Martin-Löf dependent type theor
 
 \linebreak
 
-**(0) -- There is a notion of identitification.** To start with, for every [[type]] $X$ and any [[pair]] $x_1, x_2 : X$ of its [[terms]], let's denote the *type of identifications* of $x_1$ with $x_2$ by $Id_X(x_1,x_2)$ (other common notation for identity types is "$x_1 =_{{}_X} x_2$" which, when adopted, requires authors to make up new symbols, like $\equiv$, for actual equalities).
+**(0) -- There is a notion of identification.** To start with, for every [[type]] $X$ and any [[pair]] $x_1, x_2 : X$ of its [[terms]], let's denote the *type of identifications* of $x_1$ with $x_2$ by $Id_X(x_1,x_2)$ (other common notation for identity types is "$x_1 =_{{}_X} x_2$" which, when adopted, requires authors to make up new symbols, like $\equiv$, for actual equalities).
 In the jargon of [[dependent type theory]] this means that there is a [[type formation]] rule for identity types as shown on the left here:
 
 <center>
