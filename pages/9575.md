@@ -43,7 +43,15 @@ The **[[homotopy category]]** of a relative category $C$ is the ordinary categor
 
 * A **saturated homotopical category** is a relative category $C$ such that a morphism is a weak equivalence _if and only if_ it is invertible in $Ho C$; note that any such relative category must be a homotopical category in particular.
 
++-- {: .num_remark}
+###### Remark
 
+The semi-saturation condition is precisely the condition on
+the inclusion $weq C \to und C$ ensuring it is a
+[[monomorphism in an (infinity,1)-category|monomorphism]] in the
+(2,1)-category of 1-categories.
+
+=--
 
 ## Examples
 
