@@ -9,6 +9,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Triples, algebras and cohomology|[[Jon Beck]]|1967|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/2/tr2abs.html)| |
 |Homotopy Classification of Filtered Complexes|[[Ross Street]]|1968|[Scan](http://science.mq.edu.au/~street/Thesis.pdf)| |
 |Construction of Biclosed Categories|[[Brian Day]]|1970|[Scan](http://web.science.mq.edu.au/~street/DayPhD.pdf)| |
+|A categorical approach to universal algebra|[[Bob Walters]]|1970|[ANU repository](https://openresearch-repository.anu.edu.au/handle/1885/133321)| |
 |Some Aspects of Internal Category Theory in an Elementary Topos|[[Peter Johnstone]]|1974| | |
 |Coherence for a closed functor|Geoffrey Lewis|1974|[UNSW repository](https://unsworks.unsw.edu.au/entities/publication/3c1ee9e9-9d61-4fc9-9766-5fb9bf6415c2)| |
 |Théorie formelle des bicatégories|Syméon Bozapalides|1976| <a href="https://ncatlab.org/nlab/files/BOZAPALIDES_theorie_formelle_bicategories.pdf">Scan</a> | |
@@ -22,6 +23,8 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |The algebra of distributive and extensive categories|[[Stephen Lack]]|1995| | | 
 |Polycategories|[[Richard Garner]]|2006|[PDF](http://web.science.mq.edu.au/~rgarner/Thesis/Thesis.pdf)| |
 | Bigroupoid 2-torsors | [[Igor Baković]] | 2008 | [doi](https://doi.org/10.5282/edoc.9209)  | on [[principal 2-bundles]] |
+| Double Categories and Base Change in Homotopy Theory | [[Michael Shulman]] | 2009 | | |
+| Codescent objects in 2-dimensional universal algebra | [[John Bourke]] | 2010 | [pdf](http://www.math.muni.cz/~bourkej/papers/JohnBThesis.pdf) | |
 
 
 
