@@ -1,6 +1,6 @@
-Finished PhD in 2016 at [JHU](http://mathematics.jhu.edu/) with [[Jack Morava]]. Headed to [UW](http://www.math.washington.edu/). Now on a 3 year Acting Assistant Professorship.
+Finished PhD in 2016 at [JHU](http://mathematics.jhu.edu/) with [[Jack Morava]]. Headed to [UW](http://www.math.washington.edu/). Then on a 3 year Acting Assistant Professorship, now an Assistant Professor of mathematics at the University of Nevada, Reno .
 
-[Website](https://sites.math.washington.edu/~jbeards1/)
+[Website](https://www.jonathanbeardsley.com/)
 
 ## Selected writings
 
