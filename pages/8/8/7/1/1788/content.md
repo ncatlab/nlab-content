@@ -2,6 +2,11 @@
 [[MetaLogicOfIdentifications-220925.jpg:file]]
 
 
+[[OriginalLeibnizQuote-SalvaVeritate.jpg:file]]
+
+[[OriginalLeibnizQuote-SelfIdentification.jpg:file]]
+
+[[OriginalLeibnizQuote-Composition.jpg:file]]
 
 
 <a href="https://ncatlab.org/nlab/files/BOZAPALIDES_theorie_formelle_bicategories.pdf">pdf</a>
