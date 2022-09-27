@@ -164,7 +164,6 @@ The terminology of "good" and "very good" path space objects appears in:
   in: [[Ioan Mackenzie James|I. M. James]], *[[Handbook of Algebraic Topology]]*, North Holland 1995 ([ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2), [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
 
 
-
 Lecture notes:
 
 * *[[Introduction to Homotopy Theory]]*, around [this Def.](Introduction+to+Homotopy+Theory#PathAndCylinderObjectsInAModelCategory)
@@ -174,6 +173,14 @@ Lecture notes:
 [[!redirects path objects]]
 [[!redirects path space object]]
 [[!redirects path space objects]]
+
+[[!redirects good path space object]]
+[[!redirects good path space objects]]
+
+[[!redirects very good path space object]]
+[[!redirects very good path space objects]]
+
+
 [[!redirects cocylinder object]]
 [[!redirects cocylinder objects]]
 
