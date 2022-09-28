@@ -126,9 +126,5 @@ For instance for the well-adopted models the full and faithful inclusion of [[Di
 
 This means that universal constructions in a smooth topos may yield different results than in a smaller category of more nicely behaved spaces. However, it is noteworthy that in the above example of manifolds, one may argue that the ordinary [[pullback]] of manifolds along non-[[transversal map]]s is the _wrong_ pullback in any case: it doesn't behave well with the [[cohomology]] of manifolds. One motivation for derived geometry, in the case of manifolds specifically the motivation for considering [[derived smooth manifold]]s, is to pass from objects in a [[topos]] instead more generally to objects in an [[(∞,1)-topos]] of [[derived stack|stack]] [[∞-stack]]s.
 
-+--{.query}
-Zoran: In derived geometry we want to go to derived infinity-stacks, not just infinity stacks. The embedding into infinity stacks is commuting with pullbacks, but not the one into derived infinity stacks. At least in algebraic world, and if I understand what Spivak has for spectra it is the same story.
-=--
-
 [[!redirects smooth topoi]]
 [[!redirects smooth toposes]]
