@@ -34,7 +34,7 @@
 
 [[MetaLogicOfIdentifications-2-220928.jpg:file]]
 
-[[MetaLogicOfIdentifications-3-220928.jpg:file]]
+[[MetaLogicOfIdentifications-3-220928b.jpg:file]]
 
 
 [[MetaLogicOfIdentifications-4-220928.jpg:file]]
