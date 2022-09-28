@@ -21,10 +21,11 @@
 
 An **inaccessible cardinal** is a [[cardinal number]] $\kappa$ which cannot be "accessed" from smaller cardinals using only the basic operations on cardinals.  It follows that the collection of sets smaller than $\kappa$ satisfies the axioms of set theory.
 
-
 ## Definition
 
-An **inaccessible cardinal** is a [[cardinal number|regular strong limit cardinal]].  Here, $\kappa$ is _regular_ if every sum of $\lt\kappa$ cardinals, each of which is $\lt\kappa$, is itself $\lt\kappa$; $\kappa$ is a _strong limit_ if $\lambda\lt \kappa$ implies $\vert\Omega\vert^\lambda\lt\kappa$, where $\Omega$ is the set of truth values. In other words, the class of sets of cardinality $\lt\kappa$ is closed under the operations of indexed [[union]]s and taking [[power set]]s.
+The definitions of the various [[large cardinals]] make sense in the context of the [[law of excluded middle]], since only in the presence of the law of excluded middle is the [[collection]] of [[cardinal numbers]] $Card$ [[well-ordered]] and equivalent to the collection of [[ordinal numbers]] $Ord$. Thus, we use $2$ instead of $\Omega$ or $Prop$ for the set of truth values in the definition of inaccessible cardinals. 
+
+An **inaccessible cardinal** is a [[cardinal number|regular strong limit cardinal]].  Here, $\kappa$ is _regular_ if every sum of $\lt\kappa$ cardinals, each of which is $\lt\kappa$, is itself $\lt\kappa$; $\kappa$ is a _strong limit_ if $\lambda\lt \kappa$ implies $\vert \mathbb{2} \vert^\lambda\lt\kappa$, where $\mathbb{2}$ is the set of truth values in the presence of the [[law of excluded middle]]. In other words, the class of sets of cardinality $\lt\kappa$ is closed under the operations of indexed [[union]]s and taking [[power set]]s.
 
 By this definition, $0$ (the cardinality of the [[empty set]]), $1$ (the cardinality of the [[point]]), and $\aleph_0$ (the cardinality of the set of [[natural number]]s) are all inaccessible.  Usually one explicitly requires inaccessible cardinals to be uncountable, so as to exclude these cases.  One can also justify excluding $0$ and $1$ by interpreting the requirement that $1 \lt \kappa$ as the nullary part of a requirement whose binary part is closure under indexed unions.
 
@@ -42,12 +43,16 @@ If one thinks of $\aleph_0$ as already an inaccessible cardinal, then the [[axio
 
 * [[regular cardinal]]
 
+* [[product-regular cardinal]]
+
 * [[Grothendieck universe]]
 
 * [[large cardinal]]
 
 
 ## References
+
+* [[Tom Leinster]], *Large Sets 9*, [web](https://golem.ph.utexas.edu/category/2021/07/large_sets_9.html)
 
 The proof that a Tarski-[[Grothendieck universe]] is equivalently a set of $\kappa$-small sets for $\kappa$ an inaccessible cardinal is in 
 
