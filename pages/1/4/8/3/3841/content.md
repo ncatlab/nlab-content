@@ -151,6 +151,7 @@ Reference: Proposition 5.6 in \cite{Rezk2021}.
 
 * [[arity class]]
 
+* [[product-regular cardinal]]
 
 ## References
 
