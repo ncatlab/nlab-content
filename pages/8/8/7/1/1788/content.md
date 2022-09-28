@@ -36,8 +36,11 @@
 
 [[MetaLogicOfIdentifications-3-220928b.jpg:file]]
 
-
 [[MetaLogicOfIdentifications-4-220928.jpg:file]]
+
+[[MetaLogicOfIdentifications-5-220928.jpg:file]]
+
+[[MetaLogicOfIdentifications-5-220928b.jpg:file]]
 
 spring
 
