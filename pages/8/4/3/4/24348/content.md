@@ -19,6 +19,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Théorie formelle des bicatégories|Syméon Bozapalides|1976| <a href="https://ncatlab.org/nlab/files/BOZAPALIDES_theorie_formelle_bicategories.pdf">Scan</a> | |
 |Universal coalgebras|[[Thomas Fox]]|1976|[McGill repository](https://escholarship.mcgill.ca/concern/theses/xs55mc798)| |
 |Indical methods for relative categories|[[Richard Wood]]|1976|[Dalhousie repository](https://dalspace.library.dal.ca//handle/10222/55465)| |
+|Abstract Families of Algebras|[[Robert Rosebrugh]]|1977| | |
 |The Theory of Triposes|[[Andrew Pitts]]|1981|[Scan](https://www.cl.cam.ac.uk/~amp12/papers/thet/thet.pdf)| on [[triposes]] |
 |Limits in 2-categories of locally presentable categories|Greg Bird|1984|[Scan](http://science.mq.edu.au/~street/BirdPhD.pdf)| |
 |Pasting diagrams in n-categories with applications to coherence theorems and categories of paths|[[Michael Johnson]]|1988|[postscript](http://web.science.mq.edu.au/~mike/papers/0.ps)| |
@@ -31,6 +32,8 @@ Note: the list is ordered first by year, then alphabetically by last name.
 | Double Categories and Base Change in Homotopy Theory | [[Michael Shulman]] | 2009 | | |
 | Codescent objects in 2-dimensional universal algebra | [[John Bourke]] | 2010 | [pdf](http://www.math.muni.cz/~bourkej/papers/JohnBThesis.pdf) | on [[codescent objects]] and 2-dimensional generalisations of [[internal categories]] |
 |Homology operations in the spectral sequence of a cosimplicial space|Philip Hackney|2010|[pdf](http://phck.net/thesis.pdf)| |
+|Fundamental bigroupoids and 2-covering spaces|[[David Roberts]]|2010|[Adelaide repository](https://hdl.handle.net/2440/62680)| |
+|Algebraic Model Structures|Emily Riehl|2011|[pdf](https://emilyriehl.github.io/files/phdthesis.pdf)| |
 |Grothendieck categories of enriched functors|Hassan Al Hwaeer    | 2014 |[core](https://core.ac.uk/outputs/161880844)|    |
 |Three studies in higher category theory: fibrations, skew monoidal structures and excision of extremals|Mitchell Buckley|2015|[Macquarie repository](http://hdl.handle.net/1959.14/1068202)| |
 |Synthetic Lie theory|Matthew Burke|2015|[Macquarie repository](http://hdl.handle.net/1959.14/1068205)| |
