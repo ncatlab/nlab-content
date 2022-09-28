@@ -601,6 +601,8 @@ In retrospect, this is roughly an algebraic version of the standard fact that ev
 
 * [[intensional type theory]], [[extensional type theory]]
 
+* [[objective type theory]]
+
 * [[transport]]
 
 * [[action on identifications]]
