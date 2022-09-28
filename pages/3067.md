@@ -1,5 +1,5 @@
 ##Idea##
-A **pseudomonoid** in a [[monoidal 2-category]] is a [[categorification]] of the notion of a [[monoid object]] in a [[monoidal category]].
+A **pseudomonoid** (sometimes also called a **monoidale**) in a [[monoidal 2-category]] is a [[categorification]] of the notion of a [[monoid object]] in a [[monoidal category]].
 
 ##Definition## 
 A pseudomonoid in the [[cartesian monoidal category|cartesian]] monoidal 2-category [[Cat]] is precisely a [[monoidal category]].  The general definition can be extracted from this special case in a straightforward way. The precise definition can be found in Section 3 of the paper of Day and Street referenced below. 
