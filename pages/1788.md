@@ -30,19 +30,14 @@
 
 [[MetaLogicOfIdentifications-0-220927.jpg:file]]
 
-[[MetaLogicOfIdentifications-1-220927.jpg:file]]
+[[MetaLogicOfIdentifications-1-220928.jpg:file]]
 
-[[MetaLogicOfIdentifications-2-220927.jpg:file]]
+[[MetaLogicOfIdentifications-2-220928.jpg:file]]
 
-[[MetaLogicOfIdentifications-2-220927b.jpg:file]]
-
-
-[[MetaLogicOfIdentifications-3-220927.jpg:file]]
-
-[[MetaLogicOfIdentifications-3-220927b.jpg:file]]
+[[MetaLogicOfIdentifications-3-220928.jpg:file]]
 
 
-[[MetaLogicOfIdentifications-4-220927.jpg:file]]
+[[MetaLogicOfIdentifications-4-220928.jpg:file]]
 
 spring
 
