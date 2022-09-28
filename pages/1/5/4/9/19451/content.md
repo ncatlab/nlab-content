@@ -82,6 +82,8 @@ First note that all kinds of lax monoidal categories can be generalized to **lax
 
 * In particular, non-unital [[closed categories]] can be defined as biased lax monoids in [[Prof]] whose multiplication is corepresentable in the first argument and whose left unitor is invertible.  If the identity is also representable, we obtain a (unital) closed category.  The identification of biased lax monoids with particular unbiased ones thereby specializes to the identification of closed categories with closed multicategories.
 
+* Just as the [[delooping]] of a [[monoidal category]] is a [[bicategory]], so too is the delooping of a skew-monoidal category a **skew-bicategory**.
+
 ## References
 
 * [[John Bourke]], [[Stephen Lack]], _Skew monoidal categories and skew multicategories_, Journal of Algebra 506 (2018), 237-266.  ([arxiv](https://arxiv.org/abs/1708.06088))
