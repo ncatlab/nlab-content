@@ -23,31 +23,46 @@ For ordinary monoidal categories, the [[biased]] and unbiased definitions coinci
 
   and a unit map $(a) \to a$.  It is a special case of an oplax algebra for a 2-monad.
 
-* A **right-biased lax monoidal category** has a binary tensor product $a\otimes b$, a unit $I$, and constraints
-
-  $$a \otimes (b\otimes c) \to (a\otimes b)\otimes c \qquad I \otimes a\to a \qquad a\otimes I\to a. $$
-
 * A **left-biased lax monoidal category** has a binary tensor product $a\otimes b$, a unit $I$, and constraints
 
-  $$(a\otimes b)\otimes c\to a \otimes (b\otimes c) \qquad I \otimes a\to a \qquad a\otimes I\to a. $$
+  $$(a\otimes b)\otimes c\to a \otimes (b\otimes c) \qquad I \otimes a\to a \qquad a\otimes I\to a $$
 
-* A **right-biased oplax monoidal category** has a binary tensor product $a\otimes b$, a unit $I$, and constraints
+* A **right-biased lax monoidal category** has a binary tensor product $a\otimes b$, a unit $I$, and constraints
 
-  $$a \otimes (b\otimes c) \to (a\otimes b)\otimes c \qquad a\to I \otimes a \qquad a\to  a\otimes I. $$
+  $$a \otimes (b\otimes c) \to (a\otimes b)\otimes c \qquad I \otimes a\to a \qquad a\otimes I\to a $$
 
 * A **left-biased oplax monoidal category** has a binary tensor product $a\otimes b$, a unit $I$, and constraints
 
-  $$(a\otimes b)\otimes c\to a \otimes (b\otimes c) \qquad a\to I \otimes a \qquad a\to a\otimes I. $$
+  $$(a\otimes b)\otimes c\to a \otimes (b\otimes c) \qquad a\to I \otimes a \qquad a\to a\otimes I $$
 
-* A **right-skew monoidal category** has a binary tensor product $a\otimes b$, a unit $I$, and constraints
+* A **right-biased oplax monoidal category** has a binary tensor product $a\otimes b$, a unit $I$, and constraints
 
-  $$a \otimes (b\otimes c) \to (a\otimes b)\otimes c \qquad a\to I \otimes a \qquad a\otimes I\to a. $$
+  $$a \otimes (b\otimes c) \to (a\otimes b)\otimes c \qquad a\to I \otimes a \qquad a\to  a\otimes I $$
 
 * A **left-skew monoidal category** has a binary tensor product $a\otimes b$, a unit $I$, and constraints
 
-  $$(a\otimes b)\otimes c\to a \otimes (b\otimes c) \qquad  I \otimes a\to a \qquad a\to a\otimes I. $$
+  $$(a\otimes b)\otimes c\to a \otimes (b\otimes c) \qquad  I \otimes a\to a \qquad a\to a\otimes I $$
 
-There are two other possibilities, but they seem not to have been studied; we could call them "coskew" to have a name.  Terminologically, note that we use "right" and "left" to indicate the direction of the biased associator, while the direction of the unitors is indicated by "lax" or "oplax" (if they are in the same direction) or "skew" (if they are in different directions).
+* A **right-skew monoidal category** has a binary tensor product $a\otimes b$, a unit $I$, and constraints
+
+  $$a \otimes (b\otimes c) \to (a\otimes b)\otimes c \qquad a\to I \otimes a \qquad a\otimes I\to a $$
+
+Terminologically, note that we use "right" and "left" to indicate the direction of the biased associator, while the direction of the unitors is indicated by "lax" or "oplax" (if they are in the same direction) or "skew" (if they are in different directions).
+
+The relationship between these concepts is summarised in the following table.
+
+| If $V$ is a ___ monoidal category then... | $V^{rev}$ is... | $V^{op}$ is... | $V^{rev op}$ is... |
+|-----------------------|-------|------|--------------|
+| left-biased lax | right-biased lax | right-biased oplax | left-biased oplax |
+| right-biased lax | left-biased lax | left-biased oplax | right-biased oplax |
+| left-biased oplax | right-biased oplax | right-biased lax | left-biased lax |
+| right-biased oplax | left-biased oplax | left-biased lax | right-biased lax |
+| left-skew | right-skew | right-skew | left-skew |
+| right-skew | left-skew | left-skew | right-skew |
+
+In other words, [[reverse monoidal category|$rev$]] and [[opposite category|$op$]] always swap direction; whilst $op$ interchanges lax and oplax (and has no effect on skew-monoidal categories).
+
+There are two other possibilities, in which the definitions of left-skew and right-skew monoidal category are modified so that the associator is reversed, but they seem not to have been studied.
 
 This use of "lax" and "oplax" in the biased case is justified by the fact that *biased (op)lax monoidal categories are a special case of unbiased ones*, with the $n$-ary tensor products defined in terms of the binary one by left- or right-associativity.  The unbiased structures arising in this way can be characterized as those in which certain generalized associativities are identities (or, up to equivalence, isomorphisms).
 
