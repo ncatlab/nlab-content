@@ -21,7 +21,7 @@ A **ribbon category**  (also called a **tortile category** or **balanced rigid b
 
 A [[braided monoidal category]] is a monoidal category $\mathcal{C}$ equipped with a braiding $\beta$, which is a natural isomorphisms $\beta_{X,Y}\colon X \otimes Y \to Y \otimes X$ obeying the hexagon identities.
 
-A braided monoidal category is **rigid** if, for every object $X$, there exist objects $X^{\vee}$ and ${^{\vee}}X$ (called its **right dual** and **left dual**) and associated morphisms
+A braided monoidal category is [[rigid monoidal category|rigid]] if, for every object $X$, there exist objects $X^{\vee}$ and ${^{\vee}}X$ (called its [[dualisable object|right dual and left dual]]) and associated morphisms
 $$b_X:\mathbb{1}\to X\otimes X^{\vee}, d_X: X^{\vee}\otimes X\to \mathbb{1}$$
 $$b_X:\mathbb{1}\to {^{\vee}}X\otimes X, d_X: X\otimes {^{\vee}}X\to \mathbb{1}$$
 obeying the zig-zag identities.
