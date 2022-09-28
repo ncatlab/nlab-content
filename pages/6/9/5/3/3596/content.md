@@ -29,7 +29,7 @@
 
 In [[type theory]] -- where one understands every piece of data (every "[[term]]") as being of a given *[[type]]* which specifies its operational behaviour -- *identity types* (maybe better: *identification types*) $Id_X$ are the types of those terms which serve as "witnesses" or "certificates" (see at "[[propositions  as types]]") of identification of terms of type $X$. 
 
-What exactly this means depends on the nature of the ambient [[type theory]] and the choices for the [[inference rules]] of the identity types (see at *[[extensional type theory|extensional]]* and *[[intensional type theory]]*). In some setups (see  [below](#IdeaStrictIdentityTypes)), having a term of identity type means much the same as having an [[equality]] in [[classical mathematics]] ([[definitional equality]]), and for this (historical) reason identity types are often denoted simply by equality signs, for better or worse. 
+{#WhatExactlyThisMeansDepends} What exactly this means depends on the nature of the ambient [[type theory]] and the choices for the [[inference rules]] of the identity types (see at *[[extensional type theory|extensional]]* and *[[intensional type theory]]*). In some setups (see  [below](#IdeaStrictIdentityTypes)), having a term of identity type means much the same as having an [[equality]] in [[classical mathematics]], and for this (historical) reason identity types are often denoted simply by equality signs, for better or worse. 
 
 But the power of the notion of identity types goes beyond this classical situation and results from the fact that they may give the notion of equality a [[constructive mathematics|constructive]] meaning ("[[propositional equality]]"). Taking this constructive principle of identity types to its logical conclusion, leads -- notably in [[Martin-Löf dependent type theory]], see [below](#IdeaMLIdentityTypes) -- to identity types which themselves have identity types, reflecting identifications-of-identification, and so on, paralleling the [[higher structure]] of [[homotopies]] and [[homotopies of homotopies]] in [[homotopy theory]], whence one refers to type theories with such identity types also as *[[homotopy type theories]]*.
 
@@ -48,6 +48,8 @@ In the jargon of [[dependent type theory]] this means that there is a [[type for
 <center>
 <img src="/nlab/files/MetaLogicOfIdentifications-0-220927.jpg" width="760">
 </center>
+
+> Beware that in type theory generally and specifically in this entry further below, the self-identification certificate $id_X$ is often denoted "$refl$", alluding to [[reflexive relation|reflexivity]] of an equality relation.
 
 On the right we are indicating, here and in the following, the [[categorical semantics]] of the [[judgement]] on the left, under the [[relation between type theory and category theory]], specifically [[categorical model of dependent types|between dependent type theory and LCC category theory]]. The lay reader may take the diagrams shown on the right as intuitive illustrations of [[dependent types]] as [[bundles]] of types, their [[terms]] as [[sections]], etc. Technically, these are [[diagrams]] in some [[locally cartesian closed category|locally cartesian closed]] ([[locally cartesian closed model category|model]]) [[category]]. (Beware that we are showing an actual [[interval object]] $I$ for ease of illustration, but its existence is not required by the rules for ML identity types: $X^I$ may denote an object that does not arise as an [[internal hom]]. Making the interval object syntactically explicit leads to "[[cubical identity types]]", see [below](#CubicalIdentityTypes).)
 
@@ -105,7 +107,7 @@ This "[[first law of thought]]" is the [[term introduction]]-rule for identity t
 **(IIa) -- Substitution of identifications preserves computations.**  This is Leibniz's "[[salva veritate]]"-principle phrased operationally/constructively:
 
 <center>
-<img src="/nlab/files/MetaLogicOfIdentifications-2-220927b.jpg" width="760">
+<img src="/nlab/files/MetaLogicOfIdentifications-2-220928.jpg" width="760">
 </center>
 
 In [[homotopy type theory]] this has come to be known as *[[transport]]*, compatible with the fact that its [[categorical semantics]] is that of  path lifting in [[Kan fibrations]], which in the case of [[discrete fibrations]]  ([[covering spaces]]) underlying [[flat  connection|flat]] [[principal bundles]] or [[flat vector bundles]]  ("[[local systems]]") is the [[parallel transport]]/[[holonomy]]/[[monodromy]] of the corresponding [[flat connection]].
@@ -126,7 +128,7 @@ In [[homotopy type theory]] this has come to be known as *[[transport]]*, compat
 \end{imagefromfile}
 
 
-**(IIb) -- Identifications are preserved under composition with self-identifications.** While still "self-evident", this is more subtle than the previous two principles, since it concerns an *identification of identifications*, a possibility that was ignored by the logical forefathers (Leibniz highlights at least the [[composition]] of identifications, such as $p \cdot id_x$):
+{#UniquenessAxiomInIntroduction} **(IIb) -- Identifications are preserved under composition with self-identifications.** While still "self-evident", this is more subtle than the previous two principles, since it concerns an *identification of identifications*, a possibility that was ignored by the logical forefathers (Leibniz highlights at least the [[composition]] of identifications, such as $p \cdot id_x$):
 
 \begin{tikzcd}
   & 
@@ -165,8 +167,10 @@ In [[homotopy type theory]] this has come to be known as *[[transport]]*, compat
 In type  theory language, the existence of these identifications-of-identifications is the following [[judgement]] (with $\underset{x'  : X}{\coprod}$ denoting the [[dependent sum]]-type):
 
 <center>
-<img src="/nlab/files/MetaLogicOfIdentifications-3-220927b.jpg" width="760">
+<img src="/nlab/files/MetaLogicOfIdentifications-3-220928.jpg" width="760">
 </center>
+
+{#SemanticsOfUniqunessAxiomInSimplicialSets} (The [[categorical semantics]] schematically indicated on the right,  is, when realized in the [[classical model structure on simplicial sets|model structure on simplicial sets]] or any [[model structure on simplicial presheaves]], literally given by triangular diagrams as above, these being [[1-simplices]] in $X^I \underset{ev_0}{\times} \{x\}$ when [[internal hom|hom]]-[[adjoint functor|adjointly]] regarded as [[2-simplices]] in $X$.)
 
 \linebreak
 
@@ -175,7 +179,7 @@ In type  theory language, the existence of these identifications-of-identificati
 Applying the above [[transport]]  rule (IIa) to the identifications-of-identifications provided by the composition rule  (IIb) yields the following  "[[J-rule]]", which was not known to  the forefathers:
 
 <center>
-<img src="/nlab/files/MetaLogicOfIdentifications-4-220927.jpg" width="760">
+<img src="/nlab/files/MetaLogicOfIdentifications-4-220928.jpg" width="760">
 </center>
 
 (This "[[induction]]-rule" for identity types was proposed in [Martin-Löf 1975, §1.7 and p. 94 ](#MartinLof75); its modern rendering as a formal [[inference rule]] is due to [Nordström,  Petersson & Smith 1990,  §8.1](#NordströmPeterssonSmith90). It may be understood as the [[term  elimination rule]] (see [below](identity+type#ExplicitDefinition)) or the [[induction]]-principle (see [further below](identity+type#InTermsOfInductiveTypes)) for identity types, whence also called "Id-elimination" or "Id-induction", or similar.)
