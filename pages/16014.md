@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -120,7 +121,8 @@ Note, however, that these operations change the context from $W$ to $\ast$.  In 
 
 This is just what is accomplished by passing from the above [[adjoint triple]] to the induced [[adjoint pair]] on $\mathbf{H}_{/W}$ by forming composites with the [[context extension]] operation $W^\ast$
 
-$$
+\[
+  \label{PossibilityNecessityAdjunctionViaBaseChange}
   (\underset{W}{\lozenge} \dashv \underset{W}{\Box})
   \coloneqq
   \left(
@@ -137,7 +139,7 @@ $$
     \longrightarrow
   \mathbf{H}_{/W}
   \,.
-$$
+\]
 
 With this, if $p\in \mathbf{H}_{/W}$ is a [[proposition]] about terms $w$ of $W$ (a $W$-[[dependent type]]) then 
 
