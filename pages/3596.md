@@ -190,6 +190,17 @@ While the J-rule is naturally understood as the application of the transport rul
 Importantly, as indicated on the right above, the [[categorical semantics]]  of the [[J-rule]] is manifestly that of the [[left lifting property]] of $X \xrightarrow{diag} X^I$ against all [[fibrations]], which means that this rule manifestly prescribes the [[categorical semantics|interpretation]] of identity types by "[[very good path space objects]] " in the sense of [[model category theory]] (cf. [Shulman 2012](#Shulman12) [III, Slide 34](http://home.sandiego.edu/~shulman/hottminicourse2012/03models.pdf#page=34); [Riehl  2022,  §1.1](#Riehl22)). 
 It is this fact which connects ML identity types to the notion of [[homotopy]] in [[homotopy theory]],  hence to the interpretation of [[Martin-Löf dependent type theory]] as  "[[homotopy type theory]]" with [[categorical semantics]] in  [[locally cartesian closed (infinity,1)-category|locally cartesian closed  $\infty$-categories]].
  
+\linebreak
+
+{#PathLiftingInIdeaSection}  Incidentally, another immediate  consequence of the [[J-rule]] is the following refinement of the [[transport]] rule (IIa), which is closer to what Leibniz may have recognized:
+
+**(IIa') -- Substitution of identifications preserves identifications.**  
+
+<center>
+<img src="/nlab/files/MetaLogicOfIdentifications-5-220928b.jpg" width="760">
+</center>
+
+
 
 \linebreak
 
