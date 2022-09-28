@@ -167,7 +167,7 @@ In [[homotopy type theory]] this has come to be known as *[[transport]]*, compat
 In type  theory language, the existence of these identifications-of-identifications is the following [[judgement]] (with $\underset{x'  : X}{\coprod}$ denoting the [[dependent sum]]-type):
 
 <center>
-<img src="/nlab/files/MetaLogicOfIdentifications-3-220928.jpg" width="760">
+<img src="/nlab/files/MetaLogicOfIdentifications-3-220928b.jpg" width="760">
 </center>
 
 {#SemanticsOfUniqunessAxiomInSimplicialSets} (The [[categorical semantics]] schematically indicated on the right,  is, when realized in the [[classical model structure on simplicial sets|model structure on simplicial sets]] or any [[model structure on simplicial presheaves]], literally given by triangular diagrams as above, these being [[1-simplices]] in $X^I \underset{ev_0}{\times} \{x\}$ when [[internal hom|hom]]-[[adjoint functor|adjointly]] regarded as [[2-simplices]] in $X$.)
