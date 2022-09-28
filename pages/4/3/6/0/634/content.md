@@ -25,11 +25,18 @@ A [[2-category]] $K$ has three different [[opposite category|opposites]] (two in
 
 ## Related pages
 
+* [[opposite category]]
+
 * [[contravariant 2-functor]]
 
 * [[3-category with contravariance]]
 
 * [[opposite adjunction]]
 
+* [[reverse monoidal category]]
+
 [[!redirects opposite 2-category]]
 [[!redirects opposite 2-categories]]
+
+[[!redirects co]]
+[[!redirects coop]]
