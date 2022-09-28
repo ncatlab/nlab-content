@@ -51,7 +51,7 @@ Terminologically, note that we use "right" and "left" to indicate the direction 
 
 The relationship between these concepts is summarised in the following table.
 
-| If $V$ is a ___ monoidal category then... | $V^{rev}$ is... | $V^{op}$ is... | $V^{rev op}$ is... |
+| If $V$ is a ___ monoidal category then... | $V^{rev}$ is... | $V^{op}$ is... | $V^{rev,op}$ is... |
 |-----------------------|-------|------|--------------|
 | left-biased lax | right-biased lax | right-biased oplax | left-biased oplax |
 | right-biased lax | left-biased lax | left-biased oplax | right-biased oplax |
