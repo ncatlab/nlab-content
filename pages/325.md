@@ -80,6 +80,8 @@ then $C^{op}$ is the category with
 
 Notice that hence the composition law does _not_ change when passing to the opposite category. Only the interpretation of in which direction the arrows point does change. So forming the opposite category is a completely formal process. Nevertheless, due to the switch of source and target, the opposite category $C^{op}$ is usually far from being [[equivalence of categories|equivalent]] to $C$. See the examples below.
 
+If $V$ is a monoidal category, then $V^{op}$ is equivalent to $(\Sigma V)^{co}$ where $\Sigma V$ is the [[delooping]] of $V$, i.e. $V$ viewed as a one-object [[bicategory]] and ${co}$ is the [[opposite 2-category|opposite on 2-cells]]
+
 ### Opposite functors
 
 Given [[categories]] $C$ and $D$,
@@ -281,10 +283,9 @@ For the definition in enriched category theory see page 12 of
 [[!redirects opposite functor]]
 [[!redirects opposite functors]]
 
-
 [[!redirects dual category]]
 [[!redirects dual categories]]
 
-
+[[!redirects op]]
 
 
