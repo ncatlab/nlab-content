@@ -140,6 +140,8 @@ J. Pure Appl. Algebra 175 (2002), no. 1-3, 243--265.
 
 
 [[!redirects distributive laws]]
+[[!redirects mixed distributive law]]
+[[!redirects mixed distributive laws]]
 
 [[!redirects distributivity law]]
 
