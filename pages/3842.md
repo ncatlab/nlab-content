@@ -334,8 +334,6 @@ and is explained in section C.3 of Tom Leinster's book,
 [[!redirects presheaf-category]]
 [[!redirects presheaf-categories]]
 
-[[!redirects categories of presheaves]]
-
 [[!redirects presheaf topos]]
 [[!redirects presheaf toposes]]
 [[!redirects presheaf topoi]]
