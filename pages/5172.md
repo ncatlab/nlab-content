@@ -16,6 +16,15 @@ PhD thesis (journal version):
 
 * [[J. v. Neumann]], _Die Axiomatisierung der Mengenlehre_, Mathematische Zeitschrift 27 (1928), 669–752.  [doi](https://doi.org/10.1007/BF01171122).
 
+On the foundations of [[quantum mechanics]]:
+
+
+* [[John von Neumann]]:
+
+  *Mathematische Grundlagen der Quantenmechanik* (German) (1932, 1971) &lbrack;[doi:10.1007/978-3-642-96048-2](https://link.springer.com/book/10.1007/978-3-642-96048-2)&rbrack;
+
+  *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
+
 
 category: people
 
