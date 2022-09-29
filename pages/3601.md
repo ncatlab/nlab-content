@@ -185,6 +185,7 @@ CPM, classical structures, ...
 
 * [[entanglement entropy]], [[holographic entanglement entropy]]
 
+
 ## References
 
 Textbook accounts:
@@ -193,10 +194,12 @@ Textbook accounts:
 
 * [[Michael A. Nielsen]], [[Isaac L. Chuang]], *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
-
 * Sumeet Khatri, Mark M. Wilde, _Principles of Quantum Communication Theory: A Modern Approach_ ([arXiv:2011.04672](https://arxiv.org/abs/2011.04672))
 
 * [[Giuliano Benenti]], [[Giulio Casati]], [[Davide Rossini]], *Principles of Quantum Computation and Information*, World Scientific 2018  ([doi:10.1142/10909](https://doi.org/10.1142/10909), [2004 pdf](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149307696.pdf))
+
+* [[Joseph M. Renes]], *Quantum Information Theory* (2015) &lbrack;[pdf](https://edu.itp.phys.ethz.ch/hs15/QIT/renes_lecture_notes14.pdf)&rbrack; De Gruyter (2022) &lbrack;[doi:10.1515/9783110570250](https://doi.org/10.1515/9783110570250)&rbrack;
+
 
 Book collection:
 
