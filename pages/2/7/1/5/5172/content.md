@@ -25,6 +25,10 @@ On the foundations of [[quantum mechanics]]:
 
   *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
 
+On [[quantum logic]]:
+
+* {#BirkhoffvonNeumann36} [[Garrett Birkhoff]], [[John von Neumann]]: *The logic of quantum mechanics*, Annals of Mathematics **37** 823-843 (1936) &lbrack;[doi:10.2307/1968621](https://doi.org/10.2307/1968621), [pdf](http://www.fulviofrisone.com/attachments/article/451/the%20logic%20of%20quantum%20mechanics%201936.pdf)&rbrack;
+
 
 category: people
 
