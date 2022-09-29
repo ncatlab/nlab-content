@@ -20,13 +20,16 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Universal coalgebras|[[Thomas Fox]]|1976|[McGill repository](https://escholarship.mcgill.ca/concern/theses/xs55mc798)| |
 |Indical methods for relative categories|[[Richard Wood]]|1976|[Dalhousie repository](https://dalspace.library.dal.ca//handle/10222/55465)| |
 |Abstract Families of Algebras|[[Robert Rosebrugh]]|1977| | |
+|Cartesianess|[[Susan Niefield]]|1978|[proquest](https://www.proquest.com/docview/302920643)| |
 |The Theory of Triposes|[[Andrew Pitts]]|1981|[Scan](https://www.cl.cam.ac.uk/~amp12/papers/thet/thet.pdf)| on [[triposes]] |
 |Limits in 2-categories of locally presentable categories|Greg Bird|1984|[Scan](http://science.mq.edu.au/~street/BirdPhD.pdf)| |
 |Pasting diagrams in n-categories with applications to coherence theorems and categories of paths|[[Michael Johnson]]|1988|[postscript](http://web.science.mq.edu.au/~mike/papers/0.ps)| |
 |Enriched categories, internal categories and change of base|[[Dominic Verity]]|1992|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html)| |
 |Cobordism Categories|Sean Carmody|1995| | | 
 |The algebra of distributive and extensive categories|[[Stephen Lack]]|1995| | | 
+|Groupoid Representations for Sheaves on Orbifolds|[[Dorette Pronk]]|1995| | |
 |Internal categories and quantum groups|Marcelo Aguiar|1997|[pdf](https://ncatlab.org/nlab/files/Aguiar_InternalCategoriesAndQuantumGroups.pdf)| |
+|Higher-Dimensional Category Theory: Opetopic Foundations|[[Eugenia Cheng]]|2002|[pdf](https://eugeniacheng.com/wp-content/uploads/2017/02/cheng-thesis.pdf)| |
 |Polycategories|[[Richard Garner]]|2006|[PDF](http://web.science.mq.edu.au/~rgarner/Thesis/Thesis.pdf)| on [[polycategories]] via Kleisli bicategories and [[mixed distributive laws]] |
 | Bigroupoid 2-torsors | [[Igor Baković]] | 2008 | [doi](https://doi.org/10.5282/edoc.9209)  | on [[principal 2-bundles]] |
 | Double Categories and Base Change in Homotopy Theory | [[Michael Shulman]] | 2009 | | |
@@ -34,7 +37,8 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Homology operations in the spectral sequence of a cosimplicial space|Philip Hackney|2010|[pdf](http://phck.net/thesis.pdf)| |
 |Fundamental bigroupoids and 2-covering spaces|[[David Roberts]]|2010|[Adelaide repository](https://hdl.handle.net/2440/62680)| |
 |Algebraic Model Structures|Emily Riehl|2011|[pdf](https://emilyriehl.github.io/files/phdthesis.pdf)| |
-|Grothendieck categories of enriched functors|Hassan Al Hwaeer    | 2014 |[core](https://core.ac.uk/outputs/161880844)|    |
+|Grothendieck categories of enriched functors|Hassan Al Hwaeer| 2014 |[core](https://core.ac.uk/outputs/161880844)| |
+|Generalization of Algebraic Operations via Enrichment|[[Christina Vasilakopoulou]]|2014|[arXiv](https://arxiv.org/abs/1411.3038)| |
 |Three studies in higher category theory: fibrations, skew monoidal structures and excision of extremals|Mitchell Buckley|2015|[Macquarie repository](http://hdl.handle.net/1959.14/1068202)| |
 |Synthetic Lie theory|Matthew Burke|2015|[Macquarie repository](http://hdl.handle.net/1959.14/1068205)| |
 |Sketches in higher category theory|Remy Vincent Tuyeras|2015|[Macquarie repository](http://hdl.handle.net/1959.14/1061373)| | 
