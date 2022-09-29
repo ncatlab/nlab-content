@@ -349,6 +349,23 @@ Stone-von Neumann**
 
 \linebreak
 
+### Sep 2022
+
+\linebreak
+
+* 28 Sep 2022
+  {#DavidJMyers22}
+
+  [[David Jaz Myers]] (NYU Abu Dhabi, CQTS)
+
+  **Objective Cohomology -- Towards topological quantum computation**
+
+  slides: [[DavidJazMyers-ObjectiveCohomology-220928.pdf:file]]
+
+  > In this talk, we will see the homotopy type theory point of view on defining twisted cohomology classes by means of bundle gerbes. We'll take an increasingly less leisurely tour up the tower of cohomology degrees, seeing characters, principal bundles,  entral extensions, and characteristic classes along the way. Finally, we will go through the construction of the cohomology of the braid groups valued in the complex numbers, twisted by a complex character of the braid group. Through the work of many people, and in particular Feigin, Schechtman, Varchenko, the actions of the braid group of $d$ "defects" on the twisted complex cohomology of the braid group of $n$ "particles" is the monodromy action of the Knizhnik-Zamolodchikov connection on a space of conformal blocks. At CQTS we use this as a way to go from abstract homotopy type theory to protocols for topological quantum computation. 
+
+\linebreak
+
 ## External talks
  {#ExternalTalk}
 
