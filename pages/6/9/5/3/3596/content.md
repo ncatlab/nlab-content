@@ -128,7 +128,7 @@ In [[homotopy type theory]] this has come to be known as *[[transport]]*, compat
 \end{imagefromfile}
 
 
-{#UniquenessAxiomInIntroduction} **(IIb) -- Identifications are preserved under composition with self-identifications.** While still "self-evident", this is more subtle than the previous two principles, since it concerns an *identification of identifications*, a possibility that was ignored by the logical forefathers (Leibniz highlights at least the [[composition]] of identifications, such as $p \cdot id_x$):
+{#UniquenessAxiomInIntroduction} **(IIb) -- An identification identifies itself with a self-identification.** While one may argue that this is still "self-evident", it is more subtle than the previous two principles.  In particular, it concerns an *identification of identifications*, a possibility that was ignored by the logical forefathers (Leibniz highlights at least the [[composition]] of identifications, such as $p \cdot id_x$).
 
 \begin{tikzcd}
   & 
@@ -164,13 +164,13 @@ In [[homotopy type theory]] this has come to be known as *[[transport]]*, compat
   x'
 \end{tikzcd}
 
-In type  theory language, the existence of these identifications-of-identifications is the following [[judgement]] (with $\underset{x'  : X}{\coprod}$ denoting the [[dependent sum]]-type):
+In type theory language, the existence of these identifications-of-identifications is the following [[judgement]] (with $\underset{x'  : X}{\coprod}$ denoting the [[dependent sum]]-type):
 
 <center>
 <img src="/nlab/files/MetaLogicOfIdentifications-3-220928b.jpg" width="760">
 </center>
 
-{#SemanticsOfUniqunessAxiomInSimplicialSets} (The [[categorical semantics]] schematically indicated on the right,  is, when realized in the [[classical model structure on simplicial sets|model structure on simplicial sets]] or any [[model structure on simplicial presheaves]], literally given by triangular diagrams as above, these being [[1-simplices]] in $X^I \underset{ev_0}{\times} \{x\}$ when [[internal hom|hom]]-[[adjoint functor|adjointly]] regarded as [[2-simplices]] in $X$.)
+{#SemanticsOfUniquenessAxiomInSimplicialSets} (An intuitive [[categorical semantics]] is schematically indicated on the right, with the certificate $p_*$ pictured as a copy of $p$ on the bottom together with a "path-of-paths" relating the concatenated path $p \bullet id_x$ to $p$.  This is valid when realized in the [[classical model structure on simplicial sets|model structure on simplicial sets]] or any [[model structure on simplicial presheaves]], literally given by triangular diagrams as above, these being [[1-simplices]] in $X^I \underset{ev_0}{\times} \{x\}$ when [[internal hom|hom]]-[[adjoint functor|adjointly]] regarded as [[2-simplices]] in $X$.  However, this is not literally what the principle says when expressed in type theory, where there is no concatenated path $p \bullet id_x$ --- although after we have identity types with all of their rules, it can be proved equivalent.)
 
 \linebreak
 
