@@ -184,7 +184,7 @@ Generalization of this to [[indexed monoidal categories]] is in
 
 and to [[bicategories]] in 
 
-* [[Kate Ponto]], [[Mike Shulman]], _Shadows and traces in bicategories_, JHRS, ([arXiv:1211.1555](http://arxiv.org/abs/1211.1555))
+* [[Kate Ponto]], [[Mike Shulman]], _Shadows and traces in bicategories_, JHRS, ([arXiv:0910.1306](https://arxiv.org/abs/0910.1306))
 
 Further developments are in
 
