@@ -229,6 +229,7 @@ There exist states on $B_1 \vee B_2$ that are not (convex combinations of) produ
 
 =--
 
+
 ## Quantum physics in general 
 
 More generally, _quantum physics_ is all the known physics not including [[classical physics]] in wider sense; it includes relativistic and nonrelativistic phenomena. Quantum mechanics is the standard formalism with the Hilbert space, unitary evolution etc. which explains theoretically phenomena of quantum physics: in this generality of the formalism a la von Neumann, it includes the quantum field theory. Quantum statistical mechanics in fact uses some additional assumptions not in exact quantum mechanics, which are believed to be derivable eventually (like quantum ergodicity etc.). Thus quantum statistical mechanics may or may not be included within quantum mechanics. 
@@ -350,6 +351,7 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
 * [[quantum biology]]
 
+
 ## References
 
 ### Historical origins
@@ -379,7 +381,11 @@ Press (1959) &lbrack;[doi:978-0-12-750550-3](https://www.elsevier.com/books/grou
 
 Classical textbooks (on the [[Hilbert space]] description) include
 
-* [[John von Neumann]], _Mathematische Grundlagen der Quantenmechanik_ (German) Mathematical Foundations of Quantum Mechanics. Berlin, Germany: Springer Verlag, 1932.
+* [[John von Neumann]]: 
+
+  *Mathematische Grundlagen der Quantenmechanik*, Springer (1932, 1971) &lbrack;[doi:10.1007/978-3-642-96048-2](https://link.springer.com/book/10.1007/978-3-642-96048-2)&rbrack;
+
+  *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
 
 * [[George Mackey]], *The Mathematical Foundations of Quantum Mechanics: a Lecture-note Volume* Mathematical physics monograph series, Benjamin (1963), Dover (2004) &lbrack;[google books](https://books.google.de/books?id=qlpb2mWYmfYC&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)&rbrack;
 
