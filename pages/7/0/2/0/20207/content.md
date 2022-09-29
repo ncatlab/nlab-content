@@ -7,7 +7,6 @@ David Jaz Myers is graduating at Johns Hopkins, now transitioning to [[CQTS]].
 
 ## Selected writings
 
-
 On [[logical topology]] in the context of [[cohesive toposes]], [[modal type theory]] and [[cohesive homotopy type theory]]:
 
 * [[David Jaz Myers]], _Logical Topology and Axiomatic Cohesion_, talk at _[Geometry in Modal Homotopy Type Theory](http://felix-cherubini.de/modal-workshop.html)_ 2019 ([pdf slides](http://felix-cherubini.de/myers-slides.pdf))
@@ -31,6 +30,10 @@ Formalization of the [[shape modality|shape]]/[[flat modality|flat]]-[[fracture 
         "left": 10
     }
 \end{imagefromfile}
+
+On [[twisted cohomology]] towards [hypergeometric integral KZ-solutions](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces) in [[homotopy type theory]]:
+
+* [[David Jaz Myers]], *Objective Cohomology -- Towards topological quantum computation*, talk at *Geometry, Topology and Physics*-Seminar at [[CQTS]] ([Sep 2022](Center+for+Quantum+and+Topological+Systems#DavidJMyers22)) &lbrack;[[DavidJazMyers-ObjectiveCohomology-220928.pdf:file]]&rbrack;
 
 
 
