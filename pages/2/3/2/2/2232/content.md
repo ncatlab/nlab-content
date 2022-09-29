@@ -22,7 +22,7 @@ In general, the _center_ (or _centre_) of an [[algebra|algebraic]] [[object]] $A
 
 ### Of groups and monoids
 
-The original example is the __center__ $Z(G)$ of a [[group]] $G$, which is defined to be the [[subgroup]] consisting of all elements $g\in G$ such that for all elements $h\in H$ the equality $g h=h g$ holds.  The center is an [[abelian group|abelian]] subgroup, but not every abelian subgroup is in the center.  See also [[centralizer]].
+The original example is the __center__ $Z(G)$ of a [[group]] $G$, which is defined to be the [[subgroup]] consisting of all elements $g\in G$ such that for all elements $h\in G$ the equality $g h=h g$ holds.  The center is an [[abelian group|abelian]] subgroup, but not every abelian subgroup is in the center.  See also [[centralizer]].
 
 This notion of center of a group can be generalized to the center of a [[monoid]] in an obvious way.
 
