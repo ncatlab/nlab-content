@@ -25,6 +25,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Limits in 2-categories of locally presentable categories|Greg Bird|1984|[Scan](http://science.mq.edu.au/~street/BirdPhD.pdf)| |
 |Pasting diagrams in n-categories with applications to coherence theorems and categories of paths|[[Michael Johnson]]|1988|[postscript](http://web.science.mq.edu.au/~mike/papers/0.ps)| |
 |Enriched categories, internal categories and change of base|[[Dominic Verity]]|1992|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html)| |
+|Cauchy completion in enriched categories|Scott Russell Johnson|1993|[ANU repository](https://doi.org/10.25911/5d6513e948cab)| |
 |Cobordism Categories|Sean Carmody|1995| | | 
 |The algebra of distributive and extensive categories|[[Stephen Lack]]|1995| | | 
 |Groupoid Representations for Sheaves on Orbifolds|[[Dorette Pronk]]|1995| | |
