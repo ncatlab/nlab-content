@@ -1,2 +1,2 @@
 
-[[DavidJazMyers-ObjectiveCohomology-220928.pdf:file]]
+[[vonNeumann-CollapsePostulate-220928.jpg:file]]
