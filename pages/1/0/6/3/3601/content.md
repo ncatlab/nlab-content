@@ -225,7 +225,7 @@ In a context of [[quantum optics]]:
 Status update:
 
 * [[John Preskill]], *The Physics of Quantum Information*, talk at
-*The Physics of Quantum Information*, 28th Solvay Conference on Physics (2022) &lbrack;[arXiv:2208.08064](https://arxiv.org/abs/2208.08064)&lbrack;
+*The Physics of Quantum Information*, 28th Solvay Conference on Physics (2022) ([arXiv:2208.08064](https://arxiv.org/abs/2208.08064))
 
 See also:
 
