@@ -1,13 +1,19 @@
 ## Painlev&#233; transcendents
 
 In the study of ordinary differential equations one of the important things is the behaviour of [[monodromies]] and closely related singularities of solutions. In the linear case, the poles possibly appear just at the poles of coefficients of the solutions. In the nonlinear case the solutions can appear elsewhere and generally propagate with change of initial conditions. Very important is if the singularities do not move or monodromies don't change with change of parameters. 
-An [[ordinary differential equation]] (ODE) satisfies the __Painlev&#233; property__ if all solutions are single valued around every movable singularity (this is more effective way to express that they can be made single-valued functions by uniformization). A class of such "good" nonlinear equations has been defined by __Paul Painlev&#233;__ ([wikipedia](http://en.wikipedia.org/wiki/Paul_Painlev%C3%A9)), who discovered at the end of 19th century a truly remarkable fact that all second order ODEs of the form
+An [[ordinary differential equation]] (ODE) satisfies the __Painlev&#233; property__ if all solutions are single valued around every movable singularity (this is more effective way to express that they can be made single-valued functions by uniformization). A class of such "good" nonlinear equations has been defined by __Paul Painlev&#233;__ ([wikipedia](http://en.wikipedia.org/wiki/Paul_Painlev%C3%A9)), who discovered at the end of 19th century a truly remarkable fact that all _second order_ ODEs of the form
 $$
 u'' = F (z; u, u'),
 $$
 where $F$ is rational in $u,u'$ and analytic in $z$ and which satisfy the Painlev&#233; property have solutions which can be expressed in terms of well known functions like elementary and hypergeometric functions and only 6 new kinds of *transcendental functions* called _Painlev&#233; I-VI_. Furthermore he obtained a complete classification of such equations (automatically, $F$ is at most quadratic in $u,u'$) in 50 classes (44+6) up to a number of standard transformations. Painlev&#233; transcendents are now of central importance in the study of [[integrable systems]]. 
 
 There are also some noncommutative versions which are still purely understood. 
+
+Painlev&#233; VI is 2nd order nonlinear ODE governing the isomonodromic deformations of [[Fuchsian differential equation]]s 
+$$
+\frac{d f}{d z} = \left(\frac{A_1}{z} + \frac{A_2}{z-t}+ \frac{A_3}{z-1}\right),
+$$
+where $A_i\in sl_2(\mathbf{C})$ and parameter $t$ varies through $\mathbf{P}^1\backslash{0,1,\infty}$.
 
 ## Literature and links
 
@@ -36,6 +42,10 @@ Related $n$Lab entries include [[Picard-Vessiot theory]], [[Riemann-Hilbert prob
 Among the papers in the volume:
 
 * [[Boris Dubrovin]], _Painlevé transcendents in two-dimensional topological field theory_, 287-412
+
+Another collection
+
+* Théories asymptotiques et équations de Painlevé, Séminaires et Congrès __14__, Société Mathématique de France 2006
 
 #### Contemporary works
 
