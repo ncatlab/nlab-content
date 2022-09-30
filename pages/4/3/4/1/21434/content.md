@@ -28,7 +28,7 @@ In [[simplicial sets]] with [[simplicial weak equivalences]],
 [[topological spaces]] with [[weak homotopy equivalences]],
 and [[chain complexes]] with [[quasi-isomorphisms]],
 homotopy coproducts can be computed as ordinary coproducts
-because [[weak equivalences]] are closed under small [[coproducts]]..
+because [[weak equivalences]] are closed under small [[coproducts]].
 
 In [[commutative differential graded algebras]] with [[quasi-isomorphisms]] homotopy coproducts
 can be computed by resolving each object by a [[cofibrant commutative differential graded algebra]], and then computing their ordinary [[tensor product]].
