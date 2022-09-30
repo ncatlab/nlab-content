@@ -939,6 +939,7 @@ Review:
 
 * Valery E. Lyubovitskij, Ivan Schmidt, _Gluon parton densities in soft-wall AdS/QCD_ ([arXiv:2012.01334](https://arxiv.org/abs/2012.01334))
 
+* Lorenzo Bartolini, Sven Bjarke Gudnason, *Symmetry energy in holographic QCD* &lbrack;[arXiv:2209.14309](https://arxiv.org/abs/2209.14309)&rbrack;
 
 
 
