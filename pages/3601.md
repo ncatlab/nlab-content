@@ -270,3 +270,6 @@ In relation to the [[AdS-CFT correspondence]] via [[holographic entanglement ent
 
 
 [[!redirects quantum information theory]]
+
+[[!redirects quantum information science]]
+
