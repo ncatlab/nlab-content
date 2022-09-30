@@ -19,7 +19,7 @@ of the resulting family $\{QA_i\}_{i\in I}$ of [[cofibrant replacements]].
 
 If [[weak equivalences]] are closed under small [[coproducts]],
 then homotopy coproducts can be computed as ordinary coproducts,
-because the map $$\coprod_{i\in I}QA_i\to \coprod_{i\in I}A_i$$
+because the map $\coprod_{i\in I}QA_i\to \coprod_{i\in I}A_i$
 is a [[weak equivalence]].
 
 ## Examples
