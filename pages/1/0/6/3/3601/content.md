@@ -236,6 +236,8 @@ See also:
 
 * [Quantiki](https://www.quantiki.org/) -- Quantum Information Portal and Wiki
 
+* *Report of the Snowmass 2021 Theory Frontier Topical Group on Quantum Information Science* &lbrack;[arXiv:2209.14839](https://arxiv.org/abs/2209.14839)&rbrack;
+
 
 Further original articles:
 
