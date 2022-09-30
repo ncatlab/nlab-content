@@ -29,7 +29,7 @@ An **inaccessible cardinal** is a [[regular cardinal|regular]] strong [[limit ca
 
 By this definition, $0$ (the cardinality of the [[empty set]]) and $\aleph_0$ (the cardinality of the set of [[natural number]]s) are both inaccessible.  Usually one explicitly requires inaccessible cardinals to be [[uncountable set|uncountable]], so as to exclude these cases.  One can also justify excluding $0$ by interpreting the requirement that $1 \lt \kappa$ as the nullary part of a requirement whose binary part is closure under indexed unions.
 
-A __weakly inaccessible cardinal__ is a regular weak [[limit cardinal]]; sometimes inaccessible cardinals are called _strongly inaccessible_ in contrast.  Here, $\kappa$ is a _weak limit_ if $\lambda\lt\kappa$ implies $\lambda^+\lt\kappa$, where $\lambda^+$ is the smallest cardinal number $\gt\lambda$.  Every strongly inaccessible cardinal is also weakly inaccessible, while the converse is true assuming the [[continuum hypothesis]].  
+A __weakly inaccessible cardinal__ is a regular weak [[limit cardinal]]; sometimes inaccessible cardinals are called _strongly inaccessible_ in contrast.  Here, $\kappa$ is a _weak limit_ if $\lambda\lt\kappa$ implies $\lambda^+\lt\kappa$, where $\lambda^+$ is the smallest cardinal number $\gt\lambda$.  Every strongly inaccessible cardinal is also weakly inaccessible, while the converse is true assuming the generalized [[continuum hypothesis]].  
 
 
 ## Properties
