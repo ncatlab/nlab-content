@@ -61,7 +61,7 @@ Note that the foundational point of view also fits in this picture; we can simpl
 
 ### Homotopical motivation {#HomotopicalMotivation}
 
-There is a standard way to deal with such situations where we are faced with a category -- here the category $Cat(\mathcal{E})$ of categories internal to $\mathcal{E}$ -- some of whose morphisms look like they ought to have inverses, but do not: we call these would-be invertible morphisms _weak equivalences_ such that our category becomes a [[category with weak equivalences]] or a [[homotopical category]]. Then we pass to the corresponding [[homotopy category]]: the universal "improvement" of our category such that all the would-be invertible morphism do become invertible.
+There is a standard way to deal with such situations where we are faced with a category -- here the category $Cat(\mathcal{E})$ of categories internal to $\mathcal{E}$ -- some of whose morphisms look like they ought to have inverses, but do not: we call these would-be invertible morphisms _weak equivalences_ such that our category becomes a [[category with weak equivalences]] or a [[homotopical category]]. Then we pass to the corresponding [[homotopy category]]: the universal "improvement" of our category such that all the would-be invertible morphisms do become invertible.
 
 Here we take the weak equivalences in $Cat(\mathcal{E})$ to be the internal functors that are internally fully faithful and essentially surjective. It turns out that this choice of weak equivalences is particularly well-behaved in that it actually forms a [[calculus of fractions]]. Due to the early work on abstract [[homotopy theory]] by Gabriel and Zisman, there is simple explicit construction of the corresponding [[homotopy category]] $Ho(Cat(\mathcal{E}))$ in this case: the objects are the same as those of $Cat(E)$ -- hence [[internal category|categories internal to]] $\mathcal{E}$ for us -- and the morphisms $f\colon C \to D$ are [[span]]s of morphism in $Cat(\mathcal{E})$
 
@@ -78,7 +78,7 @@ $$
 
 where the left leg is a weak equivalence, hence for us: where the left leg is an internal functor that is $k$-surjective for all $k$.  (This is the beginning of the construction of the [[Dwyer-Kan localization]] at our chosen weak equivalences.)
 
-For the case $\mathcal{E} = Top$ such a span is a morphism out of a _Cech cover_ . For instance for $C = X$ a topological space regarded as a topological category, for $G$ a [[topological group]] and $D = \mathbf{B}G$ its [[delooping]] one-object topological groupoid, such a span is a [[Cech cohomology|Cech cocycle]] on $X$ with values in $G$.
+For the case $\mathcal{E} = Top$ such a span is a morphism out of a _Cech cover_. For instance for $C = X$ a topological space regarded as a topological category, for $G$ a [[topological group]] and $D = \mathbf{B}G$ its [[delooping]] one-object topological groupoid, such a span is a [[Cech cohomology|Cech cocycle]] on $X$ with values in $G$.
 
 And finally: for the case that $\mathcal{E} = Set_{\not C}$ is the category of sets without the axiom of choice, such a span is an **anafunctor**: a functor $\hat C \to C$ that is surjective on objects and [[full and faithful functor|full and faithful]], together with a functor $\hat C \to D$ out of the "resolution" of $C$.
 
