@@ -44,11 +44,11 @@ $$\frac{\Gamma \vdash p:\mathrm{path}_{i.A}(a,b) \quad \Gamma \vdash r:I}{\Gamma
 
 * Computation
 
-$$\frac{.}{\Gamma \vdash (\lambda i.a)(r) \equiv [r/i]a:[r/i]A}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash (\lambda i.a)(r) \equiv [r/i]a:[r/i]A}$$
 
 * Uniqueness (optional)
 
-$$\frac{.}{\Gamma \vdash p \equiv \lambda i.p(i) : \mathrm{path}_{i.A}(a,b)}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash p \equiv \lambda i.p(i) : \mathrm{path}_{i.A}(a,b)}$$
 
 In addition, there are coercion and composition operations which make the path type behave like an identity type:
 
