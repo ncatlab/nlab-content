@@ -54,6 +54,11 @@ However, one still may need sets of cardinals, that is sets that serve as the ta
 
 Lowercase Greek letters starting from $\kappa$ are often used for cardinal numbers.
 
+### In homotopy type theory
+
+A **cardinal** in [[homotopy type theory]] is an element of the type of cardinals $\kappa \colon Card_\mathcal{U}$ relative to a universe $\mathcal{U}$. The type of cardinals is defined as the set-truncation of the type of sets $Set_\mathcal{U}$ relative to $\mathcal{U}$, $Card_\mathcal{U} \coloneqq \left| Set_\mathcal{U} \right|_0$ with $Set_\mathcal{U}$ defined as 
+
+$$Set_\mathcal{U} \coloneqq \sum_{A:\mathcal{U}} \prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} \prod_{q:a =_A b} p =_{a =_A b} q$$
 
 ## Cardinal arithmetic 
 
@@ -180,12 +185,15 @@ This is a very readable and freely available historical introduction:
 
 *Standard* approaches start with a [[material set theory]], such as ZFC, whereas the approach here uses [[structural set theory]] as emphasized above.  Since cardinality is isomorphism-invariant, it is easy to interpret the standard material structurally, although the basic definitions will be different.  There does not seem to be a standard account of cardinality from within structural set theory.
 
+For cardinal numbers in [[homotopy type theory]], see chapter 10 of
+
+* {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+
 For a critical discussion of the history of the meaning of Cantor's "Kardinalen", see 
 
 * [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_,
 
 which argues that Cantor's original meaning of _set_ was more like what today is _[[cohesive]] set_ and that his _Kardinalen_ refer to the _underlying set_ (see at _[[flat modality]]_).
-
 
 [[!redirects cardinal number]]
 [[!redirects cardinal numbers]]
