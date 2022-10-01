@@ -13,7 +13,7 @@ Painlev&#233; VI is 2nd order nonlinear ODE governing the isomonodromic deformat
 $$
 \frac{d f}{d z} = \left(\frac{A_1}{z} + \frac{A_2}{z-t}+ \frac{A_3}{z-1}\right),
 $$
-where $A_i\in sl_2(\mathbf{C})$ and parameter $t$ varies through $\mathbf{P}^1\backslash{0,1,\infty}$.
+where $A_i\in sl_2(\mathbf{C})$ and parameter $t$ varies through $\mathbf{P}^1\backslash\{0,1,\infty\}$.
 
 ## Literature and links
 
