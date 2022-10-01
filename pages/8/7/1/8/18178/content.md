@@ -184,4 +184,6 @@ See also
 [[!redirects collapse of the wave function]]
 [[!redirects collapse of the wavefunction]]
 
+[[!redirects quantum state collapse]]
+
 [[!redirects Born's rule]]
