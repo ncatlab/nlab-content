@@ -146,7 +146,7 @@ But the formulation in [von Neumann 1932](#vonNeumann32) postulated  that a [[pu
 
 This problem was pointed out and the modern formulation of the collapse postulate was formulated by:
 
-* [[Gerhart Lüders]]:
+* {#Lüders51} [[Gerhart Lüders]]:
 
   *Über die Zustandsänderung durch den Meßprozeß*, Ann. Phys. **8** (1951) 322–328  &lbrack;[doi:10.1002/andp.19504430510](https://doi.org/10.1002/andp.19504430510)&rbrack;
 
