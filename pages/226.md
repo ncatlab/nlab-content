@@ -106,7 +106,7 @@ Affine spaces are sets which are torsors over the abelian group of vectors of a 
 
 Discussion of vector space in [[univalent foundations of mathematics]] ([[homotopy type theory]]) is announced to appear in:
 
-* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: Chapter 8 of: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: Chapter 8 of: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/)]
 
 
 [[!redirects vector space]]
