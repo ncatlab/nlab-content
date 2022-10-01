@@ -168,7 +168,7 @@ See also
 
 * [[computability]]
 
-* [[constrictive set theory]]
+* [[constructive set theory]]
 
 * [[constructive analysis]]
 
