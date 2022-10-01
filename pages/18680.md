@@ -305,6 +305,8 @@ Proposals for a genuine [[syntax]] for dependent linear type theory (some of whi
 
   > **Abstract.** Some ∞-toposes support constructions that are inherently 'linear', such as the external smash product of parameterised spectra. These cannot be added axiomatically to ordinary HoTT, because there is no way to enforce this linearity: there are no restrictions on variable uses. This talk describes an extension of HoTT with linear tensor and hom type formers, as a kind of 'binary modality' and its right adjoint. Trying to stay compatible with existing results in HoTT naturally leads us to a novel kind of bunched dependent type theory. Our type theory is intended to be as human-usable as possible, with an eye towards synthetic stable homotopy theory.
 
+* [[Mitchell Riley]], *Dependent Type Theories à la Carte*, talk at *[[CQTS]] Initial Researcher's Meeting* (Sep 2022) &lbrack;[[CQTS-InitialResearcherMeeting-Riley-220913.pdf:file]]&rbrack;
+
 * Benjamin Moon, Harley Eades III, Dominic Orchard, _Graded Modal Dependent Type Theory_. In: Yoshida N. (eds) Programming Languages and Systems. ESOP 2021. Lecture Notes in Computer Science, vol 12648. Springer, Cham [doi](https://doi.org/10.1007/978-3-030-72019-3_17), [arxiv:2010.13163](https://arxiv.org/abs/2010.13163)
 
 * [[Mike Shulman]], _A type theory for fibred functors and polynomials_.  Unfinished note, 2018.  [pdf](http://home.sandiego.edu/~shulman/papers/functors.pdf)
