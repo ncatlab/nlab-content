@@ -9,7 +9,7 @@ The following indicates how quantum protocols in [[quantum information theory]] 
 
 All this flows readily from the abstract theory, the only extra observation involved is that the necessity modality respects the external tensor product -- and hence that these classically controlled quantum circuits are unambiguously defined --, which follows when the [[modality]] of *[[necessity]]* $\Box_C \mathscr{H}_\bullet$ coincides with that of *[[possibility]]* $\bigcirc_C \mathscr{H}_C$ on the quantum data types $\mathbb{H}_\bullet$ involved -- hence (in full generality) when the linear types are [[dualizable object|dualiable]] in the sense of [[ambidextrous adjunction|ambidextrous]] and specifically (in the traditional model) when [[space of quantum states|quantum state spaces]] are [[finite-dimensional vector space|finite dimensional]], as usual in [[quantum information theory]].
 
-In summary, the following shows that every [[dependent linear type theory|dependent linearly-typed]] [[programming language]] as in [Riley 2022](dependent+linear+type+theory#Riley22Thesis) *automatically* is a [[quantum programming language]] for classically controlled [[quantum circuits]] (as such somewhat akin to [[Quipper]] but entirely avoiding Quipper's problem of needing "dynamical lifting" of "bits back into the context"). 
+In summary, the following shows that every [[dependent linear type theory|dependent linearly-typed]] [[programming language]] as in [Riley 2022](dependent+linear+type+theory#Riley22Thesis) *automatically* is a [[quantum programming language]] for classically controlled [[quantum circuits]] (as such somewhat akin to [[Quipper]] but entirely avoiding Quipper's problem of needing "dynamical lifting" of "bits back into the context", see [below](#NoticeTheTypingOfAQbit)). 
 
 ### General
 
@@ -91,7 +91,22 @@ With this observation in hand, it is a straightforward matter to verify that the
 
 \begin{imagefromfile}
     "file_name": "QCwthLHT-QuantumGates-221001.jpg",
-    "width": "840",
+    "width": "800",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+While quantum gates have [[horizontal composition]] in the [[co-Kleisli category]], they also have a [[vertical composition]] given by [[external tensor product]]:
+
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-ExternalTensorProduct-221001.jpg",
+    "width": "690",
     "unit": "px",
     "margin": {
         "top": -30,
@@ -103,11 +118,176 @@ With this observation in hand, it is a straightforward matter to verify that the
 
 
 
- 
 
+
+One checks that for finite-dimensional dependent linear types, the [[necessity]]-[[modality]] respects the [[external tensor product]]:
+
+\[
+  \Box_{C \times C'}
+  \big(
+    \mathscr{H}_\bullet
+    \boxtimes
+    \mathscr{H}'_\bullet
+  \big)
+  \;\simeq\;
+  \Big(
+    \big(
+      \Box_{C}
+      \mathscr{H}_\bullet
+    \big)
+    \boxtimes
+    \big(
+      \Box_{C '}
+      \mathscr{H}'_\bullet
+    \big)
+  \Big)
+\]
+
+
+ 
+\linebreak
 
 ### QBits
  {#QCwthLHT-QBits}
 
+The [[dependent linear type]] of a  *[[qbit]]*:
+
+
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-QuantumBit-221001.jpg",
+    "width": "840",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+The [[quantum measurement]]-process on such a qbit type, as seen by the [[necessity]]-[[counit of a comonad|counit]] gives the expected projection rule:
+
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-QBitMeasurement-221001.jpg",
+    "width": "500",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+{#NoticeTheTypingOfAQbit} Notice that one might be tempted[^1] to think  of this formula as outputting the classical bit $b : \mathrm{Bool}$, but that the dependent typing of the above expression is a little more subtle than that:  The output bit is instead part of the *context* inside which the collapsed wavefunction qbit appears -- which, being in the 1-dimensional Hilbert space $\mathbb{C}$ in this case, may often be disregarded as a global phase, but is nevertheless the actual output of the measurement process.
+
+[^1]: Indeed, in *[[Quipper]]* the measurement process on a qbit is originally typed as "$\QBit \to \Bit$" and further language design is needed to "bring the output bit back into the context", see references on "dynamical lifting".
+
+
+In particular, by retaining the quantum type of the measurement result, we retain the ability to speak about repeated quantum measurement, which leads to a *proof* that the second measurement necessarily gives the same result as the first (the experimental observation of this fact is what led [[John von Neumann]] to formulate the projection postulate, in [von Neumann 1932, §III.3 and §VI](wave+function+collapse#vonNeumann32)):
+
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-QBitMeasurementRepeated-221001.jpg",
+    "width": "400",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+In the other direction, the dependent linear type of the measurement of a [[pair]] of [[qbits]] is this:
+
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-QBitPairMeasurement-221001.jpg",
+    "width": "770",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
+
+Dually, the [[possibility]]-[[unit of a monad|unit]] on [[qbits]] is their *conditional state preparation*:
+
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-QBitStatePreparationCondt-221001.jpg",
+    "width": "400",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+and we denote $\mathrm{const}_0 : \Bool \to \Bool$ 
+the function constant on $0$, then  the unconditional state preparation is the base change of the conditional state preparation along this map:
+
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-QBitStatePreparation-221001.jpg",
+    "width": "400",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+The dependent linear type of the [[Hadamard gate]]:
+
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-HadamardGate-221001.jpg",
+    "width": "650",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+The dependent linear type of the [[CNOT gate]]:
+
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-QuantumCNOTGate-221001.jpg",
+    "width": "850",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+The dependent linear type of a quantum gate controlled by a classical bit:
+
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-BitControlledQGate-221001.jpg",
+    "width": "930",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
 (...)
+
 
