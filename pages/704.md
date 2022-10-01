@@ -52,7 +52,7 @@ See at _[dependent product -- In terms of spaces of sections](dependent%20produc
 
 ## Split idempotents
 
-In the case that $f$ has a section $\sigma$, $f$ may also be called a [[retraction]] or **cosection** of $\sigma$, $B$ may be called a [[retract]] of $A$, and the entire situation is said to split the [[idempotent]]
+In the case that $f$ has a section $\sigma$, $f$ may also be called a [[retraction]] or **cosection** of $\sigma$, $A$ may be called a [[retract]] of $B$, and the entire situation is said to split the [[idempotent]]
 $$
   A \stackrel{f}{\to} B \stackrel{\sigma}{\to} A
   \,.
