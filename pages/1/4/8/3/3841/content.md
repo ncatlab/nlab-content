@@ -142,7 +142,6 @@ if and only if it is locally $\lambda^+$-presentable.
 
 Reference: Proposition 5.6 in \cite{Rezk2021}.
 
-
 ## Related concepts
 
 * [[large cardinal]]
