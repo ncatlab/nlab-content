@@ -44,7 +44,7 @@ Note that both [[intensional type theory|intensional]] and [[extensional type th
 
 ### Definitional equality
 
-The most basic one is _definitional equality_ or _intensional equality_.
+The first notion is _definitional equality_ or _intensional equality_.
 
 According to [PML (1980), p. 31](#PML):
 
@@ -70,6 +70,8 @@ With this extension, one obtains a programming language with dependent types and
 
 A description of the evaluation algorithm using techniques from functional programming
 can be found in [this work of Gregoire and Leroy](http://uf-ias-2012.wikispaces.com/file/view/strong-reduction.pdf/402005168/strong-reduction.pdf).
+
+However, not all type theories have definitional equality; [[objective type theory]] is a framework of type theories without definitional equality.  
 
 ### Computational equality
 
