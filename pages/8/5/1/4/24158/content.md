@@ -139,7 +139,7 @@ See also the commented list of problems at:
 
 * Does [[univalence]] imply [[function extensionality]] in [[objective type theory]]?
 
-* Is [[Martin-Löf type theory]] conservative over [[objective type theory]]?
+* Is the [[homotopy type theory]] based upon [[Martin-Löf type theory]] conservative over [[objective type theory]]?
 
 * How much of the [[HoTT book]] could be done in [[objective type theory]]?
 
