@@ -28,7 +28,7 @@
 
 A [[dependent type theory]] without [[definitional equality]]. 
 
-This means that the computation rules ([[beta-reduction]] and [[eta-conversion]]) for each type in the type theory are all propositional computation rules using the [[identity type]], and in particular means that the identity type has to be introduced first before any other type is introduced. 
+This means that the computation and uniqueness rules ([[beta-reduction]] and [[eta-conversion]]) for each type in the type theory are all propositional computational and uniqueness rules using the [[identity type]], and in particular means that the identity type has to be introduced first before any other type is introduced. 
 
 Objective type theory has [[decidable]] [[type checking]], and the type checking can be done in quadratic time. 
 
@@ -85,6 +85,69 @@ Computation rules for identity types:
 $$\frac{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash C(a, b, p) \; \mathrm{type} \quad \Gamma, a:A, \Delta(a, a, \mathrm{refl}_A(a)) \vdash t:C(a, a, \mathrm{refl}_A(a))}{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash \beta_{=_A}(a) : J(t, a, a, \mathrm{refl}(a)) =_{C(a, a, \mathrm{refl}_A(a))} t}$$
 
 The [[uniqueness of identity proofs|uniqueness rule for identity types]] is usually not included in objective type theory. However, if it were included in objective type theory it turns the type theory into a [[set-level type theory]]. 
+
+### Empty type
+
+Formation rules for the empty type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{0} \; \mathrm{type}}$$
+
+Elimination rules for the empty type:
+$$\frac{\Gamma, x:\mathbb{0} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{0}}{\Gamma \vdash \mathrm{ind}_C^p:C(p)}$$
+
+### Unit type
+
+Formation rules for the unit type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1} \; \mathrm{type}}$$
+
+Introduction rules for the unit type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:\mathbb{1}}$$
+
+Elimination rules for the unit type:
+$$\frac{\Gamma, x:\mathbb{1} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash p:\mathbb{1}}{\Gamma \vdash \mathrm{ind}_C^p(c_*):C(p)}$$
+
+Computation rules for the unit type:
+$$\frac{\Gamma, x:\mathbb{1} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0)}{\Gamma \vdash \beta_\mathbb{1}: \mathrm{ind}_C^*(c_*) =_{C(*)} c_*}$$
+
+Uniqueness rules for the unit type:
+$$\frac{\Gamma \vdash x:\mathbb{1}}{\Gamma \vdash \eta_\mathbb{1}:x =_{\mathbb{1}} *}$$
+
+### Booleans
+
+Formation rules for the booleans:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{2} \; \mathrm{type}}$$
+
+Introduction rules for the booleans:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{2}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathbb{2}}$$
+
+Elimination rules for the booleans:
+$$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash p:\mathbb{2}}{\Gamma \vdash \mathrm{ind}_C^p(c_0, c_1):C(p)}$$
+
+Computation rules for the booleans:
+$$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1)}{\Gamma \vdash \beta_\mathbb{2}^{0}: \mathrm{ind}_C^0(c_0, c_1) =_{C(0)} c_0}$$
+
+$$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1)}{\Gamma \vdash \beta_\mathbb{2}^{1}: \mathrm{ind}_C^1(c_0, c_1) =_{C(1)} c_1}$$
+
+Uniqueness rules for the booleans:
+...
+
+### Natural numbers
+
+Formation rules for the natural numbers:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{N} \; \mathrm{type}}$$
+
+Introduction rules for the natural numbers:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{N}} \qquad \frac{\Gamma \vdash n:\mathbb{N}}{\Gamma \vdash s(n):\mathbb{N}}$$
+
+Elimination rules for the natural numbers:
+$$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma, x:\mathbb{N}, c(x):C(x) \vdash c_s(x, c(x)):C(s(x)) \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash \mathrm{ind}_C^n(c_0, c_s):C(n)}$$
+
+Computation rules for the natural numbers:
+$$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma, x:\mathbb{N}, c(x):C(x) \vdash c_s(x, c(x)):C(s(x))}{\Gamma \vdash \beta_\mathbb{N}^{0}: \mathrm{ind}_C^0(c_0, c_s) =_{C(0)} c_0}$$
+
+$$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma, x:\mathbb{N}, c(x):C(x) \vdash c_s(x, c(x)):C(s(x))}{\Gamma \vdash \beta_\mathbb{N}^{s(n)}: \mathrm{ind}_C^{s(n)}(c_0, c_s) =_{C(s(n))} c_s(n, \mathrm{ind}_C^{n}(c_0, c_s))}$$
+
+Uniqueness rules for the natural numbers:
+...
 
 ### Function types
 
