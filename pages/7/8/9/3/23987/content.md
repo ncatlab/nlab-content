@@ -353,6 +353,16 @@ Stone-von Neumann**
 
 \linebreak
 
+* 21 Sep 2022
+  
+  Grigorios Giotopoulos (NYU Abi Dhabi)
+
+  **Braided Homotopy Lie Algebras and Noncommutative Field Theories**
+
+  on: [arXiv:2112.00541](https://arxiv.org/abs/2112.00541)
+
+\linebreak
+
 * 28 Sep 2022
   {#DavidJMyers22}
 
@@ -403,30 +413,35 @@ Stone-von Neumann**
 ## Members
  {#Members}
 
+Principal Investigator: 
 
-**Principal Investigator:**
+* [[Hisham Sati]]
 
-<img src="https://nyuad.nyu.edu/content/nyuad/en/home/academics/divisions/science/faculty/hisham-sati/jcr:content/bio-info/image.adaptive.m1510293714140/290.jpg" width="200" alt="Hisham Sati" />
+co-PIS: 
 
-<center>
- [[Hisham Sati]] --  Professor of Mathematics
-</center>
+* see [here](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html)
 
-\linebreak
+Senior Researcher: 
 
-(For the list of co-PIs see [here](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html).)
+* [[Urs Schreiber]]
 
-\linebreak
+Reserachers: 
 
-**Researchers:**
- {#Researchers}
+* [[Adrian Clough]]
 
-<img src="https://ncatlab.org/nlab/files/CQTS-Researchers-2022.jpg" width="750" alt="researchers at CQTS as of Sept 2022" />
+* [Tatiana Ezubova](https://de.linkedin.com/in/tatiana-ezubova-0b21091b9)
 
-|  |  |  |  |
-|--|--|--|--|
-| [[Urs Schreiber]] | [[Mitchell Riley]] | [[David Jaz Myers]] | [Tatiana Ezubova](https://de.linkedin.com/in/tatiana-ezubova-0b21091b9) | 
-| [[Marwa Mannaï]] | [[Sachin Valera]] | [[Amaria Javed]] | [[Adrian Clough]] |
+* [[Amaria Javed]]
+
+* [[Marwa Mannaï]] 
+
+* [[David Jaz Myers]] 
+
+* [[Mitchell Riley]] 
+
+* [[Sachin Valera]]
+
+
 
 
 ***
