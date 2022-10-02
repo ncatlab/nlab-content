@@ -262,7 +262,7 @@ In the other (vertical) direction, the dependent linear type of the measurement 
 
 
 
-Dually, the [[possibility]]-[[unit of a monad|unit]] on [[qbits]] is their *conditional state preparation*:
+Dually, the [[possibility]]-[[unit of a monad|unit]] on [[qbits]] is their *conditional state preparation* (this is the operation denoted "$\underline{a} \xleftarrow{\;} a$" in [Knill 1996](quantum+programming+language#Knill96), [p. 8](https://www.ncatlab.org/nlab/files/Knill-QuantumPseudocode.pdf#page=8)):
 
 \begin{imagefromfile}
     "file_name": "QCwthLHT-QBitStatePreparationCondt-221001.jpg",
@@ -276,8 +276,8 @@ Dually, the [[possibility]]-[[unit of a monad|unit]] on [[qbits]] is their *cond
     }
 \end{imagefromfile}
 
-and we denote $\mathrm{const}_0 : \Bool \to \Bool$ 
-the function constant on $0$, then  the unconditional state preparation is the base change of the conditional state preparation along this map:
+From this, if we denote $\mathrm{const}_0 : \Bool \to \Bool$ 
+the function [[constant function|constant]] on $0$, then  the *unconditional state preparation* (the operation denoted "$\underline{a} \xleftarrow{\;} 0$" in [Knill 1996](quantum+programming+language#Knill96), [p. 8](https://www.ncatlab.org/nlab/files/Knill-QuantumPseudocode.pdf#page=8)) is the base change of the conditional state preparation along this map:
 
 \begin{imagefromfile}
     "file_name": "QCwthLHT-QBitStatePreparation-221001.jpg",
