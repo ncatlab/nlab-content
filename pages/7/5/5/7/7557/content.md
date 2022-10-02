@@ -37,6 +37,10 @@ Similarly, using the univalence axiom, we can obtain a term $p : (\mathbf{2}=\ma
 
 It is conjectured that univalence, unlike excluded middle, can be given a "computational" interpretation while preserving canonicity.  Some partial progress towards this can be found [here](http://homotopytypetheory.org/2011/07/27/canonicity-for-2-dimensional-type-theory/).
 
+## See also
+
+* [[homotopy canonicity]]
+
 ## References
 
 Discussion of canonicity in [[homotopy type theory]] with [[univalence]] is discussed in 
