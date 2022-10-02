@@ -84,9 +84,13 @@ In fact, languages for [classically controlled quantum computation](#ClassicalCo
 |-------------------|--------------|
 | [[intuitionistic type theory|intuitionistic types]] | [[dependent linear type theory|dependent linear types]]
 
-This idea of classically controlled quantum programming via [[dependent linear type theory]] has been implemented for the *[[Quipper]]* language in [FKS 20](#FKS20), [FKRS 20](#FKRS20).
+This idea of classically controlled quantum programming via [[dependent linear type theory]] has been implemented in [[QML]] and in *[[Quipper]]* in [FKS 20](#FKS20), [FKRS 20](#FKRS20).
 
+## Examples
 
+* [[QML]]
+
+* [[Quipper]]
 
 
 ## Related entries
@@ -118,6 +122,7 @@ This idea of classically controlled quantum programming via [[dependent linear t
 * [[quantum probability]]
 
 
+
 ## References
 
 ### General
@@ -128,7 +133,9 @@ The idea of quantum computation was first expressed in:
 
   > Perhaps, for a better understanding of &lbrack;molecular bilogy&rbrack;, we need a mathematical theory of quantum automata.
 
-* Paul Benioff, *The computer as a physical system: A microscopic quantum mechanical Hamiltonian model of computers as represented by Turing machines*, J Stat Phys 22, 563–591 (1980) &lbrack;[doi:10.1007/BF01011339](https://doi.org/10.1007/BF01011339)&rbrack;
+* [[Paul Benioff]], *The computer as a physical system: A microscopic quantum mechanical Hamiltonian model of computers as represented by Turing machines*, J Stat Phys 22, 563–591 (1980) &lbrack;[doi:10.1007/BF01011339](https://doi.org/10.1007/BF01011339)&rbrack;
+
+* [[Paul Benioff]], *Quantum Mechanical Models of Turing Machines That Dissipate No Energy*, Phys. Rev. Lett. **48** 1581  (1982) &lbrack;[doi:10.1103/PhysRevLett.48.1581](https://doi.org/10.1103/PhysRevLett.48.1581)&rbrack;
 
 * {#Feynman82} [[Richard Feynman]], *Simulating physics with computers*,  Int J Theor Phys 21, 467–488 (1982) ([doi:10.1007/BF02650179](https://doi.org/10.1007/BF02650179))
 
@@ -436,8 +443,6 @@ category: computer science, physics
 [[!redirects quantum computer]]
 [[!redirects quantum computers]]
 
-
-[[!redirects QML]]
 
 [[!redirects classically controlled quantum computation]]
 [[!redirects parameterized quantum computation]]
