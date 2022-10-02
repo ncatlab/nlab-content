@@ -28,9 +28,23 @@
 
 A [[dependent type theory]] without [[definitional equality]]. 
 
-This means that the computation rules ([[beta-reduction]] and [[eta-conversion]]) for each type in the type theory are all propositional computation rules using the identity type, and in particular means that the identity type has to be introduced first before any other type is introduced. 
+This means that the computation rules ([[beta-reduction]] and [[eta-conversion]]) for each type in the type theory are all propositional computation rules using the [[identity type]], and in particular means that the identity type has to be introduced first before any other type is introduced. 
 
-Objective type theory has [[decidable type checking]], and the type checking can be done in quadratic time. 
+Objective type theory has [[decidable]] [[type checking]], and the type checking can be done in quadratic time. 
+
+## Open problems
+
+There are plenty of questions which are currently unresolved in objective type theory. Van der Berg and Besten in particular listed the following problems in their article:
+
+* Does [[univalence]] imply [[function extensionality]] in [[objective type theory]]?
+
+* Is [[Martin-Löf type theory]] conservative over [[objective type theory]]?
+
+* How much of the [[HoTT book]] could be done in [[objective type theory]]?
+
+* Does [[objective type theory]] have [[homotopy canonicity]] and [[normalization]]?
+
+See also [[open problems in homotopy type theory]]
 
 ## Categorical semantics
 
