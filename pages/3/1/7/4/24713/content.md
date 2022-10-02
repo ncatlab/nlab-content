@@ -4,7 +4,7 @@
 
 ## Idea
 
-A symbol in [[mathematics]] and [[computer science]] to indicate that a particular variable is being assigned a value. 
+A symbol in [[mathematics]] and [[computer science]] to indicate that a particular variable is being assigned a value or that a particular symbol is being defined.  
 
 ## In type theory
 
@@ -20,6 +20,8 @@ For example, suppose one wants to define a type $B$ to be $A$. Then given any de
 $$\frac{\mathcal{D}}{\Gamma \vdash A \; \mathrm{type}}$$
 one could extend the derivation tree with 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash B \coloneqq A \; \mathrm{type}}$$
+
+From the rules of the assignment operator it follows that $B$ is a type and $B$ is definitionally equal to $A$. 
 
 ## See also
 
