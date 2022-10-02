@@ -307,7 +307,8 @@ Review:
 
 Theory of [[classically controlled quantum computing]] and [[parameterized quantum circuits]]:
 
-* {#Knill96} [[Emanuel Knill]], *Conventions for quantum pseudocode*, 1996 ([LA-UR-96-2724](https://www.osti.gov/biblio/366453-conventions-quantum-pseudocode), [pdf](https://www.osti.gov/servlets/purl/366453))
+* {#Knill96} [[Emanuel Knill]], *Conventions for quantum pseudocode* Los Alamos Technical Report (1996) &lbrack;[LA-UR-96-2724](https://www.osti.gov/biblio/366453-conventions-quantum-pseudocode), [doi:10.2172/366453](https://doi.org/10.2172/366453), [pdf](https://www.osti.gov/servlets/purl/366453)&rbrack;
+
 
 * {#Omer03} [[Bernhard Ömer]], *Structured Quantum Programming*, 2003/2009 ([pdf](http://www.itp.tuwien.ac.at/~oemer/doc/structquprog.pdf))
 
