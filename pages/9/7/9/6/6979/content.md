@@ -66,7 +66,10 @@ _[[relation between type theory and category theory]]_.
 
 ## Examples
 
-* [[Martin-Löf dependent type theory]]
+* [[objective type theory]]
+* [[Martin-Löf type theory]]
+* [[cubical type theory]]
+* [[higher observational type theory]]
 * [[univalent type theory]]
 
 ## Related concepts
