@@ -38,11 +38,19 @@ There are plenty of questions which are currently unresolved in objective type t
 
 * Does [[univalence]] imply [[function extensionality]] in [[objective type theory]]?
 
-* Is [[Martin-Löf type theory]] conservative over [[objective type theory]]?
+* Is the [[homotopy type theory]] based upon [[Martin-Löf type theory]] conservative over [[objective type theory]]?
 
 * How much of the [[HoTT book]] could be done in [[objective type theory]]?
 
 * Does [[objective type theory]] have [[homotopy canonicity]] and [[normalization]]?
+
+Another problem relates to the formalization of the usage of abbreviations in objective type theory:
+
+* Many times in type theory, there would be types which are unwieldly long when written out. For example, the type of equivalences between two types $A$ and $B$, needed to define [[weakly Tarski universes]] and [[univalent universes]], is 
+$$\sum_{f:A \to B} \prod_{b:B} \sum_{p:\sum_{a:A} f(a) =_B b} \prod_{q:\sum_{a:A} f(a) =_B b} p =_{\sum_{a:A} f(a) =_B b} q$$
+This is extremely cumbersome to use, and one would typically abbreviate the above type to $A \simeq B$. In other type theories, one would formalize the [[assignment operator]] $\coloneqq$ by way of [[definitional equality]], and then define
+$$A \simeq B \coloneqq \sum_{f:A \to B} \prod_{b:B} \sum_{p:\sum_{a:A} f(a) =_B b} \prod_{q:\sum_{a:A} f(a) =_B b} p =_{\sum_{a:A} f(a) =_B b} q$$
+However, the assignment operator is not formally available in objective type theory, as there is no definitional equality. How should abbreviations be formally defined in [[objective type theory]]?
 
 See also [[open problems in homotopy type theory]]
 
