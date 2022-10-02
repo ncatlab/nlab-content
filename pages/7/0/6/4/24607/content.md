@@ -182,3 +182,5 @@ Implementation in [[quantum programming languages]]:
 
 
 
+[[!redirects quantum teleportation protocol]]
+
