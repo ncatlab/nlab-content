@@ -147,7 +147,7 @@ $$
 
 for the [[internal hom]] from $A$ into the [[unit object]], hence for dual of $A$ with respect to the [[closed category]] structure, its [[dual object in a closed category]]. 
 
-We say "$A$ is dualizable" to mean that it is a [[dualizable object]] with respect, insead, to the (symmetric) [[monoidal category]] structure $\otimes_X$. If $A$ is dualizable we write $A^\vee$ for its monoidal [[dual object]].
+We say "$A$ is dualizable" to mean that it is a [[dualizable object]] with respect, instead, to the (symmetric) [[monoidal category]] structure $\otimes_X$. If $A$ is dualizable we write $A^\vee$ for its monoidal [[dual object]].
 
 Similarly for $B \in \mathcal{Y}$.
 
@@ -270,7 +270,7 @@ If either of the two happens to be a [[natural equivalence]] (hence an equivalen
 +-- {: .num_prop #InWirthmuellerContextProjectionIsEquivalence}
 ###### Proposition
 
-Precisely if the pre-Wirthm&#252;ller context is a Wirthm&#252;ller context, def. \ref{WirthmullerContext}, are both comparison maps of def. \ref{ComparisonMaps} are natural equivalences.
+Precisely when the pre-Wirthm&#252;ller context is a Wirthm&#252;ller context, def. \ref{WirthmullerContext}, both comparison maps of def. \ref{ComparisonMaps} are natural equivalences.
 
 =--
 
