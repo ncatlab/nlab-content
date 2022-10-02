@@ -32,6 +32,111 @@ This means that the computation rules ([[beta-reduction]] and [[eta-conversion]]
 
 Objective type theory has [[decidable]] [[type checking]], and the type checking can be done in quadratic time. 
 
+## Syntax
+
+### Judgments and contexts
+
+Objective type theory consists of three judgments: type judgments $A \; \mathrm{type}$, where we judge $A$ to be a type, typing judgments, where we judge $a$ to be an element of $A$, $a:A$, and context judgments, where we judge $\Gamma$ to be a context, $\Gamma \; \mathrm{ctx}$. Contexts are lists of typing judgments $a:A$, $b:B$, $c:C$, et cetera, and are formalized by the rules for the empty context and extending the context by a typing judgment
+
+$$\frac{}{() \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash A \; \mathrm{type}}{(\Gamma, a:A) \; \mathrm{ctx}}$$
+
+### Structural rules
+
+There are three structural rules in objective type theory, the [[variable rule]], the [[weakening rule]], and the [[substitution rule]]. 
+
+The variable rule states that we may derive a typing judgment if the typing judgment is in the context already:
+
+$$\frac{\vdash \Gamma, a:A, \Delta \; \mathrm{ctx}}{\vdash \Gamma, a:A, \Delta \vdash a:A}$$
+
+Let $\mathcal{J}$ be any arbitrary judgment. Then we have the following rules:
+
+The weakening rule:
+
+$$\frac{\Gamma, \Delta \vdash \mathcal{J} \quad \Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, \Delta \vdash \mathcal{J}}$$
+
+The substitution rule:
+
+$$\frac{\Gamma \vdash a:A \quad \Gamma, b:A, \Delta \vdash \mathcal{J}}{\Gamma, \Delta[a/b] \vdash \mathcal{J}[a/b]}$$
+
+The weakening and substitution rules are admissible rules: they do not need to be explicitly included in the type theory as they could be proven by induction on the structure of all possible derivations. 
+
+### Dependent types and sections
+
+A dependent type is a type $B$ in the context of the variable judgment $x:A$, $x:A \vdash B \; \mathrm{type}$, they are usually written as $B(x)$ to indicate its dependence upon $x$. 
+
+A section or dependent term is a term $b:B$ in the context of the variable judgment $x:A$, $x:A \vdash b:B$. Sections are likewise usually written as $b(x)$ to indicate its dependence upon $x$. 
+
+### Identity types
+
+Equality in objective type theory is represented by the [[identity type]], which is also called the path type or identification type. The terms of the identity type could be called paths or identifications. 
+
+Equality comes with a formation rule, an introduction rule, an elimination rule, and a computation rule:
+
+Formation rule for identity types:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, b:A \vdash a =_A b \; \mathrm{type}}$$
+
+Introduction rule for identity types:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A \vdash \mathrm{refl}_A(a) : a =_A a}$$
+
+Elimination rule for identity types:
+$$\frac{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash C(a, b, p) \mathrm{type} \quad \Gamma, a:A, \Delta(a, a, \mathrm{refl}_A(a)) \vdash t:C(a, a, \mathrm{refl}_A(a))}{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash J(t, a, b, p):C(a, b, p)}$$
+
+Computation rules for identity types:
+$$\frac{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash C(a, b, p) \; \mathrm{type} \quad \Gamma, a:A, \Delta(a, a, \mathrm{refl}_A(a)) \vdash t:C(a, a, \mathrm{refl}_A(a))}{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash \beta_{=_A}(a) : J(t, a, a, \mathrm{refl}(a)) =_{C(a, a, \mathrm{refl}_A(a))} t}$$
+
+### Function types
+
+Formation rules for function types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \to B \; \mathrm{type}}$$
+
+Introduction rules for function types:
+$$\frac{\Gamma, x:A \vdash b(x):B}{\Gamma \vdash (x \mapsto b(x)):A \to B}$$
+
+Elimination rules for function types:
+$$\frac{\Gamma \vdash f:A \to B \quad \Gamma \vdash a:A}{\Gamma \vdash f(a):B}$$
+
+Computation rules for function types:
+$$\frac{\Gamma, x:A \vdash b(x):B \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{\to}:(x \mapsto b(x))(a) =_{B} b}$$
+
+Uniqueness rules for function types:
+$$\frac{\Gamma \vdash f:A \to B}{\Gamma \vdash \eta_{\to}:f =_{A \to B} (x \to f(x))}$$
+
+### Pi types
+
+Formation rules for Pi types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \prod_{x:A} B(x) \; \mathrm{type}}$$
+
+Introduction rules for Pi types:
+$$\frac{\Gamma, x:A \vdash b(x):B(x)}{\Gamma \vdash \lambda(x:A).b(x):\prod_{x:A} B(x)}$$
+
+Elimination rules for Pi types:
+$$\frac{\Gamma \vdash f:\prod{x:A} B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash f(a):B[a/x]}$$
+
+Computation rules for Pi types:
+$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_\Pi:\lambda(x:A).b(x)(a) =_{B[a/x]} b[a/x]}$$
+
+Uniqueness rules for Pi types:
+$$\frac{\Gamma \vdash f:\prod_{x:A} B(x)}{\Gamma \vdash \eta_\Pi:f =_{\prod_{x:A} B(x)} \lambda(x).f(x)}$$
+
+### Sigma types
+
+We use the negative presentation for sigma types. 
+
+Formation rules for Sigma types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \sum{x:A} B(x) \; \mathrm{type}}$$
+
+Introduction rules for Sigma types:
+$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B[a/x]}{\Gamma \vdash (a, b):\sum{x:A} B(x)}$$
+
+Elimination rules for Sigma types:
+$$\frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash \pi_1(z):A} \qquad \frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash \pi_2(z):B(\pi_1(z))}$$
+
+Computation rules for Sigma types:
+$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{\Sigma 1}:\pi_1(a, b) =_A a} \qquad \frac{\Gamma, x:A \vdash b:B \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{\Sigma 2}:\pi_2(a, b) =_{B\pi_1(a, b)} b}$$
+
+Uniqueness rules for Sigma types:
+$$\frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash \eta_\Sigma:z =_{\sum_{x:A} B(x)} (\pi_1(z), \pi_2(z))}$$
+
 ## Open problems
 
 There are plenty of questions which are currently unresolved in objective type theory. Van der Berg and Besten in particular listed the following problems in their article:
@@ -46,7 +151,7 @@ There are plenty of questions which are currently unresolved in objective type t
 
 Another problem relates to the formalization of the usage of abbreviations in objective type theory:
 
-* Many times in type theory, there would be types which are unwieldly long when written out. For example, the type of equivalences between two types $A$ and $B$, needed to define [[weakly Tarski universes]] and [[univalent universes]], is 
+* Many times in type theory, there would be types which are unwieldly long when written out. For example, the type of [[equivalence in homotopy type theory|equivalences]] between two types $A$ and $B$, needed to define [[weakly Tarski universes]] and [[univalent universes]], is 
 $$\sum_{f:A \to B} \prod_{b:B} \sum_{p:\sum_{a:A} f(a) =_B b} \prod_{q:\sum_{a:A} f(a) =_B b} p =_{\sum_{a:A} f(a) =_B b} q$$
 This is extremely cumbersome to use, and one would typically abbreviate the above type to $A \simeq B$. In other type theories, one would formalize the [[assignment operator]] $\coloneqq$ by way of [[definitional equality]], and then define
 $$A \simeq B \coloneqq \sum_{f:A \to B} \prod_{b:B} \sum_{p:\sum_{a:A} f(a) =_B b} \prod_{q:\sum_{a:A} f(a) =_B b} p =_{\sum_{a:A} f(a) =_B b} q$$
