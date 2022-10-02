@@ -5,7 +5,8 @@
 
 On [[quantum programming languages]] for classically controlled [[quantum computation]]:
 
-* {#Knill96} [[Emanuel Knill]], *Conventions for quantum pseudocode*, 1996 ([LA-UR-96-2724](https://www.osti.gov/biblio/366453-conventions-quantum-pseudocode), [pdf](https://www.osti.gov/servlets/purl/366453))
+* {#Knill96} [[Emanuel Knill]], *Conventions for quantum pseudocode* Los Alamos Technical Report (1996) &lbrack;[LA-UR-96-2724](https://www.osti.gov/biblio/366453-conventions-quantum-pseudocode), [doi:10.2172/366453](https://doi.org/10.2172/366453), [pdf](https://www.osti.gov/servlets/purl/366453)&rbrack;
+
 
 On [[quantum error correction]]:
 
