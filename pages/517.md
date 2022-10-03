@@ -31,7 +31,7 @@ On [[infinite loop spaces]]:
 
 On [[E-infinity spaces|$E_\infty$-spaces]] and [[E-infinity ring spectra|$E_\infty$-ring sectra]]:
 
-* [[Peter May]] with contributions by [[Frank Quinn]], [[Nigel Ray]] and [[Jørgen Tornehave]], _$E_\infty$-Ring spaces and $E_\infty$ ring spectra_, Lecture Notes in Mathematics 577, Springer 1977 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf), [cds:1690879](https://cds.cern.ch/record/1690879))
+* {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], [[Mark Steinberger]] (with contributions by [[James McClure|J.E. McClure]]), _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics  **1213** (1986) &lbrack;[pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf), [doi:10.1007/BFb0075778](https://link.springer.com/book/10.1007/BFb0075778)&rbrack;
 
 
 On [[equivariant cohomology]] and [[equivariant homotopy theory]]:
@@ -43,9 +43,11 @@ On [[highly structured spectra]]:
 
 * {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society Volume 82, Issue 2, 2000  ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf), [doi:10.1112/S0024611501012692]( https://doi.org/10.1112/S0024611501012692))
 
-On [[H-infinity ring spectra]]:
 
-* {#BrunerMayMcLureSteinberger86} R. Bruner, [[Peter May]], [[James McClure]], M. Steinberger, _$H_\infty$-Ring Spectra and their Applications_, Lecture Notes in Mathematics 1176, Springer 1986 ([doi:10.1007/BFb0075405](https://link.springer.com/book/10.1007/BFb0075405), [pdf](http://www.math.uchicago.edu/~may/BOOKS/h_infty.pdf))
+On [[H-infinity ring spectra|$H_\infty$-ring spectra]]:
+
+* {#BrunerMayMcLureSteinberger86} [[Robert Bruner]], [[Peter May]], [[James McClure]], [[Mark Steinberger]], *$H_\infty$-Ring Spectra and their Applications*, Lecture Notes in Mathematics **1176**, Springer (1986) &lbrack;[doi:10.1007/BFb0075405](https://link.springer.com/book/10.1007/BFb0075405), [pdf](http://www.math.uchicago.edu/~may/BOOKS/h_infty.pdf)&rbrack;
+
 
 On [[equivariant bundles]]:
 
