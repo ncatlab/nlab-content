@@ -362,7 +362,7 @@ The dependent linear type of the [[CNOT gate]]:
 
 \begin{imagefromfile}
     "file_name": "QCwthLHT-QuantumCNOTGate-221001.jpg",
-    "width": "850",
+    "width": "800",
     "unit": "px",
     "margin": {
         "top": -30,
@@ -380,7 +380,7 @@ The dependent linear type of a [[Bell state]] preparation:
 
 \begin{imagefromfile}
     "file_name": "QCwthLHT-BellStatePreparation-221003d.jpg",
-    "width": "850",
+    "width": "800",
     "unit": "px",
     "margin": {
         "top": -30,
@@ -418,7 +418,7 @@ The dependent linear type of a Bell state measurement:
 
 \begin{imagefromfile}
     "file_name": "QCwthLHT-BitControlledQGate-221001.jpg",
-    "width": "930",
+    "width": "850",
     "unit": "px",
     "margin": {
         "top": -30,
