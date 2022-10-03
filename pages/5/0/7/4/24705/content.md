@@ -12,7 +12,7 @@ This works by regarding classically controlled [[quantum states]] as having [[li
 
 1. The [[external tensor product]] of dependent linear types gives the compilation of [[quantum gates]] into [[quantum circuits]], essentially as familiar from the quantum [[string diagram]]-calculus of [Abramsky & Coecke 2004](finite+quantum+mechanics+in+terms+of+dagger-compact+categories#AbramskyCoecke04) with respect to the plain [[tensor product]], but now taking into account dependency on classical control and potential measurement outcomes. 
 
-All constructions and proofs here flow readily from just the [[six operation yoga]] and [[co-Kleisli category|co-Kleisli theory]]. One key point is (eq:NecessityRespectsExternalTensorProduct) that the [[necessity]] [[modality]] respects the [[external tensor product]] -- so that these classically controlled quantum circuits are unambiguously defined --, under the assumption that it coincides with the [[formal duality|dual]] *[[possibility]]* modality $\bigcirc_C \mathscr{H}_C$  on the quantum data types $\mathcal{H}_\bullet$ involved -- hence (in full generality) when the linear types are [[dualizable object|dualizable]] in the sense of [[ambidextrous adjunction|ambidexterity]] and specifically (in the traditional models) when [[space of quantum states|quantum state spaces]] are [[finite-dimensional vector space|finite dimensional]], as is the case in [[quantum information theory]].
+All constructions and proofs here flow readily from just the [[six operation yoga]] and [[co-Kleisli category|co-Kleisli theory]]. One key point is (eq:NecessityRespectsExternalTensorProduct) that the [[necessity]] [[modality]] respects the [[external tensor product]] -- so that these classically controlled quantum circuits are unambiguously defined --, under the assumption that it coincides with the [[formal duality|dual]] *[[possibility]]* modality $\lozenge_C \mathscr{H}_C$  on the quantum data types $\mathcal{H}_\bullet$ involved -- hence (in full generality) when the linear types are [[dualizable object|dualizable]] in the sense of [[ambidextrous adjunction|ambidexterity]] and specifically (in the traditional models) when [[space of quantum states|quantum state spaces]] are [[finite-dimensional vector space|finite dimensional]], as is the case in [[quantum information theory]].
 
 
 
@@ -52,7 +52,7 @@ First observe that (without imposing a further condition) also classical ("non-l
 
 1. $f_\ast$ given by [[dependent product]]. 
 
-In this classical situation, the ([[comonad|co]]-)[[monad]] [[adjoint pair]] $\Box_C \dashv \bigcirc_C$ induced by the [[adjoint triple]] is readily found (see [here](necessity+and+possibility#InFirstOrderLogicAndTypeTheory)) to reflect the [[necessity]]-[[modality]] and the [[possibility]]-[[modality]] of a kind of [[modal logic]] which regards the potential measurement outcomes $c : C$ as "[[possible worlds semantics|possible worlds]]":
+In this classical situation, the ([[comonad|co]]-)[[monad]] [[adjoint pair]] $\lozenge_C \dashv \Box_C$ induced by the [[adjoint triple]] is readily found (see [here](necessity+and+possibility#InFirstOrderLogicAndTypeTheory)) to reflect the [[necessity]]-[[modality]] and the [[possibility]]-[[modality]] of a kind of [[modal logic]] which regards the potential measurement outcomes $c : C$ as "[[possible worlds semantics|possible worlds]]":
 
 \begin{imagefromfile}
     "file_name": "QCwthLHT-ClassicalNecessity-221001.jpg",
@@ -66,7 +66,9 @@ In this classical situation, the ([[comonad|co]]-)[[monad]] [[adjoint pair]] $\B
     }
 \end{imagefromfile}
 
-We will say that a $C$-dependent linear type $\mathscr{H}_\bullet : LinType_C$ is *finite dimensional* if its [[possibility]]-aspect agrees with is [[necessity]] aspect, and we write $FDLinTyp_C$ for the subtype of the dependent linear types which are finite-dimensional.
+We will say that a $C$-dependent linear type $\mathscr{H}_\bullet : LinType_C$ is *finite dimensional* if its [[possibility]]-aspect agrees with is [[necessity]] aspect, and we write $FDLinTyp_C$ for the subtype of the dependent linear types which are finite-dimensional. 
+
+> (This finite-dimensionality needs more discussion...)
 
 The default [[categorical semantics]] for this situation is that of [[bundles]] of [[finite dimensional vector spaces]] (finite-dimensional complex [[Hilbert spaces]]) over [[finite sets]]: In this case both $(p_C)_!$ as well as $(p_C)_\ast$ yield the [[direct sum]] of the [[fibers]] (a [[biproduct]]). Since this is the [[categorical semantics]] under which the following type theory describes the traditional [[quantum circuits]], we will adopt our notation to this case and denote the generic [[dependent linear type]] by $\mathcal{H}_\bullet : FDLinType_C$ and its generic [[term]] by the usual notation for [[quantum states]]: 
 
@@ -99,11 +101,12 @@ which is encoded by its direct sum decomposition $\mathcal{H}_\bullet$:
     }
 \end{imagefromfile}
 
-Of course, in general there may be richer dependency on classical contexts. In the next simplest case the [[base change]] is along the [[projection]] map out of a [[Cartesian product]] of classical types, which makes one of them label potential upcoming measurement results as before, while the other encodes further dependency on classical parameters, such as on previous measurement results:
+
+(Of course, in general there may be richer dependency on classical contexts. In the next simplest case the [[base change]] is along the [[projection]] map out of a [[Cartesian product]] of classical types, which makes one of them label potential upcoming measurement results as before, while the other encodes further dependency on classical parameters, such as on previous measurement results:
 
 \begin{imagefromfile}
     "file_name": "QCwthLHT-RelativeBaseChange-221002.jpg",
-    "width": "600",
+    "width": "670",
     "unit": "px",
     "margin": {
         "top": -30,
@@ -113,6 +116,38 @@ Of course, in general there may be richer dependency on classical contexts. In t
     }
 \end{imagefromfile}
 
+This plays a role for classically-controlled quantum gates, [below](#ClassicallyControlledQuantumGate)).
+
+
+Notice that it is the ambidexterity assumption --- $\lozenge \mathscr{H}_\bullet \simeq \Box \mathscr{H}_\bullet$ --- on linear dependent types  which,  in terms of [[modal logic]], formalizes the [[Gell-Mann principle]] of quantum physics:
+
+$$
+  \array{
+    \llap{\text{The}}\;\text{possible}
+    &
+    \text{is} 
+    &
+    \text{necessary}
+    &
+    \text{and hence} 
+    &
+    \text{actualized}
+    \\
+    \lozenge \mathcal{H}_\bullet
+    &
+    \simeq
+    &
+    \Box \mathcal{H}_\bullet 
+    &
+    \xrightarrow{\phantom{--} \epsilon \phantom{--}} 
+    &
+    \mathcal{H}_{
+      \bullet   
+      \;
+      \mathrlap{\text{with some probability}}
+    }
+  }
+$$
 
 
 
@@ -144,6 +179,8 @@ While quantum gates have [[horizontal composition]] in the [[co-Kleisli category
         "left": 10
     }
 \end{imagefromfile}
+
+The point here is that the [[external tensor product]] records not just the [[tensor product]] on the given linear/quantum types, but also the fact that under combining two quantum gates/circuits, the types $C$ and $C'$ of their potential classical measurement outcomes combine into the type $C \times C'$ of [[pairs]] of outcomes (the [[Cartesian product]]) --- see the example of pairs of qbits, [below](#CombinationOfAPairOfQBits).
 
 
 
@@ -245,7 +282,7 @@ In particular, by retaining the quantum type of the measurement result, we retai
     }
 \end{imagefromfile}
 
-In the other (vertical) direction, the dependent linear type of the measurement of a [[pair]] of [[qbits]] comes out as expected, where the point to notice is how the [[external tensor product]] keeps track of the fact that a pair of qbits has $2 \times 2 = 4$ potential measurement outcomes:
+{#CombinationOfAPairOfQBits} In the other (vertical) direction, the dependent linear type of the measurement of a [[pair]] of [[qbits]] comes out as expected, where the point to notice is how the [[external tensor product]] keeps track of the fact that a pair of qbits has $2 \times 2 = 4$ potential measurement outcomes:
 
 \begin{imagefromfile}
     "file_name": "QCwthLHT-QBitPairMeasurement-221001.jpg",
@@ -320,7 +357,9 @@ The dependent linear type of the [[CNOT gate]]:
     }
 \end{imagefromfile}
 
-The dependent linear type of a quantum gate controlled by a classical bit:
+
+{#ClassicallyControlledQuantumGate} The dependent linear type of a quantum gate controlled by a classical bit:
+
 
 \begin{imagefromfile}
     "file_name": "QCwthLHT-BitControlledQGate-221001.jpg",
