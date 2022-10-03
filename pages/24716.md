@@ -1,0 +1,45 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+While the inherently [[probability|probabilistic]] nature of [[quantum physics]] means, roughly, that as soon as there is more than one possibility, no [[quantum measurement]] outcome can be known with certainty; conversely this also means that all outcomes are possible with some probability. This converse statement had been stated by [Gell-Mann 1956](#GellMann56) for the case of [[quantum hadrodynamics]] (p. 859) in this form:
+
+> "Principle of Compulsory Strong Interactions". Among baryons, antibaryons, and mesons, any process which is not forbidden by a conservation law actually does take place with appreciable probability. 
+
+For better or worse, [[Murray Gell-Mann]] on that same page found it helpful to add that:
+
+> this is related to the state of affairs that is said to prevail in a perfect totalitarian state. Anything that is not compulsory is forbidden.
+
+and historians of science swallowed this red herring and ever since refer to Gell-Mann's "Principle of compulsion" in quantum physics instead as the "totalitarian principle" (eg. [Kragh 2019a](#Kragh19a)). See also the "principle of plenitude" (cf. [Kragh 2019b](#Kragh19b)).
+
+
+## References
+
+* {#GellMann56} [[Murray Gell-Mann]], *The interpretation of the new particles as displaced charge multiplets*,  Nuovo Cim **4** 2 (1956) 848–866 &lbrack;[doi:10.1007/BF02748000](https://doi.org/10.1007/BF02748000)&rbrack;
+
+* {#Kragh19a} Helge Kragh, *Physics and the Totalitarian Principle* &lbrack;[arXiv:1907.04623](https://arxiv.org/abs/1907.04623)&rbrack;
+
+* {#Kragh19b} Helge Kragh, *Plenitude Philosophy and Chemical Elements*, International Journal for Philosophy of Chemistry [**25** 1](http://hyle.org/journal/issues/25-1/) (2019) &lbrack;[pdf](http://hyle.org/journal/issues/25-1/kragh.pdf)&rbrack;
+
+[[!redirects totalitarian principle]]
+
+[[!redirects principle of plenitude]]
+[[!redirects plenitude principle]]
