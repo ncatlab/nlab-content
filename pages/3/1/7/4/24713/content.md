@@ -4,11 +4,15 @@
 
 ## Idea
 
-A symbol in [[mathematics]] and [[computer science]] to indicate that a particular variable is being assigned a value or that a particular symbol is being defined.  
+A symbol in [[mathematics]] and [[computer science]] to indicate that a particular variable is being initialized or assigned a value or that a particular symbol is being defined.
+
+One sometimes distinguishes between assignment operators which allow reassignment, with what are known as single assignment operators or initialization operators, which do not allow reassignment. 
+
+The assignment operator in purely [[functional programming]] languages like [[Haskell]] amd [[Agda]] is an example of a single assignment operator. As purely functional programming languages can be represented in [[type theory]], and every [[foundations of mathematics]] could also be represented in type theory, the assignment operators used in mathematics are single assignment operators as well. 
 
 ## In type theory
 
-The assignment operator $\coloneqq$ is defined in type theory by the following rules:
+In any type theory with [[definitional equality]], the assignment operator $\coloneqq$ is a single assignment operator, and it is defined by the following rules:
 
 $$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \equiv A\; \mathrm{type}}$$
 
@@ -25,6 +29,7 @@ From the rules of the assignment operator it follows that $B$ is a type and $B$ 
 
 ## See also
 
+* [[functional programming]]
 * [[definitional equality]]
 
 ## References
@@ -32,3 +37,7 @@ From the rules of the assignment operator it follows that $B$ is a type and $B$ 
 The assignment operator is defined (not by name) in Remark 2.2.1 in:
 
 * [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([pdf](https://raw.githubusercontent.com/martinescardo/HoTTEST-Summer-School/main/HoTT/hott-intro.pdf)) (478 pages)
+
+See also
+
+* Wikipedia, _<a href="https://en.wikipedia.org/wiki/Assignment_(computer_science)">Assignment (computer science)</a>_
