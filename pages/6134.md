@@ -21,6 +21,11 @@ On [[homotopy theory]]:
 * {#Homotopietheorie} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], *Homotopietheorie*, Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
 
 
+On [[dualizable objects]], [[traces]] and the [[Becker-Gottlieb transfer]]:
+
+* [[Albrecht Dold]], [[Dieter Puppe]], *Duality, Trace and Transfer*, Proceedings of the Steklov Institute of Mathematics, **154** (1984) 85–103 &lbrack;[mathnet:tm2435](http://mi.mathnet.ru/tm2435), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/doldpup2.pdf)&rbrack;
+
+
 ## Related $n$Lab entries
 
 * [[stable homotopy category]], [[smash product of spectra]]
