@@ -56,6 +56,10 @@ On [[perverse sheaves]]:
 
 * [[A. A. Beilinson]], J. Bernstein, P. Deligne, _Faisceaux pervers_,  Ast&#233;risque __100__ (1983).
 
+On [[Tannakian categories]]:
+
+* [[Pierre Deligne]], [[James Milne]]: *Tannakian categories*,  in: *Hodge Cycles, Motives, and Shimura Varieties*, Lecture Notes in Mathematics **900**, Springer (1982) &lbrack;[doi:10.1007/978-3-540-38955-2_4](https://doi.org/10.1007/978-3-540-38955-2_4), [webpage](http://www.jmilne.org/math/xnotes/tc.html)&rbrack;
+
 
 On [[tensor categories]] and [[Tannaka duality]]
 
