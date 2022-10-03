@@ -41,3 +41,17 @@ The assignment operator is defined (not by name) in Remark 2.2.1 in:
 See also
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Assignment_(computer_science)">Assignment (computer science)</a>_
+
+[[!redirects assignment]]
+[[!redirects assignment operators]]
+
+[[!redirects single assignment]]
+[[!redirects single assignment operator]]
+[[!redirects single assignment operators]]
+
+[[!redirects initialization]]
+[[!redirects initialization operator]]
+[[!redirects initialization operators]]
+[[!redirects initialisation]]
+[[!redirects initialisation operator]]
+[[!redirects initialisation operators]]
