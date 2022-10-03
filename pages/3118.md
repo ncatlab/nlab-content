@@ -20,6 +20,10 @@ via [[Quipper]]:
 
 * [[Peter Selinger]], _The Quipper Language_ ([web](http://www.mathstat.dal.ca/~selinger/quipper/))
 
+On [[self-dual objects]] in [[star-autonomous categories]] and their relation to [[inner products]] and to [[dagger-category|dagger-structure]]:
+
+* {#Selinger12} [[Peter Selinger]], _Autonomous categories in which $A \simeq A^\ast$_, talk at QPL 2012 ([[SelingerSelfDual.pdf:file]])
+ 
 
 On [[string diagram]]-calculus for [[monoidal categories]]:
 
