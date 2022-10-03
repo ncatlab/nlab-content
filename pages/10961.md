@@ -93,7 +93,11 @@ and continues:
 
 ## Related entries
 
-* [[wave function collapse]], [[propositions as projections]]
+* [[wave function collapse]], [[quantum measurement]]
+
+  [[propositions as projections]]
+
+* [[Gell-Mann principle]]
 
 * [[quantum logic]]
 
