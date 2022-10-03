@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -116,6 +117,8 @@ The theorem for $n$-fold Segal spaces then follows by inductively applying the g
 
 * [[semi-Segal space]]
 
+* [[weakly globular n-fold category]]
+
 ## References
 
 The definition originates in the thesis
@@ -136,10 +139,7 @@ A detailed discussion in the general context of [[internal categories in an (∞
 
 * {#Lurie09} [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie Calculus I_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
 
-A textbook account is in
 
-* {#Paoli19} [[Simona Paoli]], _Simplicial Methods for Higher Categories -- Segal-type Models of Weak $n$-Categories_, Springer 2019  ([doi:10.1007/978-3-030-05674-2](https://doi.org/10.1007/978-3-030-05674-2), [toc pdf](https://link.springer.com/content/pdf/bfm%3A978-3-030-05674-2%2F1.pdf))
- 
 
 
 For related references see at _[[(∞,n)-category]]_ .
