@@ -55,6 +55,8 @@ This matches the [[intuitionistic mathematics|intuitionistic]] notion of negatio
 
 * [[complement]]
 
+* [[De Morgan duality]]
+
 * [[co-Heyting negation]]
 
 * [[adjoint cylinder]]
