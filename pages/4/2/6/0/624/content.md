@@ -311,19 +311,23 @@ Review:
 
 * [[Peter May]], §2 in: *Picard Groups, Grothendieck Rings, and Burnside Rings of Categories*, Advances in Mathematics **163** 1 (2001) 1-16 &lbrack;[pdf](http://math.uchicago.edu/~may/PAPERS/PicJan01.pdf), [doi:10.1006/aima.2001.1996](https://doi.org/10.1006/aima.2001.1996)&rbrack;
  
-
 Further examples:
 
 * [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_, ([arXiv:1107.6032](http://arxiv.org/abs/1107.6032))
 
-Monoidal categories with freely adjoint duals are described in
+On [[self-dual objects]] and the corresponding [[inner products]] and [[dagger-category|dagger-structure]]:
+
+* {#Selinger12} [[Peter Selinger]], _Autonomous categories in which $A \simeq A^\ast$_, talk at QPL 2012 ([[SelingerSelfDual.pdf:file]])
+ 
+
+Monoidal categories with freely adjoint duals:
 
 *  Kevin Coulembier, [[Ross Street]], Michel van den Bergh, _Freely adjoining monoidal duals_, arXiv:2004.09697 (2020).  ([abstract](https://arxiv.org/abs/2004.09697))
 
-The notion of duals in a symmetric monoidal $(\infty,n)$-category is due to section 2.3 of
+The notion of duals in a [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-category]]:
 
-* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], Section 2.3  _[[On the Classification of Topological Field Theories]]_
+ 
 
 
 [[!redirects dual object]]
