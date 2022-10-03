@@ -26,9 +26,9 @@
 
 ## Idea
 
-Objective type theory is a [[dependent type theory]] without [[definitional equality]]. 
+A [[dependent type theory]] without [[definitional equality]]. 
 
-This means that the computation rules ([[beta-reduction]] rules, and any [[eta-conversion]] if those exist) for each type in the type theory are all propositional computational rules using the [[identity type]], and in particular means that the identity type has to be introduced first before any other type is introduced. 
+This means that the computation and uniqueness rules ([[beta-reduction]] and [[eta-conversion]]) for each type in the type theory are all propositional computational and uniqueness rules using the [[identity type]], and in particular means that the identity type has to be introduced first before any other type is introduced. 
 
 Objective type theory has [[decidable]] [[type checking]], and the type checking can be done in quadratic time. 
 
@@ -84,6 +84,8 @@ $$\frac{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash C(a, b, p) \mathrm{t
 Computation rules for identity types:
 $$\frac{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash C(a, b, p) \; \mathrm{type} \quad \Gamma, a:A, \Delta(a, a, \mathrm{refl}_A(a)) \vdash t:C(a, a, \mathrm{refl}_A(a))}{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash \beta_{=_A}(a) : J(t, a, a, \mathrm{refl}(a)) =_{C(a, a, \mathrm{refl}_A(a))} t}$$
 
+The [[uniqueness of identity proofs|uniqueness rule for identity types]] is usually not included in objective type theory. However, if it were included in objective type theory it turns the type theory into a [[set-level type theory]]. 
+
 ### Empty type
 
 Formation rules for the empty type:
@@ -106,6 +108,9 @@ $$\frac{\Gamma, x:\mathbb{1} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_
 Computation rules for the unit type:
 $$\frac{\Gamma, x:\mathbb{1} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0)}{\Gamma \vdash \beta_\mathbb{1}: \mathrm{ind}_C^*(c_*) =_{C(*)} c_*}$$
 
+Uniqueness rules for the unit type:
+$$\frac{\Gamma \vdash x:\mathbb{1}}{\Gamma \vdash \eta_\mathbb{1}:x =_{\mathbb{1}} *}$$
+
 ### Booleans
 
 Formation rules for the booleans:
@@ -121,6 +126,9 @@ Computation rules for the booleans:
 $$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1)}{\Gamma \vdash \beta_\mathbb{2}^{0}: \mathrm{ind}_C^0(c_0, c_1) =_{C(0)} c_0}$$
 
 $$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1)}{\Gamma \vdash \beta_\mathbb{2}^{1}: \mathrm{ind}_C^1(c_0, c_1) =_{C(1)} c_1}$$
+
+Uniqueness rules for the booleans:
+...
 
 ### Natural numbers
 
@@ -138,6 +146,9 @@ $$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_
 
 $$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma, x:\mathbb{N}, c(x):C(x) \vdash c_s(x, c(x)):C(s(x))}{\Gamma \vdash \beta_\mathbb{N}^{s(n)}: \mathrm{ind}_C^{s(n)}(c_0, c_s) =_{C(s(n))} c_s(n, \mathrm{ind}_C^{n}(c_0, c_s))}$$
 
+Uniqueness rules for the natural numbers:
+...
+
 ### Function types
 
 Formation rules for function types:
@@ -152,6 +163,9 @@ $$\frac{\Gamma \vdash f:A \to B \quad \Gamma \vdash a:A}{\Gamma \vdash f(a):B}$$
 Computation rules for function types:
 $$\frac{\Gamma, x:A \vdash b(x):B \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{\to}:(x \mapsto b(x))(a) =_{B} b}$$
 
+Uniqueness rules for function types:
+$$\frac{\Gamma \vdash f:A \to B}{\Gamma \vdash \eta_{\to}:f =_{A \to B} (x \to f(x))}$$
+
 ### Pi types
 
 Formation rules for Pi types:
@@ -165,6 +179,9 @@ $$\frac{\Gamma \vdash f:\prod{x:A} B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash f
 
 Computation rules for Pi types:
 $$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_\Pi:\lambda(x:A).b(x)(a) =_{B[a/x]} b[a/x]}$$
+
+Uniqueness rules for Pi types:
+$$\frac{\Gamma \vdash f:\prod_{x:A} B(x)}{\Gamma \vdash \eta_\Pi:f =_{\prod_{x:A} B(x)} \lambda(x).f(x)}$$
 
 ### Product types
 
@@ -182,6 +199,9 @@ $$\frac{\Gamma \vdash z:A \times B}{\Gamma \vdash \pi_1(z):A} \qquad \frac{\Gamm
 Computation rules for product types:
 $$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b:B}{\Gamma \vdash \beta_{\times 1}:\pi_1(a, b) =_A a} \qquad \frac{\Gamma \vdash a:A \quad \Gamma \vdash b:B}{\Gamma \vdash \beta_{\times 2}:\pi_2(a, b) =_B b}$$
 
+Uniqueness rules for product types:
+$$\frac{\Gamma \vdash z:A \times B}{\Gamma \vdash \eta_\times:z =_{A \times B} (\pi_1(z), \pi_2(z))}$$
+
 ### Sigma types
 
 We use the negative presentation for sigma types. 
@@ -197,6 +217,9 @@ $$\frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash \pi_1(z):A} \qquad \frac{
 
 Computation rules for Sigma types:
 $$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{\Sigma 1}:\pi_1(a, b) =_A a} \qquad \frac{\Gamma, x:A \vdash b:B \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{\Sigma 2}:\pi_2(a, b) =_{B\pi_1(a, b)} b}$$
+
+Uniqueness rules for Sigma types:
+$$\frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash \eta_\Sigma:z =_{\sum_{x:A} B(x)} (\pi_1(z), \pi_2(z))}$$
 
 ## Open problems
 
