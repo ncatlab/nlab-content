@@ -8,7 +8,7 @@ Transvection is a name for a number of concepts of involutive transformations in
 
 __Definition.__ For a left vector space $V$ over a [[skewfield]] $F$, a __transvection__ is a left $F$-linear map $t:V\to V$ such that the map $v\mapsto t(v)-v$ has 1-dimensional image (called the center of $t$) and this image is a subset of the fixed space of $V$ (the set of fixed points of $t$, i.e. the kernel if $v\mapsto t(v)-v$).
 
-For finite dimensional vector spaces over a (commutative) field, $t\in GL(V)$ is a transvection f it is either the identity or $dim(Im(t-Id))=1$ and $det(t) = 1$. For any $s\in GL(V)$ the image $Im(s-Id)$ is also called the residual space of $s$ and $res(s) = dim(Im(s-Id))$ the residue of $s$. Residue is $0$ iff $s=Id$; residue of a product is smaller or equal the sum of residues. The fixed space and the residue space of $s$ are both fixed by $s$ and their dimensions add to the dimension of $V$; both spaces for $s^{-1}$ are equal to those of $s$. 
+For finite dimensional vector spaces over a (commutative) field, $t\in GL(V)$ is a transvection if it is either the identity or $dim(Im(t-Id))=1$ and $det(t) = 1$. For any $s\in GL(V)$ the image $Im(s-Id)$ is also called the residual space of $s$ and $res(s) = dim(Im(s-Id))$ the residue of $s$. Residue is $0$ iff $s=Id$; residue of a product is smaller or equal the sum of residues. The fixed space and the residue space of $s$ are both fixed by $s$ and their dimensions add to the dimension of $V$; both spaces for $s^{-1}$ are equal to those of $s$. 
 
 In the geometry of symplectic vector spaces (of positive dimension $\geq 2$ over a commutative field) special role is played by
 the transvections within the symplectic group. The fixed points of a 
