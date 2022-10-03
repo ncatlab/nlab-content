@@ -42,7 +42,7 @@ Applied for instance to the category of finite-dimensional [[inner product space
 
 ## Graphical language
 
-In terms of [[string diagrams]] (following Joyal and Street's conventions for [[braided monoidal categories]]), [Selinger](#Selinger) argues that the isomorphism $h_X : X \simeq X^\ast$ should be depicted as a half-twist.  In particular, for a [[tortile category]] equipped with a self-duality structure, the coherence condition
+In terms of [[string diagrams]] (following Joyal and Street's conventions for [[braided monoidal categories]]), [Selinger](#Selinger) argues that the isomorphism $h_X : X \simeq X^\ast$ should be depicted as a half-twist.  In particular, for a [[tortile category]] equipped with a self-duality structure, the [[coherence]] condition
 
 $$
 (X^\ast \stackrel{h_{X^\ast}}{\to} X^{\ast\ast} \stackrel{h_X^\ast}{\to} X^\ast) \; =\; 
