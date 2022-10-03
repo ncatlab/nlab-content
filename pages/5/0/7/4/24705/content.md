@@ -55,7 +55,7 @@ First observe that (without imposing a further condition) also classical ("non-l
 In this classical situation, the ([[comonad|co]]-)[[monad]] [[adjoint pair]] $\lozenge_C \dashv \Box_C$ induced by the [[adjoint triple]] is readily found (see [here](necessity+and+possibility#InFirstOrderLogicAndTypeTheory)) to reflect the [[necessity]]-[[modality]] and the [[possibility]]-[[modality]] of a kind of [[modal logic]] which regards the potential measurement outcomes $c : C$ as "[[possible worlds semantics|possible worlds]]":
 
 \begin{imagefromfile}
-    "file_name": "QCwthLHT-ClassicalNecessity-221001.jpg",
+    "file_name": "QCwthLHT-ClassicalNecessity-221003.jpg",
     "width": "900",
     "unit": "px",
     "margin": {
@@ -90,7 +90,7 @@ $
 which is encoded by its direct sum decomposition $\mathcal{H}_\bullet$:
 
 \begin{imagefromfile}
-    "file_name": "QCwthLHT-QuantumNecessity-221001.jpg",
+    "file_name": "QCwthLHT-QuantumNecessity-221003.jpg",
     "width": "900",
     "unit": "px",
     "margin": {
@@ -105,7 +105,7 @@ which is encoded by its direct sum decomposition $\mathcal{H}_\bullet$:
 (Of course, in general there may be richer dependency on classical contexts. In the next simplest case the [[base change]] is along the [[projection]] map out of a [[Cartesian product]] of classical types, which makes one of them label potential upcoming measurement results as before, while the other encodes further dependency on classical parameters, such as on previous measurement results:
 
 \begin{imagefromfile}
-    "file_name": "QCwthLHT-RelativeBaseChange-221002.jpg",
+    "file_name": "QCwthLHT-RelativeBaseChange-221003.jpg",
     "width": "670",
     "unit": "px",
     "margin": {
@@ -302,8 +302,8 @@ In particular, by retaining the quantum type of the measurement result, we retai
 Dually, the [[possibility]]-[[unit of a monad|unit]] on [[qbits]] is their *conditional state preparation* (this is the operation denoted "$\underline{a} \xleftarrow{\;} a$" in [Knill 1996](quantum+programming+language#Knill96), [p. 8](https://www.ncatlab.org/nlab/files/Knill-QuantumPseudocode.pdf#page=8)):
 
 \begin{imagefromfile}
-    "file_name": "QCwthLHT-QBitStatePreparationCondt-221001.jpg",
-    "width": "400",
+    "file_name": "QCwthLHT-QBitStatePreparationCondt-221003.jpg",
+    "width": "500",
     "unit": "px",
     "margin": {
         "top": -30,
@@ -317,8 +317,8 @@ From this, if we denote $\mathrm{const}_0 : \Bool \to \Bool$
 the function [[constant function|constant]] on $0$, then  the *unconditional state preparation* (the operation denoted "$\underline{a} \xleftarrow{\;} 0$" in [Knill 1996](quantum+programming+language#Knill96), [p. 8](https://www.ncatlab.org/nlab/files/Knill-QuantumPseudocode.pdf#page=8)) is the base change of the conditional state preparation along this map:
 
 \begin{imagefromfile}
-    "file_name": "QCwthLHT-QBitStatePreparation-221001.jpg",
-    "width": "400",
+    "file_name": "QCwthLHT-QBitStatePreparation-221003.jpg",
+    "width": "500",
     "unit": "px",
     "margin": {
         "top": -30,
@@ -332,7 +332,7 @@ the function [[constant function|constant]] on $0$, then  the *unconditional sta
 The dependent linear type of the [[Hadamard gate]]:
 
 \begin{imagefromfile}
-    "file_name": "QCwthLHT-HadamardGate-221001.jpg",
+    "file_name": "QCwthLHT-HadamardGate-221003.jpg",
     "width": "650",
     "unit": "px",
     "margin": {
@@ -357,8 +357,23 @@ The dependent linear type of the [[CNOT gate]]:
     }
 \end{imagefromfile}
 
+The dependent linear type of a [[Bell state]] preparation:
+
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-BellStatePreparation-221003c.jpg",
+    "width": "850",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
 {#ClassicallyControlledQuantumGate} The dependent linear type of a quantum gate controlled by a classical bit:
+
 
 
 \begin{imagefromfile}
