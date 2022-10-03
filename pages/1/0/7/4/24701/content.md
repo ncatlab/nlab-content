@@ -268,35 +268,55 @@ This allows us to define and use constants for certain long and unwieldy types, 
 
 $$A \simeq B \coloneqq \sum_{f:A \to B} \prod_{b:B} \left(\sum_{a:A} f(a) =_B b \right) \times \prod_{p:\sum_{a:A} f(a) =_B b} \prod_{q:\sum_{a:A} f(a) =_B b} p =_{\sum_{a:A} f(a) =_B b} q$$
 
+### Transport
+
+...
+
 ### Universes
 
-Universes are internal models of type theory inside of the type theory itself. An universe consists of a type of encodings for types $\mathcal{U}$ and a universal type family $\mathcal{T}_\mathcal{U}$ which takes the encodings and returns an actual type, resulting in the formation and type reflection rules for universes:
+Universes are internal models of [[dependent type theory]] inside of the type theory itself. An universe consists of a type of encodings for types $\mathcal{U}$ and a universal type family $\mathcal{T}_\mathcal{U}$ which takes the encodings and returns an actual type, resulting in the formation and type reflection rules for universes:
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathcal{U} \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\mathcal{U}}{\Gamma \vdash \mathcal{T}_\mathcal{U}(A) \; \mathrm{type}}$$
 
-Given an element $A:\mathcal{U}$, an internal type family indexed by $A$ is a function $B:\mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$. 
+Given an encoding $A:\mathcal{U}$, an internal type family indexed by $A$ is a function $B:\mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$. 
 
-A universe $\mathcal{U}$ is closed under identity types if it has an internal notion of identity types in the universe: Given an element $A:\mathcal{U}$, there is a function $\mathrm{Id}_A^\mathcal{U}:\mathcal{T}_\mathcal{U}(A) \times \mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$ and for all elemments $a:\mathcal{T}_\mathcal{U}(A)$ and $b:\mathcal{T}_\mathcal{U}(A)$ an equivalence 
+There are two ways to say that $A:\mathcal{U}$ and $B:\mathcal{U}$ are the same, by way of the identity type of the universe $A =_\mathcal{U} B$, and by way of the type of equivalences between the type reflections of $A:\mathcal{U}$ and $B:\mathcal{U}$, $\mathcal{T}_\mathcal{U}(A) \simeq_\mathcal{U} \mathcal{T}_\mathcal{U}(B)$. By [[transport]], there is a canonical function 
+$$\mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B):(A =_\mathcal{U} B) \to (\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B))$$
+The universe $\mathcal{U}$ is then said to be an externally [[univalent universe]] if the transport function $\mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B)$ is an equivalence of types
+$$\mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B):(A =_\mathcal{U} B) \simeq (\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B))$$
+for all encodings $A:\mathcal{U}$ and $B:\mathcal{U}$. 
+
+One could also internalize the type of equivalences inside of the universe $\mathcal{U}$, but that requires the universe be closed under identity types, function types, pi types, product types, and sigma types.
+
+A universe $\mathcal{U}$ is closed under identity types if it has an internal encoding of identity types in the universe: Given an element $A:\mathcal{U}$, there is a function $\mathrm{Id}_A^\mathcal{U}:\mathcal{T}_\mathcal{U}(A) \times \mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$ and for all elemments $a:\mathcal{T}_\mathcal{U}(A)$ and $b:\mathcal{T}_\mathcal{U}(A)$ an equivalence 
 $$\mathrm{canonical}_{\mathrm{Id}_A}(a, b):\mathcal{T}_\mathcal{U}(\mathrm{Id}_A^\mathcal{U}(a, b)) \simeq (a =_{\mathcal{T}_\mathcal{U}(A)} b)$$
 
-A universe $\mathcal{U}$ is or closed under function types if it has an internal notion of function types in the universe: given an element $A:\mathcal{U}$ and an element $B:\mathcal{U}$, there is an element $A \to_\mathcal{U} B:\mathcal{U}$, and an equivalence
-$$\mathrm{canonical}_{\to}(A, B):\mathcal{T}_\mathcal{U}(A \to_\mathcal{U} B:\mathcal{U}) \simeq \mathcal{T}_\mathcal{U}(A) \to \mathcal{T}_\mathcal{U}(B)$$
+A universe $\mathcal{U}$ is closed under function types if it has an internal encoding of function types in the universe: given an element $A:\mathcal{U}$ and an element $B:\mathcal{U}$, there is an element $A \to_\mathcal{U} B:\mathcal{U}$, and an equivalence
+$$\mathrm{canonical}_{\to}(A, B):\mathcal{T}_\mathcal{U}(A \to_\mathcal{U} B) \simeq \mathcal{T}_\mathcal{U}(A) \to \mathcal{T}_\mathcal{U}(B)$$
 
-A universe $\mathcal{U}$ is or closed under product types if it has an internal notion of product types in the universe: given an element $A:\mathcal{U}$ and an element $B:\mathcal{U}$, there is an element $A \times_\mathcal{U} B:\mathcal{U}$, and an equivalence
-$$\mathrm{canonical}_{\times}(A, B):\mathcal{T}_\mathcal{U}(A \times_\mathcal{U} B:\mathcal{U}) \simeq \mathcal{T}_\mathcal{U}(A) \times \mathcal{T}_\mathcal{U}(B)$$
+A universe $\mathcal{U}$ is closed under product types if it has an internal encoding of product types in the universe: given an element $A:\mathcal{U}$ and an element $B:\mathcal{U}$, there is an element $A \times_\mathcal{U} B:\mathcal{U}$, and an equivalence
+$$\mathrm{canonical}_{\times}(A, B):\mathcal{T}_\mathcal{U}(A \times_\mathcal{U} B) \simeq \mathcal{T}_\mathcal{U}(A) \times \mathcal{T}_\mathcal{U}(B)$$
 
-A universe $\mathcal{U}$ is closed under sigma types if it has an internal notion of sigma types in the universe: given an element $A:\mathcal{U}$ and a function $B:\mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$, there is an element $\Sigma_\mathcal{U}(x:A).B(x):\mathcal{U}$, and an equivalence
+A universe $\mathcal{U}$ is closed under sigma types if it has an internal encoding of sigma types in the universe: given an element $A:\mathcal{U}$ and a function $B:\mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$, there is an element $\Sigma_\mathcal{U}(x:A).B(x):\mathcal{U}$, and an equivalence
 $$\mathrm{canonical}_\Sigma(A, B):\mathcal{T}_\mathcal{U}(\Sigma_\mathcal{U}(x:A).B(x)) \simeq \sum_{x:\mathcal{T}_\mathcal{U}(A)} \mathcal{T}_\mathcal{U}(B(x))$$
 
-A universe $\mathcal{U}$ is closed under pi types if it has an internal notion of pi types in the universe: given an element $A:\mathcal{U}$ and a function $B:\mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$, there is an element $\Pi_\mathcal{U}(x:A).B(x):\mathcal{U}$, and an equivalence
+A universe $\mathcal{U}$ is closed under pi types if it has an internal encoding of pi types in the universe: given an element $A:\mathcal{U}$ and a function $B:\mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$, there is an element $\Pi_\mathcal{U}(x:A).B(x):\mathcal{U}$, and an equivalence
 $$\mathrm{canonical}_\Pi(A, B):\mathcal{T}_\mathcal{U}(\Pi_\mathcal{U}(x:A).B(x)) \simeq \prod_{x:\mathcal{T}_\mathcal{U}(A)} \mathcal{T}_\mathcal{U}(B(x))$$
 
-Every universe $\mathcal{U}$ which is closed under identity types, function types, product types, sigma types, and pi types has an internal notion of type of equivalences $A \simeq_\mathcal{U} B$, defined for all $A:\mathcal{U}$ and $B:\mathcal{U}$ as
+Every universe $\mathcal{U}$ which is closed under identity types, function types, product types, sigma types, and pi types has an internal encoding of type of equivalences $A \simeq_\mathcal{U} B$, defined for all $A:\mathcal{U}$ and $B:\mathcal{U}$ as
 
 $$A \simeq_\mathcal{U} B \coloneqq \Sigma_\mathcal{U}(f:A \to_\mathcal{U} B).\Pi_\mathcal{U}(b:B) \left(\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b) \right) \times_\mathcal{U} \Pi_\mathcal{U}\left(p:\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b)\right). \Pi_\mathcal{U}\left(q:\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b)\right).\mathrm{Id}_{\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b)}^\mathcal{U}(p, q)$$
 
-Thus, there are two ways to say that $A:\mathcal{U}$ and $B:\mathcal{U}$ are the same, by way of the identity type of the universe $A =_\mathcal{U} B$, and by way of the type reflection of the internal encoding of the type of equivalences: $\mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$. The universe $\mathcal{U}$ is then said to be a [[univalent universe]] if there is an equivalence 
+Thus, there is a third way to say that $A:\mathcal{U}$ and $B:\mathcal{U}$ are the same, by way of the type reflection of the internal encoding of the type of equivalences: $\mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$. The universe $\mathcal{U}$ is then said to be an internally [[univalent universe]] if there is an equivalence 
 $$\mathrm{idtoequiv}(A, B):(A =_\mathcal{U} B) \simeq \mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$$
+
+Every externally univalent universe $(\mathcal{U}, \mathcal{T}_\mathcal{U})$ that is closed under identity types, function types, pi types, product types, and sigma types is internally univalent. It could be proven, from the closure of the universe under identity types, function types, pi types, product types, and sigma types, that there is an equivalence 
+$$\mathrm{canonical}_\simeq(A, B):\mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B) \simeq (\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B))$$
+and we define $\mathrm{idtoequiv}(A, B)$ to be the equivalence
+$$\mathrm{idtoequiv}(A, B) \coloneqq \mathrm{canonical}_\simeq(A, B)^{-1}\circ \mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B)$$
+which shows that $(\mathcal{U}, \mathcal{T}_\mathcal{U})$ is an internally univalent universe. 
+
+However, it is not true that every internally univalent universe is externally univalent. While the composite of $\mathrm{idtoequiv}(A, B)$ and $\mathrm{canonical}_\simeq(A, B)$ is an equivalence, it is not true that $\mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B)$ can be proven to be an equivalence for all encodings $A:\mathcal{U}$ and $B:\mathcal{U}$. 
 
 ## Categorical semantics
 
