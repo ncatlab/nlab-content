@@ -11,6 +11,11 @@ On [[étale cohomology]]:
 
 * _[[Lectures on Étale Cohomology]]_  ([pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf))
 
+On [[Tannakian categories]]:
+
+* [[Pierre Deligne]], [[James Milne]]: *Tannakian categories*,  in: *Hodge Cycles, Motives, and Shimura Varieties*, Lecture Notes in Mathematics **900**, Springer (1982) &lbrack;[doi:10.1007/978-3-540-38955-2_4](https://doi.org/10.1007/978-3-540-38955-2_4), [webpage](http://www.jmilne.org/math/xnotes/tc.html)&rbrack;
+
+
 On [[Shimura varieties]]:
 
 * [[James Milne]], _Introduction to Shimura Varieties_, 2004, ([pdf](https://www.jmilne.org/math/articles/2005aX.pdf))
