@@ -149,7 +149,7 @@ A survey of formalisms used in stable homotopy theory -- tools to present the [[
 
 * [[Neil Strickland]], _Axiomatic stable homotopy - a survey_ ([arXiv:math.AT/0307143](http://front.math.ucdavis.edu/0307.5143))
 
-* [[Mark Hovey]], [[John Palmieri]], [[Neil Strickland]],  _Axiomatic stable homotopy theory_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/axiomatic.pdf))
+* [[Mark Hovey]], [[John Palmieri]], [[Neil Strickland]],  *Axiomatic stable homotopy theory*, Memoirs Amer. Math. Soc. **610** (1997) &lbrack;[ISBN:978-1-4704-0195-5](https://bookstore.ams.org/memo-128-610), [pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/axiomatic.pdf)&rbrack;
 
 An account in terms of [[(∞,1)-category theory]] is in section 1 of
 
