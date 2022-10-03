@@ -83,7 +83,7 @@ Concretely, the [[linear homotopy type theory]] of [Riley 2022](dependent+linear
 
 In terms of this [[categorical semantics]], notice that on finite-dimensional linear types, $\Box_C$-**actualization is the measurement process** --  in that it implements exactly the rule for [[wavefunction collapse]] (due to [Lüders 1951](wave+function+collapse#Lüders51), following [von Neumann 1932, §III.3 and §VI](wave+function+collapse#vonNeumann32)) with regards to [[quantum  measurements]] in the $C$-indexed basis of the total Hilbert space 
 $
-  \mathcal{H} \coloneqq \box_C \mathcal{H}_\bullet
+  \mathcal{H} \coloneqq \Box_C \mathcal{H}_\bullet
 $
 which is encoded by its direct sum decomposition $\mathcal{H}_\bullet$:
 
@@ -226,7 +226,7 @@ The [[quantum measurement]]-process on such a qbit type, as seen by the [[necess
     }
 \end{imagefromfile}
 
-{#NoticeTheTypingOfAQbit} Notice that one might be tempted[^2] to think  of this formula as outputting the classical bit $b : \mathrm{Bool}$, but that the dependent typing of the above expression is a little more subtle than that:  The output bit is instead part of the *context* inside which the collapsed wavefunction qbit appears -- which, being in the 1-dimensional Hilbert space $\mathbb{C}$ in this case, may often be disregarded as a global phase, but is nevertheless the actual output of the measurement process.
+{#NoticeTheTypingOfAQbit} Notice that one might be tempted[^2] to think  of this formula as outputting the classical bit $b : \mathrm{Bool}$, but that the dependent typing of the above expression is a little more subtle than that:  The output bit is instead part of the *[[context]]* inside which the collapsed wavefunction qbit appears -- which, being in the 1-dimensional Hilbert space $\mathbb{C}$ in this case, may often be disregarded as a global phase, but is nevertheless the actual output of the measurement process.
 
 [^2]: Indeed, in *[[Quipper]]* the measurement process on a qbit is originally typed as "$\QBit \to \Bit$" and further language design is needed to "bring the output bit back into the context", see references on "[dynamic lifting](Quipper#ReferencesDynamicLifting)".
 
