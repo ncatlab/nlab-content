@@ -8,6 +8,11 @@ On the [[Conner-Floyd isomorphism]] for the [[Atiyah-Bott-Shapiro orientation]] 
 
 * {#HopkinsHovey92} [[Michael Hopkins]], [[Mark Hovey]], _Spin cobordism determines real K-theory_, Mathematische Zeitschrift volume 210, pages 181–196 (1992) ([doi:10.1007/BF02571790](https://doi.org/10.1007/BF02571790), [[HopkinsHoveyCobordismK.pdf:file]])
 
+On [[stable homotopy theory]]:
+
+* [[Mark Hovey]], [[John Palmieri]], [[Neil Strickland]],  *Axiomatic stable homotopy theory*, Memoirs Amer. Math. Soc. **610** (1997) &lbrack;[ISBN:978-1-4704-0195-5](https://bookstore.ams.org/memo-128-610), [pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/axiomatic.pdf)&rbrack;
+
+
 On [[monoidal model categories]]:
 
 * {#Hovey98} [[Mark Hovey]], _Monoidal model categories_ ([arXiv:math/9803002](https://arxiv.org/abs/math/9803002))
