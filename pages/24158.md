@@ -139,11 +139,17 @@ See also the commented list of problems at:
 
 * Does [[univalence]] imply [[function extensionality]] in [[objective type theory]]?
 
-* Is the [[homotopy type theory]] based upon [[Martin-Löf type theory]] conservative over [[objective type theory]]?
+* Is (the [[homotopy type theory]] based upon) [[Martin-Löf type theory]] conservative over (the [[homotopy type theory]] based upon) [[objective type theory]]?
 
 * How much of the [[HoTT book]] could be done in [[objective type theory]]?
 
 * Does [[objective type theory]] have [[homotopy canonicity]] and [[normalization]]?
+
+* What is the [[categorical semantics]] of the [[homotopy type theory]] based upon [[objective type theory]], with all [[higher inductive types]] and [[weakly Tarski]] [[univalent universes]]? 
+
+* Does having an [[interval type]] imply [[function extensionality]] in [[objective type theory]]? 
+
+* Does having [[propositional truncation]], in conjunction with the [[booleans]], imply [[function extensionality]] in [[objective type theory]]?
 
 ## Formalization
 
