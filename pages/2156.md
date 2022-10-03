@@ -108,6 +108,13 @@ All of this definiteness terminology may now be applied to an *[[linear operator
 
 * [[inner product of vector bundles]]
 
+## References
+
+Discussion in terms of [[self-dual objects]] in suitable [[symmetric monoidal category|symmetric]] [[monoidal categories]]:
+
+* {#Selinger12} [[Peter Selinger]], _Autonomous categories in which $A \simeq A^\ast$_, talk at QPL 2012 ([[SelingerSelfDual.pdf:file]])
+ 
+
 [[!redirects inner product]]
 [[!redirects inner products]]
 [[!redirects inner product space]]
