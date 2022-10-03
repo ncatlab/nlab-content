@@ -1,5 +1,5 @@
 
-* [webpage](https://sites.google.com/site/bbentzena/)
+* [webpage](https://www.brunobentzen.com/)
 
 ## Selected writings
 
