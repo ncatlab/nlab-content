@@ -11,6 +11,11 @@ Introducing the [[σ-meson]] to [[chiral perturbation theory]], together with th
 
 * [[Murray Gell-Mann]], M. Lévy, _The axial vector current in beta decay_, Il Nuovo Cimento (1955-1965) volume 16, pages 705–726 (1960) ([doi:10.1007/BF02859738](https://doi.org/10.1007/BF02859738))
 
+On [[quantum hadrodynamics]] (and mentioning the [[Gell- Mann principle]] of compulsion in [[quantum  physics]]):
+
+* {#GellMann56} [[Murray Gell-Mann]], *The interpretation of the new particles as displaced charge multiplets*,  Nuovo Cim **4** 2 (1956) 848–866 &lbrack;[doi:10.1007/BF02748000](https://doi.org/10.1007/BF02748000)&rbrack;
+
+
 Introducing [[vector meson dominance]]:
 
 * [[Murray Gell-Mann]], Fredrik Zachariasen, _Form Factors and Vector Mesons_, Phys. Rev. 124, 953 (1961) ([doi:10.1103/PhysRev.124.953](https://doi.org/10.1103/PhysRev.124.953))
