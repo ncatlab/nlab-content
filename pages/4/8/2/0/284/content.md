@@ -246,7 +246,7 @@ In practice, it can be useful to be able to treat all "presentations of $(\infty
 
 1. Consider the $Kan$-enriched category $\underline{QCat}$ of quasicategories; for quasicategories $C$ and $D$, the Kan complex of morphisms between them is $\underline{hom}_{\underline{QCat}} = \iota(\underline{hom}_{sSet}(C,D))$, the largest Kan complex contained in their internal hom simplicial set.
 
-1. Define a _relative quasicategory_ to be a quasicategory equipped with a full sub-quasicategory of "weak equivalences" containing all equivalences.  For relative quasicategories $(C,W_C)$ and $(D,W_D)$, write $\underline{hom}_{\underline{RelQCat}}((C,W_C),(D,W_D)) \subset \underline{hom}_{\underline{QCat}}(C,D)$ for the sub-Kan complex consisting of those maps which take $W_C$ into $W_D$.  Note that using this definition, this is actually the inclusion of a disjoint union of connected components among Kan complexes (in the strictest possible sense).
+1. Define a _relative quasicategory_ to be a quasicategory equipped with a wide sub-quasicategory of "weak equivalences" containing all equivalences.  For relative quasicategories $(C,W_C)$ and $(D,W_D)$, write $\underline{hom}_{\underline{RelQCat}}((C,W_C),(D,W_D)) \subset \underline{hom}_{\underline{QCat}}(C,D)$ for the sub-Kan complex consisting of those maps which take $W_C$ into $W_D$.  Note that using this definition, this is actually the inclusion of a disjoint union of connected components among Kan complexes (in the strictest possible sense).
 
 1. There is an evident inclusion $min : \underline{QCat} \to \underline{RelQCat}$, which takes a quasicategory $C$ to the relative quasicategory $(C,C^\simeq)$.
 
