@@ -30,6 +30,9 @@ A square matrix which is its onw transpose, $A =A^T$, is called a [[symmetric ma
 
 * [[bilinear form]]
 
+* [[dagger-compact category]]
 
 [[!redirects transpose matrices]]
 [[!redirects matrix transposition]]
+
+[[!redirects transposed matrix]]
