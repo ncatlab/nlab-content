@@ -66,9 +66,16 @@ In this classical situation, the ([[comonad|co]]-)[[monad]] [[adjoint pair]] $\l
     }
 \end{imagefromfile}
 
-We will say that a $C$-dependent linear type $\mathscr{H}_\bullet : LinType_C$ is *finite dimensional* if its [[possibility]]-aspect agrees with is [[necessity]] aspect, and we write $FDLinTyp_C$ for the subtype of the dependent linear types which are finite-dimensional. 
+We will say that:
 
-> (This finite-dimensionality needs more discussion...)
+1. a classical $C : Type$ is *finite-dimensional* if it admits a "fundamental class" in the form of an equivalence $(p_C)_! (p_C)^\ast 1 \xrightarrow{\phantom{-}\sim\phantom{-}} (p_C)_\ast (p_C)^\ast 1$
+
+1. a $C$-dependent linear type $\mathscr{H}_\bullet : LinType_C$ is *finite dimensional* if it is a [[dualizable object]]. 
+
+   We write $FDLinTyp_C$ for the subtype of the dependent linear types which are finite-dimensional.
+
+In this case the [[Wirthmueller isomorphisms]] says that the [[possibility]]-agrees with [[necessity]] (...).
+
 
 The default [[categorical semantics]] for this situation is that of [[bundles]] of [[finite dimensional vector spaces]] (finite-dimensional complex [[Hilbert spaces]]) over [[finite sets]]: In this case both $(p_C)_!$ as well as $(p_C)_\ast$ yield the [[direct sum]] of the [[fibers]] (a [[biproduct]]). Since this is the [[categorical semantics]] under which the following type theory describes the traditional [[quantum circuits]], we will adopt our notation to this case and denote the generic [[dependent linear type]] by $\mathcal{H}_\bullet : FDLinType_C$ and its generic [[term]] by the usual notation for [[quantum states]]: 
 
