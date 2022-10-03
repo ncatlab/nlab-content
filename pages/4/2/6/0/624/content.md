@@ -291,12 +291,28 @@ This notion of duality generalizes to that of [[linear adjoints]] in a [[linear 
 
 ## References
 
-Duals in a closed/monoidal category are a very classical notion. A history of the basic definitions and applications in [[stable homotopy theory]]/[[higher algebra]] is in
- 
-* [[James Becker]], [[Daniel Gottlieb]], from p. 5. in _A History of Duality in Algebraic Topology_, ([pdf](http://www.math.purdue.edu/~gottlieb/Bibliography/53.pdf)), 
- {#BeckerGottlieb}
+Original articles:
 
-A large number of further examples can be found in
+* [[Pierre Deligne]], [[James Milne]]: §1 of: *Tannakian categories*,  in: *Hodge Cycles, Motives, and Shimura Varieties*, Lecture Notes in Mathematics **900**, Springer (1982) &lbrack;[doi:10.1007/978-3-540-38955-2_4](https://doi.org/10.1007/978-3-540-38955-2_4), [webpage](http://www.jmilne.org/math/xnotes/tc.html)&rbrack;
+
+* [[Albrecht Dold]], [[Dieter Puppe]], §1 of: *Duality, Trace and Transfer*, Proceedings of the Steklov Institute of Mathematics, **154** (1984) 85–103 &lbrack;[mathnet:tm2435](http://mi.mathnet.ru/tm2435), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/doldpup2.pdf)&rbrack;
+
+Early history with an eye towards formulating [[Becker-Gottlieb transfer]]:
+
+* {#BeckerGottlieb} [[James Becker]], [[Daniel Gottlieb]], from p. 5. in _A History of Duality in Algebraic Topology_ &lbrack;[pdf](http://www.math.purdue.edu/~gottlieb/Bibliography/53.pdf), [[BeckerGottlieb-DualityHistory.pdf:file]]&rbrack; 
+
+Further developments:
+
+* [[Mark Hovey]], [[John Palmieri]], [[Neil Strickland]]: Def. 1.1.2 and Thm. 2.1.3 in: *Axiomatic stable homotopy theory*, Memoirs Amer. Math. Soc. **610** (1997) &lbrack;[ISBN:978-1-4704-0195-5](https://bookstore.ams.org/memo-128-610), [pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/axiomatic.pdf)&rbrack;
+
+* {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], [[Mark Steinberger]] (with contributions by [[James McClure|J.E. McClure]]): §III.1 in: *Equivariant stable homotopy theory*, Springer Lecture Notes in Mathematics  **1213** (1986) &lbrack;[pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf), [doi:10.1007/BFb0075778](https://link.springer.com/book/10.1007/BFb0075778)&rbrack;
+
+Review:
+
+* [[Peter May]], §2 in: *Picard Groups, Grothendieck Rings, and Burnside Rings of Categories*, Advances in Mathematics **163** 1 (2001) 1-16 &lbrack;[pdf](http://math.uchicago.edu/~may/PAPERS/PicJan01.pdf), [doi:10.1006/aima.2001.1996](https://doi.org/10.1006/aima.2001.1996)&rbrack;
+ 
+
+Further examples:
 
 * [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_, ([arXiv:1107.6032](http://arxiv.org/abs/1107.6032))
 
