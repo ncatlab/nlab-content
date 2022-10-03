@@ -42,6 +42,13 @@ The original articles
 
 * [[James Becker]], [[Daniel Gottlieb]], _Vector fields and transfers_ Manuscr. Math. , 72 (1991) pp. 111&#8211;130 ([pdf](https://www.math.purdue.edu/~gottlieb/Papers/manuscripta.pdf), [doi:10.1007/BF02568269](https://link.springer.com/article/10.1007/BF02568269))
 
+Interpretation in terms of [[dualizable objects]]:
+
+* [[Albrecht Dold]], [[Dieter Puppe]], *Duality, Trace and Transfer*, Proceedings of the Steklov Institute of Mathematics, **154** (1984) 85–103 &lbrack;[mathnet:tm2435](http://mi.mathnet.ru/tm2435), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/doldpup2.pdf)&rbrack;
+
+* {#BeckerGottlieb} [[James Becker]], [[Daniel Gottlieb]]: *A History of Duality in Algebraic Topology* &lbrack;[pdf](http://www.math.purdue.edu/~gottlieb/Bibliography/53.pdf), [[BeckerGottlieb-DualityHistory.pdf:file]]&rbrack; 
+
+
 
 Review:
 
