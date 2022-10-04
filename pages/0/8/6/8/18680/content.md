@@ -272,7 +272,7 @@ More recent work in the type-theoretic literature includes:
 
 * M. Gaboardi et al., _Linear Dependent Types for Differential Privacy_, in POPL '13, 2013.
 
-Proposals for a genuine [[syntax]] for dependent linear type theory (some of which use ideas from [[bunched logic]]) are in
+Proposals for a genuine [[syntax]] for dependent linear type theory:
 
 * {#Vakar14} [[Matthijs Vákár]], _Syntax and Semantics of Linear Dependent Types_ ([arXiv:1405.0033](http://arxiv.org/abs/1405.0033))
 
@@ -300,6 +300,8 @@ Proposals for a genuine [[syntax]] for dependent linear type theory (some of whi
 * {#RileyFinsterLicata21} [[Mitchell Riley]], [[Eric Finster]], [[Daniel Licata]], *Synthetic Spectra via a Monadic and Comonadic Modality* ([arXiv:2102.04099](https://arxiv.org/abs/2102.04099))
 
 * {#Riley22Thesis} [[Mitchell Riley]], *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139)&rbrack;
+
+  > (using ideas from [[bunched logic]])
 
 * {#Riley22} [[Mitchell Riley]], *Linear Homotopy Type Theory*, talk at: [HoTTEST Event for Junior Researchers 2022](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest_junior_2022.html)  (Jan 2022) &lbrack;slides: [pdf](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Riley-2022-01-20-HoTTEST.pdf), video: [YT](https://www.youtube.com/watch?v=o2oWhHabjdM)&rbrack;
 
