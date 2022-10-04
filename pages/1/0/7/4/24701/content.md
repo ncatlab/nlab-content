@@ -314,9 +314,9 @@ There is another definition of a univalent universe: a universe $\mathcal{U}$ is
 $$\mathrm{idtoequiv}(A, B):(A =_\mathcal{U} B) \to \mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$$
 is an equivalence
 $$\mathrm{idtoequiv}(A, B):(A =_\mathcal{U} B) \simeq \mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$$
-These two definitions of univalent universes are the same: 
-
-
+These two definitions of univalent universes are the same. In order to do so, we need to show that there is an identification 
+$$i(p):\mathrm{canonical}_\simeq(A, B)(\mathrm{idtoequiv}(A, B)(p)) =_{\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B)}  \mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B)(p)$$
+for all identifications $p:A =_\mathcal{U} B$. 
 
 ## Categorical semantics
 
