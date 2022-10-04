@@ -316,6 +316,8 @@ is an equivalence
 $$\mathrm{idtoequiv}(A, B):(A =_\mathcal{U} B) \simeq \mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$$
 These two definitions of univalent universes are the same: 
 
+
+
 ## Categorical semantics
 
 The fragment of objective type theory consisting of only [[identity types]] and [[dependent product types]] can be interpreted in any [[path category]] with weak homotopy $\Pi$-types. 
