@@ -198,7 +198,10 @@ Original articles:
 
 * [[Michel André]], _Categories of Functors and Adjoint Functors_, Batelle Institute at Geneva, 1964, see also _Categories of Functors and Adjoint Functors_,American Journal of Mathematics, Vol. 88, No. 3 (Jul., 1966), pp. 529-543 
 
-* {#Benabou73} [[Jean Bénabou]], _Les distributeurs_, Universit&#233; Catholique de Louvain, Institut de Math&#233;matique Pure et Appliqu&#233;e,  rapport 33,  1973
+* {#Benabou73} [[Jean Bénabou]], *Les distributeurs*, Université Catholique de Louvain, Institut de Mathématique Pure et Appliquée,  rapport **33** (1973) &lbrack;[pdf](http://www.entretemps.asso.fr/maths/DistributeursLouvain.pdf), [[Benabou-LesDistributeurs.pdf:file]]&rbrack;
+
+  > (including discussion of [[enriched category|enriched]] and [[internal category|internal]] profunctors)
+
 
 Some of these ideas were exposed at Oberwolfach in 1966. There are extant notes taken by [[Anders Kock]] of a talk by [[Bill Lawvere]], but there is only a passing mention of 'generalised functors' (what are now called profunctors) and their 'generalised matrix multiplication'.
 
@@ -307,3 +310,12 @@ Profunctors are often notated with a slashed or barred arrow, as in $C$&#8696;$D
 [[!redirects relators]]
 [[!redirects representable profunctor]]
 [[!redirects representable profunctors]]
+
+[[!redirects internal profunctor]]
+[[!redirects internal profunctors]]
+
+[[!redirects enriched profunctor]]
+[[!redirects enriched profunctors]]
+
+
+
