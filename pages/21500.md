@@ -8,7 +8,7 @@
 
 On [[Fréchet manifolds]] forming a [[full subcategory]] of [[diffeological spaces]]:
 
-* {#Losik92} [[Mark Losik]], _Fréchet manifolds as diffeological spaces_, Soviet. Math. 5 (1992)  ([mathnet:ivm4812](http://mi.mathnet.ru/eng/ivm4812))
+* {#Losik92} [[Mark Losik]], _Fréchet manifolds as diffeologic spaces_, Russian Mathematics 36:5 (1992), 36–42.  English translation: [PDF](https://dmitripavlov.org/scans/losik-frechet-manifolds-as-diffeologic-spaces.pdf).  Russian original: ([mathnet:ivm4812](http://mi.mathnet.ru/eng/ivm4812))
 
 * {#Losik94} [[Mark Losik]], _Categorical Differential Geometry_. Cah. Topol. G&#233;om. Diff&#233;r. Cat&#233;g., 35(4):274&#8211;290, 1994 ([numdam:CTGDC_1994__35_4_274_0](http://www.numdam.org/item/CTGDC_1994__35_4_274_0))
 
