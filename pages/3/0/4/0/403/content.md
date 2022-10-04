@@ -430,7 +430,7 @@ and their understanding as categories internal to [[TopologicalSpaces]] and to [
 
 but it seems that the definition is not actually contained in there, certainly not in its simple and widely understood form due to [Grothendieck 61](#Grothendieck61).
 
-The notion of internal [[profunctors]] between internal categories (without recalling their definition) is due to: 
+The notion of [[internal profunctors]] between internal categories (without recalling their definition) is due to: 
 
 * {#Benabou73} [[Jean Bénabou]], §5.1 of: *Les distributeurs*, Université Catholique de Louvain, Institut de Mathématique Pure et Appliquée,  rapport **33** (1973) &lbrack;[pdf](http://www.entretemps.asso.fr/maths/DistributeursLouvain.pdf), [[Benabou-LesDistributeurs.pdf:file]]&rbrack;
 
