@@ -66,18 +66,57 @@ In this classical situation, the ([[comonad|co]]-)[[monad]] [[adjoint pair]] $\l
     }
 \end{imagefromfile}
 
-We will say that:
+This general [[modal logic]] of [[possible worlds]] [found inside](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) [[dependent type theory]] becomes subject to one curious further rule as we pass to genuinely [[linear types]], such as in the sense of [[stable homotopy types]] in [[linear homotopy type theory]]:
 
-1. a classical $C : Type$ is *finite-dimensional* if it admits a "fundamental class" in the form of an equivalence $(p_C)_! (p_C)^\ast 1 \xrightarrow{\phantom{-}\sim\phantom{-}} (p_C)_\ast (p_C)^\ast 1$
+Namely, assuming that the potential measurement outcomes $c \colon C$ form a [[finite set]] --- which is the case of relevance in [[quantum information theory]] ---, the linearity or *[[stable (infinity,1)-category|stability]]* axiom implies that the [[base change]] down from the context $C$ becomes [[ambidextrous adjunction|ambidextrous]], in that on dependent linear types $\mathscr{H}_\bullet$ the [[coproduct]] computed by the  [[possibility]]-[[modality]] and the [[product]] computed by the [[necessity]]-[[modality]] *agree* (the situation of a "[[biproduct]]"):
 
-1. a $C$-dependent linear type $\mathscr{H}_\bullet : LinType_C$ is *finite dimensional* if it is a [[dualizable object]]. 
+$$
+  C : FinSet
+  ,\;\;
+  \mathscr{H}_\bullet
+  \,\colon\,
+  LinType_C
+  \;\;\;\;\;
+  \vdash
+  \;\;\;\;\;
+  \lozenge \mathscr{H}_\bullet 
+    \;\simeq\; 
+  \Box \mathscr{H}_\bullet
+  \,.
+$$
 
-   We write $FDLinTyp_C$ for the subtype of the dependent linear types which are finite-dimensional.
+Curiously, in terms of [[modal logic]], this is the *[[Gell-Mann principle]]* of quantum physics:
 
-In this case the [[Wirthmueller isomorphisms]] says that the [[possibility]]-agrees with [[necessity]] (...).
+$$
+  \array{
+    \llap{\text{The}}\;\text{possible}
+    &
+    \text{is} 
+    &
+    \text{necessary}
+    &
+    \text{and hence} 
+    &
+    \text{actualized}
+    \\
+    \lozenge \mathcal{H}_\bullet
+    &
+    \simeq
+    &
+    \Box \mathcal{H}_\bullet 
+    &
+    \xrightarrow{\phantom{--} \epsilon \phantom{--}} 
+    &
+    \mathcal{H}_{
+      \bullet   
+      \;
+      \mathrlap{\text{with some probability}}
+    }
+  }
+$$
 
 
-The default [[categorical semantics]] for this situation is that of [[bundles]] of [[finite dimensional vector spaces]] (finite-dimensional complex [[Hilbert spaces]]) over [[finite sets]]: In this case both $(p_C)_!$ as well as $(p_C)_\ast$ yield the [[direct sum]] of the [[fibers]] (a [[biproduct]]). Since this is the [[categorical semantics]] under which the following type theory describes the traditional [[quantum circuits]], we will adopt our notation to this case and denote the generic [[dependent linear type]] by $\mathcal{H}_\bullet : FDLinType_C$ and its generic [[term]] by the usual notation for [[quantum states]]: 
+The default [[categorical semantics]] for this situation is that of [[bundles]] of [[finite dimensional vector spaces]] (finite-dimensional complex [[Hilbert spaces]]) over [[finite sets]]: In this case both $(p_C)_!$ as well as $(p_C)_\ast$ yield the ordinary [[direct sum]] of the [[fibers]] (a [[biproduct]]). Since this is the [[categorical semantics]] under which the following type theory describes the traditional [[quantum circuits]], we will adopt our notation to this case and denote the generic [[dependent linear type]] by $\mathcal{H}_\bullet : LinType_C$ and its generic [[term]] by the usual notation for [[quantum states]]: 
 
 $$
   c : C 
@@ -90,7 +129,7 @@ $$
 
 Concretely, the [[linear homotopy type theory]] of [Riley 2022](dependent+linear+type+theory#Riley22Thesis) should have [[categorical semantics]] in the [[(infinity,1)-topos|$\infty$-topos]] of [[parameterized spectrum|parameterized]] [[Eilenberg-MacLane spectrum|$H\mathbb{C}$]]-[[module spectra]] ([[schreiber:Quantization via Linear homotopy types|S. 2014, Ex. 3.11]]) and [[complex vector spaces]] embed into this [[stable homotopy theory]] under passage to their [[Eilenberg-MacLane spectra]] (see the [[stable Dold-Kan correspondence]]).
 
-In terms of this [[categorical semantics]], notice that on finite-dimensional linear types, $\Box_C$-**actualization is the measurement process** --  in that it implements exactly the rule for [[wavefunction collapse]] (due to [Lüders 1951](wave+function+collapse#Lüders51), following [von Neumann 1932, §III.3 and §VI](wave+function+collapse#vonNeumann32)) with regards to [[quantum  measurements]] in the $C$-indexed basis of the total Hilbert space 
+In view of this [[categorical semantics]], notice that on linear types, $\Box_C$-**actualization is the measurement process** --  in that the $\Box_C$-[[counit of a comonad]] implements exactly the rule for [[wavefunction collapse]] (due to [Lüders 1951](wave+function+collapse#Lüders51), following [von Neumann 1932, §III.3 and §VI](wave+function+collapse#vonNeumann32)) with regards to [[quantum  measurements]] in the $C$-indexed basis of the total Hilbert space 
 $
   \mathcal{H} \coloneqq \Box_C \mathcal{H}_\bullet
 $
@@ -125,36 +164,6 @@ which is encoded by its direct sum decomposition $\mathcal{H}_\bullet$:
 
 This plays a role for classically-controlled quantum gates, [below](#ClassicallyControlledQuantumGate)).
 
-
-Notice that it is the ambidexterity assumption --- $\lozenge \mathscr{H}_\bullet \simeq \Box \mathscr{H}_\bullet$ --- on linear dependent types  which,  in terms of [[modal logic]], formalizes the [[Gell-Mann principle]] of quantum physics:
-
-$$
-  \array{
-    \llap{\text{The}}\;\text{possible}
-    &
-    \text{is} 
-    &
-    \text{necessary}
-    &
-    \text{and hence} 
-    &
-    \text{actualized}
-    \\
-    \lozenge \mathcal{H}_\bullet
-    &
-    \simeq
-    &
-    \Box \mathcal{H}_\bullet 
-    &
-    \xrightarrow{\phantom{--} \epsilon \phantom{--}} 
-    &
-    \mathcal{H}_{
-      \bullet   
-      \;
-      \mathrlap{\text{with some probability}}
-    }
-  }
-$$
 
 
 
