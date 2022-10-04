@@ -17,7 +17,7 @@
 
 ## Idea
 
-The **Beck--Chevalley condition**, also sometimes called just the *Beck condition* or the *Chevalley condition*, is a "commutation of [[adjoint functor|adjoint]]s" property that holds in many "[[base change|change of base]]" situations.
+The **[[Jon Beck|Beck]]--[[Claude Chevalley|Chevalley]] condition**, also sometimes called just the *Beck condition* or the *Chevalley condition*, is a "commutation of [[adjoint functor|adjoint]]s" property that holds in many "[[base change|change of base]]" situations.
 
 
 ## Definition
