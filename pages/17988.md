@@ -146,7 +146,7 @@ Relation to String Theory:
 
 * Fei Gao, Masatoshi Yamada _Determining holographic wave functions from Wilsonian renormalization group_ ([arXiv:2202.13699](https://arxiv.org/abs/2202.13699))
 
-* Renata Ferrero, [[Martin Reuter]], *AdS/CFT and dS/CFT correspondences emerging from Asymptotic Safety?* $[$[arXiv:2205.12030](https://arxiv.org/abs/2205.12030)$]$
+* Renata Ferrero, [[Martin Reuter]], *On the possibility of a novel (A)dS/CFT relationship emerging in Asymptotic Safety* &lbrack;[arXiv:2205.12030](https://arxiv.org/abs/2205.12030)&rbrack;
 
 
 
