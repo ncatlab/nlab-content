@@ -15,6 +15,10 @@ Exactly how this looks depends on the [[logic]] used.
 
 ...
 
+## Semantics
+
+This corresponds to having [[semicartesian monoidal category|projections for the monoidal structure]] that corresponds to the logical binary operator at hand.
+
 
 [[!redirects weakening rule]]
 [[!redirects weakening rules]]
