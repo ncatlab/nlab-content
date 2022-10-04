@@ -1,5 +1,7 @@
 [[!redirects John Gray]]
 
+John Walker Gray ([1932? -- 2017](https://www.news-gazette.com/obituaries/john-gray/article_fb2520a5-d6c4-5087-9ac1-ed6613823b9a.html)) was a category theorist known for work in, among other areas, [[2-category theory]].
+
 * [website](http://www.math.uiuc.edu/~gray/)
 
 ## Selected writings
