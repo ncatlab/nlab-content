@@ -21,7 +21,7 @@
 
 Broadly speaking, _quantum logic_ is meant to be a kind of [[formal logic]] that is to traditional formal logic as [[quantum mechanics]] is to [[classical mechanics]]: a formal framework which is supposed to be able to _express_ the statements whose [[semantics]] is the totality of all what is verifiable by [[measurement]] in a [[quantum system]] ([[quantum measurement]]).
 
-In its traditional and default meaning due to ([Birkhoff-vonNeumann 1936](#BirkhoffvonNeumann36)) "quantum logic" refers specifically to the [[orthocomplemented lattice]] of closed linear subspaces of a [[Hilbert space]] [[space of quantum states|of quantum states]]. Later it was proposed ([Yetter 90](#Yetter90), [Pratt 92](#Pratt92), [Abramsky-Duncan 05](#AbramskyDuncan05), [Girard 11](#Girard11)) that a better way to think of the BvN quantum lattices is as the [[propositions]] in [[linear logic]] ([Girard 87](#Girard)), the [[categorical logic]] of [[symmetric monoidal categories]]. 
+In its traditional and default meaning due to ([Birkhoff-vonNeumann 1936](#BirkhoffvonNeumann36)) "quantum logic" refers specifically to the [[orthocomplemented lattice]] of [[closed subspace|closed]] [[linear subspaces]] of a [[Hilbert space]] [[space of quantum states|of quantum states]]. Later it was proposed ([Yetter 90](#Yetter90), [Pratt 92](#Pratt92), [Abramsky-Duncan 05](#AbramskyDuncan05), [Girard 11](#Girard11)) that a better way to think of the BvN quantum lattices is as the [[propositions]] in [[linear logic]] ([Girard 87](#Girard)), the [[categorical logic]] of [[symmetric monoidal categories]]. 
 
 There is also the proposal ([Heunen-Landsman-Spitters 07](#HeunenLandsmanSpitters07)) that quantum logic should be understood as being the [[internal logic]] of [[Bohr toposes]].
 
@@ -31,11 +31,11 @@ In [[quantum computing]] the quantum analog of classical [[logic gates]] are cal
 ## History and Critique
  {#History}
 
-Typically  in the literature the term "quantum logic" is taken to refer very specifically to the first proposal for such a formalization that was given by ([Birkhoff-von Neumann 1936](#BirkhoffvonNeumann36)). In this proposal given a [[quantum mechanical system]] with a [[Hilbert space]] [[space of states|of states]], the logical [[propositions]] about the system are taken to correspond to (the [[projections]] to) [[closed subspaces]], with [[implication]] given by inclusion of such subspaces.  Hence Birkhoff-von Neumann quantum logic is given by the [[lattice]] of closed linear subspaces of Hilbert spaces (regarded as a [[Hilbert lattice]]).
+Typically  in the literature the term "quantum logic" is taken to refer very specifically to the first proposal for such a formalization due to [Birkhoff-von Neumann 1936](#BirkhoffvonNeumann36). In this proposal, given a [[quantum mechanical system]] with a [[Hilbert space]] [[space of states|of states]], the logical [[propositions]] about the system are taken to correspond to (the [[projections]] to) [[closed subspaces]], with [[implication]] given by inclusion of such subspaces.  Hence Birkhoff-von Neumann quantum logic is given by the [[lattice]] of closed linear subspaces of Hilbert spaces (regarded as a [[Hilbert lattice]]).
 
-This formalization is often understood as being the default meaning of "quantum logic". But the proposal has later been much criticised, for its lack of key properties that one would demand of a [[formal logic]]. 
+This formalization is often understood as being the default meaning of "quantum logic". But the proposal has later been much criticised, for its lack of key properties that one would demand of any [[formal logic]]. 
 
-For instance in ([Abramsky 09](#Abramsky09)) it is called a "non-logic"
+For instance in [Abramsky 2009](#Abramsky09) it is called a "non-logic":
 
 > The term quantum logic is usually understood in connection with the 1936 Birkhoff-von Neumann proposal to consider the (closed) linear subspaces of a Hilbert space ordered by inclusion as the formal expression of the logical distinction between quantum and classical physics. While in classical logic we have deduction, the linear subspaces of a Hilbert space form a non-distributive lattice and hence there is no obvious notion of implication or deduction. Quantum logic was therefore always seen as logically very weak, or even as a non-logic. In addition, it has never given a satisfactory account of compound systems and entanglement.
 
@@ -46,19 +46,21 @@ And for example in ([Heunen-Landsman-Spitters 07, p. 4](#HeunenLandsmanSpitters0
 > Attractive and revolutionary as this spatial quantum "logic" may appear  it faces severe problems. The main logical drawbacks are:
 
 > 1. Due to its lack of distributivity, quantum 'logic' is difficult to interpret as a logical structure.
+
 > 2. In particular, despite various proposals no satisfactory implication operator has been found (so that there is no deductive system in quantum logic).
+
 > 3. Quantum 'logic' is a propositional language; no satisfactory generalization to predicate logic has been found. 
 
 > Quantum logic is also problematic from a physical perspective. Since (by various theorems and wide agreement) quantum probabilities do not admit an ignorance interpretation, $[0, 1]$-valued truth values attributed to propositions by pure states via the Born rule cannot be regarded as sharp (i.e. {0, 1}-valued) truth values muddled by human ignorance. This implies that, if $X = [a \in \Delta]$ represents a quantum-mechanical proposition, it is wrong to say that either $x$ or its negation holds, but we just do not know which of these alternatives applies. However, in quantum logic one has the law of the excluded middle in the form $x \vee x^\perp = 1$ for all $x$. Thus the formalism of quantum logic does not match the probabilistic structure of quantum theory responsible for its empirical content.
 
 But notice that one may argue that the first three points here are squarely resolved by thinking of BvN-quantum logic as embedded into [[linear logic]], we come back to this in a moment. Concerning the last point one might argue that the propositions in BvN-quantum logic concern the [[quantum measurement]]-outcomes (only), for which, at least in some  [[interpretation of quantum mechanics|interpretations]], it does make sense to speak of a definite result.
 
-In ([Girard 11, page xii](#Girard11)) it says:
+In [Girard 2011, page xii](#Girard11) it says:
 
->  Among the magisterial mistakes of logic, one will first mention quantum logic, whose ridiculousness can only be ascribed to a feeling of superiority of the language &#8211; and ideas, even bad, as soon as they take a written form &#8211; over the physical world. Quantum logic is indeed a sort of punishment inflicted on nature, guilty of not yielding to the prejudices of logicians... just like Xerxes had the Hellespont &#8211; which had destroyed a boat bridge &#8211; whipped.
+> Among the magisterial mistakes of logic, one will first mention quantum logic, whose ridiculousness can only be ascribed to a feeling of superiority of the language &#8211; and ideas, even bad, as soon as they take a written form &#8211; over the physical world. Quantum logic is indeed a sort of punishment inflicted on nature, guilty of not yielding to the prejudices of logicians... just like Xerxes had the Hellespont &#8211; which had destroyed a boat bridge &#8211; whipped.
 
 
-For more and more objective criticism see ([Girard 11, section 17](#Girard11)).
+For more and more objective criticism see [Girard 2011, section 17](#Girard11).
 
 Girard had introduced the class of [[formal logic]] systems called _[[linear logic]]_ and it has been argued that [[linear logic]] and more generally _[[linear type theory]]_ does faithfully capture the essence of [[quantum mechanics]] ([Yetter 90](#Yetter90). [Pratt 92](#Pratt92), [Abramsky-Duncan 05](#AbramskyDuncan05), [Duncan 06](#Duncan06)), see ([Baez-Stay 09](#BaezStay09) for an introductory exposition). This is due to the fact that the [[categorical semantics]] of linear logic is in [[symmetric monoidal categories]] such as those used in the description of [[finite quantum mechanics in terms of dagger-compact categories]]. In particular the [[category]] of (finite dimensional) [[Hilbert spaces]] whose [[subobjects]]/[[propositions]] form the Birkhoff-von Neumann style quantum logic does interpret [[linear logic]].
 
@@ -66,7 +68,7 @@ This is stated explicitly for instance in ([Pratt 92, p.4](#Pratt92)):
 
 > These objections are overcome in the extension of quantum logic to linear logic as a dynamic quantum logic.
 
-Notice that the [[subobjects]] in a category of (finite dimensional) [[Hilbert spaces]], and hence the [[propositions]] in the [[categorical logic]] of Hilbert spaces, are the (closed) linear subspaces. Therefore Birkhoff-von Neumann quantum logic is indeed subsumed as a fragment of linear logic. This (obvious) fact was highlighted in ([Crown 75](#Crown75)) and then later with more of [[categorical logic]] in place and emphasizing [[dagger-category|dagger]]-structures in ([Heunen 08](#Heunen08), [Harding 08](#Harding08) [Heunen-Jacobs 09](#HeunenJacobs09), [Coecke-Heunen-Kissinger 13](#CoeckeHeunenKissinger13)). Also ([CCGP 09, section 9.3](#CCGP09)):
+Notice that the [[subobjects]] in a category of ([[finite-dimensional vector space|finite dimensional]]) [[Hilbert spaces]], and hence the [[propositions]] in the [[categorical logic]] of Hilbert spaces, are the (closed) linear subspaces. Therefore Birkhoff-von Neumann quantum logic is indeed subsumed as a fragment of linear logic. This (obvious) fact was highlighted in [Crown 1975](#Crown75) and then later with more of [[categorical logic]] in place and emphasizing [[dagger-category|dagger]]-structures in [Heunen 2008](#Heunen08), [Harding 2008](#Harding08) [Heunen-Jacobs 2009](#HeunenJacobs09), [Coecke-Heunen-Kissinger 2013](#CoeckeHeunenKissinger13). Also [CCGP 09, section 9.3](#CCGP09)):
 
 > both orthologic (or weakenings thereof) and linear logic share the failure of lattice distributivity. In particular, the fragment of linear logic that includes just negation and the additive connectives is nothing but a version of the paraconsistent quantum logic PQL.
  
