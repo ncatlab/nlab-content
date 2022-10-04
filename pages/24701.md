@@ -282,7 +282,7 @@ Given an encoding $A:\mathcal{U}$, an internal type family indexed by $A$ is a f
 
 There are two ways to say that $A:\mathcal{U}$ and $B:\mathcal{U}$ are the same, by way of the identity type of the universe $A =_\mathcal{U} B$, and by way of the type of equivalences between the type reflections of $A:\mathcal{U}$ and $B:\mathcal{U}$, $\mathcal{T}_\mathcal{U}(A) \simeq_\mathcal{U} \mathcal{T}_\mathcal{U}(B)$. By [[transport]], there is a canonical function 
 $$\mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B):(A =_\mathcal{U} B) \to (\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B))$$
-The universe $\mathcal{U}$ is then said to be an externally [[univalent universe]] if the transport function $\mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B)$ is an equivalence of types
+The universe $\mathcal{U}$ is then said to be a [[univalent universe]] if the transport function $\mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B)$ is an equivalence of types
 $$\mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B):(A =_\mathcal{U} B) \simeq (\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B))$$
 for all encodings $A:\mathcal{U}$ and $B:\mathcal{U}$. 
 
@@ -307,14 +307,14 @@ Every universe $\mathcal{U}$ which is closed under identity types, function type
 
 $$A \simeq_\mathcal{U} B \coloneqq \Sigma_\mathcal{U}(f:A \to_\mathcal{U} B).\Pi_\mathcal{U}(b:B) \left(\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b) \right) \times_\mathcal{U} \Pi_\mathcal{U}\left(p:\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b)\right). \Pi_\mathcal{U}\left(q:\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b)\right).\mathrm{Id}_{\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b)}^\mathcal{U}(p, q)$$
 
-Thus, there is a third way to say that $A:\mathcal{U}$ and $B:\mathcal{U}$ are the same, by way of the type reflection of the internal encoding of the type of equivalences: $\mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$. The universe $\mathcal{U}$ is then said to be an internally [[univalent universe]] if there is an equivalence 
-$$\mathrm{idtoequiv}(A, B):(A =_\mathcal{U} B) \simeq \mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$$
-
-It is not true that every externally univalent universe $(\mathcal{U}, \mathcal{T}_\mathcal{U})$ that is closed under identity types, function types, pi types, product types, and sigma types is internally univalent. It could be proven, from the closure of the universe under identity types, function types, pi types, product types, and sigma types, that there is an equivalence 
+Thus, there is a third way to say that $A:\mathcal{U}$ and $B:\mathcal{U}$ are the same, by way of the type reflection of the internal encoding of the type of equivalences: $\mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$. It could be proven, from the closure of the universe under identity types, function types, pi types, product types, and sigma types, that there is an equivalence 
 $$\mathrm{canonical}_\simeq(A, B):\mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B) \simeq (\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B))$$
-However, while the composite of the inverse equivalence $\mathrm{canonical}_\simeq(A, B)^{-1}$ and the equivalence $\mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B)$ is an equivalence, it is not true that $\mathrm{idtoequiv}(A, B)$ can be shown to be an equivalence for all encodings $A:\mathcal{U}$ and $B:\mathcal{U}$. 
 
-Similarly, it is not true that every internally univalent universe is externally univalent. While the composite of $\mathrm{idtoequiv}(A, B)$ and $\mathrm{canonical}_\simeq(A, B)$ is an equivalence, it is not true that $\mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B)$ can be proven to be an equivalence for all encodings $A:\mathcal{U}$ and $B:\mathcal{U}$. 
+There is another definition of a univalent universe: a universe $\mathcal{U}$ is a [[univalent universe]] if the canonical function 
+$$\mathrm{idtoequiv}(A, B):(A =_\mathcal{U} B) \to \mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$$
+is an equivalence
+$$\mathrm{idtoequiv}(A, B):(A =_\mathcal{U} B) \simeq \mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$$
+These two definitions of univalent universes are the same: 
 
 ## Categorical semantics
 
