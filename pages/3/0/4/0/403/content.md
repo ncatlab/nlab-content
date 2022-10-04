@@ -410,6 +410,7 @@ See also at [enriched category](enriched+category#internalization_versus_enrichm
 
 
 ## References
+ {#References}
 
 The general definition of internal categories seems to have first been formulated in:
 
@@ -442,6 +443,8 @@ Textbook accounts:
 and with emphasis on an ambient [[topos theory]]:
 
 * {#Johnstone77} [[Peter Johnstone]], Chapter 2 of: _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp. (Available as Dover Reprint, Mineola 2014)
+
+  > (also considers internal [[functors]] and [[[profunctors]])
 
 * {#Johnstone}[[Peter Johnstone]], Section B2.3 in: Vol. 1 of: _[[Sketches of an Elephant -- A Topos Theory Compendium]]_, Oxford University Press (2002)([ISBN:9780198534259](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198534259))
  
