@@ -58,3 +58,4 @@ Note: the list is ordered first by year, then alphabetically by last name.
 ## Related pages
 
 * [[list of journals publishing category theory]]
+* [[list of lost manuscripts in category theory]]
