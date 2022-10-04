@@ -34,6 +34,7 @@ The (popular) claim that some statement is "well-known" -- without, however, the
 
 ## Related concepts
 
+* [[list of lost manuscripts in category theory]]
 
 * [[axiom]]
 
