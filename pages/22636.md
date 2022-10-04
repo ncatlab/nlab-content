@@ -14,7 +14,7 @@ On [[lenses (in computer science)]]:
 
 * {#Riley} [[Mitchell Riley]], _Categories of optics_, ([arXiv:1809.00738](https://arxiv.org/abs/1809.00738))
 
-On [[homotopy type theory|homotopy]] [[dependent linear type theory]] of dependent [[stable homotopy types]] with [[categorical semantics]] in [[parametrized spectra]]:
+On [[homotopy type theory|homotopy]] [[dependent linear type theory]] of dependent [[stable homotopy types]] (via a form of [[bunched logic]]) with [[categorical semantics]] in [[parametrized spectra]]:
 
 * {#RileyFinsterLicata21} [[Mitchell Riley]], [[Eric Finster]], [[Daniel Licata]], *Synthetic Spectra via a Monadic and Comonadic Modality* ([arXiv:2102.04099](https://arxiv.org/abs/2102.04099))
 
