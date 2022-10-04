@@ -16,6 +16,10 @@ Exactly how this looks depends on the [[logic]] used.
 
 ...
 
+## Semantics
+
+This rule corresponds to having [[monoidal category with diagonals|diagonals for the monoidal structure]] corresponding to the logical binary operator at hand.
+
 
 [[!redirects contraction rule]]
 [[!redirects contraction rules]]
