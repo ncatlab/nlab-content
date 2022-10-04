@@ -7,7 +7,6 @@ Jean B&#233;nabou (1932-2022) was a French mathematician working in [[category t
  {#SelectedWritings}
 
 
-
 Introducing the notion of [[enriched categories]]:
 
 * [[Jean Bénabou]], *Catégories relatives*, C. R. Acad. Sci. Paris, 260 (1965), pp. 3824-3827 ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4019v/f37.item))
@@ -19,6 +18,10 @@ On [[bicategories]]
 On [[monadic descent]] via the [[Beck-Chevalley condition]], the [[monadicity theorem]] and introducing the [[Bénabou-Roubaud theorem]]:
 
 * {#BenabouRoubaud70} [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, Ser. A **270**  (1970) 96-98 &lbrack;[gallica:12148/bpt6k480298g/f100](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f100), [[BenabouRoubaud-MonadesEtDescente.pdf:file]],   English translation (by [[Peter Heinig]]): [MO:q/279152](https://mathoverflow.net/q/279152)&rbrack;
+
+On [[profunctors]] (including for [[enriched categories]] and [[internal categories]]):
+
+* {#Benabou73} [[Jean Bénabou]], *Les distributeurs*, Université Catholique de Louvain, Institut de Mathématique Pure et Appliquée,  rapport **33** (1973) &lbrack;[pdf](http://www.entretemps.asso.fr/maths/DistributeursLouvain.pdf), [[Benabou-LesDistributeurs.pdf:file]]&rbrack;
 
 
 On [[fibered categories]]:
