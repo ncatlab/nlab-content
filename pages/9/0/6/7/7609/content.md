@@ -211,3 +211,6 @@ The [[coherence]] issue involved in making this precise is discussed in
 
 [[!redirects variable capture]]
 [[!redirects variable captures]]
+
+[[!redirects substitution rule]]
+[[!redirects substitution rules]]
