@@ -20,7 +20,7 @@ Aspects of the following have a resemblance to some variants and categorical int
 
 \linebreak
 
-### General
+### Idea: Modal quantum logic via linear homotopy types
 
 We assume a [[dependent linear type theory]] which [[functor|functorially]] obtains (as anticipated in [Schreiber 2014](dependent+linear+type+theory#Schreiber14), [§3.2](https://arxiv.org/pdf/1402.7041.pdf#page=39) and established in [Riley 2022](dependent+linear+type+theory#Riley22Thesis), [§2.4](https://digitalcollections.wesleyan.edu/islandora/object/ir:3269)):
 
@@ -136,7 +136,7 @@ $
 which is encoded by its direct sum decomposition $\mathcal{H}_\bullet$:
 
 \begin{imagefromfile}
-    "file_name": "QCwthLHT-QuantumNecessity-221003.jpg",
+    "file_name": "QCwthLHT-QuantumNecessity-221004.jpg",
     "width": "900",
     "unit": "px",
     "margin": {
@@ -247,10 +247,15 @@ But the expressiveness of the ambient [[linear homotopy type theory]] is conside
  
 \linebreak
 
-### QBits
+### Example: Traditional QBit-based quantum circuits
  {#QCwthLHT-QBits}
 
-A moment of reflection reveals that the [[linear type]] of a single (in-)coherent *[[qbit]]* is as follows, [[dependent linear type|depending]] on the classical [[type]] of [[booleans]] (which here we denote by "0" and "1" instead of "[[false]]" and "[[true]]") .
+We spell out in terms of the above [[modal type theory|modal]] [[quantum logic]] found inside [[dependent linear type theory]] the traditional zoo of [[quantum gates]] and basic [[quantum circuits]] acting on [[tensor products]] of [[qbits]]. On the one hand this serves to show how all the expected constructions are naturally recovered, on the other hand it enhances these standard concepts by what is de-facto a [[quantum programming language]] for their classically-controlled versions (as such somewhat akin to parts of [[Quipper]], but avoiding the issue of "dynamic lifting", see [below](#NoticeTheTypingOfAQbit)).
+
+\linebreak
+
+
+To start with, a moment of reflection reveals that the [[linear type]] of a single (in-)coherent *[[qbit]]* is as follows, [[dependent linear type|depending]] on the classical [[type]] of [[booleans]] (which here we denote by "0" and "1" instead of "[[false]]" and "[[true]]") .
 
 
 \begin{imagefromfile}
