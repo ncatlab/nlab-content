@@ -1,5 +1,16 @@
-# Bunched logic
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+# Bunched logic
 * table of contents
 {:toc}
 
@@ -7,9 +18,21 @@
 
 In [[logic]], and more specifically in [[sequent calculus]]/[[natural deduction]], a **bunched logic** is a logic in which the formulas in the [[context]] are not just a [[list]] or [[set]] but have some additional, usually [[tree]]-like, structure.
 
-This can be indicated syntactically by the use of two or more punctuation symbols, such as comma and semicolon, along with parentheses for grouping.  Thus for instance a sequent with bunches might be written like
+This can be indicated [[syntax|syntactically]] by the use of two or more punctuation symbols, such as comma and semicolon, along with parentheses for grouping.  Thus for instance a sequent with bunches might be written like
 
-$$ A,B,(C;(D,E);F),(G;H) \vdash K $$
+$$ 
+  A,\;
+  B,\;
+  \big(
+    C;\;
+    (D,\,E);
+    \;
+    F
+  \big),\;
+  (G;\,H) 
+  \;\;\;\;\vdash\;\;\;\; 
+  K 
+$$
 
 The contexts put together with both commas and semicolons are called *bunches*.  The general phrase *bunched logic* is not entirely standard, although the word "bunches" has been used with more than one logic of this form (the original is "bunched implication (BI)", below).
 
@@ -64,9 +87,13 @@ An English translation appears in the Journal of Soviet Mathematics 6 (1976) pp.
 
 * Brotherston and Calcagno, *Classical BI: Its Semantics and Proof Theory*, [arxiv](http://arxiv.org/abs/1005.2340)
 
-A bunched logic for [[dependent linear types]], reflecting context built not just from [[Cartesian products]] but also from [[tensor products]], is developed in:
+A bunched logic for [[dependent linear types]], reflecting contexts built not just from [[Cartesian products]] but also from [[tensor products]]:
 
 * {#Riley22Thesis} [[Mitchell Riley]], *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139)&rbrack;
+
+* {#Riley22} [[Mitchell Riley]], *Linear Homotopy Type Theory*, talk at: [HoTTEST Event for Junior Researchers 2022](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest_junior_2022.html)  (Jan 2022) &lbrack;slides: [pdf](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Riley-2022-01-20-HoTTEST.pdf), video: [YT](https://www.youtube.com/watch?v=o2oWhHabjdM)&rbrack;
+
+* [[Mitchell Riley]], *Dependent Type Theories à la Carte*, talk at *[[CQTS]] Initial Researcher's Meeting* (Sep 2022) &lbrack;[[CQTS-InitialResearcherMeeting-Riley-220913.pdf:file]]&rbrack;
 
 
 [[!redirects bunched logics]]
