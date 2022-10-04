@@ -37,3 +37,4 @@ order of the number of articles they publish in the area of category theory, as 
 ## Related pages
 
 * [[list of theses in category theory]]
+* [[list of lost manuscripts in category theory]]
