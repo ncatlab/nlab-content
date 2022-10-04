@@ -29,7 +29,7 @@ For $(X,x)$ a [[pointed topological space]], then its *reduced suspension* $\Sig
 * obtained from the plain [[suspension]] 
 
   $$
-    S X = (X \times [0,1])/( X \times \{0,1\})
+    S X = (X \times [0,1])/( X \times \{0\}, X \times \{1\})
   $$ 
 
   of $X$ by passing to the [[quotient space]] which collapses $\{x\} \times I$ to a point ([this example](quotient+space#QuotientBySubspace))
