@@ -281,7 +281,7 @@ Accounts include
 
 The embedding into [[diffeological spaces]] is due to
 
-* {#Losik92} [[Mark Losik]], _Fréchet manifolds as diffeological spaces_, Soviet. Math. 5 (1992)  ([mathnet:ivm4812](http://mi.mathnet.ru/eng/ivm4812))
+* {#Losik92} [[Mark Losik]], _Fréchet manifolds as diffeologic spaces_, Russian Mathematics 36:5 (1992), 36–42.  English translation: [PDF](https://dmitripavlov.org/scans/losik-frechet-manifolds-as-diffeologic-spaces.pdf).  Russian original: ([mathnet:ivm4812](http://mi.mathnet.ru/eng/ivm4812))
 
 and reviewed in 
 
