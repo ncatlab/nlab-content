@@ -69,7 +69,7 @@ Similarly to the typal K rule, adding the definitional K rule to a type theory t
 
 In this section we assume that the universe is a Tarski universe. The K rule is inconsistent with having a [[univalent type with a type family]] $(A, B)$ with at least one term $a:A$ and dependent type $B(a)$ where $B(a)$ is provably not a proposition
 $$\left(\prod_{p:B(a)}  \prod_{q:B(a)} p =_{B(a)} q\right) \to \emptyset$$
-because by univalence, $A$ is then provably not a set. 
+because by univalence, $A$ is then provably not a set, which contradicts the K rule. 
 In particular, having a [[univalent universe]] $(U, T)$ in the type theory is inconsistent with the K rule. 
 
 The familial axiom K applied to Tarski universes implies that for all $A:U$ the type $T(A)$ is a set. This means the type reflection of the internal equivalences $T(A \simeq_U B)$ is an [[h-set]], and the [[univalence axiom]] then implies that $U$ is an [[h-groupoid]]. If $U$ has [[h-sets]] which can be proven not to be an [[h-proposition]], such as the [[booleans type]], then $U$ is provably not an [[h-set]]. 
