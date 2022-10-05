@@ -286,7 +286,7 @@ The universe $\mathcal{U}$ is then said to be a [[univalent universe]] if the tr
 $$\mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B):(A =_\mathcal{U} B) \simeq (\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B))$$
 for all encodings $A:\mathcal{U}$ and $B:\mathcal{U}$. 
 
-One could also internalize the type of equivalences inside of the universe $\mathcal{U}$, but that requires the universe be closed under identity types, function types, pi types, product types, and sigma types.
+Universes are usually also required to be closed under identity types, function types, pi types, product types, and sigma types.
 
 A universe $\mathcal{U}$ is closed under identity types if it has an internal encoding of identity types in the universe: Given an element $A:\mathcal{U}$, there is a function $\mathrm{Id}_A^\mathcal{U}:\mathcal{T}_\mathcal{U}(A) \times \mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$ and for all elemments $a:\mathcal{T}_\mathcal{U}(A)$ and $b:\mathcal{T}_\mathcal{U}(A)$ an equivalence 
 $$\mathrm{canonical}_{\mathrm{Id}_A}(a, b):\mathcal{T}_\mathcal{U}(\mathrm{Id}_A^\mathcal{U}(a, b)) \simeq (a =_{\mathcal{T}_\mathcal{U}(A)} b)$$
@@ -302,21 +302,6 @@ $$\mathrm{canonical}_\Sigma(A, B):\mathcal{T}_\mathcal{U}(\Sigma_\mathcal{U}(x:A
 
 A universe $\mathcal{U}$ is closed under pi types if it has an internal encoding of pi types in the universe: given an element $A:\mathcal{U}$ and a function $B:\mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$, there is an element $\Pi_\mathcal{U}(x:A).B(x):\mathcal{U}$, and an equivalence
 $$\mathrm{canonical}_\Pi(A, B):\mathcal{T}_\mathcal{U}(\Pi_\mathcal{U}(x:A).B(x)) \simeq \prod_{x:\mathcal{T}_\mathcal{U}(A)} \mathcal{T}_\mathcal{U}(B(x))$$
-
-Every universe $\mathcal{U}$ which is closed under identity types, function types, product types, sigma types, and pi types has an internal encoding of type of equivalences $A \simeq_\mathcal{U} B$, defined for all $A:\mathcal{U}$ and $B:\mathcal{U}$ as
-
-$$A \simeq_\mathcal{U} B \coloneqq \Sigma_\mathcal{U}(f:A \to_\mathcal{U} B).\Pi_\mathcal{U}(b:B) \left(\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b) \right) \times_\mathcal{U} \Pi_\mathcal{U}\left(p:\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b)\right). \Pi_\mathcal{U}\left(q:\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b)\right).\mathrm{Id}_{\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b)}^\mathcal{U}(p, q)$$
-
-Thus, there is a third way to say that $A:\mathcal{U}$ and $B:\mathcal{U}$ are the same, by way of the type reflection of the internal encoding of the type of equivalences: $\mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$. It could be proven, from the closure of the universe under identity types, function types, pi types, product types, and sigma types, that there is an equivalence 
-$$\mathrm{canonical}_\simeq(A, B):\mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B) \simeq (\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B))$$
-
-There is another definition of a univalent universe: a universe $\mathcal{U}$ is a [[univalent universe]] if the canonical function 
-$$\mathrm{idtoequiv}(A, B):(A =_\mathcal{U} B) \to \mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$$
-is an equivalence
-$$\mathrm{idtoequiv}(A, B):(A =_\mathcal{U} B) \simeq \mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$$
-These two definitions of univalent universes are the same. In order to do so, we need to show that there is an identification 
-$$i(p):\mathrm{canonical}_\simeq(A, B)(\mathrm{idtoequiv}(A, B)(p)) =_{\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B)}  \mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B)(p)$$
-for all identifications $p:A =_\mathcal{U} B$. By the J rule it is enough to show that $\mathrm{canonical}_\simeq(A, A)$ maps the identity function of $\mathcal{T}_\mathcal{U}(A \to_\mathcal{U} A)$ to the identity function of $\mathcal{T}_\mathcal{U}(A) \to \mathcal{T}_\mathcal{U}(A)$. Since the identity function in $\mathcal{T}_\mathcal{U}(A \to_\mathcal{U} A)$ is just $\mathrm{canonical}_\simeq^{-1}(A, A)(id_A)$ the above statement is always true. Thus, the second definition of a univalent universe is equivalent to the definition by transport. 
 
 ## Categorical semantics
 
