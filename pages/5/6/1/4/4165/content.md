@@ -33,6 +33,12 @@ and let $f(k,x)$ be $k$.
 
 A __[[family]] of [[sets]]__ consists of an [[discrete groupoid]] $I$ called the __index set__, and a [[functor]] $F:I \to Set$, where [[Set]] is the large [[category of sets]]. 
 
+## In dependent type theory
+
+A **[[family]] of [[sets]]** consists of a type $I$ called the **index type**, and a [[type family]] $S(x)$ indexed by elements $x:I$, such that every dependent type $S(x)$ is an [[h-set]] by the typal [[axiom K]] definition or the typal [[uniqueness of identity proofs]] definition. 
+
+Equivalently, it is a type family $(I, S)$ which satisfies the familial [[axiom K]]. 
+
 ## See also
 
 * [[family]]
