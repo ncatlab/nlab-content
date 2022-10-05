@@ -67,7 +67,7 @@ Similarly to the typal K rule, adding the definitional K rule to a type theory t
 
 ### Axiom K and univalence
 
-In this section we assume that the universe is a Tarski universe. The K rule is inconsistent with having a [[univalent type with a type family]] $(A, B)$ with at least one term $a:A$ and dependent type $B(a)$ where $B(a)$ is provably not a proposition
+In this section we assume that the universe is a Tarski universe. The K rule is inconsistent with having a [[univalent type with a type family]] $(A, B)$ with at least one term $a:A$ where the dependent type $B(a)$ is provably not a proposition
 $$\left(\prod_{p:B(a)}  \prod_{q:B(a)} p =_{B(a)} q\right) \to \emptyset$$
 because by univalence, $A$ is then provably not a set, which contradicts the K rule. 
 In particular, having a [[univalent universe]] $(U, T)$ in the type theory is inconsistent with the K rule. 
@@ -109,3 +109,7 @@ around theorem 7.2.1
 [[!redirects Streicher's axiom K]]
 [[!redirects Streicher\'s axiom K]]
 [[!redirects Axiom K (type theory)]]
+
+[[!redirects K rule]]
+[[!redirects definitional K rule]]
+[[!redirects definitional K]]
