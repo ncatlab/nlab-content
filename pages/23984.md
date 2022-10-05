@@ -80,47 +80,47 @@ such that for all $v:B(y)$, the ([[homotopy fiber|homotopy]]) [[fiber]] of $\ove
 
 ### Univalent Tarski universes
 
-Tarski universes are internal models of [[dependent type theory]] inside of the type theory itself. A Tarski universe consists of a type of encodings for types $\mathcal{U}$ and a universal type family $\mathcal{T}_\mathcal{U}$. Given an encoding $A:\mathcal{U}$, an internal type family indexed by $A$ is a function $B:\mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$. 
+Tarski universes are types which behave like internal models of [[dependent type theory]] inside of the type theory itself. A Tarski universe consists of a type of encodings for types $\mathcal{U}$ and a universal type family $\mathcal{T}_\mathcal{U}$. Given an encoding $A:\mathcal{U}$, an internal type family indexed by $A$ is a function $B:\mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$. 
 
-There are two ways to say that $A:\mathcal{U}$ and $B:\mathcal{U}$ are the same, by way of the identity type of the universe $A =_\mathcal{U} B$, and by way of the type of equivalences between the type reflections of $A:\mathcal{U}$ and $B:\mathcal{U}$, $\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B)$. By [[transport]], there is a canonical function 
+There are two ways to say that $A:\mathcal{U}$ and $B:\mathcal{U}$ are the same, by way of the [[identity type]] of the Tarski universe $A =_\mathcal{U} B$, and by way of the [[equivalence in homotopy type theory|type of equivalences]] between the type reflections of $A:\mathcal{U}$ and $B:\mathcal{U}$, $\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B)$. By [[transport]], there is a canonical function 
 $$\mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B):(A =_\mathcal{U} B) \to (\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B))$$
-The universe $\mathcal{U}$ is then said to be a [[univalent universe]] if the transport function $\mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B)$ is an equivalence of types
+The Tarski universe $\mathcal{U}$ is then said to be a [[univalent universe]] if the transport function $\mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B)$ is an equivalence of types
 $$\mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B):(A =_\mathcal{U} B) \simeq (\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B))$$
 for all encodings $A:\mathcal{U}$ and $B:\mathcal{U}$. 
 
-One could also internalize the type of equivalences inside of the universe $\mathcal{U}$, but that requires the universe be closed under identity types, function types, pi types, product types, and sigma types.
+One could also internalize the type of equivalences inside of the Tarski universe $\mathcal{U}$, but that requires the Tarski universe be closed under [[identity types]], [[function types]], [[dependent product types]], [[product types]], and [[dependent sum types]].
 
-A universe $\mathcal{U}$ is weakly closed under identity types if it has an internal encoding of identity types in the universe: Given an element $A:\mathcal{U}$, there is a function $\mathrm{Id}_A^\mathcal{U}:\mathcal{T}_\mathcal{U}(A) \times \mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$ and for all elemments $a:\mathcal{T}_\mathcal{U}(A)$ and $b:\mathcal{T}_\mathcal{U}(A)$ an equivalence 
+A Tarski universe $\mathcal{U}$ is weakly closed under identity types if it has an internal encoding of identity types in the Tarski universe: Given an element $A:\mathcal{U}$, there is a function $\mathrm{Id}_A^\mathcal{U}:\mathcal{T}_\mathcal{U}(A) \times \mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$ and for all elemments $a:\mathcal{T}_\mathcal{U}(A)$ and $b:\mathcal{T}_\mathcal{U}(A)$ an equivalence 
 $$\mathrm{canonical}_{\mathrm{Id}_A}(a, b):\mathcal{T}_\mathcal{U}(\mathrm{Id}_A^\mathcal{U}(a, b)) \simeq (a =_{\mathcal{T}_\mathcal{U}(A)} b)$$
 
-A universe $\mathcal{U}$ is weakly closed under function types if it has an internal encoding of function types in the universe: given an element $A:\mathcal{U}$ and an element $B:\mathcal{U}$, there is an element $A \to_\mathcal{U} B:\mathcal{U}$, and an equivalence
+A Tarski universe $\mathcal{U}$ is weakly closed under function types if it has an internal encoding of function types in the Tarski universe: given an element $A:\mathcal{U}$ and an element $B:\mathcal{U}$, there is an element $A \to_\mathcal{U} B:\mathcal{U}$, and an equivalence
 $$\mathrm{canonical}_{\to}(A, B):\mathcal{T}_\mathcal{U}(A \to_\mathcal{U} B) \simeq \mathcal{T}_\mathcal{U}(A) \to \mathcal{T}_\mathcal{U}(B)$$
 
-A universe $\mathcal{U}$ is weakly closed under product types if it has an internal encoding of product types in the universe: given an element $A:\mathcal{U}$ and an element $B:\mathcal{U}$, there is an element $A \times_\mathcal{U} B:\mathcal{U}$, and an equivalence
-$$\mathrm{canonical}_{\times}(A, B):\mathcal{T}_\mathcal{U}(A \times_\mathcal{U} B) \simeq \mathcal{T}_\mathcal{U}(A) \times \mathcal{T}_\mathcal{U}(B)$$
-
-A universe $\mathcal{U}$ is weakly closed under sigma types if it has an internal encoding of sigma types in the universe: given an element $A:\mathcal{U}$ and a function $B:\mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$, there is an element $\Sigma_\mathcal{U}(x:A).B(x):\mathcal{U}$, and an equivalence
-$$\mathrm{canonical}_\Sigma(A, B):\mathcal{T}_\mathcal{U}(\Sigma_\mathcal{U}(x:A).B(x)) \simeq \sum_{x:\mathcal{T}_\mathcal{U}(A)} \mathcal{T}_\mathcal{U}(B(x))$$
-
-A universe $\mathcal{U}$ is weakly closed under pi types if it has an internal encoding of pi types in the universe: given an element $A:\mathcal{U}$ and a function $B:\mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$, there is an element $\Pi_\mathcal{U}(x:A).B(x):\mathcal{U}$, and an equivalence
+A Tarski universe $\mathcal{U}$ is weakly closed under dependent product types if it has an internal encoding of dependent product types in the Tarski universe: given an element $A:\mathcal{U}$ and a function $B:\mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$, there is an element $\Pi_\mathcal{U}(x:A).B(x):\mathcal{U}$, and an equivalence
 $$\mathrm{canonical}_\Pi(A, B):\mathcal{T}_\mathcal{U}(\Pi_\mathcal{U}(x:A).B(x)) \simeq \prod_{x:\mathcal{T}_\mathcal{U}(A)} \mathcal{T}_\mathcal{U}(B(x))$$
 
-Every universe $\mathcal{U}$ which is weakly closed under identity types, function types, product types, sigma types, and pi types has an internal encoding of type of equivalences $A \simeq_\mathcal{U} B$, defined for all $A:\mathcal{U}$ and $B:\mathcal{U}$ as
+A Tarski universe $\mathcal{U}$ is weakly closed under product types if it has an internal encoding of product types in the Tarski universe: given an element $A:\mathcal{U}$ and an element $B:\mathcal{U}$, there is an element $A \times_\mathcal{U} B:\mathcal{U}$, and an equivalence
+$$\mathrm{canonical}_{\times}(A, B):\mathcal{T}_\mathcal{U}(A \times_\mathcal{U} B) \simeq \mathcal{T}_\mathcal{U}(A) \times \mathcal{T}_\mathcal{U}(B)$$
+
+A Tarski universe $\mathcal{U}$ is weakly closed under dependent sum types if it has an internal encoding of dependent sum types in the Tarski universe: given an element $A:\mathcal{U}$ and a function $B:\mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$, there is an element $\Sigma_\mathcal{U}(x:A).B(x):\mathcal{U}$, and an equivalence
+$$\mathrm{canonical}_\Sigma(A, B):\mathcal{T}_\mathcal{U}(\Sigma_\mathcal{U}(x:A).B(x)) \simeq \sum_{x:\mathcal{T}_\mathcal{U}(A)} \mathcal{T}_\mathcal{U}(B(x))$$
+
+Every Tarski universe $\mathcal{U}$ which is weakly closed under identity types, function types, dependent product types, product types, and dependent sum types types has an internal encoding of type of equivalences $A \simeq_\mathcal{U} B$, defined for all $A:\mathcal{U}$ and $B:\mathcal{U}$ as
 
 $$A \simeq_\mathcal{U} B \coloneqq \Sigma_\mathcal{U}(f:A \to_\mathcal{U} B).\Pi_\mathcal{U}(b:B) \left(\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b) \right) \times_\mathcal{U} \Pi_\mathcal{U}\left(p:\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b)\right). \Pi_\mathcal{U}\left(q:\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b)\right).\mathrm{Id}_{\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b)}^\mathcal{U}(p, q)$$
 
-Thus, there is a third way to say that $A:\mathcal{U}$ and $B:\mathcal{U}$ are the same, by way of the type reflection of the internal encoding of the type of equivalences: $\mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$. It could be proven, from the closure of the universe under identity types, function types, pi types, product types, and sigma types, that there is an equivalence 
+Thus, there is a third way to say that $A:\mathcal{U}$ and $B:\mathcal{U}$ are the same, by way of the type reflection of the internal encoding of the type of equivalences: $\mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$. It could be proven, from the closure of the universe under identity types, function types, dependent product types, product types, and dependent sum types, that there is an equivalence 
 $$\mathrm{canonical}_\simeq(A, B):\mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B) \simeq (\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B))$$
 
-There is a more common definition of a univalent universe: a universe $\mathcal{U}$ is a [[univalent universe]] if the canonical function 
+There is a more common definition of a univalent Tarski universe: a  Tarski universe $\mathcal{U}$ is a [[univalent universe]] if the canonical function 
 $$\mathrm{idtoequiv}(A, B):(A =_\mathcal{U} B) \to \mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$$
 is an equivalence
 $$\mathrm{idtoequiv}(A, B):(A =_\mathcal{U} B) \simeq \mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$$
-These two definitions of univalent universes are the same. In order to do so, we need to show that there is an identification 
+These two definitions of univalent universes are the same. In order to show that the two definitions are the same, we need to show that there is an identification 
 $$i(p):\mathrm{canonical}_\simeq(A, B)(\mathrm{idtoequiv}(A, B)(p)) =_{\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B)}  \mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B)(p)$$
 for all identifications $p:A =_\mathcal{U} B$. By the J rule it is enough to show that $\mathrm{canonical}_\simeq(A, A)$ maps the identity function of $\mathcal{T}_\mathcal{U}(A \to_\mathcal{U} A)$ to the identity function of $\mathcal{T}_\mathcal{U}(A) \to \mathcal{T}_\mathcal{U}(A)$. Since the identity function in $\mathcal{T}_\mathcal{U}(A \to_\mathcal{U} A)$ is just $\mathrm{canonical}_\simeq^{-1}(A, A)(id_A)$ the above statement is always true. Thus, the second definition of a univalent universe is equivalent to the definition by transport. 
 
-These results apply to strictly Tarski universes as well, as since $A \equiv B$ implies that $A \simeq B$ for types $A$ and $B$, every strictly Tarski universe is weakly Tarski. 
+These results apply to strictly Tarski universes as well, which are strictly closed rather than weakly closed (the equivalences become [[definitional equality]]): since $A \equiv B$ implies that $A \simeq B$ for types $A$ and $B$, every strictly Tarski universe is weakly Tarski. 
 
 ### Relation to parallel transport
 
