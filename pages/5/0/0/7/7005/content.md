@@ -274,10 +274,16 @@ The univalence axiom proper says that the canonical map $coe:(X=Y)\to (X\simeq Y
    $$ A \overset{unit}{=} \sum_{a:A} 1 \overset{contract}{=} \sum_{a:A} \sum_{b:B} f a=b \overset{flip}{=} \sum_{b:B} \sum_{a:A} f a = b \overset{contract}{=} \sum_{b:B} 1 \overset{unit}{=} B $$
    and uses $unit_\beta$ and $flip_\beta$ to compute that $coe(ua(f))(a) = f(a)$, hence by function extensionality $coe(ua(f)) = f$.
 
-### Canonicity
+### Univalence and axiom K
+
+In this section we assume that the universe is a Tarski universe. [[Axiom K]] states that for all $A:U$ the type $T(A)$ is a set. This means the type reflection of the internal equivalences $T(A \simeq_U B)$ is an [[h-set]], and the univalence axiom then implies that $U$ is an [[h-groupoid]]. 
+
+It is frequently stated that the univalence axiom and axiom K are inconsistent with each other. However, this is only true if the Tarski universe $U$ has internal univalent Tarski universes $V:U$ where the type $T(V)$ has terms $A:T(V)$ such that $T_V(A)$ is an [[h-set]] which is not an [[h-proposition]], such as the [[booleans type]]. As a result, $T(V)$ can be proven to not be a set, causing axiom K for $U$ to be inconsistent with the existence of $V:U$ and univalence. 
+
+### Canonicity and homotopy canonicity
  {#Canonicity}
 
-It is currently open whether the univalence axiom enjoys [[canonicity]] in general, but for the special case of [[1-truncated]] homotopy types ([[groupoids]]) (and two nested univalent [[universes]] and [[function extensionality]]), a "homotopical" sort of [[canonicity]] has been shown in ([Shulman 12, section 13](#Shulman12).  Thus, in univalent homotopy 1-type theory with two universes, every [[term]] of [[type]] of the [[natural numbers]] is [[propositional equality|propositionally equal]] to a [[numeral]].
+It is currently open whether the univalence axiom enjoys [[canonicity]] in general, but for the special case of [[1-truncated]] homotopy types ([[groupoids]]) (and two nested univalent [[universes]] and [[function extensionality]]), [[homotopy canonicity]] has been shown in ([Shulman 12, section 13](#Shulman12).  Thus, in univalent homotopy 1-type theory with two universes, every [[term]] of [[type]] of the [[natural numbers]] is [[propositional equality|propositionally equal]] to a [[numeral]].
 
 The construction in ([Shulman 12, section 13](#Shulman12)) uses [[Artin gluing]] of a suitable [[type-theoretic model category|type-theoretic fibration category]] with the [[category]] [[Set]] and [[Grpd]], respectively, effectively inducing canonicity from these categories. By ([Shulman 12, remark 13.13](#Shulman12)) for this construction to generalize to untruncated univalent type theory, one seems to need a sufficiently strict [[global sections]] functor with values in some model for [[infinity-groupoids]]. A proof of the full result has been announced by [[Christian Sattler]] and [[Krzysztof Kapulkin]] ([Sattler 19](#Sattler19)).
 
