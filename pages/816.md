@@ -23,7 +23,7 @@
 
 ## Idea ##
 
-The notion of _weighted limit_ (also called _indexed limit_) is naturally understood from the point of view on [[limits]] as described at _[[representable functor]]_:
+The notion of _weighted limit_ (also called _indexed limit_ in older texts) is naturally understood from the point of view on [[limits]] as described at _[[representable functor]]_:
 
 Weighted limits make sense and are considered in the general context of $V$-[[enriched category theory]], but restrict attention to $V=$ [[Set]] for the moment, in order to motivate the concept.
 
@@ -266,7 +266,11 @@ is discussed there in definition 14.7.8 on p. 269.
 
 * [[weighted colimit]]
 
-#References#
+# References
+
+Weighted limits were introduced in
+
+* [[Francis Borceux]] and [[Gregory Maxwell Kelly]]. *A notion of limit for enriched categories*. Bulletin of the Australian Mathematical Society 12.1 (1975): 49-72.
 
 A standard reference is
 
