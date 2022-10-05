@@ -14,7 +14,7 @@
 
 ## Idea 
 
-A _derived stack_ $X$ is an [[∞-stack]] -- an [[(∞,1)-sheaf]] -- on an [[(∞,1)-site]] $C$.  For example, $C$ is most often the [[(∞,1)-category]] of [[simplicial commutative rings]] or [[E-∞ ring spectra]] (with the [[Zariski topology|Zariski]] or [[etale topology|etale]] topology)).
+A _derived stack_ $X$ is an [[∞-stack]] -- an [[(∞,1)-sheaf]] -- on an [[(∞,1)-site]] $C$.  For example, $C$ is most often the [[(∞,1)-category]] of [[simplicial commutative rings]] or [[E-∞ ring spectra]] (with the [[Zariski topology|Zariski]] or [[etale topology|etale]] topology).
 
 One says _derived stack_ in order to distinguish from the more restrictive notion of an [[∞-stack]] on a 1-categorical [[site]], such as for instance described at [[topological ∞-groupoid]].
 
@@ -39,7 +39,7 @@ One general idea for the use of higher and derived stacks is that
 
   * in the category [[Diff]] of manifolds the quotient by a non-free action of a group may not exist
 
-  * in [[sheaf|sheaves]] in $[Diff^{op},Set]$ it will exist, but will have the wrong properties in general with respect to some operations such as taking cohommology,
+  * in [[sheaf|sheaves]] in $[Diff^{op},Set]$ it will exist, but will have the wrong properties in general with respect to some operations such as taking cohomology,
 
   * while finally in [[stack]]s $[Diff^{op}, Grpd]$ it exists as the corresponding smooth [[action groupoid]] or [[orbifold]] and in this form rembers in terms of the isomorphisms how the quotient was obtained. The cohomology of the stack is then indeed the equivariant cohomology of the original manifold.
 
