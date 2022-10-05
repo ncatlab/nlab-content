@@ -10,6 +10,8 @@ where $X$ is a smooth complete [[curve]] over a [[field]] of [[characteristic ze
 
 ## References
 
+* Gurbir Dhillon, _An informal introduction to categorical representation theory and the local geometric Langlands program_ ([arXiv:2205.14578](https://arxiv.org/abs/2205.14578))
+
 * [[Dennis Gaitsgory]], _[[Notes on geometric Langlands]]_, [web](http://www.math.harvard.edu/~gaitsgde/GL/).
 
 * [[D. Gaitsgory]], [[N. Rozenblyum]], _[[A study in derived algebraic geometry]]_.
