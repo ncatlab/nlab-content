@@ -316,7 +316,7 @@ is an equivalence
 $$\mathrm{idtoequiv}(A, B):(A =_\mathcal{U} B) \simeq \mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$$
 These two definitions of univalent universes are the same. In order to do so, we need to show that there is an identification 
 $$i(p):\mathrm{canonical}_\simeq(A, B)(\mathrm{idtoequiv}(A, B)(p)) =_{\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B)}  \mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B)(p)$$
-for all identifications $p:A =_\mathcal{U} B$. 
+for all identifications $p:A =_\mathcal{U} B$. By the J rule it is enough to show that $\mathrm{canonical}_\simeq(A, A)$ maps the identity function of $\mathcal{T}_\mathcal{U}(A \to_\mathcal{U} A)$ to the identity function of $\mathcal{T}_\mathcal{U}(A) \to \mathcal{T}_\mathcal{U}(A)$. Since the identity function in $\mathcal{T}_\mathcal{U}(A \to_\mathcal{U} A)$ is just $\mathrm{canonical}_\simeq^{-1}(A, A)(id_A)$ the above statement is always true. Thus, the second definition of a univalent universe is equivalent to the definition by transport. 
 
 ## Categorical semantics
 
