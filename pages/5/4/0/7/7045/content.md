@@ -101,7 +101,11 @@ We can give a slightly different definition of weakly &#224; la Tarski universe 
 
 If the containing universe is univalent the two definitions turn out to coincide.
 
-Universes defined internally via [[induction-recursion]] are (strongly) &#224; la Tarski. Weakly &#224; la Tarski universes are easier to obtain in [[semantics]] (see [below](#CategoricalSemantics)): they are somewhat more annoying to use, but probably suffice for most purposes.
+The three notions of Tarski universe can be ordered by generality: Every Tarski universe is weakly à la Tarski by equivalences, because both definitional equality of types $A \equiv B$ and the identity types between two types $A = B$ imply that the two types of equivalent $A \simeq_U B$. Similarly, every strict Tarski universe is weakly à la Tarski by the identity type, because definitional equality of types $A \equiv B$ implies that two types are identified $A = B$. 
+
+Since each type former is independent of each other, one could also have mixed versions of Tarski universes, where some of the type formers are strictly à la Tarski and some are weakly à la Tarski. This leads to $2^n$ possible Tarski universes, where $n$ is the number of type formers in a type theory, and the $2^n$ type theories are only [[partially ordered]] by generality. Internally in an ambient universe, that number becomes $3^n$. 
+
+Universes defined internally via [[induction-recursion]] are stricty &#224; la Tarski. Weakly &#224; la Tarski universes are easier to obtain in [[semantics]] (see [below](#CategoricalSemantics)): they are somewhat more annoying to use, but probably suffice for most purposes. In [[objective type theory]], there is no [[definitional equality]], so every Tarski universe is weakly à la Tarski. 
 
 ## Hierarchy of type universes
 
