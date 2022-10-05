@@ -67,7 +67,7 @@ Similarly to the typal K rule, adding the definitional K rule to a type theory t
 
 ### Axiom K and univalence
 
-In this section we assume that the universe is a Tarski universe. The K rule is inconsistent with having a [[univalent index type of a type family]] $(A, B)$ with at least one term $a:A$ and dependent type $B(a)$ where $B(a)$ is provably not a proposition
+In this section we assume that the universe is a Tarski universe. The K rule is inconsistent with having a [[univalent type with a type family]] $(A, B)$ with at least one term $a:A$ and dependent type $B(a)$ where $B(a)$ is provably not a proposition
 $$\left(\prod_{p:B(a)}  \prod_{q:B(a)} p =_{B(a)} q\right) \to \emptyset$$
 because by univalence, $A$ is then provably not a set. 
 In particular, having a [[univalent universe]] $(U, T)$ in the type theory is inconsistent with the K rule. 
@@ -81,7 +81,6 @@ However, unlike the case for the K rule, the familial axiom K and the univalence
 Unlike its logical equivalent [[axiom UIP]], axiom K can be endowed with computational behavior: $K(A,x,P,d,refl_A x)$ computes to $d$.  This gives a way to specify a computational set-level type theory.
 
 This sort of computational axiom K can also be implemented with, and is sufficient to imply, a general scheme of function definition by pattern-matching.  This is implemented in the proof assistant [[Agda]].  (The flag `--without-K` alters Agda's pattern-matching scheme to a weaker version appropriate for [[intensional type theory]], including [[homotopy type theory]].)
-
 
 ## Related concepts
 
