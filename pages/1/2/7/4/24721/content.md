@@ -29,7 +29,7 @@ for all $a:A$ and $b:A$. The structure $(A, B)$ is said to be **univalent** if t
 $$\mathrm{trans}^B(a, b):(a =_A b) \simeq (B(a) \simeq B(b))$$
 for all $a:A$ and $b:B$. 
 
-This is the structure identity principle for any type $A$ with a type family $B$. 
+This is the extensionality principle for any type $A$ with a type family $B$. 
 
 ## Construction via a higher inductive-inductive type
 
