@@ -37,6 +37,10 @@ If $C$ is an [[(∞,1)-topos]] then it has an [[n-connected/n-truncated factoriz
 
 ## References
 
+Strong epimorphisms were introduced in:
+
+* [[Gregory Maxwell Kelly]]. *Monomorphisms, epimorphisms, and pull-backs*. Journal of the Australian Mathematical society 9.1-2 (1969): 124-142.
+
 Textbook accounts:
 
 * [[Francis Borceux]], Def. 4.3.5 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
