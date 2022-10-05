@@ -106,8 +106,8 @@ A Tarski universe $\mathcal{U}$ is weakly closed under dependent sum types if it
 $$\mathrm{canonical}_\Sigma(A, B):\mathcal{T}_\mathcal{U}(\Sigma_\mathcal{U}(x:A).B(x)) \simeq \sum_{x:\mathcal{T}_\mathcal{U}(A)} \mathcal{T}_\mathcal{U}(B(x))$$
 
 Every Tarski universe $\mathcal{U}$ which is weakly closed under identity types, function types, dependent product types, product types, and dependent sum types types has an internal encoding of type of equivalences $A \simeq_\mathcal{U} B$, defined for all $A:\mathcal{U}$ and $B:\mathcal{U}$ as
-
-$$A \simeq_\mathcal{U} B \coloneqq \Sigma_\mathcal{U}(f:A \to_\mathcal{U} B).\Pi_\mathcal{U}(b:B) \left(\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b) \right) \times_\mathcal{U} \Pi_\mathcal{U}\left(p:\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b)\right). \Pi_\mathcal{U}\left(q:\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b)\right).\mathrm{Id}_{\Sigma_\mathcal{U}(a:A).\mathrm{Id}_B^\mathcal{U}(f(a), b)}^\mathcal{U}(p, q)$$
+$$A \simeq_\mathcal{U} B \coloneqq \Sigma_\mathcal{U}(f:A \to_\mathcal{U} B).\mathrm{isEquiv}_\mathcal{U}(f)$$
+with $\mathrm{isEquiv}_\mathcal{U}$ defined by whatever suitable definition of [[equivalence in homotopy type theory]]. 
 
 Thus, there is a third way to say that $A:\mathcal{U}$ and $B:\mathcal{U}$ are the same, by way of the type reflection of the internal encoding of the type of equivalences: $\mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B)$. It could be proven, from the closure of the universe under identity types, function types, dependent product types, product types, and dependent sum types, that there is an equivalence 
 $$\mathrm{canonical}_\simeq(A, B):\mathcal{T}_\mathcal{U}(A \simeq_\mathcal{U} B) \simeq (\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B))$$
