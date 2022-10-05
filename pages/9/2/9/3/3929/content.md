@@ -51,7 +51,7 @@ On [[monoid objects in monoidal categories]]:
 1. Adjunction for enriched categories, Lecture Notes in Math. 106 (Springer-Verlag, 1969) 166–177.
 1. (with B. J. Day) Enriched functor categories, Lecture Notes in Math. 106 (Springer-Verlag, 1969) 178–191.
 1. (with B. J. Day) On topological quotient maps preserved by pullbacks or products, Proc. Cambridge Phil. Soc. 67 (1970) 553–558.
-1. (with S. E. Dickson) Interlacing methods andlarge indecomposables, Bull. Austral. Math. Soc. 3 (1970) 337–348.
+1. (with S. E. Dickson) Interlacing methods and large indecomposables, Bull. Austral. Math. Soc. 3 (1970) 337–348.
 1. (with S. Mac Lane) Coherence in closed categories, J. Pure Appl. Algebra 1 (1971) 97–140;Erratum Ibid. 1 (1971) 219.
 1. An Introduction to Algebra and Vector Geometry (Reed Education, Sydney, 1972).
 1. (with P. J. Freyd) Categories of continuous functors I, J. Pure Appl. Algebra 2 (1972) 169–191; Erratum Ibid. 4 (1974) 121.
@@ -60,7 +60,7 @@ On [[monoid objects in monoidal categories]]:
 1. An abstract approach to coherence, Lecture Notes in Math. 281 (Springer-Verlag, 1972) 106–147.
 1. A cut-elimination theorem, Lecture Notes in Math. 281 (Springer-Verlag, 1972) 196–213.
 1. Cohérence pour les catégories à distributivité, Cahiers de topologie et géométrie différentielle 14 (1973) 36–37.
-1. (with R. Street) Review of the elements of2-categories, Lecture Notes in Math. 420 (Springer-Verlag, 1974) 75–103.
+1. (with R. Street) Review of the elements of 2-categories, Lecture Notes in Math. 420 (Springer-Verlag, 1974) 75–103.
 1. On clubs and doctrines, Lecture Notes in Math. 420 (Springer-Verlag, 1974) 181–256.
 1. Doctrinal adjunction, Lecture Notes in Math. 420 (Springer-Verlag, 1974) 257–280.
 1. Coherence theorems for lax algebras and for distributive laws, Lecture Notes in Math. 420 (Springer-Verlag, 1974) 281–375.
@@ -90,24 +90,24 @@ On [[monoid objects in monoidal categories]]:
 1. (with G. B. Im) Adjoint-triangle theorems for conservative functors, Bulletin Austral. Math. Soc. 36 (1987) 133–136.
 1. On the ordered set of reflective subcategories, Bulletin Austral. Math. Soc. 36 (1987) 137–152.
 1. (with M. H. Albert) The closure of a class of colimits, J. Pure Appl. Algebra 51 (1988) 1–17.
-1. (with R. Paré) Anote on the Albert-Kelly paper “The closure of a class of colimits”, J. Pure Appl. Algebra 51 (1988) 19–25.
-1. Elementary observations on 2-categoricallimits, Bulletin Austral. Math. Soc. 39 (1989) 301–317.
+1. (with R. Paré) A note on the Albert-Kelly paper “The closure of a class of colimits”, J. Pure Appl. Algebra 51 (1988) 19–25.
+1. Elementary observations on 2-categorical limits, Bulletin Austral. Math. Soc. 39 (1989) 301–317.
 1. (with R. Blackwell and A. J. Power) Two dimensional monad theory, J. Pure Appl. Algebra 59 (1989) 1–41.
 1. (with F. W. Lawvere) On the complete lattice of essential localizations, Bull. Soc. Math. Belgique 41 (1989) 289–319.
 1. (with G. J. Bird, A. J. Power and R. H. Street) Flexible limits for 2-categories, J. Pure Appl. Algebra 61 (1989) 1–27.
 1. (with A. Carboni and R. J. Wood) A 2-categorical approach to change of base and geometric morphisms I, Cahiers de topologieet géométrie différentielle catégoriques 32 (1991) 47–95.
 1. A note on relations relative to a factorization system, Lecture Notes in Math. 1448 (Springer-Verlag, 1991) 249–261.
 1. On clubs and data-type constructors, in Applications of Categories to Computer Science (Proc. LMS Symposium, Durham 1991) (Cambridge Univ. Press 1992) 163–190.
-1. (with S. Lack) Finite-product-preserving functors, Kan extensions, and strongly-finitary2-monads, Applied Categorical Structures 1 (1993) 85–94.
+1. (with S. Lack) Finite-product-preserving functors, Kan extensions, and strongly-finitary 2-monads, Applied Categorical Structures 1 (1993) 85–94.
 1. (with S. Lack and R. F. C. Walters) Coinverters and categories of fractions for categories with structure, Applied Categorical Structures1 (1993) 95–102.
-1. (with A. J. Power) Adjunctions whose counitsare coequalizers and presentations of finitary enriched monads, J. Pure Appl. Algebra 89 (1993) 163–179.
+1. (with A. J. Power) Adjunctions whose counits are coequalizers and presentations of finitary enriched monads, J. Pure Appl. Algebra 89 (1993) 163–179.
 1. (with A. Carboni and M. C. Pedicchio) Some remarks on Maltsev and Goursat categories, Applied Categorical Structures 1 (1993) 385–421.
 1. (with G. Janelidze) Galois theory and a general notion of central extension, J. Pure Appl. Algebra 97 (1994) 135–161.
 1. (with A. Carboni, G. Janelidze and R. Paré) On localization and stabilization for factorization systems, Applied Categorical Structures 5 (1997) 1–58.
 1. (with G. Janelidze) The reflectiveness of covering morphisms in algebra and geometry, Theory and Applications of Categories 3 (1997) 132–159.
-1. (with I. Le Creurer) On the monadicity overgraphs of categories with limits, Cahiersde topologie et géométrie différentielle catégoriques38 (1997) 179–191.
+1. (with I. Le Creurer) On the monadicity over graphs of categories with limits, Cahiersde topologie et géométrie différentielle catégoriques38 (1997) 179–191.
 1. (with S. Lack) On property-like structures, Theory and Applications of Categories 3 (1997) 213–250.
-1. (with A. Carboni, D. Verity and R. J. Wood) A2-categorical approach to change of base and geometric morphisms II, Theory and Applications of Categories 4 (1998) 82–136.
+1. (with A. Carboni, D. Verity and R. J. Wood) A 2-categorical approach to change of base and geometric morphisms II, Theory and Applications of Categories 4 (1998) 82–136.
 1. (with S. Kasangian and V. Vighi) A bicategorical approach to information flow and security, in Categorical Studies in Italy, Rendiconti del Circolo Matematico di Palermo 64 (2000) 99–122.
 1. (with S. Lack) On the monadicity of categories with chosen colimits, Theory and Applications of Categories 7 (2000) 148–170.
 1. (with J. Adámek) M-completeness is seldom monadic over graphs, Theory and Applications of Categories 7 (2000) 171–205.
@@ -115,7 +115,7 @@ On [[monoid objects in monoidal categories]]:
 1. (with E. Faro) On the canonical algebraic structure of a category, J. Pure Appl. Algebra 154 (2000) 159–176.
 1. (with G. Janelidze) Central extensions in universal algebra: a unification of three notions, Algebra Universalis 44 (2000) 123–128.
 1. (with S. Lack) V-Cat is locally presentable or locally bounded when V is so, Theory and Applications of Categories 8 (2001) 555–575.
-1. (with G. Janelidze) A note on actions of amonoidal category, Theory and Applications of Categories 9 (2001) 61–91.
+1. (with G. Janelidze) A note on actions of a monoidal category, Theory and Applications of Categories 9 (2001) 61–91.
 1. (with A. Labella, R. Street and V. Schmitt) Categories enriched on both sides, J. Pure Appl. Algebra 168 (2002) 53–98.
 1. (with S. Lack) Monoidal functors generated by adjunctions, with applications to transport of structure along an equivalence, Fields Institute Communications 43 (2004) 319–340. Gregory Maxwell Kelly 1930–2007 251
 1. On the operads of J. P. May, Reprints in Theory and Applications of Categories 13 (2005) 1–13.
