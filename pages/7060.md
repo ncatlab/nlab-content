@@ -38,8 +38,8 @@ Detailed discussion of the type of propositions in [[Coq]] is in
 
 * [[Adam Chlipala]], _[Certified programming with dependent types](http://adam.chlipala.net/cpdt/)_ -- _[Library Universes](http://adam.chlipala.net/cpdt/html/Universes.html)_ 
 
+[[!redirects types of propositions]]
 [[!redirects universe of propositions]]
 
 [[!redirects Prop]]
-
 
