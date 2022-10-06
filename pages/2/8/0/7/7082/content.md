@@ -260,6 +260,11 @@ For equivalences as one-to-one correspondences in homotopy type theory, see
 * Mike Shulman, Towards a Third-Generation HOTT Part 1 ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA))
 
 
+[[!redirects type of equivalences]]
+[[!redirects types of equivalences]]
+[[!redirects equivalence of types]]
+[[!redirects equivalences of types]]
+
 [[!redirects isEquiv]]
 
 [[!redirects equivalence in homotopy type theory]]
