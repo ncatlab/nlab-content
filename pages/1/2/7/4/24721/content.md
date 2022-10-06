@@ -46,7 +46,7 @@ Since every strict Tarski universe is a type $T$ with a type family $U$, this al
 
 * [[univalent universes]]
 
-* univalent [[types of propositions]]
+* [[types of propositions]]
 
 * (univalent) [[concrete categories]]
 
