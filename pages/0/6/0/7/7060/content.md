@@ -21,7 +21,25 @@
 
 In [[type theory]] the _type of propositions_ $Prop$ corresponds roughly under [[categorical semantics]] to the [[subobject classifier]].  (To be precise, depending on the type theoretic rules and axioms this may not be quite true: one needs [[propositional resizing]], [[propositional extensionality]], and --- in some type theories where "proposition" is not defined as an [[h-proposition]], such as the [[calculus of constructions]] --- the [[principle of unique choice]].)
 
-Its generalization from [[propositions]] to general [[types]] is the [[type of types]]. 
+Its generalization from [[propositions]] to general [[types]] is the [[type universe]]. 
+
+## Definition
+
+We work in an [[intensional type theory]] with [[propositional truncations]] $\left[T\right]$ for types $T$. A **type of propositions** is a [[type]] $\Omega$ with a [[type family]] $T$ such that 
+
+* for every proposition $P:\Omega$, the type $T(P)$ is an [[h-proposition]]:
+$$\prod_{P:\Omega} \prod_{a:T(P)} \prod_{b:T(P)} a =_{T(P)} b$$
+* the [[transport]] function
+$$\mathrm{trans}^T(P, Q):P =_\Omega Q \to (T(P) \simeq T(Q))$$
+is an equivalence of types for all propositions $P:\Omega$ and $Q:\Omega$
+$$\prod_{P:\Omega} \prod_{Q:\Omega} \mathrm{isEquiv}(\mathrm{trans}^T(P, Q))$$
+* $(\Omega, T)$ is weakly closed under truth: there is an element $\top_\Omega:\Omega$ and an equivalence $\mathrm{canonical}_\top: T(\top_\Omega) \simeq \mathbb{1}$
+* $(\Omega, T)$ is weakly closed under conjunction: there is a function $(-)\wedge(-):\Omega \times \Omega \to \Omega$ and an equivalence $\mathrm{canonical}_\wedge(P, Q): T(P \wedge Q) \simeq \left[T(P) \times T(Q)\right]$
+* $(\Omega, T)$ is weakly closed under implication: there is a function $(-)\implies(-):\Omega \times \Omega \to \Omega$ and an equivalence $\mathrm{canonical}_\implies(P, Q): T(P \implies Q) \simeq \left[T(P) \to T(Q)\right]$
+* $(\Omega, T)$ is weakly closed under falsehood: there is an element $\bot_\Omega:\Omega$ and an equivalence $\mathrm{canonical}_\bot: T(\bot_\Omega) \simeq \mathbb{0}$
+* $(\Omega, T)$ is weakly closed under disjunction: there is a function $(-)\vee(-):\Omega \times \Omega \to \Omega$ and an equivalence $\mathrm{canonical}_\vee(P, Q): T(P \vee Q) \simeq \left[T(P) + T(Q)\right]$
+
+These axioms imply that $(\Omega, T)$ satisfy [[propositional extensionality]] and that $\Omega$ is an [[h-set]] and a [[Heyting algebra]]. 
 
 ## Related concepts
 
@@ -29,7 +47,7 @@ Its generalization from [[propositions]] to general [[types]] is the [[type of t
 
 * [[subobject classifier]]
 
-* [[Type]]
+* [[type universe]]
 
 
 ## References
