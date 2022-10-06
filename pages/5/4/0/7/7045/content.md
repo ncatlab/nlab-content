@@ -252,12 +252,3 @@ See also
 [[!redirects hierarchy of types]]
 
 [[!redirects Type]]
-
-[[!redirects weak Tarski universe]]
-[[!redirects weak Tarski universes]]
-
-[[!redirects weakly Tarski]]
-[[!redirects weakly a la Tarski]]
-
-[[!redirects weakly Tarski universe]]
-[[!redirects weakly Tarski universes]]
