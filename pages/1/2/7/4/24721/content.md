@@ -19,7 +19,7 @@
 
 ## Idea
 
-A generalization of the [[univalence axiom]] for strict Tarski universes to any type with a type family, by way of the definitional equality $T(a \simeq_U b) \equiv T(a) \simeq T(b)$ for strict Tarski universes $(U, T)$. 
+A generalization of the [[univalence axiom]] for strict Tarski universes and [[propositional extensionality]] for strict [[types of propositions]] to any type with a type family, by way of the definitional equality $T(a \simeq_U b) \equiv T(a) \simeq T(b)$ for strict Tarski universes $(U, T)$ and the definitional equality $T(a \iff_\Omega b) \equiv T(a) \simeq T(b)$ for strict types of propositions $(\Omega, T)$. 
 
 ## Definition
 
@@ -40,7 +40,7 @@ Let $(A, B)$ be a type $A$ with a type family $B$. Then one could construct a un
 * a function 
 $\mathrm{eq}_{A'}(a, b):(B(a) \simeq B(b)) \to (f(a) =_{A'} f(b))$ for all terms $a:A$ and $b:A$. 
 
-Since every strict Tarski universe is a type $T$ with a type family $U$, this allows for every non-univalent strict Tarski universe to be made univalent. The same is true for any model of [[SEAR]] or [[ETCS with elements]]. 
+Since every strict Tarski universe is a type $T$ with a type family $U$, this allows for every non-univalent strict Tarski universe to be made univalent. The same is true for any strict [[type of propositions]]. 
 
 ## Examples
 
