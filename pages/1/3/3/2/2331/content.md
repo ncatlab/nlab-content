@@ -110,7 +110,7 @@ $$
 
 for the [[bifibration]] of [[modules]] over [[rings]]: objects of $Mod$ are pairs consisting of a ring $R$ an an $R$-[[module]] $N$, and morphism $(R_1,N_1) \to (R_2, N_2)$ are pairs consisting of a ring homomorphism $f : R_1 \to R_2$ and a morphism $F : N_1 \to N_2 \otimes_f R_2$ of $R_2$-modules.
 
-(Recall for instance from the discussion at [[Sweedler coring]]) 
+(Recall for instance from the discussion at [[Sweedler coring]] 
 that this bifibration is a way to think of the [[stack]] of algebraic [[vector bundles]].)
 
 But there is also another functor $G : Mod \to Ring$ of interest: for $N$ any $R$-module, we may form the ring $G(N) := R \oplus N$ called the **square 0-extension** of $R$, in which multiplication is given by
