@@ -2,6 +2,8 @@
 
 * [arXiv page](https://arxiv.org/a/danehkar_a_1.html)
 
+* [INSPIRE-HEP](https://inspirehep.net/authors/1048604)
+
 ## Selected writings
 
 On [[Weyl tensor]]:
