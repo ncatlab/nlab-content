@@ -56,7 +56,7 @@ For $S4$ modal logic they are furthermore [[transitive relation|transitive]].
 $S4_{(m)}\vdash \phi \Rightarrow \mathcal{S}4(m)\models \phi.$
 =--
 
-+-- {: .un_proof}
++-- {: .proof}
 ###### Proof
 
 (We show this for $m = 1$.)
