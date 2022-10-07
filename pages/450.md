@@ -94,7 +94,13 @@ This is a category version of a corresponding groupoid theorem of Brown and Higg
 
 ## References ##
 
+$n$-fold categories in general were introduced in Définition 15 of
 
+* {#Ehresmann63} [[Charles Ehresmann]], _Catégories structurées_, Annales scientifiques de l'École Normale Supérieure. Vol. 80. No. 4. Elsevier, 1963 ([EUDML:81794](https://eudml.org/doc/urn:eudml:doc:81794))
+
+as _*n*-uple categories_.
+
+Other references:
 
 * [[Ronnie Brown]] and P.J. Higgins, The equivalence of $\infty$-groupoids and crossed  complexes,  Cah. Top. G\'eom. Diff.  22 (1981) 371--386.
 
