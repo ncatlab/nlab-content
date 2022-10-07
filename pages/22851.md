@@ -34,6 +34,10 @@ A symmetric bicategory is a [[categorified]] [[dagger-category]].
 ## Examples
 
 \begin{example}
+[[Span]] is a symmetric bicategory, whose involution is given by reversing each span.
+\end{example}
+
+\begin{example}
 [[Prof]] is a closed symmetric bicategory, whose involution is induced by the [[duality involution]] on [[Cat]].
 \end{example}
 
