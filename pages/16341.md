@@ -169,6 +169,9 @@ A monoid in a bicategory $B$ may also be described as the [[hom-object]] of a $B
 
 ## References
 
+Original reference (including the case of a [[commutative monoid]] in a [[symmetric monoidal category]]):
+
+* [[Jean Bénabou]], _Algèbre élémentaire dans les catégories_ (1964), C. R. Acad. Sci. Paris **258** (1964) pp.771-774, [gallica](https://gallica.bnf.fr/ark:/12148/bpt6k40102/f817)
 
 * [[Saunders MacLane]], Section III.6 in: _[[Categories for the Working Mathematician]]_, Springer (1971) 
 
