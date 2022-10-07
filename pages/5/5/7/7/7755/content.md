@@ -43,7 +43,7 @@ Recent references include
 _The amalgamation spectrum_, J. Symbolic Logic __74__:3 (2009) 914-928, [MR2548468](http://www.ams.org/mathscinet-getitem?mr=2548468), [doi](http:/dx.doi.org/10.2178/jsl/1245158091[euclid](http://projecteuclid.org/euclid.jsl/1245158091)
 * J D Brody, _Model theory of graphs_, thesis, [pdf](http://tarski.fandm.edu/brody/mainthesis.pdf)
 
-
+category: model theory
 
 [[!redirects amalgamation]]
 [[!redirects amalgamations]]
