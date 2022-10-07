@@ -132,10 +132,10 @@ Literature references for the abstract notion of [[sesquicategory]], a structure
 
 Original articles:
 
-* {#Godement} [[Roger Godement]], *Topologie alg&#233;brique et theorie des faisceaux*, Hermann, Paris, 1958. 
+* {#Godement} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Hermann, Paris, 1958. 
  
 
-* {#Ehresmann} [[Charles Ehresmann]], *Cat&#233;gories double et cat&#233;gories structur&#233;es*, C.R. Acad. Paris 256 (1963), 1198-1201. ([ResearchGate link](https://www.researchgate.net/publication/266276121_Categories_doubles_et_categories_structurees))
+* {#Ehresmann} [[Charles Ehresmann]], *Catégories double et catégories structurées*, C.R. Acad. Paris 256 (1963), 1198-1201. ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k3208j/f1246))
 
 
 Exposition and review:
@@ -152,9 +152,6 @@ Exposition and review:
 The special case of [[strict (2,1)-categories]]:
 
 * [[Peter H. H. Fantham]], [[Eric J. Moore]], *Groupoid Enriched Categories and Homotopy Theory*, Canadian Journal of Mathematics **35** 3 (1983) 385-416 ([doi:10.4153/CJM-1983-022-8](https://doi.org/10.4153/CJM-1983-022-8))
-  
-
- 
 
 
 [[!redirects strict 2-category]]
