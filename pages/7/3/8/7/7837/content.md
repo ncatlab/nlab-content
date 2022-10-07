@@ -53,3 +53,4 @@ __114__:514–538, 1965.
 * C. Daw, A. Harris, _Categoricity of modular and Shimura curves_, J. Inst. Math. Jussieu, 16(5) (2017) 1075--1101 [doi](https://doi.org/10.1017/S1474748015000365)
 * [[Boris Zilber]], Chris Daw, _Modular curves and their pseudo-analytic cover_, [arXiv:2107.11110](https://arxiv.org/abs/2107.11110); _Canonical models of modular curves and the Galois action on CM-points_, [arXiv:2106.06387](https://arxiv.org/abs/2106.06387)
 
+category: model theory
