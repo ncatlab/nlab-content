@@ -16,7 +16,7 @@
 ## Overview
 
 For the moment, we list here only a few works in the history of mathematics: 
- some with a focus on fields particularly emphasised in the nLab, and some general. [Wikipedia](http://en.wikipedia.org/wiki/History_of_mathematics) has a nice list of general works.
+ some with a focus on fields particularly emphasised in the $n$Lab, and some general. [Wikipedia](https://en.wikipedia.org/wiki/History_of_mathematics) has a nice list of general works.
 
 
 ## Spaces, categories, topology, sheaves, topoi, cohomology, ...
@@ -37,6 +37,7 @@ d'analyse du concept d'espace topologique_, thesis, Universit&#233; de Montr&#23
 century_, Springer Undergraduate Mathematics Series
 * Dirk Jan Struik, _A concise history of mathematics_
 * [[Umberto Bottazzini]], _Il flauto di Hilbert: Storia della matematica_, UTET Universit&#224;, 473pp.; _The higher calculus: A history of real and complex analysis from Euler to Weierstrass_, Springer 1986
+* B. L. van  der  Waerden, _Geometry and algebra in ancient civilizations_, Springer 1983 [gBooks](https://books.google.hr/books?id=-pTzCAAAQBAJ)
 
 ## Wiki, collection and encyclopaedia articles
 
@@ -55,6 +56,7 @@ century_, Springer Undergraduate Mathematics Series
 * [[Čech methods]]
 * [[philosophy]]
 * lots of entries on individuals, including for some of the most influential mathematicians in history, e.g. [[Alexander Grothendieck]], [[Jacob Lurie]], [[Maxim Kontsevich]], [[Saunders MacLane]], [[Bourbaki]], [[Alfred Tarski]] etc.
+* [[list of theses in category theory]], [[list of lost manuscripts in category theory]]
 
 
 ## Other literature
