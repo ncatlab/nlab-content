@@ -462,7 +462,6 @@ Finally, full proof that all [[∞-stack]] [[(∞,1)-topos]] have [[presentable 
 
 * {#Shulman19} [[Michael Shulman]], _All $(\infty,1)$-toposes have strict univalent universes_ ([arXiv:1904.07004](https://arxiv.org/abs/1904.07004)).
 
-
 For more references see _[[homotopy type theory]]_.
 
 [[!redirects univalence]]
