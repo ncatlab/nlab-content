@@ -263,7 +263,7 @@ and $u$ is an equivalence in the vertical [[2-category]] of $A$.
 
 ## References ##
 
-The concept goes back to 
+The concept goes back to Définition 10 of
 
 * {#Ehresmann63} [[Charles Ehresmann]], _Catégories structurées_, Annales scientifiques de l'École Normale Supérieure. Vol. 80. No. 4. Elsevier, 1963 ([EUDML:81794](https://eudml.org/doc/urn:eudml:doc:81794))
 
