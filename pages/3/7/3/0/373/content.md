@@ -18,7 +18,7 @@
 ## Idea
 
 
-The notion of a _2-category_ generalizes that of [[category]]: a 2-category is a [[higher category theory|higher category]], where on top of the objects and morphisms, there are also 2-morphisms.
+The notion of a _2-category_ generalizes that of [[category]]: a 2-category is a [[higher category theory|higher category]], where on top of the objects and morphisms, there are also 2-morphisms. In old texts, strict 2-categories are occasionally called _hypercategories_.
 
 A 2-category or [[monoidal category|monoidal monoidoid]][[oidification|oid]] consists of 
 
@@ -279,6 +279,9 @@ Early texts
 
 * [[Jean Bénabou]], *Introduction to Bicategories*, Lecture Notes in Mathematics **47** Springer (1967), pp.1-77 ([doi:10.1007/BFb0074299](http://dx.doi.org/10.1007/BFb0074299))
 
+The terminology _hypercategory_ was introduced in
+
+* [[Samuel Eilenberg]], and [[Max Kelly]]. _Closed categories_. Proceedings of the Conference on Categorical Algebra. Springer, Berlin, Heidelberg, 1966.
 
 Exposition and review:
 
@@ -329,3 +332,5 @@ Discussion of weak 2-categories in the style of [[A-infinity categories]] is (us
 [[!redirects 2-categories]]
 [[!redirects weak 2-category]]
 [[!redirects weak 2-categories]]
+[[!redirects hypercategory]]
+[[!redirects hypercategories]]
