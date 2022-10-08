@@ -97,6 +97,8 @@ Since Agda has many experimental features under active development, bugs in thes
 
 ## Related concepts
 
+* [[1lab]]
+
 [[!include proof assistants and formalization projects -- list]]
 
 ## References
