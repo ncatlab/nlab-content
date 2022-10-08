@@ -102,10 +102,45 @@ The **Homotopy Type Theory Electronic Seminar Talks**, abbreviated as HoTTEST, i
 
 ### Spring 2021
 
+* [[Thierry Coquand]], *Sheaf models and constructive mathematics*, 28 January 2021 ([video](https://www.youtube.com/watch?v=_H-CD4B8pLQ), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Coquand-2021-01-28-HoTTEST.pdf))
+
+* [[Norihiro Yamada]], *Game semantics of homotopy type theory*, 11 February 2021 ([video](https://www.youtube.com/watch?v=uY5LubwJ1Xo), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Yamada-2021-02-11-HoTTEST.pdf))
+
+* [[Carlo Angiuli]], *Internalizing Representation Independence with Univalence*, 25 February 2021 ([video](https://www.youtube.com/watch?v=e3wGUuAxfG8), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Angiuli-2021-02-25-HoTTEST.pdf))
+
+* [[Andrea Vezzosi]], *Cubical Agda and its Extensions*, 11 March 2021 ([video](https://www.youtube.com/watch?v=9RFt1Q2pHE8), [Agda files](https://github.com/Saizan/hottest-talk))
+
+* [[Håkon Robbestad Gylterud]], *Defining and relating theories*, 25 March 2021 ([video](https://www.youtube.com/watch?v=8aTDEn2D2pA), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Gylterud-2021-03-25-HoTTEST.pdf))
+
+* [[Egbert Rijke]], *A higher encode decode method*, 8 April 2021 ([video](https://www.youtube.com/watch?v=KvHGds-AL8M), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Rijke-2021-04-08-HoTTEST.pdf))
+
+* [[Ulrik Buchholtz]], *(Co)cartesian families in simplicial type theory*, 22 April 2021 ([video](https://www.youtube.com/watch?v=TOGx2F-MLi0), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Buchholtz-2021-04-22-HoTTEST.pdf))
+
 ### Autumn 2021
+
+* [[Rafaël Bocquet]], *Coherence of definitional equality in type theory*, 23 September 2021 ([video](https://www.youtube.com/watch?v=WKCxBygnYqE), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Bocquet-2021-09-23-HoTTEST.pdf))
+
+* [[Matthieu Sozeau]], *The MetaCoq Project*, 7 October 2021 ([video](https://www.youtube.com/watch?v=azlhMVH1f98), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Sozeau-2021-10-07-HoTTEST.pdf))
+
+* [[Hugo Moeneclaey]], *Parametricity and cubes*, 21 October 2021 ([video](https://www.youtube.com/watch?v=79Ik6KkoZ-w), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Moeneclaey-2021-10-21-HoTTEST.pdf))
+
+* [[Kristina Sojakova]], *Syllepsis in Homotopy Type Theory*, 4 November 2021 ([video](https://www.youtube.com/watch?v=k07gFYzYvng), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Sojakova-2021-11-04-HoTTEST.pdf))
+
+* [[Raffael Stenzel]], *Higher sites and their higher categorical logic*, 18 November 2021 ([video](https://www.youtube.com/watch?v=hUJlK8XgZxQ), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Stenzel-2021-11-18-HoTTEST.pdf))
+
+* [[Taichi Uemura]], *Infinity-type theories and internal language conjectures*, 2 December 2021 ([video](https://www.youtube.com/watch?v=DY42DgCxQls), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Uemura-2021-12-02-HoTTEST.pdf))
 
 ### Spring 2022
 
+* [[Jonas Frey]], *Characterizing clan-algebraic categories*, 3 February 2022 ([video](https://www.youtube.com/watch?v=0SAQSx0vPmU), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Frey-2022-02-03-HoTTEST.pdf))
+
+* [[Marcelo Fiore]], *Mathematical and Computational Metatheory of Second-Order Algebraic Theories*, 17 February 2022 ([video](https://www.youtube.com/watch?v=nP2J9SJ9DVM), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Fiore-2022-02-17-HoTTEST.pdf))
+
+* [[Fredrik Nordvall Forsberg]], *Different Notions of Ordinals in Homotopy Type Theory*, 3 March 2022 ([video](https://www.youtube.com/watch?v=8_3tLrrfrLY), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Forsberg-2022-03-03-HoTTEST.pdf))
+
+* [[Chaitanya Leena Subramaniam]], *Dependently typed algebraic theories and their homotopy algebras*, 17 March 2022 ([video](https://www.youtube.com/watch?v=NAT02hbwOUs), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Subramaniam-2022-03-17-HoTTEST.pdf))
+
+* [[Assia Mahboubi]], *Continuity in dependent type theory*, 31 March 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Mahboubi-2022-03-31-HoTTEST.pdf))
 
 ### Autumn 2022
 
