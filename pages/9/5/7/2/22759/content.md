@@ -220,12 +220,12 @@ From Altenkirch and Kaposi 2017
 
 * [[Univalent Foundations Project]], section 11 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013)
 
-* {#ADK2017} [[Thorsten Altenkirch]], [[Nils Anders Danielsson]], [[Nicolai Kraus]], _Partiality, Revisited: The Partiality Monad as a Quotient Inductive-Inductive Type_, FoSSaCS 2017, Lecture Notes in Computer Science **10203** Springer (2017) &lbrack;[arXiv:1610.09254](https://arxiv.org/abs/1610.09254)&rbrack; 
+* {#ADK2017} [[Thorsten Altenkirch]], [[Nils Anders Danielsson]], [[Nicolai Kraus]], *Partiality, Revisited: The Partiality Monad as a Quotient Inductive-Inductive Type*, FoSSaCS 2017, Lecture Notes in Computer Science **10203** Springer (2017) &lbrack;[arXiv:1610.09254](https://arxiv.org/abs/1610.09254)&rbrack; 
 
-* Thorsten Altenkirch, Paolo Capriotti, Gabe Dijkstra, Fredrik Nordvall Forsberg, _Quotient inductive-inductive types_, [arXiv](https://arxiv.org/abs/1612.02346), 2016
+* [[Thorsten Altenkirch]], [[Paolo Capriotti]], [[Gabe Dijkstra]], [[Fredrik Nordvall Forsberg]], *Quotient inductive-inductive types*, [arXiv](https://arxiv.org/abs/1612.02346), 2016
 
-* Thorsten Altenkirch, Ambrus Kaposi, _Type Theory in Type Theory using Quotient Inductive Types_, POPL17, 2017 [PDF](http://www.cs.nott.ac.uk/~psztxa/publ/tt-in-tt.pdf)
+* [[Thorsten Altenkirch]], [[Ambrus Kaposi]], *Type Theory in Type Theory using Quotient Inductive Types*, POPL17, 2017 [PDF](http://www.cs.nott.ac.uk/~psztxa/publ/tt-in-tt.pdf)
 
-* Thorsten Altenkirch, Luis Scoccola, _The Integers as a Higher Inductive Type_, [arXiv](https://arxiv.org/abs/2007.00167)
+* [[Thorsten Altenkirch]], [[Luis Scoccola]], *The Integers as a Higher Inductive Type*, [arXiv](https://arxiv.org/abs/2007.00167)
 
 [[!redirects quotient inductive types]]
