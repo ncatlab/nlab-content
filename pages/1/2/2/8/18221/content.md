@@ -204,7 +204,7 @@ For univalent categories on the [[1lab]]:
 
 A talk on univalent category theory delivered at the [[Homotopy Type Theory Electronic Seminar Talks]]
 
-* Amélia Liao, *Univalent Category Theory*, 6 October 2022, ([video](https://www.youtube.com/watch?v=asY6dXkR2yg))
+* [[Amélia Liao]], *Univalent Category Theory*, [[Homotopy Type Theory Electronic Seminar Talks]], 6 October 2022, ([video](https://www.youtube.com/watch?v=asY6dXkR2yg))
 
 ### By coinduction
   {#ReferencesCoinduction}
