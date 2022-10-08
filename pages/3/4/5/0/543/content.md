@@ -30,7 +30,8 @@ The "A" is for Associative and the "${}_\infty$" indicates that associativity is
 
 In the most widespread use of the word $A_\infty$-categories are _linear_ categories in that they have [[hom-object]]s that are [[chain complex]]es. These are really models/presentations for [[stable (∞,1)-category|stable (∞,1)-categories]].
 
-If the composition in the linear $A_\infty$-category does happen to be strictly associative it becomes the same as a [[dg-category]]. In fact, every linear $A_\infty$-category is $A_\infty$-equivalent to a [[dg-category]]. In this way, we have that $A_\infty$-categories related to [[dg-category|dg-categories]] as models for [[stable (∞,1)-category|stable (∞,1)-categories]] in roughly the same way as [[quasi-category|quasi-categories]] relate to [[simplicially enriched category|simplicially enriched categories]] as models for [[(∞,1)-category|(∞,1)-categories]]: the former is the general incarnation, while the latter is a [[semi-strict infinity-category|semi-strictified]] version.
+If higher coherences in a linear $A_\infty$-category happen to be equal to identity morphisms
+(which is encoded by the vanishing of the maps $m_n$ for $n\ge3$, defined below), it becomes the same as a [[dg-category]]. In fact, every linear $A_\infty$-category is $A_\infty$-equivalent to a [[dg-category]]. In this way, we have that $A_\infty$-categories related to [[dg-category|dg-categories]] as models for [[stable (∞,1)-category|stable (∞,1)-categories]] in roughly the same way as [[quasi-category|quasi-categories]] relate to [[simplicially enriched category|simplicially enriched categories]] as models for [[(∞,1)-category|(∞,1)-categories]]: the former is the general incarnation, while the latter is a [[semi-strict infinity-category|semi-strictified]] version.
 
 
 
