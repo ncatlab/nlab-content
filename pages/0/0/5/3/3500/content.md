@@ -12,7 +12,7 @@ One of the series of Grothendieck's works is [[FGA]] (see entry [[EGA]] for over
 
 * [[Barbara Fantechi]], [[Lothar Göttsche]], *Local properties and Hilbert schemes of points* (139--178) MR2223408; (draft [pdf](http://cdsagenda5.ictp.it//askArchive.php?categ=a0255&id=a0255s7t5&ifd=13843&down=1&type=lecture_notes))
 
-* [[Luc Illusie]], *[[Grothendieck's existence theorem]] in formal geometry* (179--233) MR2223409; (draft version [pdf](http://cdsagenda5.ictp.it//askArchive.php?categ=a0255&id=a0255s3t3&ifd=15021&down=1&type=lecture_notes))
+* [[Luc Illusie]], *[[Grothendieck's existence theorem]] in formal geometry* (179--233) MR2223409; (draft version [pdf](https://indico.ictp.it/event/a0255/session/28/contribution/17/material/0/0.pdf))
 
 * [[Steven Kleiman|Steven L. Kleiman]], *The Picard scheme* (235--321) MR2223410 (draft [pdf](http://cdsagenda5.ictp.it//askArchive.php?categ=a0255&id=a0255s6t3&ifd=15022&down=1&type=lecture_notes))
 
