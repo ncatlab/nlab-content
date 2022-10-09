@@ -50,6 +50,8 @@ Also related:
 
 * [[Burali-Forti's paradox]]
 
+* [[Curry's paradox]]
+
 
 ## Resolutions
  {#Resolutions}
