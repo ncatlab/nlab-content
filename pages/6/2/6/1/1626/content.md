@@ -72,7 +72,7 @@ A [[topological space]] $(X, \tau)$ is _connected_ if the following equivalent c
 +-- {: .num_remark #ConnectedEmptySpace}
 ###### Remark
 
-According to def. \ref{ConnectedSpace} the [[empty topological space]] is not regarded as connected. Some authors do want the empty space to count as a connected space. This means to change in the first item of def. \ref{ConnectedSpace} the "exactly one" to "at least one" and in the second item "if and only if" to "if".
+According to def. \ref{ConnectedSpace} the [[empty topological space]] is not regarded as connected. Some authors do want the empty space to count as a connected space. This means to change in the two first items of def. \ref{ConnectedSpace} the "exactly one" to "at least one" and in the third item "if and only if" to "if".
 
 =--
 
