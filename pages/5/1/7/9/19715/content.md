@@ -31,14 +31,14 @@ There is a separate axiom for a hierarchy of universes, which states that all un
 
 Let $(U, T)$ be a [[weakly Tarski universe]] and let
 $$\sum_{A:U} \mathrm{isProp}(T(A))$$ 
-be the type of all propositions in $U$. The weakly Tarski universe $(U, T)$ is **impredicative** or satisfies **propositional resizing** if it has a term $\Omega:U$ and an equivalence 
-$$\mathrm{propresize}:T(\Omega) \simeq \sum_{A:U} \mathrm{isProp}(T(A))$$
+be the type of all propositions in $U$. The weakly Tarski universe $(U, T)$ is **impredicative** or satisfies **propositional resizing** if it has a term $\Omega_U:U$ and an equivalence 
+$$\mathrm{propresize}:T(\Omega_U) \simeq \sum_{A:U} \mathrm{isProp}(T(A))$$
 
 A weakly Tarski universe is **strictly impredicative** or satisfies **strict propositional resizing** if the above equivalence becomes a [[definitional equality]]:
 
-$$T(\Omega) \equiv \sum_{A:U} \mathrm{isProp}(T(A))$$
+$$T(\Omega_U) \equiv \sum_{A:U} \mathrm{isProp}(T(A))$$
 
-In particular, every impredicative [[strictly Tarski universe]] is strictly impredicative
+In particular, every impredicative [[strictly Tarski universe]] is strictly impredicative. 
 
 ### For a universe hierarchy
  
@@ -76,3 +76,5 @@ The axiom of **proposition resizing** states that this map is an [[equivalence]]
 [[!redirects strictly impredicative universes]]
 [[!redirects strictly impredicative Tarski universe]]
 [[!redirects strictly impredicative Tarski universes]]
+
+[[!redirects axiom of propositional resizing]]
