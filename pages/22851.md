@@ -17,7 +17,7 @@
 ## Definition
 
 \begin{definition}
-A **symmetric bicategory** ([May & Sigurdsson 2006, Def. 16.2.1](#MaySigurdsson06)) is a [[bicategory]] $B$ equipped with a bijective-on-objects [[equivalence of 2-categories|biequivalence]] $t \colon B \simeq B^{op}$ to its [[opposite 2-category]].
+A **symmetric bicategory** ([May & Sigurdsson 2006, Def. 16.2.1](#MaySigurdsson06)) is a [[bicategory]] $B$ equipped with a [[bijective-on-objects]] [[equivalence of 2-categories|biequivalence]] $t \colon B \simeq B^{op}$ to its [[opposite 2-category]].
 
 A **closed symmetric bicategory** is a symmetric bicategory that is [[closed bicategory|closed]] ([May & Sigurdsson 2006, Def. 16.3.1](#MaySigurdsson06)).
 \end{definition}
