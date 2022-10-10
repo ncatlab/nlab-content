@@ -22,6 +22,10 @@ A list of publication is kept here:
 
 * [github.com/michaelt/martin-lof](https://github.com/michaelt/martin-lof)
 
+Transcripts of a number of lectures of a philosophical nature is kept here:
+
+* [Transcriptions](https://pml.flu.cas.cz/)
+
 ## Related entries
 
 * [[type theory]]
