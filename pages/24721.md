@@ -36,7 +36,7 @@ From a global perspective, however, all of these types should be considered Tars
 
 ## Definition
 
-A **Tarski universe** is simply a type $U$ with a type family $T$ whose dependent types $T(A)$ are indexed by terms $A:U$. The terms $A:U$ are usually called **$U$-small types**, or **small types** for short. This is already enough to build an internal model of dependent type theory inside the Tarski universe:
+A **Tarski universe** or **universe à la Tarski** is simply a type $U$ with a type family $T$ whose dependent types $T(A)$ are indexed by terms $A:U$. The terms $A:U$ are usually called **$U$-small types**, or **small types** for short. This is already enough to build an internal model of dependent type theory inside the Tarski universe:
 
 * The type $A \; \mathrm{type}$ is represented by the small type $A:U$
 * The term $a:A$ is represented by the term $a:T(A)$ for small type $A:U$. 
