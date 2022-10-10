@@ -51,7 +51,7 @@ $$\prod_{A:U} \prod_{B:U} \mathrm{isEquiv}(\mathrm{transport}^T(A, B))$$
 
 This is the extensionality principle for any Tarski universe $(U, T)$. 
 
-When the Tarski universe is closed under [[identity types]], [[dependent sum types]], and [[dependent product types]] (see below for more on closure of Tarski universes under type formers), one is able to internalize the [[type of equivalences]] in the universe as $A \simeq_U B$. It can be proven that $T(A \simeq_U B)$ is equivalent to $T(A) \simeq T(B)$, and that the definition of univalence using transport is equivalent to the usual definition given by the internal [[type of equivalences]] and the canonical function $\mathrm{idtoequiv}$. See at [Univalence axiom#For Tarski universes](https://ncatlab.org/nlab/show/univalence+axiom#for_tarski_universes) for more details on this.  
+When the Tarski universe is closed under [[identity types]], [[dependent sum types]], and [[dependent product types]] (see below for more on closure of Tarski universes under type formers), one is able to internalize the [[type of equivalences]] in the universe as $A \simeq_U B$. It can be proven that $T(A \simeq_U B)$ is equivalent to $T(A) \simeq T(B)$, and that the definition of univalence using transport is equivalent to the usual definition given by the internal [[type of equivalences]] and the canonical function $\mathrm{idtoequiv}$. See at [Univalence axiom#For Tarski universes](https://ncatlab.org/nlab/show/univalence+axiom#for_tarski_universes) for more details on this. 
 
 ## Construction of univalent Tarski universes via a higher inductive type
 
@@ -61,6 +61,18 @@ Let $(U, T)$ be a Tarski universe. Then one could construct a univalent Tarski u
 * a function $G(A):T(A) \to T'(A)$ for all terms $a:U$
 * a dependent function 
 $$\mathrm{ua}_{U'}:\prod_{A:U} \prod_{B:U} \mathrm{isEquiv}(\mathrm{transport}^{T'}(A, B))$$ 
+
+## Hierarchy of type universes
+
+Let $P$ be a [[preorder]]. Then, a $P$-indexed hierarchy of Tarski universes is a type family $U$ such that for all indices $a:P$, there is a Tarski universe $(U(a), T(a))$, and a dependent function 
+$$\mathrm{el}:\prod_{a:P} \prod_{b:P} (a \leq b) \times (U(a) \to U(b))$$
+and a dependent function
+$$p:\prod_{a:P} \prod_{b:P} (a \leq b) \times \mathrm{isEmbedding}(\mathrm{el}(a, b))$$
+indicating that $\mathrm{el}(a, b)$ is an [[embedding]] for all indices $a:P$ and $b:P$ such that $a \leq b$, and a dependent function
+$$q:\prod_{a:P} \prod_{b:P} (a \leq b) \times \prod_{c:U(A)} T(a)(c) \simeq T(b)(\mathrm{el}(a, b)(c))$$
+indicating that lifting each small type results in a type equivalent to the original small type. 
+
+Usually, hierarchy of Tarski universes are indexed by the type of [[natural numbers]]. A type theory may have multiple hierarchies of type universes. 
 
 ## Closure of Tarski universes under type formers
 
