@@ -159,3 +159,6 @@ The **Homotopy Type Theory Electronic Seminar Talks**, abbreviated as HoTTEST, i
 * [Youtube channel](https://www.youtube.com/user/jdchristensen123)
 
 * [Discord server](https://discord.gg/tkhJ9zCGs9)
+
+category: reference
+
