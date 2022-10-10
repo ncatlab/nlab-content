@@ -1,8 +1,6 @@
 ## Idea
 
-[…]
-
-A type of [[limit]] in a [[double category]].
+A tabulator is a kind of [[limit]] in a double category generalizes the notion of the [[graph of a profunctor]]. Dually, a cotabulator generalizes the [[cograph of a profunctor]].
 
 ## Definition
 
