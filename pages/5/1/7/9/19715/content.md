@@ -25,7 +25,7 @@ There is a separate axiom of propositional resizing for a hierarchy of universes
 
 Propositional resizing is a form of [[impredicativity]] for h-propositions, and by avoiding its use, the universe or hierarchy is said to remain predicative.
 
-However, when using Tarski universes, while universes and universe hierarchies may be impredicative, the overarching type theory is still predicative. 
+However, when using Tarski universes, while universes and universe hierarchies may be impredicative, the overarching type theory is still predicative if it has a judgment '$A \; \mathrm{type}$', since it is impossible to talk about all types. 
 
 ## Definition
 
@@ -52,7 +52,7 @@ which is the restriction of the above function to small propositions of the univ
 
 The axiom of **proposition resizing** states that for all terms $a:P$, $b:P$, and $q:a \leq b$ the embedding $t_\Omega(a, b)(q)$ is an [[equivalence of types]] 
 $$\mathrm{propresize}:\prod_{a:P} \prod_{b:P} \prod_{q:a \leq b} \mathrm{isEquiv}(t_\Omega(a, b)(q))$$
-Any h-proposition in the larger universe $U(a)$ may be *resized* to an equivalent h-proposition in the smaller universe $U(b)$. The universe hierarchy is then said to be **impredicative**. 
+The type of all h-propositions in the larger universe $U(a)$ may be *resized* to be equivalent to the type of all h-proposition in the smaller universe $U(b)$. The universe hierarchy is then said to be **impredicative**. 
 
 Usually, the hierarchy of Tarski universes is a sequential hierarchy indexed by the [[natural numbers]] $\mathrm{N}$. 
 
