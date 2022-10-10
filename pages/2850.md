@@ -23,7 +23,7 @@
 
 Riemannian geometry studies [[smooth manifold]]s that are equipped with a [[Riemannian metric]]: [[Riemannian manifolds]].
 
-Riemannian geometry is hence equivalently the [[Cartan geometry]] for inclusions o the [[orthogonal group]] into the [[Euclidean group]].
+Riemannian geometry is hence equivalently the [[Cartan geometry]] for inclusions of the [[orthogonal group]] into the [[Euclidean group]].
 
 
 ## Related concepts
