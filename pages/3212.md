@@ -31,6 +31,10 @@ On [[polynomial functors]]:
 
 * [[David Spivak]], _Poly: An abundant categorical setting for mode-dependent dynamics_, ([arXiv:2005.01894](https://arxiv.org/abs/2005.01894)) 
 
+On [[type theory|type theoretical]] [[databases]]:
+
+* [[Henrik Forssell]], [[Håkon Robbestad Gylterud]], [[David Spivak]], *Type theoretical databases*, Journal of Logic and Computation, Volume 30, Issue 1, January 2020, Pages 217–238, ([doi:10.1093/logcom/exaa009](https://doi.org/10.1093/logcom/exaa009), [arXiv:1406.6268](https://arxiv.org/abs/1406.6268))
+
 ## Related $n$Lab entries
 
 * [[derived smooth manifold]]
