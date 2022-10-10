@@ -200,6 +200,8 @@ Further references:
 * Tom Braden, Carl Mautner, _Matroidal Schur algebras_, [arxiv/1609.04507](http://arxiv.org/abs/1609.04507)
 * P. S. Kung, _A Source Book in Matroid Theory_, Birkh&#228;user, Boston, 1986.
 
+category: combinatorics, model theory
+
 [[!redirects matroids]] 
 [[!redirects pregeometry]]
 [[!redirects pregeometries]]
