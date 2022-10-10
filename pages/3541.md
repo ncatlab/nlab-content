@@ -29,7 +29,7 @@ $$
 
 * it preserves the [[trace]] of matrices;
 
-* takes hermitian matrices with non-negative eigenvalues to hermitian matrices with non-negative eigenvalues.
+* takes [[hermitian matrices]] with non-negative [[eigenvalues]] to hermitian matrices with non-negative eigenvalues.
 
 Such a map is then called a _quantum operation_. The notion of a quantum operation is built from the [[Stinespring factorization theorem]].
 
@@ -50,7 +50,7 @@ Then we consider the general abstract formulation
 
 Let $k,n \in \mathbb{N}$.
 
-A matrix $A \in Mat(n \times n, \mathbb{C})$ is called _positive_ if it is hermitian -- if $A^\dagger = A$ -- and if all its eigenvalues (which then are necessarily real) are non-negative.
+A matrix $A \in Mat(n \times n, \mathbb{C})$ is called _[[positive semidefinite|positive]]_ if it is hermitian -- if $A^\dagger = A$ -- and if all its eigenvalues (which then are necessarily real) are non-negative.
 
 A linear map (morphism of [[vector space]]s of matrices)
 
