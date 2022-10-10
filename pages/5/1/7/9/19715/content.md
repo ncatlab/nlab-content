@@ -13,17 +13,19 @@
 =--
 =--
 
-
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-In [[homotopy type theory]], the type of [[h-propositions]] of a [[Tarski universe]] (or [[Russell universe]]) $U$ is not in general $U$-small. Propositional resizing is then the statement that the type of h-propositions is $U$-small. Propositional resizing is a form of [[impredicativity]] for h-propositions, and by avoiding its use, the universe is said to remain predicative.
+In [[homotopy type theory]], the type of [[h-propositions]] of a [[Tarski universe]] (or [[Russell universe]]) $U$ is not in general $U$-small. Propositional resizing is then the statement that the type of h-propositions is $U$-small. 
 
-There is a separate axiom for a hierarchy of universes, which states that all universes in the hierarchy satisfy propositional resizing. 
+There is a separate axiom of propositional resizing for a hierarchy of universes, where the type of h-propositions of each universe, where one universe embeds into the other universe, are equivalent to each other. 
+
+Propositional resizing is a form of [[impredicativity]] for h-propositions, and by avoiding its use, the universe or hierarchy is said to remain predicative.
+
+However, when using Tarski universes, while universes and universe hierarchies may be impredicative, the overarching type theory is still predicative. 
 
 ## Definition
 
@@ -41,14 +43,18 @@ $$T(\Omega_U) \equiv \sum_{A:U} \mathrm{isProp}(T(A))$$
 In particular, every impredicative [[strictly Tarski universe]] is strictly impredicative. 
 
 ### For a universe hierarchy
- 
-For universes, $\mathcal{U}_i$ and $\mathcal{U}_{i+1}$, we have that $A: \mathcal{U}_i$ entails $A:\mathcal{U}_{i+1}$. We thus have a natural map
 
-$$
-Prop_{\mathcal{U}_i} \to Prop_{\mathcal{U}_{i+1}}.
-$$
+Let $(P, U, T. t)$ be a hierarchy of weakly Tarski universes. By definition, $P$ is a [[preorder]] and there is a function
+$$t:\prod_{a:P} \prod_{b:P} (a \leq b) \to (U(a) \hookrightarrow U(b))$$
+which states that for all terms $a:P$ and $b:P$ $a \leq b$ implies the type of embeddings $U(a) \hookrightarrow U(b)$ is pointed. We thus have a natural map
+$$t_\Omega:\prod_{a:P} \prod_{b:P} (a \leq b) \to \left(\sum_{A:U(a)} \mathrm{isProp}(T(a)(A)) \hookrightarrow \sum_{A:U(b)} \mathrm{isProp}(T(b)(A))\right)$$
+which is the restriction of the above function to small propositions of the universe. 
 
-The axiom of **proposition resizing** states that this map is an [[equivalence]]. Any mere proposition in the larger universe may be *resized* to an equivalent mere proposition in the smaller universe.
+The axiom of **proposition resizing** states that for all terms $a:P$, $b:P$, and $q:a \leq b$ the embedding $t_\Omega(a, b)(q)$ is an [[equivalence of types]] 
+$$\mathrm{propresize}:\prod_{a:P} \prod_{b:P} \prod_{q:a \leq b} \mathrm{isEquiv}(t_\Omega(a, b)(q))$$
+Any h-proposition in the larger universe $U(a)$ may be *resized* to an equivalent h-proposition in the smaller universe $U(b)$. The universe hierarchy is then said to be **impredicative**. 
+
+Usually, the hierarchy of Tarski universes is a sequential hierarchy indexed by the [[natural numbers]] $\mathrm{N}$. 
 
 ## See also
 
