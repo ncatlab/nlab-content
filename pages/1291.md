@@ -30,8 +30,10 @@ where $N$ is an object in $S$ and $P$ is an object in $T$.
 
 In the case of the abelian category of modules over a ring, the Gabriel multiplication is sometimes expressed as [[Gabriel composition of filters]] of ideals, rather than in terms of abelian subcategories.
 
+An analogous notion in the triangulated setup is the [[Verdier product]].
 
 ## Properties
 
 When restricted to the class of [[topologizing subcategory|topologizing subcategories]], Gabriel multiplication is [[associativity|associative]]; if $A$ is [[small category|small]] then the topologizing subcategories make a [[semiring]] with respect to the commutative operation $\cap$ and Gabriel multiplication; in particular $\bullet$ is left and right distributive with respect to intersection of topologizing subcategories.  
 
+category: algebra
