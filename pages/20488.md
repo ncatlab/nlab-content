@@ -70,7 +70,7 @@ On [[type theory]] for [[verified programming|verified]] cryptography:
 
 * Cédric Fournet, Karthikeyan Bhargavan, Andrew D. Gordon, *Cryptographic Verification by Typing for a Sample Protocol Implementation*, In: Aldini A., Gorrieri R. (eds) Foundations of Security Analysis and Design VI. FOSAD 2011. Lecture Notes in Computer Science, vol 6858. Springer (2011) ([doi:10.1007/978-3-642-23082-0_3]( https://doi.org/10.1007/978-3-642-23082-0_3))
 
-* Cédric Fournet, Markulf Kohlweiss, Pierre-Yves Strub, *Modular code-based cryptographic verification*, CCS '11: Proceedings of the 18th ACM conference on Computer and communications securityOctober 2011 Pages 341–350 ([doi:10.1145/2046707.2046746](https://doi.org/10.1145/2046707.2046746))
+* Cédric Fournet, Markulf Kohlweiss, [[Pierre-Yves Strub]], *Modular code-based cryptographic verification*, CCS '11: Proceedings of the 18th ACM conference on Computer and communications securityOctober 2011 Pages 341–350 ([doi:10.1145/2046707.2046746](https://doi.org/10.1145/2046707.2046746))
 
 
 On [[homotopy type theory]] for [[verified programming|verified]] cryptography:
