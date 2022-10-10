@@ -21,7 +21,7 @@
 ###### Definition
 **(finer/coarser topologies)**
 
-Let $X$ be a [[set]], and let $\tau_1, \tau_2 \in P(X)$ be two [[topological space|topologies]] on $X$,
+Let $X$ be a [[set]], and let $\tau_1, \tau_2 \subset P(X)$ be two [[topological space|topologies]] on $X$,
 hence two choices of [[open subsets]] for $X$, making it a [[topological space]]. If
 
 $$
