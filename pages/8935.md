@@ -22,7 +22,7 @@ Heuristically, the axiom asserts that each [[term]] of each [[identity type]] $x
 
 ## Statement
 
-There are multiple notions of axiom K: for individual types, for type families and Tarski universes, and for the entire type theory itself. 
+There are multiple notions of axiom K: for individual types, for type families and Tarski universes, and for the type theory itself. 
 
 ### For individual types
 
@@ -41,7 +41,7 @@ This definition of axiom K could be used in the definition of [[family of sets]]
 
 Since every Tarski universe consists of a type $U$ of encodings and a type family $T$ representing the actual small types indexed by the type $U$, with addition structure representing the closure of $U$ under all type formers, the familial axiom K definition works for Tarski universes as well, and this could equivalently be called the **Tarski universe axiom K**. 
 
-### For the entire type theory
+### For the type theory
 
 In the same manner that [[uniqueness of identity proofs]] could be expressed as a rule instead of an [[axiom]], Axiom K could also be rewritten as a rule instead of an axiom, by making the hypotheses of the axioms into premises of the rule. This makes axiom K applicable not only to universes, but to the entire type theory. In this manner, axiom K then becomes the rule
 
