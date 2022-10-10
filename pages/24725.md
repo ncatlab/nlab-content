@@ -16,7 +16,7 @@
 
 ## Idea
 
-The **1lab** is an online reference primarily for [[category theory]], but also includes some other mathematics, done in [[univalent type theory|univalent]] [[cubical type theory]] implemented in [[Agda]]. 
+The **1lab** is an online reference maintained by [[Amélia Liao]] primarily for [[category theory]] done in [[univalent type theory|univalent]] [[cubical type theory]] implemented in [[Agda]]. 
 
 ## External links
 
