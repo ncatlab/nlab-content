@@ -235,6 +235,10 @@ Volume 41, 1985, Pages 95-104 [doi:10.1016/0304-3975(85)90062-3](https://doi.org
 [[!redirects semi-category]]
 [[!redirects semi-categories]]
 
+[[!redirects nonunital category]]
+[[!redirects nonunital categories]]
+[[!redirects non-unital category]]
+[[!redirects non-unital categories]]
 
 [[!redirects category without units]]
 [[!redirects categories without units]]
