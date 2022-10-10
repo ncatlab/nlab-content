@@ -61,10 +61,11 @@ Semantically, this distinction corresponds to whether the natural numbers object
 
 Since the definition of semisimplicial types requires an inductive definition of a (non-fibrant) exact equality, if there are two nats then it must use the non-fibrant one.  This means that, without additional rules, a two-level type theory with two nats cannot define a *fibrant* type of *untruncated* semisimplicial types: for each non-fibrant $n$ it can define a fibrant type of $n$-truncated semisimplicial types, but the limit of these types over the *non-fibrant* nat is no longer fibrant.  Assuming only one nat is sufficient to solve this problem, but as mentioned above this may exclude desirable models.  Another weaker axiom, which *is* satisfied in all sufficiently nice model categories, is that fibrant types are closed under limits of towers of fibrations indexed by the non-fibrant nat.  (In two-level type theory terminology, this is a strengthening of the assumption that the non-fibrant nat is "cofibrant".)
 
+## See also
 
-##References
+* [[Homotopy Type System]]
 
-* [[homotopytypetheory:HomePage|Homotopy Type Theory Wiki]], _[[homotopytypetheory:Homotopy Type System]]_
+## References
 
 * Thorsten Altenkirch, Paolo Capriotti, Nicolai Kraus, _Extending Homotopy Type Theory with Strict Equality_, ([ arXiv:1604.03799](https://arxiv.org/abs/1604.03799))
 
