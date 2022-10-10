@@ -107,27 +107,6 @@ Since each type former is independent of each other, one could also have mixed v
 
 Universes defined internally via [[induction-recursion]] are stricty Tarski. Weakly Tarski universes are easier to obtain in [[semantics]] (see [below](#CategoricalSemantics)): they are somewhat more annoying to use, but probably suffice for most purposes. In [[objective type theory]], there is no [[definitional equality]], so every Tarski universe is weakly Tarski. 
 
-## Hierarchy of type universes
-
-Let $P$ be a [[preorder]]. Then, a $P$-indexed hierarchy of Russell universes is a hypothetical judgment
-
-$$a:P, b:P, a \leq b \vdash U(a) : U(b)$$
-
-and a $P$-indexed hierarchy of Tarski universes is
-
-$$\frac{P\; type \quad a:P, b:P \vdash a \leq b\; type \quad a:P, b:P \vdash p:
-\prod_{x:a \leq b} \prod_{y:a \leq b} x = y}{a:P \vdash U(a)\; type}$$
-$$\frac{P\; type \quad a:P, b:P \vdash a \leq b\; type \quad a:P, b:P \vdash p:
-\prod_{x:a \leq b} \prod_{y:a \leq b} x = y}{U^{'}(a) : U(b)}$$
-$$\frac{P\; type \quad a:P, b:P \vdash a \leq b\; type \quad a:P, b:P \vdash p:
-\prod_{x:a \leq b} \prod_{y:a \leq b} x = y}{El_{b}(U^{'}(a)) \equiv U(a)}$$
-$$\frac{P\; type \quad a:P, b:P \vdash a \leq b\; type \quad a:P, b:P \vdash p:
-\prod_{x:a \leq b} \prod_{y:a \leq b} x = y}{El_{a,b}:U(a) \to U(b)}$$
-$$\frac{P\; type \quad a:P, b:P \vdash a \leq b\; type \quad a:P, b:P \vdash p:
-\prod_{x:a \leq b} \prod_{y:a \leq b} x = y}{p:is1Monic(El_{a,b})}$$
-
-A type theory may have multiple type universes. 
-
 ## Properties
 
 ### Universe enlargement
