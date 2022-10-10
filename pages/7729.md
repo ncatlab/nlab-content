@@ -100,8 +100,9 @@ Characterizations of [[categories]] of model-theoretic structures  and [[homomor
 Online discussion includes
 
 * {#MathSEDisc} Math.SE _[Topological spaces as model-theoretic structures &#8212; definitions?](http://math.stackexchange.com/questions/97856/topological-spaces-as-model-theoretic-structures-definitions)_
-[[!redirects structures in model theory]]
 
+category: model theory
+[[!redirects structures in model theory]]
 [[!redirects first-order structure]]
 [[!redirects structure (in model theory)]]
 [[!redirects structures (in model theory)]]
