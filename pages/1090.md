@@ -56,9 +56,9 @@ Quillen introduced exact categories in above sense in the article
 [[Alexander Rosenberg]] <a href="http://www.mpim-bonn.mpg.de/preprints/send?bid=3623">introduced</a> one sided generalizations of Quillen exact categories: right 'exact' categories involving deflations, and left 'exact' categories involving inflations. One of the motivations an alternative definition of higher K-theory of (right exact) categories not involving spectra. In this setup the K-theory is an example of a derived functor in nonabelian homological algebra utilizing roughly the left 'exact' structure on the category of essentially small right 'exact' categories. It is not known if this K-theory when restricted to the category of essentially small Quillen exact categories agrees with Quillen K-theory. But it has the standard properties of Quillen K-theory (devissage, exactness and so on).
 The one-sided generalization inspired by ideas introduced by Keller and Vossieck in the build up of the theory of [[suspended category|suspended categories]]. 
 
-A right 'exact' category is a category with an initial object and a Grothendieck pretopology consisting of single maps which are [[strict epimorphism]]s. The distinguisheed class of strict epimorphisms is called a right 'exact' structure, or the class of _deflations_. The construction of derived functors in this generality involves a version of [[satellite|satellites]].
+A right 'exact' category is a category with an initial object and a Grothendieck pretopology consisting of single maps which are [[strict epimorphism]]s. The distinguished class of strict epimorphisms is called a right 'exact' structure, or the class of _deflations_. The construction of derived functors in this generality involves a version of [[satellite|satellites]].
 
-* Dmitry Kaledin, Wendy Lowen, _Cohomology of exact categories and (non-)additive sheaves_, [arxiv/1102.5756](http://arxiv.org/abs/1102.5756)
+* Dmitry Kaledin, Wendy Lowen, _Cohomology of exact categories and (non-)additive sheaves_, Adv. Math. __272__ (2015) 652--698 [arXiv:1102.5756](https://arxiv.org/abs/1102.5756)
 
 [[!redirects Quillen exact categories]]
 [[!redirects Quillen exactness]]
