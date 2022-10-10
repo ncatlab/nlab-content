@@ -11,4 +11,4 @@ On (the non-existence of) the [[hierarchy problem]] and the [[naturalness]]-issu
 
   > The aim of this work has been to stress that there is no physical sense in the [[naturalness]] criterion.
 
-category: peopel
+category: people
