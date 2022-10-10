@@ -309,7 +309,7 @@ This can be found, for instance, in [Goerss-Jardine, Cor. II.9.6](#GoerssJardine
 
 ### Joyal model structure on simplicial sets
 
-For teferences on the *[[model structure for quasi-categories]]* see there.
+For references on the *[[model structure for quasi-categories]]* see there.
 
 
 
