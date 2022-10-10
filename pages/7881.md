@@ -220,7 +220,7 @@ On the other hand, the behavior of the power operation on [[regular cardinal|sin
 
 * [[Paul J. Cohen|P. J. Cohen]], _Set Theory and the Continuum Hypothesis_ , Benjamin New York 1966. (Dover reprint 2008)
 
-* [[Patrick Dehornoy|P. Dehornoy]], _Progr&#232;s r&#233;cents sur l'hypoth&#232;se du continu (d'apr&#232;s Woodin)_ , S&#233;minaire Bourbaki expos&#233; **915** (2003). ([English version](http://www.math.unicaen.fr/~dehornoy/Surveys/DgtUS.pdf))
+* [[Patrick Dehornoy|P. Dehornoy]], _Progr&#232;s r&#233;cents sur l'hypoth&#232;se du continu (d'apr&#232;s Woodin)_ , S&#233;minaire Bourbaki expos&#233; **915** (2003). ([English version](https://www.lmno.cnrs.fr/archives/dehornoy/Surveys/DgtUS.pdf))
 
 * {#Feferman11}[[Solomon Feferman]], _The Continuum Hypothesis is neither a definite mathematical problem nor a definite logical problem_ , Harvard lectures 2011. ([pdf](http://math.stanford.edu/~feferman/papers/CH_is_Indefinite.pdf))
 
