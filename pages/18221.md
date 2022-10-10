@@ -198,6 +198,13 @@ Lemmas and proofs are taken from
 
 * [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
+For univalent categories on the [[1lab]]:
+
+* [1lab.dev/Cat.Base.html](https://1lab.dev/Cat.Base.html)
+
+A talk on univalent category theory delivered at the [[Homotopy Type Theory Electronic Seminar Talks]]
+
+* Amélia Liao, *Univalent Category Theory*, 6 October 2022, ([video](https://www.youtube.com/watch?v=asY6dXkR2yg))
 
 ### By coinduction
   {#ReferencesCoinduction}
