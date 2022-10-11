@@ -59,7 +59,7 @@ $$
 
 ## References
 
-* [[Mike Shulman]], _An interval type implies functional extensionality_ ([blog post](http://homotopytypetheory.org/2011/04/04/an-interval-type-implies-function-extensionality/#comment-697))
+* [[Mike Shulman]], _An interval type implies functional extensionality_ ([blog post](http://homotopytypetheory.org/2011/04/04/an-interval-type-implies-function-extensionality/))
  {#Shulman}
 
 [[!redirects interval types]]
