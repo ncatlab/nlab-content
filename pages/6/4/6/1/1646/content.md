@@ -160,15 +160,18 @@ This is really two theorems (at least): an abstract theorem that the inequality 
 
 ## References
 
-Standard accounts of Hilbert spaces in [[quantum mechanics]] include
+Standard accounts of Hilbert spaces in [[quantum mechanics]]:
 
-* [[John von Neumann]], _Mathematische Grundlagen der Quantenmechanik_.
-(German) Mathematical Foundations of Quantum Mechanics. Berlin,
-Germany: Springer Verlag, 1932.
+* [[John von Neumann]]: 
+
+  *Mathematische Grundlagen der Quantenmechanik*, Springer (1932, 1971) &lbrack;[doi:10.1007/978-3-642-96048-2](https://link.springer.com/book/10.1007/978-3-642-96048-2)&rbrack;
+
+  *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
+
 
 * [[George Mackey]], _The Mathematical Foundations of Quamtum Mechanics_ A
-Lecture-note Volume, ser. The mathematical physics monograph series.
-Princeton university, 1963
+Lecture-note Volume, The mathematical physics monograph series.
+Princeton university (1963)
 
 * E. Prugove&#265;ki, _Quantum mechanics in Hilbert Space_. Academic Press,
 1971.
