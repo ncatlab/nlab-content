@@ -48,6 +48,8 @@ Using extensionality, we obtain [[M-types]] from W-types.
 
 * Does having an [[interval type]] with only typal [[beta conversion]] rules imply [[function extensionality]] in [[Martin-Löf type theory]]? If yes, does the above still hold if the [[function types]] only have a typal [[eta conversion]] rule? 
 
+* Does having [[propositional truncation]] in conjunction with the [[booleans]], both of which only have typal [[beta conversion]] rules, imply [[function extensionality]] in [[Martin-Löf type theory]]? If yes, does the above still hold if the [[function types]] only have a typal [[eta conversion]] rule? 
+
 ## Homotopy theory and algebraic topology
 
 * [[Homotopy theory in HoTT]]
@@ -148,8 +150,6 @@ See also the commented list of problems at:
 * Does [[objective type theory]] have [[homotopy canonicity]] and [[normalization]]?
 
 * What is the [[categorical semantics]] of the [[homotopy type theory]] based upon [[objective type theory]], with all [[higher inductive types]] and [[weakly Tarski]] [[univalent universes]]? 
-
-* Does having [[propositional truncation]], in conjunction with the [[booleans]], imply [[function extensionality]] in [[objective type theory]]?
 
 ## Formalization
 
