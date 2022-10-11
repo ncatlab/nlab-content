@@ -20,7 +20,7 @@
 
 A **taboo**, for a particular flavor of mathematics or formal system, is a simple statement that is known to be not provable therein, and that can therefore be used to establish the unprovability of other statements without the need to descend into metamathematical considerations (such as syntactic analysis or construction of countermodels) or, in some cases, even to decide on a particular formal system to be working in.
 
-For example, the [[law of excluded middle]] (LEM) is a taboo for [[constructive mathematics]].  Therefore, if some statement $P$ implies LEM, then one can be sure that $P$ is also not provable in constructive mathematics.
+For example, the [[law of excluded middle]] (LEM) is a taboo for [[constructive mathematics]].  Therefore, if some statement $P$ implies LEM, then one can be sure that $P$ is also not provable in constructive mathematics; this is known as a **Brouwerian counterexample**.
 
 ## Examples
 
@@ -64,6 +64,9 @@ to assume false, but we definitely do not want to be able to prove.
 > Certain basic principles of classical mathematics are taboo for the constructive mathematician. Bishop called them *principles of omniscience*.
 
 
+* {#Mandelkern89} [[Mark Mandelkern]], _Brouwerian Counterexamples_, Mathematics Magazine, vol. 62 no. 1, 1989 ([doi:10.2307/2689939](https://www.tandfonline.com/doi/abs/10.1080/0025570X.1989.11977404))
+
+
 See also:
 
 * [[Michael J. Beeson]], Footnote 3, p. 6 (27 of 484) in: *Foundations of Constructive Mathematics*,  Ergebnisse der Mathematik und ihrer Grenzgebiete **3** 6, Springer 1985 ([doi:10.1007/978-3-642-68952-9](https://link.springer.com/book/10.1007/978-3-642-68952-9), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-642-68952-9.pdf))
@@ -82,3 +85,5 @@ contradiction, an absurdity. If instead we show that it implies the decidability
 [[!redirects homotopical taboos]]
 [[!redirects constructive-homotopical taboo]]
 [[!redirects constructive-homotopical taboos]]
+[[!redirects Brouwerian counterexample]]
+[[!redirects Brouwerian counterexamples]]
