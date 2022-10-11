@@ -419,13 +419,15 @@ Principal Investigator:
 
 co-PIS: 
 
-* see [here](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html)
+* [[Tim Byrnes]]
+
+* for more see [here](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html)
 
 Senior Researcher: 
 
 * [[Urs Schreiber]]
 
-Reserachers: 
+Researchers: 
 
 * [[Adrian Clough]]
 
