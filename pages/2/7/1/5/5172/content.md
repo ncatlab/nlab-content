@@ -16,7 +16,7 @@ PhD thesis (journal version):
 
 * [[J. v. Neumann]], _Die Axiomatisierung der Mengenlehre_, Mathematische Zeitschrift 27 (1928), 669–752.  [doi](https://doi.org/10.1007/BF01171122).
 
-On the foundations of [[quantum mechanics]]:
+On the foundations of [[quantum mechanics]] based on [[Hilbert spaces]] [[space of quantum states|of quantum states]]:
 
 
 * [[John von Neumann]]:
