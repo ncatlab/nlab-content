@@ -78,11 +78,15 @@ There are a number of possible resolutions of Russell's paradox.
 
 Zermelo's observation which is mentioned in a footnote of his 1908 paper on the [[well-ordering theorem]] is analyzed in
 
-* B. Rang, W. Thomas, _Zermelo's Discovery of the "Russell Paradox"_ , Hist. Math. **9** no.1 (1981) pp.15-22.
+* B. Rang, W. Thomas, _Zermelo's Discovery of the "Russell Paradox"_ , Hist. Math. **9** no.1 (1981) pp.15-22. <https://doi.org/10.1016/0315-0860(81)90002-1>
+
+together with a transcription of a note dated 16 April 1902 by Husserl describing Zermelo's proof.
 
 Russell indicated the contradiction leading to the inconsistency of G. Frege's system of "Grundgesetze der Arithmetik" in a famous letter to the latter on June 16th 1902 which together with Frege's reply is reprinted pp.124-128 in
 
 * J. van Heijenoort (ed.), _From Frege to G&#246;del - A Source Book in Mathematical Logic 1879-1931_ , Harvard UP 1967.
+
+A re-typed version is available from the blog post [here](https://thehighergeometer.wordpress.com/2022/10/11/russells-paradox-the-original-letter-to-frege/).
 
 For an account of Russell's encounter with the paradox:
 
