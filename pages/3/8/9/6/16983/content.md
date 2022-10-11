@@ -32,11 +32,18 @@ These taboos are unprovable in [[constructive mathematics]].
 * [[principle of omniscience]]
 * [[axiom of choice]].
 
+### Predicative taboos
+
+These taboos are unprovable in [[predicative mathematics]].
+
+* [[propositional resizing]]
+
 ### Homotopical taboos
 
 These taboos are unprovable in [[homotopy type theory]], even if we assume constructive taboos such as LEM and AC.
 
 * [[uniqueness of identity proofs]]
+* [[axiom K]]
 
 ### Constructive-homotopical taboos
 
