@@ -1,5 +1,5 @@
 
-For $G$ a [[Lie group]], by a $G$-manifold one may mena
+For $G$ a [[Lie group]], by a $G$-manifold one may mean
 
 * a [[smooth manifold]] with $G$-[[special holonomy]];
 
