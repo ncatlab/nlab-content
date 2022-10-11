@@ -160,11 +160,19 @@ Using a definitional equality with an existing global type former for each type 
 
 ## Modalities and comodalities
 
-A **[[modal operator]]** on a Tarski universe $(U, T)$ is just an [[endofunction]] $L:U \to U$. Given a Tarski universe closed under [[identity types]] and [[dependent product types]], the **modal unit family** is a family of functions
+A **[[modal operator]]** on a Tarski universe $(U, T)$ is just an [[endofunction]] $L:U \to U$. Given a Tarski universe, the **modal unit family** is a family of functions
 $$\eta:\prod_{L:U \to U}\prod_{A:U} T(A) \to T(L(A))$$
 and the **comodal counit family** is a family of functions 
 $$\epsilon:\prod_{L:U \to U}\prod_{A:U} T(L(A)) \to T(A)$$
-Given a modality $L:U \to U$, $\eta(L)$ is called the **modal unit** of $L$ and $\epsilon(L)$ is called the **comodal counit** of $L$. 
+Given a modal operator $L:U \to U$, $\eta(L)$ is called the **modal unit** of $L$ and $\epsilon(L)$ is called the **comodal counit** of $L$. A small type $A:U$ is **$L$-modal** if the function 
+$$\eta(L)(A):T(A) \to T(L(A))$$
+is an [[equivalence of types]], and **$L$-comodal** if the function 
+$$\epsilon(L)(A):T(L(A)) \to T(A)$$
+is an equivalence of types. 
+
+A **[[modality]]** is...
+
+...and a **[[comodality]]** is...
 
 ## Reflective and coreflective Tarski subuniverses
 
