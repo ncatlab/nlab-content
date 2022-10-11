@@ -51,7 +51,7 @@ In [[classical mathematics]], any [[inhabited set|inhabited]] subset of the natu
 
 +-- {: .num_prop #BrouwerianCounterexample}
 ###### Proposition 
-**(a Brouwerian counterexample)**
+**(a [[Brouwerian counterexample]])**
 
 If every inhabited subset of the natural numbers possesses a minimal element, then the [[excluded middle|law of excluded middle]] holds.
 =--
