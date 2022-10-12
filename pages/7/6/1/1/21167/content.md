@@ -24,7 +24,7 @@ consisting of Steenrod's [[generalized cup products]].
 
 ## Main property
 
-Theorem 2.15 in McClure and Smith \cite{Cochain}
+Theorem 2.15 in [McClure and Smith](#Cochain)
 shows that $Seq$ is an [[E-infinity operad]] in [[cochain complexes]].
 
 By definition, the operad $Seq$ acts on [[simplicial cochains]]
@@ -38,15 +38,14 @@ structure on [[simplicial cochains]].
 
 One can easily identify a suboperad $Seq_n$ of the operad $Seq$
 by imposing a simple combinatorial condition on the multiindices
-of [[generalized cup products]] (Definition 3.2 in \cite{Cochain}).
+of [[generalized cup products]] (Definition 3.2 [here](#Cochain)).
 
 The resulting operad is an [[E_n-operad]],
 i.e., it is weakly equivalent to the singular cochains on the little
-$n$-cubes operad (Theorem 3.5 in \cite{Cochain}).
+$n$-cubes operad (Theorem 3.5 [here](#Cochain)).
 
 ## References
 
-\bibitem{Cochain}
-[[James E. McClure]], [[Jeffrey H. Smith]],
+* {#Cochain} [[James E. McClure]], [[Jeffrey H. Smith]],
 _Multivariable cochain operations and little $n$-cubes_,
 [arXiv:math/0106024v3](https://arxiv.org/abs/math/0106024v3).
