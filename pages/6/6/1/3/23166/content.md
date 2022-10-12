@@ -19,9 +19,9 @@ A __measurable field of Hilbert spaces__ is the exact analogue of a [[vector bun
 
 ## Definition
 
-The original definition is due to [[John von Neumann]] (Definition 1 in \cite{Neumann}).
+The original definition is due to [[John von Neumann]] (Definition 1 in [Neumann](#Neumann)).
 
-We present here a slightly modernized version, which can be found in many modern sources, e.g., Takesaki \cite{Takesaki}.
+We present here a slightly modernized version, which can be found in many modern sources, e.g., [Takesaki](#Takesaki).
 
 \begin{definition}
 Suppose $(X,\Sigma)$ is a [[measurable space]]
