@@ -50,7 +50,7 @@ To see that this [[Quillen adjunction]] is a [[Quillen equivalence]],
 one can either argue directly, by computing the derived [[unit]] and derived [[counit]] and showing that they are [[weak equivalences]],
 or, much more elegantly, invoke a theorem by [[Grothendieck]] and [[Maltsiniotis]].
 
-The latter theorem (\cite{Maltsiniotis}, Proposition 1.6.8)
+The latter theorem ([Maltsiniotis](#Maltsiniotis), Proposition 1.6.8)
 states that a totally aspherical [[small category]] $C$ with a separating aspherical interval is a [[strict test category]],
 and, therefore, the category of presheaves of sets on $C$
 admits a [[model structure]] whose cofibrations are monomorphisms
@@ -105,4 +105,4 @@ _Multiplicative properties of Quinn spectra_
 _Gluing restricted nerves of $\infty$-categories_
 ([arXiv:1211.5294](http://arxiv.org/abs/1211.5294))
 
-* [[Georges Maltsiniotis]], _La théorie de l'homotopie de Grothendieck_, Astérisque 301 (2005).
+* {#Maltsiniotis} [[Georges Maltsiniotis]], _La théorie de l'homotopie de Grothendieck_, Astérisque 301 (2005).
