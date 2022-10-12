@@ -314,7 +314,7 @@ In the special case when weak equivalences are closed under [[filtered colimits]
 and the model structure is [[left proper]],
 the statement of Smith's theorem can be simplified.
 
-The following formulation can be found as Proposition A.2.6.15 in Lurie \cite{Lurie}.
+The following formulation can be found as Proposition A.2.6.15 in [Lurie](#Lurie).
 
 \begin{theorem}
 Suppose $C$ is a [[locally presentable category]]
