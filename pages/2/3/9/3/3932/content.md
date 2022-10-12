@@ -27,7 +27,6 @@ $$H^i(Y,A)\otimes H_n(X\times Y,A')\to H_{n-i}(X,A\otimes A').$$
 It is induced by the [[Alexander-Whitney map]].
 
 There are also versions for [[relative homology]] and [[relative cohomology]].
-See Dold \cite{Dold}, VII.11 and VII.13.
+See [Dold](#Dold), VII.11 and VII.13.
 
-\bibitem{Dold}
-Albrecht Dold, _Lectures on Algebraic Topology_, Springer, 1980.
+* {#Dold} Albrecht Dold, _Lectures on Algebraic Topology_, Springer, 1980.
