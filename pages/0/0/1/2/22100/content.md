@@ -41,7 +41,7 @@ are morphisms $f\colon A\to A'$ such that $\alpha'\circ f=\alpha$ and $f\circ\be
 
 ## References
 
-\bibitem{Janelidze2005}
+* {#Janelidze2005} [[Zurab Janelidze]], _Subtractive categories_, Appl. Categ. Struct 13, No. 4, 343-350 (2005) ([doi:10.1007/s10485-005-0934-8](https://doi.org/10.1007/s10485-005-0934-8))
 
 * [[Zurab Janelidze]], _Closedness properties of internal relations_.  A series of papers.
 
