@@ -27,7 +27,7 @@ This page is about the modular theory introduced by Tomita for [[von Neumann-alg
 
 The modern approach to defining the modular automorphism group
 is through the theory of noncommutative [[L_p-spaces]].
-This was pioneered by Haagerup in 1979 \cite{Haagerup} and Yamagami in 1992 \cite{Yamagami}.
+This was pioneered by [Haagerup in 1979](#Haagerup) and [Yamagami in 1992](#Yamagami).
 
 In this approach,
 given a [[von Neumann algebra]] $M$, a faithful semifinite normal [[weight]] $\mu$ on $M$, and an [[imaginary number]] $t$,
