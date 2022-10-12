@@ -69,7 +69,7 @@ This is clear once we observe that the notion of a [[Quillen equivalence]] in th
 or just ordinary equivalences of underlying [[homotopy categories]].
 
 \begin{theorem}
-(Rezk \cite{Rezk02}, Proposition 2.7 (arXiv), Proposition 2.5 (journal).)
+([Rezk](#Rezk02), Proposition 2.7 (arXiv), Proposition 2.5 (journal).)
 A model category $M$ is left proper if and only if for every weak equivalence $f\colon X\to Y$
 the induced [[Quillen adjunction]]
 $$X/M\leftrightarrows Y/M$$
@@ -109,7 +109,7 @@ A class of model structures which tends to be _not_ left proper are model struct
 
 For instance 
 
-* the standard model structure on [[simplicial object|simplicial]] [[associative unital algebra]]s (weak equivalences and fibrations are those of the underlying simplicial sets) is  _not_  left proper (see \cite{Rezk02}, Example 2.11 (arXiv), Example 2.7 (journal)).
+* the standard model structure on [[simplicial object|simplicial]] [[associative unital algebra]]s (weak equivalences and fibrations are those of the underlying simplicial sets) is  _not_  left proper (see [Rezk](#Rezk02), Example 2.11 (arXiv), Example 2.7 (journal)).
 
 But it is [[Quillen equivalence|Quillen equivalent]] to a model structure that _is_ left proper. This is discussed [below](#ProperEquivModels).
 
