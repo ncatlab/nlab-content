@@ -21,7 +21,7 @@ to a single output in an operad.
 
 The notion of coloured properads is more general than that of [[polycategories]] in that properads have [[composition]]-operations along more than one object. See at *[polycategory -- Relation to properads](polycategory#RelationToProperads)* for a more detailed explanation.
 
-Unlike with polycategories and dioperads (and [[multicategories]] and [[operads]]), there doesn't appear to be different terminology in the literature for one-coloured versus multicoloured properads.
+As with multicategories and operads, and polycategories and dioperads, the distinct term **pluricategory** for the coloured (many-object) version of properad is in use.
 
 Properads are less general than [[PROPs]], which also allow a "composition" of nonconnected graphs, by tensoring morphisms with $\otimes$.
 
@@ -38,5 +38,9 @@ Properads are less general than [[PROPs]], which also allow a "composition" of n
 * [1] [[Bruno Vallette]], A Koszul duality for props.
 [arXiv:math/0411542](http://arxiv.org/abs/math/0411542)
 
+* Ryan Kavanagh. _Communication-Based Semantics for Recursive Session-Typed Processes_. Thesis. Carnegie Mellon University, 2021 ([pdf](https://rak.ac/publication/2021-communication-based-semantics-for-recursive-session-typed-processes/thesis.pdf))
+
 [[!redirects properads]]
 [[!redirects Properads]]
+[[!redirects pluricategory]]
+[[!redirects pluricategories]]
