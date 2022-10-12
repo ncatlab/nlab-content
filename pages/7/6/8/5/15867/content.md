@@ -2,10 +2,14 @@
 
 ## Idea
 
-A __W algebra__ is a higher spin extension of the [[Virasoro algebra]].
+A __W algebra__ is a higher spin extension of the [[Virasoro algebra]]. It is an extended symmetry algebra
+in [[conformal field theory]].
 
 ## References
 
+An early survey is
+
+* [[Peter Bouwknegt]], Kareljan Schoutens, _W symmetry in conformal field theory_, Phys. Rep. __223__:4 (1993) 183--276 <a href="https://doi.org/10.1016/0370-1573(93)90111-P">doi</a>
 
 * [[Peter Bouwknegt]], Jim McCarthy, [[Krzysztof Pilch]], _The $W_3$ algebra: modules, semi-infinite cohomology, and BV algebras_, Lec. Notes in Phys. __42__, Springer 1996 ([doi:10.1007/978-3-540-68719-1](https://link.springer.com/book/10.1007/978-3-540-68719-1))
 
@@ -13,7 +17,7 @@ A __W algebra__ is a higher spin extension of the [[Virasoro algebra]].
 
 Relation to [[Jordan algebra]] is discussed in
 
-* L. J. Romans, _Realisations of classical and quantum $W_3$ symmetry_, Nuclear Physics B Volume 352, Issue 3, 1 April 1991, Pages 829-848 ([doi](http://www.sciencedirect.com/science/article/pii/055032139190108A))
+* L. J. Romans, _Realisations of classical and quantum $W_3$ symmetry_, Nuclear Physics B __352__:3 (1991) 829--848 <a href="https://doi.org/10.1016/0550-3213(91)90108-A">doi</a>
 
 Relation to [[L-infinity algebras]] is discussed in 
 
