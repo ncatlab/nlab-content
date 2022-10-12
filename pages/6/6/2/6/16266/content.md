@@ -187,7 +187,7 @@ Additional references:
 * {#ARVloc} [[Jiří Adámek]], [[Jiří Rosický]], [[Enrico Vitale]],
 [_On Algebraically Exact Categories and Essential Localizations of Varieties_](https://doi.org/10.1006/jabr.2000.8577)
 
-\bibitem{Garner.2011}
+* {#Garner.2011} [[Richard Garner]] and [[Stephen Lack]], [_Lex colimits_](http://dx.doi.org/10.1016/j.jpaa.2012.01.003), JPAA 216.6, 2012.
 
 [[!redirects distributivity of limits and colimits]]
 [[!redirects distributivity of colimits over limits]]
