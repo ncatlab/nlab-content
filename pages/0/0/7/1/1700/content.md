@@ -455,7 +455,7 @@ Some of the material above is taken from this.
 
 A comprehensive textbook is
 
-\bibitem{BorceuxJanelidze2001}
+* {#BorceuxJanelidze2001} [[Francis Borceux]], [[George Janelidze]], _Galois theories_, Camb. Stud. Adv. Math. 72, Cambridge: Cambridge University Press (2001)
 
 a review of which can be found at [[Galois Theories]].
 
