@@ -15,7 +15,7 @@ together with a [[map of locales]] $l\colon L\to X$
 such that the connected components of opens $l^*U$ for all opens $U$ in $X$
 form a [[base]] for the [[locale]] $L$.
 
-See Proposition 4.3 in \cite{Funk} for other equivalent
+See Proposition 4.3 in [Funk](#Funk) for other equivalent
 characterizations of spreads.
 
 Recall that the [[category of elements]]
