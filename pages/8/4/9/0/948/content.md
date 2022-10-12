@@ -269,7 +269,7 @@ See also the references at _[[intuitionistic mathematics]]_ for more.
 
 Gentle introductions:
 
-* [[Douglas Bridges]], _Introducing constructive mathematics_, Lecture Notes, Nis 2013 ([pdf](http://www.masfak.ni.ac.rs/cmfp2013/Nis%20lecture%20170113.pdf))
+* [[Douglas Bridges]], _Introducing constructive mathematics_, Lecture Notes, Nis 2013 ([pdf](http://www2.masfak.ni.ac.rs/cmfp2013/Nis%20lecture%20170113.pdf))
 
 * [[Andrej Bauer]], _Five Stages of Accepting Constructive Mathematics_, 
 Bull. Amer. Math. Soc. 54 (2017), 481-498 ([pdf](http://dx.doi.org/10.1090/bull/1556)]. See also a talk at IAS March 18, 2013  ([video](http://video.ias.edu/members/1213/0318-AndrejBauer)).
