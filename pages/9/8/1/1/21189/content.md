@@ -316,10 +316,7 @@ See also
 
 Application to [[lattice QCD]]:
 
-* cite{Sharpe:2006pu}
-\bibitem{Sharpe:2006pu}
-
-* S.R.Sharpe, Applications of Chiral Perturbation theory to lattice QCD, ILFTN Workshop on "Perspectives in Lattice QCD", Nara, Japan, Oct 31-Nov 11 2005, 2006 ([arXiv:hep-lat/0607016](https://arxiv.org/abs/hep-lat/0607016v2))
+* {#Sharpe:2006pu} S.R.Sharpe, Applications of Chiral Perturbation theory to lattice QCD, ILFTN Workshop on "Perspectives in Lattice QCD", Nara, Japan, Oct 31-Nov 11 2005, 2006 ([arXiv:hep-lat/0607016](https://arxiv.org/abs/hep-lat/0607016v2))
 
 
 
