@@ -153,10 +153,14 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
   \linebreak
 
-  > **Abstract.** The aim of *[[topological data analysis]]* (TDA) is to provide qualitative analysis of large data/parameter sets in a way which is *robust* against uncertainties and noise. This is accomplished using tools and theorems from the mathematical field of *[[algebraic topology]]*. While a tool called *[[persistent homology]]* has become the signature method of TDA, it tends to produce answers that are either hard to interpret (persistent [[cycles]]) or impossible to compute ([[well groups]]). Both problems are solved by a variant method $[$[FK17](persistent+cohomotopy#FranekKrcal17)$]$ which we may call *[[persistent cohomotopy]]*: A first result shows $[$[FKW18](persistent+cohomotopy#FranekKrcalWagner18)$]$ that this new method provides computable answers to the concrete question of detecting whether there exist data+parameters that meet a prescribed target indicator precisely, even in the presence of uncertainty and noise. More generally, efficient data analysis will require further refining [[persistent cohomotopy]] to [[equivariant cohomotopy]] and/or [[twisted cohomotopy]] $[$[[schreiber:Proper Orbifold Cohomology|SS20]]$]$. Curiously, these flavors of [[cohomotopy theory]] have [[Hypothesis H|profound relations]] to formal [[high energy physics]] and [[topological phase of matter|quantum materials]], connecting to which might help to further enhance the power of [[topological data analysis]].
+  > The aim of *[[topological data analysis]]* (TDA) is to provide qualitative analysis of large data/parameter sets in a way which is *robust* against uncertainties and noise. This is accomplished using tools and theorems from the mathematical field of *[[algebraic topology]]*. While a tool called *[[persistent homology]]* has become the signature method of TDA, it tends to produce answers that are either hard to interpret (persistent [[cycles]]) or impossible to compute ([[well groups]]). Both problems are solved by a variant method $[$[FK17](persistent+cohomotopy#FranekKrcal17)$]$ which we may call *[[persistent cohomotopy]]*: A first result shows $[$[FKW18](persistent+cohomotopy#FranekKrcalWagner18)$]$ that this new method provides computable answers to the concrete question of detecting whether there exist data+parameters that meet a prescribed target indicator precisely, even in the presence of uncertainty and noise. More generally, efficient data analysis will require further refining [[persistent cohomotopy]] to [[equivariant cohomotopy]] and/or [[twisted cohomotopy]] $[$[[schreiber:Proper Orbifold Cohomology|SS20]]$]$. Curiously, these flavors of [[cohomotopy theory]] have [[Hypothesis H|profound relations]] to formal [[high energy physics]] and [[topological phase of matter|quantum materials]], connecting to which might help to further enhance the power of [[topological data analysis]].
+
+\linebreak
 
 ### Sep 2022
  {#ColloquiumSep22}
+
+\linebreak
 
 * 13 Sep 2022
   {#InitialResearcherMeeting-Riley}
@@ -167,7 +171,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
   slides: [[CQTS-InitialResearcherMeeting-Riley-220913.pdf:file]]  
 
-  > (on realizing [[linear homotopy type theory]])
+  > on realizing [[linear homotopy type theory]]
 
 
 \linebreak
@@ -182,7 +186,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
   slides: [[CQTS-InitialResearcherMeeting-Valera-220914.pdf:file]]
 
-  > (on [[anyon]] [[braid representation|braiding]] described by [[braided fusion categories]])
+  > on [[anyon]] [[braid representation|braiding]] described by [[braided fusion categories]]
  
 
 \linebreak
@@ -197,8 +201,34 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
   slides: [[CQTS-InitialResearcherMeeting-Schreiber-220914.pdf:file]]  
 
-  > (outline of a research program on [[schreiber:Topological Quantum Programming in TED-K]])
-  
+  > outline of a research program on [[schreiber:Topological Quantum Programming in TED-K]]
+
+\linebreak
+
+
+### Oct 2022
+ {#ColloquiumOct22}
+
+\linebreak
+
+* 11 Oct 2022
+  {#ByrnesOct2022}
+
+  [[Tim Byrnes]] (NYU Shanghai, CQTS):
+
+  **Topological quantum states for quantum computing and metrology**
+
+  * Part I -- *Quantum teleportation of Majorana Zero Modes*
+
+    slides: [[Byrnes-TopologicalQuantumStates.pdf:file]]
+
+    > on [Phys. Rev. Lett. 126, 090502 (2021)](https://arxiv.org/abs/2009.07590)
+
+  * Part II -- *Quantum Hall effect in Bose-Einstein condensates*
+
+    slides: [[Byrnes-QHEinBEC.pdf:file]]
+
+    > on [Phys. Rev. A 92.023629 (2015)](https://doi.org/10.1103/PhysRevA.92.023629) and [Phys. Rev. B 99, 184427 (2019)](https://arxiv.org/abs/1905.01459)
 
 \linebreak
 
@@ -316,7 +346,7 @@ Stone-von Neumann**
 
   **The Baum-Connes conjecture for groups and groupoids**
 
-  > Abstract: In this talk we present some basics definitions around the [[Baum-Connes conjecture]] in the context of groups and groupoids, in particular we define the reduced $C^\ast$-algebra $C_r^*(G)$ of a groupoid G. When a group (or groupoid) satisfies this conjecture we present how we can compute the topological K-theory of $C_r^*(G)$ via a classifying space. We also present some explicit computations and an application about Fredholm boundary conditions in manifolds with corners.
+  > In this talk we present some basics definitions around the [[Baum-Connes conjecture]] in the context of groups and groupoids, in particular we define the reduced $C^\ast$-algebra $C_r^*(G)$ of a groupoid G. When a group (or groupoid) satisfies this conjecture we present how we can compute the topological K-theory of $C_r^*(G)$ via a classifying space. We also present some explicit computations and an application about Fredholm boundary conditions in manifolds with corners.
   
 
 \linebreak
@@ -373,6 +403,29 @@ Stone-von Neumann**
   slides: [[DavidJazMyers-ObjectiveCohomology-220928.pdf:file]]
 
   > In this talk, we will see the homotopy type theory point of view on defining twisted cohomology classes by means of bundle gerbes. We'll take an increasingly less leisurely tour up the tower of cohomology degrees, seeing characters, principal bundles,  entral extensions, and characteristic classes along the way. Finally, we will go through the construction of the cohomology of the braid groups valued in the complex numbers, twisted by a complex character of the braid group. Through the work of many people, and in particular Feigin, Schechtman, Varchenko, the actions of the braid group of $d$ "defects" on the twisted complex cohomology of the braid group of $n$ "particles" is the monodromy action of the Knizhnik-Zamolodchikov connection on a space of conformal blocks. At CQTS we use this as a way to go from abstract homotopy type theory to protocols for topological quantum computation. 
+
+\linebreak
+
+### Oct 2022
+
+* 05 Oct 2022
+  {#CloughSep22}
+
+  [[Adrian Clough]] (NYU Abu Dhabi, CQTS)
+
+  **The smooth Oka principle**
+
+  > on [Clough 2021](shape+via+cohesive+path+∞-groupoid#Clough21)
+
+\linebreak
+
+* 12 Oct 2022
+
+  Salah Mehdi ([U Lorraine](https://mehdi.perso.math.cnrs.fr/) and [NYU Abu Dhabi](https://nyuad.nyu.edu/en/academics/divisions/science/faculty/salah-mehdi.html))
+
+  **Algebraic and geometric aspects of the Dirac equation**
+
+  > on [arXiv:2102.03562](https://arxiv.org/abs/2102.03562)
 
 \linebreak
 
