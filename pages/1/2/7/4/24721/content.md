@@ -62,6 +62,83 @@ Let $(U, T)$ be a Tarski universe. Then one could construct a univalent Tarski u
 * a dependent function 
 $$\mathrm{ua}_{U'}:\prod_{A:U} \prod_{B:U} \mathrm{isEquiv}(\mathrm{transport}^{T'}(A, B))$$ 
 
+## Closure of Tarski universes under type formers
+
+There are many ways of defining type formers internally in a universe: 
+
+* by an equivalence or definitional equality with an existing global type former for the entire type theory. 
+
+* by translating the rules for the type former into internal structure on the universe
+
+* by using the [[universal properties]] corresponding to the [[categorical semantics]] of the types
+
+Using a definitional equality with an existing global type former for each type former results in a **strict Tarski universe**, while using equivalences for each type former results in a **weak Tarski universe**. There are also various Tarski universes where some type formers are strictly closed, and some type formers are only weakly closed, resulting in Tarski universes which are intermediate between strict Tarski universes and weak Tarski universes. 
+
+### Empty type
+
+Suppose that the type theory has an already existing empty type $\emptyset \; \mathrm{type}$. Then a Tarski universe is **weakly closed under the empty type** if there exists a term $\emptyset_U:U$ and an equivalence $\mathrm{smallemptytype}:T(\emptyset_U) \simeq \emptyset$. A Tarski universe is **strongly closed under the empty type** if there is a definitional equality $T(\emptyset_U) \equiv \emptyset$. 
+
+If the type theory does not have an already existing empty type, then a Tarski universe is **closed under the empty type** if the universe comes with 
+
+* a term $\emptyset_U:U$
+* for all functions $C:T(\emptyset_U) \to U$ and terms $p:T(\emptyset_U)$, a term $\mathrm{ind}_\emptyset(C, p):T(C(p))$
+* for all functions $C:T(\emptyset_U) \to U$, terms $p:T(\emptyset_U)$, and terms $u(p):T(C(p))$, an [[identification]] $\eta_\emptyset(C, p, u(p)):u(p) =_{T(C(p))} \mathrm{ind}_\emptyset(C, p)$. 
+
+### Unit type
+
+Suppose that the type theory has an already existing unit type $\mathbb{1} \; \mathrm{type}$. Then a Tarski universe is **weakly closed under the unit type** if there exists a term $\mathbb{1}_U:U$ and an equivalence $\mathrm{smallunittype}:T(\mathbb{1}_U) \simeq \mathbb{1}$. A Tarski universe is **strongly closed under the unit type** if there is a definitional equality $T(\mathbb{1}_U) \equiv \mathbb{1}$. 
+
+If the type theory does not have an already existing unit type, then a Tarski universe is **closed under the unit type** if the universe comes with 
+
+* a term $\mathbb{1}_U:U$
+* a term
+$*:T(\mathbb{1}_U)$
+* for all functions $C:T(\mathbb{1}_U) \to U$, terms $c_*:T(C(*))$, and terms $p:T(\mathbb{1}_U)$, a term $\mathrm{ind}_\mathbb{1}(C, p, c_*):T(C(p))$
+* for all functions $C:T(\mathbb{1}_U) \to U$ and terms $c_*:T(C(*))$, an identification $\beta_\mathbb{1}:\mathrm{ind}_\mathbb{1}(C, *, c_*) =_{T(C(*))} c_*$
+* for all functions $C:T(\mathbb{1}_U) \to U$, terms $c_*:T(C(*))$, terms $p:T(\mathbb{1}_U)$, and terms $u(p):T(C(p))$, a function 
+$$\eta_\mathbb{1}(C, p, u(p)):(u(*) =_{T(C(*))} \mathrm{ind}_\mathbb{1}(C, *, c_*))) \to (u(p) =_{T(C(p))} \mathrm{ind}_\mathbb{1}(C, p, c_*))$$ 
+
+### Booleans type
+
+Suppose that the type theory has an already existing booleans type $\mathbb{2} \; \mathrm{type}$. Then a Tarski universe is **weakly closed under the booleans type** if there exists a term $\mathbb{2}_U:U$ and an equivalence $\mathrm{smallbool}:T(\mathbb{2}_U) \simeq \mathbb{2}$. A Tarski universe is **strongly closed under the booleans type** if there is a definitional equality $T(\mathbb{2}_U) \equiv \mathbb{2}$. 
+
+If the type theory does not have an already existing booleans type, then a Tarski universe is **closed under the booleans type** if the universe comes with 
+
+* a term $\mathbb{2}_U:U$
+* a term
+$0:T(\mathbb{2}_U)$
+* a term
+$1:T(\mathbb{2}_U)$
+* for all functions $C:T(\mathbb{2}_U) \to U$, terms $c_0:T(C(0))$, terms $c_1:T(C(1))$, and terms $p:T(\mathbb{2}_U)$, a term $\mathrm{ind}_\mathbb{2}(C, p, c_0, c_1):T(C(p))$
+* for all functions $C:T(\mathbb{2}_U) \to U$, terms $c_0:T(C(0))$, and terms $c_1:T(C(1))$, an identification $\beta_\mathbb{2}^0:\mathrm{ind}_\mathbb{2}(C, 0, c_0, c_1) =_{T(C(0))} c_0$
+* for all functions $C:T(\mathbb{2}_U) \to U$, terms $c_0:T(C(0))$, and terms $c_1:T(C(1))$, an identification $\beta_\mathbb{2}^1:\mathrm{ind}_\mathbb{2}(C, 1, c_0, c_1) =_{T(C(1))} c_1$
+* for all functions $C:T(\mathbb{1}_U) \to U$, terms $c_0:T(C(0))$, terms $c_1:T(C(1))$, terms $p:T(\mathbb{1}_U)$, and terms $u(p):T(C(p))$, a function 
+$$\eta_\mathbb{2}(C, p, u(p)):(u(0) =_{T(C(0))} \mathrm{ind}_\mathbb{2}(C, 0, c_0, c_1))) \times (u(1) =_{T(C(1))} \mathrm{ind}_\mathbb{2}(C, 1, c_0, c_1))) \to (u(p) =_{T(C(p))} \mathrm{ind}_\mathbb{2}(C, p, c_0, c_1))$$ 
+
+### Natural numbers type
+
+Suppose that the type theory has an already existing natural numbers type $\mathbb{N} \; \mathrm{type}$. Then a Tarski universe is **weakly closed under the natural numbers type** if there exists a term $\mathbb{N}_U:U$ and an equivalence $\mathrm{smallnat}:T(\mathbb{N}_U) \simeq \mathbb{N}$. A Tarski universe is **strongly closed under the natural numbers type** if there is a definitional equality $T(\mathbb{N}_U) \equiv \mathbb{N}$. 
+
+### Identity types
+
+### Dependent function types
+
+### Dependent sum types
+
+## Tarski subuniverses
+
+Let $(U, T_U)$ be a Tarski universe. A Tarski universe $(V, T_V)$ is a **Tarski subuniverse** of $(U, T_U)$ if it comes with an [[embedding]] $t:V \hookrightarrow U$ and a dependent function
+$$p:\prod_{a:V} T_U(t(a)) \simeq T_V(a)$$
+
+This is equivalent to a family of Tarski universes $(U(i), T(i))$ indexed by terms $i:\mathbb{2}$ of the [[interval preorder]] $(\mathbb{2}, \leq_\mathbb{2})$, which comes with 
+
+* a dependent function
+$$t:\prod_{a:\mathbb{2}} \prod_{b:\mathbb{2}} (a \leq_\mathbb{2} b) \to (U(a) \hookrightarrow U(b))$$
+
+* a dependent function
+$$q:\prod_{a:\mathbb{2}} \prod_{b:\mathbb{2}} \prod_{p:a \leq_\mathbb{2} b} \prod_{A:U(a)} T(a)(A) \simeq T(b)(t(a, b)(p)(A))$$
+indicating that lifting each small type results in a type equivalent to the original small type. 
+
 ## Essentially small Tarski universes
 
 A Tarski universe $(V, T_V)$ inside of a Tarski universe $(U, T_U)$ consists of a term $V:U$ and a function $T_V:T_U(V) \to U$. 
@@ -92,20 +169,6 @@ $$\mathrm{smallType}:\prod_{a:\mathbb{2}} \prod_{b:\mathbb{2}} \prod_{p:a \leq_\
 * a dependent function 
 $$\mathrm{smallFamily}:\prod_{a:\mathbb{2}} \prod_{b:\mathbb{2}} \prod_{p:a \leq_\mathbb{2} b} \left((b \leq_\mathbb{2} a) \to \emptyset\right) \to \prod_{A:U(a)} T(a)(A) \simeq T(b)(T'(a, b, p)(\mathrm{smallType}(a, b, p)(A)))$$
 
-## Tarski subuniverses
-
-Let $(U, T_U)$ be a Tarski universe. A Tarski universe $(V, T_V)$ is a **Tarski subuniverse** of $(U, T_U)$ if it comes with an [[embedding]] $t:V \hookrightarrow U$ and a dependent function
-$$p:\prod_{a:V} T_U(t(a)) \simeq T_V(a)$$
-
-This is equivalent to a family of Tarski universes $(U(i), T(i))$ indexed by terms $i:\mathbb{2}$ of the [[interval preorder]] $(\mathbb{2}, \leq_\mathbb{2})$, which comes with 
-
-* a dependent function
-$$t:\prod_{a:\mathbb{2}} \prod_{b:\mathbb{2}} (a \leq_\mathbb{2} b) \to (U(a) \hookrightarrow U(b))$$
-
-* a dependent function
-$$q:\prod_{a:\mathbb{2}} \prod_{b:\mathbb{2}} \prod_{p:a \leq_\mathbb{2} b} \prod_{A:U(a)} T(a)(A) \simeq T(b)(t(a, b)(p)(A))$$
-indicating that lifting each small type results in a type equivalent to the original small type. 
-
 ## Hierarchy of Tarski universes
 
 Let $P$ be a [[preorder]]. Then, a $P$-indexed hierarchy of Tarski universes is a type family $U$ such that for all indices $a:P$, there is a Tarski universe $(U(a), T(a))$, such that for all indices $a:P$ and $b:P$ and witnesses $p:a \leq_P b$, the Tarski universe $(U(a), T(a))$ is an essentially $U(b)$-small Tarski subuniverse of the Tarski universe $(U(b), T(b))$. 
@@ -131,42 +194,6 @@ $$t:\prod_{a:P} \prod_{b:P} (a \leq_P b) \to (U(a) \hookrightarrow U(b))$$
 $$q:\prod_{a:P} \prod_{b:P} \prod_{p:a \leq_P b} \prod_{A:U(a)} T(a)(A) \simeq T(b)(t(a, b)(p)(A))$$
 
 Usually, hierarchies of Tarski universes are indexed by the type of [[natural numbers]]. A type theory may have multiple hierarchies of type universes. 
-
-## Closure of Tarski universes under type formers
-
-There are many ways of defining type formers internally in a universe: 
-
-* by an equivalence or definitional equality with an existing global type former for the entire type theory. 
-
-* by translating the rules for the type former into internal structure on the universe
-
-* by using the [[universal properties]] corresponding to the [[categorical semantics]] of the types
-
-Using a definitional equality with an existing global type former for each type former results in a **strict Tarski universe**, while using equivalences for each type former results in a **weak Tarski universe**. There are also various Tarski universes where some type formers are strictly closed, and some type formers are only weakly closed, resulting in Tarski universes which are intermediate between strict Tarski universes and weak Tarski universes. 
-
-### Empty type
-
-Suppose that the type theory has an already existing empty type $\emptyset \; \mathrm{type}$. Then a Tarski universe is **weakly closed under the empty type** if there exists a term $\emptyset_U:U$ and an equivalence $\mathrm{smallemptytype}:T(\emptyset_U) \simeq \emptyset$. A Tarski universe is **strongly closed under the empty type** if there is a definitional equality $T(\emptyset_U) \equiv \emptyset$. 
-
-If the type theory does not have an already existing empty type, then a Tarski universe is **closed under the empty type** if there exists a term $\emptyset_U:U$ and for all functions $C:T(\emptyset_U) \to U$ and terms $p:T(\emptyset_U)$ there is a term $\mathrm{ind}_\emptyset^C(p):T(C(p))$, and for all other terms $u(p):T(C(p))$ there is an [[identification]] $\eta_\emptyset(p, u):u(p) =_{T(C(p))} \mathrm{ind}_\emptyset^C(p)$. 
-
-### Unit type
-
-Suppose that the type theory has an already existing unit type $\mathbb{1} \; \mathrm{type}$. Then a Tarski universe is **weakly closed under the unit type** if there exists a term $\mathbb{1}_U:U$ and an equivalence $\mathrm{smallunittype}:T(\mathbb{1}_U) \simeq \mathbb{1}$. A Tarski universe is **strongly closed under the unit type** if there is a definitional equality $T(\mathbb{1}_U) \equiv \mathbb{1}$. 
-
-### Booleans type
-
-Suppose that the type theory has an already existing booleans type $\mathbb{2} \; \mathrm{type}$. Then a Tarski universe is **weakly closed under the booleans type** if there exists a term $\mathbb{2}_U:U$ and an equivalence $\mathrm{smallbooleanstype}:T(\mathbb{2}_U) \simeq \mathbb{2}$. A Tarski universe is **strongly closed under the booleans type** if there is a definitional equality $T(\mathbb{2}_U) \equiv \mathbb{2}$. 
-
-### Natural numbers type
-
-Suppose that the type theory has an already existing natural numbers type $\mathbb{N} \; \mathrm{type}$. Then a Tarski universe is **weakly closed under the natural numbers type** if there exists a term $\mathbb{N}_U:U$ and an equivalence $\mathrm{smallnaturalnumberstype}:T(\mathbb{N}_U) \simeq \mathbb{N}$. A Tarski universe is **strongly closed under the natural numbers type** if there is a definitional equality $T(\mathbb{N}_U) \equiv \mathbb{N}$. 
-
-### Identity types
-
-### Dependent function types
-
-### Dependent sum types
 
 ## Modalities and comodalities
 
@@ -216,6 +243,9 @@ Other mathematical structures and their univalent counterparts:
 * {#Gallozzi14} [[Cesare Gallozzi]], *Constructive Set Theory from a Weak Tarski Universe*, MSc thesis (2014) ([arXiv:1411.5591](http://xxx.tau.ac.il/abs/1411.5591))
 
 * {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([pdf](https://raw.githubusercontent.com/martinescardo/HoTTEST-Summer-School/main/HoTT/hott-intro.pdf)) (478 pages)
+
+* {#UFP13} *Homotopy Type Theory: Univalent Foundations of Mathematics*,
+The Univalent Foundations Program, Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
 
 * {#RSS17} [[Egbert Rijke]], [[Mike Shulman]], [[Bas Spitters]], _[[Modalities in homotopy type theory]]_ ([arXiv:1706.07526](https://arxiv.org/abs/1706.07526))
 
