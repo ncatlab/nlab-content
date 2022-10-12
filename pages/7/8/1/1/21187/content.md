@@ -8,7 +8,7 @@ On [[magic supergravity]]:
 
 * {#CacciatoriCerchiaiMarrani12} Sergio L. Cacciatori, [[Bianca Cerchiai]], Alessio Marrani, _Squaring the Magic_ ([arXiv:1208.6153](http://arxiv.org/abs/1208.6153))
 
-\bibitem{CacciatoriCerchiaiMarrani2013}
+* {#CacciatoriCerchiaiMarrani2013} Sergio L. Cacciatori, [[Bianca Cerchiai]], Alessio Marrani, _Magic coset decompositions_, Adv. Theor. Math. Phys. 17, No. 5, 1077-1128 (2013) ([doi:10.4310/ATMP.2013.v17.n5.a4](https://doi.org/10.4310/ATMP.2013.v17.n5.a4))
 
 On [[SU(N)]]-[[Skyrmions]]:
 
