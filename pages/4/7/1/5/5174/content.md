@@ -37,7 +37,7 @@ Throughout $\mathcal{S}$ is some base [[topos]] or [[(∞,1)-topos]] and all not
 +-- {: .un_defn}
 ###### Definition
 
-(Lawvere, see Definition 1.3.4 in Bunge and Funk \cite{SCT}.)
+(Lawvere, see Definition 1.3.4 in [Bunge and Funk](#SCT).)
 
 Let $\mathcal{E}$ and $\mathcal{K}$ be [[(∞,1)-toposes]] over [[Set]] (more generally, over an [[elementary topos]] $S$ with a [[natural numbers object]]). A **distribution** on $\mathcal{E}$ with values in $\mathcal{K}$ is
 an [[(∞,1)-cosheaf]] on $E$ with values in $K$, i.e.,
@@ -171,7 +171,7 @@ The 1-categorical notion has been described by [[Bill Lawvere]] in a series of t
 
 A comprehensive discussion is in
 
-* [[Marta Bunge]] and [[Jonathon Funk]], _Singular coverings of toposes_ , Lecture Notes in Mathematics vol. 1890 Springer Heidelberg (2006). (chap. 1)
+* {#SCT} [[Marta Bunge]] and [[Jonathon Funk]], _Singular coverings of toposes_ , Lecture Notes in Mathematics vol. 1890 Springer Heidelberg (2006). (chap. 1)
 
 See also:
 
