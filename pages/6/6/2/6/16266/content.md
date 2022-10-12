@@ -105,7 +105,7 @@ a category is _precontinuous_
 if it admits small limits and filtered colimits,
 and the functor $colim: Ind(C)\to C$ is continuous.
 
-According to Theorem 2.1 in \cite{ARVloc},
+According to Theorem 2.1 in [ARVloc](#ARVloc),
 a category is precontinuous if and only if it has small [[limits]]
 and [[filtered colimits]], [[filtered colimits]] commute with finite [[limits]],
 and small [[products]] distribute over [[filtered colimits]].
