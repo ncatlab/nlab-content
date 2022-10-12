@@ -38,14 +38,14 @@ $$G(A)=\{x\in 1+\bar A\mid \Delta x=x\hat\otimes x\}$$
 of _group-like elements_ in $A$.
 Its [[left adjoint functor]] sends a [[group]] to the completion
 of its [[group algebra]].
-(See Proposition A.2.5 in Quillen \cite{Quillen}.)
+(See Proposition A.2.5 in [Quillen](#Quillen).)
 
 In the case $k=\mathbf{Q}$,
 the forgetful functor is [[fully faithful]] and its [[essential image]]
 comprises precisely [[Malcev groups]].
 Thus, the category of rational complete Hopf algebras
 is equivalent to the category of [[Malcev groups]].
-(Theorem A.3.3 in Quillen \cite{Quillen}.)
+(Theorem A.3.3 in [Quillen](#Quillen).)
 
 The [[monad]] induced by the [[adjunction]] between
 groups and complete Hopf algebras
@@ -58,14 +58,14 @@ $$P(A)=\{x\in \bar A\mid \Delta x=x\hat\otimes 1+1\hat\otimes x\}$$
 of _primitive elements_ in $A$.
 Its [[left adjoint functor]] sends a [[Lie algebra]] to the completion
 of its [[universal enveloping algebra]].
-(See Proposition A.2.5 in Quillen \cite{Quillen}.)
+(See Proposition A.2.5 in [Quillen](#Quillen).)
 
 In the case $k$ has characteristic 0,
 the forgetful functor is [[fully faithful]] and its [[essential image]]
 comprises precisely [[Malcev Lie algebras]].
 Thus, the category of complete Hopf algebras over a [[field]] of characteristic 0
 is equivalent to the category of [[Malcev Lie algebras]] over the same [[field]].
-(Theorem A.3.3 in Quillen \cite{Quillen}.)
+(Theorem A.3.3 in [Quillen](#Quillen).)
 
 ## Properties in the case of zero characteristic
 
@@ -101,6 +101,6 @@ $k$-[[module]] of $P(A)$ via the exponential isomorphism.
 
 ## References
 
-* [[Daniel Quillen]], _Rational homotopy theory_, Annals of Mathematics 90:2 (1969), 205.  [doi](http://dx.doi.org/10.2307/1970725).
+* {#Quillen} [[Daniel Quillen]], _Rational homotopy theory_, Annals of Mathematics 90:2 (1969), 205.  [doi](http://dx.doi.org/10.2307/1970725).
 
 [[!redirects complete Hopf algebras]]
