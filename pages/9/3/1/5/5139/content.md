@@ -36,7 +36,7 @@ is a graded-commutative algebra over the integers, but the the [[singular cohomo
 A concrete construction of an $E_\infty$-algebra structure
 on [[singular cochains]], and, more generally,
 [[simplicial cochains]] of a [[simplicial set]]
-can be found in McClure and Smith \cite{MCO}.
+can be found in [McClure and Smith](#MCO).
 Their work gives a precise description of the involved __sequence operad__, which is an $E_\infty$-operad,
 as well as its action on [[simplicial cochains]],
 which involves a generalization of Steenrod's cup-$i$ products.
@@ -110,11 +110,7 @@ See _[[symmetric monoidal (∞,n)-category]]_.
 * [[Peter May]], _The geometry of iterated loop spaces_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/gils.pdf))
 {#May}
 
-\bibitem{MCO}
-[[James E. McClure]], [[Jeffrey H. Smith]],
-_Multivariable cochain operations and little $n$-cubes__,
-[arXiv](https://arxiv.org/abs/math/0106024),
-[Journal of the AMS 16:3 (2003), 681–704](https://doi.org/10.1090/S0894-0347-03-00419-3).
+* {#MCO} [[James E. McClure]], [[Jeffrey H. Smith]], _Multivariable cochain operations and little $n$-cubes__,[arXiv](https://arxiv.org/abs/math/0106024), [Journal of the AMS 16:3 (2003), 681–704](https://doi.org/10.1090/S0894-0347-03-00419-3).
 
 * [[Mike Mandell]], _Cochains and homotopy type_, Publ. Math. IHES (2006) 103: 213&#8211;246.  ([arXiv](https://arxiv.org/abs/math/0311016)) 
 {#Mandell}
