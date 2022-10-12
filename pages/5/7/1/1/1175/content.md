@@ -159,7 +159,7 @@ A faithful representation (in fact, the standard from) of $L^\infty(X) \hookrigh
 
 The category of von Neumann algebras is not a [[locally presentable category]]
 since its [[small objects]] are precisely von Neumann algebras of dimension 0 and 1.
-See Theorem 4.2 in Chirvasitu–Ko \cite{CK}.
+See Theorem 4.2 in [Chirvasitu–Ko](#CK).
 
 The [[forgetful functor]] from von Neumann algebras
 to [[sets]] that sends a von Neumann algebra
