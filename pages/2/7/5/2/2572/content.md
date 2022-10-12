@@ -88,9 +88,10 @@ See
 
 * Wikipedia, _[Stone-Weierstrass theorem](https://en.wikipedia.org/wiki/Stone%E2%80%93Weierstrass_theorem)_
 
-Discussion in [[constructive mathematics]] is in
+Discussion in [[constructive mathematics]]:
 
-* [[B. Banaschewski]], [[C. J. Mulvey]], _A constructive proof of the Stone-Weierstrass theorem_, J. Pure Appl. Algebra __116__ (1997), pp. 25&#8211;40, <a href="doi:10.1016/S0022-4049(96)00160-0">doi</a>
+* [[B. Banaschewski]], [[C. J. Mulvey]], *A constructive proof of the Stone-Weierstrass theorem*, J. Pure Appl. Algebra __116__ (1997) 25-40 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(96)00160-0">doi:10.1016/S0022-4049(96)00160-0</a>&rbrack;
+
 
 [[!redirects Stone–Weierstrass theorem]]
 [[!redirects Stone--Weierstrass theorem]]
