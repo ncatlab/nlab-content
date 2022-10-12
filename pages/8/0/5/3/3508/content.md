@@ -92,13 +92,15 @@ Multidimensional generalizations of Painlev&#233; VI are introduced in
 
 * G. Aminov, S. Arthamonov, A. Levin, M. Olshanetsky, A. Zotov, _Painlev&#233; field theory_, [arXiv/1306.3265](https://arxiv.org/abs/1306.3265)
 * Nalini Joshi, Pieter Roffelsen, _On the monodromy manifold of $q$-Painlevé VI and its Riemann-Hilbert problem_, [arXiv/2202.10597](https://arxiv.org/abs/2202.10597)
+* Nikita Nekrasov, _Blowups in BPS/CFT correspondence, and Painlevé VI_, [arXiv:2007.03646](https://arxiv.org/abs/2007.03646)
+
 
 #### Model-theoretic aspects
 
 * Joel Nagloo, _Geometric triviality of the strongly minimal second Painlevé equations_ Annals of Pure and Applied Logic, 166(3):358–368, 2015.
 * J. Nagloo, A. Pillay, _On  the  algebraic  independence  of  generic  Painlevé transcendents_, Compos.Math. __150__ (2014) 668-678.
 * James Freitag, _Algebraic relations between solutions of Painlevé equations_, [arXiv:1710.03304](https://arXiv.org/abs/1710.03304)
-* Guy Casale, James Freitag, Joel Nagloo, _Ax-Lindemann-Weierstrass with derivatSives and the genus 0 Fuchsian groups_, Annals of Mathematics __192__ (2020), 721–765 [doi](https://doi.org/10.4007/annals.2020.192.3.2)
+* Guy Casale, James Freitag, Joel Nagloo, _Ax-Lindemann-Weierstrass with derivatives and the genus 0 Fuchsian groups_, Annals of Mathematics __192__ (2020), 721–765 [doi](https://doi.org/10.4007/annals.2020.192.3.2)
 
 [[!redirects Painlev%C3%A9 transcendent]]
 [[!redirects Painlev%C3%A9 transcendents]]
