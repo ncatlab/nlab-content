@@ -224,26 +224,45 @@ $$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \bet
 Uniqueness rules for Sigma types:
 $$\frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash \eta_\Sigma:z =_{\sum_{x:A} B(x)} (\pi_1(z), \pi_2(z))}$$
 
+### isProp types
+
+In set theory, a set is a [[subsingleton]] if it has at most one element up to [[equality]]: every two elements in the set are equal to each other. 
+
+These same definitions carry over to objective type theory: a type $T$ is a subsingleton or an [[h-proposition]] if for all $x:T$ and $y:T$ there is an element $p(x, y):x =_T y$. 
+
+This motivates the definition of $\mathrm{isProp}$ types, whose elements $p:\mathrm{isProp}(T)$ are proofs that $T$ is a proposition. 
+
+Formation rules for isProp types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \times A \vdash \pi_1(x) =_A \pi_2(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}}$$
+
+Introduction rules for isProp types:
+$$\frac{\Gamma, x:A \times A \vdash p(x):\pi_1(x) =_A \pi_2(x)}{\Gamma \vdash \lambda x.p(x):\mathrm{isProp}(A)}$$
+
+Elimination rules for isProp types:
+$$\frac{\Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma \vdash a:A \times A}{\Gamma \vdash p(a):\pi_1(a) =_A \pi_2(a)}$$
+
+Computation rules for isProp types:
+$$\frac{\Gamma, x:A \times A \vdash p(x):\pi_1(x) =_A \pi_2(x) \quad \Gamma \vdash a:A \times A}{\Gamma \vdash \beta_\mathrm{isProp}:(\lambda x.p(x))(a) =_{B(a)} p(a)}$$
+
+Uniqueness rules for isProp types:
+$$\frac{\Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \eta_\mathrm{isProp}:p =_{\mathrm{isProp}(A)} \lambda x.p(x)}$$
+
 ### Equivalences
 
-In set theory, a set is a [[pointed set]] if it has at least one chosen element; it is a [[subsingleton]] if it has at most one element up to [[equality]]: every two elements in the set are equal to each other, and it is a [[singleton]] if it has exactly one element up to equality: it is a pointed set and a singleton. 
+In set theory, a set is a [[pointed set]] if it has at least one chosen element, and it is a [[singleton]] if it has exactly one element up to equality: it is a pointed set and a subsingleton. 
 
-These same definitions carry over to objective type theory: A type $T$ is a [[pointed type]] if it has a chosen element $a:T$, a type $T$ is a subsingleton if for every two elements $a:T$ and $b:T$, there is an [[identification]] $f(a, b):a =_T b$, or equivalently, there is a dependent function
-$$f:\prod_{a:T} \prod_{b:T} a =_T b$$
-and a type $T$ is a singleton if it has both an element $p:T$ and a dependent function
-$$f:\prod_{a:T} \prod_{b:T} a =_T b$$
-or equivalently, an element
-$$c:T \times \prod_{a:T} \prod_{b:T} a =_T b$$
+These same definitions carry over to objective type theory: A type $T$ is a [[pointed type]] if it has a chosen element $a:T$, a type $T$ is a singleton if it has both an element $p_*:T$ and an element $q:\mathrm{isProp}(T)$, or equivalently, an element
+$$c:T \times \mathrm{isProp}(T)$$
 
 In set theory, the [[fiber]] of a function $f$ with [[domain]] $A$ and [[codomain]] $B$ at an element $b$ in $B$ is the indexed [[disjoint union]] of all elements $a:A$ such that $f(a) = b$. This definition could also be translated into objective type theory: the fiber of a function $f:A \to B$ at the element $b:B$ is the type 
 $$\sum_{a:A} f(a) =_B b$$
 
 In set theory, a function is a [[bijection]] if all its fibers at every element of the codomain are singletons. This definition can be translated over to objective type theory, but the name used for such a function in objective type theory is [[equivalence in homotopy type theory|equivalence]]: A function $f:A \to B$ is an equivalence if there is an element
-$$c(f):\prod_{b:B} \left(\sum_{a:A} f(a) =_B b \right) \times \prod_{p:\sum_{a:A} f(a) =_B b} \prod_{q:\sum_{a:A} f(a) =_B b} p =_{\sum_{a:A} f(a) =_B b} q$$
+$$c(f):\prod_{b:B} \left(\sum_{a:A} f(a) =_B b \right) \times \mathrm{isProp}\left(\sum_{a:A} f(a) =_B b\right)$$
 
 The type of equivalences is given by 
 
-$$\sum_{f:A \to B} \prod_{b:B} \left(\sum_{a:A} f(a) =_B b \right) \times \prod_{p:\sum_{a:A} f(a) =_B b} \prod_{q:\sum_{a:A} f(a) =_B b} p =_{\sum_{a:A} f(a) =_B b} q$$
+$$\sum_{f:A \to B} \prod_{b:B} \left(\sum_{a:A} f(a) =_B b \right) \times \mathrm{isProp}\left(\sum_{a:A} f(a) =_B b\right)$$
 
 ### Definitions
 
@@ -260,13 +279,13 @@ $$\frac{\mathcal{D}}{\Gamma \vdash A \; \mathrm{type}}$$
 if we wish to make a definition $B \coloneqq A$, then we can similarly extend the derivation tree with 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash B \coloneqq A \; \mathrm{type}}$$
 The effect of such a definition in this case is that we have extended our type theory with a new constant $B$, for which the following inference rules are valid 
-$$\frac{\mathcal{D}}{B \; \mathrm{type}} \qquad \frac{\mathcal{D}}{\mathrm{defequiv}(B, A): \sum_{f:B \to A} \prod_{a:A} \left(\sum_{b:B} f(b) =_A a \right) \times \prod_{p:\sum_{b:B} f(b) =_A a} \prod_{q:\sum_{b:B} f(b) =_A a} p =_{\sum_{b:B} f(b) =_A a} q}$$
+$$\frac{\mathcal{D}}{B \; \mathrm{type}} \qquad \frac{\mathcal{D}}{\mathrm{defequiv}(B, A): \sum_{f:B \to A} \prod_{a:A} \left(\sum_{b:B} f(b) =_A a \right) \times \mathrm{isProp}\left(\sum_{b:B} f(b) =_A a\right)}$$
 
 In essence, we define an element $b$ to be equal to $a$, and a type $B$ to be equivalent to $A$, in the same way that in [[structural set theory]], which usually also doesn't have [[definitional equality]], one would define element $b$ to be equal to $a$ and set $B$ to be in [[bijection]] with $A$. 
 
 This allows us to define and use constants for certain long and unwieldy types, such as the type of equivalences defined in the previous section:
 
-$$A \simeq B \coloneqq \sum_{f:A \to B} \prod_{b:B} \left(\sum_{a:A} f(a) =_B b \right) \times \prod_{p:\sum_{a:A} f(a) =_B b} \prod_{q:\sum_{a:A} f(a) =_B b} p =_{\sum_{a:A} f(a) =_B b} q$$
+$$A \simeq B \coloneqq \sum_{f:A \to B} \prod_{b:B} \left(\sum_{a:A} f(a) =_B b \right) \times \mathrm{isProp}\left(\sum_{a:A} f(a) =_B b\right)$$
 
 ### Transport
 
