@@ -36,13 +36,13 @@ We work in [[intensional type theory|intensional]] [[type theory]] with [[depend
 
 For $f\colon A\to B$ a [[term]] of [[function type]]; we define new [[dependent types]] as follows:
 
-the [[homotopy fiber]]
+the [[homotopy fiber type]]
 
 $$
   f \colon A \to B, b\colon B \vdash hfiber(f,b) \coloneqq \sum_{a\colon A} (f(a) = b)
 $$
 
-and the [[proposition]] that the homotopy fiber is a (dependently) [[contractible type]]:
+and the [[proposition]] that the homotopy fiber type is a (dependently) [[contractible type]]:
 
 $$
   f \colon A \to B 
@@ -55,7 +55,7 @@ We say $f$ is an **equivalence** if $isEquiv(f)$ is an [[inhabited type]].
 
 =--
 
-That is, a function is an equivalence if all of its [[homotopy fibers]] are [[contractible types]] (in a way which depends continuously on the base point).
+That is, a function is an equivalence if all of its [[homotopy fiber types]] are [[contractible types]] (in a way which depends continuously on the base point).
 
 +-- {: .num_defn}
 ###### Definition
