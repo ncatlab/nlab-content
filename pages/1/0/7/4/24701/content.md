@@ -271,17 +271,36 @@ $$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b:\mathrm{isProp}(A)}{\Gamma \vdas
 Uniqueness rules for isContr types:
 $$\frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \eta_\times:z =_{\mathrm{isContr}(A)} (\pi_1(z), \pi_2(z))}$$
 
-### Equivalences
+### Fiber types
 
 In set theory, the [[fiber]] of a function $f$ with [[domain]] $A$ and [[codomain]] $B$ at an element $b$ in $B$ is the indexed [[disjoint union]] of all elements $a:A$ such that $f(a) = b$. This definition could also be translated into objective type theory: the fiber of a function $f:A \to B$ at the element $b:B$ is the type 
 $$\sum_{a:A} f(a) =_B b$$
 
+This motivates the definition of fiber types, whose elements $p:\mathrm{fiber}_{A, B}(f, y)$ are the fibers of the function $f:A \to B$ at element $y:B$
+
+Formation rules for fiber types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B, y:B, x:A \vdash f(x) =_B y \; \mathrm{type}}{\Gamma, f:A \to B, y:B \vdash \mathrm{fiber}_{A, B}(f, y) \; \mathrm{type}}$$
+
+Introduction rules for fiber types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B, y:B, x:A \vdash b(x):f(x) =_B y \quad \Gamma \vdash a:A \quad \Gamma, f:A \to B, y:B \vdash p:f[a/x] =_B y}{\Gamma, f:A \to B, y:B \vdash (a, b):\mathrm{fiber}_{A, B}(f, y)}$$
+
+Elimination rules for fiber types:
+$$\frac{\Gamma, f:A \to B, y:B \vdash z:\mathrm{fiber}_{A, B}(f, y)}{\Gamma \vdash \pi_1(z):A} \qquad \frac{\Gamma, f:A \to B, y:B \vdash z:\mathrm{fiber}_{A, B}(f, y)}{\Gamma, f:A \to B, y:B \vdash \pi_2(z):f(\pi_1(z)) =_B y}$$
+
+Computation rules for fiber types:
+$$\frac{\Gamma, f:A \to B, y:B, x:A \vdash b(x):f(x) =_B b \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{\Sigma 1}:\pi_1(a, b) =_A a} \qquad \frac{\Gamma, f:A \to B, y:B, x:A \vdash b(x):f(x) =_B y \quad \Gamma \vdash a:A}{\Gamma, f:A \to B, y:B \vdash \beta_{\Sigma 2}:\pi_2(a, b) =_{f(\pi_1(a, b)) =_B y} b}$$
+
+Uniqueness rules for fiber types:
+$$\frac{\Gamma, f:A \to B, y:B \vdash z:\mathrm{fiber}_{A, B}(f, y)}{\Gamma, f:A \to B, y:B \vdash \eta_\Sigma:z =_{\mathrm{fiber}_{A, B}(f, y)} (\pi_1(z), \pi_2(z))}$$
+
+### Equivalences
+
 In set theory, a function is a [[bijection]] if all its fibers at every element of the codomain are singletons. This definition can be translated over to objective type theory, but the name used for such a function in objective type theory is [[equivalence in homotopy type theory|equivalence]]: A function $f:A \to B$ is an equivalence if there is an element
-$$c(f):\prod_{b:B} \mathrm{isContr}\left(\sum_{a:A} f(a) =_B b\right)$$
+$$c(f):\prod_{b:B} \mathrm{isContr}(\mathrm{fiber}_{A, B}(f, b))$$
 
 The type of equivalences is given by 
 
-$$\sum_{f:A \to B} \prod_{b:B} \mathrm{isContr}\left(\sum_{a:A} f(a) =_B b\right)$$
+$$\sum_{f:A \to B} \prod_{b:B} \mathrm{isContr}(\mathrm{fiber}_{A, B}(f, b))$$
 
 ### Definitions
 
@@ -298,13 +317,13 @@ $$\frac{\mathcal{D}}{\Gamma \vdash A \; \mathrm{type}}$$
 if we wish to make a definition $B \coloneqq A$, then we can similarly extend the derivation tree with 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash B \coloneqq A \; \mathrm{type}}$$
 The effect of such a definition in this case is that we have extended our type theory with a new constant $B$, for which the following inference rules are valid 
-$$\frac{\mathcal{D}}{B \; \mathrm{type}} \qquad \frac{\mathcal{D}}{\mathrm{defequiv}(B, A): \sum_{f:B \to A} \prod_{a:A} \mathrm{isContr}\left(\sum_{b:B} f(b) =_A a\right)}$$
+$$\frac{\mathcal{D}}{B \; \mathrm{type}} \qquad \frac{\mathcal{D}}{\mathrm{defequiv}(B, A): \sum_{f:B \to A} \prod_{a:A} \mathrm{isContr}(\mathrm{fiber}_{A, B}(f, b))}$$
 
 In essence, we define an element $b$ to be equal to $a$, and a type $B$ to be equivalent to $A$, in the same way that in [[structural set theory]], which usually also doesn't have [[definitional equality]], one would define element $b$ to be equal to $a$ and set $B$ to be in [[bijection]] with $A$. 
 
 This allows us to define and use constants for certain long and unwieldy types, such as the type of equivalences defined in the previous section:
 
-$$A \simeq B \coloneqq \sum_{f:A \to B} \prod_{b:B} \mathrm{isContr}\left(\sum_{a:A} f(a) =_B b\right)$$
+$$A \simeq B \coloneqq \sum_{f:A \to B} \prod_{b:B} \mathrm{isContr}(\mathrm{fiber}_{A, B}(f, b))$$
 
 ### Transport
 
