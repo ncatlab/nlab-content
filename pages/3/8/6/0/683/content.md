@@ -41,7 +41,7 @@ Maybe the most commonly encountered setup for homotopy limits is that where the 
 ## Terminology
  {#Terminology}
 
-In older literature, such as the original work of Bousfield–Kan \cite{BousfieldKan}, the homotopy limit of a diagram $X\colon I\to sSet$ is defined as the [[weighted limit]]
+In older literature, such as the original work of [Bousfield–Kan](#BousfieldKan), the homotopy limit of a diagram $X\colon I\to sSet$ is defined as the [[weighted limit]]
 $$hom(I/-, X),$$
 where the weight $I/-$ sends $i\mapsto N(I/i)$, the [[nerve]] of the [[comma category]] of $i$ (for more see the section "[Resolved (co)ends](#ResolvedCoEnds)" *[[Bousfield-Kan map]]*).
 
