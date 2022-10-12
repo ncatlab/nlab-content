@@ -15,7 +15,7 @@
 
 ## Scope
 
-In the philosophical part of $n$Lab we discuss [[higher algebra]], [[homotopy theory]], [[type theory]], [[category theory]], and [[higher category theory]] and its repercussions in philosophy. More widely, the entries on philosophy in nLab should also contain [[philosophy of mathematics]] in general, and of [[logic and foundations]] in particular. As it is usual for philosophy and the study of thought, it is usefully carried on via study of historical thinkers and their ideas, hence some idea-related aspects of the [[history of mathematics]] are welcome. 
+In the philosophical part of $n$Lab we already discuss [[higher algebra]], [[homotopy theory]], [[type theory]], [[category theory]], and [[higher category theory]] and its repercussions in philosophy. More widely, the entries on philosophy in $n$Lab would be nice to contain [[philosophy of mathematics]] in general, and of [[logic and foundations]] in particular. As it is usual for philosophy and the study of thought, it is usefully carried on via study of historical thinkers and their ideas, hence some idea-related aspects of the [[history of mathematics]] are welcome. 
 
 ## Nonscope
 
@@ -148,6 +148,8 @@ Selected Essays of Yuri Manin_, Amer. Math. Soc. 2007
 * [[Roland Omnès]], _[[Converging Realities -- Toward a common philosophy of physics and mathematics]]_, Princeton University Press, 2005
 
 * {#Corfield20} [[David Corfield]], _Modal homotopy type theory_, Oxford University Press 2020 ([ISBN: 9780198853404](https://global.oup.com/academic/product/modal-homotopy-type-theory-9780198853404))
+
+* Fernando Zalamea (editor), _Rondas en Sais. Ensayos sobre matemáticas y cultura contemporánea._ (Essays on mathematics and contemporary culture, by Moreno, Javier; de Lorenzo, Javier; Villaveces, Andrés; Pérez, Jesús Hernando; Restrepo, Gabriel; Cruz Morales, John Alexánder; Vargas, Francisco; Oostra, Arnold; Ferreirós, José; Zalamea, Fernando; Martín, Alejandro) Universidad Nacional de Colombia, Facultad de Ciencias Humanas 2012 [pdf](https://repositorio.unal.edu.co/bitstream/handle/unal/78631/9789587618693.pdf)
 
 ### Articles 
 
