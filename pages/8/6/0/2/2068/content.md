@@ -20,8 +20,7 @@
 
 ## Idea
 
-The original definition by Gabriel–Zisman (Definition IV.2.1.4 \cite{GabrielZisman67})
-defined __anodyne extensions__ as the [[weak saturation]] of [[simplicial horn]] inclusions.
+The original definition by [Gabriel–Zisman](#GabrielZisman67) (Definition IV.2.1.4) defined __anodyne extensions__ as the [[weak saturation]] of [[simplicial horn]] inclusions.
 
 More generally, the same definition can be used to talk about the [[weak saturation]] of any set $S$ of morphisms
 in any category.  One also talks about _anodyne maps_ or _anodyne morphisms_.
