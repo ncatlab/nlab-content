@@ -8,7 +8,7 @@ Automorphisms of $\overline{F}$ which fix $F$ are fundamental in [[Galois theory
 
 \section{Definition}
 
-There are slightly different ways to give a precise definition. We choose the following formulation (see \cite{Mochizuki2015} for example, although the notion goes back at least to the era of [[André Weil]]).  
+There are slightly different ways to give a precise definition. We choose the following formulation (see [Mochizuki2015](#Mochizuki2015) for example, although the notion goes back at least to the era of [[André Weil]]).  
 
 \begin{defn} \label{DefinitionFieldOfModuli} Let $X$ be a [[curve]] in the sense of algebraic geometry, defined over a [[field]] $F / \mathbb{Q}$. Given an automorphism $\sigma$ of $\overline{F}$, one can ask that the [[scheme]] $X_{\overline{F}} = X \times_{F} \overline{F}$ (where the projection morphisms are the obvious ones) is isomorphic to the [[base change]] of $X_{\overline{F}}$ along $\sigma$. The _field of moduli_ of $X$ with respect to $F$ is the sub-field of $\overline{F}$ fixed by all such automorphisms  $\sigma$ which belong to the [[Galois group]] $Gal\left(\overline{F} / \mathbb{Q} \right)$, namely which fix $\mathbb{Q}$. \end{defn}
 
