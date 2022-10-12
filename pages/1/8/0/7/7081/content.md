@@ -50,6 +50,24 @@ The following are two provably [[equivalence in homotopy type theory|equivalent]
 
 The first fits into the general [[inductive definition]] of [[n-groupoid]]: an $\infty$-groupoid is an $n$-groupoid if all its hom-groupoids are $(n-1)$-groupoids.  The second says that being a proposition is equivalent to being "[[contractible]] if [[inhabited]]".
 
+### Rules for isProp
+
+If the [[dependent type theory]] doesn't have [[dependent function types]], but still has [[identity types]] and [[product types]], one could still define isProp by adding the formation, introduction, elimination, computation, and uniqueness rules for isProp:
+
+Formation rules for isProp types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \times A \vdash \pi_1(x) =_A \pi_2(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}}$$
+
+Introduction rules for isProp types:
+$$\frac{\Gamma, x:A \times A \vdash p(x):\pi_1(x) =_A \pi_2(x)}{\Gamma \vdash \lambda(x:A \times A).p(x):\mathrm{isProp}(A)}$$
+
+Elimination rules for isProp types:
+$$\frac{\Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma \vdash a:A \times A}{\Gamma \vdash p(a):\pi_1(a) =_A \pi_2(a)}$$
+
+Computation rules for isProp types:
+$$\frac{\Gamma, x:A \times A \vdash p(x):\pi_1(x) =_A \pi_2(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_\mathrm{isProp}:(\lambda(x:A \times A).p(x))(a) =_{\pi_1(a) =_A \pi_2(a)} p(a)}$$
+
+Uniqueness rules for isProp types:
+$$\frac{\Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \eta_\mathrm{isProp}:p =_{\mathrm{isProp}(A)} \lambda(x).p(x)}$$
 
 ## Properties
 
