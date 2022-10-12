@@ -99,13 +99,6 @@ Various versions of this are known in other settings, e.g. $SSet$-enriched categ
 
 Note, though, that the coherence supplied by Vogt's lemma is not required to continue to higher levels. There is no condition of compatibilty between the two 'homotopies between the homotopies'.  In some situations, at least, some higher compatibility is known to be derivable; for instance, any biequivalence in a [[3-category]] can be improved to an adjoint biequivalence.
 
-+--{.query}
-[[Tim]]: I do not know if there is a neat formulation of the full homotopy coherent version of this, nor exactly in what settings the analogous abstract versions of Vogt's lemma go across
-
-[[Mike Shulman]]: I think there's a "full coherentification" version for quasicategories in HTT somewhere.
-=--
-
-
 Vogt's Lemma plays a key role in the proof of Vogt's theorem (cf. [[homotopy coherent diagram]]s).
 
 ## Related concepts
