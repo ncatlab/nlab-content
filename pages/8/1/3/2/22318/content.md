@@ -20,4 +20,4 @@ There are slightly different ways to give a precise definition. We choose the fo
 
 Definition \ref{DefinitionFieldOfModuli} is 5.1 (ii) in the following. 
 
-\bibitem{Mochizuki2015}
+* {#Mochizuki2015} [[Shinichi Mochizuki]], _Topics in absolute anabelian geometry. III: Global reconstruction algorithms_, J. Math. Sci., Tokyo 22, No. 4, 939-1156 (2015)
