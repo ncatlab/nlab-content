@@ -58,7 +58,7 @@ An infinitary pretopos (perhaps with [[well-powered category|well-poweredness]] 
 Of course, any [[topos]] is a [[pretopos]], so any example there is an example of a [[pretopos]].
 
 An example of a pretopos that is not a [[topos]] is the [[category]]
-of [[compact Hausdorff spaces]] \cite{MarraReggio}.
+of [[compact Hausdorff spaces]] ([MarraReggio](#MarraReggio)).
 
 ## Properties
 
