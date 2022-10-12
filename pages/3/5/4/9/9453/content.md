@@ -36,12 +36,16 @@ from
 
 * [web](http://www.docentes.unal.edu.co/fzalameat)
 
-* Fernando Zalamea, _Filosof&#237;a sint&#233;tica de las matem&#225;ticas contempor&#225;neas_, (Spanish) Obra Selecta. Editorial Universidad Nacional de Colombia, Bogot&#225;, 2009. 231 pp. [MR2599170](http://www.ams.org/mathscinet-getitem?mr=2599170), ISBN: 978-958-719-206-3, [pdf](&lt;http://files.acervopeirceano.webnode.es/200000065-18c1b19bb9/Zalamea-Fil-Sint-Mat-Cont.pdf>). Transl. into English by Zachary Luke Fraser: _Synthetic philosophy of contemporary mathematics_, Sep. 2011. [bookpage](http://www.urbanomic.com/pub_syntheticmath.php). Some excerpts are [here](http://ifile.it/2c3qgz5) (pdf). 
+* Fernando Zalamea, _Filosof&#237;a sint&#233;tica de las matem&#225;ticas contempor&#225;neas_, (Spanish) Obra Selecta. Editorial Universidad Nacional de Colombia, Bogot&#225;, 2009. 231 pp. [MR2599170](http://www.ams.org/mathscinet-getitem?mr=2599170), ISBN: 978-958-719-206-3, [pdf](&lt;http://files.acervopeirceano.webnode.es/200000065-18c1b19bb9/Zalamea-Fil-Sint-Mat-Cont.pdf>). Transl. into English by Zachary Luke Fraser: _Synthetic philosophy of contemporary mathematics_, Sep. 2011. [bookpage](http://www.urbanomic.com/pub_syntheticmath.php). 
 * G. Maddalena, F. Zalamea, _A new analytic/synthetic/horotic paradigm. From mathematical gesture to synthetic/horotic reasoning._, European journal of pragmatism and American philosphy 2009 [pdf](http://lnx.journalofpragmatism.eu/wp-content/uploads/2012/12/18_maddalena_zalamea.pdf)
 * Fernando Zalamea Traba, _Ariada y Pen&#233;lope. Redes y mixturas en el mundo contempor&#225;neo_, 2004 	
 * Fernando Zalamea Traba, _America &#8211; una trama integral: Transversalidad, bordes y abismos en la cultura americana, siglos XIX y XX_, Biblioteca abierta. Estudios interdisciplinarios 2009
-* F. Zalamea, Versus Laboratory Seminar 24: _Sheaf Logic & Philosophical Synthesis_, mp3 audio file &lt;https://archive.org/download/VersusLaboratorySeminar24SheafLogicPhilosophicalSynthesisWith/Sem24-FernandoZalamea_02.mp3>
+* F. Zalamea, Versus Laboratory Seminar 24: _Sheaf Logic & Philosophical Synthesis_, [mp3 audio](https://archive.org/download/VersusLaboratorySeminar24SheafLogicPhilosophicalSynthesisWith/Sem24-FernandoZalamea_02.mp3)
 * [[Giuseppe Longo]], _[Synthetic Philosophy of Mathematics and Natural Sciences: Conceptual Analyses from a Grothendieckian Perspective. (Reflections on "Synthetic Philosophy of Contemporary Mathematics" by Fernando Zalamea).](http://www.di.ens.fr/users/longo/files/PhilosophyAndCognition/Review-Zalamea-Grothendieck.pdf)_ 
+* Fernando Zalamea (editor), _Rondas en Sais. Ensayos sobre matemáticas y cultura contemporánea._ (Essays on mathematics and contemporary culture, by Moreno, Javier; de Lorenzo, Javier; Villaveces, Andrés; Pérez, Jesús Hernando; Restrepo, Gabriel; Cruz Morales, John Alexánder; Vargas, Francisco; Oostra, Arnold; Ferreirós, José; Zalamea, Fernando; Martín, Alejandro) Universidad Nacional de Colombia, Facultad de Ciencias Humanas 2012 [pdf](https://repositorio.unal.edu.co/bitstream/handle/unal/78631/9789587618693.pdf)
+
 category: people, philosophy
+
+
 
 [[!redirects Fernando Zalamea Traba]]
