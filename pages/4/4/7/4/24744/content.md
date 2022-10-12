@@ -19,6 +19,27 @@ called a **contraction** of $A$ at $a$. Thus, contractons of $A$ at $a$ are witn
 We then define the type of contractions of $A$ at $a$ as
 $$\mathrm{Contr}_A(a) \coloneqq \prod_{b:A} a =_A b$$ 
 
+### Rules for contraction types
+
+If the dependent type theory does not have [[dependent product types]], contraction types could still be defined by adding the formation, introduction, elimination, computation, and uniqueness types for contraction types
+
+Formation rules for contraction types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, a:A, x:A \vdash a =_A x \; \mathrm{type}}{\Gamma, a:A \vdash \mathrm{Contr}_A(a) \; \mathrm{type}}$$
+
+Introduction rules for contraction types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, a:A, x:A \vdash a =_A x}{\Gamma, a:A \vdash \lambda(x).p(x):\mathrm{Contr}_A(a)}$$
+
+Elimination rules for contraction types:
+$$\frac{\Gamma, a:A \vdash p:\mathrm{Contr}_A(a) \quad \Gamma \vdash b:A}{\Gamma \vdash p(b):a =_A b}$$
+
+Computation rules for contraction types:
+$$\frac{\Gamma, a:A, x:A \vdash p(x):a =_A x \quad \Gamma \vdash b:A}{\Gamma \vdash \beta_\mathrm{Contr}:(\lambda(x).p(x))(b) =_{a =_A b} p(b)}$$
+
+Uniqueness rules for contraction types:
+$$\frac{\Gamma, a:A \vdash p:\mathrm{Contr}_A(a)}{\Gamma \vdash \eta_\mathrm{Contr}:p =_{\mathrm{Contr}_A(a)} \lambda(x).p(x)}$$
+
+## Properties
+
 A type $A$ is a [[contractible type]] if there exists a center of contraction
 $$\sum_{a:A} \mathrm{Contr}_A(a)$$
 and a type $A$ is an [[h-proposition]] if every element in $A$ is a center of contraction 
@@ -38,3 +59,11 @@ $$\prod_{a:A} \mathrm{Contr}_A(a)$$
 
 [[!redirects centre of contraction]]
 [[!redirects centres of contraction]]
+
+[[!redirects type of contractions]]
+[[!redirects types of contractions]]
+
+[[!redirects contraction type]]
+[[!redirects contraction types]]
+
+[[!redirects Contr]]
