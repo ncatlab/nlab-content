@@ -197,7 +197,7 @@ Note that a $1$-globular set is just a [[directed graph]], and a $0$-globular se
 ## Grothendieck homotopy theory
 
 The category of [[globes]] is not a [[weak test category]] according
-to Scholium 8.4.14 in Cisinski \ref{PMTH}.
+to Scholium 8.4.14 in [Cisinski 06](#Cisinski06).
 
 However, if we construct the free [[strict monoidal category]]
 on the category of [[globes]], while ensuring that the terminal object becomes the monoidal unit,
@@ -248,7 +248,7 @@ See also
 
 * [[R. Street]], _The petit topos of globular sets_ , JPAA **154** (2000) pp.299-315.
 
-\bibitem{PMTH} [[Denis-Charles Cisinski]], _Les préfaisceaux comme modèles des types d’homotopie_, Asterisque.
+* {#Cisinski06} [[Denis-Charles Cisinski]], *Les préfaisceaux comme types d'homotopie*, Astérisque **308** Soc. Math. France (2006), 392 pages &lbrack;[numdam:AST_2006__308__R1_0](http://www.numdam.org/item/?id=AST_2006__308__R1_0) [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf)&rbrack;
 
 The definition of globular set, without using that term, is in 2.2 and 2.3 of the following paper: 
 
