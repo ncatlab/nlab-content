@@ -94,21 +94,28 @@ A Tarski universe $(V, T_V)$ inside of a Tarski universe consists of a term $V:U
 
 ## Tarski subuniverses
 
-...
+Let $(U, T_U)$ be a Tarski universe. A Tarski universe $(V, T_V)$ is a **Tarski subuniverse** of $(U, T_U)$ if it comes with an [[embedding]] $t:V \hookrightarrow U$ and a dependent equivalence
+$$p:\prod_{a:V} T_U(t(a)) \simeq T_V(a)$$
+
+This is equivalent to a family of Tarski universes $(U(i), T(i))$ indexed by terms $i:2$ of the [[interval preorder]] $(2, \leq_2)$, which comes with an dependent embedding
+$$\mathrm{t}:\prod_{a:2} \prod_{b:2} (a \leq_2 b) \to (U(a) \hookrightarrow U(b))$$
+and a dependent equivalence
+$$q:\prod_{a:2} \prod_{b:2} \prod_{p:a \leq_2 b} \prod_{A:U(a)} T(a)(A) \simeq T(b)(\mathrm{t}(a, b)(p)(A))$$
+indicating that lifting each small type results in a type equivalent to the original small type. 
 
 ## Hierarchy of Tarski universes
 
 Let $P$ be a [[preorder]]. Then, a $P$-indexed hierarchy of Tarski universes is a type family $U$ such that for all indices $a:P$, there is a Tarski universe $(U(a), T(a))$, and a dependent function 
-$$\mathrm{el}:\prod_{a:P} \prod_{b:P} (a \leq b) \to (U(a) \to U(b))$$
+$$\mathrm{t}:\prod_{a:P} \prod_{b:P} (a \leq_P b) \to (U(a) \to U(b))$$
 and a dependent function
-$$p:\prod_{a:P} \prod_{b:P} \prod_{p:a \leq b} \mathrm{isEmbedding}(\mathrm{el}(a, b))$$
-indicating that $\mathrm{el}(a, b)(p)$ is an [[embedding]] for all indices $a:P$ and $b:P$ and witnesses $p:a \leq b$, a dependent function
-$$q:\prod_{a:P} \prod_{b:P} \prod_{p:a \leq b} \prod_{A:U(a)} T(a)(A) \simeq T(b)(\mathrm{el}(a, b)(p)(A))$$
+$$p:\prod_{a:P} \prod_{b:P} \prod_{p:a \leq_P b} \mathrm{isEmbedding}(\mathrm{t}(a, b))$$
+indicating that $\mathrm{t}(a, b)(p)$ is an [[embedding]] for all indices $a:P$ and $b:P$ and witnesses $p:a \leq_P b$, a dependent function
+$$q:\prod_{a:P} \prod_{b:P} \prod_{p:a \leq_P b} \prod_{A:U(a)} T(a)(A) \simeq T(b)(\mathrm{t}(a, b)(p)(A))$$
 indicating that lifting each small type results in a type equivalent to the original small type, and a dependent function
 $$V:\prod_{a:P} U(a)$$
 and a dependent function
-$$r:\prod_{a:P} \prod_{b:P} \prod_{p:a \leq b} T(V(a, b, p) simeq U(a)$$
-indicating that for for all indices $a:P$ and $b:P$ and witnesses $p:a \leq b$, the universe $U(a)$ is $U(b)$-small. 
+$$r:\prod_{a:P} \prod_{b:P} \prod_{p:a \leq_P b} T(V(a, b, p) simeq U(a)$$
+indicating that for for all indices $a:P$ and $b:P$ and witnesses $p:a \leq_P b$, the universe $U(a)$ is $U(b)$-small. 
 
 Usually, hierarchy of Tarski universes are indexed by the type of [[natural numbers]]. A type theory may have multiple hierarchies of type universes. 
 
