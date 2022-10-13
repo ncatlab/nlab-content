@@ -1,6 +1,6 @@
 This entry is about the monograph
 
-\bibitem{BorceuxJanelidze2001} 
+* {#BorceuxJanelidze2001} [[Francis Borceux]], [[George Janelidze]], _Galois theories_, Camb. Stud. Adv. Math. 72, Cambridge: Cambridge University Press (2001)
 
 +-- {: .query}
 (Initially it will be in the form of a book review. The initial version is an edited and adapted version of a review of the book by [[Tim Porter]] that appeared in Proceedings of the Edinburgh Mathematical Society (Series 2)  (2002), 45 : 761-762. When the entry has been influenced by other sources, please remove this box) 
