@@ -68,7 +68,7 @@ Apart from applications in [[tropical geometry]], the min-plus and max-plus alge
 
 Book collection of articles on idempotent semirings:
 
-* J. Gunawadena (ed.), *Idempotency*, Cambridge University Press, 2001, 
+* J. Gunawardena (ed.), *Idempotency*, Cambridge University Press, 2001, 
 
 An original source:
 
