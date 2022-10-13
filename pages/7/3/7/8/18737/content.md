@@ -86,6 +86,7 @@ Cubical type theory can be modeled in a number of varieties of [[cubical sets]],
 
 * [[synthetic Tait computability]]
 * [[simplicial type theory]]
+* [[type theory with shapes]]
 
 ## References
 
