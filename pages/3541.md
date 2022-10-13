@@ -221,6 +221,14 @@ For the universal property, see
 
 * Mathieu Huot, Sam Staton, _Universal properties in quantum theory_ (QPL 2018) ([pdf](https://www.mathstat.dal.ca/qpl2018/papers/QPL_2018_paper_68.pdf)).
 
+On quantum channel capacity:
+
+* [[Alexander S. Holevo]], *Quantum Systems, Channels, Information -- A Mathematical Introduction*, Studies in Mathematical Physics **16**, De Gruyter (2013) &lbrack;[doi:10.1515/9783110273403](https://doi.org/10.1515/9783110273403)&rbrack;
+
+
+* [[Alexander S. Holevo]], *Quantum channel capacities*, Quantum Electron. **50** 440 (2020) &lbrack;[doi:10.1070/QEL17285/meta](https://iopscience.iop.org/article/10.1070/QEL17285/meta)&rbrack;
+
+
 [[!redirects quantum channel]]
 [[!redirects quantum channels]]
 [[!redirects quantum operation]]
