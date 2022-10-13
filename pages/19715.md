@@ -19,7 +19,7 @@
 
 ## Idea
 
-In [[homotopy type theory]], the type of [[h-propositions]] of a [[Tarski universe]] (or [[Russell universe]]) $U$ is not in general $U$-small. Propositional resizing is then the statement that the type of h-propositions is $U$-small. 
+In [[homotopy type theory]], the type of [[h-propositions]] of a [[Tarski universe]] (or [[Russell universe]]) $U$ is not in general [[essentially small type|essentially $U$-small]]. Propositional resizing is then the statement that the type of h-propositions is essentially $U$-small. 
 
 There is a separate axiom of propositional resizing for a hierarchy of universes, where the type of h-propositions of each universe, where one universe embeds into the other universe, are equivalent to each other. 
 
@@ -59,6 +59,7 @@ Usually, the hierarchy of Tarski universes is a sequential hierarchy indexed by 
 ## See also
 
 * [[essentially small type]]
+* [[excluded middle]]
 
 ## References
 
