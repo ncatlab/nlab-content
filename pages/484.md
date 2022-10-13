@@ -109,12 +109,15 @@ This terminology is particularly common in [[foundations]] of mathematics where 
 
 * [[set-like structure in homotopy type theory]]
 
+* [[tolerance relation]]
+
 ## References
 
 For the history of the notion of equivalence relation see _[this MO discussion](http://mathoverflow.net/questions/135347/who-introduced-the-terms-equivalence-relation-and-equivalence-class)_.
 
 [[!redirects equivalence relation]]
 [[!redirects equivalence relations]]
+[[!redirects relation of equivalence]]
 
 [[!redirects symmetric preorder]]
 [[!redirects symmetric preorders]]
