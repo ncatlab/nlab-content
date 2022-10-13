@@ -8,10 +8,10 @@ Some of the structures are now viewed from the point of view of double derivatio
 
 * [[Maxim Kontsevich]], _Formal (non)-commutative symplectic geometry_, The Gelfand Mathematical. Seminars, 1990-1992, Ed. L.Corwin, I.Gelfand, J.Lepowsky, Birkhauser 1993, 173-187, [pdf](http://193.51.104.7/~maxim/TEXTS/Formal%20non-commutative%20symplectic%20geometry.pdf)
 
-* Maxim Kontsevich, _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, Volume II, Progress in Mathematics 120, Birkhauser 1994, 97-121, [pdf](http://193.51.104.7/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf)
+* Maxim Kontsevich, _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, Volume II, Progress in Mathematics 120, Birkhauser 1994, 97-121, [pdf](http://193.51.104.7/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf) [MR1247289](https://mathscinet.ams.org/mathscinet-getitem?mr=1247289)
 
-* [[Victor Ginzburg]], [[Mikhail Kapranov]], _Koszul duality for operads_, Duke Math. J. __76__ (1994),  no. 1, 203--272; reprint [arxiv/0709.1228](http://arxiv.org/abs/0709.1228); *Erratum to: Koszul duality for operads*, Duke Math. J. __80__ (1995),  no. 1, 293. 
+* [[Victor Ginzburg]], [[Mikhail Kapranov]], _Koszul duality for operads_, Duke Math. J. __76__ (1994),  no. 1, 203--272; reprint [arxiv/0709.1228](https://arxiv.org/abs/0709.1228); *Erratum to: Koszul duality for operads*, Duke Math. J. __80__ (1995),  no. 1, 293. 
 
-* Victor Ginzburg, _Non-commutative symplectic geometry, quiver varieties, and operads_, Math. Res. Lett. __8__ (2001),  no. 3, 377--400, [math.QA/0005165](http://arxiv.org/abs/math/0005165); _Lectures on noncommutative geometry_, [math.AG/0506603](http://arxiv.org/abs/math/0506603)
+* Victor Ginzburg, _Non-commutative symplectic geometry, quiver varieties, and operads_, Math. Res. Lett. __8__ (2001),  no. 3, 377--400, [math.QA/0005165](https://arxiv.org/abs/math/0005165); _Lectures on noncommutative geometry_, [math.AG/0506603](https://arxiv.org/abs/math/0506603)
 
 * [[William Crawley-Boevey]], [[Pavel Etingof]], [[Victor Ginzburg]], _Noncommutative geometry and quiver algebras_,  Adv. Math. __209__:1 (2007) 274-336 [doi](https://doi.org/10.1016/j.aim.2006.05.004)
