@@ -229,3 +229,6 @@ See also
 [[!redirects hierarchy of types]]
 
 [[!redirects Type]]
+
+[[!redirects Russell universe]]
+[[!redirects Russell universes]]
