@@ -146,6 +146,10 @@ Using a definitional equality with an existing global type former for each type 
 
 ### Empty type
 
+Suppose that the type theory has an empty type $\emptyset \; \mathrm{type}$. Then a Tarski universe is **weakly closed under the empty type** if there exists a term $\emptyset_U:U$ and an equivalence $\mathrm{smallemptytype}:T(\emptyset_U) \simeq \emptyset$. A Tarski universe is **strongly closed under the empty type** if there is a definitional equality $T(\emptyset_U) \equiv \emptyset$. 
+
+If the type theory does not have an empty type, then a Tarski universe is **closed under the empty type** if there exists a term $\emptyset_U:U$ and for all functions $C:T(\emptyset_U) \to U$ and terms $p:T(\emptyset_U)$ there is a term $\mathrm{ind}_\emptyset^C(p):T(C(p))$, and for all other terms $u(p):T(C(p))$ there is an [[identification]] $\eta_\emptyset(p, u):u(p) =_{T(C(p))} \mathrm{ind}_\emptyset^C(p)$. 
+
 ### Unit type
 
 ### Booleans type
