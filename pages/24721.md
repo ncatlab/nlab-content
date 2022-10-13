@@ -160,7 +160,7 @@ Using a definitional equality with an existing global type former for each type 
 
 ## Modalities
 
-A **[[modal operator]]** on a Tarski universe $(U, T)$ is just a function $\lozenge:U \to U$.  
+A **[[modal operator]]** on a Tarski universe $(U, T)$ is just an [[endofunction]] $\lozenge:U \to U$.  
 
 ## Reflective Tarski subuniverses
 
