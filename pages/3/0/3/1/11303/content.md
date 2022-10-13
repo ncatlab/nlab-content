@@ -80,7 +80,7 @@ Review:
 
 Further developments are in
 
-* [[Balázs Szendrői]], _Nekrasov's Partition Function and Refined Donaldson&#8211;Thomas Theory: the Rank One Case_,  SIGMA, 2012, Volume 8, 088  ([web](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sigma&paperid=765&option_lang=eng))
+* [[Balázs Szendrői]], _Nekrasov's Partition Function and Refined Donaldson-Thomas Theory: the Rank One Case_,  SIGMA, 2012, Volume 8, 088  ([doi](https://doi.org/10.3842/SIGMA.2012.088) [web](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sigma&paperid=765&option_lang=eng))
 
 ### Examples
  {#Examples}
