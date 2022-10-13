@@ -65,12 +65,16 @@ $$\mathrm{ua}_{U'}:\prod_{A:U} \prod_{B:U} \mathrm{isEquiv}(\mathrm{transport}^{
 ## Hierarchy of type universes
 
 Let $P$ be a [[preorder]]. Then, a $P$-indexed hierarchy of Tarski universes is a type family $U$ such that for all indices $a:P$, there is a Tarski universe $(U(a), T(a))$, and a dependent function 
-$$\mathrm{el}:\prod_{a:P} \prod_{b:P} (a \leq b) \times (U(a) \to U(b))$$
+$$\mathrm{el}:\prod_{a:P} \prod_{b:P} (a \leq b) \to (U(a) \to U(b))$$
 and a dependent function
-$$p:\prod_{a:P} \prod_{b:P} (a \leq b) \times \mathrm{isEmbedding}(\mathrm{el}(a, b))$$
-indicating that $\mathrm{el}(a, b)$ is an [[embedding]] for all indices $a:P$ and $b:P$ such that $a \leq b$, and a dependent function
-$$q:\prod_{a:P} \prod_{b:P} (a \leq b) \times \prod_{c:U(A)} T(a)(c) \simeq T(b)(\mathrm{el}(a, b)(c))$$
-indicating that lifting each small type results in a type equivalent to the original small type. 
+$$p:\prod_{a:P} \prod_{b:P} \prod_{p:a \leq b} \mathrm{isEmbedding}(\mathrm{el}(a, b))$$
+indicating that $\mathrm{el}(a, b)(p)$ is an [[embedding]] for all indices $a:P$ and $b:P$ and witnesses $p:a \leq b$, a dependent function
+$$q:\prod_{a:P} \prod_{b:P} \prod_{p:a \leq b} \prod_{A:U(a)} T(a)(A) \simeq T(b)(\mathrm{el}(a, b)(p)(A))$$
+indicating that lifting each small type results in a type equivalent to the original small type, and a dependent function
+$$V:\prod_{a:P} U(a)$$
+and a dependent function
+$$r:\prod_{a:P} \prod_{b:P} \prod_{p:a \leq b} T(V(a, b, p) simeq U(a)$$
+indicating that for for all indices $a:P$ and $b:P$ and witnesses $p:a \leq b$, the universe $U(a)$ is $U(b)$-small. 
 
 Usually, hierarchy of Tarski universes are indexed by the type of [[natural numbers]]. A type theory may have multiple hierarchies of type universes. 
 
@@ -159,3 +163,16 @@ Other mathematical structures and their univalent counterparts:
 
 [[!redirects type with a type family]]
 [[!redirects univalent type with a type family]]
+
+[[!redirects Tarski universe hierarchy]]
+[[!redirects hierarchy of Tarski universes]]
+
+[[!redirects weak Tarski universe hierarchy]]
+[[!redirects hierarchy of weak Tarski universes]]
+[[!redirects weakly Tarski universe hierarchy]]
+[[!redirects hierarchy of weakly Tarski universes]]
+
+[[!redirects strict Tarski universe hierarchy]]
+[[!redirects hierarchy of strict Tarski universes]]
+[[!redirects strictly Tarski universe hierarchy]]
+[[!redirects hierarchy of strictly Tarski universes]]
