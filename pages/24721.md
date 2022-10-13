@@ -158,6 +158,10 @@ Using a definitional equality with an existing global type former for each type 
 
 ### Dependent sum types
 
+## Reflective Tarski subuniverses
+
+(Section under construction see [[reflective subuniverse]] for the [[Russell universe]] variant for the time being)
+
 ## Examples
 
 The [[types of propositions]] in a type theory are univalent Tarski universes: they model a dependent type theoretic model of [[propositional logic]] with [[function types]], [[product types]], [[disjunction]] [[higher inductive types]], [[empty type]], and [[unit type]]. 
