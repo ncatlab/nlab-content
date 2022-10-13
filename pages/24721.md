@@ -160,7 +160,11 @@ Using a definitional equality with an existing global type former for each type 
 
 ## Modalities
 
-A **[[modal operator]]** on a Tarski universe $(U, T)$ is just an [[endofunction]] $\lozenge:U \to U$.  
+A **[[modal operator]]** on a Tarski universe $(U, T)$ is just an [[endofunction]] $L:U \to U$. Given a Tarski universe closed under [[identity types]] and [[dependent product types]], the **modal unit family** is a family of functions
+$$\eta:\prod_{L:U \to U}\prod_{A:U} T(A) \to T(L(A))$$
+and the **comodal counit family** is a family of functions 
+$$\epsilon:\prod_{L:U \to U}\prod_{A:U} T(L(A)) \to T(A)$$
+Given a modality $L:U \to U$, $\eta(L)$ is called the **modal unit** of $L$ and $\epsilon(L)$ is called the **comodal counit** of $L$. 
 
 ## Reflective Tarski subuniverses
 
@@ -194,6 +198,8 @@ Other mathematical structures and their univalent counterparts:
 * {#Gallozzi14} [[Cesare Gallozzi]], *Constructive Set Theory from a Weak Tarski Universe*, MSc thesis (2014) ([arXiv:1411.5591](http://xxx.tau.ac.il/abs/1411.5591))
 
 * {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([pdf](https://raw.githubusercontent.com/martinescardo/HoTTEST-Summer-School/main/HoTT/hott-intro.pdf)) (478 pages)
+
+* {#RSS17} [[Egbert Rijke]], [[Mike Shulman]], [[Bas Spitters]], _[[Modalities in homotopy type theory]]_ ([arXiv:1706.07526](https://arxiv.org/abs/1706.07526))
 
 [[!redirects a la Tarski]]
 [[!redirects Tarski universe]]
