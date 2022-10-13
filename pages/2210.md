@@ -20,7 +20,7 @@
 
 The _infinitesimal singular simplicial complex_ of a [[space]] $X$ in a [[smooth topos]] $(\mathcal{T},R)$ is the infinitesimal analogue of the singular simplicial complex $X^{\Delta_R^\bullet}$ (see [[interval object]]) that in degree $k$ is the space of $k$-simplices $\Delta^k_R \to X$ in $X$: the infinitesimal singular simplicial complex has in degree $k$ the [[infinitesimal space|infinitesimal]] $k$-simplices in $X$.
 
-There are several ways to make the notion of "infinitesimal $k$-simplex in $X$" precise. Here we describe a notion promoted by [[Anders Kock]], where an "infinitesimal $k$-simplex" in $X$ for $X$ a suitably _locally linear space_ , is a $(k+1)$-tuple $(x_0,\cdots, x_k) \in X^{\times^{k+1}}$ of points in $X$ that are pairwise _infinitesimal neighbours_ in $X$. 
+There are several ways to make the notion of "infinitesimal $k$-simplex in $X$" precise. Here we describe a notion promoted by [[Anders Kock]], where an "infinitesimal $k$-simplex" in $X$ for $X$ a suitably _locally linear space_ , is a $(k+1)$-tuple $(x_0,\cdots, x_k) \in X^{k+1}$ of points in $X$ that are pairwise _infinitesimal neighbours_ in $X$. 
 
 One central application of the singular simplicial complex is in the definition of [[differential forms in synthetic differential geometry]].
 
@@ -61,7 +61,7 @@ $$
   \,.
 $$
 
-This naturally forms a [[simplicial object]] $X^{\Delta_{inf}^{bullet}} : \Delta^{op} \to \mathcal{T}$. 
+This naturally forms a [[simplicial object]] $X^{\Delta_{inf}^{\bullet}} : \Delta^{op} \to \mathcal{T}$. 
 This is the infinitesimal simplicial singular complex of $R^n$.
 
 A more detailed discussion of this is in the entry [[infinitesimal object]] in the section [Spaces of infinitesimal simplices](http://ncatlab.org/nlab/show/infinitesimal+object#SpacOfInfSimpl).
