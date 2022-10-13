@@ -14,6 +14,7 @@ A **De Morgan algebra** is a [[distributive lattice]] $D$ equipped with a [[cont
 * Any [[Boolean algebra]] is a De Morgan algebra, with $\neg$ the logical negation.
 * Any [[star-autonomous category|star-autonomous poset]] that happens to be a [[distributive lattice]] is a De Morgan algebra, with $\neg$ the star-autonomous involution $(-)^*$.
 * The unit interval $[0,1]$ is a De Morgan algebra, with $\neg x = (1-x)$.
+* The four-point algebra with two parallel lines: $\{0, a, b, 1\}$ with $\neg a = a$, $\neg b = b$, $a \vee b = 1$ and $a \wedge b = 0$ is a  small example of a DeMorgan algebra which is not Boolean.
 
 ## Related concepts
 
