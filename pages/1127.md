@@ -62,9 +62,9 @@ A Grothendieck category $C$ satisfies the following properties.
 * The [[Gabriel-Popescu theorem]] exhibits any [[Grothendieck abelian category]] as a [[reflective subcategory]] of a [[category of modules]] over a [[ring]].
 
 * Any [[Grothendieck abelian category]] is [[locally presentable]].
-See, for example, \cite[Corollary 5.2]{Krause} and references therein.
+See, for example, [Krause](#Krause), Corollary 5.2, and references therein.
 
-* More generally, any [[cocomplete]] [[abelian category]] with a [[set]] of [[generators]] in which $\kappa$-[[filtered colimits]] commute with [[finite limits]] for some [[regular cardinal]] $\kappa$ is a [[locally presentable category]].  See \cite[Theorem 2.2]{PositselskiRosicky}.
+* More generally, any [[cocomplete]] [[abelian category]] with a [[set]] of [[generators]] in which $\kappa$-[[filtered colimits]] commute with [[finite limits]] for some [[regular cardinal]] $\kappa$ is a [[locally presentable category]].  See [Positselski-Rosicky](#PositselskiRosicky), Theorem 2.2.
 
 * If $C$ is equipped with [[category with translation|translation]] $T : C \to C$, then for every [[complex]] $X \in Cplx(C)$ there exists a [[quasi-isomorphism]] of [[complex]]es $X \to I$ such that $I$ is [[injective object|homotopically injective]].
 
@@ -112,11 +112,11 @@ See also
 
 The fact that all Grothendieck categories are [[locally presentable]] is proved in Corollary 5.2 of
 
-\bibitem{Krause} [[Henning Krause]], _Deriving Auslander's formula_, [arXiv:1409.7051](https://arxiv.org/abs/1409.7051).
+* {#Krause} [[Henning Krause]], _Deriving Auslander's formula_, [arXiv:1409.7051](https://arxiv.org/abs/1409.7051).
 
 A generalization to $\kappa$-Grothendieck categories (defined using $\kappa$-filtered colimits) is proved in Theorem 2.2 of
 
-\bibitem{PositselskiRosicky} [[Leonid Positselski]], [[Jiří Rosický]], _Covers, envelopes, and cotorsion theories in locally presentable abelian categories and contramodule categories_, [arXiv:1512.08119](https://arxiv.org/abs/1512.08119).
+* {#PositselskiRosicky} [[Leonid Positselski]], [[Jiří Rosický]], _Covers, envelopes, and cotorsion theories in locally presentable abelian categories and contramodule categories_, [arXiv:1512.08119](https://arxiv.org/abs/1512.08119).
 
 The duality of Grothendieck categories with categories of modules over [[linearly compact ring]]s is discussed in
 
