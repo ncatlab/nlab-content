@@ -35,6 +35,8 @@ This article will provide links to other articles in which these various cases a
 
   * [[arithmetic pretopos]]
 
+  * [[modular arithmetic]]
+
 * [[transfinite arithmetic]]
 
   * [[cardinal arithmetic]]
