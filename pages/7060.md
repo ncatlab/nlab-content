@@ -41,6 +41,12 @@ $$\prod_{P:\Omega} \prod_{Q:\Omega} \mathrm{isEquiv}(\mathrm{trans}^T(P, Q))$$
 
 These axioms imply that $(\Omega, T)$ satisfy [[propositional extensionality]] and that $\Omega$ is an [[h-set]] and a [[Heyting algebra]]. 
 
+## Examples
+
+The type of all internal propositions 
+$$\sum_{A:U} \mathrm{isProp}(T(A))$$
+in a [[Tarski universe]] $(U, T)$ is a type of propositions. 
+
 ## Related concepts
 
 * [[propositional extensionality]]
