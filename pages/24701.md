@@ -323,7 +323,7 @@ Other problems include
 
 * What is the [[categorical semantics]] of the [[homotopy type theory]] based upon [[objective type theory]], with all [[higher inductive types]] and [[weakly Tarski]] [[univalent universes]]? 
 
-* Does having an [[interval type]] imply [[function extensionality]] in [[objective type theory]]? 
+* Does having an [[interval type]] and a typal [[eta conversion]] rule for [[function types]] imply [[function extensionality]] in [[objective type theory]]? 
 
 * Does having [[propositional truncation]], in conjunction with the [[booleans]], imply [[function extensionality]] in [[objective type theory]]?
 
