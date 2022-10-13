@@ -158,6 +158,10 @@ Using a definitional equality with an existing global type former for each type 
 
 ### Dependent sum types
 
+## Modalities
+
+A **modal operator** on a Tarski universe $(U, T)$ is a function $\lozenge:U \to U$ such that 
+
 ## Reflective Tarski subuniverses
 
 (Section under construction see [[reflective subuniverse]] for the [[Russell universe]] variant for the time being)
