@@ -144,7 +144,7 @@ When the category $C$ is [[symmetric monoidal category|symmetric monoidal]], the
 T A \otimes B \ar{r}{b_{T A,B}}[swap]{\cong} & B\otimes T A \ar{r}{t_{B,A}} & T(B \otimes A) \ar{r}{Tb_{B,A}}[swap]{\cong} & T(A\otimes B) .
 \end{tikzcd}
 
-A __strength__ (on a monoidal category which is not necessarily symmetric) is a left-strength and a right-strength such that the two induced maps $(X\otimes T Y) \otimes Z \to T((X\otimes Y)\otimes Z$ agree.  If the category is symmetric monoidal, then $T$ is a [[commutative monad]] if it is equipped with a left-strength (hence also a right-strength) such that the two induced maps $T X \otimes T Y \to T(X\otimes Y)$ agree.
+A __strength__ (on a monoidal category which is not necessarily symmetric) is a left-strength and a right-strength such that the two induced maps $(X\otimes T Y) \otimes Z \to T((X\otimes Y)\otimes Z)$ agree.  If the category is symmetric monoidal, then $T$ is a [[commutative monad]] if it is equipped with a left-strength (hence also a right-strength) such that the two induced maps $T X \otimes T Y \to T(X\otimes Y)$ agree.
 
 
 ## Examples
