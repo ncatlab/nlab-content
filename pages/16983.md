@@ -30,7 +30,8 @@ These taboos are unprovable in [[constructive mathematics]].
 
 * [[law of excluded middle]]
 * [[principle of omniscience]]
-* [[axiom of choice]].
+* [[axiom of choice]]
+* [[fan theorem]]
 
 ### Predicative taboos
 
@@ -44,6 +45,10 @@ These taboos are unprovable in [[homotopy type theory]], even if we assume const
 
 * [[uniqueness of identity proofs]]
 * [[axiom K]]
+
+A taboo found in [[cubical type theory]]:
+
+* [[boundary separation]]
 
 ### Constructive-homotopical taboos
 
