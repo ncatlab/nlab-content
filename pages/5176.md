@@ -73,7 +73,7 @@ The analog of the [[etale space]] functor is the [[display locale]] functor.
 The analog of the [[sheaf of sections]] functor is the [[cosheaf of connected components]] functor.
 
 A decategorified version of this statement
-was obtained by [[Marta Bunge]] and [[Jonathon Funk]] in \cite{PLoc}:
+was obtained by [[Marta Bunge]] and [[Jonathon Funk]] in [this article](#PLoc):
 join-preserving maps $X\to\Omega$ are in bijection
 with [[overt]] [[weakly closed]] [[sublocales]] of $X$.
 (Here $\Omega$ is the poset of [[truth values]].)
@@ -112,7 +112,7 @@ Cosheaves of [[algebras]], or notions similar to this, appear in [[AQFT]] as [[l
 
 * [[Steve Vickers]], _Cosheaves and Connectedness in Formal Topology_ , Ann. Pure Appl. Logic **163** no.2 (2012) pp.157-174. ([preprint](www.cs.bham.ac.uk/~sjv/ConnFT.pdf))
 
-\bibitem{PLoc} [[Marta Bunge]], [[Jonathon Funk]], _Constructive theory of the lower power locale_, Mathematical Structures in Computer Science, vol. 6, no. 1, pp. 69-83: [doi](https://doi.org/10.1017/s0960129500000876).
+* {#PLoc}[[Marta Bunge]], [[Jonathon Funk]], _Constructive theory of the lower power locale_, Mathematical Structures in Computer Science, vol. 6, no. 1, pp. 69-83: [doi](https://doi.org/10.1017/s0960129500000876).
 
 
 [[!redirects cosheaves]]
