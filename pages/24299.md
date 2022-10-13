@@ -12,18 +12,19 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Definition ##
 
-In [[homotopy type theory]], given a [[type universe]] $\mathcal{U}$, a [[type]] $A$ is **essentially $\mathcal{U}$-small** if there purely is a [[term]] $B:\mathcal{U}$ and an equivalence $p:A \cong B$. 
+In [[homotopy type theory]], given a [[Russell universe]] $\mathcal{U}$, a [[type]] $A$ is **essentially $\mathcal{U}$-small** if there purely is a [[term]] $B:\mathcal{U}$ and an equivalence $p:A \cong B$. 
+
+Given a [[Tarski universe]] $(U, T)$, a [[type]] $A$ is **essentially $U$-small** if there is a [[term]] $B:U$ and an equivalence $p:A \cong T(B)$. 
 
 ## Examples
 
-The axiom of [[propositional resizing]] states that all [[propositions]] are essentially small relative to the smallest universe in the universe hierarchy. 
+For a single universe $U$, [[propositional resizing]] states that the type of all [[h-propositions]] in a universe is essentially $U$-small. 
 
 ## See also ##
 
@@ -33,6 +34,5 @@ The axiom of [[propositional resizing]] states that all [[propositions]] are ess
 * [[type theoretic axiom of replacement]]
 
 ## References ##
-
 
 * [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: Section 2.19 of: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$
