@@ -13,10 +13,10 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
-
 
 ## Idea ##
 This page is about PCT theorems in [[quantum field theory]]. PCT stands for parity, charge and [[time-reversel symmetry]] (warning: the order of the letters P, C and T varies, some authors use CPT, for example). The laws of nature as described by [[quantum field theory]]s are believed to be invariant if one simultaneously reverses the arrow of time, conjugates all charges and reverses all chiral properties. PCT theorems try to make this belief precise by defining the appropriate operators and showing that certain expressions remain constant. Both the statements and the proofs depend on the framework for [[quantum field theory]] one uses.
@@ -94,6 +94,12 @@ A **PCT theorem** in this context is a theorem that states sufficient conditions
 * [[charge sector]], [[DHR category]]
 
 ## References ##
+
+Review for the [[standard model of particle physics]]:
+
+* Robert S. Thorne, *The Standard Model Parity, Charge Conjugation and Time Reversal* &lbrack;[pdf](https://www.hep.ucl.ac.uk/postgrad/teaching/sm/SMIIL4.pdf), [[Thorne-StandardModelPCT.pdf:file]]&rbrack;
+
+See also:
 
 * Wikipedia: [CPT symmetry](http://en.wikipedia.org/wiki/CPT_symmetry)
 
