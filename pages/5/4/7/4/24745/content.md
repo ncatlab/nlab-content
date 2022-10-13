@@ -30,10 +30,10 @@ Elimination rules for fiber types:
 $$\frac{\Gamma, f:A \to B, y:B \vdash z:\mathrm{fiber}_{A, B}(f, y)}{\Gamma \vdash \pi_1(z):A} \qquad \frac{\Gamma, f:A \to B, y:B \vdash z:\mathrm{fiber}_{A, B}(f, y)}{\Gamma, f:A \to B, y:B \vdash \pi_2(z):f(\pi_1(z)) =_B y}$$
 
 Computation rules for fiber types:
-$$\frac{\Gamma, f:A \to B, y:B, x:A \vdash b(x):f(x) =_B b \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{\Sigma 1}:\pi_1(a, b) =_A a} \qquad \frac{\Gamma, f:A \to B, y:B, x:A \vdash b(x):f(x) =_B y \quad \Gamma \vdash a:A}{\Gamma, f:A \to B, y:B \vdash \beta_{\Sigma 2}:\pi_2(a, b) =_{f(\pi_1(a, b)) =_B y} b}$$
+$$\frac{\Gamma, f:A \to B, y:B, x:A \vdash b(x):f(x) =_B b \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{\mathrm{fiber}_{A, B} 1}:\pi_1(a, b) =_A a} \qquad \frac{\Gamma, f:A \to B, y:B, x:A \vdash b(x):f(x) =_B y \quad \Gamma \vdash a:A}{\Gamma, f:A \to B, y:B \vdash \beta_{\mathrm{fiber}_{A, B} 2}:\pi_2(a, b) =_{f(\pi_1(a, b)) =_B y} b}$$
 
 Uniqueness rules for fiber types:
-$$\frac{\Gamma, f:A \to B, y:B \vdash z:\mathrm{fiber}_{A, B}(f, y)}{\Gamma, f:A \to B, y:B \vdash \eta_\Sigma:z =_{\mathrm{fiber}_{A, B}(f, y)} (\pi_1(z), \pi_2(z))}$$
+$$\frac{\Gamma, f:A \to B, y:B \vdash z:\mathrm{fiber}_{A, B}(f, y)}{\Gamma, f:A \to B, y:B \vdash \eta_{\mathrm{fiber}_{A, B}}:z =_{\mathrm{fiber}_{A, B}(f, y)} (\pi_1(z), \pi_2(z))}$$
 
 ## See also
 
