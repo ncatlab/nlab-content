@@ -32,7 +32,7 @@ In this article, we create a dependent type theory where the full [[propositions
 
 \section{Presentation}
 
-The [[dependent type theory]] we shall be presenting here is similar to [[objective type theory]] of [[Benno van den Berg]] and [[Martijn den Besten]], in that it doesn't have [[definitional equality]]. The lack of [[definitional equality]] means that the theory is both simpler, and behaves more like traditional [[propositional logic]], which usually doesn't have definitional equality. 
+The [[dependent type theory]] we shall be presenting here is similar to [[objective type theory]] of [[Benno van den Berg]] and [[Martijn den Besten]], in that it doesn't have [[definitional equality]]. The lack of [[definitional equality]] means that the theory is both simpler, and behaves more like traditional [[propositional logic]], which usually also doesn't have definitional equality. 
 
 \subsection{Judgments and contexts}
 
@@ -62,9 +62,7 @@ The weakening and substitution rules are admissible rules: they do not need to b
 
 \subsection{Dependent propositions and dependent proofs}
 
-A dependent proposition is a proposition $B$ in the context of the variable judgment $x:A$, $x:A \vdash B \; \mathrm{prop}$, they are usually written as $B(x)$ to indicate its dependence upon $x$. 
-
-A dependent proof is a proof $b:B$ in the context of the variable judgment $x:A$, $x:A \vdash b:B$. dependent proofs are likewise usually written as $b(x)$ to indicate its dependence upon $x$. 
+A dependent proposition is a proposition $B$ in the context of the variable judgment $x:A$, $x:A \vdash B \; \mathrm{prop}$, they are sometimes written as $B(x)$. A dependent proof is a proof $b:B$ in the context of the variable judgment $x:A$, $x:A \vdash b:B$. dependent proofs are likewise sometimes written as $b(x)$. 
 
 \subsection{Equality of proofs}
 
@@ -95,6 +93,8 @@ Both rules ensure that every proposition behaves like an h-proposition in depend
 
 \subsection{False}
 
+The proposition false is the [[empty type]] in [[dependent type theory]]; thus the rules for false are the same as the rules for the empty type in other dependent type theories. 
+
 Formation rules for false:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \bot \; \mathrm{prop}}$$
 
@@ -105,6 +105,8 @@ Uniqueness rules for false:
 $$\frac{\Gamma, x:\bot \vdash C \; \mathrm{prop} \quad \Gamma \vdash p:\bot \quad \Gamma, x:\bot \vdash u:C}{\Gamma \vdash \eta_\bot(p, u):u[p/x] =_{C[p/x]} \mathrm{ind}_\bot^{C}(p)}$$
 
 \subsection{True}
+
+The proposition true is the [[unit type]] in [[dependent type theory]]; thus the rules for true are the same as the rules for the unit type in other dependent type theories. 
 
 Formation rules for true:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \top \; \mathrm{prop}}$$
@@ -122,6 +124,8 @@ Uniqueness rules for true:
 $$\frac{\Gamma, x:\top \vdash C \; \mathrm{prop} \quad \Gamma \vdash c_*:C[*/x] \quad \Gamma \vdash p:\top \quad \Gamma, x:\top \vdash u:C \quad \Gamma \vdash i_*(u):u[*/x] =_{C[*/x]} c_*}{\Gamma \vdash \eta_\top(p, u):u[p/x] =_{C[p/x]} \mathrm{ind}_\top^{C}(p, c_*)}$$
 
 \subsection{Disjunctions}
+
+The disjunction of two propositions is represented by the [[sum type]] in [[dependent type theory]]. However, in other dependent type theories, while it isn't possible to prove that the sum type of two propositions is indeed a proposition, the requirement that all types be propositionally truncated in propositional logic means that the disjunction of two propositions is a propositional truncation. In particular, the sum type of the unit type with itself is the booleans type, but the equivalent of the booleans type in propositional logic is equivalent to the unit type because of propositional truncation, and thus a proposition. 
 
 Formation rules for disjunctions:
 $$\frac{\Gamma \vdash A \; \mathrm{prop} \quad \Gamma \vdash B \; \mathrm{prop}}{\Gamma \vdash A \vee B \; \mathrm{prop}}$$
@@ -141,6 +145,8 @@ $$\frac{\Gamma, z:A \vee B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c(
 
 \subsection{Conjunctions}
 
+The conjunction of two propositions is the [[product type]] in [[dependent type theory]]; thus the rules for conjunctions are the same as the rules for the product type in other dependent type theories. 
+
 Formation rules for conjunctions:
 $$\frac{\Gamma \vdash A \; \mathrm{prop} \quad \Gamma \vdash B \; \mathrm{prop}}{\Gamma \vdash A \wedge B \; \mathrm{prop}}$$
 
@@ -157,6 +163,8 @@ Uniqueness rules for conjunctions:
 $$\frac{\Gamma \vdash z:A \wedge B}{\Gamma \vdash \eta_\wedge:z =_{A \wedge B} (\pi_1(z), \pi_2(z))}$$
 
 \subsection{Implications}
+
+The implication of two propositions is the [[function type]] in [[dependent type theory]]; thus the rules for implications are the same as the rules for the product type in other dependent type theories. 
 
 Formation rules for implications:
 $$\frac{\Gamma \vdash A \; \mathrm{prop} \quad \Gamma \vdash B \; \mathrm{prop}}{\Gamma \vdash A \implies B \; \mathrm{prop}}$$
@@ -196,7 +204,7 @@ The above rules makes the dependent type theory into a model of intuitionistic p
 
 \subsection{Decidable and stable propositions}
 
-A proposition $A$ is said to be **decidable** or satisfy **[[excluded middle]]** if there is a proof $p:A \vee \neg A$. $A$ is said to be **stable** or satisfy the **[[double negation law]]** if there is a proof $p:\neg \neg A \implies A$. Every decidable propositions is stable, and every stable proposition is decidable, which means that the two notions are the same. 
+A proposition $A$ is said to be **decidable** or satisfy **[[excluded middle]]** if there is a proof $p:A \vee \neg A$. $A$ is said to be **stable** or satisfy the **[[double negation law]]** if there is a proof $p:\neg \neg A \implies A$. Every decidable propositions is stable, and every stable proposition is decidable, which means that the two notions are equivalent to each other. 
 
 If every proposition is decidable or stable, then the dependent type theory is a model of classical or Boolean propositional logic. One could add one of the following rules to make the propositional logic classical:
 
