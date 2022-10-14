@@ -150,7 +150,7 @@ Discussion of [[homotopy BV-algebra]]s is in
 
 see also 
 
-* [[Imma Galvez-Carrillo]], Vassily Gorbounov, [[Andy Tonks]], _Homotopy Gerstenhaber structures and vertex algebras_, [math/0611231.QA](http://arxiv.org/abs/math/0611231)
+* [[Imma Galvez-Carrillo]], [[Vassily Gorbounov]], [[Andy Tonks]], _Homotopy Gerstenhaber structures and vertex algebras_, [math/0611231.QA](https://arxiv.org/abs/math/0611231)
 
 Slides of a talk summarizing this are at
 
