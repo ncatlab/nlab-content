@@ -58,11 +58,11 @@ A good survey is given in
 * [[Ben Webster]], _Hall algebras are Grothendieck groups_ ([SBS](http://sbseminar.wordpress.com/2011/04/18/hall-algebras-are-grothendieck-groups/#more-3988))
  {#Webster}
 
-The characterization via [[2-Segal spaces]] is due to
+The characterization via [[2-Segal spaces]]/decomposition spaces is independently due to
 
 * Tobias Dyckerhoff, [[Mikhail Kapranov]], _Higher Segal spaces I_, ([arxiv:1212.3563](http://arxiv.org/abs/1212.3563))
  {#DyckerhoffKapranov12} (now part of their book _Higher Segal spaces_, Springer Lec. Notes in Math. 2244  [doi](https://doi.org/10.1007/978-3-030-27124-4))
-
+* [[Imma Gálvez-Carrillo]], [[Joachim Kock]], [[Andrew Tonks]], _Decomposition spaces, incidence algebras and Möbius inversion_, [arXiv:1404.3202](https://arxiv.org/abs/1404.3202)
 
 Canonical references on Hall algebras include the following.
 
