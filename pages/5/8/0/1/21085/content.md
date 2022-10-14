@@ -33,7 +33,7 @@ Concretely, an optic $(S,T) \to (A,B)$ is specified by a triple of $(l, M, r)$ w
 
 The [[coend]] in the above definition has the effect of making two optics $(l, M, r)$ and $(l', M', r')$ (with same boundaries) equal if there exists a morphism $\alpha : M \to M'$ such that $(\alpha' \bullet A) \circ l = l'$ or a morphism $\beta:M' \to M$ such that $r = r' \circ (\beta \ast B)$.
 
-One says optics are defined _up to sliding_ along the residual, a terminology suggested by the graphical representation of optics as open diagrams, see ([Román](#Roman))
+One says optics are defined _up to sliding_ along the residual, a terminology suggested by the graphical representation of optics as open diagrams, see ([Román](#Roman)).
 
 ## Profunctor representation
 
