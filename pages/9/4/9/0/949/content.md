@@ -79,6 +79,11 @@ The constructive school, however, often accepts function sets (thus being *weakl
 
 Classical predicativists of course accept [[excluded middle]]; otherwise they would be [[constructivism|constructivists]].  But from the perspective of weakly predicative constructive mathematics, excluded middle is impredicative, since it implies power sets (given function sets) and unbounded separation (given replacement).
 
+### Propositional resizing
+
+In the constructive school, one would sometimes have multiple sets of propositions, but those only represent the set of $U$-small [[propositions]] or [[subsingletons]] $\Omega_U$, given a [[universe]] $U$, rather than the set of all propositions $\Omega$. In general, given any two universes $U$ and $V$, one cannot prove that $\Omega_U$ is equivalent to $\Omega_V$. This is common in type theoretic models of constructive mathematics. 
+
+The axiom of [[propositional resizing]] is then statement that given any two universes $U$ and $V$, the sets $\Omega_U$ and $\Omega_V$ of propositions in $U$ and $V$ respectively are in [[bijection]] with each other $\Omega_U \cong \Omega_V$. This axiom implies that there is only one set of propositions up to bijection, which in combination with the existence of [[function sets]] imply [[power sets]], so is impredicative. 
 
 ### Ill-founded structures
 
@@ -206,6 +211,7 @@ _Mike_: Also, the [[exact category|ex/lex completion]] takes extensive categorie
 _Todd_: Interesting discussion. Just wanted to add that I'd recently been thinking about small-colimit completions of toposes, which are examples of ex/lex completions of toposes that are (seemingly) almost never toposes. 
 
 
+[[!redirects weakly predicative]]
 [[!redirects weakly predicative mathematics]]
 
 [[!redirects predicative mathematics]]
@@ -220,4 +226,3 @@ _Todd_: Interesting discussion. Just wanted to add that I'd recently been thinki
 
 [[!redirects predicativity]]
 [[!redirects impredicativity]]
-
