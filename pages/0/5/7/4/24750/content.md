@@ -66,7 +66,7 @@ A dependent proposition is a proposition $B$ in the context of the variable judg
 
 \subsection{Equality of proofs}
 
-Equality of proofs of a proposition is represented by a proposition. Equality of proofs comes with a formation rule, an introduction rule, an elimination rule, and a computation rule:
+Equality of proofs of a proposition is represented by a proposition. This in other [[dependent type theories]] is called a [[identity type]] or a [[path type]]. Equality of proofs comes with a formation rule, an introduction rule, an elimination rule, and a computation rule:
 
 Formation rule for equality of proofs:
 $$\frac{\Gamma \vdash A \; \mathrm{prop}}{\Gamma, a:A, b:A \vdash a =_A b \; \mathrm{prop}}$$
@@ -125,7 +125,7 @@ $$\frac{\Gamma, x:\top \vdash C \; \mathrm{prop} \quad \Gamma \vdash c_*:C[*/x] 
 
 \subsection{Disjunctions}
 
-The disjunction of two propositions is represented by the [[sum type]] in [[dependent type theory]]. However, in other dependent type theories, while it isn't possible to prove that the sum type of two propositions is indeed a proposition, the requirement that all types be propositionally truncated in propositional logic means that the disjunction of two propositions is a propositional truncation. In particular, the sum type of the unit type with itself is the booleans type, but the equivalent of the booleans type in propositional logic is equivalent to the unit type because of propositional truncation, and thus a proposition. 
+The disjunction of two propositions is represented by the [[sum type]] in [[dependent type theory]]. However, in other dependent type theories, while it isn't possible to prove that the sum type of two [[h-propositions]] is indeed a h-proposition, the requirement that all types be propositionally truncated in propositional logic means that the disjunction of two propositions is a propositional truncation. In particular, the sum type of the unit type with itself is the [[booleans type]], but the equivalent of the booleans type in propositional logic, the disjunction of true with itself, is a proposition because of propositional truncation, and can be proven to be equivalent to true. 
 
 Formation rules for disjunctions:
 $$\frac{\Gamma \vdash A \; \mathrm{prop} \quad \Gamma \vdash B \; \mathrm{prop}}{\Gamma \vdash A \vee B \; \mathrm{prop}}$$
@@ -206,9 +206,17 @@ The above rules makes the dependent type theory into a model of intuitionistic p
 
 A proposition $A$ is said to be **decidable** or satisfy **[[excluded middle]]** if there is a proof $p:A \vee \neg A$. $A$ is said to be **stable** or satisfy the **[[double negation law]]** if there is a proof $p:\neg \neg A \implies A$. Every decidable propositions is stable, and every stable proposition is decidable, which means that the two notions are equivalent to each other. 
 
-If every proposition is decidable or stable, then the dependent type theory is a model of classical or Boolean propositional logic. One could add one of the following rules to make the propositional logic classical:
+If every proposition is decidable or stable, then the dependent type theory is a model of classical propositional logic. One could add one of the following rules to make the propositional logic classical:
 
 $$\frac{\Gamma \vdash A \; \mathrm{prop}}{\Gamma \vdash \mathrm{lem}_A:A \vee \neg A} \qquad \frac{\Gamma \vdash A \; \mathrm{prop}}{\Gamma \vdash \mathrm{doubleneg}_A:\neg \neg A \implies A}$$
+
+\section{Categorical semantics}
+
+The [[categorical semantics]] of intuitionistic propositional logic is a [[(0,1)-category]] which is closed under [[finite products]], [[finite coproducts]], and [[internal homs]], or equivalently, a [[Heyting algebra]]. If the propositional logic is classical, then the categorical semantics is a [[Boolean algebra]]. 
+
+\section{Internalization in a type theory}
+
+In all forms of [[dependent type theory]] with [[identity types]], [[dependent product types]], [[dependent sum types]], [[empty types]], [[unit types]], [[sum types]], and [[propositional truncations]], propositional logic could be internalized in the type theory itself through the definition of a [[univalent]] [[type of propositions]] in the type theory. 
 
 \section{See also}
 
