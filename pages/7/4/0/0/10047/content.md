@@ -57,6 +57,11 @@ However, if $\tilde{C}(x,y)$ denotes the set of wavy arrows, then the compositio
 
 * Continuous categories can be generalized to [[continuous algebras]] for any [[lax-idempotent 2-monad]].
 
+## The setting of (∞,1)-categories
+
+Continuous [[(∞,1)-categories]] are introduced under the name of __compactly assembled ∞-categories__ in Lurie [SAG](#SAG), §21.1.2.
+
+
 ## Related entries
 
 * [[totally distributive category]]
@@ -74,6 +79,8 @@ However, if $\tilde{C}(x,y)$ denotes the set of wavy arrows, then the compositio
 * {#JohnstoneJoyal82} [[Peter Johnstone]], [[Andre Joyal]], *Continuous categories and exponentiable toposes*, JPAA 25 (1982), [doi (free PDF)](http://dx.doi.org/10.1016/0022-4049%2882%2990083-4)
 
 * [[Mathieu Anel]], Damien Lejay, _Exponentiable Higher Toposes_ , arXiv:1802.10425 (2018). ([abstract](https://arxiv.org/abs/1802.10425))
+
+* {#SAG} [[Jacob Lurie]], _[[Spectral Algebraic Geometry]]_.
 
 [[!redirects continuous category]]
 [[!redirects continuous categories]]
