@@ -7,6 +7,7 @@
 ## related $n$Lab pages
 
 * [[homotopy BV-algebra]]
+* [[2-Segal space]]
 
 
 ## Publications
@@ -15,6 +16,7 @@
 
 * Imma G&#225;lvez, [[Vassily Gorbounov]], Andrew Tonks, _Homotopy Gerstenhaber structures and vertex algebras_, [math/0611231.QA](http://arxiv.org/abs/math/0611231)
 
+* Imma Gálvez-Carrillo, [[Joachim Kock]], [[Andrew Tonks]], _Decomposition spaces, incidence algebras and Möbius inversion_, [arXiv:1404.3202](https://arxiv.org/abs/1404.3202)
 
 category: people
 
@@ -23,3 +25,4 @@ category: people
 [[!redirects Imma Galvez-Carrillo]]
 [[!redirects Imma Galvez]]
 [[!redirects Imma Carrillo]]
+
