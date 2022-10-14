@@ -129,6 +129,11 @@ The standard way to compose codiscrete cofibrations $C\to H \leftarrow D$ and $D
 
 I believe that the binary composite of double profunctors defined in this way is a "weak composite" in the virtual double category $DblProf$, i.e. it has a universal property relative to cells with source of length 2 only.  We can likewise define basic $n$-ary composites of codiscrete cofibrations by taking an $n$-ary pushout and then a factorization, but for $n\gt 2$, as far as I can tell, there is little relation between these composites and $DblProf$.  In particular, these composites form a "lax double category", whereas a virtual double category with all weak composites can be identified with an "oplax double category."  I also don't know whether the cells in $DblProf$ with source of length $\gt 2$ can be seen from the perspective of collages.
 
+## References
+
+- [[Robert Paré]]. _Yoneda theory for double categories_. Theory and Applications of Categories 25.17 (2011): 436-489.
+- [[Robert Paré]]. _Composition of modules for lax functors_. Theory and Applications of Categories 27.16 (2013): 393-444.
+
 [[!redirects double profunctors]]
 [[!redirects DblProf]]
 [[!redirects vDblProf]]
