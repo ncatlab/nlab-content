@@ -178,6 +178,10 @@ Discussion of vertex operator algebras as [[factorization algebras of observable
 * [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
  {#Gwilliam}
 
+* Emily Cliff, _Universal factorization spaces and algebras_, [arxiv:1608.08122](https://arxiv.org/abs/1608.08122)
+
+>  We introduce categories of weak factorization algebras and factorization spaces, and prove that they are equivalent to the categories of ordinary factorization algebras and spaces, respectively. This allows us to define the pullback of a factorization algebra or space by an \'etale morphism of schemes, and hence to define the notion of a universal factorization space or algebra. This provides a generalization to higher dimensions and to non-linear settings of the notion of a vertex algebra. 
+
 ### Relation to modular tensor categories
 
 The [[representation categories]] of (rational) vertex operator algebras ([[modular tensor categories]]) are discussed in
