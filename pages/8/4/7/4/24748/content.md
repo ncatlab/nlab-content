@@ -57,6 +57,7 @@ $$\frac{\{t:I \vert \phi\} \; \mathrm{shape} \quad \{t:I \vert \psi\} \; \mathrm
 
 * [[simplicial type theory]]
 * [[cubical type theory]]
+* [[two-level type theory]]
 
 ## References
 
