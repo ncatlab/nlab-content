@@ -90,6 +90,10 @@ The Dyckerhoff-Kapranov "higher Segal spaces" [above](#DyckerhoffKapranov) are d
 * [[Mikhail Kapranov]], _Higher Segal spaces _, talk at IHES (2012) ([video](http://www.dailymotion.com/video/xpm3at_mikhail-kapranov-a-meeting-on-the-occasion-of-the-75th-birthday-of-yuri-ivanovich-manin_tech))
  {#Kapranov}
 
+The notion of unital 2-Segal space is also discovered independently under the name of a __decomposition space__ in
+
+* [[Imma Gálvez-Carrillo]], [[Joachim Kock]], [[Andrew Tonks]], _Decomposition spaces, incidence algebras and Möbius inversion_, [arXiv:1404.3202](https://arxiv.org/abs/1404.3202)
+
 [[!redirects higher Segal space]]
 [[!redirects higher Segal spaces]]
 
@@ -97,3 +101,4 @@ The Dyckerhoff-Kapranov "higher Segal spaces" [above](#DyckerhoffKapranov) are d
 [[!redirects 2-Segal spaces]]
 
 [[!redirects higher complete Segal space]]
+[[!redirects decomposition space]]
