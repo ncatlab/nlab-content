@@ -19,6 +19,14 @@
 
 ## Idea
 
+### In set theory/category theory
+
+In a [[constructive mathematics|constructive]] [[weakly predicative]] [[structural set theory]], such as doing mathematics in a [[well-pointed category|well-pointed]] [[cartesian closed category|cartesian closed]] [[Heyting pretopos]] with a [[natural numbers object]], it is still possible to define a [[category]] inside of the set theory, and in particular, it is still possible to define a [[well-pointed category|well-pointed]] [[cartesian closed category|cartesian closed]] [[Heyting pretopos]] [[category object|object]] with a [[natural numbers object]] inside of any [[well-pointed category|well-pointed]] [[cartesian closed category|cartesian closed]] [[Heyting pretopos]] with a [[natural numbers object]]. These objects are called [[universes]] or [[Grothendieck universes]] $\mathcal{U}$ in [[structural set theory]]. From here, one could form the [[subcategory|sub]]-[[(0,1)-category]] of [[subterminal objects]] $\Omega_\mathcal{U}$ in $\mathcal{U}$, the set of $\mathcal{U}$-small [[subsingletons]], and subsingletons model [[propositions]] in the universe, so could be called a set of $\mathcal{U}$-small propositions as well. 
+
+If a set theory has multiple such universes $\mathcal{U}$ and $\mathcal{V}$, then there are multiple such sets of propositions, one of which is $\mathcal{U}$-small, and another one of which is $\mathcal{V}$-small. In general, the set of $\mathcal{U}$-small propositions $\Omega_\mathcal{U}$ and the set of $\mathcal{V}$-small propositions $\Omega_\mathcal{V}$ cannot be proven to be equivalent to each other. However, **propositional resizing** is the axiom that for universe $\mathcal{U}$ and $\mathcal{V}$, the set of $\mathcal{U}$-small propositions is in bijection with the set of $\mathcal{V}$-small propositions, $\Omega_\mathcal{U} \cong \Omega_\mathcal{V}$. 
+
+### In type theory
+
 In [[homotopy type theory]], the type of [[h-propositions]] of a [[Tarski universe]] (or [[Russell universe]]) $U$ is not in general [[essentially small type|essentially $U$-small]]. Propositional resizing is then the statement that the type of h-propositions is essentially $U$-small. 
 
 There is a separate axiom of propositional resizing for a hierarchy of universes, where the type of h-propositions of each universe, where one universe embeds into the other universe, are equivalent to each other. 
@@ -29,7 +37,29 @@ However, when using Tarski universes, while universes and universe hierarchies m
 
 ## Definition
 
-### For individual universes
+### In set theory/category theory
+
+We work in a [[structural set theory]] which externally forms a [[well-pointed category|well-pointed]] [[cartesian closed category|cartesian closed]] [[Heyting pretopos]] with a [[natural numbers object]], namely a structural set theory with 
+
+* [[sets]] and [[functions]] as basic objects
+* the [[axiom of extensionality]]
+* an [[empty set]]
+* a [[singleton]]
+* binary [[products]]
+* binary [[disjoint unions]] which are [[van Kampen colimit|van Kampen]]
+* [[fibers]]
+* [[function sets]]
+* [[image factorizations]]
+* [[quotient sets]] 
+* a set of [[natural numbers]]
+
+Any [[well-pointed category|well-pointed]] [[cartesian closed category|cartesian closed]] [[Heyting pretopos]] with a [[natural numbers object]] inside of the set theory is thus an internal model of the set theory, and thus could be considered to be a [[universe]] inside of the set theory. 
+
+...
+
+### In type theory
+
+#### For individual universes
 
 Let $(U, T)$ be a [[weakly Tarski universe]] and let
 $$\sum_{A:U} \mathrm{isProp}(T(A))$$ 
@@ -42,7 +72,7 @@ $$T(\Omega_U) \equiv \sum_{A:U} \mathrm{isProp}(T(A))$$
 
 In particular, every impredicative [[strictly Tarski universe]] is strictly impredicative. 
 
-### For a universe hierarchy
+#### For a universe hierarchy
 
 Let $(P, U, T, t)$ be a [[hierarchy of weakly Tarski universes]]. By definition, $P$ is a [[preorder]] and there is a function
 $$t:\prod_{a:P} \prod_{b:P} (a \leq b) \to (U(a) \hookrightarrow U(b))$$
