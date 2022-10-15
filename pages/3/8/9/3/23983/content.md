@@ -17,6 +17,8 @@
 
 In [[dependent type theory]], given a [[type]] $A$, a [[type family]] $x:A \vdash B(x)$, [[terms]] $a_0:A$, $a_1:A$, and an [[identification]] $p:a_0 =_A a_1$, a **dependent identity type** or a **heterogeneous identity type** between two elements $b_0: B(a_0)$ and $b_1:B(a_1)$ is a type whose elements witness that $b_0$ and $b_1$ are "equal" over or modulo the identification $p$.  There are different ways to define this precisely, depending partly on the particular type theory used.
 
+The terms of a dependent identity types are **dependent identifications** or **heterogeneous identifications**.
+
 ## Definition in Martin-Löf type theory
 
 One way to define the dependent identity type in Martin-Lof type theory is using [[transport]] along the identification $p$:
@@ -72,3 +74,8 @@ needs to be written
 [[!redirects dependent identity types]]
 [[!redirects heterogeneous identity type]]
 [[!redirects heterogeneous identity types]]
+
+[[!redirects dependent identification]]
+[[!redirects dependent identifications]]
+[[!redirects heterogeneous identification]]
+[[!redirects heterogeneous identifications]]
