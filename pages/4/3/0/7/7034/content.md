@@ -112,7 +112,7 @@ Therefore $[A] \to X$ is a [[monomorphism]], and hence the interpretation of a [
 
 * [[n-truncation modality]]
 
-* [[bracket object]]
+* [[propositional truncation object]]
 
 [[!include homotopy n-types - table]]
 
