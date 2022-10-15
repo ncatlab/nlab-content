@@ -86,71 +86,16 @@ $$\frac{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash C(a, b, p) \; \mathr
 
 The [[uniqueness of identity proofs|uniqueness rule for identity types]] is usually not included in objective type theory. However, if it were included in objective type theory it turns the type theory into a [[set-level type theory]]. 
 
-### Empty type
+### Definitions of elements
 
-Formation rules for the empty type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{0} \; \mathrm{type}}$$
+Parts of the following section is adapted from [[Egbert Rijke]]'s [[Introduction to Homotopy Type Theory]]:
 
-Elimination rules for the empty type:
-$$\frac{\Gamma, x:\mathbb{0} \vdash C \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{0}}{\Gamma \vdash \mathrm{ind}_\mathbb{0}^C(p):C(p)}$$
-
-Uniqueness rules for the empty type:
-$$\frac{\Gamma, x:\mathbb{0} \vdash C \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{0} \quad \Gamma, x:\mathbb{0} \vdash u:C}{\Gamma \vdash \eta_\mathbb{0}(p, u):u[p/x] =_{C[p/x]} \mathrm{ind}_\mathbb{0}^{C}(p)}$$
-
-### Unit type
-
-Formation rules for the unit type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1} \; \mathrm{type}}$$
-
-Introduction rules for the unit type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:\mathbb{1}}$$
-
-Elimination rules for the unit type:
-$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_*:C[*/x] \quad \Gamma \vdash p:\mathbb{1}}{\Gamma \vdash \mathrm{ind}_\mathbb{1}^C(p, c_*):C[p/x]}$$
-
-Computation rules for the unit type:
-$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_*:C[*/x]}{\Gamma \vdash \beta_\mathbb{1}: \mathrm{ind}_\mathbb{1}^C(*, c_*) =_{C[*/x]} c_*}$$
-
-Uniqueness rules for the unit type:
-$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_*:C[*/x] \quad \Gamma \vdash p:\mathbb{1} \quad \Gamma, x:\mathbb{1} \vdash u:C \quad \Gamma \vdash i_*(u):u[*/x] =_{C[*/x]} c_* }{\Gamma \vdash \eta_\mathbb{1}(p, u):u[p/x] =_{C[p/x]} \mathrm{ind}_\mathbb{1}^{C}(p, c_*)}$$
-
-### Booleans
-
-Formation rules for the booleans:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{2} \; \mathrm{type}}$$
-
-Introduction rules for the booleans:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{2}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathbb{2}}$$
-
-Elimination rules for the booleans:
-$$\frac{\Gamma, x:\mathbb{2} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x] \quad \Gamma \vdash p:\mathbb{2}}{\Gamma \vdash \mathrm{ind}_\mathbb{2}^{C}(p, c_0, c_1):C[p/x]}$$
-
-Computation rules for the booleans:
-$$\frac{\Gamma, x:\mathbb{2} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x]}{\Gamma \vdash \beta_\mathbb{2}^{0}: \mathrm{ind}_\mathbb{2}^{C}(0, c_0, c_1) =_{C[0/x]} c_0}$$
-
-$$\frac{\Gamma, x:\mathbb{2} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x]}{\Gamma \vdash \beta_\mathbb{2}^{1}: \mathrm{ind}_\mathbb{2}^{C}(1, c_0, c_1) =_{C[1/x]} c_1}$$
-
-Uniqueness rules for the booleans:
-$$\frac{\Gamma, x:\mathbb{2} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x] \quad \Gamma \vdash p:\mathbb{2} \quad \Gamma, x:\mathbb{2} \vdash u:C \quad \Gamma \vdash i_0(u):u[0/x] =_{C[0/x]} c_0 \quad \Gamma \vdash i_1(u):u[1/x] =_{C[1/x]} c_1}{\Gamma \vdash \eta_\mathbb{2}(p, u):u[p/x] =_{C[p/x]} \mathrm{ind}_\mathbb{2}^{C}(p, c_0, c_1)}$$
-
-### Natural numbers
-
-Formation rules for the natural numbers:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{N} \; \mathrm{type}}$$
-
-Introduction rules for the natural numbers:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{N}} \qquad \frac{\Gamma \vdash n:\mathbb{N}}{\Gamma \vdash s(n):\mathbb{N}}$$
-
-Elimination rules for the natural numbers:
-$$\frac{\Gamma, x:\mathbb{N} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma, x:\mathbb{N}, c:C \vdash c_s:C[s(x)/x] \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash \mathrm{ind}_\mathbb{N}^C(n, c_0, c_s):C[n/x]}$$
-
-Computation rules for the natural numbers:
-$$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma, x:\mathbb{N}, c:C \vdash c_s:C[s(x)/x]}{\Gamma \vdash \beta_\mathbb{N}^{0}: \mathrm{ind}_\mathbb{N}^C(0, c_0, c_s) =_{C[0/x]} c_0}$$
-
-$$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma, x:\mathbb{N}, c:C \vdash c_s:C[s(x)/x]}{\Gamma \vdash \beta_\mathbb{N}^{s(n)}: \mathrm{ind}_\mathbb{N}^C(s(n), c_0, c_s) =_{C[s(n)/x]} c_s(n, \mathrm{ind}_\mathbb{N}^C(n, c_0, c_s))}$$
-
-Uniqueness rules for the natural numbers:
-$$\frac{\Gamma, x:\mathbb{N} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma, x:\mathbb{N}, c:C \vdash c_s:C[s(x)/x] \quad \Gamma \vdash n:\mathbb{N} \quad \Gamma, x:\mathbb{N} \vdash u:C \quad \Gamma \vdash i_0(u):u[0/x] =_{C[0/x]} c_0 \quad \Gamma, x:\mathbb{N} \vdash i_s(u):u[s(x)/x] =_{C[s(x)/x]} c_s[u/c]}{\Gamma \vdash \eta_\mathbb{N}(n, u):u[n/x] =_{C[n/x]} \mathrm{ind}_\mathbb{N}^{C}(p, c_0, c_s)}$$
+We can make definitions at the end of a derivation if the conclusion is a certain term of a type in context, where we have a derivation 
+$$\frac{\mathcal{D}}{\Gamma \vdash a:A}$$
+if we wish to make a definition $b \coloneqq a$, then we can extend the derivation tree with 
+$$\frac{\Gamma \vdash a:A}{\Gamma \vdash b \coloneqq a:A}$$
+The effect of such a definition is that we have extended our type theory with a new constant $b$, for which the following inference rules are valid 
+$$\frac{\mathcal{D}}{b:A} \qquad \frac{\mathcal{D}}{\mathrm{defeq}(a, b):b =_A a}$$
 
 ### Function types
 
@@ -242,37 +187,106 @@ $$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c(x):
 Uniqueness rules for sum types:
 $$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c(x):C(\mathrm{inl}(x)) \quad \Gamma, y:B \vdash d(y):C(\mathrm{inr}(y)) \quad \Gamma \vdash e:A + B \quad \Gamma, x:A + B \vdash u:C \quad \Gamma, a:A \vdash i_\mathrm{inl}(u):u(\mathrm{inl}(a)) =_{C(\mathrm{inl}(a))} c(a) \quad \Gamma, b:B \vdash i_\mathrm{inr}(u):u(\mathrm{inr}(b)) =_{C(\mathrm{inr}(b))} d(b)}{\Gamma \vdash \eta_{A + B}:u(e) =_{C(e)} \mathrm{ind}_{A + B}^C(c(\mathrm{inl}(e)), d(\mathrm{inl}(e)), e)}$$
 
+### Empty type
+
+Formation rules for the empty type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{0} \; \mathrm{type}}$$
+
+Elimination rules for the empty type:
+$$\frac{\Gamma, x:\mathbb{0} \vdash C \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{0}}{\Gamma \vdash \mathrm{ind}_\mathbb{0}^C(p):C(p)}$$
+
+Uniqueness rules for the empty type:
+$$\frac{\Gamma, x:\mathbb{0} \vdash C \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{0} \quad \Gamma, x:\mathbb{0} \vdash u:C}{\Gamma \vdash \eta_\mathbb{0}(p, u):u[p/x] =_{C[p/x]} \mathrm{ind}_\mathbb{0}^{C}(p)}$$
+
+### Unit type
+
+Formation rules for the unit type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1} \; \mathrm{type}}$$
+
+Introduction rules for the unit type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:\mathbb{1}}$$
+
+Elimination rules for the unit type:
+$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_*:C[*/x] \quad \Gamma \vdash p:\mathbb{1}}{\Gamma \vdash \mathrm{ind}_\mathbb{1}^C(p, c_*):C[p/x]}$$
+
+Computation rules for the unit type:
+$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_*:C[*/x]}{\Gamma \vdash \beta_\mathbb{1}: \mathrm{ind}_\mathbb{1}^C(*, c_*) =_{C[*/x]} c_*}$$
+
+Uniqueness rules for the unit type:
+$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_*:C[*/x] \quad \Gamma \vdash p:\mathbb{1} \quad \Gamma, x:\mathbb{1} \vdash u:C \quad \Gamma \vdash i_*(u):u[*/x] =_{C[*/x]} c_* }{\Gamma \vdash \eta_\mathbb{1}(p, u):u[p/x] =_{C[p/x]} \mathrm{ind}_\mathbb{1}^{C}(p, c_*)}$$
+
+### Booleans
+
+Formation rules for the booleans:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{2} \; \mathrm{type}}$$
+
+Introduction rules for the booleans:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{2}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathbb{2}}$$
+
+Elimination rules for the booleans:
+$$\frac{\Gamma, x:\mathbb{2} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x] \quad \Gamma \vdash p:\mathbb{2}}{\Gamma \vdash \mathrm{ind}_\mathbb{2}^{C}(p, c_0, c_1):C[p/x]}$$
+
+Computation rules for the booleans:
+$$\frac{\Gamma, x:\mathbb{2} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x]}{\Gamma \vdash \beta_\mathbb{2}^{0}: \mathrm{ind}_\mathbb{2}^{C}(0, c_0, c_1) =_{C[0/x]} c_0}$$
+
+$$\frac{\Gamma, x:\mathbb{2} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x]}{\Gamma \vdash \beta_\mathbb{2}^{1}: \mathrm{ind}_\mathbb{2}^{C}(1, c_0, c_1) =_{C[1/x]} c_1}$$
+
+Uniqueness rules for the booleans:
+$$\frac{\Gamma, x:\mathbb{2} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x] \quad \Gamma \vdash p:\mathbb{2} \quad \Gamma, x:\mathbb{2} \vdash u:C \quad \Gamma \vdash i_0(u):u[0/x] =_{C[0/x]} c_0 \quad \Gamma \vdash i_1(u):u[1/x] =_{C[1/x]} c_1}{\Gamma \vdash \eta_\mathbb{2}(p, u):u[p/x] =_{C[p/x]} \mathrm{ind}_\mathbb{2}^{C}(p, c_0, c_1)}$$
+
+### Natural numbers
+
+Formation rules for the natural numbers:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{N} \; \mathrm{type}}$$
+
+Introduction rules for the natural numbers:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{N}} \qquad \frac{\Gamma \vdash n:\mathbb{N}}{\Gamma \vdash s(n):\mathbb{N}}$$
+
+Elimination rules for the natural numbers:
+$$\frac{\Gamma, x:\mathbb{N} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma, x:\mathbb{N}, c:C \vdash c_s:C[s(x)/x] \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash \mathrm{ind}_\mathbb{N}^C(n, c_0, c_s):C[n/x]}$$
+
+Computation rules for the natural numbers:
+$$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma, x:\mathbb{N}, c:C \vdash c_s:C[s(x)/x]}{\Gamma \vdash \beta_\mathbb{N}^{0}: \mathrm{ind}_\mathbb{N}^C(0, c_0, c_s) =_{C[0/x]} c_0}$$
+
+$$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma, x:\mathbb{N}, c:C \vdash c_s:C[s(x)/x]}{\Gamma \vdash \beta_\mathbb{N}^{s(n)}: \mathrm{ind}_\mathbb{N}^C(s(n), c_0, c_s) =_{C[s(n)/x]} c_s(n, \mathrm{ind}_\mathbb{N}^C(n, c_0, c_s))}$$
+
+Uniqueness rules for the natural numbers:
+$$\frac{\Gamma, x:\mathbb{N} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma, x:\mathbb{N}, c:C \vdash c_s:C[s(x)/x] \quad \Gamma \vdash n:\mathbb{N} \quad \Gamma, x:\mathbb{N} \vdash u:C \quad \Gamma \vdash i_0(u):u[0/x] =_{C[0/x]} c_0 \quad \Gamma, x:\mathbb{N} \vdash i_s(u):u[s(x)/x] =_{C[s(x)/x]} c_s[u/c]}{\Gamma \vdash \eta_\mathbb{N}(n, u):u[n/x] =_{C[n/x]} \mathrm{ind}_\mathbb{N}^{C}(p, c_0, c_s)}$$
+
 ### isProp types
 
-In set theory, a set is a [[subsingleton]] if it has at most one element up to [[equality]]: every two elements in the set are equal to each other. 
+In set theory, a set is a [[subsingleton]] if it has at most one element up to [[equality]]: every pair of elements in the set are equal to each other. 
 
-These same definitions carry over to objective type theory: a type $T$ is a subsingleton or an [[h-proposition]] if for all $x:T$ and $y:T$ there is an element $p(x, y):x =_T y$. 
+These same definitions carry over to objective type theory: a type $T$ is a subsingleton or an [[h-proposition]] if for all pairs $x:T \times T$ there is an element $\mathrm{proptrunc}(x):\pi_1(x) =_T \pi_2(x)$. Since objective type theory has Pi types, this is the same as saying that there is a dependent function 
+$$\mathrm{proptrunc}:\prod_{x:T \times T} \pi_1(x) =_T \pi_2(x)$$
+The elements $p:\prod_{x:T \times T} \pi_1(x) =_T \pi_2(x)$ are proofs that $T$ is a proposition or subsingleton. 
 
-This motivates the definition of $\mathrm{isProp}$ types, whose elements $p:\mathrm{isProp}(T)$ are proofs that $T$ is a proposition. 
+We could use the type $\prod_{x:T \times T} \pi_1(x) =_T \pi_2(x)$ wherever we want to see if a type is a subsingleton or proposition, but it is somewhat cumbersome to write out, and we would like to abbreviate that to the type $\mathrm{isProp}(T)$. This motivates introducing rules for $\mathrm{isProp}$ types separate from the existing rules for Pi types. (Later, after we have defined equivalences $A \simeq B$, we could just introduce the type $\mathrm{isProp}(T)$ and an equivalence $\mathrm{isProp}(T) \simeq \prod_{x:T \times T} \pi_1(x) =_T \pi_2(x)$.)
 
 Formation rules for isProp types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash x =_A y \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \times A \vdash \pi_1(x) =_A \pi_2(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}}$$
 
 Introduction rules for isProp types:
-$$\frac{\Gamma, x:A, y:A \vdash p(x, y):x =_A y}{\Gamma \vdash \lambda(x).\lambda(y).p(x, y):\mathrm{isProp}(A)}$$
+$$\frac{\Gamma, x:A \times A \vdash p(x):\pi_1(x) =_A \pi_2(x)}{\Gamma \vdash \lambda x.p(x):\mathrm{isProp}(A)}$$
 
 Elimination rules for isProp types:
-$$\frac{\Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A}{\Gamma \vdash p(a, b):a =_A b}$$
+$$\frac{\Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma \vdash a:A \times A}{\Gamma \vdash p(a):\pi_1(a) =_A \pi_2(a)}$$
 
 Computation rules for isProp types:
-$$\frac{\Gamma, x:A, y:A \vdash p(x, y):x =_A y \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A}{\Gamma \vdash \beta_\mathrm{isProp}:(\lambda(x).\lambda(y).p(x, y))(a, b) =_{a =_A b} p(a, b)}$$
+$$\frac{\Gamma, x:A \times A \vdash p(x):\pi_1(x) =_A \pi_2(x) \quad \Gamma \vdash a:A \times A}{\Gamma \vdash \beta_\mathrm{isProp}:(\lambda x.p(x))(a) =_{\pi_1(a) =_A \pi_2(a)} p(a)}$$
 
 Uniqueness rules for isProp types:
-$$\frac{\Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \eta_\mathrm{isProp}:p =_{\mathrm{isProp}(A)} \lambda(x).\lambda(y).p(x, y)}$$
+$$\frac{\Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \eta_\mathrm{isProp}:p =_{\mathrm{isProp}(A)} \lambda x.p(x)}$$
 
 ### isContr types
 
 In set theory, a set is a [[pointed set]] if it has at least one chosen element, and it is a [[singleton]] if it has exactly one element up to equality: it is a pointed set and a subsingleton. 
 
-These same definitions carry over to objective type theory: A type $T$ is a [[pointed type]] if it has a chosen element $a:T$, a type $T$ is a singleton if it has both an element $p_*:T$ and an element $q:\mathrm{isProp}(T)$, or equivalently, an element
-$$c:T \times \mathrm{isProp}(T)$$
+These same definitions carry over to objective type theory: A type $T$ is a [[pointed type]] if it has a chosen element $a:T$, a type $T$ is a singleton or a [[contractible type]] if it has both an element $p_*:T$ and an element $q:\mathrm{isProp}(T)$, or equivalently, an element
+$$p:T \times \mathrm{isProp}(T)$$
+The elements $p:\T \times \mathrm{isProp}(T)$ are proofs that $T$ is a singleton or a contractible type. 
 
-This motivates the definition of $\mathrm{isContr}$ types, whose elements $p:\mathrm{isContr}(T)$ are proofs that $T$ is contractible. 
+Similarly to the case for isProp types, we could use the type $T \times \mathrm{isProp}(T)$ wherever we want to see if a type is a singleton or contractible, but it is similarly cumbersome to write out, and we would like to abbreviate that to the type $\mathrm{isContr}(T)$. This motivates introducing rules for $\mathrm{isContr}$ types separate from the existing rules for product types:
 
 Formation rules for isContr types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}}{\Gamma \vdash \mathrm{isContr}(A) \; \mathrm{type}}$$
@@ -293,8 +307,9 @@ $$\frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \eta_{\mathrm{isContr
 
 In set theory, the [[fiber]] of a function $f$ with [[domain]] $A$ and [[codomain]] $B$ at an element $b$ in $B$ is the indexed [[disjoint union]] of all elements $a:A$ such that $f(a) = b$. This definition could also be translated into objective type theory: the fiber of a function $f:A \to B$ at the element $b:B$ is the type 
 $$\sum_{a:A} f(a) =_B b$$
+The elements $p:\sum_{a:A} f(a) =_B b$ are the fibers of the function $f:A \to B$ at element $y:B$. 
 
-This motivates the definition of fiber types, whose elements $p:\mathrm{fiber}_{A, B}(f, y)$ are the fibers of the function $f:A \to B$ at element $y:B$
+We could use the type $\sum_{a:A} f(a) =_B b$ wherever we want to get the type of fibers of a function at an element, but it is cumbersome to write out, and we would like to abbreviate that to the type $\mathrm{fiber}_{A, B}(f, y)$. This motivates introducing rules for $\mathrm{fiber}_{A, B}$ types separate from the existing rules for Sigma types:
 
 Formation rules for fiber types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B, y:B, x:A \vdash f(x) =_B y \; \mathrm{type}}{\Gamma, f:A \to B, y:B \vdash \mathrm{fiber}_{A, B}(f, y) \; \mathrm{type}}$$
@@ -313,9 +328,15 @@ $$\frac{\Gamma, f:A \to B, y:B \vdash z:\mathrm{fiber}_{A, B}(f, y)}{\Gamma, f:A
 
 ### isEquiv types
 
-In set theory, a function is a [[bijection]] if all its fibers at every element of the codomain are singletons. This definition can be translated over to objective type theory, but the name used for such a function in objective type theory is [[equivalence in homotopy type theory|equivalence]]. 
+In set theory, a function is a [[bijection]] if all its fibers at every element of the codomain are singletons. This definition can be translated over to objective type theory, as the type 
+$$\prod_{b:B} \mathrm{isContr}(\mathrm{fiber}_{A, B}(f, b)$$
+but the name used for such a function in objective type theory is [[equivalence in homotopy type theory|equivalence]], rather than bijection. The elements 
+$$p:\prod_{b:B} \mathrm{isContr}(\mathrm{fiber}_{A, B}(f, b)$$
+are witnesses that the function $f:A \to B$ is an equivalence. 
 
-This motivates the definition of the isEquiv type family, whose elements $p:\mathrm{isEquiv}_{A, B}(f)$ witnesses that the function $f:A \to B$ is an equivalence. 
+We could use the type 
+$$\prod_{b:B} \mathrm{isContr}(\mathrm{fiber}_{A, B}(f, b)$$ 
+wherever we want to see if a function $f:A \to B$ is an equivalence, but it is cumbersome to write out, and we would like to abbreviate that to the type $\mathrm{isEquiv}(f)$. This motivates introducing rules for $\mathrm{isEquiv}(f)$ types separate from the existing rules for Pi types:
 
 Formation rules for isEquiv types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B, y:B \vdash \mathrm{isContr}(\mathrm{fiber}_{A, B}(f, y)) \; \mathrm{type}}{\Gamma \vdash \mathrm{isEquiv}_{A, B}(f) \; \mathrm{type}}$$
@@ -334,7 +355,11 @@ $$\frac{\Gamma, f:A \to B \vdash p:\mathrm{isEquiv}_{A, B}(f)}{\Gamma, f:A \to B
 
 ### Equivalence types
 
-The type of equivalences is given by the following rules
+The type of equivalences is given by the type
+$$\sum_{f:A \to B} \mathrm{isEquiv}(f)$$
+The elements $g:\sum_{f:A \to B} \mathrm{isEquiv}(f)$ are equivalences between $A$ and $B$. 
+
+We could use the type $\sum_{f:A \to B} \mathrm{isEquiv}(f)$ wherever we want to get the type of equivalences between two types $A$ and $B$, but it is cumbersome to write out, and we would like to abbreviate that to the type $A \simeq B$. This motivates introducing rules for $A \simeq B$ types separate from the existing rules for Sigma types:
 
 Formation rules for equivalence types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \vdash \mathrm{isEquiv}(f) \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
@@ -351,17 +376,13 @@ $$\frac{\Gamma, f:A \to B \vdash p(f):\mathrm{isEquiv}(f) \quad \Gamma \vdash g:
 Uniqueness rules for equivalence types:
 $$\frac{\Gamma \vdash h:A \simeq B}{\Gamma \vdash \eta_\simeq:h =_{A \simeq B} (\pi_1(h), \pi_2(h))}$$
 
-### Definitions
+### Definitions of types
+
+Now that we have equivalences between types, we can finally define types. 
 
 Parts of the following section is adapted from [[Egbert Rijke]]'s [[Introduction to Homotopy Type Theory]]:
 
-We can make definitions at the end of a derivation if the conclusion is a certain type in context, or if the conclusion is a certain term of a type in context. In the case where the conclusion is a certain term of a type in context, where we have a derivation 
-$$\frac{\mathcal{D}}{\Gamma \vdash a:A}$$
-if we wish to make a definition $b \coloneqq a$, then we can extend the derivation tree with 
-$$\frac{\Gamma \vdash a:A}{\Gamma \vdash b \coloneqq a:A}$$
-The effect of such a definition is that we have extended our type theory with a new constant $b$, for which the following inference rules are valid 
-$$\frac{\mathcal{D}}{b:A} \qquad \frac{\mathcal{D}}{\mathrm{defeq}(a, b):b =_A a}$$
-In the case where the conclusion is a certain type in context, where we have a derivation
+We can make definitions at the end of a derivation if the conclusion is a certain type in context, where we have a derivation 
 $$\frac{\mathcal{D}}{\Gamma \vdash A \; \mathrm{type}}$$
 if we wish to make a definition $B \coloneqq A$, then we can similarly extend the derivation tree with 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash B \coloneqq A \; \mathrm{type}}$$
@@ -372,42 +393,125 @@ In essence, we define an element $b$ to be equal to $a$, and a type $B$ to be eq
 
 ### Transport
 
-Transport is the statement that given a type family $P$ indexed by $A$, elements $a:A$ and $b:A$ which are identified with each other $p:a =_A b$, there is an equivalence $\mathrm{trans}^P(a, b, p):P(a) \simeq P(b)$ between the types $P(a)$ and $P(b)$. This is inductively defined on reflexivity on $a:A$, which transport takes to the identity function on $P(a)$, $\mathrm{trans}^P(a, a, \mathrm{refl}_A(a)) =_{P(a) \simeq P(a)} id_{P(a)}$. 
+Transport is the statement that given a type family $P$ indexed by $A$ and elements $a:A$ and $b:A$, there is a function $\mathrm{trans}^P(a, b):(a =_A b) \to (P(a) \simeq P(b))$ from the identity type of $a$ and $b$ to the type of equivalences between the types $P(a)$ and $P(b)$. This is inductively defined on reflexivity on $a:A$, which transport takes to the identity function on $P(a)$, $\mathrm{trans}^P(a, a, \mathrm{refl}_A(a)) =_{P(a) \simeq P(a)} id_{P(a)}$. 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b}{\Gamma \vdash \mathrm{trans}^P(a, b, p):P[a/x] \simeq P[b/x]}$$
+Transport is given by the following rules:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{trans}^P(a, a, \mathrm{refl}_A(a)) =_{P[a/x] \simeq P[a/x]} \mathrm{id}_{P[a/x]}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A}{\Gamma \vdash \mathrm{trans}^P(a, b):(a =_A b) \to (P[a/x] \simeq P[b/x])}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{ind}_{\mathrm{trans}^P}^{\mathrm{refl}}\mathrm{trans}^P(a, a)(\mathrm{refl}_A(a)) =_{P[a/x] \simeq P[a/x]} \mathrm{id}_{P[a/x]}}$$
+
+Transport is very important in defining both [[univalent Tarski universes]] and [[higher inductive types]] in objective type theory. 
 
 ### Universes
 
-Universes are internal models of [[dependent type theory]] inside of the type theory itself. An universe consists of a type of encodings for types $\mathcal{U}$ and a universal type family $\mathcal{T}_\mathcal{U}$ which takes the encodings and returns an actual type, resulting in the formation and type reflection rules for universes:
+Universes are internal models of [[dependent type theory]] inside of the type theory itself. An universe consists of a type of encodings for types $\mathcal{U}$ and a universal type family $\mathcal{T}$ which takes the encodings and returns an actual type, resulting in the formation and type reflection rules for universes:
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathcal{U} \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\mathcal{U}}{\Gamma \vdash \mathcal{T}_\mathcal{U}(A) \; \mathrm{type}}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathcal{U} \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\mathcal{U}}{\Gamma \vdash \mathcal{T}(A) \; \mathrm{type}}$$
 
-Given an encoding $A:\mathcal{U}$, an internal type family indexed by $A$ is a function $B:\mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$. 
+Given an encoding $A:\mathcal{U}$, an internal type family indexed by $A$ is a function $B:\mathcal{T}(A) \to \mathcal{U}$. 
 
-There are two ways to say that $A:\mathcal{U}$ and $B:\mathcal{U}$ are the same, by way of the identity type of the universe $A =_\mathcal{U} B$, and by way of the type of equivalences between the type reflections of $A:\mathcal{U}$ and $B:\mathcal{U}$, $\mathcal{T}_\mathcal{U}(A) \simeq_\mathcal{U} \mathcal{T}_\mathcal{U}(B)$. By [[transport]], there is a canonical function 
-$$\mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B):(A =_\mathcal{U} B) \to (\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B))$$
-The universe $\mathcal{U}$ is then said to be a [[univalent universe]] if the transport function $\mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B)$ is an equivalence of types
-$$\mathrm{trans}^{\mathcal{T}_\mathcal{U}}(A, B):(A =_\mathcal{U} B) \simeq (\mathcal{T}_\mathcal{U}(A) \simeq \mathcal{T}_\mathcal{U}(B))$$
-for all encodings $A:\mathcal{U}$ and $B:\mathcal{U}$. 
+#### Univalence
 
-Universes are usually also required to be closed under identity types, function types, pi types, product types, and sigma types.
+There are two ways to say that $A:\mathcal{U}$ and $B:\mathcal{U}$ are the same, by way of the identity type of the universe $A =_\mathcal{U} B$, and by way of the type of equivalences between the type reflections of $A:\mathcal{U}$ and $B:\mathcal{U}$, $\mathcal{T}(A) \simeq \mathcal{T}(B)$. By [[transport]], there is a canonical function 
+$$\mathrm{trans}^{\mathcal{T}}(A, B):(A =_\mathcal{U} B) \to (\mathcal{T}(A) \simeq \mathcal{T}(B))$$
+The universe $\mathcal{U}$ is then said to be a [[univalent universe]] if the transport function $\mathrm{trans}^{\mathcal{T}}(A, B)$ is an equivalence of types
+$$\mathrm{univalence}(A, B):\mathrm{isEquiv}(\mathrm{trans}^{\mathcal{T}}(A, B))$$
+for all encodings $A:\mathcal{U}$ and $B:\mathcal{U}$. This is given by the following rule
 
-A universe $\mathcal{U}$ is closed under identity types if it has an internal encoding of identity types in the universe: Given an element $A:\mathcal{U}$, there is a function $\mathrm{Id}_A^\mathcal{U}:\mathcal{T}_\mathcal{U}(A) \times \mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$ and for all elemments $a:\mathcal{T}_\mathcal{U}(A)$ and $b:\mathcal{T}_\mathcal{U}(A)$ an equivalence 
-$$\mathrm{canonical}_{\mathrm{Id}_A}(a, b):\mathcal{T}_\mathcal{U}(\mathrm{Id}_A^\mathcal{U}(a, b)) \simeq (a =_{\mathcal{T}_\mathcal{U}(A)} b)$$
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{isEquiv}(\mathrm{trans}^{\mathcal{T}}(A, B))}$$
+
+Universes are usually also required to be closed under all the type formers introduced previously.
+
+#### Internal identity types
+
+A universe $\mathcal{U}$ is closed under identity types if it has an internal encoding of identity types in the universe: Given an element $A:\mathcal{U}$, there is a function $\mathrm{Id}^\mathcal{U}(A):\mathcal{T}(A) \times \mathcal{T}(A) \to \mathcal{U}$ and for all elements $a:\mathcal{T}(A)$ and $b:\mathcal{T}(A)$ an equivalence 
+$$\mathrm{canonical}_{\mathrm{Id}}^{\mathcal{U}}(A)(a, b):\mathcal{T}(\mathrm{Id}^\mathcal{U}(A)(a, b)) \simeq (a =_{\mathcal{T}(A)} b)$$
+
+The rules for the internal identity types are thus given by
+
+$$\frac{\Gamma \vdash A:\mathcal{U}}{\Gamma \vdash \mathrm{Id}^\mathcal{U}(A):\mathcal{T}(A) \times \mathcal{T}(A) \to \mathcal{U}} \qquad \frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash a:\mathcal{T}(A) \quad \Gamma \vdash b:\mathcal{T}(A)}{\Gamma \vdash \mathrm{canonical}_{\mathrm{Id}}^{\mathcal{U}}(A)(a, b):\mathcal{T}(\mathrm{Id}^\mathcal{U}(A)(a, b)) \simeq (a =_{\mathcal{T}(A)} b)}$$
+
+#### Internal function types
 
 A universe $\mathcal{U}$ is closed under function types if it has an internal encoding of function types in the universe: given an element $A:\mathcal{U}$ and an element $B:\mathcal{U}$, there is an element $A \to_\mathcal{U} B:\mathcal{U}$, and an equivalence
-$$\mathrm{canonical}_{\to}(A, B):\mathcal{T}_\mathcal{U}(A \to_\mathcal{U} B) \simeq \mathcal{T}_\mathcal{U}(A) \to \mathcal{T}_\mathcal{U}(B)$$
+$$\mathrm{canonical}_{\to}^{\mathcal{U}}(A, B):\mathcal{T}(A \to_\mathcal{U} B) \simeq \mathcal{T}(A) \to \mathcal{T}(B)$$
+
+The rules for the internal function types are thus given by
+
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma \vdash A \to_\mathcal{U} B:\mathcal{U}} \qquad \frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma \vdash \mathrm{canonical}_{\to}^{\mathcal{U}}(A, B):\mathcal{T}(A \to_\mathcal{U} B) \simeq \mathcal{T}(A) \to \mathcal{T}(B)}$$
+
+#### Internal pi types
+
+A universe $\mathcal{U}$ is closed under pi types if it has an internal encoding of pi types in the universe: given an element $A:\mathcal{U}$ and a function $B:\mathcal{T}(A) \to \mathcal{U}$, there is an element $\Pi_\mathcal{U}(x:A).B(x):\mathcal{U}$, and an equivalence
+$$\mathrm{canonical}_\Pi^{\mathcal{U}}(A, B):\mathcal{T}(\Pi_\mathcal{U}(x:A).B(x)) \simeq \prod_{x:\mathcal{T}(A)} \mathcal{T}(B(x))$$
+
+The rules for the internal pi types are thus given by
+
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{T}(A) \to \mathcal{U}}{\Gamma \vdash \Pi_\mathcal{U}(x:A).B(x):\mathcal{U}} \qquad \frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{T}(A) \to \mathcal{U}}{\Gamma \vdash \mathrm{canonical}_\Pi^{\mathcal{U}}(A, B):\mathcal{T}(\Pi_\mathcal{U}(x:A).B(x)) \simeq \prod_{x:\mathcal{T}(A)} \mathcal{T}(B(x))}$$
+
+#### Internal product types
 
 A universe $\mathcal{U}$ is closed under product types if it has an internal encoding of product types in the universe: given an element $A:\mathcal{U}$ and an element $B:\mathcal{U}$, there is an element $A \times_\mathcal{U} B:\mathcal{U}$, and an equivalence
-$$\mathrm{canonical}_{\times}(A, B):\mathcal{T}_\mathcal{U}(A \times_\mathcal{U} B) \simeq \mathcal{T}_\mathcal{U}(A) \times \mathcal{T}_\mathcal{U}(B)$$
+$$\mathrm{canonical}_{\times}^{\mathcal{U}}(A, B):\mathcal{T}(A \times_\mathcal{U} B) \simeq \mathcal{T}(A) \times \mathcal{T}(B)$$
 
-A universe $\mathcal{U}$ is closed under sigma types if it has an internal encoding of sigma types in the universe: given an element $A:\mathcal{U}$ and a function $B:\mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$, there is an element $\Sigma_\mathcal{U}(x:A).B(x):\mathcal{U}$, and an equivalence
-$$\mathrm{canonical}_\Sigma(A, B):\mathcal{T}_\mathcal{U}(\Sigma_\mathcal{U}(x:A).B(x)) \simeq \sum_{x:\mathcal{T}_\mathcal{U}(A)} \mathcal{T}_\mathcal{U}(B(x))$$
+The rules for the internal product types are thus given by
 
-A universe $\mathcal{U}$ is closed under pi types if it has an internal encoding of pi types in the universe: given an element $A:\mathcal{U}$ and a function $B:\mathcal{T}_\mathcal{U}(A) \to \mathcal{U}$, there is an element $\Pi_\mathcal{U}(x:A).B(x):\mathcal{U}$, and an equivalence
-$$\mathrm{canonical}_\Pi(A, B):\mathcal{T}_\mathcal{U}(\Pi_\mathcal{U}(x:A).B(x)) \simeq \prod_{x:\mathcal{T}_\mathcal{U}(A)} \mathcal{T}_\mathcal{U}(B(x))$$
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma \vdash A \times_\mathcal{U} B:\mathcal{U}} \qquad \frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma \vdash \mathrm{canonical}_{\to}^{\mathcal{U}}(A, B):\mathcal{T}(A \times_\mathcal{U} B) \simeq \mathcal{T}(A) \times \mathcal{T}(B)}$$
+
+#### Internal sigma types
+
+A universe $\mathcal{U}$ is closed under sigma types if it has an internal encoding of sigma types in the universe: given an element $A:\mathcal{U}$ and a function $B:\mathcal{T}(A) \to \mathcal{U}$, there is an element $\Sigma_\mathcal{U}(x:A).B(x):\mathcal{U}$, and an equivalence
+$$\mathrm{canonical}_\Sigma^{\mathcal{U}}(A, B):\mathcal{T}(\Sigma_\mathcal{U}(x:A).B(x)) \simeq \sum_{x:\mathcal{T}(A)} \mathcal{T}(B(x))$$
+
+The rules for the internal sigma types are thus given by
+
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{T}(A) \to \mathcal{U}}{\Gamma \vdash \Sigma_\mathcal{U}(x:A).B(x):\mathcal{U}} \qquad \frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{T}(A) \to \mathcal{U}}{\Gamma \vdash \mathrm{canonical}_\Sigma^{\mathcal{U}}(A, B):\mathcal{T}(\Pi_\mathcal{U}(x:A).B(x)) \simeq \sum_{x:\mathcal{T}(A)} \mathcal{T}(B(x))}$$
+
+#### Internal sum types
+
+A universe $\mathcal{U}$ is closed under sum types if it has an internal encoding of sum types in the universe: given an element $A:\mathcal{U}$ and an element $B:\mathcal{U}$, there is an element $A +_\mathcal{U} B:\mathcal{U}$, and an equivalence
+$$\mathrm{canonical}_{+}^{\mathcal{U}}(A, B):\mathcal{T}(A +_\mathcal{U} B) \simeq \mathcal{T}(A) + \mathcal{T}(B)$$
+
+The rules for the internal sum types are thus given by
+
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma \vdash A +_\mathcal{U} B:\mathcal{U}} \qquad \frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma \vdash \mathrm{canonical}_{+}^{\mathcal{U}}(A, B):\mathcal{T}(A +_\mathcal{U} B) \simeq \mathcal{T}(A) + \mathcal{T}(B)}$$
+
+#### Internal empty type
+
+A universe $\mathcal{U}$ is closed under the empty type if it has an internal encoding of the empty type in the universe: there is an element $\mathbb{0}_\mathcal{U}:\mathcal{U}$, and an equivalence
+$$\mathrm{canonical}_{\mathbb{0}}^{\mathcal{U}}:\mathcal{T}(\mathbb{0}_\mathcal{U}) \simeq \mathbb{0}$$
+
+The rules for the internal empty type are thus given by
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{0}_\mathcal{U}:\mathcal{U}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{canonical}_{\mathbb{0}}^{\mathcal{U}}:\mathcal{T}(\mathbb{0}_\mathcal{U}) \simeq \mathbb{0}}$$
+
+#### Internal unit type
+
+A universe $\mathcal{U}$ is closed under the unit type if it has an internal encoding of the unit type in the universe: there is an element $\mathbb{1}_\mathcal{U}:\mathcal{U}$, and an equivalence
+$$\mathrm{canonical}_{\mathbb{1}}^{\mathcal{U}}:\mathcal{T}(\mathbb{1}_\mathcal{U}) \simeq \mathbb{1}$$
+
+The rules for the internal unit type are thus given by
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1}_\mathcal{U}:\mathcal{U}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{canonical}_{\mathbb{1}}^{\mathcal{U}}:\mathcal{T}(\mathbb{1}_\mathcal{U}) \simeq \mathbb{1}}$$
+
+#### Internal booleans type
+
+A universe $\mathcal{U}$ is closed under the booleans type if it has an internal encoding of the booleans type in the universe: there is an element $\mathbb{2}_\mathcal{U}:\mathcal{U}$, and an equivalence
+$$\mathrm{canonical}_{\mathbb{2}}^{\mathcal{U}}:\mathcal{T}(\mathbb{2}_\mathcal{U}) \simeq \mathbb{2}$$
+
+The rules for the internal booleans type are thus given by
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{2}_\mathcal{U}:\mathcal{U}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{canonical}_{\mathbb{2}}^{\mathcal{U}}:\mathcal{T}(\mathbb{2}_\mathcal{U}) \simeq \mathbb{2}}$$
+
+#### Internal natural numbers type
+
+A universe $\mathcal{U}$ is closed under the natural numbers type if it has an internal encoding of the natural numbers type in the universe: there is an element $\mathbb{N}_\mathcal{U}:\mathcal{U}$, and an equivalence
+$$\mathrm{canonical}_{\mathbb{N}}^{\mathcal{U}}:\mathcal{T}(\mathbb{N}_\mathcal{U}) \simeq \mathbb{N}$$
+
+The rules for the internal natural numbers type are thus given by
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{N}_\mathcal{U}:\mathcal{U}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{canonical}_{\mathbb{N}}^{\mathcal{U}}:\mathcal{T}(\mathbb{N}_\mathcal{U}) \simeq \mathbb{N}}$$
 
 ## Categorical semantics
 
@@ -441,6 +545,7 @@ See also [[open problems in homotopy type theory]]
 
 * [[Benno van den Berg]], [[Martijn den Besten]], *Quadratic type checking for objective type theory* ([arXiv:2102.00905](https://arxiv.org/abs/2102.00905))
 
-Parts of this article were taken from Remark 2.2.1 in:
+* *Homotopy Type Theory: Univalent Foundations of Mathematics*,
+The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
 
 * [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([pdf](https://raw.githubusercontent.com/martinescardo/HoTTEST-Summer-School/main/HoTT/hott-intro.pdf)) (478 pages)
