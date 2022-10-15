@@ -63,7 +63,7 @@ It is not wrong to summarize this by saying that:
 
 > *Homotopy theory embodies the [[gauge principle]] in mathematics*.
 
-Namely, in [[physics]], the [[gauge principle]] says that it is wrong to ask for any two [[field history|things]] to be [[equal]], instead one always has to ask whether there is a [[gauge transformation]] relating them, and then a [[gauge-of-gauge transformation]] relating these, etc. Similarly in homotopy theory it is wrong to ask whether any to objects are equal, instead one has to ask whether there is a [[homotopy equivalence]] between them and then [[higher homotopies]] between these, etc.
+Namely, in [[physics]], the [[gauge principle]] says that it is wrong to ask for any two [[field history|things]] to be [[equal]], instead one always has to ask whether there is a [[gauge transformation]] relating them, and then a [[gauge-of-gauge transformation]] relating these, etc. Similarly in homotopy theory it is wrong to ask whether any two objects are equal, instead one has to ask whether there is a [[homotopy equivalence]] between them and then [[higher homotopies]] between these, etc.
 
 \linebreak
 
