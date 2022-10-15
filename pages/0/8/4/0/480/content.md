@@ -37,6 +37,8 @@ See [[familial regularity and exactness]] for a general description of the spect
 
 * Even more generally, any [[locally cartesian closed category]] with finite [[colimits]] is coherent, and thus any [[quasitopos]] is coherent. 
 
+* Every [[Heyting category]] is a [[coherent category]]. 
+
 * If $C$ is coherent, so is the [[functor category]] $C^D$ for any $D$.
 
 * A [[slice category]] of a coherent category is coherent.
