@@ -41,12 +41,17 @@ In [[Coq]] pseudocode:
 
 * [[smash product type]]
 
+* [[cofiber type]]
+
 ## See also
 
 * [[higher inductive type]]
 
-* [[homotopy pushout]]
+* [[pushout]], [[homotopy pushout]]
 
 ## References ##
 
 * [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
+
+[[!redirects pushout type]]
+[[!redirects pushout types]]
