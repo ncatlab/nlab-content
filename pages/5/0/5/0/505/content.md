@@ -12,6 +12,9 @@ Sometimes a slightly different convention is used: There what we call subsinglet
 ## See also
 
 * [[h-proposition]]
+* [[support]]
+
+[[!include types and logic - table]]
 
 [[!redirects subsingleton]]
 [[!redirects subsingletons]]
