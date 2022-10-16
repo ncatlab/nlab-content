@@ -98,6 +98,10 @@ in global context, which has a global element precisely when $isProp(A)\to B$ ha
 
 ## Related concepts
 
+* [[subsingleton]], [[subterminal object]]
+
+* [[propositional truncation]]
+
 * [[isEquiv]]
 
 * [[isContr]]
