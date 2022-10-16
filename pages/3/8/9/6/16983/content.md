@@ -31,6 +31,7 @@ These taboos are unprovable in [[constructive mathematics]].
 * [[law of excluded middle]]
 * [[principle of omniscience]]
 * [[axiom of choice]]
+* [[supports split]]
 * [[fan theorem]]
 
 ### Predicative taboos
