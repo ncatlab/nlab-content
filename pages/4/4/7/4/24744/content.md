@@ -41,9 +41,9 @@ $$\frac{\Gamma, a:A \vdash p:\mathrm{Contr}_A(a)}{\Gamma \vdash \eta_\mathrm{Con
 ## Properties
 
 A type $A$ is a [[contractible type]] if there exists a center of contraction
-$$\sum_{a:A} \mathrm{Contr}_A(a)$$
+$$isContr(A) = \sum_{a:A} \mathrm{Contr}_A(a)$$
 and a type $A$ is an [[h-proposition]] if every element in $A$ is a center of contraction 
-$$\prod_{a:A} \mathrm{Contr}_A(a)$$
+$$isProp(A) = \prod_{a:A} \mathrm{Contr}_A(a)$$
 
 ## See also
 
