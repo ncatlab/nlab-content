@@ -5,7 +5,7 @@
 
 ## Definition
 
-Recall that the **[[support]]** of an object $X$ of a [[regular category]] (or [[n-category]]) is its [[(-1)-truncation]], i.e. the [[image]] of the map $X\to 1$ to the [[terminal object]].  Let $\Vert X \Vert$ denote its support.
+Recall that the **[[support object]]** of an object $X$ of a [[regular category]] (or [[n-category]]) is its [[(-1)-truncation]], i.e. the [[image]] of the map $X\to 1$ to the [[terminal object]].  Let $\Vert X \Vert$ denote its support.
 
 We say that $X$ has a **split support** if the canonical map $X\to {\Vert X \Vert}$ has a [[section]].  Since $\Vert X \Vert$ is a [[subterminal object]], it is equivalent to say that there exists any morphism ${\Vert X \Vert} \to X$.
 
