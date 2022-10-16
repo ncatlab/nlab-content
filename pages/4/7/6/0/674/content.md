@@ -53,6 +53,8 @@ The *support* of an object $X$ in a topos is the [[image]] $U \hookrightarrow 1$
 
 * [[propositional truncation object]]
 
+[[!include types and logic - table]]
+
 ## References
 
 * {#Johnstone77} [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977
