@@ -33,7 +33,7 @@ $$
 
 This is equivalent to saying that the unique map $X \to 1$ is an [[epimorphism]].  More generally, we can make the same definition in any [[regular category]], in which case it is equivalent to $X\to 1$ being a [[regular epimorphism]].
 
-The term **well-supported** is also used for this notion (in general, the [[support]] of $X$ is the [[image]] of $X\to 1$).
+The term **well-supported** is also used for this notion (in general, the [[support object]] of $X$ is the [[image]] of $X\to 1$).
 
 In terms of [[(∞,1)-category theory]], internally inhabited means _[[(-1)-connected]]_.
 
