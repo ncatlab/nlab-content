@@ -73,6 +73,8 @@ More controversially, two entirely different probabilisitic combinations of stat
 
 ## Related concepts
 
+* [[quantum operation]]
+
 * [[quantum computation]]
 
 [[!include states and observables -- content]]
@@ -81,16 +83,30 @@ More controversially, two entirely different probabilisitic combinations of stat
 
 ## References
 
-* Nielsen, M, and Chuang, I. *Quantum Computation and Quantum Information*, Cambridge University Press, Cambridge, 2000.
+* [[Michael A. Nielsen]], [[Isaac L. Chuang]], §2.4 in: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
-* Schumacher, B. and Westmoreland, M. *Q-PSI: Quantum Processes, Systems, and Information*, Cambridge University Press, Cambridge, 2010.
 
-* [[Greg Kuperberg]], section 1.4 of _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
- {#Kuperberg05}
+
+* [[Benjamin Schumacher]], [[Michael Westmoreland]], §8 of:  *Quantum Processes, Systems, and Information*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511814006](https://doi.org/10.1017/CBO9780511814006)&rbrack;
+
+* {#Kuperberg05} [[Greg Kuperberg]], § 1.4 of: *A concise introduction to quantum probability, quantum mechanics, and quantum computation* (2005) &lbrack;[pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf)&rbrack;
+
+On [[quantum circuits]] with density matrices:
+
+* [[Dorit Aharonov]], [[Alexei Kitaev]], [[Noam Nisan]], *Quantum Circuits with Mixed States*, *Proceedings of the Thirtieth Annual ACM Symposium on Theory of Computation (STOC)* (1998) 20-30 &lbrack;[arXiv:quant-ph/9806029](https://arxiv.org/abs/quant-ph/9806029), [doi:10.1145/276698.276708](https://doi.org/10.1145/276698.276708)&rbrack;
 
 
 [[!redirects density matrix]]
 [[!redirects density matrixes]]
 [[!redirects density matrices]]
+
 [[!redirects density operator]]
 [[!redirects density operators]]
+
+[[!redirects mixed state]]
+[[!redirects mixed states]]
+
+[[!redirects mixed quantum state]]
+[[!redirects mixed quantum states]]
+
+
