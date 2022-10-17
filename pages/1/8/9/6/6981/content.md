@@ -6,7 +6,7 @@
 +**[[relation between type theory and category theory|relation type theory/category theory]]**
 
 
-| [[logic]] | [[set theory]] | [[category theory]] | [[type theory]] |
+| [[logic]] | [[set theory]] ([[internal logic of set theory|internal logic]] of) | [[category theory]] | [[type theory]] |
 |-----------|---------------------|-----------------|-----------------|
 | [[proposition]] | [[set]] | [[object]] | [[type]] |
 | [[predicate]] | [[family of sets]] | [[display morphism]] | [[dependent type]] |
@@ -26,15 +26,15 @@
 | [[logical equivalence]] | [[bijection]] | [[isomorphism]]/[[adjoint equivalence]] | [[equivalence of types]] |
 |  | [[support set]] | [[support object]]/[[(-1)-truncation]] | [[propositional truncation]]/[[bracket type]]
 | | | [[n-image]] of [[morphism]] into [[terminal object]]/[[n-truncation]] | [[n-truncation modality]]
-| | [[equality]]/[[initial object|initial]] [[reflexive relation]] |[[path space object]] | [[identity type]]/[[path type]] |
+| [[equality]] | [[diagonal function]]/[[diagonal subset]]/[[diagonal relation]] | [[path space object]] | [[identity type]]/[[path type]] |
+| [[completely presented set]] | [[set]] | [[discrete object]]/[[0-truncated object]]  | [[h-level 2]]-[[type]]/[[set]]/[[h-set]] |
+| [[set]] | [[set]] with [[equivalence relation]] | [[groupoid object in an (infinity,1)-category|internal 0-groupoid]] | [[Bishop set]]/[[setoid]] with its [[pseudo-equivalence relation]] an actual [[equivalence relation]] |
 | | [[equivalence class]]/[[quotient set]] | [[quotient]] | [[quotient type]] |
 | [[induction]] | |[[colimit]] | [[inductive type]], [[W-type]], [[M-type]] |
 | higher [[induction]] | | [[(infinity,1)-colimit|higher colimit]] | [[higher inductive type]] |
 | - | |  [[0-truncated]] [[(infinity,1)-colimit|higher colimit]] | [[quotient inductive type]] |
 | [[coinduction]] | |[[limit]] | [[coinductive type]] |
 | | [[preset]] | | [[type]] without [[identity types]] |
-| | [[set]]/[[completely presented set]] | [[discrete object]]/[[0-truncated object]]  | [[h-level 2]]-[[type]]/[[set]]/[[h-set]] |
-| | [[set]] with [[equivalence relation]]/[[set]] | [[groupoid object in an (infinity,1)-category|internal 0-groupoid]] | [[Bishop set]]/[[setoid]] with its [[pseudo-equivalence relation]] an actual [[equivalence relation]] |
 | | [[set]] of [[truth values]] | [[subobject classifier]] | [[type of propositions]] |
 | [[domain of discourse]] | [[universe]] | [[object classifier]] | [[type universe]] |
 | [[modality]] |  |[[closure operator]], ([[idempotent monad|idempotent]]) [[monad]] | [[modal type theory]], [[monad (in computer science)]] |
