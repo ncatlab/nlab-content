@@ -17,9 +17,10 @@
 ## Idea
  {#Idea}
 
->_Dr. von Neumann, ich möchte gerne wissen, was ist denn eigentlich ein Hilbertscher Raum ?_  [^Hilbert]
+> *Dr. von Neumann, ich möchte gerne wissen, was ist denn eigentlich ein Hilbertscher Raum ?*  [^Hilbert]
 
-[^Hilbert]: Translation: _Dr. von Neumann, I would like to know what is a Hilbert space?_ -- Question asked by [[David Hilbert]] in a 1929 talk by [[John von Neumann]] in Göttingen. The anecdote is narrated together with additional information on the introduction of [[adjoint operators]] to [[quantum mechanics]] by [[Saunders Mac Lane]] in _Concepts and Categories_ ([link](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf), p.330). Note, that we have corrected 'dann' in the original quotation to the more likely 'denn' (in either case expressing a certain sense of puzzlement that's not quite captured by the English translation offered above).
+[^Hilbert]: *Dr. von Neumann, I would like to know what is a Hilbert space?* -- Question asked by [[David Hilbert]], in a 1929 talk by [[John von Neumann]] in Göttingen (cf. [von Neumann 1930, §I](#vonNeumann30)). The anecdote is narrated for instance in [MacLane 1988, §5](#MacLane88).
+(We have corrected 'dann' in the original quotation to the more likely 'denn', in either case expressing a certain sense of puzzlement that is not quite captured by the direct English translation.)
 
 A Hilbert space is (see Def. \ref{HilbertSpace} for details):
 
@@ -31,7 +32,7 @@ A Hilbert space is (see Def. \ref{HilbertSpace} for details):
 
 Hilbert spaces are central to [[quantum physics]] and specifically to [[quantum mechanics]], where they serve as [[space of quantum states|spaces of]] [[pure quantum states]]. Here the [[inner product]] encodes the [[probability amplitudes]] for one [[pure state]] to "[[collapse of the wavefunction|collaps]]" to another one under [[quantum measurement|measurement]]. When the space of pure states is of [[finite-dimensional vector space|finite dimension]] (as is the case of interest in [[quantum information theory]]/[[quantum computation]]) then the completeness condition on a Hilbert space is automatic (see Rem. \ref{FiniteDimensionalInnerProductSpaces} below), otherwise it naturally encodes the possibility of an infinite number of [[quantum measurement|measurement]] outcomes.
 
-Hilbert spaces with ([[bounded linear map|bounded]]) [[linear maps]] between them form a ([[dagger category|dagger]]-)[[category]], often denoted *[[Hilb]]* or similar, with the [[dagger-category|dagger]]-structure is given by sending [[bounded linear maps]] to their [[adjoint operators]] with respect to the Hermitian inner product. Finite-dimensional Hilbert spaces form a [[dagger-compact category]].
+Hilbert spaces with ([[bounded linear map|bounded]]) [[linear maps]] between them form a ([[dagger category|dagger]]-)[[category]], often denoted *[[Hilb]]* or similar, with the [[dagger-category|dagger]]-structure given by sending [[bounded linear maps]] to their [[adjoint operators]] with respect to the Hermitian inner product. Finite-dimensional Hilbert spaces form a [[dagger-compact category]].
 
 See also:
 
@@ -352,23 +353,31 @@ This is really two theorems (at least): an abstract theorem that the inequality 
 
 * [[Kähler vector space]]
 
+
 ## References
 
-Standard accounts of Hilbert spaces in [[quantum mechanics]]:
+Hilbert spaces were effectively introduced and used by [[David Hilbert]] and others in the context of [[integration]] theory, but the terminology and the formal definition is due to:
 
-* [[John von Neumann]]: 
+* {#vonNeumann30} [[John von Neumann]], §I in: *Allgemeine Eigenwerttheorie Hermitescher Funktionaloperatoren*, Math. Ann. **102** (1930) 49–131 &lbrack;[doi:10.1007/BF01782338](https://doi.org/10.1007/BF01782338)&rbrack;
+
+motivated from laying foundations for [[quantum mechanics]]:
+
+* {#vonNeumann32} [[John von Neumann]]: 
 
   *Mathematische Grundlagen der Quantenmechanik*, Springer (1932, 1971) &lbrack;[doi:10.1007/978-3-642-96048-2](https://link.springer.com/book/10.1007/978-3-642-96048-2)&rbrack;
 
   *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
 
+Early history:
 
-* [[George Mackey]], _The Mathematical Foundations of Quamtum Mechanics_ A
-Lecture-note Volume, The mathematical physics monograph series.
-Princeton university (1963)
+* {#MacLane88} [[Saunders Mac Lane]]: *Hilbert space*, §5 in: *Concepts and Categories*, in: P. Duren, *A century of mathematics in America* Part 1, AMS (1988) 323-365. &lbrack;[pdf](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf), [ISBN:0-8218-0124-4](https://www.ams.org/publicoutreach/math-history/hmath1-index)&rbrack; 
 
-* E. Prugove&#265;ki, _Quantum mechanics in Hilbert Space_. Academic Press,
-1971.
+
+Review:
+
+* [[George Mackey]], _The Mathematical Foundations of Quamtum Mechanics_ A Lecture-note Volume, The mathematical physics monograph series. Princeton university (1963)
+
+* E. Prugove&#265;ki, _Quantum mechanics in Hilbert Space_. Academic Press (1971)
 
 An [[axiom|axiomatic]] characterization of the [[dagger-category]] [[Hilb]] of Hilbert spaces, with [[linear maps]] between them:
 
