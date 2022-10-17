@@ -364,6 +364,12 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
 * {#HilbertvonNeumannNordheim} [[David Hilbert]], [[John von Neumann]], [[Lothar W. Nordheim]], *Über die Grundlagen der Quantenmechanik*,  Math. Ann. **98** (1928) 1–30 &lbrack;[doi:10.1007/BF01451579](https://doi.org/10.1007/BF01451579)&rbrack;
 
+* [[John von Neumann]]: 
+
+  *Mathematische Grundlagen der Quantenmechanik*, Springer (1932, 1971) &lbrack;[doi:10.1007/978-3-642-96048-2](https://link.springer.com/book/10.1007/978-3-642-96048-2)&rbrack;
+
+  *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
+
 
 Equivalence of the [[Heisenberg picture]] and the [[Schrödinger picture]]:
 
@@ -383,12 +389,6 @@ Press (1959) &lbrack;[doi:978-0-12-750550-3](https://www.elsevier.com/books/grou
 ### General
 
 Classical textbooks (on the [[Hilbert space]] description) include
-
-* [[John von Neumann]]: 
-
-  *Mathematische Grundlagen der Quantenmechanik*, Springer (1932, 1971) &lbrack;[doi:10.1007/978-3-642-96048-2](https://link.springer.com/book/10.1007/978-3-642-96048-2)&rbrack;
-
-  *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
 
 * [[George Mackey]], *The Mathematical Foundations of Quantum Mechanics: a Lecture-note Volume* Mathematical physics monograph series, Benjamin (1963), Dover (2004) &lbrack;[google books](https://books.google.de/books?id=qlpb2mWYmfYC&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)&rbrack;
 
