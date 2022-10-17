@@ -60,6 +60,12 @@ In an arbitrary $*$-[[star-algebra|algebra]], a __self-adjoint__ or __hermitian_
 
 ## References
 
+Original articles:
+
+* {#vonNeumann30} [[John von Neumann]], §I in: *Allgemeine Eigenwerttheorie Hermitescher Funktionaloperatoren*, Math. Ann. **102** (1930) 49–131 &lbrack;[doi:10.1007/BF01782338](https://doi.org/10.1007/BF01782338)&rbrack;
+
+See also:
+
 * A. A. Kirillov, A. D. Gvi&#353;iani, &#1058;&#1077;&#1086;&#1088;&#1077;&#1084;&#1099; &#1080; &#1079;&#1072;&#1076;&#1072;&#1095;&#1080; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1086;&#1085;&#1072;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1072; (theorems and exercises in functional analysis), Moskva, Nauka 1979, 1988
 
 * A. B. Antonevi&#269;, Ja. B. Radyno, Funkcional'nij analiz i integral'nye uravnenija, Minsk 1984
