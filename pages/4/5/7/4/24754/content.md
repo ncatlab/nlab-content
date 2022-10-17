@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[set theory]], the [[support]] of a [[set]] turns the set into a [[subsingleton]]. In [[dependent type theory]], [[propositional truncation]] or the [[bracket type]] is an operation which takes a [[type]] and turns it into a [[h-propositions]], which are the type theoretic equivalent of subsingletons. By the [[relation between type theory and category theory]] and the relation between set theory and [[topos theory]], it should be possible to do the same process and turn an [[object]] of a [[category]] into a [[subterminal object]]. These are the **support objects**, **bracket objects**, or **propositional truncation objects** in category theory. 
+In [[set theory]], the [[support of a set]] turns the set into a [[subsingleton]]. In [[dependent type theory]], [[propositional truncation]] or the [[bracket type]] is an operation which takes a [[type]] and turns it into a [[h-propositions]], which are the type theoretic equivalent of subsingletons. By the [[relation between type theory and category theory]] and the relation between set theory and [[topos theory]], it should be possible to do the same process and turn an [[object]] of a [[category]] into a [[subterminal object]]. These are the **support objects**, **bracket objects**, or **propositional truncation objects** in category theory. 
 
 ## Definition
 
