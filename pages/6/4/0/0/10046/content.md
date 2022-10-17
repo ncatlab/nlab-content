@@ -74,10 +74,11 @@ Between continuous lattices, we may use the same morphisms; or we may more gener
 
 ## Examples
 
+* In [Freyd08](#Freyd08) in [[constructive mathematics]] an [[interval coalgebra]] is a [[continuous poset]] and the [[unit interval]] is the terminal interval coalgebra. 
+
 * A [[locale]] is called [[locally compact locale|locally compact]] just when the corresponding [[frame]] is a continuous lattice. This is equivalently to being an [[exponentiable object|exponentiable]] in the [[category of locales]]. A [[continuous map]] between such locales is [[proper map|proper]] iff its [[direct image]] function (which is always an [[inflattice]] morphism) is [[Scott topology|Scott-continuous]].
 
 * As a consequence the [[category of open subsets|lattice of open subsets]] of a topological space is a continuous lattice if and only if the [[sobrification]] of the topological space is [[locally compact]] (i.e. the topology has a basis of compact neighborhoods).
-
 
 ## Related pages
 
@@ -91,6 +92,10 @@ Between continuous lattices, we may use the same morphisms; or we may more gener
 * Rudolf-E. Hoffmann, _Continuous posets and adjoint sequences_, Semigroup Forum **18** (1979) pp. 173-188. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PID=GDZPPN001253433))
 
  * Karl H. Hofmann, _A note on Baire spaces and continuous lattices_ 1980. Bulletin of the Australian Mathematical Society, 21(2), pp. 265-279. 
+
+See section 30 of
+
+* {#Freyd08} [[Peter Freyd]], *Algebraic real analysis*, Theory and Applications of Categories, Vol. 20, 2008, No. 10, pp 215-306 ([tac:20-10](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html))
 
 [[!redirects continuous poset]]
 [[!redirects continuous posets]]
