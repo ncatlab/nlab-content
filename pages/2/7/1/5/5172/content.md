@@ -10,13 +10,21 @@ as well as [[classes]] and von Neumann [[ordinals]].
 
 ## Selected works
 
+On [[set theory]]:
+
 * [[J. v. Neumann]], _Eine Axiomatisierung der Mengenlehre_, Journal für die reine und angewandte Mathematik 154 (1925), 219–240.  [doi](http://dx.doi.org/10.1515/crll.1925.154.219).
 
 PhD thesis (journal version):
 
 * [[J. v. Neumann]], _Die Axiomatisierung der Mengenlehre_, Mathematische Zeitschrift 27 (1928), 669–752.  [doi](https://doi.org/10.1007/BF01171122).
 
-On the foundations of [[quantum mechanics]] based on [[Hilbert spaces]] [[space of quantum states|of quantum states]]:
+On [[Hermitian operators]] and introducing the formal definition of [[Hilbert spaces]]:
+
+* {#vonNeumann30} [[John von Neumann]], §I in: *Allgemeine Eigenwerttheorie Hermitescher Funktionaloperatoren*, Math. Ann. **102** (1930) 49–131 &lbrack;[doi:10.1007/BF01782338](https://doi.org/10.1007/BF01782338)&rbrack;
+
+On the mathematical foundations of [[quantum mechanics]] based on [[Hilbert spaces]] [[space of quantum states|of quantum states]]:
+
+* {#HilbertvonNeumannNordheim} [[David Hilbert]], [[John von Neumann]], [[Lothar W. Nordheim]], *Über die Grundlagen der Quantenmechanik*,  Math. Ann. **98** (1928) 1–30 &lbrack;[doi:10.1007/BF01451579](https://doi.org/10.1007/BF01451579)&rbrack;
 
 
 * [[John von Neumann]]:
