@@ -52,18 +52,24 @@ $$
 
 
 ## Examples
+ {#Examples}
 
-* The category of [[Hilbert spaces]] (over the [[complex numbers]]) with [[finite number|finite]] [[dimension]] is a standard example of a $\dagger$-compact category.  This example is [[completeness theorem|complete]] for [[equation]]s in the language of $\dagger$-compact categories; see [Selinger 2012](#Selinger2012).
+\begin{example}
+**(finite-dimensional Hilbert spaces)**
+\linebreak
+The category of [[Hilbert spaces]] (over the [[complex numbers]]) with [[finite number|finite]] [[dimension]] is a standard example of a $\dagger$-compact category. This example is [[completeness theorem|complete]] for [[equation]]s in the language of $\dagger$-compact categories; see [Selinger 2012](#Selinger2012).
 
+The finite parts of [[quantum mechanics]] ([[quantum information theory]] and [[quantum computation]]) are naturally formulated as the theory of $\dagger$-compact categories. For more on this see at _[[finite quantum mechanics in terms of †-compact categories]]_.
+\end{example}
 
-* For $C$ a category with [[finite limits]]  the category $Span_1(C)$ whose morphisms are [[span|spans]] in $C$ is $\dagger$-compact.  The $\dagger$ operation is that of relabeling the legs of a span as source and target.  The tensor product is defined using the cartesian product in $C$.   Every object $X$ is dual to itself with the unit and counit given by the span
+\begin{example}
+**(spans)**
+\linebreak
+For $C$ a category with [[finite limits]]  the category $Span_1(C)$ whose morphisms are [[span|spans]] in $C$ is $\dagger$-compact.  The $\dagger$ operation is that of relabeling the legs of a span as source and target.  The tensor product is defined using the cartesian product in $C$.   Every object $X$ is dual to itself with the unit and counit given by the span
 $ I \stackrel{!}{\leftarrow} X \stackrel{Id \times Id}{\to} X \times X$.
-See
+See [Baez 2007](#Baez07).
+\end{example}
 
-  * John Baez, _Spans in quantum theory_ ([web](http://math.ucr.edu/home/baez/span/), [pdf](http://math.ucr.edu/home/baez/span/span.pdf), [blog](http://golem.ph.utexas.edu/category/2007/10/spans_in_quantum_theory.html))
-
-
-* The finite parts of [[quantum mechanics]] and [[quantum computation]] are naturally formulated as the theory of $\dagger$-compact categories. For more on this see at _[[finite quantum mechanics in terms of †-compact categories]]_.
 
 ## Properties
 
@@ -114,6 +120,10 @@ That finite-dimensional Hilbert spaces are "complete for dagger-compactness" is 
 
 *  [[Peter Selinger]] (2012), _Finite dimensional Hilbert spaces are complete for dagger compact closed categories_, ([arXiv:1207.6972](http://arxiv.org/abs/1207.6972)).
    {#Selinger2012}
+
+The example of spans"
+
+* {#Baez07} [[John Baez]], _Spans in quantum theory_ ([web](http://math.ucr.edu/home/baez/span/), [pdf](http://math.ucr.edu/home/baez/span/span.pdf), [blog](http://golem.ph.utexas.edu/category/2007/10/spans_in_quantum_theory.html))
 
 
 [[!redirects dagger compact category]]
