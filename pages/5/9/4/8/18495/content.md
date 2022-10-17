@@ -17,7 +17,7 @@
 
 ## Idea
 
-The concept of _support of a distribution_ is an evident generalization of [[support]] of a [[continuous functions]] as functions are generalized to [[distributions]].
+The concept of _support of a distribution_ is an evident generalization of [[support of a function|support of a]] [[continuous function]] as functions are generalized to [[distributions]].
 
 Of particular interest is the _singular support_ of distributions, which is the subset of those points inside their support around which they are singular when regarded as [[generalized functions]]. This "local analysis" of singularities of distributions may be further refined to their [[microlocal analysis]] by considering not such the singular points, but also the directions of the [[propagation of singularities theorem|propagation of the singularities]] at these points, which is the set of [[covectors]] over the singular support called the _[[wave front set]]_.
 
@@ -95,7 +95,7 @@ $$
 
 ## Related entries
 
-* [[support]]
+* [[support of a function]]
 
 * [[point-supported distribution]]
 
