@@ -8,6 +8,21 @@
 
 \ref{Ref-A}
 
+\begin{equation}
+\label{equation-Label}
+a + b = c
+\end{equation}
+
+Eq: \eqref{equation-Label}
+
+X: \ref{ItemA}
+Y: \ref{AItemA}
+
+[A link](#Item-A)
+
+* {#Item-A} Item A
+* {#ItemB} Item B
+
 &#246;
 
 $\act$
