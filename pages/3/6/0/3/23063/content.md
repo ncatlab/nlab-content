@@ -59,6 +59,8 @@ Contexts for developing formal category theory:
 
 * [[2-topos]], [[(infinity,2)-topos|$(\infty,2)$-topos]]
 
+* [[synthetic (infinity,1)-category theory]]
+
 ## References
 
 ### For 1-categories
