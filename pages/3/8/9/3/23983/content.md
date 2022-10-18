@@ -75,6 +75,16 @@ needs to be written
 [[!redirects heterogeneous identity type]]
 [[!redirects heterogeneous identity types]]
 
+[[!redirects dependent path]]
+[[!redirects dependent paths]]
+[[!redirects heterogeneous path]]
+[[!redirects heterogeneous paths]]
+
+[[!redirects dependent identity]]
+[[!redirects dependent identities]]
+[[!redirects heterogeneous identity]]
+[[!redirects heterogeneous identities]]
+
 [[!redirects dependent identification]]
 [[!redirects dependent identifications]]
 [[!redirects heterogeneous identification]]
