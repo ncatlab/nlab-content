@@ -46,9 +46,14 @@ A [[complex vector space]] $(V,J)$ equipped with a (positive definite) Hermitian
 
 =--
 
+\begin{remark}
+  A positive-definite and complete Hermitian vector space is called a *[[Hilbert space]]*.
+\end{remark}
+
+
 ## Properties
 
-### Genera properties
+### General properties
 
 +-- {: .num_prop #BasicPropertiesOfHermitianForms}
 ###### Proposition
@@ -260,7 +265,56 @@ $$
 =--
 
 
+### As $\mathbb{Z}/2$-equivariant $\mathbb{C}$-modules
+ {#AsEquivariantModules}
+
+While a non-degenerate [[inner product]] $(-\vert-)$ on a [[finite-dimensional vector space|finite-dimensional]] [[real vector space]] $V$ is equivalently a [[linear isomorphism]] to its [[dual vector space]]
+
+$$
+  \array{
+    V 
+      &\overset{\sim}{\longrightarrow}& 
+    V^\ast
+      &\overset{\sim}{\longrightarrow}& 
+    V
+    \\
+    v &\mapsto& (v\vert-) &\mapsto& v
+  }
+$$
+
+the analogous statement for  Hermitian complex inner products $\langle - \vert - \rangle$ fails, since the corresponding maps
+
+$$
+  \array{
+    \mathscr{H}
+      &\overset{\sim}{\longrightarrow}& 
+    \mathscr{H}
+      &\overset{\sim}{\longrightarrow}& 
+    \mathscr{H}
+    \\
+    \vert \psi \rangle 
+    &\mapsto& 
+    \langle \psi \vert
+    &\mapsto& 
+    \vert \psi \rangle    
+  }
+$$
+
+are now complex *[[anti-linear map|anti-linear]]* and hence not [[morphisms]] in the [[category]] of [[complex vector spaces]].
+
+What one does get is a complex-linear isomorphism to the [[anti-dual space]].
+
+Another way to regard this situation is to observe that complex anti-linear involutions $\mathscr{H} \leftrightarrow \mathscr{H}^\ast$ on non-degenerate Hermitian spaces $\mathscr{H}$ are equivalently $(\mathbb{Z}/2 \curvearrowright \mathbb{C})$-[[module object|module]] structures on the [[direct sum]] $\mathscr{H} \oplus \mathscr{H}^\ast$, regarded in the [[topos]] of [[G-sets|$\mathbb{Z}/2$-sets]], for $(\mathbb{Z}/2 \curvearrowright \mathbb{C})$ the [[ring object]] given by the [[complex numbers]] equipped with their involution by [[complex conjugation]]:
+
+<center>
+<img src="/nlab/files/HermitianSpacesAsEquivariantModules-221018.jpg" width="640">
+</center>
+
+
+
 ## Related concepts
+
+* [[Hilbert space]]
 
 * [[bilinear form]], [[quadratic form]], [[sesquilinear form]]
 
@@ -277,7 +331,11 @@ $$
 
 * [[C. T. C. Wall]], _On the axiomatic foundations of the theory of Hermitian forms_, Proc. Camb. Phil. Soc. (1970), 67, 243
 
+See also:
+
 * Wikipedia, _[Hermitian form](https://en.wikipedia.org/wiki/Sesquilinear_form#Hermitian_form)_
+
+and see the references at *[[Hilbert space]]*.
 
 [[!redirects Hermitian forms]]
 
@@ -296,3 +354,7 @@ $$
 [[!redirects hermitian metric]]
 [[!redirects hermitian metrics]]
 
+[[!redirects Hermitian inner product]]
+[[!redirects Hermitian inner products]]
+[[!redirects hermitian inner product]]
+[[!redirects hermitian inner products]]
