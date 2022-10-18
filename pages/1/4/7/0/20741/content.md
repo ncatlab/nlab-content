@@ -49,6 +49,8 @@ Machines (RBMs) and [[renormalization group flow]] in [[physics]] was proposed i
 
 * [[physical neural network]]
 
+* [[spiking neural network]]
+
 ## References
 
 ### General
