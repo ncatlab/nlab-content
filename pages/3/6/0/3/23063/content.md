@@ -85,6 +85,11 @@ Discussion in [[double category]]-theory:
 
   > (On [[augmented virtual double categories]], a expanded version of Sec. 1-3 of [Koudenburg 15](#Koudenburg15) )
 
+A domain-specific [[type theory]] for formal category theory: 
+
+* [[Max S. New]], [[Daniel Licata]], _A Formal Logic for Formal Category Theory_ ([arXiv:2210.08663](https://arxiv.org/abs/2210.08663))
+
+
 
 ### For $(\infty,1)$-categories
 
