@@ -61,4 +61,5 @@ A right 'exact' category is a category with an initial object and a Grothendieck
 * Dmitry Kaledin, Wendy Lowen, _Cohomology of exact categories and (non-)additive sheaves_, Adv. Math. __272__ (2015) 652--698 [arXiv:1102.5756](https://arxiv.org/abs/1102.5756)
 
 [[!redirects Quillen exact categories]]
+[[!redirects Quillen-exact category]]
 [[!redirects Quillen exactness]]
