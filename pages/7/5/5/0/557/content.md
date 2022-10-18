@@ -1,4 +1,8 @@
 
+> This article is about the [[symmetric monoidal category]]. For the [[type]] of [[h-propositions]] see  [[Prop]]. 
+
+---
+
 # Contents
 * table of contents
 {: toc}
