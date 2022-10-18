@@ -12,6 +12,8 @@ The **Homotopy Type Theory Electronic Seminar Talks**, abbreviated as HoTTEST, i
 
 * [[Emily Riehl]], *The synthetic theory of infinity-categories vs the synthetic theory of infinity-categories*, 1 March 2018, ([video](https://www.youtube.com/watch?v=ge-9m1SsEmc), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Riehl-2018-03-01-HoTTEST.pdf))
 
+  > on [[synthetic (infinity,1)-category theory]] in [[simplicial type theory]] and [[infinity-cosmos]] theory
+
 * [[Carlo Angiuli]], *Computational semantics of Cartesian cubical type theory*, 15 March 2018 ([video](https://www.youtube.com/watch?v=3iKwq9iRHWk), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Angiuli-2018-03-15-HoTTEST.pdf))
 
 * [[Ulrik Buchholtz]], *From Higher Groups to Homotopy Surfaces*, 29 March 2018 ([video](https://www.youtube.com/watch?v=0UlLwf8ttUw), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Buchholtz-2018-03-29-HoTTEST.pdf))
@@ -145,6 +147,8 @@ The **Homotopy Type Theory Electronic Seminar Talks**, abbreviated as HoTTEST, i
 ### Autumn 2022
 
 * [[Amélia Liao]], *Univalent Category Theory*, 6 October 2022, ([video](https://www.youtube.com/watch?v=asY6dXkR2yg))
+
+  > on [[category theory]] in [[univalent type theory|univalent]] [[cubical type theory]] in the [[1lab]]
 
 * [[Chris Grossack]], *Where are the open sets? Comparing HoTT with Classical Topology*, 6 October 2022, ([video](https://www.youtube.com/watch?v=syftUuf5Hpk))
 
