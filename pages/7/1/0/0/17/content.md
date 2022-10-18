@@ -296,7 +296,9 @@ The available environments are listed below. Some environments can be specified 
   </tbody>
 </table>
 
-Labels for the purpose of referencing work exactly as in LaTeX: put ```\label{SomeTheorem}``` anywhere inside the environment block. Later, one can reference it as Theorem \ref{SomeTheorem}. Again, see the [source](https://ncatlab.org/nlab/source/HowTo) of this page for how to produce this reference.  
+Labels for the purpose of referencing work exactly as in LaTeX: put ```\label{SomeTheorem}``` anywhere inside the environment block. Later, one can reference it as Theorem \ref{SomeTheorem}. Again, see the [source](https://ncatlab.org/nlab/source/HowTo) of this page for how to produce this reference.
+
+Any character but closing brace is allowed in labels here (note that this is different from equation labels below).
 
 #### Older syntax
 
@@ -469,9 +471,6 @@ When you link to a theorem on the *same* page, however, it's better to use the `
 
 This inserts the number as well as creating a hyperlink, and will also work properly when the page is exported to LaTeX.
 
-{#LabelNames} Note that not all labels which would be valid in LaTeX are accepted.  In particular, the hyphen character `-` cannot be used in a label.  Instead of <nowiki>\label{foo-bar}</nowiki>, consider <nowiki>\label{FooBar}</nowiki>.
-
-
 #### Equation numbering
 
 To make an equation be automatically numbered use angular brackets instead of dollar signs
@@ -497,8 +496,7 @@ There is also an older, non-TeX syntax for equation references (use an actual co
 
      See equation <nowiki>(eq-colon-SomeEquation)</nowiki>.
 
-Just [as with theorems](#LabelNames), not all labels that would be valid in LaTeX are accepted.
-
+{#LabelNames} Only word characters are allowed in LaTeX display labels. In particular, the hyphen character `-` cannot be used. This is in contrast to labels for theorem environments. This is due to use of different parsers. Instead of <nowiki>\label{foo-bar}</nowiki>, consider <nowiki>\label{FooBar}</nowiki>.
 
 #### Table of contents
 
