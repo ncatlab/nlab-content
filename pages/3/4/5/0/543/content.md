@@ -157,14 +157,11 @@ More [[category theory]] and [[homotopy theory]] of $A_\infty$-categories is dis
 
 * {#LefevreHasegawa03} Kenji Lef&#232;vre-Hasegawa, _Sur les A-infini cat&#233;gories_ ([arXiv:math/0310337](http://arxiv.org/abs/math/0310337))
 
-* [[Bruno Valette]], _Homotopy theory of homotopy algebras_ ([pdf](http://math.unice.fr/~brunov/HomotopyTheory.pdf))
+* [[Bruno Valette]], _Homotopy theory of homotopy algebras_, Annales de l'Institut Fourier __70__:2 (2020)  683--738 [doi](https://10.5802/aif.3322) [Zbl:1335.18001](https://zbmath.org/?q=an:1335.18001) [arXiv:1411.5533](https://arxiv.org/abs/1411.5533)
 
 See also 
 
-* Yong-Geun Oh, [[Hiro Lee Tanaka]], _$A_\infty$-categories, their $\infty$-categories, and their localizations_ ([arXiv:2003.05806](https://arxiv.org/abs/2003.05806))
-
-
-
+* [[Yong-Geun Oh]], [[Hiro Lee Tanaka]], _$A_\infty$-categories, their $\infty$-categories, and their localizations_ ([arXiv:2003.05806](https://arxiv.org/abs/2003.05806))
 
 ### For $A_\infty$-categories in the wider sense ##
 
