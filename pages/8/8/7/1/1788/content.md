@@ -1,3 +1,12 @@
+\begin{theorem} {#Ref}
+\end{theorem}
+
+\begin{remark} \label{t-a} {#Ref-A}
+\end{remark}
+
+\ref{t-a}
+
+\ref{Ref-A}
 
 &#246;
 
