@@ -15,9 +15,13 @@ Cyclic operads also appear in TQFT-related constructions, often with more struct
 
 ## Literature
 
-* [[Ezra Getzler]], [[M. M. Kapranov]], _Cyclic operads and cyclic homology, in "Geometry, topology and physics_," International Press, Cambridge, MA, 1995, pp. 167-201 ([pdf](http://www.math.northwestern.edu/~getzler/Papers/cyclic.pdf)) 
+* [[Ezra Getzler]], [[Mikhail Kapranov|M. M. Kapranov]], _Cyclic operads and cyclic homology, in "Geometry, topology and physics_," International Press, Cambridge, MA, 1995, pp. 167-201 ([pdf](http://www.math.northwestern.edu/~getzler/Papers/cyclic.pdf)) 
 
-*  Jovana Obradovic, _Monoid-like definitions of cyclic operad_, [tac](http://tac.mta.ca/tac/volumes/32/12/32-12abs.html)
+*  Jovana Obradović, _Monoid-like definitions of cyclic operad_, [tac](http://tac.mta.ca/tac/volumes/32/12/32-12abs.html)
+* [[Pierre-Louis Curien]], Jovana Obradović, _A formal language for cyclic operads_, [arXiv:1602.07502](https://arxiv.org/abs/1602.07502); _Categorified cyclic operads_, Appl. Categ. Struct. __28__, 59--112 (2020) [doi](https://doi.org/10.1007/s10485-019-09569-7)
+
+* Benjamin C. Ward, _Maurer-Cartan elements and cyclic operads_, J. Noncommut. Geom. __10__:4 (2016) 1403--1464
+[doi](https://doi.org/10.4171/JNCG/263)
 
 [[!redirects cyclic operad]]
 [[!redirects cyclic operads]]
