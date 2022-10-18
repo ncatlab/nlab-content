@@ -391,7 +391,7 @@ The following is a quote from [[Ross Street|Ross Street's]] "Australian conspect
 
 The original sources are
 
-* {#W71}[[Bob Walters]], _Yoneda 2Categories_ , talk at the University of New South Wales December 1971. ([manuscript](https://dl.dropboxusercontent.com/u/92056191/Archive/temporary_new_material/yoneda.pdf))
+* {#W71}[[Bob Walters]], _Yoneda 2Categories_ , talk at the University of New South Wales December 1971. ([manuscript](https://web.archive.org/web/20170211062709/https://dl.dropboxusercontent.com/u/92056191/Archive/temporary_new_material/yoneda.pdf))
 
 * {#KS73}[[Max Kelly]], [[Ross Street]] (eds.), _Abstracts of the Sydney Category Theory Seminar 1972/73_ , Macquarie University.
 
