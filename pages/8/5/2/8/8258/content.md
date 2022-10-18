@@ -45,4 +45,5 @@ category: people
 [[!redirects Robert Walters]]
 [[!redirects Robert F. C. Walters]]
 [[!redirects R. F. C. Walters]]
+[[!redirects RFC Walters]]
 
