@@ -132,7 +132,7 @@ Just as the category of regular [[monoid|monoids]] is equivalent to the category
 
 ### Preservation by lax monoidal functors
 
-Monoid structure is preserved by [[lax monoidal functor]]s. Comonoid structure by [[oplax monoidal functor]]s. See there for more.
+Monoid structure is preserved by [[lax monoidal functors]]. Comonoid structure by [[oplax monoidal functors]]. See [[lax monoidal functor]] for more details.
 
 ### Category of monoids
 
