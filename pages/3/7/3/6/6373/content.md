@@ -67,7 +67,7 @@ The following 2 articles make parallel between some notions of [[QFT]] and of nu
 
 Some history is in 
 
-* {#Cogdell12} James W. Cogdell, _L-functions and non-abelian class eld theory, from
+* {#Cogdell12} James W. Cogdell, _L-functions and non-abelian class field theory, from
 Artin to Langlands_, 2012 ([pdf](https://people.math.osu.edu/cogdell.1/Artin-www.pdf))
 
 The analogy between class field theory for the Hilbert class field and the Hurewicz theorem can be found in
