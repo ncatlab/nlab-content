@@ -14,7 +14,7 @@ There have been 6 meetings since PSSL 100:
 
 * [PSSL104](https://mysite.science.uottawa.ca/phofstra/PSSL18.html) (2018, Amsterdam)
 
-* [PSSL105](https://sites.google.com/view/pssl-105) (2019, Palermo)
+* [PSSL105](https://sites.google.com/view/pssl-105) (2019, Palermo) [abstracts](https://zulip-uploads.s3.amazonaws.com/21317/ytxt3ahyV2ac8n3VMrMp5mDN/pssl_105_programme_with_abstracts.pdf?AWSAccessKeyId=AKIAIEVMBCAT2WD3M5KQ&Signature=vABJ59yZxPmsLgGoCJ12cB5yDAw%3D&Expires=1666136731)
 
 * [PSSL106](http://www.math.muni.cz/~bourkej/PSSL106.html) (2022, Brno)
 
