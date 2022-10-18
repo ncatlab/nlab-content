@@ -97,12 +97,17 @@ All these operations are not restricted only to [[subsingletons]], they are also
 
 \section{Internal equality}
 
-The equality relation in a set $S$ is represented by the initial reflexive graph structure on $S$. By a *graph structure* on $S$ we mean a set $R$ and a pair of function $s:R \to S$ and $t:R \to S$. A graph is a set $S$ with a graph structure $(R, s, t)$; $S$ is called the [[carrier set]]. We do not assume the two functions are [[jointly monic|jointly injective]], so the graphs are really [[directed pseudographs]]. By a *reflexive graph*, we mean that every element of the carrier set has a loop: for every element $a \in S$ the joint fiber of both $s$ and $t$ at $a$ is pointed 
-$$\mathrm{refl}_A(a) \in \{p \in R \vert s(p) = a \wedge t(p) = a\}$$ 
+The internal equality relation in a set $S$ is represented by the initial reflexive graph structure on $S$. By a *graph structure* on $S$ we mean a set $R$ and a pair of function $s:R \to S$ and $t:R \to S$. The set $S$ is called the *carrier set* of the graph structure. We do not assume the two functions are [[jointly monic|jointly injective]], so the graph structures are really [[directed pseudograph]] structures. By a *reflexive graph structure*, we mean that every element of the carrier set has a loop: there is a function $\mathrm{refl}:S \to R$ such that $s(\mathrm{refl}(a)) = a$ and $t(\mathrm{refl}(a)) = a$. 
 
-A *reflexive graph homomorphism* is a ...
+A *graph structure homomorphism* between two graph structures on the carrier set $S$, $(R, s, t)$ and $(R,', s', t')$ is a function $f: R \to R'$, such that for all $p \in R$, $s'(f(p)) = s(p)$ and $t'(f(p)) = t(p)$. 
 
-By an initial reflexive graph, we mean that ...
+A *reflexive graph structure homomorphism* is a graph structure homomorphism $f:R \to R'$ between two graph structures $(R, s, t, \mathrm{refl})$ and $(R', s', t', \mathrm{refl}')$ on a carrier set $S$ where additionally, for every element $a \in S$ of the carrier set, $f(\mathrm{refl}(a)) = \mathrm{refl}'(f(a))$. 
+
+A reflexive graph structure $(\mathrm{Id}_S, s_{\mathrm{Id}}, t_{ \mathrm{Id}}, \mathrm{refl}_S)$ on a carrier set $S$ is an *initial reflexive graph structure* on $S$ if for every other reflexive graph structure $(R, s, t, \mathrm{refl})$ on $S$, there exists a unique reflexive graph structure homomorphism $f:\mathrm{Id}_S \to R$. 
+
+Every set $S$ has an initial reflexive graph structure given by the [[diagonal function]] of $S$. 
+
+It could be shown from this [[universal property]] that the functions $s_\mathrm{Id}$ and $t_\mathrm{Id}$ are [[jointly monic|jointly injective]], and thus that [[axiom K]] holds internally in set theory. 
 
 \section{Internal and external axioms}
 
