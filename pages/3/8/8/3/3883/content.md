@@ -18,6 +18,8 @@
 
 * Imma Gálvez-Carrillo, [[Joachim Kock]], [[Andrew Tonks]], _Decomposition spaces, incidence algebras and Möbius inversion_, [arXiv:1404.3202](https://arxiv.org/abs/1404.3202)
 
+* Imma Gálvez-Carrillo, [[Andy Tonks]], [[Bruno Valette]], _Homotopy Batalin-Vilkovisky algebras_, J. Noncomm. Geom. __6__:3, 539--602 [arXiv:0907.2246](https://arxiv.org/abs/0907.2246) [doi](https://doi.org/10.4171/JNCG/99)
+
 category: people
 
 [[!redirects Imma Gálvez-Carrillo]]
