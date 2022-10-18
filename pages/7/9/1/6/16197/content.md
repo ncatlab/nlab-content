@@ -148,6 +148,8 @@ See also:
 
 * Dhong Yeon Cheong, Hyun Min Lee, Seong Chan Park, _Beyond the Starobinsky model for inflation_ ([arXiv:2002.07981](https://arxiv.org/abs/2002.07981))
 
+* Didam Duniya, Amare Abebe, Alvaro de la Cruz-Dombriz, Peter Dunsby, *Imprint of $f(R)$ gravity in the cosmic magnification* &lbrack;[arXiv:2210.09303](https://arxiv.org/abs/2210.09303)&rbrack;
+
 
 
 ### Embedding into supergravity
