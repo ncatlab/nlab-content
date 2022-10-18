@@ -20,7 +20,7 @@
 
 ## Idea
 
-The notion of _Calabi-Yau category_ is a [[horizontal categorification]] of that of [[Frobenius algebra]] -- a _Frobenius [[algebroid]]_ . Their name derives from the fact that the definition of Calabi-Yau categories have been originally studied as an abstract version of the [[derived category]] of [[coherent sheaves]] on a [[Calabi-Yau manifold]].
+The notion of _Calabi-Yau category_ is a [[horizontal categorification]] of that of [[Frobenius algebra]] -- a _Frobenius [[algebroid]]_. Their name derives from the fact that the definition of Calabi-Yau categories have been originally studied as an abstract version of the [[derived category]] of [[coherent sheaves]] on a [[Calabi-Yau manifold]].
 
 ## Definition
 
@@ -138,23 +138,25 @@ Calabi-Yau $A_\infty$-categories classify [[TCFT]]s. This remarkable result is w
 
 ## Related concepts
 
-* [[Calabi-Yau object]]
+* [[Calabi-Yau object]], [[Calabi-Yau algebra]], [[pre-Calabi-Yau algebra]]
 
 ## References
 
-* {#Costello04} [[Kevin Costello]], _Topological conformal field theories and Calabi-Yau categories_ ([arXiv:math/0412149](http://arxiv.org/abs/math/0412149))
+* {#Costello04} [[Kevin Costello]], _Topological conformal field theories and Calabi-Yau categories_ ([arXiv:math/0412149](https://arxiv.org/abs/math/0412149))
 
-* {#Costello05} [[Kevin Costello]], _The Gromov-Witten potential associated to a TCFT_ ([arXiv:0509264](http://arxiv.org/abs/math/0509264))
+* {#Costello05} [[Kevin Costello]], _The Gromov-Witten potential associated to a TCFT_ ([arXiv:0509264](https://arxiv.org/abs/math/0509264))
 
-* [[Maxim Kontsevich]], [[Yan Soibelman]]. _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry_ &lt;http://arxiv.org/abs/math/0606241>
+* [[Maxim Kontsevich]], [[Yan Soibelman]]. _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry_, [arXiv:math/0606241](https://arxiv.org/abs/math/0606241)
 
 * Lee Cho, _Notes on Kontsevich-Soibelman's theorem about cyclic A-infinity algebras_ ([arXiv:1002.3653](http://arxiv.org/abs/1002.3653))
 
-* {#Lurie09} [[Jacob Lurie]], section 4.2 of _[[On the Classification of Topological Field Theories]]_ ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
+* {#Lurie09} [[Jacob Lurie]], section 4.2 of _[[On the Classification of Topological Field Theories]]_ ([arXiv:0905.0465](https://arxiv.org/abs/0905.0465))
 
 A relative version is defined for functors instead of categories,
 
-* Christopher Brav , Tobias Dyckerhoff, _Relative Calabi–Yau structures_, Compositio Math. 155 (2019) 372–412 [doi](https://doi.org/10.1112/S0010437X1900702)
+* Christopher Brav , Tobias Dyckerhoff, _Relative Calabi–Yau structures_, Compositio Math. 155 (2019) 372--412 [doi](https://doi.org/10.1112/S0010437X1900702); _Relative Calabi–Yau structures II: shifted Lagrangians in the moduli of objects_, Sel. Math. New Ser. 27, 63 (2021). [doi](https://doi.org/10.1007/s00029-021-00642-5)
+* [[Bernhard Keller]], Yu Wang, _An introduction to relative Calabi-Yau structures_, [arXiv:2111.10771](https://arxiv.org/abs/2111.10771)
+
 
 [[!redirects Calabi-Yau category]]
 [[!redirects Calabi-Yau categories]]
