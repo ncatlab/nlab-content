@@ -76,7 +76,8 @@ See also
 
 * {#Gwilliam13} [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis (2013) ([[GwilliamThesis.pdf:file]])
  
-
+* Martin Doubek, [[Branislav Jurčo]], Lada Peksová, Ján Pulmann, _Connected sum for modular operads and Beilinson-Drinfeld algebras_, [arXiv:2210.06517](https://arxiv.org/abs/2210.06517)
+* Constantin-Cosmin Todea, _BD algebras and group cohomology_, Comptes Rendus. Mathématique __359__ (2021) no. 8, 925--937 [doi](https://doi.org/10.5802/crmath.246) 
 
 [[!redirects Beilinson-Drinfeld algebras]]
 
