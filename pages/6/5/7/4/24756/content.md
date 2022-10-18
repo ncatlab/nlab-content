@@ -95,6 +95,15 @@ $$\forall b \in B.S_b \coloneqq \left[\prod_{b \in B} S_b\right]$$
 
 All these operations are not restricted only to [[subsingletons]], they are also defined over general [[sets]]. However, by definition, these operations result in a [[subsingleton]]. 
 
+\section{Internal equality}
+
+The equality relation in a set $S$ is represented by the initial reflexive graph structure on $S$. By a *graph structure* on $S$ we mean a set $R$ and a pair of function $s:R \to S$ and $t:R \to S$. A graph is a set $S$ with a graph structure $(R, s, t)$; $S$ is called the [[carrier set]]. We do not assume the two functions are [[jointly monic|jointly injective]], so the graphs are really [[directed pseudographs]]. By a *reflexive graph*, we mean that every element of the carrier set has a loop: for every element $a \in S$ the joint fiber of both $s$ and $t$ at $a$ is pointed 
+$$\mathrm{refl}_A(a) \in \{p \in R \vert s(p) = a \wedge t(p) = a\}$$ 
+
+A *reflexive graph homomorphism* is a ...
+
+By an initial reflexive graph, we mean that ...
+
 \section{Internal and external axioms}
 
 Since every logical operation in [[predicate logic]] have been internalized in the set theory itself, one then has to distinguish between the axioms written in the external predicate logic used to define the set theory, and the axioms written in the predicate logic internal to the set theory. 
