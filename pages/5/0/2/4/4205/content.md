@@ -26,6 +26,8 @@ A _modular operad_ is an [[operad]] that has the kind of extra structure which i
 * Joseph Chuang, Andrey Lazarev, _Dual Feynman transform for modular operads_, [arxiv/0704.2561](http://arxiv.org/abs/0704.2561)
 
 * Serguei Barannikov, _Modular operads and Batalin-Vilkovisky geometry_, Int. Math. Res. Not. IMRN  2007,  no. 19, Art. ID rnm075, 31 pp. [arxiv/0912.5484](http://arxiv.org/abs/0912.5484)
+* Martin Doubek, [[Branislav Jurčo]], Lada Peksová, Ján Pulmann, _Connected sum for modular operads and Beilinson-Drinfeld algebras_, [arXiv:2210.06517](https://arxiv.org/abs/2210.06517)
+
 
 
 [[!redirects modular operads]]
