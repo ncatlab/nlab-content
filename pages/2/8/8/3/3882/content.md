@@ -19,7 +19,7 @@
 
 * [[Imma Gálvez-Carrillo]], [[Joachim Kock]], Andrew Tonks. _Groupoids and Faà di Bruno formulae for Green functions in bialgebras of trees_, Adv. Math., 254:79--117, 2014. 
 
-* Imma G&#225;lvez-Carrillo, [[Andy Tonks]], [[Bruno Valette]], _Homotopy Batalin-Vilkovisky algebras_ ([arXiv:0907.2246](https://arxiv.org/abs/0907.2246))
+* [[Imma Gálvez-Carrillo]], [[Andy Tonks]], [[Bruno Valette]], _Homotopy Batalin-Vilkovisky algebras_, J. Noncomm. Geom. __6__:3, 539--602 [arXiv:0907.2246](https://arxiv.org/abs/0907.2246) [doi](https://doi.org/10.4171/JNCG/99)
 
 * Imma G&#225;lvez, [[Vassily Gorbounov]], Andrew Tonks, _Homotopy Gerstenhaber structures and vertex algebras_, [math/0611231.QA](https://arxiv.org/abs/math/0611231)
 
