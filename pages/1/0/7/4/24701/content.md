@@ -399,9 +399,23 @@ Transport is given by the following rules:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A}{\Gamma \vdash \mathrm{trans}^P(a, b):(a =_A b) \to (P[a/x] \simeq P[b/x])}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{ind}_{\mathrm{trans}^P}^{\mathrm{refl}}\mathrm{trans}^P(a, a)(\mathrm{refl}_A(a)) =_{P[a/x] \simeq P[a/x]} \mathrm{id}_{P[a/x]}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{ind}_{\mathrm{trans}^P}^{\mathrm{refl}}:\mathrm{trans}^P(a, a)(\mathrm{refl}_A(a)) =_{P[a/x] \simeq P[a/x]} \mathrm{id}_{P[a/x]}}$$
 
-Transport is very important in defining both [[univalent Tarski universes]] and [[higher inductive types]] in objective type theory. 
+Transport is very important in defining [[univalent Tarski universes]] as well as [[dependent identity types]], which in turn are important in defining [[higher inductive types]], in objective type theory. 
+
+### Dependent identity types and apd
+
+We define the [[dependent identity type]] as follows:
+
+$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash x:P(a) \quad \Gamma \vdash y:P(b)}{\Gamma \vdash x =_P^p y \coloneqq \mathrm{trans}^P(p)(x) =_{P(b)} y \; \mathrm{type}}$$
+
+Additionally, for a term $f:P$ in the context of $x:A$, there is a [[dependent identification]] $\mathrm{apd}(f)(p):f(x) =_P^p f(y)$ for all $x:A$, $y:A$, and $p:x =_A y$, inductively defined by reflexivity for all $x:A$. 
+$$\mathrm{apd}(f)(\mathrm{refl}_A(x)):f(x) =_P^{\mathrm{refl}_A(x)} f(x)$$
+
+The rules for $\mathrm{apd}$ are as follows
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash f:P}{\Gamma, x:A, y:A, p:A =_A y \vdash \mathrm{apd}(f)(p):f(x) =_P^p f(y)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash f:P}{\Gamma, x:A \vdash \mathrm{apd}(f)(\mathrm{refl}_A(x)):f(x) =_P^{\mathrm{refl}_A(x)} f(x)}$$
 
 ### Universes
 
