@@ -31,6 +31,8 @@ For any $\mathcal{F}$-category $K$, the objects, tight morphisms, and 2-cells fo
 $$K_\tau \to K_\lambda$$
 which is the identity on objects, strictly [[faithful functor|faithful]] on 1-morphisms, and [[locally fully faithful 2-functor|locally fully faithful]].  Since $K$ can be recovered from this 2-functor, an equivalent definition of a strict $\mathcal{F}$-category is as a strict 2-functor with these properties.
 
+Strict $\mathcal{F}$-category are equivalent to [[double categories]] with [[companions]].
+
 ### Weak $\mathcal{F}$-categories
 
 Probably the best "fully weak" version of $\mathcal{F}$-categories is obtained by redefining $\mathcal{F}$ to consist of fully faithful functors, with squares that commute up to specified isomorphism, and then by considering $\mathcal{F}$-[[enriched bicategories]] rather than enriched categories.  Such a thing would be equivalent to an identity-on-objects and locally-fully-faithful pseudofunctor between bicategories.
