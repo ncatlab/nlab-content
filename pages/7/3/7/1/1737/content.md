@@ -106,8 +106,7 @@ Other aspects are treated in
 
 * [[Michael Barr]], [[Charles Wells]], _[Category Theory for Computing Science](http://www.cwru.edu/artsci/math/wells/pub/ctcs.html)_.
 
-* [[Andrea Asperti]], [[Guiseppe Longo]], _Categories, types and structures, An Introduction to Category Theory for the working computer scientist_, M.I. T. Press (out of print, but available [online](
-http://www.cs.unibo.it/~asperti/PAPERS/book.pdf).)
+* [[Andrea Asperti]], [[Guiseppe Longo]], _Categories, types and structures, An introduction to category theory for the working computer scientist_, M.I.T. Press (out of print, but available  [online](http://www.cs.unibo.it/~asperti/PAPERS/book.pdf).
 
 [Logical Methods in Computer Science](http://www.lmcs-online.org/ojs/about.php) is an open access journal for papers on Theoretical Computer Science and other areas of Computer Science in which logical methods play a large part.
 
