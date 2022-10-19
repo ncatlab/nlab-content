@@ -78,39 +78,3 @@ The associated functors $f^{*}$ are the [[pullback#PullbackFunctor|pullback psue
 The proper concept of data types in quantum programming languages, hence of their formal verification and categorical semantics, has remained somewhat elusive, as witnessed by the issue of "dynamic lifting" encountered in the Quipper language family. In this talk I explain our claim that a powerful quantum data type system elegantly solving these problems is naturally provided by the "linear homotopy type theory" recently realized by M. Riley. Together with our previous claim that homotopy type theory natively knows about the fine detail of su(2)-anyon braid gates, this shows that linear homotopy type theory is a natural substrate for typed quantum programming languages aware of topological quantum hardware.
 This is joint work, at CQTS, with D. J. Myers, M. Riley and H. Sati.
 
-
-
-## Test
-
-| [[logic]] | [[set theory]] | [[category theory]] | [[type theory]] |
-|-----------|---------------------|-----------------|-----------------|
-| [[true]]  | [[singleton]] | [[terminal object]]/[[(-2)-truncated object]] | [[h-level 0]]-[[type]]/[[unit type]] | 
-| [[false]] | [[empty set]] | [[initial object]] | [[empty type]] |
-| [[proposition]], [[truth value]] | [[subsingleton]] | [[(-1)-truncated object]] | [[h-proposition]], [[mere proposition]] |
-| [[proof]] | [[element]] | [[generalized element]] | [[program]] |
-| [[cut rule]] |  | [[composition]] of [[classifying morphisms]] / [[pullback]] of [[display maps]] | [[substitution]] |
-| [[cut elimination]] for [[implication]] | | [[counit]] for hom-tensor adjunction | [[beta reduction]] |
-| introduction rule for [[implication]] | | [[unit]] for hom-tensor adjunction | [[eta conversion]] |
-| [[logical conjunction]] | [[cartesian product]] of [[subsingletons]] |[[product]] | [[product type]] |
-| [[disjunction]] | [[support]] of [[disjoint union]] of [[subsingletons]] |[[coproduct]] ([[(-1)-truncation]] of) | [[sum type]] ([[bracket type]] of) |
-| [[implication]] | [[function set]] of [[subsingletons]] | [[internal hom]] | [[function type]] |
-| [[negation]] | [[function set]] into [[empty set]] | [[internal hom]] into [[initial object]] | [[function type]] into [[empty type]] |
-| [[universal quantification]] | indexed [[cartesian product]] | [[dependent product]] | [[dependent product type]] |     
-| [[existential quantification]] | [[support]] of indexed [[disjoint union]] | [[dependent sum]] ([[(-1)-truncation]] of) | [[dependent sum type]] ([[bracket type]] of) |
-| | [[equivalence]] |[[path space object]] | [[identity type]]/[[path type]] |
-|  | [[support]] | [[support object]] | [[propositional truncation]]/[[bracket type]]
-| | [[equivalence class]] | [[quotient]] | [[quotient type]] |
-| | [[induction]] | |[[colimit]] | [[inductive type]], [[W-type]], [[M-type]] |
-| | higher [[induction]] | [[(infinity,1)-colimit|higher colimit]] | [[higher inductive type]] |
-| - | |  [[0-truncated]] [[(infinity,1)-colimit|higher colimit]] | [[quotient inductive type]] |
-| [[coinduction]] | |[[limit]] | [[coinductive type]] |
-| [[preset]] | | | [[type]] without [[identity types]] |
-| | [[completely presented set]] | [[discrete object]]/[[0-truncated object]]  | [[h-level 2]]-[[type]]/[[set]]/[[h-set]] |
-| | [[set]] | [[groupoid object in an (infinity,1)-category|internal 0-groupoid]] | [[Bishop set]]/[[setoid]] with its [[pseudo-equivalence relation]] an actual [[equivalence relation]] |
-| | [[set]] of [[truth values]] | [[subobject classifier]] | [[type of propositions]] |
-| | [[universe]] | [[object classifier]] | [[type universe]] |
-| [[modality]] |  |[[closure operator]], ([[idempotent monad|idempotent]]) [[monad]] | [[modal type theory]], [[monad (in computer science)]] |
-| [[linear logic]] |  |([[symmetric monoidal category|symmetric]], [[closed monoidal category|closed]]) [[monoidal category]] | [[linear type theory]]/[[quantum computation]] |
-| [[proof net]] |  |[[string diagram]] | [[quantum circuit]] |
-| (absence of) [[contraction rule]] | | (absence of) [[diagonal]] | [[no-cloning theorem]] |
-| | | [[synthetic mathematics]]  |  [[domain specific embedded programming language]] |
