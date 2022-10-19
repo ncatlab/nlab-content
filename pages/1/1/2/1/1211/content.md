@@ -66,7 +66,7 @@ In particular, strong extensionality implies Scott extensionality, and the conve
 
 ### In homotopy type theory
 
-In [[homotopy type theory]], an [[h-proposition]]-valued binary [[type family]] $\prec$ on a carrier type $S$ is **weakly extensional** if for all terms $a:S$ and $b:S$ the canonical function
+In [[homotopy type theory]], a relation is an [[h-proposition]]-valued [[type family]]. A binary relation $\prec$ on a carrier type $S$ is **weakly extensional** if for all terms $a:S$ and $b:S$ the canonical function
 
 $$\mathrm{idtoextcond}(a, b):(a =_S b) \to \prod_{c:S} (c \prec a) \simeq (c \prec b)$$
 
