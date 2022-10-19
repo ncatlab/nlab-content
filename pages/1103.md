@@ -243,7 +243,7 @@ of dg-algebras into an [[enriched category]]
 over the [[closed symmetric monoidal category]]
 of dg-coalgebras.
 
-See Anel and Joyal \cite{AnelJoyal} for more information.
+See [Anel and Joyal](#AnelJoyal) for more information.
 
 
 ## Related concepts
@@ -287,7 +287,7 @@ to its [[chain homology and cohomology|chain (co)homology]] (regarded as a dg-al
 
 ## References
 
-* [[Mathieu Anel]], [[André Joyal]], _Sweedler theory of (co)algebras and the bar-cobar constructions_, [pdf](http://mathieu.anel.free.fr/mat/doc/Anel%20-%20Sweedlertheory_v1.1.pdf)
+* {#AnelJoyal} [[Mathieu Anel]], [[André Joyal]], _Sweedler theory of (co)algebras and the bar-cobar constructions_, [pdf](http://mathieu.anel.free.fr/mat/doc/Anel%20-%20Sweedlertheory_v1.1.pdf)
 
 [[!redirects differential graded algebras]]
 [[!redirects differential graded module]]
