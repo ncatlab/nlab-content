@@ -68,7 +68,7 @@ The original articles are
 
 Review:
 
-* [[Amit Giveon]], [[David Kutasov]], _Brane Dynamics and Gauge Theory_, Rev. Mod. Phys. 71:983-1084, 1999 ([arXiv:hep-th/9802067](https://arxiv.org/abs/hep-th/9802067))
+* [[Amit Giveon]], [[David Kutasov]], _Brane Dynamics and Gauge Theory_, Rev. Mod. Phys. 71:983-1084, 1999 ([arXiv:hep-th/9802067](https://arxiv.org/abs/hep-th/9802067) [doi](https://doi.org/10.1103/RevModPhys.71.983))
 
   (emphasis on the [[s-rule]])
 
