@@ -62,6 +62,13 @@ It immediately follows from the above unfolding of the definition that $\VBun(e'
 
 The associated functors $f^{*}$ are the [[pullback#PullbackFunctor|pullback psuedofunctors]] $f^{*}:\VBun_{M_{2}}\longrightarrow \VBun_{M_{1}}$ that pullback vector bundles over a manifold $M_{2}$ to vector bundles over a manifold $M_{1}$ along a smooth map $f:M_{1}\longrightarrow M_{2}$.
 
+## llll
+
+The proper concept of data types in quantum programming languages, hence of their formal verification and categorical semantics, has remained somewhat elusive, as witnessed by the issue of "dynamic lifting" encountered in the Quipper language family. In this talk I explain our claim that a powerful quantum data type system elegantly solving these problems is naturally provided by the "linear homotopy type theory" recently realized by M. Riley. Together with our previous claim that homotopy type theory natively knows about the fine detail of su(2)-anyon braid gates, this shows that linear homotopy type theory is a natural substrate for typed quantum programming languages aware of topological quantum hardware.
+This is joint work, at CQTS, with D. J. Myers, M. Riley and H. Sati.
+
+
+
 ## Test
 
 | [[logic]] | [[set theory]] | [[category theory]] | [[type theory]] |
