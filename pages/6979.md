@@ -71,6 +71,7 @@ _[[relation between type theory and category theory]]_.
 * [[cubical type theory]]
 * [[higher observational type theory]]
 * [[univalent type theory]]
+* [[propositional logic as a dependent type theory]]
 
 ## Related concepts
 
