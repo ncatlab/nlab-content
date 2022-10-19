@@ -415,9 +415,10 @@ Stone-von Neumann**
 
   **The smooth Oka principle**
 
+  notes: [pdf](https://github.com/adrianclough/adrianclough.github.io/raw/main/The%20smooth%20Oka%20principle%206.pdf)
+
   > on [Clough 2021](shape+via+cohesive+path+∞-groupoid#Clough21)
 
-  notes: [pdf](https://github.com/adrianclough/adrianclough.github.io/raw/main/The%20smooth%20Oka%20principle%206.pdf)
 
 > The infinity topos of differentiable sheaves contains all smooth manifolds as a full subcategory and has excellent formal properties. In particular, it admits an intrinsic notion of underlying homotopy type of any differentiable sheaf, which coincides with classical constructions such as taking smooth total singular complexes. Moreover, there is a canonical sense in which the mapping sheaf between any two differentiable sheaves may have the correct homotopy type. This latter notion is reminiscent of the Oka principle in complex geometry. In this talk I will show how to exhibit the Oka principle in the smooth setting using model structures and other homotopical calculi on the infinity topos of differentiable sheaves. 
 
@@ -430,6 +431,18 @@ Stone-von Neumann**
   **Algebraic and geometric aspects of the Dirac equation**
 
   > on [arXiv:2102.03562](https://arxiv.org/abs/2102.03562)
+
+\linebreak
+
+* {#KongOct2022} 19 Oct 2022
+
+  [[Liang Kong]] (SIQSE and SUST)
+
+  **Topological Wick Rotation and Holographic Dualities**
+
+  slides: [[Kong-TalkAtCQTS-20221019.pdf:file]]
+
+  > on [[topological order]], [[braided fusion categories]] and the [[holographic principle]]
 
 \linebreak
 
