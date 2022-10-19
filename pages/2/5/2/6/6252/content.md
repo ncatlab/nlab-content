@@ -51,7 +51,7 @@ In an arbitrary $*$-[[star-algebra|algebra]], a __self-adjoint__ or __hermitian_
 
 * [[unitary operator]]
 
-* [[Hermitian matrix]]
+* [[Hermitian form]], [[Hermitian matrix]]
 
 * [[quantum observable]], [[daseinisation]]
 
