@@ -114,7 +114,7 @@ $$
 $$
 
 
-For $E$ an [[E-infinity ring]] there is a [[bijection]] between [[complex oriented cohomology theory|complex orientation]] of $E$ and [[E-infinity ring]] maps of the form
+For $E$ a [[homotopy-commutative ring spectrum]] there is a [[bijection]] between [[complex oriented cohomology theory|complex orientation]] of $E$ and [[ring spectrum]] maps of the form
 
 $$
   MU \longrightarrow E
