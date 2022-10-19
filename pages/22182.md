@@ -64,6 +64,8 @@ There are several proofs in the [[HoTT book]] that the [[loop space]] $\Omega(S^
 
 * [[circle]], [[unit circle]], [[circle group]], [[circle object]]
 
+* [[interval type]]
+
 * [[minimal simplicial circle]]
 
 * [[suspension type]]
