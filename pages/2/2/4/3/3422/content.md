@@ -1021,7 +1021,6 @@ More on model-category theoretic construction of the $\infty$-Grothendieck const
 
 * [[Gijs Heuts]], [[Ieke Moerdijk]], *Left fibrations and homotopy colimits II* &lbrack;[arXiv:1602.01274](https://arxiv.org/abs/1602.01274)&rbrack;
 
-
 Discussion in terms of [[lax (infinity,1)-colimits]] is in
 
 * {#GepnerHaugsengNikolaus15} [[David Gepner]], [[Rune Haugseng]], [[Thomas Nikolaus]], _Lax colimits and free fibrations in $\infty$-categories_ ([arXiv:1501.02161](http://arxiv.org/abs/1501.02161))
@@ -1034,9 +1033,15 @@ Another review is
 
 * Anders Jess Pedersen, Magnus Baunsgaard Kristensen, _Straightening and Unstraightening_ [(Dropbox)](https://www.dropbox.com/s/alys3wg59rir3gt/Grothendieck_construction.pdf?dl=0)
 
-Disucssion of the $\infty$-Grothendieck construction for [[(infinity,1)-functors|$\infty$-functors]] to [[(infinity,1)-toposes|$\infty$-toposes]] from [[inverse images]] of [[infinity-groupoid|$\infty$-groupoids]]:
+Discussion of the $\infty$-Grothendieck construction for [[(infinity,1)-functors|$\infty$-functors]] to [[(infinity,1)-toposes|$\infty$-toposes]] from [[inverse images]] of [[infinity-groupoid|$\infty$-groupoids]]:
 
 * {#BeardsleyPéroux22} [[Jonathan Beardsley]], [[Maximilien Péroux]], Lemma 3.10 in: *Koszul Duality in Higher Topoi*, Homol. Homot. Appl. [(2022)](https://www.intlpress.com/site/pub/pages/journals/items/hha/_home/acceptedpapers/index.php), &lbrack;[arXiv:1909.11724](https://arxiv.org/abs/1909.11724)&rbrack;
+
+Discussion entirely within the context of [[quasi-categories]]:
+
+* [[Denis-Charles Cisinski]], Hoang Kim Nguyen, *The universal coCartesian fibration* &lbrack;[arXiv:2210.08945](https://arxiv.org/abs/2210.08945)&rbrack;
+
+
 
 [[!redirects (∞,1)-Grothendieck construction]]
 
