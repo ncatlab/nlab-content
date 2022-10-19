@@ -4,4 +4,6 @@
 
 * [Scans of selected papers](https://github.com/CMU-HoTT/scott)
 
+* [[Peripatetic Seminar on Sheaves and Logic]] (History)
+
 category: people
