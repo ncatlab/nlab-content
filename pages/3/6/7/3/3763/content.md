@@ -8,9 +8,9 @@ A **double profunctor** is an appropriate notion of [[profunctor]] between [[dou
 
 Thinking of a profunctor $H : C &#8696; D$ as representing some notion of [[heteromorphism]], double profunctors either represent a notion of _vertical_ heteromorphism or _horizontal_ heteromorphism. For clarity, this article focuses on the horizontal double profunctors. Vertical double profunctors can be defined by taking the transpose.
 
-That is, $H$ defines for each $c\in C, d \in D$ a set of horizontal heteromorphisms from $d$ to $c$ $H(d,c)$ so that a heteromorphism $h \in H(d,c)$ can be composed with horizontal morphisms $f : d' \to d$  in $D$  and $g : c \to c'$ in $C$ to yield a $f;h;g \in H(d',c')$.
+That is, $H$ defines for each $c\in C, d \in D$ a set $H(d,c)$ of horizontal heteromorphisms from $d$ to $c$, so that a heteromorphism $h \in H(d,c)$ can be composed with horizontal morphisms $f : d' \to d$  in $D$  and $g : c \to c'$ in $C$ to yield a heteromorphism $(f;h;g) \in H(d',c')$.
 
-Furthermore, $H$ defines for each heteromorphisms $h \in H(d,c), h' \in H(d',c')$ and _vertical_ arrows $\alpha : d \to d', \beta : c \to c'$ a notion of hetero-2-cell:
+Furthermore, $H$ defines, for each heteromorphisms $h \in H(d,c), h' \in H(d',c')$ and _vertical_ arrows $\alpha : d \to d'$ in $D$ and $\beta : c \to c'$ in $C$, a notion of hetero-2-cell:
 
 $$
   \begin{matrix}
@@ -28,7 +28,7 @@ $$
  \end{matrix}  
 $$
 
-That can be composed vertically with hetero-2-cells along $h,h'$ and horizontally with 2-cells in $D, C$ of the appropriate shape along $\alpha, \beta$.
+These can be composed vertically with hetero-2-cells along $h,h'$, and horizontally with 2-cells in $D, C$ of the appropriate shape along $\alpha, \beta$.
 
 
 ## Definition
@@ -103,12 +103,12 @@ There is also a natural notion of profunctor between [[virtual double categories
 
 ## Composites
 
-Composition of double profunctors is, unfortunately, hard to define and not well-behaved.  Several of the above definitions suggests a possible way to compose them, but not all of these definitions work.  In particular, there is not a double category of double categories, double functors, and double profunctors.
+Composition of double profunctors is, unfortunately, hard to define and not well-behaved.  Several of the above definitions suggest a possible way to compose them.  However, not all of these ideas are well-defined, and those that are well-defined are not associative.  In particular, there is not a double category of double categories, double functors, and double profunctors (although there are various weaker structures, such as a [[virtual double category]] and a [[lax double category]]).
 
 
 ### Using internal profunctors
 
-For instance, internal profunctors can be composed, using a coequalizer, in any category which has coequalizers preserved by pullback---but while $Cat$ has coequalizers, they are not preserved by pullback, so this does not work.  (This failure has nothing to do with strictness or weakness; [[2-colimits]] in $Cat$ are also not preserved by [[2-pullbacks]].)
+Internal profunctors can be composed, using a coequalizer, in any category which has coequalizers preserved by pullback.  However, while $Cat$ has coequalizers, they are not preserved by pullback, so this does not work -- it is not even possible to define actions making the putative "composite" into a double profunctor.  (This failure has nothing to do with strictness or weakness; [[2-colimits]] in $Cat$ are also not preserved by [[2-pullbacks]].)
 
 This definition does, however, suggest a replacement for the nonexistent double category of double profunctors.  Namely, internal categories, functors, and profunctors in *any* category with pullbacks always form a [[virtual double category]], and in fact a [[virtual equipment]].   Thus, in particular, there is a virtual equipment $DblProf$ of double categories, double functors, and double profunctors.  In terms of the explicit definition, a cell in $DblProf$ with some given boundary consists of:
 
@@ -125,9 +125,117 @@ The virtual equipment $DblProf$ is also contained as a non-full sub-virtual-equi
 
 ### Using collages
 
-The standard way to compose codiscrete cofibrations $C\to H \leftarrow D$ and $D\to K\leftarrow E$ is to take the pushout (or 2-pushout) $H\sqcup_D K$ and then factor $C\sqcup E \to H\sqcup_D K$ as $C\sqcup E \to H\circ K \to H\sqcup_D K$ in some way such as to make $C\sqcup E \to H\circ K$ codiscrete.  We can do this for codiscrete cofibrations in $DblCat$, but the resulting composition operation is not associative, since pushouts in $DblCat$ do not preserve the requisite factorizations.
+The standard way to compose codiscrete cofibrations $C\to H \leftarrow D$ and $D\to K\leftarrow E$ is to take the pushout (or 2-pushout) $H\sqcup_D K$ and then factor $C\sqcup E \to H\sqcup_D K$ as $C\sqcup E \to H\circ K \to H\sqcup_D K$ in some way such as to make $C\sqcup E \to H\circ K$ codiscrete.  We can do this for codiscrete cofibrations in $DblCat$ and thereby obtain composites of double profunctors.  However, the resulting composition operation is not associative, since pushouts in $DblCat$ do not preserve the requisite factorizations.
 
 I believe that the binary composite of double profunctors defined in this way is a "weak composite" in the virtual double category $DblProf$, i.e. it has a universal property relative to cells with source of length 2 only.  We can likewise define basic $n$-ary composites of codiscrete cofibrations by taking an $n$-ary pushout and then a factorization, but for $n\gt 2$, as far as I can tell, there is little relation between these composites and $DblProf$.  In particular, these composites form a "lax double category", whereas a virtual double category with all weak composites can be identified with an "oplax double category."  I also don't know whether the cells in $DblProf$ with source of length $\gt 2$ can be seen from the perspective of collages.
+
+### Failure of associativity
+
+Here is a concrete example of the failure of associativity, for any reasonable notion of "composite" for double profunctors.
+
+* Let $A$ be the free double category on two composable vertical arrows $a_0 \xrightarrow {\alpha_0} a_1 \xrightarrow{\alpha_1} a_2$.
+* Let $B$ have four objects, vertical arrows $\beta_0 : b_0\to b_1$ and $\beta_1 : b_1'\to b_2$, and a horizontal arrow $\beta' : b_1\to b_1'$ (plus identities). 
+* Let $C=A$, named instead $c_0 \xrightarrow{\gamma_0} c_1 \xrightarrow{\gamma_1} c_2$.
+* Let $D$ be the free double category on one vertical arrow, $d_0 \xrightarrow{\delta} d_2$.
+
+* Let $H:A\to B$ be the double profunctor with
+  * Four heteromorphisms $h_0 :a_0 \to b_0$, $h_1 : a_1 \to b_1$, $h_1' : a_1 \to b_1'$, and $h_2 : a_2 \to b_2$.
+  * Composition action $h_1 ; \beta' = h_1'$
+  * Two hetero-2-cells 
+    $$
+  \begin{matrix}
+    a_0
+    &\stackrel{h_0}{\to} &
+    b_0 
+    \\
+    {}^{\mathllap{\alpha_0}}\downarrow
+    &\Downarrow^{\mathrlap{\theta_0}}&
+    \downarrow^{\mathrlap{\beta_0}}
+    \\
+    a_1
+    &\underset{h_1}{\to} &
+    b_1
+ \end{matrix}
+\qquad\text{and}\qquad
+  \begin{matrix}
+    a_1
+    &\stackrel{h_1'}{\to} &
+    b_1'
+    \\
+    {}^{\mathllap{\alpha_1}}\downarrow
+    &\Downarrow^{\mathrlap{\theta_1}}&
+    \downarrow^{\mathrlap{\beta_1}}
+    \\
+    a_2
+    &\underset{h_2}{\to} &
+    b_2
+ \end{matrix}
+    $$
+    (note that they are not vertically composable!)
+
+* Let $K:B\to C$ be the double profunctor with
+  * Four heteromorphisms $k_0 :b_0 \to c_0$, $k_1 : b_1 \to c_1$, $k_1' : b_1' \to c_1'$, and $k_2 : b_2 \to c_2$.
+  * Composition action $\beta' ; k_1' = k_1$
+  * Two hetero-2-cells 
+    $$
+  \begin{matrix}
+    b_0
+    &\stackrel{k_0}{\to} &
+    c_0 
+    \\
+    {}^{\mathllap{\beta_0}}\downarrow
+    &\Downarrow^{\mathrlap{\kappa_0}}&
+    \downarrow^{\mathrlap{\gamma_0}}
+    \\
+    b_1
+    &\underset{k_1}{\to} &
+    c_1
+ \end{matrix}
+\qquad\text{and}\qquad
+  \begin{matrix}
+    b_1'
+    &\stackrel{k_1'}{\to} &
+    c_1
+    \\
+    {}^{\mathllap{\beta_1}}\downarrow
+    &\Downarrow^{\mathrlap{\kappa_1}}&
+    \downarrow^{\mathrlap{\gamma_1}}
+    \\
+    b_2
+    &\underset{k_2}{\to} &
+    c_2
+ \end{matrix}
+    $$
+    (also not vertically composable!)
+
+* Let $L:C\to D$ be the double profunctor with
+  * Two heteromorphisms $\ell_0 : c_0 \to d_0$ and $\ell_2 : c_2 \to d_2$.
+  * One hetero-2-cell
+    $$
+  \begin{matrix}
+    c_0
+    &\stackrel{\ell_0}{\to} &
+    d_0
+    \\
+    {}^{\mathllap{\gamma_0;\gamma_1}}\downarrow
+    &\Downarrow^{\mathrlap{\lambda}}&
+    \downarrow^{\mathrlap{\delta}}
+    \\
+    c_2
+    &\underset{\ell_2}{\to} &
+    d_2
+ \end{matrix}
+    $$
+
+Then in the composite $(H;K) : A\to C$, the composite hetero-2-cell $(\theta_0, \kappa_0)$ has vertical codomain $(h_1,k_1)$, while the composite hetero-2-cell $(\theta_1,\kappa_1)$ has vertical domain $(h_1',k_1')$.  But 
+
+$$(h_1,k_1) = (h_1, (\beta' ; h_1)) = ((h_1;\beta'),h_1) = (h_1',k_1').$$
+
+Thus, $(\theta_0, \kappa_0)$ and $(\theta_1,\kappa_1)$ are vertically composable in $(H;K)$, producing a hetero-cell from $\alpha_0;\alpha_1$ to $\gamma_0;\gamma_1$.  This can then be hetero-composed with $\lambda$ to produce a hetero-2-cell in $((H;K);L)$ from $\alpha_0;\alpha_1$ to $\delta$.
+
+However, there are no hetero-2-cells in $K$ that can be composed with $\lambda$ in $K;L$.  Thus, in $(H;(K;L))$ there is no hetero-2-cell from $\alpha_0;\alpha_1$ to $\delta$.  Therefore
+
+$$ ((H;K);L) \neq (H;(K;L)). $$
 
 ## References
 
