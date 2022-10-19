@@ -1,4 +1,4 @@
-The Peripatetic Seminar on Sheaves and Logic (mostly called PSLL) is an informal gathering of category theorists, type theorists and logicians that started in May 1976, when [[Dana Scott]] was a Professor in Oxford, UK.
+The Peripatetic Seminar on Sheaves and Logic (mostly called PSSL) is an informal gathering of category theorists, type theorists and logicians that started in May 1976, when [[Dana Scott]] was a Professor in Oxford, UK.
 
 The seminar has been very influential, but since it is has been always very informal, there are few sources of information on its contents over the years. The seminar used to meet three times a year, corresponding to the traditional terms in the academic calendar in the UK, but in recent years it has met less intensively. Over the COVID global pandemic it hasn't met at all.
 
