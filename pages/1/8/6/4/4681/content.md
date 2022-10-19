@@ -2,12 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Higher linear algebra
+#### Linear algebra
 +-- {: .hide}
-[[!include homotopy - contents]]
+[[!include higher linear algebra - contents]]
 =--
 =--
 =--
+
 
 # Contents
 * table of contents
@@ -17,7 +18,7 @@
 
 ### Discrete
 
-A __$K$-linear map__ (also __$K$-linear function__, __$K$-linear operator__, or __$K$-linear transformation__) is a [[morphism]] in $K$-[[Vect]] (or $K$-[[Mod]]), that is a [[homomorphism]] of [[vector spaces]] (or [[modules]]).  Often one suppresses mention of the [[field]] (or [[commutative ring]] or [[rig]]) $K$.
+A __$K$-linear map__ (also __$K$-linear function__, __$K$-[[linear operator]]__, or __$K$-linear transformation__) is a [[morphism]] in $K$-[[Vect]] (or $K$-[[Mod]]), that is a [[homomorphism]] of [[vector spaces]] (or [[modules]]).  Often one suppresses mention of the [[field]] (or [[commutative ring]] or [[rig]]) $K$.
 
 In elementary terms, a __$K$-linear map__ between $K$-[[linear spaces]] $V$ and $W$ is a [[function]] $T\colon V \to W$ such that
 $$ T(r x + y) = r T(x) + T(y) ,$$
@@ -28,7 +29,7 @@ for $x$ and $y$ elements of $V$ and $r$ an element of $K$.  (It is an easy exerc
 
 The [[morphisms]] between [[topological vector spaces]] are of course the [[continuous map|continuous]] linear maps.  Between [[Banach spaces]] (including of course [[Hilbert spaces]]), these are the same as the [[bounded map|bounded]] linear maps, so they\'re often called __[[bounded operators]]__ (with linearity tacitly assumed).
 
-In this context, __linear operators__ are more general; they are (in general) only [[partial functions]].  However, we still require the [[domain]] of the partial function to be a linear [[subspace]], after which the definition above applies.  Because one typically restricts attention to [[complete spaces]], the [[densely-defined operator]]s (where the domain is a [[dense subspace]]) are the most general needed.  To specify that the domain of a linear operator $T\colon V \to W$ is all of $V$, one may use a non-'operator' term, such as __linear mapping__.
+In this context, __[[linear operators]]__ are more general; they are (in general) only [[partial functions]].  However, we still require the [[domain]] of the partial function to be a linear [[subspace]], after which the definition above applies.  Because one typically restricts attention to [[complete spaces]], the [[densely-defined operator]]s (where the domain is a [[dense subspace]]) are the most general needed.  To specify that the domain of a linear operator $T\colon V \to W$ is all of $V$, one may use a non-'operator' term, such as __linear mapping__.
 
 Notice that we do *not* require partially-defined linear operators to be continuous; see [[unbounded operator]].  However, we have the theorem that any densely-defined, continuous, linear map $T\colon V \to W$, with $W$ [[complete space|complete]] and [[Hausdorff space|Hausdorff]], extends uniquely to all of $V$.  Thus one typically assumes that a continuous (or bounded) linear operator $T$ is defined on all of $V$ while an arbitrary linear operator $T$ is defined only on a dense subspace of $V$.
 
