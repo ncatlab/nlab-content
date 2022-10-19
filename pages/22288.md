@@ -29,7 +29,7 @@ and $Ind(\bar U\setminus U)\le n-1$.
 ## Properties
 
 The subspace theorem: for every subspace $M$ of a [[regular space]] $X$ we have $ind(M)\le ind(X)$.
-(Theorem 1.1.2 in \cite{Engelking95}.)
+(Theorem 1.1.2 in [Engelking95](#Engelking95).)
 
 ## Related concepts
 
