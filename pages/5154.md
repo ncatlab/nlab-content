@@ -228,10 +228,10 @@ is a [[Quillen equivalence]].
 
 ## Equivalence of model-categorical algebras and quasicategorical algebras
 
-The results of Lurie \cite{Lurie.HA}, Pavlov–Scholbach \cite{PavlovScholbach18}, and Haugseng \cite{Haugseng} establish an equivalence of [[quasicategories]] between the underlying quasicategory of the model category of algebras over an operad and the quasicategory of quasicategorical algebras over the underlying quasicategorical operad, provided some mild conditions are met.
+The results of [Lurie](#Lurie.HA), [Pavlov–Scholbach](#PavlovScholbach18), and [Haugseng](#Haugseng) establish an equivalence of [[quasicategories]] between the underlying quasicategory of the model category of algebras over an operad and the quasicategory of quasicategorical algebras over the underlying quasicategorical operad, provided some mild conditions are met.
 
 \begin{theorem}
-(Theorem 7.11 in Pavlov–Scholbach \cite{PavlovScholbach18}, Theorem 4.10 in Haugseng \cite{Haugseng}.)
+(Theorem 7.11 in [Pavlov–Scholbach](#PavlovScholbach18), Theorem 4.10 in [Haugseng](#Haugseng).)
 Suppose $V$ is a [[symmetric monoidal model category]] equipped with a subcategory $V^\flat$ of flat objects.
 Given a flat admissible Σ-cofibrant $V$-operad $O$,
 the canonical comparison functor
@@ -241,7 +241,7 @@ is an equivalence of [[quasicategories]].
 
 Here a full subcategory $V^\flat\subset V$
 is a __subcategory of flat objects__
-(Haugseng \cite{Haugseng}, Definition 4.1)
+([Haugseng](#Haugseng), Definition 4.1)
 if it contains all cofibrant objects of $V$,
 is closed under monoidal products,
 and tensoring a weak equivalence with an object
@@ -253,7 +253,7 @@ An operad is __admissible__ if the category of algebras admits a [[transferred m
 
 An operad $O$ is __Σ-cofibrant__ if the unit map $1\to O(1)$ is a cofibration and the object $O(n)$ is cofibrant in the projective model structure on $\Sigma_n$-objects in $V$.
 
-By Remark 4.9 in Haugseng \cite{Haugseng},
+By Remark 4.9 in [Haugseng](#Haugseng),
 a Σ-cofibrant operad is flat whenever the objects of unary endomorphisms $O(x,x)$ are flat.
 
 
@@ -457,7 +457,7 @@ On [[rectification]] of [[symmetric operad|symmetric]] [[colored operads]]:
 
 These are based on an earlier account by Lurie:
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_.
+* {#Lurie.HA} [[Jacob Lurie]], _[[Higher Algebra]]_.
 
 [[!redirects model structures on algebras over an operad]]
 
