@@ -216,6 +216,8 @@ For the corresponding [[Coq]] code  see
 
 * [[Vladimir Voevodsky]], _[Foundations/Generalities/uuo.v](https://github.com/vladimirias/Foundations/blob/master/Generalities/uu0.v)_
 
+See also at [[fiber type]]. 
+
 ## Long fibration sequences
 
 A crucial difference between $\infty$-categorical fibration sequences
