@@ -25,7 +25,7 @@ $$\mathbb{R}_{+} \coloneqq \{a \in \mathbb{R} \vert 0 \lt a\}$$
 
 be the positive elements in $\mathbb{R}$. A function $f:\mathbb{R} \to \mathbb{R}$ is __continuous at a point__ $c \in \mathbb{R}$ if 
 
-$$isContinuousAt(f, c) \coloneqq \forall \epsilon \in \mathbb{R}_{+}. \forall x \in \mathbb{R}. \exists \delta \in \mathbb{R}_{+}. (\vert x - c \vert \lt \delta) \to (\vert f(x) - f(c) \vert \lt \epsilon)$$
+$$isContinuousAt(f, c) \coloneqq \forall \epsilon \in \mathbb{R}_{+}. \exists \delta \in \mathbb{R}_{+}. \forall x \in \mathbb{R}. (\vert x - c \vert \lt \delta) \to (\vert f(x) - f(c) \vert \lt \epsilon)$$
 
 $f$ is __pointwise continuous__ in $\mathbb{R}$ if it is continuous at all points $c$:
 $$isPointwiseContinuous(f) \coloneqq \forall c \in \mathbb{R}. isContinuousAt(f, c)$$
