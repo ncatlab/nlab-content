@@ -39,14 +39,14 @@ is a localic map, i.e., it has a left adjoint that preserves finite meets.
 Thus, sublocales of $L$ can be defined as subsets $S$ of $L$
 such that $S$ is a [[locale]] once we equip it with the order induced from $L$,
 and the left adjoint to the inclusion $S\to L$ exists and preserves finite meets.
-(Proposition 2.2 in Picado and Pultr \cite{PP}.)
+(Proposition 2.2 in [Picado and Pultr](#PP).)
 
 (The inclusion $S\to L$ need not preserve joins, so in particular,
 the lattice structure on $S$ may be different from that of $L$,
 only the ordering is the same.)
 
 Equivalently, sublocales of $L$ can also be described
-(\cite[2.1]{PP}) as subsets $S$ of $L$
+([2.1](#PP)) as subsets $S$ of $L$
 that are closed under all meets and for any $s\in S$ and $x\in L$,
 we have $(x\to s)\in S$.
 
