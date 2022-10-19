@@ -273,8 +273,7 @@ Textbook account:
 
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Section 12.3 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
 
-* {#Grandis19} [[Marco Grandis]], [_Higher dimensional categories: from double to multiple categories_](https://doi.org/10.1142/11406), World Scientific, 2019
-
+* {#Grandis19} [[Marco Grandis]], _Higher dimensional categories: from double to multiple categories_, [World Scientific]((https://doi.org/10.1142/11406)), 2019
 
 See also:
 
@@ -314,6 +313,10 @@ Model structures on the category of double categories are discussed in:
 [[Fibrations]] of double categories, or _double fibrations_, are treated in 
 
 * [[Geoffrey Cruttwell]], Michael Lambert, [[Dorette Pronk]], Martin Szyld, _Double Fibrations_ ([arXiv:2205.15240](https://arxiv.org/abs/2205.15240)).
+
+A growing list of material about theory and applications of double categories:
+
+* Awesome Double Categories, ([github](https://github.com/mattecapu/awesome-double-categories))
 
 [[!redirects double categories]]
 [[!redirects double groupoid]]
