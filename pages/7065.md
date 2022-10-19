@@ -80,10 +80,10 @@ Elimination rules for isContr types:
 $$\frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \pi_1(z):A} \qquad \frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \pi_2(z):\mathrm{isProp}(A)}$$
 
 Computation rules for isContr types:
-$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b:\mathrm{isProp}(A)}{\Gamma \vdash \beta_{\times 1}:\pi_1(a, b) =_A a} \qquad \frac{\Gamma \vdash a:A \quad \Gamma \vdash b:\mathrm{isProp}(A)}{\Gamma \vdash \beta_{\times 2}:\pi_2(a, b) =_{\mathrm{isProp}(A)} b}$$
+$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b:\mathrm{isProp}(A)}{\Gamma \vdash \beta_{\mathrm{isContr} 1}:\pi_1(a, b) =_A a} \qquad \frac{\Gamma \vdash a:A \quad \Gamma \vdash b:\mathrm{isProp}(A)}{\Gamma \vdash \beta_{\mathrm{isContr} 2}:\pi_2(a, b) =_{\mathrm{isProp}(A)} b}$$
 
 Uniqueness rules for isContr types:
-$$\frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \eta_\times:z =_{\mathrm{isContr}(A)} (\pi_1(z), \pi_2(z))}$$
+$$\frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \eta_{\mathrm{isContr}}:z =_{\mathrm{isContr}(A)} (\pi_1(z), \pi_2(z))}$$
 
 Similarly, if the [[dependent type theory]] only has rules for [[identity types]] and [[contraction types]], which itself could be defined using only [[identity types]], one could likewise define isContr by adding the formation, introduction, elimination, computation, and uniqueness rules for isContr. 
 
@@ -97,10 +97,10 @@ Elimination rules for isContr types:
 $$\frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \pi_1(z):A} \qquad \frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \pi_2(z):\mathrm{Contr}_A(\pi_1(z))}$$
 
 Computation rules for isContr types:
-$$\frac{\Gamma, x:A \vdash b(x):\mathrm{Contr}_A(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{\Sigma 1}:\pi_1(a, b) =_A a} \qquad \frac{\Gamma, x:A \vdash b(x):\mathrm{Contr}_A(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{\Sigma 2}:\pi_2(a, b) =_{\mathrm{Contr}_A(a)} b}$$
+$$\frac{\Gamma, x:A \vdash b(x):\mathrm{Contr}_A(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{\mathrm{isContr} 1}:\pi_1(a, b) =_A a} \qquad \frac{\Gamma, x:A \vdash b(x):\mathrm{Contr}_A(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{\mathrm{isContr} 2}:\pi_2(a, b) =_{\mathrm{Contr}_A(a)} b}$$
 
 Uniqueness rules for isContr types:
-$$\frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \eta_\Sigma:z =_{\mathrm{isContr}(A)} (\pi_1(z), \pi_2(z))}$$
+$$\frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \eta_{\mathrm{isContr}}:z =_{\mathrm{isContr}(A)} (\pi_1(z), \pi_2(z))}$$
 
 ## Properties
 
