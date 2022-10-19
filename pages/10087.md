@@ -124,7 +124,7 @@ Reviews include
 
 Discussion in [[rational homotopy theory]] (for more see at _[[Sullivan model of a spherical fibration]]_):
 
-* {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]] and J.C. Thomas, p. 202 of _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000
+* {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]], [[Jean-Claude Thomas]], p. 202 of: _Rational Homotopy Theory_, Graduate Texts in Mathematics **205** Springer (2000)
 
 * {#MollerRaussen85} [[Jesper Møller]], [[Martin Raussen]], _Rational Homotopy of Spaces of Maps Into Spheres and Complex Projective Spaces_, Transactions of the American Mathematical Society Vol. 292, No. 2 (Dec., 1985), pp. 721-732 ([jstor:2000242 ](https://www.jstor.org/stable/2000242)) 
 
