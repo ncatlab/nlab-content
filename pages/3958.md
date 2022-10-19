@@ -351,11 +351,11 @@ For more see at _[[embedding of smooth manifolds into formal duals of R-algebras
 
 The original works include
 
-* Oswald Veblen and [[J.H.C. Whitehead]], _A set of axioms for differential geometry_, Proc. Natl. Acad. Sci. USA 17, 551-561 (1931)
+* {#VeblenWhitehead1931} Oswald Veblen and [[J.H.C. Whitehead]], _A set of axioms for differential geometry_, Proc. Natl. Acad. Sci. USA 17, 551-561 (1931)
 
-* Oswald Veblen and [[J.H.C. Whitehead]], _The foundations of differential geometry_, Camb. Tracts Math. Math. Phys. 29, Cambridge University Press, Cambridge (1932)
+* {#VeblenWhitehead1932} Oswald Veblen and [[J.H.C. Whitehead]], _The foundations of differential geometry_, Camb. Tracts Math. Math. Phys. 29, Cambridge University Press, Cambridge (1932)
 
-* Hassler [[Whitney]], _Differentiable manifolds_, Ann. Math. (2) 37, 645-680 (1936)
+* {#Whitney1936} Hassler [[Whitney]], _Differentiable manifolds_, Ann. Math. (2) 37, 645-680 (1936)
 
 
 Early account with an eye towards [[cobordism theory]] and the [[Pontrjagin-Thom isomorphism]]:
