@@ -22,6 +22,7 @@
 | [[universal quantification]] | [[dependent product]] | [[dependent product type]] |     
 | [[existential quantification]] | [[dependent sum]] ([[(-1)-truncation]] of) | [[dependent sum type]] ([[bracket type]] of) |
 | [[equivalence]] | [[path space object]] | [[identity type]]/[[path type]] |
+|  | [[propositional truncation object]] | [[propositional truncation]]/[[bracket type]]
 | [[equivalence class]] | [[quotient]] | [[quotient type]] |
 | [[induction]] | [[colimit]] | [[inductive type]], [[W-type]], [[M-type]] |
 | higher [[induction]] |  [[(infinity,1)-colimit|higher colimit]] | [[higher inductive type]] |
