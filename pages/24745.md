@@ -12,7 +12,7 @@
 
 ## Definition
 
-In a [[dependent type theory]] with [[function types]], [[dependent sum types]], and [[identity types]], the **type of fibers** of a function $f:A \to B$ over a term $b:B$ is defined to be the type
+In a [[dependent type theory]] with [[function types]], [[dependent sum types]], and [[identity types]], the **fiber** (or "fiber type") of a function $f:A \to B$ over a term $b:B$ is defined to be the type
 $$\mathrm{fiber}_{A, B}(f, b) \coloneqq \sum_{a : A} (f(a) = b)$$
 hence the [[dependent sum]] over $A$ of the [[identity type]] on $B$ with $f(a)$ and $b$ [[substitution|substituted]]. 
 
