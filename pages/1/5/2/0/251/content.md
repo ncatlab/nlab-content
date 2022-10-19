@@ -260,6 +260,8 @@ and $u$ is an equivalence in the vertical [[2-category]] of $A$.
 
 * [[triple category]], [[intercategory]]
 
+* [[applications of double category theory]]
+
 
 ## References ##
 
@@ -314,9 +316,6 @@ Model structures on the category of double categories are discussed in:
 
 * [[Geoffrey Cruttwell]], Michael Lambert, [[Dorette Pronk]], Martin Szyld, _Double Fibrations_ ([arXiv:2205.15240](https://arxiv.org/abs/2205.15240)).
 
-A growing list of material about theory and applications of double categories:
-
-* Awesome Double Categories, ([github](https://github.com/mattecapu/awesome-double-categories))
 
 [[!redirects double categories]]
 [[!redirects double groupoid]]
