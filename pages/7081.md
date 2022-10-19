@@ -121,6 +121,8 @@ in global context, which has a global element precisely when $isProp(A)\to B$ ha
 
 * **isProp**
 
+* [[center of contraction]]
+
 [[!include homotopy n-types - table]]
 
 
