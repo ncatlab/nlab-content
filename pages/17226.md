@@ -24,7 +24,7 @@ A [[generalized homology theory]] [[Brown representability theorem|represented]]
 
 ## Geometric model
 
-See Section 2 in Atiyah \cite{Atiyah}.
+See Section 2 in [Atiyah](#Atiyah).
 Atiyah's geometric model for bordism homology groups
 defines them as equivalence classes of maps of manifolds.
 
@@ -79,7 +79,7 @@ with the same properties as above.
 
 The original article introducing bordism as a [[Whitehead-generalized cohomology theory]]:
 
-* [[Michael Atiyah]], _Bordism and Cobordism_, Mathematical Proceedings of the Cambridge Philosophical Society, Volume 57, Issue 2, April 1961, pp. 200 - 208 ([doi:10.1017/S0305004100035064](https://doi.org/10.1017/S0305004100035064), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahb.pdf))
+* {#Atiyah} [[Michael Atiyah]], _Bordism and Cobordism_, Mathematical Proceedings of the Cambridge Philosophical Society, Volume 57, Issue 2, April 1961, pp. 200 - 208 ([doi:10.1017/S0305004100035064](https://doi.org/10.1017/S0305004100035064), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahb.pdf))
 
 Surveys:
 
