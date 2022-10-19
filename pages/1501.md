@@ -53,7 +53,7 @@ Furthermore, the unit of the adjunction is a strong monoidal [[fully faithful fu
 a fully faithful strong monoidal functor $C\to L(C)$,
 where $L(C)$ is a rigid monoidal category.
 
-See Theorems 1 and 2 in Delpeuch \cite{Delpeuch}.
+See Theorems 1 and 2 in [Delpeuch](#Delpeuch).
 
 ## References
 
