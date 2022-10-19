@@ -37,13 +37,7 @@ Definitional product extensionality holds in [[cubical type theory]] and [[highe
 
 \section{See also}
 
-* [[function extensionality]] (for functions)
-
-* [[universe extensionality]] (for small types)
-
-* [[propositional extensionality]] (for [[subsingletons]]/[[h-propositions]])
-
-* [[axiom of extensionality]] (for pure sets)
+* [[extensionality]]
 
 \section{References}
 
