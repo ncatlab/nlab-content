@@ -173,7 +173,7 @@ A complete cubical approach to algebraic topology at the border between homotopy
 The category of cubical sets with connections is a [[strict test category]]
 and therefore admits a [[cartesian model structure]]
 that is Quillen equivalent to the [[Kan–Quillen model structure]] on [[simplicial sets]].
-This was proved by [[Maltsiniotis]] \cite{Maltsiniotis}.
+This was proved by [Maltsiniotis](#Maltsiniotis).
 
 See also the article [[model structure on cubical sets]].
 
