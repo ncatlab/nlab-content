@@ -38,6 +38,8 @@ Note that we may prove, using the [[axiom of separation]] (bounded separation is
 
 ## See also
 
+* [[product extensionality]]
+
 * [[function extensionality]]
 
 * [[univalence]] (universe extensionality)
