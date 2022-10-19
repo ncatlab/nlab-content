@@ -48,9 +48,12 @@ lifting problems.
 ### Weak equivalences
 
 [[Simplicial weak equivalences]] must also be defined more carefully.
-
-We follow \cite{GambinoSattlerSzumilo19}.
 Suppose $f\colon X\to Y$ is a [[simplicial map]].
+
+We follow [GambinoSattlerSzumilo19](#GambinoSattlerSzumilo19).
+They give two (equivalent) definitions.
+
+In the first proof:
 
 * If $X$ and $Y$ are [[cofibrant]] [[Kan complexes]], then $f$ is a weak equivalence if it is a [[simplicial homotopy equivalence]];
 * If $X$ and $Y$ are [[Kan complexes]], then $f$ is a weak equivalence
@@ -59,6 +62,11 @@ if there is a [[simplicial map]] $f'\colon X'\to Y'$ and [[acyclic fibrations]] 
 if for any [[Kan complex]] $K$ the map $Hom(f,K)$ is a weak equivalence in the previous sense (notice that its domain and codomain are [[Kan complexes]]);
 * If $X$ and $Y$ are arbitrary, then $f$ is a weak equivalence
 if it has a replacement $f'\colon X'\to Y'$ like above, with $f'$ being a weak equivalence in the previous sense.
+
+In the second proof:
+
+* Within [[cofibrant]] simplicial sets, weak equivalences are those maps writing as an acyclic cofibration followed by an acyclic fibration.
+* In general, weak equivalences are defined via (strong) cofibrant replacement.
 
 ### Cofibrant objects
 
