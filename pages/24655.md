@@ -6,11 +6,12 @@ in
 
 * related notions: [[quiver with potential]], [[formal noncommutative symplectic geometry]]
 * R. Bocklandt, L. Le Bruyn, _Necklace Lie algebras and noncommutative symplectic geometry_, Math Z 240, 141–167 (2002) [doi](https://doi.org/10.1007/s002090100366)
-* Lieven Le Bruyn, <http://www.neverendingbooks.org/quiver-superpotentials>
+* [[Lieven Le Bruyn]], <http://www.neverendingbooks.org/quiver-superpotentials>
 * Wee Liang Gan, Travis Schedler, _The necklace Lie coalgebra and renormalization algebras_, J. Noncommut. Geom. 2 (2008) no. 2, 195--214 [doi](https://doi.org/10.4171/JNCG/19)
 
 Quantization of the necklace Lie bialgebra
 
-* Victor Ginzburg, Travis Schedler, _Moyal quantization of necklace Lie algebras_, [arXiv:0503405](https://arxiv.org/abs/math/0503405)
+* [[Victor Ginzburg]], [[Travis Schedler]], _Moyal quantization of necklace Lie algebras_, [arXiv:0503405](https://arxiv.org/abs/math/0503405)
+* T. Schedler, _A Hopf algebra quantizing a necklace Lie algebra canonically associated to a quiver_, Int. Math. Res. Not. 2005 (12) (2005) 725--760
 
 category: algebra
