@@ -266,10 +266,10 @@ Elimination rules for isContr types:
 $$\frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \pi_1(z):A} \qquad \frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \pi_2(z):\mathrm{isProp}(A)}$$
 
 Computation rules for isContr types:
-$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b:\mathrm{isProp}(A)}{\Gamma \vdash \beta_{\times 1}:\pi_1(a, b) =_A a} \qquad \frac{\Gamma \vdash a:A \quad \Gamma \vdash b:\mathrm{isProp}(A)}{\Gamma \vdash \beta_{\times 2}:\pi_2(a, b) =_{\mathrm{isProp}(A)} b}$$
+$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b:\mathrm{isProp}(A)}{\Gamma \vdash \beta_{\mathrm{isContr} 1}:\pi_1(a, b) =_A a} \qquad \frac{\Gamma \vdash a:A \quad \Gamma \vdash b:\mathrm{isProp}(A)}{\Gamma \vdash \beta_{\mathrm{isContr} 2}:\pi_2(a, b) =_{\mathrm{isProp}(A)} b}$$
 
 Uniqueness rules for isContr types:
-$$\frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \eta_\times:z =_{\mathrm{isContr}(A)} (\pi_1(z), \pi_2(z))}$$
+$$\frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \eta_{\mathrm{isContr}}:z =_{\mathrm{isContr}(A)} (\pi_1(z), \pi_2(z))}$$
 
 ### Fiber types
 
@@ -288,19 +288,50 @@ Elimination rules for fiber types:
 $$\frac{\Gamma, f:A \to B, y:B \vdash z:\mathrm{fiber}_{A, B}(f, y)}{\Gamma \vdash \pi_1(z):A} \qquad \frac{\Gamma, f:A \to B, y:B \vdash z:\mathrm{fiber}_{A, B}(f, y)}{\Gamma, f:A \to B, y:B \vdash \pi_2(z):f(\pi_1(z)) =_B y}$$
 
 Computation rules for fiber types:
-$$\frac{\Gamma, f:A \to B, y:B, x:A \vdash b(x):f(x) =_B b \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{\Sigma 1}:\pi_1(a, b) =_A a} \qquad \frac{\Gamma, f:A \to B, y:B, x:A \vdash b(x):f(x) =_B y \quad \Gamma \vdash a:A}{\Gamma, f:A \to B, y:B \vdash \beta_{\Sigma 2}:\pi_2(a, b) =_{f(\pi_1(a, b)) =_B y} b}$$
+$$\frac{\Gamma, f:A \to B, y:B, x:A \vdash b(x):f(x) =_B b \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{\mathrm{fiber}_{A, B} 1}:\pi_1(a, b) =_A a} \qquad \frac{\Gamma, f:A \to B, y:B, x:A \vdash b(x):f(x) =_B y \quad \Gamma \vdash a:A}{\Gamma, f:A \to B, y:B \vdash \beta_{\mathrm{fiber}_{A, B} 2}:\pi_2(a, b) =_{f(\pi_1(a, b)) =_B y} b}$$
 
 Uniqueness rules for fiber types:
-$$\frac{\Gamma, f:A \to B, y:B \vdash z:\mathrm{fiber}_{A, B}(f, y)}{\Gamma, f:A \to B, y:B \vdash \eta_\Sigma:z =_{\mathrm{fiber}_{A, B}(f, y)} (\pi_1(z), \pi_2(z))}$$
+$$\frac{\Gamma, f:A \to B, y:B \vdash z:\mathrm{fiber}_{A, B}(f, y)}{\Gamma, f:A \to B, y:B \vdash \eta_{\mathrm{fiber}_{A, B}}:z =_{\mathrm{fiber}_{A, B}(f, y)} (\pi_1(z), \pi_2(z))}$$
 
-### Equivalences
+### isEquiv types
 
-In set theory, a function is a [[bijection]] if all its fibers at every element of the codomain are singletons. This definition can be translated over to objective type theory, but the name used for such a function in objective type theory is [[equivalence in homotopy type theory|equivalence]]: A function $f:A \to B$ is an equivalence if there is an element
-$$c(f):\prod_{b:B} \mathrm{isContr}(\mathrm{fiber}_{A, B}(f, b))$$
+In set theory, a function is a [[bijection]] if all its fibers at every element of the codomain are singletons. This definition can be translated over to objective type theory, but the name used for such a function in objective type theory is [[equivalence in homotopy type theory|equivalence]]. 
 
-The type of equivalences is given by 
+This motivates the definition of the isEquiv type family, whose elements $p:\mathrm{isEquiv}_{A, B}(f)$ witnesses that the function $f:A \to B$ is an equivalence. 
 
-$$\sum_{f:A \to B} \prod_{b:B} \mathrm{isContr}(\mathrm{fiber}_{A, B}(f, b))$$
+Formation rules for isEquiv types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B, y:B \vdash \mathrm{isContr}(\mathrm{fiber}_{A, B}(f, y)) \; \mathrm{type}}{\Gamma \vdash \mathrm{isEquiv}_{A, B}(f) \; \mathrm{type}}$$
+
+Introduction rules for isEquiv types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B, y:B \vdash b(y):\mathrm{isContr}(\mathrm{fiber}_{A, B}(f, y))}{\Gamma, f:A \to B \vdash \lambda x.b(x):\mathrm{isEquiv}_{A, B}(f)}$$
+
+Elimination rules for isEquiv types:
+$$\frac{\Gamma, f:A \to B \vdash p:\mathrm{isEquiv}_{A, B}(f) \quad \Gamma \vdash c:B}{\Gamma, f:A \to B \vdash p(a):\mathrm{isEquiv}_{A, B}(f)(c)}$$
+
+Computation rules for isEquiv types:
+$$\frac{\Gamma, f:A \to B, y:B \vdash b(y):\mathrm{isContr}(\mathrm{fiber}_{A, B}(f, y)) \quad \Gamma \vdash c:B}{\Gamma, f:A \to B \vdash \beta_\mathrm{isEquiv}:\lambda x.b(x)(c) =_{\mathrm{isContr}(\mathrm{fiber}_{A, B}(f, c))} b(c)}$$
+
+Uniqueness rules for isEquiv types:
+$$\frac{\Gamma, f:A \to B \vdash p:\mathrm{isEquiv}_{A, B}(f)}{\Gamma, f:A \to B \vdash \eta_\mathrm{isEquiv}:p =_{\mathrm{isEquiv}_{A, B}(f)} \lambda(x).p(x)}$$
+
+### Equivalence types
+
+The type of equivalences is given by the following rules
+
+Formation rules for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \vdash \mathrm{isEquiv}(f) \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
+
+Introduction rules for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \vdash p(f):\mathrm{isEquiv}(f) \quad \Gamma \vdash g:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}[g/f]}{\Gamma \vdash (g, p):A \simeq B}$$
+
+Elimination rules for equivalence types:
+$$\frac{\Gamma \vdash h:A \simeq B}{\Gamma \vdash \pi_1(h):A \to B} \qquad \frac{\Gamma \vdash h:A \simeq B}{\Gamma \vdash \pi_2(h):\mathrm{isEquiv}(\pi_1(h))}$$
+
+Computation rules for equivalence types:
+$$\frac{\Gamma, f:A \to B \vdash p(f):\mathrm{isEquiv}(f) \quad \Gamma \vdash g:A \to B}{\Gamma \vdash \beta_{\simeq 1}:\pi_1(g, p) =_{A \to B} g} \qquad \frac{\Gamma, f:A \to B \vdash p:\mathrm{isEquiv} \quad \Gamma \vdash g:A \to B}{\Gamma \vdash \beta_{\simeq 2}:\pi_2(g, p) =_{\mathrm{isEquiv}(\pi_1(g, p))} p}$$
+
+Uniqueness rules for equivalence types:
+$$\frac{\Gamma \vdash h:A \simeq B}{\Gamma \vdash \eta_\simeq:h =_{A \simeq B} (\pi_1(h), \pi_2(h))}$$
 
 ### Definitions
 
@@ -317,13 +348,9 @@ $$\frac{\mathcal{D}}{\Gamma \vdash A \; \mathrm{type}}$$
 if we wish to make a definition $B \coloneqq A$, then we can similarly extend the derivation tree with 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash B \coloneqq A \; \mathrm{type}}$$
 The effect of such a definition in this case is that we have extended our type theory with a new constant $B$, for which the following inference rules are valid 
-$$\frac{\mathcal{D}}{B \; \mathrm{type}} \qquad \frac{\mathcal{D}}{\mathrm{defequiv}(B, A): \sum_{f:B \to A} \prod_{a:A} \mathrm{isContr}(\mathrm{fiber}_{A, B}(f, b))}$$
+$$\frac{\mathcal{D}}{B \; \mathrm{type}} \qquad \frac{\mathcal{D}}{\mathrm{defequiv}(B, A): B \simeq A}$$
 
 In essence, we define an element $b$ to be equal to $a$, and a type $B$ to be equivalent to $A$, in the same way that in [[structural set theory]], which usually also doesn't have [[definitional equality]], one would define element $b$ to be equal to $a$ and set $B$ to be in [[bijection]] with $A$. 
-
-This allows us to define and use constants for certain long and unwieldy types, such as the type of equivalences defined in the previous section:
-
-$$A \simeq B \coloneqq \sum_{f:A \to B} \prod_{b:B} \mathrm{isContr}(\mathrm{fiber}_{A, B}(f, b))$$
 
 ### Transport
 
