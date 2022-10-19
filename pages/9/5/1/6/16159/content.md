@@ -76,6 +76,9 @@ $$
   \,.
 $$
 
+## See also
+
+* [[extensionality]]
 
 
 ## References
