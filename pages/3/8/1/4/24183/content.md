@@ -1,5 +1,4 @@
 
-
 ### Anyonic topological order in terms of braided fusion categories
  {#AnyonicTopologicalOrderInTermsOfBraidedFusionCategoriesReferences}
 
@@ -42,6 +41,11 @@ Emphasis that the expected description of [[anyons]] by [[braided fusion categor
 Exposition and review:
 
 * [[Sachin Valera]], *A Quick Introduction to the Algebraic Theory of Anyons*, talk at *[[CQTS]] Inituial Researcher Meeting* (Sep 2022) $[$[[CQTS-InitialResearcherMeeting-Valera-220914.pdf:file]]$]$
+
+See also:
+
+* [[Liang Kong]], *Topological Wick Rotation and Holographic Dualities*, talk at [[CQTS]] (Oct 2022) $[$[[Kong-TalkAtCQTS-20221019.pdf:file]]$]$
+
 
 An argument that the statement at least for [[SU(2)-anyons]] does follow from an enhancement of the [[K-theory classification of topological phases of matter]] to interacting [[topological order]]:
 
