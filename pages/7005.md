@@ -48,9 +48,9 @@ A universe $U$ is **univalent** if for all $A,B:U$ there are rules
 
 $$\frac{R:A \simeq_U B}{\Delta R:\mathrm{id}_U(A, B)} \qquad \frac{P:\mathrm{id}_U(A, B)}{\nabla P:A \simeq_U B} \qquad \frac{R:A \simeq_U B}{\nabla \Delta R \equiv R}$$
 
-### In intensional type theory
+### In dependent type theory
 
-A universe $U$ is **univalent** if for all $A,B:U$, the map
+In any [[dependent type theory]] whose universes $U$ are closed under [[identity types]], [[isProp]], [[isContr]], [[function types]], [[fiber types]], [[isEquiv]], and [[types of equivalences]], a universe $U$ is **univalent** if for all $A,B:U$, the map
 
 $$ (A=_U B) \to (A\simeq_U B) $$
 
