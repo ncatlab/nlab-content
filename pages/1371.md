@@ -39,9 +39,8 @@ $$S \to \tilde N(R(\mathfrak{C}(S)))$$
 is a [[model structure for quasi-categories|categorical equivalence]] of simplicial sets,
 where $R$ denotes the [[fibrant replacement]] functor in the [[Dwyer–Kan–Bergner model structure]].
 
-For more details, see, for example, \cite[§7.8]{Bergner}
-or Dugger–Spivak \cite{DuggerSpivak.Rigidification},
-\cite{DuggerSpivak.Mapping}.
+For more details, see, for example, [§7.8](#Bergner)
+or [Dugger–Spivak](#DuggerSpivak.Rigidification), or [Dugger-Spivak](#DuggerSpivak.Mapping).
 
 
 ## Relations
