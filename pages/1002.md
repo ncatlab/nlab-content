@@ -57,7 +57,7 @@ This gives one universal characterization of the ultrafilter endofunctor. This t
 ### Ultrafilters and presheaves
 
 \begin{theorem}
-(Garner, 2018, \cite{Garner}.)
+([Garner, 2018](#Garner).)
 The category of [[endofunctors]] $Set \to Set$ that preserve [[finite coproducts]]
 is equivalent to the category of [[presheaves]] of sets on the Blass category $U F$ of ultrafilters.
 The ultrapower functor with respect to an ultrafilter $U$
@@ -200,7 +200,7 @@ If $X$ is an [[infinite set]] of cardinality $\kappa$, then the number of ultraf
 
 * H. Volger, _Ultrafilters, ultrapowers and finiteness in a topos_, JPAA **6** (1975) pp.345-356.
 
-* [[Richard Garner]], _Ultrafilters, finite coproducts and locally connected classifying toposes_. [arXiv:1808.08687](https://arxiv.org/abs/1808.08687).
+* {#Garner} [[Richard Garner]], _Ultrafilters, finite coproducts and locally connected classifying toposes_. [arXiv:1808.08687](https://arxiv.org/abs/1808.08687).
 
 * Jirí Adámek, Lurdes Sousa, _D-Ultrafilters and their Monads_. [arxiv:1909.04950](https://arxiv.org/abs/1909.04950).
 
