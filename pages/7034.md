@@ -151,6 +151,8 @@ Discussion of this in the more general context of truncations is in
 
 [[!redirects propositional truncation]]
 [[!redirects propositional truncations]]
+[[!redirects propositionally truncated]
 [[!redirects squash type]]
 [[!redirects squash types]]
 [[!redirects isInhab]]
+
