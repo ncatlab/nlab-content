@@ -178,6 +178,8 @@ For $\mathcal{C} =$ [[Top]], the coequalizer of two [[continuous functions]] $f$
 
 * [[regular epimorphism]]
 
+* [[propositional truncation object]]
+
 ## References
 
 Coequalizers were defined in the paper
