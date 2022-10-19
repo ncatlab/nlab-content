@@ -114,7 +114,7 @@ Every [[first countable space]] is a compactly generated space.
 +-- {: .proof}
 ###### Proof idea
 
-Since the topology is determined by convergent sequences = maps from one-point [[compactification]] $\mathbb{N} \cup \{\infty\}$); these include all Fr&#233;chet spaces.
+Since the topology is determined by convergent sequences = maps from one-point [[compactification]] $\mathbb{N} \cup \{\infty\}$); these include all [[Frechet–Uryson spaces]].
 
 =-- 
 
