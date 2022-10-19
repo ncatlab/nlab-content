@@ -103,7 +103,7 @@ Expressed in the opposite category of [[frames]],
 there are several pointfree analogues of bitopological spaces:
 [[D-frames]], [[biframes]], and [[finitary biframes]].
 The latter has the best properties of all three.
-For an overview, see Suarez \cite{Suarez}.
+For an overview, see [Suarez](#Suarez).
 
 ## Related Articles
 
@@ -153,7 +153,7 @@ Stone duality for bitopological spaces with applications to domain theory is stu
 
 The pointfree analogues of bitopoligal spaces are reviewed in
 
-* Anna Laura Suarez,
+* {#Suarez} Anna Laura Suarez,
 _The category of finitary biframes as the category of pointfree bispaces_,
 [arXiv:2010.04622](https://arxiv.org/abs/2010.04622).
 
