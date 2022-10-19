@@ -44,3 +44,9 @@ Definitional product extensionality holds in [[cubical type theory]] and [[highe
 * [[propositional extensionality]] (for [[subsingletons]]/[[h-propositions]])
 
 * [[axiom of extensionality]] (for pure sets)
+
+\section{References}
+
+For definitional product extensionality in higher observational type theory, see
+
+* [[Mike Shulman]], *Towards a Third-Generation HOTT Part 1* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA))
