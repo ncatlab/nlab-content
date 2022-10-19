@@ -4,7 +4,7 @@
 ### Context
 #### Linear algebra
 +-- {: .hide}
-[[!include homotopy - contents]]
+[[!include higher linear algebra - contents]]
 =--
 =--
 =--
