@@ -11,6 +11,12 @@ The term "support" means different things in different parts of mathematics:
 
 Given $f \colon X \to A$ a [[function]] to  $A$ a [[pointed object]] with the point playing the role of a [[zero]] [[generalized element|element]], then the _support_ of $f$ is the [[subobject]] of $X$ on which $f$ is non-zero.
 
+### In category theory
+
+The [[support object]] of an [[object]] $A$ of a [[category]] is the [[image]] of its map to the [[terminal object]].
+
+In the [[internal logic]] of a category, this corresponds to the [[propositional truncation]].
+
 ### In topology
  {#InTopology}
 
@@ -36,9 +42,6 @@ If $Supp(f) \subset X$ is a [[compact subspace]], then one says that $f$ has _[[
 
 * [[spacetime support]]
 
-### In topos theory and type theory
-
-support = [[n-truncated object in an (infinity,1)-category|(-1)-truncation]]
 
 ## Related concepts
 
