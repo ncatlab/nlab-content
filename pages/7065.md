@@ -66,6 +66,25 @@ $$\mathrm{evpt}(a):\left(\prod_{x:A} B(x)\right) \to B(a)$$
 has a [[section]]. A **contractible type** is a pointed type which satisfies singleton induction. 
 \end{definition}
 
+### Rules for isContr
+
+If the [[dependent type theory]] only has rules for [[identity types]] and [[isProp]], which itself could be defined using only [[identity types]], one could still define isContr by adding the formation, introduction, elimination, computation, and uniqueness rules for isContr. 
+
+Formation rules for isContr types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}}{\Gamma \vdash \mathrm{isContr}(A) \; \mathrm{type}}$$
+
+Introduction rules for isContr types:
+$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b:\mathrm{isProp}(A)}{\Gamma \vdash (a, b):\mathrm{isContr}(A)}$$
+
+Elimination rules for isContr types:
+$$\frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \pi_1(z):A} \qquad \frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \pi_2(z):\mathrm{isProp}(A)}$$
+
+Computation rules for isContr types:
+$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b:\mathrm{isProp}(A)}{\Gamma \vdash \beta_{\times 1}:\pi_1(a, b) =_A a} \qquad \frac{\Gamma \vdash a:A \quad \Gamma \vdash b:\mathrm{isProp}(A)}{\Gamma \vdash \beta_{\times 2}:\pi_2(a, b) =_{\mathrm{isProp}(A)} b}$$
+
+Uniqueness rules for isContr types:
+$$\frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \eta_\times:z =_{\mathrm{isContr}(A)} (\pi_1(z), \pi_2(z))}$$
+
 ## Properties
 
 \begin{proposition}
