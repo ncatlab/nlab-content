@@ -32,7 +32,7 @@ In this article, we create a model of dependent type theory where the full [[pro
 
 \section{Presentation}
 
-The type theory we shall be presenting here is the [[objective type theory]] version of [[dependent type theory]], because the lack of [[definitional equality]] means that the theory is both simpler, and behaves more like traditional [[propositional logic]], which usually doesn't have definitional equality. 
+The type theory we shall be presenting here is similar to [[objective type theory]] of [[Benno van den Berg]] and [[Martijn den Besten]], in that it doesn't have [[definitional equality]]. The lack of [[definitional equality]] means that the theory is both simpler, and behaves more like traditional [[propositional logic]], which usually doesn't have definitional equality. 
 
 \subsection{Judgments and contexts}
 
@@ -60,28 +60,26 @@ $$\frac{\Gamma \vdash a:A \quad \Gamma, b:A, \Delta \vdash \mathcal{J}}{\Gamma, 
 
 The weakening and substitution rules are admissible rules: they do not need to be explicitly included in the type theory as they could be proven by induction on the structure of all possible derivations. 
 
-\subsection{Predicates and dependent proof}
+\subsection{Dependent propositipn and dependent proof}
 
-A [[predicate]] is a proposition $B$ in the context of the variable judgment $x:A$, $x:A \vdash B \; \mathrm{prop}$, they are usually written as $B(x)$ to indicate its dependence upon $x$. 
+A dependent proposition is a proposition $B$ in the context of the variable judgment $x:A$, $x:A \vdash B \; \mathrm{prop}$, they are usually written as $B(x)$ to indicate its dependence upon $x$. 
 
 A dependent proof is a proof $b:B$ in the context of the variable judgment $x:A$, $x:A \vdash b:B$. dependent proofs are likewise usually written as $b(x)$ to indicate its dependence upon $x$. 
 
-\subsection{Equality}
+\subsection{Equality of proofs}
 
-Equality of proofs of a proposition is represented by a proposition known as the **equality predicate**. The elements of the equality predicate are called **equalities**. 
+Equality of proofs of a proposition is represented by a proposition. Equality of proofs comes with a formation rule, an introduction rule, an elimination rule, and a computation rule:
 
-Equality comes with a formation rule, an introduction rule, an elimination rule, and a computation rule:
-
-Formation rule for the equality predicate:
+Formation rule for equality of proofs:
 $$\frac{\Gamma \vdash A \; \mathrm{prop}}{\Gamma, a:A, b:A \vdash a =_A b \; \mathrm{prop}}$$
 
-Introduction rule for the equality predicate:
+Introduction rule for equality of proofs:
 $$\frac{\Gamma \vdash A \; \mathrm{prop}}{\Gamma, a:A \vdash \mathrm{refl}_A(a) : a =_A a}$$
 
-Elimination rule for the equality predicate:
+Elimination rule for equality of proofs:
 $$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C(a, b, p) \; \mathrm{prop} \quad \Gamma, a:A \vdash t:C(a, a, \mathrm{refl}_A(a))}{\Gamma, a:A, b:A, p:a =_A b \vdash J(t, a, b, p):C(a, b, p)}$$
 
-Computation rules for the equality predicate:
+Computation rules for equality of proofs:
 $$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C(a, b, p) \; \mathrm{prop} \quad \Gamma, a:A \vdash t:C(a, a, \mathrm{refl}_A(a))}{\Gamma, a:A, b:A, p:a =_A b \vdash \beta_{=_A}(a) : J(t, a, a, \mathrm{refl}(a)) =_{C(a, a, \mathrm{refl}_A(a))} t}$$
 
 \subsection{Propositional truncation}
@@ -211,6 +209,6 @@ $$\frac{\Gamma \vdash A \; \mathrm{prop}}{\Gamma \vdash \mathrm{lem}_A:A \vee \n
 * [[propositions as types]]
 * [[h-proposition]]
 
-\section{References}
+\section{Bibliography}
 
 * [[Benno van den Berg]], [[Martijn den Besten]], *Quadratic type checking for objective type theory* ([arXiv:2102.00905](https://arxiv.org/abs/2102.00905))
