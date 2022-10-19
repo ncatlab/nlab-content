@@ -74,7 +74,7 @@ Between continuous lattices, we may use the same morphisms; or we may more gener
 
 ## Examples
 
-* A [[locale]] is called [[locally compact locale|locally compact]] just when the coressponding [[frame]] is a continuous lattice. This is equivalently to being an [[exponentiable object|exponentiable]] in the [[category of locales]]. A [[continuous map]] between such locales is [[proper map|proper]] iff its [[direct image]] function (which is always an [[inflattice]] morphism) is [[Scott topology|Scott-continuous]].
+* A [[locale]] is called [[locally compact locale|locally compact]] just when the corresponding [[frame]] is a continuous lattice. This is equivalently to being an [[exponentiable object|exponentiable]] in the [[category of locales]]. A [[continuous map]] between such locales is [[proper map|proper]] iff its [[direct image]] function (which is always an [[inflattice]] morphism) is [[Scott topology|Scott-continuous]].
 
 * As a consequence the [[category of open subsets|lattice of open subsets]] of a topological space is a continuous lattice if and only if the [[sobrification]] of the topological space is [[locally compact]] (i.e. the topology has a basis of compact neighborhoods).
 
