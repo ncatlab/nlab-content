@@ -26,7 +26,7 @@ The _equivariant triangulation theorem_ ([Illman 78](#Illman78), [Illman 83](#Il
 
 Moreover, if the manifold does have a [[manifold with boundary|boundary]], then its G-CW complex may be chosen such that the boundary is a G-subcomplex. ([Illman 83, last sentence above theorem 7.1](#Illman83))
 
-These results continue to hold when $G$ is not [[compact]], see \cite{Illman00}.
+These results continue to hold when $G$ is not [[compact]], see [Illman00](#Illman00).
 
 ## Applications
 
