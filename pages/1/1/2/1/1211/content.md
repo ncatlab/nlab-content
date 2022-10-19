@@ -64,6 +64,13 @@ Finsler and Scott extensionality may be understood as special cases of this for 
 
 In particular, strong extensionality implies Scott extensionality, and the converse holds for well-founded relations.  Thus, all forms of extensionality are equivalent for well-founded relations.
 
+### In homotopy type theory
+
+In [[homotopy type theory]], an [[h-proposition]]-valued binary [[type family]] $\prec$ on a carrier type $S$ is **weakly extensional** if for all terms $a:S$ and $b:S$ the canonical function
+
+$$\mathrm{idtoextcond}(a, b):(a =_S b) \to \prod_{c:S} (c \prec a) \simeq (c \prec b)$$
+
+is an [[equivalence of types]]. This implies that the type $S$ is an [[h-set]]. 
 
 ## Examples
 
@@ -109,6 +116,9 @@ Thus, we have a (large) [[poset]] of sets equipped with extensional relations, a
 
 *  Peter Aczel; [Non-Well-Founded Sets](http://standish.stanford.edu/pdf/00000056.pdf), especially Chapter 4.
 
+For extensional relations in [[homotopy type theory]], see
+
+* [[Håkon Robbestad Gylterud]], [[Elisabeth Bonnevier]], *Non-wellfounded sets in HoTT* ([arXiv:2001.06696](https://arxiv.org/abs/2001.06696))
 
 [[!redirects extensional relation]]
 [[!redirects extensional relations]]
