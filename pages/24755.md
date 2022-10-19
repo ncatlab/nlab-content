@@ -14,7 +14,7 @@
 
 ## Idea
 
-The instantiation of a [[coequalizer]] as a type in [[dependent type theory]]
+The instantiation of a [[coequalizer]] as a type in [[dependent type theory]].
 
 ## Definition
 
@@ -26,7 +26,7 @@ $$glue \colon \prod_{x:A}in(f(x)) =_{\mathrm{coeq}_{A,B}(f, g)} in(g(x))$$
 
 ## Examples
 
-The [[propositional truncation]] of a type $A$ is the coequalizer of the two product projection functions $\pi_1:A \times A \to A$ and $\pi_2:A \times A \to A$ of the product type $A \times A$
+The [[propositional truncation]] of a [[h-set]] $A$ is the coequalizer of the two product projection functions $\pi_1:A \times A \to A$ and $\pi_2:A \times A \to A$ of the product type $A \times A$
 
 $$[A] \coloneqq \mathrm{coeq}_{A \times A,A}(\pi_1, \pi_2)$$
 
