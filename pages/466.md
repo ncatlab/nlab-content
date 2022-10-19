@@ -210,7 +210,7 @@ $$hom_{\mathit{Set}^{A^{op}}}(\mathbf{y}a,\mathbf{y}b) \cong \mathbf{y} b(a) \eq
 
 It is easy to check that this isomorphism is in fact the action of $\mathbf{y}$ on hom-sets. $\square$ 
 
-## Corollaries
+## Corollaries {#YonedaCorollaries}
 
 The Yoneda lemma has the following direct consequences. As the Yoneda lemma itself, these are as easily established as they are useful and important.
 
