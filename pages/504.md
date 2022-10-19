@@ -5,6 +5,11 @@ Since [[Set]] is a [[balanced category]], bijections can also be characterized a
 
 In older literature, a bijection may be called a __one-to-one correspondence__, or (as a compromise) __bijective correspondence__.
 
+## See also
+
+* [[equivalence of types]]
+
+[[!include types and logic - table]]
 
 [[!redirects bijective]]
 [[!redirects bijection]]
