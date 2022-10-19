@@ -35,17 +35,17 @@ The variable $A$ is indexed over all overlapping partitions of $\{0,\ldots,p\}$ 
 
 Here
 $$\epsilon(f,A)=\sum_{j\lt j',f(j)\gt f(j')}dim(A_j)dim(A_{j'})+\sum_{1\le j\le m}dim(A_j)(\tau_f(j)-f(j)),$$
-(Definition 2.9 in \cite{Cochain})
+(Definition 2.9 in [Cochain](#Cochain))
 where
 $$\tau_f(j)=card\{j'\in\{1,\ldots,m\}\mid f(j')\lt f(j) or f(j')=f(j) and j'\le j\}$$
-(Definition 2.7 in \cite{Cochain}).
+(Definition 2.7 in [Cochain](#Cochain)).
 Also, $dim(B)=card(B)-1$ denotes the dimension of the simplex with the set of vertices $B$
-(Notation 2.6 in \cite{Cochain}).
+(Notation 2.6 in [Cochain](#Cochain)).
 
 We are now ready to define generalized cup products.
 
 \begin{definition}
-(See Definition 2.10(b) in \cite{Cochain}.)
+(See Definition 2.10(b) in [Cochain](#Cochain).)
 Given a surjection $f\colon \{1,\ldots,m\}\to\{1,\ldots,k\}$,
 the natural transformation
 $$\langle f\rangle=\cup_f\colon (C^*(X))^{\otimes k}\to C^*(X)$$
@@ -54,14 +54,14 @@ $$\langle f\rangle(x_1\otimes\cdots\otimes x_k)(\sigma)=(-1)^{m-k}(x_1\otimes\cd
 \end{definition}
 
 \begin{remark}
-(See Lemma 2.12, Definition 2.13, and Definition 2.14 in \cite{Cochain}.)
+(See Lemma 2.12, Definition 2.13, and Definition 2.14 in [Cochain](#Cochain).)
 If $f(l)=f(l+1)$ for some $1\le l\lt m$, then $\langle f\rangle=0$.
 Thus, in the [[sequence operad]] such degenerate operations must be modded out.
 The remaining operations form a basis of the [[sequence operad]].
 \end{remark}
 
 \begin{remark}
-(See Remark 2.11 in \cite{Cochain}.)
+(See Remark 2.11 in [Cochain](#Cochain).)
 If $k=2$, we recover the traditional cup-$i$ products $\cup_i$ defined by Steenrod as follows.
 Define $f\colon\{1,\ldots,m\}\to\{1,2\}$
 to be the function with alternating values 1, 2, 1, 2, …
