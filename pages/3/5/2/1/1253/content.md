@@ -36,6 +36,11 @@ Here we define two sets to be equal if they have the same members.
 
 Note that we may prove, using the [[axiom of separation]] (bounded separation is enough), the converse: two sets must be equal if they are members of the same sets (as long as we have something, such as the [[axiom of pairing]] or [[axiom of power sets|power sets]], to guarantee that each set is a member of some set).
 
+## See also
+
+* [[function extensionality]]
+
+* [[univalence]] (universe extensionality)
 
 category: foundational axiom
 
