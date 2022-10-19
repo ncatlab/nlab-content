@@ -63,12 +63,12 @@ The last condition is the one saying that "the induced topology is again the top
 
 ### Entourage uniformities
 
-An __entourage__ (Picado and Pultr, Section XII.1.1)
+An __entourage__ ([Picado and Pultr](#PP), Section XII.1.1)
 is an open part $E\in Op(X\times X)$
 such that $\{u\in Op(X)\mid u\times u\le E\}$
 is an open cover of $X$.
 
-An **entourage uniformity** (Picado and Pultr, Section XII.2.3) on a locale $X$ is a collection of [[entourages]] such that:
+An **entourage uniformity** ([Picado and Pultr](#PP), Section XII.2.3) on a locale $X$ is a collection of [[entourages]] such that:
 
 1. If $E$ is an entourage and $E\subseteq F$, then $F$ is also an entourage.
 
@@ -101,7 +101,7 @@ out of it by taking all entourages $E$ that contain some $E_{U^i}$.
 
 ### Equivalence between covering uniformities and entourage uniformities
 
-Theorem XII.3.3.4 in Picado and Pultr shows that the above correspondence is bijective.  Furthermore, the categories of entourage uniform locales
+Theorem XII.3.3.4 in [Picado and Pultr](#PP) shows that the above correspondence is bijective.  Furthermore, the categories of entourage uniform locales
 and covering uniform locales are equivalent (Corollary XII.3.4.3 in the cited book).  However, since their book uses [[classical logic]] throughout, it is not entirely clear whether the same equivalence holds constructively.
 
 ## Properties
@@ -109,7 +109,7 @@ and covering uniform locales are equivalent (Corollary XII.3.4.3 in the cited bo
 ### Uniformizability
 
 A [[locale]] admits a uniformity if and only if it is [[completely regular]]
-(\cite[Theorem 2.8.2]{PP}).
+([Picado-Pultr, Theorem 2.8.2](#PP)).
 
 ### Fine uniformity
 
