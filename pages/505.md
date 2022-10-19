@@ -9,6 +9,10 @@ Sometimes a slightly different convention is used: There what we call subsinglet
 
 =--
 
+## See also
+
+* [[h-proposition]]
+
 [[!redirects subsingleton]]
 [[!redirects subsingletons]]
 [[!redirects subterminal]]
