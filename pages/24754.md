@@ -51,6 +51,8 @@ $$\array{
 * [[coequalizer]]
 * [[propositional truncation]]
 
+* [[inhabited object]]
+
 [[!include types and logic - table]]
 
 [[!redirects support object]]
