@@ -14,7 +14,7 @@ As such, geometric class field theory has become part of the [[geometric Langlan
 
 A brief survey of classical results is in 
 
-* [[Brian Conrad]], _Geometric global class field theory_ ([pdf](http://math.stanford.edu/~conrad/249BPage/handouts/geomcft.pdf))
+* [[Brian Conrad]], _Geometric global class field theory_ ([pdf](https://math.stanford.edu/%7Econrad/249BW09Page/handouts/geomcft.pdf))
 
 A fairly comprehensive review of the theory is in the thesis
 
