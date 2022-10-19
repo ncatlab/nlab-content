@@ -24,7 +24,7 @@ is a complete augmented algebra, since it is the completion of the algebra
 of noncommutative polynomials in the same variables.
 Such algebras are precisely the [[projective objects]]
 in the category of complete augmented algebras.
-(Corollary A.1.9 in Quillen \cite{Quillen}.)
+(Corollary A.1.9 in [Quillen](#Quillen).)
 
 The [[quotient]] $R/J$ of a complete augmentation algebra $R$ by a closed ideal $J$
 such that the [[augmentation map]] vanishes on $J$
@@ -34,16 +34,16 @@ is again a complete augmented algebra.
 
 Any complete augmented algebra is a [[quotient]] of the algebra of [[noncommutative formal power series]] by a closed [[ideal]].
 The quotient map can be chosen to induce an isomorphism of [[associated graded algebras]] in degree 1.
-(Corollary A.1.7 in Quillen \cite{Quillen}.)
+(Corollary A.1.7 in [Quillen](#Quillen).)
 
 A morphism of complete augmented algebras is an [[effective epimorphism]]
 if and only if it is surjective,
 equivalently, the degree 1 component of its associated graded is surjective.
-(Proposition A.1.8 in Quillen \cite{Quillen}.)
+(Proposition A.1.8 in [Quillen](#Quillen).)
 
 The category of complete augmented algebras admits [[small limits]]
 and has a [[projective generator]], namely, $k\langle\langle x\rangle\rangle$.
-(Proposition A.1.10 in Quillen \cite{Quillen}.)
+(Proposition A.1.10 in [Quillen](#Quillen).)
 
 ## Constructions
 
@@ -57,7 +57,7 @@ to the [[category of Lie algebras]] that sends a complete augmented algebra $R$ 
 admits a [[left adjoint functor]],
 which sends a [[Lie algebra]] $\mathfrak{g}$ to the completion of its [[universal enveloping algebra]].
 
-See (1.12) in Quillen \cite{Quillen}.
+See (1.12) in [Quillen](#Quillen).
 
 ## Monoidal structure
 
@@ -84,6 +84,6 @@ with pairs of morphisms $R\to S$ and $R'\to S$ whose images in $S$ commute.
 
 ## References
 
-* [[Daniel Quillen]], _Rational homotopy theory_, Annals of Mathematics 90:2 (1969), 205.  [doi](http://dx.doi.org/10.2307/1970725).
+* {#Quillen} [[Daniel Quillen]], _Rational homotopy theory_, Annals of Mathematics 90:2 (1969), 205.  [doi](http://dx.doi.org/10.2307/1970725).
 
 [[!redirects complete augmented algebras]]
