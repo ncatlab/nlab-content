@@ -14,6 +14,7 @@ There are many principles in mathematics called 'extensionality'; what these pri
 
 * [[axiom of extensionality]] (for pure sets)
 
+* [[extensional type theory]] (for terms, uses [[definitional equality]] for the extensionality condition)
 
 There are other notions in mathematics which could be considered to be an extensionality principle. Examples include
 
