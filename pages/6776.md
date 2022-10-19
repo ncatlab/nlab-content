@@ -38,6 +38,9 @@ J. Reine Angew. Math. 482 (1997), 177&#8211;189, [doi](http://dx.doi.org/10.1515
 * Persi Diaconis, [[Arun Ram]], _A probabilistic interpretation of the Macdonald polynomials_, [arxiv/1007.4779](http://arxiv.org/abs/1007.4779)
 * Anton Khoroshkin, _Highest weight categories and Macdonald polynomials_, [arxiv/1312.7053](http://arxiv.org/abs/1312.7053)
 *  E. Carlsson, E. Gorsky, A. Mellit, The $\mathbf{A}_{q,t}$ algebra and parabolic flag Hilbert schemes [arxiv/1710.01407](https://arxiv.org/abs/1710.01407);  A. Garsia, A. Mellit, _Five-term relation and Macdonald polynomials_, [arxiv/1604.08655](https://arxiv.org/abs/1604.08655); A. Mellit, _Plethystic identities and mixed Hodge structures of character varieties_, [arxiv/1603.00193](https://arxiv.org/abs/1603.00193) 
+* Wy. Chuang, D-E. Diaconescu, R. Donagi, [[T. Pantev]], _Parabolic refined invariants and Macdonald polynomials_, Commun. Math. Phys. __335__, 1323–1379 (2015) [doi](ttps://doi.org/10.1007/s00220-014-2184-9)
+
+> A string theoretic derivation is given for the conjecture of Hausel, Letellier and Rodriguez-Villegas on the cohomology of character varieties with marked points. Their formula is identified with a refined BPS expansion in the stable pair theory of a local root stack, generalizing previous work of the first two authors in collaboration with Pan. Haiman’s geometric construction for Macdonald polynomials is shown to emerge naturally in this context via geometric engineering. In particular this yields a new conjectural relation between Macdonald polynomials and refined local orbifold curve counting invariants. The string theoretic approach also leads to a new spectral cover construction for parabolic Higgs bundles in terms of holomorphic symplectic orbifolds.
 
 category: algebra, combinatorics
 [[!redirects Macdonald polynomials]]
