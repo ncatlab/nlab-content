@@ -26,15 +26,15 @@
 | [[logical equivalence]] | [[bijection]] | [[isomorphism]]/[[adjoint equivalence]] | [[equivalence of types]] |
 |  | [[support set]] | [[support object]]/[[(-1)-truncation]] | [[propositional truncation]]/[[bracket type]]
 | | | [[n-image]] of [[morphism]] into [[terminal object]]/[[n-truncation]] | [[n-truncation modality]]
-| | [[equality]]/[[equivalence relation]] |[[path space object]] | [[identity type]]/[[path type]] |
+| | [[equality]]/[[initial object|initial]] [[reflexive relation]] |[[path space object]] | [[identity type]]/[[path type]] |
 | | [[equivalence class]]/[[quotient set]] | [[quotient]] | [[quotient type]] |
 | [[induction]] | |[[colimit]] | [[inductive type]], [[W-type]], [[M-type]] |
 | higher [[induction]] | | [[(infinity,1)-colimit|higher colimit]] | [[higher inductive type]] |
 | - | |  [[0-truncated]] [[(infinity,1)-colimit|higher colimit]] | [[quotient inductive type]] |
 | [[coinduction]] | |[[limit]] | [[coinductive type]] |
 | | [[preset]] | | [[type]] without [[identity types]] |
-| | [[completely presented set]] | [[discrete object]]/[[0-truncated object]]  | [[h-level 2]]-[[type]]/[[set]]/[[h-set]] |
-| | [[set]] | [[groupoid object in an (infinity,1)-category|internal 0-groupoid]] | [[Bishop set]]/[[setoid]] with its [[pseudo-equivalence relation]] an actual [[equivalence relation]] |
+| | [[set]]/[[completely presented set]] | [[discrete object]]/[[0-truncated object]]  | [[h-level 2]]-[[type]]/[[set]]/[[h-set]] |
+| | [[set]] with [[equivalence relation]]/[[set]] | [[groupoid object in an (infinity,1)-category|internal 0-groupoid]] | [[Bishop set]]/[[setoid]] with its [[pseudo-equivalence relation]] an actual [[equivalence relation]] |
 | | [[set]] of [[truth values]] | [[subobject classifier]] | [[type of propositions]] |
 | [[domain of discourse]] | [[universe]] | [[object classifier]] | [[type universe]] |
 | [[modality]] |  |[[closure operator]], ([[idempotent monad|idempotent]]) [[monad]] | [[modal type theory]], [[monad (in computer science)]] |
