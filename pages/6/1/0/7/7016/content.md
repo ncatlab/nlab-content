@@ -121,6 +121,8 @@ The [[univalence axiom]] implies function extensionality (this is due to [[Vladi
 
 ## See also
 
+* [[extensionality]]
+
 * [[homotopy]]
 
 * [[concrete category]]
