@@ -36,15 +36,37 @@ From a global perspective, however, all of these types should be considered Tars
 
 ## Definition
 
-A **Tarski universe** or **universe à la Tarski** is simply a type $U$ with a type family $T$ whose dependent types $T(A)$ are indexed by terms $A:U$. The terms $A:U$ are usually called **$U$-small types**, or **small types** for short. This is already enough to build an internal model of dependent type theory inside the Tarski universe:
+### With a family of types
+
+A **Tarski universe** or **universe à la Tarski** is simply a type $U$ with a type family $T$ whose dependent types $T(A)$ are indexed by terms $A:U$. The terms $A:U$ are usually called **$U$-small types**, or **small types** for short, and $T(A)$ is the **type of terms of $A$**. 
+
+### With a type and a function
+
+A **Tarski universe** or **universe à la Tarski** is a type $U$ of all $U$-small types with a type $T'$ of all terms, and a function $\mathrm{typeOf}:T' \to U$ which gets the associated type for every term $a:T'$. 
+
+### Equivalence of definitions
+
+From one direction, the individual dependent types $T(A)$ could be defined as the [[fiber type]] of $\mathrm{typeOf}$ at $A$
+$$T(A) \coloneqq \mathrm{fiber}_{T', U}(\mathrm{typeOf},A)$$
+
+From the other direction, the entire type of terms $T'$ is just the [[dependent sum type]] of all the type reflections of small types
+$$T' \coloneqq \sum_{A:U} T(A)$$
+
+We shall be using the first definition throughout this article, but everything could be translated into the second definition of a Tarski universe. 
+
+## Tarski universes as models of type theory
+
+The definitions above are already enough to build an internal model of dependent type theory inside the Tarski universe:
 
 * The type $A \; \mathrm{type}$ is represented by the small type $A:U$
 * The term $a:A$ is represented by the term $a:T(A)$ for small type $A:U$. 
 * The type family $B$ indexed by the type $A \; \mathrm{type}$ is represented by the function $B:T(A) \to U$ for small type $A:U$
 * The dependent type $a:A \vdash B \; \mathrm{type}$ is represented by the section $B(a):U$ for term $a:T(A)$ and small type $A:U$. 
-* The section $a:A \vdash b:B$ is represented by the term $b:T(B(a))$ for term $a:T(A)$ and small type$A:U$. 
+* The section $a:A \vdash b:B$ is represented by the term $b:T(B(a))$ for term $a:T(A)$ and small type $A:U$. 
 
-Furthermore, there are two notions of equivalence in a Tarski universe $(U, T)$, equality $A =_U B$ and equivalence $T(A) \simeq T(B)$. By the properties of the [[identity type]], there is a canonical [[transport]] dependent function 
+## Univalence
+
+There are two notions of equivalence in a Tarski universe $(U, T)$, equality $A =_U B$ and equivalence $T(A) \simeq T(B)$. By the properties of the [[identity type]], there is a canonical [[transport]] dependent function 
 $$\mathrm{transport}^T:\prod_{A:U} \prod_{B:U} (A =_U B) \to T(A) \simeq T(B)$$
 A Tarski universe is a **univalent Tarski universe** if for all terms $A:U$ and $B:U$ the function $\mathrm{transport}^T(A, B)$ is an [[equivalence of types]]
 $$\prod_{A:U} \prod_{B:U} \mathrm{isEquiv}(\mathrm{transport}^T(A, B))$$
