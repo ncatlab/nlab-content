@@ -37,9 +37,9 @@ $$
 HQFTs were first defined (under a different name) by [[Graeme Segal]] as early as 1988 in ([Segal 88](#Segal88)).
 
 Starting from 1991, several papers by [[Dan Freed]],
-including \cite{FreedQuinn1991}, further developed the notion of a [[functorial field theory]], where bordisms in the domain category are equipped with a map
+including [FreedQuinn1991](#FreedQuinn1991), further developed the notion of a [[functorial field theory]], where bordisms in the domain category are equipped with a map
 to a target space (such as the [[Eilenberg–MacLane space]] $K(G,1)$ for a finite group $G$).
-See, in particular, Theorem 1.7 and the preceding discussion on page 6 of \cite{FreedQuinn1991}.
+See, in particular, Theorem 1.7 and the preceding discussion on page 6 of [FreedQuinn1991](#FreedQuinn1991).
 
 From 1999, HQFTs were studied systematically by [[Vladimir Turaev]] ([Turaev 99](#Turaev99)) for 2-dimensional [[manifolds]]/[[cobordisms]] and extended to 3-dimensional ones in ([Turaev 00](#Turaev00)).
 Turaev also introduced the term “homotopy quantum field theory”.
