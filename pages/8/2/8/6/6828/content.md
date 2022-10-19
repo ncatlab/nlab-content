@@ -31,6 +31,10 @@ On [[vertex operator algebras]], their associated [[modular tensor categories]] 
 
 * {#Huang} [[Yi-Zhi Huang]], *Vertex operator algebras, the Verlinde conjecture and modular tensor categories*, Proc. Nat. Acad. Sci. **102** (2005) 5352-5356 $[$[arXiv:math/0412261](http://arxiv.org/abs/math/0412261), [doi:10.1073/pnas.0409901102](https://doi.org/10.1073/pnas.0409901102)$]$
 
+On [[full field algebra]] for [[2d conformal field theory]]:
+
+* {#HuangKong05} [[Yi-Zhi Huang]], [[Liang Kong]], _Full field algebras_, Commun. Math. Phys. **272** (2007) 345-396 &lbrack;[arXiv:0511328](http://arxiv.org/abs/math/0511328), [doi:10.1007/s00220-007-0224-4](https://doi.org/10.1007/s00220-007-0224-4)&rbrack;
+
 
 For [[orbifolds]]:
 
@@ -38,7 +42,7 @@ For [[orbifolds]]:
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[vertex operator algebra]]
 
