@@ -31,7 +31,7 @@ A Hilbert space is (see Def. \ref{HilbertSpace} for details):
 
 Hilbert spaces are central to [[quantum physics]] and specifically to [[quantum mechanics]], where they serve as [[space of quantum states|spaces of]] [[pure quantum states]]. Here the [[inner product]] encodes the [[probability amplitudes]] for one [[pure state]] to "[[collapse of the wavefunction|collaps]]" to another one under [[quantum measurement|measurement]]. When the space of pure states is of [[finite-dimensional vector space|finite dimension]] (as is the case of interest in [[quantum information theory]]/[[quantum computation]]) then the completeness condition on a Hilbert space is automatic (see Rem. \ref{FiniteDimensionalInnerProductSpaces} below), otherwise it naturally encodes the possibility of an infinite number of [[quantum measurement|measurement]] outcomes.
 
-Hilbert spaces form a ([[dagger category|dagger]]-)[[category]] in various ways, often denoted *[[Hilb]]* or similar, with the [[dagger-category|dagger]]-structure given by sending [[linear maps]] to their [[adjoint operators]] with respect to the Hermitian inner product. Finite-dimensional Hilbert spaces form a [[dagger-compact category]].
+Hilbert spaces with ([[bounded linear map|bounded]]) [[linear maps]] between them form a ([[dagger category|dagger]]-)[[category]], often denoted *[[Hilb]]* or similar, with the [[dagger-category|dagger]]-structure is given by sending [[bounded linear maps]] to their [[adjoint operators]] with respect to the Hermitian inner product. Finite-dimensional Hilbert spaces form a [[dagger-compact category]].
 
 See also:
 
@@ -41,13 +41,29 @@ See also:
 ## Definition
  {#Definition}
 
+We first state the 
+
+* [standard formulation](#StandardDefinition)
+
+of the definition of Hilbert spaces and then various equivalent 
+
+* [alternative formulations](#AlternativeDefinitions)
+
+
+### Standard formulation
+ {#StandardDefinition}
+
+We first state the definition as such and then recall the ingredients that go into it:
+
 \begin{definition}\label{HilbertSpace}
 **(Hilbert space)**
 \linebreak
 
-A **Hilbert space** $\big(\mathscr{H}, \langle -,-\rangle\big)$ is a ([[complex vector space|complex]] or [[real vector space|real]]) [[vector space]] $\mathscr{H}$ (possibly infinite-[[dimension of a vector space|dimensional]]) 
+A *Hilbert space* $\big(\mathscr{H}, \langle -,-\rangle\big)$ is 
 
-* equipped with a [[Hermitian form|Hermitian]] [[inner product]] $\langle -,- \rangle$ (Def. \ref{HermitianInnerProduct})
+1. a ([[complex vector space|complex]] or [[real vector space|real]]) [[vector space]] $\mathscr{H}$ (possibly infinite-[[dimension of a vector space|dimensional]]), 
+
+1. equipped with a [[Hermitian form|Hermitian]] [[inner product]] $\langle -,- \rangle$ (Def. \ref{HermitianInnerProduct})
 
 which is
 
@@ -56,6 +72,25 @@ which is
 1. positive definite (Def. \ref{DefiniteInnerProduct}).
 
 \end{definition}
+
+\begin{remark}\label{MorphismOfHilbertSpaces}
+**(morphisms of Hilbert spaces)**
+\linebreak
+There are different notions of [[morphisms]] between [[Hilbert spaces]]:
+
+At the very least, a [[morphism]] of [[Hilbert spaces]] is a [[linear map]] between the underlying [[vector spaces]], and this is the default notion usually considered. Notice that such morphisms do not need to respect the [[inner product]]-[[structure]]. Often one restricts to [[bounded linear maps]] or sometimes [[short maps]] (see at *[maps of Banach spaces](Banach+space#morphisms)*) which respect part of the inner product structure.
+
+Instead of being fully respected by maps, the inner product on Hilbert spaces induces the [[dagger-category|dagger]] [[involution]] on their [[hom-spaces]] given by sending any [[bounded linear map]] $A \colon \mathscr{H}_1 \to \mathscr{H}_2$ to its [[Hermitian form|Hermitian]] [[adjoint operator]] $A^\dagger \colon \mathscr{H}_2 \to \mathscr{H}_1$, characterized by
+
+\[
+  \label{AdjointnessRelation}
+  \langle A^\dagger(-), -\rangle_{1}
+  \;=\;
+  \langle -, A(-)\rangle_{2}
+\]
+
+\end{remark}
+
 
 \begin{remark}\label{FiniteDimensionalInnerProductSpaces}
 **(finite-dimensional Hilbert space)**
@@ -126,7 +161,8 @@ The axiom list in Def. \ref{HermitianInnerProduct} is rather redundant.  First o
 Given an inner product according to Def. \ref{HermitianInnerProduct}, consider the (norm square)
 function 
 
-$$
+\[
+  \label{NormSquare}
   \array{
     \mathllap{
     \|{-}\|^2 
@@ -140,7 +176,7 @@ $$
     v &\mapsto&
     \langle v, v \rangle
   }
-$$ 
+\]
 
 Notice that this takes only real values, by (eq:ConjugateSymmetryOfInnerProduct).
 
@@ -149,7 +185,7 @@ The [[Hermitian form|Hermitian]] [[inner product]] is called:
 * **positive semidefinite**, or simply **positive**, if $\|v\|^2 \geq 0$ for all $v \in \mathscr{H}$;
 
 
-* **non-degenrate** if $\|v\|^2 = 0$ implies that $v = 0$;
+* **non-degenerate** if $\|v\|^2 = 0$ implies that $v = 0$;
 
 * **positive definite** if it is both positive and non-degenerate.
 
@@ -192,26 +228,63 @@ $$
 \end{definition}
 
 
-### Hilbert spaces as Banach spaces
+### Alternative formulations
+ {#AlternativeDefinitions}
 
-If an inner product is positive, then we can take the principal square root of $\|x\|^2 = \langle x, x \rangle$ to get the a real number $\|x\|$, the __norm__ of $x$.
+#### As Banach spaces and metric spaces
+ {#AsBanachSpacesAndMetricSpaces}
+
+If an inner product (Def. \ref{HermitianInnerProduct}) is positive (Def. \ref{DefiniteInnerProduct}), then there exists the principal [[square root]] of the norm square $\|v\|^2 = \langle v, v \rangle$ (eq:NormSquare) being the *[[norm]]* $\|v\|$ of $v \in \mathscr{H}$.
 
 This norm satisfies all of the requirements of a [[Banach space]].  It additionally satisfies the _parallelogram law_
-$$ \|x + y\|^2 + \|x - y\|^2 = 2 \|x\|^2 + 2 \|y\|^2 ,$$
+
+\[
+  \label{ParallelogramLaw}
+  \|v_1 + v_2\|^2 
+  + 
+  \|v_1 - v_2\|^2 
+  \;=\; 
+  2 \|v_1\|^2 + 2 \|v_2\|^2
+  \,.
+\]
+
 which not all Banach spaces need satisfy.  (The name of this law comes from its geometric interpretation: the norms in the left-hand side are the lengths of the diagonals of a parallelogram, while the norms in the right-hand side are the lengths of the sides.)
 
-Furthermore, any Banach space satsifying the parallelogram law has a unique inner product that reproduces the norm, defined by
-$$ \langle x, y \rangle = \frac{1}{4}\left(\|x + y\|^2 - \|x - y\|^2 - \mathrm{i} \|x + \mathrm{i}y\|^2 + \mathrm{i} \|x - \mathrm{i}y\|^2\right) ,$$
-or $\frac{1}{2}(\|x + y\|^2 - \|x - y\|^2)$ in the real case.
+Furthermore, any Banach space satsifying the parallelogram law (eq:ParallelogramLaw) has a unique inner product that reproduces the norm, defined by
 
-Therefore, it is possible to *define* a Hilbert space as a Banach space that satisfies the parallelogram law.  This actually works a bit more generally; a positive semidefinite inner product space is a pseudonormed vector space that satisfies the parallelogram law.  (We cannot, however, recover an indefinite inner product from a norm.)
+$$ 
+  \langle v_1, v_2 \rangle 
+  \;\coloneqq\; 
+  \frac{1}{4}
+  \left(
+    \|v_1 + v_2\|^2 
+    - 
+    \|v_1 - v_2\|^2 
+    - 
+    \mathrm{i} 
+    \|v_1 + \mathrm{i}v_2\|^2 
+    + 
+    \mathrm{i} 
+    \|v_1 - \mathrm{i}v_2\|^2
+  \right) ,
+$$
 
+or $\frac{1}{2}(\|v_1 + v_2\|^2 - \|v_1 - v_2\|^2)$ in the real case.
 
-### Hilbert spaces as metric spaces
+Therefore: A Hilbert space is equivalently [[Banach space]] that satisfies the parallelogram law (eq:ParallelogramLaw).  
 
-In any positive semidefinite inner product space, let the __distance__ $d(x,y)$ be
-$$ d(x,y) = \|y - x\| .$$
-Then $d$ is a [[pseudometric]]; it is a complete metric if and only if we have a Hilbert space.
+This actually works a bit more generally; a positive semidefinite inner product space is a pseudonormed vector space that satisfies the parallelogram law.  (We cannot, however, recover an indefinite inner product from a norm.)
+
+Moreover, in any positive semidefinite inner product space, let the __distance__ $d(x,y)$ be
+
+$$ 
+  d(x,y) 
+  \;\coloneqq\; 
+  \|y - x\| 
+  \,.
+$$
+
+Then $d$ is a [[pseudometric]]; and it is a complete metric if and only if we have a Hilbert space.
 
 In fact, the axioms of a [[Banach space]] (or pseudonormed vector space) can be written entirely in terms of the metric; we can also state the parallelogram law as follows:
 $$ d(x,y)^2 + d(x,-y)^2 = 2 d(x,0)^2 + 2 d(x,x+y)^2 .$$
@@ -219,17 +292,6 @@ $$ d(x,y)^2 + d(x,-y)^2 = 2 d(x,0)^2 + 2 d(x,x+y)^2 .$$
 In definitions, it is probably most common to see the metric introduced only to state the completeness requirement.  Indeed, (eq:Cauchy) says that the sequence of partial sums is a [[Cauchy sequence]], while (eq:converge) says that the sequence of partial sums converges to $S$.
 
 
-### Hilbert spaces as conformal spaces
-
-Given two vectors $x$ and $y$, both nonzero, let the __angle__ between them be the angle $\theta(x,y)$ whose cosine is
-$$ \cos \theta(x,y) = \frac { \langle x, y \rangle } { \|x\| \|y\| } .$$
-(Note that this angle may be imaginary in general, but not for a Hilbert space over $\mathbb{R}$.)
-
-A Hilbert space cannot be reconstructed entirely from its angles, however (even given the underlying vector space).  The inner product can only be recovered up to a positive scale factor.
-
-### Morphisms of Hilbert spaces
-
-See discussion at [[Banach space]].  There is more to be said here concerning duals (including why the theory of Hilbert spaces is slightly nicer over $\mathbb{C}$ while that of Banach spaces is slightly nicer over $\mathbb{R}$).
 
 
 ## Examples
