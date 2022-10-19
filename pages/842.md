@@ -897,6 +897,11 @@ A discussion of [[weighted limit|weighted]] $(\infty,1)$-limits is in
 
 * Martina Rovelli, _Weighted limits in an (∞,1)-category_, 2019, [arxiv:1902.00805](https://arxiv.org/abs/1902.00805)
 
+A discussion of free colimit completion constructions is in
+
+* [[Charles Rezk]], _Free colimit completion in ∞-categories_ ([arXiv:2210.08582](https://arxiv.org/abs/2210.08582))
+
+
 ### In homotopy type theory
 
 A formalization of some aspects of $(\infty,1)$-limits in terms of [[homotopy type theory]] is [[Coq]]-coded in 
