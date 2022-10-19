@@ -50,6 +50,7 @@ In an [[additive category]] cofibers over the [[zero object]] are called _[[coke
 
 * [[kernel]], [[cokernel]]
 
+* [[cofiber type]]
 
 
 [[!redirects cofibre]]
