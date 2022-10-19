@@ -55,6 +55,7 @@ in a [[Tarski universe]] $(U, T)$ is a type of propositions.
 
 * [[type universe]]
 
+* [[propositional logic as a dependent type theory]]
 
 ## References
 
