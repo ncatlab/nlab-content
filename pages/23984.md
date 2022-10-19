@@ -41,21 +41,23 @@ $$
   P(x) \iff P(y)
 $$
 
-In the interpretation of [[propositions as types]] in [[type theory]], propositions are interpreted as types, and the above statement has a generalization from the types which are propositions to all types: the [[universal quantifier]] becomes a [[dependent product type]], the [[predicate]] becomes a [[type family]], [[implication]] becomes a [[function]], and [[logical equivalence]] of [[propositions]] becomes [[equivalence in homotopy type theory|equivalence of types]]. This results in what is known as *transport* in type theory, the function 
+In the interpretation of [[propositions as types]] in [[type theory]], [[propositions]] are interpreted as [[types]], and the above statement has a generalization from the types which are propositions to all types: the [[universal quantifier]] becomes a [[dependent product type]], the [[predicate]] becomes a [[type family]], [[implication]] becomes a [[function]], and [[logical equivalence]] of [[propositions]] becomes [[equivalence in homotopy type theory|equivalence of types]]. This results in what is known as *transport* in type theory, the [[function]]:
 
 $$
   \mathrm{transport}(x, y)
-  \;\;\colon\;\; 
+  \;\;\;\colon\;\;\; 
   x =_T y 
-  \;\longrightarrow\;
+  \;\;\longrightarrow\;\;
   \prod_{
     \mathclap{
-      P\colon T \to \mathcal{U}
+      P \colon T \to \mathcal{U}
     }
   } 
-  \;
+  \;\;
   P(x) \simeq P(y)
 $$
+
+(Here $\mathcal{U}$ denotes the [[type universe]], so that the [[function type]] $T \to \mathcal{U}$ is that of $T$-[[dependent types]].)
 
 ## Definitions
 
