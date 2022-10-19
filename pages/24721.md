@@ -76,48 +76,72 @@ Using a definitional equality with an existing global type former for each type 
 
 ### Empty type
 
-Suppose that the type theory has an already existing empty type $\emptyset \; \mathrm{type}$. Then a Tarski universe is **weakly closed under the empty type** if there exists a term $\emptyset_U:U$ and an equivalence $\mathrm{smallemptytype}:T(\emptyset_U) \simeq \emptyset$. A Tarski universe is **strongly closed under the empty type** if there is a definitional equality $T(\emptyset_U) \equiv \emptyset$. 
-
-If the type theory does not have an already existing empty type, then a Tarski universe is **closed under the empty type** if the universe comes with 
+A Tarski universe is **closed under the empty type** if the universe comes with 
 
 * a term $\emptyset_U:U$
-* for all functions $C:T(\emptyset_U) \to U$ and terms $p:T(\emptyset_U)$, a term $\mathrm{ind}_\emptyset(C, p):T(C(p))$
-* for all functions $C:T(\emptyset_U) \to U$, terms $p:T(\emptyset_U)$, and terms $u(p):T(C(p))$, an [[identification]] $\eta_\emptyset(C, p, u(p)):u(p) =_{T(C(p))} \mathrm{ind}_\emptyset(C, p)$. 
+* a dependent function
+$$\mathrm{ind}_\emptyset:\prod_{C:T(\emptyset_U) \to U} \prod_{p:T(\emptyset_U)} T(C(p))$$
+* a dependent function 
+$$\eta_\emptyset:\prod_{C:T(\emptyset_U) \to U} \prod_{p:T(\emptyset_U)} \mathrm{isContr}(T(C(p)))$$ 
+
+If the type theory has an empty type $\emptyset \; \mathrm{type}$ external to the Tarski, universe, then  an equivalence $\mathrm{smallemptytype}:T(\emptyset_U) \simeq \emptyset$ could be constructed. A Tarski universe is **strictly closed under the empty type** if there is a definitional equality $T(\emptyset_U) \equiv \emptyset$. 
 
 ### Unit type
 
-Suppose that the type theory has an already existing unit type $\mathbb{1} \; \mathrm{type}$. Then a Tarski universe is **weakly closed under the unit type** if there exists a term $\mathbb{1}_U:U$ and an equivalence $\mathrm{smallunittype}:T(\mathbb{1}_U) \simeq \mathbb{1}$. A Tarski universe is **strongly closed under the unit type** if there is a definitional equality $T(\mathbb{1}_U) \equiv \mathbb{1}$. 
-
-If the type theory does not have an already existing unit type, then a Tarski universe is **closed under the unit type** if the universe comes with 
+A Tarski universe is **closed under the unit type** if the universe comes with 
 
 * a term $\mathbb{1}_U:U$
 * a term
 $*:T(\mathbb{1}_U)$
-* for all functions $C:T(\mathbb{1}_U) \to U$, terms $c_*:T(C(*))$, and terms $p:T(\mathbb{1}_U)$, a term $\mathrm{ind}_\mathbb{1}(C, p, c_*):T(C(p))$
-* for all functions $C:T(\mathbb{1}_U) \to U$ and terms $c_*:T(C(*))$, an identification $\beta_\mathbb{1}:\mathrm{ind}_\mathbb{1}(C, *, c_*) =_{T(C(*))} c_*$
-* for all functions $C:T(\mathbb{1}_U) \to U$, terms $c_*:T(C(*))$, terms $p:T(\mathbb{1}_U)$, and terms $u(p):T(C(p))$, a function 
-$$\eta_\mathbb{1}(C, p, u(p)):(u(*) =_{T(C(*))} \mathrm{ind}_\mathbb{1}(C, *, c_*))) \to (u(p) =_{T(C(p))} \mathrm{ind}_\mathbb{1}(C, p, c_*))$$ 
+* a dependent function
+$$\mathrm{ind}_\mathbb{1}: \prod_{C:T(\mathbb{1}_U) \to U} \prod_{p:T(\mathbb{1}_U)} T(C(*)) \to T(C(p))$$
+* a dependent function
+$$\beta_\mathbb{1}:\prod_{C:T(\mathbb{1}_U) \to U} \mathrm{isContr}(T(C(*)))$$
+* a dependent function
+$$\eta_\mathbb{1}:\prod_{C:T(\mathbb{1}_U) \to U} \prod_{p:T(\mathbb{1}_U)} \mathrm{isContr}(T(C(*))) \to \mathrm{isContr}(T(C(p)))$$ 
+
+If the type theory has an unit type $\mathbb{1} \; \mathrm{type}$ external to the Tarski, universe, then  an equivalence $\mathrm{smallunittype}:T(\mathbb{1}_U) \simeq \mathbb{1}$ could be constructed. A Tarski universe is **strictly closed under the unit type** if there is a definitional equality $T(\mathbb{1}_U) \equiv \mathbb{1}$. 
 
 ### Booleans type
 
-Suppose that the type theory has an already existing booleans type $\mathbb{2} \; \mathrm{type}$. Then a Tarski universe is **weakly closed under the booleans type** if there exists a term $\mathbb{2}_U:U$ and an equivalence $\mathrm{smallbool}:T(\mathbb{2}_U) \simeq \mathbb{2}$. A Tarski universe is **strongly closed under the booleans type** if there is a definitional equality $T(\mathbb{2}_U) \equiv \mathbb{2}$. 
-
-If the type theory does not have an already existing booleans type, then a Tarski universe is **closed under the booleans type** if the universe comes with 
+A Tarski universe is **closed under the booleans type** if the universe comes with 
 
 * a term $\mathbb{2}_U:U$
 * a term
 $0:T(\mathbb{2}_U)$
 * a term
 $1:T(\mathbb{2}_U)$
-* for all functions $C:T(\mathbb{2}_U) \to U$, terms $c_0:T(C(0))$, terms $c_1:T(C(1))$, and terms $p:T(\mathbb{2}_U)$, a term $\mathrm{ind}_\mathbb{2}(C, p, c_0, c_1):T(C(p))$
-* for all functions $C:T(\mathbb{2}_U) \to U$, terms $c_0:T(C(0))$, and terms $c_1:T(C(1))$, an identification $\beta_\mathbb{2}^0:\mathrm{ind}_\mathbb{2}(C, 0, c_0, c_1) =_{T(C(0))} c_0$
-* for all functions $C:T(\mathbb{2}_U) \to U$, terms $c_0:T(C(0))$, and terms $c_1:T(C(1))$, an identification $\beta_\mathbb{2}^1:\mathrm{ind}_\mathbb{2}(C, 1, c_0, c_1) =_{T(C(1))} c_1$
-* for all functions $C:T(\mathbb{1}_U) \to U$, terms $c_0:T(C(0))$, terms $c_1:T(C(1))$, terms $p:T(\mathbb{1}_U)$, and terms $u(p):T(C(p))$, a function 
-$$\eta_\mathbb{2}(C, p, u(p)):(u(0) =_{T(C(0))} \mathrm{ind}_\mathbb{2}(C, 0, c_0, c_1))) \times (u(1) =_{T(C(1))} \mathrm{ind}_\mathbb{2}(C, 1, c_0, c_1))) \to (u(p) =_{T(C(p))} \mathrm{ind}_\mathbb{2}(C, p, c_0, c_1))$$ 
+* a dependent function
+$$\mathrm{ind}_\mathbb{2}: \prod_{C:T(\mathbb{2}_U) \to U} \prod_{p:T(\mathbb{2}_U)} T(C(0)) \times T(C(1)) \to T(C(p))$$
+* a dependent function
+$$\beta_\mathbb{2}^0:\prod_{C:T(\mathbb{2}_U) \to U} \mathrm{isContr}(T(C(0)))$$
+* a dependent function
+$$\beta_\mathbb{2}^1:\prod_{C:T(\mathbb{2}_U) \to U} \mathrm{isContr}(T(C(1)))$$
+* a dependent function
+$$\eta_\mathbb{2}:\prod_{C:T(\mathbb{2}_U) \to U} \prod_{p:T(\mathbb{2}_U)} \mathrm{isContr}(T(C(0))) \times \mathrm{isContr}(T(C(1))) \to \mathrm{isContr}(T(C(p)))$$ 
+
+If the type theory has an booleans type $\mathbb{2} \; \mathrm{type}$ external to the Tarski, universe, then  an equivalence $\mathrm{smallbool}:T(\mathbb{2}_U) \simeq \mathbb{2}$ could be constructed. A Tarski universe is **strictly closed under the booleans type** if there is a definitional equality $T(\mathbb{2}_U) \equiv \mathbb{2}$. 
 
 ### Natural numbers type
 
-Suppose that the type theory has an already existing natural numbers type $\mathbb{N} \; \mathrm{type}$. Then a Tarski universe is **weakly closed under the natural numbers type** if there exists a term $\mathbb{N}_U:U$ and an equivalence $\mathrm{smallnat}:T(\mathbb{N}_U) \simeq \mathbb{N}$. A Tarski universe is **strongly closed under the natural numbers type** if there is a definitional equality $T(\mathbb{N}_U) \equiv \mathbb{N}$. 
+A Tarski universe is **closed under the natural numbers type** if the universe comes with 
+
+* a term $\mathbb{N}_U:U$
+* a term
+$0:T(\mathbb{N}_U)$
+* a function
+$s:T(\mathbb{N}_U) \to T(\mathbb{N}_U)$
+* a dependent function
+$$\mathrm{ind}_\mathbb{N}: \prod_{C:T(\mathbb{N}_U) \to U} \prod_{p:T(\mathbb{N}_U)} \left(T(C(0)) \times \prod_{n:T(\mathbb{N}_U)} T(C(n)) \to T(C(s(n)) \right) \to T(C(p))$$
+* a dependent function
+$$\beta_\mathbb{N}^0:\prod_{C:T(\mathbb{N}_U) \to U} \mathrm{isContr}(T(C(0)))$$
+* a dependent function
+$$\beta_\mathbb{N}^s:\prod_{C:T(\mathbb{N}_U) \to U} \prod_{n:T(\mathbb{N}_U)}
+\mathrm{isContr}(T(C(n))) \to \mathrm{isContr}(T(C(s(n))))$$
+* A dependent function
+$$\eta_\mathbb{N}: \prod_{C:T(\mathbb{N}_U) \to U} \prod_{p:T(\mathbb{N}_U)} \left(\mathrm{isContr}(T(C(0))) \times \prod_{n:T(\mathbb{N}_U)} \mathrm{isContr}(T(C(n))) \to \mathrm{isContr}(T(C(s(n)))) \right) \to \mathrm{isContr}(T(C(p)))$$
+
+If the type theory has a natural numbers type $\mathbb{N} \; \mathrm{type}$ external to the Tarski, universe, then  an equivalence $\mathrm{smallnat}:T(\mathbb{N}_U) \simeq \mathbb{N}$ could be constructed. A Tarski universe is **strictly closed under the nqtural numbers type** if there is a definitional equality $T(\mathbb{N}_U) \equiv \mathbb{N}$. 
 
 ### Identity types
 
