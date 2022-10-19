@@ -26,7 +26,7 @@ In [[constructive mathematics]], there are multiple notions of [[inequality]], d
 
 Given a [[pointed set]] $A$ with specified [[element]] $0 \in A$, a [[set]] $X$, and a [[function]] $f \colon X \to A$, the **support** of $f$ is the [[subset]] of $X$ on which $f$ is not equal to $0$.
 
-Given a [[pointed set]] $A$ with an [[tight apartness relation]] $\#$, specified [[element]] $0 \in A$, a [[set]] $X$, and a [[function]] $f \colon X \to A$, the **strong support** of $f$ is the [[subset]] of $X$ on which $f$ is apart from $0$.
+Given a [[pointed set]] $A$ with an [[tight apartness relation]] $\#$ and specified [[element]] $0 \in A$, a [[set]] $X$, and a [[function]] $f \colon X \to A$, the **strong support** of $f$ is the [[subset]] of $X$ on which $f$ is apart from $0$.
 
 ### In topology
 
