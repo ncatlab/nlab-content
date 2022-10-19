@@ -21,9 +21,18 @@ The terms of a dependent identity types are **dependent identifications** or **h
 
 ## Definition in Martin-Löf type theory
 
-One way to define the dependent identity type in Martin-Lof type theory is using [[transport]] along the identification $p$:
+One way to define the dependent identity type in [[Martin-Löf type theory]] is by using [[transport]] along the identification $p$:
 
-$$(a =_B^p b) \coloneqq (\mathrm{tr}_B^p(a) =_{B(b)} b)$$ 
+$$
+  (a =_B^p b) 
+  \;\coloneqq\; 
+  \big(
+    \mathrm{tr}_B^p(a) 
+    =_{B(b)} 
+    b
+  \big)
+  \,.
+$$ 
 
 There are also other possibilities...
 
@@ -67,9 +76,9 @@ needs to be written
 
 ## References
 
-* [[Mike Shulman]], *Towards a Third-Generation HOTT Part 1* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA))
+* [[Mike Shulman]], *Towards Third-Generation HOTT -- Part 1* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA))
 
-* [[Mike Shulman]], Towards a Third-Generation HOTT Part 2 ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU))
+* [[Mike Shulman]], *Towards Third-Generation HOTT -- Part 2* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU))
 
 [[!redirects dependent identity types]]
 [[!redirects heterogeneous identity type]]
