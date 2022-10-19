@@ -132,7 +132,6 @@ I believe that the binary composite of double profunctors defined in this way is
 ## References
 
 - [[Robert Paré]]. _Yoneda theory for double categories_. Theory and Applications of Categories 25.17 (2011): 436-489.
-- [[Robert Paré]]. _Composition of modules for lax functors_. Theory and Applications of Categories 27.16 (2013): 393-444.
 
 [[!redirects double profunctors]]
 [[!redirects DblProf]]
