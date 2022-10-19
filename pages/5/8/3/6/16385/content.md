@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include homotopy - contents]]
 =--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
 =--
 =--
 
@@ -265,7 +269,7 @@ $$
 =--
 
 
-### As $\mathbb{Z}/2$-equivariant $\mathbb{C}$-modules
+### As $(\mathbb{Z}/2 \curvearrowright \mathbb{C})$-modules
  {#AsEquivariantModules}
 
 While a non-degenerate [[inner product]] $(-\vert-)$ on a [[finite-dimensional vector space|finite-dimensional]] [[real vector space]] $V$ is equivalently a [[linear isomorphism]] to its [[dual vector space]]
@@ -311,6 +315,20 @@ Another way to regard this situation is to observe that complex anti-linear invo
 </center>
 
 
+{#HermitianOperatorsAsZTwoActsCModules} Notice that these $(\mathbb{Z}/2 \curvearrowright \mathbb{C})$-modules arising from (non-degenerate, finite-dimensional) Hermitian vector spaces this way happen to carry also a [[complex structure]], hence a compatible module-structure by the actual [[complex numbers]] (i.e. equipped with the trivial [[involution]]), given by $\underline{\mathrm{i}}$. 
+
+Using this, one may identify:
+
+1. the space of [[linear operators]] on a Hermitian vector space as the [[equalizer]] of this imaginary rotation on the [[tensor product|tensor square]] of the $(\mathbb{Z}/2 \curvearrowright \mathbb{C})$-module with the [[braided monoidal category|braiding]] and the [[identity morphism|identity]],
+
+1. among these that of [[hermitian operators]] as the further [[fixed locus]] of the involution action:
+
+<center>
+<img src="/nlab/files/HermitianOperatorsAsEquivariantModules-221019.jpg" width="710">
+</center>
+
+\linebreak
+
 
 ## Related concepts
 
@@ -329,7 +347,9 @@ Another way to regard this situation is to observe that complex anti-linear invo
 
 ## References
 
-* [[C. T. C. Wall]], _On the axiomatic foundations of the theory of Hermitian forms_, Proc. Camb. Phil. Soc. (1970), 67, 243
+Among original articles:
+
+* [[C. T. C. Wall]], _On the axiomatic foundations of the theory of Hermitian forms_, Proc. Camb. Phil. Soc. **67** (1970) 243-250 &lbrack;[doi:10.1017/S0305004100045515](https://doi.org/10.1017/S0305004100045515), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/wall9.pdf)&rbrack;
 
 See also:
 
@@ -347,6 +367,13 @@ and see the references at *[[Hilbert space]]*.
 
 [[!redirects hermitian space]]
 [[!redirects hermitian spaces]]
+
+[[!redirects Hermitian vector space]]
+[[!redirects Hermitian vector spaces]]
+
+[[!redirects hermitian vector space]]
+[[!redirects hermitian vector spaces]]
+
 
 [[!redirects Hermitian metric]]
 [[!redirects Hermitian metrics]]
