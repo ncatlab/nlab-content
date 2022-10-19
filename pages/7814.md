@@ -9,7 +9,9 @@ The term "support" means different things in different parts of mathematics:
 
 ### In set theory
 
-Given $f \colon X \to A$ a [[function]] to  $A$ a [[pointed object]] with the point playing the role of a [[zero]] [[generalized element|element]], then the _support_ of $f$ is the [[subobject]] of $X$ on which $f$ is non-zero.
+Given $f \colon X \to A$ a [[function]] to  $A$ a [[pointed set]] with the point playing the role of a [[zero]] [[generalized element|element]], then the _support_ of $f$ is the [[subobject]] of $X$ on which $f$ is non-zero.
+
+The support $[X]$ of any set $X$ is represented by the support of the unique function into any [[singleton]], and is thus a [[subsingleton]].  
 
 ### In category theory
 
