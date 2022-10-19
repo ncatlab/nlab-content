@@ -61,7 +61,7 @@ In a [[dependent type theory|dependently typed programming language]] with a [[t
 
 $$ first : \prod_{A:Type} A\times A \to A$$
 
-However, parametric polymorphism makes sense and is very useful even in languages with less rich type systems, such as [[Haskell]] and [[ML]].
+However, parametric polymorphism makes sense and is very useful even in languages with less rich type systems, such as [[Haskell]] and [[Standard ML]].
 
 ### Theorems for Free
 
