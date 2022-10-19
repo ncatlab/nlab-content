@@ -40,6 +40,7 @@ $$\frac{\Gamma, f:A \to B, y:B \vdash z:\mathrm{fiber}_{A, B}(f, y)}{\Gamma, f:A
 * [[equivalence of types]]
 * [[fiber]]
 * [[homotopy fiber]]
+* [[cofiber type]]
 
 ## References
 
