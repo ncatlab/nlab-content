@@ -230,6 +230,8 @@ in global context, which has a global element precisely when $isContr(A)\to B$ h
 
 * [[empty type]], [[falsehood]]
 
+* [[center of contraction]]
+
 ## References
 
 [[Coq]]-code for contractible types is at
