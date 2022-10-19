@@ -10,11 +10,11 @@ $$T(S)=\coprod_{n\ge0} O_n \times_{\Sigma_n} S^n.$$
 
 Such a monad $T$ is equipped with a canonical weakly [[cartesian natural transformation]] to the [[monad]] $Sym$ arising from the [[commutative operad]].
 
-[[finitary monad|Finitary monads]] correspond to [[algebraic theories]], and the analytic monads correspond to algebraic theories that are "linear regular", that is to say, they can be presented using only equations where the same variables appear on both sides and exactly once on each side (see e.g. \cite{Szawiel-Zawadowski}). 
+[[finitary monad|Finitary monads]] correspond to [[algebraic theories]], and the analytic monads correspond to algebraic theories that are "linear regular", that is to say, they can be presented using only equations where the same variables appear on both sides and exactly once on each side (see e.g. [SzawielZawadowski](#SzawielZawadowski)). 
 
 ## Properties
 
-A theorem of Joyal \cite{Joyal} states that
+A theorem of [Joyal](#Joyal) states that
 there is a [[monoidal equivalence]]
 between the [[monoidal category]] of [[endofunctors]] $Set\to Set$
 that admits a weakly [[cartesian natural transformation]] to $Sym$
@@ -36,13 +36,13 @@ A similar correspondence can be established for [[nonsymmetric operads]],
 except that we must include the data of a _cartesian_ (not weakly cartesian) transformation to the [[monad]] of the [[associative operad]],
 which is no longer unique.
 
-See Example 4.2.14 in Leinster's book \cite{Leinster}.
+See Example 4.2.14 in [Leinster's book](#Leinster).
 
 ## The homotopical case
 
 The correspondence generalizes to [[(∞,1)-categories]], with
 some statements becoming more elegant.
-See Gepner–Haugseng–Kock \cite{GHK}.
+See [Gepner–Haugseng–Kock](#GHK).
 
 ## Related concepts
 
@@ -62,4 +62,4 @@ See Gepner–Haugseng–Kock \cite{GHK}.
 
 * {#GHK} [[David Gepner]], [[Rune Haugseng]], [[Joachim Kock]], _∞-Operads as Analytic Monads_, [arXiv:1712.06469](https://arxiv.org/abs/1712.06469).
 
-* {#Szawiel-Zawadowski}[[Stanislaw Szawiel]] and [[Marek Zawadowski]], _Theories of analytic monads_, Math. Struct. Comp. Sci. 24 (2014). [arxiv:1204.2703](https://arxiv.org/pdf/1204.2703.pdf)
+* {#SzawielZawadowski} [[Stanislaw Szawiel]] and [[Marek Zawadowski]], _Theories of analytic monads_, Math. Struct. Comp. Sci. 24 (2014). [arxiv:1204.2703](https://arxiv.org/pdf/1204.2703.pdf)
