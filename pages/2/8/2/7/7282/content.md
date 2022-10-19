@@ -5,11 +5,10 @@
 ### Context
 #### Linear algebra
 +-- {: .hide}
-[[!include homotopy - contents]]
+[[!include higher linear algebra - contents]]
 =--
 =--
 =--
-
 
 # Orthogonal and orthonormal subsets
 * table of contents
