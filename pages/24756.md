@@ -75,7 +75,7 @@ $$A \vee B \coloneqq [A \uplus B]$$
 
 The logical [[implication]] of two subsingletons is defined as the [[support]] of the [[function set]] of the two subsingletons:
 
-$$A \implies B \coloneqq [A \to B]$$
+$$A \implies B \coloneqq [B^A]$$
 
 The logical [[equivalence]] of two subsingletons is defined as the [[support]] of the set of [[bijections]] of the two subsingletons:
 
@@ -83,7 +83,7 @@ $$A \iff B \coloneqq [A \simeq B]$$
 
 The logical [[negation]] of a subsingleton is defined as the [[support]] of the [[function set]] into the [[empty set]]:
 
-$$\neg A \coloneqq [A \to \emptyset]$$
+$$\neg A \coloneqq [\emptyset^A]$$
 
 The logical [[existential quantification]] of a family of subsingletons $(S_b)_{b \in B}$ ranging over the set $B$ is defined as the [[support]] of the indexed [[disjoint union]] of the family of subsingletons:
 
@@ -109,5 +109,6 @@ Similarly, the external [[law of excluded middle]] states that for any propositi
 * [[internal logic]]
 * [[dependent type theory]]
 * [[propositions as types]]
+* [[Trimble on ETCS II]]
 
 [[!include types and logic - table]]
