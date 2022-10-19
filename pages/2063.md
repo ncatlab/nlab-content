@@ -78,7 +78,7 @@ $$ \array {
 
 * [[kernel]], [[cokernel]]
 
-
+* [[fiber type]]
 
 [[!redirects fibre]]
 [[!redirects fibres]]
