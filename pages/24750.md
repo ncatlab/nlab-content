@@ -1,3 +1,25 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 \section{Idea}
@@ -104,7 +126,7 @@ $$\frac{\Gamma, x:\top \vdash C \; \mathrm{prop} \quad \Gamma \vdash c_*:C[*/x] 
 \subsection{Disjunctions}
 
 Formation rules for disjunctions:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \vee B \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{prop} \quad \Gamma \vdash B \; \mathrm{prop}}{\Gamma \vdash A \vee B \; \mathrm{prop}}$$
 
 Introduction rules for disjunctions:
 $$\frac{\Gamma \vdash a:A}{\Gamma \vdash \mathrm{inl}(a):A \vee B} \qquad \frac{\Gamma \vdash b:B}{\Gamma \vdash \mathrm{inr}(b):A \vee B}$$
@@ -122,7 +144,7 @@ $$\frac{\Gamma, z:A \vee B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c(
 \subsection{Conjunctions}
 
 Formation rules for conjunctions:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \wedge B \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{prop} \quad \Gamma \vdash B \; \mathrm{prop}}{\Gamma \vdash A \wedge B \; \mathrm{prop}}$$
 
 Introduction rules for conjunctions:
 $$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b:B}{\Gamma \vdash (a, b):A \wedge B}$$
@@ -139,7 +161,7 @@ $$\frac{\Gamma \vdash z:A \wedge B}{\Gamma \vdash \eta_\wedge:z =_{A \wedge B} (
 \subsection{Implications}
 
 Formation rules for implications:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \implies B \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{prop} \quad \Gamma \vdash B \; \mathrm{prop}}{\Gamma \vdash A \implies B \; \mathrm{prop}}$$
 
 Introduction rules for implications:
 $$\frac{\Gamma, x:A \vdash b(x):B}{\Gamma \vdash (x \mapsto b(x)):A \implies B}$$
@@ -158,7 +180,7 @@ $$\frac{\Gamma \vdash f:A \implies B}{\Gamma \vdash \eta_{\implies}:f =_{A \impl
 A negation is just an implication to false. However, we introduce separate rules for negations specifically for the use of the notation $\neg A$ rather than the longer $A \implies \bot$. 
 
 Formation rules for negations:
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \neg A  \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{prop}}{\Gamma \vdash \neg A  \; \mathrm{prop}}$$
 
 Introduction rules for negations:
 $$\frac{\Gamma, x:A \vdash b(x):\bot}{\Gamma \vdash (x \mapsto b(x)):\neg A}$$
@@ -180,7 +202,7 @@ A proposition $A$ is said to be **decidable** or satisfy **[[excluded middle]]**
 
 If every proposition is decidable or stable, then the dependent type theory is a model of classical or Boolean propositional logic. One could add one of the following rules to make the propositional logic classical:
 
-$$\frac{\Gamma \vdash A \; \mathrm{prop}}{\Gamma \vdash p:A \vee \neg A} \qquad \frac{\Gamma \vdash A \; \mathrm{prop}}{\Gamma \vdash p:\neg \neg A \implies A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{prop}}{\Gamma \vdash \mathrm{lem}_A:A \vee \neg A} \qquad \frac{\Gamma \vdash A \; \mathrm{prop}}{\Gamma \vdash \mathrm{doubleneg}_A:\neg \neg A \implies A}$$
 
 \section{See also}
 
@@ -188,3 +210,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{prop}}{\Gamma \vdash p:A \vee \neg A} \qquad 
 * [[propositional logic]]
 * [[propositions as types]]
 * [[h-proposition]]
+
+\section{References}
+
+* [[Benno van den Berg]], [[Martijn den Besten]], *Quadratic type checking for objective type theory* ([arXiv:2102.00905](https://arxiv.org/abs/2102.00905))
