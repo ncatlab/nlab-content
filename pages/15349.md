@@ -21,7 +21,7 @@ An **étendue** (also 'etendue', 'étendu', or 'etendu'; from French 'étendue' 
 
 In some papers, [[topological spaces]] are replaced by [[locales]]
 in the definition of [[étendues]].
-For example, see Definition 1.1 in Rosenthal \cite{Rosenthal} or Definition 1.12 in Kock and Moerdijk \cite{KockMoerdijk}.
+For example, see Definition 1.1 in [Rosenthal](#Rosenthal) or Definition 1.12 in [Kock and Moerdijk](#KockMoerdijk).
 
 Originally defined by [[A. Grothendieck]] in one of the famous 'excercises' of [SGA4](#SGA4) (ex. 9.8.2) as a [[Grothendieck topos]] $\mathcal{Y}$ that has a well-supported object $X$ such that the [[slice topos]] $\mathcal{Y}/X$ is equivalent to a sheaf topos on a topological space, the definition was generalized by [[Lawvere]] (1975,1976) by dropping the spatiality of the slice and require only that $\mathcal{Y}/X$ is a [[localic topos]].
 
