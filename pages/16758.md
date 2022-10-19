@@ -102,9 +102,10 @@ It is possible to define an analogous concept of _m-skeletal geometric morphism_
 
 ## References
 
-* {#Banaschewski_Pultr94}B. Banaschewski, A. Pultr, _Variants of openness_ , Appl. Cat. Struc. **2** (1994) pp.1-21.
+* {#Banaschewski_Pultr94} [[B. Banaschewski]], A. Pultr, *Variants of openness*, Appl. Cat. Struc. **2** (1994) 1-21 &lbrack;[doi:10.1007/BF00873038](https://doi.org/10.1007/BF00873038)&rbrack;
 
-* {#Banaschewski_Pultr96}B. Banaschewski, A. Pultr, _Booleanization_ , Cah. Top. G&#233;om. Diff. Cat. **XXXVII** no.1 (1996) pp.41-60. ([numdam](http://numdam.mathdoc.fr/numdam-bin/fitem?id=CTGDC_1996__37_1_41_0))
+* {#Banaschewski_Pultr96} [[B. Banaschewski]], A. Pultr, *Booleanization*, Cah. Top. G&#233;om. Diff. Cat. **XXXVII** **1** (1996)  41-60 &lbrack;[numdam:CTGDC_1996__37_1_41_0](http://numdam.mathdoc.fr/numdam-bin/fitem?id=CTGDC_1996__37_1_41_0)&rbrack;
+
 
 * [[Peter Johnstone]], _Factorization theorems for geometric morphisms II_ , pp.216-233 in LNM **915** Springer Heidelberg 1982.
 
