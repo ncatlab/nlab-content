@@ -25,6 +25,7 @@
 | [[existential quantification]] | indexed [[disjoint union]] ([[support]] of) | [[dependent sum]] ([[(-1)-truncation]] of) | [[dependent sum type]] ([[bracket type]] of) |
 | [[logical equivalence]] | [[bijection]] | [[isomorphism]]/[[adjoint equivalence]] | [[equivalence of types]] |
 |  | [[support]] | [[support object]]/[[(-1)-truncation]] | [[propositional truncation]]/[[bracket type]]
+| | | [[n-image]] of [[morphism]] into [[terminal object]]/[[n-truncation]] | [[n-truncation modality]]
 | | [[equality]]/[[equivalence relation]] |[[path space object]] | [[identity type]]/[[path type]] |
 | | [[equivalence class]]/[[quotient set]] | [[quotient]] | [[quotient type]] |
 | [[induction]] | |[[colimit]] | [[inductive type]], [[W-type]], [[M-type]] |
