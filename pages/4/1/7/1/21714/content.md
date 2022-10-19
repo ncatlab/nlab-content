@@ -5,7 +5,7 @@
 ### Context
 #### Linear algebra
 +-- {: .hide}
-[[!include homotopy - contents]]
+[[!include higher linear algebra - contents]]
 =--
 #### Group theory
 +-- {: .hide}
@@ -43,7 +43,7 @@ Equivalently, a [[torsion-free]] [[divisible group]].
 
 ## References
 
-* Phillip A. Griffith (1970), Infinite Abelian group theory. Chicago Lectures in Mathematics. University of Chicago Press. ISBN 0-226-30870-7
+* Phillip A. Griffith, *Infinite Abelian group theory* Chicago Lectures in Mathematics. University of Chicago Press. (1970) &lbrack;ISBN 0-226-30870-7&rbrack;
 
 [[!redirects rational vector spaces]]
 [[!redirects torsion-free divisible group]]
