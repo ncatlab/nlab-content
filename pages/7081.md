@@ -31,6 +31,10 @@ For $A$ a type, let $isProp(A)$ denote the [[dependent product]] of the [[identi
 
 $$ isProp(A) \coloneqq \prod_{x\colon A} \prod_{y\colon A} (x=y) $$
 
+or 
+
+$$ isProp(A) \coloneqq \prod_{x\colon A \times A} (pr_1(x)=pr_2(x)) $$
+
 We say that $A$ is an h-proposition if $isProp(A)$ is an [[inhabited type]].
 
 =--
