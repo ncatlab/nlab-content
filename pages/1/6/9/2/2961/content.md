@@ -13,7 +13,7 @@ This page collects links related to the book
 
   [tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html)
 
-  [book webpage](http://katmat.math.uni-bremen.de/acc/), [pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf)
+  [book webpage](http://katmat.math.uni-bremen.de/acc/), [pdf](http://www.tac.mta.ca/tac/reprints/articles/17/tr17.pdf)
 
 on [[category theory]]
 
