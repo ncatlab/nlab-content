@@ -30,7 +30,7 @@
 
 Introducing [[model category]]-theory for [[homotopy theory]]:
 
-* [[Daniel Quillen]], _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
+* {#Quillen67} [[Daniel Quillen]], _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp ([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438)).
 
 On [[rational homotopy theory]]:
 
