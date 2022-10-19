@@ -307,6 +307,8 @@ In all forms of [[dependent type theory]] with [[identity types]], [[dependent p
 * [[propositions as types]]
 * [[h-proposition]]
 * [[type of propositions]]
+* [[two-level type theory]]
+* [[type theory with shapes]]
 
 \section{Bibliography}
 
