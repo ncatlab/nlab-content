@@ -111,8 +111,7 @@ Other aspects are treated in
 [Logical Methods in Computer Science](http://www.lmcs-online.org/ojs/about.php) is an open access journal for papers on Theoretical Computer Science and other areas of Computer Science in which logical methods play a large part.
 
 
-category: computer science
-category: software
+category: computer science, software
 
 [[!redirects computer science]]
 [[!redirects programming theory]]
