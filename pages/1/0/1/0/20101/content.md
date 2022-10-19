@@ -112,6 +112,8 @@ On [[flavour anomalies]]:
 
 * [[LHCb collaboration]] *Tests of lepton universality using $B^0 \to K^0_S l^+ l^-$− and $B^+ \to K^\ast \ell^+ \ell^-$ decays* ([arXiv:2110.09501](https://arxiv.org/abs/2110.09501))
 
+* Gregory Max Ciezarek on behalf of the [[LHCb collaboration]]: *First joint measurement of $R(D^\ast)$ and $R(D^0)$ at LHCb*, LHC seminar (2022) &lbrack;[indico:1187939](https://indico.cern.ch/event/1187939), slides: [pdf](https://indico.cern.ch/event/1187939/attachments/2530158/4353109/dtaunu_CERNSeminar.pdf)&rbrack;
+
 
 survey:
 
