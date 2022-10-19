@@ -680,6 +680,15 @@ The particular conclusion (eq:ShapeEquivalentToDiscreteSmoothSingularComplex) is
 
 * {#Bunk20} [[Severin Bunk]], Section 3 of: *The $\mathbb{R}$-Local Homotopy Theory of Smooth Spaces* ([arXiv:2007.06039](https://arxiv.org/abs/2007.06039))
 
+The "smooth Oka principle" is also proven (Theorem B) in:
+
+* {#Clough21} [[Adrian Clough]], *A Convenient Category for Geometric Topology*, PhD thesis, UT Austin (2021) &lbrack;[pdf](https://repositories.lib.utexas.edu/bitstream/handle/2152/114981/CLOUGH-DISSERTATION-2021.pdf), [[Clough-ConvenientCategory.pdf:file]]&rbrack;
+
+Talk notes:
+
+* [[Adrian Clough]], *The smooth Oka principle*, talk at [[CQTS]] (Oct 2022) &lbrack;[pdf](https://github.com/adrianclough/adrianclough.github.io/raw/main/The%20smooth%20Oka%20principle%206.pdf)&rbrack;
+
+
 The special case of the smooth path $\infty$-groupoid (Def. \ref{PathInfinityGroupoid})
 applied to [[diffeological spaces]] (among all [[smooth infinity-groupoids|smooth $\infty$-groupoids]]), was considered also in:
 
@@ -689,9 +698,7 @@ Application of the theorem to a (orbi-)smooth Oka principle and to the classific
 
 * {#SS21} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]* $[$[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)$]$
 
-The "smooth Oka principle" is also proven (Theorem B) in:
 
-* {#Clough21} [[Adrian Clough]], *A Convenient Category for Geometric Topology*, PhD thesis, UT Austin (2021) &lbrack;[pdf](https://repositories.lib.utexas.edu/bitstream/handle/2152/114981/CLOUGH-DISSERTATION-2021.pdf), [[Clough-ConvenientCategory.pdf:file]]&rbrack;
 
 [[!redirects shape via cohesive path ∞-groupoids]]
 
