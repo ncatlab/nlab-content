@@ -22,4 +22,5 @@ If an antisymmetric relation is also [[reflexive relation|reflexive]] (as most a
 
 * [[internal antisymmetric relation]]
 
+[[!redirects antisymmetry]]
 [[!redirects antisymmetric relations]]
