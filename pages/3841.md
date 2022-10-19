@@ -140,7 +140,7 @@ In this case,
 a category is locally $\lambda$-presentable
 if and only if it is locally $\lambda^+$-presentable.
 
-Reference: Proposition 5.6 in \cite{Rezk2021}.
+Reference: Proposition 5.6 in [Rezk2021](#Rezk2021).
 
 ## Related concepts
 
