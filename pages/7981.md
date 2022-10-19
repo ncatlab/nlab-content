@@ -89,10 +89,14 @@ Not really references on this subject, but ones referred to in the text:
 
 
 
-[[!redirects pure state]]
 [[!redirects pure states]]
+
+[[!redirects pure quantum state]]
+[[!redirects pure quantum states]]
 
 [[!redirects mixed state]]
 [[!redirects mixed states]]
 
+[[!redirects mixed quantum state]]
+[[!redirects mixed quantum states]]
 
