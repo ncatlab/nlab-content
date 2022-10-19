@@ -1,7 +1,14 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/David_Hilbert)
 
-## Resources
+## Selected writings
+
+On the mathematical foundations of [[quantum mechanics]]:
+
+* {#HilbertvonNeumannNordheim} [[David Hilbert]], [[John von Neumann]], [[Lothar W. Nordheim]], *Über die Grundlagen der Quantenmechanik*,  Math. Ann. **98** (1928) 1–30 &lbrack;[doi:10.1007/BF01451579](https://doi.org/10.1007/BF01451579)&rbrack;
+
+
+## Further resources
 
 * the (English translation) of the lecture of David Hilbert at the International Congress of Mathematicians at Paris in 1900 (with the list of  "Hilbert's problems") is [here](http://aleph0.clarku.edu/~djoyce/hilbert/problems.html)
 
