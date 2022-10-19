@@ -376,7 +376,7 @@ Accordingly [[homological algebra]] with its [[derived categories]] and [[derive
 
 * [[model structures on dg-algebras]]
 
-In fact, the original definition of model categories in \cite{Quillen1967} was motivated by the [[analogy]] between constructions in [[homotopy theory]] and [[homological algebra]].
+In fact, the original definition of model categories in [Quillen67](#Quillen67) was motivated by the [[analogy]] between constructions in [[homotopy theory]] and [[homological algebra]].
 
 ### Categorical model structures
 
