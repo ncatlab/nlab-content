@@ -86,7 +86,7 @@ Hochschild Homology and Formal Groups_ Cont. Math., vol 189, AMS, 1992 ([pdf](ht
 
 Discussion in the context of [[BV-quantization]] is in section 2.5 of 
 
-* [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
+* [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](https://people.math.umass.edu/~gwilliam/thesis.pdf))
  {#Gwilliam}
 
 
