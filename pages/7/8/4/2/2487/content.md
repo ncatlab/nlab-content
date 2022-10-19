@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
+#### Linear algebra
++-- {: .hide}
+[[!include higher linear algebra - contents]]
+=--
 =--
 =--
 
