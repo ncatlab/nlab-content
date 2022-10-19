@@ -140,7 +140,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 \linebreak
 
 
-## CQTS Colloquium
+## Quantum Colloquium
  {#CQTSColloquium}
 
 
@@ -238,7 +238,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 
 
-## GTP Seminar
+## Geometry, Topology & Physics (GTP) Seminar
  {#GTPSeminar}
 
 **Geometry, Topology and Physics Seminar**
