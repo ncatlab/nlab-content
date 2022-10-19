@@ -320,9 +320,11 @@ In a post to the [Homotopy Type Theory Google Group](https://groups.google.com/f
 
 * [[univalent type theory]]
 
-* Univalence is closely related to the "completeness" condition in the theory of [[Segal spaces]]/[[semi-Segal spaces]]. See _[[complete Segal space]]_/_[[complete semi-Segal space]]_.
+* [[extensionality]]
 
-* [[propositional extensionality]]
+  * Univalence is closely related to the "completeness" condition in the theory of [[Segal spaces]]/[[semi-Segal spaces]]. See _[[complete Segal space]]_/_[[complete semi-Segal space]]_.
+
+  * [[propositional extensionality]]
 
 * contrary to univalence is the [[axiom UIP]]
 
