@@ -17,7 +17,7 @@ There are many principles in mathematics called 'extensionality'; what these pri
 
 There are other notions in mathematics which could be considered to be an extensionality principle. Examples include
 
-* [[extensional relations]]
+* [[extensional relations]] and [[bisimulation]]
 
 * [[antisymmetry]] (for elements of a [[poset]])
 
