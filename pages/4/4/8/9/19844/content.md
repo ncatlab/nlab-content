@@ -644,7 +644,9 @@ Saad Nabeebaccus, Roman Zwicky, *On the $R_K$ Theory Error* &lbrack;[arXiv:2209.
 
 * {#LHCb2012} [[LHCb collaboration]], _Angular analysis of the $B^+ \to K^{\ast + } \mu^+ \mu^-$ decay_ ([arXiv:2012.13241](https://arxiv.org/abs/2012.13241))
 
-* {#LHCB21} [[LHCb collaboration]] *Tests of lepton universality using $B^0 \to K^0_S l^+ l^-$− and $B^+ \to K^\ast \ell^+ \ell^-$ decays* ([arXiv:2110.09501](https://arxiv.org/abs/2110.09501))
+* {#LHCB21} [[LHCb collaboration]], *Tests of lepton universality using $B^0 \to K^0_S l^+ l^-$− and $B^+ \to K^\ast \ell^+ \ell^-$ decays* ([arXiv:2110.09501](https://arxiv.org/abs/2110.09501))
+
+* Gregory Max Ciezarek on behalf of the [[LHCb collaboration]]: *First joint measurement of $R(D^\ast)$ and $R(D^0)$ at LHCb*, LHC seminar (2022) &lbrack;[indico:1187939](https://indico.cern.ch/event/1187939), slides: [pdf](https://indico.cern.ch/event/1187939/attachments/2530158/4353109/dtaunu_CERNSeminar.pdf)&rbrack;
 
 More accurate predictions from [[lattice QCD]] of the expected branching ratios:
 
