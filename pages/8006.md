@@ -23,7 +23,7 @@
 
 ## Idea
 
-The notion of [[bimodule]] makes sense [[internalization|internal]] to a [[monoidal category]] or a [[monoidal (infinity,1)-category]].
+The notion of [[biaction]] or [[bimodule]] makes sense [[internalization|internal]] to a [[monoidal category]] or a [[monoidal (infinity,1)-category]].
 
 ## Definition 
 
@@ -31,7 +31,7 @@ The notion of [[bimodule]] makes sense [[internalization|internal]] to a [[monoi
 
 Let $V$ be a [[closed monoidal category]]. Recall that for $C$ a category [[enriched category|enriched over]] $V$, a $C$-[[module object]] in $V$ is a $V$-functor $\rho : C \to V$. We think of the objects $\rho(a)$ for $a \in Obj(C)$ as the objects on which $C$ acts, and of $\rho(C(a,b))$ as the action of $C$ on these objects.
 
-In this language a $C$-$D$ _bimodule object_ in $V$ for $V$-enriched categories $C$ and $D$ is a $V$-functor
+In this language a $C$-$D$ _bimodule object_ or _biaction object_ in $V$ for $V$-enriched categories $C$ and $D$ is a $V$-functor
 
 $$
   C^{op} \otimes D \to V
@@ -67,3 +67,5 @@ Second: bimodule objects are not that much good unless you can compose them; for
 * [[Bimod]]
 
 [[!redirects bimodule objects]]
+[[!redirects biaction object]]
+[[!redirects biaction objects]]
