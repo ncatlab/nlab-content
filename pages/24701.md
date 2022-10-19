@@ -372,7 +372,11 @@ In essence, we define an element $b$ to be equal to $a$, and a type $B$ to be eq
 
 ### Transport
 
-...
+Transport is the statement that given a type family $P$ indexed by $A$, elements $a:A$ and $b:A$ which are identified with each other $p:a =_A b$, there is an equivalence $\mathrm{trans}^P(a, b, p):P(a) \simeq P(b)$ between the types $P(a)$ and $P(b)$. This is inductively defined on reflexivity on $a:A$, which transport takes to the identity function on $P(a)$, $\mathrm{trans}^P(a, a, \mathrm{refl}_A(a)) =_{P(a) \simeq P(a)} id_{P(a)}$. 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b}{\Gamma \vdash \mathrm{trans}^P(a, b, p):P[a/x] \simeq P[b/x]}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{trans}^P(a, a, \mathrm{refl}_A(a)) =_{P[a/x] \simeq P[a/x]} \mathrm{id}_{P[a/x]}}$$
 
 ### Universes
 
