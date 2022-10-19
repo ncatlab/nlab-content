@@ -40,12 +40,6 @@ Note that we may prove, using the [[axiom of separation]] (bounded separation is
 
 * [[extensionality]]
 
-* [[product extensionality]]
-
-* [[function extensionality]]
-
-* [[univalence]] (universe extensionality)
-
 category: foundational axiom
 
 [[!redirects axiom of extensionality]]
