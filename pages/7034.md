@@ -32,15 +32,7 @@ In [[homotopy type theory]], the propositional truncation of a type $A$ is defin
 
 $$isinhab\colon A \to [A]$$
 
-$$proptrunc \colon \prod_{x:A} \prod_{y:A} isinhab(x) =_{[A]} isinhab(y)$$
-
-There is another definition which only uses one [[dependent product type]] and a [[product type]], rather than two dependent product types
-
-$$isinhab\colon A \to [A]$$
-
-$$proptrunc \colon \prod_{x:A \times A}isinhab(pr_1(x)) =_{[A]} isinhab(pr_2(x))$$
-
-This second definition makes it clear that the propositional truncation is a special kind of [[pushout type]] or [[coequalizer type]]. 
+$$proptrunc \colon \prod_{x:A} \prod_{y:A} isinhab(x) =_{[A]} isinhab(y)$$ 
 
 ### More generally
 
