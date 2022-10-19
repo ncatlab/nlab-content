@@ -3,9 +3,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Higher linear algebra
+#### Linear algebra
 +-- {: .hide}
-[[!include homotopy - contents]]
+[[!include higher linear algebra - contents]]
 =--
 #### Homological algebra
 +--{: .hide}
