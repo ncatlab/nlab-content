@@ -13,52 +13,183 @@
 * table of contents
 {:toc}
 
+
 ## Idea
+ {#Idea}
 
->_Dr. von Neumann, ich m&#246;chte gerne wissen, was ist denn eigentlich ein Hilbertscher Raum ?_  [^Hilbert]
+>_Dr. von Neumann, ich möchte gerne wissen, was ist denn eigentlich ein Hilbertscher Raum ?_  [^Hilbert]
 
-[^Hilbert]: Translation: _Dr. von Neumann, I would like to know what is a Hilbert space?_ -- Question asked by [[David Hilbert]] in a 1929 talk by [[John von Neumann]] in G&#246;ttingen. The anecdote is narrated together with additional information on the introduction of [[adjoint operators]] to [[quantum mechanics]] by [[Saunders Mac Lane]] in _Concepts and Categories_ ([link](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf), p.330). Note, that we have corrected 'dann' in the original quotation to the more likely 'denn' (in either case expressing a certain sense of puzzlement that's not quite captured by the English translation offered above).
+[^Hilbert]: Translation: _Dr. von Neumann, I would like to know what is a Hilbert space?_ -- Question asked by [[David Hilbert]] in a 1929 talk by [[John von Neumann]] in Göttingen. The anecdote is narrated together with additional information on the introduction of [[adjoint operators]] to [[quantum mechanics]] by [[Saunders Mac Lane]] in _Concepts and Categories_ ([link](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf), p.330). Note, that we have corrected 'dann' in the original quotation to the more likely 'denn' (in either case expressing a certain sense of puzzlement that's not quite captured by the English translation offered above).
 
-A Hilbert space is a ([[real vector space|real]] or,  usually, [[complex vector space|complex]]) [[inner product space]], possibly of infinite [[dimension of a vector space|dimension]] which, as a [[topological space]], is [[complete metric space|complete]] with respect to the induced [[metric]].
+A Hilbert space is (see Def. \ref{HilbertSpace} for details):
 
-Hilbert spaces are central to [[quantum physics]] and specifically to [[quantum mechanics]], where they serve as [[space of quantum states|spaces of]] [[pure states]].
+1. a ([[real vector space|real]] or,  usually, [[complex vector space|complex]]) [[vector space]], possibly of infinite [[dimension of a vector space|dimension]],
 
-Hilbert spaces form a [[category]] in various ways, often denoted *[[Hilb]]* or similar.
+1. equipped with a positive definite [[Hermitian form|Hermitian]] [[inner product]], 
 
-See also
+2. which, as a [[topological space]], is [[complete metric space|complete]] with respect to the induced [[metric]].
+
+Hilbert spaces are central to [[quantum physics]] and specifically to [[quantum mechanics]], where they serve as [[space of quantum states|spaces of]] [[pure quantum states]]. Here the [[inner product]] encodes the [[probability amplitudes]] for one [[pure state]] to "[[collapse of the wavefunction|collaps]]" to another one under [[quantum measurement|measurement]]. When the space of pure states is of [[finite-dimensional vector space|finite dimension]] (as is the case of interest in [[quantum information theory]]/[[quantum computation]]) then the completeness condition on a Hilbert space is automatic (see Rem. \ref{FiniteDimensionalInnerProductSpaces} below), otherwise it naturally encodes the possibility of an infinite number of [[quantum measurement|measurement]] outcomes.
+
+Hilbert spaces form a ([[dagger category|dagger]]-)[[category]] in various ways, often denoted *[[Hilb]]* or similar, with the [[dagger-category|dagger]]-structure given by sending [[linear maps]] to their [[adjoint operators]] with respect to the Hermitian inner product. Finite-dimensional Hilbert spaces form a [[dagger-compact category]].
+
+See also:
 
 * [[an elementary treatment of Hilbert spaces]].
 
-## Definitions
 
-Let $V$ be a [[vector space]] over the field of [[complex numbers]].  (One can generalise the choice of [[field]] somewhat.)  An __inner product__ (in the most general, possibly indefinite, sense) on $V$ is a function
-$$ \langle {-},{-} \rangle: V \times V \to \mathbb{C} $$
-that is (1--3) _sesquilinear_ and (4) _conjugate-symmetric_; that is:
+## Definition
+ {#Definition}
 
-1.  $ \langle 0, x \rangle = 0 $ and $ \langle x, 0 \rangle = 0 $;
-1.  $ \langle x + y, z \rangle = \langle x, z \rangle + \langle y, z \rangle $ and $ \langle x, y + z \rangle = \langle x, y \rangle + \langle x, z \rangle $;
-1.  $ \langle c x, y \rangle = \bar{c} \langle x, y \rangle $ and $ \langle x, c y \rangle = c \langle x, y \rangle $;
-1.  $ \langle x, y \rangle = \overline{\langle y, x \rangle} $.
+\begin{definition}\label{HilbertSpace}
+**(Hilbert space)**
+\linebreak
 
-Here we use the _physicist\'s convention_ that the inner product is conjugate-linear in the first variable rather than in the second, rather than the _mathematician\'s convention_, which is the reverse.  The physicist\'s convention fits in a little better with $2$-[[2-Hilbert space|Hilbert space]]s.  Note that we use the same field as values of the inner product as for [[scalars]]; the complex conjugation will be irrelevant for some choices of field.
+A **Hilbert space** $\big(\mathscr{H}, \langle -,-\rangle\big)$ is a ([[complex vector space|complex]] or [[real vector space|real]]) [[vector space]] $\mathscr{H}$ (possibly infinite-[[dimension of a vector space|dimensional]]) 
 
-The axiom list above is rather redundant.  First of all, (1) follows from (3) by setting $c = 0$; besides that, (1--3) come in pairs, only one of which is needed, since each half follows from the other using (4).  It is even possible to derive (3) from (2) by supposing that $V$ is a [[topological vector space]] and that the inner product is continuous (which, as we will see, is always true anyway for a Hilbert space).
+* equipped with a [[Hermitian form|Hermitian]] [[inner product]] $\langle -,- \rangle$ (Def. \ref{HermitianInnerProduct})
 
-The next concept to define is (semi)definiteness.  We define a function $\|{-}\|^2: V \to \mathbb{C}$ by $\|x\|^2 = \langle x, x \rangle$; in fact, $\|{-}\|^2$ takes only real values, by (4).
-*  The inner product is __positive semidefinite__, or simply __positive__, if $\|x\|^2 \geq 0$ always.
-*  Notice that (by 1), $\|x\|^2 = 0$ if $x = 0$; the inner product is __definite__ if the converse holds.
-*  An inner product is __positive definite__ if it is both positive and definite.
-*  As an aside, there are also _negative (semi)definite_ inner products, which are slightly less convenient but not really different.  An inner product is _indefinite_ if some $\|x\|^2$ are positive and some are negative; these have a very different flavour.
+which is
 
-The inner product is __complete__ if, given any infinite [[sequence]] $(v_1, v_2, \ldots)$ such that
-\[ \label{Cauchy} \lim_{m,n\to\infty} \left\|\sum_{i=m}^{m+n} v_i\right\|^2 = 0 ,\]
-there exists a (necessarily unique) **sum** $S$ such that
-\[ \label{converge} \lim_{n\to\infty} \left\|S - \sum_{i=1}^n v_i\right\|^2 = 0 .\]
-If the inner product is definite, then this sum, if it exists, must be unique, and we write
-$$ S = \sum_{i=1}^\infty v_i $$
+1. complete (Def. \ref{CompleteInnerProduct});
+
+1. positive definite (Def. \ref{DefiniteInnerProduct}).
+
+\end{definition}
+
+\begin{remark}\label{FiniteDimensionalInnerProductSpaces}
+**(finite-dimensional Hilbert space)**
+\linebreak
+  In the case that the underlying vector space $\mathscr{H}$ happens to be [[finite dimensional vector space]], any hermitian inner product is necessarily complete. Therefore: 
+
+A *finite-dimensional Hilbert space* is equivalently a positive-definite hermitian inner product space of finite dimension.
+
+Finite-dimensional Hilbert spaces form a [[dagger-compact category]] and play a central role in [[quantum information theory]] and [[quantum computation]], see also at *[[finite quantum mechanics in terms of dagger-compact categories]]*.
+\end{remark}
+
+\linebreak
+
+We recall now the meaning of the concepts entering Def. \ref{HilbertSpace}. In the following, let $\mathcal{H}$ be a [[vector space]] over the [[ground field]] $\mathbb{C}$ of [[complex numbers]]. For $z \in \mathbb{C}$ a [[complex number]], we write $\overline{z}$ for its [[complex conjugate]].
+
+
+\begin{remark}\label{AlternativeGroundFields}
+**(alternative ground fields)**
+\linebreak
+The following applies verbatim also for the ground field of [[real numbers]] $\mathbb{R}$, in which case the sesquilinear inner product [below](#HermitianInnerProduct) becomes [[bilinear form|bilinear]] and one speaks of *real Hilbert spaces*. Under mild assumptions, $\mathbb{C}$ and $\mathbb{R}$ are the only possible [[ground fields]] for Hilbert spaces (see [MO:a/4184099](https://math.stackexchange.com/a/4184099/58526)).
+\end{remark}
+
+
+\begin{definition}\label{HermitianInnerProduct}
+**(Hermitian inner product)**
+\linebreak
+A *[[Hermitian form|Hermitian]] [[inner product]]* on $\mathscr{H}$ is a function
+
+$$ 
+  \langle {-},{-} \rangle
+  \;\colon\; 
+  \mathscr{H} \times \mathscr{H} \to \mathbb{C} 
+$$
+
+that is
+
+1. **sesquilinear**:
+
+   1. $ \langle 0, x \rangle = 0 $ and $ \langle x, 0 \rangle = 0 $;
+
+   1.  $ \langle x + y, z \rangle = \langle x, z \rangle + \langle y, z \rangle $ and $ \langle x, y + z \rangle = \langle x, y \rangle + \langle x, z \rangle $;
+
+   1.  $ \langle c x, y \rangle = \bar{c} \langle x, y \rangle $ and $ \langle x, c y \rangle = c \langle x, y \rangle $;
+
+1. **conjugate-symmetric**:
+
+   \[
+     \label{ConjugateSymmetryOfInnerProduct}
+     \langle x, y \rangle = \overline{\langle y, x \rangle} 
+   \]
+
+
+\end{definition}
+
+\begin{remark}\label{ConventionsForInnerProduct}
+**(convention for the inner product)**
+\linebreak
+Def. \ref{HermitianInnerProduct} uses the _physicist\'s convention_ that the inner product is conjugate-linear in the first variable rather than in the second, instead of the _mathematician\'s convention_, which is the reverse.  The physicist\'s convention fits in a little better with $2$-[[2-Hilbert space|Hilbert spaces]]. 
+\end{remark}
+
+\begin{remark}
+The axiom list in Def. \ref{HermitianInnerProduct} is rather redundant.  First of all, (1.1) follows from (1.3) by setting $c = 0$; besides that, (1.1--1.3) come in pairs, only one of which is needed, since each half follows from the other using (2).  It is even possible to derive (1.3) from (1.2) by supposing that $V$ is a [[topological vector space]] and that the inner product is [[continuous function|continuous]] (which, as we will see, is always true anyway for a Hilbert space).
+\end{remark}
+
+\begin{definition}\label{DefiniteInnerProduct}
+**(definite inner product)**
+\linebreak
+Given an inner product according to Def. \ref{HermitianInnerProduct}, consider the (norm square)
+function 
+
+$$
+  \array{
+    \mathllap{
+    \|{-}\|^2 
+    \;\colon\;
+    }
+    \mathscr{H} &\longrightarrow& 
+    \mathbb{R}
+    \hookrightarrow
+    \mathbb{C}
+    \\
+    v &\mapsto&
+    \langle v, v \rangle
+  }
+$$ 
+
+Notice that this takes only real values, by (eq:ConjugateSymmetryOfInnerProduct).
+
+The [[Hermitian form|Hermitian]] [[inner product]] is called:
+
+* **positive semidefinite**, or simply **positive**, if $\|v\|^2 \geq 0$ for all $v \in \mathscr{H}$;
+
+
+* **non-degenrate** if $\|v\|^2 = 0$ implies that $v = 0$;
+
+* **positive definite** if it is both positive and non-degenerate.
+
+\end{definition}
+
+\begin{remark}
+An inner product is called _indefinite_ if some $\|v\|^2$ are positive and some are negative.
+\end{remark}
+
+\begin{definition}\label{CompleteInnerProduct}
+**(complete inner product)**
+\linebreak
+The inner product (Def. \ref{HermitianInnerProduct}) is __complete__ if, given any infinite [[sequence]] $(v_1, v_2, \ldots)$ in $\mathscr{V}$ such that we have the [[limit of a sequence|limit]]
+
+\[ 
+  \label{Cauchy} 
+  \lim_{m,n\to\infty} 
+  \left\|\sum_{i=m}^{m+n} v_i\right\|^2 = 0
+  \,,
+\]
+
+then there exists a (necessarily unique) *[[sum]]* $S$ such that
+
+\[ 
+  \label{converge} 
+  \lim_{n\to\infty} \left\|S 
+  - 
+  \sum_{i=1}^n v_i\right\|^2 = 0
+  \,.
+\]
+
+If the inner product is definite (Def. \ref{DefiniteInnerProduct}), then this sum, if it exists, must be unique, and we write
+
+$$ 
+  S = \sum_{i=1}^\infty v_i 
+$$
+
 (with the right-hand side undefined if no such sum exists).
 
-Then a __Hilbert space__ is simply a vector space equipped with a complete positive definite inner product.
+\end{definition}
 
 
 ### Hilbert spaces as Banach spaces
@@ -120,10 +251,11 @@ The [[L-2-spaces|L-]] Hilbert spaces $L^2(\mathbb{R})$, $L^2([0,1])$, $L^2(\math
 * [[canonical Hilbert space of half-densities]]
 
 ## Properties
+ {#Properties}
 
 ### Bases
 
-A basic result is that abstractly, Hilbert spaces are all of the same type: every Hilbert space $H$ admits an orthonormal basis, meaning a [[subset]] $S \subseteq H$ whose inclusion map extends (necessarily uniquely) to an isomorphism
+A basic result is that abstractly, Hilbert spaces of the same dimension are all of the same type: every Hilbert space $H$ admits an [[orthonormal basis]], meaning a [[subset]] $S \subseteq H$ whose inclusion map extends (necessarily uniquely) to an isomorphism
 $$l^2(S) \to H$$
 of Hilbert spaces. Here $l^2(S)$ is the vector space consisting of those [[function]]s $x$ from $S$ to the scalar field such that
 $$ \|x\|^2 = \sum_{u: S} |x_u|^2 $$
