@@ -92,7 +92,7 @@ See [[straightening functor]] for more details.
 
 ## Examples 
 
-* Let $\VBun$ be the category having objects pairs $(M,V)\in\Man\times\Man$ where $q:V\longrightarrow M$ is a [[vector bundle|vector bundle]] over $M$. A morphism $(M_{1},V_{1})\longrightarrow (M_{2},V_{2})$ is a [[commutative square|commutative square]]: 
+* Let $\VBun$ be the category having objects pairs $(M,V)\in\Man\times\Man$ of [[manifold|manifolds]] where $q:V\longrightarrow M$ is a [[vector bundle|vector bundle]] over $M$. A morphism $(M_{1},V_{1})\longrightarrow (M_{2},V_{2})$ is a [[commutative square|commutative square]]: 
 \begin{center}
 \begin{tikzcd}
 V_{1} \arrow[r, "g"] \arrow[d, "q_{1}"'] & V_{2} \arrow[d, "q_{2}"] \\
