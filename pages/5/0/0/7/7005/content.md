@@ -469,3 +469,5 @@ For more references see _[[homotopy type theory]]_.
 [[!redirects univalent universe]]
 [[!redirects univalent universes]]
 
+[[!redirects universe extensionality]]
+
