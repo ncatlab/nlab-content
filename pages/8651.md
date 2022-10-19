@@ -47,7 +47,6 @@ A foundation for [[algebraic topology]] in this practical spirit is laid out in
 * {#EilenbergSteenrod} [[Samuel Eilenberg]], [[Norman Steenrod]], _[[Foundations of Algebraic Topology]]_
   
 
-
 [[!redirects practical foundation]]
 [[!redirects practical foundations]]
 [[!redirects practical foundations of mathematics]]
