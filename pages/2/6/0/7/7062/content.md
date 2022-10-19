@@ -105,4 +105,8 @@ Uniqueness rules for the interval type:
 * [[Mike Shulman]], _An interval type implies functional extensionality_ ([blog post](http://homotopytypetheory.org/2011/04/04/an-interval-type-implies-function-extensionality/))
  {#Shulman}
 
+Another proof that the interval type with definitional [[eta-conversion]] rules for point constructors could be found here
+
+* Carlo Angiuli, _Univalence implies function extensionality_ ([blog](http://homotopytypetheory.org/2011/12/05/hott-in-prose/), [pdf](http://hottheory.files.wordpress.com/2011/12/hott2.pdf))
+
 [[!redirects interval types]]
