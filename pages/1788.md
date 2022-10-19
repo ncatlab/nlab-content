@@ -61,3 +61,38 @@ M \arrow[rr, bend right, shift right] \arrow[r, "g"]        & M_{1} \arrow[r]   
 It immediately follows from the above unfolding of the definition that $\VBun(e'',e')\cong\VBun(e'',p)$ naturally in $e''$, where $p$ is the pullback bundle of $V_{2}\longrightarrow M_{2}$ along $M_{1}\longrightarrow M_{2}$, and thus by the [[Yoneda lemma#YonedaCorollaries|Yoneda lemma]] $e'\cong p$, and thus $V_{1}\cong\mathcal{P}(e')^{*}V_{2}$. Note that the isomorphisms $e'\cong p$ preserve the commutativity of the diagrams we have drawn above by the universal property of the pullback, and by the definition of a cartesian morphism. Now that we have identified the cartesian morphisms, the statement that $\mathcal{P}:\VBun\longrightarrow\Man$ is a Grothendieck fibration is equivalent to the statement that vector bundles can be pulled back along smooth maps. This is of course true, and thus $\mathcal{P}:\VBun\longrightarrow\Man$ is a Grothendieck fibration.
 
 The associated functors $f^{*}$ are the [[pullback#PullbackFunctor|pullback psuedofunctors]] $f^{*}:\VBun_{M_{2}}\longrightarrow \VBun_{M_{1}}$ that pullback vector bundles over a manifold $M_{2}$ to vector bundles over a manifold $M_{1}$ along a smooth map $f:M_{1}\longrightarrow M_{2}$.
+
+## Test
+
+| [[logic]] | [[set theory]] | [[category theory]] | [[type theory]] |
+|-----------|---------------------|-----------------|-----------------|
+| [[true]]  | [[singleton]] | [[terminal object]]/[[(-2)-truncated object]] | [[h-level 0]]-[[type]]/[[unit type]] | 
+| [[false]] | [[empty set]] | [[initial object]] | [[empty type]] |
+| [[proposition]], [[truth value]] | [[subsingleton]] | [[(-1)-truncated object]] | [[h-proposition]], [[mere proposition]] |
+| [[proof]] | [[element]] | [[generalized element]] | [[program]] |
+| [[cut rule]] |  | [[composition]] of [[classifying morphisms]] / [[pullback]] of [[display maps]] | [[substitution]] |
+| [[cut elimination]] for [[implication]] | | [[counit]] for hom-tensor adjunction | [[beta reduction]] |
+| introduction rule for [[implication]] | | [[unit]] for hom-tensor adjunction | [[eta conversion]] |
+| [[logical conjunction]] | [[cartesian product]] of [[subsingletons]] |[[product]] | [[product type]] |
+| [[disjunction]] | [[support]] of [[disjoint union]] of [[subsingletons]] |[[coproduct]] ([[(-1)-truncation]] of) | [[sum type]] ([[bracket type]] of) |
+| [[implication]] | [[function set]] of [[subsingletons]] | [[internal hom]] | [[function type]] |
+| [[negation]] | [[function set]] into [[empty set]] | [[internal hom]] into [[initial object]] | [[function type]] into [[empty type]] |
+| [[universal quantification]] | indexed [[cartesian product]] | [[dependent product]] | [[dependent product type]] |     
+| [[existential quantification]] | [[support]] of indexed [[disjoint union]] | [[dependent sum]] ([[(-1)-truncation]] of) | [[dependent sum type]] ([[bracket type]] of) |
+| | [[equivalence]] |[[path space object]] | [[identity type]]/[[path type]] |
+|  | [[support]] | [[support object]] | [[propositional truncation]]/[[bracket type]]
+| | [[equivalence class]] | [[quotient]] | [[quotient type]] |
+| | [[induction]] | |[[colimit]] | [[inductive type]], [[W-type]], [[M-type]] |
+| | higher [[induction]] | [[(infinity,1)-colimit|higher colimit]] | [[higher inductive type]] |
+| - | |  [[0-truncated]] [[(infinity,1)-colimit|higher colimit]] | [[quotient inductive type]] |
+| [[coinduction]] | |[[limit]] | [[coinductive type]] |
+| [[preset]] | | | [[type]] without [[identity types]] |
+| | [[completely presented set]] | [[discrete object]]/[[0-truncated object]]  | [[h-level 2]]-[[type]]/[[set]]/[[h-set]] |
+| | [[set]] | [[groupoid object in an (infinity,1)-category|internal 0-groupoid]] | [[Bishop set]]/[[setoid]] with its [[pseudo-equivalence relation]] an actual [[equivalence relation]] |
+| | [[set]] of [[truth values]] | [[subobject classifier]] | [[type of propositions]] |
+| | [[universe]] | [[object classifier]] | [[type universe]] |
+| [[modality]] |  |[[closure operator]], ([[idempotent monad|idempotent]]) [[monad]] | [[modal type theory]], [[monad (in computer science)]] |
+| [[linear logic]] |  |([[symmetric monoidal category|symmetric]], [[closed monoidal category|closed]]) [[monoidal category]] | [[linear type theory]]/[[quantum computation]] |
+| [[proof net]] |  |[[string diagram]] | [[quantum circuit]] |
+| (absence of) [[contraction rule]] | | (absence of) [[diagonal]] | [[no-cloning theorem]] |
+| | | [[synthetic mathematics]]  |  [[domain specific embedded programming language]] |
