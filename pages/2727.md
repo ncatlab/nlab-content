@@ -85,6 +85,8 @@ We would not say homotopy type theory has propositions as types in the same way 
 
 * [[propositions as projections]]
 
+* [[propositional logic as a dependent type theory]]
+
 ## References
 
 
