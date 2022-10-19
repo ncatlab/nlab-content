@@ -4,7 +4,7 @@
 ### Context
 #### Linear algebra
 +-- {: .hide}
-[[!include homotopy - contents]]
+[[!include higher linear algebra - contents]]
 =--
 =--
 =--
@@ -50,6 +50,8 @@ The notation used here for the adjoint, $A^{*}$, is commonly used in linear alge
 * [[celestial sphere]]
 
 * [[Hermitian form]]
+
+* [[Hermitian operator]]
 
 [[!redirects Hermitian matrix]]
 [[!redirects Hermitian matrixes]]
