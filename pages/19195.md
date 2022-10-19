@@ -64,6 +64,7 @@ Since the definition of semisimplicial types requires an inductive definition of
 ## See also
 
 * [[Homotopy Type System]]
+* [[type theory with shapes]]
 
 ## References
 
