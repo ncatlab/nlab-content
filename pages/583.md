@@ -465,6 +465,7 @@ Thus, the internal logic of this [[Grothendieck topos|sheaf topos]] is (in gener
 
 ## Related concepts
 
+* [[internal logic of set theory]]
 
 * [[type theory]], [[homotopy type theory]]
 
