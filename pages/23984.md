@@ -39,8 +39,6 @@ $$\mathrm{transport}(x, y): x =_T y \to \prod_{P:T \to \mathcal{U}} P(x) \simeq 
 
 ## Definitions
 
-### Martin-Löf type theory
-
 In [[Martin-Löf type theory]], given 
 
 * a [[type]] $A$, 
@@ -66,15 +64,21 @@ then there are compatible **transport functions**
   \,,
 \] 
 
-such that for all $v:B(y)$, the ([[homotopy fiber|homotopy]]) [[fiber]] of $\overrightarrow{\mathrm{tr}}_{B}^{p}$ at $v$ is [[contractible]], and for all $u:B(x)$, the [[fiber]] of $\overleftarrow{\mathrm{tr}}_{B}^{p}$ at $u$ is [[contractible]]. 
+which are both [[equivalences of types]]. The syntax for the rules for the transport functions are as follows:
 
-### Cubical type theory
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b}{\Gamma \vdash \overrightarrow{\mathrm{tr}}(x.B, a, b, p):B[a/x] \simeq B[b/x]}$$
 
-...
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \overrightarrow{\mathrm{tr}}(x.B, a, a, \mathrm{refl}_A[a/x]) =_{B[a/x] \simeq B[a/x]} \mathrm{id}_{B[a/x]}}$$
 
-### Higher observational type theory
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b}{\Gamma \vdash \overleftarrow{\mathrm{tr}}(x.B, a, b, p):B[b/x] \simeq B[a/x]}$$
 
-...
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \overleftarrow{\mathrm{tr}}(x.B, a, a, \mathrm{refl}_A[a/x]) =_{B[a/x] \simeq B[a/x]} \mathrm{id}_{B[a/x]}}$$
+
+One could also use [[definitional equality]] in the inductive definitions of the transport function:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \overrightarrow{\mathrm{tr}}(x.B, a, a, \mathrm{refl}_A[a/x]) \equiv \mathrm{id}_{B[a/x]}:B[a/x] \simeq B[a/x]}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \overleftarrow{\mathrm{tr}}(x.B, a, a, \mathrm{refl}_A[a/x]) \equiv \mathrm{id}_{B[a/x]}:B[a/x] \simeq B[a/x]}$$
 
 ## Examples and applications
 
