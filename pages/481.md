@@ -36,7 +36,11 @@ A **Heyting functor** is a [[coherent functor]] between Heyting categories which
 
 Any [[topos]], and in fact any [[well-powered category|well-powered]] [[infinitary coherent category]], is a Heyting category.  Any [[Boolean category]] is also a Heyting category.
 
+Every [[locally cartesian closed category|locally cartesian closed]] [[coherent category]] is a [[Heyting category]], because the [[dependent product]] [[functors]] preserve [[monomorphisms]]. This implies that every [[Pi-pretopos]] is a [[Heyting pretopos]]. 
+
 ## Related concepts
+
+* [[coherent category]]
 
 * [[Boolean category]]
 
