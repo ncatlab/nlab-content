@@ -45,6 +45,8 @@ For many (perhaps most?) authors, predicate logic is really __predicate logic wi
 
   * [[higher-order logic]]
 
+  * [[predicate logic as a dependent type theory]]
+
 * [[first-order set theory]]
 
 * [[type theory]]
