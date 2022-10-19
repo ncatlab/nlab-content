@@ -17,7 +17,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -31,11 +30,32 @@
 
 The converse mentioned at the end of the last sentence is known as the **principle of substitution** or the **indiscernibility of identicals**. In any simply typed first-order theory, this principle is formalized as 
 
-$$x =_T y \implies \forall \; \mathrm{properties} \; P. P(x) \iff P(y)$$
+$$
+  x =_T y 
+  \;\;\;
+  \implies 
+  \;\;\;
+  \forall
+  \; \mathrm{properties} \; P    
+  \;.\; 
+  P(x) \iff P(y)
+$$
 
 In the interpretation of [[propositions as types]] in [[type theory]], propositions are interpreted as types, and the above statement has a generalization from the types which are propositions to all types: the [[universal quantifier]] becomes a [[dependent product type]], the [[predicate]] becomes a [[type family]], [[implication]] becomes a [[function]], and [[logical equivalence]] of [[propositions]] becomes [[equivalence in homotopy type theory|equivalence of types]]. This results in what is known as *transport* in type theory, the function 
 
-$$\mathrm{transport}(x, y): x =_T y \to \prod_{P:T \to \mathcal{U}} P(x) \simeq P(y)$$
+$$
+  \mathrm{transport}(x, y)
+  \;\;\colon\;\; 
+  x =_T y 
+  \;\longrightarrow\;
+  \prod_{
+    \mathclap{
+      P\colon T \to \mathcal{U}
+    }
+  } 
+  \;
+  P(x) \simeq P(y)
+$$
 
 ## Definitions
 
