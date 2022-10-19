@@ -77,7 +77,7 @@ The category of etale-complete [[localic groupoids]] (with open source and targe
 
 The resulting bicategory is equivalent to the bicategory of [[Grothendieck toposes]], [[geometric morphisms]], and [[natural isomorphisms]].
 
-See Theorem 7.7 in Moerdijk \cite{Moerdijk}.
+See Theorem 7.7 in [Moerdijk](#Moerdijk).
 \end{example}
 
 
@@ -101,7 +101,7 @@ See Theorem 7.7 in Moerdijk \cite{Moerdijk}.
 
 ## References
 
-* [[Ieke Moerdijk]], _The classifying topos of a continuous groupoid.  I_, Transactions of the American Mathematical Society, Volume 310, Number 2, December 1988.
+* {#Moerdijk} [[Ieke Moerdijk]], _The classifying topos of a continuous groupoid.  I_, Transactions of the American Mathematical Society, Volume 310, Number 2, December 1988.
 
 * O. Abbad, [[Enrico Vitale|E. M. Vitale]], _Faithful calculus of fractions_ , Cah. Top. G&#233;om. Diff. Cat&#233;g. **54** No. 3 (2013) 221-239. ([preprint](perso.uclouvain.be/enrico.vitale/FrazioniFedeli.pdf))
 
