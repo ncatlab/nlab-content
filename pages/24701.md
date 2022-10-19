@@ -255,28 +255,28 @@ $$\frac{\Gamma, x:\mathbb{N} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C
 
 ### isProp types
 
-In set theory, a set is a [[subsingleton]] if it has at most one element up to [[equality]]: every pair of elements in the set are equal to each other. 
+In set theory, a set is a [[subsingleton]] if it has at most one element up to [[equality]]: every two elements in the set are equal to each other. 
 
-These same definitions carry over to objective type theory: a type $T$ is a subsingleton or an [[h-proposition]] if for all pairs $x:T \times T$ there is an element $\mathrm{proptrunc}(x):\pi_1(x) =_T \pi_2(x)$. Since objective type theory has Pi types, this is the same as saying that there is a dependent function 
-$$\mathrm{proptrunc}:\prod_{x:T \times T} \pi_1(x) =_T \pi_2(x)$$
-The elements $p:\prod_{x:T \times T} \pi_1(x) =_T \pi_2(x)$ are proofs that $T$ is a proposition or subsingleton. 
+These same definitions carry over to objective type theory: a type $T$ is a subsingleton or an [[h-proposition]] if for all elements $x:T$ and $y:T$ there is an element $\mathrm{proptrunc}(x, y):x =_T y$. Since objective type theory has Pi types, this is the same as saying that there is a dependent function 
+$$\mathrm{proptrunc}:\prod_{x:T} \prod_{y:T} x =_T y$$
+The elements $p:\prod_{x:T} \prod_{y:T} x =_T y$ are proofs that $T$ is a proposition or subsingleton. 
 
-We could use the type $\prod_{x:T \times T} \pi_1(x) =_T \pi_2(x)$ wherever we want to see if a type is a subsingleton or proposition, but it is somewhat cumbersome to write out, and we would like to abbreviate that to the type $\mathrm{isProp}(T)$. This motivates introducing rules for $\mathrm{isProp}$ types separate from the existing rules for Pi types. (Later, after we have defined equivalences $A \simeq B$, we could just introduce the type $\mathrm{isProp}(T)$ and an equivalence $\mathrm{isProp}(T) \simeq \prod_{x:T \times T} \pi_1(x) =_T \pi_2(x)$.)
+We could use the type $\prod_{x:T} \prod_{y:T} x =_T y$ wherever we want to see if a type is a subsingleton or proposition, but it is somewhat cumbersome to write out, and we would like to abbreviate that to the type $\mathrm{isProp}(T)$. This motivates introducing rules for $\mathrm{isProp}$ types separate from the existing rules for Pi types. (Later, after we have defined equivalences $A \simeq B$, we could just introduce the type $\mathrm{isProp}(T)$ and an equivalence $\mathrm{isProp}(T) \simeq \prod_{x:T} \prod_{y:T} x =_T y$.)
 
 Formation rules for isProp types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \times A \vdash \pi_1(x) =_A \pi_2(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash x =_A y \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}}$$
 
 Introduction rules for isProp types:
-$$\frac{\Gamma, x:A \times A \vdash p(x):\pi_1(x) =_A \pi_2(x)}{\Gamma \vdash \lambda x.p(x):\mathrm{isProp}(A)}$$
+$$\frac{\Gamma, x:A, y:A \vdash p(x, y):x =_A y}{\Gamma \vdash \lambda(x).\lambda(y).p(x, y):\mathrm{isProp}(A)}$$
 
 Elimination rules for isProp types:
-$$\frac{\Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma \vdash a:A \times A}{\Gamma \vdash p(a):\pi_1(a) =_A \pi_2(a)}$$
+$$\frac{\Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A}{\Gamma \vdash p(a, b):a =_A b}$$
 
 Computation rules for isProp types:
-$$\frac{\Gamma, x:A \times A \vdash p(x):\pi_1(x) =_A \pi_2(x) \quad \Gamma \vdash a:A \times A}{\Gamma \vdash \beta_\mathrm{isProp}:(\lambda x.p(x))(a) =_{\pi_1(a) =_A \pi_2(a)} p(a)}$$
+$$\frac{\Gamma, x:A, y:A \vdash p(x, y):x =_A y \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A}{\Gamma \vdash \beta_\mathrm{isProp}:(\lambda(x).\lambda(y).p(x, y))(a, b) =_{a =_A b} p(a, b)}$$
 
 Uniqueness rules for isProp types:
-$$\frac{\Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \eta_\mathrm{isProp}:p =_{\mathrm{isProp}(A)} \lambda x.p(x)}$$
+$$\frac{\Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \eta_\mathrm{isProp}:p =_{\mathrm{isProp}(A)} \lambda(x).\lambda(y).p(x, y)}$$
 
 ### isContr types
 
