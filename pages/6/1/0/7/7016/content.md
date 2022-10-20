@@ -166,7 +166,7 @@ A discussion of various flavors of function extensionality, and how to move betw
 
 For definitional function extensionality in higher observational type theory, see
 
-* [[Mike Shulman]], *Towards a Third-Generation HOTT Part 1* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA))
+* [[Mike Shulman]], *Towards Third-Generation HOTT -- Part 1* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA))
 
 Discussion of the [[categorical semantics]] in the context of [[homotopy type theory]] is in 
 
