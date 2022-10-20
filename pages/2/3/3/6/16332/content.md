@@ -1,8 +1,10 @@
+_Not to be confused with the historian of mathematics, [[Michael Friedman (historian)]]._
+
 Michael Friedman is an American philosopher. He has a developed a neo-Kantian philosophy which looks
 
 > to understand the concrete historical process by which mathematical structures, physical theories of space, time, and motion, and mechanical constitutive principles organically evolve together so as to issue,  successively, in increasingly sophisticated mathematical representations of experience. ([Friedman 2010, p. 698](#Fried10))
 
-This he does in particular through detailed historical studies of the response of [[Kant]] response to [[Newtonian]] physics and that of the [[Vienna Circle]] to Einstein's [[general relativity]].
+This he does in particular through detailed historical studies of the response of [[Kant]] to [[Newtonian]] physics and that of the [[Vienna Circle]] to Einstein's [[general relativity]].
 
 
 
@@ -32,9 +34,7 @@ This he does in particular through detailed historical studies of the response o
 
 * _Kant’s Construction of Nature_ (2013), Cambridge University Press.
 
-On the early history of the discussion of the [[braid group]]:
 
-* [[Michael Friedman]], *Mathematical formalization and diagrammatic reasoning: the case study of the braid group between 1925 and 1950*, British Journal for the History of Mathematics **34** 1 (2019) 43-59 &lbrack;[doi:10.1080/17498430.2018.1533298](https://doi.org/10.1080/17498430.2018.1533298)&rbrack;
 
 
 
