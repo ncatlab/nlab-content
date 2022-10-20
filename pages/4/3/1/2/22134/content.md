@@ -44,7 +44,7 @@ Review:
 * [[Eric C. Rowell]], *Braids, Motions and Topological Quantum Computing* $[$[arXiv:2208.11762](https://arxiv.org/abs/2208.11762)$]$
 
 
-Focus on **[[abelian anyons]]**:
+Focus on *[[abelian anyons]]*:
 
 * [[Jiannis K. Pachos]], *Quantum computation with abelian anyons on the honeycomb lattice*, International Journal of Quantum Information **4** 6 (2006) 947-954 ([arXiv:quant-ph/0511273](https://arxiv.org/abs/quant-ph/0511273))
 
@@ -66,6 +66,9 @@ Realization in [[experiment]]:
 
   > (for [[quantum error correction]])
 
+Simulation of [[Ising anyons]] in a lattice of ordinary [[superconductor|superconducting]] [[qbits]]:
+
+* T. Andersen et al. *Observation of non-Abelian exchange statistics on a superconducting processor* $[$[arXiv:2210.10255](https://arxiv.org/abs/2210.10255)$]$
 
 
 [[!include braid group representations -- references]]
