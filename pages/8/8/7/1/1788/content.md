@@ -1,4 +1,36 @@
 
+\begin{tikzcd}
+  \mathcal{C}^B
+  \ar[
+    r,
+    shift left=14pt,
+    "{ \coprod_B }"
+  ]
+  \ar[
+    from=r,
+    "{ \mathrm{cnst}_B }"{description}
+  ]
+  \ar[
+    r,
+    shift right=14pt,
+    "{ \prod_B }"{swap}
+  ]
+  \ar[
+    r,
+    phantom,
+    shift left=8pt,
+    "{ \scalebox{.7}{$\bot$} }"
+  ]
+  \ar[
+    r,
+    phantom,
+    shift right=8pt,
+    "{ \scalebox{.7}{$\bot$} }"
+  ]
+  &
+  \mathcal{C}
+\end{tikzcd}
+
 
 \begin{tikzcd}
   \mathrm{LinType}_{B}
