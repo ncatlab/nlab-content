@@ -40,13 +40,7 @@ The univalence axiom does not *literally* say that anything is univalent in this
 
 ## Definition
 
-We state univalence first in [[higher observational type theory]] and [[intensional type theory]] and then in its [[categorical semantics]].
-
-### In higher observational type theory
-
-A universe $U$ is **univalent** if for all $A,B:U$ there are rules
-
-$$\frac{R:A \simeq_U B}{\Delta R:\mathrm{id}_U(A, B)} \qquad \frac{P:\mathrm{id}_U(A, B)}{\nabla P:A \simeq_U B} \qquad \frac{R:A \simeq_U B}{\nabla \Delta R \equiv R}$$
+We state univalence first in [[dependent type theory]] and then in its [[categorical semantics]].
 
 ### In dependent type theory
 
@@ -80,6 +74,26 @@ $$\mathrm{canonical}_\simeq(A, B):T(A \simeq_U B) \simeq (T(A) \simeq T(B))$$
 In order to show that the two axioms imply each other, we need to show that there is an [[identification]] 
 $$i(p):\mathrm{canonical}_\simeq(A, B)(\mathrm{idtoequiv}(A, B)(p)) =_{T(A) \simeq T(B)}  \mathrm{trans}^{T}(A, B)(p)$$
 for all identifications $p:A =_U B$. By the [[J rule]] it is enough to show that $\mathrm{canonical}_\simeq(A, A)$ maps the identity function of $T(A \to_U A)$ to the [[identity function]] of $T(A) \to T(A)$. Since the identity function in $T(A \to_U A)$ is just $\mathrm{canonical}_\simeq^{-1}(A, A)(\lambda x.x)$ the above statement is always true. Thus, the two univalence axioms imply each other and both define the same notion of univalent universe. 
+
+#### Definitional univalence
+
+Given a [[Tarski universe]] $(U, T)$, one could replace the equivalence of types in the definition of univalence with a [[definitional equality]] of types. This results in **definitional univalence**, which states that for all small types $A:U$ and $B:U$, 
+
+$$A =_U B \equiv T(A) \simeq T(B)$$
+
+or 
+
+$$A =_U B \equiv T(A \simeq_U B)$$
+
+depending on which definition of univalence is used. These two rules become the same rule if the Tarski universe is a [[strict Tarski universe]]. 
+
+One of the two rules of definitional univalence above holds in some models of [[cubical type theory]] and [[higher observational type theory]]. 
+
+#### In Mike Shulman's higher observational type theory
+
+Mike Shulman's model of [[higher observational type theory]] uses [[Russell universes]] $U$, and additionally comds wih the following rules for univalence for all $A,B:U$ 
+
+$$\frac{R:A \simeq_U B}{\Delta R:\mathrm{id}_U(A, B)} \qquad \frac{P:\mathrm{id}_U(A, B)}{\nabla P:A \simeq_U B} \qquad \frac{R:A \simeq_U B}{\nabla \Delta R \equiv R}$$
 
 ### In categorical semantics
  {#InCategoricalSemantics}
@@ -472,4 +486,6 @@ For more references see _[[homotopy type theory]]_.
 [[!redirects univalent universes]]
 
 [[!redirects universe extensionality]]
+
+[[!redirects definitional univalence]]
 
