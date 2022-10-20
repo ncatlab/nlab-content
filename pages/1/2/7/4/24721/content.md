@@ -73,6 +73,10 @@ $$\prod_{A:U} \prod_{B:U} \mathrm{isEquiv}(\mathrm{transport}^T(A, B))$$
 
 This is the extensionality principle for any Tarski universe $(U, T)$. 
 
+One could also make the [[equivalence of types]] into a definitional equality for all small types $A:U$ and $B:U$, and then the universe is said to satisfy **[[definitional univalence]]**:
+
+$$A =_U B \equiv T(A) \simeq T(B)$$
+
 When the Tarski universe is closed under [[identity types]], [[dependent sum types]], and [[dependent product types]] (see below for more on closure of Tarski universes under type formers), one is able to internalize the [[type of equivalences]] in the universe as $A \simeq_U B$. It can be proven that $T(A \simeq_U B)$ is equivalent to $T(A) \simeq T(B)$, and that the definition of univalence using transport is equivalent to the usual definition given by the internal [[type of equivalences]] and the canonical function $\mathrm{idtoequiv}$. See at [Univalence axiom#For Tarski universes](https://ncatlab.org/nlab/show/univalence+axiom#for_tarski_universes) for more details on this. 
 
 ## Construction of univalent Tarski universes via a higher inductive type
