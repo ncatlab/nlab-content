@@ -9,6 +9,6 @@
 
 On the [[soft graviton theorem]]:
 
-* [[Martin Beneke]], [[Patrick Hager]], [[Robert Szafron]], *Soft-Collinear Gravity and Soft Theorems*, in section *Effective Quantum Gravity* of *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.09336](https://arxiv.org/abs/2210.09336)&rbrack;
+* [[Martin Beneke]], Patrick Hager, Robert Szafron, *Soft-Collinear Gravity and Soft Theorems*, in section *Effective Quantum Gravity* of *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.09336](https://arxiv.org/abs/2210.09336)&rbrack;
 
 category: people
