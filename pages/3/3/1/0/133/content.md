@@ -27,7 +27,7 @@ $$
   \,.
 $$
 
-Note that a surjection $A \to B$ of sets can be regarded as a $B$-indexed [[family of sets]], while the existence of a section is equivalent to a choice of one element in each set of this family.  This reproduces the more classical form of the axiom of choice.
+Note that a surjection $A \to B$ of sets can be regarded as a $B$-indexed [[family]] of [[inhabited sets]], while the existence of a section is equivalent to a choice of one element in each set of this family.  This reproduces the more classical form of the axiom of choice.
 
 When the full axiom of choice fails, it may still be valid for some restricted class of objects $A$ and/or $B$.  An object $B$ such that any [[epimorphism]] $A \to B$ [[split epimorphism|splits]] is called [[projective object|projective]]; this means that one can make choices 'indexed by' $B$.  Dually, an object $A$ such that one can make choices 'with values in' $A$ is called a [[choice object]] (this is not quite equivalent to every epimorphism $A \to B$ splitting).
 
@@ -77,6 +77,7 @@ A [[Grothendieck topos]] satisfies the external axiom of choice iff it is equiva
 
 The following statements are all equivalent to the axiom of choice in $Set$ (although sometimes the proof in one direction requires [[excluded middle]]).  This is a *very* short list; much longer lists can be found elsewhere, such as at [Wikipedia](http://en.wikipedia.org/wiki/Axiom_of_choice#Equivalents).  Some of the statements on this list, though, may be of interest to nLabbers but are not commonly mentioned as equivalents of choice.
 
+* That any [[cartesian product]] of any [[family]] of [[inhabited sets]] is [[inhabited]]. 
 * The [[well-ordering theorem]] (that any set can be [[well-order|well-ordered]]),
 * [[Zorn's lemma]],
 * That ($L =$ [[monomorphism]]s, $R =$ [[epimorphism]]s) is a [[weak factorization system on Set]].
@@ -156,7 +157,13 @@ There are also "internal" versions of these axioms.
 ### In type theory
  {#InTypeTheory}
 
-In [[Martin-Lof type theory]], if "there exists" and "for all" are interpreted in the classical way according to [[propositions as types]], then the statement of the axiom of choice comes out as simply the statement that products distribute over coproducts.  (See [[distributivity pullback]] for a discussion in terms of the internal type theory of a locally cartesian closed category.)  Since this statement is provable, traditionally type theorists say that "the axiom of choice is provable" in type theory.  However, this is arguably not really a faithful representation of the axiom of choice, not only because it is provable, but because it lacks the usual strong consequences of the set-theoretic axiom of choice.
+In [[dependent type theory]], if "there exists" and "for all" are interpreted in the classical way according to [[propositions as types]], then the statement of the axiom of choice comes out as simply the statement that products distribute over coproducts.  (See [[distributivity pullback]] for a discussion in terms of the internal type theory of a locally cartesian closed category.) The equivalent form of the axiom of choice involving cartesian products of inhabited types then becomes in type theory the statement
+
+* That any [[dependent product]] of any [[family]] of [[pointed types]] is [[pointed]]. 
+
+This statement of the axiom of choice is just the [[identity function]] on the dependent product type. Since both statements is provable, traditionally type theorists say that "the axiom of choice is provable" in type theory.
+
+However, this is arguably not really a faithful representation of the axiom of choice, not only because it is provable, but because it lacks the usual strong consequences of the set-theoretic axiom of choice.
 
 A better type-theoretic form of the axiom of choice is obtained by inserting [[propositional truncations]] in the notion of "exists".  See for instance the [HoTT Book](#HoTTBook) for further discussion.
 
