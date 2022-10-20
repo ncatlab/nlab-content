@@ -134,8 +134,8 @@ Suppose that $is_A(a,B)$ and choose $\varphi\equiv is_A(x,B)$.  By (eq:star) it 
 
 Note that the assumption about equality is quite reasonable if we want to interpret "$is_A$" as asserting that a given element *is* a given set (rather than merely being related to one in some way).
 
-
 [[!redirects structurally presented set theory]]
 [[!redirects structurally presented set theories]]
 [[!redirects structurally-presented set theory]]
 [[!redirects structurally-presented set theories]]
+
