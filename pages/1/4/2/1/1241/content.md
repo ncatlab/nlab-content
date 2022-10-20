@@ -384,10 +384,13 @@ for [[supersymmetry|supersymmetric]] [[model (physics)|models]]:
 
 * Ila Garg, _New minimal supersymmetric $SO(10)$ GUT phenomenology and its cosmological implications_ ([arXiv:1506.05204](http://arxiv.org/abs/1506.05204))
 
-New perspective on the [[symmetry breaking]] from [[Spin(10)]] to the [[standard model of particle physics|standard model]] [[gauge group]]:
+On the [[symmetry breaking]] from [[Spin(10)]] to the [[standard model of particle physics|standard model]] [[gauge group]] in terms of [[real normed division algebras]] ([[octonions]], [[quaternions]]):
 
 
 * [[Kirill Krasnov]], *Geometry of $Spin(10)$ Symmetry Breaking* &lbrack;[arXiv:2209.05088](https://arxiv.org/abs/2209.05088)&rbrack;
+
+* [[Nichol Furey]], M. J. Hughes, *Division algebraic symmetry breaking* &lbrack;[arXiv:2210.10126](https://arxiv.org/abs/2210.10126)&rbrack;
+
 
 
 #### $SO(11)$-GUT
