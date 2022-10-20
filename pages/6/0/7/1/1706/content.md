@@ -45,7 +45,7 @@ which can be understood as the free [[infinite loop space]] on the point.
 
 ## Formalization 
 
-In ([Lurie](#Lurie)) a formalization and proof of the cobordism hypothesis is described.
+In ([Lurie](#Lurie)) a sketch of an approach to the formalization and proof of the cobordism hypothesis is described.
 
 ### For framed cobordisms
  {#ForFramed}
@@ -783,12 +783,9 @@ The original hypothesis is formulated in
 
 *  [[John Baez]], [[James Dolan]], _Higher dimensional algebra and Topological Quantum Field Theory_ J.Math.Phys. 36 (1995) 6073-6105 ([arXiv:q-alg/9503002](http://arxiv.org/abs/q-alg/9503002))
 
-The formalization and proof is described in 
+A sketch of an approach to the formalization and proof of the cobordism hypothesis is described in, though it is not complete.
 
 * {#Lurie} [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_, Current Developments in Mathematics Volume 2008 (2009), 129-280 ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
-
-
-This is almost complete, except for one step that is not discussed in detail. But a new (unpublished) result by [[Søren Galatius]] should bridge that step in particular and drastically simplifies the whole proof in general. 
 
 Higher cobordisms with geometric structure (for non-topological [[extended quantum field theory]]) are discussed in
 
