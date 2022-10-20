@@ -12,11 +12,15 @@ On the [[pure spinor]]-formulation of the [[superparticle]] in [[D=11 supergravi
 * [[Nathan Berkovits]], Eduardo Casali, [[Max Guillen]], Lionel Mason, _Notes on the $D=11$ pure spinor superparticle_ ([arXiv:1905.03737](https://arxiv.org/abs/1905.03737))
 
 
-On the relation between the [[NSR superstring]] and the [[Berkovits superstring]]:
+On the relation between the [[NSR superstring]] and the [[pure spinor]] [[Berkovits superstring]]:
 
 * [[Nathan Berkovits]], *Manifest Spacetime Supersymmetry and the Superstring* ([arXiv:2106.04448](https://arxiv.org/abs/2106.04448))
 
-## Related $n$Lab entries
+Review:
+
+* [[Nathan Berkovits]], Carlos R. Mafra, *Pure spinor formulation of the superstring and its applications*, in *[[Handbook of Quantum Gravity]]* (2023) &lbrack;[arXiv:2210.10510](https://arxiv.org/abs/2210.10510)&rbrack;
+
+## Related entries
 
 * [[Berkovits superstring]]
 
