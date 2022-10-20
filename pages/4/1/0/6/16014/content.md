@@ -147,7 +147,6 @@ With this, if $p\in \mathbf{H}_{/W}$ is a [[proposition]] about terms $w$ of $W$
 
 * $\underset{W}{\Box}(p)$ is [[true]]/[[inhabited type|inhabited]] precisely if $\underset{w \colon W}{\forall} p(w)$ is [[true]]/[[inhabited type|inhabited]], hence (that is again the standard interpretation of the quantifier) if $p(w)$ necessarily holds for all $w$.
 
-(Note that there is also an adjoint pair on $\mathbf{H}_{/\ast}$ in which the left adjoint is given by context extension back to $\mathbf{H}_{/W}$ followed by $\exists_W$, and dually the right adjoint is given by $W^\ast$ followed by $\forall_W$. The former is the [[writer comonad]], whereas the latter is the [[function monad]] (or reader monad).)
 
 Thus, this gives one [[syntax|syntactic]] formalization of the informal meaning of "necessity" and "possibility".  The natural [[semantics]] for these [[base change]] operations is a generalization of the simple traditional _[[possible worlds semantics]]_ of propositional necessity and possibility modalities.  (There are, however, more complicated possible worlds semantics.)
 
@@ -160,7 +159,20 @@ Some technical remarks:
 
 1. While [[base change]]-[[adjunctions]] are essentially unique and not free to choose, there is a genuine choice in the above given by the choice of [[context]] $W$. This is reflected in the subscripts of $\underset{W}{\lozenge}$ and $\underset{W}{\Box}$ above. It is the choice of this $W$ that gives different kinds of possibility and necessity. More generally there is in fact not just a choice of a context, but of a morphism of contexts, reflecting what is often called "accessibility of possible worlds". This we come to [below](#ViaBaseChangeRelatively).
 
-### Relatively
+
+### Relation to Contingency
+ {#RelationToContingency}
+
+There is also an [[adjoint pair]] on the other side, $\mathbf{H}_{/\ast}$, of the [[base change]] maps, in which the left adjoint is given by context extension back to $\mathbf{H}_{/W}$ followed by $\exists_W$, and dually the right adjoint is given by $W^\ast$ followed by $\forall_W$. The former is the [[writer comonad]], whereas the latter is the [[reader monad]] (aka [[function monad]]):
+
+<center>
+<img src="/nlab/files/TheFourModalitiesOfBaseChange-20221020.jpg" width="410">
+</center>
+
+
+
+
+### Relative version
   {#ViaBaseChangeRelatively}
 
 With this axiomatization via [[base change]], it is immediate to consider the relative case where instead of [[base change]] to a [[unit type]] $W \to \ast$ one considers [[base change]] 
