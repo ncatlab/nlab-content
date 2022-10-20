@@ -22,7 +22,7 @@ _Dependent type theory_ is the flavor of [[type theory]] that admits _[[dependen
 Its [[categorical semantics]] is in [[locally cartesian closed categories]] $C$, where a [[dependent type]]
 
 $$
-  x : X \vdash E(x) : Type
+  x : X \vdash E(x) \; \mathrm{type}
 $$
 
 is interpreted as a [[morphism]]  $E \to X$, hence an [[object]] in the [[slice category]] $C_{/X}$.
