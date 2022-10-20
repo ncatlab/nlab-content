@@ -4,22 +4,32 @@
 
 ## Definition
 
+### In set theory
+
+Let $S$ be a set equipped with a binary relation $\prec$. Then a **bisimulation** is a binary relation $\sim$ such that for all $x \in S$ and $y \in S$ such that $x \sim y$, the following conditions hold:
+
+* for all $a \in S$ such that $a \prec x$, there exists a $b \in S$ such that $b \prec y$ and $a \sim b$
+* for all $b \in S$ such that $b \prec y$, there exists a $a \in S$ such that $a \prec x$ and $a \sim b$
+
+### In category theory
+
 In Joyal-Nielsen-Winskel (p.13) is given the following definition. For what a "path category in a category of models" is, see there.
 
-+-- {: .un_defn}
-###### Definition
+\begin{definition}
 Let $P$ be a path category in a category of models $M$. Two objects $X_1,X_2$ are called to be *$P$-bisimilar* if there is a span of $P$-open maps $X_1\leftarrow X\to X_2$.
-=--
+\end{definition}
 
 The relation of $P$-open maps and [[open map]]s is given by Proposition 11, p.32:
 
-+-- {: .un_prop}
-###### Proposition
-
+\begin{proposition}
 If $P$ is a dense full subcategory of $M$, then $f$-is $P$-open iff $M(-,f)$ is an [[open map]].
-=--
+\end{proposition}
 
 ## See also
+
+* [[simulation]]
+
+* [[extensional relation]]
 
 * [[transition system]]
 
@@ -30,6 +40,7 @@ If $P$ is a dense full subcategory of $M$, then $f$-is $P$-open iff $M(-,f)$ is 
 ## References
 
 * Wikipedia (English), _[Bisimulation](http://en.wikipedia.org/wiki/Bisimulation)_
+*  Peter Aczel; [Non-Well-Founded Sets](https://web.archive.org/web/20161020002632/https://standish.stanford.edu/pdf/00000056.pdf), especially Chapter 4.
 * Sam Staton, _[Relating coalgebraic notions of bisimulation](http://arxiv.org/abs/1101.4223)_
 * Davide Sangiorgi, _[On the Origins of Bisimulation and Coinduction](http://www.cs.unibo.it/~sangio/DOC_public/history_bis_coind.pdf)_
 * [[André Joyal]], Mogens Nielsen, [[Glynn Winskel]], Bisimulation from [[open map|open maps]], [pdf](http://www.brics.dk/RS/94/7/BRICS-RS-94-7.pdf)
