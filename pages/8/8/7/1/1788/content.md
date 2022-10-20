@@ -9,6 +9,8 @@
 
   > on [[topological order]] and [[braided fusion categories]]
 
+I explain how the construction of cyclified ("twisted") free loop spaces, when regarded in higher topos theory, turns out to be nothing but the "right base change" to the context of the moduli stack of the circle. This fundamental fact implies at once good formal properties and lifts the construction to all kinds of generalized geometries, such as to orbifolds -- where we claim it reproduces Z. Huan's inertia construction --, and to super-rational homotopy types -- where we showed that it witnesses the rules of topological T-duality acting on the super D-brane charges. I close by explaining how these cyclified loop stack adjunctions formalize exactly what physicists mean by "double dimensional reduction" in its effect on fluxes/brane charges and end with an outlook on using these insights to define T-folds in the generality of twisted equivariant differential (TED) KR-theory.
+
 
 \begin{theorem} {#Ref}
 \end{theorem}
