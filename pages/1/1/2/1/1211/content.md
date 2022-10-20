@@ -114,7 +114,7 @@ Thus, we have a (large) [[poset]] of sets equipped with extensional relations, a
 
 ## References
 
-*  Peter Aczel; [Non-Well-Founded Sets](http://standish.stanford.edu/pdf/00000056.pdf), especially Chapter 4.
+*  Peter Aczel; [Non-Well-Founded Sets](https://web.archive.org/web/20161020002632/https://standish.stanford.edu/pdf/00000056.pdf), especially Chapter 4.
 
 For extensional relations in [[homotopy type theory]], see
 
