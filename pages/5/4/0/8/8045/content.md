@@ -10,6 +10,34 @@ theory_) is a style of [[set theory]] that contrasts with [[structural set theor
 
 Frequently in material set theory one takes everything to be a [[pure set]], including the elements of sets themselves. Therefore, any two sets may be meaningfully compared to ask if they are [[equal]] or if one is a member of the other.  As a slight variation (still material set theory), one may also accept ur-elements (or atoms) as elements.  The main distinguishing feature of a material set theory is a global membership predicate, whereby it is meaningful to ask, given any object and a set, whether the object is an element of the set. A set's identity here is determined by its elements, in other words the [[axiom of extensionality]] holds.
 
+## Examples
+
+### Fully formal ETCS
+
+The untyped first-order theory of [[fully formal ETCS]] is a [[material set theory]] whose basic primitives are 
+
+* [[morphisms]], 
+* a function $s$ representing the [[identity morphism]] of the [[source]] of a morphism, 
+* a function $t$ representing the identity morphism of the [[target]] of a morphism, 
+* a ternary predicate $c$ which represents whether the first two morphisms are composable and the [[composite]] is the third morphism,
+* a constant $1$ representing the identity morphism of the [[terminal object]]
+* a quaternary predicate $p$ which represents whether four morphisms form a pullback square. 
+* a function $P$ representing the identity morphism of the [[power object]] of the target of the morphism
+* functions $\lambda$ and $\rho$ representing the [[jointly monic]] [[span]] for the local membership relation between [[elements]] and [[subobjects]] of a [[object]]. 
+* constants $N$, $0$, $s$, representing the identity morphism of the [[natural numbers object]], the [[zero]] [[global element]], and the successor endomorphism of the natural numbers object
+
+and axioms making the theory into a theory of a [[strict category|strict]] [[well-pointed topos]] with [[natural numbers object]] and the [[axiom of choice]]. 
+
+Elements are represented by morphisms with source $1$, and sets are represented by morphisms with target $1$. An element is said to be in a set if the target of the element morphism is equal to the source of the set morphism. Thus, we can define the **global membership predicate** $\in$ on the morphisms as follows:
+
+$$a \in A \coloneqq (t(A) = 1) \wedge (s(a) = 1) \wedge (s(A) = t(a))$$
+
+This implies that $1$ is a [[reflexive set]], because by definition of a [[terminal object]] in the single-sorted definition of a finitely complete category, $t(1) = 1$, $s(1) = 1$, and $s(1) = t(1)$, which means that $1 \in 1$. This means that the [[axiom of foundation]] fails for $\in$. 
+
+The well-pointedness condition for toposes implies that the membership relation $\in$ is an [[extensional relation]]: since $1$ is a [[separator]] and sets are morphisms into $1$, well-pointedness implies that sets $A$ and $B$ are equal if their elements are all equal to each other. 
+
+Since [[fully formal ETCS]] has a global membership predicate which is an [[extensional relation]], and a morphism $1$ which is a [[reflexive set]] with regards to the global membership predicate, it is a [[material set theory]] where the [[axiom of foundation]] does not hold. 
+
 ## Related concepts
 
 * [[cumulative hierarchy]]
