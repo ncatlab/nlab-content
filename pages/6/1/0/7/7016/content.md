@@ -31,37 +31,65 @@ The principle of functional extensionality states that two [[functions]] are [[e
 
 ## Definition
 
+### In set theory
+
+In [[set theory]], function extensionality states that for all sets $A$ and $B$ and functions $f:A \to B$ and $g:A \to B$, if, for all elements $x \in A$, $f(x) = g(x)$, then $f = g$. 
+
+There is another definition of function extensionality: for all sets $A$ and $B$ and functions $f:A \to B$ and $g:A \to B$, if, for all elements $x \in A$ and $y \in B$ such that $x = y$, $f(x) = g(y)$, then $f = g$. 
+
+### In category theory
+
+Since sets and functions form a [[category]], the set theory definition of function extensionality could be generalized to any [[category]] with a [[terminal object]]. Function extensionality corresponds to the fact that the [[terminal object]] is an [[extremal generator]] in [[category]], and is one of the conditions for making a [[pretopos]] a [[well-pointed pretopos]]. 
+
+In additon, function extensionality in category theory is true in any [[concrete category]] $\mathcal{C}$. The axiom could be called "morphism extensionality"; however, in all concrete categories, the morphisms are functions between sets. 
+
 ### In type theory
 
-In [[intensional type theory|intensional]] ([[Martin-Löf type theory|Martin-Löf]]) [[dependent type theory]] the existence of [[identity types]] induces a notion on [[path space objects|paths]] between [[terms]] of a given type.
+In [[intensional type theory]], [[equality]] is represented by the [[identity type]], and furthermore, there might be more than one element of the identity type in intensional type theory, so a naive translation of function extensionality into intensional type theory doesn’t result in the right statement.
 
-In particular for two [[terms]] $f, g \in [X,Y]$
+Instead we have the following:
 
-    f g: X -> Y
+For all types $A$ and $B$ and functions $f:A \to B$ and $g:A \to B$, there are two canonical functions which one could use for function extensionality
 
-of _[[function type]]_, a path/[[morphism]] $f \stackrel{p}{\to} g$
+$$\mathrm{happly}(f, g):(f =_{A \to B} g) \to \prod_{x:A} f(x) =_B g(x)$$
 
-    p: f == g
+inductively defined by 
 
-between them is to be thought of as a [[homotopy]] or [[natural transformation]] (a $1$-[[transfor]]). In particular it implies, one can prove, that there are families of paths $happly_{f,g,p}$ between all the values of the functions
+$$\mathrm{happly}(f,f)(\mathrm{refl}_{A \to B}(f)) \equiv \lambda (x:A).\mathrm{refl}_B(f(x)):\prod_{x:A} f(x) =_B f(x)$$
 
-    happly f g p: forall x: X, f x == g x .
+and
 
-However, from general [[intensional type theory|intensional]] [[dependent type theory]] one cannot prove the converse: 
+$$\mathrm{happly}'(f, g):(f =_{A \to B} g) \to \left(\prod_{x:A} \prod_{y:A} \prod_{p:x =_A y} f(x) =_B g(y)\right)$$
 
-* the existence of paths between all pairs of values does not imply that there is a path between the functions. 
+inductively defined by 
 
-From a purely intensional point of view, this is to be expected --- two functions could be defined in different ways, and thus be intensionally different, yet produce the same values on all inputs (i.e. be extensionally the same).
+$$\mathrm{happly}'(f,f)(\mathrm{refl}_{A \to B}(f)) \equiv \lambda (x:A).\lambda (x:A).\lambda (\mathrm{refl}_A(x):x =_A x).\mathrm{refl}_B(f(x)):\prod_{x:A} \prod_{x:A} \prod_{\mathrm{refl}_A(x):x =_A x} f(x) =_B f(x)$$
 
-However, in many contexts one wants to treat functions extensionally, such as when regarding type theory as the [[internal language]] of some [[category]].  In particular, this is the case in [[homotopy type theory]], where one wants to interpret the type theory as the [[internal language of an (∞,1)-topos]], for instance of [[Top]] $\simeq$ [[∞Grpd]].
+The two definitions of $\mathrm{happly}$ become the same under [[singleton contractibility]]. This second definition behaves better with the [[action on identifications]]. 
 
-In such an [[internal logic]] context, a _family_ of anything must always mean "continuous family", so that a family of paths between the values of two functions is a continuous homotopy between them, and hence ought to induce a path between them in the function-space.  Thus, one wants to impose the condition that from a term
+In general, both functions $\mathrm{happly}(f, g)$ are not [[equivalences of types]] in [[intensional type theory]]: two functions could be defined in different ways, and thus be intensionally different, yet produce the same values on all inputs (i.e. be extensionally the same).
 
-    eta: forall x: X, f x == g x .
+Function extensionality is then the statement that the function $\mathrm{happly}(f, g)$ is an [[equivalence of types]] for all functions $f:A \to B$ and $g:A \to B$. 
 
-we can deduce an actual path between $f$ and $g$. 
+$$\mathrm{funext}(f, g):\mathrm{isEquiv}(\mathrm{happly}(f, g))$$
 
-Translating this into direct [[categorical semantics|categorical terms]], the term $\eta$ gives a map 
+### Definitional function extensionality
+
+One could replace the equivalences of types above with [[definitional equality]] of types, which results in **definitional function extensionality**. Applied to each definition, definitional function extensionality states that for all all types $A$ and $B$ and functions $f:A \to B$ and $g:A \to B$
+
+$$f =_{A \to B} g \equiv \prod_{x:A} f(x) =_B g(x)$$
+
+and 
+
+$$f =_{A \to B} g \equiv \prod_{x:A} \prod_{y:A} \prod_{p:x =_A y} f(x) =_B g(y)$$
+
+respectively. The second version of definitional function extensionality holds in [[higher observational type theory]]
+
+## Properties
+
+### Categorical semantics 
+
+Translating the type theoretic definition into its [[categorical semantics]], the term $\eta$ gives a map 
 
 $$1 \to \Pi_{X \to 1} [f x = g x]$$ 
 
@@ -82,12 +110,6 @@ So, very simply, function extensionality means we are able to lift elements $h \
 Of course we are not just interested in [[global element|global elements]] here. What we really want is an actual section $P(Y)^X \to P(Y^X)$ of $\phi$ in the [[slice category|slice]] over $(Y \times Y)^X$ (although this can be derived from the global element formulation by using the [[Yoneda lemma]] together with [[currying]] and uncurrying tricks). This condition may be called "naive" or "weak" function extensionality, in view of an apparently stronger condition that this section (and therefore also $\phi$) be _equivalences_. This latter condition might be called "strong function extensionality". 
 
 Under reasonable assumptions on the type theory, it turns out that these and other versions of function extensionality are equivalent; for now see ([Lumsdaine](#Lumsdaine)) below. In any case, if the type theory has an extra [[axiom]] that implies some such version, one says that **function extensionality** holds. 
-
-### In category theory
-
-Function extensionality in category theory is true in any [[concrete category]] $\mathcal{C}$. The axiom could be called "morphism extensionality"; however, in all concrete categories, the morphisms are functions between sets. 
-
-## Properties
 
 ### Homotopy categorical semantics
  {#HomotopyCategoricalSemantics}
@@ -141,6 +163,10 @@ A discussion of various flavors of function extensionality, and how to move betw
 * [[Richard Garner]], _On the strength of dependent products in the type theory of Martin-L&#246;f_
 
 * [[Peter LeFanu Lumsdaine]], [Strong functional extensionality from weak](http://homotopytypetheory.org/2011/12/19/strong-funext-from-weak) (HoTT blog post)
+
+For definitional function extensionality in higher observational type theory, see
+
+* [[Mike Shulman]], *Towards a Third-Generation HOTT Part 1* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA))
 
 Discussion of the [[categorical semantics]] in the context of [[homotopy type theory]] is in 
 
