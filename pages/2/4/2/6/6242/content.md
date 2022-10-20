@@ -81,7 +81,7 @@ That seems to make much of the above-listed criticism appear in a different ligh
 
 ### Birkhoff-von Neumann quantum logic
 
-It is based on the setting the [[Hilbert lattice]] (of closed suspaces of a Hilbert space) to represent the set of propositions of quantum system. 
+[Birkhoff & von Neumann 1936](#BirkhoffvonNeumann36) is based on the setting the [[Hilbert lattice]] (of closed suspaces of a Hilbert space) to represent the set of propositions of quantum system. 
 
 ...
 
@@ -188,7 +188,7 @@ A bibliography of hundreds of works up to 1992 is
 
 * Mladen Pavi&#269;i&#263;, _Bibliography on quantum logics and related structures_, [pdf](http://www.irb.hr/users/mpavicic/papers-ps-pdf/quantum-logic/1992-int-j-theor-phys-1.pdf).
 
-The original article on quantum logic is
+The original article on quantum logic:
 
 * {#BirkhoffvonNeumann36} [[Garrett Birkhoff]], [[John von Neumann]]: *The logic of quantum mechanics*, Annals of Mathematics **37** 823-843 (1936) &lbrack;[doi:10.2307/1968621](https://doi.org/10.2307/1968621), [pdf](http://www.fulviofrisone.com/attachments/article/451/the%20logic%20of%20quantum%20mechanics%201936.pdf)&rbrack;
  
