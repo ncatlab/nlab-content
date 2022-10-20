@@ -33,7 +33,7 @@ Finite biproducts are best known from [[additive category|additive categories]].
 
 ## Definition 
 
-Let $\mathcal{C}$ be a [[category]] with [[zero morphisms]]; that is, $C$ is [[enriched category|enriched]] over [[pointed sets]] (for example, $C$ might have a [[zero object]]).  For $c_1, c_2$ two objects in $C$, suppose a [[product]] $c_1 \times c_2$ and a [[coproduct]] $c_1 \sqcup c_2$ both exist.  
+Let $\mathcal{C}$ be a [[category]] with [[zero morphisms]]; that is, $C$ is [[enriched category|enriched]] over [[pointed sets]] (which is notably the case when $C$ has a [[zero object]]).  For $c_1, c_2$ a [[pair]] of objects in $C$, suppose a [[product]] $c_1 \times c_2$ and a [[coproduct]] $c_1 \sqcup c_2$ both exist.  
 
 +-- {: .num_defn #TheCanonicalComparisonMorphism}
 ###### Definition
@@ -41,29 +41,41 @@ Let $\mathcal{C}$ be a [[category]] with [[zero morphisms]]; that is, $C$ is [[e
 Write 
 
 $$
-  r_{c_1,c_2} : c_1 \sqcup c_2 \to c_1 \times c_2
+  r_{c_1,c_2} 
+  \;\colon\; 
+  c_1 \sqcup c_2 
+    \longrightarrow
+  c_1 \times c_2
 $$
 
 for the [[morphism]] which is uniquely defined (via the [[universal property]] of [[coproduct]] and [[product]]) by the condition that
-$$
+\[
+  \label{ConditionOnComparisonMorphism}
   \left(
-    c_i \to c_1 \sqcup c_2 \stackrel{r}{\to} c_1 \times c_2 \to c_j
+    c_i 
+      \longrightarrow 
+    c_1 \sqcup c_2 
+      \overset{\; r \;}{\longrightarrow} 
+    c_1 \times c_2 
+      \longrightarrow
+    c_j
   \right)
   =
   \left\{
     \array{
-      Id_{c_i} & if \; i = j
+      Id_{c_i} & if & i = j
       \\
-      0_{i,j} & if \; i \neq j
+      0_{i,j} & if & i \neq j
     }
   \right.
   \,
-$$
+\]
 
-where the last and first morphisms are the [[projections]] and [[co-projections]], respectively, and 
-where $0_{i,j}$ is the [[zero morphism]] from $c_i$ to $c_j$. Thus $r_{c_1, c_2} = (Id_{c_1}, 0_{1,2}) \sqcup (0_{2,1}, Id_{c_2})$, where $(f, g): d \to a \times b$ denotes the map induced by $f : d \to a$ and $g : d \to b$.
+where the last and the first morphisms are the [[projections]] and [[co-projections]], respectively, and 
+where $0_{i,j}$ is the [[zero morphism]] from $c_i$ to $c_j$. Thus $r_{c_1, c_2} = (Id_{c_1}, 0_{1,2}) \sqcup (0_{2,1}, Id_{c_2})$, where $(f, g) \colon d \to a \times b$ denotes the map induced by $f \colon d \to a$ and $g \colon d \to b$.
 
 =--
+
 
 +-- {: .num_defn #Biproduct}
 ###### Definition
