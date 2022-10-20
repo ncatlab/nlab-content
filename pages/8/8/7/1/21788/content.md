@@ -135,10 +135,14 @@ For simply-connected [[compact Lie groups]]:
 
 * {#Luecke19}  Kiran Luecke, _Completed K-theory and Equivariant Elliptic Cohomology_ ([arXiv:1904.00085](https://arxiv.org/abs/1904.00085))
 
-
 For [[finite groups]]:
 
 * {#Dove19} [[Thomas Dove]], _Twisted Equivariant Tate K-Theory_ ([arXiv:1912.02374](https://arxiv.org/abs/1912.02374))
+
+Generalized to [[twisted equivariant K-theory|twisted equivariant]] [[KR-theory]]:
+
+* [[Zhen Huan]], [[Matthew B. Young]], *Twisted Real quasi-elliptic cohomology* &lbrack;[arXiv:2210.07511](https://arxiv.org/abs/2210.07511)&rbrack;
+
 
 [[!redirects twisted ad-equivariant Tate K-theory]]
 
