@@ -61,9 +61,14 @@ Another way to derive Bekenstein-Hawking entropy in [[string theory]] is by comp
 ### General
  {#ReferencesGeneral}
 
-A textbook account is
+Textbook account:
 
 * {#FrolovZelnikov11} [[Valeri Frolov]], Andrei Zelnikov, _Introduction to black hole physics_, Oxford 2011
+
+Review:
+
+* Dmitri V. Fursaev, *Black Hole Thermodynamics and Perturbative Quantum Gravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.06081](https://arxiv.org/abs/2210.06081)&rbrack;
+
 
 Review form the point of view of [[thermal field theory]]:
 
@@ -108,9 +113,9 @@ Further developments on black hole entropy are in
 * Aitor Lewkowycz, [[Juan Maldacena]], _Generalized gravitational entropy_ ([arXiv:1304.4926](http://arxiv.org/abs/1304.4926))
 
 
-A related controversial article that spawned a lot of discussion is
+A discussion of the "black hole firewall problem":
 
-* [[Ahmed Almheiri]], [[Donald Marolf]], [[Joseph Polchinski]], James Sully, _Black holes: complementarity or firewalls?_, ([arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123))
+* [[Ahmed Almheiri]], [[Donald Marolf]], [[Joseph Polchinski]], James Sully, *Black holes: complementarity or firewalls?*, &lbrack;[arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123)&rbrack;
   
 ### Via Wick-rotated thermal field theory
 
