@@ -189,9 +189,14 @@ As a [[perturbative quantum field theory]], quantum gravity exists (usually thou
 
 * [[Zvi Bern]], _Perturbative Quantum Gravity and its Relation to Gauge Theory_, Living Rev Relativ. 2002; 5(1): 5. ([arXiv:gr-qc/0206071](https://arxiv.org/abs/gr-qc/0206071), [doi:10.12942/lrr-2002-5](https://dx.doi.org/10.12942%2Flrr-2002-5))
 
-Review and outlook includes
+Review and outlook:
 
 * [[Richard Woodard]], _Perturbative Quantum Gravity Comes of Age_,  International Journal of Modern Physics DVol. 23, No. 09, 1430020 (2014) ([arXiv:1407.4748](https://arxiv.org/abs/1407.4748))
+
+Aspects of [[gauge invariance]]:
+
+* [[Petr M. Lavrov]], [[Ilya Shapiro]], *Gauge invariant renormalizability of quantum gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.09271](https://arxiv.org/abs/2210.09271)&rbrack;
+
 
 A brief survey of the relevant mathematical issues with more pointers to the literature is in
 
