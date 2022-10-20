@@ -35,7 +35,7 @@ The principle of functional extensionality states that two [[functions]] are [[e
 
 In [[set theory]], function extensionality states that for all sets $A$ and $B$ and functions $f:A \to B$ and $g:A \to B$, if, for all elements $x \in A$, $f(x) = g(x)$, then $f = g$. 
 
-There is another definition of function extensionality: for all sets $A$ and $B$ and functions $f:A \to B$ and $g:A \to B$, if, for all elements $x \in A$ and $y \in B$ such that $x = y$, $f(x) = g(y)$, then $f = g$. 
+There is another definition of function extensionality: for all sets $A$ and $B$ and functions $f:A \to B$ and $g:A \to B$, if, for all elements $x \in A$ and $y \in A$ such that $x = y$, $f(x) = g(y)$, then $f = g$. 
 
 ### In category theory
 
@@ -59,11 +59,11 @@ $$\mathrm{happly}(f,f)(\mathrm{refl}_{A \to B}(f)) \equiv \lambda (x:A).\mathrm{
 
 and
 
-$$\mathrm{happly}'(f, g):(f =_{A \to B} g) \to \left(\prod_{x:A} \prod_{y:A} \prod_{p:x =_A y} f(x) =_B g(y)\right)$$
+$$\mathrm{happly}(f, g):(f =_{A \to B} g) \to \left(\prod_{x:A} \prod_{y:A} \prod_{p:x =_A y} f(x) =_B g(y)\right)$$
 
 inductively defined by 
 
-$$\mathrm{happly}'(f,f)(\mathrm{refl}_{A \to B}(f)) \equiv \lambda (x:A).\lambda (x:A).\lambda (\mathrm{refl}_A(x):x =_A x).\mathrm{refl}_B(f(x)):\prod_{x:A} \prod_{x:A} \prod_{\mathrm{refl}_A(x):x =_A x} f(x) =_B f(x)$$
+$$\mathrm{happly}(f,f)(\mathrm{refl}_{A \to B}(f)) \equiv \lambda (x:A).\lambda (x:A).\lambda (\mathrm{refl}_A(x):x =_A x).\mathrm{refl}_B(f(x)):\prod_{x:A} \prod_{x:A} \prod_{\mathrm{refl}_A(x):x =_A x} f(x) =_B f(x)$$
 
 The two definitions of $\mathrm{happly}$ become the same under [[singleton contractibility]]. This second definition behaves better with the [[action on identifications]]. 
 
