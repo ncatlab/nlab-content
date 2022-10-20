@@ -25,8 +25,6 @@ Relation to [[structural set theory]] is discussed in
 See also
 
 * {#Friedman1997} [[Harvey Friedman]] (1997). [Foundational Completeness](https://cs.nyu.edu/pipermail/fom/1997-November/000143.html). FOM, 1997 November.
-  
-
 
 [[!redirects material set theory]]
 [[!redirects material set theories]]
