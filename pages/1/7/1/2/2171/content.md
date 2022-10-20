@@ -800,7 +800,7 @@ The original articles dedicated to analysis of the braid group:
 
 Survey of the early history:
 
-* [[Michael Friedman]], *Mathematical formalization and diagrammatic reasoning: the case study of the braid group between 1925 and 1950*, British Journal for the History of Mathematics **34** 1 (2019) 43-59 &lbrack;[doi:10.1080/17498430.2018.1533298](https://doi.org/10.1080/17498430.2018.1533298)&rbrack;
+* [[Michael Friedman (historian)]], *Mathematical formalization and diagrammatic reasoning: the case study of the braid group between 1925 and 1950*, British Journal for the History of Mathematics **34** 1 (2019) 43-59 &lbrack;[doi:10.1080/17498430.2018.1533298](https://doi.org/10.1080/17498430.2018.1533298)&rbrack;
 
 The understanding of the braid group as the [[fundamental group]] of a [[configuration space of points]] was re-discovered/re-vived (after [Hurwitz 1891](#Hurwitz1891)) in:
 
