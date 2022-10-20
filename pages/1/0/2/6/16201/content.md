@@ -120,9 +120,14 @@ Discussion of [[causal locality]] in the presence of higher curvature correction
 
 * Giuseppe D'Appollonio, [[Paolo Di Vecchia]], [[Rodolfo Russo]], [[Gabriele Veneziano]], _Regge behavior saves String Theory from causality violations_ ([arXiv:1502.01254](http://arxiv.org/abs/1502.01254))
 
-Discussion in the context of corrections to [[black hole entropy]] include
+Discussion in the context of corrections to [[black hole entropy]]:
 
 * [[Thomas Mohaupt]], _Strings, higher curvature corrections, and black holes_ ([arXiv:hep-th/0512048](http://arxiv.org/abs/hep-th/0512048))
+
+Discussion of [[renormalization]] for gravity with higher curvature corrections:
+
+* Nobuyoshi Ohta, *One-loop divergences in higher-derivative gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.02583](https://arxiv.org/abs/2210.02583)&rbrack;
+
 
 Discussion of higher curvature corrections in [[cosmology]] and [[cosmic inflation]] (for more see at [[Starobinsky model of cosmic inflation]]):
 
