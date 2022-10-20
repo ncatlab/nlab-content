@@ -1,15 +1,50 @@
 
 
+\begin{tikzcd}
+  \mathrm{LinType}_{B}
+  \ar[
+    rr,
+    shift left=12pt,
+    "{ (p_B)_! }"
+  ]
+  \ar[
+    from=rr,
+    "{ (p_B)^\ast }"{description}
+  ]
+  \ar[
+    rr,
+    shift right=12pt,
+    "{ (p_B)_\ast }"{swap}
+  ]
+  &&
+  \mathrm{LinType}
+\end{tikzcd}
 
 
-[[Kong-TalkAtCQTS-20221019.pdf:file]]
-
-
-* [[Liang Kong]], *Topological Wick Rotation and Holographic Dualities*, talk at [[CQTS]] (Oct 2022) $[$[[Kong-TalkAtCQTS-20221019.pdf:file]]$]$
-
-  > on [[topological order]] and [[braided fusion categories]]
-
-I explain how the construction of cyclified ("twisted") free loop spaces, when regarded in higher topos theory, turns out to be nothing but the "right base change" to the context of the moduli stack of the circle. This fundamental fact implies at once good formal properties and lifts the construction to all kinds of generalized geometries, such as to orbifolds -- where we claim it reproduces Z. Huan's inertia construction --, and to super-rational homotopy types -- where we showed that it witnesses the rules of topological T-duality acting on the super D-brane charges. I close by explaining how these cyclified loop stack adjunctions formalize exactly what physicists mean by "double dimensional reduction" in its effect on fluxes/brane charges and end with an outlook on using these insights to define T-folds in the generality of twisted equivariant differential (TED) KR-theory.
+$$
+  \array{
+  &
+  (p_B)_\ast
+  \big(
+    (p_B)^\ast 
+    (p_B)_! \mathscr{H}_\bullet
+    \xrightarrow{\phantom{-}f\phantom{-}}
+    \mathscr{H}_\bullet
+  \big)
+  \\
+  \;=\;
+  &
+  (p_B)_\ast (p_B)^\ast \mathscr{H}
+  \xrightarrow{ (p_{B})_\ast }
+  \mathscr{H}
+  \\
+  \;\leftrightarrow\;
+  &
+  \mathscr{H}
+  \xrightarrow{ \widetilde{(p_{B})_\ast} }
+  Read_B \mathscr{H}
+  }
+$$
 
 
 \begin{theorem} {#Ref}
