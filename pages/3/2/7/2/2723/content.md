@@ -35,7 +35,7 @@ The formulation of the [[sigma-model]] 2d [[CFT]]s that are used in (super) [[st
 
 The big disadvantage is, that it is not known how to [[quantization|quantize]] this system. The reason is that the standard procedure for quantization shows that the GS-type sigma models are [[constrained mechanics|constrained]] systems with second-class constraints. Little to nothing is known how to deal with that.
 
-Berkovits was motivated by the desire to find a formulation of the superstring sigma model CFT that would combine the advantages of both the RNS formulation and the Green-Schwarz formulation. The goal was to have a CFT that looked like a free field theory (as the RNS string does for a flat Minkowski background, but as the GS string does not) if one just looked at a small part of the range of its fields, but which was globally constrained: the spinorial worldsheet fields here are maps into a space of [[pure spinor]]s that locally lools like a Euclidean space, but globally has a cone geometry (...details...).
+Berkovits was motivated by the desire to find a formulation of the superstring sigma model CFT that would combine the advantages of both the RNS formulation and the Green-Schwarz formulation. The goal was to have a CFT that looked like a free field theory (as the RNS string does for a flat Minkowski background, but as the GS string does not) if one just looked at a small part of the range of its fields, but which was globally constrained: the spinorial worldsheet fields here are maps into a space of [[pure spinors]] that locally lools like a Euclidean space, but globally has a cone geometry (...details...).
 
 Berkovits originally wrote down some more or less ad-hoc expressions. Later it was understood that what described is a _[[sheaf]] of vertex operator algebras_ (in general, not a [[sheaf]] but a [[stack]], in fact a [[gerbe]]) on target space: to each contractible open patch of target space is associate the [[vertex operator algebra]] of a free [[sigma-model]] CFT whose fields take values _just_ in that patch, such that on overlaps these vertex operator algebras glue in some way.
 
@@ -62,6 +62,11 @@ Relation to the [[RNS string]]:
 Relation to the [[Green-Schwarz superstring]]:
 
 * [[Max Guillen]], *Green-Schwarz and Pure Spinor Formulations of Chiral Strings* ([arXiv:2108.11724](https://arxiv.org/abs/2108.11724))
+
+Review:
+
+* [[Nathan Berkovits]], Carlos R. Mafra, *Pure spinor formulation of the superstring and its applications*, in *[[Handbook of Quantum Gravity]]* (2023) &lbrack;[arXiv:2210.10510](https://arxiv.org/abs/2210.10510)&rbrack;
+
 
 
 ### Sheaf ov VOAs
