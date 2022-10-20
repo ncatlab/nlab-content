@@ -675,7 +675,7 @@ The axioms $T_1$ and below can be phrased entirely in terms of the [[specialisat
 *  In general, the specialisation order is a [[preorder]].
 *  The space is $T_0$ if and only if the specialisation order is a [[partial order]].
 *  The space is $R_0$ if and only if the specialisation order is an [[equivalence relation]].
-*  The space is $T_1$ if and only if the sepcification order is the [[equality relation]].
+*  The space is $T_1$ if and only if the specialisation order is the [[equality relation]].
 
 Note that *any* preorder is the specialisation order for its own [[specialisation topology]].
 
