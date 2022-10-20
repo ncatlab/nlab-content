@@ -17,11 +17,14 @@ On [[equivariant elliptic cohomology]] in the form of [[orbifold K-theory]] on [
 
 * [[Zhen Huan]], [[Matthew Spong]], *Twisted Quasi-elliptic cohomology and twisted equivariant elliptic cohomology* ([arXiv:2006.00554](https://arxiv.org/abs/2006.00554))
 
-
 * [[Zhen Huan]], [[Nathaniel Stapleton]], *Level structures on p-divisible groups from the Morava E-theory of abelian groups* ([arXiv:2001.10075](https://arxiv.org/abs/2001.10075))
 
+Generalized to [[twisted equivariant K-theory|twisted equivariant]] [[KR-theory]]:
 
-## Related $n$Lab entries
+* [[Zhen Huan]], [[Matthew B. Young]], *Twisted Real quasi-elliptic cohomology* &lbrack;[arXiv:2210.07511](https://arxiv.org/abs/2210.07511)&rbrack;
+
+
+## Related entries
 
 * [[Tate K-theory]]
 
