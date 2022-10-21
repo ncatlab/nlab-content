@@ -94,6 +94,14 @@ The notion of unital 2-Segal space is also discovered independently under the na
 
 * [[Imma Gálvez-Carrillo]], [[Joachim Kock]], [[Andrew Tonks]], _Decomposition spaces, incidence algebras and Möbius inversion_, [arXiv:1404.3202](https://arxiv.org/abs/1404.3202)
 
+There are many sequels including
+
+* Joachim Kock, David I. Spivak, _Decomposition-space slices are toposes_, [arXiv:1807.06000](https://arxiv.org/abs/1807.06000)
+* Louis Carlier, [[Joachim Kock]], _Antipodes of monoidal decomposition spaces_, [arXiv:1807.11858](https://arxiv.org/abs/1807.11858)
+* Matthew Feller, [[Richard Garner]], [[Joachim Kock]], May U. Proulx, [[Mark Weber]], _Every 2-Segal space is unital_, [arXiv:1905.09580](https://arxiv.org/abs/1905.09580)
+* Nicolas Behr, [[Joachim Kock]], _Tracelet Hopf algebras and decomposition spaces_, [arXiv:2105.06186](https://arxiv.org/abs/2105.06186)
+* Philip Hackney, [[Joachim Kock]], _Culf maps and edgewise subdivision_, [arXiv:2210.11191](https://arxiv.org/abs/2210.11191); _Free decomposition spaces_, [arXiv:2210.11192](https://arxiv.org/abs/2210.11192)
+
 [[!redirects higher Segal space]]
 [[!redirects higher Segal spaces]]
 
