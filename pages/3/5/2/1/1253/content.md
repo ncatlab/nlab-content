@@ -46,7 +46,7 @@ Let $\sim$ be a [[bisimulation]], a binary relation such that for all sets $A$ a
 * for all sets $C$ such that $C \in A$, there exists a set $D$ such that $D \in B$ and $C \sim D$
 * for all sets $D$ such that $D \in B$, there exists a set $C$ such that $C \in A$ and $C \sim D$
 
-The **axiom of extensionality** states that for every bisimulation $\sim$ and for every set $A$ and $B$, $A \sim B$ implies that $A = B$. 
+The **axiom of strong extensionality** states that for every bisimulation $\sim$ and for every set $A$ and $B$, $A \sim B$ implies that $A = B$. 
 
 If the set theory does not have [[equality]] as a primitive, we could define equality as the [[terminal]] [[bisimulation]], as the bisimulation $=$ such that for every bisimulation $\sim$ and for every set $A$ and $B$, $A \sim B$ implies that $A = B$.
 
