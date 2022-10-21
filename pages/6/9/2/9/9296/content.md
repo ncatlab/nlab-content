@@ -39,6 +39,8 @@ This has been argued to resolve (and has been argued not to resolve) the problem
 
 ## References
 
+* [[Roland Omnès]], §7 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
+
 * Chris Nagele, Oliver Janssen, Matthew Kleban, _Decoherence: A Numerical Study_ ([arXiv:2010.04803](https://arxiv.org/abs/2010.04803))
 
 See also
