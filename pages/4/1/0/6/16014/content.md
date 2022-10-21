@@ -325,7 +325,15 @@ We discuss[^1] the modal logic induced from base change of [[dependent types]], 
 
 \linebreak
 
-For $B \colon FinType$ write $LinType_B$ for the $B$-[[dependent linear types]]
+Given a base [[type]] (which we take to be  [[finite type family|finite]])
+
+\[
+  \label{FiniteBaseType}
+  B \;\in\; FinType
+  \,,
+\]
+
+write $LinType_B$ for the $B$-[[dependent linear types]]
 
 $$
   \mathscr{H}_\bullet \,\in\, \mathrm{LinType}_B
@@ -334,8 +342,7 @@ $$
   \,.
 $$
 
-The standard [[categorical semantics]] here is obtained by [[relation between type theory and category theory|interpreting]] $\mathscr{H}_\bullet$ as a $B$-[[indexed set]] of [[complex vector spaces]] (or rather: [[Hermitian inner product spaces]]) which the reader may want to think of as being [[finite dimensional vector space|finite dimensional]] ([hence](Hilbert space#FiniteDimensionalInnerProductSpaces): as [[Hilbert spaces]] if positive definite), though this finite-dimensionality condition of $\mathscr{H}_b$ is not used in the following (as opposed to the finiteness condition on $B$, which is used).
-
+The intended [[categorical semantics]] is obtained by [[relation between type theory and category theory|interpreting]] $\mathscr{H}_\bullet$ as a $B$-[[indexed set]] of [[complex vector spaces]] (or rather: [[Hermitian inner product spaces]]) which the reader may want to think of as being [[finite dimensional vector space|finite dimensional]] ([hence](Hilbert space#FiniteDimensionalInnerProductSpaces): as [[Hilbert spaces]] if positive definite), though this finite-dimensionality condition of $\mathscr{H}_b$ is not used in the following (as opposed to the finiteness condition on $B$, which is used).
 
 We assume that our [[dependent linear type theory]] realizes [[base change]] of linear types along maps of non-linear base types in the form of [[Wirthmüller context|Wirthmüller]]-type [[yoga of six operations]]:
 
@@ -405,11 +412,12 @@ Recalling from [above](#RelationToContingency) the quadruple of ([[comonad|co-]]
 <img src="/nlab/files/TheFourModalitiesOfBaseChange-20221020.jpg" width="370">
 </center>
 
-one finds for the base change [[adjoint triple]] of [[dependent linear types]] along finite fibers that the interpretation of their ([[counit of a comonad|co-]])[[unit of a monad|units]] is as follows:
+one finds for the base change [[adjoint triple]] of [[dependent linear types]] along [[family of finite types|finite fibers]] (eq:FiniteBaseType)
+that the interpretation of their ([[counit of a comonad|co-]])[[unit of a monad|units]] is as follows:
 
 \begin{imagefromfile}
     "file_name": "CoUnitsOfLinearBaseChange-20221021.jpg",
-    "width": "680",
+    "width": "700",
     "unit": "px",
     "margin": {
         "top": -30,
@@ -456,6 +464,27 @@ From all this we find, first of all, that
     }
 \end{imagefromfile}
 
+\begin{remark}
+  The [[collapse of the wavefunction|collapse]]-principle of [[quantum measurement]] accurately expressed by the above linear [[necessity]]$\to$actuality$\to$[[possibility]] map was maybe first highlighted and made explicit in [von Neumann (1932), §III.3](wave+function+collapse#vonNeumann32), at least for the special case that (in our notation here) $\mathscr{H}_\bullet \,=\, (p_B)^\ast \mathbb{C}$ (cf. [Lüders (1951)](wave+function+collapse#Lüders51)).
+\end{remark}
+
+\begin{remark}
+We see that the base type $B$ (eq:FiniteBaseType) *of [[quantum measurement]] outcomes* plays the role of *both*
+
+1. the *[[possible worlds semantics|possible worlds]]* of [[modal logic|classical modal logicians]];
+
+1. the *[[many-worlds interpretation of quantum mechanics|many worlds]]* of [[interpretation of quantum mechanics|quantum interpretationists]].
+
+\end{remark}
+
+\begin{remark}
+  One might expect that an indeterministic value such as [[quantum measurement]]-outcome be expressed by the contingency modality $\bigcirc_B$ instead of by necessity modality $\Box_B$. 
+
+But these are related:
+
+(...)
+
+\end{remark}
 
 (...)
 
