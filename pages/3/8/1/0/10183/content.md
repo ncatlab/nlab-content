@@ -31,6 +31,11 @@ Via the [[Pauli exclusion principle]]/[[spin-statistics theorem]], this implies 
 
 ## References
 
+
+* [[Roland Omnès]], §2 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
+
+See also:
+
 * Wikipedia, _[Stern-Gerlach experiment](http://en.wikipedia.org/wiki/Stern%E2%80%93Gerlach_experiment)_ .
 
 [[!redirects Stern-Gerlach device]]
