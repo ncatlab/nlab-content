@@ -271,17 +271,16 @@ One of the earliest texts that exhibits the [[intuitionism|intuitionist]] contex
 
 * Oskar Becker, _Zur Logik der Modalit&#228;ten_ , Jahrbuch f&#252;r Philosophie und ph&#228;nomenologische Forschung **11** (1930)  pp.497-548. ([digizeit](http://www.digizeitschriften.de/dms/img/?PID=PPN827944462_0011%7CLOG_0010))
 
-A standard textbook and reference is
+Textbook accounts:
 
 * {#BlackburnDeRijkeVenema} [[Patrick Blackburn]], M. de Rijke and [[Yde Venema]], _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001.
 
-Two standard references are
-
 * P. Blackburn, J. van Benthem, F. Wolter (eds.), _The Handbook of Modal Logic_ , Elsevier Amsterdam 2007.
 
-* [[Marcus Kracht]], _Tools and Techniques in Modal Logic_ , Studies in Logic and the Foundation of Mathematics **142** Elsevier Amsterdam 1999. ([draft](http://wwwhomes.uni-bielefeld.de/mkracht/html/tools/book.pdf))
+* [[Johan van Benthem]], *Modal Logic for Open Minds* (2010) &lbrack;[ISBN:9781575865980](http://web.stanford.edu/group/cslipublications/cslipublications/site/9781575865980.shtml),[pdf](http://fenrong.net/teaching/mljvb.pdf), [webpage](https://archive.illc.uva.nl/lgc/MLoM/)&rbrack;
 
-Other texts on modal logic include
+
+Other texts:
 
 * {#Scott70} [[Dana Scott]], _Advice on Modal Logic_, in [[Karel Lambert]] (ed.) _Philosophical problems in Logic -- Some recent developments_, Reidel 1970
 
@@ -294,6 +293,11 @@ Other texts on modal logic include
 A formulation of modal logic in terms of [[type|typing]] [[judgements]] and  [[type formation rules]] is in 
 
 * {#Pfenning-Davies} [[Frank Pfenning]], Rowan Davies, _A judgemental reconstruction of modal logic_, Mathematical Structures in Comp. Sci., 11(4):511{540, August 2001. (2000) ([pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf))
+
+See also:
+
+* [[Marcus Kracht]], _Tools and Techniques in Modal Logic_ , Studies in Logic and the Foundation of Mathematics **142** Elsevier Amsterdam (1999) &lbrack;[pdf](http://wwwhomes.uni-bielefeld.de/mkracht/html/tools/book.pdf), [doi:10.2307/2687780](https://doi.org/10.2307/2687780)&rbrack;
+
  
 A discussion of  coalgebraic modal logic and of general modal logic in terms of [[coalgebra]] and the [[terminal coalgebra of an endofunctor]] is in 
 
