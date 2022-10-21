@@ -55,7 +55,7 @@ Recall that the [[image]] of a function $f:A \to B$ is the subset of all element
 $$\mathrm{image}(f) \coloneqq \{f(a) \vert a \in A, f:A \to B\}$$
 
 The [[support]] of the set is defined as the [[image]] of the unique function $u:S \to 1$. 
-$$[S] \coloneqq \{f(a) \vert a \in S, u:S \to 1\}$$
+$$[S] \coloneqq \{u(a) \vert a \in S, u:S \to 1\}$$
 
 Since the [[image]] is always a [[subset]] of the [[codomain]] of the [[function]], the [[support]] of a set is thus a [[subsingleton]]. The support enables us to make every set $S$ into a [[subsingleton]]. 
 
