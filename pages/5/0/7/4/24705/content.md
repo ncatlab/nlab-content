@@ -14,7 +14,7 @@ The following discussion indicates[^1] how a natural [[quantum programming langu
 
 [^1]: Full details to appear at: *[[schreiber:Topological Quantum Programming in Linear Homotopy Type Theory]]*.
 
-This works by regarding classically controlled [[quantum states]] as having [[linear type|linear data types]] [[dependent type|dependent]] on classical control parameters and on measurement results, and then making the following key observations:
+This works by regarding classically controlled [[quantum states]] as having [[linear type|linear data types]] [[dependent type|dependent]] on classical control parameters and on measurement results, and then making the following key observations on **[modal quantum logic](necessity+and+possibility#ModalQuantumLogic)** with [[dependent linear types]]:
 
 1. The "[[necessity]]" [[modality]] $\Box_C \coloneqq (p_C)^\ast (p_C)_\ast$ on [[linear types]] dependent on a given classical [[context]] $C$ (which includes classical control parameters as well as eventual [[quantum measurement]]-outcomes on the same footing) knows all about controlled [[quantum gates]]: These are identified just with the [[morphisms]] of the $\Box_C$-[[co-Kleisli category]], where the $\Box_C$-[[counit of a comonad|counit]] (taking a linear type "out of the comonad") reflects the [[quantum state collapse]] of [[quantum measurement]], and where the $\Box_C$-[[comultiplication]] encodes the [[superposition]]-principle.
 
@@ -24,7 +24,7 @@ All constructions and proofs here flow readily from just the [[six operation yog
 
 
 
-Aspects of the following have a resemblance to some variants and categorical interpretations of the [[quantum programming language]] "[[Quipper]]" (see the references [there](Quipper#ReferencesDependentLinearTypesAndCategoricalSemantics)), but avoids (see [below](#NoticeTheTypingOfAQbit)) Quipper's problem of needing "dynamical lifting" (see [there](Quipper#ReferencesDynamicLifting)) of "measurement bits back into the context": The linear [[necessity]]-modality knows right away that measurement outcomes are recorded in the context. 
+Aspects of the following have a resemblance to some variants and categorical interpretations of the [[quantum programming language]] "[[Quipper]]" (see the references [there](Quipper#ReferencesDependentLinearTypesAndCategoricalSemantics)), but avoids (see [below](#NoticeTheTypingOfAQbit)) Quipper's problem of needing "dynamic lifting" (see [there](Quipper#ReferencesDynamicLifting)) of "measurement bits back into the context": The linear [[necessity]]-modality knows right away that measurement outcomes are recorded in the context. 
 
 \linebreak
 
@@ -336,10 +336,10 @@ In particular, by retaining the quantum type of the measurement result, we retai
 \linebreak
 
 
-Dually, the [[possibility]]-[[unit of a monad|unit]] on [[qbits]] is their *conditional state preparation* (this is the operation denoted "$\underline{a} \xleftarrow{\;} a$" in [Knill 1996](quantum+programming+language#Knill96), [p. 8](https://www.ncatlab.org/nlab/files/Knill-QuantumPseudocode.pdf#page=8)):
+Dually, the [[possibility]]-[[unit of a monad|unit]] on [[qbits]] is their *conditional [[state preparation]]* (this is the operation denoted "$\underline{a} \xleftarrow{\;} a$" in [Knill 1996](quantum+programming+language#Knill96), [p. 8](https://www.ncatlab.org/nlab/files/Knill-QuantumPseudocode.pdf#page=8)):
 
 \begin{imagefromfile}
-    "file_name": "QCwthLHT-QBitStatePreparationCondt-221003.jpg",
+    "file_name": "QCwthLHT-QBitStatePreparationCondt-221021.jpg",
     "width": "500",
     "unit": "px",
     "margin": {
@@ -350,11 +350,10 @@ Dually, the [[possibility]]-[[unit of a monad|unit]] on [[qbits]] is their *cond
     }
 \end{imagefromfile}
 
-From this, if we denote $\mathrm{const}_0 : \Bool \to \Bool$ 
-the function [[constant function|constant]] on $0$, then  the *unconditional state preparation* (the operation denoted "$\underline{a} \xleftarrow{\;} 0$" in [Knill 1996](quantum+programming+language#Knill96), [p. 8](https://www.ncatlab.org/nlab/files/Knill-QuantumPseudocode.pdf#page=8)) is the base change of the conditional state preparation along this map:
+From this, if we denote $\mathrm{const}_0 \colon \Bool \to \Bool$ the function [[constant function|constant]] on $0$, then the *unconditional [[state preparation]]* (the operation denoted "$\underline{a} \xleftarrow{\;} 0$" in [Knill 1996](quantum+programming+language#Knill96), [p. 8](https://www.ncatlab.org/nlab/files/Knill-QuantumPseudocode.pdf#page=8)) is the base change of the conditional [[state preparation]] along this map:
 
 \begin{imagefromfile}
-    "file_name": "QCwthLHT-QBitStatePreparation-221003.jpg",
+    "file_name": "QCwthLHT-QBitStatePreparation-221021.jpg",
     "width": "500",
     "unit": "px",
     "margin": {
@@ -408,7 +407,7 @@ The dependent linear type of the [[CNOT gate]]:
 The dependent linear type of a [[Bell state]] preparation:
 
 \begin{imagefromfile}
-    "file_name": "QCwthLHT-BellStatePreparation-221003d.jpg",
+    "file_name": "QCwthLHT-BellStatePreparation-221021.jpg",
     "width": "800",
     "unit": "px",
     "margin": {
