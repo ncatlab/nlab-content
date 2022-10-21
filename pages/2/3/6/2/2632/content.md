@@ -370,7 +370,6 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
   *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
 
-
 Equivalence of the [[Heisenberg picture]] and the [[Schrödinger picture]]:
 
 * [[Erwin Schrödinger]], *Über das Verhältnis der Heisenberg-Born-Jordanschen Quantenmechanik zu der meinen*, Annalen der Physil **384** 8 (1926) 734-756 &lbrack;[doi:10.1002/andp.19263840804]( https://doi.org/10.1002/andp.19263840804)&rbrack;
@@ -402,6 +401,9 @@ Modern textbooks:
 
 * [[Mikio Nakahara]], Chapter 1 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
+On the [[interpretation of quantum mechanics]]:
+
+* [[Roland Omnès]], §1 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
 
 Lecture notes:
