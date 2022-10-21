@@ -73,6 +73,8 @@ Rev. Mod. Phys. 54, 407--435 (1982)
 Both references assume that the Lie group is finite-dimensional and semisimple. This excludes the Heisenberg group, in terms of which the standard (Glauber) coherent states are usually defined. However, the Heisenberg group has a triangular decomposition, and this suffices to apply
 Perelomov's theory in spirit. 
 
+* [[Roland Omnès]], §6 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
+
 The online book
 
 * [[Arnold Neumaier]], [[Dennis Westra]], _Classical and Quantum Mechanics via Lie algebras_ ([arXiv](http://lanl.arxiv.org/abs/0810.1019))
