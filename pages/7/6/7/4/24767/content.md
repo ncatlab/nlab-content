@@ -7,6 +7,7 @@ See there for introductory material.
 * [[David Jaz Myers]], _String diagrams for double categories and (virtual) equipments_, [(arXiv)](https://arxiv.org/abs/1612.02762), 2016
 * [[Mike Shulman]], _Equipments_, [(n-Cafè)](https://golem.ph.utexas.edu/category/2009/11/equipments.html), 2009
 * [[Mike Shulman]], _Framed bicategories and monoidal fibrations_, [(arXiv)](https://arxiv.org/abs/0706.1286), 2009
+* Max New, Dan Licata, _A Formal Logic for Formal Category Theory_, [(arXiv)](https://arxiv.org/abs/2210.08663), 2022
 
 ### Grothendieck constructions
 * Evan Patterson, _Grothendieck construction for double categories_, [(Topos Institute)](https://topos.site/blog/2022/05/grothendieck-construction-for-double-categories/), 2022
@@ -16,6 +17,7 @@ See there for introductory material.
 ### Lenses & optics
 * [[Bryce Clarke]], _The double category of lenses_, [(online)](https://bryceclarke.github.io/The_Double_Category_Of_Lenses_Phd_Thesis.pdf), 2022
 * Capucci, _Seeing double through dependent optics_, [(arXiv)](https://arxiv.org/abs/2204.10708), 2022
+* Guillaume Boisseau, Chad Nester, Mario Roman, _Cornering optics_,[(arXiv)](https://arxiv.org/abs/2205.00842), 2022
 
 ### Open systems theory
 * Jared Culbertson, Paul Gustafson, Daniel E. Koditschek, Peter F. Stiller, _Formal composition of hybrid systems_, [(arXiv)](https://arxiv.org/abs/1911.01267)
@@ -28,3 +30,4 @@ See also [[structured cospans]] and [[decorated cospans]]
 ### Theory of programming languagues
 * Pierre-Evariste Dagand, [[Conor McBride]], _A Categorical Treatment of Ornaments_, [(acm)](https://dl.acm.org/doi/abs/10.5555/2591370.2591396), 2013
 * Max New, Dan Licata, _Call-by-name Gradual Type Theory_, [(arXiv)](https://arxiv.org/abs/1802.00061), 2018
+* Max New, Dan Licata, _A Formal Logic for Formal Category Theory_, [(arXiv)](https://arxiv.org/abs/2210.08663), 2022
