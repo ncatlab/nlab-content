@@ -385,3 +385,11 @@ and see the references at *[[Hilbert space]]*.
 [[!redirects Hermitian inner products]]
 [[!redirects hermitian inner product]]
 [[!redirects hermitian inner products]]
+
+[[!redirects Hermitian inner product space]]
+[[!redirects Hermitian inner product spaces]]
+[[!redirects hermitian inner product space]]
+[[!redirects hermitian inner product spaces]]
+
+
+
