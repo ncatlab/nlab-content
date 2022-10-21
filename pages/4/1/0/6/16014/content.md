@@ -181,7 +181,7 @@ Some technical remarks:
 There is also an [[adjoint pair]] on the other side, $\mathbf{H}_{/\ast}$, of the [[base change]] maps, in which the left adjoint is given by context extension back to $\mathbf{H}_{/W}$ followed by $\exists_W$, and dually the right adjoint is given by $W^\ast$ followed by $\forall_W$. The former is the [[writer comonad]], whereas the latter is the [[reader monad]] (aka [[function monad]]):
 
 <center>
-<img src="/nlab/files/TheFourModalitiesOfBaseChange-20221020.jpg" width="400">
+<img src="/nlab/files/TheFourModalitiesOfBaseChange-20221021.jpg" width="400">
 </center>
 
 
@@ -319,6 +319,8 @@ hence
 #### Modal quantum logic
  {#ModalQuantumLogic}
 
+> under construction
+
 We discuss[^1] the modal logic induced from base change of [[dependent types]], as [above](#Globally), now applied to [[dependent linear types]] over [[finite sets]] ([[family of finite types]]) --- to find a natural [[modal logic|modal]] [[quantum logic]] (and in fact a natural [[quantum programming language]] for [[quantum circuits]], see at *[[quantum circuits via dependent linear types]]* for more on this).
 
 [^1]: Following discussion at *[[schreiber:Topological Quantum Programming in Linear Homotopy Type Theory]]* 
@@ -409,18 +411,21 @@ Both these assumptions are verified in the [[linear homotopy type theory]] of [R
 Recalling from [above](#RelationToContingency) the quadruple of ([[comonad|co-]])[[monad|monadic]] [[modalities]] associated with any [[base change]]
 
 <center>
-<img src="/nlab/files/TheFourModalitiesOfBaseChange-20221020.jpg" width="370">
+<img src="/nlab/files/TheFourModalitiesOfBaseChange-20221021.jpg" width="370">
 </center>
 
 one finds for the base change [[adjoint triple]] of [[dependent linear types]] along [[family of finite types|finite fibers]] (eq:FiniteBaseType)
 that the interpretation of their ([[counit of a comonad|co-]])[[unit of a monad|units]] is as follows:
 
+\[
+  \label{QuantumModalUnits}
+\]
 \begin{imagefromfile}
-    "file_name": "CoUnitsOfLinearBaseChange-20221021.jpg",
-    "width": "700",
+    "file_name": "QCwthLHT-QuantumModalUnits-221021b.jpg",
+    "width": "810",
     "unit": "px",
     "margin": {
-        "top": -30,
+        "top": -10,
         "bottom": 20,
         "right": 0, 
         "left": 10
@@ -481,6 +486,12 @@ We see that the base type $B$ (eq:FiniteBaseType) *of [[quantum measurement]] ou
   One might expect that an indeterministic value such as [[quantum measurement]]-outcome be expressed by the contingency modality $\bigcirc_B$ instead of by necessity modality $\Box_B$. 
 
 But these are related:
+
+(...)
+
+Dual picture:
+
+measurement is $\lozenge$-coaction on the cofree $\lozenge$-coalgebra $\mathscr{H} \coloneqq (p_B)_!\mathscr{H}_\bullet$
 
 (...)
 
