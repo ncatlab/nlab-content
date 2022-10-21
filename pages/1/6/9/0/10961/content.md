@@ -181,3 +181,6 @@ One quote above is taken from the first paragraphs of
 [[!redirects interpretations of quantum mechanics]]
 [[!redirects interpretation of quantum physics]]
 [[!redirects interpretations of quantum physics]]
+
+[[!redirects many-worlds interpretation of quantum mechanics]]
+
