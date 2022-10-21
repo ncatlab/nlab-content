@@ -143,6 +143,10 @@ The [[space of quantum states]] forms a linear [[representation]] of a given [[a
 
 ## References
 
+
+* [[Roland Omnès]], §3 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
+
+
 ### In algebraic quantum theory
 
 Comprehensive discussion is in 
