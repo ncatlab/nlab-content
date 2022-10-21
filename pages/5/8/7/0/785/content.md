@@ -154,6 +154,12 @@ In this spirit one may ask for the largest class of morphisms such that their or
 
 =--
 
++-- {: .num_remark }
+###### Remark
+
+In the first point of \ref{HomotopyPullbackByOrdinaryPullback} it is necessary that all all three objects are fibrant. For example, the pullback of $\Lambda_1^2 \to \Delta^2$ along $d_1: \Delta^1 \to \Delta^2$ is not a homotopy pullback with respect to the Joyal model structure, even though the latter morphism is a fibration between fibrant objects. 
+
+=--
 
 
 Due to prop. \ref{HomotopyPullbackByOrdinaryPullback} one typically computes homotopy pullbacks of a diagram by first forming a [[resolution]] of one of the two morphisms by a fibration and then forming an ordinary pullback. 
