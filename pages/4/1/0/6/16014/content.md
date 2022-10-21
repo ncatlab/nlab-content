@@ -93,6 +93,7 @@ One common philosophical interpretation of "necessarily" and "possibly" is in te
 Now the idea of a proposition being true "necessarily in all possible cases" or "possibly at least in one case" is formally very well established in *predicate* logic: it is just the interpretation of the [[universal quantifier]] "for all" $\forall$ and of the [[existential quantifier]] "there exists" $\exists$.  In [[categorical logic]], these [[quantifiers]] (see there for details) are part of an [[adjoint triple]] whose middle piece is [[context]] extension, and as such they naturally induce a [[comonad]] and a [[monad]].  Thus, if we interpret "necessarily" and "possibly" in terms of possible worlds, we can model them by this [[base change]] [[adjoint triple]].
 
 ### Globally
+ {#Globally}
 
 In more detail, let $W$ be the [[context]] [[type]] of [[variables]]/[[terms]] on which the propositions depend, i.e. the collection "of all [[possible worlds semantics|possible worlds]]".  Any specific choice of $W$ may be taken as specifying what is to be understood as a "possible world".
 
@@ -152,6 +153,20 @@ Thus, this gives one [[syntax|syntactic]] formalization of the informal meaning 
 
 Moreover, with this formalization, the modal operator $\underset{W}{\lozenge}$ is [[left adjoint]] to $\underset{W}{\Box}$ and hence both form an [[adjoint modality]]. As discussed there, this is a formalization of [[unity of opposites|opposite]] concepts, which reflects well the opposition of necessity and possibility in their informal meaning.
 
+Observe how the corresponding [[unit of a monad|unit]] and [[counit of a comonad|counit]] maps properly reflect the intended logic of necessity, actuality and possibility:
+
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-ClassicalNecessity-221003.jpg",
+    "width": "900",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
 Some technical remarks:
 
@@ -166,7 +181,7 @@ Some technical remarks:
 There is also an [[adjoint pair]] on the other side, $\mathbf{H}_{/\ast}$, of the [[base change]] maps, in which the left adjoint is given by context extension back to $\mathbf{H}_{/W}$ followed by $\exists_W$, and dually the right adjoint is given by $W^\ast$ followed by $\forall_W$. The former is the [[writer comonad]], whereas the latter is the [[reader monad]] (aka [[function monad]]):
 
 <center>
-<img src="/nlab/files/TheFourModalitiesOfBaseChange-20221020.jpg" width="410">
+<img src="/nlab/files/TheFourModalitiesOfBaseChange-20221020.jpg" width="400">
 </center>
 
 
@@ -221,6 +236,8 @@ If here $\omega$ is an [[effective epimorphism]] (a [[1-epimorphism]]) then it e
 
 ### Examples
  {#Examples}
+
+#### Historical examples
 
 Historically, one informal example whose formalization in [[modal logic]] has been controversially discussed (see for instance [IEP "Rudolf Carnap: Modal Logic"](#IEPCarnapModal)) is the pair of informal assertions
 
@@ -297,6 +314,150 @@ hence
 
 * "It is false that it is necessary that the number of planets in the solar system is greater than 7."
 
+\linebreak
+
+#### Modal quantum logic
+ {#ModalQuantumLogic}
+
+We consider[^1] the modal logic induced from base change of [[dependent types]], as [above](#Globally), now applied to [[dependent linear types]] over [[finite sets]] ([[family of finite types]]) $B$ --- to find a natural kind of [[modal logic|modal]] [[quantum logic]], in fact a kind of [[quantum programming language]] for [[quantum circuits]]. 
+
+[^1]: Following discussion at *[[schreiber:Topological Quantum Programming in Linear Homotopy Type Theory]]* 
+
+\linebreak
+
+For $B \colon FinType$ write $LinType_B$ for the $B$-[[dependent linear types]]
+
+$$
+  \mathscr{H}_\bullet \,\in\, \mathrm{LinType}_B
+  \;\;\;\;\;\;\leftrightarrow\;\;\;\;\;\;
+  b : B \;\;\vdash\;\; \mathscr{H}_b : \mathrm{LinType}
+  \,.
+$$
+
+The standard [[categorical semantics]] here is obtained by [[relation between type theory and category theory|interpreting]] $\mathscr{H}_\bullet$ as a $B$-[[indexed set]] of [[complex vector spaces]] (or rather: [[Hermitian inner product spaces]]) which the reader may want to think of as being [[finite dimensional vector space|finite dimensional]] ([hence](Hilbert space#FiniteDimensionalInnerProductSpaces): as [[Hilbert spaces]] if positive definite), though this finite-dimensionality condition of $\mathscr{H}_b$ is not used in the following (as opposed to the finiteness condition on $B$, which is used).
+
+
+We assume that our [[dependent linear type theory]] realizes [[base change]] of linear types along maps of non-linear base types in the form of [[Wirthmüller context|Wirthmüller]]-type [[yoga of six operations]]:
+
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-BaseChange-221001.jpg",
+    "width": "680",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Moreover, we assume that along maps with [[finite type|finite]]-[[fibers]], such as the [[terminal object|terminal]] map $B \to \ast$, the left [[base change]] agrees with the right [[base change]] (so that both give the dependent *[[biproduct]]* $\otimes_{b : B}$ over $B$):
+
+$$
+  \mathrm{stability}
+  \;:\;
+  (p_B)_! \mathscr{H}_\bullet
+  \;\;\simeq\;\;
+  (p_B)_\ast \mathscr{H}_\bullet
+  \;\;=:\;\;
+  \underset{b : B}{\bigoplus}  
+  \mathscr{H}_b
+  \;\;\;
+  \text{(biproducts)}
+$$
+
+Curiously, in terms of [[modal logic]], this is the *[[Gell-Mann principle]]* of quantum physics, in that it means:
+
+$$
+  \array{
+    \llap{\text{The}}\;\text{possible}
+    &
+    \text{is} 
+    &
+    \text{necessary}
+    &
+    \text{and hence} 
+    &
+    \text{actualized}
+    \\
+    \lozenge \mathcal{H}_\bullet
+    &
+    \simeq
+    &
+    \Box \mathcal{H}_\bullet 
+    &
+    \xrightarrow{\phantom{--} \epsilon \phantom{--}} 
+    &
+    \mathcal{H}_{
+      \bullet   
+      \;
+      \mathrlap{\text{with some probability}}
+    }
+  }
+$$
+
+Both these assumptions are verified in the [[linear homotopy type theory]] of [Riley (2022),  §2.4](dependent+linear+type+theory#Riley22Thesis), which should have [[categorical semantics]] in (a [[type-theoretic model category]] [[presentable (infinity,1)-category|presenting]]) the [[(infinity,1)-topos|$(\infty,1)$-topos]] of [[parameterized spectrum|parameterized]] [[Eilenberg-MacLane spectrum|$H\mathbb{C}$]]-[[module spectra]], among which [[complex vector spaces]] $\mathscr{H}$ [[full (infinity,1)-subcategory|embed]] as their [[Eilenberg-MacLane spectra|Eilenberg-MacLane]] [[module spectra]] $H\mathscr{H}$.
+
+
+Recalling from [above](#RelationToContingency) the quadruple of ([[comonad|co-]])[[monad|monadic]] [[modalities]] associated with any [[base change]]
+
+<center>
+<img src="/nlab/files/TheFourModalitiesOfBaseChange-20221020.jpg" width="370">
+</center>
+
+one finds for the base change [[adjoint triple]] of [[dependent linear types]] along finite fibers that the interpretation of their ([[counit of a comonad|co-]])[[unit of a monad|units]] is as follows:
+
+\begin{imagefromfile}
+    "file_name": "CoUnitsOfLinearBaseChange-20221021.jpg",
+    "width": "680",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Considering the basic dependent linear type
+
+$$
+  \mathbb{C}_bullet \;\coloneqq\; (p_B)^\ast \mathbb{C}
+$$
+$$
+  b \colon B 
+  \;\;\;\vdash\;\;\;
+  \mathbb{C} \;\colon\; LinType
+$$
+
+(which is the [[tensor unit]] in $LinType_B$) we may understand 
+
+$$
+  \mathscr{H} \;\coloneqq\; \Box_B \mathbb{C}_\bullet
+$$
+
+as the [[Hilbert space]] which is spanned by a measurement basis $\vert b \rangle$.
+
+From all this we find, first of all, that 
+
+1. the [[necesssity]]-[[counit of a comonad|counit]] exhibits the *[[collapse of the wavefunction|collapse]]* of [[quantum states]] under a [[quantum measurement]] in the $B$-basis
+
+1. the [[possibility]]-[[unit of a monad|unit]] exhibits the condition quantum state preparation in this basis:
+
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-QuantumNecessity-221021.jpg",
+    "width": "900",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+(...)
 
 
 ## Related concepts
