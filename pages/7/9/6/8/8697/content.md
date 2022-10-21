@@ -28,13 +28,16 @@ The original article is
 * {#EinsteinPodoldskyRosen35} [[Albert Einstein]], [[Boris Podolsky]], [[Nathan Rosen]], _Can the Quantum-Mechanical Description of Physical Reality be Considered Complete?_ Physical Review **47** 10 (1935) 777-780  &lbrack;[doi:10.1103/PhysRev.47.777](https://doi.org/10.1103/PhysRev.47.777)&rbrack;
  
 
-A thorough treatment is in:
+
+Review and discussion:
+
+* [[Roland Omnès]], §9 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
 * Arthur Fine, _The Einstein-Podolsky-Rosen Argument in Quantum Theory_, Stanford Encyclopedia of Philosophy ([web](http://plato.stanford.edu/entries/qt-epr/))
 
 * Anthony Sudbery, Quantum mechanics and the particles of nature: An outline for mathematicians (in chapter 5)
 
-A survey is in 
+See also:
 
 * Wikipedia, _[EPR paradox](http://en.wikipedia.org/wiki/EPR_paradox)_
 
