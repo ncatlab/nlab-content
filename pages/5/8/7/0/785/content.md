@@ -126,6 +126,7 @@ Formal proof that this is the homotopy pullback in homotopy type theory is in ([
 
 We discuss various concrete constructions by ordinary [[pullbacks]] and ordinary [[limits]] such that under some sufficient conditions these compute homotopy pullbacks, up to weak equivalence.
 
+
 ### General
  {#ConstructionsGeneral}
 
