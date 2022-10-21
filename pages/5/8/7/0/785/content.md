@@ -146,18 +146,19 @@ Both statements are classical. They are reviewed for instance as [Lurie, prop. A
 +-- {: .num_remark }
 ###### Remark
 
-Notice that a fibrant [[resolution]] of the diagram in the injective [[model structure on functors]] has _both_ morphisms be a fibration. So the first point in prop. \ref{HomotopyPullbackByOrdinaryPullback} says that (in the special case of pullbacks) something weaker than this is sufficient for computing the [[homotopy limit]] of the diagram.
+Notice that a  [[fibrant resolution]] of the [[cospan]] [[diagram]] in the injective [[model structure on functors]] has _both_ morphisms be a fibration. So the first point in Prop. \ref{HomotopyPullbackByOrdinaryPullback} says that (in the special case of pullbacks) something weaker than fibrancy  is sufficient for [[derived functor|deriving]] the [[limit]] functor on cospan diagrams.
 
-This can be explained in model-categorical terms by the fact that the category of [[cospans]] also has a [[Reedy model structure]] in which the fibrant objects are precisely those considered in the first point above, and that homotopy limits can equally well be computed using this model structure (specifically, the [[adjunction]] $Const \dashv Lim$ is [[Quillen adjunction|Quillen]] with respect to it).
+This can be explained in model-categorical terms by the fact that the category of [[cospans]] also has a [[Reedy model structure]] in which the fibrant objects are precisely those considered in the first point in Prop. \ref{HomotopyPullbackByOrdinaryPullback}, and that homotopy limits can equally well be computed using this model structure (specifically, the [[adjunction]] $Const \dashv Lim$ is [[Quillen adjunction|Quillen]] with respect to it).
 
 In this spirit one may ask for the largest class of morphisms such that their ordinary pullbacks are already homotopy pullbacks. This is related to the concept of _[[sharp morphisms]]_.
 
 =--
 
-+-- {: .num_remark }
++-- {: .num_remark #NeedForThreeFibrantObjects}
 ###### Remark
 
-In the first point of \ref{HomotopyPullbackByOrdinaryPullback} it is necessary that all all three objects are fibrant. For example, the pullback of $\Lambda_1^2 \to \Delta^2$ along $d_1: \Delta^1 \to \Delta^2$ is not a homotopy pullback with respect to the Joyal model structure, even though the latter morphism is a fibration between fibrant objects. 
+In the first point of Prop. \ref{HomotopyPullbackByOrdinaryPullback} it is indeed necessary that all three objects are fibrant. As a ([[counterexample|counter-]])[[example]] consider the 
+pullback of $\Lambda_1^2 \to \Delta^2$ along $d_1 \colon \Delta^1 \to \Delta^2$ in [[SimplicialSets]]: This is not a homotopy pullback with respect to the [[Joyal model structure]], even though the latter morphism is a fibration between fibrant objects. 
 
 =--
 
