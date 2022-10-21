@@ -78,6 +78,9 @@ In this formulation the [[k-morphism|(n-1)-morphism]] in $\mathcal{C}$ assigned 
 
 [[!include classical-to-quantum notions - table]]
 
+## References
+
+* [[Roland Omnès]], §3 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
 
 [[!redirects quantum state]]
