@@ -282,7 +282,14 @@ Implications for the significance across channels:
 
 [PBD22](#PBD22): 
 
-> We have used our improved scalar, vector and tensor [[form factors]] calculated in $N_f = 2+1+1$ [[lattice QCD]]  &lbrack;...&rbrack; Our improved form factors significantly sharpen the tension, which becomes particularly strong in the  region below the charmonium resonances. For $1.1 \lt  q^2 \lt 6 GeV^2$ we find a tension of 4.7σ for $B^+ \to K^+ \mu^+ \mu^-$ and 3.6σ for $B^0 \to K^+ \mu^+ \mu^-$ with LHCb ’14A and 3.3σ for $B^+ \to K^+ e^+ e^-$ with LHCb ’21
+> We have used our improved scalar, vector and tensor [[form factors]] calculated in $N_f = 2+1+1$ [[lattice QCD]] &lbrack;...&rbrack; Our improved form factors significantly sharpen the tension, which becomes particularly strong in the  region below the charmonium resonances. For $1.1 \lt  q^2 \lt 6 GeV^2$ we find a tension of 4.7σ for $B^+ \to K^+ \mu^+ \mu^-$ and 3.6σ for $B^0 \to K^+ \mu^+ \mu^-$ with LHCb ’14A and 3.3σ for $B^+ \to K^+ e^+ e^-$ with LHCb ’21
+
+[PBD22b](#PBD22b):
+
+> We present the first fully relativistic determination of the scalar, vector and tensor form factors for $B \to K$ decays. &lbrack;...&rbrack; Using these form factors, we can calculate the SM branching fraction for $B \to K e(\mu)+ e(\mu)^-$ &lbrack;...&rbrack; We find tensions above $3\sigma$ in the ratio of our result with LHCb, and above$5\sigma$ in one instance for the low $q^2$ bin.
+
+
+
 
 [Mahmoudi 2022](#Mahmoudi22):
 
@@ -651,6 +658,9 @@ Saad Nabeebaccus, Roman Zwicky, *On the $R_K$ Theory Error* &lbrack;[arXiv:2209.
 More accurate predictions from [[lattice QCD]] of the expected branching ratios:
 
 * {#PBD22} W. G. Parrott, C. Bouchard, C. T. H. Davies, *Standard Model predictions for $B \to K \ell^+ \ell^-$, $B \to K \ell^-_1 \ell^+_2$ and $B \to K \nu \bar\nu$ using form factors from Nf=2+1+1 lattice QCD* &lbrack;[arXiv:2207.13371](https://arxiv.org/abs/2207.13371)&rbrack;
+
+* {#PBD22b} W. G. Parrott, C. Bouchard, C. T. H. Davies, *The search for new physics in $B \to K \ell^+ \ell^-$ and $B \to K \nu^+ \nu^-$ using precise lattice QCD form factors* &lbrack;[arXiv:2210.10898](https://arxiv.org/abs/2210.10898)&rbrack;
+
 
 
 
