@@ -31,6 +31,8 @@ Namely by the [above](#Definition) a quantum measurement is formally reflected i
 
 ## Related concepts
 
+* [[quantum state preparation]]
+
 * [[quantum fluctuation]]
 
 * [[decoherence]]
