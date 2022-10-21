@@ -6,7 +6,9 @@
 
 [[QCwthLHT-BellStatePreparation-221021.jpg:file]]
 
+[[TheFourModalitiesOfBaseChange-20221021.jpg:file]]
 
+[[QCwthLHT-QuantumModalUnits-221021b.jpg:file]]
 
 \begin{tikzcd}
   \mathcal{C}^B
