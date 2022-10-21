@@ -319,7 +319,7 @@ hence
 #### Modal quantum logic
  {#ModalQuantumLogic}
 
-We consider[^1] the modal logic induced from base change of [[dependent types]], as [above](#Globally), now applied to [[dependent linear types]] over [[finite sets]] ([[family of finite types]]) $B$ --- to find a natural kind of [[modal logic|modal]] [[quantum logic]], in fact a kind of [[quantum programming language]] for [[quantum circuits]]. 
+We discuss[^1] the modal logic induced from base change of [[dependent types]], as [above](#Globally), now applied to [[dependent linear types]] over [[finite sets]] ([[family of finite types]]) --- to find a natural [[modal logic|modal]] [[quantum logic]] (and in fact a natural [[quantum programming language]] for [[quantum circuits]], see at *[[quantum circuits via dependent linear types]]* for more on this).
 
 [^1]: Following discussion at *[[schreiber:Topological Quantum Programming in Linear Homotopy Type Theory]]* 
 
@@ -351,7 +351,7 @@ We assume that our [[dependent linear type theory]] realizes [[base change]] of 
     }
 \end{imagefromfile}
 
-Moreover, we assume that along maps with [[finite type|finite]]-[[fibers]], such as the [[terminal object|terminal]] map $B \to \ast$, the left [[base change]] agrees with the right [[base change]] (so that both give the dependent *[[biproduct]]* $\otimes_{b : B}$ over $B$):
+Moreover, we assume that along maps with [[finite type|finite]]-[[fibers]], such as the [[terminal object|terminal]] map $B \to \ast$, the left [[base change]] agrees with the right [[base change]] ("[[ambidextrous adjunction|ambidexterity]]", so that both give the dependent *[[biproduct]]* $\otimes_{b : B}$ over $B$):
 
 $$
   \mathrm{stability}
@@ -422,7 +422,7 @@ one finds for the base change [[adjoint triple]] of [[dependent linear types]] a
 Considering the basic dependent linear type
 
 $$
-  \mathbb{C}_bullet \;\coloneqq\; (p_B)^\ast \mathbb{C}
+  \mathbb{C}_\bullet \;\coloneqq\; (p_B)^\ast \mathbb{C}
 $$
 $$
   b \colon B 
@@ -440,7 +440,7 @@ as the [[Hilbert space]] which is spanned by a measurement basis $\vert b \rangl
 
 From all this we find, first of all, that 
 
-1. the [[necesssity]]-[[counit of a comonad|counit]] exhibits the *[[collapse of the wavefunction|collapse]]* of [[quantum states]] under a [[quantum measurement]] in the $B$-basis
+1. the [[necessity]]-[[counit of a comonad|counit]] exhibits the *[[collapse of the wavefunction|collapse]]* of [[quantum states]] under a [[quantum measurement]] in the $B$-basis
 
 1. the [[possibility]]-[[unit of a monad|unit]] exhibits the condition quantum state preparation in this basis:
 
