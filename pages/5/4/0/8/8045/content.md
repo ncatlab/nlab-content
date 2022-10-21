@@ -6,7 +6,7 @@
 ## Overview
 
 __Material set theory__ (also called _membership-based set
-theory_) is a style of [[set theory]] that contrasts with [[structural set theory]]. (The terminology 'material', or at least 'materialistic', goes back at least to [Friedman 1997](#Friedman1997).) While both material set theories like [[ZFC]] and [[ZFA]] and unsorted structural set theories like [[fully formal ETCS]] have a global membership relation on the theory, the resulting [[membership]] [[graphs]] have drastically different structure. 
+theory_) is a style of [[set theory]] that contrasts with [[structural set theory]]. (The terminology 'material', or at least 'materialistic', goes back at least to [Friedman 1997](#Friedman1997).) While both material set theories like [[ZFC]] and [[ZFA]] and unsorted structural set theories like [[fully formal ETCS]] have a global membership relation on the theory, the resulting membership [[graphs]] have drastically different structure. 
 
 In particular, in unsorted structural set theories, each connected component of the membership graph is either an edgeless vertex, a vertex with a single loop, or a rooted [[tree]] whose children are all leaves: 
 
@@ -87,9 +87,9 @@ and axioms making the theory into a theory of a [[strict category|strict]] [[wel
 
 Elements are represented by morphisms with source $1$, and sets are represented by morphisms with target $1$. An element is said to be in a set if the target of the element morphism is equal to the source of the set morphism. Thus, we can define the **global membership predicate** $\in$ on the morphisms as follows:
 
-$$a \in A \coloneqq (t(A) = 1) \wedge (s(a) = 1) \wedge (s(A) = t(a))$$
+$$a \in A \coloneqq (t(A) = 1) \wedge (s(a) = 1) \wedge (A = t(a))$$
 
-This implies that $1$ is a [[reflexive set]], because by definition of a [[terminal object]] in the single-sorted definition of a finitely complete category, $t(1) = 1$, $s(1) = 1$, and $s(1) = t(1)$, which means that $1 \in 1$. This means that the [[axiom of foundation]] fails for $\in$. 
+This implies that $1$ is a [[reflexive set]], because by definition of a [[terminal object]] in the single-sorted definition of a finitely complete category, $t(1) = 1$ and $s(1) = 1$, which means that $1 \in 1$. This means that the [[axiom of foundation]] fails for $\in$. 
 
 The well-pointedness condition for toposes implies that the membership relation $\in$ is an [[extensional relation]]: since $1$ is a [[separator]] and sets are morphisms into $1$, well-pointedness implies that sets $A$ and $B$ are equal if their elements are all equal to each other. 
 
