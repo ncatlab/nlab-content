@@ -136,7 +136,7 @@ $
 which is encoded by its direct sum decomposition $\mathcal{H}_\bullet$:
 
 \begin{imagefromfile}
-    "file_name": "QCwthLHT-QuantumNecessity-221004.jpg",
+    "file_name": "QCwthLHT-QuantumNecessity-221021.jpg",
     "width": "900",
     "unit": "px",
     "margin": {
