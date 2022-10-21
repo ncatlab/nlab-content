@@ -12,7 +12,7 @@ Some distinguishing features of a material set theory are
 
 * being an unsorted or single-sorted first-order theory
 
-* a *primitive* global membership predicate, whereby it is meaningful to ask, given any object and a set, whether the object is an element of the set. 
+* a global membership predicate, whereby it is meaningful to ask, given any object and a set, whether the object is an element of the set. 
 
 * a global equality predicate, whereby it is meaningful to ask, given any two objects, whether those two objects are equal 
 
@@ -37,7 +37,11 @@ A notion of set and element in a untyped first-order theory consists of:
 
 such that 
 
-* for all $a$ and for all $b$, if a and b are sets, then $a = b$ if and only if, for all $c$, if $c$ is an element, then $c \in a$ if and only if $c \in b$
+* if $a \in b$, then $a$ is an element and $b$ is a set
+
+$$\forall a.\forall b.(a \in b) \to \mathrm{element}(a) \wedge \mathrm{set}(b)$$
+
+* extensionality for sets and elements: for all $a$ and for all $b$, if a and b are sets, then $a = b$ if and only if, for all $c$, if $c$ is an element, then $c \in a$ if and only if $c \in b$
 
 $$\forall a.\forall b.(\mathrm{set}(a) \wedge \mathrm{set}(b)) \implies ((a = b) \iff \forall c.(\mathrm{element}(c) \implies ((c \in a) \iff (c \in b))))$$
 \end{definition}
