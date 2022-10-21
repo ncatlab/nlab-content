@@ -325,7 +325,7 @@ We discuss[^1] the modal logic induced from base change of [[dependent types]], 
 
 \linebreak
 
-Given a base [[type]] (which we take to be  [[finite type family|finite]])
+Given a base [[type]] (which we take to be  [[family of finite types|finite]])
 
 \[
   \label{FiniteBaseType}
