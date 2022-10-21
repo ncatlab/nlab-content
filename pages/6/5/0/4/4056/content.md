@@ -132,20 +132,22 @@ Other theorems about the foundations and [[interpretation of quantum mechanics]]
 
 * [[Kadison-Singer problem]]
 
+
 ## References
 
-Gleason's original paper outlining the theorem is
+Gleason's original paper outlining the theorem:
 
 * {#Gleason57} [[Andrew Gleason]], _Measures on the closed subspaces of a Hilbert space_, Journal of Mathematics and Mechanics,  Indiana Univ. Math. J. 6 No. 4 (1957), 885&#8211;893 ([web](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050))
-  
+ 
 
-A standard textbook exposition of the theorem and its meaning is 
+Textbook accounts:
 
-* [[Huzihiro Araki]], _[[Mathematical Theory of Quantum Fields]]_ ,
+* [[Huzihiro Araki]], Theorem 2.3 (without proof) in: _[[Mathematical Theory of Quantum Fields]]_ ,
 
-where it appears as theorem 2.3 (without proof).
 
-A monograph stating and proving both the classical theorem and extensions to [[von Neumann algebras]] is 
+* [[Roland Omnès]], §3 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
+
+A monograph stating and proving both the classical theorem and extensions to [[von Neumann algebras]]:
 
 * Jan Hamhalter, _Quantum measure theory_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1038.81003&format=complete))
 
