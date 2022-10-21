@@ -78,6 +78,12 @@ is an [[equivalence of types]]. This implies that the type $S$ is an [[h-set]].
 
 *  Conversely, one can *define* [[pure set]]s in *structural* [[set theory]] in part as sets equipped with an extensional (and optionally well-founded) relation.
 
+* In any [[single-sorted definition of a category|single-sorted definition]] of a [[topos]], there is a [[terminal object]] $1$ (represented by the [[identity morphism]] of the terminal object), one could define the relation $\prec$ on the set of morphisms $C$ as 
+
+$$a \prec b \coloneqq s(a) = 1 \wedge t(b) = 1 \wedge t(a) = s(b)$$
+
+Due to the [[universal property]] of the [[terminal object]], $\prec$ is weakly extensional. However, $\prec$ is not strongly extensional. The relation $\sim$ defined by equality on every pair of functions $a \sim b \coloneqq a = b$, and in addition, $\mathrm{id}_2 \sim \mathrm{swap}$ and $\mathrm{swap} \sim \mathrm{id}_2$ for the identity function and the swap function on the set with two elements $2$, is a bisimulation on $\prec$, but it is not true that $\mathrm{id}_2 = \mathrm{swap}$.
+
 *  A [[well-order]] is precisely a well-founded, [[transitive relation|transitive]], extensional relation.  Removing well-foundedness here gives a theory of ill-founded [[ordinal number]]s.
 
 *  On the set $\mathbf{2} = \{0,1\}$, now let $0 \prec 0$ and $0 \prec 1$ (but no other relationships).  This relation is not weakly extensional, although it does satisfy the other half of Finsler extensionality, since $\mathbf{2} \downarrow^* 0 \ncong \mathbf{2} \downarrow^* 1$.  However, $(\mathbf{2} \downarrow^+ 0)^\top \cong (\mathbf{2} \downarrow^+ 1)^\top$; this shows the necessity of defining Finsler extensionality as we do.
