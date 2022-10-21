@@ -171,11 +171,9 @@ See at _[[Bohr topos]]_ for more.
 
 ## Literature
 
-General introductions and surveys include
+General introductions and surveys:
 
-* Wikipedia, _[Quantum logic](http://en.wikipedia.org/wiki/Quantum_logic)_
-
-* Stanford encyclopaedia of philosophy, _[Quantum logic and probability theory](http://plato.stanford.edu/entries/qt-quantlog)_
+* [[Roland Omnès]], §5 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
 * Kurt Engesser, Dov M. Gabbay, Daniel Lehmann (eds.) _Handbook of Quantum Logic and Quantum Structures: Quantum Logic_, 2009 North Holland
 
@@ -183,6 +181,12 @@ General introductions and surveys include
 
 * P. Pt&#225;k and S. Pulmannov&#225;, _Orthomodular structures as quantum logics_, ser. Fundamental theories of physics. Kluwer Academic Publishers,
 1991.
+
+
+* Wikipedia, _[Quantum logic](http://en.wikipedia.org/wiki/Quantum_logic)_
+
+* Stanford encyclopaedia of philosophy, _[Quantum logic and probability theory](http://plato.stanford.edu/entries/qt-quantlog)_
+
 
 A bibliography of hundreds of works up to 1992 is
 
