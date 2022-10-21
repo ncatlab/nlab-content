@@ -167,6 +167,10 @@ CPM, classical structures, ...
 
 * [[quantum logic]], [[quantum theory]]
 
+* [[quantum state preparation]], [[quantum measurement]]
+
+* [[quantum gate]], [[quantum circuit]]
+
 * [[quantum probability]], [[quantum mechanics]]
 
 * [[quantum computation]], [[quantum cryptography]]
