@@ -1,4 +1,14 @@
 
+added pointer to today's
+
+* W. G. Parrott, C. Bouchard, C. T. H. Davies, *The search for new physics in $B \to K \ell^+ \ell^-$ and $B \to K \nu^+ \nu^-$ using precise lattice QCD form factors* &lbrack;[arXiv:2210.10898](https://arxiv.org/abs/2210.10898)&rbrack;
+
+together with this quote from their conclusion:
+
+> We present the first fully relativistic determination of the scalar, vector and tensor form factors for $B \to K$ decays. &lbrack;...&rbrack; Using these form factors, we can calculate the SM branching fraction for $B \to K e(\mu)+ e(\mu)^-$ &lbrack;...&rbrack; We find tensions above $3\sigma$ in the ratio of our result with LHCb, and above $5\sigma$ in one instance for the low $q^2$ bin.
+
+
+
 \begin{tikzcd}
   \mathcal{C}^B
   \ar[
