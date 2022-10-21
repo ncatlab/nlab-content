@@ -215,7 +215,7 @@ Let $A$ and $B$ be [[categories]]. Informally, a **functor** $F : A \to B$ consi
 * A function $F_0 : A_0 \to B_0$
 * For each $a,b:A$, a function $F_{a,b}:hom_A(a,b) \to hom_B(F a,F b)$, generally also denoted $F$.
 * For each $a:A$, we have $F(1_a)=1_{F a}$.
-* For each $a,b,c: A$ and $f:hom_A(a,b)$ amd $g:hom_A(b,c)$, we have
+* For each $a,b,c: A$ and $f:hom_A(a,b)$ and $g:hom_A(b,c)$, we have
 
 $$F(g \circ f) = F g \circ F f$$
 
