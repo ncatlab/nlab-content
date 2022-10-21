@@ -156,3 +156,7 @@ Possibly one should say: an $(\infty,1)$-topos $\mathbf{H}$ is _well-pointed_ if
 [[!redirects well-pointed categories]]
 [[!redirects well pointed category]]
 [[!redirects well pointed categories]]
+
+[[!redirects well pointed]]
+[[!redirects well-pointed categories]]
+[[!redirects well-pointedness]]
