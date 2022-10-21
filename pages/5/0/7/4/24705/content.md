@@ -1,6 +1,14 @@
 
+> under construction
 
-## Quantum circuits via dependent linear types
+\linebreak
+
+#Quantum circuits via dependent linear types#
+* table of contents
+{:toc}
+
+
+## Introduction
 
 The following discussion indicates[^1] how a natural [[quantum programming language]] for [[quantum information]]-processing protocols --- hence  for [[quantum circuits]] consisting of general [[quantum gates]] with classical control, including [[decoherence|de-coherent]] [[quantum measurement]]-gates and subsequent coherent quantum gates depending on these --- is elegantly subsumed within any [[dependent linear type theory|dependent linearly typed]] [[programming language]] which expresses the "[[yoga of six operations]]", such as is the case in the [[linear homotopy type theory]] of [Riley 2022](dependent+linear+type+theory#Riley22Thesis). 
 
