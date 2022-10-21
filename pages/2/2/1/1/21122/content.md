@@ -7,11 +7,15 @@
 
   * [[quantum state]]
 
-    * [[qbit]], [[dimer]], [[tensor network state]]
-
     * [[space of states (in geometric quantization)]]
 
     * [[state on a star-algebra]], [[quasi-state]]
+
+    * [[qbit]], [[Bell state]]
+
+      [[dimer]], [[tensor network state]]
+
+    * [[quantum state preparation]]
 
     * [[probability amplitude]], [[quantum fluctuation]]
 
