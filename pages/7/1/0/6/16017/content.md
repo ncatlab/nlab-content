@@ -29,9 +29,17 @@ Under [[categorical semantics]] such a context interprets as an [[object]] of so
 ## References
  {#References}
 
-* Stanford Encyclopedia of Mathematics _[Possible Worlds](http://plato.stanford.edu/entries/possible-worlds/)_
+Textbook accounts:
 
-* Stanford Encyclopedia of Mathematics, _[Modal Logic -- Possible worlds semantics](http://plato.stanford.edu/entries/logic-modal/#PosWorSem)_
+* [[Johan van Benthem]], §2.2 of: *Modal Logic for Open Minds* (2010) &lbrack;[ISBN:9781575865980](http://web.stanford.edu/group/cslipublications/cslipublications/site/9781575865980.shtml),[pdf](http://fenrong.net/teaching/mljvb.pdf), [webpage](https://archive.illc.uva.nl/lgc/MLoM/)&rbrack;
+
+See also:
+
+* Wikipedia, *[Possible world](https://en.wikipedia.org/wiki/Possible_world)*
+
+* Stanford Encyclopedia of Philosophy, _[Possible Worlds](http://plato.stanford.edu/entries/possible-worlds/)_
+
+* Stanford Encyclopedia of Philosophy, _[Modal Logic -- Possible worlds semantics](http://plato.stanford.edu/entries/logic-modal/#PosWorSem)_
 
 * {#TorontoMcCarthy10} Neil Toronto, Jay McCarthy, _From Bayesian Notation to Pure Racket_, 2010 ([pdf](http://jeapostrophe.github.io/home/static/toronto-2010ifl-slides.pdf))
 
