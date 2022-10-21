@@ -6,9 +6,23 @@
 ## Overview
 
 __Material set theory__ (also called _membership-based set
-theory_) is a style of [[set theory]] that contrasts with [[structural set theory]].  In a material set theory, the [[elements]] of a set exist independently of that set.  (The terminology 'material', or at least 'materialistic', goes back at least to [Friedman 1997](#Friedman1997).) The standard example is [[ZFC]].
+theory_) is a style of [[set theory]] that contrasts with [[structural set theory]]. (The terminology 'material', or at least 'materialistic', goes back at least to [Friedman 1997](#Friedman1997).) While both material set theories like [[ZFC]] and [[ZFA]] and unsorted structural set theories like [[fully formal ETCS]] have a global membership relation on the theory, the resulting [[membership]] [[graphs]] have drastically different structure. 
 
-Some distinguishing features of a material set theory are 
+In particular, in unsorted structural set theories, each connected component of the membership graph is either an edgeless vertex, a vertex with a single loop, or a rooted [[tree]] whose children are all leaves: 
+
+* the edgeless vertex represents the [[empty set]], as well as any non-set non-element objects in the set theory 
+
+* the vertex with a single loop represents simultaneously the [[singleton]] and the single element of the singleton, and is a [[Quine atom]] with respect to the membership relation $\in$ 
+
+* the root of the rooted tree represents a set with more than one element, and the children leaves of the root represent the elements of the set
+
+Material set theories are then those set theories whose membership graphs have more complex structure than those of unsorted structural set theories. 
+
+## Materially presented set theories
+
+In a materially presented set theory, the [[elements]] of a set exist independently of that set. 
+
+Some distinguishing features of a materially presented set theory are 
 
 * being an unsorted or single-sorted first-order theory
 
@@ -18,7 +32,7 @@ Some distinguishing features of a material set theory are
 
 * such that a set's identity here is determined by its elements, in other words the [[axiom of extensionality]] holds for the global membership relation with respect to the equality relation. 
 
-Frequently in material set theory one takes everything to be a [[pure set]], including the elements of sets themselves. Therefore, any two sets may be meaningfully compared to ask if they are [[equal]] or if one is a member of the other.  As a slight variation (still material set theory), one may also accept ur-elements (or atoms) as elements. 
+Frequently in materially presented set theory one takes everything to be a [[pure set]], including the elements of sets themselves. Therefore, any two sets may be meaningfully compared to ask if they are [[equal]] or if one is a member of the other. As a slight variation (still material set theory), one may also accept ur-elements (or atoms) as elements. However, there are other variations of materially presented set theory where the objects represent [[functions]] or [[relations]], and both [[sets]] and [[elements]] are defined to be specific kinds of functions or relations. 
 
 ### Notions of sets and elements
 
@@ -54,11 +68,9 @@ Examples include
 
 * [[fully formal ETCS]], which has $=$ as a primitive, and a specified symbol $1$ representing the [[identity morphism]] of the [[terminal object]], as well as $s$ and $t$ representing source and target morphisms. Sets are morphisms with target $1$, $\mathrm{set}(A) \equiv t(A) = 1$, and elements are morphisms with source $1$, $\mathrm{element}(a) \equiv s(a) = 1$. The membership relaiton $\in$ is defined by $a$ being an element, $A$ being a set, and the target of $a$ being equal to the source of $A$, $a \in A \equiv \mathrm{element}(a) \wedge \mathrm{set}(A) \wedge t(a) = s(A)$.
 
-## Examples
-
 ### Fully formal ETCS
 
-The untyped first-order theory of [[fully formal ETCS]] is a [[material set theory]] whose basic primitives are 
+The untyped first-order theory of [[fully formal ETCS]] is a materially presented set theory whose basic primitives are 
 
 * [[morphisms]], 
 * a binary predicate $=$ representing [[equality]] of morphisms,
@@ -81,7 +93,7 @@ This implies that $1$ is a [[reflexive set]], because by definition of a [[termi
 
 The well-pointedness condition for toposes implies that the membership relation $\in$ is an [[extensional relation]]: since $1$ is a [[separator]] and sets are morphisms into $1$, well-pointedness implies that sets $A$ and $B$ are equal if their elements are all equal to each other. 
 
-Since [[fully formal ETCS]] has a global membership predicate which is an [[extensional relation]], and a morphism $1$ which is a [[reflexive set]] with regards to the global membership predicate, it is a [[material set theory]] where the [[axiom of foundation]] does not hold. 
+Since [[fully formal ETCS]] has a global membership predicate which is an [[extensional relation]], and a morphism $1$ which is a [[reflexive set]] with regards to the global membership predicate, it is a materially presented set theory where the [[axiom of foundation]] does not hold. 
 
 ## Related concepts
 
