@@ -1,7 +1,10 @@
 
 
+[[QCwthLHT-QBitStatePreparationCondt-221021.jpg:file]]
 
-[[QCwthLHT-QuantumNecessity-221021.jpg:file]]
+[[QCwthLHT-QBitStatePreparation-221021.jpg:file]]
+
+[[QCwthLHT-BellStatePreparation-221021.jpg:file]]
 
 
 
