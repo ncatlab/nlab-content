@@ -51,16 +51,17 @@ A \ar{r}{f} & B
 The category of $T$-algebras and their morphisms is called the **[[Eilenberg-Moore category]]** and denoted by $C^T$.
 
 ### Free algebras
+ {#FreeAlgebras}
 
-Given a monad $(T,\mu,\eta)$ on a category $C$, for every object $X$ of $C$, the object $T X$ is canonically equipped with a $T$-algebra structure, given by the multiplication map $\mu$. The relevant diagrams commute by the monad axioms.
+Given a [[monad]] $(T,\mu,\eta)$ on a [[category]] $\mathcal{C}$, then for every [[object]] $X$ of $\mathcal{C}$, the object $T X$ is canonically equipped with a $T$-algebra [[structure]], given by the multiplication map $\mu$ of the monad. The relevant diagrams commute by the monad axioms.
 
-Algebras of this sort are called **free algebras**. 
+Algebras of this sort are called **[[free construction|free]] algebras**. 
 
-Given any morphism $f:X\to Y$ of $C$, the map $T f:T X\to T Y$ is a morphism of algebras, by naturality of $\mu$. In general, not every morphism of algebras between $T X$ and $T Y$ arises this way.
+Given any morphism $f \colon X\to Y$ of $\mathcal{C}$, the [[morphism]] $T f \colon T X \longrightarrow T Y$ is a morphism of algebras, by naturality of $\mu$. In general, not every morphism of algebras between $T X$ and $T Y$ arises this way.
 
-However, for any morphism $g \colon X \to T Y$, the map $\mu_{Y} \circ T g \colon T X \to T Y$ is also a morphism of algebras, again by naturality of $\mu$. Now, all morphisms of algebras between $T X$ and $T Y$ (as free algebras) *do* arise this way.
+However, for any morphism $g \colon X \longrightarriw T Y$, the morphism $\mu_{Y} \circ T g \colon T X \longrightarrow T Y$ is also a morphism of algebras, again by [[natural transformation|naturality]] of $\mu$. Now, all morphisms of algebras between $T X$ and $T Y$ (as free algebras) *do* arise this way.
 
-In other words, the full subcategory of free algebras of $T$ and their morphisms is (equivalent to) the **[[Kleisli category]]** of $T$. 
+In other words, the [[full subcategory]] of that of algebras of $T$ on those that are free is ([[equivalence of categories|equivalent]] to) the **[[Kleisli category]]** of $T$. 
 
 
 ## Examples
