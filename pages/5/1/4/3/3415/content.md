@@ -69,17 +69,19 @@ It is also a [[monoidal model category]] with respect to cartesian product and t
 +-- {: .num_prop}
 ###### Proposition
 
-For $p \colon \mathcal{C} \to \mathcal{D}$ a morphism of [[simplicial sets]] such that $\mathcal{D}$ is a [[quasi-category]]. Then $p$ is a fibration in $sSet_{Joyal}$ precisely if
+For $p \colon \mathcal{C} \to \mathcal{D}$ a morphism of [[simplicial sets]] such that $\mathcal{D}$ is a [[quasi-category]]. Then $p$ is a fibration in $sSet_{Joyal}$ precisely if both of the following conditions hold:
 
-1. it is an [[inner fibration]];
+1. it is an *[[inner fibration]]*;
 
-1. it is an "[[isofibration]]": for every [[equivalence in an (∞,1)-category|equivalence]] in $\mathcal{D}$ and a lift of its [[domain]] through $p$, there is also a lift of the whole equivalence through $p$ to an equivalence in $\mathcal{C}$.
+1. it is an *[[isofibration]]*: 
+
+   in that for every [[equivalence in an (∞,1)-category|equivalence]] in $\mathcal{D}$ and a lift of its [[domain]] through $p$, there is also a lift of the whole equivalence through $p$ to an equivalence in $\mathcal{C}$.
 
 =--
 
 This is due to [[Joyal]]. ([Lurie, cor. 2.4.6.5](#Lurie)).
 
-So every [[fibration]] in $sSet_{Joyal}$ is an [[inner fibration]], but the converse is in general false. A notably exception are the fibrations to the point:
+So every [[fibration]] in $sSet_{Joyal}$ is an [[inner fibration]], but the converse is in general false. A notable exception are the fibrations to the point:
 
 +-- {: .num_prop}
 ###### Proposition
