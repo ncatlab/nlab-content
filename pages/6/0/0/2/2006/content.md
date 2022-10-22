@@ -20,7 +20,7 @@
 
 ## Idea
 
-Given a [[monad]] $T$ on some [[category]] $\mathcal{C}$, then its _Kleisli category_ is the [[full subcategory]] of the [[Eilenberg-Moore category]] of $T$, hence the category of [[algebras over a monad|T-algebras]], on those that are _[[free construction|free]]_ [[algebra for a monad|T-algebras]] (free $T$-[[modules]]).
+Given a [[monad]] $T$ on some [[category]] $\mathcal{C}$, then its _Kleisli category_ is the [[full subcategory]] of the [[Eilenberg-Moore category]] of $T$, hence the category of [[algebras over a monad|T-algebras]], on those that are *[free](algebra+over+a+monad#FreeAlgebras)* [[algebra for a monad|T-algebras]] (free $T$-[[modules]]).
 
 Explicitly one may describe the _Kleisli category_ of $T$ to have as [[objects]] the objects of $\mathcal{C}$, and a morphism $X \to Y$ in the Kleisli category is a morphism in $\mathcal{C}$ of the form $X \to T(Y)$ in $\mathcal{C}$. The monad structure induces a natural [[composition]] of such "$T$-shifted" morphisms.
 
@@ -36,20 +36,18 @@ Let $\mathbf{T}=(T,\mu,\eta)$ be a [[monad]] in [[Cat]], where $T:C\to C$ is an 
 
 ### In terms of free algebras
 
-+-- {: .num_defn}
-###### Definition
+\begin{definition}\label{FreeTAlgebras}
 
 A __free $\mathbf{T}$-[[algebra|algebra over a monad]]__ (or free $\mathbf{T}$-module) is a $\mathbf{T}$-algebra (module) of the form $(T(M),\mu_M)$, where the [[action]] is the component of multiplication transformation $\mu_M : T(T(M))\to T(M)$. 
 
-=--
+\end{definition}
 
-+-- {: .num_defn}
-###### Definition
 
-The __Kleisli category__ $C_{\mathbf{T}}$ of the monad $\mathbf{T}$ is the [[subcategory]] of the [[Eilenberg-Moore category]] $C^{\mathbf{T}}$
-on the free $\mathbf{T}$-algebras.
+\begin{definition}\label{KleisliCategory}
 
-=--
+The __Kleisli category__ $C_{\mathbf{T}}$ of the monad $\mathbf{T}$ is the [[full subcategory]] of the [[Eilenberg-Moore category]] $C^{\mathbf{T}}$ on the free $\mathbf{T}$-algebras (Def. \ref{FreeTAlgebras}).
+
+\end{definition}
 
 +-- {: .num_remark}
 ###### Remark
@@ -76,13 +74,16 @@ Composition is given by the **Kleisli composition** rule $g\circ_{Kleisli} f = \
 +-- {: .num_remark}
 ###### Remark
 
-More explicitly, this means that the Kleisli-composite of $f : x \to T y$ with $g : y \to T z$ is the morphism
+More explicitly, this means that the Kleisli-composite of $f \colon x \to T y$ with $g \colon y \to T z$ is the morphism
 
 $$
-  x \stackrel{f}{\to} T y 
-  \stackrel{T g}{\to}
-  T T z \stackrel{\mu z}{\to}
-  T z
+  x 
+    \overset{f}{\longrightarrow} 
+  T (y) 
+    \overset{T (g)}{\longrightarrow}
+  T \big(T (z)\big) 
+    \overset{\mu_z}{\longrightarrow}
+  T (z)
   \,.
 $$
 
@@ -91,17 +92,24 @@ $$
 +-- {: .proof}
 ###### Proof of equivalence
 
-The equivalence between both presentations amounts to the functor $C_{T} \to C^{T}$ being full and faithful. This functor maps any object $X$ to $T(X)$, and any morphism $f \colon X \to T(Y)$ to
-$T(X) \stackrel{T(f)}{\to} T^2(Y) \stackrel{\mu_Y}{\to} T(Y)$. 
+The [[equivalence of categories|equivalence]] between both presentations amounts to the [[functor]] $C_{T} \to C^{T}$ being [[full and faithful functor|full and faithful]]. This functor maps any object $X$ to $T(X)$, and any morphism $f \colon X \to T(Y)$ to
+$$
+  T(X) 
+    \overset{T(f)}{\longrightarrow} 
+  T^2(Y) 
+    \overset{\mu_Y}{\longrightarrow} 
+  T(Y)
+  \,.
+$$ 
 
-Fullness holds because any morphism $g \colon T(X) \to T(Y)$ of algebras has 
+[[full functor|Fullness]] holds because any morphism $g \colon T(X) \to T(Y)$ of algebras has 
 as antecedent the composite $X \stackrel{\eta_X}{\to} T(X) \stackrel{g}{\to} T(Y)$.
 Indeed, the latter is mapped by the functor into
 $\mu_Y \circ T(g) \circ T(\eta_X)$, which because $g$ is a morphism of algebras
 is equal to 
 $g \circ \mu_X \circ T(\eta_X)$, i.e., $g$.
 
-Faithfulness holds as follows: if $\mu_Y \circ T(f) = \mu_Y \circ T(g)$,
+[[faithful functor|Faithfulness]] holds as follows: if $\mu_Y \circ T(f) = \mu_Y \circ T(g)$,
 then precomposing by $\eta_X$ yields $\mu_Y \circ T(f) \circ \eta_X =
 \mu_Y \circ \eta_{T(Y)} \circ f = f$ and similarly for $g$, hence $f = g$.
 =--
