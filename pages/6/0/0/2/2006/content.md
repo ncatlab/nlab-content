@@ -164,9 +164,24 @@ In more general 2-categories the [[universal properties]] of [[Kleisli objects]]
 
 In particular, $C_{\mathbf{T}}$ is [[initial object|initial]] in the [[adjoint functor#RelationToMonads|category of adjunctions]] for $\mathbf{T}$ (whereas $C^{\mathbf{T}}$ is [[terminal objects|terminal]]). For a proof, see _[[Category Theory in Context]]_ Proposition 5.2.12.
 
-### In functional programming
+## Examples
 
-In [[type theory|typed]] [[functional programming]], the Kleisli category is used to model [[call-by-value]] functions with side-effects and [[computation]]. See at _[[monad (in computer science)]]_ for more on this.
+### General
+
+\begin{example}\label{CallByValueProgramming}
+In [[type theory|typed]] [[functional programming]], the Kleisli category is used to model [[call-by-value]] functions with [[side effects]] and [[computation]]. 
+Dually, the [[co-Kleisli category]] of a [[comonad]] may be used to model [[call-by-name]] programming , see [there](Kleisli+category+of+a+comonad#CallByNameProgramming).
+
+Generally, see at _[[monad (in computer science)]]_ for more on this.
+\end{example}
+
+### Specific
+
+\begin{example}
+**([[matrix multiplication]] as (co-)Kleisli composition)**
+\linebreak
+See [here](Kleisli+category+of+a+comonad#MatrixmultiplicationAsCoKleisliComposition).
+\end{example}
 
 ## Related concepts
 
