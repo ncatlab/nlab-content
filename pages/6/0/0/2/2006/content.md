@@ -207,8 +207,13 @@ Discussion of Kleisli categories in [[type theory]] is in
 [[!redirects Kleisli functions]]
 
 [[!redirects Kleisli composition]]
+[[!redirects Kleisli compositions]]
 
+[[!redirects Kleisli composite]]
+[[!redirects Kleisli composites]]
 
 [[!redirects Kleisli construction]]
 [[!redirects Kleisli constructions]]
+
+
 
