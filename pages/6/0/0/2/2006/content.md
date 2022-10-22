@@ -22,7 +22,8 @@
 
 Given a [[monad]] $T$ on some [[category]] $\mathcal{C}$, then its _Kleisli category_ is the [[full subcategory]] of the [[Eilenberg-Moore category]] of $T$, hence the category of [[algebras over a monad|T-algebras]], on those that are *[free](algebra+over+a+monad#FreeAlgebras)* [[algebra for a monad|T-algebras]] (free $T$-[[modules]]).
 
-Explicitly one may describe the _Kleisli category_ of $T$ to have as [[objects]] the objects of $\mathcal{C}$, and a morphism $X \to Y$ in the Kleisli category is a morphism in $\mathcal{C}$ of the form $X \to T(Y)$ in $\mathcal{C}$. The monad structure induces a natural [[composition]] of such "$T$-shifted" morphisms.
+Explicitly one may describe (Prop. \ref{KleisliEquivalence} below) the _Kleisli category_ of $T$ (Def. \ref{KleisliCategory}) to have as [[objects]] the objects of $\mathcal{C}$, and a morphism $X \to Y$ in the Kleisli category is a morphism in $\mathcal{C}$ of the form $X \to T(Y)$ in $\mathcal{C}$. The monad structure induces a natural [[composition]] of such "$T$-shifted" morphisms.
+
 
 The Kleisli category is also characterized by the following [[universal property]]:
 
@@ -31,7 +32,11 @@ Since every [[adjunction]] gives rise to a [[monad]] on the [[domain]] of its [[
 
 ## Definition
 
-Let $\mathbf{T}=(T,\mu,\eta)$ be a [[monad]] in [[Cat]], where $T:C\to C$ is an [[endofunctor]] with multiplication $\mu:T T\to T$ and unit $\eta:Id_C\to T$.
+Let $\mathbf{T} = (T,\mu,\eta)$ be a [[monad]] in [[Cat]], where $T \colon \mathcal{C} \longrightarrow \mathcal{C}$ is an [[endofunctor]] with 
+
+* multiplication $\mu \colon T T \to T$,
+
+* [[unit of a monad|unit]] $\eta \colon Id_C \to T$.
 
 
 ### In terms of free algebras
@@ -56,51 +61,77 @@ If $U:C^{\mathbf{T}}\to C$ is the [[forgetful functor]] and $F: C\to C^{\mathbf{
 
 =--
 
+
 ### In terms of Kleisli morphisms
+ {#InTermsOfKleisliMorphisms}
 
 As another way of looking at this, we can keep the same objects as in $C$ but redefine the morphisms. This was the original Kleisli construction: 
 
 
-+-- {: .num_defn}
-###### Definition
+\begin{definition}\label{KleisliCategory}
 
-The **Kleisli category** $C_{\mathbf{T}}$ has as objects the objects of $C$, and as [[morphisms]] $M\to N$ the elements of the [[hom-set]] $C(M,T(N))$, in other words [[morphisms]] of the form $M \to T(N)$ in $C$, called **Kleisli morphisms**.
+The **Kleisli category** $C_{\mathbf{T}}$ of a [[monad]] $T$ on a [[category]] $\mathcal{C}$ has: 
 
-Composition is given by the **Kleisli composition** rule $g\circ_{Kleisli} f = \mu_P\circ T(g)\circ f$
-(as in the [[Grothendieck construction]] (here $M\stackrel{f}\to N\stackrel{g}\to P$)).
+1. as [[objects]] the objects of $\mathcal{C}$, 
 
-=--
+1. as [[morphisms]] $M \to N$ the [[morphisms]] of the form 
 
-+-- {: .num_remark}
-###### Remark
+   \[
+     \label{KleisliMorphism}
+     M \longrightarrow{\;\;} T(N)
+   \] 
 
-More explicitly, this means that the Kleisli-composite of $f \colon x \to T y$ with $g \colon y \to T z$ is the morphism
+   in $\mathcal{C}$, called **Kleisli morphisms**;
 
-$$
-  x 
-    \overset{f}{\longrightarrow} 
-  T (y) 
-    \overset{T (g)}{\longrightarrow}
-  T \big(T (z)\big) 
-    \overset{\mu_z}{\longrightarrow}
-  T (z)
-  \,.
-$$
+and
 
-=--
+* [[composition]] of $M \xrightarrow{f} T N$ with $N \xrightarrow{ g } T P$ is given by the **Kleisli composition** rule 
 
-+-- {: .proof}
-###### Proof of equivalence
+  \[
+    \label{KleisliComposition}
+    g \circ_{Kleisli} f 
+    \;\coloneqq\; 
+    \mu_P \circ T(g) \circ f
+    \;\colon\;
+    M 
+      \overset{f}{\longrightarrow} 
+    T (N) 
+      \overset{T (g)}{\longrightarrow}
+    T \big(T (P)\big) 
+      \overset{\mu_z}{\longrightarrow}
+    T (P)
+    \,;
+  \]
 
-The [[equivalence of categories|equivalence]] between both presentations amounts to the [[functor]] $C_{T} \to C^{T}$ being [[full and faithful functor|full and faithful]]. This functor maps any object $X$ to $T(X)$, and any morphism $f \colon X \to T(Y)$ to
+* the [[identity morphisms]] on $M$ is the Kleisli morphism which is the [[unit of a monad|$T$-unit]] $M \xrightarrow{ \eta_M } T M$.
+
+\end{definition}
+
+
+\begin{proposition}\label{KleisliEquivalence}
+
+The construction which sends a Kleisli morphism $X \xrightarrow{f} T Y$ (eq:KleisliMorphism) to
+
 $$
   T(X) 
     \overset{T(f)}{\longrightarrow} 
   T^2(Y) 
     \overset{\mu_Y}{\longrightarrow} 
   T(Y)
-  \,.
 $$ 
+
+constitutes a [[full and faithful functor]] 
+
+$$
+  \mathcal{C}_{T} \longrightarrow \mathcal{C}^{T}
+$$
+
+from the $T$-Kleisli category (Def. \ref{KleisliCategory}) to the category of [[algebra over a monad|$T$-algebras]], hence constitutes an [[equivalence of categories]] onto its  [[essential image]] which is that of free $T$-algebras/
+
+\end{proposition}
+
++-- {: .proof}
+###### Proof 
 
 [[full functor|Fullness]] holds because any morphism $g \colon T(X) \to T(Y)$ of algebras has 
 as antecedent the composite $X \stackrel{\eta_X}{\to} T(X) \stackrel{g}{\to} T(Y)$.
@@ -125,6 +156,9 @@ This Kleisli composition plays an important role in [[computer science]]; for th
 ## Properties
 
 ### Universal properties
+ {#UniversalProperties}
+
+
 
 In more general 2-categories the [[universal properties]] of [[Kleisli objects]] are dual to the universal properties of [[Eilenberg-Moore category#Definition|Eilenberg-Moore objects]].
 
