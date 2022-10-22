@@ -42,6 +42,12 @@ This says that the type is inductively constructed from
 
 The circle type could also be defined as the [[suspension type]] $\Sigma \mathbf{2}$ of the type of [[booleans]] $\mathbf{2}$. 
 
+### As a coequalizer
+
+The circle type could also be defined as the [[coequalizer type]] of any two [[endofunctions]] on the [[unit type]]
+
+$$\mathbf{1} \rightrightarrows \mathbf{1} \to S^1$$
+
 ### Using torsors ###
 
 The circle can also be defined without HITs using only univalence, as the type of $\mathbb{Z}$-torsors.  One can then prove that this type satisfies the same induction principle (propositionally).  This is due to [[Dan Grayson]].
@@ -77,6 +83,10 @@ There are several proofs in the [[HoTT book]] that the [[loop space]] $\Omega(S^
 * [[Jordan curve]]
 
 ## References
+
+The definition of the circle type as a coequalizer could be found in section 9 of 
+
+* {#Shulman15} [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 
 A formalization of the [[shape modality|shape]] [[homotopy type]] $&#643; S^1 \simeq \mathbf{B}\mathbb{Z}$ of the circle as a [[higher inductive type]] in [[homotopy type theory]], along with a proof that $\Omega &#643;S^1\simeq {\mathbb{Z}}$ (and hence $\pi_1(&#643;S^1) \simeq \mathbb{Z}$):
 
