@@ -195,19 +195,24 @@ See [here](Kleisli+category+of+a+comonad#MatrixmultiplicationAsCoKleisliComposit
 
 ## References
 
-The original source is
+The original articles:
 
-* H. Kleisli, _Every standard construction is induced by a pair of adjoint functors_ , Proc. Amer. Math. Soc. **16** (1965) pp.544&#8211;546. ([AMS](http://www.ams.org/journals/proc/1965-016-03/S0002-9939-1965-0177024-4/))
+* {#Kleisli65} [[Heinrich Kleisli]], *Every standard construction is induced by a pair of adjoint functors*, Proc. Amer. Math. Soc. **16**, AMS (1965) 544-546 &lbrack;[ISSN0002-9939](http://www.ams.org/journals/proc/1965-016-03/S0002-9939-1965-0177024-4/), [jstor:2034693](https://www.jstor.org/stable/2034693)&rbrack;
 
 * Jen&#246; Szigeti, _On limits and colimits in the Kleisli category_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 24 no. 4 (1983), p. 381-391 ([NUMDAM](http://www.numdam.org/item?id=CTGDC_1983__24_4_381_0))
 
-Discussion of cases where the inclusion of the Kleisli category into the [[Eilenberg-Moore category]] is a [[reflective subcategory]] is in
+The [[equivalence of categories]] between the [[Kleisli category]] over a given [[monad]] with the [[co-Kleisli category]] of an [[adjoint functor|adjoint]] [[comonad]] (if it exists):
+
+* [[Mark Kleiner]],  *Adjoint monads and an isomorphism of the Kleisli categories*, Journal of Algebra
+Volume **133** 1 (1990) 79-82 &lbrack;<a href="https://doi.org/10.1016/0021-8693(90)90069-Z">doi:10.1016/0021-8693(90)90069-Z</a>&rbrack;
+
+Discussion of cases where the inclusion of the Kleisli category into the [[Eilenberg-Moore category]] is a [[reflective subcategory]]:
 
 * [[Marcelo Fiore]], [[Matias Menni]], _Reflective Kleisli subcategories of the category of Eilenberg-Moore algebras for factorization monads_, Theory and Applications of Categories, Vol. 15, CT2004, No. 2, pp 40-65. ([TAC](http://www.tac.mta.ca/tac/volumes/15/2/15-02abs.html))
 
-Discussion in [[internal category]] theory is in 
+Discussion in [[internal category]] theory:
 
-* Tomasz Brzezi&#324;ski, Adrian Vazquez-Marquez, _Internal Kleisli categories_, Journal of Pure and Applied Algebra Volume 215, Issue 9, September 2011, Pages 2135&#8211;2147 ([arXiv:0911.4048](http://arxiv.org/abs/0911.4048))
+* Tomasz Brzezi&#324;ski, Adrian Vazquez-Marquez, _Internal Kleisli categories_, Journal of Pure and Applied Algebra **215** 9 (2011) 213-147 &lbrack;[arXiv:0911.4048](http://arxiv.org/abs/0911.4048)&rbrack;
 
 Discussion of Kleisli categories in [[type theory]] is in 
 
