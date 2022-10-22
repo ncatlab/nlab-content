@@ -247,6 +247,94 @@ is indeed the row-decomposition of the corresponding [[matrix product]]:
   \\
 \end{tikzcd}
 
+Dually:
+
+\begin{tikzcd}
+  b \!\colon\! B
+  \;\;\vdash
+  &
+  \mathcal{V}_b
+  \ar[
+    rr,
+    "{ 
+      A_b
+    }"
+  ]
+  \ar[
+    rrrrrr,
+    bend right=25,
+    "{
+      v_b
+      \;\mapsto\;
+      \big(
+        B \cdot A_b(v_b)
+      \big)
+    }"{swap}
+  ]
+  &&
+  \big(
+  \underset{
+    b'' \!\colon\!\! B
+  }{
+    \bigoplus
+  }
+  \mathcal{W}_{b''}
+  \big)
+  \ar[
+    rr,
+    "{
+      \underset{b'' \!\colon\!\! B}{\bigoplus}
+      B_{b''}
+    }"
+  ]
+  \ar[
+    rrrr,
+    bend right=14,
+    "{
+      v
+      \;\mapsto\;
+      \underset{b'' \!\colon\!\! B}{\sum} 
+      B_{b''}(v)
+      \;=\;
+      B(v)
+    }"{swap}
+  ]
+  &&
+  \big(
+  \underset{
+    b'' \!\colon\! B
+  }{
+    \bigoplus
+  }
+  \;
+  \underset{
+    b' \!\colon\! B
+  }{
+    \bigoplus
+  }
+  \mathcal{Z}_{b'}
+  \big)
+  \ar[
+    rr, 
+    "{
+      \underset{b'' \!\colon\!\! B}{\oplus}
+      v_{b''}
+      \;\mapsto\;
+      \underset{b'' \!\colon\!\! B}{\sum}
+      v_{b''}
+    }"
+  ]
+  &&
+  \big(
+  \underset{
+    b' \!\colon\!\! B
+  }{
+    \bigoplus
+  }
+  \mathcal{Z}_{b'}
+  \big)
+\end{tikzcd}
+
 \end{example}
 
 
