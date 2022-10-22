@@ -1,5 +1,7 @@
 
 \begin{example}
+**(matrix multiplication as Kleisli composition)**
+\linebreak
   For
 
   * $k$ a [[field]]
@@ -38,6 +40,7 @@
   ]
   &
   k\mathrm{Vec}
+  \mathrlap{\,.}
 \end{tikzcd}
 
 By the assumption that $B$ is [[finite set|finite]] and since [[Vect]] has [[biproducts]], the [[colimit]]/[[coproduct]] 
@@ -84,17 +87,165 @@ $$
   k Vec_B
 $$
 
-agree, to make a self-adjoint [[endofunctor]]
+agree, to make a [[self-adjoint functor]]
 
 $$
-  \bigotimes_B \;\vdash\; \bigotimes
+  (p_B)^\ast
+  \bigotimes_B 
+  \;\;\vdash\;\; 
+  (p_B)^\ast
+  \bigotimes_B
   \;\;\;\colon\;\;\;
   k Vec
   \longrightarrow 
   k Vec
 $$
 
-which carries the [[structure]] both of a [[monad]] and of a [[comonad]]
+which carries the [[structure]] both of a [[monad]] and of a [[comonad]].
+
+We claim that 
+
+1. the categories of
+
+   1. [free $(p_B)^\ast \oplus_B$-algebras](algebra+over+a+monad#FreeAlgebras) 
+
+   1. co-free $(p_B)^\ast \oplus_B$-coalgebras 
+
+   are both [[equivalence of categories|equivalent]] to the categories of $k$-vector spaces.
+
+1. where
+
+   1. the [[Kleisli category]] of $\bigoplus_B$ exhibits such linear maps as $B$-[[tuples]] of *columns* of $B \times B$-block [[matrices]];
+
+   1. the [[coKleisli category]] of $\bigoplus_B$ exhibits such linear maps as $B$-[[tuples]] of *rows* of $B \times B$-block [[matrices]]
+
+  with (co)[[Kleisli composition]] expressing the operation block-[[matrix multiplication]].
+
+In particular, on the (co)free algebras of the form $\bigotimes_B (p_B)^\ast k$ this statement holds in the sense of actual $B \times B$-matrices with entries in $k$ (as opposed to block matrices).
+
+Since every [[linear map]] admits *some* $B \times B$-block matrix representation, the second statement implies the first by the Kleisli theorem (see [here](Kleisli+category#InTermsOfKleisliMorphisms)). 
+
+Moreover, the second statement follows by direct inspection of the [[Kleisli morphisms]] (and [[formal duality|dually]] for the [[coKleisli morphisms]]):
+
+For this, identify a [[coKleisli morphism]]
+
+$$
+  b \colon B
+  \;\;
+    \vdash
+  \;\;
+  \Big(
+    \underset{b' \colon B}{\bigoplus}
+    \mathscr{V}_{b'}
+  \Big)
+  \xrightarrow{\; A_b \;}
+  \mathscr{W}_b
+$$
+
+with the $B$-tuple of "block $B \times 1$" matrices $(A_b)_{b \colon B}$ that it evidently encodes. 
+
+Observe that the comultiplication on the $\bigotimes_B$-[[comonad]] is given by the [[diagonal map]] into the [[biproduct]], coming from the "randomness unit" (terminology from [modal quantum logic](necessity+and+possibility#ModalQuantumLogic)):
+
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-QuantumModalUnits-221021b.jpg",
+    "width": "750",
+    "unit": "px",
+    "margin": {
+        "top": -10,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+This readily shows that the Kleisli construction indeed sends such $B$-tuples $(A_b)_{b \colon B}$ of block-matrix rows to the linear map given by the corresponding full matrix, and that the [[Kleisli composite]] with any other
+
+$$
+  b \colon B
+  \;\;
+    \vdash
+  \;\;
+  \Big(
+    \underset{b' \colon B}{\bigoplus}
+    \mathscr{W}_{b'}
+  \Big)
+  \xrightarrow{\; B_b \;}
+  \mathscr{Z}_b
+$$
+
+is indeed the row-decomposition of the corresponding [[matrix product]]:
+
+\begin{tikzcd}
+  b : B
+  \;\;\vdash\;\;
+  &
+  \Big(
+    \underset{b' \!\colon\! B}{\bigoplus}
+    \,
+    \mathcal{V}_{b'}
+  \Big) 
+  \ar[
+    rr,
+    "{ 
+      v 
+      \;\mapsto\; 
+      \underset{ b'' \!\colon\! B }{\sum}
+      \,
+      v_{b''}
+    }"
+  ]
+  \ar[
+    rrrr,
+    bend right=14,
+    "{
+      v 
+      \;\mapsto\; 
+      \underset{ b'' \!\colon\! B }{\sum}
+      \,
+      A_{b''}(v)
+      \;=\;
+      A(v)
+    }"{swap}
+  ]
+  \ar[
+    rrrrrr,
+    bend right=25,
+    "{
+      v 
+      \;\mapsto\; 
+      \big(B \circ A(v)\big)_b
+    }"{swap}
+  ]
+  &&
+  \Big(
+    \underset{b'' \!\colon\! B}{\bigoplus}  
+    \;
+    \underset{b' \!\colon\! B}{\bigoplus}
+    \,
+    \mathcal{V}_{b'}
+  \Big)
+  \ar[
+    rr,
+    "{  
+       \underset{b'' \colon B}{\bigoplus}
+       \,
+       A_{b''}
+     }"
+  ]
+  &&
+  \Big(
+    \underset{b'' \colon B}{\bigoplus}
+    \,
+    \mathcal{W}_{b''}
+  \Big)  
+  \ar[
+    rr,
+    "{ B_b }"
+  ]
+  &&
+  \mathcal{Z}_{b}
+  \\
+\end{tikzcd}
 
 \end{example}
 
