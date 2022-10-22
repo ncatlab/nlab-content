@@ -3577,3 +3577,5 @@ The quick way to see the topological enrichment is indicated for instance in
 [[!redirects Serre cofibrations of topological spaces]]
 [[!redirects Serre cofibration]]
 [[!redirects Serre cofibrations]]
+
+[[!redirects classical homotopy theory]]
