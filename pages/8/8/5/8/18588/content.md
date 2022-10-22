@@ -19,7 +19,7 @@ $$\mathbb{S}^1 \coloneqq \sum_{x:\mathbb{A}} \sum_{y:\mathbb{A}} x^2 + y^2 = 1$$
 
 A Jordan curve in a cohesive type $X$ is the [[image]] $J \equiv \mathrm{im}(i)$ of an [[embedding]] $i:\mathbb{S}^1 \hookrightarrow X$  from the abstract unit circle $\mathbb{S}^1$ into $X$. 
 
-Commonly seen examples include in [[classical homotopy theory]] where $\mathbb{A}$ is the [[Dedekind real numbers]] $\mathbb{R}$, and [[motivic homotopy theory]] where $\mathbb{A}$ is the [[affine line]] $\mathbb{A}^1$.
+Commonly seen examples include in [[Euclidean geometry]] where $\mathbb{A}$ is the [[Dedekind real numbers]] $\mathbb{R}$, and [[algebraic geometry]] where $\mathbb{A}$ is the [[affine line]] $\mathbb{A}^1$.
 
 ## Related entries
 
