@@ -3,6 +3,22 @@
 
 \linebreak
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+
 #Quantum circuits via dependent linear types#
 * table of contents
 {:toc}
@@ -20,7 +36,7 @@ This works by regarding classically controlled [[quantum states]] as having [[li
 
 1. The [[external tensor product]] of dependent linear types gives the compilation of [[quantum gates]] into [[quantum circuits]], essentially as familiar from the quantum [[string diagram]]-calculus of [Abramsky & Coecke 2004](finite+quantum+mechanics+in+terms+of+dagger-compact+categories#AbramskyCoecke04) with respect to the plain [[tensor product]], but now taking into account dependency on classical control and potential measurement outcomes. 
 
-All constructions and proofs here flow readily from just the [[six operation yoga]] and [[co-Kleisli category|co-Kleisli theory]]. One key point is (eq:NecessityRespectsExternalTensorProduct) that the [[necessity]] [[modality]] respects the [[external tensor product]] -- so that these classically controlled quantum circuits are unambiguously defined --, under the assumption that it coincides with the [[formal duality|dual]] *[[possibility]]* modality $\lozenge_C \mathscr{H}_C$  on the quantum data types $\mathcal{H}_\bullet$ involved -- hence (in full generality) when the linear types are [[dualizable object|dualizable]] in the sense of [[ambidextrous adjunction|ambidexterity]] and specifically (in the traditional models) when [[space of quantum states|quantum state spaces]] are [[finite-dimensional vector space|finite dimensional]], as is the case in [[quantum information theory]].
+All constructions and proofs here flow readily from just the [[six operation yoga]] and ([[co-Kleisli category|co-]])[[Kleisli category|Kleisli theory]]. One key point is (eq:NecessityRespectsExternalTensorProduct) that the [[necessity]] [[modality]] respects the [[external tensor product]] -- so that these classically controlled quantum circuits are unambiguously defined --, under the assumption that it coincides with the [[formal duality|dual]] *[[possibility]]* modality $\lozenge_C \mathscr{H}_C$  on the quantum data types $\mathcal{H}_\bullet$ involved -- hence (in full generality) when the linear types are [[dualizable object|dualizable]] in the sense of [[ambidextrous adjunction|ambidexterity]] and specifically (in the traditional models) when [[space of quantum states|quantum state spaces]] are [[finite-dimensional vector space|finite dimensional]], as is the case in [[quantum information theory]].
 
 
 
@@ -28,7 +44,7 @@ Aspects of the following have a resemblance to some variants and categorical int
 
 \linebreak
 
-### Idea: Modal quantum logic via linear homotopy types
+## Idea: Modal quantum logic via linear homotopy types
 
 We assume a [[dependent linear type theory]] which [[functor|functorially]] obtains (as anticipated in [Schreiber 2014](dependent+linear+type+theory#Schreiber14), [§3.2](https://arxiv.org/pdf/1402.7041.pdf#page=39) and established in [Riley 2022](dependent+linear+type+theory#Riley22Thesis), [§2.4](https://digitalcollections.wesleyan.edu/islandora/object/ir:3269)):
 
@@ -48,6 +64,11 @@ We assume a [[dependent linear type theory]] which [[functor|functorially]] obta
     }
 \end{imagefromfile}
 
+
+
+
+### Classical modal logic
+
 First observe that (without imposing a further condition) also classical ("non-linear") [[dependent type theory]] provides an example of this [[yoga of six operations]] (actually five distinct operations, in the present case of [[Wirthmüller contexts]]), with:
 
 1. [[tensor product]] given by [[product types]],
@@ -59,6 +80,8 @@ First observe that (without imposing a further condition) also classical ("non-l
 1. $f_!$ given by [[dependent coproduct]],
 
 1. $f_\ast$ given by [[dependent product]]. 
+
+
 
 In this classical situation, the ([[comonad|co]]-)[[monad]] [[adjoint pair]] $\lozenge_C \dashv \Box_C$ induced by the [[adjoint triple]] is readily found (see [here](necessity+and+possibility#InFirstOrderLogicAndTypeTheory)) to reflect the [[necessity]]-[[modality]] and the [[possibility]]-[[modality]] of a kind of [[modal logic]] which regards the potential measurement outcomes $c : C$ as "[[possible worlds semantics|possible worlds]]":
 
@@ -74,7 +97,17 @@ In this classical situation, the ([[comonad|co]]-)[[monad]] [[adjoint pair]] $\l
     }
 \end{imagefromfile}
 
+In fact there is (see [here](necessity+and+possibility#RelationToContingency)) a quadruple of ([[comonad|co-]])[[monad|monadic]] [[modalities]] associated with any [[base change]]:
+
+<center>
+<img src="/nlab/files/TheFourModalitiesOfBaseChange-20221021.jpg" width="370">
+</center>
+
+
+### Quantum modal logic
+
 This general [[modal logic]] of [[possible worlds]] [found inside](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) [[dependent type theory]] becomes subject to one curious further rule as we pass to genuinely [[linear types]], such as in the sense of [[stable homotopy types]] in [[linear homotopy type theory]]:
+
 
 Namely, assuming that the potential measurement outcomes $c \colon C$ form a [[finite set]] --- which is the case of relevance in [[quantum information theory]] ---, the linearity or *[[stable (infinity,1)-category|stability]]* axiom implies that the [[base change]] down from the context $C$ becomes [[ambidextrous adjunction|ambidextrous]], in that on dependent linear types $\mathscr{H}_\bullet$ the [[coproduct]] computed by the  [[possibility]]-[[modality]] and the [[product]] computed by the [[necessity]]-[[modality]] *agree* (the situation of a "[[biproduct]]"):
 
@@ -124,7 +157,10 @@ $$
 $$
 
 
-The default [[categorical semantics]] for this situation is that of [[bundles]] of [[finite dimensional vector spaces]] (finite-dimensional complex [[Hilbert spaces]]) over [[finite sets]]: In this case both $(p_C)_!$ as well as $(p_C)_\ast$ yield the ordinary [[direct sum]] of the [[fibers]] (a [[biproduct]]). Since this is the [[categorical semantics]] under which the following type theory describes the traditional [[quantum circuits]], we will adopt our notation to this case and denote the generic [[dependent linear type]] by $\mathcal{H}_\bullet : LinType_C$ and its generic [[term]] by the usual notation for [[quantum states]]: 
+Concretely, the [[linear homotopy type theory]] of [Riley 2022](dependent+linear+type+theory#Riley22Thesis) should have [[categorical semantics]] in the [[(infinity,1)-topos|$\infty$-topos]] of [[parameterized spectrum|parameterized]] [[Eilenberg-MacLane spectrum|$H\mathbb{C}$]]-[[module spectra]] ([[schreiber:Quantization via Linear homotopy types|S. 2014, Ex. 3.11]]) and [[complex vector spaces]] embed into this [[stable homotopy theory]] under passage to their [[Eilenberg-MacLane spectra]] (see the [[stable Dold-Kan correspondence]]).
+
+
+This way, the default [[categorical semantics]] for this situation is that of [[bundles]] of [[finite dimensional vector spaces]] (finite-dimensional complex [[Hilbert spaces]]) over [[finite sets]]: In this case both $(p_C)_!$ as well as $(p_C)_\ast$ yield the ordinary [[direct sum]] of the [[fibers]] (a [[biproduct]]). Since this is the [[categorical semantics]] under which the following type theory describes the traditional [[quantum circuits]], we will adopt our notation to this case and denote the generic [[dependent linear type]] by $\mathcal{H}_\bullet : LinType_C$ and its generic [[term]] by the usual notation for [[quantum states]]: 
 
 $$
   c : C 
@@ -135,7 +171,93 @@ $$
   \,.
 $$
 
-Concretely, the [[linear homotopy type theory]] of [Riley 2022](dependent+linear+type+theory#Riley22Thesis) should have [[categorical semantics]] in the [[(infinity,1)-topos|$\infty$-topos]] of [[parameterized spectrum|parameterized]] [[Eilenberg-MacLane spectrum|$H\mathbb{C}$]]-[[module spectra]] ([[schreiber:Quantization via Linear homotopy types|S. 2014, Ex. 3.11]]) and [[complex vector spaces]] embed into this [[stable homotopy theory]] under passage to their [[Eilenberg-MacLane spectra]] (see the [[stable Dold-Kan correspondence]]).
+
+one finds for the base change [[adjoint triple]] of [[dependent linear types]] along [[family of finite types|finite fibers]] (eq:FiniteBaseType)
+that the interpretation of their ([[counit of a comonad|co-]])[[unit of a monad|units]] is as follows:
+
+
+By the assumption that $B$ is [[finite set|finite]] and since [[Vect]] has [[biproducts]], the [[colimit]]/[[coproduct]] 
+
+$$
+  (p_B)_! \mathscr{V}_\bullet 
+  \;=\; 
+  \coprod_{b : B} \mathscr{V}_b
+$$
+
+and the [[limit]]/[[product]]
+
+$$
+  (p_B)_\ast \mathscr{V}_\bullet 
+  \;=\; 
+  \prod_{b : B} \mathscr{V}_b
+$$
+
+agree (we have an [[ambidextrous adjunction]]) and are both equivalent to the [[direct sum]]:
+
+$$
+  (p_B)_! \mathscr{V}_\bullet 
+    \;\simeq\;
+  (p_B)_\ast \mathscr{V}_\bullet 
+  \;=\;
+    \underset{b \colon B}{\bigoplus}
+  \mathcal{V}_b
+  \,.
+$$
+
+Accordingly, the underlying [[endofunctors]] of the induced [[monad]] and [[comonad]] on $k Vec_B$ 
+
+$$
+  \Box_B
+  \;\coloneqq\;
+  (p_B)^\ast (p_B)_\ast
+  \;\;\vdash\;\;
+  \lozenge_B
+  \;\coloneqq\;
+  (p_B)^\ast (p_B)_!
+  \;\;\colon\;\;
+  k Vec_B
+  \longrightarrow
+  k Vec_B
+$$
+
+agree, to make a [[self-adjoint functor]]
+
+$$
+  (p_B)^\ast
+  \bigotimes_B 
+  \;\;\vdash\;\; 
+  (p_B)^\ast
+  \bigotimes_B
+  \;\;\;\colon\;\;\;
+  k Vec
+  \longrightarrow 
+  k Vec
+$$
+
+which carries the [[structure]] both of a [[monad]] and of a [[comonad]].
+
+This way, one finds that the four (co)unit operations of quantum modal logic are given as follows:
+
+
+\[
+  \label{QuantumModalUnits}
+\]
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-QuantumModalUnits-221021b.jpg",
+    "width": "840",
+    "unit": "px",
+    "margin": {
+        "top": -10,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
+### Quantum measurement and state preparation
+
 
 In view of this [[categorical semantics]], notice that on linear types, $\Box_C$-**actualization is the measurement process** --  in that the $\Box_C$-[[counit of a comonad]] implements exactly the rule for [[wavefunction collapse]] (due to [Lüders 1951](wave+function+collapse#Lüders51), following [von Neumann 1932, §III.3 and §VI](wave+function+collapse#vonNeumann32)) with regards to [[quantum  measurements]] in the $C$-indexed basis of the total Hilbert space 
 $
@@ -178,7 +300,7 @@ This plays a role for classically-controlled quantum gates, [below](#Classically
 With this observation in hand, it is a straightforward matter to verify that the [[morphisms]] in the [[co-Kleisli category]] of $\Box_C$ represent general [[quantum gates]], as we will illustrate [below](#QCwthLHT-QBits) for the case of traditional [[qbit]]-[[quantum gates]]:
 
 \begin{imagefromfile}
-    "file_name": "QCwthLHT-QuantumGates-221001.jpg",
+    "file_name": "QCwthLHT-QuantumGates-221021.jpg",
     "width": "800",
     "unit": "px",
     "margin": {
@@ -188,6 +310,10 @@ With this observation in hand, it is a straightforward matter to verify that the
         "left": 10
     }
 \end{imagefromfile}
+
+
+
+### Quantum circuits
 
 
 While quantum gates have [[horizontal composition]] in the [[co-Kleisli category]], they also have a [[vertical composition]] given by [[external tensor product]]:
@@ -255,7 +381,7 @@ But the expressiveness of the ambient [[linear homotopy type theory]] is conside
  
 \linebreak
 
-### Example: Traditional QBit-based quantum circuits
+## Example: Traditional QBit-based quantum circuits
  {#QCwthLHT-QBits}
 
 We spell out in terms of the above [[modal type theory|modal]] [[quantum logic]] found inside [[dependent linear type theory]] the traditional zoo of [[quantum gates]] and basic [[quantum circuits]] acting on [[tensor products]] of [[qbits]]. On the one hand this serves to show how all the expected constructions are naturally recovered, on the other hand it enhances these standard concepts by what is de-facto a [[quantum programming language]] for their classically-controlled versions (as such somewhat akin to parts of [[Quipper]], but avoiding the issue of "dynamic lifting", see [below](#NoticeTheTypingOfAQbit)).
