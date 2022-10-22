@@ -68,3 +68,8 @@ Some introductory material on [[comonads]], [[coalgebras]] and [[co-Kleisli morp
 
 [[!redirects co-Kleisli morphism]]
 [[!redirects co-Kleisli morphisms]]
+
+[[!redirects coKleisli morphism]]
+[[!redirects coKleisli morphisms]]
+
+
