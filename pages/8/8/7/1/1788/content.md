@@ -1,4 +1,103 @@
 
+\begin{example}
+  For
+
+  * $k$ a [[field]]
+
+  * $B$ be a [[finite set]]
+
+  consider the [[base change]] [[adjoint triple]] of $B$-[[indexed sets]] of $k$-[[vector spaces]] ($k$-[[vector bundles]] over $B$):
+
+\begin{tikzcd}
+  k\mathrm{Vec}_B
+  \ar[
+    r,
+    shift left=18pt,
+    "{ (p_B)_! }"
+  ]
+  \ar[
+    from=r, 
+    "{ (p_B)^\ast }"{description}
+  ]
+  \ar[
+    r,
+    shift right=18pt,
+    "{ (p_B)_\ast }"{swap}
+  ]
+  \ar[
+    r,
+    phantom,
+    shift left=10pt,
+    "{ \scalebox{.65}{$\bot$} }"
+  ]
+  \ar[
+    r,
+    phantom,
+    shift right=10pt,
+    "{ \scalebox{.65}{$\bot$} }"
+  ]
+  &
+  k\mathrm{Vec}
+\end{tikzcd}
+
+By the assumption that $B$ is [[finite set|finite]] and since [[Vect]] has [[biproducts]], the [[colimit]]/[[coproduct]] 
+
+$$
+  (p_B)_! \mathscr{V}_\bullet 
+  \;=\; 
+  \coprod_{b : B} \mathscr{V}_b
+$$
+
+and the [[limit]]/[[product]]
+
+$$
+  (p_B)_\ast \mathscr{V}_\bullet 
+  \;=\; 
+  \prod_{b : B} \mathscr{V}_b
+$$
+
+agree (we have an [[ambidextrous adjunction]]) and are both equivalent to the [[direct sum]]:
+
+$$
+  (p_B)_! \mathscr{V}_\bullet 
+    \;\simeq\;
+  (p_B)_\ast \mathscr{V}_\bullet 
+  \;=\;
+    \underset{b \colon B}{\bigoplus}
+  \mathcal{V}_b
+  \,.
+$$
+
+Accordingly, the underlying [[endofunctors]] of the induced [[monad]] and [[comonad]] on $k Vec_B$ 
+
+$$
+  \Box_B
+  \;\coloneqq\;
+  (p_B)^\ast (p_B)_\ast
+  \;\;\vdash\;\;
+  \lozenge_B
+  \;\coloneqq\;
+  (p_B)^\ast (p_B)_!
+  \;\;\colon\;\;
+  k Vec_B
+  \longrightarrow
+  k Vec_B
+$$
+
+agree, to make a self-adjoint [[endofunctor]]
+
+$$
+  \bigotimes_B \;\vdash\; \bigotimes
+  \;\;\;\colon\;\;\;
+  k Vec
+  \longrightarrow 
+  k Vec
+$$
+
+which carries the [[structure]] both of a [[monad]] and of a [[comonad]]
+
+\end{example}
+
 
 [[QCwthLHT-QBitStatePreparationCondt-221021.jpg:file]]
 
