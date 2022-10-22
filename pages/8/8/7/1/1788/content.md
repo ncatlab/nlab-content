@@ -346,6 +346,8 @@ Dually:
 
 [[TheFourModalitiesOfBaseChange-20221021.jpg:file]]
 
+[[QCwthLHT-QuantumGates-221021.jpg:file]]
+
 [[QCwthLHT-QuantumModalUnits-221021b.jpg:file]]
 
 \begin{tikzcd}
