@@ -42,6 +42,24 @@ $$
  {#Examples}
 
 
+
+### General 
+
+\begin{example}
+For an [[idempotent comonad]] the co-Kleisli category is the [[coreflective subcategory]] of its [[modal types]].
+\end{example}
+
+\begin{example}\label{CallByNameProgramming}
+In [[type theory|typed]] [[functional programming]],
+the Kleisli category of a comonad can be used to model [[call-by-name]] programming languages.
+Dually, the [[Kleisli category]] of a monad may be used to model [[call-by-value]]-programming, see [there](Kleisli+category#CallByValueProgramming).
+
+Generally, see at *[[monad (in computer science)]]* for more on this.
+\end{example}
+
+
+### Specific
+
 \begin{example}\label{MatrixmultiplicationAsCoKleisliComposition}
 **([[matrix multiplication]] as (co-)Kleisli composition)**
 \linebreak
@@ -181,11 +199,11 @@ $$
     \underset{b' \colon B}{\bigoplus}
     \mathscr{V}_{b'}
   \Big)
-  \xrightarrow{\; A_b \;}
+  \xrightarrow{\; F_b \;}
   \mathscr{W}_b
 $$
 
-with the $B$-tuple of "block $B \times 1$" matrices $(A_b)_{b \colon B}$ that it evidently encodes. 
+with the $B$-tuple of "block $B \times 1$" matrices $(F_b)_{b \colon B}$ that it evidently encodes. 
 
 Observe that the comultiplication on the $\bigotimes_B$-[[comonad]] is given by the [[diagonal map]] into the [[biproduct]], coming from the "randomness unit" (terminology from [modal quantum logic](necessity+and+possibility#ModalQuantumLogic)):
 
@@ -201,7 +219,7 @@ Observe that the comultiplication on the $\bigotimes_B$-[[comonad]] is given by 
     }
 \end{imagefromfile}
 
-This readily shows that the Kleisli construction indeed sends such $B$-tuples $(A_b)_{b \colon B}$ of block-matrix rows to the linear map given by the corresponding full matrix, and that the [[Kleisli composite]] with any other
+Using this, one readily sees that the Kleisli construction indeed sends such $B$-tuples $(F_b)_{b \colon B}$ of block-matrix rows to the linear map $F$ which is given by the corresponding full matrix, and that the [[Kleisli composite]] with any other
 
 $$
   b \colon B
@@ -212,7 +230,7 @@ $$
     \underset{b' \colon B}{\bigoplus}
     \mathscr{W}_{b'}
   \Big)
-  \xrightarrow{\; B_b \;}
+  \xrightarrow{\; G_b \;}
   \mathscr{Z}_b
 $$
 
@@ -245,9 +263,9 @@ is indeed the row-decomposition of the corresponding [[matrix product]]:
       \;\mapsto\; 
       \underset{ b'' \!\colon\!\! B }{\sum}
       \,
-      A_{b''}(v)
+      F_{b''}(v)
       \;=\;
-      A(v)
+      F(v)
     }"{swap}
   ]
   \ar[
@@ -256,7 +274,7 @@ is indeed the row-decomposition of the corresponding [[matrix product]]:
     "{
       v 
       \;\mapsto\; 
-      \big(B \circ A(v)\big)_b
+      \big(G \circ F(v)\big)_b
     }"{swap}
   ]
   &&
@@ -272,7 +290,7 @@ is indeed the row-decomposition of the corresponding [[matrix product]]:
     "{  
        \underset{b'' \!\colon\!\! B}{\bigoplus}
        \,
-       A_{b''}
+       F_{b''}
      }"
   ]
   &&
@@ -283,28 +301,105 @@ is indeed the row-decomposition of the corresponding [[matrix product]]:
   \Big)  
   \ar[
     rr,
-    "{ B_b }"
+    "{ G_b }"
   ]
   &&
   \mathcal{Z}_{b}
   \\
 \end{tikzcd}
 
-The [[formal duality|formally dual]] argument shows the analogous statement for Kleisli morphisms and comlumn-decomposition of block matrices.
+The [[formal duality|formally dual]] argument (now using the "definiteness counit") shows the analogous statement for Kleisli morphisms and column-decomposition of block matrices:
+
+\begin{tikzcd}
+  b \!\colon\! B
+  \;\;\vdash
+  &
+  \mathcal{V}_b
+  \ar[
+    rr,
+    "{ 
+      F_b
+    }"
+  ]
+  \ar[
+    rrrrrr,
+    bend right=25,
+    "{
+      v_b
+      \;\mapsto\;
+      \big(
+        G \cdot F_b(v_b)
+      \big)
+    }"{swap}
+  ]
+  &&
+  \big(
+  \underset{
+    b'' \!\colon\!\! B
+  }{
+    \bigoplus
+  }
+  \mathcal{W}_{b''}
+  \big)
+  \ar[
+    rr,
+    "{
+      \underset{b'' \!\colon\!\! B}{\bigoplus}
+      G_{b''}
+    }"
+  ]
+  \ar[
+    rrrr,
+    bend right=14,
+    "{
+      v
+      \;\mapsto\;
+      \underset{b'' \!\colon\!\! B}{\sum} 
+      G_{b''}(v)
+      \;=\;
+      G(v)
+    }"{swap}
+  ]
+  &&
+  \big(
+  \underset{
+    b'' \!\colon\! B
+  }{
+    \bigoplus
+  }
+  \;
+  \underset{
+    b' \!\colon\! B
+  }{
+    \bigoplus
+  }
+  \mathcal{Z}_{b'}
+  \big)
+  \ar[
+    rr, 
+    "{
+      \underset{b'' \!\colon\!\! B}{\oplus}
+      v_{b''}
+      \;\mapsto\;
+      \underset{b'' \!\colon\!\! B}{\sum}
+      v_{b''}
+    }"
+  ]
+  &&
+  \big(
+  \underset{
+    b' \!\colon\!\! B
+  }{
+    \bigoplus
+  }
+  \mathcal{Z}_{b'}
+  \big)
+\end{tikzcd}
+
 \end{example}
-
-
 
 \begin{example}
-For an [[idempotent comonad]] the co-Kleisli category is the [[coreflective subcategory]] of its [[modal types]].
-\end{example}
-
-\begin{example}
-For $P= Jet$ a [[jet comonad]], then morphisms in its coKleisli category are [[differential operators]].
-\end{example}
-
-\begin{example} 
-The Kleisli category of a comonad can be used to model [[call-by-name]] programming languages.
+For $P= Jet$ a [[jet comonad]], then morphisms in its coKleisli category are [[differential operators]] (see [there](jet+comonad#Marvan86)).
 \end{example}
 
 ## Related concepts
