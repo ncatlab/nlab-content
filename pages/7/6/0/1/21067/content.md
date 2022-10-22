@@ -50,18 +50,51 @@ A \ar{r}{f} & B
 
 The category of $T$-algebras and their morphisms is called the **[[Eilenberg-Moore category]]** and denoted by $C^T$.
 
+
 ### Free algebras
  {#FreeAlgebras}
 
 Given a [[monad]] $(T,\mu,\eta)$ on a [[category]] $\mathcal{C}$, then for every [[object]] $X$ of $\mathcal{C}$, the object $T X$ is canonically equipped with a $T$-algebra [[structure]], given by the multiplication map $\mu$ of the monad. The relevant diagrams commute by the monad axioms.
 
-Algebras of this sort are called **[[free construction|free]] algebras**. 
+$T$-Algebras of this sort are called **[[free construction|free]] $T$-algebras**. 
 
-Given any morphism $f \colon X\to Y$ of $\mathcal{C}$, the [[morphism]] $T f \colon T X \longrightarrow T Y$ is a morphism of algebras, by naturality of $\mu$. In general, not every morphism of algebras between $T X$ and $T Y$ arises this way.
+Given any [[morphism]] $\phi \colon X \to Y$ of $\mathcal{C}$, the [[morphism]] $T \phi \colon T X \longrightarrow T Y$ is evidently a [[homomorphism]] of $T$-algebras, by [[natural transformation|naturality]] of $\mu$. But not every homomorphism of $T$-algebras between the free $T$-algebras $T X$ and $T Y$ arises this way, in general.
 
-However, for any morphism $g \colon X \longrightarriw T Y$, the morphism $\mu_{Y} \circ T g \colon T X \longrightarrow T Y$ is also a morphism of algebras, again by [[natural transformation|naturality]] of $\mu$. Now, all morphisms of algebras between $T X$ and $T Y$ (as free algebras) *do* arise this way.
+However, for any morphism of the form 
+$$
+  f \colon X \longrightarrow T Y
+$$ 
+in $\mathcal{C}$ (called a $T$-*[[Kleisli morphism]]*), the induced morphism
+\[
+  \label{AlgebraMapInducedByKleisliMorphism}
+  \mu_{Y} \circ T f 
+  \;\colon\; 
+  T X 
+    \xrightarrow{ T f  }
+  T T Y
+    \xrightarrow{ \mu_Y }
+  TY
+\]
 
-In other words, the [[full subcategory]] of that of algebras of $T$ on those that are free is ([[equivalence of categories|equivalent]] to) the **[[Kleisli category]]** of $T$. 
+*is* a [[homomorphism]] of $T$-algebras between these free $T$-algebras, as one verifies again using the [[natural transformation|naturality]] of $\mu$. Now, all homomorphisms of $T$-algebras between the free algebras $T X$ and $T Y$ *do* arise this way.
+
+Moreover, given in addition a morphism in $\mathcal{C}$ of the form  $g \colon Y \longrightarrow T Z$,
+then, under this association, the [[composition]] of the corresponding $T$-algebra morphisms (eq:AlgebraMapInducedByKleisliMorphism) of $f$ and $g$
+equals the $T$-algebra homomorphism corresponding to their *[[Kleisli composition|Kleisli composite]]*, defined by
+$$
+  g \circ_T f
+    \;\coloneqq\;
+  X
+    \xrightarrow{ f }
+  T Y
+    \xrightarrow{ T g }
+  T T Z
+    \xrightarrow{ \mu_Z }
+  T Z
+  \,.
+$$
+
+The [[category]] of [[Kleisli morphisms]] equipped with this [[Kleisli composition]] is called the *[[Kleisli category]]* and is [[equivalence of categories|eqivalent]] to the [[full subcategory]] of $T$-algebras on the free $T$-algebras (see [there](Kleisli+category#InTermsOfKleisliMorphisms) for more).
 
 
 ## Examples
