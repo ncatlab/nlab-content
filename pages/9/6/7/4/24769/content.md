@@ -30,8 +30,6 @@ There are other notions in mathematics which could be considered to be an extens
 
 * [[Rezk completion]] (for [[objects]] of a [[category]] or [[(infinity,1)-category]])
 
-* [[structure identity principle]] (for families of set-level structures)
-
 [[!redirects extensionality principle]]
 
 [[!redirects extensionality principles]]
