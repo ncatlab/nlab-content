@@ -126,7 +126,7 @@ $$
   \mathcal{C}_{T} \longrightarrow \mathcal{C}^{T}
 $$
 
-from the $T$-Kleisli category (Def. \ref{KleisliCategory}) to the category of [[algebra over a monad|$T$-algebras]], hence constitutes an [[equivalence of categories]] onto its  [[essential image]] which is that of free $T$-algebras/
+from the $T$-Kleisli category (Def. \ref{KleisliCategory}) to the category of [[algebra over a monad|$T$-algebras]], hence constitutes an [[equivalence of categories]] onto its  [[essential image]] which is that of free $T$-algebras.
 
 \end{proposition}
 
