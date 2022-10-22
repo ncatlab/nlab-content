@@ -9,12 +9,16 @@ A __continuous simple closed [[curve]]__, or __Jordan curve__, in a [[topologica
 
 Similarly, a __Jordan [[surface]]__ in $X$ is the image of a continuous injection to $X$ from the [[unit sphere]] $S^2$.  This can be generalized to higher-dimensional [[spheres]] or other domains, so long as there is an appropriate term to use in place of 'curve' and 'surface'.  In particular, if $X$ has [[dimension]] $n$ (in some understood sense), then a __Jordan [[hypersurface]]__ in $X$ is the image of a continuous injection to $X$ from $S^{n-1}$.
 
+### In cohesive homotopy type theory
+
+In [[cohesive homotopy type theory]], a Jordan curve in a cohesive type $X$ is the [[image]] $J \equiv \mathrm{im}(i)$ of an [[embedding]] into $X$, $i:A \hookrightarrow X$,  from a cohesive type $A$ whose [[shape]] is [[equivalence of types|equivalent]] to the homotopical [[circle type]] $\esh(A) \simeq S^1$.
+
 
 ## Related entries
 
-* [[Cauchy integral formula]] (about Jordan curves in the [[complex plane]] $\mathbf{C}$)
+* [[Cauchy integral formula]] (about Jordan curves in the [[complex plane]] $\mathbb{C}$)
 
-* [[Jordan curve theorem]] (about Jordan curves in the [[Cartesian plane]] $\mathbf{R}^2$)
+* [[Jordan curve theorem]] (about Jordan curves in the [[Cartesian plane]] $\mathbb{R}^2$)
 
 * [[Jordan--Brouwer separation theorem]] (about Jordan hypersurfaces in any [[Cartesian space]] $\mathbb{R}^n$)
 
