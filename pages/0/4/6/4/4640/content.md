@@ -355,7 +355,7 @@ is the [[projective space]] over $k$ of [[dimension]] $n$.
 
 ### $\mathbb{A}^1$-homotopy theory
 
-In [[A1-homotopy theory|A^1 homotopy theory]] one considers the [[reflective sub-(∞,1)-category|reflective]] [[localization of an (∞,1)-category|localizatoin]]
+In [[A1-homotopy theory|A^1 homotopy theory]] one considers the [[reflective sub-(∞,1)-category|reflective]] [[localization of an (∞,1)-category|localization]]
 
 $$
   Sh_\infty(C)_{\mathbb{A}^1}
