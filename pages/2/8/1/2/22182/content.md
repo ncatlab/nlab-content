@@ -74,6 +74,8 @@ There are several proofs in the [[HoTT book]] that the [[loop space]] $\Omega(S^
 
 * [[homotopy groups of spheres]]
 
+* [[Jordan curve]]
+
 ## References
 
 A formalization of the [[shape modality|shape]] [[homotopy type]] $&#643; S^1 \simeq \mathbf{B}\mathbb{Z}$ of the circle as a [[higher inductive type]] in [[homotopy type theory]], along with a proof that $\Omega &#643;S^1\simeq {\mathbb{Z}}$ (and hence $\pi_1(&#643;S^1) \simeq \mathbb{Z}$):
