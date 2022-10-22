@@ -45,6 +45,7 @@ Namely by the [above](#Definition) a quantum measurement is formally reflected i
 
 ## References
 
+### General
 
 * [[John von Neumann]], §III.3 and §VI of: 
 
@@ -55,6 +56,13 @@ Namely by the [above](#Definition) a quantum measurement is formally reflected i
 * [[Roland Omnès]], §8 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
 * {#Landsman17} [[Klaas Landsman]], Section 11: of _Foundations of quantum theory -- From classical concepts to Operator algebras_, Springer Open 2017 ([doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
+
+Brief mentioning of [[type|typing]] and [[categorical semantics]] of quantum measurement in the [[quantum programming language]] [[QPL]]/[[Quipper]]:
+
+* {#Selinger04} [[Peter Selinger]], p. 39 of: *Towards a quantum programming language*, Mathematical Structures in Computer Science **14** 4 (2004) 527–586 &lbrack;[doi:10.1017/S0960129504004256](https://doi.org/10.1017/S0960129504004256), [pdf](https://www.mathstat.dal.ca/~selinger/papers/qpl.pdf),  [web](https://www.mathstat.dal.ca/~selinger/papers.html#qpl)&rbrack;
+
+
+### The Measurement Problems
  
 The article
 
@@ -65,6 +73,8 @@ points out that for symmetric systems with a symmetric [[ground state]], already
 See also 
 
 * {#Wallace07} [[David Wallace]], _The Quantum Measurement Problem: State of Play_ ([arXiv:0712.0149](http://arxiv.org/abs/0712.0149))
+
+
 
 [[!redirects quantum measurements]]
 
