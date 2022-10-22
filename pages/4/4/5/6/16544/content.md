@@ -411,7 +411,13 @@ For $P= Jet$ a [[jet comonad]], then morphisms in its coKleisli category are [[d
 
 ## References
 
-Some introductory material on [[comonads]], [[coalgebras]] and [[co-Kleisli morphisms]] can be found in
+The [[equivalence of categories]] between the [[co-Kleisli category]] over a given [[comonad]] with the [[Kleisli category]] of an [[adjoint functor|adjoint]] [[monad]] (if it exists):
+
+* [[Mark Kleiner]],  *Adjoint monads and an isomorphism of the Kleisli categories*, Journal of Algebra
+Volume **133** 1 (1990) 79-82 &lbrack;<a href="https://doi.org/10.1016/0021-8693(90)90069-Z">doi:10.1016/0021-8693(90)90069-Z</a>&rbrack;
+
+
+Some introductory material on [[comonads]], [[coalgebras]] and [[co-Kleisli morphisms]]:
 
 * [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_, Chapter 5. ([arXiv](http://arxiv.org/abs/1912.10642))
 
