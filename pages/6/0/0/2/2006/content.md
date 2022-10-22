@@ -216,7 +216,7 @@ Discussion in [[internal category]] theory:
 
 Discussion of Kleisli categories in [[type theory]] is in 
 
-* [[Alex Simpson]], _Recursive types in Kleisli Categories_ ([pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.47.9679&rep=rep1&type=pdf))
+* [[Alex Simpson]], _Recursive types in Kleisli Categories_ ([pdf](https://www.research.ed.ac.uk/en/publications/recursive-types-in-kleisli-categories))
 
 [[!redirects Kleisli category]]
 [[!redirects Kleisli categories]]
