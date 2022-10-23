@@ -8247,7 +8247,7 @@ For $\mathcal{C} =$ [[Top]] with $Cyl(X) = X\times I$ the standard cyclinder obj
 
 Accordingly the [[suspension]] of a topological space is the result of shrinking both ends of the cylinder on the object two the point. This is homeomoprhic to attaching two copies of the cone on the space at the base of the cone.
 
-(graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
+(graphics taken from [Muro 2010](#Muro10))
 
 Below in example \ref{StandardTopologicalMappingConeIsHomotopyCofiber} we find the homotopy-theoretic interpretation of this standard topological mapping cone as a model for the _[[homotopy cofiber]]_.
 
@@ -10473,6 +10473,9 @@ For the restriction to the [[convenient category of topological spaces|convenien
 
 * {#Strickland09} [[Neil Strickland]], _The category of CGWH spaces_, 2009 ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf))
 
+Graphics taken from
+
+* {#Muro10} [[Fernando Muro]], _Representability of Cohomology Theories_, Joint Mathematical Conference CSASC 2010, 22–27 January 2010, Prague, Czech Republic ([slides](https://personal.us.es/fmuro/files/slides/praha.pdf))
 
 
 [[!redirects Introduction to Stable homotopy theory -- P]]
