@@ -316,7 +316,7 @@ hence
 
 \linebreak
 
-#### Modal quantum logic
+#### Quantum modal logic
  {#ModalQuantumLogic}
 
 > under construction
