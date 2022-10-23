@@ -1,3 +1,4 @@
+[[!redirects factorization system in a 2-category]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -21,7 +22,7 @@
 
 ## Definition
 
-In a (weak) [[2-category]], the appropriate notion of an [[orthogonal factorization system]] is suitably weakened up to isomorphism.  Specifically, a factorization system in a 2-category $K$ consists of two classes $(E,M)$ of 1-morphisms in $K$ such that:
+In a (weak) [[2-category]], the appropriate notion of an [[orthogonal factorization system]] is suitably weakened up to isomorphism.  Specifically, a factorization system on a 2-category $K$ consists of two classes $(E,M)$ of 1-morphisms in $K$ such that:
 
 1. Every 1-morphism $f:x\to y$ in $K$ is *isomorphic* to a composite $m\circ e$ where $e\in E$ and $m\in M$, and
 
@@ -39,7 +40,7 @@ which commutes up to specified isomorphism, where $e\in E$ and $m\in M$, has a d
 
 ## Examples
 
-* The following are all factorization systems in the 2-category $Cat$.  Many of them have analogues in more general 2-categories.
+* The following are all factorization systems on the 2-category $Cat$.  Many of them have analogues in more general 2-categories.
 
   * $E=$ [[essentially surjective functors]], $M=$ [[fully faithful functors]].  This is the "ur-example," and it generalizes to [[enriched category theory]], [[internal category]] theory, etc.  See [[(eso, fully faithful) factorization system]].
 
@@ -78,7 +79,7 @@ and $M=$ [[fully faithful functors]].
 
   * [[orthogonal factorization system]]
 
-* **factorization system in a 2-category**
+* **factorization system on a 2-category**
 
 * [[factorization system in an (∞,1)-category]]
 
@@ -94,7 +95,7 @@ For instance
 
 * [[Mathieu Dupont]], [[Enrico Vitale]], _Proper factorization systems in 2-categories_ ([pdf](http://breckes.org/dokumenty/propfactsys.pdf))
 
-[[!redirects factorization system on a 2-category]]
+[[!redirects factorization system in a 2-category]]
 [[!redirects factorization systems in a 2-category]]
 [[!redirects factorization systems on a 2-category]]
 [[!redirects factorization systems in 2-categories]]
