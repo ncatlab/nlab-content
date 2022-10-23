@@ -43,7 +43,7 @@ Specifically, the [[ground state]] of a topologically ordered material is rich i
 
 Moreover, for this to qualify as topologically ordered, one typically demands that in its degenerate ground state the system may exhibit "[[anyon|anyonic]] [[defects]]". A popular more succinct way of making this somewhat more precise is to say that the [[dynamics]] of (the [[electrons]] in) a topologically ordered material, when restricted to the energy=0 ground states, is a [[topological field theory]] equal or akin to a [[Chern-Simons theory]] with [[Wilson line]]-insertions: these Wilson lines being the [[worldlines]] of the [[anyon]]-[[defects]]. 
 
-In short then, topological order is meant to be that aspect of [[topological phases of matter]] related to the existence of [[anyons]] in the material, in one way or other. Via this relation, topological order is closely related to considerations in [[topological quantum computation]].
+In short then, topological order is meant to be that aspect of [[topological phases of matter]] which is related to the existence of [[anyons]] in the material, in one way or other. Via this relation, topological order is closely related to considerations in [[topological quantum computation]].
 
 
 ### Via degenerate anyonic ground states
