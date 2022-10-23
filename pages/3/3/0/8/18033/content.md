@@ -128,8 +128,7 @@ Specifically for the [[D=6 N=(2,0) SCFT]] on the [[M5-brane]] via [[AdS7/CFT6]]:
 
   > On the other hand, given our utter lack of a complete description of M-theory, the bulk is  not  terribly  useful  for  determining  finite aspects of the dual CFT. However, we can turn this problem around using the modern perspective of the conformal bootstrap, which gives an a priori independent formulation of the (local sector of the) CFT. This provides an independent tool for constructing M-theory at the non-perturbative level, a philosophy that we will substantiate in this work.
 
-* [[Luis Alday]], [[Shai Chester]], Himanshu Raj, _6d $(2,0)$ and M-theory at 1-loop_ ([arXiv:2005.07175](https://arxiv.org/abs/2005.07175))
-
+* [[Luis Alday]], [[Shai Chester]], Himanshu Raj, _6d $(2,0)$ and M-theory at 1-loop_, Journal of High Energy Physics **2021** 133 (2021) &lbrack;[arXiv:2005.07175](https://arxiv.org/abs/2005.07175)&rbrack;
 
 
 Specifically for the [[D=3 SCFT]] ([[BLG-model]], [[ABJM model]]) on the [[M2-brane]] via [[AdS4/CFT3]]
