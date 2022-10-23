@@ -9,7 +9,7 @@ marked points.
 
 
 
-* [Article by Leila Schneps](http://www.math.jussieu.fr/~leila/SchnepsLM.pdf)
+* [Article by Leila Schneps](https://webusers.imj-prg.fr/~leila.schneps/SchnepsLM.pdf)
 
 * [Project of transcription](https://agrothendieck.github.io/divers/galois.pdf)
 
