@@ -24,7 +24,7 @@ Bi-terminal objects are the [[bicategory|bicategorical]] analogues of [[terminal
 
 ## Definition
 
-In a [[bicategory]] $A$, an object $L \in A$ is **bi-terminal** (or **biterminal**) when for all $X \in A$, there is an [[equivalence of categories]] between $A(X,L)$ and the [[terminal category]] $\mathbb{1}$ with a single object and single morphism .
+In a [[bicategory]] $A$, an object $L \in A$ is **bi-terminal** (or **biterminal**) when for all $X \in A$, there is an [[equivalence of categories]] between $A(X,L)$ and the [[terminal category]] $\mathbb{1}$ with a single object and single morphism.
 
 ## Related concepts
 
