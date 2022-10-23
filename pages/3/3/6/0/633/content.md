@@ -19,7 +19,11 @@ Let $K$ be a [[2-category]].
 
 A [[morphism]] $f:A\to B$ in $K$ is called **(representably) fully-faithful** (or sometimes just **ff**) if for all [[object]]s $X \in K$ , the [[functor]]
 $$K(X,A) \to K(X,B)$$
-is [[full and faithful functor|full and faithful]].  
+is [[full and faithful functor|full and faithful]].
+
+It is said to be **co-fully faithful** or **corepresentably fully faithful** if for all [[object]]s $X \in K$ , the [[functor]]
+$$K(B,X) \to K(A,X)$$
+is a full and faithful functor.
 
 
 ## Remarks
@@ -36,7 +40,7 @@ This is not always the "right" notion of fully-faithfulness in a 2-category.  In
 
 ## Examples
 
-In the [[2-category]] [[Cat]] the full and faithful morphisms are precisely the [[full and faithful functor]]s.
+In the [[2-category]] [[Cat]] the full and faithful morphisms are precisely the [[full and faithful functor]]s; and the co-fully faithful morphisms are precisely the [[absolutely dense functors]].
 
 
 
@@ -59,3 +63,12 @@ In the [[2-category]] [[Cat]] the full and faithful morphisms are precisely the 
 [[!redirects 1-monic morphisms]]
 [[!redirects 1-subobject]]
 [[!redirects 1-subobjects]]
+
+[[!redirects co-fully faithful]]
+[[!redirects co-fully faithful morphism]]
+[[!redirects co-fully faithful morphisms]]
+[[!redirects co-fully faithful functor]]
+[[!redirects co-fully faithful functors]]
+[[!redirects corepresentably fully faithful]]
+[[!redirects corepresentably fully faithful morphism]]
+[[!redirects corepresentably fully faithful morphisms]]
