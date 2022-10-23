@@ -11,7 +11,7 @@
 +--{: .hide}
 [[!include quantum systems -- contents]]
 =--
-#### Constructivism, Realizability, Computability
+#### Computing
 +-- {: .hide}
 [[!include constructivism - contents]]
 =--
