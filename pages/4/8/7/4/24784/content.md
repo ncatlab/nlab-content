@@ -1,7 +1,10 @@
+A Swiss mathematician, pronounced /ˈklaɪsli/.
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Heinrich_Kleisli)
 
 * [MathematicsGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=18361)
+
+* [[Kleisli category]], [[Kleisli 2-category]], [[Kleisli object]], [[Kleisli category of a comonad]]
 
 ## Selected writings
 
