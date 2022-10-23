@@ -26,6 +26,14 @@ $$glue \colon \prod_{x:A}in(f(x)) =_{\mathrm{coeq}_{A,B}(f, g)} in(g(x))$$
 
 ## Examples
 
+### Circle type
+
+The [[circle type]] is the coequalizer of two copies of the [[identity function]] on the [[unit type]]
+
+$$S^1 \coloneqq \mathrm{coeq}_{\mathbb{1},\mathbb{1}}(\mathrm{id}_\mathbb{1}, \mathrm{id}_\mathbb{1})$$
+
+### Propositional truncation
+
 The [[propositional truncation]] of a [[h-set]] $A$ is the [[set truncation]] of the coequalizer of the two product projection functions $\pi_1:A \times A \to A$ and $\pi_2:A \times A \to A$ of the product type $A \times A$
 
 $$\Vert A \Vert_{-1} \coloneqq \Vert \mathrm{coeq}_{A \times A,A}(\pi_1, \pi_2) \Vert_0$$
