@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
 =--
 =--
 
@@ -18,7 +22,7 @@
 ## Idea 
   {#Idea}
 
-In [[category theory]] and [[universakl algebra]], the *mondacity theorem* serves to characterize/recognize whether a given [[functor]] is a [[monadic functor]].
+In [[category theory]] and [[universal algebra]], a *mondacity theorem* serves to characterize/recognize whether a given [[functor]] is a [[monadic functor]].
 
 
 ## Statement
