@@ -25,7 +25,7 @@
 
 ## Idea
 
-A [[dualizable object]] in a [[symmetric monoidal (∞,n)-category]] $\mathcal{C}$ is called **fully dualizable** if the structure maps of the duality unit and counit each themselves have adjoints, which have adjoints, and so on, up to level $(n-1)$.
+A [[dualizable object]] in a [[symmetric monoidal (∞,n)-category]] $\mathcal{C}$ is called **fully dualizable** if the structure maps of the duality unit and counit each themselves have [[adjoints]], which have adjoints, and so on, up to level $(n-1)$.
 
 
 ## Properties
