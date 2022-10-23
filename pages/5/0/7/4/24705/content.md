@@ -256,7 +256,8 @@ This way, one finds that the four (co)unit operations of quantum modal logic are
 
 
 
-### Quantum measurement and state preparation
+### Quantum measurement
+ {#QuantumMeasurement}
 
 
 In view of this [[categorical semantics]], notice that on linear types, $\Box_C$-**actualization is the measurement process** --  in that the $\Box_C$-[[counit of a comonad]] implements exactly the rule for [[wavefunction collapse]] (due to [Lüders 1951](wave+function+collapse#Lüders51), following [von Neumann 1932, §III.3 and §VI](wave+function+collapse#vonNeumann32)) with regards to [[quantum  measurements]] in the $C$-indexed basis of the total Hilbert space 
