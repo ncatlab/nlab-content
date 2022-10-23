@@ -15,6 +15,12 @@
 {:toc}
 
 
+## Idea 
+  {#Idea}
+
+In [[category theory]] and [[universakl algebra]], the *mondacity theorem* serves to characterize/recognize whether a given [[functor]] is a [[monadic functor]].
+
+
 ## Statement
 
 +-- {: .num_defn #CreationOfCoequalizersOfuSplitPairs}
