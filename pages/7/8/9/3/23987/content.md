@@ -165,7 +165,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 * 13 Sep 2022
   {#InitialResearcherMeeting-Riley}
 
-  [[Mitchell Riley]] (CQTS):
+  [[Mitchell Riley]] (NYU Abu Dhabi, [[CQTS]]):
 
   **Dependent Type Theories à la Carte** 
 
@@ -180,7 +180,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 * 14 Sep 2022
   {#InitialResearcherMeeting-Valera}
 
-  [[Sachin Valera]] (CQTS):
+  [[Sachin Valera]] (NYU Abu Dhabi, [[CQTS]]):
 
   **A Quick Introduction to the Algebraic Theory of Anyons**
 
@@ -195,7 +195,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 * 14 Sep 2022
   {#InitialResearcherMeeting-Schreiber}
 
-  [[Urs Schreiber]] (CQTS):
+  [[Urs Schreiber]] (NYU Abu Dhabi, [[CQTS]]):
 
   **Initial Researchers' Meeting -- Motivation, Strategy & Technology** 
 
@@ -396,7 +396,7 @@ Stone-von Neumann**
 * 28 Sep 2022
   {#DavidJMyers22}
 
-  [[David Jaz Myers]] (NYU Abu Dhabi, CQTS)
+  [[David Jaz Myers]] (NYU Abu Dhabi, [[CQTS]])
 
   **Objective Cohomology -- Towards topological quantum computation**
 
@@ -411,7 +411,7 @@ Stone-von Neumann**
 * 05 Oct 2022
   {#CloughSep22}
 
-  [[Adrian Clough]] (NYU Abu Dhabi, CQTS)
+  [[Adrian Clough]] (NYU Abu Dhabi, [[CQTS]])
 
   **The smooth Oka principle**
 
@@ -443,6 +443,15 @@ Stone-von Neumann**
   slides: [[Kong-TalkAtCQTS-20221019.pdf:file]]
 
   > on [[topological order]], [[braided fusion categories]] and the [[holographic principle]]
+
+\linebreak
+
+* {#SchreiberOct2022} 26 Oct 2022 (upcoming)
+
+  [[Urs Schreiber]] (NYU Abu Dhabi, [[CQTS]])
+
+  **Quantum Programming via Linear Homotopy Types**
+
 
 \linebreak
 
