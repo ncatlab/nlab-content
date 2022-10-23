@@ -3894,7 +3894,7 @@ For $\mathcal{C} =$ [[Top]] with $Cyl(X) = X\times I$ the standard cyclinder obj
 
 Accordingly the [[suspension]] of a topological space is the result of shrinking both ends of the cylinder on the object two the point. This is homeomoprhic to attaching two copies of the cone on the space at the base of the cone.
 
-(graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
+(graphics taken from [Muro 2010](https://personal.us.es/fmuro/files/slides/praha.pdf))
 
 Below in example \ref{StandardTopologicalMappingConeIsHomotopyCofiber} we find the homotopy-theoretic interpretation of this standard topological mapping cone as a model for the _[[homotopy cofiber]]_.
 
