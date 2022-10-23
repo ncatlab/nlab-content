@@ -13,11 +13,11 @@ Similarly, a __Jordan [[surface]]__ in $X$ is the image of a continuous injectio
 
 ### In cohesive homotopy type theory
 
-In [[cohesive homotopy type theory]], let the abstract [[continuum]] [[line object]] $\mathbb{A}$ be a [[commutative ring]] such that the [[shape]] of $\mathbb{A}$ is contractible $\mathrm{isContr}(\esh(\mathbb{A}))$. The abstract [[unit circle]] is then defined to be the [[dependent sum type]]
+In [[cohesive homotopy type theory]], let the [[continuum]] [[line object]] $\mathbb{A}$ be a [[commutative ring]] such that the [[shape]] of $\mathbb{A}$ is contractible $\mathrm{isContr}(\esh(\mathbb{A}))$. The [[unit circle]] is then defined to be the [[dependent sum type]]
 
 $$\mathbb{S}^1 \coloneqq \sum_{x:\mathbb{A}} \sum_{y:\mathbb{A}} x^2 + y^2 = 1$$
 
-A Jordan curve in a cohesive type $X$ is the [[image]] $J \equiv \mathrm{im}(i)$ of an [[embedding]] $i:\mathbb{S}^1 \hookrightarrow X$  from the abstract unit circle $\mathbb{S}^1$ into $X$. 
+A Jordan curve in a cohesive type $X$ is the [[image]] $J \equiv \mathrm{im}(i)$ of an [[embedding]] $i:\mathbb{S}^1 \hookrightarrow X$  from the unit circle $\mathbb{S}^1$ into $X$. 
 
 Commonly seen examples include in [[Euclidean geometry]] where $\mathbb{A}$ is the [[Dedekind real numbers]] $\mathbb{R}$, and [[algebraic geometry]] where $\mathbb{A}$ is the [[affine line]] $\mathbb{A}^1$.
 
