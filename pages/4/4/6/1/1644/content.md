@@ -41,7 +41,7 @@ $$
   \,,
 $$
 
-the core construction is the [[right adjoint]] to the [[full subcategoru|full]] inclusion of [[groupoids]] among [[categories]] (generally: [[(n,0)-categories]] among [[(n,r)-categories]]):
+the core construction is the [[right adjoint]] to the [[full subcategory|full inclusion]] of [[groupoids]] among [[categories]] (generally: [[(n,0)-categories]] among [[(n,r)-categories]]):
 
 $$
   Grpd_n
@@ -160,7 +160,6 @@ Discussion in the generality of [[(infinity,n)-categories|$(\infty,n)$-categorie
  
 
 
-
 [[!redirects core]]
 [[!redirects cores]]
 [[!redirects underlying groupoid]]
@@ -169,4 +168,7 @@ Discussion in the generality of [[(infinity,n)-categories|$(\infty,n)$-categorie
 [[!redirects maximal subgroupoids]]
 [[!redirects maximal sub-groupoid]]
 [[!redirects maximal sub-groupoids]]
+
+[[!redirects groupoid core]]
+[[!redirects groupoid cores]]
 
