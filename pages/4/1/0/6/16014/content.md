@@ -155,6 +155,9 @@ Moreover, with this formalization, the modal operator $\underset{W}{\lozenge}$ i
 
 Observe how the corresponding [[unit of a monad|unit]] and [[counit of a comonad|counit]] maps properly reflect the intended logic of necessity, actuality and possibility:
 
+\[
+  \label{NecessityActualityPossibility}
+\]
 \begin{imagefromfile}
     "file_name": "QCwthLHT-ClassicalNecessity-221003.jpg",
     "width": "900",
@@ -178,12 +181,60 @@ Some technical remarks:
 ### Relation to Contingency
  {#RelationToContingency}
 
+
 There is also an [[adjoint pair]] on the other side, $\mathbf{H}_{/\ast}$, of the [[base change]] maps, in which the left adjoint is given by context extension back to $\mathbf{H}_{/W}$ followed by $\exists_W$, and dually the right adjoint is given by $W^\ast$ followed by $\forall_W$. The former is the [[writer comonad]], whereas the latter is the [[reader monad]] (aka [[function monad]]):
 
 <center>
 <img src="/nlab/files/TheFourModalitiesOfBaseChange-20221021.jpg" width="400">
 </center>
 
+
+If we think of the types $P_\bullet \,\in\, Type_B$ in the given context -- now called "$B$" -- as *actual types* (eq:NecessityActualityPossibility) then the types down in the base context $P \,\in\, Type$ should be thought of as types that fail to be actual in that they are missing information about their $B$-dependency. 
+
+This might be called *contingent types*: The definiteness-counit $\star P \rightarrow P$ witnesses their inhabitation as following from that of a definite type after forgetting which definite world $b \colon B$ was used to inhabit it.
+
+{#ContigencyAsMonadicDescent} More in detail, since $(p_B)^\ast$ is a [[conservative functor]], the [[monadicity theorem]] (see [this example](monadicity+theorem#BaseChangeOfPresheavesAlongFullyFaithfulFunctor)) says 
+
+\begin{imagefromfile}
+    "file_name": "ContingentTypesAsPossibilityActions-201023.jpg",
+    "width": "580",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+that the types $P \,\in\, Type$ are equivalently 
+
+1. those actual types $P_\bullet$ which carry a possibility-[[algebra over a monad|monad action]] 
+   $
+     \lozenge_B P_\bullet
+       \longrightarrow 
+     P_\bullet
+   $
+
+1. those actual types $P_\bullet$ which carry a necessity-[[coalgebra over a comonad|co-monad co-action]]
+   $
+     P_\bullet
+       \longrightarrow 
+     \Box_B P_\bullet
+   $
+
+In words this says that for such contingent propositions the standard implications 
+
+$$
+  necessarily  P_\bullet
+  \;\Rightarrow\;
+  actually P_\bullet 
+  \;\Rightarrow\;
+  possibly P_\bullet
+$$
+
+may be reversed. And indeed, if a kind of proposition holds as soon as it *possibly* holds, then it makes sense to say that holds contingently.
 
 
 
