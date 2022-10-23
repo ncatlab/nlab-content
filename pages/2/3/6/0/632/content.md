@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -59,21 +60,24 @@ for the [[functor]] of pullback along $f$ between [[slice categories]] ([[base c
 ###### Example
 
 Every [[fully faithful functor]] is a conservative functor.
-An example of a functor that is conservative but not fully faithful is the inclusion of the groupoid core of a category into the category.
+
+An example of a functor that is conservative but not fully faithful is the inclusion of the [[groupoid core]] of a [[category]] into the category.
 
 =--
 
 +-- {: .num_example #ConservativeFunctorsBetweenPretoposesAreInjectiveOnSubobjectLattices}
 ###### Example
 
-When $C$ and $D$ are [[pretopos|pretoposes]], a pretopos morphism $F : C \to D$ is conservative if and only if for every object $c \in C$, the induced map between [[poset of subobjects | subobject lattices]] $F^{(c)} : \operatorname{Sub}(c) \to \operatorname{Sub}(F(c))$ is injective.
+When $C$ and $D$ are [[pretopos|pretoposes]], a pretopos morphism $F \colon C \to D$ is conservative if and only if for every object $c \in C$, the induced map between [[poset of subobjects | subobject lattices]] $F^{(c)} : \operatorname{Sub}(c) \to \operatorname{Sub}(F(c))$ is injective.
 
 =--
 
 +-- {: .num_example #MonadicFunctorIsConservative}
 ###### Example
 
-Every [[monadic functor]] is a conservative functor: for a $T$-algebra homomorphism given by an invertible morphism $f : A \to B$, the inverse $f^{-1} : B \to A$ is easily seen to also be a $T$-algebra homomorphism.
+Every [[monadic functor]] is a conservative functor (see also at *[[monadicity theorem]]*): 
+
+For a $T$-algebra homomorphism given by an invertible morphism $f : A \to B$, the inverse $f^{-1} : B \to A$ is easily seen to also be a $T$-algebra homomorphism.
 
 =--
 
