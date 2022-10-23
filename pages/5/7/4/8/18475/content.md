@@ -110,7 +110,7 @@ Reviews and lectures:
 
 * [[Sean Hartnoll]], _Lectures on holographic methods for condensed matter physics_, Class. Quant. Grav. **26** 224002, 2009 &lbrack;[arXiv:0903.3246](https://arxiv.org/abs/0903.3246)&rbrack;
 
-* [[John McGreevy]], *Holographic duality with a view toward many-body physics*, Adv. High Energy Phys. 723105 (2010) ([arXiv:0909.0518](https://arxiv.org/abs/0909.0518))
+* [[John McGreevy]], *Holographic duality with a view toward many-body physics*, Adv. High Energy Phys. 723105 (2010) &lbrack;[arXiv:0909.0518](https://arxiv.org/abs/0909.0518), [doi:10.1155/2010/723105](https://doi.org/10.1155/2010/723105)&rbrack;
 
 * A. Pires, _AdS/CFT correspondence in condensed matter_ ([arXiv:1006.5838](http://arxiv.org/abs/1006.5838))
 
