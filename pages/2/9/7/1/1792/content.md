@@ -35,7 +35,7 @@ The suspension construction is part of the [[cofiber sequence]] induced from any
 
 <img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="660" >
 
-(graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
+(graphics taken from [Muro 2010](#Muro10))
 
 
 ## Definitions
@@ -180,6 +180,10 @@ Here is [Chapter 1](http://www.math.psu.edu/katok_a/TOPOLOGY/Chapter1.pdf) (pdf)
 * [[George Whitehead]], _Some aspects of stable homotopy theory_ ([pdf](http://www.mathunion.org/ICM/ICM1962.1/Main/icm1962.1.0502.0506.ocr.pdf))
 
 * [[Ralph Cohen]], _A model for the free loop space of a suspension_ Lecture Notes in Mathematics, 1987, Volume 1286/1987, 193-207 ([])
+
+Graphics taken from
+
+* {#Muro10} [[Fernando Muro]], _Representability of Cohomology Theories_, Joint Mathematical Conference CSASC 2010, 22–27 January 2010, Prague, Czech Republic ([slides](https://personal.us.es/fmuro/files/slides/praha.pdf))
 
 
 [[!redirects suspension]]
