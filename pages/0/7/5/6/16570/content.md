@@ -15,7 +15,7 @@ An analogue of the $\infty$-jet space is the [[arc space]].
 
 Readable introduction is in 
 
-* M. Popa, 571 Ch. 5. _Jet schemes and arc spaces_, [pdf](http://homepages.math.uic.edu/~mpopa/571/chapter5.pdf)
+* M. Popa, 571 Ch. 5. _Jet schemes and arc spaces_, [pdf](https://people.math.harvard.edu/~mpopa/571/chapter5.pdf)
 
 * [[A. Beilinson]], [[V. Drinfeld]], [[Chiral Algebras]]
 
