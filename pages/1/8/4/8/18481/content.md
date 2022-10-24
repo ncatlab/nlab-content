@@ -3,7 +3,9 @@
 
 ## Definition
 
-In [[material set theory]], a __reflexive set__ is a set that belongs to itself:
+### In unsorted set theory
+
+In [[unsorted set theory]], a **reflexive set** is a set that belongs to itself:
 $$ X \in X .$$
 Equivalently, $X$ is reflexive iff it equals its [[successor]] $X \cup \{X\}$.  Compare [[transitive sets]].
 
@@ -11,6 +13,13 @@ If the [[axiom of foundation]] holds in a set theory, then there are no reflexiv
 
 A __Quine atom__ is a minimally reflexive set:
 $$ X = \{X\} .$$
+
+### In two-sorted set theory
+
+In [[two-sorted set theory]] with [[element reflection]], a **reflexive set** is a set whose element reflection belongs to itself:
+$$\mathrm{asElem}(X) \in X$$
+Similarly, in a [[two-sorted set theory]] with [[set reflection]], a **reflexive element** is an element which belongs to its set reflection:
+$$X \in \mathrm{asSet}(X)$$
 
 ## Examples
 
@@ -26,11 +35,14 @@ The terminal object $1$ is then a [[Quine atom]] with respect to $\in$.
 
 ## See also
 
-* [[material set theory]]
+* [[unsorted set theory]]
 * [[fully formal ETCS]]
 
 [[!redirects reflexive set]]
 [[!redirects reflexive sets]]
+
+[[!redirects reflexive element]]
+[[!redirects reflexive elements]]
 
 [[!redirects Quine atom]]
 [[!redirects Quine atoms]]
