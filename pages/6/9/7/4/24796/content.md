@@ -74,7 +74,7 @@ For the first two membership relations $\in$, the singleton $1$ is a [[Quine ato
 
 ## See also
 
-* [[unsorted set theory
+* [[unsorted set theory]]
 * [[two-sorted set theory]]
 * [[dependently-sorted set theory]]
 
