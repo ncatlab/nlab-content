@@ -29,7 +29,7 @@ For example, a morphism in [[Sets]] is [[surjective]] iff it has the right lifti
 ## Definition
 
 \begin{definition}\label{LiftingPropertiesOfMorphisms}
-**(lifting poperties of morphisms)**
+**(lifting properties of morphisms)**
 \linebreak
 A morphism $i$ in a category has the *left lifting property* with respect to a morphism $p$, and $p$ also has the *right lifting property* with respect to $i$, sometimes denoted $i\,\,&solb;\,\, p$ or $i\downarrow p$, iff the following implication holds for each morphism $f$ and $g$ in the category:
 
