@@ -109,7 +109,7 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 * [[H. Applegate]], [[M. Barr]], [[J. Beck]], [[F. W. Lawvere]], [[F. E. J. Linton]], [[E. Manes]], [[M. Tierney]], [[F. Ulmer]]: _Seminar on triples and categorical homology theory_, ETH 1966/67, edited by [[Beno Eckmann]] and [[Myles Tierney]], **[[LNM 80]]**, Springer (1969), reprinted as: Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
 * [[Michael Barr]], [[Charles Wells]], _Toposes, triples and theories_, Springer (1985) &lbrack;[web remake at TAC](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
 
-* [[Stephen Brookes]],  Kathryn Van Stone, *Monads and Comonads in Intensional Semantics* (1993) &lbrack;[dtic:ADA266522](https://apps.dtic.mil/sti/citations/ADA266522), [pdf](https://www.cs.cmu.edu/~brookes/papers/MonadsComonads.pdf)&rbrack;
+* [[Stephen Brookes]],  [[Kathryn Van Stone]], *Monads and Comonads in Intensional Semantics* (1993) &lbrack;[dtic:ADA266522](https://apps.dtic.mil/sti/citations/ADA266522), [pdf](https://www.cs.cmu.edu/~brookes/papers/MonadsComonads.pdf), [[Brookes_vanStone-MonadsAndComonads.pdf:file]]&rbrack;
 
 * [[John Power]], [[Hiroshi Watanabe]], *Distributivity for a monad and a comonad*, Electronic Notes in Theoretical Computer Science **19** (1999) 102 &lbrack;<a href="https://doi.org/10.1016/S1571-0661(05)80271-3">doi:10.1016/S1571-0661(05)80271-3</a>&rbrack;
 
