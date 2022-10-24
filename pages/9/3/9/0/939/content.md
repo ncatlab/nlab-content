@@ -102,40 +102,41 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 * [[distributivity for monoidal structures]]
 * [[monad transformer]]
 
-##Literature##
+## Literature
 
-* H. Appelgate, [[Michael Barr]], J. Beck, [[Bill Lawvere]], 
-[[Fred Linton]], E, Manes, [[Myles Tierney]], F. Ulmer, _Seminar on triples and categorical homology theory_, ETH 1966/67, edited by B. Eckmann, LNM 80, Springer 1969.
-(includes article Jon Beck, Distributive laws, pages 119--140). Republished in _Reprints in Theory and Applications of Categories_, No. 18 (2008) pp. 1-303. ([web](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html))
+* H. Appelgate, [[Michael Barr]], J. Beck, [[Bill Lawvere]],[[Fred Linton]], E. Manes, [[Myles Tierney]], F. Ulmer, _Seminar on triples and categorical homology theory_, ETH 1966/67, edited by B. Eckmann, **[[LNM 80]]** Springer (1969)
+(includes article Jon Beck, Distributive laws, pages 119--140). Republished as: _Reprints in Theory and Applications of Categories_, **18** (2008) 1-303. ([web](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html))
 
-* [[Michael Barr]], [[Charles Wells]], _Toposes, triples and theories_, Springer-Verlag 1985; [web remake at TAC](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) 
+* [[Michael Barr]], [[Charles Wells]], _Toposes, triples and theories_, Springer (1985) &lbrack;[web remake at TAC](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
+
+* Stephen Brookes,  Kathryn Van Stone, *Monads and Comonads in Intensional Semantics* (1993) &lbrack;[dtic:ADA266522](https://apps.dtic.mil/sti/citations/ADA266522), [pdf](https://www.cs.cmu.edu/~brookes/papers/MonadsComonads.pdf)&rbrack;
+
+* [[John Power]], Hiroshi Watanabe, *Combining a monad and a comonad*, Theoretical Computer Science **280** 1–2 (2002) 137-162 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(01)00024-X">doi:10.1016/S0304-3975(01)00024-X</a>&rbrack;
 
 * [[Gabi Böhm]], _Internal bialgebroids, entwining structures
 and corings_, AMS Contemp. Math. 376 (2005) 207--226; [arXiv:math.QA/0311244](http://front.math.ucdavis.edu/math.QA/0311244)
 
 * [[T. Brzeziński]], [[S. Majid]], _Coalgebra bundles_, Comm. Math. Phys.  191  (1998),  no. 2, 467--492 ([arXiv version](http://arxiv.org/abs/q-alg/9602022)).
 
-* T. Brzezi&#324;ski, R. Wisbauer, _Corings and comodules_, London Math. Soc. Lec. Note Series 309, Cambridge 2003.
+* [[T. Brzeziński]], R. Wisbauer, _Corings and comodules_, London Math. Soc. Lec. Note Series 309, Cambridge 2003.
 
-* T. F. Fox, [[Martin Markl]], _Distributive laws, bialgebras, and cohomology_,  Operads: Proceedings of Renaissance Conferences (Hartford, CT/Luminy, 1995),  167--205, 
-Contemp. Math. 202, AMS 1997. 
+* T. F. Fox, [[Martin Markl]], _Distributive laws, bialgebras, and cohomology_,  Operads: Proceedings of Renaissance Conferences (Hartford, CT/Luminy, 1995),   Contemp. Math. **202** AMS (1997) 167-205
 
 * [[Steve Lack]], _Composing PROPS_, [Theory Appl. Categ.](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html) 13 (2004), No. 9, 147--163.
 
-* [[Steve Lack]], [[Ross Street]], _The formal theory of monads II_, Special volume celebrating the 70th birthday of Professor Max Kelly.
-J. Pure Appl. Algebra 175 (2002), no. 1-3, 243--265. 
+* [[Steve Lack]], [[Ross Street]], _The formal theory of monads II_, Special volume celebrating the 70th birthday of Professor Max Kelly, J. Pure Appl. Algebra **175** 1-3 (2002) 243-265 
 
 * [[Martin Markl]], _Distributive laws and Koszulness_,  Ann. Inst. Fourier (Grenoble)  46  (1996),  no. 2, 307--323 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=AIF_1996__46_2_307_0))
 
-* [[Ross Street|R. Street]], _The formal theory of monads_, J. Pure Appl. Alg. 2, 149--168 (1972)
+* [[Ross Street]], _The formal theory of monads_, J. Pure Appl. Alg. 2, 149--168 (1972)
 
-* [[Z. Škoda]], _Distributive laws for monoidal categories_ ([arXiv:0406310](http://front.math.ucdavis.edu/math.CT/0406310)); _Equivariant monads and equivariant lifts versus a 2-category of distributive laws_ ([arXiv:0707.1609](http://front.math.ucdavis.edu/0707.1609)); _Bicategory of entwinings_  ([arXiv:0805.4611](http://arxiv.org/abs/0805.4611))
+* [[Zoran Škoda]], _Distributive laws for monoidal categories_ ([arXiv:0406310](http://front.math.ucdavis.edu/math.CT/0406310)); _Equivariant monads and equivariant lifts versus a 2-category of distributive laws_ ([arXiv:0707.1609](http://front.math.ucdavis.edu/0707.1609)); _Bicategory of entwinings_  ([arXiv:0805.4611](http://arxiv.org/abs/0805.4611))
 
-* [[Z. Škoda]], _Some equivariant constructions in noncommutative geometry_, Georgian Math. J. 16 (2009) 1; 183--202 ([arXiv:0811.4770](http://front.math.ucdavis.edu/0811.4770))
+* [[Zoran Škoda]], _Some equivariant constructions in noncommutative geometry_, Georgian Math. J. 16 (2009) 1; 183--202 ([arXiv:0811.4770](http://front.math.ucdavis.edu/0811.4770))
 
 * R. Wisbauer, _Algebras versus coalgebras_,  Appl. Categ. Structures __16__  (2008),  no. 1-2, 255--295.
 
-* [[Francisco Marmolejo]] and [[Adrian Vazquez-Marquez]], *No-iteration mixed distributive laws*, [doi](https://doi.org/10.1017/S0960129514000656)
+* [[Francisco Marmolejo]], Adrian Vazquez-Marquez, *No-iteration mixed distributive laws*, Mathematical Structures in Computer Science **27** 1 (2017) 1-16 &lbrack;[doi:10.1017/S0960129514000656](https://doi.org/10.1017/S0960129514000656)&rbrack;
 
 * Enrique Ruiz Hernández, *Another characterization of no-iteration distributive laws*, [arxiv](https://arxiv.org/abs/1910.06531)
 
