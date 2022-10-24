@@ -24,9 +24,33 @@
 
 ## Idea
 
-A [[functor]] $U \,\colon\, D\to C$ is _monadic_ iff it has a [[left adjoint]] $F \,\colon\, C\to D$ and the [[adjoint functor|adjunction]] $F\dashv U$ "comes from: the induced [[monad]] on $C$ -- that is, $U$ _monadic_ iff $F\dashv U$ is a [[monadic adjunction]].
+A [[functor]] $U \,\colon\, D\to C$ is _monadic_ iff it has a [[left adjoint]] $F \,\colon\, C\to D$ and the [[adjoint functor|adjunction]] $F\dashv U$ "comes from: the induced [[monad]] on $C$" -- that is, $U$ _monadic_ iff $F\dashv U$ is a [[monadic adjunction]].
 
 In this situation $U$ "looks like" the [[forgetful functor]] from the [[Eilenberg-Moore category]] of the monad $(U\circ F, \eta, U\epsilon_F)$ on $C$, and has 'nice properties' similar to these [[forgetful functors]].
+
+\begin{tikzcd}
+  \mathcal{C}
+  \ar[
+    from=r,
+    "{ U }"{description}
+  ]
+  \ar[
+    r,
+    shift left=16pt,
+    "{ F }"
+  ]
+  \ar[
+    r,
+    shift left=9.5pt,
+    phantom,
+    "{ \scalebox{.62}{$\bot$} }"
+  ]
+  &
+  \mathcal{D}
+  \simeq
+  \mathrm{EM}(\mathrm{ U \circ F })
+\end{tikzcd}
+
 
 The *[[monadicity theorem]]* characterizes monadic functors and makes these 'nice properties' precise.
 
