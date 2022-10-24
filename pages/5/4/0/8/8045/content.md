@@ -20,6 +20,12 @@ Material set theories are then those set theories whose membership graphs have m
 
 The material/structural distinction in set theories is distinct from the unsorted/two-sorted/dependently-sorted distinction in set theories. There exist two-sorted material set theories with atoms, and unsorted structural set theories. 
 
+### Two-sorted material set theories
+
+In two-sorted material set theories, there are separate sorts $Set$ and $Element$ representing all sets and all elements respectively, as well as a global membership relation $\in$ defined as 
+$$a:Element, A:Set \vdash a \in A prop$$ 
+A two-sorted set theory is a material set theory with [[urelements]] if there is an injection $\mathrm{asElem}:Set \hookrightarrow Element$ which turns every set into an element. The membership graph is constructed in $Element$. A two-sorted set theory is a [[pure set]] theory if the injection $\mathrm{asElem}$ is a bijection. 
+
 ## Related concepts
 
 * [[cumulative hierarchy]]
