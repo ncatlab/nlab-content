@@ -135,8 +135,20 @@ For extensional relations in [[homotopy type theory]], see
 [[!redirects extensional relation]]
 [[!redirects extensional relations]]
 
+[[!redirects weakly extensional relation]]
+[[!redirects weakly extensional relations]]
+
+[[!redirects strongly extensional relation]]
+[[!redirects strongly extensional relations]]
+
 [[!redirects extensional quotient]]
 [[!redirects extensional quotients]]
+
+[[!redirects weakly extensional quotient]]
+[[!redirects weakly extensional quotients]]
+
+[[!redirects strongly extensional quotient]]
+[[!redirects strongly extensional quotients]]
 
 [[!redirects weak extensionality]]
 [[!redirects Finsler extensionality]]
