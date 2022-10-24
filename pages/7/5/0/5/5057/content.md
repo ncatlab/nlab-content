@@ -3,9 +3,17 @@ Yde Venema is an associate professor at the Institute for Logic, Language and Co
 
 He is interested in [[modal logic]] and its (mathematical) foundations and, in particular in algebraic and coalgebraic aspects of modal logic. 
 
-He is one of the authors of the book [Modal Logic](http://www.mlbook.org/).
-
 [website](http://staff.science.uva.nl/~yde/)
+
+## Selected writings
+
+On [[modal logic]]:
+
+* {#BlackburnDeRijkeVenema01} [[Patrick Blackburn]], [[Maarten de Rijke]], [[Yde Venema]], *Modal Logic*, Cambridge Tracts in Theoretical Computer Science **53** (2001) &lbrack;[doi:10.1017/CBO9781107050884](https://doi.org/10.1017/CBO9781107050884)&rbrack;
+
+
+
+
 
 
 category: people
