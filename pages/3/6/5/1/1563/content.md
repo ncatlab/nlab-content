@@ -179,6 +179,12 @@ Reprints in Theory and Applications of Categories, No. 11 (2005) pp. 1-35 ([tac]
 
   (on the interpretation of [[quantifiers]] in [[categorical logic]] as [[base change]] [[adjoints]])
 
+
+* [[H. Applegate]], [[M. Barr]], [[J. Beck]], [[F. W. Lawvere]], [[F. E. J. Linton]], [[E. Manes]], [[M. Tierney]], [[F. Ulmer]]: _Seminar on triples and categorical homology theory_, ETH 1966/67, edited by [[Beno Eckmann]] and [[Myles Tierney]], **[[LNM 80]]**, Springer (1969), reprinted as: Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
+
+  (on [[monads]] in [[universal algebra]] and ([[cohomology|co-]])[[homology]]-theory:
+)
+
 *  _Equality in hyperdoctrines and comprehension schema as an adjoint functor_.  In A. Heller, ed., _Proc. New York Symp. on Applications of Categorical Algebra_, pp. 1--14.  AMS, 1970. ([[LawvereComprehension.pdf:file]])
 
     (on [[comprehension]] in [[hyperdoctrines]])
