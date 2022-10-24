@@ -99,26 +99,30 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 ## Related concepts
 
 * [[wreath]]
+
 * [[distributivity for monoidal structures]]
+
 * [[monad transformer]]
 
 ## Literature
 
-* H. Appelgate, [[Michael Barr]], J. Beck, [[Bill Lawvere]],[[Fred Linton]], E. Manes, [[Myles Tierney]], F. Ulmer, _Seminar on triples and categorical homology theory_, ETH 1966/67, edited by B. Eckmann, **[[LNM 80]]** Springer (1969)
-(includes article Jon Beck, Distributive laws, pages 119--140). Republished as: _Reprints in Theory and Applications of Categories_, **18** (2008) 1-303. ([web](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html))
-
+* [[H. Applegate]], [[M. Barr]], [[J. Beck]], [[F. W. Lawvere]], [[F. E. J. Linton]], [[E. Manes]], [[M. Tierney]], [[F. Ulmer]]: _Seminar on triples and categorical homology theory_, ETH 1966/67, edited by [[Beno Eckmann]] and [[Myles Tierney]], **[[LNM 80]]**, Springer (1969), reprinted as: Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
 * [[Michael Barr]], [[Charles Wells]], _Toposes, triples and theories_, Springer (1985) &lbrack;[web remake at TAC](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
 
 * Stephen Brookes,  Kathryn Van Stone, *Monads and Comonads in Intensional Semantics* (1993) &lbrack;[dtic:ADA266522](https://apps.dtic.mil/sti/citations/ADA266522), [pdf](https://www.cs.cmu.edu/~brookes/papers/MonadsComonads.pdf)&rbrack;
 
-* [[John Power]], Hiroshi Watanabe, *Combining a monad and a comonad*, Theoretical Computer Science **280** 1–2 (2002) 137-162 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(01)00024-X">doi:10.1016/S0304-3975(01)00024-X</a>&rbrack;
+* [[John Power]], [[Hiroshi Watanabe]], *Distributivity for a monad and a comonad*, Electronic Notes in Theoretical Computer Science **19** (1999) 102 &lbrack;<a href="https://doi.org/10.1016/S1571-0661(05)80271-3">doi:10.1016/S1571-0661(05)80271-3</a>&rbrack;
 
-* [[Gabi Böhm]], _Internal bialgebroids, entwining structures
-and corings_, AMS Contemp. Math. 376 (2005) 207--226; [arXiv:math.QA/0311244](http://front.math.ucdavis.edu/math.QA/0311244)
+* [[John Power]], [[Hiroshi Watanabe]], *Combining a monad and a comonad*, Theoretical Computer Science **280** 1–2 (2002) 137-162 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(01)00024-X">doi:10.1016/S0304-3975(01)00024-X</a>&rbrack;
+
+* [[Gabi Böhm]], _Internal bialgebroids, entwining structures and corings_, AMS Contemp. Math. **376** (2005) 207-226 &lbrack;[arXiv:math.QA/0311244](http://front.math.ucdavis.edu/math.QA/0311244)&rbrack;
 
 * [[T. Brzeziński]], [[S. Majid]], _Coalgebra bundles_, Comm. Math. Phys.  191  (1998),  no. 2, 467--492 ([arXiv version](http://arxiv.org/abs/q-alg/9602022)).
 
-* [[T. Brzeziński]], R. Wisbauer, _Corings and comodules_, London Math. Soc. Lec. Note Series 309, Cambridge 2003.
+* [[T. Brzeziński]], [[Robert Wisbauer]], _Corings and comodules_, London Math. Soc. Lec. Note Series 309, Cambridge (2003)
+
+* Bachuki Mesablishvili, [[Robert Wisbauer]], *Bimonads and Hopf monads on categories*, Journal of K-Theory **7** 2 (2011) 349-388  &lbrack;[arXiv:0710.1163](https://arxiv.org/abs/0710.1163), [doi:10.1017/is010001014jkt105](https://doi.org/10.1017/is010001014jkt105)&rbrack;
+
 
 * T. F. Fox, [[Martin Markl]], _Distributive laws, bialgebras, and cohomology_,  Operads: Proceedings of Renaissance Conferences (Hartford, CT/Luminy, 1995),   Contemp. Math. **202** AMS (1997) 167-205
 
