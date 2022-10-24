@@ -180,9 +180,11 @@ The impact of Moggi's work is assessed and a case for [[Lawvere theory|Lawvere t
 
 Effects treated this way are known as [[algebraic effects]].
 
-Expositions of monads in computer science include
+Discussion of (co)monads in computer science:
  
 * [[Philip Wadler]], _Comprehending Monads_, in _Conference on Lisp and functional programming_, ACM Press, 1990 ([[WadlerMonads.pdf:file]])
+
+* {#BrookesGeva91} [[Stephen Brookes]], Shai Geva, *Computational Comonads and Intensional Semantics*, CMU-CS-91-190 (1991) &lbrack;[[BrookersGeva-ComputationalComonads.pdf:file]]&rbrack;
 
 * [[Philip Wadler]], _Monads for functional programming_ in _Lecture notes for the Marktoberdorf Summer School on Program Design Calculi_, Springer Verlag 1992
 
