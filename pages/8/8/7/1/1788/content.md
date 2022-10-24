@@ -1,4 +1,27 @@
 
+\begin{tikzcd}
+  \mathcal{C}
+  \ar[
+    from=r,
+    "{ U }"{description}
+  ]
+  \ar[
+    r,
+    shift left=14pt,
+    "{ F }"
+  ]
+  \ar[
+    r,
+    shift left=8pt,
+    phantom,
+    "{ \scalebox{.7}{$\bot$} }"
+  ]
+  &
+  \mathcal{D}
+  \simeq
+  \mathrm{EM}(\mathrm{ U \circ F })
+\end{tikzcd}
+
 [[ContingentTypesAsPossibilityActions-201024.jpg:file]]
 
 \begin{example}
