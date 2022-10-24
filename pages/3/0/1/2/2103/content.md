@@ -21,6 +21,10 @@ as well as for the development of [[star-autonomous category|star-autonomous cat
 
 *  _Acyclic Models_, CRM monographs, 2002,
 
+On [[monads]] in [[universal algebra]] and ([[cohomology|co-]])[[homology]]-theory:
+
+* [[H. Applegate]], [[M. Barr]], [[J. Beck]], [[F. W. Lawvere]], [[F. E. J. Linton]], [[E. Manes]], [[M. Tierney]], [[F. Ulmer]]: _Seminar on triples and categorical homology theory_, ETH 1966/67, edited by [[Beno Eckmann]] and [[Myles Tierney]], **[[LNM 80]]**, Springer (1969), reprinted as: Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
+
 Introducing [[Barr-exact categories]] and [[regular categories]]:
 
 * {#BarrGrilletvonOsdool} [[Michael Barr]],  [[Pierre Grillet]], [[Donovan van Osdol]], *Exact Categories and Categories of Sheaves*,  Lec. Notes in Math. __236__, Springer 1971, ([doi:10.1007/BFb0058579](https://link.springer.com/book/10.1007/BFb0058579)) 
