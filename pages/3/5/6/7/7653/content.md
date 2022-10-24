@@ -153,7 +153,7 @@ The following table lists examples of such local coefficient bundles and tabulat
 | | $\array{ \mathbf{B}String^{\mathbf{a}} &\to& \mathbf{B} Spin \times E_8  \\ && \downarrow^{\mathrlap{\tfrac{1}{2}\mathbf{p}_1 - 2 \mathbf{a}}} \\ && \mathbf{B}^3 U(1)  }$ | [[circle n-bundle with connection|circle 3-bundle]]/$U(1)$-[[bundle 2-gerbe]] |  [[supergravity C-field]] |  [[twisted differential string structure|twisted smooth string^c structure]] |  [[gravity]]+[[B-field]]+[[E8]]-[[gauge field]] |
 | **[IV)](#HigherOrientifold)** Giraud-[[∞-gerbes]] | | | | | |
 | | $\array{ \mathbf{B}^2 U(1) &\to& \mathbf{B}Aut(\mathbf{B}U(1)) \\ && \downarrow \\ && \mathbf{B}\mathbb{Z}_2 }$ | [[double cover]] |  | [[Jandl gerbe]] | [[orientifold]] [[B-field]] | 
-| | $\array{ \mathbf{B}^3 U(1) &\to& \mathbf{B}Aut(\mathbf{B}^2 U(1)) \\ && \downarrow \\ && \mathbf{B}\mathbb{Z}_2 }$ | [[double cover]] |  | | [[Ho?ava-Witten theory|Hořava-Witten orientifold]] | 
+| | $\array{ \mathbf{B}^3 U(1) &\to& \mathbf{B}Aut(\mathbf{B}^2 U(1)) \\ && \downarrow \\ && \mathbf{B}\mathbb{Z}_2 }$ | [[double cover]] |  | | [[Hořava-Witten theory|Hořava-Witten orientifold]] | 
  
 
 
