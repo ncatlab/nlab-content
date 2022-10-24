@@ -46,7 +46,7 @@ Introductions and expositions include
 
 Monographs on the technical core of "brave new algebra" in terms of [[symmetric monoidal categories of spectra]] include
 
-* [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+* [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], [[Michael Mandell]] _Modern foundations for stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newfirst.pdf))
 
 * {#EKMM} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May|P. May]], _Rings, modules and algebras in stable homotopy theory_, AMS Mathematical Surveys and Monographs Volume 47 (1997) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf))
 
