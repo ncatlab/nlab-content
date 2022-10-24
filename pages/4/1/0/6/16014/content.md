@@ -196,7 +196,7 @@ This might be called *contingent types*: The definiteness-counit $\star P \right
 {#ContigencyAsMonadicDescent} More in detail, since $(p_B)^\ast$ is a [[conservative functor]], the [[monadicity theorem]] (see [this example](monadicity+theorem#BaseChangeOfPresheavesAlongFullyFaithfulFunctor)) says 
 
 \begin{imagefromfile}
-    "file_name": "ContingentTypesAsPossibilityActions-201023.jpg",
+    "file_name": "ContingentTypesAsPossibilityActions-201024.jpg",
     "width": "580",
     "unit": "px",
     "margin": {
