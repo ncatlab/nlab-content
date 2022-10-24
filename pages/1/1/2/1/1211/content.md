@@ -84,6 +84,12 @@ $$a \prec b \coloneqq s(a) = 1 \wedge t(b) = 1 \wedge t(a) = s(b)$$
 
 Due to the [[universal property]] of the [[terminal object]], $\prec$ is weakly extensional. However, $\prec$ is not strongly extensional. The relation $\sim$ defined by equality on every pair of functions $a \sim b \coloneqq a = b$, and in addition, $\mathrm{id}_2 \sim \mathrm{swap}$ and $\mathrm{swap} \sim \mathrm{id}_2$ for the identity function and the swap function on the set with two elements $2$, is a bisimulation on $\prec$, but it is not true that $\mathrm{id}_2 = \mathrm{swap}$.
 
+* In any [[single-sorted definition of a category|single-sorted definition]] of a [[topos]], there is also an [[initial object]] $0$ (represented by the [[identity morphism]] of the initial object). One could define the relation $\in$ on the set of morphisms $C$ as 
+
+$$a \in b \coloneqq s(a) = 1 \wedge s(b) = 0 \wedge t(a) = t(b)$$
+
+Due to the [[universal property]] of the [[initial object]], $\in$ is weakly extensional. However, $\in$ is not strongly extensional, for the same reason that $\prec$ defined above is not strongly extensional. 
+
 *  A [[well-order]] is precisely a well-founded, [[transitive relation|transitive]], extensional relation.  Removing well-foundedness here gives a theory of ill-founded [[ordinal number]]s.
 
 *  On the set $\mathbf{2} = \{0,1\}$, now let $0 \prec 0$ and $0 \prec 1$ (but no other relationships).  This relation is not weakly extensional, although it does satisfy the other half of Finsler extensionality, since $\mathbf{2} \downarrow^* 0 \ncong \mathbf{2} \downarrow^* 1$.  However, $(\mathbf{2} \downarrow^+ 0)^\top \cong (\mathbf{2} \downarrow^+ 1)^\top$; this shows the necessity of defining Finsler extensionality as we do.
