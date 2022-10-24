@@ -1,5 +1,3 @@
-[[!redirects factorization system in a 2-category]]
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -81,6 +79,8 @@ and $M=$ [[fully faithful functors]].
 
 * **factorization system on a 2-category**
 
+* [[enhanced factorization system]]
+
 * [[factorization system in an (∞,1)-category]]
 
   * [[orthogonal factorization system in an (∞,1)-category]]
@@ -102,3 +102,12 @@ For instance
 [[!redirects factorization systems on 2-categories]]
 [[!redirects 2-categorical factorization system]]
 [[!redirects 2-categorical factorization systems]]
+
+[[!redirects factorisation system on a 2-category]]
+[[!redirects factorisation system in a 2-category]]
+[[!redirects factorisation systems in a 2-category]]
+[[!redirects factorisation systems on a 2-category]]
+[[!redirects factorisation systems in 2-categories]]
+[[!redirects factorisation systems on 2-categories]]
+[[!redirects 2-categorical factorisation system]]
+[[!redirects 2-categorical factorisation systems]]
