@@ -1,4 +1,6 @@
 
+[[ContingentTypesAsPossibilityActions-201024.jpg:file]]
+
 \begin{example}
 **(matrix multiplication as Kleisli composition)**
 \linebreak
