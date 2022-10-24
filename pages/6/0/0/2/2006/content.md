@@ -210,6 +210,11 @@ Discussion of cases where the inclusion of the Kleisli category into the [[Eilen
 
 * [[Marcelo Fiore]], [[Matias Menni]], _Reflective Kleisli subcategories of the category of Eilenberg-Moore algebras for factorization monads_, Theory and Applications of Categories, Vol. 15, CT2004, No. 2, pp 40-65. ([TAC](http://www.tac.mta.ca/tac/volumes/15/2/15-02abs.html))
 
+Discussion of combined "double Kleisli categories", combining the Kleisli category of a [[monad]] with the [[co-Kleisli category]] of a [[comonad]] that [[distributive law|distributes]] over it:
+
+* [[Stephen Brookes]],  [[Kathryn Van Stone]], *Monads and Comonads in Intensional Semantics* (1993) &lbrack;[dtic:ADA266522](https://apps.dtic.mil/sti/citations/ADA266522), [pdf](https://www.cs.cmu.edu/~brookes/papers/MonadsComonads.pdf)&rbrack;
+
+
 Discussion in [[internal category]] theory:
 
 * Tomasz Brzezi&#324;ski, Adrian Vazquez-Marquez, _Internal Kleisli categories_, Journal of Pure and Applied Algebra **215** 9 (2011) 213-147 &lbrack;[arXiv:0911.4048](http://arxiv.org/abs/0911.4048)&rbrack;
