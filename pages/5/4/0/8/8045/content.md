@@ -32,6 +32,8 @@ A two-sorted set theory is a material set theory with [[urelements]] if there is
 
 * [[unsorted set theory]]
 
+* [[two-sorted set theory]]
+
 * [[set-theoretic multiverse]]
 
 ## References
@@ -46,4 +48,3 @@ See also
 
 [[!redirects material set theory]]
 [[!redirects material set theories]]
-
