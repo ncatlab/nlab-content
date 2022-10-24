@@ -1,4 +1,8 @@
 
+> This is about the [[separation axioms]] in [[topology]]. For the axiom in [[set theory]] also called "separation", see [[axiom of separation]]. 
+
+---
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
