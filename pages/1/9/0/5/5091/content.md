@@ -9,23 +9,13 @@
 
 * [[type theory]], [[homotopy type theory]]
 
-* [[set theory]]
-
-  * [[material set theory]]
-
-    * [[ZFC]]
-    * [[ZFA]]
-
-
-  * [[structural set theory]]
-
-    * [[ETCS]]
-    * [[SEAR]]
-
 * [[universe]]
 
-## Foundational axioms
+## Set theory
 
+[[!include set theory - contents]]
+
+## Foundational axioms
 
 [[!include foundational axiom - contents]]
 
