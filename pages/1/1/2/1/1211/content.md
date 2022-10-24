@@ -64,6 +64,12 @@ Finsler and Scott extensionality may be understood as special cases of this for 
 
 In particular, strong extensionality implies Scott extensionality, and the converse holds for well-founded relations.  Thus, all forms of extensionality are equivalent for well-founded relations.
 
+### Weak extensionality for arbitrary binary relations
+
+Given sets $A$ and $B$, let $\prec$ be a binary relation on $A$ and $B$, or equivalently, a [[predicate]] on the cartesian product $A \times B$. Then $\prec$ is (weakly) extensional if, given any elements $x$ and $y$ of $B$, $x =_B y$ whenever for all $t:A$, $t \prec x$ if and only if $t \prec y$.
+
+$$\forall x:B.\forall y:B.(x =_B y) \iff \forall t:A.(t \prec x) \iff (t \prec y)$$
+
 ### In homotopy type theory
 
 In [[homotopy type theory]], a relation is an [[h-proposition]]-valued [[type family]]. A binary relation $\prec$ on a carrier type $S$ is **weakly extensional** if for all terms $a:S$ and $b:S$ the canonical function
