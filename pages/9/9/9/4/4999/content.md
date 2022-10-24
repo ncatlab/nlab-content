@@ -272,8 +272,11 @@ One of the earliest texts that exhibits the [[intuitionism|intuitionist]] contex
 * Oskar Becker, _Zur Logik der Modalit&#228;ten_ , Jahrbuch f&#252;r Philosophie und ph&#228;nomenologische Forschung **11** (1930)  pp.497-548. ([digizeit](http://www.digizeitschriften.de/dms/img/?PID=PPN827944462_0011%7CLOG_0010))
 
 Textbook accounts:
+ {#TextbookAccounts}
 
-* {#BlackburnDeRijkeVenema} [[Patrick Blackburn]], M. de Rijke and [[Yde Venema]], _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001.
+* {#BradleySwartz79} Raymond Bradley, Norman Swartz, *Possible Worlds -- An Introduction to Logic and its Philosophy*, Hackett Publishing (1979) &lbrack;[pdf](https://www.sfu.ca/~swartz/pw/text/pw_all.pdf)&rbrack;
+
+* {#BlackburnDeRijkeVenema01} [[Patrick Blackburn]], [[Maarten de Rijke]], [[Yde Venema]], *Modal Logic*, Cambridge Tracts in Theoretical Computer Science **53** (2001) &lbrack;[doi:10.1017/CBO9781107050884](https://doi.org/10.1017/CBO9781107050884)&rbrack;
 
 * {#BlackburnvanBenthemWolter07} [[Patrick Blackburn]], [[Johan van Benthem]], [[Frank Wolter]] (eds.), *The Handbook of Modal Logic*, Elsevier Amsterdam (2007) &lbrack;[book webpage](https://cgi.csc.liv.ac.uk/~frank/MLHandbook/), [publisher page](https://www.sciencedirect.com/bookseries/studies-in-logic-and-practical-reasoning/vol/3/suppl/C)&rbrack;
 
