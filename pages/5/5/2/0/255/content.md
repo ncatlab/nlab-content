@@ -278,6 +278,22 @@ in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 * [[monadic descent]]
 
 ## References
+ {#References}
+
+Original texts:
+
+* [[Michael Barr]], [[Charles Wells]], *[[Toposes, Triples, and Theories]]*, Grundlehren der math. Wissenschaften **278** Springer (1983) &lbrack;[TAC:12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
+
+* [[H. Applegate]], [[M. Barr]], [[J. Beck]], [[F. W. Lawvere]], [[F. E. J. Linton]], [[E. Manes]], [[M. Tierney]], [[F. Ulmer]]: _Seminar on triples and categorical homology theory_, ETH 1966/67, edited by [[Beno Eckmann]] and [[Myles Tierney]], **[[LNM 80]]**, Springer (1969), reprinted as: Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
+
+* [[Ross Street]], _The formal theory of monads_, J. of Pure and Applied Algebra __2__ (1972), 149--168 (<a href="http://dx.doi.org/10.1016/0022-4049(72)90019-9">doi</a>)
+
+* [[Ross Street]], [[Steve Lack]], _The formal theory of monads II_, J. Pure Appl. Algebra __175__ (2002), No. 1-3, 243--265, (<a href="http://dx.doi.org/10.1016/S0022-4049(02)00137-8">doi</a>)
+
+Textbook accounts:
+
+* {#Borceux} [[Francis Borceux|F. Borceux]], Ch. 4 "Monads" in: *[[Handbook of Categorical Algebra]]*  vol. 2, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994)
+
 
 Introductions:
 
@@ -285,31 +301,16 @@ Introductions:
 
 * [[John Baez]], _[Universal Algebra and Diagrammatic Reasoning](http://math.ucr.edu/home/baez/universal/universal_hyper.pdf)_ (Introductory slides).
 
-* [[Emily Riehl]], _Category theory in context_ (p. 154).
+* [[Emily Riehl]], p. 154 of: *[[Category Theory in Context]]* (2017)
 
 * [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_, Chapter 5. ([arXiv](http://arxiv.org/abs/1912.10642))
 
-Detailed accounts:
 
-* [[Michael Barr]], [[Charles Wells]], _[Toposes, Triples and Theories](http://www.cwru.edu/artsci/math/wells/pub/ttt.html)_.
-
-* [[Francis Borceux|F. Borceux]], _[[Handbook of Categorical Algebra]]_,  vol. 2, Ch. 4 "Monads" 
- {#Borceux}
-
-* [[Ross Street]], _The formal theory of monads_, J. of Pure and Applied Algebra __2__ (1972), 149--168 (<a href="http://dx.doi.org/10.1016/0022-4049(72)90019-9">doi</a>)
-
-* [[Ross Street]], [[Steve Lack]], _The formal theory of monads II_, J. Pure Appl. Algebra __175__ (2002), No. 1-3, 243--265, (<a href="http://dx.doi.org/10.1016/S0022-4049(02)00137-8">doi</a>)
-
-* H. Appelgate, [[M. Barr]], [[J. Beck]], [[F. W. Lawvere]], [[F. E. J. Linton]], [[E. Manes]], [[M. Tierney]], [[F. Ulmer]], _Seminar on triples and categorical homology theory_, ETH 1966/67, edited by B.~Eckmann, LNM 80, Springer 1969. 
-
-
-
-Relation to [[universal algebra]]:
+More on the relation to [[universal algebra]]:
 
 * [[Martin Hyland]] and [[John Power]], _The category theoretic understanding of universal algebra: Lawvere theories and monads_ ([pdf](http://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)).
 
-* Anthony Voutas, _The basic theory of monads and their connection to
-universal algebra_ ([pdf](https://pdfs.semanticscholar.org/98c0/ca084f561160b6ddc11c6d64df18b6594b5b.pdf))
+* Anthony Voutas, _The basic theory of monads and their connection to universal algebra_ ([pdf](https://pdfs.semanticscholar.org/98c0/ca084f561160b6ddc11c6d64df18b6594b5b.pdf))
 
 An elementary proof of the equivalence between infinitary [[Lawvere theories]] and [[monads]] on the [[category of sets]] is given in Appendix A of
 
@@ -319,7 +320,7 @@ In [[higher category theory]]:
 
 * [[T. M. Fiore]], [[N. Gambino]], [[J. Kock]],  _Monads in double categories_, [arxiv/1006.0797](http://arxiv.org/abs/1006.0797)
 
-* Gabriella B&#246;hm, [[Stephen Lack]], [[Ross Street]], _Weak bimonads_, [arxiv/1002.4493](http://arxiv.org/abs/1002.4493)
+* [[Gabriella Böhm]], [[Stephen Lack]], [[Ross Street]], _Weak bimonads_, [arxiv/1002.4493](http://arxiv.org/abs/1002.4493)
 
 
 [[!redirects monad]]
