@@ -37,7 +37,7 @@ Unsorted material set theories are then those unsorted set theories whose member
 In two-sorted material set theories, there are separate sorts $Set$ and $Element$ representing all sets and all elements respectively, as well as a global membership relation $\in$ defined as 
 $$a:Element, A:Set \vdash a \in A prop$$ 
 
-Sets are not literally elements in two-sorted material set theories. Instead, there are functions $\mathrm{asElem}$ and $\mathrm{asSet}$ which reflect a set $A$ over to an element $\mathrm{asElem}(A)$, and for [[pure set]] theory, reflect an element $a$ over to a set $\mathrm{asSet}(a)$. 
+Sets are not literally elements in two-sorted material set theories. Instead, there are functions $\mathrm{asElem}$ and $\mathrm{asSet}$ which [[element reflection|reflect]] a set $A$ over to an element $\mathrm{asElem}(A)$, and for [[pure set]] theory, [[set reflection|reflect]] an element $a$ over to a set $\mathrm{asSet}(a)$. 
 
 ## Related concepts
 
