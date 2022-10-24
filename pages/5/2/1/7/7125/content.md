@@ -16,51 +16,107 @@
 
 ## Idea 
 
-**Artin gluing** is a fundamental construction in [[locale]] theory and [[topos]] theory. The original example is the way in which a [[topological space]] or locale $X$ may be glued together from an [[open subspace]] $i \colon U \hookrightarrow X$ and its [[closed subspace|closed]] complement $j \colon K \hookrightarrow X$. The analogous construction for toposes gives the [[sheaf topos]] $Sh(X)$ via a gluing together of $Sh(U)$ and $Sh(K)$, and applies more generally to give a sense of how to put two toposes together so that one becomes an [[open geometric morphism|open]] [[subtopos]] and the other a [[closed subtopos]] of the gluing. 
+**Artin gluing** is a fundamental construction in [[locale]] theory and [[topos]] theory. The original example is the way in which a [[topological space]] or [[locale]] $X$ may be glued together from an [[open subspace]] $i \colon U \hookrightarrow X$ and its [[closed subspace|closed]] [[complement]] $j \colon K \hookrightarrow X$. The analogous construction for toposes gives the [[sheaf topos]] $Sh(X)$ via a gluing together of $Sh(U)$ and $Sh(K)$, and applies more generally to give a sense of how to put two toposes together so that one becomes an [[open geometric morphism|open]] [[subtopos]] and the other a [[closed subtopos]] of the gluing. 
 
 ## The topological case 
+ {#TheTopologicalCase}
 
-Let us consider first the case of topological spaces. Let $X$ be a [[topological space]], $i \colon U \hookrightarrow X$ an open subspace, and $j \colon K \hookrightarrow X$ the complementary closed subspace. Let $O(X)$ denote the topology of $X$. There is an injective map 
+Let us consider first the case of topological spaces. Let 
 
-$$\langle i^\ast, j^\ast \rangle \colon O(X) \to O(U) \times O(K)$$ 
+* $X$ be a [[topological space]], 
 
-$$V \mapsto (U \cap V, K \cap V)$$ 
+* $i \colon U \hookrightarrow X$ an [[open subspace]], and
 
-that is a map of [[frame|frames]]. The general problem is to characterize the [[image]] of this map: in terms of structure pertaining to $O(U)$ and $O(K)$, which pairs $(W, W')$ of relatively open sets in $U$ and $K$ "glue together" to form an open set $W \cup W'$ in $X$? 
+* $j \colon K \hookrightarrow X$ the [[complement|complementary]] [[closed subspace]]. 
 
-Let $int_X: P(X) \to P(X)$ denote the [[interior]] operation, assigning to a subset of $X$ its interior; this is a [[left exact functor|left exact]] [[comonad]] on $P(X)$. (Indeed, topologies on the set $X$ are in natural bijection with left exact comonads on $P(X)$.) Our problem is to understand when the inclusion 
+Let $O(X)$ denote the topology of $X$. There is an [[injective]] [[map]] 
 
-$$W \cup W' \hookrightarrow int_X(W \cup W')$$ 
+$$
+  \array{
+    \langle i^\ast, j^\ast \rangle 
+      &\colon\;& 
+    O(X) &\longrightarrow& O(U) \times O(K)
+    \\
+    &&
+    V 
+      &\mapsto& 
+    (U \cap V, K \cap V)  
+  }
+$$ 
+
+that is a [[homomorphism]] of [[frame|frames]]. The general problem is to characterize the [[image]] of this map: in terms of structure pertaining to $O(U)$ and $O(K)$, which pairs $(W, W')$ of relatively open sets in $U$ and $K$ "glue together" to form an open set $W \cup W'$ in $X$? 
+
+Let $int_X \colon P(X) \to P(X)$ denote the [[interior]] operation, assigning to a [[subset]] of $X$ its interior. This is a [[left exact functor|left exact]] [[comonad]] on $P(X)$. (Indeed, topologies on the set $X$ are in [[natural bijection]] with [[left exact functor|left exact]] [[comonads]] on $P(X)$.) Our problem is to understand when the inclusion 
+
+$$
+  W \cup W' 
+   \;\xhookrightarrow{\phantom{--}}\;
+  int_X(W \cup W')
+$$ 
 
 obtains. Since $W \in O(U)$ is already open when considered as a subset of $X$, this condition boils down to the condition that 
 
-$$W' \hookrightarrow int_X(W \cup W'). \qquad (1) $$ 
+\[
+  \label{ConditionOne}
+  W' 
+   \;\xhookrightarrow{\phantom{--}}\;
+  int_X(W \cup W') 
+\]
 
 +-- {: .un_thm}
 ######Proposition 
-A necessary and sufficient condition for (1) is that the inclusion $W' \hookrightarrow int_X(W \cup K)$ obtains. 
+
+A necessary and sufficient condition for (eq:ConditionOne) is that the inclusion $W' \hookrightarrow int_X(W \cup K)$ obtains. 
+
 =-- 
 
 +-- {: .proof}
 ######Proof 
 The necessity is clear since $W' \subseteq K$. The sufficiency is equivalent to having an inclusion 
 
-$$W' \cap int_X(W \cup K) \hookrightarrow int_X(W \cup W').$$ 
+$$
+  W' \cap int_X(W \cup K) 
+   \;\xhookrightarrow{\phantom{--}}\;
+  int_X(W \cup W')  
+  \,.
+$$ 
 
 Since $W'$ is relatively open in the subspace $K$, we may write $W' = K \cap V$ for some $V \in O(X)$, and so we must check that there is an inclusion 
-$$(K \cap V) \cap int_X(W \cup K) \hookrightarrow int_X(W \cup (K \cap V))$$ 
+$$
+  (K \cap V) \cap int_X(W \cup K) 
+   \;\xhookrightarrow{\phantom{--}}\;
+  int_X(W \cup (K \cap V))
+$$ 
 
-or in other words, using distributivity and the fact that $int_X$ preserves intersections, an inclusion 
+or in other words -- using distributivity and the fact that $int_X$ preserves intersections -- an inclusion 
 
-$$K \cap V \cap int_X(W \cup K) \hookrightarrow int_X(W \cup K) \cap int_X(W \cup V).$$ 
+$$
+  K \cap V \cap int_X(W \cup K) 
+   \;\xhookrightarrow{\phantom{--}}\;
+  int_X(W \cup K) \cap int_X(W \cup V)
+  \,.
+$$ 
 
 But this is clear, since we have 
 
-$$K \cap V \cap int_X(W \cup K) \hookrightarrow int_X(W \cup K)$$ 
+$$
+  K \cap V \cap int_X(W \cup K) 
+   \;\xhookrightarrow{\phantom{--}}\;
+  int_X(W \cup K)
+$$ 
 
 and 
 
-$$K \cap V \cap int_X(W \cup K) \hookrightarrow V \hookrightarrow W \cup V = int_X(W \cup V)$$ 
+$$
+  K \cap V \cap int_X(W \cup K) 
+   \;\xhookrightarrow{\phantom{--}}\;
+  V 
+    \;\xhookrightarrow{\phantom{--}}\;
+  W \cup V 
+    \;=\; 
+  int_X(W \cup V)
+  \,,
+$$ 
 
 where to derive the last equation, we use the fact that $W \in O(U)$ and $V$ are open in $X$. 
 =-- 
@@ -68,26 +124,47 @@ where to derive the last equation, we use the fact that $W \in O(U)$ and $V$ are
 +-- {: .un_thm} 
 ######Proposition 
 The operation 
-$$O(U) \ni W \mapsto int_X(W \cup K) = int_X(W \cup \neg U) \in O(X)$$ 
-is the right adjoint $i_\ast$ to $i^\ast: O(X) \to O(U)$. 
+$$
+  O(U) \ni W 
+    \;\mapsto\; 
+  int_X(W \cup K) 
+    \;=\; 
+  int_X(W \cup \neg U) \in O(X)
+$$ 
+is the [[right adjoint]] $i_\ast$ to $i^\ast \colon O(X) \to O(U)$. 
 =-- 
+
+This is well-known.
 
 +-- {: .proof} 
 ######Proof 
-This is well-known. Indeed, for $V \in O(X)$ we have 
+For $V \in O(X)$ we have 
 
-$$\frac{V \subseteq int_X(W \cup \neg U) \qquad \text{in} \: O(X)}{V \subseteq W \cup \neg U \qquad \text{in} \: P(X)}$$ 
+$$
+  \frac
+    {V \subseteq int_X(W \cup \neg U) \qquad \text{in} \: O(X)}
+    {V \subseteq W \cup \neg U \qquad \text{in} \: P(X)}
+  \,,
+$$ 
 
 but the last condition is equivalent to having $U \cap V \subseteq W$ in $P(X)$, or to $i^\ast(V) = U \cap V \subseteq W$ in $O(X)$. 
 =-- 
 
 Summarizing, the gluing condition (1) above (for $W' \in O(K)$, $W \in O(U)$) translates into saying that there is an inclusion 
 
-$$W' \hookrightarrow j^\ast i_\ast W.$$ 
+$$
+  W' 
+   \;\xhookrightarrow{\phantom{--}}\;
+  j^\ast i_\ast W
+  \,.
+$$ 
 
-where $i^\ast, j^\ast$ are restriction maps and $i^\ast \dashv i_\ast$. For future reference, observe that the operator $j^\ast i_\ast: O(U) \to O(K)$ is left exact. 
+where $i^\ast, j^\ast$ are [[restriction]] maps and $i^\ast \dashv i_\ast$. 
 
-We can turn all this around. Suppose $U$ and $K$ are topological spaces, and suppose $f: O(U) \to O(K)$ is left exact. Then we can manufacture a space $X$ which contains $U$ as an open subspace and $K$ as its closed complement, and (letting $i$, $j$ being the inclusions as above) such that $f = j^\ast i_\ast$. The open sets of $X$ may be identified with pairs $(W, W') \in O(U) \times O(K)$ such that $W' \subseteq f(W)$; here we are thinking of $(W, W')$ as a stand-in for $W \cup W'$. In particular, open sets $W$ of $U$ give open sets $(W, \emptyset)$ of $X$, while open sets $W'$ of $K$ also give open sets $U \cup W'$ of $X$. 
+For future reference, observe that the operator $j^\ast i_\ast \colon O(U) \to O(K)$ is [[left exact functor|left exact]]. 
+
+We can turn all this around. Suppose $U$ and $K$ are topological spaces, and suppose $f \colon O(U) \to O(K)$ is left exact. Then we can manufacture a topological space $X$ which contains $U$ as an open subspace and $K$ as its closed complement, and (letting $i$, $j$ being the inclusions as above) such that $f = j^\ast i_\ast$. The open sets of $X$ may be identified with pairs $(W, W') \in O(U) \times O(K)$ such that $W' \subseteq f(W)$; here we are thinking of $(W, W')$ as a stand-in for $W \cup W'$. In particular, open sets $W$ of $U$ give open sets $(W, \varnothing)$ of $X$, while open sets $W'$ of $K$ also give open sets $U \cup W'$ of $X$. 
+
 
 ## The localic case
 
