@@ -23,6 +23,23 @@
     }
 \end{imagefromfile}
 
+\linebreak
+
+**[[AND]]**:
+
+\begin{imagefromfile}
+    "file_name": "ANDGates-221025.jpg",
+    "width": "770",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
 (...)
 
 
