@@ -18,6 +18,12 @@ on aspects of ([[perturbative quantum field theory|perturbative]]) [[quantum gra
 
 \linebreak
 
+On [[perturbative quantum gravity]]:
+
+* [[Ilya L. Shapiro]], *The background information about perturbative quantum gravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.12319](https://arxiv.org/abs/2210.12319)&rbrack;
+
+\linebreak
+
 On [[gauge invariance|gauge invariant]] [[renormalization]] of [[perturbative quantum gravity]]:
 
 * [[Petr M. Lavrov]], [[Ilya Shapiro]], *Gauge invariant renormalizability of quantum gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.09271](https://arxiv.org/abs/2210.09271)&rbrack;
