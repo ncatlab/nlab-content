@@ -68,6 +68,7 @@ We assume a [[dependent linear type theory]] which [[functor|functorially]] obta
 
 
 ### Classical modal logic
+ {#ClassicalModalLogic}
 
 First observe that (without imposing a further condition) also classical ("non-linear") [[dependent type theory]] provides an example of this [[yoga of six operations]] (actually five distinct operations, in the present case of [[Wirthmüller contexts]]), with:
 
@@ -103,8 +104,34 @@ In fact there is (see [here](necessity+and+possibility#RelationToContingency)) a
 <img src="/nlab/files/TheFourModalitiesOfBaseChange-20221021.jpg" width="370">
 </center>
 
+Here 
+
+1. the definiteness-modality $\star$ is also known as the *[[writer comonad]]*;
+
+1. the randomness-modality $\bigcirc$ is also known as the *[[reader monad]]*.
+
+We recover the meaning of these expressions in terms of [[quantum measurement]] and [[quantum state preparation]], [below](#QuantumMeasurement).
+
+
+(In general there may be richer dependency on classical contexts. In the next simplest case the [[base change]] is along the [[projection]] map out of a [[Cartesian product]] of classical types, which makes one of them label potential upcoming measurement results as before, while the other encodes further dependency on classical parameters, such as on previous measurement results:
+
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-RelativeBaseChange-221003.jpg",
+    "width": "670",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+This plays a role for classically-controlled quantum gates, [below](#ClassicallyControlledQuantumGate)).
+
 
 ### Quantum modal logic
+ {#QuantumModalLogic}
 
 This general [[modal logic]] of [[possible worlds]] [found inside](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) [[dependent type theory]] becomes subject to one curious further rule as we pass to genuinely [[linear types]], such as in the sense of [[stable homotopy types]] in [[linear homotopy type theory]]:
 
@@ -112,11 +139,11 @@ This general [[modal logic]] of [[possible worlds]] [found inside](necessity+and
 Namely, assuming that the potential measurement outcomes $c \colon C$ form a [[finite set]] --- which is the case of relevance in [[quantum information theory]] ---, the linearity or *[[stable (infinity,1)-category|stability]]* axiom implies that the [[base change]] down from the context $C$ becomes [[ambidextrous adjunction|ambidextrous]], in that on dependent linear types $\mathscr{H}_\bullet$ the [[coproduct]] computed by the  [[possibility]]-[[modality]] and the [[product]] computed by the [[necessity]]-[[modality]] *agree* (the situation of a "[[biproduct]]"):
 
 $$
-  C : FinSet
+  BC : FinSet
   ,\;\;
   \mathscr{H}_\bullet
   \,\colon\,
-  LinType_C
+  LinType_B
   \;\;\;\;\;
   \vdash
   \;\;\;\;\;
@@ -159,8 +186,31 @@ $$
 
 Concretely, the [[linear homotopy type theory]] of [Riley 2022](dependent+linear+type+theory#Riley22Thesis) should have [[categorical semantics]] in the [[(infinity,1)-topos|$\infty$-topos]] of [[parameterized spectrum|parameterized]] [[Eilenberg-MacLane spectrum|$H\mathbb{C}$]]-[[module spectra]] ([[schreiber:Quantization via Linear homotopy types|S. 2014, Ex. 3.11]]) and [[complex vector spaces]] embed into this [[stable homotopy theory]] under passage to their [[Eilenberg-MacLane spectra]] (see the [[stable Dold-Kan correspondence]]).
 
+\[
+  \label{NotationalConvention}
+\text{It is convenient and meaningful to declare the notational conventions to:}
+  \phantom{--------------------}
+\]
+1. abbreviate $\mathscr{H} \,\coloneqq\, p_! \mathscr{H}_\bullet \,\simeq\, p_\ast \mathscr{H}_\bullet$
 
-This way, the default [[categorical semantics]] for this situation is that of [[bundles]] of [[finite dimensional vector spaces]] (finite-dimensional complex [[Hilbert spaces]]) over [[finite sets]]: In this case both $(p_C)_!$ as well as $(p_C)_\ast$ yield the ordinary [[direct sum]] of the [[fibers]] (a [[biproduct]]). Since this is the [[categorical semantics]] under which the following type theory describes the traditional [[quantum circuits]], we will adopt our notation to this case and denote the generic [[dependent linear type]] by $\mathcal{H}_\bullet : LinType_C$ and its generic [[term]] by the usual notation for [[quantum states]]: 
+1. notationally suppress any outer application of $(p_B)^\ast \colon LinType \to LinType_B$;
+
+Thereby, the definiteness/randomness modalities in relation to [[necessity and possibility]] of classical modal logic ([above](#ClassicalModalLogic)) may be expressed in quantum modal logic by:
+
+\begin{imagefromfile}
+    "file_name": "DefinitelyRandomlyViaPossiblyNecessarily.jpg",
+    "width": "180",
+    "unit": "px",
+    "margin": {
+        "top": -10,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+This way, the default [[categorical semantics]] for modal quantum logic is that of [[bundles]] of [[finite dimensional vector spaces]] (finite-dimensional complex [[Hilbert spaces]]) over [[finite sets]]: In this case both $(p_C)_!$ as well as $(p_C)_\ast$ yield the ordinary [[direct sum]] of the [[fibers]] (a [[biproduct]]). Since this is the [[categorical semantics]] under which the following type theory describes the traditional [[quantum circuits]], we will adopt our notation to this case and denote the generic [[dependent linear type]] by $\mathcal{H}_\bullet : LinType_C$ and its generic [[term]] by the usual notation for [[quantum states]]: 
 
 $$
   c : C 
@@ -256,11 +306,55 @@ This way, one finds that the four (co)unit operations of quantum modal logic are
 
 
 
+### Quantum gates
+ {#QuantumGates}
+
+The morphisms in the [[co-Kleisli category|(co-)]][[Kleisli category]] of $\Box$ and $\bigcirc$ are [[linear maps]]
+
+$$
+  \mathscr{H}
+  \;=\;
+  \Box \mathscr{H}_\bullet
+  \xrightarrow{\;}
+  \bigcirc \mathscr{H}_\bullet
+  \;=\;
+  \mathscr{H}
+$$
+
+in the image of $p_B^\ast$
+and as such are [[quantum gates]] (we show how to restrict these to [[unitary operators]] below in ...).
+
+Inspection shows that the four ways of relating these to [[co-Kleisli category|(co-)]][[Kleisli category|Kleisli morphisms]] correspond to composing quantum gates with:
+
+1. quantum measurement
+
+1. quantum state preparation
+
+1. qauntum superposition
+
+1. qauntum parallelization:
+
+
+
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-QuantumGates-221021.jpg",
+    "width": "800",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
 ### Quantum measurement
  {#QuantumMeasurement}
 
 
-In view of this [[categorical semantics]], notice that on linear types, $\Box_C$-**actualization is the measurement process** --  in that the $\Box_C$-[[counit of a comonad]] implements exactly the rule for [[wavefunction collapse]] (due to [Lüders 1951](wave+function+collapse#Lüders51), following [von Neumann 1932, §III.3 and §VI](wave+function+collapse#vonNeumann32)) with regards to [[quantum  measurements]] in the $C$-indexed basis of the total Hilbert space 
+Specifically, $\Box_C$-**actualization is the measurement process** --  in that the $\Box_C$-[[counit of a comonad|counit]] implements exactly the rule for [[wavefunction collapse]] (due to [Lüders 1951](wave+function+collapse#Lüders51), following [von Neumann 1932, §III.3 and §VI](wave+function+collapse#vonNeumann32)) with regards to [[quantum  measurements]] in the $C$-indexed basis of the total Hilbert space 
 $
   \mathcal{H} \coloneqq \Box_C \mathcal{H}_\bullet
 $
@@ -279,42 +373,33 @@ which is encoded by its direct sum decomposition $\mathcal{H}_\bullet$:
 \end{imagefromfile}
 
 
-(Of course, in general there may be richer dependency on classical contexts. In the next simplest case the [[base change]] is along the [[projection]] map out of a [[Cartesian product]] of classical types, which makes one of them label potential upcoming measurement results as before, while the other encodes further dependency on classical parameters, such as on previous measurement results:
+Equivalently we may express this situation via the [[writer comonad]] $\star$ and the [[reader monad]] $\bigcirc$, by observing that the following [[commuting diagram|diagram commutes]]:
 
+\[
+  \label{MeasurementViaWritedComonad}
+\]
 \begin{imagefromfile}
-    "file_name": "QCwthLHT-RelativeBaseChange-221003.jpg",
-    "width": "670",
+    "file_name": "MeasurementViaWriterComonad-221025b.jpg",
+    "width": "540",
     "unit": "px",
     "margin": {
-        "top": -30,
+        "top": -10,
         "bottom": 20,
         "right": 0, 
         "left": 10
     }
 \end{imagefromfile}
 
-This plays a role for classically-controlled quantum gates, [below](#ClassicallyControlledQuantumGate)).
+In the bottom row are making use of the notation (eq:NotationalConvention).
+
+> This is reminiscent of constructions involved in the "double Kleisli category" of [Brookes & Van Stone 1993, §6](Kleisli+category#BrookesVanStone93). Maybe there is more to this similarity?
 
 
-
-
-With this observation in hand, it is a straightforward matter to verify that the [[morphisms]] in the [[co-Kleisli category]] of $\Box_C$ represent general [[quantum gates]], as we will illustrate [below](#QCwthLHT-QBits) for the case of traditional [[qbit]]-[[quantum gates]]:
-
-\begin{imagefromfile}
-    "file_name": "QCwthLHT-QuantumGates-221021.jpg",
-    "width": "800",
-    "unit": "px",
-    "margin": {
-        "top": -30,
-        "bottom": 20,
-        "right": 0, 
-        "left": 10
-    }
-\end{imagefromfile}
 
 
 
 ### Quantum circuits
+ {#QuantumCircuits}
 
 
 While quantum gates have [[horizontal composition]] in the [[co-Kleisli category]], they also have a [[vertical composition]] given by [[external tensor product]]:
