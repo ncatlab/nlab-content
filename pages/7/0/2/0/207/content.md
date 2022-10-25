@@ -67,19 +67,29 @@ Intensional type theories are then type theories with typal equality and one of 
 
 This table gives the six different notions of equality found in type theory, as well as the rules for reflexivity, symmetry, and transitivity. 
 
-| Of types | Judgmental equality | Propositional equality | Typal equality |
-|--------|--------|--------|--------|
-| judgment | $\Gamma \vdash A = B \; \mathrm{type}$ | $\Gamma \vert \Phi \vdash A = B \; \mathrm{true}$ | $\Gamma \vdash P:A \simeq B$ |
-| reflexivity | $\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash A = A \; \mathrm{type}}$ | $\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash A = A \; \mathrm{true}}$ | $\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash id_{A}:A \simeq A}$ |
-| symmetry | $\frac{\Gamma \vdash A = B \; \mathrm{type}}{\Gamma \vdash B = A \; \mathrm{type}}$ | $\frac{\Gamma \vert \Phi \vdash A = B \; \mathrm{true}}{\Gamma \vert \Phi \vdash B = A \; \mathrm{true}}$ | $\frac{\Gamma \vdash P:A \simeq B}{\Gamma \vdash P^{-1}:B \simeq A}$ |
-| transitivity | $\frac{\Gamma \vdash A = B \; \mathrm{type} \quad \Gamma \vdash B = C \; \mathrm{type} }{\Gamma \vdash A = C \; \mathrm{type}}$ | $\frac{\Gamma \vert \Phi \vdash A = B \; \mathrm{true} \quad \Gamma \vert \Phi \vdash B = C \; \mathrm{true}}{\Gamma \vert \Phi \vdash A = C \; \mathrm{true}}$ | $\frac{\Gamma \vdash P:A \simeq B \quad \Gamma \vdash Q:B \simeq C}{\Gamma \vdash Q \circ P:A \simeq C}$ |
+| Judgment | of types | of terms |
+|--------|--------|--------|
+| Judgmental equality | $\Gamma \vdash A = B \; \mathrm{type}$ | $\Gamma \vdash a = b:A$ |
+| Propositional equality | $\Gamma \vert \Phi \vdash A = B \; \mathrm{true}$ | $\Gamma \vert \Phi \vdash a =_A b \; \mathrm{true}$ |
+| Typal equality | $\Gamma \vdash P:A \simeq B$ | $\Gamma \vdash p:a =_A b$ |
 
-| Of terms | Judgmental equality | Propositional equality | Typal equality |
-|--------|--------|--------|--------|
-| judgment | $\Gamma \vdash a = b:A$ | $\Gamma \vert \Phi \vdash a =_A b \; \mathrm{true}$ | $\Gamma \vdash p:a =_A b$ |
-| reflexivity | $\frac{\Gamma \vdash a:A}{\Gamma \vdash a = a:A}$ | $\frac{\Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash a =_A a \; \mathrm{true}}$ | $\frac{\Gamma \vdash a:A}{\Gamma \vdash \mathrm{refl}_{A}(a):a =_A a}$ |
-| symmetry | $\frac{\Gamma \vdash a = b:A}{\Gamma \vdash b = a:A}$ | $\frac{\Gamma \vert \Phi \vdash a =_A b \; \mathrm{true}}{\Gamma \vert \Phi \vdash b =_A a \; \mathrm{true}}$ | $\frac{\Gamma \vdash p:a =_A b}{\Gamma \vdash p^{-1}:b =_A a}$ |
-| transitivity | $\frac{\Gamma \vdash a = b:A \quad b = c:A }{\Gamma \vdash a = c:A}$ | $\frac{\Gamma \vert \Phi \vdash a =_A b \; \mathrm{true} \quad \Gamma \vert \Phi \vdash b =_A c \; \mathrm{true}}{\Gamma \vert \Phi \vdash a =_A c \; \mathrm{true}}$ | $\frac{\Gamma \vdash p:a =_A b \quad \Gamma \vdash q:b =_A c}{\Gamma \vdash p \bullet q:a =_A c}$ |
+| Reflexivity | of types | of terms |
+|--------|--------|--------|
+| Judgmental equality | $\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash A = A \; \mathrm{type}}$ | $\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash a = a:A}$ |
+| Propositional equality | $\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash A = A \; \mathrm{true}}$ | $\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash a =_A a \; \mathrm{true}}$ |
+| Typal equality | $\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash id_{A}:A \simeq A}$ | $\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{refl}_{A}(a):a =_A a}$ |
+
+| Symmetry | of types | of terms |
+|--------|--------|--------|
+| Judgmental equality | $\frac{\Gamma \vdash A = B \; \mathrm{type}}{\Gamma \vdash B = A \; \mathrm{type}}$ | $\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a = b:A}{\Gamma \vdash b = a:A}$ |
+| Propositional equality | $\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash A = B \; \mathrm{true}}{\Gamma \vert \Phi \vdash B = A \; \mathrm{true}}$ | $\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:A \quad \Gamma \vert \Phi \vdash a =_A b \; \mathrm{true}}{\Gamma \vert \Phi \vdash b =_A a \; \mathrm{true}}$ |
+| Typal equality | $\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vdash P:A \simeq B}{\Gamma \vdash P^{-1}:B \simeq A}$ | $\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b}{\Gamma \vdash p^{-1}:b =_A a}$ |
+
+| Transitivity | of types | of terms |
+|--------|--------|--------|
+| Judgmental equality | $\frac{\Gamma \vdash A = B \; \mathrm{type} \quad \Gamma \vdash B = C \; \mathrm{type} }{\Gamma \vdash A = C \; \mathrm{type}}$ | $\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a = b:A \quad b = c:A }{\Gamma \vdash a = c:A}$ |
+| Propositional equality | $\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma \vert \Phi \vdash A = B \; \mathrm{true} \quad \Gamma \vert \Phi \vdash B = C \; \mathrm{true}}{\Gamma \vert \Phi \vdash A = C \; \mathrm{true}}$ | $\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:A \quad \Gamma \vert \Phi \vdash c:A \quad \Gamma \vert \Phi \vdash a =_A b \; \mathrm{true} \quad \Gamma \vert \Phi \vdash b =_A c \; \mathrm{true}}{\Gamma \vert \Phi \vdash a =_A c \; \mathrm{true}}$ |
+| Typal equality | $\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma \vdash P:A \simeq B \quad \Gamma \vdash Q:B \simeq C}{\Gamma \vdash Q \circ P:A \simeq C}$ | $\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash c:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash q:b =_A c}{\Gamma \vdash p \bullet q:a =_A c}$ |
 
 ## Usages of equality
 
