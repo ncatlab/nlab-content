@@ -5,3 +5,5 @@
 [[TestPageD]]
 
 [[!include TestPageE]]
+
+[[TestPageF]]
