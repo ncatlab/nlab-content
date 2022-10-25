@@ -1,3 +1,3 @@
 [[!redirects TestPageE]]
 
-asd
+A monad is a monoid in an endofunctor category
