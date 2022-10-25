@@ -750,8 +750,6 @@ See also
 [[!redirects path space types]]
 [[!redirects stable path object]]
 [[!redirects stable path objects]]
-[[!redirects propositional equality]]
-[[!redirects propositionally equal]]
 
 [[!redirects intensional identity type]]
 [[!redirects intensional identity types]]
