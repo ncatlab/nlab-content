@@ -14,6 +14,7 @@
 {: toc}
 
 ## Overview
+ {#Overview}
 
 There are a number of ways to present a [[set theory]]; one of the most basic decisions when it comes to presenting a set theory is whether the probable [[sets]] and probable [[elements]] should be regarded as the same kind of objects, as in [[unsorted set theory]], or as fundamentally different objects, as in [[two-sorted set theory]]. In the former, there is a global membership relation $\in$ which is defined on the entire [[domain of discourse]]. In the latter, there are two domains of discourse, one representing the probable sets and the other representing the probable elements or atoms, and for the membership relation $a \in b$, $a$ is required to be a probable element and $b$ is required to be a probable set. 
 
