@@ -41,11 +41,17 @@ Historically, this amplitude first arose in [[dual resonanace models]] and the r
 
 Discussion in the context of [[Riemann hypothesis and physics]] is in
 
-* {#HJM15} Yang-Hui He, Vishnu Jejjala, Djordje Minic, _From Veneziano to Riemann: A String Theory Statement of the Riemann Hypothesis_ ([arXiv:1501.01975](http://arxiv.org/abs/1501.01975))
+* {#HJM15} [[Yang-Hui He]], Vishnu Jejjala, Djordje Minic, _From Veneziano to Riemann: A String Theory Statement of the Riemann Hypothesis_ ([arXiv:1501.01975](http://arxiv.org/abs/1501.01975))
 
 Textbook review includes (16.49) in
 
 * [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], _String Scattering Amplitudes and Low Energy Effective Field Theory_, chapter 16 in _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer 2013
+
+See also:
+
+* Clifford Cheung, Grant N. Remmen, *Veneziano Variations: How Unique are String Amplitudes?* &lbrack;[arXiv:2210.12163](https://arxiv.org/abs/2210.12163)&rbrack;
+
+
 
 
 [[!redirects Veneziano amplitudes]]
