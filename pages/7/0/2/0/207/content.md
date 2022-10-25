@@ -69,9 +69,13 @@ This was also influenced by natural deduction, where constructors correspond to 
 With this extension, one obtains a programming language with dependent types and where computations correspond to unfolding of definitions (that can be primitive recursive definitions). This programming language has the feature that all computations terminate. This has been also considered in functional programming, see e.g. the discussion in [this paper](http://uf-ias-2012.wikispaces.com/file/view/turner.pdf/401400700/turner.pdf).
 
 A description of the evaluation algorithm using techniques from functional programming
-can be found in [this work of Gregoire and Leroy](http://uf-ias-2012.wikispaces.com/file/view/strong-reduction.pdf/402005168/strong-reduction.pdf).
+can be found in [this work of Gregoire and Leroy](http://uf-ias-2012.wikispaces.com/file/view/strong-reduction.pdf/402005168/strong-reduction.pdf).  
 
-However, not all type theories have definitional equality; [[objective type theory]] is a framework of type theories without definitional equality.  
+### Judgmental equality
+
+Another sort of equality which is important in type theory is *judgmental equality*. Judgmental equality is often expressed in type theory by a separate [[judgment]]: in addition to typing judgments $\Gamma \vdash (t:A)$, we have equality judgments $\Gamma \vdash (t = t'): A$. The rules for manipulating such judgments then include reflexivity, symmetry, transitivity, and the generating computations such as $\beta$-reduction. 
+
+However, not all type theories have judgmental equality; [[objective type theory]] is a framework of type theories without judgmental equality.
 
 ### Computational equality
 
@@ -82,9 +86,6 @@ The paradigmatic example of computational equality is a pair of terms like "$(\l
 For better or for worse, however, it is common in type theory to use the phrase "definitional equality" to *include* computational equality, even though it involves more than mere expansion of definitional abbreviations.  There is even a phrase "$\delta$-reduction" for the substitution of definitions regarded as a conversion rule analogous to $\beta$-reduction and $\eta$-expansion.  Thus, even though "$2+2$" and "$4$" are not literally equal *by definition* but only by performing some computation (even if the computation is fairly trivial in this case), the type of equality they do enjoy is generally called *definitional*.
 
 Perhaps this is because in type theory, computational equality plays the same role as true definitional equality.  In particular, typing judgments respect it: if $\Gamma \vdash (t:A)$, while $t$ and $A$ are computationally equal to $t'$ and $A'$, then also $\Gamma \vdash (t':A')$.  For $t$ and $t'$, this fact is sometimes called [[type preservation]] and is an important provable aspect of a type theory.  For $A$ and $A'$, the statement is generally only contentful in a [[dependent type theory]], in which case it is often included explicitly as one of the typing rules.
-
-Another apt word for computational equality is *judgmental equality*, since it is often expressed in type theory by a separate [[judgment]]: in addition to typing judgments $\Gamma \vdash (t:A)$, we have equality judgments $\Gamma \vdash (t = t'): A$.  The rules for manipulating such judgments then include reflexivity, symmetry, transitivity, and the generating computations such as $\beta$-reduction.
-
 
 ### Propositional equality
 
