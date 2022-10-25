@@ -29,7 +29,7 @@ More generally, one may consider "loci" given by [[(infinity,2)-sheaves|$(\infty
 
 ## Examples
 
-In the above motivating example, $\mathcal{C} =$ [[Spectra]]. In fact, every [[presentable (infinity,1)-category|presentable]] [[stable (infinity,1)-category|styable $(\infty,1)$-category]] is a Joyal $\infty$-locus (essentially by the [stable Giraud theorem](stable+infinity-category#StableGiraud), cf. [Hoyois 2019, p. 1 and Ex. 7](#Hoyois19)).
+In the above motivating example, $\mathcal{C} =$ [[Spectra]]. In fact, every [[presentable (infinity,1)-category|presentable]] [[stable (infinity,1)-category|stable $(\infty,1)$-category]] is a Joyal $\infty$-locus (essentially by the [stable Giraud theorem](stable+infinity-category#StableGiraud), cf. [Hoyois 2019, p. 1 and Ex. 7](#Hoyois19)).
 But, for instance, not just [[spectra]] but already [[prespectra]] and in fact just [[pointed homotopy types]] form a Joyal $\infty$-locus, in this sense. 
 
 If one drops the requirement that $\mathcal{C}$ be [[pointed (infinity,1)-category|pointed]], then every [[(infinity,1)-topos|$(\infty,1)$-topos]] is a Joyal $\infty$-locus (cf. [Hoyois 2019, Ex. 6](#Hoyois19)).
