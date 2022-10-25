@@ -19,16 +19,53 @@ In (classical) [[logic]], the __negation__ of a statement $p$ is a statement $\n
 
 More generally, as different logics correspond to different types of lattices, one calls *negation* antitone, or polarity reversing, lattice operators that mimic or approximate the algebraic and proof-theoretic behavior of $\neg$.
 
+## As a logic gate
+ {#AsALogicGate}
+
+As a [[logic gate]] on [[bits]] and as a [[quantum logic gate]] on [[qbits]] ($X$-[[Pauli matrix]]):
+
+
+\begin{imagefromfile}
+    "file_name": "NOT_LogicGate-221025.jpg",
+    "width": "600",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
 ## Negation in different logics
 
 In [[classical logic]], we have the [[double negation]] law:
-$$\neg\neg{p} \equiv p.$$
+$$
+  \neg\neg{p} 
+    \;\equiv\;
+  p
+  \,.
+$$
+
 In [[intuitionistic logic]], we only have
-$$\neg\neg{p} \dashv p,$$
+
+$$
+  \neg\neg{p} 
+    \;\dashv\; p
+  \,,
+$$
+
 while in [[paraconsistent logic]], we instead have
-$$\neg\neg{p} \vdash p.$$
-You can interpret intuitionistic negation as 'denial' and paraconsistent negation as 'doubt'.  So when one says that one doesn\'t deny $p$, that\'s weaker than actually asserting $p$; while when one says that one doesn\'t doubt $p$, that\'s stronger than merely asserting $p$.  Paraconsistent logic has even been applied to the theory of law: if $p$ is a judgment that normally requires only the preponderance of evidence, then $\neg\neg{p}$ is a judgment of $p$ beyond reasonable doubt.
+
+$$
+  \neg\neg{p} 
+    \;\vdash\; 
+  p
+  \,.
+$$
+
+One may interpret intuitionistic negation as 'denial' and paraconsistent negation as 'doubt'.  So when one says that one doesn\'t deny $p$, that\'s weaker than actually asserting $p$; while when one says that one doesn\'t doubt $p$, that\'s stronger than merely asserting $p$.  Paraconsistent logic has even been applied to the theory of law: if $p$ is a judgment that normally requires only the preponderance of evidence, then $\neg\neg{p}$ is a judgment of $p$ beyond reasonable doubt.
 
 [[linear logic|Linear logic]] features (at least) three different forms of negation, one for each of the above.  (The default meaning of the term 'negation' in linear logic, $p^\bot$, is the one that satisfies the classical double-negation law.)
 
@@ -37,7 +74,7 @@ Accordingly, negation mediates [[de Morgan duality]] in classical and [[linear l
 
 ## In type theory syntax
 
-In usual [[type theory]] [[syntax]] negation is obtained as the [[function type]] into the [[empty type]]: $\not a = a \to \emptyset$.
+In usual [[type theory]] [[syntax]] negation is obtained as the [[function type]] into the [[empty type]]: $\not a = a \to \varnothing$.
 
 
 ## In categorical semantics
