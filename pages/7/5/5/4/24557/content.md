@@ -42,7 +42,9 @@ While the notion of reversible computation was originally conceived in the conte
 
 Therefore, the practical problem of implementing quantum computation faces analogous [[thermodynamics|thermodynamical]] issues as embodied by Landauer's principle, which are the reason for the need of [[quantum error correction]] and/or [[topological quantum computation|topological quantum stabilization]].
 
+## Related concepts
 
+* [[quantum computation]], [[quantum circuit]]
 
 
 ## References
