@@ -117,6 +117,9 @@ The following notes deal with the theory modelled on coconnective [[commutative 
 
 * [[Dennis Gaitsgory]], _Notes on geometric Langlands: stacks_, [pdf](http://www.math.harvard.edu/~gaitsgde/GL/Stackstext.pdf).
 
+* J. Eugster and J. P. Pridham. _An introduction to derived (algebraic) geometry_.
+[arXiv](http://arxiv.org/abs/2109.14594).
+
 The following notes deal with the theory modelled on [[E-infinity ring spectra]] ([[E-infinity geometry]]):
 
 * [[Clark Barwick]], _Applications of derived algebraic geometry to homotopy theory_, lecture notes, mini-course in Salamanca, 2009, [pdf](https://dl.dropboxusercontent.com/u/1741495/papers/salamanca.pdf).
