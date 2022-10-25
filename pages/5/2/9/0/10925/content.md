@@ -7,6 +7,25 @@
 
 (...)
 
+## Examples
+
+**[[NOT]]:**
+
+\begin{imagefromfile}
+    "file_name": "NOT_LogicGate-221025.jpg",
+    "width": "600",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+(...)
+
+
 ## Related concepts
 
 * [[quantum logic gate]]
