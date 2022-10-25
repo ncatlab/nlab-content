@@ -61,6 +61,11 @@ Claimed experimental demonstration of "quantum supremacy" ("quantum advantage") 
 
 * Han-Sen Zhong et al., *Quantum computational advantage using photons*, Science  **370** 6523 (2020) 1460-1463 ([doi:10.1126/science.abe8770](https://science.sciencemag.org/content/370/6523/1460))
 
+Critical analysis:
+
+* [[Gil Kalai]], Yosef Rinott, Tomer Shoham, *Google's 2019 "Quantum Supremacy" Claims: Data, Documentation, and Discussion* &lbrack;[arXiv:2210.12753](https://arxiv.org/abs/2210.12753)&rbrack;
+
+
 {#ExperimentalReview} Review and status reports:
 
 * Adrian Cho, *Google claims quantum computing milestone*, Science **365** 6460 (2019) 1364 ([doi:10.1126/science.365.6460.1364](https://science.sciencemag.org/content/365/6460/1364))
