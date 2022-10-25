@@ -483,6 +483,30 @@ that the interpretation of their ([[counit of a comonad|co-]])[[unit of a monad|
     }
 \end{imagefromfile}
 
+\[
+  \label{NotationalConvention}
+\text{It is convenient and meaningful to declare the notational conventions to:}
+  \phantom{--------------------}
+\]
+1. abbreviate $\mathscr{H} \,\coloneqq\, p_! \mathscr{H}_\bullet \,\simeq\, p_\ast \mathscr{H}_\bullet$
+
+1. notationally suppress any outer application of $(p_B)^\ast \colon LinType \to LinType_B$;
+
+Thereby, the definiteness/randomness modalities in relation to [[necessity and possibility]] of classical modal logic ([above](#ClassicalModalLogic)) may be expressed in quantum modal logic by:
+
+\begin{imagefromfile}
+    "file_name": "DefinitelyRandomlyViaPossiblyNecessarily.jpg",
+    "width": "210",
+    "unit": "px",
+    "margin": {
+        "top": -10,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
 Considering the basic dependent linear type
 
 $$
@@ -587,3 +611,4 @@ this is picked up and claimed to be refined to a [[dialectic]] system of [[unity
 
 [[!redirects necesecarily]]
 [[!redirects possibly]]
+
