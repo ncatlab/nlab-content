@@ -26,7 +26,7 @@ The "[[projection postulate]]" of [[quantum physics]] asserts ([von Neumann 1932
 
    1. a random value $b \in B$;
 
-   1. the "[[collapse of the wavefunction|collapse]]" of the [[quantum state]] being measured by [[orthogonal linear basis|orthogonal]] [[projection operator|projection]] to the the [[linear span]] of the $b$th basis state.
+   1. the "[[collapse of the wavefunction|collapse]]" of the [[quantum state]] being measured by [[orthogonal linear basis|orthogonal]] [[projection operator|projection]] to the [[linear span]] of the $b$th basis state.
 
       $$
         \array{
@@ -34,7 +34,7 @@ The "[[projection postulate]]" of [[quantum physics]] asserts ([von Neumann 1932
             &\colon&
           \mathscr{H} 
             &\xrightarrow{\phantom{---}}&
-          \mathscr{H}_B \hookrightarrow \mathscr{H}
+          \mathscr{H}_b \hookrightarrow \mathscr{H}
           \\
           &&
           \vert \psi \rangle
