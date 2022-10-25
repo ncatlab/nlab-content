@@ -297,6 +297,11 @@ Review:
 
   > The [[qubit]] systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. $[\cdots]$ What is missing is the breakthrough $[\cdots]$ bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called [[topological quantum computing]].
 
+Potential relation to the [[Unruh effect]]:
+
+* Eric W. Aspling, John A. Marohn, Michael J. Lawler, *Design Constraints for Unruh-DeWitt Quantum Computers* &lbrack;[arXiv:2210.12552](https://arxiv.org/abs/2210.12552)&rbrack;
+
+
 
 
 [[!include quantum programming languages -- references]]
