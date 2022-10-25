@@ -1,13 +1,14 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Context
-#### Algebraic Quantum Field Theory
-+-- {: .hide}
-[[!include AQFT and operator algebra contents]]
+###Context###
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
 =--
 =--
 =--
+
 
 # Contents
 * table of contents
