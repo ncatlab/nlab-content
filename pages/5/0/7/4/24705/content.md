@@ -26,6 +26,102 @@
 
 ## Introduction
 
+### The problem
+
+In the context of [[quantum computation]], a *[[quantum circuit diagram]]* (originally: "quantum computational network", [Deutsch 1989](quantum+circuit#Deutsch89)) is a kind of [[string diagram]] ([Abramsky & Coecke 2004](quantum+circuit#AbramskyCoecke04)) in [[finite-dimensional vector spaces|finite-dimensional]] [[Hilbert spaces]], typically used to express a sequence of low-level [[quantum logic gate|quantum gates]] mapping between [[space of quantum states|spaces of]] [[pure quantum state|pure]] [[quantum states]].
+
+A generic quantum circuit might look as follows:
+
+\begin{imagefromfile}
+    "file_name": "QuantumCircuitScheme-221025c.jpg",
+    "width": "600",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 10,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Here, for instance, the "[[quantum gate]]" $U_{34}$ is a [[linear operator]] on the [[tensor product]] [[Hilbert space]] $\mathscr{H} \oplus \mathscr{H}$.
+
+Notice that the quantum circuit is understood to be the actual [[string diagram]], up to the usual admissible topological deformations, not just the [[composition|composite]] [[linear transformation]] which it encodes: The compositeness of the diagram encodes how (e.g. in which order) available [[quantum gate]]-operations would be operated on an actual [[quantum computer]], and the composite linear map only encodes the inpute-to-output-specification of the resulting [[quantum computation]]. In this sense, quantum circuits constitute a [[quantum programming language]] and one also speaks of the "quantum circuit model of quantum computation" (e.g. [Nielsen & Chuang 2000, §II.4.6](#NielsenChuang00); [Miszczak 2011, §3](#Miszczak11), [2012, §4.3](#Miszczak12); [Beneti & Casati 2018, §3.2](#BenetiCasati18)).
+
+
+Often the basic Hilbert space building block here is taken to be [[complex vector space|complex]] 2-[[dimension of a vector space|dimensional]], $\mathscr{H} \,\coloneqq\, \mathbb{C}^2$, in which case one speaks of a quantum circuit on *[[q-bits]]*.
+
+Sometimes all [[quantum gates]] involved, and hence also the resulting [[composition|composite]] [[linear maps]], are assumed to be [[invertible]], as befits [[reversible computation]] by [[unitary operator|unitary]] quantum state evolution in [[quantum mechanics]].
+
+But more generally and certainly in the broader context of [[quantum information theory]] (such as in formulating the [[quantum teleportation protocol]] and similar), quantum circuits are admitted to also contain:
+
+1. *[[quantum measurement]]-gates*,  
+
+1. *[[quantum state preparation]]-gates*,
+
+1. *classically controlled quantum gates*.
+
+Here [[quantum measurement]], in particular, is not only non-[[reversible computation|reversible]] (due to the [[quantum state collapse]] involved) but also non-deterministic, meaning that it is not immediately represented by a fixed linear map at all -- at least not between the original Hilbert spaces. 
+
+Concretely, the "[[projection postulate]]" of [[quantum physics]] asserts ([von Neumann 1932](quantum+measurement#vonNeumann32); [Lüders 1951](quantum+measurement#Lüders51)) that:
+
+1. measurement of [[quantum states]] is *with respect* to a choice of [[orthonormal linear basis]] $\big\{\vert \psi_b \rangle \big\}_{b : B}$ of the given [[Hilbert space]] $\mathscr{H}$ [[space of quantum states|of]] [[pure quantum states]];
+
+1. the result of measurement on [[pure quantum states]] $\vert \psi \rangle \;\in\; \mathscr{H}$ is 
+
+   1. a random value $b \in B$;
+
+   1. the "[[collapse of the wavefunction|collapse]]" of the [[quantum state]] being measured by [[orthogonal linear basis|orthogonal]] [[projection operator|projection]] to the the [[linear span]] of the $b$th basis state.
+
+      $$
+        \array{
+          P_b 
+            &\colon&
+          \mathscr{H} 
+            &\xrightarrow{\phantom{---}}&
+          \mathscr{H}_B \hookrightarrow \mathscr{H}
+          \\
+          &&
+          \vert \psi \rangle
+          &\mapsto&
+          P_b \vert \psi \rangle
+          \mathrlap{
+            =
+            \vert \psi_b \rangle
+            \langle \psi_b \vert \psi \rangle
+          }
+        }
+      $$ 
+     
+
+There are different ways to *[[type theory|type]]* the quantum measurement, taking into account the non-deterministic nature of its outcome: 
+
+1. Regarding the [[direct sum]] $\bigoplus_{b \colon B} \mathscr{H}$ of [[Hilbert spaces]] as the [[logical disjunction]] ("or") of [[quantum logic]], one may regard measurement as being the [[linear map]] into the direct sum whose $b$th component is $P_b$.
+
+   > This choice of typing appears (briefly) in [Selinger 2004](quantum+measurement#Selinger04), [p. 39](https://www.mathstat.dal.ca/~selinger/papers/qpl.pdf#page=39), in a precursor discussion that led to the formulation of the [[quantum programming language]] *[[Quipper]]*.
+
+1. Regarding the measurement outcome $b \in B$ as the observed [[context]] of the actual quantum collapse, one may regard the collapse projection as [[dependent type theory|dependently typed]].
+
+   > Getting from previous option back to this one is known in the the [[Quipper]]-community as *[dynamic lifting](Quipper#ReferencesDynamicLifting)* (namely "of the measured bits back into the context")
+
+\begin{imagefromfile}
+    "file_name": "PossibleTypingsOfQuantumMeasurement-221025.jpg",
+    "width": "560",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Both of these options naturally emerge and are naturally unified in the "[Quantum Modal Logic](necessity+and+possibility#ModalQuantumLogic)" inherent to [[dependent linear type theory]]: This is discussed what we now discuss.
+
+
+
+### A solution
+
 The following discussion indicates[^1] how a natural [[quantum programming language]] for [[quantum information]]-processing protocols --- hence  for [[quantum circuits]] consisting of general [[quantum gates]] with classical control, including [[decoherence|de-coherent]] [[quantum measurement]]-gates and subsequent coherent quantum gates depending on these --- is elegantly subsumed within any [[dependent linear type theory|dependent linearly typed]] [[programming language]] which expresses the "[[yoga of six operations]]", such as is the case in the [[linear homotopy type theory]] of [Riley 2022](dependent+linear+type+theory#Riley22Thesis). 
 
 [^1]: Full details to appear at: *[[schreiber:Topological Quantum Programming in Linear Homotopy Type Theory]]*.
