@@ -98,6 +98,11 @@ Relation to [[braided monoidal category|braided]] [[tensor categories]]:
 
 * Liang Chang,  *Representations of the loop braid groups from braided tensor categories*, Journal of Mathematical Physics 61, 051702 (2020) ([arXiv:2004.10896](https://arxiv.org/abs/2004.10896), [doi:10.1063/5.0005266](https://doi.org/10.1063/5.0005266))
 
+Relation to [[integrable systems]]:
+
+* Pramod Padmanabhan, Abhishek Chowdhury, *Loop braid groups and integrable models* &lbrack;[arXiv:2210.12932](https://arxiv.org/abs/2210.12932)&rbrack;
+
+
 
 [[!redirects loop braid groups]]
 
