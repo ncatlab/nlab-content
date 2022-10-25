@@ -36,7 +36,12 @@ A system in
 
 ## References
 
+See also the references at *[[quantum mechanics]]*.
+
 ### General
+
+* Kurt Engesser, Dov M. Gabbay, Daniel Lehmann (eds.) *[[Handbook of Quantum Logic and Quantum Structures]]* Elsevier (2009) &lbrack;[ISBN:9780080931661](https://www.sciencedirect.com/book/9780444528698)&rbrack;
+
 
 In a context of [[topological phases of matter]]:
 
