@@ -78,3 +78,6 @@ See also
 [[!redirects integrable systems]]
 
 [[!redirects integrability]]
+
+[[!redirects integrable model]]
+[[!redirects integrable models]]
