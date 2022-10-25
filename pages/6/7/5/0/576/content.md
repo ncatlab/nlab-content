@@ -95,14 +95,11 @@ Applied for instance to the category of finite-dimensional [[inner product space
 
 The concept was introduced in 
 
-* [[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_, in _Proceedings of the 19th IEEE conference on Logic in Computer Science_ (LiCS'04), IEEE Computer Science Press, 2004. ([arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130))
- {#AbramskyCoecke04}
-
+* {#AbramskyCoecke04} [[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_, in _Proceedings of the 19th IEEE conference on Logic in Computer Science_ (LiCS'04), IEEE Computer Science Press, 2004. ([arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130))
+ 
 with an expanded version in 
 
-* [[Samson Abramsky]], [[Bob Coecke]], _Categorical quantum mechanics_, in _Handbook of Quantum Logic and Quantum Structures vol II_, Elsevier, 2008 ([arXiv:0808.1023](http://arxiv.org/abs/0808.1023))
- {#AbramskyCoecke08}
-
+* {#AbramskyCoecke08} [[Samson Abramsky]], [[Bob Coecke]], *Categorical quantum mechanics*, in *[[Handbook of Quantum Logic and Quantum Structures]]*, Elsevier (2008) &lbrack;[arXiv:0808.1023](http://arxiv.org/abs/0808.1023), [ISBN:9780080931661](https://www.sciencedirect.com/book/9780444528698/)&rbrack; 
 
 under the name "strongly compact" and used for [[finite quantum mechanics in terms of dagger-compact categories]].
 The topic was taken up
@@ -118,10 +115,10 @@ The examples induced from [[self-duality]]-structure are discussed abstractly in
 
 That finite-dimensional Hilbert spaces are "complete for dagger-compactness" is shown in
 
-*  [[Peter Selinger]] (2012), _Finite dimensional Hilbert spaces are complete for dagger compact closed categories_, ([arXiv:1207.6972](http://arxiv.org/abs/1207.6972)).
-   {#Selinger2012}
+* {#Selinger2012} [[Peter Selinger]] (2012), _Finite dimensional Hilbert spaces are complete for dagger compact closed categories_, ([arXiv:1207.6972](http://arxiv.org/abs/1207.6972)).
+   
 
-The example of spans"
+The example of [[spans]]:
 
 * {#Baez07} [[John Baez]], _Spans in quantum theory_ ([web](http://math.ucr.edu/home/baez/span/), [pdf](http://math.ucr.edu/home/baez/span/span.pdf), [blog](http://golem.ph.utexas.edu/category/2007/10/spans_in_quantum_theory.html))
 
