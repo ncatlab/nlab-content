@@ -5,7 +5,11 @@
 
 On [[quantum gravity]]:
 
-* C. Bambi, L. Modesto and Ilya Shapiro?, *[[Handbook on Quantum Gravity]]*, Springer (expected in 2023)
+* C. Bambi, L. Modesto, [[Ilya Shapiro]]: *[[Handbook of Quantum Gravity]]*, Springer (expected in 2023)
+
+On [[perturbative quantum gravity]]:
+
+* [[Ilya L. Shapiro]], *The background information about perturbative quantum gravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.12319](https://arxiv.org/abs/2210.12319)&rbrack;
 
 On [[gauge invariance|gauge invariant]] [[renormalization]] of [[perturbative quantum gravity]]:
 
@@ -13,3 +17,5 @@ On [[gauge invariance|gauge invariant]] [[renormalization]] of [[perturbative qu
 
 
 category: people
+
+[[!redirects Ilya L. Shapiro]]
