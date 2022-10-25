@@ -212,7 +212,7 @@ Discussion of cases where the inclusion of the Kleisli category into the [[Eilen
 
 Discussion of combined "double Kleisli categories", combining the Kleisli category of a [[monad]] with the [[co-Kleisli category]] of a [[comonad]] that [[distributive law|distributes]] over it:
 
-* [[Stephen Brookes]],  [[Kathryn Van Stone]], *Monads and Comonads in Intensional Semantics* (1993) &lbrack;[dtic:ADA266522](https://apps.dtic.mil/sti/citations/ADA266522), [pdf](https://www.cs.cmu.edu/~brookes/papers/MonadsComonads.pdf)&rbrack;
+* {#BrookesVanStone93} [[Stephen Brookes]],  [[Kathryn Van Stone]], *Monads and Comonads in Intensional Semantics* (1993) &lbrack;[dtic:ADA266522](https://apps.dtic.mil/sti/citations/ADA266522), [pdf](https://www.cs.cmu.edu/~brookes/papers/MonadsComonads.pdf)&rbrack;
 
 
 Discussion in [[internal category]] theory:
