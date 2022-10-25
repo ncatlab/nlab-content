@@ -71,3 +71,5 @@ An [[axiom|axiomatic]] characterization of the [[dagger-category]] of Hilbert sp
 
 
 category: category
+
+[[!redirects HilbertSpaces]]
