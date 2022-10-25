@@ -178,3 +178,4 @@ An exposition along these lines is in
 [[!redirects quantum mechanics in terms of †-compact categories]]
 [[!redirects quantum mechanics in terms of dagger-compact categories]]
 
+[[!redirects finite quantum physics in terms of dagger-compact categories]]
