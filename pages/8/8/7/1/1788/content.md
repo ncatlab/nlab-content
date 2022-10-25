@@ -22,6 +22,8 @@
   \mathrm{EM}(\mathrm{ U \circ F })
 \end{tikzcd}
 
+[[QuantumCircuitScheme-221025c.jpg:file]]
+
 [[DefinitelyRandomlyViaPossiblyNecessarily.jpg:file]]
 
 [[MeasurementViaWriterComonad-221025b.jpg:file]]
