@@ -65,12 +65,21 @@ Intensional type theories are then type theories with typal equality and one of 
 
 ### Comparison of equalities
 
-This table gives the six different notions of equality found in type theory. 
+This table gives the six different notions of equality found in type theory, as well as the rules for reflexivity, symmetry, and transitivity. 
 
-| | Judgmental equality | Propositional equality | Typal equality |
+| Of types | Judgmental equality | Propositional equality | Typal equality |
 |--------|--------|--------|--------|
-| of terms | $\Gamma \vdash a = b:A$ | $\Gamma \vert \Phi \vdash a =_A b \; \mathrm{true}$ | $\Gamma \vdash p:a =_A b$ |
-| of types | $\Gamma \vdash A = B \; \mathrm{type}$ | $\Gamma \vert \Phi \vdash A = B \; \mathrm{true}$ | $\Gamma \vdash P:A \simeq B$ |
+| judgment | $\Gamma \vdash A = B \; \mathrm{type}$ | $\Gamma \vert \Phi \vdash A = B \; \mathrm{true}$ | $\Gamma \vdash P:A \simeq B$ |
+| reflexivity | $\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash A = A \; \mathrm{type}}$ | $\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash A = A \; \mathrm{true}}$ | $\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash id_{A}:A \simeq A}$ |
+| symmetry | $\frac{\Gamma \vdash A = B \; \mathrm{type}}{\Gamma \vdash B = A \; \mathrm{type}}$ | $\frac{\Gamma \vert \Phi \vdash A = B \; \mathrm{true}}{\Gamma \vert \Phi \vdash B = A \; \mathrm{true}}$ | $\frac{\Gamma \vdash P:A \simeq B}{\Gamma \vdash P^{-1}:B \simeq A}$ |
+| transitivity | $\frac{\Gamma \vdash A = B \; \mathrm{type} \quad \Gamma \vdash B = C \; \mathrm{type} }{\Gamma \vdash A = C \; \mathrm{type}}$ | $\frac{\Gamma \vert \Phi \vdash A = B \; \mathrm{true} \quad \Gamma \vert \Phi \vdash B = C \; \mathrm{true}}{\Gamma \vert \Phi \vdash A = C \; \mathrm{true}}$ | $\frac{\Gamma \vdash P:A \simeq B \quad \Gamma \vdash Q:B \simeq C}{\Gamma \vdash Q \circ P:A \simeq C}$ |
+
+| Of terms | Judgmental equality | Propositional equality | Typal equality |
+|--------|--------|--------|--------|
+| judgment | $\Gamma \vdash a = b:A$ | $\Gamma \vert \Phi \vdash a =_A b \; \mathrm{true}$ | $\Gamma \vdash p:a =_A b$ |
+| reflexivity | $\frac{\Gamma \vdash a:A}{\Gamma \vdash a = a:A}$ | $\frac{\Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash a =_A a \; \mathrm{true}}$ | $\frac{\Gamma \vdash a:A}{\Gamma \vdash \mathrm{refl}_{A}(a):a =_A a}$ |
+| symmetry | $\frac{\Gamma \vdash a = b:A}{\Gamma \vdash b = a:A}$ | $\frac{\Gamma \vert \Phi \vdash a =_A b \; \mathrm{true}}{\Gamma \vert \Phi \vdash b =_A a \; \mathrm{true}}$ | $\frac{\Gamma \vdash p:a =_A b}{\Gamma \vdash p^{-1}:b =_A a}$ |
+| transitivity | $\frac{\Gamma \vdash a = b:A \quad b = c:A }{\Gamma \vdash a = c:A}$ | $\frac{\Gamma \vert \Phi \vdash a =_A b \; \mathrm{true} \quad \Gamma \vert \Phi \vdash b =_A c \; \mathrm{true}}{\Gamma \vert \Phi \vdash a =_A c \; \mathrm{true}}$ | $\frac{\Gamma \vdash p:a =_A b \quad \Gamma \vdash q:b =_A c}{\Gamma \vdash p \bullet q:a =_A c}$ |
 
 ## Usages of equality
 
@@ -232,3 +241,6 @@ where de Bruijn makes a distinction between definitional equality and "book" equ
 [[!redirects intensional equalities]]
 [[!redirects extensional equality]]
 [[!redirects extensional equalities]]
+
+[[!redirects propositional equality]]
+[[!redirects propositionally equal]]
