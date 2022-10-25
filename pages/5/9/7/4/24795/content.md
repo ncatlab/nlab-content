@@ -1,5 +1,6 @@
 [[!redirects TestPageC]]
 [[!redirects TestPageD]]
+[[!redirects TestPageF]]
 
 [[TestPageB]]
 
