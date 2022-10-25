@@ -1,1 +1,3 @@
+[[!redirects TestPageE]]
+
 asd
