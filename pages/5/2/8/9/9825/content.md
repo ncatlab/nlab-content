@@ -8,26 +8,83 @@
 =--
 =--
 =--
+
 # Quantum measurement
 * table of contents
 {: toc}
 
 ## Idea
+ {#Idea}
 
 Quantum measurement is [[measurement]] in [[quantum mechanics]]. 
 
+The "[[projection postulate]]" of [[quantum physics]] asserts ([von Neumann 1932](#vonNeumann32); [Lüders 1951](#Lüders51)) that:
 
-## Definition
- {#Definition}
+1. measurement of [[quantum states]] is *with respect* to a choice of [[orthonormal linear basis]] $\big\{\vert \psi_b \rangle \big\}_{b : B}$ of the given [[Hilbert space]] $\mathscr{H}$ [[space of quantum states|of]] [[pure quantum states]];
 
-In terms of [[mixed quantum states]] represented by [[density matrices]], a quantum measurement is a [[quantum operation]] which is given by a [[positive-operator valued measure]]
+1. the result of measurement on [[pure quantum states]] $\vert \psi \rangle \;\in\; \mathscr{H}$ is 
+
+   1. a random value $b \in B$;
+
+   1. the "[[collapse of the wavefunction|collapse]]" of the [[quantum state]] being measured by [[orthogonal linear basis|orthogonal]] [[projection operator|projection]] to the the [[linear span]] of the $b$th basis state.
+
+      $$
+        \array{
+          P_b 
+            &\colon&
+          \mathscr{H} 
+            &\xrightarrow{\phantom{---}}&
+          \mathscr{H}_B \hookrightarrow \mathscr{H}
+          \\
+          &&
+          \vert \psi \rangle
+          &\mapsto&
+          P_b \vert \psi \rangle
+          \mathrlap{
+            =
+            \vert \psi_b \rangle
+            \langle \psi_b \vert \psi \rangle
+          }
+        }
+      $$ 
+     
+
+In terms of [[mixed quantum states]] represented by [[density matrices]], this prescription translates into a [[quantum operation]] which is given by a [[positive-operator valued measure]] (this is what [Lüders (1951)](#Lüders51) first wrote down).
+
+
+There are different ways to *[[type theory|type]]* the quantum measurement, taking into account the non-deterministic nature of its outcome: 
+
+1. Regarding the [[direct sum]] $\bigoplus_{b \colon B} \mathscr{H}$ of [[Hilbert spaces]] as the [[logical disjunction]] ("or") of [[quantum logic]], one may regard measurement as being the [[linear map]] into the direct sum whose $b$th component is $P_b$.
+
+   > This choice of typing appears (briefly) in [Selinger 2004](#Selinger04), [p. 39](https://www.mathstat.dal.ca/~selinger/papers/qpl.pdf#page=39), in a precursor discussion that led to the formulation of the [[quantum programming language]] *[[Quipper]]*.
+
+1. Regarding the measurement outcome $b \in B$ as the observed [[context]] of the actual quantum collapse, one may regard the collapse projection as [[dependent type theory|dependently typed]].
+
+   > Getting from previous option back to this one is known in the the [[Quipper]]-community as *[dynamic lifting](Quipper#ReferencesDynamicLifting)* (namely "of the measured bits back into the context")
+
+\begin{imagefromfile}
+    "file_name": "PossibleTypingsOfQuantumMeasurement-221025.jpg",
+    "width": "560",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Both of these options naturally emerge and are naturally unified in the "[Quantum Modal Logic](necessity+and+possibility#ModalQuantumLogic)" inherent to [[dependent linear type theory]]: This is discussed at *[[quantum circuits via dependent linear types]]*.
+
+\linebreak
 
 ## The "measurement problem"
 
 In the context of _[[interpretation of quantum mechanics]]_ it is common to speak of the "measurement problem" when referring to the tension between regarding [[quantum physics]] as a [[probability theory|probabilistic]] theory and the idea of realism.
 
-Namely by the [above](#Definition) a quantum measurement is formally reflected in a change of [[probabilities]]. But since in any given [[measurement]] [[experiment]] one definite outcome is observed, one may wonder how that particular outcome was actually chosen, given that the theory only gives its probability.
+Namely -- by the [above](#Definition) -- a quantum measurement is formally reflected in a change of [[probabilities]]. But since in any given [[measurement]] [[experiment]] one definite outcome is observed, one may wonder how that particular outcome was actually chosen, given that the theory only gives its probability.
 
+(...)
 
 ## Related concepts
 
@@ -47,11 +104,21 @@ Namely by the [above](#Definition) a quantum measurement is formally reflected i
 
 ### General
 
-* [[John von Neumann]], §III.3 and §VI of: 
+The original axiomatization of quantum measurement via the *projection postulate*:
+
+* {#vonNeumann32} [[John von Neumann]], §III.3 and §VI of: 
 
   *Mathematische Grundlagen der Quantenmechanik* (German) (1932, 1971) &lbrack;[doi:10.1007/978-3-642-96048-2](https://link.springer.com/book/10.1007/978-3-642-96048-2)&rbrack;
 
   *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
+
+* {#Lüders51} [[Gerhart Lüders]]:
+
+  *Über die Zustandsänderung durch den Meßprozeß*, Ann. Phys. **8** (1951) 322–328  &lbrack;[doi:10.1002/andp.19504430510](https://doi.org/10.1002/andp.19504430510)&rbrack;
+
+  *Concerning the state-change due to the measurement process*, Ann. Phys. **15** 9 (2006) 663-670 &lbrack;[pdf](http://myweb.rz.uni-augsburg.de/~eckern/adp/history/historic-papers/2006_518_663-670.pdf), [[Lueders-StateChange.pdf:file]]&rbrack;
+
+Review and discussion:
 
 * [[Roland Omnès]], §8 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
