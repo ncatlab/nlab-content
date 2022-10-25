@@ -75,6 +75,32 @@ $$ \begin {gathered}
 
 The rules above are written so as to remain valid in logics without the [[exchange rule]].  In [[linear logic]], the first batch of sequent rules apply to additive conjunction (interpret $p \wedge q$ in these rules as $p \& q$), while the second batch of rules apply to multiplicative conjunction (interpret $p \wedge q$ in those rules as $p \otimes q$).
 
+## As a logic gate
+ {#AsALogicGate}
+
+Logical conjunction as
+
+1. a [[logic gate]], 
+
+1. a [[reversible computation|reversible]] logic gate and 
+
+1. a (reversible) [[quantum logic gate]]:
+
+
+\begin{imagefromfile}
+    "file_name": "ANDGates-221025.jpg",
+    "width": "770",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
 ## Related concepts
 
 * in [[linear logic]]: _[[multiplicative conjunction]]_
