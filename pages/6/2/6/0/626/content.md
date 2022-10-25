@@ -196,7 +196,7 @@ String diagram calculus in [[linear algebra]]:
 
 ### In quantum computation
 
-* In [[quantum computation]], *[[quantum circuit diagrams]]* are a form of string diagrams in [[finite-dimensional vector spaces|finite-dimensional]] [[Hilbert spaces]].
+* In [[quantum computation]], *[[quantum circuit diagrams]]* are a form of string diagrams in [[finite-dimensional vector spaces|finite-dimensional]] [[Hilbert spaces]]. See also at *[[finite quantum mechanics in terms of dagger-compact categories]]*.
 
 ### In representation theory
  {#InRepresentationTheory}
