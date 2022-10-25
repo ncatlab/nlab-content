@@ -187,3 +187,6 @@ See also
 [[!redirects quantum state collapse]]
 
 [[!redirects Born's rule]]
+
+[[!redirects projection postulate]]
+
