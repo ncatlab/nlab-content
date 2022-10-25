@@ -26,7 +26,7 @@
 
 ## Idea
 
-Objective type theory is a [[dependent type theory]] without [[definitional equality]]. 
+Objective type theory is a [[dependent type theory]] without [[judgmental equality]]. 
 
 This means that the computation and uniqueness rules ([[beta-reduction]] and [[eta-conversion]]) for each type in the type theory are all propositional computational and uniqueness rules using the [[identity type]], and in particular means that the identity type has to be introduced first before any other type is introduced. 
 
@@ -389,7 +389,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash B \coloneqq A \; \mathrm
 The effect of such a definition in this case is that we have extended our type theory with a new constant $B$, for which the following inference rules are valid 
 $$\frac{\mathcal{D}}{B \; \mathrm{type}} \qquad \frac{\mathcal{D}}{\mathrm{defequiv}(B, A): B \simeq A}$$
 
-In essence, we define an element $b$ to be equal to $a$, and a type $B$ to be equivalent to $A$, in the same way that in [[structural set theory]], which usually also doesn't have [[definitional equality]], one would define element $b$ to be equal to $a$ and set $B$ to be in [[bijection]] with $A$. 
+In essence, we define an element $b$ to be equal to $a$, and a type $B$ to be equivalent to $A$, in the same way that in [[structural set theory]], which usually also doesn't have [[judgmental equality]], one would define element $b$ to be equal to $a$ and set $B$ to be in [[bijection]] with $A$. 
 
 ### Transport
 
@@ -553,7 +553,7 @@ See also [[open problems in homotopy type theory]]
 
 ## See also
 
-* [[definitional equality]], [[identity type]]
+* [[judgmental equality]], [[identity type]]
 
 * [[dependent type theory]], [[Martin-Löf type theory]], [[homotopy type theory]]
 
