@@ -29,7 +29,7 @@ Here is a list of distinctions between different notions of _equality_, in diffe
 *  the difference between [[axiom|axiomatic]] and [[definition|defined]] equality;
 *  the difference between identity and equality,
 *  the difference between intensional and extensional equality,
-*  the difference between equality [[judgements]] and equality [[propositions]],
+*  the difference between equality [[judgements]], equality [[propositions]], and equality [[types]]
 *  the difference between equality and [[isomorphism]],
 *  the difference between equality and [[equivalence]],
 *  the possibility of operations that might not preserve equality.
@@ -39,7 +39,7 @@ Here is a list of distinctions between different notions of _equality_, in diffe
 
 In a formal language such as [[type theory]], one distinguishes various different notions of _equality_ or _equivalence_ of the terms of the language.
 
-In [[type theory]], there are broadly three different notions of equality which could be distinguished: **judgmental equality**, **propositional equality**, and **typal equality**. Judgmental equality is defined as a basic judgment in type theory. Propositional equality is defined as a proposition in any two-layered type theory with a layer of types and a layer of propositions. Typal equality is the [[identity type]] or [[path type]] in type theory. 
+In [[type theory]], there are broadly three different notions of equality which could be distinguished: **judgmental equality**, **propositional equality**, and **typal equality**. Judgmental equality is defined as a basic judgment in type theory. Propositional equality is defined as a proposition in any two-layered type theory with a layer of types and a layer of propositions. Typal equality defined as a type in type theory. 
 
 ### Judgmental equality
 
@@ -49,78 +49,36 @@ However, not all type theories have judgmental equality; most [[first-order theo
 
 ### Propositional equality
 
-In any two-layer type theory with a layer of [[types]] and a layer of [[propositions]], or equivalently a [[first order logic]] over [[type theory]] or a [[first-order theory]], every type $A$ has a binary [[relation]] according to which two elements $x$ and $y$ of $A$ are related if and only if they are equal; in this case we write $x \equiv_A y$. Since relations are propositions in the context of a term variable judgment in the type layer, this is called **propositional equality**. Notable examples of propositional equality include the equality in all flavors of [[set theory]], such as [[ZFC]] or [[ETCS]].  
+In any two-layer type theory with a layer of [[types]] and a layer of [[propositions]], or equivalently a [[first order logic]] over [[type theory]] or a [[first-order theory]], every type $A$ has a binary [[relation]] according to which two elements $x$ and $y$ of $A$ are related if and only if they are equal; in this case we write $x =_A y$. Since relations are propositions in the context of a term variable judgment in the type layer, this is called **propositional equality**. Notable examples of propositional equality include the equality in all flavors of [[set theory]], such as [[ZFC]] or [[ETCS]].  
 
 The presence of propositional equality is part of the axiomatization of first-order theories, although this is usually swept under the rug by including propositional equality by default in all first-order theories.  (It has to be made more explicit in a structural set theory such as [[SEAR]], where there is no propositional equality on sets themselves, only on elements of a particular set.) By contrast, in a first order theory without propositional equality, propositional equality is an [[equivalence relation]] which has to be put onto a [[type]] or [[preset]].
 
 ### Typal equality
 
-However, not all type theories are [[first order logic]] over [[type theory]], nor are they even two-layered type theories. In type theories with only one layer for types, equality is not a relation, but rather a type family. Since type families are types in the context of a term variable judgment, this is called **typal equality**. Because typal equality is a type, it is usually also called the **equality type**, **identity type**, **path type**, or **identification type**, and the terms of typal equality are called **equalities**, **identities**, **identifications**, **paths**. Notable examples of typal equality include the [[identity type]] in [[Martin-Löf type theory]] and [[higher observational type theory]], and the [[cubical path type]] in [[cubical type theory]]. 
+However, not all type theories are [[first order logic]] over [[type theory]], nor are they even two-layered type theories. In type theories with only one layer for types, equality is not a relation. Instead, we have what are called **typal equality**, as equality of both terms and types are represented by types.  Typal equality of terms is also called the **equality type**, **identity type**, **path type**, or **identification type**, and the terms of typal equality are called **equalities**, **identities**, **identifications**, **paths**. Notable examples of typal equality of terms include the [[identity type]] in [[Martin-Löf type theory]] and [[higher observational type theory]], and the [[cubical path type]] in [[cubical type theory]]. Typal equality of types is also called **[[equivalence of types]]**, are written as $A \simeq B$ for types $A$ and $B$ and are definable in all type theories with typal equality of terms, [[function types]], [[dependent product types]], and [[dependent sum types]]. 
 
-Type theories with only typal equality are called [[objective type theories]]. In type theories with both typal equality and either judgmental equality or propositional equality, one could distinguish between [[intensional type theories]] and [[extensional type theories]]: extensional type theories are type theories with an equality reflection rule, where one could derive judgmental or propositional equality from typal equality:
+Type theories with only typal equality are called [[objective type theories]]. In type theories with both typal equality and either judgmental equality or propositional equality, one could distinguish between [[intensional type theories]] and [[extensional type theories]]: extensional type theories are type theories with an equality reflection rule, where one could derive judgmental or propositional equality of terms from typal equality of terms:
 
 $$\frac{\Gamma \vdash p:a =_A b}{\Gamma \vdash a \equiv b:A} \qquad \frac{\Gamma \vert \Phi \vdash p:a =_A b}{\Gamma \vert \Phi \vdash a \equiv_A b \; \mathrm{true}}$$
 
-Intensional type theories are then type theories with typal equality and one of either judgmental or propositional equality without an equality reflection rule. 
-
-Note that this notion of extensionality is different from the [[axiom of extensionality]] or [[function extensionality]]. 
+Intensional type theories are then type theories with typal equality and one of either judgmental or propositional equality without an equality reflection rule. Note that this notion of extensionality is different from the [[axiom of extensionality]] or [[function extensionality]]. 
 
 ### Comparison of equalities
 
-* Judgmental equality of terms: 
-$$a \equiv b:A$$
+This table gives the six different notions of equality found in type theory. 
 
-* Propositional equality of terms
-$$a \equiv_A b \; \mathrm{true}$$
-
-* Typal equality of terms (i.e. [[identity type]]): 
-$$p:a =_A b$$
-
-* Judgmental equality of types: 
-$$A \equiv B \; \mathrm{type}$$
-
-* Propositional equality of types
-$$A \equiv B \; \mathrm{true}$$
-
-* Typal equality of types (i.e. [[equivalence of types]]): 
-$$P:A \simeq B$$
-
-* Substitution of judgmentally equal terms:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B \; \mathrm{type}}{\Gamma, \Delta \vdash B[a/x] \equiv B[b/x] \; \mathrm{type}}$$
-
-* Substitution of propositional equal terms:
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a : A \quad \Gamma \vert \Phi \vdash b : A \quad \Gamma \vert \Phi \vdash a \equiv_A b \; \mathrm{true} \quad \Gamma, x:A, \Delta \vert \Phi \vdash B \; \mathrm{type}}{\Gamma, \Delta \vert \Phi \vdash B[a/x] \equiv B[b/x] \; \mathrm{true}}$$
-
-* Substitution of typally equal terms (i.e. [[transport]]):
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A, \Delta \vdash B \; \mathrm{type}}{\Gamma, \Delta \vdash \mathrm{tr}(x.B, a, b, p):B[a/x] \simeq B[b/x]}$$
+| | Judgmental equality | Propositional equality | Typal equality |
+|--------|--------|--------|--------|
+| of terms | $\Gamma \vdash a = b:A$ | $\Gamma \vert \Phi \vdash a =_A b \; \mathrm{true}$ | $\Gamma \vdash p:a =_A b$ |
+| of types | $\Gamma \vdash A = B \; \mathrm{type}$ | $\Gamma \vert \Phi \vdash A = B \; \mathrm{true}$ | $\Gamma \vdash P:A \simeq B$ |
 
 ## Usages of equality
 
 The three different notions of equality above could be used in definitions, where the equality is called **definitional equality**, as well as in the computation and uniqueness rules of type formers, where the equality is called **computational equality**, **conversional equality**, or **reductional equality**. 
 
-### Computational equality
-
-One usage of equality is in the computation rules and uniqueness rules for the various type formers, such as [[∞-reduction]] or [[∞-conversion]] (the choice of rules depends on the type theory). The usage of equality in this manner is called *computational*, *conversional*, or *reductional* equality, and is the congruence on terms generated by the conversion or reduction rules. 
-
-Computational equality comes in judgmental, propositional, and typal versions. For example, the computation rule for the [[dependent product type]] could be expressed in judgmental, propositional, and typal equality:
-
-* Judgmental computation rules:
-
-$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \lambda(x:A).b(x)(a) \equiv b[a/x]:B[a/x]}$$
-
-* Propositional computation rules:
-
-$$\frac{\Gamma, x:A \vert \Phi \vdash b(x):B(x) \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash \lambda(x:A).b(x)(a) \equiv_{B[a/x]} b[a/x] \; \mathrm{true}}$$
-
-* Typal computation rules:
-
-$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_\Pi:\lambda(x:A).b(x)(a) =_{B[a/x]} b[a/x]}$$
-
-The paradigmatic example of computational equality is a pair of terms like "$(\lambda x. x+x)(2)$" and "$2+2$", where the second is obtained by $\beta$-reduction from the first.  In a type theory that includes definitions by [[recursion]], expansion of a recursor is also computational equality. For instance, if addition is defined by recursion, then "$2+2$" (that is, $s(s(0))+s(s(0))$) reduces via this rule to "$4$" (that is, $s(s(s(s(0))))$).
-
 ### Definitional equality
 
-Another notion is _definitional equality_ or _intensional equality_.
+One usage of equality is in defining symbols and abbreviations. This usage is called **definitional equality** or sometimes **intensional equality**
 
 According to [PML (1980), p. 31](#PML):
 
@@ -131,6 +89,40 @@ on p. 60:
 > ... intensional (sameness of meaning) ...
 
 For instance the symbols "$2$" and "$s(s(0))$" (meaning the successor of the successor of $0$) are definitionally/intensionally equal terms (of type the [[natural numbers]]): the first is merely an abbreviation for the second.
+
+Definitional equality comes in judgmental, propositional, and typal flavors as well. In [[Martin-Löf type theory]] and [[cubical type theory]], symbols and abbreviations are defined using judgmental equality. In [[ZFC]] and [[ETCS]], they are defined using propositional equality, and in [[objective type theories]], they are defined using typal equality. For example, the [[principle of substituting equals for equals]] is given by the following judgmental, propositional, and typal rules respectively:
+
+* Substitution of judgmentally equal terms:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a = b : A \quad \Gamma, x:A, \Delta \vdash B \; \mathrm{type}}{\Gamma, \Delta[b/x] \vdash B[a/x] = B[b/x] \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a = b : A \quad \Gamma, x:A, \Delta \vdash c:B}{\Gamma, \Delta[b/x] \vdash c[a/x] = c[b/x]: B[b/x]}$$
+
+* Substitution of propositionally equal terms:
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a : A \quad \Gamma \vert \Phi \vdash b : A \quad \Gamma \vert \Phi \vdash a =_A b \; \mathrm{true} \quad \Gamma, x:A, \Delta \vert \Phi \vdash B \; \mathrm{type}}{\Gamma, \Delta[b/x] \vert \Phi \vdash B[a/x] = B[b/x] \; \mathrm{true}}$$
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a : A \quad \Gamma \vert \Phi \vdash b : A \quad \Gamma \vert \Phi \vdash a =_A b \; \mathrm{true} \quad \Gamma, x:A, \Delta \vert \Phi \vdash c:B}{\Gamma, \Delta[b/x] \vert \Phi \vdash c[a/x] =_{B[b/x]} c[b/x] \; \mathrm{true}}$$
+
+* Substitution of typally equal terms (i.e. [[transport]] and [[action on identifications]]):
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A, \Delta \vdash B \; \mathrm{type}}{\Gamma, \Delta[b/x] \vdash \mathrm{tr}(x.B, a, b, p):B[a/x] \simeq B[b/x]}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A, \Delta \vdash c:B}{\Gamma, \Delta[b/x] \vdash \mathrm{ap}(c, x.B, a, b, p):\mathrm{tr}(x.B, a, b, p)(c[a/x]) =_{B[b/x]} c[b/x]}$$
+
+### Computational equality
+
+Another usage of equality is in the computation rules and uniqueness rules for the various type formers, such as [[∞-reduction]] or [[∞-conversion]] (the choice of rules depends on the type theory). The usage of equality in this manner is called *computational*, *conversional*, or *reductional* equality, and is the congruence on terms generated by the conversion or reduction rules. 
+
+Computational equality comes in judgmental, propositional, and typal versions. For example, the computation rule for the [[dependent product type]] could be expressed in judgmental, propositional, and typal equality:
+
+* Judgmental computation rules:
+
+$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \lambda(x:A).b(x)(a) = b[a/x]:B[a/x]}$$
+
+* Propositional computation rules:
+
+$$\frac{\Gamma, x:A \vert \Phi \vdash b(x):B(x) \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash \lambda(x:A).b(x)(a) =_{B[a/x]} b[a/x] \; \mathrm{true}}$$
+
+* Typal computation rules:
+
+$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_\Pi:\lambda(x:A).b(x)(a) =_{B[a/x]} b[a/x]}$$
+
+The paradigmatic example of computational equality is a pair of terms like "$(\lambda x. x+x)(2)$" and "$2+2$", where the second is obtained by $\beta$-reduction from the first.  In a type theory that includes definitions by [[recursion]], expansion of a recursor is also computational equality. For instance, if addition is defined by recursion, then "$2+2$" (that is, $s(s(0))+s(s(0))$) reduces via this rule to "$4$" (that is, $s(s(s(s(0))))$).
 
 ## History
 
