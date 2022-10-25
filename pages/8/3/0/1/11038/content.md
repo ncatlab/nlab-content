@@ -26,6 +26,8 @@
 
 ## Related concepts
 
+* [[logic gate]]
+
 * [[quantum circuit]]
 
 * [[quantum logic]]
