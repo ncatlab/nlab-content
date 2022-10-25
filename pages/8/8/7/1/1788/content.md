@@ -22,6 +22,8 @@
   \mathrm{EM}(\mathrm{ U \circ F })
 \end{tikzcd}
 
+[[DefinitelyRandomlyViaPossiblyNecessarily.jpg:file]]
+
 [[MeasurementViaWriterComonad-221025b.jpg:file]]
 
 [[ContingentTypesAsPossibilityActions-201024.jpg:file]]
