@@ -128,7 +128,7 @@ Expositions:
   
   _Eckmann-Hilton 2_ ([video](http://www.youtube.com/watch?v=wnRqo7UHa-k))
 
-* [[Eugenia Cheng]], [picture](http://eugeniacheng.com/wp-content/uploads/2017/02/cheng-clock.pdf) (pdf)
+* [[Eugenia Cheng]], ([picture](http://eugeniacheng.com/ehclock/))
 {#Cheng}
 
 * [[Andrew Stacey]], [animation](https://web.archive.org/web/20150326221729/http://www.math.ntnu.no/~stacey/documents/eckmannhilton.mpg) (mpeg)
