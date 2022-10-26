@@ -94,11 +94,15 @@ and speculation of this being related to the [[Connes-Lott model]] (see [here](2
 * {#Connes06} [[Alain Connes]],  p. 8 of _Noncommutative Geometry and the standard model with neutrino mixing_, JHEP0611:081,2006 ([arXiv:hep-th/0608226](http://arxiv.org/abs/hep-th/0608226))
 
 
-Review of the asymptotic safety program includes these:
+Review of the asymptotic safety program:
 
 * {#Niedermaier06} [[Max Niedermaier]], _The Asymptotic Safety Scenario in Quantum Gravity -- An Introduction_, Class.Quant.Grav.24:R171-230,2007 ([arXiv:gr-qc/0610018](https://arxiv.org/abs/gr-qc/0610018))
 
 * [[Max Niedermaier]], [[Martin Reuter]], _The Asymptotic Safety Scenario in Quantum Gravity_, Living Reviews in Relativity December 2006, 9:5 [doi:10.12942/lrr-2006-5](http://link.springer.com/article/10.12942/lrr-2006-5)
+
+* Riccardo Martini, Gian Paolo Vacca, Omar Zanusso, *Perturbative approaches to non-perturbative quantum gravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.13910](https://arxiv.org/abs/2210.13910)&rbrack;
+
+
 
 Critical review:
 
