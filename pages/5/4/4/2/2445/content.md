@@ -97,7 +97,7 @@ We discuss the classification of Clifford algebras over the [[real numbers]] and
 
 In the following we write
 
-*  $\Cl_{s,t}$ for the real Clifford algebra with 
+*  $\Cl_{s,t}$ for the Clifford algebra of a vector space over the real numbers with 
 
    * $s$ generators squaring to -1 
 
