@@ -94,6 +94,17 @@ The case of the [[Deutsch-Jozsa algorithm]]:
 
 * [[David Deutsch]], [[Richard Jozsa]], *Rapid solution of problems by quantum computation*. Proc. R. Soc. Lond. A **439** 1907 (1992) 553-558 &lbrack;[pdf](https://www.isical.ac.in/~rcbose/internship/lectures2016/rt08deutschjozsa.pdf), [doi:10.1098/rspa.1992.0167](https://doi.org/10.1098/rspa.1992.0167)&rbrack;
 
+
+For [[integral transforms]]:
+
+* Doğa Veske et al., *Quantum Advantage for Integral Transforms* &lbrack;[arXiv:2204.04159](https://arxiv.org/abs/2204.04159)&rbrack;
+
+Survey:
+
+* Andrew M. Childs, Wim van Dam, *Quantum algorithms for algebraic problems*, Rev. Mod. Phys. **82** 1 (2010) &lbrack;[arXiv:0812.0380](https://arxiv.org/abs/0812.0380), [doi:10.1103/RevModPhys.82.1](https://doi.org/10.1103/RevModPhys.82.1)&rbrack;
+
+
+
 Application of quantum computing to [[quantum chemistry]]:
 
 * [[Seth Lloyd]], *Universal Quantum Simulators*, Science New Series **273** 5278 (1996) 1073-1078 &lbrack;[jstor:2899535](https://www.jstor.org/stable/2899535), [doi:10.1126/science.273.5278.1073](https://doi.org/10.1126/science.273.5278.1073)&rbrack;
@@ -104,14 +115,14 @@ Argument that quantum supremacy in quantum chemistry is elusive:
 
 * [[Garnet Kin-Lic Chan]] et al., *Is there evidence for exponential quantum advantage in quantum chemistry?* &lbrack;[arXiv:2208.02199](https://arxiv.org/abs/2208.02199), [talk video](https://youtu.be/DZPH7ENcRLU)&rbrack;
 
-Survey:
+Application to [[solid state physics]]:
 
-* Andrew M. Childs, Wim van Dam, *Quantum algorithms for algebraic problems*, Rev. Mod. Phys. **82** 1 (2010) &lbrack;[arXiv:0812.0380](https://arxiv.org/abs/0812.0380), [doi:10.1103/RevModPhys.82.1](https://doi.org/10.1103/RevModPhys.82.1)&rbrack;
+* Nobuyuki Yoshioka, Tsuyoshi Okubo, Yasunari Suzuki, Yuki Koizumi, Wataru Mizukami, *Hunting for quantum-classical crossover in condensed matter problems* &lbrack;[arXiv:2210.14109](https://arxiv.org/abs/2210.14109)&rbrack;
 
-For [[integral transforms]]:
 
-* Doğa Veske et al., *Quantum Advantage for Integral Transforms* &lbrack;[arXiv:2204.04159](https://arxiv.org/abs/2204.04159)&rbrack;
-.
+
+
+
 
 
 ### Quantum complexity theory
