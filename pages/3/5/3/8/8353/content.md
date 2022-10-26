@@ -11,7 +11,6 @@
 
 > There are good reasons why the theorems should all be easy and the definitions hard. ([[Michael Spivak]], preface to "[[Calculus on Manifolds]]" )
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -56,7 +55,7 @@ $$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash a:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash a:A} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \delta_a:a =_A b}$$
 
-For instance the symbols "$2$" and "$s(s(0))$" (meaning the successor of the successor of $0$) are definitionally equal terms in the type of [[natural numbers]]: the first is merely an abbreviation for the second. This is formally defined judgmentally, propositionally, and typally as follows:
+For instance one usually defines the symbol $2$ to be the term $s(s(0))$ (meaning the successor of the successor of $0$) in the type of [[natural numbers]]. This is formally defined judgmentally, propositionally, and typally as follows:
 
 * Introduction and judgmental definition rules for $2$:
 
@@ -70,11 +69,21 @@ $$\frac{\Gamma \vert \Phi \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vert \Phi 
 
 $$\frac{\Gamma \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vdash 2:\mathbb{N}} \qquad \frac{\Gamma \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vdash \delta_2:2 =_{\mathbb{N}} s(s(0))}$$
 
-## Inductive and recursive definitions
+### Inductive and recursive definitions
 
-This is also true of inductive definitions:
+Something similar happens with inductive and recursive definitions; however, there is one definition rule for every introduction rule of the type it is being defined on. For example, addition is usually defined by recursion on the natural numbers, and comes with an introduction rule and two definition rules, one for the base case $0$ and one for the inductive case $s$ the successor function: 
 
-...
+* Introduction and judgmental definition rules for addition $+$:
+
+$$\frac{\Gamma \vdash \mathbb{N} \; \mathrm{type} \quad \Gamma \vdash m:\mathbb{N} \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash m + n:\mathbb{N}} \qquad \frac{\Gamma \vdash \mathbb{N} \; \mathrm{type} \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash 0 + n = n:\mathbb{N}} \qquad \frac{\Gamma \vdash \mathbb{N} \; \mathrm{type}\quad \Gamma \vdash m:\mathbb{N} \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash s(m) + n = s(m + n):\mathbb{N}}$$
+
+* Introduction and propositional definition rules for addition $+$:
+
+$$\frac{\Gamma \vert \Phi \vdash \mathbb{N} \; \mathrm{type} \quad \Gamma \vert \Phi \vdash m:\mathbb{N} \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vert \Phi \vdash m + n:\mathbb{N}} \qquad \frac{\Gamma \vert \Phi \vdash \mathbb{N} \; \mathrm{type} \quad \Gamma \vert \Phi \vdash n:\mathbb{N}}{\Gamma \vert \Phi \vdash 0 + n =_\mathbb{N} n \; \mathrm{true}} \qquad \frac{\Gamma \vert \Phi \vdash \mathbb{N} \; \mathrm{type}\quad \Gamma \vert \Phi \vdash m:\mathbb{N} \quad \Gamma \vert \Phi \vdash n:\mathbb{N}}{\Gamma \vert \Phi \vdash s(m) + n =_\mathbb{N} s(m + n) \; \mathrm{true}}$$
+
+* Introduction and typal definition rules for addition $+$:
+
+$$\frac{\Gamma \vdash \mathbb{N} \; \mathrm{type} \quad \Gamma \vdash m:\mathbb{N} \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash m + n:\mathbb{N}} \qquad \frac{\Gamma \vdash \mathbb{N} \; \mathrm{type} \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash \delta_{+}^0(n):0 + n =_\mathbb{N} n} \qquad \frac{\Gamma \vdash \mathbb{N} \; \mathrm{type}\quad \Gamma \vdash m:\mathbb{N} \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash \delta_{+}^s(m, n):s(m) + n =_\mathbb{N} s(m + n)}$$
 
 ## The initialization operator
 
