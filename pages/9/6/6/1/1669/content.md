@@ -9,6 +9,7 @@ In [[propositional logic]], the __exclusive disjunction__ (also called __exclusi
 
 
 ## Definitions
+ {#Definitions}
 
 The __exclusive disjunction__ of $p$ and $q$, written $p &#8891; q$ (and a host of other ways), may be defined in any of these forms:
 1.  $\neg(p \Leftrightarrow q)$,
@@ -36,6 +37,23 @@ Note that the [[union]], exclusive union, and (internal, or external up to [[nat
 
 We also have the __[[symmetric difference]]__ of two sets, which is the same as the exclusive union.  But we see this operation as the addition in a [[Boolean ring]] and so actually interpret it in the usual way as an associative operation.  So the symmetric difference of $n$ sets indeed consists of those points that belong to an odd number of sets, and there is no infinitary symmetric difference.
 
+## As a logic gate
+ {#AsALogicGate}
+
+Exclusive disjunction as a [[logic gate]], a [[reversible computation|reversible]] gate ([[CNOT]]) and as a [[quantum logic gate]]: 
+
+\begin{imagefromfile}
+    "file_name": "CNOTGates-221026a.jpg",
+    "width": "750",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
 ## In natural language
 
@@ -43,6 +61,17 @@ It is widely said that 'or' in English can mean either inclusive or exclusive di
 
 For the literature on this subject, see [the Stanford Encylopedia entry](http://plato.stanford.edu/entries/disjunction/#NatLan) and The Myth of the Exclusive 'Or' (*Mind*, 80 (317), 116--121).
 
+## Related concepts
+
+* [[CNOT]]
+
+* [[logic gate]]
+
+## References
+
+See also
+
+* Wikipedia, *[Exclusive or](https://en.wikipedia.org/wiki/Exclusive_or)*
 
 
 [[!redirects exclusive disjunction]]
