@@ -43,7 +43,7 @@ We also have the __[[symmetric difference]]__ of two sets, which is the same as 
 Exclusive disjunction as a [[logic gate]], a [[reversible computation|reversible]] gate ([[CNOT]]) and as a [[quantum logic gate]]: 
 
 \begin{imagefromfile}
-    "file_name": "CNOTGates-221026a.jpg",
+    "file_name": "CNOTGates-221026c.jpg",
     "width": "750",
     "unit": "px",
     "margin": {
