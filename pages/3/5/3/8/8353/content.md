@@ -85,6 +85,10 @@ $$\frac{\Gamma \vert \Phi \vdash \mathbb{N} \; \mathrm{type} \quad \Gamma \vert 
 
 $$\frac{\Gamma \vdash \mathbb{N} \; \mathrm{type} \quad \Gamma \vdash m:\mathbb{N} \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash m + n:\mathbb{N}} \qquad \frac{\Gamma \vdash \mathbb{N} \; \mathrm{type} \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash \delta_{+}^0(n):0 + n =_\mathbb{N} n} \qquad \frac{\Gamma \vdash \mathbb{N} \; \mathrm{type}\quad \Gamma \vdash m:\mathbb{N} \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash \delta_{+}^s(m, n):s(m) + n =_\mathbb{N} s(m + n)}$$
 
+Another example of an inductive definition is the definition of the [[transport]] function, which is given by the following introduction and definition rules:
+
+
+
 ## The initialization operator
 
 Section to be written on the use of $\coloneqq$ in mathematics; for the time being, see [[initialization operator]]. 
