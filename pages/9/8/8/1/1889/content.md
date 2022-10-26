@@ -25,24 +25,26 @@ A **lax functor** or **lax $n$-[[n-functor|functor]]** is a morphism of $n$-[[n-
 
 This is to distinguish from [[pseudofunctor]] for which all these cells are required to be [[equivalences]].
 
-This means that the definition of lax functor involves a choice of orientation of these structural cells which is not visible for pseudofunctors. The choice is such that the first example below comes out as stated. With the opposite choice one speaks of an **oplax functor**.
+This means that the definition of lax functor involves a choice of orientation of these structural cells which is not visible for pseudofunctors. The choice is such that cells map composites of images to images of composite. With the opposite choice one speaks of an **oplax** (or sometimes **colax**) functor**.
 
-Often the term lax functor is used for $n$-functors $F : C \to D$ whose domain $C$ is an ordinary [[category]] (regarded as an $n$-category with only trivial higher morphisms), while the codomain $D$ is often taken to be a [[2-category]].
+The term lax functor can be used for $n$-functors $F : C \to D$ whose domain $C$ is an ordinary [[category]] (regarded as an $n$-category with only trivial higher morphisms), while the codomain $D$ is often taken to be a [[2-category]].
 
 A **normal lax functor** (sometimes called *strictly unitary*) preserves identities strictly.
 
+There exist a similar concept for [[double category|double]] and [[multiple categories]].
 
 ## Definition
 
 See the definition at [[pseudofunctor]], and let the [[natural isomorphisms]] in that definition be merely [[natural transformations]].
 
-
 ## Properties
 
-One of the most important properties is that lax functors compose associatively and unitally: we have a category $Bicat$ with [[bicategories]] as objects and lax functors as morphisms.
+One of the most important properties is that lax functors compose associatively and unitally: we have a category $\bf{BiCat}$ with [[bicategories]] as objects and lax functors as morphisms.
+If we add [[icons]] as 2-cells, this becomes a [[2-category]].
 
+## Examples
 
-## Examples 
+* Any [[lax monoidal functor]] gives an example. In fact [[monoidal categories]] can be presented as bicategories with one object (see [[delooping]]), and thus a lax functor $\mathbg{B}M \to \mathbf{B} N$ corresponds to a lax monoidal functor $M \to N$.
 
 * For $D$ a [[bicategory]], lax functors $F : {*} \to D$ from the [[point]] category to $D$ are equivalent to [[monad]]s in $D$.
 
@@ -76,7 +78,12 @@ Isn't it odd not to require any extra condition at all on the coherence morphism
 [[Mike Shulman]]: One could certainly add that as a condition, but I don't think I've ever heard of anyone having a use for it, or giving it a name.  The interesting examples listed above (and others) don't use any such condition.
 =--
 
-## Literature
+## See also
+* [[lax double functor]]
+
+## References
+
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Section 4.1 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
 
 * R. Street, _Two constructions on lax functors_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Volume 13 (1972) no. 3 , p. 217-264 [numdam](http://www.numdam.org/item?id=CTGDC_1972__13_3_217_0 )
 
