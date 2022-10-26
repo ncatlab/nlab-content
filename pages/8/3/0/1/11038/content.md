@@ -24,6 +24,86 @@
 
 (...)
 
+## Examples
+
+The first examples are linearizations of classical  [[logic gates]], or rather of their [[reversible computation|reversible]] versions:
+
+\linebreak
+
+**[[NOT]]:**
+
+\begin{imagefromfile}
+    "file_name": "NOT_LogicGate-221025.jpg",
+    "width": "600",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+\linebreak
+
+\linebreak
+
+**[[XOR]]** and **[[CNOT]]:**
+
+\begin{imagefromfile}
+    "file_name": "CNOTGates-221026a.jpg",
+    "width": "750",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+\linebreak
+
+**[[AND]]**:
+
+\begin{imagefromfile}
+    "file_name": "ANDGates-221026.jpg",
+    "width": "770",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+\linebreak
+
+The following examples have no classical analog:
+
+\linebreak
+
+**[[Hadamard gate]]**:
+
+\begin{imagefromfile}
+    "file_name": "HadamardGate-221026a.jpg",
+    "width": "560",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+\linebreak
+
+(...)
+
+
 ## Related concepts
 
 * [[logic gate]]
