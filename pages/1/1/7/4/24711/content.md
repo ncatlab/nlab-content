@@ -47,6 +47,7 @@ $$
   \,,
 $$
 
+
 hence which is the [[linear map]] $H \,\colon\, \mathbb{C}^2 \longrightarrow \mathbb{C}^2$ which in the standard [[linear basis]] is given by the [[matrix]]
 
 $$
@@ -60,6 +61,19 @@ $$
   \right)
   \,.
 $$
+
+\begin{imagefromfile}
+    "file_name": "HadamardGate-221026a.jpg",
+    "width": "560",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
 Simple as it is, the Hadamard gate plays a central role in theory and practice of [[quantum circuits]], notably where in its combination with the [[CNOT gate]] it is used to produce [[Bell states]] (such as in the [[quantum teleportation protocol]]).
 
