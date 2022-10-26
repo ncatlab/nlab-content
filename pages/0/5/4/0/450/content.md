@@ -100,6 +100,10 @@ $n$-fold categories in general were introduced in Définition 15 of
 
 as _*n*-uple categories_.
 
+A thorough theory of multiple categories appears in:
+
+* {#Grandis19} [[Marco Grandis]], _Higher dimensional categories: from double to multiple categories_, [World Scientific]((https://doi.org/10.1142/11406)), 2019
+
 Other references:
 
 * [[Ronnie Brown]] and P.J. Higgins, The equivalence of $\infty$-groupoids and crossed  complexes,  Cah. Top. G\'eom. Diff.  22 (1981) 371--386.
@@ -110,7 +114,6 @@ Appl.  Algebra, 21 (1981) 233-260.
 * G.J. Ellis, and R.J. Steiner. Higher-dimensional crossed modules and the homotopy groups of $(n+1)$-ads, J. Pure Appl. Algebra, 46  {1987} 117--136. 
 
 * J.-L. Loday. Spaces with finitely many nontrivial homotopy groups, J. Pure Appl. Algebra, 24 (1982) 179--202.
-
 
 * [[Ronnie Brown]] and J.-L. Loday. Van Kampen theorems for diagrams of spaces. Topology 26 (1987) 311--335. With an appendix by M. Zisman.
 
@@ -125,6 +128,10 @@ IMA Vol. Math. Appl., 152, Springer, New York, 2010.
 
 * T.  M. Fiore and  S. Paoli.  A Thomason model structure on the category of small $n$-fold categories. Algebr. Geom. Topol. 10 (2010) 1933&#8211;-2008.
 
+* [[Marco Grandis]], [[Robert Parè]], _An introduction to multiple categories (On weak and lax multiple categories, I) _, Cahiers de Topologie et Géométrie Différentielle Catégoriques, [(pdf)](http://cahierstgdc.com/wp-content/uploads/2017/11/CTGDC_57_2_Grandis-Pare-I.pdf)
+
+* [[Marco Grandis]], [[Robert Parè]], _Limits in multiple categories (On weak and lax multiple categories, II)_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, [(pdf)](http://cahierstgdc.com/wp-content/uploads/2017/11/Grandis-Pare-57-3.pdf)
+
 
 [[!redirects n-fold categories]]
 
@@ -133,3 +140,6 @@ IMA Vol. Math. Appl., 152, Springer, New York, 2010.
 
 [[!redirects n-fold groupoid]]
 [[!redirects n-fold groupoids]]
+
+[[!redirects multiple category]]
+[[!redirects multiple categories]]
