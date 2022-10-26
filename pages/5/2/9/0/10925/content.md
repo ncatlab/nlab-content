@@ -14,22 +14,30 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 Broadly, a *logic gate* is a [[function]] 
-
-$$
-  Bool^{n_{in}}
-  \xrightarrow{\phantom{---}}
-  Bool^{n_{out}}
-$$
-
 of [[tuples]] of [[truth values]], hence a
 [[map]]
 between [[cartesian products]] $\mathrm{Bool}^n$ of [[Booleans]] $Bool \,\coloneqq\, \{false, true\} \;\simeq\; \{0,1\}$.
 
+\begin{imagefromfile}
+    "file_name": "GenericLogicGate-221026.jpg",
+    "width": "640",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 Specifically, one calls such a function a *logic gate* if it is thought of as potentially implemented as a basic operation performed by a [[computing]] machine -- in which case the [[truth values]] are also called *[[bits]]*. 
 
 As such, typical logic gates are Boolean functions between a *small* number of [[bits]], with more complicated such functions thought as obtained by composing a given set of logic gates into  [[logic circuits]].
+
+Analogously there are [[quantum logic gates]] compiled into [[quantum circuits]].
 
 
 ## Examples
@@ -59,7 +67,7 @@ A list of some basic logic and gates and their [[reversible computation|reversib
 **[[XOR]]** and **[[CNOT]]:**
 
 \begin{imagefromfile}
-    "file_name": "CNOTGates-221026a.jpg",
+    "file_name": "CNOTGates-221026c.jpg",
     "width": "750",
     "unit": "px",
     "margin": {
@@ -78,7 +86,7 @@ A list of some basic logic and gates and their [[reversible computation|reversib
 **[[AND]]**:
 
 \begin{imagefromfile}
-    "file_name": "ANDGates-221026.jpg",
+    "file_name": "ANDGates-221026b.jpg",
     "width": "770",
     "unit": "px",
     "margin": {
