@@ -156,7 +156,7 @@ $\mathcal{J}$ is a generic judgment thesis.
 
 ### In definitions
 
-The three different notions of equality above could be used in [[definitions]], where the equality is called **[[definitional equality]]**. In [[Martin-Löf type theory]] and [[cubical type theory]], judgmental equality is used for definitional equality. In [[ZFC]] and [[ETCS]], proposituonal equality is used for definitional equality, and in [[objective type theories]], typal equality is used for definitional equality. 
+The three different notions of equality above could be used [[definitions]], where the equality in the [[definition rule]] is called **[[definitional equality]]**. In [[Martin-Löf type theory]] and [[cubical type theory]], judgmental equality is used for definitional equality. In [[ZFC]] and [[ETCS]], proposituonal equality is used for definitional equality, and in [[objective type theories]], typal equality is used for definitional equality. 
 
 ### In computational and uniqueness rules
 
