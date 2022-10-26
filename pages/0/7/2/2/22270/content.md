@@ -38,9 +38,7 @@ In the other direction, an orbifold that is the [[global quotient orbifold|globa
   
   which in completed and revised form is available as his book: 
 
-  _The Geometry and Topology of Three-Manifolds;_ ([web](http://library.msri.org/books/gt3m/))
-
-  in particular the orbifold discussion is in [chapter 13](http://library.msri.org/books/gt3m/PDF/13.pdf)
+  _The Geometry and Topology of Three-Manifolds.
 
 
 [[!redirects good orbifolds]]
