@@ -258,7 +258,7 @@ and $u$ is an equivalence in the vertical [[2-category]] of $A$.
 
 * [[monoidal double category]], [[locally double bicategory]]
 
-* [[triple category]], [[intercategory]]
+* [[triple category]], [[intercategory]], and [[multiple category]]
 
 * [[applications of double category theory]]
 
