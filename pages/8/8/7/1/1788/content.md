@@ -22,6 +22,8 @@
   \mathrm{EM}(\mathrm{ U \circ F })
 \end{tikzcd}
 
+[[ANDGates-221026.jpg:file]]
+
 [[QuantumCircuitScheme-221025c.jpg:file]]
 
 [[DefinitelyRandomlyViaPossiblyNecessarily.jpg:file]]
