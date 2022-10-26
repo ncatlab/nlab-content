@@ -206,6 +206,9 @@ With an eye towards [[quantum complexity theory]]:
 [[!redirects quantum circuit]]
 [[!redirects quantum circuits]]
 
+[[!redirects quantum logic circuit]]
+[[!redirects quantum logic circuits]]
+
 
 [[!redirects quantum circuit model]]
 [[!redirects quantum circuit models]]
