@@ -31,7 +31,7 @@ This may be understood as the [[reversible computation|reversible]] version of t
 In [[quantum computing]]/[[quantum information theory]], by the *controlled NOT gate* or *CNOT gate* one means the [[quantum logic gate]] which acts on a [[pair]] of [[qbits]] by the [[linear map]] which is given in this way on the canonical [[linear basis]]-elements of a [[pair]] of [[qbits]]:
 
 \begin{imagefromfile}
-    "file_name": "CNOTGates-221026a.jpg",
+    "file_name": "CNOTGates-221026c.jpg",
     "width": "740",
     "unit": "px",
     "margin": {
@@ -73,4 +73,5 @@ See also:
 [[!redirects controlled NOT gate]]
 [[!redirects controlled-controlled NOT gate]]
 
-
+[[!redirects quantum CNOT gate]]
+[[!redirects quantum CNOT gates]]
