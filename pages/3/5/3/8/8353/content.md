@@ -69,6 +69,22 @@ $$\frac{\Gamma \vert \Phi \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vert \Phi 
 
 $$\frac{\Gamma \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vdash 2:\mathbb{N}} \qquad \frac{\Gamma \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vdash \delta_2:2 =_{\mathbb{N}} s(s(0))}$$
 
+Another example is the symbol $\mathrm{isProp}(A)$, which is usually defined as the type 
+$$\prod_{x:A} \prod_{y:A} x =_A y$$ 
+This is formally defined judgmentally, propositionally, and typally as follows:
+
+* Formation and judgmental definition rules for $\mathrm{isProp}(A)$:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \vdash \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) = \prod_{x:A} \prod_{y:A} x =_A y \; \mathrm{type}}$$
+
+* Formation and propositional definition rules for $\mathrm{isProp}(A)$:
+
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash \mathrm{isProp}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash \mathrm{isProp}(A) = \prod_{x:A} \prod_{y:A} x =_A y\; \mathrm{true}}$$
+
+* Formation and typal definition rules for $\mathrm{isProp}(A)$:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}}{\Gamma \vdash \delta_{\mathrm{isProp}(A)}:\mathrm{isProp}(A) \simeq \prod_{x:A} \prod_{y:A} x =_A y}$$
+
 ### Inductive and recursive definitions
 
 Something similar happens with inductive and recursive definitions; however, there is one definition rule for every introduction rule of the type it is being defined on. For example, addition is usually defined by recursion on the natural numbers, and comes with an introduction rule and two definition rules, one for the base case $0$ and one for the inductive case $s$ the successor function: 
@@ -87,7 +103,23 @@ $$\frac{\Gamma \vdash \mathbb{N} \; \mathrm{type} \quad \Gamma \vdash m:\mathbb{
 
 Another example of an inductive definition is the definition of the [[transport]] function, which is given by the following introduction and definition rules:
 
+* Introduction and judgmental definition rules for the transport function $\mathrm{tr}$:
 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A, \Delta \vdash B \; \mathrm{type}}{\Gamma, \Delta[b/x] \vdash \mathrm{tr}(x.B, a, b, p):B[a/x] \simeq B[b/x]}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma, x:A, \Delta \vdash B \; \mathrm{type}}{\Gamma, \Delta[a/x] \vdash \mathrm{tr}(x.B, a, a, \mathrm{refl}_A(a)) = \mathrm{id}_{B[a/x]}:B[a/x] \simeq B[a/x]}$$
+
+* Introduction and propositional definition rules for the transport function $\mathrm{tr}$:
+
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:A \quad \Gamma \vert \Phi \vdash p:a =_A b \quad \Gamma, x:A, \Delta \vert \Phi \vdash B \; \mathrm{type}}{\Gamma, \Delta[b/x] \vert \Phi[b/x] \vdash \mathrm{tr}(x.B, a, b, p):B[a/x] \simeq B[b/x]}$$
+
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma, x:A, \Delta \vert \Phi \vdash B \; \mathrm{type}}{\Gamma, \Delta[a/x] \vert \Phi[a/x] \vdash \mathrm{tr}(x.B, a, a, \mathrm{refl}_A(a)) =_{B[a/x] \simeq B[a/x]} \mathrm{id}_{B[a/x]} \; \mathrm{true}}$$
+
+* Introduction and typal definition rules for the transport function $\mathrm{tr}$:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A, \Delta \vdash B \; \mathrm{type}}{\Gamma, \Delta[b/x] \vdash \mathrm{tr}(x.B, a, b, p):B[a/x] \simeq B[b/x]}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma, x:A, \Delta \vdash B \; \mathrm{type}}{\Gamma, \Delta[a/x] \vdash \delta_\mathrm{tr}^{\mathrm{refl}_A}(x.B, a):\mathrm{tr}(x.B, a, a, \mathrm{refl}_A(a)) =_{B[a/x] \simeq B[a/x]} \mathrm{id}_{B[a/x]}}$$
 
 ## The initialization operator
 
@@ -119,6 +151,8 @@ A description of the evaluation algorithm using techniques from functional progr
 can be found in [this work of Gregoire and Leroy](http://uf-ias-2012.wikispaces.com/file/view/strong-reduction.pdf/402005168/strong-reduction.pdf).  
 
 ## Related concepts
+
+* [[natural deduction]]
 
 * [[axiom]]
 
