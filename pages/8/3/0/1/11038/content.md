@@ -51,7 +51,7 @@ The first examples are linearizations of classical  [[logic gates]], or rather o
 **[[XOR]]** and **[[CNOT]]:**
 
 \begin{imagefromfile}
-    "file_name": "CNOTGates-221026a.jpg",
+    "file_name": "CNOTGates-221026c.jpg",
     "width": "750",
     "unit": "px",
     "margin": {
@@ -68,7 +68,7 @@ The first examples are linearizations of classical  [[logic gates]], or rather o
 **[[AND]]**:
 
 \begin{imagefromfile}
-    "file_name": "ANDGates-221026.jpg",
+    "file_name": "ANDGates-221026b.jpg",
     "width": "770",
     "unit": "px",
     "margin": {
