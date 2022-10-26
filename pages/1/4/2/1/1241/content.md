@@ -377,6 +377,10 @@ for non-superymmetric [[model (physics)|models]]:
 
 * V. Suryanarayana Mummidi, Ketan M. Patel, *Leptogenesis and fermion mass fit in a renormalizable $SO(10)$ model* ([arXiv:2109.04050](https://arxiv.org/abs/2109.04050))
 
+with possible relation to [[flavour anomalies]]:
+
+* Purushottam Sahu, Aishwarya Bhatta, Rukmani Mohanta, Shivaramakrishna Singirala, Sudhanwa Patra, *Flavour anomalies and dark matter assisted unification in $SO(10)$ GUT* &lbrack;[arXiv:2204.06392](https://arxiv.org/abs/2204.06392)&rbrack;
+
 
 for [[supersymmetry|supersymmetric]] [[model (physics)|models]]:
 
