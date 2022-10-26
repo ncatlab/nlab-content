@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -96,6 +95,26 @@ These turn out to be related: From a suitably rich formulation of quantum circui
 
  
 At the time of writing (2021) most of the actual programming of [[experiment|experimental]] [[quantum computers]] is conceived through quantum circuit diagrams, while more high-level [[quantum programming languages]] are are awaiting the rise of more powerful quantum hardware.
+
+## Examples
+ {#Examples}
+
+### Bell state preparation
+
+In [[qbit]]-based [[quantum computation]], the elementary [[Bell state]] is usually prepared via the following small quantum circuit consisting of a [[Hadamard gate]] followed by a [[quantum CNOT gate]]:
+
+\begin{imagefromfile}
+    "file_name": "BellStatePreparationCircuit-221026.jpg",
+    "width": "680",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
 ## Related concepts
 
