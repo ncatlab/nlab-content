@@ -53,7 +53,7 @@ Here "bad quantum formalism" refers to the traditional notation as in the origin
 {#StatementInStringDiagramLanguage}The quantum teleportation protocol is neatly expressed in [[string diagram]]-calculus as follows (essentially following [Coecke 2005](#Coecke05)):
 
 
-<img src="https://ncatlab.org/nlab/files/QuantumTeleportationProtocol-220906b.jpg" width="850"> 
+<img src="/nlab/files/QuantumTeleportationProtocol-220906b.jpg" width="850"> 
 
 Here, by the general laws of [[string diagrams]]: a solid line pointing to the right represents a given [[finite dimensional vector space|finite dimensional]] [[Hilbert space]] $\mathscr{H} \,\simeq\, \mathbb{C}^D$ (of [[dimension of a vector space|dimension]] $D$), the same line pointing backwards denotes its [[dual vector space]], two lines running parallel reflects the [[tensor product of Hilbert spaces|tensor product]] of the corresponding Hilbert spaces, and the curve "$\supset$" denotes [[evaluation]] $\mathscr{H}^\ast \otimes \mathscr{H} \xrightarrow{ev} \mathbb{C}$.
 
@@ -107,7 +107,12 @@ $$
   \,.
 $$
 
-In this case, the component-evaluation of the above diagram yields the quantum teleportation protocol in its traditional form ([BBCJPW93](#BBCJPW93)).
+{#TraditionalCircuit} In this case, the component-evaluation of the above diagram yields the quantum teleportation protocol in its traditional form (due to [BBCJPW93](#BBCJPW93)) which is the following [[quantum circuit]] (cf. [GLRSV13, p. 5](Quipper#GLRSV13)) on [[qbits]] (where "$H$" denotes the [[Hadamard gate]], the circles denote the [[quantum CNOT gates]] and the boxed pointers denote [[quantum measurement]] in the [[qbit]]-basis): 
+
+<center>
+<img src="/nlab/files/QBitQuantumTeleportationProtocol-221026.jpg" width="800">
+</center>
+
 
 \linebreak
 
@@ -115,8 +120,9 @@ The concrete implementation of the above protocol on given quantum hardware will
 
 {#AsABraidGateCircuit} For instance, the implementation of the quantum teleportation protocol as a circuit of [[braid representation|braid]] gates of [[Ising anyons]] ([[topological quantum computation]]) is given in [Xu & Zhou 2022](#XuZhou22):
 
+<center>
 <img src="https://ncatlab.org/nlab/files/BraidCircuitQuantumTeleProtocol-220915.jpg" width="450">
-
+</center>
 
 
 \linebreak
