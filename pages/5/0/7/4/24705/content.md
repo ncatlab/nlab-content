@@ -474,17 +474,7 @@ Equivalently we may express this situation via the [[writer comonad]] $\star$ an
 \[
   \label{MeasurementViaWritedComonad}
 \]
-\begin{imagefromfile}
-    "file_name": "MeasurementViaWriterComonad-221025b.jpg",
-    "width": "540",
-    "unit": "px",
-    "margin": {
-        "top": -10,
-        "bottom": 20,
-        "right": 0, 
-        "left": 10
-    }
-\end{imagefromfile}
+> (removed erroneous diagram -- will fix...)
 
 In the bottom row are making use of the notation (eq:NotationalConvention).
 
