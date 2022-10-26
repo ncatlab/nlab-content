@@ -86,7 +86,9 @@ Discussion of reversible computation in view of [[quantum computation]]:
 
 * [[Michael P. Frank]], Karpur Shukla, *Quantum Foundations of Classical Reversible Computing*, Entropy **23** 6 (2021) 701  &lbrack;[arXiv:2105.00065](https://arxiv.org/abs/2105.00065), [doi:10.3390/e23060701](https://doi.org/10.3390/e23060701)&rbrack;
 
+See also:
 
+* S.Saniya Samrin, Rachamma Patil, Sumangala Itagi, Smita C. Chetti, Afiya Tasneem, *Design of logic gates using reversible gates with reduced quantum cost*, Global Transitions Proceedings **3** 1 (2022) 136-141 &lbrack;[doi:10.1016/j.gltp.2022.04.011](https://doi.org/10.1016/j.gltp.2022.04.011)&rbrack;
 
 
 [[!redirects reversible computations]]
