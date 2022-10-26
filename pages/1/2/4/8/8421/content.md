@@ -146,6 +146,8 @@ For instance, the connectives of type theory are presentations of [[functors]], 
 
 * [[deduction calculus]]
 
+* [[definition]]
+
 * [[type theory]], [[meaning explanation]]
 
 * [[sequent calculus]]
