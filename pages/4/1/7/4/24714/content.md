@@ -8,7 +8,7 @@
 +--{: .hide}
 [[!include quantum systems -- contents]]
 =--
-#### Constructivism, Realizability, Computability
+#### Computation
 +-- {: .hide}
 [[!include constructivism - contents]]
 =--
@@ -24,45 +24,26 @@
 
 ## Idea
 
-In [[quantum computing]]/[[quantum information theory]], by the *controlled NOT gate* or *CNOT gate* one means the [[quantum logic gate]] which acts on a [[pair]] of [[qbits]] by the [[linear map]]
+The *contolled NOT* or *[[reversible computation|reversible]] [[XOR]]-gate* is the [[logic gate]] acting between [[pairs]] of [[bits]] which identically keeps the first bit in the pair and [[negation|negates]] the second IFF the first was set.
 
-$$
-  CNOT 
-  \;\colon\;
-  \mathbb{C}^2 \otimes \mathbb{C}^2
-  \longrightarrow
-  \mathbb{C}^2 \otimes \mathbb{C}^2
-$$
+This may be understood as the [[reversible computation|reversible]] version of the [[XOR]]-gate.
 
-which is given on the standard [[linear basis]]-elements by the operation which keeps the first bit and switches (NOTs) the second one iff the first has value 1:
+In [[quantum computing]]/[[quantum information theory]], by the *controlled NOT gate* or *CNOT gate* one means the [[quantum logic gate]] which acts on a [[pair]] of [[qbits]] by the [[linear map]] which is given in this way on the canonical [[linear basis]]-elements of a [[pair]] of [[qbits]]:
 
-$$
-  CNOT
-  \;\;\colon\;\;
-  \left\{
-  \;\;
-  \begin{array}{ccc}
-    \vert 0 \rangle \otimes \vert 0 \rangle   
-    &\mapsto&
-    \vert 0 \rangle \otimes \vert 0 \rangle
-    \\
-    \vert 0 \rangle \otimes \vert 1 \rangle   
-    &\mapsto&
-    \vert 0 \rangle \otimes \vert 1 \rangle
-    \\
-    \vert 1 \rangle \otimes \vert 0 \rangle   
-    &\mapsto&
-    \vert 1 \rangle \otimes \vert 1 \rangle
-    \\
-    \vert 1 \rangle \otimes \vert 1 \rangle   
-    &\mapsto&
-    \vert 1 \rangle \otimes \vert 0 \rangle
-  \end{array}
-  \right.
-$$
+\begin{imagefromfile}
+    "file_name": "CNOTGates-221026a.jpg",
+    "width": "740",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
 Similarly, by the *CCNOT*-gate (or *Toffoli gate*) one means the operation on triples of [[bits]]/[[qbit]] which keeps the first two and reverses the third iff the first two are both set.
-
 
 
 ## Related entries
