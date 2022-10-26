@@ -35,7 +35,7 @@ Here is a list of distinctions between different notions of _equality_, in diffe
 *  the possibility of operations that might not preserve equality.
 
 
-## In type theory
+## Notions of equality in type theory
 
 In a formal language such as [[type theory]], one distinguishes various different notions of _equality_ or _equivalence_ of the terms of the language.
 
@@ -65,7 +65,7 @@ Intensional type theories are then type theories with typal equality and one of 
 
 ### Comparison of equalities
 
-This table gives the six different notions of equality found in type theory, as well as the rules for reflexivity, symmetry, and transitivity. 
+This table gives the six different notions of equality found in type theory. 
 
 | Judgment | of types | of terms |
 |--------|--------|--------|
@@ -73,43 +73,60 @@ This table gives the six different notions of equality found in type theory, as 
 | Propositional equality | $\Gamma \vert \Phi \vdash A = B \; \mathrm{true}$ | $\Gamma \vert \Phi \vdash a =_A b \; \mathrm{true}$ |
 | Typal equality | $\Gamma \vdash P:A \simeq B$ | $\Gamma \vdash p:a =_A b$ |
 
-| Reflexivity | of types | of terms |
-|--------|--------|--------|
-| Judgmental equality | $\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash A = A \; \mathrm{type}}$ | $\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash a = a:A}$ |
-| Propositional equality | $\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash A = A \; \mathrm{true}}$ | $\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash a =_A a \; \mathrm{true}}$ |
-| Typal equality | $\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash id_{A}:A \simeq A}$ | $\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{refl}_{A}(a):a =_A a}$ |
+## Structural rules of equalities
 
-| Symmetry | of types | of terms |
-|--------|--------|--------|
-| Judgmental equality | $\frac{\Gamma \vdash A = B \; \mathrm{type}}{\Gamma \vdash B = A \; \mathrm{type}}$ | $\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a = b:A}{\Gamma \vdash b = a:A}$ |
-| Propositional equality | $\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash A = B \; \mathrm{true}}{\Gamma \vert \Phi \vdash B = A \; \mathrm{true}}$ | $\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:A \quad \Gamma \vert \Phi \vdash a =_A b \; \mathrm{true}}{\Gamma \vert \Phi \vdash b =_A a \; \mathrm{true}}$ |
-| Typal equality | $\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vdash P:A \simeq B}{\Gamma \vdash P^{-1}:B \simeq A}$ | $\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b}{\Gamma \vdash p^{-1}:b =_A a}$ |
+### Reflexivity
 
-| Transitivity | of types | of terms |
-|--------|--------|--------|
-| Judgmental equality | $\frac{\Gamma \vdash A = B \; \mathrm{type} \quad \Gamma \vdash B = C \; \mathrm{type} }{\Gamma \vdash A = C \; \mathrm{type}}$ | $\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a = b:A \quad b = c:A }{\Gamma \vdash a = c:A}$ |
-| Propositional equality | $\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma \vert \Phi \vdash A = B \; \mathrm{true} \quad \Gamma \vert \Phi \vdash B = C \; \mathrm{true}}{\Gamma \vert \Phi \vdash A = C \; \mathrm{true}}$ | $\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:A \quad \Gamma \vert \Phi \vdash c:A \quad \Gamma \vert \Phi \vdash a =_A b \; \mathrm{true} \quad \Gamma \vert \Phi \vdash b =_A c \; \mathrm{true}}{\Gamma \vert \Phi \vdash a =_A c \; \mathrm{true}}$ |
-| Typal equality | $\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma \vdash P:A \simeq B \quad \Gamma \vdash Q:B \simeq C}{\Gamma \vdash Q \circ P:A \simeq C}$ | $\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash c:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash q:b =_A c}{\Gamma \vdash p \bullet q:a =_A c}$ |
+The reflexivity of equality is given by the following judgmental, propositional, and typal rules respectively:
 
-## Usages of equality
+* Reflexivity of judgmental equality
 
-The three different notions of equality above could be used in definitions, where the equality is called **definitional equality**, as well as in the computation and uniqueness rules of type formers, where the equality is called **computational equality**, **conversional equality**, or **reductional equality**. 
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash A = A \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash a = a:A}$$
 
-### Definitional equality
+* Reflexivity of propositional equality
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash A = A \; \mathrm{true}}$$
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash a =_A a \; \mathrm{true}}$$
 
-One usage of equality is in defining symbols and abbreviations. This usage is called **definitional equality** or sometimes **intensional equality**
+* Reflexitivity of typal equality (i.e. [[identity function]] and identity [[path]])
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash id_{A}:A \simeq A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{refl}_{A}(a):a =_A a}$$
 
-According to [PML (1980), p. 31](#PML):
+### Symmetry
 
-> Definitional equality is intensional equality, or equality of meaning (synonymy). [...] It is a relation between linguistic expressions [...] Definitional equality is the equivalence relation generated by abbreviatory definitions, changes of [[bound variables]] and the [[principle of substituting equals for equals]]. [...] Definitional equality can be used to rewrite expressions [...].
+The symmetry of equality is given by the following judgmental, propositional, and typal rules respectively:
 
-on p. 60:
+* Symmetry of judgmental equality
+$$\frac{\Gamma \vdash A = B \; \mathrm{type}}{\Gamma \vdash B = A \; \mathrm{type}}$$ 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a = b:A}{\Gamma \vdash b = a:A}$$
 
-> ... intensional (sameness of meaning) ...
+* Symmetry of propositional equality
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash A = B \; \mathrm{true}}{\Gamma \vert \Phi \vdash B = A \; \mathrm{true}}$$
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:A \quad \Gamma \vert \Phi \vdash a =_A b \; \mathrm{true}}{\Gamma \vert \Phi \vdash b =_A a \; \mathrm{true}}$$
 
-For instance the symbols "$2$" and "$s(s(0))$" (meaning the successor of the successor of $0$) are definitionally/intensionally equal terms (of type the [[natural numbers]]): the first is merely an abbreviation for the second.
+* Symmetry of typal equality (i.e. [[inverse function]] and inverse path)
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash P:A \simeq B}{\Gamma \vdash P^{-1}:B \simeq A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b}{\Gamma \vdash p^{-1}:b =_A a}$$
 
-Definitional equality comes in judgmental, propositional, and typal flavors as well. In [[Martin-Löf type theory]] and [[cubical type theory]], symbols and abbreviations are defined using judgmental equality. In [[ZFC]] and [[ETCS]], they are defined using propositional equality, and in [[objective type theories]], they are defined using typal equality. For example, the [[principle of substituting equals for equals]] is given by the following judgmental, propositional, and typal rules respectively:
+### Transitivity
+
+The transitivity of equality is given by the following judgmental, propositional, and typal rules respectively:
+
+* Transitivity of judgmental equality
+$$\frac{\Gamma \vdash A = B \; \mathrm{type} \quad \Gamma \vdash B = C \; \mathrm{type} }{\Gamma \vdash A = C \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a = b:A \quad b = c:A }{\Gamma \vdash a = c:A}$$
+
+* Transitivity of propositional equality
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma \vert \Phi \vdash A = B \; \mathrm{true} \quad \Gamma \vert \Phi \vdash B = C \; \mathrm{true}}{\Gamma \vert \Phi \vdash A = C \; \mathrm{true}}$$ 
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:A \quad \Gamma \vert \Phi \vdash c:A \quad \Gamma \vert \Phi \vdash a =_A b \; \mathrm{true} \quad \Gamma \vert \Phi \vdash b =_A c \; \mathrm{true}}{\Gamma \vert \Phi \vdash a =_A c \; \mathrm{true}}$$
+
+* Transitivity of typal equality (i.e. [[composition]] of functions and path concatenation)
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash P:A \simeq B \quad \Gamma \vdash Q:B \simeq C}{\Gamma \vdash Q \circ P:A \simeq C}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash c:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash q:b =_A c}{\Gamma \vdash p \bullet q:a =_A c}$$
+
+### Principle of substituting equals for equals 
+
+The [[principle of substituting equals for equals]] is given by the following judgmental, propositional, and typal rules respectively:
 
 * Substitution of judgmentally equal terms:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a = b : A \quad \Gamma, x:A, \Delta \vdash B \; \mathrm{type}}{\Gamma, \Delta[b/x] \vdash B[a/x] = B[b/x] \; \mathrm{type}}$$
@@ -123,7 +140,27 @@ $$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vda
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A, \Delta \vdash B \; \mathrm{type}}{\Gamma, \Delta[b/x] \vdash \mathrm{tr}(x.B, a, b, p):B[a/x] \simeq B[b/x]}$$
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A, \Delta \vdash c:B}{\Gamma, \Delta[b/x] \vdash \mathrm{ap}(c, x.B, a, b, p):\mathrm{tr}(x.B, a, b, p)(c[a/x]) =_{B[b/x]} c[b/x]}$$
 
-### Computational equality
+## Usages of equality
+
+The three different notions of equality above could be used in definitions, where the equality is called **definitional equality**, as well as in the computation and uniqueness rules of type formers, where the equality is called **computational equality**, **conversional equality**, or **reductional equality**. 
+
+### In definitions
+
+One usage of equality is in defining symbols and abbreviations. This usage is called **definitional equality** or sometimes **intensional equality**
+
+According to [PML (1980), p. 31](#PML):
+
+> Definitional equality is intensional equality, or equality of meaning (synonymy). [...] It is a relation between linguistic expressions [...] Definitional equality is the equivalence relation generated by abbreviatory definitions, changes of [[bound variables]] and the [[principle of substituting equals for equals]]. [...] Definitional equality can be used to rewrite expressions [...].
+
+on p. 60:
+
+> ... intensional (sameness of meaning) ...
+
+For instance the symbols "$2$" and "$s(s(0))$" (meaning the successor of the successor of $0$) are definitionally/intensionally equal terms (of type the [[natural numbers]]): the first is merely an abbreviation for the second.
+
+Definitional equality comes in judgmental, propositional, and typal flavors as well. In [[Martin-Löf type theory]] and [[cubical type theory]], symbols and abbreviations are defined using judgmental equality. In [[ZFC]] and [[ETCS]], they are defined using propositional equality, and in [[objective type theories]], they are defined using typal equality.  
+
+### In computational and uniqueness rules
 
 Another usage of equality is in the computation rules and uniqueness rules for the various type formers, such as [[∞-reduction]] or [[∞-conversion]] (the choice of rules depends on the type theory). The usage of equality in this manner is called *computational*, *conversional*, or *reductional* equality, and is the congruence on terms generated by the conversion or reduction rules. 
 
