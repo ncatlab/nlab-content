@@ -24,7 +24,7 @@
 
 ## Idea
 
-In [[quantum computing]]/[[quantum information theory]], by the *controlled NOT gate* or *CNOT gate* one means the [[quantum gate]] which acts on a pair of [[qbits]] by the [[linear map]]
+In [[quantum computing]]/[[quantum information theory]], by the *controlled NOT gate* or *CNOT gate* one means the [[quantum logic gate]] which acts on a [[pair]] of [[qbits]] by the [[linear map]]
 
 $$
   CNOT 
