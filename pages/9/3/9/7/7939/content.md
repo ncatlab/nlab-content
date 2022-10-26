@@ -15,7 +15,9 @@ In [[geometric quantization]] qbits are naturally understood as the states given
 
 ## Related concepts
 
-* [[bit]]
+* [[bit]], [[truth value]]
+
+* [[quantum logic gate]], [[quantum circuit]]
 
 * [[quantum logic]], [[quantum computing]], [[quantum error correction]]
 
