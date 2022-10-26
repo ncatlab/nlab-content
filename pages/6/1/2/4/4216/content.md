@@ -88,7 +88,7 @@ Logical conjunction as
 
 
 \begin{imagefromfile}
-    "file_name": "ANDGates-221025.jpg",
+    "file_name": "ANDGates-221026.jpg",
     "width": "770",
     "unit": "px",
     "margin": {
