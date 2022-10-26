@@ -135,7 +135,7 @@ $$
 $$
 
 $$
-  Cl_{2,0} \simeq \mathbb{H}
+  Cl_{3,0} \simeq \mathbb{H}
 $$
 
 =--
