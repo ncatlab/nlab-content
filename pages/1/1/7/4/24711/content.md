@@ -22,7 +22,7 @@
 
 ## Idea
 
-In [[quantum computing]]/[[quantum information theory]], by the *Hadamard gate* one means the [[quantum gate]] which acts on a single [[qbit]] by
+In [[quantum computing]]/[[quantum information theory]], by the *Hadamard gate* one means the [[quantum logic gate]] which acts on a single [[qbit]] by
 
 $$
   q_0 \cdot \vert 0 \rangle 
