@@ -88,7 +88,7 @@ Therefore, as soon as these three operations crossing the [[classical physics|cl
 
 One approach for handling these more general quantum circuits is ([Aharonov, Kitaev & Nisan 1998](#AharonovKitaevNisan98), [Selinger 2004](#Selinger04)) to understand them, in the tradition on [[quantum probability theory]], as diagrams of "[[quantum operations]]" on [[space of quantum states|spaces of]] [[mixed quantum states]], namely as a kind of [[string diagrams]] of [[completely positive maps]] between [[convex spaces]] of [[density matrices]].
 
-Other approaches for giving [[categorical semantics]] for quantum circuits in this general sense have been proposed (and implementd) in the discussion of the [[quantum programming language]] *[[Quipper]]* (see the references [there](Quipper#ReferencesDependentLinearTypesAndCategoricalSemantics)). A natural formulation in terms of [Quantum Modal Logic](necessity+and+possibility#ModalQuantumLogic) in terms of [[dependent linear type theory]] is discussed at:
+Other approaches for giving [[categorical semantics]] for quantum circuits in this general sense have been proposed (and implemented) in the discussion of the [[quantum programming language]] *[[Quipper]]* (see the references [there](Quipper#ReferencesDependentLinearTypesAndCategoricalSemantics)). A natural formulation in terms of [Quantum Modal Logic](necessity+and+possibility#ModalQuantumLogic) in terms of [[dependent linear type theory]] is discussed at:
 
 * *[[quantum circuits via dependent linear types]]*.
 
