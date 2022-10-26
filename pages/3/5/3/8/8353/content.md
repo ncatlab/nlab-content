@@ -22,9 +22,65 @@ In [[type theory]] a _definition_ is the construction of a [[type]] or a [[term]
 
 As such definitions are no different from [[proofs]] of [[theorems]] (due [[propositions-as-types]]). For instance the [[constructive mathematics|constructive]] proof that there _exists_ a [[natural number]] consists of exhibiting one, and hence the definition of, say $2 \in \mathbb{N}$ is the same as a specific proof that $\exists x \in \mathbb{N}$.
 
-## Definition rules and definitional equality
+## Rules for definitions
 
-On way that definitions of types and of terms could be formalized is by the use of [[equality]] with another term or type. This usage of equality is called **definitional equality** or **intensional equality**. Any notion of equality which is not used in definitions is called **extensional equality**. 
+One way that definitions of types and of terms could be formalized is by the use of [[equality]] with another term or type. More specifically, every definition of a symbol $A$ comes with a **formation rule** for the symbol which states that it is a term or a type, and a **definition rule** that the term or type $A$ is equal to some existing term or type $B$. The equality used in the definition rule is called **definitional equality**. 
+
+As documented in the article on [[equality]], there are three notions of equality used in type theory: judgmental equality, propositional equality, and typal equality. All three notions of equality could be used in the definition rule. In [[Martin-Löf type theory]] and [[cubical type theory]], symbols and abbreviations are defined using judgmental equality. In [[ZFC]] and [[ETCS]], they are defined using propositional equality, and in [[objective type theories]], they are defined using typal equality. 
+
+For example, suppose that the type $B$ is already derived in some context $\Gamma$ or $\Gamma \vert \Phi$. Then, in order to define the symbol $A$ to be the type $B$ there are the following formation and definition rules for $A$:
+
+* Formation and judgmental definition rules for $A$:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash A \; \mathrm{type}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash A = B \; \mathrm{type}}$$
+
+* Formation and propositional definition rules for $A$:
+
+$$\frac{\Gamma \vert \Phi \; \mathrm{ctx}}{\Gamma \vert \Phi \vdash A \; \mathrm{type}} \qquad \frac{\Gamma \vert \Phi \; \mathrm{ctx}}{\Gamma \vert \Phi \vdash A = B\; \mathrm{true}}$$
+
+* Formation and typal definition rules for $A$:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash A \; \mathrm{type}} \qquad \frac{\Gamma \: \mathrm{ctx}}{\Gamma \vdash \delta_A:A \simeq B}$$
+
+Similarly, suppose that the term $b:A$ is already derived in some context $\Gamma$ or $\Gamma \vert \Phi$. Then, in order to define the symbol $a$ to be the term $b:A$ there are the following formation and definition rules for $a$:
+
+* Formation and judgmental definition rules for $a$:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash a:A} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash a = b:A}$$
+
+* Formation and propositional definition rules for $a$:
+
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash a:A} \qquad \frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash a =_A b \; \mathrm{true}}$$
+
+* Formation and typal definition rules for $a$:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash a:A} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \delta_a:a =_A b}$$
+
+For instance the symbols "$2$" and "$s(s(0))$" (meaning the successor of the successor of $0$) are definitionally equal terms in the type of [[natural numbers]]: the first is merely an abbreviation for the second. This is formally defined judgmentally, propositionally, and typally as follows:
+
+* Formation and judgmental definition rules for $2$:
+
+$$\frac{\Gamma \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vdash 2:\mathbb{N}} \qquad \frac{\Gamma \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vdash 2 = s(s(0)):\mathbb{N}}$$
+
+* Formation and propositional definition rules for $2$:
+
+$$\frac{\Gamma \vert \Phi \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vert \Phi \vdash 2:\mathbb{N}} \qquad \frac{\Gamma \vert \Phi \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vert \Phi \vdash 2 =_{\mathbb{N}} s(s(0)) \; \mathrm{true}}$$
+
+* Formation and typal definition rules for $2$:
+
+$$\frac{\Gamma \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vdash 2:\mathbb{N}} \qquad \frac{\Gamma \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vdash \delta_2:2 =_{\mathbb{N}} s(s(0))}$$
+
+## Inductive and recursive definitions
+
+This is also true of inductive definitions:
+
+...
+
+## The initialization operator
+
+Section to be written on the use of $\coloneqq$ in mathematics; for the time being, see [[initialization operator]]. 
+
+## History
 
 According to [PML (1980), p. 31](#PML):
 
@@ -33,44 +89,6 @@ According to [PML (1980), p. 31](#PML):
 on p. 60:
 
 > ... intensional (sameness of meaning) ...
-
-As documented in the article on [[equality]], there are three notions of equality used in type theory: judgmental equality, propositional equality, and typal equality. All three notions of equality could be used in definitions. In [[Martin-Löf type theory]] and [[cubical type theory]], symbols and abbreviations are defined using judgmental equality. In [[ZFC]] and [[ETCS]], they are defined using propositional equality, and in [[objective type theories]], they are defined using typal equality. 
-
-Every definition of a term or type comes with an introduction rule for the term or type and a definition rule that the term or type is equal to some existing term or type. Suppose that the type $B$ or term $b:A$ is already derived in some context $\Gamma$ or $\Gamma \vert \Phi$. Then, in order to define the type $A$ to be $B$ or the term $a:A$ to be $b:A$ there are the following introduction and definition rules for type $A$ or term $a:A$:
-
-* Judgmental introduction and definition rules
-
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash A \; \mathrm{type}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash A = B \; \mathrm{type}}$$
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash a:A} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash a = b:A}$$
-
-* Propositional introduction and definition rules:
-
-$$\frac{\Gamma \vert \Phi \; \mathrm{ctx}}{\Gamma \vert \Phi \vdash A \; \mathrm{type}} \qquad \frac{\Gamma \vert \Phi \; \mathrm{ctx}}{\Gamma \vert \Phi \vdash A = B\; \mathrm{true}}$$
-
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash a:A} \qquad \frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash a =_A b \; \mathrm{true}}$$
-
-* Typal introduction and definition rules:
-
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash A \; \mathrm{type}} \qquad \frac{\Gamma \: \mathrm{ctx}}{\Gamma \vdash \delta_A:A \simeq B}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash
-a:A} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \delta_a:a =_A b}$$
-
-For instance the symbols "$2$" and "$s(s(0))$" (meaning the successor of the successor of $0$) are definitionally/intensionally equal terms (of type the [[natural numbers]]): the first is merely an abbreviation for the second. This is formally defined judgmentally, propositionally, and typally as follows:
-
-...
-
-### The initialization operator
-
-Section to be written on the use of $\coloneqq$ in mathematics; for the time being, see [[initialization operator]]. 
-
-## Inductive and recursive definitions
-
-This is also true of inductive definitions:
-
-...
-
-## History
 
 The notion of definitional equality was introduced first in [[AUTOMATH]]. The following paper presents a suggestive explanation of this notion and how proof-checking was designed in this system (especially section 10):
 
@@ -133,7 +151,14 @@ which might be the first paper to mention intensional equality (and the fact tha
 
 where de Bruijn makes a distinction between definitional equality and "book" equality.
 
+[[!redirects definition]]
 [[!redirects definitions]]
+
+[[!redirects definition rule]]
+[[!redirects definition rules]]
+
+[[!redirects definitional equality rule]]
+[[!redirects definitional equality rules]]
 
 [[!redirects definitional identity]]
 [[!redirects definitional identities]]
