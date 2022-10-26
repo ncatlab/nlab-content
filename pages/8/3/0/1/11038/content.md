@@ -15,14 +15,31 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
+ {#Idea}
 
-(...)
+Analogously to how a [[classical physics|classical]] [[logic gate]] is a [[function]] between ([[finite set|finite]]) [[sets]] of [[tuples]] of [[bits]] ([[truth values]]), so a *quantum logic gate* is a ([[unitary operator|unitary]]) [[linear operator]] on ([[finite-dimensional vector space|finite-dimensional]]) [[Hilbert spaces]] of [[tensor product of vector spaces|tensor products]] of [[qbits]]:
+
+\begin{imagefromfile}
+    "file_name": "GenericLogicGate-221026.jpg",
+    "width": "640",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Specifically, one calls such a linear map a *quantum gate* if it is thought of as potentially implemented as a basic operation performed by a [[quantum computing]] machine.
+
+As such, typical quantum logic gates operate on a *small* number of [[qbits]], with more complicated such linear maps obtained by composing a given set of quantum logic gates into *[[quantum logic circuits]]*. Such compilation is hence one model of *[[quantum computation]]*.
+
 
 ## Examples
 
