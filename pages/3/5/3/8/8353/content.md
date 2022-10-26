@@ -75,7 +75,7 @@ This is formally defined judgmentally, propositionally, and typally as follows:
 
 * Formation and judgmental definition rules for $\mathrm{isProp}(A)$:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \vdash \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) = \prod_{x:A} \prod_{y:A} x =_A y \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) = \prod_{x:A} \prod_{y:A} x =_A y \; \mathrm{type}}$$
 
 * Formation and propositional definition rules for $\mathrm{isProp}(A)$:
 
