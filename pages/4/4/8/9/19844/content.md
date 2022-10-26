@@ -1149,6 +1149,11 @@ and in relation to [[axions]]:
 
 * [[Javier Fuentes-Martin]], Mario Reig, Avelino Vicente, _4321... axion!_ ([arXiv:1907.02550](https://arxiv.org/abs/1907.02550))
 
+and in relation to [[gauge coupling unification]]:
+
+* Purushottam Sahu, Aishwarya Bhatta, Rukmani Mohanta, Shivaramakrishna Singirala, Sudhanwa Patra, *Flavour anomalies and dark matter assisted unification in $SO(10)$ GUT* &lbrack;[arXiv:2204.06392](https://arxiv.org/abs/2204.06392)&rbrack;
+
+
 [[leptoquarks]] as possible explanation also of the anomalies seen in the [[ANITA experiment]]
 
 * Bhavesh Chauhan, Subhendra Mohanty, _A common leptoquark solution of flavor and ANITA anomalies_ ([arXiv:1812.00919](https://arxiv.org/abs/1812.00919))
