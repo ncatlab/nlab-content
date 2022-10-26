@@ -19,7 +19,11 @@
 
 ## Idea
 
-A notion of _[[equality]]_ in [[type theory]] involving the notion of _[[judgement]]_. In [[homotopy type theory]] it is used synonymously with [[definitional equality]] as contrasted with [[propositional equality]].
+A notion of _[[equality]]_ in [[type theory]] involving the notion of _[[judgement]]_. In [[Martin-Löf type theory]] and [[cubical type theory]], judgmental equality is used for [[definitional equality]]. 
+
+## See also
+
+* [[propositional equality]]
 
 ## References
 
