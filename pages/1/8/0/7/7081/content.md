@@ -52,6 +52,10 @@ The first fits into the general [[inductive definition]] of [[n-groupoid]]: an $
 
 ### Rules for isProp
 
+The usual definition of isProp is given by the following rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) \equiv \prod_{x:A} \prod_{y:A} x =_A y \; \mathrm{type}}$$
+
 If the [[dependent type theory]] doesn't have [[dependent function types]], but still has [[identity types]] one could still define isProp by adding the formation, introduction, elimination, computation, and uniqueness rules for isProp:
 
 Formation rules for isProp types:
