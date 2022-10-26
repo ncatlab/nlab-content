@@ -10,7 +10,6 @@
 =--
 
 
-
 # Logical conjunction
 * table of contents
 {: toc}
@@ -88,7 +87,7 @@ Logical conjunction as
 
 
 \begin{imagefromfile}
-    "file_name": "ANDGates-221026.jpg",
+    "file_name": "ANDGates-221026b.jpg",
     "width": "770",
     "unit": "px",
     "margin": {
@@ -98,7 +97,6 @@ Logical conjunction as
         "left": 10
     }
 \end{imagefromfile}
-
 
 
 ## Related concepts
