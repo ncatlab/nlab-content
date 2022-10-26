@@ -1,4 +1,6 @@
 
+[[MeasurementViaWriterComonad-221026.jpg:file]]
+
 \begin{tikzcd}
   \mathcal{C}
   \ar[
