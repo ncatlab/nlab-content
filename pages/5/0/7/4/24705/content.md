@@ -474,11 +474,22 @@ Equivalently we may express this situation via the [[writer comonad]] $\star$ an
 \[
   \label{MeasurementViaWritedComonad}
 \]
-> (removed erroneous diagram -- will fix...)
+\begin{imagefromfile}
+    "file_name": "MeasurementViaWriterComonad-221026.jpg",
+    "width": "540",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
 
 In the bottom row are making use of the notation (eq:NotationalConvention).
 
-> This is reminiscent of constructions involved in the "double Kleisli category" of [Brookes & Van Stone 1993, §6](Kleisli+category#BrookesVanStone93). Maybe there is more to this similarity?
 
 
 
