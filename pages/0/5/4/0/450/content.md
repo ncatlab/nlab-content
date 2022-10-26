@@ -128,9 +128,9 @@ IMA Vol. Math. Appl., 152, Springer, New York, 2010.
 
 * T.  M. Fiore and  S. Paoli.  A Thomason model structure on the category of small $n$-fold categories. Algebr. Geom. Topol. 10 (2010) 1933&#8211;-2008.
 
-* [[Marco Grandis]], [[Robert Parè]], _An introduction to multiple categories (On weak and lax multiple categories, I) _, Cahiers de Topologie et Géométrie Différentielle Catégoriques, [(pdf)](http://cahierstgdc.com/wp-content/uploads/2017/11/CTGDC_57_2_Grandis-Pare-I.pdf)
+* [[Marco Grandis]], [[Robert Paré]], _An introduction to multiple categories (On weak and lax multiple categories, I) _, Cahiers de Topologie et Géométrie Différentielle Catégoriques, [(pdf)](http://cahierstgdc.com/wp-content/uploads/2017/11/CTGDC_57_2_Grandis-Pare-I.pdf)
 
-* [[Marco Grandis]], [[Robert Parè]], _Limits in multiple categories (On weak and lax multiple categories, II)_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, [(pdf)](http://cahierstgdc.com/wp-content/uploads/2017/11/Grandis-Pare-57-3.pdf)
+* [[Marco Grandis]], [[Robert Paré]], _Limits in multiple categories (On weak and lax multiple categories, II)_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, [(pdf)](http://cahierstgdc.com/wp-content/uploads/2017/11/Grandis-Pare-57-3.pdf)
 
 
 [[!redirects n-fold categories]]
