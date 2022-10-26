@@ -30,10 +30,14 @@ A truth value may be interpreted as a $0$-[[0-poset|poset]] or as a $(-1)$-[[(-1
 
 ## Related concepts
 
-[[!include homotopy n-types - table]]
+* [[logic gate]]
 
 * Special properties of truth values:
   * In [[synthetic topology]] with a [[dominance]], some truth values are [[open truth value|open]].
+
+
+[[!include homotopy n-types - table]]
+
 
 
 [[!redirects truth value]]
@@ -48,3 +52,7 @@ A truth value may be interpreted as a $0$-[[0-poset|poset]] or as a $(-1)$-[[(-1
 
 [[!redirects boolean]]
 [[!redirects booleans]]
+
+[[!redirects Boolean]]
+[[!redirects Booleans]]
+
