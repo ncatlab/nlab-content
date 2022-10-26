@@ -34,11 +34,13 @@ In the other direction, an orbifold that is the [[global quotient orbifold|globa
 
 ## References
 
-* {#Thurston92} [[William Thurston]], _Three-dimensional geometry and topology,_ preliminary draft, University of Minnesota, Minnesota, (1992)
+* {#Thurston92} [[William Thurston]], _Three-dimensional geometry and topology,_ preliminary draft, University of Minnesota, Minnesota, (1992). [1979 version](https://archive.org/details/ThurstonTheGeometryAndTopologyOfThreeManifolds/mode/2up), [scan of 1991 copy](https://math.berkeley.edu/~ianagol/276.S10/bookdraft.pdf) (note the pages are upside down and need to be rotated after downloading), [pdf of 2002 version](https://www.math.unl.edu/~jkettinger2/thurston.pdf).
   
-  which in completed and revised form is available as his book: 
+The first three chapters are published in expanded form as
 
-  _The Geometry and Topology of Three-Manifolds.
+* _The Geometry and Topology of Three-Manifolds_ (1997) [Princeton University Press page](https://press.princeton.edu/books/hardcover/9780691083049/three-dimensional-geometry-and-topology-volume-1)
+
+The book has its own [Wikipedia page](https://en.wikipedia.org/wiki/The_geometry_and_topology_of_three-manifolds).
 
 
 [[!redirects good orbifolds]]
