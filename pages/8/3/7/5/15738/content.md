@@ -63,11 +63,15 @@ Reviews include (roughly in increasing order of technical detail)
 
 * {#EllisWells17} Sebastian A. R. Ellis, [[James Wells]], _High-scale Supersymmetry, the Higgs Mass and Gauge Unification_, Phys. Rev. D 96, 055024 (2017) ([arXiv:1706.00013](https://arxiv.org/abs/1706.00013))
 
-Original articles include
+Original articles:
 
 * {#GeorgiGlashow74} [[Howard Georgi]], [[Sheldon Glashow]], _Unity of All Elementary-Particle Forces_, Phys. Rev. Lett. 32, 438, 1974 ([doi:10.1103/PhysRevLett.32.438](https://doi.org/10.1103/PhysRevLett.32.438))
 
 * P.H. Chankowski, Z. Pluciennik, S. Pokorski, C.E. Vayonakis, _Gauge Coupling Unification in GUT and String Models_ ([arXiv:hep-ph/9506393](http://arxiv.org/abs/hep-ph/9506393))
 
 * Dumitru M. Ghilencea, Graham G. Ross, _Precision prediction of gauge couplings and the profile of a string theory_ ([arXiv:hep-ph/0102306](http://arxiv.org/abs/hep-ph/0102306))
+
+Potential relation to [[flavour anomalies]]:
+
+* Purushottam Sahu, Aishwarya Bhatta, Rukmani Mohanta, Shivaramakrishna Singirala, Sudhanwa Patra, *Flavour anomalies and dark matter assisted unification in $SO(10)$ GUT* &lbrack;[arXiv:2204.06392](https://arxiv.org/abs/2204.06392)&rbrack;
 
