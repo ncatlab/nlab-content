@@ -17,6 +17,22 @@
 
 In [[quantum physics]], what are called *Bell states* or *EPR states* or *EPR pairs* are certain [[quantum states]] exhibiting maximal [[quantum entanglement]].
 
+In [[qbit]]-based [[quantum computation]], the elementary Bell state is usually prepared via the following small [[quantum circuit]] consisting of a [[Hadamard gate]] followed by a [[quantum CNOT gate]]:
+
+\begin{imagefromfile}
+    "file_name": "BellStatePreparationCircuit-221026.jpg",
+    "width": "680",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
 ## Related concepts
 
 * [[quantum entanglement]]
