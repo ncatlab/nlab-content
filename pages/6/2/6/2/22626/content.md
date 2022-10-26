@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -105,7 +106,7 @@ In [[qbit]]-based [[quantum computation]], the elementary [[Bell state]] is usua
 
 \begin{imagefromfile}
     "file_name": "BellStatePreparationCircuit-221026.jpg",
-    "width": "680",
+    "width": "750",
     "unit": "px",
     "margin": {
         "top": -20,
@@ -114,6 +115,24 @@ In [[qbit]]-based [[quantum computation]], the elementary [[Bell state]] is usua
         "left": 10
     }
 \end{imagefromfile}
+
+
+### Quantum teleportation
+
+The standard (cf. [GLRSV13, p. 5](Quipper#GLRSV13)) [[qbit]]-form of the [[quantum teleportation]]-protocol is the following quantum ciruit on [[qbits]] (where "$H$" denotes the [[Hadamard gate]], the circles denote the [[quantum CNOT gates]] and the boxed pointers denote [[quantum measurement]] in the [[qbit]]-basis): 
+
+\begin{imagefromfile}
+    "file_name": "QBitQuantumTeleportationProtocol-221026.jpg",
+    "width": "800",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
 
 ## Related concepts
