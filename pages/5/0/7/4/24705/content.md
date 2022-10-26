@@ -116,7 +116,7 @@ There are different ways to *[[type theory|type]]* the quantum measurement, taki
     }
 \end{imagefromfile}
 
-Both of these options naturally emerge and are naturally unified in the "[Quantum Modal Logic](necessity+and+possibility#ModalQuantumLogic)" inherent to [[dependent linear type theory]]: This is discussed what we now discuss.
+Both of these options naturally emerge and are naturally unified in the "[Quantum Modal Logic](necessity+and+possibility#ModalQuantumLogic)" inherent to [[dependent linear type theory]]: This is what we now discuss.
 
 
 
