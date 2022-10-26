@@ -469,7 +469,7 @@ which is encoded by its direct sum decomposition $\mathcal{H}_\bullet$:
 \end{imagefromfile}
 
 
-Equivalently we may express this situation via the [[writer comonad]] $\star$ and the [[reader monad]] $\bigcirc$, by observing that the following [[commuting diagram|diagram commutes]]:
+Equivalently we may express this situation via the [[writer comonad]] $\star$ and the [[reader monad]] $\bigcirc$, by observing that the following [[commuting diagram|diagram commutes]] (being the [[naturality square]] of the necessity-counit on the possibility-unit):
 
 \[
   \label{MeasurementViaWritedComonad}
