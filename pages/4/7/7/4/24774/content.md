@@ -18,6 +18,10 @@ on aspects of ([[perturbative quantum field theory|perturbative]]) [[quantum gra
 
 \linebreak
 
+**Contents:**
+
+\linebreak
+
 On [[perturbative quantum gravity]]:
 
 * [[Ilya L. Shapiro]], *The background information about perturbative quantum gravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.12319](https://arxiv.org/abs/2210.12319)&rbrack;
@@ -54,6 +58,13 @@ On the [[soft graviton theorem]]:
 On the [[pure spinor]] [[Berkovits superstring]]:
 
 * [[Nathan Berkovits]], Carlos R. Mafra, *Pure spinor formulation of the superstring and its applications*, in *[[Handbook of Quantum Gravity]]* (2023) &lbrack;[arXiv:2210.10510](https://arxiv.org/abs/2210.10510)&rbrack;
+
+\linebreak
+
+On [[asymptotic safety]]:
+
+* Riccardo Martini, Gian Paolo Vacca, Omar Zanusso, *Perturbative approaches to non-perturbative quantum gravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.13910](https://arxiv.org/abs/2210.13910)&rbrack;
+
 
 \linebreak
 
