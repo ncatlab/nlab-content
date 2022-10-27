@@ -1,3 +1,19 @@
+
+
+## Idea
+
+In [[quantum physics]] and specifically in [[quantum information theory]], the *principle of deffered measurement* is a [[theorem]] which says that 
+
+* any [[quantum circuit]] involving [[quantum measurement]] of some of the [[qbits]] followed by [[quantum gates]] [[controlled quantum gate|controlled]] by the respective measurement outcomes 
+
+is equivalent ([[equality|equal]] as a [[function]] from given input to output [[data types]]) as
+
+* a [[quantum circuit]] in which all [[quantum measurement]] happens "at the end", i.e. where no [[quantum gates]] are [[controlled quantum gate|controlled]] by previous measurement results.
+
+The principle can be useful in practice for optimizing [[quantum circuits]]. It also clearly relates to the issue of [[interpretations of quantum mechanics]]: Since it is the [[collapse of the wavefunction]] upon [[quantum measurement]] which makes the [[interpretation of quantum mechanics]] subtle, it is interesting to note that this collapse may be (arbitrarily) deferred, in a precise sense.
+
+***
+
 \begin{center}
 \begin{tikzcd}
 X\times X \arrow[d, "f\times f"'] \arrow[r, "\displaystyle\mu_{X}"] & X \arrow[d, "f"] \\
