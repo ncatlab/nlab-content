@@ -5,13 +5,17 @@
 
 ## Selected writings
 
-On [[string scattering amplitudes]] for the [[superstring]]:
+On [[string scattering amplitudes]] for the [[Berkovits superstring|Berkovits-formulation]] of the [[superstring]]:
 
 * {#MafraSchlotterer18a} [[Carlos Mafra]], [[Oliver Schlotterer]], _Towards the $n$-point one-loop superstring amplitude I: Pure spinors and superfield kinematics_ ([arXiv:1812.10969](https://arxiv.org/abs/1812.10969))
 
 * {#MafraSchlotterer18b} [[Carlos Mafra]], [[Oliver Schlotterer]], _Towards the $n$-point one-loop superstring amplitude II: Worldsheet functions and their duality to kinematics_ ([arXiv:1812.10970](https://arxiv.org/abs/1812.10970))
 
 * {#MafraSchlotterer18c} [[Carlos Mafra]], [[Oliver Schlotterer]], _Towards the $n$-point one-loop superstring amplitude III: One-loop correlators and their double-copy structure_ ([arXiv:1812.10971](https://arxiv.org/abs/1812.10971))
+
+
+* [[Carlos R. Mafra]], [[Oliver Schlotterer]], *Tree-level amplitudes from the pure spinor superstring* &lbrack;[arXiv:2210.14241](https://arxiv.org/abs/2210.14241)&rbrack;
+
 
 
 On [[2-loop]] [[string scattering amplitudes]] of the [[superstring]]:
