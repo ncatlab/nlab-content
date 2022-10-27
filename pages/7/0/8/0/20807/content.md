@@ -470,6 +470,11 @@ The [[fuzzy 6-sphere]] and higher:
 
 * Francesco Pisacane, _$O(D)$-equivariant fuzzy spheres_ ([arXiv:2002.01901](https://arxiv.org/abs/2002.01901))
 
+See also:
+
+* Denjoe O'Connor, Brian P. Dolan, *Exceptional fuzzy spaces and octonions* &lbrack;[arXiv:2210.14754](https://arxiv.org/abs/2210.14754)&rbrack;
+
+
 [[!redirects fuzzy spheres]]
 
 [[!redirects fuzzy sphere]]
