@@ -134,6 +134,12 @@ The standard (cf. [GLRSV13, p. 5](Quipper#GLRSV13)) [[qbit]]-form of the [[quant
 \end{imagefromfile}
 
 
+## Properties
+
+### Deferred measurement principles
+
+See at *[[deferred measurement principle]]*.
+
 
 ## Related concepts
 
@@ -212,10 +218,14 @@ Survey, examples, and implementations:
 
 * Vladimir P. Gerdt, Alexander N. Prokopenya, *The Circuit Model of Quantum Computation and Its Simulation with Mathematica*, In: Adam G., Buša J., Hnatič M. (eds.) *Mathematical Modeling and Computational Science* MMCP 2011. Lecture Notes in Computer Science, vol 7125. Springer 2011 ([doi:10.1007/978-3-642-28212-6_4](https://doi.org/10.1007/978-3-642-28212-6_4))
 
-
 With an eye towards [[quantum complexity theory]]:
 
 * Richard Cleve, Section 1.2 in: *An Introduction to Quantum Complexity Theory* ([pdf](https://cds.cern.ch/record/392006/files/9906111.pdf))
+
+Formal [[quantum programming language]]-perspective on quantum circuits:
+
+* [[Yuri Gurevich]], [[Andreas Blass]], *Software science view on quantum circuit algorithms* &lbrack;[arXiv:2209.13731](https://arxiv.org/abs/2209.13731)&rbrack;
+
 
 [[!include quantum programming languages -- references]]
 
