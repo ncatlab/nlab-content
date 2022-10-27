@@ -139,13 +139,17 @@ Survey of the presence and role of divergences includes
 * [[Ashoke Sen]], _Ultraviolet and Infrared Divergences in Superstring Theory_ ([arXiv:1512.00026](http://arxiv.org/abs/1512.00026))
 
 
-Discussion of superstring scattering amplitudes in terms of [[pure spinors]] with emphasis on [[KLT relations]] is in
+Discussion of superstring scattering amplitudes in terms of [[pure spinors]] ([[Berkovits superstring]]) with emphasis on [[KLT relations]]:
 
 * {#MafraSchlotterer18a} [[Carlos Mafra]], [[Oliver Schlotterer]], _Towards the $n$-point one-loop superstring amplitude I: Pure spinors and superfield kinematics_ ([arXiv:1812.10969](https://arxiv.org/abs/1812.10969))
 
 * {#MafraSchlotterer18b} [[Carlos Mafra]], [[Oliver Schlotterer]], _Towards the $n$-point one-loop superstring amplitude II: Worldsheet functions and their duality to kinematics_ ([arXiv:1812.10970](https://arxiv.org/abs/1812.10970))
 
 * {#MafraSchlotterer18c} [[Carlos Mafra]], [[Oliver Schlotterer]], _Towards the $n$-point one-loop superstring amplitude III: One-loop correlators and their double-copy structure_ ([arXiv:1812.10971](https://arxiv.org/abs/1812.10971))
+
+
+* [[Carlos R. Mafra]], [[Oliver Schlotterer]], *Tree-level amplitudes from the pure spinor superstring* &lbrack;[arXiv:2210.14241](https://arxiv.org/abs/2210.14241)&rbrack;
+
 
 For more see also at _[[superstring field theory]]_, such as
 
