@@ -22,7 +22,7 @@ In [[quantum physics]] and specifically in [[quantum information theory]], the *
 
 is equivalent ([[equality|equal]] as a [[function]] from given input to output [[data types]]) as
 
-* a [[quantum circuit]] in which all [[quantum measurement]] happens "at the end", i.e. where no [[quantum gates]] are [[controlled quantum gate|controlled]] by previous measurement results.
+* a [[quantum circuit]] in which all [[quantum measurement]] happens "at the end", i.e. where no [[quantum gates]] are classically [[controlled quantum gate|controlled]] by previous measurement results, but all [[controlled quantum gate|quantumly controlled]] by coherent control qbits.
 
 The principle can be useful in practice for optimizing [[quantum circuits]]. It also clearly relates to the issue of [[interpretations of quantum mechanics]]: Since it is the [[collapse of the wavefunction]] upon [[quantum measurement]] which makes the [[interpretation of quantum mechanics]] subtle, it is interesting to note that this collapse may be (arbitrarily) deferred, in a precise sense.
 
