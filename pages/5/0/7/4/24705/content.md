@@ -468,8 +468,23 @@ which is encoded by its direct sum decomposition $\mathcal{H}_\bullet$:
     }
 \end{imagefromfile}
 
+Given this, the [Kleisli equivalence](Kleisli+category#KleisliEquivalence) for the [[necessity]] [[comonad]] $\Box_B$  is essentially the [[deferred measurement principle]] for [[quantum circuits]]:
 
-Equivalently we may express this situation via the [[writer comonad]] $\star$ and the [[reader monad]] $\bigcirc$, by observing that the following [[commuting diagram|diagram commutes]] (being the [[naturality square]] of the necessity-counit on the possibility-unit):
+\begin{imagefromfile}
+    "file_name": "DeferredMeasurementAsKleisliEquiv-221027b.jpg",
+    "width": "800",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
+Equivalently, we may express quantum measurement situation via the [[writer comonad]] $\star$ and the [[reader monad]] $\bigcirc$, by observing that the following [[commuting diagram|diagram commutes]] (being the [[naturality square]] of the necessity-counit on the possibility-unit):
 
 \[
   \label{MeasurementViaWritedComonad}
