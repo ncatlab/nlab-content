@@ -7,6 +7,12 @@
 
 **Synthetic domain theory**, as its name suggests, is a [[synthetic mathematics|synthetic]] axiomatization of [[domain theory]], typically in [[toposes]]. The slogan for synthetic domain theory is that "domains are sets", or more precisely, "domains are certain intuitionistic sets" in that one works in an [[intuitionistic mathematics|intuitionistic]] [[set theory]] with certain anti-classical [[axioms]] and defines a notion of domain internally. These synthetic domains act like the analytic notions in that domains support arbitrary [[fixed points]] and solutions to non-well-founded recursive domain equations.
 
+## Axiomatics
+
+Specific axioms of SDT vary, but a category for synthetic domain theory is typically a [[topos]] equipped with a [[dominance]] $\Sigma$. From this dominance, a $\Sigma$-partial map classifier can be constructed called the "lift" monad $L A$. The lift monad has [[initial algebra of an endofunctor|initial and final algebras]] (as a functor, rather than a monad) called $\omega$ and $\overline\omega$ respectively, with an induced [[monomorphism]] $\omega \to \overline \omega$. Then it is required that the induced function $\Sigma^{\overline \omega} \to \Sigma^\omega$ has an inverse. 
+
+An intuition is that maps out of $\omega$ are a synthetic notion of $\omega$-chain and maps out of $\overline \omega$ are $\omega$-chains with a limit point. Requiring the inverse above then amounts to requiring that every chain in $\Sigma$ has a *unique* limit point.
+
 ## Models
 
 There are two main classes of models of synthetic domain theory: [[realizability toposes]] and [[Grothendieck toposes]].
