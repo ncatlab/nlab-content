@@ -74,7 +74,7 @@ $$ f^\dagger \quad = \quad \bigvee_{i=1}^\infty (F_f)^n(\bot) .$$
 
 The ideas originated in the work by Calvin C. Elgot in the 1970s. A textbook reference is:
 
-* Stephen L. Bloom & Zoltán Ésik , _Iteration theories_, Springer 1993. ([citeseer](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.363.3634))
+* Stephen L. Bloom & Zoltán Ésik , _Iteration theories_, Springer 1993. ([[Iteration Theories.pdf:file]])
 
 The connection with traced monoidal categories is due to [[Masahito Hasegawa]] and [[Martin Hyland]], see Theorem 3.1 of:
 
