@@ -17,9 +17,13 @@
 
 ## Idea
 
-In [[type theory]] a _definition_ is the construction of a [[type]] or a [[term]] of a certain [[type]]. 
+In [[type theory]] a _definition_ is the construction of a [[type]] or a [[term]] of a certain [[type]]. By construction, we mean that the type has a [[formation rule]] and the [[term]] has an [[introduction rule]]. Then, there are in general two ways to complete the construction, 
 
-As such definitions are no different from [[proofs]] of [[theorems]] (due [[propositions-as-types]]). For instance the [[constructive mathematics|constructive]] proof that there _exists_ a [[natural number]] consists of exhibiting one, and hence the definition of, say $2 \in \mathbb{N}$ is the same as a specific proof that $\exists x \in \mathbb{N}$.
+* by adding to the type theory the [[elimination rules]], [[computation rules]], and [[uniqueness rules]] for [[types]] and its associated [[terms]] which characterize the [[universal property]] of the type (see [[natural deduction]])
+
+* by adding to the type theory a rule stating that the type or term [[equality|is equal to]] an existing term or type
+
+Many types in type theory, such as [[function types]], [[product types]], [[coproduct types]], [[booleans type]], [[natural numbers type]], [[integers]], et cetera, are defined in both ways, by universal properties and by equality with another type. 
 
 ## Rules for definitions
 
