@@ -3,21 +3,24 @@
 
 ## Selected writings
 
-On the converse to the [[basis theorem]]:
-
-* [[Andreas Blass]], _Existence of bases implies the axiom of choice_, Contemporary Mathematics **31** (1984) pp. 31-33, [doi:10.1090/conm/031](https://doi.org/10.1090/conm/031), ([author pdf](https://dept.math.lsa.umich.edu/~ablass/bases-AC.pdf)).
-
 On [[small violations of choice]]:
 
 * {#Blass79} [[Andreas Blass]], _Injectivity, projectivity, and the axiom of choice_,  Trans. Amer. Math. Soc. **255** (1979) 31-59 &lbrack;[doi:10.1090/S0002-9947-1979-0542870-6](https://doi.org/10.1090/S0002-9947-1979-0542870-6)&rbrack;
 
-On [[classifying toposes]]:
+On [[classifying toposes]]...
 
-* {#blass} [[Andreas Blass]], _Classifying topoi and the axiom of infinity_ , Algebra Universalis **26** (1989) 341-345 &lbrack;[doi:10.1007/BF01211840](https://doi.org/10.1007/BF01211840)&rbrack; 
+...and [[forcing]]:
 
-and [[forcing]]:
+* [[Andreas Blass]], [[Andrej Ščedrov]], *Classifying topoi and finite forcing*, Journal of Pure and Applied Algebra **28** (1983) 111-140 &lbrack;<a href="https://doi.org/10.1016/0022-4049(83)90085-3">doi:10.1016/0022-4049(83)90085-3</a>&rbrack;
 
-* [[Andreas Blass]], [[Andrej Scedrov]], *Classifying topoi and finite forcing*, Journal of Pure and Applied Algebra **28** (1983) 111-140 &lbrack;<a href="https://doi.org/10.1016/0022-4049(83)90085-3">doi:10.1016/0022-4049(83)90085-3</a>&rbrack;
+... and the [[axiom of infinity]]:
+
+* [[Andreas Blass]], _Classifying topoi and the axiom of infinity_ , Algebra Universalis **26** (1989) 341-345 &lbrack;[doi:10.1007/BF01211840](https://doi.org/10.1007/BF01211840)&rbrack; 
+
+On the converse to the [[basis theorem]]:
+
+* [[Andreas Blass]], _Existence of bases implies the axiom of choice_, Contemporary Mathematics **31** (1984) pp. 31-33, [doi:10.1090/conm/031](https://doi.org/10.1090/conm/031), ([author pdf](https://dept.math.lsa.umich.edu/~ablass/bases-AC.pdf)).
+
 
 
 On [[objective number theory]]:
