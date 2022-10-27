@@ -45,3 +45,7 @@ See also
 [[!redirects binary digits]]
 [[!redirects bit]]
 [[!redirects bits]]
+
+[[!redirects Bool]]
+
+
