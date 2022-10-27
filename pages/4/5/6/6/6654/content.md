@@ -18,7 +18,7 @@ On the relation between the [[NSR superstring]] and the [[pure spinor]] [[Berkov
 
 Review:
 
-* [[Nathan Berkovits]], Carlos R. Mafra, *Pure spinor formulation of the superstring and its applications*, in *[[Handbook of Quantum Gravity]]* (2023) &lbrack;[arXiv:2210.10510](https://arxiv.org/abs/2210.10510)&rbrack;
+* [[Nathan Berkovits]], [[Carlos R. Mafra]], *Pure spinor formulation of the superstring and its applications*, in *[[Handbook of Quantum Gravity]]* (2023) &lbrack;[arXiv:2210.10510](https://arxiv.org/abs/2210.10510)&rbrack;
 
 ## Related entries
 
