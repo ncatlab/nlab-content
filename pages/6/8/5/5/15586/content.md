@@ -121,7 +121,7 @@ Lawvere briefly comments on his 1965 system 50 years later p.6 in
 
 An insightful and non-partisan view of ETCC can be found in a section of:
 
-* [[Andreas Blass]], Yuri Gurevich, *Why Sets?*, Bull. Europ. Assoc. Theoret. Comp. Sci. **84** (2004) pp.139-156.  ([draft](http://www.math.lsa.umich.edu/~ablass/set.pdf))
+* [[Andreas Blass]], [[Yuri Gurevich]], *Why Sets?*, Bull. Europ. Assoc. Theoret. Comp. Sci. **84** (2004) 139-156.  &lbrack;[doi:10.1007/978-3-540-78127-1_11](https://doi.org/10.1007/978-3-540-78127-1_11), [pdf](https://web.eecs.umich.edu/~gurevich/Opera/172.pdf), [pdf](http://www.math.lsa.umich.edu/~ablass/set.pdf)&rbrack;
 
 Alternative or complementary approaches are
 
