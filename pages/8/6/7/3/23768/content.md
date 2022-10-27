@@ -20,7 +20,7 @@
 
 ## Idea
 
-In [[formal logic]] such as [[type theory]] a _telescope_ $\Delta$ is a [[finite]] [[list]] of [[terms in context]], whose elements/terms/inhabitants are [[substitutions]]. 
+In [[formal logic]] such as [[type theory]] a _telescope_ $\Delta$ is a [[finite]] [[list]] of [[terms in context]], whose elements/terms/inhabitants are [[substitutions]]. One distinguishes telescopes from [[contexts]] by the fact that telescopes have elements while contexts do not have elements. 
 
 ## Definition
 
