@@ -9,9 +9,9 @@
 
 ## Axiomatics
 
-Specific axioms of SDT vary, but a category for synthetic domain theory is typically a [[topos]] equipped with a [[dominance]] $\Sigma$. From this dominance, a $\Sigma$-partial map classifier can be constructed called the "lift" monad $L A$. The lift monad has [[initial algebra of an endofunctor|initial and final algebras]] (as a functor, rather than a monad) called $\omega$ and $\overline\omega$ respectively, with an induced [[monomorphism]] $\omega \to \overline \omega$. Then it is required that the induced function $\Sigma^{\overline \omega} \to \Sigma^\omega$ has an inverse. 
+Specific axioms of SDT vary, but a category for synthetic domain theory is typically a [[topos]] equipped with a [[dominance]] $\Sigma$. From this dominance, a $\Sigma$-[[partial map]] classifier can be constructed called the "lift" [[monad]] $L A$. The lift monad has [[initial algebra of an endofunctor|initial and final algebras]] (as a functor, rather than a monad) called $\omega$ and $\overline\omega$ respectively, with an induced [[monomorphism]] $\omega \to \overline \omega$. Then it is required that the induced function $\Sigma^{\overline \omega} \to \Sigma^\omega$ has an [[inverse]]. 
 
-An intuition is that maps out of $\omega$ are a synthetic notion of $\omega$-chain and maps out of $\overline \omega$ are $\omega$-chains with a limit point. Requiring the inverse above then amounts to requiring that every chain in $\Sigma$ has a *unique* limit point.
+An intuition is that maps out of $\omega$ are a synthetic notion of $\omega$-chains and maps out of $\overline \omega$ are $\omega$-chains with a limit point. Requiring the inverse above then amounts to requiring that every chain in $\Sigma$ has a *unique* limit point.
 
 ## Models
 
