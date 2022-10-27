@@ -56,6 +56,8 @@ For Skyrmion models of nuclei to match well to [[experiment]], not just the [[pi
 
 * [[confinement]]
 
+* [[nuclear magnetic resonance]]
+
 ## References
 
 On [[Skyrmion]] [[model (in theoretical physics)|models]] for nucleons:
