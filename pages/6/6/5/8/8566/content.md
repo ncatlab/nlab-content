@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On the converse to the [[basis theorem]]:
+
+* [[Andreas Blass]], _Existence of bases implies the axiom of choice_, Contemporary Mathematics **31** (1984) pp. 31-33, [doi:10.1090/conm/031](https://doi.org/10.1090/conm/031), ([author pdf](https://dept.math.lsa.umich.edu/~ablass/bases-AC.pdf)).
+
 On [[small violations of choice]]:
 
 * {#Blass79} [[Andreas Blass]], _Injectivity, projectivity, and the axiom of choice_,  Trans. Amer. Math. Soc. **255** (1979) 31-59 &lbrack;[doi:10.1090/S0002-9947-1979-0542870-6](https://doi.org/10.1090/S0002-9947-1979-0542870-6)&rbrack;
