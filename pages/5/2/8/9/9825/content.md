@@ -76,6 +76,12 @@ There are different ways to *[[type theory|type]]* the quantum measurement, taki
 
 Both of these options naturally emerge and are naturally unified in the "[Quantum Modal Logic](necessity+and+possibility#ModalQuantumLogic)" inherent to [[dependent linear type theory]]: This is discussed at *[[quantum circuits via dependent linear types]]*.
 
+## Properties
+
+* [[collapse of the wavefunction]]
+
+* [[deferred measurement principle]]
+
 \linebreak
 
 ## The "measurement problem"
