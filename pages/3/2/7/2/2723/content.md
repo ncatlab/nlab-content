@@ -65,7 +65,12 @@ Relation to the [[Green-Schwarz superstring]]:
 
 Review:
 
-* [[Nathan Berkovits]], Carlos R. Mafra, *Pure spinor formulation of the superstring and its applications*, in *[[Handbook of Quantum Gravity]]* (2023) &lbrack;[arXiv:2210.10510](https://arxiv.org/abs/2210.10510)&rbrack;
+* [[Nathan Berkovits]], [[Carlos R. Mafra]], *Pure spinor formulation of the superstring and its applications*, in *[[Handbook of Quantum Gravity]]* (2023) &lbrack;[arXiv:2210.10510](https://arxiv.org/abs/2210.10510)&rbrack;
+
+Discussion of [[string scattering amplitudes]]:
+
+* [[Carlos R. Mafra]], [[Oliver Schlotterer]], *Tree-level amplitudes from the pure spinor superstring* &lbrack;[arXiv:2210.14241](https://arxiv.org/abs/2210.14241)&rbrack;
+
 
 
 
