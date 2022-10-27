@@ -655,7 +655,9 @@ A more advanced reference containing several developments of the general theory,
 
 The relation between the existence of natural number objects and classifying toposes is discussed in
 
-* {#blass}[[Andreas Blass]], _Classifying topoi and the axiom of infinity_ , Algebra Universalis **26** (1989) pp.341-345.
+* {#blass} [[Andreas Blass]], *Classifying topoi and the axiom of infinity*, Algebra Universalis **26** (1989) 341-345 &lbrack;[doi:10.1007/BF01211840](https://doi.org/10.1007/BF01211840)&rbrack; 
+
+  > (in relation to the [[axiom of infinity]])
 
 The study of classifying spaces of topological categories is described in the monograph
 
@@ -698,16 +700,15 @@ The [[étale topos]] as a classifying topos for [[strict local rings]] is discus
 
 Reviews of the interpretation of _[[forcing]]_ as the passge to classifying toposes include
 
-* [[Andreas Blass]], Andrej Ščedrov, _Classifying topoi and finite forcing_ ([pdf](http://deepblue.lib.umich.edu/bitstream/handle/2027.42/25225/0000666.pdf;jsessionid=8D65C672D70D8E24A5ACD366C1815921?sequence=1))
+* [[Andreas Blass]], [[Andrej Ščedrov]], *Classifying topoi and finite forcing*, Journal of Pure and Applied Algebra **28** (1983) 111-140 &lbrack;<a href="https://doi.org/10.1016/0022-4049(83)90085-3">doi:10.1016/0022-4049(83)90085-3</a>&rbrack;
 
-* Andrej Ščedrov, _Forcing and classifying topoi_, Memoirs of the American Mathematical Society 1984; 93 pp
+* [[Andrej Ščedrov]], *Forcing and classifying topoi*, Memoirs of the American Mathematical Society (1984) &lbrack;[AMS:memo-48-295](https://bookstore.ams.org/memo-48-295/5)&rbrack;
 
 For more see
 
 * {#Roberts15} [[David Roberts]], _Class forcing and topos theory_, talk at _[Topos at l'IHES](https://indico.math.cnrs.fr/event/747/)_ 2015 ([talk notes pdf](https://www.dropbox.com/s/vk1efw7lsvta80p/Roberts_IHES.pdf?dl=0),  [video recording](https://youtu.be/4AaSySq8-GQ))
 
 
-[[!redirects Another page]]
 [[!redirects classifying toposes]]
 [[!redirects classifying topoi]]
 [[!redirects classifying locale]]
