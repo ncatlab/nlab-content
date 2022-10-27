@@ -124,7 +124,11 @@ Functoriality of $\int \phi$ is a direct consequence of the properties required 
 
 ## References
 
-The correspondence between categories over $C$ and [[normal lax functors]] $C\to Prof$ was observed by
+The correspondence between categories over $C$ and [[normal lax functors]] $C\to Prof$ was observed by [[Jean Benabou|B&#233;nabou]] already in 1972:
+
+* [[Jean Benabou|Jean B&#233;nabou]], *2-dimensional limits and colimits of distributors (or how to glue together categories)*, Oberwolfach 'Tagungsbericht', 1972, [(web)](https://oda.mfo.de/handle/mfo/1575)
+
+A more detailed account of Benaobou's work on this topic can be found at:
 
 * Jean B&#233;nabou, *Distributors at work*, Notes by Thomas Streicher from lectures given at TU Darmstadt, 2000, [pdf](http://www.mathematik.tu-darmstadt.de/~streicher/FIBR/DiWo.pdf) {#Benabou}
 
