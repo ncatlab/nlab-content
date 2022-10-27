@@ -26,7 +26,11 @@
 
 The *contolled NOT* or *[[reversible computation|reversible]] [[XOR]]-gate* is the [[logic gate]] acting between [[pairs]] of [[bits]] which identically keeps the first bit in the pair and [[negation|negates]] the second IFF the first was set.
 
-This may be understood as the [[reversible computation|reversible]] version of the [[XOR]]-gate.
+This may be understood equivalently as 
+
+* the [[controlled quantum gate]]-version of the quantum [[NOT]]-gate
+
+* the [[reversible computation|reversible]] version of the [[XOR]]-gate.
 
 In [[quantum computing]]/[[quantum information theory]], by the *controlled NOT gate* or *CNOT gate* one means the [[quantum logic gate]] which acts on a [[pair]] of [[qbits]] by the [[linear map]] which is given in this way on the canonical [[linear basis]]-elements of a [[pair]] of [[qbits]]:
 
