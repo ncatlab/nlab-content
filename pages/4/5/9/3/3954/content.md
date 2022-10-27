@@ -98,9 +98,10 @@ On the interpretation of forcing via [[classifying toposes]] (see also at [[Krip
 * {#Johnstone77} [[Peter Johnstone]], pages 270, 273, 348, 353 of: _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp. (Available as Dover Reprint, Mineola 2014)
 
 
-* [[Andreas Blass]], Andrej Ščedrov, _Classifying topoi and finite forcing_, 1982 ([pdf](http://deepblue.lib.umich.edu/bitstream/handle/2027.42/25225/0000666.pdf))
+* [[Andreas Blass]], [[Andrej Ščedrov]], *Classifying topoi and finite forcing*, Journal of Pure and Applied Algebra **28** (1983) 111-140 &lbrack;<a href="https://doi.org/10.1016/0022-4049(83)90085-3">doi:10.1016/0022-4049(83)90085-3</a>&rbrack;
 
-* {#Scedrov84} Andrej Ščedrov, _Forcing and classifying topoi_, Memoirs of the American Mathematical Society 1984 ([ISBN:978-1-4704-0705-6](https://bookstore.ams.org/memo-48-295/))
+* {#Scedrov84} [[Andrej Ščedrov]], *Forcing and classifying topoi*, Memoirs of the American Mathematical Society (1984) &lbrack;[AMS:memo-48-295](https://bookstore.ams.org/memo-48-295/5)&rbrack;
+
 
 * J. Benavides, _The logic of sheaves, sheaf forcing and the independence of the Continuum Hypothesis_ ([arXiv:1111.5854](https://arxiv.org/abs/1111.5854))
 
