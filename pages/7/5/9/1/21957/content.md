@@ -45,7 +45,7 @@
 
 * [[John Baez]], [[James Dolan]], _From finite sets to Feynman diagrams_ , pp.29-50 in Engquist, Schmid (eds.), _Mathematics Unlimited - 2001 and Beyond_  , Springer Heidelberg 2001.
 
-* [[Andreas Blass]], _Seven trees in one_ , JPAA **103** no.1 (1995) pp.1–21.
+* [[Andreas Blass]], *Seven trees in one*, Journal of Pure and Applied Algebra,  **103** 1 (1995) 1–21 &lbrack;[arXiv:math/9405205](https://arxiv.org/abs/math/9405205), <a href="https://doi.org/10.1016/0022-4049(95)00098-H">doi:10.1016/0022-4049(95)00098-H</a>&rbrack;
 
 * [[Marcelo Fiore]], [[Tom Leinster]], _An Objective Representation of the Gaussian Integers_ ,  J. Symbolic Computation **37** no.6 (2004) pp.707-716. ([arXiv](http://arxiv.org/abs/math/0211454v2))
 
