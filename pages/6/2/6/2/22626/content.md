@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -23,7 +24,7 @@
 
 In the context of [[quantum computation]], a *quantum circuit diagram* (originally: "quantum computational network", [Deutsch 1989](#Deutsch89)) is a kind of [[string diagram]] ([Abramsky & Coecke 2004](#AbramskyCoecke04)) in [[finite-dimensional vector spaces|finite-dimensional]] [[Hilbert spaces]], typically used to express a sequence of low-level [[quantum logic gate|quantum gates]] mapping between [[space of quantum states|spaces of]] [[pure quantum state|pure]] [[quantum states]].
 
-A generic quantum circuit might look as follows:
+A generic *pure* quantum circuit might look as follows:
 
 \begin{imagefromfile}
     "file_name": "QuantumCircuitScheme-221025c.jpg",
@@ -53,6 +54,22 @@ But more generally and certainly in the broader context of [[quantum information
 1. *[[quantum state preparation]]-gates*,
 
 1. *classically controlled quantum gates*.
+
+
+{#IBMResearchBlogGraphics}
+\begin{imagefromfile}
+    "file_name": "IBMOnMidCircuitMeasurement.jpg",
+    "width": "700",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 10,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(example from [IBM Research Blog 2021/02](https://www.ibm.com/blogs/research/2021/02/quantum-mid-circuit-measurement/))"
+\end{imagefromfile}
+
 
 Here [[quantum measurement]], in particular, is not only non-[[reversible computation|reversible]] (due to the [[quantum state collapse]] involved) but also non-deterministic, meaning that it is not immediately represented by a fixed linear map at all -- at least not between the original Hilbert spaces. 
 
