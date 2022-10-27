@@ -88,6 +88,8 @@ Namely -- by the [above](#Definition) -- a quantum measurement is formally refle
 
 ## Related concepts
 
+* [[deferred measurement principle]]
+
 * [[quantum state preparation]]
 
 * [[quantum fluctuation]]
