@@ -3,7 +3,7 @@
 
 ## Selected writings
 
-On [[string scattering amplitudes]] for the [[superstring]]:
+On [[string scattering amplitudes]] for the [[Berkovits superstring|Berkovits-formulation]] of the [[superstring]]:
 
 * {#MafraSchlotterer18a} [[Carlos Mafra]], [[Oliver Schlotterer]], _Towards the $n$-point one-loop superstring amplitude I: Pure spinors and superfield kinematics_ ([arXiv:1812.10969](https://arxiv.org/abs/1812.10969))
 
@@ -11,6 +11,11 @@ On [[string scattering amplitudes]] for the [[superstring]]:
 
 * {#MafraSchlotterer18c} [[Carlos Mafra]], [[Oliver Schlotterer]], _Towards the $n$-point one-loop superstring amplitude III: One-loop correlators and their double-copy structure_ ([arXiv:1812.10971](https://arxiv.org/abs/1812.10971))
 
+* [[Carlos R. Mafra]], [[Oliver Schlotterer]], *Tree-level amplitudes from the pure spinor superstring* &lbrack;[arXiv:2210.14241](https://arxiv.org/abs/2210.14241)&rbrack;
+
+Review of the [[pure spinor]] [[Berkovits superstring]]:
+
+* [[Nathan Berkovits]], [[Carlos R. Mafra]], *Pure spinor formulation of the superstring and its applications*, in *[[Handbook of Quantum Gravity]]* (2023) &lbrack;[arXiv:2210.10510](https://arxiv.org/abs/2210.10510)&rbrack;
 
 On [[2-loop]] [[string scattering amplitudes]] of the [[superstring]]:
 
@@ -29,3 +34,5 @@ On [[2-loop]] [[string scattering amplitudes]] of the [[superstring]]:
 * [[pure spinor]]
 
 category: people
+
+[[!redirects Carlos R. Mafra]]
