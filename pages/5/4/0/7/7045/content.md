@@ -70,7 +70,7 @@ for Tarski universes.
 ### Russell universe
   {#RussellStyle}
 
-A **Russell universe** or **universe &#224; la Russell** is a [[type]] whose terms *are* types. In the presence of a separate [[judgment]] "$A \;type$", this can be formulated as a [[natural deduction|deduction rule]] of the form
+A **[[Russell universe]]** or **universe &#224; la Russell** is a [[type]] whose terms *are* types. In the presence of a separate [[judgment]] "$A \;type$", this can be formulated as a [[natural deduction|deduction rule]] of the form
 
 $$\frac{A:\mathcal{U}}{A \;type}$$
 
@@ -229,6 +229,3 @@ See also
 [[!redirects hierarchy of types]]
 
 [[!redirects Type]]
-
-[[!redirects Russell universe]]
-[[!redirects Russell universes]]
