@@ -1,4 +1,9 @@
-
+\begin{center}
+\begin{tikzcd}
+X\times X \arrow[d, "f\times f"'] \arrow[r, "\displaystyle\mu_{X}"] & X \arrow[d, "f"] \\
+Y\times Y \arrow[r, "\displaystyle\mu_{Y}"']                        & Y               
+\end{tikzcd}
+\end{center}
 [[MeasurementViaWriterComonad-221026.jpg:file]]
 
 \begin{tikzcd}
