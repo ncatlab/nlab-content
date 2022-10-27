@@ -128,6 +128,9 @@ The original [[wave function]] is $\psi \in \mathcal{H}$, and after observing $P
 
 * [[propositions as projections]]
 
+* [[deferred measurement principle]]
+
+
 [[!include states and observables -- content]]
 
 
