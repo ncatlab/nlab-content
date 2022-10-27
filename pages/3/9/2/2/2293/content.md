@@ -33,17 +33,17 @@ Sometimes the term _derived algebraic geometry_ is also used for the related sub
 
 There are several motivations for the study of derived algebraic geometry.
 
-1.  The [[hidden smoothness principle]] of [[Maxim Kontsevich]], which conjectures that in classical [[algebraic geometry]], the non-[[smoothness]] of certain [[moduli spaces]] is a consequence of the fact that they are in fact truncations of [[derived moduli stacks]] (which are [[smooth]]).
+1.  The [[hidden smoothness principle]] of [[Maxim Kontsevich]], which conjectures that in classical [[algebraic geometry]], the non-[[smoothness]] of certain [[moduli spaces]] is a consequence of the fact that they are in fact truncations of [[derived moduli stacks]] (which are quasi-[[smooth]]).
 
-1.  [[intersection theory|Intersection theory]]: a [[geometric]] interpretation of the [[Serre intersection formula]] for non-flat [[intersections]].
+1.  [[intersection theory|Intersection theory]]: a [[geometric]] interpretation of the [[Serre intersection formula]] for non-transverse [[intersections]].
 
-1.  [[deformation theory|Deformation theory]]: a [[geometric]] interpretation of the [[cotangent complex]].  (In derived algebraic geometry, the [[cotangent complex]] $\mathbf{L}_X$ of $X$ _is_ its [[cotangent space]].
+1.  [[deformation theory|Deformation theory]]: a [[geometric]] interpretation of the [[cotangent complex]]: the "total space" of the cotangent complex $\mathbb{L}_X$ of $X$ makes sense as an object of derived algebraic geometry (a [[derived stack]]), namely it can be regarded as a derived vector bundle which specializes to the [[cotangent bundle]] $T^*X$ when $X$ is smooth.
 
 For more detail on the final two points, see [(Vezzosi, 2011)](#VezzosiWhatIs).
 
 ## History
 
-The original approach to derived algebraic geometry was via [[dg-schemes]], introduced by [[Maxim Kontsevich]].  Using [[dg-schemes]], [[Ionut Ciocan-Fontanine]] and [[Mikhail Kapranov]] constructed the first [[derived moduli spaces]] (derived [[Hilbert scheme]] and derived [[Quot scheme]]).
+The idea of developing a theory of schemes where structure sheaves are sheaves of dg-algebras was first proposed by [[Maxim Kontsevich]]. The first rigorous approach to such a theory was via [[dg-schemes]], introduced by  [[Ionut Ciocan-Fontanine]] and [[Mikhail Kapranov]], who used it to construct the first examples of [[derived moduli spaces]] (derived [[Hilbert scheme]] and derived [[Quot scheme]]).  However, this theory was relatively restrictive because dg-schemes were equipped with an embedding into an ambient smooth scheme by definition (hence in particular one could not model the correct notion of morphisms of derived schemes in this language), and because dg-algebras need to be replaced by [[simplicial commutative rings]] in positive or mixed characteristic.
 
 [[Bertrand Toen]] and [[Gabriele Vezzosi]] developed [[homotopical algebraic geometry]], which is [[algebraic geometry]] in any [[HAG context]], i.e. over any [[symmetric monoidal model category]] satisfying certain assumptions.  As special cases they recover the [[algebraic geometry]] of [[Grothendieck]] and the [[higher stacks]] of [[Carlos Simpson]], and also develop new theories of [[derived algebraic geometry]], [[complicial algebraic geometry]], and [[brave new algebraic geometry]].
 
