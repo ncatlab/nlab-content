@@ -144,3 +144,7 @@ See also:
 
 [[!redirects quantum gates]]
 
+[[!redirects controlled quantum gate]]
+[[!redirects controlled quantum gates]]
+[[!redirects controlled quantum logic gate]]
+[[!redirects controlled quantum logic gates]]
