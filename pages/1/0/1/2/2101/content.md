@@ -60,7 +60,7 @@ The relationship between monads and adjunctions itself constitutes an adjunction
 
 1. [[Eilenberg-Moore categories]] are obviously all examples, and up to equivalence, the only examples.
 2. If the categories are pre-orders, then a monadic adjunction is a [[Galois connection]] where the right adjoint reflects ordering and dually a comonadic adjunction is a Galois connection where the left adjoint reflects ordering.
-3. More generally an [[idempotent adjunction]] is monadic if and only if the right adjoint is [[fully faithful]], i.e. essentially a [[reflective subcategory]] inclusion. Dually, a comonadic idempotent adjunction is essentially a [[coreflective]] subcategory inclusion.
+3. More generally an [[idempotent adjunction]] is monadic if and only if the right adjoint is [[fully faithful]], i.e. essentially a [[reflective subcategory]] inclusion. Dually, a comonadic idempotent adjunction is essentially a [[coreflective subcategory]] inclusion.
 
 ## Related pages
 
