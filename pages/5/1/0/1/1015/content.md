@@ -92,9 +92,11 @@ There is also [[algebraic set theory]], in which a material set theory is interp
 
 * [[Kenneth Kunen]], _Set theory,an introduction to independence proofs_, North-Holland.
 
-
 * {#LawvereRosebrugh} [[William Lawvere]], [[Robert Rosebrugh]], _[[Sets for Mathematics]]_ , Cambridge UP  2003. ([web](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
 
+* [[Andreas Blass]], [[Yuri Gurevich]], *Why Sets?*, Bull. Europ. Assoc. Theoret. Comp. Sci. **84** (2004) 139-156.  &lbrack;[doi:10.1007/978-3-540-78127-1_11](https://doi.org/10.1007/978-3-540-78127-1_11), [pdf](https://web.eecs.umich.edu/~gurevich/Opera/172.pdf), [pdf](http://www.math.lsa.umich.edu/~ablass/set.pdf)&rbrack;
+
+  > (with commentary on [[ETCC]])
 
 ### In homotopy type theory
  {#ReferencesInHomotopyTypeTheory}
