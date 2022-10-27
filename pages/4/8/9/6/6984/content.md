@@ -142,6 +142,15 @@ In conclusion, we have:
 
 It is of importance to note that these translations require the [[contraction rule]] and the [[weakening rule]]; that is, they duplicate and discard terms.  In [[linear logic]] these rules are disallowed, and therefore the positive and negative products become different.  The positive product becomes "tensor" $A\otimes B$, and the negative product becomes "with" $A \& B$.
 
+### As a special case of the dependent sum
+
+In [[dependent type theory]] a product type $A \times B$ is the special case the [[dependent sum]] over $a : A$ for the 
+special case that $B$ is regarded as an $A$-[[dependent type]] that
+actually happens to be $A$-independent. The rules are given as follows:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, a:A, b:A \vdash B[a/x] \equiv B[b/x] \; \mathrm{type}}{\Gamma \vdash A \times B \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, a:A, b:A \vdash B[a/x] \equiv B[b/x] \; \mathrm{type}}{\Gamma \vdash A \times B \equiv \sum_{x:A} B\; \mathrm{type}}$$
 
 ## Categorical interpretation
 
