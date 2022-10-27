@@ -490,7 +490,7 @@ Equivalently, we may express quantum measurement situation via the [[writer como
   \label{MeasurementViaWritedComonad}
 \]
 \begin{imagefromfile}
-    "file_name": "MeasurementViaWriterComonad-221026.jpg",
+    "file_name": "MeasurementViaWriterComonad-221027.jpg",
     "width": "540",
     "unit": "px",
     "margin": {
