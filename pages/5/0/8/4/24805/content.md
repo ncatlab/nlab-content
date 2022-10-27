@@ -26,6 +26,27 @@ is equivalent ([[equality|equal]] as a [[function]] from given input to output [
 
 The principle can be useful in practice for optimizing [[quantum circuits]]. It also clearly relates to the issue of [[interpretations of quantum mechanics]]: Since it is the [[collapse of the wavefunction]] upon [[quantum measurement]] which makes the [[interpretation of quantum mechanics]] subtle, it is interesting to note that this collapse may be (arbitrarily) deferred, in a precise sense.
 
+## Formalizations
+ {#Formalizations}
+
+See [Gurevich & Blass 2021](#GurevichBlass21).
+
+{#InTermsOfQuantumModalLogic}
+Alternatively: In terms of the discussion at *[[quantum circuits via dependent linear types]]*, the deferred measurement principle is essentially the [Kleisli equivalence](Kleisli+category#KleisliEquivalence) for the [[necessity]] [[comonad]] $\Box_B$ on [[dependent linear types]], like this:
+
+
+\begin{imagefromfile}
+    "file_name": "DeferredMeasurementAsKleisliEquiv-221027b.jpg",
+    "width": "800",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
 ## References
  {#References}
