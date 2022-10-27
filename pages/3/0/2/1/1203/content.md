@@ -48,6 +48,13 @@ In higher categorical terms, the above axiom of finiteness could be stated as fo
 
 * [[Set]], [[FinSet]]
 
+## References
+
+In relation to [[classifying toposes]]:
+
+* [[Andreas Blass]], *Classifying topoi and the axiom of infinity*, Algebra Universalis **26** (1989) 341-345 &lbrack;[doi:10.1007/BF01211840](https://doi.org/10.1007/BF01211840)&rbrack; 
+
+
 category: foundational axiom
 
 [[!redirects axiom of infinity]]
