@@ -40,7 +40,7 @@ The [[classifying topos]] for the theory of objects is the [[presheaf topos]] $[
 This follows from the fact that $\mathbb{O}$ is the [[algebraic theory]] of a 1-sorted algebra without operations whence its algebras are merely sets. The classifying topos for algebraic theories is quite generally given by the presheaf topos on the opposite of the category of finitely presentable models in our case just the finite sets.
 
 For a direct proof see at _[[classifying topos for the theory of objects]]_.
-For base toposes $\mathcal{S}$ other than $Set$, it is a theorem due to [[Andreas Blass]] that the theory of objects has a classifying topos precisely if $\mathcal{S}$ has a [[natural numbers object]].
+For base toposes $\mathcal{S}$ other than $Set$, it is a theorem due to [[Andreas Blass]] that the theory of objects has a classifying topos precisely if $\mathcal{S}$ has a [[natural numbers object]] ([Blass 1989](#blass)).
 
 In the syntax-free approach to geometric theories of Johnstone (2002, I B4.2) the **theory of objects** corresponds to the forgetful functor sending an $\mathcal{S}$-topos to its underlying category. (See at [[geometric theory]] the section on the functorial definition.)
 
@@ -67,4 +67,8 @@ In the syntax-free approach to geometric theories of Johnstone (2002, I B4.2) th
 Sections B4.2, D3.2 of
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+For the equivalence of having an NNO to having a classifier for objects:
+
+* {#blass} [[Andreas Blass]], _Classifying topoi and the axiom of infinity_ , Algebra Universalis **26** (1989) 341-345 ([doi:10.1007/BF01211840](https://doi.org/10.1007/BF01211840))
 
