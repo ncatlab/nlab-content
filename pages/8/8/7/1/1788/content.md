@@ -1,4 +1,6 @@
 
+[[MeasurementViaWriterComonad-221027.jpg:file]]
+
 ##  Idea
 
 In [[quantum information theory]], a *controlled* [[quantum gate]] is a quantum gate whose operation on a given [[space of states]] is conditioned on the data in another space of "control states".
