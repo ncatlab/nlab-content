@@ -130,7 +130,7 @@ This result is due to Johnstone-Joyal ([1982, p.257](#JJ82)) and occurs as theor
 
 [[pointed object|Pointed objects]] are important in [[homotopy theory]]. Similarly to objects, they arise as models of a geometric theory and this [[theory of objects|theory of pointed objects]] $\mathbb{O}_\ast$  is, of course, classified by a topos, namely, the presheaf topos $[FinSet_\ast, Set]$ on the opposite $FinSet_\ast^{op}$ of the category of finite [[pointed sets]] whose skeleton is [[Segal's category]], hence $[FinSet_\ast, Set]$ is equivalent to the topos of "$\Gamma$-sets": cf. [[Gamma-space]] and for the role as a classifying space the following MO-discussion: [link](http://mathoverflow.net/questions/85600/what-do-gamma-sets-classify) .[^classi]
 
-[^classi]: More generally, classifying toposes for [[Horn theory|universal Horn theories]] $\mathbb{T}$ correspond to the respective toposes of covariant set-valued functors on the category of finitely presentable models of $\mathbb{T}$ (Blass&Scedrov (1983)).
+[^classi]: More generally, classifying toposes for [[Horn theory|universal Horn theories]] $\mathbb{T}$ correspond to the respective toposes of covariant set-valued functors on the category of finitely presentable models of $\mathbb{T}$ ([Blass & Scedrov (1983)](#BlassScedrov83)).
 
 Since the theory $\mathbb{O}_\ast$ is an extension of $\mathbb{O}$, it can be treated relatively as an internal theory in $\mathcal{S}[\mathbb{O}]$. There it is just the theory of elements of the generic set $G$, in other words the propositional theory for the discrete space of $G$. Discrete spaces are always got as slice toposes, so $\mathcal{S}[\mathbb{O}_\ast]$ is equivalent to
 
@@ -164,9 +164,10 @@ The forgetful map (geometric morphism) from $\mathcal{S}[\mathbb{O}_\ast]$ to $\
 
 * [[Saunders Mac Lane]], [[Ieke Moerdijk]]: _[[Sheaves in Geometry and Logic]]_, Springer Heidelberg 1994. (sec.VIII.4)
 
-* [[Andreas Blass]], _Classifying topoi and the axiom of infinity_ , Algebra Universalis **26** (1989) pp.341-345. {#blass}
+* {#blass} [[Andreas Blass]], _Classifying topoi and the axiom of infinity_ , Algebra Universalis **26** (1989) 341-345 &lbrack;[doi:10.1007/BF01211840](https://doi.org/10.1007/BF01211840)&rbrack; 
 
-* [[Andreas Blass]], Andrej Scedrov, _Classifying topoi and finite forcing_ , JPAA **28** (1983) pp.111-140.
+* {#BlassScedrov83} [[Andreas Blass]], [[Andrej Scedrov]], *Classifying topoi and finite forcing*, Journal of Pure and Applied Algebra **28** (1983) 111-140 &lbrack;<a href="https://doi.org/10.1016/0022-4049(83)90085-3">doi;10.1016/0022-4049(83)90085-3</a>&rbrack;
+
 
 * [[Marta Bunge]], [[Jonathon Funk]], _Singular Coverings of Toposes_ , Springer LNM **1890** Heidelberg 2006.
 
