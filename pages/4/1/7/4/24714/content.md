@@ -75,3 +75,6 @@ See also:
 
 [[!redirects quantum CNOT gate]]
 [[!redirects quantum CNOT gates]]
+
+[[!redirects controlled quantum NOT gate]]
+[[!redirects controlled quantum NOT gates]]
