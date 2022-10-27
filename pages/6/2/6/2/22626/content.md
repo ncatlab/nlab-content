@@ -46,7 +46,7 @@ Often the basic Hilbert space building block here is taken to be [[complex vecto
 
 Sometimes all [[quantum gates]] involved, and hence also the resulting [[composition|composite]] [[linear maps]], are assumed to be [[invertible]], as befits [[reversible computation]] by [[unitary operator|unitary]] quantum state evolution in [[quantum mechanics]].
 
-But more generally and certainly in the broader context of [[quantum information theory]] (such as in formulating the [[quantum teleportation protocol]] and similar), quantum circuits are admitted to also contain:
+But more generally and certainly in the broader context of [[quantum information theory]] (such as in formulating the [[quantum teleportation protocol]] and similar), quantum circuits are admitted to also contain crucial [[classical mechanics|classical]]/[[quantum mechanics]]-interaction, in the form of:
 
 1. *[[quantum measurement]]-gates*,  
 
@@ -84,7 +84,9 @@ $$
 $$
 
 
-Therefore, as soon as these three operations crossing the [[classical physics|classical]]/[[quantum physics]]-boundary are involved (and made explicit), quantum circuits are no longer just [[string diagrams]] in [[finite-dimensional vector space|finite-dimensional]] [[HilbertSpaces]], but something richer, involving bsides [[tensor products]] also some kind of reflection of [[direct sums]] of [[spaces of quantum states]].
+Therefore, as soon as these three operations crossing the [[classical physics|classical]]/[[quantum physics]]-boundary are involved (and made explicit), quantum circuits are no longer just [[string diagrams]] in [[finite-dimensional vector space|finite-dimensional]] [[HilbertSpaces]], but something richer, involving besides [[tensor products]] also some kind of reflection of [[direct sums]] of [[spaces of quantum states]].
+
+For a critical assessment of the (lack of) literature on this issue see [Gurevich & Blass 2021](#GurevichBlass21).
 
 One approach for handling these more general quantum circuits is ([Aharonov, Kitaev & Nisan 1998](#AharonovKitaevNisan98), [Selinger 2004](#Selinger04)) to understand them, in the tradition on [[quantum probability theory]], as diagrams of "[[quantum operations]]" on [[space of quantum states|spaces of]] [[mixed quantum states]], namely as a kind of [[string diagrams]] of [[completely positive maps]] between [[convex spaces]] of [[density matrices]].
 
@@ -158,12 +160,13 @@ The notion of [[quantum gates]] and quantum circuits acting on [[pure quantum st
 
 * {#Deutsch89} [[David E. Deutsch]], *Quantum computational networks*, Proceedings of the Royal Society A, **425** 1868 (1989) 73-90 &lbrack;[doi:10.1098/rspa.1989.0099](https://doi.org/10.1098/rspa.1989.0099), [jstor:2398494](https://www.jstor.org/stable/2398494)&rbrack;
 
-On quantum circuits for [[mixed quantum states]] (with [[density matrices]]):
+On quantum circuits for [[mixed quantum states]] (with [[density matrices]]) and rigorous propsals for the classical/quantum interaction:
 
 * {#AharonovKitaevNisan98} [[Dorit Aharonov]], [[Alexei Kitaev]], [[Noam Nisan]], *Quantum Circuits with Mixed States*, *Proceedings of the Thirtieth Annual ACM Symposium on Theory of Computation (STOC)* (1998) 20-30 &lbrack;[arXiv:quant-ph/9806029](https://arxiv.org/abs/quant-ph/9806029), [doi:10.1145/276698.276708](https://doi.org/10.1145/276698.276708)&rbrack;
 
 * {#Selinger04} [[Peter Selinger]], _Towards a quantum programming language_, Mathematical Structures in Computer Science **14** 4 (2004) 527–586 &lbrack;[doi:10.1017/S0960129504004256](https://doi.org/10.1017/S0960129504004256), [pdf](https://www.mathstat.dal.ca/~selinger/papers/qpl.pdf),  [web](https://www.mathstat.dal.ca/~selinger/papers.html#qpl)&rbrack;
 
+* {#GurevichBlass21} [[Yuri Gurevich]], [[Andreas Blass]], *Quantum circuits with classical channels and the principle of deferred measurements*, Theoretical Computer Science **920** (2022) 21–32 &lbrack;[arXiv:2107.08324](https://arxiv.org/abs/2107.08324), [doi:10.1016/j.tcs.2022.02.002](https://doi.org/10.1016/j.tcs.2022.02.002)&rbrack;
 
 Standard textbook accounts:
 
