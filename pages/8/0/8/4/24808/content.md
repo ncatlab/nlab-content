@@ -78,6 +78,10 @@ If the type theory has a separate type judgment $A \; \mathrm{type}$, the rules 
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash U \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:U}{\Gamma \vdash A \; \mathrm{type}}$$
 
+Furthermore, the separate type judgment amounts to collapsing the two levels in the theory above into one level: Instead of defining the identity type and the type of natural numbers as external to the type theory, we instead define it as normal types internal to the type theory. Then the rules for the infinite tower of Russell universes are as follows:
+
+$$\frac{\Gamma \vdash i:\mathbb{N}}{\Gamma \vdash U(i):U(s(i))} \qquad \frac{\Gamma \vdash i:\mathbb{N} \quad \Gamma \vdash A:U(i)}{\Gamma \vdash A \; \mathrm{type}} \qquad \frac{\Gamma \vdash i:\mathbb{N} \quad \Gamma \vdash A:U(i)}{\Gamma \vdash \mathrm{Lift}(i)(A):U(s(i))}$$
+
 ## See also
 
 * [[Tarski universe]]
