@@ -91,12 +91,11 @@ In dependent type theory, this definition of $funsplit$ only gives us a properly
 In [[dependent type theory]] a function type $A \to B$ is the
 special case the [[dependent product]] over $a : A$ for the 
 special case that $B$ is regarded as an $A$-[[dependent type]] that
-actually happens to be $A$-independent
+actually happens to be $A$-independent. The rules are given as follows:
 
-$$
-  A \to B =_{def} \prod_{a : A} B
-  \,.
-$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, a:A, b:A \vdash B[a/x] \equiv B[b/x] \; \mathrm{type}}{\Gamma \vdash A \to B \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, a:A, b:A \vdash B[a/x] \equiv B[b/x] \; \mathrm{type}}{\Gamma \vdash A \to B \equiv \prod_{x:A} B\; \mathrm{type}}$$
 
 In [[categorical semantics]] this is the statement that a [[section]] of a product [[projection]] $A \times B \to A$ is equivalently just a morphism $A \to B$.
 
