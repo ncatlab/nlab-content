@@ -273,6 +273,10 @@ Every [[concrete category]] and every [[concrete dagger category]] is a Tarski u
 
 ## See also
 
+For universes as a replacement for type judgments, see
+
+* [[Russell universe]]
+
 Regarding the general notion of types of small types, see 
 
 * [[type universe]]
