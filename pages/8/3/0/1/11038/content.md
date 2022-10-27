@@ -1,5 +1,3 @@
-[[!redirects quantum gate]]
-
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -125,6 +123,8 @@ The following examples have no classical analog:
 
 * [[logic gate]]
 
+* [[controlled quantum gate]]
+
 * [[quantum circuit]]
 
 * [[quantum logic]]
@@ -139,12 +139,8 @@ See also:
 
 * Wikipedia, *[Quantum logic gate](https://en.wikipedia.org/wiki/Quantum_logic_gate)*
 
-[[!redirects quantum logic gate]]
 [[!redirects quantum logic gates]]
 
+[[!redirects quantum gate]]
 [[!redirects quantum gates]]
 
-[[!redirects controlled quantum gate]]
-[[!redirects controlled quantum gates]]
-[[!redirects controlled quantum logic gate]]
-[[!redirects controlled quantum logic gates]]
