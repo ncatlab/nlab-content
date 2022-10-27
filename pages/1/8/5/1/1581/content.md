@@ -16,7 +16,8 @@
 
 ## Idea
 
-The **basis theorem** for [[vector space]]s states that every [[vector space]] $V$ admits a [[basis of a vector space|basis]], or in other words is a [[free module]] over its [[ground field]] of scalars. It is a famous classical consequence of the [[axiom of choice]] (and is equivalent to it by a result of [[Andreas Blass]], proved in 1984). 
+The **basis theorem** for [[vector space]]s states that every [[vector space]] $V$ admits a [[basis of a vector space|basis]], or in other words is a [[free module]] over its [[ground field]] of scalars. It is a famous classical consequence of the [[axiom of choice]] (and is equivalent to it by [Blass (1984)](#Blass84).
+
 
 ## Statement and proofs
 
@@ -63,4 +64,4 @@ Given any linearly independent set $A$ and spanning set $C$, if $A \subseteq C$,
 
 ## References
 
-* [[Andreas Blass]], _Existence of bases implies the axiom of choice_, Contemporary Mathematics **31** (1984) pp. 31-33, [doi:10.1090/conm/031](https://doi.org/10.1090/conm/031), ([author pdf](https://dept.math.lsa.umich.edu/~ablass/bases-AC.pdf))
+* {#Blass84} [[Andreas Blass]], _Existence of bases implies the axiom of choice_, Contemporary Mathematics **31** (1984) pp. 31-33, [doi:10.1090/conm/031](https://doi.org/10.1090/conm/031), ([author pdf](https://dept.math.lsa.umich.edu/~ablass/bases-AC.pdf))
