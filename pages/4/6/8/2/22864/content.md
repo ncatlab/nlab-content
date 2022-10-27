@@ -13,11 +13,11 @@ Differential linear logic can be presented in different guises whether we includ
 
 ## Syntax
 
-There is two way to present the syntax in  [[sequent calculus]]. With bilateral sequents or monolateral sequents. The first one is closer to the language of category theory but the second one allows to make the links with the syntax in [[proof nets]] and to divide by two the number of inference rules. Using the monolateral version (or proof nets) require to quotient the formulas by some equalities related to negation and [[De Morgan duality]].
+There are two ways to present the syntax in  [[sequent calculus]]. With bilateral sequents or monolateral sequents. The first one is closer to the language of category theory but the second one allows to make the links with the syntax in [[proof nets]] and to divide by two the number of inference rules. Using the monolateral version (or proof nets) require to quotient the formulas by some equalities related to negation and [[De Morgan duality]].
 
 ### Formulas - Generalities
 
-There is no novelties concerning formulas compared to linear logic. We will work with the formulas of Multiplicative Exponential Linear Logic (MELL). In the next subsection, the difference between MELL and DiLL will appear as additional inference rules.
+There are no novelties concerning formulas compared to linear logic. We will work with the formulas of Multiplicative Exponential Linear Logic (MELL). In the next subsection, the difference between MELL and DiLL will appear as additional inference rules.
 
 Formulas are given by induction starting from atoms and applying connectives. In accordance with the tradition, formulas and atoms are denoted in the same way by upper case letters:
 
