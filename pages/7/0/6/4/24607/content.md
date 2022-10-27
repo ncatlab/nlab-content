@@ -57,7 +57,9 @@ Here "bad quantum formalism" refers to the traditional notation as in the origin
 
 Here, by the general laws of [[string diagrams]]: a solid line pointing to the right represents a given [[finite dimensional vector space|finite dimensional]] [[Hilbert space]] $\mathscr{H} \,\simeq\, \mathbb{C}^D$ (of [[dimension of a vector space|dimension]] $D$), the same line pointing backwards denotes its [[dual vector space]], two lines running parallel reflects the [[tensor product of Hilbert spaces|tensor product]] of the corresponding Hilbert spaces, and the curve "$\supset$" denotes [[evaluation]] $\mathscr{H}^\ast \otimes \mathscr{H} \xrightarrow{ev} \mathbb{C}$.
 
-That this [[string diagram]] (represents a [[linear map]] which) takes the [[quantum state]] $\Psi$ from "Agent A" ("Alice") to the same state $\Psi$ for "Agent B" ("Bob"), as shown is *immediate* from the [[zig-zag identity]], hence from the fact that the curved line may be "yanked straight" to an [[identity]] line, without changing the operational value of the diagram. This is the transparent [[proof]] of the quantum teleporation protocol. 
+The wiggly line denotes a classically [[controlled quantum gate]], controlled by the [[quantum measurement]]-outcome which is reflected by the projection operator shown at the top.
+
+That --  for any fixed measurement outcome at the top with the correspondingly controlled correction gate operation at the bottom -- this [[string diagram]] (represents a [[linear map]] which) takes the [[quantum state]] $\Psi$ from "Agent A" ("Alice") to the same state $\Psi$ for "Agent B" ("Bob"), as shown is *immediate* from the [[zig-zag identity]], hence from the fact that the curved line may be "yanked straight" to an [[identity]] line, without changing the operational value of the diagram. This is the transparent [[proof]] of the quantum teleporation protocol. 
 
 Notice that this is a [[rigorous proof]], and yet this [[string diagram]] is close to informal flow-charts traditionally used to illustrate the idea of quantum teleportation (e.g [Bouwmeester, Ekert & Zeilinger 2020, Fig. 3.1](#BouwmeesterEkertZeilinger20)).
 
