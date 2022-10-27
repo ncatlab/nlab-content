@@ -14,9 +14,9 @@
 
 ## Idea
 
-A **lax-idempotent 2-monad**, also called a **Kock--Z&#246;berlein** or **KZ** monad, encodes a certain kind of [[stuff, structure, property|property-like structure]] that a [[category]], or more generally an [[object]] of a [[2-category]], can carry.
+A **lax-idempotent 2-monad**, also called a **Kock--Z&#246;berlein** or **KZ 2-monad**, encodes a certain kind of [[stuff, structure, property|property-like structure]] that a [[category]], or more generally an [[object]] of a [[2-category]], can carry.
 
-The archetypal examples are given by [[2-monads]] $T$ on [[Cat]] that take a [[category]] $C$ to the [[free cocompletion]] $T C$ of $C$ under a given class of [[colimits]] -- then an [[algebra of a monad|algebra]] $T C \to C$ is a category $C$ with all such colimits, which are of course essentially unique.  Moreover, given thus-cocomplete categories $C$ and $D$, a functor $F \colon C \to D$, and a diagram $S$ in $C$, there is a unique arrow $colim T F S \to F(colim S)$ given by the universal property of the colimit.  It is this property that lax-idempotence generalizes.
+The archetypal examples are given by [[2-monads]] $T$ on [[Cat]] that take a [[category]] $C$ to the [[free cocompletion]] $T C$ of $C$ under a given class of [[colimits]] -- then an [[pseudoalgebra for a 2-monad|algebra]] $T C \to C$ is a category $C$ with all such colimits, which are of course essentially unique.  Moreover, given thus-cocomplete categories $C$ and $D$, a functor $F \colon C \to D$, and a diagram $S$ in $C$, there is a unique arrow $colim T F S \to F(colim S)$ given by the universal property of the colimit.  It is this property that lax-idempotence generalizes.
 
 
 ## Definition
@@ -161,11 +161,13 @@ The logical-syntactical side is examined in
 
 [[!redirects KZ monad]]
 [[!redirects KZ-monad]]
+[[!redirects KZ 2-monad]]
 [[!redirects KZ doctrine]]
 [[!redirects KZ-doctrine]]
 
 [[!redirects KZ monads]]
 [[!redirects KZ-monads]]
+[[!redirects KZ 2-monads]]
 [[!redirects KZ doctrines]]
 [[!redirects KZ-doctrines]]
 
