@@ -53,7 +53,7 @@ But more generally and certainly in the broader context of [[quantum information
 
 1. *[[quantum state preparation]]-gates*,
 
-1. *classically controlled quantum gates*.
+1. *classically [[controlled quantum gates]]*.
 
 
 {#IBMResearchBlogGraphics}
