@@ -193,9 +193,15 @@ Early review:
 
 Textbook accounts:
 
+* [[Michael A. Nielsen]], [[Isaac L. Chuang]], *Quantum computation and quantum information*, Cambridge University Press (2000) $[$[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]$]$
+
 * [[Ranee K. Brylinski]], [[Goong Chen]] (eds.), *Mathematics of Quantum Computation*, Chapman and Hall/CRC 2002 ([doi:10.1201/9781420035377](https://doi.org/10.1201/9781420035377))
 
+* [[Giuliano Benenti]], [[Giulio Casati]], [[Davide Rossini]], *Principles of Quantum Computation and Information*, World Scientific (2004, 2018)  ([doi:10.1142/10909](https://doi.org/10.1142/10909), [2004 pdf](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149307696.pdf))
+
 * [[Goong Chen]], [[Louis Kauffman]], [[Samuel J. Lomonaco]] (eds.), *Mathematics of Quantum Computation and Quantum Technology*, Chapman and Hall/CRC (2007) (ISBN:9780367388614, [doi:10.1201/9781584889007](https://doi.org/10.1201/9781584889007))
+
+* [[Eleanor Rieffel]], [[Wolfgang Polak]], *Quantum Computing -- A gentle introduction*, MIT Press (2011) &lbrack;[ISBN:9780262526678](https://mitpress.mit.edu/9780262526678/quantum-computing/), [pdf](http://mmrc.amss.cas.cn/tlb/201702/W020170224608150244118.pdf)&rbrack;
 
 Introducing the notion of [[quantum supremacy]] and highlighting its relation to [[quantum entanglement]]:
 
@@ -204,9 +210,7 @@ Introducing the notion of [[quantum supremacy]] and highlighting its relation to
    
 Further introduction and survey:
 
-* [[Michael A. Nielsen]], [[Isaac L. Chuang]], *Quantum computation and quantum information*, Cambridge University Press (2000) $[$[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]$]$
-
-* [[Giuliano Benenti]], [[Giulio Casati]], [[Davide Rossini]], *Principles of Quantum Computation and Information*, World Scientific (2004, 2018)  ([doi:10.1142/10909](https://doi.org/10.1142/10909), [2004 pdf](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149307696.pdf))
+* [[Eleanor Rieffel]], [[Wolfgang Polak]],  *An Introduction to Quantum Computing for Non-Physicists*, ACM Comput. Surveys **32** (2000) 300-335 &lbrack;[arXiv:quant-ph/9809016](https://arxiv.org/abs/quant-ph/9809016), [doi:10.1145/367701.367709](https://dl.acm.org/doi/10.1145/367701.367709)&rbrack;
 
 
 * [[John Preskill]], *Quantum Computation* lecture notes, since 2004 ([web](http://theory.caltech.edu/~preskill/ph229/))
@@ -474,7 +478,6 @@ Background on NMR quantum computers:
 
 
 * Tao Xin et al., *Nuclear magnetic resonance for quantum computing: Techniques and recent achievements* (Topic Review - Solid-state quantum information processing), Chinese Physics B **27** 020308 &lbrack;[doi:10.1088/1674-1056/27/2/020308](https://iopscience.iop.org/article/10.1088/1674-1056/27/2/020308)&rbrack;
-
 
 See also:
 
