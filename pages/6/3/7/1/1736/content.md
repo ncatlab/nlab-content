@@ -103,7 +103,7 @@ Generally, $(L \dashv R)$ is a Quillen equivalence precisely if
      R(P(L(d)))
    $$ 
 
-   (of the [[adjunction unit]] with image under $R$ of any fibrant replacement $L(d) \underoverset{\in W}{j_{L(d)}}{\longrightarrow} R(P(L(d)))$) is a weak equivalence;
+   (of the [[adjunction unit]] with image under $R$ of any fibrant replacement $L(d) \underoverset{\in W}{j_{L(d)}}{\longrightarrow} P(L(d))$) is a weak equivalence;
 
 1. for every fibrant object $c \in \mathcal{C}$, the "derived adjunction counit", hence the composite 
   
