@@ -281,7 +281,7 @@ On the other hand, the corresponding **quantumly-controlled** quantum gate is th
 
 ## References
 
-Traditional textbook accounts:
+Traditional textbook accounts of controlled quantum gates:
 
 * {#NielsenChuang00} [[Michael A. Nielsen]], [[Isaac L. Chuang]], §4.3 *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
@@ -290,3 +290,7 @@ Traditional textbook accounts:
 
 [[!redirects controlled quantum logic gate]]
 [[!redirects controlled quantum logic gates]]
+
+
+[[!redirects classically controlled quantum computing]]
+[[!redirects parameterized quantum circuits]]
