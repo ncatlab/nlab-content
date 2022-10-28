@@ -38,9 +38,7 @@ $$
   \,.
 $$
 
-
-
-This is now also called the [[Euler-Arnold equation]].
+The [[Euler-Arnold equation]] is the associated differential equation governing the velocity of geodesic flow.
 
 ## Examples
 
