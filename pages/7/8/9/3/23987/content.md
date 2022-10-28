@@ -279,7 +279,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 \linebreak
 
 
-### March 2022
+### Mar 2022
 
 \linebreak
 
@@ -324,7 +324,7 @@ Stone-von Neumann**
 \linebreak
 
 
-### April 2022
+### Apr 2022
 
 \linebreak
   
@@ -446,7 +446,7 @@ Stone-von Neumann**
 
 \linebreak
 
-* {#SchreiberOct2022} 26 Oct 2022 (upcoming)
+* {#SchreiberOct2022} 26 Oct 2022
 
   [[Urs Schreiber]] (NYU Abu Dhabi, [[CQTS]])
 
@@ -458,7 +458,12 @@ Stone-von Neumann**
 ## External talks
  {#ExternalTalk}
 
+Talks reporting on work at CQTS.
+
 \linebreak
+
+
+### Sep 2022
 
 * 15 Sep 2022 at *[PlanQC 2022](https://icfp22.sigplan.org/home/planqc-2022)*
 
@@ -466,7 +471,16 @@ Stone-von Neumann**
 
   **[[schreiber:Topological Quantum Programming in TED-K]]**
 
+
+  slides: [pdf](https://ncatlab.org/schreiber/files/TQCinTEDK-PlanQC-220905b.pdf) (view full screen)
+
+  * video: [YT](https://www.youtube.com/watch?v=hDwXQVcloB8&feature=emb_logo)
+
+  * extended abstract: [arXiv:2209.08331](https://arxiv.org/abs/2209.08331)
+
+
 \linebreak
+
 
 * {#MathFacultyMeetingSep2022} 16 Sep 2022 at *Math Faculty Meeting*, NYU Abu Dhabi
 
@@ -475,6 +489,19 @@ Stone-von Neumann**
   **Practical Foundations for Topological Quantum Programming**
 
   slides: [[TQPFoundations-MathFacultyMeeting-20220916.pdf:file]]
+
+\linebreak
+
+### Nov 2022
+
+* {#QTML22} 12 Nov 2022 at *[Workshop on Quantum Software](https://quasar.unina.it/qtml2022/workshop.php)*, satellite of *[QTML 2022](https://quasar.unina.it/qtml2022.html)* (Naples, Italy)
+
+  [[Urs Schreiber]] on joint work with [[nLab:David Jaz Myers|D. J. Myers]], [[nLab:Mitchell Riley|M. Riley]] and [[nLab:Hisham Sati|H. Sati]]:
+
+  **[Quantum Data Types via Linear Homotopy Type Theory](https://ncatlab.org/schreiber/show/Topological+Quantum+Programming+in+Linear+Homotopy+Type+Theory#NaplesTalk)**
+
+  > **Abstract.** The proper concept of [[nLab:data types]] in [[nLab:quantum programming languages]], hence of their [[nLab:certified programming|formal verification]] and [[nLab:categorical semantics]], has remained somewhat elusive, as witnessed by the issue of "[dynamic lifting](https://ncatlab.org/nlab/show/Quipper#ReferencesDynamicLifting)" encountered in the [[nLab:Quipper]] language family. In this talk I explain our claim that a powerful [[nLab:quantum computation|quantum]] [[nLab:data type]]-system elegantly solving these problems is naturally provided by the *[[nLab:linear homotopy type theory]]* recently [realized](https://ncatlab.org/nlab/show/dependent+linear+type+theory#Riley22) by [[nLab:Mitchell Riley|M. Riley]]. Together with our [previous claim](Topological+Quantum+Programming+in+TED-K#GMConAbs) that [[nLab:homotopy type theory]] natively knows about the fine detail of [[nLab:su(2)-anyon|$\mathfrak{su}$(2)-]][[nlab:anyon]] [[nLab:braid representation|braid]] [[nLab:quantum gates]], this shows that [[nLab:linear homotopy type theory]] is a natural substrate for [[nLab:type theory|typed]] [[nLab:quantum programming languages]] aware of [[nLab:topological phases of matter|topological]] [[nLab:quantum materials|quantum hardware]]. 
+
 
   
 
