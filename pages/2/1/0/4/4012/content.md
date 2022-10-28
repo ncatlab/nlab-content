@@ -15,6 +15,8 @@
 ## Idea
 
 A **lax-idempotent 2-monad**, also called a **Kock--Z&#246;berlein** or **KZ 2-monad**, encodes a certain kind of [[stuff, structure, property|property-like structure]] that a [[category]], or more generally an [[object]] of a [[2-category]], can carry.
+ 
+Lax-idempotent 2-monads have occasionally also been called **KZ monads** in the literature, but this terminology may be confusing, as it is inconsistent with terminology of **lax-idempotent $n$-monads**: a 1-monad may be viewed as a 2-monad on a [[locally-discrete 2-category]], in which case lax-idempotence is equivalent to [[idempotent monad|idempotence]].
 
 The archetypal examples are given by [[2-monads]] $T$ on [[Cat]] that take a [[category]] $C$ to the [[free cocompletion]] $T C$ of $C$ under a given class of [[colimits]] -- then an [[pseudoalgebra for a 2-monad|algebra]] $T C \to C$ is a category $C$ with all such colimits, which are of course essentially unique.  Moreover, given thus-cocomplete categories $C$ and $D$, a functor $F \colon C \to D$, and a diagram $S$ in $C$, there is a unique arrow $colim T F S \to F(colim S)$ given by the universal property of the colimit.  It is this property that lax-idempotence generalizes.
 
