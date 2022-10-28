@@ -400,6 +400,9 @@ See also:
 
 * Lucas Daguerre, Matias Ginzburg, Gonzalo Torroba, *Holographic entanglement entropy inequalities beyond strong subadditivity* &lbrack;[arXiv:2208.03334](https://arxiv.org/abs/2208.03334)&rbrack;
 
+* [[Scott Aaronson]], [[Jason Pollack]], *Discrete Bulk Reconstruction* &lbrack;[arXiv:2210.15601](https://arxiv.org/abs/2210.15601)&rbrack;
+
+
 
 Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[holographic entanglement entropy]] in the [[ABJM theory]] for the [[M2-brane]] is discussed in
 
