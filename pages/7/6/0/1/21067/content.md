@@ -25,7 +25,7 @@ Algebras over a monad are usually objects equipped with extra [[structure]], not
 
 ## Definition
 
-Let $(T,\mu,\eta)$ be a [[monad]] on a [[category]] $C$.
+Let $(T,\eta, \mu)$ be a [[monad]] on a [[category]] $C$.
 An **algebra over $T$**, or **$T$-algebra**, consists of an object $A$ of $C$ together with a morphism $a:TA\to A$ of $C$, such that the following diagrams commute.
 
 \begin{tikzcd}
