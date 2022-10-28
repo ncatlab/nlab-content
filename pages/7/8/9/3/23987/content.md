@@ -26,7 +26,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 \linebreak
 
-### June 2022
+### Jun 2022
  {#MeetingsJune2022}
  
 
@@ -130,6 +130,31 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
   
 \linebreak
 
+### Jan 2023
+
+* (upcoming)
+
+  **M-Theory and Mathematics 2023**
+
+
+
+\linebreak
+
+### Mar 2023
+
+* (upcoming)
+
+  **Quantum Field Theories, Knot Homology and Cobordism**
+
+
+\linebreak
+
+
+### May 2023
+
+* (upcoming)
+
+  **Quantum Matter and Quantum Gravity**
 
 
 \linebreak
