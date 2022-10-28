@@ -17,6 +17,10 @@ On [[complexity theory|complexity theoretic]] aspects of [[quantum supremacy]]:
 
 * [[Scott Aaronson]], *How Much Structure Is Needed for Huge Quantum Speedups?*, talk at: *28th Solvay Physics Conference* in Brussels on May 21, 2022 &lbrack;[arXiv:2209.06930](https://arxiv.org/abs/2209.06930), slides: [ppt](https://www.scottaaronson.com/talks/aar-solvay.ppt)&rbrack;
 
+On the [[Ryu-Takayanagi formula]]:
+
+* [[Scott Aaronson]], [[Jason Pollack]], *Discrete Bulk Reconstruction* &lbrack;[arXiv:2210.15601](https://arxiv.org/abs/2210.15601)&rbrack;
+
 
 ## Related entries
 
