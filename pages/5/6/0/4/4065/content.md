@@ -110,6 +110,10 @@ EMS Series of Lectures in Mathematics. European Mathematical Society (EMS), Z&#2
 
 * [[Scott Carnahan]], _Monstrous Moonshine over Z?_ ([arXiv:1804.04161](https://arxiv.org/abs/1804.04161))
 
+Possible relation to [[elliptic cohomology]] ([[topological modular forms]]):
+
+* Jan Albert, Justin Kaidi, Ying-Hsuan Lin, *Topological modularity of Supermoonshine* $[$[arXiv:2210.14923](https://arxiv.org/abs/2210.14923)$]$
+
 
 ### Realization in superstring theory
 
