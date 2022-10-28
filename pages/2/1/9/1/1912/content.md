@@ -3,3 +3,5 @@ A $2$-[[2-category|category]] is __locally discrete__ if each [[hom-category]] i
 Just as a discrete category is the same as a [[set]], so a locally discrete $2$-category is the same as a [[category]].  The real value of the concept is to see how a category may be interpreted as a $2$-category.
 
 [[!redirects locally discrete 2-categories]]
+[[!redirects locally-discrete 2-category]]
+[[!redirects locally-discrete 2-categories]]
