@@ -482,9 +482,22 @@ Given this, the [Kleisli equivalence](Kleisli+category#KleisliEquivalence) for t
     }
 \end{imagefromfile}
 
+There is another possible typing of quantum measurement, where a measurement lands in the random [[reader monad]]:
+
+\begin{imagefromfile}
+    "file_name": "PossibleTypingsOfQuantumMeasurement-221028.jpg",
+    "width": "600",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
 
 
-Equivalently, we may express quantum measurement situation via the [[writer comonad]] $\star$ and the [[reader monad]] $\bigcirc$, by observing that the following [[commuting diagram|diagram commutes]] (being the [[naturality square]] of the necessity-counit on the possibility-unit):
+These two are related by the following [[commuting diagram|diagram commutes]] (being the [[naturality square]] of the necessity-counit on the possibility-unit):
 
 \[
   \label{MeasurementViaWritedComonad}
