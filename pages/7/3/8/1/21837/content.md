@@ -107,6 +107,9 @@ See also
 
 * Ying-Hsuan Lin, [[Du Pei]], *Holomorphic CFTs and topological modular forms* &lbrack;[arXiv:2112.10724](https://arxiv.org/abs/2112.10724)&rbrack;
 
+* Jan Albert, Justin Kaidi, Ying-Hsuan Lin, *Topological modularity of Supermoonshine* $[$[arXiv:2210.14923](https://arxiv.org/abs/2210.14923)$]$
+
+
 
 
 #### Occurrences in string theory
