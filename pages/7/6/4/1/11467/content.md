@@ -51,6 +51,9 @@ See also:
 
 * Clifford Cheung, Grant N. Remmen, *Veneziano Variations: How Unique are String Amplitudes?* &lbrack;[arXiv:2210.12163](https://arxiv.org/abs/2210.12163)&rbrack;
 
+* Nicholas Geiser, Lukas W. Lindwasser, *Generalized Veneziano and Virasoro amplitudes* &lbrack;[arXiv:2210.14920](https://arxiv.org/abs/2210.14920)&rbrack;
+
+
 
 
 
