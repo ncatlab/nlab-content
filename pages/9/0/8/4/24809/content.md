@@ -280,11 +280,15 @@ On the other hand, the corresponding **quantumly-controlled** quantum gate is th
 * The *[[deferred measurement principle]]* interchanges classically-controlled with quantumly-controlled quantum gates.
 
 ## References
+ {#References}
 
 Traditional textbook accounts of controlled quantum gates:
 
 * {#NielsenChuang00} [[Michael A. Nielsen]], [[Isaac L. Chuang]], §4.3 *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
+See also at:
+
+* [quantum computation -- References -- Classically controlled quantum computing](quantum +computation#ReferencesClassicallyControlledQuantumComputing)
 
 [[!redirects controlled quantum gates]]
 
