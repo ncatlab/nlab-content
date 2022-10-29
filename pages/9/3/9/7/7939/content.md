@@ -47,6 +47,7 @@ Laboratoy-realizations of qbits for use in [[quantum computers]]:
 [[!redirects quantum bit]]
 [[!redirects quantum bits]]
 
+[[!redirects QBit]]
 
 [[!redirects qubit]]
 [[!redirects qubits]]
