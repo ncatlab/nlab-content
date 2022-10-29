@@ -61,8 +61,16 @@ On the [[K-theory classification of topological phases of matter]] translating u
 
 * Carlos Hoyos-Badajoz, Kristan Jensen, [[Andreas Karch]], _A Holographic Fractional Topological Insulator_, Phys. Rev. D82:086001, 2010 ([arXiv:1007.3253](https://arxiv.org/abs/1007.3253))
 
-
 * [[Andreas Karch]], Joseph Maciejko, [[Tadashi Takayanagi]], _Holographic fractional topological insulators in 2+1 and 1+1 dimensions_,  Phys. Rev. D 82, 126003 (2010) ([arXiv:1009.2991](https://arxiv.org/abs/1009.2991))
+
+Argument that "islands" can resolve the [[black hole information paradox]] only for massive gravity:
+
+* [[Hao Geng]], [[Andreas Karch]], *Massive Islands*,  J. High Energ. Phys. **2020** 121 (2020) &lbrack;[arXiv:2006.02438](https://arxiv.org/abs/2006.02438),<a href="https://doi.org/10.1007/JHEP09(2020)121">doi:10.1007/JHEP09(2020)121</a>&rbrack;
+
+* [[Hao Geng]], [[Andreas Karch]], Carlos Perez-Pardavila, Suvrat Raju, [[Lisa Randall]], Marcos Riojas, Sanjit Shashi, *Inconsistency of islands in theories with long-range gravity*, J. High Energ. Phys. **2022** 182 (2022) &lbrack;<a href="https://doi.org/10.1007/JHEP01(2022)182">doi:10.1007/JHEP01(2022)182</a>&rbrack;
+
+
+
 
 
 category: people
