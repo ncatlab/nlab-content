@@ -23,6 +23,10 @@ A new proof of the [[Strøm model structure]] using [[algebraic weak factorizati
 
 * {#BarthelRiehl13} [[Tobias Barthel]], [[Emily Riehl]], _On the construction of functorial factorizations for model categories_, Algebr. Geom. Topol. 13 (2013) 1089-1124 ([arXiv:1204.5427](http://arxiv.org/abs/1204.5427), [doi:10.2140/agt.2013.13.1089](http://dx.doi.org/10.2140/agt.2013.13.1089))
 
+On [[monads in computer science]]:
+
+* {#Riehl17} [[Emily Riehl]], *A categorical view of computational effects*, talk at *[C$\circ$mp$\circ$se$\colon\!\colon$Conference](https://www.composeconference.org/2017/)* (2017) &lbrack;[pdf](http://www.math.jhu.edu/~eriehl/compose.pdf), [[Riehl-ComputationalEffects.pdf:file]]&rbrack;
+
 
 On left-[[transferred model structures]] and [[model structures on functors]]:
 
