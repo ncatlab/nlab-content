@@ -45,7 +45,7 @@ But monads have plenty of further uses. They are as ubiquituous (sometimes in di
 
 In [[computer science]], a [[programming language]] may be formalised or studied by means of a [[category]], called the _[[syntactic category]]_ $\mathcal{C}$, whose 
 
-* [[objects]] $X \in \mathcal{C}$ are the [[types]] of the language, 
+* [[objects]]$\;$ $X \in \mathcal{C}$ are the [[types]] of the language, 
 
 * [[morphisms]] $X \to Y$ are the [[terms]] or [[programs]] (or an [[equivalence class]] of such) that takes a value of [[type]] $X$ as input and returns a value of type $Y$.  
 
@@ -170,17 +170,17 @@ There is also
 
 ### General
 
-The original reference for monads as 'notions of computation' is
+The original reference for monads as 'notions of computation':
 
 * {#Moggi91} [[Eugenio Moggi]], _Notions of computation and monads_, Information and Computation, 93(1), 1991. ([pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf))
 
-The impact of Moggi's work is assessed and a case for [[Lawvere theory|Lawvere theories]] is made in
+On the impact of Moggi's work and making a case for [[Lawvere theory|Lawvere theories]]:
 
 * {#HylandPower07} [[Martin Hyland]], [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_, Electronic Notes in Theoretical Computer Science (ENTCS) archive Volume 172, April, 2007 Pages 437-458  ([pdf](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf))
 
 Effects treated this way are known as [[algebraic effects]].
 
-Discussion of (co)monads in computer science:
+General discussion/exposition of (co)monads in computer science:
  
 * [[Philip Wadler]], _Comprehending Monads_, in _Conference on Lisp and functional programming_, ACM Press, 1990 ([[WadlerMonads.pdf:file]])
 
@@ -190,13 +190,20 @@ Discussion of (co)monads in computer science:
 
 * Philip Mulry, _Monads in semantics_ , ENTCS **14** (1998) pp.275-286.
 
+
+
 * John Hughes, section 2 of _Generalising Monads to Arrows_, Science of Computer Programming (Elsevier) 37 (1-3): 67&#8211;111. (2000) ([pdf](http://pdn.sciencedirect.com/science?_ob=MiamiImageURL&_cid=271600&_user=10&_pii=S0167642399000234&_check=y&_origin=search&_zone=rslt_list_item&_coverDate=2000-05-31&wchp=dGLzVlk-zSkWb&md5=fa91ab4ffc136b0cedc52318c7c249be&pid=1-s2.0-S0167642399000234-main.pdf))
 
 * {#Harper} [[Robert Harper]], _Of course ML Has Monads!_ (2011) ([web](http://existentialtype.wordpress.com/2011/05/01/of-course-ml-has-monads/))
 
 * {#Benton15} [[Nick Benton]], _Categorical Monads and Computer Programming_, ([pdf](https://www.lms.ac.uk/sites/lms.ac.uk/files/2.%20Benton%20-%20Categorical%20Monads%20and%20Computer%20Programming.pdf))
 
-* {#Riehl17} [[Emily Riehl]], _A categorical view of computational effects_, 2017 ([pdf](http://www.math.jhu.edu/~eriehl/compose.pdf))
+* {#Riehl17} [[Emily Riehl]], *A categorical view of computational effects*, talk at *[C$\circ$mp$\circ$se$\colon\!\colon$Conference](https://www.composeconference.org/2017/)* (2017) &lbrack;[pdf](http://www.math.jhu.edu/~eriehl/compose.pdf), [[Riehl-ComputationalEffects.pdf:file]]&rbrack;
+
+* Rob Norris, *Functional Programming with Effects*, talk at 
+*Scala Days 2018* &lbrack;video: [YT](https://youtu.be/30q6BkBv5MY)&rbrack;
+
+
 
 See also:
 
