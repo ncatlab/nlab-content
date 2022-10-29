@@ -2,17 +2,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Type theory
-+-- {: .hide}
-[[!include type theory - contents]]
-=--
 #### Quantum systems
 +--{: .hide}
 [[!include quantum systems -- contents]]
 =--
-#### Constructivism, Realizability, Computability
+#### Computation
 +-- {: .hide}
 [[!include constructivism - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
 =--
 =--
 =--
@@ -26,13 +26,22 @@
 
 A _quantum programming language_ is a [[programming language]] for [[quantum computation]].
 
+In as far as [[data types]] in [[classical physics|classical]] [[programming languages]] may and often are understood in terms of ([[dependent type theory|dependent]]) [[type theory]], quantum programming languages concern quantum data types such as "[[qbits]]" which may be understood via [[linear logic]] ([Pratt (1992)](#Pratt92)) in ([[dependent linear type theory|dependent]]) [[linear type theory]] (e.g. [Abramsky & Duncan (2005)](#AbramskyDuncan05); [Duncan (2006)](#Duncan06); [Dal Lago & Faggian (2012)](#LagoFaffian12); [Green et al (2013)](#GLRSV13); [Staton (2015)](#Staton15)):
+
+> "A [[quantum programming language]] captures the ideas of [[quantum computation]] in a [[linear type theory]]." &lbrack;[Staton (2015), p. 1](#Staton15)&rbrack;
+
+Many existing quantum programming languages are [[domain-specific programming languages]] for the description of [[quantum circuits]] compiled from [[quantum logic gates]], some are also algorithmic (such as [[Q Sharp]]).
+
 ## Related concepts
+
+* [[programming language]]
 
 * [[quantum logic]]
 
+* [[quantum logic gate]], [[quantum circuit]]
+
 * [[linear logic]], [[linear type theory]], [[dependent linear type theory]]
 
-* [[programming language]]
 
 ## References
 
