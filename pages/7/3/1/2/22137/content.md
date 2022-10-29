@@ -30,7 +30,10 @@ In as far as [[data types]] in [[classical physics|classical]] [[programming lan
 
 > "A [[quantum programming language]] captures the ideas of [[quantum computation]] in a [[linear type theory]]." &lbrack;[Staton (2015), p. 1](#Staton15)&rbrack;
 
-Many existing quantum programming languages are [[domain specific programming languages]] for the description of [[quantum circuits]] compiled from [[quantum logic gates]], some are also algorithmic (such as [[Q Sharp]]).
+Many existing quantum programming languages are in fact [[domain specific programming languages]] for the description of [[quantum circuits]] compiled from [[quantum logic gates]], and as such often [[domain specific embedded programming language|embedded]] into ambient [[type theories]] (eg. *[[Quipper]]* and *[[QWIRE]]*).
+
+Other QPLs are more algorithmic (such as *[[Q Sharp]]*).
+
 
 ## Related concepts
 
