@@ -202,7 +202,9 @@ See also:
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Monad_(functional_programming)">Monad (functional programming)</a>_
 
-The specification of monads in [[Haskell]] is at
+* Wikipedia, *<a href="https://en.wikipedia.org/wiki/Side_effect_(computer_science)">Side_effect_(computer_science)</a>*
+
+The specification of [[monads]] in [[Haskell]] is at:
 
 * [The Haskell programming language](http://www.haskell.org/haskellwiki/Haskell), _[Monad laws](http://www.haskell.org/haskellwiki/Monad_laws)_
 
