@@ -24,7 +24,9 @@ If a domain specific language is realized inside a general-purpose language, one
 ## Examples
  {#Examples}
 
-* Many existing [[quantum programming languages]] are actually domain-specific langauges for the description of [[quantum circuits]].
+* Many existing [[quantum programming languages]] are actually domain-specific languages for the description of [[quantum circuits]], and as such many are [[domain specific embedded programming language|embedded]] (see there for more).
+
+
 
 ## References
 
