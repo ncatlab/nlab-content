@@ -78,6 +78,8 @@ A wiki platform based on Haskell, running texmath
 
 * [[domain specific embedded programming language]]
 
+  * [[Quipper]]
+
 [[!include proof assistants and formalization projects -- list]]
 
 ## References
