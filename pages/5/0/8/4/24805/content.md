@@ -29,7 +29,9 @@ The principle can be useful in practice for optimizing [[quantum circuits]]. It 
 ## Formalizations
  {#Formalizations}
 
-See [Gurevich & Blass 2021](#GurevichBlass21).
+See [Gurevich & Blass 2021](#GurevichBlass21) for a general formalization and proof. 
+
+As an [[axiom]] for [[syntax]] of a [[quantum programming language]]: [Staton (2015), Axiom B (p. 6 of 12)](#Staton15).
 
 {#InTermsOfQuantumModalLogic}
 Alternatively: In terms of the discussion at *[[quantum circuits via dependent linear types]]*, the deferred measurement principle is essentially the [Kleisli equivalence](Kleisli+category#KleisliEquivalence) for the [[necessity]] [[comonad]] $\Box_B$ on [[dependent linear types]], like this:
@@ -57,10 +59,14 @@ Accounts of the informal statement:
 
 * [[Michael A. Nielsen]], [[Isaac L. Chuang]], §4.4 of *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
+As an [[axiom]] for [[quantum programming languages]]:
+
+* {#Staton15} [[Sam Staton]], Axiom B (p. 6) in: *Algebraic Effects, Linearity, and Quantum Programming Languages*, POPL '15: Proceedings of the 42nd Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (2015) &lbrack;[doi:10.1145/2676726.2676999](https://doi.org/10.1145/2676726.2676999), [pdf](http://www.cs.ox.ac.uk/people/samuel.staton/papers/popl2015.pdf)&rbrack;
+
 See also:
 
 * Wikipedia, *[Deferred Measurement Principle](https://en.wikipedia.org/wiki/Deferred_Measurement_Principle)*
 
-Precise statement and [[proof]]:
+General precise statement and [[proof]]:
 
 * {#GurevichBlass21} [[Yuri Gurevich]], [[Andreas Blass]], *Quantum circuits with classical channels and the principle of deferred measurements*, Theoretical Computer Science **920** (2022) 21–32 &lbrack;[arXiv:2107.08324](https://arxiv.org/abs/2107.08324), [doi:10.1016/j.tcs.2022.02.002](https://doi.org/10.1016/j.tcs.2022.02.002)&rbrack;
