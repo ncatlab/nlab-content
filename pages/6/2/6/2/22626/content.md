@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include quantum systems -- contents]]
 =--
+#### Computation
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 #### Monoidal categories
 +--{: .hide}
 [[!include monoidal categories - contents]]
@@ -161,6 +165,8 @@ See at *[[deferred measurement principle]]*.
 
 
 ## Related concepts
+
+* [[QRAM]]
 
 * [[quantum computation]], [[quantum error correction]]
 
