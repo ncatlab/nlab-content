@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -19,6 +20,11 @@
 A _[[programming language]]_ is called _domain specific_ if it is designed for a specific kind (domain) of applications, in contrast to general purpose programming  languages.
 
 If a domain specific language is realized inside a general-purpose language, one speaks of _[[domain specific embedded programming language]]_.
+
+## Examples
+ {#Examples}
+
+* Many existing [[quantum programming languages]] are actually domain-specific langauges for the description of [[quantum circuits]].
 
 ## References
 
@@ -33,6 +39,13 @@ If a domain specific language is realized inside a general-purpose language, one
 For [[differential equations]]:
 
 * {#ALORW12} Martin S. Alnaes, Anders Logg, Kristian B. Oelgaard, Marie E. Rognes, Garth N. Wells, _Unified Form Language: A domain-specific language for weak formulations of partial differential equations_ ([arXiv:1211.4047](http://arxiv.org/abs/1211.4047))
+
+## References
+
+* [[Paul Hudak]], *Domain Specific Languages*, Chapter 3 (pp. 39–60) in:  Peter H. Salas (ed), *Handbook of Programming Languages*, Vol. III: *Little Languages and Tools*, MacMillan  (1998) &lbrack;[pdf](http://cs448h.stanford.edu/DSEL-Little.pdf), [[Hudak-DSLs.pdf:file]]&rbrack;
+
+* [[Paul Hudak]], _Modular Domain Specific Languages and Tools_, in: _Proceedings of Fifth International Conference on Software Reuse_, IEEE Computer Society Press  (1998)  &lbrack;[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=685738), [doi:10.5555/551789.853532](https://dl.acm.org/doi/10.5555/551789.853532)&rbrack;
+
 
 [[!redirects domain specific programming languages]]
 
