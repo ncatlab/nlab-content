@@ -94,10 +94,13 @@ $$
 
 This is definition 8.1, 8.2 in [StabCat](http://arxiv.org/abs/math/0608228)
 
+
 ### Construction in terms of stable model categories
  {#ConstructionInTermsOfStableModelCategories}
 
 Given a presentation of an [[(∞,1)-category]] by a [[model category]], there is a notion of stabilization of this model category to a [[stable model category]]. That this in turn presents the abstractly defined stabilization of the corresponding [[(∞,1)-category]] is due to ([Robalo 12, prop. 4.14](#Robalo12)).
+
+For classical discussion see also *[[spectrification]]* and the *[[Bousfield-Friedlander model structure]]*.
 
 ## Properties
 
