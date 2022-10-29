@@ -1,4 +1,8 @@
 
+## 
+
+$QS$ is the [[quantum programming language]] developed at [[CQTS]], [[domain specific embedded programming language|embedded]] into [[linear homotopy type theory]]. On the one hand, $QS$ is short for *Quantum Systems Language*, on the other hand $Q S$ is the traditional notation for the [[sphere spectrum]] (the [[spectrification]] $Q$ of the [[spheres]] $S^n$), reflecting that [[linear homotopy type theory]] is the formal language of [[S-modules|QS-modules]], namely of ([[parameterized spectra|parameterized]]) [[spectra]] (in the sense of [[algebraic topology]]).
+
 ## Idea
 
 In [[quantum computing]] and [[quantum information theory]], the notion of *quantum random access memory* (QRAM, due to [Giovanettiy, Lloyd & Maccone 2008](#GiovanettiyLloydMaccone08)) is meant to be the [[quantum physics|quantum]]-analog of the [[classical physics|classical]] notion of [[random access memory]]; the key point being that QRAM may be addressed by *[[quantum superpositions]]* of address values and then reads/writes the corresponding [[quantum superposition]] of quantum data ([GLM08, (1)](#GiovanettiyLloydMaccone08)).
