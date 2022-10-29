@@ -22,7 +22,7 @@
 
 ## Idea
 
-The notion of _differential crossed module_ (or crossed module of/in [[Lie algebras]]) is a way to encode the structure of a [[strict Lie 2-algebra]] in terms of two ordinary [[Lie algebra]]s.
+The notion of _differential crossed module_ (or crossed module of/in [[Lie algebras]]) is a way to encode the structure of a [[strict Lie 2-algebra]] in terms of two ordinary [[Lie algebras]].
 
 
 This is the [[infinitesimal object|infinitesimal]] version of how a smooth [[crossed module]] encodes a smooth [[strict 2-group]].
@@ -105,9 +105,18 @@ By the discussion there, [[dg-Lie algebra]]s are _strict_ [[L-∞ algebra]]s (th
 
 ## References
 
+See also the references at *[[Lie 2-algebra]]*.
+
+On the history of this and related concepts:
+
+* {#Huebschmann22} [[Johannes Huebschmann]], *On the history of Lie brackets, crossed modules, and Lie-Rinehart algebras* &lbrack;[arXiv:2208.02539](https://arxiv.org/abs/2208.02539)&rbrack;
+
+
 The [[crossed modules]] (in groups or Lie groups) and the differential crossed modules are examples of the [[internal crossed module]]s. A good theory of them is developed in [[semiabelian categories]]. 
 
 * [[George Janelidze]], _Internal crossed modules_, Georgian Math. J. 10 (2003) 99114 ([journal](http://www.heldermann.de/GMJ/GMJ10/GMJ101/gmj1008.htm)).
+
+
 
 [[!redirects differential crossed modules]]
 [[!redirects crossed module in Lie algebras]]
