@@ -46,6 +46,8 @@ Here, for instance, the "[[quantum gate]]" $U_{34}$ is a [[linear operator]] on 
 
 Notice that the quantum circuit is understood to be the actual [[string diagram]], up to the usual admissible topological deformations, not just the [[composition|composite]] [[linear transformation]] which it encodes: The compositeness of the diagram encodes how (e.g. in which order) available [[quantum gate]]-operations would be operated on an actual [[quantum computer]], and the composite linear map only encodes the inpute-to-output-specification of the resulting [[quantum computation]]. In this sense, quantum circuits constitute a [[quantum programming language]] and one also speaks of the "quantum circuit model of quantum computation" (e.g. [Nielsen & Chuang 2000, §II.4.6](#NielsenChuang00); [Miszczak 2011, §3](#Miszczak11), [2012, §4.3](#Miszczak12); [Beneti & Casati 2018, §3.2](#BenetiCasati18)).
 
+Accordingly, many existing [[quantum programming languages]] are actually [[domain specific programming languages]] for quantum circuits, and as such they are often [[domain specific embedded programming language|embedded]] into ambient [[type theories]] (for instance *[[Quipper]]* and *[[QWIRE]]*).
+
 
 Often the basic Hilbert space building block here is taken to be [[complex vector space|complex]] 2-[[dimension of a vector space|dimensional]], $\mathscr{H} \,\coloneqq\, \mathbb{C}^2$, in which case one speaks of a quantum circuit on *[[q-bits]]*.
 
@@ -159,7 +161,7 @@ The standard (cf. [GLRSV13, p. 5](Quipper#GLRSV13)) [[qbit]]-form of the [[quant
 
 ## Properties
 
-### Deferred measurement principles
+### Deferred measurement principle
 
 See at *[[deferred measurement principle]]*.
 
