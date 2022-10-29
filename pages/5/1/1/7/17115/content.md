@@ -14,9 +14,11 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-S-modules are one version of [[highly structured spectra]] that support a [[symmetric monoidal smash product of spectra]].
+*S-modules* is the name (due to [EKMM 97](#EKMM97)) of one model of [[highly structured spectra]] that supports a [[symmetric monoidal smash product of spectra]]. 
 
+Here "$S$" stands for the *[[sphere spectrum]]* (traditional notation being "$Q S$" for the [[spectrification]] $Q$ of the [[spheres]] $S^n$) regarded as a [[ring spectrum]]. Namely, in [[categorification|homotopification]] of how general [[abelian groups]] may equivalently be understood as [[integers|$\mathbb{Z}$]]-[[modules]], so general [[spectra]] may (once their [[brave new algebra|brave new algebraic]] [[stable homotopy theory]] is set up) equivalently be understood as [[module spectra]] over the [[sphere spectrum]].
 
 The [[category]] of _S-modules_ ([EKMM 97](#EKMM97)) is a [[presentable (∞,1)-category|presentation]] of the [[symmetric monoidal (∞,1)-category]] [[stable (infinity,1)-category of spectra|of spectra]], with the special property that it implements the [[smash product of spectra]] such as to yield itself a [[symmetric monoidal category|symmetric]] [[monoidal model category|monoidal]] [[model category of spectra]]: the _[[model structure on symmetric spectra]]_. This implies in particular that with respect to this [[symmetric smash product of spectra]] an [[E-∞ ring]] is presented simply as a plain [[commutative monoid]] [[internalization|in]] S-modules.
 
@@ -44,9 +46,9 @@ Similarly, just as an ordinary [[ring]] is a [[monoid]] in the category $Mod_\ma
 
 The construction originates in
 
-* {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], _Rings, modules and algebras in stable homotopy theory_, AMS 1997, 2014 
+* {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], *[[Rings, modules and algebras in stable homotopy theory]]*, AMS 1997 (2014) &lbrack;[ISBN:978-0-8218-4303-1](https://bookstore.ams.org/surv-47-s), [pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf)&rbrack;
 
-Review includes
+Review:
 
 * [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], sections 2 and 3 of _[[Modern foundations for stable homotopy theory]]_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
 
