@@ -32,9 +32,13 @@ Quantum programming via [[quantum logic]] understood as [[linear type theory]] [
 
 * {#AbramskyDuncan05} [[Samson Abramsky]], [[Ross Duncan]], _A Categorical Quantum Logic_, Mathematical Structures in Computer Science, Volume 16, Issue 3 (2006)  pp. 469 - 489  ([arXiv:quant-ph/0512114](http://arxiv.org/abs/quant-ph/0512114), [doi:10.1017/S0960129506005275](https://doi.org/10.1017/S0960129506005275))
 
-* {#Duncan06} [[Ross Duncan]], *Types for Quantum Computing*, 2006 ([pdf](http://personal.strath.ac.uk/ross.duncan/papers/rduncan-thesis.pdf))
+* {#Duncan06} [[Ross Duncan]], *Types for Quantum Computing*, (2006) $[$[pdf](http://personal.strath.ac.uk/ross.duncan/papers/rduncan-thesis.pdf)$]$
 
-* {#LagoFaffian12} [[Ugo Dal Lago]], [[Claudia Faggian]], _On Multiplicative Linear Logic, Modality and Quantum Circuits_, EPTCS 95, 2012, pp. 55-66 ([arXiv:1210.0613](http://arxiv.org/abs/1210.0613))
+* {#LagoFaggian12} [[Ugo Dal Lago]], [[Claudia Faggian]], _On Multiplicative Linear Logic, Modality and Quantum Circuits_, EPTCS 95 (2012) 55-66 $[$[arXiv:1210.0613](http://arxiv.org/abs/1210.0613)$]$
+
+* {#Staton15} [[Sam Staton]], *Algebraic Effects, Linearity, and Quantum Programming Languages*, POPL '15: Proceedings of the 42nd Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (2015) &lbrack;[doi:10.1145/2676726.2676999](https://doi.org/10.1145/2676726.2676999), [pdf](http://www.cs.ox.ac.uk/people/samuel.staton/papers/popl2015.pdf)&rbrack;
+
+  > "A [[quantum programming]] language captures the ideas of [[quantum computation]] in a [[linear type theory]]."
 
 The corresponding [[string diagrams]] are known in quantum computation as *[[quantum circuit diagrams]]*:
 
@@ -54,7 +58,7 @@ The corresponding [[string diagrams]] are known in quantum computation as *[[qua
 
 * [[Peter Selinger]], _The Quipper Language_ ([web](http://www.mathstat.dal.ca/~selinger/quipper/))
 
-* [[Alexander Green]], [[Peter LeFanu Lumsdaine]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], _Quipper: A Scalable Quantum Programming Language_, ACM SIGPLAN Notices 48(6):333-342, 2013 $[$[arXiv:1304.3390](https://arxiv.org/abs/1304.3390), []()$]$
+* {#GLRSV13} [[Alexander Green]], [[Peter LeFanu Lumsdaine]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], _Quipper: A Scalable Quantum Programming Language_, ACM SIGPLAN Notices **48** 6  (2013) 333-342 $[$[arXiv:1304.3390](https://arxiv.org/abs/1304.3390)$]$
 
 * [[Alexander Green]], [[Peter LeFanu Lumsdaine]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], _An Introduction to Quantum Programming in Quipper_, Lecture Notes in Computer Science 7948:110-124, Springer, 2013 ([arXiv:1304.5485](https://arxiv.org/abs/1304.5485))
 
@@ -82,6 +86,11 @@ The corresponding [[string diagrams]] are known in quantum computation as *[[qua
 * [[Jennifer Paykin]], [[Steve Zdancewic]], *A HoTT Quantum Equational Theory*, [talk at QPL2019](http://qpl2019.org/a-hott-quantum-equational-theory/) ([arXiv:1904.04371](https://arxiv.org/abs/1904.04371))
 
   > (using ambient [[homotopy type theory]])
+
+On [[Q Sharp]]:
+
+*  Kartik Singhal, Kesha Hietala, Sarah Marshall, Robert Rand, *Q# as a Quantum Algorithmic Language*, Proceedings of *Quantum Physics and Logic* (2022) &lbrack;[arXiv:2206.03532](https://arxiv.org/abs/2206.03532)&rbrack;
+
 
 On classically controlled quantum computation:
 
