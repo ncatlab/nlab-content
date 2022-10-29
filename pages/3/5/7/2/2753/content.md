@@ -102,13 +102,18 @@ the analogous algebraic structure for [[Courant algebroid]]s is discussed. These
 
 ## References
 
-The original reference is
+The original reference:
 
 * G. Rinehart, _Differential forms for general commutative algebras_, Trans. Amer. Math. Soc. __108__ (1963), 195-222
 
-A brief review in section 1 of
+On the history of this and related concepts:
 
-* [[Johannes Huebschmann]], _Lie--Rinehart algebras, descent, and quantization_ ([arXiv](http://arxiv.org/abs/math/0303016))
+* {#Huebschmann22} [[Johannes Huebschmann]], *On the history of Lie brackets, crossed modules, and Lie-Rinehart algebras* &lbrack;[arXiv:2208.02539](https://arxiv.org/abs/2208.02539)&rbrack;
+
+
+Review: 
+
+* [[Johannes Huebschmann]], Sec 1 of: _Lie--Rinehart algebras, descent, and quantization_ ([arXiv](http://arxiv.org/abs/math/0303016))
 
 * [[Mikhail Kapranov|M. Kapranov]], _Free Lie algebroids and the space of paths_,	Sel. Math. (N.S.) __13__, n. 2 277--319 (2007), [arXiv:math.AG/0702584](http://arxiv.org/abs/math.AG/0702584), [doi](http://dx.doi.org/10.1007/s00029-007-0041-9)
 
