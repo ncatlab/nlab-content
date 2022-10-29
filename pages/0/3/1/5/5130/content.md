@@ -21,6 +21,10 @@ On [[type refinement]]
 
 * [[Paul-André Melliès]], [[Noam Zeilberger]], _An Isbell Duality Theorem for Type Refinement Systems_, ([pdf](https://www.irif.fr/~mellies/papers/an-isbell-duality-theorem-for-type-refinement-systems.pdf))
 
+On the [[local state monad]]:
+
+* [[Paul-André Melliès]], *Local States in String Diagrams*, In: G. Dowek (eds.) *Rewriting and Typed Lambda Calculi* RTA TLCA 2014, Lecture Notes in Computer Science **8560** Springer (2014) &lbrack;[doi:10.1007/978-3-319-08918-8_23](https://doi.org/10.1007/978-3-319-08918-8_23)&rbrack;
+
 
 
 
