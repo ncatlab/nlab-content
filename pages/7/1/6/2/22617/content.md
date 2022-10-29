@@ -25,7 +25,8 @@
 
 ## Idea
 
-*QWIRE* ([Paykin, Rand & Zdancewic 17](#PaykinRandZdancewic17)) is a [[quantum programming language]] based on [[linear type theory]] combined with [[intuitionistic type theory]] via the [[exponential modality]].
+*QWIRE* ([Paykin, Rand & Zdancewic 17](#PaykinRandZdancewic17)) is a [[quantum programming language]] based on [[linear type theory]] combined with [[intuitionistic type theory]] via the [[exponential modality]]. More specifically, it is a [[domain specific programming language]] for [[quantum circuits]] meant to be [[domain specific embedded programming language|embedded]] into an [[intuitionistic type theory]]. As such it is similar to *[[Quipper]]*.
+
 
 ## References
 
@@ -37,13 +38,13 @@ Theoretical background:
 
 * [[Jennifer Paykin]], *Linear/non-Linear Types For Embedded Domain-Specific Languages*, 2018 ([upenn:2752](https://repository.upenn.edu/edissertations/2752))
 
-Application to [[verified programming]] after implementation in [[Coq]]:
+Application to [[verified programming]] after [[domain specific embedded programming language|embedding]] into [[Coq]]:
 
-* [[Robert Rand]], [[Jennifer Paykin]], [[Steve Zdancewic]], *QWIRE Practice: Formal Verification of Quantum Circuits in Coq*, EPTCS 266, 2018, pp. 119-132 ([arXiv:1803.00699](https://arxiv.org/abs/1803.00699))
+* {#RandPaykinZdancewic18} [[Robert Rand]], [[Jennifer Paykin]], [[Steve Zdancewic]], *QWIRE Practice: Formal Verification of Quantum Circuits in Coq*, EPTCS 266, 2018, pp. 119-132 ([arXiv:1803.00699](https://arxiv.org/abs/1803.00699))
 
-Using ambient [[homotopy type theory]]:
+Using [[domain specific embedded programming language|embedding]] into [[homotopy type theory]]:
 
-* [[Jennifer Paykin]], [[Steve Zdancewic]], *A HoTT Quantum Equational Theory*, [talk at QPL2019](http://qpl2019.org/a-hott-quantum-equational-theory/) ([arXiv:1904.04371](https://arxiv.org/abs/1904.04371))
+* {#PaykinZdancewic19}[[Jennifer Paykin]], [[Steve Zdancewic]], *A HoTT Quantum Equational Theory*, [talk at QPL2019](http://qpl2019.org/a-hott-quantum-equational-theory/) ([arXiv:1904.04371](https://arxiv.org/abs/1904.04371))
 
 category: people
 
