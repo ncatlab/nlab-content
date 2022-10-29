@@ -23,4 +23,10 @@ On [[extremal black holes]] and [[black hole entropy]]:
 * [[Sean Carroll]], Matthew C. Johnson, [[Lisa Randall]], _Extremal limits and black hole entropy_, JHEP 0911:109,2009 ([arXiv:0901.0931](https://arxiv.org/abs/0901.0931))
 
 
+Argument that "islands" can resolve the [[black hole information paradox]] only for massive gravity:
+
+* [[Hao Geng]], [[Andreas Karch]], Carlos Perez-Pardavila, Suvrat Raju, [[Lisa Randall]], Marcos Riojas, Sanjit Shashi, *Inconsistency of islands in theories with long-range gravity*, J. High Energ. Phys. **2022** 182 (2022) &lbrack;<a href="https://doi.org/10.1007/JHEP01(2022)182">doi:10.1007/JHEP01(2022)182</a>&rbrack;
+
+
+
 category: people
