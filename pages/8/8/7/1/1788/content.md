@@ -1,4 +1,6 @@
 
+[[Q#]]
+
 [[MeasurementViaWriterComonad-221027.jpg:file]]
 
 [[MeasurementViaRandomMonad-221028.jpg:file]]
