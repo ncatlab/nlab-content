@@ -22,10 +22,14 @@ A _[[domain specific programming language]]_ is one designed for  a specialized 
  
 There is at least some similarity between DSELs and [[synthetic mathematics]], see for instance ([Hudak 98, section 3.2](#Hudak98)). In ([Hudak 98, figure 2](#Hudak98)) this shows aspects of a real-world DSL for "geometric region analysis" embedded in [[Haskell]] which under the [[relation between type theory and category theory]]/[[computational trinitarianism]] one immediately recognizes as a fragment of [[synthetic geometry]].
 
+## Examples
+ {#Examples}
+
+* [[Quipper]] is a domain specific [[quantum programming language]] for the description of [[quantum circuits]], embedded into [[Haskell]].
+
 ## Reference
 
-
-* {#Hudak98} Paul Hudak, _Modular Domain Specific Languages and Tools_, in _Proceedings of Fifth International Conference on Software Reuse_, IEEE Computer Society Press  1998  ([pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1088.8906&rep=rep1&type=pdf))
+* {#Hudak98} [[Paul Hudak]], _Modular Domain Specific Languages and Tools_, in: _Proceedings of Fifth International Conference on Software Reuse_, IEEE Computer Society Press  (1998)  &lbrack;[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=685738), [doi:10.5555/551789.853532](https://dl.acm.org/doi/10.5555/551789.853532)&rbrack;
 
 Discussion for embedding in [[Haskell]] is in 
 
