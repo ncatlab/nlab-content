@@ -19,7 +19,7 @@
 
 ## Idea
 
-_Quipper_ is a [[functional programming language|functional]] [[quantum programming language]]
+_Quipper_ is a [[functional programming language|functional]] [[quantum programming language]], specifically a [[domain specific programming language]] for [[quantum circuits]] which is [[domain specific embedded programming language|embedded]] into [[Haskell]]. As such it is similar to *[[QWIRE]]*.
 
 ## Related concepts
 
