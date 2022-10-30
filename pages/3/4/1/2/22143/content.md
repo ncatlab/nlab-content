@@ -7,6 +7,7 @@ The first proposal towards formalizing quantum programming languages was:
 
 On [[quantum programming languages]] ([[programming languages]] for [[quantum computation]]):
 
+
 General:
 
 * [[Jarosław Adam Miszczak]], *Models of quantum computation and quantum programming languages*, Bull. Pol. Acad. Sci.-Tech. Sci., Vol. 59, No. 3 (2011), pp. 305-324 ([arXiv:1012.6035](https://arxiv.org/abs/1012.6035))
@@ -26,15 +27,15 @@ Surveys of existing languages:
 
 Quantum programming via [[quantum logic]] understood as [[linear type theory]] [[categorical semantics|interpreted in]] [[symmetric monoidal categories]]:
 
-* {#Pratt92} [[Vaughan Pratt]], _Linear logic for generalized quantum mechanics_, in Proc. of _Workshop on Physics and Computation (PhysComp'92)_ ([pdf](http://boole.stanford.edu/pub/ql.pdf), [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.137.7817))
+* {#Pratt92} [[Vaughan Pratt]], *Linear logic for generalized quantum mechanics*, in Proc. of *[Workshop on Physics and Computation (PhysComp'92)](https://www.computer.org/csdl/proceedings/phycmp/1992/12OmNx19jVS)*, Dallas (1992) $[$[pdf](http://boole.stanford.edu/pub/ql.pdf), [[Pratt-LinearLogic.pdf:file]], [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.137.7817)$]$
 
 * {#AbramskyCoecke04} [[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_ , Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) ([arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130))
 
-* {#AbramskyDuncan05} [[Samson Abramsky]], [[Ross Duncan]], _A Categorical Quantum Logic_, Mathematical Structures in Computer Science, Volume 16, Issue 3 (2006)  pp. 469 - 489  ([arXiv:quant-ph/0512114](http://arxiv.org/abs/quant-ph/0512114), [doi:10.1017/S0960129506005275](https://doi.org/10.1017/S0960129506005275))
+* {#AbramskyDuncan05} [[Samson Abramsky]], [[Ross Duncan]], _A Categorical Quantum Logic_, Mathematical Structures in Computer Science, **16** 3 (2006) 469-489  $[$[arXiv:quant-ph/0512114](http://arxiv.org/abs/quant-ph/0512114), [doi:10.1017/S0960129506005275](https://doi.org/10.1017/S0960129506005275)$]$
 
 * {#Duncan06} [[Ross Duncan]], *Types for Quantum Computing*, (2006) $[$[pdf](http://personal.strath.ac.uk/ross.duncan/papers/rduncan-thesis.pdf)$]$
 
-* {#LagoFaggian12} [[Ugo Dal Lago]], [[Claudia Faggian]], _On Multiplicative Linear Logic, Modality and Quantum Circuits_, EPTCS 95 (2012) 55-66 $[$[arXiv:1210.0613](http://arxiv.org/abs/1210.0613)$]$
+* {#LagoFaggian12} [[Ugo Dal Lago]], [[Claudia Faggian]], _On Multiplicative Linear Logic, Modality and Quantum Circuits_, EPTCS 95 (2012) 55-66 $[$[arXiv:1210.0613](http://arxiv.org/abs/1210.0613), [doi:10.4204/EPTCS.95.6](https://doi.org/10.4204/EPTCS.95.6)$]$
 
 * {#Staton15} [[Sam Staton]], *Algebraic Effects, Linearity, and Quantum Programming Languages*, POPL '15: Proceedings of the 42nd Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (2015) &lbrack;[doi:10.1145/2676726.2676999](https://doi.org/10.1145/2676726.2676999), [pdf](http://www.cs.ox.ac.uk/people/samuel.staton/papers/popl2015.pdf)&rbrack;
 
