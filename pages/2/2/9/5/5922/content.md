@@ -42,8 +42,7 @@ Assuming the deductive system is [[soundness theorem|sound]], every sequent whic
 
 ## Related concepts
 
-
-* [[axiom]]
+* [[axiom schema]]
 
 * [[definition]]
 
@@ -96,4 +95,5 @@ For instance def. D1.1.6 in
 
 [[!redirects axiomatization]]
 [[!redirects axiomatizations]]
+
 
