@@ -25,6 +25,7 @@ Constructive analysis is the incarnation of [[analysis]] in [[constructive mathe
 
 In applications in [[computer science]] one uses for instance the _[[completion monad]]_ for _exact_ computations with [[real numbers]] (as opposed to floating point arithmetic). Therefore one also sometimes speaks of _exact analysis_. See also at _[[computable real number]]_.
 
+
 ## Related concepts
 
 [[!include computable mathematics -- table]]
@@ -34,6 +35,10 @@ In applications in [[computer science]] one uses for instance the _[[completion 
 * [[exact real computer arithmetic]]
 
 * [[computable physics]]
+
+* [[constructive set theory]]
+
+* [[constructive algebraic topology]]
 
 
 ## References
