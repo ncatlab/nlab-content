@@ -81,6 +81,12 @@ Textbooks:
 
 * {#Hatcher02} [[Allen Hatcher]], *Algebraic Topology*, Cambridge University Press 2002 ([ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html))
 
+On [[constructive mathematics|constructive]] methods ([[constructive algebraic topology]]):
+
+* [[Julio Rubio]], [[Francis Sergeraert]], *Constructive Algebraic Topology*, Bulletin des Sciences Mathématiques
+**126** 5 (2002) 389-412 &lbrack;[arXiv:math/0111243](https://arxiv.org/abs/math/0111243), <a href="https://doi.org/10.1016/S0007-4497(02)01119-3">doi:10.1016/S0007-4497(02)01119-3</a>&rbrack;
+
+
 Lecture notes:
 
 * {#HopkinsMathew} [[Michael Hopkins]] (notes by [[Akhil Mathew]]), _algebraic topology -- Lectures_ ([pdf](http://people.fas.harvard.edu/~amathew/ATnotes.pdf))
@@ -90,7 +96,8 @@ Lecture notes:
 * [[James F. Davis]] and [[Paul Kirk]], _Lecture notes in algebraic topology_ ([pdf](http://www.indiana.edu/~jfdavis/teaching/m623/book.pdf))
 
 * [[Gereon Quick]], _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_, 2014
-
+ 
+ 
 Survey of various subjects in algebraic topology:
 
 * {#James95} [[Ioan Mackenzie James]], _[[Handbook of Algebraic Topology]]_ 1995
@@ -100,7 +107,6 @@ Survey with relation to [[differential topology]]:
 * [[Sergei Novikov]], _Topology I -- General survey_, in: Encyclopedia of Mathematical Sciences Vol. 12, Springer 1986 ([doi:10.1007/978-3-662-10579-5](https://link.springer.com/book/10.1007/978-3-662-10579-5), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/novikovsurv.pdf))
 
 * [[Jean Dieudonné]], _A History of Algebraic and Differential Topology, 1900 - 1960_, Modern Birkh&auml;user Classics 2009 ([ISBN:978-0-8176-4907-4](https://www.springer.com/de/book/9780817649067))
-
 
 Some interactive 3D demos:
 
