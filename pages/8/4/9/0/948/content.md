@@ -41,6 +41,7 @@ Here we write mostly about the mathematics, trying to be mostly neutral philosop
 During the "[[foundations|foundational]] crisis" in mathematics around the beginning of the 20th century, a number of mathematicians espoused philosophies that are generally grouped together and labeled **constructivist**. The common feature of these philosophies was a rejection of axioms and principles of logic that lead to nonconstructive proofs.  There was much talk at the time about potential vs absolute infinity, but from an axiomatic perspective, it turns out that (if one stops short of finitism) the two main culprits are
 
 * the [[axiom of choice]] and
+
 * the principle of [[excluded middle]].
 
 Thus, constructivists (including many still active today) reject proofs that make use of either of these.  (In fact, it was realized in 1975 by Diaconescu that the axiom of choice implies the principle of excluded middle.  Excluded middle is precisely the "finitely indexed" axiom of choice; see [[excluded middle]] for a proof.)
@@ -64,9 +65,13 @@ Many constructivists (like many classical mathematicians) believe in an absolute
 The following is a partial list of schools and subtheories of constructive mathematics:
 
 * Brouwer's [[intuitionistic mathematics]]
+
 * [[Russian constructivism]]
+
 * [[Bishop's constructive mathematics]]
+
 * [[constructive reverse mathematics]]
+
 * (at least related) [[explicit mathematics]]
 
 
@@ -171,6 +176,8 @@ See also
 * [[constructive set theory]]
 
 * [[constructive analysis]]
+
+* [[constructive algebraic topology]]
 
 * [[taboo]]
 
