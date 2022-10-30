@@ -49,6 +49,9 @@ Alternatively: In terms of the discussion at *[[quantum circuits via dependent l
     }
 \end{imagefromfile}
 
+## Related concepts
+
+* [[no-cloning theorem]]
 
 ## References
  {#References}
