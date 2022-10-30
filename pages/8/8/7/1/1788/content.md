@@ -1,7 +1,47 @@
 
 ## 
 
-$QS$ is the [[quantum programming language]] developed at [[CQTS]], [[domain specific embedded programming language|embedded]] into [[linear homotopy type theory]]. On the one hand, $QS$ is short for *Quantum Systems Language*, on the other hand $Q S$ is the traditional notation for the [[sphere spectrum]] (the [[spectrification]] $Q$ of the [[spheres]] $S^n$), reflecting that [[linear homotopy type theory]] is the formal language of [[S-modules|QS-modules]], namely of ([[parameterized spectra|parameterized]]) [[spectra]] (in the sense of [[algebraic topology]]).
+In [[programming language|programming]] it frequently happens that a sequence of [[programs]] 
+
+\begin{tikzcd}
+  D_1
+  \ar[rr, dashed, "\scalebox{.7}{first program}"]
+  &&
+  \underset{
+    \mathclap{
+      \raisebox{-3pt}{
+        \scalebox{.7}{
+          \def\arraystretch{.9}
+          \begin{tabular}{c}
+            superficially matching
+            \\
+            data type
+          \end{tabular}
+        }
+      }
+    }
+  }{
+    \underbrace{
+      D_2
+    }
+  }
+  \ar[rr, dashed, "\scalebox{.7}{second program}"]
+  &&
+  D_3
+\end{tikzcd}
+
+whose output/input [[data types]] superficially match do not actually match, due to extra *effects* caused by the programs. 
+In such a case, the *actual* data produced by the programs is a variant type, say $T D$, of the superficially expected data type $D$. 
+
+For example, besides computing data of type $D$, 
+the programs might also output a string with an execution log or an error message, in which case 
+the actual output data might be of [[product type]] $T D \,=\, D \times String$, or similar.
+
+Still, in such cases it would be understood that such a program *with side effect* could feed int a program whose specified input data type is just $D_2$ instead of $T D_2$, since the side effect should just be carried along, and be combined with whatever side effect the subsequence program(s) may cause.
+
+
+
+
 
 ## Idea
 
