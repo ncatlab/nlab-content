@@ -140,7 +140,7 @@ In general, what we can say is that for two fixed categories $C$ and $D$, the fu
 
 ## References
 
-* [[Eduardo Dubuc]] and [[Ross Street]], *Dinatural transformations*, Reports of the Midwest Category Seminar IV, Lecture Notes in Math., vol. 137, Springer, Berlin (1970), pp. 126&#8211;137
+* [[Eduardo Dubuc]] and [[Ross Street]], *Dinatural transformations*, Reports of the Midwest Category Seminar IV, Lecture Notes in Math., vol. 137, Springer, Berlin (1970), pp. 126&#8211;137 (doi:[10.1007/BFb0060443](https://doi.org/10.1007/BFb0060443))
  {#DubucStreet}
 
 * [[Robert Paré]] and Leopoldo Rom&#225;n, *Dinatural numbers*, [JPAA](http://www.sciencedirect.com/science/article/pii/S0022404997000364)
