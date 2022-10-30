@@ -32,7 +32,7 @@ Many existing [[quantum programming languages]] are actually domain-specific lan
 
 For instace:
 
-* *[[Quipper]]* is embedded into into [[Haskell]];
+* *[[Quipper]]* is embedded into into [[Haskell]] ([Green, Lumsdaine, Ross, Selinger & Valiron (2013)](Quipper#GLRSV13));
 
 * [[QWIRE]] has been embedded into [[Coq]] ([Rand, Paykin & Zdancewic (2018)](QWIRE#RandPaykinZdancewic18)) and [[homotopy type theory]] ([Paykin & Zdancewic (2019)](QWIRE#PaykinZdancewic19)).
 
