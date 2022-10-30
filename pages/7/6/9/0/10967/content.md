@@ -2,17 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
 =--
 #### Monoidal categories
 +--{: .hide}
 [[!include monoidal categories - contents]]
-=--
-#### Type theory
-+-- {: .hide}
-[[!include type theory - contents]]
 =--
 =--
 =--
@@ -39,6 +35,8 @@ From this perspective one gets a more interesting statement if one turns this ar
 
 ## Related concepts
 
+* [[deferred measurement principle]]
+
 * [[quantum superposition]]
 
 * [[entanglement]]
@@ -57,7 +55,7 @@ The original articles:
 
 * [[Dennis Dieks]], _Communication in EPR devices_, Physics Letters A 92, 271-272 (1982)
 
-* [[William Wooters]], [[Wojciech Zurek]], *A single quantum cannot be cloned*, Nature **299** (1982) 802-803 &lbrack;[https://doi.org/10.1038/299802a0](https://doi.org/10.1038/299802a0)&rbrack;
+* [[William Wooters]], [[Wojciech Zurek]], *A single quantum cannot be cloned*, Nature **299** (1982) 802-803 &lbrack;[doi:10.1038/299802a0](https://doi.org/10.1038/299802a0)&rbrack;
 
 See also:
 
