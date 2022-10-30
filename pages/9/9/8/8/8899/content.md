@@ -50,9 +50,9 @@ Here is a very incomplete list of software available for mathematics, especially
 * [CHA](http://hamilton.nuigalway.ie/CHA/)
 * [[HAP]]
 
-###Computational Algebraic Topology
+### Computational Algebraic Topology
 
-* [Kenzo](http://www-fourier.ujf-grenoble.fr/~sergerar/Kenzo/)
+* [[Kenzo]] for [[constructive algebraic topology]]
 
 
 ###Computational Higher-dimensional Discrete Algebra
