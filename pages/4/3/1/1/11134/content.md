@@ -44,7 +44,7 @@ $$
   \,.
 $$ 
 
-Now, under the [hom-isomorphism](adjoint +functor#InTermsOfHomIsomorphism)  of the ([[Cartesian product]] $\dashv$ [[internal hom]])-[[adjoint functor|adjunction]], this is equivalently given by its [[adjunct]], which is a function into the [[function type]] $[-,-]$ ([[internal hom]]):
+Now, under the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) of the ([[Cartesian product]] $\dashv$ [[internal hom]])-[[adjoint functor|adjunction]], this is equivalently given by its [[adjunct]], which is a function into the [[function type]] $[-,-]$ ([[internal hom]]):
 
 $$
   X \longrightarrow [W, W \times Y ]
