@@ -612,3 +612,5 @@ this is picked up and claimed to be refined to a [[dialectic]] system of [[unity
 [[!redirects necesecarily]]
 [[!redirects possibly]]
 
+[[!redirects definiteness and randomness]]
+
