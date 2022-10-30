@@ -34,6 +34,11 @@ Some more information can be found at [[ZFC]]. Perhaps this should be moved here
 
 ## Related concepts
 
+* [[constructive analysis]]
+
+* [[constructive algebraic topology]]
+
+
 * [[taboo]]
 
 ## References
