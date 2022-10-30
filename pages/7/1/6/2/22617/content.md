@@ -40,11 +40,11 @@ Theoretical background:
 
 Application to [[verified programming]] after [[domain specific embedded programming language|embedding]] into [[Coq]]:
 
-* {#RandPaykinZdancewic18} [[Robert Rand]], [[Jennifer Paykin]], [[Steve Zdancewic]], *QWIRE Practice: Formal Verification of Quantum Circuits in Coq*, EPTCS 266, 2018, pp. 119-132 ([arXiv:1803.00699](https://arxiv.org/abs/1803.00699))
+* {#RandPaykinZdancewic18} [[Robert Rand]], [[Jennifer Paykin]], [[Steve Zdancewic]], *QWIRE Practice: Formal Verification of Quantum Circuits in Coq*, EPTCS **266** (2018) 119-132 &lbrack;[arXiv:1803.00699](https://arxiv.org/abs/1803.00699)&rbrack;
 
 Using [[domain specific embedded programming language|embedding]] into [[homotopy type theory]]:
 
-* {#PaykinZdancewic19}[[Jennifer Paykin]], [[Steve Zdancewic]], *A HoTT Quantum Equational Theory*, [talk at QPL2019](http://qpl2019.org/a-hott-quantum-equational-theory/) ([arXiv:1904.04371](https://arxiv.org/abs/1904.04371))
+* {#PaykinZdancewic19}[[Jennifer Paykin]], [[Steve Zdancewic]], *A HoTT Quantum Equational Theory*, [talk at QPL2019](http://qpl2019.org/a-hott-quantum-equational-theory/) &lbrack;[arXiv:1904.04371](https://arxiv.org/abs/1904.04371)&rbrack;
 
 category: people
 
