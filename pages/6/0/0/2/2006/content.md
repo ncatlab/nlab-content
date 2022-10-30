@@ -13,7 +13,6 @@
 =--
 =--
 
-
 # Kleisli category
 * table of contents
 {: toc}
@@ -109,7 +108,8 @@ and
 
 
 \begin{proposition}\label{KleisliEquivalence}
-
+**([[Kleisli equivalence]])**
+\linebreak
 The construction which sends a Kleisli morphism $X \xrightarrow{f} T Y$ (eq:KleisliMorphism) to
 
 $$
@@ -244,4 +244,4 @@ Discussion of Kleisli categories in [[type theory]] is in
 [[!redirects Kleisli constructions]]
 
 
-
+[[!redirects Kleisli equivalence]]
