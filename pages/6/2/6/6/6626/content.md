@@ -3,6 +3,7 @@
 
 ---
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -27,13 +28,13 @@
 
 ## Idea
 
-In [[set theory]], the __axiom scheme of separation__ aka __specification__ states that, given any [[set]] $X$ and any [[property]] $P$ of the [[elements]] of $X$, there is a set
+In [[set theory]], the [[axiom scheme]] __of separation__ aka __specification__ states that, given any [[set]] $X$ and any [[property]] $P$ of the [[elements]] of $X$, there is a set
 $$ \{ X | P \} = \{ a \in X \;|\; P(a) \} $$
 consisting precisely of those elements of $X$ for which $P$ holds:
 $$ a \in \{ X | P \} \;\leftrightarrow\; a \in X \;\wedge\; P(a) .$$
 Note that $\{X|P\}$ is a [[subset]] of $X$.
 
-It is important to specify what language $P$ can be written in.  This connects the axiom to [[logic]] and the [[foundations of mathematics]].  Arguably, [[first-order logic]] developed in order to explain the meaning of [[Ernst Zermelo]]\'s axiom of separation (although Zermelo himself disagreed with the interpretation that this gave).  Separation is (usually) given as an axiom *scheme* because there is one axiom for each way to state a property in the language.  (We also allow parameters in $P$.)
+It is important to specify what language $P$ can be written in.  This connects the axiom to [[logic]] and the [[foundations of mathematics]].  Arguably, [[first-order logic]] developed in order to explain the meaning of [[Ernst Zermelo]]\'s axiom of separation (although Zermelo himself disagreed with the interpretation that this gave).  Separation is (usually) given as an axiom *[[axiom scheme|scheme]]* because there is one axiom for each way to state a property in the language.  (We also allow parameters in $P$.)
 
 
 ## Statements
