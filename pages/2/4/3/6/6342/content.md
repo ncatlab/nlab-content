@@ -24,13 +24,13 @@ In the late 1920s, [[Eugene Wigner]] and [[Hermann Weyl]] highlighted the role t
 
 In his autobiography [[John Slater]], an MIT physicist, claimed:
 
->It was at this point that Wigner, Hund, Heitler, and Weyl entered the picture with their "Gruppenpest": the pest of the group theory... The authors of the "Gruppenpest" wrote papers which were incomprehensible to those like me who had not studied group theory, in which they applied these theoretical results to the study of the many electron problem. The practicle consequences appeared to be negligible, but everyone felt that to be in the mainstream one had to learn about it. Yet there were no good texts from which one could learn group theory. It was a frustrating experience, worthy of the name of a pest.
+>It was at this point that Wigner, Hund, Heitler, and Weyl entered the picture with their "Gruppenpest": the pest of the group theory... The authors of the "Gruppenpest" wrote papers which were incomprehensible to those like me who had not studied group theory, in which they applied these theoretical results to the study of the many electron problem. The practical consequences appeared to be negligible, but everyone felt that to be in the mainstream one had to learn about it. Yet there were no good texts from which one could learn group theory. It was a frustrating experience, worthy of the name of a pest.
 
 >I had what I can only describe as a feeling of outrage at the turn which the subject had taken...
 
 >As soon as this [Slater's] paper became known, it was obvious that a great many other physicists were as disgusted as I had been with the group-theoretical approach to the problem. As I heard later, there were remarks made such as "Slater has slain the 'Gruppenpest'". I believe that no other piece of work I have done was so universally popular.
 
-Eventually this resistence vanished and turned into its opposite in theoretical fundamental physics: in the classification of [[fundamental particle]]s by [[unitary representations of the Poincaré group]] introduced by [[Hermann Weyl]], in the description of [[gauge theory]] in terms of [[associated bundle]]s given by [[representation]]s of [[gauge groups]]. Today almost the first thing that one wants to know about a physical theory is its [[gauge group]] and the [[representation]]s of it that play a role.
+Eventually this resistance vanished and turned into its opposite in theoretical fundamental physics: in the classification of [[fundamental particle]]s by [[unitary representations of the Poincaré group]] introduced by [[Hermann Weyl]], in the description of [[gauge theory]] in terms of [[associated bundle]]s given by [[representation]]s of [[gauge groups]]. Today almost the first thing that one wants to know about a physical theory is its [[gauge group]] and the [[representation]]s of it that play a role.
 
 ## References
 
