@@ -268,9 +268,7 @@ Combining the [classical parametrized trilogy](#ClassicalParametrized) with the 
 
 * from [[dependent type theory|dependent]] [[intuitionistic type theory|intuitionistic]] [[homotopy type theory]] to **[[dependent linear type theory|dependent]] [[linear type theory]]** of dependent [[stable homotopy types]];
 
-* from [[locally cartesian closed categories]]/[[locally cartesian closed (∞,1)-categories|(∞,1)-categories]] to **[[indexed monoidal categories]]/[[indexed monoidal (∞,1)-categories|(∞,1)-categories]]** of [[parametrized spectra]];
-
-  which in the language of [[algebraic topology]] is the context of **[[twisted generalized cohomology|twisted]] [[generalized cohomology theory]]**.
+* from [[locally cartesian closed categories]]/[[locally cartesian closed (∞,1)-categories|(∞,1)-categories]] to **[[indexed monoidal categories]]/[[indexed monoidal (∞,1)-categories|(∞,1)-categories]]** of [[parametrized spectra]]; which in the language of [[algebraic topology]] is the context of **[[twisted generalized cohomology|twisted]] [[generalized cohomology theory]]**.
 
 there appears the "classically controlled quantum computational tetralogy":
 
