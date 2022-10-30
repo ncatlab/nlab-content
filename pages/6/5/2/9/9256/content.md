@@ -39,6 +39,12 @@ Related areas include
 
 * [[computational homological algebra]]
 
+See also:
+
+* [[constructive set theory]]
+
+* [[constructive analysis]]
+
 
 ## References
 
