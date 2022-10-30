@@ -1,4 +1,4 @@
-Gilbert Ryle (1900-1976) was an Oxford philosopher, one of the early exponents of _ordinary language_ philosophy (see [Tanney](#Tanney)). He is particulary noted for his work on _category mistakes_ (see [Magidor](#Magidor)).
+Gilbert Ryle (1900-1976) was an Oxford philosopher, one of the early exponents of _ordinary language_ philosophy (see [Tanney](#Tanney)). He is particulary noted for his work on [[Category mistake|_category mistakes_]] (see [Magidor](#Magidor)).
 
 > ...not only is it the case that category-propositions (namely assertions that terms belong to certain categories or types), are always philosopher’s propositions, but, I believe, the converse is also true. So we are in the dark about the nature of philosophical problems and methods if we are in the dark about types and categories. ([Ryle 1938, p. 189](#Ryle38))
 
