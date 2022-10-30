@@ -255,3 +255,7 @@ Discussion of aspects of [[quantum computing]] in terms of monads in [[functiona
 
 [[!redirects monad in computer science]]
 [[!redirects monads in computer science]]
+
+[[!redirects computational effect]]
+[[!redirects computational effects]]
+
