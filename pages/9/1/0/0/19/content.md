@@ -396,8 +396,12 @@ This and much more history is recalled in
 
   > (emphasis on [[monoidal category]]-theory with an eye towards [[finite quantum mechanics in terms of dagger-compact categories]] and [[quantum computation]])
 
-
 * [[Marco Grandis]], _Category Theory and Applications: A Textbook for Beginners_, World Scientific, 2021 ([doi:10.1142/12253](https://doi.org/10.1142/12253))
+
+On category theory in [[computer science]]/[[programming languages]] (such as for [[monads in computer science]]):
+
+* [[Bartosz Milewski]] (compiled by Igal Tabachnik), *Category Theory for Programmers*, Blurb (2019) &lbrack;[pdf](file:///C:/Users/us13/Downloads/category-theory-for-programmers.pdf), [github](https://github.com/hmemcpy/milewski-ctfp-pdf), [webpage](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/), [ISBN:9780464243878](https://www.blurb.com/b/9621951-category-theory-for-programmers-new-edition-hardco)&rbrack;
+
 
 
 \subsubsection{Topos theory}
