@@ -11,13 +11,14 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A _formal language_ is a collection of words over an alphabet, i.e. strings of symbols from the alphabet, according to certain rules.
+A _formal language_ is a collection of words over an [[alphabet]], i.e. strings of symbols from the alphabet, according to certain rules.
 
 ## Related concepts
 
@@ -41,3 +42,5 @@ See also
 
 [[!redirects formal language]]
 [[!redirects formal languages]]
+
+[[!redirects alphabet]]
