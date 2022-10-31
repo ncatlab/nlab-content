@@ -11,7 +11,7 @@ bartosz@relisoft.com
 
 On [[category theory]] in [[computer science]]/[[programming languages]] (such as for [[monads in computer science]]):
 
-* [[Bartosz Milewski]] (compiled by Igal Tabachnik), *Category Theory for Programmers*, Blurb (2019) &lbrack;[pdf](file:///C:/Users/us13/Downloads/category-theory-for-programmers.pdf), [github](https://github.com/hmemcpy/milewski-ctfp-pdf), [webpage](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/), [ISBN:9780464243878](https://www.blurb.com/b/9621951-category-theory-for-programmers-new-edition-hardco)&rbrack;
+* [[Bartosz Milewski]] (compiled by Igal Tabachnik), *Category Theory for Programmers*, Blurb (2019) &lbrack;[pdf](https://github.com/hmemcpy/milewski-ctfp-pdf/releases/download/v1.3.0/category-theory-for-programmers.pdf), [github](https://github.com/hmemcpy/milewski-ctfp-pdf), [webpage](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/), [ISBN:9780464243878](https://www.blurb.com/b/9621951-category-theory-for-programmers-new-edition-hardco)&rbrack;
 
 
 On [[optics (in computer science)]]:
