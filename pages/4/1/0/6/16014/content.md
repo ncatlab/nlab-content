@@ -182,7 +182,7 @@ Some technical remarks:
  {#RelationToContingency}
 
 
-There is also an [[adjoint pair]] on the other side, $\mathbf{H}_{/\ast}$, of the [[base change]] maps, in which the left adjoint is given by context extension back to $\mathbf{H}_{/W}$ followed by $\exists_W$, and dually the right adjoint is given by $W^\ast$ followed by $\forall_W$. The former is the [[writer comonad]], whereas the latter is the [[reader monad]] (aka [[function monad]]):
+There is also an [[adjoint pair]] on the other side, $\mathbf{H}_{/\ast}$, of the [[base change]] maps, in which the left adjoint is given by context extension back to $\mathbf{H}_{/W}$ followed by $\exists_W$, and dually the right adjoint is given by $W^\ast$ followed by $\forall_W$. The former is the [[coreader comonad]], whereas the latter is the [[reader monad]] (aka [[function monad]]):
 
 <center>
 <img src="/nlab/files/TheFourModalitiesOfBaseChange-20221021.jpg" width="400">
