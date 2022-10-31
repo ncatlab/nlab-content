@@ -76,7 +76,7 @@ Notice that by far not all models are of this form, as the following examples sh
 
 ## Models for supergeometry ##
 
-It is straightforward to slightly enhance the axioms of smooth toposes such as to incorporate the step from [[differential geometry]] to [[supergeometry]], one just requires that algebra structure on the [[lined topos|line object]] $R$ is further refined to thatr of a [[superalgebra]]. The result is called a [[super smooth topos]]. See there for a list of models of these.
+It is straightforward to slightly enhance the axioms of smooth toposes such as to incorporate the step from [[differential geometry]] to [[supergeometry]], one just requires that algebra structure on the [[lined topos|line object]] $R$ is further refined to that of a [[superalgebra]]. The result is called a [[super smooth topos]]. See there for a list of models of these.
 
 ## Models for algebraic geometry ##
 
