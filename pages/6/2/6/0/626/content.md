@@ -464,9 +464,12 @@ The generalization to arbitrary dimension in terms of [[opetope|opetopic]] "zoom
 
 * {#KockJoyalBataninMascari07} [[Joachim Kock]], [[André Joyal]], [[Michael Batanin]], [[Jean-François Mascari]], _Polynomial functors and opetopes_ ([arXiv:0706.1033](http://arxiv.org/abs/0706.1033)) 
 
-Discussion for [[double categories]] and [[2-category equipped with proarrows|pro-arrow equipments]] is in 
 
-* {#Myers16} David Jaz Myers, _String Diagrams For Double Categories and (Virtual) Equipments_ ([arXiv:1612.02762](https://arxiv.org/abs/1612.02762))
+Discussion of string diagram calculus for ([[virtual double category|virtual]]) [[double categories]] and ([[virtual equipment|virtual]]) [[2-category equipped with proarrows|pro-arrow equipments]]:
+
+* {#Myers16} [[David Jaz Myers]], _String Diagrams For Double Categories and (Virtual) Equipments_ &lbrack;[arXiv:1612.02762](https://arxiv.org/abs/1612.02762)&rbrack;
+
+* [[David Jaz Myers]], *String Diagrams for (Virtual) Proarrow Equipments* (2017) &lbrack;slides: [pdf](http://www.mat.uc.pt/~ct2017/slides/myers_d.pdf), [[Myers-StringDiagrams2017.pdf:file]]&rbrack;
 
 See also at _[[opetopic type theory]]_.
 
