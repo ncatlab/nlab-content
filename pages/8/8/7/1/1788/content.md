@@ -13,7 +13,7 @@ is some general operation sending [[data types]] $D$ to new data types $T(D)$.
 
 In such a case, given a subsequent program $prog_{23}$ accepting input data of type $D_2$ and itself possibly involved in further effects of type $T(-)$, then the *na&iuml;ve* [[composition]] of the two programs makes no sense (unless $T(D) = D$ is actually the trivial sort of effect), but their evident *intended* composition is obtained by: 
 
-1. first adjusting $prog_{23}$ to an adapted variant $prog_{23}[-]$ using a systematic prescription
+1. first adjusting $prog_{23}$ via some general prescription
 
    \[
      \label{BindingLawInIntroduction}
@@ -27,7 +27,9 @@ In such a case, given a subsequent program $prog_{23}$ accepting input data of t
 
    1. "acts as $prog_{12}$ while carrying any previous $T(-)$-effects along";
 
-1. then forming the naive [[composition]] $prog_{23}\big[prog_{12}(-)\big]$:
+1. then forming the naive [[composition]] $prog_{23}\big[prog_{12}(-)\big]$
+
+as follows:
 
 \begin{imagefromfile}
     "file_name": "KleisliCompositionOfEffectfulPrograms-221031.jpg",
@@ -43,13 +45,13 @@ In such a case, given a subsequent program $prog_{23}$ accepting input data of t
 
 > (Beware that we are denoting by square brackets "$prog[-]$" what in [[programming languages]] like [[Haskell]] [is denoted by](https://wiki.haskell.org/Monad#The_Monad_class) "`(-) >>= prog`" (.)
 
-Here it remains to be specified how exactly $prog_{23}[-]$ "carries $T(-)$-effects along", hence what the "bind" operation really is. 
+According to the intended behaviour of these programs, it remains to specify how exactly $prog_{23}[-]$ "carries $T(-)$-effects along", hence what the "bind" operation really is. 
 
 > For instance, in the above example where $T(D_2) = D_2 \times String$, the evident way is to use the [[concatenation]]  $String \times String \xrightarrow{\; concat \;} String$ and set:
 
 > $ prog_{23}\big[-\big]\;\coloneqq\; D_2 \times String \xrightarrow{ prog_{12} \times Id_{String} } D_3 \times String \times String \xrightarrow{ Id_{D_3} \times concat } D_3 \times String \,. $
 
-Whatever choice one makes for how to "carry along effects", it should be consistent in that applying the method to a [[triple]] of $T(-)$-effectful programs which are nominally composable, then their effectful composition should be unambiguously defined in that it is [[associative]]:
+But whatever design choice one makes for how to "carry along effects", it must be consistent in that applying the method to a [[triple]] of $T(-)$-effectful programs which are nominally composable, then their effectful composition should be unambiguously defined in that it is [[associative]], satisfying the following "law" ([[equation]]):
 
 \[
   \label{AssociativityConditionInIntroduction}
@@ -58,7 +60,7 @@ Whatever choice one makes for how to "carry along effects", it should be consist
       prog_{12}(-)
     \big]
   \Big]
-  \;=\;
+  \;\;\;=\;\;\;
   \Big(
     prog_{34}\big[
       prog_{23}(-)
@@ -70,11 +72,12 @@ Whatever choice one makes for how to "carry along effects", it should be consist
   \,.
 \]
 
-Finally, for such a notion of effectful programs to be usefully connected to "pure" programs without effects,  it ought to be the case that for any program $prog \,\colon\, D_0 \xrightarrow{\;} D_1$ that happens to have no $T(-)$-effects, there is a specification for how to regard it as a  $T(-)$-effectful program in a trivial way. For that purpose there should be defined an operation
+Finally, for such a notion of effectful programs to be usefully connected to "pure" programs without effects,  it ought to be the case that for any program $prog \,\colon\, D_0 \xrightarrow{\;} D_1$ that happens to have no $T(-)$-effects, we have a prescription for how to regard it as a  $T(-)$-effectful program in a trivial way. For that purpose there should be defined an operation
 
-$$
+\[  
+  \label{ReturnMapInIntroduction}
   ret_{D_1} \;\colon\; D_1 \xrightarrow{\;}  T(D_1)
-$$
+\]
 
 which does nothing but "return" data of type $D_1$, but re-regarded as effectful $T(D_1)$-data in a trivial way; so that we may construct the trivially effectful program $ret_{D_1}\big(prog_{01}(-)\big) \;\colon\; D_0 \xrightarrow{\;} T(D_1)$.
 
@@ -107,11 +110,11 @@ Notice that the [[associativity]] condition (eq:AssociativityConditionInIntroduc
 
 In summary, a choice of assignments
 
-1. $D \;\mapsto\; T(D)$ $\;\;$ (type of effectful data of nominal type $D$)
+1. $D \;\mapsto\; T(D)$  $\;$---$\;$ types of effectful data of nominal type $D$ (eq:MonadMapInIntroduction)
 
-1. $D \;\mapsto\; ret_D$ $\;\;$ (regard plain $D$-data as trivially effectful)
+1. $D \;\mapsto\; ret_D$ $\;$---$\;$ regarding plain $D$-data as trivially effectful (eq:ReturnMapInIntroduction)
 
-1. $prog \;\mapsto\; prog[-]$ $\;\;$ (execute $prog$ while carrying along any previous $T(-)$-effects)
+1. $prog \;\mapsto\; prog[-]$ $\;$---$\;$ executing $prog$ while carrying along any previous $T(-)$-effects (eq:BindingLawInIntroduction)
 
 subject to 
 
