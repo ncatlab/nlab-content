@@ -35,7 +35,16 @@ On [[type theory|type theoretical]] [[databases]]:
 
 * [[Henrik Forssell]], [[Håkon Robbestad Gylterud]], [[David Spivak]], *Type theoretical databases*, Journal of Logic and Computation, Volume 30, Issue 1, January 2020, Pages 217–238, ([doi:10.1093/logcom/exaa009](https://doi.org/10.1093/logcom/exaa009), [arXiv:1406.6268](https://arxiv.org/abs/1406.6268))
 
-## Related $n$Lab entries
+On [[dynamical systems]] and their [[categorical systems theory]]:
+
+* [[Patrick Schultz]], [[David I. Spivak]], [[Christina Vasilakopoulou]], *Dynamical Systems and Sheaves*, Appl Categor Struct **28** (2020) 1–57 &lbrack;[arXiv:1609.08086](https://arxiv.org/abs/1609.08086), [doi:10.1007/s10485-019-09565-x](https://doi.org/10.1007/s10485-019-09565-x)&rbrack;
+
+and via [[polynomial functors]]:
+
+* {#SpivakPoly} [[David Spivak]], [[Nelson Niu]], _Polynomial Functors: A General Theory of Interaction_ &lbrack;[webpage](https://topos.site/poly-course/), [pdf](https://topos.site/poly-book.pdf)&rbrack;
+
+
+## Related entries
 
 * [[derived smooth manifold]]
 
@@ -44,3 +53,4 @@ On [[type theory|type theoretical]] [[databases]]:
 category: people
 
 [[!redirects David I. Spivak]]
+
