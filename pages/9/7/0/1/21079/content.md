@@ -125,7 +125,7 @@ This gives a way to talk about monoid and group [[actions]] [[internally]] to an
 
 ## In computer science
 
-The action monad in computer science is known under the name of **writer monad**. See also [[writer comonad]]. 
+The action monad in computer science is known under the name of **writer monad**. See also the *[[coreader comonad]]*. 
 
 A way to motivate this name is to look at its Kleisli morphisms.
 The following explanation is taken from [Perrone, Example 5.1.14](#notesperrone).
@@ -163,7 +163,11 @@ Let $M$ be a monoid, and let's write it additively. Denote by $T_M$ its _right_ 
 
 * [[monad in computer science]], 
 
-  * [[function monad]], [[writer comonad]]
+  * [[function monad]]
+
+  * [[coreader comonad]]
+
+  * [[writer comonad]]
 
 
 ## References 
