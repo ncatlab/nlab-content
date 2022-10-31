@@ -33,11 +33,16 @@ This is ([CruttwellShulman, def. 7.6](#CruttwellShulman)).
 
 ## References
 
-Section 7 of
 
-* [[Geoff Cruttwell]] and [[Mike Shulman]], _A unified framework for generalized multicategories_, [arXiv:0907.2460](http://arxiv.org/abs/0907.2460)
-{#CruttwellShulman}
 
+* {#CruttwellShulman} [[Geoff Cruttwell]], [[Mike Shulman]], Section 7 of: _A unified framework for generalized multicategories_, &lbrack;[arXiv:0907.2460](http://arxiv.org/abs/0907.2460)&rbrack;
+
+
+On a [[string diagram]]-calculus for ([[virtual double category|virtual]]) [[double categories]] with ([[virtual equipment|virtual]]) [[2-category equipped with proarrows|pro-arrow equipments]]:
+
+* {#Myers16} [[David Jaz Myers]], _String Diagrams For Double Categories and (Virtual) Equipments_ &lbrack;[arXiv:1612.02762](https://arxiv.org/abs/1612.02762)&rbrack;
+
+* [[David Jaz Myers]], *String Diagrams for (Virtual) Proarrow Equipments* (2017) &lbrack;slides: [pdf](http://www.mat.uc.pt/~ct2017/slides/myers_d.pdf), [[Myers-StringDiagrams2017.pdf:file]]&rbrack;
 
 
 
