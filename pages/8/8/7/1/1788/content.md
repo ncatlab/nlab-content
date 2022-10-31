@@ -126,6 +126,44 @@ is called a *[[monad in computer science]]* and serves to encode the notion that
 
 > The running example above is known as the *[[writer monad]]*, since it encodes the situation where programs may have the additional effect of writing a message string into a given buffer.
 
+(...)
+
+in one direction
+
+$$
+  bind
+  \;\colon\;
+  T D \times Map\big( D , T D'  \big)
+  \xrightarrow{
+    \big(
+      id_{T D}, T(-)
+    \big)
+  }
+  T D \times Map\big( T D , T T D' \big)
+  \xrightarrow{\;
+    ev
+  \;}
+  T T D'
+  \xrightarrow{\; \mu \;}
+  D'
+$$
+
+in the other
+
+$$
+  \mu
+  \;\colon\;
+  T T D
+  \xrightarrow{
+    \big( 
+      id_{T T D}, 
+      name(id_{T D})  
+    \big)
+  }
+  T T D \times Map( T D, T D )
+  \xrightarrow{ bind }
+  T D
+$$
 
 
 (... dually for comonads ...)
