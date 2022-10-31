@@ -186,7 +186,7 @@ General discussion/exposition of (co)monads in computer science:
 
 * {#BrookesGeva91} [[Stephen Brookes]], Shai Geva, *Computational Comonads and Intensional Semantics*, CMU-CS-91-190 (1991) &lbrack;[[BrookersGeva-ComputationalComonads.pdf:file]]&rbrack;
 
-* [[Philip Wadler]], _Monads for functional programming_ in _Lecture notes for the Marktoberdorf Summer School on Program Design Calculi_, Springer Verlag 1992
+* [[Philip Wadler]], *Monads for functional programming*, in M. Broy (eds.) *Program Design Calculi* NATO ASI Series, **118** Springer (1992) &lbrack;[doi;10.1007/978-3-662-02880-3_8](https://doi.org/10.1007/978-3-662-02880-3_8), [pdf](https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf)&rbrack;
 
 * Philip Mulry, _Monads in semantics_ , ENTCS **14** (1998) pp.275-286.
 
@@ -213,7 +213,11 @@ See also:
 
 The specification of [[monads]] in [[Haskell]] is at:
 
-* [The Haskell programming language](http://www.haskell.org/haskellwiki/Haskell), _[Monad laws](http://www.haskell.org/haskellwiki/Monad_laws)_
+* [The Haskell programming language](http://www.haskell.org/haskellwiki/Haskell), 
+
+  * *[Monad](https://wiki.haskell.org/Monad)*
+
+  * *[Monad laws](http://www.haskell.org/haskellwiki/Monad_laws)*
 
 and an exposition of [[category theory]] and monads in terms of Haskell is in 
 
