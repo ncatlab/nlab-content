@@ -1,9 +1,9 @@
 
-## 
+## Idea
 
 In [[programming language|programming]] it frequently happens that a [[program]] (say $prog_{12}$) with nominal output [[data type]] $D_2$ *de facto* outputs data of some modified type $T(D)$ due to "external effects".
 
-For example, if alongside the computation of its nominal output data $d_2 \colon D_2$ the program also writes a log message $msg$, then its actual output data is the [[pair]] $(d_2, msg)$ of [[product type]] $T(D_2) \,=\, D_2 \times String$ (where $String$ is the [[free monoid]] on the given [[alphabet]]).
+> For example, if alongside the computation of its nominal output data $d_2 \colon D_2$ the program also writes a log message $msg$, then its actual output data is the [[pair]] $(d_2, msg)$ of [[product type]] $T(D_2) \,=\, D_2 \times String$ (where $String$ is the [[free monoid]] on the given [[alphabet]]).
 
 In such a case, given a subsequent program $prog_{23}$ accepting input data of type $D_2$ and itself possibly involved in further effects of type $T(-)$, then the *na&iuml;ve* [[composition]] of the two programs makes no sense (unless $T(D) = D$ is actually the trivial sort of effect), but their evident *intended* composition is obtained by: 
 
@@ -16,434 +16,92 @@ In such a case, given a subsequent program $prog_{23}$ accepting input data of t
     "width": "700",
     "unit": "px",
     "margin": {
-        "top": -30,
+        "top": -20,
         "bottom": 20,
         "right": 0, 
         "left": 10
     }
 \end{imagefromfile}
 
+> (Beware that we are denoting by square brackets "$prog[-]$" what in [[programming languages]] like [[Haskell]] is denoted by "`(-) >>= prog`".)
+
 Here it remains to be specified how exactly $prog_{23}[-]$ "carries $T(-)$-effects along", hence what the "bind" operation really is. 
 
-For instance, in the above example where $T(D_2) = D_2 \times String$, the evident way to use the [[concatenation]] operation $String \times String \xrightarrow{ concat } String$ do this is to set
+> For instance, in the above example where $T(D_2) = D_2 \times String$, the evident way is to use the [[concatenation]] of strings $String \times String \xrightarrow{ concat } String$ and set:
 
-$$
-  prog_{23}\big[
-    -
-  \big]
-  \;\coloneqq\;
-  D_2 \times String
-  \xrightarrow{ prog_{12} \times Id_{String} }
-  D_3 \times String \times String
-  \xrightarrow{ Id_{D_3} \times concat }
-  D_3 \times String
-  \,.
-$$
+> $ prog_{23}\big[-\big]\;\coloneqq\; D_2 \times String \xrightarrow{ prog_{12} \times Id_{String} } D_3 \times String \times String \xrightarrow{ Id_{D_3} \times concat } D_3 \times String \,. $
 
-In any case, whatever choice one makes, it should be consistent in that applying the method two a [[triple]] of $T(-)$-effectful programs which are nominally composable, then the construction is [[associative]] in that
+Whatever choice one makes for how to "carry along effects", it should be consistent in that applying the method to a [[triple]] of $T(-)$-effectful programs which are nominally composable, then their effectful composition should be unambiguously defined in that it is [[associative]]:
 
-$$
+\[
+  \label{AssociativityConditionInIntroduction}
   prog_{34}\Big[
     prog_{23}\big[
       prog_{12}(-)
     \big]
   \Big]
   \;=\;
-$$
-
-\linebreak
-
-
-\begin{tikzcd}
-  D_1
-  \ar[rr, dashed, "\scalebox{.7}{first program}"]
-  &&
-  \underset{
-    \mathclap{
-      \raisebox{-3pt}{
-        \scalebox{.7}{
-          \def\arraystretch{.9}
-          \begin{tabular}{c}
-            superficially matching
-            \\
-            data type
-          \end{tabular}
-        }
-      }
-    }
-  }{
-    \underbrace{
-      D_2
-    }
-  }
-  \ar[rr, dashed, "\scalebox{.7}{second program}"]
-  &&
-  D_3
-\end{tikzcd}
-
-whose output/input [[data types]] superficially match do not actually match, due to extra *effects* caused by the programs. 
-In such a case, the *actual* data produced by the programs is a variant type, say $T D$, of the superficially expected data type $D$. 
-
-For example, besides computing data of type $D$, 
-the programs might also output a string with an execution log or an error message, in which case 
-the actual output data might be of [[product type]] $T D \,=\, D \times String$, or similar.
-
-Still, in such cases it would be understood that such a program *with side effect* could feed int a program whose specified input data type is just $D_2$ instead of $T D_2$, since the side effect should just be carried along, and be combined with whatever side effect the subsequence program(s) may cause.
-
-
-
-
-
-## Idea
-
-In [[quantum computing]] and [[quantum information theory]], the notion of *quantum random access memory* (QRAM, due to [Giovanettiy, Lloyd & Maccone 2008](#GiovanettiyLloydMaccone08)) is meant to be the [[quantum physics|quantum]]-analog of the [[classical physics|classical]] notion of [[random access memory]]; the key point being that QRAM may be addressed by *[[quantum superpositions]]* of address values and then reads/writes the corresponding [[quantum superposition]] of quantum data ([GLM08, (1)](#GiovanettiyLloydMaccone08)).
-
-The original references on QRAM are soemwhat vague on the precise intended operational definition. But recall that a classical random access memory of [[data type]] $Mem$ is modeled (in terms of [[monads in computer science]]) by the [[state monad]] induced from the *[[cartesian monoidal category|cartesian]]* [[internal hom]]-[[adjoint functor|adjunction]] 
-
-* [[product]]$\;$ $Mem \times (-) \;\;\dashv\;\; Maps(Mem, -)$ $\;$[[function set]]
-
-namely:
-
-$$
-  RAM(Mem,A)
-  \;\coloneqq\;
-  Maps
-  \big(
-    Mem
-    ,\,
-    Mem 
-    \times 
-    A
-  \big)
+  \Big(
+    prog_{34}\big[
+      prog_{23}(-)
+    \big]
+  \Big)
+  \big[
+    prog_{12}(-)
+  \big]
   \,.
-$$
-
-(Notice that in concrete applications people often insist that  $Mem =$ [[Bool]]${}^{\times^n}$, but the conceptual nature of RAM is indifferent to this choice.)
-
-Now, with classical data types (such as [[bits]]) replaced by quantum data types (such as [[qbits]]), namely by *[[linear types]]*, the analogous [[internal hom]]-[[adjoint functor|adjunction]] is 
-
-* [[tensor product]]$\;$ $ QMem \otimes (-) \;\;\dashv\;\; LinMaps(QMem, - )$ $\;$[[linear space]]-of-[[linear maps]]
-
-and the corresponding [[monad]] is
-
-$$
-  QRAM(Mem,A)
-  \;\coloneqq\;
-  LinMaps
-  \big(
-    QMem
-    ,\,
-    QMem 
-    \otimes
-    A
-  \big)
-$$
-
-and it seems clear that this does correspond to the intended behaviour of QRAM (where we are free to set $QMem \coloneqq $ [[QBit]]${}^{\otimes^n}$, if desired, which is typically the case in the literature).
-
-In particular, the intended equivalence between the "QRAM model" and the "[[quantum circuit]]-model" of [[quantum computation]] is just the [hom-isomorphsim](adjoint+functor#InTermsOfHomIsomorphism) of the linear [[internal hom]]-[[adjunction]]
-
-$$
-  \Big\{
-  In 
-  \longrightarrow
-  LinMaps
-  \big(
-    QMem
-    ,\,
-    QMem 
-    \otimes
-    Out
-  \big)
-  \Big\}
-  \;\;\;\;\;\;\;
-  \leftrightarrow
-  \;\;\;\;\;\;\;  
-  \Big\{
-  In \otimes QMem
-  \longrightarrow
-  Out \otimes QMem
-  \Big\}
-  \,.
-$$
-
-## References
-
-The terminology "quantum random access memory" is due to
-
-* {#GiovanettiyLloydMaccone08} [[Vittorio Giovannetti]], [[Seth Lloyd]], [[Lorenzo Maccone]], *Quantum random access memory*, Phys. Rev. Lett. **100** 160501 (2008) &lbrack;[doi:10.1103/PhysRevLett.100.160501](https://doi.org/10.1103/PhysRevLett.100.160501), [arXiv:0708.1879](https://arxiv.org/abs/0708.1879)&rbrack;
-
-but it could be argued (?) that the notion is implicit already in [Knill (1996)](quantum+programming+language#Knill96).
-
-Further development:
-
-* {#GiovanettiyLloydMaccone08b} [[Vittorio Giovannetti]], [[Seth Lloyd]], [[Lorenzo Maccone]], *Architectures for a quantum random access memory*, Phys. Rev. A **78** 052310 (2008) &lbrack;[doi:10.1103/PhysRevA.78.052310](https://doi.org/10.1103/PhysRevA.78.052310)&rbrack;
-
-
-
-[[MeasurementViaWriterComonad-221027.jpg:file]]
-
-[[MeasurementViaRandomMonad-221028.jpg:file]]
-
-##  Idea
-
-In [[quantum information theory]], a *controlled* [[quantum gate]] is a quantum gate whose operation on a given [[space of states]] is conditioned on the data in another space of "control states".
-
-### The conceptual problem
-
-The analogous situation for classical [[logic gates]] is without subtlety: Here the parameterization of a [[logic]] gate on $(n_{in}, n_{out})$-[[bits]] by $n_{ctrl}$ control bits is a choice of function
-
-$$
-  Bool^{n_{ctrl}}
-  \xrightarrow{\;\;\; F_{\bullet} \;\;\;}
-  Map
-  \big(
-    Bool^{n_{in}}
-    ,\,
-    Bool^{n_{out}}
-  \big)
-$$
-
-from the intended set of controls to the [[set of functions]] between the intended input/output; and by the [[internal hom]]-[[adjoint functor|adjunction]] in the [[cartesian monoidal category]] of [[Sets]]  this is in [bijective correspondence ](adjoint+functor#InTermsOfHomIsomorphism) with a single function out of the [[Cartesian product]] set of the control bits with the input bits:
-$$
-  \array{
-    Bool^{ n_{ctrl} + n_{in} }
-    &\simeq&
-    Bool^{ n_{ctrl} }
-    \times
-    Bool^{ n_{in} }
-    &\xrightarrow{\;\;\;}&
-    Bool^{ n_{out} }
-    \\
-    &&
-    ( b_{ctrl}, b_in )
-    &\mapsto&
-    F_{b_{ctrl}}\big( b_{in} \big)
-  }
-  \,.
-$$
-
-This function would/could be called the "controlled logic gate". Notice that the control bits in the above function are "discarded after use", in that they cannot in general be recovered from the output of the above function.
-
-The subtleties with generalizing this situation to [[quantum logic gates]] is:
-
-1. The control of quantum gates may be either by quantum data or by classical data, which is not quite the same.
-
-   \linebreak
-
-   (In a *quantum-controlled* quantum logic gate, the control itself may be in a [[quantum superposition]], while a *classically-controlled* quantum gate is effectively an [[indexed set]] of quantum gates, indexed by classical data.)
-
-1. A quantum-controlled quantum gate should, like any pure [[quantum logic gate]], be [[unitary]], in particular [[invertible]], hence it "must not discard" its control qbits.
-
-   \linebreak
-
-   This *rules out* the otherwise evident non-cartesian analog of the above classical situation (with the product operation replaced by the non-cartesian [[tensor product]] of [[finite dimensional vector space|finite-dimensional]] [[Hilbert spaces]], typically, and hence with the [[internal hom]] now being the corresponding linear space of linear maps)):
-
-   $$
-     \frac{
-       QBit^{n_{ctrl}}
-       \xrightarrow{\;\;\; F_\bullet \;\;\;}
-       Map
-       \big(
-         QBit^{ n }   
-         ,\,
-         QBit^{ n }   
-       \big)
-     }{
-       QBit^{n_{ctrl}}
-       \otimes
-       QBit^{n}
-       \xrightarrow{\phantom{----}}
-       QBit^{ n }
-     }
-   $$
-
-   While the linear map at the bottom always exists, it cannot be invertible (unless the control is trivial, with $n_{ctrl} = 0$, or the state space is trivial, with $n = 0$) and hence does not qualify as a [[quantum logic gate]].
-
-
-### The traditional notion
- {#IdeaTraditionalNotion}
-
-A general and precise definition of controlled quantum gates is hard to find in traditional literature.
-
-What traditional texbooks state (e.g. [Nielsen & Chuang (2000) §4.3](#NielsenChuang00)) is that for 
-$$
-  G \;\colon\; \mathscr{K} \longrightarrow \mathscr{K}
-$$ 
-a given [[quantum logic gate]], its version controlled by a single [[qbit]] is its [[direct sum]] with the [[identity map]], which may be thought of as the block-[[diagonal matrix|diagonal]]  [[matrix]]-notation with diagonal blocks being $G$ and the [[identity function]]:
-
-$$
-  \underset{
-    QBit
-  }{
-    \underbrace{
-      (\mathbb{C} \oplus \mathbb{C})
-    }
-  }
-  \otimes 
-  \mathscr{K}
-  \;\simeq\;
-  \mathscr{K} \oplus \mathscr{K}
-  \xrightarrow{
-    \;
-    id \oplus G
-    \,=\,
-    \left[
-    \begin{array}{cc}
-      id & 0
-      \\
-      0 & G
-    \end{array}
-    \right]
-    \;
-  }
-  \mathscr{K} \oplus \mathscr{K}
-  \;\simeq\;
-  \underset{
-    QBit
-  }{
-    \underbrace{
-      (\mathbb{C} \oplus \mathbb{C})
-    }
-  }
-  \otimes 
-  \mathscr{K}
-$$
-
-If we understand, as usual, that 
-
-$$
-  QBit
-  \;\;\simeq\;\;
-  \mathbb{C}\cdot \vert 0 \rangle
-  \;\oplus\;
-  \mathbb{C}\cdot \vert 1 \rangle
-$$
-
-then this gives a (invertible!) quantum gate on the tensor product space $QBit \otimes \mathscr{K}$, with the property that
-
-1. $\vert 0 \rangle \,\otimes\, \vert \psi \rangle \;\;\mapsto\;\; \vert 0 \rangle \,\otimes\, \phantom{G}\vert \psi \rangle$
-
-1. $\vert 1 \rangle \,\otimes\, \vert \psi \rangle \;\;\mapsto\;\; \vert 0 \rangle \,\otimes\, G\vert \psi \rangle$
-
-In words: "*If the control Qbit is definitely set, then we operate with the $G$, if it is definitely not set then we operate trivially, and in general we operate with the respective superposition of these two actions.*"
-
-A basic example of this construction is the [[controlled quantum NOT gate]].
-
-### A formal definition
-
-Given a ([[finite set|finite]]) [[set]] $B$ of "control parameter values" (typically $B =$ [[Bool]] = $\{0, 1\}$), a $B$-[[indexed set]] of [[quantum logic gates]] is a [[morphism]]
-
-$$
-  \begin{array}{rccc}
-    &
-    \mathscr{H}_\bullet
-    &
-    \xrightarrow{\;\;\; G_\bullet \;\;\;}
-    &
-    \mathscr{H}_\bullet
-    \\
-    b \colon B \;\; \vdash \;
-    &
-    \mathscr{H}_b
-    &
-    \xrightarrow{\;\;\; G_b \;\;\;}
-    &
-    \mathscr{H}_b
-  \end{array}
-$$
-
-in a [[category]] $LinType_B$ of $B$-[[dependent linear types]] (typically: [[complex vector bundles]] over $B$), which is [[fiber]]-wise a [[linear map]] $G_b$ with given desired properties ([[invertible]], [[unitary]], ...).
-
-As such, we may call this the **classically controlled quantum gate**, whose classical control parameter is $b \in B$ and whose quantum gate action for a given such parameter is $G_b$.
-
-Typically the state spaces $\mathscr{H}_\bullet$ are independent of $b \colon B$, say equal to some $\mathscr{K},$ and only the quantum gates operating on a fixed state space $\mathscr{H}$ varies with the control parameter.
-
-In this case, if we denote by
-
-$$
-  \mathscr{B}_\bullet
-  \;\coloneqq\;
-  (p_B)^\ast \mathbb{1}
-  \,,\;\;\;
-  \mathscr{B} 
-  \;\coloneqq\;
-  \Box_B \mathscr{B}_\bullet
-$$
-
-the quantum state space(s) of the control parameter,
-then a classically $B$-controlled quantum gate is equivalently a morphism in $LinType_B$ between the [[external tensor products]] of $\mathscr{B}_\bullet$ with $\mathscr{K}$: 
-
-$$
-  \array{
-    &
-    \mathscr{B}_\bullet 
-    \boxtimes
-    \mathscr{K}
-    &
-    \xrightarrow{\phantom{----}}
-    &
-    \mathscr{B}_\bullet 
-    \boxtimes
-    \mathscr{K}
-    \\
-    b \colon B \;\; \vdash
-    &
-    \mathscr{K}
-    &
-    \xrightarrow{\phantom{--}G_b\phantom{--}}
-    &
-    \mathscr{K}
-  }
-$$
-
-On the other hand, the corresponding **quantumly-controlled** quantum gate is the image of this under the [[necessity]]-[[comonad]] (in terms of *quantum modal logic*, see [here](necessity+and+possibility#ModalQuantumLogic)), hence under [[direct sum]]:
-
-\[
-  \label{QuantumlyControlledQuantumGate}
-  \Box_B G_\bullet 
-  \;\colon\;
-  \Box_B \mathscr{H}_\bullet
-  \;\simeq\;
-  \underset{b \colon B}{\bigoplus}
-  \mathscr{H}_b
-  \xrightarrow{
-    \;\;\;   
-    \underset{b \colon B}{\oplus}
-    G_b
-    \;\;\;
-  }
-  \underset{b \colon B}{\bigoplus}
-  \mathscr{H}_b
-  \;\simeq\;
-  \Box_B \mathscr{H}_\bullet
 \]
 
-\begin{imagefromfile}
-    "file_name": "ParameterizedQuantumGates-221027.jpg",
-    "width": "750",
-    "unit": "px",
-    "margin": {
-        "top": -30,
-        "bottom": 20,
-        "right": 0, 
-        "left": 10
-    }
-\end{imagefromfile}
+Finally, for such a notion of effectful programs to be usefully connected to "pure" programs without effects,  it ought to be the case that for any program $prog \,\colon\, D_0 \xrightarrow{\;} D_1$ that happens to have no $T(-)$-effects, there is a specification for how to regard it as a  $T(-)$-effectful program in a trivial way. For that purpose there should be defined an operation
 
+$$
+  ret_{D_1} \;\colon\; D_1 \xrightarrow{\;}  T(D_1)
+$$
 
-## Examples
+which does nothing but "return" data of type $D_1$, but re-regarded as effectful $T(D_1)$-data in a trivial way; so that we may construct the trivially effectful program $ret_{D_1}\big(prog_{01}(-)\big) \;\colon\; D_0 \xrightarrow{\;} T(D_1)$.
 
-* [[controlled NOT gate]] 
+> For instance, in the above example of log-message effects this would be the operation $D \to D \times String$ which assigns the emtpty string $d \mapsto (d, \varnothing)$.
 
-## Properties
+The final consistency condition then is that "carrying along trivial effects is indeed trivial", i.e. that 
 
-* The *[[deferred measurement principle]]* interchanges classically-controlled with quantumly-controlled quantum gates.
+\[
+  \label{UnitalityInIntroduction}
+  prog_{01}
+  \big[
+    ret_{D_0}(-)
+  \big]
+  \;=\;
+  prog_{01}
+  \;\;\;\;\;\;\;\;\;
+  \text{and}
+  \;\;\;\;\;\;\;\;\;
+  ret_{D_1}\big[
+    prog_{01}(-)
+  \big]
+  \;=\;
+  prog_{01}
+  \,.
+\]
 
-## References
+Notice that the [[associativity]] condition (eq:AssociativityConditionInIntroduction) and the [[unitality]] condition (eq:UnitalityInIntroduction) jointly say that [[data types]] with $T(-)$-effectful programs between them, in the above sense, form a *[[category]]*. In [[category theory]] this is known as the *[[Kleisli category]]* of a *[[monad]]* $T$.
 
-Traditional textbook accounts:
+In summary, a choice of assignments
 
-* {#NielsenChuang00} [[Michael A. Nielsen]], [[Isaac L. Chuang]], §4.3 *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
+1. $D \;\mapsto\; T(D)$ $\;\;$ (type of effectful data of nominal type $D$)
+
+1. $D \;\mapsto\; ret_D$ $\;\;$ (regard $D$-data as trivially effectful)
+
+1. $prog \;\mapsto\; prog[-]$ $\;\;$ (execute $prog$ while carrying along any previous $T(-)$-effects)
+
+subject to 
+
+1. the [[associativity]] condition (eq:AssociativityConditionInIntroduction) 
+
+1. the [[unitality]] condition (eq:UnitalityInIntroduction) 
+
+is called a *[[monad in computer science]]* and serves to encode the notion that all programs may be subject to certain *external effects*.
+
+(... dually for comonads ...)
+
 
 
