@@ -110,11 +110,11 @@ Notice that the [[associativity]] condition (eq:AssociativityConditionInIntroduc
 
 In summary, a choice of assignments
 
-1. $D \;\mapsto\; T(D)$  $\;$---$\;$ types of effectful data of nominal type $D$ (eq:MonadMapInIntroduction)
+1. $D \;\mapsto\; T(D)$  $\;$---$\;$ of types of effectful data of nominal type $D$ (eq:MonadMapInIntroduction),
 
-1. $D \;\mapsto\; ret_D$ $\;$---$\;$ regarding plain $D$-data as trivially effectful (eq:ReturnMapInIntroduction)
+1. $D \;\mapsto\; ret_D$ $\;$---$\;$ regarding plain $D$-data as trivially effectful (eq:ReturnMapInIntroduction),
 
-1. $prog \;\mapsto\; prog[-]$ $\;$---$\;$ executing $prog$ while carrying along any previous $T(-)$-effects (eq:BindingLawInIntroduction)
+1. $prog \;\mapsto\; prog[-]$ $\;$---$\;$ specifying how to execute a given $prog$ while carrying along any previous $T(-)$-effects (eq:BindingLawInIntroduction)
 
 subject to 
 
