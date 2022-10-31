@@ -20,7 +20,7 @@
 
 ## Idea
 
-*Kenzo* is a [[computer program|software]] for computations in [[constructive mathematics]] [[algebraic topology]] ([[computational topology]]).
+*Kenzo* is a [[computer program|software]] for computations in [[constructive mathematics|constructive]] [[algebraic topology]] ([[computational topology]]).
 
 ## Related entries
 
@@ -40,5 +40,11 @@ Based on :
 Exposition:
 
 * [[Julio Rubio]], *Formalization of Mathematics: why Algebraic Topology?*, MAP Spring School 2012 &lbrack;[pdf](http://www-sop.inria.fr/manifestations/MapSpringSchool/contents/JulioRubio.pdf)&rbrack;
+
+A rewrite of Kenzo in [[Haskell]]:
+
+* [[Mitchell Riley]]: [github.com/mvr/at](https://github.com/mvr/at)
+
+
 
 category: reference
