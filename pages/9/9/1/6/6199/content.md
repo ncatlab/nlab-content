@@ -27,6 +27,8 @@ Most often one looks at dynamical systems in which $M$ is a [[smooth manifold]].
 
 ## Related concepts
 
+* [[categorical systems theory]]
+
 * [[zeta function of a dynamical system]]
 
 * [[arithmetic topology]]
@@ -47,14 +49,29 @@ See also
 
 * Wikipedia [dynamical system](http://en.wikipedia.org/wiki/Dynamical_system), [autonomous system](http://en.wikipedia.org/wiki/Autonomous_system_%28mathematics%29)
 
-### Categorical formulation
+### Category-theoretic formulations
 
-Discussion in terms of [[category theory]]:
+Discussion of dynamical systems in terms of [[category theory]] (see also at *[[categorical systems theory]]*):
 
 * [[William Lawvere]], [_Functorial Remarks on the General Concept of Chaos_](http://www.ima.umn.edu/preprints/Functional-Remarks-General-Concept-Chaos), IMA reprint 87, 1984 ([pdf](http://www.ima.umn.edu/sites/default/files/87s.pdf))
 
-* George Dimitrov, Fabian Haiden, [[Ludmil Katzarkov]], [[Maxim Kontsevich]], _Dynamical systems and categories_, [arxiv/1307.8418](http://arxiv.org/abs/1307.8418)
+* George Dimitrov, Fabian Haiden, [[Ludmil Katzarkov]], [[Maxim Kontsevich]], _Dynamical systems and categories_, &lbrack;[arxiv/1307.8418](http://arxiv.org/abs/1307.8418)&rbrack;
 
-* [[Patrick Schultz]], [[David I. Spivak]], and [[Christina Vasilakopoulou]], _Dynamical Systems and Sheaves_. To appear in Applied Categorical Structures (2019). ([ACS](https://link.springer.com/article/10.1007/s10485-019-09565-x))
+* [[Patrick Schultz]], [[David I. Spivak]], [[Christina Vasilakopoulou]], *Dynamical Systems and Sheaves*, Appl Categor Struct **28** (2020) 1–57 &lbrack;[arXiv:1609.08086](https://arxiv.org/abs/1609.08086), [doi:10.1007/s10485-019-09565-x](https://doi.org/10.1007/s10485-019-09565-x)&rbrack;
+
+* [[David Jaz Myers]], *Double Categories of Open Dynamical Systems*, EPTCS **333** (2021) 154-167 &lbrack;[arXiv:2005.05956](https://arxiv.org/abs/2005.05956), [doi:10.4204/EPTCS.333.11](https://doi.org/10.4204/EPTCS.333.11)&rbrack;
+
+
+Monograph:
+
+* {#Myers} [[David Jaz Myers]], *Categorical systems theory*, book project &lbrack;[github](https://github.com/DavidJaz/DynamicalSystemsBook/tree/master/book), [pdf](http://davidjaz.com/Papers/DynamicalBook.pdf)&rbrack;
+
+Exposition:
+
+* [[David Jaz Myers]], *[Categorical systems theory](https://topos.site/blog/2021/11/categorical-systems-theory/)*, [Topos Institute Blog](https://topos.site/blog/) (Nov 2021)
+
+* [[David Jaz Myers]], *Double Categories of Dynamical Systems* (2020) &lbrack;[pdf](http://davidjaz.com/Talks/DJM_Dyn2020.pdf)&rbrack;
+
+
 
 [[!redirects dynamical systems]]
