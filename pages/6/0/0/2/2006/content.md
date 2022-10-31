@@ -213,14 +213,18 @@ Discussion of combined "double" or "two-sided" Kleisli categories, combining the
 
 and generalization to [[2-monads]]:
 
-* {#Garner08} [[Richard Garner]], pp. 11 of: *Polycategories via pseudo-distributive laws*, Advances in Mathematics **218** 3 (2008) 781-827 &lbrack;[arXiv:0606735](https://arxiv.org/abs/math/0606735), [doi:10.1016/j.aim.2008.02.001](https://doi.org/10.1016/j.aim.2008.02.001)
-&rbrack;
-
+* {#Garner08} [[Richard Garner]], pp. 11 of: *Polycategories via pseudo-distributive laws*, Advances in Mathematics **218** 3 (2008) 781-827 &lbrack;[arXiv:0606735](https://arxiv.org/abs/math/0606735), [doi:10.1016/j.aim.2008.02.001](https://doi.org/10.1016/j.aim.2008.02.001)&rbrack;
 
 
 Discussion in [[internal category]] theory:
 
 * Tomasz Brzezi&#324;ski, Adrian Vazquez-Marquez, _Internal Kleisli categories_, Journal of Pure and Applied Algebra **215** 9 (2011) 213-147 &lbrack;[arXiv:0911.4048](http://arxiv.org/abs/0911.4048)&rbrack;
+
+Discussion in a context of [[categorical systems theory]]:
+
+
+* {#MyersBook} [[David Jaz Myers]], §2.3 of: *Categorical systems theory*, book project &lbrack;[github](https://github.com/DavidJaz/DynamicalSystemsBook/tree/master/book), [pdf](http://davidjaz.com/Papers/DynamicalBook.pdf)&rbrack;
+
 
 Discussion of Kleisli categories in [[type theory]] is in 
 
