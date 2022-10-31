@@ -13,7 +13,7 @@ There are, in general, two different approaches to lenses:
 
 * Lawless lenses, and in particular bi-directional or polymorphic lenses, separate the two directions of view and update so that the laws no longer type-check. These lawless lenses are used to organize bi-directional flow of data, and are generalized into [[optics (in computer science)|optics]] in the [[functional programming]] literature. 
 
-An alternate generalization of lawless lenses is put forward in [Spivak 19](#Spivak19) as the Grothendieck construction of the fiberwise dual of an indexed category. This notion of lawless lens has been adopted in the context of categorical systems theory because they represent a *bidirectional stateful computation* which describes the way some systems expose and update their internal state. For instance, see ([Myers](#Myers)), ([Spivak-Niu](#SpivakPoly)), or ([Hedges 21](#Hedges21)).
+An alternate generalization of lawless lenses is put forward in [Spivak 19](#Spivak19) as the Grothendieck construction of the fiberwise dual of an indexed category. This notion of lawless lens has been adopted in the context of [[categorical systems theory]] because they represent a *bidirectional stateful computation* which describes the way some systems expose and update their internal state. For instance, see [Myers](#Myers), [Spivak & Niu](#SpivakPoly) or [Hedges (2021)](#Hedges21).
 
 In this sense, lawless lenses are applications of two mathematical frameworks which are interesting in their own right: [[fibration|fibrations]] and [[optics (in computer science)|optics]] (thus [[Tambara module|Tambara modules]]).
 
@@ -175,9 +175,9 @@ $\varphi(s, u) : s \to p(s, u)$ in $S$ where $p(s, u) = cod(\varphi(a, u))$ is t
 
 * {#SpivakACT19} [[David Spivak]], _Lenses:  applications and generalizations_, talk at [ACT 19](http://www.cs.ox.ac.uk/ACT2019/) ([slides](http://math.ucr.edu/home/baez/ACTUCR2019/ACTUCR2019_spivak.pdf), [[Spivak_Lenses.pdf:file]]) 
 
-* {#Myers} [[David Jaz Myers]], _Categorical systems theory_, [github](https://github.com/DavidJaz/DynamicalSystemsBook/tree/master/book)
+* {#Myers} [[David Jaz Myers]], *Categorical systems theory*, &lbrack;[github](https://github.com/DavidJaz/DynamicalSystemsBook/tree/master/book), [pdf](http://davidjaz.com/Papers/DynamicalBook.pdf)&rbrack;
 
-* {#SpivakPoly} [[David Spivak]], [[Nelson Niu]], _Polynomial Functors: A General Theory of Interaction_, [Current Draft](https://topos.site/poly-book.pdf)
+* {#SpivakPoly} [[David Spivak]], [[Nelson Niu]], _Polynomial Functors: A General Theory of Interaction_ &lbrack;[webpage](https://topos.site/poly-course/), [pdf](https://topos.site/poly-book.pdf)&rbrack;
 
 * {#Hedges21} [[Jules Hedges]], _Lenses as a foundation for cybernetics_, CyberCat seminar, [youtube](https://www.youtube.com/watch?v=WkZPH3Vb5ug&t=1927s)
 
