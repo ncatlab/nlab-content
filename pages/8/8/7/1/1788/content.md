@@ -1,7 +1,58 @@
 
 ## 
 
-In [[programming language|programming]] it frequently happens that a sequence of [[programs]] 
+In [[programming language|programming]] it frequently happens that a [[program]] (say $prog_{12}$) with nominal output [[data type]] $D_2$ *de facto* outputs data of some modified type $T(D)$ due to "external effects".
+
+For example, if alongside the computation of its nominal output data $d_2 \colon D_2$ the program also writes a log message $msg$, then its actual output data is the [[pair]] $(d_2, msg)$ of [[product type]] $T(D_2) \,=\, D_2 \times String$ (where $String$ is the [[free monoid]] on the given [[alphabet]]).
+
+In such a case, given a subsequent program $prog_{23}$ accepting input data of type $D_2$ and itself possibly involved in further effects of type $T(-)$, then the *na&iuml;ve* [[composition]] of the two programs makes no sense (unless $T(D) = D$ is actually the trivial sort of effect), but their evident *intended* composition is obtained by: 
+
+1. first adjusting $prog_{23}$ to an adapted variant $prog_{23}[-]$ which does accept data of type $T(D_2)$ and which "acts as $prog_{12}$ while carrying any previous $T(-)$-effects along";
+
+1. then forming the naive [[composition]] $prog_{23}\big[prog_{12}(-)\big]$:
+
+\begin{imagefromfile}
+    "file_name": "KleisliCompositionOfEffectfulPrograms-221031.jpg",
+    "width": "700",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Here it remains to be specified how exactly $prog_{23}[-]$ "carries $T(-)$-effects along", hence what the "bind" operation really is. 
+
+For instance, in the above example where $T(D_2) = D_2 \times String$, the evident way to use the [[concatenation]] operation $String \times String \xrightarrow{ concat } String$ do this is to set
+
+$$
+  prog_{23}\big[
+    -
+  \big]
+  \;\coloneqq\;
+  D_2 \times String
+  \xrightarrow{ prog_{12} \times Id_{String} }
+  D_3 \times String \times String
+  \xrightarrow{ Id_{D_3} \times concat }
+  D_3 \times String
+  \,.
+$$
+
+In any case, whatever choice one makes, it should be consistent in that applying the method two a [[triple]] of $T(-)$-effectful programs which are nominally composable, then the construction is [[associative]] in that
+
+$$
+  prog_{34}\Big[
+    prog_{23}\big[
+      prog_{12}(-)
+    \big]
+  \Big]
+  \;=\;
+$$
+
+\linebreak
+
 
 \begin{tikzcd}
   D_1
