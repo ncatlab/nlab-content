@@ -76,7 +76,7 @@ $$
 
 of [[context extension]] followed by [[dependent sum]], followed by [[context extension]], followed by [[dependent product]].
 
-Here $\prod_W W^\ast = [W,-]$ is called the _[[function monad]]_ or _[[reader monad]]_ and $\sum_W W^\ast = W \times (-)$ is the _[[writer comonad]]_.
+Here $\prod_W W^\ast = [W,-]$ is called the _[[function monad]]_ or _[[reader monad]]_ and $\sum_W W^\ast = W \times (-)$ is the _[[coreader comonad]]_.
 
 
 ## Related concepts
@@ -86,6 +86,10 @@ Here $\prod_W W^\ast = [W,-]$ is called the _[[function monad]]_ or _[[reader mo
 * [[continuation monad]]
 
 * [[function monad]] (reader monad)
+
+* [[coreader comonad]]
+
+* [[writer monad]]
 
 * [[QRAM]]
 
