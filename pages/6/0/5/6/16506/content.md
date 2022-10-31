@@ -37,14 +37,14 @@ In the context of [[monads in computer science]] this monad is called the _reade
 
 The reader monad does not generally arise from a [[monadic adjunction]]. [[algebra over a monad|Algebras]] may not be easily characterizable. When $W$ is a 2 element set, algebras correspond to [[idempotent]] [[semigroups]], also known as _[[rectangular band|rectangular bands]]_.
 
-### Relation to the writer comonad and state monad
+### Relation to the coreader comonad and state monad
 
 In a [[cartesian closed category]]/[[type theory]] $\mathcal{C}$,
-the reader monad $[W,-] \colon \mathcal{C}\to \mathcal{C}$ is [[right adjoint]] to the [[writer comonad]] $W\times (-)$.
+the reader monad $[W,-] \colon \mathcal{C}\to \mathcal{C}$ is [[right adjoint]] to the [[coreader comonad]] $W\times (-)$.
 
 Just as the writer comonad is canonically a monad when $W$ is a [[monoid]], so the reader monad is a comonad in that case, and then it is sometimes called the "traced comonad".
 
-The composite of writer comonad followed by [[reader monad]] is the [[state monad]].
+The composite of ppcoreader comonad]] followed by [[reader monad]] is the [[state monad]].
 
 ### In terms of dependent type theory
  {#InTermsOfDependentTypeTheory}
@@ -96,7 +96,9 @@ In [[Haskell]], the traditional way to model that a program may depend on random
 
 * [[continuation monad]]
 
-* [[writer comonad]], [[state monad]]
+* [[coreader comonad]], [[state monad]]
+
+* [[writer comonad]]
 
 ## References
 
