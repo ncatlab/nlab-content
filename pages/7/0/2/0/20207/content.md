@@ -5,7 +5,16 @@ David Jaz Myers is graduating at Johns Hopkins, now transitioning to [[CQTS]].
 
 * [Johns Hopkins webpage](https://mathematics.jhu.edu/directory/david-myers/)
 
+
 ## Selected writings
+
+On a [[string diagram]]-calculus for ([[virtual double category|virtual]]) [[double categories]] with ([[virtual equipment|virtual]]) [[2-category equipped with proarrows|pro-arrow equipments]]:
+
+* {#Myers16} [[David Jaz Myers]], _String Diagrams For Double Categories and (Virtual) Equipments_ &lbrack;[arXiv:1612.02762](https://arxiv.org/abs/1612.02762)&rbrack;
+
+* [[David Jaz Myers]], *String Diagrams for (Virtual) Proarrow Equipments* (2017) &lbrack;slides: [pdf](http://www.mat.uc.pt/~ct2017/slides/myers_d.pdf), [[Myers-StringDiagrams2017.pdf:file]]&rbrack;
+
+
 
 On [[logical topology]] in the context of [[cohesive toposes]], [[modal type theory]] and [[cohesive homotopy type theory]]:
 
