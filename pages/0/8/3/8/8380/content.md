@@ -178,9 +178,13 @@ On the impact of Moggi's work and making a case for [[Lawvere theory|Lawvere the
 
 * {#HylandPower07} [[Martin Hyland]], [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_, Electronic Notes in Theoretical Computer Science (ENTCS) archive Volume 172, April, 2007 Pages 437-458  ([pdf](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf))
 
-Effects treated this way are known as [[algebraic effects]].
+Textbook accounts:
 
-General discussion/exposition of (co)monads in computer science:
+* [[Bartosz Milewski]] (compiled by Igal Tabachnik), "Monads: Programmer's Definition", §20 in: *Category Theory for Programmers*, Blurb (2019) &lbrack;[pdf](file:///C:/Users/us13/Downloads/category-theory-for-programmers.pdf), [github](https://github.com/hmemcpy/milewski-ctfp-pdf), [webpage](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/), [ISBN:9780464243878](https://www.blurb.com/b/9621951-category-theory-for-programmers-new-edition-hardco)&rbrack;
+
+
+
+Further discussion/exposition of (co)monads in computer science:
  
 * [[Philip Wadler]], _Comprehending Monads_, in _Conference on Lisp and functional programming_, ACM Press, 1990 ([[WadlerMonads.pdf:file]])
 
@@ -203,7 +207,7 @@ General discussion/exposition of (co)monads in computer science:
 * Rob Norris, *Functional Programming with Effects*, talk at 
 *Scala Days 2018* &lbrack;video: [YT](https://youtu.be/30q6BkBv5MY)&rbrack;
 
-
+* Christina Kohl, Christina Schwaiger, *Monads in Computer Science* (2021) &lbrack;[pdf](https://www.uibk.ac.at/mathematik/algebra/staff/fritz-tobias/ct2021_course_projects/category_theory.pdf), [[KohlSchwaiger-Monads.pdf:file]]&rbrack;
 
 See also:
 
