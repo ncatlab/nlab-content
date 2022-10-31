@@ -25,8 +25,10 @@ On [[database theory]]:
 
 * [[Vasilis Spiropoulos]] and [[Christina Vasilakopoulou]], _Digree: A Middleware for a Graph Databases Polystore_. 2016 IEEE International Conference on Big Data (Big Data)
 
-On [[dynamical systems]]:
+On [[dynamical systems]] and their [[categorical systems theory]]:
 
-* [[Patrick Schultz]], [[David I. Spivak]], and [[Christina Vasilakopoulou]], _Dynamical Systems and Sheaves_. To appear in Applied Categorical Structures (2019). ([ACS](https://link.springer.com/article/10.1007/s10485-019-09565-x))
+On [[categorical systems theory]]:
+
+* [[Patrick Schultz]], [[David I. Spivak]], [[Christina Vasilakopoulou]], *Dynamical Systems and Sheaves*, Appl Categor Struct **28** (2020) 1–57 &lbrack;[arXiv:1609.08086](https://arxiv.org/abs/1609.08086), [doi:10.1007/s10485-019-09565-x](https://doi.org/10.1007/s10485-019-09565-x)&rbrack;
 
 category: people
