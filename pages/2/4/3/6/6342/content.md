@@ -52,7 +52,9 @@ For scholarship on Weyl's work on group theory and quantum mechanics, see
 
 * Christophe Eckes, _Weyl and the mathematisation of Quantum Mechanics individual and collective perspectives_, ([slides](http://math.univ-lyon1.fr/~eckes/Novembertagung%20vf.pdf)).
 
-* {#JS75} John Slater, 1975, _Solid-State and Molecular Theory: A Scientific Biography_, Wiley.
+* {#JS75} [[John Slater]], *Solid-State and Molecular Theory: A Scientific Biography*, Wiley (1975) &lbrack;[archive](https://archive.org/details/solidstatemolecu00slat/)&rbrack;
+
+  > (in the context of [[solid state physics]] and [[molecule|molecular]] theory)
 
 
 
