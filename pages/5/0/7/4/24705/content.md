@@ -197,7 +197,7 @@ In this classical situation, the ([[comonad|co]]-)[[monad]] [[adjoint pair]] $\l
 In fact there is (see [here](necessity+and+possibility#RelationToPotentiality)) a quadruple of ([[comonad|co-]])[[monad|monadic]] [[modalities]] associated with any [[base change]]:
 
 <center>
-<img src="/nlab/files/TheFourModalitiesOfBaseChange-221101.jpg" width="370">
+<img src="/nlab/files/TheFourModalitiesOfBaseChange-221101b.jpg" width="370">
 </center>
 
 Here 
