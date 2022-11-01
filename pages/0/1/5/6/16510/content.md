@@ -88,8 +88,9 @@ $$
 
 Eg.
 
-* {#AhmanUustalu19} Danel Ahman, Tarmo Uustalu, p. 3 of: *Decomposing Comonad Morphisms*, CALCO 2019, Leibniz International Proceedings in Informatics (LIPIcs) **139** (2019) &lbrack;[doi:10.4230/LIPIcs.CALCO.2019.14](https://doi.org/10.4230/LIPIcs.CALCO.2019.14)&rbrack;
+* {#AhmanUustalu19} [[Danel Ahman]], [[Tarmo Uustalu]], p. 3 of: *Decomposing Comonad Morphisms*, CALCO 2019, Leibniz International Proceedings in Informatics (LIPIcs) **139** (2019) &lbrack;[doi:10.4230/LIPIcs.CALCO.2019.14](https://doi.org/10.4230/LIPIcs.CALCO.2019.14)&rbrack;
 
+* [[Tarmo Uustalu]], p. 13 of: *Monads and Interaction Lecture 3*, lecure notes for [MGS 2021](https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html) (2021) &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs3.pdf), [[Uustalu-Monads3.pdf:file]]&rbrack;
 
 In [[Haskell]]:
 
