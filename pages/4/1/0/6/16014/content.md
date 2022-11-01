@@ -395,7 +395,7 @@ $$
   \,.
 $$
 
-The intended [[categorical semantics]] is obtained by [[relation between type theory and category theory|interpreting]] $\mathscr{H}_\bullet$ as a $B$-[[indexed set]] of [[complex vector spaces]] (or rather: [[Hermitian inner product spaces]]) which the reader may want to think of as being [[finite dimensional vector space|finite dimensional]] ([hence](Hilbert space#FiniteDimensionalInnerProductSpaces): as [[Hilbert spaces]] if positive definite), though this finite-dimensionality condition of $\mathscr{H}_b$ is not used in the following (as opposed to the finiteness condition on $B$, which is used).
+The intended [[categorical semantics]] is obtained by [[relation between type theory and category theory|interpreting]] $\mathscr{H}_\bullet$ as a $B$-[[indexed set]] of [[complex vector spaces]] (or rather: [[Hermitian inner product spaces]]) which the reader may want to think of as being [[finite dimensional vector space|finite dimensional]] ([hence](Hilbert+space#FiniteDimensionalInnerProductSpaces): as [[Hilbert spaces]] if positive definite), though this finite-dimensionality condition of $\mathscr{H}_b$ is not used in the following (as opposed to the finiteness condition on $B$, which is used).
 
 We assume that our [[dependent linear type theory]] realizes [[base change]] of linear types along maps of non-linear base types in the form of [[Wirthmüller context|Wirthmüller]]-type [[yoga of six operations]]:
 
