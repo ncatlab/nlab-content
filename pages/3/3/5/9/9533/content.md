@@ -11,7 +11,9 @@ Introducing the [[Schwinger effect]] of [[vacuum polarization]]:
 
 * {#HeisenbergEuler36} [[Werner Heisenberg]], [[Hans Euler]],  _Folgerungen aus der Diracschen Theorie des Positrons_, Z. Physik 98, 714–732 (1936) ([doi:10.1007/BF01343663](https://doi.org/10.1007/BF01343663))
 
+On [[quantum physics]] and the *[[potentiality]]* of [[quantum states]]:
 
+* {#Heisenberg1958} [[Werner Heisenberg]], *Physics and Philosophy -- The Revolution in Modern Science*, Harper & Brothers (1958) &lbrack;[archive](https://archive.org/details/physics-and-philosophy-the-revolution-in-modern-scirnce-werner-heisenberg-f.-s.-c.-northrop)&rbrack;
 
 category: people
 
