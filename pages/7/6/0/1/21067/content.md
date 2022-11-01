@@ -15,7 +15,7 @@
 
 ## Idea
 
-There are different, related ways in which one could view the notion of algebra over a [[monad]]. 
+There are different, related ways in which one could view the notion of *algebra over a [[monad]]*: 
 
 * If one views monads as a generalization of [[algebraic theories]] (see [[algebraic theory#RelationToMonads|algebraic theory -  relation to monads]]), an algebra over a monad is the corresponding generalization of an [[algebra over a Lawvere theory|algebra over a theory]]. In particular, if one views a monad as a way of prescribing particular [[operations]], an algebra is a context where those specified formal expressions can be evaluated to an actual result.
 * From the 2-dimensional point of view, an algebra over a monad is a special case of a [[module over a monad]] for the bicategory [[Cat]], where the arrow is from the [[terminal category]].
@@ -23,32 +23,89 @@ There are different, related ways in which one could view the notion of algebra 
 
 Algebras over a monad are usually objects equipped with extra [[structure]], not just [[properties]]. (They can also be seen as [[algebra over an endofunctor|algebras over the underlying endofunctor]], satisfying extra compatibility [[properties]].)
 
+The corresponding [[formal duality|dual]] notion is that of *[[coalgebra over a comonad]]*.
+
+
+
 ## Definition
+ {#Definition}
 
-Let $(T,\eta, \mu)$ be a [[monad]] on a [[category]] $C$.
-An **algebra over $T$**, or **$T$-algebra**, consists of an object $A$ of $C$ together with a morphism $a:TA\to A$ of $C$, such that the following diagrams commute.
+Let $(T,\eta, \mu)$ be a [[monad]] on a [[category]] $\mathcal{C}$.
 
+### Algebras
+ {#Algebras}
+
+\begin{definition}
+An **algebra over $T$** (or just **$T$-algebra** or **$T$-module**) consists of:
+
+1. an [[object]] $A$ of $\mathcal{C}$,
+
+1. a [[morphism]] $a \colon T (A) \longrightarrow A$ of $\mathcal{C}$, 
+
+such that the following [[commuting diagram|diagrams commute]] in $\mathcal{C}$ (cf. the definition of *[[module object]]* [here](module+object#MonoidsInMonoidalCategory)):
+
+\[
+  \label{UnitProperty}
+  \text{Unit Property:}
+\]
 \begin{tikzcd}
-A\ar{r}{\eta} \ar[swap]{dr}{\mathrm{id}} & TA \ar{d}{a} & & TTA \ar{r}{Ta} \ar{d}{\mu} & TA \ar{d}{a} \\ 
-& A & & TA \ar{r}{a} & A
-\end{tikzcd} 
-
-The diagram on the left is sometimes called the _unit triangle_, and the diagram on the right the _multiplication square_ or _algebra square_. 
-
-The corresponding [[dual]] notion is that of a [[coalgebra over a comonad]].
-
-In the case of a commutative monad, one can define a [tensor product of algebras](https://ncatlab.org/nlab/show/tensor+product+of+algebras+over+a+commutative+monad).
-
-### Morphisms of algebras
-
-Let $(A,a)$ and $(B,b)$ be $T$-algebra. A **morphism of $T$-algebras** is a morphism $f:A\to B$ of $C$ which makes the following diagram commute.
-
-\begin{tikzcd}
-TA \ar{r}{Tf} \ar{d}{a} & TB \ar{d}{b} \\
-A \ar{r}{f} & B
+  A 
+  \ar{r}{\eta} 
+  \ar[swap]{dr}{\mathrm{id}} 
+  & 
+  T(A) 
+  \ar{d}{a} 
+  \\
+  & 
+  A 
 \end{tikzcd}
 
-The category of $T$-algebras and their morphisms is called the **[[Eilenberg-Moore category]]** and denoted by $C^T$.
+\linebreak
+
+\[
+  \label{ActionProperty}
+  \text{Action Property:}
+\]
+\begin{tikzcd}
+  T\big(T(A)\big) 
+  \ar{r}{T(a)} 
+  \ar{d}{\mu} 
+  & 
+  TA 
+  \ar{d}{a} 
+  \\ 
+  TA 
+  \ar{r}{a} 
+  & 
+  A
+\end{tikzcd} 
+
+\end{definition}
+
+\begin{remark}
+The diagram (eq:UnitProperty) is also sometimes called the _unit triangle_, and the diagram (eq:ActionProperty) is also called the _multiplication square_ or _algebra square_. 
+\end{remark}
+
+
+### Homomorphisms
+
+Let $(A,a)$ and $(B,b)$ be $T$-algebra. A **[[homomorphism]] of $T$-algebras** is a [[morphism]] $f \colon A \to B$ of $\mathcal{C}$ which makes the following [[commuting diagram|diagram commute]].
+
+\begin{tikzcd}
+  TA 
+  \ar{r}{Tf} 
+  \ar{d}{a} 
+  & 
+  TB 
+  \ar{d}{b} 
+  \\
+  A 
+  \ar{r}{f} 
+  & 
+  B
+\end{tikzcd}
+
+The [[category]] formed by $T$-algebras and their homomorphisms is known as the **[[Eilenberg-Moore category]]** of $T$ and often denoted by $\mathcal{C}^T$.
 
 
 ### Free algebras
@@ -96,13 +153,18 @@ $$
 
 The [[category]] of [[Kleisli morphisms]] equipped with this [[Kleisli composition]] is called the *[[Kleisli category]]* and is [[equivalence of categories|eqivalent]] to the [[full subcategory]] of $T$-algebras on the free $T$-algebras (see [there](Kleisli+category#InTermsOfKleisliMorphisms) for more).
 
+### Tensor product
+
+In the case of a [[commutative monad]] $T$ , one can define a [[tensor product of algebras over a commutative monad|tensor product of monad algebras]], see there for more. 
 
 ## Examples
 
-Many monads are named after their (free) algebras. 
+Many monads are named after their (free) algebras:
 
 * The algebras of the _free monoid monad_ on [[Set]] are [[monoids]], and the morphisms of algebras the monoid homomorphisms.
+
 * The algebras of the _free commutative monoid monad_ on [[Set]] are [[commutative monoids]], and their morphisms the monoid homomorphisms between them. 
+
 * The algebras of the _free group monad_ on [[Set]] are groups, and their morphisms are the group homomorphisms.
 * ...and so on. 
 
