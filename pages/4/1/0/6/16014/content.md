@@ -185,7 +185,7 @@ Some technical remarks:
 There is also an [[adjoint pair]] on the other side, $\mathbf{H}_{/\ast}$, of the [[base change]] maps, in which the [[left adjoint]] is given by [[context extension]] back to $\mathbf{H}_{/W}$ followed by $\exists_W$, and dually the [[right adjoint]] is given by $W^\ast$ followed by $\forall_W$. The former is the [[coreader comonad]], whereas the latter is the [[reader monad]] (aka [[function monad]]):
 
 <center>
-<img src="/nlab/files/TheFourModalitiesOfBaseChange-221101.jpg" width="400">
+<img src="/nlab/files/TheFourModalitiesOfBaseChange-221101b.jpg" width="400">
 </center>
 
 
@@ -193,7 +193,7 @@ If we think of the types $P_\bullet \,\in\, Type_B$ in the given context -- now 
 
 The definiteness-counit $\star P \rightarrow P$ witnesses their inhabitation as following from that of a definite type after forgetting which definite world $b \colon B$ was used to inhabit it.
 
-{#ContigencyAsMonadicDescent} More in detail, since $(p_B)^\ast$ is a [[conservative functor]], the [[monadicity theorem]] (see [this example](monadicity+theorem#BaseChangeOfPresheavesAlongFullyFaithfulFunctor)) says 
+{#PotentialityAsMonadicDescent} More in detail, since $(p_B)^\ast$ is a [[conservative functor]], the [[monadicity theorem]] (see [this example](monadicity+theorem#BaseChangeOfPresheavesAlongFullyFaithfulFunctor)) says 
 
 \begin{imagefromfile}
     "file_name": "PotentialTypesAsPossibilityModules-221101b.jpg",
@@ -462,7 +462,7 @@ Both these assumptions are verified in the [[linear homotopy type theory]] of [R
 Recalling from [above](#RelationToPotentiality) the quadruple of ([[comonad|co-]])[[monad|monadic]] [[modalities]] associated with any [[base change]]
 
 <center>
-<img src="/nlab/files/TheFourModalitiesOfBaseChange-20221021.jpg" width="370">
+<img src="/nlab/files/TheFourModalitiesOfBaseChange-221101b.jpg" width="370">
 </center>
 
 one finds for the base change [[adjoint triple]] of [[dependent linear types]] along [[family of finite types|finite fibers]] (eq:FiniteBaseType)
@@ -482,6 +482,27 @@ that the interpretation of their ([[counit of a comonad|co-]])[[unit of a monad|
         "left": 10
     }
 \end{imagefromfile}
+
+In the context of linear types not just $(p_B)^\ast$ is [[monadic functor|monadic]], but also $(p_B)_!$/$(p_B)_\ast$ (for details see the *[quantum reader monad](function+monad#QuantumReaderMonad)*), so that the factorization [above](#PotentialityAsMonadicDescent) enhances to the following situation:
+
+\[
+  \label{DependentLinearTypesAsIndefiniteLinearTypes}
+\]
+\begin{imagefromfile}
+    "file_name": "LinearTypesAsModalModules-221101.jpg",
+    "width": "810",
+    "unit": "px",
+    "margin": {
+        "top": -10,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+\linebreak
+
 
 \[
   \label{NotationalConvention}
@@ -554,21 +575,6 @@ We see that the base type $B$ (eq:FiniteBaseType) *of [[quantum measurement]] ou
 1. the *[[possible worlds semantics|possible worlds]]* of [[modal logic|classical modal logicians]];
 
 1. the *[[many-worlds interpretation of quantum mechanics|many worlds]]* of [[interpretation of quantum mechanics|quantum interpretationists]].
-
-\end{remark}
-
-\begin{remark}
-  One might expect that an indeterministic value such as [[quantum measurement]]-outcome be expressed by the randomness modality $\bigcirc_B$ instead of by necessity modality $\Box_B$. 
-
-But these are related:
-
-(...)
-
-Dual picture:
-
-measurement is $\lozenge$-coaction on the cofree $\lozenge$-coalgebra $\mathscr{H} \coloneqq (p_B)_!\mathscr{H}_\bullet$
-
-(...)
 
 \end{remark}
 
