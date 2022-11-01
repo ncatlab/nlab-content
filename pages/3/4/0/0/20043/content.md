@@ -10,6 +10,12 @@ This is an instance of a [[weak colimit]].  It is also an instance of a [[weakly
 
 ## References
 
+[[Weak adjoint functors]] along with [[weak colimits]], with weakly initial objects as a special case, were defined in:
+
+* [[Paul Kainen]]. _Weak adjoint functors_. Mathematische Zeitschrift 122.1 (1971): 1-9.
+
+Also see:
+
 * [[Philip Wadler]], _[Recursive types for free!](https://homepages.inf.ed.ac.uk/wadler/papers/free-rectypes/free-rectypes.txt)_
 
 [[!redirects weak initial object]]
