@@ -118,6 +118,7 @@ This means that while every individual loop in $Conf_N(\mathbb{R}^3)$ is homotop
 
 
 ## References
+  {#References}
 
 Highlighting the need for topological stabilization mechanisms:
 
