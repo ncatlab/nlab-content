@@ -7,5 +7,16 @@ On the [[quantum physics]] of [[electron]] [[energy]]-levels of [[atoms]] and [[
 
 * [[John C. Slater]], *The Theory of Complex Spectra*, Phys. Rev. **34** (1929) 1293 $[$[doi:10.1103/PhysRev.34.1293](https://doi.org/10.1103/PhysRev.34.1293)$]$
 
+On [[solid state physics]]:
+
+* {#JS75} [[John Slater]], *Solid-State and Molecular Theory: A Scientific Biography*, Wiley (1975) &lbrack;[archive](https://archive.org/details/solidstatemolecu00slat/)&rbrack;
+
+
+## Related entries
+
+* [[Slater determinant]]
+
+* [[Gruppenpest]]
+
 [[!redirects John Slater]]
 
