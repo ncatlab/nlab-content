@@ -2,7 +2,7 @@ test
 
 ## Idea
 
-In [[programming language|programming]] it frequently happens that a [[program]] (say $prog_{12}$) with *nominal* output [[data type]] $D_2$ *de facto* outputs data of some modified type $T(D)$ due to "external effects", where 
+In [[programming language|programming]] it frequently happens that a [[program]] with "nominal" output [[data type]] $D_2$ *de facto* outputs data of some modified type $T(D)$ due to "external effects", where 
 \[
   \label{MonadMapInIntroduction}
   D \;\mapsto\; T(D)
@@ -104,17 +104,17 @@ The final consistency condition then is that "carrying along trivial effects is 
   \,.
 \]
 
-Notice that the [[associativity]] condition (eq:AssociativityConditionInIntroduction) and the [[unitality]] condition (eq:UnitalityInIntroduction) jointly say that [[data types]] with $T(-)$-effectful programs between them, in the above sense, form a *[[category]]*. In [[category theory]] this is known as the *[[Kleisli category]]* of a *[[monad]]* $T$.
+Notice that the [[associativity]] condition (eq:AssociativityConditionInIntroduction) and the [[unitality]] condition (eq:UnitalityInIntroduction) are jointly equivalent to saying that [[data types]] with $T(-)$-effectful programs between them, in the above sense, form a *[[category]]*. In [[category theory]] this is known as the *[[Kleisli category]]* of a *[[monad]]* $T$.
 
-> Traditionally in [[category theory]], the [[axioms]] on [[monads]] are presented in a slightly different way, invoking a monad "product" [[natural transformation]] $T \circ T \xrightarrow{ \mu } T$ instead of the "binding" operation. One readily checks that these two axiomatic presentations of monads are in fact equal.
+> Traditionally in [[category theory]], the [[axioms]] on [[monads]] are presented in a slightly different way, invoking a monad "product" [[natural transformation]] $T \circ T \xrightarrow{ \mu } T$ instead of the "binding" operation. One readily checks that these two axiomatic presentations of monads are in fact equal, see (eq:TransformBetweenBindAndJoinInIntroduction) below.
 
-In summary, a choice of assignments
+In summary, a choice of assignments to data types $D_i$ of
 
-1. $D \;\mapsto\; T(D)$  $\;$---$\;$ of types of effectful data of nominal type $D$ (eq:MonadMapInIntroduction),
+1. $T(D) \;\colon\; Type$  $\;$---$\;$ types of effectful data of nominal type $D$ (eq:MonadMapInIntroduction),
 
-1. $D \;\mapsto\; ret_D$ $\;$---$\;$ regarding plain $D$-data as trivially effectful (eq:ReturnMapInIntroduction),
+1. $ret_D \;\colon\; D \to T D$ $\;$---$\;$ how to regard plain $D$-data as trivially effectful (eq:ReturnMapInIntroduction),
 
-1. $prog \;\mapsto\; prog[-]$ $\;$---$\;$ specifying how to execute a given $prog$ while carrying along any previous $T(-)$-effects (eq:BindingLawInIntroduction)
+1. $\array{bind_{D_1, D_2} \colon & (D_1 \to  T D_2 ) &\longrightarrow& \big(T D_1 \to T D_2\big) \\ & prog &\mapsto& prog[-]}$ $\;$---$\;$ $\begin{array}{l} \text{how to execute a prog while} \\ \text{carrying along any previous effects} \end{array}$   (eq:BindingLawInIntroduction)
 
 subject to 
 
@@ -126,32 +126,40 @@ is called a *[[monad in computer science]]* and serves to encode the notion that
 
 > The running example above is known as the *[[writer monad]]*, since it encodes the situation where programs may have the additional effect of writing a message string into a given buffer.
 
-(...)
+The structure making such a [[monad]] may and often is encoded in different equivalent ways: Alternatively postulating operations
 
-in one direction
+1. $D \mapsto T D$ (as before)
 
-$$
-  bind
+1. $fmap_{D_1, D_2} \;\colon\; (D_1 \to D_2) \longrightarrow (T D_1 \to T D_2)$ 
+
+1. $ret_D \;\colon\; D \to T D$
+
+1. $join_D \;\colon\; T\big( T D\big) \to T D$
+
+such that 
+
+1. $fmap$ is *[[functor|functorial]]* on [[data types]] 
+
+1. $join$ is [[associativity|associative]] and [[unitality|unital]] (with respect to $ret$) as a [[natural transformation]],
+
+yields the definition of *[[monad]]* traditionally used in [[category theory]].
+
+Direct inspection shows that one may reversibly transmute such $bind$- and $join$-operators into each other by expressing them as the following composites:
+
+\[
+  \label{TransformBetweenBindAndJoinInIntroduction}
+  \begin{array}{ll}
+  &
+  fmap_{D_1, D_2}
   \;\colon\;
-  T D \times Map\big( D , T D'  \big)
-  \xrightarrow{
-    \big(
-      id_{T D}, T(-)
-    \big)
-  }
-  T D \times Map\big( T D , T T D' \big)
-  \xrightarrow{\;
-    ev
-  \;}
-  T T D'
-  \xrightarrow{\; \mu \;}
-  D'
-$$
-
-in the other
-
-$$
-  \mu
+  Map(D_1, D_2)
+  \xrightarrow{ ret \circ (-) }
+  Map(D_1, T D_2)
+  \xrightarrow{ bind }
+  Map(T D_1, T D_2)
+  \\
+  &
+  join_D
   \;\colon\;
   T T D
   \xrightarrow{
@@ -163,10 +171,32 @@ $$
   T T D \times Map( T D, T D )
   \xrightarrow{ bind }
   T D
-$$
+  \\
+  \text{and conversely:}
+  \\
+  &
+  bind_{D, D'}
+  \;\colon\;
+  T D \times Map\big( D , T D'  \big)
+  \xrightarrow{
+    \big(
+      id_{T D}, fmap_{D, T D'}
+    \big)
+  }
+  T D \times Map\big( T D , T T D' \big)
+  \xrightarrow{\;
+    ev
+  \;}
+  T T D'
+  \xrightarrow{\; join \;}
+  D'
+  \,.
+  \end{array}
+\]
+
+
 
 
 (... dually for comonads ...)
-
 
 
