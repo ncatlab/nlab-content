@@ -8,7 +8,11 @@ John Stewart Bell was an Irish physicist credited with developing one of the mos
 
 > (beware that there is also the mathematician and philosopher [[John Lane Bell]])
 
-## related $n$Lab entries
+See also:
+
+* Marian Kupczynski, *My discussions with John Stuart Bell* &lbrack;[arXiv:2210.16837](https://arxiv.org/abs/2210.16837)&rbrack;
+
+## Related 
 
 * [[chiral anomaly]]
 
