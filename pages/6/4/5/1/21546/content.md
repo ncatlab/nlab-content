@@ -59,7 +59,7 @@ Discussion of the example of generalised [[species]]:
 * {#FGHW} M. Fiore, [[Nicola Gambino]], [[Martin Hyland]], G. Winskel, _The cartesian closed bicategory of generalised species of structures_, ([pdf](http://www1.maths.leeds.ac.uk/~pmtng/Publications/generalised-species.pdf))
 
 
-Discussion of [[syntax]] for CC 2-categories in [[type theory]]:
+Discussion of [[syntax]] for cartesian closed 2-categories in [[type theory]]:
 
 * [[Marcelo Fiore]], Philip Saville, _A type theory for cartesian closed bicategories_, ([arXiv:1904.06538](https://arxiv.org/abs/1904.06538))
 
