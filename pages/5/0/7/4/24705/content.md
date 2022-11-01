@@ -389,7 +389,7 @@ This way, one finds that the four (co)unit operations of quantum modal logic are
   \label{QuantumModalUnits}
 \]
 \begin{imagefromfile}
-    "file_name": "QCwthLHT-QuantumModalUnits-221021b.jpg",
+    "file_name": "QCwthLHT-QuantumModalUnits-221101.jpg",
     "width": "840",
     "unit": "px",
     "margin": {
