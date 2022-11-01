@@ -177,8 +177,7 @@ Review:
 
 * Renato Portugal, *Basic Quantum Algorithms* &lbrack;[arXiv:2201.10574](https://arxiv.org/abs/2201.10574)&rbrack;
 
-
-Quantum computation became widely thought to be not just a theoretical but a plausible practical possibility with the understanding of [[quantum error correction]]:
+Quantum computation became widely thought to be not just a theoretical but a plausible practical possibility with the theoretical understanding of [[quantum error correction]] (which however remains to be implemented scalably):
 
 * {#Shor95} [[Peter W. Shor]], *Scheme for reducing decoherence in quantum computer memory*, Phys. Rev. A 52, R2493(R) 1995 ([doi:10.1103/PhysRevA.52.R2493](https://doi.org/10.1103/PhysRevA.52.R2493))
 
@@ -190,8 +189,11 @@ Early review:
 
 * [[Yuri I. Manin]], *Classical computing, quantum computing, and Shor's factoring algorithm*, Astérisque, **266** Séminaire Bourbaki 862 (2000) 375-404 &lbrack;[arXiv:quant-ph/9903008](https://arxiv.org/abs/quant-ph/9903008), [numdam:SB_1998-1999__41__375_0](http://www.numdam.org/item/?id=SB_1998-1999__41__375_0)&rbrack;
 
+An alternative/parallel approach to avoiding errors due to [[decoherence]] is [[topological quantum computation]], see [there](topological+quantum+computation#References) for references.
 
-Textbook accounts:
+Toy quantum computers have been realized (see references [below](#LaboratoryRealization)) and have been argued to demonstrate *[[quantum supremacy]]* (see [there](quantum+supremacy#References) for references) but existing machines remain "noisy and intermediate scale" (see the references [below](#ReferencesNISQ)).
+
+Textbook accounts on quantum computation:
 
 * [[Michael A. Nielsen]], [[Isaac L. Chuang]], *Quantum computation and quantum information*, Cambridge University Press (2000) $[$[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]$]$
 
@@ -440,6 +442,31 @@ Relation to [[tensor networks]], specifically [[matrix product states]]:
 ### Laboratory realization
  {#LaboratoryRealization}
 
+The very first proof-of-principle quantum computations were made with [[nuclear magnetic resonance]]-technology:
+
+* *NMR Based Quantum Information Processing: Achievements and Prospects*, Fortsch. Phys. **48** 9-11 (2000) 875-907 &lbrack;[arXiv:quant-ph/0004104](https://arxiv.org/abs/quant-ph/0004104)&rbrack;
+
+* [[Jonathan A. Jones]], *Quantum Computing and Nuclear Magnetic Resonance*, PhysChemComm **11** (2001) &lbrack;[doi:10.1039/b103231n](https://doi.org/10.1039/b103231n), [arXiv:quant-ph/0106067](https://arxiv.org/abs/quant-ph/0106067)&rbrack;
+
+* [[Jonathan A. Jones]], *Quantum Computing with NMR*, Prog. NMR Spectrosc. **59** (2011) 91-120 &lbrack;[doi:10.1016/j.pnmrs.2010.11.001](https://doi.org/10.1016/j.pnmrs.2010.11.001), [arXiv:1011.1382](https://arxiv.org/abs/1011.1382)&rbrack;
+
+* Dorothea Golze, Maik Icker, Stefan Berger, *Implementation of two-qubit and three-qubit quantum computers using liquid-state nuclear magnetic resonance*, Concepts in Magnetic Resonance **40A** 1 (2012) 25-37 &lbrack;[doi:10.1002/cmr.a.21222](https://doi.org/10.1002/cmr.a.21222)&lbrack;
+
+* *NMR Quantum Computing* (2012) &lbrack;slides [pdf](https://qudev.phys.ethz.ch/static/content/QSIT12/QSIT12_NMR_L01.pdf)&rbrack;
+
+
+* Tao Xin et al., *Nuclear magnetic resonance for quantum computing: Techniques and recent achievements* (Topic Review - Solid-state quantum information processing), Chinese Physics B **27** 020308 &lbrack;[doi:10.1088/1674-1056/27/2/020308](https://iopscience.iop.org/article/10.1088/1674-1056/27/2/020308)&rbrack;
+
+See also:
+
+* Wikipedia, *[Nuclear magnetic resonance quantum computer](https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance_quantum_computer)*
+
+Realization with superconducting qbits:
+
+(...)
+
+Realization in photonics:
+
 * Han-Shen Zhong et al. _Quantum computational advantage using photons_, Science 370, n. 6523 (2020) 1460-1463 [doi](https://doi.org/10.1126/science.abe8770)
 
 (...)
@@ -464,24 +491,7 @@ There exist toy desktop quantum computers for educational purposes, operating on
 
 * [SpinQ](https://www.spinquanta.com/): *SpinQ Triangulum: a commercial three-qubit desktop quantum computer* &lbrack;[arXiv:2202.02983](https://arxiv.org/abs/2202.02983)&rbrack;
 
-Background on NMR quantum computers:
 
-* *NMR Based Quantum Information Processing: Achievements and Prospects*, Fortsch. Phys. **48** 9-11 (2000) 875-907 &lbrack;[arXiv:quant-ph/0004104](https://arxiv.org/abs/quant-ph/0004104)&rbrack;
-
-* [[Jonathan A. Jones]], *Quantum Computing and Nuclear Magnetic Resonance*, PhysChemComm **11** (2001) &lbrack;[doi:10.1039/b103231n](https://doi.org/10.1039/b103231n), [arXiv:quant-ph/0106067](https://arxiv.org/abs/quant-ph/0106067)&rbrack;
-
-* [[Jonathan A. Jones]], *Quantum Computing with NMR*, Prog. NMR Spectrosc. **59** (2011) 91-120 &lbrack;[doi:10.1016/j.pnmrs.2010.11.001](https://doi.org/10.1016/j.pnmrs.2010.11.001), [arXiv:1011.1382](https://arxiv.org/abs/1011.1382)&rbrack;
-
-* Dorothea Golze, Maik Icker, Stefan Berger, *Implementation of two-qubit and three-qubit quantum computers using liquid-state nuclear magnetic resonance*, Concepts in Magnetic Resonance **40A** 1 (2012) 25-37 &lbrack;[doi:10.1002/cmr.a.21222](https://doi.org/10.1002/cmr.a.21222)&lbrack;
-
-* *NMR Quantum Computing* (2012) &lbrack;slides [pdf](https://qudev.phys.ethz.ch/static/content/QSIT12/QSIT12_NMR_L01.pdf)&rbrack;
-
-
-* Tao Xin et al., *Nuclear magnetic resonance for quantum computing: Techniques and recent achievements* (Topic Review - Solid-state quantum information processing), Chinese Physics B **27** 020308 &lbrack;[doi:10.1088/1674-1056/27/2/020308](https://iopscience.iop.org/article/10.1088/1674-1056/27/2/020308)&rbrack;
-
-See also:
-
-* Wikipedia, *[Nuclear magnetic resonance quantum computer](https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance_quantum_computer)*
 
 
 category: computer science, physics
