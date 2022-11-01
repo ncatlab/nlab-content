@@ -181,6 +181,7 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
 * Andrei Angelescu, Damir Bečirević, Darius A. Faroughy, Florentin Jaffredo, Olcyr Sumensari, _On the single leptoquark solutions to the B-physics anomalies_ ([arXiv:2103.12504](https://arxiv.org/abs/2103.12504))
 
+* Jason Aebischer, [[Gino Isidori]], Marko Pesut, Ben A. Stefanek, Felix Wilsch, *Confronting the vector leptoquark hypothesis with new low- and high-energy data* &lbrack;[arXiv:2210.13422](https://arxiv.org/abs/2210.13422)&rbrack;
 
 
 within [[GUT]]-models and specifically within [[Pati-Salam models]]:
