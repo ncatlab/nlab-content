@@ -23,16 +23,20 @@ For example, a **[[weakly initial object]]** in a category, $C$, is such that th
 ## Related concepts
 
 * [[weak limit]]
+
 * [[weak multilimit]]
+
 * [[WISC]]
+
 * [[weakly initial set]]
+
 * [[weakly initial object]]
 
 ## References
 
-[[Weak adjoint functors]] along with [[weak colimits]] were defined in:
+[[weak adjoint|Weak adjoint functors]] along with [[weak colimits]] were defined in:
 
-* [[Paul Kainen]]. _Weak adjoint functors_. Mathematische Zeitschrift 122.1 (1971): 1-9.
+* [[Paul Kainen]], *Weak adjoint functors*, Mathematische Zeitschrift **122** 1 (1971) 1-9 &lbrack;[dml:171575](https://eudml.org/doc/171575)&rbrack;
 
 
 [[!redirects weak colimits]]
