@@ -19,6 +19,7 @@ The notion of _action object_ or _module object_ is the [[internalization]] of t
 
 
 ## Definition
+ {#Definition}
 
 +-- {: .num_defn #MonoidsInMonoidalCategory}
 ###### Definition
