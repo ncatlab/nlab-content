@@ -65,9 +65,9 @@ When $J:\mathbf J \to \mathbf C$ is a free completion of $\mathbf{J}$ under coli
 
 ## References
 
-Discussion with an eye towards [[monad (in computer science)|monads in computer science]] is in 
+The concept was introduced, in the context of [[monads in computer science]], in: 
 
-* {#ACU14} [[Thorsten Altenkirch]], James Chapman, Tarmo Uustalu, _Monads need not be endofunctors_, Logical methods in computer science ([arxiv](https://arxiv.org/abs/1412.7148))
+* [[Thorsten Altenkirch]], [[James Chapman]], [[Tarmo Uustalu]], *Monads need not be endofunctors*, Logical Methods in Computer Science **11** 1:3 (2015) 1–40 &lbrack;[arXiv:1412.7148](https://arxiv.org/abs/1412.7148), [pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), <a href="https://doi.org/10.2168/LMCS-11(1:3)2015">doi:10.2168/LMCS-11(1:3)2015</a>&rbrack;
 
 
 [[!redirects relative monads]]
