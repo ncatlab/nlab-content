@@ -132,6 +132,8 @@ A morphism $f:a \to b$ has a unique __inverse__ if it has a retraction that is a
 
 * [[weak inverse]]
 
+* [[bi-invertible morphism]]
+
 * [[inversion involution]]
 
 * [[reversible computation]]
