@@ -61,6 +61,13 @@ On the [[pure spinor]] [[Berkovits superstring]]:
 
 \linebreak
 
+On [[D=4 N=1 supergravity]] formulated via [[superspace]]:
+
+* S. M. Kuzenko, E. S. N. Raptakis, G. Tartaglino-Mazzucchelli, *Superspace approaches to $\mathcal{N} = 1$ supergravity*, *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.17088](https://arxiv.org/abs/2210.17088)&rbrack;
+
+
+\linebreak
+
 On [[asymptotic safety]]:
 
 * Riccardo Martini, Gian Paolo Vacca, Omar Zanusso, *Perturbative approaches to non-perturbative quantum gravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.13910](https://arxiv.org/abs/2210.13910)&rbrack;
