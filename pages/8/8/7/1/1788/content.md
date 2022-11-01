@@ -194,9 +194,107 @@ Direct inspection shows that one may reversibly transmute such $bind$- and $join
   \end{array}
 \]
 
+(...)
 
 
+## something else
 
-(... dually for comonads ...)
+$$
+  \rho^\bigcirc_{\mathscr{H}}
+  \;\colon\;
+  \underset{b \colon B}{\oplus}
+  \mathscr{H}
+  \xrightarrow{\phantom{-}(P_b)_{b \colon B}\phantom{-}}
+  \mathscr{H}  
+$$
+
+and
+
+$$
+  \array{
+  \underset{b \colon B}{\bigoplus}
+  \;
+  \underset{b' \colon B}{\bigoplus}
+  \;
+  \mathscr{H}
+  &
+  \xrightarrow{\;\; \mu^{\bigcirc}_{\mathscr{H}} \;\;}
+  &
+  \underset{b'' \colon B}{\bigoplus}
+  \mathscr{H}
+  \\
+  \big(
+     \psi_{b,b'}
+  \big)_{b,b' \colon B}
+  &\mapsto&
+  \big(
+    \psi_{b'' ,b''}
+  \big)_{b'' \colon B}
+  }
+$$
+
+hence
+
+$$
+  \array{    
+    &
+    \underset{b \colon B}{\bigoplus}
+    \;
+    \underset{b' \colon B}{\bigoplus}
+    \;
+    \mathscr{H}
+      &\xrightarrow{\; \mu^\bigcirc_{\mathscr{H}}  \;}&
+    \underset{b'' \colon B}{\bigoplus}
+    \mathscr{H}
+      &\xrightarrow{\; \rho^\bigcirc_{\mathscr{H}} \;}&  
+    \mathscr{H}
+    \\
+    &
+    \big(
+       \psi_{b,b'}
+    \big)_{b,b' \colon B}    
+    &\mapsto&
+    \big(
+       \psi_{b'',b''}
+    \big)_{b'',b'' \colon B}    
+    &\mapsto&
+    \underset{b'' \colon B}{\sum}
+    P_{b''}(\psi_{b'',b''})
+    \\
+    \text{and}
+    &
+    \\
+    &
+    \underset{b \colon B}{\bigoplus}
+    \;
+    \underset{b' \colon B}{\bigoplus}
+    \;
+    \mathscr{H}
+      &\xrightarrow{\; \bigcirc \rho^\bigcirc_{\mathscr{H}}  \;}&
+    \underset{b'' \colon B}{\bigoplus}
+    \mathscr{H}
+      &\xrightarrow{\; \rho^\bigcirc_{\mathscr{H}} \;}&  
+    \mathscr{H}
+    \\
+    &
+    \big(
+       \psi_{b,b'}
+    \big)_{b,b' \colon B}    
+    &\mapsto&
+    \big(
+       \underset{b \colon B}{\sum}
+       P_{b}(\psi_{b,b'})
+    \big)_{b' \colon B}    
+    &\mapsto&
+    \underset{b, b' \colon B}{\sum}
+    P_{b'}\big(P_{b}(\psi_{b,b'})\big)
+  }
+$$
+
+have to be equal, which implies that the $P_b$ are a system of normal projectors
+
+(... )
+
+
 
 
