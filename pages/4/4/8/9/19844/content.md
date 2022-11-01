@@ -295,6 +295,13 @@ Implications for the significance across channels:
 
 > The updated NP fits to rare B decays &lbrack;...&rbrack; follow the same trend as with the previous set of results favouring in particular new physics contributions in the Wilson coefficient $C^\mu_9$, with an increased significance. &lbrack;...&rbrack; The projections for clean observables, show that if the current tensions remain, $R_K$ can establish NP with 5σ significance already with less than 20 $fb^{-1}$ of data. The main source of theory uncertainty in global fits is due to non-local hadronic contributions. However, different fits with different setups, inputs and statistical frameworks show a remarkable agreement so that the experimental observation of the discrepancy in these observables would be a clear sign of physics beyond the SM.
 
+
+[IKW22](#IKW22):
+
+> Incorporating several recent developments of determinations of the $B \to D^{(\ast)}$ form factors in the Standard Model (SM), we observe a 4.1σ deviation from the SM predictions. 
+
+> present data deviates from the SM predictions at 4.3σ. 
+
 \linebreak
 
 
@@ -749,6 +756,7 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
 
 * F. Mahmoudi, *Theoretical Review of Rare B Decays* &lbrack;[arXiv:2208.05755](https://arxiv.org/abs/2208.05755)&rbrack;
 
+* {#IKW22} Syuhei Iguro, Teppei Kitahara, Ryoutaro Watanabe, *Global fit to $b \to c \tau \nu$ anomalies 2022 mid-autumn* &lbrack;[arXiv:2210.10751](https://arxiv.org/abs/2210.10751)&rbrack;
 
 
 Further outlook:
@@ -1117,6 +1125,9 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 * Alexandre Carvunis, [[Andreas Crivellin]], Diego Guadagnoli, Shireen Gangal, *The Forward-Backward Asymmetry in $B \to D^\ast \ell \nu$: One more hint for Scalar Leptoquarks?* ([arXiv:2106.09610](https://arxiv.org/abs/2106.09610))
 
 * {#AliseEtAl2222} Alessandra D'Alise  et al.,  *Standard model anomalies: Lepton flavour non-universality, g-2 and W-mass* $[$[arXiv:2204.03686](https://arxiv.org/abs/2204.03686)$]$
+
+* Jason Aebischer, [[Gino Isidori]], Marko Pesut, Ben A. Stefanek, Felix Wilsch, *Confronting the vector leptoquark hypothesis with new low- and high-energy data* &lbrack;[arXiv:2210.13422](https://arxiv.org/abs/2210.13422)&rbrack;
+
 
 \linebreak
 
