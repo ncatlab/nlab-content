@@ -143,6 +143,9 @@ There are claims that numerical computer simulations (as in [[lattice gauge theo
 
 * Konstantinos N. Anagnostopoulos, Takehiro Azuma, Yuta Ito, Jun Nishimura, Toshiyuki Okubo, Stratos Kovalkov Papadoudis, _Complex Langevin analysis of the spontaneous breaking of 10D rotational symmetry in the Euclidean IKKT matrix model_ ([arXiv:2002.07410](https://arxiv.org/abs/2002.07410))
 
+Status report:
+
+* *Progress in the numerical studies of the type IIB matrix model* &lbrack;[arXiv:2210.17537](https://arxiv.org/abs/2210.17537)&rbrack;
 
 
 
