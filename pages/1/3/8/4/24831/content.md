@@ -13,11 +13,17 @@ Regarding the [[modality|modal]] nature of [[quantum states]] in [[quantum physi
 
 > In throwing dice we do not know the fine details of the motion of our hands which determine the fall of the dice and therefore we say that the probability for throwing a special number is just one in six. The probability wave of Bohr, Kramers, Slater, however, meant more that; it meant a tendency for something. It was a quantitative version of the old concept of "potentia" in Aristotelian philosophy. It introduced something standing in the middle between the idea of an event and the actual event, a strange kind of physical reality just in the middle between possibility and reality. &lbrack;[Heisenberg (1958)](#Heisenberg1958)&rbrack;
 
+## Related entries
+
+* [[Aristotle]]
+
 ## References
+
+
 
 See also
 
-* Stanford Encyclopedia of Philosophy, [Aristotle's Metaphysics: Actuality and Potentiality](https://plato.stanford.edu/entries/aristotle-metaphysics/#ActuPote)
+* Stanford Encyclopedia of Philosophy, *[Aristotle's Metaphysics: Actuality and Potentiality](https://plato.stanford.edu/entries/aristotle-metaphysics/#ActuPote)*
 
 * Wikipedia, *[Potentiality and actuality](https://en.wikipedia.org/wiki/Potentiality_and_actuality#Potentiality)*
 
