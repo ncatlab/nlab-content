@@ -54,7 +54,7 @@ By similar plausibility arguments one often demands that
 
 which may be read as expressing that iterating the previous reasoning does not yield any new insight.  This additional enhancement to T modal logic yields _[[S4 modal logic]]_. 
 
-### The generality of S4 
+\linebreak
 
 In terms of [[categorical logic]] interpreting propositional logic into a [[Heyting algebra]], the S4 axioms just say ([Bierman & de Paiva 92](#BiermanPaiva92)) that 
 
@@ -178,25 +178,25 @@ Some technical remarks:
 1. While [[base change]]-[[adjunctions]] are essentially unique and not free to choose, there is a genuine choice in the above given by the choice of [[context]] $W$. This is reflected in the subscripts of $\underset{W}{\lozenge}$ and $\underset{W}{\Box}$ above. It is the choice of this $W$ that gives different kinds of possibility and necessity. More generally there is in fact not just a choice of a context, but of a morphism of contexts, reflecting what is often called "accessibility of possible worlds". This we come to [below](#ViaBaseChangeRelatively).
 
 
-### Relation to Contingency
- {#RelationToContingency}
+### Relation to Potentiality
+ {#RelationToPotentiality}
 
 
-There is also an [[adjoint pair]] on the other side, $\mathbf{H}_{/\ast}$, of the [[base change]] maps, in which the left adjoint is given by context extension back to $\mathbf{H}_{/W}$ followed by $\exists_W$, and dually the right adjoint is given by $W^\ast$ followed by $\forall_W$. The former is the [[coreader comonad]], whereas the latter is the [[reader monad]] (aka [[function monad]]):
+There is also an [[adjoint pair]] on the other side, $\mathbf{H}_{/\ast}$, of the [[base change]] maps, in which the [[left adjoint]] is given by [[context extension]] back to $\mathbf{H}_{/W}$ followed by $\exists_W$, and dually the [[right adjoint]] is given by $W^\ast$ followed by $\forall_W$. The former is the [[coreader comonad]], whereas the latter is the [[reader monad]] (aka [[function monad]]):
 
 <center>
-<img src="/nlab/files/TheFourModalitiesOfBaseChange-20221021.jpg" width="400">
+<img src="/nlab/files/TheFourModalitiesOfBaseChange-221101.jpg" width="400">
 </center>
 
 
-If we think of the types $P_\bullet \,\in\, Type_B$ in the given context -- now called "$B$" -- as *actual types* (eq:NecessityActualityPossibility) then the types down in the base context $P \,\in\, Type$ should be thought of as types that fail to be actual in that they are missing information about their $B$-dependency. 
+If we think of the types $P_\bullet \,\in\, Type_B$ in the given context -- now called "$B$" -- as *[[actuality|actual types]]* (eq:NecessityActualityPossibility) then the types down in the base context $P \,\in\, Type$ should be thought of as [[potentiality|potential types]] that fail to be actual in that they are missing information about their $B$-dependency:
 
-This might be called *contingent types*: The definiteness-counit $\star P \rightarrow P$ witnesses their inhabitation as following from that of a definite type after forgetting which definite world $b \colon B$ was used to inhabit it.
+The definiteness-counit $\star P \rightarrow P$ witnesses their inhabitation as following from that of a definite type after forgetting which definite world $b \colon B$ was used to inhabit it.
 
 {#ContigencyAsMonadicDescent} More in detail, since $(p_B)^\ast$ is a [[conservative functor]], the [[monadicity theorem]] (see [this example](monadicity+theorem#BaseChangeOfPresheavesAlongFullyFaithfulFunctor)) says 
 
 \begin{imagefromfile}
-    "file_name": "ContingentTypesAsPossibilityActions-201024.jpg",
+    "file_name": "PotentialTypesAsPossibilityModules-221101b.jpg",
     "width": "580",
     "unit": "px",
     "margin": {
@@ -224,7 +224,7 @@ that the types $P \,\in\, Type$ are equivalently
      \Box_B P_\bullet
    $
 
-In words this says that for such contingent propositions the standard implications 
+In words this says that for such potential propositions the standard implications 
 
 $$
   necessarily  P_\bullet
@@ -234,7 +234,7 @@ $$
   possibly P_\bullet
 $$
 
-may be reversed. And indeed, if a kind of proposition holds as soon as it *possibly* holds, then it makes sense to say that holds contingently.
+may be reversed. And indeed, if a kind of proposition holds as soon as it *possibly* holds, then it makes sense to say that it holds potentially.
 
 
 
@@ -459,7 +459,7 @@ $$
 Both these assumptions are verified in the [[linear homotopy type theory]] of [Riley (2022),  §2.4](dependent+linear+type+theory#Riley22Thesis), which should have [[categorical semantics]] in (a [[type-theoretic model category]] [[presentable (infinity,1)-category|presenting]]) the [[(infinity,1)-topos|$(\infty,1)$-topos]] of [[parameterized spectrum|parameterized]] [[Eilenberg-MacLane spectrum|$H\mathbb{C}$]]-[[module spectra]], among which [[complex vector spaces]] $\mathscr{H}$ [[full (infinity,1)-subcategory|embed]] as their [[Eilenberg-MacLane spectra|Eilenberg-MacLane]] [[module spectra]] $H\mathscr{H}$.
 
 
-Recalling from [above](#RelationToContingency) the quadruple of ([[comonad|co-]])[[monad|monadic]] [[modalities]] associated with any [[base change]]
+Recalling from [above](#RelationToPotentiality) the quadruple of ([[comonad|co-]])[[monad|monadic]] [[modalities]] associated with any [[base change]]
 
 <center>
 <img src="/nlab/files/TheFourModalitiesOfBaseChange-20221021.jpg" width="370">
@@ -558,7 +558,7 @@ We see that the base type $B$ (eq:FiniteBaseType) *of [[quantum measurement]] ou
 \end{remark}
 
 \begin{remark}
-  One might expect that an indeterministic value such as [[quantum measurement]]-outcome be expressed by the contingency modality $\bigcirc_B$ instead of by necessity modality $\Box_B$. 
+  One might expect that an indeterministic value such as [[quantum measurement]]-outcome be expressed by the randomness modality $\bigcirc_B$ instead of by necessity modality $\Box_B$. 
 
 But these are related:
 
