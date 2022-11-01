@@ -128,3 +128,6 @@ category: category
 [[!redirects category of finite sets]]
 [[!redirects FinSet]]
 [[!redirects Fin Set]]
+
+[[!redirects FiniteSets]]
+
