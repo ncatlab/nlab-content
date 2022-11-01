@@ -1,4 +1,8 @@
-test
+
+[[TheFourModalitiesOfBaseChange-221101.jpg:file]]
+
+[[PotentialTypesAsPossibilityModules-221101b.jpg:file]]
+
 
 ## Idea
 
