@@ -443,6 +443,11 @@ This is the defining property of morphisms in $Vect_B$ and hence shows that $\bi
 
 * {#Verdier14} [[Olivier Verdier]], _[The Reader and Writer Monads and Comonads](http://www.olivierverdier.com/posts/2014/12/31/reader-writer-monad-comonad/)_, 2014
 
+* [[Tarmo Uustalu]], p.22 of: *Monads and Interaction Lecture 1* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf), [[Uustalu-Monads1.pdf:file]]&rbrack;, lecture notes for [MGS 2021](https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html) (2021):
+
+  
+
+
 A treatment of _opacity_ in [[linguistics]] via the function monad
 
 * [[Gianluca Giorgolo]], [[Ash Asudeh]], _Monads as a Solution for Generalized Opacity_, [paper](https://www.aclweb.org/anthology/W14-1403/)
