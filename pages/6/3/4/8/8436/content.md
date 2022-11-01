@@ -67,9 +67,14 @@ See at _[[K-theory classification of topological phases of matter]]_.
 
 ### General
 
+
+
+
 Textbook accounts:
 
 * {#Kittel53} [[Charles Kittel]], *Introduction to Solid State Physics*, Wiley (1953-) $[$[ISBN:978-0-471-41526-8](https://www.wiley.com/en-us/Introduction+to+Solid+State+Physics%2C+8th+Edition-p-9780471415268), [pdf](http://metal.elte.hu/~groma/Anyagtudomany/kittel.pdf),  [Wikipedia entry](https://en.wikipedia.org/wiki/Introduction_to_Solid_State_Physics)$]$
+
+* {#JS75} [[John Slater]], *Solid-State and Molecular Theory: A Scientific Biography*, Wiley (1975) &lbrack;[archive](https://archive.org/details/solidstatemolecu00slat/)&rbrack;
 
 * {#Roessler04} [[Ulrich Rößler]], _Solid State Theory: An Introduction_, Springer (2004, 2009) $[$[doi:10.1007/978-3-540-92762-4](https://link.springer.com/book/10.1007/978-3-540-92762-4)$]$
 
