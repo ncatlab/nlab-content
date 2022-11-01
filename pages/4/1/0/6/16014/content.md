@@ -485,7 +485,7 @@ that the interpretation of their ([[counit of a comonad|co-]])[[unit of a monad|
 
 \[
   \label{NotationalConvention}
-\text{It is convenient and meaningful to declare the notational conventions to:}
+\text{It is convenient and meaningful to declare notational conventions to:}
   \phantom{--------------------}
 \]
 1. abbreviate $\mathscr{H} \,\coloneqq\, p_! \mathscr{H}_\bullet \,\simeq\, p_\ast \mathscr{H}_\bullet$
