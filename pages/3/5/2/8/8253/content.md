@@ -26,7 +26,7 @@ Similarly, if $f$ is a base-point preserving function between [[pointed topologi
 
 ### Homotopy groups and Cohomotopy sets
 
-If the [[domain]] $X \simeq S^n$ is an [[n-sphere]], then the homotopy classes of maps $f \colon S^n \to X$ form the $n$th *[[homotopy group]]* of $Y$.
+If the [[domain]] $X \simeq S^n$ is an [[n-sphere]], then the homotopy classes of maps $f \colon S^n \to Y$ form the $n$th *[[homotopy group]]* of $Y$.
 
 If the [[codomain]] is an [[n-sphere]] $Y \simeq S^n$, then the homotopy classes of maps $f \colon X \to S^n$ form the [[Cohomotopy set]] of $X$.
 
