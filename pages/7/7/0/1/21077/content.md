@@ -36,7 +36,10 @@ On [[leptoquarks]] and [[flavour anomalies]]:
 
 * [[Javier Fuentes-Martin]], [[Gino Isidori]], Matthias König, Nudzeim Selimovic, _Vector Leptoquarks Beyond Tree Level_ ([arxiv:1910.13474](https://arxiv.org/abs/1910.13474))
 
-On the [[flavour anomalies]]
+* Jason Aebischer, [[Gino Isidori]], Marko Pesut, Ben A. Stefanek, Felix Wilsch, *Confronting the vector leptoquark hypothesis with new low- and high-energy data* &lbrack;[arXiv:2210.13422](https://arxiv.org/abs/2210.13422)&rbrack;
+
+
+Further on the [[flavour anomalies]]
 
 * Barbara Gallavotti, starring [[Gino Isidori]], _How Particle Physics Works: Episode II - The New Analysis_, June 2019 ([youtube](https://www.youtube.com/watch?v=krWPeFLLBFY))
 
