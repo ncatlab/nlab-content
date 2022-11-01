@@ -25,7 +25,15 @@ Of course, if the factorizations $g$ are always unique, this is precisely an ord
 
 * [[weak representation of a functor]]
 
+## References
+
+Weak adjoint functors along with [[weak colimits]] were defined in:
+
+* [[Paul Kainen]]. _Weak adjoint functors_. Mathematische Zeitschrift 122.1 (1971): 1-9.
+
 [[!redirects weak adjoints]]
+[[!redirects weak adjoint functor]]
+[[!redirects weak adjoint functors]]
 [[!redirects weak adjunction]]
 [[!redirects weak left adjoint]]
 [[!redirects weak left adjoint]]
