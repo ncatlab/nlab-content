@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -206,6 +207,18 @@ Further discussion/exposition of (co)monads in computer science:
 
 * Rob Norris, *Functional Programming with Effects*, talk at 
 *Scala Days 2018* &lbrack;video: [YT](https://youtu.be/30q6BkBv5MY)&rbrack;
+
+* [[Tarmo Uustalu]], lecure notes for [MGS 2021](https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html) (2021):
+
+  *Monads and Interaction Lecture 1* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf), [[Uustalu-Monads1.pdf:file]]&rbrack;
+
+  *Monads and Interaction Lecture 2* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs2.pdf), [[Uustalu-Monads2.pdf:file]]&rbrack;
+
+  *Monads and Interaction Lecture 3* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs3.pdf), [[Uustalu-Monads3.pdf:file]]&rbrack;
+
+  *Monads and Interaction Lecture 4* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs4.pdf), [[Uustalu-Monads4.pdf:file]]&rbrack;
+
+
 
 * Christina Kohl, Christina Schwaiger, *Monads in Computer Science* (2021) &lbrack;[pdf](https://www.uibk.ac.at/mathematik/algebra/staff/fritz-tobias/ct2021_course_projects/category_theory.pdf), [[KohlSchwaiger-Monads.pdf:file]]&rbrack;
 
