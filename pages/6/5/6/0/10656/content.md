@@ -73,6 +73,6 @@ The article
 
 * {#KleinMalkiewich16} [[John Klein]], [[Cary Malkiewich]], _The transfer is functorial_, [arXiv:1603.01872](http://arxiv.org/abs/1603.01872), 
 
-establishes the functoriality of the Becker-Gottlieb transfer for fibrations with finitely dominated fibers, but only on the level of [[homotopy categories]] (without higher coherences).
+claimed to establish the functoriality of the Becker-Gottlieb transfer for fibrations with finitely dominated fibers on the level of [[homotopy categories]] (without higher coherences), but contained an unfixable mistake (cf. _[Corrigendum to 'The transfer is functorial'](https://www.sciencedirect.com/science/article/pii/S0001870822005692)_). 
 
 [[!redirects transfer index conjecture]]
