@@ -30,10 +30,14 @@
 A _left-strength_ and a _right-strength_ for a [[monad]] on a [[monoidal category]] are [[structures]] relating the monad with the [[tensor product]] of the category "in one direction". A monad equipped with a (left/right) strength is called a _(left/right) strong monad_. For a [[symmetric monoidal category]], the concepts of left-strength and right-strength coincide, and we simply talk about _strengths_.
 The notion of strength can be motivated at least in the following ways.
 
-* A strong monad over a [[monoidal category]] $V$ is a [[monad]] in the [[bicategory]] of $V$-[[actegory|actegories]], on the category $V$ (acting on itself on the left for a left-strength, on the right for a right-strength). 
-* A left-strength for a monad is a compatibility condition between the monad and the tensor product "from the left", less symmetric than being a [[monoidal monad]], as it lacks the [[commutative monad|commutativity]] property. A right-strength is a similar notion, where the action is on the right.
+* A strong monad over a [[monoidal category]] $V$ is a [[monad]] in the [[bicategory]] of $V$-[[actegory|actegories]], on the category $V$ (acting on itself from the left for a left-strength, and from the right for a right-strength). 
+
+* A left-strength for a monad is a compatibility condition between the monad and the tensor product "from the left", less symmetric than being a [[monoidal monad]], as it lacks the [[commutative monad|commutativity]] property. A right-strength is the analogous notion, where the action is from the right.
+
 * A left-strength for a monad is a way of creating "slices", expressions over tensor products which are trivial in the first component. (The right-strength gives expressions which are trivial in the second component.)
+
 * A strong monad is a [[tensorial strength|strong endofunctor]] with a monad structure which is compatible with the strength.
+
 * If $V$ is a [[monoidal closed category]], then a left-strong monad is the same thing as a $V$-[[enriched monad]], and a right-strength is the same thing as a pointwise structure for the monad on the [[internal homs]]. In particular, every monad on [[Set]] is canonically left-strong.
 
 Under some conditions, having a strength is a [[property-like structure]].
@@ -41,7 +45,9 @@ Under some conditions, having a strength is a [[property-like structure]].
 A more general notion of strength allows for general $V$-[[actegories]] instead of just the canonical action of $V$ on itself (see below).
 
 
-## Abstract definition 
+## Definition
+
+### Abstractly
 
 +-- {: .num_defn}
 ###### Definition
@@ -56,7 +62,7 @@ The extra [[structure]] that a left-strong monad has as opposed to the underlyin
 Dually, a **right-strength** is the analogous concept where $V$ is instead acting on the right.
 
 
-### Details 
+**Details:**
 
 If we write $\mathbf{B}V$ for the one-object [[bicategory]] obtained by [[delooping]] $V$ once, we have
 
@@ -90,7 +96,7 @@ Then the [usual diagrams](#concrete_definition) that specify a strong monad
 * naturalness of unit and product modifications.
 
 
-## Concrete definition
+### Concretely
 
 A _left-strong monad_ over a [[monoidal category]] $(C,\otimes,1)$ is a monad $(T, \eta, \mu)$ together with a natural transformation $t_{A,B}:A \otimes T B \to T(A\otimes B)$, called the _left-strength_, such that the following diagrams commute.
 
