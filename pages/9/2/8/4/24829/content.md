@@ -24,7 +24,7 @@ A morphism $f:Mor(A, B)$ in a [[(n,1)-category]] or [[(infinity,1)-category]] is
 
 ## Examples
 
-An [[integers object]] in an [[(n,1)-category]] $C$ with a [[terminal object]] is defined as an object $\mathbb{Z}$ with a [[global element]] $0:Mor(1, \mathbb{Z})$ and a bi-invertible [[endomorphism]] $\mathrm{succ}:Mor(\mathbb{Z}, \mathbb{Z})$ with section $\mathrm{pred}_1:Mor(\mathbb{Z}, \mathbb{Z})$ and retraction $\mathrm{pred}_2:Mor(\mathbb{Z}, \mathbb{Z})$. This corresponds to a definition of the [[integers]] [[higher inductive type]] in the [[internal logic]] of an [[(n,1)-category]]. 
+An [[integers object]] in an [[(n,1)-category]] $C$ with a [[terminal object]] is defined as the (homotopy) initial object $\mathbb{Z}$ with a [[global element]] $0:Mor(1, \mathbb{Z})$ and a bi-invertible [[endomorphism]] $\mathrm{succ}:Mor(\mathbb{Z}, \mathbb{Z})$ with section $\mathrm{pred}_1:Mor(\mathbb{Z}, \mathbb{Z})$ and retraction $\mathrm{pred}_2:Mor(\mathbb{Z}, \mathbb{Z})$. This corresponds to a definition of the [[integers]] [[higher inductive type]] in the [[internal logic]] of an [[(n,1)-category]]. 
 
 ## See also
 
