@@ -472,7 +472,7 @@ that the interpretation of their ([[counit of a comonad|co-]])[[unit of a monad|
   \label{QuantumModalUnits}
 \]
 \begin{imagefromfile}
-    "file_name": "QCwthLHT-QuantumModalUnits-221021b.jpg",
+    "file_name": "QCwthLHT-QuantumModalUnits-221101.jpg",
     "width": "810",
     "unit": "px",
     "margin": {
