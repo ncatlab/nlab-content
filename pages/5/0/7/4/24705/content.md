@@ -194,10 +194,10 @@ In this classical situation, the ([[comonad|co]]-)[[monad]] [[adjoint pair]] $\l
     }
 \end{imagefromfile}
 
-In fact there is (see [here](necessity+and+possibility#RelationToContingency)) a quadruple of ([[comonad|co-]])[[monad|monadic]] [[modalities]] associated with any [[base change]]:
+In fact there is (see [here](necessity+and+possibility#RelationToPotentiality)) a quadruple of ([[comonad|co-]])[[monad|monadic]] [[modalities]] associated with any [[base change]]:
 
 <center>
-<img src="/nlab/files/TheFourModalitiesOfBaseChange-20221021.jpg" width="370">
+<img src="/nlab/files/TheFourModalitiesOfBaseChange-221101.jpg" width="370">
 </center>
 
 Here 
