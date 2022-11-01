@@ -103,6 +103,10 @@ Concrete applications via implementation in [[Haskell]]:
 
 * {#Yates19} Ryan Yates, *Improving Haskell Transactional Memory* (2019) &lbrack;[hdl:1802/35367](https://hdl.handle.net/1802/35367), [pdf](file:///C:/Users/us13/Downloads/Yates_rochester_0188E_11946.pdf)&rbrack;
 
+Lecture notes:
+
+* [[Tarmo Uustalu]], p.24 of: *Monads and Interaction Lecture 1* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf), [[Uustalu-Monads1.pdf:file]]&rbrack;, lecture notes for [MGS 2021](https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html) (2021):
+
 
 In the generality of the *local* state monad:
 
