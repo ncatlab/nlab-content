@@ -40,6 +40,11 @@ In [[computer science]] this [[monad (in computer science)]] is used to model [[
 
 ## References
 
+As a [[monad in computer science]]:
+
+* [[Tarmo Uustalu]], p.27 of: *Monads and Interaction Lecture 1* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf), [[Uustalu-Monads1.pdf:file]]&rbrack;, lecture notes for [MGS 2021](https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html) (2021):
+
+
 The continuation monad is discussed in the generality of [[linear type theory]] as the linear [[double negation monad]] in
 
 * [[Paul-André Melliès]], Nicolas Tabareau, _Linear continuation and duality_, 2008 ([pdf](http://hal.inria.fr/docs/00/33/91/56/PDF/linear-control.pdf))
