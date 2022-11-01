@@ -28,6 +28,11 @@ For example, a **[[weakly initial object]]** in a category, $C$, is such that th
 * [[weakly initial set]]
 * [[weakly initial object]]
 
+## References
+
+[[Weak adjoint functors]] along with [[weak colimits]] were defined in:
+
+* [[Paul Kainen]]. _Weak adjoint functors_. Mathematische Zeitschrift 122.1 (1971): 1-9.
 
 
 [[!redirects weak colimits]]
