@@ -22,7 +22,7 @@
 
 In the late 1920s, [[Eugene Wigner]] and [[Hermann Weyl]] highlighted the role that [[group theory]] and [[representation theory]] play in the analysis of [[quantum mechanics]], for instance in the analysis of [[atomic spectrum|atomic spectra]]. While many applications of [[groups]] and their [[representations]] to [[quantum physics]] had more or less explicitly been observed before, Wigner and Weyl stood out as making the mathematical formalism fully explicit. This attitude was not well received by some of their colleagues, who felt that this formal [[mathematics]] had no place in [[physics]]. In particular [[Erwin Schrödinger]] is said ([Wigner (1981)](#Wigner81)) to have spoken of the _**Gruppenpest**_ (German for "plague of group theory") which ought to be abandoned. 
 
-In his autobiography [[John Slater]], an MIT physicist, claimed:
+In his [autobiography](#JS75) [[John Slater]], an MIT physicist, claimed:
 
 >It was at this point that Wigner, Hund, Heitler, and Weyl entered the picture with their "Gruppenpest": the pest of the group theory... The authors of the "Gruppenpest" wrote papers which were incomprehensible to those like me who had not studied group theory, in which they applied these theoretical results to the study of the many electron problem. The practical consequences appeared to be negligible, but everyone felt that to be in the mainstream one had to learn about it. Yet there were no good texts from which one could learn group theory. It was a frustrating experience, worthy of the name of a pest.
 
@@ -51,6 +51,8 @@ For scholarship on Weyl's work on group theory and quantum mechanics, see
 * Erhard Scholz, 2006. _Introducting groups into quantum theory (1926&#8211;1930)_, Historia Mathematica 33:440&#8211;490, [arxiv.org/math.HO/0409571](http://arxiv.org/math.HO/0409571).
 
 * Christophe Eckes, _Weyl and the mathematisation of Quantum Mechanics individual and collective perspectives_, ([slides](http://math.univ-lyon1.fr/~eckes/Novembertagung%20vf.pdf)).
+
+* {#JS75} John Slater, 1975, _Solid-State and Molecular Theory: A Scientific Biography_, Wiley.
 
 
 
