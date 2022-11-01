@@ -101,9 +101,11 @@ In [[Haskell]], the traditional way to model that a program may depend on random
  {#QuantumReaderMonad}
 
 
-While the $B$-[[reader monad]] on [[toposes]] such as [[Set]] is induced from the [[base change]] [[adjunction]] as $\bigcirc_B(-) \,\coloneqq\, \underset{B}{\prod} \big( B \times (-) \big)$, the functor $\underset{B}{\prod} \;\colon\; Set_{/B} \xrightarrow{\phantom{--}} Set$ is *not* in general a [[monadic functor]], so that $B$-reader-[[algebras over a monad|algebras]] are not in general [[equivalence of categories|equivalent]] to $B$-[[indexed sets]].
+As remarked [above](#AlgebrasForTheReaderMonad), while the $B$-[[reader monad]] on [[toposes]] such as [[Set]] is induced from the [[base change]] [[adjunction]] as $\bigcirc_B(-) \,\coloneqq\, \underset{B}{\prod} \big( B \times (-) \big)$, the functor $\underset{B}{\prod} \;\colon\; Set_{/B} \xrightarrow{\phantom{--}} Set$ is *not* in general a [[monadic functor]], so that $B$-reader-[[algebras over a monad|algebras]] are not in general [[equivalence of categories|equivalent]] to $B$-[[indexed sets]].
 
-However, this situation changes for [[dependent linear types]] which have [[biproducts]], such as $B$-[[indexed sets]]  of [[vector spaces]] (these we may think of as "quantum reader monads", see the discussion at *[Quantum Modal Logic](necessity+and+possibility#ModalQuantumLogic)*):
+However, this situation changes for $B$-readers analogously defined in other [[hyperdoctrines]]. 
+
+We discuss the example of the reader monad induced by  $B$-[[dependent linear types]] which have [[biproducts]], such as $B$-[[indexed sets]]  of [[vector spaces]] (these we may think of as "quantum reader monads", see the discussion at *[Quantum Modal Logic](necessity+and+possibility#ModalQuantumLogic)*):
 
 \begin{proposition}
 For $B \;\in\;$ [[FiniteSets]], the [[category]] of [[algebra over a monad|algebras]] for the $B$-[[reader monad]]
@@ -121,6 +123,13 @@ $$
     \mathscr{H}
     &\mapsto&
     Maps\big(B, \mathscr{H} \big)
+    \mathrlap{
+      \;
+      \simeq
+      \;
+      \underset{b \colon B}{\bigoplus}
+      \mathscr{H}
+    }
   }
 $$
 
@@ -144,11 +153,11 @@ Abstractly, observe that [[Vect]] has (finite) [[biproducts]] (given by the [[di
 
 1. is a [[conservative functor]] (since the $B$-components of any morphism of vector bundles over $V$ can still be extracted via ([[coprojection|co-]])[[projections]] from their image under forming the [[biproduct]] over $B$).
 
-Therefore conditions of the [[monadicity theorem]] are met (see [here](monadicity+theorem#CrudeMonadicityTheorem)), implying that the functor is [[monadic functor]], which in turn implies the claim.
+Therefore the conditions for the [[monadicity theorem]] are met (see [there](monadicity+theorem#CrudeMonadicityTheorem)), implying that the functor is [[monadic functor]], which in turn implies the claim.
 
 \linebreak
 
-Concretely, we unwind what it means for a vector space to carry $\bigcirc_B$-algebra structure and for a linear map between vector spaces to be a [[homomorphism]] for this structure:
+Alternatively, we now check the claim more concretely by unwinding what it means for a vector space to carry $\bigcirc_B$-algebra structure and for a linear map between vector spaces to be a [[homomorphism]] for this structure:
 
 First observe that the $\bigcirc_B$-[[monad]] product $\mu \;\colon\; \bigcirc_B \bigcirc_B \xrightarrow{\mu} \bigcirc_B$ on a [[vector space]] $\mathscr{H} \,\in\, Vect$ is explicitly given by:
 
@@ -175,9 +184,10 @@ $$
   }
 $$
 
-and that the a $\bigcirc_B$-algebra structure on $\mathscr{H}$ is a linear map of this form:
+and that a $\bigcirc_B$-algebra structure on $\mathscr{H}$ is a [[linear map]] of this form:
 
-$$
+\[
+  \label{MapsUnderlyingAlgebraStructureOverLinearReaderMonad}
   \rho^\bigcirc_{\mathscr{H}}
   \;\colon\;
   \underset{b \colon B}{\oplus}
@@ -185,10 +195,9 @@ $$
   \xrightarrow{\phantom{-}(P_b)_{b \colon B}\phantom{-}}
   \mathscr{H}  
   \,.
-$$
+\]
 
-Of such maps, the $\bigcirc_B$-algebra property demands that 
-
+Of such maps, the $\bigcirc_B$-action property ([here](algebra+over+a+monad#eq:ActionProperty)) demands that the following two linear maps are equal:
 
 $$
   \array{    
@@ -243,29 +252,90 @@ $$
     &\mapsto&
     \underset{b, b' \colon B}{\sum}
     P_{b'}\big(P_{b}(\psi_{b,b'})\big)
+    \mathrlap{\,.}
   }
 $$
 
-are equal. By considering these maps on [[tuples]] of [[vectors]] $\big(\psi_{b,b'}\big)_{b,b' \colon B}$ which are non-[[zero]] only for single elements $(b,b') \in B \times B$ one finds that this condition is equivalent to the condition
+By considering the value of these maps on [[tuples]] of [[vectors]] $\big(\psi_{b,b'}\big)_{b,b' \colon B}$ which are non-[[zero]] only for single elements $(b,b') \in B \times B$ one finds that this condition is equivalent to this condition:
 
 $$
-  \underset{b, b' \colon B}{\forall} \;\;\; P_b \circ P_{b'} \;=\; 
+  \underset{
+    b, b' \colon B
+  }{
+    \forall
+  } 
+  \;\;\;\; 
+    P_b \circ P_{b'} 
+  \;=\; 
   \left\{
-  \array{
-    P_b &\text{if} \; b = b'
-    \\
-    0  & \text{otherwise}
-  }
+    \array{
+      P_b &\text{if} \; b = b'
+      \\
+      0  & \text{otherwise}
+      \,.
+    }
   \right.
 $$
 
-This says that the $(P_b) \colon \mathscr{H} \to \mathscr{H}$ are a system of orthogonal linear [[projection operators]], whose [[images]] 
+Moreover, the $\bigcirc_B$-[[unit of a monad|unit]] $\id \xrightarrow{\;\; \eta^{\bigcirc_B} \;\;} \bigcirc_B$ is given by the [[diagonal map]] into the [[biproduct]]
+
+$$
+  \array{
+    \mathscr{H}
+    &\xrightarrow{\;\;
+      \eta^{\bigcirc_B}_{\mathscr{H}}
+    \;\;}
+    &
+    \underset{b \colon B}{\bigoplus}
+    \mathscr{H}
+    \\
+    \psi
+    &\mapsto&
+    (\psi_b \coloneqq \psi)_{b \colon B}
+  }
+$$
+
+so that the unitality property ([here](algebra+over+a+monad#eq:UnitProperty)) of the $\bigcirc_B$-algebra structure $(P_b)_{b \colon B}$ demands equivalently that the [[composition|composite]]
+
+$$
+  \array{
+    \mathscr{H}   
+    &\xrightarrow{\; \eta^{\bigcirc_B}_{\mathscr{H}} \;}&
+    \underset{b \colon B}{\bigoplus}
+    \mathscr{H}
+    &\xrightarrow{\; \rho^{\bigcirc_B}_{\mathscr{H}} \;}&
+    \mathscr{H}
+    \\
+    \psi
+    &\mapsto&
+    \big( 
+      \psi
+    \big)_{b \colon B}
+    &\mapsto&
+    \underset{b \colon B}{\sum}
+    \;
+    P_b(\psi)
+  }
+$$
+
+is the [[identity function]] on $\mathscr{H}$, hence that this system of [[projection operators]] is "complete" in that
+
+$$
+  \underset{b \colon B}{\bigotimes} P_b
+  \;=\;
+  id_{\mathscr{H}}
+  \,.
+$$
+
+
+In summary, this means that for $B$-[[tuples]] of [[linear maps]] $(P_b \colon \mathscr{H} \to \mathscr{H})_{b \colon B}$ as in (eq:MapsUnderlyingAlgebraStructureOverLinearReaderMonad) to constitute a $\bigcirc_B$-module structure is equivalent to them being
+systems of orthogonal linear [[projection operators]], whose [[images]] 
 
 $$
   \mathscr{H}_b \;\coloneqq\; im(P_b) \;\subset\; \mathscr{H}
 $$
 
-span $\mathscr{H}$ under [[direct sum]]:
+[[linear span|span]]$\;$ $\mathscr{H}$ under [[direct sum]]:
 
 $$
   \mathscr{H}
@@ -274,6 +344,8 @@ $$
   \mathscr{H}_b
   \,.
 $$
+
+Such structures, of course, are exactly the images under the right [[base change]] $\underset{B}{\prod} \;\colon\; Vect_B \longrightarrow{\;} Vect$ of $B$-[[indexed sets]] of vector spaces.
 
 Finally, the [[homomorphism]]-property on a [[linear map]] $\mathscr{H} \xrightarrow{\phi} \mathscr{H}'$ between the underlying vector spaces of two such $\bigcirc_B$-modules demands that the following [[commuting diagram|diagram commutes]]:
 
@@ -306,7 +378,10 @@ $$
     }
     \\
     \mathscr{H}
-    &\xrightarrow{\;\;\; \phi \;\;\;}&
+    &
+    \underset{\phantom{---} \phi \phantom{---} }
+      {\longrightarrow}
+    &
     \mathscr{H}'
     \,.
   }
@@ -341,7 +416,7 @@ $$
   \mathscr{H}_b \longrightarrow \mathscr{H}'
   \,.
 $$
-But this is the defining property of morphisms in $Vect_B$.
+This is the defining property of morphisms in $Vect_B$ and hence shows that $\bigcirc_B$-algebra homomorphisms are equivalently morphisms of $B$-[[indexed sets]] of vector spaces, hence that the two [[categories]] are [[equivalence of categories|agree]].
 \end{proof}
 
 
