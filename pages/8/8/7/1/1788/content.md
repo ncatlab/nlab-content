@@ -199,16 +199,54 @@ Direct inspection shows that one may reversibly transmute such $bind$- and $join
 
 ## something else
 
+While the $B$-[[reader monad]] on [[Set]] is induced from the [[base change]] [[adjunction]] as $\bigcirc_B(-) \,\coloneqq\, \underset{B}{\prod} \big( B \times (-) \big)$, the functor $\underset{B}{\prod} \;\colon\; Set_{/B} \xrightarrow{--} Set$ is *not* in general a [[monadic functor]], so that $B$-reader-[[algebras over a monad|algebras]] are not in general [[equivalence of categories|equivalent]] to $B$-[[indexed sets]].
+
+However, this situation changes for [[dependent linear types]] which have [[biproducts]], such as $B$-[[indexed sets]]  of [[vector spaces]] (these we may think of as "quantum reader monads", see the discussion at *[Quantum Modal Logic](necessity+and+possibility#ModalQuantumLogic)*):
+
+\begin{proposition}
+For $B \;\in\;$ [[FiniteSets]] the [[category]] of [[algebra over a monad|algebras]] for the $B$-[[reader monad]]
+
 $$
-  \rho^\bigcirc_{\mathscr{H}}
-  \;\colon\;
-  \underset{b \colon B}{\oplus}
-  \mathscr{H}
-  \xrightarrow{\phantom{-}(P_b)_{b \colon B}\phantom{-}}
-  \mathscr{H}  
+  \array{
+    \bigcirc_B 
+    \colon
+    &
+    Vect 
+    &\xrightarrow{\phantom{---}}&
+    Vect 
+    \\
+    &
+    \mathscr{H}
+    &\mapsto&
+    Maps\big(B, \mathscr{H} \big)
+  }
 $$
 
-and
+on the category $Vect$ of [[vector spaces]] (over any given [[ground field]]) is [[equivalence of categories|equivalent]] to that of [[vector bundles]] over $B$ (hence to $B$-[[indexed sets]] of [[vector spaces]]):
+$$
+  EM\big(
+    \bigcirc_B 
+  \big)
+  \;\;\simeq\;\;
+  Vect_B
+  \,.
+$$
+
+\end{proposition}
+\begin{proof}
+ We state first an abstract proof and then a concrete proof.
+
+Abstractly, observe that [[Vect]] has (finite) [[biproducts]] (given by the [[direct sum]] of vector spaces) which together with the assumption that $B$ is [[finite set|finite]] implies that $\underset{B}{\prod} \;\colon\; Vect_B \xrightarrow{\;} Vect$:
+
+1. is not only a [[right adjoint]] but also a [[left adjoint]] (hence an [[ambidextrous adjunction|ambidextrous adjoint]] to [[pullback of vector bundles]] along $B \to \ast$), [[left adjoints preserve colimits|hence]] in particular [[preserved colimit|preserves]] all [[colimits]]
+
+1. is a [[conservative functor]] (since the $B$-components of any morphism of vector bundles over $V$ can still be extracted via ([[coprojection|co-]])[[projections]] from their image under forming the [[biproduct]] over $B$).
+
+Therefore conditions of the [[monadicity theorem]] are met (see [here](monadicity+theorem#CrudeMonadicityTheorem)), implying that the functor is [[monadic functor]], which in turn implies the claim.
+
+Concretely, we unwind what it means for a vector space to carry $\bigcirc_B$-algebra structure.
+
+First observe that the $\bigcirc_B$-[[monad]] product $\mu \;\colon\; \bigcirc_B \bigcirc_B \xrightarrow{\mu} \bigcirc_B$ on a [[vector space]] $\mathscr{H} \,\in\, Vect$ are explicitly given by:
 
 $$
   \array{
@@ -233,7 +271,20 @@ $$
   }
 $$
 
-hence
+and that the a $\bigcirc_B$-algebra structure on $\mathscr{H}$ is a linear map of this form:
+
+$$
+  \rho^\bigcirc_{\mathscr{H}}
+  \;\colon\;
+  \underset{b \colon B}{\oplus}
+  \mathscr{H}
+  \xrightarrow{\phantom{-}(P_b)_{b \colon B}\phantom{-}}
+  \mathscr{H}  
+  \,.
+$$
+
+Of such maps, the $\bigcirc_B$-algebra property demands that 
+
 
 $$
   \array{    
@@ -291,10 +342,101 @@ $$
   }
 $$
 
-have to be equal, which implies that the $P_b$ are a system of normal projectors
+are equal. By considering these maps on [[tuples]] of [[vectors]] $\big(\psi_{b,b'}\big)_{b,b' \colon B}$ which are non-[[zero]] only for single elements $(b,b') \in B \times B$ one finds that this condition is equivalent to the condition
 
-(... )
+$$
+  \underset{b, b' \colon B}{\forall} \;\;\; P_b \circ P_{b'} \;=\; 
+  \array{
+    P_b &\text{if} \; b = b'
+    \\
+    0  & \text{otherwise}
+  }
+$$
 
+This says that the $(P_b) \colon \mathscr{H} \to \mathscr{H}$ are a system of orthogonal linear [[projection operators]], whose [[images]] 
+
+$$
+  \mathscr{H}_b \;\coloneqq\; im(P_b) \;\subset\; \mathscr{H}
+$$
+
+span $\mathscr{H}$ under [[direct sum]]:
+
+$$
+  \mathscr{H}
+  \;\simeq\;
+  \underset{b \colon B}{\bigoplus}
+  \mathscr{H}_b
+  \,.
+$$
+
+Finally, the [[homomorphism]]-property on a [[linear map]] $\mathscr{H} \xrightarrow{\phi} \mathscr{H}'$ between the underlying vector spaces of two such $\bigcirc_B$-modules demands that the following [[commuting diagram|diagram commutes]]:
+
+$$ 
+  \array{
+    \underset{b \colon B}{\bigoplus}
+    \mathscr{H}
+    &\xrightarrow{\;\;\;
+      \underset{b \colon B}{\oplus}
+    \;\;\;}&
+    \underset{b \colon B}{\bigoplus}
+    \mathscr{H}
+    \\
+    \mathllap{
+      {}^{
+      \big(
+        P_b 
+      \big)_{b \colon B}
+      }
+    }
+    \big\downarrow
+    &&
+    \big\downarrow
+    \mathrlap{
+      {}^{
+      \big(
+        P'_b 
+      \big)_{b \colon B}
+      }
+    }
+    \\
+    \mathscr{H}
+    &\xrightarrow{\;\;\; \phi \;\;\;}&
+    \mathscr{H}'
+    \,.
+  }
+$$ 
+
+The $B$-indexed components of this condition require that $\phi$ commutes with all these [[projection operators]], in that
+
+$$
+  b \colon B
+  \;\;\;\;
+  \vdash
+  \;\;\;\;
+  P'_b \circ \phi
+  \;=\;
+  \phi \circ P_b
+  \,.
+$$
+
+But this evidently means that $\phi$ itself is the image under the [[direct sum]]-[[functor]] 
+$$
+  \phi
+  \;=\;
+  \underset{b \colon}{\oplus}
+  \phi_b
+$$
+of a $B$-[[tuple]] of [[linear maps]] between the $B$-indexed component spaces:
+$$
+  b \colon B
+  \;\;\;
+  \colon
+  \;\;\;
+  \mathscr{H}_b \longrightarrow \mathscr{H}'
+  \,.
+$$
+But this is the defining property of morphisms in $Vect_B$.
+\end{proof}
 
 
 
