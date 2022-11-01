@@ -5,7 +5,7 @@
 
 ## Idea
 
-A _coinvariant_ is [[duality|dual]] to an [[invariant]].
+The notion of _coinvariant_ is [[duality|dual]] to that of *[[invariant]]*.
 
 
 ## Definitions
