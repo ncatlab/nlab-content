@@ -79,6 +79,7 @@ because a conservative functor [[reflected limit|reflects]] any limits or colimi
 ## Variants
 
 ### The crude monadicity theorem
+ {#CrudeMonadicityTheorem}
 
 The __crude monadicity theorem__ gives a *sufficient*, but not necessary, condition for a functor to be monadic.  It states that a functor $U : D \rightarrow C$ is [[monadic]] if
 
