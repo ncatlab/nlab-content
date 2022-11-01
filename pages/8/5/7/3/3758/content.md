@@ -71,6 +71,8 @@ In this formulation the [[k-morphism|(n-1)-morphism]] in $\mathcal{C}$ assigned 
 
 ## Related concepts
 
+* [[potentiality]]
+
 [[!include states and observables -- content]]
 
 \linebreak
