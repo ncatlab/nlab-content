@@ -17,6 +17,8 @@ Regarding the [[modality|modal]] nature of [[quantum states]] in [[quantum physi
 
 See also
 
+* Stanford Encyclopedia of Philosophy, [Aristotle's Metaphysics: Actuality and Potentiality](https://plato.stanford.edu/entries/aristotle-metaphysics/#ActuPote)
+
 * Wikipedia, *[Potentiality and actuality](https://en.wikipedia.org/wiki/Potentiality_and_actuality#Potentiality)*
 
 
