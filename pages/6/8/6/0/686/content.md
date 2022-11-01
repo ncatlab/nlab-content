@@ -61,7 +61,7 @@ Any ordinary 1-limit can be made into a strict 2-limit simply by boosting up its
 
 * For example, a strict terminal object is an object 1 such that $K(X,1)$ is _isomorphic_ to the [[terminal category]], for any object $X$.
 
-* Likewise, a strict product of $A$ and $B$ is an object $A\times B$ with projections $p:A\times B\to A$ and $q:A\times B\to B$ such that (1) given any $f:X\to A$ and $g:X\to B$, there exists a unique $h:X\to A\times B$ such thath $p h = f$ and $q h = g$ (equal, not isomorphic), and (2) given any $h,k:X\to A\times B$ and $\alpha: p h \to p k$ and $\beta:q h \to q k$, there exists a unique $\gamma:h\to k$ such that $p\gamma = \alpha$ and $q\gamma =\beta$.
+* Likewise, a strict product of $A$ and $B$ is an object $A\times B$ with projections $p:A\times B\to A$ and $q:A\times B\to B$ such that (1) given any $f:X\to A$ and $g:X\to B$, there exists a unique $h:X\to A\times B$ such thath $p h = f$ and $q h = g$ (equal, not isomorphic) (i.e. $A\times B$ is a [[product]] in the underlying [[1-category]]), and (2) given any $h,k:X\to A\times B$ and $\alpha: p h \to p k$ and $\beta:q h \to q k$, there exists a unique $\gamma:h\to k$ such that $p\gamma = \alpha$ and $q\gamma =\beta$.
 
 As mentioned above, adding **pseudo** in front of an ordinary limit has a precise meaning: it means that all the triangles in the limit cone now commute up to specified isomorphism, and the universal property is still expressed by an isomorphism of categories.  In particular, there is still a specified projection to _each_ object in the diagram.  For example:
 
