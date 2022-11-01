@@ -26,6 +26,7 @@ The notion that for certain tasks the power of [[quantum computation]] potential
 * [[quantum complexity theory]]
 
 ## References
+ {#References}
 
 ### General
 
