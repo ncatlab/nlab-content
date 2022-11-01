@@ -133,6 +133,11 @@ Exposition:
 
 * Robin Ducrocq, Michel Rausch de Traubenberg, Mauricio Valenzuela, *A pedagogical discussion of $N = 1$ four-dimensional supergravity in superspace* ([arXiv:2104.06671](https://arxiv.org/abs/2104.06671))
 
+Survey of the formulation in [[superspace]]:
+
+* S. M. Kuzenko, E. S. N. Raptakis, G. Tartaglino-Mazzucchelli, *Superspace approaches to $\mathcal{N} = 1$ supergravity*, *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.17088](https://arxiv.org/abs/2210.17088)&rbrack;
+
+
 See also:
 
 
