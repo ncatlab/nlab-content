@@ -167,7 +167,12 @@ What are the diagrams for this?  I seem to recall that we need a [[distributive 
 
 * {#Blass} [[Andreas Blass]], _Classifying topoi and the axiom of infinity_ , Algebra Universalis **26** (1989) pp.341-345.
 
-* {#JT77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint Minneola 2014, chap. 6)
+* {#JT77}[[Peter Johnstone]], _Topos Theory_, Academic Press New York 1977. (Dover reprint Minneola 2014, chap. 6)
+
+The list [[monad]] as a [[monad in computer science]]:
+
+* [[Tarmo Uustalu]], p.25 of: *Monads and Interaction Lecture 1* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf), [[Uustalu-Monads1.pdf:file]]&rbrack;, lecture notes for [MGS 2021](https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html) (2021):
+
 
 [[!redirects list]]
 [[!redirects lists]]
