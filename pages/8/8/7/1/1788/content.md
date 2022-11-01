@@ -5,6 +5,10 @@
 
 [[QCwthLHT-QuantumModalUnits-221101.jpg:file]]
 
+[[LinearTypesAsModalModules-221101.jpg:file]]
+
+[[TheFourModalitiesOfBaseChange-221101b.jpg:file]]
+
 ## Idea
 
 In [[programming language|programming]] it frequently happens that a [[program]] with "nominal" output [[data type]] $D_2$ *de facto* outputs data of some modified type $T(D)$ due to "external effects", where 
