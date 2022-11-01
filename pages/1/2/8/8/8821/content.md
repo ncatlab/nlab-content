@@ -95,6 +95,7 @@ At the other extreme, a [[zero object]] is a strict initial object only if the c
 
 * [[formal dual]] concept: [[strict terminal object]]
 
+* [[weakly initial object]]
 
 ## References
 
