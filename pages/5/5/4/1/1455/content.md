@@ -19,7 +19,7 @@
 
 ## Idea
 
-An _algebra over an endofunctor_ is like an [[algebra over a monad]], but without a notion of [[associativity]] (which would not make sense).
+An _algebra over an endofunctor_ is like an [[algebra over a monad]], but without a notion of [[associativity]] (given that a plain [[endofunctor]] is not equipped with a multiplication-operation that would make it a [[monad]]).
 
 
 ## Definition
@@ -35,21 +35,23 @@ $$
   \array{ 
     F(X) 
     & 
-    \stackrel{F(m)}{\rightarrow} 
+    \overset{F(m)}{\longrightarrow} 
     & 
     F(Y) 
     \\ 
-    \alpha\downarrow 
+    \mathllap{{}^{\alpha}}\big\downarrow 
     && 
-    \downarrow \beta 
-    \\ X 
+    \big\downarrow\mathrlap{{}^{\beta}}
+    \\ 
+    X 
     & 
-    \stackrel{m}{\rightarrow} & Y 
+    \underset{m}{\longrightarrow} & Y 
   }
   \,. 
 $$
 
-[[composition|Composition]] of such morphisms of algebras is given by composition of the underlying morphisms in $C$.  This yields the [[category]] of $F$-algebras, which comes with a forgetful functor to $C$.
+[[composition|Composition]] of such homomorphisms of algebras is given by composition of the [[underlying]] morphisms in $C$.  This yields the [[category]] of $F$-algebras, which comes with a [[forgetful functor]] to $C$.
+
 =--
 
 +-- {: .num_remark}
