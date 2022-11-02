@@ -344,6 +344,14 @@ In particular, monads as used in [[Haskell]] are really strong/enriched monads, 
 
 Yet more structure on effect-monads is available in [[dependent type theories]] with [[type universes]], where one may demand that the monad operation $D \mapsto T(D)$ is not just an [[endofunction]] on the [[set]] of [[types]], but an [[endomorphism]] of the [[type universe]]. At least for [[idempotent monads]] this case is further discussed at *[[reflective subuniverse]]* and *[[modal type theory]]* and maybe elsewhere.
 
+### Further extension: Monad modules
+ {#MonadModulesInIdeaSection}
+
+If a monad $T$ encodes an effect, then a $T$-[[module over a monad|module]] (also: "$T$-[[algebra over a monad|algebra]]") encodes the *handling* of this effect by the program, re-absorbing it into its data.
+
+(e.g. [Uustalu (2021), Lec. 2](#Uustalu21Lecture2))
+
+(...)
 
 
 ## Examples
@@ -352,21 +360,44 @@ Yet more structure on effect-monads is available in [[dependent type theories]] 
 
 ### Definable monads
 
-Various monads are _definable_ in terms of standard [[type formation|type-forming operations]] (such as [[product types]], [[function types]], etc.). These include the following:
+Various monads are _definable_ in terms of standard [[type formation|type-forming operations]] (such as [[product types]], [[function types]], etc.). These include the following.
 
-* A [[functional program]] with input of [[type]] $X$, output of [[type]] $Y$ and mutable state $S$ is a [[function]] ([[morphism]]) of [[type]] $X \times S \longrightarrow Y \times S$. Under the ([[Cartesian product]] $\dashv$ [[internal hom]])-[[adjunction]] this is equivalently given by its [[adjunct]], which is a function of type $X \longrightarrow [S, S \times Y ]$. Here the operation $[S, S\times (-)]$ is the [[monad]] induced by the above adjunction and this latter function is naturally regarded as a morphism in the [[Kleisli category]] of this monad. This monad $[S, S\times (-)]$ is called the _[[state monad]]_ for mutable states of type S.
+* The *[[maybe monad]]* encodes possible controlled failure of a program to execute.
 
-* The **[[maybe monad]]** is the operation $X \mapsto X \coprod \ast$. The idea here is that a function $X \longrightarrow Y$ in its [[Kleisli category]] is in the original category a function of the form $X \longrightarrow Y \coprod \ast $ so either returns indeed a value in $Y$ or else returns the unique element of the [[unit type]]/[[terminal object]] $\ast$. This is then naturally interpreted as "no value returned", hence as indicating a "failure in computation".
+* An *[[exception monad]]*, more generally, encodes possible controlled failure together with the output of an error "message" in the general form of data of some type.
 
-* The maybe monad is a special case of the **[[exception monad]]**.
+* The *[[reader monad]]* encodes reading out a global parameter.
 
-* The **[[continuation monad]]** for a given type $S$ acts by $X \mapsto [[X,S],S]$.
+* The *[[coreader comonad]]* encodes re-setting a global parameter.
 
-* A number of further monads are similarly *definable* in terms of standard type-forming operations, such as the [[reader monad]] and the [[writer comonad]].
+* The *[[state monad]]* encodes the possibility of *reading followed by re-setting* a global parameter  -- this provides a notion of *[[random access memory]]*.
 
-  Given a [[type]] $W$, the **[[reader monad]]** is the operation of forming the [[function type]] $[W,-] = (W\to (-))$; the [[writer monad]] and the **[[writer comonad]]** are the operations of forming the [[product type]] $W\times (-)$, and the composite of writer followed by reader is the [[state monad]] $[W, W \times (-)]$.
+* The *[[writer monad]]* encodes writing *consecutively* into a global resource, such as for a [[stream]].
 
-  When $W$ carries the structure of a [[monoid object]] then writer also inherits the structure of a monad (on top of being a comonad) and converse for reader.
+* The *[[continuation monad]]* encodes [[continuation-passing style]] of program execution.
+
+
+
+#### State monad and Random access memory
+
+A [[functional program]] with input of [[type]] $X$, output of [[type]] $Y$ and mutable state $S$ is a [[function]] ([[morphism]]) of [[type]] $X \times S \longrightarrow Y \times S$. Under the ([[Cartesian product]] $\dashv$ [[internal hom]])-[[adjunction]] this is equivalently given by its [[adjunct]], which is a function of type $X \longrightarrow [S, S \times Y ]$. Here the operation $[S, S\times (-)]$ is the [[monad]] induced by the above adjunction and this latter function is naturally regarded as a morphism in the [[Kleisli category]] of this monad. This monad $[S, S\times (-)]$ is called the _[[state monad]]_ for mutable states of type S.
+
+
+#### Maybe monad and Controlled failure
+
+The **[[maybe monad]]** is the operation $X \mapsto X \coprod \ast$. The idea here is that a function $X \longrightarrow Y$ in its [[Kleisli category]] is in the original category a function of the form $X \longrightarrow Y \coprod \ast $ so either returns indeed a value in $Y$ or else returns the unique element of the [[unit type]]/[[terminal object]] $\ast$. This is then naturally interpreted as "no value returned", hence as indicating a "failure in computation".
+
+#### Exception monad and Exception handling
+
+(...) [[exception monad]] (...)
+
+#### Continuation monad and Continuation-passing
+
+The [[continuation monad]] on a given type $S$ acts by $X \mapsto [[X,S],S]$.
+
+(...)
+
+
 
 ### Axiomatic monads
 
@@ -461,13 +492,13 @@ Further discussion/exposition of (co)monads in computer science:
 
 * {#Uustalu21} [[Tarmo Uustalu]], lecture notes for [MGS 2021](https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html) (2021):
 
-  *Monads and Interaction Lecture 1* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf), [[Uustalu-Monads1.pdf:file]]&rbrack;
+  {#Uustalu21Lecture1} *Monads and Interaction Lecture 1* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf), [[Uustalu-Monads1.pdf:file]]&rbrack;
 
-  *Monads and Interaction Lecture 2* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs2.pdf), [[Uustalu-Monads2.pdf:file]]&rbrack;
+  {#Uustalu21Lecture2} *Monads and Interaction Lecture 2* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs2.pdf), [[Uustalu-Monads2.pdf:file]]&rbrack;
 
-  *Monads and Interaction Lecture 3* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs3.pdf), [[Uustalu-Monads3.pdf:file]]&rbrack;
+  {#Uustalu21Lecture3} *Monads and Interaction Lecture 3* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs3.pdf), [[Uustalu-Monads3.pdf:file]]&rbrack;
 
-  *Monads and Interaction Lecture 4* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs4.pdf), [[Uustalu-Monads4.pdf:file]]&rbrack;
+  {#Uustalu21Lecture4} *Monads and Interaction Lecture 4* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs4.pdf), [[Uustalu-Monads4.pdf:file]]&rbrack;
 
 
 
