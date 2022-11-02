@@ -2,13 +2,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Computation
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+#### Categorical algebra
++-- {: .hide}
+[[!include categorical algebra -- contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
-=--
-#### Constructivism, Realizability, Computability
-+-- {: .hide}
-[[!include constructivism - contents]]
 =--
 =--
 =--
@@ -24,7 +28,7 @@ In [[computer science]], a _monad_ describes a "notion of computation".  Formall
 
 * sends every [[type]] $X$ of some given [[programming language]] to a new type $T(X)$ (called the "type of $T$-computations with values in $X$");
 
-* is equipped with a rule for composing two [[functions]] of the form $f : X \to T(Y)$ (called _[[Kleisli functions]]_) and $g : Y \to T(Z)$ to a function $g \circ f : X \to T (Z)$ (their [[Kleisli composition]]);
+* is equipped with a rule for composing two [[functions]] of the form $f \colon X \to T(Y)$ (called _[[Kleisli functions]]_) and $g \colon Y \to T(Z)$ to a function $g \circ f : X \to T (Z)$ (their [[Kleisli composition]]);
 
 * is in a way that is [[associativity law|associative]] in the evident sense and [[unit law|unital]] with respect to a given unit function called $pure_X : X \to T(X)$, to be thought of as taking a value to the pure computation that simply returns that value.
 
@@ -203,7 +207,7 @@ Further discussion/exposition of (co)monads in computer science:
 
 * {#Harper} [[Robert Harper]], _Of course ML Has Monads!_ (2011) ([web](http://existentialtype.wordpress.com/2011/05/01/of-course-ml-has-monads/))
 
-* {#Benton15} [[Nick Benton]], _Categorical Monads and Computer Programming_, ([pdf](https://www.lms.ac.uk/sites/lms.ac.uk/files/2.%20Benton%20-%20Categorical%20Monads%20and%20Computer%20Programming.pdf))
+* {#Benton15} [[Nick Benton]], _Categorical Monads and Computer Programming_, in: *[Impact150: stories of the impact of mathematics](https://www.lms.ac.uk/2015/impact150-stories-impact-mathematics)*. London Mathematical Society (2015)  &lbrack;[pdf](https://www.lms.ac.uk/sites/lms.ac.uk/files/2.%20Benton%20-%20Categorical%20Monads%20and%20Computer%20Programming.pdf), [[Benton-CategoricalMonads.pdf:file]], [doi:10.1112/i150lms/t.0002](https://www.lms.ac.uk/2015/impact150-stories-impact-mathematics)&rbrack;
 
 * {#Riehl17} [[Emily Riehl]], *A categorical view of computational effects*, talk at *[C$\circ$mp$\circ$se$\colon\!\colon$Conference](https://www.composeconference.org/2017/)* (2017) &lbrack;[pdf](http://www.math.jhu.edu/~eriehl/compose.pdf), [[Riehl-ComputationalEffects.pdf:file]]&rbrack;
 
