@@ -95,14 +95,18 @@ This applies immediately to $C = Set$, as this is a cocomplete [[cartesian close
 ## Examples
 
 *  If $S$ is the [[empty set]], then $S^*$ consists only of the empty list; it is the trivial monoid, one manifestation of the [[point]].
+
 *  If $S$ is the point, then $S^*$ is $\mathbf{N}$; the only information in a list of indistinguishable points is the length of the list.  The monoid operation on $\mathbf{N}$ is addition.
+
 *  If $S$ is $\mathbf{N}$, then $\mathbf{N}^*$ is still a [[denumerable set]].  But note that $\mathbf{N} \cong \mathbf{N}^*$ only as sets (that is, ${|\mathbf{N}^*|} = {|\mathbf{N}|} = \aleph_0$ as [[cardinal numbers]]); they are quite different as monoids.
+
 *  Generalising the above, ${|S^*|} = {|S|}$ is $S$ is an [[infinite set]], or more generally ${|S^*|} = max(\aleph_0,S)$ if $S$ is an [[inhabited set]].  (These theorems probably require the [[axiom of choice]], but I haven\'t checked thoroughly.)
 
+In [[computer science]], the free monoid on a given [[alphabet]] is the [[categorical semantics]] for the [[data type]] "[[String (computer science)|String]]" with characters in that alphabet.
 
 ## The free monoid monad
 
-If the free monoid functor $F\colon Set \to Mon$ is followed by the forgetful functor $U\colon Mon \to Set$, then we get a [[monad]] on $Set$.  This monad is very important in [[computer science]], where it is known as the __list monad__.
+If the free monoid functor $F\colon Set \to Mon$ is followed by the forgetful functor $U\colon Mon \to Set$, then we get a [[monad]] on $Set$.  This monad is very important in [[computer science]], where it is known as the __[[list monad]]__.
 
 The list monad bears the same relation to [[multicategories]] as the [[identity monad]] on $Set$ bears to ordinary [[categories]].  This relation should be explained at [[generalized multicategory]].
 
@@ -148,6 +152,10 @@ What are the diagrams for this?  I seem to recall that we need a [[distributive 
 
 
 ## Related concepts
+
+* [[list]]
+
+* [[string (computer science)]], [[stream]]
 
 * [[classifying topos for the theory of objects]]
 
