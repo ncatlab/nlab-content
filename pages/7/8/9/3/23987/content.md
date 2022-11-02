@@ -243,6 +243,8 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
   **Topological quantum states for quantum computing and metrology**
 
+  video: [rec](https://zoom.us/rec/play/C9FIF3w8M7p-sLNwtoTgywtsVY4F0c3ta-_dVYz71dLtqlAY1lUN_eYeeDjSrGFRZOIXrpufLlCCRUFj.UVvwJke1wgatH3ld?continueMode=true&iet=zsBuHUCJzvE3H2PaTuMGttQDBizWU5azmHiGOumYdCw.AG.xAZVLsivejisWxE0NsdP_T2V_IwMdelb0TE50GXWfwmrrG_hrmggbEioQbR0UNcAN3cDd02RmPjuNw8cBJddTCpvkIs39kErHpcQ9dpL68jEAPo.oPVriiO1MtUW5qCjcj-_gQ.gVeUtka3H4pKyvKW&_x_zm_rtaid=XdmVwP1bTcqHQXfyCJBkGQ.1667379052963.a3fc19b1a88d43cc4ce525059f7ce542&_x_zm_rhtaid=807)
+
   * Part I -- *Quantum teleportation of Majorana Zero Modes*
 
     slides: [[Byrnes-TopologicalQuantumStates.pdf:file]]
@@ -440,10 +442,11 @@ Stone-von Neumann**
 
   **The smooth Oka principle**
 
+  video: [rec](https://zoom.us/rec/play/zbBe8bZrCUaHoSKmBc00aaDZcSOT4rq_MM-HVjGt7vDt9Lvd_3mNA05lwPUmepOB1Ra5lXor41XLB1Ag.qmFDwX1tjPy8M4sh?continueMode=true&iet=Kmr3DOjJb1qTnxTfDovisY_suPVrnxLj4u8WYsw0cXk.AG.qC5ky7Wu8GA5vScNB42aYhzlh1gg9tOyF6lgg7xSIdAOq2frtqqnFMVoQW_hHB4vSBNQj0Eq69rPm6eLCjo-CWSw9FxWBzV5NM-oQ1PDwEbqMcE.eNG8nnvyuDV2rxZHIc2GvA.TT-h-eb0A8dPgKDq&_x_zm_rtaid=XdmVwP1bTcqHQXfyCJBkGQ.1667379052963.a3fc19b1a88d43cc4ce525059f7ce542&_x_zm_rhtaid=807)
+
   notes: [pdf](https://github.com/adrianclough/adrianclough.github.io/raw/main/The%20smooth%20Oka%20principle%206.pdf)
 
   > on [Clough 2021](shape+via+cohesive+path+∞-groupoid#Clough21)
-
 
 > The infinity topos of differentiable sheaves contains all smooth manifolds as a full subcategory and has excellent formal properties. In particular, it admits an intrinsic notion of underlying homotopy type of any differentiable sheaf, which coincides with classical constructions such as taking smooth total singular complexes. Moreover, there is a canonical sense in which the mapping sheaf between any two differentiable sheaves may have the correct homotopy type. This latter notion is reminiscent of the Oka principle in complex geometry. In this talk I will show how to exhibit the Oka principle in the smooth setting using model structures and other homotopical calculi on the infinity topos of differentiable sheaves. 
 
@@ -465,6 +468,8 @@ Stone-von Neumann**
 
   **Topological Wick Rotation and Holographic Dualities**
 
+  video: [rec](https://zoom.us/rec/play/mrTkGgyx0G9iAjHUoDTGgZaQxdFMpbgsu2gD8N-YPm1lhvw4qsPfRmieIg0VN9cHEbhVCoH0EG41shSi.QpERsN3hWIRaHQ4L?continueMode=true&iet=RGyJowYxQz9V9d_wDNIhAuiEFxGKQ2-F4E-ZX0oPA4k.AG.5P3AQnZmpSkg-Q2LjEK42pRDG4QEtAwPi81dF_RQ9Lkt-dTS5N4qZEvt6fJqGFFtk-3m20u6tytOkKBhPnj9_2QkSj6NXj0nPfVMY3Faw1qpj5k.9w1MqMWhKVo1zF1e-MCQhA.ZfTkXvGYighAp0vK&_x_zm_rtaid=XdmVwP1bTcqHQXfyCJBkGQ.1667379052963.a3fc19b1a88d43cc4ce525059f7ce542&_x_zm_rhtaid=807)
+
   slides: [[Kong-TalkAtCQTS-20221019.pdf:file]]
 
   > on [[topological order]], [[braided fusion categories]] and the [[holographic principle]]
@@ -476,6 +481,8 @@ Stone-von Neumann**
   [[Urs Schreiber]] (NYU Abu Dhabi, [[CQTS]])
 
   **Quantum Programming via Linear Homotopy Types**
+
+  > on the [[quantum programming language]]-scheme *[[schreiber:QS]]*
 
 
 \linebreak
