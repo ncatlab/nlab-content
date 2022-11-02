@@ -2,7 +2,13 @@
 
 * [webpage](http://research.microsoft.com/en-us/um/people/nick/)
 
-## related $n$Lab entries
+## Selected writings
+
+On [[monads in computer science]]:
+
+* {#Benton15} [[Nick Benton]], _Categorical Monads and Computer Programming_, in: *[Impact150: stories of the impact of mathematics](https://www.lms.ac.uk/2015/impact150-stories-impact-mathematics)*. London Mathematical Society (2015)  &lbrack;[pdf](https://www.lms.ac.uk/sites/lms.ac.uk/files/2.%20Benton%20-%20Categorical%20Monads%20and%20Computer%20Programming.pdf), [[Benton-CategoricalMonads.pdf:file]], [doi:10.1112/i150lms/t.0002](https://www.lms.ac.uk/2015/impact150-stories-impact-mathematics)&rbrack;
+
+## Related entries
 
 * [[linear type theory]]
 
