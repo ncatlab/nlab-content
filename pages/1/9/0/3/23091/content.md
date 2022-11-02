@@ -36,6 +36,7 @@ Textbook accounts of [[homotopy theory]] of [[topological spaces]] (i.e. via "[[
 
 * [[Jeffrey Strom]], *Modern classical homotopy theory*, Graduate Studies in Mathematics Vol. 127, American Mathematical Society (2011) $[$[doi:10.1090/gsm/127](http://www.ams.org/books/gsm/127/)$]$
 
+* [[Martin Arkowitz]], *Introduction to Homotopy Theory*, Springer (2011) $[$[doi:10.1007/978-1-4419-7329-0](https://doi.org/10.1007/978-1-4419-7329-0)$]$
 
 * [[Dai Tamaki]], *Fiber Bundles and Homotopy*, World Scientific 2021 ([doi:10.1142/12308](https://doi.org/10.1142/12308))
 
