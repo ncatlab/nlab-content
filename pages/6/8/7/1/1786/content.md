@@ -160,11 +160,12 @@ where $h : \prod_{x : S^1} x = x$ is defined in Lemma 6.4.2 of the [[HoTT book]]
 
 * [[k-tuply associative n-groupoid]]
 
+
 ## References
 
 Introduction and survey:
 
-* {#Arkowitz11} [[Martin Arkowitz]], _H-Spaces and Co-H-Spaces_, chapter 2 in _Introduction to homotopy theory_, Springer 2011 
+* {#Arkowitz11} [[Martin Arkowitz]], *H-Spaces and Co-H-Spaces*, chapter 2 in: *Introduction to homotopy theory*, Springer (2011) 37-70 &lbrack;[doi:10.1007/978-1-4419-7329-0_2](https://doi.org/10.1007/978-1-4419-7329-0_2)&rbrack; 
 
 The terminology "$H$-space" is a definition in a Chapter IV, Section 1 (dedicated to loop spaces) of 
 
