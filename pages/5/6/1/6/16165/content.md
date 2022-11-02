@@ -19,6 +19,11 @@
 
 The concept of [[type]] of [[data]] in [[computer science]].
 
+## Examples
+
+* [[Bool]], [[bit]], [[qbit]]
+
+* [[String (computer science)]]
 
 ## Related concepts
 
