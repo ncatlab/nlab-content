@@ -5,10 +5,24 @@
 
 ## Idea
 
+In [[computer science]], a _monad_ is a kind of [[data type]]-structure which describes "notions of computations which may cause or be subject to *side effects*" -- such as involving [[IO-monad|input/output]], [[exception monad|exception handling]], [[writer monad|writing to]] or [[reader monad|reading from]] global variables,  etc. -- as familiar from [[imperative programming]] but cast as "pure functions" with deterministic and [[verified programming|verifiable behaviour]], in the style of [[functional programming]].
+
+In short, a (Kleisli-style) monad in a given [[programming language]] consists of *assignments* (but see [below](#RefinedIdea)):
+
+1. to any [[data type|data]] [[type]] $D$ of a new data type $T(D)$ of "$D$-data with $T$-effects",
+
+1. to any [[pair]] of [[functions]] (programs) of the form $prog_{12} \colon D_1 \to T(D_2)$ and $prog_{23} \colon D_2 \to T(D_3)$ of a function $prog_{23}\big[prog_{12}(-)\big] : D_1 \to T (D_3)$ (their *binding* or *[[Kleisli composition]]*);
+
+1. to any [[data type|data]] [[type]] $D$ of a function $ret_D \;\colon\; D \to T(D)$ assigning "trivial $T$-effects",
+
+such that the binding is [[associativity|associative]] and also [[unitality|unital]] with respect to the return operation.
+
+
+
 ### Basic idea: External monads
  {#BasicIdea}
 
-In [[programming language|programming]] it frequently happens that a [[program]] with "nominal" output [[data type]] $D$ *de facto* outputs data of some modified type $T(D)$ due to "external effects", where 
+In [[programming language|programming]] it frequently happens that a [[program]] with "nominal" output [[data type]] $D$ *de facto* outputs data of some modified type $T(D)$ which accounts for "external effects" caused by or affecting the program, where 
 \[
   \label{MonadMapInIntroduction}
   D \;\mapsto\; T(D)
@@ -19,7 +33,7 @@ is some general operation sending [[data types]] $D$ to new data types $T(D)$.
 
 > Or, dually, if the program may fail and instead "throw an [[exception]] message" $msg \,\colon\,$ [[String (computer science)|String]], then its actual output data is *either* $d \colon D$ *or* $msg \colon String$, hence is of [[coproduct type]] $T(D) \,=\, D \sqcup String$.
 
-Given such a $T$-effectful program $prog_{12} \;\colon\; D_1 \to T(D_2)$ and given a subsequent program $prog_{23} \,\colon\, D_2 \to T(D_3)$ accepting input data of type $D_2$ and itself possibly involved in further effects of type $T(-)$, then the *naïve* [[composition]] of the two programs makes no sense (unless $T(D) = D$ is actually the trivial sort of effect), but their evident *intended* composition is, clearly, obtained by: 
+Given such a $T$-effectful program $prog_{12} \;\colon\; D_1 \to T(D_2)$ and given a subsequent program $prog_{23} \,\colon\, D_2 \to T(D_3)$ accepting nominal input data of type $D_2$ and itself possibly involved in further effects of type $T(-)$, then the *naïve* [[composition]] of the two programs makes no sense (unless $T(D) = D$ is actually the trivial sort of effect), but their evident *intended* composition is, clearly, obtained by: 
 
 1. first adjusting $prog_{23}$ via a given prescription
 
@@ -124,17 +138,17 @@ Notice that the [[associativity]] condition (eq:AssociativityConditionInIntroduc
 
 In summary, a choice of *assignments* (but see [below](#RefinedIdea)) to [[data types]] $D_i$ of
 
-1. $T(D) \;\colon\; Type$
+1. $T(D) \;\colon\; Type$,
 
-   types of effectful data of nominal type $D$ (eq:MonadMapInIntroduction)
+   namely of types of effectful data of nominal type $D$ (eq:MonadMapInIntroduction);
 
-2. $\array{\\ bind_{D_1, D_2} \colon & Hom\big(D_1,\, T D_2\big) &\longrightarrow& Hom\big(T D_1,\,T D_2\big) \\ & prog &\mapsto& prog[-]}$
+2. $\array{\\ bind_{D_1, D_2} \colon & Hom\big(D_1,\, T D_2\big) &\longrightarrow& Hom\big(T D_1,\,T D_2\big) \\ & prog &\mapsto& prog[-]}$,
 
-   how to execute a prog while carrying along any previous effects (eq:BindingLawInIntroduction)
+   namely of how to execute a prog while carrying along any previous effects (eq:BindingLawInIntroduction);
 
-3. $ret_D \;\colon\; D \to T D$
+3. $ret_D \;\colon\; D \to T D$,
 
-   how to regard plain $D$-data as trivially effectful (eq:ReturnMapInIntroduction)
+   namely of how to regard plain $D$-data as trivially effectful (eq:ReturnMapInIntroduction)
 
 subject to:
 
@@ -142,13 +156,15 @@ subject to:
 
 1. the [[unitality]] condition (eq:UnitalityInIntroduction) 
 
-is called a *[[monad in computer science]]* (also: "[[Kleisli triple]]" in [[functional programming]]) and serves to encode the notion that all programs may be subject to certain *external effects*.
+is called a *[[monad in computer science]]* (also: "[[Kleisli triple]]" in [[functional programming]]) and serves to encode the notion that all programs may be subject to certain *external effects* of a kind that is specified by the above choices of monad operations.
 
-Here, for the time being, we write $Hom(D_1, D_2)$ for the *[[set]]* of programs/functions taking data of type $D_1$ to data of $D_2$ (the *[[hom set]]* in the plain [[category]] of [[types]]).
+Here, for the time being (but see [below](#RefinedIdea)), we write $Hom(D_1, D_2)$ for the *[[set]]* of programs/functions taking data of type $D_1$ to data of $D_2$ (the *[[hom set]]* in the plain [[category]] of [[types]]).
 
-> The running example above is known as the *[[writer monad]]*, since it encodes the situation where programs may have the additional effect of writing a message string into a given buffer.
+> The first running example above is known as the *[[writer monad]]*, since it encodes the situation where programs may have the additional effect of writing a message string into a given buffer.
 
-The structure making such a [[monad]] may and often is encoded in different equivalent ways: Alternatively postulating operations
+> The other running example above is naturally called the *[[exception monad]]*.
+
+The above structure making such a [[Kleisli category|Kleisli-style]] [[monad in computer science]] may and often is encoded in different equivalent ways: Alternatively postulating operations
 
 1. $D \mapsto T D$ (as before)
 
@@ -164,9 +180,9 @@ such that
 
 1. $join$ is [[associativity|associative]] and [[unitality|unital]] (with respect to $ret$) as a [[natural transformation]],
 
-yields the definition of *[[monad]]* traditionally used in [[category theory]] (namely as a [[monoid object]] [[internalization|in]] [[endofunctors]], here  on the [[category]] of [[data types]]).
+yields the definition of *[[monad]]* traditionally used in [[category theory]] (namely as a [[monoid object]] [[internalization|in]] [[endofunctors]], here  on the plain  [[category]] of [[data types]]).
 
-Direct inspection shows that one may [[bijection|bijectively]] transmute such $bind$- and $join$-operators into each other by expressing them as the following composites (using [[category theory]]-notation, for instance "ev" denotes the [[evalutation map]]):
+Direct inspection shows that one may [[bijection|bijectively]] transmute such $bind$- and $join$-operators into each other by expressing them as the following composites (using [[category theory]]-notation, for instance "ev" denotes the [[evaluation map]]):
 
 \[
   \label{TransformBetweenBindAndJoinInIntroduction}
@@ -216,18 +232,19 @@ Direct inspection shows that one may [[bijection|bijectively]] transmute such $b
   \end{array}
 \]
 
+
 ### Refined idea: Internal monads
  {#RefinedIdea}
 
-In fact, in [[functional programming]]-[[programming language|languages]] one typically considers an enhanced version of this situation: 
+But in fact, in [[functional programming]]-[[programming language|languages]] one typically considers an enhanced version of the above situation: 
 
-In these higher-order languages one has, besides the ([[hom-set|hom-]])*[[set]]* of programs/functionw $Hom\big(D_1, \, D_2\big)$ also the actual *[[data type]]* of functions, namely the *[[function type]]* $D_1 \to D_2$, which in terms of [[categorical semantics]] is the *[[internal hom]]-[[hom object|object]]* $Map(D_1, \, D_2)$. Therefore, in such languages (like [[Haskell]]) the [[type]] of the binding operation for given [[data types]] $D_1$, $D_2$ is actually taken to be the [[function type]]/[[internal hom]]
+In these higher-order languages one has, besides the ([[hom-set|hom-]])*[[set]]* of programs/functionw $Hom\big(D_1, \, D_2\big)$ also the actual *[[data type]]* of functions, namely the *[[function type]]* $D_1 \to D_2$, which in terms of [[categorical semantics]] is the *[[internal hom]]-[[hom object|object]]* $Map(D_1, \, D_2)$ in the [[cartesian closed category]] of [[data types]]. Therefore, in such languages (like [[Haskell]]) the [[type]] of the binding operation for given [[data types]] $D_1$, $D_2$ is actually taken to be the [[function type]]/[[internal hom]]
 
 $$
   \begin{array}{ll}
   bind_{D_1, D_2}
   \;\colon\;
-  &
+  &&
   \big(
      D_1 \to T D_2
   \big)
@@ -238,18 +255,16 @@ $$
     T D_2
   \big)
   \\
-  \simeq &
+  &\simeq &
   T D_1 
   \times
   \big(
      D_1 \to T D_2
   \big)
   \to
-  \big(
     T D_2
-  \big)
   \\
-  \simeq &
+  & \simeq &
   T D_1 
   \to 
   \Big(
@@ -257,257 +272,55 @@ $$
        D_1 \to T D_2
     \big)
     \to
-    \big(
       T D_2
-    \big)
   \Big)
   \end{array}
 $$
 
+(where we used the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) of the [[product]]$\dashv$[[internal hom]]-[[adjoint functors|adjunction]] to re-identify the [[types]] on the right)
 
-(...)
-
-
-## something else
-
-While the $B$-[[reader monad]] on [[Set]] is induced from the [[base change]] [[adjunction]] as $\bigcirc_B(-) \,\coloneqq\, \underset{B}{\prod} \big( B \times (-) \big)$, the functor $\underset{B}{\prod} \;\colon\; Set_{/B} \xrightarrow{--} Set$ is *not* in general a [[monadic functor]], so that $B$-reader-[[algebras over a monad|algebras]] are not in general [[equivalence of categories|equivalent]] to $B$-[[indexed sets]].
-
-However, this situation changes for [[dependent linear types]] which have [[biproducts]], such as $B$-[[indexed sets]]  of [[vector spaces]] (these we may think of as "quantum reader monads", see the discussion at *[Quantum Modal Logic](necessity+and+possibility#ModalQuantumLogic)*):
-
-\begin{proposition}
-For $B \;\in\;$ [[FiniteSets]] the [[category]] of [[algebra over a monad|algebras]] for the $B$-[[reader monad]]
+which (beware) is traditionally written without some of the parenthesis, as follows:
 
 $$
-  \array{
-    \bigcirc_B 
-    \colon
-    &
-    Vect 
-    &\xrightarrow{\phantom{---}}&
-    Vect 
-    \\
-    &
-    \mathscr{H}
-    &\mapsto&
-    Maps\big(B, \mathscr{H} \big)
-  }
-$$
-
-on the category $Vect$ of [[vector spaces]] (over any given [[ground field]]) is [[equivalence of categories|equivalent]] to that of [[vector bundles]] over $B$ (hence to $B$-[[indexed sets]] of [[vector spaces]]):
-$$
-  EM\big(
-    \bigcirc_B 
-  \big)
-  \;\;\simeq\;\;
-  Vect_B
-  \,.
-$$
-
-\end{proposition}
-\begin{proof}
- We state first an abstract proof and then a concrete proof.
-
-Abstractly, observe that [[Vect]] has (finite) [[biproducts]] (given by the [[direct sum]] of vector spaces) which together with the assumption that $B$ is [[finite set|finite]] implies that $\underset{B}{\prod} \;\colon\; Vect_B \xrightarrow{\;} Vect$:
-
-1. is not only a [[right adjoint]] but also a [[left adjoint]] (hence an [[ambidextrous adjunction|ambidextrous adjoint]] to [[pullback of vector bundles]] along $B \to \ast$), [[left adjoints preserve colimits|hence]] in particular [[preserved colimit|preserves]] all [[colimits]]
-
-1. is a [[conservative functor]] (since the $B$-components of any morphism of vector bundles over $V$ can still be extracted via ([[coprojection|co-]])[[projections]] from their image under forming the [[biproduct]] over $B$).
-
-Therefore conditions of the [[monadicity theorem]] are met (see [here](monadicity+theorem#CrudeMonadicityTheorem)), implying that the functor is [[monadic functor]], which in turn implies the claim.
-
-Concretely, we unwind what it means for a vector space to carry $\bigcirc_B$-algebra structure.
-
-First observe that the $\bigcirc_B$-[[monad]] product $\mu \;\colon\; \bigcirc_B \bigcirc_B \xrightarrow{\mu} \bigcirc_B$ on a [[vector space]] $\mathscr{H} \,\in\, Vect$ are explicitly given by:
-
-$$
-  \array{
-  \underset{b \colon B}{\bigoplus}
-  \;
-  \underset{b' \colon B}{\bigoplus}
-  \;
-  \mathscr{H}
-  &
-  \xrightarrow{\;\; \mu^{\bigcirc}_{\mathscr{H}} \;\;}
-  &
-  \underset{b'' \colon B}{\bigoplus}
-  \mathscr{H}
-  \\
-  \big(
-     \psi_{b,b'}
-  \big)_{b,b' \colon B}
-  &\mapsto&
-  \big(
-    \psi_{b'' ,b''}
-  \big)_{b'' \colon B}
-  }
-f$$
-
-and that the a $\bigcirc_B$-algebra structure on $\mathscr{H}$ is a linear map of this form:
-
-$$
-  \rho^\bigcirc_{\mathscr{H}}
+  bind_{D_1, D_2}
   \;\colon\;
-  \underset{b \colon B}{\oplus}
-  \mathscr{H}
-  \xrightarrow{\phantom{-}(P_b)_{b \colon B}\phantom{-}}
-  \mathscr{H}  
+  T D_1 
+    \to 
+  \big(
+    D_1
+    \to
+    T D_2
+  \big)
+  \to
+  T D_2
   \,.
 $$
 
-Of such maps, the $\bigcirc_B$-algebra property demands that 
+In general (except in the [[base topos]] of [[Sets]]), such an iterated [[function type]]/[[internal hom]] is richer than (certainly different from) the corresponding plain [[hom set]], and accordingly a "Kleisli triple" defined as above but with the binding operation typed in this [[internalization|internal]] way is *more* information than a plain [[monad]] on the underlying category of types: namely what is called a *[[strong monad]]* (eg. [McDermott & Uustalu (2022)](#McDermottUustalu22)).
 
-
-$$
-  \array{    
-    &
-    \underset{b \colon B}{\bigoplus}
-    \;
-    \underset{b' \colon B}{\bigoplus}
-    \;
-    \mathscr{H}
-      &\xrightarrow{\; \mu^\bigcirc_{\mathscr{H}}  \;}&
-    \underset{b'' \colon B}{\bigoplus}
-    \mathscr{H}
-      &\xrightarrow{\; \rho^\bigcirc_{\mathscr{H}} \;}&  
-    \mathscr{H}
-    \\
-    &
-    \big(
-       \psi_{b,b'}
-    \big)_{b,b' \colon B}    
-    &\mapsto&
-    \big(
-       \psi_{b'',b''}
-    \big)_{b'',b'' \colon B}    
-    &\mapsto&
-    \underset{b'' \colon B}{\sum}
-    P_{b''}(\psi_{b'',b''})
-    \\
-    \text{and}
-    &
-    \\
-    &
-    \underset{b \colon B}{\bigoplus}
-    \;
-    \underset{b' \colon B}{\bigoplus}
-    \;
-    \mathscr{H}
-      &\xrightarrow{\; \bigcirc \rho^\bigcirc_{\mathscr{H}}  \;}&
-    \underset{b'' \colon B}{\bigoplus}
-    \mathscr{H}
-      &\xrightarrow{\; \rho^\bigcirc_{\mathscr{H}} \;}&  
-    \mathscr{H}
-    \\
-    &
-    \big(
-       \psi_{b,b'}
-    \big)_{b,b' \colon B}    
-    &\mapsto&
-    \big(
-       \underset{b \colon B}{\sum}
-       P_{b}(\psi_{b,b'})
-    \big)_{b' \colon B}    
-    &\mapsto&
-    \underset{b, b' \colon B}{\sum}
-    P_{b'}\big(P_{b}(\psi_{b,b'})\big)
-  }
-$$
-
-are equal. By considering these maps on [[tuples]] of [[vectors]] $\big(\psi_{b,b'}\big)_{b,b' \colon B}$ which are non-[[zero]] only for single elements $(b,b') \in B \times B$ one finds that this condition is equivalent to the condition
+On such a [[strong monad]], the bind operation is defined as the composite
 
 $$
-  \underset{b, b' \colon B}{\forall} \;\;\; P_b \circ P_{b'} \;=\; 
-  \array{
-    P_b &\text{if} \; b = b'
-    \\
-    0  & \text{otherwise}
-  }
-$$
-
-This says that the $(P_b) \colon \mathscr{H} \to \mathscr{H}$ are a system of orthogonal linear [[projection operators]], whose [[images]] 
-
-$$
-  \mathscr{H}_b \;\coloneqq\; im(P_b) \;\subset\; \mathscr{H}
-$$
-
-span $\mathscr{H}$ under [[direct sum]]:
-
-$$
-  \mathscr{H}
-  \;\simeq\;
-  \underset{b \colon B}{\bigoplus}
-  \mathscr{H}_b
+  T(D_1) \times T Map(D_1,\,D_2)
+    \xrightarrow{\; strength_T \;}
+  T\big(D_1 \times T Map(D_1, \, D_2) \big) 
+    \xrightarrow{
+      T eval_{D_1, T D_2}
+    } 
+  T T D_2 
+    \xrightarrow{\;
+      \mu_{D_2}
+    \;} 
+  T D_2
   \,.
-$$
-
-Finally, the [[homomorphism]]-property on a [[linear map]] $\mathscr{H} \xrightarrow{\phi} \mathscr{H}'$ between the underlying vector spaces of two such $\bigcirc_B$-modules demands that the following [[commuting diagram|diagram commutes]]:
-
-$$ 
-  \array{
-    \underset{b \colon B}{\bigoplus}
-    \mathscr{H}
-    &\xrightarrow{\;\;\;
-      \underset{b \colon B}{\oplus}
-    \;\;\;}&
-    \underset{b \colon B}{\bigoplus}
-    \mathscr{H}
-    \\
-    \mathllap{
-      {}^{
-      \big(
-        P_b 
-      \big)_{b \colon B}
-      }
-    }
-    \big\downarrow
-    &&
-    \big\downarrow
-    \mathrlap{
-      {}^{
-      \big(
-        P'_b 
-      \big)_{b \colon B}
-      }
-    }
-    \\
-    \mathscr{H}
-    &\xrightarrow{\;\;\; \phi \;\;\;}&
-    \mathscr{H}'
-    \,.
-  }
 $$ 
 
-The $B$-indexed components of this condition require that $\phi$ commutes with all these [[projection operators]], in that
+This makes the monads be [[enriched monads]] in the self-enrichment given by the [[function type]]/[[internal hom]]. 
 
-$$
-  b \colon B
-  \;\;\;\;
-  \vdash
-  \;\;\;\;
-  P'_b \circ \phi
-  \;=\;
-  \phi \circ P_b
-  \,.
-$$
+In particular, monads as used in [[Haskell]] are really strong/enriched monads, in this way.
 
-But this evidently means that $\phi$ itself is the image under the [[direct sum]]-[[functor]] 
-$$
-  \phi
-  \;=\;
-  \underset{b \colon}{\oplus}
-  \phi_b
-$$
-of a $B$-[[tuple]] of [[linear maps]] between the $B$-indexed component spaces:
-$$
-  b \colon B
-  \;\;\;
-  \colon
-  \;\;\;
-  \mathscr{H}_b \longrightarrow \mathscr{H}'
-  \,.
-$$
-But this is the defining property of morphisms in $Vect_B$.
-\end{proof}
+\linebreak
 
+Yet more structure on effect-monads is available in [[dependent type theories]] with [[type universes]], where one may demand that the monad operation $D \mapsto T(D)$ is not just an [[endofunction]] on the [[set]] of [[types]], but an [[endomorphism]] of the [[type universe]]. At least for [[idempotent monads]] this case is further discussed at *[[reflective subuniverse]]* and *[[modal type theory]]* and maybe elsewhere.
 
 
