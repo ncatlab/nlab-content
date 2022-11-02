@@ -375,7 +375,7 @@ The statement itself is theorem B1.3.6 there, all definitions and lemmas are on 
 
 #### Model category version
 
-There is refinement of the Grothendieck construction to [[model categories]]. S
+There is refinement of the Grothendieck construction to [[model categories]].
 
 See at _[[Grothendieck construction for model categories]]_.
 
