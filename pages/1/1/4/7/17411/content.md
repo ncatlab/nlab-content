@@ -78,7 +78,7 @@ _Foundations of infinitesimal calculus_, [files](http://www.math.wisc.edu/~keisl
 Foundations of mathematics is a subject, which is beyond the very basics, NOT belonging to elementary mathematics, nor this entry. However, some readers of this page may find beneficial that we list just a very short choice of standard books on foundations for the first reading (but not that elementary).
 
 * [[Practical Foundations of Mathematics]] 
-* Elliott Mendelson, _Introduction to mathematical logic_
+* Elliott Mendelson, _Introduction to mathematical logic_,     Chapman and Hall 1964, 1979, 1987, 1997
 
 The following book is a unique attempt by two prominent mathematicians to give an elementary introduction to [[category theory]] directed at beginning students and general readers which is relevant to school education as well:
 
