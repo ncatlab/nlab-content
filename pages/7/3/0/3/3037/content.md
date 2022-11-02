@@ -25,7 +25,7 @@ A __predicate calculus__ is simply a system for describing and working with pred
 
 [[type theory|Typed]] predicate logic may be called [[type theory#Logic over type theory|first-order logic over type theory]]. Typed predicate [[intuitionistic logic]] is often identified with the [[internal logic]] of a [[Heyting category]], while typed predicate [[classical logic]] is often identified with the [[internal logic]] of a [[Boolean category]]. Any untyped predicate logic could be thought of as a [[simple type theory|simply typed]] predicate logic with only one type $V$, known as the __[[domain of discourse]]__ or the __universe of discourse__. 
 
-For many (perhaps most?) authors, predicate logic is really __predicate logic with [[equality]]__.  However, some forms of predicate logic do not include an equality primitive, such as [[FOLDS]] (in whose name 'FOL' stands for 'first-order logic').  In some first-order theories, such as [[ZFC]], equality can be defined and so is not needed in the logic itself.
+For many (perhaps most?) authors, predicate logic is really __predicate logic with [[equality]]__. That means that one predicate symbol with two arguments $=(x,y)$ (also  written $x=y$) is distinguished, and has to satisfy reflexivity, symmetry, transitivity and the rule of substitution: $(x = y \wedge \phi(x))\implies \phi(y)$ for any predicate $\phi$ with one argument. However, some forms of predicate logic do not include an equality primitive, such as [[FOLDS]] (in whose name 'FOL' stands for 'first-order logic').  In some first-order theories, such as [[ZFC]], equality can be defined and so is not needed in the logic itself.
 
 
 ## Properties
@@ -46,6 +46,8 @@ For many (perhaps most?) authors, predicate logic is really __predicate logic wi
   * [[higher-order logic]]
 
   * [[predicate logic as a dependent type theory]]
+ 
+  * [[rule C]]
 
 * [[first-order set theory]]
 
