@@ -259,7 +259,7 @@ Direct inspection shows that one may [[bijection|bijectively]] transmute such $b
 
 But in fact, in [[functional programming]]-[[programming language|languages]] one typically considers an enhanced version of the above situation: 
 
-In these higher-order languages one has, besides the ([[hom-set|hom-]])*[[set]]* of programs/functionw $Hom\big(D_1, \, D_2\big)$ also the actual *[[data type]]* of functions, namely the *[[function type]]* $D_1 \to D_2$, which in terms of [[relation between type theory and category theory|categorical semantics]] is the *[[internal hom]]-[[hom object|object]]* $Map(D_1, \, D_2)$ in the [[cartesian closed category]] of [[data types]]. Therefore, in such languages (like [[Haskell]]) the [[type]] of the binding operation for given [[data types]] $D_1$, $D_2$ is actually taken to be the [[function type]]/[[internal hom]]
+In these higher-order languages one has, besides the ([[hom-set|hom-]])*[[set]]* of programs/functions $Hom\big(D_1, \, D_2\big)$ also the actual *[[data type]]* of functions, namely the *[[function type]]* $D_1 \to D_2$, which in terms of [[relation between type theory and category theory|categorical semantics]] is the *[[internal hom]]-[[hom object|object]]* $Map(D_1, \, D_2)$ in the [[cartesian closed category]] of [[data types]]. Therefore, in such languages (like [[Haskell]]) the [[type]] of the binding operation for given [[data types]] $D_1$, $D_2$ is actually taken to be the [[function type]]/[[internal hom]]
 
 $$
   \begin{array}{ll}
