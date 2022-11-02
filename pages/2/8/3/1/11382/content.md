@@ -74,6 +74,12 @@ Review in view of modern gravitational wave detection (see [below](#ReferencesEx
 
 * Ligong Bian et al., *The Gravitational-Wave Physics II: Progress*, Sci. China Phys. Mech. Astron. 2021 ([arXiv:2106.10235](https://arxiv.org/abs/2106.10235), [spire:1869296](https://inspirehep.net/literature/1869296))
 
+Discussion in view of [[quantum gravity]]:
+
+* Amaury Micheli, Patrick Peter, *Quantum cosmological gravitational waves?*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.00182](https://arxiv.org/abs/2211.00182)&rbrack;
+
+
+
 ### Theoretical predictions
   {#eferencesTheoreticalPredictions}
 
