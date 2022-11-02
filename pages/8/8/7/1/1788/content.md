@@ -18,7 +18,7 @@ In [[programming language|programming]] it frequently happens that a [[program]]
 \]
 is some general operation sending [[data types]] $D$ to new data types $T(D)$.
 
-> For example, if alongside the computation of its nominal output data $d_2 \colon D_2$ the program also writes a log message $msg$, then its actual output data is the [[pair]] $(d_2, msg)$ of [[product type]] $T(D_2) \,=\, D_2 \times String$ (where $String$ is the [[free monoid]] on the given [[alphabet]]).
+> For example, if alongside the computation of its nominal output data $d_2 \colon D_2$ the program also writes a log message $msg \,\colon\,$ [[String (computer science)|String]], then its actual output data is the [[pair]] $(d_2, msg)$ of [[product type]] $T(D_2) \,=\, D_2 \times String$ (where $String$ is the [[free monoid]] on the given [[alphabet]]).
 
 In such a case, given a subsequent program $prog_{23}$ accepting input data of type $D_2$ and itself possibly involved in further effects of type $T(-)$, then the *na&iuml;ve* [[composition]] of the two programs makes no sense (unless $T(D) = D$ is actually the trivial sort of effect), but their evident *intended* composition is obtained by: 
 
