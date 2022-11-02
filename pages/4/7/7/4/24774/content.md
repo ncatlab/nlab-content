@@ -39,6 +39,12 @@ On  [[renormalization]] of [[perturbative quantum gravity]] with [[higher curvat
 
 * Nobuyoshi Ohta, *One-loop divergences in higher-derivative gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.02583](https://arxiv.org/abs/2210.02583)&rbrack;
 
+\linebreak
+
+On [[gravitational waves]] in [[quantum gravity]]:
+
+* Amaury Micheli, Patrick Peter, *Quantum cosmological gravitational waves?*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.00182](https://arxiv.org/abs/2211.00182)&rbrack;
+
 
 \linebreak
 
