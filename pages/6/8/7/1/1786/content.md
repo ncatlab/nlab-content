@@ -164,7 +164,7 @@ where $h : \prod_{x : S^1} x = x$ is defined in Lemma 6.4.2 of the [[HoTT book]]
 
 Introduction and survey:
 
-* {#Arkowitz11} [[Martin Arkowitz]], _H-Spaces and Co-H-Spaces_, chapter 2 in _Introduction to homotopy theory_, Springer 2011 ([pdf](file:///C:/Users/Sony/Downloads/9781441973283-c1.pdf))
+* {#Arkowitz11} [[Martin Arkowitz]], _H-Spaces and Co-H-Spaces_, chapter 2 in _Introduction to homotopy theory_, Springer 2011 
 
 The terminology "$H$-space" is a definition in a Chapter IV, Section 1 (dedicated to loop spaces) of 
 
