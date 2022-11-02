@@ -426,9 +426,9 @@ Inspection shows that the four ways of relating these to [[co-Kleisli category|(
 
 1. quantum state preparation
 
-1. qauntum superposition
+1. quantum superposition
 
-1. qauntum parallelization:
+1. quantum parallelization:
 
 
 
