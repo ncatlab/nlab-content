@@ -19,10 +19,11 @@
 
 ## Idea
 
-In the study of [[recursion schemes]], a *catamorphism* is the simple case of a *fold* over an inductive datatype. In categorical terms, this is simply the unique [[homomorphism]] out of an [[initial algebra]].
+In the study of [[recursion schemes]], a *catamorphism* is the simple case of a *fold* over an [[inductive type|inductive]] [[data type]]. In [[category theory|category theoretic]] terms, this is simply the unique [[homomorphism]] out of an [[initial algebra]].
 
 ## Definition
-Given an [[endofunctor]] $F$ such that the [[category]] of [[algebra for an endofunctor|$F$-algebras]] has an [[initial object]] $(\mu F, in)$, the *catamorphism* for an $F$-algebra $(A, \varphi)$ is the unique [[homomorphism]] from the [[initial algebra of an endofunctor | initial $F$-algebra]] $(\mu F, in)$ to $(A, \varphi)$. The unique morphism between the carriers is also denoted $cata \varphi : \mu F \rightarrow A$.
+
+Given an [[endofunctor]] $F$ such that the [[category]] of [[algebra for an endofunctor|$F$-algebras]] has an [[initial object]] $(\mu F, in)$, the *catamorphism* for an $F$-algebra $(A, \varphi)$ is the unique [[homomorphism]] from the [[initial algebra of an endofunctor | initial $F$-algebra]] $(\mu F, in)$ to $(A, \varphi)$. The unique morphism between the carriers is also denoted $cata \varphi \colon \mu F \rightarrow A$.
 
 From the [[commuting square]] of the homomorphism, we have $(cata \varphi) \circ in = \varphi \circ F (cata \varphi)$. By [[initial algebra of an endofunctor#LambeksTheorem|Lambek's theorem]], $\mathit{in}$ has an [[inverse]] $\mathit{out}$, so the catamorphism can be [[recursion|recursively]] defined by $cata \varphi = \varphi \circ F (cata \varphi) \circ out$.
 
@@ -83,14 +84,15 @@ $$
 
 ## References
 
-* HaskellWiki, [Catamorphisms](https://wiki.haskell.org/Catamorphisms)
+* HaskellWiki, *[Catamorphisms](https://wiki.haskell.org/Catamorphisms)*
 
-* Wikipedia, [Catamorphism](https://en.wikipedia.org/wiki/Catamorphism)
+* Wikipedia, *[Catamorphism](https://en.wikipedia.org/wiki/Catamorphism)*
 
-* {#BirdMoor1997} [[Richard Bird]], [[Oege de Moor]] (1997), [_Algebra of Programming_](http://www.cs.ox.ac.uk/publications/books/algebra/), Prentice Hall
+* {#BirdMoor1997} Richard Bird, Oege de Moor (1997), [_Algebra of Programming_](http://www.cs.ox.ac.uk/publications/books/algebra/), Prentice Hall
 
-* {#Fokkinga1992} [[Maarten M. Fokkinga]] (1992), [_Law and Order in Algorithmics_](https://research.utwente.nl/en/publications/law-and-order-in-algorithmics), PhD thesis, University of Twente
+* {#Fokkinga1992} Maarten M. Fokkinga (1992), [_Law and Order in Algorithmics_](https://research.utwente.nl/en/publications/law-and-order-in-algorithmics), PhD thesis, University of Twente
 
-* {#BackhouseBruinMalcolmVoermansWoude1991} [[Roland C. Backhouse]], [[Peter J. de Bruin]], [[Ed Voermans]], [[Jaap van der Woude]] (1991), [_Relational Catamorphisms_](https://research.tue.nl/en/publications/relational-catamorphisms-2), Computing Science Notes, Vol. 9111, Technische Universiteit Eindhoven
+* {#BackhouseBruinMalcolmVoermansWoude1991} Roland C. Backhouse, Peter J. de Bruin, Ed Voermans, Jaap van der Woude (1991), [_Relational Catamorphisms_](https://research.tue.nl/en/publications/relational-catamorphisms-2), Computing Science Notes, Vol. 9111, Technische Universiteit Eindhoven
 
 [[!redirects catamorphisms]]
+
