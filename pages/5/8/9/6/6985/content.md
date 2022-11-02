@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[type theory]] a _sum type_ of two [[types]] $A$ and $B$ is the type whose [[terms]] are either terms $a\colon A$ or terms $b\colon B$.
+In [[type theory]] a _sum type_ of two [[types]] $A$ and $B$ (really: [[coproduct]]) is the type whose [[terms]] are either terms $a\colon A$ or terms $b\colon B$.
 
 In a [[model]] of the type theory in [[categorical semantics]] this is a [[distributive coproduct]]. In [[set theory]], it is a [[disjoint union]].
 
@@ -92,3 +92,5 @@ A textbook account in the context of [[programming languages]] is in section 12 
 [[!redirects disjoint union types]]
 [[!redirects coproduct type]]
 [[!redirects coproduct types]]
+
+
