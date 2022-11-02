@@ -1,5 +1,12 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
+
+### Basic idea: External monads
+ {#BasicIdea}
 
 In [[programming language|programming]] it frequently happens that a [[program]] with "nominal" output [[data type]] $D$ *de facto* outputs data of some modified type $T(D)$ due to "external effects", where 
 \[
@@ -77,18 +84,20 @@ Whatever design choice one makes for how to "carry along effects", it must be co
   \,.
 \]
 
-Finally, for such a notion of effectful programs to be usefully connected to "pure" programs without effects,  it ought to be the case that for any program $prog \,\colon\, D_0 \xrightarrow{\;} D_1$ that happens to have no $T(-)$-effects, we have a prescription for how to regard it as a  $T(-)$-effectful program in a trivial way. For that purpose there should be defined an operation
+Finally, for such a notion of effectful programs to be usefully connected to "pure" programs without effects,  it ought to be the case that for any program $prog_{01} \,\colon\, D_0 \xrightarrow{\;} D_1$ that happens to have no $T(-)$-effects, we have a prescription for how to regard it as a  $T(-)$-effectful program in a trivial way. For that purpose there should be defined an operation
 
 \[  
   \label{ReturnMapInIntroduction}
-  ret_{D_1} \;\colon\; D_1 \xrightarrow{\;}  T(D_1)
+  ret_{D} \;\colon\; D \xrightarrow{\;}  T(D)
 \]
 
-which does nothing but "return" data of type $D_1$, but re-regarded as effectful $T(D_1)$-data in a trivial way; so that we may construct the trivially effectful program $ret_{D_1}\big(prog_{01}(-)\big) \;\colon\; D_0 \xrightarrow{\;} T(D_1)$.
+which does nothing but "return" data of type $D$, but re-regarded as effectful $T(D)$-data in a trivial way; so that we may construct the trivially effectful program $ret_{D_1}\big(prog_{01}(-)\big) \;\colon\; D_0 \xrightarrow{\;} T(D_1)$.
 
-> For instance, in the above example of log-message effects this would be the operation $D \to D \times String$ which assigns the emtpty string $d \mapsto (d, \varnothing)$.
+> For instance, in the above example of log-message effects this would be the operation $D \to D \times String$ which assigns the [[empty set|emtpty]] [[string (computer science)|string]] $d \mapsto (d, \varnothing)$.
 
-The final consistency condition then is that "carrying along trivial effects is indeed trivial", i.e. that 
+> In the other example above, of exception handling, the trivial effect $D \to D \sqcup String$ is just not to throw an exception, which is just $d \maspto d$ (the right [[coprojection]] into the [[coproduct]]).
+
+The final consistency condition then is that "carrying along trivial effects is indeed the trivial operation", i.e. that 
 
 \[
   \label{UnitalityInIntroduction}
@@ -109,11 +118,11 @@ The final consistency condition then is that "carrying along trivial effects is 
   \,.
 \]
 
-Notice that the [[associativity]] condition (eq:AssociativityConditionInIntroduction) and the [[unitality]] condition (eq:UnitalityInIntroduction) are jointly equivalent to saying that [[data types]] with $T(-)$-effectful programs between them, in the above sense, form a *[[category]]*. In [[category theory]] this is known as the *[[Kleisli category]]* of a *[[monad]]* $T$.
+Notice that the [[associativity]] condition (eq:AssociativityConditionInIntroduction) and the [[unitality]] condition (eq:UnitalityInIntroduction) are jointly equivalent to saying that [[data types]] with [[hom-sets]] of $T(-)$-effectful programs between them, in the above sense, form a *[[category]]*. In [[category theory]] this is known as the *[[Kleisli category]]* of a *[[monad]]* $T$.
 
-> Traditionally in [[category theory]], the [[axioms]] on [[monads]] are presented in a slightly different way, invoking a monad "product" [[natural transformation]] $T \circ T \xrightarrow{ \mu } T$ instead of the "binding" operation. One readily checks that these two axiomatic presentations of monads are in fact equal, see (eq:TransformBetweenBindAndJoinInIntroduction) below.
+> Traditionally in [[category theory]], the [[axioms]] on [[monads]] are presented in a somewhat different way, invoking a monad "product" [[natural transformation]] $T \circ T \xrightarrow{ \mu } T$ instead of the "binding" operation. One readily checks that these two axiomatic presentations of monads are in fact equal -- see (eq:TransformBetweenBindAndJoinInIntroduction) below --, but the above "[[Kleisli triple]]"-presentation is typically more relevant in the practice of [[functional programming]].
 
-In summary, a choice of *assignments* (see spring) to [[data types]] $D_i$ of
+In summary, a choice of *assignments* (but see [below](#RefinedIdea)) to [[data types]] $D_i$ of
 
 1. $T(D) \;\colon\; Type$
 
@@ -206,6 +215,9 @@ Direct inspection shows that one may [[bijection|bijectively]] transmute such $b
   \,.
   \end{array}
 \]
+
+### Refined idea: Internal monads
+ {#RefinedIdea}
 
 In fact, in [[functional programming]]-[[programming language|languages]] one typically considers an enhanced version of this situation: 
 
