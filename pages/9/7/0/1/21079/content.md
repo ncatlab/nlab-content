@@ -26,12 +26,14 @@
 
 ## Idea
 
-The _action monad_ or _writer monad_ is a construction generalizing many seemingly different concepts across mathematics and computer science.
-It could be intuitively understood in the following ways. First of all, fix a [[group]] or [[monoid]] $M$.
+The _action monad_ or _writer monad_ is a construction generalizing many seemingly different concepts across mathematics and [[computer science]].
+It may intuitively be understood in the following ways, where throughout we fix a [[group]] or [[monoid]] $M$.
 
 * It is the [[monad]] associated to the [[free-forgetful adjunction]] between [[G-set|M-sets]] (sets equipped with an $M$-[[action]]) and [[sets]].
+
 * It is the monad whose [[algebra over a monad|algebras]] are $M$-sets and whose morphisms are [[equivariant maps]].
-* It is the [[monad in computer science|monad modeling computational effects]] that can be added or concatenated (using the multiplication map of $M$), such as writing into a log file or standard output to screen.
+
+* It is the [[monad in computer science|monad modeling computational effects]] that can be added or concatenated (using the multiplication map of $M$), such as writing into a log file or standard output to screen. In this case, $M$ is usually the [[free monoid]] on a fixed [[alphabet]] (i.e. the [[data type]] "[[String (in computer science)|String]]").
 
 If one, more generally, replaces [[sets]] and a [[monoid]] with a [[monoidal category]] and an [[internal monoid]], a similar construction can be given. This generalizes, for example, the [[action]] that [[rings]] have on their [[modules]], and that [[Lie groups]] have on [[manifolds]].
 
