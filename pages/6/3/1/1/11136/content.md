@@ -1,8 +1,17 @@
 
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Computation
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+#### Categorical algebra
++-- {: .hide}
+[[!include categorical algebra -- contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
@@ -17,9 +26,9 @@
 
 ## Idea
 
-What is called the _maybe monad_ is a simple [[monad (in computer science)]] which is used to implement "exceptions" indicating the failure of a computation in terms of [[functional programming]].
+What is called the _maybe monad_ is a simple [[monad in computer science]] which is used to implement the most basic kind of "[[exceptions]]" indicating the failure of a computation in terms of [[functional programming]]: The maybe monad models the exception which witnesses a failure without however producing any further information.
 
-On the type system the [[maybe monad]] is the operation $X \mapsto X \coprod \ast$. 
+On the type system the [[maybe monad]] is the operation $X \mapsto X \sqcup \ast$ of forming the [[coproduct type]] with the [[unit type]]. (The [[exception monad]] for the [[unit type]].)
 
 The idea here is that a function $X \longrightarrow Y$ in its [[Kleisli category]] is in the original category a function of the form $X \longrightarrow Y \coprod \ast $ so either returns indeed a value in $Y$ or else returns the unique element of the [[unit type]]/[[terminal object]] $\ast$ -- it is a _[[partial function]]_. The latter case is naturally interpreted as "no value returned", hence as indicating a "failure in computation".
 
@@ -86,6 +95,8 @@ The comonad $T^\mathrm{op}$ on $\Delta_a^\mathrm{op}$ induces the [[decalage#Dec
 
 ## Related concepts
 
+* [[exception monad]]
+
 * [[state monad]]
 
 * [[continuation monad]]
@@ -94,7 +105,7 @@ The comonad $T^\mathrm{op}$ on $\Delta_a^\mathrm{op}$ induces the [[decalage#Dec
 
 ## References
 
-* {#Seal12} Gavin J. Seal, _Tensors, monads and actions_ ([arXiv:1205.0101](http://arxiv.org/abs/1205.0101))
+* {#Seal12} Gavin J. Seal, _Tensors, monads and actions_ &lbrack;[arXiv:1205.0101](http://arxiv.org/abs/1205.0101)&rbrack;
 
 Around (0.4.24.2) in 
 
