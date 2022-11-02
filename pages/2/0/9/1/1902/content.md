@@ -25,6 +25,11 @@ On [[weak complicial sets]]:
 
 *    D. R. Verity, 2007, Weak complicial sets. II. Nerves of complicial Gray-categories , in Categories in algebra, geometry and mathematical physics , volume 431 of Contemp. Math., 441--467, Amer. Math. Soc., Providence, RI. 
 
+On [[comprehensive factorization systems]] and [[torsors]]:
+
+* [[Ross Street]], [[Dominic Verity]], *The comprehensive factorization and torsors*, [[TAC]] **23** (2010)  42-75 &lbrack;[tac:23-03](http://www.tac.mta.ca/tac/volumes/23/3/23-03abs.html)&rbrack;
+
+
 
 On [[(∞,1)-category theory]] via the [[homotopy 2-category of (∞,1)-categories]] of [[∞-cosmoi]] ([[formal (infinity,1)-category theory|formal $(\infty,1)$-category theory]]):
 
