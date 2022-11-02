@@ -336,7 +336,7 @@ $$
   \,.
 $$ 
 
-This makes the monads be [[enriched monads]] in the self-enrichment given by the [[function type]]/[[internal hom]]. 
+This makes the monads be [[enriched monads]] in the self-[[enriched category|enrichment]] of the category of types given by the [[function type]]/[[internal hom]]. 
 
 In particular, monads as used in [[Haskell]] are really strong/enriched monads, in this way.
 
