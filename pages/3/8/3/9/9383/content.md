@@ -18,7 +18,7 @@ $$
   \mathbf{Aut}(X)
 $$
 
-to the [[automorphism ∞-group]] of $X$. The **Hamiltonian symplectomorphism $\infty$-group** $\mathbf{HamSym}()\nabla$ is the [[1-image]] of this map
+to the [[automorphism ∞-group]] of $X$. The **Hamiltonian symplectomorphism $\infty$-group** $\mathbf{HamSym}(\nabla)$ is the [[1-image]] of this map
 
 $$
   \mathbf{QuantMorph}(\nabla)
