@@ -369,7 +369,7 @@ Various monads are _definable_ in terms of standard [[type formation|type-formin
 * The *[[reader monad]]* and *[[coreader comonad]]* both encode reading out a global parameter.
 
 
-* The *[[state monad]]* encodes the possibility of *reading followed by re-setting* a global parameter  -- this provides a notion of *[[random access memory]]*.
+* The *[[state monad]]* and *[[costate comonad]]* encode the possibility of *consecutive reading and re-setting* a global parameter  -- this provides a notion of *[[random access memory]]*.
 
 * The *[[writer monad]]* encodes writing *consecutively* into a global resource, such as for a [[stream]].
 
