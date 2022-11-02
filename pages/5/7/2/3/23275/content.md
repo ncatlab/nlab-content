@@ -112,5 +112,9 @@ Functoriality now follows easily from uniqueness of lifting for a discrete fibra
 
 * [[Paolo Perrone]], [[Walter Tholen]], *Kan extensions are partial colimits*, Applied Categorical Structures, 2022. ([arXiv:2101.04531](https://arxiv.org/abs/2101.04531))
 
+Internal comprehensive factorisations are considered in:
+
+* [[Ross Street]] and [[Dominic Verity]]. _The comprehensive factorization and torsors_. [[TAC]] 23 (2010): 42-75.
+
 [[!redirects comprehensive factorization systems]]
 
