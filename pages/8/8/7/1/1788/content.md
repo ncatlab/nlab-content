@@ -1,28 +1,20 @@
 
-[[TheFourModalitiesOfBaseChange-221101.jpg:file]]
-
-[[PotentialTypesAsPossibilityModules-221101b.jpg:file]]
-
-[[QCwthLHT-QuantumModalUnits-221101.jpg:file]]
-
-[[LinearTypesAsModalModules-221101.jpg:file]]
-
-[[TheFourModalitiesOfBaseChange-221101b.jpg:file]]
-
 ## Idea
 
-In [[programming language|programming]] it frequently happens that a [[program]] with "nominal" output [[data type]] $D_2$ *de facto* outputs data of some modified type $T(D)$ due to "external effects", where 
+In [[programming language|programming]] it frequently happens that a [[program]] with "nominal" output [[data type]] $D$ *de facto* outputs data of some modified type $T(D)$ due to "external effects", where 
 \[
   \label{MonadMapInIntroduction}
   D \;\mapsto\; T(D)
 \]
 is some general operation sending [[data types]] $D$ to new data types $T(D)$.
 
-> For example, if alongside the computation of its nominal output data $d_2 \colon D_2$ the program also writes a log message $msg \,\colon\,$ [[String (computer science)|String]], then its actual output data is the [[pair]] $(d_2, msg)$ of [[product type]] $T(D_2) \,=\, D_2 \times String$ (where $String$ is the [[free monoid]] on the given [[alphabet]]).
+> For example, if alongside the computation of its nominal output data $d \colon D$ a program also writes a log message $msg \,\colon\,$ [[String (computer science)|String]], then its actual output data is the [[pair]] $(d, msg)$ of [[product type]] $T(D) \,=\, D \times String$.
 
-In such a case, given a subsequent program $prog_{23}$ accepting input data of type $D_2$ and itself possibly involved in further effects of type $T(-)$, then the *na&iuml;ve* [[composition]] of the two programs makes no sense (unless $T(D) = D$ is actually the trivial sort of effect), but their evident *intended* composition is obtained by: 
+> Or, dually, if the program may fail and instead "throw an [[exception]] message" $msg \,\colon\,$ [[String (computer science)|String]], then its actual output data is *either* $d \colon D$ *or* $msg \colon String$, hence is of [[coproduct type]] $T(D) \,=\, D \sqcup String$.
 
-1. first adjusting $prog_{23}$ via some general prescription
+Given such a $T$-effectful program $prog_{12} \;\colon\; D_1 \to T(D_2)$ and given a subsequent program $prog_{23} \,\colon\, D_2 \to T(D_3)$ accepting input data of type $D_2$ and itself possibly involved in further effects of type $T(-)$, then the *naïve* [[composition]] of the two programs makes no sense (unless $T(D) = D$ is actually the trivial sort of effect), but their evident *intended* composition is, clearly, obtained by: 
+
+1. first adjusting $prog_{23}$ via a given prescription
 
    \[
      \label{BindingLawInIntroduction}
@@ -30,7 +22,7 @@ In such a case, given a subsequent program $prog_{23}$ accepting input data of t
      \,,
    \]
 
-   such that $prog_{23}[-]$:
+   such that $prog_{23}[-] \,\colon\, T D_2 \to T D_3$:
 
    1. does accept data of type $T(D_2)$ and 
 
@@ -52,15 +44,19 @@ as follows:
     }
 \end{imagefromfile}
 
-> (Beware that we are denoting by square brackets "$prog[-]$" what in [[programming languages]] like [[Haskell]] [is denoted by](https://wiki.haskell.org/Monad#The_Monad_class) "`(-) >>= prog`" (.)
+> (Beware that we are denoting by square brackets "$prog[-]$" what in [[programming languages]] like [[Haskell]] [is denoted by](https://wiki.haskell.org/Monad#The_Monad_class) "`(-) >>= prog`"  aka "fish notation", eg. [Milewski (2019)](#Milewski19), and which other authors denote by "$prog^\ast$" or similar, e.g. [Uustalu (2021), lecture 1](#Uustalu21), [p. 12](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf#page=12) .)
 
 According to the intended behaviour of these programs, it remains to specify how exactly $prog_{23}[-]$ "carries $T(-)$-effects along", hence what the "bind" operation really is. 
 
-> For instance, in the above example where $T(D_2) = D_2 \times String$, the evident way is to use the [[concatenation]]  $String \times String \xrightarrow{\; concat \;} String$ and set:
+> For instance, in the above example of a logging-effect, where $T(D_2) = D_2 \times String$, the evident way is to use the [[concatenation]]  $String \times String \xrightarrow{\; concat \;} String$ and set:
 
-> $ prog_{23}\big[-\big]\;\coloneqq\; D_2 \times String \xrightarrow{ prog_{12} \times Id_{String} } D_3 \times String \times String \xrightarrow{ Id_{D_3} \times concat } D_3 \times String \,. $
+> $ prog_{23}\big[-\big]\;\coloneqq\; D_2 \times String \xrightarrow{ prog_{23} \times Id_{String} } D_3 \times String \times String \xrightarrow{ Id_{D_3} \times concat } D_3 \times String \,. $
 
-But whatever design choice one makes for how to "carry along effects", it must be consistent in that applying the method to a [[triple]] of $T(-)$-effectful programs which are nominally composable, then their effectful composition should be unambiguously defined in that it is [[associative]], satisfying the following "law" ([[equation]]):
+> In the other example above, where the effect is the possible throwing of an exception message, the evident way to carry this kind of effect along is to use the [[codiagonal]] $\nabla \;\colon\; String \sqcup String \to String$, which amounts to keep forwarding the exception that has already been thrown, if any:
+
+> $prog_{23}big[-\big] \;\coloneqq\; D_2 \sqcup String \xrightarrow{ prog_{23} \sqcup Id_{String} } D_3 \sqcup String \sqcup String \xrightarrow{ id_{D_3} \sqcup \nabla } D_3 \sqcup String \,.$
+
+Whatever design choice one makes for how to "carry along effects", it must be consistent in that applying the method to a [[triple]] of $T(-)$-effectful programs which are nominally composable, then their effectful composition should be unambiguously defined in that it is [[associative]], satisfying the following "law" ([[equation]]):
 
 \[
   \label{AssociativityConditionInIntroduction}
@@ -117,21 +113,29 @@ Notice that the [[associativity]] condition (eq:AssociativityConditionInIntroduc
 
 > Traditionally in [[category theory]], the [[axioms]] on [[monads]] are presented in a slightly different way, invoking a monad "product" [[natural transformation]] $T \circ T \xrightarrow{ \mu } T$ instead of the "binding" operation. One readily checks that these two axiomatic presentations of monads are in fact equal, see (eq:TransformBetweenBindAndJoinInIntroduction) below.
 
-In summary, a choice of assignments to data types $D_i$ of
+In summary, a choice of *assignments* (see spring) to [[data types]] $D_i$ of
 
-1. $T(D) \;\colon\; Type$  $\;$---$\;$ types of effectful data of nominal type $D$ (eq:MonadMapInIntroduction),
+1. $T(D) \;\colon\; Type$
 
-1. $ret_D \;\colon\; D \to T D$ $\;$---$\;$ how to regard plain $D$-data as trivially effectful (eq:ReturnMapInIntroduction),
+   types of effectful data of nominal type $D$ (eq:MonadMapInIntroduction)
 
-1. $\array{bind_{D_1, D_2} \colon & (D_1 \to  T D_2 ) &\longrightarrow& \big(T D_1 \to T D_2\big) \\ & prog &\mapsto& prog[-]}$ $\;$---$\;$ $\begin{array}{l} \text{how to execute a prog while} \\ \text{carrying along any previous effects} \end{array}$   (eq:BindingLawInIntroduction)
+2. $\array{\\ bind_{D_1, D_2} \colon & Hom\big(D_1,\, T D_2\big) &\longrightarrow& Hom\big(T D_1,\,T D_2\big) \\ & prog &\mapsto& prog[-]}$
 
-subject to 
+   how to execute a prog while carrying along any previous effects (eq:BindingLawInIntroduction)
+
+3. $ret_D \;\colon\; D \to T D$
+
+   how to regard plain $D$-data as trivially effectful (eq:ReturnMapInIntroduction)
+
+subject to:
 
 1. the [[associativity]] condition (eq:AssociativityConditionInIntroduction) 
 
 1. the [[unitality]] condition (eq:UnitalityInIntroduction) 
 
-is called a *[[monad in computer science]]* and serves to encode the notion that all programs may be subject to certain *external effects*.
+is called a *[[monad in computer science]]* (also: "[[Kleisli triple]]" in [[functional programming]]) and serves to encode the notion that all programs may be subject to certain *external effects*.
+
+Here, for the time being, we write $Hom(D_1, D_2)$ for the *[[set]]* of programs/functions taking data of type $D_1$ to data of $D_2$ (the *[[hom set]]* in the plain [[category]] of [[types]]).
 
 > The running example above is known as the *[[writer monad]]*, since it encodes the situation where programs may have the additional effect of writing a message string into a given buffer.
 
@@ -139,7 +143,7 @@ The structure making such a [[monad]] may and often is encoded in different equi
 
 1. $D \mapsto T D$ (as before)
 
-1. $fmap_{D_1, D_2} \;\colon\; (D_1 \to D_2) \longrightarrow (T D_1 \to T D_2)$ 
+1. $fmap_{D_1, D_2} \;\colon\; Hom\big(D_1 \to D_2\big) \longrightarrow Hom\big(T D_1, T D_2\big)$ 
 
 1. $ret_D \;\colon\; D \to T D$
 
@@ -151,9 +155,9 @@ such that
 
 1. $join$ is [[associativity|associative]] and [[unitality|unital]] (with respect to $ret$) as a [[natural transformation]],
 
-yields the definition of *[[monad]]* traditionally used in [[category theory]].
+yields the definition of *[[monad]]* traditionally used in [[category theory]] (namely as a [[monoid object]] [[internalization|in]] [[endofunctors]], here  on the [[category]] of [[data types]]).
 
-Direct inspection shows that one may reversibly transmute such $bind$- and $join$-operators into each other by expressing them as the following composites:
+Direct inspection shows that one may [[bijection|bijectively]] transmute such $bind$- and $join$-operators into each other by expressing them as the following composites (using [[category theory]]-notation, for instance "ev" denotes the [[evalutation map]]):
 
 \[
   \label{TransformBetweenBindAndJoinInIntroduction}
@@ -161,23 +165,23 @@ Direct inspection shows that one may reversibly transmute such $bind$- and $join
   &
   fmap_{D_1, D_2}
   \;\colon\;
-  Map(D_1, D_2)
+  Hom\big(D_1, D_2\big)
   \xrightarrow{ ret \circ (-) }
-  Map(D_1, T D_2)
+  Hom\big(D_1,\, T D_2\big)
   \xrightarrow{ bind }
-  Map(T D_1, T D_2)
+  Hom\big(T D_1,\, T D_2\big)
   \\
   &
   join_D
   \;\colon\;
-  T T D
+  T\big( T (D) \big)
   \xrightarrow{
     \big( 
       id_{T T D}, 
       name(id_{T D})  
     \big)
   }
-  T T D \times Map( T D, T D )
+  T T D \times Hom( T D,\, T D )
   \xrightarrow{ bind }
   T D
   \\
@@ -186,13 +190,13 @@ Direct inspection shows that one may reversibly transmute such $bind$- and $join
   &
   bind_{D, D'}
   \;\colon\;
-  T D \times Map\big( D , T D'  \big)
+  T D \times Hom\big( D,\, T D'  \big)
   \xrightarrow{
     \big(
       id_{T D}, fmap_{D, T D'}
     \big)
   }
-  T D \times Map\big( T D , T T D' \big)
+  T D \times Hom\big( T D , T T D' \big)
   \xrightarrow{\;
     ev
   \;}
@@ -202,6 +206,52 @@ Direct inspection shows that one may reversibly transmute such $bind$- and $join
   \,.
   \end{array}
 \]
+
+In fact, in [[functional programming]]-[[programming language|languages]] one typically considers an enhanced version of this situation: 
+
+In these higher-order languages one has, besides the ([[hom-set|hom-]])*[[set]]* of programs/functionw $Hom\big(D_1, \, D_2\big)$ also the actual *[[data type]]* of functions, namely the *[[function type]]* $D_1 \to D_2$, which in terms of [[categorical semantics]] is the *[[internal hom]]-[[hom object|object]]* $Map(D_1, \, D_2)$. Therefore, in such languages (like [[Haskell]]) the [[type]] of the binding operation for given [[data types]] $D_1$, $D_2$ is actually taken to be the [[function type]]/[[internal hom]]
+
+$$
+  \begin{array}{ll}
+  bind_{D_1, D_2}
+  \;\colon\;
+  &
+  \big(
+     D_1 \to T D_2
+  \big)
+  \to
+  \big(
+    T D_1
+    \to
+    T D_2
+  \big)
+  \\
+  \simeq &
+  T D_1 
+  \times
+  \big(
+     D_1 \to T D_2
+  \big)
+  \to
+  \big(
+    T D_2
+  \big)
+  \\
+  \simeq &
+  T D_1 
+  \to 
+  \Big(
+    \big(
+       D_1 \to T D_2
+    \big)
+    \to
+    \big(
+      T D_2
+    \big)
+  \Big)
+  \end{array}
+$$
+
 
 (...)
 
@@ -278,7 +328,7 @@ $$
     \psi_{b'' ,b''}
   \big)_{b'' \colon B}
   }
-$$
+f$$
 
 and that the a $\bigcirc_B$-algebra structure on $\mathscr{H}$ is a linear map of this form:
 
