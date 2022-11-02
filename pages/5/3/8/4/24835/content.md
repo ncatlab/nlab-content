@@ -18,11 +18,11 @@
 
 ## Idea
 
-In [[computer science]], "$String$" is a traditional name for the [[data type]] of [[lists]] of elements of a given [[alphabet]] $\mathscr{A}$.
+In [[computer science]], "$string$" is a traditional name for the [[data type]] of [[lists]] of elements of a given [[alphabet]] $\mathscr{A}$.
 
 From the point of view of [[categorical semantics]], the data type $String$ equipped with its evident [[concatenation]] functionality is the [[free monoid]] on $\mathscr{A}$. 
 
-Moreover, from the point of view of [[monads in computer science|monads]] in [[functional programming]], the writing of consecutive log messages of type $String$ is desribed by the [[writer monad]] $Writer\big((String, conc)\big)$
+Moreover, from the point of view of [[monads in computer science|monads]] in [[functional programming]], the writing of consecutive log messages of type $String$ is desribed by the [[writer monad]] $Writer\big((string, conc)\big)$
 
 ## Related concepts
 
