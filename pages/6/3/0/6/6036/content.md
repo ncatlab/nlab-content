@@ -1,4 +1,6 @@
 
+> This entry is about the notion in [[particle physics]]/[[quantum gravity]]. For the notion in [[computer science]] see at *[[string (computer science)]]*.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
