@@ -249,3 +249,6 @@ Discussion of Kleisli categories in [[type theory]] is in
 
 
 [[!redirects Kleisli equivalence]]
+
+[[!redirects Kleisli triple]]
+[[!redirects Kleisli triples]]
