@@ -110,6 +110,8 @@ This is relevant in computer science because probability is modelled by the free
 
 * [[H-space]]
 
+* [[exchange law]]
+
 ## References
 
 Due to
