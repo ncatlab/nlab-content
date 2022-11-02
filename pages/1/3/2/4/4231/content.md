@@ -14,7 +14,7 @@
 {:toc}
 
 ##Idea
-In [[Pursuing Stacks]], [[Grothendieck]] introduced the idea of a test category. These are by definition small categories on which the presheaves of sets are models for homotopy types of CW-complexes, thus generalising the situation for the category of simplices, for which the category of presheaves is that of [[simplicial sets]]. The resulting theory was completed and generalised by Cisinki.
+In [[Pursuing Stacks]], [[Grothendieck]] introduced the idea of a [[test category]]. These are by definition small categories on which the presheaves of sets are models for homotopy types of CW-complexes, thus generalising the situation for the category of simplices, for which the category of presheaves is that of [[simplicial sets]]. The resulting theory was completed and generalised by Cisinski: in order to prove, following Grothendieck's prediction, that presheaves on a test category form a [[model category]], he constructed all possible cofibrantly generated model structures on a given topos for which the cofibrations are the monomorphisms.
 
 ## General
 
