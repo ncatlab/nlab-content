@@ -32,7 +32,7 @@ In short, a (Kleisli-style) *monad* in a given [[programming language]] consists
 
 1. to any [[data type|data]] [[type]] $D$ of a new data type $T(D)$ of "$D$-data with $T$-effects",
 
-1. to any [[pair]] of $T$-effectful [[functions]] (programs) of the form $prog_{12} \,\colon\, D_1 \to T(D_2)$ and $prog_{23} \,\colon\, D_2 \to T(D_3)$ of an effective-composite function $prog_{23}\big[prog_{12}(-)\big] \,\colon\, D_1 \to T (D_3)$ (their *binding* or *[[Kleisli composition]]*);
+1. to any [[pair]] of $T$-effectful [[functions]] (programs) of the form $prog_{12} \,\colon\, D_1 \to T(D_2)$ and $prog_{23} \,\colon\, D_2 \to T(D_3)$ of an effective-composite function $prog_{23}\big[prog_{12}(-)\big] \,\colon\, D_1 \to T (D_3)$ (their *binding* or *[[Kleisli composition]]*),
 
 1. to any [[data type|data]] [[type]] $D$ of a function $ret_D \;\colon\; D \to T(D)$ assigning "trivial $T$-effects",
 
@@ -366,9 +366,8 @@ Various monads are _definable_ in terms of standard [[type formation|type-formin
 
 * An *[[exception monad]]*, more generally, encodes possible controlled failure together with the output of an error "message" in the general form of data of some type.
 
-* The *[[reader monad]]* encodes reading out a global parameter.
+* The *[[reader monad]]* and *[[coreader comonad]]* both encode reading out a global parameter.
 
-* The *[[coreader comonad]]* encodes re-setting a global parameter.
 
 * The *[[state monad]]* encodes the possibility of *reading followed by re-setting* a global parameter  -- this provides a notion of *[[random access memory]]*.
 
