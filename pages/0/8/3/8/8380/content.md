@@ -22,93 +22,337 @@
 * table of contents
 {: toc}
 
+
 ## Idea
+ {#Idea}
 
-In [[computer science]], a _monad_ describes a "notion of computation".  Formally, it is a map that 
+In [[computer science]], a _monad_ is a kind of [[data type]]-structure which describes "notions of computations which may cause or be subject to *side effects*" --- such as involving [[random access memory]], [[IO-monad|input/output]], [[exception monad|exception handling]], [[writer monad|writing to]] or [[reader monad|reading from]] global variables,  etc. --- as familiar from [[imperative programming]] but cast as "pure functions" with deterministic and [[verified programming|verifiable behaviour]], in the style of [[functional programming]].
 
-* sends every [[type]] $X$ of some given [[programming language]] to a new type $T(X)$ (called the "type of $T$-computations with values in $X$");
+In short, a (Kleisli-style) *monad* in a given [[programming language]] consists of *assignments* (but see [below](#RefinedIdea)):
 
-* is equipped with a rule for composing two [[functions]] of the form $f \colon X \to T(Y)$ (called _[[Kleisli functions]]_) and $g \colon Y \to T(Z)$ to a function $g \circ f : X \to T (Z)$ (their [[Kleisli composition]]);
+1. to any [[data type|data]] [[type]] $D$ of a new data type $T(D)$ of "$D$-data with $T$-effects",
 
-* is in a way that is [[associativity law|associative]] in the evident sense and [[unit law|unital]] with respect to a given unit function called $pure_X : X \to T(X)$, to be thought of as taking a value to the pure computation that simply returns that value.
+1. to any [[pair]] of $T$-effectful [[functions]] (programs) of the form $prog_{12} \,\colon\, D_1 \to T(D_2)$ and $prog_{23} \,\colon\, D_2 \to T(D_3)$ of an effective-composite function $prog_{23}\big[prog_{12}(-)\big] \,\colon\, D_1 \to T (D_3)$ (their *binding* or *[[Kleisli composition]]*);
 
-This is essentially the same structure as a _[[monad]]_ in the sense of [[category theory]], but presented differently; see below for the precise relationship.
+1. to any [[data type|data]] [[type]] $D$ of a function $ret_D \;\colon\; D \to T(D)$ assigning "trivial $T$-effects",
 
-### For imperative programs in functional programming
- {#ForImperativeProgramsInFunctionalProgramming}
+such that the binding is [[associativity|associative]] and also [[unitality|unital]] with respect to the return operation.
 
-Monads provide one way to "embed [[imperative programming]] in 
-[[functional programming]]", and are used that way notably in the 
-[[programming language]] [[Haskell]]. But monads, as well as [[comonads]] and related structures, exist much more generally in programming languages; an exposition is in ([Harper](#Harper)). For an account of the use of monads in industry see [Benton15, pp. 11-12](#Benton15).
+We now explain in more detail what this means and what it is good for.
 
-For instance when the monad $T(-)$ forms [[product types]] $T(X) \coloneqq X \times Q$ with some fixed type $Q$ that carries the structure of a [[monoid]], then a [[Kleisli function]] $f : X \to Y \times Q$ may be thought of as a function $X \to Y$ that produces a [[side effect]] output of type $Q$.  The Kleisli composition of two functions $f \colon X \to Y \times Q$ and $g \colon Y \to Z \times Q$ then not only evaluates the two programs in sequence but also combines their $Q$-output using the monoid operation of $Q$; so if $f x = (y,q)$ and $g y = (z,q')$ then the final result of $(g \circ f)(x)$ will be $(z, q q')$.  For example, $Q$ might be the set of strings of characters, and the monoid operation that of concatenation of strings (i.e. $Q$ is the [[free monoid]] on the type of characters).  If the software is designed such that values of type $Q$ computed in this way appear on the user's screen or are written to memory, then this is a way to encode _input/output_ in [[functional programming]] (see the [[IO monad]] below). 
+### Basic idea: External monads
+ {#BasicIdea}
 
-But monads have plenty of further uses. They are as ubiquituous (sometimes in disguise) in [[computer science]] as [[monad|monads in the sense of category theory]] are (sometimes in disguise) in [[category theory]]. This is no coincidence, see _[Relation to monads in category theory](#RelationToMonadsInCategoryTheory)_ below.
+In [[programming language|programming]] it frequently happens that a [[program]] with "nominal" output [[data type]] $D$ *de facto* outputs data of some modified type $T(D)$ which accounts for "external effects" caused by or affecting the program, where 
+\[
+  \label{MonadMapInIntroduction}
+  D \;\mapsto\; T(D)
+\]
+is some general operation sending [[data types]] $D$ to new data types $T(D)$.
 
-### Relation to monads in category theory
- {#RelationToMonadsInCategoryTheory}
+> For example, if alongside the computation of its nominal output data $d \colon D$ a program also writes a log message $msg \,\colon\,$ [[String (computer science)|String]], then its actual output data is the [[pair]] $(d, msg)$ of [[product type]] $T(D) \,=\, D \times String$.
 
-In [[computer science]], a [[programming language]] may be formalised or studied by means of a [[category]], called the _[[syntactic category]]_ $\mathcal{C}$, whose 
+> Or, dually, if the program may fail and instead "throw an [[exception]] message" $msg \,\colon\,$ [[String (computer science)|String]], then its actual output data is *either* $d \colon D$ *or* $msg \colon String$, hence is of [[coproduct type]] $T(D) \,=\, D \sqcup String$.
 
-* [[objects]]$\;$ $X \in \mathcal{C}$ are the [[types]] of the language, 
+Given such a $T$-effectful program $prog_{12} \;\colon\; D_1 \to T(D_2)$ and given a subsequent program $prog_{23} \,\colon\, D_2 \to T(D_3)$ accepting nominal input data of type $D_2$ and itself possibly involved in further effects of type $T(-)$, then the *naïve* [[composition]] of the two programs makes no sense (unless $T(D) = D$ is actually the trivial sort of effect), but their evident *intended* composition is, clearly, obtained by: 
 
-* [[morphisms]] $X \to Y$ are the [[terms]] or [[programs]] (or an [[equivalence class]] of such) that takes a value of [[type]] $X$ as input and returns a value of type $Y$.  
+1. first adjusting $prog_{23}$ via a given prescription
 
-This point of view (see _[[computational trinitarianism]]_) is particularly useful when studying purely [[functional programming|functional programming languages]].
+   \[
+     \label{BindingLawInIntroduction}
+     prog \;\mapsto\; prog[-]
+     \,,
+   \]
 
-Under this [[relation between type theory and category theory]] monads on the type system in the sense of computer science are [[monad|monads in the sense of category theory]], being certain [[endofunctors]] 
+   such that $prog_{23}[-] \,\colon\, T D_2 \to T D_3$:
+
+   1. does accept data of type $T(D_2)$ and 
+
+   1. "acts as $prog_{12}$ while carrying any previous $T(-)$-effects along";
+
+1. then forming the naive [[composition]] $prog_{23}\big[prog_{12}(-)\big]$
+
+as follows:
+
+\begin{imagefromfile}
+    "file_name": "KleisliCompositionOfEffectfulPrograms-221031.jpg",
+    "width": "700",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+> (Beware that we are denoting by square brackets "$prog[-]$" what in [[programming languages]] like [[Haskell]] [is denoted by](https://wiki.haskell.org/Monad#The_Monad_class) "`(-) >>= prog`"  aka "fish notation", eg. [Milewski (2019)](#Milewski19), and which other authors denote by "$\,(-)^\ast\,$" or similar, e.g. [Uustalu (2021), lecture 1](#Uustalu21), [p. 12](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf#page=12) .)
+
+According to the intended behaviour of these programs, it remains to specify how exactly $prog_{23}[-]$ "carries $T(-)$-effects along", hence what the "bind" operation really is. 
+
+> For instance, in the above example of a logging-effect, where $T(D_2) = D_2 \times String$, the evident way is to use the [[concatenation]]  $String \times String \xrightarrow{\; concat \;} String$ and set:
+
+> $ prog_{23}\big[-\big]\;\coloneqq\; D_2 \times String \xrightarrow{ prog_{23} \times Id_{String} } D_3 \times String \times String \xrightarrow{ Id_{D_3} \times concat } D_3 \times String \,. $
+
+> In the other example above, where the effect is the possible throwing of an exception message, the evident way to carry this kind of effect along is to use the [[codiagonal]] $\nabla \;\colon\; String \sqcup String \to String$, which amounts to keep forwarding the exception that has already been thrown, if any:
+
+> $prog_{23}big[-\big] \;\coloneqq\; D_2 \sqcup String \xrightarrow{ prog_{23} \sqcup Id_{String} } D_3 \sqcup String \sqcup String \xrightarrow{ id_{D_3} \sqcup \nabla } D_3 \sqcup String \,.$
+
+Whatever design choice one makes for how to "carry along effects", it must be consistent in that applying the method to a [[triple]] of $T(-)$-effectful programs which are nominally composable, then their effectful composition should be unambiguously defined in that it is [[associative]], satisfying the following [[equation]] (the first "monad law"):
+
+\[
+  \label{AssociativityConditionInIntroduction}
+  prog_{34}\Big[
+    prog_{23}\big[
+      prog_{12}(-)
+    \big]
+  \Big]
+  \;\;\;=\;\;\;
+  \Big(
+    prog_{34}\big[
+      prog_{23}(-)
+    \big]
+  \Big)
+  \big[
+    prog_{12}(-)
+  \big]
+  \,.
+\]
+
+Finally, for such a notion of effectful programs to be usefully connected to "pure" programs without effects,  it ought to be the case that for any program $prog_{01} \,\colon\, D_0 \xrightarrow{\;} D_1$ that happens to have no $T(-)$-effects, we have a prescription for how to regard it as a  $T(-)$-effectful program in a trivial way. For that purpose there should be defined an operation
+
+\[  
+  \label{ReturnMapInIntroduction}
+  ret_{D} \;\colon\; D \xrightarrow{\;}  T(D)
+\]
+
+which does nothing but "return" data of type $D$, but re-regarded as effectful $T(D)$-data in a trivial way; so that we may construct the trivially effectful program $ret_{D_1}\big(prog_{01}(-)\big) \;\colon\; D_0 \xrightarrow{\;} T(D_1)$.
+
+> For instance, in the above example of log-message effects this would be the operation $D \to D \times String$ which assigns the [[empty set|emtpty]] [[string (computer science)|string]] $d \mapsto (d, \varnothing)$.
+
+> In the other example above, of exception handling, the trivial effect $D \to D \sqcup String$ is just not to throw an exception, which is just $d \mapsto d$ (the right [[coprojection]] into the [[coproduct]]).
+
+The final consistency condition (i.e. the remaining "monad law") then is that "carrying along trivial effects is indeed the trivial operation", i.e. that 
+
+\[
+  \label{UnitalityInIntroduction}
+  prog_{01}
+  \big[
+    ret_{D_0}(-)
+  \big]
+  \;=\;
+  prog_{01}
+  \;\;\;\;\;\;\;\;\;
+  \text{and}
+  \;\;\;\;\;\;\;\;\;
+  ret_{D_1}\big[
+    prog_{01}(-)
+  \big]
+  \;=\;
+  prog_{01}
+  \,.
+\]
+
+Notice that the [[associativity]] condition (eq:AssociativityConditionInIntroduction) and the [[unitality]] condition (eq:UnitalityInIntroduction) are jointly equivalent to saying that [[data types]] with [[hom-sets]] of $T(-)$-effectful programs between them, in the above sense, form a *[[category]]*. In [[category theory]] this is known as the *[[Kleisli category]]* of a *[[monad]]* $T$.
+
+> Traditionally in [[category theory]], the [[axioms]] on [[monads]] are presented in a somewhat different way, invoking a monad "product" [[natural transformation]] $T \circ T \xrightarrow{ \mu } T$ instead of the "binding" operation. One readily checks that these two axiomatic presentations of monads are in fact equal -- see (eq:TransformBetweenBindAndJoinInIntroduction) below --, but the above "[[Kleisli triple]]"-presentation is typically more relevant in the practice of [[functional programming]].
+
+In summary, a choice of *assignments* (but see [below](#RefinedIdea)) to [[data types]] $D_i$ of
+
+1. $T(D) \;\colon\; Type$,
+
+   namely of types of effectful data of nominal type $D$ (eq:MonadMapInIntroduction);
+
+2. $\array{\\ bind_{D_1, D_2} \colon & Hom\big(D_1,\, T D_2\big) &\longrightarrow& Hom\big(T D_1,\,T D_2\big) \\ & prog &\mapsto& prog[-]}$,
+
+   namely of how to execute a prog while carrying along any previous effects (eq:BindingLawInIntroduction);
+
+3. $ret_D \;\colon\; D \to T D$,
+
+   namely of how to regard plain $D$-data as trivially effectful (eq:ReturnMapInIntroduction)
+
+subject to:
+
+1. the [[associativity]] condition (eq:AssociativityConditionInIntroduction) 
+
+1. the [[unitality]] condition (eq:UnitalityInIntroduction) 
+
+is called a *[[monad in computer science]]* (also: "[[Kleisli triple]]" in [[functional programming]]) and serves to encode the notion that all programs may be subject to certain *external effects* of a kind that is specified by the above choices of monad operations.
+
+Here, for the time being (but see [below](#RefinedIdea)), we write $Hom(D_1, D_2)$ for the *[[set]]* of programs/functions taking data of type $D_1$ to data of $D_2$ (the *[[hom set]]* in the plain [[category]] of [[types]]).
+
+> The first running example above is known as the *[[writer monad]]*, since it encodes the situation where programs may have the additional effect of writing a message string into a given buffer.
+
+> The other running example above is naturally called the *[[exception monad]]*.
+
+The above structure making such a [[Kleisli category|Kleisli-style]] [[monad in computer science]] may and often is encoded in different equivalent ways: Alternatively postulating operations
+
+1. $D \mapsto T D$ (as before)
+
+1. $fmap_{D_1, D_2} \;\colon\; Hom\big(D_1 \to D_2\big) \longrightarrow Hom\big(T D_1, T D_2\big)$ 
+
+1. $ret_D \;\colon\; D \to T D$
+
+1. $join_D \;\colon\; T\big( T D\big) \to T D$
+
+such that 
+
+1. $fmap$ is *[[functor|functorial]]* on [[data types]] 
+
+1. $join$ is [[associativity|associative]] and [[unitality|unital]] (with respect to $ret$) as a [[natural transformation]],
+
+yields the definition of *[[monad]]* traditionally used in [[category theory]] (namely as a [[monoid object]] [[internalization|in]] [[endofunctors]], here  on the plain  [[category]] of [[data types]]).
+
+Direct inspection shows that one may [[bijection|bijectively]] transmute such $bind$- and $join$-operators into each other by expressing them as the following composites (using [[category theory]]-notation, for instance "ev" denotes the [[evaluation map]]):
+
+\[
+  \label{TransformBetweenBindAndJoinInIntroduction}
+  \begin{array}{ll}
+  &
+  fmap_{D_1, D_2}
+  \;\colon\;
+  Hom\big(D_1, D_2\big)
+  \xrightarrow{ ret \circ (-) }
+  Hom\big(D_1,\, T D_2\big)
+  \xrightarrow{ bind }
+  Hom\big(T D_1,\, T D_2\big)
+  \\
+  &
+  join_D
+  \;\colon\;
+  T\big( T (D) \big)
+  \xrightarrow{
+    \big( 
+      id_{T T D}, 
+      name(id_{T D})  
+    \big)
+  }
+  T T D \times Hom( T D,\, T D )
+  \xrightarrow{ bind }
+  T D
+  \\
+  \text{and conversely:}
+  \\
+  &
+  bind_{D, D'}
+  \;\colon\;
+  T D \times Hom\big( D,\, T D'  \big)
+  \xrightarrow{
+    \big(
+      id_{T D}, fmap_{D, T D'}
+    \big)
+  }
+  T D \times Hom\big( T D , T T D' \big)
+  \xrightarrow{\;
+    ev
+  \;}
+  T T D'
+  \xrightarrow{\; join \;}
+  D'
+  \,.
+  \end{array}
+\]
+
+
+### Refined idea: Internal monads
+ {#RefinedIdea}
+
+But in fact, in [[functional programming]]-[[programming language|languages]] one typically considers an enhanced version of the above situation: 
+
+In these higher-order languages one has, besides the ([[hom-set|hom-]])*[[set]]* of programs/functionw $Hom\big(D_1, \, D_2\big)$ also the actual *[[data type]]* of functions, namely the *[[function type]]* $D_1 \to D_2$, which in terms of [[relation between type theory and category theory|categorical semantics]] is the *[[internal hom]]-[[hom object|object]]* $Map(D_1, \, D_2)$ in the [[cartesian closed category]] of [[data types]]. Therefore, in such languages (like [[Haskell]]) the [[type]] of the binding operation for given [[data types]] $D_1$, $D_2$ is actually taken to be the [[function type]]/[[internal hom]]
 
 $$
-  T \colon \mathcal{C} \longrightarrow \mathcal{C}
+  \begin{array}{ll}
+  bind_{D_1, D_2}
+  \;\colon\;
+  &&
+  \big(
+     D_1 \to T D_2
+  \big)
+  \to
+  \big(
+    T D_1
+    \to
+    T D_2
+  \big)
+  \\
+  &\simeq &
+  T D_1 
+  \times
+  \big(
+     D_1 \to T D_2
+  \big)
+  \to
+    T D_2
+  \\
+  & \simeq &
+  T D_1 
+  \to 
+  \Big(
+    \big(
+       D_1 \to T D_2
+    \big)
+    \to
+      T D_2
+  \Big)
+  \end{array}
 $$
 
-on the [[syntactic category]]. This [[functor]]
+> (where we used the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) of the [[product]]$\dashv$[[internal hom]]-[[adjoint functors|adjunction]] to re-identify the [[types]] on the right)
 
-1. sends each [[type]], hence [[object]] $X \in \mathcal{C}$ to another object $T(X)$;
-
-1. the unit [[natural transformation]] $\epsilon \colon Id_{\mathcal{C}} \Rightarrow T$ of the [[monad]] $T$ provides for each type $X$ a component [[morphism]] $pure_X : X \to T(X)$;
-
-1. the _multiplication_ [[natural transformation]] $\mu \colon T \circ T \Rightarrow T$ of the monad provides for each object $X$ a morphism $\mu_X : T(T(X)) \to T(X)$ which induces the [[Kleisli composition]] by the formula
-
-  $$
-    \begin{aligned}
-    (g \circ f)
-    &\coloneqq
-    (Y \stackrel{g}{\to} T(Z)) \circ_{Kleisli} (X \stackrel{f}{\to} T(Y))
-    \\
-    & \coloneqq
-    X \stackrel{f}{\to} T(Y)
-    \stackrel{T(g)}{\to} T(T(Z))
-    \stackrel{\mu(Z)}{\to}
-    T Z
-    \end{aligned}
-    \,,
-  $$
-
-Here the morphism $T(g)$ in the middle of the last line makes use of the fact that $T(-)$ is indeed a [[functor]] and hence may also be applied to morphisms / functions between types. The last morphism $\mu(Z)$ is the one that implements the "$T$-computation".
-
-
-The monads arising this way in computer science are usually required also to interact nicely with the structure of the programming language, as encoded in the structure of its syntactic category; in most cases, terms of the language will be allowed to take more than one input, so the category $\mathcal{C}$ will be at least [[monoidal category|monoidal]], and the corresponding kind of 'nice' interaction corresponds to the monad's being a _[[strong monad]]_ (see e.g. [McDermott & Uustalu (2022)](#McDermottUustalu22)).
-
-The 'bind' operation is a means of describing multiplication on such a strong monad $M$. It is a term of the form $M A \to (M B)^A \to M B$, which is equivalent to a map of the form $M A \times M B^A \to M B$. It is the composite 
+which (beware) is traditionally written without some of the parenthesis, as follows:
 
 $$
-  M A \times M B^A 
-    \stackrel{strength}{\to} 
-  M(A \times M B^A) 
-    \stackrel{M eval_{A, M B}}{\to} 
-  M M B 
-    \stackrel{m B}{\to} M B
+  bind_{D_1, D_2}
+  \;\colon\;
+  T D_1 
+    \to 
+  \big(
+    D_1
+    \to
+    T D_2
+  \big)
+  \to
+  T D_2
+  \,.
+$$
+
+In general (except in the [[base topos]] of [[Sets]]), such an iterated [[function type]]/[[internal hom]] is richer than (certainly different from) the corresponding plain [[hom set]], and accordingly a "Kleisli triple" defined as above but with the binding operation typed in this [[internalization|internal]] way is *more* information than a plain [[monad]] on the underlying category of types: namely what is called a *[[strong monad]]* (eg. [McDermott & Uustalu (2022)](#McDermottUustalu22)).
+
+On such a [[strong monad]], the bind operation is defined as the following composite:
+
+$$
+  T(D_1) \times T Map(D_1,\,D_2)
+    \xrightarrow{\; strength_T \;}
+  T\big(D_1 \times Map(D_1, \, T D_2) \big) 
+    \xrightarrow{
+      T eval_{D_1, T D_2}
+    } 
+  T T D_2 
+    \xrightarrow{\;
+      \mu_{D_2}
+    \;} 
+  T D_2
+  \,.
 $$ 
 
-where $m \colon M M \to M$ is the monad multiplication.
+This makes the monads be [[enriched monads]] in the self-enrichment given by the [[function type]]/[[internal hom]]. 
 
-When monads are defined in [[Haskell]], the Kleisli composition, 'bind', is defined in Haskell. So monads in Haskell are always [[enriched monads]], according to the self-enrichment defined by the function type in Haskell.
+In particular, monads as used in [[Haskell]] are really strong/enriched monads, in this way.
+
+\linebreak
+
+Yet more structure on effect-monads is available in [[dependent type theories]] with [[type universes]], where one may demand that the monad operation $D \mapsto T(D)$ is not just an [[endofunction]] on the [[set]] of [[types]], but an [[endomorphism]] of the [[type universe]]. At least for [[idempotent monads]] this case is further discussed at *[[reflective subuniverse]]* and *[[modal type theory]]* and maybe elsewhere.
+
+
 
 ## Examples
  {#Examples}
 
-Various monads are _definable_ in terms of the the standard type-forming operations ([[product type]], [[function type]], etc.). These include the following.
+
+### Definable monads
+
+Various monads are _definable_ in terms of standard [[type formation|type-forming operations]] (such as [[product types]], [[function types]], etc.). These include the following:
 
 * A [[functional program]] with input of [[type]] $X$, output of [[type]] $Y$ and mutable state $S$ is a [[function]] ([[morphism]]) of [[type]] $X \times S \longrightarrow Y \times S$. Under the ([[Cartesian product]] $\dashv$ [[internal hom]])-[[adjunction]] this is equivalently given by its [[adjunct]], which is a function of type $X \longrightarrow [S, S \times Y ]$. Here the operation $[S, S\times (-)]$ is the [[monad]] induced by the above adjunction and this latter function is naturally regarded as a morphism in the [[Kleisli category]] of this monad. This monad $[S, S\times (-)]$ is called the _[[state monad]]_ for mutable states of type S.
 
@@ -124,53 +368,54 @@ Various monads are _definable_ in terms of the the standard type-forming operati
 
   When $W$ carries the structure of a [[monoid object]] then writer also inherits the structure of a monad (on top of being a comonad) and converse for reader.
 
-Other monads may be supplied "axiomatically" by the programming language, 
+### Axiomatic monads
 
-This includes
+Other monads may be supplied "axiomatically" by the programming language, meaning that they are data structures [[type|typed]] as monads, but whose actual type formation, binding- and return-operations are special purpose operations provided by the programming environment.
 
-* the [[IO monad]] in [[Haskell]].
+This includes:
 
-* The **[[completion monad]]** may be used, as in [[constructive analysis]], for dealing for instance with [[real numbers]].
+* the *[[IO monad]]* in [[Haskell]],
 
-See also:
+* the *[[completion monad]]*, as in [[constructive analysis]], used for dealing for instance with [[real numbers]].
 
-* **[[state monad]]**
+In this vein:
 
 * Equipping [[homotopy type theory]] (say implemented as a programming language concretely in [[Coq]] or [[Agda]]) with two axiomatic [[idempotent monads]], denoted $\sharp$ and $\Pi$, with some additional data and relations, turns it into _[[cohesive homotopy type theory]]_. See also _[[modal type theory]]_.
 
+
 ## Related concepts
 
-Examples of (co)monads in ([[homotopy type theory|homotopy]]) [[type theory]] involve in particular _[[modal operators]]_ as they  appear in 
+* [[relation between type theory and category theory]], [[categorical semantics]], [[categorical logic]]
 
-* [[modal logic]]/[[modal type theory]]/[[computational type theory]].
+* Examples of (co)monads in ([[homotopy type theory|homotopy]]) [[type theory]] involve in particular _[[modal operators]]_ as they  appear in 
 
-See also
+  * [[modal logic]]/[[modal type theory]]/[[computational type theory]].
 
-* [[adjoint modality]]
+  See also:
 
-For an approach to composing monads, see
+  * [[adjoint modality]].
 
-* [[monad transformer]]
+* For an approach to composing monads, see
 
-Another approach to modelling side effects in [[functional programming languages]] are 
+  * [[monad transformer]]
 
-* [[algebraic side effects]]
+* Another approach to modelling side effects in [[functional programming languages]] are 
 
-[[free monad|Free monads]] in computer science appear in the concepts of 
+  [[algebraic side effects]]
 
-* [[initial algebra for an endofunctor]]
+* [[free monad|Free monads]] in computer science appear in the concepts of 
 
-* [[terminal coalgebra for an endofunctor]]
+  * [[initial algebra for an endofunctor]]
 
-Other generalizations are 
+  * [[terminal coalgebra for an endofunctor]]
 
-* [[arrow (in computer science)]]
+* Other generalizations are:
 
-* [[applicative functor]]
+  * [[arrow (in computer science)]]
 
-There is also
+  * [[applicative functor]]
 
-* [[monad (in linguistics)]]
+* There is also: [[monad (in linguistics)]]
 
 
 ## References
@@ -256,7 +501,7 @@ and with [[arrows (in computer science)]] is in
 
 * Exequiel Rivas, _Relating Idioms, Arrows and Monads from Monoidal Adjunctions_, ([arXiv:1807.04084](https://arxiv.org/abs/1807.04084))
 
-Generalization from [[monads]] to [[relative monads]] is discussed in
+Generalization from [[monads]] to [[relative monads]]:
 
 * [[Thorsten Altenkirch]], [[James Chapman]], [[Tarmo Uustalu]], *Monads need not be endofunctors*, Logical Methods in Computer Science **11** 1:3 (2015) 1–40 &lbrack;[arXiv:1412.7148](https://arxiv.org/abs/1412.7148), [pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), <a href="https://doi.org/10.2168/LMCS-11(1:3)2015">doi:10.2168/LMCS-11(1:3)2015</a>&rbrack;
 
