@@ -430,8 +430,11 @@ Some introductory material on [[comonads]], [[coalgebras]] and [[co-Kleisli morp
 
 [[!redirects co-Kleisli morphism]]
 [[!redirects co-Kleisli morphisms]]
-
 [[!redirects coKleisli morphism]]
 [[!redirects coKleisli morphisms]]
 
+[[!redirects co-Kleisli map]]
+[[!redirects co-Kleisli maps]]
+[[!redirects coKleisli map]]
+[[!redirects coKleisli maps]]
 
