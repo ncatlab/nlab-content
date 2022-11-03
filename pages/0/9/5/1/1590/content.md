@@ -82,11 +82,23 @@ A strict 2-monad $T$ has an underlying [[monad]] $T_0$, such that strict $T$-alg
 * I. J. Le Creurer, F. Marmolejo, E. M. Vitale, _Beck's theorem for pseudo-monads_, J. Pure Appl. Algebra 173 (2002), no. 3, 293--313. 
 * [[John Power]], *Unicity of enrichment over Cat or Gpd*, Appl. Categ. Struct. 2009, 1--7.
 
-Relation to [[symmetric operads]] is discussed in
+On the relation to [[symmetric operads]]:
 
 * {#Kock12} [[Joachim Kock]], _Data types with symmetries and polynomial functors over groupoids_,  28th Conference on the Mathematical Foundations of Programming Semantics (Bath, June 2012); in Electronic Notes in Theoretical Computer Science.  ([arXiv:1210.0828](http://arxiv.org/abs/1210.0828))
 
 * {#Weber14} [[Mark Weber]], _Operads as polynomial 2-monads_ ([arXiv:1412.7599](http://arxiv.org/abs/1412.7599))
+
+On the [[extension system]]-perspective (as for [[monads in computer science]]) generalized to pseudomonads:
+
+
+Generalizing the perspective of [[extension systems]] to [[pseudomonads]]:
+
+* [[Francisco Marmolejo]], [[Richard J. Wood]], *No-iteration pseudomonads*, [[TAC]] **28** 14 (2013) 371-402 &lbrack;[tac:28-14](http://www.tac.mta.ca/tac/volumes/28/14/28-14abs.html)&rbrack;
+
+and relating to [[Kan extensions]]:
+
+* [[Francisco Marmolejo]], [[Richard J. Wood]], *Kan extensions and lax idempotent pseudomonads*, [[TAC]] **26** 1 (2012) 1-29 &lbrack;[26-01](http://www.tac.mta.ca/tac/volumes/26/1/26-01abs.html)&rbrack;
+
 
 
 [[!redirects strict 2-monad]]
