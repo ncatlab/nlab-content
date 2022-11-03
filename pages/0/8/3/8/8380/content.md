@@ -347,9 +347,9 @@ Yet more structure on effect-monads is available in [[dependent type theories]] 
 ### Further extension: Monad modules
  {#MonadModulesInIdeaSection}
 
-Further in the practice of [[programming language|programming]], if programs are subject to external effects, as [above](#BasicIdea), then one will often want to have them *handle* these effects.
+Further in the practice of [[programming language|programming]], if programs may cause external effects, as [above](#BasicIdea), then one will often want to have some of them *handle* these effects.
 
-> This is most evident in the [above](#BasicIdea) running examples of *[[exceptions]]* whose whole design purpose typically is to be handled when they arise.
+> This is particularly evident in the [above](#BasicIdea) running examples of *[[exceptions]]* whose whole design purpose typically is to be handled when they arise.
 
 Since a "handling" of $T$-effects should mean that these be done with and turned into pure data of some actual [[type]] $D$, a $T$-effect handler on(to) a data type $D_0$ should primarily consist of a program of the form
 
