@@ -182,13 +182,16 @@ See [here](Kleisli+category+of+a+comonad#MatrixmultiplicationAsCoKleisliComposit
 
 ## Related concepts
 
+* [[co-Kleisli category]]
+
 * [[Kleisli object]]
+
+* [[extension system]] 
+
+* [[monad in computer science]]
 
 * [[Kleisli 2-category]]
 
-* [[monad (in computer science)]]
-
-* [[co-Kleisli category]]
 
 ## References
 
@@ -202,6 +205,10 @@ The [[equivalence of categories]] between the [[Kleisli category]] over a given 
 
 * [[Mark Kleiner]],  *Adjoint monads and an isomorphism of the Kleisli categories*, Journal of Algebra
 Volume **133** 1 (1990) 79-82 &lbrack;<a href="https://doi.org/10.1016/0021-8693(90)90069-Z">doi:10.1016/0021-8693(90)90069-Z</a>&rbrack;
+
+The terminology "[[Kleisli triple]]" for a [[monad]] presented as an "[[extension system]]" and relation to [[computation]] with effects (see at *[[monads in computer science]]*):
+
+* {#Moggi91} [[Eugenio Moggi]], *Notions of computation and monads*, Information and Computation, **93** 1 (1991) &lbrack;<a href="https://doi.org/10.1016/0890-5401(91)90052-4">doi:10.1016/0890-5401(91)90052-4</a>, [pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf)&rbrack;
 
 Discussion of cases where the inclusion of the Kleisli category into the [[Eilenberg-Moore category]] is a [[reflective subcategory]]:
 
