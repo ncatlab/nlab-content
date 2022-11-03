@@ -95,7 +95,7 @@ $$\frac{\Gamma \vdash A \equiv B \; \mathrm{type} \quad \Gamma, x:A, \Delta \vda
 
 #### Rules for types
 
-Each type in Martin-Löf dependent type theory comes with a type [[formation rule]], a term [[introduction rule]], a term [[elimination rule]], a [[computation rule]], and an optional [[uniqueness rule]]. 
+Each type in Martin-Löf dependent type theory comes with a type [[formation rule]], a term [[introduction rule]], a term [[elimination rule]], a [[computation rule]], and an optional [[uniqueness rule]]. The elimination and conversion rules we give here are not [[contextual conversion rules|contextual]]. 
 
 #### Function types
 
@@ -131,7 +131,7 @@ $$\frac{\Gamma, x:A \vdash b(x):B(x)}{\Gamma \vdash \lambda(x:A).b(x):\prod_{x:A
 
 * Elimination rules for dependent product types:
 
-$$\frac{\Gamma \vdash f:\prod{x:A} B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash f(a):B[a/x]}$$
+$$\frac{\Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash f(a):B[a/x]}$$
 
 * Computation rules for dependent product types:
 
@@ -347,67 +347,67 @@ $$\frac{\Gamma \vdash f:A \to B}{\Gamma \vdash f \equiv_{A \to B} (x \to f(x)) \
 
 * Formation rules for dependent product types:
 
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma, x:A \vert \Phi \vdash B(x) \; \mathrm{type}}{\Gamma \vert \Phi \vdash \prod_{x:A} B(x) \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \prod_{x:A} B(x) \; \mathrm{type}}$$
 
 * Introduction rules for dependent product types:
 
-$$\frac{\Gamma, x:A \vert \Phi \vdash b(x):B(x)}{\Gamma \vert \Phi \vdash \lambda(x:A).b(x):\prod_{x:A} B(x)}$$
+$$\frac{\Gamma, x:A \vdash b(x):B(x)}{\Gamma \vdash \lambda(x:A).b(x):\prod_{x:A} B(x)}$$
 
 * Elimination rules for dependent product types:
 
-$$\frac{\Gamma \vert \Phi \vdash f:\prod{x:A} B(x) \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash f(a):B[a/x]}$$
+$$\frac{\Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash f(a):B[a/x]}$$
 
 * Computation rules for dependent product types:
 
-$$\frac{\Gamma, x:A \vert \Phi \vdash b(x):B(x) \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash \lambda(x:A).b(x)(a) \equiv_{B[a/x]} b[a/x] \; \mathrm{true}}$$
+$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \lambda(x:A).b(x)(a) \equiv_{B[a/x]} b[a/x] \; \mathrm{true}}$$
 
 * Uniqueness rules for dependent product types:
 
-$$\frac{\Gamma \vert \Phi \vdash f:\prod_{x:A} B(x)}{\Gamma \vert \Phi \vdash f \equiv_{\prod_{x:A} B(x)} \lambda(x).f(x) \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash f:\prod_{x:A} B(x)}{\Gamma \vdash f \equiv_{\prod_{x:A} B(x)} \lambda(x).f(x) \; \mathrm{true}}$$
 
 #### Product types
 
 * Formation rules for product types:
 
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type}}{\Gamma \vert \Phi \vdash A \times B \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \times B \; \mathrm{type}}$$
 
 * Introduction rules for product types:
 
-$$\frac{\Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:B}{\Gamma \vert \Phi \vdash (a, b):A \times B}$$
+$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b:B}{\Gamma \vdash (a, b):A \times B}$$
 
 * Elimination rules for product types:
 
-$$\frac{\Gamma \vert \Phi \vdash z:A \times B}{\Gamma \vert \Phi \vdash \pi_1(z):A} \qquad \frac{\Gamma \vert \Phi \vdash z:A \times B}{\Gamma \vert \Phi \vdash \pi_2(z):B}$$
+$$\frac{\Gamma \vdash z:A \times B}{\Gamma \vdash \pi_1(z):A} \qquad \frac{\Gamma \vdash z:A \times B}{\Gamma \vdash \pi_2(z):B}$$
 
 * Computation rules for product types:
 
-$$\frac{\Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:B}{\Gamma \vert \Phi \vdash \pi_1(a, b) \equiv_A a \; \mathrm{true}} \qquad \frac{\Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:B}{\Gamma \vert \Phi \vdash \pi_2(a, b) \equiv_B b \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b:B}{\Gamma \vdash \pi_1(a, b) \equiv_A a \; \mathrm{true}} \qquad \frac{\Gamma \vdash a:A \quad \Gamma \vdash b:B}{\Gamma \vdash \pi_2(a, b) \equiv_B b \; \mathrm{true}}$$
 
 * Uniqueness rules for product types:
 
-$$\frac{\Gamma \vert \Phi \vdash z:A \times B}{\Gamma \vert \Phi \vdash z \equiv_{A \times B} (\pi_1(z), \pi_2(z)) \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash z:A \times B}{\Gamma \vdash z \equiv_{A \times B} (\pi_1(z), \pi_2(z)) \; \mathrm{true}}$$
 
 #### Dependent sum types
 
 * Formation rules for dependent sum types:
 
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma, x:A \vert \Phi \vdash B(x) \; \mathrm{type}}{\Gamma \vert \Phi \vdash \sum_{x:A} B(x) \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \sum_{x:A} B(x) \; \mathrm{type}}$$
 
 * Introduction rules for dependent sum types:
 
-$$\frac{\Gamma, x:A \vert \Phi \vdash b(x):B(x) \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:B[a/x]}{\Gamma \vert \Phi \vdash (a, b):\sum_{x:A} B(x)}$$
+$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B[a/x]}{\Gamma \vdash (a, b):\sum_{x:A} B(x)}$$
 
 * Elimination rules for dependent sum types:
 
-$$\frac{\Gamma \vert \Phi \vdash z:\sum_{x:A} B(x)}{\Gamma \vert \Phi \vdash \pi_1(z):A} \qquad \frac{\Gamma \vert \Phi \vdash z:\sum_{x:A} B(x)}{\Gamma \vert \Phi \vdash \pi_2(z):B(\pi_1(z))}$$
+$$\frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash \pi_1(z):A} \qquad \frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash \pi_2(z):B(\pi_1(z))}$$
 
 * Computation rules for dependent sum types:
 
-$$\frac{\Gamma, x:A \vert \Phi \vdash b(x):B(x) \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash \pi_1(a, b) \equiv_A a \; \mathrm{true}} \qquad \frac{\Gamma, x:A \vert \Phi \vdash b:B \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash \pi_2(a, b) \equiv_{B(\pi_1(a, b))} b \; \mathrm{true}}$$
+$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \pi_1(a, b) \equiv_A a \; \mathrm{true}} \qquad \frac{\Gamma, x:A \vdash b:B \quad \Gamma \vdash a:A}{\Gamma \vdash \pi_2(a, b) \equiv_{B(\pi_1(a, b))} b \; \mathrm{true}}$$
 
 * Uniqueness rules for dependent sum types:
 
-$$\frac{\Gamma \vert \Phi \vdash z:\sum_{x:A} B(x)}{\Gamma \vert \Phi \vdash z \equiv_{\sum_{x:A} B(x)} (\pi_1(z), \pi_2(z)) \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash z \equiv_{\sum_{x:A} B(x)} (\pi_1(z), \pi_2(z)) \; \mathrm{true}}$$
 
 #### Sum types
 
@@ -421,16 +421,16 @@ $$\frac{\Gamma \vdash a:A}{\Gamma \vdash \mathrm{inl}(a):A + B} \qquad \frac{\Ga
 
 * Elimination rules for sum types:
 
-$$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vert \Phi[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vert \Phi[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash e:A + B}{\Gamma, \Delta[e/z] \vert \Phi[e/z] \vdash \mathrm{ind}_{A + B}^C(c, d, e):C[e/z]}$$
+$$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vert \Phi[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vert \Phi[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash e:A + B}{\Gamma, \Delta[e/z] \vert \Phi[e/z] \vdash \mathrm{ind}_{A + B}(z.C, c, d, e):C[e/z]}$$
 
 * Computation rules for sum types:
 
-$$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vert \Phi[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vert \Phi[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash a:A}{\Gamma, \Delta[\mathrm{inl}(a)/z] \vert \Phi[\mathrm{inl}(a)/z] \vdash \mathrm{ind}_{A + B}^C(c, d, \mathrm{inl}(a)) \equiv_{C[\mathrm{inl}(a)/z]} c[a/x] \; \mathrm{true}}$$
-$$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vert \Phi[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vert \Phi[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash b:B}{\Gamma, \Delta[\mathrm{inr}(b)/z] \vert \Phi[\mathrm{inr}(b)/z] \vdash \mathrm{ind}_{A + B}^C(c, d, \mathrm{inr}(b)) \equiv_{C[\mathrm{inr}(b)/z]} d[b/y] \; \mathrm{true}}$$
+$$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vert \Phi[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vert \Phi[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash a:A}{\Gamma, \Delta[\mathrm{inl}(a)/z] \vert \Phi[\mathrm{inl}(a)/z] \vdash \mathrm{ind}_{A + B}(z.C, c, d, \mathrm{inl}(a)) \equiv_{C[\mathrm{inl}(a)/z]} c[a/x] \; \mathrm{true}}$$
+$$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vert \Phi[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vert \Phi[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash b:B}{\Gamma, \Delta[\mathrm{inr}(b)/z] \vert \Phi[\mathrm{inr}(b)/z] \vdash \mathrm{ind}_{A + B}(z.C, c, d, \mathrm{inr}(b)) \equiv_{C[\mathrm{inr}(b)/z]} d[b/y] \; \mathrm{true}}$$
 
 * Uniqueness rules for sum types:
 
-$$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vert \Phi[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vert \Phi[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash e:A + B \quad \Gamma, z:A + B, \Delta \vert \Phi \vdash u:C \quad \Gamma, a:A, \Delta[\mathrm{inl}(a)/z] \vert \Phi[\mathrm{inl}(a)/z] \vdash u[\mathrm{inl}(a)/z] \equiv_{C[\mathrm{inl}(a)/z]} c[a/x] \; \mathrm{true} \quad \Gamma, b:B, \Delta[\mathrm{inr}(b)/z] \vert \Phi[\mathrm{inr}(b)/z] \vdash u[\mathrm{inr}(b)/z] \equiv_{C[\mathrm{inr}(b)/z]} d[b/y] \; \mathrm{true}}{\Gamma, \Delta[e/z] \vert \Phi[e/z] \vdash u[e/z] \equiv_{C[e/z]} \mathrm{ind}_{A + B}^C(c[\mathrm{inl}(e)/x], d[\mathrm{inr}(e)/y], e) \; \mathrm{true}}$$
+$$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vert \Phi[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vert \Phi[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash e:A + B \quad \Gamma, z:A + B, \Delta \vert \Phi \vdash u:C \quad \Gamma, a:A, \Delta[\mathrm{inl}(a)/z] \vert \Phi[\mathrm{inl}(a)/z] \vdash u[\mathrm{inl}(a)/z] \equiv_{C[\mathrm{inl}(a)/z]} c[a/x] \; \mathrm{true} \quad \Gamma, b:B, \Delta[\mathrm{inr}(b)/z] \vert \Phi[\mathrm{inr}(b)/z] \vdash u[\mathrm{inr}(b)/z] \equiv_{C[\mathrm{inr}(b)/z]} d[b/y] \; \mathrm{true}}{\Gamma, \Delta[e/z] \vert \Phi[e/z] \vdash u[e/z] \equiv_{C[e/z]} \mathrm{ind}_{A + B}(z.C, c[\mathrm{inl}(e)/x], d[\mathrm{inr}(e)/y], e) \; \mathrm{true}}$$
 
 #### Empty type
 
