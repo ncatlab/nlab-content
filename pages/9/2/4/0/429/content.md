@@ -56,6 +56,10 @@ As with the category-theoretic understanding of many other branches of mathemati
 
 ## References
 
+
+* [[R. F. C. Walters]], *A categorical approach to universal algebra*, Ph.D. Thesis (1970) &lbrack;[anu:1885/133321](https://openresearch-repository.anu.edu.au/handle/1885/133321)&rbrack;
+
+
 * {#HylandPower07} [[Martin Hyland]], [[John Power]], _The category theoretic understanding of universal algebra: Lawvere theories and monads_ ([pdf](http://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)).
 
 * [[Fred Linton]], _An outline of functorial semantics_, LNM 80 ([TAC Reprints](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html)).
