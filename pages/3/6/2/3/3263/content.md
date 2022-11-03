@@ -42,6 +42,8 @@ There are now modern generalizations to many variables due Aomoto and another va
 
 * [[Israel Gelfand|I. M. Gelfand]], M. M. [[Kapranov]], [[Andrei Zelevinsky|A. Zelevinsky]], _Discriminants, resultants and multidimensional determinants_, Birkh&#228;user 1994, 523 pp.
 
+*  [[Israel Gelfand|I. M. Gel’fand]], M. I. Graev, [[Vladimir Retakh|V. S. Retakh]], _General hypergeometric systems of equations and series of hypergeometric type_, Russian Math. Surveys __47__(4) (1992) 1--88 [doi](https://doi.org/10.1070/RM1992v047n04ABEH000915), transl. from _Общие гипергеометрические системы уравнений и ряды гипергеометрического типа_, УМН __47__:4(286) (1992) 3--82 [mathnet.ru](http://mi.mathnet.ru/umn4540); _General gamma functions, exponentials, and hypergeometric functions_, Russian Math. Surveys __53__:1 (1998) 1--55 [doi](https://doi.org/10.1070/RM1998v053n01ABEH000008), transl. from _Общие гамма-функции, экспоненты и гипергеометрические функции_, УМН, 1998, __53__:1 (319) 3--60 [doi](https://doi.org/10.4213/rm8)
+
 * [[Ian G. Macdonald]], _Hypergeometric functions I_, 1987 ([arxiv/1309.4568](http://arxiv.org/abs/1309.4568))
 
 * (dedicated chapter 2 of) Katsunori Iwasaki, Hironobu Kimura, Shun Shimomura, Masaaki Yoshida, _From Gauss to Painlevé, A modern theory of special functions_, 184 pp.
