@@ -46,7 +46,7 @@ There are three structural rules in objective type theory, the [[variable rule]]
 
 The variable rule states that we may derive a typing judgment if the typing judgment is in the context already:
 
-$$\frac{\vdash \Gamma, a:A, \Delta \; \mathrm{ctx}}{\vdash \Gamma, a:A, \Delta \vdash a:A}$$
+$$\frac{\Gamma, a:A, \Delta \; \mathrm{ctx}}{\Gamma, a:A, \Delta \vdash a:A}$$
 
 Let $\mathcal{J}$ be any arbitrary judgment. Then we have the following rules:
 
