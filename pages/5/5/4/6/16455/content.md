@@ -213,6 +213,8 @@ Sometimes the Klein-Gordon equation is thought of as a [[general relativity|rela
 
 * [[Dirac equation]]
 
+* [[sine-Gordon equation]]
+
 
 ## References
 
