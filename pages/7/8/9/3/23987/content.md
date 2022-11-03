@@ -4,9 +4,9 @@
 </a>
 </div>
 
-The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html)* (CQTS)  is a Research Center, launching in 2022, within the [Research Institute](https://nyuad.nyu.edu/en/research/research-institute-centers.html) of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/).
+The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html)* (CQTS)  is a Research Center, launched in 2022, within the [Research Institute](https://nyuad.nyu.edu/en/research/research-institute-centers.html) of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/).
 
-[CQTS](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) hosts cross-disciplinary research on *[[topological physics -- contents|topological]] [[quantum systems]]*,  such as [[topological phases of matter]] understood [[AdS-CFT in condensed matter physics|via holography]] and using tools from [[topological data analysis]], ultimately aimed at addressing open questions in [[topological quantum computation]]. A unifying theme is the use of new methods from ("[[persistent cohomotopy|persistent]]") *[[Cohomotopy]]* and [[generalized cohomology]]-theory, developed [[Hypothesis H|in string theory]]. 
+[CQTS](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) hosts cross-disciplinary research on *[[topological physics -- contents|topological]] [[quantum systems]]*,  such as [[topological phases of matter]] understood [[AdS-CFT in condensed matter physics|via holography]] and using tools from [[topological data analysis]], ultimately aimed at addressing open questions in [[topological quantum computation|topological]] [[quantum computation]]. A unifying theme is the use of new methods from ("[[persistent cohomotopy|persistent]]") *[[Cohomotopy]]* and [[generalized cohomology]]-theory, developed [[Hypothesis H|in string theory]]. 
 
 \linebreak
 
@@ -154,7 +154,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 * (upcoming)
 
-  **Quantum Matter and Quantum Gravity**
+  **Quantum Information, Quantum Matter and Quantum Gravity**
 
 
 \linebreak
@@ -256,6 +256,31 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
     slides: [[Byrnes-QHEinBEC.pdf:file]]
 
     > on [Phys. Rev. A 92.023629 (2015)](https://doi.org/10.1103/PhysRevA.92.023629) and [Phys. Rev. B 99, 184427 (2019)](https://arxiv.org/abs/1905.01459)
+
+\linebreak
+
+
+### Nov 2022
+
+\linebreak
+
+* 07 Nov 2022
+  {#PachosNov2022}
+
+  [[Jiannis Pachos]] (Leeds University, UK):
+
+  **How to realise exotic particle statistics**
+
+  > Combining physics, mathematics and computer science, [[topological quantum computation|topological quantum information]] [&lbrack;1&rbrack;](#PachosRefNov22) is a rapidly expanding field of research focused on the exploration of quantum evolutions that are resilient to errors. In this talk I will present a variety of different topics starting from introducing [[anyon|anyonic models]], [[topological phases of matter]], [[Majorana fermions]], characterising [[knot invariants]], their quantum simulation with anyons and finally the possible realisation of anyons in the laboratory. 
+
+  >
+
+  > {#PachosRefNov22} &lbrack;1&rbrack; [[Jiannis K. Pachos]], *Introduction to Topological Quantum Computation*, Cambridge University Press (2012) $[$[doi:10.1017/CBO9780511792908]( https://doi.org/10.1017/CBO9780511792908)$]$
+
+
+
+
+
 
 \linebreak
 
