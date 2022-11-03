@@ -8,7 +8,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -210,11 +209,32 @@ The Eilenberg-Moore and Kleisli categories are also special cases of more genera
 
 ## References 
 
+### General
+
 An introduction to the basic ideas, which gives some intuition for newcomers, can be found in
 
 * [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_, Chapter 5. ([arXiv](http://arxiv.org/abs/1912.10642))
 
-See also the [[monad#references|references of the article on monads]].
+See more see the section *[References](monad#References)* at *[[monad]]*.
+
+### Kleisli/extension system-style
+ {#ReferencesKleisliStyle}
+
+For monads presented in "[[extension system]]"/"[[Kleisli triple]]"-form (the way traditionally used for [[monads in computer science]] -- i.e. in terms of a "bind"-operation taking [[Kleisli maps]] to actual [[morphisms]], not explicitly referring to the monad product) there is the corresponding "Kleisli-triple style" or "Mendler style" &lbrack;[Uustalu (2021), p. 4](#Uustalu21Lecture2)&rbrack; for presenting the algebra/module-structures for these monads:
+
+* {#MarmolejoWood10} [[F. Marmolejo]], [[Richard J. Wood]], Def. 3.1 in: *Monads as extension systems -- no iteration is necessary* [[TAC]] **24** 4 (2010) 84-113 &lbrack;[24-04](http://www.tac.mta.ca/tac/volumes/24/4/24-04abs.html)&rbrack;
+
+* [[Thorsten Altenkirch]], [[James Chapman]], [[Tarmo Uustalu]], Def. 2.11 in: *Monads need not be endofunctors*, Logical Methods in Computer Science **11** 1:3 (2015) 1–40 &lbrack;[arXiv:1412.7148](https://arxiv.org/abs/1412.7148), [pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), <a href="https://doi.org/10.2168/LMCS-11(1:3)2015">doi:10.2168/LMCS-11(1:3)2015</a>&rbrack;
+
+  > (stated in the generality of [[relative monads]])
+
+* {#Uustalu21Lecture2} [[Tarmo Uustalu]], p. 4 of: *Monads and Interaction Lecture 2*  lecture notes for [MGS 2021](https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html) (2021) &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs2.pdf), [[Uustalu-Monads2.pdf:file]]&rbrack;
+
+   
+See also
+
+* [[R. F. C. Walters]], Chapter I of: *A categorical approach to universal algebra*, Ph.D. Thesis (1970) &lbrack;[anu:1885/133321](https://openresearch-repository.anu.edu.au/handle/1885/133321)&rbrack;
+
 
 
 [[!redirects algebra for a monad]]
