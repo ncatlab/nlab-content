@@ -317,10 +317,9 @@ $$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vda
 
 $$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash A \equiv B \; \mathrm{true} \quad \Gamma, x:A, \Delta \vert \Phi \vdash \mathcal{J}}{\Gamma, x:B, \Delta \vert \Phi \vdash \mathcal{J}}$$
 
-
 #### Rules for types
 
-Each type in Martin-Löf dependent type theory comes with a type [[formation rule]], a term [[introduction rule]], a term [[elimination rule]], a [[computation rule]], and an optional [[uniqueness rule]]. We assume that each type is a [[contextual type]]. 
+Each type in Martin-Löf dependent type theory comes with a type [[formation rule]], a term [[introduction rule]], a term [[elimination rule]], a [[computation rule]], and an optional [[uniqueness rule]]. The elimination and conversion rules we give here are not [[contextual conversion rules|contextual]]. 
 
 #### Function types
 
@@ -330,19 +329,19 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}
 
 * Introduction rules for function types:
 
-$$\frac{\Gamma, x:A \vert \Phi \vdash b(x):B}{\Gamma \vert \Phi \vdash (x \mapsto b(x)):A \to B}$$
+$$\frac{\Gamma, x:A \vdash b(x):B}{\Gamma \vdash (x \mapsto b(x)):A \to B}$$
 
 * Elimination rules for function types:
 
-$$\frac{\Gamma \vert \Phi \vdash f:A \to B \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash f(a):B}$$
+$$\frac{\Gamma \vdash f:A \to B \quad \Gamma \vdash a:A}{\Gamma \vdash f(a):B}$$
 
 * Computation rules for function types:
 
-$$\frac{\Gamma, x:A \vert \Phi \vdash b(x):B \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash (x \mapsto b(x))(a) \equiv_{B} b \; \mathrm{true}}$$
+$$\frac{\Gamma, x:A \vdash b(x):B \quad \Gamma \vdash a:A}{\Gamma \vdash (x \mapsto b(x))(a) \equiv_{B} b \; \mathrm{true}}$$
 
 * Uniqueness rules for function types:
 
-$$\frac{\Gamma \vert \Phi \vdash f:A \to B}{\Gamma \vert \Phi \vdash f \equiv_{A \to B} (x \to f(x)) \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash f:A \to B}{\Gamma \vdash f \equiv_{A \to B} (x \to f(x)) \; \mathrm{true}}$$
 
 #### Dependent product types
 
