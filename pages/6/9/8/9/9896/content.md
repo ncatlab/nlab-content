@@ -24,6 +24,9 @@ But see:
 
 * Anna Karlsson, _Concerns about the replica wormhole derivation of the island conjecture_ ([arXiv:2101.05879](https://arxiv.org/abs/2101.05879))
 
+* Harvendra Singh, *Islands and Icebergs contribute nothing to the Page curve (System with a symmetrical bath)* &lbrack;[arXiv:2210.13970](https://arxiv.org/abs/2210.13970)&rbrack;
+
+
 and the following argument that the would-be proof of the island conjecture secretly works only for massive gravity:
 
 * [[Hao Geng]], [[Andreas Karch]], *Massive Islands*,  J. High Energ. Phys. **2020** 121 (2020) &lbrack;[arXiv:2006.02438](https://arxiv.org/abs/2006.02438), <a href="https://doi.org/10.1007/JHEP09(2020)121">doi:10.1007/JHEP09(2020)121</a>&rbrack;
