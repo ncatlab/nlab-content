@@ -28,6 +28,447 @@ Martin-L&#246;f's dependent type theory is notable for several reasons:
 
 * In its [[intensional type theory|intensional]] form, it has sufficient computational content to function as a programming language. At the same time, it then has [[identity types]] whose presence shows that one is really dealing with a form of [[homotopy type theory]].
 
+## Formal presentations
+
+There are many different ways to present Martin-Löf dependent type theory in a formal system. In this article, we give two formal presentations of Martin-Löf dependent type theory in the framework of [[natural deduction]]. 
+
+### Presentation 1
+
+We have the basic judgement forms:
+
+* $\Gamma \vdash A\; \mathrm{type}$ - $A$ is a well-typed type in context $\Gamma$.
+* $\Gamma \vdash a : A$ - $a$ is a well-typed term of type $A$ in context $\Gamma$.
+* $\Gamma \; \mathrm{ctx}$ - $\Gamma$ is a well-formed context. 
+
+In addition, we work in the logical framework of [[natural deduction]], where everything is given by rules. Contexts are defined by the following rules:
+
+$$\frac{}{() \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash A \; \mathrm{type}}{(\Gamma, a:A) \; \mathrm{ctx}}$$
+
+#### Structural rules
+
+There are three structural rules in dependent type theory, the [[variable rule]], the [[weakening rule]], and the [[substitution rule]]. 
+
+The variable rule states that we may derive a typing judgment if the typing judgment is in the context already:
+
+$$\frac{\Gamma, a:A, \Delta \; \mathrm{ctx}}{\Gamma, a:A, \Delta \vdash a:A}$$
+
+Let $\mathcal{J}$ be any arbitrary judgment. Then we have the following rules:
+
+The weakening rule:
+
+$$\frac{\Gamma, \Delta \vdash \mathcal{J} \quad \Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, \Delta \vdash \mathcal{J}}$$
+
+The substitution rule:
+
+$$\frac{\Gamma \vdash a:A \quad \Gamma, b:A, \Delta \vdash \mathcal{J}}{\Gamma, \Delta[a/b] \vdash \mathcal{J}[a/b]}$$
+
+The weakening and substitution rules are admissible rules: they do not need to be explicitly included in the type theory as they could be proven by induction on the structure of all possible derivations. 
+
+#### Definitional equality
+
+In addition, there are judgments for definitional equality of types and of terms:
+
+* $\Gamma \vdash A \equiv A' \; \mathrm{type}$ - $A$ and $A'$ are judgementally equal well-typed types in context $\Gamma$.
+* $\Gamma \vdash a \equiv a' : A$ - $a$ and $a'$ are judgementally equal well-typed terms of type $A$ in context $\Gamma$.
+
+Definitional equality has its own structural rules: reflexivity, symmetry, transitivity, the principle of substitution, and the variable conversion rule. 
+
+* Reflexivity of definitional equality
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash A \equiv A \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash a \equiv a:A}$$
+
+* Symmetry of definitional equality
+$$\frac{\Gamma \vdash A \equiv B \; \mathrm{type}}{\Gamma \vdash B \equiv A \; \mathrm{type}}$$ 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b:A}{\Gamma \vdash b \equiv a:A}$$
+
+* Transitivity of definitional equality
+$$\frac{\Gamma \vdash A \equiv B \; \mathrm{type} \quad \Gamma \vdash B \equiv C \; \mathrm{type} }{\Gamma \vdash A \equiv C \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b:A \quad b \equiv c:A }{\Gamma \vdash a \equiv c:A}$$
+
+* Principle of substitution of definitionally equal terms:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B \; \mathrm{type}}{\Gamma, \Delta[b/x] \vdash B[a/x] \equiv B[b/x] \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash c:B}{\Gamma, \Delta[b/x] \vdash c[a/x] \equiv c[b/x]: B[b/x]}$$
+
+* Variable conversion rule:
+$$\frac{\Gamma \vdash A \equiv B \; \mathrm{type} \quad \Gamma, x:A, \Delta \vdash \mathcal{J}}{\Gamma, x:B, \Delta \vdash \mathcal{J}}$$
+
+#### Rules for types
+
+Each type in Martin-Löf dependent type theory comes with a type [[formation rule]], a term [[introduction rule]], a term [[elimination rule]], a [[computation rule]], and an optional [[uniqueness rule]]. 
+
+#### Function types
+
+* Formation rules for function types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \to B \; \mathrm{type}}$$
+
+* Introduction rules for function types:
+
+$$\frac{\Gamma, x:A \vdash b(x):B}{\Gamma \vdash (x \mapsto b(x)):A \to B}$$
+
+* Elimination rules for function types:
+
+$$\frac{\Gamma \vdash f:A \to B \quad \Gamma \vdash a:A}{\Gamma \vdash f(a):B}$$
+
+* Computation rules for function types:
+
+$$\frac{\Gamma, x:A \vdash b(x):B \quad \Gamma \vdash a:A}{\Gamma \vdash (x \mapsto b(x))(a) \equiv b:B}$$
+
+* Uniqueness rules for function types:
+
+$$\frac{\Gamma \vdash f:A \to B}{\Gamma \vdash f \equiv (x \to f(x)):A \to B}$$
+
+#### Dependent product types
+
+* Formation rules for dependent product types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \prod_{x:A} B(x) \; \mathrm{type}}$$
+
+* Introduction rules for dependent product types:
+
+$$\frac{\Gamma, x:A \vdash b(x):B(x)}{\Gamma \vdash \lambda(x:A).b(x):\prod_{x:A} B(x)}$$
+
+* Elimination rules for dependent product types:
+
+$$\frac{\Gamma \vdash f:\prod{x:A} B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash f(a):B[a/x]}$$
+
+* Computation rules for dependent product types:
+
+$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \lambda(x:A).b(x)(a) \equiv b[a/x]:B[a/x]}$$
+
+* Uniqueness rules for dependent product types:
+
+$$\frac{\Gamma \vdash f:\prod_{x:A} B(x)}{\Gamma \vdash f \equiv \lambda(x).f(x):\prod_{x:A} B(x)}$$
+
+#### Product types
+
+* Formation rules for product types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \times B \; \mathrm{type}}$$
+
+* Introduction rules for product types:
+
+$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b:B}{\Gamma \vdash (a, b):A \times B}$$
+
+* Elimination rules for product types:
+
+$$\frac{\Gamma \vdash z:A \times B}{\Gamma \vdash \pi_1(z):A} \qquad \frac{\Gamma \vdash z:A \times B}{\Gamma \vdash \pi_2(z):B}$$
+
+* Computation rules for product types:
+
+$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b:B}{\Gamma \vdash \pi_1(a, b) \equiv a:A} \qquad \frac{\Gamma \vdash a:A \quad \Gamma \vdash b:B}{\Gamma \vdash \pi_2(a, b) \equiv b:B}$$
+
+* Uniqueness rules for product types:
+
+$$\frac{\Gamma \vdash z:A \times B}{\Gamma \vdash z \equiv (\pi_1(z), \pi_2(z)):A \times B}$$
+
+#### Dependent sum types
+
+* Formation rules for dependent sum types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \sum_{x:A} B(x) \; \mathrm{type}}$$
+
+* Introduction rules for dependent sum types:
+
+$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B[a/x]}{\Gamma \vdash (a, b):\sum_{x:A} B(x)}$$
+
+* Elimination rules for dependent sum types:
+
+$$\frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash \pi_1(z):A} \qquad \frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash \pi_2(z):B(\pi_1(z))}$$
+
+* Computation rules for dependent sum types:
+
+$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \pi_1(a, b) \equiv a:A} \qquad \frac{\Gamma, x:A \vdash b:B \quad \Gamma \vdash a:A}{\Gamma \vdash \pi_2(a, b) \equiv b:B(\pi_1(a, b))}$$
+
+* Uniqueness rules for dependent sum types:
+
+$$\frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash z \equiv (\pi_1(z), \pi_2(z)):\sum_{x:A} B(x)}$$
+
+#### Sum types
+
+* Formation rules for sum types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A + B \; \mathrm{type}}$$
+
+* Introduction rules for sum types:
+
+$$\frac{\Gamma \vdash a:A}{\Gamma \vdash \mathrm{inl}(a):A + B} \qquad \frac{\Gamma \vdash b:B}{\Gamma \vdash \mathrm{inr}(b):A + B}$$
+
+* Elimination rules for sum types:
+
+$$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c(x):C(\mathrm{inl}(x)) \quad \Gamma, y:B \vdash d(y):C(\mathrm{inr}(y)) \quad \Gamma \vdash e:A + B}{\Gamma \vdash \mathrm{ind}_{A + B}^C(c(x), d(y), e):C(e)}$$
+
+* Computation rules for sum types:
+
+$$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c(x):C(\mathrm{inl}(x)) \quad \Gamma, y:B \vdash d(y):C(\mathrm{inr}(y)) \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{ind}_{A + B}^C(c(x), d(y), \mathrm{inl}(a)) \equiv c(a):C(\mathrm{inl}(a))}$$
+$$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c(x):C(\mathrm{inl}(x)) \quad \Gamma, y:B \vdash d(y):C(\mathrm{inr}(y)) \quad \Gamma \vdash b:B}{\Gamma \vdash \mathrm{ind}_{A + B}^C(c(x), d(y), \mathrm{inr}(b)) \equiv d(b):C(\mathrm{inr}(b))}$$
+
+* Uniqueness rules for sum types:
+
+$$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c(x):C(\mathrm{inl}(x)) \quad \Gamma, y:B \vdash d(y):C(\mathrm{inr}(y)) \quad \Gamma \vdash e:A + B \quad \Gamma, x:A + B \vdash u:C \quad \Gamma, a:A \vdash u(\mathrm{inl}(a)) \equiv c(a):C(\mathrm{inl}(a)) \quad \Gamma, b:B \vdash u(\mathrm{inr}(b)) \equiv d(b):C(\mathrm{inr}(b))}{\Gamma \vdash u(e) \equiv \mathrm{ind}_{A + B}^C(c(\mathrm{inl}(e)), d(\mathrm{inl}(e)), e):C(e)}$$
+
+
+#### Empty type
+
+* Formation rules for the empty type:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{0} \; \mathrm{type}}$$
+
+* Elimination rules for the empty type:
+
+$$\frac{\Gamma, x:\mathbb{0} \vdash C \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{0}}{\Gamma \vdash \mathrm{ind}_\mathbb{0}^C(p):C(p)}$$
+
+* Uniqueness rules for the empty type:
+
+$$\frac{\Gamma, x:\mathbb{0} \vdash C \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{0} \quad \Gamma, x:\mathbb{0} \vdash u:C}{\Gamma \vdash u[p/x] \equiv \mathrm{ind}_\mathbb{0}^{C}(p):C[p/x]}$$
+
+#### Unit type
+
+* Formation rules for the unit type:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1} \; \mathrm{type}}$$
+
+* Introduction rules for the unit type:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:\mathbb{1}}$$
+
+* Elimination rules for the unit type:
+
+$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_*:C[*/x] \quad \Gamma \vdash p:\mathbb{1}}{\Gamma \vdash \mathrm{ind}_\mathbb{1}^C(p, c_*):C[p/x]}$$
+
+* Computation rules for the unit type:
+
+$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_*:C[*/x]}{\Gamma \vdash \mathrm{ind}_\mathbb{1}^C(*, c_*) \equiv c_*:C[*/x]}$$
+
+* Uniqueness rules for the unit type:
+
+$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_*:C[*/x] \quad \Gamma \vdash p:\mathbb{1} \quad \Gamma, x:\mathbb{1} \vdash u:C \quad \Gamma \vdash u[*/x] \equiv c_*:C[*/x]}{\Gamma \vdash u[p/x] \equiv \mathrm{ind}_\mathbb{1}^{C}(p, c_*):C[p/x]}$$
+
+### Presentation 2
+
+We have the basic judgement forms:
+
+* $\Gamma \vdash A\; \mathrm{type}$ - $A$ is a well-typed type in type context $\Gamma$.
+* $\Gamma \vdash a : A$ - $a$ is a well-typed term of type $A$ in type context $\Gamma$.
+* $\Gamma \; \mathrm{typectx}$ - $\Gamma$ is a well-formed type context. 
+* $\Gamma \vert \Phi \vdash \phi \; \mathrm{prop}$ - $\phi$ is a well-formed proposition in context $\Gamma \vert \Phi$
+* $\Gamma \vert \Phi \vdash \phi \; \mathrm{true}$ - $\phi$ is a well-formed true proposition in context $\Gamma \vert \Phi$
+* $\Gamma \vert \Phi \; \mathrm{ctx}$ - $\Gamma \vert \Phi$ is a well-formed context. 
+
+Type contexts are defined by the following rules:
+
+$$\frac{}{() \; \mathrm{typectx}} \qquad \frac{\Gamma \; \mathrm{typectx} \quad \Gamma \vdash A \; \mathrm{type}}{(\Gamma, a:A) \; \mathrm{typectx}}$$
+
+and full contexts are defined by the following rules:
+
+$$\frac{\Gamma \; \mathrm{typectx}}{\Gamma \vert () \; \mathrm{ctx}} \qquad \frac{\Gamma \vert \Phi \; \mathrm{ctx} \quad \Gamma \vert \Phi \vdash \phi \; \mathrm{prop}}{\Gamma \vert (\Phi, \phi \; \mathrm{true}) \; \mathrm{ctx}}$$
+
+#### Structural rules
+
+There are three structural rules in dependent type theory, the [[variable rule]], the [[weakening rule]], and the [[substitution rule]]. 
+
+The variable rule states that we may derive a typing judgment if the typing judgment is in the context already:
+
+$$\frac{\Gamma, a:A, \Delta \vert \Phi \; \mathrm{ctx}}{\Gamma, a:A, \Delta \vert \Phi \vdash a:A}$$
+
+Let $\mathcal{J}$ be any arbitrary judgment. Then we have the following rules:
+
+The weakening rule:
+
+$$\frac{\Gamma, \Delta \vert \Phi \vdash \mathcal{J} \quad \Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, \Delta \vert \Phi \vdash \mathcal{J}}$$
+
+The substitution rule:
+
+$$\frac{\Gamma \vdash a:A \quad \Gamma, b:A, \Delta \vert \Phi \vdash \mathcal{J}}{\Gamma, \Delta[a/b] \vert \Phi[a/b] \vdash \mathcal{J}[a/b]}$$
+
+The weakening and substitution rules are admissible rules: they do not need to be explicitly included in the type theory as they could be proven by induction on the structure of all possible derivations. 
+
+#### Definitional equality
+
+Definitional equality of types and terms is formed by the following rules:
+
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type}}{\Gamma \vert \Phi \vdash A \equiv B \; \mathrm{prop}}$$
+
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:A}{\Gamma \vert \Phi \vdash a \equiv_A b \; \mathrm{prop}}$$
+
+Definitional equality has its own structural rules:  reflexivity, symmetry, transitivity, the principle of substitution, and the variable conversion rule. 
+
+* Reflexivity of definitional equality
+
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash A \equiv A \; \mathrm{true}}$$
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash a \equiv_A a \; \mathrm{true}}$$
+
+* Symmetry of definitional equality
+
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash A \equiv B \; \mathrm{true}}{\Gamma \vert \Phi \vdash B \equiv A \; \mathrm{true}}$$
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:A \quad \Gamma \vert \Phi \vdash a \equiv_A b \; \mathrm{true}}{\Gamma \vert \Phi \vdash b \equiv_A a \; \mathrm{true}}$$
+
+* Transitivity of definitional equality
+
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma \vert \Phi \vdash A \equiv B \; \mathrm{true} \quad \Gamma \vert \Phi \vdash B \equiv C \; \mathrm{true}}{\Gamma \vert \Phi \vdash A \equiv C \; \mathrm{true}}$$ 
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:A \quad \Gamma \vert \Phi \vdash c:A \quad \Gamma \vert \Phi \vdash a \equiv_A b \; \mathrm{true} \quad \Gamma \vert \Phi \vdash b \equiv_A c \; \mathrm{true}}{\Gamma \vert \Phi \vdash a \equiv_A c \; \mathrm{true}}$$
+
+* Principle of substitution of definitionally equal terms:
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a : A \quad \Gamma \vert \Phi \vdash b : A \quad \Gamma \vert \Phi \vdash a \equiv_A b \; \mathrm{true} \quad \Gamma, x:A, \Delta \vert \Phi \vdash B \; \mathrm{type}}{\Gamma, \Delta[b/x] \vert \Phi[b/x] \vdash B[a/x] \equiv B[b/x] \; \mathrm{true}}$$
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a : A \quad \Gamma \vert \Phi \vdash b : A \quad \Gamma \vert \Phi \vdash a \equiv_A b \; \mathrm{true} \quad \Gamma, x:A, \Delta \vert \Phi \vdash c:B}{\Gamma, \Delta[b/x] \vert \Phi[b/x] \vdash c[a/x] \equiv_{B[b/x]} c[b/x] \; \mathrm{true}}$$
+
+* Variable conversion rule:
+
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash A \equiv B \; \mathrm{true} \quad \Gamma, x:A, \Delta \vert \Phi \vdash \mathcal{J}}{\Gamma, x:B, \Delta \vert \Phi \vdash \mathcal{J}}$$
+
+
+#### Rules for types
+
+Each type in Martin-Löf dependent type theory comes with a type [[formation rule]], a term [[introduction rule]], a term [[elimination rule]], a [[computation rule]], and an optional [[uniqueness rule]]. 
+
+#### Function types
+
+* Formation rules for function types:
+
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type}}{\Gamma \vert \Phi \vdash A \to B \; \mathrm{type}}$$
+
+* Introduction rules for function types:
+
+$$\frac{\Gamma, x:A \vert \Phi \vdash b(x):B}{\Gamma \vert \Phi \vdash (x \mapsto b(x)):A \to B}$$
+
+* Elimination rules for function types:
+
+$$\frac{\Gamma \vert \Phi \vdash f:A \to B \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash f(a):B}$$
+
+* Computation rules for function types:
+
+$$\frac{\Gamma, x:A \vert \Phi \vdash b(x):B \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash (x \mapsto b(x))(a) \equiv_{B} b \; \mathrm{true}}$$
+
+* Uniqueness rules for function types:
+
+$$\frac{\Gamma \vert \Phi \vdash f:A \to B}{\Gamma \vert \Phi \vdash f \equiv_{A \to B} (x \to f(x)) \; \mathrm{true}}$$
+
+#### Dependent product types
+
+* Formation rules for dependent product types:
+
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma, x:A \vert \Phi \vdash B(x) \; \mathrm{type}}{\Gamma \vert \Phi \vdash \prod_{x:A} B(x) \; \mathrm{type}}$$
+
+* Introduction rules for dependent product types:
+
+$$\frac{\Gamma, x:A \vert \Phi \vdash b(x):B(x)}{\Gamma \vert \Phi \vdash \lambda(x:A).b(x):\prod_{x:A} B(x)}$$
+
+* Elimination rules for dependent product types:
+
+$$\frac{\Gamma \vert \Phi \vdash f:\prod{x:A} B(x) \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash f(a):B[a/x]}$$
+
+* Computation rules for dependent product types:
+
+$$\frac{\Gamma, x:A \vert \Phi \vdash b(x):B(x) \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash \lambda(x:A).b(x)(a) \equiv_{B[a/x]} b[a/x] \; \mathrm{true}}$$
+
+* Uniqueness rules for dependent product types:
+
+$$\frac{\Gamma \vert \Phi \vdash f:\prod_{x:A} B(x)}{\Gamma \vert \Phi \vdash f \equiv_{\prod_{x:A} B(x)} \lambda(x).f(x) \; \mathrm{true}}$$
+
+#### Product types
+
+* Formation rules for product types:
+
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type}}{\Gamma \vert \Phi \vdash A \times B \; \mathrm{type}}$$
+
+* Introduction rules for product types:
+
+$$\frac{\Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:B}{\Gamma \vert \Phi \vdash (a, b):A \times B}$$
+
+* Elimination rules for product types:
+
+$$\frac{\Gamma \vert \Phi \vdash z:A \times B}{\Gamma \vert \Phi \vdash \pi_1(z):A} \qquad \frac{\Gamma \vert \Phi \vdash z:A \times B}{\Gamma \vert \Phi \vdash \pi_2(z):B}$$
+
+* Computation rules for product types:
+
+$$\frac{\Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:B}{\Gamma \vert \Phi \vdash \pi_1(a, b) \equiv_A a \; \mathrm{true}} \qquad \frac{\Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:B}{\Gamma \vert \Phi \vdash \pi_2(a, b) \equiv_B b \; \mathrm{true}}$$
+
+* Uniqueness rules for product types:
+
+$$\frac{\Gamma \vert \Phi \vdash z:A \times B}{\Gamma \vert \Phi \vdash z \equiv_{A \times B} (\pi_1(z), \pi_2(z)) \; \mathrm{true}}$$
+
+#### Dependent sum types
+
+* Formation rules for dependent sum types:
+
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma, x:A \vert \Phi \vdash B(x) \; \mathrm{type}}{\Gamma \vert \Phi \vdash \sum_{x:A} B(x) \; \mathrm{type}}$$
+
+* Introduction rules for dependent sum types:
+
+$$\frac{\Gamma, x:A \vert \Phi \vdash b(x):B(x) \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:B[a/x]}{\Gamma \vert \Phi \vdash (a, b):\sum_{x:A} B(x)}$$
+
+* Elimination rules for dependent sum types:
+
+$$\frac{\Gamma \vert \Phi \vdash z:\sum_{x:A} B(x)}{\Gamma \vert \Phi \vdash \pi_1(z):A} \qquad \frac{\Gamma \vert \Phi \vdash z:\sum_{x:A} B(x)}{\Gamma \vert \Phi \vdash \pi_2(z):B(\pi_1(z))}$$
+
+* Computation rules for dependent sum types:
+
+$$\frac{\Gamma, x:A \vert \Phi \vdash b(x):B(x) \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash \pi_1(a, b) \equiv_A a \; \mathrm{true}} \qquad \frac{\Gamma, x:A \vert \Phi \vdash b:B \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash \pi_2(a, b) \equiv_{B(\pi_1(a, b))} b \; \mathrm{true}}$$
+
+* Uniqueness rules for dependent sum types:
+
+$$\frac{\Gamma \vert \Phi \vdash z:\sum_{x:A} B(x)}{\Gamma \vert \Phi \vdash z \equiv_{\sum_{x:A} B(x)} (\pi_1(z), \pi_2(z)) \; \mathrm{true}}$$
+
+#### Sum types
+
+* Formation rules for sum types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A + B \; \mathrm{type}}$$
+
+* Introduction rules for sum types:
+
+$$\frac{\Gamma \vdash a:A}{\Gamma \vdash \mathrm{inl}(a):A + B} \qquad \frac{\Gamma \vdash b:B}{\Gamma \vdash \mathrm{inr}(b):A + B}$$
+
+* Elimination rules for sum types:
+
+$$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vert \Phi[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vert \Phi[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash e:A + B}{\Gamma, \Delta[e/z] \vert \Phi[e/z] \vdash \mathrm{ind}_{A + B}^C(c, d, e):C[e/z]}$$
+
+* Computation rules for sum types:
+
+$$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vert \Phi[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vert \Phi[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash a:A}{\Gamma, \Delta[\mathrm{inl}(a)/z] \vert \Phi[\mathrm{inl}(a)/z] \vdash \mathrm{ind}_{A + B}^C(c, d, \mathrm{inl}(a)) \equiv_{C[\mathrm{inl}(a)/z]} c[a/x] \; \mathrm{true}}$$
+$$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vert \Phi[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vert \Phi[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash b:B}{\Gamma, \Delta[\mathrm{inr}(b)/z] \vert \Phi[\mathrm{inr}(b)/z] \vdash \mathrm{ind}_{A + B}^C(c, d, \mathrm{inr}(b)) \equiv_{C[\mathrm{inr}(b)/z]} d[b/y] \; \mathrm{true}}$$
+
+* Uniqueness rules for sum types:
+
+$$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta \vert \Phi \vdash c(x):C(\mathrm{inl}(x)) \quad \Gamma, y:B, \Delta \vert \Phi \vdash d(y):C(\mathrm{inr}(y)) \quad \Gamma, \Delta \vert \Phi \vdash e:A + B \quad \Gamma, x:A + B, \Delta \vert \Phi \vdash u:C \quad \Gamma, a:A, \Delta \vert \Phi \vdash u(\mathrm{inl}(a)) \equiv_{C(\mathrm{inl}(a))} c(a) \; \mathrm{true} \quad \Gamma, b:B, \Delta \vert \Phi \vdash u(\mathrm{inr}(b)) \equiv_{C(\mathrm{inr}(b))} d(b) \; \mathrm{true}}{\Gamma, \Delta \vert \Phi \vdash u(e) \equiv_{C(e)} \mathrm{ind}_{A + B}^C(c(\mathrm{inl}(e)), d(\mathrm{inl}(e)), e) \; \mathrm{true}}$$
+
+#### Empty type
+
+* Formation rules for the empty type:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vert \Phi \vdash \mathbb{0} \; \mathrm{type}}$$
+
+* Elimination rules for the empty type:
+
+$$\frac{\Gamma, x:\mathbb{0}, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{0}}{\Gamma, \Delta[p/x] \vert \Phi[p/x] \vdash \mathrm{ind}_\mathbb{0}(x.C, p):C[p/x]}$$
+
+* Uniqueness rules for the empty type:
+
+$$\frac{\Gamma, x:\mathbb{0}, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{0} \quad \Gamma, x:\mathbb{0}, \Delta \vert \Phi \vdash u:C}{\Gamma, \Delta[p/x] \vert \Phi[p/x] \vdash u[p/x] \equiv_{C[p/x]} \mathrm{ind}_\mathbb{0}(x.C, p) \; \mathrm{true}}$$
+
+#### Unit type
+
+* Formation rules for the unit type:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1} \; \mathrm{type}}$$
+
+* Introduction rules for the unit type:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:\mathbb{1}}$$
+
+* Elimination rules for the unit type:
+
+$$\frac{\Gamma, x:\mathbb{1}, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, \Delta[*/x] \vert \Phi[*/x] \vdash c_*:C[*/x] \quad \Gamma \vert \Phi \vdash p:\mathbb{1}}{\Gamma, \Delta[p/x] \vert \Phi[p/x] \vdash \mathrm{ind}_\mathbb{1}(x.C, p, c_*):C[p/x]}$$
+
+* Computation rules for the unit type:
+
+$$\frac{\Gamma, x:\mathbb{1}, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, \Delta[*/x] \vert \Phi[*/x] \vdash c_*:C[*/x]}{\Gamma, \Delta[p/x] \vert \Phi[p/x] \vdash \mathrm{ind}_\mathbb{1}(x.C, *, c_*) \equiv_{C[*/x]} c_* \; \mathrm{true}}$$
+
+* Uniqueness rules for the unit type:
+
+$$\frac{\Gamma, x:\mathbb{1}, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, \Delta[*/x] \vert \Phi[*/x] \vdash c_*:C[*/x] \quad \Gamma \vdash p:\mathbb{1} \quad \Gamma, x:\mathbb{1}, \Delta \vert \Phi \vdash u:C \quad \Gamma, \Delta[*/x] \vert \Phi[*/x] \vdash u[*/x] \equiv_{C[*/x]} c_* \; \mathrm{true}}{\Gamma, \Delta[p/x] \vert \Phi[p/x] \vdash u[p/x] \equiv_{C[p/x]} \mathrm{ind}_\mathbb{1}(x.C, p, c_*) \; \mathrm{true}}$$
+
 ## Syntax
 
 The syntax of Martin-Löf dependent type theory can be constructed in two stages. The first is the *raw* or *untyped* syntax of the theory consisting of expressions that are readable but not meaningful. The second stage consists of defining the *derivable judgements* of the type theory inductively which then pick out the meaningful contexts, types and terms.
@@ -38,14 +479,31 @@ One may also define contexts as coming with a variable name, in which case one n
 
 Types and terms are built inductively from various constructors. Types, terms and contexts are defined mutually.
 
-We have four basic judgement forms:
+#### Identity types
 
-* $\Gamma \vdash A\; \mathrm{type}$ - $A$ is a well-typed type in context $\Gamma$.
-* $\Gamma \vdash A \cong A' \; \mathrm{type}$ - $A$ and $A'$ are judgementally equal well-typed types in context $\Gamma$.
-* $\Gamma \vdash a : A$ - $a$ is a well-typed term of type $A$ in context $\Gamma$.
-* $\Gamma \vdash a \cong a' : A$ - $a$ and $a'$ are judgementally equal well-typed terms of type $A$ in context $\Gamma$.
+There is another version of equality, called the [[identity type]] or **typal equality**, because this equality is a type. The identity type is only be used for equality between terms of a type, and unless one is using [[Russell universes]] where types are represented by terms of a [[Russell universe]], identity types cannot be used for equality of types. 
 
-There is also a fifth judgement that a given context is well-formed. This can be defined from the other judgments as every type in a context is well-typed in the presence of the types that precede it.
+* Formation rule for identity types:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, b:A \vdash a =_A b \; \mathrm{type}}$$
+
+* Introduction rule for identity types:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A \vdash \mathrm{refl}_A(a) : a =_A a}$$
+
+* Elimination rule for identity types:
+$$\frac{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash C(a, b, p) \mathrm{type} \quad \Gamma, a:A, \Delta(a, a, \mathrm{refl}_A(a)) \vdash t:C(a, a, \mathrm{refl}_A(a))}{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash J(t, a, b, p):C(a, b, p)}$$
+
+* Judgmental, propositional, and typal computation rules for identity types:
+$$\frac{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash C(a, b, p) \; \mathrm{type} \quad \Gamma, a:A, \Delta(a, a, \mathrm{refl}_A(a)) \vdash t:C(a, a, \mathrm{refl}_A(a))}{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash J(t, a, a, \mathrm{refl}(a)) \equiv t:C(a, a, \mathrm{refl}_A(a))}$$
+$$\frac{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash C(a, b, p) \; \mathrm{type} \quad \Gamma, a:A, \Delta(a, a, \mathrm{refl}_A(a)) \vdash t:C(a, a, \mathrm{refl}_A(a))}{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash J(t, a, a, \mathrm{refl}(a)) \equiv_{C(a, a, \mathrm{refl}_A(a))} t \; \mathrm{true}}$$
+$$\frac{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash C(a, b, p) \; \mathrm{type} \quad \Gamma, a:A, \Delta(a, a, \mathrm{refl}_A(a)) \vdash t:C(a, a, \mathrm{refl}_A(a))}{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash \beta_{=_A}(a) : J(t, a, a, \mathrm{refl}(a)) =_{C(a, a, \mathrm{refl}_A(a))} t}$$
+
+* Optional judgmental, propositional, and typal uniqueness rules for identity types:
+
+...
+
+### Propositions as types
+
+...
 
 ## Syntax
 
