@@ -86,7 +86,7 @@ as follows:
     }
 \end{imagefromfile}
 
-> (Beware that we are denoting by square brackets "$prog[-]$" what in [[programming languages]] like [[Haskell]] [is denoted by](https://wiki.haskell.org/Monad#The_Monad_class) "`(-) >>= prog`"  aka "fish notation", eg. [Milewski (2019)](#Milewski19), and which other authors denote by "$\,(-)^\ast\,$" or similar, e.g. [Uustalu (2021), lecture 1](#Uustalu21), [p. 12](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf#page=12) .)
+> (Beware that we are denoting by square brackets "$prog[-]$" what in [[programming languages]] like [[Haskell]] [is denoted by](https://wiki.haskell.org/Monad#The_Monad_class) "`(-) >>= prog`"  aka "fish notation", eg. [Milewski (2019)](#Milewski19), and which other authors denote by "$\,(-)^\ast\,$" or similar, e.g. [Uustalu (2021), lecture 1](#Uustalu21Lecture1), [p. 12](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf#page=12) .)
 
 According to the intended behaviour of these programs, it remains to specify how exactly $prog_{23}[-]$ "carries $T(-)$-effects along", hence what the "bind" operation really is. 
 
@@ -347,11 +347,54 @@ Yet more structure on effect-monads is available in [[dependent type theories]] 
 ### Further extension: Monad modules
  {#MonadModulesInIdeaSection}
 
-If a monad $T$ encodes an effect, then a $T$-[[module over a monad|module]] (also: "$T$-[[algebra over a monad|algebra]]") encodes the *handling* of this effect by the program, re-absorbing it into its data.
+Further in the practice of [[programming language|programming]], if programs are subject to external effects, as [above](#BasicIdea), then one will often want to have them *handle* these effects.
 
-(e.g. [Uustalu (2021), Lec. 2](#Uustalu21Lecture2))
+> This is most evident in the [above](#BasicIdea) running examples of *[[exceptions]]* whose whole design purpose typically is to be handled when they arise.
 
-(...)
+Since a "handling" of $T$-effects should mean that these be done with and turned into pure data of some actual [[type]] $D$, a $T$-effect handler on(to) a data type $D_0$ should primarily consist of a program of the form
+
+$$
+  T D_0 \to D_0
+  \,.
+$$
+
+that handles effects produced by $T$-effectful programs $D_{-1} \to T D_0$, turning them into pure computations $D_{-1} \to D$. 
+
+But in addition it needs to handle effects that have been "carried along" from previous computations, even along otherwise in-effectful computations $prog_{-1,0} \;\colon\; D_{-1} \to D$, so that all these need to be assigned handlers $prog_{-1,0}\{-\} \;\colon\; T D_{-1} \to D_0$.
+
+Of such choice of effect handling, consistency demands that
+
+1. first handling all all old effects carried along and then the newly produced effects by a given $prog_{-2, -1} \,\colon\, D_{-2} \to T D_{-1}$ has the same result as letting $prog$ take care of carrying along previous effects by passing to $prog[-]$ and then handling the resulting accumulation at once:
+
+   $$
+     prog_{-1,0}
+     \big\{
+       prog_{-2,-1}(-)
+     \big\} 
+     \{-\}
+     \;\;
+     =
+     \;\;
+     prog_{-1,0}\big\{
+       prog_{-2,-1}[-]
+     \big\}
+   $$
+
+1. handling the trivial effect ought to be no extra operation:
+
+   $$
+     prog_{-1,0}
+     \big\{
+       ret_{D_{-1}}(-)
+     \big\}
+     \;\;
+       =
+     \;\;
+     prog_{-1,0}
+     \,.
+   $$ 
+
+Such a structure is known as an *Kleisli triple algebra* (e.g. [Uustalu (2021), Lec. 2](#Uustalu21Lecture2)) or *algebra over an extension system* (see [here](algebra+over+a+monad#ReferencesKleisliStyle)) for $T(-)$ and is bijectively the same as what in traditional [[category theory]] is known as an *[[algebra over a monad]]* or *$T$-algebra* or, maybe best, a *$T$-module*.
 
 
 ## Examples
