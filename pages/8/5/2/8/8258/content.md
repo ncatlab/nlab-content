@@ -12,6 +12,11 @@ Bob Walters (1943-2015), often called R F C Walters (Robert Frank Carslaw Walter
 
 ## Selected writings
 
+On [[categorical algebra|categorical]] [[universal algebra]] ([[monads]]):
+
+* [[R. F. C. Walters]], *A categorical approach to universal algebra*, Ph.D. Thesis (1970) &lbrack;[anu:1885/133321](https://openresearch-repository.anu.edu.au/handle/1885/133321)&rbrack;
+
+
 On [[closed bicategories]] and [[locally internal categories]]:
 
 * {#BettiWalters1985} [[Renato Betti]], [[Robert F. C. Walters]], *Closed bicategories and variable category theory*, Universita degli Studi di Milano (1985), reprinted in: Reprints in Theory and Applications of Categories, **26** (2020) 1-27 $[$[tac:tr26](http://www.tac.mta.ca/tac/reprints/articles/26/tr26abs.html)$]$
