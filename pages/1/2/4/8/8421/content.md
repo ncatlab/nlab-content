@@ -219,14 +219,6 @@ Introductory textbook account:
 [[!redirects elimination rule]]
 [[!redirects elimination rules]]
 
-
-[[!redirects computation rule]]
-[[!redirects computation rules]]
-[[!redirects uniqueness rule]]
-[[!redirects uniqueness rules]]
-[[!redirects conversion rule]]
-[[!redirects conversion rules]]
-
 [[!redirects term constructor]]
 [[!redirects term constructors]]
 
