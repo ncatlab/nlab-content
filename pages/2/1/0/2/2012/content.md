@@ -31,9 +31,15 @@ were invented with a view toward quantum integrable systems systematizing analog
 
 ## Related entries
 
-* [[Liouville integrability]], [[integrable PDE]], [[soliton]] 
+* [[Liouville integrability]], 
+
+* [[integrable PDE]] 
+
+*[[soliton]] 
 
 * [[spin chain]], [[Bethe ansatz]]
+
+* [[sine-Gordon model]]
 
 * [[quasitriangular bialgebra]], [[Yangian]], [[quantum group]] 
 
