@@ -26,9 +26,9 @@
 ## Idea
  {#Idea}
 
-In [[computer science]], a _monad_ is a kind of [[data type]]-structure which describes "notions of computations which may cause or be subject to *side effects*" --- such as involving [[random access memory]], [[IO-monad|input/output]], [[exception monad|exception handling]], [[writer monad|writing to]] or [[reader monad|reading from]] global variables,  etc. --- as familiar from [[imperative programming]] but cast as "pure functions" with deterministic and [[verified programming|verifiable behaviour]], in the style of [[functional programming]].
+In [[computer science]], a *[[monad]]* (or *[[Kleisli category|Kleisli triple]]*, or *[[extension system]]*) is a kind of [[data type]]-structure which describes "notions of computations" &lbrack;[Moggi (1991)](#Moggi91)&rbrack; that may "cause or be subject to *side effects*" --- such as involving [[random access memory]], [[IO-monad|input/output]], [[exception monad|exception handling]], [[writer monad|writing to]] or [[reader monad|reading from]] global variables,  etc. --- as familiar from [[imperative programming]] but cast as "pure functions" with deterministic and [[verified programming|verifiable behaviour]], in the style of [[functional programming]].
 
-In short, a ("Kleisli-style" or "[[extension system]]-style") *monad* in a given [[programming language]] consists of *assignments* (but see [below](#RefinedIdea)):
+In short, a ("[[extension system]]-style" &lbrack;[Manes (1976), Ex. 3.12](#Manes76)&rbrack; or "[[Kleisli triple]]-style" &lbrack;[Moggi (1991), Def. 1.2](#Moggi91)&rbrack;) *[[monad]]* in a given [[programming language]] consists of *assignments* (but see [below](#RefinedIdea)):
 
 1. to any [[data type|data]] [[type]] $D$ of a new data type $T(D)$ of "$D$-data with $T$-effects",
 
@@ -36,7 +36,7 @@ In short, a ("Kleisli-style" or "[[extension system]]-style") *monad* in a given
 
 1. to any [[data type|data]] [[type]] $D$ of a function $ret_D \;\colon\; D \to T(D)$ assigning "trivial $T$-effects",
 
-such that the binding is [[associativity|associative]] and also [[unitality|unital]] with respect to the return operation.
+such that the binding is [[associativity|associative]] and also [[unitality|unital]] with respect to the return operation, hence such that [[data types]] with $T$-effectful programs between them constitute a [[category]] (the *[[Kleisli category]]* of the given effect/monad $T$).
 
 We now explain in more detail what this means and what it is good for.
 
@@ -453,22 +453,35 @@ In this vein:
 ## References
 
 ### General
+ {#ReferencesGeneral}
 
-The original reference for monads as 'notions of computation':
+The [[extension system]]-style presentation of monads as used in computer science is briefly mentioned in:
 
-* {#Moggi91} [[Eugenio Moggi]], _Notions of computation and monads_, Information and Computation, 93(1), 1991. ([pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf))
+* {#Manes76} [[Ernest G. Manes]], Sec 3, Ex. 12 (p. 32) of: *Algebraic Theories*, Springer (1976) &lbrack;[doi:10.1007/978-1-4612-9860-1](https://doi.org/10.1007/978-1-4612-9860-1)&rbrack;
 
-On the impact of Moggi's work and making a case for [[Lawvere theory|Lawvere theories]]:
+and expanded on in
+
+* {#MarmolejoWood10} [[F. Marmolejo]], [[Richard J. Wood]], *Monads as extension systems -- no iteration is necessary* [[TAC]] **24** 4 (2010) 84-113 &lbrack;[24-04](http://www.tac.mta.ca/tac/volumes/24/4/24-04abs.html)&rbrack;
+
+but not related there to computation.
+
+The original observation of monads as "notions of computation" is:
+
+* {#Moggi91} [[Eugenio Moggi]], *Notions of computation and monads*, Information and Computation, **93** 1 (1991) &lbrack;<a href="https://doi.org/10.1016/0890-5401(91)90052-4">doi:10.1016/0890-5401(91)90052-4</a>, [pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf)&rbrack;
+
+On the impact of [Moggi (1991)](#Moggi91):
 
 * {#HylandPower07} [[Martin Hyland]], [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_, Electronic Notes in Theoretical Computer Science (ENTCS) archive Volume 172, April, 2007 Pages 437-458  ([pdf](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf))
 
-Textbook accounts:
+In the generality of [[relative monads]]:
+
+* [[Thorsten Altenkirch]], [[James Chapman]], [[Tarmo Uustalu]], Section 2 of: *Monads need not be endofunctors*, Logical Methods in Computer Science **11** 1:3 (2015) 1–40 &lbrack;[arXiv:1412.7148](https://arxiv.org/abs/1412.7148), [pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), <a href="https://doi.org/10.2168/LMCS-11(1:3)2015">doi:10.2168/LMCS-11(1:3)2015</a>&rbrack;
+
+Textbook accounts of monads as used in actual [[programming languages]] such as [[Haskell]]:
 
 * {#Milewski19} [[Bartosz Milewski]] (compiled by Igal Tabachnik), "Monads: Programmer's Definition", §20 in: *Category Theory for Programmers*, Blurb (2019) &lbrack;[pdf](https://github.com/hmemcpy/milewski-ctfp-pdf/releases/download/v1.3.0/category-theory-for-programmers.pdf), [github](https://github.com/hmemcpy/milewski-ctfp-pdf), [webpage](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/), [ISBN:9780464243878](https://www.blurb.com/b/9621951-category-theory-for-programmers-new-edition-hardco)&rbrack;
 
-
-
-Further discussion/exposition of (co)monads in computer science:
+Further discussion/exposition of the notion and application of (co)monads in computer science:
  
 * [[Philip Wadler]], _Comprehending Monads_, in _Conference on Lisp and functional programming_, ACM Press, 1990 ([[WadlerMonads.pdf:file]])
 
@@ -477,8 +490,6 @@ Further discussion/exposition of (co)monads in computer science:
 * [[Philip Wadler]], *Monads for functional programming*, in M. Broy (eds.) *Program Design Calculi* NATO ASI Series, **118** Springer (1992) &lbrack;[doi;10.1007/978-3-662-02880-3_8](https://doi.org/10.1007/978-3-662-02880-3_8), [pdf](https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf)&rbrack;
 
 * Philip Mulry, _Monads in semantics_ , ENTCS **14** (1998) pp.275-286.
-
-
 
 * John Hughes, section 2 of _Generalising Monads to Arrows_, Science of Computer Programming (Elsevier) 37 (1-3): 67&#8211;111. (2000) ([pdf](http://pdn.sciencedirect.com/science?_ob=MiamiImageURL&_cid=271600&_user=10&_pii=S0167642399000234&_check=y&_origin=search&_zone=rslt_list_item&_coverDate=2000-05-31&wchp=dGLzVlk-zSkWb&md5=fa91ab4ffc136b0cedc52318c7c249be&pid=1-s2.0-S0167642399000234-main.pdf))
 
@@ -501,8 +512,6 @@ Further discussion/exposition of (co)monads in computer science:
 
   {#Uustalu21Lecture4} *Monads and Interaction Lecture 4* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs4.pdf), [[Uustalu-Monads4.pdf:file]]&rbrack;
 
-
-
 * Christina Kohl, Christina Schwaiger, *Monads in Computer Science* (2021) &lbrack;[pdf](https://www.uibk.ac.at/mathematik/algebra/staff/fritz-tobias/ct2021_course_projects/category_theory.pdf), [[KohlSchwaiger-Monads.pdf:file]]&rbrack;
 
 See also:
@@ -523,19 +532,15 @@ and an exposition of [[category theory]] and monads in terms of Haskell is in
 
 * WikiBooks, _[Haskell/Category](http://en.wikibooks.org/wiki/Haskell/Category_theory)_
 
-On the issue of  the CS-style monads really being [[strong monads]]:
+On the issue of the CS-style monads really being [[strong monads]]:
 
 * {#McDermottUustalu22} [[Dylan McDermott]], [[Tarmo Uustalu]], *What Makes a Strong Monad?*, EPTCS **360** (2022) 113-133 &lbrack;[arXiv:2207.00851](https://arxiv.org/abs/2207.00851), [doi:10.4204/EPTCS.360.6](https://doi.org/10.4204/EPTCS.360.6)&rbrack;
-
 
 A comparison of monads with [[applicative functors]] (also known as idioms)
 and with [[arrows (in computer science)]] is in 
 
 * Exequiel Rivas, _Relating Idioms, Arrows and Monads from Monoidal Adjunctions_, ([arXiv:1807.04084](https://arxiv.org/abs/1807.04084))
 
-Generalization from [[monads]] to [[relative monads]]:
-
-* [[Thorsten Altenkirch]], [[James Chapman]], [[Tarmo Uustalu]], *Monads need not be endofunctors*, Logical Methods in Computer Science **11** 1:3 (2015) 1–40 &lbrack;[arXiv:1412.7148](https://arxiv.org/abs/1412.7148), [pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), <a href="https://doi.org/10.2168/LMCS-11(1:3)2015">doi:10.2168/LMCS-11(1:3)2015</a>&rbrack;
 
 Discussion of [[comonads]] in this context includes
 
