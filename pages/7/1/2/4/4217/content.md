@@ -103,6 +103,7 @@ $$ \begin {gathered}
 
 
 [[!redirects disjunction]]
+[[!redirects disjunctions]]
 [[!redirects logical disjunction]]
 [[!redirects inclusive disjunction]]
 [[!redirects or]]
