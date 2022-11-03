@@ -235,8 +235,11 @@ Discussion of Kleisli categories in [[type theory]] is in
 
 [[!redirects Kleisli morphism]]
 [[!redirects Kleisli function]]
+[[!redirects Kleisli map]]
+
 [[!redirects Kleisli morphisms]]
 [[!redirects Kleisli functions]]
+[[!redirects Kleisli maps]]
 
 [[!redirects Kleisli composition]]
 [[!redirects Kleisli compositions]]
