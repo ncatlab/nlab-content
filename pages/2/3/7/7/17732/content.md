@@ -37,6 +37,7 @@ In asymptotic analysis, and in physics, especially in [[perturbative QFT]] etc.,
 [arxiv/0705.1578](https://arxiv.org/abs/0705.1578)
 * &#1042;. &#1042;. &#1050;&#1086;&#1079;&#1083;&#1086;&#1074;, _&#1048;&#1085;&#1074;&#1072;&#1088;&#1080;&#1072;&#1085;&#1090;&#1085;&#1099;&#1077; &#1084;&#1077;&#1088;&#1099; &#1075;&#1083;&#1072;&#1076;&#1082;&#1080;&#1093; &#1076;&#1080;&#1085;&#1072;&#1084;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1089;&#1080;&#1089;&#1090;&#1077;&#1084;, &#1086;&#1073;&#1086;&#1073;&#1097;&#1077;&#1085;&#1085;&#1099;&#1077; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1080; &#1080; &#1084;&#1077;&#1090;&#1086;&#1076;&#1099; &#1089;&#1091;&#1084;&#1084;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103;_, &#1048;&#1079;&#1074;. &#1056;&#1040;&#1053;. &#1057;&#1077;&#1088;. &#1084;&#1072;&#1090;&#1077;&#1084;., 80:2 (2016) 63&#8211;80  mathnet  [MR3507379](http://www.ams.org/mathscinet-getitem?mr=3507379) eng. transl.: V. V. Kozlov, _Invariant measures of smooth dynamical systems, generalized functions and summation methods_, Izv. Math. 80:2 (2016) 342&#8211;358
 * [[Leonhard Euler]], _De seriebus divergentibus_, Novi Commentarii academiae scientiarum Petropolitanae 5, 1760, pp. 205-237. Collected in _Opera Omnia_: Series 1, Volume 14, pp. 585 - 617. German translation in arXiv:[1202.1506](https://arxiv.org/abs/1202.1506). See also the [Euler archive](http://eulerarchive.maa.org/pages/E247.html)
+* Johann Boos, _Classical and modern methods in summability_, Oxford Mathematical Monographs, 2001
 
 category: analysis
 
