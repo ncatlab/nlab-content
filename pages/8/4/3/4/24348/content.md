@@ -12,7 +12,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Homotopy Classification of Filtered Complexes|[[Ross Street]]|1968|[Scan](http://science.mq.edu.au/~street/Thesis.pdf)| |
 |Absoluteness properties in category theory|[[Robert Paré]]|1969|[pdf](https://www.mathstat.dal.ca/~pare/PhDThesis.pdf)| on [[absolute colimits]] |
 |Construction of Biclosed Categories|[[Brian Day]]|1970|[Scan](http://web.science.mq.edu.au/~street/DayPhD.pdf)| |
-|A categorical approach to universal algebra|[[Bob Walters]]|1970|[ANU repository](https://openresearch-repository.anu.edu.au/handle/1885/133321)| |
+|A categorical approach to universal algebra|[[Bob Walters]]|1970|[ANU repository](https://openresearch-repository.anu.edu.au/handle/1885/133321)| on [[universal algebra]] |
 |Self-Dual Structure-Semantics and Algebraic Categories|Michel Thiébaud|1971| | |
 |Some Aspects of Internal Category Theory in an Elementary Topos|[[Peter Johnstone]]|1974| | |
 |Coherence for a closed functor|Geoffrey Lewis|1974|[UNSW repository](https://unsworks.unsw.edu.au/entities/publication/3c1ee9e9-9d61-4fc9-9766-5fb9bf6415c2)| |
