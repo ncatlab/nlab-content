@@ -37,7 +37,7 @@ Given an [[algebraically closed field]] $k$, an __algebraic $k$-variety__ usuall
 
   In fact, by noticing that the affine $k$-space is Zariski open in a projective space of the same dimension, we see that the quasiprojective case includes all others. 
 
-Morphisms between varieties are so-called [[regular maps]].  
+Morphisms between varieties are sometimes called [[regular maps]].  
 
 Sometimes a smooth algebraic variety may also be called __algebraic manifold__. 
 
