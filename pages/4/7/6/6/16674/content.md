@@ -12,6 +12,12 @@ On [[single trace operators]]/[[BMN operators]] in [[D=4 N=4 super Yang-Mills th
 
 * {#BeisertEtAl10} [[Niklas Beisert]], [[Luis Alday]], [[Radu Roiban]], [[Sakura Schafer-Nameki]], [[Matthias Staudacher]], [[Alessandro Torrielli]], [[Arkady Tseytlin]], et. al., _Review of AdS/CFT Integrability: An Overview_, Lett. Math. Phys. 99, 3 (2012) ([arXiv:1012.3982](https://arxiv.org/abs/1012.3982))
 
+On the [[sine-Gordon equation]], the [[Thirring model]] and their [[duality in physics|duality]]:
+
+
+* [[Alessandro Torrielli]], *LonTI Lectures on Sine-Gordon and Thirring* &lbrack;[arXiv:2211.01186](https://arxiv.org/abs/2211.01186)&rbrack;
+
+
 
 
 
