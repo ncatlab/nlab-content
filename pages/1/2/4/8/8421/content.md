@@ -219,11 +219,6 @@ Introductory textbook account:
 [[!redirects elimination rule]]
 [[!redirects elimination rules]]
 
-[[!redirects type formation]]
-[[!redirects type formation rule]]
-[[!redirects type formation rules]]
-[[!redirects formation rule]]
-[[!redirects formation rules]]
 
 [[!redirects computation rule]]
 [[!redirects computation rules]]
