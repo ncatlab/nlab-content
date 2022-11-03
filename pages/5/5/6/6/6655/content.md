@@ -12,11 +12,9 @@
 =--
 =--
 
-#Martin-L&#246;f dependent type theory#
-* table of contents
-{:toc}
+\tableofcontents
 
-##Idea
+## Idea
 
 [[Per Martin-Lof|Per Martin-Löf]]'s **[[dependent type theory]]**, also known as **[[intuitionistic logic|intuitionistic]] type theory** ([Martin-Löf 75](#MartinLof75)), or **constructive type theory** is a specific form of [[type theory]] developed to support [[constructive mathematics]].  (Note that both "dependent type theory" and "intuitionistic type theory" may refer more generally to [[type theories]] that contain [[dependent types]] or are [[intuitionistic mathematics|intuitionistic]], respectively.)
 
@@ -30,9 +28,21 @@ Martin-L&#246;f's dependent type theory is notable for several reasons:
 
 ## Formal presentations
 
-There are many different ways to present Martin-Löf dependent type theory in a formal system. In this article, we give two formal presentations of Martin-Löf dependent type theory in the framework of [[natural deduction]]. 
+There are many different ways to present Martin-Löf dependent type theory in a formal system. In this article, we give two formal presentations of Martin-Löf dependent type theory in the framework of [[natural deduction]], one which has [[judgmental equality]] and only one level, and another which has a very weak [[logic]] over the [[dependent type theory]] as well as [[propositional equality]]. 
 
 ### Presentation 1
+
+This first presentation uses [[judgmental equality]], and could be contrasted with the second presentation, which uses [[propositional equality]] and a very weak [[logic]] over [[dependent type theory]]. 
+
+#### Judgments and contexts
+
+The syntax of Martin-Löf dependent type theory can be constructed in two stages. The first is the *raw* or *untyped* syntax of the theory consisting of expressions that are readable but not meaningful. The second stage consists of defining the *derivable judgements* of the type theory inductively which then pick out the meaningful contexts, types and terms.
+
+A context is a list of types. Variables can be defined as De Bruijn indices in which case the type of a variable $n$ is given by $n$th type in a context.
+
+One may also define contexts as coming with a variable name, in which case one needs a notion of $\alpha$-equivalence (syntactic identity modulo renaming of bound variables) and of capture-free substitution. De Bruijn indices avoid this step but can be more obfuscating.
+
+Types and terms are built inductively from various constructors. Types, terms and contexts are defined mutually.
 
 We have the basic judgement forms:
 
@@ -95,7 +105,7 @@ $$\frac{\Gamma \vdash A \equiv B \; \mathrm{type} \quad \Gamma, x:A, \Delta \vda
 
 #### Rules for types
 
-Each type in Martin-Löf dependent type theory comes with a type [[formation rule]], a term [[introduction rule]], a term [[elimination rule]], a [[computation rule]], and an optional [[uniqueness rule]]. The elimination and conversion rules we give here are not [[contextual conversion rules|contextual]]. 
+Each type in Martin-Löf dependent type theory comes with a type [[formation rule]], a term [[introduction rule]], a term [[elimination rule]], a [[computation rule]], and an optional [[uniqueness rule]]. The elimination rules we give here are not [[contextual elimination rules]], and the conversion rules given here are not [[contextual conversion rules]]. 
 
 #### Function types
 
@@ -208,7 +218,6 @@ $$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c(x):
 
 $$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c(x):C(\mathrm{inl}(x)) \quad \Gamma, y:B \vdash d(y):C(\mathrm{inr}(y)) \quad \Gamma \vdash e:A + B \quad \Gamma, x:A + B \vdash u:C \quad \Gamma, a:A \vdash u(\mathrm{inl}(a)) \equiv c(a):C(\mathrm{inl}(a)) \quad \Gamma, b:B \vdash u(\mathrm{inr}(b)) \equiv d(b):C(\mathrm{inr}(b))}{\Gamma \vdash u(e) \equiv \mathrm{ind}_{A + B}^C(c(\mathrm{inl}(e)), d(\mathrm{inl}(e)), e):C(e)}$$
 
-
 #### Empty type
 
 * Formation rules for the empty type:
@@ -245,7 +254,68 @@ $$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_*:C
 
 $$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_*:C[*/x] \quad \Gamma \vdash p:\mathbb{1} \quad \Gamma, x:\mathbb{1} \vdash u:C \quad \Gamma \vdash u[*/x] \equiv c_*:C[*/x]}{\Gamma \vdash u[p/x] \equiv \mathrm{ind}_\mathbb{1}^{C}(p, c_*):C[p/x]}$$
 
+#### Natural numbers
+
+* Formation rules for the natural numbers:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{N} \; \mathrm{type}}$$
+
+* Introduction rules for the natural numbers:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{N}} \qquad \frac{\Gamma \vdash n:\mathbb{N}}{\Gamma \vdash s(n):\mathbb{N}}$$
+
+* Elimination rules for the natural numbers:
+$$\frac{\Gamma, x:\mathbb{N} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma, x:\mathbb{N}, c:C \vdash c_s:C[s(x)/x] \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash \mathrm{ind}_\mathbb{N}^C(n, c_0, c_s):C[n/x]}$$
+
+* Computation rules for the natural numbers:
+$$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma, x:\mathbb{N}, c:C \vdash c_s:C[s(x)/x]}{\Gamma \vdash \mathrm{ind}_\mathbb{N}^C(0, c_0, c_s) \equiv c_0:C[0/x]}$$
+
+$$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma, x:\mathbb{N}, c:C \vdash c_s:C[s(x)/x]}{\Gamma \vdash \mathrm{ind}_\mathbb{N}^C(s(n), c_0, c_s) \equiv c_s(n, \mathrm{ind}_\mathbb{N}^C(n, c_0, c_s)):C[s(n)/x]}$$
+
+* Uniqueness rules for the natural numbers:
+$$\frac{\Gamma, x:\mathbb{N} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma, x:\mathbb{N}, c:C \vdash c_s:C[s(x)/x] \quad \Gamma \vdash n:\mathbb{N} \quad \Gamma, x:\mathbb{N} \vdash u:C \quad \Gamma \vdash i_0(u):u[0/x] =_{C[0/x]} c_0 \quad \Gamma, x:\mathbb{N} \vdash i_s(u):u[s(x)/x] =_{C[s(x)/x]} c_s[u/c]}{\Gamma \vdash u[n/x] \equiv \mathrm{ind}_\mathbb{N}^{C}(p, c_0, c_s):C[n/x]}$$
+
+#### Identity types
+
+There is another version of equality, called the [[identity type]] or **typal equality**, because this equality is a type. The identity type is only be used for equality between terms of a type, and unless one is using [[Russell universes]] where types are represented by terms of a [[Russell universe]], identity types cannot be used for equality of types. 
+
+* Formation rule for identity types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, b:A \vdash a =_A b \; \mathrm{type}}$$
+
+* Introduction rule for identity types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A \vdash \mathrm{refl}_A(a) : a =_A a}$$
+
+* Elimination rule for identity types:
+$$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C \mathrm{type} \quad \Gamma, c:A \vdash t:C[c/a, c/b, \mathrm{refl}_A(c)/p]}{\Gamma, a:A, b:A, p:a =_A b \vdash J(t, a, b, p):C}$$
+
+* Computation rules for identity types:
+$$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C \; \mathrm{type} \quad \Gamma, c:A \vdash t:C[c/a, c/b, \mathrm{refl}_A(c)/p]}{\Gamma, c:A \vdash J(t, c, c, \mathrm{refl}(c)) \equiv t:C[c/a, c/b, \mathrm{refl}_A(c)/p]}$$
+
+* Optional uniqueness rules for identity types:
+
+...
+
+#### Intensional and extensional type theories
+
+In Martin-Löf dependent type theory, one makes a distinction between intensional and extensional type theories. A Martin-Löf dependent type theory is an [[extensional type theory]] if there is an equality reflection rule where from typal equality of terms, one could derive definitional equality of terms:
+
+$$\frac{\Gamma, a:A, b:A \vdash p:a =_A b}{\Gamma, a:A, b:A \vdash a \equiv b:A}$$
+
+The type theory is an [[intensional type theory]] if it doesn't have the equality reflection rule. 
+
 ### Presentation 2
+
+This presentation of Martin-Löf dependent type theory uses  a very weak [[logic]] over [[dependent type theory]], in the sense that while it does have a notion of [[proposition]], [[predicate]], and [[truth]], there are no [[conjunctions]], [[disjunctions]], [[implications]], [[universal quantifiers]], or [[existential quantifiers]] in the logic. Here, [[propositional equality]] plays the role of [[definitional equality]] and [[computational equality]] that [[judgmental equality]] played in the first presentation. 
+
+#### Judgments and contexts
+
+The syntax of Martin-Löf dependent type theory can be constructed in two stages. The first is the *raw* or *untyped* syntax of the theory consisting of expressions that are readable but not meaningful. The second stage consists of defining the *derivable judgements* of the type theory inductively which then pick out the meaningful contexts, types and terms.
+
+A context is a list of types. Variables can be defined as De Bruijn indices in which case the type of a variable $n$ is given by $n$th type in a context.
+
+One may also define contexts as coming with a variable name, in which case one needs a notion of $\alpha$-equivalence (syntactic identity modulo renaming of bound variables) and of capture-free substitution. De Bruijn indices avoid this step but can be more obfuscating.
+
+Types and terms are built inductively from various constructors. Types, terms and contexts are defined mutually.
 
 We have the basic judgement forms:
 
@@ -319,7 +389,7 @@ $$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vda
 
 #### Rules for types
 
-Each type in Martin-Löf dependent type theory comes with a type [[formation rule]], a term [[introduction rule]], a term [[elimination rule]], a [[computation rule]], and an optional [[uniqueness rule]]. The elimination and conversion rules we give here are not [[contextual conversion rules|contextual]]. 
+Each type in Martin-Löf dependent type theory comes with a type [[formation rule]], a term [[introduction rule]], a term [[elimination rule]], a [[computation rule]], and an optional [[uniqueness rule]]. The elimination rules we give here are not [[contextual elimination rules]], and the conversion rules given here are not [[contextual conversion rules]]. 
 
 #### Function types
 
@@ -421,16 +491,16 @@ $$\frac{\Gamma \vdash a:A}{\Gamma \vdash \mathrm{inl}(a):A + B} \qquad \frac{\Ga
 
 * Elimination rules for sum types:
 
-$$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vert \Phi[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vert \Phi[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash e:A + B}{\Gamma, \Delta[e/z] \vert \Phi[e/z] \vdash \mathrm{ind}_{A + B}(z.C, c, d, e):C[e/z]}$$
+$$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash e:A + B}{\Gamma \vdash \mathrm{ind}_{A + B}(z.C, c, d, e):C[e/z]}$$
 
 * Computation rules for sum types:
 
-$$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vert \Phi[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vert \Phi[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash a:A}{\Gamma, \Delta[\mathrm{inl}(a)/z] \vert \Phi[\mathrm{inl}(a)/z] \vdash \mathrm{ind}_{A + B}(z.C, c, d, \mathrm{inl}(a)) \equiv_{C[\mathrm{inl}(a)/z]} c[a/x] \; \mathrm{true}}$$
-$$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vert \Phi[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vert \Phi[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash b:B}{\Gamma, \Delta[\mathrm{inr}(b)/z] \vert \Phi[\mathrm{inr}(b)/z] \vdash \mathrm{ind}_{A + B}(z.C, c, d, \mathrm{inr}(b)) \equiv_{C[\mathrm{inr}(b)/z]} d[b/y] \; \mathrm{true}}$$
+$$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{ind}_{A + B}(z.C, c, d, \mathrm{inl}(a)) \equiv_{C[\mathrm{inl}(a)/z]} c[a/x] \; \mathrm{true}}$$
+$$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash b:B}{\Gamma \vdash \mathrm{ind}_{A + B}(z.C, c, d, \mathrm{inr}(b)) \equiv_{C[\mathrm{inr}(b)/z]} d[b/y] \; \mathrm{true}}$$
 
 * Uniqueness rules for sum types:
 
-$$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vert \Phi[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vert \Phi[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash e:A + B \quad \Gamma, z:A + B, \Delta \vert \Phi \vdash u:C \quad \Gamma, a:A, \Delta[\mathrm{inl}(a)/z] \vert \Phi[\mathrm{inl}(a)/z] \vdash u[\mathrm{inl}(a)/z] \equiv_{C[\mathrm{inl}(a)/z]} c[a/x] \; \mathrm{true} \quad \Gamma, b:B, \Delta[\mathrm{inr}(b)/z] \vert \Phi[\mathrm{inr}(b)/z] \vdash u[\mathrm{inr}(b)/z] \equiv_{C[\mathrm{inr}(b)/z]} d[b/y] \; \mathrm{true}}{\Gamma, \Delta[e/z] \vert \Phi[e/z] \vdash u[e/z] \equiv_{C[e/z]} \mathrm{ind}_{A + B}(z.C, c[\mathrm{inl}(e)/x], d[\mathrm{inr}(e)/y], e) \; \mathrm{true}}$$
+$$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash e:A + B \quad \Gamma, z:A + B \vdash u:C \quad \Gamma, a:A \vdash u[\mathrm{inl}(a)/z] \equiv_{C[\mathrm{inl}(a)/z]} c[a/x] \; \mathrm{true} \quad \Gamma, b:B \vdash u[\mathrm{inr}(b)/z] \equiv_{C[\mathrm{inr}(b)/z]} d[b/y] \; \mathrm{true}}{\Gamma \vdash u[e/z] \equiv_{C[e/z]} \mathrm{ind}_{A + B}(z.C, c[\mathrm{inl}(e)/x], d[\mathrm{inr}(e)/y], e) \; \mathrm{true}}$$
 
 #### Empty type
 
@@ -440,11 +510,11 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{0} \; \mathrm{type}}$$
 
 * Elimination rules for the empty type:
 
-$$\frac{\Gamma, x:\mathbb{0}, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{0}}{\Gamma, \Delta[p/x] \vert \Phi[p/x] \vdash \mathrm{ind}_\mathbb{0}(x.C, p):C[p/x]}$$
+$$\frac{\Gamma, x:\mathbb{0} \vdash C \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{0}}{\Gamma \vdash \mathrm{ind}_\mathbb{0}(x.C, p):C[p/x]}$$
 
 * Uniqueness rules for the empty type:
 
-$$\frac{\Gamma, x:\mathbb{0}, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{0} \quad \Gamma, x:\mathbb{0}, \Delta \vert \Phi \vdash u:C}{\Gamma, \Delta[p/x] \vert \Phi[p/x] \vdash u[p/x] \equiv_{C[p/x]} \mathrm{ind}_\mathbb{0}(x.C, p) \; \mathrm{true}}$$
+$$\frac{\Gamma, x:\mathbb{0} \vdash C \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{0} \quad \Gamma, x:\mathbb{0} \vdash u:C}{\Gamma \vdash u[p/x] \equiv_{C[p/x]} \mathrm{ind}_\mathbb{0}(x.C, p) \; \mathrm{true}}$$
 
 #### Unit type
 
@@ -458,206 +528,66 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:\mathbb{1}}$$
 
 * Elimination rules for the unit type:
 
-$$\frac{\Gamma, x:\mathbb{1}, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, \Delta[*/x] \vert \Phi[*/x] \vdash c_*:C[*/x] \quad \Gamma \vert \Phi \vdash p:\mathbb{1}}{\Gamma, \Delta[p/x] \vert \Phi[p/x] \vdash \mathrm{ind}_\mathbb{1}(x.C, p, c_*):C[p/x]}$$
+$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_*:C[*/x] \quad \Gamma \vert \Phi \vdash p:\mathbb{1}}{\Gamma \vdash \mathrm{ind}_\mathbb{1}(x.C, p, c_*):C[p/x]}$$
 
 * Computation rules for the unit type:
 
-$$\frac{\Gamma, x:\mathbb{1}, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, \Delta[*/x] \vert \Phi[*/x] \vdash c_*:C[*/x]}{\Gamma, \Delta[p/x] \vert \Phi[p/x] \vdash \mathrm{ind}_\mathbb{1}(x.C, *, c_*) \equiv_{C[*/x]} c_* \; \mathrm{true}}$$
+$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_*:C[*/x]}{\Gamma \vdash \mathrm{ind}_\mathbb{1}(x.C, *, c_*) \equiv_{C[*/x]} c_* \; \mathrm{true}}$$
 
 * Uniqueness rules for the unit type:
 
-$$\frac{\Gamma, x:\mathbb{1}, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, \Delta[*/x] \vert \Phi[*/x] \vdash c_*:C[*/x] \quad \Gamma \vdash p:\mathbb{1} \quad \Gamma, x:\mathbb{1}, \Delta \vert \Phi \vdash u:C \quad \Gamma, \Delta[*/x] \vert \Phi[*/x] \vdash u[*/x] \equiv_{C[*/x]} c_* \; \mathrm{true}}{\Gamma, \Delta[p/x] \vert \Phi[p/x] \vdash u[p/x] \equiv_{C[p/x]} \mathrm{ind}_\mathbb{1}(x.C, p, c_*) \; \mathrm{true}}$$
+$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_*:C[*/x] \quad \Gamma \vdash p:\mathbb{1} \quad \Gamma, x:\mathbb{1} \vdash u:C \quad \Gamma \vdash u[*/x] \equiv_{C[*/x]} c_* \; \mathrm{true}}{\Gamma \vdash u[p/x] \equiv_{C[p/x]} \mathrm{ind}_\mathbb{1}(x.C, p, c_*) \; \mathrm{true}}$$
 
-## Syntax
+#### Natural numbers
 
-The syntax of Martin-Löf dependent type theory can be constructed in two stages. The first is the *raw* or *untyped* syntax of the theory consisting of expressions that are readable but not meaningful. The second stage consists of defining the *derivable judgements* of the type theory inductively which then pick out the meaningful contexts, types and terms.
+* Formation rules for the natural numbers:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{N} \; \mathrm{type}}$$
 
-A context is a list of types. Variables can be defined as De Bruijn indices in which case the type of a variable $n$ is given by $n$th type in a context.
+* Introduction rules for the natural numbers:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{N}} \qquad \frac{\Gamma \vdash n:\mathbb{N}}{\Gamma \vdash s(n):\mathbb{N}}$$
 
-One may also define contexts as coming with a variable name, in which case one needs a notion of $\alpha$-equivalence (syntactic identity modulo renaming of bound variables) and of capture-free substitution. De Bruijn indices avoid this step but can be more obfuscating.
+* Elimination rules for the natural numbers:
+$$\frac{\Gamma, x:\mathbb{N} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma, x:\mathbb{N}, c:C \vdash c_s:C[s(x)/x] \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash \mathrm{ind}_\mathbb{N}^C(n, c_0, c_s):C[n/x]}$$
 
-Types and terms are built inductively from various constructors. Types, terms and contexts are defined mutually.
+* Computation rules for the natural numbers:
+$$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma, x:\mathbb{N}, c:C \vdash c_s:C[s(x)/x]}{\Gamma \vdash \mathrm{ind}_\mathbb{N}^C(0, c_0, c_s) \equiv_{C[0/x]} c_0 \; \mathrm{true}}$$
+
+$$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma, x:\mathbb{N}, c:C \vdash c_s:C[s(x)/x]}{\Gamma \vdash \mathrm{ind}_\mathbb{N}^C(s(n), c_0, c_s) \equiv_{C[s(n)/x]} c_s(n, \mathrm{ind}_\mathbb{N}^C(n, c_0, c_s)) \; \mathrm{true}}$$
+
+* Uniqueness rules for the natural numbers:
+$$\frac{\Gamma, x:\mathbb{N} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma, x:\mathbb{N}, c:C \vdash c_s:C[s(x)/x] \quad \Gamma \vdash n:\mathbb{N} \quad \Gamma, x:\mathbb{N} \vdash u:C \quad \Gamma \vdash i_0(u):u[0/x] =_{C[0/x]} c_0 \quad \Gamma, x:\mathbb{N} \vdash i_s(u):u[s(x)/x] =_{C[s(x)/x]} c_s[u/c]}{\Gamma \vdash u[n/x] =_{C[n/x]} \mathrm{ind}_\mathbb{N}^{C}(p, c_0, c_s) \; \mathrm{true}}$$
 
 #### Identity types
 
 There is another version of equality, called the [[identity type]] or **typal equality**, because this equality is a type. The identity type is only be used for equality between terms of a type, and unless one is using [[Russell universes]] where types are represented by terms of a [[Russell universe]], identity types cannot be used for equality of types. 
 
 * Formation rule for identity types:
+
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, b:A \vdash a =_A b \; \mathrm{type}}$$
 
 * Introduction rule for identity types:
+
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A \vdash \mathrm{refl}_A(a) : a =_A a}$$
 
 * Elimination rule for identity types:
-$$\frac{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash C(a, b, p) \mathrm{type} \quad \Gamma, a:A, \Delta(a, a, \mathrm{refl}_A(a)) \vdash t:C(a, a, \mathrm{refl}_A(a))}{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash J(t, a, b, p):C(a, b, p)}$$
 
-* Judgmental, propositional, and typal computation rules for identity types:
-$$\frac{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash C(a, b, p) \; \mathrm{type} \quad \Gamma, a:A, \Delta(a, a, \mathrm{refl}_A(a)) \vdash t:C(a, a, \mathrm{refl}_A(a))}{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash J(t, a, a, \mathrm{refl}(a)) \equiv t:C(a, a, \mathrm{refl}_A(a))}$$
-$$\frac{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash C(a, b, p) \; \mathrm{type} \quad \Gamma, a:A, \Delta(a, a, \mathrm{refl}_A(a)) \vdash t:C(a, a, \mathrm{refl}_A(a))}{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash J(t, a, a, \mathrm{refl}(a)) \equiv_{C(a, a, \mathrm{refl}_A(a))} t \; \mathrm{true}}$$
-$$\frac{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash C(a, b, p) \; \mathrm{type} \quad \Gamma, a:A, \Delta(a, a, \mathrm{refl}_A(a)) \vdash t:C(a, a, \mathrm{refl}_A(a))}{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash \beta_{=_A}(a) : J(t, a, a, \mathrm{refl}(a)) =_{C(a, a, \mathrm{refl}_A(a))} t}$$
+$$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C \mathrm{type} \quad \Gamma, c:A \vdash t:C[c/a, c/b, \mathrm{refl}_A(c)/p]}{\Gamma, a:A, b:A, p:a =_A b \vdash J(t, a, b, p):C}$$
 
-* Optional judgmental, propositional, and typal uniqueness rules for identity types:
+* Computation rules for identity types:
 
-...
+$$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C \; \mathrm{type} \quad \Gamma, c:A \vdash t:C[c/a, c/b, \mathrm{refl}_A(c)/p]}{\Gamma, c:A \vdash J(t, c, c, \mathrm{refl}(c)) \equiv_{C[c/a, c/b, \mathrm{refl}_A(c)/p]} t \; \mathrm{true}}$$
 
-### Propositions as types
+* Optional uniqueness rules for identity types:
 
 ...
 
-## Syntax
+#### Intensional and extensional type theories
 
-If $t$ is a term, and $A$ a type, then $t : A$ is a **typing declaration** asserting that $t$ is a term of type $A$. We will define the forms of valid terms and types below; to begin with, we assume we have a stock of variables, atomic types, and parametrised types.
+In Martin-Löf dependent type theory, one makes a distinction between intensional and extensional type theories. A Martin-Löf dependent type theory is an [[extensional type theory]] if there is an equality reflection rule where from typal equality of terms, one could derive definitional equality of terms:
 
-A **context** is a [[finite set|finite]] ordered list of typing declarations, defined [[inductive definition|inductively]] as follows:
+$$\frac{\Gamma, a:A, b:A \vdash p:a =_A b}{\Gamma, a:A, b:A \vdash a \equiv_A b \; \mathrm{true}}$$
 
-* The empty list is a valid context.
-* If $\Gamma$ is a valid context, $x$ is a variable not appearing in $\Gamma$, and $A$ is a valid type in the context $\Gamma$, then the context obtained by appending $x : A$ to $\Gamma$ is also valid.
-
-Note that this must be considered a *mutual* inductive definition along with the definition of when a type is valid in a given context, which is to be given below in terms of type constructors.
-
-We write $\Gamma \vdash t : A$ to assert that $t : A$ is a valid typing declaration in the context of $\Gamma$, and by abuse of notation we may write $\Gamma \vdash A : \mathrm{Type}$ to assert that $A$ is a valid type in the context of $\Gamma$.
-
-For any context $\Gamma$, if $A$ is an atomic type, $\Gamma \vdash A : \mathrm{Type}$.
-
-If $x : A$ is a typing declaration in $\Gamma$, then we have $\Gamma \vdash x : A$.
-
-###Binary product types
-If $\Gamma \vdash A : \mathrm{Type}$ and $\Delta \vdash B : \mathrm{Type}$, then $\Gamma, \Delta \vdash A \times B : \mathrm{Type}$. 
-
-If $\Gamma \vdash a : A$ and $\Delta \vdash b : B$ then $\Gamma, \Delta \vdash \langle a, b \rangle : A \times B$.
-
-If $\Gamma \vdash c : A \times B$, then $\Gamma \vdash \pi_0(c) : A$ and $\Gamma \vdash \pi_1(c) : B$.
-
-###Unit type
-There is an atomic type called $\top$.
-
-For any context $\Gamma$ we have $\Gamma \vdash \mathrm{tt} : \top$.
-
-###Dependent product types
-If $\Gamma, x : X \vdash A(x) : \mathrm{Type}$, then $\Gamma \vdash (\Pi x : X) A(x) : \mathrm{Type}$.
-
-If $\Gamma, x : X \vdash a(x) : A(x)$, then $\Gamma \vdash (\lambda x : X) a(x) : (\Pi x : X) A(x)$.
-
-If $\Gamma \vdash f : (\Pi x : X) A(x)$ and $\Delta \vdash t : X$, then $\Gamma, \Delta \vdash \mathrm{apply}(f, t) : A(t)$.
-
-###Function types
-Function types may be regarded as a special case of dependent product types, where $A(x)$ does not depend on $x$ at all.  When we write out the rules for dependent products in this case, they become the following.
-
-Firstly, if $\Gamma \vdash X : \mathrm{Type}$ and $\Gamma \vdash A : \mathrm{Type}$, then $\Gamma \vdash X \to A : \mathrm{Type}$.
-
-If $\Gamma, x : X \vdash a(x) : A$, then $\Gamma \vdash (\lambda x : X) a(x) : X \to A$.
-
-If $\Gamma \vdash f : X \to A$ and $\Delta \vdash t : X$, then $\Gamma, \Delta \vdash \mathrm{apply}(f, t) : A$.
-
-###Binary sum types
-If $\Gamma \vdash A : \mathrm{Type}$ and $\Gamma \vdash B : \mathrm{Type}$, then $\Gamma \vdash A + B : \mathrm{Type}$. 
-
-If $\Gamma \vdash a : A$ and $\Gamma \vdash A + B : \mathrm{Type}$, then $\Gamma \vdash \sigma_0 (a) : A + B$; and if $\Gamma \vdash b : B$ and $\Gamma \vdash A + B : \mathrm{Type}$, then $\Gamma \vdash \sigma_1(b) : A + B$.
-
-If $\Gamma \vdash s : A + B$, $\Delta, x : A \vdash c(x) : C(\sigma_0(x))$ and $E, y : B \vdash c'(y) : C(\sigma_1(y))$, then $\Gamma, \Delta, E \vdash \mathrm{cases}(s, (\lambda x : A) c(x), (\lambda y : B) c'(y)) : C(s)$.
-
-###Empty type
-There is an atomic type called $\bot$.
-
-If $\Gamma \vdash A : \mathrm{Type}$, then $\Gamma, x : \bot \vdash \mathrm{abort} : A$.
-
-###Dependent sum types
-If $\Gamma, x : X \vdash A(x) : \mathrm{Type}$, then $\Gamma \vdash (\Sigma x : X) A(x) : \mathrm{Type}$.
-
-If $\Gamma \vdash t : X$, $\Gamma \vdash a : A(t)$ and $\Gamma \vdash (\Sigma x : X) A(x) : \mathrm{Type}$, then $\Gamma \vdash (t, a) : (\Sigma x : X) A(x)$.
-
-If $\Gamma \vdash s : (\Sigma x : X) A(x)$ and $\Delta, x : X, y : A(x) \vdash b(x, y) : B((x, y))$, then $\Gamma, \Delta \vdash \mathrm{cases}(s, (\lambda x : X)(\lambda y : A(x)) b(x, y)) : B(s)$.
-
-Note that just as function types can be defined to be dependent products where $A(x)$ does not depend on $x$, binary product types (above) can be defined to be dependent sums where $A(x)$ does not depend on $x$.
-
-###Finite types
-Martin-L&#246;f also includes in his type theory a type $\mathbb{N}_n$ with exactly $n$ elements, for every *external* [[natural number]] $n$.  The types $\bot$ and $\top$ can then be defined as $\mathbb{N}_0$ and $\mathbb{N}_1$, respectively.  On the other hand, with $\bot$ and $\top$ given as above, one may define $\mathbb{N}_2 = \top + \top$, $\mathbb{N}_3 = \top+\top+\top$, and so on (by [[recursion]] on the external natural number $n$).
-
-Note that we have not included any [[axiom of infinity]], however.
-
-### Propositions as types
-
-Under the [[Curry-Howard isomorphism]], we may identify propositions with certain atomic types and predicates with certain parametrised types.  
-
-An inhabitant of such a [[propositions as types|proposition-as-a-type]] is interpreted as a 'proof' of that proposition.
-
-We write $\Gamma \vdash A : \mathrm{true}$ for the judgement that $A$ is [[inhabited set|inhabited]]: that is, if $\Gamma \vdash a : A$, then $\Gamma \vdash A : \mathrm{true}$. The type-formation rules above are then seen to be the rules of inference for (a fragment of) [[intuitionistic logic|intuitionistic]] [[first-order logic]]. Indeed, we have:
-
-* [[logical conjunction|Conjunction]] introduction:
-$$\frac{\Gamma \vdash A : \mathrm{true} ; \Delta \vdash B : \mathrm{true}}{\Gamma, \Delta \vdash A \times B : \mathrm{true}}$$
-* Conjunction elimination:
-$$\begin{aligned}
-\frac{\Gamma \vdash A \times B : \mathrm{true}}{\Gamma \vdash A : \mathrm{true}} \,\, &
-\frac{\Gamma \vdash A \times B : \mathrm{true}}{\Gamma \vdash B : \mathrm{true}} 
-\end{aligned}$$
-* [[truth|Truth]] introduction
-$$\frac{}{\Gamma \vdash \top : \mathrm{true}}$$
-* [[universal quantifier|Universal]] generalisation:
-$$\frac{\Gamma, x : X \vdash A(x) : \mathrm{true}}{\Gamma \vdash (\Pi x : X) A(x) : \mathrm{true}}$$
-* Universal instantiation:
-$$\frac{\Gamma \vdash (\Pi x : X) A(x) : \mathrm{true} ; \Delta \vdash t : X}{\Gamma, \Delta \vdash A(t) : \mathrm{true}}$$
-* Conditional proof ([[implication]] introduction):
-$$\frac{\Gamma, X : \mathrm{true} \vdash A : \mathrm{true}}{\Gamma \vdash X \to A : \mathrm{true}}$$
-* Modus ponens ([[implication]] elimination):
-$$\frac{\Gamma \vdash X \to A : \mathrm{true} ; \Delta \vdash X : \mathrm{true}}{\Gamma, \Delta \vdash A : \mathrm{true}}$$
-* [[disjunction|Disjunction]] introduction:
-$$\begin{aligned}
-\frac{\Gamma \vdash A : \mathrm{true}}{\Gamma \vdash A + B : \mathrm{true}} \,\, &
-\frac{\Gamma \vdash B : \mathrm{true}}{\Gamma \vdash A + B : \mathrm{true}}
-\end{aligned}$$
-* Disjunction elimination:
-$$\frac{\Gamma \vdash A + B : \mathrm{true} ; \Delta, A : \mathrm{true} \vdash C : \mathrm{true} ; E, B : \mathrm{true} \vdash C : \mathrm{true}}{\Gamma, \Delta, E \vdash C : \mathrm{true}}$$
-* [[false|False]] elimination:
-$$\frac{\Gamma \vdash \bot : \mathrm{true}}{\Gamma \vdash A : \mathrm{true}}$$
-* [[existential quantifier|Existential]] generalisation:
-$$\frac{\Gamma \vdash t : X ; \Gamma \vdash A(t) : \mathrm{true}}{\Gamma \vdash (\Sigma x : X) A(x) : \mathrm{true}}$$
-* Existential instantiation:
-$$\frac{\Gamma \vdash (\Sigma x : X) A(x) : \mathrm{true} ; \Delta, x : X, A(x) : \mathrm{true} \vdash B : \mathrm{true}}{\Gamma, \Delta \vdash B : \mathrm{true}}$$
-
-The only traditional rule of inference we are missing is the rule of [[excluded middle]], so this logic is [[intuitionistic logic|intuitionistic]].
-
-The above interpretation justifies the use of the symbols $\forall$, $\exists$, $\wedge$, $\vee$ instead of $\Pi$, $\Sigma$, $\times$, $+$, when we are using types to represent propositions.
-
-### Equality types
-
-We may introduce a family of equality types for each type and each pair of terms of that type: if $\Gamma \vdash a : A$ and $\Delta \vdash a' : A$, then $\Gamma \vdash a = a' : \mathrm{Type}$.
-
-These are not the intensional [[identity types]] which Martin-L&#246;f later introduced as a particular sort of [[inductive type|inductive family of types]], but instead an extensional notion of equality defined by [[induction]] *over* the class of all types (regarded as inductively defined by the above type-formation clauses).  Note that it is essential, for a purpose such as this, that the type-formation clauses be regarded as an inductive definition, rather than as "operations" defined on some pre-existing collection of types: in order to define equality in the way we are about to do, we have to be able to inspect a given type and decide uniquely which rule was used to construct it.
-
-The equality type is reflexive, symmetric, and transitive. That means, for example, if $\Gamma \vdash a : A$, $\Gamma \vdash b : A$, $\Gamma \vdash c : A$, $\Gamma \vdash a = b : \mathrm{true}$ and $\Gamma \vdash b = c : \mathrm{true}$ then $\Gamma \vdash a = c : \mathrm{true}$.
-
-+--{: .query}
-[[Mike Shulman]]: Is that (reflexivity, symmetry, and transitivity) a rule we are giving, or an assertion we are making about derivability?  I'm a little unsure because the presentation here is slightly different from that in the reference: there Martin-L&#246;f uses both a propositional equality and a judgmental one.
-=--
-
-### Finite product types
-
-If $\Gamma \vdash a : A$, and $\Gamma \vdash b : B$, then $\Gamma \vdash a = \pi_0 (\langle a, b \rangle) : \mathrm{true}$ and $\Gamma \vdash \pi_1 (\langle a, b \rangle) = b : \mathrm{true}$.
-
-If $\Gamma \vdash c : A \times B$, then $c = \langle \pi_0 (c), \pi_1 (c) \rangle : \mathrm{true}$.
-
-### Unit type
-If $\Gamma \vdash a : \top$, then $\Gamma \vdash a = \mathrm{tt} : \mathrm{true}$.
-
-### Dependent product types
-
-If $\Gamma, x : X \vdash a(x) : A(x)$ and $\Delta \vdash t : X$, then $\Gamma, \Delta \vdash \mathrm{apply}((\lambda x : X) a(x), t) = a(t) : \mathrm{true}$.
-
-If $\Gamma \vdash f : (\Pi x : X) A(x)$, then $\Gamma \vdash f = (\lambda x : X) \mathrm{apply}(f, x) : \mathrm{true}$.
-
-### Function types
-If $\Gamma, x : X \vdash a(x) : A$ and $\Delta \vdash t : X$, then $\Gamma, \Delta \vdash \mathrm{apply}((\lambda x : X) a(x), t) = a(t) : \mathrm{true}$.
-
-If $\Gamma \vdash f : X \to A$, then $\Gamma \vdash f = (\lambda x : X) \mathrm{apply}(f, x) : \mathrm{true}$.
-
-### Binary sum types
-
-If $\Gamma \vdash a : A$ and $\Gamma \vdash A + B : \mathrm{Type}$, $\Delta, x : A \vdash c(x) : C(\sigma_0(x))$ and $E, y : B \vdash c'(y) : C(\sigma_1(y))$, then $\Gamma, \Delta, E \vdash \mathrm{cases}(a, (\lambda x : A) c(x), (\lambda y : B) c(y)) = c(a) : \mathrm{true}$ and $\Gamma, \Delta, E \vdash \mathrm{cases}(b, (\lambda x : A) c(x), (\lambda y : B) c'(y)) = c'(b) : \mathrm{true}$
-
-###Dependent sum types
-If $\Gamma \vdash t : X$, $\Gamma \vdash a : A(t)$ and $\Delta, x : X, y : A(x) \vdash b(x, a) : B((x, a))$, then $\Gamma, \Delta \vdash \mathrm{cases}((t, a), (\lambda x : X)(\lambda y : A(x)) b(x, y)) = b(t, a) : \mathrm{true}$.
-
-The other equality rule for dependent sum types is derivable from the above.
+The type theory is an [[intensional type theory]] if it doesn't have the equality reflection rule. 
 
 ## Properties
 
@@ -762,7 +692,7 @@ Discussion of the logical [[axiom of choice]] in dependent type theory is in
  
 
 * {#Tait} Tait (1994)
- 
+
 
 [[!redirects Martin-Lof dependent type theory]]
 [[!redirects Martin-Löf dependent type theory]]
