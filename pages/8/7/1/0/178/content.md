@@ -386,7 +386,7 @@ For standard references on [[differential geometry]] and [[Lie groupoid]]s see t
 
 The $(\infty,1)$-topos $Smooth \infty Grpd$ is discussed in section 3.3 of
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+* {#Schreiber13} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 A discussion of smooth $\infty$-groupoids as $(\infty,1)$-sheaves on $CartSp$ and the presentaton of the $\infty$-Chern-Weil homomorphism on these is in
 
