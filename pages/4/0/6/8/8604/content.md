@@ -60,6 +60,8 @@ Introductory textbook account:
 
 
 [[!redirects type formation]]
+[[!redirects type formations]]
+
 [[!redirects type former]]
 [[!redirects type formers]]
 [[!redirects type formation rule]]
@@ -72,3 +74,8 @@ Introductory textbook account:
 [[!redirects type-forming]]
 [[!redirects type-forming operation]]
 [[!redirects type-forming operations]]
+
+
+[[!redirects formation rule]]
+[[!redirects formation rules]]
+
