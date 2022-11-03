@@ -28,7 +28,7 @@
 
 In [[computer science]], a _monad_ is a kind of [[data type]]-structure which describes "notions of computations which may cause or be subject to *side effects*" --- such as involving [[random access memory]], [[IO-monad|input/output]], [[exception monad|exception handling]], [[writer monad|writing to]] or [[reader monad|reading from]] global variables,  etc. --- as familiar from [[imperative programming]] but cast as "pure functions" with deterministic and [[verified programming|verifiable behaviour]], in the style of [[functional programming]].
 
-In short, a (Kleisli-style) *monad* in a given [[programming language]] consists of *assignments* (but see [below](#RefinedIdea)):
+In short, a ("Kleisli-style" or "[[extension system]]-style") *monad* in a given [[programming language]] consists of *assignments* (but see [below](#RefinedIdea)):
 
 1. to any [[data type|data]] [[type]] $D$ of a new data type $T(D)$ of "$D$-data with $T$-effects",
 
@@ -155,7 +155,7 @@ The final consistency condition (i.e. the remaining "monad law") then is that "c
 
 Notice that the [[associativity]] condition (eq:AssociativityConditionInIntroduction) and the [[unitality]] condition (eq:UnitalityInIntroduction) are jointly equivalent to saying that [[data types]] with [[hom-sets]] of $T(-)$-effectful programs between them, in the above sense, form a *[[category]]*. In [[category theory]] this is known as the *[[Kleisli category]]* of a *[[monad]]* $T$.
 
-> Traditionally in [[category theory]], the [[axioms]] on [[monads]] are presented in a somewhat different way, invoking a monad "product" [[natural transformation]] $T \circ T \xrightarrow{ \mu } T$ instead of the "binding" operation. One readily checks that these two axiomatic presentations of monads are in fact equal -- see (eq:TransformBetweenBindAndJoinInIntroduction) below --, but the above "[[Kleisli triple]]"-presentation is typically more relevant in the practice of [[functional programming]].
+> Traditionally in [[category theory]], the [[axioms]] on [[monads]] are presented in a somewhat different way, invoking a monad "product" [[natural transformation]] $T \circ T \xrightarrow{ \mu } T$ instead of the "binding" operation. One readily checks that these two axiomatic presentations of monads are in fact equal -- see (eq:TransformBetweenBindAndJoinInIntroduction) below --, but the above "[[Kleisli triple]]/[[extension system]]"-presentation is typically more relevant in the practice of [[functional programming]].
 
 In summary, a choice of *assignments* (but see [below](#RefinedIdea)) to [[data types]] $D_i$ of
 
@@ -414,6 +414,8 @@ In this vein:
 
 
 ## Related concepts
+
+* [[extension system]]
 
 * [[relation between type theory and category theory]], [[categorical semantics]], [[categorical logic]]
 
