@@ -78,8 +78,16 @@ See also:
 * Wikipedia, *[Exception handling](https://en.wikipedia.org/wiki/Exception_handling)*
 
 
+[[!redirects exception monads]]
 
 [[!redirects exception]]
 [[!redirects exceptions]]
 
-[[!redirects exception monads]]
+[[!redirects exception handler]]
+[[!redirects exception handlers]]
+
+[[!redirects exception handling]]
+[[!redirects exception handlings]]
+
+
+
