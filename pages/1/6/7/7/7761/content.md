@@ -40,7 +40,10 @@ For a different notion of ultracategory see
 * {#ClemTholen} [[Maria Manuel Clementino]], [[Walter Tholen]], _Metric, topology and multicategory--a common approach_, J. Pure Appl. Algebra 179 (2003) 13-47, ([doi:10.1016/S0022-4049(02)00246-3](https://doi.org/10.1016/S0022-4049%2802%2900246-3)).
 
 
-For a [[2-monad|2-monadic]] treatment of ultracategories, see
+On a [[2-monad|2-monadic]] treatment of ultracategories:
 
-* [[Francisco Marmolejo]], _Ultraproducts and continuous families of models_, ([thesis](https://dalspace.library.dal.ca/handle/10222/55092), poor quality photocopy).
+* [[Francisco Marmolejo]], _Ultraproducts and continuous families of models_, PhD thesis (1995) &lbrack;[hdl:10222/55092](https://dalspace.library.dal.ca/handle/10222/55092), [pdf](https://dalspace.library.dal.ca/bitstream/handle/10222/55092/NN08788.PDF?sequence=1&isAllowed=y)&rbrack;
+
 [[!redirects ultracategories]]
+
+
