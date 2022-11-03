@@ -75,6 +75,8 @@ The [[bicharacteristic strips]] of the Klein-Gordon operator are [[cotangent vec
 
 * [[Klein-Gordon equation]]
 
+* [[sine-Gordon equation]]
+
 * [[Schrödinger equation]]
 
 * [[Dirac equation]]
