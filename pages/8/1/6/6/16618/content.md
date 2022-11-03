@@ -79,7 +79,7 @@ and is expanded on considerably in
 
 * {#MarmolejoWood10} [[Francisco Marmolejo]], [[Richard J. Wood]], *Monads as extension systems -- no iteration is necessary* [[TAC]] **24** 4 (2010) 84-113 &lbrack;[tac:24-04](http://www.tac.mta.ca/tac/volumes/24/4/24-04abs.html)&rbrack;
 
-An earlier appearance in a different guise:
+An earlier appearance in a different guise ("devices"):
 
 * [[R. F. C. Walters]], Chapter I of: *A categorical approach to universal algebra*, Ph.D. Thesis (1970) &lbrack;[anu:1885/133321](https://openresearch-repository.anu.edu.au/handle/1885/133321)&rbrack;
 
