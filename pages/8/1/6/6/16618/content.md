@@ -1,20 +1,25 @@
-> *Note: This page is about an alternative presentation of [[monads]].  There is a different notion of "extension system" that is to a [[bicategory]] what a [[closed category]] is to a [[monoidal category]]; for this, see [[closed category]].
+> *Note: This page is about an alternative presentation of [[monads]] as popular for [[monads in computer science]].  For a different notion of "extension system" that is to a [[bicategory]] what a [[closed category]] is to a [[monoidal category]]; for this, see *[[closed category]]*.
+
 
 # Extension systems
-
 * table of contents
 {: toc}
 
+
 ## Idea
+ {#Idea}
 
-An *extension system* is a way of presenting a [[monad]] that does not involve [[iteration]] of the [[underlying]] [[endofunctor]].  This is simpler for certain purposes, and the operations involved are more basic to some applications such as to [[monads in computer science]].
+An *extension system* (also: "Kleisli triple system") is a way of presenting the [[mathematical structure|structure]] of a [[monad]] that does not involve [[composition]] ("iteration") of its [[underlying]] [[endofunctor]].  This is simpler for certain purposes, and in any case more natural for others, notably in the use of [[monads in computer science]].
 
+Specifically, noticing that the [[endofunctor]] [[underlying]] a [[monad]] may be understood as constructing its [[free construction|free]] algebras, which (lacking [[relations]]) may be "large" (say as concerns the [[cardinality]] of their [[underlying sets]]), the iterated application of this endofunctor will produces even larger objects, and some authors have pointed to avoiding this phenomenon as motivation for considering extension systems:
 
 > {#MarmolejoWoodQuote} &lbrack;[Marmolejo-Wood 10](#MarmolejoWood10)&rbrack;: there is an important overarching reason to consider monads in this way. Extension systems allow us to completely dispense with the iterates $[$...$]$ of the underlying arrow. No iteration is necessary. A moment's reflection on the various terms of terms and terms of terms of terms that occur in practical applications suggest that this alone justifies the alternate approach. $[$...$]$ we note that extension systems in [[higher category theory|higher dimensional category theory]] provide an even more important simplication of monads. For even in dimension 2, some of the tamest examples are built on [[pseudofunctors]] that are difficult to iterate.
 
+
+
 ## Definition
 
-An **extension system** ([Marmolejo-Wood 10](#MarmolejoWood10)) on a [[category]] $C$ consists of
+An **extension system** ([Marmolejo-Wood 2010](#MarmolejoWood10)) on a [[category]] $C$ consists of
 
 * For every [[object]] $A\in C$, an object $T A\in C$ and a [[morphism]] $\eta_A \colon A\to T A$, and
 
@@ -48,23 +53,28 @@ It is also possible to define [[algebras over a monad]] using this presentation.
 
 When $C$ is a [[cartesian closed category]], to make $T$ a [[strong monad]] we simply have to enhance the extension operation $(-)^T$ to an internal morphism $(T A)^B \to (T A)^{T B}$, or equivalently $T B \times (T A)^B \to T A$.  This morphism is known as "bind" in use of [[monads in computer science]].
 
+## Related concepts
+
+* [[monad in computer science]]
+
 ## References
 
-The above definitions are from
+The notion appears explicitly in:
 
-* {#MarmolejoWood10} F. Marmolejo and R. J. Wood, *Monads as extension systems -- no iteration is necessary*, [TAC](http://www.tac.mta.ca/tac/volumes/24/4/24-04abs.html) 2010.
+* {#Manes76} [[Ernest G. Manes]], Sec 3, Ex. 12 (p. 32) of: *Algebraic Theories*, Springer (1976) &lbrack;[doi:10.1007/978-1-4612-9860-1](https://doi.org/10.1007/978-1-4612-9860-1)&rbrack;
 
-but the definition of monad as extension system appeared in 
+and is expanded on considerably in
 
-* E. G. Manes. *Algebraic Theories*. Springer-Verlag, 1976.
+* {#MarmolejoWood10} [[F. Marmolejo]], [[Richard J. Wood]], *Monads as extension systems -- no iteration is necessary* [[TAC]] **24** 4 (2010) 84-113 &lbrack;[24-04](http://www.tac.mta.ca/tac/volumes/24/4/24-04abs.html)&rbrack;
 
-and this definition and also the definition of algebras by an extension operation appeared in 
+An earlier appearance in a different guise:
 
-* R.F.C. Walters, *A categorical approach to universal algebra*, Ph.D. Thesis, 1970.
+* [[R. F. C. Walters]], Chapter I of: *A categorical approach to universal algebra*, Ph.D. Thesis (1970) &lbrack;[anu:1885/133321](https://openresearch-repository.anu.edu.au/handle/1885/133321)&rbrack;
+
 
 See also
 
-* F. Marmolejo and R. J. Wood, *Kan extensions and lax idempotent pseudomonads*, [TAC](http://www.tac.mta.ca/tac/volumes/26/1/26-01abs.html) 2012
+* [[F. Marmolejo]] [[Richard J. Wood]], *Kan extensions and lax idempotent pseudomonads*, [TAC](http://www.tac.mta.ca/tac/volumes/26/1/26-01abs.html) 2012
 
 * F. Marmolejo and R. J. Wood, *No-iteration pseudomonads*, [TAC](http://www.tac.mta.ca/tac/volumes/28/14/28-14abs.html) 2013
 
