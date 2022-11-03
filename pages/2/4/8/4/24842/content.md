@@ -19,31 +19,31 @@ In addition, conversion rules use [[equality]]. The usage of equality in this ma
 
 For example, the [[beta conversion]] rule for the [[dependent product type]] could be expressed in judgmental, propositional, and typal equality:
 
-* Judgmental beta conversion rules:
+* Judgmental beta conversion rules for dependent product types:
 
 $$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \lambda(x:A).b(x)(a) = b[a/x]:B[a/x]}$$
 
-* Propositional beta conversion rules:
+* Propositional beta conversion rules for dependent product types:
 
 $$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \lambda(x:A).b(x)(a) =_{B[a/x]} b[a/x] \; \mathrm{true}}$$
 
-* Typal beta conversion rules:
+* Typal beta conversion rules for dependent product types:
 
 $$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_\Pi:\lambda(x:A).b(x)(a) =_{B[a/x]} b[a/x]}$$
 
-Similarly, the [[eta-conversion]] rule for the [[dependent product type]] could be expressed in judgmental, propositional, and typal equality:
+Similarly, the [[eta-conversion]] rule for the [[sum type]] could be expressed in judgmental, propositional, and typal equality:
 
-* Judgmental eta conversion rules:
+* Judgmental eta conversion rules for sum types:
 
-$$\frac{\Gamma \vdash f:\prod_{x:A} B(x)}{\Gamma \vdash f \equiv \lambda(x).f(x):\prod_{x:A} B(x)}$$
+$$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash e:A + B \quad \Gamma, z:A + B \vdash u:C \quad \Gamma, a:A \vdash u[\mathrm{inl}(a)/z] \equiv c[a/x]:C[\mathrm{inl}(a)/z] \quad \Gamma, b:B \vdash u[\mathrm{inr}(b)/z] \equiv d[b/y]:C[\mathrm{inr}(b)/z]}{\Gamma \vdash u[e/z] \equiv \mathrm{ind}_{A + B}^C(c[\mathrm{inl}(e)/x], d[\mathrm{inr}(e)/y], e):C[e/z]}$$
 
-* Propositional eta conversion rules:
+* Propositional eta conversion rules for sum types:
 
-$$\frac{\Gamma \vdash f:\prod_{x:A} B(x)}{\Gamma \vdash f \equiv_{\prod_{x:A} B(x)} \lambda(x).f(x) \; \mathrm{true}}$$
+$$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash e:A + B \quad \Gamma, z:A + B \vdash u:C \quad \Gamma, a:A \vdash u[\mathrm{inl}(a)/z] \equiv_{C[\mathrm{inl}(a)/z]} c[a/x] \; \mathrm{true} \quad \Gamma, b:B \vdash u[\mathrm{inr}(b)/z] \equiv_{C[\mathrm{inr}(b)/z]} d[b/y] \; \mathrm{true}}{\Gamma \vdash u[e/z] \equiv_{C[e/z]} \mathrm{ind}_{A + B}^C(c[\mathrm{inl}(e)/x], d[\mathrm{inr}(e)/y], e) \; \mathrm{true}}$$
 
-* Typal eta conversion rules:
+* Typal eta conversion rules for sum types:
 
-$$\frac{\Gamma \vdash f:\prod_{x:A} B(x)}{\Gamma \vdash \eta_\Pi(f):f =_{\prod_{x:A} B(x)} \lambda(x).f(x)}$$
+$$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash e:A + B \quad \Gamma, z:A + B \vdash u:C \quad \Gamma, a:A \vdash i_\mathrm{inl}(u):u[\mathrm{inl}(a)/z] =_{C[\mathrm{inl}(a)/z]} c[a/x] \quad \Gamma, b:B \vdash i_\mathrm{inr}(u):u[\mathrm{inr}(b)/z] =_{C[\mathrm{inr}(b)/z]} d[b/y]}{\Gamma \vdash \eta_{A + B}(u, e):u[e/z] =_{C[e/z]} \mathrm{ind}_{A + B}^C(c[\mathrm{inl}(e)/x], d[\mathrm{inr}(e)/y], e)}$$
 
 The paradigmatic example of conversional equality is a pair of terms like "$(\lambda x. x+x)(2)$" and "$2+2$", where the second is obtained by $\beta$-reduction from the first.  In a type theory that includes definitions by [[recursion]], expansion of a recursor is also computational equality. For instance, if addition is defined by recursion, then "$2+2$" (that is, $s(s(0))+s(s(0))$) reduces via this rule to "$4$" (that is, $s(s(s(s(0))))$).
 
@@ -53,21 +53,31 @@ There are also **contextual conversion rules**. These differ from the usual beta
 
 For example, using the example of the [[beta-conversion]] rule for the [[dependent product type]], the contextual beta-conversion rules are given by the following:
 
-* Judgmental contextual beta-conversion rules:
+* Judgmental contextual beta-conversion rules for dependent product types:
 
 $$\frac{\Gamma, x:A, \Delta \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma, \Delta[a/x] \vdash \lambda(x:A).b(x)(a) \equiv b[a/x]:B[a/x]}$$
 
-* Propositional contextual beta-conversion rules:
+* Propositional contextual beta-conversion rules for dependent product types:
 
 $$\frac{\Gamma, x:A, \Delta \vert \Phi \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma, \Delta[a/x] \vert \Phi[a/x] \vdash \lambda(x:A).b(x)(a) \equiv_{B[a/x]} b[a/x] \; \mathrm{true}}$$
 
-* Typal contextual beta-conversion rules:
+* Typal contextual beta-conversion rules for dependent product types:
 
 $$\frac{\Gamma, x:A, \Delta \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma, \Delta[a/x] \vdash \beta_\Pi:\lambda(x:A).b(x)(a) =_{B[a/x]} b[a/x]}$$
 
-Similarly, one could define contextual eta-conversion rules for the [[unit type]]:
+Similarly, one could define contextual eta-conversion rules for the [[sum type]]:
 
-...
+* Judgmental contextual eta-conversion rules for sum types:
+
+$$\frac{\Gamma, z:A + B, \Delta \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash e:A + B \quad \Gamma, z:A + B, \Delta \vdash u:C \quad \Gamma, a:A, \Delta[\mathrm{inl}(a)/z] \vdash u[\mathrm{inl}(a)/z] \equiv c[a/x]:C[\mathrm{inl}(a)/z] \quad \Gamma, b:B, \Delta[\mathrm{inr}(b)/z] \vdash u[\mathrm{inr}(b)/z] \equiv d[b/y]:C[\mathrm{inr}(b)/z]}{\Gamma, \Delta[e/z] \vdash u[e/z] \equiv \mathrm{ind}_{A + B}^C(c[\mathrm{inl}(e)/x], d[\mathrm{inr}(e)/y], e):C[e/z]}$$
+
+* Propositional contextual eta-conversion rules for sum types:
+
+$$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vert \Phi[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vert \Phi[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash e:A + B \quad \Gamma, z:A + B, \Delta \vert \Phi \vdash u:C \quad \Gamma, a:A, \Delta[\mathrm{inl}(a)/z] \vert \Phi[\mathrm{inl}(a)/z] \vdash u[\mathrm{inl}(a)/z] \equiv_{C[\mathrm{inl}(a)/z]} c[a/x] \; \mathrm{true} \quad \Gamma, b:B, \Delta[\mathrm{inr}(b)/z] \vert \Phi[\mathrm{inr}(b)/z] \vdash u[\mathrm{inr}(b)/z] \equiv_{C[\mathrm{inr}(b)/z]} d[b/y] \; \mathrm{true}}{\Gamma, \Delta[e/z] \vert \Phi[e/z] \vdash u[e/z] \equiv_{C[e/z]} \mathrm{ind}_{A + B}^C(c[\mathrm{inl}(e)/x], d[\mathrm{inr}(e)/y], e) \; \mathrm{true}}$$
+
+* Typal contextual eta-conversion rules for sum types:
+
+$$\frac{\Gamma, z:A + B, \Delta \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash e:A + B \quad \Gamma, z:A + B, \Delta \vdash u:C \quad \Gamma, a:A, \Delta[\mathrm{inl}(a)/z] \vdash i_\mathrm{inl}(u):u[\mathrm{inl}(a)/z] =_{C[\mathrm{inl}(a)/z]} c[a/x] \quad \Gamma, b:B, \Delta[\mathrm{inr}(b)/z] \vdash i_\mathrm{inr}(u):u[\mathrm{inr}(b)/z] =_{C[\mathrm{inr}(b)/z]} d[b/y]}{\Gamma, \Delta[e/z] \vdash \eta_{A + B}(u, e):u[e/z] =_{C[e/z]} \mathrm{ind}_{A + B}^C(c[\mathrm{inl}(e)/x], d[\mathrm{inr}(e)/y], e)}$$
 
 ## See also
 
