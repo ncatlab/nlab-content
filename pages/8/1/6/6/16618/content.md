@@ -65,25 +65,26 @@ The notion appears explicitly in:
 
 and is expanded on considerably in
 
-* {#MarmolejoWood10} [[F. Marmolejo]], [[Richard J. Wood]], *Monads as extension systems -- no iteration is necessary* [[TAC]] **24** 4 (2010) 84-113 &lbrack;[24-04](http://www.tac.mta.ca/tac/volumes/24/4/24-04abs.html)&rbrack;
+* {#MarmolejoWood10} [[Francisco Marmolejo]], [[Richard J. Wood]], *Monads as extension systems -- no iteration is necessary* [[TAC]] **24** 4 (2010) 84-113 &lbrack;[24-04](http://www.tac.mta.ca/tac/volumes/24/4/24-04abs.html)&rbrack;
 
 An earlier appearance in a different guise:
 
 * [[R. F. C. Walters]], Chapter I of: *A categorical approach to universal algebra*, Ph.D. Thesis (1970) &lbrack;[anu:1885/133321](https://openresearch-repository.anu.edu.au/handle/1885/133321)&rbrack;
 
 
-See also
 
-* [[F. Marmolejo]] [[Richard J. Wood]], *Kan extensions and lax idempotent pseudomonads*, [TAC](http://www.tac.mta.ca/tac/volumes/26/1/26-01abs.html) 2012
+The use of extension systems (there called [[Kleisli triples]]) as [[monads in computer science]] capturing [[computation]] with side effects is due to:
 
-* F. Marmolejo and R. J. Wood, *No-iteration pseudomonads*, [TAC](http://www.tac.mta.ca/tac/volumes/28/14/28-14abs.html) 2013
-
-The definition of monad as an extension system was used by [[Eugenio Moggi]] (and referred to as a "Kleisli triple") in his original paper introducing the application of [[monads in computer science]] for modeling different notions of computation:
-
-* [[Eugenio Moggi]], _Notions of computation and monads_, Information And Computation, 93(1), 1991. ([pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf))
+* {#Moggi91} [[Eugenio Moggi]], *Notions of computation and monads*, Information and Computation, **93** 1 (1991) &lbrack;<a href="https://doi.org/10.1016/0890-5401(91)90052-4">doi:10.1016/0890-5401(91)90052-4</a>, [pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf)&rbrack;
 
 This way of presenting a monad is also closely related to [[continuation-passing style]], as described in
 
 * [[Andrzej Filinski]], _Representing Monads_, POPL 1994. ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.43.8213&rep=rep1&type=pdf))
 
+
+Generalization to [[pseudomonads]]:
+
+* [[Francisco Marmolejo]], [[Richard J. Wood]], *Kan extensions and lax idempotent pseudomonads*, [[TAC]] **26** 1 (2012) 1-29 &lbrack;[26-01](http://www.tac.mta.ca/tac/volumes/26/1/26-01abs.html)&rbrack;
+
+* [[Francisco Marmolejo]], [[Richard J. Wood]], *No-iteration pseudomonads*, [[TAC]] **28** 14 (2013) 371-402 &lbrack;[tac:28-14](http://www.tac.mta.ca/tac/volumes/28/14/28-14abs.html)&rbrack;
 [[!redirects extension systems]]
