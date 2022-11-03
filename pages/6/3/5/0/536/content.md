@@ -68,7 +68,7 @@ In the worst case, there are algebraic theories where the number of definable op
 
 Further commentary on these aspects may be found in the dozen or so comments in [this thread](http://golem.ph.utexas.edu/category/2009/04/report_on_88th_peripatetic_sem.html#c023188), dated April 13 - May 7, 2009.
 
-In summary, then, here is the connection between the logical and categorial descriptions, based on [Johnstone][], &#167;&#167;3.7&8.  Say that a category $C$ is:
+In summary, then, here is the connection between the logical and categorial descriptions, based on [Johnstone](#Johnstone), &#167;&#167;3.7&8.  Say that a category $C$ is:
 
 * _small algebraic_ if it is given by a (small) set of operation symbols and equations;
 * _[[algebraic category|algebraic]]_ if it is given by a monad on the category of (small) sets;
@@ -381,8 +381,11 @@ Let us denote the category of models and homomorphisms (in $Set$) of an algebrai
 
 ## References
 
-* <span id="Johnstone"></span> [[Peter Johnstone]], _[[Stone Spaces]]_
-  [Johnstone]: #Johnstone
+* {#Manes76} [[Ernest G. Manes]], *Algebraic Theories*, Springer (1976) &lbrack;[doi:10.1007/978-1-4612-9860-1](https://doi.org/10.1007/978-1-4612-9860-1)&rbrack;
+
+
+* {#Johnstone} [[Peter Johnstone]], _[[Stone Spaces]]_
+
 
 * B. Badzioch, "Algebraic Theories in Homotopy Theory", Annals of Mathematics, 155, 895--913 (2002).
 
