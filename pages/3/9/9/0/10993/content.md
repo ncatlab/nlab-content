@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Categorical algebra
++-- {: .hide}
+[[!include categorical algebra -- contents]]
+=--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -8,9 +23,13 @@
 
 A _relative monad_ is what is to a _[[relative adjunction]]_ as a [[monad]] is to an [[adjunction]].
 
-In [ACU14](#ACU14), the authors proved that a relative monad on a functor $J:\mathbf J \to \mathbf C$ are 'skew-monoids in the [[skew-monoidal category]] $[\mathbf J, \mathbf C]$' (see below).
+In [ACU14](#ACU14), the authors proved that a relative monad on a functor $J \colon \mathbf J \to \mathbf C$ are 'skew-monoids in the [[skew-monoidal category]] $[\mathbf J, \mathbf C]$' (see below).
+
+The specialization of the following definition to plain monads, hence to the case $J = id$, yields at face value not the traditional definition of [[monads]] but the (equivalent) definition of *[[extension systems]]* (also "[[Kleisli triples]]", being the form of [[monads in computer science]]).
+
 
 ## Definition
+
 Let $\mathbf J, \mathbf C$ be categories and $J: \mathbf J \to \mathbf C$ be a functor.
 
 \begin{definition}
@@ -18,7 +37,7 @@ Let $\mathbf J, \mathbf C$ be categories and $J: \mathbf J \to \mathbf C$ be a f
 A **relative monad $T$ on $J$** is a functor $T:\mathbf J \to \mathbf C$ equipped with
 
 * a _unit_ $\eta_X : J X \to T X$ natural in $X : \mathbf J$,
-* a _Kleisli extension_ $(-)^* : \mathbf C(J X, T Y) \to \mathbf C(T X, T Y)$ in both $X,Y:\mathbf J$
+* a _[[extension system|Kleisli extension]]_ $(-)^* : \mathbf C(J X, T Y) \to \mathbf C(T X, T Y)$ in both $X,Y:\mathbf J$
 
 such that for every $X,Y,Z:\mathbf J$ and $k:J X \to T Y$,
 
@@ -62,6 +81,8 @@ When $J:\mathbf J \to \mathbf C$ is a free completion of $\mathbf{J}$ under coli
 ## Related pages
 
 * [[relative comonad]]
+
+* [[extension system]], [[Kleisli triple]], [[monad in computer science]]
 
 ## References
 
