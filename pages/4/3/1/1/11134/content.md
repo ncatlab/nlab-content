@@ -93,6 +93,8 @@ Here $\prod_W W^\ast = [W,-]$ is called the _[[function monad]]_ or _[[reader mo
 
 * [[QRAM]]
 
+* [[store comonad]] 
+
 ## References 
 
 The abstract notion of the state monad:
