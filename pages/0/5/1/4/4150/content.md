@@ -39,6 +39,9 @@ An account of the basics may be found at _[[geometry of physics -- categories an
 
 ## References
 
+* [[R. F. C. Walters]], *A categorical approach to universal algebra*, Ph.D. Thesis (1970) &lbrack;[anu:1885/133321](https://openresearch-repository.anu.edu.au/handle/1885/133321)&rbrack;
+
+
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, III Vols. 
 
 Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
