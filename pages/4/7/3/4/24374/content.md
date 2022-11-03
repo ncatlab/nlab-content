@@ -5,7 +5,19 @@
 
 ## Idea
 
-**Synthetic guarded domain theory**, is a field of [[synthetic mathematics]] that provides an alternative to [[synthetic domain theory]], where all [[guarded recursion|guarded recursive]] definitions have [[fixed points]]. It provides a simple setting in which to carry out constructions using the technique of *step-indexing* in programming language semantics. In the same way that [[synthetic domain theory]] is inspired by classical [[domain theory]] based on [[cpos]] and continuous maps, synthetic guarded domain theory is inspired by metric (or guarded) domain theory based on various kinds of [[metric space]] and nonexpansive maps.
+**Synthetic guarded domain theory**(SGDT), is a field of [[synthetic mathematics]] that provides an alternative to [[synthetic domain theory]], where all [[guarded recursion|guarded recursive]] definitions have [[fixed points]]. 
+
+More generally, the aim of [[synthetic domain theory]] is roughly that computability should be built in the logic. As a result, constructions on domains would be set-theoretic with no extra structure and proofs of continuity are for free. 
+However, such a theory would yield an unrestricted fixed-point combinator at all types which would render the theory itself inconsistent when viewed as a logical system. 
+
+SGDT solves this problem by introducing a notion of "time". For a type $A$, $\triangleright A$ is the type of computation available one step from now. 
+Categorically, SGDT lives in the category of  [[presheaves]] over $\omega$ and $\triangleright$ (pronounced "later") is an endofunctor in this category defined as $\triangleright A (1) = 1$ and $\triangleright A (n+1) = A(n)$.
+
+The internal language of this category admits a restricted fixed-point operator 
+$$(\triangleright A \to A) \to A$$ 
+at all types $A$, which is consistent when viewing the types as a logic.
+
+Inspired by terminology used in the metric spaces, every map $A \to A$ in $\text{Set}^{\omega^\text{op}}$ is non-expansive while $\triangleright$-algebras are called a contractive maps. 
 
 ## Axiomatics
 
