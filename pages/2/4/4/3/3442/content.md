@@ -148,7 +148,7 @@ In this diagram now
 
 * [[heat equation]]
 
-* [[wave equation]], [[Klein-Gordon equation]]
+* [[wave equation]], [[Klein-Gordon equation]], [[sine-Gordon equation]]
 
 * [[Navier-Stokes equation]]
 
