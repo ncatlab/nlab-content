@@ -320,13 +320,13 @@ $$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vda
 
 #### Rules for types
 
-Each type in Martin-Löf dependent type theory comes with a type [[formation rule]], a term [[introduction rule]], a term [[elimination rule]], a [[computation rule]], and an optional [[uniqueness rule]]. 
+Each type in Martin-Löf dependent type theory comes with a type [[formation rule]], a term [[introduction rule]], a term [[elimination rule]], a [[computation rule]], and an optional [[uniqueness rule]]. We assume that each type is a [[contextual type]]. 
 
 #### Function types
 
 * Formation rules for function types:
 
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type}}{\Gamma \vert \Phi \vdash A \to B \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \to B \; \mathrm{type}}$$
 
 * Introduction rules for function types:
 
@@ -431,13 +431,13 @@ $$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamm
 
 * Uniqueness rules for sum types:
 
-$$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta \vert \Phi \vdash c(x):C(\mathrm{inl}(x)) \quad \Gamma, y:B, \Delta \vert \Phi \vdash d(y):C(\mathrm{inr}(y)) \quad \Gamma, \Delta \vert \Phi \vdash e:A + B \quad \Gamma, x:A + B, \Delta \vert \Phi \vdash u:C \quad \Gamma, a:A, \Delta \vert \Phi \vdash u(\mathrm{inl}(a)) \equiv_{C(\mathrm{inl}(a))} c(a) \; \mathrm{true} \quad \Gamma, b:B, \Delta \vert \Phi \vdash u(\mathrm{inr}(b)) \equiv_{C(\mathrm{inr}(b))} d(b) \; \mathrm{true}}{\Gamma, \Delta \vert \Phi \vdash u(e) \equiv_{C(e)} \mathrm{ind}_{A + B}^C(c(\mathrm{inl}(e)), d(\mathrm{inl}(e)), e) \; \mathrm{true}}$$
+$$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vert \Phi[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vert \Phi[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash e:A + B \quad \Gamma, z:A + B, \Delta \vert \Phi \vdash u:C \quad \Gamma, a:A, \Delta[\mathrm{inl}(a)/z] \vert \Phi[\mathrm{inl}(a)/z] \vdash u[\mathrm{inl}(a)/z] \equiv_{C[\mathrm{inl}(a)/z]} c[a/x] \; \mathrm{true} \quad \Gamma, b:B, \Delta[\mathrm{inr}(b)/z] \vert \Phi[\mathrm{inr}(b)/z] \vdash u[\mathrm{inr}(b)/z] \equiv_{C[\mathrm{inr}(b)/z]} d[b/y] \; \mathrm{true}}{\Gamma, \Delta[e/z] \vert \Phi[e/z] \vdash u[e/z] \equiv_{C[e/z]} \mathrm{ind}_{A + B}^C(c[\mathrm{inl}(e)/x], d[\mathrm{inr}(e)/y], e) \; \mathrm{true}}$$
 
 #### Empty type
 
 * Formation rules for the empty type:
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vert \Phi \vdash \mathbb{0} \; \mathrm{type}}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{0} \; \mathrm{type}}$$
 
 * Elimination rules for the empty type:
 
