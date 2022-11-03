@@ -9,7 +9,7 @@
 ## Idea
  {#Idea}
 
-An *extension system* (also: "Kleisli triple system") is a way of presenting the [[mathematical structure|structure]] of a [[monad]] that does not involve [[composition]] ("iteration") of its [[underlying]] [[endofunctor]].  This is simpler for certain purposes, and in any case more natural for others, notably in the use of [[monads in computer science]].
+An *extension system* (also: "Kleisli triple system") is a way of presenting the [[mathematical structure|structure]] of a [[monad]] that does not involve [[composition]] ("iteration") of its [[underlying]] [[endofunctor]]. This is simpler for certain purposes, and in any case more natural for others, notably in the use of [[monads in computer science]]. Abstractly, the definition arises by specialising the definition of $J$-[[relative monad]] to take $J$ to be the identity functor.
 
 Specifically, noticing that the [[endofunctor]] [[underlying]] a [[monad]] may be understood as constructing its [[free construction|free]] algebras, which (lacking [[relations]]) may be "large" (say as concerns the [[cardinality]] of their [[underlying sets]]), the iterated application of this endofunctor will produces even larger objects, and some authors have pointed to avoiding this phenomenon as motivation for considering extension systems:
 
@@ -56,6 +56,7 @@ When $C$ is a [[cartesian closed category]], to make $T$ a [[strong monad]] we s
 ## Related concepts
 
 * [[monad in computer science]]
+* [[relative monad]]
 
 ## References
 
