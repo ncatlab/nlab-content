@@ -1,16 +1,28 @@
 * [webpage](https://www.matem.unam.mx/fsd/quico)
 
-###Relevant pages
+## Selected writings
+
+On a [[2-monad|2-monadic]] treatment of [[ultracategories]]:
+
+* [[Francisco Marmolejo]], _Ultraproducts and continuous families of models_, PhD thesis (1995) &lbrack;[hdl:10222/55092](https://dalspace.library.dal.ca/handle/10222/55092), [pdf](https://dalspace.library.dal.ca/bitstream/handle/10222/55092/NN08788.PDF?sequence=1&isAllowed=y)&rbrack;
+
+On [[monads]] as [[extension systems]] (as in [[monads in computer science]]):
+
+* {#MarmolejoWood10} [[Francisco Marmolejo]], [[Richard J. Wood]], *Monads as extension systems -- no iteration is necessary* [[TAC]] **24** 4 (2010) 84-113 &lbrack;[24-04](http://www.tac.mta.ca/tac/volumes/24/4/24-04abs.html)&rbrack;
+
+and generalizing the perspective of [[extension systems]] to [[pseudomonads]]:
+
+* [[Francisco Marmolejo]], [[Richard J. Wood]], *Kan extensions and lax idempotent pseudomonads*, [[TAC]] **26** 1 (2012) 1-29 &lbrack;[26-01](http://www.tac.mta.ca/tac/volumes/26/1/26-01abs.html)&rbrack;
+
+* [[Francisco Marmolejo]], [[Richard J. Wood]], *No-iteration pseudomonads*, [[TAC]] **28** 14 (2013) 371-402 &lbrack;[tac:28-14](http://www.tac.mta.ca/tac/volumes/28/14/28-14abs.html)&rbrack;
+
+
+
+## Related pages
 
 * [[ultracategory]]
 
-###Selected writings
-
-
-
-For a [[2-monad|2-monadic]] treatment of ultracategories, see
-
-* [[Francisco Marmolejo]], _Ultraproducts and continuous families of models_, ([thesis](https://dalspace.library.dal.ca/handle/10222/55092), poor quality photocopy).
-[[!redirects ultracategories]]
 
 category: people
+
+[[!redirects F. Marmolejo]]
