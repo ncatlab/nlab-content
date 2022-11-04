@@ -142,13 +142,16 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \v
 
 ### Variable conversion
 
-The variable conversion rule is given by the following judgmental and propositional rules respectively:
+The variable conversion rule is given by the following judgmental, propositional, and typal rules respectively:
 
 * Judgmental variable conversion rule:
 $$\frac{\Gamma \vdash A = B \; \mathrm{type} \quad \Gamma, x:A, \Delta \vdash \mathcal{J}}{\Gamma, x:B, \Delta \vdash \mathcal{J}}$$
 
 * Propositional variable conversion rule:
 $$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash A = B \; \mathrm{true} \quad \Gamma, x:A, \Delta \vert \Phi \vdash \mathcal{J}}{\Gamma, x:B, \Delta \vert \Phi \vdash \mathcal{J}}$$
+
+* Typal variable conversion rule:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash P:A \simeq B \quad \Gamma, x:A, \Delta \vdash \mathcal{J}}{\Gamma, y:B, \Delta[P^{-1}(y)/x] \vdash \mathcal{J}[P^{-1}(y)/x]}$$
 
 $\mathcal{J}$ is a generic judgment thesis. 
 
