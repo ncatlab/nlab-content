@@ -71,7 +71,7 @@ Here $\prod_W W^\ast = [W,-]$ is called the _[[function monad]]_ or _[[reader mo
 
 A discussion of [[coalgebra for an endofunctor|coalgebras]] for the costate monad as [[lens (in computer science)|lenses]]:
 
-* {#Gibbons} Jeremy Gibbons, [Lenses are the coalgebras for the costate comonad](https://patternsinfp.wordpress.com/2011/01/31/lenses-are-the-coalgebras-for-the-costate-comonad/)
+* {#Gibbons} [[Jeremy Gibbons]], [Lenses are the coalgebras for the costate comonad](https://patternsinfp.wordpress.com/2011/01/31/lenses-are-the-coalgebras-for-the-costate-comonad/)
 
 ## Related concepts
 
