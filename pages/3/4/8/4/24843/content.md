@@ -13,7 +13,7 @@
 
 ## Idea
 
-In [[type theory]], **term elimination** are the [[natural deduction]] rules for how to use terms of a given type. 
+In [[type theory]], **term elimination** are the [[natural deduction]] rules for how to use [[terms]] of a given [[type]]. 
 
 For example, the term elimination rules for the [[sum type]] are as follows:
 
