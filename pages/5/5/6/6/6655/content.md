@@ -589,6 +589,51 @@ $$\frac{\Gamma, a:A, b:A \vdash p:a =_A b}{\Gamma, a:A, b:A \vdash a \equiv_A b 
 
 The type theory is an [[intensional type theory]] if it doesn't have the equality reflection rule. 
 
+#### Propositional reflection and predicate logic
+
+One could add an additional set of rules in this second presentation of Martin-Löf dependent type theory which isn't available in the first presentation: propositional reflections. Unlike the first presentation, in this presentation, there are two notions of propositions: the external propositions and the internal propositions. The external propositions are the judgmental propositions in the logic layer of Martin-Löf dependent type theory, and correspond to the external logic. On the other hand, the internal propositions are [[types]] equipped with a witness of the [[isProp]] [[modality]] and correspond to the [[internal logic]]. They are also called [[subsingletons]] or [[h-propositions]]. We could make the internal logic imply the external logic with the following proposition reflection rules:
+
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash p:\mathrm{isProp}(A)}{\Gamma \vert \Phi \vdash \phi_A \; \mathrm{prop}} \qquad \frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash p:\mathrm{isProp}(A) \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash \phi_A \; \mathrm{true}}$$
+
+and similar rules for [[predicates]]:
+
+$$\frac{\Gamma, x:A, \Delta \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma, x:A, \Delta \vert \Phi \vdash p:\mathrm{isProp}(B)}{\Gamma, x:A, \Delta \vert \Phi \vdash \phi_B \; \mathrm{prop}} \qquad \frac{\Gamma, x:A, \Delta \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma, x:A, \Delta \vert \Phi \vdash p:\mathrm{isProp}(B) \quad \Gamma, x:A, \Delta \vert \Phi \vdash b:B}{\Gamma, x:A, \Delta \vert \Phi \vdash \phi_B \; \mathrm{true}}$$
+
+If the [[identity types]] of Martin-Löf dependent type theory have a uniqueness rule such as the [[K rule]] or [[uniqueness of identity proofs]], then propositional reflection implies that the type theory is an [[extensional type theory]]. 
+
+In addition, since the [[product type]] and [[function type]] preserve types being a subsingleton, the dependent product of a subsingleton-valued type family, and the [[unit type]] and [[empty type]] are always subsingletons, one could also add the following propositional reflection rules to the theory, defining [[conjunction]], [[implication]], [[true]], [[false]], and bounded [[universal quantification]]:
+
+$$\frac{\Gamma \vert \Phi \vdash A \times B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash p:\mathrm{isProp}(A) \quad \Gamma \vert \Phi \vdash q:\mathrm{isProp}(B)}{\Gamma \vert \Phi \vdash \phi_A \wedge \phi_B \; \mathrm{prop}}$$ 
+$$\frac{\Gamma \vert \Phi \vdash A \to B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash p:\mathrm{isProp}(A) \quad \Gamma \vert \Phi \vdash q:\mathrm{isProp}(B)}{\Gamma \vert \Phi \vdash \phi_A \implies \phi_B \; \mathrm{prop}}$$
+$$\frac{\Gamma \vert \Phi \vdash \mathbb{0} \; \mathrm{type}}{\Gamma \vert \Phi \vdash \bot \; \mathrm{prop}} \qquad \frac{\Gamma \vert \Phi \vdash \mathbb{1} \; \mathrm{type}}{\Gamma \vert \Phi \vdash \top \; \mathrm{prop}}$$
+$$\frac{\Gamma, \Delta \vert \Phi \vdash \prod_{x:A} B(x) \; \mathrm{type} \quad \Gamma, x:A, \Delta \vert \Phi \vdash q:\mathrm{isProp}(B(x))}{\Gamma, \Delta \vert \Phi \vdash \forall x:A.\phi_B(x) \; \mathrm{prop}}$$
+
+Adding [[propositional truncations]] to Martin-Löf dependent type theory allows for the full [[intuitionistic logic]] to be defined, as [[disjunctions]] could be defined from the propositional truncation of the [[sum type]], and the [[existential quantifier]] could be defined from the propositional truncation of the [[dependent sum type]]:
+
+$$\frac{\Gamma \vert \Phi \vdash [A + B] \; \mathrm{type} \quad \Gamma \vert \Phi \vdash p:\mathrm{isProp}(A) \quad \Gamma \vert \Phi \vdash q:\mathrm{isProp}(B)}{\Gamma \vert \Phi \vdash \phi_A \vee \phi_B \; \mathrm{prop}}$$ 
+$$\frac{\Gamma, \Delta \vert \Phi \vdash \left[\sum_{x:A} B(x)\right] \; \mathrm{type} \quad \Gamma, x:A, \Delta \vert \Phi \vdash q:\mathrm{isProp}(B(x))}{\Gamma, \Delta \vert \Phi \vdash \exists x:A.\phi_B(x) \; \mathrm{prop}}$$
+
+The rules above reflect the [[propositions as some types]] philosophy in [[type theory]]. 
+
+#### Propositions as types
+
+An alternative to the [[propositions as some types]] philosophy is the [[propositions as types]] philosophy, where instead of reflecting the [[subsingletons]] to propositions and the [[singletons]] to true propositions, we reflect all types to propositions, and the [[pointed types]] to true propositions. The rules are given as follows:
+
+$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash \phi_A \; \mathrm{prop}} \qquad \frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash \phi_A \; \mathrm{true}}$$
+
+and similar rules for [[predicates]]:
+
+$$\frac{\Gamma, x:A, \Delta \vert \Phi \vdash B \; \mathrm{type}}{\Gamma, x:A, \Delta \vert \Phi \vdash \phi_B \; \mathrm{prop}} \qquad \frac{\Gamma, x:A, \Delta \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma, x:A, \Delta \vdash b:B}{\Gamma, x:A, \Delta \vert \Phi \vdash \phi_B \; \mathrm{true}}$$
+
+There is no need for [[propositional truncations]] in this interpretation: the full [[intuitionistic logic]] results from reflecting all type formers except for the [[natural numbers type]] and [[identity types]]:
+
+$$\frac{\Gamma \vert \Phi \vdash A + B \; \mathrm{type}}{\Gamma \vert \Phi \vdash \phi_A \vee \phi_B \; \mathrm{prop}}$$ 
+$$\frac{\Gamma \vert \Phi \vdash A \times B \; \mathrm{type}}{\Gamma \vert \Phi \vdash \phi_A \wedge \phi_B \; \mathrm{prop}}$$ 
+$$\frac{\Gamma \vert \Phi \vdash A \to B \; \mathrm{type}}{\Gamma \vert \Phi \vdash \phi_A \implies \phi_B \; \mathrm{prop}}$$
+$$\frac{\Gamma \vert \Phi \vdash \mathbb{0} \; \mathrm{type}}{\Gamma \vert \Phi \vdash \bot \; \mathrm{prop}} \qquad \frac{\Gamma \vert \Phi \vdash \mathbb{1} \; \mathrm{type}}{\Gamma \vert \Phi \vdash \top \; \mathrm{prop}}$$
+$$\frac{\Gamma \vert \Phi \vdash \sum_{x:A} B(x) \; \mathrm{type}}{\Gamma \vert \Phi \vdash \exists x:A.\phi_B(x) \; \mathrm{prop}}$$
+$$\frac{\Gamma \vert \Phi \vdash \prod_{x:A} B(x) \; \mathrm{type}}{\Gamma \vert \Phi \vdash \forall x:A.\phi_B(x) \; \mathrm{prop}}$$
+
 ## Properties
 
 ### Models and categorical semantics
