@@ -8,6 +8,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -241,7 +242,7 @@ is a local test topos. One may also replace $G$ by any orbifold, presented as an
 
 * {#Cisinski02} [[Denis-Charles Cisinski]], _Théories homotopiques dans les topos_, J. Pure Appl. Algebra 174, No. 1 (2002). ([doi](https://www.sciencedirect.com/science/article/pii/S0022404901001761))
 
-* {#Cisinski03} [[Denis-Charles Cisinski]], _Faisceaux localement asph&#233;riques_, preprint (2003) ([pdf](http://www.mathematik.uni-regensburg.de/cisinski/mtest2.pdf))
+* {#Cisinski03} [[Denis-Charles Cisinski]], _Faisceaux localement asph&#233;riques_, preprint (2003) &lbrack;[pdf](http://www.mathematik.uni-regensburg.de/cisinski/mtest2.pdf), [[Cisinski-FLA.pdf:file]]&rbrack;
 
 * {#Hoyois18} [[Marc Hoyois]], _Higher Galois theory_, J. Pure Appl. Algebra 222, no. 7 (2018), ([arXiv](http://arxiv.org/abs/1506.07155))
 
