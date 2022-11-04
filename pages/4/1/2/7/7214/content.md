@@ -20,7 +20,7 @@
 ###### Definition
 **($\Delta$-Generated spaces)**
 
-A **$\Delta$-generated space** (alias **numerically generated space**) ([Smith](#Smith), [Dugger 03](#Dugger03)) is a [[topological space]] $X$ whose topology is the [[weak topology|final topology]] induced by all [[continuous functions]] of the form $\Delta^n_{top} \to X$, hence whose [[domain]] $\Delta^n_{top}$ is one of the standard [[topological simplices]], for $n \in \mathbb{N}$.
+A **$\Delta$-generated space** (alias **numerically generated space**) ([Smith](#Smith), [Dugger 03](#Dugger03)) is a [[topological space]] $X$ whose topology is the [[weak topology|final topology]] induced by all [[continuous functions]] of the form $\Delta^n_{top} \to X$, hence those whose [[domain]] $\Delta^n_{top}$ is one of the standard [[topological simplices]], for $n \in \mathbb{N}$.
 
 A [[morphism]] between $\Delta$-generated spaces is just a [[continuous function]], hence the [[category]] of $\Delta$-generated spaces is the [[full subcategory]] on these spaces inside all [[Top|TopologicalSpaces]], 
 
@@ -44,14 +44,14 @@ $$
   id 
   \;\colon\; 
   \Delta^n_{top}
-  \overset{i_n}{\hookrightarrow}
+  \overset{\;\;\; i_n \;\;\;}{\hookrightarrow}
   \mathbb{R}^n
-  \overset{p_n}{\longrightarrow}
+  \overset{\;\;\; p_n \;\;\;}{\longrightarrow}
   \Delta^n_{top}
-  \,.
+  \,;
 $$
 
-It follows that every [[continuous function]] $f$ with [[domain]] the [[topological simplex]] [[extension|extends]] as a [[continuous function]] to [[Euclidean space]]:
+and it follows that every [[continuous function]] $f$ with [[domain]] the [[topological simplex]] [[extension|extends]] as a [[continuous function]] to [[Euclidean space]]:
 
 $$
   \array{
