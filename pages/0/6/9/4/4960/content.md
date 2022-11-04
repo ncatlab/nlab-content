@@ -2250,7 +2250,7 @@ where however the term "cohesive topos" was not yet used.
 
 This appears maybe first in
 
-* [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_ Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([doi:10.1093/philmat/2.1.5](https://doi.org/10.1093/philmat/2.1.5), [[LawvereCohesiveToposes.pdf:file]])
+* {#Lawvere94} [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_ Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([doi:10.1093/philmat/2.1.5](https://doi.org/10.1093/philmat/2.1.5), [[LawvereCohesiveToposes.pdf:file]])
 
 The term "cohesion" and parts of its later axiomatization (p. 245) appears thoughout section C.1 of
 
