@@ -22,6 +22,10 @@ The [[categorical semantics]] is a [[pointed object]].
 
 There is a way of pointing any type $X$ by forming the sum $X+\mathbf{1}$ and taking $inr(\star_{\mathbf{1}})$ as the base point. 
 
+### Propositions as types
+
+In the [[propositions as types]] interpretation of [[type theory]], every pointed type represents a [[true]] [[proposition]]. Contrast this to an inhabited type, which only represents the [[double negation]] of a true proposition. 
+
 ## Type of pointed types
 
 For a given type universe $\mathcal{U}$ the type of pointed types is
