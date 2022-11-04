@@ -68,7 +68,7 @@ For $n \in \mathbb{N}_+$ consider the $\mathbb{A}_{n}$-quiver, hence with this u
 
 \begin{example}
 \label{IndecomposableRepsOfAn}
-The [[indecomposable object|indecomposable]] [[quiver representations]] of $\mathbb{A}_n$ are labeled by [[pairs]] $a,b \in \mathbb{N}^2$ with $1 \leq a \lt b \leq n$ and are given as follows (see also [Carlsson & de Silva 2010](#CarlssonDeSilva10), reviewed in [Oudot 15, p. 17](#Oudot15)):
+The [[indecomposable object|indecomposable]] [[quiver representations]] of $\mathbb{A}_n$ are labeled by [[pairs]] $a,b \in \mathbb{N}^2$ with $1 \leq a \leq b \leq n$ and are given as follows (see also [Carlsson & de Silva 2010](#CarlssonDeSilva10), reviewed in [Oudot 15, p. 17](#Oudot15)):
 
 \begin{tikzcd}[column sep = small, row sep=small]
   1
