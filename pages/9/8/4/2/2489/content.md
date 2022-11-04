@@ -109,7 +109,7 @@ See also the references at *[[Lie 2-algebra]]*.
 
 On the history of this and related concepts:
 
-* {#Huebschmann22} [[Johannes Huebschmann]], *On the history of Lie brackets, crossed modules, and Lie-Rinehart algebras* &lbrack;[arXiv:2208.02539](https://arxiv.org/abs/2208.02539)&rbrack;
+* {#Huebschmann22} [[Johannes Huebschmann]], *On the history of Lie brackets, crossed modules, and Lie-Rinehart algebras, J. Geom. Mech. 13 (2021), 385-402 * &lbrack;[arXiv:2208.02539](https://arxiv.org/abs/2208.02539)&rbrack;
 
 
 The [[crossed modules]] (in groups or Lie groups) and the differential crossed modules are examples of the [[internal crossed module]]s. A good theory of them is developed in [[semiabelian categories]]. 
