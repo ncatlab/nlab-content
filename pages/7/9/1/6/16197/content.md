@@ -117,6 +117,8 @@ See also
 
 * Debika Chowdhury, Jerome Martin, Christophe Ringeval, Vincent Vennin, _Inflation after Planck: Judgment Day_ ([arxiv:1902.03951](https://arxiv.org/abs/1902.03951))
 
+* Swagat S. Mishra, Varun Sahni, *Canonical and Non-canonical Inflation in the light of the recent BICEP/Keck results* &lbrack;[arXiv:2202.03467](https://arxiv.org/abs/2202.03467)&rbrack;
+
 
 Review and exposition includes
 
@@ -261,5 +263,10 @@ Embedding of Starobinsky inflation into [[superstring theory]] is discussed in
 * Benedict Broy, David Ciupke, FranciscoG. Pedro, Alexander Westphal, _Starobinsky-Type Inflation from $\alpha'$-Corrections_, JCAP01(2016)001 ([arXiv:1509.00024](https://arxiv.org/abs/1509.00024))
 
 * K. Sravan Kumar, _Inflaton candidates: from string theory to particle physics_, PhD thesis ([arXiv:1808.03701](https://arxiv.org/abs/1808.03701))
+
+Converning further [[higher curvature corrections]]:
+
+* [[Sergei Ketov]], Ekaterina O. Pozdeeva, Sergey Yu. Vernov, *On the superstring-inspired quantum correction to the Starobinsky model of inflation* &lbrack;[arXiv:2211.01546](https://arxiv.org/abs/2211.01546)&rbrack;
+
 
 [[!redirects Starobinsky inflation]]
