@@ -150,6 +150,11 @@ Proposal for generalization to $p$-adic [[superstrings]]:
 
 * Hugo Garcia-Compean, Edgar Y. Lopez, *Towards Non-archimedean Superstrings* &lbrack;[arXiv:2202.02425](https://arxiv.org/abs/2202.02425)&rbrack;
 
+See also:
+
+* Christian B. Jepsen, *Adelic Amplitudes and Intricacies of Infinite Products* &lbrack;[arXiv:2211.01611](https://arxiv.org/abs/2211.01611)&rbrack;
+
+
 
 [[!redirects p-adic string theories]]
 
