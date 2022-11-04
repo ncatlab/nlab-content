@@ -40,6 +40,7 @@ $\,$
 
 +-- {: .num_defn #InitialAndFinalTopologies}
 ###### Definition
+**([[weak topology]] and [[strong topology]])**
 
 Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[class]] of [[topological spaces]], and let $S \in Set$ be a bare [[set]]. Then
 
