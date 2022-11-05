@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Categorical algebra
++-- {: .hide}
+[[!include categorical algebra -- contents]]
+=--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
