@@ -24,7 +24,7 @@ The later modality $\triangleright$ is an endofunctor in this category defined a
 
 ### Fixed-point construction
 A $\triangleright$-algebra $(X, f)$ yields a natural transformation with components $f_1 : 1 \to X(1)$ and $f_i : X(i) \to X(i+1)$ commuting with the restriction maps of the object $X$. 
-It can therefore be thought of as an $\omega^{\text{op}}$-chain as follows 
+It can therefore be thought of as an $\omega$-chain as follows 
 $$1 \xrightarrow{f_1} X(1) \xrightarrow{f_2} X(2)  \dots \to X(n) \dots $$
 
 The morphism $\text{fix}_f : 1 \to X$ is itself a natural transformation whose components are $f_1 \circ \dots f_{i-1} \circ f_{i} : 1 \to X(i)$, for all $i \in \omega^{\text{op}}$ satisfying 
