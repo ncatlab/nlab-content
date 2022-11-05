@@ -172,6 +172,8 @@ Any topos that violates countable choice, of which there are plenty, must also v
 An interesting example of a topos that has enough projectives and satisfies internal CoSHEP (at least, assuming the axiom of choice in [[Set]]), although it violates the full (internal) axiom of choice, is the [[effective topos]], and more generally any [[realizability topos]]. The reason for this is quite similar to the intuitive justification for CoSHEP given above. Technically, it results from the fact that realizability toposes are [[exact completions]]; an explanation is given in [this remark](/nlab/show/realizability+topos#pax). 
 =--
 
+For a Grothendieck topos example, the sheaves on the interval $[0,1]$ with its usual topology give a topos in which the internal axiom of countable choice fails, hence internal PAx must also fail.
+
 ## In categories which are not topoi
 
 +-- {: .num_example}
