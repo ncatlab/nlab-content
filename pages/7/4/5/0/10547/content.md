@@ -15,5 +15,7 @@ Data as an [[abstract]] [[concept]] can be viewed as the lowest level of [[abstr
 
 * [[data type]]
 
+* [[database]]
+
 * [[topological data analysis]]
 
