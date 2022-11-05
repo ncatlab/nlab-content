@@ -27,11 +27,15 @@ The concept of [[type]] of [[data]] in [[computer science]].
 
 ## Related concepts
 
+* [[data]]
+
+* [[database]], [[database theory]]
+
 * [[function type]]
 
 * [[object-oriented programming]]
 
-* [[data]], [[topological data analysis]]
+* [[topological data analysis]]
 
 ## References
 
