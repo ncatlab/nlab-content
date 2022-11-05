@@ -1,4 +1,5 @@
-> *Note: This page is about an alternative presentation of [[monads]] as popular for [[monads in computer science]].  For a different notion of "extension system" that is to a [[bicategory]] what a [[closed category]] is to a [[monoidal category]]; for this, see *[[closed category]]*.
+> This page is about an alternative presentation of [[monads]] as popular for [[monads in computer science]].  For a different notion of "extension system" (that is to a [[bicategory]] what a [[closed category]] is to a [[monoidal category]]) see instead at *[[closed category]]*.
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -11,7 +12,6 @@
 =--
 
 
-
 # Extension systems
 * table of contents
 {: toc}
@@ -20,13 +20,13 @@
 ## Idea
  {#Idea}
 
-An *extension system* (also: "Kleisli triple system") is a way of presenting the [[mathematical structure|structure]] of a [[monad]] that does not involve [[composition]] ("iteration") of its [[underlying]] [[endofunctor]]. This is simpler for certain purposes, and in any case more natural for others, notably in the use of [[monads in computer science]]. Abstractly, the definition arises by specialising the definition of $J$-[[relative monad]] to take $J$ to be the identity functor.
+The notion of "*extension system*" ([Marmolejo & Wood (2010)](#MarmolejoWood10)), originally called "*[[algebraic theory]] in extension form*" ([Manes (1976), p. 32](#Manes76)) and previously also referred to as "*[[Kleisli triple]]*" ([Moggi (1991), Def. 1.2](#Moggi91)) is an equivalent way of presenting the [[mathematical structure|structure]] of a *[[monad]]* (on a [[category]]) that does not explicitly refer to [[composition]] ("iteration") of its [[underlying]] [[endofunctor]]. This is simpler for certain purposes, and in any case more natural for others, notably in the use of [[monads in computer science]]. Abstractly, the notion may be understood as specialising the definition of $J$-[[relative monads]] to the case where $J$ is the [[identity functor]]
 
-Specifically, noticing that the [[endofunctor]] [[underlying]] a [[monad]] may be understood as constructing its [[free construction|free]] algebras, which (lacking [[relations]]) may be "large" (say as concerns the [[cardinality]] of their [[underlying sets]]), the iterated application of this endofunctor will produces even larger objects, and some authors have pointed to avoiding this phenomenon as motivation for considering extension systems:
+Specifically, noticing that the [[endofunctor]] [[underlying]] a [[monad]] may be understood as constructing its [free algebras](algebra+over+a+monad#FreeAlgebras), which (lacking [[relations]]) tend to be "large" (say as concerns the [[cardinality]] of their [[underlying sets]]), the iterated application of this endofunctor produces ever larger objects, and some authors have pointed to avoiding this phenomenon as motivation for considering extension systems:
 
 > {#MarmolejoWoodQuote} &lbrack;[Marmolejo-Wood 10](#MarmolejoWood10)&rbrack;: there is an important overarching reason to consider monads in this way. Extension systems allow us to completely dispense with the iterates $[$...$]$ of the underlying arrow. No iteration is necessary. A moment's reflection on the various terms of terms and terms of terms of terms that occur in practical applications suggest that this alone justifies the alternate approach. $[$...$]$ we note that extension systems in [[higher category theory|higher dimensional category theory]] provide an even more important simplication of monads. For even in dimension 2, some of the tamest examples are built on [[pseudofunctors]] that are difficult to iterate.
 
-
+Major alternative motivation for extension systems comes from their understanding as [[monads in computer science]] ([[Kleisli triples]]); see there for more.
 
 ## Definition
 
@@ -46,7 +46,9 @@ Given these data, we make $T$ a [[functor]] by $T f = (\eta_A \circ f)^T$, we de
 
 ### The Kleisli category
 
-This presentation of a monad is especially convenient for defining the [[Kleisli category]] $C_T$: its objects are those of $C$, its morphisms $B\to A$ are the morphisms $B\to T A$ in $C$, and the composite of $f:B\to T A$ with $g:C \to T B$ is $f^T \circ g$.
+This presentation of a monad is especially convenient for defining the [[Kleisli category]] $C_T$ (whence the aternative terminology "[[Kleisli triple]]"): 
+
+its objects are those of $C$, its morphisms $B\to A$ are the morphisms $B\to T A$ in $C$, and the composite of $f:B\to T A$ with $g:C \to T B$ is $f^T \circ g$.
 
 ### The category of algebras
 
