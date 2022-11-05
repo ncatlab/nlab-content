@@ -134,7 +134,7 @@ An [[almost complex structure]] on the  [[tangent bundle]] of a [[manifold]] ind
 
 =--
 
-This is discussed at _[Spin^c-striucture -- From almost complex structures](spin^c+structure#FromAlmostComplexStructures)_.
+This is discussed at _[Spin^c-structure -- From almost complex structures](spin^c+structure#FromAlmostComplexStructures)_.
 
 +-- {: .num_remark}
 ###### Remark
