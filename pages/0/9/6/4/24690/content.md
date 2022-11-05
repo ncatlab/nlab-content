@@ -13,6 +13,6 @@ This page compiles pointers related to the textbook:
 
   [pdf](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)
 
-on basic [[type theory]] and [[functional programming]].
+on basic [[dependent type theory|dependent]] [[type theory]] and [[functional programming]].
 
 category: reference
