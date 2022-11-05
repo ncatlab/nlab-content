@@ -405,6 +405,24 @@ Of such choice of effect handling, consistency demands that:
 
 A data structure consisting of such assignments $hndl^{\mathcal{E}}$ subject to these "laws" is known as an *Kleisli triple algebra* (e.g. [Uustalu (2021), Lec. 2](#Uustalu21Lecture2)) or *algebra over an extension system* (see [here](algebra+over+a+monad#ReferencesKleisliStyle)) for $\mathcal{E}$ and is bijectively the same as what in traditional [[category theory]] is known as an *[[algebra over a monad|algebra over $\mathcal{E}$]]* or *$\mathcal{E}$-algebra* or, maybe best: an *$\mathcal{E}$-module* or *$\mathcal{E}$-[[modal type]]*.
 
+Given a [[pair]] of such $\mathcal{E}$-[[modal types]] $\big(D_1, hndl^{\mathcal{E}}_{D_1} \big)$, $\big(D_2, hndl^{\mathcal{E}}_{D_2} \big)$, a function $\phi \,\colon\, D_1 \to D_2$ is a *[[homomorphism]]* between them if for all functions $f \,\colon\, D_0 \to D_1$ the following [[commuting diagram|diagram commutes]]:
+
+
+\begin{imagefromfile}
+    "file_name": "HomomorphismOfMonadiEffectHandlers-221105.jpg",
+    "width": "350",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
+
 
 ### Dual idea: Comonadic contexts
  {#DualIdeaComonadicCauses}
