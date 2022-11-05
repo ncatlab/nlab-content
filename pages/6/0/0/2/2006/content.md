@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Kleisli category
 * table of contents
 {: toc}
@@ -182,6 +183,8 @@ See [here](Kleisli+category+of+a+comonad#MatrixmultiplicationAsCoKleisliComposit
 
 ## Related concepts
 
+* [[Kleisli triple]]
+
 * [[co-Kleisli category]]
 
 * [[Kleisli object]]
@@ -260,5 +263,3 @@ Discussion of Kleisli categories in [[type theory]] is in
 
 [[!redirects Kleisli equivalence]]
 
-[[!redirects Kleisli triple]]
-[[!redirects Kleisli triples]]
