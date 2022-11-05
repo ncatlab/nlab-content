@@ -32,9 +32,9 @@ In short, a ("[[extension system]]-style" &lbrack;[Manes (1976), Ex. 3.12](#Mane
 
 1. to any [[data type|data]] [[type]] $D$ of a new data type $\mathcal{E}(D)$ of "$D$-data with $\mathcal{E}$-effects",
 
-1. to any [[pair]] of $\mathcal{E}$-effectful [[functions]] (programs) of the form $prog_{12} \,\colon\, D_1 \to \mathcal{E}(D_2)$ and $prog_{23} \,\colon\, D_2 \to \mathcal{E}(D_3)$ of an effective-composite function $prog_{23}\big[prog_{12}(-)\big] \,\colon\, D_1 \to \mathcal{E}(D_3)$ (their *binding* or *[[Kleisli composition]]*),
+1. to any [[pair]] of $\mathcal{E}$-effectful [[functions]] (programs) of the form $prog_{12} \,\colon\, D_1 \to \mathcal{E}(D_2)$ and $prog_{23} \,\colon\, D_2 \to \mathcal{E}(D_3)$ of an effective-composite function $bind^{\mathcal{E}} prog_{23} \;\circ\; prog_{12}(-) \,\colon\, D_1 \to \mathcal{E}(D_3)$ (their *binding* or *[[Kleisli composition]]*),
 
-1. to any [[data type|data]] [[type]] $D$ of a function $ret_D \;\colon\; D \to \mathcal{E}(D)$ assigning "trivial $\mathcal{E}$-effects",
+1. to any [[data type|data]] [[type]] $D$ of a function $ret^{\mathcal{E}}_D \;\colon\; D \to \mathcal{E}(D)$ assigning "trivial $\mathcal{E}$-effects",
 
 such that the binding is [[associativity|associative]] and also [[unitality|unital]] with respect to the return operation, hence such that [[data types]] with $\mathcal{E}$-effectful programs between them constitute a [[category]] (the *[[Kleisli category]]* of the given effect/monad $\mathcal{E}$).
 
@@ -52,9 +52,9 @@ In [[programming language|programming]] it frequently happens that a [[program]]
 \]
 is some general operation sending [[data types]] $D$ to new data types $\mathcal{E}(D)$.
 
-> For example, if alongside the computation of its nominal output data $d \colon D$ a program also writes a log message $msg \,\colon\,$ [[String (computer science)|String]], then its actual output data is the [[pair]] $(d, msg)$ of [[product type]] $\mathcal{E}(D) \,\coloneqq\, D \times String$.
+> For example, if alongside the computation of its nominal output data $d \colon D$ a program also writes a log message $msg \,\colon\,$ [[String (computer science)|String]], then its actual output data is the [[pair]] $(d, msg)$ of [[product type]] $Write(D) \,\coloneqq\, D \times String$.
 
-> Or, dually, if the program may fail and instead "throw an [[exception]] message" $msg \,\colon\,$ [[String (computer science)|String]], then its actual output data is *either* $d \colon D$ *or* $msg \colon String$, hence is of [[coproduct type]] $\mathcal{E}(D) \,\coloneqq\, D \sqcup String$.
+> Or, dually, if the program may fail and instead "throw an [[exception]] message" $msg \,\colon\,$ [[String (computer science)|String]], then its actual output data is *either* $d \colon D$ *or* $msg \colon String$, hence is of [[coproduct type]] $Excep(D) \,\coloneqq\, D \sqcup String$.
 
 Given such an $\mathcal{E}$-effectful program $prog_{12} \;\colon\; D_1 \to \mathcal{E}(D_2)$ and given a subsequent program $prog_{23} \,\colon\, D_2 \to \mathcal{E}(D_3)$ accepting nominal input data of type $D_2$ and itself possibly involved in further effects of type $\mathcal{E}(-)$, then the *naïve* [[composition]] of the two programs makes no sense (unless $\mathcal{E}(D) = D$ is actually the trivial sort of effect), but their evident *intended* composition is, clearly, obtained by: 
 
@@ -62,22 +62,23 @@ Given such an $\mathcal{E}$-effectful program $prog_{12} \;\colon\; D_1 \to \mat
 
    \[
      \label{BindingLawInIntroduction}
-     prog \;\mapsto\; prog[-]
+     \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!
+     prog \;\mapsto\; bind^{\mathcal{E}} prog
      \,,
    \]
 
-   such that $prog_{23}[-] \,\colon\, \mathcal{E}(D_2) \to \mathcal{E}(D_3)$:
+   such that $bind^{\mathcal{E}} prog_{23} \,\colon\, \mathcal{E}(D_2) \to \mathcal{E}(D_3)$:
 
    1. does accept data of type $\mathcal{E}(D_2)$ and 
 
-   1. "acts as $prog_{12}$ while *carrying* any previous $\mathcal{E}$-effects along";
+   1. "acts as $prog_{23}$ while *carrying* any previous $\mathcal{E}$-effects along";
 
-1. then forming the naive [[composition]] $prog_{23}\big[prog_{12}(-)\big]$
+1. then forming the naive [[composition]] $bind^{\mathcal{E}} prog_{23} \;\circ\;  prog_{12}$
 
 as follows:
 
 \begin{imagefromfile}
-    "file_name": "KleisliCompositionOfEffectfulPrograms-221103.jpg",
+    "file_name": "KleisliCompositionOfEffectfulPrograms-221105.jpg",
     "width": "700",
     "unit": "px",
     "margin": {
@@ -88,36 +89,41 @@ as follows:
     }
 \end{imagefromfile}
 
-> (Beware that we are denoting by square brackets "$prog[-]$" what in [[programming languages]] like [[Haskell]] [is denoted by](https://wiki.haskell.org/Monad#The_Monad_class) "`(-) >>= prog`"  aka "fish notation", eg. [Milewski (2019)](#Milewski19), and which other authors denote by "$\,(-)^\ast\,$", e.g.  [Moggi (1991)](#Moggi91); [Uustalu (2021), lecture 1](#Uustalu21Lecture1), [p. 12](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf#page=12).)
 
-Depending on the intended behaviour of these programs, it remains to specify how exactly $prog_{23}[-]$ "carries $T(-)$-effects along", hence what the "bind" operation (eq:BindingLawInIntroduction) does concretely. 
+> (Beware that we are denoting by "$bind^{\mathcal{E}} prog (-)$" what in [[programming languages]] like [[Haskell]] [is denoted by](https://wiki.haskell.org/Monad#The_Monad_class) "`(-) >>= prog`"  aka "fish notation", eg. [Milewski (2019)](#Milewski19), and which some authors denote by "$prog^\ast\,$", e.g.  [Moggi (1991)](#Moggi91); [Uustalu (2021), lecture 1](#Uustalu21Lecture1), [p. 12](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf#page=12).)
 
-> For instance, in the above example of a logging-effect, where $\mathcal{E}(D_2) \,\coloneqq\, D_2 \times String$, the evident way is to use the [[concatenation]]  $String \times String \xrightarrow{\; concat \;} String$ and set:
+Depending on the intended behaviour of these programs, it remains to specify how exactly $bind^{\mathcal{E}} prog_{23}$ "carries $\mathcal{E}(-)$-effects along", hence what the "bind" operation (eq:BindingLawInIntroduction) does concretely. 
 
-> $ prog_{23}\big[-\big]\;\coloneqq\; D_2 \times String \xrightarrow{ prog_{23} \times Id_{String} } D_3 \times String \times String \xrightarrow{ Id_{D_3} \times concat } D_3 \times String \,. $
+> For instance, in the above example of a logging-effect, where $Write(D_2) \,\coloneqq\, D_2 \times String$, the evident way is to use the [[concatenation]]  $String \times String \xrightarrow{\; concat \;} String$ and set:
 
-> In the other example above, where the effect is the possible throwing of an exception message, the evident way to carry this kind of effect along is to use the [[codiagonal]] $\nabla \,\colon\, String \sqcup String \to String$, which amounts to keep forwarding the exception that has already been thrown, if any:
+> $ bind^{Write} prog_{23}\;\coloneqq\; D_2 \times String \xrightarrow{ prog_{23} \times Id_{String} } D_3 \times String \times String \xrightarrow{ Id_{D_3} \times concat } D_3 \times String \,. $
 
-> $prog_{23}big[-\big] \;\coloneqq\; D_2 \sqcup String \xrightarrow{ prog_{23} \sqcup Id_{String} } D_3 \sqcup String \sqcup String \xrightarrow{ id_{D_3} \sqcup \nabla } D_3 \sqcup String \,.$
+> In the other example above, where the effect is the possible throwing of an [[exception]] message, the evident way to carry this kind of effect along is to use the [[codiagonal]] $\nabla \,\colon\, String \sqcup String \to String$, which amounts to keep forwarding the exception that has already been thrown, if any:
+
+> $bind^{Excep} prog_{23} \;\coloneqq\; D_2 \sqcup String \xrightarrow{ prog_{23} \sqcup Id_{String} } D_3 \sqcup String \sqcup String \xrightarrow{ id_{D_3} \sqcup \nabla } D_3 \sqcup String \,.$
 
 Whatever design choice one makes for how to "carry along effects", it must be consistent in that applying the method to a [[triple]] of $\mathcal{E}$-effectful programs which are nominally composable, then their effectful composition should be unambiguously defined in that it is [[associative]], satisfying the following [[equation]] -- here called the the first "monad law":
 
 \[
   \label{AssociativityConditionInIntroduction}
-  prog_{34}\Big[
-    prog_{23}\big[
-      prog_{12}(-)
-    \big]
-  \Big]
-  \;\;\;=\;\;\;
+  bind^{\mathcal{E}} prog_{34}
+  \;\circ\;
   \Big(
-    prog_{34}\big[
-      prog_{23}(-)
-    \big]
+    bind^{\mathcal{E}}
+    prog_{23}
+    \;\circ\;
+    prog_{12}
   \Big)
-  \big[
-    prog_{12}(-)
-  \big]
+  \;\;\;=\;\;\;
+  bind^{\mathcal{E}}
+  \Big(
+    bind^{\mathcal{E}}
+    prog_{34}
+    \;\circ\;
+    prog_{23}
+  \Big)
+  \;\circ\;
+  prog_{12}
   \,.
 \]
 
@@ -128,28 +134,29 @@ Finally, for such a notion of effectful programs to be usefully connected to "pu
   ret_{D} \;\colon\; D \xrightarrow{\;} \mathcal{E}(D)
 \]
 
-which does nothing but "return" data of type $D$, but re-regarded as effectful $\mathcal{E}(D)$-data in a trivial way; so that we may construct the trivially effectful program $ret_{D_1}\big(prog_{01}(-)\big) \;\colon\; D_0 \xrightarrow{\;} \mathcal{E}(D_1)$.
+which does nothing but "return" data of type $D$, but re-regarded as effectful $\mathcal{E}(D)$-data in a trivial way; so that we may construct the trivially effectful program $ret^{\mathcal{D}}_{D_1} prog_{01} \;\colon\; D_0 \xrightarrow{\;} \mathcal{E}(D_1)$.
 
-> For instance, in the above example of log-message effects this would be the operation $D \to D \times String$ which assigns the [[empty set|emtpty]] [[string (computer science)|string]] $d \mapsto (d, \varnothing)$.
+> For instance, in the above example of log-message effects this would be the operation $D \to D \times String$ which assigns the [[empty set|emtpty]] [[string (computer science)|string]] $ret^{Write} \;\colon\; d \mapsto (d, \varnothing)$.
 
-> In the other example above, of [[exception handling]], the trivial effect $D \to D \sqcup String$ is just not to throw an exception, which is just $d \mapsto d$ (the right [[coprojection]] into the [[coproduct]]).
+> In the other example above, of [[exception handling]], the trivial effect $D \to D \sqcup String$ is just not to throw an exception, which is just $ret^{Excep} \;\colon\; d \mapsto d$ (the right [[coprojection]] into the [[coproduct]]).
 
 The final consistency condition (i.e. the remaining "monad law") then is that "carrying along trivial effects is indeed the trivial operation", i.e. that 
 
 \[
   \label{UnitalityInIntroduction}
+  bind^{\mathcal{E}}
   prog_{01}
-  \big[
-    ret_{D_0}(-)
-  \big]
+  \;\circ\;
+  ret_{D_0}(-)
   \;=\;
   prog_{01}
   \;\;\;\;\;\;\;\;\;
   \text{and}
   \;\;\;\;\;\;\;\;\;
-  ret_{D_1}\big[
-    prog_{01}(-)
-  \big]
+  bind^{\mathcal{E}}
+  ret_{D_1}
+  \;\circ\;
+  prog_{01}(-)
   \;=\;
   prog_{01}
   \,.
@@ -165,11 +172,11 @@ In summary, a choice of *assignments* (but see [below](#RefinedIdea)) to [[data 
 
    namely of types of $\mathcal{E}$-effectful data of nominal type $D$ (eq:MonadMapInIntroduction);
 
-2. $\array{\\ \\ bind_{D_1, D_2} \colon & Hom\big(D_1,\, \mathcal{E} D_2\big) &\longrightarrow& Hom\big(\mathcal{E}(D_1),\,\mathcal{E}(D_2)\big) \\ & prog &\mapsto& prog[-]}$,
+2. $bind^{\mathcal{E}}_{D_1, D_2} \;\colon\;  Hom\big(D_1,\, \mathcal{E}(D_2)\big) \longrightarrow Hom\big(\mathcal{E}(D_1),\,\mathcal{E}(D_2)\big)$,
 
    namely of how to execute a prog while carrying along any previous effects (eq:BindingLawInIntroduction);
 
-3. $ret_D \;\colon\; D \to \mathcal{E}(D)$,
+3. $ret^{\mathcal{E}}_D \;\colon\; D \to \mathcal{E}(D)$,
 
    namely of how to regard plain $D$-data as trivially effectful (eq:ReturnMapInIntroduction)
 
@@ -196,17 +203,17 @@ Alternatively postulating operations
 
 1. $D \mapsto \mathcal{E}(D)$ (as before)
 
-1. $fmap_{D_1, D_2} \;\colon\; Hom\big(D_1 \to D_2\big) \longrightarrow Hom\big(\mathcal{E}(D_1), \mathcal{E}(D_2)\big)$ 
+1. $fmap^{\mathcal{E}}_{D_1, D_2} \;\colon\; Hom\big(D_1 \to D_2\big) \longrightarrow Hom\big(\mathcal{E}(D_1), \mathcal{E}(D_2)\big)$ 
 
-1. $ret_D \;\colon\; D \to \mathcal{E}(D)$
+1. $ret^{\mathcal{E}}_D \;\colon\; D \to \mathcal{E}(D)$
 
-1. $join_D \;\colon\; \mathcal{E}\big( \mathcal{E}(D) \big) \to \mathcal{E}(D)$
+1. $join^{\mathcal{E}}_D \;\colon\; \mathcal{E}\big( \mathcal{E}(D) \big) \to \mathcal{E}(D)$
 
 such that 
 
-1. $fmap$ is *[[functor|functorial]]* on [[data types]],
+1. $fmap^{\mathcal{E}}$ is *[[functor|functorial]]* on [[data types]],
 
-1. $join$ is [[associativity|associative]] and [[unitality|unital]] (with respect to $ret$) as a [[natural transformation]],
+1. $join^{\mathcal{E}}$ is [[associativity|associative]] and [[unitality|unital]] (with respect to $ret$) as a [[natural transformation]],
 
 yields the definition of *[[monad]]* more traditionally used in [[category theory]] (namely as a [[monoid object]] [[internalization|in]] [[endofunctors]], here  on the plain  [[category]] of [[data types]]).
 
@@ -216,7 +223,7 @@ Direct inspection shows that one may [[bijection|bijectively]] transmute such $b
   \label{TransformBetweenBindAndJoinInIntroduction}
   \begin{array}{ll}
   &
-  fmap_{D_1, D_2}
+  fmap^{\mathcal{E}}_{D_1, D_2}
   \;\colon\;
   Hom\big(D_1, D_2\big)
   \xrightarrow{ ret \circ (-) }
@@ -225,7 +232,7 @@ Direct inspection shows that one may [[bijection|bijectively]] transmute such $b
   Hom\big( \mathcal{E}(D_1),\, \mathcal{E}(D_2) \big)
   \\
   &
-  join_D
+  join^{\mathcal{E}}_D
   \;\colon\;
   \mathcal{E}\big( \mathcal{E}(D) \big)
   \xrightarrow{
@@ -241,7 +248,7 @@ Direct inspection shows that one may [[bijection|bijectively]] transmute such $b
   \text{and conversely:}
   \\
   &
-  bind_{D, D'}
+  bind^{\mathcal{E}}_{D, D'}
   \;\colon\;
   \mathcal{E}(D) \times Hom\big( \mathcal{E}(D),\, \mathcal{E}(D')  \big)
   \xrightarrow{
@@ -270,7 +277,7 @@ In these higher-order languages one has, besides the ([[hom-set|hom-]])*[[set]]*
 
 $$
   \begin{array}{ll}
-  bind_{D_1, D_2}
+  bind^{\mathcal{E}}_{D_1, D_2}
   \;\colon\;
   &&
   \big(
@@ -310,7 +317,7 @@ $$
 which (beware) is traditionally written without many of the parenthesis, as follows:
 
 $$
-  bind_{D_1, D_2}
+  bind^{\mathcal{E}}_{D_1, D_2}
   \;\colon\;
   \mathcal{E} D_1
     \to 
@@ -352,8 +359,7 @@ In particular, monads as used in [[Haskell]] are really strong/enriched monads, 
 Yet more structure on effect-monads is available in [[dependent type theories]] with [[type universes]], where one may demand that the monad operation $D \mapsto T(D)$ is not just an [[endofunction]] on the [[set]] of [[types]], but an [[endomorphism]] of the [[type universe]]. At least for [[idempotent monads]] this case is further discussed at *[[reflective subuniverse]]* and *[[modal type theory]]* and maybe elsewhere.
 
 
-
-### Further extension: Monad modules
+### Further idea: Monad modules
  {#MonadModulesInIdeaSection}
 
 Further in the practice of [[programming language|programming]]: if programs may cause external effects, as [above](#BasicIdea), then one will often want to have some of them *handle* these effects.
@@ -369,10 +375,12 @@ $$
 
 that handles effects produced by $\mathcal{E}$-effectful programs $D' \to \mathcal{E}(D)$, turning them into pure computations $D' \to D$. 
 
-But in addition, such a handler needs to handle effects that have been "carried along" (eq:BindingLawInIntroduction) from previous computations, even along otherwise in-effectful computations $prog_{0,1} \;\colon\; D_{0} \to D_{1}$; therefore all these need to be assigned handlers, which we shall denote with curly brackets:
+But in addition, such a handler needs to handle effects that have been "carried along" (eq:BindingLawInIntroduction) from previous computations, even along otherwise in-effectful computations $prog_{0,1} \;\colon\; D_{0} \to D_{1}$; therefore all these need to be assigned handlers:
 
 $$
-  prog_{0,1}\{-\} \;\colon\; \mathcal{E}(D_0) \to D_1
+  hndl^{\mathcal{E}}_{D_2} prog_{1,2} 
+  \;\colon\; 
+  \mathcal{E}(D_1) \to D_2
   \,.
 $$
 
@@ -380,35 +388,22 @@ Of such choice of effect handling, consistency demands that:
 
 1. first handling all previous effects carried along (eq:BindingLawInIntroduction) and then the newly produced effects by a given $prog \,\colon\, D \to \mathcal{E}(D')$ has the same result as letting $prog$ take care of carrying along previous effects by passing to $prog[-]$ and then handling the resulting accumulation at once:
 
-   $$
-     prog_{2,3}
-     \big\{
-       prog_{1,2}(-)
-     \big\} 
-     \{-\}
-     \;\;
-     =
-     \;\;
-     prog_{2,3}\big\{
-       prog_{1,2}[-]
-     \big\}
-   $$
-
 1. handling the trivial effect ought to be no extra operation:
 
-   $$
-     prog_{0,1}
-     \big\{
-       ret_{D_0}(-)
-     \big\}
-     \;\;
-       =
-     \;\;
-     prog_{0,1}
-     \,.
-   $$ 
+\begin{imagefromfile}
+    "file_name": "MonadicEffectHandlerConditions-221105b.jpg",
+    "width": "560",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
 
-A data structure consisting of such assignments $prog \mapsto prog\{-\}$ subject to these "laws" is known as an *Kleisli triple algebra* (e.g. [Uustalu (2021), Lec. 2](#Uustalu21Lecture2)) or *algebra over an extension system* (see [here](algebra+over+a+monad#ReferencesKleisliStyle)) for $\mathcal{E}$ and is bijectively the same as what in traditional [[category theory]] is known as an *[[algebra over a monad]]* or *$\mathcal{E}$-algebra* or, maybe best: an *$\mathcal{E}$-module*.
+
+A data structure consisting of such assignments $hndl^{\mathcal{E}}$ subject to these "laws" is known as an *Kleisli triple algebra* (e.g. [Uustalu (2021), Lec. 2](#Uustalu21Lecture2)) or *algebra over an extension system* (see [here](algebra+over+a+monad#ReferencesKleisliStyle)) for $\mathcal{E}$ and is bijectively the same as what in traditional [[category theory]] is known as an *[[algebra over a monad|algebra over $\mathcal{E}$]]* or *$\mathcal{E}$-algebra* or, maybe best: an *$\mathcal{E}$-module* or *$\mathcal{E}$-[[modal type]]*.
 
 
 ### Dual idea: Comonadic contexts
@@ -431,7 +426,7 @@ By [[formal duality]]:
   * A Kleisli-module for a [[monad]] $\mathcal{E}T$ is a prescription 
 
     $$
-      hdl \;\colon\; \mathcal{E}(D) \to D
+      hdl^{\mathcal{E}}_D id_D \;\colon\; \mathcal{E}(D) \to D
     $$
   
     for *handling* such $\mathcal{E}$-effects.
@@ -449,10 +444,10 @@ By [[formal duality]]:
   * A co-Kleisli co-module for a comonad $\mathcal{C}$ is a program 
 
     $$
-      prd \;\colon\; D \to \mathcal{C}(D)
+      caus^{\mathcal{C}}_D id_D \;\colon\; D \to \mathcal{C}(D)
     $$
 
-    *producing* such $\mathcal{C}$-contexts.
+    *causing* such $\mathcal{C}$-contexts.
 
 
 (...)
@@ -656,7 +651,7 @@ Discussion of [[comonads]] in this context includes
 ### In quantum computation
 
 
-Discussion of aspects of [[quantum computing]] in terms of monads in [[functional programming]] are in 
+Discussion of aspects of [[quantum computing]] in terms of monads:
 
 * [[Thorsten Altenkirch]], Alexander Green, _The quantum IO monad_, in _Semantic Techniques in Quantum Computation_, January 2009, appeared in 2010 ([pdf](http://www.cs.nott.ac.uk/~txa/publ/qio-chapter.pdf), [talk slides](http://www.cs.nott.ac.uk/~txa/talks/qnet06.pdf))
 
