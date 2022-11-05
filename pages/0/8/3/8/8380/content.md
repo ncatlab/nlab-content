@@ -26,7 +26,7 @@
 ## Idea
  {#Idea}
 
-In [[computer science]], a *([[comonad|co-]])[[monad]]* (or *([[co-Kleisli category|co-]])[[Kleisli category|Kleisli triple]]*, or *(co-)[[extension system]]*) is a kind of [[data type]]-structure which describes "notions of computations" &lbrack;[Moggi (1991)](#Moggi91)&rbrack; that may "have external effects or be subject to external causes" --- such as involving [[random access memory]], [[IO-monad|input/output]], [[exception monad|exception handling]], [[writer monad|writing to]] or [[reader monad|reading from]] global variables,  etc. --- as familiar from [[imperative programming]] but cast as "pure functions" with deterministic and [[verified programming|verifiable behaviour]], in the style of [[functional programming]].
+In [[computer science]], a *([[comonad|co-]])[[monad]]* (or *([[co-Kleisli category|co-]])[[Kleisli triple]]*, or *(co-)[[extension system]]*) is a kind of [[data type]]-structure which describes "notions of computations" &lbrack;[Moggi (1991)](#Moggi91)&rbrack; that may "have external effects or be subject to external contexts/causes" --- such as involving [[random access memory]], [[IO-monad|input/output]], [[exception monad|exception handling]], [[writer monad|writing to]] or [[reader monad|reading from]] global variables,  etc. --- as familiar from [[imperative programming]] but cast as "pure functions" with deterministic and [[verified programming|verifiable behaviour]], in the style of [[functional programming]].
 
 In short, a ("[[extension system]]-style" &lbrack;[Manes (1976), Ex. 3.12](#Manes76)&rbrack; or "[[Kleisli triple]]-style" &lbrack;[Moggi (1991), Def. 1.2](#Moggi91)&rbrack;) *[[monad]]* in a given [[programming language]] consists of *assignments* (but see [below](#RefinedIdea)):
 
@@ -88,7 +88,7 @@ as follows:
     }
 \end{imagefromfile}
 
-> (Beware that we are denoting by square brackets "$prog[-]$" what in [[programming languages]] like [[Haskell]] [is denoted by](https://wiki.haskell.org/Monad#The_Monad_class) "`(-) >>= prog`"  aka "fish notation", eg. [Milewski (2019)](#Milewski19), and which other authors denote by "$\,(-)^\ast\,$" or similar, e.g. [Uustalu (2021), lecture 1](#Uustalu21Lecture1), [p. 12](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf#page=12).)
+> (Beware that we are denoting by square brackets "$prog[-]$" what in [[programming languages]] like [[Haskell]] [is denoted by](https://wiki.haskell.org/Monad#The_Monad_class) "`(-) >>= prog`"  aka "fish notation", eg. [Milewski (2019)](#Milewski19), and which other authors denote by "$\,(-)^\ast\,$", e.g.  [Moggi (1991)](#Moggi91); [Uustalu (2021), lecture 1](#Uustalu21Lecture1), [p. 12](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf#page=12).)
 
 Depending on the intended behaviour of these programs, it remains to specify how exactly $prog_{23}[-]$ "carries $T(-)$-effects along", hence what the "bind" operation (eq:BindingLawInIntroduction) does concretely. 
 
@@ -411,7 +411,7 @@ Of such choice of effect handling, consistency demands that:
 A data structure consisting of such assignments $prog \mapsto prog\{-\}$ subject to these "laws" is known as an *Kleisli triple algebra* (e.g. [Uustalu (2021), Lec. 2](#Uustalu21Lecture2)) or *algebra over an extension system* (see [here](algebra+over+a+monad#ReferencesKleisliStyle)) for $\mathcal{E}$ and is bijectively the same as what in traditional [[category theory]] is known as an *[[algebra over a monad]]* or *$\mathcal{E}$-algebra* or, maybe best: an *$\mathcal{E}$-module*.
 
 
-### Dual idea: Comonadic causes
+### Dual idea: Comonadic contexts
  {#DualIdeaComonadicCauses}
 
 (...)
@@ -444,7 +444,7 @@ By [[formal duality]]:
       prog \;\colon\; \mathcal{C}(D) \to D'
     $$
 
-    *subject to* an external $\mathcal{C}$-cause.
+    *subject to* an external $\mathcal{C}$-context (a $\mathcal{C}$-cause).
 
   * A co-Kleisli co-module for a comonad $\mathcal{C}$ is a program 
 
@@ -452,7 +452,7 @@ By [[formal duality]]:
       prd \;\colon\; D \to \mathcal{C}(D)
     $$
 
-    *producing* such $\mathcal{C}$-causes.
+    *producing* such $\mathcal{C}$-contexts.
 
 
 (...)
@@ -473,7 +473,9 @@ Various monads are _definable_ in terms of standard [[type formation|type-formin
 * The *[[reader monad]]* and *[[coreader comonad]]* both encode reading out a global parameter.
 
 
-* The *[[state monad]]* and *[[costate comonad]]* encode the possibility of *consecutive reading and re-setting* a global parameter  -- this provides a notion of *[[random access memory]]*.
+* The *[[state monad]]* encodes the possibility of *consecutive reading and re-setting* a global parameter  -- this provides a notion of *[[random access memory]]*.
+
+* The *[[costate comonad]]* encodes a way (a "[[lens in computer science|lens]]") to read and write fields in [[databases]].
 
 * The *[[writer monad]]* encodes writing *consecutively* into a global resource, such as for a [[stream]].
 
