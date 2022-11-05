@@ -4,7 +4,15 @@
 
 ## Idea
 
-_Database theory_ is a branch of [[computer science]] that treats database management and query languages.
+_Database theory_ is a branch of [[computer science]] that treats [[database]] management and query languages.
+
+## Related entries
+
+* [[data]], [[data type]]
+
+* [[database]]
+
+* [[store comonad]]
 
 ## References
 
