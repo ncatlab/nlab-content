@@ -155,6 +155,8 @@ Let $M$ be a monoid, and let's write it additively. Denote by $T_M$ its _right_ 
 
 ## Related concepts
 
+* [[stream]]
+
 * [[action]], [[G-set]], [[equivariant map]]
 
 * [[internalization]]
