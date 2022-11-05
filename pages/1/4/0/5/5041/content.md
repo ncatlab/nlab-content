@@ -53,7 +53,7 @@ The construction is then generalized to noncommutative geometry.
 
 ## Related entries
 
-A [[model category]]-[[presentable (infinity,1)-category|presentation]] of much of the theory exists, see the discussion at
+Am earlier (2007) [[model category]]-[[presentable (infinity,1)-category|presentation]] proof by ([Pridham](#Pridham)) exists, see the discussion at
 
 * [[model structure for L-infinity algebras]] .
 
@@ -63,17 +63,16 @@ A indication of how to use the main theorem here in order to implement [[Lie dif
 
 ## Related references
 
-A similar result in less generality was discussed earlier in
+The same result was proved earlier (theorem 2.30 and corollary 4.57, cf ([Lurie, remark 0.0.14](#Lurie))), with further [[model category]] [[presentable (infinity,1)-category|presentations]] and comparisons, in
+
+* {#Pridham} [[Jonathan Pridham]], _Unifying derived deformation theories_, Adv. Math. 224 (2010), no.3, 772-826 ([arXiv:0705.0344](http://arxiv.org/abs/0705.0344))
+
+See at _[[model structure for L-infinity algebras]]_ for more along these lines.
+
+The foundations of the theory appear in
 
 * [[Vladimir Hinich]], _DG coalgebras as formal stacks_ ([arXiv:math/9812034](http://arxiv.org/abs/math/9812034))
  {#Hinich}
-
-And further [[model category]] [[presentable (infinity,1)-category|presentations]] of much of the structure involved here are constructed and compared with each other in 
-
-* {#Pridham} [[Jonathan Pridham]], _Unifying derived deformation theories_, Adv. Math. 224 (2010), no.3, 772-826 ([arXiv:0705.0344](http://arxiv.org/abs/0705.0344))
- 
-
-See at _[[model structure for L-infinity algebras]]_ for more along these lines.
 
 For more related discussion see also
 
