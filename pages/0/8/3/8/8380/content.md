@@ -369,16 +369,16 @@ $$
 
 that handles effects produced by $\mathcal{E}$-effectful programs $D' \to \mathcal{E}(D)$, turning them into pure computations $D' \to D$. 
 
-But in addition, such a handler needs to handle effects that have been "carried along" (eq:BindingLawInIntroduction) from previous computations, even along otherwise in-effectful computations $prog_{0,1} \;\colon\; D_{0} \to D_1)$; therefore all these need to be assigned handlers, which we shall denote with curly brackets:
+But in addition, such a handler needs to handle effects that have been "carried along" (eq:BindingLawInIntroduction) from previous computations, even along otherwise in-effectful computations $prog_{0,1} \;\colon\; D_{0} \to D_{1}$; therefore all these need to be assigned handlers, which we shall denote with curly brackets:
 
 $$
-  prog_{0,1}\{-\} \;\colon\; \mathcal{E}(D_0) \to D_0
+  prog_{0,1}\{-\} \;\colon\; \mathcal{E}(D_0) \to D_1
   \,.
 $$
 
 Of such choice of effect handling, consistency demands that:
 
-1. first handling all old effects carried along (eq:BindingLawInIntroduction) and then the newly produced effects by a given $prog \,\colon\, D \to \mathcal{E}(D')$ has the same result as letting $prog$ take care of carrying along previous effects by passing to $prog[-]$ and then handling the resulting accumulation at once:
+1. first handling all previous effects carried along (eq:BindingLawInIntroduction) and then the newly produced effects by a given $prog \,\colon\, D \to \mathcal{E}(D')$ has the same result as letting $prog$ take care of carrying along previous effects by passing to $prog[-]$ and then handling the resulting accumulation at once:
 
    $$
      prog_{2,3}
