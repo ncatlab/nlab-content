@@ -27,7 +27,7 @@ The entry is about monads in the sense of category theory, for another concept s
 
 A [[monad]] is a structure that is a lot like a [monoid](https://ncatlab.org/nlab/show/monoid+in+a+monoidal+category), but that lives in a [[bicategory]] rather than a [[monoidal category]].  In other words, the concept of a monad is a [[vertical categorification]] of that of a monoid.
 
-Monads are among the most pervasive structures in [[category theory]] and its applications.   For their applications to computer science, see [[monad (computer science)|monads in computer science]].
+Monads are among the most pervasive structures in [[category theory]] and its applications.   For their applications to computer science, see *[[monad (computer science)|monads in computer science]]*.
 
 Many of these applications use monads in the bicategory [[Cat]], which is called a monad *on a category*.   These are central to the category-theoretic account of [[universal algebra]], as well as underlying the theory of [[simplicial objects]] and thus, via the [[Dold-Kan correspondence]], much of [[homological algebra]].   
 
@@ -242,7 +242,7 @@ in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 
 * [[adjunction]], [[comonad]], [[adjoint monad]], [[algebra over a monad]], [[module over a monad]], [[monad with arities]], [[distributive law]], [[monoidal monad]], [[cartesian monad]]
 
-* [[extension system]]
+* [[Kleisli triple]], [[extension system]]
 
 * [[algebraic theory]] / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
 
