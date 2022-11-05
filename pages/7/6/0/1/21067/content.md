@@ -222,7 +222,7 @@ See more see the section *[References](monad#References)* at *[[monad]]*.
 
 For monads presented in "[[extension system]]"/"[[Kleisli triple]]"-form (the way traditionally used for [[monads in computer science]] -- i.e. in terms of a "bind"-operation taking [[Kleisli maps]] to actual [[morphisms]], not explicitly referring to the monad product) there is the corresponding "Kleisli-triple style" or "Mendler style" &lbrack;[Uustalu (2021), p. 4](#Uustalu21Lecture2)&rbrack; for presenting the algebra/module-structures for these monads:
 
-* {#MarmolejoWood10} [[F. Marmolejo]], [[Richard J. Wood]], Def. 3.1 in: *Monads as extension systems -- no iteration is necessary* [[TAC]] **24** 4 (2010) 84-113 &lbrack;[24-04](http://www.tac.mta.ca/tac/volumes/24/4/24-04abs.html)&rbrack;
+* {#MarmolejoWood10} [[F. Marmolejo]], [[Richard J. Wood]], Def. 3.1 in: *Monads as extension systems -- no iteration is necessary* [[TAC]] **24** 4 (2010) 84-113 &lbrack;[tac:24-04](http://www.tac.mta.ca/tac/volumes/24/4/24-04abs.html)&rbrack;
 
 * [[Thorsten Altenkirch]], [[James Chapman]], [[Tarmo Uustalu]], Def. 2.11 in: *Monads need not be endofunctors*, Logical Methods in Computer Science **11** 1:3 (2015) 1–40 &lbrack;[arXiv:1412.7148](https://arxiv.org/abs/1412.7148), [pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), <a href="https://doi.org/10.2168/LMCS-11(1:3)2015">doi:10.2168/LMCS-11(1:3)2015</a>&rbrack;
 
