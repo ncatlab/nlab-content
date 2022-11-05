@@ -183,7 +183,7 @@ A brief review discussion explicitly in the context of [[type theory]]/[[topos t
 
 A [[formal proof]] of the G&#246;del-Rosser incompleteness theorem in [[Coq]] is given in
 
-* [[Russell O'Connor]], _Essential Incompleteness of Arithmetic Verified by Coq_ ([web](http://r6.ca/Goedel/goedel1.html))
+* [[Russell O'Connor]], *Essential Incompleteness of Arithmetic Verified by Coq*, in: *Theorem Proving in Higher Order Logics. TPHOLs 2005*, Lecture Notes in Computer Science **3603**, Springer (2005) 245-260 &lbrack;[web](http://r6.ca/Goedel/goedel1.html), [arXiv:cs/0505034](https://arxiv.org/abs/cs/0505034), [doi:10.1007/11541868_16](https://doi.org/10.1007/11541868_16)&rbrack;
 
 Formal proof of the second incompleteness theorem is discussed in
 
@@ -214,16 +214,39 @@ See also the discussion in [[list-arithmetic pretoposes]]
 [[!redirects incompleteness theorems]]
 [[!redirects Gödel incompleteness theorem]]
 [[!redirects Gödel incompleteness theorems]]
+[[!redirects Goedel incompleteness theorem]]
+[[!redirects Goddel incompleteness theorems]]
+
+
 [[!redirects Gödel's incompleteness theorem]]
 [[!redirects Gödel's incompleteness theorems]]
+[[!redirects Goedel's incompleteness theorem]]
+[[!redirects Goedel's incompleteness theorems]]
+
 [[!redirects Gödel\'s incompleteness theorem]]
 [[!redirects Gödel\'s incompleteness theorems]]
+[[!redirects Goedel\'s incompleteness theorem]]
+[[!redirects Goedel\'s incompleteness theorems]]
+
 [[!redirects Gödel's incompleteness theorem]]
 [[!redirects Gödel's incompleteness theorems]]
+[[!redirects Goedel's incompleteness theorem]]
+[[!redirects Goedel's incompleteness theorems]]
 
 [[!redirects Gödel's theorem]]
 [[!redirects Gödel's theorems]]
+[[!redirects Goedel's theorem]]
+[[!redirects Goedel's theorems]]
+
 [[!redirects Gödel\'s theorem]]
 [[!redirects Gödel\'s theorems]]
+[[!redirects Goedel\'s theorem]]
+[[!redirects Goedel\'s theorems]]
+
+
 [[!redirects Gödel's theorem]]
 [[!redirects Gödel's theorems]]
+[[!redirects Goedel's theorem]]
+[[!redirects Goedel's theorems]]
+
+
