@@ -31,7 +31,7 @@ There are a number of different, inequivalent, definitions of "cosmos" in the li
 
 A [[Bénabou cosmos]] (see [Street 74, p. 1](#Street74)) is a [[complete category|complete]] and [[cocomplete category|cocomplete]] (hence [[bicomplete category|bicomplete]]) [[closed monoidal category|closed]] [[symmetric monoidal category]].  
 
-This is the ideal situation for for $V$-[[enriched category theory]].
+This is the ideal situation for $V$-[[enriched category theory]].
 
 
 ## Indexed Bénabou cosmoi
