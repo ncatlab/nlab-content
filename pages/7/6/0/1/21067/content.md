@@ -126,9 +126,9 @@ in $\mathcal{C}$ (called a $T$-*[[Kleisli morphism]]*), the induced morphism
   \mu_{Y} \circ T f 
   \;\colon\; 
   T X 
-    \xrightarrow{ T f  }
+    \xrightarrow{\;\; T f  \;\;}
   T T Y
-    \xrightarrow{ \mu_Y }
+    \xrightarrow{\;\; \mu_Y \;\;}
   TY
 \]
 
