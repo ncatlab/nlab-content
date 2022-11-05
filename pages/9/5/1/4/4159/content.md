@@ -22,6 +22,10 @@ Classically, $A_* = A^* + A^{\mathbb{N}}$, where $\mathbb{N} = 1^*$ is the set o
 
 An [[extended natural number]] is an element of $1_*$ (much as a [[natural number]] is an element of $1^*$).  Classically, such an element is either a [[natural number]] or [[infinity]] (the unique element of $1^{\mathbb{N}}$).
 
+## Related concepts
+
+* [[writer monad]]
+
 
 [[!redirects stream]]
 [[!redirects streams]]
