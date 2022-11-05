@@ -58,7 +58,10 @@ The axiom of __weak countable choice__ ($WCC$) states that a surjection $p\colon
 An even weaker form of countable choice was proposed by [Martin Escardo](#EscardoCN); it states that any surjection of the form $A \sqcup (\mathbf{N}\times B) \to \mathbf{N}$ has a section, where $A\to \mathbf{N}$ is a [[decidable subset]] and $B$ is an arbitrary set with $\mathbf{N}\times B \to \mathbf{N}$ the projection.  This follows from WCC and also from the [[limited principle of omniscience]]; see the [constructivenews discussion](#EscardoCN).
 
 ### Topos violating the CAC
-Discussion [here](https://mathoverflow.net/questions/79807/example-of-a-topos-that-violates-countable-choice). This example uses a [[Fraenkel-Mostowski model]].
+
+One easy example is the category $Sh([0,1])$, the sheaves on the unit interval, since in that topos the [[real numbers object#classical_dedekind_real_numbers|Dedekind real numbers]] and the [[real numbers object#cauchy_real_numbers|Cauchy real numbers]] are not isomorphic, and this is a consequence of the internal countable choice.
+
+Discussion [here](https://mathoverflow.net/questions/79807/example-of-a-topos-that-violates-countable-choice). 
 
 ## References
 
