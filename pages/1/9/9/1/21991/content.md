@@ -1,12 +1,15 @@
-[[!redirects select monad]]
 
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Category theory
+#### Computation
 +-- {: .hide}
-[[!include category theory - contents]]
+[[!include constructivism - contents]]
+=--
+#### Categorical algebra
++-- {: .hide}
+[[!include categorical algebra -- contents]]
 =--
 #### Type theory
 +-- {: .hide}
@@ -15,17 +18,20 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-In a [[cartesian closed category]], given an [[object]] $S$, the _selection monad_, also known as the _select monad_, is the [[endofunctor]] $J_S(X) \mapsto [[X, S], X]$. It is a [[strong monad]].
+In a [[cartesian closed category]] , given an [[object]] $S$, the _selection monad_, also known as the _select monad_, is the [[endofunctor]] $J_S(X) \mapsto [[X, S], X]$ (where $[-,-]$ denotes the [[internal hom]]).
+
+This is a [[strong monad]].
 
 There is a monad [[homomorphism]] from the selection monad to the [[continuation monad]] for $S$, $K_S(X) = (X \to S) \to S$, which sends $\epsilon \in J_S(X)$ to $\bar{\epsilon} \in K_S(X)$, where $\bar{\epsilon}(p) = p(\epsilon(p))$.
 
-If we understand the continuation monad as mapping an object to the generalized [[quantifiers]] over it, with $S$ a generalized [[truth value]], a selection function for a generalized quantifier is an element of its [[preimage]] under the monad morphism. 
+If we understand the [[continuation monad]] as mapping an object to the generalized [[quantifiers]] over it, with $S$ a generalized [[truth value]], a selection function for a generalized quantifier is an element of its [[preimage]] under the monad morphism. 
 
 For instance, a selection functional for the [[supremum]] functional $sup: (X \to S) \to S$, when it exists, applied to a function, $p: X \to S$, gives a point in $X$ at which $p$ attains its maximum value.
 
@@ -33,7 +39,11 @@ Due to the resemblance of an [[algebra over a monad|algebra]], $J_S(A) \to A$, t
 
 ## Properties
 
-There is a [[distributive law]] $T J_S \Rightarrow J_S T$ for every strong monad $T$ ([Fiore 2019](#Fiore2019)).
+* There is a [[distributive law]] $T J_S \Rightarrow J_S T$ for every strong monad $T$ ([Fiore 2019](#Fiore2019)).
+
+## Related entries
+
+* [[monad in computer science]]
 
 ## References
 
@@ -49,4 +59,7 @@ There is a [[distributive law]] $T J_S \Rightarrow J_S T$ for every strong monad
 
 * Martin Abadi, [[Gordon Plotkin]], _Smart Choices and the Selection Monad_, ([arXiv:2007.08926](https://arxiv.org/abs/2007.08926))
 
-* Marcelo Fiore, _Fast-growing clones_, ([Talk at CT 2019](http://conferences.inf.ed.ac.uk/ct2019/slides/fiore.pdf))
+* [[Marcelo Fiore]], _Fast-growing clones_, ([Talk at CT 2019](http://conferences.inf.ed.ac.uk/ct2019/slides/fiore.pdf))
+
+[[!redirects select monad]]
+
