@@ -209,13 +209,19 @@ The Eilenberg-Moore and Kleisli categories are also special cases of more genera
 
 ## References 
 
+ 
+
 ### General
+
+> See the *[References](monad#References)* at *[[monad]]*, such as:
+
+* [[Saunders MacLane]], §VI.2 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**  Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
 
 An introduction to the basic ideas, which gives some intuition for newcomers, can be found in
 
-* [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_, Chapter 5. ([arXiv](http://arxiv.org/abs/1912.10642))
+* [[Paolo Perrone]], Chapter 5 of: _Notes on Category Theory with examples from basic mathematics_,  &lbrack;[arXiv:1912.10642](http://arxiv.org/abs/1912.10642)&rbrack;
 
-See more see the section *[References](monad#References)* at *[[monad]]*.
 
 ### Kleisli/extension system-style
  {#ReferencesKleisliStyle}
