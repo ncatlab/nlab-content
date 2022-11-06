@@ -8,17 +8,28 @@ His most important works include works in [[sheaf]]-, [[fibred category]]-, and 
 
 * [list of publications](http://science.mq.edu.au/~street/Publications.html)
 
-Introducing [[orientals]]:
 
-* {#Street87} [[Ross Street]], _The algebra of oriented simplexes_, J. Pure Appl. Algebra **49** (1987) 283-335;  $[$[pdf](http://www.math.mq.edu.au/~street/aos.pdf), <a href="https://doi.org/10.1016/0022-4049(87)90137-X">doi:10.1016/0022-4049(87)90137-X</a>, MR89a:18019$]$
-
-A multifaced outlook on descent theory including toward higher descent
-
-* Ross Street, _Categorical and combinatorial aspects of descent theory_, Applied Categorical Structures 12, 537--576 (2004) [doi](https://doi.org/10.1023/B:APCS.0000049317.24861.36)
 
 On [[lax functors]]:
 
 * R. Street, _Two constructions on lax functors_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Volume 13 (1972) no. 3 , p. 217-264 [numdam](http://www.numdam.org/item?id=CTGDC_1972__13_3_217_0 )
+
+On the [[2-category theory]] of [[monads]] and their [[Eilenberg-Moore categories]]:
+
+* {#Street72} [[Ross Street]], *The formal theory of monads*, Journal of Pure and Applied Algebra **2** 2 (1972) 149-168 &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90019-9">doi:10.1016/0022-4049(72)90019-9</a>&rbrack;
+
+* [[Stephen Lack]], [[Ross Street]], *The formal theory of monads II*, Journal of Pure and Applied Algebra
+**175** 1–3 (2002) 243-265 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00137-8">doi:10.1016/S0022-4049(02)00137-8</a>&rbrack;
+
+Introducing [[orientals]]:
+
+* {#Street87} [[Ross Street]], _The algebra of oriented simplexes_, J. Pure Appl. Algebra **49** (1987) 283-335;  $[$[pdf](http://www.math.mq.edu.au/~street/aos.pdf), <a href="https://doi.org/10.1016/0022-4049(87)90137-X">doi:10.1016/0022-4049(87)90137-X</a>, MR89a:18019$]$
+
+
+An attempt to fomulate [[descent]] theory using [[strict omega-categories]]:
+
+* Ross Street, _Categorical and combinatorial aspects of descent theory_, Applied Categorical Structures 12, 537--576 (2004) [doi](https://doi.org/10.1023/B:APCS.0000049317.24861.36)
+
 
 Further:
 
