@@ -527,9 +527,9 @@ The concept of an internal algebraic theory in topos theory is dicussed in
 
 * [[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint 2014; sec. 6.4, pp.190-198)
 
-For a comparison with the concept of monads see
+Comparison with the notion of [[monads]]:
 
-* [[Martin Hyland]], [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_ , Electronic Notes in Theor. Comp. Sci. **172** (2007) pp.437-458. ([preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf))
+* [[Martin Hyland]], [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_, Electronic Notes in Theor. Comp. Sci. **172** (2007) 437-458 &lbrack;[doi:10.1016/j.entcs.2007.02.019](https://doi.org/10.1016/j.entcs.2007.02.019), [preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)&rbrack;
 
 An elementary proof of the equivalence between infinitary [[Lawvere theories]] and [[monads]] on the [[category of sets]] is given in Appendix A of
 
