@@ -66,12 +66,12 @@ Consider the [[Eilenberg-Moore category]] $C^{\mathbf{T}}$ of $T$-algebras ($T$-
 \begin{definition}\label{MonadicFunctor}
 **(monadic functor)**
 \linebreak
-A [[functor]] $U \colon D \to C$ is *monadic* (resp. *strictly monadic*) if it has a [[left adjoint]] $F \colon C\to D$ and the comparison functor $K^{\mathbf{T}}: D \to C^{\mathbf{T}}$ is an [[equivalence of categories]] (resp. an [[isomorphism]] of [[strict categories]]).  
+A [[functor]] $U \colon D \to C$ is *monadic* (resp. *strictly monadic*) if it has a [[left adjoint]] $F \colon C\to D$ and the [[comparison functor]] $K^{\mathbf{T}} \colon D \to C^{\mathbf{T}}$ is an [[equivalence of categories]] (resp. an [[isomorphism]] of [[strict categories]]).  
 \end{definition}
 
 In other words, up to equivalence, monadic functors are precisely the [[forgetful functors]] defined on [[Eilenberg-Moore categories]] for monads, and strictly monadic functors are the same as these forgetful functors up to isomorphism. 
 
-* If the comparison functor is only [[fully faithful]], a functor is sometimes called *[[premonadic functor|premonadic]]* or said to be *of [[descent type]]*.
+* If the [[comparison functor]] is only [[fully faithful]], a functor is sometimes called *[[premonadic functor|premonadic]]* or said to be *of [[descent type]]*.
 
 
 \begin{definition}
@@ -88,7 +88,7 @@ A *category* $D$ is called *monadic* over a category $C$ if there is any functor
 A monadic functor is *strictly monadic* if and only if it is also an [[amnestic functor|amnestic]] [[isofibration]].
 \end{proposition}
 \begin{proof}
-Clearly, a strictly monadic functor is an amnestic isofibration; and if a monadic functor $U$ is amnestic, then the comparison functor $K$ is also amnestic, and if $U$ is a monadic isofibration, so is $K$; therefore in this case $K$ must be an isomorphism of categories. 
+Clearly, a strictly monadic functor is an amnestic isofibration; and if a monadic functor $U$ is amnestic, then the [[comparison functor]] $K$ is also [[amnestic functor|amnestic]], and if $U$ is a monadic isofibration, so is $K$; therefore in this case $K$ must be an isomorphism of categories. 
 \end{proof}
 
 \begin{remark}
