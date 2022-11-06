@@ -282,13 +282,15 @@ in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 
 Original texts:
 
-* [[Michael Barr]], [[Charles Wells]], *[[Toposes, Triples, and Theories]]*, Grundlehren der math. Wissenschaften **278** Springer (1983) &lbrack;[TAC:12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
+* {#Street72} [[Ross Street]], *The formal theory of monads*, Journal of Pure and Applied Algebra **2** 2 (1972) 149-168 &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90019-9">doi:10.1016/0022-4049(72)90019-9</a>&rbrack;
+
+* [[Michael Barr]], [[Charles Wells]], Chapter 3 of: *[[Toposes, Triples, and Theories]]*, Grundlehren der math. Wissenschaften **278**, Springer (1983) &lbrack;[TAC:12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
 
 * [[H. Applegate]], [[M. Barr]], [[J. Beck]], [[F. W. Lawvere]], [[F. E. J. Linton]], [[E. Manes]], [[M. Tierney]], [[F. Ulmer]]: _Seminar on triples and categorical homology theory_, ETH 1966/67, edited by [[Beno Eckmann]] and [[Myles Tierney]], **[[LNM 80]]**, Springer (1969), reprinted as: Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
 
-* [[Ross Street]], _The formal theory of monads_, J. of Pure and Applied Algebra __2__ (1972), 149--168 (<a href="http://dx.doi.org/10.1016/0022-4049(72)90019-9">doi</a>)
 
-* [[Ross Street]], [[Steve Lack]], _The formal theory of monads II_, J. Pure Appl. Algebra __175__ (2002), No. 1-3, 243--265, (<a href="http://dx.doi.org/10.1016/S0022-4049(02)00137-8">doi</a>)
+* [[Stephen Lack]], [[Ross Street]], *The formal theory of monads II*, Journal of Pure and Applied Algebra
+**175** 1–3 (2002) 243-265 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00137-8">doi:10.1016/S0022-4049(02)00137-8</a>&rbrack;
 
 Textbook accounts:
 
