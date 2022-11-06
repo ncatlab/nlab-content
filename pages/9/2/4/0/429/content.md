@@ -55,14 +55,15 @@ As with the category-theoretic understanding of many other branches of mathemati
 * [[PRO]], 
 
 ## References
+ {#References}
 
+* [[Fred Linton]], §7 in: *An outline of functorial semantics*, in *[[Seminar on Triples and Categorical Homology Theory]]*, Lecture Notes in Mathematics **80**, Springer (1969) 7-52 &lbrack;[doi:10.1007/BFb0083080](https://doi.org/10.1007/BFb0083080)&rbrack;
 
 * [[R. F. C. Walters]], *A categorical approach to universal algebra*, Ph.D. Thesis (1970) &lbrack;[anu:1885/133321](https://openresearch-repository.anu.edu.au/handle/1885/133321)&rbrack;
 
+* {#MacLane71} [[Saunders MacLane]], §VI of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**  Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-* {#HylandPower07} [[Martin Hyland]], [[John Power]], _The category theoretic understanding of universal algebra: Lawvere theories and monads_ ([pdf](http://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)).
-
-* [[Fred Linton]], _An outline of functorial semantics_, LNM 80 ([TAC Reprints](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html)).
+* [[Martin Hyland]], [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_, Electronic Notes in Theor. Comp. Sci. **172** (2007) 437-458 &lbrack;[doi:10.1016/j.entcs.2007.02.019](https://doi.org/10.1016/j.entcs.2007.02.019), [preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)&rbrack;
 
 * [[Max Kelly]] and [[John Power]], _Adjunctions whose counits are coequalizers, and presentations of finitary enriched monads_, JPAA 89, 1993.
 
