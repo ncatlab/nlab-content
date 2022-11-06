@@ -61,6 +61,7 @@ In [[set-level type theory]], the type theoretic definition and the set-level de
 * The [[free category]] on a [[directed graph]] is a gaunt category. 
 * The [[delooping]] of a group is (in set-level foundations) a [[skeletal category]] that is not gaunt (unless the group is [[trivial group|trivial]]).
 * The [[walking isomorphism]], as usually defined, is not gaunt.  (In [[homotopy type theory]], one can Rezk-complete the walking isomorphism, obtaining a univalent category that is gaunt and indeed equivalent to the [[terminal category]].)
+* The [[simplex category]] and more generally any [[Reedy category]] is gaunt.
 
 ## Properties
 
