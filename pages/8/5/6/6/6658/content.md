@@ -15,7 +15,7 @@
 
 ## Idea
 
-Given a [[fibered category]], a morphism along which the induced comparison functor between the category of the descent data and the codomain fiber is fully faithful (equivalence of categories) is said to be a descent morphism (resp. effective descent morphism). 
+Given a [[fibered category]], a morphism along which the induced [[comparison functor]] between the category of the descent data and the codomain fiber is fully faithful (equivalence of categories) is said to be a descent morphism (resp. effective descent morphism). 
 
 
 ## The case of codomain fibration 
@@ -26,7 +26,7 @@ Let $C$ be a [[category]] with [[pullbacks]].  For any [[morphism]] $p\colon A\t
 
 The evident internal functor $ker(p) \to B$ (viewing $B$ as a [[discrete category|discrete]] internal category) induces a *comparison functor* $C^B \to C^{ker(p)}$.  We say that $p$ is:
 
-* a **descent morphism** if this comparison functor is [[fully faithful functor|fully faithful]], and
+* a **descent morphism** if this [[comparison functor]] is [[fully faithful functor|fully faithful]], and
 * an **effective descent morphism** if this comparison functor is an [[equivalence of categories]].
 
 It is a little unfortunate that the more important notion of *effective descent* has the longer name, but it seems unwise to try to change it (although the [[Elephant]] uses "pre-descent" and "descent").
