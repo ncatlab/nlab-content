@@ -137,7 +137,7 @@ Finally, for such a notion of effectful programs to be usefully connected to "pu
 
 which does nothing but "return" data of type $D$, but re-regarded as effectful $\mathcal{E}(D)$-data in a trivial way; so that we may construct the trivially effectful program $ret^{\mathcal{D}}_{D_1} prog_{01} \;\colon\; D_0 \xrightarrow{\;} \mathcal{E}(D_1)$.
 
-> For instance, in the above example of log-message effects this would be the operation $D \to D \times String$ which assigns the [[empty set|emtpty]] [[string (computer science)|string]] $ret^{Write} \;\colon\; d \mapsto (d, \varnothing)$.
+> For instance, in the above example of log-message effects this would be the operation $D \to D \times String$ which assigns the [[empty set|empty]] [[string (computer science)|string]] $ret^{Write} \;\colon\; d \mapsto (d, \varnothing)$.
 
 > In the other example above, of [[exception handling]], the trivial effect $D \to D \sqcup String$ is just not to throw an exception, which is just $ret^{Excep} \;\colon\; d \mapsto d$ (the right [[coprojection]] into the [[coproduct]]).
 
@@ -557,7 +557,7 @@ Various monads are _definable_ in terms of standard [[type formation|type-formin
 
 * The *[[continuation monad]]* encodes [[continuation-passing style]] of program execution.
 
-
+* The *[[selection monad]]* encodes selecting a value of a type depending on the values of some function on it.
 
 #### State monad and Random access memory
 
