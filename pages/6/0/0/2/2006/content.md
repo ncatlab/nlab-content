@@ -202,7 +202,13 @@ The original articles:
 
 * {#Kleisli65} [[Heinrich Kleisli]], *Every standard construction is induced by a pair of adjoint functors*, Proc. Amer. Math. Soc. **16**, AMS (1965) 544-546 &lbrack;[ISSN0002-9939](http://www.ams.org/journals/proc/1965-016-03/S0002-9939-1965-0177024-4/), [jstor:2034693](https://www.jstor.org/stable/2034693)&rbrack;
 
-* Jen&#246; Szigeti, _On limits and colimits in the Kleisli category_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 24 no. 4 (1983), p. 381-391 ([NUMDAM](http://www.numdam.org/item?id=CTGDC_1983__24_4_381_0))
+* Jen&#246; Szigeti, _On limits and colimits in the Kleisli category_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques **24** 4 (1983) 381-391 &lbrack;[numdam:CTGDC_1983__24_4_381_0](http://www.numdam.org/item?id=CTGDC_1983__24_4_381_0)&rbrack;
+
+Early accounts (together with the [[Eilenberg-Moore category]]):
+
+* [[Fred Linton]], §7 in: *An outline of functorial semantics*, in *[[Seminar on Triples and Categorical Homology Theory]]*, Lecture Notes in Mathematics **80**, Springer (1969) 7-52 &lbrack;[doi:10.1007/BFb0083080](https://doi.org/10.1007/BFb0083080)&rbrack;
+
+* [[Michael Barr]], [[Charles Wells]], §3.2 of: *[[Toposes, Triples, and Theories]]*, Grundlehren der math. Wissenschaften **278**, Springer (1983) &lbrack;[TAC:12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
 
 The [[equivalence of categories]] between the [[Kleisli category]] over a given [[monad]] with the [[co-Kleisli category]] of an [[adjoint functor|adjoint]] [[comonad]] (if it exists):
 
