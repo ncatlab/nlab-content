@@ -104,12 +104,18 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 
 * [[monad transformer]]
 
+
 ## Literature
 
-* [[H. Applegate]], [[M. Barr]], [[J. Beck]], [[F. W. Lawvere]], [[F. E. J. Linton]], [[E. Manes]], [[M. Tierney]], [[F. Ulmer]]: _Seminar on triples and categorical homology theory_, ETH 1966/67, edited by [[Beno Eckmann]] and [[Myles Tierney]], **[[LNM 80]]**, Springer (1969), reprinted as: Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
-* [[Michael Barr]], [[Charles Wells]], _Toposes, triples and theories_, Springer (1985) &lbrack;[web remake at TAC](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
+* [[H. Applegate]], [[M. Barr]], [[J. Beck]], [[F. W. Lawvere]], [[F. E. J. Linton]], [[E. Manes]], [[M. Tierney]], [[F. Ulmer]]: *[[Seminar on Triples and Categorical Homology Theory]]*, ETH 1966/67, edited by [[Beno Eckmann]] and [[Myles Tierney]], **[[LNM 80]]**, Springer (1969), reprinted as: Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
 
-* [[Stephen Brookes]],  [[Kathryn Van Stone]], *Monads and Comonads in Intensional Semantics* (1993) &lbrack;[dtic:ADA266522](https://apps.dtic.mil/sti/citations/ADA266522), [pdf](https://www.cs.cmu.edu/~brookes/papers/MonadsComonads.pdf), [[Brookes_vanStone-MonadsAndComonads.pdf:file]]&rbrack;
+* {#Street72} [[Ross Street]], §6 of: *The formal theory of monads*, Journal of Pure and Applied Algebra **2** 2 (1972) 149-168 &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90019-9">doi:10.1016/0022-4049(72)90019-9</a>&rbrack;
+
+* [[Michael Barr]], [[Charles Wells]], *[[Toposes, Triples, and Theories]]*, Springer (1985) republished in: Reprints in Theory and Applications of Categories, **12** (2005) 1-287 &lbrack;[tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
+ 
+  ([tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) in [[TAC reprints series]])
+
+* [[Stephen Brookes]],  [[Kathryn Van Stone]], *Monads and Comonads in Intensional Semantics* (1993) &lbrack;[dtic:ADA266522](https://apps.dtic.mil/sti/citations/ADA266522), [pdf](https://www.cs.cmu.edu/~brookes/papers/MonadsComonads.pdf)&rbrack;
 
 * [[John Power]], [[Hiroshi Watanabe]], *Distributivity for a monad and a comonad*, Electronic Notes in Theoretical Computer Science **19** (1999) 102 &lbrack;<a href="https://doi.org/10.1016/S1571-0661(05)80271-3">doi:10.1016/S1571-0661(05)80271-3</a>&rbrack;
 
@@ -132,7 +138,6 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 
 * [[Martin Markl]], _Distributive laws and Koszulness_,  Ann. Inst. Fourier (Grenoble)  46  (1996),  no. 2, 307--323 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=AIF_1996__46_2_307_0))
 
-* [[Ross Street]], _The formal theory of monads_, J. Pure Appl. Alg. 2, 149--168 (1972)
 
 * [[Zoran Škoda]], _Distributive laws for monoidal categories_ ([arXiv:0406310](http://front.math.ucdavis.edu/math.CT/0406310)); _Equivariant monads and equivariant lifts versus a 2-category of distributive laws_ ([arXiv:0707.1609](http://front.math.ucdavis.edu/0707.1609)); _Bicategory of entwinings_  ([arXiv:0805.4611](http://arxiv.org/abs/0805.4611))
 
