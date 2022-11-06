@@ -15,7 +15,11 @@ On a geometric proof of the [[spin-statistics theorem]] (leading to the [[Atiyah
 
 * {#BerryRobbins97} [[Michael V. Berry]], [[Jonathan M. Robbins]], *Indistinguishability for quantum particles: spin, statistics and the geometric phase*, Proceedings of the Royal Society A **453** 1963 (1997) 1771-1790 ([doi:10.1098/rspa.1997.0096](https://doi.org/10.1098/rspa.1997.0096))
 
+On [[asymptotic series]]:
 
+* Michael Berry, C. J. Howls, _Hyperasymptotics_,  The Royal Society Proceedings: Mathematical and Physical Sciences __430__:1880 (1990) 653--668 [jstor](https://www.jstor.org/stable/79960)
+
+* Michael Berry, _Asymptotics, superasymptotics, hyperasymptotics_, in  H. Segur, S. Tanveer, and H. Levine, (eds.)  _Asymptotics Beyond All Orders_,  Plenum, Amsterdam, 1991, 1--14 [doi](https://doi.org/10.1007/978-1-4757-0435-8_1)
 
 
 ## Related $n$Lab entries
