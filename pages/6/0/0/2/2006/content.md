@@ -208,6 +208,8 @@ Early accounts (together with the [[Eilenberg-Moore category]]):
 
 * [[Fred Linton]], §7 in: *An outline of functorial semantics*, in *[[Seminar on Triples and Categorical Homology Theory]]*, Lecture Notes in Mathematics **80**, Springer (1969) 7-52 &lbrack;[doi:10.1007/BFb0083080](https://doi.org/10.1007/BFb0083080)&rbrack;
 
+* {#MacLane71} [[Saunders MacLane]], §VI.5 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**  Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
 * [[Michael Barr]], [[Charles Wells]], §3.2 of: *[[Toposes, Triples, and Theories]]*, Grundlehren der math. Wissenschaften **278**, Springer (1983) &lbrack;[TAC:12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
 
 The [[equivalence of categories]] between the [[Kleisli category]] over a given [[monad]] with the [[co-Kleisli category]] of an [[adjoint functor|adjoint]] [[comonad]] (if it exists):
