@@ -31,6 +31,16 @@ This page compiles pointers related to:
 
 on [[monads]] in [[universal algebra]] and ([[cohomology|co]]-)[[homology]]-theory.
 
+\linebreak
+
+**Contents**
+
+
+* [[Fred Linton]], *An outline of functorial semantics*, in *[[Seminar on Triples and Categorical Homology Theory]]*, Lecture Notes in Mathematics **80**, Springer (1969) 7-52 &lbrack;[doi:10.1007/BFb0083080](https://doi.org/10.1007/BFb0083080)&rbrack;
+
+
+* (...)
+
 category: reference
 
 [[!redirects Seminar on Triples]]
