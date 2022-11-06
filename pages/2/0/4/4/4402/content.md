@@ -24,7 +24,7 @@
 ## Idea
 
 
-The theory of __cohomological descent__ deals with  the question if the [[derived geometry|derived]] analogue of the (co)monadic comparison functor is fully faithful (or more rarely an equivalence of categories) when formulated at the level of total derived functors and derived categories, and usually taken with respect to [[hypercovers]]. 
+The theory of __cohomological descent__ deals with  the question if the [[derived geometry|derived]] analogue of the (co)monadic [[comparison functor]] is fully faithful (or more rarely an equivalence of categories) when formulated at the level of total derived functors and derived categories, and usually taken with respect to [[hypercovers]]. 
 
 ## Related concepts
 
