@@ -1,7 +1,16 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Computation
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+#### Categorical algebra
++-- {: .hide}
+[[!include categorical algebra -- contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
