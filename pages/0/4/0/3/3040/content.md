@@ -16,6 +16,12 @@ On [[toposes]] as [[adhesive categories]]:
 
 * {#LackSobocínski06} [[Stephen Lack]], [[Pawel Sobocínski]], Lemma 18 in:  *Toposes are adhesive*, in: *Graph Transformations* ICGT 2006,  Lecture Notes in Computer Science **4178**, Springer (2006) 184-198 &lbrack;[doi:10.1007/11841883_14](https://doi.org/10.1007/11841883_14), [pdf](http://users.ecs.soton.ac.uk/ps/papers/toposesAdhesive.pdf)&rbrack;
 
+On the [[2-category theory]] of [[monads]] and their [[Eilenberg-Moore categories]]:
+
+* [[Stephen Lack]], [[Ross Street]], *The formal theory of monads II*, Journal of Pure and Applied Algebra
+**175** 1–3 (2002) 243-265 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00137-8">doi:10.1016/S0022-4049(02)00137-8</a>&rbrack;
+
+
 On [[descent]]:
 
 * [[Stephen Lack]]. _Codescent objects and coherence_. Journal of Pure and Applied Algebra **175** 1-3 (2002) 223-241 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00136-6">doi:10.1016/S0022-4049(02)00136-6</a>&rbrack;
