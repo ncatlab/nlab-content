@@ -42,6 +42,7 @@ We now explain in more detail what this means and what it is good for.
 
 
 
+
 ### Basic idea: Monadic effects
  {#BasicIdea}
 
@@ -71,7 +72,7 @@ Given such an $\mathcal{E}$-effectful program $prog_{12} \;\colon\; D_1 \to \mat
 
    1. does accept data of type $\mathcal{E}(D_2)$ and 
 
-   1. "acts as $prog_{23}$ while *carrying* any previous $\mathcal{E}$-effects along";
+   1. "acts as $prog_{23}$ while *carrying* any previous $\mathcal{E}$-effects along" (this intuition becomes a formal fact below in (eq:FreeEffectHandlingIsBinding));
 
 1. then forming the naive [[composition]] $bind^{\mathcal{E}} prog_{23} \;\circ\;  prog_{12}$
 
@@ -162,7 +163,34 @@ The final consistency condition (i.e. the remaining "monad law") then is that "c
   \,.
 \]
 
-Notice that the [[associativity]] condition (eq:AssociativityConditionInIntroduction) and the [[unitality]] condition (eq:UnitalityInIntroduction) are jointly equivalent to saying that [[data types]] with [[hom-sets]] of $\mathcal{E}$-effectful programs between them, in the above sense, form a *[[category]]*. In [[category theory]] this is known as the *[[Kleisli category]]* of a *[[monad]]* $\mathcal{E}$.
+Notice that the [[associativity]] condition (eq:AssociativityConditionInIntroduction) and the [[unitality]] condition (eq:UnitalityInIntroduction) are jointly equivalent to saying that [[data types]] with [[hom-sets]] of $\mathcal{E}$-effectful programs between them, in the above sense, form a *[[category]]*. In [[category theory]] this is known as the *[[Kleisli category]]* $Kl(\mathcal{E})$ of a *[[monad]]* $\mathcal{E}$ on the [[category]] $Type$ of [[data types]] with programs between them:
+
+\[
+  \label{TheKleisliCategory}
+  \begin{array}{rcl}
+    Obj\Big( Kl(\mathcal{E}) \Big)
+    &\;\;=\;\;&
+    Obj\Big(
+      Type
+    \Big)
+    \\
+    Hom\Big( Kl(\mathcal{E}) \Big)\big(D_1,\, D_2\big)
+    &\;\;=\;\;&
+    Hom\Big(
+      Type
+    \Big)
+    \big(
+      D_1, 
+      \,
+      \mathcal{E}(D_2)  
+    \big)
+    \\
+    (-) \circ_{\mathrm{Kl}(\mathcal{E})} (-)
+    &\;\;=\;\;&
+    (-) \circ_{Type} bind^{\mathcal{E}}(-)
+    \,.
+  \end{array}
+\]
 
 > Traditionally in [[category theory]], the [[axioms]] on [[monads]] are presented in a somewhat different way, invoking a monad "product" [[natural transformation]] $\mathcal{E} \circ \mathcal{E} \xrightarrow{ \mu } \mathcal{E}$ instead of the "binding" operation. One readily checks that these two axiomatic presentations of monads are in fact equal -- see (eq:TransformBetweenBindAndJoinInIntroduction) below --, but the above "[[Kleisli triple]]/[[extension system]]"-presentation is typically more relevant in the practice of [[functional programming]].
 
@@ -390,6 +418,9 @@ Of such choice of effect handling, consistency demands that:
 
 1. handling the trivial effect ought to be no extra operation:
 
+\[
+  \label{AxiomsForEffectHandlers}
+\]
 \begin{imagefromfile}
     "file_name": "MonadicEffectHandlerConditions-221105b.jpg",
     "width": "560",
@@ -405,7 +436,8 @@ Of such choice of effect handling, consistency demands that:
 
 A data structure consisting of such assignments $hndl^{\mathcal{E}}$ subject to these "laws" is known as an *Kleisli triple algebra* (e.g. [Uustalu (2021), Lec. 2](#Uustalu21Lecture2)) or *algebra over an extension system* (see [here](algebra+over+a+monad#ReferencesKleisliStyle)) for $\mathcal{E}$ and is bijectively the same as what in traditional [[category theory]] is known as an *[[algebra over a monad|algebra over $\mathcal{E}$]]* or *$\mathcal{E}$-algebra* or, maybe best: an *$\mathcal{E}$-module* or *$\mathcal{E}$-[[modal type]]*.
 
-Given a [[pair]] of such $\mathcal{E}$-[[modal types]] $\big(D_1, hndl^{\mathcal{E}}_{D_1} \big)$, $\big(D_2, hndl^{\mathcal{E}}_{D_2} \big)$, a function $\phi \,\colon\, D_1 \to D_2$ is a *[[homomorphism]]* between them if for all functions $f \,\colon\, D_0 \to D_1$ the following [[commuting diagram|diagram commutes]]:
+Given a [[pair]] of such $\mathcal{E}$-[[modal types]] $\big(D_1, hndl^{\mathcal{E}}_{D_1} \big)$, $\big(D_2, hndl^{\mathcal{E}}_{D_2} \big)$, a function $\phi \,\colon\, D_1 \to D_2$ is a *[[homomorphism]]* between them if the result of handling $\mathcal{E}$-effects before or after applying $\phi$ is the same, hence
+if for all functions $f \,\colon\, D_0 \to D_1$ the following [[commuting diagram|diagram commutes]]:
 
 
 \begin{imagefromfile}
@@ -420,8 +452,39 @@ Given a [[pair]] of such $\mathcal{E}$-[[modal types]] $\big(D_1, hndl^{\mathcal
     }
 \end{imagefromfile}
 
+\linebreak
 
+{#FreeModales} **Free $\mathcal{E}$-effect handlers.** Notice that [above](#BasicIdea) we motivated already the binding operation (eq:BindingLawInIntroduction) as a kind of $\mathcal{E}$-effect handling: namely as the "carrying along" of previous $\mathcal{E}$-effects. This intuition now becomes a precise statement: 
 
+For any $D_2 \;\colon\; Type$ we may tautologically handle (eq:AxiomsForEffectHandlers) $\mathcal{E}$-effects by absorbing them into the data type $\mathcal{E}(D_2)$, with the effect-handler simply being the effect-binding operation (eq:BindingLawInIntroduction):
+
+\[
+  \label{FreeEffectHandlingIsBinding}
+  hndl^{\mathcal{E}}_{\mathcal{E}(D_2)}
+  \Big(
+     D_1 
+     \xrightarrow{ prog }
+     \mathcal{E}(D_2)
+  \Big)
+  \;\coloneqq\;
+  bind^{\mathcal{E}}
+  prog
+  \;\colon\;
+  \mathcal{E}(D_1)
+  \to
+  \mathcal{E}(D_2)
+  \,.
+\]
+
+The $\mathcal{E}$-effect-handlers (eq:AxiomsForEffectHandlers) arising this way are called *[free](algebra+over+a+monad#FreeAlgebras)*. 
+
+The [[full subcategory]] of free $\mathcal{E}$-effect handlers among [[Eilenberg-Moore category|all]] $\mathcal{E}$-[[modal types]] is known as the *[[Kleisli category]]*. By the [Kleisli equivalence](Kleisli+category#KleisliEquivalence), this is [[equivalence of categories|equivalent]] to the (plain) category (eq:TheKleisliCategory) of $\mathcal{E}$-effectful programs that we started with. Here this means that:
+
+* *Plain data types with $\mathcal{E}$-effectful programs betweem them are equivalently data types freely equipped with the structure of $\mathcal{E}$-effect handlers.*
+
+which makes a lot of sense.
+
+\linebreak
 
 
 ### Dual idea: Comonadic contexts
