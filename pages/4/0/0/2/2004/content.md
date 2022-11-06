@@ -14,8 +14,6 @@
 =--
 
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -225,22 +223,30 @@ For instance ([Borceux, vol 2, cor. 4.2.4](#Borceux)).
 
 ## References
 
-General discussion is in 
+General discussion:
 
-* {#Street72} [[Ross Street]], _The formal theory of monads_, Journal of Pure and Applied Algebra 2, 1972 
+* [[Fred Linton]], §7 in: *An outline of functorial semantics*, in *[[Seminar on Triples and Categorical Homology Theory]]*, Lecture Notes in Mathematics **80**, Springer (1969) 7-52 &lbrack;[doi:10.1007/BFb0083080](https://doi.org/10.1007/BFb0083080)&rbrack;
 
-* [[Fred Linton]], _An outline of functorial semantics_, in [[LNM 80]], 1969
+* {#Linton69} [[Fred Linton]], _Relative functorial semantics: adjointness results_, Lecture Notes in Mathematics, **99** (1969)
 
-* {#Linton69} [[Fred Linton]], _Relative functorial semantics: adjointness results_, Lecture Notes in Mathematics, vol. 99, 1969
+
+* {#Street72} [[Ross Street]], *The formal theory of monads*, Journal of Pure and Applied Algebra **2** 2 (1972) 149-168 &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90019-9">doi:10.1016/0022-4049(72)90019-9</a>&rbrack;
+
+* [[Michael Barr]], [[Charles Wells]], §3.2 of: *[[Toposes, Triples, and Theories]]*, Grundlehren der math. Wissenschaften **278**, Springer (1983) &lbrack;[TAC:12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
+
 
 * {#StreetWalters78} [[Ross Street]], [[Bob Walters]], _Yoneda structures_, J. Algebra __50__, 1978
 
 * {#MacLane} [[Saunders MacLane]], _[[Categories for the Working Mathematician]]_
 
+* [[Stephen Lack]], [[Ross Street]], *The formal theory of monads II*, Journal of Pure and Applied Algebra
+**175** 1–3 (2002) 243-265 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00137-8">doi:10.1016/S0022-4049(02)00137-8</a>&rbrack;
+
+
 Local presentability of EM-categories is discussed on p. 123, 124 of
 
-* [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
- {#AdamekRosicky}
+* {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
+ 
 
 The following paper of Melli&#232;s compares the representability condition of ([Linton 69](#Linton69)) with the [[Segal condition]] that distinguishes those [[simplicial sets]] that are the [[nerves]] of categories.
 
