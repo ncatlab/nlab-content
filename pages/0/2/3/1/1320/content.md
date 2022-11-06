@@ -61,7 +61,7 @@ Monadic functors are sometimes called *functors of effective descent type*. See 
 
 Given a [[adjoint pair|pair]] of [[adjoint functors]] $F \colon C \to D :U$, $F \dashv U$, with [[unit of an adjunction|unit]] $\eta: Id_C \to U \circ F$ and counit $\epsilon: F \circ U \to Id_D$, one constructs a [[monad]] $\mathbf{T}=(T,\mu,\eta)$ setting $T = U \circ F: C \to C$, $\mu = U \epsilon F: T T = U F U F \to U F = T$. 
 
-Consider the [[Eilenberg-Moore category]] $C^{\mathbf{T}}$ of $T$-algebras ($T$-modules) in $C$. Clearly $U (\epsilon_M): T U M = U F U M \to U M$ is a $T$-action. In fact there is a canonical __comparison functor__ $K^{\mathbf{T}}: D \to C^{\mathbf{T}}$ given on objects by $K(M)=(U M, U (\epsilon_M))$.  We then say that we have a (resp. strictly) [[monadic adjunction]] iff $K$ is an equivalence (resp. isomorphism) of categories.
+Consider the [[Eilenberg-Moore category]] $C^{\mathbf{T}}$ of $T$-algebras ($T$-modules) in $C$. Clearly $U (\epsilon_M): T U M = U F U M \to U M$ is a $T$-action. In fact there is a canonical *[[comparison functor]]* $K^{\mathbf{T}} \colon D \to C^{\mathbf{T}}$ given on objects by $K(M) \coloneqq \big(U M, U (\epsilon_M) \big)$.  We then say that we have a (resp. strictly) [[monadic adjunction]] iff $K$ is an equivalence (resp. isomorphism) of categories.
 
 \begin{definition}\label{MonadicFunctor}
 **(monadic functor)**
