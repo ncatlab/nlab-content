@@ -345,9 +345,10 @@ The original reference for the (crude and precise) monadicity theorems is an unt
 
 Textbook accounts:
 
+* {#MacLane71} [[Saunders MacLane]], §VI.7 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**  Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
 * {#Borceux} [[Francis Borceux]], Section 4 in volume 2 of  _[[Handbook of Categorical Algebra]]_, in 3 vols. 
 
-* {#MacLane} [[Saunders MacLane]],  Section VI.7 of _[[Categories for the Working Mathematician]]_.
 
 * {#BarrWells} Chapter 3 of [[Michael Barr]], [[Charles Wells]], _[[Toposes, Triples, and Theories]]_  Grundlehren der math. Wissenschaften 278, Springer-Verlag 1983.  Available as [TAC Reprint 12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html).
 
