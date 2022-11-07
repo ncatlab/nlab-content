@@ -36,6 +36,13 @@ The original article
 
 Theoretical background:
 
+* [[Robert Rand]], *Formally Verified Quantum Programming*, UPenn (2018) &lbrack;[ediss:3175](https://repository.upenn.edu/edissertations/3175)&rbrack;
+
+  > (emphasis on [[formal software verification]])
+
+
+
+
 * [[Jennifer Paykin]], *Linear/non-Linear Types For Embedded Domain-Specific Languages*, 2018 ([upenn:2752](https://repository.upenn.edu/edissertations/2752))
 
 Application to [[verified programming]] after [[domain specific embedded programming language|embedding]] into [[Coq]]:
