@@ -95,19 +95,33 @@ Here we define the set of propositions:
 
 
 *  Every propositional variable is a proposition.
+
 *  For each proposition $A$, there is a proposition $A^\perp$, the __[[negation]]__ of $A$.
+
 *  For each proposition $A$ and proposition $B$, there are four additional propositions:
-   *  $A \& B$ (read 'with'), the __additive [[logical conjunction|conjunction]]__ of $A$ and $B$;
-   *  $A \oplus B$ (read 'plus'), the __additive [[disjunction]]__ of $A$ and $B$;
+
+   *  $A \& B$ (read 'with'), the __[[additive conjunction]]__ of $A$ and $B$;
+
+   *  $A \oplus B$ (read 'plus'), the __[[additive disjunction]]__ of $A$ and $B$;
+
    *  $A \otimes B$ (read 'times'), the __[[multiplicative conjunction]]__ of $A$ and $B$;
-   *  $A \parr B$ (read 'par' and sometimes written $A \mid B$), the __[[multiplicative disjunction]]__ of $A$ and $B$.
+
+   *  $A \parr B$ (read 'par'), the __[[multiplicative disjunction]]__ of $A$ and $B$ (sometimes written $A \mid B$).
+
 *  There are also four constants to go with the four binary operations above:
+
    *  $\top$ (read 'top'), the __additive [[truth]]__;
+
    *  $\mathbf{0}$ (read 'zero'), the __additive [[falsity]]__;
+
    *  $\mathbf{1}$ (read 'one'), the __multiplicative truth__;
+
    *  $\bot$ (read 'bottom'), the __multiplicative falsity__.
+
 *  For each proposition $A$, there are two additional propositions:
+
    *  $!{A}$ (read '[[of course]]'), the __[[exponential conjunction]]__ of $A$;
+
    *  $?{A}$ (read 'why not'), the __exponential disjunction__ of $A$.
 
 The terms "exponential", "multiplicative", and "additive" come from the fact that "exponentiation converts addition to multiplication": we have $!{(A \& B)}\equiv !{A} \otimes !{B}$ and so on (see below).
@@ -398,25 +412,31 @@ Since every proposition comes with an antithesis proposition in the antithesis i
   * [[minor scale]]
 
 
+[[!include logic symbols -- table]]
+
+
 ## References
 
 The original article is
 
-*  [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science 50:1, 1987.  ([pdf](http://iml.univ-mrs.fr/~girard/linear.pdf))
- {#Girard}
+* {#Girard} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science 50:1, 1987.  ([pdf](http://iml.univ-mrs.fr/~girard/linear.pdf))
+ 
 
-Reviews include
+Review:
 
 * [[Jean-Yves Girard]], _Linear logic, its syntax and semantics_ ([pdf](http://www.cs.brandeis.edu/~cs112/2006-cs112/docs/girard-intro.pdf))
 
 * {#Girard11} [[Jean-Yves Girard]], part III of _[[Lectures on Logic]]_, European Mathematical Society 2011
- 
+
+* {#MihályiNovitzká13} Daniel Mihályi, Valerie Novitzká, *What about Linear Logic in Computer Science?*, Acta Polytechnica Hungarica **10** 4 (2013) 147-160 &lbrack;[pdf](http://acta.uni-obuda.hu/Mihalyi_Novitzka_42.pdf), [[MihalyiNovitzka-LinearLogic.pdf:file]]&rbrack;
 
 * {#Murfet14} [[Daniel Murfet]], _Logic and linear algebra: an introduction_ ([arXiv:1407.2650](http://arxiv.org/abs/1407.2650))
 
+
+
 The [[categorical semantics]] of linear logic in [[star-autonomous categories]] originally appeared in
 
-* {#Seely} [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
+* {#Seely} [[R. A. G. Seely]],  *Linear logic, $\ast$-autonomous categories and cofree coalgebras*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz), [ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92)&rbrack;
  
 
 and for the special case of [[quantales]] in 
