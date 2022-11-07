@@ -140,14 +140,14 @@ If a Frobenius algebra lives in a monoidal [[†-category]], $(\delta)^\dagger =
 
 +-- {: .num_prop}
 ###### Proposition 
-A Frobenius algebra $A$ in a monoidal category is an object dual to itself. 
+A Frobenius algebra $A$ in a [[monoidal category]] is an [[dual object|object dual]] to itself. 
 =-- 
 
 +-- {: .proof}
 ###### Proof 
-Let $I$ be the monoidal unit. To say $A$ is dual to itself means there are maps $e: I \to A \otimes A$ and $p: A \otimes A \to I$ such that the usual triangular equations hold. The maps are defined by 
+Let $I$ be the [[monoidal unit]]. To say $A$ is dual to itself means there are maps $e: I \to A \otimes A$ and $p: A \otimes A \to I$ such that the [[triangle identities]] hold. The maps are defined by 
 $$e = (I \stackrel{\eta}{\to} A \stackrel{\delta}{\to} A \otimes A), \qquad p = (A \otimes A \stackrel{\mu}{\to} A \stackrel{\epsilon}{\to} I)$$ 
-and one of the triangular equations uses one of the Frobenius laws and unit and counit axioms to derive the following commutative diagram: 
+and one of the [[triangle identities]] uses one of the Frobenius laws and unit and counit axioms to derive the following [[commutative diagram]]: 
 
 $$\array{
 A & \stackrel{1 \otimes \eta}{\to} & A \otimes A & \stackrel{1 \otimes \delta}{\to} & A \otimes A \otimes A \\
@@ -158,10 +158,11 @@ A & \stackrel{1 \otimes \eta}{\to} & A \otimes A & \stackrel{1 \otimes \delta}{\
 } 
 $$ 
 
-The other triangular equation uses the other Frobenius law and unit and counit axioms. 
+The other [[triangle identity]] uses the other Frobenius law and unit and counit axioms.
+ 
 =-- 
 
-As a result, we see that in the monoidal category $Mod_k$ of modules over a commutative ring $k$, Frobenius algebras $A$ considered as modules over $k$ are finitely generated and projective. This is because $A \otimes_k -$, being adjoint to itself, is a left adjoint and therefore preserves all colimits. That $A \otimes_k -$ preserves arbitrary small coproducts means $A$ is finitely generated over $k$, and that $A \otimes_k-$ preserves coequalizers means $A$ is projective over $k$. 
+As a result, we see that in the monoidal category [[Mod|$Mod_k$]] of [[modules]] over a [[commutative ring]] $k$, Frobenius algebras $A$ considered as modules over $k$ are [[finitely generated module|finitely generated]] and [[projective module|projective]]. This is because $A \otimes_k -$, being [[adjoint functor|adjoint]] to itself, is a [[left adjoint]] and [[left adjoints preserve colimits|therefore preserves all colimits]]. That $A \otimes_k -$ preserves arbitrary small coproducts means $A$ is finitely generated over $k$, and that $A \otimes_k-$ preserves coequalizers means $A$ is projective over $k$. 
 
 * Every Frobenius algebra $A$ is a [[quasi-Frobenius algebra]]: projective and injective left (right) modules over $A$ coincide. 
 
