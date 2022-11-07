@@ -306,6 +306,8 @@ See at *[[Majorana dimer code]]*.
 
 * [[error correcting code]]
 
+* [[dynamic lifting]]
+
 * [[quantum entanglement]]
 
 * [[entanglement entropy]], [[holographic entanglement entropy]]
