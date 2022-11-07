@@ -14,6 +14,10 @@ On [[monoidal category]]-theory with an eye towards [[finite quantum mechanics i
 
 * {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], *Categories for Quantum Theory*, Oxford University Press 2019 ([ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616))
 
+  based on:
+
+  {#HeunenVicary12} [[Chris Heunen]], [[Jamie Vicary]], *Lectures on categorical quantum mechanics* (2012) &lbrack;[pdf](https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf), [[HeunenVicary-QuantumLectures.pdf:file]]&rbrack;
+
 Generalization to [[Hilbert bundles]]:
 
 * [[Chris Heunen]], [[Manuel L. Reyes]], *Frobenius Structures Over Hilbert $C^\ast$-Modules*, Commun. Math. Phys. **361** (2018) 787–824 &lbrack;[doi:10.1007/s00220-018-3166-0](https://doi.org/10.1007/s00220-018-3166-0), [arXiv:1704.05725](https://arxiv.org/abs/1704.05725)&rbrack;
