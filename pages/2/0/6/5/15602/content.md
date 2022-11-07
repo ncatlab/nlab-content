@@ -40,6 +40,11 @@ Properads are less general than [[PROPs]], which also allow a "composition" of n
 
 * {#Kavanagh} Ryan Kavanagh. _Communication-Based Semantics for Recursive Session-Typed Processes_. Thesis. Carnegie Mellon University, 2021 ([pdf](https://rak.ac/publication/2021-communication-based-semantics-for-recursive-session-typed-processes/thesis.pdf))
 
+About the [[(∞,1)-category]] version
+
+* Shaul Barkan, Jan Steinebrunner, _The equifibered approach to ∞-properads_ ([arXiv:2211.02576](https://arxiv.org/abs/2211.02576)).
+
+
 [[!redirects properads]]
 [[!redirects Properads]]
 [[!redirects pluricategory]]
