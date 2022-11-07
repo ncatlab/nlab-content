@@ -2,6 +2,9 @@
 
 ## Selected writings
 
+On [[software verification|formally verified]] [[quantum programming languages]] like [[QML]]:
+
+* [[Alexander Green]], *Towards a formally verified functional quantum programming language* (2010) &lbrack;[eprints:11457](http://eprints.nottingham.ac.uk/11457)&rbrack;
 
 Introducing the [[functional programming language|functional]] [[quantum programming language]] [[Quipper]]:
 
