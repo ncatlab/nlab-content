@@ -33,4 +33,11 @@ An action on identifications is an [[embedding]] if it is an [[equivalence]].
 
 * [[Univalent Foundations Project]], [[Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
+[[!redirects action on paths]]
+[[!redirects action on identities]]
+[[!redirects action on equalities]]
+
 [[!redirects application of a function to identifications]]
+[[!redirects application of a function to paths]]
+[[!redirects application of a function to identities]]
+[[!redirects application of a function to equalities]]
