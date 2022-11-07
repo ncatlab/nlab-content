@@ -20,6 +20,7 @@
 > under construction
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -104,80 +105,22 @@ The behaviour of [[quantum channel]]s and _completely positive maps_ has an eleg
 ## References
  {#References}
 
-The idea that the natural language of [[quantum mechanics]] and [[quantum computation]] is that of [[†-compact categories]] became popular with the publication
-
-* {#AbramskyCoecke04} [[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_ , Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) &lbrack;[arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130)&rbrack;
-
-with an expanded version in 
-
-* {#AbramskyCoecke08} [[Samson Abramsky]], [[Bob Coecke]], *Categorical quantum mechanics*, in *[[Handbook of Quantum Logic and Quantum Structures]]*, Elsevier (2008) &lbrack;[arXiv:0808.1023](http://arxiv.org/abs/0808.1023), [ISBN:9780080931661](https://www.sciencedirect.com/book/9780444528698/), [doi:10.1109/LICS.2004.1319636](https://doi.org/10.1109/LICS.2004.1319636)&rbrack; 
+[[!include quantum information theory via string diagrams -- references]]
  
 
-A fairly comprehensive account of the underlying theory of [[string diagrams]] is in
-
-* {#Selinger} [[Peter Selinger]], _Dagger compact closed categories and completely positive maps_ ([web](http://www.mscs.dal.ca/~selinger/papers.html#dagger), [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf))
-
-Textbook account of the underlying [[category theory]]:
-
-* {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], *Categories for Quantum Theory*, Oxford University Press 2019 ([ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616))
-
-
-A pedagogical exposition of the graphical calculus is in
-
-* {#CoeckeKindergarten} [[Bob Coecke]], _Kindergarten quantum mechanics_ ([arXiv:quant-ph/0510032](http://arxiv.org/abs/quant-ph/0510032))
-
-
-* {#CoeckePicturalism} [[Bob Coecke]], _Quantum Picturalism_ ([arXiv:0908.1787](http://arxiv.org/abs/0908.1787))
-
-
-More basic introductions are in
-
-* {#CoeckeIntroducing} [[Bob Coecke]], _Introducing categories to the practicing physicist_ ([arXiv:0808.1032](http://arxiv.org/abs/0808.1032))
-
-
-* {#CoeckePractising} [[Bob Coecke]], _Categories for the practising physicist_ ([arXiv:0905.3010](http://arxiv.org/abs/0905.3010))
-
-* {#HeunenVicary12} [[Chris Heunen]], [[Jamie Vicary]], _Lectures on categorical quantum mechanics_, 2012 ([pdf](https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf))
-
-
-A comprehensive collection of basics and of recent developments is in 
-
-* [[Bob Coecke]], [[Ross Duncan]], *Interacting Quantum Observables: Categorical Algebra and Diagrammatics*, New J. Phys. **13** (2011) 043016 $[$[arXiv:0906.4725](http://arxiv.org/abs/0906.4725), [doi:10.1088/1367-2630/13/4/043016](https://doi.org/10.1088/1367-2630/13/4/043016)$]$
-
-The formalization of orthogonal bases in $\dagger$-compact categories is in 
-
-* {#CoeckePavlovicVicary} [[Bob Coecke]], [[Dusko Pavlovic]], [[Jamie Vicary]], _A new description of orthogonal bases_ ([arXiv:0810.0812](http://arxiv.org/abs/0810.0812))
-
-
-The role of [[complex numbers]] in general $\dagger$-compact categories is discussed in
+The role of [[complex numbers]] in general $\dagger$-compact categories:
 
 * {#Vicary} [[Jamie Vicary]], _Completeness of $\dagger$-categories and the complex numbers_ ([arXiv:0807.2927](http://arxiv.org/abs/0807.2927)) 
 
 
-[[quantum operation|Completely positive maps]] in terms of $\dagger$-categories are discussed in
-
-* {#SelingerPositive} [[Peter Selinger]], _Dagger compact closed categories and completely positive maps_ ([web](http://www.mscs.dal.ca/~selinger/papers.html#dagger), [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf))
-
-
-* {#CoeckePositive} [[Bob Coecke]], _Complete positivity without compactness_ ([pdf](http://www.comlab.ox.ac.uk/files/666/RR-07-05.pdf)) 
-
-
-The relation to [[quantum logic]]/[[linear logic]] has been expolred in 
-
-* {#AbramskyDuncan05} [[Samson Abramsky]], [[Ross Duncan]], _A Categorical Quantum Logic_, Mathematical Structures in Computer Science **16** 3 (2006) $[$[arXiv:quant-ph/0512114](http://arxiv.org/abs/quant-ph/0512114), [doi:10.1017/S0960129506005275](https://doi.org/10.1017/S0960129506005275)$]$
- 
-
-* {#Duncan06} [[Ross Duncan]], _Types for quantum mechanics_, 2006 ([pdf](http://personal.strath.ac.uk/ross.duncan/papers/rduncan-thesis.pdf), [slides](http://www.cs.ox.ac.uk/people/ross.duncan/talks/2005/pps-22-05-2005.pdf))
- 
-
-An exposition along these lines is in
-
-* {#BaezStay09} [[John Baez]], [[Mike Stay]], _Physics, topology, logic and computation: a rosetta stone_, [arxiv/0903.0340](http://arxiv.org/abs/0903.0340); in "New Structures for Physics", ed. Bob Coecke, Lecture Notes in Physics __813__, Springer, Berlin, 2011, pp. 95-174
- 
+[[!redirects quantum information theory via dagger-compact categories]] 
 
 [[!redirects finite quantum mechanics in terms of †-compact categories]]
+[[!redirects finite quantum mechanics in terms of dagger-compact categories]]
 
 [[!redirects quantum mechanics in terms of †-compact categories]]
 [[!redirects quantum mechanics in terms of dagger-compact categories]]
 
 [[!redirects finite quantum physics in terms of dagger-compact categories]]
+[[!redirects quantum information theory in terms of dagger-compact categories]]
+
