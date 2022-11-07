@@ -138,13 +138,22 @@ and here again specifically for [[cryptography]]:
 
 Verification for [[quantum programming languages]] 
 
+with [[QML]]:
+
+* [[Alexander Green]], *Towards a formally verified functional quantum programming language* (2010) &lbrack;[eprints:11457](http://eprints.nottingham.ac.uk/11457)&rbrack;
+
+
 with [[Quipper]]:
 
 * Linda Anticoli, Carla Piazza, Leonardo Taglialegne, Paolo Zuliani, _Towards Quantum Programs Verification: From Quipper Circuits to QPMC_, In: Devitt S., Lanese I. (eds) Reversible Computation. RC 2016. Lecture Notes in Computer Science, vol 9720. Springer, Cham ([doi:10.1007/978-3-319-40578-0_16](https://doi.org/10.1007/978-3-319-40578-0_16))
 
+
 with [[QWIRE]] (in [[Coq]]):
 
 * [[Robert Rand]], [[Jennifer Paykin]], [[Steve Zdancewic]], *QWIRE Practice: Formal Verification of Quantum Circuits in Coq*, EPTCS 266, 2018, pp. 119-132 ([arXiv:1803.00699](https://arxiv.org/abs/1803.00699))
+
+* [[Robert Rand]], *Formally Verified Quantum Programming*, UPenn (2018) &lbrack;[ediss:3175](https://repository.upenn.edu/edissertations/3175)&rbrack;
+
 
 See also:
 
@@ -158,7 +167,7 @@ See also:
 
 [[!redirects verified software]]
 [[!redirects software verification]]
+[[!redirects formal software verification]]
 
 [[!redirects verified programming]]
-
 
