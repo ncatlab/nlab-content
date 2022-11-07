@@ -1,3 +1,4 @@
+
 # $\varepsilon$-numbers
 
 * table of contents
@@ -5,7 +6,7 @@
 
 ## Definition
 
-An **$\varepsilon$-number** is an [[ordinal number]], or more generally a [[surreal number]], $\alpha$, such that $\alpha = \omega^\alpha$, where $\omega$ is the first infinite ordinal.  In other words, it is a [[fixed point]] of the exponential map $\lambda x. \omega^x$.
+An **$\varepsilon$-number** is an [[ordinal number]], or more generally a [[surreal number]], $\alpha$, such that $\alpha = \omega^\alpha$, where $\omega$ is the first infinite ordinal.  In other words, it is a [[fixed point]] of the [[exponential map]] $\lambda x. \omega^x$.
 
 ## Properties
 
@@ -23,11 +24,15 @@ Similarly, the surreal $\varepsilon$-numbers have the same order type as the sur
 [[!redirects epsilon numbers]]
 [[!redirects ∞-number]]
 [[!redirects ∞-numbers]]
-[[!redirects ? number]]
-[[!redirects ? numbers]]
+[[!redirects ε number]]
+[[!redirects ε-numbers]]
 [[!redirects ∞-number]]
 [[!redirects ∞-numbers]]
-[[!redirects ? number]]
-[[!redirects ? numbers]]
-[[!redirects ??]]
-[[!redirects ??]]
+[[!redirects ε number]]
+[[!redirects ε numbers]]
+[[!redirects ε-number]]
+[[!redirects ε-numbers]]
+[[!redirects ε number]]
+[[!redirects ε numbers]]
+[[!redirects ε]]
+[[!redirects ε]]
