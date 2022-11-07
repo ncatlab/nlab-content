@@ -192,6 +192,8 @@ CPM, classical structures, ...
 
 ## References
 
+### General
+
 Textbook accounts:
 
 * [[Michael A. Nielsen]], [[Isaac L. Chuang]], *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
@@ -271,6 +273,12 @@ In relation to [[topological phases of matter]]:
 In relation to the [[AdS-CFT correspondence]] via [[holographic entanglement entropy]]:
 
 * Bowen Chen, Bartlomiej Czech, Zi-zhi Wang, *Quantum Information in Holographic Duality* ([arXiv:2108.09188](https://arxiv.org/abs/2108.09188))
+
+
+
+
+[[!include quantum information theory via string diagrams -- references]]
+
 
 
 
