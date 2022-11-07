@@ -475,12 +475,18 @@ relating it to the [[topos theory|topos-theoretic]] formulation in
 * [[Joost Nuiten]], _[[schreiber:bachelor thesis Nuiten|Bohrification of local nets of observables]]_
 
 
-
 Aspects of quantum mechanics in [[category theory]] and [[topos theory]] are discussed in 
 
 * [[Hans Halvorson]] (ed.) _Deep Beauty -- Understanding the quantum world through mathematical innovation_ Cambridge (2011) ([pdf](http://www.tacron.com/uploads/Deep_Beauty_-_Understg_the_Quantum_World_Through_Mathem._Innov._-_H._Halvorson__Cambridge__2011__WW.pdf))
 
 This discusses for instance [[higher category theory and physics]] and the [[Bohr topos]] of a quantum system.
+
+
+
+[[!include quantum information theory via string diagrams -- references]]
+
+
+
 
 [[!redirects quantum physics]]
 [[!redirects quantum theory]]
