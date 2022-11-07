@@ -492,6 +492,10 @@ The higher dimensional string diagrams ("zoom complexes" ([Kock-Joyal-Batanin-Ma
 
 
 
+[[!include quantum information theory via string diagrams -- references]]
+
+
+
 [[!redirects string diagrams]]
 [[!redirects circuit diagram]]
 [[!redirects circuit diagrams]]
