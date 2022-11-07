@@ -255,7 +255,24 @@ Formal [[quantum programming language]]-perspective on quantum circuits:
 * [[Yuri Gurevich]], [[Andreas Blass]], *Software science view on quantum circuit algorithms* &lbrack;[arXiv:2209.13731](https://arxiv.org/abs/2209.13731)&rbrack;
 
 
+
+
+
+[[!include quantum information theory via string diagrams -- references]]
+
+
+
+
 [[!include quantum programming languages -- references]]
+
+
+
+
+
+
+
+
+
 
 
 [[!redirects quantum circuit diagrams]]
