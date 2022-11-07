@@ -21,9 +21,16 @@ On the [[2-category theory]] of [[monads]] and their [[Eilenberg-Moore categorie
 * [[Stephen Lack]], [[Ross Street]], *The formal theory of monads II*, Journal of Pure and Applied Algebra
 **175** 1–3 (2002) 243-265 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00137-8">doi:10.1016/S0022-4049(02)00137-8</a>&rbrack;
 
-Introducing [[orientals]]:
+Introducing the notion of *[[orientals]]*:
 
-* {#Street87} [[Ross Street]], _The algebra of oriented simplexes_, J. Pure Appl. Algebra **49** (1987) 283-335;  $[$[pdf](http://www.math.mq.edu.au/~street/aos.pdf), <a href="https://doi.org/10.1016/0022-4049(87)90137-X">doi:10.1016/0022-4049(87)90137-X</a>, MR89a:18019$]$
+* {#Street87} [[Ross Street]], _The algebra of oriented simplexes_, J. Pure Appl. Algebra **49** (1987) 283-335;  &lbrack;[pdf](http://www.math.mq.edu.au/~street/aos.pdf), <a href="https://doi.org/10.1016/0022-4049(87)90137-X">doi:10.1016/0022-4049(87)90137-X</a>, MR89a:18019&rbrack;
+
+On [[Frobenius monads]]:
+
+* [[Ross Street]], *Frobenius monads and pseudomonoids*, J. Math. Phys. **45** 3930 (2004) &lbrack;[doi:10.1063/1.1788852](https://doi.org/10.1063/1.1788852)&rbrack;
+
+
+
 
 
 An attempt to fomulate [[descent]] theory using [[strict omega-categories]]:
