@@ -18,7 +18,9 @@ The [[type theory|type-theoretic]] version of the fact that in [[set theory]] [[
 
 ## Definition ##
 
-In [[Martin-Löf type theory]], given [[types]] $A$ and $B$, a [[function]] $f:A \to B$, and [[terms]] $a:A$ and $b:A$, there is a [[function type|function]] $\mathrm{ap}_f:(a =_A b) \to (f(a) =_B f(b))$ called the **action on [[identifications]] of $f$** or the **application of $f$ to identifications**. 
+In [[Martin-Löf type theory]], given [[types]] $A$ and $B$, a [[function]] $f:A \to B$, and [[terms]] $a:A$ and $b:A$, there is a [[function type|function]] 
+$$\mathrm{ap}_f(a, b):(a =_A b) \to (f(a) =_B f(b))$$ 
+called the **action on [[identifications]] of $f$** or the **application of $f$ to identifications**. 
 
 ## Properties ##
 
