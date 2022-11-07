@@ -19,7 +19,7 @@
 
 ## Idea
 
-In [[quantum computation]] the term "dynamic lifting" (mostly used in the *[[Quipper]]*-community) refers to the outcome of [[quantum measurement]]-results -- which due to the intrinsic stochastic nature of [[quantum physics]] can be known only during runtime (ie. "dynamically") -- being turned into (ie. "lifted" back to) parameters on which subsequent classical [[computation]] may be conditioned, which may in turn [[controlled quantum gate|control]] further [[quantum circuits]], etc.:
+In [[quantum computation]] the term "dynamic lifting" (mostly used in the *[[Quipper]]*-community, starting around [Green et al (2013), p. 5](#GLRSV13)) refers to the outcome of [[quantum measurement]]-results --- which can be known only during runtime (ie. "dynamically"), due to the intrinsic stochastic nature of [[quantum physics]]  --- being turned into (ie. "lifted" back to) [[variables]] on which subsequent classical [[computation]] may be conditioned, which may then in turn [[controlled quantum gate|control]] further [[quantum circuits]], etc.:
 
 \begin{imagefromfile}
     "file_name": "SQRAMschema-WithDynLifting.jpg",
@@ -33,6 +33,8 @@ In [[quantum computation]] the term "dynamic lifting" (mostly used in the *[[Qui
     },
     "caption": "SQRAM model adapted from [Nagarajan, Papanikolaou & Williams 2007, Fig 1](#NagarajanPapanikolaouWilliams07)"
 \end{imagefromfile}
+
+Dynamic lifting is thought (eg. [Rand (2018),p. 52](#Rand18)) to be optional in cases like the [[quantum teleportation protocol]] but necessary for applications like [[quantum error correction]].
 
 There have been several (partial) proposals for the precise [[categorical semantics]] of this idea, see the references [below](#ReferencesCategoricalSemantics).
 
@@ -48,13 +50,13 @@ Explicit discussion includes:
 * {#NagarajanPapanikolaouWilliams07} Rajagopal Nagarajan, Nikolaos Papanikolaou, David Williams, *Simulating and Compiling Code for the Sequential Quantum Random Access Machine*, Electronic Notes in Theoretical Computer Science Volume 170, 6 March 2007, Pages 101-124 &lbrack;[doi:10.1016/j.entcs.2006.12.014](https://doi.org/10.1016/j.entcs.2006.12.014)&rbrack;
 
 
-The term "dynamic lifting" is mainly used in discussion of the [[quantum programming language]] *[[Quipper]]*/  Its first (brief) appearance might be that in:
+The term "dynamic lifting" is mainly used in discussion of the [[quantum programming language]] *[[Quipper]]*.  Its first (brief) appearance might be that in:
 
 * {#GLRSV13} [[Alexander Green]], [[Peter LeFanu Lumsdaine]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], p.5 of: _Quipper: A Scalable Quantum Programming Language_, ACM SIGPLAN Notices **48** 6 (2013) 333-342 &lbrack;[arXiv:1304.3390](https://arxiv.org/abs/1304.3390), [doi:10.1145/2499370.2462177](https://doi.org/10.1145/2499370.2462177)&rbrack;
 
-More in-depth discussion is in:
+More in-depth discussion of "dynamic lifting" is in:
 
-* [[Robert Rand]], *Formally Verified Quantum Programming*, UPenn (2018) &lbrack;[ediss:3175](https://repository.upenn.edu/edissertations/3175)&rbrack;
+* {#Rand18} [[Robert Rand]], *Formally Verified Quantum Programming*, UPenn (2018) &lbrack;[ediss:3175](https://repository.upenn.edu/edissertations/3175)&rbrack;
 
 ### Categorical semantics
  {#ReferencesCategoricalSemantics}
