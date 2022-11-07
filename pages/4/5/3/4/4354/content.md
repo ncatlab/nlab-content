@@ -10,7 +10,11 @@ On [[quantum measurement]] formulated in [[finite quantum mechanics in terms of 
 
 On [[monoidal category]]-theory with an eye towards [[finite quantum mechanics in terms of dagger-compact categories]] and [[quantum computation]]:
 
-* {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], *Categories for Quantum Theory*, Oxford University Press 2019 ([ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616))
+* {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], *Categories for Quantum Theory*, Oxford University Press 2019 &lbrack;[ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616)&rbrack;
+
+  based on:
+
+  {#HeunenVicary12} [[Chris Heunen]], [[Jamie Vicary]], *Lectures on categorical quantum mechanics* (2012) &lbrack;[pdf](https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf), [[HeunenVicary-QuantumLectures.pdf:file]]&rbrack;
 
 
 category: people
