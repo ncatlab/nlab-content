@@ -65,7 +65,12 @@ Discussion of some [[dependent linear type theory]] and [[categorical semantics]
 
 * [[Peng Fu]], [[Kohei Kishida]], [[Neil Ross]], [[Peter Selinger]],  _A Tutorial Introduction to Quantum Circuit Programming in Dependently Typed Proto-Quipper_, in I. Lanese, M. Rawski  (eds.) _Reversible Computation_ RC 2020. Lecture Notes in Computer Science, vol 12227 &lbrack;[arXiv:2005.08396](https://arxiv.org/abs/2005.08396), [doi:10.1007/978-3-030-52482-1_9](https://doi.org/10.1007/978-3-030-52482-1_9)&rbrack;
 
-{#ReferencesDynamicLifting} The issue of "dynamic lifting" (of "bits" resulting from [[quantum measurement]] back into the "[[context]]"):
+### Dynamic lifting
+{#ReferencesDynamicLifting} 
+
+The issue of "[[dynamic lifting]]" (of "bits" resulting from [[quantum measurement]] back into the "[[context]]"):
+
+* brief mentioning on [GLRSV13, p. 5](#GLRSV13)
 
 * [[Robert Rand]], *Formally Verified Quantum Programming*, UPenn (2018) &lbrack;[ediss:3175](https://repository.upenn.edu/edissertations/3175)&rbrack;
 
