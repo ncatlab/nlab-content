@@ -145,6 +145,9 @@ Linear type theory as such is made explicit for instance in
 
 * [pdf](http://www.cs.cmu.edu/~fp/courses/15816-f01/handouts/lintt.pdf)
 
+* {#MihályiNovitzká13} Daniel Mihályi, Valerie Novitzká, *What about Linear Logic in Computer Science?*, Acta Polytechnica Hungarica **10** 4 (2013) 147-160 &lbrack;[pdf](http://acta.uni-obuda.hu/Mihalyi_Novitzka_42.pdf), [[MihalyiNovitzka-LinearLogic.pdf:file]]&rbrack;
+
+
 ### Lambek's syntactic calculus
 
 Several decades before Girard's article on linear logic, Lambek introduced a sequent calculus without weakening, contraction, or exchange, and described its applications to modeling aspects of natural language (generalizing previous work by Ajdukiewicz and Bar-Hillel on [[categorial grammar]]):
