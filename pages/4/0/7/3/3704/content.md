@@ -26,10 +26,11 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-Central aspects of _finite_ [[quantum mechanics]] (with finite-dimensional [[space of states|state space]], notably for [[tensor products]] of [[qbit]] states) and [[quantum computation]] follow formally from the formal properties of the [[category]] [[Hilb|FinHilb]] of [[finite-dimensional vector space|finite-dimensional]] [[Hilbert spaces]]. These properties are axiomatized by saying that [[Hilb]] is an example of a _[[†-compact category]]_.
+Central aspects of [[quantum mechanics]] with [[finite number|finite]]-[[dimension of a vector space|dimensional]] [[spaces of quantum states]] --- such as [[tensor products]] of [[qbit]] states of relevance in [[quantum information theory]] and [[quantum computation]] --- follow from the formal properties of the [[category]] [[Hilb|FinHilb]] of [[finite-dimensional vector space|finite-dimensional]] [[Hilbert spaces]]. These properties are axiomatized by saying that [[Hilb|FinHilb]] is an example of a _[[†-compact category]]_.
 
-Conversely, much of finite quantum mechanics and quantum computation can be formulated in _any_ &#8224;-compact category, and general reasoning about &#8224;-compact categories themselves yields results about quantum mechanics and quantum computation.
+Conversely, much of finite-dimensional quantum mechanics and quantum computation can be formulated in _any_ &#8224;-compact category, and general reasoning about &#8224;-compact categories themselves yields results about quantum mechanics and quantum computation.
 
 A transparent [[string diagram]] calculus in &#8224;-compact categories as exposed in ([Coecke, Kindergarten quantum mechanics](#CoeckeKindergarten)) provides an intuitive and powerful tool for reasoning in $\dagger$-compact categories.
 
