@@ -20,4 +20,6 @@
 | $\phantom{A}$$\wedge$ | $\phantom{A}$[[logical conjunction]] | 
 | $\phantom{A}$$\vee$ | $\phantom{A}$[[logical disjunction]] |  
 | $\phantom{A}$$\otimes$$\phantom{A}$ | $\phantom{A}$[[multiplicative conjunction]]$\phantom{A}$ |  
-| $\phantom{A}$$\oplus$$\phantom{A}$ | $\phantom{A}$[[multiplicative disjunction]]$\phantom{A}$ |  
+| $\phantom{A}$$\invamp$$\phantom{A}$ | $\phantom{A}$[[multiplicative disjunction]]$\phantom{A}$ |  
+| $\phantom{A}$$\oplus$$\phantom{A}$ | $\phantom{A}$[[additive disjunction]]$\phantom{A}$ |  
+
