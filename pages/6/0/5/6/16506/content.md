@@ -451,6 +451,50 @@ For example, the [[dependent linear type]] of [[qbits]] is the free $\bigcirc_B$
 For more on this see at *[[quantum circuits via dependent linear types]]*.
 \end{example}
 
+This naturally relates to the discussion of [[quantum measurement]] via [[Frobenius algebra]]-structures which is popular in the context of [[quantum information theory via dagger-compact categories]]:
+
+\begin{remark}\label{QuantumrReaderMonadIsFrobenius}
+**(quantum reader monad is Frobenius)**
+\linebreak
+Since the [[direct sum]] of [[vector spaces]] is a [[biproduct]] and using our running assumption that $B$ is a [[finite set]], it follows that the [[underlying]] [[functor]] of the quantum [[reader monad]] from Prop. \ref{QuantumBReaderAlgebrasAreBDependentLinearTypes} coincides with that of the [[coreader comonad]], and hence that the quantum reader monad is a *[[Frobenius monad]]* (see there).
+\end{remark}
+
+\begin{remark}\label{QuantumReaderMonadIsSpecialFrobeniusWriterMonad}
+**(quantum reader monad is special Frobenius writer monad)**
+\linebreak
+  Consider the $B$-[[indexed set|indexed]] the [[direct sum]] $k^{\otimes^B}$ of the [[ground field]] with itself as a $k$-[[associative algebra|algebra]] and write
+
+$$
+  Writer_{k^{\otimes^B}}
+  \;\colon\;
+  Vect \to Vect
+$$
+
+for the [[writer monad]] corresponding to this [[monoid object]] in [[Vect]]: The monad which acts by forming the [[tensor product]] $Writer_{k^{\otimes^B}}(V) \;\coloneqq\; V \otimes \big( k^{\otimes^B} \big) $ and whose monad multiplication and [[unit of a monad]] are induced from the [[multiplication]] and [[unit]] in this monoid.
+
+The above proof of Prop. \ref{QuantumBReaderAlgebrasAreBDependentLinearTypes} shows at once that this [[writer monad]] is [[isomorphism|isomorphic]] to the $B$-reader monad:
+$$
+  \bigcirc_B
+  \;\simeq\;
+  Writer_{k^{\otimes^B}}
+  \,.
+$$ 
+Now the [[module over a monad|monad modules]] over a [[writer monad]] are just the ordinary [[modules]] over the corresponding [[monoid]], so that 
+$$
+  \bigcirc_B Mod(Vect)
+  \;\simeq\;
+  \big(
+    k^{\otimes^B} 
+  \big)Mod(Vect)
+  \,.
+$$
+This provides a rather transparent re-derivation of and alternative perspective on Example \ref{FreeQuantumReaderAlgebras}.
+
+
+[[formal duality|Dually]], as in Prop. \ref{QuantumrReaderMonadIsFrobenius}, the quantum [[coreader comonad]] is isomorphic to the [[coreader comonad]] corresponding to the [[coalgebra]]-[[structure]] on $k^{\otimes^B}$.
+Hence, as a [[Frobenius monad]] (Prop. \ref{QuantumrReaderMonadIsFrobenius}), the quantum reader corresponds to $k^{\otimes^B}$ regarded as a [[Frobenius algebra]], in fact as a commutative and special Frobenius algebra.
+\end{remark}
+
 
 ## Related concepts
 
