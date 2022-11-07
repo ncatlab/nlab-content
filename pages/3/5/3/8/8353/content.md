@@ -125,6 +125,27 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \v
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma, x:A, \Delta \vdash B \; \mathrm{type}}{\Gamma, \Delta[a/x] \vdash \delta_\mathrm{tr}^{\mathrm{refl}_A}(x.B, a):\mathrm{tr}(x.B, a, a, \mathrm{refl}_A(a)) =_{B[a/x] \simeq B[a/x]} \mathrm{id}_{B[a/x]}}$$
 
+### Copy definitions
+
+Another way of typally defining a type $A$ to be a type $B$ is via **copying**. The rules for copying the type $A$ over to the symbol $B$ are given as follows:
+
+Formation rules for the symbol $B$:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash B \; \mathrm{type}}$$
+
+Introduction rules for the symbol $B$:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{copy}(a):B}$$
+
+Elimination rules for the symbol $B$:
+$$\frac{\Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash e:B}{\Gamma \vdash \mathrm{ind}_{B}^C(c, e):C[e/z]}$$
+
+Computation rules for the symbol $B$:
+$$\frac{\Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_B:\mathrm{ind}_{B}^C(c, \mathrm{copy}(a)) =_{C[\mathrm{copy}(a)/z]} c[a/x]}$$
+
+Uniqueness rules for the symbol $B$:
+$$\frac{\Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash e:B \quad \Gamma, y:B \vdash u:C \quad \Gamma, a:A \vdash i_\mathrm{copy}(u):u[\mathrm{copy}(a)/y] =_{C[\mathrm{copy}(a)/y]} c[a/x]}{\Gamma \vdash \eta_{B}:u[e/z] =_{C[e/z]} \mathrm{ind}_{B}^C(c, e)}$$
+
+Copying becomes important for typally defining the [[type of equivalences]], as the usual way of typally defining types involves the [[type of equivalences]] and thus isn't available. 
+
 ## The initialization operator
 
 Section to be written on the use of $\coloneqq$ in mathematics; for the time being, see [[initialization operator]]. 
@@ -202,6 +223,10 @@ which might be the first paper to mention intensional equality (and the fact tha
 
 where de Bruijn makes a distinction between definitional equality and "book" equality.
 
+Copying types could be found in 
+
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]], *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$ 
+
 [[!redirects definition]]
 [[!redirects definitions]]
 
@@ -222,3 +247,9 @@ where de Bruijn makes a distinction between definitional equality and "book" equ
 [[!redirects intensional equalities]]
 [[!redirects extensional equality]]
 [[!redirects extensional equalities]]
+
+[[!redirects copying]]
+[[!redirects copy definition]]
+[[!redirects copy definitions]]
+[[!redirects copy-definition]]
+[[!redirects copy-definitions]]
