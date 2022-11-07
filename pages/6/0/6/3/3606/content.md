@@ -20,6 +20,10 @@ More on the use of [[string diagrams]] in and [[finite quantum mechanics in term
 
 * [[Bob Coecke]], [[Ross Duncan]], *Interacting Quantum Observables: Categorical Algebra and Diagrammatics*, New J. Phys. **13** (2011) 043016 $[$[arXiv:0906.4725](http://arxiv.org/abs/0906.4725), [doi:10.1088/1367-2630/13/4/043016](https://doi.org/10.1088/1367-2630/13/4/043016)$]$
 
+Textbook account:
+
+* [[Bob Coecke]], [[Aleks Kissinger]], *Picturing Quantum Processes -- A First Course in Quantum Theory and Diagrammatic Reasoning*, Cambridge University Press (2017) &lbrack;[ISBN:9781107104228](https://www.cambridge.org/ae/academic/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/picturing-quantum-processes-first-course-quantum-theory-and-diagrammatic-reasoning?format=HB&isbn=9781107104228)&rbrack;
+
 
 Motivation and introduction basic concepts of [[category theory]] for an audience familiar with standard [[physics]] and in particular with [[quantum mechanics]] (see also [[higher category theory and physics]]):
 
