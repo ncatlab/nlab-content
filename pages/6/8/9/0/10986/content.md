@@ -42,6 +42,12 @@ In general, if a monad $M$ admits a [[right adjoint]] $K$, then $K$ carries a [[
 =-- 
 
 
+## Examples 
+ {#Examples}
+
+* For $B$ a [[finite set]] and $k$ any [[ground field]], the [[reader monad]] $\bigcirc_B \;\colon\; Vect_k \to Vect_k$ on $k$-[[VectorSpaces]] is Frobenius and [[isomorphism|isomorphic]] to the [[writer monad]] corresponding to the [[Frobenius algebra]] $k^{\oplus^B}$ (see [there](function+monad#QuantumReaderMonadIsSpecialFrobeniusWriterMonad) for details), this reflecting the existence of [[biproducts]] (namely [[direct sums]]) of [[vector spaces]].
+
+
 ## Related concepts
 
 * [[Wirthmüller context]]
