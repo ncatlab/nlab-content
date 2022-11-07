@@ -39,6 +39,11 @@ Original description:
 
 * [[Jonathan Grattage]], *A functional quantum programming language*, PhD thesis, Nottingham (2006) &lbrack;[eprints:10250](http://eprints.nottingham.ac.uk/10250), [pdf](https://eprints.nottingham.ac.uk/10250/1/thesis.pdf)&rbrack;
 
+* [[Alexander Green]], *Towards a formally verified functional quantum programming language* (2010) &lbrack;[eprints:11457](http://eprints.nottingham.ac.uk/11457)&rbrack;
+
+  > (emphasis on [[formal software verification]])
+
+
 Review:
 
 * [[Jonathan Grattage]], _An overview of QML with a concrete implementation in Haskell_, Quantum Physics and Logic 2008 &lbrack;[arXiv:0806.2735](https://arxiv.org/abs/0806.2735)&rbrack;
