@@ -90,7 +90,7 @@ The corresponding [[string diagrams]] are known in quantum computation as *[[qua
 
 On [[Q Sharp]]:
 
-*  Kartik Singhal, Kesha Hietala, Sarah Marshall, Robert Rand, *Q# as a Quantum Algorithmic Language*, Proceedings of *Quantum Physics and Logic* (2022) &lbrack;[arXiv:2206.03532](https://arxiv.org/abs/2206.03532)&rbrack;
+*  Kartik Singhal, Kesha Hietala, Sarah Marshall, Robert Rand, *Q# as a Quantum Algorithmic Language*, Proceedings of *Quantum Physics and Logic* (2022) $[$[arXiv:2206.03532](https://arxiv.org/abs/2206.03532)$]$
 
 
 On classically controlled quantum computation:
