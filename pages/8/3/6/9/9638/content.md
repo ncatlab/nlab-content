@@ -284,10 +284,6 @@ See also:
 
 
 
-Discussion in terms of [[monoidal category]]-theory and [[finite quantum mechanics in terms of dagger-compact categories]]:
-
-* {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], *Categories for Quantum Theory*, Oxford University Press 2019 ([ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616))
-
 
 Experimental demonstration of "[[quantum supremacy]]" ("quantum advantage"):
 
@@ -411,11 +407,8 @@ An exposition along these lines is in
 
 
 
-### In terms of dagger-compact categories
 
-Discussion in terms of [[finite quantum mechanics in terms of dagger-compact categories]]:
-
-* [[Jamie Vicary]], Section 3 of: _The Topology of Quantum Algorithms_, (LICS 2013) Proceedings of 28th Annual ACM/IEEE Symposium on Logic in Computer Science, pages 93-102 ([arXiv:1209.3917](https://arxiv.org/abs/1209.3917))
+[[!include quantum information theory via string diagrams -- references]]
 
 
 
