@@ -103,7 +103,7 @@ A [[short exact sequence]] of [[Lie algebras]] is a [[diagram]]
 $$ 0\to \mathfrak{k}
 \overset{i}\to \mathfrak{g}\overset{p}\to\mathfrak{b}\to 0$$
 
-where $\mathfrak{k},\mathfrak{g},\mathfrak{b}$ are Lie algebras, $i,p$ are homomorphisms of Lie algebras and the underlying diagram of vector spaces is exact, i.e. $Ker(p)=Im(i)$, $Ker(i)=0$ and $Im(p)=0$. 
+where $\mathfrak{k},\mathfrak{g},\mathfrak{b}$ are Lie algebras, $i,p$ are homomorphisms of Lie algebras and the underlying diagram of vector spaces is exact, i.e. $Ker(p)=Im(i)$, $Ker(i)=0$ and $Im(p)=\mathfrak{b}$. 
 
 We also say that this diagram (and sometimes, loosely speaking, $\mathfrak{g}$ itself) is a **Lie algebra extension** of $\mathfrak{b}$ by the "kernel" $\mathfrak{k}$. 
 
