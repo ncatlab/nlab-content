@@ -406,10 +406,9 @@ Surveys inclue
 * {#Maietti05} [[Maria Maietti]], _Modular correspondence between dependent type theories and categories including pretopoi and topoi_, Mathematical Structures in Computer Science archive Volume 15 Issue 6, December 2005  Pages 1089 - 1149 ([pdf](https://www.math.unipd.it/~maietti/papers/tumscs.pdf))
 
 
-The equivalence between [[linear logic]] and [[star-autonomous categories]] is due to
+The [[categorical semantics]] of [[linear logic]] in [[star-autonomous categories]] is due to
 
-* {#Seely89} [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
- 
+* {#Seely89} [[R. A. G. Seely]],  *Linear logic, $\ast$-autonomous categories and cofree coalgebras*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz), [ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92)&rbrack;
 
 and reviews/further developments are in 
 
