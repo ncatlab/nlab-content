@@ -35,7 +35,7 @@ More generally, if $p$ and $q$ are any two [[relations]] on the same domain, the
 
 Disjunction as defined above is sometimes called __inclusive disjunction__ to distinguish it from [[exclusive disjunction]], where *exactly* one of $p$ and $q$ must be true.
 
-In the context of [[substructural logics]] such as [[linear logic]], we often have both _additive disjunction_ $\oplus$ and _[[multiplicative disjunction]]_ $\parr$; see the [Rules of Inference](#RoI) below for the distinction.  In [[linear logic]], additive disjunction is the [[join]] under the [[entailment]] relation, just like disjunction in [[classical logic]] (and [[intuitionistic logic]]), while multiplicative disjunction is something different.
+In the context of [[substructural logics]] such as [[linear logic]], we often have both _[[additive disjunction]]_ $\oplus$ and _[[multiplicative disjunction]]_ $\parr$; see the [Rules of Inference](#RoI) below for the distinction.  In [[linear logic]], additive disjunction is the [[join]] under the [[entailment]] relation, just like disjunction in [[classical logic]] (and [[intuitionistic logic]]), while multiplicative disjunction is something different.
 
 Disjunction is [[de Morgan dual]] to [[logical conjunction|conjunction]].
 
@@ -70,6 +70,7 @@ For a non-affirmative example, in the arithmetic of (located) [[real numbers]], 
 ## Rules of inference {#RoI}
 
 The [[rule of inference|rules of inference]] for disjunction in [[sequent calculus]] are dual to those for [[logical conjunction|conjunction]]:
+
 $$ \begin {gathered}
    \frac { \Gamma , p , \Delta \vdash \Sigma ; \; \Gamma , q , \Delta \vdash \Sigma } { \Gamma , p \vee q , \Delta \vdash \Sigma } \; \text {left additive} \\
    \frac { \Gamma \vdash \Delta , p , \Sigma } { \Gamma \vdash \Delta , p \vee q , \Sigma } \; \text {right additive 0} \\
@@ -109,4 +110,3 @@ $$ \begin {gathered}
 [[!redirects or]]
 [[!redirects inclusive or]]
 
-[[!redirects additive disjunction]]
