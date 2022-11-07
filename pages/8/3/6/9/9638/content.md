@@ -46,20 +46,22 @@ Any practical quantum computer will be *[[classically controlled quantum computa
     "caption": "From [Miszczak 11](#Miszczak11)"
 \end{imagefromfile}
 
-\linebreak
+{#DynamicLifting} But in general the classical control itself may be conditioned on [[quantum measurement]]-outcomes available only during runtime, a more subtle mechanism that (at least in the [[Quipper]]-community) has come to be called "[[dynamic lifting]]":
 
 \begin{imagefromfile}
-    "file_name": "SQRAMPrinciple.jpg",
-    "width": 400,
+    "file_name": "SQRAMschema-WithDynLifting.jpg",
+    "width": 500,
     "unit": "px",
     "margin": {
-        "top": -40,
+        "top": -20,
         "bottom": 20,
         "right": 0, 
         "left": 10
     },
-    "caption": "From [Nagarajan, Papanikolaou & Williams 07](#NagarajanPapanikolaouWilliams07)"
+    "caption": "SQRAM model adapted from [Nagarajan, Papanikolaou & Williams 2007, Fig 1](#NagarajanPapanikolaouWilliams07)"
 \end{imagefromfile}
+
+
 
 See the list of references [below](#ReferencesClassicallyControlledQuantumComputing).
 
@@ -490,7 +492,6 @@ There exist toy desktop quantum computers for educational purposes, operating on
 * [CIQTEK](https://en.ciqtek.com/): *[Diamond Quantum Computer for Education](https://en.ciqtek.com/products/detail/diamond-quantum-computer-for-education.html?id=644102ee-942e-4568-aacd-20241a1a2469&id=644102ee-942e-4568-aacd-20241a1a2469)*
 
 * [SpinQ](https://www.spinquanta.com/): *SpinQ Triangulum: a commercial three-qubit desktop quantum computer* &lbrack;[arXiv:2202.02983](https://arxiv.org/abs/2202.02983)&rbrack;
-
 
 
 
