@@ -13,7 +13,7 @@ The assignment operator in purely [[functional programming]] languages like [[Ha
 ## See also
 
 * [[functional programming]]
-* [[definition]]
+* [[definition]], [[assignment]], [[equality]]
 
 ## References
 
