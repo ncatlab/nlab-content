@@ -66,7 +66,9 @@ $$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm
 * Introduction and propositional equality reflection rules for term definition:
 $$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b \equiv_A a \; \mathrm{true}}$$
 
-Finally, propositional equality can be used in the [[computation rules]] and [[uniqueness rules]] of types: 
+## In computation and uniqueness rules
+
+Propositional equality can be used in the [[computation rules]] and [[uniqueness rules]] of types: 
 
 * Computation rules for dependent product types:
 
