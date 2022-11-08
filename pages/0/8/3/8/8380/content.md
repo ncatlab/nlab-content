@@ -734,9 +734,21 @@ Discussion of [[comonads]] in this context includes
 
 Discussion of aspects of [[quantum computing]] in terms of monads:
 
-* [[Thorsten Altenkirch]], Alexander Green, _The quantum IO monad_, in _Semantic Techniques in Quantum Computation_, January 2009, appeared in 2010 ([pdf](http://www.cs.nott.ac.uk/~txa/publ/qio-chapter.pdf), [talk slides](http://www.cs.nott.ac.uk/~txa/talks/qnet06.pdf))
-
 * J. K. Vizzotto, [[Thorsten Altenkirch]], A. Sabry, _Structuring quantum effects: superoperators as arrows_ ([arXiv:quant-ph/0501151](http://arxiv.org/abs/quant-ph/0501151))
+
+
+The [[quantum IO monad]]:
+
+* [[Thorsten Altenkirch]], [[Alexander Green]], *The quantum IO monad*, Ch. 5 of: Simon Gay, Ian Mackie (eds.): *Semantic Techniques in Quantum Computation* (2010) 173-205 &lbrack;[pdf](http://www.cs.nott.ac.uk/~txa/publ/qio-chapter.pdf), [talk slides](http://www.cs.nott.ac.uk/~txa/talks/qnet06.pdf), [doi:10.1017/CBO9781139193313.006](https://doi.org/10.1017/CBO9781139193313.006)&rbrack;
+
+Exposition:
+
+* [[Alexander Green]], *The Quantum IO Monad*, Nottingham  (2007) &lbrack;[pdf](http://drinkupthyzider.co.uk/asg/pdfs/bctcs07.pdf), [[Green-QIOMonad.pdf:file]] &rbrack;
+
+Implementation in [[Haskell]]:
+
+* [[Alexander Green]], *[hackage.haskell.org/package/QIO](https://hackage.haskell.org/package/QIO)*
+
 
 
 
