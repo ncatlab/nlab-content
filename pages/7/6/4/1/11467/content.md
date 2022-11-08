@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _Veneziano amplitude_ is the 1-loop [[string scattering amplitude]] for the scattering of four [[open string|open]] [[bosonic strings]] in their [[tachyon]] [[quantum state|states]]. Hence equivalently it is a certain [[n-point function|4-point function]] in a certain [[boundary field theory|boundary]] [[2d CFT]].
+The _Veneziano amplitude_ is the tree-level [[string scattering amplitude]] for the scattering of four [[open string|open]] [[bosonic strings]] in their [[tachyon]] [[quantum state|states]]. Hence equivalently it is a certain [[n-point function|4-point function]] in a certain [[boundary field theory|boundary]] [[2d CFT]].
 
 Historically, this amplitude first arose in [[dual resonanace models]] and the realization that it has a natural interpretation as the scattering of [[strings]] was one of the main original motivations for the development of [[string theory]].
 
