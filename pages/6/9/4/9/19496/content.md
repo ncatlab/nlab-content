@@ -8,8 +8,7 @@
 | $\phantom{A}$$\vdash$$\phantom{A}$ | $\phantom{A}$[[entailment]]  / [[sequent]]$\phantom{A}$ | 
 | $\phantom{A}$$\top$$\phantom{A}$ | $\phantom{A}$[[true]]  / [[top]]$\phantom{A}$ | 
 | $\phantom{A}$$\bot$$\phantom{A}$ | $\phantom{A}$[[false]] / [[bottom]]$\phantom{A}$ | 
-| $\phantom{A}$$\Rightarrow$ | $\phantom{A}$[[implication]] | 
-| $\phantom{A}$$\to$ | $\phantom{A}$[[function type]] | 
+| $\phantom{A}$$\Rightarrow$ | $\phantom{A}$[[implication]] |  
 | $\phantom{A}$$\Leftrightarrow$ | $\phantom{A}$[[logical equivalence]] | 
 | $\phantom{A}$$\not$ | $\phantom{A}$[[negation]] |
 | $\phantom{A}$$\neq$ | $\phantom{A}$[[negation]] of [[equality]] / [[apartness]]$\phantom{A}$ |
@@ -19,6 +18,17 @@
 | $\phantom{A}$$\forall$ | $\phantom{A}$[[universal quantification]]$\phantom{A}$ |  
 | $\phantom{A}$$\wedge$ | $\phantom{A}$[[logical conjunction]] | 
 | $\phantom{A}$$\vee$ | $\phantom{A}$[[logical disjunction]] |  
+|  |  |
+| **symbol** | **in [[type theory]] ([[propositions as types]])**  |
+| $\phantom{A}$$\to$ | $\phantom{A}$[[function type]] ([[implication]]) |
+| $\phantom{A}$$\times$ | $\phantom{A}$[[product type]] ([[conjunction]]) |
+| $\phantom{A}$$+$ | $\phantom{A}$[[sum type]] ([[disjunction]]) |
+| $\phantom{A}$$0$ | $\phantom{A}$[[empty type]] ([[false]]) |
+| $\phantom{A}$$1$ | $\phantom{A}$[[unit type]] ([[true]]) |
+| $\phantom{A}$$=$ |  $\phantom{A}$[[identity type]] ([[equality]]) |
+| $\phantom{A}$$\simeq$ | $\phantom{A}$[[equivalence of types]] ([[logical equivalence]]) |
+| $\phantom{A}$$\sum$ | $\phantom{A}$[[dependent sum type]] ([[existential quantifier]]) |
+| $\phantom{A}$$\prod$ | $\phantom{A}$[[dependent product type]] ([[universal quantifier]])|
 |  |  |
 | **symbol** | **in [[linear logic]]**  |
 | $\phantom{A}$$\multimap$$\phantom{A}$ | $\phantom{A}$[[linear implication]]$\phantom{A}$ |  
