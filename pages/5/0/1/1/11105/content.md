@@ -34,6 +34,13 @@ There are various [[fragments]] of [[linear logic]] that contain the multiplicat
 
 [[!include logic symbols -- table]]
 
+## References
+
+Eg.
+
+* {#MihályiNovitzká13} Daniel Mihályi, Valerie Novitzká, p. 3, 8 of: *What about Linear Logic in Computer Science?*, Acta Polytechnica Hungarica **10** 4 (2013) 147-160 &lbrack;[pdf](http://acta.uni-obuda.hu/Mihalyi_Novitzka_42.pdf), [[MihalyiNovitzka-LinearLogic.pdf:file]]&rbrack;
+
+For more see the references at *[[linear logic]]*.
 
 [[!redirects multiplicative conjunction]]
 [[!redirects multiplicative conjunctions]]
