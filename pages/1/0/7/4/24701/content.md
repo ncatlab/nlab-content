@@ -48,11 +48,9 @@ Objective type theory consists of the following judgments:
 
 * Context judgments, where we judge $\Gamma$ to be a context, $\Gamma \; \mathrm{ctx}$. 
 
-* Fresh variable judgments, where we judge $a$ to be a fresh variable, $a \; \mathrm{fresh}$
-
 Contexts are lists of term judgments $a:A$, $b:B$, $c:C$, et cetera, and are formalized by the rules for the empty context and extending the context by a term judgment
 
-$$\frac{}{() \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \; \mathrm{fresh}}{(\Gamma, a:A) \; \mathrm{ctx}}$$
+$$\frac{}{() \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash A \; \mathrm{type}}{(\Gamma, a:A) \; \mathrm{ctx}}$$
 
 Note that type and term definition judgments are not judgmental equalities; the former are [[single assignment operators]] while the latter are [[equivalence relations]]. 
 
