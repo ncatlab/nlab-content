@@ -1,4 +1,6 @@
 
+$\multimap$
+
 Every [[pair]] of [[adjoint functors]] $(F \dashv U) \;\colon\; \mathbf{C}' \leftrightarrow \mathbf{C}$ (with [[unit of an adjunction|unit]] $\eta^{U F}$ and [[counit of an adjunction|counit]] $\epsilon^{F U}$) between [[categories]] $\mathbf{C}$, $\mathbf{C}'$ fits into a [[commuting diagram]] in [[Cat]] of the following form:
 
 \begin{imagefromfile}
