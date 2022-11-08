@@ -10,6 +10,10 @@ On [[classically controlled quantum computation]]:
 
 * {#Devitt14} [[Simon J. Devitt]], *Classical Control of Large-Scale Quantum Computers*, In: S. Yamashita, S. Minato  (eds.) *Reversible Computation* Lecture Notes in Computer Science, vol 8507. Springer 2014 ([arXiv:1405.4943](https://arxiv.org/abs/1405.4943), [doi:10.1007/978-3-319-08494-7_3](https://doi.org/10.1007/978-3-319-08494-7_3))
 
+On [[classically controlled quantum computation]] for [[quantum error correction]]:
+
+* {#PalerHerrDevitt19} Alexandru Paler, Daniel Herr, [[Simon J. Devitt]], *Really Small Shoe Boxes - On Realistic Quantum Resource Estimation*, Computer **52** 6 (2019) &lbrack;[arXiv:1902.08104](https://arxiv.org/abs/1902.08104), [doi:10.1109/MC.2019.2908621](https://doi.org/10.1109/MC.2019.2908621)&rbrack;
+
 
 category: people
 
