@@ -179,6 +179,8 @@ As a [[subset]] of $S \times S$, the equality relation is often called the __[[d
 
 * [[alpha-equivalence]]
 
+* [[definition]], [[assignment]], [[equality]]
+
 * [[identity type]], 
 
 * [[identity of indiscernibles]]
