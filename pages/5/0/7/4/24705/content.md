@@ -162,6 +162,20 @@ We assume a [[dependent linear type theory]] which [[functor|functorially]] obta
 
 
 
+\begin{imagefromfile}
+    "file_name": "CharacteristicOfLinearTypes-221108jpg",
+    "width": "800",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
 
 ### Classical modal logic
  {#ClassicalModalLogic}
