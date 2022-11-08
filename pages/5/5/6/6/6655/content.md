@@ -103,6 +103,21 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \qua
 * Variable conversion rule:
 $$\frac{\Gamma \vdash A \equiv B \; \mathrm{type} \quad \Gamma, x:A, \Delta \vdash \mathcal{J}}{\Gamma, x:B, \Delta \vdash \mathcal{J}}$$
 
+#### Definitions
+
+In addition, there are judgments for the initializaiton operator for types and for terms:
+
+* $\Gamma \vdash A' \coloneqq A \; \mathrm{type}$ - $A'$ is defined to be the type $A$ in context $\Gamma$.
+* $\Gamma \vdash a' \coloneqq a : A$ - $a'$ is defined to be the term $a:A$ of type $A$ in context $\Gamma$.
+
+The initializaiton operator has its own structural rules: type formation, term introduction, and equality reflection.
+
+* Formation and judgmental equality reflection rules for type definition:
+$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \equiv A \; \mathrm{type}}$$
+
+* Introduction and judgmental equality reflection rules for term definition:
+$$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b \equiv a:A}$$
+
 #### Rules for types
 
 Each type in Martin-Löf dependent type theory comes with a type [[formation rule]], a term [[introduction rule]], a term [[elimination rule]], a [[computation rule]], and an optional [[uniqueness rule]]. The elimination rules we give here are not [[contextual elimination rules]], and the conversion rules given here are not [[contextual conversion rules]]. 
@@ -386,6 +401,21 @@ $$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vda
 * Variable conversion rule:
 
 $$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash A \equiv B \; \mathrm{true} \quad \Gamma, x:A, \Delta \vert \Phi \vdash \mathcal{J}}{\Gamma, x:B, \Delta \vert \Phi \vdash \mathcal{J}}$$
+
+#### Definitions
+
+In addition, there are judgments for the initializaiton operator for types and for terms:
+
+* $\Gamma \vdash A' \coloneqq A \; \mathrm{type}$ - $A'$ is defined to be the type $A$ in context $\Gamma$.
+* $\Gamma \vdash a' \coloneqq a : A$ - $a'$ is defined to be the term $a:A$ of type $A$ in context $\Gamma$.
+
+The initializaiton operator has its own structural rules: type formation, term introduction, and equality reflection.
+
+* Formation and judgmental equality reflection rules for type definition:
+$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \equiv A \; \mathrm{true}}$$
+
+* Introduction and judgmental equality reflection rules for term definition:
+$$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b \equiv_A a \; \mathrm{true}}$$
 
 #### Rules for types
 
