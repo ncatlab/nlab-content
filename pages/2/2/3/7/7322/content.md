@@ -9,9 +9,16 @@ Thorsten Altenkirch is an associate professor for [[computer science]] at Univer
 
 ## Selected writings
 
-On the [[quantum programming language]] [[QML]]:
+Introducing the [[quantum programming language]] [[QML]]:
 
 * {#AltenkirchGrattage05} [[Thorsten Altenkirch]], [[Jonathan Grattage]], _A functional quantum programming language_, Logic in Computer Science, 2005. Proceedings. 20th Annual IEEE Symposium on, 26-29 June 2005 Page(s):249 - 258 ([arXiv:quant-ph/0409065](https://arxiv.org/abs/quant-ph/0409065), [doi:10.1109/LICS.2005.1](https://doi.org/10.1109/LICS.2005.1), [pdf](http://www.cs.nott.ac.uk/~txa/publ/qml.pdf))
+
+Introducing the [[quantum IO monad]]:
+
+* [[Thorsten Altenkirch]], *The Quantum IO Monad*, Nottingham (2006) &lbrack;[pdf](http://www.cs.nott.ac.uk/~txa/talks/qnet06.pdf), [[Altenkirch-QIOMonad.pdf:file]]&rbrack;
+
+* {#AltenkirchGreen10} [[Thorsten Altenkirch]], [[Alexander Green]], *The quantum IO monad*, Ch. 5 of: Simon Gay, Ian Mackie (eds.): *Semantic Techniques in Quantum Computation* (2010) 173-205 &lbrack;[pdf](http://www.cs.nott.ac.uk/~txa/publ/qio-chapter.pdf), [doi:10.1017/CBO9781139193313.006](https://doi.org/10.1017/CBO9781139193313.006)&rbrack;
+
 
 Introducing [[relative monad|relative]] [[monads in computer science]]:
 
