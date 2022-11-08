@@ -49,7 +49,7 @@ $$
   \,.
 $$
 
-This was originally proven for holomorphic [[line bundles]] in [Oka 1913](#Oka13) (in which case it says that [[holomorphic line bundles]] over [[Stein manifolds]] are fully classified by their [[first Chern class]]) and generalized in [Grauert 1958](#Grauert58) to holomorphic [[vector bundles]] and further to holomorphic [[principal bundles]] with [[structure group]] any [[complex Lie group]].
+This was originally proven for holomorphic [[line bundles]] in [Oka 1939](#Oka39) (in which case it says that [[holomorphic line bundles]] over [[Stein manifolds]] are fully classified by their [[first Chern class]]) and generalized in [Grauert 1958](#Grauert58) to holomorphic [[vector bundles]] and further to holomorphic [[principal bundles]] with [[structure group]] any [[complex Lie group]].
 
 As a principle, this *Oka-Grauert principle* is sometimes stated as ([Forstnerič 12](#Forstneric12)):
 
@@ -199,7 +199,7 @@ See also:
 
 Original articles:
 
-* {#Oka13} [[Kiyoshi Oka]], _Sur les fonctions des plusieurs variables. III: Deuxi&#232;me probl&#232;me de Cousin_, J. Sc. Hiroshima Univ. __9__, 7&#8211;19 (1939) ([doi:10.32917/hmj/1558490525](https://projecteuclid.org/journals/hiroshima-mathematical-journal/volume-9/issue-none/Sur-les-fonctions-analytiques-de-plusieurs-variables-IIIDeuxi%c3%a8me-probl%c3%a8me-de/10.32917/hmj/1558490525.full))
+* {#Oka39} [[Kiyoshi Oka]], _Sur les fonctions des plusieurs variables. III: Deuxi&#232;me probl&#232;me de Cousin_, J. Sc. Hiroshima Univ. __9__, 7&#8211;19 (1939) ([doi:10.32917/hmj/1558490525](https://projecteuclid.org/journals/hiroshima-mathematical-journal/volume-9/issue-none/Sur-les-fonctions-analytiques-de-plusieurs-variables-IIIDeuxi%c3%a8me-probl%c3%a8me-de/10.32917/hmj/1558490525.full))
 
 * {#Grauert58} [[Hans Grauert]], _Analytische Faserungen &#252;ber holomorph-vollst&#228;ndigen R&#228;umen_, Math. Ann. __135__, 263&#8211;-273 (1958) ([doi:10.1007/BF01351803](http://dx.doi.org/10.1007/BF01351803))
  
