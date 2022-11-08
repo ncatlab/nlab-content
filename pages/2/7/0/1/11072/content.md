@@ -116,16 +116,21 @@ This presentation also generalizes naturally to [[dependent linear type theory]]
 
 * [[exponential map]]
 
-* [[multiplicative conjunction]]
 
-* [[linear implication]]
+[[!include logic symbols -- table]]
+
 
 ## References
 
-The semantics of ! as a comonad is discussed in:
+Brief survey in a context of [[computer science]]/[[linear type theory]]:
 
-* {#Seely89} [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
- 
+* {#MihályiNovitzká13} Daniel Mihályi, Valerie Novitzká, Section 2.2 of: *What about Linear Logic in Computer Science?*, Acta Polytechnica Hungarica **10** 4 (2013) 147-160 &lbrack;[pdf](http://acta.uni-obuda.hu/Mihalyi_Novitzka_42.pdf), [[MihalyiNovitzka-LinearLogic.pdf:file]]&rbrack;
+
+
+On the semantics of exponential conjunction as a [[comonad]]:
+
+* {#Seely89} [[R. A. G. Seely]],  *Linear logic, $\ast$-autonomous categories and cofree coalgebras*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz), [ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92)&rbrack;
+  
 
 * {#BBPH92} [[Nick Benton]], Gavin Bierman, [[Valeria de Paiva]], [[Martin Hyland]], *Linear lambda-Calculus and Categorical Models Revisited* (1992), [citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.31.6958)
  
@@ -137,8 +142,8 @@ The semantics of ! as a comonad is discussed in:
 
 
 
-* [[Martin Hyland]] and Andreas Schalk, _Glueing and orthogonality for models of linear logic_, [pdf](http://www.cs.man.ac.uk/~schalk/publ/gomll.pdf)
- {#HylandSchalk01}
+* {#HylandSchalk01} [[Martin Hyland]] and Andreas Schalk, _Glueing and orthogonality for models of linear logic_, [pdf](http://www.cs.man.ac.uk/~schalk/publ/gomll.pdf)
+ 
  
 Construction of such comonads based on cofree comonoids can be found in (among other places):
 
@@ -147,7 +152,7 @@ Construction of such comonads based on cofree comonoids can be found in (among o
 * [[Sergey Slavnov]], *On Banach spaces of sequences and free linear logic exponential modality*, Math. Struct. Comp. Sci. 29 (2019) 215-242, [arXiv:1509.03853](https://arxiv.org/abs/1509.03853)
 
 
-The relation to Fock space is discussed in:
+The relation to [[Fock space]] is discussed in:
 
 * {#BlutePanangadenSeely94} [[Richard Blute]], [[Prakash Panangaden]], [[R. A. G. Seely]], _Fock Space: A Model of Linear Exponential Types_ (1994) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.27.6825), [[BPSLinear.pdf:file]])
 
