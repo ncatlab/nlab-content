@@ -252,6 +252,8 @@ can be found in [this work of Gregoire and Leroy](http://uf-ias-2012.wikispaces.
 
 * [[exercise]]
 
+* [[definition]], [[assignment]], [[equality]]
+
 ## References
 
 There is 
