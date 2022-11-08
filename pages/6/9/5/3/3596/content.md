@@ -211,7 +211,7 @@ Besides the Martin-Löf identity types [above](#IdeaMLIdentityTypes)  there are 
 
 For instance, [[cubical identity types]] (such as Swan identity types) are the identity types in [[cubical type theory]], which are such that that applied to the [[type universe]] they *provably* (computationally) satisfy the [[univalence axiom]].
 
-Namely, the [[J-rule]] in [[Martin-Löf dependent type theory]] [above](#IdeaMLIdentityTypes) still involves an ordinary [[definitional equality]] in its statement that the lifted term $\widehat{\sigma}$ is *equal* to the given term $\sigma$ after restriction to self-identitfication. Cubical identity types essentially turns this equality itself into a [[propositional equality]]. 
+Namely, the [[J-rule]] in [[Martin-Löf dependent type theory]] [above](#IdeaMLIdentityTypes) still involves an ordinary [[judgmental equality]] in its statement that the lifted term $\widehat{\sigma}$ is *equal* to the given term $\sigma$ after restriction to self-identitfication. Cubical identity types essentially turns this equality itself into a [[typal equality]]. 
 
 
 Similarly, [[higher observational type theory]] has its appropriate version of higher identity types.
@@ -225,10 +225,10 @@ More specifically, there are also *strict* identity types, strictly without an h
 ### Strict identity types
   {#IdeaStrictIdentityTypes}
 
-Since there are two notions of [[equality]] in type theory, there are similarly two notions of the J-rule in type theory. The **definitional J-rule** states that $J(x, x, \mathrm{refl}(x))$ is definitionally equal to $c(x)$ (i.e. $J(x, x, \mathrm{refl}(x)) = c(x)$). This is in  contrast to the **propositional J-rule** or **typal J-rule** above,  which states that there is a dependent term 
+Since there are two notions of [[equality]] in type theory, there are similarly two notions of the J-rule in type theory. The **judgmental J-rule** states that $J(x, x, \mathrm{refl}(x))$ is judgmentally equal to $c(x)$ (i.e. $J(x, x, \mathrm{refl}(x)) = c(x)$). This is in  contrast to the **typal J-rule** above,  which states that there is a dependent term 
 $$q(x):Id_{C(x,x,\mathrm{refl}(x))}(J(x, x, \mathrm{refl}(x)), c(x))$$
 
-Identity types which satisfy the definitional J-rule could be called **strict identity types**, while identity types which only satisfy the propositional J-rule could be called **weak identity types**, in parallel with similar definitions for a (weak and strict) [Tarski universe](type+universe#TarskiStyle). Martin-Löf identity types come in both strict and weak flavours. However, most other identity types in the literature, such as cubical path types and higher observational identity types, are only weak identity types.
+Identity types which satisfy the judgmental J-rule could be called **strict identity types**, while identity types which only satisfy the typal J-rule could be called **weak identity types**, in parallel with similar definitions for a (weak and strict) [Tarski universe](type+universe#TarskiStyle). Martin-Löf identity types come in both strict and weak flavours. However, most other identity types in the literature, such as cubical path types and higher observational identity types, are only weak identity types.
 
 
 \linebreak
@@ -288,7 +288,7 @@ $$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \qquad
 \Gamma, x:A, \Delta(x,x,r(x)) \vdash t : C(x,x,r(x))}
 {\Gamma, x:A, \Delta(x,x,r(x)) \vdash J(t;x,x,r(x)) = t}$$
 
-Note that the equality $=$ in the conclusion of this computation rule is [[definitional equality]], not an instance of the identity/equality type itself.
+Note that the equality $=$ in the conclusion of this computation rule is [[judgmental equality]], not an instance of the identity/equality type itself.
 
 **[[computation rule]] for weak identity types**
 
@@ -327,27 +327,27 @@ $$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \qquad
 \Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,x,r(x)) \vdash t : C(x,y,p)}
 {\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash J(t[x/y, r(x)/p];x,y,p) = t}$$
 
-This says that if $C$ is a type which we can use the eliminator $J$ to construct a term of, but we already *have* a term $t$ of that type, then if we restrict $t$ to [[reflexive relation|reflexivity]] inputs and then apply $J$ to construct a term of type $C$, the result is the same as the term $t$ we started with.  As in the $\beta$-reduction rule, the $=$ in the conclusion refers to [[definitional equality]].
+This says that if $C$ is a type which we can use the eliminator $J$ to construct a term of, but we already *have* a term $t$ of that type, then if we restrict $t$ to [[reflexive relation|reflexivity]] inputs and then apply $J$ to construct a term of type $C$, the result is the same as the term $t$ we started with.  As in the $\beta$-reduction rule, the $=$ in the conclusion refers to [[judgmental equality]].
 
 This $\eta$-conversion rule has some very strong consequences.  For instance, suppose $x\colon A$, $y\colon A$, and $p\colon Id_A(x,y)$, and let $C \coloneqq A$.  Then with $t=x$, the $\eta$-conversion rule tells us that $x = J(x[x/y,r(x)/p];x,y,p)$.  And with $t=y$, the $\eta$-conversion rule tells us that $y = J(y[x/y,r(x)/p];x,y,p)$.  But substituting $x$ for $y$ (and $r(x)$ for $p$) in the term $y$ simply yields the term $x$, which is the same as the result of substituting $x$ for $y$ and $r(x)$ for $p$ in the term $x$.  Thus, we have
 
 $$x = J(x;x,y,p) = y$$
 
-In other words, if $Id_A(x,y)$ is inhabited (that is, $x$ and $y$ are propositionally equal) then in fact $x$ and $y$ are definitionally equal.  Moreover, by a similar argument we can show that
+In other words, if $Id_A(x,y)$ is inhabited (that is, $x$ and $y$ are typally equal) then in fact $x$ and $y$ are judgmentally equal.  Moreover, by a similar argument we can show that
 
 $$p = J(p[x/y, r(x)/p];x,y,p) = J(r(x)[x/y,r(x)/p];x,y,p) = r(x).$$
 
-(Here we are eliminating into the type $C(x,y,p) \coloneqq Id_A(x,y)$.  The term $r(x)$ may be regarded as belonging to this type, because we have already shown that $x$ and $y$ are *definitionally* equal.)
+(Here we are eliminating into the type $C(x,y,p) \coloneqq Id_A(x,y)$.  The term $r(x)$ may be regarded as belonging to this type, because we have already shown that $x$ and $y$ are *judgmentally* equal.)
 
-Thus, the definitional $\eta$-conversion rule for identity types implies that the type theory is [[extensional type theory|extensional]] in a very strong sense.  (This was observed already in ([Streicher](#Streicher)).)  For this reason, in [[homotopy type theory]] we do not assume the $\eta$-conversion rule for identity types.
+Thus, the judgmental $\eta$-conversion rule for identity types implies that the type theory is [[extensional type theory|extensional]] in a very strong sense.  (This was observed already in ([Streicher](#Streicher)).)  For this reason, in [[homotopy type theory]] we do not assume the $\eta$-conversion rule for identity types.
 
-This sort of extensionality in type theory is also problematic for non-homotopical reasons: since type-checking in dependent type theory depends on definitional equality, but the above rule implies that definitional equality depends on inhabitation of identity types, this makes definitional equality and hence type-checking *undecidable* in the formal computational sense.  Thus, $\eta$-conversion for identity types is often omitted (as in [[Coq]]).
+This sort of extensionality in type theory is also problematic for non-homotopical reasons: since type-checking in dependent type theory depends on judgmental equality, but the above rule implies that judgmental equality depends on inhabitation of identity types, this makes judgmental equality and hence type-checking *undecidable* in the formal computational sense.  Thus, $\eta$-conversion for identity types is often omitted (as in [[Coq]]).
 
-On the other hand, it is possible to prove a *propositional* version of $\eta$-conversion using only the identity types as defined above without definitional $\eta$-conversion.  In other words, given the hypotheses of the above $\eta$-conversion rule, we can construct a term belonging to the type
+On the other hand, it is possible to prove a *typal* version of $\eta$-conversion using only the identity types as defined above without judgmental $\eta$-conversion.  In other words, given the hypotheses of the above $\eta$-conversion rule, we can construct a term belonging to the type
 
 $$ Id_{C(x,y,p)}(J(t[x/y, r(x)/p];x,y,p), t). $$
 
-This has none of the bad consequences of definitional $\eta$-conversion, and in particular does not imply that the type theory is extensional.  The argument that $p\colon Id_A(x,y)$ implies $x=y$ becomes the tautologous statement that if $p\colon Id_A(x,y)$ then $p\colon Id_A(x,y)$, while the subsequent argument that $p= r(x)$ fails because $x$ and $y$ are no longer *definitionally* equal, so $r(x)$ does not have type $Id_A(x,y)$.  We can *[[transport]]* it along $p$ to obtain a term of this type, but then we obtain only that $p$ is equal to the transport of $r(x)$ along $p$, which is a perfectly intensional/homotopical statement.
+This has none of the bad consequences of judgmental $\eta$-conversion, and in particular does not imply that the type theory is extensional.  The argument that $p\colon Id_A(x,y)$ implies $x=y$ becomes the tautologous statement that if $p\colon Id_A(x,y)$ then $p\colon Id_A(x,y)$, while the subsequent argument that $p= r(x)$ fails because $x$ and $y$ are no longer *judgmentally* equal, so $r(x)$ does not have type $Id_A(x,y)$.  We can *[[transport]]* it along $p$ to obtain a term of this type, but then we obtain only that $p$ is equal to the transport of $r(x)$ along $p$, which is a perfectly intensional/homotopical statement.
 
 ## Definition in observational type theory
 
@@ -386,7 +386,7 @@ and for constant functions $y$
 
 $$\mathrm{ap}_{x.y}(p) \equiv \mathrm{refl}_{y}$$
 
-Thus, ap is a higher dimensional explicit substitution. There are definitional equalities
+Thus, ap is a higher dimensional explicit substitution. There are judgmental equalities
 
 $$\mathrm{ap}_{x.f}(\mathrm{refl}_{a}) \equiv \mathrm{refl}_{f[a/x]}$$
 
@@ -416,9 +416,9 @@ $$\pi_2(\pi_2(\nabla(\mathrm{refl}_A))):\prod_{b:\mathcal{T}_\mathcal{U}(A)} \ma
 
 ## Definition in cubical type theory
 
-The primary identity types are the nondependent [[cubical path types]] in [[cubical type theory]]. Like the identity types in higher observational type theory, they do not satisfy the definitional version of identification elimination; only the propositional version of identification elimination. See [[cubical path type]] for more information on the construction of the cubical path types. 
+The primary identity types are the nondependent [[cubical path types]] in [[cubical type theory]]. Like the identity types in higher observational type theory, they do not satisfy the judgmental version of identification elimination; only the typal version of identification elimination. See [[cubical path type]] for more information on the construction of the cubical path types. 
 
-Some cubical type theories include a second identity type which satisfies the definitional version of identification elimination. This is called [[Swan's identity type]], and is defined by the following rules:
+Some cubical type theories include a second identity type which satisfies the judgmental version of identification elimination. This is called [[Swan's identity type]], and is defined by the following rules:
 
 Identity types in [[cubical type theory]] are called **path types** and are defined using a primitive interval.  
 
@@ -601,6 +601,8 @@ In retrospect, this is roughly an algebraic version of the standard fact that ev
 
 * [[intensional type theory]], [[extensional type theory]]
 
+* [[judgmental equality]], [[propositional equality]]
+
 * [[objective type theory]]
 
 * [[transport]]
@@ -760,3 +762,5 @@ See also
 [[!redirects J-rule]]
 [[!redirects path induction]]
 
+[[!redirects typal equality]]
+[[!redirects typally equal]]
