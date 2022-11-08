@@ -32,8 +32,8 @@ But other instances of functorial "comparison" are bound to be relevant. For ins
 Every [[pair]] of [[adjoint functors]] $(F \dashv U) \;\colon\; \mathbf{C}' \leftrightarrow \mathbf{C}$ (with [[unit of an adjunction|unit]] $\eta^{U F}$ and [[counit of an adjunction|counit]] $\epsilon^{F U}$) between [[categories]] $\mathbf{C}$, $\mathbf{C}'$ fits into a [[commuting diagram]] in [[Cat]] of the following form:
 
 \begin{imagefromfile}
-    "file_name": "AdjunctionsAndMonadicity-221106.jpg",
-    "width": "540",
+    "file_name": "AdjunctionsAndMonadicity-221108.jpg",
+    "width": "470",
     "unit": "px",
     "margin": {
         "top": -20,
@@ -42,6 +42,7 @@ Every [[pair]] of [[adjoint functors]] $(F \dashv U) \;\colon\; \mathbf{C}' \lef
         "left": 10
     }
 \end{imagefromfile}
+
 
 Here:
 
@@ -83,7 +84,7 @@ Here:
       \mathcal{E}
     $$
 
-* $\mathcal{E}\text{-}\mathbf{C}$ denotes the ("[[Eilenberg-Moore category|Eilenberg-Moore]]"-)[[category]] of $\mathcal{E}$-[[algebras over a monad|algebras]] in $\mathbf{C}$ 
+* $\mathbf{C}^{\mathcal{E}}$ denotes the ("[[Eilenberg-Moore category|Eilenberg-Moore]]"-)[[category]] of $\mathcal{E}$-[[algebras over a monad|algebras]] in $\mathbf{C}$ 
 
   $$
     A 
@@ -109,7 +110,7 @@ Here:
       \;\;\;\;\;\;\;\;\;\;}
       &
       \!\!\!\!\!\!\!\!\!\!\!\!\!\!
-      \mathcal{E}\text{-}\mathbf{C}
+      \mathbf{C}^{\mathcal{E}}
       \\
       C' 
       &\mapsto&
@@ -128,7 +129,7 @@ Here:
     }
   $$
 
-* $\big(\mathcal{E}\text{-}\mathbf{C}\big)^{fr}$ denotes the ("[[Kleisli category|Kleisli]]"-)[[category]] of *[free](algebra+over+a+monad#FreeAlgebras)* $\mathcal{E}$-[[algebras over a monad|algebras]]
+* $\mathbf{C}_{\mathcal{E}}$ denotes the ("[[Kleisli category|Kleisli]]"-)[[category]] of *[free](algebra+over+a+monad#FreeAlgebras)* $\mathcal{E}$-[[algebras over a monad|algebras]]
 
   $$
     \begin{array}{rl}
