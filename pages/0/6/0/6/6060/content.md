@@ -662,6 +662,11 @@ In this context there is also:
 
 * {#SlinkinVarchenko19} [[Alexey Slinkin]], [[Alexander Varchenko]], *Twisted de Rham Complex on Line and Singular Vectors in $\widehat{\mathfrak{sl}}_2$ Verma Modules*, SIGMA **15** (2019) 075 &lbrack;[arXiv:1812.09791](https://arxiv.org/abs/1812.09791), [doi:10.3842/SIGMA.2019.075](https://doi.org/10.3842/SIGMA.2019.075)&rbrack;
 
+See also at [[supersymmetric quantum mechanics]] and see
+
+* [[Albert Schwarz]], [[Ilya Shapiro]], *Twisted de Rham cohomology, homological definition of the integral and "Physics over a ring"*, Nucl. Phys. B **809** (2009) 547-560 &lbrack;[arXiv:0809.0086](https://arxiv.org/abs/0809.0086), &lbrack;[doi:10.1016/j.nuclphysb.2008.10.005](https://doi.org/10.1016/j.nuclphysb.2008.10.005)&rbrack;
+
+
 
 
 ### Twist in degree 3
