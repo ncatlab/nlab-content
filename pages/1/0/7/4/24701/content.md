@@ -36,7 +36,19 @@ Objective type theory has [[decidable]] [[type checking]], and the type checking
 
 ### Judgments and contexts
 
-Objective type theory consists of three judgments: type judgments $A \; \mathrm{type}$, where we judge $A$ to be a type, typing judgments, where we judge $a$ to be an element of $A$, $a:A$, and context judgments, where we judge $\Gamma$ to be a context, $\Gamma \; \mathrm{ctx}$. Contexts are lists of typing judgments $a:A$, $b:B$, $c:C$, et cetera, and are formalized by the rules for the empty context and extending the context by a typing judgment
+Objective type theory consists of five judgments: 
+
+* Type judgments, where we judge $A$ to be a type, $A \; \mathrm{type}$
+
+* Type definition judgments, where we judge $B$ to be defined as the type $A$, $B \coloneqq A \; \mathrm{type}$
+
+* Term judgments, where we judge $a$ to be an element of $A$, $a:A$
+
+* Term definition judgments, where we judge $b$ to be defined as the term $a:A$, $b \coloneqq a:A$
+
+* Context judgments, where we judge $\Gamma$ to be a context, $\Gamma \; \mathrm{ctx}$. 
+
+Contexts are lists of term judgments $a:A$, $b:B$, $c:C$, et cetera, and are formalized by the rules for the empty context and extending the context by a term judgment
 
 $$\frac{}{() \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash A \; \mathrm{type}}{(\Gamma, a:A) \; \mathrm{ctx}}$$
 
@@ -44,9 +56,9 @@ $$\frac{}{() \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma \
 
 There are three structural rules in objective type theory, the [[variable rule]], the [[weakening rule]], and the [[substitution rule]]. 
 
-The variable rule states that we may derive a typing judgment if the typing judgment is in the context already:
+The variable rule states that we may derive a term judgment if the term judgment is in the context already:
 
-$$\frac{\Gamma, a:A, \Delta \; \mathrm{ctx}}{\Gamma, a:A, \Delta \vdash a:A}$$
+$$\frac{\vdash \Gamma, a:A, \Delta \; \mathrm{ctx}}{\vdash \Gamma, a:A, \Delta \vdash a:A}$$
 
 Let $\mathcal{J}$ be any arbitrary judgment. Then we have the following rules:
 
@@ -86,30 +98,24 @@ $$\frac{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash C(a, b, p) \; \mathr
 
 The [[uniqueness of identity proofs|uniqueness rule for identity types]] is usually not included in objective type theory. However, if it were included in objective type theory it turns the type theory into a [[set-level type theory]]. 
 
-### Definitions
+### Structural rules for definitions
 
-Parts of the following section is adapted from [[Egbert Rijke]]'s [[Introduction to Homotopy Type Theory]]:
+Now that we have finally defined identity types, we can define the structural rules for definitions. The structural rules for term definitions say that given a term definition judgment $b \coloneqq a:A$, one could derive that $b$ is a term of $A$, and that there is an identification between $b$ and $a$:
 
-We can make [[definitions]] at the end of a derivation if the conclusion is a certain term of a type in context, where we have a derivation 
-$$\frac{\mathcal{D}}{\Gamma \vdash a:A}$$
-if we wish to make a definition $b \coloneqq a$, then we can extend the derivation tree with 
-$$\frac{\Gamma \vdash a:A}{\Gamma \vdash b \coloneqq a:A}$$
-The effect of such a definition is that we have extended our type theory with a new constant $b$, for which the following inference rules are valid 
-$$\frac{\mathcal{D}}{\Gamma \vdash b:A} \qquad \frac{\mathcal{D}}{\Gamma \vdash \delta_A(a, b):b =_A a}$$
+$$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash \delta_A(a, b):b =_A a}$$
 
-Similarly, we can make definitions at the end of a derivation if the conclusion is a certain type in context, where we have a derivation 
-$$\frac{\mathcal{D}}{\Gamma \vdash A \; \mathrm{type}}$$
-if we wish to make a definition $B \coloneqq A$, then we can extend the derivation tree with 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash B \coloneqq A \; \mathrm{type}}$$
-The effect of such a definition is that we have extended our type theory with a new constant $B$, for which the following inference rules are valid:
+The structural rules for type definitions are the natural deduction rules for unary sums, with formation and introduction rules:
 
-$$\frac{\mathcal{D}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\mathcal{D} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{copy}(a):B}$$
+$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{copy}(a):B}$$
 
-$$\frac{\mathcal{D} \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash e:B}{\Gamma \vdash \mathrm{ind}_{B}^C(c, e):C[e/z]}$$
+elimination rules:
+$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash e:B}{\Gamma \vdash \mathrm{ind}_{B}^C(c, e):C[e/z]}$$
 
-$$\frac{\mathcal{D} \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_B:\mathrm{ind}_{B}^C(c, \mathrm{copy}(a)) =_{C[\mathrm{copy}(a)/z]} c[a/x]}$$
+computation rules:
+$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_B:\mathrm{ind}_{B}^C(c, \mathrm{copy}(a)) =_{C[\mathrm{copy}(a)/z]} c[a/x]}$$
 
-$$\frac{\mathcal{D} \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash e:B \quad \Gamma, y:B \vdash u:C \quad \Gamma, a:A \vdash i_\mathrm{copy}(u):u[\mathrm{copy}(a)/y] =_{C[\mathrm{copy}(a)/y]} c[a/x]}{\Gamma \vdash \eta_{B}:u[e/z] =_{C[e/z]} \mathrm{ind}_{B}^C(c, e)}$$
+and uniqueness rules:
+$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash e:B \quad \Gamma, y:B \vdash u:C \quad \Gamma, a:A \vdash i_\mathrm{copy}(u):u[\mathrm{copy}(a)/y] =_{C[\mathrm{copy}(a)/y]} c[a/x]}{\Gamma \vdash \eta_{B}:u[e/z] =_{C[e/z]} \mathrm{ind}_{B}^C(c, e)}$$
 
 ### Function types
 
