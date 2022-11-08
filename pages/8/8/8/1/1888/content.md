@@ -24,11 +24,17 @@ Given a monoidal category $V$, a **tensorial left-strength** for a functor
 
 $$F : V \to V$$
 
-is usually defined as a natural transformation 
+is usually defined as a [[natural transformation]]
 
-$$\beta_{v, w}: v \otimes F(w) \to F(v \otimes w)$$
+$$
+  \beta_{v, w}
+  \;\colon\; 
+  v \otimes F(w) 
+    \longrightarrow
+  F(v \otimes w)
+$$
 
-making two diagrams commute: 
+making the following [[commuting diagram|diagrams commute]]: 
 
 $$
 \array{
