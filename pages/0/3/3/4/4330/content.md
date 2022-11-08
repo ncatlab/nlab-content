@@ -1,3 +1,5 @@
+\tableofcontents
+
 ## Overview
 
 The composite of [[Schur functors]] is again a Schur functor.  The process of composing Schur functors is known as **plethysm**, especially in situations where we want an explicit "formula" for how the Schur functors compose.
