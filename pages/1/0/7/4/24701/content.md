@@ -52,6 +52,8 @@ Contexts are lists of term judgments $a:A$, $b:B$, $c:C$, et cetera, and are for
 
 $$\frac{}{() \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash A \; \mathrm{type}}{(\Gamma, a:A) \; \mathrm{ctx}}$$
 
+Note that type and term definition judgments are not judgmental equalities; the former are [[single assignment operators]] while the latter are [[equivalence relations]]. 
+
 ### Structural rules
 
 There are three structural rules in objective type theory, the [[variable rule]], the [[weakening rule]], and the [[substitution rule]]. 
@@ -104,7 +106,7 @@ Now that we have finally defined identity types, we can define the structural ru
 
 $$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash \delta_A(a, b):b =_A a}$$
 
-The structural rules for type definitions are the natural deduction rules for unary sums, with formation and introduction rules:
+The structural rules for type definitions are the natural deduction rules for [[copying]] types, with formation and introduction rules:
 
 $$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{copy}(a):B}$$
 
