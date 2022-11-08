@@ -368,6 +368,11 @@ motivated from laying foundations for [[quantum mechanics]]:
 
   *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
 
+but see:
+
+* [[Miklos Rédei]], *Why John von Neumann did not Like the Hilbert Space formalism of quantum mechanics (and what he liked instead)*, Studies in History and Philosophy of Modern Physics **27** 4 (1996) 493-510 &lbrack;<a href="https://doi.org/10.1016/S1355-2198(96)00017-2">doi:10.1016/S1355-2198(96)00017-2</a>&rbrack;
+
+
 Early history:
 
 * {#MacLane88} [[Saunders Mac Lane]]: *Hilbert space*, §5 in: *Concepts and Categories*, in: P. Duren, *A century of mathematics in America* Part 1, AMS (1988) 323-365. &lbrack;[pdf](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf), [ISBN:0-8218-0124-4](https://www.ams.org/publicoutreach/math-history/hmath1-index)&rbrack; 
