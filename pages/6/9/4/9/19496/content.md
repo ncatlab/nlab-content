@@ -23,7 +23,7 @@
 | **symbol** | **in [[linear logic]]**  |
 | $\phantom{A}$$\multimap$$\phantom{A}$ | $\phantom{A}$[[linear implication]]$\phantom{A}$ |  
 | $\phantom{A}$$\otimes$$\phantom{A}$ | $\phantom{A}$[[multiplicative conjunction]]$\phantom{A}$ |  
-| $\phantom{A}$$\invamp$$\phantom{A}$ | $\phantom{A}$[[multiplicative disjunction]]$\phantom{A}$ |  
 | $\phantom{A}$$\oplus$$\phantom{A}$ | $\phantom{A}$[[additive disjunction]]$\phantom{A}$ |  
 | $\phantom{A}$$\&$$\phantom{A}$ | $\phantom{A}$[[additive conjunction]]$\phantom{A}$ |    
+| $\phantom{A}$$\invamp$$\phantom{A}$ | $\phantom{A}$[[multiplicative disjunction]]$\phantom{A}$ |  
 | $\phantom{A}$$\;!$$\phantom{A}$ | $\phantom{A}$[[exponential conjunction]]$\phantom{A}$ |  
