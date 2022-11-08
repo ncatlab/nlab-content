@@ -27,6 +27,12 @@ In purely [[functional programming languages]] (such as [[Haskell]]) all would-b
 
 So to the programming language an IO-monad looks just like a [[state monad]] or similar, but when run on an actual computer the bind operation does cause actual physical effects.
 
+## Related concepts
+
+* [[monad in computer science]]
+
+* [[quantum IO monad]]
+
 ## References
 
 In [[Haskell]]: 
