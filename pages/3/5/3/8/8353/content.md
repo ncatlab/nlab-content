@@ -146,9 +146,50 @@ $$\frac{\Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\math
 
 Copying becomes important for typally defining the [[type of equivalences]], as the usual way of typally defining types involves the [[type of equivalences]] and thus isn't available. 
 
-## The initialization operator
+## The single assignment operator
 
-Section to be written on the use of $\coloneqq$ in mathematics; for the time being, see [[initialization operator]]. 
+In type theory, the **single assignment operator**, **initialization operator**, **initialisation operator**, or **definition operator** $\coloneqq$ is formally defined as a pair of judgments 
+
+* $B \coloneqq A \; \mathrm{type}$, where we judge $B$ to be defined as the type $A$, or assigned the type $A$ 
+* $b \coloneqq a:A$, where we judge $b$ to be defined as the term $a:A$, or assigned the term $a:A$ 
+
+in addition to the [[judgments]] for [[types]], [[terms]], and [[judgmental equality]]. $B \coloneqq A \; \mathrm{type}$ is called **type definition**, **type initialization**, **type initialisation** or **type single assignment**, while $b \coloneqq a:A$ is called **term definition**, **term initialization**, **term initialisation**, or **term single assignment**. Judgmental single assignment is different from judgmental equality as judgmental equality is an [[equivalence relation]], while judgmental single assignment is not an equivalence relation, but instead has a reflection rule into [[equality]]. 
+
+Depending upon what notion of [[equality]] is used for [[definitional equality]], the single assignment operator has the following formation and equality reflection rules for type definitions
+
+* Formation and judgmental equality reflection rules for type definition:
+$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \equiv A\; \mathrm{type}}$$
+
+* Formation and propositional equality reflection rules for type definition:
+$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \equiv A\; \mathrm{true}}$$
+
+* Formation and typal equality reflection rules for type definition:
+$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash P:B \simeq A}$$
+
+There is an alternative to the typal structural rules for type definitions, which use the [[natural deduction]] rules for copying types instead of a reflection rule into an [[equivalence of types]]:
+
+* Formation and introduction rules for type definitions
+$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{copy}(a):B}$$
+
+* Elimination rules for type definitions
+$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash e:B}{\Gamma \vdash \mathrm{ind}_{B}^C(c, e):C[e/z]}$$
+
+* Computation rules for type definitions rules:
+$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_B:\mathrm{ind}_{B}^C(c, \mathrm{copy}(a)) =_{C[\mathrm{copy}(a)/z]} c[a/x]}$$
+
+* Uniqueness rules for type definitions rules:
+$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash e:B \quad \Gamma, y:B \vdash u:C \quad \Gamma, a:A \vdash i_\mathrm{copy}(u):u[\mathrm{copy}(a)/y] =_{C[\mathrm{copy}(a)/y]} c[a/x]}{\Gamma \vdash \eta_{B}:u[e/z] =_{C[e/z]} \mathrm{ind}_{B}^C(c, e)}$$
+
+There are also the following introduction and equality reflection rules for term definitions:
+
+* Introduction and judgmental equality reflection rules for term definition:
+$$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b \equiv a:A}$$
+
+* Introduction and propositional equality reflection rules for term definition:
+$$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b \equiv_A a \; \mathrm{true}}$$
+
+* Introduction and typal equality reflection rules for term definition:
+$$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash p:b =_A a}$$
 
 ## History
 
@@ -227,6 +268,18 @@ Copying types could be found in
 
 * [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]], *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$ 
 
+and the single assignment operator is defined (not by name) in Remark 2.2.1 in:
+
+* [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([pdf](https://raw.githubusercontent.com/martinescardo/HoTTEST-Summer-School/main/HoTT/hott-intro.pdf)) (478 pages)
+
+See also:
+
+* Wikipedia, _<a href="https://en.wikipedia.org/wiki/Assignment_(computer_science)#Single_assignment">Assignment (computer science)#Single assignment</a>_ 
+
+* Wikipedia, _<a href="https://en.wikipedia.org/wiki/Assignment_(computer_science)#Assignment_versus_equality">Assignment (computer science)#Assignment versus equality</a>_ 
+
+* Wikipedia, _<a href="https://en.wikipedia.org/wiki/Relational_operator#Confusion_with_assignment_operators">Relational operator#Confusion with assignment operators</a>_
+
 [[!redirects definition]]
 [[!redirects definitions]]
 
@@ -253,3 +306,47 @@ Copying types could be found in
 [[!redirects copy definitions]]
 [[!redirects copy-definition]]
 [[!redirects copy-definitions]]
+
+[[!redirects type definition]]
+[[!redirects type definitions]]
+[[!redirects term definition]]
+[[!redirects term definitions]]
+
+[[!redirects definition judgment]]
+[[!redirects definition judgments]]
+[[!redirects type definition judgment]]
+[[!redirects type definition judgments]]
+[[!redirects term definition judgment]]
+[[!redirects term definition judgments]]
+
+[[!redirects single assignment]]
+[[!redirects single assignment operator]]
+[[!redirects single assignment operators]]
+
+[[!redirects single assignment judgment]]
+[[!redirects single assignment judgments]]
+[[!redirects type single assignment judgment]]
+[[!redirects type single assignment judgments]]
+[[!redirects term single assignment judgment]]
+[[!redirects term single assignment judgments]]
+
+[[!redirects initialization]]
+[[!redirects initialization operator]]
+[[!redirects initialization operators]]
+[[!redirects initialisation]]
+[[!redirects initialisation operator]]
+[[!redirects initialisation operators]]
+
+[[!redirects initialization judgment]]
+[[!redirects initialization judgments]]
+[[!redirects type initialization judgment]]
+[[!redirects type initialization judgments]]
+[[!redirects term initialization judgment]]
+[[!redirects term initialization judgments]]
+
+[[!redirects initialisation judgment]]
+[[!redirects initialisation judgments]]
+[[!redirects type initialisation judgment]]
+[[!redirects type initialisation judgments]]
+[[!redirects term initialisation judgment]]
+[[!redirects term initialisation judgments]]
