@@ -157,10 +157,6 @@ $\mathcal{J}$ is a generic judgment thesis.
 
 ## Usages of equality
 
-### For syntactic equality and alpha-equivalence
-
-Judgmental equality is used for syntactic equality of expressions and for [[alpha-equivalence]] in all theories, including [[Martin-Löf type theory]], [[cubical type theory]], [[ZFC]], [[ETCS]], and [[objective type theories]]. 
-
 ### In definitions
 
 The three different notions of equality above could be used [[definitions]], where the equality in the [[definition rule]] is called **[[definitional equality]]**. In [[Martin-Löf type theory]] and [[cubical type theory]], judgmental equality is used for definitional equality. In [[ZFC]] and [[ETCS]], propositional equality is used for definitional equality, and in [[objective type theories]], typal equality is used for definitional equality. 
@@ -168,6 +164,10 @@ The three different notions of equality above could be used [[definitions]], whe
 ### In conversion rules
 
 The three different notions of equality above could also be used in the [[conversion rules]] for the various type formers, such as [[beta conversion]] or [[eta conversion]], where the equality is called **[[conversional equality]]** or **computational equality**. In [[Martin-Löf type theory]] and [[cubical type theory]], judgmental equality is used for computational equality, and in [[objective type theories]], typal equality is used for computational equality. 
+
+## Meta-equalities: syntactic equality and alpha-equivalence
+
+There are also equalities in [[type theory]] which are not internal to the type theory itself, but rather equalties in the metatheroy. These include **syntactic equality** of expressions, as well as **[[alpha-equivalence]]**. When using [[de Bruijn indices]], alpha-equivalence is the same as syntactic equality, but when using [[variables]], alpha-equivalence is different from syntactic equality: rather alpha-equivalence is equality up to the renaming of [[bound variables]]. All type theories, like [[MLTT]], [[cubical type theory]], [[ZFC]], and [[ETCS]], have syntactic equality and alpha-equivalence, including the type theories which lack [[judgmental equality]] like [[objective type theories]]. 
 
 ## Internal equality in set theory
 
@@ -247,8 +247,5 @@ where de Bruijn makes a distinction between definitional equality and "book" equ
 [[!redirects diagonal relation]]
 [[!redirects diagonal relations]]
 
-[[!redirects propositional equality]]
-[[!redirects propositionally equal]]
-
-[[!redirects typal equality]]
-[[!redirects typally equal]]
+[[!redirects syntactic equality]]
+[[!redirects syntactically equal]]
