@@ -157,6 +157,10 @@ $\mathcal{J}$ is a generic judgment thesis.
 
 ## Usages of equality
 
+### For syntactic equality and alpha-equivalence
+
+Judgmental equality is used for syntactic equality of expressions and for [[alpha-equivalence]] in all theories, including [[Martin-Löf type theory]], [[cubical type theory]], [[ZFC]], [[ETCS]], and [[objective type theories]]. 
+
 ### In definitions
 
 The three different notions of equality above could be used [[definitions]], where the equality in the [[definition rule]] is called **[[definitional equality]]**. In [[Martin-Löf type theory]] and [[cubical type theory]], judgmental equality is used for definitional equality. In [[ZFC]] and [[ETCS]], propositional equality is used for definitional equality, and in [[objective type theories]], typal equality is used for definitional equality. 
