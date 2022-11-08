@@ -5,7 +5,7 @@ __Albert Schwarz__ is a mathematician and a theoretical physicist born in Soviet
 * {#Schwarz04} [[Albert Schwarz]], _My Life In Science_, 2004 ([pdf](https://www.math.ucdavis.edu/~schwarz/bion.pdf), [[AlbertSchwarzLifeInScience.pdf:file]])
 
 
-## Selected publications
+## Selected writings
 
 (See also the [list of arXiv articles](http://arxiv.org/find/hep-th/1/au:+Schwarz_A/0/1/0/all/0/1) of A. Schwarz.)
 
@@ -88,6 +88,10 @@ On [[quantum field theory]] and [[topology]]:
 * V. N. Romanov, A. S. &#352;varc, _Anomalies and elliptic operators_, (Russian)  Teoret. Mat. Fiz. __41__  (1979), no. 2, 190--204.
 
 * &#1052;&#1072;&#1090;&#1077;&#1084;&#1072;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1086;&#1089;&#1085;&#1086;&#1074;&#1099; &#1082;&#1074;&#1072;&#1085;&#1090;&#1086;&#1074;&#1086;&#1081; &#1090;&#1077;&#1086;&#1088;&#1080;&#1080; &#1087;&#1086;&#1083;&#1103;, Atomizdat, Moscow, 1975. 368 pp.
+
+On 1-[[twisted de Rham cohomology]]:
+
+* [[Albert Schwarz]], [[Ilya Shapiro]], *Twisted de Rham cohomology, homological definition of the integral and "Physics over a ring"*, Nucl. Phys. B **809** (2009) 547-560 &lbrack;[arXiv:0809.0086](https://arxiv.org/abs/0809.0086), &lbrack;[doi:10.1016/j.nuclphysb.2008.10.005](https://doi.org/10.1016/j.nuclphysb.2008.10.005)&rbrack;
 
 
 ## Related $n$Lab entries
