@@ -162,6 +162,11 @@ Six operations in the setup of [[o-minimal structure]]s is discussed in
 Grothendieck six operations formalism using diagrams of topoi
 
 * Alexey Kalugin, _On categorical approach to Verdier duality_, [arxiv/1505.06922](http://arxiv.org/abs/1505.06922)
+
+Six operations formalism for [[rigid analytic geometry]] is in 
+
+* Lucas Mann, _A p-Adic 6-Functor Formalism in Rigid-Analytic Geometry_ ([arXiv:2206.02022](https://arxiv.org/abs/2206.02022))
+
  
 
 [[!redirects six operations]]
