@@ -1,10 +1,10 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Higher algebra
-+--{: .hide}
-[[!include higher algebra - contents]]
+### Context
+#### Categorical algebra
++-- {: .hide}
+[[!include categorical algebra -- contents]]
 =--
 =--
 =--
@@ -50,3 +50,6 @@ If $(L \dashv R)$ is an [[adjunction]] that gives rise to the monad $T$ as $T \s
 
 
 [[!redirects counit of a comonad]]
+
+[[!redirects monad unit]]
+[[!redirects monad units]]
