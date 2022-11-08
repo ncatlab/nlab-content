@@ -428,6 +428,12 @@ Further developments:
 
 * Mackenzie H. Shaw, Andrew C. Doherty, Arne L. Grimsmo, *Stabilizer subsystem decompositions for single- and multi-mode Gottesman-Kitaev-Preskill codes* &lbrack;[arXiv:2210.14919](https://arxiv.org/abs/2210.14919)&rbrack;
 
+On relevant classical control mechanisms:
+
+* Hideo Mabuchi, *Continuous quantum error correction as classical hybrid control*, New J. Phys. **11** (2009) 105044
+&lbrack;[doi:10.1088/1367-2630/11/10/105030](https://iopscience.iop.org/article/10.1088/1367-2630/11/10/105030)&rbrack;
+
+* {#PalerHerrDevitt19} Alexandru Paler, Daniel Herr, [[Simon J. Devitt]], *Really Small Shoe Boxes - On Realistic Quantum Resource Estimation*, Computer **52** 6 (2019) &lbrack;[arXiv:1902.08104](https://arxiv.org/abs/1902.08104), [doi:10.1109/MC.2019.2908621](https://doi.org/10.1109/MC.2019.2908621)&rbrack;
 
 
 ### Experimental realization
