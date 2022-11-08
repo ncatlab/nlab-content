@@ -24,7 +24,9 @@ Generalization to [[Hilbert bundles]]:
 
 On an [[axiom|axiomatic]] characterization of the [[compact closed dagger category]] [[Hilb]] of [[Hilbert spaces]]:
 
-* [[Chris Heunen]], [[Andre Kornell]], *Axioms for the category of Hilbert spaces* ([arXiv:2109.07418](https://arxiv.org/abs/2109.07418))
+* [[Chris Heunen]], [[Andre Kornell]], *Axioms for the category of Hilbert spaces*, PNAS **119** 9 (2022) e2117024119 &lbrack;[arXiv:2109.07418](https://arxiv.org/abs/2109.07418), [doi:10.1073/pnas.2117024119](https://doi.org/10.1073/pnas.2117024119)&rbrack;
+
+* [[Chris Heunen]], [[Andre Kornell]], [[Nesta van der Schaaf]], *Axioms for the category of Hilbert spaces and linear contractions* &lbrack;[arXiv:2211.02688](https://arxiv.org/abs/2211.02688)&rbrack;
 
 
 ## Related $n$Lab entries
