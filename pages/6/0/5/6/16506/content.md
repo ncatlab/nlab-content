@@ -472,10 +472,35 @@ In [[quantum information theory]] the $\bigcirc_B$-algebras in [[complex vector 
 
 For example, the [[dependent linear type]] of [[qbits]] is the free $\bigcirc_B$-algebra $\bigcirc_{Bool} \mathbb{C}$ spanned by the [[intuitionistic type theory|classical type]] [[Bool]] $= \{0,1\}$ of [[bits]], reflecting the two canonical [[quantum measurement]]-outcomes ($\vert 0\rangle$, $\vert 1 \rangle$) of [[qbits]]. 
 
+
+{#QuantumMeasurementAsIndefinitenessHandling} Curiously, from this one finds that *[[quantum measurement]] is exactly indefiniteness handling*
+
+where 
+
+* "indefiniteness" is understood as the the effect/[[modality]] expressed by the reader monad $\bigcirc_B$ (see [here](necessity+and+possibility#RelationToPotentiality)),
+
+* "handling" is understood as *effect handling* in the sense of effect-[[monads in computer science]] (see [here](monad+in+computer+science#MonadModulesInIdeaSection));
+
+namely:
+
+\begin{imagefromfile}
+    "file_name": "QMeasurementViaIndefinitenessHandling-221108.jpg",
+    "width": "700",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 For more on this see at *[[quantum circuits via dependent linear types]]*.
 \end{example}
 
-This naturally relates to the discussion of [[quantum measurement]] via [[Frobenius algebra]]-structures which is popular in the context of [[quantum information theory via dagger-compact categories]]:
+\linebreak
+
+This naturally relates to the discussion of [[quantum measurement]] via [[Frobenius algebra]]-structures which is popular in the context of [[quantum information theory via dagger-compact categories]] -- as follows:
 
 \begin{remark}\label{QuantumrReaderMonadIsFrobenius}
 **(quantum reader monad is Frobenius)**
