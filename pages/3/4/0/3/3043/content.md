@@ -33,7 +33,7 @@ $$
   \,.
 $$
 
-For non-tivial extensions, this homomorphism has a [[kernel]] $\mathfrak{a} \hookrightarrow \hat \mathfrak{g}$ , consisting of those elements of $\hat{\mathfrak{g}}$ that map to the zero element in $\mathfrak{g}$. That kernel is a sub-Lie algebra of $\hat{\mathfrak{g}}$ and hence one says that $\hat\mathfrak{g}$ is an extension of $\mathfrak{g}$ by $\mathfrak{a}$.
+For non-trivial extensions, this homomorphism has a [[kernel]] $\mathfrak{a} \hookrightarrow \hat \mathfrak{g}$ , consisting of those elements of $\hat{\mathfrak{g}}$ that map to the zero element in $\mathfrak{g}$. That kernel is a sub-Lie algebra of $\hat{\mathfrak{g}}$ and hence one says that $\hat\mathfrak{g}$ is an extension of $\mathfrak{g}$ by $\mathfrak{a}$.
 
 $$
   \array{
@@ -56,7 +56,7 @@ $$
 
 When $\mathfrak{a}$ happens to be abelian, hence when its Lie bracket is trivial, then one speaks of an abelian extension, and when furthermore the Lie bracket of $\hat\mathfrak{g}$ vanishes as soon as already one of its arguments is in $\mathfrak{a}$, then one has a [[central extension]] ($\mathfrak{a}$ is in the [[center]] of $\hat \mathfrak{g}$). 
 
-Central extensions by the [[ground field]] (say $\mathbb{R}$) are equivalently induced by a 2-cocyle $\mu_2$ in the [[Lie algebra cohomology]] of $\mathfrak{g}$ with [[coefficients]] in the [[ground field]], say $\mathbb{R}$, i.e. by linear maps
+Central extensions by the [[ground field]] (say $\mathbb{R}$) are equivalently induced by a 2-cocycle $\mu_2$ in the [[Lie algebra cohomology]] of $\mathfrak{g}$ with [[coefficients]] in the [[ground field]], say $\mathbb{R}$, i.e. by linear maps
 
 $$
   \mu_2 \colon \mathfrak{g} \wedge \mathfrak{g} \longrightarrow \mathbb{R}
