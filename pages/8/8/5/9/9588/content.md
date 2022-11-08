@@ -144,7 +144,7 @@ Named after [[Jack Morava]] (see at _[[Morava K-theory]]_).
 
 Relevant background lecture notes include
 
-* [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
+* [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, course notes ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/coctalos.pdf))
 
 and more specifically see the lectures 
 
@@ -159,7 +159,7 @@ and more specifically see the lectures
 
 also
 
-* _Report of $E$-theory conjectures seminar_ (2013) ([pdf](http://math.berkeley.edu/~ericp/latex/misc/mit-ethy.pdf))
+* _Report of $E$-theory conjectures seminar_ (2013) ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/peterson-mit-etheory.pdf))
 
 
 Discussion of the $E_\infty$-algebra structure over $B P$ is in
