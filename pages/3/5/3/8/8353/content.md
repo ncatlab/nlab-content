@@ -191,6 +191,10 @@ $$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \v
 * Introduction and typal equality reflection rules for term definition:
 $$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash p:b =_A a}$$
 
+## Note on terminology
+
+Historically in the [[dependent type theory]] community, the term *definitional equality* was used for [[judgmental equality]]. This was because in the most common model of dependent type theory, [[Martin-Löf type theory]], judgmental equality was used for definitional equality. However, we choose to make a distinction between definitional equality and judgmental equality. First, definitional equality as defined in this article is [[propositional equality]] in the most common [[foundations of mathematics]], such as [[ZFC]] and [[ETCS]], and thus clearly not [[judgmental equality]]. In addition, one could work in [[logic]] over [[dependent type theory]] and replace [[judgmental equality]] entirely by [[propositional equality]] throughout the type theory, resulting in a type theory which behaves almost identically to the original type theory, only that definitional equality is a proposition instead of a judgment (see the second presentation of [[Martin-Löf type theory]] on that article). Finally, in the advent of [[objective type theory]] and other dependent type theories which lack [[judgmental equality]] entirely, it is [[typal equality]] which is used in [[definitional equality]]. 
+
 ## History
 
 According to [PML (1980), p. 31](#PML):
