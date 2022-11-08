@@ -1,4 +1,117 @@
 
+$$
+  \bigcirc_B
+  \Big(
+  \bigcirc_B \mathscr{H}
+  \overset{\phi}{\longrightarrow}
+  \bigcirc_B \mathscr{H}
+  \Big)
+  \longrightarrow
+  \bigcirc_B \mathscr{H}
+$$
+
+itself a homomorphism
+
+\begin{tikzcd}
+  \bigcirc_B \bigcirc_B \bigcirc_B
+  \ar[r, "\mathrm{id} \mu"]
+  \ar[d, " \mu \mathrm{id} "]
+  &
+  \bigcirc_B \bigcirc_B
+  \ar[d, " \mu  "]
+  \\
+  \bigcirc_B \bigcirc_B 
+  \ar[r, "\mu"]
+  &
+  \bigcirc_B
+\end{tikzcd}
+
+
+\linebreak
+
+
+$$
+  \star_B \bigcirc_B
+  \mathscr{H}
+  \;\simeq\;
+  (p_B)_! 
+  \Box_B
+  \mathbb{1}_B \mathscr{H}
+  \longrightarrow
+  \star_B
+  \mathscr{H}'
+$$
+
+\linebreak
+
+$$
+  \mathscr{H}
+  \longrightarrow
+  (p_B)_\ast
+  \lozenge_B \mathbb{1}_B \otimes \mathscr{H}'
+  \;\simeq\;
+  \bigcirc_B 
+  \star_B
+  \mathscr{H}'
+$$
+
+\linebreak
+
+$$
+  \mathscr{H}
+  \longrightarrow
+  (p_{B})_\ast
+  \Big(
+    \Box_B \mathbb{1}_B
+    \multimap
+    \big(
+      \mathbb{1}_B 
+      \otimes
+      \mathscr{H}'
+    \big)
+  \Big)
+$$
+
+\linebreak
+
+$$
+  \Box_B \mathbb{1}_B
+  \otimes
+  \mathscr{H}
+  \longrightarrow
+  \mathbb{1}_B
+  \otimes
+  \mathscr{H}'  
+$$
+
+\linebreak
+
+
+
+$$
+  (p_{B})_\ast
+  \Bigg(
+    \Box_B \mathbb{1}_B
+    \multimap
+    \bigg(
+      \mathbb{1}_B 
+      \otimes
+      (p_{B})_\ast
+      \Big(
+        \Box_B \mathbb{1}_B
+        \multimap
+        \big(
+          \mathbb{1}_B 
+          \otimes
+          \mathscr{H}
+        \big)
+      \Big)
+    \bigg)
+  \Bigg)
+$$
+
+
+
 $\multimap$
 
 Every [[pair]] of [[adjoint functors]] $(F \dashv U) \;\colon\; \mathbf{C}' \leftrightarrow \mathbf{C}$ (with [[unit of an adjunction|unit]] $\eta^{U F}$ and [[counit of an adjunction|counit]] $\epsilon^{F U}$) between [[categories]] $\mathbf{C}$, $\mathbf{C}'$ fits into a [[commuting diagram]] in [[Cat]] of the following form:
