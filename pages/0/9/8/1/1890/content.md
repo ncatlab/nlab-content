@@ -98,9 +98,21 @@ Then the [usual diagrams](#concrete_definition) that specify a strong monad
 
 ### Concretely
 
-A _left-strong monad_ over a [[monoidal category]] $(C,\otimes,1)$ is a monad $(T, \eta, \mu)$ together with a natural transformation $t_{A,B}:A \otimes T B \to T(A\otimes B)$, called the _left-strength_, such that the following diagrams commute.
+A _left-strong monad_ over a [[monoidal category]] $(C,\otimes,1)$ is a [[monad]] $(T, \eta, \mu)$ equipped with a [[natural transformation]] of the form
+
+$$
+  t_{A,B} 
+  \;\colon\; 
+  A \otimes T B 
+  \longrightarrow 
+  T(A\otimes B)
+  \,,
+$$
+
+called the *left-strength*, and required to make the following [[commuting diagram|diagrams commute]]:
 
 "Strengthening with 1 is irrelevant" (and plays well with the [[unitors]]):
+
 \begin{tikzcd}[column sep=small, nodes={scale=1.25}]
 & TA \ar{ddr}{\cong} \ar{ddl}[swap]{\cong} \\ \\
 1 \otimes TA \ar{rr}{t_{1,A}} && T(1\otimes A)
@@ -116,7 +128,7 @@ A _left-strong monad_ over a [[monoidal category]] $(C,\otimes,1)$ is a monad $(
 A \otimes (B\otimes TC) \ar{r}{A\otimes t_{B,C}} & A\otimes T(B\otimes C) \ar{r}{t_{A,B\otimes C}} & T(A\otimes(B\otimes C))
 \end{tikzcd}
 
-"Strength commutes with the monad unit":
+"Strength commutes with the [[monad unit]]":
 \begin{tikzcd}[column sep=small, nodes={scale=1.25}]
 & A \otimes B \ar{ddl}[swap]{A\otimes\eta_B} \ar{ddr}{\eta_{A\otimes B}} \\ \\
 A\otimes TB \ar{rr}{t_{A,B}} && T(A\otimes B)
