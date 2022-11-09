@@ -18,7 +18,7 @@
 ## Idea
  {#Idea}
 
-In any two-level type theory with a level of [[types]] and a [[level]] of [[propositions]], **propositional equality** is the notion of [[equality]] which is defined to be a proposition. Propositional equality is most commonly used in [[first order logic]] over [[type theory]], such as in most first order [[set theories]] like [[ZFC]] and [[ETCS]], but it could also be used for [[definitional equality]] and [[conversional equality]] in some presentations of [[dependent type theories]] like [[Martin-Löf type theory]] or [[cubical type theory]] in place of [[judgmental equality]]. 
+In any [[predicate logic over type theory]], **propositional equality** is the notion of [[equality]] which is defined to be a proposition. Propositional equality is most commonly used in [[set theories]] like [[ZFC]] and [[ETCS]], but it could also be used for [[definitional equality]] and [[conversional equality]] in some presentations of [[dependent type theories]] like [[Martin-Löf type theory]] or [[cubical type theory]] in place of [[judgmental equality]]. 
 
 Propositional equality can be contrasted with [[judgmental equality]], where equality is a [[judgment]], and [[typal equality]], where equality is a [[type]].
 
@@ -28,7 +28,7 @@ Historically in the [[dependent type theory]] community, the term *propositional
 
 ## Definition and structural rules
 
-In the model of [[propositional logic]] over [[dependent type theory]] which uses [[propositional equality]] for [[definitional equality]], propositional equality of types and terms is formed by the following rules:
+Propositional equality of types and terms is formed by the following rules:
 
 $$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type}}{\Gamma \vert \Phi \vdash A \equiv B \; \mathrm{prop}}$$
 
@@ -62,14 +62,14 @@ $$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vda
 In addition, if the dependent type theory has [[type definition judgments]] $B \coloneqq A \; \mathrm{type}$ and [[term definition judgments]] $b \coloneqq a:A$, then propositional equality is used in the following rules:
 
 * Formation and propositional equality reflection rules for type definition:
-$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \equiv A\; \mathrm{true}}$$
+$$\frac{\Gamma \vert \Phi \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vert \Phi \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vert \Phi \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vert \Phi \vdash B \equiv A\; \mathrm{true}}$$
 
 * Introduction and propositional equality reflection rules for term definition:
-$$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b \equiv_A a \; \mathrm{true}}$$
+$$\frac{\Gamma \vert \Phi \vdash b \coloneqq a:A}{\Gamma \vert \Phi \vdash b:A} \qquad \frac{\Gamma \vert \Phi \vdash b \coloneqq a:A}{\Gamma \vert \Phi \vdash b \equiv_A a \; \mathrm{true}}$$
 
 ## In computation and uniqueness rules
 
-Propositional equality can be used in the [[computation rules]] and [[uniqueness rules]] of types: 
+Propositional equality can be used in the [[computation rules]] and [[uniqueness rules]] of types in [[dependent type theory]]: 
 
 * Computation rules for dependent product types:
 
