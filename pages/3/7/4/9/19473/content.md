@@ -28,7 +28,7 @@ _, ([doi](https://doi.org/10.1007/978-3-642-54833-8_18)) ([pdf](https://www.cs.b
 
 * [[Dominic Orchard]], Vilem-Benjamin Liepelt, _Gram:  A linear functional language with graded modal types_, ([extended abstract](https://www.cs.ox.ac.uk/conferences/fscd2017/preproceedings_unprotected/TLLA_Orchard.pdf))
 
-* Marco Gaboardi, Shin-ya Katsumata, Dominic Orchard, Flavien Breuvart, Tarmo Uustalu, _Combining Effects and Coeffects via Grading_, ([pdf](https://www.cs.kent.ac.uk/people/staff/dao7/publ/combining-effects-and-coeffects-icfp16.pdf))
+* Marco Gaboardi, Shin-ya Katsumata, Dominic Orchard, Flavien Breuvart, [[Tarmo Uustalu]], *Combining effects and coeffects via grading*, ICFP 2016: Proceedings of the 21st ACM SIGPLAN International Conference on Functional Programming (2016) 476–489 &lbrack;[doi:10.1145/2951913.2951939](https://doi.org/10.1145/2951913.2951939), [talk abstract](https://icfp16.sigplan.org/details/icfp-2016-papers/31/Combining-Effects-and-Coeffects-via-Grading), [video rec](https://www.youtube.com/watch?v=l1ZNMT3fQCo)&rbrack;
 
 * Flavien Breuvart, Michele Pagani, _Modelling Coeffects in the Relational Semantics
 of Linear Logic_, ([pdf](https://drops.dagstuhl.de/opus/volltexte/2015/5438/pdf/35.pdf))
