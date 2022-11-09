@@ -21,12 +21,15 @@ In any [[type theory]], judgmental equality is the notion of [[equality]] which 
 
 Judgmental equality can be contrasted with [[propositional equality]], where equality is a [[proposition]], and [[typal equality]], where equality is a [[type]].
 
-## Definition and structural rules
+## Judgments
 
-In the model of [[dependent type theory]] which uses [[judgmental equality]] for [[definitional equality]], judgmental equality of types and terms are given by the following [[judgments]]:
+In the model of [[dependent type theory]] which uses [[judgmental equality]] for [[definitional equality]], judgmental equality of types, terms, and contexts are given by the following [[judgments]]:
 
 * $\Gamma \vdash A \equiv A' \; \mathrm{type}$ - $A$ and $A'$ are judgementally equal well-typed types in context $\Gamma$.
 * $\Gamma \vdash a \equiv a' : A$ - $a$ and $a'$ are judgementally equal well-typed terms of type $A$ in context $\Gamma$.
+* $\Gamma \equiv \Gamma' \; \mathrm{ctx}$ - $\Gamma$ and $\Gamma'$ are judgementally equal contexts.
+
+## Structural rules
 
 Judgmental equality has its own structural rules: reflexivity, symmetry, transitivity, the principle of substitution, and the variable conversion rule. 
 
@@ -34,29 +37,38 @@ Judgmental equality has its own structural rules: reflexivity, symmetry, transit
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash A \equiv A \; \mathrm{type}}$$
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash a \equiv a:A}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \equiv \Gamma \; \mathrm{ctx}}$$
 
 * Symmetry of judgmental equality
 $$\frac{\Gamma \vdash A \equiv B \; \mathrm{type}}{\Gamma \vdash B \equiv A \; \mathrm{type}}$$ 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b:A}{\Gamma \vdash b \equiv a:A}$$
+$$\frac{\Gamma \equiv \Delta \; \mathrm{ctx}}{\Delta \equiv \Gamma \; \mathrm{ctx}}$$
 
 * Transitivity of judgmental equality
 $$\frac{\Gamma \vdash A \equiv B \; \mathrm{type} \quad \Gamma \vdash B \equiv C \; \mathrm{type} }{\Gamma \vdash A \equiv C \; \mathrm{type}}$$
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b:A \quad b \equiv c:A }{\Gamma \vdash a \equiv c:A}$$
+$$\frac{\Gamma \equiv \Delta \; \mathrm{ctx} \quad \Delta \equiv \Xi \; \mathrm{ctx}}{\Gamma \equiv \Xi \; \mathrm{ctx}}$$
 
-* Principle of substitution of judgmentally equal terms:
+* Principle of substitution for judgmentally equal terms:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B \; \mathrm{type}}{\Gamma, \Delta[b/x] \vdash B[a/x] \equiv B[b/x] \; \mathrm{type}}$$
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash c:B}{\Gamma, \Delta[b/x] \vdash c[a/x] \equiv c[b/x]: B[b/x]}$$
 
 * The variable conversion rule for judgmentally equal types:
 $$\frac{\Gamma \vdash A \equiv B \; \mathrm{type} \quad \Gamma, x:A, \Delta \vdash \mathcal{J}}{\Gamma, x:B, \Delta \vdash \mathcal{J}}$$
 
-In addition, if the dependent type theory has [[type definition judgments]] $B \coloneqq A \; \mathrm{type}$ and [[term definition judgments]] $b \coloneqq a:A$, then judgmental equality is used in the following rules:
+* The context conversion rule for judgmentally equal contexts
+$$\frac{\Gamma \vdash \mathcal{J} \quad \Gamma \equiv \Delta \; \mathrm{ctx}}{\Delta \vdash \mathcal{J}}$$
+
+In addition, if the dependent type theory has [[type definition judgments]] $B \coloneqq A \; \mathrm{type}$ [[term definition judgments]] $b \coloneqq a:A$, and context definition judgments $\Delta \coloneqq \Gamma \; \mathrm{ctx}$ then judgmental equality is used in the following rules:
 
 * Formation and judgmental equality reflection rules for type definition:
 $$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \equiv A\; \mathrm{type}}$$
 
 * Introduction and judgmental equality reflection rules for term definition:
 $$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b \equiv a:A}$$
+
+* Formation and judgmental equality reflection rules for context definition:
+$$\frac{\Delta \coloneqq \Gamma \; \mathrm{ctx}}{\Delta \; \mathrm{ctx}} \qquad \frac{\Delta \coloneqq \Gamma \; \mathrm{ctx}}{\Delta \equiv \Gamma \; \mathrm{ctx}}$$
 
 ## In computation and uniqueness rules
 
