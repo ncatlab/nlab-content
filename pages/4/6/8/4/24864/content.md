@@ -265,7 +265,12 @@ $$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma, x:A, y:A, p:a =_A b
 
 #### Univalence
 
-An [[equivalence of types]] in homotopy type theory is a one-to-one correspondence. Given types $A:U_i$ and $B:U_i$, a correspondence is a function $R:(A \times B) \to U_i$. A correspondence is one-to-one if each element of $A$ has exactly one corresponding element of $B$, and each element of $B$ has exactly one corresponding element of $A$. We formally define the property of $R$ being a one-to-one correspondence or an equivalence of types as the type:
+An [[equivalence of types]] in homotopy type theory is a one-to-one correspondence. Given types $A:U_i$ and $B:U_i$, a correspondence is a function $R:(A \times B) \to U_i$. A correspondence is one-to-one if each element of $A$ has exactly one corresponding element of $B$, and each element of $B$ has exactly one corresponding element of $A$. The property of the type $A$ having exactly one element is represented by the [[isContr]] modality which states that the type $A$ is contractible. The type of all corresponding elements in $B$ of an element $a:A$ is the sum type
+$$\sum_{b:B} R(a,b)$$
+and the type of all corresponding elements in $A$ of an element $b:B$ is the sum type
+$$\sum_{a:A} R(a,b)$$
+
+We formally define the property of $R$ being a one-to-one correspondence or an equivalence of types as the type:
 
 $$\mathrm{isEquiv}_{A, B}(R) \coloneqq \left(\prod_{a:A} \mathrm{isContr}\left(\sum_{b:B} R(a,b)\right)\right) \times \left(\prod_{b:B} \mathrm{isContr}\left(\sum_{a:A} R(a,b)\right)\right)$$
 
