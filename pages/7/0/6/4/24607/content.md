@@ -112,8 +112,9 @@ $$
 {#TraditionalCircuit} In this case, the component-evaluation of the above diagram yields the quantum teleportation protocol in its traditional form (due to [BBCJPW93](#BBCJPW93)) which is the following [[quantum circuit]] (cf. [GLRSV13, p. 5](Quipper#GLRSV13)) on [[qbits]] (where "$H$" denotes the [[Hadamard gate]], the circles denote the [[quantum CNOT gates]] and the boxed pointers denote [[quantum measurement]] in the [[qbit]]-basis): 
 
 <center>
-<img src="/nlab/files/QBitQuantumTeleportationProtocol-221026.jpg" width="800">
+<img src="/nlab/files/QBitQuantumTeleportationProtocol-221109.jpg" width="800">
 </center>
+
 
 
 \linebreak
