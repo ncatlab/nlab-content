@@ -21,12 +21,18 @@
 ## Idea
 
 ### General
+ {#IdeaGeneral}
 
-_Quantum computation_ is [[computation]] in terms of [[quantum information theory]], possibly implemented on _quantum computers_, hence on [[physical systems]] for which phenomena of [[quantum mechanics]] are not negligible. In terms of the [[computational trilogy]], quantum computation is the computation corresponding to (some kind of) [[quantum logic]]/[[linear type theory]].
+_Quantum computation_ is [[computation]] in terms of [[quantum information theory]], possibly implemented on _quantum computers_, hence on [[physical systems]] for which phenomena of [[quantum mechanics]] are not negligible:[[quantum systems]] such as consisting of [[fundamental particles]] like [[photons]] or [[electrons]] but often of quantum-[[quasiparticles]] such as [[Cooper pairs]] in [[superconductors]]. 
 
-Usually [[quantum gates]] are understood/required to implement [[unitary operators]] on a given [[Hilbert space]] [[space of quantum states|of quantum states]], which implies that quantum computation is a form of [[reversible computation]]. This implies its susceptibility to noise and the practical need for [[quantum error correction]] and/or [[topological quantum computation|topological quantum stabilization]].
+In terms of the [[computational trilogy]], quantum computation is the computation corresponding to (some kind of) [[quantum logic]]/[[linear type theory]]/[[dependent linear type theory]].
 
-Specifically, _[[topological quantum computation]]_ is (or is meant to be) quantum computation implemented on [[physical systems]] governed by [[topological quantum field theory]], such as [[Chern-Simons theory]]. A prominent example of this is the (fractional) [[quantum Hall effect]] in [[solid state physics]].
+To the extent that quantum computation involves [[quantum measurement]] (generally to read out results, but often also as a kind of [[quantum logic gate]] in its own right) it is a form of [[nondeterministic computation]], due to the intrinsic [[probability theory|stochastic]] nature of the [[quantum state collapse]] during [[quantum measurement]].
+
+However, away from [[quantum measurement]], [[quantum gates]] are understood/required to implement [[unitary operators]] on a given [[Hilbert space]] [[space of quantum states|of quantum states]], for which quantum computation is hence not only deterministic but in fact a form of *[[reversible computation]]*. This relates to its susceptibility to noise and the practical need for [[quantum error correction]] and/or [[topological quantum computation|topological quantum stabilization]].
+
+Specifically, _[[topological quantum computation]]_ is (or is meant to be) quantum computation implemented on [[physical systems]] governed by [[topological quantum field theory]], such as [[Chern-Simons theory]], thought to describe for instance [[anyon]] [[defects]] in [[topological order|topologically ordered]] [[mass gap|gapped]] [[ground states]] of [[quantum materials]] in [[topological phases of matter]].
+
 
 ### Classical control, quantum data
  {#ClassicalControlQuantumData}
@@ -76,7 +82,7 @@ This, in turn, applies particularly to applications like [[quantum machine learn
 
 ### Quantum languages and quantum circuits
 
-A natural way (via [[computational trinitarianism]]) to understand [[quantum programming languages]] is as  [[linear logic]]/[[linear type theory]] ([Pratt 92](#Pratt92), for more see at *[[quantum logic]]*) with [[categorical semantics]] in non-[[Cartesian monoidal category|cartesian]] [[symmetric monoidal categories]] ([Abramsky & Coecke 04](#AbramskyCoecke04), [Abramsky & Duncan 05](#AbramskyDuncan05), [Duncan 06](#Duncan06), [Lago-Faffian 12](#LagoFaffian12)).  .
+A natural way to understand (via [[computational trilogism]]) [[quantum programming languages]] is as  [[linear logic]]/[[linear type theory]] ([Pratt 92](#Pratt92), for more see at *[[quantum logic]]*) with [[categorical semantics]] in non-[[Cartesian monoidal category|cartesian]] [[symmetric monoidal categories]] ([Abramsky & Coecke 04](#AbramskyCoecke04), [Abramsky & Duncan 05](#AbramskyDuncan05), [Duncan 06](#Duncan06), [Lago-Faffian 12](#LagoFaffian12)).  .
 
 The corresponding [[string diagrams]] are known as *[[quantum circuit diagrams]]*.
 
