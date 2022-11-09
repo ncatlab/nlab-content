@@ -9,3 +9,6 @@ Generalization of [[Tate K-theory]] (quasi-[[elliptic cohomology]]) to [[twisted
 
 
 category: people
+
+[[!redirects Matthew Young]]
+
