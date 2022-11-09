@@ -140,31 +140,32 @@ is the famous assertion by Bohr that all experiments in quantum mechanics must b
 
 Modern textbook discussion of the issue is in 
 
-* [[Robert Spekkens]], Lectures on _Foundations of quantum mechanics_ ([web](http://www.perimeterscholars.org/332.html))
+* [[Robert Spekkens]], Lectures on _Foundations of quantum mechanics_ &lbrack;[web](http://www.perimeterscholars.org/332.html)7rbrack;
 
-  also: _The Quantum Puzzle_ ([web](http://www.rwspekkens.com/index.php?Show=page&PI=2))
+  also: _The Quantum Puzzle_ &lbrack;[web](http://www.rwspekkens.com/index.php?Show=page&PI=2)&rbrack;
 
-The book
+Discussion with a focus on the [[Bub-Clifton theorem]]:
 
-* [[Jeffrey Bub]], _Interpreting the quantum world_, Cambridge University Press, Aug 26, 1999 
+* [[Jeffrey Bub]], *Interpreting the quantum world*, Cambridge University Press (1999) &lbrack;[ISBN:9780521653862](https://www.cambridge.org/ae/academic/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/interpreting-quantum-world?format=PB&isbn=9780521653862)&rbrack;
 
-has a focus on the [[Bub-Clifton theorem]]. This book is reviewed in 
+reviewed in :
 
 * {#Peres97} [[Asher Peres]], *Interpreting the Quantum World*, Stud. History Philos. Modern Physics **29** (1998) 611 &lbrack;[arXiv:quant-ph/9711003](http://arxiv.org/abs/quant-ph/9711003)&rbrack;
  
+See also:
 
-See also
+* [[Roland Omnès]], *[[The Interpretation of Quantum Mechanics]]* Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
-* [[Roland Omnès]], _[[The Interpretation of Quantum Mechanics]]_
+* [[Edward MacKinnon]], *Interpreting Physics -- Language and the Classical/QuantumDivide*, Springer (2012) &lbrack;[doi:10.1007/978-94-007-2369-6](https://doi.org/10.1007/978-94-007-2369-6)&rbrack;
 
-The approach to [[wave function collapse]] via macroscopic decoherence is reviewed in
+An approach to [[wave function collapse]] via macroscopic [[decoherence]]:
 
-* Wojciech H. Zurek, _Decoherence, einselection, and the quantum origins of the classical_, Rev. Mod. Phys. 75, 715--775 (2003) [quant-ph/0105127](http://arxiv.org/abs/quant-ph/0105127) [doi](http://dx.doi.org/10.1103/RevModPhys.75.715)
+* [[Wojciech Zurek]], *Decoherence, einselection, and the quantum origins of the classical*, Rev. Mod. Phys. **75** (2003) 715-775 &lbrack;[quant-ph/0105127](http://arxiv.org/abs/quant-ph/0105127), [doi:10.1103/RevModPhys.75.715](http://dx.doi.org/10.1103/RevModPhys.75.715)&rbrack;
 
 
-Discussion specifically with an eye towards the [[quantum measurement]] problem is also in:
+Discussion specifically with an eye towards the [[quantum measurement]] problem:
 
-* {#Wallace07} [[David Wallace]], _The Quantum Measurement Problem: State of Play_ ([arXiv:0712.0149](http://arxiv.org/abs/0712.0149))
+* {#Wallace07} [[David Wallace]], *The Quantum Measurement Problem: State of Play* &lbrack;[arXiv:0712.0149](http://arxiv.org/abs/0712.0149)&rbrack;
 
 See also:
 
