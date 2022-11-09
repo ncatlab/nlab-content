@@ -23,13 +23,13 @@
 ### General
  {#IdeaGeneral}
 
-_Quantum computation_ is [[computation]] in terms of [[quantum information theory]], possibly implemented on _quantum computers_, hence on [[physical systems]] for which phenomena of [[quantum mechanics]] are not negligible:[[quantum systems]] such as consisting of [[fundamental particles]] like [[photons]] or [[electrons]] but often of quantum-[[quasiparticles]] such as [[Cooper pairs]] in [[superconductors]]. 
+_Quantum computation_ is [[computation]] in terms of [[quantum information theory]], possibly implemented on _quantum computers_, hence on [[physical systems]] for which phenomena of [[quantum mechanics]] are not negligible: [[quantum systems]] such as consisting of [[fundamental particles]] like [[photons]] or [[electrons]] but often instead of quantum-[[quasiparticles]] such as [[Cooper pairs]] in [[superconductors]]. 
 
-In terms of the [[computational trilogy]], quantum computation is the computation corresponding to (some kind of) [[quantum logic]]/[[linear type theory]]/[[dependent linear type theory]].
+In terms of the [[computational trilogy]], quantum computation is the computation corresponding to (some kind of) [[quantum logic]]/([[dependent linear type theory|dependent]]) [[linear type theory]].
 
 To the extent that quantum computation involves [[quantum measurement]] (generally to read out results, but often also as a kind of [[quantum logic gate]] in its own right) it is a form of [[nondeterministic computation]], due to the intrinsic [[probability theory|stochastic]] nature of the [[quantum state collapse]] during [[quantum measurement]].
 
-However, away from [[quantum measurement]], [[quantum gates]] are understood/required to implement [[unitary operators]] on a given [[Hilbert space]] [[space of quantum states|of quantum states]], for which quantum computation is hence not only deterministic but in fact a form of *[[reversible computation]]*. This relates to its susceptibility to noise and the practical need for [[quantum error correction]] and/or [[topological quantum computation|topological quantum stabilization]].
+However, away from [[quantum measurement]], [[quantum gates]] are understood to implement [[unitary operators]] on a given [[Hilbert space]] [[space of quantum states|of quantum states]] (fundamentally due to the unitary nature of time-evolution as given by the [[Schrödinger equation]]), for which quantum computation is hence not only deterministic but in fact a form of *[[reversible computation]]*. This relates to its susceptibility to noise and the practical need for [[quantum error correction]] and/or [[topological quantum computation|topological quantum stabilization]].
 
 Specifically, _[[topological quantum computation]]_ is (or is meant to be) quantum computation implemented on [[physical systems]] governed by [[topological quantum field theory]], such as [[Chern-Simons theory]], thought to describe for instance [[anyon]] [[defects]] in [[topological order|topologically ordered]] [[mass gap|gapped]] [[ground states]] of [[quantum materials]] in [[topological phases of matter]].
 
