@@ -29,6 +29,8 @@
 
 ## Related concepts
 
+* [[Cooper pair]]
+
 * [[Landau-Ginzburg model]]
 
 * [[AdS/CFT in condensed matter physics]]
