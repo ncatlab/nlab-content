@@ -295,6 +295,8 @@ together with the map `inl`, `inr` and the homotopy `glue`.
 
 * [[observational type theory]], [[higher observational type theory]]
 
+* [[book HoTT]]
+
 * [[cubical type theory]]
 
 * [[type-theoretic model category]], [[fibrant type]]
