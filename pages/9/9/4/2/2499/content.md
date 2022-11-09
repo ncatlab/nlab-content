@@ -1112,6 +1112,9 @@ Review:
 
 * {#DAuria20} [[Riccardo D'Auria]], _Geometric supergravity_ ([arXiv:2005.13593](https://arxiv.org/abs/2005.13593)) in:  [[Leonardo Castellani]],  [[Anna Ceresole]], [[Riccardo D'Auria]], [[Pietro Fré]] (eds.): _Tullio Regge: An Eclectic Genius_, World Scientific 2019 ([doi:10.1142/11643](https://doi.org/10.1142/11643)) 
 
+* [[Leonardo Castellani]], *Group manifold approach to supergravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.04318](https://arxiv.org/abs/2211.04318)&rbrack;
+
+
 Discussion of [[gauged supergravity]] in this way is in 
 
 * {#Fre05} [[Pietro Fré]], _M-theory FDA, Twisted Tori and Chevalley Cohomology_, Nucl.Phys.B742:86-123, 2006 ([arXiv:hep-th/0510068](http://arxiv.org/abs/hep-th/0510068))
