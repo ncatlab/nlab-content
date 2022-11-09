@@ -288,13 +288,23 @@ Traditional textbook accounts of controlled quantum gates:
 
 See also at:
 
-* [quantum computation -- References -- Classically controlled quantum computing](quantum +computation#ReferencesClassicallyControlledQuantumComputing)
+* [quantum computation -- References -- Classically controlled quantum computing](quantum+computation#ReferencesClassicallyControlledQuantumComputing)
 
 [[!redirects controlled quantum gates]]
 
 [[!redirects controlled quantum logic gate]]
 [[!redirects controlled quantum logic gates]]
 
+[[!redirects classically controlled quantum gate]]
+[[!redirects classically controlled quantum gates]]
+
+
+[[!redirects classically controlled quantum logic gate]]
+[[!redirects classically controlled quantum logic gates]]
+
 
 [[!redirects classically controlled quantum computing]]
 [[!redirects parameterized quantum circuits]]
+
+
+
