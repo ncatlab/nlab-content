@@ -17,7 +17,7 @@
 
 ## Idea
 
-In any [[type theory]], judgmental equality is the notion of [[equality]] which is defined to be a [[judgment]]. Judgmental equality is most commonly used in single-level type theories like [[Martin-Löf type theory]] or [[higher observational type theory]] for making [[definitions]], but it is also used in [[cubical type theory]] and [[simplicial type theory]] to define probe shapes for [[(infinity,1)-category theory|(infinity,1)-categorical]] types which could not be coherently defined in vanilla dependent type theory. 
+In any [[type theory]], judgmental equality is the notion of [[equality]] which is defined to be a [[judgment]]. Judgmental equality is most commonly used in single-level type theories like [[Martin-Löf type theory]] or [[higher observational type theory]] for making [[inductive definitions]], but it is also used in [[cubical type theory]] and [[simplicial type theory]] to define probe shapes for [[(infinity,1)-category theory|(infinity,1)-categorical]] types which could not be coherently defined in vanilla dependent type theory. 
 
 Judgmental equality can be contrasted with [[propositional equality]], where equality is a [[proposition]], and [[typal equality]], where equality is a [[type]].
 
