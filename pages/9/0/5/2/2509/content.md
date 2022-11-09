@@ -9,6 +9,8 @@ On the [[D'Auria-Fré formulation of supergravity]]:
 
 * [[Leonardo Castellani]], _Supergravity in the group-geometric framework: a primer_ ([arXiv:1802.03407](https://arxiv.org/abs/1802.03407))
 
+* [[Leonardo Castellani]], *Group manifold approach to supergravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.04318](https://arxiv.org/abs/2211.04318)&rbrack;
+
 Discussion of the [[Hodge star operator]] on [[supermanifolds]] (in terms of [[picture changing operators]] and integral top-forms for [[integration over supermanifolds]]):
 
 * [[Leonardo Castellani]], [[Roberto Catenacci]], [[Pietro Antonio Grassi]], _Hodge Dualities on Supermanifolds_, Nuclear Physics B Volume 899, October 2015, Pages 570-593 ([arXiv:1507.01421](https://arxiv.org/abs/1507.01421))
