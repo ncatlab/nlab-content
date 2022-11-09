@@ -139,7 +139,7 @@ The idea of quantum computation was first expressed in:
 
 * {#Manin1980} [[Yuri I. Manin]], Introduction to: *Computable and Uncomputable*, Sov. Radio (1980) &lbrack;Russian original: [[Manin-1980.pdf:file]]&rbrack;, Enlish translation on p. 69-77 of *Mathematics as Metaphor: Selected essays of Yuri I. Manin*, Collected Works **20**, AMS (2007) &lbrack;[ISBN:978-0-8218-4331-4](https://bookstore.ams.org/cworks-20/)&rbrack;
 
-  > Perhaps, for a better understanding of &lbrack;molecular bilogy&rbrack;, we need a mathematical theory of quantum automata.
+  > Perhaps, for a better understanding of &lbrack;molecular biology&rbrack;, we need a mathematical theory of quantum automata.
 
 * [[Paul Benioff]], *The computer as a physical system: A microscopic quantum mechanical Hamiltonian model of computers as represented by Turing machines*, J Stat Phys 22, 563–591 (1980) &lbrack;[doi:10.1007/BF01011339](https://doi.org/10.1007/BF01011339)&rbrack;
 
