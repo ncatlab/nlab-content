@@ -767,3 +767,11 @@ Implementation in [[Haskell]]:
 [[!redirects computational effect]]
 [[!redirects computational effects]]
 
+[[!redirects monadic effect]]
+[[!redirects monadic effects]]
+
+[[!redirects monadic computational effect]]
+[[!redirects monadic computational effects]]
+
+
+
