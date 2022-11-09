@@ -272,15 +272,21 @@ We formally define the property of $R$ being a one-to-one correspondence or an e
 
 $$\mathrm{isEquiv}_{A, B}(f) \coloneqq \prod_{b:B} \mathrm{isContr}\left(\sum_{a:A} f(a) =_B b\right)$$
 
-We define the type of equivalences from $A$ to $B$ in $U_i$ as 
+We define the type of equivalences from $A$ to $B$ as 
 
-$$(A \simeq_{U_i} B) \coloneqq \sum_{R : (A \times B) \to U_i} \mathrm{isEquiv}_{A, B}(R)$$
+$$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{isEquiv}_{A, B}(f)$$
 
-The principle of [[univalence]] is the principle that the identity type between two types in a universe is the same as the type of equivalences between the two types, and is given by the following rules:
+There is a function 
 
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i \quad \Xi \vert \Gamma \vdash B:U_i \quad \Xi \vert \Gamma \vdash R:A \simeq_{U_i} B}{\Xi \vert \Gamma \vdash \mathrm{equivtoid}(R):A =_{U_i} B}$$ 
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i \quad \Xi \vert \Gamma \vdash B:U_i  \quad \Xi \vert \Gamma \vdash P:A =_{U_i} B}{\Xi \vert \Gamma \vdash \mathrm{idtoequiv}(P):A \simeq_U B}$$ 
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i \quad \Xi \vert \Gamma \vdash B:U_i  \quad \Xi \vert \Gamma \vdash R:A \simeq_{U_i} B}{\Xi \vert \Gamma \vdash \mathrm{idtoequiv}(\mathrm{equivtoid}(R)) \equiv R \; \mathrm{type}}$$
+$$\mathrm{idtoequiv}_{A, B}:(A =_{U_i} B) \to (A \simeq B)$$ 
+
+which is inductively defined on reflexivity to be the identity function on $A$
+
+$$\mathrm{idtoequiv}_{A, A}(\mathrm{refl}_{U_i}(A)) \equiv id_A$$
+
+The [[univalence axiom]] then states that $\mathrm{idtoequiv}_{A, B}$ is an equivalence for all external natural numbers $i \in \mathcal{N}$ and types $A:U_i$ and $B:U_i$:
+
+$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i \quad \Xi \vert \Gamma \vdash B:U_i}{\Xi \vert \Gamma \vdash \mathrm{ua}_{U_i}(A, B):\mathrm{isEquiv}_{A =_{U_i} B, A \simeq B}(\mathrm{idtoequiv}_{A, B})}$$ 
 
 ## See also
 
@@ -292,7 +298,3 @@ $$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i \quad \
 
 * *Homotopy Type Theory: Univalent Foundations of Mathematics*,
 The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
-
-The rules for univalence are adapted from 
-
-* [[Mike Shulman]], *Towards a Third-Generation HOTT Part 1* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA))
