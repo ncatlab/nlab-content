@@ -44,7 +44,7 @@ Typically the way that the strong Nullstellensatz is proved is by reduction to t
 ### A weak Nullstellensatz: Existence of points
  {#ExistenceOfPoints}
 
-One weak version of the Nullstellensatz says the following (e.g. [theorem 3.99.1 here](http://www.math.unipd.it/~frank/ALGANT/2010/Notes/7-12.pdf)).
+One weak version of the Nullstellensatz says the following (e.g. Theorem 3.99.1 here: [[Frank-ALGANT-2010-7-12.pdf:file]])
 
 For $k$ an [[algebraically closed field]] and $I$ a proper [[ideal]] in the [[polynomial ring]] $k[X_1, \cdots, X_n]$, the set $V(I)$ (of $n$-[[tuples]] $x = (x_i) \in k^n$ such that all polynomials in $I$ vanish when evaluated on these $x$) is an [[inhabited set]].
 
