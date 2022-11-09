@@ -157,13 +157,13 @@ $\mathcal{J}$ is a generic judgment thesis.
 
 ## Usages of equality
 
-### In definitions
+### In conversion rules and inductive definitions
+
+The three different notions of equality above could also be used in the [[conversion rules]] for the various type formers, such as [[beta conversion]] or [[eta conversion]], where the equality is called **[[conversional equality]]** or **computational equality**. Computational equality is important because it is the equality used in [[inductive definitions]]. In [[Martin-Löf type theory]] and [[cubical type theory]], judgmental equality is used for computational equality, and in [[objective type theories]], typal equality is used for computational equality. 
+
+### In definitions and assignment
 
 The three different notions of equality above could be used [[definitions]], where the equality in the [[definition rule]] is called **[[definitional equality]]**. In [[Martin-Löf type theory]] and [[cubical type theory]], judgmental equality is used for definitional equality. In [[ZFC]] and [[ETCS]], propositional equality is used for definitional equality, and in [[objective type theories]], typal equality is used for definitional equality. 
-
-### In conversion rules
-
-The three different notions of equality above could also be used in the [[conversion rules]] for the various type formers, such as [[beta conversion]] or [[eta conversion]], where the equality is called **[[conversional equality]]** or **computational equality**. In [[Martin-Löf type theory]] and [[cubical type theory]], judgmental equality is used for computational equality, and in [[objective type theories]], typal equality is used for computational equality. 
 
 ## Meta-equalities: syntactic equality and alpha-equivalence
 
