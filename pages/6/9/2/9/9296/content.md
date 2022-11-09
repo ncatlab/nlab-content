@@ -41,9 +41,12 @@ This has been argued to resolve (and has been argued not to resolve) the problem
 
 * [[Roland Omnès]], §7 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
-* Chris Nagele, Oliver Janssen, Matthew Kleban, _Decoherence: A Numerical Study_ ([arXiv:2010.04803](https://arxiv.org/abs/2010.04803))
+* [[Wojciech Zurek]], *Decoherence, einselection, and the quantum origins of the classical*, Rev. Mod. Phys. **75** (2003) 715-775 &lbrack;[quant-ph/0105127](http://arxiv.org/abs/quant-ph/0105127), [doi:10.1103/RevModPhys.75.715](http://dx.doi.org/10.1103/RevModPhys.75.715)&rbrack;
 
-See also
+
+* Chris Nagele, Oliver Janssen, Matthew Kleban, _Decoherence: A Numerical Study_ &lbrack;[arXiv:2010.04803](https://arxiv.org/abs/2010.04803)&rbrack;
+
+See also:
 
 * Wikipedia, _[Quantum decoherence](http://en.wikipedia.org/wiki/Quantum_decoherence)_
 
