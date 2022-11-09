@@ -47,6 +47,9 @@ Therefore, the practical problem of implementing quantum computation faces analo
 * [[quantum computation]], [[quantum circuit]]
 
 
+* [[nondeterministic computation]]
+
+
 ## References
 
 Original articles:
