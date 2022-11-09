@@ -484,8 +484,8 @@ where
 namely:
 
 \begin{imagefromfile}
-    "file_name": "QMeasurementViaIndefinitenessHandling-221109b.jpg",
-    "width": "700",
+    "file_name": "QMeasurementViaIndefinitenessHandling-221109c.jpg",
+    "width": "730",
     "unit": "px",
     "margin": {
         "top": -20,
@@ -494,6 +494,7 @@ namely:
         "left": 10
     }
 \end{imagefromfile}
+
 
 Notice that this process may be understood as the "[[dynamic lifting]]" of [[quantum measurement]]-results into the [[context]] (here: $B = $ [[Bool]]) of the ambient [[dependent linear type theory]].
 
