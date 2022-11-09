@@ -12,6 +12,11 @@ Introducing [[relative monad|relative]] [[monads in computer science]]:
 
 On ([[comonad|co-]])[[monads in computer science]] (such as the [[writer monad]], [[reader monad]], [[coreader comonad]], [[state monad]], ...):
 
+* Marco Gaboardi, Shin-ya Katsumata, Dominic Orchard, Flavien Breuvart, [[Tarmo Uustalu]], *Combining effects and coeffects via grading*, ICFP 2016: Proceedings of the 21st ACM SIGPLAN International Conference on Functional Programming (2016) 476–489 &lbrack;[doi:10.1145/2951913.2951939](https://doi.org/10.1145/2951913.2951939), [talk abstract](https://icfp16.sigplan.org/details/icfp-2016-papers/31/Combining-Effects-and-Coeffects-via-Grading), [video rec](https://www.youtube.com/watch?v=l1ZNMT3fQCo)&rbrack;
+
+  > (also on [[graded modalities]])
+
+
 * {#AhmanUustalu19} [[Danel Ahman]], [[Tarmo Uustalu]], p. 3 of: *Decomposing Comonad Morphisms*, CALCO 2019, Leibniz International Proceedings in Informatics (LIPIcs) **139** (2019) &lbrack;[doi:10.4230/LIPIcs.CALCO.2019.14](https://doi.org/10.4230/LIPIcs.CALCO.2019.14)&rbrack;
 
 
