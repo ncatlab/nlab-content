@@ -25,9 +25,9 @@ In [[type theory]] a _definition_ is the construction of a [[type]] or a [[term]
 
 Many types in type theory, such as [[function types]], [[product types]], [[coproduct types]], [[booleans type]], [[natural numbers type]], [[integers]], et cetera, are defined in both ways, by universal properties and by equality with another type. 
 
-## Rules for definitions
+## Rules for definitions and single assignment operators
 
-One way that definitions of types and of terms could be formalized is by the use of [[equality]] with another term or type. More specifically, every definition of a symbol $A$ comes with a **formation rule** for the symbol which states that it is a type or an **introduction rule** for the symbol which states that it is a term of a type, and a **definition rule** that the term or type $A$ is equal to some existing term or type $B$. The equality used in the definition rule is called **definitional equality**. 
+One way that definitions of types and of terms could be formalized inside the type theory is by the use of [[equality]] with another term or type. More specifically, every definition of a symbol $A$ comes with a **formation rule** for the symbol which states that it is a type or an **introduction rule** for the symbol which states that it is a term of a type, and a **definition rule** that the term or type $A$ is equal to some existing term or type $B$. The equality used in the definition rule is called **[[definitional equality]]**. 
 
 As documented in the article on [[equality]], there are three notions of equality used in type theory: judgmental equality, propositional equality, and typal equality. All three notions of equality could be used in the definition rule. In [[Martin-Löf type theory]] and [[cubical type theory]], symbols and abbreviations are defined using judgmental equality. In [[ZFC]] and [[ETCS]], they are defined using propositional equality, and in [[objective type theories]], they are defined using typal equality. 
 
@@ -59,37 +59,36 @@ $$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash a:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash a:A} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \delta_a:a =_A b}$$
 
-For instance one usually defines the symbol $2$ to be the term $s(s(0))$ (meaning the successor of the successor of $0$) in the type of [[natural numbers]]. This is formally defined judgmentally, propositionally, and typally as follows:
+However, including separate rules for each new term or type is very cumbersome and would lead to an explosion of rules in the type theory. To handle that, one usually introduces the **single assignment operator**, **initialization operator**, **initialisation operator**, or **definition operator** $\coloneqq$ to the type theory, which is formally defined as a pair of judgments 
 
-* Introduction and judgmental definition rules for $2$:
+* $B \coloneqq A \; \mathrm{type}$, where we judge $B$ to be defined as the type $A$, or assigned the type $A$ 
+* $b \coloneqq a:A$, where we judge $b$ to be defined as the term $a:A$, or assigned the term $a:A$ 
 
-$$\frac{\Gamma \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vdash 2:\mathbb{N}} \qquad \frac{\Gamma \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vdash 2 = s(s(0)):\mathbb{N}}$$
+in addition to the [[judgments]] for [[types]], [[terms]], and [[judgmental equality]]. $B \coloneqq A \; \mathrm{type}$ is called **type definition**, **type initialization**, **type initialisation** or **type single assignment**, while $b \coloneqq a:A$ is called **term definition**, **term initialization**, **term initialisation**, or **term single assignment**. Judgmental single assignment is different from judgmental equality as judgmental equality is an [[equivalence relation]], while judgmental single assignment is not an equivalence relation, but instead has a reflection rule into [[equality]]. 
 
-* Introduction and propositional definition rules for $2$:
+Depending upon what notion of [[equality]] is used for [[definitional equality]], the single assignment operator has the following formation and equality reflection rules for type definitions
 
-$$\frac{\Gamma \vert \Phi \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vert \Phi \vdash 2:\mathbb{N}} \qquad \frac{\Gamma \vert \Phi \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vert \Phi \vdash 2 =_{\mathbb{N}} s(s(0)) \; \mathrm{true}}$$
+* Formation and judgmental equality reflection rules for type definition:
+$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \equiv A\; \mathrm{type}}$$
 
-* Introduction and typal definition rules for $2$:
+* Formation and propositional equality reflection rules for type definition:
+$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \equiv A\; \mathrm{true}}$$
 
-$$\frac{\Gamma \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vdash 2:\mathbb{N}} \qquad \frac{\Gamma \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vdash \delta_2:2 =_{\mathbb{N}} s(s(0))}$$
+* Formation and typal equality reflection rules for type definition:
+$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash P:B \simeq A}$$
 
-Another example is the symbol $\mathrm{isProp}(A)$, which is usually defined as the type 
-$$\prod_{x:A} \prod_{y:A} x =_A y$$ 
-This is formally defined judgmentally, propositionally, and typally as follows:
+There are also the following introduction and equality reflection rules for term definitions:
 
-* Formation and judgmental definition rules for $\mathrm{isProp}(A)$:
+* Introduction and judgmental equality reflection rules for term definition:
+$$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b \equiv a:A}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) = \prod_{x:A} \prod_{y:A} x =_A y \; \mathrm{type}}$$
+* Introduction and propositional equality reflection rules for term definition:
+$$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b \equiv_A a \; \mathrm{true}}$$
 
-* Formation and propositional definition rules for $\mathrm{isProp}(A)$:
+* Introduction and typal equality reflection rules for term definition:
+$$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash p:b =_A a}$$
 
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash \mathrm{isProp}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash \mathrm{isProp}(A) = \prod_{x:A} \prod_{y:A} x =_A y\; \mathrm{true}}$$
-
-* Formation and typal definition rules for $\mathrm{isProp}(A)$:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}}{\Gamma \vdash \delta_{\mathrm{isProp}(A)}:\mathrm{isProp}(A) \simeq \prod_{x:A} \prod_{y:A} x =_A y}$$
-
-### Copy definitions
+## Copy definitions
 
 Another way of typally defining a type $A$ to be a type $B$ is via **copying**. The rules for copying the type $A$ over to the symbol $B$ are given as follows:
 
@@ -108,29 +107,7 @@ $$\frac{\Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\math
 Uniqueness rules for the symbol $B$:
 $$\frac{\Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash e:B \quad \Gamma, y:B \vdash u:C \quad \Gamma, a:A \vdash i_\mathrm{copy}(u):u[\mathrm{copy}(a)/y] =_{C[\mathrm{copy}(a)/y]} c[a/x]}{\Gamma \vdash \eta_{B}:u[e/z] =_{C[e/z]} \mathrm{ind}_{B}^C(c, e)}$$
 
-Copying becomes important for typally defining the [[type of equivalences]], as the usual way of typally defining types involves the [[type of equivalences]] and thus isn't available. 
-
-## The single assignment operator
-
-In type theory, the **single assignment operator**, **initialization operator**, **initialisation operator**, or **definition operator** $\coloneqq$ is formally defined as a pair of judgments 
-
-* $B \coloneqq A \; \mathrm{type}$, where we judge $B$ to be defined as the type $A$, or assigned the type $A$ 
-* $b \coloneqq a:A$, where we judge $b$ to be defined as the term $a:A$, or assigned the term $a:A$ 
-
-in addition to the [[judgments]] for [[types]], [[terms]], and [[judgmental equality]]. $B \coloneqq A \; \mathrm{type}$ is called **type definition**, **type initialization**, **type initialisation** or **type single assignment**, while $b \coloneqq a:A$ is called **term definition**, **term initialization**, **term initialisation**, or **term single assignment**. Judgmental single assignment is different from judgmental equality as judgmental equality is an [[equivalence relation]], while judgmental single assignment is not an equivalence relation, but instead has a reflection rule into [[equality]]. 
-
-Depending upon what notion of [[equality]] is used for [[definitional equality]], the single assignment operator has the following formation and equality reflection rules for type definitions
-
-* Formation and judgmental equality reflection rules for type definition:
-$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \equiv A\; \mathrm{type}}$$
-
-* Formation and propositional equality reflection rules for type definition:
-$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \equiv A\; \mathrm{true}}$$
-
-* Formation and typal equality reflection rules for type definition:
-$$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash P:B \simeq A}$$
-
-There is an alternative to the typal structural rules for type definitions, which use the [[natural deduction]] rules for copying types instead of a reflection rule into an [[equivalence of types]]:
+Similarly, there is an alternative to the typal structural rules for type definitions, which use the [[natural deduction]] rules for copying types instead of a reflection rule into an [[equivalence of types]]:
 
 * Formation and introduction rules for type definitions
 $$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{copy}(a):B}$$
@@ -144,45 +121,7 @@ $$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma, z:B \vdash C 
 * Uniqueness rules for type definitions rules:
 $$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash e:B \quad \Gamma, y:B \vdash u:C \quad \Gamma, a:A \vdash i_\mathrm{copy}(u):u[\mathrm{copy}(a)/y] =_{C[\mathrm{copy}(a)/y]} c[a/x]}{\Gamma \vdash \eta_{B}:u[e/z] =_{C[e/z]} \mathrm{ind}_{B}^C(c, e)}$$
 
-There are also the following introduction and equality reflection rules for term definitions:
-
-* Introduction and judgmental equality reflection rules for term definition:
-$$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b \equiv a:A}$$
-
-* Introduction and propositional equality reflection rules for term definition:
-$$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b \equiv_A a \; \mathrm{true}}$$
-
-* Introduction and typal equality reflection rules for term definition:
-$$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash p:b =_A a}$$
-
-## Note on terminology
-
-Historically in the [[dependent type theory]] community, the term *definitional equality* was used for [[judgmental equality]]. This was because in the most common model of dependent type theory, [[Martin-Löf type theory]], judgmental equality was used for definitional equality. However, we choose to make a distinction between definitional equality and judgmental equality. First, definitional equality as defined in this article is [[propositional equality]] in the most common [[foundations of mathematics]], such as [[ZFC]] and [[ETCS]], and thus clearly not [[judgmental equality]]. In addition, one could work in [[logic]] over [[dependent type theory]] and replace [[judgmental equality]] entirely by [[propositional equality]] throughout the type theory, resulting in a type theory which behaves almost identically to the original type theory, only that definitional equality is a proposition instead of a judgment (see the second presentation of [[Martin-Löf type theory]] on that article). Finally, in the advent of [[objective type theory]] and other dependent type theories which lack [[judgmental equality]] entirely, it is [[typal equality]] which is used in [[definitional equality]]. 
-
-## History
-
-According to [PML (1980), p. 31](#PML):
-
-> Definitional equality is intensional equality, or equality of meaning (synonymy). [...] It is a relation between linguistic expressions [...] Definitional equality is the equivalence relation generated by abbreviatory definitions, changes of [[bound variables]] and the [[principle of substituting equals for equals]]. [...] Definitional equality can be used to rewrite expressions [...].
-
-on p. 60:
-
-> ... intensional (sameness of meaning) ...
-
-The notion of definitional equality was introduced first in [[AUTOMATH]]. The following paper presents a suggestive explanation of this notion and how proof-checking was designed in this system (especially section 10):
-
-[On the roles of types in mathematics](http://uf-ias-2012.wikispaces.com/file/view/deB1.pdf/401388596/deB1.pdf)
-
-The notion of definitional equality was later introduced by [[Per Martin-Löf]], first in the context of normalization proofs for higher-order logic in the paper [Hauptsatz for Intuitionistic Simple Type Theory](http://www.sciencedirect.com/science/article/pii/S0049237X09703659) and generalized in Type Theory. He discusses this notion in the paper [About Models for Intuitionistic Type Theory and The notion of Definitional Equality](http://www.sciencedirect.com/science/article/pii/S0049237X08707274).
-
-The extension from AUTOMATH is that one adds the notion of data type (natural number), of constructors (zero and successor) and primitive recursion as definitional equality. The motivation is that one can consider the schema of primitive recursion as a definition of a function.
-
-This was also influenced by natural deduction, where constructors correspond to introduction rules and the work of Gödel on system T.
-
-With this extension, one obtains a programming language with dependent types and where computations correspond to unfolding of definitions (that can be primitive recursive definitions). This programming language has the feature that all computations terminate. This has been also considered in functional programming, see e.g. the discussion in [this paper](http://uf-ias-2012.wikispaces.com/file/view/turner.pdf/401400700/turner.pdf).
-
-A description of the evaluation algorithm using techniques from functional programming
-can be found in [this work of Gregoire and Leroy](http://uf-ias-2012.wikispaces.com/file/view/strong-reduction.pdf/402005168/strong-reduction.pdf).  
+Copying becomes important for typally defining the [[type of equivalences]], as the usual way of typally defining types involves the [[type of equivalences]] and thus isn't available. 
 
 ## Related concepts
 
@@ -224,16 +163,6 @@ can be found in [this work of Gregoire and Leroy](http://uf-ias-2012.wikispaces.
 
 ## References
 
-There is 
-
-* [[Kurt Gödel]], _Über eine bisher noch nicht benützte Erweiterung des finiten Standpunktes_. Dialectica (1958), pp. 280–287, 
-
-which might be the first paper to mention intensional equality (and the fact that it should be decidable), and there is
-
-* [[Nicolaas de Bruijn]], _[[Automath]]_, 
-
-where de Bruijn makes a distinction between definitional equality and "book" equality.
-
 Copying types could be found in 
 
 * [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]], *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$ 
@@ -255,21 +184,6 @@ See also:
 
 [[!redirects definition rule]]
 [[!redirects definition rules]]
-
-[[!redirects definitional equality rule]]
-[[!redirects definitional equality rules]]
-
-[[!redirects definitional identity]]
-[[!redirects definitional identities]]
-[[!redirects definitional equality]]
-[[!redirects definitional equalities]]
-
-[[!redirects intensional identity]]
-[[!redirects intensional identities]]
-[[!redirects intensional equality]]
-[[!redirects intensional equalities]]
-[[!redirects extensional equality]]
-[[!redirects extensional equalities]]
 
 [[!redirects copying]]
 [[!redirects copy definition]]
