@@ -511,6 +511,15 @@ Stone-von Neumann**
 
   > on the [[quantum programming language]]-scheme *[[schreiber:QS]]*
 
+### Nov 2022
+
+* 09 Nov 2022 
+
+  [[Zhen Huan]] (HUST)
+
+  **Twisted Real quasi-elliptic cohomology**
+
+  >  [[quasi-elliptic cohomology|Quasi-elliptic cohomology]] is closely related to [[Tate K-theory]]. It is constructed as an object both reflecting the geometric nature of [[elliptic curves]] and more practicable to study than most [[elliptic cohomology|elliptic cohomology theories]]. It can be interpreted by [[Huan's inertia orbifold|orbifold loop spaces]] and expressed in terms of [[equivariant K-theory|equivariant K-theories]]. We formulate the complete [[nLab:power operation]] of this theory. Applying that we prove the finite subgroups of the [[Tate curve]] can be classified by the Tate K-theory of [[symmetric groups]] modulo a certain transfer ideal. In this talk we construct twisted Real quasi-elliptic cohomology as the [[twisted K-theory|twisted]] [[KR-theory]] of [[free loop  orbifold|loop groupoids]]. The theory systematically incorporates loop rotation and reflection. After establishing basic properties of the theory, we construct Real analogues of the string power operation of quasi-elliptic cohomology. We also explore the relation of the theory to the Tate curve. This is joint work with [[Matthew Young]]. &lbrack;[arXiv:2210.07511](https://arxiv.org/abs/2210.07511)&rbrack;
 
 \linebreak
 
