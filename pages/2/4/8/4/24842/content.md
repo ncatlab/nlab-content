@@ -13,9 +13,9 @@
 
 ## Idea
 
-In type theory, a conversion rule is a rule which constrains the result of combining [[term introduction]] with [[term elimination]]. Conversion rules come in two types: **[[beta conversion]] rules** or **computation rules**, and **[[eta conversion]] rules** or **uniqueness rules**. 
+In type theory, a conversion rule is a rule which constrains the result of combining [[term introduction]] with [[term elimination]]. Conversion rules come in two types: **[[beta conversion]] rules** or **computation rules**, and **[[eta conversion]] rules** or **uniqueness rules**. Computation rules in particular are important, because they are used in [[inductive definitions]]. For example, the rules for [[addition]] of [[natural numbers]] has two computation rules, which derive from the two computation rules of the [[natural numbers type]]. 
 
-In addition, conversion rules use [[equality]]. The usage of equality in this manner is called **conversional equality**, and in the context of beta conversion rules is also called **computational equality**. In [[type theory]], there are three notions of equality, [[judgmental equality]], [[propositional equality]], and [[typal equality]], all of which could be used for conversional equality. 
+Moreover, conversion rules use [[equality]]. The usage of equality in this manner is called **conversional equality**, and in the context of beta conversion rules is also called **computational equality**. In [[type theory]], there are three notions of equality, [[judgmental equality]], [[propositional equality]], and [[typal equality]], all of which could be used for conversional equality. 
 
 For example, the [[beta conversion]] rule for the [[dependent product type]] could be expressed in judgmental, propositional, and typal equality:
 
@@ -83,7 +83,7 @@ $$\frac{\Gamma, z:A + B, \Delta \vdash C \; \mathrm{type} \quad \Gamma, x:A, \De
 
 * [[formation rule]], [[introduction rule]], [[elimination rule]]
 * [[beta-conversion]], [[eta-conversion]]
-* [[definition rule]]
+* [[inductive definition]]
 * [[equality]]
 
 ## References
