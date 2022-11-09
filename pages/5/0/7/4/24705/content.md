@@ -532,7 +532,7 @@ Given this, the [Kleisli equivalence](Kleisli+category#KleisliEquivalence) for t
 We may understand quantum measurement in this form as the *[effect handling](monad+in+computer+science#MonadModulesInIdeaSection)* (in the sense of [[monads in computer science]]) of indefiniteness effects (in the sense of [potentiality modal logic](necessity+and+possibility#RelationToPotentiality)):
 
 \begin{imagefromfile}
-    "file_name": "QMeasurementViaIndefinitenessHandling-221109b.jpg",
+    "file_name": "QMeasurementViaIndefinitenessHandling-221109c.jpg",
     "width": "700",
     "unit": "px",
     "margin": {
