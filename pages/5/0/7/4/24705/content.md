@@ -28,9 +28,9 @@
 
 ### The problem
 
-In the context of [[quantum computation]], a *[[quantum circuit diagram]]* (originally: "quantum computational network", [Deutsch 1989](quantum+circuit#Deutsch89)) is a kind of [[string diagram]] ([Abramsky & Coecke 2004](quantum+circuit#AbramskyCoecke04)) in [[finite-dimensional vector spaces|finite-dimensional]] [[Hilbert spaces]], typically used to express a sequence of low-level [[quantum logic gate|quantum gates]] mapping between [[space of quantum states|spaces of]] [[pure quantum state|pure]] [[quantum states]].
+In the context of [[quantum computation]], a pure *[[quantum circuit diagram]]* (originally: "quantum computational network", [Deutsch 1989](quantum+circuit#Deutsch89)) is a kind of [[string diagram]] ([Abramsky & Coecke 2004](quantum+circuit#AbramskyCoecke04)) in [[finite-dimensional vector spaces|finite-dimensional]] [[Hilbert spaces]], typically used to express a sequence of low-level [[quantum logic gate|quantum gates]] mapping between [[space of quantum states|spaces of]] [[pure quantum state|pure]] [[quantum states]].
 
-A generic quantum circuit might look as follows:
+A generic pure [[quantum circuit]] might look as follows:
 
 \begin{imagefromfile}
     "file_name": "QuantumCircuitScheme-221025c.jpg",
@@ -51,17 +51,50 @@ Notice that the quantum circuit is understood to be the actual [[string diagram]
 
 Often the basic Hilbert space building block here is taken to be [[complex vector space|complex]] 2-[[dimension of a vector space|dimensional]], $\mathscr{H} \,\coloneqq\, \mathbb{C}^2$, in which case one speaks of a quantum circuit on *[[q-bits]]*.
 
-Sometimes all [[quantum gates]] involved, and hence also the resulting [[composition|composite]] [[linear maps]], are assumed to be [[invertible]], as befits [[reversible computation]] by [[unitary operator|unitary]] quantum state evolution in [[quantum mechanics]].
+Typically all [[quantum gates]] involved, and hence also the resulting [[composition|composite]] [[linear maps]], are assumed to be [[invertible]], as befits [[reversible computation]] by [[unitary operator|unitary]] quantum state evolution in [[quantum mechanics]].
 
-But more generally and certainly in the broader context of [[quantum information theory]] (such as in formulating the [[quantum teleportation protocol]] and similar), quantum circuits are admitted to also contain:
+\linebreak
 
-1. *[[quantum measurement]]-gates*,  
+**But more generally** and certainly in the broader context of [[quantum information theory]] (such as in formulating the [[quantum teleportation protocol]] and similar), quantum circuits are admitted to cross the [[quantum-classical divide]], in that they may involve:
 
-1. *[[quantum state preparation]]-gates*,
+1. *[[quantum measurement]]*,  
 
-1. *classically controlled quantum gates*.
+1. *[[quantum state preparation]]*,
 
-Here [[quantum measurement]], in particular, is not only non-[[reversible computation|reversible]] (due to the [[quantum state collapse]] involved) but also non-deterministic, meaning that it is not immediately represented by a fixed linear map at all -- at least not between the original Hilbert spaces. 
+1. *[[classically controlled quantum gates]]*.
+
+All three of these appear already in basic examples such as the [[quantum teleportation protocol]]:
+
+\begin{imagefromfile}
+    "file_name": "QBitQuantumTeleportationProtocol-221109.jpg",
+    "width": "830",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Yet more generally --- notably for any plausible implementation of [[quantum error correction]] --- one needs to allow for [[quantum measurement]]-results to be fed back during runtime ("[[dynamic lifting]]") into [[algorithms]] running on a universal classical computer which schedule further [[quantum circuit]]-execution, and so forth:
+
+\begin{imagefromfile}
+    "file_name": "SQRAMschema-WithDynLifting.jpg",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "SQRAM model adapted from [Nagarajan, Papanikolaou & Williams 2007, Fig 1](#NagarajanPapanikolaouWilliams07)"
+\end{imagefromfile}
+
+
+
+The conceptual subtlety with fully formalizing these common ideas is that [[quantum measurement]], in particular, is not only non-[[reversible computation|reversible]] (due to the [[quantum state collapse]] involved) but also [[nondeterministic computation|non-deterministic]], meaning that it is not immediately represented by a fixed linear map at all -- at least not between the original [[Hilbert spaces]]. 
 
 Concretely, the "[[projection postulate]]" of [[quantum physics]] asserts ([von Neumann 1932](quantum+measurement#vonNeumann32); [Lüders 1951](quantum+measurement#Lüders51)) that:
 
@@ -496,6 +529,25 @@ Given this, the [Kleisli equivalence](Kleisli+category#KleisliEquivalence) for t
     }
 \end{imagefromfile}
 
+We may understand quantum measurement in this form as the *[effect handling](monad+in+computer+science#MonadModulesInIdeaSection)* (in the sense of [[monads in computer science]]) of indefiniteness effects (in the sense of [potentiality modal logic](necessity+and+possibility#RelationToPotentiality)):
+
+\begin{imagefromfile}
+    "file_name": "QMeasurementViaIndefinitenessHandling-221109b.jpg",
+    "width": "700",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Notice that this process may be understood as the "[[dynamic lifting]]" of [[quantum measurement]]-results into the [[context]] (here: $B = $ [[Bool]]) of the ambient [[dependent linear type theory]].
+
+\linebreak
+
+
 There is another possible typing of quantum measurement, where a measurement lands in the random [[reader monad]]:
 
 \begin{imagefromfile}
@@ -813,5 +865,19 @@ The dependent linear type of a Bell state measurement:
 This establishes all the ingredients of traditional [[quantum circuits]]. For instance, we obtain the measurement-controlled circuit that exhibits the [[quantum teleportation]]-protocol:
 
 (...)
+
+
+## References
+ {#References}
+
+
+(...)
+
+The above figure of an SQRAM scheme is taken from:
+
+* {#NagarajanPapanikolaouWilliams07} Rajagopal Nagarajan, Nikolaos Papanikolaou, David Williams, *Simulating and Compiling Code for the Sequential Quantum Random Access Machine*, Electronic Notes in Theoretical Computer Science Volume 170, 6 March 2007, Pages 101-124 &lbrack;[doi:10.1016/j.entcs.2006.12.014](https://doi.org/10.1016/j.entcs.2006.12.014)&rbrack;
+
+(...)
+
 
 
