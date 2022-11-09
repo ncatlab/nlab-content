@@ -17,6 +17,10 @@ Realization of [[quantum error correction]] in [[experiment]]:
 
 * D. G. Cory, M. D. Price, W. Maas, [[Emanuel Knill]], [[Raymond Laflamme]], [[Wojchiek H. Zurek]], T. F. Havel, and S. S. Somaroo, *Experimental Quantum Error Correction*, Phys. Rev. Lett. 81, 2152 (1998) ([doi:10.1103/PhysRevLett.81.2152](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.81.2152))
 
+On [[decoherence]] in [[quantum  physics]] and the [[interpretation of quantum mechanics]]:
+
+* [[Wojciech Zurek]], *Decoherence, einselection, and the quantum origins of the classical*, Rev. Mod. Phys. **75** (2003) 715-775 &lbrack;[quant-ph/0105127](http://arxiv.org/abs/quant-ph/0105127), [doi:10.1103/RevModPhys.75.715](http://dx.doi.org/10.1103/RevModPhys.75.715)&rbrack;
+
 
 
 ## Related $n$Lab entries
