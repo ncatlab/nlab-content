@@ -71,6 +71,12 @@ On [[D=4 N=1 supergravity]] formulated via [[superspace]]:
 
 * S. M. Kuzenko, E. S. N. Raptakis, G. Tartaglino-Mazzucchelli, *Superspace approaches to $\mathcal{N} = 1$ supergravity*, *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.17088](https://arxiv.org/abs/2210.17088)&rbrack;
 
+\linebreak
+
+On the [[D'Auria-Fré formulation of supergravity]]:
+
+* [[Leonardo Castellani]], *Group manifold approach to supergravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.04318](https://arxiv.org/abs/2211.04318)&rbrack;
+
 
 \linebreak
 
