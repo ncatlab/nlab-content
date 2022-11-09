@@ -19,7 +19,7 @@ An _inductive definition_ is a [[definition]] by [[induction]]/[[recursion]].
 
 ## Definition
 
-In [[type theory]], inductive and recursive definitions are made on [[inductive types]] through the [[computation rules]] for the inductive type. However, since there are multiple possible [[equalities]] which could be used for [[computation rules]], there are multiple computation rules which could be used in inductive definitions: computation rules involving [[judgmental equality]], [[propositional equality]], and [[typal equality]] are all possible. For example, addition is usually defined by recursion on the natural numbers, and since the natural numbers comes with two computation rules, addition comes with an introduction rule and two computation rules, one for the base case $0$ and one for the inductive case $s$ the successor function: 
+In [[type theory]], inductive and recursive definitions are made on [[inductive types]] through the [[computation rules]] for the inductive type. However, since there are multiple possible [[equalities]] which could be used for [[computation rules]], there are multiple computation rules which could be used in inductive definitions: computation rules involving [[judgmental equality]], [[propositional equality]], and [[typal equality]] are all possible. For example, addition is usually defined by recursion on the natural numbers, and since the natural numbers comes with two computation rules, addition comes with an introduction rule and two computation rules, one for the base case $0$ and one for the inductive case $s$ the successor function; and the computation rules come in judgmental, propositional, and typal flavours as well: 
 
 * Introduction and judgmental computation rules for addition $+$:
 
