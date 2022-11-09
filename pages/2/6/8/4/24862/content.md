@@ -26,7 +26,7 @@ Layered type theories could be contrasted with theories like the usual presentat
 * [[type theory with shapes]]
 * [[simplicial type theory]]
 * [[cubical type theory]]
-* Any dependent type theory with an infinite sequential hierarchy of [[Russell universes]] but no separate type judgment. This includes the theory presented in the [[HoTT book]]. The Russell universes are indexed by the natural numbers, which have to be provided as a primitive in a separate layer specifically containing the natural numbers, whether defined through second-order [[Peano arithmetic]], [[set theory]], or [[dependent type theory]]. 
+* Any dependent type theory with an infinite sequential hierarchy of [[Russell universes]] but no separate type judgment. This includes [[book HoTT]], the theory presented in the [[HoTT book]]. The Russell universes are indexed by the [[natural numbers]], which have to be provided as a primitive in a separate layer specifically containing the natural numbers.
 
 ## References
 
