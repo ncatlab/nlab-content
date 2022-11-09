@@ -17,7 +17,7 @@
 
 In [[stable homotopy theory]], a _sequential ([[prespectrum|pre-]])[[spectrum]]_ $E$ (also _Boardman spectrum_, after ([Boardman 65](#Boardman65))) is a sequence of [[pointed homotopy types]] ([[pointed topological spaces]], pointed [[simplicial sets]]) $E_n$, for $n \in \mathbb{N}$, together with maps $\Sigma E_n \to E_{n+1}$ from the [[reduced suspension]] of one into the next space in the sequence.
 
-This is the original definition of _[[spectrum]]_ (or [[pre-spectrum]]) and still the one predominently meant be default, as used in, say, the [[Brown representability theorem]]. But in view of many other definitions (all giving rise to equivalent [[stable homotopy theory]]) that involve systems of spaces indexed on more than just the integers (such as [[coordinate-free spectra]], [[excisive functors]], [[equivariant spectra]]) or that are of different flavor altogether (such as [[combinatorial spectra]]), one says _sequential spectrum_ for emphasis (e.g. [Schwede 12, def. 2.1](#Schwede12)).
+This is the original definition of _[[spectrum]]_ (or [[pre-spectrum]]), and still, the one predominantly meant to be default, as used in, say, the [[Brown representability theorem]]. But in view of many other definitions (all giving rise to equivalent [[stable homotopy theory]]) that involve systems of spaces indexed on more than just the integers (such as [[coordinate-free spectra]], [[excisive functors]], [[equivariant spectra]]) or that are of different flavor altogether (such as [[combinatorial spectra]]), one says _sequential spectrum_ for emphasis (e.g. [Schwede 12, def. 2.1](#Schwede12)).
 
 
 ## Definition
@@ -58,7 +58,7 @@ $$
   (X \wedge K_+)_n \coloneqq (X_n \wedge K_+)
 $$
 
-and whose structure maps are given by
+And whose structure maps are given by
 
 $$
   S^1 \wedge (X_n \wedge K_+) \simeq (S^1 \wedge X_n) \wedge K_+ \stackrel{\sigma_n \wedge K_+}{\longrightarrow} X_{n+1}\wedge K_+
@@ -221,7 +221,7 @@ a [[diagram]] of sequential spectra, then:
       \,;
    $$
 
-moreover:
+Moreover:
 
 1. the colimiting spectrum has structure maps in the sense of def. \ref{SequentialSpectra} given by
 
@@ -528,7 +528,7 @@ For $X$ a sequential spectrum, then (using remark \ref{ShiftingCommutesWithLoopi
      \,.
    $$
 
-   If $X$ is an [[Omega-spectrum]] (def. \ref{OmegaSpectrum}) then this is a weak equivalence in the strict model structure, hence in particular a stable equivalence.
+   If $X$ is an [[Omega-spectrum]] (def. \ref{OmegaSpectrum}) then this is a weak equivalence in the strict model structure, hence in particular, a stable equivalence.
 
 =--
 
@@ -566,7 +566,7 @@ $$
   \,.
 $$
 
-But in all these cases commutativity it trivially satisfied. 
+But in all these cases, commutativity it trivially satisfied. 
 
 Now as in the proof of prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}, under applying the $(S^1\wedge (-)) \dashv (-)^{S^1}$-adjunction isomorphism twice, these diagrams are in bijection to diagrams for $n \geq 1$ of the form
 
@@ -587,9 +587,9 @@ $$
 
 This gives the claimed morphism $X \to \Omega X[-1]$.
 
-If $X$ is an [[Omega-spectrum]], then by definition this last morphism is already a weak equivalence in the strict model structure, hence in particular a weak equivalence in the stable model structure.
+If $X$ is an [[Omega-spectrum]], then by definition, this last morphism is already a weak equivalence in the strict model structure, hence in particular a weak equivalence in the stable model structure.
 
-From this it follows that also the first morphism is a stable equivalence, because for every [[Omega-spectrum]] $Y$ then by the adjunctions in prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}
+From this, it follows that also the first morphism is a stable equivalence, because for every [[Omega-spectrum]] $Y$, then by the adjunctions in prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}
 
 $$
   \array{
@@ -607,7 +607,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-For $X$ a sequential spectrum in simplicial sets. Then there are stable equivalences
+For $X$, a sequential spectrum in simplicial sets. Then there are stable equivalences
 
 $$
   X\wedge S^1 \longrightarrow \Sigma X \longrightarrow X[1]
@@ -736,7 +736,7 @@ the graded-commutativity implicit in the [[braiding]] of the [[smash product]] o
 ### Smash product
  {#SmashProduct}
 
-The [[smash product of spectra]] realized on sequential spectra never has good proprties before passage to the [[stable homotopy category]] or lift to better models (see [here](smash%20product+of+spectra#GradedCommutativity)), but it may still be defined in various ways:
+The [[smash product of spectra]] realized on sequential spectra never has good properties before passage to the [[stable homotopy category]] or lift to better models (see [here](smash%20product+of+spectra#GradedCommutativity)), but it may still be defined in various ways:
 
 +-- {: .num_defn #SmashProductByDoublingDegrees}
 ###### Definition
@@ -753,7 +753,7 @@ $$
   (X\wedge Y)_{2n+1} \coloneqq S^1 \wedge X_n \wedge Y_n
 $$
 
-with structure maps being in even degree the identity
+with structure maps being in even degree, the identity
 
 $$
   \sigma^{X \wedge Y}_{2 n} \colon S^1 \wedge (X \wedge Y)_{2n} = S^1 \wedge X_n \wedge Y_n = (X \wedge Y)_{2n+1}
@@ -810,7 +810,7 @@ Under the Quillen equivalence of prop.
 
 * {#Switzer75} [[Robert Switzer]], chapter 8 of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
 
-* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
+* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/bousfield-friedlander.pdf))
 
  * {#Lydakis98} [[Manos Lydakis]], _Simplicial functors and stable homotopy theory_ Preprint, 1998 (Hopf archive [pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf), [[LydakisSimplicialFunctors.pdf:file]])
 
