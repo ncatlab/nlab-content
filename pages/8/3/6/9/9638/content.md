@@ -23,7 +23,7 @@
 ### General
  {#IdeaGeneral}
 
-_Quantum computation_ is [[computation]] in terms of [[quantum information theory]], possibly implemented on _quantum computers_, hence on [[physical systems]] for which phenomena of [[quantum mechanics]] are not negligible: [[quantum systems]] such as consisting of [[fundamental particles]] like [[photons]] or [[electrons]] but often instead of quantum-[[quasiparticles]] such as [[Cooper pairs]] in [[superconductors]]. 
+_Quantum computation_ is [[computation]] in terms of [[quantum information theory]], possibly implemented on _quantum computers_, hence on [[physical systems]] for which phenomena of [[quantum mechanics]] are not negligible: [[quantum systems]] such as consisting of [[fundamental particles]] like [[photons]] or [[electrons]] but also often of quantum-[[quasiparticles]] such as [[Cooper pairs]] in [[superconductors]]. 
 
 In terms of the [[computational trilogy]], quantum computation is the computation corresponding to (some kind of) [[quantum logic]]/([[dependent linear type theory|dependent]]) [[linear type theory]].
 
