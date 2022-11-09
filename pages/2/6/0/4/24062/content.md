@@ -19,6 +19,12 @@ Where a *[[fundamental particle]]* is the [[quantum]] of a [[field (physics)|fie
 
 For an archetypical example in [[condensed matter theory]]: [[phonons]] in a [[crystal]] are quasi-particle excitations, underlying which are collective [[wave]]-oscillations of the more fundamental [[electrons]] and [[nuclei]] that constitute the underlying [[crystal lattice]].
 
+## Examples
+
+* [[phonon]]
+
+* [[Cooper pair]]
+
 ## Related concepts
 
 * [[anyon]]
