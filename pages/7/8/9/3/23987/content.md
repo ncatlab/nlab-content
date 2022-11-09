@@ -269,11 +269,13 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
   [[Jiannis Pachos]] (Leeds University, UK):
 
-  **How to realise exotic particle statistics**
+  **Non-abelian topological Berry-phases**
+
+  video: [rec](https://zoom.us/rec/play/FZOBvACSJsDzpqZ0WIf4WItlhF08IxP-vrgrRlfqsWqHFm8LFiiy5JD_7kTu5d1-WldA0oxXXCgjlbAg.S-7IQQf-XfhxNIbG?continueMode=true&iet=wHgMaPo0jUhLbgeLcRNNRn4t5tDEUui0GTZy7IskgfM.AG.2korr3jfgIJd-6R5zSQmb3fYA-lyqwuLti8O9KDQ0vDH8BJ2-bMcnQ1yboWDw8reV-2SKgLjwd0sVdHZWJR43y1ixw0PN4rGqDzSb3jdnroRh3nsq2fYp2s4b7Iavne-LwST3jI59_Y.gBff8xUXVV4VPqWf5kNIpg.gASLSIaf0KVBzA1A&_x_zm_rtaid=MnFZqJMnRzKokesOCUS66w.1667975314563.2bcd3ca7ce0a0ad02b775305bfa3c96f&_x_zm_rhtaid=473)
 
   > Combining physics, mathematics and computer science, [[topological quantum computation|topological quantum information]] [&lbrack;1&rbrack;](#PachosRefNov22) is a rapidly expanding field of research focused on the exploration of quantum evolutions that are resilient to errors. In this talk I will present a variety of different topics starting from introducing [[anyon|anyonic models]], [[topological phases of matter]], [[Majorana fermions]], characterising [[knot invariants]], their quantum simulation with anyons and finally the possible realisation of anyons in the laboratory. 
 
-  >
+  > $\,$
 
   > {#PachosRefNov22} &lbrack;1&rbrack; [[Jiannis K. Pachos]], *Introduction to Topological Quantum Computation*, Cambridge University Press (2012) $[$[doi:10.1017/CBO9780511792908]( https://doi.org/10.1017/CBO9780511792908)$]$
 
