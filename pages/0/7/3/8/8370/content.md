@@ -422,8 +422,9 @@ See also
 
 * [[Joseph A. Goguen]], _[[A Categorical Manifesto]]_. In _Mathematical Structures in Computer Science_ **1** 1 (1991) 49-67 ([doi:10.1017/S0960129500000050](https://doi.org/10.1017/S0960129500000050), [CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.362).
 
+[[!redirects computational trilogism]]
 
 [[!redirects computational trinitarianism]]
-[[!redirects computational trinitarianism]]
 [[!redirects computational trinity]]
+
 
