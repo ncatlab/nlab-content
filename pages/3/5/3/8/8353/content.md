@@ -9,21 +9,23 @@
 =--
 =--
 
-> There are good reasons why the theorems should all be easy and the definitions hard. ([[Michael Spivak]], preface to "[[Calculus on Manifolds]]" )
+> *There are good reasons why the theorems should all be easy and the definitions hard.* &lbrack;[[Michael Spivak]], preface to "[[Calculus on Manifolds]]"&rbrack;
+
 
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
+ {#Idea}
 
-In [[type theory]] a _definition_ is the construction of a [[type]] or a [[term]] of a certain [[type]]. By construction, we mean that the type has a [[formation rule]] and the [[term]] has an [[introduction rule]]. Then, there are in general two ways to complete the construction, 
+In [[type theory]] a _definition_ is the construction of a [[type]] or a [[term]] of a certain [[type]]. By "construction", we mean that the [[type]] has a [[formation rule]] and the [[term]] has an [[introduction rule]]. Then, there are in general two ways to complete the construction: 
 
-* by adding to the type theory the [[elimination rules]], [[computation rules]], and [[uniqueness rules]] for [[types]] and its associated [[terms]] which characterize the [[universal property]] of the type (see [[natural deduction]])
+* by adding to the [[type theory]] the [[elimination rules]], [[computation rules]], and [[uniqueness rules]] for [[types]] and their associated [[terms]] which characterize the [[universal property]] of the type (see *[[natural deduction]]*),
 
-* by adding to the type theory a rule stating that the type or term [[equality|is equal to]] an existing term or type
+* by adding to the type theory a rule stating that the type or term [[equality|is equal to]] an existing term or type.
 
-Many types in type theory, such as [[function types]], [[product types]], [[coproduct types]], [[booleans type]], [[natural numbers type]], [[integers]], et cetera, are defined in both ways, by universal properties and by equality with another type. 
+Many types in type theory, such as [[function types]], [[product types]], [[coproduct types]], [[booleans type]], [[natural numbers type]], [[integers]], et cetera, are defined in both ways, by [[universal properties]] and by [[equality]] with another type. 
 
 ## Rules for definitions and single assignment operators
 
