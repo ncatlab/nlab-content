@@ -17,7 +17,7 @@
 
 ## Idea
 
-The condition that aa [[quasicategory]] has "no non-trivial cells" above degree $n$ (which makes it a particularly strict model of an [[(n,1)-category]]) is not invariant under [[Joyal model structure|categorical equivalence]]. Hence there is no intrinsic characterization of the class of the simplicial sets which are "(n+1)-[[simplicial skeleton|coskeletal]]" in this sense. 
+The condition that a [[quasicategory]] has "no non-trivial cells" above degree $n$ (which makes it a particularly strict model of an [[(n,1)-category]]) is not invariant under [[Joyal model structure|categorical equivalence]]. Hence there is no intrinsic characterization of the class of the simplicial sets which are "(n+1)-[[simplicial skeleton|coskeletal]]" in this sense. 
 
 (Warning: in [Lurie, Def. 2.3.4.1](#Lurie) such an "(n+1)-coskeletal" quasi-category is called an "$n$-category", but this is not the intrinsic notion of [[(n,1)-category]].)
 
