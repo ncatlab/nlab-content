@@ -146,6 +146,7 @@ Generalized to [[twisted equivariant K-theory|twisted equivariant]] [[KR-theory]
 
 [[!redirects twisted ad-equivariant Tate K-theory]]
 
+[[!redirects quasi-elliptic cohomology]]
 
 
 
