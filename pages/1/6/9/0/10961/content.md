@@ -156,7 +156,7 @@ See also:
 
 * [[Roland Omnès]], *[[The Interpretation of Quantum Mechanics]]* Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
-* [[Edward MacKinnon]], *Interpreting Physics -- Language and the Classical/QuantumDivide*, Springer (2012) &lbrack;[doi:10.1007/978-94-007-2369-6](https://doi.org/10.1007/978-94-007-2369-6)&rbrack;
+* [[Edward MacKinnon]], *Interpreting Physics -- Language and the Classical/Quantum Divide*, Springer (2012) &lbrack;[doi:10.1007/978-94-007-2369-6](https://doi.org/10.1007/978-94-007-2369-6)&rbrack;
 
 An approach to [[wave function collapse]] via macroscopic [[decoherence]]:
 
