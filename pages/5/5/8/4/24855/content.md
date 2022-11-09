@@ -16,8 +16,9 @@
 \tableofcontents
 
 ## Idea
+ {#Idea}
 
-In any two-level type theory with a level of [[types]] and a [[level]] of [[propositions]], **propositional equality** is the notion of [[equality]] which is defined to be a proposition. Propositional equality is most commonly used in [[first order logic]] over [[type theory]], such as in most first order set theories like [[ZFC]] and [[ETCS]], but it could also be used for [[definitional equality]] and [[conversional equality]] in some presentations of [[dependent type theories]] like [[Martin-Löf type theory]] or [[cubical type theory]] in place of [[judgmental equality]]. 
+In any two-level type theory with a level of [[types]] and a [[level]] of [[propositions]], **propositional equality** is the notion of [[equality]] which is defined to be a proposition. Propositional equality is most commonly used in [[first order logic]] over [[type theory]], such as in most first order [[set theories]] like [[ZFC]] and [[ETCS]], but it could also be used for [[definitional equality]] and [[conversional equality]] in some presentations of [[dependent type theories]] like [[Martin-Löf type theory]] or [[cubical type theory]] in place of [[judgmental equality]]. 
 
 Propositional equality can be contrasted with [[judgmental equality]], where equality is a [[judgment]], and [[typal equality]], where equality is a [[type]].
 
