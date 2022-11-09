@@ -33,6 +33,11 @@ Further discussion (all without attribution):
 
 * Zhuan Li, Roger S.K. Mong, *Detecting topological order from modular transformations of ground states on the torus* $[$[arXiv:2203.04329](https://arxiv.org/abs/2203.04329)$]$
 
+Relation to [[ZX-calculus]]:
+
+* [[Fatimah Rita Ahmadi]], [[Aleks Kissinger]], *Topological Quantum Computation Through the Lens of Categorical Quantum Mechanics* $[$[arXiv:2211.03855](https://arxiv.org/abs/2211.03855)$]$
+
+
 Emphasis that the expected description of [[anyons]] by [[braided fusion categories]] had remained [[folklore]], together with a list of minimal assumptions that would need to be shown:
 
 * {#Valera21} [[Sachin J. Valera]], *Fusion Structure from Exchange Symmetry in (2+1)-Dimensions*, Annals of Physics **429** (2021) $[$
