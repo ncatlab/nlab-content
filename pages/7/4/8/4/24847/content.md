@@ -37,7 +37,7 @@ In [[quantum computation]] the term "dynamic lifting" (mostly used in the *[[Qui
 Dynamic lifting is thought (eg. [Rand (2018),p. 52](#Rand18)) to be optional in cases like the [[quantum teleportation protocol]] but necessary for applications like [[quantum error correction]] (e.g. [Paler, Herr & Devitt (2019), §4.1](quantum+error+correction#PalerHerrDevitt19)), where error correction steps are conditioned on [[quantum measurement]] of syndrome [[qbits]].
 
 There have been several (partial) proposals for the precise [[categorical semantics]] of this idea, see the references [below](#ReferencesCategoricalSemantics).
-
+Another formalization, via [[monadic effects]] of [potentiality modalities](necessity+and+possibility#RelationToPotentiality) in [[dependent linear type theory]], is discussed at *[[quantum circuits via dependent linear types]]* (see [there](quantum+circuits+via+dependent+linear+types#QuantumMeasurement)).
 
 
 ## References
