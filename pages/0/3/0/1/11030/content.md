@@ -21,11 +21,11 @@ see also his
 
 ## Selected writings
 
-On [[categorical semantics]] of [[linear type theory]]:
+On [[categorical semantics]] of [[linear type theory]] (such as for the [[exponential modality]]):
 
 * [[Richard Blute]], [[Philip Scott]], *Category theory for linear logicians*, in: *Linear Logic in Computer Science*, Cambridge University Press (2004) 3-64 &lbrack;[doi:10.1017/CBO9780511550850.002](https://doi.org/10.1017/CBO9780511550850.002), [pdf](https://www.site.uottawa.ca/~phil/papers/catsurv.web.pdf)&rbrack;
 
-* {#BCS96} [[R.F.Blute]] , [[J. R. B. Cockett]] and [[R. A. G. Seely]].  *! and ? &#8211; Storage as tensorial strength* [doi](https://doi.org/10.1017/S0960129500001055), [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.26.7317&rep=rep1&type=pdf)
+* {#BluteCockettSeely96} [[R. F. Blute]] , [[J. R. B. Cockett]], [[R. A. G. Seely]], *! and ? -- Storage as tensorial strength*, Mathematical Structures in Computer Science **6** 4 (1996) 313-351 &lbrack;[doi:10.1017/S0960129500001055](https://doi.org/10.1017/S0960129500001055)&rbrack;
 
 * [[R. Blute]], [[J.R.B. Cockett]], [[T. Porter]], [[R.A.G.Seely]],  _K&#228;hler categories_,  Cahiers Top. 
 G&#233;om. Diff. cat., 52 (2011) 253 &#8211; 268 ([pdf](http://www.math.mcgill.ca/rags/difftl/kahlercahiers.pdf))
