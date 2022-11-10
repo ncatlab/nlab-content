@@ -19,6 +19,8 @@ In the context of [[linear logic]] or [[linear type theory]], the *additive disj
 
 ## Related concepts
 
+* [[direct sum]], [[quantum parallelism]]
+
 [[!include logic symbols -- table]]
 
 ## References
