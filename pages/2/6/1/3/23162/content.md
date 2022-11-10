@@ -52,3 +52,5 @@ given by the left adjoint to the functor that takes idempotents.
 
 * [[Dmitri Pavlov]], *Gelfand-type duality for commutative von Neumann algebras*.
 Journal of Pure and Applied Algebra 226:4 (2022), 106884. [doi:10.1016/j.jpaa.2021.106884](https://doi.org/10.1016/j.jpaa.2021.106884), [arXiv:2005.05284](https://arxiv.org/abs/2005.05284).
+
+[[!localizable Boolean algebras]]
