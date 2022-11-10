@@ -893,10 +893,9 @@ and that this is naturally to be thought of as arising from a [[monoidal adjunct
 * {#Bierman95} G. Bierman, _On Intuitionistic Linear Logic_ PhD thesis, Computing
 Laboratory, University of Cambridge, 1995 ([pdf](http://research.microsoft.com/~gmb/papers/thesis.pdf))
 
-* {#Benton95} N. Benton, _A mixed linear and non-linear logic; proofs, terms and
-models_, In _Proceedings of Computer Science Logic_ '94, vol. 933 of
-Lecture Notes in Computer Science. Verlag, June 1995.  ([[BentonLinearLogic.pdf:file]])
+* {#Benton95} [[Nick Benton]], *A mixed linear and non-linear logic: Proofs, terms and models*, in *Computer Science Logic. CSL 1994*, Lecture Notes in Computer Science **933** &lbrack;[doi:10.1007/BFb0022251](https://doi.org/10.1007/BFb0022251), [[BentonLinearLogic.pdf:file]]&rbrack;
 
+ 
 A review of all this and further discussion is in
 
 * {#Barber97} Andrew Graham Barber, _Linear Type Theories, Semantics and Action Calculi_, 1997 ([web](http://www.lfcs.inf.ed.ac.uk/reports/97/ECS-LFCS-97-371/&#8206;), [pdf](http://www.lfcs.inf.ed.ac.uk/reports/97/ECS-LFCS-97-371/ECS-LFCS-97-371.pdf))
