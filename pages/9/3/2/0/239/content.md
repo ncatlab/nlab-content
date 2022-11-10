@@ -168,6 +168,8 @@ On the other hand, in any bicategory (in fact, any double category) there is a v
 
 * [[cotensor product]]
 
+* [[multiplicative conjunction]], [[quantum entanglement]]
+
 [[!include homotopy-homology-cohomology]]
 
 
