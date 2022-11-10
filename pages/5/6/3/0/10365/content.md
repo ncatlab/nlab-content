@@ -49,7 +49,11 @@ See also:
 
 Proposal to use BEC for [[quantum computation]]:
 
-* [[Tim Byrnes]], Kai Wen, Yoshihisa Yamamoto, *Macroscopic quantum computation using Bose-Einstein condensates*, Phys. Rev. A **85** (2012)  040306(R) $[$[doi:10.1103/PhysRevA.85.040306](https://doi.org/10.1103/PhysRevA.85.040306)$]$
+* [[Tim Byrnes]], Kai Wen, Yoshihisa Yamamoto, *Macroscopic quantum computation using Bose-Einstein condensates*, Phys. Rev. A **85** (2012)  040306(R) &lbrack;[doi:10.1103/PhysRevA.85.040306](https://doi.org/10.1103/PhysRevA.85.040306)&rbrack;
+
+Realization of [[quantum entanglement]]/[[EPR paradox]]:
+
+* Paolo Colciaghi, Yifan Li, Philipp Treutlein, Tilman Zibold, *Einstein-Podolsky-Rosen experiment with two Bose-Einstein condensates* &lbrack;[arXiv:2211.05101](https://arxiv.org/abs/2211.05101)&rbrack;
 
 Discussion of BECs via [[AdS-CFT in condensed matter physics]]:
 
