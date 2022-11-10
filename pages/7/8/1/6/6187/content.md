@@ -9,8 +9,20 @@
 =--
 =--
 
-* [[Klaas Landsman]], _Mathematical Topics Between Classical and Quantum Mechanics_ Springer 
+* [[Klaas Landsman]], 
 
-on [[classical mechanics]] and [[quantum mechanics]]
+  \linebreak
+
+  **Mathematical Topics Between Classical and Quantum Mechanics**
+
+  \linebreak
+
+  Springer Monographs in Mathematics 
+
+  Springer 1998
+
+  &lbrack;[doi:10.1007/978-1-4612-1680-3](https://doi.org/10.1007/978-1-4612-1680-3)&rbrack;
+
+on [[classical mechanics]] and [[quantum mechanics]].
 
 category: reference
