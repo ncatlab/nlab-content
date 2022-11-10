@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -184,9 +183,13 @@ Some technical remarks:
 
 There is also an [[adjoint pair]] on the other side, $\mathbf{H}_{/\ast}$, of the [[base change]] maps, in which the [[left adjoint]] is given by [[context extension]] back to $\mathbf{H}_{/W}$ followed by $\exists_W$, and dually the [[right adjoint]] is given by $W^\ast$ followed by $\forall_W$. The former is the [[coreader comonad]], whereas the latter is the [[reader monad]] (aka [[function monad]]):
 
+\[
+  \label{ModalitiesFromDependentTypeFormers}
+\]
 <center>
-<img src="/nlab/files/TheFourModalitiesOfBaseChange-221101b.jpg" width="400">
+<img src="/nlab/files/TheFourModalitiesOfBaseChange-221109.jpg" width="500">
 </center>
+
 
 
 If we think of the types $P_\bullet \,\in\, Type_B$ in the given context -- now called "$B$" -- as *[[actuality|actual types]]* (eq:NecessityActualityPossibility) then the types down in the base context $P \,\in\, Type$ should be thought of as [[potentiality|potential types]] that fail to be actual in that they are missing information about their $B$-dependency:
