@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Constructivism, Realizability, Computability
+#### Computing
 +-- {: .hide}
 [[!include constructivism - contents]]
 =--
@@ -44,11 +44,12 @@ Therefore, the practical problem of implementing quantum computation faces analo
 
 ## Related concepts
 
-* [[quantum computation]], [[quantum circuit]]
 
+* [[quantum computation]], [[quantum circuit]]
 
 * [[nondeterministic computation]]
 
+* [[parallel computing]]
 
 ## References
 
