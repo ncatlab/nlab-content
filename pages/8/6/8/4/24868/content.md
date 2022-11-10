@@ -26,7 +26,7 @@ In [[quantum physics]] and specifically in [[quantum information theory]], by *q
 
 In the literature, the notion of quantum parallelism is traditionally introduced either informally or by way of some explicit example, typically followed by some equally vague warning about not taking the parallelism too literally (e.g. [Haroche & Raimond (2006), p. 96](#HarocheRaimond06)).
 
-But it is easy to be fully precise about this phenomen: 
+But it is easy to be fully precise about this phenomenon: 
 
 ### Formalization in quantum modal logic
 
