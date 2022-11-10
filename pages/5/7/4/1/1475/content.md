@@ -15,7 +15,7 @@
 
 ## Idea
 
-_Zorn\'s lemma_ is a [[proposition]] in [[set theory]] and [[order theory]]. It says that: _A [[preorder]] in which every sub-[[total order]] has an [[upper bound]] has a [[maximal element]]._ 
+_Zorn\'s lemma_, also known as Kuratowski-Zorn lemma, is a [[proposition]] in [[set theory]] and [[order theory]]. It says that: _A [[preorder]] in which every sub-[[total order]] has an [[upper bound]] has a [[maximal element]]._ 
 
 Depending on the chosen perspective on [[foundations]]
 this is either an [[axiom]] or a [[deduction|consequence]] of the [[axiom of choice]]; or neither if neither the axiom of choice nor Zorn's lemma is assumed as an axiom.
@@ -180,19 +180,24 @@ Some of these are equivalent to Zorn\'s lemma, while some are weaker; conversely
 
 ## References 
 
+Due Kuratowski and, independently later, Zorn:
+
+* Casimir Kuratowski, _Une méthode d'élimination des nombres transfinis des raisonnements mathématiques_, Fundamenta Mathematicae __3__ (1922) 76--108 [doi](https://doi.org/10.4064/fm-3-1-76-108)
+* Max Zorn, _A remark on method in transfinite algebra_, Bull. Amer. Math. Soc. __41__ (10): 667--670 (1935)[doi](https://doi.org/10.1090/S0002-9904-1935-06166-X)
+
 * Serge Lang, _Algebra_ (third edition), Addison-Wesley 1993. 
 
-* {#Osius} Gerhard Osius, _Categorical set theory: a characterization of the category of sets_, Jour. Pure Appl. Alg. 4 (1974), 79-119. doi:[10.1016/0022-4049(74)90032-2](http://dx.doi.org/10.1016/0022-4049%2874%2990032-2) 
+* {#Osius} Gerhard Osius, _Categorical set theory: a characterization of the category of sets_, Jour. Pure Appl. Alg. 4 (1974), 79--119. doi:[10.1016/0022-4049(74)90032-2](https://doi.org/10.1016/0022-4049%2874%2990032-2) 
 
-* {#Bauer} [[Andrej Bauer]], _On the Failure of Fixed-Point Theorems for Chain-complete Lattices in the Effective Topos_, Electronic Notes in Theoretical Computer Science, **249** (2009) pp 157-167, doi:[10.1016/j.entcs.2009.07.089](http://dx.doi.org/10.1016/j.entcs.2009.07.089) _and_
-Theoretical Computer Science, **430** (2012) pp 43-50, doi:[10.1016/j.tcs.2011.12.005](http://dx.doi.org/10.1016/j.tcs.2011.12.005).
-arXiv:[0911.0068](http://arxiv.org/abs/0911.0068).
+* {#Bauer} [[Andrej Bauer]], _On the Failure of Fixed-Point Theorems for Chain-complete Lattices in the Effective Topos_, Electronic Notes in Theoretical Computer Science, **249** (2009) 157--167, doi:[10.1016/j.entcs.2009.07.089](https://doi.org/10.1016/j.entcs.2009.07.089) _and_
+Theoretical Computer Science, **430** (2012) 43--50, doi:[10.1016/j.tcs.2011.12.005](https://doi.org/10.1016/j.tcs.2011.12.005).
+arXiv:[0911.0068](https://arxiv.org/abs/0911.0068).
 
-* {#Bauer-Lumsdaine_13} [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _On the Bourbaki-Witt Principle in Toposes_, Math. Proc. Cam. Phil. Soc. 155 (2013), no. 1, 87-99 doi:[10.1017/S0305004113000108](http://dx.doi.org/10.1017/S0305004113000108), arXiv:[1201.0340](http://arxiv.org/abs/1201.0340).
+* {#Bauer-Lumsdaine_13} [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _On the Bourbaki-Witt Principle in Toposes_, Math. Proc. Cam. Phil. Soc. 155 (2013), no. 1, 87--99 doi:[10.1017/S0305004113000108](https://doi.org/10.1017/S0305004113000108), arXiv:[1201.0340](https://arxiv.org/abs/1201.0340).
 
 On Zorn's lemma and [[Boolean algebra]] in [[intuitionistic type theories]]:
 
-* {#Bell} [[John Lane Bell]], *Zorn’s lemma and complete Boolean algebras in intuitionistic type theories*, The Journal of Symbolic Logic, 62(4):1265–1279, 1997 ([doi:10.2307/2275642](https://doi.org/10.2307/2275642))
+* {#Bell} [[John Lane Bell]], *Zorn’s lemma and complete Boolean algebras in intuitionistic type theories*, The Journal of Symbolic Logic, 62(4):1265--1279, 1997 ([doi:10.2307/2275642](https://doi.org/10.2307/2275642))
 
 
 [[!redirects Zorn lemma]]
