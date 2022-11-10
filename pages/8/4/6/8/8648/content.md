@@ -26,6 +26,8 @@ The concept of quantum superposition is at the heart of what makes [[quantum phy
 
 ## Related concepts
 
+* [[quantum parallelism]]
+
 * [[superposition]]
 
 [[!include states and observables -- content]]
