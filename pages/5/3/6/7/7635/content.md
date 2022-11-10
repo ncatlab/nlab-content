@@ -19,6 +19,11 @@ On the [[relation between type theory and category theory]]...
 
 * {#Seely89} [[R. A. G. Seely]],  *Linear logic, $\ast$-autonomous categories and cofree coalgebras*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz), [ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92)&rbrack;
 
+On [[categorical semantics]] of the [[exponential modality]] in [[linear type theory]]:
+
+* {#BluteCockettSeely96} [[R. F. Blute]] , [[J. R. B. Cockett]], [[R. A. G. Seely]], *! and ? -- Storage as tensorial strength*, Mathematical Structures in Computer Science **6** 4 (1996) 313-351 &lbrack;[doi:10.1017/S0960129500001055](https://doi.org/10.1017/S0960129500001055)&rbrack;
+
+
 On [[2-type theory]]:
 
 * [[R.A.G. Seely]], *Modeling computations: a 2-categorical framework*, LICS 1987 ([pdf](http://www.math.mcgill.ca/rags/WkAdj/LICS.pdf))
