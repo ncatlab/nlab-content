@@ -195,6 +195,8 @@ In contrast, the abstractly defined direct sum $\bigoplus_i A_i$ may be called a
 
 * [[direct sum of vector bundles]]/[[Whitney sum]]
 
+* [[additive disjunction]], [[quantum parallelism]]
+
 
 [[!redirects direct sum]]
 [[!redirects direct sums]]
