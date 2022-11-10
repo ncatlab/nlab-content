@@ -17,6 +17,8 @@ The processes can either be the nil process $0$, parallel execution $P \mid Q$, 
 
 ## Related entries
 
+* [[parallel computing]]
+
 * [[models for concurrency]]
 
 * [[Directed Algebraic Topology and Concurrency]]
