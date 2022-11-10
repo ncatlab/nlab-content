@@ -1,272 +1,100 @@
 
-$$
-  \bigcirc_B
-  \Big(
-  \bigcirc_B \mathscr{H}
-  \overset{\phi}{\longrightarrow}
-  \bigcirc_B \mathscr{H}
-  \Big)
-  \longrightarrow
-  \bigcirc_B \mathscr{H}
-$$
+#Contents#
+* table of contents
+{:toc}
 
-itself a homomorphism
+## Idea
 
-\begin{tikzcd}
-  \bigcirc_B \bigcirc_B \bigcirc_B
-  \ar[r, "\mathrm{id} \mu"]
-  \ar[d, " \mu \mathrm{id} "]
-  &
-  \bigcirc_B \bigcirc_B
-  \ar[d, " \mu  "]
-  \\
-  \bigcirc_B \bigcirc_B 
-  \ar[r, "\mu"]
-  &
-  \bigcirc_B
-\end{tikzcd}
+In [[quantum physics]] and specifically in [[quantum information theory]], by *quantum parallelism* one means the property --- to the extent that it holds, see below ---  of quantum processes and hence in particularly of [[quantum computations]] to potentially run "in parallel", analogous to classical [[parallel computing]].
 
+### Traditional accounts
 
-\linebreak
+In the literature, the notion of quantum parallelism is traditionally introduced either informally or by way of some explicit example, typically followed by some equally vague warning about not taking the parallelism too literally (e.g. [Haroche & Raimond (2006), p. 96](#HarocheRaimond06)).
 
+But it is easy to be fully precise about this effect: 
+
+### Formalization in quantum modal logic
+
+Quantum parallelism is about [[direct sums]] of [[spaces of quantum states]], hence about [[additive disjunction]] in their [[linear logic]] (in direct analogy to how [[quantum entanglement]] is about their [[tensor products]] and hence the [[multiplicative conjunction]] in their [[linear logic]]):
+
+A quantum process $F \;\colon\; \mathscr{H} \multimap \mathscr{H}'$ (a [[linear map]] between [[spaces of quantum states]], such as a [[quantum logic gate]] or [[quantum circuit]]) exhibits quantum parallelism to the extent that it is the [[image]] under the [[direct sum]]-[[functor]] of some $B$-[[indexed set]] of linear maps $F_b \;\colon\;\mathscr{H}_b \multimap \mathscr{H}'_n$:
 
 $$
-  \star_B \bigcirc_B
-  \mathscr{H}
-  \;\simeq\;
-  (p_B)_! 
-  \Box_B
-  \mathbb{1}_B \mathscr{H}
-  \longrightarrow
-  \star_B
-  \mathscr{H}'
+  F \;=\;
+  \underset{b \colon B}{\oplus} F_b 
+  \;\colon\;
+  \underset{b \colon B}{\bigoplus}
+  \mathscr{H}_b
+  \xrightarrow{\;\;}
+  \underset{b \colon B}{\bigoplus}
+  \mathscr{H}'_b
+  \,.
 $$
 
-\linebreak
+In [[matrix cauculus]] terms this means that we have a block-[[diagonal matrix]].
+
+The caveat which traditional references try to allude to is that few *interesting* processes in [[experiment]] are of this pure direct sum form, while many interesting processes are [[composites]] of one of this form for the case that $b \colon B \;\vdash\; \mathscr{H}'_b = \mathscr{H}'_0$ with the [[codiagonal map]] on $\mathscr{H}'_0$ 
 
 $$
-  \mathscr{H}
-  \longrightarrow
-  (p_B)_\ast
-  \lozenge_B \mathbb{1}_B \otimes \mathscr{H}'
-  \;\simeq\;
-  \bigcirc_B 
-  \star_B
-  \mathscr{H}'
+  \array{
+    \underset{b \colon B}{\bigoplus}
+    \mathscr{H}'_0
+    &
+    \xrightarrow{\; codiag \;}
+    &
+    \mathscr{H}'_0
+    \\
+    \underset{b \colon B}{\oplus} \vert \psi_b \rangle
+    &\mapsto&
+    \underset{b \colon B}{\sum} \vert \psi_b \rangle
+  }
 $$
 
-\linebreak
+This latter operation turns the "parallel" quantum states into a single [[quantum superposition]] from which the previous parallel components may not in general be recovered anymore. 
+
+(The ingenuity of quantum algorithms which do exhibit [[quantum advantage]] (such as [[Grover's algorithm]] or [[Shor's algorithm]]) is typically all in cleverly arranging the input to the computation such that some partial direct sum-decomposition is being retained after this superposition step.)
+
+Conversely, if one does have a pure direct sum process pre-composed by the [[diagonal map]] on $\mathscr{H}_0$
 
 $$
-  \mathscr{H}
-  \longrightarrow
-  (p_{B})_\ast
-  \Big(
-    \Box_B \mathbb{1}_B
-    \multimap
-    \big(
-      \mathbb{1}_B 
-      \otimes
-      \mathscr{H}'
-    \big)
-  \Big)
+  \array{
+    \mathscr{H}'_0
+    &
+    \xrightarrow{\; diag \;}
+    &
+    \underset{b \colon B}{\bigoplus}
+    \mathscr{H}_0
+    \\
+    \vert \psi \rangle
+    &\mapsto&
+    \underset{b \colon B}{\oplus} \vert \psi \rangle
+  }
 $$
 
-\linebreak
+then this pre-composition may be regarded as preparing a quantum states for parallel [[quantum computation]] on it.
 
-$$
-  \Box_B \mathbb{1}_B
-  \otimes
-  \mathscr{H}
-  \longrightarrow
-  \mathbb{1}_B
-  \otimes
-  \mathscr{H}'  
-$$
-
-\linebreak
-
-
-
-$$
-  (p_{B})_\ast
-  \Bigg(
-    \Box_B \mathbb{1}_B
-    \multimap
-    \bigg(
-      \mathbb{1}_B 
-      \otimes
-      (p_{B})_\ast
-      \Big(
-        \Box_B \mathbb{1}_B
-        \multimap
-        \big(
-          \mathbb{1}_B 
-          \otimes
-          \mathscr{H}
-        \big)
-      \Big)
-    \bigg)
-  \Bigg)
-$$
-
-
-
-$\multimap$
-
-Every [[pair]] of [[adjoint functors]] $(F \dashv U) \;\colon\; \mathbf{C}' \leftrightarrow \mathbf{C}$ (with [[unit of an adjunction|unit]] $\eta^{U F}$ and [[counit of an adjunction|counit]] $\epsilon^{F U}$) between [[categories]] $\mathbf{C}$, $\mathbf{C}'$ fits into a [[commuting diagram]] in [[Cat]] of the following form:
+The various quantum effects at play here are the the four [[modal]]-[[unit of a monad|units]] of [quantum modal logic](necessity+and+possibility#ModalQuantumLogic) (as discussed at *[[quantum circuits via dependent linear types]]*):
 
 \begin{imagefromfile}
-    "file_name": "AdjunctionsAndMonadicity-221106.jpg",
-    "width": "540",
+    "file_name": "QCwthLHT-QuantumModalUnits-221110.jpg",
+    "width": "800",
     "unit": "px",
     "margin": {
-        "top": -20,
+        "top": -10,
         "bottom": 20,
         "right": 0, 
         "left": 10
     }
 \end{imagefromfile}
 
+|  |  |
+|--|--|
+| [[quantum measurement]] | [[quantum state preparation]] |
+| [[quantum superposition]] | quantum parallelism |
 
+## References
 
+Traditional accounts:
 
-
-Here:
-
-* $\mathcal{E} \;\coloneqq\; U F \;\coloneqq\; U \circ F$ denotes the induced [[endofunctor]] on $\mathbf{C}$
-
-  which carries the [[structure]] of a [[monad]] with 
-
-  * [[unit of a monad|unit]] given by 
-
-    $$
-      \eta^{\mathcal{E}}
-      \;\;
-      \colon
-      \;\;
-      id_{\mathbf{C}}
-      \xrightarrow{\;\;
-        \eta^{U F}
-      \;\;}
-      U F
-      \;=\;
-      \mathcal{E}
-    $$ 
-
-  * product given by
-
-    $$
-      \mu^{\mathcal{E}}
-      \;\;
-      \colon
-      \;\;
-      \mathcal{E} \mathcal{E}
-      \;=\;
-      U F U F
-      \xrightarrow{\;\; 
-        U ( \epsilon^{F U} ) F  
-      \;\;}
-      U F
-      \;=\;
-      \mathcal{E}
-    $$
-
-* $\mathcal{E}\text{-}\mathbf{C}$ denotes the ("[[Eilenberg-Moore category|Eilenberg-Moore]]"-)[[category]] of $\mathcal{E}$-[[algebras over a monad|algebras]] in $\mathbf{C}$ 
-
-  $$
-    A 
-    \;=\;
-    \Big(
-      \mathcal{E}
-      U^{\mathcal{E}}(A)
-      \xrightarrow{\;\; \rho_A  \;\;}
-      U^{\mathcal{E}}(A)
-    \Big) 
-  $$
-
-   in $\mathbf{C}$ with [[homomorphisms]] between them,
-
-* $K^{U F}$ denotes the "[[comparison functor]]" given by
-
-  $$
-    \array{
-      \mathbf{C}'
-      &
-      \xrightarrow{\;\;\;\;\;\;\;\;\;\;
-         K^{U F}
-      \;\;\;\;\;\;\;\;\;\;}
-      &
-      \!\!\!\!\!\!\!\!\!\!\!\!\!\!
-      \mathcal{E}\text{-}\mathbf{C}
-      \\
-      C' 
-      &\mapsto&
-      {
-        \Big(
-          \mathcal{E}
-          U(C')
-          \,=\,
-          U F U (C')
-          \xrightarrow{\; 
-            U \epsilon^{F U}_{C'}  
-          \;}
-          U (C')
-        \Big)
-      }
-    }
-  $$
-
-* $\big(\mathcal{E}\text{-}\mathbf{C}\big)^{fr}$ denotes the ("[[Kleisli category|Kleisli]]"-)[[category]] of *[free](algebra+over+a+monad#FreeAlgebras)* $\mathcal{E}$-[[algebras over a monad|algebras]]
-
-  $$
-    \begin{array}{rl}
-    F^{\mathcal{E}}(C)
-    &
-    \;=\;
-    \Big(
-      \mathcal{E}
-      \mathcal{E}
-      (C)
-      \xrightarrow{\;\; 
-        \mu^{\mathcal{E}}_C  
-      \;\;}
-      \mathcal{E}(C)
-    \Big) 
-    \\
-    \;=\;
-    K^{U F} F(C)
-    &
-    \;=\;
-    \Big(
-      \mathcal{E}
-      U
-      F 
-      (C)
-      \xrightarrow{\;\; 
-        U \epsilon^{ F U }_{F(C)}
-      \;\;}
-      U
-      F 
-      (C)
-    \Big) 
-    \,.
-    \end{array}
-  $$
-
-* Here the last line makes explicit that
-
-  $$
-    U^{\mathcal{E}} F^{\mathcal{E}}
-    \;=\;
-    U F
-    \;=\;
-    \mathcal{E}
-    \,.
-  $$ 
-
-  In fact, $F^{\mathcal{E}} \dashv U^{\mathcal{E}}$ and this realizes the [[monadic adjunction]] whose induced monad is $\mathcal{E}$.
-
-  Hence the original $F \dashv U$ is [[monadic adjunction|monadic]] iff the [[comparison functor]] $K^{U F}$ is an [[equivalence of categories]].
-
-
+* {#HarocheRaimond06} [[Serge Haroche]], [[Jean-Michel Raimond]], *Exploring the Quantum: Atoms, Cavities, and Photons*, Oxford University Press (2006) &lbrack;[doi:10.1093/acprof:oso/9780198509141.001.0001](https://doi.org/10.1093/acprof:oso/9780198509141.001.0001)&rbrack;
+  
