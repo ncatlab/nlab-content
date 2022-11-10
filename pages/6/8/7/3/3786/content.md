@@ -1,18 +1,28 @@
-This is a book entry on
+This is a book entry on:
 
-*  [[James Glimm]], [[Arthur Jaffe]], 
+\linebreak
 
-   _Quantum physics: a functional integral point of view_, 
+*  [[James Glimm]], [[Arthur Jaffe]]:
 
-   535 pages, Springer
+   \linebreak
 
-on the rigorous [[path integral]] formulation of [[quantum mechanics]] and [[quantum field theory]] ([[constructive quantum field theory]]). 
+   **Quantum physics: a functional integral point of view** 
 
-In order to construct a fully rigorous definition of a [[quantum field theory]], the authors use the Osterwalder-Schrader axioms to define a notion of a quantum field that is equivalent to the [[Wightman axioms]], see [[Osterwalder-Schrader theorem]]. 
+   \linebreak
+
+   Springer 1981, 1987
+
+   [doi:10.1007/978-1-4612-4728-9](https://doi.org/10.1007/978-1-4612-4728-9)
+
+   535 pages
+
+
+on the rigorous [[path integral]] formulation of [[quantum mechanics]] and (mostly [[free quantum field|free]]) [[quantum field theory]] ([[constructive quantum field theory]]). 
+
+In order to construct a fully rigorous definition of a [[quantum field theory]], the authors use the Osterwalder-Schrader axioms to define a notion of a [[quantum field]] that is equivalent to the [[Wightman axioms]], see [[Osterwalder-Schrader theorem]]. 
 
 Note that the ultimate goal of the program, namely the fully rigorous construction of the [[standard model of particle physics]], has not been achived (yet) and has become one of the famous Millennium Problems of the Clay institute.
 
-There are two editions, the first one from 1981, the second one from 1987.
 Online *reviews* of the first edition of the book (the first one along with a book of B. Simon):
 
 * Edward Nelson, Bull. AMS __8__, Number 2 (1983), 378-380.  [link](http://projecteuclid.org/euclid.bams/1183550144)
