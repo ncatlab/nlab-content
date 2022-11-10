@@ -75,6 +75,9 @@ Critical analysis:
 
 * Barry C. Sanders, *[Quantum Leap for Quantum Primacy](https://physics.aps.org/articles/v14/147)*, Physics **14** 147 (2021)
 
+Quantum advantage for [[Grover's algorithm]]:
+
+* Bibek Pokharel, Daniel Lidar, *Better-than-classical Grover search via quantum error detection and suppression* &lbrack;[arXiv:2211.04543](https://arxiv.org/abs/2211.04543)&rbrack;
     
 
 ### Potential applications
