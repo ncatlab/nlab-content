@@ -103,17 +103,17 @@ This idea of classically controlled quantum programming via [[dependent linear t
 
 ## Related entries
 
+* [[quantum parallelism]], [[parallel computing]]
+
 * [[Bloch region]], [[quantum operation]]
 
-* [[Grover's algorithm]]
-
-* [[Shor's algorithm]]
+* [[Grover's algorithm]], [[Shor's algorithm]]
 
 * [[quantum error correction]]
 
 * [[quantum information theory]]
 
-* [[quantum circuit]]
+* [[quantum logic gate]], [[quantum circuit]]
 
 * [[quantum logic]], [[linear logic]]
 
