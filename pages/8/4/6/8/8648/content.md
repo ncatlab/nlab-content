@@ -22,6 +22,25 @@ Since/if these quantum states are thought of as [[wavefunctions]] solving [[line
 
 The concept of quantum superposition is at the heart of what makes [[quantum physics]] peculiar, notably via the phenomenon of [[entanglement]].
 
+The various fundamental quantum physics phenomena at play here may be identified with four [[modality|modal]]-[[unit of a monad|units]] of [quantum modal logic](necessity+and+possibility#ModalQuantumLogic) (as discussed at *[[quantum circuits via dependent linear types]]*):
+
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-QuantumModalUnits-221110.jpg",
+    "width": "800",
+    "unit": "px",
+    "margin": {
+        "top": -10,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+|  |  |
+|--|--|
+| [[quantum measurement]] | [[quantum state preparation]] |
+| quantum superposition | [[quantum parallelism]] |
+
 
 
 ## Related concepts
