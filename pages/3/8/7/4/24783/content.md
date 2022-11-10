@@ -20,7 +20,29 @@ In [[quantum physics]] and especially in [[quantum information theory]], by *sta
 
 For example, for a [[qbit]] [[data type]] there are, by definition of qbits, two canonical basis states $\vert 0 \rangle, \vert 1 \rangle \,\in\, \mathbb{C}^2$ to be prepared, depending on a classical parameter which may be understood as of [[boolean]] [[type]] (where we set $Bool \,\coloneqq\, \{0, 1\}$). 
 
-In the language[^1] of [modal quantum logic](necessity+and+possibility#ModalQuantumLogic) on [[dependent linear types]] (see at *[[quantum circuits via dependent linear types]]*), the conditional preparation of a [[qbit]]-state reads as follows:
+The various fundamental quantum physics phenomena at play here may be identified with four [[modality|modal]]-[[unit of a monad|units]] of [quantum modal logic](necessity+and+possibility#ModalQuantumLogic) (as discussed at *[[quantum circuits via dependent linear types]]*):
+
+\begin{imagefromfile}
+    "file_name": "QCwthLHT-QuantumModalUnits-221110.jpg",
+    "width": "800",
+    "unit": "px",
+    "margin": {
+        "top": -10,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+|  |  |
+|--|--|
+| [[quantum measurement]] | quantum state preparation |
+| [[quantum superposition]] | [[quantum parallelism]] |
+
+
+
+
+Explicitly, in the language[^1] of [modal quantum logic](necessity+and+possibility#ModalQuantumLogic) on [[dependent linear types]] (see at *[[quantum circuits via dependent linear types]]*), the conditional preparation of a [[qbit]]-state reads as follows:
 
 [^1]: We follow *[[schreiber:Topological Quantum Programming in Linear Homotopy Type Theory]]*.
 
