@@ -28,6 +28,8 @@
 
 * [[reversible computation]]
 
+* [[parallel computing]]
+
 
 ## References
 
@@ -39,6 +41,8 @@
 
 [[!redirects nondeterministic algorithm]]
 [[!redirects nondeterministic algorithms]]
+
+[[!redirects nondeterministic computing]]
 
 
 [[!redirects non-deterministic computation]]
@@ -55,7 +59,7 @@
 [[!redirects indeterministic algorithm]]
 [[!redirects indeterministic algorithms]]
 
-
+[[!redirects indeterministic computing]]
 
 [[!redirects in-deterministic computation]]
 [[!redirects in-deterministic computations]]
