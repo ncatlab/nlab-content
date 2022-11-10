@@ -425,30 +425,32 @@ With an eye towards [[quantum probability]] and [[quantum computation]]:
 * {#Kuperberg05} [[Greg Kuperberg]], _A concise introduction to quantum probability, quantum mechanics, and quantum computation_ (2005) &lbrack;[pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf), [[Kuperberg-ConciseQuantum.pdf:file]]&rbrack;
 
 
+Further textbook accounts
 
-Some standard references:
+* [[James Glimm]], [[Arthur Jaffe]], *[[Glimm-Jaffe|Quantum physics: a functional integral point of view]]*, Springer (1981, 1987) &lbrack;[doi:10.1007/978-1-4612-4728-9](https://doi.org/10.1007/978-1-4612-4728-9)&rbrack;
 
-* Glimm and Jaffe, [[Glimm-Jaffe|Quantum physics - a functional integral point of view]] 
+* [[Klaas Landsman]], *[[Mathematical Topics Between Classical and Quantum Mechanics]]*, Springer (1998) &lbrack;[doi:10.1007/978-1-4612-1680-3](https://doi.org/10.1007/978-1-4612-1680-3)&rbrack;
 
-* Movshev's course has mathematically nice references: [link](http://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/syllabusfinal.html); and [here](http://www.math.columbia.edu/~woit/qftnotes1.pdf) is a link to Woit's list of more physical tradition references. 
+* [[Serge Haroche]], [[Jean-Michel Raimond]], *Exploring the Quantum: Atoms, Cavities, and Photons*, Oxford University Press (2006) &lbrack;[doi:10.1093/acprof:oso/9780198509141.001.0001](https://doi.org/10.1093/acprof:oso/9780198509141.001.0001)&rbrack;
+  
 
-* [[Klaas Landsman]], _[[Mathematical Topics Between Classical and Quantum Mechanics]]_
+* {#Landsman17} [[Klaas Landsman]], *Foundations of quantum theory -- From classical concepts to Operator algebras*, Springer Open 2017 ([doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
 
-* {#Landsman17} [[Klaas Landsman]], _Foundations of quantum theory -- From classical concepts to Operator algebras_, Springer Open 2017 ([doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
+Further references
 
 * P. Cartier, C. DeWitt-Morette, _Functional integration: action and symmetries_, Cambridge Monographs on Mathematical Physics, 2006.
 
-* Leon Takhtajan, _[[Quantum mechanics for mathematicians]]_ , Amer. Math. Soc. 2008. 
+* Leon Takhtajan, _[[Quantum mechanics for mathematicians]]_, Amer. Math. Soc. 2008. 
 
-* {#BatesWeinstein} Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+* Michael Movshev, *Concepts of Quantum Mechanics* &lbrack;[web](http://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/syllabusfinal.html)&rbrack; 
+
+* {#BatesWeinstein} Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_ &lbrack;[pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)&rbrack;
  
 * F. Strocchi, _An introduction to the mathematical structure of quantum mechanics_ 
 
 * [[Valter Moretti]], _Spectral Theory and Quantum Mechanics_ 2nd edition  Springer 2018
 
 * [[Valter Moretti]], _Fundamental Mathematical Structures of Quantum Theory_  Springer 2019
-
-Dicussion of quantum measurement is in
 
 * Jan Perina, Z. Hradil, [[Branislav Jurčo]], _[[Quantum optics and fundamentals of physics]]_, Kluwer 1994
 
