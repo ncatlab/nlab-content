@@ -43,7 +43,9 @@ Example:
 
 ## Related concepts
 
-* [[superposition]]
+* [[quantum parallelism]]
+
+* [[quantum superposition]]
 
 * [[quantum interference]]
 
