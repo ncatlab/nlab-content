@@ -237,6 +237,8 @@ Reviews include
 
 * [[Mina Aganagic]], _String Theory and Math: Why This Marriage May Last_, ([arXiv:1508.06642](https://arxiv.org/abs/1508.06642))
 
+* Ibrahima Bah, [[Daniel Freed]], [[Gregory Moore]], Nikita Nekrasov, Shlomo S. Razamat, Sakura Schafer-Nameki, _A Panorama Of Physical Mathematics c. 2022_ ([arXiv:2211.04467](https://arxiv.org/abs/2211.04467))
+
 For a review of prospects of computerized support for string theory, see
 
 * {#Douglas19} [[Michael Douglas]], _Physics and Formal Methods_, ([slides](https://www.icms.org.uk/downloads/bigproof/Douglas.pdf))
