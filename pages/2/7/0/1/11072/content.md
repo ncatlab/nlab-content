@@ -49,11 +49,13 @@ Let $C$ be a [[symmetric monoidal category]]; a **linear exponential comonad** o
 
 It follows automatically that all !-coalgebras are comonoids, and therefore that the category of all !-coalgebras (not just the cofree ones) is cartesian monoidal.  Note that for a comonad on a [[poset]], every coalgebra is free; thus the world of pure propositional "logic" doesn't tell us whether to consider the Kleisli category or the Eilenberg-Moore category for the translation.
 
-A more even-handed approach is the following (see [Benton](#Benton95) and [Mellies](#Mellies09)), based on the observation that both Kleisli and Eilenberg-Moore categories are instances of adjunctions.
+A more even-handed approach is the following (see [Benton (1995)](#Benton95) and [Mellies (2009)](#Mellies09)), based on the observation that both Kleisli and Eilenberg-Moore categories are instances of adjunctions.
 
 +-- {: .num_defn}
 ###### Definition
-A **linear-nonlinear adjunction** is a [[monoidal adjunction]] $F : M \rightleftarrows L : G$ in which $L$ is symmetric monoidal and $M$ is cartesian monoidal.  The induced !-modality is the comonad $F G$ on $L$.
+
+A **linear-nonlinear adjunction** is a [[monoidal adjunction]] $F \colon M \rightleftarrows L \colon G$ in which $L$ is symmetric monoidal and $M$ is cartesian monoidal.  The induced !-modality is the comonad $F G$ on $L$.
+
 =--
 
 This includes both of the previous definitions where $M$ is taken respectively to be the Kleisli category or the Eilenberg-Moore category of !.  Conversely, in any linear-nonlinear adjunction the induced comonad $F G$ can be shown to be a linear exponential comonad.  Moreover, if $!$ is a linear exponential comonad on a symmetric monoidal category $C$ with finite products, then the cofree !-coalgebra functor is a right adjoint and hence preserves cartesian products; but the cartesian products of coalgebras are the tensor product in $C$, so we have $!(A\times B) \cong !A \otimes !B$, the Seely condition.
@@ -61,7 +63,7 @@ This includes both of the previous definitions where $M$ is taken respectively t
 
 ### Classical case
 
-For "classical" linear logic, we want $C$ to be not just (closed) symmetric monoidal but $\ast$-[[star-autonomous category|autonomous]].  If an $\ast$-autonomous category has a linear exponential comonad $!$ one can derive a ? from the ! by de Morgan duality, $?A = (!(A^*))^*$.  The resulting relationship between ! and ? was axiomatized in a way not requiring the de Morgan duality by [Blute, Cockett, and Seely](#BCS96):
+For "classical" linear logic, we want $C$ to be not just (closed) symmetric monoidal but $\ast$-[[star-autonomous category|autonomous]].  If an $\ast$-autonomous category has a linear exponential comonad $!$ one can derive a ? from the ! by de Morgan duality, $?A = (!(A^*))^*$.  The resulting relationship between ! and ? was axiomatized in a way not requiring the de Morgan duality by [Blute, Cockett & Seely (1996)](#BluteCockettSeely96):
 
 +-- {: .num_defn}
 ###### Definition
@@ -72,7 +74,7 @@ Let $C$ be a [[linearly distributive category]] with tensor product $\otimes$ an
 1. all free !-coalgebras are naturally commutative $\otimes$-comonoids, and all free ?-algebras are naturally commutative $\parr$-monoids.
 =--
 
-Here a functor $F$ is [[strong functor|strong]] with respect to a lax monoidal functor $G$ if there is a natural transformation $F A \otimes G B \to F(A\otimes G B)$ satisfying some natural axioms, and we similarly require compatibility of the monad and comonad structure transformations.  BCS showed that if $C$ is in fact $\ast$-autonomous, it follows from the above definition that $?A = (!(A^*))^*$ as expected.
+Here a functor $F$ is [[strong functor|strong]] with respect to a lax monoidal functor $G$ if there is a natural transformation $F A \otimes G B \to F(A\otimes G B)$ satisfying some natural axioms, and we similarly require compatibility of the monad and comonad structure transformations.  [BCS96](#BluteCockettSeely96) showed that if $C$ is in fact $\ast$-autonomous, it follows from the above definition that $?A = \big(!(A^*)\big)^*$ as expected.
 
 ## Examples
 
@@ -132,10 +134,10 @@ On the semantics of exponential conjunction as a [[comonad]]:
 * {#Seely89} [[R. A. G. Seely]],  *Linear logic, $\ast$-autonomous categories and cofree coalgebras*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz), [ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92)&rbrack;
   
 
-* {#BBPH92} [[Nick Benton]], Gavin Bierman, [[Valeria de Paiva]], [[Martin Hyland]], *Linear lambda-Calculus and Categorical Models Revisited* (1992), [citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.31.6958)
+* {#BBPH92} [[Nick Benton]], [[Gavin Bierman]], [[Valeria de Paiva]], [[Martin Hyland]], *Linear $\lambda$-Calculus and Categorical Models Revisited*, in *Computer Science Logic. CSL 1992*, Lecture Notes in Computer Science **702**, Springer (1993) &lbrack;[doi:10.1007/3-540-56992-8_6](https://doi.org/10.1007/3-540-56992-8_6)&rbrack;
  
 
-* {#BCS96} [[R. F. Blute]] , [[J. R. B. Cockett]] and [[R. A. G. Seely]].  *! and ? &#8211; Storage as tensorial strength* [doi](https://doi.org/10.1017/S0960129500001055), [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.26.7317&rep=rep1&type=pdf)
+* {#BluteCockettSeely96} [[R. F. Blute]] , [[J. R. B. Cockett]], [[R. A. G. Seely]], *! and ? -- Storage as tensorial strength*, Mathematical Structures in Computer Science **6** 4 (1996) 313-351 &lbrack;[doi:10.1017/S0960129500001055](https://doi.org/10.1017/S0960129500001055)&rbrack;
  
 
 * {#Mellies09} [[Paul-André Melliès]], *Categorical semantics of linear logic*, 2009. [pdf](https://www.irif.fr/~mellies/papers/panorama.pdf)
@@ -176,8 +178,9 @@ The modal approach to a term calculus for the $!$-modality can be found in:
 
 * G.  Plotkin.  *Type  theory  and  recursion.*   In Proceedings  of  the  Eigth  Symposium  of Logic in Computer Science, Montreal , page 374. IEEE Computer Society Press, 1993.
 
-* N. Benton.  *A mixed linear and non-linear logic; proofs, terms and models.*  In Proceedings of Computer Science Logic '94, number 933 in LNCS. Verlag, June 1995.
- {#Benton95}
+* {#Benton95} [[Nick Benton]], *A mixed linear and non-linear logic: Proofs, terms and models*, in *Computer Science Logic. CSL 1994*, Lecture Notes in Computer Science **933** &lbrack;[doi:10.1007/BFb0022251](https://doi.org/10.1007/BFb0022251), [[BentonLinearLogic.pdf:file]]&rbrack;
+ 
+* {#Bierman95} [[Gavin Bierman]], *On Intuitionistic Linear Logic*, Cambridge (1993)  &lbrack;[pdf](https://www.dropbox.com/s/hdxgubjljb96rmf/Biermanthesis.pdf?dl=0)&rbrack;
 
 * Philip  Wadler.   *A  syntax  for  linear  logic.*   In Ninth  International  Coference  on  the Mathematical Foundations of Programming Semantics , volume 802 of LNCS . Springer Verlag, April 1993
 
