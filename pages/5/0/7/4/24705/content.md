@@ -431,12 +431,11 @@ which carries the [[structure]] both of a [[monad]] and of a [[comonad]].
 
 This way, one finds that the four (co)unit operations of quantum modal logic are given as follows:
 
-
 \[
   \label{QuantumModalUnits}
 \]
 \begin{imagefromfile}
-    "file_name": "QCwthLHT-QuantumModalUnits-221101.jpg",
+    "file_name": "QCwthLHT-QuantumModalUnits-221110.jpg",
     "width": "840",
     "unit": "px",
     "margin": {
