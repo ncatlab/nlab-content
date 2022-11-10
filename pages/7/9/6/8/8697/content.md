@@ -11,7 +11,7 @@ The argument begins by giving a necessary condition for a [[theory]] to be compl
 
 It goes on to note that for noncommuting operators/[[quantum observables]], the [[wave function]] cannot simultaneously be an [[eigenstate]] for both. Hence, it is not the case that both quantities are represented in the theory. From this they conclude that either [[quantum mechanics]] is incomplete or else not both of the quantities are real.
 
-The second part of the argument sees the famous example of an [[entanglement|entangled pair]] of [[particles]]. The argument here now relies on what they take to be a sufficient condition for reality, that a quantity be predictable without disturbing the system. However, if I allow the two particles to travel far from each other, it appears that by making [[measurements]] on one particle I can predict both of two noncommuting quantities of the other system (admittedly, not simultaneously) without disturbing it. Both quantities then are real.
+The second part of the argument sees the famous example of an [[entanglement|entangled pair]] of [[particles]]. The argument here now relies on what they take to be a sufficient condition for reality, that a quantity be predictable without disturbing the system. However, if I allow the two particles to travel far from each other, it appears that by making [[quantum measurements]] on one particle I can predict both of two noncommuting quantities of the other system (admittedly, not simultaneously) without disturbing it. Both quantities then are real.
 
 Thus they conclude that quantum mechanics is not complete.
 
@@ -35,11 +35,18 @@ Review and discussion:
 
 * Arthur Fine, _The Einstein-Podolsky-Rosen Argument in Quantum Theory_, Stanford Encyclopedia of Philosophy ([web](http://plato.stanford.edu/entries/qt-epr/))
 
-* Anthony Sudbery, Quantum mechanics and the particles of nature: An outline for mathematicians (in chapter 5)
+* Anthony Sudbery, chapter 5 of: *Quantum mechanics and the particles of nature: An outline for mathematicians* 
 
 See also:
 
 * Wikipedia, _[EPR paradox](http://en.wikipedia.org/wiki/EPR_paradox)_
+
+Realization in [[experiment]]:
+
+with [[Bose-Einstein condensates]]:
+
+* Paolo Colciaghi, Yifan Li, Philipp Treutlein, Tilman Zibold, *Einstein-Podolsky-Rosen experiment with two Bose-Einstein condensates* &lbrack;[arXiv:2211.05101](https://arxiv.org/abs/2211.05101)&rbrack;
+
 
 
 [[!redirects EPR paradox]]
