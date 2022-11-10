@@ -237,10 +237,9 @@ The interpretation of Girard's $!$-modality as the [[comonad]] induced from a [[
 * {#Bierman95} G. Bierman, _On Intuitionistic Linear Logic_ PhD thesis, Computing
 Laboratory, University of Cambridge, 1995 ([pdf](http://research.microsoft.com/~gmb/papers/thesis.pdf))
 
-* {#Benton95} [[Nick Benton]], _A mixed linear and non-linear logic; proofs, terms and
-models_, In _Proceedings of Computer Science Logic_ '94, vol. 933 of
-Lecture Notes in Computer Science. Verlag, June 1995. 
- 
+* {#Benton95} [[Nick Benton]], *A mixed linear and non-linear logic: Proofs, terms and models*, in *Computer Science Logic. CSL 1994*, Lecture Notes in Computer Science **933** &lbrack;[doi:10.1007/BFb0022251](https://doi.org/10.1007/BFb0022251), [[BentonLinearLogic.pdf:file]]&rbrack;
+
+  
 
 Interpretation of this in [[dependent linear type theory]] is in 
 
