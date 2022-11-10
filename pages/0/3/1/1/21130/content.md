@@ -48,6 +48,9 @@ Lecture notes:
 
 * [[Scott Aaronson]], Chapters 22-24 of: *Introduction to Quantum Information Science* (2018) &lbrack;[pdf](https://www.scottaaronson.com/qclec.pdf), [webpage](https://www.scottaaronson.com/cs378/)&rbrack;
 
+Realization in [[experiment]] with [[quantum error correction|error detecting codes]] realizing [[quantum advantage]]:
+
+* Bibek Pokharel, Daniel Lidar, *Better-than-classical Grover search via quantum error detection and suppression* &lbrack;[arXiv:2211.04543](https://arxiv.org/abs/2211.04543)&rbrack;
 
 
 
@@ -55,7 +58,7 @@ See also
 
 * Wikipedia, _[Grover's algorithm](https://en.wikipedia.org/wiki/Grover%27s_algorithm)_
 
-Discussion in terms of [[finite quantum mechanics in terms of dagger-compact categories]]:
+Discussion in terms of [[quantum information theory via dagger-compact categories]]:
 
 * [[Jamie Vicary]], Section 3 of: _The Topology of Quantum Algorithms_, (LICS 2013) Proceedings of 28th Annual ACM/IEEE Symposium on Logic in Computer Science, pages 93-102 ([arXiv:1209.3917](https://arxiv.org/abs/1209.3917))
 
