@@ -463,13 +463,17 @@ Both these assumptions are verified in the [[linear homotopy type theory]] of [R
 
 
 Recalling from [above](#RelationToPotentiality) the quadruple of ([[comonad|co-]])[[monad|monadic]] [[modalities]] associated with any [[base change]]
+one finds that its quantum analog for [[dependent linear types]] (along [[family of finite types|finite fibers]] (eq:FiniteBaseType)) 
 
+\[
+  \label{ModalitiesFromDependentLineaTypeFormers}
+\]
 <center>
-<img src="/nlab/files/TheFourModalitiesOfBaseChange-221101b.jpg" width="370">
+<img src="/nlab/files/TheFourModalitiesOfLinearBaseChange-221109.jpg" width="700">
 </center>
 
-one finds for the base change [[adjoint triple]] of [[dependent linear types]] along [[family of finite types|finite fibers]] (eq:FiniteBaseType)
-that the interpretation of their ([[counit of a comonad|co-]])[[unit of a monad|units]] is as follows:
+
+where the interpretation of the modal ([[counit of a comonad|co-]])[[unit of a monad|units]] is as follows:
 
 \[
   \label{QuantumModalUnits}
