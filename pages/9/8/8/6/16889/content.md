@@ -232,12 +232,14 @@ The coordinate system for an $n$-diagram is defined in the following way. An $n$
 
 ## Related entries
 
+* [[rewriting]]
+
 [[!include proof assistants and formalization projects -- list]]
 
 ## References
  {#References}
 
-* Krzysztof Bar, [[Aleks Kissinger]], [[Jamie Vicary]], _Globular: an online proof assistant for higher-dimensional rewriting_, [arXiv:1612.01093](https://arxiv.org/abs/1612.01093)
+* [[Krzysztof Bar]], [[Aleks Kissinger]], [[Jamie Vicary]], *Globular: an online proof assistant for higher-dimensional rewriting*,  Logical Methods in Computer Science **14** 1 (2018) &lbrack;[doi:10.23638/LMCS-14(1:8)2018](https://doi.org/10.23638/LMCS-14(1:8)2018), [arXiv:1612.01093](https://arxiv.org/abs/1612.01093)&rbrack;
 
 * [[Jamie Vicary]], _Globular tutorial video_, 2015-12-07 [15 minute video] (https://youtu.be/QXZJvXgs0xk)
 
