@@ -150,6 +150,10 @@ It is related to [[differential categories]] in:
 
 * [[Sacha Ikonicoff]], [[Jean-Simon Pacaud Lemay]], _Cartesian Differential Comonads and New Models of Cartesian Differential Categories_, 2021, [doi:10.48550/arXiv.2108.04304](https://doi.org/10.48550/arXiv.2108.04304), [pdf](https://arxiv.org/pdf/2108.04304.pdf)
 
+On divided powers:
+
+* [[Luis Narváez Macarro]], _Hasse-Schmidt derivations, divided powers and differential smoothness_, 2009, [doi:10.5802/aif.2513](https://doi.org/10.5802/aif.2513), [pdf](https://aif.centre-mersenne.org/item/10.5802/aif.2513.pdf)
+
 See also:
 
 * Wikipedia, *[Divided power structure](https://en.wikipedia.org/wiki/Divided_power_structure)*
