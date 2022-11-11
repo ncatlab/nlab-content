@@ -149,6 +149,9 @@ with further remarks in
 
 * {#Hoyois15} [[Marc Hoyois]], section 6.1 of _The six operations in equivariant motivic homotopy theory_, Adv. Math. 305 (2017), 197-279 ([arXiv:1509.02145](https://arxiv.org/abs/1509.02145))
 
+Formalization in [[dependent linear homotopy type theory]]:
+
+* {#Riley22Thesis} [[Mitchell Riley]], §2.1.2 in: *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139)&rbrack;
 
 [[!redirects stabilizations]]
 [[!redirects stabilization of an (∞,1)-category]]
