@@ -78,6 +78,11 @@ Critical analysis:
 Quantum advantage for [[Grover's algorithm]]:
 
 * Bibek Pokharel, Daniel Lidar, *Better-than-classical Grover search via quantum error detection and suppression* &lbrack;[arXiv:2211.04543](https://arxiv.org/abs/2211.04543)&rbrack;
+
+See also:
+
+* Réouven Assouly, Rémy Dassonneville, Théau Peronnin, Audrey Bienfait, Benjamin Huard, *Demonstration of Quantum Advantage in Microwave Quantum Radar* &lbrack;[arXiv:2211.05684](https://arxiv.org/abs/2211.05684)&rbrack;
+
     
 
 ### Potential applications
