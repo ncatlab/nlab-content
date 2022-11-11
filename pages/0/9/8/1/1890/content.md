@@ -540,11 +540,13 @@ More in-text references:
 
 * {#sato} Tetsuya Sato, _The Giry monad is not strong for the canonical symmetric monoidal closed structure on Meas_,   Journal of Pure and Applied Algebra, Volume 222, Issue 10, October 2018, Pages 2888-2896. ([arXiv:1612.05939](https://arxiv.org/abs/1612.05939))
 
-The notion of "very strong" monads:
+The terminology of "very strong" monads:
 
 * {#Ratkovic13} [[Kruna S. Ratkovic]], Def. 3.1.6 in: *Morita theory in enriched context* (2013) &lbrack;[arXiv:1302.2774](https://arxiv.org/abs/1302.2774)&rbrack;
 
-later called "linear monads" in:
+* Daniel Schmitter, Def. 8.10 in: *On Operations with Binders and Operations with Equations* (2020) &lbrack;[web](https://researchportal.bath.ac.uk/en/studentTheses/on-operations-with-binders-and-operations-with-equations), [pdf](https://purehost.bath.ac.uk/ws/portalfiles/portal/210538297/ThesisCorrectionsDanielSchmitter.pdf)&rbrack;
+
+also called "linear monads" in:
 
 * {#BergerRatkovic19} [[Clemens Berger]], [[Kruna Ratkovic]], §1.2 in: *Gabriel-Morita theory for excisive model categories*, Appl Categor Struct **27** (2019) 23–54 &lbrack;[arXiv:1705.03863](https://arxiv.org/abs/1705.03863), [doi;10.1007/s10485-018-9539-x](https://doi.org/10.1007/s10485-018-9539-x)&rbrack;
 
