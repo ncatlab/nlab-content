@@ -79,7 +79,7 @@ On the [[Knizhnik-Zamolodchikov connection]] on [[configuration spaces of points
 * [[Toshitake Kohno]], §1.4 in: *Conformal field theory and topology*, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. (2002) &lbrack;[AMS:mmono-210](https://bookstore.ams.org/mmono-210)&rbrack;
 
 
-Detailed discussion in terms of [[conformal nets]] is in
+Discussion in terms of [[conformal nets]]:
 
 * {#BartelsDouglasHenriques14} [[Arthur Bartels]], [[Christopher Douglas]], [[André Henriques]], _Conformal nets II: conformal blocks_ ([arXiv:1409.8672](http://arxiv.org/abs/1409.8672))
 
@@ -90,7 +90,10 @@ See also
 
 * [[Kenji Ueno]], _Conformal field theory with gauge symmetry_, Fields Institute Monographs 2008 [book page](http://www.ams.org/bookstore-getitem/item=FIM-24)
 
-Conformal blocks for [[self-dual higher gauge theory]] are discussed in
+* Ratul Mahanta, Tanmoy Sengupta, *Modular linear differential equations for four-point sphere conformal blocks* &lbrack;[arXiv:2211.05158](https://arxiv.org/abs/2211.05158)&rbrack;
+
+
+Conformal blocks for [[self-dual higher gauge theory]]:
 
 * [[Kiyonori Gomi]], _An analogue of the space of conformal blocks in $(4k+2)$-dimensions_ ([pdf](http://www.math.kyoto-u.ac.jp/~kgomi/papers/acb.pdf))
 
