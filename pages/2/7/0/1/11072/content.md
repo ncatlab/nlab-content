@@ -119,9 +119,9 @@ In [[dependent linear homotopy type theory]] the "linear-nonlinear adjunction" i
 
 ## Modal term calculi
 
-Girard's original presentation of linear logic involved rules that explicitly assumed the presence of $!$ on hypotheses or on entire contexts, such as [[weakening rule|weakening]] and [[contraction rule|contraction]]:
+Girard's original presentation of linear logic involved rules that explicitly assumed the presence of $!$ on hypotheses or on entire contexts, such as ,[[dereliction rule| dereliction]], [[weakening rule|weakening]] and [[contraction rule|contraction]]:
 
-$$ \frac{\Gamma \vdash B}{\Gamma, !A\vdash B} \qquad \frac{\Gamma,!A,!A \vdash B}{\Gamma, !A\vdash B} $$
+$$\frac{\Gamma, A \vdash B}{\Gamma, !A \vdash B} \qquad \frac{\Gamma \vdash B}{\Gamma, !A\vdash B} \qquad \frac{\Gamma,!A,!A \vdash B}{\Gamma, !A\vdash B}$$
 
 and "promotion":
 
