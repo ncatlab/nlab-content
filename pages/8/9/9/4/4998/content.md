@@ -36,7 +36,7 @@ The 'final' predicate, of course, returns $\top$ if a state is a _final state_ a
 
 The first step in transforming this to the coalgebraic form is to [[currying|curry]] $\delta$, so as to obtain it in the form $\delta : Q\to \mathcal{P}(Q)^\Sigma$. We thus have for a state, $q\in Q$, $\delta(q,) : \Sigma \to \mathcal{P}(Q)$.  We then also have a product function
 
-$$\alpha = \delta \times (final) : Q \to  Q^\Sigma\times bool.$$
+$$\alpha = \delta \times (final) : Q \to  \mathcal{P}(Q)^\Sigma\times bool.$$
 
 If we now write $HQ = \mathcal{P}(Q)^\Sigma\times bool$, we get a functor (for you to check) $H : Set \to Set$ and the non-deterministic automaton corresponded precisely to a [[coalgebra for an endofunctor|coalgebra]], $(Q,\alpha)$, for $H$.
 
