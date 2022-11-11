@@ -84,6 +84,13 @@ On [[asymptotic safety]]:
 
 * Riccardo Martini, Gian Paolo Vacca, Omar Zanusso, *Perturbative approaches to non-perturbative quantum gravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.13910](https://arxiv.org/abs/2210.13910)&rbrack;
 
+\linebreak
+
+On non-locality:
+
+* Arnau Bas i Beneito, Gianluca Calcagni, Lesław Rachwał, *Classical and quantum nonlocal gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.05606](https://arxiv.org/abs/2211.05606)&rbrack;
+
+
 
 \linebreak
 
