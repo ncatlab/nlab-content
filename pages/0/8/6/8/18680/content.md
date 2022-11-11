@@ -321,7 +321,7 @@ Potential semantics for dependent linear type theory and linear homotopy type th
 
 * {#Shulman12} [[Mike Shulman]], _Enriched indexed categories_,([arXiv:1212.3914](http://arxiv.org/abs/1212.3914))
 
-* {#Schreiber14} [[Urs Schreiber]], _Quantization via Linear Homotopy Types_ &lbrack;[arXiv:1402.7041](http://arxiv.org/abs/1402.7041)&rbrack;
+* {#Schreiber14} [[Urs Schreiber]], *[[schreiber:Quantization via Linear homotopy types]]* &lbrack;[arXiv:1402.7041](http://arxiv.org/abs/1402.7041)&rbrack;
 
 
 As a [[quantum programming language]]:
