@@ -27,7 +27,7 @@ In [[categorical semantics]] of linear type theory the !-modality typically appe
 
 ## Categorical semantics
 
-Everyone agrees that ! should be a comonad (and ? should be a monad), but there are different ways to proceed from there.  The goal is to capture the syntactic rules allowing assumptions of the form $!A$ to be duplicated and discarded.
+Everyone agrees that ! should be a [[comonad]] (and ? should be a [[monad]], see also at *[[monads in computer science]]*), but there are different ways to proceed from there.  The goal is to capture the syntactic rules allowing assumptions of the form $!A$ to be duplicated and discarded.
 
 ### Intuitionistic case
 
@@ -78,8 +78,10 @@ Here a functor $F$ is [[strong functor|strong]] with respect to a lax monoidal f
 
 ## Examples
 
+### Relation to Chu construction
+
 \begin{theorem}
-Suppose $F : M \rightleftarrows C : G$ is a linear-nonlinear adjunction, where $C$ is closed symmetric monoidal with finite limits and colimits, and $\bot\in C$ is an object.  Then there is an induced linear-nonlinear adjunction $M \rightleftarrows Chu(C,\bot)$ where $Chu(C,\bot)$ is the [[Chu construction]] $Chu(C,\bot)$, which is $\ast$-autonomous with finite limits and colimits.  Hence $Chu(C,\bot)$ admits a !-modality.
+Suppose $F \colon M \rightleftarrows C : G$ is a linear-nonlinear adjunction, where $C$ is closed symmetric monoidal with finite limits and colimits, and $\bot\in C$ is an object.  Then there is an induced linear-nonlinear adjunction $M \rightleftarrows Chu(C,\bot)$ where $Chu(C,\bot)$ is the [[Chu construction]] $Chu(C,\bot)$, which is $\ast$-autonomous with finite limits and colimits.  Hence $Chu(C,\bot)$ admits a !-modality.
 \end{theorem}
 \begin{proof}
 The embedding of $C$ in $Chu(C,\bot)$ as $A \mapsto (A, [A,\bot], ev)$ is coreflective: the coreflection of $(B^+, B^-, e_B)$ is $(B^+, [B^+,\bot], ev)$.  Moreover, this subcategory is closed under the tensor product of $Chu(C,\bot)$, i.e. the embedding $C\hookrightarrow Chu(C,\bot)$ is strong monoidal, hence the adjunction is a monoidal adjunction.  Therefore, the composite adjunction $M \rightleftarrows C \rightleftarrows Chu(C,\bot)$ is again a linear-nonlinear-adjunction.
@@ -95,6 +97,24 @@ Apply the previous theorem to the identity adjunction $C\rightleftarrows C$.
 \end{proof}
 
 Note that the !-modality obtained from the corollary is [[idempotent comonad|idempotent]], while that obtained from the theorem is idempotent if and only if the original one was.  Other ways of constructing !-modalities, such as by cofree coalgebras, may produce examples that are not idempotent.
+
+### Realization in linear homotopy type theory
+ {#RealizationInLinearHomotopyTypeTheory}
+
+In [[dependent linear homotopy type theory]] the "linear-nonlinear adjunction" is naturally identified ([Ponto & Shulman (2012), Ex. 4.2](#PontoShulman12), see also [Schreiber (2014), Sec. 4.2](#Schreiber14)) with the [[stabilization]] [[adjoint functor|adjunction]] between [[homotopy types]] and [[stable homotopy types]] ([Riley (2022), Prop. 2.1.31](#Riley22Thesis)), whose [[left adjoint]] (forming [[suspension spectra]] $\Sigma^\infty_+$) is equivalently given (cf. [Riley (2022), Rem. 2.4.13](#Riley22Thesis)) by sending $B \,\colon\, Type$ to the linear [[dependent sum]] $\star_B \mathbb{1} \;\coloneqq\; (p_B)_! (p_B)^\ast \mathbb{1}$ over the monoidal unit in the context $B$. In terms of [quantum modal logic](necessity+and+possibility#ModalQuantumLogic) this is forming the "linear randomization" of the given classical homotopy type (its "[[motive]]"): 
+
+\begin{imagefromfile}
+    "file_name": "MotivizationInLHoTT-221111.jpg",
+    "width": "350",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
 
 ## Modal term calculi
@@ -123,6 +143,8 @@ This presentation also generalizes naturally to [[dependent linear type theory]]
 
 
 ## References
+
+### General
 
 Brief survey in a context of [[computer science]]/[[linear type theory]]:
 
@@ -203,6 +225,16 @@ and using ambient [[homotopy type theory]]:
 
 * [[Jennifer Paykin]], [[Steve Zdancewic]], *A HoTT Quantum Equational Theory*, [talk at QPL2019](http://qpl2019.org/a-hott-quantum-equational-theory/) ([arXiv:1904.04371](https://arxiv.org/abs/1904.04371))
 
+
+### In dependent linear type theory
+
+Discussion of the exponential modality via [[stabilization]] in [[dependent linear homotopy type theory]]:
+
+* {#PontoShulman12} [[Kate Ponto]], [[Mike Shulman]], Ex. 4.2 in: *Duality and traces in indexed monoidal categories*, Theory and Applications of Categories **26** 23 (2012)  &lbrack;[arXiv:1211.1555](http://arxiv.org/abs/1211.1555), [tac:26-23](http://www.tac.mta.ca/tac/volumes/26/23/26-23abs.html),  [blog](http://golem.ph.utexas.edu/category/2011/11/traces_in_indexed_monoidal_cat.html)&rbrack;
+
+* {#Schreiber14} [[Urs Schreiber]], Sec. 4.2 of: *[[schreiber:Quantization via Linear homotopy types]]* &lbrack;[arXiv:1402.7041](http://arxiv.org/abs/1402.7041)&rbrack;
+
+* {#Riley22Thesis} [[Mitchell Riley]], §2.1.2 in: *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139)&rbrack;
 
 category: logic
 
