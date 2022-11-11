@@ -65,6 +65,9 @@ This also includes emerging _homotopical theory of computation_ based on [[polyg
 * Yves Lafont, _Algebra and geometry of rewriting_, Applied Categorical Structures
 August __15__:4, 2007, pp 415-437  [doi](https://doi.org/10.1007/s10485-007-9083-6)
 
+For an online proof assistant for higher dimensional rewriting, see:
+
+* [[Krzysztof Bar]], [[Aleks Kissinger]], [[Jamie Vicary]]. *Globular: an online proof assistant for higher-dimensional rewriting*,  Logical Methods in Computer Science, January 22, 2018, Volume 14, Issue 1 - ([doi:10.23638/LMCS-14(1:8)2018](https://doi.org/10.23638/LMCS-14(1:8)2018), [arXiv:1612.01093](https://arxiv.org/abs/1612.01093))
 
 Again within the context of higher dimensional forms of rewriting, [[Tibor Beke]] has given a categorification of certain rewriting procedures of Knuth. This is of relevance here as it contains a strong result on coherence theory:
 
