@@ -1,3 +1,4 @@
+
 # Rewriting
 * table of contents
 {: toc}
@@ -30,8 +31,16 @@ In order to transform a rewriting system into a computation [[algorithm]], one n
 
 We therefore will need to discuss [[confluence]], [[normal form]], [[termination]] and [[reduction strategy|reduction strategies]].
 
+## Related entries
+
+* [[Globular]]
+
 
 ## References
+
+### General
+
+See also:
 
 * wikipedia: [Rewriting](http://en.wikipedia.org/wiki/Rewriting)
 
@@ -54,6 +63,7 @@ Springer-Verlag, 1993.
 
 *   _Terese_, Term rewriting systems, Cambridge Tracts in Theoretical Computer Science, vol. 55, Cambridge University Press, 2003. 
 
+### Higher dimensional rewriting
 
 For the higher dimensional forms of rewriting, one source is in the work of Guiraud and Malbos:
 
@@ -65,11 +75,9 @@ This also includes emerging _homotopical theory of computation_ based on [[polyg
 * Yves Lafont, _Algebra and geometry of rewriting_, Applied Categorical Structures
 August __15__:4, 2007, pp 415-437  [doi](https://doi.org/10.1007/s10485-007-9083-6)
 
-For an online proof assistant for higher dimensional rewriting, see:
 
-* [[Krzysztof Bar]], [[Aleks Kissinger]], [[Jamie Vicary]]. *Globular: an online proof assistant for higher-dimensional rewriting*,  Logical Methods in Computer Science, January 22, 2018, Volume 14, Issue 1 - ([doi:10.23638/LMCS-14(1:8)2018](https://doi.org/10.23638/LMCS-14(1:8)2018), [arXiv:1612.01093](https://arxiv.org/abs/1612.01093))
 
-Again within the context of higher dimensional forms of rewriting, [[Tibor Beke]] has given a categorification of certain rewriting procedures of Knuth. This is of relevance here as it contains a strong result on coherence theory:
+Again within the context of higher dimensional forms of rewriting, [[Tibor Beke]] has given a [[categorification]] of certain rewriting procedures of Knuth. This is of relevance here as it contains a strong result on coherence theory:
 
 * [[Tibor Beke]], _Categorification, term rewriting and the Knuth-Bendix procedure_, J. Pure and Applied Algebra 215:5 (2011) 728-740 ([pdf](http://faculty.uml.edu/tbeke/knuth.pdf) at author's page) [doi:10.1016/j.jpaa.2010.06.019](https://doi.org/10.1016/j.jpaa.2010.06.019)
 
@@ -81,9 +89,18 @@ with slides (for GeoCat 2020), [here](https://www.irif.fr/~ahadziha/files/talk-g
 
 * [[Samuel Mimram]], _Towards 3-dimensional rewriting theory_, ([arXiv:1403.4094](https://arxiv.org/abs/1403.4094))
 
-* N. Ghani, C. Lüth, _Rewriting via coinserters_,  Nordic Journal of Computing 10 (2003) 290–312 [pdf](http://www.informatik.uni-bremen.de/~clueth/awe/papers/njc04b.pdf)
+See also:
 
-* Nicolas Behr, [[Joachim Kock]], _Tracelet Hopf algebras and [[decomposition space]]s_, [arXiv:2105.06186](https://arxiv.org/abs/2105.06186)
+* [[Neil Ghani]], C. Lüth, _Rewriting via coinserters_,  Nordic Journal of Computing 10 (2003) 290–312 [pdf](http://www.informatik.uni-bremen.de/~clueth/awe/papers/njc04b.pdf)
+
+On the online proof assistant *[[Globular]]* for higher dimensional [[rewriting]] via [[semistrict]] [[globular set|globular]] [[higher categories]]:
+
+* [[Krzysztof Bar]], [[Aleks Kissinger]], [[Jamie Vicary]], *Globular: an online proof assistant for higher-dimensional rewriting*,  Logical Methods in Computer Science **14** 1 (2018) &lbrack;[doi:10.23638/LMCS-14(1:8)2018](https://doi.org/10.23638/LMCS-14(1:8)2018), [arXiv:1612.01093](https://arxiv.org/abs/1612.01093)&rbrack;
+
+
+See also:
+
+* Nicolas Behr, [[Joachim Kock]], _Tracelet Hopf algebras and [[decomposition spaces]]_, [arXiv:2105.06186](https://arxiv.org/abs/2105.06186)
 
 > Tracelets are the intrinsic carriers of causal information in categorical rewriting systems. In this work, we assemble tracelets into a symmetric monoidal decomposition space, inducing a cocommutative Hopf algebra of tracelets. This Hopf algebra captures important combinatorial and algebraic aspects of rewriting theory, and is motivated by applications of its representation theory to stochastic rewriting systems such as chemical reaction networks. 
 
