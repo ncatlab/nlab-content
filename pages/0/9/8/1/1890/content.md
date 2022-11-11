@@ -142,8 +142,10 @@ A\otimes TTB \ar{d}{A\otimes\mu_B} \ar{r}{t_{A,TB}} & T(A\otimes TB) \ar{r}{Tt_{
 A\otimes TB \ar{rr}{t_{A,B}} && T(A\otimes B)
 \end{tikzcd}
 
-A strong monad for which the (left) strength $t$ (eq:LeftStrengthNaturalTrafo) is even a [[natural isomorphism]] is sometimes called *very strong*. (e.g. [Ratkovic (2013), Def. 3.1.6](#Ratkovic13)).
+{#LinearMonads} The notion of strong monads for which the (left) strength $t$ (eq:LeftStrengthNaturalTrafo) is even a [[natural isomorphism]] has been called *very strong* ([Ratkovic (2013), Def. 3.1.6](#Ratkovic13)) or *linear* ([Berger & Ratkovic (2019), §1.2](#BergerRatkovic19)).
 
+
+ 
 More generally, if a monoidal category $V$ acts on a category $C$
 \[
 \bullet : V\times C\to C
@@ -540,7 +542,11 @@ More in-text references:
 
 The notion of "very strong" monads:
 
-* {#Ratkovic13} Kruna Segrt Ratkovic, Def. 3.1.6 in: *Morita theory in enriched context* (2013) &lbrack;[arXiv:1302.2774](https://arxiv.org/abs/1302.2774)&rbrack;
+* {#Ratkovic13} [[Kruna S. Ratkovic]], Def. 3.1.6 in: *Morita theory in enriched context* (2013) &lbrack;[arXiv:1302.2774](https://arxiv.org/abs/1302.2774)&rbrack;
+
+later called "linear monads" in:
+
+* {#BergerRatkovic19} [[Clemens Berger]], [[Kruna Ratkovic]], §1.2 in: *Gabriel-Morita theory for excisive model categories*, Appl Categor Struct **27** (2019) 23–54 &lbrack;[arXiv:1705.03863](https://arxiv.org/abs/1705.03863), [doi;10.1007/s10485-018-9539-x](https://doi.org/10.1007/s10485-018-9539-x)&rbrack;
 
 
 [[!redirects strong monads]]
