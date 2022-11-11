@@ -77,7 +77,7 @@ Categories, dirige par J. Benabou, November 1976
  
 Discussion of [[traces]] and of [[dual objects]] in indexed monoidal categories is in
 
-* [[Kate Ponto]], [[Mike Shulman]], _Duality and traces in indexed monoidal categories_, ([arXiv:1211.1555](http://arxiv.org/abs/1211.1555),  [blog](http://golem.ph.utexas.edu/category/2011/11/traces_in_indexed_monoidal_cat.html))
+* {#PontoShulman12} [[Kate Ponto]], [[Mike Shulman]], *Duality and traces in indexed monoidal categories*, Theory and Applications of Categories **26** 23 (2012)  &lbrack;[arXiv:1211.1555](http://arxiv.org/abs/1211.1555), [tac:26-23](http://www.tac.mta.ca/tac/volumes/26/23/26-23abs.html),  [blog](http://golem.ph.utexas.edu/category/2011/11/traces_in_indexed_monoidal_cat.html)&rbrack;
 
 This also presents a [[string diagram]] calculus for indexed monoidal categories, extending that for monoidal [[hyperdoctrines]] in 
 
