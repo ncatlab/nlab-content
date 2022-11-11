@@ -109,4 +109,6 @@ There are many sequels including
 [[!redirects 2-Segal spaces]]
 
 [[!redirects higher complete Segal space]]
+
 [[!redirects decomposition space]]
+[[!redirects decomposition spaces]]
