@@ -119,6 +119,9 @@ See also
 
 * Swagat S. Mishra, Varun Sahni, *Canonical and Non-canonical Inflation in the light of the recent BICEP/Keck results* &lbrack;[arXiv:2202.03467](https://arxiv.org/abs/2202.03467)&rbrack;
 
+* M. Chaichian, A. Ghal'e, M. Oksanen, *An alternative approach to the Starobinsky model for inflation scenario* &lbrack;[arXiv:2211.05212](https://arxiv.org/abs/2211.05212)&rbrack;
+
+
 
 Review and exposition includes
 
