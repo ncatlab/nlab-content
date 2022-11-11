@@ -86,5 +86,11 @@ Suspension spectra of [[infinite loop spaces]] are discussed (in a context of [[
 
 * Nicholas J. Kuhn, section 6.2 of _Goodwillie towers and chromatic homotopy: An overview_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/KuhnKinosaki.pdf))
 
+
+Formalization in [[dependent linear homotopy type theory]]:
+
+* {#Riley22Thesis} [[Mitchell Riley]], Def. 2.1.29 & Rem. 2.4.13 in: *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139)&rbrack;
+
+
 [[!redirects suspension spectrum]]
 [[!redirects suspension spectra]]
