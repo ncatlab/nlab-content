@@ -105,7 +105,7 @@ $$\frac{\Gamma \vdash A \equiv B \; \mathrm{type} \quad \Gamma, x:A, \Delta \vda
 
 #### Definitions
 
-In addition, there are judgments for the initializaiton operator for types and for terms:
+In addition, there are judgments for the initialization operator for types and for terms:
 
 * $\Gamma \vdash A' \coloneqq A \; \mathrm{type}$ - $A'$ is defined to be the type $A$ in context $\Gamma$.
 * $\Gamma \vdash a' \coloneqq a : A$ - $a'$ is defined to be the term $a:A$ of type $A$ in context $\Gamma$.
@@ -142,7 +142,7 @@ $$\frac{\Gamma, x:A \vdash b(x):B \quad \Gamma \vdash a:A}{\Gamma \vdash (x \map
 
 * Uniqueness rules for function types:
 
-$$\frac{\Gamma \vdash f:A \to B}{\Gamma \vdash f \equiv (x \to f(x)):A \to B}$$
+$$\frac{\Gamma \vdash f:A \to B}{\Gamma \vdash f \equiv (x \mapsto f(x)):A \to B}$$
 
 #### Dependent product types
 
@@ -404,12 +404,12 @@ $$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vda
 
 #### Definitions
 
-In addition, there are judgments for the initializaiton operator for types and for terms:
+In addition, there are judgments for the initialization operator for types and for terms:
 
 * $\Gamma \vdash A' \coloneqq A \; \mathrm{type}$ - $A'$ is defined to be the type $A$ in context $\Gamma$.
 * $\Gamma \vdash a' \coloneqq a : A$ - $a'$ is defined to be the term $a:A$ of type $A$ in context $\Gamma$.
 
-The initializaiton operator has its own structural rules: type formation, term introduction, and equality reflection.
+The initialization operator has its own structural rules: type formation, term introduction, and equality reflection.
 
 * Formation and judgmental equality reflection rules for type definition:
 $$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \equiv A \; \mathrm{true}}$$
@@ -441,7 +441,7 @@ $$\frac{\Gamma, x:A \vdash b(x):B \quad \Gamma \vdash a:A}{\Gamma \vdash (x \map
 
 * Uniqueness rules for function types:
 
-$$\frac{\Gamma \vdash f:A \to B}{\Gamma \vdash f \equiv_{A \to B} (x \to f(x)) \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash f:A \to B}{\Gamma \vdash f \equiv_{A \to B} (x \mapsto f(x)) \; \mathrm{true}}$$
 
 #### Dependent product types
 
