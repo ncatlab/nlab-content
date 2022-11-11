@@ -110,7 +110,7 @@ In addition, there are judgments for the initializaiton operator for types and f
 * $\Gamma \vdash A' \coloneqq A \; \mathrm{type}$ - $A'$ is defined to be the type $A$ in context $\Gamma$.
 * $\Gamma \vdash a' \coloneqq a : A$ - $a'$ is defined to be the term $a:A$ of type $A$ in context $\Gamma$.
 
-The initializaiton operator has its own structural rules: type formation, term introduction, and equality reflection.
+The initialization operator has its own structural rules: type formation, term introduction, and equality reflection.
 
 * Formation and judgmental equality reflection rules for type definition:
 $$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \equiv A \; \mathrm{type}}$$
