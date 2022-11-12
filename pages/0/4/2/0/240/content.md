@@ -157,6 +157,30 @@ Possibly one should say: an $(\infty,1)$-topos $\mathbf{H}$ is _well-pointed_ if
 [[!redirects well pointed category]]
 [[!redirects well pointed categories]]
 
+[[!redirects well-pointed]]
 [[!redirects well pointed]]
-[[!redirects well-pointed categories]]
 [[!redirects well-pointedness]]
+
+
+[[!redirects constructively well-pointed topos]]
+[[!redirects constructively well-pointed toposes]]
+[[!redirects constructively well-pointed topoi]]
+[[!redirects constructively well pointed topos]]
+[[!redirects constructively well pointed toposes]]
+[[!redirects constructively well pointed topoi]]
+
+[[!redirects constructively well-pointed pretopos]]
+[[!redirects constructively well-pointed pretoposes]]
+[[!redirects constructively well-pointed pretopoi]]
+[[!redirects constructively well pointed pretopos]]
+[[!redirects constructively well pointed pretoposes]]
+[[!redirects constructively well pointed pretopoi]]
+
+[[!redirects constructively well-pointed category]]
+[[!redirects constructively well-pointed categories]]
+[[!redirects constructively well pointed category]]
+[[!redirects constructively well pointed categories]]
+
+[[!redirects constructively well-pointed]]
+[[!redirects constructively well pointed]]
+[[!redirects constructively well-pointedness]]
