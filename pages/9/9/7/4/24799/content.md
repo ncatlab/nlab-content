@@ -10,6 +10,7 @@
   * [[material set theory]]
     * [[ZFC]]
     * [[ZFA]]
+    * [[Mostowski set theory]]
     * [[New Foundations]]
   * [[structural set theory]]
     * [[ETCS]]
