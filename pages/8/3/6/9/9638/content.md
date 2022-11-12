@@ -109,11 +109,14 @@ This idea of classically controlled quantum programming via [[dependent linear t
 
 * [[Grover's algorithm]], [[Shor's algorithm]]
 
-* [[quantum error correction]]
 
 * [[quantum information theory]]
 
+* [[qbit]], [[qtrit]], [[qdit]]
+
 * [[quantum logic gate]], [[quantum circuit]]
+
+* [[quantum error correction]]
 
 * [[quantum logic]], [[linear logic]]
 
