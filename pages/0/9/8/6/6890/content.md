@@ -48,11 +48,18 @@ Major [[theorems]] whose [[proofs]] have been fully formalized in Coq include
 
 For Coq-projects in [[homotopy type theory]] see the section [Code](homotopy+type+theory#Code).
 
+
+
 ## Related entries
+ {#RelatedEntries}
 
-Coq uses the _[[Gallina specification language]]_ for specifying [[theories]].
+* Coq uses the _[[Gallina specification language]]_ for specifying [[theories]].
 
-It uses a version of the [[calculus of constructions]] to implement [[natural deduction]].
+* and it uses a version of the *[[calculus of constructions]]* to implement [[natural deduction]].
+
+* *[[CoqQ]]* is a [[quantum programming language]] [[domain specific embedded programming language|embedded]] in Coq.
+
+\linebreak
 
 [[!include proof assistants and formalization projects -- list]]
 
@@ -93,6 +100,8 @@ Yet properly learning Coq can be quite daunting, luckily the right material can 
 
  
 ### Applications to formal mathematics
+
+*  {#MahboubiTassi21} Assia Mahboubi, Enrico Tassi, *Mathematical Components* (2021) &lbrack;[doi:10.5281/zenodo.3999478](https://doi.org/10.5281/zenodo.3999478)&rbrack;
 
 On [[ForMath]]:
 
