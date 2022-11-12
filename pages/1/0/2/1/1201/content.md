@@ -111,6 +111,9 @@ Since the axiom of foundation is about pure sets, there seems little point to it
 
 That this statement is the correct structural version of antifoundation may be justified by appeal to the [[material-structural adjunction]].
 
+## See also
+
+* [[Mostowski's principle]]
 
 category: foundational axiom
 
