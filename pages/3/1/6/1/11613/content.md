@@ -26,15 +26,18 @@ There is at least some similarity between DSELs and [[synthetic mathematics]], s
  {#Examples}
 
 ### Quantum programming
+ {#QuantumProgramming}
 
 Many existing [[quantum programming languages]] are actually domain-specific languages for the description of [[quantum circuits]], and as such many are embedded in ambient [[type theories]].
 
 
 For instace:
 
-* *[[Quipper]]* is embedded into into [[Haskell]] ([Green, Lumsdaine, Ross, Selinger & Valiron (2013)](Quipper#GLRSV13));
+* *[[Quipper]]* is embedded into into [[Haskell]] &lbrack;[Green, Lumsdaine, Ross, Selinger & Valiron (2013)](Quipper#GLRSV13)&rbrack;;
 
-* [[QWIRE]] has been embedded into [[Coq]] ([Rand, Paykin & Zdancewic (2018)](QWIRE#RandPaykinZdancewic18)) and [[homotopy type theory]] ([Paykin & Zdancewic (2019)](QWIRE#PaykinZdancewic19)).
+* *[[QWIRE]]* has been embedded into [[Coq]] ([Rand, Paykin & Zdancewic (2018)](QWIRE#RandPaykinZdancewic18)) and [[homotopy type theory]] &lbrack;[Paykin & Zdancewic (2019)](QWIRE#PaykinZdancewic19)&rbrack;.
+
+* [[CoqQ]] is another quantum programming language embedded in [[Coq]] &lbrack;Ying et al. (2022)&rbrack;
 
 See also [Rennela & Staton (2020)](#RennelaStaton17) for more general discussion.
 
