@@ -31,6 +31,10 @@ Since well-founded extensional graphs are strongly extensional, the well-founded
 
 Either axiom of materialization implies that the [[category of sets]] is [[equivalence of categories|equivalent]] to its subcategory of the relevant kind of pure sets.  Thus, for instance, [[Scott's trick]] can be used to prove isomorphism-invariant properties (see for instance [this MO question](https://math.stackexchange.com/questions/305859/scotts-trick-without-the-axiom-of-regularity)).
 
+## See also
+
+* [[Mostowski's principle]]
+
 ## References
 
 * {#Coret64} J. Coret, *Formules stratifides et axiome de fondation*, Comptes Rendus hebdomadaires des seances de l'Academie des Sciences de Paris serie A, vol. 264 (1964)
