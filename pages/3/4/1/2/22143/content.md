@@ -52,25 +52,29 @@ The corresponding [[string diagrams]] are known in quantum computation as *[[qua
 * [Miszczak 12, Sec. 4.3](#Miszczak12)
 
 
-[[functional programming languages]] for [[quantum computation]]:
 
-[[QPL]]:
+[[type theory|Typed]] [[functional programming languages]] for [[quantum computation]]:
+
+
+**[[QPL]]:**
 
 * {#Selinger04} [[Peter Selinger]], _Towards a quantum programming language_, Mathematical Structures in Computer Science **14** 4 (2004) 527–586 &lbrack;[doi:10.1017/S0960129504004256](https://doi.org/10.1017/S0960129504004256), [pdf](https://www.mathstat.dal.ca/~selinger/papers/qpl.pdf),  [web](https://www.mathstat.dal.ca/~selinger/papers.html#qpl)&rbrack;
 
-[[QML]]:
+
+
+**[[QML]]:**
 
 * {#AltenkirchGrattage05} [[Thorsten Altenkirch]], [[Jonathan Grattage]], _A functional quantum programming language_, Logic in Computer Science, 2005. Proceedings. 20th Annual IEEE Symposium on, 26-29 June 2005 Page(s):249 - 258 ([arXiv:quant-ph/0409065](https://arxiv.org/abs/quant-ph/0409065), [doi:10.1109/LICS.2005.1](https://doi.org/10.1109/LICS.2005.1), [pdf](http://www.cs.nott.ac.uk/~txa/publ/qml.pdf))
 
 * [[Jonathan Grattage]], _An overview of QML with a concrete implementation in Haskell_, talk at *Quantum Physics and Logic 2008*, ENTCS: Proceedings of QPL V - DCV IV, 157-165, Reykjavik, Iceland, 2008 ([arXiv:0806.2735](https://arxiv.org/abs/0806.2735))
 
 
-[[quantum IO monad]]:
+**[[quantum IO monad]]:**
 
 * {#AltenkirchGreen10} [[Thorsten Altenkirch]], [[Alexander Green]], *The quantum IO monad*, Ch. 5 of: Simon Gay, Ian Mackie (eds.): *Semantic Techniques in Quantum Computation* (2010) 173-205 $[$[pdf](http://www.cs.nott.ac.uk/~txa/publ/qio-chapter.pdf), [doi:10.1017/CBO9781139193313.006](https://doi.org/10.1017/CBO9781139193313.006)$]$
 
 
-[[Quipper]]:
+**[[Quipper]]:**
 
 * [[Peter Selinger]], _The Quipper Language_ ([web](http://www.mathstat.dal.ca/~selinger/quipper/))
 
@@ -83,8 +87,7 @@ The corresponding [[string diagrams]] are known in quantum computation as *[[qua
 * Francisco Rios, [[Peter Selinger]], _A Categorical Model for a Quantum Circuit Description Language_, EPTCS 266, 2018, pp. 164-178 ([arXiv:1706.02630](https://arxiv.org/abs/1706.02630))
 
 
-
-[[QWIRE]]:
+**[[QWIRE]]:**
 
 * {#PaykinRandZdancewic17} [[Jennifer Paykin]], [[Robert Rand]], [[Steve Zdancewic]], *QWIRE: a core language for quantum circuits*, POPL 2017: Proceedings of the 44th ACM SIGPLAN Symposium on Principles of Programming Languages (2017) 846–858 ([doi:10.1145/3009837.3009894](https://doi.org/10.1145/3009837.3009894))
 
@@ -96,6 +99,14 @@ The corresponding [[string diagrams]] are known in quantum computation as *[[qua
 * [[Jennifer Paykin]], [[Steve Zdancewic]], *A HoTT Quantum Equational Theory*, [talk at QPL2019](http://qpl2019.org/a-hott-quantum-equational-theory/) ([arXiv:1904.04371](https://arxiv.org/abs/1904.04371))
 
   > (using ambient [[homotopy type theory]])
+
+
+**[[CoqQ]]:**
+
+* {#YingEtAl22} Li Zhou, Gilles Barthe, Pierre-Yves Strub, Junyi Liu, [[Mingsheng Ying]], *CoqQ: Foundational Verification of Quantum Programs* $[$[arXiv:2207.11350](https://arxiv.org/abs/2207.11350)$]$
+
+
+\linebreak
 
 
 On [[Q Sharp]]:
@@ -115,6 +126,8 @@ Quantum programming via [[dependent linear type theory]]/[[indexed monoidal (∞
 
 * {#FKS20} [[Peng Fu]], [[Kohei Kishida]], [[Peter Selinger]], _Linear Dependent Type Theory for Quantum Programming Languages_, LICS '20: Proceedings of the 35th Annual ACM/IEEE Symposium on Logic in Computer ScienceJuly 2020 Pages 440–453 ([arXiv:2004.13472](https://arxiv.org/abs/2004.13472), [doi:10.1145/3373718.3394765](https://dl.acm.org/doi/10.1145/3373718.3394765), [pdf](https://depend.cs.uni-saarland.de/lics-icalp/papers/B5.F), [video](https://www.youtube.com/watch?v=GUT8j4V6Nzg))
 
+
+
 specifically with [[Quipper]]:
 
 * {#FKRS20} [[Peng Fu]], [[Kohei Kishida]], [[Neil Ross]], [[Peter Selinger]],  _A Tutorial Introduction to Quantum Circuit Programming in Dependently Typed Proto-Quipper_, in I. Lanese, M. Rawski  (eds.) _Reversible Computation_ RC 2020. Lecture Notes in Computer Science, vol 12227 ([arXiv:2005.08396](https://arxiv.org/abs/2005.08396), [doi:10.1007/978-3-030-52482-1_9](https://doi.org/10.1007/978-3-030-52482-1_9))
@@ -129,5 +142,6 @@ with [[QWIRE]]:
 
 * [[Robert Rand]], [[Jennifer Paykin]], [[Steve Zdancewic]], *QWIRE Practice: Formal Verification of Quantum Circuits in Coq*, EPTCS 266, 2018, pp. 119-132 ([arXiv:1803.00699](https://arxiv.org/abs/1803.00699))
 
+with [[CoqQ]]: [Ying et al. (2022)](#YingEtAl22)
 
 
