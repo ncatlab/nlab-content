@@ -34,6 +34,7 @@ Either axiom of materialization implies that the [[category of sets]] is [[equiv
 ## See also
 
 * [[Mostowski's principle]]
+* [[Mostowski set theory]]
 
 ## References
 
