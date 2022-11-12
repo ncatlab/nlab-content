@@ -391,6 +391,10 @@ Introducing the tool of [[group theory]] to quantum physics:
 * [[Eugene P. Wigner]]: *Group theory: And its application to the quantum mechanics of atomic spectra*, 5, Academic
 Press (1959) &lbrack;[doi:978-0-12-750550-3](https://www.elsevier.com/books/group-theory/wigner/978-0-12-750550-3)&rbrack;
 
+Early discussion of [[composite quantum systems]] and their [[quantum entanglement]]:
+
+* [[Erwin Schrödinger]], *Discussion of Probability Relations between Separated Systems*, Mathematical Proceedings of the Cambridge Philosophical Society, **31** 4 (1935) 555-563 &lbrack;[doi:10.1017/S0305004100013554](https://doi.org/10.1017/S0305004100013554)&rbrack;
+
 
 
 ### General
