@@ -511,6 +511,9 @@ Stone-von Neumann**
 
   > on the [[quantum programming language]]-scheme *[[schreiber:QS]]*
 
+  slides: see those for [external talk at  QTML2022](#QTML22)
+
+  
 ### Nov 2022
 
 * 09 Nov 2022 
