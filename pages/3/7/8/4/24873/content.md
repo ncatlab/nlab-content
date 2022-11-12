@@ -47,7 +47,7 @@ Mostowski set theory has the following [[axioms]]:
 
 ## Variations of Mostowski set theory
 
-By removing axioms 1 and 10 from Mostowski set theory, one gets **[[constructive mathematics|intuitionistic]] Mostowski set theory**, which is equivalent in strength to a [[well-pointed topos]] with [[natural numbers object]] and the [[axiom of well-founded materialization]] (intuitionistic ETCS), or to intuitionistic bounded SEAR with the [[axiom of well-founded materialization]].
+By removing axioms 1 and 10 from Mostowski set theory, one gets **[[constructive mathematics|intuitionistic]] Mostowski set theory**, which is equivalent in strength to a [[well-pointed topos]] with [[natural numbers object]] and the [[axiom of well-founded materialization]].
 
 By removing axiom 8 from Mostowski set theory, one gets **[[predicative mathematics|strongly predicative]] Mostowski set theory**, which is equivalent in strength to a [[well-pointed pretopos|well-pointed]] [[Heyting pretopos]] with [[natural numbers object]] and the [[axiom of choice]]. 
 
@@ -57,7 +57,9 @@ By replacing axiom 8 by the axiom of exponentiation (for all sets $a$ and $b$, t
 
 By removing axiom 9 from Mostowski set theory, one gets **[[finite mathematics|weakly finitist]] Mostowski set theory**, which is equivalent in strength to a [[well-pointed topos]] with the [[axiom of choice]]. 
 
-If one replaces axiom 9 with the **[[axiom of finiteness|axiom of finiteness]]** (for any formula $\phi$, if $\phi(\emptyset)$ and for all sets $x$, $\phi(x)$ implies that $\phi(x \cup \{x\})$, then for all sets $x$, $\phi(x)$), one gets **strongly finitist Mostowski set theory**, which is equivalent in strength to the category [[FinSet]]. Axioms 8 and 10 are redundant in this formulation, since both are implied by the axiom of finiteness. 
+By removing axiom 9 from intuitionistic Mostowski set theory, one gets **[[finite mathematics|weakly finitist]] intuitionistic Mostowski set theory**, which is equivalent in strength to a [[well-pointed topos]] with the [[axiom of well-founded materialization]]. 
+
+If one replaces axiom 9 with the **[[axiom of finiteness]]** (for any formula $\phi$, if $\phi(\emptyset)$ and for all sets $x$, $\phi(x)$ implies that $\phi(x \cup \{x\})$, then for all sets $x$, $\phi(x)$), one gets **strongly finitist Mostowski set theory**. Axioms 1, 8, and 10 are redundant in this formulation, since all are implied by the axiom of finiteness. 
 
 Thus, the most general variation of Mostowski set theory is **weakly finitist, constructive strongly predicative Mostowski set theory**, which consists of axioms 2-7 and 11-13, and is equivalent in strength to a general [[well-pointed pretopos|well-pointed]] [[Heyting pretopos]] with the [[axiom of well-founded materialization]]. 
 
