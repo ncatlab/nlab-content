@@ -103,7 +103,7 @@ By removing axiom 8 from any $X$ Mostowski set theory, with $X$ being one of (cl
 
 If one replaces axiom 8 in any of the above with the **[[axiom of finiteness]]** (for any formula $\phi$, if $\phi(\emptyset)$ and for all sets $x$, $\phi(x)$ implies that $\phi(x \cup \{x\})$, then for all sets $x$, $\phi(x)$), one gets **strongly finitist Mostowski set theory**, which is equivalent in strength to the category [[FinSet]]. Axioms 7 and 9 are redundant in this formulation, since both are implied by the axiom of finiteness. 
 
-Thus, the most general variation of Mostowski set theory in intuitionistic logic is **weakly finitist, strongly predicative, intuitionistic Mostowski set theory**, which consists of axioms 1-6 and 10-12, and is equivalent in strength to a general [[constructively well-pointed]] [[Heyting pretopos]] with the [[axiom of well-founded materialization]]. 
+Thus, the most general variation of Mostowski set theory in intuitionistic logic is **weakly finitist, strongly predicative, constructive Mostowski set theory**, which consists of axioms 1-6 and 10-12, and is equivalent in strength to a general [[constructively well-pointed]] [[Heyting pretopos]] with the [[axiom of well-founded materialization]]. 
 
 ## See also
 
