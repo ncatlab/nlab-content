@@ -13,15 +13,15 @@
 
 ## Idea
 
-**Mostowski set theory** is a [[well-founded relation|well-founded]] [[material set theory]] which is equivalent in strength to the [[structural set theories]] of [[ETCS]] and bounded [[SEAR]] with choice. 
+**Mostowski set theory** is a [[well-founded relation|well-founded]] [[material set theory]] which is equivalent in strength to the [[structural set theories]] of [[ETCS]] and bounded [[SEAR]] with [[axiom of choice|choice]]. 
 
 ## Definition
 
-Mostowski set theory has the following axioms:
+Mostowski set theory has the following [[axioms]]:
 
-1. Extensionality: for any set $x$ and $y$, $x = y$ if and only if for all $z$, $z \in x$ if and only if $z \in y$. 
+1. [[extensionality|Extensionality]]: for any set $x$ and $y$, $x = y$ if and only if for all $z$, $z \in x$ if and only if $z \in y$. 
 
-2. Empty set: there is a set $\emptyset = \{\}$. 
+2. [[empty set|Empty set]]: there is a set $\varnothing = \{\}$. 
 
 3. Pairing: for all sets $x$ and $y$, there is a set $\{x, y\}$
 
@@ -31,7 +31,7 @@ Mostowski set theory has the following axioms:
 
 6. Limited $\Delta_0$-replacement: for any $\Delta_0$-formula $\phi(x, y)$, for all sets $a$ and $b$, if for any set $x \in a$ there is a unique set $y$ such that $\phi(x, y)$, and for all $z \in y$, $z \subseteq b$, then there is a set $\{y \vert \exists x \in a.\phi(x, y)\}$
 
-7. Power sets: for any set $x$, there is a set $\mathcal{P}(x) = \{y \vert y \subseteq x\}$
+7. [[power set|Power sets]]: for any set $x$, there is a set $\mathcal{P}(x) = \{y \vert y \subseteq x\}$
 
 8. Von Neumann infinity: there is a set $\omega$ such that $\emptyset \in \omega$, if $x \in \omega$ then $x \cup \{x\} \in \omega$, and if $z$ is any other set such that $\emptyset \in z$ and $x \in z$ then $x \cup \{x\} \in z$, then $\omega \in z$. 
 
