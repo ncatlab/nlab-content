@@ -129,6 +129,8 @@ The following examples have no classical analog:
 
 * [[quantum logic]]
 
+* [[qbit]], [[qtrit]], [[qdit]]
+
 ## References
 
 The notion of quantum logic gates and [[quantum circuits]] originates with
