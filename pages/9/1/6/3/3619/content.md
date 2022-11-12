@@ -117,6 +117,10 @@ Each of these states yields the structure of a commutative [[Frobenius algebra]]
 
 ## References
 
+Early discussion of [[composite quantum systems]] and their [[quantum entanglement]]:
+
+* [[Erwin Schrödinger]], *Discussion of Probability Relations between Separated Systems*, Mathematical Proceedings of the Cambridge Philosophical Society, **31** 4 (1935) 555-563 &lbrack;[doi:10.1017/S0305004100013554](https://doi.org/10.1017/S0305004100013554)&rbrack;
+
 Introduction:
 
 * Dagmar Bruss, _Characterizing entanglement_, J. Math. Phys. 43, 4237 (2002) [arXiv:quant-ph/0110078](http://arxiv.org/abs/quant-ph/0110078) [doi](http://dx.doi.org/10.1063/1.1494474)
