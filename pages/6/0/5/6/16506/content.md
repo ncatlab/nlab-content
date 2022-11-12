@@ -131,7 +131,7 @@ As remarked [above](#AlgebrasForTheReaderMonad), while the $B$-[[reader monad]] 
 
 However, this situation changes for $B$-readers analogously defined in other [[hyperdoctrines]]. 
 
-We discuss the example of the reader monad induced by  $B$-[[dependent linear types]] which have [[biproducts]], such as $B$-[[indexed sets]]  of [[vector spaces]] (these we may think of as "quantum reader monads", see the discussion at *[Quantum Modal Logic](necessity+and+possibility#ModalQuantumLogic)*):
+We discuss the example of the reader monad induced by  $B$-[[dependent linear types]] which have [[biproducts]], such as $B$-[[indexed sets]]  of [[vector spaces]] (these we may think of as "[[quantum reader monad|quantum reader monads]]", see the discussion at *[Quantum Modal Logic](necessity+and+possibility#ModalQuantumLogic)*). We follow [CQTS (2022)](#CQTS22):
 
 \begin{proposition}
 \label{QuantumBReaderAlgebrasAreBDependentLinearTypes}
@@ -517,7 +517,7 @@ Since the [[direct sum]] of [[vector spaces]] is a [[biproduct]] and using our r
   Consider the $B$-[[indexed set|indexed]] the [[direct sum]] $k^{\otimes^B}$ of the [[ground field]] with itself as a $k$-[[associative algebra|algebra]] and write
 
 $$
-  Writer_{k^{\otimes^B}}
+  {k^{\otimes^B}}\text{-}Writer
   \;\colon\;
   Vect \to Vect
 $$
@@ -543,9 +543,25 @@ $$
 This provides a rather transparent re-derivation of and alternative perspective on Example \ref{FreeQuantumReaderAlgebras}.
 
 
-[[formal duality|Dually]], as in Prop. \ref{QuantumrReaderMonadIsFrobenius}, the quantum [[coreader comonad]] is isomorphic to the [[coreader comonad]] corresponding to the [[coalgebra]]-[[structure]] on $k^{\otimes^B}$.
-Hence, as a [[Frobenius monad]] (Prop. \ref{QuantumrReaderMonadIsFrobenius}), the quantum reader corresponds to $k^{\otimes^B}$ regarded as a [[Frobenius algebra]], in fact as a commutative and special Frobenius algebra.
+[[formal duality|Dually]], as in Prop. \ref{QuantumReaderMonadIsFrobenius}, the quantum [[coreader comonad]] is isomorphic to the [[coreader comonad]] corresponding to the [[coalgebra]]-[[structure]] on $k^{\otimes^B}$.
+Hence, as a [[Frobenius monad]] (Prop. \ref{QuantumReaderMonadIsFrobenius}), the quantum reader corresponds to $k^{\otimes^B}$ regarded as a [[Frobenius algebra]], in fact as a commutative and special Frobenius algebra. In this form the quantum  reader monad is prominent in the literature on [[quantum information theory via dagger-compact categories]] &lbrack;[Coecke & Pavlović (2008), §1.5.1](#CoeckePavlović08), [Coecke & Paquette (2008), §2.3](#CoeckePaquette08)&rbrack;.
 \end{remark}
+
+\[
+  \label{EquivalencesOfTheQuantumReaderMonad}
+\]
+\begin{imagefromfile}
+    "file_name": "QuantumReaderFrobeniusMonad-221112.jpg",
+    "width": "600",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
 
 ## Related concepts
@@ -558,20 +574,26 @@ Hence, as a [[Frobenius monad]] (Prop. \ref{QuantumrReaderMonadIsFrobenius}), th
 
 * [[writer comonad]]
 
+
 ## References
 
+### General
+
+* {#Verdier14} [[Olivier Verdier]], _[The Reader and Writer Monads and Comonads](http://www.olivierverdier.com/posts/2014/12/31/reader-writer-monad-comonad/)_, 2014
+
+* [[Tarmo Uustalu]], p.22 of: *Monads and Interaction Lecture 1* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf), [[Uustalu-Monads1.pdf:file]]&rbrack;, lecture notes for [MGS 2021](https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html) (2021):
+
+
+See also:
+
 * Wikipedia, _[Environment monad](http://en.wikipedia.org/wiki/Monad_%28functional_programming%29#Environment_monad)_.
+
 * {#TorontoMcCarthy10a} [[Neil Toronto]], [[Jay McCarthy]], _From Bayesian notation to pure Racket, via measuretheoretic probability_ , in _Implementation and Application of Functional Languages_, 2010 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.298.4274))
 
 * {#TorontoMcCarthy10b} [[Neil Toronto]], [[Jay McCarthy]], _From Bayesian Notation to Pure Racket_, talk notes 2010 ([pdf](http://jeapostrophe.github.io/home/static/toronto-2010ifl-slides.pdf))
 
 * {#Toronto14} [[Neil Toronto]], _Useful Languages for Probabilistic Modeling and Inference_, PhD Thesis, 2014 ([pdf](http://cs.umd.edu/~ntoronto/papers/toronto-2014diss.pdf), [slides](http://cs.umd.edu/~ntoronto/papers/toronto-2014diss-slides.pdf))
 
-* {#Verdier14} [[Olivier Verdier]], _[The Reader and Writer Monads and Comonads](http://www.olivierverdier.com/posts/2014/12/31/reader-writer-monad-comonad/)_, 2014
-
-* [[Tarmo Uustalu]], p.22 of: *Monads and Interaction Lecture 1* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf), [[Uustalu-Monads1.pdf:file]]&rbrack;, lecture notes for [MGS 2021](https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html) (2021):
-
-  
 
 
 A treatment of _opacity_ in [[linguistics]] via the function monad
@@ -579,6 +601,24 @@ A treatment of _opacity_ in [[linguistics]] via the function monad
 * [[Gianluca Giorgolo]], [[Ash Asudeh]], _Monads as a Solution for Generalized Opacity_, [paper](https://www.aclweb.org/anthology/W14-1403/)
 
 * [[Gianluca Giorgolo]], [[Ash Asudeh]], _Perspectives_, Semantics and Pragmatics, vol. 9, [paper](http://semprag.org/article/view/sp.9.21)
+
+
+
+### On linear types
+ {#ReferencesOnLinearTypes}
+
+The [[quantum reader monad]] -- implicitly, in its incarnation as the $k^B$-DualWriter monad -- is highlighted in the literature [[quantum information theory via dagger-compact categories]] as formalizing "classical structures" (namely linear bases for [[quantum measurement]]):
+
+* {#CoeckePavlović08} [[Bob Coecke]], [[Duško Pavlović]], §1.5.1 of: *Quantum measurements without sums*, in [[Louis Kauffman]], [[Samuel Lomonaco]] (eds.), *Mathematics of Quantum Computation and Quantum Technology*, Taylor & Francis (2008) 559-596 &lbrack;[arXiv:quant-ph/0608035](https://arxiv.org/abs/quant-ph/0608035), [doi:10.1201/9781584889007](https://doi.org/10.1201/9781584889007)&rbrack;
+
+* {#CoeckePaquette08} [[Bob Coecke]], [[Eric Oliver Paquette]], §2.3 in: *POVMs and Naimark's theorem without sums*, Electronic Notes in Theoretical Computer Science **210** (2008) 15-31 &lbrack;[arXiv:quant-ph/0608072](https://arxiv.org/abs/quant-ph/0608072), [doi:10.1016/j.entcs.2008.04.015](https://doi.org/10.1016/j.entcs.2008.04.015)&rbrack;
+
+* [[Bob Coecke]], [[Eric Paquette]], [[Dusko Pavlovic]], Def. 2.8 in: *Classical and quantum structures* (2008) &lbrack;[pdf](http://www.comlab.ox.ac.uk/files/627/RR-08-02.pdf), [[Coecke-Paquette-Pavlovic-CQS.pdf:file]]&rbrack;
+
+
+The account above follows:
+
+* {#CQTS22} [[CQTS]], *[Quantum Data Types via Linear HoTT](https://ncatlab.org/schreiber/show/QDataInLHoTT#QTML2022)* (Nov 2022)
 
 
 [[!redirects reader monads]]
