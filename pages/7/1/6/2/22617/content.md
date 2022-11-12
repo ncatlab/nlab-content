@@ -3,17 +3,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Type theory
+#### Computation
 +-- {: .hide}
-[[!include type theory - contents]]
+[[!include constructivism - contents]]
 =--
 #### Quantum systems
 +--{: .hide}
 [[!include quantum systems -- contents]]
 =--
-#### Constructivism, Realizability, Computability
+#### Type theory
 +-- {: .hide}
-[[!include constructivism - contents]]
+[[!include type theory - contents]]
 =--
 =--
 =--
@@ -27,6 +27,13 @@
 
 *QWIRE* ([Paykin, Rand & Zdancewic 17](#PaykinRandZdancewic17)) is a [[quantum programming language]] based on [[linear type theory]] combined with [[intuitionistic type theory]] via the [[exponential modality]]. More specifically, it is a [[domain specific programming language]] for [[quantum circuits]] meant to be [[domain specific embedded programming language|embedded]] into an [[intuitionistic type theory]]. As such it is similar to *[[Quipper]]*.
 
+## Related
+
+* [[Quipper]]
+
+* [[CoqQ]]
+
+* [[quantum programming languages]]
 
 ## References
 
