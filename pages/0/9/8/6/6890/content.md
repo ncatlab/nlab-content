@@ -16,7 +16,7 @@
 
 The computer software _Coq_ "runs" the formal [[foundations]]-language _[[dependent type theory|dependent]] [[type theory]]_ and serves in particular as a formal [[proof management system]]. It provides a formal language to write mathematical [[definitions]], executable [[programs]] and [[theorems]] together with an environment for semi-interactive development of machine-checked [[proofs]], i.e. for [[certified programming]]. 
 
-Coq is named after [[Thierry Coquand]], and follows a tradition of naming languages after animals (compare OCaml).
+Coq is named after [[Thierry Coquand]], with a reference as well to Coquand's [[calculus of constructions|Calculus of Constructions]] (CoC). It follows a tradition of naming languages after animals (compare OCaml).
 
 ## Applications
 
