@@ -52,7 +52,7 @@ $$\frac{\Xi \vert () \vdash a:A}{\Xi \vert \Gamma \vdash \beta_{\sharp A}(a):(a^
 
 $$\frac{\Xi \vert () \vdash a:\sharp A}{\Xi \vert \Gamma \vdash \eta_{\sharp A}(a):(a_\sharp)^\sharp =_{\sharp A} a}\sharp-\mathrm{uniq}{weak} \qquad \frac{\Xi \vert () \vdash a:\sharp A}{\Xi \vert \Gamma \vdash (a_\sharp)^\sharp \equiv a:\sharp A}\sharp-\mathrm{uniq}\mathrm{strict}$$
 
-Weak sharp modalities are primarily used in cohesive [[objective type theories]], while strict sharp modalities are typically used in cohesive type theories with [[judgmental equality]], such as cohesive [[Martin-Löf type theory]] or cohesive [[higher observational type theory]]. 
+Weak sharp modalities are primarily used in cohesive [[objective type theories]], while strict sharp modalities are typically used in cohesive type theories with [[judgmental equality]], such as cohesive [[Martin-Löf type theory]] ([[cohesive homotopy type theory]] or cohesive [[higher observational type theory]]. 
 
 ## Properties
 
@@ -69,10 +69,23 @@ Weak sharp modalities are primarily used in cohesive [[objective type theories]]
 [[!include cohesion - table]]
 
 ## References
+ {#References}
 
-* Mike Shulman, *Brouwer's fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
+The terminology of the sharp-modality in the above sense was introduced -- in the language of [[(infinity,1)-toposes|$(\infty,1)$-toposes]] and as part of the axioms on "[[cohesive (infinity,1)-toposes|cohesive $(\infty,1)$-toposes]]" -- in:
 
-See the references at _[[local topos]]_.
+* [[Urs Schreiber]], *[[schreiber:differential cohomology in a cohesive topos|Differential cohomology in a cohesive $\infty$-topos]]* (2013)
+
+See also the references at _[[local topos]]_.
+
+Early discussion in view of [[homotopy type theory|homotopy]] [[type theory]] and as part of a set of  axioms for [[cohesive homotopy type theory]] is in
+
+* [[Mike Shulman]], [[Urs Schreiber]], *[[schreiber:Quantum gauge field theory in Cohesive homotopy type theory]]* (2014)
+
+The dedicated type theory formulation with "crisp" types, as part of the formulation of [[real cohesive homotopy type theory]], is due to:
+
+* [[Mike Shulman]], *Brouwer's fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
+
+
 
 [[!redirects sharp modality]]
 [[!redirects strict sharp modality]]
