@@ -29,7 +29,8 @@ A family of [[axioms]] depending on parameters.
 
 ## Examples
 
-* [[axiom scheme of separation]]
+* [[axiom schema of separation]]
+* [[axiom schema of replacement]]
 
 
 ## References
@@ -39,6 +40,7 @@ See also:
 * Wikipedia, *[Axiom schema](https://en.wikipedia.org/wiki/Axiom_schema)*
 
 [[!redirects axiom schemas]]
+[[!redirects axiom schemata]]
 
 [[!redirects axiom scheme]]
 [[!redirects axiom schemes]]
