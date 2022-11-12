@@ -63,6 +63,14 @@ $$ \neg\neg \forall A, (A \vee \neg A).$$
 
 This is related to the above valid statement by a [[double-negation shift]]; and in fact, the truth of $ \neg\neg \forall A, (A \vee \neg A)$ is equivalent to the principle of double-negation shift.  In particular, it is *not* constructively provable.
 
+## Sharp excluded middle
+
+One could add to [[cohesive homotopy type theory]] a version of excluded middle called the **sharp law of excluded middle**, given by the following rule:
+
+$$\frac{\Xi \vert \Gamma \vdash P \; \mathrm{type} \quad \Xi \vert \Gamma \vdash p:\mathrm{isProp}(P)}{\Xi \vert \Gamma \vdash \mathrm{lem}^\sharp:\sharp(P \vee \neg P)}$$
+
+where $A \vee B \coloneqq \left[A + B\right]$ and $\neg A \coloneqq A \to \mathbb{0}$, and $\sharp A$ is the [[sharp modality]] of $A$, $\left[A\right]$ is the [[propositional truncation]] of $A$ and $\mathbb{0}$ is the [[empty type]]. 
+
 ## Related concepts
 
 * [[axiom of choice]]
@@ -102,6 +110,10 @@ In [[homotopy type theory]]:
 
 * [[Univalent Foundations Project]], section 3.5 _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
+In [[cohesive homotopy type theory]]:
+
+* Mike Shulman, *Brouwer's fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
+
 category: foundational axiom
 
 [[!redirects Excluded Middle]]
@@ -112,3 +124,8 @@ category: foundational axiom
 [[!redirects the principle of excluded middle]]
 [[!redirects axiom of excluded middle]]
 [[!redirects the axiom of excluded middle]]
+
+[[!redirects sharp excluded middle]]
+[[!redirects sharp law of excluded middle]]
+[[!redirects sharp principle of excluded middle]]
+[[!redirects sharp axiom of excluded middle]]
