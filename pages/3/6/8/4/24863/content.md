@@ -133,7 +133,13 @@ $$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \v
 
 * [[layered type theory]]
 
+[[!redirects typed predicate logic]]
+[[!redirects typed predicate logics]]
 [[!redirects logic over type theory]]
+[[!redirects logics over type theory]]
 [[!redirects propositional logic over type theory]]
+[[!redirects propositional logics over type theory]]
 [[!redirects predicate logic over type theory]]
+[[!redirects predicate logics over type theory]]
 [[!redirects typed predicate logic with equality]]
+[[!redirects typed predicate logics with equality]]
