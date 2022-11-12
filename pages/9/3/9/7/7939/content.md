@@ -1,11 +1,37 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Computation
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc} 
 
 ## Idea
 
-A [[quantum state]] in a 2-dimensional [[Hilbert space]] [[space of quantum states|of states]].
+In [[quantum information theory]] and [[quantum computing]], by a *q-bit* (or *qubit*) one means a [[quantum state]] in a 2-[[dimension of a vector space|dimensional]] [[complex vector space|complex]] [[Hilbert space]] [[space of quantum states|of states]].
+
+Hence the quantum [[data type]] $QBit$ is the 2-[[dimension of a vector space|dimensional]] [[complex vector space]] equipped with its canonical [[quantum measurement]]-[[linear basis|basis]] 
+
+$$
+  \mathbb{C}^2 
+  \,\simeq\, 
+  \mathbb{C} \cdot \vert 0 \rangle \oplus \mathbb{C} \cdot \vert 1 \rangle
+  \,.
+$$
+
+Analogous higher- but still finite- $d$-dimensional quantum data (types) are called *[[qudit|qdits]]* ("qtrits" for $d = 3$).
 
 ## Properties
 
