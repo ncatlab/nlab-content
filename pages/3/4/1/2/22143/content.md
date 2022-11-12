@@ -14,6 +14,8 @@ General:
 
 * {#Miszczak12} [[Jarosław Adam Miszczak]], *High-level Structures for Quantum Computing*, Morgan&Claypool 2012 ([doi:10.2200/S00422ED1V01Y201205QMC006](https://doi.org/10.2200/S00422ED1V01Y201205QMC006), [pdf](https://www.morganclaypool.com/doi/pdf/10.2200/S00422ED1V01Y201205QMC006))
 
+
+
 See also:
 
 * Wikipedia, _[Quantum programming](https://en.wikipedia.org/wiki/Quantum_programming)_
@@ -23,6 +25,8 @@ Surveys of existing languages:
 * Simon Gay, _Quantum  programming languages: Survey and bibliography_, Mathematical Structures in Computer Science16(2006) ([doi:10.1017/S0960129506005378](https://doi.org/10.1017/S0960129506005378),  [pdf](http://www.dcs.gla.ac.uk/~simon/publications/QPLsurvey.pdf))
 
 * Sunita Garhwal, Maryam Ghorani , Amir Ahmad, *Quantum Programming Language: A Systematic Review of Research Topic and Top Cited Languages*,  Arch Computat Methods Eng 28, 289–310 (2021) ([doi:10.1007/s11831-019-09372-6](https://doi.org/10.1007/s11831-019-09372-6))
+
+* B. Heim et al., *Quantum programming languages*, Nat Rev Phys **2** (2020) 709–722 $[$[doi:10.1038/s42254-020-00245-7](https://doi.org/10.1038/s42254-020-00245-7)$]$
 
 
 Quantum programming via [[quantum logic]] understood as [[linear type theory]] [[categorical semantics|interpreted in]] [[symmetric monoidal categories]]:
