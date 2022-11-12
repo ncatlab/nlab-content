@@ -123,3 +123,5 @@ category: foundational axiom
 [[!redirects axiom of antifoundation]]
 [[!redirects anti-foundation]]
 [[!redirects antifoundation]]
+
+[[!redirects axiom of regularity]]
