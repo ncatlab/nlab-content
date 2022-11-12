@@ -15,7 +15,7 @@
 
 ## Idea
 
-The concept of **dense subtopos** generalizes the concept of a [[dense subspace]] from topology to toposes. A _[[subtopos]]_ is _dense_ if it contains the [[initial object]] $\emptyset$ of the ambient [[topos]].
+The concept of **dense subtopos** generalizes the concept of a [[dense subspace]] from topology to toposes. A _[[subtopos]]_ is _dense_ if it contains the [[initial object]] $\varnothing$ of the ambient [[topos]].
 
 ## Definition
 
