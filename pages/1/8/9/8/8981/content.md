@@ -28,7 +28,7 @@ On a [[local topos]]/[[local (∞,1)-topos]] $\mathbf{H}$, hence equipped with a
 
 ### In type theory
 
-We assume a [[dependent type theory]] with crisp term judgments $a::A$ in addition to the usual type and (cohesive) term judgments $A \; \mathrm{type}$ and $a:A$, as well as context judgments $\Xi \vert \Gamma \; \mathrm{ctx}$ where $\Xi$ is a list of crisp term judgments, and $\Gamma$ is a list of cohesive term judgments. In addition, we also assume the dependent type theory has [[typal equality]] and [[judgmental equality]]. 
+We assume a [[dependent type theory]] with crisp term judgments $a::A$ in addition to the usual (cohesive) type and term judgments $A \; \mathrm{type}$ and $a:A$, as well as context judgments $\Xi \vert \Gamma \; \mathrm{ctx}$ where $\Xi$ is a list of crisp term judgments, and $\Gamma$ is a list of cohesive term judgments. A crisp type is a type in the context $\Xi \vert ()$, where $()$ is the empty list of cohesive term judgments. In addition, we also assume the dependent type theory has [[typal equality]] and [[judgmental equality]]. 
 
 From here, there are two different notions of the sharp modality which could be defined in the type theory, the **strict sharp modality**, which uses [[judgmental equality]] in the [[computation rule]] and [[uniqueness rule]], and the **weak sharp modality**, which uses [[typal equality]] in the [[computation rule]] and [[uniqueness rule]]. When applied to a type they result in **strict sharp types** and **weak sharp types** respectively. The [[natural deduction]] rules for strict and weak sharp types are provided as follows:
 
