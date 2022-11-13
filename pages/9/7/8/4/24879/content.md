@@ -43,7 +43,7 @@ $$f:A \cong B \coloneqq f:A \to B \wedge \exists g:B \to A.\forall a \in A.\fora
 
 **Axiom 3 (Axiom of [[Cartesian products]]):** _For every set $A$ and $B$, there exists a set $A \times B$ with a function $\pi_A:A \times B \to A$ and a function $\pi_B:A \times B \to B$ such that for every element $a \in A$ and $b \in B$ there is a unique element $(a, b) \in A \times B$, such that $\pi_A((a, b)) = a$ and $\pi_B((a, b)) = b$._
 
-**Axiom 4 (Axiom of [[fibers]]):** _For every set $A$ and $B$, function $f:A \to B$, and element $b \in B$, there exists a set $f^{*}(b)$ with a unique function $i:f^{*}(b) \to A$, such that for all elements $c \in f^{*}(b)$, $f(i(c)) = b$._
+**Axiom 4 (Axiom of [[fibers]]):** _For every set $A$ and $B$, function $f:A \to B$, and element $b \in B$, there exists a set $f^{*}(b)$ and a function $i:f^{-1}(b) \to A$, such that for every element $a \in f^{-1}(b)$, $f(i(a)) = b$, and for every other set $C$ and function $g:C \to B$ such that for every element $c \in C$, $f(g(c)) = b$, there is a unique function $j:C \to f^{-1}(b)$ such that for every element $c \in C$, $g(c) = i(j(c))$._
 
 **Axiom 5 ([[axiom schema of separation|Axiom schema of separation]]):** _For any set $B$ and any formula $\phi(x)$ with free variable $x \in B$, there exists a set $A$ with an injection $m:A \hookrightarrow B$ such that for every element $x \in B$, $\phi(x)$ holds if and only if there exists an element $y \in A$ such that $m(y) = x$._
 
@@ -81,25 +81,13 @@ A function $f:A \to B$ is an **[[injection]]** if for all elements $a \in A$ and
 
 **Axiom 3 (Axiom of [[Cartesian products]]):** _For every set $A$ and $B$, there exists a set $A \times B$ with a function $\pi_A:A \times B \to A$ and a function $\pi_B:A \times B \to B$ such that for every element $a \in A$ and $b \in B$ there is a unique element $(a, b) \in A \times B$, such that $\pi_A((a, b)) = a$ and $\pi_B((a, b)) = b$._
 
-**Axiom 4 (Axiom of [[fibers]]):** _For every set $A$ and $B$, function $f:A \to B$, and element $b \in B$, there exists a set $f^{*}(b)$ with a unique function $i:f^{*}(b) \to A$, such that for all elements $c \in f^{*}(b)$, $f(i(c)) = b$._
+**Axiom 4 (Axiom of [[fibers]]):** _For every set $A$ and $B$, function $f:A \to B$, and element $b \in B$, there exists a set $f^{*}(b)$ and a function $i:f^{-1}(b) \to A$, such that for every element $a \in f^{-1}(b)$, $f(i(a)) = b$, and for every other set $C$ and function $g:C \to B$ such that for every element $c \in C$, $f(g(c)) = b$, there is a unique function $j:C \to f^{-1}(b)$ such that for every element $c \in C$, $g(c) = i(j(c))$._
 
 **Axiom 5 ([[axiom schema of separation|Axiom schema of separation]]):** _For any set $B$ and any formula $\phi(x)$ with free variable $x \in B$, there exists a set $A$ with an injection $m:A \hookrightarrow B$ such that for every element $x \in B$, $\phi(x)$ holds if and only if there exists an element $y \in A$ such that $m(y) = x$._
 
 **Axiom 6 ([[axiom schema of collection|Axiom schema of collection]]):** _For any set $A$ and formula $\phi(x, X)$ with free variables $x \in A$ and $X$, there exists a set $B$, function $p:B \to A$, set $C$ and function $M:C \to B$ such that for every $b \in B$, $\phi(p(b), M^{*}(b))$, and for every $a \in A$, if there exists a set $X$ with $\phi(a, X)$, then $a \in \mathrm{im}(p)$._
 
 **Axiom 7 (Axiom of [[power sets]]):** _For every set $A$ there exists a set $\mathcal{P}(A)$ with a set $\in_A$ and an injection $i_{\in_A}:\in_A \hookrightarrow A \times \mathcal{P}(A)$ such that for every set $B$ and $R$ with an injection $i:R \hookrightarrow A \times B$, there exists a unique function $\chi_R:B \to \mathcal{P}(A)$ and a unique function $u_R^{\in_A}:R \to \in_A$ such that for all elements $r \in R$, $\pi_A(i(r)) = \pi_A(i_{\in_A}(u_R^{\in_A}(r)))$ and $\chi_R(\pi_B(i(r))) = \pi_{\mathcal{P}(A)}(i_{\in_A}(u_R^{\in_A}(r))$._
-
-$$\array{& R & \overset{i}\hookrightarrow & A \times B & \\
-          u_R^{\in_A} & \downarrow &&\downarrow & (\mathrm{id}_A, \chi_R)\\
-          &\in_A & \underset{i_{\in_A}}\hookrightarrow& A \times \mathcal{P}(A) & \\
-}$$
-
-
-$$ \array {
-      & A          & \overset{\pi_A \circ i}\leftarrow     & R & \overset{\pi_B \circ i}\rightarrow & B &  \\
-     \mathrm{id}_A & \downarrow & & \downarrow & u_R^{\in_A} & \downarrow & \chi_R \\
-      & A          & \underset{\pi_A \circ i_{\in_A}}\leftarrow      & \in_A      & \underset{\pi_{\mathcal{P}(A)} \circ i_{\in_A}}\rightarrow       & \mathcal{P}(A) & \\
-} $$
 
 **Axiom 8 (Axiom of [[natural numbers]]):** _There exists a set $\mathbb{N}$ with an element $0 \in \mathbb{N}$ and a function $s:\mathbb{N} \to \mathbb{N}$, such that for all sets $A$ with an element $0_A:A$ and function $s_A:A \to A$, there is a unique function $u_A^\mathbb{N}:\mathbb{N} \to A$ such that $u_A^\mathbb{N}(0) = 0_A$ and for all elements $n \in \mathbb{N}$, $u_A^\mathbb{N}(s(n)) = s_A(u_A^\mathbb{N}(n))$._ 
 
