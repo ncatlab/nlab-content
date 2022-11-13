@@ -13,7 +13,7 @@ _Kleene's fixed point theorem_ theorem constructs least [[fixed points]] of [[en
 +-- {: .num_theorem}
 ###### Theorem
 
-Let $f \colo P \to P$ be a [[monotone function]] on a [[poset]] $P$. If $P$ has a [[least element]] $\bot$ and [[joins]] of increasing sequences, and if $f$ [[preserved colimit|preserves]] joins of increasing sequences, then a least [[fixed point]] of $f$ can be constructed as the join of the increasing sequence:
+Let $f : P \to P$ be a [[monotone function]] on a [[poset]] $P$. If $P$ has a [[least element]] $\bot$ and [[joins]] of increasing sequences, and if $f$ [[preserved colimit|preserves]] joins of increasing sequences, then a least [[fixed point]] of $f$ can be constructed as the join of the increasing sequence:
 
 $$
   \bot 
