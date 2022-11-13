@@ -217,6 +217,8 @@ On the other hand, there is no particular harm either in having such structure a
 
 * [[pure subobject]]
 
+* [[improper subobject]]
+
 * [[subobject in an (∞,1)-category]]
 
 * [[property sup]]
