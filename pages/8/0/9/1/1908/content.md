@@ -95,3 +95,15 @@ There may also be extra structure induced more directly on $K(C)$. For instance 
 [[!redirects decategorify]]
 [[!redirects decategorifying]]
 
+[[!redirects de-categorification]]
+[[!redirects de-categorifications]]
+
+[[!redirects de-categorified]]
+[[!redirects de-categorifies]]
+[[!redirects de-categorify]]
+[[!redirects de-categorifying]]
+
+
+
+
+
