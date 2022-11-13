@@ -12,6 +12,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -45,6 +46,19 @@ This approach can be generalized to the [[transfinite construction of free algeb
 ## Related entries
 
 * [[Kleene's fixed point theorem]] is precisely the [[de-categorification]] of this theorem to [[posets]]/[[preorders]].
+
+* [[Knaster-Tarski's fixed point theorem]]
+
+* [[Lawvere's fixed point theorem]]
+
+* [[Lefschetz fixed point theorem]]
+
+* [[Brouwer's fixed point theorem]]
+
+* [[Atiyah-Bott fixed point formula]]
+
+* [[fixed point]]
+
 
 ## References
 
