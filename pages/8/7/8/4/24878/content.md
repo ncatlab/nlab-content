@@ -6,11 +6,23 @@
 
 ## Idea
 
-(...)
+_Kleene's fixed point theorem_ theorem constructs least [[fixed points]] of endofunctions on [[posets]] by iterating them. [[Adámek's fixed point theorem]] generalizes it to constructing [[initial algebras]].
+
+## Construction
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $f: P \to P$ be a monotone function on a poset $P$. If $P$ has a least element $\bot$ and joins of increasing sequences, and $f$ preserves joins of increasing sequences, then a least fixed point of $f$ can be constructed as the join of the increasing sequence
+
+$$\bot \leq f(\bot) \leq f^2(\bot) \leq \cdots$$
+=--
 
 ## Related entries
 
 * [[fixed point]]
+
+* [[Knaster-Tarski's fixed point theorem]]
 
 * [[Lawvere's fixed point theorem]]
 
