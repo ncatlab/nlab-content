@@ -77,26 +77,7 @@ commutes. Now it is trivial, in fact tautological that $\alpha$ is itself an $F$
 ### Ad&#225;mek's theorem
  {#AdameksTheorem-sec}
 
-In many cases, initial algebras can be constructed in a [[recursion|recursive]] fashion, using the following special case of a theorem due to Ad&#225;mek (although, the same construction for set-functors already appeared in ([Pohlova,1973](#Pohlova))).
-
-+-- {: .num_theorem #AdameksTheorem }
-######Theorem (Ad&#225;mek)
-
-Let $C$ be a category with an [[initial object]] $0$ and [[transfinite composition]] of length $\omega$, hence [[colimits]] of sequences $\omega \to C$ (where $\omega$ is the first infinite [[ordinal]]), and suppose $F: C \to C$ preserves colimits of $\omega$-chains. Then the colimit $\gamma$ of the chain 
-
-$$0 \overset{i}{\to} F(0) \overset{F(i)}{\to} \ldots \to F^{(n)}(0) \overset{F^{(n)}(i)}{\to} F^{(n+1)}(0) \to \ldots$$ 
-
-carries a structure of initial $F$-algebra. 
-=-- 
-
-+-- {: .proof}
-###### Proof
-
-The $F$-algebra structure $F\gamma \to \gamma$ is inverse to the canonical map $\gamma \to F\gamma$ out of the colimit (which is invertible by the hypothesis on $F$). The proof of initiality may be extracted by dualizing the corresponding proof given at [[terminal coalgebra]]. 
-=--
-
-This approach can be generalized to the [[transfinite construction of free algebras]].
-
+In many cases, initial algebras can be constructed in a [[recursion|recursive/iterative]] fashion using [[Adámek's fixed point theorem]].
 
 ### Semantics for inductive types
 
