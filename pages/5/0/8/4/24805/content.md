@@ -66,6 +66,11 @@ As an [[axiom]] for [[quantum programming languages]]:
 
 * {#Staton15} [[Sam Staton]], Axiom B (p. 6) in: *Algebraic Effects, Linearity, and Quantum Programming Languages*, POPL '15: Proceedings of the 42nd Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (2015) &lbrack;[doi:10.1145/2676726.2676999](https://doi.org/10.1145/2676726.2676999), [pdf](http://www.cs.ox.ac.uk/people/samuel.staton/papers/popl2015.pdf)&rbrack;
 
+The above discussion and graphics follows:
+
+* {#CQTS22} [[CQTS]], *[Quantum Data Types via Linear HoTT](https://ncatlab.org/schreiber/show/QDataInLHoTT#QTML2022)* (Nov 2022)
+
+
 See also:
 
 * Wikipedia, *[Deferred Measurement Principle](https://en.wikipedia.org/wiki/Deferred_Measurement_Principle)*
