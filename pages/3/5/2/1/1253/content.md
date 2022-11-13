@@ -61,7 +61,7 @@ If the set theory does not have [[equality]] as a primitive, we could define equ
 
 In any set theory with the [[axiom of foundation]], the axiom of weak extensionality implies the axiom of strong extensionality. 
 
-#### Structural strong extensionality
+### Structural strong extensionality
 
 In any categorical set theory, the axiom of structural strong extensionality states that for all sets $A$ and $B$ with an injection $i:A \to B$, $i$ is a bijection if and only if for all elements $b \in B$, there is an element $a \in A$ such that $i(a) = b$. 
 
