@@ -105,6 +105,14 @@ by saying (reproduced in [Lawvere 69 reprint, p. 2](#Lawvere69)):
 
 ## Related pages 
 
+* [[fixed point]]
+
+* [[Kleene's fixed point theorem]]
+
+* [[Brouwer's fixed point theorem]]
+
+* [[Lefschetz fixed point theorem]]
+
 * [[Cantor's theorem]] 
 
 * [[fixed-point combinator]] 
@@ -130,8 +138,8 @@ Expositions include
 
 Other references
 
-* [[Martin Escardo]], _On Lawvere's Fixed Point Theorem_, [agda development](https://www.cs.bham.ac.uk/~mhe/agda-new/LawvereFPT.html), 2018
- {#Escardo18}
+* {#Escardo18} [[Martin Escardo]], _On Lawvere's Fixed Point Theorem_ (2018) &lbrack;[agda development](https://www.cs.bham.ac.uk/~mhe/agda-new/LawvereFPT.html)&rbrack;
+ 
 
 
 The necessary assumptions for Lawvere's account are reduced in various ways in
