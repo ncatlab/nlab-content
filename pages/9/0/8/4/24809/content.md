@@ -290,6 +290,16 @@ See also at:
 
 * [quantum computation -- References -- Classically controlled quantum computing](quantum+computation#ReferencesClassicallyControlledQuantumComputing)
 
+
+Discussion in terms of [[quantum information theory via dagger-compact categories]] (cf. at *[[quantum reader monad]]*):
+
+* {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], around Lem.  5.61 in: *Categories for Quantum Theory*, Oxford University Press 2019 $[$[ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616)$]$
+
+The above discussion and graphics follows:
+
+* {#CQTS22} [[CQTS]], *[Quantum Data Types via Linear HoTT](https://ncatlab.org/schreiber/show/QDataInLHoTT#QTML2022)* (Nov 2022)
+
+
 [[!redirects controlled quantum gates]]
 
 [[!redirects controlled quantum logic gate]]
