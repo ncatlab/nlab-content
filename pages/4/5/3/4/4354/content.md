@@ -26,6 +26,13 @@ On [[monoidal category]]-theory with an eye towards [[quantum information theory
 
   {#HeunenVicary12} [[Chris Heunen]], [[Jamie Vicary]], *Lectures on categorical quantum mechanics* (2012) &lbrack;[pdf](https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf), [[HeunenVicary-QuantumLectures.pdf:file]]&rbrack;
 
+## Related entries
+
+* [[quantum information theory via dagger-compact categories]]
+
+* [[classical structure]]
+
+
 
 category: people
 
