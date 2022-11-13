@@ -73,6 +73,10 @@ The collection of  [[h-sets]] in [[homotopy type theory]] constitute a [[ΠW-pre
 
 * [[material-structural adjunction]]
 
+* [[categorical set theory]]
+
+* [[allegorical set theory]]
+
 ## References ##
 
 A textbook that introduces the [[foundations of mathematics]] informally via structural set theory is
