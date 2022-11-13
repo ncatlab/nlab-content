@@ -67,7 +67,7 @@ In this case of [[finite set|finite]] parameter set $B$, the existence of [[bipr
 
 In fact, the induced joint [[monad]]- and [[comonad]]-[[structure]] on this functor are compatible to jointly make the quantum reader be a *[[Frobenius monad]]*:
 
-An organized way to see this [[Frobenius monad]]-[[structure]] on the quantum reader monad over a finite parameter set is to observe (which is a straightforward inspection, but we spell it out [below](...)) that the quantum $B$-reader monad is also [[isomorphism|isomorphic]] to the *$\mathbb{1}^B$-[[writer monad]]* corresponding to the [[associative algebra]]
+An organized way to see this [[Frobenius monad]]-[[structure]] on the quantum reader monad over a finite parameter set is to observe (which is a straightforward inspection, but we spell it out [below](#Details)) that the quantum $B$-reader monad is also [[isomorphism|isomorphic]] to the *$\mathbb{1}^B$-[[writer monad]]* corresponding to the [[associative algebra]]
 \[
   \label{AlgebraOfProjectorsInIntroduction}
   \mathbb{1}^B 
