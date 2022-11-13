@@ -115,6 +115,8 @@ Namely -- by the [above](#Definition) -- a quantum measurement is formally refle
 
 * [[deferred measurement principle]]
 
+* [[quantum reader monad]]
+
 * [[quantum state preparation]]
 
 * [[quantum fluctuation]]
