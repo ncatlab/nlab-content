@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
 # Axioms of replacement and collection
 * table of contents
 {: toc}
@@ -10,9 +20,9 @@
 
 [^Cant]: _'Two equivalent multiplicities either are both "sets" or are both inconsistent'_, letter to Dedekind from 28th July 1899 ([Cantor 1932](#Cantor99), p.444). This is suggested as an early formulation of the axiom of replacement by van Heijenoort (1967, p.113). A categorical formalization of Cantor's idea as an extension for [[ETCS]] is given in [McLarty (2004)](#McLarty).
 
-**Axioms of collection** and replacement are axiom schemata in [[set theory]] that permit to construct new sets from other already given sets thereby contributing substantially to the size of the set-theoretic universe and hence are seen as 'strong' axioms.
+**Axioms of collection** and replacement are [[axiom schemata]] in [[set theory]] that permit to construct new [[sets]] from other already given sets, thereby contributing substantially to the size of the set-theoretic [[universe]], and hence are seen as 'strong' [[foundational axioms]].
 
-The most famous of these schemata is the **axiom of replacement**[^name] of [[Zermelo-Fraenkel set theory]] that was suggested by A. Fraenkel and formulated by [[Thoralf Skolem|T. Skolem]] in 1922. Given a unary operation $F$ and a set $x$ it permits to collect all $F(y)$ for $y\in x$ into a new set.
+The most famous of these [[axiom schemata]] is the **axiom of replacement**[^name] of [[Zermelo-Fraenkel set theory]] that was suggested by [[Abraham Fraenkel|A. Fraenkel]] and formulated by [[Thoralf Skolem|T. Skolem]] in 1922. Given a unary operation $F$ and a set $x$ it permits to collect all $F(y)$ for $y\in x$ into a new set.
 
 [^name]: The term 'replacement', or 'Ersetzungsaxiom' in German, is apparently due to [Fraenkel (1922)](#Fraenkel22) and was intended as a provisory terminology until the final formalization of Zermelo's notion of a 'definite property' which was identified with a first-order formula in the language of set theory by Skolem in the same year (and independently earlier by [[Hermann Weyl|H. Weyl]]).
 
@@ -24,7 +34,7 @@ The resulting expansiveness of the set-theoretic universe is somewhat peripheral
 
 Axioms of replacement and collection become useful, however, whenever [[recursion|recursively]] constructing a set that is 'larger' than any set known before:
 
->what the axiom of replacement is mainly needed for in mathematical practice is to define families of sets indexed by some set I carrying some inductive structure as, typically, the set $N$ of natural numbers.[^streicher]
+>what the axiom of replacement is mainly needed for in mathematical practice is to define families of sets indexed by some set $I$ carrying some inductive structure as, typically, the set $N$ of natural numbers.[^streicher]
 
 [^streicher]: [[Thomas Streicher]] ([2005, p.79](#Streicher05)). See there for further discussion of the role of replacement for _mathematics beyond $V_{\omega +\omega}$_ and the handling of similar iterated collection processes in toposes by universes.
 
