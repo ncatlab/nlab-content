@@ -198,19 +198,28 @@ Let $E$ be a topos, and let $F \colon E \to E$ be a left-exact idempotent _funct
 Todd: Here "idempotent" involves a coassociativity condition. To be related to structures over a modal operator, as at my web, or to diads a la Toby Kenney. 
 =-- 
 
-### Domain theory 
-
-* Adjunctions and adjoint equivalences 
-
-... 
 
 ## Related concepts
 
-* [[Lawvere's fixed point theorem]]
+* [[fixed point of an adjunction]], 
 
-* [[fixed point of an adjunction]], indcluding fixed points of [[Galois correspondences]])
+  including fixed points of [[Galois correspondences]]
 
 * [[fixed point space]]
+
+**Theorems**
+
+* [[Lawvere's fixed point theorem]]
+
+* [[Lefschetz fixed point theorem]]
+
+* [[Kleene's fixed point theorem]]
+
+* [[Brouwer's fixed point theorem]]
+
+* [[Atiyah-Bott fixed point theorem]]
+
+
 
 ## References 
 
