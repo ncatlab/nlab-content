@@ -18,6 +18,8 @@ For example, a comonoid in [[Vect]] (with its usual [[tensor product]]) is calle
 
 * [[co-associativity]]
 
+* [[co-unitality]]
+
 [[!redirects comonoid]]
 [[!redirects comonoids]]
 [[!redirects comonoid object]]
