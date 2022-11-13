@@ -14,11 +14,11 @@
 
 ## Idea
 
-Regular languages are a simple kind of [[formal grammar|formal languages]], the least expressive in [[Chomsky hierarchy]].
+Regular languages are a simple kind of [[formal grammar|formal languages]], the least expressive in the [[Chomsky hierarchy]].
 
 ## Definition
 
-Fix a finite vocabulary $V$ and denote its free monoid by $V^\star$. A language $L \subseteq V^\star$ is regular whenever there is a [[formal grammar]] $G = (V, X, R, s)$ that generates it (i.e. $L(G) = L$) such that all rules in $R$ are of the form $x \to w x'$ for a terminal $w \in V$ and non-terminal symbols $x, x' \in X$.
+Fix a finite vocabulary $V$ and denote its [[free monoid]] by $V^\star$. A [[language]] $L \subseteq V^\star$ is *regular* whenever there is a [[formal grammar]] $G = (V, X, R, s)$ that generates it (i.e. $L(G) = L$) such that all rules in $R$ are of the form $x \to w x'$ for a terminal $w \in V$ and non-terminal symbols $x, x' \in X$.
 
 ## Properties
 
@@ -29,12 +29,12 @@ Regular languages can be characterised by _regular expressions_. Regular express
 3. For each pair of regular expressions $R_1,R_2$, $R_1|R_2$ and $R_1 \cdot R_2$
 4. For each regular expression $R$ the Kleene star $R^\star$.
 
-These can be given a semantics in the [[poset]] of languages $P(V)$ by universal properties.
+These can be given a semantics in the [[poset]] of languages $P(V)$ by [[universal properties]].
 
 1. $L(\emptyset) = \emptyset$ and $L(R_1 | R_2) = L(R_1) \cup L(R_2)$. These are nullary and binary joins.
 2. $L(w) = \{ w \}$. These are [[representable]] viewing languages as de-categorified [[presheaves]].
 3. $L(\epsilon)$ consists of only the empty string, $L(R_1\cdot R_2) = \{\alpha \in V^\star \vert \exists \beta \in L(R_1), \gamma \in L(R_2) \cdot \alpha = \beta \gamma \}$. This is a de-categorified version of the [[Day convolution]] monoidal structure.
-4. $L(R^\star) = \{ \alpha \in V^\star \vert \exists n \in \mathbb{N}. \exists\beta_0,\ldots,\beta_{n-1} \in L(R). \alpha = \beta_0\cdots\beta_{n-1} \}$. In categorical terms this is the least solution to the recurrence equation $L(R^\star) = L(\epsilon| (R\cdot R^\star))$, and can be constructed by Kleene's fixed point theorem as an $\omega$-colimit.
+4. $L(R^\star) = \{ \alpha \in V^\star \vert \exists n \in \mathbb{N}. \exists\beta_0,\ldots,\beta_{n-1} \in L(R). \alpha = \beta_0\cdots\beta_{n-1} \}$. In [[category theory|category theoretic]] terms this is the least solution to the recurrence equation $L(R^\star) = L(\epsilon| (R\cdot R^\star))$, and can be constructed by [[Kleene's fixed point theorem]] as an $\omega$-[[colimit]].
 
 Every regular language can is denoted by some regular expression in this way.
 
