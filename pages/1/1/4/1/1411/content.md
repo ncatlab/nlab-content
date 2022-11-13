@@ -38,7 +38,9 @@ Similarly, a __unit law__ is the statement that a given operation has an identit
 
 ## Related concepts
 
-* [[associativity]]
+* [[associativity]], [[co-associativity]]
+
+* [[co-unitality]]
 
 * [[unitization]]
 
