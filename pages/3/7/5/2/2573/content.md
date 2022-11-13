@@ -43,6 +43,9 @@ So much for the hypothesis of the axiom; the conclusion asserts the existence of
 Who wants to write out some of these?
 =--
 
+* **Bounded replacement** or **restricted replacement** or **$\Delta_0$-replacement**: for any $\Delta_0$-formula $\phi(x, y)$, for any $a$, if for every $x \in a$ there exists a unique $y$ with $\phi(x, y)$, then the set $\{y \vert \exists x \in a.\phi(x, y)\}$ exists. 
+
+* **Full replacement**: for any formula $\phi(x, y)$, for any $a$, if for every $x \in a$ there exists a unique $y$ with $\phi(x, y)$, then the set $\{y \vert \exists x \in a.\phi(x, y)\}$ exists. 
 
 ## Lawvere on replacement
 
@@ -69,7 +72,7 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 
 * [[axiom of choice]]
 
-* [[ETCS]]
+* [[ETCS]], [[SEAR]]
 
 * [[large cardinals]]
 
@@ -120,6 +123,51 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 [[!redirects replacement axiom schema]]
 [[!redirects replacement axiom schemas]]
 [[!redirects replacement axiom schemata]]
+
+[[!redirects axiom of bounded replacement]]
+[[!redirects axioms of bounded replacement]]
+[[!redirects axiom scheme of bounded replacement]]
+[[!redirects axiom schemes of bounded replacement]]
+[[!redirects axiom schema of bounded replacement]]
+[[!redirects axiom schemas of bounded replacement]]
+[[!redirects axiom schemata of bounded replacement]]
+[[!redirects bounded replacement axiom]]
+[[!redirects bounded replacement axioms]]
+[[!redirects bounded replacement axiom scheme]]
+[[!redirects bounded replacement axiom schemes]]
+[[!redirects bounded replacement axiom schema]]
+[[!redirects bounded replacement axiom schemas]]
+[[!redirects bounded replacement axiom schemata]]
+
+[[!redirects axiom of restricted replacement]]
+[[!redirects axioms of restricted replacement]]
+[[!redirects axiom scheme of restricted replacement]]
+[[!redirects axiom schemes of restricted replacement]]
+[[!redirects axiom schema of restricted replacement]]
+[[!redirects axiom schemas of restricted replacement]]
+[[!redirects axiom schemata of restricted replacement]]
+[[!redirects restricted replacement axiom]]
+[[!redirects restricted replacement axioms]]
+[[!redirects restricted replacement axiom scheme]]
+[[!redirects restricted replacement axiom schemes]]
+[[!redirects restricted replacement axiom schema]]
+[[!redirects restricted replacement axiom schemas]]
+[[!redirects restricted replacement axiom schemata]]
+
+[[!redirects axiom of full replacement]]
+[[!redirects axioms of full replacement]]
+[[!redirects axiom scheme of full replacement]]
+[[!redirects axiom schemes of full replacement]]
+[[!redirects axiom schema of full replacement]]
+[[!redirects axiom schemas of full replacement]]
+[[!redirects axiom schemata of full replacement]]
+[[!redirects full replacement axiom]]
+[[!redirects full replacement axioms]]
+[[!redirects full replacement axiom scheme]]
+[[!redirects full replacement axiom schemes]]
+[[!redirects full replacement axiom schema]]
+[[!redirects full replacement axiom schemas]]
+[[!redirects full replacement axiom schemata]]
 
 [[!redirects axiom of collection]]
 [[!redirects axioms of collection]]
