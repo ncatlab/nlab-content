@@ -870,7 +870,8 @@ This establishes all the ingredients of traditional [[quantum circuits]]. For in
  {#References}
 
 
-(...)
+* {#CQTS22} [[CQTS]], *[Quantum Data Types via Linear HoTT](https://ncatlab.org/schreiber/show/QDataInLHoTT#QTML2022)* (Nov 2022)
+
 
 The above figure of an SQRAM scheme is taken from:
 
