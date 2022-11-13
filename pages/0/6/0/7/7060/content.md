@@ -90,3 +90,6 @@ Detailed discussion of the type of propositions in [[Coq]] is in
 [[!redirects universe of propositions]]
 
 [[!redirects Prop]]
+
+[[!redirects type of all propositions]]
+[[!redirects types of all propositions]]
