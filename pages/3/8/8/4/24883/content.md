@@ -15,7 +15,7 @@
 
 ## Idea
 
-There are two general approaches to [[structural set theory]]; those that attempt to axiomatise the category [[Set]] of [[sets]] and [[functions]], and those that attempt to axiomatise the category [[Rel]] of [[sets]] and [[relations]]. The former is called **categorical set theory**. 
+There are two general approaches to [[structural set theory]]; those that attempt to axiomatise the [[category]] [[Set]] of [[sets]] and [[functions]], and those that attempt to axiomatise the [[allegory]] [[Rel]] of [[sets]] and [[relations]]. The former is called **categorical set theory**. 
 
 ## Types of categorical set theories
 
