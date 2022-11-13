@@ -148,9 +148,18 @@ For example, the [[antipode|antipodal]] reflection action of [[cyclic group of o
 
 ## Related concepts
 
+* [[fixed point]]
+
 * [[Brouwer's fixed point theorem]]
 
 * [[Atiyah-Bott fixed point formula]]
+
+* [[Lawvere's fixed point theorem]]
+
+* [[Lefschetz fixed point theorem]]
+
+* [[Kleene's fixed point theorem]]
+
 
 * [[Reidemeister trace]]
 
