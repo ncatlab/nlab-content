@@ -112,7 +112,9 @@ The 2-category of cartesian monoidal categories is comonadic (in the bicategoric
 
 
 [[!redirects cocommutative]]
+[[!redirects cocommutativity]]
 [[!redirects co-commutative]]
+[[!redirects co-commutativity]]
 
 
 [[!redirects cocommutative coalgebras]]
@@ -121,3 +123,4 @@ The 2-category of cartesian monoidal categories is comonadic (in the bicategoric
 
 [[!redirects cocommutative comonoid]]
 [[!redirects cocommutative comonoids]]
+
