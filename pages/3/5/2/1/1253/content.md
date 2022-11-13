@@ -63,7 +63,12 @@ In any set theory with the [[axiom of foundation]], the axiom of weak extensiona
 
 ### Structural strong extensionality
 
-In any categorical set theory, the axiom of structural strong extensionality states that for all sets $A$ and $B$ with an injection $i:A \to B$, $i$ is a bijection if and only if for all elements $b \in B$, there is an element $a \in A$ such that $i(a) = b$. 
+In any [[structural set theory]], the axiom of strong extensionality states that for all sets $A$ and $B$ with an [[injection]] $i:A \hookrightarrow B$, the two definitions of $i$ being a [[bijection]] are logically equivalent to each other: 
+
+* there exists a function $i^{-1}:B \to A$ such that for all elements $a \in A$ and $b \in B$, $i^{-1}(i(a)) = a$ and $i(i^{-1}(b)) = b$ 
+* for every element $x \in B$ there exists an element $y \in A$ such that $i(y) = x$. 
+
+Similar to how in material set theory one can use the axiom of extensionality to define [[equality]] of sets, in structural set theory one can use the axiom of strong extensionality to define [[bijection]] of sets. 
 
 ## See also
 
