@@ -220,6 +220,8 @@ Todd: Here "idempotent" involves a coassociativity condition. To be related to s
 
 * [[Kleene's fixed point theorem]]
 
+* [[Adámek's fixed point theorem]]
+
 * [[Brouwer's fixed point theorem]]
 
 * [[Atiyah-Bott fixed point theorem]]
@@ -240,7 +242,8 @@ A version of the Knaster-Tarski fixed-point theorem is proved in constructive (a
 
 A relation to [[framed manifold|framed]] [[cobordism classes]] and fixed points:
 
-* {#Prieto03} Carlos Prieto, _Fixed point theory and framed cobordism_, Topol. Methods Nonlinear Anal. Volume 21, Number 1 (2003), 155-169. ([Euclid](https://projecteuclid.org/euclid.tmna/1475266278))
+* {#Prieto03} [[Carlos Prieto]], _Fixed point theory and framed cobordism_, Topol. Methods Nonlinear Anal. Volume 21, Number 1 (2003), 155-169. ([Euclid](https://projecteuclid.org/euclid.tmna/1475266278))
+
 
 [[!redirects fixed points]]
 
@@ -251,3 +254,7 @@ A relation to [[framed manifold|framed]] [[cobordism classes]] and fixed points:
 
 
 [[!redirects Knaster-Tarski theorem]]
+[[!redirects Knaster-Tarski's fixed point theorem]]
+
+
+
