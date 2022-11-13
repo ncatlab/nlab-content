@@ -37,4 +37,7 @@ On an [[axiom|axiomatic]] characterization of the [[compact closed dagger catego
 
 * [[finite quantum mechanics in terms of dagger-compact categories]]
 
+* [[classical structure]]
+
 category: people
+
