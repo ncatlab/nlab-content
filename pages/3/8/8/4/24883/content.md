@@ -19,7 +19,7 @@ There are two general approaches to [[structural set theory]]; those that attemp
 
 ## Types of categorical set theories
 
-One distinguishes between simply sorted categorical set theories, where membership is a [[relation]], and dependently sorted categorical set theories, where membership is a [[typing]] [[judgment]]. 
+One distinguishes between simply sorted categorical set theories, where membership is a [[relation]], and dependently sorted categorical set theories, where membership is a typing [[judgment]]. 
 
 ### Simply sorted categorical set theories
 
