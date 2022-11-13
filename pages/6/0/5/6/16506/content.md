@@ -566,13 +566,18 @@ Hence, as a [[Frobenius monad]] (Prop. \ref{QuantumReaderMonadIsFrobenius}), the
 
 ## Related concepts
 
+* [[coreader comonad]]
+
+* [[state monad]]
+
+* [[writer monad]]
+
+* [[quantum reader monad]]
+
 * [[maybe monad]]
 
 * [[continuation monad]]
 
-* [[coreader comonad]], [[state monad]]
-
-* [[writer comonad]]
 
 
 ## References
