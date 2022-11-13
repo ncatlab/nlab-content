@@ -33,11 +33,12 @@ The axioms of structural ZFC are as follows:
 A function $f:A \to B$ is an **[[injection]]** if for all elements $a \in A$ and $b \in A$, $a = b$ if and only if $f(a) = f(b)$. We define the ternary relation $f:A \hookrightarrow B$ which states that $f$ is an injection with domain $A$ and codomain $B$:
 $$f:A \hookrightarrow B \coloneqq f:A \to B \wedge \forall a \in A.\forall b \in A.(a = b) \iff (f(a) = f(b))$$
 
-A function $f:A \to B$ is a **[[bijection]]** if there exists a function $g:B \to A$ such that for all elements $a \in A$ and $b \in B$, $g(f(a)) = a$ and $f(g(b)) = b$. 
-We define the ternary relation $f:A \cong B$ which states that $f$ is a bijection with domain $A$ and codomain $B$:
-$$f:A \cong B \coloneqq f:A \to B \wedge \exists g:B \to A.\forall a \in A.\forall b \in A.(g(f(a)) = a) \wedge (f(g(b)) = b)$$
+**Axiom 1 ([[axiom of strong extensionality|Axiom of strong extensionality]]):** _Given sets $A$ and $B$ and an [[injection]] $i:A \hookrightarrow B$, the following statements are logically equivalent to each other:_ 
 
-**Axiom 1 ([[axiom of strong extensionality|Axiom of strong extensionality]]):** _Given sets $A$ and $B$ and an [[injection]] $m:A \hookrightarrow B$, $m$ is a [[bijection]] if and only if for every element $x \in B$ there exists an element $y \in A$ such that $m(y) = x$._ 
+* _there exists a function $i^{-1}:B \to A$ such that for all elements $a \in A$ and $b \in B$, $i^{-1}(i(a)) = a$ and $i(i^{-1}(b)) = b$_
+* _for every element $x \in B$ there exists an element $y \in A$ such that $i(y) = x$_ 
+
+One uses the axiom of strong extensionality as the definition of a [[bijection]] between sets. 
 
 **Axiom 2 (Axiom of [[empty set]]):** _There exists a set $\emptyset$ such that for every other set $A$, there is a unique function $u_A^\emptyset:\emptyset \to A$._
 
@@ -73,9 +74,14 @@ The axioms of structural ZFC are as follows:
 
 **Axiom 0 (axiom of equality preservation):** _For all sets $A$ and $B$, functions $f:A \to B$, and elements $a \in A$ and $b \in A$, if $a = b$, then $f(a) = f(b)$. 
 
-A function $f:A \to B$ is an **[[injection]]** if for all elements $a \in A$ and $b \in A$, $a = b$ if and only if $f(a) = f(b)$. Injections are written as $f:A \hookrightarrow B$. A function $f:A \to B$ is a **[[bijection]]** if there exists a function $f^{-1}:B \to A$ such that for all elements $a \in A$ and $b \in B$, $f^{-1}(f(a)) = a$ and $f(f^{-1}(b)) = b$. Bijections are written as $f:A \cong B$. 
+A function $f:A \to B$ is an **[[injection]]** if for all elements $a \in A$ and $b \in A$, $a = b$ if and only if $f(a) = f(b)$. Injections are written as $f:A \hookrightarrow B$. 
 
-**Axiom 1 ([[axiom of strong extensionality|Axiom of strong extensionality]]):** _Given sets $A$ and $B$ and an [[injection]] $m:A \hookrightarrow B$, $m$ is a [[bijection]] if and only if for every element $x \in B$ there exists an element $y \in A$ such that $m(y) = x$._ 
+**Axiom 1 ([[axiom of strong extensionality|Axiom of strong extensionality]]):** _Given sets $A$ and $B$ and an [[injection]] $i:A \hookrightarrow B$, the following statements are logically equivalent to each other:_ 
+
+* _there exists a function $i^{-1}:B \to A$ such that for all elements $a \in A$ and $b \in B$, $i^{-1}(i(a)) = a$ and $i(i^{-1}(b)) = b$_
+* _for every element $x \in B$ there exists an element $y \in A$ such that $i(y) = x$_ 
+
+One uses the axiom of strong extensionality as the definition of a [[bijection]] between sets. 
 
 **Axiom 2 (Axiom of [[empty set]]):** _There exists a set $\emptyset$ such that for every other set $A$, there is a unique function $u_A^\emptyset:\emptyset \to A$._
 
