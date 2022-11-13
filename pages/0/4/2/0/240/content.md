@@ -124,6 +124,30 @@ Possibly one should say: an $(\infty,1)$-topos $\mathbf{H}$ is _well-pointed_ if
 
 ...which should mean that for all $X,Y \in \mathbf{H}$ the image of the morphism $\Gamma_{X,Y} : \mathbf{H}(X,Y) \to Func(\Gamma(X),\Gamma(Y))$ in the [[homotopy category]] identifies $\mathbf{H}(X,Y)$ as a [[direct sum]]mand of $Func(\Gamma(X),\Gamma(Y))$.
 
+## As an axiom schema of separation
+
+Well-pointedness in a [[Boolean category]] (if using [[classical logic]]) or a [[Heyting category]] (if using [[intuitionistic logic]]) could also be represented, in addition to the [[terminal object]] being a [[strong generator]], by a version of the [[axiom schema of bounded separation]]. 
+
+Let us define the following
+
+* A $\Delta_0$-variable is a [[global element]] variable. 
+* A $\Delta_0$-context is a context only containing $\Delta_0$-variables
+* An $\Delta_0$-atomic formula is an equality of global elements
+* A $\Delta_0$-quantifier is a quantifier over a $\Delta_0$-variable. 
+* A formula whose only atomic subformulas are $\Delta_0$-atomic and whose only quantifiers are $\Delta_0$-quantifiers is a $\Delta_0$-formula.
+
+A [[Boolean category]] or [[Heyting category]] $\mathcal{E}$ is well-pointed if 
+
+* the [[terminal object]] $1 \in \mathrm{Ob}(\mathcal{E})$ is a strong generator: given objects $A \in \mathrm{Ob}(\mathcal{E})$ and $B \in \mathrm{Ob}(\mathcal{E})$ and [[monomorphism]] $m:A \hookrightarrow B$, if for every [[global element]] $x:1 \to B$ there exists a global element $y:1 \to A$ such that $m \circ y = x$, then $m$ is an [[isomorphism]]. 
+
+* the [[axiom schemata of bounded separation]] holds for [[global elements]]: for any $\Delta_0$-formula $\phi(x)$ with global element free variable $x:1 \to B$, there exists an object $A \in \mathrm{Ob}(\mathcal{E})$ and a monomorphism $m:A \hookrightarrow B$ such that for any global element $x:1 \to B$, $\phi(x)$ holds if and only if there exists a global element $y:1 \to A$ such that $m \circ y = x$. 
+
+In fact, given that $\mathcal{E}$ is a [[finitely complete category]], we could use this as the definition of a **well-pointed Boolean category** or **well-pointed Heyting category**, and thus in a foundational categorical [[set theory]]: 
+
+* Improper subsets: given a subset $A \subseteq B$ with chosen [[injection]] $m:A \hookrightarrow B$, if for every element $x \in B$ there exists an element $y \in A$ such that $m(y) = x$, then $A$ is [[generalized the|the]] [[improper subset]] of $B$ and $m$ is a [[bijection]]. 
+
+* Bounded separation: for any $\Delta_0$-formula $\phi(x)$ with free variable $x \in B$, there exists a subset $A \subseteq B$ with chosen injection $m:A \hookrightarrow B$ such that for every element $x \in B$, $\phi(x)$ holds if and only if there exists an element $y \in A$ such that $m(y) = x$. 
+
 ## Related entries
 
 * [[ETCS]]
@@ -137,6 +161,9 @@ Possibly one should say: an $(\infty,1)$-topos $\mathbf{H}$ is _well-pointed_ if
  
 * {#Johnstone77} [[Peter Johnstone]], _Topos Theory_, Academic Press New York 1977. (also available as Dover reprint, Minneola 2014).  See Section 9.3.
 
+For constructive well-pointedness of [[Heyting categories]] as a structural [[axiom schemata of separation]] in addition to the [[terminal object]] being a [[strong generator]], see:
+
+* [[Michael Shulman]] (2018). Comparing material and structural set theories. [arXiv:1808.05204](https://arxiv.org/abs/1808.05204).
 
 [[!redirects well-pointed topos]]
 [[!redirects well-pointed toposes]]
