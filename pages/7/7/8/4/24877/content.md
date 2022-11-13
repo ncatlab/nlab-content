@@ -14,6 +14,14 @@ On [[quantum information theory via dagger-compact categories]]:
 * {#CoeckePractising} [[Bob Coecke]], [[Eric Oliver Paquette]], *Categories for the practising physicist* $[$[arXiv:0905.3010](http://arxiv.org/abs/0905.3010)$]$
 
 
+## Related entries
+
+* [[quantum information theory via dagger-compact categories]]
+
+  * [[classical structure]]
+
+
+
 category: people
 
 [[!redirects Eric Paquette]]
