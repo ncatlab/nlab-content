@@ -48,7 +48,7 @@ If the set theory does not have [[equality]] of sets as a primitive, we could de
 
 $$A =_{Set} B \coloneqq \forall a:Element.(a \in A) \iff (a \in B)$$
 
-### Strong extensionality
+### Material strong extensionality
 
 Let $\sim$ be a [[bisimulation]], a binary relation such that for all sets $A$ and $B$ such that $A \sim B$, the following conditions hold:
 
@@ -60,6 +60,10 @@ The **axiom of strong extensionality** states that for every bisimulation $\sim$
 If the set theory does not have [[equality]] as a primitive, we could define equality as the [[terminal]] [[bisimulation]], as the bisimulation $=$ such that for every bisimulation $\sim$ and for every set $A$ and $B$, $A \sim B$ implies that $A = B$.
 
 In any set theory with the [[axiom of foundation]], the axiom of weak extensionality implies the axiom of strong extensionality. 
+
+#### Structural strong extensionality
+
+In any categorical set theory, the axiom of structural strong extensionality states that for all sets $A$ and $B$ with an injection $i:A \to B$, $i$ is a bijection if and only if for all elements $b \in B$, there is an element $a \in A$ such that $i(a) = b$. 
 
 ## See also
 
