@@ -23,6 +23,13 @@ On [[Functorial Semantics of Algebraic Theories]] generalized to [[relational th
 
 * [[Filippo Bonchi]], [[Dusko Pavlovic]], [[Pawel Sobocinski]], _Functorial Semantics for Relational Theories_, ([arXiv:1711.08699](https://arxiv.org/abs/1711.08699))
 
+## Related entries
+
+* [[quantum information theory via dagger-compact categories]]
+
+  * [[classical structure]]
+
+
 category: people
 
 [[!redirects Dusko Pavlovic]]
