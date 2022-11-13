@@ -18,21 +18,33 @@
 In the [most familiar sense](http://en.wikipedia.org/wiki/Coalgebra), a _coalgebra_ is just like an 
 [[associative algebra]], but with all the structure maps 'turned around' (a "[[co-monoid]]").   More precisely, fix a [[ground field]] $k$.   Then an **[[associative algebra]]** $A$ over $k$ is a [[vector space]] equipped with a multiplication
 
-$$m : A \otimes A \to A$$
+$$
+  m \colon A \otimes A \to A
+$$
 
 and a unit
 
-$$i : k \to A $$
+$$
+  i \colo k \to A 
+$$
 
-satisfying the [[associativity]] law and left/right [[unit laws]], which can be drawn as [[commutative diagrams]].   Similarly, a **coalgebra** $C$ is a vector space equipped with a **comultiplication** 
+satisfying the [[associativity]] law and left/right [[unit laws]], which can be drawn as [[commutative diagrams]].   
 
-$$\Delta : A \to A \otimes A $$
+[[formal duality|Dually]], a **coalgebra** $C$ is a vector space equipped with a **[[comultiplication]]** 
+
+$$
+  \Delta \colon A \to A \otimes A 
+$$
 
 and a **counit**
 
-$$ e: A \to k$$
+$$ 
+  e \colon A \to k
+$$
 
-satisfying the **coassociative** and left/right **counit** laws.  The commutative diagrams for these laws are obtained by taking the diagrams for the associative and left/right unit laws and turning all the arrows around.
+satisfying *[[co-associativity]]* and left/right *[[co-unitality]]* laws.  
+
+The [[commutative diagrams]] for these laws are obtained by taking the diagrams for the associative and left/right unit laws and turning all the arrows around.
 
 ![axioms](http://presheaf.com/cache/d1n601e593w4j122e1nrx3j1d3v68b.png)
 
