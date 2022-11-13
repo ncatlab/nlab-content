@@ -111,14 +111,16 @@ To show completeness of $fix(f)$, suppose given $S \subseteq fix(f)$, and let $s
 
 A virtual corollary of this theorem is the [[Cantor-Schroeder-Bernstein theorem]]. 
 
+
 ### Pataraia's theorem 
 
-The following significantly strengthens the Knaster-Tarski theorem, and is based on the notion of an **ipo** (inductive partial order; see Paul Taylor's book), i.e., a poset with a bottom element and admitting joins of [[direction|directed subsets]]. 
+The following significantly strengthens the [[Knaster-Tarski theorem]], and is based on the notion of an **ipo** (inductive partial order; see Paul Taylor's book), i.e., a poset with a bottom element and admitting joins of [[direction|directed subsets]]. 
 
-+-- {: .num_theorem}
-###### Theorem (Pataraia) 
+\begin{theorem}
+**(Pataraia)**
+\linebreak
 If $L$ is an ipo, then every monotone map $f \colon L \to L$ has a (least) fixed point. 
-=-- 
+\end{theorem}
 
 +-- {: .proof}
 ###### Proof 
@@ -145,15 +147,18 @@ One may mimic the last part of the proof of the Knaster-Tarski theorem to show t
 
 ### Initial algebras and final coalgebras 
 
-Various classical fixed-point theorems for monotone functions on posets can be "categorified" to give appropriate fixed-point theorems for endofunctors on categories. An example is that Kleene's fixed-point theorem generalizes to Adamek's fixed-point theorem: 
+Various classical fixed-point theorems for monotone functions on posets can be "[[categorification|categorified]]" to give appropriate fixed-point theorems for [[endofunctors]] on categories. An example is that [[Kleene's fixed-point theorem]] generalizes to [[Adamek's fixed-point theorem]]: 
 
 +-- {: .num_theorem} 
 ###### Theorem 
-Let $C$ be a category with an initial object $0$ and colimits of $\kappa$-directed diagrams for some regular cardinal $\kappa$, and suppose $F \colon C \to C$ preserves $\kappa$-directed colimits. Then $F$ has an initial algebra (which by Lambek's theorem is a fixed point of $F$). 
+
+Let $C$ be a [[category]] with an [[initial object] $0$ and [[colimits]] of $\kappa$-[[directed diagrams]] for some [[regular cardinal]] $\kappa$, and suppose $F \colon C \to C$ [[preserved colimit|preserves]] $\kappa$-[[directed colimits]]. Then $F$ has an [[initial algebra]] (which by Lambek's theorem is a fixed point of $F$). 
+
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
+
 Regarding $\kappa$ as an ordinal $\{\alpha \lt \kappa\}$ (hence a poset, hence a category), define a functor $G \colon \kappa \to C$ recursively: on objects, put $G(\emptyset) = 0$, $G(\alpha + 1) = F(G(\alpha))$, and $G(\beta) = colim_{\alpha \lt \beta} G(\alpha)$ for $\beta$ a limit ordinal. On morphisms $\alpha \lt \beta$, 
 
 * $G(\emptyset \lt \beta)$ is the unique map $0 \to G(\beta)$; 
