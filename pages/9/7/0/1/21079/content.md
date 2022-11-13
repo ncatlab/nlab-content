@@ -40,7 +40,9 @@ If one, more generally, replaces [[sets]] and a [[monoid]] with a [[monoidal cat
 
 ## Definition
 
-### In the category of sets
+
+### In Sets
+ {#DefinitionInSets}
 
 Let $M$ be a [[monoid]] with [[unit]] $e:1\to M$ and [[multiplication]] $\cdot:M\times M \to M$. The (left) **$M$-action monad** is a [[monad]] on [[Set]] where
 
@@ -63,7 +65,8 @@ The monad axioms follow from the monoid axioms for $M$.
 There exists an analogous monad for _right_ actions, whose endofunctor maps $X$ to $X\times M$.
 
 
-### In a general monoidal category
+### In any monoidal category
+ {#DefinitionInMonoidalCategory}
 
 More generally, let $(C,\otimes,1)$ be a [[monoidal category]].
 Let $M$ be a [[monoid object]] in $C$ with [[unit]] $e:1\to M$ and [[multiplication]] $\cdot:M\otimes M \to M$. The (left) **$M$-action monad** is a [[monad]] on $C$ where
@@ -108,6 +111,7 @@ This gives a way to talk about monoid and group [[actions]] [[internally]] to an
 
 
 ### Examples
+ {#Examples}
 
 * In the category of [[manifolds]] with their [[cartesian product]], an [[internal group]] is a [[Lie group]]. The algebras of the corresponding action monad are the manifolds equipped with the action of the Lie group, such as [[homogeneous spaces]]. 
 
@@ -125,31 +129,79 @@ This gives a way to talk about monoid and group [[actions]] [[internally]] to an
 * More generally, in an arbitrary [[symmetric monoidal category]], the action monad induced by tensoring with an [[internal monoid]] is commutative if and only the monoid object is commutative. (See for example [Brandenburg, Example 6.3.12](#Brandenburg2014).)
 * Any action monad canonically [[distributive law|distributes]] over a [[strong monad]] $T$, with the distributive law $M \otimes T X \to T(M\otimes X)$ induced by the strength.
 
-## In computer science
+## Examples
 
-The action monad in computer science is known under the name of **writer monad**. See also the *[[coreader comonad]]*. 
+### As logging-effect in computer science
+ {#AsLoggingEffectInComputerScience}
 
-A way to motivate this name is to look at its Kleisli morphisms.
+As a [[monad in computer science]], the action monad is known under the name of **writer monad**, since it encodes the computational effect of programs "writing logging messages" like into a [[stream]].
+
 The following explanation is taken from [Perrone, Example 5.1.14](#notesperrone).
 
-Let $M$ be a monoid, and let's write it additively. Denote by $T_M$ its _right_ writer monad. A Kleisli morphism of $T_M$ is a map $k:X\to Y\times M$. We can interpret it as a process which, when given an input $x\in X$, does not just produce an output $y\in Y$, but also an element of $M$. 
- For example, it could be energy released by a chemical reaction, or waste, or a cost of the transaction. In computer science, this is the behaviour of a function that computes a certain value, but that also writes into a log file (or to the standard output) that something has happened (the monoid operation being the concatenation of strings). For example, when you compile a tex document, a log file is produced alongside your output file. Hence the name "writer monad".
+Let $M$ be a [[monoid]], and let's write it additively. Denote by $T_M$ its _right_ writer monad. 
+
+A [[Kleisli morphism]] of $T_M$ is a [[morphism]] $k \colon X \to Y \times M$. We can interpret it as a process which, when given an input $x\in X$, does not just produce an output $y\in Y$, but also an element of $M$. 
+
+For example, it could be energy released by a chemical reaction, or waste, or a cost of the transaction. In [[computer science]], this is the behaviour of a function that computes a certain value, but that also writes into a log file (or to the standard output) that something has happened (the monoid operation being the concatenation of strings). For example, when you compile a TeX document, a log file is produced alongside your output file. Hence the name "writer monad".
  
- Let's now look at the Kleisli composition. If we have processes $k:X\to Y\times M$ and $h:Y\to Z\times M$, then $k\circ_{kl} Y:X\to Z\times M$ is given by
- \begin{tikzcd}[row sep=0, column sep=large, nodes={scale=1.25}]
-  X \ar{r}{k} & Y\times M \ar{r}{h\times \mathrm{id}_M} & Z\times M \times M \ar{r}{\mathrm{id}_X\times +} & Z\times M \\
-  x \ar[mapsto]{r} & (y,m) \ar[mapsto]{r} & (z,n,m) \ar[mapsto]{r} & (z, n+m) .
- \end{tikzcd}
- What it does is as follows:
+ Let's now look at the [[Kleisli composition]]. If we have processes $k \colon X \to Y\times M$ and $h \colon Y\to Z\times M$, then $k\circ_{kl} Y \colon X\to Z\times M$ is given by
+
+\begin{tikzcd}[row sep=0, column sep=large, nodes={scale=1.25}]
+  X 
+  \ar{r}{k} 
+  & 
+  Y \times M 
+  \ar{r}{h\times \mathrm{id}_M} 
+  & 
+  Z \times M \times M 
+  \ar{r}{\mathrm{id}_X\times +} 
+  & 
+  Z \times M 
+  \\
+  x \ar[mapsto]{r} 
+  & 
+  (y,m) 
+  \ar[mapsto]{r} 
+  & 
+  (z,n,m) 
+  \ar[mapsto]{r} 
+  & 
+  (z, n+m)
+  \mathrlap{\,.}
+\end{tikzcd}
+
+What it does is the following:
 
 1. It executes the process $k$ with an input $x\in X$, giving as output an element of $y\in Y$ as well as a cost (or extra output) $m\in M$.
+
 1. It executes the process $k$ taking as input the $y\in Y$ produced by $k$, giving an element $z\in Z$ as well as an extra cost $n\in M$. (All of this while keeping track of the first cost $m$.)
+
 1. The two costs $m$ and $n$ are summed (or the extra outputs are concatenated). 
 
 
- So, for example, the cost of executing two processes one after another is the sum of the costs. The same is true about the release of energy in a chemical reaction, and about waste. 
- Just as well, executing two programs one after another will produce a concatenation of text in a log file (or two log files).
+So, for example, the cost of executing two processes one after another is the sum of the costs. The same is true about the release of energy in a chemical reaction, and about waste. 
 
+Just as well, executing two programs one after another will produce a concatenation of text in a log file (or two log files).
+
+### Quantum measurement
+ {#QuantumMeasurement}
+
+For $B$ a [[finite set]], and fixing any [[ground field]] $k$ (such as the [[complex numbers]]), consider the [[commutative monoid]] in $k$-[[vector spaces]] (i.e. the ordinary [[commutative algebra]]) 
+
+$$
+  \mathbb{1}^B 
+    \;=\; 
+  \oplus_B k
+  \;\in\;
+  CMon\big(Vect_k\big)
+  \,=\,
+  CAlg_k
+$$
+
+which may be thought of as [[generators and relations|generated]] from a $B$-[[indexed set]] of mutually orthogonal [[projection operators]].
+
+Then the induxed $\mathbb{1}^B$-writer monad on $k$-[[VectorSpaces]] (in the sense [above](#DefinitionInMonoidalCategory)) is [[isomorphism|isomorphic]] to the linear version of the $B$-[[reader monad]].
+This is related to the notion of [[quantum measurement]], and as such is discussed at: *[[quantum reader monad]]*. 
 
 
 
