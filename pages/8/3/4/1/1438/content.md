@@ -50,7 +50,7 @@ If $F$ has an initial algebra $\alpha: F(X) \to X$, then $X$ is [[isomorphism|is
 +-- {: .num_remark}
 ###### Remark
 
-In this sense, $X$ is a fixed point of $F$.  Being initial, $X$ is the *smallest* fixed point of $F$ in that there is a map from $X$ to any other fixed point (indeed, any other algebra), and this map is an [[injection]] if $C$ is [[Set]]. 
+In this sense, $X$ is a [[fixed point]] of $F$.  Being initial, $X$ is the *smallest* fixed point of $F$ in that there is a map from $X$ to any other fixed point (indeed, any other algebra), and this map is an [[injection]] if $C$ is [[Set]]. 
 =--
 
 +-- {: .num_remark}
@@ -210,8 +210,10 @@ The relation to [[free monads]] is discussed in
 Original references on initial algebras include
 
 * {#Pohlova} Věra Pohlová. "On sums in generalized algebraic categories." Czechoslovak Mathematical Journal 23.2 (1973): 235-251. <http://eudml.org/doc/12718>.
-* Jiří Adámek. "Free algebras and automata realizations in the language of categories." Commentationes Mathematicae Universitatis Carolinae 15.4 (1974): 589-602.
-* Jiří Adámek, Věra Trnková. Automata and algebras in categories. Vol. 37. Springer Science & Business Media, 1990.
+
+* [[Jiří Adámek]], *Free algebras and automata realizations in the language of categories*, Commentationes Mathematicae Universitatis Carolinae 15.4 (1974): 589-602.
+
+* [[Jiří Adámek]], Věra Trnková, *Automata and algebras in categories* Vol. 37. Springer Science & Business Media, 1990.
 
 
 [[!redirects initial algebras of an endofunctor]]
