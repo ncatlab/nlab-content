@@ -73,9 +73,7 @@ The collection of  [[h-sets]] in [[homotopy type theory]] constitute a [[ΠW-pre
 
 * [[material-structural adjunction]]
 
-* [[categorical set theory]]
-
-* [[allegorical set theory]]
+* [[categorical set theory]], [[allegorical set theory]]
 
 ## References ##
 
