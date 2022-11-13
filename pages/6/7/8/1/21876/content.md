@@ -8,6 +8,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {:toc}
@@ -17,8 +18,9 @@
 Regular languages are a simple kind of [[formal grammar|formal languages]], the least expressive in the [[Chomsky hierarchy]].
 
 ## Definition
+ {#Definition}
 
-Fix a finite vocabulary $V$ and denote its [[free monoid]] by $V^\star$. A [[language]] $L \subseteq V^\star$ is *regular* whenever there is a [[formal grammar]] $G = (V, X, R, s)$ that generates it (i.e. $L(G) = L$) such that all rules in $R$ are of the form $x \to w x'$ for a terminal $w \in V$ and non-terminal symbols $x, x' \in X$.
+Fix a [[finite set]] $V$ (serving as the [[alphabet]]) and denote its [[free monoid]] by $V^\star$. A [[language]] $L \subseteq V^\star$ is *regular* whenever there is a [[formal grammar]] $G = (V, X, R, s)$ that generates it (i.e. $L(G) = L$) such that all rules in $R$ are of the form $x \to w x'$ for a terminal $w \in V$ and non-terminal symbols $x, x' \in X$.
 
 ## Properties
 
