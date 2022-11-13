@@ -46,12 +46,11 @@ $$
 If $C$ may lack some finite limits, then we may weaken that condition as follows:
 
 *  If $C$ has all [[pullbacks]] (but may lack products), then equip each of $\in_c$ and $r$ with a jointly monic pair of morphisms, one to $c$ and one to $\Omega^c$ or $d$, in place of the single monomorphism to the product of these targets; $r$ must then be the joint pullback
+
    $$ \array {
-   r          & \rightarrow     & d \\
-   \downarrow & \searrow        &            & \searrow^{\chi_r} \\
-   c          &                 & \in_c      & \rightarrow       & \Omega^c \\
-              & \searrow^{Id_c} & \downarrow \\
-              &                 & c
+   & c          & \leftarrow    & r & \rightarrow & d &  \\
+   Id_c & \downarrow & & \downarrow & & \downarrow & \chi_r \\
+   & c          & \leftarrow      & \in_c      & \rightarrow       & \Omega^c & \\
    } $$
 
 *  If $C$ may lack some pullbacks, then we simply require that the pullback that $r$ is to equal must exist.  But arguably we should require, if $\Omega^c$ is to be a power object, that this pullback exists for any given map $\chi: d \to \Omega^c$.
