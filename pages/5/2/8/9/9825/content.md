@@ -115,6 +115,10 @@ Namely -- by the [above](#Definition) -- a quantum measurement is formally refle
 
 * [[deferred measurement principle]]
 
+* [[Bell's inequality]]
+
+* [[no-cloning theorem]]
+
 * [[quantum reader monad]]
 
 * [[quantum state preparation]]
@@ -123,7 +127,6 @@ Namely -- by the [above](#Definition) -- a quantum measurement is formally refle
 
 * [[decoherence]]
 
-* [[Bell's inequality]]
 
 * [[quantum probability]]
 
