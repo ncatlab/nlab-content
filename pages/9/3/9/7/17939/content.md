@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -23,11 +22,19 @@ This is also a special case of the [[Lefschetz fixed point theorem]], see [there
 
 ## Related theorems
 
+* [[fixed point]]
+
 * [[topological invariance of dimension]]
 
 * [[Tietze extension theorem]]
 
 * [[Lefschetz fixed point theorem]]
+
+* [[Lawvere's fixed point theorem]]
+
+* [[Kleene's fixed point theorem]]
+
+* [[Atiyah-Bott fixed point formula]]
 
 ## References
 
