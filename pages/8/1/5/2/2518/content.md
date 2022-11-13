@@ -52,18 +52,24 @@ Therefore structural set theory is also called **categorial set theory**.
 
 Another structural set theory, which is stronger than ETCS (since it includes the axiom of collection by default) and also less closely tied to category theory, is [[SEAR]].
 
-### Setoids
+### Structural ZFC
 
-Set theory set up in [[extensional type theory|extensional]] [[intuitionistic type theory]] via [[setoids]] is structural.
+One could reformulate [[ZFC]] as a three-sorted or dependently sorted [[structural set theory]] consisting of [[sets]], [[elements]], [[functions]], and structural versions of the 10 standard [[ZFC]] axioms. This set theory is called [[structural ZFC]]. 
+
+It should also be possible to create an [[allegory|allegorical]] version of ZFC, but nobody has done so yet. 
 
 ### Local set theory
 
 Local set theory avoids the use of any global universe but instead is formulated in a many-sorted language that has various forms of sorts including, for each sort a power-sort; see [Bell](#Bell) and [Aczel](#Aczel).
 
+### Setoids
+
+Set theory set up in [[extensional type theory|extensional]] [[intuitionistic type theory]] via [[setoids]] is structural.
+
 ### Homotopy-sets in homotopy type theory
   {#InHomotopyTypeTheory}
 
-The collection of  [[h-sets]] in [[homotopy type theory]] constitute a [[ΠW-pretopos]], hence a structural set theory ([Rijke-Spitters 13](#RijkeSpitter13)). 
+The collection of  [[h-sets]] in [[homotopy type theory]] constitute a [[ΠW-pretopos]], hence a structural set theory ([Rijke-Spitters 13](#RijkeSpitter13)). If the type theory also has a [[type of all propositions]], then the collections of [[h-sets]] constitute an [[elementary topos]]. 
 
 ## Related Pages
 
@@ -83,7 +89,6 @@ A textbook that introduces the [[foundations of mathematics]] informally via str
 
 The formal account of [[ETCS]] originates with
 
-
 * {#Lawvere65} [[William Lawvere]], _An elementary theory of the category of sets_, Proceedings of the National Academy of Science of the U.S.A **52** pp.1506-1511 (1965). ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC300477/pdf/pnas00186-0196.pdf))
 
 Structural set theory found in [[homotopy type theory]] is discussed in
@@ -97,7 +102,6 @@ which became one chapter in
 Relation to [[material set theory]] is discussed in
 
 * {#Shulman18} [[Michael Shulman]], _Comparing material and structural set theories_ ([arXiv:1808.05204](https://arxiv.org/abs/1808.05204))
-
 
 See also
 
