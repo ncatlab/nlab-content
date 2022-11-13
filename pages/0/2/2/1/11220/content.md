@@ -2,9 +2,11 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Stephen_Cole_Kleene)
 
-## Related $n$Lab entries
+## Related entries
 
 * [[realizability]]
+
+* [[Kleene fixed point theorem]]
 
 
 category: people
