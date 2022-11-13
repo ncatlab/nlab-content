@@ -49,13 +49,15 @@ Discussion of [[DisCoPy]]:
 * Giovanni de Felice, [[Alexis Toumi]], [[Bob Coecke]]. _DisCoPy: Monoidal Categories in Python_. Applied Category Theory, 2020. ([arXiv:2005.02975l](https://arxiv.org/abs/2005.02975l))
 
 
-## Related $n$Lab entries
+## Related entries
 
-* [[quantum mechanics in terms of dagger-compact categories]]
+* [[quantum information theory via dagger-compact categories]]
 
   * [[dagger-category]]
 
-* [[quantum information]]
+  * [[classical structure]]
+
+* [[quantum information theory]]
 
 
 category: people
