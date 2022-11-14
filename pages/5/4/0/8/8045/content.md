@@ -16,7 +16,7 @@
 ## Overview
 
 __Material set theory__ (also called _membership-based set
-theory_) is a style of [[set theory]] with a primitive global membership relation "$\in$" where sets are characterized only by "$\in$" and [[propositional equality]] of sets. (The terminology 'material', or at least 'materialistic', goes back at least to [Friedman 1997](#Friedman1997).) Material set theory contrasts with *[[structural set theory]]* (cf. *[[material versus structural set theory]]*), as well as with set theories which are neither structural nor material. Material set theories can either be [[unsorted set theories]] or [[two-sorted set theories]]. 
+theory_) is a style of [[set theory]] with a primitive global membership relation "$\in$" where sets are characterized only by "$\in$" and [[propositional equality]] of sets. (The terminology 'material', or at least 'materialistic', goes back at least to [Friedman 1997](#Friedman1997).) Material set theory contrasts with *[[structural set theory]]* (cf. *[[material versus structural set theory]]*), as well as with set theories which are neither structural nor material. Material set theories are [[simple type theory|simply sorted]] [[set theory]]. 
 
 ## Related concepts
 
@@ -28,7 +28,7 @@ theory_) is a style of [[set theory]] with a primitive global membership relatio
 
 * [[set-theoretic multiverse]]
 
-* [[material versus structural]]
+* [[material versus structural set theory]]
 
 ## References
 
