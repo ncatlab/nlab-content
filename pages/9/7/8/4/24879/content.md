@@ -20,7 +20,7 @@ In this article we introduce a [[structural set theory]] consisting of three bas
 
 We work in a [[first-order logic]] with [[equality]]. In structural ZFC, there are three basic primitives, **[[sets]]** $A$, **[[elements]]** $a$, and **[[functions]]** $f$. In addition, there is
 
-* A **membership relation** $a \in A$ between elements $a$ and sets $A$ which says that element $a$ is in the set $A$
+* A **[[membership relation]]** $a \in A$ between elements $a$ and sets $A$ which says that element $a$ is in the set $A$
 
 * A ternary relation $f:A \to B$ between functions $f$ and sets $A$ and $B$ which says that function $f$ has **[[domain]]** $A$ and **[[codomain]]** $B$. 
 
