@@ -30,16 +30,26 @@
 ## Overview
  {#Overview}
 
-| flavor of type theory  | $\;$equivalent to$\;$ | flavor of category theory | |
+| internal logic/type theory (syntax) | $\;$equivalent to$\;$ | category of contexts (semantics) | |
 |--|--|--|--|
-[[intuitionistic logic|intuitionistic]] [[propositional logic]]/[[simply-typed lambda calculus]] | | [[cartesian closed category]] | |
-[[multiplicative intuitionistic linear logic]] | | symmetric [[closed monoidal category]] | ([various authors since ~68](linear%20type%20theory#HistoryCategoricalSemantics)) | 
-|[[first-order logic]] |  | [[hyperdoctrine]] | ([Seely 1984a](#SeelyA)) |
-[[classical linear logic]] | | [[star-autonomous category ]] | ([Seely 89](#Seely89)) |
-|extensional [[dependent type theory]]|  | [[locally cartesian closed category]] | ([Seely 1984b](#Seely)) |
-|[[homotopy type theory]] without [[univalence]] (intensional M-L dependent type theory) |  | [[locally cartesian closed (∞,1)-category]] | ([Cisinski 12](locally+cartesian+closed+%28infinity%2C1%29-category#Presentations)-([Shulman 12](#Shulman12)) |
-|[[homotopy type theory]] with [[higher inductive types]] and [[univalence]] |  | [[elementary (∞,1)-topos]] | see [[homotopytypetheory:model of type theory in an (infinity,1)-topos|here]] |
+| [[propositional logic]] | | [[Lindenbaum-Tarski algebra]] | |
+| [[intuitionistic logic|intuitionistic]] [[propositional logic]] | | [[Heyting algebra]] | |
+| [[classical logic|classical]] [[propositional logic]] | | [[Boolean algebra]] | |
+| [[dual intuitionistic logic|dual intuitionistic]] [[propositional logic]] | | [[co-Heyting algebra]] | |
+| [[first-order logic]] |  | [[hyperdoctrine]] | ([Seely 1984a](#SeelyA)) |
+| [[regular logic]] |  | [[regular hyperdoctrine]]/[[regular category]] | |
+| [[coherent logic]] |  | [[coherent hyperdoctrine]]/[[coherent category]] | |
+| [[intuitionistic logic|intuitionistic]] [[predicate logic]] |  | [[first-order hyperdoctrine]]/[[Heyting category]] | |
+| [[classical logic|classical]] [[predicate logic]] |  | [[Boolean hyperdoctrine]]/[[Boolean category]] | |
+| [[modal logic]] |  | [[modal hyperdoctrine]] | |
+| [[linear logic]] |  | [[linear hyperdoctrine]] | |
+| [[simply-typed lambda calculus]] | | [[cartesian closed category]] | |
+| extensional [[dependent type theory]]|  | [[locally cartesian closed category]] | ([Seely 1984b](#Seely)) |
+| [[homotopy type theory]] without [[univalence]] (intensional M-L dependent type theory) |  | [[locally cartesian closed (∞,1)-category]] | ([Cisinski 12](locally+cartesian+closed+%28infinity%2C1%29-category#Presentations)-([Shulman 12](#Shulman12)) |
+| [[homotopy type theory]] with [[higher inductive types]] and [[univalence]] |  | [[elementary (∞,1)-topos]] | see [[homotopytypetheory:model of type theory in an (infinity,1)-topos|here]] |
 | [[dependent linear type theory]] |   | [[indexed monoidal category]] (with comprehension)  | ([V&#225;k&#225;r 14](#Vakar14)) |  
+| [[multiplicative intuitionistic linear logic]] | | symmetric [[closed monoidal category]] | ([various authors since ~68](linear%20type%20theory#HistoryCategoricalSemantics)) | 
+| [[classical linear logic]] | | [[star-autonomous category ]] | ([Seely 89](#Seely89)) |
 
 [[!include types and logic - table]]
 
