@@ -16,46 +16,42 @@
 ## Overview
 
 __Material set theory__ (also called _membership-based set
-theory_) is a style of [[set theory]] that contrasts with [[structural set theory]]. (The terminology 'material', or at least 'materialistic', goes back at least to [Friedman 1997](#Friedman1997).) In contrast to structural set theory, the elements in material set theory have internal structure and/or the sets in material set theory are internal structure. Material set theories can either be [[unsorted set theories]] or [[two-sorted set theories]]. 
+theory_) is a style of [[set theory]] that contrasts with [[structural set theory]]. (The terminology 'material', or at least 'materialistic', goes back at least to [Friedman 1997](#Friedman1997).) Material set theories can either be [[unsorted set theories]] or [[two-sorted set theories]]. 
 
-### Unsorted material set theories
+There are a number of proposals to formally distinguish between material set theories and structural set theories.  
 
-Both unsorted material set theories like [[ZFC]] and [[ZFA]] and unsorted structural set theories like [[fully formal ETCS]] have a global membership relation on the theory (and fully formal ETCS has multiple global membership relations). This means that merely having a global membership relation is not sufficient for an unsorted set theory to be a material set theory. 
+### Material set theories as set theories with a homogeneous membership relation
 
-In order to define what a material set theory, we need to define what it it means for elements, however defined, to have internal structure, and for sets, however defined, to be an internal structure of some other object, via the structure of the membership [[graphs]] of the global membership relations on the theory. An element $e$ **has internal structure** if there exists an object $a$ such that $a \in e$, and an set $S$ **is an internal structure** if there exists an object $a$ such that $S \in a$. 
+One proposed difference between material set theory and structural set theory is that material set theories have a global membership relation. 
 
-$$\mathrm{hasInternalStructure}(e) \coloneqq \mathrm{isElement}(e) \wedge \exists a.a \in e$$
-$$\mathrm{isInternalStructure}(S) \coloneqq \mathrm{isSet}(S) \wedge \exists a.S \in a$$
+From one point of view, this is not sufficient for a set theory to be a material set theory, since unsorted set theories such as [[fully formal ETCS]] also have a global membership relation and should be a structural set theory, since it is based in [[category theory]]. Making the global membership relation primitive is not enough either, since one could make the global membership relation a primitive in fully formal ETCS as well, and replace the definition with an axiom stating a logical equivalence between the global membership relation and what would have been its definition: 
 
-If an unsorted set theory only has one membership relation, then an unsorted set theory is a **material set theory** if there exists an element $e$ which has internal structure or a set $S$ which is an internal structure, and an unsorted set theory is a **[[structural set theory]]** if for all elements $e$, $e$ does not have internal structure, and for all sets $S$, $S$ is not an internal structure. 
+* for every function $f$ and $g$, a relation $f \in g$, 
+* axiom: for every function $f$ and $g$, $f \in g$ if and only if $s(f) = 1$, $s(g) = 0$, and $t(f) = t(g)$. 
 
-$$\mathrm{isMaterial} \coloneqq \exists a.(\mathrm{hasInternalStructure}(a) \vee \mathrm{isInternalStructure}(a))$$
+This is similar to how in [[ZFC]] one could take [[equality]] to be a primitive or a defined concept via the [[axiom of extensionality]]. 
 
-$$\mathrm{isStructural} \coloneqq \forall a.(\neg\mathrm{hasInternalStructure}(a) \wedge \neg\mathrm{isInternalStructure}(a))$$
+However, the article on [[structural set theory]] states the following: 
 
-If an unsorted set theory has multiple membership relations, the unsorted set theory is a **structural set theory** if there exists a membership relation $\in$ for which for all elements $e$, $e$ does not have internal structure, and for all sets $S$, $S$ is not an internal structure. An unsorted set theory is a **material set theory** if for all membership relations $\in$, there exists an element $e$ which has internal structure or a set $S$ which is an internal structure. 
+> *Structural set theory* provides a [[foundation of mathematics]] which is free of this "superfluous baggage" attendant on theories such as ZF, in which there is lots of information such as whether or not $3\in 17$ (yes, says von Neumann; no, says Zermelo) which is never used in mathematics. In a structural set theory, the elements (such as $3$) of a set (such as $\mathbb{N}$) *have* no identity apart from their existence as elements of that set, and whatever structure is given to that set by the functions and relations placed upon it.  
 
-Thus, a theory like [[ZFC]] is a material set theory because sets and elements are the same, and thus all elements have internal structure and all sets are internal structure. The same is true of any theory of [[pure sets]], such as [[New Foundations]]. In a theory with non-set [[urelements]] such as [[ZFA]], every object in the theory is an element, and while urelements do not have internal structure, there exist other elements which do have internal structure, namely those elements which are sets. 
+In any set theory with a [[homogeneous membership relation]], such as [[fully formal ETCS]], there is such information such as whether or not $3 \in 17$, or $1 \in 1$, since sets and elements are in the same sort and thus can be compared for membership. In fact, depending on the definition of [[set]] in [[fully formal ETCS]], the [[identity morphism]] of a [[singleton]] could be a [[Quine atom]] with respect to the defined membership relation $\in$, since it represents both a set and an element; this is the "superfluous baggage" from which structural set theory should be free of. From this point of view, any set theory with a [[homogeneous membership relation]] is *not* a structural set theory, and thus a material set theory. 
 
-In contrast, [[fully formal ETCS]] is not a material set theory, since there exists a global membership relation where every element does not have internal structure and every set is not internal structure, namely the predicate $\mathrm{isSet}$ defined as 
-$$\mathrm{isSet}(a) \coloneqq s(b) = 0$$
-and the relation $\in$ defined by 
-$$a \in b \coloneqq s(a) = 1 \wedge \mathrm{isSet}(a) \wedge t(a) = t(b)$$
-where the constant primitive $1$ is the identity morphism of the terminal object and the constant primitive $0$ is the identity morphism of the initial object. 
+Finally, there is an argument following the [[principle of equivalence]] that sets and elements should be in fundamentally different sorts in [[structural set theory]], since the structural notion of sameness of elements is equality, while the structural notion of sameness of sets is [[bijection]]. Since in any set theory where sets and elements are in the same sort, sets can be compared for equality, any such set theory is not a structural set theory. 
 
-#### Alternate definition
+### Material set theory as set theory whose elements have internal structure
 
-The above definition states that in an unsorted structural set theory, [[Quine atoms]] cannot exist. An alternative definition allows for Quine atoms to exist in an unsorted structural set theory. In unsorted structural set theories, each connected component of the membership graph is either an edgeless vertex, a rooted [[tree]] whose children are all leaves, or possibly a vertex with a single loop:
+Another proposed difference between material set theory and structural set theory is that in material set theory, [[elements]] have some notion of "internal structure" and/or [[sets]] are the "internal structure" of some other object in the theory, while in structural set theory, elements do not have internal structure and sets are not the internal structure of other objects. Both could be defined by the membership relation of the theory and distinguished via structure of the membership [[graphs]] of the membership relations, and thus one distinguishes between [[material membership relations]] and [[structural membership relations]]. 
 
-* the edgeless vertex represents the [[empty set]], as well as any non-set non-element objects in the set theory 
+A set theory with a [[homogeneous membership relation]] is a **[[material set theory]]** if it has a material membership relations, and it is a **[[structural set theory]]** if it has a structural membership relation. If the set theory has multiple homogeneous membership relations, the set theory is a **structural set theory** if there exists a structural membership relation, and the set theory is a **material set theory** if every homogeneous membership relation $\in$ is a [[material membership relation]]. 
 
-* the root of the rooted tree represents a set with more than one element, as well as the [[singleton]] in presentations of unsorted structural set theories where the singleton is different from the element in the singleton. The children leaves of the root represent the elements of the set. 
+However, there are multiple distinct proposed definitions of material and structural membership relations. In addition, this proposal only works if the set theory has a [[homogeneous membership relations]], and there exist material set theories which have [[heterogeneous membership relations]], where sets and elements are in fundamentally different sorts. 
 
-* the vertex with a single loop represents a [[Quine atom]] with respect to the membership relation $\in$, which occur in some definitions of sets in structural set theories, such as defining sets as [[identity functions]] or as functions with [[singleton]] [[codomain]], where the [[singleton]] is always a [[Quine atom]]. 
+### Other
 
-Unsorted material set theories are then those unsorted set theories whose membership graphs have more complex structure than those of unsorted structural set theories. 
+A third proposed difference between material set theory and structural set theory is the difference between the primitives of the two theories. Material set theory takes [[sets]] or [[elements]] to be the primitive concepts, while structural set theory takes [[functions]] or [[relations]] to be the primitive concepts.  
 
-### Two-sorted material set theories
+## Two-sorted material set theories
 
 In two-sorted material set theories, there are separate sorts $Set$ and $Element$ representing all sets and all elements respectively, as well as a global membership relation $\in$ defined as 
 $$a:Element, A:Set \vdash a \in A prop$$ 
@@ -71,6 +67,8 @@ Sets are not literally elements in two-sorted material set theories. Instead, th
 * [[two-sorted set theory]]
 
 * [[set-theoretic multiverse]]
+
+* [[material versus structural]]
 
 ## References
 
