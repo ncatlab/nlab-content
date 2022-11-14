@@ -5,7 +5,7 @@
 
 ## Idea
 
-An automaton is an abstract concept of machine, modelled as a collection of states and transitions between states, together with an assignment of some external behavior (typically input and/or output) to these transitions.  A quintessential example of an automaton is a vending machine, which can be in any number of different states (e.g., "READY", "INSERT 2 TOKENS", "OUT OF SERVICE", etc.), and will transition between these states in response to user input (e.g., from "READY" to "INSERT 2 TOKENS" after the user makes a selection, and from "INSERT 2 TOKENS" to "INSERT 1 TOKEN" after the user inserts a token).
+An *automaton* is an abstract concept of machine, modelled as a collection of states and transitions between states, together with an assignment of some external behavior (typically input and/or output) to these transitions.  A quintessential example of an automaton is a vending machine, which can be in any number of different states (e.g., "READY", "INSERT 2 TOKENS", "OUT OF SERVICE", etc.), and will transition between these states in response to user input (e.g., from "READY" to "INSERT 2 TOKENS" after the user makes a selection, and from "INSERT 2 TOKENS" to "INSERT 1 TOKEN" after the user inserts a token).
 
 Many different notions of automaton exist in the literature.  For now this article only considers one fairly basic notion taken from [[Joy of Cats]], although it is by no means the simplest nor the most general.
 
@@ -67,6 +67,11 @@ which take a more nPOV of automata theory.
 * [[Jiri Adamek]], [[Horst Herrlich]], [[George Strecker]], _Abstract and concrete categories: the joy of cats_. [free online](http://katmat.math.uni-bremen.de/acc/acc.pdf)
 
 * [[Mark V. Lawson]], _[Finite automata](http://www.ma.hw.ac.uk/~markl/books.html)_, CRC Press, see also [here](http://www.ma.hw.ac.uk/~markl/teaching/AUTOMATA/kleene.pdf) for a shorter version in the form of Course Notes.
+
+* [[Jiří Adámek]], *Free algebras and automata realizations in the language of categories*, Commentationes Mathematicae Universitatis Carolinae **15**.4 (1974) 589-602 &lbrack;[eudml:16649](https://eudml.org/doc/16649)&rbrack;
+
+* [[Jiří Adámek]], Věra Trnková, *Automata and algebras in categories* **37** Springer (1990) &lbrack;[ISBN:9780792300106](https://link.springer.com/book/9780792300106)&rbrack;
+
 
 * Liang-Ting Chen, Henning Urbat, _A fibrational approach to automata theory_, [arxiv/1504.02692](http://arxiv.org/abs/1504.02692)
 
