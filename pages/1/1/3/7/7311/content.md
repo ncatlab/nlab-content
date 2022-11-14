@@ -10,6 +10,18 @@
 +-- {: .hide}
 [[!include modalities - contents]]
 =--
+#### Deduction and Induction
++-- {: .hide}
+[[!include deduction and induction - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Induction
++-- {: .hide}
+[[!include induction - contents]]
+=--
 =--
 =--
 
@@ -21,7 +33,45 @@
 
 In a [[locally ∞-connected (∞,1)-topos]] with [[full and faithful (∞,1)-functor|fully faithful]] [[inverse image]] (such as a [[cohesive (∞,1)-topos]]), the extra [[left adjoint]] $\Pi$ to the [[inverse image]] $Disc$ of the [[global sections]] [[geometric morphism]] $\Gamma$ induces a  [[higher modality]] $\esh \coloneqq Disc \circ \Pi$, which sends an [[object]] to something that may be regarded equivalently as its [[geometric realization]] or its [[fundamental ∞-groupoid]] (see at _[[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos]]_ and at _[[shape via cohesive path ∞-groupoid]]_). In either case $\esh X$ may be thought of as the _[[shape]]_ of $X$ and therefore one may call $\esh$ the _shape modality_.  It forms an [[adjoint modality]] with the [[flat modality]] $\flat \coloneqq Disc \circ \Gamma$.
 
+## Definition
 
+### In type theory
+
+We assume a [[dependent type theory]] with crisp term judgments $a::A$ in addition to the usual (cohesive) type and term judgments $A \; \mathrm{type}$ and $a:A$, as well as context judgments $\Xi \vert \Gamma \; \mathrm{ctx}$ where $\Xi$ is a list of crisp term judgments, and $\Gamma$ is a list of cohesive term judgments. A crisp type is a type in the context $\Xi \vert ()$, where $()$ is the empty list of cohesive term judgments. In addition, we also assume the dependent type theory has [[typal equality]] and [[judgmental equality]], as well as [[axiom C0]]. 
+
+From here, there are two different notions of the shape modality which could be defined in the type theory, the **strict shape modality**, which uses [[judgmental equality]] in the [[computation rule]] and [[uniqueness rule]], and the **weak shape modality**, which uses [[typal equality]] in the [[computation rule]] and [[uniqueness rule]]. When applied to a type they result in **strict shape types** and **weak shape types** respectively. The [[natural deduction]] rules for strict and weak shape types are provided as follows:
+
+* Formation rules for weak and strict shape types:
+
+$$\frac{\Xi, \Gamma \vert () \vdash A \; \mathrm{type}}{\Xi \vert \Gamma \vdash \esh A \; \mathrm{type}}\esh-\mathrm{form}$$
+
+* Introduction rules for weak and strict shape types:
+
+$$\frac{\Xi, \Gamma \vert () \vdash a:A}{\Xi \vert \Gamma \vdash \sigma_A(a):\esh A}\esh-\mathrm{intro}1$$
+
+$$\frac{\Xi, \Gamma \vert () \vdash j:I \quad \Xi, \Gamma \vert () \vdash g:R[j/i] \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R[j/i]}{\Xi \vert \Gamma \vdash k_A(j, g):\esh A}\esh-\mathrm{intro}2$$
+
+$$\frac{\Xi, \Gamma \vert () \vdash j:I \quad \Xi, \Gamma \vert () \vdash g:R[j/i] \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R[j/i]}{\Xi \vert \Gamma \vdash \iota_A(g, x):g(x) =_{\esh A} k_A(j, g)}\esh-\mathrm{intro}3$$
+
+$$\frac{\Xi, \Gamma \vert () \vdash j:I \quad \Xi, \Gamma \vert () \vdash g:R[j/i] \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R[j/i]}{\Xi \vert \Gamma \vdash k_A'(j, g):\esh A}\esh-\mathrm{intro}4$$
+
+$$\frac{\Xi, \Gamma \vert () \vdash j:I \quad \Xi, \Gamma \vert () \vdash x:R[j/i]}{\Xi \vert \Gamma \vdash \iota_A'(x):x =_{\esh A} k_A'(j, \mathrm{const}_A(x))}\esh-\mathrm{intro}5$$
+
+* Elimination rules for weak and strict shape types:
+
+$$\frac{\Xi \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi \vert \Gamma, w:\esh A \vdash Q \; \mathrm{type} \quad \Xi \vert \Gamma \vdash x:A}{\Xi \vert \Gamma \vdash d_{\sigma_A}(x):Q[\sigma_A(x)/w]}\esh-\mathrm{elim}1$$
+
+...
+
+* Computation rules for weak and strict shape types:
+
+$$\frac{\Xi \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi \vert \Gamma, w:\esh A \vdash Q \; \mathrm{type} \quad \Xi \vert \Gamma \vdash x:A \quad \Xi \vert \Gamma, y:\esh A \vdash f:Q}{\Xi \vert \Gamma \vdash f[\sigma_A(x)/y] \equiv d_{\sigma_A}(x):Q[\sigma_A(x)/w]}\esh-\mathrm{comp}\mathrm{strict}1$$
+
+$$\frac{\Xi \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi \vert \Gamma, w:\esh A \vdash Q \; \mathrm{type} \quad \Xi \vert \Gamma \vdash x:A \quad \Xi \vert \Gamma, y:\esh A \vdash f:Q}{\Xi \vert \Gamma \vdash \beta_\esh^1(x):f[\sigma_A(x)/y] =_{Q[\sigma_A(x)/w]} d_{\sigma_A}(x)}\esh-\mathrm{comp}\mathrm{weak}1$$
+
+...
+
+The shape modality is an example of a [[higher inductive type]]. Weak shape modalities are primarily used in cohesive [[objective type theories]], while strict shape modalities are typically used in cohesive type theories with [[judgmental equality]], such as cohesive [[Martin-Löf type theory]] ([[cohesive homotopy type theory]] or cohesive [[higher observational type theory]]. 
 
 ## Properties
 
