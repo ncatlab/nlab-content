@@ -45,6 +45,8 @@ This approach can be generalized to the [[transfinite construction of free algeb
 
 ## Related entries
 
+* [[fixed point]]
+
 * [[Kleene's fixed point theorem]] is precisely the [[de-categorification]] of this theorem to [[posets]]/[[preorders]].
 
 * [[Knaster-Tarski's fixed point theorem]]
@@ -57,11 +59,15 @@ This approach can be generalized to the [[transfinite construction of free algeb
 
 * [[Atiyah-Bott fixed point formula]]
 
-* [[fixed point]]
+
 
 
 ## References
 
-* {#Pohlova} Věra Pohlová. "On sums in generalized algebraic categories." Czechoslovak Mathematical Journal 23.2 (1973): 235-251. <http://eudml.org/doc/12718>.
-* Jiří Adámek. "Free algebras and automata realizations in the language of categories." Commentationes Mathematicae Universitatis Carolinae 15.4 (1974): 589-602.
-* Jiří Adámek, Věra Trnková. Automata and algebras in categories. Vol. 37. Springer Science & Business Media, 1990.
+* {#Pohlova} Věra Pohlová. "On sums in generalized algebraic categories." Czechoslovak Mathematical Journal **23**.2 (1973) 235-251 &lbrack;[eudml:12718](http://eudml.org/doc/12718)&rbrack;
+
+* [[Jiří Adámek]], *Free algebras and automata realizations in the language of categories*, Commentationes Mathematicae Universitatis Carolinae **15**.4 (1974) 589-602 &lbrack;[eudml:16649](https://eudml.org/doc/16649)&rbrack;
+
+* [[Jiří Adámek]], Věra Trnková, *Automata and algebras in categories* **37** Springer (1990) &lbrack;[ISBN:9780792300106](https://link.springer.com/book/9780792300106)&rbrack;
+
+[[!redirects Adamek's fixed point theorem]]
