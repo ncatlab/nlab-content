@@ -525,10 +525,14 @@ By [[formal duality]]:
   * A co-Kleisli co-module for a comonad $\mathcal{C}$ is a program 
 
     $$
-      caus^{\mathcal{C}}_D id_D \;\colon\; D \to \mathcal{C}(D)
+      prvd^{\mathcal{C}}_D id_D \;\colon\; D \to \mathcal{C}(D)
     $$
 
-    *causing* such $\mathcal{C}$-contexts.
+    *producing* or *providing* such $\mathcal{C}$-contexts.
+
+     (cf. &lbrack;[Uustalu (2021), Lect. 3, slide 9](#Uustalu21Lecture3)&rbrack;)
+
+      
 
 
 (...)
