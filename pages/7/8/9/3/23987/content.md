@@ -279,7 +279,16 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
   > {#PachosRefNov22} &lbrack;1&rbrack; [[Jiannis K. Pachos]], *Introduction to Topological Quantum Computation*, Cambridge University Press (2012) $[$[doi:10.1017/CBO9780511792908]( https://doi.org/10.1017/CBO9780511792908)$]$
 
+\linebreak
 
+* 14 Nov 2022
+  {#ValeraNov2022}
+
+  [[Sachin Valera]] (NYU Abi Dhabi, [[CQTS]]):
+
+  **A Quick Introduction to the Algebraic Theory of Anyons** (Part II)
+
+  > on [[anyon]] [[braid representation|braiding]] described by [[braided fusion categories]]
 
 
 
