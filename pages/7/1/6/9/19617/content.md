@@ -5,7 +5,7 @@
 ## Position
 
 Postdoc researcher in Mathematical Physics at the [University of Hertfordshire](https://www.herts.ac.uk/).
-PhD candidate in Theoretical Physics at the Centre for Research in String Theory (currently known as [Centre for Research in Theoretical Physics](https://www.qmul.ac.uk/spcs/ctp/)) at [Queen Mary University of London](https://www.qmul.ac.uk/), under the supervision of prof. [[David Berman]].
+
 
 ## Research
 
@@ -19,7 +19,7 @@ My main research interest lies in the global geometric structures underlying the
 
 * [ResearchGate page](https://www.researchgate.net/profile/Luigi_Alfonsi)
 
-* email: [l.alfonsi@qmul.ac.uk](mailto:l.alfonsi@qmul.ac.uk)
+* email: [l.alfonsi@herts.ac.uk](mailto:l.alfonsi@herts.ac.uk)
 
 ## Selected writings
  {#SelectedWritings}
@@ -63,6 +63,14 @@ PhD thesis:
 * _Global Double Field Theory as gerbe geometry_, talk at [Generalized Geometry and Applications](https://www.math.uni-hamburg.de/projekte/gg2020/), University of Hamburg, 3rd March 2020.
 
 * *Higher quantum geometry and global string duality*, talk at NYU Abu Dhabi (April 2022) $[$[web](Center+for+Quantum+and+Topological+Systems#AlfonsiFeb2022)$]$
+
+
+## Short bio
+
+PhD in Theoretical Physics at the Centre for Research in String Theory (currently known as [Centre for Theoretical Physics](https://www.qmul.ac.uk/spcs/ctp/)) at [Queen Mary University of London](https://www.qmul.ac.uk/), under the supervision of Prof. [[David Berman]].
+
+MSc in [Quantum Fields and Fundamental Forces](https://www.imperial.ac.uk/study/pg/physics/quantum-fields-fundamental-forces/) at [Imperial College London](https://www.imperial.ac.uk/) under the supervision of Prof. [[Chris Hull]].
+
 
 ## Notes
 
