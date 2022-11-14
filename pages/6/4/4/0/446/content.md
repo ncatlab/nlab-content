@@ -121,7 +121,7 @@ $$(s/r)(b, c) \dashv \vdash \forall_{a \colon A} r(a, b) \Rightarrow s(a, c)$$
 
 where $r(a, b)$ is shorthand for "$(a, b)$ belongs to $r$". 
 
-The category of maps (functional relations) of a unitary/unital tabular division allegory is a [[logos]], and conversely the bicategory of relations in a logos is a unitary tabular division allegory. ([Freyd-Scedrov](#FreydScedrov), 2.32, p. 227.) 
+The category of maps (functional relations) of a unitary/unital tabular division allegory is a [[Heyting category]] (a "[[logos]]"), and conversely the bicategory of relations in a Heyting category is a unitary tabular division allegory. ([Freyd-Scedrov](#FreydScedrov), 2.32, p. 227.) 
 
 ## Power allegories 
 
