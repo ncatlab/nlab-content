@@ -45,7 +45,7 @@ Emphasis that the expected description of [[anyons]] by [[braided fusion categor
 
 Exposition and review:
 
-* [[Sachin Valera]], *A Quick Introduction to the Algebraic Theory of Anyons*, talk at *[[CQTS]] Inituial Researcher Meeting* (Sep 2022) $[$[[CQTS-InitialResearcherMeeting-Valera-220914.pdf:file]]$]$
+* [[Sachin Valera]], *A Quick Introduction to the Algebraic Theory of Anyons*, talk at *[[CQTS]] Initial Researcher Meeting* (Sep 2022) $[$[[CQTS-InitialResearcherMeeting-Valera-220914.pdf:file]]$]$
 
 See also:
 
