@@ -32,7 +32,7 @@ $$
 
 * [[fixed point]]
 
-* [[Adamek's fixed point theorem]]
+* [[Adámek's fixed point theorem]]
 
 * [[Knaster-Tarski's fixed point theorem]]
 
