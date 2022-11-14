@@ -58,7 +58,7 @@ $$a \in b \coloneqq s(a) = 1 \wedge s(b) = 0 \wedge t(a) = t(b)$$
 where the constant primitive $1$ is the identity morphism of the terminal object and the constant primitive $0$ is the identity morphism of the initial object, and where sets and elements are defined as
 $$\mathrm{isSet}(a) \coloneqq s(b) = 0$$
 $$\mathrm{isElement}(a) \coloneqq s(b) = 1$$
-is a [[structural set theory]], because it can be proven that every element does not have internal structure and every set is not internal structure. 
+is a structural membership relation, because it can be proven that every element does not have internal structure and every set is not internal structure. 
 
 #### Structural membership relations with Quine atoms
 
