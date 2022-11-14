@@ -304,6 +304,23 @@ Implications for the significance across channels:
 
 \linebreak
 
+[Soni 2022](#Soni22):
+
+> For almost a decade now, there have been persistent indications from all three major B-facilities of lepton universality violations (LUV) [1], [2–10], with a combined significance of 4.5σ [11]. In tree-level charge current decays, B → D(∗)τ(l)ν, the reactions involving τ seem to differ more from those involving muon or electron than predicted by the SM. Another class of reaction that is
+presenting an even stronger indications of lepton flavor universality violations is flavor changing
+neutral current decays which, in the SM are loop-level. At the quark-lepton level this is b → sl+l − for l = µ or e. The corresponding ratios of such reactions, RK(∗) etc which in the SM are supposed to be unity within O(few %), experimentally at LHCb [9] are found to be significantly different
+from unity i.e. O(≈ 30%) at around 3 or even possibly ≈ 4σ. Moreover, another rather strong indication of new physics (NP) that has been strengthened
+this year is the muon (g-2) anomaly. For well over a decade this was already around 3.5σ being the difference between the experimental measurements at BNL from about 2002 [12] to around 2006 [13] and the theory predictions based on dispersion relations, data driven approach [14].
+
+> Recent confirmation by the Fermilab $(g-2)$ Collaboration [15] of the old BNL result has now increased the deviation from the data-driven theory prediction from the SM to about 4.2σ.
+The main point to bear in mind is that there are three anomalies, RD(∗) , RK(∗) and muon (g-2), and each of these is over three σ.
+
+> So, the chances of at least one of these surviving the test of time and leading us to new physics is rather high, 
+
+
+
+\linebreak
+
 
 ## Relation to other anomalies
  {#RelationToOtherAnomalies}
@@ -792,6 +809,8 @@ Further outlook:
 * [[Riccardo Barbieri]], Section 5 of: _A view of flavour physics in 2021_ ([arXiv:2103.15635](https://arxiv.org/abs/2103.15635))
 
 * {#GuadagnoliKoppenburg22} Diego Guadagnoli, [[Patrick Koppenburg]], *Lepton-flavor violation and lepton-flavor-universality violation in b and c decays* &lbrack;[arXiv:2207.01851](https://arxiv.org/abs/2207.01851)&rbrack;
+
+* {#Soni22} Amarjit Soni, *Precision tau physics: Challenge for Theory, on and off the lattice* &lbrack;[arXiv:2211.05839](https://arxiv.org/abs/2211.05839)&rbrack;
 
 
 Outlook for [[Belle II]] to confirm the [[flavour anomalies]], if they are real:
