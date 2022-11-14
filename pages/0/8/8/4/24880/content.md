@@ -138,15 +138,27 @@ $$
 
 on the category [[Vect]] of [[vector spaces]] (over any given [[ground field]]) is [[equivalence of categories|equivalent]] to that of [[vector bundles]] over $B$ (hence to $B$-[[indexed sets]] of [[vector spaces]]):
 $$
-  EM\big(
-    \bigcirc_B 
-  \big)
+  Vect^{\bigcirc_B}
   \;\;\simeq\;\;
   Vect_B
   \,.
 $$
 
 \end{proposition}
+
+\begin{imagefromfile}
+    "file_name": "LinearTypesAsModalModules-221113.jpg",
+    "width": "840",
+    "unit": "px",
+    "margin": {
+        "top": -10,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
 \begin{proof}
  We state first an abstract proof and then a concrete proof.
 
