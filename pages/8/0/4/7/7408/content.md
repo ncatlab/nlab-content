@@ -28,6 +28,20 @@ $$
   \,.
 $$
 
+## Definition
+
+Let $C$ be a [[category]] with [[finite limits]]. A **[[classical logic|Boolean]] [[hyperdoctrine]]** over $C$ is a [[functor]]
+
+$$
+  P \;\colon\; C^{op} \to BoolAlg
+$$
+
+from the [[opposite category]] of $C$ to the category of [[Boolean algebras]], such that for every [[morphism]] $f : A \to B$ in $C$, the functor $P(A) \to P(B)$ has a [[left adjoint]] $\exists_f$ and a [[right adjoint]] $\forall_f$ satisfying
+
+1. [[Frobenius reciprocity]];
+
+1. [[Beck-Chevalley condition]].
+
 ## Related concepts
 
 
