@@ -288,6 +288,8 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
   **A Quick Introduction to the Algebraic Theory of Anyons** (Part II)
 
+  slides: [[CQTS-InitialResearcherMeeting-Valera-220914.pdf:file]]
+
   > on [[anyon]] [[braid representation|braiding]] described by [[braided fusion categories]]
 
 
