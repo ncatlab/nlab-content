@@ -14,14 +14,15 @@
 {:toc}
 
 ## Idea
+_Feynman categories_  ([Kaufmann-Ward 13](#KaufmannWard13)) are monoidal categories with extra structures and properties that provide categorical way to corepresent operad-like objects.
 
-What has been called _Feynman categories_ ([Kaufmann-Ward 17](#KaufmannWard17)) is a [[biequivalence|biequivalent way]] of speaking about [[coloured operads]] ([Caviglia 15](#Caviglia15), [Batanin-Kock-Weber 15](#BataninKockWeber15)).
+They are a [[biequivalence|biequivalent]] approach to [[coloured operads]] and patterns ([Kaufmann-Ward 13](#KaufmannWard13),[Caviglia 15](#Caviglia15), [Batanin-Kock-Weber 15](#BataninKockWeber15)).
 
 ## Definition
 
 Let $C$ be a [[groupoid]], $C^\otimes$ the [[free construction|free]] [[symmetric monoidal category]] on $C$ and $M$ a [[symmetric monoidal category]].
 
-([Kaufman 2017, Defn 2.1](#Kaufman17)) A symmetric [[strong monoidal functor]] $\tau: C^\otimes\to M$ is a __Feynman category__ if the following are satisfied
+([Kaufman-Ward 2013, Defn 2.1](#KaufmanWard13)) A symmetric [[strong monoidal functor]] $\tau: C^\otimes\to M$ is a __Feynman category__ if the following are satisfied
 
 * _isomorphisms condition_: $\tau^\otimes$ induces an equivalence of symmetric monoidal categories $C^\otimes \cong M_{iso}$
 
@@ -36,12 +37,18 @@ Let $C$ be a [[groupoid]], $C^\otimes$ the [[free construction|free]] [[symmetri
 
 The latter condition on [[comma categories]] ensures the existence of certain (pointed) [[Kan extension]]s. 
 
+The condition of a pattern or that of being hereditary guarantees that there is a left adjoint free functor for the forgetful functor of restricting a monoidal functor from $M$ to $C$.
+This leads to a monadacity theorem for strong monoidal functors from $M$ to some cocomplete $D$, namely that they are equivalent to algebras over the monad of the adjunction.
+
+Furthermore any morphisms $f$ in the 2-category of Feynman categories defines a pull--back $f^*$ on strong monoidal functors and a left adjoint push-forward  $f_!$ computed by a left Kan extension. The theorem is that the Kan extension is strong monoidal.
+
 ## Properties
 
 ### Equivalence with coloured operads
  {#EquivalenceWithColouredOperads}
-
-There is an [[equivalence of 2-categories]] between the [[2-category]] of Feynman categories and that of [[coloured operads]] ([Caviglia 15](#Caviglia15), [Batanin-Kock-Weber 15](#BataninKockWeber15)).
+The relationship to patterns and groupoid colored operads
+is given in [Kaufmann-Ward 13](#KaufmannWard13) and was further upgraded to an [[equivalence of 2-categories]] between the [[2-category]] of Feynman categories and that of [[coloured operads]] ([Caviglia 15](#Caviglia15), [Batanin-Kock-Weber 15](#BataninKockWeber15)).
+This allows to import results from Feynman categories such as W-constructions to the other theories.
 
 ## References
 
@@ -49,7 +56,7 @@ Related items include [[operad]], [[Feynman transform]].
 
 The axiomatics is proposed in
 
-* {#KaufmannWard17} Ralph M. Kaufmann, Benjamin C. Ward, _Feynman categories_, Astérisque 387 (2017), vii+161pp ([arxiv:1312.1269](https://arxiv.org/abs/1312.1269))
+* {#KaufmannWard13} Ralph M. Kaufmann, Benjamin C. Ward, _Feynman categories_, Astérisque 387 (2017), vii+161pp ([arxiv:1312.1269](https://arxiv.org/abs/1312.1269))
 
 A more recent survey is in 
 
