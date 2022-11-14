@@ -26,7 +26,7 @@
 
 ## Definition
 
-A **Heyting category** (called a **[[logos]]** in [Freyd-Scedrov](#FreydScedrov)) is a [[coherent category]] in which each [[base change]] functor $f^*:Sub(Y)\to Sub(X)$ has a _[[right adjoint]]_ $\forall_f$ (the _[[universal quantifier]]_, in addition to the [[left adjoint]] [[existential quantifier]] that exists in any [[regular category]]). Thus, every Heyting category $\mathcal{C}$ is a [[first-order hyperdoctrine]] given by the [[subobject poset]] [[functor]] $\mathrm{sub}:\mathcal{C}^{op} \to HeytAlg$. 
+A **Heyting category** (called a **[[logos]]** in [Freyd-Scedrov](#FreydScedrov)) is a [[coherent category]] in which each [[base change]] functor $f^*:Sub(Y)\to Sub(X)$ has a _[[right adjoint]]_ $\forall_f$ (the _[[universal quantifier]]_, in addition to the [[left adjoint]] [[existential quantifier]] that exists in any [[regular category]]). Thus, every Heyting category $\mathcal{C}$ is a [[first-order hyperdoctrine]] given by the [[subobject poset]] [[functor]] $\mathrm{Sub}:\mathcal{C}^{op} \to HeytAlg$. 
 
 It follows that each [[poset of subobjects]] $Sub(X)$ is a [[Heyting algebra]] and the base-change functors $f^*$ are Heyting algebra homomorphisms. The Heyting implication can be defined as follows: if $A$ and $B$ are subobjects of $X$, then we can define $(A\Rightarrow B) \in Sub(X)$ as $\forall_i(A\cap B) \hookrightarrow X$, where $i\colon A\hookrightarrow X$ is the subobject inclusion and we take $A \cap B\in Sub(A)$.  Any Heyting category has an [[internal logic]] which is full ([[type theory|typed]]) [[first order logic|first-order]] [[intuitionistic logic]]. The extra right adjoint $\forall_f$ provided by the above axiom gives the [[universal quantifier]] in this logic. 
 
