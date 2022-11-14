@@ -67,4 +67,4 @@ There is an argument following the [[principle of equivalence]] that the structu
 * [[material set theory]]
 * [[structural set theory]]
 
-[[!redirects material versus structural set theory]]
+[[!redirects material versus structural]]
