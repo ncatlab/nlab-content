@@ -490,7 +490,7 @@ which makes a lot of sense.
 ### Dual idea: Comonadic contexts
  {#DualIdeaComonadicCauses}
 
-(...) e.g. [UustaluVene08](#UustaluVene08), [GKOBU16](#GKOBU16)
+(...) e.g. [Uustalu & Vene (2008)](#UustaluVene08), [GKOBU16](#GKOBU16), [KRU20](#KRU20) (...):
 
 By [[formal duality]]:
 
@@ -659,12 +659,16 @@ In the generality of [[relative monads]]:
 
 * [[Thorsten Altenkirch]], [[James Chapman]], [[Tarmo Uustalu]], Section 2 of: *Monads need not be endofunctors*, Logical Methods in Computer Science **11** 1:3 (2015) 1–40 &lbrack;[arXiv:1412.7148](https://arxiv.org/abs/1412.7148), [pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), <a href="https://doi.org/10.2168/LMCS-11(1:3)2015">doi:10.2168/LMCS-11(1:3)2015</a>&rbrack;
 
-Emphasis on the combination of [[monads]], [[comonads]] and [[graded modalities]]:
+The dual notion of [[comonads in computer science]];
 
-* {#UustaluVene08}  [[Tarmo Uustalu]], [[Varmo Vene]], *Comonadic Notions of Computation*, Electronic Notes in Theoretical Computer Science
-**203** 5 (2008) 263-284 &lbrack;[doi:10.1016/j.entcs.2008.05.029](https://doi.org/10.1016/j.entcs.2008.05.029)&rbrack;
+* {#UustaluVene08}  [[Tarmo Uustalu]], [[Varmo Vene]], *Comonadic Notions of Computation*, Electronic Notes in Theoretical Computer Science **203** 5 (2008) 263-284 &lbrack;[doi:10.1016/j.entcs.2008.05.029](https://doi.org/10.1016/j.entcs.2008.05.029)&rbrack;
+
+and emphasis on the combination of [[monads]], [[comonads]] and [[graded modalities]]:
 
 * {#GKOBU16} Marco Gaboardi, Shin-ya Katsumata, Dominic Orchard, Flavien Breuvart, [[Tarmo Uustalu]], *Combining effects and coeffects via grading*, ICFP 2016: Proceedings of the 21st ACM SIGPLAN International Conference on Functional Programming (2016) 476–489 &lbrack;[doi:10.1145/2951913.2951939](https://doi.org/10.1145/2951913.2951939), [talk abstract](https://icfp16.sigplan.org/details/icfp-2016-papers/31/Combining-Effects-and-Coeffects-via-Grading), [video rec](https://www.youtube.com/watch?v=l1ZNMT3fQCo)&rbrack;
+
+* {#KRU20} Shin-ya Katsumata, Exequiel Rivas, [[Tarmo Uustalu]], LICS (2020) 604-618 *Interaction laws of monads and comonads* &lbrack;[arXiv:1912.13477](https://arxiv.org/abs/1912.13477), [doi:10.1145/3373718.3394808](https://doi.org/10.1145/3373718.3394808)&rbrack;
+
 
 Textbook accounts of monads as used in actual [[programming languages]] such as [[Haskell]]:
 
