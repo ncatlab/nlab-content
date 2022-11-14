@@ -496,7 +496,7 @@ In the context of linear types not just $(p_B)^\ast$ is [[monadic functor|monadi
   \label{DependentLinearTypesAsIndefiniteLinearTypes}
 \]
 \begin{imagefromfile}
-    "file_name": "LinearTypesAsModalModules-221101.jpg",
+    "file_name": "LinearTypesAsModalModules-221113.jpg",
     "width": "810",
     "unit": "px",
     "margin": {
