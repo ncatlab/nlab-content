@@ -44,7 +44,7 @@ One uses the axiom of strong extensionality as the definition of a [[bijection]]
 
 **Axiom 3 (Axiom of [[Cartesian products]]):** _For every set $A$ and $B$, there exists a set $A \times B$ with a function $\pi_A:A \times B \to A$ and a function $\pi_B:A \times B \to B$ such that for every element $a \in A$ and $b \in B$ there is a unique element $(a, b) \in A \times B$, such that $\pi_A((a, b)) = a$ and $\pi_B((a, b)) = b$._
 
-**Axiom 4 (Axiom of [[fibers]]):** _For every set $A$ and $B$, function $f:A \to B$, and element $b \in B$, there exists a set $f^{*}(b)$ and a function $i:f^{-1}(b) \to A$, such that for every element $a \in f^{-1}(b)$, $f(i(a)) = b$, and for every other set $C$ and function $g:C \to B$ such that for every element $c \in C$, $f(g(c)) = b$, there is a unique function $j:C \to f^{-1}(b)$ such that for every element $c \in C$, $g(c) = i(j(c))$._
+**Axiom 4 (Axiom of [[fibers]]):** _For every set $A$ and $B$, function $f:A \to B$, and element $b \in B$, there exists a set $f^{*}(b)$ and a function $i:f^{-1}(b) \to A$, such that for every element $a \in f^{-1}(b)$, $f(i(a)) = b$, and for every other set $C$ and function $g:C \to A$ such that for every element $c \in C$, $f(g(c)) = b$, there is a unique function $j:C \to f^{-1}(b)$ such that for every element $c \in C$, $g(c) = i(j(c))$._
 
 **Axiom 5 ([[axiom schema of separation|Axiom schema of separation]]):** _For any set $B$ and any formula $\phi(x)$ with free variable $x \in B$, there exists a set $A$ with an injection $m:A \hookrightarrow B$ such that for every element $x \in B$, $\phi(x)$ holds if and only if there exists an element $y \in A$ such that $m(y) = x$._
 
@@ -87,7 +87,7 @@ One uses the axiom of strong extensionality as the definition of a [[bijection]]
 
 **Axiom 3 (Axiom of [[Cartesian products]]):** _For every set $A$ and $B$, there exists a set $A \times B$ with a function $\pi_A:A \times B \to A$ and a function $\pi_B:A \times B \to B$ such that for every element $a \in A$ and $b \in B$ there is a unique element $(a, b) \in A \times B$, such that $\pi_A((a, b)) = a$ and $\pi_B((a, b)) = b$._
 
-**Axiom 4 (Axiom of [[fibers]]):** _For every set $A$ and $B$, function $f:A \to B$, and element $b \in B$, there exists a set $f^{*}(b)$ and a function $i:f^{-1}(b) \to A$, such that for every element $a \in f^{-1}(b)$, $f(i(a)) = b$, and for every other set $C$ and function $g:C \to B$ such that for every element $c \in C$, $f(g(c)) = b$, there is a unique function $j:C \to f^{-1}(b)$ such that for every element $c \in C$, $g(c) = i(j(c))$._
+**Axiom 4 (Axiom of [[fibers]]):** _For every set $A$ and $B$, function $f:A \to B$, and element $b \in B$, there exists a set $f^{*}(b)$ and a function $i:f^{-1}(b) \to A$, such that for every element $a \in f^{-1}(b)$, $f(i(a)) = b$, and for every other set $C$ and function $g:C \to A$ such that for every element $c \in C$, $f(g(c)) = b$, there is a unique function $j:C \to f^{-1}(b)$ such that for every element $c \in C$, $g(c) = i(j(c))$._
 
 **Axiom 5 ([[axiom schema of separation|Axiom schema of separation]]):** _For any set $B$ and any formula $\phi(x)$ with free variable $x \in B$, there exists a set $A$ with an injection $m:A \hookrightarrow B$ such that for every element $x \in B$, $\phi(x)$ holds if and only if there exists an element $y \in A$ such that $m(y) = x$._
 
