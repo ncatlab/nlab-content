@@ -21,6 +21,8 @@ A **Boolean category** is a [[coherent category]] (such as a [[topos]] or [[pret
 
 Any Boolean category is, in particular, a [[Heyting category]] and therefore supports a full [[first-order logic|first-order]] [[internal logic]].  However, unlike that of an arbitrary Heyting category, the internal logic of a Boolean category satisfies the principle of [[excluded middle]]; it is [[first-order logic|first-order]] [[classical logic]].
 
+In addition, every Boolean category $\mathcal{C}$ is a [[Boolean hyperdoctrine]] given by the [[subobject poset]] [[functor]] $\mathrm{sub}:\mathcal{C}^{op} \to BoolAlg$. 
+
 ## Related entries
 
 * [[pretopos]]
