@@ -490,7 +490,7 @@ which makes a lot of sense.
 ### Dual idea: Comonadic contexts
  {#DualIdeaComonadicCauses}
 
-(...) e.g. [Uustalu & Vene (2008)](#UustaluVene08), [GKOBU16](#GKOBU16), [KRU20](#KRU20) (...):
+(...) e.g. [Uustalu & Vene (2008)](#UustaluVene08), [POM13](#POM13), [GKOBU16](#GKOBU16), [KRU20](#KRU20) (...):
 
 By [[formal duality]]:
 
@@ -520,7 +520,9 @@ By [[formal duality]]:
       prog \;\colon\; \mathcal{C}(D) \to D'
     $$
 
-    *subject to* an external $\mathcal{C}$-context (a $\mathcal{C}$-cause).
+    *subject to* an external $\mathcal{C}$-"*context*" ([Uustalu & Vene (2008)](#UustaluVene08), [POM13](#POM13))
+
+    (a $\mathcal{C}$-*cause*).
 
   * A co-Kleisli co-module for a comonad $\mathcal{C}$ is a program 
 
@@ -663,9 +665,13 @@ In the generality of [[relative monads]]:
 
 * [[Thorsten Altenkirch]], [[James Chapman]], [[Tarmo Uustalu]], Section 2 of: *Monads need not be endofunctors*, Logical Methods in Computer Science **11** 1:3 (2015) 1–40 &lbrack;[arXiv:1412.7148](https://arxiv.org/abs/1412.7148), [pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), <a href="https://doi.org/10.2168/LMCS-11(1:3)2015">doi:10.2168/LMCS-11(1:3)2015</a>&rbrack;
 
-The dual notion of [[comonads in computer science]];
+The dual notion of [[comonads in computer science]] as modelling *contexts*: 
 
 * {#UustaluVene08}  [[Tarmo Uustalu]], [[Varmo Vene]], *Comonadic Notions of Computation*, Electronic Notes in Theoretical Computer Science **203** 5 (2008) 263-284 &lbrack;[doi:10.1016/j.entcs.2008.05.029](https://doi.org/10.1016/j.entcs.2008.05.029)&rbrack;
+
+* {#POM13} Tomas Petricek, Dominic Orchard, Alan Mycroft, *Coeffects: Unified Static Analysis of Context-Dependence*, in: *Automata, Languages, and Programming. ICALP 2013*, Lecture Notes in Computer Science **7966** Springer (2013) &lbrack;[doi:10.1007/978-3-642-39212-2_35](https://doi.org/10.1007/978-3-642-39212-2_35)&rbrack;
+
+    
 
 and emphasis on the combination of [[monads]], [[comonads]] and [[graded modalities]]:
 
