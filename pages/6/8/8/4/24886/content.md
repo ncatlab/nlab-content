@@ -50,3 +50,5 @@ However, there are multiple distinct proposed definitions of material and struct
 
 * [[material set theory]]
 * [[structural set theory]]
+
+[[!material versus structural set theory]]
