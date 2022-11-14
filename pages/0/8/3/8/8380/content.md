@@ -490,7 +490,7 @@ which makes a lot of sense.
 ### Dual idea: Comonadic contexts
  {#DualIdeaComonadicCauses}
 
-(...) e.g. [GKOBU16](#GKOBU16)
+(...) e.g. [UustaluVene08](#UustaluVene08), [GKOBU16](#GKOBU16)
 
 By [[formal duality]]:
 
@@ -661,6 +661,9 @@ In the generality of [[relative monads]]:
 
 Emphasis on the combination of [[monads]], [[comonads]] and [[graded modalities]]:
 
+* {#UustaluVene08}  [[Tarmo Uustalu]], [[Varmo Vene]], *Comonadic Notions of Computation*, Electronic Notes in Theoretical Computer Science
+**203** 5 (2008) 263-284 &lbrack;[doi:10.1016/j.entcs.2008.05.029](https://doi.org/10.1016/j.entcs.2008.05.029)&rbrack;
+
 * {#GKOBU16} Marco Gaboardi, Shin-ya Katsumata, Dominic Orchard, Flavien Breuvart, [[Tarmo Uustalu]], *Combining effects and coeffects via grading*, ICFP 2016: Proceedings of the 21st ACM SIGPLAN International Conference on Functional Programming (2016) 476–489 &lbrack;[doi:10.1145/2951913.2951939](https://doi.org/10.1145/2951913.2951939), [talk abstract](https://icfp16.sigplan.org/details/icfp-2016-papers/31/Combining-Effects-and-Coeffects-via-Grading), [video rec](https://www.youtube.com/watch?v=l1ZNMT3fQCo)&rbrack;
 
 Textbook accounts of monads as used in actual [[programming languages]] such as [[Haskell]]:
@@ -776,6 +779,8 @@ Implementation in [[Haskell]]:
 
 [[!redirects monadic computational effect]]
 [[!redirects monadic computational effects]]
+
+[[!redirects comonads in computer science]]
 
 
 
