@@ -42,8 +42,11 @@ from the [[opposite category]] of $C$ to the category of [[Boolean algebras]], s
 
 1. [[Beck-Chevalley condition]].
 
-## Related concepts
+## Examples
 
+Every [[Boolean category]] $\mathcal{C}$ is a Boolean hyperdoctrine given by the [[subobject poset]] [[functor]] $\mathrm{sub}:\mathcal{C}^{op} \to BoolAlg$. 
+
+## Related concepts
 
 * [[first-order hyperdoctrine]]
 
