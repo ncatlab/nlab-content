@@ -146,7 +146,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
   **Quantum Field Theories, Knot Homology and Cobordism**
 
-  > on [[functorial quantum field theory]], [[knot homology]] and [[cobordism theory]]/[[cobordism categories]]
+  > on [[functorial quantum field theory]], [[knot homology]] and [[cobordism theory]]/[[cobordism categories]]/[[cobordism hypothesis]]
 
 
 \linebreak
