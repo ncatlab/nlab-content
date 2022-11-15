@@ -147,3 +147,6 @@ The $I$ of prop. \ref{ContractibilityOfAFromThatOfI} is in general not an [[inte
 
 
 [[!redirects continua]]
+
+[[!redirects metric continuum]]
+[[!redirects metric continua]]
