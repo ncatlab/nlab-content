@@ -230,6 +230,9 @@ The basic theory also generalises immediately to any unbounded, [[dense linear o
 [[!redirects Dedekind real number]]
 [[!redirects Dedekind real numbers]]
 
+[[!redirects two-sided Dedekind cut]]
+[[!redirects two-sided Dedekind cuts]]
+
 [[!redirects sigma Dedekind cut]]
 [[!redirects sigma Dedekind cuts]]
 [[!redirects sigma-Dedekind cut]]
