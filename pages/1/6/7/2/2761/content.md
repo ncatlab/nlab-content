@@ -175,6 +175,9 @@ Discussion in the context of an [[∞-cosmos]]:
 
 * {#RiehlVerity17} [[Emily Riehl]], [[Dominic Verity]], Section 6 of: _Fibrations and Yoneda's lemma in an $\infty$-cosmos_, Journal of Pure and Applied Algebra Volume 221, Issue 3, March 2017, Pages 499-564 ([arXiv:1506.05500](https://arxiv.org/abs/1506.05500), [doi:10.1016/j.jpaa.2016.07.003](https://doi.org/10.1016/j.jpaa.2016.07.003))
 
+Discussion [[category internal to an (infinity,1)-topos|internal to]] any [[(∞,1)-topos]]:
+
+* [[Louis Martini]], *Yoneda's lemma for internal higher categories*, &lbrack;[arXiv:2103.17141](https://arxiv.org/abs/2103.17141)&rbrack;
 
 
 [[!redirects Yoneda lemma for (∞,1)-categories]]
