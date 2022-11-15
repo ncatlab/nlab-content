@@ -34,9 +34,8 @@ In the special case that $C$ is some category of spaces with a terminal object $
 
 ## Related concepts
 
-* [[small site]];
+* [[little site]]
 
-* **big site**
 
 
 [[!redirects big site]]
