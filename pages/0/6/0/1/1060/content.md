@@ -14,7 +14,7 @@
 =--
 
 
-#Contents#
+#Contents
 * table of contents
 {:toc}
 
@@ -106,7 +106,7 @@ $$\begin{aligned}
 
 This yields the structure of def. \ref{DefByDualization}.
 
-Conversely, given the latter then the [[dualizing object]] $\bot$ is defined as the dual of the [[tensor unit]] $\bot \coloneqq I^*$.
+Conversely, given the latter then the [[dualizing object]] $\bot$ is defined as the dual of the [[tensor unit]] $\bot \coloneqq I^*$ and the [[internal hom]] by $A \multimap B \coloneqq A^* \parr B$ (where $\parr$ is defined as below).
 
 =--
 
