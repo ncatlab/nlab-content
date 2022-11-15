@@ -806,6 +806,10 @@ Material on pseudo-arcs can be found in
 * {#Bing2} R.H. Bing, _Concerning hereditarily indecomposable continua_, Pacific J. Math. Volume 1, Number 1 (1951), 43-51. ([Project Euclid](http://projecteuclid.org/euclid.pjm/1102613150))
 
 
+[[!redirects compact connected]]
+[[!redirects compact connectedness]]
+[[!redirects compact connected space]]
+[[!redirects compact connected spaces]]
 
 [[!redirects connected space]]
 [[!redirects connected spaces]]
