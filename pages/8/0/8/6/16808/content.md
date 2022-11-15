@@ -71,3 +71,5 @@ We can allow $X$ to be a [[pseudometric space]], a [[Lawvere metric space]], or 
 * Tatsuji Kawai, _A point-free characterisation of Bishop locally compact metric spaces_, [link](http://www.logicandanalysis.com/index.php/jla/article/viewFile/239/120)
 
 * Tatsuji Kawai. *Localic completion of uniform spaces*. Log. Methods Comput. Sci. 13 2017), no. 3, Paper No. 22, 39pp.  [arxiv](https://arxiv.org/abs/1703.02255)
+
+[[!redirects localically complete]]
