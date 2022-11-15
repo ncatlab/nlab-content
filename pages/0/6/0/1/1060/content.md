@@ -46,9 +46,9 @@ A _$*$-autonomous category_  is a [[symmetric monoidal
 category|symmetric]] [[closed monoidal category]] $\langle
 C,\otimes, I,\multimap\rangle$ with a _[[dualizing object in a closed category|global dualizing object]]_: an object
 $\bot$ such that the canonical morphism
-$$ d_A: A \to (A \multimap \bot) \multimap \bot ,$$
+$$ d_A \;\colon\; A \to (A \multimap \bot) \multimap \bot ,$$
 which is the transpose of the [[evaluation map]]
-$$ ev_{A,\bot}: (A \multimap \bot) \otimes A \to \bot ,$$
+$$ ev_{A,\bot} \;\colon\; (A \multimap \bot) \otimes A \to \bot\,,$$
 is an [[isomorphism]] for all $A$.  (Here, $\multimap$ denotes the [[internal hom]].)
 
 =--
