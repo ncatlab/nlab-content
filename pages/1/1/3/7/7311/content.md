@@ -51,19 +51,25 @@ $$\frac{\Xi, \Gamma \vert () \vdash A \; \mathrm{type}}{\Xi \vert \Gamma \vdash 
 
 $$\frac{\Xi, \Gamma \vert () \vdash a:A}{\Xi \vert \Gamma \vdash \sigma_A(a):\esh A}\esh-\mathrm{intro}1$$
 
-$$\frac{\Xi, \Gamma \vert () \vdash g:R \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R}{\Xi \vert \Gamma \vdash k_A(j, g):\esh A}\esh-\mathrm{intro}2$$
+$$\frac{\Xi, \Gamma \vert () \vdash g:R \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R}{\Xi \vert \Gamma \vdash k_A(g):\esh A}\esh-\mathrm{intro}2$$
 
-$$\frac{\Xi, \Gamma \vert () \vdash g:R \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R}{\Xi \vert \Gamma \vdash \iota_A(g, x):g(x) =_{\esh A} k_A(j, g)}\esh-\mathrm{intro}3$$
+$$\frac{\Xi, \Gamma \vert () \vdash g:R \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R}{\Xi \vert \Gamma \vdash \iota_A(g, x):g(x) =_{\esh A} k_A(g)}\esh-\mathrm{intro}3$$
 
-$$\frac{\Xi, \Gamma \vert () \vdash g:R \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R}{\Xi \vert \Gamma \vdash k_A'(j, g):\esh A}\esh-\mathrm{intro}4$$
+$$\frac{\Xi, \Gamma \vert () \vdash g:R \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R}{\Xi \vert \Gamma \vdash k_A'(g):\esh A}\esh-\mathrm{intro}4$$
 
-$$\frac{\Xi, \Gamma \vert () \vdash x:R}{\Xi \vert \Gamma \vdash \iota_A'(x):x =_{\esh A} k_A'(j, \mathrm{const}_A(x))}\esh-\mathrm{intro}5$$
+$$\frac{\Xi, \Gamma \vert () \vdash x:R}{\Xi \vert \Gamma \vdash \iota_A'(x):x =_{\esh A} k_A'(\mathrm{const}_{\esh A, R}(x))}\esh-\mathrm{intro}5$$
 
 * Elimination rules for weak and strict shape types:
 
 $$\frac{\Xi \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi \vert \Gamma, w:\esh A \vdash Q \; \mathrm{type} \quad \Xi \vert \Gamma \vdash x:A}{\Xi \vert \Gamma \vdash d_{\sigma_A}(x):Q[\sigma_A(x)/w]}\esh-\mathrm{elim}1$$
 
-...
+$$\frac{\Xi \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi \vert \Gamma, w:\esh A \vdash Q \; \mathrm{type} \quad \Xi \vert \Gamma \vdash g:R \to \esh A \quad \Xi \vert \Gamma \vdash x:R \quad \Xi \vert \Gamma \vdash h:Q[g(x)/w]}{\Xi \vert \Gamma \vdash d_{\kappa_A}(g, h):Q[\kappa_A(g)/w]}\esh-\mathrm{elim}2$$
+
+$$\frac{\Xi \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi \vert \Gamma, w:\esh A \vdash Q \; \mathrm{type} \quad \Xi \vert \Gamma \vdash g:R \to \esh A \quad \Xi \vert \Gamma \vdash x:R \quad \Xi \vert \Gamma \vdash h:Q[g(x)/w]}{\Xi \vert \Gamma \vdash d_{\iota_A}(g, x.h):h =_{Q[\kappa_A(g)/w]} d_{\kappa_A}(g, h)}\esh-\mathrm{elim}3$$
+
+$$\frac{\Xi \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi \vert \Gamma, w:\esh A \vdash Q \; \mathrm{type} \quad \Xi \vert \Gamma \vdash g:R \to \esh A \quad \Xi \vert \Gamma \vdash x:R \quad \Xi \vert \Gamma \vdash h:Q[g(x)/w]}{\Xi \vert \Gamma \vdash d_{\kappa_A'}(g, h):Q[\kappa_A'(g)/w]}\esh-\mathrm{elim}4$$
+
+$$\frac{\Xi \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi \vert \Gamma, w:\esh A \vdash Q \; \mathrm{type} \quad \Xi \vert \Gamma \vdash x:\esh A \quad \Xi \vert \Gamma \vdash y:Q[x/w]}{\Xi \vert \Gamma \vdash d_{\iota_A'}(y, x):y =_{Q[\kappa_A'(\mathrm{const}_{\esh A, R}(x))/w]} d_{\kappa_A'}(\mathrm{const}_{\esh A, R}(x), \mathrm{const}_{\esh A, R}(y))}\esh-\mathrm{elim}5$$
 
 * Computation rules for weak and strict shape types:
 
