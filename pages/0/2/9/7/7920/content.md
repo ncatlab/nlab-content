@@ -86,6 +86,12 @@ Further discussion:
 
 * [[Fabian Hebestreit]], [[Gijs Heuts]], [[Jaco Ruit]], _A short proof of the straightening theorem_ ([arXiv:2111.00069](https://arxiv.org/abs/2111.00069)).
 
+Discussion [[category internal to an (infinity,1)-topos|internal to]] any [[(∞,1)-topos]]:
+
+* [[Louis Martini]], *Cocartesian fibrations and straightening internal to an ∞-topos* &lbrack;[arXiv:2204.00295](https://arxiv.org/abs/2204.00295)&rbrack;
+
+
+
 
 [[!redirects straightening and unstraightening]]
 
