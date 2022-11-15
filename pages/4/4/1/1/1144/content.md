@@ -1200,6 +1200,8 @@ There are various variants of [[homotopy theory]], such as [[stable homotopy the
 
 * [[integral chains homotopy theory]]
 
+* [[integral homotopy theory]]
+
 ## References
 
 ### General
