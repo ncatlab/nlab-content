@@ -51,6 +51,8 @@ The first constructor gives a function from `X` to `localize X`, while the other
 
 * [[localization]]
 
+* [[shape modality]], [[axiom of cohesion]]
+
 ## References
 
 * [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
