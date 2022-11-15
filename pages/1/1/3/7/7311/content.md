@@ -37,7 +37,9 @@ In a [[locally ∞-connected (∞,1)-topos]] with [[full and faithful (∞,1)-fu
 
 ### In type theory
 
-We assume a [[dependent type theory]] with crisp term judgments $a::A$ in addition to the usual (cohesive) type and term judgments $A \; \mathrm{type}$ and $a:A$, as well as context judgments $\Xi \vert \Gamma \; \mathrm{ctx}$ where $\Xi$ is a list of crisp term judgments, and $\Gamma$ is a list of cohesive term judgments. A crisp type is a type in the context $\Xi \vert ()$, where $()$ is the empty list of cohesive term judgments. In addition, we also assume the dependent type theory has [[typal equality]] and [[judgmental equality]], as well as [[axiom C0]]. 
+We assume a [[dependent type theory]] with crisp term judgments $a::A$ in addition to the usual (cohesive) type and term judgments $A \; \mathrm{type}$ and $a:A$, as well as context judgments $\Xi \vert \Gamma \; \mathrm{ctx}$ where $\Xi$ is a list of crisp term judgments, and $\Gamma$ is a list of cohesive term judgments. A crisp type is a type in the context $\Xi \vert ()$, where $()$ is the empty list of cohesive term judgments. In addition, we also assume the dependent type theory has [[typal equality]] and [[judgmental equality]], as well as the following axiom:
+
+*There is a crisp type $\Xi \vert () \vdash R \; \mathrm{type}$ such that given any crisp type $\Xi \vert () \vdash A \; \mathrm{type}$, $A$ is discrete if and only if the function $\mathrm{const}_{A, R}:A \to (R \to A)$ is an equivalence of types.*
 
 From here, there are two different notions of the shape modality which could be defined in the type theory, the **strict shape modality**, which uses [[judgmental equality]] in the [[computation rule]] and [[uniqueness rule]], and the **weak shape modality**, which uses [[typal equality]] in the [[computation rule]] and [[uniqueness rule]]. When applied to a type they result in **strict shape types** and **weak shape types** respectively. The [[natural deduction]] rules for strict and weak shape types are provided as follows:
 
@@ -49,13 +51,13 @@ $$\frac{\Xi, \Gamma \vert () \vdash A \; \mathrm{type}}{\Xi \vert \Gamma \vdash 
 
 $$\frac{\Xi, \Gamma \vert () \vdash a:A}{\Xi \vert \Gamma \vdash \sigma_A(a):\esh A}\esh-\mathrm{intro}1$$
 
-$$\frac{\Xi, \Gamma \vert () \vdash j:I \quad \Xi, \Gamma \vert () \vdash g:R[j/i] \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R[j/i]}{\Xi \vert \Gamma \vdash k_A(j, g):\esh A}\esh-\mathrm{intro}2$$
+$$\frac{\Xi, \Gamma \vert () \vdash g:R \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R}{\Xi \vert \Gamma \vdash k_A(j, g):\esh A}\esh-\mathrm{intro}2$$
 
-$$\frac{\Xi, \Gamma \vert () \vdash j:I \quad \Xi, \Gamma \vert () \vdash g:R[j/i] \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R[j/i]}{\Xi \vert \Gamma \vdash \iota_A(g, x):g(x) =_{\esh A} k_A(j, g)}\esh-\mathrm{intro}3$$
+$$\frac{\Xi, \Gamma \vert () \vdash g:R \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R}{\Xi \vert \Gamma \vdash \iota_A(g, x):g(x) =_{\esh A} k_A(j, g)}\esh-\mathrm{intro}3$$
 
-$$\frac{\Xi, \Gamma \vert () \vdash j:I \quad \Xi, \Gamma \vert () \vdash g:R[j/i] \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R[j/i]}{\Xi \vert \Gamma \vdash k_A'(j, g):\esh A}\esh-\mathrm{intro}4$$
+$$\frac{\Xi, \Gamma \vert () \vdash g:R \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R}{\Xi \vert \Gamma \vdash k_A'(j, g):\esh A}\esh-\mathrm{intro}4$$
 
-$$\frac{\Xi, \Gamma \vert () \vdash j:I \quad \Xi, \Gamma \vert () \vdash x:R[j/i]}{\Xi \vert \Gamma \vdash \iota_A'(x):x =_{\esh A} k_A'(j, \mathrm{const}_A(x))}\esh-\mathrm{intro}5$$
+$$\frac{\Xi, \Gamma \vert () \vdash x:R}{\Xi \vert \Gamma \vdash \iota_A'(x):x =_{\esh A} k_A'(j, \mathrm{const}_A(x))}\esh-\mathrm{intro}5$$
 
 * Elimination rules for weak and strict shape types:
 
