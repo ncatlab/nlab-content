@@ -60,12 +60,26 @@ Any comonad on $A$ induces an augmented [[simplicial object|simplicial]] [[endof
 
 ## References
 
-* {#ApplegateTierney70} [[Harry Applegate]], [[Myles Tierney]], _Iterated cotriples_, Lecture Notes in Math. **137** (1970) 56-99 ([doi:10.1007/BFb0060440](https://doi.org/10.1007/BFb0060440))
+### General
 
+* {#ApplegateTierney70} [[Harry Applegate]], [[Myles Tierney]], _Iterated cotriples_, Lecture Notes in Math. **137** (1970) 56-99 ([doi:10.1007/BFb0060440](https://doi.org/10.1007/BFb0060440))
 
 Some introductory material on [[comonads]], [[coalgebra over a comonad|coalgebras]] and [[co-Kleisli morphisms]] can be found in
 
 * [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_, Chapter 5. ([arXiv](http://arxiv.org/abs/1912.10642))
+
+### As contexts in computer science
+
+On [[comonads in computer science]]:
+
+* {#UustaluVene08}  [[Tarmo Uustalu]], [[Varmo Vene]], *Comonadic Notions of Computation*, Electronic Notes in Theoretical Computer Science **203** 5 (2008) 263-284 &lbrack;[doi:10.1016/j.entcs.2008.05.029](https://doi.org/10.1016/j.entcs.2008.05.029)&rbrack;
+
+* {#POM13} Tomas Petricek, [[Dominic Orchard]], Alan Mycroft, *Coeffects: Unified Static Analysis of Context-Dependence*, in: *Automata, Languages, and Programming. ICALP 2013*, Lecture Notes in Computer Science **7966** Springer (2013) &lbrack;[doi:10.1007/978-3-642-39212-2_35](https://doi.org/10.1007/978-3-642-39212-2_35)&rbrack;
+
+* {#GKOBU16} Marco Gaboardi, [[Shin-ya Katsumata]], [[Dominic Orchard]], Flavien Breuvart, [[Tarmo Uustalu]], *Combining effects and coeffects via grading*, ICFP 2016: Proceedings of the 21st ACM SIGPLAN International Conference on Functional Programming (2016) 476–489 &lbrack;[doi:10.1145/2951913.2951939](https://doi.org/10.1145/2951913.2951939), [talk abstract](https://icfp16.sigplan.org/details/icfp-2016-papers/31/Combining-Effects-and-Coeffects-via-Grading), [video rec](https://www.youtube.com/watch?v=l1ZNMT3fQCo)&rbrack;
+
+* {#KRU20} [[Shin-ya Katsumata]], Exequiel Rivas, [[Tarmo Uustalu]], LICS (2020) 604-618 *Interaction laws of monads and comonads* &lbrack;[arXiv:1912.13477](https://arxiv.org/abs/1912.13477), [doi:10.1145/3373718.3394808](https://doi.org/10.1145/3373718.3394808)&rbrack;
+
 
 
 [[!redirects comonads]]
