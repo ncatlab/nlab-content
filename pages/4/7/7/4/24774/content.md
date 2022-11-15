@@ -77,6 +77,12 @@ On the [[D'Auria-Fré formulation of supergravity]]:
 
 * [[Leonardo Castellani]], *Group manifold approach to supergravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.04318](https://arxiv.org/abs/2211.04318)&rbrack;
 
+\linebreak
+
+On [[quantum anomalies]] and the [[Green-Schwarz mechanism]]:
+
+* [[Luis Alvarez-Gaumé]], [[Miguel A. Vázquez-Mozo]], *Anomalies and the Green-Schwarz Mechanism*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.06467](https://arxiv.org/abs/2211.06467)&rbrack;
+
 
 \linebreak
 
