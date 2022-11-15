@@ -25,6 +25,8 @@ A **premetric locale** is a [[locally positive locale]] that is also a [[symmetr
 
 * [[premetric space]]
 
+* [[metric locale]]
+
 ## References 
 
 * [[Simon Henry]], Localic Metric spaces and the localic Gelfand duality ([arXiv:1411.0898v1](https://arxiv.org/abs/1411.0898v1))
