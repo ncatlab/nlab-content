@@ -37,7 +37,7 @@ In a [[locally ∞-connected (∞,1)-topos]] with [[full and faithful (∞,1)-fu
 
 ### In type theory
 
-We assume a [[dependent type theory]] with crisp term judgments $a::A$ in addition to the usual (cohesive) type and term judgments $A \; \mathrm{type}$ and $a:A$, as well as context judgments $\Xi \vert \Gamma \; \mathrm{ctx}$ where $\Xi$ is a list of crisp term judgments, and $\Gamma$ is a list of cohesive term judgments. A crisp type is a type in the context $\Xi \vert ()$, where $()$ is the empty list of cohesive term judgments. In addition, we also assume the dependent type theory has [[typal equality]] and [[judgmental equality]], as well as the following axiom:
+We assume a [[dependent type theory]] with crisp term judgments $a::A$ in addition to the usual (cohesive) type and term judgments $A \; \mathrm{type}$ and $a:A$, as well as context judgments $\Xi \vert \Gamma \; \mathrm{ctx}$ where $\Xi$ is a list of crisp term judgments, and $\Gamma$ is a list of cohesive term judgments. A crisp type is a type in the context $\Xi \vert ()$, where $()$ is the empty list of cohesive term judgments. In addition, we also assume the dependent type theory has [[typal equality]] and [[judgmental equality]], as well as the following [[axiom of cohesion]]:
 
 *There is a crisp type $\Xi \vert () \vdash R \; \mathrm{type}$ such that given any crisp type $\Xi \vert () \vdash A \; \mathrm{type}$, $A$ is discrete if and only if the function $\mathrm{const}_{A, R}:A \to (R \to A)$ is an equivalence of types.*
 
@@ -45,19 +45,19 @@ From here, there are two different notions of the shape modality which could be 
 
 * Formation rules for weak and strict shape types:
 
-$$\frac{\Xi, \Gamma \vert () \vdash A \; \mathrm{type}}{\Xi \vert \Gamma \vdash \esh A \; \mathrm{type}}\esh-\mathrm{form}$$
+$$\frac{\Xi \vert \Gamma \vdash A \; \mathrm{type}}{\Xi \vert \Gamma \vdash \esh A \; \mathrm{type}}\esh-\mathrm{form}$$
 
 * Introduction rules for weak and strict shape types:
 
-$$\frac{\Xi, \Gamma \vert () \vdash a:A}{\Xi \vert \Gamma \vdash \sigma_A(a):\esh A}\esh-\mathrm{intro}1$$
+$$\frac{\Xi \vert \Gamma \vdash a:A}{\Xi \vert \Gamma \vdash \sigma_A(a):\esh A}\esh-\mathrm{intro}1$$
 
-$$\frac{\Xi, \Gamma \vert () \vdash g:R \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R}{\Xi \vert \Gamma \vdash k_A(g):\esh A}\esh-\mathrm{intro}2$$
+$$\frac{\Xi \vert \Gamma \vdash g:R \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R}{\Xi \vert \Gamma \vdash k_A(g):\esh A}\esh-\mathrm{intro}2$$
 
-$$\frac{\Xi, \Gamma \vert () \vdash g:R \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R}{\Xi \vert \Gamma \vdash \iota_A(g, x):g(x) =_{\esh A} k_A(g)}\esh-\mathrm{intro}3$$
+$$\frac{\Xi \vert \Gamma \vdash g:R \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R}{\Xi \vert \Gamma \vdash \iota_A(g, x):g(x) =_{\esh A} k_A(g)}\esh-\mathrm{intro}3$$
 
-$$\frac{\Xi, \Gamma \vert () \vdash g:R \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R}{\Xi \vert \Gamma \vdash k_A'(g):\esh A}\esh-\mathrm{intro}4$$
+$$\frac{\Xi \vert \Gamma \vdash g:R \to \esh A \quad \Xi, \Gamma \vert () \vdash x:R}{\Xi \vert \Gamma \vdash k_A'(g):\esh A}\esh-\mathrm{intro}4$$
 
-$$\frac{\Xi, \Gamma \vert () \vdash x:R}{\Xi \vert \Gamma \vdash \iota_A'(x):x =_{\esh A} k_A'(\mathrm{const}_{\esh A, R}(x))}\esh-\mathrm{intro}5$$
+$$\frac{\Xi \vert \Gamma \vdash x:R}{\Xi \vert \Gamma \vdash \iota_A'(x):x =_{\esh A} k_A'(\mathrm{const}_{\esh A, R}(x))}\esh-\mathrm{intro}5$$
 
 * Elimination rules for weak and strict shape types:
 
@@ -79,7 +79,7 @@ $$\frac{\Xi \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi \vert \Gamma, w:\es
 
 ...
 
-The shape modality is an example of a [[higher inductive type]]. Weak shape modalities are primarily used in cohesive [[objective type theories]], while strict shape modalities are typically used in cohesive type theories with [[judgmental equality]], such as cohesive [[Martin-Löf type theory]] ([[cohesive homotopy type theory]] or cohesive [[higher observational type theory]]. 
+The shape modality is an example of a [[higher inductive type]] which states that the [[shape modality]] of a type $A$ $\esh(A)$ is the [[localization of a type at a family of functions|localization]] $L_{R^1}(A)$ of $A$ at the function $\mathrm{const}:A \to (R \to A)$, equivalent to $\mathrm{const}':(1 \to A) \to (R \to A)$. Weak shape modalities are primarily used in cohesive [[objective type theories]], while strict shape modalities are typically used in cohesive type theories with [[judgmental equality]], such as cohesive [[Martin-Löf type theory]] ([[cohesive homotopy type theory]] or cohesive [[higher observational type theory]]. 
 
 ## Properties
 
