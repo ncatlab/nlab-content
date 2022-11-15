@@ -563,8 +563,15 @@ for the moment see
 
 * {#MazelGee15} [[Aaron Mazel-Gee]], _A user's guide to co/cartesian fibrations_ ([arXiv:1510.02402](http://arxiv.org/abs/1510.02402))
 
-
 * {#GepnerHaugsengNikolaus15} [[David Gepner]], [[Rune Haugseng]], [[Thomas Nikolaus]], _Lax colimits and free fibrations in $\infty$-categories_ ([arXiv:1501.02161](http://arxiv.org/abs/1501.02161))
+
+Discussion [[category internal to an (infinity,1)-topos|internal to]] any [[(∞,1)-topos]]:
+
+* [[Louis Martini]], *Cocartesian fibrations and straightening internal to an ∞-topos* &lbrack;[arXiv:2204.00295](https://arxiv.org/abs/2204.00295)&rbrack;
+
+
+
+
 
 [[!redirects cartesian fibration]]
 [[!redirects coCartesian fibration]]
