@@ -392,6 +392,11 @@ On factorication of functors between presentable $\infty$-categories as [[corefl
 * Lior Yanovski, *The Monadic Tower for $\infty$-Categories* ([arXiv:2104.01816](https://arxiv.org/abs/2104.01816))
 
 
+Discussion [[category internal to an (infinity,1)-topos|internal to]] any [[(∞,1)-topos]]:
+
+* [[Louis Martini]], [[Sebastian Wolf]], *Presentable categories internal to an ∞-topos* &lbrack;[arXiv:2209.05103](https://arxiv.org/abs/2209.05103)&rbrack;
+
+
 
 [[!redirects presentable (infinity,1)-categories]]
 [[!redirects presentable (∞,1)-category]]
