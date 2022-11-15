@@ -22,7 +22,7 @@ This is a topic of a well-known discussion series in 1990s.
 
 Somewhat later and with different scope, but related to this series, is also a long article
 
-* Frank Quinn, _Contributions to a science of contemporary mathematics_, [pdf](http://www.math.vt.edu/people/quinn/history_nature/nature0.pdf)
+* Frank Quinn, _Contributions to a science of contemporary mathematics_, [pdf](https://personal.math.vt.edu/fquinn/history_nature/nature0.pdf)
 
 
 ## Some other issue
