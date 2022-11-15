@@ -226,6 +226,10 @@ A physicists' monograph is
 
 * Reinhold A. Bertlmann, _Anomalies in quantum field theory_, Oxford Science Publ., 1996, 2000
 
+Review:
+
+* [[Luis Alvarez-Gaumé]], [[Miguel A. Vázquez-Mozo]], *Anomalies and the Green-Schwarz Mechanism*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.06467](https://arxiv.org/abs/2211.06467)&rbrack;
+
 A clear description of the quantum anomalies for higher gauge theories is in
 
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_ ([arXiv](http://arxiv.org/abs/hep-th/0011220))
@@ -238,17 +242,7 @@ The role of [[spin structure]]s as the anomaly cancellation condition for the sp
 
 * [[Edward Witten]], _Global anomalies in String theory_ in _Symposium on anomalies, geometry, topology_ , World Scientific Publishing, Singapore (1985)
 
-The anomaly line bundles for [[self-dual higher gauge theory]] is discussed in 
 
-* [[Samuel Monnier]], _The anomaly line bundle of the self-dual field theory_ ([arXiv:1109.2904](http://arxiv.org/abs/1109.2904))
-
-Discussion in the context of [[extended topological field theory]] includes
-
-* {#1410.7442} [[Samuel Monnier]], _Hamiltonian anomalies from extended field theories_, ([arxiv/1410.7442](http://arxiv.org/abs/1410.7442))
-
-Anomaly field theories are discussed in
-
-* {#1903.02828} [[Samuel Monnier]], _A Modern Point of View on Anomalies_, ([arxiv/1903.02828](http://arxiv.org/abs/1903.02828))
 
 
 ### Gauge anomaly
