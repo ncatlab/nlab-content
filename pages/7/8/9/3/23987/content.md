@@ -142,9 +142,11 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 ### Mar 2023
 
-* (upcoming)
+* 15-18 Mar 2023 (upcoming)
 
   **Quantum Field Theories, Knot Homology and Cobordism**
+
+  > on [[functorial quantum field theory]], [[knot homology]] and [[cobordism theory]]/[[cobordism categories]]
 
 
 \linebreak
