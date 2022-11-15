@@ -9,6 +9,10 @@ On [[quantum anomalies]]:
 
 * [[Luis Alvarez-Gaumé]], [[Paul Ginsparg]], _The structure of gauge and gravitational anomalies_, Ann. Phys. 161 (1985) 423. (<a href="https://doi.org/10.1016/0003-4916(85)90087-9">doi:10.1016/0003-4916(85)90087-9</a>, [spire:202565](http://inspirehep.net/record/202565))
 
+and specifically on the [[Green-Schwarz mechanism]]:
+
+* [[Luis Alvarez-Gaumé]], [[Miguel A. Vázquez-Mozo]], *Anomalies and the Green-Schwarz Mechanism*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.06467](https://arxiv.org/abs/2211.06467)&rbrack;
+
 On the [Chern-Simons level renormalization](Chern-Simons+level#LevelRenormalization) (shift by the [[dual Coxeter number]]):
 
 * [[Luis Alvarez-Gaumé]], J. M. F. Labastida, A. V. Ramallo, *A note on perturbative Chern-Simons theory*, Nuclear Physics B **334** 1 (1990) 103-124 (<a href="https://doi.org/10.1016/0550-3213(90)90658-Z">doi:10.1016/0550-3213(90)90658-Z</a>)
