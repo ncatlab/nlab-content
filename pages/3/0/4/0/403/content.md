@@ -391,6 +391,8 @@ See also at [enriched category](enriched+category#internalization_versus_enrichm
 
 * [[weak equivalence of internal categories]]
 
+* [[category object in an (infinity,1)-category]]
+
 * [2-Topos -- In terms of internal categories](2-topos#InTermsOfInternalCategories)
 
   * [[2-sheaf]]
