@@ -71,6 +71,11 @@ Discussion of [[string scattering amplitudes]]:
 
 * [[Carlos R. Mafra]], [[Oliver Schlotterer]], *Tree-level amplitudes from the pure spinor superstring* &lbrack;[arXiv:2210.14241](https://arxiv.org/abs/2210.14241)&rbrack;
 
+Relation to $D=5$ [[holomorphic Chern-Simons theory]]:
+
+* [[Nathan Berkovits]], *$D=5$ Holomorphic Chern-Simons and the Pure Spinor Superstring* &lbrack;[arXiv:2211.06731](https://arxiv.org/abs/2211.06731)&rbrack;
+
+
 
 
 
@@ -78,7 +83,7 @@ Discussion of [[string scattering amplitudes]]:
 
 A good reference that explains the sheaf of vertex operator algebra perspective on the Berkovits superstring is
 
-* Nikita Nekrasov, _Lectures on curved $\beta$-$\gamma$ systems, pure spinors, and anomalies_ ([arXiv](http://arxiv.org/abs/hep-th/0511008))
+* [[Nikita Nekrasov]], _Lectures on curved $\beta$-$\gamma$ systems, pure spinors, and anomalies_ ([arXiv](http://arxiv.org/abs/hep-th/0511008))
 
 The standard reference on the closely related mathematical theory of the chiral deRham complex is
 
