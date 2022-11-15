@@ -145,6 +145,9 @@ Relation to [[Seiberg-Witten theory]]:
 
 * Shun'ya Mizoguchi, *Seiberg-Witten Theory and Monstrous Moonshine* &lbrack;[arXiv:2208.10301](https://arxiv.org/abs/2208.10301)&rbrack;
 
+* Shun'ya Mizoguchi, Takumi Oikawa, Hitomi Tashiro, Shotaro Yata, *More on Seiberg-Witten Theory and Monstrous Moonshine* &lbrack;[arXiv:2211.07251](https://arxiv.org/abs/2211.07251)&rbrack;
+
+
 
 
 
