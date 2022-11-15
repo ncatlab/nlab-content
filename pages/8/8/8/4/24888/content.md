@@ -1,8 +1,9 @@
 \tableofcontents
 
 ## Idea
+ {#Idea}
 
-Axioms of [[cohesion]] are certain [[axioms]] added to any [[dependent type theory]] with the [[sharp modality]] and [[flat modality]] in order to define the [[shape modality]] for [[cohesive homotopy type theory]]. In particular, the axiom of real cohesion plays a role in defining [[real-cohesive homotopy type theory]] (the setting for [[classical homotopy theory]] and [[algebraic topology]]), and the axiom of motivic cohesion would play a role in defining a hypothetical unstable motivic homotopy type theory (the setting for unstable [[motivic homotopy theory]]). 
+Axioms of [[cohesion]] are certain [[axioms]] added to any [[dependent type theory]] with the [[sharp modality]] and [[flat modality]] in order to define the [[shape modality]] for [[cohesive homotopy type theory]]. In particular, the *axiom of real cohesion* plays a role in defining [[real-cohesive homotopy type theory]] (the setting for [[classical homotopy theory]] and [[algebraic topology]]), and the *axiom of motivic cohesion* would play a role in defining a hypothetical unstable motivic homotopy type theory (the setting for unstable [[motivic homotopy theory]]). 
 
 ## Definition
 
