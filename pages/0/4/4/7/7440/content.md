@@ -75,7 +75,7 @@ In traditional category theory a simplicial set is the nerve of a category if an
 
 Finally, the [[nerve]] of a category in fact contains lots of redundant information. It is [[coskeleton|2-coskeletal]] and hence in a precise sense already its [[skeleton|2-skeleton]] $X_2 \stackrel{\to}{\stackrel{\to}{\to}} X_1 \stackrel{\to}{\to} X_0$ contains all the relevant information. Therefore we may decide to write this out explicitly in terms of a further [[dependent type]] $X_2$ of [[compositions]]. This explicit 2-skeletal formulation of internal [[(1,1)-categories]] in [[homotopy theory]] is spelled out below in _[(1,1)-Category types](#1CategoryTypes)_.
 
-But of course the point of category objects internal ot an $(\infty,1)$-category is to speak about structures of higher homotopical degree, hence about untruncated [[simplicial objects in an (∞,1)-category]] and the appropriate conditions on them to qualify as internal categories. The comprehensive discussion of this definition we turn to in _[Definition](#Definition)_.
+But of course the point of category objects internal to an $(\infty,1)$-category is to speak about structures of higher homotopical degree, hence about untruncated [[simplicial objects in an (∞,1)-category]] and the appropriate conditions on them to qualify as internal categories. The comprehensive discussion of this definition we turn to in _[Definition](#Definition)_.
 
 
 
