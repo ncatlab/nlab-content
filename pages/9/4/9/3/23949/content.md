@@ -23,20 +23,17 @@ The categorical semantics of [[Dedekind real number|real]]-[[cohesive homotopy t
 
 ## Definition 
 
-A [[cohesive (infinity,1)-topos]] $H$ is a **real cohesive (infinity,1)-topos** if $H$ has a [[Dedekind real numbers object]] $\mathbb{R}$ and it satisfies **axiom R-flat**: for each [[infinity-groupoid]] $A \in H$, $A$ is discrete if and only if the morphism $c \colon Hom(A,A^\mathbb{R})$ is an [[equivalence]]. 
-
-A consequence of axiom R-flat is that the [[fundamental infinity-groupoid]] of the Dedekind real numbers is [[contractible]].
+A [[cohesive (infinity,1)-topos]] $H$ is a **real cohesive (infinity,1)-topos** if $H$ has a [[Dedekind real numbers object]] $\mathbb{R}$ and it satisfies **[[axiom R-flat]]**: for each [[infinity-groupoid]] $A \in H$, $A$ is discrete if and only if the morphism $c \colon Hom(A,A^\mathbb{R})$ is an [[equivalence]]. 
 
 ## See also
 
 * [[Dedekind real number]]
+* [[axiom R-flat]]
 * [[cohesive (infinity,1)-topos]]
 
 ## References
 
 * [[Mike Shulman]], Brouwer’s fixed-point theorem in real-cohesive homotopy type theory, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
-
-[[!redirects axiom R-flat]]
 
 [[!redirects real-cohesive (infinity,1)-topoi]]
 [[!redirects real-cohesive (infinity,1)-toposes]]
