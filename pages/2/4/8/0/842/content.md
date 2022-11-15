@@ -902,6 +902,13 @@ A discussion of free colimit completion constructions is in
 * [[Charles Rezk]], _Free colimit completion in ∞-categories_ ([arXiv:2210.08582](https://arxiv.org/abs/2210.08582))
 
 
+Discussion [[category internal to an (infinity,1)-topos|internal to]] any [[(∞,1)-topos]]:
+
+* [[Louis Martini]], [[Sebastian Wolf]], *Limits and colimits in internal higher category theory* &lbrack;[arXiv:2111.14495](https://arxiv.org/abs/2111.14495)&rbrack;
+
+
+
+
 ### In homotopy type theory
 
 A formalization of some aspects of $(\infty,1)$-limits in terms of [[homotopy type theory]] is [[Coq]]-coded in 
