@@ -124,3 +124,6 @@ Geom. Topol. __9__ (2005), 1443&#8211;1499, [MR2006g:57017](http://www.ams.org/m
 See also
 
 * David Clark, [[Scott Morrison]], [[Kevin Walker]], _Fixing the functoriality of Khovanov homology_ ([arXiv:math/0701339](http://arxiv.org/abs/math/0701339) [pdf slides](http://canyon23.net/math/talks/Kh%20200704.pdf))
+
+
+[[!redirects knot homology]]
