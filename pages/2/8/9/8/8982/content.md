@@ -72,3 +72,15 @@ Early discussion in view of [[homotopy type theory|homotopy]] [[type theory]] an
 The dedicated type theory formulation with "crisp" types, as part of the formulation of [[real cohesive homotopy type theory]], is due to:
 
 * [[Mike Shulman]], *Brouwer's fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
+
+[[!redirects flat modality]]
+[[!redirects flat type]]
+[[!redirects flat types]]
+
+[[!redirects strict flat modality]]
+[[!redirects strict flat type]]
+[[!redirects strict flat types]]
+
+[[!redirects weak flat modality]]
+[[!redirects weak flat type]]
+[[!redirects weak flat types]]
