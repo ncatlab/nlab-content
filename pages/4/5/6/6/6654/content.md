@@ -20,6 +20,10 @@ Review:
 
 * [[Nathan Berkovits]], [[Carlos R. Mafra]], *Pure spinor formulation of the superstring and its applications*, in *[[Handbook of Quantum Gravity]]* (2023) &lbrack;[arXiv:2210.10510](https://arxiv.org/abs/2210.10510)&rbrack;
 
+On the relation to $D=5$ [[holomorphic Chern-Simons theory]]:
+
+* [[Nathan Berkovits]], *$D=5$ Holomorphic Chern-Simons and the Pure Spinor Superstring* &lbrack;[arXiv:2211.06731](https://arxiv.org/abs/2211.06731)&rbrack;
+
 ## Related entries
 
 * [[Berkovits superstring]]
