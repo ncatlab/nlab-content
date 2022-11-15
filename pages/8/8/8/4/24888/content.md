@@ -3,7 +3,7 @@
 ## Idea
  {#Idea}
 
-Axioms of [[cohesion]] are certain [[axioms]] added to any [[dependent type theory]] with the [[sharp modality]] and [[flat modality]] in order to define the [[shape modality]] for [[cohesive homotopy type theory]]. In particular, the *axiom of real cohesion* plays a role in defining [[real-cohesive homotopy type theory]] (the setting for [[classical homotopy theory]] and [[algebraic topology]]), and the *axiom of motivic cohesion* would play a role in defining a hypothetical unstable motivic homotopy type theory (the setting for unstable [[motivic homotopy theory]]). 
+Axioms of [[cohesion]] are certain [[axioms]] added to any [[dependent type theory]] with the [[sharp modality]] and [[flat modality]] in order to define the [[shape modality]] for [[cohesive homotopy type theory]]. In particular, the *axiom of real cohesion* plays a role in defining [[real-cohesive homotopy type theory]] (the setting for [[classical homotopy theory]] and [[algebraic topology]]), and the *axiom of affine cohesion* or *axiom of algebraic cohesion* would play a role in defining a hypothetical affine/algebraic/[[A1-cohesive homotopy type theory|$\mathbb{A}^1$-cohesive homotopy type theory]] (the setting for [[A1-homotopy theory|$\mathbb{A}^1$-homotopy theory]]), where the [[affine line]] $\mathbb{A}^1$ plays the role that $\mathbb{R}$ does in real-cohesive homotopy type theory. Affine cohesion could hypothetically also be used in defining a cohesive version of [[Mitchell Riley]]'s [[bunched logic|bunched]] [[linear homotopy type theory]] (the setting for [[stable homotopy theory]]) for the purposes of doing [[motivic homotopy theory]]. 
 
 ## Definition
 
@@ -46,13 +46,16 @@ If we additionally assume that $I$ is contractible and the type $R$ up to equiva
 | $C_0$ | stable local connectedness | each $R(i)$ is a [[type]] for all $i:I$ |
 | $C_1$ | punctual local connectedness | each $R(i)$ is a [[pointed type]] for all $i:I$ |
 | $C_2$ | contractible codiscreteness | each $R(i)$ is a non-trivial [[bi-pointed type|bi-pointed]] [[h-set]] for all $i:I$ |
-| $\mathbb{R} \flat$ | [[Dedekind real number|real]] cohesion | Assuming the type theory has a [[type of all propositions]] $\Omega$, $R$ is a [[Dedekind complete]] or [[Cauchy complete]] (by [[Cauchy filters]]) [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[lattice]] [[field]] |
-| $\mathbb{R}_U \flat$ | locally $U$-small real cohesion | Given [[type universe]] $U$, $R$ is a $U$-[[Dedekind complete]] or $U$-[[Cauchy complete]] (by [[Cauchy filters]] or [[Cauchy nets]] in $U$) [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[lattice]] [[field]] |
-| $\mathbb{R}^\mathrm{loc} \flat$ | [[locale of real numbers|localic real]] cohesion | Assuming the type theory has a [[type of all propositions]] $\Omega$, $R$ is a [[localic completion]] of an [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[lattice]] [[field]]. Same as real cohesion in the presence of [[excluded middle]]. |
-| $\mathbb{R}_U^\mathrm{loc} \flat$ | locally $U$-small [[locale of real numbers|localic real]] cohesion | Given [[type universe]] $U$, $R$ is a $U$-[[localic completion]] of an [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[lattice]] [[field]] |
+|  | trivial cohesion | each $R(i)$ is a [[contractible type]] for all $i:I$ |
+| $\mathbb{R} \flat$ | [[Dedekind real number|real]] cohesion | Assuming the type theory has a [[type of all propositions]] $\Omega$, $R$ is a [[Dedekind completion]] (by [[two-sided Dedekind cuts]]) or [[Cauchy completion]] (by [[Cauchy filters]]) of a [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[lattice]] [[field]] |
+| $\mathbb{R}_{U\; \mathrm{local}} \flat$ | locally $U$-small real cohesion | Given [[type universe]] $U$, $R$ is a $U$-[[Dedekind completion]] (by [[two-sided Dedekind cuts]] in $U$) or $U$-[[Cauchy completion]] (by [[Cauchy filters]] or [[Cauchy nets]] in $U$) of a [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[lattice]] [[field]] |
+| $\mathbb{R}_{U} \flat$ | $U$-small real cohesion | Given [[type universe]] $U$ with [[propositional resizing]], $R$ is a $U$-[[Dedekind completion]] (by [[two-sided Dedekind cuts]] in $U$) or $U$-[[Cauchy completion]] (by [[Cauchy filters]] in $U$) of a [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[lattice]] [[field]]. Necessary for doing [[univalent mathematics]] inside a [[univalent universe]] $U$. |
+| $\mathbb{R}^\mathrm{loc} \flat$ | [[locale of real numbers|localic real]] cohesion | Assuming the type theory has a [[type of all propositions]] $\Omega$, $R$ is a [[localic completion]] of an [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[lattice]] [[field]]. Same as real cohesion in the presence of [[excluded middle]], but usually better behaved in [[constructive mathematics]]. |
+| $\mathbb{R}_{U\; \mathrm{local}}^\mathrm{loc} \flat$ | locally $U$-small [[locale of real numbers|localic real]] cohesion | Given [[type universe]] $U$, $R$ is a $U$-[[localic completion]] of an [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[lattice]] [[field]]. Same as locally $U$-small real cohesion in the presence of local [[excluded middle]] for $U$. |
+| $\mathbb{R}_{U}^\mathrm{loc} \flat$ | $U$-small [[locale of real numbers|localic real]] cohesion | Given [[type universe]] $U$ with [[propositional resizing]], $R$ is a $U$-[[localic completion]] of an [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[lattice]] [[field]]. Same as $U$-small real cohesion in the presence of local [[excluded middle]] for $U$, and necessary for doing [[univalent mathematics]] inside a [[univalent universe]] $U$. |
 | $[0, 1] \flat$ | [[unit interval]] cohesion | $R$ is a higher [[coinductive type]] representing the [[homotopy]] [[terminal]] [[dyadic interval coalgebra]] |
-| $[0, 1]_U \flat$ | $U$-small unit interval cohesion | Given [[type universe]] $U$, $R$ is a [[homotopy]] [[terminal]] [[dyadic interval coalgebra]] in $U$ |
-| $\mathbb{A}^1 \flat$ | unstable [[motivic homotopy theory|motivic]] cohesion/ $\mathbb{A}^1$-cohesion | $R$ is an [[affine line]] |
+| $[0, 1]_U \flat$ | $U$-small unit interval cohesion | Given [[type universe]] $U$, $R$ is a [[homotopy]] [[terminal]] [[dyadic interval coalgebra]] in $U$. Necessary for doing [[univalent mathematics]] inside a [[univalent universe]] $U$. |
+| $\mathbb{A}^1 \flat$ | affine cohesion/algebraic cohesion/$\mathbb{A}^1$-cohesion | $R$ is an [[affine line]] |
 
 ## See also
 
@@ -92,14 +95,24 @@ If we additionally assume that $I$ is contractible and the type $R$ up to equiva
 [[!redirects axiom of unit interval cohesion]]
 [[!redirects axioms of unit interval cohesion]]
 
-[[!redirects motivic cohesion]]
-[[!redirects axiom of motivic cohesion]]
-[[!redirects axioms of motivic cohesion]]
+[[!redirects A1-cohesion]]
+[[!redirects axiom of A1-cohesion]]
+[[!redirects axioms of A1-cohesion]]
+
+[[!redirects affine cohesion]]
+[[!redirects axiom of affine cohesion]]
+[[!redirects axioms of affine cohesion]]
+
+[[!redirects algebraic cohesion]]
+[[!redirects axiom of algebraic cohesion]]
+[[!redirects axioms of algebraic cohesion]]
 
 [[!redirects axiom C0]]
 [[!redirects axiom C1]]
 [[!redirects axiom C2]]
 [[!redirects axiom R-flat]]
 [[!redirects axiom R flat]]
+[[!redirects axiom A1-flat]]
+[[!redirects axiom A1 flat]]
 [[!redirects axiom [0, 1]-flat]]
 [[!redirects axiom [0, 1] flat]]
