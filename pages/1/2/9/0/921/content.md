@@ -16,7 +16,7 @@
 # Contents
 * table of contents
 {: toc}
-
+f
 ## Idea 
 
 A _real number_ is a [[number]] that may be [[Dedekind completion|approximated]] by [[rational numbers]].  Equipped with the operations of [[addition]] and [[multiplication]] induced from the rational numbers, real numbers form a _[[field]]_, commonly denoted _$\mathbb{R}$_. The underlying set is the _[[Dedekind completion|completion]]_ of the [[ordered field]] $\mathbb{Q}$ of rational numbers: the result of adjoining to $\mathbb{Q}$ [[suprema]] for every [[inhabited set|inhabited]] [[bounded set|bounded subset]] with respect to the natural [[order|ordering]] of rational numbers.
@@ -308,6 +308,8 @@ So in summary, this page is about the _real, finite, located, standard, analytic
 * in [[constructive analysis]] one may use the [[completion monad]] for dealing with real numbers
 
 * [[exact real computer arithmetic]]
+
+* [[real-cohesive homotopy type theory]]
 
 [[!include exceptional spinors and division algebras -- table]]
 
