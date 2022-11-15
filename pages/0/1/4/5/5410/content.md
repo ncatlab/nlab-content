@@ -173,7 +173,7 @@ $$
   \,,
 $$
 
-[[pseudo-natural transformation|pseudo-natural]] in $A, B \in Cat$, between [[profunctor]]s in [[Set]] and discrete fibrations from $A$ to $B$, where $E_F$ is the category whose
+[[pseudo-natural transformation|pseudo-natural]] in $A, B \in Cat$, between [[profunctor]]s in [[Set]] and two-sided discrete fibrations from $A$ to $B$, where $E_F$ is the category whose
 
 * objects are [[section]]s $\sigma : \Delta[1] \to K_F$ of the [[collage]]
   $p : K_F \to \Delta[1]$
