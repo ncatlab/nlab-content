@@ -527,6 +527,10 @@ Rederivation using the [[elliptic genus]]/[[Witten genus]] (then: "character-val
 
 * [[Wolfgang Lerche]], [[Bengt Nilsson]], [[A. N. Schellekens]],  [[Nicholas P. Warner]], *Anomaly cancelling terms from the elliptic genus*, Nuclear Physics B Volume 299, Issue 1, 28 March 1988, Pages 91-116 (<a href="https://doi.org/10.1016/0550-3213(88)90468-3">doi:10.1016/0550-3213(88)90468-3</a>)
 
+Review:
+
+* [[Luis Alvarez-Gaumé]], [[Miguel A. Vázquez-Mozo]], *Anomalies and the Green-Schwarz Mechanism*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.06467](https://arxiv.org/abs/2211.06467)&rbrack;
+
 
 Review (with an eye towards [[KK-compactification]] to 6d, see also at [[D=6 N=(1,0) SCFT]]):
 
