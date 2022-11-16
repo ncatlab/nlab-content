@@ -98,6 +98,8 @@ This is due to ([Seely, 1984a](#SeelyA)). For more details see _[[relation betwe
 
 * [[Boolean hyperdoctrine]]
 
+* [[geometric hyperdoctrine]]
+
 * [[linear hyperdoctrine]]
 
 ### Special cases
@@ -132,6 +134,8 @@ nontrivial $P(X)$, but a syntactically presented one".
   * [[regular hyperdoctrine]]
 
   * [[coherent hyperdoctrine]]
+
+  * [[geometric hyperdoctrine]]
 
 ## References
 
