@@ -8,3 +8,8 @@
 | [[geometric category]] | [[geometric functor]] | [[geometric logic]] | [[geometric theory]] | [[geometric hyperdoctrine]] | | |
 | [[Heyting category]] | [[Heyting functor]] | [[intuitionistic logic|intuitionistic]] [[first-order logic]] | intuitionistic [[first-order theory]] | [[first-order hyperdoctrine]] | | |
 | [[Boolean category]] |  | [[classical logic|classical]] [[first-order logic]] | classical [[first-order theory]] | [[Boolean hyperdoctrine]] | | |
+|[[star-autonomous category]] | | [[multiplicative classical linear logic]] | | | | |
+|[[symmetric monoidal closed category]] | | [[multiplicative intuitionistic linear logic]] | | | | |
+|[[cartesian monoidal category]] | | [[fragment]] $\{\&, \top\}$ of [[linear logic]] | | | | |
+|[[cocartesian monoidal category]] | | [[fragment]] $\{\oplus, 0\}$ of [[linear logic]] | | | | |
+|[[cartesian closed category]] | | [[simply typed lambda calculus]] | | | | |
