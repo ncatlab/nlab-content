@@ -141,6 +141,8 @@ In particular, the de Morgan laws are valid for the [[integers]], the [[rational
 
 * [[De Morgan Heyting algebra]]
 
+* [[De Morgan Heyting category]]
+
 * [[De Morgan algebra]]
 
 * [[De Morgan topos]]
