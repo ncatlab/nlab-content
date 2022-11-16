@@ -411,9 +411,9 @@ Textbooks and other accounts
 
 * {#Schwede12} [[Stefan Schwede]], appendix A.4 of of _[[Symmetric spectra]]_ (2012)
 
-* [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], section 1.3 of _The Arf-Kervaire problem in algebraic topology: Sketch of the proof_ ([[HHRKervaire.pdf:file]])
 
-  (with an eye towards application to the [[Arf-Kervaire invariant problem]])
+* [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _Equivariant Stable Homotopy Theory and the Kervaire Invariant Problem_, New Mathematical Monographs, Cambridge University Press, 2021. ([doi:10.1017/9781108917278](https://doi.org/10.1017/9781108917278))
+
 
 The generalization of the homotopy theory of $G$-spaces and of Elmendorf's theorem to that of $G$-objects in more general [[model category|model categories]] is in 
 
