@@ -83,15 +83,9 @@ One can even extend this into the realm not just of provability, but furthermore
 
 ## Related concepts
 
-* [[coherent hyperdoctrine]]
-
-* [[geometric hyperdoctrine]]
-
-* [[Boolean hyperdoctrine]]
-
-* [[regular hyperdoctrine]]
-
 * [[tripos]]
+
+[[!include categories and logic - table]]
 
 [[!redirects first-order hyperdoctrines]]
 
