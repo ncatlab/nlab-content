@@ -144,6 +144,15 @@ Let $J$ be the join of $(-\infty,0)$, $(1,\infty)$, and the elements of $\mathca
 
 This proof generalises immediately to any closed interval $[a,b]$, for $a$ any upper real and $b$ any lower real.  But note that we do not say 'extended' here; we need to find some rational number (analogous to $-1$ in the proof above) smaller than $a$ and some rational number (analogous to $2$ above) larger than $b$.  So the Heine--Borel theorem applies only to *bounded* closed intervals.
 
+## Arithmetic
+
+The locale of real numbers form a [[localic ring]], a ring object in the category [[Loc]] of [[locales]]. Moreover, the ring structure on the discrete locale of [[rational numbers]] lifts up to a ring structure on the locale of real numbers. 
+
+## References
+
+An (impredicative) construction of the locale of real numbers can be found in section 5.3 of:
+
+* Graham Manuell, *Uniform locales and their constructive aspects*, ([arXiv:2106.00678](https://arxiv.org/abs/2106.00678))
 
 [[!redirects the locale of real numbers]]
 [[!redirects locale of real numbers]]
