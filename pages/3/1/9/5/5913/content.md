@@ -37,15 +37,9 @@ Every coherent topos has [[point of a topos|enough points]].
 
 ## Related concepts
 
-* [[finitely complete category]], [[cartesian functor]], [[cartesian logic]], [[cartesian theory]]
-
-* [[regular category]], [[regular functor]], [[regular logic]], [[regular theory]], [[regular coverage]], [[regular topos]]
-
-* [[coherent category]], [[coherent functor]], [[coherent logic]], [[coherent theory]], [[coherent coverage]], **coherent topos**
-
-* [[geometric category]], [[geometric functor]], [[geometric logic]], [[geometric theory]]
-
 * [[coherent (∞,1)-topos]]
+
+[[!include categories and logic - table]]
 
 ## References
 
