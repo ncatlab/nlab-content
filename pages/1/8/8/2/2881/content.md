@@ -1,7 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents goes here
 {:toc}
-
 
 ## Idea ##
 
@@ -13,8 +27,7 @@ The further generalization to [[groupoids]] is that of *[[localic groupoids]]*.
 
 ## Definition ##
 
-
-A **localic group** is a [[group object]] [[internalization|in]] the [[category]] of [[locales]].
+A **localic group** is a [[group object]] [[internalization|in]] the [[category]] of [[locales]]. More explicitly, this means we have a locale $G$ with [[continuous maps]] $\epsilon:1 \to G$, $\iota:G \to G$, and $\mu:G \times G \to G$, such that $(\mathrm{id}_G, m) \circ m = (m, \mathrm{id}_G) \circ m$, $(\mathrm{id}_G, u_G^1 \circ \epsilon) \circ m = \mathrm{id}_G$, $(u_G^1 \circ \epsilon, \mathrm{id}_G) \circ m = \mathrm{id}_G$, $(\iota, \mathrm{id}_G) \circ m = u_G^1 \circ \epsilon$, and $(\mathrm{id}_G, \iota) \circ m = u_G^1 \circ \epsilon$, where $1$ is the terminal locale and $u_G^1:G \to 1$ is the unique map into $1$. 
 
 ## Localic groups versus topological groups
 
@@ -46,6 +59,11 @@ Details can be found in C5.3.1 of the [[Elephant]], in the more general case of 
 If $H\rightarrowtail G$ is a localic subgroup, we construct its closure $\bar{H}$, which is also a localic subgroup in which $H$ is dense.  By [[pullback]], it follows that $H\times \bar{H} \to \bar{H} \times \bar{H}$ is [[fiberwise dense subspace|fiberwise dense]] over $\bar{H}$ via the second projection.  Applying the [[automorphism]] $(g,h) \mapsto (g,g^{-1}h)$ of $G\times G$, we conclude that $H\times \bar{H} \to \bar{H} \times \bar{H}$ is also [[fiber]]wise dense over $\bar{H}$ via the "composition" map.  Dually, $\bar{H}\times H \to \bar{H} \times \bar{H}$ is also fiberwise dense over $\bar{H}$ via the "composition" map, and thus (by the basic fact cited above), so is their intersection, which is $H\times H$.  Since $\bar{H}\times \bar{H}\to \bar{H}$ is an [[epimorphism]], so is $H\times H\to\bar{H}$.  But this map factors through $H\rightarrowtail \bar{H}$ (since $H$ is itself a subgroup of $G$), so that inclusion is also epic.  But it is also a [[regular monomorphism]], and hence an [[isomorphism]]; thus $H$ is closed.
 =--
 
+## See also
+
+* [[topological group]]
+
+* [[localic groupoid]]
 
 ## References
 
@@ -53,6 +71,8 @@ If $H\rightarrowtail G$ is a localic subgroup, we construct its closure $\bar{H}
 
 * [[John Isbell]], [[Igor Křiž]], [[Aleš Pultr]], [[Jiři Rosický]], _Remarks on Localic Groups_, Lecture Notes in Mathematics 1348 (1988), pp. 154-172: [doi](https://doi.org/10.1007/bfb0081357)
 {#IKPR}
+
+* Graham Manuell, *Uniform locales and their constructive aspects*, ([arXiv:2106.00678](https://arxiv.org/abs/2106.00678))
 
 An expository account of the closed subgroup theorem can be found in
 
