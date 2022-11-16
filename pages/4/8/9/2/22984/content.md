@@ -42,6 +42,8 @@ The original definition of Lawvere did not include the last two conditions and a
 
 * [[first-order hyperdoctrine]]
 
+* [[geometric hyperdoctrine]]
+
 * [[coherent hyperdoctrine]]
 
 * [[Boolean hyperdoctrine]]
