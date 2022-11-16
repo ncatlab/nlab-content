@@ -63,6 +63,8 @@ The principle of [[excluded middle]] is not provable in intuitionistic logic, an
 
 * [[BHK interpretation]]
 
+[[!include categories and logic - table]]
+
 ## References
 
 The observation that the [[poset]] of [[open subsets]] of a [[topological space]] (the [[internal logic]] of the [[sheaf topos]]) serves as a model for [[intuitionistic logic]] is apparently originally due to
