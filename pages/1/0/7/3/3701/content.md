@@ -148,13 +148,17 @@ This proof generalises immediately to any closed interval $[a,b]$, for $a$ any u
 
 The locale of real numbers form a [[localic ring]], a ring object in the category [[Loc]] of [[locales]]. Moreover, the ring structure on the discrete locale of [[rational numbers]] lifts up to a ring structure on the locale of real numbers. 
 
-[[localic group]]
+More generally, given any continuous function $x \mapsto f(x)$ on the [[Dedekind real numbers]], and a [[geometric morphism]] $F:\mathrm{Set} \to \mathrm{Sh}(\mathbb{R}_D)$ from [[Set]] to the [[sheaf topos]] on the [[Dedekind real numbers]], if for all Dedekind real numbers $x \in \mathbb{R}_D$, $f(F^*(x)) = F^*(f(x))$, then the function $x \to f(x)$ lifts to a function $x \mapsto f'(x)$ on the locale of real numbers. 
 
 ## References
 
 An (impredicative) construction of the locale of real numbers can be found in section 5.3 of:
 
 * Graham Manuell, *Uniform locales and their constructive aspects*, ([arXiv:2106.00678](https://arxiv.org/abs/2106.00678))
+
+On lifting functions from the [[Dedekind real numbers]] to the locale of real numbers, see:
+
+* [[Valery Isaev]], [[Simon Henry]], *Locallic maps given by series* ([web](https://mathoverflow.net/questions/426682/locallic-maps-given-by-series/426692#426692))
 
 [[!redirects the locale of real numbers]]
 [[!redirects locale of real numbers]]
