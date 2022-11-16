@@ -25,13 +25,7 @@ A [[functor]] $F : C \to D$ between [[coherent categories]] is called **coherent
 
 ## Related concepts
 
-* [[cartesian functor]]
-
-* [[regular functor]]
-
-* **coherent functor**
-
-* [[geometric functor]]
+[[!include categories and logic - table]]
 
 ## References
 
