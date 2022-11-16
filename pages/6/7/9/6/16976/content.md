@@ -29,6 +29,8 @@ Localic groupoids are important, among other reasons, because every [[Grothendie
 
 * [[localic stack]]
 
+* [[localic infinity-groupoid]]
+
 ## References
 
 * The [[Elephant]], chapter C5.
