@@ -28,8 +28,9 @@
 **$\mathbb{A}^1$-cohesive homotopy type theory**,  **affine-cohesive homotopy type theory**, or **algebraic-cohesive homotopy type theory** is a version of [[cohesive homotopy type theory]] which has an [[affine line]] [[type]] $\mathbb{A}^1$ and the [[axiom of A1-cohesion|axiom of $\mathbb{A}^1$-cohesion]]. $\mathbb{A}^1$-cohesive homotopy type theory provides a [[synthetic mathematics|synthetic]] [[foundation]] for [[A1-homotopy theory|$\mathbb{A}^1$-homotopy theory]], where the affine line is the standard [[affine line]] in the [[Nisnevich site]] of [[smooth schemes]] of [[finite type]] over a [[Noetherian scheme]]. 
 
 ### Motivic homotopy type theory
+ {#MotivicHomotopyTypeTheory}
 
-[[Mitchell Riley]]'s [[bunched logic|bunched]] [[linear homotopy type theory]] is a synthetic foundations for [[stable homotopy theory]]. This means that there should be an $\mathbb{A}^1$-cohesive [[bunched logic|bunched]] [[linear homotopy type theory]] which behaves as a synthetic foundations for [[motivic homotopy theory]]. 
+[[Mitchell Riley]]'s [[bunched logic|bunched]] [[linear homotopy type theory]] &lbrack;[Riley (2022)](dependent+linear+type+theory#Riley22)&rbrack; is a [[synthetic mathematics|synthetic]] foundations for [[parameterized stable homotopy theory|parameterized]] [[stable homotopy theory]]. This means that there should be an $\mathbb{A}^1$-cohesive [[bunched logic|bunched]] [[linear homotopy type theory]] which behaves as a synthetic foundations for [[motivic homotopy theory]]. 
 
 ## Presentation
 
