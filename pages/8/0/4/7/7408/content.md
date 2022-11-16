@@ -48,14 +48,7 @@ Every [[Boolean category]] $\mathcal{C}$ is a Boolean hyperdoctrine given by the
 
 ## Related concepts
 
-* [[first-order hyperdoctrine]]
-
-* [[geometric hyperdoctrine]]
-
-* [[coherent hyperdoctrine]]
-
-* [[regular hyperdoctrine]]
-
+[[!include categories and logic - table]]
 
 ## References
 
