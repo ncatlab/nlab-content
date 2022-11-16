@@ -120,6 +120,7 @@ nontrivial $P(X)$, but a syntactically presented one".
 * $T$ = [[Grpd]] the category of small groupoids, $P(B) = Set^B$
 
 ## Related notions
+ {#RelatedNotions}
 
 * [[comprehension]]
 
