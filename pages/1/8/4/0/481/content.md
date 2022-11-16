@@ -40,10 +40,6 @@ Every [[locally cartesian closed category|locally cartesian closed]] [[coherent 
 
 ## Related concepts
 
-* [[coherent category]]
-
-* [[Boolean category]]
-
 * [[De Morgan category]]
 
 * [[Heyting pretopos]]
@@ -51,6 +47,8 @@ Every [[locally cartesian closed category|locally cartesian closed]] [[coherent 
 * [[elementary topos]]
 
 * [[Heyting algebra]]
+
+[[!include categories and logic - table]]
 
 ## References
 
