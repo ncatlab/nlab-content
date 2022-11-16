@@ -148,6 +148,8 @@ This proof generalises immediately to any closed interval $[a,b]$, for $a$ any u
 
 The locale of real numbers form a [[localic ring]], a ring object in the category [[Loc]] of [[locales]]. Moreover, the ring structure on the discrete locale of [[rational numbers]] lifts up to a ring structure on the locale of real numbers. 
 
+[[localic group]]
+
 ## References
 
 An (impredicative) construction of the locale of real numbers can be found in section 5.3 of:
