@@ -171,6 +171,9 @@ A discussion was had on this page, now [archived at the nForum](https://nforum.n
 [[!redirects weakly predicative]]
 [[!redirects weakly predicative mathematics]]
 
+[[!redirects strongly predicative]]
+[[!redirects strongly predicative mathematics]]
+
 [[!redirects predicative mathematics]]
 [[!redirects predicative logic]]
 [[!redirects predicativism]]
