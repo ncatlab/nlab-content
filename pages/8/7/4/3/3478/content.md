@@ -35,11 +35,6 @@ One could also consider a basis of open sets such that the opens $U$ have (just)
 A [[locale]] $X$ is __locally contractible__ if, viewing a locale as a $(0,1)$-[[(0,1)-topos|topos]] and hence a (very special kind of) $(\infty,1)$-[[(infinity,1)-topos|topos]], it is [[locally infinity-connected (infinity,1)-topos|locally ∞-connected]].
 =--
 
-+-- {: .query}
-Is this right?  Do these two definitions correspond in that a [[sober space]] or [[topological locale]] is locally contractible as a topological space iff it\'s locally contractible as a locale?  ---Toby
-=--
-
-
 ## Examples 
 
 * Any [[CW-complex]] is locally contractible (see [there](CW+complex#CWComplexesAreLocallyContractible)).
