@@ -289,5 +289,12 @@ is absent.
 
 > [[non-perturbative effect|Non-perturbative methods]] were desperately needed.
 
+\linebreak
+
+* Minghui Ding, Craig D. Roberts, Sebastian M. Schmidt, *Emergence of Hadron Mass and Structure* $[$[arXiv:2211.07763](https://arxiv.org/abs/2211.07763)$]$
+
+  > (see the article for a wealth of relevant commentary)
+
+
 
 
