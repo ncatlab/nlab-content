@@ -19,7 +19,14 @@ A **De Morgan Heyting category** is a [[Heyting category]] $C$ (such as a [[topo
 
 Therefore, the [[subobject poset]] $Sub(X)$ of any [[object]] $X \in \mathrm{Ob}(C)$ is a [[De Morgan Heyting algebra]]. [[De Morgan's law]] and [[weak excluded middle]] hold in the [[internal logic]] of $C$. 
 
-In addition, every De Morgan Heyting category $C$ is a [[first-order hyperdoctrine|first order]] [[De Morgan Heyting hyperdoctrine]] given by the [[subobject poset]] [[functor]] $\mathrm{sub}:\mathcal{C}^{op} \to DeMorgHeytAlg$. 
+In addition, every De Morgan Heyting category $C$ is a [[first-order hyperdoctrine|first order]] De Morgan Heyting [[hyperdoctrine]] given by the [[subobject poset]] [[functor]] $\mathrm{Sub}:\mathcal{C}^{op} \to DeMorgHeytAlg$. 
+
+## Examples 
+
+* Every [[De Morgan topos]] is a De Morgan Heyting category. 
+
+* The category [[Set]] of [[sets]] and [[functions]] in [[strongly predicative]] [[constructive mathematics]] with [[weak excluded middle]] is a De Morgan Heyting category.  
+
 
 ## See also
 
