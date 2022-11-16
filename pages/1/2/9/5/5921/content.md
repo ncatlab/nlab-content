@@ -9,6 +9,8 @@
 =--
 =--
 
+\tableofcontents
+
 ## Idea
 
 **Disjunctive logic** is the [[internal logic]] of [[pre-lextensive categories]].  Roughly speaking this means it is [[cartesian logic]], with conjunction and "provably-unique existential quantification", together with "provably-disjoint disjunction".
@@ -32,17 +34,13 @@ Since inverse elements in a commutative ring are unique when they exist the seco
 
 ## Related entries
 
-* [[cartesian logic]]
-
-* [[regular logic]]
-
-* [[geometric logic]]
-
 * [[extensive category]]
 
 * [[disjoint union]]
 
 * [[connected limit]]
+
+[[!include categories and logic - table]]
 
 ## Link
 
