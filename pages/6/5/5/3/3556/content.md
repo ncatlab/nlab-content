@@ -85,6 +85,8 @@ One can even extend this into the realm not just of provability, but furthermore
 
 * [[coherent hyperdoctrine]]
 
+* [[geometric hyperdoctrine]]
+
 * [[Boolean hyperdoctrine]]
 
 * [[regular hyperdoctrine]]
