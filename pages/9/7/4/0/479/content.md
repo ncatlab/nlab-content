@@ -26,7 +26,7 @@ In addition, every Boolean category $\mathcal{C}$ is a [[first-order hyperdoctri
 ## Related entries
 
 * [[pretopos]]
-* [[De Morgan category]]
+* [[De Morgan Heyting category]]
 * [[positive category]]
 
 [[!include categories and logic - table]]
