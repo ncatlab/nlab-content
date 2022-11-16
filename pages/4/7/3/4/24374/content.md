@@ -32,10 +32,11 @@ $$\text{fix}_f = f \circ \text{next} \circ (\text{fix}_f)$$
 
 The idea here is that the recursive call is **guarded** by the $\text{next}$ map. 
 
-### Relation with the metric spaces
-The category of [[complete space|complete]], bisected, [[metric space|ultrametric spaces]] is a full subcategory of the topos of trees spanned by [[flabby objects]] ([Proposition 5.1](#BMSS2012), there called "total" objects).
 
-Inspired by terminology used in the metric spaces, every map $A \to A$ in $\text{Set}^{\omega^\text{op}}$ is non-expansive while maps of type $\triangleright A \to A$, or $\triangleright$-algebras, are called a contractive maps. 
+### Relation with the metric spaces
+Inspired by terminology used in the metric spaces, every map $X \to X$ in $\text{Set}^{\omega^\text{op}}$ is called *non-expansive* while a map $f : X \to X$ is *contractive* if it factors through the $\text{next}$ map, i.e. there exists a map $g : \triangleright X \to X$ such that $f = g \circ \text{next}$. 
+
+The category of [[complete space|complete]], bisected, [[metric space|ultrametric spaces]] is a full subcategory of the topos of trees spanned by [[flabby objects]] ([Proposition 5.1](#BMSS2012), there called "total" objects).
 
 ## Axiomatics
 [Palombi and Sterling](#PalombiSterling22) provide the following simple axiomatization of a model of (single-clock) synthetic guarded domain theory:
