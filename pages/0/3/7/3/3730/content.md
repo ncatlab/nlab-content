@@ -34,6 +34,10 @@ Generalization to [[flat infinity-connections]] via the [[dg-nerve]] and [[itera
 
 * [[Jonathan Block]], Aaron Smith, _A Riemann--Hilbert correspondence for infinity local systems_, [arXiv:0908.2843](http://arxiv.org/abs/0908.2843)
 
+Generalization to [[p-adic geometry]] is discussed in
+
+* [[Jacob Lurie]], _A Riemann--Hilbert Correspondence in p-adic Geometry_, [Felix Klein Lectures 2022](https://www.hcm.uni-bonn.de/events/eventpages/felix-klein-lectures/fkl-2022-lurie/).
+
 [[!redirects Riemann-Hilbert correspondence]]
 [[!redirects Riemann–Hilbert correspondence]]
 [[!redirects Riemann--Hilbert correspondence]]
