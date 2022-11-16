@@ -48,6 +48,8 @@ Every [[topos]] ([[Grothendieck topos]]) with [[point of a topos|enough points]]
 
 * [[amenable topological groupoid]]
 
+* [[localic groupoid]]
+
 
 ## References
 
