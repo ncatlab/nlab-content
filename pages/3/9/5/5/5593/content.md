@@ -166,6 +166,13 @@ A [[completely regular]] [[locale]] is [[compact]]
 if and only if it admits a complete uniformity
 that has a basis in which all covers are finite.
 
+## See also 
+
+* [[uniform space]]
+
+* [[preuniform locale]], [[uniform locale]]
+
+* [[premetric locale]], [[metric locale]]
 
 ## References
 
