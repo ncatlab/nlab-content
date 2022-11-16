@@ -50,6 +50,8 @@ Every [[Boolean category]] $\mathcal{C}$ is a Boolean hyperdoctrine given by the
 
 * [[first-order hyperdoctrine]]
 
+* [[geometric hyperdoctrine]]
+
 * [[coherent hyperdoctrine]]
 
 * [[regular hyperdoctrine]]
