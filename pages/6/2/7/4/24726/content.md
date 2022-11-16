@@ -146,11 +146,11 @@ The **Homotopy Type Theory Electronic Seminar Talks**, abbreviated as HoTTEST, i
 
 ### Autumn 2022
 
-* [[Amélia Liao]], *Univalent Category Theory*, 6 October 2022, ([video](https://www.youtube.com/watch?v=asY6dXkR2yg))
+* [[Amélia Liao]], *Univalent Category Theory*, 6 October 2022, ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Liao-2022-10-06-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=asY6dXkR2yg))
 
   > on [[category theory]] in [[univalent type theory|univalent]] [[cubical type theory]] in the [[1lab]]
 
-* [[Chris Grossack]], *Where are the open sets? Comparing HoTT with Classical Topology*, 6 October 2022, ([video](https://www.youtube.com/watch?v=syftUuf5Hpk))
+* [[Chris Grossack]], *Where are the open sets? Comparing HoTT with Classical Topology*, 6 October 2022, ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Grossack-2022-10-06-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=syftUuf5Hpk))
 
 ## See also
 
