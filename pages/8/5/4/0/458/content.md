@@ -500,6 +500,7 @@ There is also a notion of [[internal locale]], see also [[internal site]].
 
 * [[localic homotopy theory]]
 
+* [[geometric hyperdoctrine]]
 
 ## References 
 
