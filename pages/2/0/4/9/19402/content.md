@@ -106,16 +106,16 @@ The action $\rho \colon (g,x) \mapsto g \cdot x$ is called *proper* ([Palais 61,
 
 ### Lie group actions on smooth manifolds
 
-> How is the following not a trivial consequence of the fact that compact groups have proper action? Needs clarification.
+
 
 \begin{prop}\label{SmoothActionOfCompactLieGroupOnSmoothManifoldIsProper}
 
 Let $X$ be a [[smooth manifold]] and let $G$ be a [[compact Lie group]].
-Then every [[smooth function|smooth]] [[action]] of $G$ on $X$ is [[proper action|proper]].
+Then every [[continuous function|continuous]] [[action]] of $G$ on $X$ is [[proper action|proper]].
 
 \end{prop}
 
-(e.g. [Lee 12, Cor. 7.2](#Lee12))
+(e.g. [Lee 12, Cor. 21.6](#Lee12))
 
 For more see at _[[equivariant differential topology]]_.
 
