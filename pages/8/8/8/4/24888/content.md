@@ -61,11 +61,10 @@ There are a number of axioms which in general could be called an axiom of cohesi
 
 | number/symbol | name | requirement |
 |--------|------|-----------|
-| $C_0$ | cohesion/stable local connectedness | $R$ is a [[type]] |
-| $C_1$ | punctual cohesion/punctual local connectedness | $R$ is a [[pointed type]] |
+| $C_0$ | cohesion/stable [[locally ∞-connected (∞,1)-topos|local connectedness]] | $R$ is a [[type]] |
+| $C_1$ | punctual cohesion/punctual [[locally ∞-connected (∞,1)-topos|local connectedness]] | $R$ is a [[pointed type]] |
 | $C_2$ | contractible codiscreteness | $R$ is a non-trivial [[bi-pointed type|bi-pointed]] [[h-set]] |
 |  | discrete cohesion | $R$ is a [[contractible type]] |
-|  | [[locally contractible space|local contractibility]] | $R$ is a ... |
 |  | affine cohesion/algebraic cohesion/$\mathbb{A}^1$-cohesion | $R$ is an [[affine line]] |
 |  | [[compact connectedness]] | $R$ is a type and the [[type of booleans]] $\mathbb{2}$ is discrete |
 |  | [[continuum]] cohesion | $R$ is a [[Hausdorff space]] and $\mathbb{2}$ is discrete. |
