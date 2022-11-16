@@ -21,7 +21,7 @@
 
 The notion of _morphism_ in [[category theory]] is an abstraction of the notion of [[homomorphism]]. 
 
-In a general [[category]], a morphism is an [[arrow]] between two [[objects]]. The word [[map]] is also sometimes used as a synonym.
+In a general [[category]], a morphism is an [[arrow]] between two [[objects]]. The word *[[map]]* is also sometimes used as a synonym.
 
 ## Definition
 
