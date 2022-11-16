@@ -104,14 +104,7 @@ See _[[topos of types]]_.
 
 * [[2-category]] version: [[coherent 2-category]]
 
-* [[finitely complete category]], [[cartesian functor]], [[cartesian logic]], [[cartesian theory]]
-
-* [[regular category]], [[regular functor]], [[regular logic]], [[regular theory]], [[regular coverage]], [[regular topos]]
-
-* **coherent category**, [[coherent functor]], [[coherent logic]], [[coherent theory]], [[coherent coverage]], [[coherent topos]]
-
-* [[geometric category]], [[geometric functor]], [[geometric logic]], [[geometric theory]]
-
+[[!include categories and logic - table]]
 
 ## References
 
