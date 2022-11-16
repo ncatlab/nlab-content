@@ -171,7 +171,7 @@ This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is 
 
 * [[De Morganization]]
 * [[De Morgan Heyting algebra]]
-* [[De Morgan category]]
+* [[De Morgan Heyting category]]
 * [[Ore condition]]
 * [[double negation]]
 * [[topos]]
