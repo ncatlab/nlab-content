@@ -346,15 +346,15 @@ When the reg/lex completion is followed by the [[ex/reg completion]] which compl
  
 ## Related entries
 
-* [[exact category]], [[coherent category]], [[pretopos]]
+* [[exact category]], [[pretopos]]
 
 * [[regular 2-category]], [[regular derivator]], [[regular (∞,1)-category]]
-
-* [[regular logic]]
 
 * [[Barr embedding theorem]]
 
 * [[allegory]]
+
+[[!include categories and logic - table]]
 
 ## References
 
