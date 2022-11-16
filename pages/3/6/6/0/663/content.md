@@ -113,15 +113,7 @@ A [[duality]] between essentially algebraic theories and their categories of mod
 
 * [[generalized algebraic theory]]
 
-* [[finitely complete category]], [[cartesian functor]], [[cartesian logic]], **cartesian theory**
-
-* [[regular category]], [[regular functor]], [[regular logic]], [[regular theory]], [[regular coverage]], [[regular topos]]
-
-* [[coherent category]], [[coherent functor]], [[coherent logic]], [[coherent theory]], [[coherent coverage]], [[coherent topos]]
-
-* [[geometric category]], [[geometric functor]], [[geometric logic]], [[geometric theory]]
-
-* [[lextensive category]], [[disjunctive logic]]
+[[!include categories and logic - table]]
 
 ## References
  {#References}
