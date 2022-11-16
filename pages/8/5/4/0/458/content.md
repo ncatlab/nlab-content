@@ -487,6 +487,8 @@ sublocale with a measure 0 complement.
 
 * [[premetric locale]], [[metric locale]]
 
+* [[preuniform locale]], [[uniform locale]]
+
 There is also a notion of [[internal locale]], see also [[internal site]].
 
 
