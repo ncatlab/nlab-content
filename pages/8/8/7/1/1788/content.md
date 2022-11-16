@@ -26,9 +26,88 @@ $$
   \;\text{>}\;
   (H \otimes id)
   \;\text{do}\;
-  \;\text{save}\;
-  (b_1, b_2, z)
+  z_{b_1, b_2}
 $$
+
+\linebreak
+
+$$
+  QBit 
+  \xrightarrow{
+    BellPrep \otimes  Qbit
+  }
+  QBit \otimes QBit \otimes QBit
+  \xrightarrow{ QBit \otimes Alice }
+  Qbit \otimes \bigcirc_{B \times B} \mathbb{C}
+  \simeq
+  \bigcirc_{B \times B} QBit
+  \xrightarrow{ bind \; Bob }
+  \bigcirc_{B \times B} QBit
+$$
+
+\linebreak
+
+$
+  Alice 
+    \;\colon\; 
+  QBit \otimes Qbit
+    \to
+  \bigcirc_{B \times B} \mathbb{C}
+$
+
+$
+  Alice(\psi, bell_2)
+  \;=\;
+  parallelize(\psi, bell_2)
+  \;\text\;
+  (psi \otimes bell_2)
+  \;\text{>}\;
+  CNOT
+  \;\text{>}\;
+  (H \otimes  B)
+$
+
+\linebreak
+
+
+
+\linebreak
+
+$
+  Alice 
+  \;\colon\;
+  QBit 
+  \to
+  \QBit 
+  \to 
+  \bigcirc_{B^2} \mathbb{C}
+$
+
+$$
+  Alice(bell_1,\psi)
+  \;=\;
+  return (bee)
+$$
+
+
+$$
+  Bob
+  \;\colon\;
+  \bigcirc_{B^2} QBit
+  \to 
+  \bigcirc_{B^2} QBit
+$$
+
+$$
+  Bob( Data ) =
+  \text{for}\;
+  \psi \;\text{in}\; Data
+  \;\text{do}\;
+  \big(ZX(b_1, b_2)(\psi) \big)_{b_1, b_2}
+$$
+
+
+
 
 \linebreak
 
