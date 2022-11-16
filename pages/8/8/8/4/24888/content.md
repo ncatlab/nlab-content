@@ -65,9 +65,10 @@ There are a number of axioms which in general could be called an axiom of cohesi
 | $C_1$ | punctual cohesion/punctual local connectedness | $R$ is a [[pointed type]] |
 | $C_2$ | contractible codiscreteness | $R$ is a non-trivial [[bi-pointed type|bi-pointed]] [[h-set]] |
 |  | discrete cohesion | $R$ is a [[contractible type]] |
+|  | [[locally contractible space|local contractibility]] | $R$ is a ... |
 |  | affine cohesion/algebraic cohesion/$\mathbb{A}^1$-cohesion | $R$ is an [[affine line]] |
 |  | [[compact connectedness]] | $R$ is a type and the [[type of booleans]] $\mathbb{2}$ is discrete |
-|  | [[continuum]] cohesion | $R$ is a [[Hausdorff space]] (for every [[net]] or [[proper filter]] $N$ in $R$, the type of [[convergence|limits]] of $N$ is a [[subsingleton]]) and $\mathbb{2}$ is discrete. |
+|  | [[continuum]] cohesion | $R$ is a [[Hausdorff space]] and $\mathbb{2}$ is discrete. |
 |  | [[metric continuum]] cohesion | $R$ is a [[metric space]] and $\mathbb{2}$ is discrete. |
 | $\mathbb{R} \flat$ | [[Dedekind real number|real]] cohesion | Assuming the type theory has a [[type of all propositions]] $\Omega$, $R$ is a [[Dedekind completion]] (by [[two-sided Dedekind cuts]]) or [[Cauchy completion]] (by [[Cauchy filters]]) of a [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[lattice]] [[field]] |
 | $\mathbb{R}_{U} \flat$ | locally $U$-small real cohesion | Given [[type universe]] $U$, $R$ is a $U$-[[Dedekind completion]] (by [[two-sided Dedekind cuts]] in $U$) or $U$-[[Cauchy completion]] (by [[Cauchy filters]] or [[Cauchy nets]] in $U$) of a [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[lattice]] [[field]]. $R$ becomes $U$-small if $U$ has [[propositional resizing]], which is necessary for doing [[univalent mathematics]] inside a [[univalent universe]] $U$. |
