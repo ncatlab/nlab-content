@@ -127,15 +127,7 @@ nontrivial $P(X)$, but a syntactically presented one".
 
 * [[modal hyperdoctrine]]
 
-* [[first-order hyperdoctrine]]
-
-  * [[Boolean hyperdoctrine]]
-
-  * [[regular hyperdoctrine]]
-
-  * [[coherent hyperdoctrine]]
-
-  * [[geometric hyperdoctrine]]
+[[!include categories and logic - table]]
 
 ## References
 
