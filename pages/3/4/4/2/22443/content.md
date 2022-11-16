@@ -2899,6 +2899,11 @@ Further computations in:
 
 * {#BarNatan21} [[Dror Bar-Natan]], *[AcademicPensieve](http://drorbn.net/AcademicPensieve/)* [2021-05](http://drorbn.net/AcademicPensieve/2021-05/), *The Cayley distance kernel following arXiv://2105.0287 by Corfield, Sati, and Schreiber* ([nb](http://drorbn.net/AcademicPensieve/2021-05/CayleyDistanceKernel.nb), [pdf](http://drorbn.net/AcademicPensieve/2021-05/nb/CayleyDistanceKernel.pdf), [[BarNatanCayleyDistanceKernelnb.pdf:file]])
 
+Related discussion in:
+
+* {#ABS22} Iskander Azangulov, Viacheslav Borovitskiy, Andrei *Smolensky On power sum kernels on symmetric groups* &lbrack;[arXiv:2211.05650](https://arxiv.org/abs/2211.05650)&rbrack;
+
+
 Supplementary references:
 
 
