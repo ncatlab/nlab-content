@@ -562,6 +562,7 @@ The antithesis interpretation is
 [[!redirects intuitionistic linear logic]]
 [[!redirects ILL]]
 [[!redirects multiplicative intuitionistic linear logic]]
+[[!redirects multiplicative classical linear logic]]
 [[!redirects MILL]]
 [[!redirects multiplicative linear logic]]
 [[!redirects MLL]]
