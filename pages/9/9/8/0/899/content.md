@@ -6,7 +6,7 @@
 +--{: .hide}
 [[!include topology - contents]]
 =--
-#### Group Theoryc
+#### Group Theory
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
