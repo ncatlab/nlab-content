@@ -40,7 +40,7 @@ Every [[locally cartesian closed category|locally cartesian closed]] [[coherent 
 
 ## Related concepts
 
-* [[De Morgan category]]
+* [[De Morgan Heyting category]]
 
 * [[Heyting pretopos]]
 
