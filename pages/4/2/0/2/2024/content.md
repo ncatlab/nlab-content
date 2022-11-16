@@ -52,7 +52,7 @@ In the case of [[locales]], it is sufficient to require the above definition onl
 
 *  In constructive [[predicative mathematics]], a positivity predicate cannot be defined and so must be given as a structure on (predicative data that generate) the locale, as is done with a [[formal topology]].  Once this structure is assumed, one can then ask whether a formal topology is overt, i.e. whether the axiomatic positivity predicate satisfies the requisite adjointness.
 
-In impredicative constructive mathematics, overt locales can be characterized by the *positive covering lemma*: $X$ is overt iff every open $U\in O(X)$ can be covered by positive opens, and iff every covering of an open $U$ can be refined to a covering by positive elements.
+In impredicative constructive mathematics, [[overt locales]] can be characterized by the *positive covering lemma*: $X$ is overt iff every open $U\in O(X)$ can be covered by positive opens, and iff every covering of an open $U$ can be refined to a covering by positive elements.
 
 ## Examples
 
@@ -92,11 +92,6 @@ Some of the history is described in the introduction to:
 [[!redirects overt spaces]]
 [[!redirects open space]]
 [[!redirects open spaces]]
-
-[[!redirects overt locale]]
-[[!redirects overt locales]]
-[[!redirects open locale]]
-[[!redirects open locales]]
 
 [[!redirects locally (-1)-connected space]]
 [[!redirects locally (-1)-connected spaces]]
