@@ -48,11 +48,11 @@ The type $R$ is inhabited by $\kappa_R(\sigma_R)$, so it remains to show that fo
 In addition, if the [[type of booleans]] $\mathbb{2}$ is discrete, then $R$ is [[compact connected]]:
 
 \begin{theorem}
-Assuming a type $R$, a [[type of all propositions]] $\Omega$ with type reflector $T$, and the axiom of $R$-cohesion, if the function $\mathrm{const}_{2, R}$ is an equivalence of types, then for all functions $P:R \to \Omega$, if for all $x:R$, $T(P(x)) \vee \neg T(P(x))$ is contractible, then either for all $x:R$, $T(P(x))$ is contractible, or for all $x:R$, $T(P(x))$ is contractible. 
+Assuming a type $R$, a [[type of all propositions]] $\Omega$ with type reflector $T$, and the axiom of $R$-cohesion, if the function $\mathrm{const}_{2, R}$ is an equivalence of types, then for all functions $P:R \to \Omega$, if for all $x:R$, $T(P(x)) \vee \neg T(P(x))$ is contractible, then either for all $x:R$, $T(P(x))$ is contractible, or for all $x:R$, $\neg T(P(x))$ is contractible. 
 \end{theorem}
 
 \begin{proof}
-If $P:R \to \Omega$ is such that for all $x:R$, $T(P(x)) \vee \neg T(P(x))$ is contractible, then there is a function $P':R \to \mathbb{2}$ into the [[booleans type]] $\mathbb{2}$ with $\delta_{P'}^{1_2}(x):(P'(x) = 1_2)) \simeq T(P(x))$ and $\delta_{P'}^{0_2}(x):(P'(x) = 0_2)) \simeq \neg T(P(x))$. But if $\mathbb{2}$ is discrete, then by $R$-cohesion $f$ is constant. Thus, $R$ is compact connected if $\mathbb{2}$ is discrete. 
+If $P:R \to \Omega$ is such that for all $x:R$, $T(P(x)) \vee \neg T(P(x))$ is contractible, then there is a function $P':R \to \mathbb{2}$ into the [[booleans type]] $\mathbb{2}$ with $\delta_{P'}^{1_2}(x):(P'(x) = 1_2)) \simeq T(P(x))$ and $\delta_{P'}^{0_2}(x):(P'(x) = 0_2)) \simeq \neg T(P(x))$. But if $\mathbb{2}$ is discrete, then by $R$-cohesion $P'$ is constant, which implies that either for all $x:R$, $T(P(x))$ is contractible, or for all $x:R$, $\neg T(P(x))$ is contractible. Thus, $R$ is compact connected if $\mathbb{2}$ is discrete. 
 \end{proof} 
 
 ## Examples
