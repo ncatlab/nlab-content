@@ -85,14 +85,13 @@ Accordingly, there is a coherent hyperdoctrine associated with any [[coherent th
 
 ## Related concepts
 
-* [[regular hyperdoctrine]]
-* [[first-order hyperdoctrine]]
-
-* [[Boolean hyperdoctrine]]
+[[!include categories and logic - table]]
 
 ## References
 
 * Dion Coumans, _Generalizing canonical extensions to the categorical setting_ ([Arxiv](http://arxiv.org/abs/1204.3745))
  {#Coumans}
+
+* Graham Manuell, *Quantalic spectra of semirings*, ([arXiv:2201.06408](https://arxiv.org/abs/2201.06408))
 
 [[!redirects coherent hyperdoctrines]]
