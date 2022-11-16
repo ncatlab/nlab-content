@@ -35,6 +35,8 @@ A [[locale]] $L$ is **positive** if the top open sublocale $L \in \mathcal{O}(L)
 
 * [[Simon Henry]], Localic Metric spaces and the localic Gelfand duality ([arXiv:1411.0898v1](https://arxiv.org/abs/1411.0898v1))
 
+* Graham Manuell, *Uniform locales and their constructive aspects*, ([arXiv:2106.00678](https://arxiv.org/abs/2106.00678))
+
 [[!redirects positive locales]]
 [[!redirects positive open sublocale]]
 [[!redirects positive open sublocales]]
