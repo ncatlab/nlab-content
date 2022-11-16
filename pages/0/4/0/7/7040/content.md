@@ -25,6 +25,7 @@ Solovay proved that dream mathematics is [[consistent theory|consistent]] if the
 
 [[Saharon Shelah]] later showed that one could start with *any* model of $ZFC$ and construct a model of $ZF + DC$ in which every set of reals has the Baire property; on the other hand, [[Ernst Specker]] had already shown that an inaccessible cardinal must be consistent if the perfect set property is. Various intermediate consistency results for Lebesgue measurability are also known, but a complete characterisation is still elusive.
 
+François G. Dorais later showed in his answer to [[Alex Simpson]]'s [MathOverflow question](https://mathoverflow.net/questions/141801/how-strong-is-all-sets-are-lebesgue-measurable-in-weaker-contexts-than-zf) that $BZ + DC + LM$ proves the consistency of $ZFC$. It remains unclear whether something similar holds in [[constructive mathematics]] ($IBZ + DC + LM$) or with weaker choice principles such as [[countable choice]] ($BZ + CC + LM$). 
 
 ## Properties
 
@@ -45,6 +46,7 @@ All of the above statements are theorems (in $ZF$) for vector spaces with finite
 
 * _[[HAF]]_; end of Chapter 27.
 
+* [[Alex Simpson]], François G. Dorais, *How strong is "all sets are Lebesgue Measurable" in weaker contexts than ZF?* ([web](https://mathoverflow.net/questions/141801/how-strong-is-all-sets-are-lebesgue-measurable-in-weaker-contexts-than-zf))
 
 [[!redirects dream mathematics]]
 [[!redirects dream analysis]]
