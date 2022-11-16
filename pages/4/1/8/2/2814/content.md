@@ -25,16 +25,16 @@ A _monoidal functor_ is a [[functor]] between [[monoidal categories]] that prese
 +-- {: .num_defn #LaxMonoidalFunctor}
 ###### Definition
 
-Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ be two [[monoidal categories]]. A **lax monoidal functor** between them is
-
-1. a [[functor]] 
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ be two [[monoidal categories]]. A **lax monoidal functor** between them is a [[functor]]: 
 
    $$
      F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
      \,,
    $$
 
-1. a morphism
+together with coherence [[maps]]:
+
+1. a [[morphism]]
 
    $$
      \epsilon \;\colon\; 1_{\mathcal{D}} \longrightarrow F(1_{\mathcal{C}})
