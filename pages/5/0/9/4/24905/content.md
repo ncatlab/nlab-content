@@ -1,0 +1,53 @@
+
+
+\tableofcontents
+
+## Idea
+
+Neutral constructive mathematics is a branch of [[constructive mathematics]] which simply removes the [[axiom of choice]] and [[excluded middle]] from the [[axioms]] of the [[foundations]], and does not replace it either with weaker versions of the axiom of choice or with axioms which contradict the axiom of choice. 
+
+As a result, it is the [[internal logic]] of an [[elementary topos]] with [[natural numbers object]]. 
+
+## Examples
+
+Examples of mathematical foundations which one could do neutral constructive mathematics include:
+
+* [[Aczel-Myhill set theory]]
+
+* [[Martin-Löf type theory]] or [[XTT]] with a [[type of all propositions]]. 
+
+* intuitionistic [[ETCS]]
+
+* intuitionistic [[SEAR]]
+
+* intuitionistic [[Mostowski set theory]]
+
+## Consequences
+
+### Real analysis
+
+* In [[topology]], [[locales]] are usually better behaved than [[topological spaces]]. Thus, in [[real analysis]] one usually talks about the [[localic real numbers]] $\mathbb{R}_L$ rather than the [[Dedekind real numbers]] $\mathbb{R}_D$. Many statements, such as the [[Heine-Borel theorem]], the [[fundamental theorem of algebra]], et cetera, are true in the [[locale of real numbers]], while they are not provable in the [[Dedekind real numbers]]. Nevertheless, the [[Dedekind real numbers]] are still of interest, being the spatial points of the [[localic real numbers]], and the two notions coincide with [[excluded middle]]. 
+
+* Similarly, one usually talks about the localic complex numbers $\mathbb{C}_L$ or the localic real [[Clifford algebra]] $\mathrm{Cl}_{3, 0}(\mathbb{R}_L)$, et cetera, instead of the Dedekind [[complex numbers]] $\mathbb{C}_D$ or the Dedekind real Clifford algebra $\mathrm{Cl}_{3, 0}(\mathbb{R}_D)$. 
+
+* The [[modulated Cantor real numbers]] or [[Eudoxus real numbers]] $\mathbb{R}_C$ are a subset of the [[Dedekind real numbers]], but cannot be proven to be equivalent to the [[Dedekind real numbers]], nor can they be proven to be [[sequentially Cauchy complete]]. Nevertheless, the modulated Cantor real numbers are of interest since they are defined using [[sequences]] of [[rational numbers]], [[locators]], or almost linear homomorphisms on the [[integers]], and thus are the ones which could be computed with in an algorithm, (see [[exact real arithmetic]]). 
+
+* The [[HoTT book real numbers]] $\mathbb{R}_H$ are the minimum subset of the [[Dedekind real numbers]] for which [[analytic functions]] like the [[exponential function]], [[sine]], and [[cosine]] are well-defined, as well as the [[Jordan content]] and [[Riemann integration]]. They are defined as the sequential Cauchy completion of the [[rational numbers]].
+
+* Unsigned decimal digits are not sufficient to represent the modulated Cantor real numbers, one has to use signed decimal digits instead. 
+
+* For functions on the real numbers, local uniform continuity is better behaved than pointwise continuity, and local uniform differentiability is better behaved than pointwise differentiability. 
+
+### Algebra
+
+* Not every subset has an injection into the superset. Thus, subsets with an injection are usually better behaved than general subsets. 
+
+* Not every vector space has a basis. Thus, free vector spaces are usually better behaved than vector spaces in general. 
+
+## See also
+
+* [[Jason Rute]], *What is neutral constructive mathematics*, ([MathOverflow](https://mathoverflow.net/questions/404270/what-is-neutral-constructive-mathematics/404313#404313))
+
+There was a seminar on neutral constructive mathematics:
+
+* Mathematical Logic and Constructivity: *The Scope and Limits of Neutral Constructivism*, Stockholm, Sweden, August 20-23, 2019 ([website](http://logic.math.su.se/mloc-2019/))
