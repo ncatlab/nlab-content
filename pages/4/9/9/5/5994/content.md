@@ -36,7 +36,7 @@ For definiteness, we consider a [[sigma model]] [[quantum field theory]] on a wo
 
 * [[boson]]s: [[smooth function]]s $\phi : \Sigma \to X$
 
-* [[fermion]]s ([[gravitino]]): $\psi \in \Gamma(S(\Sigma) \otimes \phi^* T M)$, [[section]]s of the [[tensor product]] of a [[spinor bundle]] on $\Sigma$ and the [[pullback]] of the [[cotangent bundle]] of $X$ along the given bosonic field $\phi$.
+* [[fermion]]s ([[gravitino]]): $\psi \in \Gamma(S(\Sigma) \otimes \phi^* T X)$, [[section]]s of the [[tensor product]] of a [[spinor bundle]] on $\Sigma$ and the [[pullback]] of the [[cotangent bundle]] of $X$ along the given bosonic field $\phi$.
 
 The [[action functional]]
 
