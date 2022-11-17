@@ -373,6 +373,10 @@ One can also write down stronger axioms on a topos such that if they are satisfi
 
 ## Making alternate primitive choices
 
+### Three-sorted SEAR
+
+An alternate formulation of the theory uses three [[sorts]], one for [[sets]], [[elements]], and [[relations]], making SEAR into a [[three-sorted set theory]]. The membership $a \in A$ becomes a [[relation]] between the sort of elements and the sort of [[sets]], while the relational domain and codomain notation $\varphi:A \looparrowright B$ also becomes a ternary relation between the sort of relations, and two copies of the sort of sets. There is a quinary relation $\mathrm{holds}(A, B, \varphi, a, b)$ between all three sorts, which says that given sets $A$ and $B$, the relation $\varphi$ holds for element $a$ and $b$ in the [[context]] of $\varphi:A \looparrowright B$, $a \in A$, and $b \in B$. 
+
 ### SEPS: Using pairs and subsets instead of relations {#SEPS}
 
 An alternate formulation of the theory, suggested by Toby, has four primitive notions: sets, elements, subsets, and a pairing operation.  Sets and elements are as before.  A *subset* is, like an element, attached to a certain set; it is always a subset *of* some set.  Thus we have a typing declaration $S\subseteq A$.  We also have a primitive notion of when an element $x\in A$ *belongs to* a subset $S\subseteq A$; thus now we have $x\in S$ as a possible assertion of the theory (analogous to $R(x,y)$ before).  We allow a typed equality predicate for subsets.  Finally, there is an operation which assigns to every pair of sets $A$ and $B$ a set $A\times B$, and to every pair of elements $x\in A$ and $y\in B$ an element $(x,y)\in A\times B$.
@@ -525,3 +529,4 @@ The following pages develop various aspects of set theory in SEAR or related the
 * [[ETCS with elements]]: A version of [[ETCS]] that, like SEAR, includes elements as a primitive. 
 
 [[!redirects SEPS]]
+[[!redirects three-sorted SEAR]]
