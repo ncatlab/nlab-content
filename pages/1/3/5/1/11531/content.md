@@ -44,9 +44,11 @@ Suppose $\theta_7 \in \pi_{254}(\mathbb{S})$ exists then the detection theorem i
 
 ## References
 
-The solution of the problem in the negative, except for one outstanding dimension (namely 126), appears in
+A solution of the problem in the negative, except for one outstanding dimension (namely 126), using methods of [[equivariant stable homotopy theory]]:
 
-* {#HillHopkinsRavenel09} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _On the non-existence of elements of Kervaire invariant one_, Annals of Mathematics Volume 184 (2016), Issue 1 ([doi:10.4007/annals.2016.184.1.1](https://doi.org/10.4007/annals.2016.184.1.1), [arXiv:0908.3724](http://arxiv.org/abs/0908.3724), [talk slides](https://www.math.rochester.edu/people/faculty/doug/otherpapers/Skye_handout.pdf)) 
+* {#HillHopkinsRavenel09} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], *On the non-existence of elements of Kervaire invariant one*, Annals of Mathematics **184** 1 (2016)&lbrack;[doi:10.4007/annals.2016.184.1.1](https://doi.org/10.4007/annals.2016.184.1.1), [arXiv:0908.3724](http://arxiv.org/abs/0908.3724), [talk slides](https://www.math.rochester.edu/people/faculty/doug/otherpapers/Skye_handout.pdf)&rbrack; 
+
+* {#HillHopkinsRavenel21} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], *Equivariant Stable Homotopy Theory and the Kervaire Invariant Problem*, New Mathematical Monographs, Cambridge University Press (2021) &lbrack;[doi:10.1017/9781108917278](https://doi.org/10.1017/9781108917278)&rbrack;
 
 * {#HillHopkinsRavenel} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire problem in algebraic topology: Sketch of the proof_, Current Developments in Mathematics, 2010: 1-44 (2011) ([[HHRKervaire.pdf:file]], [doi:10.4310/CDM.2010.v2010.n1.a1](https://dx.doi.org/10.4310/CDM.2010.v2010.n1.a1))
 
@@ -60,8 +62,7 @@ More resources are collected at
 
 * [[Douglas Ravenel]], _[A solution to the Arf-Kervaire invariant problem](http://www.math.rochester.edu/people/faculty/doug/kervaire.html)_, web resources 2009
 
-* {#HillHopkinsRavenelIntroduction} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire invariant problem in algebraic topology: introduction_, 2016
-([pdf](http://math.ucla.edu/~mikehill/Research/CDMHistory.pdf))
+* {#HillHopkinsRavenelIntroduction} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire invariant problem in algebraic topology: introduction_ (2016) ([pdf](http://math.ucla.edu/~mikehill/Research/CDMHistory.pdf))
 
 [[!redirects Kervaire invariant one problem]]
 [[!redirects Kervaire invariant problem]]
