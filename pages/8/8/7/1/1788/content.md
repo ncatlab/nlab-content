@@ -1,6 +1,184 @@
 
-* {#May96} [[Peter May]] et al., _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington DC (1996) &lbrack;[ISBN: 978-0-8218-0319-6](https://bookstore.ams.org/cbms-91/?startBookmarkIdx=200),  [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf), [[MayEtAlEquivariant96.pdf:file]]&rbrack;
 
+$$
+  \array{
+    J 
+    &\colon&
+    Type 
+    &\longrightarrow&
+    LType
+    \\
+    &&
+    X 
+    &\mapsto&
+    p_X^\ast \mathbb{1}
+  }
+$$
+
+\begin{example}
+**([[linear span]])**
+\linebreak
+For $\mathbb{K}$ any [[ground field]], consider:
+
+1. $\mathbf{J} \coloneqq $ [[Set]];
+
+1. $\mathbf{C} \coloneqq \int_{B \colon Set} Vect_B$ the category of [[indexed sets]] of [[vector spaces]] -- hence of [[vector bundles]] over [[sets]] (i.e. over [[discrete topological spaces]])
+
+   $$
+     \array{
+       \mathscr{H}
+       \\
+       \big\downarrow
+       \\
+       B
+     }
+   $$
+
+
+   with possibly base-changing vector bundle [[maps]] between them: 
+
+
+   $$
+     \array{
+       \mathscr{H}
+       &\longrightarrow&
+       \mathscr{H}'
+       \\
+       \big\downarrow
+       &&
+       \big\downarrow
+       \\
+       B
+       &\underset{f}{\longrightarrow}&
+       B'
+     }
+   $$
+
+
+
+1. the relativization functor given by sending a set to the [[trivial bundle|trivial]] [[tensor unit]]-bundle over it:
+
+   \[
+     \label{FormingTrivialTensorUnitBundle}
+     \array{
+       J 
+       &\colon&
+       Set
+       &\longrightarrow&
+       \int_{S \colon S} Vect_S
+       \\
+       &&
+       B
+       &\mapsto&
+       B \times \mathbb{K}
+     }
+   \]
+
+Notice that for each [[map]] $f \;\colon\; B \to B'$ of base sets, there is a [[base change]] [[adjoint triple]] of functors 
+
+$$
+  f_! \dashv f^\ast \dashv f_\ast
+  \;\;\colon\;\;
+  Vect_{B}
+  \leftrightarrow
+  Vect_{B'}
+  \,.
+$$
+
+In particular, for $S' = \ast$ the [[terminal object|terminal]] [[singleton set]], the left base change along the unique $p_X \colon S \to \ast$ is the operation which forms the [[direct sum]] of the ([[fiber]]-)vector spaces in the bundle, and regards the resulting [[vector space]] as a bundle over the point:
+
+$$
+  (p_B)_! 
+  \;\colon\;
+  Vect_B 
+    \longrightarrow 
+  Vect_\ast \,=\, Vect
+  \,.
+$$
+
+In view of this, we claim that the functor   
+
+$$
+  \array{
+    Q
+    &\colon&
+    Set
+    &\longrightarrow&
+    \int_{B \colon Set} Vect_{B}
+    \\
+    &&
+    S
+    &\mapsto&
+    (p_B)_!\big( B \times \mathbb{K} \big)
+    \mathrlap{
+      \;\simeq\;
+      \underset{b \colon B}{\bigoplus} \mathbb{K}
+    }
+  }
+$$
+
+which may be understood as sending a [[set]] to its $\mathbb{K}$-[[linear span]],
+
+carries the structure of a monad relative to the functor $J$ from (eq:FormingTrivialTensorUnitBundle) with
+
+1. [[unit of a monad|unit]] given by
+
+   $$
+     \array{
+       \eta_{B}
+       &\colon&
+       B \times \mathbb{K}
+       &\longrightarrow&
+       \underset{b \colon B}{\bigoplus} \mathbb{K}
+       \\
+       &&
+       (b,k) &\mapsto& (k)_b
+     }
+   $$
+
+1. [[extension system|Kleisli extension]] given by
+
+   $$
+     \Big(
+       B \times \mathbb{K} 
+         \xrightarrow{f}
+       \underset{
+         \mathclap{b' \colon B'}
+       }{\oplus} \mathbb{K}
+     \Big)
+     \;\;\;\;\mapsto\;\;\;\;
+     \Big(
+       \underset{b \colon B}{\oplus} \mathbb{K}     
+       \xrightarrow{
+         \big( 
+           f(b,-) 
+         \big)_{b \colon B}
+       }
+       \underset{b' \colon B}{\oplus} \mathbb{K}     
+     \Big)
+   $$
+
+
+
+\end{example}
+
+
+
+$$
+  \array{
+    (p_X)^\ast \mathbb{1}  
+    \to
+    \mathscr{H}
+    \\
+    \hline
+    \\
+    (p_X)_! 
+    (p_X)^\ast
+    \mathbb{1}
+    \to
+    \mathscr{H}
+  }
+$$
 
 
 $$
