@@ -552,7 +552,9 @@ The connection between locales and toposes via lex totality plays a tacit role t
 
 * {#JT} [[André Joyal]] and [[Myles Tierney]], _An Extension of the Galois Theory of Grothendieck_, Memoirs of the American Mathematical Society 51 (1984). 
 
+A basic introduction to locale theory can be found in section 1 of 
 
+* [[Ingo Blechschmidt]], *Generalized spaces for constructive algebra*, ([arXiv:2012.13850](https://arxiv.org/abs/2012.13850))
 
 [[!redirects locale]]
 [[!redirects locales]]
