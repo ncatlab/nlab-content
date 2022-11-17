@@ -48,11 +48,13 @@ Thus, constructivists (including many still active today) reject proofs that mak
 
 There are, however, differences among constructivists as well, even discounting the pluralists.
 
-* Some, like [[Errett Bishop]], simply remove choice and excluded middle from [[classical mathematics]] with nothing to replace them.  (Although this is not quite a correct and complete description of [[Bishop's constructive mathematics]]; see there.)   However, this makes it difficult to define a satisfactory notion of [[continuous function]], even from the [[real line]] to itself, without using [[locales]]; see (Waaldijk 2003).
+* Some, like [[Fred Richman]] (see (Richman 2000)), simply remove choice and excluded middle from [[classical mathematics]] with nothing to replace them. This is called [[neutral constructive mathematics]]. However, this makes it difficult to define a satisfactory notion of [[continuous function]], even from the [[real line]] to itself, without using [[locales]]; see (Waaldijk 2003).
+
+* Others accept weaker versions of choice, such as [[countable choice]] or even [[dependent choice]]. [[Toby Bartels]] argues that the intuition behind accepting these justifies the (yet stronger) [[presentation axiom]] (that [[the category of sets]] has [[enough projectives]]). 
 
 * Others add "non-classical" axioms which contradict choice or excluded middle, but which are consistent in their absence, such as "all total functions $[0,1] \to \mathbb{R}$ are continuous" (the [[continuity axiom]] of the "[[intuitionism|intuitionistic]]" school of [[L. E. J. Brouwer]]) or "all partial functions $\mathbb{N} \to \mathbb{N}$ are computable" (the [[computability axiom]] of the "[[Russian constructivism|Russian]]" school of [[Andrey Markov Jr|A. A. Markov]], which is also called "constructive recursive analysis").
 
-* Most accept weaker versions of choice, such as [[countable choice]] or even [[dependent choice]].  [[Toby Bartels]] argues that the intuition behind accepting these justifies the (yet stronger) [[presentation axiom]] (that [[the category of sets]] has [[enough projectives]]).  On the other hand, [[Fred Richman]] rejects even these limited forms of choice; see (Richman 2000).
+* [[Errett Bishop]] had his own branch of constructive mathematics, known as [[Bishop's constructive mathematics]] or [[BISH]], where [[equality]] and [[sets]] are defined notion rather than a primitive on [[sets]]. 
 
 * Still others, following [[Hermann Weyl]], go even further and refuse to allow "impredicative" constructions; see [[predicative mathematics]].  Most of the work done by the schools of Brouwer, Bishop, and Markov (but not Richman) is also predicative, even though those founders were not adamant about it; as a result, predicativism often appears in the [[foundations]] of constructive mathematics (in particular, in those of [[Peter Aczel|Aczel]] and [[Per Martin-Löf|Martin-Löf]], but not those of [[Harvey Friedman|Friedman]] or [[Thierry Coquand|Coquand]]).
 
@@ -63,6 +65,8 @@ There are, however, differences among constructivists as well, even discounting 
 Many constructivists (like many classical mathematicians) believe in an absolute mathematical sense of "truth," and that in this sense choice and excluded middle are simply _wrong_.  (Some constructivists, using classically false axioms, can even refute them; others merely claim that no possible correct reasoning could ever prove them.  See [Truth versus assertability](#truevassert) below.)  To most mathematicians, this makes them seem quite strange.  Other constructivists adopt a wait-and-see attitude, or even a relative notion of truth (which can seem strange in another way).
 
 The following is a partial list of schools and subtheories of constructive mathematics:
+
+* [[neutral constructive mathematics]]
 
 * Brouwer's [[intuitionistic mathematics]]
 
