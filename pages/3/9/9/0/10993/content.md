@@ -21,12 +21,7 @@
 
 ## Idea
 
-A _relative monad_ is what is to a _[[relative adjunction]]_ as a [[monad]] is to an [[adjunction]].
-
-In [ACU14](#ACU14), the authors proved that a relative monad on a functor $J \colon \mathbf J \to \mathbf C$ are 'skew-monoids in the [[skew-monoidal category]] $[\mathbf J, \mathbf C]$' (see below).
-
-The specialization of the following definition to plain monads, hence to the case $J = id$, yields at face value not the traditional definition of [[monads]] but the (equivalent) definition of *[[extension systems]]* (also "[[Kleisli triples]]", being the form of [[monads in computer science]]).
-
+A _relative_ monad $T : \mathbf J \to \mathbf C$ is like a monad except that it is not an [[endofunctor]], but more generally a functor between two different categories. To even formulate such a notion, (for instance the definition of the [[unit]]), the two categories have to be related somehow, typically by there being a specified functor $J \colon \mathbf J \to \mathbf C$, in which case we say that $T$ is a monad *relative to* $J$. Ordinary monads are then the special case where $J$ is the identity functor.
 
 ## Definitions
  {#Definition}
@@ -36,7 +31,6 @@ Let $\mathbf J, \mathbf C$ be [[categories]] and $J \colon \mathbf J \to \mathbf
 
 ### As skew Kleisi triples
  {#AsSkewKleisliTriples}
-
 
 \begin{definition}
 \label{def}
@@ -91,6 +85,16 @@ Then $[\mathbf J, \mathbf C]$ is skew-monoidal, with unit $J$ and product $F \ci
 \end{theorem}
 
 When $J:\mathbf J \to \mathbf C$ is a free completion of $\mathbf{J}$ under colimits from some set $\mathcal{F}$ of indexing types, then this skew-monoidal structure on $[\mathbf J, \mathbf C]$ is properly monoidal, since it is equivalent to the $\mathcal{F}$-colimit preserving functors $\mathbf C\to\mathbf C$, and the monoidal structure is just functor composition. 
+
+### Relative to a Profunctor
+
+The above definition makes sense even more generally when $J$ is a [[profunctor]] $\mathbf J^{op} \times \mathbf {C} \to Set$, i.e., we require
+
+1.  a unit $\eta_X \colon J(X, T X)$, a [[natural transformation|natural]] in $X \colon \mathbf J$, that is an element of the [[end]], $\eta \in \int_{X: \mathbf J}J(X, T X)$
+
+2.  a _[[extension system|Kleisli extension]]_ $(-)^* \colon J(X, T Y) \to \mathbf C(T X, T Y)$ natural in both $X,Y \colon \mathbf J$
+
+with essentially the same equations. This generalizes the previous definition by defining the profunctor to be $\mathbf C(J-,=)$.
 
 ## Examples
 
@@ -314,6 +318,8 @@ $$
 
 
 ## Related pages
+
+* [[relative adjunction]]
 
 * [[relative comonad]]
 
