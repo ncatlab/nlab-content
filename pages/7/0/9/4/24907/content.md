@@ -21,7 +21,8 @@ Simply sorted set theory could be distinguished between how many sorts the theor
 
 * one-sorted set theory, which include certain presentations of [[ZFC]], [[Mostowski set theory]], [[fully formal ETCS]], and [[ZFA]]
 * [[two-sorted set theory]], which include certain presentations of [[ETCS]] and [[ZFA]], 
-* [[three-sorted set theory]], which include certain presentations of [[structural ZFC]], [[ETCS with elements]], and [[SEAR]]. 
+* [[three-sorted set theory]], which include [[three-sorted SEAR]] as well as certain presentations of [[structural ZFC]] and [[ETCS with elements]]. 
+* four-sorted set theory, which include certain presentations of [[SEPS]]. 
 
 ## Notions of sets and elements
 
