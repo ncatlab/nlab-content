@@ -65,10 +65,10 @@ A more detailed description of the situation can be found in [Dorn and Douglas 2
 
 ## References
 
-* {#BaezDolan95} [[John Baez]] and [[James Dolan]], _Higher-dimensional Algebra and Topological Quantum Field Theory_ 1995 ([arXiv](http://arxiv.org/abs/q-alg/9503002))
+* {#BaezDolan95} [[John Baez]] and [[James Dolan]], _Higher-dimensional Algebra and Topological Quantum Field Theory_, 1995 ([arXiv](http://arxiv.org/abs/q-alg/9503002))
 
-* {#Carter} Scott Carter, _An excursion in diagrammatic algebra_, 2012
+* {#Carter} [[Scott Carter]], _An excursion in diagrammatic algebra_, 2012, World Scientific ([doi:10.1142/8315](https://doi.org/10.1142/8315))
 
-* {#DornDouglas22} Christoph Dorn and Christopher Douglas, _Manifold diagrams and tame tangles_, 2022 ([pdf](https://cxdorn.github.io/assets/pdfs/mdiag_latest.pdf))
+* {#DornDouglas22} [[Christoph Dorn]] and [[Christopher Douglas]], _Manifold diagrams and tame tangles_, 2022 ([pdf](https://cxdorn.github.io/assets/pdfs/mdiag_latest.pdf))
 
-* {#DornDouglas22B} Christoph Dorn and Christopher Douglas, _A brief introduction to framed combinatorial topology_, 2022 ([pdf](https://cxdorn.github.io/assets/pdfs/fctintro_latest.pdf))
+* {#DornDouglas22B} [[Christoph Dorn]] and [[Christopher Douglas]], _A brief introduction to framed combinatorial topology_, 2022 ([pdf](https://cxdorn.github.io/assets/pdfs/fctintro_latest.pdf))
