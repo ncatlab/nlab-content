@@ -239,11 +239,6 @@ Formalization of Cauchy real numbers in [[homotopy type theory]] is discussed in
 [[!redirects Cauchy real]]
 [[!redirects Cauchy reals]]
 
-[[!redirects Cantor real number]]
-[[!redirects Cantor real numbers]]
-[[!redirects Cantor real]]
-[[!redirects Cantor reals]]
-
 [[!redirects modulated Cauchy real number]]
 [[!redirects modulated Cauchy real numbers]]
 [[!redirects modulated Cauchy real]]
@@ -253,6 +248,22 @@ Formalization of Cauchy real numbers in [[homotopy type theory]] is discussed in
 [[!redirects regular Cauchy real numbers]]
 [[!redirects regular Cauchy real]]
 [[!redirects regular Cauchy reals]]
+
+[[!redirects Cantor real number]]
+[[!redirects Cantor real numbers]]
+[[!redirects Cantor real]]
+[[!redirects Cantor reals]]
+
+[[!redirects modulated Cantor real number]]
+[[!redirects modulated Cantor real numbers]]
+[[!redirects modulated Cantor real]]
+[[!redirects modulated Cantor reals]]
+
+[[!redirects regular Cantor real number]]
+[[!redirects regular Cantor real numbers]]
+[[!redirects regular Cantor real]]
+[[!redirects regular Cantor reals]]
+
 
 [[!redirects sequential real number]]
 [[!redirects sequential real numbers]]
