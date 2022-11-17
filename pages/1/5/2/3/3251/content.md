@@ -142,9 +142,11 @@ and a more modern version taking into account the theory of [[symmetric monoidal
 
 * [[Michael  Mandell]], [[Peter May]], _Equivariant orthogonal spectra and S-modules_, Mem. Amer. Math. Soc. 159 (2002), no. 755, x+108. MR 2003i:55012 ([pdf](http://www.math.uiuc.edu/K-theory/0408/MMM.pdf), [K-theory archive](http://www.math.uiuc.edu/K-theory/0408/))
 
-See also
+Solving the [[Arf-Kervaire invariant problem]] with methods of [[equivariant stable homotopy theory]] (and reviewing these):
 
-* {#HillHopkinsRavenel09} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], Appendix of: _On the non-existence of elements of Kervaire invariant one_, Annals of Mathematics Volume 184 (2016), Issue 1 ([doi:10.4007/annals.2016.184.1.1](https://doi.org/10.4007/annals.2016.184.1.1), [arXiv:0908.3724](http://arxiv.org/abs/0908.3724), [talk slides](https://www.math.rochester.edu/people/faculty/doug/otherpapers/Skye_handout.pdf)) 
+* {#HillHopkinsRavenel09} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], *On the non-existence of elements of Kervaire invariant one*, Annals of Mathematics **184** 1 (2016)&lbrack;[doi:10.4007/annals.2016.184.1.1](https://doi.org/10.4007/annals.2016.184.1.1), [arXiv:0908.3724](http://arxiv.org/abs/0908.3724), [talk slides](https://www.math.rochester.edu/people/faculty/doug/otherpapers/Skye_handout.pdf)&rbrack; 
+
+* {#HillHopkinsRavenel21} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], *Equivariant Stable Homotopy Theory and the Kervaire Invariant Problem*, New Mathematical Monographs, Cambridge University Press (2021) &lbrack;[doi:10.1017/9781108917278](https://doi.org/10.1017/9781108917278)&rbrack;
 
 
 Lecture notes are in
