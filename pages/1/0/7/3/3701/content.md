@@ -144,13 +144,31 @@ Let $J$ be the join of $(-\infty,0)$, $(1,\infty)$, and the elements of $\mathca
 
 This proof generalises immediately to any closed interval $[a,b]$, for $a$ any upper real and $b$ any lower real.  But note that we do not say 'extended' here; we need to find some rational number (analogous to $-1$ in the proof above) smaller than $a$ and some rational number (analogous to $2$ above) larger than $b$.  So the Heine--Borel theorem applies only to *bounded* closed intervals.
 
-## Arithmetic
+## As a classifying locale
 
-The locale of real numbers form a [[localic ring]], a ring object in the category [[Loc]] of [[locales]]. Moreover, the ring structure on the discrete locale of [[rational numbers]] lifts up to a ring structure on the locale of real numbers. 
+The locale of real numbers is the [[classifying locale]] of the [[geometric theory]] of [[Dedekind real numbers]]. 
 
-More generally, given any continuous function $x \mapsto f(x)$ on the [[Dedekind real numbers]], and a [[geometric morphism]] $F:\mathrm{Set} \to \mathrm{Sh}(\mathbb{R}_D)$ from [[Set]] to the [[sheaf topos]] on the [[Dedekind real numbers]], if for all Dedekind real numbers $x \in \mathbb{R}_D$, $f(F^*(x)) = F^*(f(x))$, then the function $x \to f(x)$ lifts to a function $x \mapsto f'(x)$ on the locale of real numbers. 
+## Defining functions in the locale of real numbers
+
+There are two general ways to define functions on the locale of real numbers, via the [[rational numbers]] and via the [[Dedekind real numbers]].
+
+### Using the rational numbers
+
+The first approach uses existing functions already defined on the [[rational numbers]] $\mathbb{Q}$. Suppose that one has a locally uniformly continuous function $f:\mathbb{Q} \to \mathbb{Q}$. Then one could extend $f$ to a continuous map $f':\mathbb{R} \to \mathbb{R}$ on the locale of real numbers. 
+
+### Using the Dedekind real numbers. 
+
+The other approach is via using existing functions defined on the [[Dedekind real numbers]] $\mathbb{R}$. In particular, given any well-defined continuous function $x \mapsto f(x)$ on the [[Dedekind real numbers]], and a [[geometric morphism]] $F:\mathrm{Sh}(\mathbb{R}_D) \to \mathrm{Set}$ from the [[sheaf topos]] $\mathrm{Sh}(\mathbb{R}_D)$ to [[Set]], if for all Dedekind real numbers $x \in \mathbb{R}_D$, $f(F^*(x)) = F^*(f(x))$, then the function $x \mapsto f(x)$ lifts to a function $x \mapsto f'(x)$ on the locale of real numbers. 
+
+This allows us to first define real-valued functions normally on the set of [[Dedekind real numbers]], and then lift them up to a real-valued function on the locale of real numbers, thus allowing us to define functions such as the [[exponential function]], the [[sine]], and the [[cosine]] which can't be directly defined using functions on the rational numbers. 
+
+### Arithmetic
+
+Significantly, since the [[field]] operations on the discrete locale of [[rational numbers]] are all locally uniformly continuous on the $\mathbb{Q}$, and the field operations are well-defined and continuous on the Dedekind real numbers $\mathbb{R}_D$, the field operations in both cases lift up to a field structure on the locale of real numbers, allowing one to do basic [[arithmetic]] on $\mathbb{R}$. 
 
 ## References
+
+* [[Simon Henry]], *Localic Metric spaces and the localic Gelfand duality*, ([arXiv:1411.0898](https://arxiv.org/abs/1411.0898))
 
 An (impredicative) construction of the locale of real numbers can be found in section 5.3 of:
 
@@ -158,7 +176,9 @@ An (impredicative) construction of the locale of real numbers can be found in se
 
 On lifting functions from the [[Dedekind real numbers]] to the locale of real numbers, see:
 
-* [[Valery Isaev]], [[Simon Henry]], *Locallic maps given by series* ([web](https://mathoverflow.net/questions/426682/locallic-maps-given-by-series/426692#426692))
+* Madeleine Birchfield, [[Simon Henry]], *The field structure on the locale of real numbers*, ([MathOverflow](https://mathoverflow.net/questions/434706/the-field-structure-on-the-locale-of-real-numbers))
+
+* [[Valery Isaev]], [[Simon Henry]], *Locallic maps given by series* ([MathOverflow](https://mathoverflow.net/questions/426682/locallic-maps-given-by-series/426692#426692))
 
 [[!redirects the locale of real numbers]]
 [[!redirects locale of real numbers]]
