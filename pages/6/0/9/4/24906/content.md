@@ -19,9 +19,11 @@ Three-sorted set theories are [[set theories]] with three different sorts, repre
 
 ## Examples
 
-* There is a three-sorted presentation of [[structural ZFC]]. 
+* [[three-sorted SEAR]]
 
-* Similarly, there should be three-sorted presentations of [[ETCS with elements]] and [[SEAR]], although they have not been written out yet. 
+* [[three-sorted structural ZFC]]
+
+* Similarly, there should be three-sorted presentations of [[ETCS with elements]], although it has not been written out yet. 
 
 ## See also
 
