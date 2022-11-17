@@ -28,39 +28,62 @@ In [ACU14](#ACU14), the authors proved that a relative monad on a functor $J \co
 The specialization of the following definition to plain monads, hence to the case $J = id$, yields at face value not the traditional definition of [[monads]] but the (equivalent) definition of *[[extension systems]]* (also "[[Kleisli triples]]", being the form of [[monads in computer science]]).
 
 
-## Definition
+## Definitions
 
-Let $\mathbf J, \mathbf C$ be categories and $J: \mathbf J \to \mathbf C$ be a functor.
+Let $\mathbf J, \mathbf C$ be [[categories]] and $J \colon \mathbf J \to \mathbf C$ be a [[functor]].
+
+### As skew Kleisi triples
+
 
 \begin{definition}
 \label{def}
-A **relative monad $T$ on $J$** is a functor $T:\mathbf J \to \mathbf C$ equipped with
+A **relative monad $T$ on $J$** is a functor $T \colon \mathbf J \to \mathbf C$ equipped with
 
-* a _unit_ $\eta_X : J X \to T X$ natural in $X : \mathbf J$,
-* a _[[extension system|Kleisli extension]]_ $(-)^* : \mathbf C(J X, T Y) \to \mathbf C(T X, T Y)$ in both $X,Y:\mathbf J$
+1.  a _[[unit of a monad|unit]]_ $\eta_X \colon J X \to T X$ [[natural transformation|natural]] in $X \colon \mathbf J$,
 
-such that for every $X,Y,Z:\mathbf J$ and $k:J X \to T Y$,
+1.  a _[[extension system|Kleisli extension]]_ $(-)^* \colon \mathbf C(J X, T Y) \to \mathbf C(T X, T Y)$ in both $X,Y \colon \mathbf J$
 
-* _(left unital law)_ $k = k^* \circ \eta_X$,
-* _(right unital law)_ $\eta_X^* = 1_{T X}$,
-* _(associativity law)_ $(\ell^* \circ k)^* = \ell^* \circ k^*$ for every $\ell : J Y \to T Z$.
+such that for every $X,Y,Z \colon \mathbf J$ and $k \colon J X \to T Y$ the following [[equations]] hold:
+
+1. _(left [[unitality]])_ $k = k^* \circ \eta_X$,
+
+1. _(right [[unitality]])_ $\eta_X^* = 1_{T X}$,
+
+1. _([[associativity]])_ $(\ell^* \circ k)^* = \ell^* \circ k^*$ for every $\ell : J Y \to T Z$.
 
 \end{definition}
 
-Notice that for any $f:X \to Y$ in $\mathbf J$, one has
+Notice that for any $f \colon X \to Y$ in $\mathbf J$, one has
 \[
-    Tf = (\eta_{J Y} \circ J f)^*.
+  T f 
+  \;=\; 
+  \big(
+    \eta_{J Y} \circ J f
+  \big)^*
+  \,. 
 \]
 
-In computer science, monads are usually defined by a unit and an extension operator, as above, so that relative monads are very close to plain monads in that regard. Since $[\mathbf J, \mathbf C]$ lacks a monoidal structure (unlike $[\mathbf C, \mathbf C]$), to define relative monads like mathematicians define monads (as monoids in a category of endofunctors) we need to be more clever.
+
+\begin{example}
+**(ordinary [[monads]] as [[Kleisli triples]]/[[extension systems]])**
+\linebreak
+In the special case that $\mathbf{J} = \mathbf{C}$ and $J = id$ the [[identity functor]], Def. \ref{def} reduces to the definition of ordinary [[monads]], but in the guise known as "[[Kleisli triples]]" or "[[extension systems]]" which is nominally different from (though equivalent to) the way monads are traditionally presented in [[category theory]]/[[categorical algebra]] (namely as [[monoid objects]] [[internalization|internal to]] a [[functor category|category of]] [[endofunctors]]), but is exactly the form commonly used for [[monads in computer science]].
+\end{example}
+
 
 ### As skew-monoids
-A [[skew-monoidal category]] is like a monoidal category except its unitors and associators are not necessarily invertible. A monoid in a skew-monoidal category is called a 'skew-monoid'.
 
-Composition of functors $F,G:\mathbf J \to \mathbf C$ can be defined by first [[left Kan extension|extending]] $F$ along $J$ and then composing with $G$. The resulting composition product on $[\mathbf J, \mathbf C]$ is coherent but only laxly so, hence the need to appeal to skew-monoidal categories.
+The notion of a *[[skew-monoidal category]]* is like that of a [[monoidal category]] except that the [[unitors]] and [[associators]] are not necessarily [[invertible morphism|invertible]]. A [[monoid]] in a [[skew-monoidal category]] is called a "*skew-monoid*".
 
-\begin{theorem}[Theorem 3.4]
-Suppose $J:\mathbf J \to \mathbf C$ is such that $\mathrm{Lan}_J : [\mathbf J, \mathbf C] \to [\mathbf C, \mathbf C]$ exists (e.g. if $\mathbf J$ is small and $\mathbf C$ cocomplete).
+In the general case that $\mathbf{J}$ is distinct from $\mathbf{C}$,  the [[functor category]] $Func(\mathbf J, \mathbf C)$ lacks a natural [[monoidal category]] [[structure]] (as opposed to the case of [[endofunctors]] $Func(\mathbf{C}, \mathbf{C})$) so that the usual definition of [[monads]] as [[monoids]] cannot apply --- but a suitable "skew" variant works:
+
+
+The (skew-)[[composition]] of [[functors]] $F,G \colon \mathbf J \to \mathbf C$ may be defined by first [[left Kan extension|extending]] $F$ along $J$ and then composing with $G$. The resulting composition product on $[\mathbf J, \mathbf C]$ is [[coherence|coherent]] but only [[lax natural transformation|laxly]] so, hence the need to appeal to skew-monoidal categories:
+
+\begin{theorem}
+**([ACU14, Thm. 3.4](#ACU14))**
+\linebreak
+Suppose $J \colon \mathbf J \to \mathbf C$ is such that $\mathrm{Lan}_J \colon [\mathbf J, \mathbf C] \to [\mathbf C, \mathbf C]$ exists (e.g. if $\mathbf J$ is small and $\mathbf C$ cocomplete).
 Then $[\mathbf J, \mathbf C]$ is skew-monoidal, with unit $J$ and product $F \circ^J G = (\mathrm{Lan}_J F) \circ G$, and a relative monad is a monoid in $([\mathbf J, \mathbf C], J, \circ^J)$.
 \end{theorem}
 
@@ -88,7 +111,7 @@ When $J:\mathbf J \to \mathbf C$ is a free completion of $\mathbf{J}$ under coli
 
 The concept was introduced, in the context of [[monads in computer science]], in: 
 
-* [[Thorsten Altenkirch]], [[James Chapman]], [[Tarmo Uustalu]], *Monads need not be endofunctors*, Logical Methods in Computer Science **11** 1:3 (2015) 1–40 &lbrack;[arXiv:1412.7148](https://arxiv.org/abs/1412.7148), [pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), <a href="https://doi.org/10.2168/LMCS-11(1:3)2015">doi:10.2168/LMCS-11(1:3)2015</a>&rbrack;
+* {#ACU14} [[Thorsten Altenkirch]], [[James Chapman]], [[Tarmo Uustalu]], *Monads need not be endofunctors*, Logical Methods in Computer Science **11** 1:3 (2015) 1–40 &lbrack;[arXiv:1412.7148](https://arxiv.org/abs/1412.7148), [pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), <a href="https://doi.org/10.2168/LMCS-11(1:3)2015">doi:10.2168/LMCS-11(1:3)2015</a>&rbrack;
 
 
 [[!redirects relative monads]]
