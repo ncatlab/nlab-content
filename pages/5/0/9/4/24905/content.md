@@ -36,7 +36,7 @@ Examples of mathematical foundations which one could do neutral constructive mat
 
 * Unsigned decimal digits are not sufficient to represent the modulated Cantor real numbers, one has to use signed decimal digits instead. 
 
-* For functions on the real numbers, local uniform continuity is better behaved than pointwise continuity, and local uniform differentiability is better behaved than pointwise differentiability. 
+* If using the [[localic real numbers]], [[semidefinite integrals]] are fundamental and [[antiderivatives]] are a derived concept. 
 
 ### Algebra
 
