@@ -41,7 +41,9 @@ More on [[Real  cobordism cohomology]]:
 
 * Po Hu, [[Igor Kriz]], *Some Remarks on Real and Algebraic Cobordism*, K-Theory **22** (2001) 335–366 &lbrack;[pdf](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/43150/10977_2004_Article_321295.pdf?sequence=1), [doi:10.1023/A:1011196901303](http://dx.doi.org/10.1023/A:1011196901303)&rbrack;
 
+For the use of [[category theory]] in [[integration]], see
 
+* [[Igor Kriz]], [[Ales Pultr]], *Categorical Geometry and Integration Without Points*, Applied Categorical Structures (2014) Vol. 22, p.79-97 ([arXiv:1101.3762](https://arxiv.org/abs/1101.3762), [doi:10.1007/s10485-012-9295-2](https://doi.org/10.1007/s10485-012-9295-2))
 
 
 
