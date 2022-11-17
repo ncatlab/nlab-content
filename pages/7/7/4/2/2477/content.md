@@ -35,6 +35,8 @@ Geometric stacks for the following choices of sites $C$ are called
 
 * for $C = $ [[complex manifold|CplxMfd]] -- [[complex analytic stack]];
 
+* for $C = $ [[Loc]] -- [[localic stack]];
+
 
 ## Definition
 
