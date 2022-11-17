@@ -171,6 +171,15 @@ A proof of the [[Riesz representation theorem]] in [[constructive mathematics]] 
 
 * [[Thierry Coquand]], [[Bas Spitters]], _Integrals and Valuations_, Logic and Analysis (2009) 1(3) p.1-22, [arXiv:0808.1522](http://arxiv.org/abs/0808.1522), [doi](http://dx.doi.org/10.4115/jla.2009.1.3)
 
+For the use of [[category theory]] in [[integration]], see
+
+* [[Igor Kriz]], [[Ales Pultr]], *Categorical Geometry and Integration Without Points*, Applied Categorical Structures (2014) Vol. 22, p.79-97 ([arXiv:1101.3762](https://arxiv.org/abs/1101.3762), [doi:10.1007/s10485-012-9295-2](https://doi.org/10.1007/s10485-012-9295-2))
+
+For [[integration]] in [[constructive mathematics]], see
+
+* [[Bas Spitters]], *Constructive algebraic integration theory*, Annals of Pure and Applied Logic, Volume 137, Issues 1–3, January 2006, Pages 380-390 ([pdf](https://www.cs.au.dk/~spitters/ftop2.pdf), [doi:10.1016/j.apal.2005.05.031](https://doi.org/10.1016/j.apal.2005.05.031))
+
+* [[Bas Spitters]], *Constructive algebraic integration theory without choice*. In [[Thierry Coquand]], [[Henri Lombardi]], [[Marie-Francoise Roy]], Mathematics, Algorithms, Proofs, 2005, Dagstuhl Seminar Proceedings 05021, Internationales Begegnungs- und Forschungszentrum (IBFI), Schloss Dagstuhl, Germany. ([pdf](https://www.cs.au.dk/~spitters/obs.pdf))
 
 category: analysis
 
