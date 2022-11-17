@@ -111,6 +111,10 @@ There are a number of axioms which in general could be called an axiom of cohesi
 [[!redirects axiom of Dedekind real cohesion]]
 [[!redirects axioms of Dedekind real cohesion]]
 
+[[!redirects localic real cohesion]]
+[[!redirects axiom of localic real cohesion]]
+[[!redirects axioms of localic real cohesion]]
+
 [[!redirects unit interval cohesion]]
 [[!redirects axiom of unit interval cohesion]]
 [[!redirects axioms of unit interval cohesion]]
