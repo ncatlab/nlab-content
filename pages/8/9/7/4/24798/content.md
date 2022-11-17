@@ -112,6 +112,7 @@ For the first two membership relations $\in_{Func}$, the identity morphism of th
 
 * [[unsorted set theory]]
 * [[two-sorted set theory]]
+* [[three-sorted set theory]]
 * [[dependently sorted set theory]]
 
 * [[structural set theory]]
