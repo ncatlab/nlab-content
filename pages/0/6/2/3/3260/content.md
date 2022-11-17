@@ -407,15 +407,17 @@ Textbooks and other accounts
 * {#Lueck89} [[Wolfgang Lück]], Chapter I of: _Transformation Groups and Algebraic K-Theory_, Lecture Notes in Mathematics **1408** (Springer 1989) ([doi:10.1007/BFb0083681](https://doi.org/10.1007/BFb0083681))
 
 
-* {#May96} [[Peter May]] et al., _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington DC (1996) &lbrack;[ISBN: 978-0-8218-0319-6](https://bookstore.ams.org/cbms-91/?startBookmarkIdx=200)  [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf), [[MayEtAlEquivariant96.pdf:file]]&rbrack;
+* {#May96} [[Peter May]] et al., _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington DC (1996) &lbrack;[ISBN: 978-0-8218-0319-6](https://bookstore.ams.org/cbms-91/?startBookmarkIdx=200),  [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf), [[MayEtAlEquivariant96.pdf:file]]&rbrack;
 
 * {#Schwede12} [[Stefan Schwede]], appendix A.4 of of _[[Symmetric spectra]]_ (2012)
 
 
-* [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _Equivariant Stable Homotopy Theory and the Kervaire Invariant Problem_, New Mathematical Monographs, Cambridge University Press, 2021. ([doi:10.1017/9781108917278](https://doi.org/10.1017/9781108917278))
+* {#HillHopkinsRavenel21} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], *Equivariant Stable Homotopy Theory and the Kervaire Invariant Problem*, New Mathematical Monographs, Cambridge University Press (2021) &lbrack;[doi:10.1017/9781108917278](https://doi.org/10.1017/9781108917278)&rbrack;
+
+  > (with an eye towards the [[Arf-Kervaire invariant problem]])
 
 
-The generalization of the homotopy theory of $G$-spaces and of Elmendorf's theorem to that of $G$-objects in more general [[model category|model categories]] is in 
+The generalization of the homotopy theory of $G$-spaces and of [[Elmendorf's theorem]] to that of $G$-objects in more general [[model category|model categories]] is in 
 
 * {#Guillou06} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_, 2006 ([pdf](https://faculty.math.illinois.edu/~bertg/EquivModels.pdf), [[GuillouModelsForEquivariantHomotopyTheory.pdf:file]])
 
