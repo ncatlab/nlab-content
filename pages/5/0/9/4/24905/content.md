@@ -14,7 +14,7 @@ Examples of mathematical foundations which one could do neutral constructive mat
 
 * [[Aczel-Myhill set theory]]
 
-* [[Martin-Löf type theory]] or [[XTT]] with a [[type of all propositions]]. 
+* [[Martin-Löf type theory]], [[cubical type theory]], or ([[higher observational type theory|higher]]) [[observational type theory]] with a [[type of all propositions]]. 
 
 * intuitionistic [[ETCS]]
 
@@ -26,7 +26,7 @@ Examples of mathematical foundations which one could do neutral constructive mat
 
 ### Real analysis
 
-* In [[topology]], [[locales]] are usually better behaved than [[topological spaces]]. Thus, in [[real analysis]] one usually talks about the [[localic real numbers]] $\mathbb{R}_L$ rather than the [[Dedekind real numbers]] $\mathbb{R}_D$. Many statements, such as the [[Heine-Borel theorem]], the [[fundamental theorem of algebra]], et cetera, are true in the [[locale of real numbers]], while they are not provable in the [[Dedekind real numbers]]. Nevertheless, the [[Dedekind real numbers]] are still of interest, being the spatial points of the [[localic real numbers]], and the two notions coincide with [[excluded middle]]. 
+* In [[topology]], [[locales]] are usually better behaved than [[topological spaces]]. Thus, in [[real analysis]] one usually talks about the [[localic real numbers]] $\mathbb{R}_L$ rather than the [[Dedekind real numbers]] $\mathbb{R}_D$. Many statements, such as the [[Heine-Borel theorem]], the [[fundamental theorem of algebra]], et cetera, are true in the [[localic real numbers]], while they are not provable in the [[Dedekind real numbers]]. Nevertheless, the [[Dedekind real numbers]] are still of interest, being the spatial points of the [[localic real numbers]], and the two notions coincide with [[excluded middle]]. 
 
 * Similarly, one usually talks about the localic complex numbers $\mathbb{C}_L$ or the localic real [[Clifford algebra]] $\mathrm{Cl}_{3, 0}(\mathbb{R}_L)$, et cetera, instead of the Dedekind [[complex numbers]] $\mathbb{C}_D$ or the Dedekind real Clifford algebra $\mathrm{Cl}_{3, 0}(\mathbb{R}_D)$. 
 
@@ -36,7 +36,7 @@ Examples of mathematical foundations which one could do neutral constructive mat
 
 * Unsigned decimal digits are not sufficient to represent the modulated Cantor real numbers, one has to use signed decimal digits instead. 
 
-* If using the [[localic real numbers]], [[semidefinite integrals]] are fundamental and [[antiderivatives]] are a derived concept. 
+* If using the [[localic real numbers]], [[semidefinite integrals]] are fundamental and [[antiderivatives]] are a derived concept; additionally, the existence of a semidefinite integral must be proven directly in the [[fundamental theorem of calculus]], rather than indirectly through the existence of [[definite integrals]]
 
 ### Algebra
 
@@ -47,6 +47,8 @@ Examples of mathematical foundations which one could do neutral constructive mat
 ## See also
 
 * [[Jason Rute]], *What is neutral constructive mathematics*, ([MathOverflow](https://mathoverflow.net/questions/404270/what-is-neutral-constructive-mathematics/404313#404313))
+
+*  [[Fred Richman]] (2000). [Constructive mathematics without choice](http://math.fau.edu/richman/html/nsf.htm).
 
 There was a seminar on neutral constructive mathematics:
 
