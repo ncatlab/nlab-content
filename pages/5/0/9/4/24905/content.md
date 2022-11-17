@@ -12,13 +12,13 @@ As a result, it is the [[internal logic]] of an [[elementary topos]] with [[natu
 
 Examples of mathematical foundations which one could do neutral constructive mathematics include:
 
-* [[Aczel-Myhill set theory]]
-
 * [[Martin-Löf type theory]], [[cubical type theory]], or ([[higher observational type theory|higher]]) [[observational type theory]] with a [[type of all propositions]]. 
+
+* intuitionistic [[higher-order logic]]
 
 * intuitionistic [[ETCS]]
 
-* intuitionistic [[SEAR]]
+* intuitionistic bounded [[SEAR]]
 
 * intuitionistic [[Mostowski set theory]]
 
