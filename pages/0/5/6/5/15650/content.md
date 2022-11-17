@@ -33,11 +33,11 @@ $$
 
 where the map from right to left is given by $\mathbb{E}_k$-[[unitalization]] and the converse by forming [[augmentation ideals]].
 
-([Lurie, prop. 5.2.3.15](#Lurie))
+([Lurie, prop. 5.4.4.10](#Lurie))
 
 ## References
 
-* {#Lurie} [[Jacob Lurie]], section 5.2.3 of _[[Higher Algebra]]_
+* {#Lurie} [[Jacob Lurie]], section 5.4.4 of _[[Higher Algebra]]_
 
 
 [[!redirects nonunital Ek-algebras]]
