@@ -112,13 +112,15 @@ Using extensionality, we obtain [[M-types]] from W-types.
 
 Problems in [[cohesive homotopy type theory]]:
 
-* Assuming [[axiom R-flat]], is the [[shape]] of every [[subset]] of the [[Dedekind real numbers]] a [[set]]? 
+* Does the [[axiom of real cohesion]] imply the [[axiom of localic real cohesion]]? 
 
-* Assuming [[axiom R-flat]] and [[excluded middle]], prove that the [[analytic Markov's principle]] is true. 
+* Assuming the [[axiom of real cohesion]], is the [[shape]] of every [[subset]] of the [[Dedekind real numbers]] a [[set]]? 
 
-* What is the $(\infty,1)$-topos theoretic interpretation of [[axiom R-flat]]?
+* Assuming the [[axiom of real cohesion]] and [[excluded middle]], prove that the [[analytic Markov's principle]] is true. 
 
-* Prove the approximate [[intermediate value theorem]] in [[Mike Shulman]]'s  [model of cohesive homotopy type theory](https://arxiv.org/abs/1509.07584) without resorting to crispness. 
+* What is the $(\infty,1)$-topos theoretic interpretation of the [[axiom of real cohesion]]?
+
+* Prove the approximate [[intermediate value theorem]] in [[Mike Shulman]]'s [model of cohesive homotopy type theory](https://arxiv.org/abs/1509.07584) without resorting to crispness. 
 
 See also the commented list of problems at:
 
