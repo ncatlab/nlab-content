@@ -132,7 +132,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 ### Jan 2023
 
-* (upcoming)
+* 12-15 Jan 2023 (upcoming)
 
   **M-Theory and Mathematics 2023**
 
