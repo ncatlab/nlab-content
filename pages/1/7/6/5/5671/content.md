@@ -48,7 +48,7 @@ This is ([Lurie, def. 2.3.13, def. 2.3.16](#Lurie)). See at _[[fully dualizable 
 
 ### Internal language
 
-The [[internal language]] of $(\infty,n)$-categories with duals seems plausible to be aximatized inside [[opetopic type theory]].
+The [[internal language]] of $(\infty,n)$-categories with duals seems plausible to be axiomatized inside [[opetopic type theory]].
 
 ## Examples
 
