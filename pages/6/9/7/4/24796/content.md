@@ -16,7 +16,7 @@
 ## Overview
  {#Overview}
 
-There are a number of ways to present a [[set theory]]; one of the most basic decisions when it comes to presenting a set theory is whether the probable [[sets]] and probable [[elements]] should be regarded as the same kind of objects, as in [[unsorted set theory]], or as fundamentally different objects, as in [[two-sorted set theory]]. In the former, there is a global membership relation $\in$ which is defined on the entire [[domain of discourse]]. In the latter, there are two domains of discourse, one representing the probable sets and the other representing the probable elements or atoms, and for the membership relation $a \in b$, $a$ is required to be a probable element and $b$ is required to be a probable set. 
+There are a number of ways to present a [[set theory]]; one of the most basic decisions when it comes to presenting a set theory is whether the probable [[sets]] and probable [[elements]] should be regarded as the same kind of objects, as in [[unsorted set theory]], or as fundamentally different objects, as in [[two-sorted set theory]] or [[three-sorted set theory]]. In the former, there is a global membership relation $\in$ which is defined on the entire [[domain of discourse]]. In the latter, there are two domains of discourse, one representing the probable sets and the other representing the probable elements or atoms, and for the membership relation $a \in b$, $a$ is required to be a probable element and $b$ is required to be a probable set. 
 
 Furthermore, in an unsorted set theory, there is also a global equality predicate, whereby it is meaningful to ask, given any two objects, whether those two objects are equal. Additionally, a set's identity here is determined by its elements, in other words the [[axiom of weak extensionality]] holds for the global membership relation with respect to the equality relation. 
 
@@ -95,6 +95,9 @@ For the first two membership relations $\in$, the singleton $1$ is a [[Quine ato
 
 [[!redirects unsorted set theory]]
 [[!redirects unsorted set theories]]
+
+[[!redirects one-sorted set theory]]
+[[!redirects one-sorted set theories]]
 
 [[!redirects single-sorted set theory]]
 [[!redirects single-sorted set theories]]
