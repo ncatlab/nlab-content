@@ -415,7 +415,7 @@ Review in the context of the [[Kummer-Artin-Schreier-Witt exact sequence]] is in
 * [[Lars Hesselholt]], Witt vectors of non-commutative rings and topological cyclic homology, [pdf](http://www.math.uiuc.edu/K-theory/0135/derived.pdf)
 
 * {#DS88} A. Dress, C. Siebeneicher, _The Burnside ring of profinite groups and
-the Witt vector construction_, Adv. Math., 70, (1988), 87&#8211;132.
+the Witt vector construction_, Adv. Math., 70, (1988), 87&#8211;132.[link](https://reader.elsevier.com/reader/sd/pii/0001870888900527?token=448709A2504AA684DD56C07A8907E9344F0C761E77B09F8B840FF05D2E8B5338DCBBCAF713EEE9E24BCB91E2FAD4883D&originRegion=eu-west-1&originCreation=20221117110955)
 
 
 In the context of [[Borger's absolute geometry]]:
