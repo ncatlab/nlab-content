@@ -59,21 +59,21 @@ If $P:R \to \Omega$ is such that for all $x:R$, $T(P(x)) \vee \neg T(P(x))$ is c
 
 There are a number of axioms which in general could be called an axiom of cohesion for type $R$. The most general such axiom of cohesion is called **stable local connectedness** or **axiom C0**, which imposes no other restrictions on $R$. If we additionally assume that the type $R$ is pointed with point $0:R$, then the axiom becomes **punctual local connectedness** or **axiom C1**, and if we additionally assume that the type $R$ is a non-trivial bi-pointed set, with points $0:R$, $1:R$, and witnesses $\tau_0:\mathrm{isSet}(R)$ and $\mathrm{nontriv}:(0 =_{R} 1) \to \emptyset$, then the axiom becomes **contractible codiscreteness** or **axiom C2**. If we additionally assume that the type $R$ is a [[Dedekind complete]] [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[lattice]] [[field]] (and usually written as $\mathbb{R}$), then the axiom becomes **real cohesion** or **axiom $\mathbb{R}$-flat**. 
 
-| number/symbol | name | requirement |
-|--------|------|-----------|
-| $C_0$ | cohesion/stable [[locally ∞-connected (∞,1)-topos|local connectedness]] | $R$ is a [[type]] |
-| $C_1$ | punctual cohesion/punctual [[locally ∞-connected (∞,1)-topos|local connectedness]] | $R$ is a [[pointed type]] |
-| $C_2$ | contractible codiscreteness | $R$ is a non-trivial [[bi-pointed type|bi-pointed]] [[h-set]] |
-|  | discrete cohesion | $R$ is a [[contractible type]] |
-|  | affine cohesion/algebraic cohesion/$\mathbb{A}^1$-cohesion | $R$ is an [[affine line]] |
-|  | [[compact connectedness]] | $R$ is a type and the [[type of booleans]] $\mathbb{2}$ is discrete |
-|  | [[continuum]] cohesion | $R$ is a [[Hausdorff space]] and $\mathbb{2}$ is discrete. |
-|  | [[metric continuum]] cohesion | $R$ is a [[metric space]] and $\mathbb{2}$ is discrete. |
-| $\mathbb{R} \flat$ | [[Dedekind real number|real]] cohesion | Assuming the type theory has a [[type of all propositions]] $\Omega$, $R$ is a [[Dedekind completion]] (by [[two-sided Dedekind cuts]]) or [[Cauchy completion]] (by [[Cauchy filters]]) of a [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[lattice]] [[field]] |
-| $\mathbb{R}_{U} \flat$ | locally $U$-small real cohesion | Given [[type universe]] $U$, $R$ is a $U$-[[Dedekind completion]] (by [[two-sided Dedekind cuts]] in $U$) or $U$-[[Cauchy completion]] (by [[Cauchy filters]] or [[Cauchy nets]] in $U$) of a [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[lattice]] [[field]]. |
-| $\mathbb{R}_{U}^\mathrm{loc} \flat$ | locally $U$-small localic real cohesion | Given [[type universe]] $U$, $R$ is a $U$-[[localic completion]] of a [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[lattice]] [[field]]. |
-|  | [[unit interval]] cohesion | $R$ is a higher [[coinductive type]] representing the [[homotopy]] [[terminal]] [[dyadic interval coalgebra]] |
-|  | $U$-small unit interval cohesion | Given [[type universe]] $U$, $R$ is a [[homotopy]] [[terminal]] [[dyadic interval coalgebra]] in $U$. Necessary for doing [[univalent mathematics]] inside a [[univalent universe]] $U$. |
+| number/symbol | name | associated [[shape modality]] | additional requirements |
+|--------|------|------|-----------|
+| $C_0$ | cohesion/stable [[locally ∞-connected (∞,1)-topos|local connectedness]] | [[localization of a type at a family of functions|localization]] at a [[type]] $R$ |  |
+| $C_1$ | punctual cohesion/punctual [[locally ∞-connected (∞,1)-topos|local connectedness]] | [[localization of a type at a family of functions|localization]] at a [[pointed type]] $R$ |  |
+| $C_2$ | contractible codiscreteness | [[localization of a type at a family of functions|localization]] at a non-trivial [[bi-pointed type|bi-pointed]] [[h-set]] $R$ |  |
+|  | discrete cohesion | [[localization of a type at a family of functions|localization]] at a [[contractible type]] $R$ |  |
+|  | affine cohesion/algebraic cohesion/$\mathbb{A}^1$-cohesion | [[localization of a type at a family of functions|localization]] at an [[affine line]] $\mathbb{A}^1$ |  |
+|  | [[compact connectedness]] | [[localization of a type at a family of functions|localization]] at a [[type]] $R$ | the [[type of booleans]] $\mathbb{2}$ is discrete |
+|  | [[continuum]] cohesion | [[localization of a type at a family of functions|localization]] at a [[Hausdorff space]] $R$ | $\mathbb{2}$ is discrete. |
+|  | [[metric continuum]] cohesion | [[localization of a type at a family of functions|localization]] at a [[metric space]] $R$ | $\mathbb{2}$ is discrete. |
+| $\mathbb{R} \flat$ | [[Dedekind real number|real]] cohesion | [[localization of a type at a family of functions|localization]] at the impredicative [[Dedekind real numbers]] or [[generalized Cauchy real numbers]] $\mathbb{R}$ | A [[type of all propositions]] $\Omega$ |
+| $\mathbb{R}_{U} \flat$ | locally $U$-small real cohesion | [[localization of a type at a family of functions|localization]] at the $U$-[[Dedekind real numbers]] or $U$-[[generalized Cauchy real numbers]] $\mathbb{R}_U$ | A [[Tarski universe]] $(U, T)$ |
+| $\mathbb{R}_{U}^\mathrm{loc} \flat$ | locally $U$-small localic real cohesion | [[localization of a type at a family of functions|localization]] at the $U$-[[localic real numbers]] $\mathbb{R}_{U}^\mathrm{loc}$ | A [[Tarski universe]] $(U, T)$. |
+|  | [[unit interval]] cohesion | [[localization of a type at a family of functions|localization]] at the [[unit interval]] $[0, 1]$ | a higher [[coinductive type]] representing the [[homotopy]] [[terminal]] [[dyadic interval coalgebra]]. |
+|  | $U$-small unit interval cohesion | [[localization of a type at a family of functions|localization]] at the $U$-small [[unit interval]] $[0, 1]_\mathbb{U}$ | A [[Tarski universe]] $(U, T)$. |
 
 ## See also
 
