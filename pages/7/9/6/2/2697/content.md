@@ -76,7 +76,7 @@ $$
   \mathcal{X}
 $$
 
-from [[∞Grpd]] $\simeq Sh_\infty(\ast)$ to $\mathcal{X}$. We say that $\mathcal{X}$ has **enough points** if a [[1-morphism]] $f \colon X \to Y$ in $\mathcal{X}$ in an [[equivalence in an (∞,1)-category|equivalence]] in $\mathcal{X}$ precisely if for all such points the [[inverse image]] $p^\ast (f)$ (the _[[stalk]]_ at the point) is an [[equivalence of ∞-groupoids|equivalence]] in [[∞Grpd]].
+from [[∞Grpd]] $\simeq Sh_\infty(\ast)$ to $\mathcal{X}$. We say that $\mathcal{X}$ has **enough points** if a [[1-morphism]] $f \colon X \to Y$ in $\mathcal{X}$ is an [[equivalence in an (∞,1)-category|equivalence]] in $\mathcal{X}$ precisely if for all such points the [[inverse image]] $p^\ast (f)$ (the _[[stalk]]_ at the point) is an [[equivalence of ∞-groupoids|equivalence]] in [[∞Grpd]].
 
 =--
 
