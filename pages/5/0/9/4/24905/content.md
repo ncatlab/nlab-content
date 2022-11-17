@@ -22,6 +22,8 @@ Examples of mathematical foundations which one could do neutral constructive mat
 
 * intuitionistic [[Mostowski set theory]]
 
+* the [[internal logic]] of any [[elementary topos]]
+
 ## Consequences
 
 ### Real analysis
