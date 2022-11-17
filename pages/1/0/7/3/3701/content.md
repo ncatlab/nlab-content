@@ -158,7 +158,7 @@ The first approach uses existing functions already defined on the [[rational num
 
 ### Using the Dedekind real numbers. 
 
-The other approach is via using existing functions defined on the [[Dedekind real numbers]] $\mathbb{R}$. In particular, given any well-defined continuous function $x \mapsto f(x)$ on the [[Dedekind real numbers]], and a [[geometric morphism]] $F:\mathrm{Sh}(\mathbb{R}_D) \to \mathrm{Set}$ from the [[sheaf topos]] $\mathrm{Sh}(\mathbb{R}_D)$ to [[Set]], if for all Dedekind real numbers $x \in \mathbb{R}_D$, $f(F^*(x)) = F^*(f(x))$, then the function $x \mapsto f(x)$ lifts to a function $x \mapsto f'(x)$ on the locale of real numbers. 
+The other approach is via using existing functions defined on the [[Dedekind real numbers]] $\mathbb{R}$. In particular, given any well-defined continuous function $x \mapsto f(x)$ on the [[Dedekind real numbers]], and a [[geometric morphism]] $F:\mathrm{Set} \to \mathrm{Sh}(\mathbb{R}_D)$ from [[Set]] to the [[sheaf topos]] $\mathrm{Sh}(\mathbb{R}_D)$, if for all Dedekind real numbers $x \in \mathbb{R}_D$, $f(F^*(x)) = F^*(f(x))$, then the function $x \mapsto f(x)$ lifts to a function $x \mapsto f'(x)$ on the locale of real numbers. 
 
 This allows us to first define real-valued functions normally on the set of [[Dedekind real numbers]], and then lift them up to a real-valued function on the locale of real numbers, thus allowing us to define functions such as the [[exponential function]], the [[sine]], and the [[cosine]] which can't be directly defined using functions on the rational numbers. 
 
