@@ -1,24 +1,19 @@
 
-> This entry is about the concept in [[geometry]]/[[physics]]/[[linear algebra]]. For the concept in [[category theory]] see _[[reflective subcategory]]_
+## Disambiguation
 
+There are many different notions of "reflection" in mathematics. 
 
-***
+* For the notion of reflection across a hyperplane in [[geometry]], see [[reflection at a hyperplane]]
+* For the notion of reflection through a point in [[geometry]], see [[point inversion]]
+* For the notion of reflection of [[waves]] at an interface between two different mediums, see [[reflection of waves]]
+* For the notion of reflection for a [[function]] $f$ in [[number theory]], [[real analysis]], [[functional analysis]], see [[reflection relation]]
+* For the notion of reflection in [[category theory]], see [[reflective subcategory]] and [[idempotent monad]]
+* For the notion of reflection in [[modal logic]] and [[modal type theory]], see [[reflective subuniverse]] and [[modal operator]]
+* For the notion of equality reflection in [[dependent type theory]], see [[extensional type theory]]
+* For the notion of reflection in [[set theory]], see [[reflection principle]]
+* For the notion of reflection in [[computer science]], see [[reflective programming]]
 
-
-#Contents#
-* table of contents
-{:toc}
-
-## Idea
-
-Given a [[hyperplane]] in a [[Euclidean space]], then _reflection_ at that hyperplane is the operation that sends each point to its mirror image at that hyperplane, the result of translating the point in the [[direction of a vector|direction]] [[perpendicular]] to the hyperplane by twice its [[distance]] to the hyperplane.
-
-### Related concepts
-
-* [[rotation]], [[translation]], [[boost]]
-
-* [[space group]], [[crystallographic group]]
-
+category: disambiguation
 
 [[!redirects reflections]]
 
