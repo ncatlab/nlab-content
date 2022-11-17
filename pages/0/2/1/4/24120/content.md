@@ -32,16 +32,16 @@ Let a category be given which is both cartesian closed and cocartesian coclosed.
 ## Examples
 
 The [[Kleisli category]] of a [[continuation monad]] $K_R = R^{R^{(-)}}$ on a cartesian closed category with coproduct $\mathbf{C}$ is cocartesian coclosed.
-In fact $(-) \times R^A \vdash A + -$, which we can prove using the cartesian closure of $\mathbf{C}$:
+In fact $(-) \times R^A \dashv A + (-)$, which we can prove using the cartesian closure of $\mathbf{C}$:
 $$
-\mathbf{Kl}(K_R)(B, A+C) \cong
-\mathbf{C}(B, R^{R^{A+C}}) \cong
-\mathbf{C}(B \times R^{A + C}, R)\cong
-$$
-$$
-\mathbf{C}(B \times R^A \times R^C, R) \cong
+\mathbf{Kl}(K_R)(B \times R^A, C)\cong
 \mathbf{C}(B \times R^A, R^{R^C}) \cong
-\mathbf{Kl}(K_R)(B \times R^A, C)
+\mathbf{C}(B \times R^A \times R^C, R) \cong
+$$
+$$
+\mathbf{C}(B \times R^{A + C}, R)\cong
+\mathbf{C}(B, R^{R^{A+C}}) \cong
+\mathbf{Kl}(K_R)(B, A+C)
 $$
 
 ## See also
