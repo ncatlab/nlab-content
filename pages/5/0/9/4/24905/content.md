@@ -36,6 +36,8 @@ Examples of mathematical foundations which one could do neutral constructive mat
 
 * Unsigned decimal digits are not sufficient to represent the modulated Cantor real numbers, one has to use signed decimal digits instead. 
 
+* Continuous functions on the localic real numbers are continuous maps between the locales. 
+
 * If using the [[localic real numbers]], [[semidefinite integrals]] are fundamental and [[antiderivatives]] are a derived concept; additionally, the existence of a semidefinite integral must be proven directly in the [[fundamental theorem of calculus]], rather than indirectly through the existence of [[definite integrals]]
 
 ### Algebra
