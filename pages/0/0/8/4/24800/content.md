@@ -13,7 +13,7 @@
 
 \section{Idea}
 
-Dependently sorted set theory is a [[set theory]] which is a [[first order theory]] with [[dependent type|dependent]] [[sorts]]; i.e. written in [[first order logic]] and whose [[domains of discourse]] (called [[sorts]] here) depend on other domains of discourse. In addition, membership $a \in A$ is a [[judgment]], rather than a [[proposition]] as in [[unsorted set theory]] and [[two-sorted set theory]]. By and large, dependently sorted set theories are [[structural set theories]], and are [[structurally presented set theories]]. 
+Dependently sorted set theory is a [[set theory]] which is a [[first order theory]] with [[dependent type|dependent]] [[sorts]]; i.e. written in [[first order logic]] and whose [[domains of discourse]] (called [[sorts]] here) depend on other domains of discourse. In addition, membership $a \in A$ is a [[judgment]], rather than a [[proposition]] as in [[simply sorted set theory]]. By and large, dependently sorted set theories are [[structural set theories]], and are [[structurally presented set theories]]. 
 
 Examples of dependently sorted set theories include the usual presentations of [[ETCS]] and [[SEAR]]. 
 
