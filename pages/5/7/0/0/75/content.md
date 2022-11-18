@@ -33,6 +33,13 @@ There are two different attitudes to what a desirable or interesting foundation 
 
    Formal systems of interest here are [[ETCS]] or flavors of [[type theory]], which allow natural expressions for central concepts in mathematics (notably via their [[categorical semantics]] and the conceptual strength of [[category theory]]).
 
+## Deductive systems
+
+Almost all foundations of mathematics are expressed in some foundational [[deductive system]]. 
+
+One versatile deductive system [[natural deduction]], which could be used to define certain foundation of mathematics using [[logic over type theory]], such as all [[set theories]], including [[categorical set theories]] like [[ETCS]], as well as the foundations of mathematics using only [[type theory]], including [[set-level type theories]] as well as [[higher foundations]] such as [[homotopy type theory]]. 
+
+Alternatives include [[sequent calculus]] for logic over untyped theories, such as [[unsorted set theory]], as well as [[lambda-calculus]] for [[type theories]]. 
 
 ## Category theory and foundations
 {#categories}
