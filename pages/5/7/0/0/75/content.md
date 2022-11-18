@@ -41,6 +41,32 @@ One versatile deductive system [[natural deduction]], which could be used to def
 
 Alternatives include [[sequent calculus]] for logic over untyped theories, such as [[unsorted set theory]], as well as [[lambda-calculus]] for [[type theories]]. 
 
+(Not sure where [[higher-order logic]] would fit)
+
+## Basic notions
+
+### Objects, collections, and membership
+
+In most foundations of mathematics, there are basic notions of elements and collections of elements. 
+
+Note that in certain foundations, the elements, collections, and membership are derived notions from some other notion. Collections are referred to a number of names, such as [[set]], [[class]], [[type]], et cetera. Elements could be referred to as [[object]] or [[term]]. 
+
+For example, in [[pure set]] theories like [[ZFC]] and [[Mostowski set theory]], elements and sets are the same notion, and thus elements could be considered to be a derived notion from set, or sets could be considered to be a derived notion from element. In [[material set theory]] with [[urelements]], such as [[ZFA]], elements are the basic notion and sets are derived from elements. In [[ETCS]], while sets are basic, elements are derived from a basic notion of [[function]], and in [[fully formal ETCS]], both sets and elements are derived notions from a basic notion of [[function]]. In [[SEAR]] and [[structural ZFC]], sets and elements are both basic distinct notions. 
+
+Something similar occurs with [[class theories]], where classes play the role of sets. 
+
+In type theory, there are also a distinction to be made. In most type theories, both terms and types are basic foundational notions. However, in [[book HoTT]], terms are the basic notion, and [[types]] are derived from terms. 
+
+In [[higher-order logic]], the [[domain of discourse]] and higher-order [[predicates]] play the role of collections, while the objects in the [[domain of discourse]] play the role of the elements. 
+
+### Membership and typing
+
+...
+
+### Equality
+
+...
+
 ## Category theory and foundations
 {#categories}
 
