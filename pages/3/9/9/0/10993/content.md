@@ -21,7 +21,7 @@
 
 ## Idea
 
-A _relative_ monad $T : \mathbf J \to \mathbf C$ is like a monad except that it is not an [[endofunctor]], but more generally a functor between two different categories. To even formulate such a notion, (for instance the definition of the [[unit]]), the two categories have to be related somehow, typically by there being a specified functor $J \colon \mathbf J \to \mathbf C$, in which case we say that $T$ is a monad *relative to* $J$. Ordinary monads are then the special case where $J$ is the identity functor.
+A _relative_ monad $T : \mathbf J \to \mathbf C$ is much like a [[monad]] except that it is not an [[endofunctor]] on one [[category]], but more generally a functor between two different categories. To even formulate such a notion, (for instance the definition of the [[unit]]), the two categories have to be related somehow, typically via a specified comparison functor $J \colon \mathbf J \to \mathbf C$, in which case we say that $T$ is a monad *relative to* $J$. Ordinary monads are then the special case where $J$ is the [[identity functor]].
 
 ## Definitions
  {#Definition}
