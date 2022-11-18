@@ -53,3 +53,11 @@ Every instance of class comprehension can be built out of a few, based on the lo
 [[!redirects von Neumann-Bernays-Gödel set theory]]
 [[!redirects von Neumann–Bernays–Gödel set theory]]
 [[!redirects von Neumann--Bernays--Gödel set theory]]
+
+[[!redirects NBG class theory]]
+[[!redirects Neumann-Bernays-Gödel class theory]]
+[[!redirects Neumann–Bernays–Gödel class theory]]
+[[!redirects Neumann--Bernays--Gödel class theory]]
+[[!redirects von Neumann-Bernays-Gödel class theory]]
+[[!redirects von Neumann–Bernays–Gödel class theory]]
+[[!redirects von Neumann--Bernays--Gödel class theory]]
