@@ -723,3 +723,7 @@ Further online resources include
 
 
 [[!redirects type theories]]
+
+[[!redirects type system]]
+[[!redirects type systems]]
+
