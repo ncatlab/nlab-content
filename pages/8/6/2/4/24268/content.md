@@ -74,10 +74,27 @@ Proof that quantum annealing is universal for quantum computation:
 
 * Dorit Aharonov, Wim van Dam, Julia Kempe, Zeph Landau, [[Seth Lloyd]], Oded Regev, *Adiabatic Quantum Computation is Equivalent to Standard Quantum Computation*, SIAM Review **50** 4 (2008) &lbrack;[arXiv:quant-ph/0405098](https://arxiv.org/abs/quant-ph/0405098), [doi:10.1137/080734479](https://doi.org/10.1137/080734479)&rbrack;
 
+### Geometric phase gates
+
+References which consider quantum gates operating by (nonabelian) geometric Berry phases due to adiabatic parameter movement:
+
+* Paolo Zanardi, Mario Rasetti, *Holonomic Quantum Computation*, Phys. Lett. A **264** (1999) 94-99 &lbrack;[doi:10.1016/S0375-9601%2899%2900803-8](https://doi.org/10.1016/S0375-9601%2899%2900803-8), [arXiv:quant-ph/9904011](https://arxiv.org/abs/quant-ph/9904011)
+&rbrack;
+
+* Jonathan A. Jones, Vlatko Vedral, Artur Ekert, Giuseppe Castagnoli, *Geometric quantum computation using nuclear magnetic resonance*, Nature **403** (2000) 869–871 &lbrack;[doi:10.1038/35002528](https://doi.org/10.1038/35002528)&rbrack;
+
+* Giuseppe Falci, Rosario Fazio, G. Massimo Palma, Jens Siewert & Vlatko Vedral, *Detection of geometric phases in superconducting nanocircuits*, Nature **407** 355–358 (2000) &lbrack;[doi:10.1038/35030052](https://doi.org/10.1038/35030052)&rbrack;
+
+* L. M. Duan, J. I. Cirac, P. Zoller, *Geometric Manipulation of Trapped Ions for Quantum Computation*, Science **292** (2001) 1695 &lbrack;[arXiv:quant-ph/0111086](https://arxiv.org/abs/quant-ph/0111086), [doi:10.1126/science.1058835](https://doi.org/10.1126/science.1058835)&rbrack;
+
+
+
+
+
 
 ### In topological quantum computation
 
-References which make explicit that [[topological quantum computation]] with [[anyons]] is a form of adiabatic quantum computation:
+Specifically, references which make explicit that [[topological quantum computation]] with [[anyons]] is a form of adiabatic quantum computation:
 
 * {#ArovasSchriefferWilczekZee85} [[Daniel P. Arovas]], [[Robert Schrieffer]], [[Frank Wilczek]], [[Anthony Zee]], *Statistical mechanics of anyons*, Nuclear Physics B **251** (1985) 117-126 (reprinted in [Wilczek 1990, p. 173-182](anyon#Wilczek90)) $[$<a href="https://doi.org/10.1016/0550-3213(85)90252-4">doi:10.1016/0550-3213(85)90252-4</a>$]$
 
@@ -96,7 +113,6 @@ References which make explicit that [[topological quantum computation]] with [[a
 * {#BarlasProdan20} Yafis Barlas, Emil Prodan, *Topological braiding of non-Abelian mid-gap defects in classical meta-materials*, Phys. Rev. Lett. **124** (2020) 146801 &lbrack;[arXiv:1903.00463](https://arxiv.org/abs/1903.00463), [doi:10.1103/PhysRevLett.124.146801](https://doi.org/10.1103/PhysRevLett.124.146801)&rbrack;
 
 * E. Macaluso, T. Comparin, L. Mazza, and I. Carusotto, *Fusion Channels of Non-Abelian Anyons from Angular-Momentum and Density-Profile Measurements*, Phys. Rev. Lett. **123** 266801 (2019) &lbrack;[arXiv:1903.03011](https://arxiv.org/abs/1903.03011), [doi:10.1103/PhysRevLett.123.266801](https://doi.org/10.1103/PhysRevLett.123.266801)&rbrack;
-
 
 
 
