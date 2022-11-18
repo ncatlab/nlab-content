@@ -143,6 +143,8 @@ Generalized to [[twisted equivariant K-theory|twisted equivariant]] [[KR-theory]
 
 * [[Zhen Huan]], [[Matthew B. Young]], *Twisted Real quasi-elliptic cohomology* &lbrack;[arXiv:2210.07511](https://arxiv.org/abs/2210.07511)&rbrack;
 
+  [[Zhen Huan]], *Twisted Real quasi-elliptic cohomology*, talk at [[CQTS]] (Nov 2022) &lbrack;[video](https://zoom.us/rec/play/_2MIenxSff2vBZeFPO8lV6g_lyLgrUEBDP5Au7tySNyeJpeLeXfZ96ZBkgKs7wNYAnBDauB4atzVJAt-.McANEtFgQHFACmbr?_x_zm_rhtaid=966&_x_zm_rtaid=F4VKJYOLRDu8ouQdfmDz3w.1668757869896.554b5189e89fa9af0846d97599b6bf49&autoplay=true&continueMode=true&iet=6_ddkV5u8UGa9M9U4dDvH2SN55OyZgmZiCrQZ6wbo4E.AG.Gp56JL6y5Z3naAtSVPOGAHkLGEPMDtxPB370GxyQz_EIJOEq1ylk0bXAowqSDnPSYr62xiX92tLdNLdbchq-w5Vhavx5UCPbjfaCIIObE183OI8.142oNpQmC8JiJOzcA4eIXw.O0nEkHAMvD5awvgi&startTime=1667999236000)&rbrack;
+
 
 [[!redirects twisted ad-equivariant Tate K-theory]]
 
