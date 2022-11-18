@@ -1,4 +1,8 @@
 
+\tableofcontents
+
+## Idea
+
 In some choices of [[foundations]], one says __small set__ in order to amplify that one really means a [[set]] and not a [[proper class]].  Strictly speaking, in this case one could just say "set".
 
 However, in other choices of [[foundations]], such as [[Grothendieck universes]], there exist both "small sets" (sets that belong to the universe) and "large sets" (sets that do not, such as the universe itself).  In this case the adjective really is necessary.  We also gain an intermediate notion of __moderate set__: a subset of the universe, which may be small or large.  (Every small set is moderate, but not conversely; again, the universe itself is the standard counterexample.)
@@ -9,6 +13,11 @@ Similarly, a __small family__ is a [[family]] indexed by a small set; the [[axio
 
 We also have related notions of small [[ordinals]], [[small categories]], etc.
 
+## See also
+
+* [[class]]
+
+* [[large set]]
 
 [[!redirects small set]]
 [[!redirects small sets]]
