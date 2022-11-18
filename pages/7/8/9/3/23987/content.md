@@ -522,9 +522,9 @@ Stone-von Neumann**
 
   **Quantum Programming via Linear Homotopy Types**
 
-  > on the [[quantum programming language]]-scheme *[[schreiber:QS]]*
-
   slides: see those for [external talk at  QTML2022](#QTML22)
+
+  > We first recall basic notions of [[quantum logic gates]] and [[quantum circuits]], highlighting the conceptually more subtle issues of classical effects ([[quantum measurement|measurements]]) and control ([[quantum state preparation|state preparation]]). Then we briefly review the formulation of [[monad in computer science|computational effects and control]] via [[adjoint functor|adjunctions]] and [[monads]] on [[data type]] [[type systems]], in order to finally indicate basics of [our observation](#QTML22) that in any decent type system which has *[[dependent linear type theory|classically dependent linear data types]]*, the relevant language structures for describing classical/quantum effects emerge naturally. 
 
   
 ### Nov 2022
@@ -534,6 +534,8 @@ Stone-von Neumann**
   [[Zhen Huan]] (HUST)
 
   **Twisted Real quasi-elliptic cohomology**
+
+  video: [rec](https://zoom.us/rec/play/_2MIenxSff2vBZeFPO8lV6g_lyLgrUEBDP5Au7tySNyeJpeLeXfZ96ZBkgKs7wNYAnBDauB4atzVJAt-.McANEtFgQHFACmbr?_x_zm_rhtaid=966&_x_zm_rtaid=F4VKJYOLRDu8ouQdfmDz3w.1668757869896.554b5189e89fa9af0846d97599b6bf49&autoplay=true&continueMode=true&iet=6_ddkV5u8UGa9M9U4dDvH2SN55OyZgmZiCrQZ6wbo4E.AG.Gp56JL6y5Z3naAtSVPOGAHkLGEPMDtxPB370GxyQz_EIJOEq1ylk0bXAowqSDnPSYr62xiX92tLdNLdbchq-w5Vhavx5UCPbjfaCIIObE183OI8.142oNpQmC8JiJOzcA4eIXw.O0nEkHAMvD5awvgi&startTime=1667999236000)
 
   >  [[quasi-elliptic cohomology|Quasi-elliptic cohomology]] is closely related to [[Tate K-theory]]. It is constructed as an object both reflecting the geometric nature of [[elliptic curves]] and more practicable to study than most [[elliptic cohomology|elliptic cohomology theories]]. It can be interpreted by [[Huan's inertia orbifold|orbifold loop spaces]] and expressed in terms of [[equivariant K-theory|equivariant K-theories]]. We formulate the complete [[nLab:power operation]] of this theory. Applying that we prove the finite subgroups of the [[Tate curve]] can be classified by the Tate K-theory of [[symmetric groups]] modulo a certain transfer ideal. In this talk we construct twisted Real quasi-elliptic cohomology as the [[twisted K-theory|twisted]] [[KR-theory]] of [[free loop  orbifold|loop groupoids]]. The theory systematically incorporates loop rotation and reflection. After establishing basic properties of the theory, we construct Real analogues of the string power operation of quasi-elliptic cohomology. We also explore the relation of the theory to the Tate curve. This is joint work with [[Matthew Young]]. &lbrack;[arXiv:2210.07511](https://arxiv.org/abs/2210.07511)&rbrack;
 
