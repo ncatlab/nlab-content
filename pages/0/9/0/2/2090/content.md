@@ -2,6 +2,15 @@ The boundary between [[philosophy|philosophical]] and [[logic|logical]] foundati
 
 To be done
 
+## Foundations and the philosophy of language in mathematics
+
+Different foundations of mathematics provide different languages to use for presenting concepts in mathematics, and the symbols and words used in various foundations have different [[meaning|meanings]] from each other. 
+
+We work in [[natural deduction]] with hypothetical [[judgments]], and give examples of how different foundations of mathematics written in [[natural deduction]] result in different meanings of symbols used in the judgments used in each foundation. 
+
+For example, take the symbol $\in$ denoting membership in [[set theory]] and [[set-level type theory|set-level]] [[dependent type theories]]. In [[unsorted set theory]] and [[simply sorted set theory]], $\in$ is a proposition in the context of an element variable and a set variable. The formal judgment $a \in A \; \mathrm{prop}$ means that "'the element $a$ is in the set $A$' is a proposition", and the judgment $a \in A \; \mathrm{true}$ is commonly abbreviated as $a \in A$ and means that "the proposition that the element $a$ is in the set $A$ is true". In [[dependently sorted set theory]], and in [[layered type theory|unlayered]] [[set-level type theory|set-level]] [[dependent type theories]], $\in$ is a metatheoretic [[judgment]], rather than being part of the actual structure of the theory. The formal judgment $a \in A$ simply means that "$a$ is in the set $A$", rather than "the proposition that the element $a$ is in the set $A$ is true"; there is no propositional truth value attached to $a \in A$. Thus, the foundational notion of membership in unsorted and simply sorted set theories is semantically different from the notion of membership in dependently sorted set theories and unlayered set-level dependent type theory. 
+
+Similarly, the symbol $=$ denoting [[equality]] have different meanings in different theories. 
 
 ## Philosophical papers
 
