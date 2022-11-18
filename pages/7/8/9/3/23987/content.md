@@ -295,6 +295,15 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
   > on [[anyon]] [[braid representation|braiding]] described by [[braided fusion categories]]
 
 
+\linebreak
+
+* 21 Nov 2022
+
+  Andy Kent (Center for Quantum Phenomena, NYU)
+
+  **A new spin on magnetism with applications in information processing**
+
+  > Recent advances in magnetism research are likely to have an important impact on electronics and information processing. These advances use the electron magnetic moment (spin) to transmit, write and store information. They enable new devices that operate at high speed with very low energy consumption. The information is stored in the orientation of electron magnetic moments in magnetic materials and can persist without power; energy is only needed to write and read the information. Important physics concepts include the interconversion of electrical (charge) currents into spin currents, the efficiency of the interconversion, controlling the currents, spin polarization direction, and the associated spin torques on magnetic order. Magnetic skyrmions are also of interest both because of their stability --- they are topologically protected objects --- and because their nucleation and motion can be controlled using spin currents. In this talk I will highlight the new physics concepts that have enabled these advances and discuss some of their applications in information processing.
 
 
 \linebreak
@@ -541,6 +550,17 @@ Stone-von Neumann**
 
 \linebreak
 
+* 23 Nov 2022
+
+  Valentino Foit (NYUAD)
+
+  **Brownian loops and conformally invariant systems**
+
+  > The Brownian loop soup (BLS) is a stochastic system that is constructed from random loops in the plane and is invariant under conformal transformations. Correlation functions of certain observables can be used to formulate the BLS as a Conformal Field Theory (CFT). I will give an overview of CFTs in two dimensions and point out their relation to certain stochastic systems. Then I will discuss the BLS including some recent progress, such as the operator content, the continuous spectrum, and hints of an extended symmetry algebra.
+
+
+\linebreak
+
 ## External talks
  {#ExternalTalk}
 
@@ -578,6 +598,7 @@ Talks reporting on work at CQTS.
 
 \linebreak
 
+
 ### Nov 2022
 
 * {#QTML22} 12 Nov 2022 at *[Workshop on Quantum Software](https://quasar.unina.it/qtml2022/workshop.php)*, satellite of *[QTML 2022](https://quasar.unina.it/qtml2022.html)* (Naples, Italy)
@@ -589,7 +610,6 @@ Talks reporting on work at CQTS.
   slides: [pdf](https://ncatlab.org/schreiber/files/QuantumDataInLHoTT-221112f.pdf)
 
   > The proper concept of [[nLab:data types]] in [[nLab:quantum programming languages]], hence of their [[nLab:certified programming|formal verification]] and [[nLab:categorical semantics]], has remained somewhat elusive, as witnessed by the issue of "[dynamic lifting](https://ncatlab.org/nlab/show/Quipper#ReferencesDynamicLifting)" encountered in the [[nLab:Quipper]] language family. In this talk I explain our claim that a powerful [[nLab:quantum computation|quantum]] [[nLab:data type]]-system elegantly solving these problems is naturally provided by the *[[nLab:linear homotopy type theory]]* recently [realized](https://ncatlab.org/nlab/show/dependent+linear+type+theory#Riley22) by [[nLab:Mitchell Riley|M. Riley]]. Together with our [previous claim](Topological+Quantum+Programming+in+TED-K#GMConAbs) that [[nLab:homotopy type theory]] natively knows about the fine detail of [[nLab:su(2)-anyon|$\mathfrak{su}$(2)-]][[nlab:anyon]] [[nLab:braid representation|braid]] [[nLab:quantum gates]], this shows that [[nLab:linear homotopy type theory]] is a natural substrate for [[nLab:type theory|typed]] [[nLab:quantum programming languages]] aware of [[nLab:topological phases of matter|topological]] [[nLab:quantum materials|quantum hardware]]. 
-
 
   
 
