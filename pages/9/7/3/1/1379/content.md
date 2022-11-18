@@ -1,33 +1,51 @@
 
-# Proper classes
-* table of contents
-{: toc}
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+\tableofcontents
 
 ## Idea
 
-A _proper class_ is a [[set]] that is too big to be a set.  Exactly what this means depends on the [[foundations]] of mathematics, but something must be said about it to study [[large category|large categories]].
+A class is a collection of objects in certain [[foundations]], used to address size issues. Classes could be "small", in which they are usually called **[[sets]]**, or "large", in which they are usually called **proper classes**. Exactly what classes are depends on the [[foundations]] of mathematics (such as material class theory, structural class theory, or type theory). 
 
+Classes are used in [[category theory]] for defining various [[locally small categories]] and [[large categories]], but in either case, the categories used are still [[strict categories]] and violate the [[principle of equivalence]] due to the [[propositional equality]] used for classes.
 
 ## Definitions
 
-There are several ways to deal with this and define a proper class.
+### Classes
 
-A __proper class__ is a [[large category|large]] [[discrete category]].  But since a large category is usually defined as having a proper class of objects, this just moves the bubble under the wallpaper to 'large category' and something must be applied there.
+There are multiple ways to define a class. Let us work in the foundations of [[natural deduction]] and the framework of [[logic over type theory]]. 
 
-A __proper class__ is a collection that can be put in [[bijection]] with the class of all [[ordinal number|ordinals]], $Ord$.  But this requires the [[global axiom of choice]] to be correct.
+* Suppose we are given an [[unsorted set theory]] whose objects are "probable sets", with a [[predicate]] $\mathrm{isSet}(A)$ saying whether a "probable set" $A$ is a set. A **class** $C$ is a [[proposition]] in the [[context]] of a [[free variable]] $A$ and the true proposition $\mathrm{isSet}(A) \; \mathrm{true}$. 
+$$\Gamma, A \vert \Phi, \mathrm{isSet}(A) \; \mathrm{true} \vdash C \; \mathrm{prop}$$
 
-A __proper class__ is a class that is not a [[set]].  So now we have to define 'class'.
+* Suppose we are given a [[simply sorted set theory]] or [[dependently sorted set theory]] with a [[sort]] $\mathrm{ProbSet}$ of "probable sets" with a [[predicate]] $\mathrm{isSet}(A)$ on $\mathrm{ProbSet}$ saying whether a term $A:\mathrm{ProbSet}$ is a set. A **class** $C$ is a [[proposition]] in the [[context]] of a [[free variable]] for a probable set $\mathrm{ProbSet}$ and the true proposition $\mathrm{isSet}(A) \; \mathrm{true}$. 
+$$\Gamma, A:\mathrm{ProbSet} \vert \Phi, \mathrm{isSet}(A) \; \mathrm{true} \vdash C \; \mathrm{prop}$$
 
-A __proper class__ is a class whose cardinality is not the [[cardinal number]] of any set.  This is a  version of the previous definition not violating the [[principle of equivalence]]; however, in some foundations these are actually equivalent (using the [[axiom of replacement]]).
+There are also [[class theories]] where classes are the primitives:
 
-A __class__ is a collection of [[sets]].  Here the bubble is moved to 'collection', but we will be able to pop that bubble below.  Also we might want to allow the members of a proper class to be other than sets (such as [[structured sets]]); certainly it is true, however, that a __pure class__ is a collection of [[pure sets]].
+* Material class theory: Classes are primitives of the theory, and sets are defined as specific kinds of classes.  Examples include [[Morse-Kelley class theory]] and [[von Neumann–Bernays–Gödel class theory]]. 
 
-A __class__ is a formula in the language of [[set theory]] for a [[truth value]], equipped with a specified [[free variable]] for a set.  This is a formalisation of the previous definition, but it must be interpreted metamathematically: a __formula for a class__ in a given [[context]] $\Gamma$ is a formula for a truth value in the extension of $\Gamma$ by one more free variable for a set.
+* Structural class theory: A **class** is an object of a [[category of classes]], and sets are defined as specific kinds of classes. Examples include [[category with class structure]] and the branch of [[algebraic set theory]]
 
-A __class__ may even be an undefined concept; the real definition is to define a __[[set]]__ as a class that is itself a member of some class.  With appropriate axioms, this is equivalent to the previous definition (and conservative over set theory without classes), but it\'s also possible to apply stronger axioms here; this choice is the difference between $BNG$ and $MK$ as extensions of [[ZFC]].
+### Classes relative to a universe
 
-A __class__ is a [[subset]] of a [[Grothendieck universe]] $U$, while a ([[small category|small]]) __set__ is merely an element of $U$.  This gives a relative notion, depending on $U$.  As stated here, we get a concept of class like that of the strong theory $MK$; to be more like $BNG$ (and therefore conservative over set theory without an axiom of universes) we should define a __class__ to be a subset of $U$ that is definable in the language of set theory.
+There are many notions of [[universe]] in [[set theory]] or [[type theory]], including [[Grothendieck universes]], [[well-pointed pretopos|well-pointed]] [[Heyting pretopoi]], [[well-pointed category|well-pointed]] [[division allegories]], [[Tarski universes]], and models of the material [[cumulative hierarchy]] such as the [[material set theory|material]] [[cumulative hierarchy]] [[higher inductive type]] in [[dependent type theory]]. 
 
+Let $Set$ be a [[universe]] of [[sets]]. Then a **class** relative to $Set$ is a [[subset]] $C \subseteq Set$ with a given injection $i:C \hookrightarrow Set$. If one has choice, any subset comes with a given injection via the [[axiom of choice]]. Thus, by this definition, it is a injective [[family of sets|family of $U$-small sets]]. Equivalently, given some set of [[truth values]], [[subobject classifier]], or [[type of propositions]] $\Omega$, a **class** is a function $C:Set \to \Omega$ from $Set$ into $\Omega$. 
+
+## Proper classes
+
+A **proper class** is a class which is not a [[set]]. What not being a set means depends upon the foundation; in [[material set theory]], one would use the property of not being equal to any sets, while in [[structural set theory]], one would use the property of not being in [[bijection]] with any sets. 
+
+In the context of the [[global axiom of choice]], a proper class is a class which can be put in [[bijection]] with the class of all [[ordinal number|ordinals]], $Ord$. 
 
 ## Usage
 
@@ -44,7 +62,21 @@ See the linked article for more information and precise definitions.
 
 Just as an [[elementary topos]] is an axiomatization of basic properties of the category [[Set]], a [[category with class structure]] is an axiomatization of basic properties of the category $Class$.  See also [[algebraic set theory]].
 
+## See also
+
+* [[category of classes]]
+
+* [[type of classes]]
+
+* [[family of sets]]
+
+* [[large set]], [[small set]]
+
 ## References
+
+For the definition of a class in [[homotopy type theory]], see section 10.5.3 of:
+
+* *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
 
 A paper detailing one approach to the technical side of how classes appear in [[category theory]] (namely using [[Grothendieck universes]]) is
 
@@ -52,5 +84,8 @@ A paper detailing one approach to the technical side of how classes appear in [[
 
 [[!redirects class]]
 [[!redirects classes]]
+[[!redirects class relative to a universe]]
+[[!redirects classes relative to a universe]]
+
 [[!redirects proper class]]
 [[!redirects proper classes]]
