@@ -167,6 +167,8 @@ The universal class is the class of all sets.
 
 * [[class]]
 
+* [[type of classes]]
+
 * [[proper class]]
 
 * [[large category]]
