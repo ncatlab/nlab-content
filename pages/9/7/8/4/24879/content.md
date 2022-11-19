@@ -12,11 +12,11 @@
 
 ## Idea
 
-In this article we introduce a [[structural set theory]] consisting of three basic primitives, [[sets]], [[elements]], and [[functions]], as well as function evaluation, and structural versions of the 10 axioms of [[ZFC]] presented in the nLab article of [[ZFC]], making the set theory equivalent in strength to ZFC. 
+In this article we introduce a [[structural set theory]] consisting of four basic primitives, [[sets]], [[elements]], [[functions]], and [[relations]], as well as function evaluation, and relation holding, and structural versions of 9 of the 10 axioms of [[ZFC]] presented in the nLab article of [[ZFC]], making the set theory equivalent in strength to ZFC. We propose that [[structural ZFC]] is a suitable theory for [[practical foundations]], as the primitives and axioms are in alignment with the usage of such objects in mathematical practice, rather than coming with its own additional baggage. 
 
 ## Presentation
 
-We work in a [[first-order logic]] with [[equality]]. In structural ZFC, there are three basic primitives:
+We work in a [[first-order logic]] with [[equality]]. In structural ZFC, there are four basic primitives:
 
 * **[[sets]]** $A$
 
@@ -24,11 +24,18 @@ We work in a [[first-order logic]] with [[equality]]. In structural ZFC, there a
 
 * for every set $A$ and $B$, **[[functions]]** $f:A \to B$ with **[[domain]]** $A$ and **[[codomain]]** $B$ (the function notation $f:A \to B$ here is a [[judgment]], rather than a relation)
 
-In addition, for every function $f:A \to B$ and element $a \in A$, one could form the element $f(a) \in B$; this operation is called **function evaluation**, and for every element $a \in A$, one could form the [[singleton subset]] [[function]] $\{a\}:\mathcal{P}(\emptyset) \to A$. 
+* for every set $A$ and $B$, **[[relations]]** $\varphi:A \looparrowright B$ with **[[domain]]** $A$ and **[[codomain]]** $B$ (the relation notation $\varphi:A \looparrowright B$ here is a [[judgment]], rather than a relation)
+
+In addition, 
+
+* for every function $f:A \to B$ and element $a \in A$, one could form the element $f(a) \in B$; this operation is called **function evaluation**, 
+* for every relation $\varphi:A \looparrowright B$ and element $a \in A$, one could form that $\varphi(a, b)$ **holds** of $a$ and $b$. 
 
 The axioms of structural ZFC are as follows:
 
-**Axiom 0 (axiom of equality preservation):** _For all sets $A$ and $B$, functions $f:A \to B$, and elements $a \in A$ and $b \in A$, if $a = b$, then $f(a) = f(b)$. 
+**Axiom 0A (Axiom of equality preservation):** _For all sets $A$ and $B$, functions $f:A \to B$, and elements $a \in A$ and $b \in A$, if $a = b$, then $f(a) = f(b)$. 
+
+**Axiom 0B ([[axiom of unique choice|Axiom of unique choice]]):** _For all functions $f:A \to B$, there is a unique relation $\varphi:A \looparrowright B$ such that for all $a \in A$, $\varphi(a, f(a))$ holds of $a$ and $f(a)$, and for all relations $\varphi:A \looparrowright B$ such that for all $a \in A$, there is a unique $b \in B$ such that $\varphi(a, b)$ holds of $a$ and $b$, there is a function $f:A \to B$ such that $f(a) =_B b$._ 
 
 A function $f:A \to B$ is an **[[injection]]** if for all elements $a \in A$ and $b \in A$, $a = b$ if and only if $f(a) = f(b)$. Injections are written as $f:A \hookrightarrow B$. 
 
@@ -39,7 +46,7 @@ A function $f:A \to B$ is an **[[injection]]** if for all elements $a \in A$ and
 
 One uses the axiom of strong extensionality as the definition of a [[bijection]] between sets. 
 
-**Axiom 2 (Axiom of [[empty set]]):** _There exists a set $\emptyset$ such that for every other set $A$, there is a unique function $u_A^\emptyset:\emptyset \to A$._
+**Axiom 2 (Axiom of [[empty set]]):** _There exists a set $\emptyset$ such that for every other set $A$, there is a unique relation $u_A^\emptyset:\emptyset \looparrowright A$._
 
 **Axiom 3 (Axiom of [[Cartesian products]]):** _For every set $A$ and $B$, there exists a set $A \times B$ with a function $\pi_A:A \times B \to A$ and a function $\pi_B:A \times B \to B$ such that for every element $a \in A$ and $b \in B$ there is a unique element $(a, b) \in A \times B$, such that $\pi_A((a, b)) = a$ and $\pi_B((a, b)) = b$._
 
@@ -49,13 +56,13 @@ One uses the axiom of strong extensionality as the definition of a [[bijection]]
 
 **Axiom 6 ([[axiom schema of collection|Axiom schema of collection]]):** _For any set $A$ and formula $\phi(x, X)$ with free variables $x \in A$ and $X$, there exists a set $B$, function $p:B \to A$, set $C$ and function $M:C \to B$ such that for every $b \in B$, $\phi(p(b), M^{*}(b))$, and for every $a \in A$, if there exists a set $X$ with $\phi(a, X)$, then $a \in \mathrm{im}(p)$._
 
-**Axiom 7 (Axiom of [[power sets]]):** _For every set $A$ there exists a set $\mathcal{P}(A)$ with a set $\in_A$ and an injection $i_{\in_A}:\in_A \hookrightarrow A \times \mathcal{P}(A)$ such that for every set $B$ and $R$ with an injection $i:R \hookrightarrow A \times B$, there exists a unique function $\chi_R:B \to \mathcal{P}(A)$ and a unique function $u_R^{\in_A}:R \to \in_A$ such that for all elements $r \in R$, $\pi_A(i(r)) = \pi_A(i_{\in_A}(u_R^{\in_A}(r)))$ and $\chi_R(\pi_B(i(r))) = \pi_{\mathcal{P}(A)}(i_{\in_A}(u_R^{\in_A}(r))$._
+**Axiom 7 (Axiom of [[power sets]]):** _For any set $A$, there exists a set $\mathcal{P}(A)$ and a relation $(-)\in_A(-):A\looparrowright \mathcal{P}(A)$ such that for any set $B$ with injection $i:B \hookrightarrow A$, there exists a unique $b \in \mathcal{P}(A)$ such that for any $x \in A$, $x \in_A b$ holds of $x$ and $b$ if and only if there exists an element $y \in B$ such that $i(y) =_A x$._
 
 **Axiom 8 (Axiom of [[natural numbers]]):** _There exists a set $\mathbb{N}$ with an element $0 \in \mathbb{N}$ and a function $s:\mathbb{N} \to \mathbb{N}$, such that for all sets $A$ with an element $0_A:A$ and function $s_A:A \to A$, there is a unique function $u_A^\mathbb{N}:\mathbb{N} \to A$ such that $u_A^\mathbb{N}(0) = 0_A$ and for all elements $n \in \mathbb{N}$, $u_A^\mathbb{N}(s(n)) = s_A(u_A^\mathbb{N}(n))$._ 
 
 **Axiom 9 ([[axiom of choice|Axiom of choice]]):** _If $f:A \to B$ is a function such that for every element $x \in B$ there exists an element $y \in A$ such that $f(y) = x$, then there is a function $g:B \to A$ such that for all elements $x \in B$, $f(g(x)) = x$._ 
 
-**Axiom 10 ([[axiom of well-founded materialization|Axiom of well-founded materialization]]):** _Every set can be embedded in some well-founded extensional graph._ 
+The structural version of the [[axiom of foundation]], the [[axiom of well-founded materialization]], states that every set can be embedded in some [[well-founded relation|well-founded]] [[extensional relation|extensional]] [[graph]]. This axiom follows from the [[axiom of choice]], and well-founded extensional graphs are not a fundamental concept in structural set theory, so it is not listed here as a separate axiom. 
 
 ## Making alternate primitive choices
 
