@@ -108,7 +108,7 @@ If $V$ is an object in a [[CMon-enriched symmetric monoidal category]] $\mathcal
 V^{\otimes n} \arrow[rr, "\sigma", shift left=2] \arrow[rr, "...", shift right=2] &  & V^{\otimes n}
 \end{tikzcd}
 
-(there is one morphism for every $\sigma \in \mathfrak{S}_{n}$),
+(there is one morphism for every $\sigma \in \mathfrak{S}_{n}$, such permutation natural transformations being defined in the entry [[symmetric monoidal category]]),
 
 we say that $V$ possess all the symmetric powers. The $n^{th}$ symmetric power is given by the coequalizer:
 
@@ -234,6 +234,8 @@ Symmetric powers in a symmetric monoidal $\mathbb{Q}^{+}$-linear category seem t
 * [[symmetric algebra spectrum]]
 
 * [[symmetric ring]]
+
+* [[symmetric power]]
 
 ## References
 
