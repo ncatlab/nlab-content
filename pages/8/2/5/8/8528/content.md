@@ -3,15 +3,15 @@
 
 ## Definition
 
-Given a [[universe]] $U$, a **$U$-large set** is a set which is not a $U$-small set. What not being $U$-small means depends upon the [[foundations]]; in [[material set theory]], one would use the property of not being equal to any $U$-small sets, while in [[structural set theory]], one would use the property of not being in [[bijection]] with any $U$-small sets and in [[dependent type theory]], one would use the property of not being [[equivalence of types|equivalent]] to any $U$-small sets. 
+Given a [[universe]] $U$, a **$U$-large set** is a set which is not a $U$-small set. $U$-large sets can be contrasted with $U$-[[small sets]]. 
 
-A $U$-large set is sometimes also called a **[[proper class]] relative to $U$**, but here, we shall use the term **proper class** for any formula in the language of [[material set theory]] for a [[proposition]] which is not a material [[set]]. 
+## Relation to classes
 
-$U$-large sets can be contrasted with $U$-[[small sets]]. 
+Every [[proper class]] in [[set theory]] is a $U$-large set. However, in [[dependent type theory]], only material proper classes are always $U$-large [[h-sets]]; structural proper classes in dependent type theory are [[h-groupoids]] if the universe $U$ is a [[univalent universe]]. 
 
 ## See also
 
-* [[universe]], [[Grothendieck universe]], [[well-pointed pretopos|well-pointed]] [[Heyting pretopos]], [[well-pointed category|well-pointed]] [[division allegory]], [[Tarski universe]]
+* [[universe]], [[Grothendieck universe]], [[well-pointed pretopos|well-pointed]] [[Heyting pretopos]], [[well-pointed category|well-pointed]] [[division allegory]], [[Tarski universe]], [[cumulative hierarchy]]
 
 * [[class]]
 
