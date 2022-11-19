@@ -28,7 +28,7 @@ While class theories address the [[size issue|issue of size]] in mathematics, th
 
 ## Semantics and models
 
-Let $U$ be a [[universe]], and let $\mathrm{Set}_U$ be the [[universe]] of [[sets]] in $U$, and let $\Omega$ be a collection of [[propositions]]. A [[model♧] of [[set theory]] is $\mathrm{Set}_U$, while a model of [[class theory]] is the collection of [[predicates]] $\mathrm{Set}_U \to \Omega$. 
+Let $U$ be a [[universe]], and let $\mathrm{Set}_U$ be the [[universe]] of [[sets]] in $U$, and let $\Omega$ be a collection of [[propositions]]. A [[model]] of [[set theory]] is $\mathrm{Set}_U$, while a model of [[class theory]] is the collection of [[predicates]] $\mathrm{Set}_U \to \Omega$. 
 
 ## See also
 
@@ -43,3 +43,15 @@ Let $U$ be a [[universe]], and let $\mathrm{Set}_U$ be the [[universe]] of [[set
 
 [[!redirects class-set theory]]
 [[!redirects class-set theories]]
+
+[[!redirects material class theory]]
+[[!redirects material class theories]]
+
+[[!redirects material class-set theory]]
+[[!redirects material class-set theories]]
+
+[[!redirects structural class theory]]
+[[!redirects structural class theories]]
+
+[[!redirects structural class-set theory]]
+[[!redirects structural class-set theories]]
