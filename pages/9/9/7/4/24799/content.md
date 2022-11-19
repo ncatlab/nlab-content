@@ -1,6 +1,14 @@
 
 **[[set theory]]**
 
+* fundamentals of set theory
+  * [[propositional logic]]
+  * [[first-order logic]]
+  * [[typed predicate logic]]
+  * [[membership relation]]
+  * [[propositional equality]]
+  * [[set]], [[element]], [[function]], [[relation]]
+  * [[universe]], [[small set]], [[large set]]
 * presentations of set theory
   * [[unsorted set theory]]
   * [[simply sorted set theory]]
@@ -26,3 +34,8 @@
       * [[structural ZFC]]
     * [[allegorical set theory]]
       * [[SEAR]]
+* [[class-set theory]]
+  * [[class]], [[proper class]]
+  * [[universal class]], [[universe]]
+  * [[category of classes]]
+  * [[category with class structure]]
