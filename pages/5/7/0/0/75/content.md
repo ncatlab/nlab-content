@@ -33,6 +33,8 @@ There are two different attitudes to what a desirable or interesting foundation 
 
    Formal systems of interest here are [[ETCS]] or flavors of [[type theory]], which allow natural expressions for central concepts in mathematics (notably via their [[categorical semantics]] and the conceptual strength of [[category theory]]).
 
+For a philosophical treatment of foundations see [[foundations and philosophy]]. 
+
 ## Deductive systems
 
 Almost all [[foundations of mathematics]] are expressed in some foundational [[deductive system]]. 
@@ -53,7 +55,7 @@ Note that in certain foundations, the objects, collections, and membership are d
 
 For example, in [[pure set]] theories like [[ZFC]] and [[Mostowski set theory]], elements and sets are the same notion, and thus elements could be considered to be a derived notion from set, or sets could be considered to be a derived notion from element. In [[material set theory]] with [[urelements]], such as [[ZFA]], elements are the basic notion and sets are derived from elements. In [[ETCS]], while sets are basic, elements are derived from a basic notion of [[function]], and in [[fully formal ETCS]], both sets and elements are derived notions from a basic notion of [[function]]. In [[SEAR]] and [[structural ZFC]], sets and elements are both basic distinct notions. 
 
-Something similar occurs with [[class theories]], where classes play the role of sets. 
+Something similar occurs with [[class theories]], such as [[Morse-Kelly class theory]] and the framework of [[algebraic set theory]], where classes play the role of sets. 
 
 In type theory, there are also a distinction to be made. In most type theories, both terms and types are basic foundational notions. However, in [[book HoTT]], terms are the basic notion, and [[types]] are derived from terms. 
 
@@ -67,13 +69,21 @@ Foundations could be contrasted between those foundations where membership is a 
 
 For theories with a membership relation, one could further distinguish between [[homogeneous membership relations]] (for relations on the same sort) and [[heterogeneous membership relations]] (for relations between two different sorts), as well as membership relations which are primitive to the theory, and membership relations which are derived from some other existing structure in the theory. 
 
-For theories with a typing judgment, one simply judges the object, element, or term $a$ to be in the collection, set, or type $A$, (). This is in contrast to membership relations, where () is a proposition with some truth value, and thus one could say whether the proposition that the object, element, or term $a$ is in collection, set, or type $A$ is true or not. 
+For theories with a typing judgment, one simply judges the object, element, or term $a$ to be in the collection, set, or type $A$, () or $a:A$. This is in contrast to membership relations, where () is a proposition with some truth value, and thus one could say whether the proposition that the object, element, or term $a$ is in collection, set, or type $A$ is true or not. 
 
-Formally, there are also a difference in the contexts. When () is a judgment, then it lies in the type layer, but when () is a true proposition, then it lies in the proposition layer $\Phi$ while the typing judgment $a:\mathrm{Set}$ lies in the type layer. 
+Formally, there are also a difference in the contexts. When () or $a:A$ is a judgment, then it lies in the type layer, but when () is a true proposition, then it lies in the proposition layer $\Phi$ while the typing judgment $a:\mathrm{Set}$ lies in the type layer. 
 
-### Equality and identity
+### Equality and equivalence
 
-...
+In most foundations such as [[dependent type theory]] and [[logic over type theory]], one distinguishes various different notions of _[[equality]]_ or _[[equivalence]]_ of the terms of the language.
+
+There are broadly three different notions of equality which could be distinguished: **[[judgmental equality]]**, **[[propositional equality]]**, and **[[typal equality]]**, each of which applies for both objects (elements, terms) and collections (sets, classes, types). Judgmental equality is defined as a basic judgment in the foundations. Propositional equality is defined as a proposition in any [[typed predicate logic]]. Typal equality is defined as a type in type theory, and is also called the [[identity type]] or [[path type]] for elements, and the [[type of equivalences]] for types. 
+
+The equality of elements used in most [[set theories]] and [[class theories]] are [[propositional equalities]]. The equality of elements used in [[dependent type theories]] are [[typal equality]]. If the dependent type theory is not an [[objective type theory]], most likely it also either has one of [[judgmental equality]] or [[propositional equality]] to use for [[definitions]]. 
+
+The equality of collections differs from theory to theory. There are [[set theories]] and [[class theories]] where [[propositional equality]] is used as the notion of [[equality]] between sets and classes, while for other set theories and class theories, the notion of equality between sets and classes is rather [[bijection]] of sets and classes, rather than equality of sets and classes. Something similar happens in dependent type theory, depending on whether one uses a separate type judgment, or [[Russell universes]] without a separate type judgment: for Russell universes, the [[identity type]] is used for the equality of types in the universe, since types are terms of Russell universes. On the other hand, the dependent type theories with a separate type judgment, there is no identity type between two types, and one has to use the [[type of equivalences]] instead. 
+
+A mathematical foundation is said to respect the [[principle of equivalence]] if there is no strict [[propositional equality]] between sets. Thus, any [[unsorted set theory]] like [[fully formal ETCS]] violates the [[principle of equivalence]]. 
 
 ### Size issues, universes, and classes
 
@@ -85,76 +95,6 @@ The objects not in $U$ are called **$U$-[[large sets]]** or **$U$-large types**,
 * In [[class theory]], the notion of universe is already in the theory via the [[universal class]], which is by definition a [[class]] [[universe]]. The basic primitive in class theory are [[classes]], and the $U$-small classes are called [[sets]]. 
 
 * In [[dependent type theory]], one uses [[univalent universe|univalent]] [[Russell universes]] or [[Tarski universes]], which are basically internal models of [[dependent type theory]]. 
-
-## Category theory and foundations
-{#categories}
-
-There are two big questions about [[category theory]] and the logical foundations of mathematics:
-
- 1. What foundations are adequate to formulate category theory?
- 2. How can category theory provide a foundation for mathematics?
-
-These questions also apply to [[higher category theory]], which also involves the relation between them. (2-categories as a foundation for categories, for example.)
-
-For a philosophical treatment of category theoretic foundations see [[foundations and philosophy]]. 
-
-
-### Mathematical foundations of category theory
-{#MFCT}
-
-The problem with mathematical foundations of category theory is that in category theory we frequently speak of [[large category|large categories]], which it is tricky to deal with rigorously in the usual sort of [[set theory|set theories]].
-
-One common view seems to be to found category theory on a theory of sets and classes; see [the English Wikipedia\'s definition](https://en.wikipedia.org/wiki/Category_%28mathematics%29#Definition), for example. But the standard reference, Saunders Mac Lane\'s _Categories for the Working Mathematician_, assumes the existence of a universe (an inaccessible cardinal) instead. Both of these approaches rely on a distinction between *small* and *large* categories. There is a category of all [[small category|small categories]], but this category is not itself small; there is no category of all categories.
-
-[[Alexander Grothendieck]] used more (although [apparently](http://permalink.gmane.org/gmane.science.mathematics.categories/6847) he did not need to); he used what we now call [[Grothendieck universes]]\. He assumed that every set is contained within a universe; that is, for every cardinal number $\kappa$, there is a cardinal inaccessible from $\kappa$. (This is still a rather moderate axiom, compared to some of the large-cardinal axioms studied by set theorists.) Now one has a relative notion of small and large; the category of all $U$-small categories (where $U$ is some universe) is $U$-large but must be $U'$-small for some other universe $U'$, and there exists a category (which is both $U$-large and $U'$-large) of all $U'$-small categories.
-
-If one does not accept the [[axiom of choice]], then there are additional complications in general category theory. In particular, one must distinguish between a universal *property* (for example, having all [[product]]s) and having a universal *structure* realising that property (in the example, a functor taking each pair $(x,y)$ of objects to a specific product cone $x \leftarrow x \times y \rightarrow y$). This difficulty was overcome by Michael Makkai using [[anafunctor]]s, but these have not been widely adopted, even by constructivists.
-
-For a summary of the mathematical foundations of category theory, see Mike Shulman, _Set theory for category theory_, [arXiv:0810.1279](http://arxiv.org/abs/0810.1279).
-
-
-#### The concept of _identity_
-{#Identity}
-
-One way to think of category theory is as a framework in which the idea is formalized that every kind of [[equality]] is really secretly a choice of [[isomorphism]] or [[equivalence]]. In some sense the notion of identity potentially breaks the [[principle of equivalence]].
-
-[[Michael Makkai]] works on a language, [[FOLDS]] ('first-order logic with dependent sorts'), which is designed to make it impossible to formulate any statements that break the [[principle of equivalence]].
-
-
-### Categorial foundations of mathematics
-{#CFM}
-
-[[Bill Lawvere]] proposed to found mathematics on [[ETCC]] (for ' Elementary Theory of the Category of Categories'), a first-order axiomatisation of [[Cat|the category of categories]]. This has not been very successful, 
-but his other proposal, a first-order axiomatisation of [[Set|the category of sets]], works well. These and related approaches to foundations may be called _structural_ or _categorial_ (or _categorical_, which is more common but clashes with another sense of 'categorical' in logic).
-
-
-Lawvere\'s system [[ETCS]] (for 'the Elementary Theory of the Category of Sets') essentially states that the category of sets is a [[topos]] with certain properties, in particular a [[well-pointed topos]]. This can be stated in elementary (first-order) terms; indeed, the system of axioms for ETCS in 1965 was retrospectively an important step in Lawvere's quest to give a first-order axiomatization for the topos concept that was originally formulated in higher-order terms by the Grothendieck school, resulting in 1970 in the by the now-default notion of *elementary* topos that subsumes the original notion, now called [[Grothendieck topos]], as an important special case.
-
-It is also possible to found mathematics on the [[internal logic|internal language]] of a topos. In this case, the topos need *not* be well-pointed (and indeed, the condition that a topos be well-pointed cannot be stated in its own internal language; or if you prefer, *every* topos is well-pointed *internally*). This is equivalent to a certain formulation of [[type theory]], so it is (in a sense) nothing new, although it leads to new perspectives, as in the next paragraph.
-
-Categories (not just toposes) can serve as models of [[type theory|type theories]], each type theory corresponding to a certain class of categories. Toposes correspond directly to a constructive but impredicative type theory; to make the theory predicative (in the constructivists\' sense) you generalise to a [[pretopos]] (maybe [[locally cartesian closed category|locally cartesian closed]]), to make the theory nonconstructive you specialise to a [[Boolean topos]], and so on. More specifically, every category\'s internal language is a type theory (with many odd constants), and every type theory (of appropriate form) defines a category (its free model); this is an [[adjunction]] between categories and type theories. [[Paul Taylor]]\'s book _[[Practical Foundations|Practical Foundations of Mathematics]]_ is essentially all about this subject, as is (at a more advanced level) most of the career of [[Michael Makkai]].
-
-[[Jim Lambek]] proposed to use the [[free topos]] as ambient world to do mathematics in. Being syntactically constructed, but universally determined, with higher-order [[intuitionistic type theory]] as [[internal language]] he saw it as a reconciliation of the three classical schools of [[philosophy of mathematics]], namely [[formalism]], [[platonism]], and [[intuitionism]]. His latest views on this variant of categorical foundations can be found in ([Lambek-Scott 2011](#LS11)).
-
-Certain 'strong' axioms of [[set theory]] (those involving [[quantification]] over all sets) are difficult to state in category-theoretic (or type-theoretic) terms, but this can be overcome in a theory like ETCS; talk to Mike Shulman. (Ironically, this makes it harder to do foundations with categorial foundations!)
-
-In contrast, many of the optional or controversial axioms of set theory (such as the [[axiom of choice]]) can be stated quite directly in ETCS. These can be examined quite well in a na&#239;ve set-theoretic language that never need be precise about whether one\'s foundations are traditional (membership-based), categorial, or whatever.
-
-### Categorial foundations of category theory
-{#CFCT}
-
-Relevant topics: [[ETCC]], [[FOLDS]], [[homotopy type theory]]
-
-
-## Other topics
-{#Other}
-
-* There is also [[algebraic set theory]].
-
-A big picture intro to the comparison between set theory, type theory and topos/category theory as approaches to foundations is in
-
-* [[Steve Awodey]], _From Sets to Types to Categories to Sets_ [pdf](http://www.andrew.cmu.edu/user/awodey/preprints/stcsFinal.pdf)
-
 
 ## Effect of foundations on concrete problems
 {#Concrete}
@@ -169,9 +109,9 @@ It may seem on first sight that foundational questions in mathematics are remote
 
 * [[univalent foundations for mathematics]]
 
-
 * [[synthetic mathematics]]
 
+* [[category theory and foundations]]
 
 \section{Philosophical musings}
 
@@ -184,7 +124,6 @@ It may seem on first sight that foundational questions in mathematics are remote
 * {#Lawvere} [[William Lawvere]], _Foundations and applications: axiomatization and education_, Bulletin of Symbolic Logic 9 (2003), 213-224 ([ps](http://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps), [Euclid](http://projecteuclid.org/euclid.bsl/1052669290))
  
 * {#Harrington} L. A. Harrington (ed.), _Harvey Friedman's Research on the Foundations of Mathematics_, Studies in Logic and the Foundations of Mathematics (2012)
-
 
 [[practical foundations|Practical foundations]] in terms of [[type theory]] language are laid out in
 
@@ -201,10 +140,9 @@ A foundation for [[algebraic topology]] in this practical spirit is laid out in
 * [[Samuel Eilenberg]], [[Norman Steenrod]], _[[Foundations of Algebraic Topology]]_
   {#EilenbergSteenrod}
 
-The following contains a careful discussion of [[Gödel's incompleteness theorem]] in the context of categorical foundations using the free topos:
+A big picture intro to the comparison between set theory, type theory and topos/category theory as approaches to foundations is in
 
-* [[Jim Lambek]], [[Phil Scott]], _Reflections on Categorical Foundations of Mathematics_ , pp.171-185 in  Sommaruga (ed.), _Foundational Theories of Classical and Constructive Mathematics_,  Springer New York 2011. ([draft](https://www.site.uottawa.ca/~phil/papers/LS11.final.pdf)) {#LS11}
-
+* [[Steve Awodey]], _From Sets to Types to Categories to Sets_ [pdf](http://www.andrew.cmu.edu/user/awodey/preprints/stcsFinal.pdf)
 
 A comparative discussion of complexities of different foundations is in 
 
@@ -216,11 +154,6 @@ valid in LF/P) of various kinds of foundations of mathematics. Then it compares 
    The systems analyzed in this way are two kinds of [[set theory]] (ZFC and NF), two systems based on Church's [[higher order logic]] ([[Isabelle]]/Pure and [[HOL]]), three kinds of [[type theory]] (the [[calculus of constructions]], Luo's extended calculus of constructions, and Martin-L&#246;f predicative type theory) and one [[ETCS|foundation based on category theory]]. The conclusions of this paper are that the simplest system is type theory (the calculus of constructions) but that type theories that know about serious mathematics are not simple at all. Set theory is one of the simpler systems too. Higher order logic is the simplest if one looks at the number of concepts (twenty-five) needed to explain the system. On the other side of the scale, category theory is relatively complex, as is Martin-L&#246;f's type theory.
 
 * [[Colin McLarty]], _Set theory for Grothendieck's number theory_, [pdf](http://www.cwru.edu/artsci/phil/Groth%20found.pdf)
-
-***
-
-Some old discussions from this page archived [here](http://nforum.mathforge.org/discussion/4172/foundation-of-mathematics/?Focus=33992#Comment_33992)
-
 
 [[!redirects mathematical foundation]]
 [[!redirects mathematical foundations]]
