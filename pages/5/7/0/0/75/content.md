@@ -45,11 +45,11 @@ Alternatives include [[sequent calculus]] for logic over untyped theories, such 
 
 ## Basic notions
 
-### Objects, collections, and membership
+### Objects and collections
 
-In most foundations of mathematics, there are basic notions of elements and collections of elements. 
+In most foundations of mathematics, there are basic notions of objects and collections of objects. 
 
-Note that in certain foundations, the elements, collections, and membership are derived notions from some other notion. Collections are referred to a number of names, such as [[set]], [[class]], [[type]], et cetera. Elements could be referred to as [[object]] or [[term]]. 
+Note that in certain foundations, the objects, collections, and membership are derived notions from some other notion. Collections are referred to a number of names, such as [[set]], [[class]], [[type]], et cetera. Objects could be referred to as [[element]] or [[term]]. 
 
 For example, in [[pure set]] theories like [[ZFC]] and [[Mostowski set theory]], elements and sets are the same notion, and thus elements could be considered to be a derived notion from set, or sets could be considered to be a derived notion from element. In [[material set theory]] with [[urelements]], such as [[ZFA]], elements are the basic notion and sets are derived from elements. In [[ETCS]], while sets are basic, elements are derived from a basic notion of [[function]], and in [[fully formal ETCS]], both sets and elements are derived notions from a basic notion of [[function]]. In [[SEAR]] and [[structural ZFC]], sets and elements are both basic distinct notions. 
 
@@ -63,9 +63,20 @@ In [[higher-order logic]], the [[domain of discourse]] and higher-order [[predic
 
 ...
 
-### Equality
+### Equality and identity
 
 ...
+
+### Size issues, universes, and classes
+
+In most foundations of mathematics, there is no way to talk about the collection of all collections; this is known as [[size issues]] in [[mathematics]]. However, there is a way around it, by the usage of [[universes]]. Essentially, instead of trying to talk about the collection of all sets, one instead talks about the collection $U$, whose elements are called **$U$-[[small sets]]** or **$U$-small types**, and whose [[subsets]] or [[subtypes]] are called **$U$-[[classes]]**. 
+The objects not in $U$ are called **$U$-[[large sets]]** or **$U$-large types**, and the [[subsets]] or [[subtypes]] which are not [[singleton subsets]] or subtypes are called **$U$-[[proper classes]]**. Each foundations of mathematics has their own approach to [[universes]]:
+
+* In [[set theory]], one usually either uses [[Grothendieck universes]], or some internal model of [[set theory]] or [[class theory]], whether [[well-pointed category|well-pointed]] [[Heyting categories]], [[well-pointed category|well-pointed]] [[division allegories]], [[sets]] with [[extensional relation|extensional]] [[well-founded relation|well-founded]] [[transitive relation|transitive]] relations, [[categories with class structure]], et cetera. 
+
+* In [[class theory]], the notion of universe is already in the theory via the [[universal class]], which is by definition a [[class]] [[universe]]. The basic primitive in class theory are [[classes]], and the $U$-small classes are called [[sets]]. 
+
+* In [[dependent type theory]], one uses [[univalent universe|univalent]] [[Russell universes]] or [[Tarski universes]], which are basically internal models of [[dependent type theory]]. 
 
 ## Category theory and foundations
 {#categories}
