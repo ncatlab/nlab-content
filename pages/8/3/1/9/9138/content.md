@@ -203,15 +203,15 @@ For example, starting from the unit interval, $T([0,1])(n)$ gives the $(n-1)$-[[
 [[!include states and observables -- content]]
 
 
-## Reference
+## References
 
 Quantum effect operators are discussed for instance in 
 
-* G. Ludwig, _Foundations of Quantum Mechanics I_ Springer Verlag, New York, (1983)
- {#Ludwig}
+* {#Ludwig} G. Ludwig, _Foundations of Quantum Mechanics I_ Springer Verlag, New York, (1983)
+ 
 
-* K. Kraus, _States, Effects, and Operations_ Springer Verlag, Berlin, (1983)
- {#Kraus}
+* {#Kraus} [[Karl Kraus]], *States, Effects, and Operations -- Fundamental Notions of Quantum Theory*, Lecture Notes in Physics **190** Springer (1983) &lbrack;[doi:10.1007/3-540-12732-1](https://doi.org/10.1007/3-540-12732-1)&rbrack;
+ 
 
 The notion of effect algebra is due to
 
