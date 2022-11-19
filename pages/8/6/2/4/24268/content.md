@@ -69,10 +69,15 @@ See also:
 * Yusuke Kimura, Hidetoshi Nishimori, *Rigorous convergence condition for quantum annealing*, J. Phys. A: Math. Theor. **55** (2022) 435302 &lbrack;[arXiv:2207.12096](https://arxiv.org/abs/2207.12096), [doi:10.1088/1751-8121/ac9dce](https://doi.org/10.1088/1751-8121/ac9dce)&rbrack;
 
 
-
 Proof that quantum annealing is universal for quantum computation:
 
 * Dorit Aharonov, Wim van Dam, Julia Kempe, Zeph Landau, [[Seth Lloyd]], Oded Regev, *Adiabatic Quantum Computation is Equivalent to Standard Quantum Computation*, SIAM Review **50** 4 (2008) &lbrack;[arXiv:quant-ph/0405098](https://arxiv.org/abs/quant-ph/0405098), [doi:10.1137/080734479](https://doi.org/10.1137/080734479)&rbrack;
+
+A more high-brow mathematical desription via "tangle machines":
+
+* Avishy Y. Carmi, [[Daniel Moskovich]], §5 of: *Tangle Machines*, Proc. R. Soc. A **471** (2015) 20150111 &lbrack;[arXiv:1404.2862](https://arxiv.org/abs/1404.2862), [doi:10.1098/rspa.2015.0111](https://doi.org/10.1098/rspa.2015.0111)&rbrack;
+
+
 
 ### Geometric phase gates
 
