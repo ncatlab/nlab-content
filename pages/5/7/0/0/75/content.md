@@ -55,7 +55,7 @@ Note that in certain foundations, the objects, collections, and membership are d
 
 For example, in [[pure set]] theories like [[ZFC]] and [[Mostowski set theory]], elements and sets are the same notion, and thus elements could be considered to be a derived notion from set, or sets could be considered to be a derived notion from element. In [[material set theory]] with [[urelements]], such as [[ZFA]], elements are the basic notion and sets are derived from elements. In [[ETCS]], while sets are basic, elements are derived from a basic notion of [[function]], and in [[fully formal ETCS]], both sets and elements are derived notions from a basic notion of [[function]]. In [[SEAR]] and [[structural ZFC]], sets and elements are both basic distinct notions. 
 
-Something similar occurs with [[class theories]], such as [[Morse-Kelly class theory]] and the framework of [[algebraic set theory]], where classes play the role of sets. 
+Something similar occurs with [[class theories]], such as [[Morse-Kelley class theory]] and the framework of [[algebraic set theory]], where classes play the role of sets. 
 
 In type theory, there are also a distinction to be made. In most type theories, both terms and types are basic foundational notions. However, in [[book HoTT]], terms are the basic notion, and [[types]] are derived from terms. 
 
@@ -134,6 +134,11 @@ Under [[computational trinitarianism]] this corresponds to a practical foundatio
 
 *  [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_ ([web](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
 {#Harper}
+
+A classification of [[material set theories]] and [[structural set theories]] is in
+
+* [[Michael Shulman]] (2018). Comparing material and structural set theories. [arXiv:1808.05204](https://arxiv.org/abs/1808.05204).
+{#Shulman2018}
 
 A foundation for [[algebraic topology]] in this practical spirit is laid out in 
 
