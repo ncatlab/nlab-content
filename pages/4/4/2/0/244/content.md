@@ -191,7 +191,31 @@ The [[Grothendieck group]] of a [[monoidal category]] naturally has the structur
 
 The [[internal logic]] of ([[closed monoidal category|closed]]) symmetric monoidal categories is called _[[linear logic]]_. This notably contains [[quantum logic]].
 
+### Permutations
 
+For every $n \ge 2$ and $\sigma \in \mathfrak{S}_{n}$, there is a [[natural transformation]] 
+$$\sigma: A_{1} \otimes ... \otimes A_{n} \rightarrow A_{\sigma^{-1}(1)} \otimes ... \otimes A_{\sigma^{-1}(n)}$$
+that is defined by the decomposition of a [[permutation]] in a product of adjacent [[transpositions]] and generalizes the [[braiding]] 
+$$
+B:A_{1} \otimes A_{2} \rightarrow A_{2} \otimes A_{1}
+$$
+
+We recall that an adjacent transposition $[1,n] \rightarrow [1,n]$ where $n \ge 2$ is a permutation $t:[1,n] \rightarrow [1,n]$ such that there exists a $1 \le i \le n-1$ such that: 
+$$
+t(1)=1,..., t(i-1)=i-1, t(i) = i+1, t(i+1) = i, t(i+2)=i+1,.... ,t(n)=n
+$$
+This $i$ is then unique, and for every $1 \le i \le n-1$, we note $t_{i}$ the associated adjacent transposition.
+
+For $n \ge 2$, every permutation $\sigma \in \mathfrak{S}_{n}$ admits at least a decomposition under the form $\sigma = t_{i_{1}}; ...;t_{i_{q}}$
+where $q \ge 0$, and $1 \le i_{1},....,i_{q} \le n-1$. 
+
+In every symmetric monoidal category, for $n \ge 2$ and $1 \le i \le n-1$, we have a natural transformation 
+$$t_{i}:A_{1} \otimes .... \otimes A_{n} \rightarrow A_{1} \otimes ... \otimes A_{i-1} \otimes A_{i+1} \otimes A_{i} \otimes A_{i+2} \otimes .... \otimes A_{n}$$ 
+defined by: 
+$$t_{i} = A_{1} \otimes ... \otimes A_{i-1} \otimes \B_{A_{i},A_{i+1}} \otimes A_{i+2} \otimes ... \otimes A_{n}$$
+
+Given a $\sigma \in \mathfrak{S}_{n}$, the associated natural transformation is then defined as $t_{i_{1}};....;t_{i_{q}}$ for any such decomposition of $\sigma$. The fact that the result doesn't depend on the particular decomposition is a consequence of the [[coherence theorem for symmetric monoidal categories]].
+ 
 ## Examples 
 
 * Every [[cartesian monoidal category]] is necessarily symmetric monoidal, due to the essential uniqueness of the categorical [[product]]. This includes cases such as [[Set]], [[Cat]].
