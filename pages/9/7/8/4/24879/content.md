@@ -24,7 +24,7 @@ We work in a [[first-order logic]] with [[equality]]. In structural ZFC, there a
 
 * for every set $A$ and $B$, **[[functions]]** $f:A \to B$ with **[[domain]]** $A$ and **[[codomain]]** $B$ (the function notation $f:A \to B$ here is a [[judgment]], rather than a relation)
 
-In addition, for every function $f:A \to B$ and element $a \in A$, one could form the element $f(a) \in B$; this operation is called **function evaluation**. 
+In addition, for every function $f:A \to B$ and element $a \in A$, one could form the element $f(a) \in B$; this operation is called **function evaluation**, and for every element $a \in A$, one could form the [[singleton subset]] [[function]] $\{a\}:\mathcal{P}(\emptyset) \to A$. 
 
 The axioms of structural ZFC are as follows:
 
@@ -59,9 +59,43 @@ One uses the axiom of strong extensionality as the definition of a [[bijection]]
 
 ## Making alternate primitive choices
 
-### Three-sorted structural ZFC
+One could choose to make either the relations or the functions a derived object of the other, leading to **categorical ZFC** and **allegorical ZFC** respectively. 
 
-An alternate formulation of the theory uses three [[sorts]], one for [[sets]], [[elements]], and [[functions]], making structural ZFC into a [[three-sorted set theory]]. The membership $a \in A$ becomes a [[relation]] between the sort of elements and the sort of [[sets]], while the functional domain and codomain notation $f:A \to B$ also becomes a ternary relation between the sort of functions, and two copies of the sort of sets. There is a quinary relation $\mathrm{eval}(A, B, f, a, b)$ between all three sorts, which says that given sets $A$ and $B$, the function $f$ can be evaluated at element $a$ and the result of the evaluation is the element $b$, in the [[context]] of $\varphi:A \looparrowright B$, $a \in A$, and $b \in B$. 
+### Dependently-sorted categorical ZFC
+
+Categorical ZFC follows [[ETCS with elements]] in taking [[functions]] to be fundamental and [[relations]] as defined. 
+
+We work in a [[first-order logic]] with [[equality]]. In structural ZFC, there are three basic primitives:
+
+* **[[sets]]** $A$
+
+* for every set $A$, **[[elements]]** $a \in A$ (the membership $\in$ here is a typing [[judgment]], rather than a relation)
+
+* for every set $A$ and $B$, **[[functions]]** $f:A \to B$ with **[[domain]]** $A$ and **[[codomain]]** $B$ (the function notation $f:A \to B$ here is a [[judgment]], rather than a relation)
+
+In addition, for every function $f:A \to B$ and element $a \in A$, one could form the element $f(a) \in B$; this operation is called **function evaluation**. A relation between sets $A$ and $B$ is a set $R$ with an injection $(s, t):R \hookrightarrow A \times B$. 
+
+### Three-sorted categorical ZFC
+
+An alternate formulation of categorical ZFC three [[sorts]], one for [[sets]], [[elements]], and [[functions]], making structural ZFC into a [[three-sorted set theory]]. The membership $a \in A$ becomes a [[relation]] between the sort of elements and the sort of [[sets]], while the functional domain and codomain notation $f:A \to B$ also becomes a ternary relation between the sort of functions, and two copies of the sort of sets. There is a quinary relation $\mathrm{eval}(A, B, f, a, b)$ between all three sorts, which says that given sets $A$ and $B$, the function $f$ can be evaluated at element $a$ and the result of the evaluation is the element $b$, in the [[context]] of $\varphi:A \looparrowright B$, $a \in A$, and $b \in B$. 
+
+### Dependently sorted allegorical ZFC
+
+Allegorical ZFC follows [[SEAR]] in taking [[relations]] to be fundamental and [[functions]] as defined. 
+
+We work in a [[first-order logic]] with [[equality]]. In structural ZFC, there are three basic primitives:
+
+* **[[sets]]** $A$
+
+* for every set $A$, **[[elements]]** $a \in A$ (the membership $\in$ here is a typing [[judgment]], rather than a relation)
+
+* for every set $A$ and $B$, **[[relations]]** $\varphi:A \looparrowright B$ with **[[domain]]** $A$ and **[[codomain]]** $B$ (the relation notation $\varphi:A \looparrowright B$ here is a [[judgment]], rather than a relation)
+
+In addition, for every relation $\varphi:A \looparrowright B$ and element $a \in A$, one could form the judgment that $\varphi(a, b)$ **holds**. A function is a relation $\varphi:A \looparrowright B$ such that for all $a \in A$, there is a unique element $b \in B$ such that $\varphi(a, b)$ holds, and $b$ is said to be the evaluation of $a$ at $\varphi$. 
+
+### Three-sorted allegorical ZFC
+
+An alternate formulation of allegorical ZFC uses three [[sorts]], one for [[sets]], [[elements]], and [[relations]], making SEAR into a [[three-sorted set theory]]. The membership $a \in A$ becomes a [[relation]] between the sort of elements and the sort of [[sets]], while the relational domain and codomain notation $\varphi:A \looparrowright B$ also becomes a ternary relation between the sort of relations, and two copies of the sort of sets. There is a quinary relation $\mathrm{holds}(A, B, \varphi, a, b)$ between all three sorts, which says that given sets $A$ and $B$, the relation $\varphi$ holds for element $a$ and $b$ in the [[context]] of $\varphi:A \looparrowright B$, $a \in A$, and $b \in B$. 
 
 ## See also
 
@@ -79,4 +113,24 @@ The axiom of well-founded materialization, the structural axiom of extensionalit
 
 The rest of the axioms are standard axioms from categorical set theory (or the type theoretic equivalent). 
 
+
+[[!redirects structural ZFC]]
+
+[[!redirects dependently sorted structural ZFC]]
+[[!redirects dependently-sorted structural ZFC]]
+[[!redirects four sorted structural ZFC]]
+[[!redirects four-sorted structural ZFC]]
+[[!redirects three sorted structural ZFC]]
 [[!redirects three-sorted structural ZFC]]
+
+[[!redirects categorical ZFC]]
+[[!redirects dependently sorted categorical ZFC]]
+[[!redirects dependently-sorted categorical ZFC]]
+[[!redirects three sorted categorical ZFC]]
+[[!redirects three-sorted categorical ZFC]]
+
+[[!redirects allegorical ZFC]]
+[[!redirects dependently sorted allegorical ZFC]]
+[[!redirects dependently-sorted allegorical ZFC]]
+[[!redirects three sorted allegorical ZFC]]
+[[!redirects three-sorted allegorical ZFC]]
