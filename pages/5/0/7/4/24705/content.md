@@ -447,6 +447,52 @@ This way, one finds that the four (co)unit operations of quantum modal logic are
 \end{imagefromfile}
 
 
+### Quantum modality
+ {#TheQuantumModality}
+
+In addition to the above [[axiom scheme|schematas]] of ([[comonad|co]])[[monads]] acting on the ([[dependent linear type|depndent]]) [[linear type|linear]] [[type systems]], we invoke the [[relative monad]]
+
+$$
+  \array{
+    \mathrm{Q} 
+    &\colon& 
+    Type &\longrightarrow& 
+    LType
+    \\
+    &&
+    B &\mapsto& \underset{B}{\bigoplus} \mathbb{1}
+  }
+$$
+
+which sends a [[finite type]] (in particular) to the [[direct sum]] that it [[linear span|spans]] (a detailed description of this relative monad is [here](#relative monad#LinearSpan)).
+
+This is in fact [[idempotent monad|idempotent]], in that the actual [[monad]] on the full [[dependent linear type|dependent linear]] [[type system]] that this relative monad is induced by is the [[idempotent monad]] which witnesses a [[reflective subcategory]]-inclusion of the linear types into dependent linear types:
+
+$$
+  \mathrm{Q}
+  \;\colon\;
+  Type
+  \xrightarrow{ (-) \times \mathbb{1} }
+  DLType
+  \twoheadrightarrow
+  LType
+  \xhookrightarrow{ \phantom{---} }
+  DLType
+  \,.
+$$
+
+This implies that whenever $D \;\colon\; LType$,  we may describe morphisms of the form $\mathrm{Q}B \to LType$ by [[Kleisli morphisms]] for $\mathrm{Q}$.
+
+For example for $B = Bit$ the type of classical [[bits]], we have that
+ 
+$$
+  \mathrm{Q}(Bit)
+  \;=\;
+  QBit
+$$
+
+is the usual type of [[q-bits]].
+
 
 ### Quantum gates
  {#QuantumGates}
@@ -864,6 +910,74 @@ The dependent linear type of a Bell state measurement:
 This establishes all the ingredients of traditional [[quantum circuits]]. For instance, we obtain the measurement-controlled circuit that exhibits the [[quantum teleportation]]-protocol:
 
 (...)
+
+## Quantum Programming Language
+ {#TheQuantumProgrammingLanguage}
+
+With all elements of [[quantum circuits]] formulated via ([[comonad|co]])[[monads]] constructed inside a language of [[dependent linear types]] as above, we obtain an [[domain specific embedded programming language|embedded]] [[quantum programming language]] for quantum circuits by declaring the following [[syntactic sugar]]:
+
+We code maps in the [[Kleisli category]] of an [[monad in computer science|effect monad]] $\mathcal{E}$ by this schema:
+
+\begin{imagefromfile}
+    "file_name": "ForDoLoopNotation-221119.jpg",
+    "width": "290",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+where, moreover, the monad [[unit of a monad|return operations]] "$`return`^{\mathcal{E}}(-)$" (and the comonad [[counit of a comonad|extract operations]]) are sugared according to the following table:
+
+\begin{imagefromfile}
+    "file_name": "SyntacticSugarForPureEffectsInQS-221119.jpg",
+    "width": "490",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Moreover, we write an analogous `for...do`-code for maps out of [[tensor products]], using that these are generated from the homogeneous tensor products.
+
+With this in hand, for instance the [[quantum teleportation protocol]] 
+
+\begin{imagefromfile}
+    "file_name": "QBitQuantumTeleportationProtocol-221109.jpg",
+    "width": "700",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+is given by the following code:
+
+\begin{imagefromfile}
+    "file_name": "QuantumTeleportationProtocolInQS-221119.jpg",
+    "width": "580",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+\linebreak
 
 
 ## References
