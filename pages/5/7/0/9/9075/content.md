@@ -13,6 +13,10 @@ On [[analysis]] and [[differential geometry]] on [[smooth manifolds]] with appli
 
 * [[Yvonne Choquet-Bruhat]], [[Cécile DeWitt-Morette]], *Analysis, manifolds and physics*, North Holland (1982, 2001) $[$[ISBN:9780444860170](https://www.elsevier.com/books/analysis-manifolds-and-physics-revised-edition/choquet-bruhat/978-0-444-86017-0)$]$
 
+On [[path integrals]] such as in [[quantum physics]]:
+
+* [[Pierre Cartier]], [[Cécile DeWitt-Morette]], _Functional integration: action and symmetries_, Cambridge Monographs on Mathematical Physics (2006) &lbrack;[ISBN:9780521143578](https://www.cambridge.org/ae/academic/subjects/physics/theoretical-physics-and-mathematical-physics/functional-integration-action-and-symmetries?format=PB#contentsTabAnchor)&rbrack;
+
 
 Many more to go here...
 
