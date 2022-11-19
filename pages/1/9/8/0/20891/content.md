@@ -19,7 +19,9 @@
 
 ## Idea
 
-Just as an [[elementary topos]] is an axiomatization of basic categorical properties of the [[Set|category of sets]], a "category with class structure" or "category of classes" is an axiomatization of the basic categorical properties of the category of [[classes]].  In contrast to the situation for elementary toposes, however, there is no unique such axiomatization with a privileged status in the literature; the field of [[algebraic set theory]] includes many variations.  Here we describe the first such axiomatization due to [Joyal-Moerdijk](#JM).
+Just as the notion of an [[elementary topos]] is an [[axiom|axiomatization]] of basic [[category theory|category-theoretic]] properties of the [[Set|category of sets]], the notion of a "*category with class structure*" or "*category of classes*" is an axiomatization of the basic category theoretic properties of the category of [[classes]].  
+
+In contrast to the situation for elementary toposes, however, there is no unique such axiomatization with a privileged status in the literature; the field of [[algebraic set theory]] includes many variations.  Here we describe the first such axiomatization due to [Joyal-Moerdijk](#JM).
 
 ## Definition
 
@@ -101,7 +103,7 @@ of any class category is an [[elementary topos]].
 
 ## References
 
-* {#JM} [[André Joyal]], [[Ieke Moerdijk]], _Algebraic set theory_.  Cambridge University Press, 1995.  ISBN 0-521-55830-1. 
+* {#JM} [[André Joyal]], [[Ieke Moerdijk]], _Algebraic set theory_.  Cambridge University Press, 1995.  ISBN 0-521-55830-1. 
 
 * [[Steve Awodey]], _An outline of algebraic set theory_.
 
