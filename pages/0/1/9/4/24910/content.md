@@ -35,6 +35,8 @@ $\mathrm{Prop}_U \coloneqq \sum_{A:U} \mathrm{isProp}(A)$
 
 The **type of classes** relative to $U$ is the function type $V_U \to \mathrm{Prop}_U$, and a **[[class]]** relative to $U$ is just a function $C:V_U \to \mathrm{Prop}_U$. 
 
+The type of classes provides a general model of [[material class theory]]. 
+
 ## See also
 
 * [[class]]
