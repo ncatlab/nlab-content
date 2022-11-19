@@ -170,22 +170,21 @@ $$
 
 The Kraus-decomposition characterization of completely positive maps is due to
 
-* W. Forrest Stinespring, _Positive functions on $C^\ast$-algebras_, Proc. Amer. Math. Soc. 6 (1955), 211&#8211;216.
- {#Stinespring55}
+* {#Stinespring55} W. Forrest Stinespring, _Positive functions on $C^\ast$-algebras_, Proc. Amer. Math. Soc. 6 (1955), 211&#8211;216.
+ 
+* {#Kraus71} [[Karl Kraus]], *General state changes in quantum theory*, Ann. Physics **64** 2 (1971) 311-335 &lbrack;<a href="https://doi.org/10.1016/0003-4916(71)90108-4">doi:10.1016/0003-4916(71)90108-4</a>&rbrack;
+ 
+* {#Choi75} M. Choi, _Completely positive linear maps on complex matrices_, Linear Algebra and its Applications Volume 10, Issue 3, (1975), Pages 285-290
+ 
 
-* K. Kraus, _General state changes in quantum theory_,
-Ann. Physics 64 (1971), no. 2, 311&#8211;335.
- {#Kraus71}
+Review and survey:
 
-* M. Choi, _Completely positive linear maps on complex matrices_, Linear Algebra and its Applications Volume 10, Issue 3, (1975), Pages 285-290
- {#Choi75}
+* {#Kraus} [[Karl Kraus]], *States, Effects, and Operations -- Fundamental Notions of Quantum Theory*, Lecture Notes in Physics **190** Springer (1983) &lbrack;[doi:10.1007/3-540-12732-1](https://doi.org/10.1007/3-540-12732-1)&rbrack;
 
-Reviews and surveys include
+* {#Kuperberg05} [[Greg Kuperberg]], section 1.5 of _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
 
-* [[Greg Kuperberg]], section 1.5 of _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
- {#Kuperberg05}
+* [[Michael A. Nielsen]], [[Isaac L. Chuang]], §8.2 in : *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
-* Michael Nielsen, Isaac Chuang, section 8.2 of _Quantum Computation and Quantum Information_, Cambridge University Press, Cambridge (2000) ([[NielsenChuangQuantumComputation.pdf:file]])
 
 See also
 
@@ -195,9 +194,11 @@ See also
 * Christian B. Mendl, Michael M. Wolf, _Unital Quantum Channels - Convex Structure and Revivals of Birkhoff's Theorem_ , Commun. Math. Phys. 289, 1057-1096 (2009) ([arXiv:0806.2820](http://arxiv.org/abs/0806.2820))
 
 
-* Smolin, John A., Verstraete, Frank, and Winter, Andreas _Entanglement of assistance and multipartite state distillation_ , Phys. Rev. A, vol. 72, 052317, 2005 ([arXiv:quant-ph/0505038](http://arxiv.org/abs/quant-ph/0505038))
+* John A. Smolin, Frank Verstraete, Andreas Winter, *Entanglement of assistance and multipartite state distillation*, Phys. Rev. A **72** (2005) 052317 ([arXiv:quant-ph/0505038](http://arxiv.org/abs/quant-ph/0505038))
 
 * John Watrous, _Mixing doubly stochastic quantum channels with the completely depolarizing channel_ (2008) ([arXiv](http://arxiv.org/abs/0807.2668))
+
+* Wikipedia, *[Quantum Operation](https://en.wikipedia.org/wiki/Quantum_operation)*
 
 The description of completely positive maps in terms of [[dagger-categories]] (see at _[[finite quantum mechanics in terms of dagger-compact categories]]_) goes back to
 
@@ -238,3 +239,6 @@ On quantum channel capacity:
 
 [[!redirects completely positive map]]
 [[!redirects completely positive maps]]
+
+[[!redirects Kraus decomposition]]
+[[!redirects Kraus decompositions]]
