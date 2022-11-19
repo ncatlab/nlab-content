@@ -62,4 +62,8 @@ Consider the [[type theory|type theoretic]] expression $\sum_{x: man} \sum_{y: d
 
 * {#Ranta93} [[Aarne Ranta]], _Type theory and the informal language of mathematics_, TYPES '93: Proceedings of the international workshop on Types for proofs and programs, pp. 352–365, ([pdf](/nlab/files/InfLang.pdf))
 
+See also:
+
+* Wikipedia, *[Syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar)*
+
 [[!redirects syntactic sugar]]
