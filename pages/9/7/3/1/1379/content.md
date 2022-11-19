@@ -80,7 +80,7 @@ It is possible to [[internalization|internalize]] the notion of class inside of 
 
 ### Classes as primitive
 
-There are also [[class theories]] where classes are the primitives:
+There are foundational theories called [[class theories]] where classes are primitives, rather than propositions in the context of a free variable $x:\mathrm{Set}$. This is similar to [[dependently sorted set theory|dependently sorted]] [[allegorical set theories]], where [[relations]] are primitives, rather than propositions in the context of free variables $a:A$ and $b:B$. 
 
 * Material class theory: Classes are primitives of the theory, and sets are defined as specific kinds of classes.  Examples include [[Morse-Kelley class theory]] and [[von Neumann–Bernays–Gödel class theory]]. 
 
