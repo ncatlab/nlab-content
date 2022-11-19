@@ -14,7 +14,7 @@
 
 ## Idea
 
-In the [[foundations of mathematics]], a **class theory** or **class-set theory** is a [[theory]] of [[classes]] and [[sets]]. Class theories are usually formulated in the language of [[logic over type theory]]. 
+In the [[foundations of mathematics]], a **class theory** or **class-set theory** is a [[theory]] of [[classes]] and [[sets]]. Class theories are usually formulated in the language of [[logic over type theory]]. Class theories are important because the allow for the formal definition of [[universes]], a [[universal class]] or a class of all sets, allowing for [[size issues]] in [[mathematics]] to be handled where needed, such as in [[category theory]] in defining [[large categories]] and [[locally small categories]]. 
 
 Similar to the case with [[set theory]], there are [[material versus structural|material and structural versions]] of class theory as well: 
 
