@@ -72,6 +72,8 @@ Just as an [[elementary topos]] is an axiomatization of basic properties of the 
 
 * [[large set]], [[small set]]
 
+* [[class object]]
+
 ## References
 
 For the definition of a class in [[homotopy type theory]], see section 10.5.3 of:
