@@ -68,6 +68,10 @@ The corresponding [[string diagrams]] are known in quantum computation as *[[qua
 
 * [[Jonathan Grattage]], _An overview of QML with a concrete implementation in Haskell_, talk at *Quantum Physics and Logic 2008*, ENTCS: Proceedings of QPL V - DCV IV, 157-165, Reykjavik, Iceland, 2008 ([arXiv:0806.2735](https://arxiv.org/abs/0806.2735))
 
+**[[quantum lambda calculus]]**:
+
+* [[Peter Selinger]], [[Benoît Valiron]], *Quantum Lambda Calculus*, Semantic Techniques in Quantum Computation, Cambridge University Press (2009) 135-172 $[$[doi:10.1017/CBO9781139193313.005](https://doi.org/10.1017/CBO9781139193313.005), [pdf](https://www.mscs.dal.ca/~selinger/papers/qlambdabook.pdf)$]$
+
 
 **[[quantum IO monad]]:**
 
@@ -85,6 +89,7 @@ The corresponding [[string diagrams]] are known in quantum computation as *[[qua
 * [[Jonathan Smith]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], _Quipper: Concrete Resource Estimation in Quantum Algorithms_, QAPL 2014 ([arXiv:1412.0625](https://arxiv.org/abs/1412.0625))
 
 * Francisco Rios, [[Peter Selinger]], _A Categorical Model for a Quantum Circuit Description Language_, EPTCS 266, 2018, pp. 164-178 ([arXiv:1706.02630](https://arxiv.org/abs/1706.02630))
+
 
 
 **[[QWIRE]]:**
