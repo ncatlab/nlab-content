@@ -20,17 +20,38 @@
 ## Idea
 
 The notion of *differential categories* ([Blute, Cocket & Seely 2006](#BluteCocketSeely06) is meant to provide [[categorical semantics]] for 
-[[differential linear logic]] ([Ehrhardt & Regnier 2009](#EhrhardtRegnier09)) which in turn is meant to be a [[syntax|syntactic]] [[proof theory|proof-theoretic]] approach to [[differential calculus]].
+[[differential linear logic]] ([Ehrhardt & Regnier 2009](#EhrhardtRegnier09)) which in turn is meant to be a [[syntax|syntactic]] [[proof theory|proof-theoretic]] approach to [[differential calculus]]. In fact differential categories are slightly more general than the models of differential linear logic.
 
-## Definition
+## Differential categories
 
-We give the definition of a codifferential category which is the dual of a differential category in the sense that a codifferential category is a category $\mathcal{C}$ such that $\mathcal{C}^{op}$ is a differential category and a differential category is a category $\mathcal{C}$ such that $\mathcal{C}^{op}$ is a codifferential category. Codifferential categories are more intuitive mathematically because they involve monoids and monads instead of comonoids and monads, while differential categories are closer to [[linear logic]] where we have comonads and [[differential linear logic]] where we have comonads and comonoids.
-
-In the following sequence of definitions, the object $S(A)$ must be interpreted as if it was a space of smooth functions with variables in $A$. 
+###Definition
 
 \begin{definition}
 A CMon-enriched [[symmetric monoidal category]] is a [[symmetric monoidal category]] $\mathcal{C}$ such that each hom-set $\mathcal{C}[A,B]$ is a [[commutative monoid]] (in Set) and $- \otimes -$ as well as $-;-$ are bilinear ie. preserve sums and the zero in each variable.
 \end{definition}
+
+\begin{definition}
+A [[coalgebra modality]] in a [[symmetric monoidal category]] $(\mathcal{C}, \otimes, I)$ is given by a [[comonad]] $(S,m,u)$ and two [[natural transformations]] $\epsilon:I \rightarrow S(A)$ and $\Delta:S(A) \otimes S(A) \rightarrow S(A)$ such that for every $A \in \mathcal{C}$, $(S(A), \Delta, \epsilon)$ is a [[cocommutative comonoid]] in $(\mathcal{C},\otimes,I)$ and this diagram commutes:
+\begin{tikzcd}
+S(A) \arrow[d, "m"'] \arrow[rr, "\Delta"] &  & S(A) \otimes S(A) \arrow[d, "m \otimes m"] \\
+S(S(A)) \arrow[rr, "\Delta"']             &  & S(S(A)) \otimes S(S(A))                   
+\end{tikzcd}
+\end{definition}
+
+\begin{definition}
+A differential category is a CMon-enriched [[symmetric monoidal category]] together with a coalgebra modality and a deriving transformation ie. a [[natural transformation]] $d:S(A) \otimes A \rightarrow S(A)$ such that the following diagrams commute:
+...
+\end{definition}
+
+###Examples
+
+## Codifferential categories
+
+###Definition
+
+We give the definition of a codifferential category which is the dual of a differential category in the sense that a codifferential category is a category $\mathcal{C}$ such that $\mathcal{C}^{op}$ is a differential category and a differential category is a category $\mathcal{C}$ such that $\mathcal{C}^{op}$ is a codifferential category. Codifferential categories are more intuitive mathematically because they involve monoids and monads instead of comonoids and monads, while differential categories are closer to [[linear logic]] where we have comonads and [[differential linear logic]] where we have comonads and comonoids.
+
+In the following sequence of definitions, the object $S(A)$ must be interpreted as if it was a space of smooth functions with variables in $A$. 
 
 \begin{definition}
 An [[algebra modality]] in a [[symmetric monoidal category]] $(\mathcal{C}, \otimes, I)$ is given by a [[monad]] $(S,m,u)$ and two [[natural transformations]] $\eta:I \rightarrow S(A)$ and $\nabla:S(A) \otimes S(A) \rightarrow S(A)$ such that for every $A \in \mathcal{C}$, $(S(A), \nabla, \eta)$ is a [[commutative monoid]] in $(\mathcal{C},\otimes,I)$ and this diagram commutes:
@@ -81,7 +102,7 @@ S(A) \arrow[uu, "d"] \arrow[rr, "d"']      &  & S(A) \otimes A \arrow[rr, "d \ot
 
 It expresses that the second differential of a function is invariant by permutation of the two variables with respect to we differentiate successively.
 
-##Example
+###Example
 If $\mathbb{K}$ is a field, then $Vect_{\mathbb{K}}$ is a codifferential category.
 
 * We define $S(A) = Sym(A)$, the [[symmetric algebra]] of the vector space $A$.
@@ -90,7 +111,7 @@ If $\mathbb{K}$ is a field, then $Vect_{\mathbb{K}}$ is a codifferential categor
 * The multiplication $Sym(Sym(A)) \rightarrow Sym(A)$ of the monad is given on pure tensors by $(x_{1}^{(1)} \otimes_{s} ... \otimes_{s} x_{n_{1}}^{(1)}) \boxtimes_{s} ... \boxtimes_{s}  (x_{1}^{(p)} \otimes_{s} ... \otimes_{s} x_{n_{p}}^{(p)}) \mapsto x_{1}^{(1)} \otimes_{s} ... \otimes_{s} x_{n_{1}}^{(1)} \otimes ... \otimes x_{1}^{(p)} \otimes_{s} ... \otimes_{s} x_{n_{p}}^{(p)}$. It is a kind of composition of polynomials.
 * The deriving transformation $Sym(A) \rightarrow Sym(A) \otimes A$ is defined on pure tensors by $x_{1} \otimes_{s} ... \otimes_{s} x_{n} \mapsto \underset{1 \le k \le n}{\sum}(x_{1} \otimes_{s} ... \otimes_{s} x_{k-1} \otimes_{s} x_{k+1} \otimes_{s} ... \otimes_{s} x_{n}) \otimes x_{k}$. For instance, if $X,Y,Z$ is a basis of $A$, then $d(X^{2}+YZ) = 2X \otimes X + Y \otimes Z + Z \otimes Y$.
 
-## Commentary on the type of the deriving transformation
+###Commentary on the type of the deriving transformation
 
 The deriving transformation in a codifferential category is a natural transformation of type $!A \rightarrow !A \otimes A$. As written before, in the example of vector spaces and symmetric algebras, we have thus $d(X^{2}+YZ) = 2X \otimes X + Y \otimes Z + Z \otimes Y$.
 
