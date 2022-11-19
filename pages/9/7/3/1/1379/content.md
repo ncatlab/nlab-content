@@ -13,21 +13,40 @@
 
 ## Idea
 
-A class is a collection of objects in certain [[foundations]], used to address size issues. Classes could be "small", in which they are usually called **[[sets]]**, or "large", in which they are usually called **proper classes**. Exactly what classes are depends on the [[foundations]] of mathematics (such as material class theory, structural class theory, or type theory). 
+A class is a [[proposition]] or [[truth value]] in the [[context]] of a [[set]] [[free variable]]. 
 
-Classes are used in [[category theory]] for defining various [[locally small categories]] and [[large categories]], but in either case, the categories used are still [[strict categories]] and violate the [[principle of equivalence]] due to the [[propositional equality]] used for classes.
+Classes are usually used as a primitive notion in [[class theory]], where [[sets]] are a derived notion from classes, and the classes which are not sets are called **proper classes**. 
+
+In [[set theories]], classes are not part of the theory itself; instead, provided we have a notion of [[universe]] in the [[set theory]], we have a notion of **internal class** derived from [[universes]] $U$ as a [[function]] from $U$ to the [[set]] of [[truth values]], or if the set theory does not have a set of truth values, a [[function]] from $U$ to the [[set]] of [[subsingletons]] in $U$. 
+
+A similar thing happens in [[dependent type theory]] with [[Tarski universes]] $U$, but since not every [[type]] is a [[set]], one has to restrict to the type of $U$-small sets $\mathrm{Set}_U$ and define a class as a function from $\mathrm{Set}_U$ to the [[type of all propositions]], or if the [[dependent type theory]] is [[weakly predicative]], a class would have to be defined as as a function from $\mathrm{Set}_U$ to the type of $U$-small propositions $\mathrm{Prop}_U$. In addition, one could use the [[material set theory|material]] [[cumulative hierarchy]] [[higher inductive type]] relative to $U$, $V_U$, in place of the type of $U$-small sets, $\mathrm{Set}_U$, in either type-theoretic definition, to get **material classes**. 
+
+In all cases, these are useful to address size issues in foundations, and in particular, are used in [[category theory]] for defining various [[locally small categories]] and [[large categories]]. 
+
+The definition of a class in [[dependent type theory]] as a function from $\mathrm{Set}_U$ to $\mathrm{Prop}_U$ implies that a class could also be defined in [[set-level type theory|set-level]] [[dependent type theory]] as a generalized [[modal operator]] which turns a [[set]] or [[type]] into an [[h-proposition]] and isn't required to be [[idempotent]] or [[monadic]]. 
 
 ## Definitions
 
-### Classes
+### Classes as propositions/truth values
 
-There are multiple ways to define a class. Let us work in the foundations of [[natural deduction]] and the framework of [[logic over type theory]]. 
+There are multiple ways to define a class in different [[foundations of mathematics]]. Let us work in [[natural deduction]]. 
 
-* Suppose we are given an [[unsorted set theory]] whose objects are "probable sets", with a [[predicate]] $\mathrm{isSet}(A)$ saying whether a "probable set" $A$ is a set. A **class** $C$ is a [[proposition]] in the [[context]] of a [[free variable]] $A$ and the true proposition $\mathrm{isSet}(A) \; \mathrm{true}$. 
+* Suppose we are given an [[unsorted set theory]] as [[logic over type theory]] whose objects are [[sets]]. A **class** $C$ is a [[proposition]] or [[truth value]] in the [[context]] of a [[free variable]] $A$. 
+$$\Gamma, A \vert \Phi \vdash C \; \mathrm{prop}$$
+
+* Suppose we are given a [[simply sorted set theory]] or [[dependently sorted set theory]] as [[logic over type theory]] with a [[sort]] $\mathrm{Set}$ of [[sets]]. A **class** $C$ is a [[proposition]] or [[truth value]] in the [[context]] of a [[free variable]] for a set $A:\mathrm{Set}$. 
+$$\Gamma, A:\mathrm{Set} \vert \Phi \vdash C \; \mathrm{prop}$$
+
+* Suppose we are given an [[unsorted set theory]] as [[logic over type theory]] whose objects are "probable sets", with a [[predicate]] $\mathrm{isSet}(A)$ saying whether a "probable set" $A$ is a set. A **class** $C$ is a [[proposition]] or [[truth value]] in the [[context]] of a [[free variable]] $A$ and the true proposition $\mathrm{isSet}(A) \; \mathrm{true}$. 
 $$\Gamma, A \vert \Phi, \mathrm{isSet}(A) \; \mathrm{true} \vdash C \; \mathrm{prop}$$
 
-* Suppose we are given a [[simply sorted set theory]] or [[dependently sorted set theory]] with a [[sort]] $\mathrm{ProbSet}$ of "probable sets" with a [[predicate]] $\mathrm{isSet}(A)$ on $\mathrm{ProbSet}$ saying whether a term $A:\mathrm{ProbSet}$ is a set. A **class** $C$ is a [[proposition]] in the [[context]] of a [[free variable]] for a probable set $\mathrm{ProbSet}$ and the true proposition $\mathrm{isSet}(A) \; \mathrm{true}$. 
+* Suppose we are given a [[simply sorted set theory]] or [[dependently sorted set theory]] as [[logic over type theory]] with a [[sort]] $\mathrm{ProbSet}$ of "probable sets" with a [[predicate]] $\mathrm{isSet}(A)$ on $\mathrm{ProbSet}$ saying whether a term $A:\mathrm{ProbSet}$ is a set. A **class** $C$ is a [[proposition]] or [[truth value]] in the [[context]] of a [[free variable]] for a probable set $A:\mathrm{ProbSet}$ and the true proposition $\mathrm{isSet}(A) \; \mathrm{true}$. 
 $$\Gamma, A:\mathrm{ProbSet} \vert \Phi, \mathrm{isSet}(A) \; \mathrm{true} \vdash C \; \mathrm{prop}$$
+
+* Suppose we are given a [[set-level type theory|set-level]] [[dependent type theory]]. Then a **class** $C$ is a generalized [[modal operator]], which isn't required to be either [[idempotent]] or [[monadic]], on the type theory such that given a [[type]] or [[set]] $A$, the [[type]] or [[set]] $C(A)$ is an [[h-proposition]]. 
+$$\frac{\Gamma \vdash A \; \mathrm{set}}{\Gamma \vdash C(A) \; \mathrm{set}} \qquad \frac{\Gamma \vdash A \; \mathrm{set}}{\Gamma \vdash p_A^C \in \mathrm{isProp}(C(A))}$$
+
+### Classes as primitive
 
 There are also [[class theories]] where classes are the primitives:
 
@@ -35,11 +54,21 @@ There are also [[class theories]] where classes are the primitives:
 
 * Structural class theory: A **class** is an object of a [[category of classes]], and sets are defined as specific kinds of classes. Examples include [[category with class structure]] and the branch of [[algebraic set theory]]
 
-### Classes relative to a universe
+## Internal classes
 
-There are many notions of [[universe]] in [[set theory]] or [[type theory]], including [[Grothendieck universes]], [[well-pointed pretopos|well-pointed]] [[Heyting pretopoi]], [[well-pointed category|well-pointed]] [[division allegories]], [[Tarski universes]], and models of the material [[cumulative hierarchy]] such as the [[material set theory|material]] [[cumulative hierarchy]] [[higher inductive type]] in [[dependent type theory]]. 
+Provided one has a notion of [[universe]] in the set theory or type theory, it is possible to [[internalization|internalize]] the notion of class inside of the [[set theory]] or [[type theory]] itself. 
 
-Let $Set$ be a [[universe]] of [[sets]]. Then a **class** relative to $Set$ is a [[subset]] $C \subseteq Set$ with a given injection $i:C \hookrightarrow Set$. If one has choice, any subset comes with a given injection via the [[axiom of choice]]. Thus, by this definition, it is a injective [[family of sets|family of $U$-small sets]]. Equivalently, given some set of [[truth values]], [[subobject classifier]], or [[type of propositions]] $\Omega$, a **class** is a function $C:Set \to \Omega$ from $Set$ into $\Omega$. 
+### In set theory
+
+There are many notions of [[universe]] in [[set theory]], including [[Grothendieck universes]], [[well-pointed pretopos|well-pointed]] [[Heyting pretopoi]], and [[well-pointed category|well-pointed]] [[division allegories]]. 
+
+Let $U$ be a [[universe]]. Then a **class** relative to $U$ is a [[subset]] $C \subseteq U$ with a given injection $i:C \hookrightarrow U$. If one has choice, any subset comes with a given injection via the [[axiom of choice]]. Thus, by this definition, it is a injective [[family of sets|family of $U$-small sets]]. 
+
+Equivalently, let $\mathrm{Prop}_U$ be the set of [[subsingletons]] in $U$. A **class** relative to $U$ is an [[function]] $f:U \to \mathrm{Prop}_U$. 
+
+### In dependent type theory
+
+In [[dependent type theory]], let $(U, T)$ be a [[univalent universe|univalent]] [[Tarski universe]], let $(\mathrm{Set}_U, \mathrm{Set}_T)$ be the univalent [[h-groupoid]] of $U$-small [[h-sets]], let $V_U$ be the [[material set theory|material]] [[cumulative hierarchy]] [[higher inductive type]] relative to $U$, and let $(\mathrm{Set}_U, \mathrm{Set}_T)$ be the univalent [[h-set]] of $U$-small [[h-propositions]]. Then a **class** is a function $C:\mathrm{Set}_U \to \mathrm{Prop}_U$, and a **material class** is a function $C:V_U \to \mathrm{Prop}_U$. 
 
 ## Proper classes
 
@@ -76,7 +105,7 @@ Just as an [[elementary topos]] is an axiomatization of basic properties of the 
 
 ## References
 
-For the definition of a class in [[homotopy type theory]], see section 10.5.3 of:
+For the definition of a material class in [[homotopy type theory]], see section 10.5.3 of:
 
 * *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
 
@@ -86,8 +115,16 @@ A paper detailing one approach to the technical side of how classes appear in [[
 
 [[!redirects class]]
 [[!redirects classes]]
+[[!redirects internal class]]
+[[!redirects internal classes]]
 [[!redirects class relative to a universe]]
 [[!redirects classes relative to a universe]]
 
 [[!redirects proper class]]
 [[!redirects proper classes]]
+
+[[!redirects structural class]]
+[[!redirects structural classes]]
+
+[[!redirects material class]]
+[[!redirects material classes]]
