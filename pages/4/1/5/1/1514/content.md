@@ -260,33 +260,39 @@ based on material (on categories of "families") in _[[On the Classification of T
 
 * [[Schwinger-Dyson equation]]
 
+
+
 ## References 
  {#References}
 
 ### General
 
-The original textbook reference is
+The original textbook:
 
 * [[Richard Feynman]], A. R. Hibbs, , _Quantum Mechanics and Path Integrals_ , New York: McGraw-Hill, (1965)
 
-Lecture notes include
+Lecture notes:
 
 * R. Rosenfelder, _Path Integrals in Quantum Physics_ ([arXiv:1209.1315](http://arxiv.org/abs/1209.1315))
 
-Textbook accounts include
+Textbook accounts:
 
 * G. Johnson, M. Lapidus, _The Feynman integral and Feynman's operational calculus_, Oxford University Press, Oxford, 2000.
 
 * [[Barry Simon]], _Functional integration and quantum physics_ AMS Chelsea Publ., Providence, 2005
 
-* [[Joseph Polchinski]], _[[String theory]]_, part I, appendix A
+
+* [[Pierre Cartier]], [[Cécile DeWitt-Morette]], _Functional integration: action and symmetries_, Cambridge Monographs on Mathematical Physics (2006) &lbrack;[ISBN:9780521143578](https://www.cambridge.org/ae/academic/subjects/physics/theoretical-physics-and-mathematical-physics/functional-integration-action-and-symmetries?format=PB#contentsTabAnchor)&rbrack;
+
+
+* [[Joseph Polchinski]], Appendix A in: _[[String theory]]_, part I, 
 
 * Daisuke Fujiwara, _Rigorous Time Slicing Approach to Feynman Path Integrals_ 2017, Springer ([doi:/10.1007/978-4-431-56553-6](https://dx.doi.org/10.1007/978-4-431-56553-6))
 
 
-Discussion in [[constructive quantum field theory]] includes
+Discussion in [[constructive quantum field theory]]:
 
-* [[James Glimm]], [[Arthur Jaffe]], _[[Quantum physics -- A functional integral point of view]]_,  535 pages, Springer
+* [[James Glimm]], [[Arthur Jaffe]], *[[Glimm-Jaffe|Quantum physics: a functional integral point of view]]*, Springer (1981, 1987) &lbrack;[doi:10.1007/978-1-4612-4728-9](https://doi.org/10.1007/978-1-4612-4728-9)&rbrack;
 
 * Simon, _Functional Integration in Quantum Physics_ (AMS, 2005)
 
