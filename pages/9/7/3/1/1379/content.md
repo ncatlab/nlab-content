@@ -23,7 +23,9 @@
 
 In [[set theory]], a class is a [[proposition]] or [[truth value]] in the [[context]] of a [[set]] [[free variable]]. 
 
-In [[set-level type theory|set-level]] [[dependent type theory]], there are no [[set]]/[[type]] free variables. However, one could nevertheless interpret a class in [[dependent type theory]] as a generalized [[modal operator]] on [[sets]]/[[types]] which takes sets to [[h-propositions]] by the [[propositions as some types]] interpretation. If we use the [[propositions as types]] interpretation of [[dependent type theory]], then a class in any [[dependent type theory]] is just a generalized [[modal operator]] on [[sets]]/[[types]]. The generalized modal operators here are not required to be either [[idempotent]] or [[monadic]]. 
+In [[dependent type theory]] with no separate [[set]] or [[type]] [[judgment]], a class is an [[h-proposition]] in the context of a [[Russell universe]] [[free variable]]. 
+
+In [[set-level type theory|set-level]] [[dependent type theory]] with a separate [[set]] or [[type]] [[judgment]] but no [[type universes]], there are no [[set]]/[[type]] free variables. However, one could nevertheless interpret a class in [[dependent type theory]] as a generalized [[modal operator]] on [[sets]]/[[types]] which takes sets to [[h-propositions]] by the [[propositions as some types]] interpretation. If we use the [[propositions as types]] interpretation of [[dependent type theory]], then a class in any [[dependent type theory]] is just a generalized [[modal operator]] on [[sets]]/[[types]]. The generalized modal operators here are not required to be either [[idempotent]] or [[monadic]]. 
 
 In [[class theory]], classes are a primitive notion, [[sets]] are a derived notion from classes, and the classes which are not sets are called **proper classes**. Classes in class theory are used to address size issues in foundations, and in particular, are used in [[category theory]] for defining various [[locally small categories]] and [[large categories]]. 
 
@@ -45,11 +47,28 @@ $$\Gamma, A \vert \Phi, \mathrm{isSet}(A) \; \mathrm{true} \vdash C \; \mathrm{p
 * Suppose we are given a [[simply sorted set theory]] or [[dependently sorted set theory]] as [[logic over type theory]] with a [[sort]] $\mathrm{ProbSet}$ of "probable sets" with a [[predicate]] $\mathrm{isSet}(A)$ on $\mathrm{ProbSet}$ saying whether a term $A:\mathrm{ProbSet}$ is a set. A **class** $C$ is a [[proposition]] or [[truth value]] in the [[context]] of a [[free variable]] for a probable set $A:\mathrm{ProbSet}$ and the true proposition $\mathrm{isSet}(A) \; \mathrm{true}$. 
 $$\Gamma, A:\mathrm{ProbSet} \vert \Phi, \mathrm{isSet}(A) \; \mathrm{true} \vdash C \; \mathrm{prop}$$
 
-* Suppose we are given a [[set-level type theory|set-level]] [[dependent type theory]]. Then a **class** $C$ is a generalized [[modal operator]] on the type theory, which isn't required to be either [[idempotent]] or [[monadic]], such that given a [[type]] or [[set]] $A$, the [[type]] or [[set]] $C(A)$ is an [[h-proposition]]. 
-$$\frac{\Gamma \vdash A \; \mathrm{set}}{\Gamma \vdash C(A) \; \mathrm{set}} \qquad \frac{\Gamma \vdash A \; \mathrm{set}}{\Gamma \vdash p_A^C \in \mathrm{isProp}(C(A))}$$
+* Suppose we are given a [[dependent type theory]] with a [[type universes]] $\mathcal{U}$ and a separate [[type]] [[judgment]], as well as a [[type of all propositions]] $\Omega$. Then a **class** $C$ is a [[proposition]] in the [[context]] of a type $A:\mathcal{U}$
+$$\Gamma, A:\mathcal{U} \vdash C:\Omega$$
 
-* Suppose we are given a [[dependent type theory]], and are using the [[propositions as types]] interpretation of dependent type theory. Then a **class** $C$ is a generalized [[modal operator]] on the type theory which isn't required to be either [[idempotent]] or [[monadic]]. 
-$$\frac{\Gamma \vdash A \; \mathrm{set}}{\Gamma \vdash C(A) \; \mathrm{set}}$$
+* Suppose we are given a [[dependent type theory]] with a [[type universes]] $\mathcal{U}$ and a separate [[type]] [[judgment]], and are using the [[propositions as some types]] interpretation of dependent type theory. Then a **class** $C$ is a [[type]] in the [[context]] of a type $A:\mathcal{U}$
+$$\Gamma, A:\mathcal{U} \vdash C \; \mathrm{type}$$
+with the rule
+$$\frac{\Gamma, A:\mathcal{U} \vdash C \; \mathrm{type} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma \vdash p^C(B):\mathrm{isProp}(C[B/A])}$$
+
+* Suppose we are given a [[dependent type theory]] with a [[type universes]] $\mathcal{U}$ and a separate [[type]] [[judgment]], and are using the [[propositions as types]] interpretation of dependent type theory. Then a **class** $C$ is a [[type]] in the [[context]] of a type $A:\mathcal{U}$
+$$\Gamma, A:\mathcal{U} \vdash C \; \mathrm{type}$$
+
+* Suppose we are given a [[dependent type theory]] with a [[sequence]] of [[Russell universes]] $\mathcal{U}_i$ but no separate [[type]] [[judgment]], and are using the [[propositions as some types]] interpretation of dependent type theory. Then a **class** $C$ is an [[h-proposition]] in the successor universe $\mathcal{U}_{s_\mathcal{N}(i)}$ in the [[context]] of a type $A:\mathcal{U}_i$
+$$\Xi \vert \Gamma, A:\mathcal{U}_i \vdash C:\mathrm{Prop}_{\mathcal{U}_{s_\mathcal{N}(i)}}$$
+
+* Suppose we are given a [[dependent type theory]] with a [[sequence]] of [[Russell universes]] $\mathcal{U}_i$ but no separate [[type]] [[judgment]], and are using the [[propositions as types]] interpretation of dependent type theory. Then a **class** $C$ is a [[type]] in the successor universe $\mathcal{U}_{s_\mathcal{N}(i)}$ in the [[context]] of a type $A:\mathcal{U}_i$
+$$\Xi \vert \Gamma, A:\mathcal{U}_i \vdash C:\mathcal{U}_{s_\mathcal{N}(i)}$$
+
+* Suppose we are given a [[dependent type theory]] with a separate [[type]] [[judgment]] but no universes. Then a **class** $C$ is a generalized [[modal operator]] on the type theory, which isn't required to be either [[idempotent]] or [[monadic]], such that given a [[type]] $A$, the [[type]] $C(A)$ is an [[h-proposition]]. 
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash C(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash p_A^C:\mathrm{isProp}(C(A))}$$
+
+* Suppose we are given a [[dependent type theory]] with a separate [[type]] [[judgment]] but no [[type universes]], and are using the [[propositions as types]] interpretation of dependent type theory. Then a **class** $C$ is a generalized [[modal operator]] on the type theory which isn't required to be either [[idempotent]] or [[monadic]]. 
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash C(A) \; \mathrm{type}}$$
 
 ### Classes as primitive
 
