@@ -23,5 +23,6 @@ On (non-)detection of [[Majorana zero modes]] in [[experiment]]:
     
 * [[Sergey M. Frolov]], *How do we discover MAJORANA PARTICLES in NANOWIRES?*, talk via [ Instituto de Física, Universidade de São Paulo](http://portal.if.usp.br/ifusp/) (May 2021) &lbrack;[video](https://www.youtube.com/watch?v=7btnPqmSh_0)&rbrack;
 
+* [[Sergey M. Frolov]], *[The Fallen Angel Particle](https://espressospin.org/2022/11/17/the-fallen-angel-particle/)* (Nov 2022)
 
 category: people
