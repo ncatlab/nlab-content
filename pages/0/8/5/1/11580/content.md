@@ -38,6 +38,10 @@ Grothendieck's metaphor is also discussed at
 
 * [[nPOV]], [[applications of (higher) category theory]]
 
+Other writings by Grothendieck:
+
+* [[EGA]], [[FGA]], [[SGA]]
+
 
 ## References
 
