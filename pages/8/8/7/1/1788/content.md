@@ -1,4 +1,6 @@
 
+$\in$
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -13,7 +15,6 @@
 #Contents#
 * table of contents
 {:toc}
-
 
 ## Idea 
 
