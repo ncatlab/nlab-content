@@ -33,7 +33,7 @@ The paradox entangles a concept with its own extension in a **vicious circle**. 
 
 ## Statement
 
-If one assumes a naive, full [[axiom of comprehension]], one can form the [[set]]
+If one assumes a naive [[axiom]] of [[full comprehension]], one can form the [[set]]
 
 $$ R = \{ x | x \notin x \}. $$
 
