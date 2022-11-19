@@ -28,12 +28,13 @@ A [[subset]] of a singleton is called a _[[subsingleton]]_.  In [[classical math
 
 Everything above can be generalised from the [[Set|category of sets]] to any [[topos]].
 
+Singleton subsets are important in distinguishing between two kinds of [[categorical set theories]]; there are the [[categorical set theories]] like [[ETCS]] where elements *are* singleton subsets; and then there are the categorical set theories like [[structural ZFC]] where elements are different from singleton subsets but have a reflection into singleton subsets. 
+
 ## Related concepts
 
 * [[point]], [[point space]]
 
 * [[empty set]]
-
 
 [[!redirects singleton]]
 [[!redirects singletons]]
