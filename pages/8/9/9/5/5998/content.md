@@ -114,6 +114,8 @@ Most [[functional programming|functional]] [[programming language|programming la
 
 * [[relation between type theory and category theory]]
 
+* [[quantum lambda-calculus]]
+
 ## References
 
 Introduction to [[type theory|typed]] $\lambda$-calculus:
