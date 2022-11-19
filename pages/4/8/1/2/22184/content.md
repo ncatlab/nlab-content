@@ -56,6 +56,8 @@ In the (2,1)-category [[Grpd]] of groupoids and functors between groupoids, the 
 
 * [[type of types]], [[universe in a topos]]
 
+* [[class object]]
+
 ## References
 
 * David Corfield: _101 things to do with a 2-classifier_ ([blog](http://golem.ph.utexas.edu/category/2008/01/101_things_to_do_with_a_2class.html))
