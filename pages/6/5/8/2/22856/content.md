@@ -110,7 +110,7 @@ The $n^{th}$ divided power of an object $A$ is then defined as the equalizer of 
 A^{\otimes n} \arrow[rr, "\sigma", shift left=2] \arrow[rr, "...", shift right=2] &  & A^{\otimes n}
 \end{tikzcd}
 
-where there is one arrow for every $\sigma \in \mathfrak{S}_{n}$. We write $\sigma$ for the exchange associated to $\sigma$.
+where there is one arrow for every $\sigma \in \mathfrak{S}_{n}$. We write $\sigma$ for the natural transformation associated to $\sigma$, which is defined in the entry [[symmetric monoidal category]].
 
 The $n-th$ divided power $\Gamma_{n}(A)$ is thus described by the following equalizer diagram:
 
