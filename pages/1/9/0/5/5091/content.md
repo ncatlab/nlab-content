@@ -5,11 +5,17 @@
 
 * [[mathematical logic]]
 
-* [[first-order logic]]
+* [[deduction system]], [[natural deduction]], [[sequent calculus]], [[lambda-calculus]], [[judgment]]
 
-* [[type theory]], [[homotopy type theory]]
+* [[type theory]], [[simple type theory]], [[dependent type theory]]
 
-* [[universe]], [[size issues]], [[class]], [[small set]], [[large set]]
+* [[collection]], [[object]], [[type]], [[term]], [[set]], [[element]]
+
+* [[equality]], [[judgmental equality]], [[typal equality]]
+
+* [[universe]], [[size issues]]
+
+* [[higher-order logic]]
 
 ## Set theory
 
