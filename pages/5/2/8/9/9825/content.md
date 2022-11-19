@@ -158,7 +158,14 @@ Review and discussion:
 
 ### Formalization
 
-Brief mentioning of [[type|typing]] and [[categorical semantics]] of quantum measurement in the [[quantum programming language]] [[QPL]]/[[Quipper]]:
+Brief mentioning of [[type|typing]] and [[categorical semantics]] of quantum measurement 
+
+in [[quantum lambda-calculus]]:
+
+* [[Peter Selinger]], [[Benoît Valiron]], p. 143 of: *Quantum Lambda Calculus*, Semantic Techniques in Quantum Computation, Cambridge University Press (2009) 135-172 &lbrack;[doi:10.1017/CBO9781139193313.005](https://doi.org/10.1017/CBO9781139193313.005), [pdf](https://www.mscs.dal.ca/~selinger/papers/qlambdabook.pdf)&rbrack;
+
+
+in the [[quantum programming language]] [[QPL]]/[[Quipper]]:
 
 * {#Selinger04} [[Peter Selinger]], p. 39 of: *Towards a quantum programming language*, Mathematical Structures in Computer Science **14** 4 (2004) 527–586 &lbrack;[doi:10.1017/S0960129504004256](https://doi.org/10.1017/S0960129504004256), [pdf](https://www.mathstat.dal.ca/~selinger/papers/qpl.pdf),  [web](https://www.mathstat.dal.ca/~selinger/papers.html#qpl)&rbrack;
 
