@@ -6,6 +6,14 @@
 +-- {: .hide}
 [[!include foundations - contents]]
 =--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
 =--
 =--
 
@@ -13,17 +21,11 @@
 
 ## Idea
 
-A class is a [[proposition]] or [[truth value]] in the [[context]] of a [[set]] [[free variable]]. 
+In [[set theory]], a class is a [[proposition]] or [[truth value]] in the [[context]] of a [[set]] [[free variable]]. 
 
-Classes are usually used as a primitive notion in [[class theory]], where [[sets]] are a derived notion from classes, and the classes which are not sets are called **proper classes**. 
+By the [[propositions as some types]] interpretation of [[set-level type theory|set-level]] [[dependent type theory]], a class is a generalized [[modal operator]] which isn't required to be [[idempotent]] or [[monadic]] and turns a [[set]] or [[type]] into an [[h-proposition]]. If we use the [[propositions as types]] interpretation of [[dependent type theory]], then a class in any [[dependent type theory]] is just a generalized [[modal operator]] which isn't required to be [[idempotent]] or [[monadic]]. 
 
-In [[set theories]], classes are not part of the theory itself; instead, provided we have a notion of [[universe]] in the [[set theory]], we have a notion of **internal class** derived from [[universes]] $U$ as a [[function]] from $U$ to the [[set]] of [[truth values]], or if the set theory does not have a set of truth values, a [[function]] from $U$ to the [[set]] of [[subsingletons]] in $U$. 
-
-A similar thing happens in [[dependent type theory]] with [[Tarski universes]] $U$, but since not every [[type]] is a [[set]], one has to restrict to the type of $U$-small sets $\mathrm{Set}_U$ and define a class as a function from $\mathrm{Set}_U$ to the [[type of all propositions]], or if the [[dependent type theory]] is [[weakly predicative]], a class would have to be defined as as a function from $\mathrm{Set}_U$ to the type of $U$-small propositions $\mathrm{Prop}_U$. In addition, one could use the [[material set theory|material]] [[cumulative hierarchy]] [[higher inductive type]] relative to $U$, $V_U$, in place of the type of $U$-small sets, $\mathrm{Set}_U$, in either type-theoretic definition, to get **material classes**. 
-
-In all cases, these are useful to address size issues in foundations, and in particular, are used in [[category theory]] for defining various [[locally small categories]] and [[large categories]]. 
-
-The definition of a class in [[dependent type theory]] as a function from $\mathrm{Set}_U$ to $\mathrm{Prop}_U$ implies that a class could also be defined in [[set-level type theory|set-level]] [[dependent type theory]] as a generalized [[modal operator]] which turns a [[set]] or [[type]] into an [[h-proposition]] and isn't required to be [[idempotent]] or [[monadic]]. 
+In [[class theory]], classes are a primitive notion, [[sets]] are a derived notion from classes, and the classes which are not sets are called **proper classes**. Classes in class theory are used to address size issues in foundations, and in particular, are used in [[category theory]] for defining various [[locally small categories]] and [[large categories]]. 
 
 ## Definitions
 
@@ -43,8 +45,11 @@ $$\Gamma, A \vert \Phi, \mathrm{isSet}(A) \; \mathrm{true} \vdash C \; \mathrm{p
 * Suppose we are given a [[simply sorted set theory]] or [[dependently sorted set theory]] as [[logic over type theory]] with a [[sort]] $\mathrm{ProbSet}$ of "probable sets" with a [[predicate]] $\mathrm{isSet}(A)$ on $\mathrm{ProbSet}$ saying whether a term $A:\mathrm{ProbSet}$ is a set. A **class** $C$ is a [[proposition]] or [[truth value]] in the [[context]] of a [[free variable]] for a probable set $A:\mathrm{ProbSet}$ and the true proposition $\mathrm{isSet}(A) \; \mathrm{true}$. 
 $$\Gamma, A:\mathrm{ProbSet} \vert \Phi, \mathrm{isSet}(A) \; \mathrm{true} \vdash C \; \mathrm{prop}$$
 
-* Suppose we are given a [[set-level type theory|set-level]] [[dependent type theory]]. Then a **class** $C$ is a generalized [[modal operator]], which isn't required to be either [[idempotent]] or [[monadic]], on the type theory such that given a [[type]] or [[set]] $A$, the [[type]] or [[set]] $C(A)$ is an [[h-proposition]]. 
+* Suppose we are given a [[set-level type theory|set-level]] [[dependent type theory]]. Then a **class** $C$ is a generalized [[modal operator]] on the type theory, which isn't required to be either [[idempotent]] or [[monadic]], such that given a [[type]] or [[set]] $A$, the [[type]] or [[set]] $C(A)$ is an [[h-proposition]]. 
 $$\frac{\Gamma \vdash A \; \mathrm{set}}{\Gamma \vdash C(A) \; \mathrm{set}} \qquad \frac{\Gamma \vdash A \; \mathrm{set}}{\Gamma \vdash p_A^C \in \mathrm{isProp}(C(A))}$$
+
+* Suppose we are given a [[dependent type theory]], and are using the [[propositions as types]] interpretation of dependent type theory. Then a **class** $C$ is a generalized [[modal operator]] on the type theory which isn't required to be either [[idempotent]] or [[monadic]]. 
+$$\frac{\Gamma \vdash A \; \mathrm{set}}{\Gamma \vdash C(A) \; \mathrm{set}}$$
 
 ### Classes as primitive
 
@@ -54,9 +59,17 @@ There are also [[class theories]] where classes are the primitives:
 
 * Structural class theory: A **class** is an object of a [[category of classes]], and sets are defined as specific kinds of classes. Examples include [[category with class structure]] and the branch of [[algebraic set theory]]
 
+## Examples
+
+* In [[set theory]], there is a class $\exists a.a \in A$ for whether the set $A$ is an [[inhabited set]]. In [[dependent type theory]], the class is the [[propositional truncation]] [[modal operator]] $[A]$. 
+
+* In [[set theory]], there is a class $\forall a.a \in A \wedge \forall b.b \in A \wedge a = b$ for whether the set $A$ is a [[subsingleton]]. In [[dependent type theory]], the class is the [[isProp]] [[modal operator]] $\Pi (a:A).\Pi (b:A).(a =_A b)$. 
+
+* In [[set theory]], there is a class $\exists a.a \in A \wedge \forall b.b \in A \wedge a = b$ for whether the set $A$ is a [[singleton]]. In [[dependent type theory]], the class is the [[isContr]] [[modal operator]] $\Sigma (a:A).\Pi (b:A).(a =_A b)$. 
+
 ## Internal classes
 
-Provided one has a notion of [[universe]] in the set theory or type theory, it is possible to [[internalization|internalize]] the notion of class inside of the [[set theory]] or [[type theory]] itself. 
+Provided one has a notion of [[universe]] in the set theory or type theory, it is possible to [[internalization|internalize]] the notion of class inside of the [[set theory]] or [[type theory]] itself. These internal classes are useful to address size issues in foundations, and in particular, are used in [[category theory]] for defining various [[locally small categories]] and [[large categories]]. 
 
 ### In set theory
 
@@ -64,24 +77,17 @@ There are many notions of [[universe]] in [[set theory]], including [[Grothendie
 
 Let $U$ be a [[universe]]. Then a **class** relative to $U$ is a [[subset]] $C \subseteq U$ with a given injection $i:C \hookrightarrow U$. If one has choice, any subset comes with a given injection via the [[axiom of choice]]. Thus, by this definition, it is a injective [[family of sets|family of $U$-small sets]]. 
 
-Equivalently, let $\mathrm{Prop}_U$ be the set of [[subsingletons]] in $U$. A **class** relative to $U$ is an [[function]] $f:U \to \mathrm{Prop}_U$. 
+Equivalently, a class $C$ relative to $U$ is an [[endofunction]] $C:U \to U$ such that for all $U$-small sets $A \in U$, $C(A)$ is a [[subsingleton]]. 
 
 ### In dependent type theory
 
-In [[dependent type theory]], let $(U, T)$ be a [[univalent universe|univalent]] [[Tarski universe]], let $(\mathrm{Set}_U, \mathrm{Set}_T)$ be the univalent [[h-groupoid]] of $U$-small [[h-sets]], let $V_U$ be the [[material set theory|material]] [[cumulative hierarchy]] [[higher inductive type]] relative to $U$, and let $(\mathrm{Set}_U, \mathrm{Set}_T)$ be the univalent [[h-set]] of $U$-small [[h-propositions]]. Then a **class** is a function $C:\mathrm{Set}_U \to \mathrm{Prop}_U$, and a **material class** is a function $C:V_U \to \mathrm{Prop}_U$. 
+In [[dependent type theory]], let $(U, T)$ be a [[univalent universe|univalent]] [[Tarski universe]], let $(\mathrm{Set}_U, \mathrm{Set}_T)$ be the univalent [[h-groupoid]] of $U$-small [[h-sets]], let $V_U$ be the [[material set theory|material]] [[cumulative hierarchy]] [[higher inductive type]] relative to $U$. Then a **class** is an [[endofunction]] $C:\mathrm{Set}_U \to \mathrm{Set}_U$ such that for all $U$-small sets $A:\mathrm{Set}_U$, $(C(A))$ is a $U$-small [[h-proposition]], and a **material class** is a function $C:V_U \to \mathrm{Set}_U$ such that for all material sets $A:V_U$, $(C(A))$ is a $U$-small [[h-proposition]]. 
 
 ## Proper classes
 
 A **proper class** is a class which is not a [[set]]. What not being a set means depends upon the foundation; in [[material set theory]], one would use the property of not being equal to any sets, while in [[structural set theory]], one would use the property of not being in [[bijection]] with any sets. 
 
 In the context of the [[global axiom of choice]], a proper class is a class which can be put in [[bijection]] with the class of all [[ordinal number|ordinals]], $Ord$. 
-
-## Usage
-
-A __[[large category]]__ is a [[category]] whose class of [[morphisms]] is a proper class.  It is sufficient that the class of [[objects]] be a proper class, which is also necessary if the category is [[locally small category|locally small]].
-
-Category theorists care about proper classes because many examples of categories in practice (such as [[Set]], to begin with!) are large.
-
 
 ## Category of classes
 
@@ -105,7 +111,7 @@ Just as an [[elementary topos]] is an axiomatization of basic properties of the 
 
 ## References
 
-For the definition of a material class in [[homotopy type theory]], see section 10.5.3 of:
+For the definition of a material class relative to a universe $U$ in [[homotopy type theory]], see section 10.5.3 of:
 
 * *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
 
