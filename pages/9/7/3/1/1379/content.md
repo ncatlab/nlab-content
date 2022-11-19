@@ -99,6 +99,10 @@ Just as an [[elementary topos]] is an axiomatization of basic properties of the 
 
 ## See also
 
+* [[class object]]
+
+* [[class theory]]
+
 * [[category of classes]]
 
 * [[type of classes]]
@@ -107,17 +111,18 @@ Just as an [[elementary topos]] is an axiomatization of basic properties of the 
 
 * [[large set]], [[small set]]
 
-* [[class object]]
+
 
 ## References
 
 For the definition of a material class relative to a universe $U$ in [[homotopy type theory]], see section 10.5.3 of:
 
-* *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
+* [[Univalent Foundations Project]], *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]*, Institute for Advanced Study (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
 
 A paper detailing one approach to the technical side of how classes appear in [[category theory]] (namely using [[Grothendieck universes]]) is
 
-* {#Levy18} Paul Blain Levy, _Formulating Categorical Concepts using Classes_ (arXiv:[1801.08528](https://arxiv.org/abs/1801.08528))
+* {#Levy18} [[Paul Blain Levy]], _Formulating Categorical Concepts using Classes_ &lbrack;[arXiv:1801.08528](https://arxiv.org/abs/1801.08528)&rbrack;
 
 [[!redirects class]]
 [[!redirects classes]]
