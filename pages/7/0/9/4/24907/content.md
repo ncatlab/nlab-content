@@ -9,9 +9,7 @@
 =--
 =--
 
-# Simply sorted set theory
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Overview
 
@@ -62,3 +60,9 @@ In one-sorted set theory, the sorts $E$ and $S$ are the same sort.
 
 * [[unsorted set theory]], [[simply sorted set theory]], [[dependently sorted set theory]]
 * [[material set theory]], [[structural set theory]]
+
+[[!redirects simply sorted set theory]]
+[[!redirects simply sorted set theories]]
+
+[[!redirects simply-sorted set theory]]
+[[!redirects simply-sorted set theories]]
