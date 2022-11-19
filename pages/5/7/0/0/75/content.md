@@ -61,7 +61,15 @@ In [[higher-order logic]], the [[domain of discourse]] and higher-order [[predic
 
 ### Membership and typing
 
-...
+In most foundations, there is a basic notion of membership, of an "object being in a collection". 
+
+Foundations could be contrasted between those foundations where membership is a [[membership relation]], and those foundations where membership is a [[typing judgment]]. This distinction is largely the same distinction as the distinction between [[unsorted set theories]] and [[simply sorted set theories]] on one hand, and [[dependently sorted set theories]] and [[dependent type theories]] on the other hand. 
+
+For theories with a membership relation, one could further distinguish between [[homogeneous membership relations]] (for relations on the same sort) and [[heterogeneous membership relations]] (for relations between two different sorts), as well as membership relations which are primitive to the theory, and membership relations which are derived from some other existing structure in the theory. 
+
+For theories with a typing judgment, one simply judges the object, element, or term $a$ to be in the collection, set, or type $A$, (). This is in contrast to membership relations, where () is a proposition with some truth value, and thus one could say whether the proposition that the object, element, or term $a$ is in collection, set, or type $A$ is true or not. 
+
+Formally, there are also a difference in the contexts. When () is a judgment, then it lies in the type layer, but when () is a true proposition, then it lies in the proposition layer $\Phi$ while the typing judgment $a:\mathrm{Set}$ lies in the type layer. 
 
 ### Equality and identity
 
