@@ -28,7 +28,6 @@
 
 A universe is a realm within which (some conceived part, naively and virtually all, of) [[mathematics]] may be thought of as taking place.  Universes can be purely metamathematical, but we can also reflect upon them and bring them into mathematics.  There are several different kinds of 'universes'. For a physical notion of universe see [[observable universe]].
 
-
 ## Categories as universes
 
 Much of [[ordinary mathematics]] can be thought of as taking place [[internalization|inside]] "the archetypical [[category]] [[Set|SET]] of sets".  Typically, the properties of $SET$ are formulated in [[first-order logic]] using a [[set theory]] such as [[ZFC]] or (more directly) [[ETCS]].
@@ -37,10 +36,9 @@ We can generalise this from $SET$ to any other [[category]] $C$.  Without furthe
 
 We can also use [[higher category theory|higher categories]] instead of mere categories here.  Even for ordinary mathematics, this means starting with $\infty$-[[infinity-Grpd|GRPD]] instead of $SET$.
 
+## Universes as classes
 
-## Universes of pure sets
-
-The idea of the [[large category]] $SET$ as the universe of mathematics has an analogue in pre-category-theoretic [[material set theory]].  The __von Neumann universe__ $V$ is the [[proper class]] of all [[axiom of foundation|well-founded]] [[pure sets]].
+The idea of the [[large category]] $SET$ as the universe of mathematics has an analogue in [[class theory]]. In a [[material class theory]], the __von Neumann universe__ $V$ is the [[class]] of all [[axiom of foundation|well-founded]] [[pure sets]].
 
 More explicitly: for every [[ordinal number]] $\alpha$, we have a [[set]] $V_\alpha$ (the von Neumann universe of __rank__ $\alpha$), defined [[recursion|recursively]] using the operations of [[power set]] and (material) [[union]] as
 $$ V_\alpha \coloneqq \bigcup_{\beta \lt \alpha} \mathcal{P}V_\beta .$$
@@ -50,7 +48,9 @@ A similar but more complicated definition allows us to define the universe $L$ o
 
 See also a [Wikipedia article](https://secure.wikimedia.org/wikipedia/en/wiki/Universe_%28mathematics%29) written largely by [[Toby Bartels]] in another lifetime.
 
-### Grothendieck universes 
+In a [[structural class theory]], such as the [[category with class structure]] found in [[algebraic set theory]], a **universe** is a class $U$ with a [[monic]] class [[map]] $\mathcal{P}(U) \hookrightarrow U$ from the [[power object|powerclass]] of $U$ to $U$. In particular, every [[universal class]] is a universe. 
+
+## Grothendieck universes 
 
 A [[Grothendieck universe]] is a set $U$ such that the following properties hold for $U$: 
 
@@ -59,7 +59,6 @@ A [[Grothendieck universe]] is a set $U$ such that the following properties hold
 1. if $a \in U$, then $\cup a$ and $P(a)$ are elements of $U$; 
 1. the set $\omega$ of all natural numbers is an element of $U$; 
 1. if $f:a \to b$ is surjective with $a \in U$ and $b \subseteq U$, then $b \in U$.
-
 
 ## Universes inside $SET$
 
@@ -114,7 +113,9 @@ Set theory is not the only [[foundation of mathematics]].  For example, there ar
 
 ### General
 
-(...)
+For universes in [[class theory]] and [[algebraic set theory]], see
+
+* [[Steve Awodey]]. *Notes on algebraic set theory*, Notes for lectures given at the Summer School on Topos Theory, Haute-Bodeux, Belgium. May 29 to June 5, 2005. Carnegie Mellon University Technical Report No. CMU-PHIL-170. June 2005. ([pdf](https://www.phil.cmu.edu/projects/ast/Papers/bnotes.pdf))
 
 ### In type theory
 
