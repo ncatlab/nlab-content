@@ -23,7 +23,7 @@
 
 In [[set theory]], a class is a [[proposition]] or [[truth value]] in the [[context]] of a [[set]] [[free variable]]. 
 
-By the [[propositions as some types]] interpretation of [[set-level type theory|set-level]] [[dependent type theory]], a class is a generalized [[modal operator]] which isn't required to be [[idempotent]] or [[monadic]] and turns a [[set]] or [[type]] into an [[h-proposition]]. If we use the [[propositions as types]] interpretation of [[dependent type theory]], then a class in any [[dependent type theory]] is just a generalized [[modal operator]] which isn't required to be [[idempotent]] or [[monadic]]. 
+In [[set-level type theory|set-level]] [[dependent type theory]], there are no [[set]]/[[type]] free variables. However, one could nevertheless interpret a class in [[dependent type theory]] as a generalized [[modal operator]] on [[sets]]/[[types]] which takes sets to [[h-propositions]] by the [[propositions as some types]] interpretation. If we use the [[propositions as types]] interpretation of [[dependent type theory]], then a class in any [[dependent type theory]] is just a generalized [[modal operator]] on [[sets]]/[[types]]. The generalized modal operators here are not required to be either [[idempotent]] or [[monadic]]. 
 
 In [[class theory]], classes are a primitive notion, [[sets]] are a derived notion from classes, and the classes which are not sets are called **proper classes**. Classes in class theory are used to address size issues in foundations, and in particular, are used in [[category theory]] for defining various [[locally small categories]] and [[large categories]]. 
 
@@ -77,7 +77,7 @@ There are many notions of [[universe]] in [[set theory]], including [[Grothendie
 
 Let $U$ be a [[universe]]. Then a **class** relative to $U$ is a [[subset]] $C \subseteq U$ with a given injection $i:C \hookrightarrow U$. If one has choice, any subset comes with a given injection via the [[axiom of choice]]. Thus, by this definition, it is a injective [[family of sets|family of $U$-small sets]]. 
 
-Equivalently, a class $C$ relative to $U$ is an [[endofunction]] $C:U \to U$ such that for all $U$-small sets $A \in U$, $C(A)$ is a [[subsingleton]]. 
+Equivalently, a class $C$ relative to $U$ is an [[endofunction]] $C:U \to U$ such that for all $U$-small sets $A \in U$, $C(A)$ is a [[subsingleton]] subset. 
 
 ### In dependent type theory
 
@@ -85,7 +85,11 @@ In [[dependent type theory]], let $(U, T)$ be a [[univalent universe|univalent]]
 
 ## Proper classes
 
-A **proper class** is a class which is not a [[set]]. What not being a set means depends upon the foundation; in [[material set theory]], one would use the property of not being equal to any sets, while in [[structural set theory]], one would use the property of not being in [[bijection]] with any sets. 
+A **proper class** is a class which is not a [[set]]. What a set is differs from foundations to foundations. 
+
+What not being a set means depends upon the foundation; in [[material set theory]], one would use the property of not being equal to any sets, while in [[structural set theory]], one would use the property of not being in [[bijection]] with any sets. 
+
+Given a notion of [[universe]], a **[[proper class]] relative to $U$** is a class relative to $U$ which is not a set. If classes are defined as subsets of $U$ with an injection into $U$, then a proper class is a class which is not a [[singleton subset]]. 
 
 In the context of the [[global axiom of choice]], a proper class is a class which can be put in [[bijection]] with the class of all [[ordinal number|ordinals]], $Ord$. 
 
