@@ -6,6 +6,12 @@ philosophy of mathematics, history of logic and analytic philosophy. For the 'n-
 
 ## Selected writings
 
+### On algebraic set theory
+
+* [[Steve Awodey]]. *Notes on algebraic set theory*, Notes for lectures given at the Summer School on Topos Theory, Haute-Bodeux, Belgium. May 29 to June 5, 2005. Carnegie Mellon University Technical Report No. CMU-PHIL-170. June 2005. ([pdf](https://www.phil.cmu.edu/projects/ast/Papers/bnotes.pdf))
+
+### On homotopy type theory
+
 Early note on what came to be known as *[[homotopy type theory]]*:
 
 * {#Awodey09} [[Steve Awodey]], _Homotopy and Type Theory_, grant proposal project description ([pdf](https://ncatlab.org/homotopytypetheory/files/proposal2009.pdf))
@@ -18,8 +24,9 @@ On [[natural models of homotopy type theory]]:
 
 * {#Awodey2016} [[Steve Awodey]], *Natural models of homotopy type theory*, Mathematical Structures in Computer Science, **28** 2 (2016) 241-286 $[$[arXiv:1406.3219](https://arxiv.org/abs/1406.3219), [doi:10.1017/S0960129516000268](https://doi.org/10.1017/S0960129516000268)$]$
 
-
 ## Related entries
+
+* [[algebraic set theory]]
 
 * [[type theory]], [[homotopy type theory]]
 
