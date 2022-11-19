@@ -25,7 +25,7 @@ In the context of _foundations of mathematics_ or _[[mathematical logic]]_ one s
 
 There are two different attitudes to what a desirable or interesting foundation should achieve:
 
-1. In **proof-theoretic foundations** the emphasis is on seeing which formal systems, however convoluted they may be conceptually, allow us to formalize and prove which [[theorems]]. 
+1. In **[[proof theory|proof-theoretic]] foundations** the emphasis is on seeing which formal systems, however convoluted they may be conceptually, allow us to formalize and prove which [[theorems]]. 
 
    The archetypical such system is [[ZFC]] [[set theory]]. Other formal systems of interest here are [[elementary function arithmetic]] and [[second order arithmetic]], because they are [[proof theory|proof-theoretically]] weak, and still can derive "almost all of undergraduate mathematics" ([Harrington](#Harrington)).
 
@@ -35,7 +35,7 @@ There are two different attitudes to what a desirable or interesting foundation 
 
 ## Deductive systems
 
-Almost all foundations of mathematics are expressed in some foundational [[deductive system]]. 
+Almost all [[foundations of mathematics]] are expressed in some foundational [[deductive system]]. 
 
 One versatile deductive system [[natural deduction]], which could be used to define certain foundation of mathematics using [[logic over type theory]], such as all [[set theories]], including [[categorical set theories]] like [[ETCS]], as well as the foundations of mathematics using only [[type theory]], including [[set-level type theories]] as well as [[higher foundations]] such as [[homotopy type theory]]. 
 
