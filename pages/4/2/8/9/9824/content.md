@@ -9,4 +9,6 @@
 
 * [[The Rising Sea]]
 
+* [[EGA]], [[FGA]], [[SGA]]
+
 [[!redirects Recoltes et Semailles]]
