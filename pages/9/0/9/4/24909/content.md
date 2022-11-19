@@ -14,13 +14,13 @@
 
 ## Idea
 
-In the [[foundations of mathematics]], a **class theory** or **class-set theory** is a [[theory]] of [[classes]]. Class theories are usually formulated in the language of [[logic over type theory]]. 
+In the [[foundations of mathematics]], a **class theory** or **class-set theory** is a [[theory]] of [[classes]] and [[sets]]. Class theories are usually formulated in the language of [[logic over type theory]]. 
 
 Similar to the case with [[set theory]], there are [[material versus structural|material and structural versions]] of class theory as well: 
 
-Material approaches to class theories include *[[Morse-Kelley class theory]]* and *[[von Neumann–Bernays–Gödel class theory]]*. Here, classes are defined as [[formulae]] in the language of set theory for a [[truth value]], equipped with a specified [[free variable]] for a class; a formula for a class in a given context $\Gamma$ is a formula for a truth value in the extension of $\Gamma$ by one more free variable for a set. 
+Material approaches to class theories include *[[Morse-Kelley class theory]]* and *[[von Neumann–Bernays–Gödel class theory]]*, and are two-sorted theories with a sort of [[sets]] and a sort of [[classes]].  
 
-Structural approaches to class theories include *[[category with class structure]]* and the general field of *[[algebraic set theory]]*. Here, classes are defined as [[objects]] in a suitably presented [[well-pointed category]]. 
+Structural approaches to class theories include *[[category with class structure]]* and the general field of *[[algebraic set theory]]*. Here, classes are defined as [[objects]] in a suitably presented [[well-pointed category]], and [[sets]] are defined as a class with some smallness structure. 
 
 In contrast to [[material set theories]] like [[ZFC]] and [[structural set theories]] like [[ETCS]] or [[SEAR]], the notion of [[set]] is not a primitive in the theory. It is instead a defined notion from the primitive notion of [[class]]. 
 
@@ -37,6 +37,10 @@ Let $U$ be a [[universe]], and let $\mathrm{Set}_U$ be the [[universe]] of [[set
 * [[class]]
 
 * [[category of classes]]
+
+## References
+
+* [[Henrik Forssell]], *Categorical Models of Intuitionistic Theories of Sets and Classes*. Master's thesis, Carnegie Mellon University, 2004. ([PDF](https://www.phil.cmu.edu/projects/ast/Papers/forssell_thesis.pdf))
 
 [[!redirects class theory]]
 [[!redirects class theories]]
