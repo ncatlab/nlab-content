@@ -28,7 +28,10 @@ Might be better to define this inside of an [[(infinity,1)-category]] so that it
 ## Definition
 
 Let $\mathcal{C}$ be an [[(2,1)-category]] with a [[terminal object]], [[interval object]], finite [[2-pullback|(2,1)-pullbacks]], and a $\kappa$-small [[discrete object classifier]] $\mathrm{Set}_\kappa \in \mathrm{Ob}(\mathcal{C})$ for [[cardinal number]] $\kappa$. 
-An internal set $A$ is a [[morphism]] $A:\mathrm{Hom}(1, \mathrm{Set}_\kappa)$ from the [[terminal object]] $1 \in \mathrm{Ob}(\mathcal{C})$ to $\mathrm{Set}_\kappa$. A **class object relative to $\mathrm{Set}_\kappa$** in $\mathcal{C}$ is an [[object]] $C \in \mathrm{Ob}(\mathcal{C})$ with a [[monomorphism]] $m:C \hookrightarrow \mathrm{Set}_\kappa$. 
+
+An *internal set* $A$ in $\mathcal{C}$ is a [[morphism]] $A:\mathrm{Hom}(1, \mathrm{Set}_\kappa)$ from the [[terminal object]] $1 \in \mathrm{Ob}(\mathcal{C})$ to $\mathrm{Set}_\kappa$. 
+
+A **class object relative to $\mathrm{Set}_\kappa$** in $\mathcal{C}$ is an [[object]] $C \in \mathrm{Ob}(\mathcal{C})$ with a [[monomorphism]] $m:C \hookrightarrow \mathrm{Set}_\kappa$. 
 
 ## Category of class objects
 
@@ -44,6 +47,12 @@ $$\array{& A & \overset{a}\hookrightarrow & \mathrm{Set}_\kappa & \\
 * [[discrete object classifier]]
 
 * [[class]]
+
+* [[class theory]]
+
+* [[category of classes]]
+
+* [[type of classes]]
 
 [[!redirects class objects]]
 
