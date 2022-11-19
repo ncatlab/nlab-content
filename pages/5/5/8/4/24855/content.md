@@ -98,4 +98,5 @@ $$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C \; \mathrm{type} \quad \Gamma, c:A 
 * [[judgmental equality]], [[typal equality]]
 
 [[!redirects propositional equality]]
+[[!redirects propositional equalities]]
 [[!redirects propositionally equal]]
