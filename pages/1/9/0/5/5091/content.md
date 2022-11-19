@@ -9,7 +9,7 @@
 
 * [[type theory]], [[homotopy type theory]]
 
-* [[universe]]
+* [[universe]], [[size issues]], [[class]], [[small set]], [[large set]]
 
 ## Set theory
 
