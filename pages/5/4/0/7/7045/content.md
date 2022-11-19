@@ -145,11 +145,13 @@ For more on this see the respective sections at _[[relation between type theory 
 
 * [[univalence]]
 
-* [[Prop]], the [[type of propositions]], 
+* [[Prop]], the [[type of propositions]]
 
   * [[subobject classifier]]
 
 * [[object classifier]]
+
+* [[type of classes]]
 
 * [[parametric polymorphism]]
 
@@ -189,9 +191,9 @@ See also around slide 8 of the survey
 
 * Frade, _Calculus of inductive constructions_ (2008/2009) ([pdf](http://www3.di.uminho.pt/~mjf/pub/SFV-CIC-2up.pdf))
 
-A formal proof in [[homotopy type theory]] that the type of [[homotopy n-types]] is not itself a homotopy $n$-type (it is an $(n+1)$-type) is in 
+A [[formal proof]] in [[homotopy type theory]] that the type of [[homotopy n-types]] is not itself a homotopy $n$-type (it is an $(n+1)$-type) is in 
 
-* Nicolai Kraus, C. Sattler, _The universe $\mathcal{U}_n$ is not an $n$-type_ May 2013 ([pdf](http://red.cs.nott.ac.uk/~ngk/universes.pdf))
+* [[Nicolai Kraus]], [[Christian Sattler]], _The universe $\mathcal{U}_n$ is not an $n$-type_ May 2013 ([pdf](http://red.cs.nott.ac.uk/~ngk/universes.pdf))
 
 [[(∞,1)-category theory|(∞,1)-Categorical]] semantics for [[univalence|univalent]] type universes is discussed in
 
