@@ -9,32 +9,33 @@
 =--
 =--
 
-# Full (unrestricted) comprehension
+\tableofcontents
 
-* table of contents
-{: toc}
+## Definition
 
-## Idea
+In an [[unsorted set theory|unsorted]] [[material set theory]], the [[axiom]] or rule of **full** or **unrestricted comprehension** says that for any property $P$, there exists an object $\{ x \mid P(x) \}$ of all objects satisfying $P$. 
 
-In [[mathematical logic]]/[[mathematical foundations]], the [[axiom]] or rule of **full** or **unrestricted comprehension** says that for any property $P$, there exists a [[set]] of all objects satisfying $P$:
+## Resolving the inconsistency
 
-$$ \{ x \mid P(x) \}. $$
+An [[unsorted set theory]] with the unrestricted [[comprehension]] rule is called [[naive set theory]], and is inconsistent due to [[Russell's paradox]] and [[Curry's paradox]]. Here we mention several approaches to this issue.
 
-[[set theory|Set theory]] with the unrestricted [[comprehension]] rule is called [[naive set theory]], and is inconsistent due to [[Russell's paradox]] and [[Curry's paradox]].  Here we mention several approaches to this issue.
+### Separating the sets and elements
 
-## Restricted comprehension
+One way to resolve the inconsistency is to require the set theory to have multiple [[sorts]], one for the [[elements]] and one for the [[sets]], and not allow any reflection rules which send sets to elements or elements to sets. This means that the membership relation is only between elements and sets, and there is no notion of $x \in x$ necessary to express [[Russell's paradox]] and [[Curry's paradox]]. This is the approach taken by [[structural set theories]]. 
 
-Standard [[set theories]] such as [[ZFC]] avoid this [[paradox]] by replacing unrestricted comprehension with the [[axiom scheme of separation]] (or "restricted comprehension"), which restricts $x$ to lie in some previously specified set $X$.
+### Restricted comprehension
 
-## Stratified comprehension
+Standard [[unsorted set theories]] such as [[ZFC]] avoid this [[paradox]] by replacing unrestricted comprehension with the [[axiom scheme of separation]] (or "restricted comprehension"), which restricts $x$ to lie in some previously specified set $X$.
+
+### Stratified comprehension
 
 Set theories such as [[New Foundations]] instead replace comprehension by a rule of "stratified comprehension".  This permits a "[[set of all sets]]" but still appears to avoid paradox.
 
-## Substructural logics
+### Substructural logics
 
 It is also possible to retain full comprehension but avoid paradox by modifying the ambient logic.  Passing to [[constructive logic]] doesn't help, and indeed the root issue has nothing to do with [[negation]] as such, since [[Curry's paradox]] can be stated without any [[negation]].  One might think that [[paraconsistent logic]] would help, but many paraconsistent logics are still vulnerable to Curry's paradox.  Perhaps the most obvious culprit is the [[contraction rule]], and indeed [[linear logic]] (including some paraconsistent logics) can admit a full comprehension rule without explosion.
 
-## Normal logics
+### Normal logics
 
 Another possibility is to keep the contraction rule but restrict the use of the [[cut rule]].  It is not necessary to forbid all uses of cut, since many cuts can be normalized or eliminated.  Indeed, in ordinary consistent logic, *all* cuts can be eliminated; but in the presence of full comprehension they cannot all be.  Thus, another way to avoid paradox with full comprehension is to permit only proofs that can be [[normal form|normalized]].
 
