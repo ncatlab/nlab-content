@@ -92,6 +92,9 @@ Often specializations of the general concept play a role:
 
 * [[Grothendieck context]]: $f_! \simeq f_\ast$ and the projection formula holds $Y \otimes f_! X \simeq f_!(f^\ast Y \otimes X)$.
 
+## Mann's approach
+
+Mann ([Mann22](#Mann22)) has developed an abstract framework for a six-functor formalism that combines the approaches of Liu-Zheng and Gaitsgory-Rozenblyum and applies it to [[rigid analytic geometry]], in particular in combination with [[condensed mathematics]] and [[almost mathematics]] to construct an [[$\infty$-category]] of derived solid $\mathcal{O}_{X}^{+}/\pi$ almost modules (see also [Scholze22](#Scholze22)). 
 
 ## Properties
 
@@ -165,11 +168,11 @@ Grothendieck six operations formalism using diagrams of topoi
 
 Six operations formalism for [[rigid analytic geometry]] is in 
 
-* Lucas Mann, _A p-Adic 6-Functor Formalism in Rigid-Analytic Geometry_ ([arXiv:2206.02022](https://arxiv.org/abs/2206.02022))
+* {#Mann22} Lucas Mann, _A p-Adic 6-Functor Formalism in Rigid-Analytic Geometry_ ([arXiv:2206.02022](https://arxiv.org/abs/2206.02022))
 
 The abstract approach behind Mann's work is the subject of the following course by Peter Scholze:
 
-* Peter Scholze, _Six Functor Formalisms_ [pdf](https://people.mpim-bonn.mpg.de/scholze/SixFunctors.pdf)
+* {#Scholze22} Peter Scholze, _Six Functor Formalisms_ [pdf](https://people.mpim-bonn.mpg.de/scholze/SixFunctors.pdf)
  
 
 [[!redirects six operations]]
