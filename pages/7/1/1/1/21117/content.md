@@ -122,6 +122,10 @@ While this is superficially analogous to a classical [[error correcting code]], 
 
 ### Specific examples
 
+#### Bit flip codes
+
+See at *[[bit flip code]]*.
+
 #### A 3-qutrit code
  {#A3FoldqtritCode}
 
@@ -652,6 +656,12 @@ Musings on possible implications on relations between [[quantum gravity]] and [[
 
 [[!redirects code subspace]]
 [[!redirects code subspaces]]
+
+[[!redirects logical qbit]]
+[[!redirects logical qbits]]
+
+[[!redirects physical qbit]]
+[[!redirects physical qbits]]
 
 
 [[!redirects holographic quantum error correction]]
