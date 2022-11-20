@@ -55,7 +55,7 @@ The definition of a *codifferential category* is the [[formal dual]] of that of 
 
 A *codifferential category* is a [[category]] $\mathcal{C}$ equipped with [[structure]] such that its [[opposite category]]  $\mathcal{C}^{op}$ is a differential category in the sense [above](#DifferentialCategories) (and vice versa).
 
-The notion of codifferential categories is maybe more intuitively accessible  because it involves [[monoids]] and [[monads]] instead of [[comonoids]] and [[comonads]]; while the notion of differential categories is closer to [[linear logic]] and [[differential linear logic]] with their comonadic [[modality]]. 
+The notion of codifferential categories is maybe more intuitively accessible  because it involves [[monoids]] and [[monads]] instead of [[comonoids]] and [[comonads]]; but the [[formal duality|formally dual]] notion of differential categories is closer to [[linear logic]] and [[differential linear logic]] with their comonadic [[modality]]. 
 
 In the following sequence of definitions, the object $S(A)$ is to be interpreted as a [[mapping space]] of [[smooth functions]] with [[variables]] in $A$. 
 
