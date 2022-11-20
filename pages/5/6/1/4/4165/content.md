@@ -46,6 +46,7 @@ A **universal family of sets** is a set $U$ with a set $I$ and a function $E:U \
 ## See also
 
 * [[family]]
+* [[family of subsets]]
 
 [[!redirects family of sets]]
 [[!redirects families of sets]]
