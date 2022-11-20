@@ -18,6 +18,10 @@
 
 Quantum noise is [[noise]] whose origin is in the [[quantum probability|probabilistic nature]] of [[quantum physics]].
 
+## Examples
+
+* [[bit flip channel]]
+
 ## Related concepts
 
 * [[error correction]]
