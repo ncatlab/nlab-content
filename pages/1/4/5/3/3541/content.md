@@ -170,7 +170,7 @@ $$
 
 The Kraus-decomposition characterization of completely positive maps is due to
 
-* {#Stinespring55} W. Forrest Stinespring, _Positive functions on $C^\ast$-algebras_, Proc. Amer. Math. Soc. 6 (1955), 211&#8211;216.
+* {#Stinespring55} [[W. Forrest Stinespring]], *Positive functions on $C^\ast$-algebras*, Proc. Amer. Math. Soc. **6** 2 (1955) 211-216 &lbrack;[doi:2032342](https://www.jstor.org/stable/2032342), [doi:10.2307/2032342](https://doi.org/10.2307/2032342)&rbrack;
  
 * {#Kraus71} [[Karl Kraus]], *General state changes in quantum theory*, Ann. Physics **64** 2 (1971) 311-335 &lbrack;<a href="https://doi.org/10.1016/0003-4916(71)90108-4">doi:10.1016/0003-4916(71)90108-4</a>&rbrack;
  
