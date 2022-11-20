@@ -382,6 +382,8 @@ on [[quantum observables]]:
 
 Introduction and survey:
 
+* [[Michael A. Nielsen]], [[Isaac L. Chuang]], Chapter 10 of: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
+
 * Simeon Ball, Aina Centelles, Felix Huber, *Quantum error-correcting codes and their geometries* ([arXiv:2007.05992](https://arxiv.org/abs/2007.05992))
 
 * {#Steane06} [[Andrew M. Steane]], *A Tutorial on Quantum Error Correction*, in: Proceedings of the International School of Physics “Enrico Fermi”, course CLXII, "Quantum Computers, Algorithms and Chaos"  (2006) &lbrack;[pdf](https://www2.physics.ox.ac.uk/sites/default/files/ErrorCorrectionSteane06.pdf), [[SteaneTutorialQuantumErrorCorrection.pdf:file]]&rbrack; 
