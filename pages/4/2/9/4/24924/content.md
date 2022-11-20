@@ -1,7 +1,7 @@
 
 
 
-### Entanglement island" proposal for BH information paradox
+### Entanglement island proposal for BH information paradox
 
 #### Claims
 
