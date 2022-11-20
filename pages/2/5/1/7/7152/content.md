@@ -118,7 +118,7 @@ and in, where a comparison theorem over the complex numbers is also proven:
 
 An introduction is in
 
-* Tomer Schlank, Alexei Skorobogatov, _A very brief introduction to &#233;tale homotopy_. In: "Torsors, &#233;tale homotopy and applications to rational points". LMS Lecture Note Series 405, Cambridge University Press, 2013. ([pdf](http://www2.imperial.ac.uk/~anskor/SCHLANK-SKOROBOGATOV.pdf))
+* Tomer Schlank, Alexei Skorobogatov, _A very brief introduction to &#233;tale homotopy_. In: "Torsors, &#233;tale homotopy and applications to rational points". LMS Lecture Note Series 405, Cambridge University Press, 2013. ([pdf](https://www.ma.imperial.ac.uk/~anskor/SCHLANK-SKOROBOGATOV.pdf))
 
 Lecture notes on the &#233;tale fundamental group are in
 
