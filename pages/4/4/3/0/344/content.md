@@ -229,8 +229,9 @@ The category [[Vect]] is not even finitely extensive.
 \label{InExtensiveCategoryCOnnectedObjectsArePrimitiveUnderCoproduct}
 **(in extensive categories connected objects are primitive under coproduct)**
 \linebreak
-An object $X$ in an extensive category $\mathcal{C}$ is a [[connected object]], in that the [[hom-functor]] $\mathcal{C}(X,-) \,\colon\, \mathcal{C} \to Set $, if and only if in any [[coproduct]] decomposition $X \simeq U + V$, exactly one of $U$, $V$ is not the [[initial object]]. 
+An object $X$ in an extensive category $\mathcal{C}$ is a [[connected object]] (in that the [[hom-functor]] $\mathcal{C}(X,-) \,\colon\, \mathcal{C} \to Set$ [[preserved colimit|preserves]] [[coproducts]]) if and only if in any [[coproduct]] decomposition $X \simeq U + V$, exactly one of $U$, $V$ is not the [[initial object]]. 
 \end{proposition}
+
 
 \begin{proof}
 \label{ProofThatInExtensiveCategoryCOnnectedObjectsArePrimitiveUnderCoproduct}
