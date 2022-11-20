@@ -127,7 +127,7 @@ Notice that the identity map is clearly completely positive and trace preserving
 
 See also [[extremal quantum channels]] and [[graphical quantum channels]].
 
-## Universal property
+### Universal property
 
 The [[category]] whose [[objects]] are indexed by [[natural numbers]] $n,m, \cdots$ and whose [[morphisms]] are quantum operations from $n \times n$ to $m \times m$ matrices is a [[semicartesian monoidal category]] with the [[monoidal category|monoidal structure]] given by multiplication of numbers. Being semicartesian, the monoidal [[tensor unit]] (the number $1$) has a unique morphism to it from any object: this morphism is the trace. 
 
@@ -146,22 +146,26 @@ This fits a physical intuition as follows. Suppose that the isometries are a mod
 
 
 ## Examples
+ {#Examples}
 
 ### Quantum measurement and POVMs
 
 A [[quantum measurement]] is formally represented by a quantum operation that is induced by a [[positive-operator valued probability measure]] (POVM).
 
-### Systems in a bath
+### Decoherence and partial traces
+ {#DecoherenceExample}
 
-A very common example of this formalism comes from its use in [[open quantum systems]], that is systems that are coupled to an environment.  Let $\rho$ be the state of some quantum system and $\rho_{env}$ be the state of the environment.  The action of a unitary transformation, $U$, on the system is
+For the moment see the references at *[[quantum decoherence]]*.
 
-$$
-  T(\rho) = Tr_{env}U(\rho \otimes \rho_{env})U^{\dagger}.
-$$
+### Noice channels
+
+Examples of [[quantum noise]] channels:
+
+* [[bit flip channel]]
 
 ## Related concepts
 
-* [[quantum mechanics in terms of dagger-compact categories]]
+* [[quantum information theory via dagger-compact categories]]
 
 [[!include states and observables -- content]]
   
