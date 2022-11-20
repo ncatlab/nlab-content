@@ -780,8 +780,30 @@ See also
 [[!redirects extensional identity types]]
 [[!redirects identical]]
 
+[[!redirects J rule]]
+[[!redirects judgmental J rule]]
+[[!redirects propositional J rule]]
+[[!redirects typal J rule]]
+
 [[!redirects J-rule]]
+[[!redirects judgmental J-rule]]
+[[!redirects propositional J-rule]]
+[[!redirects typal J-rule]]
+
+[[!redirects identity induction]]
 [[!redirects path induction]]
+[[!redirects identification induction]]
+[[!redirects equality induction]]
+
+[[!redirects identity elimination]]
+[[!redirects path elimination]]
+[[!redirects identification elimination]]
+[[!redirects equality elimination]]
+
+[[!redirects identity computation]]
+[[!redirects path computation]]
+[[!redirects identification computation]]
+[[!redirects equality computation]]
 
 [[!redirects typal equality]]
 [[!redirects typally equal]]
