@@ -115,6 +115,8 @@ The quantized [[electromagnetic field]] is discussed for instance in ([Dimock 92
 
     * [[local net of observables]], [[field net]]
 
+    * [[time slice axiom]], [[split property]]
+
     * [[quantum lattice systems]], [[string-localized quantum field]]
 
     * [[locally covariant AQFT]]
