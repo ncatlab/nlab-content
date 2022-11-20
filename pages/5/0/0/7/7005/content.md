@@ -42,6 +42,8 @@ Univalence is a commonly assumed [[axiom]] in [[homotopy type theory]], and is c
 
 ## Definition
 
+We work in a [[dependent type theory]] with [[identity types]], [[function types]], [[dependent product types]], [[product types]], and [[dependent sum types]]. 
+
 While traditionally in [[dependent type theory]], [[Russell universes]] $U$ are considered to be distinct from [[Tarski universes]] $(U, T)$, in this article, we define a [[Russell universe]] to be a [[Tarski universe]] $(U, \!\,)$ whose type reflector type family is represented by a zero-width whitespace character $\!\,$ instead of some other symbol $T$. Thus, we can use the more general notion of Tarski universe throughout the article. 
 
 Given a universe $U$, there are multiple notions of [[equivalence of types|equivalence]] of $U$-small types which can be used in the definition of [[univalence]], such as [[functions]] with [[contractible]] [[fibers]] and [[one-to-one correspondences]]. 
@@ -107,7 +109,7 @@ There are also stricter versions of univalence, where we replace the [[equivalen
 
 2. Similarly, in the context of any [[logic over type theory]] with [[propositional equality]], given a [[type universe]] $U$, one could replace the equivalence of types in the definition of univalence with a [[propositional equality]] of types. This results in **propositional univalence**, which states that for all small types $A:U$ and $B:U$, $(A =_U B) \equiv (A \simeq B) \; \mathrm{true}$.
 
-3. Finally, if we are working inside a [[Russell universe]] $\mathcal{V}$, then given a [[type universe]] $U:\mathcal{V}$, one could replace the equivalence of types in the definition of univalence with a [[typal equality]] of types. This results in **typal univalence**, which states that for all small types $A:U$ and $B:U$, there is an [[identification]] $\mathrm{ua}(A, B):(A =_U B) =_{\mathcal{V}} (A \simeq B)$.
+3. Finally, if we are working inside a [[Tarski universe]] $(\mathcal{V}, \mathcal{T})$, then given an internal [[Tarski universe]] $U:\mathcal{V}$ with $T:\mathcal{T}(U) \to \mathcal{V}$, one could replace the equivalence of types in the definition of univalence with a [[typal equality]] of types. This results in **typal univalence**, which states that for all small types $A:\mathcal{T}(U)$ and $B:\mathcal{T}(U)$, there is an [[identification]] $\mathrm{ua}(A, B):(T(A) =_U T(B)) =_{\mathcal{V}} (T(A) \simeq_{\mathcal{V}} T(B))$.
 
 Each of these imply the usual versions of univalence either through the structural rules for [[judgmental equality]] and [[propositional equality]], or through [[identification elimination]], [[transport]], and [[action on identifications]] for [[typal equality]]. 
 
