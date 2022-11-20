@@ -42,26 +42,30 @@ Univalence is a commonly assumed [[axiom]] in [[homotopy type theory]], and is c
 
 ## Definition
 
-Given a universe $U$, there are multiple notions of [[equivalence of types|equivalence]] of $U$-small types which can be used in the definition of [[univalence]]. These include
+While traditionally in [[dependent type theory]], [[Russell universes]] $U$ are considered to be distinct from [[Tarski universes]] $(U, T)$, in this article, we define a [[Russell universe]] to be a [[Tarski universe]] $(U, \!\,)$ whose type reflector type family is represented by a zero-width whitespace character $\!\,$ instead of some other symbol $T$. Thus, we can use the more general notion of Tarski universe throughout the article. 
 
-* [[one-to-one correspondences]]
+Given a universe $U$, there are multiple notions of [[equivalence of types|equivalence]] of $U$-small types which can be used in the definition of [[univalence]], such as [[functions]] with [[contractible]] [[fibers]] and [[one-to-one correspondences]]. 
 
-* [[equivalences of types]]
+### Using functions with contractible fibers
 
-   * [[adjoint equivalences]]
+In any [[dependent type theory]], given types $A$ and $B$ and a function $f:A \to B$, $f$ is an equivalence if for all $b:B$, the fiber of $f$ at $b$ is contractible: 
+$$\mathrm{isEquiv}(f) \coloneqq \prod_{b:B} \mathrm{isContr}\left(\sum_{a:A} f(a) =_B b\right)$$
 
-   * [[functions]] with [[contractible]] [[fibers]]
+Now, let $(U, T)$ is a [[Tarski universe]]. The univalence axiom states that the [[transport]] function $\mathrm{trans}^T(A, B)$, defined by [[identification elimination]] which take the reflexive identification $\mathrm{refl}_U(A):A =_U A$ to the identity equivalence $\mathrm{id}_{T(A)}:T(A) \simeq T(A)$, is an equivalence of types for all $A:U$ and $B:U$
+$$\mathrm{trans}^T(A, B):(A =_U B) \simeq (T(A) \simeq T(B))$$
 
-* [[equivalences of types]] defined internally in $U$
+If $(U, \!\,)$ is a [[Russell universe]], transport across the zero-width whitespace character type family $\!\,$ is typically written as $\mathrm{idtoequiv}(A, B)$:
+
+$$\mathrm{idtoequiv}(A, B) \coloneqq \mathrm{trans}^{\!\,}(A, B)$$
 
 ### Using one-to-one correspondences
 
-In any [[dependent type theory]] with a Tarski universe $(U, T)$, we define a correspondence $R:T(A) \times T(B) \to U$ to be a [[one-to-one correspondence]] as: 
-$$isOneToOne(R) \coloneqq \left(\prod_{a:A} \mathrm{isContr}\left(\sum_{b:T(B)} T(R(a,b))\right)\right) \times \left(\prod_{b:T(B)} \mathrm{isContr}\left(\sum_{a:A} T(R(a,b))\right)\right)$$
+In any [[dependent type theory]] with a [[Tarski universe]] $(U, T)$, we define a correspondence $R:T(A) \times T(B) \to U$ to be a [[one-to-one correspondence]] as: 
+$$isOneToOne(R) \coloneqq \left(\prod_{a:T(A)} \mathrm{isContr}\left(\sum_{b:T(B)} T(R(a,b))\right)\right) \times \left(\prod_{b:T(B)} \mathrm{isContr}\left(\sum_{a:T(A)} T(R(a,b))\right)\right)$$
 
 and we define the type of one-to-one correspondences from $A$ to $B$ in $U$ as 
 
-$$A \simeq_U B \coloneqq \sum_{R : (A \times B) \to U} isOneToOne(R)$$
+$$A \simeq_U B \coloneqq \sum_{R:T(A) \times T(B) \to U} isOneToOne(R)$$
 
 A universe $U$ is **univalent** if for all $A:U$ and $B:U$, the canonical map
 
@@ -71,32 +75,9 @@ from the identity type $A =_U B$ to the type of one-to-one correspondences $A \s
 
 $$\mathrm{idtoequiv}_U(A, B):(A =_U B) \simeq (A \simeq_U B)$$
 
-### Using external equivalences
-
-One could use [[equivalences]] (which lie outside of the universe) instead of one-to-one correspondences. Then the univalence axiom states that the [[transport]] function $\mathrm{trans}^T(A, B)$ is an equivalence of types
-$$\mathrm{trans}^T(A, B):(A =_U B) \simeq (T(A) \simeq T(B))$$
-for all $A:U$ and $B:U$. 
-
-### Using internal equivalences
-
-Suppose the universe is closed under [[function types]], [[dependent product types]], and [[dependent sum types]]. This allows us to define the type of equivalences $A \simeq_U^\mathrm{in} B$ internal to the universe $U$. 
-
-The internal univalence axiom states that the canonical function 
-$$\mathrm{idtoequiv}(A, B):(A =_U B) \to T(A \simeq_U^\mathrm{in} B)$$
-is an equivalence
-$$\mathrm{idtoequiv}(A, B):(A =_U B) \simeq T(A \simeq_U^\mathrm{in} B)$$
-
-While this notion of equivalence is the most commonly used notion of equivalence for the univalence axiom; this is not definable for [[strongly predicative]] [[Tarski universes]], since [[strongly predicative]] [[Tarski universes]] are by definition not closed under [[function types]] and [[dependent product types]]. Instead, for [[strongly predicative]] [[Tarski universes]] one has to use either one-to-one correspondences or external equivalences, both of which are not $U$-small. But arguably, since the [[identity type]] $A =_U B$ is not $U$-small either, one shouldn't be using a notion of equivalence which is $U$-small, since it amounts to saying that the identity type $A =_U B$ is $U$-small. 
-
-In any [[intensional type theory]], the internal and external versions of univalence imply each other if the universe is closed under [[function types]], [[dependent product types]], and [[dependent sum types]]. We assume the weakest notion of Tarski universe, where the type reflection of each encoding is only equivalent to the external type, since strictly Tarski universes are weakly Tarski universes because [[definitional equality]] of types (or the identity type if the Tarski universe sits in an ambient Russell universe) imply equivalence of types. It follows from the definition of [[weakly Tarski universe]] that there is a canonical equivalence of types
-$$\mathrm{canonical}_\simeq(A, B):T(A \simeq_U^\mathrm{in} B) \simeq (T(A) \simeq T(B))$$ 
-In order to show that the two axioms imply each other, we need to show that there is an [[identification]] 
-$$i(p):\mathrm{canonical}_\simeq(A, B)(\mathrm{idtoequiv}(A, B)(p)) =_{T(A) \simeq T(B)}  \mathrm{trans}^{T}(A, B)(p)$$
-for all identifications $p:A =_U B$. By the [[J rule]] it is enough to show that $\mathrm{canonical}_\simeq(A, A)$ maps the identity equivalence of $T(A \simeq_U^\mathrm{in} A)$ to the identity equivalence of $T(A) \equivalence T(A)$. Since the identity equivalence in $T(A \simeq_U^\mathrm{in} A)$ is just the [[identity function]] $\mathrm{canonical}_\simeq^{-1}(A, A)(\lambda x.x)$ the above statement is always true. Thus, the two univalence axioms imply each other and both define the same notion of univalent universe. 
-
 ## Alternate versions of univalence
 
-In this section, we abbreviate each of the above notions of equivalence ($A \simeq_U B$, $T(A) \simeq T(B)$, $T(A \simeq_U^\mathrm{in} B)$) as $A \simeq B$. 
+In this section, we abbreviate each of the above notions of equivalence ($A \simeq_U B$ or $T(A) \simeq T(B)$) as $A \simeq B$. 
 
 ### Weaker equivalent versions
 
@@ -143,6 +124,34 @@ for all $A:U$ and $B:U$.
 Suppose we are working in a [[dependent type theory]] with [[judgmental equality]] of [[terms]] $\equiv$. Then $U$ is **judgmentally Shulman univalent** if for all $A:U$ and $B:U$ there is a function $\mathrm{ua}(A, B):(A \simeq B) \to (A =_U B)$ such that for all equivalences $R:A \simeq B$, one could judge that $\mathrm{idtoequiv}(A, B)(\mathrm{ua}(A, B)(R)) \equiv R$. 
 
 Now, suppose we are working in the framework of [[logic over type theory]], where our [[dependent type theory]] has [[propositional equality]] of [[terms]] $\equiv$. Then $U$ is **propositionally Shulman univalent** if there is a function $\mathrm{ua}(A, B):(A \simeq B) \to (A =_U B)$ for all $A:U$ and $B:U$ such that for all equivalences $R:A \simeq B$, the [[proposition]] $\mathrm{idtoequiv}(A, B)(\mathrm{ua}(A, B)(R)) \equiv R$ is true. 
+
+### Internal univalence
+
+Suppose the [[Tarski universe]] $U$ has 
+
+* internal identity types 
+$$\mathrm{Id}^U:\prod_{A:U} T(A) \times T(A) \to U$$
+* internal dependent product types 
+$$\Pi_U (x:(-)).(-)(x):\left(U \times \prod_{A:U} T(A) \to U\right) \to U$$ 
+* internal dependent sum types 
+$$\Sigma_U (x:(-)).(-)(x):\left(U \times \prod_{A:U} T(A) \to U\right) \to U$$ 
+
+We assume the weakest notion of Tarski universe, where the type reflection $T(A)$ of each $A:U$ is only equivalent to the external type, since (judgmentally, propositionally, typally) strict Tarski universes are weakly Tarski universes, because the [[judgmental equality]] and [[propositional equality]] imply equivalence of types by the structural rules for judgmental and propostional equality, and [[typal equality]] in a [[type universe]] of types imply equivalence of types by [[identification elimination]], [[transport]], and [[action on identifications]]. 
+
+This allows us to define the internal type of equivalences $A \simeq_U^\mathrm{in} B$, internal to the universe $U$, which comes with a canonical equivalence of types
+$$\mathrm{canonical}_\simeq(A, B):T(A \simeq_U^\mathrm{in} B) \simeq (T(A) \simeq T(B))$$ 
+This implies that the equivalence $T(A) \simeq T(B)$ is $U$-small, and [[transport]] being an [[equivalence]] then implies that in any universe $U$ which is closed under [[function types]], [[dependent product types]], and [[dependent sum types]], for all $A:U$ and $B:U$, the [[identity type]] $A =_U B$ is $U$-small. 
+
+The internal univalence axiom states that the canonical function 
+$$\mathrm{idtointernalequiv}(A, B):(A =_U B) \to T(A \simeq_U^\mathrm{in} B)$$
+is an equivalence of types
+$$\mathrm{idtoequiv}(A, B):(A =_U B) \simeq T(A \simeq_U^\mathrm{in} B)$$
+
+This is not definable for [[strongly predicative]] [[type universes]], since [[strongly predicative]] [[type universes]] are by definition not closed under [[dependent product types]]. 
+
+In addition, the internal and external versions of univalence imply each other. In order to show that the two axioms imply each other, we need to show that there is an [[identification]] 
+$$i(p):\mathrm{canonical}_\simeq(A, B)(\mathrm{idtoequiv}(A, B)(p)) =_{T(A) \simeq T(B)}  \mathrm{trans}^{T}(A, B)(p)$$
+for all identifications $p:A =_U B$. By the [[J rule]] it is enough to show that $\mathrm{canonical}_\simeq(A, A)$ maps the identity equivalence of $T(A \simeq_U^\mathrm{in} A)$ to the identity equivalence in $T(A) \simeq T(A)$. Since the identity equivalence in $T(A \simeq_U^\mathrm{in} A)$ is just the [[identity function]] $\mathrm{canonical}_\simeq^{-1}(A, A)(\lambda x.x)$ the above statement is always true. Thus, if the universe is closed under [[identity types]], [[dependent product types]], and [[dependent sum types]] the two univalence axioms imply each other and both define the same notion of univalent universe. 
 
 ## In categorical semantics
  {#InCategoricalSemantics}
@@ -496,7 +505,7 @@ A study of the [[semantics|semantic]] side of univalence in [[(infinity,1)-topos
 
 * {#GepnerKock12} [[David Gepner]], [[Joachim Kock]], _Univalence in locally cartesian closed infinity-categories_ ([arXiv:1208.1749](http://arxiv.org/abs/1208.1749))
 
-This does not yet show that the univalence axiom in its usual form holds in the internal type theory of [[(infinity,1)-toposes]], however, due to the lack of a (known) sufficiently strict model for the object classifier.  (But it works with Tarskian [[type universes]], see there). Constructions of such a model in some very special cases are in [Shulman12](#Shulman12) above, and also in
+This does not yet show that the univalence axiom in its usual form holds in the internal type theory of [[(infinity,1)-toposes]], however, due to the lack of a (known) sufficiently strict model for the object classifier.  (But it works with [[Tarski universes]], see there and [[type universes]]). Constructions of such a model in some very special cases are in [Shulman12](#Shulman12) above, and also in
 
 * [[Michael Shulman]], _The univalence axiom for elegant Reedy presheaves_, [arXiv:1307.6248](http://arxiv.org/abs/1203.3253).
 
