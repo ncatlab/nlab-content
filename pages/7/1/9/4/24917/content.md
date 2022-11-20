@@ -11,9 +11,10 @@ Neutral non-well-founded set theory is [[set theory]] without any of the [[axiom
 * [[Mostowski's principle]]
 *  the [[axiom of well-founded materialization]]
 
-but also without any axioms which contradict the axioms above, such as the [[axiom of anti-foundation]], or any weaker versions of the above axioms. 
+but also without any [[axioms]] which contradict the axioms above, such as the [[axiom of anti-foundation]], or any weaker versions of the above axioms. 
 
 The [[axiom of choice]] is not in general accepted here because it implies the [[axiom of well-founded materialization]] in general, as well as [[Mostowski's principle]] for [[material set theories]]. 
+
 
 Important examples of neutral non-well-founded set theory include
 
@@ -23,6 +24,7 @@ Important examples of neutral non-well-founded set theory include
 ## See also
 
 * [[neutral constructive mathematics]] (for the equivalent with [[excluded middle]])
+
 
 ## References
 
