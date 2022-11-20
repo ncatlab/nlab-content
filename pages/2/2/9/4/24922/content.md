@@ -25,7 +25,7 @@ one means the [[quantum channel]] on a [[quantum system]] represented by a singl
 
 (This would more properly be called the *q-bit flip channel*, but this is not commonly used terminology.)
 
-The [[tensor product]] of $N$ bit flip channels model the analogous process on $N$ [[q-bits]], where every single one of them may flip with probability $p$, independently of all the others. In this form, the spin flip channel serves as a simple but important model for [[quantum noise]]. Basic examples of [[quantum error correction codes]] may be used to provide partial correction of such bit flip errors.
+The [[tensor product]] of $N$ bit flip channels model the analogous process on $N$ [[q-bits]], where every single one of them may flip with probability $p$, independently of all the others. In this form, the spin flip channel serves as a simple but important model for [[quantum noise]]. Basic examples of [[quantum error correction codes]] may be used to provide partial correction of such bit flip errors, see at *[[bit flip code]]*.
 
 ## Definition
 
@@ -121,6 +121,9 @@ $$
   QBit \multimap QBit
 $$
 
+## Related concepts
+
+* [[bit flip code]]
  
 ## References
 
