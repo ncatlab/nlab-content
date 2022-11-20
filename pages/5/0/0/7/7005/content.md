@@ -21,6 +21,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -31,71 +32,119 @@ In [[intensional type theory]], [[identity types]] behave like [[path space obje
 
 On the other hand, if type theory contains a [[universe]] [[Type]], so that types can be considered as *points* of $Type$, then between two types we also have an [[identity type]] $Paths_{Type}(X,Y)$.  The _univalence axiom_ says that these two notions of "sameness" for types are the same.  
 
-Extensionality principles like [[function extensionality]], [[propositional extensionality]], and univalence ("typal extensionality") are naturally regarded as a stronger form of _[[identity of indiscernibles]]_. In particular, the [[consistency]] of univalence means that in [[Martin-Löf type theory]] without univalence, one cannot define any [[predicate]] that provably distinguishes isomorphic [[types]]; thus isomorphic types are "externally indiscernible", and univalence incarnates that principle internally by making them identical.
+Extensionality principles like [[function extensionality]], [[propositional extensionality]] (where $X$ and $Y$ are [[h-propositions]], and univalence ("typal extensionality") are naturally regarded as a stronger form of _[[identity of indiscernibles]]_. In particular, the [[consistency]] of univalence means that in [[Martin-Löf type theory]] without univalence, one cannot define any [[predicate]] that provably distinguishes isomorphic [[types]]; thus isomorphic types are "externally indiscernible", and univalence incarnates that principle internally by making them identical.
 
 The name *univalence* (due to Voevodsky) comes from the following reasoning.  A fibration or bundle $p\colon E\to B$ of some sort is commonly said to be *universal* if every other bundle of the same sort is a pullback of $p$ in a unique way (up to homotopy).  Less commonly, a bundle is said to be *versal* if every other bundle is a pullback of it in *some* way, not necessarily unique.  By contrast, a bundle is said to be *univalent* if every other bundle is a pullback of it in *at most one* way (up to homotopy).  In the language of [[(∞,1)-category]] theory, a univalent bundle is an [[object classifier]].
 
 The univalence axiom does not *literally* say that anything is univalent in this sense.  However, it is *equivalent* to saying that the canonical fibration over $Type$ is univalent: every fibration with _small_ fibers is an essentially unique pullback of this one (while those with large fibers are not, they are pullbacks of the next higher $Type_1$).  For a description of this equivalence, see section 4.8 of the [[HoTT Book]] (syntactically) and [Gepner-Kock](#GepnerKock12) (semantically).
 
+Univalence is a commonly assumed [[axiom]] in [[homotopy type theory]], and is central to the proposal ([Voevodsky](#Voevodsky)) that this provides a natively [[homotopy theory|homotopy theoretic]] [[foundation]] of [[mathematics]] (see at _[[univalent foundations for mathematics]]_).
 
 ## Definition
 
-We state univalence first in [[dependent type theory]] and then in its [[categorical semantics]].
+Given a universe $U$, there are multiple notions of [[equivalence of types|equivalence]] of $U$-small types which can be used in the definition of [[univalence]]. These include
 
-### In dependent type theory
+* [[one-to-one correspondences]]
 
-In any [[dependent type theory]] whose universes $U$ are closed under [[identity types]], [[isProp]], [[isContr]], [[function types]], [[fiber types]], [[isEquiv]], and [[types of equivalences]], a universe $U$ is **univalent** if for all $A,B:U$, the map
+* [[equivalences of types]]
 
-$$ (A=_U B) \to (A\simeq_U B) $$
+   * [[adjoint equivalences]]
 
-from the identity type $(A=_U B)$ to the function type $(A\simeq_U B)$ of [[equivalences in homotopy type theory]], defined by [path induction](/nlab/show/inductive+type#PathInduction) (i.e. the [[term elimination rule|eliminator]] for the identity types, by specifying that it takes the identity path $1_X \colon (X=X)$ to the identity equivalence of $X$), is an equivalence. So we have
+   * [[functions]] with [[contractible]] [[fibers]]
 
-$$ (A=_U B) \simeq (A \simeq_U B). $$
+* [[equivalences of types]] defined internally in $U$
 
-When $X$ and $Y$ are [propositions](propositions+as+types#PropositionsAsSomeTypes), univalence corresponds to [[propositional extensionality]].
+### Using one-to-one correspondences
 
-Univalence is a commonly assumed [[axiom]] in [[homotopy type theory]], and is central to the proposal ([Voevodsky](#Voevodsky)) that this provides a natively [[homotopy theory|homotopy theoretic]] [[foundation]] of [[mathematics]] (see at _[[univalent foundations for mathematics]]_).
+In any [[dependent type theory]] with a Tarski universe $(U, T)$, we define a correspondence $R:T(A) \times T(B) \to U$ to be a [[one-to-one correspondence]] as: 
+$$isOneToOne(R) \coloneqq \left(\prod_{a:A} \mathrm{isContr}\left(\sum_{b:T(B)} T(R(a,b))\right)\right) \times \left(\prod_{b:T(B)} \mathrm{isContr}\left(\sum_{a:A} T(R(a,b))\right)\right)$$
 
-#### For Tarski universes
+and we define the type of one-to-one correspondences from $A$ to $B$ in $U$ as 
 
-The above definitions assume the use of [[Russell universes]], where the elements of universes are literally types $A:U$. With [[Tarski universes]], the elements $A:U$ are simply encodings of types, and the universe comes with a [[type family]] $T$ such that the type reflection $T(A)$ is the actual type. 
+$$A \simeq_U B \coloneqq \sum_{R : (A \times B) \to U} isOneToOne(R)$$
 
-The univalence axiom states that the canonical function 
-$$\mathrm{idtoequiv}(A, B):(A =_U B) \to T(A \simeq_U B)$$
-is an equivalence
-$$\mathrm{idtoequiv}(A, B):(A =_U B) \simeq T(A \simeq_U B)$$
+A universe $U$ is **univalent** if for all $A:U$ and $B:U$, the canonical map
 
-However, one could instead use the external equivalence type $T(A) \simeq T(B)$, instead of the type reflection of the internal equivalence type $T(A \simeq_U B)$. In this case, this external univalence axiom states that the [[transport]] function $\mathrm{trans}^T(A, B)$ is an equivalence of types
+$$\mathrm{idtoequiv}_U(A, B):(A =_U B) \to (A \simeq_U B) $$
+
+from the identity type $A =_U B$ to the type of one-to-one correspondences $A \simeq_U B$, defined by [[identification elimination]] which take the reflexive identification $\mathrm{refl}_U(X):X =_U X$ to the identity one-to-one correspondence $\Delta_X:X \simeq X$, is an [[equivalence of types]]
+
+$$\mathrm{idtoequiv}_U(A, B):(A =_U B) \simeq (A \simeq_U B)$$
+
+### Using external equivalences
+
+One could use [[equivalences]] (which lie outside of the universe) instead of one-to-one correspondences. Then the univalence axiom states that the [[transport]] function $\mathrm{trans}^T(A, B)$ is an equivalence of types
 $$\mathrm{trans}^T(A, B):(A =_U B) \simeq (T(A) \simeq T(B))$$
-for all encodings $A:U$ and $B:U$. 
+for all $A:U$ and $B:U$. 
 
-In any [[intensional type theory]], these two axioms imply each other. We assume the weakest notion of Tarski universe, where the type reflection of each encoding is only equivalent to the external type, since strictly Tarski universes are weakly Tarski universes because [[definitional equality]] of types (or the identity type if the Tarski universe sits in an ambient Russell universe) imply equivalence of types. It follows from the definition of [[weakly Tarski universe]] that there is a canonical equivalence of types
-$$\mathrm{canonical}_\simeq(A, B):T(A \simeq_U B) \simeq (T(A) \simeq T(B))$$ 
+### Using internal equivalences
+
+Suppose the universe is closed under [[function types]], [[dependent product types]], and [[dependent sum types]]. This allows us to define the type of equivalences $A \simeq_U^\mathrm{in} B$ internal to the universe $U$. 
+
+The internal univalence axiom states that the canonical function 
+$$\mathrm{idtoequiv}(A, B):(A =_U B) \to T(A \simeq_U^\mathrm{in} B)$$
+is an equivalence
+$$\mathrm{idtoequiv}(A, B):(A =_U B) \simeq T(A \simeq_U^\mathrm{in} B)$$
+
+While this notion of equivalence is the most commonly used notion of equivalence for the univalence axiom; this is not definable for [[strongly predicative]] [[Tarski universes]], since [[strongly predicative]] [[Tarski universes]] are by definition not closed under [[function types]] and [[dependent product types]]. Instead, for [[strongly predicative]] [[Tarski universes]] one has to use either one-to-one correspondences or external equivalences, both of which are not $U$-small. But arguably, since the [[identity type]] $A =_U B$ is not $U$-small either, one shouldn't be using a notion of equivalence which is $U$-small, since it amounts to saying that the identity type $A =_U B$ is $U$-small. 
+
+In any [[intensional type theory]], the internal and external versions of univalence imply each other if the universe is closed under [[function types]], [[dependent product types]], and [[dependent sum types]]. We assume the weakest notion of Tarski universe, where the type reflection of each encoding is only equivalent to the external type, since strictly Tarski universes are weakly Tarski universes because [[definitional equality]] of types (or the identity type if the Tarski universe sits in an ambient Russell universe) imply equivalence of types. It follows from the definition of [[weakly Tarski universe]] that there is a canonical equivalence of types
+$$\mathrm{canonical}_\simeq(A, B):T(A \simeq_U^\mathrm{in} B) \simeq (T(A) \simeq T(B))$$ 
 In order to show that the two axioms imply each other, we need to show that there is an [[identification]] 
 $$i(p):\mathrm{canonical}_\simeq(A, B)(\mathrm{idtoequiv}(A, B)(p)) =_{T(A) \simeq T(B)}  \mathrm{trans}^{T}(A, B)(p)$$
-for all identifications $p:A =_U B$. By the [[J rule]] it is enough to show that $\mathrm{canonical}_\simeq(A, A)$ maps the identity function of $T(A \to_U A)$ to the [[identity function]] of $T(A) \to T(A)$. Since the identity function in $T(A \to_U A)$ is just $\mathrm{canonical}_\simeq^{-1}(A, A)(\lambda x.x)$ the above statement is always true. Thus, the two univalence axioms imply each other and both define the same notion of univalent universe. 
+for all identifications $p:A =_U B$. By the [[J rule]] it is enough to show that $\mathrm{canonical}_\simeq(A, A)$ maps the identity equivalence of $T(A \simeq_U^\mathrm{in} A)$ to the identity equivalence of $T(A) \equivalence T(A)$. Since the identity equivalence in $T(A \simeq_U^\mathrm{in} A)$ is just the [[identity function]] $\mathrm{canonical}_\simeq^{-1}(A, A)(\lambda x.x)$ the above statement is always true. Thus, the two univalence axioms imply each other and both define the same notion of univalent universe. 
 
-#### Definitional univalence
+## Alternate versions of univalence
 
-Given a [[Tarski universe]] $(U, T)$, one could replace the equivalence of types in the definition of univalence with a [[definitional equality]] of types. This results in **definitional univalence**, which states that for all small types $A:U$ and $B:U$, 
+In this section, we abbreviate each of the above notions of equivalence ($A \simeq_U B$, $T(A) \simeq T(B)$, $T(A \simeq_U^\mathrm{in} B)$) as $A \simeq B$. 
 
-$$A =_U B \equiv T(A) \simeq T(B)$$
+### Weaker equivalent versions
 
-or 
+The univalence axiom proper says that the canonical map $coe:(X=Y)\to (X\simeq Y)$ is an equivalence.  However, there are several seemingly-weaker (and therefore often easier to verify) statements that are equivalent to this, such as:
 
-$$A =_U B \equiv T(A \simeq_U B)$$
+1. For any type $X$, the type $\sum_{Y:U} (X\simeq Y)$ is [[contractible type|contractible]].  This follows since then the map on total spaces from $\sum_{Y:U} (X=Y)$ to $\sum_{Y:U} (X\simeq Y)$ induced by $coe$ is an equivalence, hence a fiberwise equivalence $(X=Y) \simeq (X\simeq Y)$.
 
-depending on which definition of univalence is used. These two rules become the same rule if the Tarski universe is a [[strict Tarski universe]]. 
+2. For any $X,Y:U$ we have a map $ua:(X\simeq Y) \to (X=Y)$ such that $coe(ua(f)) = f$.  This exhibits $X\simeq Y$ as a retract of $X=Y$, hence $\sum_{Y:U} (X\simeq Y)$ as a retract of the contractible type $\sum_{Y:U} (X=Y)$, so it is contractible.  This was observed by [Dan Licata](https://groups.google.com/forum/#!msg/homotopytypetheory/j2KBIvDw53s/YTDK4D0NFQAJ).
 
-One of the two rules of definitional univalence above holds in some models of [[cubical type theory]] and [[higher observational type theory]]. 
+3. Ian Orton and Andrew Pitts showed [here](http://types2017.elte.hu/proc.pdf#page=93) that assuming function extensionality, this can be further simplified to the following special cases:
 
-#### In Mike Shulman's higher observational type theory
+   * $unit : A = \sum_{a:A} 1$
+   * $flip : (\sum_{a:A} \sum_{b:B} C(a,b)) = (\sum_{b:B} \sum_{a:A} C(a,b))$
+   * $contract: IsContr(A) \to (A=1)$
+   * $unit_\beta : coe(unit(a)) = (a,\star)$
+   * $flip_\beta : coe(flip(a,b,c)) = (b,a,c)$.
 
-Mike Shulman's model of [[higher observational type theory]] uses [[Russell universes]] $U$, and additionally comds wih the following rules for univalence for all $A,B:U$ 
+   The proof constructs $ua(f): A=B$ (for $f:A\simeq B$) as the composite
+   $$ A \overset{unit}{=} \sum_{a:A} 1 \overset{contract}{=} \sum_{a:A} \sum_{b:B} f a=b \overset{flip}{=} \sum_{b:B} \sum_{a:A} f a = b \overset{contract}{=} \sum_{b:B} 1 \overset{unit}{=} B $$
+   and uses $unit_\beta$ and $flip_\beta$ to compute that $coe(ua(f))(a) = f(a)$, hence by function extensionality $coe(ua(f)) = f$.
 
-$$\frac{R:A \simeq_U B}{\Delta R:\mathrm{id}_U(A, B)} \qquad \frac{P:\mathrm{id}_U(A, B)}{\nabla P:A \simeq_U B} \qquad \frac{R:A \simeq_U B}{\nabla \Delta R \equiv R}$$
+### Stricter versions of univalence
 
-### In categorical semantics
+There are also stricter versions of univalence, where we replace the [[equivalence of types]] between the identity type $A =_U B$ and the type of equivalences of the universe $A \simeq B$ in the univalence axioms with some notion of [[equality]], such as [[judgmental equality]], [[propositional equality]], and [[typal equality]]. 
+
+1. In any [[dependent type theory]] with [[judgmental equality]], given a [[type universe]] $U$, one could replace the equivalence of types in the definition of univalence with a [[judgmental equality]] of types. This results in **judgmental univalence**, which states that for all small types $A:U$ and $B:U$, one could judge that $(A =_U B) \equiv (A \simeq B) \; \mathrm{type}$.
+
+2. Similarly, in the context of any [[logic over type theory]] with [[propositional equality]], given a [[type universe]] $U$, one could replace the equivalence of types in the definition of univalence with a [[propositional equality]] of types. This results in **propositional univalence**, which states that for all small types $A:U$ and $B:U$, $(A =_U B) \equiv (A \simeq B) \; \mathrm{true}$.
+
+3. Finally, if we are working inside a [[Russell universe]] $\mathcal{V}$, then given a [[type universe]] $U:\mathcal{V}$, one could replace the equivalence of types in the definition of univalence with a [[typal equality]] of types. This results in **typal univalence**, which states that for all small types $A:U$ and $B:U$, there is an [[identification]] $\mathrm{ua}(A, B):(A =_U B) =_{\mathcal{V}} (A \simeq B)$.
+
+Each of these imply the usual versions of univalence either through the structural rules for [[judgmental equality]] and [[propositional equality]], or through [[identification elimination]], [[transport]], and [[action on identifications]] for [[typal equality]]. 
+
+Judgmental univalence holds in some models of [[cubical type theory]] and [[higher observational type theory]]. 
+
+### Shulman univalence
+
+We shall call these forms of univalence **Shulman univalence** because it first appeared in [[Mike Shulman]]'s model of [[higher observational type theory]]. 
+
+Given a [[type universe]] $U$, there is a canonical function 
+$$\mathrm{idtoequiv}(A, B):(A =_U B) \to (A \simeq B)$$
+for all $A:U$ and $B:U$. 
+
+Suppose we are working in a [[dependent type theory]] with [[judgmental equality]] of [[terms]] $\equiv$. Then $U$ is **judgmentally Shulman univalent** if for all $A:U$ and $B:U$ there is a function $\mathrm{ua}(A, B):(A \simeq B) \to (A =_U B)$ such that for all equivalences $R:A \simeq B$, one could judge that $\mathrm{idtoequiv}(A, B)(\mathrm{ua}(A, B)(R)) \equiv R$. 
+
+Now, suppose we are working in the framework of [[logic over type theory]], where our [[dependent type theory]] has [[propositional equality]] of [[terms]] $\equiv$. Then $U$ is **propositionally Shulman univalent** if there is a function $\mathrm{ua}(A, B):(A \simeq B) \to (A =_U B)$ for all $A:U$ and $B:U$ such that for all equivalences $R:A \simeq B$, the [[proposition]] $\mathrm{idtoequiv}(A, B)(\mathrm{ua}(A, B)(R)) \equiv R$ is true. 
+
+## In categorical semantics
  {#InCategoricalSemantics}
 
 Let $\mathcal{C}$ be a [[locally cartesian closed model category]] in which all objects are cofibrant. 
@@ -180,7 +229,7 @@ The fibration $E \to B$ is **univalent** in $\mathcal{C}$ if this morphism is a 
 
 (...)
 
-#### In simplicial sets
+### In simplicial sets
  {#InSimplicialSets}
 
 We specialize the [general discussion](#InCategoricalSemantics) above to the realization in $\mathcal{C} = $ [[sSet]], equipped with the 
@@ -250,7 +299,7 @@ The fibration $E \to B$ is univalent, precisely when this morphism is  a weak eq
 
 This appears originally as [Voevodsky, def. 3.4](#UnivalentFoundationsProject)
 
-#### In simplicial presheaves
+### In simplicial presheaves
   {#InSimplicialPresheaves}
 
 (...)
@@ -266,27 +315,6 @@ See ([Shulman 12](#Shulman12), [UF 13](UF13))
 The univalence axiom implies [[function extensionality]].
 
 A commented version of a formal proof of this fact can be found in ([Bauer-Lumsdaine](#BauerLumsdaine)).
-
-### Weaker equivalent forms
- {#WeakerEquivalentForms}
-
-The univalence axiom proper says that the canonical map $coe:(X=Y)\to (X\simeq Y)$ is an equivalence.  However, there are several seemingly-weaker (and therefore often easier to verify) statements that are equivalent to this, such as:
-
-1. For any type $X$, the type $\sum_{Y:U} (X\simeq Y)$ is [[contractible type|contractible]].  This follows since then the map on total spaces from $\sum_{Y:U} (X=Y)$ to $\sum_{Y:U} (X\simeq Y)$ induced by $coe$ is an equivalence, hence a fiberwise equivalence $(X=Y) \simeq (X\simeq Y)$.
-
-2. For any $X,Y:U$ we have a map $ua:(X\simeq Y) \to (X=Y)$ such that $coe(ua(f)) = f$.  This exhibits $X\simeq Y$ as a retract of $X=Y$, hence $\sum_{Y:U} (X\simeq Y)$ as a retract of the contractible type $\sum_{Y:U} (X=Y)$, so it is contractible.  This was observed by [Dan Licata](https://groups.google.com/forum/#!msg/homotopytypetheory/j2KBIvDw53s/YTDK4D0NFQAJ).
-
-3. Ian Orton and Andrew Pitts showed [here](http://types2017.elte.hu/proc.pdf#page=93) that assuming function extensionality, this can be further simplified to the following special cases:
-
-   * $unit : A = \sum_{a:A} 1$
-   * $flip : (\sum_{a:A} \sum_{b:B} C(a,b)) = (\sum_{b:B} \sum_{a:A} C(a,b))$
-   * $contract: IsContr(A) \to (A=1)$
-   * $unit_\beta : coe(unit(a)) = (a,\star)$
-   * $flip_\beta : coe(flip(a,b,c)) = (b,a,c)$.
-
-   The proof constructs $ua(f): A=B$ (for $f:A\simeq B$) as the composite
-   $$ A \overset{unit}{=} \sum_{a:A} 1 \overset{contract}{=} \sum_{a:A} \sum_{b:B} f a=b \overset{flip}{=} \sum_{b:B} \sum_{a:A} f a = b \overset{contract}{=} \sum_{b:B} 1 \overset{unit}{=} B $$
-   and uses $unit_\beta$ and $flip_\beta$ to compute that $coe(ua(f))(a) = f(a)$, hence by function extensionality $coe(ua(f)) = f$.
 
 ### Univalence and axiom K
 
@@ -484,8 +512,32 @@ For more references see _[[homotopy type theory]]_.
 [[!redirects univalent]]
 [[!redirects univalent universe]]
 [[!redirects univalent universes]]
-
 [[!redirects universe extensionality]]
 
+[[!redirects judgmental univalence]]
+[[!redirects judgmentally univalent]]
+[[!redirects judgmentally univalent universe]]
+[[!redirects judgmentally univalent universes]]
+[[!redirects judgmental universe extensionality]]
+
+[[!redirects propositional univalence]]
+[[!redirects propositionally univalent]]
+[[!redirects propositionally univalent universe]]
+[[!redirects propositionally univalent universes]]
+[[!redirects propositional universe extensionality]]
+
+[[!redirects typal univalence]]
+[[!redirects typally univalent]]
+[[!redirects typally univalent universe]]
+[[!redirects typally univalent universes]]
+[[!redirects typal universe extensionality]]
+
+[[!redirects Shulman univalence]]
+[[!redirects Shulman univalent]]
+[[!redirects Shulman univalent universe]]
+[[!redirects Shulman univalent universes]]
+[[!redirects Shulman universe extensionality]]
+
 [[!redirects definitional univalence]]
+
 
