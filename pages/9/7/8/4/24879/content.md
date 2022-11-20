@@ -29,13 +29,13 @@ We work in a [[first-order logic]] with [[equality]]. In structural ZFC, there a
 In addition, 
 
 * for every function $f:A \to B$ and element $a \in A$, one could form the element $f(a) \in B$; this operation is called **function evaluation**, 
-* for every relation $\varphi:A \looparrowright B$ and element $a \in A$, one could form that $\varphi(a, b)$ **holds** of $a$ and $b$. 
+* for every relation $\varphi:A \looparrowright B$ and element $a \in A$ and $b \in B$, one could form that $\varphi(a, b)$ **holds** of $a$ and $b$. 
 
 The axioms of structural ZFC are as follows:
 
 **Axiom 0A (Axiom of equality preservation):** _For all sets $A$ and $B$, functions $f:A \to B$, and elements $a \in A$ and $b \in A$, if $a = b$, then $f(a) = f(b)$. 
 
-**Axiom 0B ([[axiom of unique choice|Axiom of unique choice]]):** _For all functions $f:A \to B$, there is a unique relation $\varphi:A \looparrowright B$ such that for all $a \in A$, $\varphi(a, f(a))$ holds of $a$ and $f(a)$, and for all relations $\varphi:A \looparrowright B$ such that for all $a \in A$, there is a unique $b \in B$ such that $\varphi(a, b)$ holds of $a$ and $b$, there is a function $f:A \to B$ such that $f(a) =_B b$._ 
+**Axiom 0B ([[axiom of unique choice|Axiom of unique choice]]):** _For all functions $f:A \to B$, there is a unique relation $\varphi:A \looparrowright B$ such that for all $a \in A$, $\varphi(a, f(a))$ holds of $a$ and $f(a)$, and for all relations $\varphi:A \looparrowright B$ such that for all $a \in A$, there is a unique $b \in B$ such that $\varphi(a, b)$ holds of $a$ and $b$, there is a function $f:A \to B$ such that $f(a) = b$._ 
 
 A function $f:A \to B$ is an **[[injection]]** if for all elements $a \in A$ and $b \in A$, $a = b$ if and only if $f(a) = f(b)$. Injections are written as $f:A \hookrightarrow B$. 
 
@@ -50,13 +50,15 @@ One uses the axiom of strong extensionality as the definition of a [[bijection]]
 
 **Axiom 3 (Axiom of [[Cartesian products]]):** _For every set $A$ and $B$, there exists a set $A \times B$ with a function $\pi_A:A \times B \to A$ and a function $\pi_B:A \times B \to B$ such that for every element $a \in A$ and $b \in B$ there is a unique element $(a, b) \in A \times B$, such that $\pi_A((a, b)) = a$ and $\pi_B((a, b)) = b$._
 
-**Axiom 4 (Axiom of [[fibers]]):** _For every set $A$ and $B$, function $f:A \to B$, and element $b \in B$, there exists a set $f^{*}(b)$ and a function $i:f^{*}(b) \to A$, such that for every element $a \in f^{*}(b)$, $f(i(a)) = b$, and for every other set $C$ and function $g:C \to A$ such that for every element $c \in C$, $f(g(c)) = b$, there is a unique function $u_C^{f^{*}(b)}:C \to f^{*}(b)$ such that for every element $c \in C$, $g(c) = i(u_C^{f^{*}(b)}(c))$._
+Given a set $I$, an $I$-indexed [[family of subsets]] is a relation $M:I \looparrowright A$ to a set $A$ called the **[[union]]** of $M$. 
+
+**Axiom 4 (Axiom of [[indexed subsets]]):** _For every set $I$ and $I$-indexed family of subsets $M:I \looparrowright A$ with union $A$, and for every element $i \in I$, there exists a set $M_i$ and an injection $m:M_i \hookrightarrow A$, such that for every element $a \in M_i$, $M(i, m(a))$ holds for $i$ and $m(a)$, and for every other set $B$ with injection $f:B \hookrightarrow A$ such that for every element $b \in B$, $M(i, f(b))$ holds for $i$ and $f(b)$, there is a unique function $u_B^{M_i}:B \to M_i$ such that for every element $b \in B$, $f(b) = m(u_B^{M_i}(b))$._
 
 **Axiom 5 ([[axiom schema of separation|Axiom schema of separation]]):** _For any set $B$ and any formula $\phi(x)$ with free variable $x \in B$, there exists a set $\{B \vert \phi\}$ with an injection $m:\{B \vert \phi\} \hookrightarrow B$ such that for every element $x \in B$, $\phi(x)$ holds if and only if there exists an element $y \in \{B \vert \phi\}$ such that $m(y) = x$._
 
-**Axiom 6 ([[axiom schema of collection|Axiom schema of collection]]):** _For any set $A$ and formula $\phi(x, X)$ with free variables $x \in A$ and $X$, there exists a set $B$, function $p:B \to A$, set $C$ and function $M:C \to B$ such that for every $b \in B$, $\phi(p(b), M^{*}(b))$, and for every $a \in A$, if there exists a set $X$ with $\phi(a, X)$, then $a \in \mathrm{im}(p)$._
+**Axiom 6 ([[axiom schema of collection|Axiom schema of collection]]):** _For any set $A$ and formula $\phi(x, X)$ with free variables $x \in A$ and $X$, there exists a set $B$, function $p:B \to A$, and a $B$-indexed family of sets $M:B \looparrowright C$ with union $C$, such that for every $b \in B$, $\phi(p(b), M_b)$, and for every $a \in A$, if there exists a set $X$ with $\phi(a, X)$, then $a \in \mathrm{im}(p)$._
 
-**Axiom 7 (Axiom of [[power sets]]):** _For any set $A$, there exists a set $\mathcal{P}(A)$ and a relation $(-)\in_A(-):A\looparrowright \mathcal{P}(A)$ such that for any set $B$ with injection $i:B \hookrightarrow A$, there exists a unique $b \in \mathcal{P}(A)$ such that for any $x \in A$, $x \in_A b$ holds of $x$ and $b$ if and only if there exists an element $y \in B$ such that $i(y) =_A x$._
+**Axiom 7 (Axiom of [[power sets]]):** _For any set $A$, there exists a set $\mathcal{P}(A)$ and a relation $(-)\in_A(-):A\looparrowright \mathcal{P}(A)$ such that for any set $B$ with injection $i:B \hookrightarrow A$, there exists a unique $b \in \mathcal{P}(A)$ such that for any $x \in A$, $x \in_A b$ holds of $x$ and $b$ if and only if there exists an element $y \in B$ such that $i(y) = x$._
 
 **Axiom 8 (Axiom of [[natural numbers]]):** _There exists a set $\mathbb{N}$ with an element $0 \in \mathbb{N}$ and a function $s:\mathbb{N} \to \mathbb{N}$, such that for all sets $A$ with an element $0_A:A$ and function $s_A:A \to A$, there is a unique function $u_A^\mathbb{N}:\mathbb{N} \to A$ such that $u_A^\mathbb{N}(0) = 0_A$ and for all elements $n \in \mathbb{N}$, $u_A^\mathbb{N}(s(n)) = s_A(u_A^\mathbb{N}(n))$._ 
 
@@ -119,7 +121,6 @@ The axiom of well-founded materialization, the structural axiom of extensionalit
 * [[Michael Shulman]] (2018). Comparing material and structural set theories. [arXiv:1808.05204](https://arxiv.org/abs/1808.05204).
 
 The rest of the axioms are standard axioms from categorical set theory (or the type theoretic equivalent). 
-
 
 [[!redirects structural ZFC]]
 
