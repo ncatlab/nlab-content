@@ -167,6 +167,9 @@ Six operations formalism for [[rigid analytic geometry]] is in
 
 * Lucas Mann, _A p-Adic 6-Functor Formalism in Rigid-Analytic Geometry_ ([arXiv:2206.02022](https://arxiv.org/abs/2206.02022))
 
+The abstract approach behind Mann's work is the subject of the following course by Peter Scholze:
+
+* Peter Scholze, _Six Functor Formalisms_ [pdf](https://people.mpim-bonn.mpg.de/scholze/SixFunctors.pdf)
  
 
 [[!redirects six operations]]
