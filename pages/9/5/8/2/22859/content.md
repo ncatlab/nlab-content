@@ -23,6 +23,7 @@ The notion of *differential categories* ([Blute, Cocket & Seely 2006](#BluteCock
 [[differential linear logic]] ([Ehrhardt & Regnier 2009](#EhrhardtRegnier09)) which in turn is meant to be a [[syntax|syntactic]] [[proof theory|proof-theoretic]] approach to [[differential calculus]]. In fact differential categories are slightly more general than the models of differential linear logic.
 
 ## Differential categories
+ {#DifferentialCategories}
 
 ###Definition
 
@@ -47,11 +48,16 @@ A differential category is a CMon-enriched [[symmetric monoidal category]] toget
 
 ## Codifferential categories
 
-###Definition
+### Definition
+ {#CodifferentialCategoriesDefinition}
 
-We give the definition of a codifferential category which is the dual of a differential category in the sense that a codifferential category is a category $\mathcal{C}$ such that $\mathcal{C}^{op}$ is a differential category and a differential category is a category $\mathcal{C}$ such that $\mathcal{C}^{op}$ is a codifferential category. Codifferential categories are more intuitive mathematically because they involve monoids and monads instead of comonoids and monads, while differential categories are closer to [[linear logic]] where we have comonads and [[differential linear logic]] where we have comonads and comonoids.
+The definition of a *codifferential category* is the [[formal dual]] of that of a differential category:
 
-In the following sequence of definitions, the object $S(A)$ must be interpreted as if it was a space of smooth functions with variables in $A$. 
+A *codifferential category* is a [[category]] $\mathcal{C}$ equipped with [[structure]] such that its [[opposite category]]  $\mathcal{C}^{op}$ is a differential category in the sense [above](#DifferentialCategories) (and vice versa).
+
+The notion of codifferential categories is maybe more intuitively accessible  because it involves [[monoids]] and [[monads]] instead of [[comonoids]] and [[comonads]]; while the notion of differential categories is closer to [[linear logic]] and [[differential linear logic]] with their comonadic [[modality]]. 
+
+In the following sequence of definitions, the object $S(A)$ is to be interpreted as a [[mapping space]] of [[smooth functions]] with [[variables]] in $A$. 
 
 \begin{definition}
 An [[algebra modality]] in a [[symmetric monoidal category]] $(\mathcal{C}, \otimes, I)$ is given by a [[monad]] $(S,m,u)$ and two [[natural transformations]] $\eta:I \rightarrow S(A)$ and $\nabla:S(A) \otimes S(A) \rightarrow S(A)$ such that for every $A \in \mathcal{C}$, $(S(A), \nabla, \eta)$ is a [[commutative monoid]] in $(\mathcal{C},\otimes,I)$ and this diagram commutes:
