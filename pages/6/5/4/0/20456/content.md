@@ -57,6 +57,8 @@ $$dim_{\mathbb{F}_{p}}H_{et}^{i}(X_{\mathbb{C}_{p}},\mathbb{F}_{p})\leq dim_{k}H
 
 Prismatic cohomology has also been used in [Bhatt20](#Bhatt20) to prove that modulo a prime power the absolute integral closure of an excellent Noetherian domain is Cohen-Macaulay. The proof also uses a p-adic version of the [[Riemann-Hilbert correspondence]] being developed in yet-unpublished work of [[Bhargav Bhatt]] and [[Jacob Lurie]].
 
+Prismatic cohomology has also been used to construct a version of [[syntomic cohomology]], which describes the graded pieces of a "motivic" filtration on p-adic etale K-theory. This is analogous to the filtration on [[topological K-theory]] whose graded pieces are described by the shifted singular cohomology complex, and is also analogous to the filtration on [[algebraic K-theory]] by [[motivic cohomology]].
+
 ## Historical Precursors
 
 Prismatic cohomology was developed by [[Bhargav Bhatt]] and [[Peter Scholze]] following earlier work on developing an integral version of [[p-adic Hodge theory]]. Some of this earlier work includes $A_inf$-cohomology in [BhattMorrowScholze16](#BhattMorrowScholze16) and integral p-adic Hodge theory via topological [[Hochschild homology]] in [BhattMorrowScholze16](#BhattMorrowScholze16), both of which were developed together with [[Matthew Morrow]].
@@ -72,6 +74,10 @@ Prismatic cohomology was developed by [[Bhargav Bhatt]] and [[Peter Scholze]] fo
 Prismatic cohomology was introduced in
 
 * [[Bhargav Bhatt]], [[Peter Scholze]], _Prisms and Prismatic Cohomology_, preprint (2019) arXiv:[1905.08229](https://arxiv.org/abs/1905.08229)
+
+A survey of recent developments is given in
+
+* [[Bhargav Bhatt]], _Algebraic Geometry in Mixed Characteristic_, preprint (2021) arXiv:[2112.12010](https://arxiv.org/abs/2112.12010)
 
 Lecture notes include
 
