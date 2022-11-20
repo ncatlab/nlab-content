@@ -23,11 +23,18 @@
 
 ## Idea
 
-A type of [[cohomology]] attached to prisms, which are $\delta$-rings equipped with an ideal satisfying some conditions. (The pair $(A, I)$ is a prism when $I$ is an [[ideal]] of a $\delta$-ring $A$ defining a [[Cartier divisor]] on its [[spectrum of a commutative ring|spectrum]] $Spec(A)$ such that $A$ is derived $(p,I)$-complete, and $p \in I + \phi(I)A$.)
+Prismatic cohomology is a cohomology theory which can specialize into various $p$-adic cohomology theories, including [[étale cohomology]], [[de Rham cohomology]] and [[crystalline cohomology]], as well as the so far conjectural $q$-de Rham cohomology of [[Peter Scholze]]. It is a geometric approach to integral [[p-adic Hodge theory]].
 
-Roughly, it is a unified construction of various $p$-adic cohomology theories, including [[étale cohomology]], [[de Rham cohomology]] and [[crystalline cohomology]], as well as the so far conjectural $q$-de Rham cohomology of [[Peter Scholze]]. It is therefore related to [[p-adic Hodge theory]].
+## Prisms
 
-## Definition
+A prism is a pair $(A,I)$ where $A$ is a $\delta$-ring and $I$ is an ideal defining a Cartier divisor on $\mathrm{Spec}(A)$, such that such that $A$ is derived $(p,I)$-complete, and $p \in I + \phi(I)A$.
+
+## Examples of Prisms
+
+* $A=\mathbb{Z}_{p}[[u]]$ and $I=(u-p)$
+* $A=A_{\mathrm{inf}}(R)$ and $I=\mathrm{ker}(\theta)$, where $\theta:A_{\mathrm{inf}}(R)\to R$ is the canonical surjection
+
+## Definition of Prismatic Cohomology
 
 Let $(A,I)$ be a prism as defined above. Let $R$ be a formally smooth $A/I$-algebra. The _prismatic site_ $(R/A)_{\Delta}$ has objects which are prisms $(B,I B)$ over $(A,I)$ together with a map $R\to B/I B$ over $A/I$. Such an object is written $(R\to B/I B\leftarrow B)$.
 
