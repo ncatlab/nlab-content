@@ -5,8 +5,12 @@
 
 On [[AQFT on curved spacetimes]]:
 
-
 * [[Christopher Fewster]], [[Rainer Verch]], _Algebraic quantum field theory in curved spacetimes_ ([arXiv:1504.00586](https://arxiv.org/abs/1504.00586))
+
+On the [[split property]] in [[AQFT]]:
+
+* [[Christopher J. Fewster]], *The split property for quantum field theories in flat and curved spacetimes* &lbrack;[arXiv:1601.06936](https://arxiv.org/abs/1601.06936)&rbrack;
+
 
 Introduction to [[AQFT]]:
 
