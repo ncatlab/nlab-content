@@ -1,15 +1,18 @@
 
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Quantum systems
 +--{: .hide}
 [[!include quantum systems -- contents]]
 =--
+#### Computation
++-- {: .hide}
+[[!include constructivism - contents]]
 =--
 =--
+=--
+
 
 
 > under construction
@@ -214,6 +217,9 @@ Book collection:
 * [[Dirk Bouwmeester]], [[Artur Ekert]], [[Anton Zeilinger]] (eds.), *The Physics of Quantum Information -- Quantum Cryptography, Quantum Teleportation, Quantum Computation*, Springer (2020) &lbrack;[doi:10.1007/978-3-662-04209-0](https://doi.org/10.1007/978-3-662-04209-0)&rbrack;
 
 Lecture notes:
+
+* {#Kuperberg05} [[Greg Kuperberg]], _A concise introduction to quantum probability, quantum mechanics, and quantum computation_ (2005) &lbrack;[pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf), [[Kuperberg-ConciseQuantum.pdf:file]]&rbrack;
+
 
 * Reinhard Werner, _Mathematical methods of quantum information theory_, 18 lecture course (2017) video playlist [yt](https://www.youtube.com/playlist?list=PLDfPUNusx1EoBAn8vXYjcF95R7mI_eR6o)
 
