@@ -265,6 +265,8 @@ see for instance ([B&#228;r-Ginoux 11](#BarGinoux11))
 
       * [[field net]]
 
+      * [[time slice axiom]], [[split property]]
+
       * [[cohomology of local net of observables]]
 
       * [[factorization algebra of observables]], [[chiral algebra]], [[topological chiral homology]], [[blob complex]].
