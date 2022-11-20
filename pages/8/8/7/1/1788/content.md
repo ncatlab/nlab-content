@@ -1,4 +1,10 @@
 
+testing whitespace
+
+$a \mspace{1mu} b$
+
+$a \!\: b$
+
 ## Idea
 
 In [[quantum information theory]] a *bit flip code* is a [[quantum error correcting code]] to correct for [[quatum noise]] caused by [[bit flip channels]].
