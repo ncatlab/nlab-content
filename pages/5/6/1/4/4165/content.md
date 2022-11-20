@@ -13,13 +13,14 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {:toc}
 
 ## In set theory
 
-A __[[family]] of [[sets]]__ consists of an __index set__ $I$ and, for each element $k$ of $I$, a [[set]] $S_k$.
+A __[[family]] of [[sets]]__ consists of an __index set__ $I$ and, for each [[element]] $k$ of $I$, a [[set]] $S_k$.
 
 Given $I$, a [[set]] $F$ and a [[function]] $p\colon F \to I$, we get a family of sets by defining $S_k$ to be the [[preimage]] $p^*(k)$.
 
