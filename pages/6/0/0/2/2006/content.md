@@ -98,7 +98,7 @@ and
     T (N) 
       \overset{T (g)}{\longrightarrow}
     T \big(T (P)\big) 
-      \overset{\mu_z}{\longrightarrow}
+      \overset{\mu_P}{\longrightarrow}
     T (P)
     \,;
   \]
