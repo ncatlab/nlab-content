@@ -43,7 +43,7 @@ In [[geometric quantization]] qbits are naturally understood as the states given
 
 * [[bit]], [[truth value]]
 
-* [[bit flip channel]]
+* [[bit flip channel]], [[bit flip code]]
 
 * [[quantum logic gate]], [[quantum circuit]]
 
