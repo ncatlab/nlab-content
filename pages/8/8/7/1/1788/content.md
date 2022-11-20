@@ -1,9 +1,7 @@
 
-\tableofcontents
-
 ## Idea
 
-In [[quantum information theory]] a *bit flip code* is a [[quantum error correcting code]] to correct for [[quatum noise]] caused by [[bit flip channels]].
+In [[quantum information theory]] a *bit flip code* is a [[quantum error correcting code]] to correct for [[quantum noise]] caused by [[bit flip channels]].
 
 ## Details
 
@@ -357,8 +355,6 @@ $$
 
 ***
 
-
-$\in$
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
