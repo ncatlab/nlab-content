@@ -331,6 +331,42 @@ The Univalent Foundations Program, Institute for Advanced Study, 2013. ([web](ht
 [[!redirects strictly a la Tarski universe]]
 [[!redirects strictly a la Tarski universes]]
 
+[[!redirects judgmentally Tarski]]
+[[!redirects judgmentally a la Tarski]]
+[[!redirects judgmental Tarski universe]]
+[[!redirects judgmental Tarski universes]]
+[[!redirects judgmentally Tarski universe]]
+[[!redirects judgmentally Tarski universes]]
+[[!redirects judgmentally a la Tarski universe]]
+[[!redirects judgmentally a la Tarski universes]]
+
+[[!redirects judgmentally strict Tarski universe]]
+[[!redirects judgmentally strict Tarski universes]]
+
+[[!redirects propositionally Tarski]]
+[[!redirects propositionally a la Tarski]]
+[[!redirects propositional Tarski universe]]
+[[!redirects propositional Tarski universes]]
+[[!redirects propositionally Tarski universe]]
+[[!redirects propositionally Tarski universes]]
+[[!redirects propositionally a la Tarski universe]]
+[[!redirects propositionally a la Tarski universes]]
+
+[[!redirects propositionally strict Tarski universe]]
+[[!redirects propositionally strict Tarski universes]]
+
+[[!redirects typally Tarski]]
+[[!redirects typally a la Tarski]]
+[[!redirects typal Tarski universe]]
+[[!redirects typal Tarski universes]]
+[[!redirects typally Tarski universe]]
+[[!redirects typally Tarski universes]]
+[[!redirects typally a la Tarski universe]]
+[[!redirects typally a la Tarski universes]]
+
+[[!redirects typally strict Tarski universe]]
+[[!redirects typally strict Tarski universes]]
+
 [[!redirects type with a type family]]
 [[!redirects univalent type with a type family]]
 
