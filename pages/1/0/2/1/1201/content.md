@@ -125,3 +125,6 @@ category: foundational axiom
 [[!redirects antifoundation]]
 
 [[!redirects axiom of regularity]]
+
+[[!redirects membership induction]]
+[[!redirects membership-induction]]
