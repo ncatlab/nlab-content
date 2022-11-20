@@ -94,7 +94,34 @@ Often specializations of the general concept play a role:
 
 ## Mann's approach
 
-Mann ([Mann22](#Mann22)) has developed an abstract framework for a six-functor formalism that combines the approaches of Liu-Zheng and Gaitsgory-Rozenblyum and applies it to [[rigid analytic geometry]], in particular in combination with [[condensed mathematics]] and [[almost mathematics]] to construct an [[$\infty$-category]] of derived solid $\mathcal{O}_{X}^{+}/\pi$ almost modules (see also [Scholze22](#Scholze22)). 
+Mann ([Mann22](#Mann22)) has developed an abstract framework for a six-functor formalism that combines the approaches of Liu-Zheng and Gaitsgory-Rozenblyum and applies it to [[rigid analytic geometry]], in particular in combination with [[condensed mathematics]] and [[almost mathematics]] to construct an [[$\infty$-category]] of derived solid $\mathcal{O}_{X}^{+}/\pi$ almost modules (see also [Scholze22](#Scholze22)).
+
+\begin{definition}
+Let $C$ be an $\infty$-category admitting finite limits and let $E$ be a class of morphisms stable under pullback and composition, and including all isomorphisms. The symmetric monoidal $\infty$-category of correspondences $\mathrm{Corr}(C,E)$ has as its objects the objects in $C$, and has as its morphisms the correspondences in $C$, i.e. for objects $X$ and $Y$ of $C$ a morphism from $X$ to $Y$ is given by an object $W$ of $C$ together with maps
+
+  $$
+    \array{
+      && W
+      \\
+      & \swarrow_{f} && \searrow_{g}
+      \\
+      X &&&& Y
+    }
+  $$
+
+where $g\inE$. The symmetric monoidal structure comes from the one on $C$. 
+\end{definition}
+
+\begin{definition}
+Let $\mathrm{Cat}_{\infty}$ be the $\infty$-category of $\infty$-categories. A *3-functor formalism* is a lax symmetric monoidal functor
+$$\mathcal{D}:\mathrm{Corr}(C,E)\to \mathrm{Cat}_{\infty}$$
+\end{definition}
+
+The above definition formalizes three of the functors in the 6-functor formalism. The derived tensor product comes from the lax symmetric monoidal structure, $f^{*}$ comes from the image of the correspondence $Y\xleftarrow{f}X=X$, and $f_{!}$ comes from the image of the correspondence $X=X\xrightarrow{f}Y$.
+
+\begin{definition}
+A *6-functor formalism* is a 3-functor formalism for which $-\otimes A$, $f^{*}$, and $f_{!}$ admit right adjoints.
+\end{definition}
 
 ## Properties
 
