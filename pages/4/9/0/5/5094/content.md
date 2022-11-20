@@ -1,5 +1,5 @@
 
-* [website](http://www.math.yorku.ca/~tholen/)
+* [website](https://tholen.mathstats.yorku.ca/)
 
 ## Selected writings
 
