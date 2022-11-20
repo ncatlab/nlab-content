@@ -1,30 +1,48 @@
-##Idea
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
 
 This approach to [[quantum mechanics]] assigns probabilities to various alternative histories of measurements on a system such that the probabilities for each history obey the rules of classical probability while being consistent with the [[Schrödinger equation]]. It is claimed to resolve what is generally taken to be paradoxical about quantum mechanics, such as the supposed collapse of the wave-function.
 
 Measurements in this approach are typically understood in terms of [[quantum decoherence]], hence an alternative name _decoherent histories_.
 
 
-
-##Related concepts
+## Related concepts
 
 * [[quantum decoherence]]
 
-##References
+* [[interpretation of quantum mechanics]]
+
+
+## References
 
 * [[Robert Griffiths]], [SEP: The Consistent Histories Approach to Quantum Mechanics] (http://plato.stanford.edu/entries/qm-consistent-histories/)
 
 The consistent histories approach was introduced by 
 
-* [[Robert Griffiths]] (1984), Consistent histories and the interpretation of quantum mechanics", Journal of Statistical Physics, 36: 219&#8211;272.
+* [[Robert Griffiths]], *Consistent histories and the interpretation of quantum mechanics*, Journal of Statistical Physics **36** (1984) 219-272 &lbrack;[doi:10.1007/BF01015734](https://doi.org/10.1007/BF01015734)&rbrack;
 
-See also his book
+with a comprehensive account in:
 
-* [[Robert Griffiths]] (2003), _Consistent Quantum Theory_, Cambridge University Press, available [here](http://quantum.phys.cmu.edu/CQT/).
+* [[Robert Griffiths]], *Consistent Quantum Theory*, Cambridge University Press (2001) &lbrack;[doi:10.1017/CBO9780511606052](https://doi.org/10.1017/CBO9780511606052), [webpage](http://quantum.phys.cmu.edu/CQT/)&rbrack;
 
 It was also discussed by [[Roland Omnès]] in a series of papers beginning with 
 
-* Roland Omn&#232;s (1988) "Logical reformulation of quantum mechanics I. Foundations", Journal of Statistical Physics, 53: 893&#8211;932.
+* [[Roland Omnès]] (1988) "Logical reformulation of quantum mechanics I. Foundations", Journal of Statistical Physics, 53: 893&#8211;932.
 
 See also his books
 
