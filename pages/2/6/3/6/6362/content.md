@@ -26,6 +26,10 @@ In [[quantum field theory]] the _time slice axiom_ is an additional axiom often 
 
 A [[local net of observables]] $A : Op(X) \to C^\ast Alg$ satisfies the **time slice axiom** if whenever a causal inclusion of [[Lorentzian space]]s $O_1 \hookrightarrow O_2$ is such that $O_1$ contains a [[Cauchy surface]] of $O_2$ then $A(O_1 \hookrightarrow O_2)$ is an [[isomorphism]].
 
+## Related concepts
+
+* [[split property]]
+
 ## References
 
 See references at *[[AQFT]]*.
