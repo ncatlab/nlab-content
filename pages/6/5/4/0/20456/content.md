@@ -56,6 +56,10 @@ $$R\Gamma_{\et}(\mathrm{Spec}(R[1/p]),\mathbb{Z}/p^{n})\cong (\Delta_{R/A}[1/d]/
 where $d$ is a generator of $I$.
 \end{theorem}
 
+## Absolute Prismatic Cohomology
+
+By forgetting the choice of base prism, one obtains the absolute prismatic cohomology. Given a p-adic formal scheme $X$, its absolute prismatic site $\Delta_{X}$ is the category of all bounded  prisms $(B,J)$ equipped with a map $\mathrm{Spf}(B/J)\to X$, topologized with the flat topology.
+
 ## Applications
 
 Prismatic cohomology can be used to obtain the following inequality for $X$ a proper smooth [[formal scheme]] over $\mathbb{C}_{p}$ (here $k$ is the residue field of $\mathcal{O}_{\mathbb{C}_{p}}$):
