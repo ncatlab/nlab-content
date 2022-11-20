@@ -1,9 +1,5 @@
 
-testing whitespace
-
-$a \mspace{1mu} b$
-
-$a \!\: b$
+\tableofcontents
 
 ## Idea
 
