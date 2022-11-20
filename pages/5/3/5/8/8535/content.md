@@ -34,7 +34,6 @@ Suppose that there were a [[set]] $Ord$ of all [[ordinal numbers]].  One could t
 
 There are many variations of the paradox, depending for instance on what precise definition of "well-ordered" (and "ordinal number") one chooses.
 
-
 ## In type theory: Girard's paradox
  {#GirardParadox}
 
@@ -42,6 +41,11 @@ As formulated in [[type theory]] by [[Jean-Yves Girard]], the Burali-Forti parad
 
 Moreover, by an adaptation of the proof, one can construct a [[looping combinator]] in this type theory, which implies the [[decidability|undecidability]] of type-checking.
 
+## Set-theoretic Girard's paradox
+
+A [[universal family of sets]] is a [[family of sets]] consisting of a set $U$ with index set $I$ and a function $E:U \to I$, such that for all sets $A$, there is a unique element $i_A \in I$ and a [[bijection]] $\delta_A:A \cong E^*(i_A)$ from $A$ to the [[fiber]] of $E$ at $i_A$. 
+
+The set-theoretic Girard's paradox states that having a [[universal family of sets]] is inconsistent. 
 
 ## Related entries
 
@@ -75,25 +79,26 @@ category: paradox
 [[!redirects Burali-Forti Paradox]]
 [[!redirects Burali-Forti's paradox]]
 [[!redirects Burali-Forti's Paradox]]
-[[!redirects Burali-Forti's paradox]]
-[[!redirects Burali-Forti's Paradox]]
 [[!redirects Burali-Forti\'s paradox]]
 [[!redirects Burali-Forti\'s Paradox]]
-
-[[!redirects Girard paradox]]
-[[!redirects Girard Paradox]]
-[[!redirects Girard's paradox]]
-[[!redirects Girard's Paradox]]
-[[!redirects Girard's paradox]]
-[[!redirects Girard's Paradox]]
-[[!redirects Girard\'s paradox]]
-[[!redirects Girard\'s Paradox]]
 
 [[!redirects Mirimanoff paradox]]
 [[!redirects Mirimanoff Paradox]]
 [[!redirects Mirimanoff's paradox]]
 [[!redirects Mirimanoff's Paradox]]
-[[!redirects Mirimanoff's paradox]]
-[[!redirects Mirimanoff's Paradox]]
 [[!redirects Mirimanoff\'s paradox]]
 [[!redirects Mirimanoff\'s Paradox]]
+
+[[!redirects Girard paradox]]
+[[!redirects Girard Paradox]]
+[[!redirects Girard's paradox]]
+[[!redirects Girard's Paradox]]
+[[!redirects Girard\'s paradox]]
+[[!redirects Girard\'s Paradox]]
+
+[[!redirects set-theoretic Girard paradox]]
+[[!redirects set-theoretic Girard Paradox]]
+[[!redirects set-theoretic Girard's paradox]]
+[[!redirects set-theoretic Girard's Paradox]]
+[[!redirects set-theoretic Girard\'s paradox]]
+[[!redirects set-theoretic Girard\'s Paradox]]
