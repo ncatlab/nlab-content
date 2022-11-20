@@ -39,9 +39,16 @@ A **[[family]] of [[sets]]** consists of a type $I$ called the **index type**, a
 
 Equivalently, it is a type family $(I, S)$ which satisfies the familial [[axiom K]]. 
 
+## Inconsistency of the universal family of sets
+
+A **universal family of sets** is a set $U$ with a set $I$ and a function $E:U \to I$ such that for all sets $A$, there is a unique element $i_A \in I$ and a [[bijection]] $\delta_A:A \cong E^*(i_A)$ from $A$ to the [[fiber]] of $E$ at $i_A$. This is inconsistent in any [[set theory]], due to the [[set-theoretic Girard's paradox]]. 
+
 ## See also
 
 * [[family]]
 
 [[!redirects family of sets]]
 [[!redirects families of sets]]
+
+[[!redirects universal family of sets]]
+[[!redirects universal families of sets]]
