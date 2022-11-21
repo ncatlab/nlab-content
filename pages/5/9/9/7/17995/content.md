@@ -39,5 +39,6 @@ Over a [[paracompact topological space]] every [[vector bundle]] is [[isomorphis
 [[!redirects pullback of vector bundles]]
 [[!redirects pullbacks of vector bundles]]
 
-
+[[!redirects pullback vector bundle]]
+[[!redirects pullback vector bundles]]
 
