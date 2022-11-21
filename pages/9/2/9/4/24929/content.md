@@ -17,7 +17,9 @@
 
 ## Idea
 
-In [[algebra]], a *subring* is a [[subobject]] of a [[ring]].
+In [[algebra]], a *subring* is a [[subobject]] of a [[ring]] in the category of rings.
+
+Note with the nLab's conventions, if $A \subseteq B$, then $A$ contains the multiplicative unit $1 \in B$.
 
 ## Related concepts
 
