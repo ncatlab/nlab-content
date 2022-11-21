@@ -30,8 +30,7 @@ Concrete [[vortex]]$\;$[[anyons]] in [[Bose-Einstein condensates]]:
 $[$[arXiv:2010.04549](https://arxiv.org/abs/2010.04549)$]$
 
 
-
-* {#MPSS19} Thomas Mawson, Timothy Petersen, Joost Slingerland, Tapio Simula, *Braiding and fusion of non-Abelian vortex anyons*, Phys. Rev. Lett. **123** (2019) 140404 $[$[doi:10.1103/PhysRevLett.123.140404](https://doi.org/10.1103/PhysRevLett.123.140404)$]$
+* {#MPSS19} Thomas Mawson, Timothy Petersen, [[Joost Slingerland]], Tapio Simula, *Braiding and fusion of non-Abelian vortex anyons*, Phys. Rev. Lett. **123** (2019) 140404 $[$[doi:10.1103/PhysRevLett.123.140404](https://doi.org/10.1103/PhysRevLett.123.140404)$]$
 
 and in (other) [[superfluids]]:
 
