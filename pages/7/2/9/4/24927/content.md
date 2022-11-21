@@ -16,6 +16,14 @@ of condensed abelian groups is an isomorphism for all extremally disconnected $S
 
 \end{definition}
 
+## Examples
+
+* ([ScholzeLCM](#ScholzeLCM), Examples 7.3) The analytic ring $\mathbb{Z}_{\square}$ is given by $\underline{\mathcal{A}}=\mathbb{Z}$ and $S\mapsto \mathbb{Z}[S]^{\square}$ (in the notation of [[solid abelian group]])
+
+## Related concepts
+
+* [[condensed mathematics]]
+
 ## References
 
 * {#ScholzeLCM} [[Peter Scholze]], _Lectures on condensed mathematics_, [pdf](https://www.math.uni-bonn.de/people/scholze/Condensed.pdf)
