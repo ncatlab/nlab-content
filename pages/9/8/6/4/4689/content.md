@@ -195,6 +195,9 @@ Review and outlook:
 
 * [[Ilya L. Shapiro]], *The background information about perturbative quantum gravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.12319](https://arxiv.org/abs/2210.12319)&rbrack;
 
+* [[John F. Donoghue]], *Quantum General Relativity and Effective Field Theory*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.09902](https://arxiv.org/abs/2211.09902)&rbrack;
+
+
 
 Aspects of [[gauge invariance]]:
 
