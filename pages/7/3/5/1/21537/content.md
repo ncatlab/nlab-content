@@ -22,6 +22,12 @@ On [[confinement]] and [[hadron]]-mass generation in [[QCD]] ([[mass gap problem
 
 * [[Craig Roberts]], _On Mass and Matter_, AAPPS Bulletin volume 31, Article number: 6 (2021) ([arXiv:2101.08340](https://arxiv.org/abs/2101.08340), [doi:10.1007/s43673-021-00005-4](https://doi.org/10.1007/s43673-021-00005-4))
 
+* Minghui Ding, [[Craig D. Roberts]], Sebastian M. Schmidt, *Emergence of Hadron Mass and Structure* $[$[arXiv:2211.07763](https://arxiv.org/abs/2211.07763)$]$
+
+* [[Craig D. Roberts]], *Origin of the Proton Mass* $[$[arXiv:2211.09905](https://arxiv.org/abs/2211.09905)$]$
+
 
 
 category: people
+
+[[!redirects Craig D. Roberts]]
