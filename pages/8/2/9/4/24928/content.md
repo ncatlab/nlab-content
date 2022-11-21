@@ -1,5 +1,4 @@
 
-
 # Contents
 * table of contents
 {: toc}
@@ -9,7 +8,7 @@
 \begin{definition}
 ([Mann (2022)](#Mann22), Definition 1.6.3)
 \linebreak
-Let $A$ be a [[ring]] and let $\mathcal{D}(A)$ be the derived [[(infinity,1)-category|$\infty$-category]] of [[condensed module|condensed $A$-modules]]. For any [[profinite set]] $S=\underset{\underset{i}{\leftarrow}}\lim S_{i}$ let
+Let $A$ be a [[ring]] and let $\mathcal{D}(A)$ be the ("[[derived category|derived]]") [[(infinity,1)-category|$\infty$-category]] [[(infinity,1)-category of chain complexes|of chain complexes of]] [[condensed module|condensed $A$-modules]]. For any [[profinite set]] $S=\underset{\underset{i}{\leftarrow}}\lim S_{i}$ let
 $$
   A_{\square}[S]
   \;\coloneqq\;
@@ -26,7 +25,7 @@ $$
 $$
 where $A'$ ranges over all [[subrings]] of $A$ which are of [[finite type]] over [[integers|$\mathbb{Z}$]]. 
 
-An [[object]] $M\in\mathcal{D}(A)$ is _solid_ if for any [[profinite set]] $S$ the canonical [[map]]
+An [[object]] $M\in\mathcal{D}(A)$ is _solid_ if for any [[profinite set]] $S$ the canonical [[map]] of [[enriched (infinity,1)-category|mapping objects]]
 $$
   \underline{Hom}
   \big(
@@ -42,7 +41,7 @@ $$
     M
   \big)
 $$
-is an [[isomorphism]] in $\mathcal{D}(A)$. 
+is an [[equivalence in an (infinity,1)-category|equivalence]] in $\mathcal{D}(A)$. 
 
 The [[full subcategory]] of solid modules in $\mathcal{D}(A)$ is denoted $\mathcal{D}_{\square}(A)$.
 
