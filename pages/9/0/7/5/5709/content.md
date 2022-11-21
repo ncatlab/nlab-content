@@ -1409,6 +1409,8 @@ Notably the theory of [[gravity]] based on the standard [[Einstein-Hilbert actio
 
 * {#AtanceCortes96} Mario Atance, Jose Luis Cortes, _Effective Field Theory of pure Gravity and the Renormalization Group_ ([arXiv:hep-th/9604076](http://arxiv.org/abs/hep-th/9604076))
 
+* [[John F. Donoghue]], *Quantum General Relativity and Effective Field Theory*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.09902](https://arxiv.org/abs/2211.09902)&rbrack;
+
 and in the context of [[perturbation theory]] in [[AQFT]]:
 
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Quantum gravity from the point of view of locally covariant quantum field theory_ ([arXiv:1306.1058](http://arxiv.org/abs/1306.1058))
