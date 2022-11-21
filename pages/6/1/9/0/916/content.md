@@ -12,7 +12,33 @@ In some fields (including secondary-school mathematics even today), functions ar
 
 ## Definitions
 
-### In sets
+### In type theory
+
+In [[dependent type theory]], given [[h-sets]] $A$ and $B$, a **partial function** $f$ from $A$ to $B$ is an [[h-proposition]]-valued type family $P_f$ on $A$ which states whether $f$ is defined for element $a:A$, and a section
+
+$$x:A, p:P_f \vdash f:B$$
+
+If the dependent type theory has [[function types]] and [[dependent sum types]], then one could define the partial function directly as:
+
+$$f:\left(\sum_{a:A} P_f(a)\right) \to B$$
+
+For example, the [[reciprocal function]] on the [[real numbers]] is only defined on the real numbers apart from zero, and so is given by the following rules:
+
+$$\frac{\Gamma \vdash \mathbb{R} \; \mathrm{type}}{\Gamma, x:\mathbb{R}, p:\vert x \vert \gt 0 \vdash {(-)}^{-1}:\mathbb{R}}$$
+
+$$\frac{\Gamma \vdash \mathbb{R} \; \mathrm{type}}{\Gamma, x:\mathbb{R}, p:\vert x \vert \gt 0 \vdash \mathrm{recipax}:x \cdot {(x, p)}^{-1} =_\mathbb{R} 1}$$
+
+Another example is the [[metric square root]] on the [[real numbers]], which is only defined on the non-negative real numbers, and is given by the following rules:
+
+$$\frac{\Gamma \vdash \mathbb{R} \; \mathrm{type}}{\Gamma, x:\mathbb{R}, p:x \geq 0 \vdash \sqrt{-}:\mathbb{R}}$$
+
+$$\frac{\Gamma \vdash \mathbb{R} \; \mathrm{type}}{\Gamma, x:\mathbb{R}, p:x \geq 0 \vdash \mathrm{sqrtax}:\sqrt{x, p}^2 =_\mathbb{R} x}$$
+
+In both cases, the witness $p$ is usually left implicit in informal notation, and the partial function is written as ${x}^{-1}$ or $\sqrt{x}$. 
+
+### In category theory
+
+#### In the category of sets
  {#DefinitionInSets}
 
 Given [[set]]s $A$ and $B$, a __partial function__ $f$ from $A$ to $B$ consists a [[subset]] $D$ of $A$ and a (total) function from $D$ to $B$.  In more detail, this is a [[span]]
@@ -30,10 +56,10 @@ Notice that the induced function $D \to A \times B$ is an [[injection]], so a pa
 We consider two partial functions (with the same given source and target) to be __equal__ if there is a [[bijection]] between their domains that makes the obvious diagrams commute.  You can get this automatically in a traditional set theory by requiring $D$ to be literally a [[subset]] of $A$ (with $\iota$ the inclusion map).
 
 
-### General abstract
+#### General abstract
  {#DefinitionGeneralAbstract}
 
-#### In terms of spans
+##### In terms of spans
 
 If $C$ is a [[category]] with [[pullbacks]], then a **partial map** from $a$ to $b$ may be defined to be a [[span]] 
 
@@ -48,7 +74,7 @@ where $i$ is [[monomorphism|monic]]. Such spans are closed under span compositio
 Abstract bicategories of partial maps, parallel to [[bicategory of relations|bicategories of relations]], were introduced by ([Carboni 87](#Carb87)). 
 
 
-#### In terms of the maybe monad
+##### In terms of the maybe monad
 
 Notice that a partial function $f$ from $A$ to $B$ as [above](#DefinitionInSets) is (in [[classical mathematics]]) equivalently a genuine function from $A$ to the [[disjoint union]] ([[coproduct]]) of $B$ with the point (the singleton)
 
@@ -67,24 +93,6 @@ This in turn is equivalently a morphism in the [[Kleisli category]] of the [[may
 In secondary-school mathematics, one often makes functions partial by fiat, just to see if students can calculate the domains of composite functions and the like.  This is not (only) busywork, as in applications one often has a function given by a formula that is really valid only on a certain domain.  However, in more sophisticated analyses (such as those that Lawvere and his followers propose for physics and synthetic geometry), these domains and the total functions on them become the primary objects of study, with the partial functions being secondary (as $\iota$ is seen as merely a way to place _coordinates_ on $D$).
 
 In analysis, one often considers partial functions whose domains are required to be intervals in the real line, regions of the complex plane, or dense subsets of a [[Banach space]].
-
-+-- {: .query}
-[[Ronnie Brown|Ronnie]] There is an interesting debate possible here! 
-
-On the basis of my teaching of first year analysis and calculus since 1959, I found the most convenient  idea is that of a function $f: R \to R$ being a _partial function_ with a domain  which can be calculated from a formula for the function, and may be empty. Then one finds that the inverse of an injective function $R \to R$ is also a function $R \to R$. A first order differential equation has a solution which is a partial function. What seems to be lacking is the functional analysis of such solutions. For example $dy/dx=1/ (\lambda +x)$ has a solution whose domain varies with $\lambda$ and ought to (and can be made to) vary continuously, including its open domain! 
-
-The work of Charles Ehresmann is full of partial functions, derived from his strong interest in analysis and differential geometry, and local-to-global problems. So he developed for example the theory of pseudogroups, and contributed to inverse semigroups. 
-
-A possible reason for the difficulties some have of accepting groupoids rather than groups is that groupoids have a partial composition, which is of course very intuitive when one thinks of composing journeys.  
-
-In higher dimensional algebra one is dealing with algebraic structures whose domains are defined by geometric conditions. 
-
-Of course category theory initially derived from algebra and algebraic topology, where partial functions are unusual. However they are necessary in dealing with fibred exponential laws, i.e. exponential laws in a slice category of $Top$, and their applications. See papers of Peter Booth. 
-
-_Toby_:  For first-year calculus, I agree with you, except that you ought to be able to restrict the definition to an interval (or a union of intervals) by fiat.  (Actually, you can get this from formulas by adding appropriate terms of the form $\sqrt {x-a} - \sqrt{x-a}$, $\log(a-x) - \log(a-x)$, etc, but that\'s silly.)  So calculus is about (certain) functions to $\mathbf{R}$ from unions of intervals on $\mathbf{R}$.  Of course, this doesn\'t include *all* partial functions on $\mathbf{R}$, but then it doesn\'t even include all such *total* functions, so maybe the restriction on allowed domains doesn\'t matter.
-
-But if you disagree that 'in more sophisticated analyses [...], these domains and the total functions on them become the primary objects of study', then feel free to change the text (say to 'in other analyses [...]'; I don\'t intend to defend the claim that this is really the right way to do things.
-=--
 
 In a [[field]], the multiplicative [[inverse]] is a partial function whose domain is the set of non-zero elements of the field.
 
