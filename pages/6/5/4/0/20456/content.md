@@ -102,7 +102,7 @@ Some other lectures on prismatic cohomology:
 
 * [[Kiran Kedlaya]], _Notes on prismatic cohomology_, 2020 [lecture notes](https://kskedlaya.org/prismatic/prismatic.html)
 
-* [[Matthew Emerton]], _Prismatic cohomology_, 2020 [lecture notes](http://www.math.uchicago.edu/~emerton/prismatic/prismatic.html)
+* [[Matthew Emerton]], _Prismatic cohomology_, lecture notes (2020) &lbrack;[webpage](http://www.math.uchicago.edu/~emerton/prismatic/prismatic.html)&rbrack;
 
 For some introductory comments see
 
@@ -124,6 +124,6 @@ Recent developments include
 
 Historical precursors of prismatic cohomology are
 
-* {#BhattMorrowScholze16}[[Bhargav Bhatt]], [[Matthew Morrow]], and [[Peter Scholze]] _Integral $p$-adic Hodge Theory_, arXiv:[1602.03148](https://arxiv.org/abs/1602.03148)
+* {#BhattMorrowScholze16}[[Bhargav Bhatt]], [[Matthew Morrow]], [[Peter Scholze]] *Integral $p$-adic Hodge Theory* &lbrack;[arXiv:1602.03148](https://arxiv.org/abs/1602.03148)&rbrack;
 
-* {#BhattMorrowScholze18}[[Bhargav Bhatt]], [[Matthew Morrow]], and [[Peter Scholze]] _Topological Hochschild Homology and Integral $p$-adic Hodge Theory_, arXiv:[1802.03261](https://arxiv.org/abs/1802.03261)
+* {#BhattMorrowScholze18}[[Bhargav Bhatt]], [[Matthew Morrow]], [[Peter Scholze]], *Topological Hochschild Homology and Integral $p$-adic Hodge Theory* &lbrack;[arXiv:1802.03261](https://arxiv.org/abs/1802.03261)&rbrack;
