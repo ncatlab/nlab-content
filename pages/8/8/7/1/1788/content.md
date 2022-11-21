@@ -1,4 +1,20 @@
 
+$$
+  A_{\square}[S]
+  \;\coloneqq\;
+  \underset
+    {\underset{ A^{\prime} \subseteq A }{\rightarrow}}
+    {\lim}
+  \;
+  \underset
+    {\underset{i}{\leftarrow}}
+    {\lim}
+  \;
+  A'\big[S_{i}\big]
+  \,,
+$$
+
+
 ## Idea
 
 In [[quantum information theory]] a *bit flip code* is a [[quantum error correcting code]] to correct for [[quantum noise]] caused by [[bit flip channels]].
