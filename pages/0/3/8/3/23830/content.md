@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On potential [[quantum measurement]] of non-abelian [[anyons]]:
+
+* [[Parsa Bonderson]], [[Kirill Shtengel]], [[Joost Slingerland]], *Interferometry of non-Abelian Anyons*, Annals Phys. **323** (2008) 2709-2755 &lbrack;[doi:10.1016/j.aop.2008.01.012](https://doi.org/10.1016/j.aop.2008.01.012), [arXiv:0707.4206](https://arxiv.org/abs/0707.4206)&rbrack;
+
 On [[symmetry protected topological phases]] and their [[topological orders]]:
 
 * {#BBCW19} [[Maissam Barkeshli]], [[Parsa Bonderson]], [[Meng Cheng]], [[Zhenghan Wang]], *Symmetry Fractionalization, Defects, and Gauging of Topological Phases*, Phys. Rev. B **100** 115147 (2019) $[$[arXiv:1410.4540](https://arxiv.org/abs/1410.4540), [doi:10.1103/PhysRevB.100.115147](https://doi.org/10.1103/PhysRevB.100.115147)$]$
