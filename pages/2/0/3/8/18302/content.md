@@ -44,9 +44,16 @@ $$
 $$
 
 
+### Vector bundles over general bases
+
+See *[[VectBund]]*
+
 ### Higher vector bundles
 
 An analog in [[homotopy theory]]/[[higher category theory]] is the [[(infinity,1)-category]] of [[(infinity,1)-module bundles]].
 
-[[!redirects VectBund]]
+
 [[!redirects VectBund(X)]]
+
+[[!redirects VectBund(B)]]
+
