@@ -303,7 +303,6 @@ Identification of anyon phases (specifically in the [[quantum Hall effect]]) as 
 
 
 
-
 The "[[fictitious gauge field]]"-method for modelling anyons:
 
 * {#ArovasSchriefferWilczekZee85} [[Daniel P. Arovas]], [[Robert Schrieffer]], [[Frank Wilczek]], [[Anthony Zee]], *Statistical mechanics of anyons*, Nuclear Physics B **251** (1985) 117-126 (reprinted in [Wilczek 1990, p. 173-182](#Wilczek90)) $[$<a href="https://doi.org/10.1016/0550-3213(85)90252-4">doi:10.1016/0550-3213(85)90252-4</a>$]$
@@ -347,8 +346,6 @@ Discussion of anyon-[[wavefunctions]] as [[multi-valued functions]] on a [[confi
 * {#ImboImboSudarshan90} Tom Imbo, Chandni Shah Imbo, E. C. G. Sudarshan, *Identical particles, exotic statistics and braid groups*, Physics Letters B **234** 1–2, (1990) 103-107 $[$<a href="https://doi.org/10.1016/0370-2693(90)92010-G">doi:10.1016/0370-2693(90)92010-G</a>, [pdf](https://lib-extopc.kek.jp/preprints/PDF/2000/0033/0033552.pdf)$]$
 
 
-
-
 * {#BCMS93} Garth A. Baker, Geoff S. Canright, Shashikant B. Mulay, Carl Sundberg, *On the spectral problem for anyons*, Communications in Mathematical Physics **153** (1993) 277–295 $[$[doi:10.1007/BF02096644](https://doi.org/10.1007/BF02096644)$]$
 
 * {#MundSchrader93} J. Mund, [[Robert Schrader]], *Hilbert Spaces for Nonrelativistic and Relativistic "Free" Plektons (Particles with Braid Group Statistics)*, in *Advances in dynamical systems and quantum physics* (Capri, 1993), World Sci. (1995) 235–259 $[$[arXiv:hep-th/9310054](https://arxiv.org/abs/hep-th/9310054)$]$
@@ -366,6 +363,12 @@ Discussion of anyon-[[wavefunctions]] as [[multi-valued functions]] on a [[confi
 * {#MurthyShankar09} [[M.V.N. Murthy]], [[Ramamurti Shankar]], *Exclusion Statistics: From Pauli to Haldane* (1999, 2009) $[$[dspace:123456789/334](https://dspace.imsc.res.in/xmlui/handle/123456789/334), [pdf](https://www.imsc.res.in/xmlui/bitstream/handle/123456789/334/MR120.pdf?sequence=1), [[MurthyShankar-ExclusionStatistics.pdf:file]]$]$
 
 * {#DMV03} G. Date, [[M.V.N. Murthy]], [[Radhika Vathsan]], *Classical and Quantum Mechanics of Anyons* $[$[arXiv:cond-mat/0302019](https://arxiv.org/abs/cond-mat/0302019)$]$
+
+The topic of [[quantum measurement]] of non-abelian anyons is crucial to their identification in [[experiment]] but has received little attenion, one exception being:
+
+* [[Parsa Bonderson]], [[Kirill Shtengel]], [[Joost Slingerland]], *Interferometry of non-Abelian Anyons*, Annals Phys. **323** (2008) 2709-2755 &lbrack;[doi:10.1016/j.aop.2008.01.012](https://doi.org/10.1016/j.aop.2008.01.012), [arXiv:0707.4206](https://arxiv.org/abs/0707.4206)&rbrack;
+
+
 
 
 
