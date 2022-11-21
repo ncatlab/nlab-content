@@ -58,7 +58,17 @@ where $d$ is a generator of $I$.
 
 ## Absolute Prismatic Cohomology
 
-By forgetting the choice of base prism, one obtains the absolute prismatic cohomology. Given a p-adic formal scheme $X$, its absolute prismatic site $\Delta_{X}$ is the category of all bounded  prisms $(B,J)$ equipped with a map $\mathrm{Spf}(B/J)\to X$, topologized with the flat topology.
+By forgetting the choice of base prism, one obtains the absolute prismatic cohomology. Given a p-adic formal scheme $X$, its absolute prismatic site ${X}_{\Delta}$ is the category of all bounded  prisms $(B,J)$ equipped with a map $\mathrm{Spf}(B/J)\to X$, topologized with the flat topology.
+
+## Prismatic Crystals
+
+Let $X$ be a p-adic formal scheme and let $X_{\Delta}$ be its absolute prismatic site as above. A _prismatic crystal_ is an assignment
+
+$$(B,J)\in X_{\Delta}\mapsto \mathcal{E}(B)\in\mathrm{Vect}_{B}$$
+
+where $\mathrm{Vect}_{B}$ is the set of finite projective $B$-modules.
+
+A stacky approach to the study of prismatic crystals has been developed independently by Drinfeld ([Drinfeld20](#Drinfeld20)) and Bhatt-Lurie ([BhattLurie22](#BhattLurie22)). This involves the study of a stack known as the _Cartier-Witt stack_.
 
 ## Applications
 
@@ -112,9 +122,9 @@ For some introductory comments see
 
 Recent developments include
 
-* [[Vladimir Drinfeld]], _Prismatization_ (2020) arXiv:[2005.04746] (https://arxiv.org/abs/2005.04746)
+* {#Drinfeld20}[[Vladimir Drinfeld]], _Prismatization_ (2020) arXiv:[2005.04746] (https://arxiv.org/abs/2005.04746)
 
-* [[Bhargav Bhatt]], [[Jacob Lurie]], _Absolute Prismatic Cohomology_, preprint (2022) arXiv:[2022.06120](https://arxiv.org/abs/2201.06120)
+* {#BhattLurie22}[[Bhargav Bhatt]], [[Jacob Lurie]], _Absolute Prismatic Cohomology_, preprint (2022) arXiv:[2022.06120](https://arxiv.org/abs/2201.06120)
 
 * [[Bhargav Bhatt]], [[Jacob Lurie]], _The Prismatization of $p$-adic Formal Schemes_, preprint (2022) arXiv:[2022.06124](https://arxiv.org/abs/2201.06124)
 
