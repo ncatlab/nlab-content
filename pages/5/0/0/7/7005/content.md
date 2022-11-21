@@ -113,8 +113,6 @@ There are also stricter versions of univalence, where we replace the [[equivalen
 
 Each of these imply the usual versions of univalence either through the structural rules for [[judgmental equality]] and [[propositional equality]], or through [[identification elimination]], [[transport]], and [[action on identifications]] for [[typal equality]]. 
 
-Judgmental univalence holds in some models of [[cubical type theory]] and [[higher observational type theory]]. 
-
 ### Shulman univalence
 
 We shall call these forms of univalence **Shulman univalence** because it first appeared in [[Mike Shulman]]'s model of [[higher observational type theory]]. 
