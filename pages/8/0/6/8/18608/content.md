@@ -13,7 +13,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -90,11 +89,13 @@ Explicit mentioning of the CMI's "mass gap" Millennium Problem in [[nuclear phys
 * [[Yakov Shnir]], Section 9.1. of: *Magnetic Monopoles*, Springer 2005 ([ISBN:978-3-540-29082-7](https://www.springer.com/gp/book/9783540252771))
 
 
-* [Roberts &Schmidt 20, p. 2](#RobertsSchmidt20)
+* [Roberts &Schmidt (2020), p. 2](#RobertsSchmidt20)
 
-* [Roberts 21, footn. 2](#Roberts21)
+* [Roberts (2021), footn. 2](#Roberts21)
 
-* [Barnaföldi & Gogokhia 19](#BarnafoldiGogokhia19)
+* [Barnaföldi & Gogokhia (2019)](#BarnafoldiGogokhia19)
+
+* [Roberts (2022), p. 2](#Roberts22)
 
 
 
