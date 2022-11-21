@@ -102,6 +102,9 @@ $$
 
 * [[BN-pair]]
 
+* [[subring]], [[submodule]]
+
+
 ## References
 
 Discussion in [[univalent foundations of mathematics]] ([[homotopy type theory]], but mostly for 1-groups):
