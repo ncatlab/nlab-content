@@ -4,9 +4,11 @@
 
 ## Selected writings
 
-On [[perturbative quantum gravity]]:
+On [[perturbative quantum gravity]] as an [[effective quantum field theory]]:
 
 * {#DonoghueIntroduction} [[John Donoghue]], _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024), [spire](http://inspirehep.net/record/403510))
+
+* [[John F. Donoghue]], *Quantum General Relativity and Effective Field Theory*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.09902](https://arxiv.org/abs/2211.09902)&rbrack;
 
 On [[asymptotic safety]] (or not):
 
@@ -28,3 +30,5 @@ On subtleties of [[renormalization]] of the [[cosmological constant]]:
 * [[effective field theory]], [[quantum gravity]]
 
 category: people
+
+[[!redirects John F. Donoghue]]
