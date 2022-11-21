@@ -291,9 +291,12 @@ is absent.
 
 \linebreak
 
-* Minghui Ding, Craig D. Roberts, Sebastian M. Schmidt, *Emergence of Hadron Mass and Structure* $[$[arXiv:2211.07763](https://arxiv.org/abs/2211.07763)$]$
+* Minghui Ding, [[Craig D. Roberts]], Sebastian M. Schmidt, *Emergence of Hadron Mass and Structure* $[$[arXiv:2211.07763](https://arxiv.org/abs/2211.07763)$]$
 
-  > (see the article for a wealth of relevant commentary)
+* {#Roberts22} [[Craig D. Roberts]], *Origin of the Proton Mass* $[$[arXiv:2211.09905](https://arxiv.org/abs/2211.09905)$]$
+
+
+  > (see the articles for a wealth of relevant commentary)
 
 
 
