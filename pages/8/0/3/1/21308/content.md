@@ -82,6 +82,9 @@ According to [[Peter Scholze]] in [this comment on the nCafé](https://golem.ph.
 
 * [[condensed module spectrum]]
 
+## Applications
+
+The theory of solid modules was used to formulate the correct theory of $\ell$-adic sheaves for the geometrization of the [[local Langlands correspondence]] by Fargues and Scholze ([FarguesScholze21](#FarguesScholze21)). It has also been used by Mann to formalize the [[six operations]] for [[rigid analytic geometry]] ([Mann22](#Mann22)).
 
 ## Related entries
 
@@ -108,3 +111,9 @@ According to [[Peter Scholze]] in [this comment on the nCafé](https://golem.ph.
 * [[Peter Scholze]], *[Liquid tensor experiment](https://xenaproject.wordpress.com/2020/12/05/liquid-tensor-experiment/)*, December 2020
 
 * [[Peter Scholze]], *[Half a year of Liquid Tensor Experiment: Amazing developments](https://xenaproject.wordpress.com/2021/06/05/half-a-year-of-the-liquid-tensor-experiment-amazing-developments/)*, June 2021
+
+Applications of condensed mathematics include the following:
+
+* {#FarguesScholze21} [[Laurent Fargues]], [[Peter Scholze]], _Geometrization of the local Langlands correspondence_ ([arXiv:2102.13459](https://arxiv.org/abs/2102.13459))
+
+* {#Mann22} Lucas Mann, _A p-Adic 6-Functor Formalism in Rigid-Analytic Geometry_ ([arXiv:2206.02022](https://arxiv.org/abs/2206.02022))
