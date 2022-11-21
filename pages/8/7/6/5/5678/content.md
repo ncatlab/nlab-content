@@ -68,7 +68,8 @@ Original sources include
 
 * [[Igor Frenkel]], [[Mikhail Khovanov]], [[Catharina Stroppel]], _A categorification of finite-dimensional irreducible representations of quantum $\mathfrak{sl}_2$ and their tensor products_, Selecta Math. (N.S.) __12__ (2006), no. 3-4, 379&#8211;431, [MR2008a:17014](http://www.ams.org/mathscinet-getitem?mr=2305608), [doi](http://dx.doi.org/10.1007/s00029-007-0031-y)
 
-* M Khovanov, _A categorification of the Jones polynomial_, Duke Math. J. __101__ (2000) 359&#8211;426 MR1740682 (2002j:57025)
+* [[Mikhail Khovanov]], *A categorification of the Jones polynomial*, Duke Math. J. __101__ (2000) 359-426 &lbrack;[arXiv:math/9908171](https://arxiv.org/abs/math/9908171), [doi:10.1215/S0012-7094-00-10131-7](https://projecteuclid.org/journals/duke-mathematical-journal/volume-101/issue-3/A-categorification-of-the-Jones-polynomial/10.1215/S0012-7094-00-10131-7.full), MR1740682 (2002j:57025)&rbrack;
+
 * M Khovanov, _A functor-valued invariant of tangles_, Algebr. Geom. Topol. __2__ (2002) 665&#8211;741 MR1928174 (2004d:57016)
 
 * M Khovanov, _Patterns in knot cohomology. I_, Experiment. Math. __12__ (2003) 365&#8211;374 
@@ -79,11 +80,15 @@ Original sources include
 
 
 
-An expository reviews are
+Review:
 
 * [[Dror Bar-Natan]], _On Khovanov's categorification of the Jones polynomial_, Alg. Geom. Topology __2__ (2002) 337-370, [arXiv:math.GT/0201043](http://arxiv.org/abs/math/0201043)
 {#Bar-Natan}
+
 * Paul Turner, _Five Lectures on Khovanov Homology_, [math.GT/0606464](http://arxiv.org/abs/math/0606464)
+
+* [[Mikhail Khovanov]], Robert Lipshitz, _Categorical lifting of the Jones polynomial: a survey_, Bulletin (New Series) of the American Mathematical Society (2022) &lbrack;[doi:10.1090/bull/1772](https://doi.org/10.1090/bull/1772)&rbrack;
+
 
 A proposal for a 4-dimensional [[quantum field theory]] whose [[observable]]s are given by Khovanov homology is discussed in
 
