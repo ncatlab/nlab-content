@@ -276,6 +276,7 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
 * [[archimedean integral domain]]
 
+
 ## Related concepts
 
 * [[monoid]], [[monoid object]]
@@ -287,6 +288,8 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 * [[quadratic abelian group]]
 
 * **ring**, [[E-∞ ring]]
+
+  * [[subring]]
 
   * [[ring groupoid]], [[symmetric ring groupoid]]
 
