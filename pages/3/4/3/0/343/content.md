@@ -98,3 +98,10 @@ Discussion with an eye towards [[finite quantum mechanics in terms of dagger-com
 
 [[!redirects Cartesian monoidal category]]
 [[!redirects Cartesian monoidal categories]]
+
+[[!redirects cartesian monoidal structure]]
+[[!redirects cartesian monoidal structures]]
+
+[[!redirects Cartesian monoidal structure]]
+[[!redirects Cartesian monoidal structures]]
+
