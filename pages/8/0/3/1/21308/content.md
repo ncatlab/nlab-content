@@ -14,53 +14,74 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 
-##Idea 
+## Idea 
+ {#Idea}
 
-**Condensed mathematics** aims to provide a more convenient framework in which to treat algebraic objects equipped with a topology, such as [[topological abelian groups]] and [[topological vector spaces]]. Related aims are to turn [[functional analysis]] into a branch of [[commutative algebra]], and various types of [[analytic geometry]] into [[algebraic geometry]].
+**Condensed mathematics** aims to provide a more convenient framework in which to treat [[algebra|algebraic]] objects which are equipped with a [[topological space|topology]], such as [[topological abelian groups]] or [[topological vector spaces]]. Related aims are to turn [[functional analysis]] into a branch of [[commutative algebra]], and various types of [[analytic geometry]] into [[algebraic geometry]].
 
-For instance, the category of topological abelian groups do not form an [[abelian category]], which presents a problem if we want to consider for example [[exact sequences]] of topological abelian groups. The category of [[condensed abelian groups]] provides us with a solution to this problem, because it is an abelian category, and the category of topological abelian groups embeds into it fully faithfully (with appropriate conditions, see [ScholzeLCM](#ScholzeLCM), Proposition 1.7).
+For instance, the [[category]] of [[topological abelian groups]] is not [[abelian category|abelian]], which means for instance that it lacks a good theory of [[exact sequences]]. 
+But the category of [[condensed abelian groups]] is [[abelian category|abelian]] and it contains topological abelian groups as a [[full subcategory]] (under appropriate conditions, see [ScholzeLCM](#ScholzeLCM), Proposition 1.7).
 
-According to Peter Scholze in [this comment on the nCafé](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057780), current expositions of condensed mathematics rely heavily on the [[axiom of choice]] and choice-like axioms such as the [[presentation axiom]], so it is unknown how much they still hold in the context of mathematics without choice. 
+According to [[Peter Scholze]] in [this comment on the nCafé](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057780), current expositions of condensed mathematics rely heavily on the [[axiom of choice]] and choice-like axioms such as the [[presentation axiom]], so it is unknown how much they still hold in the context of more [[constructive mathematics]] without choice. 
 
 ## Concepts
 
 ### Condensed objects
 
 * [[condensed set]]
+
 * [[condensed abelian group]]
+
 * [[condensed ring]]
+
 * [[condensed module]]
+
 
 #### Solid objects
 
 * [[solid abelian group]]
+
 * [[solid module]]
+
 * [[solidification functor]]
+
 * [[solid spectrum]]
+
 
 #### Liquid objects
 
 * [[liquid vector space]]
+
 * [[liquid module]]
+
 
 #### Other
 
 * [[trace-class map]]
+
 * [[nuclear module]]
+
 * [[analytic ring]]
+
 
 ### Higher condensed objects
 
 * [[condensed infinity-groupoid]]
+
 * [[condensed object in an (infinity,1)-category]]
+
 * [[condensed spectrum]]
+
 * [[condensed E-infinity ring]]
+
 * [[condensed module spectrum]]
+
 
 ## Related entries
 
