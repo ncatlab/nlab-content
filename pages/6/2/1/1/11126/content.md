@@ -98,6 +98,8 @@ $Mod(X_1)$ and $Mod(X_2)$.
 
 * [direct product group representations](direct+product+group#Representations)
 
+* [[VectBund]]
+
 ## References
 
 Textbook accounts:
