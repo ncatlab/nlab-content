@@ -200,6 +200,8 @@ On the other hand, there is no particular harm either in having such structure a
 
 * A subobject in [[Grp]] is a [[subgroup]].
 
+* A subobject in [[Ring]] is a [[subring]].
+
 * A subobject in $R$[[Mod]] is a [[submodule]]. 
 
 * A subobject of a [[representation]] is a [[subrepresentation]].
