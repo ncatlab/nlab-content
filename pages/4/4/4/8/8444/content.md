@@ -108,6 +108,10 @@ Assuming the [[axiom of choice]], the following are equivalent
 
 A proof is in ([Rotman, pages 650-651](#Rotman)).
 
+## Related concepts
+
+* [[subgroup]], [[subring]]
+
 ## References
 
 For instance
