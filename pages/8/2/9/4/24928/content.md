@@ -1,20 +1,50 @@
+
+
 # Contents
 * table of contents
 {: toc}
 
 ## Definition
 
-\begin{definition}([Mann22](#Mann22), Definition 1.6.3)
+\begin{definition}
+([Mann (2022)](#Mann22), Definition 1.6.3)
+\linebreak
+Let $A$ be a [[ring]] and let $\mathcal{D}(A)$ be the derived [[(infinity,1)-category|$\infty$-category]] of [[condensed module|condensed $A$-modules]]. For any [[profinite set]] $S=\underset{\underset{i}{\leftarrow}}\lim S_{i}$ let
+$$
+  A_{\square}[S]
+  \;\coloneqq\;
+  \underset
+    {\underset{ A'\subseteq A }{\rightarrow}}
+    {\lim}
+  \;
+  \underset
+    {\underset{i}{\leftarrow}}
+    {\lim}
+  \;
+  A'\big[S_{i}\big]
+  \,,
+$$
+where $A'$ ranges over all [[subrings]] of $A$ which are of [[finite type]] over [[integers|$\mathbb{Z}$]]. 
 
-Let $A$ be a ring and let $\mathcal{D}(A)$ be the derived $\infty$-category of condensed $A$-modules. For any profinite set $S=\underset{\leftarrow}\lim_{i}S_{i}$ let
+An [[object]] $M\in\mathcal{D}(A)$ is _solid_ if for any [[profinite set]] $S$ the canonical [[map]]
+$$
+  \underline{Hom}
+  \big(
+    A_{\square}[S]
+    ,\,
+    M
+  \big)
+  \longrightarrow
+  \underline{Hom}
+  \big(
+    A[S]
+    ,\,
+    M
+  \big)
+$$
+is an [[isomorphism]] in $\mathcal{D}(A)$. 
 
-$$A_{\square}[S]=\underset{\rightarrow}\lim_{A'\subseteq A}\underset{\leftarrow}\lim_{i}A'[S_{i}]$$
-
-where $A'$ ranges over all subrings of $A$ which are of finite type over $\mathbb{Z}$. An object $M\in\mathcal{D}(A)$ is _solid_ if for any profinite set $S$ the map
-
-$$\underline{Hom}(A_{\square}[S],M)\to\underline{Hom}(A[S],M)$$
-
-is an isomorphism in $\mathcal{D}(A)$. The full subcategory of solid modules in $\mathcal{D}(A)$ is denoted $\mathcal{D}_{\square}(A)$.
+The [[full subcategory]] of solid modules in $\mathcal{D}(A)$ is denoted $\mathcal{D}_{\square}(A)$.
 
 \end{definition}
 
