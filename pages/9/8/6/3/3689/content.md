@@ -401,7 +401,7 @@ For discussion of [[tiny objects]] in $Mod$, see at _[Tiny object -- In categori
 
 * [[Ring]], [[CRing]]
 
-* [[Vect]]
+* [[Vect]], [[VectBund(B)]], [[VectBund]]
 
 * [[(∞,1)Mod]]
 
