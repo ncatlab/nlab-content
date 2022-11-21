@@ -51,6 +51,8 @@ The [[full subcategory]] of solid modules in $\mathcal{D}(A)$ is denoted $\mathc
 
 * [[condensed mathematics]]
 
+* [[analytic ring]]
+
 ## References
 
 * {#Mann22} [[Lucas Mann]], *A p-Adic 6-Functor Formalism in Rigid-Analytic Geometry* &lbrack;[arXiv:2206.02022](https://arxiv.org/abs/2206.02022)&rbrack;
