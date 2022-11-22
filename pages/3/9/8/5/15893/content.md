@@ -129,6 +129,8 @@ If the dimension of $V$ is equal to the dimension of $V_{dR}$, we say that $V$ i
 
 ## Related concepts
 
+* [[Galois representation]]
+
 * [[Fargues-Fontaine curve]]
 
 * [[prismatic cohomology]]
