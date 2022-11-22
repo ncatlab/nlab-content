@@ -4,15 +4,15 @@
 
 ## Definition
 
-\begin{definition}([ScholzeLCM](#ScholzeLCM), Definition 7.1)
+\begin{definition}([ScholzeLCM](#ScholzeLCM), Def. 7.1)
 
-A _pre-analytic ring_ is a condensed ring $\underline{A}$ together with a functor $S\mapsto\mathcal{A}[S]$ from extremally disconnected sets to $\underline{\mathcal{A}}$-modules in condensed abelian groups taking finite disjoint unions to products, and a natural transformation $S \to\mathcal{A}[S]$.
+In [[condensed mathematics]], a _pre-analytic ring_ is a [[condensed ring]] $\underline{A}$ together with a [[functor]] $S\mapsto\mathcal{A}[S]$ from [[extremally disconnected topological spaces]] to $\underline{\mathcal{A}}$-[[modules]] in [[condensed abelian groups]] taking finite [[disjoint unions]] to [[products]], and a [[natural transformation]] $S \to\mathcal{A}[S]$.
 \end{definition}
 
-\begin{definition}([ScholzeLCM](#ScholzeLCM), Definition 7.4)
-An _analytic ring_ is a pre-analytic ring $\mathcal{A}$ such that for any complex $C$ of $\underline{\mathcal{A}}$-modules in condensed abelian groups such that all $C_{i}$ are direct sums of objects of the form $\mathcal{A}[T]$ for varying extremally disconnected $T$, the map
+\begin{definition}([ScholzeLCM](#ScholzeLCM), Def. 7.4)
+An _analytic ring_ is a pre-analytic ring $\mathcal{A}$ such that for any [[chain complex]] $C$ of $\underline{\mathcal{A}}$-modules in [[condensed abelian groups]] such that all $C_{i}$ are [[direct sums]] of objects of the form $\mathcal{A}[T]$ for varying [[extremally disconnected topological space|extremally disconnected]] $T$, the map
 $$R\underline{\Hom}_{\underline{\mathcal{A}}}(\mathcal{A}[S],C)\to R\underline{\Hom}_{\underline{\mathcal{A}}}(\mathcal{A}[S],C)$$
-of condensed abelian groups is an isomorphism for all extremally disconnected $S$.
+of [[condensed abelian groups]] is an [[isomorphism]] for all extremally disconnected $S$.
 
 \end{definition}
 
