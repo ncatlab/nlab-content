@@ -51,6 +51,8 @@ $$
   \mathcal{S}
 $$
 
+Moreover, the inclusion functor restricts to an [[equivalence of categories]] when considering objects in $\mathcal{S}$ whose restriction maps are surjective (also called total objects). 
+
 First, recall that every point in a ball $\mathcal{B}$ of an ultrametric space is at its centre while intersecting balls are contained into each other. This means that closed $2^{-n}$-balls partition the space. To see this we define an equivalence relation 
 
 $$x =_n y \Leftrightarrow d(x,y) \le 2^{-n}$$
