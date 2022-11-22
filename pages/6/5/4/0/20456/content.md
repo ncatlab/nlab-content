@@ -34,6 +34,10 @@ A prism is a pair $(A,I)$ where $A$ is a $\delta$-ring and $I$ is an ideal defin
 * $A=\mathbb{Z}_{p}[[u]]$ and $I=(u-p)$
 * $A=A_{\mathrm{inf}}(R)$ and $I=\mathrm{ker}(\theta)$, where $\theta:A_{\mathrm{inf}}(R)\to R$ is the canonical surjection
 
+## Relation to Perfectoid Rings
+
+A prism $(A,I)$ is _perfect_ if $A$ is perfect. The category of perfect prisms is equivalent to the category of _integral perfectoid rings_ which are related to, but not the same as, the perfectoid rings in [[perfectoid spaces]]. The definition of integral perfectoid ring can be found in Definition 3.5 of  [BhattScholze19](#BhattScholze19) and the relation between the two notions of perfectoid can be found in Lemma 3.20 of the same paper.
+
 ## Definition of Prismatic Cohomology
 
 Let $(A,I)$ be a prism as defined above. Let $R$ be a formally smooth $A/I$-algebra. The _prismatic site_ $(R/A)_{\Delta}$ has objects which are prisms $(B,I B)$ over $(A,I)$ together with a map $R\to B/I B$ over $A/I$. Such an object is written $(R\to B/I B\leftarrow B)$.
@@ -86,15 +90,16 @@ Prismatic cohomology was developed by [[Bhargav Bhatt]] and [[Peter Scholze]] fo
 
 ## Related entries
 
+* [[p-adic Hodge theory]]
+* [[perfectoid spaces]]
 * [[arithmetic differential geometry]]
 * [[Borger's absolute geometry]]
-* [[p-adic Hodge theory]]
 
 ## References
 
 Prismatic cohomology was introduced in
 
-* [[Bhargav Bhatt]], [[Peter Scholze]], _Prisms and Prismatic Cohomology_, preprint (2019) arXiv:[1905.08229](https://arxiv.org/abs/1905.08229)
+* {#BhattScholze19}[[Bhargav Bhatt]], [[Peter Scholze]], _Prisms and Prismatic Cohomology_, preprint (2019) arXiv:[1905.08229](https://arxiv.org/abs/1905.08229)
 
 A survey of recent developments is given in
 
