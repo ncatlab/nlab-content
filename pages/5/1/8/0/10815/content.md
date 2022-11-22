@@ -47,7 +47,7 @@ $$
 
 be a [[Serre fibration]] over a [[simply connected topological space|simply connected]] [[CW-complex]] with typical [[fiber]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#FibersOfSerreFibrations)) the [[n-sphere]].
 
-Then there exists an element $c \in H^{n+1}(E; R)$ (in the [[ordinary cohomology]] of the total space with [[coefficients]] in $R$, called the _[[Euler class]]_ of $\pi$) such that the [[cup product]] operation $c \cup (-)$ sits in a [[long exact sequence]] of [[cohomology groups]] of the form
+Then there exists an element $c \in H^{n+1}(B; R)$ (in the [[ordinary cohomology]] of the total space with [[coefficients]] in $R$, called the _[[Euler class]]_ of $\pi$) such that the [[cup product]] operation $c \cup (-)$ sits in a [[long exact sequence]] of [[cohomology groups]] of the form
 
 $$
   \cdots 
