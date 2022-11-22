@@ -512,13 +512,17 @@ which in turn relates to a [[Minkowski spacetime]]-version of the holographic re
 
 
 ### In solid state physics
+ {#ReferencesInSolidStatePhysics}
 
 In [[solid state physics]] skyrmions in the magnetization of thin atomic layers are known as _magnetic skyrmions_. 
 
-See:
+See also:
 
 * Wikipedia, _[Magnetic skyrmions](https://en.m.wikipedia.org/wiki/Magnetic_skyrmion)_
 
+Realizations in [[experiment]] and application to [[computing]]:
+
+* [[Andrew Kent]] et al. *Skyrmionics -- Computing and memory technologies based on topological excitations in magnets*, Journal of Applied Physics **130** (2021) 070908 &lbrack;[arXiv:2101.09947](https://arxiv.org/abs/2101.09947), [doi:10.1063/5.0046950](https://doi.org/10.1063/5.0046950)&rbrack;
 
 
 
