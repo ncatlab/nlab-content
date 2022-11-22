@@ -6,7 +6,7 @@
 ## Idea
 
 
-**Synthetic guarded domain theory**(SGDT), is a field of [[synthetic mathematics]] that provides an alternative to [[synthetic domain theory]], where all [[guarded recursion|guarded recursive]] definitions have [[fixed points]]. 
+**Synthetic guarded domain theory**(SGDT), is a field of [[synthetic mathematics]] that provides an alternative to [[synthetic domain theory]], where all [[guarded recursion|guarded recursive]] definitions have (guarded) [[fixed points]]. 
 
 More generally, the aim of [[synthetic domain theory]] is roughly that computability should be built in the logic. As a result, constructions on domains would be set-theoretic with no extra structure and proofs of continuity are for free. 
 However, such a theory would yield an unrestricted fixed-point combinator at all types which would render the theory itself inconsistent when viewed as a logical system. 
@@ -19,7 +19,8 @@ $$\text{fix} : (\triangleright A \to A) \to A$$
 at all types $A$, which is consistent when viewing this theory as a logical framework. In particular, it corresponds to [[Löb's theorem]].
 
 ## A model of SGDT 
-Categorically, SGDT lives in the category of  [[presheaves]] over $\omega$, the first infinite [[ordinal]]. The objects of this category, also known as the [[topos of trees]], here named $\mathcal{S}$, are contravariant set-valued functors $X : \omega^{\text{op}} \to \text{Set}$ which have  the following shape 
+
+The original model of (single-clock) SGDT is the category of  [[presheaves]] over $\omega$, the first infinite [[ordinal]]. The objects of this category, also known as the [[topos of trees]], here named $\mathcal{S}$, are contravariant set-valued functors $X : \omega^{\text{op}} \to \text{Set}$ which have  the following shape 
 
 $$X(1) \xleftarrow{r_1} X(2)\xleftarrow{r_2}  \dots \xleftarrow{r_{n-1}} X(n)\xleftarrow{r_{n}} \dots $$
 
