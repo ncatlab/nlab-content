@@ -61,6 +61,11 @@ When $C = D$, then an [[algebra for an endofunctor]] is simply an $(F, id_C)$-di
 
 =--
 
++-- {: .num_remark}
+###### Remark
+Abstractly, the category of dialgebras is the [[inserter]] of $F$ and $G$ in the [[2-category]] [[Cat]].
+=--
+
 ## Relationship to inductive-inductive types
 
 Initial dialgebras provide [[categorical semantics]] for [[inductive-inductive types]]. 
@@ -76,6 +81,8 @@ Dialgebras can be used to provide semantics to interactive programs; [[coalgebra
 * [[algebra for an endofunctor]], [[coalgebra over an endofunctor]]
 
 * [[algebra for a profunctor]]
+
+* [[inserter]]
 
 
 ## References
