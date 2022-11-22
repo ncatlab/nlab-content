@@ -68,7 +68,7 @@ $$(B,J)\in X_{\Delta}\mapsto \mathcal{E}(B)\in\mathrm{Vect}_{B}$$
 
 where $\mathrm{Vect}_{B}$ is the set of finite projective $B$-modules.
 
-A stacky approach to the study of prismatic crystals has been developed independently by Drinfeld ([Drinfeld20](#Drinfeld20)) and Bhatt-Lurie ([BhattLurie22](#BhattLurie22)). This involves the study of a stack known as the _Cartier-Witt stack_.
+A stacky approach to the study of prismatic crystals has been developed independently by Drinfeld ([Drinfeld20](#Drinfeld20)) and Bhatt-Lurie ([BhattLurie22](#BhattLurie22)). This involves the study of a stack known as the _Cartier-Witt stack_. Namely, every perfect complex of sheaves on the Cartier-Witt stack determines a prismatic crystal. 
 
 ## Applications
 
