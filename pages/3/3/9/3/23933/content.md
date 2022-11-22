@@ -13,6 +13,7 @@ On [[p-adic Teichmüller theory]]:
 
 * [[Kirti Joshi]], *Comments on Arithmetic Teichmüller Spaces* ([arXiv:2111.06771](https://arxiv.org/abs/2111.06771))
 
+* [[Kirti Joshi]], *Untilts of fundamental groups: construction of labeled isomorphs of fundamental groups -- Arithmetic Holomorphic Structures* ([arXiv:2210.11635](https://arxiv.org/abs/2210.11635))
 
 category: people
 
