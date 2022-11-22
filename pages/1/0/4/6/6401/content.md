@@ -44,9 +44,17 @@ The concept of superspace in physics (together with that of [[superfields]]) is 
 
 (which considered superspace of dimension $d = 4$ with number of supersymmetries $N = 2$, hence the [[supermanifold]] $\mathbb{R}^{4\vert \mathbf{4}+ \mathbf{4}}$, or rather the [[super Minkowski spacetime]] $\mathbb{R}^{3,1\vert \mathbf{4}+ \mathbf{4}}$)
 
-A textbook account is
+Textbook accounts:
 
 * {#GatesGrisaruRocekSiegel83} [[Jim Gates]] Jr, [[Marcus Grisaru]], [[Martin Roček]], [[Warren Siegel]], _Superspace, or One thousand and one lessons in supersymmetry_, Front.Phys. 58 (1983) 1-548  (1983) ([arXiv:hep-th/0108200](https://arxiv.org/abs/hep-th/0108200), [spire:195126](inspirehep.net/record/195126))
+
+specifically for [[D=4 supergravity]]:
+
+
+* S. M. Kuzenko, E. S. N. Raptakis, G. Tartaglino-Mazzucchelli, *Superspace approaches to $\mathcal{N} = 1$ supergravity*, *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.17088](https://arxiv.org/abs/2210.17088)&rbrack;
+
+
+* S. M. Kuzenko, E. S. N. Raptakis, G. Tartaglino-Mazzucchelli, *Covariant superspace approaches to $\mathcal{N}=2$ supergravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.11162](https://arxiv.org/abs/2211.11162)&rbrack;
 
 Further review:
 
