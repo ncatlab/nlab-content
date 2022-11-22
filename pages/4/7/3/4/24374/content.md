@@ -48,19 +48,21 @@ The category of [[complete space|complete]] bisected [[metric space|ultrametric 
 $$
   \text{BiCUlt}
     \underoverset
-      {\underset{\iota}{\hookrightarrow}}{\leftarrow}{}
+      {\underset{}{\leftarrow}}{\overset{\iota}{\hookrightarrow}}{\bot }
   \mathcal{S}
 $$
 
 Moreover, the inclusion functor restricts to an [[equivalence of categories]] when considering objects in $\mathcal{S}$ whose restriction maps are surjective (also called total objects). 
 
-First, recall that every point in a ball $\mathcal{B}$ of an ultrametric space is at its centre while intersecting balls are contained into each other. This means that closed $2^{-n}$-balls partition the space. To see this we define an equivalence relation 
+First, recall that every point in a ball $\mathcal{B}$ of an ultrametric space is at its centre while intersecting balls are contained into each other which  means that closed $2^{-n}$-balls partition a space. 
+Thus, we can partition a metric space $(X, d)$ by defining a family of equivalence relation 
 
 $$x =_n y \Leftrightarrow d(x,y) \le 2^{-n}$$
 
-for all $n \in \mathbb{N}$. Intuitively, $x$ and $y$ are equal at $n$ if they belong to the same $2^{-n}$-ball. 
+for all $n \in \mathbb{N}$. This family is also known as Complete Ordered Family of Equivalences  (c.o.f.e) [(Di Gianantonio and Miculan, 2003)](#GianantonioM03). 
+Intuitively, $x$ and $y$ are equal at $n$ if they belong to the same $2^{-n}$-ball. 
 
-The inclusion functor $\iota : \text{BiCUlt} \hookrightarrow \mathcal{S} $ takes a metric space $(X,d)$ in CBUlt into the presheaf of its space decompositions
+The inclusion functor $\iota: \text{BiCUlt} \hookrightarrow \mathcal{S} $ takes a metric space $(X,d)$ in CBUlt into the presheaf of its space decompositions
 
 $$(X/=_1) \leftarrow (X/=_2) \leftarrow  \dots \leftarrow (X/=_n) \leftarrow \dots $$
 
@@ -69,7 +71,7 @@ where each restriction map $(X/=_{(n+1)}) \to (X/=_{n})$ takes a $2^{-(n+1)}$-ba
 The inclusion functor has a right adjoint $\mathcal{S} \to \text{BiCUlt}$ which maps a presheaf $X$ to the homset $\mathcal{S}(1, X)$ (the global elements of $X$). This is also the limit of $X$ when seen as a diagram in **Set**. 
 The metric on $\mathcal{S}(1, X)$ is defined as 
 
-$$d(x,y) =  \bigsqcap \{ 2^{-n} \mid \forall i \text{<} n . x_j  = y_j  \}$$
+$$d(x,y) =  \bigsqcap \{ 2^{-n} \mid \forall i \lt n . x_j(\star)  = y_j(\star)  \}$$
 
 for natural transformations $x, y : 1 \to X$. Intuitively, this metric is the greatest lower bound on which the elements of $X$ agree.
 
@@ -120,6 +122,7 @@ Mathematics in synthetic guarded domain theory can be formalized in the [[intern
 
 * {#Bizjak16} Aleš Bizjak, _On Semantics and Applications of Guarded Recursion_. PhD thesis, Aarhus University ([pdf](https://abizjak.github.io/documents/thesis/semantics-applications-gr.pdf))
 
+* {#GianantonioM03} Pietro Di Gianantonio, Marino Miculan, _A Unifying Approach to Recursive and Co-recursive Definitions. In Geuvers, Wiedijk, editors, Proceedings of TYPES’02. LNCS 2646, 2003.
 
 * {#guardedcubical} [Guarded Cubical Agda ](https://agda.readthedocs.io/en/latest/language/guarded-cubical.html)
 
