@@ -26,6 +26,10 @@ On [[category theory]]:
  
 **Preprints**
 
+On [[Galois theory]]:
+
+* A simple proof of the fundamental theorem of Galois theory, 2022, [arxiv](https://arxiv.org/abs/2211.07508)
+
 On [[limit sketches]]:
 
 * Large limit sketches and topological space objects, 2021, [arXiv](https://arxiv.org/abs/2106.11115)
