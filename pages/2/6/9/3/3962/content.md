@@ -1,6 +1,7 @@
-+-- {: .standout} 
-This article concerns the notion of "local field" as it is commonly used in [[algebraic number theory]]. For another notion of "local field" in [[commutative algebra]], see [[local field (commutative algebra)]]. 
-=-- 
+
+> This article concerns the notion of "local field" as it is commonly used in [[algebraic number theory]]. For another notion of "local field" in [[commutative algebra]], see [[local field (commutative algebra)]]. 
+
+--- 
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
