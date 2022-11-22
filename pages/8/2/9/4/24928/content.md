@@ -49,17 +49,41 @@ The [[full subcategory]] of solid modules in $\mathcal{D}(A)$ is denoted $\mathc
 
 ## Globalization
 
-Using the notion of [[adic spaces]], we can glue together solid modules and consider the derived category $\mathcal{D}((\mathcal{O}_{X},\mathcal{O}_{X}^{+})_{\square})$, for $X$ an adic space ([ScholzeLCM](#ScholzeLCM), Lectures IX and X).
+Using the notion of [[adic spaces]], we can glue together solid modules and consider the derived category $\mathcal{D}((\mathcal{O}_{X},\mathcal{O}_{X}^{+})_{\square})$, for $X$ an adic space. By passing to the homotopy category we get the triangulated category $D((\mathcal{O}_{X},\mathcal{O}_{X}^{+})_{\square})$ ([ScholzeLCM](#ScholzeLCM), Lectures IX and X).
 
 ## Coherent duality
 
 There exists a notion of coherent duality (analogous to [[Grothendieck duality]]) for solid modules ([ScholzeLCM](#ScholzeLCM), Theorem 11.1).
+
+For brevity, given a scheme $X$ with associated adic space $X$, let us define $D(\mathcal{O}_{X,\square}):=D((\mathcal{O}_{X^{\mathrm{ad}}},\mathcal{O}_{X^{\mathrm{ad}}}^{+})_{\square})$.
+
+\begin{theorem}
+Let $F:X\to \mathrm{Spec}(R)$ be a separated and smooth map of finite type, of dimension $d$. Let $\omega_{X/R}=\bigwedge^{d}\Omega_{X/R}^{1}$. There is a canonical functor
+
+$$f_{!}:D(\mathcal{O}_{X,\square})\to D(R_{\square})$$
+
+that agrees with $R\Gamma(X,-)$ in the case that $f$ is proper. It preserves compact objects. There is a natural trace map
+
+$$f_{!}\omega_{X/R}[d]\to R$$
+
+such that for all $C\in D(\mathcal{O}_{X,\square})$, the natural map
+
+$$R\Hom_{\mathcal{O}_{X}}(C,\omega_{X/R})[d]\to R\Hom_{R}(f_{!}C,R)$$ 
+
+is an isomorphism.
+\end{theorem}
+
+## Six-functor formalism
+
+The category $D(\mathcal{O}_{X,\square})$ admits the [[six operations]] ([ScholzeLCM](#ScholzeLCM), Lecture XI).
 
 ## Related concepts
 
 * [[condensed mathematics]]
 
 * [[analytic ring]]
+
+* [[six operations]]
 
 ## References
 
