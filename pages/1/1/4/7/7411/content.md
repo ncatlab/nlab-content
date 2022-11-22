@@ -37,9 +37,18 @@ The notion of monoidal monad is equivalent to the notion of _[[commutative monad
 
 =--
 
-## Tensorial strengths and commutative monads 
+## Properties
 
-As a preliminary, let $V$ be a [[monoidal category]]. We say a functor $T \colon V \to V$ is **strong** if there are given left and right [[tensorial strength|tensorial strengths]] 
+### Relation to commutative strong monads
+ {#RelationToCommutativeStrongMonads}
+
+We discuss how monoidal monads [[functor|functorially]] give rise to [[strong monads]].
+
+#### Strength
+
+First to recall the notion of a [[strong monad]]:
+
+Let $V$ be a [[monoidal category]]. We say a [[functor]] $T \colon V \to V$ is **strong** if there are given left and right [[tensorial strength|tensorial strengths]] 
 $$\tau_{A, B} \colon A \otimes T(B) \to T(A \otimes B)$$
 
 $$\,$$ 
@@ -68,26 +77,32 @@ where the $c$'s are instances of the symmetry isomorphism.
 
 There is a category of strong functors $V \to V$, where the morphisms are transformations $\lambda \colon S \to T$ which are compatible with the strengths in the obvious sense. Under composition, this is a strict monoidal category. 
 
-+-- {: .num_defn #StrongMonad}
-###### Definition 
+
+\begin{definition}
+\label{StrongMonad}
 
 Monoids in this monoidal category are called **[[strong monads]]**. 
 
-=--
+\end{definition}
 
-+-- {: .num_defn #CommutativeMonad}
-###### Definition 
 
-A [[strong monad]] $(T \colon V \to V, m \colon T T \to T, u: 1 \to T)$ (def. \ref{StrongMonad}) is a **[[commutative monad]]** if there is an equality of [[natural transformations]] $\alpha = \beta$ where 
+\begin{definition}
+\label{CommutativeMonad}
+
+A [[strong monad]] $(T \colon V \to V, m \colon T T \to T, u: 1 \to T)$ (def. \ref{StrongMonad}) is a **[[commutative monad]]** if there is an [[equality]] of [[natural transformations]] $\alpha = \beta$ where 
 
 * $\alpha$ is the composite 
-$$T A \otimes T B \stackrel{\sigma_{A, T B}}{\to} T(A \otimes T B) \stackrel{T(\tau_{A, B})}{\to} T T(A \otimes B) \stackrel{m(A \otimes B)}{\to} T(A \otimes B).$$ 
+
+  $$T A \otimes T B \stackrel{\sigma_{A, T B}}{\to} T(A \otimes T B) \stackrel{T(\tau_{A, B})}{\to} T T(A \otimes B) \stackrel{m(A \otimes B)}{\to} T(A \otimes B).$$ 
 
 * $\beta$ is the composite 
-$$T A \otimes T B \stackrel{\tau_{T A, B}}{\to} T(T A \otimes B) \stackrel{T(\sigma_{A, B})}{\to} T T(A \otimes B) \stackrel{m(A \otimes B)}{\to} T(A \otimes B).$$ 
-=-- 
 
-## From monoidal monads to commutative monads 
+  $$T A \otimes T B \stackrel{\tau_{T A, B}}{\to} T(T A \otimes B) \stackrel{T(\sigma_{A, B})}{\to} T T(A \otimes B) \stackrel{m(A \otimes B)}{\to} T(A \otimes B).$$ 
+
+\end{definition}
+
+
+#### From monoidal to commutative strong monads 
 
 Let $(T \colon V \to V, u \colon 1 \to T, m \colon T T \to T)$ be a monoidal monad, with structural constraints on the underlying functor denoted by 
 
@@ -103,7 +118,7 @@ $$\sigma_{A, B} = (T(A) \otimes B \stackrel{1 \otimes u B}{\to} T(A) \otimes T(B
 
 +-- {: .num_prop}
 ###### Proposition 
-$(m \colon T T \to T, u \colon 1 \to T)$ is a commutative monad. 
+$(m \colon T T \to T, u \colon 1 \to T)$ is a [[commutative monad]] (Def. \ref{CommutativeMonad}). 
 =-- 
 
 +-- {: .proof} 
@@ -133,26 +148,41 @@ T X \otimes T Y & \stackrel{u \otimes T u}{\to} & T T X \otimes T T Y & \stackre
 which completes the proof. 
 =-- 
 
-## Functoriality of the correspondence
 
-The correspondence between monoidal monads and [[commutative monads]] is [[functorial]]. More precisely, 
+This construction is [[functorial]]:
 
-+-- {: .num_thm #cf}
-###### Proposition 
+\begin{proposition}
+\label{cf}
 
-Given monoidal monads $S$ and $T$ on a [[monoidal category]] $C$, a [[monad#the_bicategory_of_monads|morphism of monads]] $\alpha:S\Rightarrow T$ is a [[morphism]] of [[strong monads]] if and only if it is a [[monoidal natural transformation]].
+Given monoidal monads $S$ and $T$ on a [[monoidal category]] $C$, a [[monad#the_bicategory_of_monads|morphism of monads]] $\alpha \colon S\Rightarrow T$ is a [[morphism]] of [[strong monads]] if and only if it is a [[monoidal natural transformation]].
 
-=--
+\end{proposition}
 
-For a reference, see [FPR '19, Proposition C.5](#support).
+(e.g. [FPR (2019), Prop. C.5](#support))
+
+This relation has a converse:
+
+\begin{proposition}
+\label{BijectSymmMonoidalMonadsWithCommStrongMonads}
+([Kock (1972)](#Kock72), Thm. 2.3)
+\linebreak
+For a [[monad]] $T$ on (the [[underlying]] [[category]] of) a [[symmetric monoidal category|symmetric]] [[closed monoidal category]], there is a [[bijection]] between the [[structure]] on $T$ of:
+
+1. a [[commutative monad|commutative]] [[strong monad]]
+
+1. a [[symmetric monoidal functor|symmetric]] [[monoidal monad]].
+
+\end{proposition}
 
 
-## Tensor product of algebras and multimorphisms
+
+
+### Tensor product of algebras and multimorphisms
 
 See [[commutative monad#tensor_product_of_algebras_and_multimorphisms|here]].
 
 
-## Monoidal structure on the Kleisli category
+### Monoidal structure on the Kleisli category
 
 The [[Kleisli category]] of a monoidal monad $T$ on $C$ inherits the [[monoidal structure]] from $C$.
 In particular, the [[tensor product]] is given
@@ -179,13 +209,16 @@ See [[commutative monad#examples|examples of commutative monads]].
 
 
 ## References
+ {#References}
 
 
-* [[Anders Kock]], _Monads on symmetric monoidal closed categories_, Arch. Math. 21 (1970), 1--10. 
+* {#Kock70} [[Anders Kock]], *Monads on symmetric monoidal closed categories*, Arch. Math. **21** (1970) 1-10 &lbrack;[doi:10.1007/BF01220868](https://doi.org/10.1007/BF01220868)&rbrack;
 
-* [[Anders Kock]], _Strong functors and monoidal monads_, Arhus Universitet, Various Publications Series No. 11 (1970).  [PDF](http://home.imf.au.dk/kock/SFMM.pdf).
+* {#Kock71} [[Anders Kock]], *Closed categories generated by commutative monads*, Journal of the Australian Mathematical Society **12** 4 (1971) 405-424  &lbrack;[doi:10.1017/S1446788700010272](https://doi.org/10.1017/S1446788700010272), [[KockMonoidalMonads.pdf:file]]&rbrack;
 
-* [[Anders Kock]], _Closed categories generated by commutative monads_ ([[KockMonoidalMonads.pdf:file]])
+* {#Kock72} [[Anders Kock]], *Strong functors and monoidal monads*, Arch. Math **23** (1972) 113–120 &lbrack;[doi:10.1007/BF01304852](https://doi.org/10.1007/BF01304852), [pdf](http://home.imf.au.dk/kock/SFMM.pdf)&rbrack;
+ 
+
 
 * H. Lindner, _Commutative monads_ in [_Deuxi&#233;me colloque sur l'alg&#233;bre des cat&#233;gories_](http://www.numdam.org/article/CTGDC_1975__16_3_217_0.pdf). Amiens-1975. R&#233;sum&#233;s des conf&#233;rences, pages 283-288. Cahiers de topologie et g&#233;om&#233;trie diff&#233;rentielle cat&#233;goriques, tome 16, nr. 3, 1975.
 
