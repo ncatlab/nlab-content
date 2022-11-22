@@ -8,6 +8,8 @@
 =--
 =--
 
+\tableofcontents
+
 ## Idea ##
 
 A version of [[Teichmüller theory]] for [[p-adic numbers]] rather than the [[complex numbers]]. 
@@ -23,6 +25,8 @@ A version of [[Teichmüller theory]] for [[p-adic numbers]] rather than the [[co
 * [[Kirti Joshi]], *Construction of Arithmetic Teichmuller spaces II: Towards Diophantine Estimates* ([arXiv:2111.04890](https://arxiv.org/abs/2111.04890))
 
 * [[Kirti Joshi]], *Comments on Arithmetic Teichmüller Spaces* ([arXiv:2111.06771](https://arxiv.org/abs/2111.06771))
+
+* [[Kirti Joshi]], *Untilts of fundamental groups: construction of labeled isomorphs of fundamental groups -- Arithmetic Holomorphic Structures* ([arXiv:2210.11635](https://arxiv.org/abs/2210.11635))
 
 [[!redirects arithmetic Teichmüller theory]]
 
