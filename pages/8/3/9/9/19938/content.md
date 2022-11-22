@@ -98,6 +98,13 @@ Dialgebras can be used to provide semantics to interactive programs; [[coalgebra
 * {#abthesis} Alwin Blok, _Interaction, observation and denotation.
 A study of dialgebras for program semantics_ Master Thesis, Institute for Logic, Language and Computation, University of Amsterdam. [link](https://eprints.illc.uva.nl/872/1/MoL-2012-06.text.pdf)
 
+* Jim de Groot, Dirk Pattinson, _Modal Intuitionistic Logics as Dialgebraic Logics_, LICS '20: Proceedings of the 35th Annual ACM/IEEE Symposium on Logic in Computer Science July 2020, 355–369 ([doi:10.1145/3373718.3394807](https://doi.org/10.1145/3373718.3394807)).
+
+A dialgebraic account of [[labeled transition systems]] is in
+
+* Fabrizio Montesi, Marco Peressotti, _Linear Logic, the $\pi$-calculus, and their Metatheory: A Recipe for Proofs as Processes_ ([arXiv:2106.11818](https://arxiv.org/abs/2106.11818))
+
+
 [[!redirects dialgebras]]
 [[!redirects subequalizer]]
 [[!redirects subequalizers]]
