@@ -320,9 +320,14 @@ The suggestion that the anyonic [[ground state]]-[[wavefunctions]] are essential
 
 More comprehensive accounts of anyons:
 
-* {#Wilczek90} [[Frank Wilczek]], *Fractional Statistics and Anyon Superconductivity*, World Scientific (1990) $[$[doi:10.1142/0961](https://doi.org/10.1142/0961)$]$
+* {#Wilczek90} [[Frank Wilczek]], *Fractional Statistics and Anyon Superconductivity*, World Scientific (1990) &lbrack;[doi:10.1142/0961](https://doi.org/10.1142/0961)&rbrack;
 
-* {#Kitaev06} [[Alexei Kitaev]], *Anyons in an exactly solved model and beyond*, Annals of Physics **321** 1 (2006) 2-111 $[$[doi:10.1016/j.aop.2005.10.005](https://doi.org/10.1016/j.aop.2005.10.005)$]$
+* {#Kitaev06} [[Alexei Kitaev]], *Anyons in an exactly solved model and beyond*, Annals of Physics **321** 1 (2006) 2-111 &lbrack;[doi:10.1016/j.aop.2005.10.005](https://doi.org/10.1016/j.aop.2005.10.005)&rbrack;
+
+See also:
+
+* [[Martin Greiter]], [[Frank Wilczek]], *Fractional Statistics* &lbrack;[arXiv:2210.02530](https://arxiv.org/abs/2210.02530)&rbrack;
+
 
 
 Rigorous discussion in terms of [[superselection sectors]] in [[algebraic quantum field theory]]:
