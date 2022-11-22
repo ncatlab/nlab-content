@@ -299,13 +299,15 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 * 21 Nov 2022
 
-  Andy Kent (Center for Quantum Phenomena, NYU)
+  [[Andrew Kent]] (Center for Quantum Phenomena, NYU)
 
   **A new spin on magnetism with applications in information processing**
 
-  video: [rec](https://nyu.zoom.us/rec/share/FxOijCFNdu8TgwWZGEPV1NFyHBL0XxSsAfTDznWLB0eWkuOOt9rpwVNTGlJsJw1R.QwStWErG1X4uBLUQ)
+  video: [rec](https://drive.google.com/file/d/1LTz2y6KrJytps94rlS6o0BET6rmzPFU_/view)
 
-  > Recent advances in magnetism research are likely to have an important impact on electronics and information processing. These advances use the electron magnetic moment (spin) to transmit, write and store information. They enable new devices that operate at high speed with very low energy consumption. The information is stored in the orientation of electron magnetic moments in magnetic materials and can persist without power; energy is only needed to write and read the information. Important physics concepts include the interconversion of electrical (charge) currents into spin currents, the efficiency of the interconversion, controlling the currents, spin polarization direction, and the associated spin torques on magnetic order. Magnetic skyrmions are also of interest both because of their stability --- they are topologically protected objects --- and because their nucleation and motion can be controlled using spin currents. In this talk I will highlight the new physics concepts that have enabled these advances and discuss some of their applications in information processing.
+  > Recent advances in magnetism research are likely to have an important impact on electronics and information processing. These advances use the electron magnetic moment (spin) to transmit, write and store information. They enable new devices that operate at high speed with very low energy consumption. The information is stored in the orientation of electron magnetic moments in magnetic materials and can persist without power; energy is only needed to write and read the information. Important physics concepts include the interconversion of electrical (charge) currents into spin currents, the efficiency of the interconversion, controlling the currents, spin polarization direction, and the associated spin torques on magnetic order. [Magnetic skyrmions](skyrmion#ReferencesInSolidStatePhysics) are also of interest both because of their stability --- they are topologically protected objects --- and because their nucleation and motion can be controlled using spin currents. In this talk I will highlight the new physics concepts that have enabled these advances and discuss some of their applications in information processing.
+
+> cf. J. Appl. Phys. **130** (2021) &lbrack;[doi:10.1063/5.0046950](https://doi.org/10.1063/5.0046950)&rbrack;
 
 
 \linebreak
