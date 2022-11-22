@@ -47,6 +47,14 @@ The [[full subcategory]] of solid modules in $\mathcal{D}(A)$ is denoted $\mathc
 
 \end{definition}
 
+## Globalization
+
+Using the notion of [[adic spaces]], we can glue together solid modules and consider the derived category $\mathcal{D}((\mathcal{O}_{X},\mathcal{O}_{X}^{+})_{\square})$, for $X$ an adic space ([ScholzeLCM](#ScholzeLCM), Lectures IX and X).
+
+## Coherent duality
+
+There exists a notion of coherent duality (analogous to [[Grothendieck duality]]) for solid modules ([ScholzeLCM](#ScholzeLCM), Theorem 11.1).
+
 ## Related concepts
 
 * [[condensed mathematics]]
@@ -56,6 +64,8 @@ The [[full subcategory]] of solid modules in $\mathcal{D}(A)$ is denoted $\mathc
 ## References
 
 * {#Mann22} [[Lucas Mann]], *A p-Adic 6-Functor Formalism in Rigid-Analytic Geometry* &lbrack;[arXiv:2206.02022](https://arxiv.org/abs/2206.02022)&rbrack;
+
+* {#ScholzeLCM} [[Peter Scholze]], _Lectures on condensed mathematics_, [pdf](https://www.math.uni-bonn.de/people/scholze/Condensed.pdf)
 
 
 [[!redirects solid modules]]
