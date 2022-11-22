@@ -24,7 +24,6 @@ Structural approaches to class theories include *[[category with class structure
 
 In contrast to [[material set theories]] like [[ZFC]] and [[structural set theories]] like [[ETCS]] or [[SEAR]], the notion of [[set]] is not a primitive in the theory. It is instead a defined notion from the primitive notion of [[class]]. 
 
-While class theories address the [[size issue|issue of size]] in mathematics, they violate the [[principle of equivalence]] for [[higher structures]] like [[groupoids]], because, like sets in set theory, every class in class theory has [[propositional equality]], including [[groupoids]] defined in class theory. 
 
 ## Semantics and models
 
