@@ -6,7 +6,7 @@
 ## Idea
 
 
-**Synthetic guarded domain theory**(SGDT), is a field of [[synthetic mathematics]] that provides an alternative to [[synthetic domain theory]], where all [[guarded recursion|guarded recursive]] definitions have (guarded) [[fixed points]]. 
+**Synthetic guarded domain theory** (SGDT), is a field of [[synthetic mathematics]] that provides an alternative to [[synthetic domain theory]], where all [[guarded recursion|guarded recursive]] definitions have (guarded) [[fixed points]]. 
 
 More generally, the aim of [[synthetic domain theory]] is roughly that computability should be built in the logic. As a result, constructions on domains would be set-theoretic with no extra structure and proofs of continuity are for free. 
 However, such a theory would yield an unrestricted fixed-point combinator at all types which would render the theory itself inconsistent when viewed as a logical system. 
@@ -73,7 +73,7 @@ $$d(x,y) =  \bigsqcap \{ 2^{-n} \mid \forall i \text{<} n . x_j  = y_j  \}$$
 
 for natural transformations $x, y : 1 \to X$. Intuitively, this metric is the greatest lower bound on which the elements of $X$ agree.
 
-A summary of these results can be found in Bizjak's Ph.D. thesis([Section 1.2](#BMSS2012)).
+A summary of these results can be found in Bizjak's Ph.D. thesis ([Bizjak 16, Section 1.2](#Bizjak16)).
 
 ## Axiomatics
 [Palombi and Sterling](#PalombiSterling22) provide the following simple axiomatization of a model of (single-clock) synthetic guarded domain theory:
