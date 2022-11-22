@@ -62,7 +62,7 @@ where $d$ is a generator of $I$.
 
 ## Absolute Prismatic Cohomology
 
-By forgetting the choice of base prism, one obtains the absolute prismatic cohomology. Given a p-adic formal scheme $X$, its absolute prismatic site ${X}_{\Delta}$ is the category of all bounded  prisms $(B,J)$ equipped with a map $\mathrm{Spf}(B/J)\to X$, topologized with the flat topology.
+By forgetting the choice of base prism, one obtains the absolute prismatic cohomology. Given a p-adic formal scheme $X$, its absolute prismatic site ${X}_{\Delta}$ is the category of all bounded  prisms $(B,J)$ equipped with a map $\mathrm{Spf}(B/J)\to X$, topologized with the flat topology. We have sheaves $\mathcal{O}_{\Delta}$, $I_{\Delta}$, and $\overline{\mathcal{O}}_{\Delta}$ obtained by remembering $B$, $J$, and $B/J$ respectively.
 
 ## Prismatic Crystals
 
@@ -72,7 +72,9 @@ $$(B,J)\in X_{\Delta}\mapsto \mathcal{E}(B)\in\mathrm{Vect}_{B}$$
 
 where $\mathrm{Vect}_{B}$ is the set of finite projective $B$-modules.
 
-A stacky approach to the study of prismatic crystals has been developed independently by Drinfeld ([Drinfeld20](#Drinfeld20)) and Bhatt-Lurie ([BhattLurie22](#BhattLurie22)). This involves the study of a stack known as the _Cartier-Witt stack_. Namely, every perfect complex of sheaves on the Cartier-Witt stack determines a prismatic crystal. 
+A stacky approach to the study of prismatic crystals has been developed independently by Drinfeld ([Drinfeld20](#Drinfeld20)) and Bhatt-Lurie ([BhattLurie22](#BhattLurie22)).
+
+Given p-adic formal scheme $X$, one can attach a stack, called the _Cartier-Witt stack_ and denoted $\mathrm{WCart}_{X}$ by Bhatt-Lurie, and called the _prismatization_ of $X$ and denoted $X^{\Delta}$ by Drinfeld. When $X$ is quasi-syntomic, one can identify the $\infty$-category of crystals of $(p,I_{\Delta})$-complete complexes on $(X_{\Delta},\mathcal{O}_{\Delta})$ with the derived $\infty$-category of quasi-coherent sheaves on $\mathrm{WCart}_{X}$ ([Bhatt21](#Bhatt21), Remark 2.6).
 
 ## Applications
 
@@ -103,7 +105,7 @@ Prismatic cohomology was introduced in
 
 A survey of recent developments is given in
 
-* [[Bhargav Bhatt]], _Algebraic Geometry in Mixed Characteristic_, preprint (2021) arXiv:[2112.12010](https://arxiv.org/abs/2112.12010)
+* {#Bhatt21}[[Bhargav Bhatt]], _Algebraic Geometry in Mixed Characteristic_, preprint (2021) arXiv:[2112.12010](https://arxiv.org/abs/2112.12010)
 
 Lecture notes include
 
