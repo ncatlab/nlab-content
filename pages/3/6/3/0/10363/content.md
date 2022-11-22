@@ -43,7 +43,9 @@ and the resulting [[superfluidity]]/[[superconductivity]] *of* [[anyons]]:
 
 Review of [[anyons]]:
 
-* {#Wilczek90} [[Frank Wilczek]], *Fractional Statistics and Anyon Superconductivity*, World Scientific (1990) $[$[doi:10.1142/0961](https://doi.org/10.1142/0961)$]$
+* {#Wilczek90} [[Frank Wilczek]], *Fractional Statistics and Anyon Superconductivity*, World Scientific (1990) &lbrack;[doi:10.1142/0961](https://doi.org/10.1142/0961)&rbrack;
+
+* [[Martin Greiter]], [[Frank Wilczek]], *Fractional Statistics* &lbrack;[arXiv:2210.02530](https://arxiv.org/abs/2210.02530)&rbrack;
 
 
 
