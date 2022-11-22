@@ -153,6 +153,11 @@ More on the case [[number of supersymmetries|N=2]]:
 
 * Edoardo Lauria, [[Antoine Van Proeyen]], _$\mathcal{N}=2$ Supergravity in $D=4,5,6$ Dimensions_ ([arXiv:2004.11433](https://arxiv.org/abs/2004.11433))
 
+Review of the [[superspace]] formulations:
+
+* S. M. Kuzenko, E. S. N. Raptakis, G. Tartaglino-Mazzucchelli, *Covariant superspace approaches to $\mathcal{N}=2$ supergravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.11162](https://arxiv.org/abs/2211.11162)&rbrack;
+
+
 
 
 
@@ -296,3 +301,13 @@ Discussion of lifts of [[gauged supergravity|gauged]] 4d supergravity to [[strin
 
 [[!redirects d=4 N=1 supergravity]]
 [[!redirects D=4 N=1 supergravity]]
+
+[[!redirects N=2 d=4 supergravity]]
+[[!redirects N=2 D=4 supergravity]]
+
+[[!redirects d=4 N=2 supergravity]]
+[[!redirects D=4 N=2 supergravity]]
+
+
+
+
