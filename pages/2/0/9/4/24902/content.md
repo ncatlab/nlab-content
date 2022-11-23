@@ -43,3 +43,5 @@ Every locally $U$-small inductive cover on the [[real numbers]] is a locally $U$
 ## References
 
 * *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
+
+[[!redirects inductive covers]]
