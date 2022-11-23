@@ -54,6 +54,8 @@ There is a [[natural isomorphism]] between
 
 The proof is spelled out at [[affine line]] in the section <a href="http://nlab.mathforge.org/nlab/show/affine+line#Properties">Properties</a>.
 
+A $\mathbb{N}$-graded algebra is called **strongly $\mathbb{N}$-graded** if for every $n,p \ge 0$, the multiplication $A_{n} \otimes A_{p} \rightarrow A_{n+p}$ is an epimorphism.
+
 ## Examples 
 
 
@@ -83,6 +85,10 @@ Textbook account:
 For [[Hopf algebras]]:
 
 * Ken Brown, Paul Gilmartin, James J. Zhang, _Connected (graded) Hopf algebras_ ([arXiv:1601.06687](http://arxiv.org/abs/1601.06687))
+
+The notion of strongly $\mathbb{N}$-graded algebra is defined in:
+
+* Alessandro Ardizzoni, Claudia Menini, _Associated graded algebras and coalgebras_ ([arXiv:0704.2106](https://arxiv.org/abs/0704.2106))
 
 [[!redirects graded algebras]]
 
