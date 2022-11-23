@@ -34,7 +34,11 @@ Let $X^*$ be the [[free monoid]] on $X$, and let $f:X^* \to ((R[X] \to R[X]) \to
 
 ...
 
-An **homogeneous polynomial** of degree $n$ can be defined as a polynomial $p$ such that $\partial_x (p).x = n.p$ (see the [[homogeneous polynomial|Euler identity]]).
+Given a polynomial $p:R[x]$ in one indeterminant, it is said to be an **homogeneous polynomial** of degree $n$ if $\partial_x (p).x = n.p$ (see the [[homogeneous polynomial|Euler identity]]).
+
+Given a polynomial $p:R[X]$ in a finite number of indeterminant, it is said to be an homogeneous polynomial of degree $n$ if $\underset{x:X}{\sum} \partial(x)(p).x = n.p$.
+
+One could also define a polynomial $p:R[X]$ to be homogeneous of degree $n$ with respect to $x:X$ if $\partial(x)(p).x = n.p$. It is equivalent to the fact that $p$ can be written under the form $p=x^{n}.q$ where $q:R[X]$ is such that $\partial(x)(q) = 0$.
 
 ## See also
 
