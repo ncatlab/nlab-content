@@ -33,7 +33,12 @@ Specifically for $k$ a [[field]] a **graded algebra** is a [[monoid in a monoida
 
 An $\mathbb{N}$-graded algebra is called _connected_ if in degree-0 it is just the ground ring.
 
-A [[differential graded algebra]] is a graded algebra $A$ equipped with a [[derivation]] $d : A\to A$ of degree +1 (or -1, depending on conventions) and such that $d \circ d = 0$. This is the same as a [[monoid]] in the category of [[chain complexes]].
+A *[[differential graded algebra]]* is a graded algebra $A$ equipped with a [[derivation]] $d : A\to A$ of degree +1 (or -1, depending on conventions) and such that $d \circ d = 0$. This is the same as a [[monoid]] in the category of [[chain complexes]].
+
+\linebreak
+
+{#StronglyGraded} A $\mathbb{N}$-graded algebra is called **strongly $\mathbb{N}$-graded** (in [Ardizzoni & Menini (2007), Def. 3.2](#ArdizzoniMenini07)) if for every $n,p \ge 0$, the [[multiplication]] $A_{n} \otimes A_{p} \rightarrow A_{n+p}$ is an [[epimorphism]].
+
 
 
 ## Properties
@@ -52,9 +57,9 @@ There is a [[natural isomorphism]] between
 
 =--
 
-The proof is spelled out at [[affine line]] in the section <a href="http://nlab.mathforge.org/nlab/show/affine+line#Properties">Properties</a>.
+The proof is spelled out at [[affine line]] in the section *[Properties](affine+line#Properties)*.
 
-A $\mathbb{N}$-graded algebra is called **strongly $\mathbb{N}$-graded** if for every $n,p \ge 0$, the multiplication $A_{n} \otimes A_{p} \rightarrow A_{n+p}$ is an epimorphism.
+
 
 ## Examples 
 
@@ -88,7 +93,7 @@ For [[Hopf algebras]]:
 
 The notion of strongly $\mathbb{N}$-graded algebra is defined in:
 
-* Alessandro Ardizzoni, Claudia Menini, _Associated graded algebras and coalgebras_ ([arXiv:0704.2106](https://arxiv.org/abs/0704.2106))
+* {#ArdizzoniMenini07} Alessandro Ardizzoni, Claudia Menini, _Associated graded algebras and coalgebras_ ([arXiv:0704.2106](https://arxiv.org/abs/0704.2106))
 
 [[!redirects graded algebras]]
 
