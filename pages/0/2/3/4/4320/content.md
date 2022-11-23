@@ -227,7 +227,7 @@ Here:
 
 =--
 
-Symmetric powers in a symmetric monoidal $\mathbb{Q}^{+}$-linear category seem to be characterizable as forming a special kind of graded bialgebra. The conjecture is described on the page [[symmetric powers in a symmetric monoidal (Q plus)-linear category]].
+Symmetric powers in a symmetric monoidal $\mathbb{Q}^{+}$-linear category  are characterized among the countable families of objects as forming a special connected graded quasi-bialgebra (reference to come). 
 
 ## Related concepts
 
