@@ -1,5 +1,5 @@
 
-* [wikipedia entry](http://en.wikipedia.org/wiki/John_Tate)
+* [wikipedia entry](http://en.wikipedia.org/wiki/John_Tate_%28mathematician%29)
 
 
 ## Selected writings
