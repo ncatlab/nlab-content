@@ -116,7 +116,7 @@ Mathematics in synthetic guarded domain theory can be formalized in the [[intern
 
 * {#KMV2022} Magnus Baunsgaard Kristensen, Rasmus Ejlers Møgelberg, Andrea Vezzosi _Greatest HITs: Higher inductive types in coinductive definitions via induction under clocks_. LICS 2022 ([preprint](https://arxiv.org/abs/2102.01969))
 
-* {#PalombiSterling22} Daniela Palombi and [[Jonathan Sterling]], _Classifying topoi in synthetic guarded domain theory: The universal property of multi-clock guarded recursion_. Mathematical Foundations of Program Semantics 2022 ([preprint](https://www.jonmsterling.com/papers/palombi-sterling:2022.pdf))
+* {#PalombiSterling22} Daniele Palombi and [[Jonathan Sterling]], _Classifying topoi in synthetic guarded domain theory: The universal property of multi-clock guarded recursion_. Mathematical Foundations of Program Semantics 2022 ([doi](https://doi.org/10.48550/arXiv.2210.04636))
 
 * {#Paviotti16} Marco Paviotti, _Denotational semantics in Synthetic Guarded Domain Theory_. PhD thesis, IT University of Copenhagen ([pdf](https://mpaviotti.github.io/assets/papers/paviotti-phdthesis.pdf))
 
