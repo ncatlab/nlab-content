@@ -19,7 +19,7 @@
 
 ## Idea
 
-Linear implication $\multimal$ is the most common version of [[implication]]/[[function type]] in [[linear logic]]/[[linear type theory]].
+Linear implication $D \multimap E$ is the most common version of [[implication]]/[[function type]] in [[linear logic]]/[[linear type theory]].
 
 The [[categorical semantics]] of linear implication is as the [[internal hom]] in the non-[[cartesian closed category|cartesian]] [[closed monoidal category]] of [[types]] whose [[tensor product]] $\otimes$ corresponds to [[multiplicative conjunction]].
 
