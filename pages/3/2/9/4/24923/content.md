@@ -259,6 +259,9 @@ $$
 
 * [[Michael A. Nielsen]], [[Isaac L. Chuang]], §10.1.1 in: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
+* {#DevittNemotoMunro09} [[Simon J. Devitt]], Kae Nemoto, William J. Munro, §IV of: *Quantum Error Correction for Beginners*, Rep. Prog. Phys. **76** (2013) 076001 &lbrack;[arXiv:0905.2794](https://arxiv.org/abs/0905.2794), [doi:10.1088/0034-4885/76/7/076001](https://iopscience.iop.org/article/10.1088/0034-4885/76/7/076001)&rbrack;
+
+
 [[!redirects bit flip codes]]
 
 [[!redirects bit-flip code]]
