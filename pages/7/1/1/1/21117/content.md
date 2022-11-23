@@ -395,7 +395,7 @@ Introduction and survey:
 * [[Isaac L. Chuang]], *Quantum error correction*, Chapter 7 in: *Quantum Machines: Measurement and Control of Engineered Quantum Systems* Lecture Notes of the Les Houches Summer School **96** (2011) 273–320  &lbrack;[doi:10.1093/acprof:oso/9780199681181.003.0007](https://doi.org/10.1093/acprof:oso/9780199681181.003.0007)&rbrack;
 
 
-* {#DevittNemotoMunro09} [[Simon J. Devitt]], Kae Nemoto, William J. Munro, _Quantum Error Correction for Beginners_, Rep. Prog. Phys. 76 (2013) 076001 ([arXiv:0905.2794](https://arxiv.org/abs/0905.2794))
+* {#DevittNemotoMunro09} [[Simon J. Devitt]], Kae Nemoto, William J. Munro, *Quantum Error Correction for Beginners*, Rep. Prog. Phys. **76** (2013) 076001 &lbrack;[arXiv:0905.2794](https://arxiv.org/abs/0905.2794), [doi:10.1088/0034-4885/76/7/076001](https://iopscience.iop.org/article/10.1088/0034-4885/76/7/076001)&rbrack;
 
 * {#RowellWang17} [[Eric Rowell]], [[Zhenghan Wang]], Section 3.2.3 of: _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
 
