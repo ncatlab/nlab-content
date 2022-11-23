@@ -45,6 +45,10 @@ A bimonoid that is both a [[commutative monoid]] and a [[cocommutative comonoid]
 
 * A bimonoid is said to be **special** if comultiplication followed by multiplication is the identity.   The category [[Rel]] has biproducts so every object is a bicommutative bimonoid, but these bimonoids are also special.  The category [[FinRel]] is the free symmetric monoidal category on a special bicommutative bimonoid, namely $1$ with its diagonal as comultiplication and fold map as multiplication.
 
+* A bimonoid is said to be **connected** if counit followed by unit is the identity. For example, the [[symmetric algebra]] is a connected bimonoid.
+
+* One obtains the notion of **quasi-bimonoid** by omitting the associativity and coassociativity requirements.
+
 ## Monoidal structure on modules
 {#MonoidalStructureOnModules}
 
