@@ -914,13 +914,15 @@ This establishes all the ingredients of traditional [[quantum circuits]]. For in
 ## Quantum Programming Language
  {#TheQuantumProgrammingLanguage}
 
-With all elements of [[quantum circuits]] formulated via ([[comonad|co]])[[monads]] constructed inside a language of [[dependent linear types]] as above, we obtain an [[domain specific embedded programming language|embedded]] [[quantum programming language]] for quantum circuits by declaring the following [[syntactic sugar]]:
+With all elements of [[quantum circuits]] formulated via ([[comonad|co]])[[monads]] constructed inside a language of [[dependent linear types]] as above, we obtain an [[domain specific embedded programming language|embedded]] [[quantum programming language]] for quantum circuits with classical control and effects.
 
-We code maps in the [[Kleisli category]] of an [[monad in computer science|effect monad]] $\mathcal{E}$ by this schema:
+### Quantum/classical types and modalities
+
+We use the following notation for the [[type system]] and the quantum/classical [[modalities]] on these. 
 
 \begin{imagefromfile}
-    "file_name": "ForDoLoopNotation-221119.jpg",
-    "width": "290",
+    "file_name": "QS_QuantumClassicalDataTypes-221123.jpg",
+    "width": "520",
     "unit": "px",
     "margin": {
         "top": -20,
@@ -931,10 +933,164 @@ We code maps in the [[Kleisli category]] of an [[monad in computer science|effec
 \end{imagefromfile}
 
 
-where, moreover, the monad [[unit of a monad|return operations]] "$`return`^{\mathcal{E}}(-)$" (and the comonad [[counit of a comonad|extract operations]]) are sugared according to the following table:
+Here the expressions in square brackets may be thought of as the corresponding [[categorical semantics]] as [[bundles]] of linear types (for instance semantics [[internalization|in]] the category [[VectBund]] of [[complex vector bundles]] over [[Sets]], or more generally, in the [[(infinity,1)-category|$\infty$-category]] of [[parameterized spectrum|parametrized]] [[Eilenberg-MacLane spectrum|$H\mathbb{C}$-]][[module spectra]]).
+
+The classical/quantum modalities form the base space and the "linearized total space", respectively:
 
 \begin{imagefromfile}
-    "file_name": "SyntacticSugarForPureEffectsInQS-221119.jpg",
+    "file_name": "QS_QuantumClassicalDivide-221123.jpg",
+    "width": "700",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+(The quantum monad $\mathrm{Q}$ is a [[relative monad]]. Its [[categorical semantics]] in [[VectBund]] is dsicussed [there](relative+monad#LinearSpan).)
+
+The classical [[internal hom]] and its quantum version relative to the ("[[external tensor product|external]]") linear [[tensor product]] (for more on this see the discussion [here](VectBund#ClosedMonoidalStructures) at *[[VectBund]]*):
+
+\begin{imagefromfile}
+    "file_name": "QS_ProductAndFunctionTypes-221123.jpg",
+    "width": "800",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+Notice that all these types are bundles "*in themselves*", in that we did not invoke (yet) any [[dependent types]] (semantically we speak about a total [[tangent (infinity,1)-topos|tangent $\infty$-topos]], not its system of [[slice (infinity,1)-category|slice $\infty$-categories]]).
+
+Instead, the actual $B$-[[dependent types]] that we need to reflect ("[[dynamic lifting]]" of) [[quantum measurement]] will all be viewed, indirectly, through the lens of $\bigcirc_B$-modales on the non-dependent types (view the [[comparison functor]] which here is an equivalence).
+
+The only explicit [[context]] that we do need to consider is -- besides the trivial dependency on the classical [[unit type]] $\ast$, its quantum analog namely: -- dependency on the [[tensor unit]] $\mathbb{1}$. This only exception to the rule we *sugar away* by the following "circle-colon"-notation (which is meant to rhyme on the "$\multimap$"-notation for [[linear implication]]):
+
+\begin{imagefromfile}
+    "file_name": "QS_QuantumDataDeclaration-221123.jpg",
+    "width": "480",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
+### Sugared syntax 
+
+We now obtain  a quantum programming language from [[modal type theory|modal]] [[dependent linear type theory]] simply by meticulously [[syntactic sugar|sugaring]]:
+
+[(1)](#ForDoNotation) the standard `do`-notation for [[monads in computer science]],
+
+[(2)](#NotationForPureEffects) the ([[counit of a comonad|co]])[[unit of a monad|pure/return]]-functions of the various [[monads]].
+
+
+
+
+
+#### Syntax for effect binding
+ {#ForDoNotation}
+
+We code maps in the [[Kleisli category]] of an [[monad in computer science|effect monad]] $\mathcal{E}$ by this schema:
+
+\begin{imagefromfile}
+    "file_name": "QS_ForDoNotation-221123b.jpg",
+    "width": "440",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
+This syntax is to closely reflect the fact that 
+
+* *for* an input of the form $\return^{\mathcal{E}}_D(d) \colon \mathcal{E}D$ 
+
+* which may appear as a contribution *in* the effectful input data,
+
+* the operation $\bind^{\mathcal{E}}_{\mathrm{prog}}$ *does* produce the output $\mathrm{prog}(d)$, 
+
+which prescription completely defines it.
+
+\begin{remark}
+Beware that common classical notation for exactly the same costruction is a little different:
+
+\begin{imagefromfile}
+    "file_name": "ClassicalMonadicDoNotation-221123.jpg",
+    "width": "280",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+This classical notation is meant to suggest that pure data $d \colon D$ may be "read out" from effectful data $e \colon \mathcal{E}D$. While this is suggestive for the [[list monad]] and its common relatives in classical programming, it is misleading in [[linear type theory]] and notably so for the quantum monad $\mathrm{Q}$: Here the effectful input $e = \vert \psi \rangle$ is a quantum state like a [[q-bit]], in which case $d \colon Bit$ is a classical [[bit]], whence the classical notation "$d \leftarrow \vert \psi \rangle$" could only be suggestive of performing a [[quantum measurement]] -- in contradiction to the actual nature of the resulting $\bind^{\mathrm{Q}}_{\mathrm{prog}}$-operation constituting a coherent non-measurement quantum gate.
+
+Instead, what really happens in Kleisli formalism is that operations are defined on *generators* for effectful data types $\mathcal{E}(D)$, namely on data of the form $\return^{\mathcal{E}}_D(d)$. For example, the space of [[qbits]] $\vert \psi \rangle \colon \QBit$ is generated (here: [[linear span|linearly spanned]]) by the [[linear basis|basis]] [[qbits]] $\vert 0 \rangle$ and $\vert 1 \rangle$, where we may naturally identify the ket-notation $\vert - \rangle$ as the unit/return operation which regards a classical bit $b$ as the corresponding basis quantum state $\vert b \rangle$.
+\end{remark}
+
+
+Moreover, we write an analogous `for...do`-code for maps out of [[tensor products]], using that these are generated from the homogeneous tensor products.
+
+
+\begin{imagefromfile}
+    "file_name": "QS_TensorProductForDo-221123.jpg",
+    "width": "500",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+(...)
+
+
+
+#### Syntax for pure effects
+ {#NotationForPureEffects}
+
+Finally, the monad-[[unit of a monad|return operations]] "$`return`^{\mathcal{E}}(-)$" (and the comonad [[counit of a comonad|extract operations]]) we sugar according to the following table:
+
+\begin{imagefromfile}
+    "file_name": "QS_SyntaxForPurePotentialityEffects-221123.jpg",
+    "width": "540",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+In the same vein we sugar the constructor for terms in the [[quantum reader monad]] $\bigcirc_B$ as follows:
+
+
+\begin{imagefromfile}
+    "file_name": "QS_MeasurementTermConstruction-221123.jpg",
     "width": "490",
     "unit": "px",
     "margin": {
@@ -945,9 +1101,70 @@ where, moreover, the monad [[unit of a monad|return operations]] "$`return`^{\ma
     }
 \end{imagefromfile}
 
-Moreover, we write an analogous `for...do`-code for maps out of [[tensor products]], using that these are generated from the homogeneous tensor products.
 
-With this in hand, for instance the [[quantum teleportation protocol]] 
+
+### Example pseudo-code
+
+#### Basic qbit circuit ingredients
+
+Basic [[quantum logic gates]] on [[qbits]]:
+
+\linebreak
+
+The quantum [[NOT]]/[[Pauli matrix|Pauli X]]-gate
+
+\begin{imagefromfile}
+    "file_name": "QS_PauliXGate-221123.jpg",
+    "width": "170",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+\linebreak
+
+
+The [[Hadamard gate]]:
+
+
+\begin{imagefromfile}
+    "file_name": "QS_HadamardGate-221123.jpg",
+    "width": "270",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+\linebreak
+
+The [[CNOT gate]]:
+
+\begin{imagefromfile}
+    "file_name": "QS_CNOTGate-221123.jpg",
+    "width": "300",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
+#### Quantum teleportation protocol
+
+The [[quantum teleportation protocol]]:
 
 \begin{imagefromfile}
     "file_name": "QBitQuantumTeleportationProtocol-221109.jpg",
@@ -961,12 +1178,11 @@ With this in hand, for instance the [[quantum teleportation protocol]]
     }
 \end{imagefromfile}
 
-
 is given by the following code:
 
 \begin{imagefromfile}
-    "file_name": "QuantumTeleportationProtocolInQS-221119.jpg",
-    "width": "580",
+    "file_name": "QS_QuantumTeleportationProtocol-221123.jpg",
+    "width": "650",
     "unit": "px",
     "margin": {
         "top": -20,
@@ -975,6 +1191,29 @@ is given by the following code:
         "left": 10
     }
 \end{imagefromfile}
+
+
+
+#### Quantum bit flip code
+
+The [[quantum bit flip code]] for 3-qbit encoding:
+
+
+\begin{imagefromfile}
+    "file_name": "QS_3BitFlipClode-221123.jpg",
+    "width": "650",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
+
 
 
 \linebreak
