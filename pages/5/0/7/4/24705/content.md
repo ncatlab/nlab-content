@@ -911,6 +911,7 @@ This establishes all the ingredients of traditional [[quantum circuits]]. For in
 
 (...)
 
+
 ## Quantum Programming Language
  {#TheQuantumProgrammingLanguage}
 
@@ -935,7 +936,7 @@ We use the following notation for the [[type system]] and the quantum/classical 
 
 Here the expressions in square brackets may be thought of as the corresponding [[categorical semantics]] as [[bundles]] of linear types (for instance semantics [[internalization|in]] the category [[VectBund]] of [[complex vector bundles]] over [[Sets]], or more generally, in the [[(infinity,1)-category|$\infty$-category]] of [[parameterized spectrum|parametrized]] [[Eilenberg-MacLane spectrum|$H\mathbb{C}$-]][[module spectra]]).
 
-The classical/quantum modalities form the base space and the "linearized total space", respectively:
+The classical modality $\natural$ and the quantum modality  $\mathrm{Q}$ send a bundle type to its base and to its "linearized total space", respectively:
 
 \begin{imagefromfile}
     "file_name": "QS_QuantumClassicalDivide-221123.jpg",
@@ -949,7 +950,7 @@ The classical/quantum modalities form the base space and the "linearized total s
     }
 \end{imagefromfile}
 
-(The quantum monad $\mathrm{Q}$ is a [[relative monad]]. Its [[categorical semantics]] in [[VectBund]] is dsicussed [there](relative+monad#LinearSpan).)
+(The quantum monad $\mathrm{Q}$ is a [[relative monad]]; its [[categorical semantics]] in [[VectBund]] is dsicussed [there](relative+monad#LinearSpan).)
 
 The classical [[internal hom]] and its quantum version relative to the ("[[external tensor product|external]]") linear [[tensor product]] (for more on this see the discussion [here](VectBund#ClosedMonoidalStructures) at *[[VectBund]]*):
 
@@ -986,7 +987,7 @@ The only explicit [[context]] that we do need to consider is -- besides the triv
 
 
 
-### Sugared syntax 
+### Sugaring modal dependent linear types to a quantum language
 
 We now obtain  a quantum programming language from [[modal type theory|modal]] [[dependent linear type theory]] simply by meticulously [[syntactic sugar|sugaring]]:
 
