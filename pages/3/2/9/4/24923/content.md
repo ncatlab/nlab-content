@@ -35,7 +35,7 @@ $$
   QBit \otimes QBit \otimes QBit
 $$ 
 
-of a single logical qbit has [[complex number|complex]] [[dimension of a vector space|dimension]] $2^2 \,=\, 8$. Inside this is the space of undisturbed logical qbits
+of a single logical qbit has [[complex number|complex]] [[dimension of a vector space|dimension]] $2^3 \,=\, 8$. Inside this is the space of undisturbed logical qbits
 
 \[
   \label{PureLogicalQBit}
