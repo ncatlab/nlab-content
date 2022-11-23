@@ -52,7 +52,7 @@ $$
   \mathcal{S}
 $$
 
-Moreover, the inclusion functor restricts to an [[equivalence of categories]] when considering objects in $\mathcal{S}$ whose restriction maps are surjective (also called total objects). 
+Moreover, the inclusion functor restricts to an [[equivalence of categories]] when considering objects in $\mathcal{S}$ whose restriction maps are surjective, which are sometimes called the total objects or [[flabby sheaves]]. 
 
 First, recall that every point in a ball $\mathcal{B}$ of an ultrametric space is at its centre while intersecting balls are contained into each other which  means that closed $2^{-n}$-balls partition a space. 
 Thus, we can partition a metric space $(X, d)$ by defining a family of equivalence relation 
