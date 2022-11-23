@@ -139,7 +139,7 @@ for $\mathbb{K}$ any [[ground field]], consider:
 
 1. $\mathbf{J} \coloneqq $ [[Set]];
 
-1. $\mathbf{C} \coloneqq \int_{B \colon Set} Vect_B$ the category of [[indexed sets]] of [[vector spaces]] -- hence of [[vector bundles]] over [[sets]] (i.e. over [[discrete topological spaces]])
+1. $\mathbf{C} \coloneqq \int_{B \colon Set} Vect_B$ (or "[[VectBund]]", for short, see there for more) the [[category]] of [[indexed sets]] of [[vector spaces]] -- hence of [[vector bundles]] over [[sets]] (i.e. over [[discrete topological spaces]])
 
    $$
      \array{
