@@ -15,6 +15,8 @@ The **formal derivative** $\partial_x:R[x] \to R[x]$ is inductively defined by
 
 Suppose that $R$ has [[decidable equality]]. Given a non-zero polynomial $p:R[x]$, the **degree** of $p$ is the minimum [[natural number]] $n$ such that the $(n + 1)$-th iteration of the formal [[derivative]] of $p$ is equal to zero: $\partial_x^{n + 1}(p) = 0$. The degree of the zero polynomial is undefined. 
 
+An **homogeneous polynomial** of degree $n$ can be defined as a polynomial $p$ such that $\partial_x (p).x = n.p$ (see the [[homogeneous polynomial|Euler identity]]).
+
 ### Polynomials in multiple indeterminants
 
 ## See also
