@@ -39,6 +39,14 @@ The reference for these definitions are [Weinstein17](#Weinstein17).
 
 * A _perfectoid space_ is an [[adic space]] which can be covered by affinoids $Spa(A,A^{+})$, where $A$ is a perfectoid ring.
 
+## Generalizations
+
+The concept of perfectoid space can be generalized into that of a _diamond_, which is a quotient of a perfectoid space of characteristic $p$ by a perfectoid equivalence relation ([ScholzeWeinstein20](#ScholzeWeinstein20), Definition 8.3.1). The concept of diamond can similarly be generalized into that of a _v-sheaf_, and in particular a _small v-sheaf_ is a quotient of a diamond by a diamond equivalence relation ([ScholzeWeinstein20](#ScholzeWeinstein20), Proposition 17.2.2).
+
+## Applications
+
+One application of perfectoid spaces is in relating [[Galois representations]] to torsion in the cohomology of [[Shimura varieties]]. In turn, using the excision sequence, one can relate this to the cohomology of arithmetic manifolds that are not Shimura varieties (for example Bianchi manifolds, which are quotients of [[hyperbolic 3-space]] by an arithmetic subgroup). This is surveyed in [Weinstein15](#Weinstein15).
+
 ## Related concepts
 
 * [[Berkovich space]]
@@ -48,6 +56,8 @@ The reference for these definitions are [Weinstein17](#Weinstein17).
 * [[p-adic Hodge theory]]
 
 * [[perfectoid field]]
+
+* [[prismatic cohomology]]
 
 
 ## References
@@ -73,6 +83,14 @@ Review includes
 * [[Peter Scholze]], _Perfectoid spaces: a survey_ ([arXiv:1303.5948](http://arxiv.org/abs/1303.5948))
 
 * {#Weinstein17}Jared Weinstein, _Adic spaces_, lecture notes for the 2017 Arizona Winter School [pdf](https://swc-math.github.io/aws/2017/2017WeinsteinNotes.pdf)
+
+Perfectoid spaces and related concepts were the topic of a course at Berkeley in 2014, whose lecture notes have now been made into a book:
+
+* {#ScholzeWeinstein20} [[Peter Scholze]] and Jared Weinstein, _Berkeley Lectures on p-adic Geometry_ [pdf](https://www.math.uni-bonn.de/people/scholze/Berkeley.pdf)
+
+Some applications of perfectoid spaces are discussed in
+
+* {#Weinstein15} Jared Weinstein, _Reciprocity Laws and Galois Representations: Recent Breakthroughs_ [pdf](https://math.bu.edu/people/jsweinst/CEB/BAMS.pdf)
 
 See also 
 
