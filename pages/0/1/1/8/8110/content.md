@@ -7,7 +7,19 @@
 
 A _Shimura variety_ is a higher-dimensional analog of a [[modular curve]].
 
+## Definition
+
+A _Shimura datum_ is a pair $(G,X)$ where $G$ is a reductive group and $X$ is a $G(\mathbb{R})$-conjugacy class of homorphisms $h:\mathbb{S}\to G_{\mathbb{R}}$, where $\mathbb{S}=\Res_{\mathbb{C}/\mathbb{R}}\mathbb{G}_{m}$.
+
+Given a Shimura datum $G(X)$ and a sufficiently small compact open subgroup $K$ of $G(\mathbb{A}_{f})$ (where $\mathbb{A}_{f}=\prod'\mathbb{Q}_{p}$ is the finite adeles), the quotient
+
+$$\Sh_{K}(G,X):=G(\mathbb{Q})\backslash G(\mathbb{A}_{f})\times X/K$$
+
+can be realized as a quasi-projective variety over $\mathbb{C}$ (and actually over a canonical number field called the _reflex field_ that depends on the Shimura datum). The inverse limit $\Sh(G,X):=(\Sh_{K}(G,X))_{K}$ over all sufficiently small compact subgroups is called a _Shimura variety_.
+
 ## Related concepts
+
+* [[Siegel modular form]]
 
 * [[Rapoport-Zink space]]
 
