@@ -21,6 +21,8 @@ can be realized as a quasi-projective variety over $\mathbb{C}$ (and actually ov
 
 * [[Siegel modular form]]
 
+* [[Hilbert modular form]]
+
 * [[Rapoport-Zink space]]
 
 ## References
@@ -28,6 +30,8 @@ can be realized as a quasi-projective variety over $\mathbb{C}$ (and actually ov
 Surveys include
 
 * [[James Milne]], _Introduction to Shimura Varieties_, 2004, ([pdf](https://www.jmilne.org/math/articles/2005aX.pdf))
+
+* Kai-Wen Lan, _An Example-Based Introduction to Shimura Varieties_, ([pdf])(https://www-users.cse.umn.edu/~kwlan/articles/intro-sh-ex.pdf)
 
 * Wikipedia, _[Shimura variety](https://en.wikipedia.org/wiki/Shimura_variety)_
 
