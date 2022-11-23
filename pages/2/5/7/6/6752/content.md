@@ -67,6 +67,19 @@ Various versions and refinements of this conjecture have since been considered, 
 
 From this [[arithmetic geometry]] point of view the Langlands conjecture seems to speak of a correspondence that sends [[Dirac distributions]] on the [[moduli space of flat connections]] over an [[algebraic curve]] to certain "automorphic" functions on the [[moduli stack of bundles]] on the same curve. This suggests that the Langlands correspondence should be understood as a nonabelian version of a [[Fourier-Mukai transform|Fourier-Mukai]]-type [[integral transform]]. This version of the conjecture is known as the _[[geometric Langlands correspondence]]_. See there for more details.
 
+## Related concepts
+
+* [[local Langlands correspondence]]
+
+* [[automorphic form]]
+
+* [[Galois representation]]
+
+* [[Shimura variety]]
+
+* [[modularity theorem]]
+
+* [[Langlands functoriality]]
 
 ## References
  {#References}
