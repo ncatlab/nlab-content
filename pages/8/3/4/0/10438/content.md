@@ -1,5 +1,4 @@
 
-> should be merged with _[[Galois module]]_
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
