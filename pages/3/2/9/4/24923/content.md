@@ -267,6 +267,12 @@ $$
 [[!redirects bit-flip code]]
 [[!redirects bit-flip codes]]
 
+[[!redirects quantum bit flip code]]
+[[!redirects quantum bit flip codes]]
+
+[[!redirects quantum bit-flip code]]
+[[!redirects quantum bit-flip codes]]
+
 
 [[!redirects 3 bit flip code]]
 [[!redirects 3 bit flip codes]]
