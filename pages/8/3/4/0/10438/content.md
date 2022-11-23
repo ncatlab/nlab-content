@@ -50,7 +50,7 @@ For reductive groups other than $\GL_{n}$, Galois representations need to be rep
 
 ### Serre's Modularity Conjecture
 
-_Serre's modularity conjecture_ states that an odd irreducible two-dimensional Galois representation over a [[finite field]] comes from a [[modular form]], and furthermore (in its strong form) gives a recipe for the level and weight of the modular form as well. This conjecture was proved by Khare and Wintenberger in [KhareWintenberger09a](#KhareWintenberger09a) and [KhareWintenberger09b](#KhareWintenberger09b).
+_Serre's modularity conjecture_ states that an odd (this means the image of complex conjugation has determinant $-1$) irreducible two-dimensional Galois representation over a [[finite field]] comes from a [[modular form]], and furthermore (in its strong form) gives a recipe for the level and weight of the modular form as well. This conjecture was proved by Khare and Wintenberger in [KhareWintenberger09a](#KhareWintenberger09a) and [KhareWintenberger09b](#KhareWintenberger09b).
 
 ## Related concepts
 
