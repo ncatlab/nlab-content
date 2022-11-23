@@ -73,7 +73,7 @@ In [[constructive mathematics]], one sees several definitions of 'compact', whic
 
 In [[locale theory]] and other approaches to [[pointless topology]], the open-cover definition of 'compact' is clearly correct, and the failure of CTB spaces to be compact (constructively) may be seen as a consequence of working with points.  Already in Bishop\'s weak system of constructivism, every CTB metric space $X$ gives rise to a compact locale, which classically (assuming [[excluded middle]] and [[dependent choice]]) is the [[locale of open subsets]] of $X$ but constructively requires a more nuanced construction; see [Vickers](#CTBlocale).
 
-
+In [[dependent type theory]], the open-cover definition of 'compact' holds as well, but one has to use the [[inductive covers]] [[higher inductive type]] instead of the usual pointwise definitions of covers. 
 
 ## Proofs
  {#Proofs}
@@ -227,7 +227,9 @@ On constructing a compact locale from a CTB metric space:
 
 *  {#CTBlocale} [[Steve Vickers]], [Localic completion of generalized metric spaces](http://www.tac.mta.ca/tac/volumes/14/15/14-15abs.html)
    
+On the Heine-Borel theorem in [[dependent type theory]] using [[inductive covers]], see section 11.5 of:
 
+* *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
 
 [[!redirects Heine-Borel theorem]]
 [[!redirects Heine-Borel theorems]]
