@@ -200,6 +200,17 @@ Categories with biproducts include:
 
 * [[K(n)-local stable homotopy theory]] ([Hopkins-Lurie 14](#HopkinsLurie14))
 
+* The category [[Rel]] of sets and relations between sets.
+
+## Non-examples
+
+Some categories possess all [[binary products]] and [[coproducts]] but they are not biproducts and the category is thus not a semiadditive category. From above, we know that they are not enriched over the category of commutative monoids.
+
+* The category [[Set]] of sets and functions, where the product is given by the cartesian product of sets and the coproduct by the disjoint union of sets.
+
+* The category [[Top]] of topological spaces and continuous functions where the product is again given by the cartesian product and the coproduct by the disjoint union.
+
+* The category [[Grp]] of groups, where the product is given by the cartesian product and the coproduct by the [[free product of groups]].
 
 ## Related concepts
 
