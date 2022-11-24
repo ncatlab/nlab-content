@@ -25,12 +25,12 @@ A **real polynomial function** is a [[polynomial function]] in the [[real number
 
 * $f$ is in the image of the canonical [[ring homomorphism]] $i:\mathbb{R}[x] \to (\mathbb{R} \to \mathbb{R})$ from the real polynomial ring in one indeterminant $\mathbb{R}[x]$ to the [[function algebra]] $\mathbb{R} \to \mathbb{R}$, which takes constant polynomials in $\mathbb{R}[x]$ to constant functions in $\mathbb{R} \to \mathbb{R}$ and the indeterminant $x$ in $\mathbb{R}[x]$ to the identity function $\mathrm{id}_\mathbb{R}$ in $\mathbb{R} \to \mathbb{R}$
 
-* There exists a natural number $n$ such that the $n$-th order derivative of $f$ is equal to zero: 
+* There exists a natural number $n$ such that the $n$-th order derivative of $f$ is equal to the zero function: 
 $$\frac{d^n f}{d x^n} = 0$$ 
 
 ### With scalar coefficients
 
-A **real polynomial function** is a [[polynomial function]] in the [[real numbers]], a [[function]] $f:\mathbb{R} \to \mathbb{R}$ with a [[natural number]] $n \in \mathbb{N}$ and a [[list]] of length $n$ of real numbers $a:[0, n)_\mathbb{N} \to \mathbb{R}$ which satisfy one of these conditions:
+A **real polynomial function** is a [[function]] $f:\mathbb{R} \to \mathbb{R}$ with a [[natural number]] $n \in \mathbb{N}$ and a [[list]] of length $n$ of real numbers $a:[0, n)_\mathbb{N} \to \mathbb{R}$ which satisfy one of these conditions:
 
 * for all $x \in R$, 
 $$f(x) = \sum_{i:[0, n)_\mathbb{N}} a(i) \cdot x^i$$
@@ -46,7 +46,18 @@ for each natural number $i:[0, n)_\mathbb{N}$
 
 ### Degree ###
 
-The **degree** of a real polynomial function is defined as the maximum natural number $i \lt n$ such that $\vert a_i \vert \gt 0$. In [[constructive mathematics]], there exist real polynomial functions for which one cannot prove that a particular natural number $i \lt n$ is the degree of the real polynomial function: i.e. the [[function algebra|function sub-$\mathbb{R}$-algebra]] of real polynomial functions is not a [[Euclidean domain]]. 
+#### Without scalar coefficients
+
+Given a non-zero real polynomial function $f:\mathbb{R} \to \mathbb{R}$, the **degree** of $f$ is the maximum [[natural number]] $n$ where the $n$-th [[derivative]] of $f$ is not the zero-function:
+$$\mathrm{deg}(f) \coloneqq \max_{n \in \mathbb{N}, \frac{d^{n} f}{d x^{n}} \neq 0}(n)$$
+
+#### With scalar coefficients
+
+The **degree** of a real polynomial function, with additional data of a [[natural number]] $n \in \mathbb{N}$ and a [[list]] of length $n$ of real numbers $a:[0, n)_\mathbb{N} \to \mathbb{R}$, is defined as the maximum natural number $i \lt n$ such that $\vert a_i \vert \gt 0$. 
+
+#### In constructive mathematics
+
+In [[constructive mathematics]], there exist real polynomial functions for which one cannot prove that a particular natural number $i \lt n$ is the degree of the real polynomial function: i.e. the [[function algebra|function sub-$\mathbb{R}$-algebra]] of real polynomial functions is not a [[Euclidean domain]]. 
 
 ### Pointwise continuity ###
 
