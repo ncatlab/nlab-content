@@ -1,6 +1,6 @@
 
 #Contents#
-* table of contents
+* table of contents 
 {:toc}
 
 ## Idea
@@ -17,6 +17,22 @@ In details, a **CMon-enriched monoidal category** is a monoidal category such th
 * $(f+g);j = f;j + g;j$
 * $f;(j+k) = f;j + f;k$
 * $0;f = f;0 = 0$
+
+## Properties
+
+\begin{proposition}
+If a CMon-enriched monoidal category possesses the [[binary products]], then they are [[biproducts]] and the category is thus [[semiadditive category|semiadditive]]. The same goes if it possesses the [[binary coproducts]].
+\end{proposition}
+
+\begin{proposition}
+If a CMon-enriched monoidal category possesses a [[terminal object]], then it is a [[zero object]]. The same goes if it possesses an [[initial object]].
+\end{proposition}
+
+## Examples
+
+\begin{proposition}
+Every [[semiadditive category|semiadditive]] monoidal category is a CMon-enriched monoidal category.
+\end{proposition}
 
 ## Related entries 
 
