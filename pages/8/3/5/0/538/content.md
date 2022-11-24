@@ -136,3 +136,5 @@ Textbook account:
 
 
 [[!redirects coproducts]]
+
+[[!redirects binary coproducts]]
