@@ -76,7 +76,7 @@ $$i = i;\Delta;1 \otimes \epsilon = i;(1 \otimes \eta + \eta \otimes 1);(1 \otim
 
 and:
 $$
-i;\epsilon = i;\Delta;1 \otimes \epsilon = i;(1 \otimes \eta + \eta \otimes 1);(1 \otimes \epsilon);\epsilon$$
+i;\epsilon = i;\Delta;1 \otimes \epsilon;\epsilon = i;(1 \otimes \eta + \eta \otimes 1);(1 \otimes \epsilon);\epsilon$$
 
 $$
  = i;(1 \otimes \eta);(1 \otimes \epsilon);\epsilon + i;(\eta \otimes 1);(1 \otimes \epsilon);\epsilon
