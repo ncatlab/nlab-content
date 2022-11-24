@@ -55,7 +55,7 @@ Using the notion of [[adic spaces]], we can glue together solid modules and cons
 
 There exists a notion of coherent duality (analogous to [[Grothendieck duality]]) for solid modules ([ScholzeLCM](#ScholzeLCM), Theorem 11.1).
 
-For brevity, given a scheme $X$ with associated adic space $X$, let us define $D(\mathcal{O}_{X,\square}):=D((\mathcal{O}_{X^{\mathrm{ad}}},\mathcal{O}_{X^{\mathrm{ad}}}^{+})_{\square})$.
+For brevity, given a scheme $X$ with associated adic space $X^{\ad}$, let us define $D(\mathcal{O}_{X,\square}):=D((\mathcal{O}_{X^{\ad}},\mathcal{O}_{X^{\ad}}^{+})_{\square})$.
 
 \begin{theorem}
 Let $F:X\to \mathrm{Spec}(R)$ be a separated and smooth map of finite type, of dimension $d$. Let $\omega_{X/R}=\bigwedge^{d}\Omega_{X/R}^{1}$. There is a canonical functor
