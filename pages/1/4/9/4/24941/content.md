@@ -121,7 +121,7 @@ in the [[function set]] $R[X] \to R[X]$. This is inductively defined by the foll
 
 * Monoidal unit preservation: $d(\epsilon) = \mathrm{id}_{R[X]}$
 * Monoidal product preservation: $d(a b) = d(a) \circ d(b)$ for all $a \in \mathrm{Fin}(n)^*$ and $b \in \mathrm{Fin}(n)^*$
-* Generators to partial derivatives: $d(i) = \frac{\partial (-)}{\partial X_i}$ for all $i:\mathrm{Fin}(n)$
+* Generators to partial derivatives: $d(i) = \frac{\partial (-)}{\partial X_i}$ for all $i \in \mathrm{Fin}(n)$
 
 If $R$ has [[characteristic zero]], given a non-zero polynomial $P \in R[x]$, the **degree** of $P$ is the maximum length of all lists $a \in \mathrm{Fin}(n)^*$ of natural numbers less than $n$ such that the evaluation of $d(a)$ at $P$ is non-zero
 $$\mathrm{deg}(P) \coloneqq \max_{a \in \mathrm{Fin}(n)^*, d(a)(P) \neq 0}(\mathrm{len}(a))$$ 
