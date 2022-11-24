@@ -30,7 +30,12 @@ For $C$ a [[monoidal category]], the **category of [[monoid in a monoidal catego
 
 * [[objects]] are [[monoid in a monoidal category|monoids]] in $C$;
 
-* [[morphism]]s are morphisms in $C$ of the underlying objects that respect the monoid structure.
+* [[morphisms]] are morphisms in $C$ of the underlying objects that respect the monoid structure ie. $(A,\nabla_{A},\eta_{A}), (B,\nabla_{B},\eta_{B})$ being two objects in $Mon(C)$, a morphism $f \colon A \rightarrow B$ is a morphism in $Mon(C)$ if these two diagrams commute:
+
+\begin{tikzcd}
+A \otimes A \arrow[r, "\nabla_{A}"] \arrow[d, "f \otimes f"'] & A \arrow[d, "f"] & I \arrow[rd, "\eta_{B}"'] \arrow[r, "\eta_{A}"] & A \arrow[d, "f"] \\
+B \otimes B \arrow[r, "\nabla_{B}"']                          & B                &                                                 & B               
+\end{tikzcd}
 
 Similarly for the **category of [[commutative monoid in a symmetric monoidal category|commutative monoids]]** $CMon(C)$, if $C$ is symmetric monoidal.
 
