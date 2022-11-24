@@ -73,6 +73,16 @@ One important use of ordinals is to index transfinite constructions, such as:
 * [[transfinite composition]]
 * [[transfinite construction of free algebras]]
 
+## References
+
+For ordinal numbers in [[homotopy type theory]], see section 10.3 of:
+
+* *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
+
+On the equivalence of set-theoretic and type-theoretic ordinals, see:
+
+* [[Tom de Jong]], [[Nicolai Kraus]], [[Fredrik Norvall Forsberg]], and [[Chuangjie Xu]], *Ordinals.CumulativeHierarchy.html* ([web](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Ordinals.CumulativeHierarchy.html))
+
 [[!redirects ordinal]]
 [[!redirects ordinals]]
 [[!redirects ordinal number]]
