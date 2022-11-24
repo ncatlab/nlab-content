@@ -450,7 +450,7 @@ This way, one finds that the four (co)unit operations of quantum modal logic are
 ### Quantum modality
  {#TheQuantumModality}
 
-In addition to the above [[axiom scheme|schematas]] of ([[comonad|co]])[[monads]] acting on the ([[dependent linear type|depndent]]) [[linear type|linear]] [[type systems]], we invoke the [[relative monad]]
+In addition to the above [[axiom scheme|schemata]] of ([[comonad|co]])[[monads]] acting on the ([[dependent linear type|dependent]]) [[linear type|linear]] [[type systems]], we invoke the [[relative monad]]
 
 $$
   \array{
@@ -464,7 +464,7 @@ $$
   }
 $$
 
-which sends a [[finite type]] (in particular) to the [[direct sum]] that it [[linear span|spans]] (a detailed description of this relative monad is [here](#relative monad#LinearSpan)).
+which sends a [[finite type]] (in particular) to the [[direct sum]] that it [[linear span|spans]] (a detailed description of this relative monad is [here](relative+monad#LinearSpan)).
 
 This is in fact [[idempotent monad|idempotent]], in that the actual [[monad]] on the full [[dependent linear type|dependent linear]] [[type system]] that this relative monad is induced by is the [[idempotent monad]] which witnesses a [[reflective subcategory]]-inclusion of the linear types into dependent linear types:
 
@@ -950,7 +950,7 @@ The classical modality $\natural$ and the quantum modality  $\mathrm{Q}$ send a 
     }
 \end{imagefromfile}
 
-(The quantum monad $\mathrm{Q}$ is a [[relative monad]]; its [[categorical semantics]] in [[VectBund]] is dsicussed [there](relative+monad#LinearSpan).)
+(The quantum monad $\mathrm{Q}$ is a [[relative monad]]; its [[categorical semantics]] in [[VectBund]] is discussed [there](relative+monad#LinearSpan).)
 
 The classical [[internal hom]] and its quantum version relative to the ("[[external tensor product|external]]") linear [[tensor product]] (for more on this see the discussion [here](VectBund#ClosedMonoidalStructures) at *[[VectBund]]*):
 
