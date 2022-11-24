@@ -19,6 +19,17 @@
 
 ## Definition ##
 
+### Without scalar coefficients
+
+A **real polynomial function** is a [[polynomial function]] in the [[real numbers]], a [[function]] $f:\mathbb{R} \to \mathbb{R}$ such that 
+
+* $f$ is in the image of the canonical [[ring homomorphism]] $i:\mathbb{R}[x] \to (\mathbb{R} \to \mathbb{R})$ from the real polynomial ring in one indeterminant $\mathbb{R}[x]$ to the [[function algebra]] $\mathbb{R} \to \mathbb{R}$, which takes constant polynomials in $\mathbb{R}[x]$ to constant functions in $\mathbb{R} \to \mathbb{R}$ and the indeterminant $x$ in $\mathbb{R}[x]$ to the identity function $\mathrm{id}_\mathbb{R}$ in $\mathbb{R} \to \mathbb{R}$
+
+* There exists a natural number $n$ such that the $n$-th order derivative of $f$ is equal to zero: 
+$$\frac{d^n f}{d x^n} = 0$$ 
+
+### With scalar coefficients
+
 A **real polynomial function** is a [[polynomial function]] in the [[real numbers]], a [[function]] $f:\mathbb{R} \to \mathbb{R}$ with a [[natural number]] $n \in \mathbb{N}$ and a [[list]] of length $n$ of real numbers $a:[0, n)_\mathbb{N} \to \mathbb{R}$ which satisfy one of these conditions:
 
 * for all $x \in R$, 
