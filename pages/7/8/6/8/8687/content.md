@@ -47,7 +47,7 @@ The $R$-module $prim(N)$ of primitive elements of $N$ is [[natural isomorphism|n
 
 ### Object of primitive elements of a comonoid in a $CMon$-enriched monoidal category 
 
-Let $(C,\Delta,\epsilon)$ be a [[comonoid object]] in a [[CMon-enriched monoidal category]] $(\mathcal{C},\otimes,I)$. The object $P$ of primitive elements of $C$ is defined if it exists, as the [[coequalizer]] in this diagram:
+Let $(C,\Delta,\epsilon)$ be a [[comonoid object]] in a [[CMon-enriched monoidal category]] $(\mathcal{C},\otimes,I)$. The object $P$ of primitive elements of $C$ is defined if it exists, as the [[equalizer]] in this diagram:
 
 \begin{tikzcd}
 P \arrow[r, "i"] & C \arrow[rr, "\Delta", shift left] \arrow[rr, "1 \otimes \epsilon + \epsilon \otimes 1"', shift right] &  & C \otimes C
