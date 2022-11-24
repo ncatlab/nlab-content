@@ -22,3 +22,7 @@ In details, a **CMon-enriched symmetric monoidal category** is a symmetric monoi
 * $0;f = f;0 = 0$
 
 [[!redirects CMon-enriched symmetric monoidal categories]]
+
+## Related entries 
+
+* [[CMon-enriched monoidal category]]
