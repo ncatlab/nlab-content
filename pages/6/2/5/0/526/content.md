@@ -7,6 +7,10 @@
 
 A **comonoid** (or __comonoid object__) in a [[monoidal category]] $M$ is a [[monoid in a monoidal category|monoid object]] in the [[opposite category]] $M^{op}$ (which is a monoidal category using the same operation as in $M$).
 
+A **unital comonoid** (or __unital comonoid object__) (also called augmented coalgebra in [[Vect]]) $C$ in a [[monoidal category]] $M$ is a comonoid $C$ together with a morphism $\eta:I \rightarrow C$ which verifies the properties that the [[unit]] would verify if $C$ was a [[bimonoid]], ie. in string diagrams:
+
+<img src="/nlab/files/unital-comonoid.png"/>
+
 ## Examples
 
 For example, a comonoid in [[Vect]] (with its usual [[tensor product]]) is called a [[coalgebra]].  Every set can be made into a comonoid in [[Set]] (with the [[cartesian product]]) in a unique way.  More generally, every object in a [[cartesian monoidal category]] can be made into a comonoid in a unique way.
