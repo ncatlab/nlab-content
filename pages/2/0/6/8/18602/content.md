@@ -168,6 +168,9 @@ Discussion of precision experiment and possible deviation from theory:
 
 * Maarten Golterman, *Theory review for hadronic corrections to $g-2$* &lbrack;[arXiv:2208.05560](https://arxiv.org/abs/2208.05560)&rbrack;
 
+* Ashutosh Kotwal, Joaquim Matias, Andrea Mauri, Tom Tong, Lukas Varnhorst, *Round table on Standard Model Anomalies* &lbrack;[arXiv:2211.13030](https://arxiv.org/abs/2211.13030)&rbrack;
+
+
 
 ### Relation to flavour anomalies
 
