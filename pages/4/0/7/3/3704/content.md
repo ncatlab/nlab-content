@@ -125,3 +125,4 @@ The role of [[complex numbers]] in general $\dagger$-compact categories:
 [[!redirects finite quantum physics in terms of dagger-compact categories]]
 [[!redirects quantum information theory in terms of dagger-compact categories]]
 
+[[!redirects categorical quantum mechanics]]
