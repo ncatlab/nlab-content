@@ -55,7 +55,7 @@ $$
   \{V_i \subset Y\}_{i \in J \subset I}
 $$
 
-is a cover of $Y$, and in indeed a finite subcover of the original one.
+is a cover of $Y$, and is indeed a finite subcover of the original one.
 
 =--
 
