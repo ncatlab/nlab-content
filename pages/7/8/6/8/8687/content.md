@@ -23,7 +23,7 @@ Working over a [[commutative ring]] $R$, recall that a _unital_ or _coaugmented_
 
 An element  $x$ in a [[coalgebra]] $C$ is __primitive__ if $\Delta(x) = 1\otimes x + x\otimes 1$. This condition implies $\epsilon(x) = 0$. 
 
-This notion generalizes straightforwardly to unital [[corings]] over $R$. 
+This notion generalizes straightforwardly to unital [[corings]] over $R$ and even more generally to any [[comonoid object]] in a [[CMon-enriched monoidal category]] (see below).
 
 ### Primitive element in a comodule
 
@@ -45,7 +45,23 @@ The $R$-module $prim(N)$ of primitive elements of $N$ is [[natural isomorphism|n
      \,.
    $$
 
+### Object of primitive elements of a comonoid in a $CMon$-enriched monoidal category 
 
+Let $(C,\Delta,\epsilon)$ be a [[comonoid object]] in a [[CMon-enriched monoidal category]] $(\mathcal{C},\otimes,I)$. The object $P$ of primitive elements of $C$ is defined if it exists, as the [[coequalizer]] in this diagram:
+
+\begin{tikzcd}
+P \arrow[r, "i"] & C \arrow[rr, "\Delta", shift left] \arrow[rr, "1 \otimes \epsilon + \epsilon \otimes 1"', shift right] &  & C \otimes C
+\end{tikzcd}
+
+\begin{proposition}
+If the comonoid $C$ admits an object $P$ of primitive elements, we then have:
+
+\begin{tikzcd}
+P \arrow[r, "i"] \arrow[rd, "0"'] & C \arrow[d, "\epsilon"] \\
+                                  & I                      
+\end{tikzcd}
+
+\end{proposition}
 
 ## Properties
 
