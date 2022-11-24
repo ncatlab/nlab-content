@@ -74,7 +74,7 @@ This allows us to inductively define on $R[x]$ the formal left shift operator $s
 * Constants go to zero: $s_L(h(r)) = 0$ for all $r \in R$
 * Indeterminate goes to one: $s_L(x) = h(1)$
 * Addition preservation: $s_L(p + q) = s_L(p) + s_L(q)$ for all $p:R[x]$ and $q:R[x]$. 
-* Shift product rule: $s_L(p \cdot q) = s_L(p) \cdot q + p \cdot s_L(q) - x \cdot s_L(p) \cdot s_L(q)$ for all $p \in R[x]$ and $q \in R[x]$. 
+* Left shift product rule: $s_L(p \cdot q) = s_L(p) \cdot q + p \cdot s_L(q) - x \cdot s_L(p) \cdot s_L(q)$ for all $p \in R[x]$ and $q \in R[x]$. 
 
 By the universal property of $R[x]$, these constructors are enough to define the left shift on all polynomials $p \in R[x]$. 
 
@@ -106,7 +106,7 @@ Let $\mathrm{Fin}(n)^*$ be the [[free monoid]] on the set of natural numbers les
 
 #### With partial derivatives
 
-The **formal partial derivative** $\frac{\partial(-)}{\partial X_{(-)}}:\mathrm{Fin}(n) \to (R[X] \to R[X])$ is inductively defined by 
+The **formal partial derivative** $\frac{\partial(-)}{\partial X_{(-)}}:\mathrm{Fin}(n) \times R[X] \to R[X]$ is inductively defined by 
 
 * Constants relative to the indeterminant go to zero: $\frac{\partial h(r)}{\partial X_i} = 0$ for all $i \in \mathrm{Fin}(n)$ and $r \in R[X \setminus \{X_i\}]$
 * Indeterminates go to one: $\frac{\partial X_i}{\partial X_i} = 1$ for all $i \in \mathrm{Fin}(n)$
@@ -131,22 +131,22 @@ The above definition involving formal partial derivatives works for commutative 
 
 #### With partial left shifts
 
-The **formal partial left shift operator** $s_{\partial L}:\mathrm{Fin}(n) \to (R[X] \to R[X])$ is inductively defined by 
+The **formal partial left shift operator** $s_{\partial L}:\mathrm{Fin}(n) \times R[X] \to R[X]$ is inductively defined by 
 
-* Constants relative to the indeterminant go to zero: $s_{\partial L}(i)(r) = 0$ for all $i \in \mathrm{Fin}(n)$ and $r \in R[X \setminus \{X_i\}]$
-* Indeterminates go to one: $s_{\partial L}(i)(X_i) = 1$ for all $i \in \mathrm{Fin}(n)$
-* Addition preservation: $s_{\partial L}(i)(P + Q) = s_{\partial L}(i)(P) + s_{\partial L}(i)(Q)$ for all $i \in \mathrm{Fin}(n)$, $P \in R[X]$ and $Q \in R[X]$. 
-* Shift product rule: $s_{\partial L}(i)(P \cdot Q) = s_{\partial L}(i)(P) \cdot Q + P \cdot s_{\partial L}(i)(Q) - X_i \cdot s_{\partial L}(i)(P) \cdot s_{\partial L}(i)(Q)$ for all $i \in \mathrm{Fin}(n)$, $p \in R[x]$ and $q \in R[x]$. 
+* Constants relative to the indeterminant go to zero: $s_{\partial L}(i, r) = 0$ for all $i \in \mathrm{Fin}(n)$ and $r \in R[X \setminus \{X_i\}]$
+* Indeterminates go to one: $s_{\partial L}(i, X_i) = 1$ for all $i \in \mathrm{Fin}(n)$
+* Addition preservation: $s_{\partial L}(i, P + Q) = s_{\partial L}(i, P) + s_{\partial L}(i, Q)$ for all $i \in \mathrm{Fin}(n)$, $P \in R[X]$ and $Q \in R[X]$. 
+* Left shift product rule: $s_{\partial L}(i, P \cdot Q) = s_{\partial L}(i, P) \cdot Q + P \cdot s_{\partial L}(i, Q) - X_i \cdot s_{\partial L}(i, P) \cdot s_{\partial L}(i, Q)$ for all $i \in \mathrm{Fin}(n)$, $p \in R[x]$ and $q \in R[x]$. 
 
 By the universal property of $R[X]$, these constructors are enough to define the partial left shifts on all polynomials $P \in R[X]$. 
 
 Let $S:\mathrm{Fin}(n)^* \to (R[X] \to R[X])$ be the [[monoid homomorphism]] which takes a list $a\in \mathrm{Fin}(n)^*$ of natural numbers less than $n$, to the composition of formal partial left shifts 
-$$S(a) \coloneqq s_{\partial L}(a_0) \circ s_{\partial L}(a_1) \circ s_{\partial L}(a_2) \circ \ldots$$ 
+$$S(a) \coloneqq s_{\partial L}(a_0, -) \circ s_{\partial L}(a_1, -) \circ s_{\partial L}(a_2, -) \circ \ldots$$ 
 in the [[function set]] $R[X] \to R[X]$. This is inductively defined by the following constructors
 
 * Monoidal unit preservation: $S(\epsilon) = \mathrm{id}_{R[X]}$
 * Monoidal product preservation: $S(a b) = S(a) \circ S(b)$ for all $a \in \mathrm{Fin}(n)^*$ and $b \in \mathrm{Fin}(n)^*$
-* Generators to partial left shifts $S(i) = s_{\partial L}(i)$ for all $i \in \mathrm{Fin}(n)$
+* Generators to partial left shifts $S(i) = s_{\partial L}(i, -)$ for all $i \in \mathrm{Fin}(n)$
 
 Given a non-zero polynomial $P \in R[x]$, the **degree** of $P$ is the maximum length of all lists $a \in \mathrm{Fin}(n)^*$ of natural numbers less than $n$ such that the evaluation of $S(a)$ at $P$ is non-zero
 $$\mathrm{deg}(P) \coloneqq \max_{a \in \mathrm{Fin}(n)^*, S(a)(P) \neq 0}(\mathrm{len}(a))$$ 
