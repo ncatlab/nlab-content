@@ -13,7 +13,7 @@
 * table of contents
 {:toc}
 
-(This article is about primitive elements in coalgebra theory, not about primitive elements for finite [[field extensions]].)  
+(This article is about primitive elements in coalgebra theory, not about primitive elements for finite [[field extensions]].)   
 
 ## Definition
 
@@ -23,7 +23,7 @@ Working over a [[commutative ring]] $R$, recall that a _unital_ or _coaugmented_
 
 An element  $x$ in a [[coalgebra]] $C$ is __primitive__ if $\Delta(x) = 1\otimes x + x\otimes 1$. This condition implies $\epsilon(x) = 0$. 
 
-This notion generalizes straightforwardly to unital [[corings]] over $R$ and even more generally to any [[comonoid object]] in a [[CMon-enriched monoidal category]] (see below).
+This notion generalizes straightforwardly to unital [[corings]] over $R$ and even more generally to any [[comonoid object|unital comonoid object]] in a [[CMon-enriched monoidal category]] (see below).
 
 ### Primitive element in a comodule
 
@@ -54,7 +54,7 @@ P \arrow[r, "i"] & C \arrow[rr, "\Delta", shift left] \arrow[rr, "1 \otimes \eta
 \end{tikzcd}
 
 \begin{proposition}
-If the comonoid $C$ admits an object $P$ of primitive elements, and if the [[commutative rig]] $\mathcal{C}[I,I]$ is [[multiplicatively cancellable rig| multiplicatively cancellable]] and verifies $2 \neq 1$, we then have:
+If the unital comonoid $C$ admits an object $P$ of primitive elements, the [[commutative rig]] $\mathcal{C}[I,I]$ verifies $2 \neq 1$, and the homsets $\mathcal{C}$[A,B] are [[multiplicatively cancellative modules]] over $\mathcal{C}[I,I]$, we then have:
 
 \begin{tikzcd}
 P \arrow[r, "i"] \arrow[rd, "0"'] & C \arrow[d, "\epsilon"] \\
@@ -82,10 +82,10 @@ $$
  = i;(1 \otimes \eta);(1 \otimes \epsilon);\epsilon + i;(\eta \otimes 1);(1 \otimes \epsilon);\epsilon
 $$
 
-We then perform the end of the proof using string diagrams:
+We then have:
+<img src="/nlab/files/primitive.png"/>
 
-...
-
+$\mathcal{C}[P,I]$ being a multiplicatively cancellative $\mathcal{C}[I,I]$-module, if $i;\epsilon \neq 0$, we would have that $1 = 2$ in $\mathcal{C}[I,I]$ which is false, therefore $i;\epsilon = 0$.
 \end{proof}
 
 ## Properties
@@ -127,4 +127,4 @@ The [[Milnor-Moore theorem]] gives further information: for Hopf algebras over a
 
 [[!redirects primitive element in a coalgebra]]
 
-[[!redirects primitive elements]]
+[[!redirects primitive elements]] 
