@@ -775,6 +775,9 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
 
 * {#IKW22} Syuhei Iguro, Teppei Kitahara, Ryoutaro Watanabe, *Global fit to $b \to c \tau \nu$ anomalies 2022 mid-autumn* &lbrack;[arXiv:2210.10751](https://arxiv.org/abs/2210.10751)&rbrack;
 
+* Ashutosh Kotwal, Joaquim Matias, Andrea Mauri, Tom Tong, Lukas Varnhorst, *Round table on Standard Model Anomalies* &lbrack;[arXiv:2211.13030](https://arxiv.org/abs/2211.13030)&rbrack;
+
+
 
 Further outlook:
 
