@@ -48,6 +48,8 @@ where $x^i$ is the $i$-th [[power function]] for the (non-commutative) multiplic
 
 * [[polynomial]]
 
+* [[degree of a polynomial]]
+
 ## References
 
 * Wikipedia, _[Polynomial function](https://en.wikipedia.org/wiki/Polynomial_function)_
