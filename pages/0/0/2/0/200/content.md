@@ -81,6 +81,8 @@ preserve multiplicative inverses, $f\left( a/b \right) = f(a) \cdot \big(f(b)\bi
 
 * [[Rng]]
 
+* [[Rig]]
+
 * [[Mon]], [[CMon]]
 
 ## References
