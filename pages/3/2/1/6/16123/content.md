@@ -15,7 +15,7 @@
 
 ## Idea
 
-A polynomial all of whose monomial terms have the same degree. See also [[polynomial]].
+A polynomial all of whose monomial terms have the same [[degree of a polynomial|degree]]. See also [[polynomial]].
 
 ## Definition
 
