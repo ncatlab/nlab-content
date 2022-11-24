@@ -413,6 +413,10 @@ There is a [[faithful functor]] from monoidal categories to [[multicategories]],
 
 The [[internal language]] of monoidal categories is a flavor of [[linear logic]]/[[linear type theory]] (non-commutative multiplicative intuitionistic linear type theory). In this logical context the [[string diagrams]] of monoidal categories are called [[proof nets]].
 
+### Scalars
+
+In any monoidal category $(\mathcal{C}, \otimes, I)$, the [[hom-set]] $\mathcal{C}[I,I]$ is a [[commutative rig]]. It was originally remarked in [Kelly & Laplaza (1980), Prop. 6.1](#KellyLaplaza80), and recently popularized in the context of [[categorical quantum mechanics]] by [[Samson Abramsky]], firstly in [Abramsky & Coecke (2004), Sec. 6](#AbramskyCoecke04). The proof uses the [[Eckmann-Hilton argument]].
+
 ## Where the definition comes from
 
 The definition of monoidal category looks rather complicated at first sight, so it is natural to wonder if there is some magic wand we can wave that makes it appear automatically.  For example, one might wonder if we can define monoidal categories using [[internalization]].  
@@ -894,6 +898,11 @@ Textbook account with an eye towards [[finite quantum mechanics in terms of dagg
 
 * {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], *Categories for Quantum Theory*, Oxford University Press 2019 ([ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616))
 
+Concerning the scalars:
+
+* {#KellyLaplaza80}[[Max Kelly]], M.L. Laplaza, _Coherence for compact closed categories_,  Journal of Pure and Applied Algebra 19: 193&#8211;213 (1980), doi:[10.1016/0022-4049(80)90101-2](https://doi.org/10.1016/0022-4049%2880%2990101-2).
+
+* {#AbramskyCoecke04}[[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_ , Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) &lbrack;[arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130)&rbrack;
 
 
 [[!redirects monoidal category]]
