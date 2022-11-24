@@ -26,6 +26,6 @@ Another different definition was later formulated by Katz.
 
 ## References
 
-* {#Calegari13} Frank Calegari, _Congruences Between Modular Forms_, 2013 [pdf](https://swc-math.github.io/aws/2013/2013CalegariLectureNotes.pdf)
+* {#Calegari13} Frank Calegari, _Congruences Between Modular Forms_, 2013 ([pdf](https://swc-math.github.io/aws/2013/2013CalegariLectureNotes.pdf))
 
-* {#Eischen21} Ellen Eischen, _An Introduction to Eisenstein Measures_, 2021 [arxiv:2101.01879](https://arxiv.org/abs/2101.01879)
+* {#Eischen21} Ellen Eischen, _An Introduction to Eisenstein Measures_, 2021 ([arxiv:2101.01879](https://arxiv.org/abs/2101.01879))
