@@ -77,6 +77,12 @@ is an isomorphism.
 
 The category $D(\mathcal{O}_{X,\square})$ admits the [[six operations]] ([ScholzeLCM](#ScholzeLCM), Lecture XI).
 
+## Solid $\mathcal{O}_{X}^{+}/\pi$ almost-modules
+
+In [Mann22](#Mann22), Mann combines the theory of solid modules with the theory of [[almost modules]] to define the [[six operations]] on [[rigid analytic spaces]], and prove [[Poincare duality]] in this setting (Poincare duality for rigid analytic spaces had previously been proven by Zavyalov in [Zavyalov21](#Zavyalov21), using different methods).
+
+The theory of [[almost modules]] is necessary in order to make the structure sheaf $\mathcal{O}_{X}^{+}/\pi$ [[acyclic]] on [[affinoid]] [[perfectoid spaces]] (compare the analogous classical situation for [[abelian sheaf cohomology]] or [[Cech cohomology]] for [[schemes]]).
+
 ## Related concepts
 
 * [[condensed mathematics]]
@@ -91,5 +97,8 @@ The category $D(\mathcal{O}_{X,\square})$ admits the [[six operations]] ([Scholz
 
 * {#ScholzeLCM} [[Peter Scholze]], _Lectures on condensed mathematics_, [pdf](https://www.math.uni-bonn.de/people/scholze/Condensed.pdf)
 
+Zavyalov's proof of Poincare duality for rigid analytic spaces can be found in
+
+* {#Zavyalov21} Bogdan Zavyalov, _Mod-p Poincaré Duality in p-adic Analytic Geometry_, [arXiv:2111.01830](https://arxiv.org/abs/2111.01830)
 
 [[!redirects solid modules]]
