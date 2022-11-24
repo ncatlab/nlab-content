@@ -1,4 +1,8 @@
 
+
+[[Foit_CQTS-Talk-Nov2022.pdf:file]]
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
