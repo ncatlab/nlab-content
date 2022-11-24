@@ -273,7 +273,9 @@ from the [[stable (∞,1)-category]] of $A$-modules to the [[stabilization]] of 
 
 There is a notion of [[algebra over an operad]]. The corresponding notion of modules is described at _[[module over an algebra over an operad]]_.
 
+### Multiplicatively cancellative module over a rig
 
+A module $M$ over a [[rig]] $S$ is called multiplicatively cancellative (in [Nazari & Ghalandarzadeh (2019), Sec. 3](#NazariGhalandarzadeh19)) if for any $s,s' \in S$ and $0 \neq m \in M$, $sm = s'm$ implies $s = s'$.
 
 ## Examples
 
@@ -499,8 +501,6 @@ The observation that the category of modules over a ring $R$ is equivalent to th
 
 * {#Quillen70} [[Daniel G. Quillen]], _On the (co-)homology of commutative rings_, in Proc. Symp. on Categorical Algebra, 65 &#8211; 87, American Math. Soc.,  1970.
 
-
-
 The fully abstract higher categorical concept in terms of [[stabilization|stabilized]] [[overcategory|overcategories]] and the [[tangent (∞,1)-category]] appears in 
 
 * [[Jacob Lurie]], _[[Deformation Theory]]_
@@ -508,6 +508,10 @@ The fully abstract higher categorical concept in terms of [[stabilization|stabil
 [[(∞,1)-modules]] over [[A-∞ algebras]] are discussed in section 4.2 of
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
+
+Multiplicatively cancellative modules over a rig appear in
+
+* {#NazariGhalandarzadeh19} Rafieh Razavi Nazari, Shaban Ghalandarzadeh, _Multiplication semimodules_, 2019 ([arXiv:0704.2106](https://arxiv.org/abs/1904.11729))
 
 
 [[!redirects module]]
@@ -526,3 +530,6 @@ The fully abstract higher categorical concept in terms of [[stabilization|stabil
 [[!redirects module over a commutative ring]]
 [[!redirects modules over a commutative ring]]
 [[!redirects modules over commutative rings]]
+
+[[!redirects multiplicatively cancellative module]]
+[[!redirects multiplicatively cancellative modules]]
