@@ -40,7 +40,7 @@ where $]a,b[$, $]a,c[$, $]c,b[$ are [[open intervals]] in $A$.
 
 ## References ##
 
-* Auke Booij, *Extensional constructive real analysis via locators*, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
+* [[Auke Booij]], *Extensional constructive real analysis via locators*, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
 
 [[!redirects locators]]
 
