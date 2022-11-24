@@ -35,6 +35,7 @@ We therefore will need to discuss [[confluence]], [[normal form]], [[termination
 
 * [[Globular]]
 
+* [[abstract rewriting system]]
 
 ## References
 
