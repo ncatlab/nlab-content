@@ -18,7 +18,10 @@ I might want to switch out derivatives with shift operators, since the definitio
 J-B: Do you know the notion of [[Hasse-Schmidt derivative]]? Maybe it could work in positive characteristic.
 
 With one indeterminant $x$, it is defined for every $k \ge 0$ by $D^{k}(x^{n+k}) = \binom{n+k}{k} x^{n}$ and I think that we then have for all $P:R[x]$, $deg(P) = min \{i \ge 0, \forall l \ge i, D^{l}(P) = 0 \}$ (or something similar).
+
+Anonymous: definitions now use maximum $deg(P) = max \{i \ge 0, \forall l \le i, D^{l}(P) \neq 0 \}$
 =--
+
 
 ### Polynomials in one indeterminant
 
