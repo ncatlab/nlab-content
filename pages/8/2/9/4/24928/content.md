@@ -75,9 +75,9 @@ is an isomorphism.
 
 ## Six-functor formalism
 
-The category $D(\mathcal{O}_{X,\square})$ admits the [[six operations]] ([ScholzeLCM](#ScholzeLCM), Lecture XI). The first four functors $-\otimes -$, $\Hom(-,-)$, $f_{*}$, $f^{*}$ are classical and do not require condensed mathematics. The functor $f_{!}$ has to be constructed, and $f^{!}$ will be defined to be its right adjoint.
+The category $D(\mathcal{O}_{X,\square})$ admits the [[six operations]] ([ScholzeLCM](#ScholzeLCM), Lecture XI). The first four functors $-\otimes -$, $\Hom(-,-)$, $f_{*}$, $f^{*}$ are classical and do not require condensed mathematics. The functor $f_{!}$ has to be constructed, and $f^{!}$ will be defined to be its [[right adjoint]].
 
-Let $f:X\to Y$ be a separated map of finite type. Then the corresponding map of adic spaces $f_{\ad}:X^{\ad}\to Y^{\ad}$ factors as $f_{\ad}:X^{\ad}\xrightarrow{j} X^{\ad/ Y} \xrightarrow{f^{\ad /Y}} Y^{\ad}$, where the map $j$ is an open immersion and an isomorphism if $f$ is proper.
+Let $f:X\to Y$ be a separated map of finite type. Then the corresponding map of [[adic spaces]] $f_{\ad}:X^{\ad}\to Y^{\ad}$ factors as $f_{\ad}:X^{\ad}\xrightarrow{j} X^{\ad/ Y} \xrightarrow{f^{\ad /Y}} Y^{\ad}$, where the map $j$ is an open immersion and an isomorphism if $f$ is proper.
 
 \begin{proposition}([ScholzeLCM](#ScholzeLCM) Proposition 11.2)
 
@@ -91,7 +91,7 @@ $$j_{!}:D((\mathcal{O}_{X^{\ad}},\mathcal{O}_{X^{\ad }}^{+})_{\square})\to D(\ma
 
 \end{proposition}
 
-\begin{definition}
+\begin{definition}([ScholzeLCM](#ScholzeLCM) Definition 11.3)
 The functor $f_{!}:D(\mathcal{O}_{X},\square)\to D(\mathcal{O}_{Y,\square})$ is defined to be the composition
 
 $$f_{!}=f_{*}^{\ad /Y}\circ j_{!}.$$
@@ -101,9 +101,20 @@ It turns out that the functor $f_{!}$ commutes with all direct sums and therefor
 
 ## Solid $\mathcal{O}_{X}^{+}/\pi$ almost-modules
 
-In [Mann22](#Mann22), Mann combines the theory of solid modules with the theory of [[almost modules]] to define the [[six operations]] on [[rigid analytic spaces]], and prove [[Poincare duality]] in this setting (Poincare duality for rigid analytic spaces had previously been proven by Zavyalov in [Zavyalov21](#Zavyalov21), using different methods).
+In [Mann22](#Mann22), Mann combines the theory of solid modules with the theory of [[almost modules]] to construct the derived $\infty$-category (in the sense of 1.3.2 of [LurieHA](#LurieHA)) $\mathcal{D}_{\square}^{\a}(\mathcal{O}_{X}^{+}/ \pi)$ of solid $\mathcal{O}_{X}^{+}/ \pi$ [[almost modules]] and with it the [[six operations]] on [[rigid analytic spaces]], in order to prove the following "mod p" version of [[Poincare duality]]:
+
+\begin{proposition} ([Mann22](#Mann22), Theorem 1.1.1)
+
+Let $K$ be an algebraically closed field of characteristic $0$ whose residue field is of characteristic $p$. Let $X$ be a proper smooth rigid-analytic variety of pure dimension $d$ over $K$. Then for all $i\in\mathbb{Z}$ there is a natural perfect pairing
+
+$$H_{et}^{i}(X,\mathbb{F}_{p})\otimes_{\mathbb{F}}H_{et}^{2d-i}(X,\mathbb{F}_{p})\to\mathbb{F}_{p}(-d).$$
+\end{proposition}
+
+"mod p" Poincare duality for rigid analytic spaces had also previously been proven by Zavyalov in [Zavyalov21](#Zavyalov21), using different methods.
 
 The theory of [[almost modules]] is necessary in order to make the structure sheaf $\mathcal{O}_{X}^{+}/\pi$ [[acyclic]] on [[affinoid]] [[perfectoid spaces]] (compare the analogous classical situation for [[abelian sheaf cohomology]] or [[Cech cohomology]] for [[schemes]]).
+
+In the course of proving Poincare duality for rigid analytic spaces, Mann also proves a version of a p-torsion [[Riemann-Hilbert correspondence]] for small v-stacks ([Mann22](#Mann22), Theorem 3.9.23). 
 
 ## Related concepts
 
@@ -122,5 +133,7 @@ The theory of [[almost modules]] is necessary in order to make the structure she
 Zavyalov's proof of Poincare duality for rigid analytic spaces can be found in
 
 * {#Zavyalov21} Bogdan Zavyalov, _Mod-p Poincaré Duality in p-adic Analytic Geometry_, [arXiv:2111.01830](https://arxiv.org/abs/2111.01830)
+
+* {#LurieHA} [[Jacob Lurie]], _Higher Algebra_, ([pdf](https://people.math.harvard.edu/~lurie/papers/HA.pdf))
 
 [[!redirects solid modules]]
