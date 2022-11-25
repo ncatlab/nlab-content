@@ -445,6 +445,10 @@ Lecture notes:
 
   > (with an eye towards [[quantum probability]] and [[quantum computation]])
 
+* [[Stéphane Attal]], *Quantum Mechanics*, Lecture 5 in:  *Lectures on Quantum Noises* &lbrack;[pdf](http://math.univ-lyon1.fr/~attal/Quantum_Mechanics.pdf), [webpage](http://math.univ-lyon1.fr/~attal/chapters.html)&rbrack;
+
+  > (with an eye towards [[quantum probability]] and [[quantum noise]])
+
 
 Further references:
 
