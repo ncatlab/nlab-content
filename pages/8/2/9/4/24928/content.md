@@ -75,7 +75,7 @@ is an isomorphism.
 
 ## Six-functor formalism
 
-The category $D(\mathcal{O}_{X,\square})$ admits the [[six operations]] ([ScholzeLCM](#ScholzeLCM), Lecture XI).
+The category $D(\mathcal{O}_{X,\square})$ admits the [[six operations]] ([ScholzeLCM](#ScholzeLCM), Lecture XI). The first four functors $-\otimes -$, $\Hom(-,-)$, $f_{*}$, $f^{*}$ are classical and do not require condensed mathematics.The functor $f_{!}$ has to be constructed, and $f^{!}$ will be defined to be its right adjoint.
 
 ## Solid $\mathcal{O}_{X}^{+}/\pi$ almost-modules
 
