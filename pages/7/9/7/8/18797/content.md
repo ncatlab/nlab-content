@@ -6,6 +6,14 @@
 +-- {: .hide}
 [[!include trigonometry -- contents]]
 =--
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+#### Algebra
++-- {: .hide}
+[[!include higher algebra - contents]]
+=--
 =--
 =--
 
@@ -71,6 +79,16 @@ The _sine function_ is the [[function]] $\sin \;\colon\; \mathbb{R} \to \mathbb{
 
    (see [Trimble](#Trimble): *[[toddtrimble:Characterization of sine]]*. Some additional discussion at the [nForum](https://nforum.ncatlab.org/discussion/5773/a-short-note-for-todd-trimble/).)
 
+1. $\sin$ is the unique function given by the infinite series
+
+$$\sin(x) \coloneqq \sum_{i = 0}^{\infty} \frac{(-1)^i x^{2 i + 1}}{(2 i + 1)!}$$
+
+### In arbitrary Archimedean ordered fields
+
+In general, Archimedean ordered fields which are not [[sequentially Cauchy complete]] do not have an sine function. Nevertheless, the sine map is still guaranteed to be a [[partial function]], because every Archimedean ordered field is a [[Hausdorff space]] and thus a [[sequentially Hausdorff space]]. Thus, an axiom could be added to an Archimedean ordered field $F$ to ensure that the sine partial function is actually a total function:
+
+**Axiom of sine function:** _For all elements $x \in F$, there exists a unique element $\sin(x) \in F$ such that for all positive elements $\epsilon \in F_+$, there exists a natural number $N \in \mathbb{N}$ such that for all natural numbers $n \in \mathbb{N}$, if $n \geq N$, then  $-\epsilon \lt \left(\sum_{i = 0}^{n} \frac{(-1)^i x^{2 i + 1}}{(2 i + 1)!}\right) - \sin(x) \lt \epsilon$._
+
 ## Properties
 
 ### Relation to other functions
@@ -89,7 +107,7 @@ The [[roots]] of the sine function, hence the argument where its value is [[zero
 
 * [[cosine]]
 
-* [[arcsine]]
+* [[arcsin]]
 
 * [[hyperbolic sine]], [[hyperbolic cosine]]
 
@@ -105,7 +123,7 @@ The [[roots]] of the sine function, hence the argument where its value is [[zero
 
 See also
 
-* Wikipedia, _[Sine](https://en.wikipedia.org/wiki/Sine)_
+* Wikipedia, _[Sine and cosine](https://en.wikipedia.org/wiki/Sine_and_cosine)_
 
 [[!redirects sin]]
 
