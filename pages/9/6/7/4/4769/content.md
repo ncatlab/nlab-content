@@ -98,6 +98,12 @@ since according to the [[algebraic limit theorem]], limits distribute over finit
 
 In particular, this is how exponential functions are defined in [[Clifford algebras]] and [[matrix algebras]]. However, the exponential functions in non-commutative algebras are not [[abelian group homomorphisms]], because multiplication is not commutative while addition is commutative. 
 
+## In arbitrary Archimedean ordered fields
+
+In general, Archimedean ordered fields which are not [[sequentially Cauchy complete]] do not have an exponential function. Nevertheless, the exponential map is still guaranteed to be a [[partial function]], because every Archimedean ordered field is a [[Hausdorff space]] and thus a [[sequentially Hausdorff space]]. Thus, an axiom could be added to an Archimedean ordered field $F$ to ensure that the exponential partial function is actually a total function:
+
+**Axiom of exponential function:** _For all elements $x \in F$, there exists a unique element $\exp(x) \in F$ such that for all positive elements $\epsilon \in F_+$, there exists a natural number $N \in \mathbb{N}$ such that for all natural numbers $n \in \mathbb{N}$, if $n \geq N$, then $-\epsilon \lt \left(1 + \frac{x}{n}\right)^{n} - \exp(x) \lt \epsilon$ (or equivalently, $-\epsilon \lt \left(\sum_{i = 0}^{n} \frac{x^i}{i!}\right) - \exp(x) \lt \epsilon$)._
+
 ## In Lie groups {#exp_of_Lie_groups}
 
 Note: this section is under repair. 
