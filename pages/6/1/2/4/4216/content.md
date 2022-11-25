@@ -113,5 +113,6 @@ Logical conjunction as
 [[!redirects additive conjunction]]
 [[!redirects additive conjunctions]]
 
-
+[[!redirects linear conjunction]]
+[[!redirects linear conjunctions]]
 
