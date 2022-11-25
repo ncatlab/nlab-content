@@ -360,6 +360,8 @@ $$
 
 * [[logarithmic CFT]]
 
+* [[Brownian loop soup]]
+
 * [[6d (2,0)-supersymmetric QFT]]
 
 ## Related concepts
