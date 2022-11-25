@@ -554,17 +554,17 @@ Stone-von Neumann**
 
 \linebreak
 
-* 23 Nov 2022
+* {#FoitNov2022} 23 Nov 2022
 
-  Valentino Foit (NYUAD)
+  [[Valentino Foit]] (NYUAD)
 
   **Brownian loops and conformally invariant systems**
 
-  slides: [pdf](https://www.dropbox.com/s/128zspb5sk8hgfe/Foit_CTQS-Nov2022.pdf?dl=0)
+  slides: [[Foit_CQTS-Nov2022.pdf:file]]
 
   video: [rec](https://nyu.zoom.us/rec/play/DxmoQSXAGXA331jrD4isyOJrmpvTdgmRnaDLeD3gAabO1v6zlTjYNcxPT74SS0VDtWzbiRyYQTltw9vp.dI1nqe74UCpaouu_?continueMode=true&_x_zm_rtaid=kQZZ5EfLRZiMesvQXmFYBg.1669295362714.dd968befceb1ba32e41f0349dfb7ca0f&_x_zm_rhtaid=14)
 
-  > The Brownian loop soup (BLS) is a stochastic system that is constructed from random loops in the plane and is invariant under conformal transformations. Correlation functions of certain observables can be used to formulate the BLS as a Conformal Field Theory (CFT). I will give an overview of CFTs in two dimensions and point out their relation to certain stochastic systems. Then I will discuss the BLS including some recent progress, such as the operator content, the continuous spectrum, and hints of an extended symmetry algebra.
+  > The [[Brownian loop soup]] (BLS) is a stochastic system that is constructed from random loops in the plane and is invariant under conformal transformations. Correlation functions of certain observables can be used to formulate the BLS as a Conformal Field Theory (CFT). I will give an overview of CFTs in two dimensions and point out their relation to certain stochastic systems. Then I will discuss the BLS including some recent progress, such as the operator content, the continuous spectrum, and hints of an extended symmetry algebra.
 
 
 \linebreak
