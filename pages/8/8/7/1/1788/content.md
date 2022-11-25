@@ -1,19 +1,299 @@
-\begin{tikzcd}[row sep=15pt]
-  {}
-  \ar[d, phantom, "\multimap"{rotate=90,, scale=1.8}, "{\scalebox{.7}{unit}}"{xshift=9pt, yshift=-4pt}]
+
+The [[unit of a monad]] is 
+
+$$
+  \begin{array}{ccc}
+    D 
+    &
+      \xrightarrow{
+        \;\;
+        \eta^{\bigcirc_B}_D
+        \;\;
+      }
+    &
+    Maps(B,D)
+    \\
+    d 
+    &\mapsto& 
+   \big(
+      b \;\mapsto\; d
+   \big)
+   \mathrlap{ \;=\; const_d }
+  \end{array}
+$$
+
+The multiplication is given by
+
+$$
+  \begin{array}{ccc}
+    Maps\big(
+      B ,\,
+      Maps(B,D)
+    \big)
+    &\xrightarrow{\;\;\; 
+       \mu^{\bigcirc_B} 
+    \;\;\;}&
+    Maps(B,D)
+    \\
+    f(-)(-)
+    &\mapsto&
+    \big(
+      b
+      \;\mapsto\;
+      f(b)(b)
+    \big)
+    \mathrlap{\,.}
+  \end{array}
+$$
+
+[[unitality]]
+
+$$
+  \begin{array}{ccc}
+  Maps(B,D)
+  &\xrightarrow{\;\;\;  
+     \eta^{\bigcirc_B}_{Maps(D,B)}
+  \;\;\;}&
+  Maps\big(
+    B, Maps(B,D)
+  \big)
+  &\xrightarrow{\;\;\;
+    \mu^{ \bigcirc_B }_{D}
+  \;\;\;}&
+  Maps(B,D)
   \\
-  C
-\end{tikzcd}
+  \big(
+    b' \mapsto f(b')
+  \big)
+  &\mapsto&
+  \Big(
+    b \mapsto 
+    \big(
+      b' \mapsto f(b')
+    \big)
+  \Big)
+  &\mapsto&
+  \big(
+    b \mapsto f(b)
+  \big)
+  \end{array}
+$$
 
-\begin{tikzcd}[row sep=15pt]
-  C
-  \ar[d, phantom, "\multimap"{rotate=-90, scale=1.8}, "{\scalebox{.7}{co-unit}}"{xshift=16pt, yshift=6pt}]
+and
+
+$$
+  \begin{array}{ccc}
+  Maps(B,D)
+  &\xrightarrow{\;\;\;  
+     Maps\big(
+       B,
+       \eta^{\bigcirc_B}_{D}
+     \big)
+  \;\;\;}&
+  Maps\big(
+    B, Maps(B,D)
+  \big)
+  &\xrightarrow{\;\;\;
+    \mu^{ \bigcirc_B }_{D}
+  \;\;\;}&
+  Maps(B,D)
   \\
-  {}
-\end{tikzcd}
+  \big(
+    b \mapsto f(b)
+  \big)
+  &\mapsto&
+  \Big(
+    b \mapsto 
+    \big(
+      b' \mapsto f(b)
+    \big)
+  \Big)
+  &\mapsto&
+  \big(
+    b \mapsto f(b)
+  \big)
+  \end{array}
+$$
+
+[[associativity]]
+
+$$
+  \begin{array}{ccc}
+    Maps\Big(
+      B,
+      Maps\big(B,
+        Maps(B,D)
+      \big)
+    \Big)
+    &\xrightarrow{\;\;\;
+      \mu^{\bigcirc_B}_{
+        Maps(B,D)
+      }
+    \;\;\;}&
+    Maps\big(B,
+      Maps(B,D)
+    \big)
+    &\xrightarrow{\;\;\;
+      \mu^{\bigcirc_B}_{
+        D
+      }
+    \;\;\;}&
+    Maps(B,D)
+    \\
+    \Big(
+      b \mapsto
+      \big(
+        b' \mapsto 
+        (b'' \mapsto f(b, b', b''))
+      \big)
+    \Big)
+    &\mapsto&
+    \big(
+      b' \mapsto 
+      (b'' \mapsto f(b', b', b''))
+    \big)
+    &\mapsto&
+    \big( 
+      b'' \mapsto f(b'', b'', b'')
+    \big)
+  \end{array}
+$$
+
+$$
+  \begin{array}{ccc}
+    Maps\Big(
+      B,
+      Maps\big(B,
+        Maps(B,D)
+      \big)
+    \Big)
+    &\xrightarrow{\;\;\;
+      Maps\big(
+        B,
+        \mu^{\bigcirc_B}_{
+          D
+        }
+      \big)
+    \;\;\;}&
+    Maps\big(B,
+      Maps(B,D)
+    \big)
+    &\xrightarrow{\;\;\;
+      \mu^{\bigcirc_B}_{
+        D
+      }
+    \;\;\;}&
+    Maps(B,D)
+    \\
+    \Big(
+      b \mapsto
+      \big(
+        b' \mapsto 
+        (b'' \mapsto f(b, b', b''))
+      \big)
+    \Big)
+    &\mapsto&
+    \big(
+      b' \mapsto 
+      (b'' \mapsto f(b', b'', b''))
+    \big)
+    &\mapsto&
+    \big( 
+      b'' \mapsto f(b'', b, b)
+    \big)
+  \end{array}
+$$
+
+adjunction
+
+$$
+  \begin{array}{ccc}
+    b \colon B
+    \; \vdash \;
+    &
+    D 
+    &\xrightarrow{\;\;\;
+      id_D
+    \;\;\;}& 
+    D
+    \\
+    && \updownarrow
+    \\
+    &
+    D
+    &\xrightarrow{\;\;\;
+      \eta^{ \bigcirc_B }_D
+    \;\;\;}&
+    \prod_{b \colon B} D
+    \\
+    &
+    d &\mapsto& (d, \cdots, d)
+  \end{array}
+$$
+
+\linebreak
+
+$$
+  \begin{array}{ccc}
+    &
+    \prod_{b' \colon B} 
+    D_{b'}
+    &\xrightarrow{\;\;\;
+      id
+    \;\;\;}& 
+    \prod_{b' \colon B} 
+    D_{b'}
+    \\
+    && \updownarrow
+    \\
+    b \colon B
+    \;\dashv\;
+    &
+    \prod_{b' \colon B} 
+    D_{b'}
+    &\xrightarrow{\;\;\;
+      \epsilon^{ \star_B }_D
+    \;\;\;}&
+    D_{b}
+    \\
+    &
+    (d_{b'})_{b' \colon B} 
+    &\mapsto& 
+    d_{b}
+  \end{array}
+$$
+
+$$
+  \begin{array}{ccc}
+    \prod_{b \colon B}
+    (p_B)^\ast
+    \prod_{b' \colon B}
+    (p_B)^\ast
+    D
+    &\xrightarrow{\;\;\;
+      \prod_{b \colon B}
+      \big(
+         \epsilon^{\star_B}
+      \big)
+      (p_B)^\ast
+    \;\;\;}&
+    \prod_{b' \colon B}
+    (p_B)^\ast
+    C
+    \\
+    \big(
+      (f_{b'})_{b}
+    \big)_{b', b \colon B}
+    &\mapsto&
+    \big(
+      (f_{b})_{b}
+    \big)_{b \colon B}    
+  \end{array}
+$$
 
 
-[[Foit_CQTS-Talk-Nov2022.pdf:file]]
+***
+
 [[test-file.pdf:file]]
 Please rerender the previous link...
 
