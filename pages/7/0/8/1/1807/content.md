@@ -41,6 +41,20 @@ $$
 has a structure of an associative (unital) algebra, called __convolution algebra__, in which the product of two linear maps $f,g$ is given by
 $$f\star g = m\circ(f\otimes g)\circ\Delta. $$
 
+### Of maps from a comonoid to a monoid in a closed monoidal category
+
+\begin{proposition}
+Let $(\mathcal{C}, \otimes, I, \multimap)$ be a [[closed monoidal category]],  $(A,\Delta,\eta)$ a [[comonoid]] in $\mathcal{C}$ and $(B,\nabla,\epsilon)$ a [[monoid]]. Then  $A \multimap B$ is a monoid.
+\end{proposition}
+
+\begin{proposition}
+Let $(\mathcal{C}, \otimes, I, \multimap)$ be a [[closed monoidal category]], $Mon(\mathcal{C})$ the [[category of monoids]] of $\mathcal{C}$ and $Comon(\mathcal{C})$ the [[category of comonoids]] of $\mathcal{C}$. We then have a functor:
+$$
+Comon(\mathcal{C})^{op} \times Mon(\mathcal{C}) \rightarrow Mon(\mathcal{C})
+$$
+which associate $A \multimap B$ to $(A,B)$
+\end{proposition}
+
 ### Of a group
  {#OfAGroup}
 
