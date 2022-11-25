@@ -166,6 +166,11 @@ The six functor formalism for [[motivic homotopy theory]] was developed in
 
 * [[Joseph Ayoub]], _Les six op&#233;rations de Grothendieck et le formalisme des cycles &#233;vanescants dans le monde motivique_ PhD thesis, Paris ([pdf](http://www.math.uiuc.edu/K-theory/0761/THESE.pdf))
 
+See also:
+
+* Brad Drew, Martin Gallauer, *The universal six-functor formalism* &lbrack;[arXiv:2009.13610](https://arxiv.org/abs/2009.13610)&rbrack;
+
+
 Discussion for pull-push of ([[holonomic D-module|holonomic]]) [[D-modules]] is in
 
 * [[Joseph Bernstein]], around p. 18 of _Algebraic theory of D-modules_ ([[BernsteinDModule.pdf:file]], [ps](http://www.math.uchicago.edu/~mitya/langlands/Bernstein/Bernstein-dmod.ps), [dvi](http://www.math.uchicago.edu/~mitya/langlands/Bernstein/Bernstein-dmod.dvi))
