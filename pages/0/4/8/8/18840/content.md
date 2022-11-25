@@ -209,7 +209,7 @@ Further/other discussion of quantum probability theory:
 
 * {#RedeiSummers06} [[Miklos Redei]], [[Stephen Summers]], _Quantum Probability Theory_, Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics Volume 38, Issue 2, June 2007, Pages 390-417 ([arXiv:quant-ph/0601158](https://arxiv.org/abs/quant-ph/0601158), [doi:10.1016/j.shpsb.2006.05.006](https://doi.org/10.1016/j.shpsb.2006.05.006))
 
-* {#Attal} S. Attal, _Quantum probability_ ([pdf](http://math.univ-lyon1.fr/~attal/Quantum_Probability.pdf))
+* {#Attal} [[Stéphane Attal]], *Quantum Probability*, Lecture 7 in:  *Lectures on Quantum Noises* &lbrack;[pdf](http://math.univ-lyon1.fr/~attal/Quantum_Probability.pdf), [webpage](http://math.univ-lyon1.fr/~attal/chapters.html)&rbrack;
 
 * {#Gleason09} Jonathan Gleason, _The $C^*$-algebraic formalism of quantum mechanics_, 2009 ([[Gleason09.pdf:file]], [[GleasonAlgebraic.pdf:file]])
 
