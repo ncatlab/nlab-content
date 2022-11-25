@@ -28,6 +28,8 @@ Broadly, quantum noise is [[noise]] in the context of [[quantum physics]]. (...)
 
 ## Related concepts
 
+* [[quantum channel]]
+
 * [[error correction]]
 
 * [[quantum error correction]]
