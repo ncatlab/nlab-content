@@ -7,8 +7,31 @@
 
 The most basic form of the Riemann--Hilbert correspondence states that the [[category]] of [[flat connection|flat]] [[vector bundles]] on a suitable [[space]] is equivalent to the category of [[local systems]].
 
-
 While [[Riemann-Hilbert problem|Hilbert's 21st problem]] has a negative solution, there is a generalized sheaf-theoretical formulation which leads to an equivalence of categories discovered by Mebkhout and a bit later also by [[Kashiwara]].
+
+## p-torsion and p-adic Riemann-Hilbert correspondence
+
+[[Bhargav Bhatt]] and [[Jacob Lurie]] have formulated a version of the Riemann-Hilbert correspondence for finite type schemes over a complete and algebraically closed extension of the [[p-adic numbers]]:
+
+\begin{proposition}([Bhatt21](#Bhatt21), Theorem 5.1)
+
+Let $C$ be a complete and algebraically closed extension of $\mathbb{Q}_{p}$ and let $X$ be of finite type over $\mathcal{O}_{C}$. Then there is a natural exact functor
+
+$$\RH: D_{\cons}^{b}(X_{C},\mathbb{F}_{p})\to D_{\qc}^{b}(X\otimes_{\mathcal{O}_{C}} \mathcal{O}_{C}/p).$$
+
+This functor commutes with proper pushforward, intertwines [[Verdier duality]] and [[Grothendieck duality]] in the almost category, and interacts well with the perverse [[t-structure]].
+\end{proposition}
+
+Bhatt and Lurie also have a version with p-adic, instead of p-torsion, coefficients (this time the schemes have to be smooth proper varieties over a finite extension of the p-adic numbers).
+
+\begin{proposition}([Bhatt21](#Bhatt21), Theorem 5.4)
+
+Let $K$ be a finite extension of $\mathbb{Q}_{p}$ and let $X$ be a smooth proper variety over $K$. Then there is a natural exact functor
+
+$$\RH_{\mathcal{D}}: D_{wHT}^{b}(X_{C},\mathbb{Q}_{p})\to DF_{coh}(\mathcal{D}_{X})$$
+
+where $D_{wHT}^{b}(X_{C},\mathbb{Q}_{p})$ is a full subcategory of $D_{cons}^{b}(X_{C},\mathbb{Q}_{p})$ spanned by "weakly Hodge-Tate sheaves" and $DF_{coh}(\mathcal{D}_{X})$ is a suitable derived category of [[D-modules|$\mathcal{D}_{X}$-modules]] equipped with a "good" filtration. This functor commutes with proper pushforward, intertwines [[Verdier duality]] and [[Grothendieck duality]] in the almost category, and interacts well with the perverse [[t-structure]].
+\end{proposition}
 
 ## Related entries
 
@@ -37,6 +60,8 @@ Generalization to [[flat infinity-connections]] via the [[dg-nerve]] and [[itera
 Generalization to [[p-adic geometry]] is discussed in
 
 * [[Jacob Lurie]], _A Riemann--Hilbert Correspondence in p-adic Geometry_, [Felix Klein Lectures 2022](https://www.hcm.uni-bonn.de/events/eventpages/felix-klein-lectures/fkl-2022-lurie/).
+
+* {#Bhatt21}[[Bhargav Bhatt]], _Algebraic Geometry in Mixed Characteristic_, preprint (2021) arXiv:[2112.12010](https://arxiv.org/abs/2112.12010)
 
 [[!redirects Riemann-Hilbert correspondence]]
 [[!redirects Riemann–Hilbert correspondence]]
