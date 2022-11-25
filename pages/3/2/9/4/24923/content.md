@@ -27,7 +27,14 @@ In [[quantum information theory]] a *bit flip code* is a [[quantum error correct
 
 ### 3-qbit flip code
 
-The following basic example of a bit flip code encodes single [[logical qbits]] in [[triples]] of [[physical qbits]]. Here the [[Hilbert space]] 
+
+The following basic example of a bit flip code encodes single [[logical qbits]] in [[triples]] of [[physical qbits]]. 
+
+
+#### Idea
+
+
+Here the [[Hilbert space]] 
 
 $$
   LogicalQBit
@@ -209,50 +216,40 @@ The error correction now proceeds by:
 
 1. re-preparing a logical QBit from the recovered Qbit.
 
-In the notation from *[[quantum circuits via dependent linear types]]*, this is, in summary, the following operation:
 
-$$
-  correct
-  \;\colon\;
-  LogicalQBit
-  \xrightarrow{ measure_{Synd} }
-  \bigcirc_{ s \colon Synd }
-  QBit
-  \xrightarrow{ (X_s)_{s \colon Synd} }
-  \bigcirc_{ s \colon Synd }
-  QBit
-  \xrightarrow{ \bigcirc_{s \colon Synd} encode }
-  \bigcirc_{ s \colon Synd }
-  LogicalQBit
-$$
+#### Circuit diagram and pseudo-code
+ {#ThreeBitFlipCodeCircuitDiagramsAndPseudoCode}
 
-and the verification of the protocol is the statement that
+In terms of [[quantum circuit diagrams]] and the [[schreiber:QS]]-[[pseudo-code]], the 3-bit flip error correcting code looks as follows (following the notation from *[[quantum circuits via dependent linear types]]*):
 
-$$
-  verify
-  \;\colon\;
-  \underset{s}{\forall}
-  \;\;
-  \Big(
-  encode
-  \;\text{>}\;  
-  \underset{
-    \mathclap{
-      \array{ single\; bit  \\ flip \; error }
+\begin{imagefromfile}
+    "file_name": "QS_3BitFlipCodeIngredients-221125.jpg",
+    "width": "720",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
     }
-  }{
-  \underbrace{
-    X_s
-  }
-  }
-  \;\text{>}\; 
-  correct
-  \;\;\;
-  =
-  \;\;\;
-  always \; encode
-  \Big)
-$$
+\end{imagefromfile}
+
+\linebreak
+
+\begin{imagefromfile}
+    "file_name": "QS_3BitFlipCode-221125.jpg",
+    "width": "700",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
 
 
 ## References
