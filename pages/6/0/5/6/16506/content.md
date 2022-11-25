@@ -80,7 +80,7 @@ Fix $B \in \mathcal{C}$.
      \,.
    $$
 
-1. The [[unit of a monad|unit of the monad]] is:
+1. The [[unit of a monad|unit of the monad]] is given by constructing [[constant functions]]:
 
    $$
      \begin{array}{ccc}
@@ -103,7 +103,7 @@ Fix $B \in \mathcal{C}$.
      \end{array}
    $$
 
-1. The monad [[multiplication]] is:
+1. The monad [[multiplication]] is given by "evaluating [[diagonal map|diagonally]]:
 
    $$
      \begin{array}{ccc}
@@ -302,7 +302,7 @@ $$
     \mathcal{C}_B
     &
       \underoverset
-        {\underset{(p_B)_\ast = \prod_{b \colon B}}{\longrightarrow}}
+        {\underset{(p_B)_\ast = \prod_{B}}{\longrightarrow}}
         {\overset{ (p_B)^\ast }{\longleftarrow}}
         {\;\;\; \bot \;\;\;}
     &
@@ -315,7 +315,7 @@ $$
 $$
 
 
-Under the evident identification of [[maps]] $f \colon B \to D$ with [[tuples]] $\big( f(b) \big)_{b \colon B}$, the reader monad is
+Under the evident identification of [[maps]] $f \colon B \to D$ with [[tuples]] $\big( f(b) \big)_{b \colon B}$, the reader monad is the monad induced from this [[adjoint pair|adjunction]]:
 
 $$
   \bigcirc_B
@@ -325,11 +325,13 @@ $$
   \,.
 $$
 
+
+
 \begin{remark}
-One may also think of this as being the [[polynomial functor]] associated with the span
+One may also think of this as being the [[polynomial functor]] associated with this span:
 
 $$
-  \ast \leftarrow W \rightarrow \ast \rightarrow \ast
+  \ast \leftarrow B \rightarrow \ast \rightarrow \ast
   \,.
 $$
 \end{remark}
@@ -400,7 +402,7 @@ $$
 
 The adjunction unit is clearly the [[unit of a monad|monad unit]].
 
-The adjunction counit gives the [[multiplication]] in the monad:
+The adjunction counit gives the [[multiplication]] on the monad:
 
 $$
   \begin{array}{ccc}
