@@ -133,6 +133,8 @@ Categorically, the cut rule in this form corresponds to the arrow $\neg A \otime
 [[!redirects cut-admissibility]]
 [[!redirects cut admissibility]]
 
+[[!redirects cut]]
+[[!redirects cuts]]
 
 [[!redirects Gentzen's Hauptsatz]]
 [[!redirects Gentzen Hauptsatz]]
