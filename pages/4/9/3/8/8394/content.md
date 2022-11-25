@@ -66,20 +66,27 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
 * [[Mathematica]]
 
+
 ## Related concepts
+
+* [[pseudocode]]
 
 * [[computation]]
 
 * [[computational trinitarianism]]
 
-* [[monad (in computer science)]], [[algebraic side effect]]
+* [[monad in computer science]], [[algebraic side effect]]
 
 * [[proof management system]]
 
 * [[computational topology]]
+
 * [[list of mathematics software]]
 
 * [[domain specific programming language]], [[domain specific embedded programming language]]
+
+* [[quantum programming language]]
+
 
 ## References
 
