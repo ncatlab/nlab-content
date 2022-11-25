@@ -210,7 +210,7 @@ See also
 * Wikipedia, *[Quantum Operation](https://en.wikipedia.org/wiki/Quantum_operation)*
 
 
-The description of completely positive maps in terms of [[dagger-categories]] (see at _[[quantum information via dagger-compact categories]]_) goes back to
+The description of completely positive maps in terms of [[dagger-categories]] (see at _[[quantum information theory via dagger-compact categories]]_) goes back to
 
 * {#Selinger05} [[Peter Selinger]], _Dagger-compact closed categories and completely positive maps_, Electronic Notes in Theoretical Computer Science (special issue: Proceedings of the 3rd International Workshop on Quantum Programming Languages). 2005 ([[SelingerPositiveMaps.pdf:file]], [ps](http://www.mscs.dal.ca/~selinger/papers/dagger.ps))
 
