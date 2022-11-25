@@ -131,6 +131,10 @@ $$
 
 * {#Chuang11} [[Isaac L. Chuang]], *Quantum error correction*, Chapter 7 in: *Quantum Machines: Measurement and Control of Engineered Quantum Systems* Lecture Notes of the Les Houches Summer School **96** (2011) 273–320  &lbrack;[doi:10.1093/acprof:oso/9780199681181.003.0007](https://doi.org/10.1093/acprof:oso/9780199681181.003.0007)&rbrack;
 
+
+* [[Stéphane Attal]], §6.1.6.1 in: *Quantum Channels*, Lecture 6 in:  *Lectures on Quantum Noises* &lbrack;[pdf](http://math.univ-lyon1.fr/~attal/Quantum_Channels.pdf), [webpage](http://math.univ-lyon1.fr/~attal/chapters.html)&rbrack;
+
+
 [[!redirects bit flip channels]]
 
 [[!redirects bit-flip channel]]
