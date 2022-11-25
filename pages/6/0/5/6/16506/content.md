@@ -3,13 +3,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Type theory
+#### Categorical algebra
 +-- {: .hide}
-[[!include type theory - contents]]
+[[!include categorical algebra -- contents]]
 =--
 #### Mapping space
 +--{: .hide}
 [[!include mapping space - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
 =--
 =--
 =--
@@ -24,12 +28,409 @@
 In a [[cartesian closed category]]/[[type theory]] $\mathcal{C}$, given any [[object]]/[[type]] $W$ there is a [[monad]]
 
 $$
-  [W,-] \colon \mathcal{C} \to \mathcal{C}
+  Maps(B,-) \colon \mathcal{C} \to \mathcal{C}
 $$
 
-given by forming the [[internal hom]] out of $W$, hence the "space of functions" out of $W$. This is sometimes called the _function monad_.  Its [[unit of a monad|unit]] is given by sending values to [[constant functions]] with that value, and the monad operation is given by evaluating on the [[diagonal]].
+given by forming the [[internal hom]] out of $B$, hence the "space of functions" out of $B$. This is sometimes called the _function monad_.  Its [[unit of a monad|unit]] is given by sending values to [[constant functions]] with that value, and the monad operation is given by evaluating on the [[diagonal]].
 
 In the context of [[monads in computer science]] this monad is called the _reader monad_ or _environment monad_. It serves to write programs in which all operations may "read in" a state of type $W$ (an "environment").
+
+## Definition
+ {#Definition}
+
+We first describe the reader monad explicitly
+
+* [in components](#DefinitionInComponents)
+
+as a monad on $\mathcal{C} =$ [[Sets]].
+
+Then we describe it, more generally as the monad induced by a right [[base change]] [[adjoint functor|adjunction]]
+
+* [via base change](#DefinitionViaBaseChange).
+
+In this form the construction makes sense more generally (see for instance the *[[quantum reader monad]]*).
+
+We write 
+
+$$
+  Maps(-,-) 
+    \;\colon\; 
+  \mathcal{C}^{op} 
+    \times
+  \mathcal{C}
+    \longrightarrow
+  \mathcal{C}
+$$
+
+for the corresponding [[internal hom]]. In [[Sets]] this is the operation of forming [[function sets]].
+
+\linebreak
+
+Fix $B \in \mathcal{C}$. 
+
+
+### In components
+ {#DefinitionInComponents}
+
+
+1. The [[underlying]]-[[functor]] of the $B$-reader monad is
+
+   $$
+     \bigcirc_B \;\colon\; D \;\mapsto\; Maps(B,D)
+     \,.
+   $$
+
+1. The [[unit of a monad|unit of the monad]] is:
+
+   $$
+     \begin{array}{ccc}
+       D 
+       &
+         \xrightarrow{
+           \;\;
+           \eta^{\bigcirc_B}_D
+           \;\;
+         }
+       &
+       Maps(B,D)
+       \\
+       d 
+       &\mapsto&  
+      \big(
+         b \;\mapsto\; d
+      \big)
+      \mathrlap{ \;=\; const_d }
+     \end{array}
+   $$
+
+1. The monad [[multiplication]] is:
+
+   $$
+     \begin{array}{ccc}
+       Maps\big(
+         B ,\,
+         Maps(B,D)
+       \big)
+       &\xrightarrow{\;\;\; 
+          \mu^{\bigcirc_B} 
+       \;\;\;}&
+       Maps(B,D)
+       \\
+       f(-)(-)
+       &\mapsto&
+       \big(
+         b
+         \;\mapsto\;
+         f(b)(b)
+       \big)
+       \mathrlap{\,.}
+     \end{array}
+   $$
+
+To check that this definition satisfies the [[monad]]-[[axioms]]:
+
+**[[unitality]]**:
+
+$$
+  \begin{array}{ccc}
+  Maps(B,D)
+  &\xrightarrow{\;\;\;  
+     \eta^{\bigcirc_B}_{Maps(D,B)}
+  \;\;\;}&
+  Maps\big(
+    B, Maps(B,D)
+  \big)
+  &\xrightarrow{\;\;\;
+    \mu^{ \bigcirc_B }_{D}
+  \;\;\;}&
+  Maps(B,D)
+  \\
+  \big(
+    b' \mapsto f(b')
+  \big)
+  &\mapsto&
+  \Big(
+    b \mapsto 
+    \big(
+      b' \mapsto f(b')
+    \big)
+  \Big)
+  &\mapsto&
+  \big(
+    b \mapsto f(b)
+  \big)
+  \end{array}
+$$
+
+and
+
+$$
+  \begin{array}{ccc}
+  Maps(B,D)
+  &\xrightarrow{\;\;\;  
+     Maps\big(
+       B,
+       \eta^{\bigcirc_B}_{D}
+     \big)
+  \;\;\;}&
+  Maps\big(
+    B, Maps(B,D)
+  \big)
+  &\xrightarrow{\;\;\;
+    \mu^{ \bigcirc_B }_{D}
+  \;\;\;}&
+  Maps(B,D)
+  \\
+  \big(
+    b \mapsto f(b)
+  \big)
+  &\mapsto&
+  \Big(
+    b \mapsto 
+    \big(
+      b' \mapsto f(b)
+    \big)
+  \Big)
+  &\mapsto&
+  \big(
+    b \mapsto f(b)
+  \big)
+  \end{array}
+$$
+
+**[[associativity]]**:
+
+$$
+  \begin{array}{ccc}
+    Maps\Big(
+      B,
+      Maps\big(B,
+        Maps(B,D)
+      \big)
+    \Big)
+    &\xrightarrow{\;\;\;
+      \mu^{\bigcirc_B}_{
+        Maps(B,D)
+      }
+    \;\;\;}&
+    Maps\big(B,
+      Maps(B,D)
+    \big)
+    &\xrightarrow{\;\;\;
+      \mu^{\bigcirc_B}_{
+        D
+      }
+    \;\;\;}&
+    Maps(B,D)
+    \\
+    \Big(
+      b \mapsto
+      \big(
+        b' \mapsto 
+        (b'' \mapsto f(b, b', b''))
+      \big)
+    \Big)
+    &\mapsto&
+    \big(
+      b' \mapsto 
+      (b'' \mapsto f(b', b', b''))
+    \big)
+    &\mapsto&
+    \big( 
+      b'' \mapsto f(b'', b'', b'')
+    \big)
+  \end{array}
+$$
+
+and
+
+$$
+  \begin{array}{ccc}
+    Maps\Big(
+      B,
+      Maps\big(B,
+        Maps(B,D)
+      \big)
+    \Big)
+    &\xrightarrow{\;\;\;
+      Maps\big(
+        B,
+        \mu^{\bigcirc_B}_{
+          D
+        }
+      \big)
+    \;\;\;}&
+    Maps\big(B,
+      Maps(B,D)
+    \big)
+    &\xrightarrow{\;\;\;
+      \mu^{\bigcirc_B}_{
+        D
+      }
+    \;\;\;}&
+    Maps(B,D)
+    \\
+    \Big(
+      b \mapsto
+      \big(
+        b' \mapsto 
+        (b'' \mapsto f(b, b', b''))
+      \big)
+    \Big)
+    &\mapsto&
+    \big(
+      b' \mapsto 
+      (b'' \mapsto f(b', b'', b''))
+    \big)
+    &\mapsto&
+    \big( 
+      b'' \mapsto f(b'', b, b)
+    \big)
+  \end{array}
+$$
+
+
+### Via base change
+ {#DefinitionViaBaseChange}
+
+For $B \in Sets$, write $\mathcal{C}_B$ for the category of $B$-[[indexed sets]] $(D_b)_{b \colon B}$ of [[objects]] of $\mathcal{C}$. (More generally, if $\mathcal{C}$ is a [[locally cartesian closed category]] ([[categorical semantics]] for [[dependent type theory]]), take $\mathcal{C}_B$ be the [[slice category]] over $B$.)
+
+The right [[base change]] [[adjoint functor|adjunction]] ([[context extension]] $\dashv$ [[dependent product]]) is
+
+$$
+  \begin{array}{ccc}
+    \mathcal{C}_B
+    &
+      \underoverset
+        {\underset{(p_B)_\ast = \prod_{b \colon B}}{\longrightarrow}}
+        {\overset{ (p_B)^\ast }{\longleftarrow}}
+        {\;\;\; \bot \;\;\;}
+    &
+    \mathcal{C}
+    \\
+    (D_b)_{b \colon B}
+    &\mapsto&
+    \prod_{b \colon B} D_b
+  \end{array}
+$$
+
+
+Under the evident identification of [[maps]] $f \colon B \to D$ with [[tuples]] $\big( f(b) \big)_{b \colon B}$, the reader monad is
+
+$$
+  \bigcirc_B
+  \;\simeq\;
+  (p_B)_\ast
+  (p_B)^\ast
+  \,.
+$$
+
+\begin{remark}
+One may also think of this as being the [[polynomial functor]] associated with the span
+
+$$
+  \ast \leftarrow W \rightarrow \ast \rightarrow \ast
+  \,.
+$$
+\end{remark}
+\begin{remark}
+The [[comonad]] obtained by composing the other way around, $(p_B)^\ast (p_B)_\ast$, is the [[modal operator]] usually called _[[necessity]]_
+\end{remark}
+
+From the [[universal property]] of the [[Cartesian product]], one finds that:
+
+The **[[adjunction unit]]** is
+
+$$
+  \begin{array}{ccc}
+    b \colon B
+    \; \vdash \;
+    &
+    D 
+    &\xrightarrow{\;\;\;
+      id_D
+    \;\;\;}& 
+    D
+    \\
+    && \updownarrow
+    \\
+    &
+    D
+    &\xrightarrow{\;\;\;
+      \eta^{ \bigcirc_B }_D
+    \;\;\;}&
+    \prod_{b \colon B} D
+    \\
+    &
+    d &\mapsto& (d, \cdots, d)
+  \end{array}
+$$
+
+The **[[adjunction counit]]** is:
+
+$$
+  \begin{array}{ccc}
+    &
+    \prod_{b' \colon B} 
+    D_{b'}
+    &\xrightarrow{\;\;\;
+      id
+    \;\;\;}& 
+    \prod_{b' \colon B} 
+    D_{b'}
+    \\
+    && \updownarrow
+    \\
+    b \colon B
+    \;\dashv\;
+    &
+    \prod_{b' \colon B} 
+    D_{b'}
+    &\xrightarrow{\;\;\;
+      \epsilon^{ \star_B }_D
+    \;\;\;}&
+    D_{b}
+    \\
+    &
+    (d_{b'})_{b' \colon B} 
+    &\mapsto& 
+    d_{b}
+  \end{array}
+$$
+
+The adjunction unit is clearly the [[unit of a monad|monad unit]].
+
+The adjunction counit gives the [[multiplication]] in the monad:
+
+$$
+  \begin{array}{ccc}
+    \prod_{b \colon B}
+    (p_B)^\ast
+    \prod_{b' \colon B}
+    (p_B)^\ast
+    D
+    &\xrightarrow{\;\;\;
+      \prod_{b \colon B}
+      \big(
+         \epsilon^{\star_B}
+      \big)
+      (p_B)^\ast
+    \;\;\;}&
+    \prod_{b' \colon B}
+    (p_B)^\ast
+    C
+    \\
+    \big(
+      (f_{b'})_{b}
+    \big)_{b', b \colon B}
+    &\mapsto&
+    \big(
+      (f_{b})_{b}
+    \big)_{b \colon B}    
+  \end{array}
+$$
+
+
 
 ## Properties
 
@@ -43,33 +444,7 @@ Just as the writer comonad is canonically a monad when $W$ is a [[monoid]], so t
 
 The composite of [[coreader comonad]] followed by [[reader monad]] is the [[state monad]].
 
-### In terms of dependent type theory
- {#InTermsOfDependentTypeTheory}
 
-If the type system is even a [[locally cartesian closed category]]/[[dependent type theory]] then for each type $W$ there is the [[base change]] [[adjoint triple]]
-
-$$
-  \mathcal{C}_{/W}
-    \stackrel{\overset{\sum_W}{\longrightarrow}}{\stackrel{\overset{W^\ast}{\longleftarrow}}{\underset{\prod_W}{\longrightarrow}}}
-  \mathcal{C}
-$$
-
-In terms of this then the function monad is equivalently the composite
-
-$$
-  \prod_W W^\ast = [W,-] \;\colon\; \mathcal{C} \longrightarrow \mathcal{C}
-$$
-
-of [[context extension]] followed by [[dependent product]].
-
-One may also think of this as being the [[polynomial functor]] associated with the span
-
-$$
-  \ast \leftarrow W \rightarrow \ast \rightarrow \ast
-  \,.
-$$
-
-(Notice that the [[comonad]] obtained by composing the other way around, $W^\ast \prod_W$, is the [[modal operator]] usually called _[[necessity]]_.)
 
 
 ### Relation to random variables in probability theory
