@@ -6,6 +6,10 @@ Brownian motion is an example of a [[stochastic process]]. Brownian motion $B_t$
 
 * The function $t\mapsto B_t$ is continuous.
 
+## Related concepts
+
+* [[Brownian loop soup]]
+
 ## References
 
 For now see
