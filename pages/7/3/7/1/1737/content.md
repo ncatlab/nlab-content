@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Computing
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
@@ -27,7 +31,21 @@ From the [[nPOV]], computer science is part of the [[computational trinity]], to
 
 ## Related pages
 
-* [[data type]]
+* [[data]], [[data type]]
+
+* [[computing]]
+
+* [[programming language]], 
+
+  [[quantum programming language]]
+
+* [[type theory]], 
+
+  [[linear type theory]]
+
+* [[category theory]], [[categorical algebra]]
+
+* [[monad in computer science]]
 
 * [[discrete mathematics]]
 
@@ -41,11 +59,7 @@ From the [[nPOV]], computer science is part of the [[computational trinity]], to
 
 * [[event structures]];
 
-* [[linear logic]];
-
 * [[models for concurrency]];
-
-* [[monad (in computer science)]]
 
 * [[operational semantics]]
 
@@ -56,6 +70,7 @@ From the [[nPOV]], computer science is part of the [[computational trinity]], to
 * [[transition systems]]
 
 * [[sugaring]]
+
 
 ## Some (theoretical) computer scientists
 
