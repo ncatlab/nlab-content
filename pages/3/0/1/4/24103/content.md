@@ -23,6 +23,12 @@
 
 A **real polynomial function** is a [[polynomial function]] in the [[real numbers]], a [[function]] $f:\mathbb{R} \to \mathbb{R}$ such that 
 
+* $f$ is in the image of the [[function]] $j:\mathbb{R}^* \to (\mathbb{R} \to \mathbb{R})$ from the [[free monoid]] $\mathbb{R}^*$ on $\mathbb{R}$, i.e. the set of lists of real numbers, to the [[function algebra]] $\mathbb{R} \to \mathbb{R}$, such that 
+
+  * $j(\epsilon) = 0$, where $0$ is the zero function. 
+  * for all $a \in \mathbb{R}^*$ and $b \in \mathbb{R}^*$, $j(a b) = j(a) + j(b) \cdot (-)^{\mathrm{len}(a)}$
+  * for all $r \in \mathbb{R}$, $j(r) = c_r$, where $c_r$ is the constant function whose value is always $r$. 
+
 * $f$ is in the image of the canonical [[ring homomorphism]] $i:\mathbb{R}[x] \to (\mathbb{R} \to \mathbb{R})$ from the real polynomial ring in one indeterminant $\mathbb{R}[x]$ to the [[function algebra]] $\mathbb{R} \to \mathbb{R}$, which takes constant polynomials in $\mathbb{R}[x]$ to constant functions in $\mathbb{R} \to \mathbb{R}$ and the indeterminant $x$ in $\mathbb{R}[x]$ to the identity function $\mathrm{id}_\mathbb{R}$ in $\mathbb{R} \to \mathbb{R}$
 
 * There exists a natural number $n$ such that the $n$-th order derivative of $f$ is equal to the zero function: 
