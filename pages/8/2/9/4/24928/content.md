@@ -75,7 +75,29 @@ is an isomorphism.
 
 ## Six-functor formalism
 
-The category $D(\mathcal{O}_{X,\square})$ admits the [[six operations]] ([ScholzeLCM](#ScholzeLCM), Lecture XI). The first four functors $-\otimes -$, $\Hom(-,-)$, $f_{*}$, $f^{*}$ are classical and do not require condensed mathematics.The functor $f_{!}$ has to be constructed, and $f^{!}$ will be defined to be its right adjoint.
+The category $D(\mathcal{O}_{X,\square})$ admits the [[six operations]] ([ScholzeLCM](#ScholzeLCM), Lecture XI). The first four functors $-\otimes -$, $\Hom(-,-)$, $f_{*}$, $f^{*}$ are classical and do not require condensed mathematics. The functor $f_{!}$ has to be constructed, and $f^{!}$ will be defined to be its right adjoint.
+
+Let $f:X\to Y$ be a separated map of finite type. Then the corresponding map of adic spaces $f_{\ad}:X^{\ad}\to Y^{\ad}$ factors as $f_{\ad}:X^{\ad}\xrightarrow{j} X^{\ad/ Y} \xrightarrow{f^{\ad /Y}} Y^{\ad}$, where the map $j$ is an open immersion and an isomorphism if $f$ is proper.
+
+\begin{proposition}([ScholzeLCM](#ScholzeLCM) Proposition 11.2)
+
+The functor
+
+$$j^{*}:D(\mathcal{O}_{X^{\ad /Y}},\mathcal{O}_{X^{\ad /Y}}^{+})\to D(\mathcal{O}_{X^{\ad}},\mathcal{O}_{X^{\ad}}^{+})$$
+
+admits a left adjoint
+
+$$j_{!}:D((\mathcal{O}_{X^{\ad}},\mathcal{O}_{X^{\ad }}^{+})_{\square})\to D(\mathcal{O}_{X^{\ad} /Y},\mathcal{O}_{X^{\ad /Y}}^{+})_{\square}).$$
+
+\end{proposition}
+
+\begin{definition}
+The functor $f_{!}:D(\mathcal{O}_{X},\square)\to D(\mathcal{O}_{Y,\square})$ is defined to be the composition
+
+$$f_{!}=f_{*}^{\ad /Y}\circ j_{!}.$$
+\end{definition}
+
+It turns out that the functor $f_{!}$ commutes with all direct sums and therefore admits a right adjoint, which will be the sixth functor we call $f^{!}$.
 
 ## Solid $\mathcal{O}_{X}^{+}/\pi$ almost-modules
 
