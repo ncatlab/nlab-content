@@ -10,6 +10,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -28,21 +29,14 @@ A _[[series]]_ is just a [[sequence]].
 
 But one says _series_ instead of _sequence_ when one is interested in studying its partial [[sums]]. In particular it means something different to say that a series _converges_ than to say that a sequence converges. The series $n\mapsto a_n$ converges if and only if the sequence $n\mapsto \sum_{i\lt n}a_i$ converges. 
 
-### Action and module objects
-
-A [[module object]] in a [[monoidal category]] $C$ is the same as an [[action object]] in $C$...
-
 ### Presheaves and copresheaves
 
-A _[[presheaf]]_ is just a [[contravariant functor|contravariant]] [[functor]], just as a [[copresheaf]] is just a functor.  
+A _[[presheaf]]_ is just a [[contravariant functor|contravariant]] [[functor]], analogous to how a [[copresheaf]] is just a [[covariant functor|covariant]] [[functor]].  
 
-(More specifically, an "$S$-valued presheaf" is a contravariant functor with [[codomain]] a given [[category]] $S$; in modern [[category theory]] the "default" value of $S$ for a presheaf is usually [[Set]].) 
+(More specifically, an "$S$-valued presheaf" is a contravariant functor with [[codomain]] a given [[category]] $S$; in modern [[category theory]] the "default" value of $S$ here is usually [[Set]].) 
 
 But one says _presheaf_ instead of (set-valued) _contravariant functor_ when one is interested in studying its [[sheafification]], or even if one is just interested in regarding the [[category of functors]] with its structure of a [[topos]]: the [[presheaf topos]].
 
-### Subsets and predicates
-
-In some [[foundations of mathematics]], a _[[subset]]_ of a set $S$ is just a _[[predicate]]_, a function with domain $S$ and codomain the class of [[truth values]] $\Omega$. 
 
 ### Young diagrams
 
@@ -59,6 +53,7 @@ But one says _quiver_ instead of _directed graph_ when one is interested in stud
  {#PersistenceModule}
 
 A *[[persistence module]]* is just a [[sequence]] of [[linear maps]] (or a [[zigzag]] of these, for [[zigzag persistence modules]]), but one says *persistence module* to indicate that one is interested in the [[persistence diagrams]] encoding this sequence.
+
 
 ### Fields (physics)
  {#FieldsInPhysics}
@@ -84,15 +79,42 @@ But in discussion of the [[AdS/CFT correspondence in solid state physics]] one s
 
 ### Dynamical systems
 
-A _[[dynamical system]]_ is just a set $S$ with a [[group]] [[action]] $f:G \times S \to S$. 
+A _[[dynamical system]]_ is just a set $S$ with a [[group]] [[action]] $f \colon G \times S \to S$. 
 
 However, in dynamical systems theory, one takes the group $G$ to represent _time_, the set $S$ to represent the _space_ of the dynamical system, and the group action $f$ to represent the _laws of motion_ of this dynamical system. 
+
+
+### Abstract rewriting systems
+ {#AbstractRewritingSystems}
+
+An *[[abstract re-writing system]]* is just a [[relation]] on some [[set]] $X$.
+
+However, calling this relation an abstract rewriting system indicates that one is interested in studying the behaviour of chains of related elements $x \to x_1 \to x_2 \to \cdots$ (thought of as successive stages of [[rewriting]] $x$), for instance to see if they are [[confluent category|confluent]].
+
 
 ### Curves 
 
 A _[[curve]]_ in $n$-dimensional [[Cartesian space]] is just a [[smooth function]] $r:\mathbb{R} \to \mathbb{R}^n$. 
 
 However, in [[differential geometry]], one takes the function $r$ as defining a parameterization of a smooth curve. 
+
+
+## Further examples
+ {#FurtherExamples}
+
+### Module objects
+ {#ModuleObjects}
+
+A [[module object]] in a [[monoidal category]] $C$ is just an [[action object]] over a [[monoid object]] in $C$. 
+
+Typically one says "module object" to amplify a [[linear algebra|linear algebraic]] nature or intended meaning of such actions (which, for instance, would be lacking for a [[group action]] in [[Set]], but be present for an action of the corresponding [[group algebra]] in [[Vect]]).
+
+
+### Subsets and predicates
+
+In some [[foundations of mathematics]], a _[[subset]]_ of a set $S$ is just a _[[predicate]]_, a function with domain $S$ and codomain the class of [[truth values]] $\Omega$. 
+
+
 
 \linebreak
 \linebreak
