@@ -86,6 +86,8 @@ According to [[Peter Scholze]] in [this comment on the nCafé](https://golem.ph.
 
 The theory of solid modules was used to formulate the correct theory of $\ell$-adic sheaves for the geometrization of the [[local Langlands correspondence]] by Fargues and Scholze ([FarguesScholze21](#FarguesScholze21)). It has also been used by Mann to formalize the [[six operations]] for [[rigid analytic geometry]] ([Mann22](#Mann22)).
 
+Condensed mathematics has also been used in [ClausenScholze22](#ClausenScholze22) to provide new "analysis-free" proofs of the finiteness of [[coherent cohomology]], [[Serre duality]], [[GAGA]], and the [[Hirzebruch-Riemann-Roch theorem]] in [[complex analysis]].
+
 ## Related entries
 
 * [[bornological topos]]
@@ -100,7 +102,7 @@ The theory of solid modules was used to formulate the correct theory of $\ell$-a
 
 * {#ScholzeLAG} [[Peter Scholze]], _Lectures on analytic geometry_, [pdf](https://www.math.uni-bonn.de/people/scholze/Analytic.pdf)
 
-* [[Dustin Clausen]], [[Peter Scholze]], _Condensed Mathematics and Complex Geometry_, [pdf](https://people.mpim-bonn.mpg.de/scholze/Complex.pdf)
+* {#ClausenScholze22}[[Dustin Clausen]], [[Peter Scholze]], _Condensed Mathematics and Complex Geometry_, [pdf](https://people.mpim-bonn.mpg.de/scholze/Complex.pdf)
 
 
 * {#DustinScholze20}[[Dustin Clausen]], [[Peter Scholze]], _Masterclass in condensed mathematics,_ [YouTube playlist](https://www.youtube.com/playlist?list=PLAMniZX5MiiLXPrD4mpZ-O9oiwhev-5Uq), [website](https://www.math.ku.dk/english/calendar/events/condensed-mathematics/) (including pdf notes)
