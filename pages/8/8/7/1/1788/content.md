@@ -1,4 +1,19 @@
 
+\begin{tikzcd}[row sep=15pt]
+  {}
+  \ar[d, phantom, "\multimap"{rotate=90,, scale=1.8}, "{\scalebox{.7}{unit}}"{xshift=9pt, yshift=-4pt}]
+  \\
+  C
+\end{tikzcd}
+
+\begin{tikzcd}[row sep=15pt]
+  C
+  \ar[d, phantom, "\multimap"{rotate=-90, scale=1.8}, "{\scalebox{.7}{co-unit}}"{xshift=16pt, yshift=6pt}]
+  \\
+  {}
+\end{tikzcd}
+
+
 [[Foit_CQTS-Talk-Nov2022.pdf:file]]
 
 
