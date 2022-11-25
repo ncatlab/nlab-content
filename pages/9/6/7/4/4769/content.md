@@ -10,6 +10,14 @@
 +--{: .hide}
 [[!include arithmetic geometry - contents]]
 =--
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+#### Algebra
++-- {: .hide}
+[[!include higher algebra - contents]]
+=--
 =--
 =--
 
@@ -76,9 +84,19 @@ where $p$ is given by the initial value $\gamma(0) = p$.  We recognise this as b
 
 Let $M$ be a [[differentiable manifold]], let $\Del$ be an [[affine connection]] on $M$, and let $p$ be a [[point]] in $M$.  Given a [[tangent vector]] $x$ at $p$, there is a unique [[maximal geodesic]] $\gamma$ on $M$ tangent to $x$ at $p$.  If $\gamma(1)$ is defined (which it will be whenever $M$ is [[complete manifold|complete]] and may be in any case), we have $exp_p x = \gamma(1)$.  In any case, we have $\exp_p (t x) = \gamma(t)$ for sufficiently small $t$.
 
+## In real algebras
 
+Let $\mathbb{R}$ be any [[sequentially Cauchy complete]] [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[field]], and let $F:\mathbb{R}\mathrm{Alg} \to \mathbb{R}\mathrm{Vect}$ be the [[forgetful functor]] which takes an $\mathbb{R}$-algebra $A$ to its underlying $\mathbb{R}$-[[vector space]] $F(A)$. Given any $\mathbb{R}$-algebra $A$ whose underlying $\mathbb{R}$-[[vector space]] $F(A)$ is finite-dimensional, each element of $A$ could be expressed as a [[linear combination]], a finite sum of basis vectors. Then one could define the exponential function $\exp:A \to A$ as either 
 
+$$\exp(x) \coloneqq \lim_{n \to \infty} \left(1 + \frac{x}{n}\right)^n$$
 
+or 
+
+$$\exp(x) \coloneqq \lim_{n \to \infty} \sum_{i = 0}^{n} \frac{x^i}{i!}$$
+
+since according to the [[algebraic limit theorem]], limits distribute over finite sums. 
+
+In particular, this is how exponential functions are defined in [[Clifford algebras]] and [[matrix algebras]]. However, the exponential functions in non-commutative algebras are not [[abelian group homomorphisms]], because multiplication is not commutative while addition is commutative. 
 
 ## In Lie groups {#exp_of_Lie_groups}
 
