@@ -1201,8 +1201,8 @@ The [[quantum bit flip code]] for 3-qbit encoding:
 
 
 \begin{imagefromfile}
-    "file_name": "QS_3BitFlipClode-221123.jpg",
-    "width": "650",
+    "file_name": "QS_3BitFlipCodeIngredients-221125.jpg",
+    "width": "700",
     "unit": "px",
     "margin": {
         "top": -20,
@@ -1213,7 +1213,17 @@ The [[quantum bit flip code]] for 3-qbit encoding:
 \end{imagefromfile}
 
 
-
+\begin{imagefromfile}
+    "file_name": "QS_3BitFlipCode-221125.jpg",
+    "width": "715",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
 
 
 
