@@ -31,5 +31,6 @@ In the context of [[linear logic]] or [[linear type theory]], the *additive disj
 
 [[!redirects additive disjunctions]]
 
-
+[[!redirects linear disjunction]]
+[[!redirects linear disjunctions]]
 
