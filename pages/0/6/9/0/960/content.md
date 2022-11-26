@@ -1,5 +1,5 @@
 
-> This article is about smash products in [[topology]]/[[homotopy theory]]. For the notion of _Hopf smash product_ see at [[crossed product algebra]]. 
+> This article is about smash products in [[topology]]/[[homotopy theory]]. For the notion of _Hopf smash product_ see at *[[crossed product algebra]]*. 
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -66,15 +66,16 @@ Let $(\mathcal{C}, \otimes, 1_{\mathcal{C}})$ be a [[closed monoidal category|cl
 +-- {: .num_defn #GeneralSmashProduct}
 ###### Definition
 
-For $X,Y \in \mathcal{C}^{\ast/}$ two [[pointed objects]] in $\mathcal{C}$, their _smash product_ is given by the following [[pushout]] of [[pushouts]] and [[tensor products]] all formed in $\mathcal{C}$
+For $X,Y \in \mathcal{C}^{\ast/}$ two [[pointed objects]] in $\mathcal{C}$, their _smash product_ is given by the following [[pushout]] of [[pushouts]] and [[tensor products]] (all formed in $\mathcal{C}$)
 
 $$
   X \wedge Y
   \coloneqq
   \ast \underset{(X \otimes \ast)\coprod (Y \otimes \ast)}{\coprod} (X \otimes Y)
+  \,,
 $$
 
-regarded as a pointed object via the induced [[co-projection]] from $\ast$.
+regarded as a [[pointed object]] via the induced [[co-projection]] from $\ast$.
 
 =--
 
