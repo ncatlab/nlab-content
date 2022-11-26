@@ -318,7 +318,7 @@ An essentially equivalent way to give the definition, due to Paulin-Mohring, is
 The difference here is that now $x$ is a *parameter* of the inductive definition rather than an *index*.  In other words, the first definition says "for each type $A$, we have a type $Id_A$ dependent on $A\times A$, inductively defined by a constructor $idpath$ which takes an element $x\colon A$ as input and yields output in $Id_A(x,x)$" while the second definition says "for each type $A$ and each element $x\colon A$, we have a type $Id_A(x)$ dependent on $A$, inductively defined by a constructor $idpath$ which takes *no* input and yields output in $Id_A(x)(x)$."  The two formulations can be proven equivalent, but sometimes one is more convenient than the other.
 
 
-### Extensionality and $\eta$-conversion
+### $\eta$-conversion and the reflection rule
  {#EtaConversion}
 
 Almost all types in type theory can be given both [[β-reduction]] and [[η-reduction]] rules.  $\beta$-reduction specifies what happens when we apply an eliminator to a term obtained by a constructor; $\eta$-reduction specifies the reverse.  Above we have formulated only the $\beta$-reduction rule for identity types; the $\eta$-conversion rule would be the following:
@@ -339,9 +339,9 @@ $$p = J(p[x/y, r(x)/p];x,y,p) = J(r(x)[x/y,r(x)/p];x,y,p) = r(x).$$
 
 (Here we are eliminating into the type $C(x,y,p) \coloneqq Id_A(x,y)$.  The term $r(x)$ may be regarded as belonging to this type, because we have already shown that $x$ and $y$ are *judgmentally* equal.)
 
-Thus, the judgmental $\eta$-conversion rule for identity types implies that the type theory is [[extensional type theory|extensional]] in a very strong sense.  (This was observed already in ([Streicher](#Streicher)).)  For this reason, in [[homotopy type theory]] we do not assume the $\eta$-conversion rule for identity types.
+Thus, the judgmental $\eta$-conversion rule for identity types implies the "reflection rule" for identity types, which in turn implies that the type theory is [[set-level type theory|set-level]].  (This was observed already in ([Streicher](#Streicher)).)  In particular, in [[homotopy type theory]] we cannot assume the $\eta$-conversion rule for identity types.
 
-This sort of extensionality in type theory is also problematic for non-homotopical reasons: since type-checking in dependent type theory depends on judgmental equality, but the above rule implies that judgmental equality depends on inhabitation of identity types, this makes judgmental equality and hence type-checking *undecidable* in the formal computational sense.  Thus, $\eta$-conversion for identity types is often omitted (as in [[Coq]]).
+However, the reflection rule for identity types is also problematic for non-homotopical reasons: since type-checking in dependent type theory depends on judgmental equality, but the above rule implies that judgmental equality depends on inhabitation of identity types, this makes judgmental equality and hence type-checking *undecidable* in the formal computational sense.  Thus, $\eta$-conversion for identity types is often omitted even in set-level type theories (e.g. [[Coq]] and [[Agda]]).
 
 On the other hand, it is possible to prove a *typal* version of $\eta$-conversion using only the identity types as defined above without judgmental $\eta$-conversion.  In other words, given the hypotheses of the above $\eta$-conversion rule, we can construct a term belonging to the type
 
