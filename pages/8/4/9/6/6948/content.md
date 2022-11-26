@@ -106,6 +106,26 @@ The same makes sense, verbatim, also in the [[(∞,1)-logic]] of any [[(∞,1)-t
 
 This interpretation of universal quantification as the right adjoint to context extension is also used in the notion of _[[hyperdoctrine]]_.
 
+## In dependent type theory
+
+In dependent type theory, the universal quantifier is the [[dependent product type]] of a family of [[h-propositions]]:
+
+Formation rules for the universal quantifier:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isProp}(B(x))}{\Gamma \vdash \forall (x:A).B(x) \; \mathrm{type}}$$
+
+Introduction rules for the universal quantifier:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isProp}(B(x)) \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma \vdash \lambda(x:A).b(x):\forall (x:A).B(x)}$$
+
+Elimination rules for the universal quantifier:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isProp}(B(x)) \quad \Gamma \vdash f:\forall (x:A).B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash f(a):B[a/x]}$$
+
+Computation rules for the universal quantifier:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isProp}(B(x)) \quad \Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_\forall:\lambda(x:A).b(x)(a) =_{B[a/x]} b[a/x]}$$
+
+Uniqueness rules for the universal quantifier:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isProp}(B(x)) \quad \Gamma \vdash f:\forall (x:A).B(x)}{\Gamma \vdash \eta_\forall:f =_{\forall (x:A).B(x)} \lambda(x).f(x)}$$
+
+The dependent product type of a family of h-propositions is always an h-proposition. 
 
 ## Examples
 
