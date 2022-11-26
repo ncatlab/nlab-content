@@ -53,7 +53,17 @@ $$\RH_{\mathcal{D}}: D_{wHT}^{b}(X_{C},\mathbb{Q}_{p})\to DF_{coh}(\mathcal{D}_{
 where $D_{wHT}^{b}(X_{C},\mathbb{Q}_{p})$ is a full subcategory of $D_{cons}^{b}(X_{C},\mathbb{Q}_{p})$ spanned by "weakly Hodge-Tate sheaves" and $DF_{coh}(\mathcal{D}_{X})$ is a suitable derived category of [[D-modules|$\mathcal{D}_{X}$-modules]] equipped with a "good" filtration. This functor commutes with proper pushforward, intertwines [[Verdier duality]] and [[Grothendieck duality]] in the almost category, and interacts well with the perverse [[t-structure]].
 \end{proposition}
 
-[[Lucas Mann]] has also formulated a version of the p-torsion Riemann-Hilbert correspondence for small v-stacks ([Mann22](#Mann22), Theorem 3.9.23), as part of his proof of mod p Poincare duality for [[rigid analytic spaces]]. This version is stated in terms of $\varphi$-modules and overconvergent etale $\mathbb{F}_{p}$-sheaves.
+[[Lucas Mann]] has also formulated a version of the p-torsion Riemann-Hilbert correspondence for small v-stacks as part of his proof of mod p Poincare duality for [[rigid analytic spaces]]. This version is stated in terms of $\varphi$-modules, which in his context are simultaneously [[solid modules]] and [[almost modules]] over $\mathcal{O}_{X}^{+}/\pi$ together with an action of the Frobenius $\varphi$, and overconvergent etale $\mathbb{F}_{p}$-sheaves (the corresponding derived $\infty$-categories are denoted by $\mathcal{D}_{\square}^{a}(\mathcal{O}_{X}^{+}/\pi)^{\varphi}$ and $\mathcal{D}_{et}(X,\mathbb{F}_{p})^{oc}$ respectively).
+
+\begin{proposition}([Mann22](#Mann22), Theorem 1.2.7, Theorem 3.9.23)
+
+Let $X$ be a small v-stack over $\mathbb{Z}_{p}$ with pseudouniformizer $\pi$ such that $\pi\vert p$. Then the functor
+
+$$-\otimes\mathcal{O}_{X}^{+a}/\pi:\mathcal{D}_{et}(X,\mathbb{F}_{p})^{oc}\to\mathcal{D}_{\square}^{a}(\mathcal{O}_{X}^{+}/\pi)^{\varphi}$$
+
+is fully faithful and induces and equivalence of categories on perfect objects on both sides. 
+
+\end{proposition}
 
 ## Related entries
 
@@ -62,6 +72,8 @@ where $D_{wHT}^{b}(X_{C},\mathbb{Q}_{p})$ is a full subcategory of $D_{cons}^{b}
 * [[flat infinity-connection]]
 
 * [[infinity-local system]]
+
+* [[D-modules]]
 
 ## References
 
