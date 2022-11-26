@@ -9,6 +9,22 @@ The most basic form of the Riemann--Hilbert correspondence states that the [[cat
 
 While [[Riemann-Hilbert problem|Hilbert's 21st problem]] has a negative solution, there is a generalized sheaf-theoretical formulation which leads to an equivalence of categories discovered by Mebkhout and a bit later also by [[Kashiwara]].
 
+## Statement
+
+Let $X$ be a smooth algebraic variety over $\mathbb{C}$. Let $D(X^\Zar,\mathcal{D}_{X})$ be the derived category of algebraic [[D-modules]] on $X$ (i.e. quasi-coherent $\mathcal{O}_{X}$-modules with [[flat connection]]), and let $D_{rh}^{b}(X^\Zar,\mathcal{D}_{X})$ be the full subcategory of $D^{b}(X^\Zar,\mathcal{D}_{X})$ consisting of objects whose cohomology sheaves are regular holonomic algebraic D-modules. Let $D(X^{an},\mathbb{C})$ be the derived category of sheaves of $\mathbb{C}$-vector spaces on $X^{an}$, and let $D_{c}^{b}(X^{an},\mathbb{C})$ be the full subcategory of $D^{b}(X^{an},\mathbb{C})$ consisting of objects whose cohomology sheaves are Zariski constructible.
+
+Let $\mathcal{E}$ be an algebraic D-module and let $\mathcal{E}^{\hol}=\mathcal{O}_{X}^{\hol}\otimes_{\mathcal{O}_{X}}\mathcal{E}$. The assignment $\mathcal{E}\to\Omega^{*}(\mathcal{E}^{\mathrm{hol}})$ determines a functor
+
+$$dR: D(X^\Zar,\mathcal{D}_{X})\to D(X^{an},\mathbb{C}).$$
+
+\begin{proposition}(Mebkhout, Kashiwara, Beilinson-Bernstein)
+
+The restriction of the functor $dR$ gives an equivalence of categories
+
+$$D_{rh}^{b}(X^\Zar,\mathcal{D}_{X})\xrightarrow{\sim} D_{c}^{b}(X^{an},\mathbb{C})$$
+
+\end{proposition}
+
 ## Use in the geometric Langlands correspondence
 
 The Riemann-Hilbert correspondence allows one to translate the automorphic side of the [[geometric Langlands correspondence]] from the language of [[perverse sheaves]] (which in turn is motivated by functions on $Bun_{G}$, via Grothendieck's functions-to-sheaves dictionary) to the language of [[D-modules]] (see [Frenkel05](#Frenkel05), 3.4 to 3.6).
@@ -37,7 +53,7 @@ $$\RH_{\mathcal{D}}: D_{wHT}^{b}(X_{C},\mathbb{Q}_{p})\to DF_{coh}(\mathcal{D}_{
 where $D_{wHT}^{b}(X_{C},\mathbb{Q}_{p})$ is a full subcategory of $D_{cons}^{b}(X_{C},\mathbb{Q}_{p})$ spanned by "weakly Hodge-Tate sheaves" and $DF_{coh}(\mathcal{D}_{X})$ is a suitable derived category of [[D-modules|$\mathcal{D}_{X}$-modules]] equipped with a "good" filtration. This functor commutes with proper pushforward, intertwines [[Verdier duality]] and [[Grothendieck duality]] in the almost category, and interacts well with the perverse [[t-structure]].
 \end{proposition}
 
-[[Lucas Mann]] has also formulated a version of the p-torsion Riemann-Hilbert correspondence for small v-stacks ([Mann22](#Mann22), Theorem 3.9.23), as part of his proof of mod p Poincare duality for [[rigid analytic spaces]].
+[[Lucas Mann]] has also formulated a version of the p-torsion Riemann-Hilbert correspondence for small v-stacks ([Mann22](#Mann22), Theorem 3.9.23), as part of his proof of mod p Poincare duality for [[rigid analytic spaces]]. This version is stated in terms of $\varphi$-modules and overconvergent etale $\mathbb{F}_{p}$-sheaves.
 
 ## Related entries
 
