@@ -461,7 +461,7 @@ It makes sense to think of $[B,-]$ as producing spaces of [[random variables]] (
 
 [Toronto-McCarthy 10a, 2.2](#TorontoMcCarthy10a), [Toronto 14, 6.2](#Toronto14) call the function monad the _random variable idiom_.
 
-This is also brought out by the relation of *linear* reader algebras to [[quantum measurement]], see [below](#QuantumReaderMonad). For more see also at *[[nondeterminiscic computation]]* the section *[Via indefiniteness effects](nondeterministic+computation#FormalizationViaIndefinitenessEffects)*.
+This is also brought out by the relation of *linear* reader algebras to [[quantum measurement]], see [below](#QuantumReaderMonad). For more see also at *[[nondeterministic computation]]* the section *[Via indefiniteness effects](nondeterministic+computation#FormalizationViaIndefinitenessEffects)*.
 
 
 ### Free modules over the reader monad
@@ -998,7 +998,7 @@ The [[quantum reader monad]] -- implicitly, in its incarnation as the $k^B$-Dual
 
 The account above follows:
 
-* {#CQTS22} [[CQTS]], *[Quantum Data Types via Linear HoTT](https://ncatlab.org/schreiber/show/QDataInLHoTT#QTML2022)* (Nov 2022)
+* {#CQTS22} [[CQTS]], *[Quantum Data Types via Linear HoTT](https://ncatlab.org/schreiber/show/QDataInLHoTT#QTML2022)*, talk at *[Workshop on Quantum Software](https://quasar.unina.it/qtml2022/workshop.php)* @ *[QTML 2022](https://quasar.unina.it/qtml2022.html)* (Nov 2022) &lbrack;[pdf](/schreiber/files/QuantumDataInLHoTT-221117.pdf)&rbrack;
 
 
 [[!redirects reader monads]]
