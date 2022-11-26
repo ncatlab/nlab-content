@@ -61,7 +61,7 @@ Let $X$ be a small v-stack over $\mathbb{Z}_{p}$ with pseudouniformizer $\pi$ su
 
 $$-\otimes\mathcal{O}_{X}^{+a}/\pi:\mathcal{D}_{et}(X,\mathbb{F}_{p})^{oc}\to\mathcal{D}_{\square}^{a}(\mathcal{O}_{X}^{+}/\pi)^{\varphi}$$
 
-is fully faithful and induces and equivalence of categories on perfect objects on both sides. 
+is fully faithful and induces an equivalence of categories of perfect objects on both sides. 
 
 \end{proposition}
 
