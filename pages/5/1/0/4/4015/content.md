@@ -119,7 +119,9 @@ However, the fan theorem (and bar theorem) can be avoided by instead using [[loc
 
 
 ### Sheaf models
-[Fourman and Hyland](#FourmanHyland) provide a sheaf model not satisfying the fan theorem.
+[Fourman and Hyland](#FourmanHyland) prove that the Fan theorem is true for all toposes of sheaves on a topological space, while also providing a sheaf model not satisfying the fan theorem. In other words, for Localic toposes, the underlying locale being spatial implies that the internal locale of real numbers is spatial, and that the internal cantor locale is spatial.
+
+The reference also proves that sheaf toposes over locally countably compact topological spaces satisfy the stronger bar theorem.
 
 
 ## Proofs
