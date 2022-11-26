@@ -312,6 +312,8 @@ See at *[[Majorana dimer code]]*.
 
 * [[dynamic lifting]]
 
+* [[repeat-until-success computing]]
+
 * [[quantum entanglement]]
 
 * [[entanglement entropy]], [[holographic entanglement entropy]]
