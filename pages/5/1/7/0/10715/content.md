@@ -14,3 +14,8 @@ The _initial value problem_ or _Cauchy problem_ for [[partial differential equat
 [[!redirects initial value problems]]
 [[!redirects Cauchy problem]]
 [[!redirects Cauchy problems]]
+
+[[!redirects initial value]]
+[[!redirects initial values]]
+[[!redirects initial condition]]
+[[!redirects initial conditions]]
