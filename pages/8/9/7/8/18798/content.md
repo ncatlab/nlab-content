@@ -36,7 +36,7 @@ The _cosine function_ is the [[function]] $\cos \;\colon\; \mathbb{R} \to \mathb
      cos'' = -cos 
    $$
 
-   (where a prime indicates the [[derivative]]) subject to the initial conditions 
+   (where a prime indicates the [[derivative]]) subject to the [[initial conditions]] 
 
    $$ 
      \begin{aligned}
@@ -47,24 +47,24 @@ The _cosine function_ is the [[function]] $\cos \;\colon\; \mathbb{R} \to \mathb
      \end{aligned}
    $$
 
-1. ([[Euler's formula]]) $\cos$ is the [[real part]] of the [[exponential function]] with imaginary argument
+1. ([[Euler's formula]]) $\cos$ is the [[real part]] of the [[exponential function]] with [[imaginary number|imaginary]] argument
 
    $$
      \begin{aligned}
        \cos(x) & = Re\left( \exp(i x) \right)
        \\
-       & = \frac{1}{2}\left( \exp(i x) + \exp(- i x)\right)
+       & = \frac{1}{2}\big( \exp(i x) + \exp(- i x)\big)
      \end{aligned}
      \,.
    $$
 
-1. $\cos$ is the unique function given by the infinite series
+1. $\cos$ is the unique function given by the infinite [[series]]
 
 $$\cos(x) \coloneqq \sum_{i = 0}^{\infty} \frac{(-1)^i x^{2 i}}{(2 i)!}$$
 
 ### In arbitrary Archimedean ordered fields
 
-In general, Archimedean ordered fields which are not [[sequentially Cauchy complete]] do not have an cosine function. Nevertheless, the cosine map is still guaranteed to be a [[partial function]], because every Archimedean ordered field is a [[Hausdorff space]] and thus a [[sequentially Hausdorff space]]. Thus, an axiom could be added to an Archimedean ordered field $F$ to ensure that the cosine partial function is actually a total function:
+In general, [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[fields]] which are not [[sequentially Cauchy complete]] do not have an cosine function. Nevertheless, the cosine map is still guaranteed to be a [[partial function]], because every Archimedean ordered field is a [[Hausdorff space]] and thus a [[sequentially Hausdorff space]]. Therefore an [[axiom]] could be added to Archimedean ordered fields $F$ to ensure that the cosine partial function is actually a total function:
 
 **Axiom of cosine function:** _For all elements $x \in F$, there exists a unique element $\cos(x) \in F$ such that for all positive elements $\epsilon \in F_+$, there exists a natural number $N \in \mathbb{N}$ such that for all natural numbers $n \in \mathbb{N}$, if $n \geq N$, then  $-\epsilon \lt \left(\sum_{i = 0}^{n} \frac{(-1)^i x^{2 i}}{(2 i)!}\right) - \cos(x) \lt \epsilon$._
 
