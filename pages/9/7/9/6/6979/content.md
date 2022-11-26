@@ -78,6 +78,7 @@ _[[relation between type theory and category theory]]_.
 
 * [[linear dependent type theory]]
 * [[dependent type theoretic methods in natural language semantics]]
+* [[set theory and dependent type theory]]
 
 ## References
 
