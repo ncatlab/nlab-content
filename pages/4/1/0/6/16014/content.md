@@ -192,7 +192,7 @@ There is also an [[adjoint pair]] on the other side, $\mathbf{H}_{/\ast}$, of th
 
 
 
-If we think of the types $P_\bullet \,\in\, Type_B$ in the given context -- now called "$B$" -- as *[[actuality|actual types]]* (eq:NecessityActualityPossibility) then the types down in the base context $P \,\in\, Type$ should be thought of as [[potentiality|potential types]] that fail to be actual in that they are missing information about their $B$-dependency:
+If we think of the types $P_\bullet \,\in\, Type_B$ in the given context -- now called "$B$" -- as *[[actuality|actual types]]* (eq:NecessityActualityPossibility) then the types down in the base context $P \,\in\, Type$ should be thought of as [[potentiality|potential types]] that fail to be actual in that they are missing information about their $B$-dependency (see also at *[[nondeterministic computation]]*, [here](nondeterministic+computation#FormalizationViaIndefinitenessEffects)):
 
 The definiteness-counit $\star P \rightarrow P$ witnesses their inhabitation as following from that of a definite type after forgetting which definite world $b \colon B$ was used to inhabit it.
 
