@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -37,7 +38,7 @@ In [[quantum computation]] the term "dynamic lifting" (mostly used in the *[[Qui
 Dynamic lifting is thought (eg. [Rand (2018),p. 52](#Rand18)) to be optional in cases like the [[quantum teleportation protocol]] but necessary for applications like [[quantum error correction]] (e.g. [Paler, Herr & Devitt (2019), §4.1](quantum+error+correction#PalerHerrDevitt19)), where error correction steps are conditioned on [[quantum measurement]] of syndrome [[qbits]].
 
 There have been several (partial) proposals for the precise [[categorical semantics]] of this idea, see the references [below](#ReferencesCategoricalSemantics).
-Another formalization, via [[monadic effects]] of [potentiality modalities](necessity+and+possibility#RelationToPotentiality) in [[dependent linear type theory]], is discussed at *[[quantum circuits via dependent linear types]]* (see [there](quantum+circuits+via+dependent+linear+types#QuantumMeasurement)).
+Another formalization, via [[monadic effects]] of [potentiality modalities](necessity+and+possibility#RelationToPotentiality) in [[dependent linear type theory]], is discussed at *[[quantum circuits via dependent linear types]]* ([CQTS 2022](#CQTS22), see [there](quantum+circuits+via+dependent+linear+types#QuantumMeasurement)).
 
 
 ## References
@@ -64,7 +65,9 @@ More in-depth discussion of "dynamic lifting" is in:
 
 Proposals for [[categorical semantics]] of "dynamic lifting", mostly following along the lines of some [[dependent linear type theory]]:
 
-* Dongho Lee, Valentin Perrelle, Benoît Valiron, Zhaowei Xu, *Concrete Categorical Model of a Quantum Circuit Description Language with Measurement*, Leibniz International Proceedings in Informatics **213** (2021) 51:1-51:20 &lbrack;[arXiv:2110.02691](https://arxiv.org/abs/2110.02691), [doi:10.4230/LIPIcs.FSTTCS.2021.51](https://doi.org/10.4230/LIPIcs.FSTTCS.2021.51)&rbrack;
+* [[Dongho Lee]], Sebastien Bardin, [[Valentin Perrelle]], [[Benoît Valiron]], *Formalization of a Programming Language for Quantum Circuits with Measurement and Classical Control*, talk at *[Journées Informatique Quantique 2019](https://quantcert.github.io/GT-IQ'19/)* (Nov 2019) &lbrack;[pdf](https://quantcert.github.io/GT-IQ%2719/slides/Lee.pdf), [[LBPV_QCWithClassicalControl.pdf:file]]&rbrack;
+
+* [[Dongho Lee]], [[Valentin Perrelle]], [[Benoît Valiron]], Zhaowei Xu, *Concrete Categorical Model of a Quantum Circuit Description Language with Measurement*, Leibniz International Proceedings in Informatics **213** (2021) 51:1-51:20 &lbrack;[arXiv:2110.02691](https://arxiv.org/abs/2110.02691), [doi:10.4230/LIPIcs.FSTTCS.2021.51](https://doi.org/10.4230/LIPIcs.FSTTCS.2021.51)&rbrack;
 
 * Andrea Colledan, [[Ugo Dal Lago]], *On Dynamic Lifting and Effect Typing in Circuit Description Languages* &lbrack;[arXiv:2202.07636](https://arxiv.org/abs/2202.07636)&rbrack;
 
@@ -75,5 +78,6 @@ and Effect Typing in Circuit Description Languages*, talk at *TYPES Workshop*, N
 
 * [[Peng Fu]], [[Kohei Kishida]], [[Neil J. Ross]], [[Peter Selinger]], *Proto-Quipper with dynamic lifting*, in proceedings of *[Quantum Physics and Logic 2022](https://www.qplconference.org/)* &lbrack;[arXiv:2204.13041](https://arxiv.org/abs/2204.13041)&rbrack;
 
+* {#CQTS22} [[CQTS]], *[Quantum Data Types via Linear HoTT](https://ncatlab.org/schreiber/show/QDataInLHoTT#QTML2022)* (Nov 2022)
 
 
