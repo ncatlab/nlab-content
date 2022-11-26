@@ -289,7 +289,7 @@ For general references see also _[[nerve]]_ and _[[geometric realization]]_.
 
 The original articles are
 
-* {#McCord66} [[Michael C. McCord]], _Singular homology groups and homotopy groups of finite topological spaces_, Duke Math. J. 33 (1966), 465-474
+* {#McCord66} [[Michael C. McCord]], _Singular homology groups and homotopy groups of finite topological spaces_, Duke Math. J. 33 (1966), 465-474 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/mccord1.pdf))
 
 * {#Quillen72} [[Daniel Quillen]], _Higher algebraic K-theory, I: Higher K-theories_ Lect. Notes in Math. 341 (1972), 85-1 ([pdf](http://math.mit.edu/~hrm/kansem/quillen-higher-algebraic-k-theory.pdf))
 
