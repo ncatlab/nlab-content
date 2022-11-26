@@ -116,7 +116,27 @@ $$\frac{}{\vdash \neg A, A} \; identity.$$
 
 Categorically, the cut rule in this form corresponds to the arrow $\neg A \otimes A \to \bot$ that implements an evaluation, and the identity rule corresponds to an arrow $\top \to \neg A \wp A = A \multimap A$ that names an identity morphism. These two arrows are de Morgan dual to one another. 
 
+## Cut elimination as a computation
 
+[[Gerhard Gentzen]]'s [[Gentzen's Hauptsatz|Hauptsatz]] is often formulated under the form: "The cut rule is an [[admissible rule]]"- ie. the logical system obtained by removing the cut rule proves exactly the same sequents that the original system with the cut rule, it is important that very often, a stronger statement is true.
+
+The theorem of Gentzen was formulated for [[classical logic]] and is also true in the other logics with a cut rule such as [[intuitionistic logic]] or [[linear logic]]. In these two latter systems, one has more, the cut elimination can be formulated as "There exists a cut elimination algorithm specified like this:
+
+* Entry: proof $\pi_{1}$ of a sequent $\Gamma \vdash \Delta$
+* Output: proof $\pi_{2}$ of the sequent $\Gamma \vdash \Delta$ which doesn't use the cut rule"
+
+A better way to present things would be: "Here is an algorithm which takes in entry a proof $\pi_{1}$ of $\Gamma \vdash \Delta$ and returns a proof $\pi_{2}$ of $\Gamma \vdash \Delta$ which doesn't use the cut rule", because an actual algorithm is actually given and it is important to know what is this algorithm, we're not interested only by its existence.
+
+The best way to tell it would be in fact as:
+
+"Here is a [[rewriting system]] $\rightarrow$ on the set of proofs of this logic such that if $\pi_{1} \rightarrow \pi_{2}$ then $\pi_{1}, \pi_{2}$ are proofs of the same sequent, and for every proof $\pi$ of $\Gamma \vdash \Delta$, there exists a finite sequence $\pi_{0}, \pi_{1}, \ldots, \pi_{n}$ of proofs of $\Gamma \vdash \Delta$ such that $\pi = \pi_{0} \rightarrow \pi_{1} \rightarrow ... \rightarrow \pi_{n}$
+and $\pi_{n}$ doesn't use the cut rule."
+
+One can after this study the properties of this particular rewriting system: is it [[confluent]]? Is it [[normalizing]]? [[strongly normalizing]]? Does it provide a [[deterministic algorithm]] or a [[nondeterministic algorithm]]? What is the [[computational complexity]] of the algorithms it provides to eliminate cuts? 
+
+Unfortunately, the algorithmic aspect of cut elimination is rarely presented as explicitely, and most of the time the cut elimination is presented as the admissibility of the cut rule and the concrete algorithm to eliminate the instance of cuts in a proof $\pi$ must be extracted by the reader from this proof (of the cut elimination) which nevertheless use it in order to do the proof (of the cut elimination).
+
+We're not sure whether there isn't such an algorithm of cut elimination for [[classical logic]] and this an ongoing subject of research. We can think that the usual sequent calculus of classical logic must be modified by using ideas such as [[polarization in logic|polarization]] and [[focusing]] in order to understand the computational content of the cut elimination of classical logic.
 
 ## References
 
