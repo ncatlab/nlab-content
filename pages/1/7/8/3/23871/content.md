@@ -54,18 +54,18 @@ Early discussion of [[topological quantum computation]] in $SU(2)$-[[Chern-Simon
 More concrete discussion of these phenomena in terms of [[anyons]]:
 
 * S. Trebst, M. Troyer, Z. Wang and A. W. W. Ludwig, *A short introduction to Fibonacci anyon models*, Prog. Theor. Phys. Supp. **176** 384 (2008)
-$[$[arXiv:0902.3275](https://arxiv.org/abs/0902.3275), [doi:10.1143/PTPS.176.384](https://doi.org/10.1143/PTPS.176.384)$]$
+&lbrack;[arXiv:0902.3275](https://arxiv.org/abs/0902.3275), [doi:10.1143/PTPS.176.384](https://doi.org/10.1143/PTPS.176.384)&rbrack;
 
 * C. Gils, E. Ardonne, S. Trebst, D. A. Huse, A. W. W. Ludwig, M. Troyer, and Z. Wang,  *Anyonic quantum spin chains: Spin-1 generalizations and topological stability*, Phys. Rev. B **87** (2013), 235120
-$[$[doi:10.1103/PhysRevB.87.235120](https://doi.org/10.1103/PhysRevB.87.235120), [arXiv:1303.4290](https://arxiv.org/abs/1303.4290)$]$
+&lbrack;[doi:10.1103/PhysRevB.87.235120](https://doi.org/10.1103/PhysRevB.87.235120), [arXiv:1303.4290](https://arxiv.org/abs/1303.4290)&rbrack;
 
-* {#DasSarmaFreedmanNayak15} [[Sankar Das Sarma]], [[Michael Freedman]], [[Chetan Nayak]], *Majorana zero modes and topological quantum computation*, npj Quantum Inf **1** 15001 (2015) $[$[doi:10.1038/npjqi.2015.1](https://doi.org/10.1038/npjqi.2015.1)$]$
+* {#DasSarmaFreedmanNayak15} [[Sankar Das Sarma]], [[Michael Freedman]], [[Chetan Nayak]], *Majorana zero modes and topological quantum computation*, npj Quantum Inf **1** 15001 (2015) &lbrack;[doi:10.1038/npjqi.2015.1](https://doi.org/10.1038/npjqi.2015.1)&rbrack;
 
-*  E. G. Johansen, T. Simula, *Fibonacci anyons versus Majorana fermions -- A Monte Carlo Approach to the Compilation of Braid Circuits in $SU(2)_k$ Anyon Models*, PRX Quantum **2** 010334 (2021) $[$[arXiv:2008.10790](https://arxiv.org/abs/2008.10790)$]$
+*  E. G. Johansen, T. Simula, *Fibonacci anyons versus Majorana fermions -- A Monte Carlo Approach to the Compilation of Braid Circuits in $SU(2)_k$ Anyon Models*, PRX Quantum **2** 010334 (2021) &lbrack;[arXiv:2008.10790](https://arxiv.org/abs/2008.10790), [doi:10.1103/PRXQuantum.2.010334](https://doi.org/10.1103/PRXQuantum.2.010334)&rbrack;
 
 Discussion of Fibonacci anyons:
 
-* {#Simeon21} Ryan Simeon, *Universality of Fibonacci anyons in topological quantum computing* (2021) $[$[pdf](https://homes.psd.uchicago.edu/~sethi/Teaching/P243-W2021/Final%20Papers/Simeon-PHYS243_final.pdf)$]$
+* {#Simeon21} Ryan Simeon, *Universality of Fibonacci anyons in topological quantum computing* (2021) &lbrack;[pdf](https://homes.psd.uchicago.edu/~sethi/Teaching/P243-W2021/Final%20Papers/Simeon-PHYS243_final.pdf)&rbrack;
 
 ### Experimental realization
 
