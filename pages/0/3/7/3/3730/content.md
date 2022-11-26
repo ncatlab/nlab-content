@@ -9,6 +9,10 @@ The most basic form of the Riemann--Hilbert correspondence states that the [[cat
 
 While [[Riemann-Hilbert problem|Hilbert's 21st problem]] has a negative solution, there is a generalized sheaf-theoretical formulation which leads to an equivalence of categories discovered by Mebkhout and a bit later also by [[Kashiwara]].
 
+## Use in the geometric Langlands correspondence
+
+The Riemann-Hilbert correspondence allows one to translate the automorphic side of the [[geometric Langlands correspondence]] from the language of [[perverse sheaves]] (which in turn is motivated by functions on $Bun_{G}$, via Grothendieck's functions-to-sheaves dictionary) to the language of [[D-modules]] (see [Frenkel05](#Frenkel05), 3.4 to 3.6).
+
 ## p-torsion and p-adic Riemann-Hilbert correspondence
 
 [[Bhargav Bhatt]] and [[Jacob Lurie]] have formulated a version of the Riemann-Hilbert correspondence for finite type schemes over a complete and algebraically closed extension of the [[p-adic numbers]]:
@@ -32,6 +36,8 @@ $$\RH_{\mathcal{D}}: D_{wHT}^{b}(X_{C},\mathbb{Q}_{p})\to DF_{coh}(\mathcal{D}_{
 
 where $D_{wHT}^{b}(X_{C},\mathbb{Q}_{p})$ is a full subcategory of $D_{cons}^{b}(X_{C},\mathbb{Q}_{p})$ spanned by "weakly Hodge-Tate sheaves" and $DF_{coh}(\mathcal{D}_{X})$ is a suitable derived category of [[D-modules|$\mathcal{D}_{X}$-modules]] equipped with a "good" filtration. This functor commutes with proper pushforward, intertwines [[Verdier duality]] and [[Grothendieck duality]] in the almost category, and interacts well with the perverse [[t-structure]].
 \end{proposition}
+
+[[Lucas Mann]] has also formulated a version of the p-torsion Riemann-Hilbert correspondence for small v-stacks ([Mann22](#Mann22), Theorem 3.9.23), as part of his proof of mod p Poincare duality for [[rigid analytic spaces]].
 
 ## Related entries
 
@@ -57,11 +63,17 @@ Generalization to [[flat infinity-connections]] via the [[dg-nerve]] and [[itera
 
 * [[Jonathan Block]], Aaron Smith, _A Riemann--Hilbert correspondence for infinity local systems_, [arXiv:0908.2843](http://arxiv.org/abs/0908.2843)
 
+The relation to the [[geometric Langlands correspondence]] is discussed in
+
+* {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_, in _Frontiers in number theory, physics, and geometry II_, Springer Berlin Heidelberg, 2007. 387-533. ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172))
+
 Generalization to [[p-adic geometry]] is discussed in
 
 * [[Jacob Lurie]], _A Riemann--Hilbert Correspondence in p-adic Geometry_, [Felix Klein Lectures 2022](https://www.hcm.uni-bonn.de/events/eventpages/felix-klein-lectures/fkl-2022-lurie/).
 
 * {#Bhatt21}[[Bhargav Bhatt]], _Algebraic Geometry in Mixed Characteristic_, preprint (2021) arXiv:[2112.12010](https://arxiv.org/abs/2112.12010)
+
+* {#Mann22} [[Lucas Mann]], *A p-Adic 6-Functor Formalism in Rigid-Analytic Geometry* &lbrack;[arXiv:2206.02022](https://arxiv.org/abs/2206.02022)&rbrack;
 
 [[!redirects Riemann-Hilbert correspondence]]
 [[!redirects Riemann–Hilbert correspondence]]
