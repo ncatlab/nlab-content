@@ -18,6 +18,14 @@ A _p-adic modular form_ is a power series $f=\sum_{n=0}^{\infty}{a_{n}}q^{n}\in\
 
 Another different definition was later formulated by Katz.
 
+## Over rigid analytic spaces
+
+\begin{definition}([Calegari13](#Calegari13), Definition 2.1.13)
+
+Let $X$ be a [[modular curve]] and let $X^{\rig}$ be its associated [[rigid analytic space]]. The p-adic modular forms of weight $k$ are the global sections $H^{0}(X^{\rig}[0],\omega^{k})$, where $X^{\rig}[0]$ denotes the ordinary locus of $X^{\rig}$. 
+
+\end{definition}
+
 ## Related concepts
 
 * [[modular form]]
