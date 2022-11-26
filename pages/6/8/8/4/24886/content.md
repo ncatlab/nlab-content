@@ -66,5 +66,7 @@ There is an argument following the [[principle of equivalence]] that the structu
 
 * [[material set theory]]
 * [[structural set theory]]
+* [[set theory versus dependent type theory]]
 
 [[!redirects material versus structural]]
+[[!redirects material versus structural set theories]]
