@@ -1,4 +1,5 @@
 [[!redirects recursion schemes]]
+
 #Contents#
 * table of contents
 {:toc}
@@ -7,14 +8,16 @@
 
 It is a well-known fact in [[computability]] that it is not possible to write a decision procedure that tells whether another program is terminating or not. This fact is know as the [[halting theorem]].
 
-For this reason most [[functional programming]] languages are endowed with an unrestricted fixed-point operator at all types, which simplifies the implementation of the language, but allows the user to write functions that are not-well defined mathematically. 
+For this reason most [[functional programming]] languages are endowed with an unrestricted [[fixed-point operator]] at all [[types]], which simplifies the implementation of the language, but allows the user to write functions that are not-well defined mathematically. 
 
 Inspired by [[category theory]], a _recursion scheme_ is a structured [[recursion]] operator that ensures that the definitions of [[recursive]] functions are well-defined. 
 
 For example, 
 
 1. A [[catamorphism]] (a.k.a. a fold) is the unique $F$-algebra homomorphism from an [[initial algebra]] for the functor $F$.
+
 2. An [[anamorphism]] (a.k.a.  unfold) is the unique $G$-coalgebra homomorphism into the [[final coalgebra]] for the functor $G$.
+
 3. An [[hylomorphism]] corresponds to the idea of a recursive coalgebra or [[well-founded coalgebra]]. In words, a recursive $F$-coalgebra $(c, X)$ has a unique mapping $f : X \to Y$ into any other $F$-algebra $(Y, a)$ such that $f = a \circ F(f) \circ c$.
 
 A hylomorphism gives a simple example of an opportunity for optimization: an anamorphism builds up a tree structure and a catamorphism consumes it, so if this hylomorphism structure is recognized in the program, then an implementation need not build the intermediate tree, and so the [[computational complexity|space usage]] of the program can be reduced.
