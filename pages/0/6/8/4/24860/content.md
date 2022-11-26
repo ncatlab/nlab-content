@@ -34,6 +34,8 @@ From ([Ehrhard (2008), Introduction](#Ehrhard08)) : "when one linearizes a proof
 
 * [[computation]], [[quantum computation]]
 
+* [[repeat-until-success computing]]
+
 * [[reversible computation]]
 
 * [[parallel computing]]
