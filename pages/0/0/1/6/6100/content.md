@@ -297,7 +297,7 @@ The original articles are
 
 The geometric realization of [[Grothendieck constructions]] has been analyzed in
 
-* {#Thomason79} [[R. W. Thomason]], _Homotopy colimits in the category of small categories_ , Math. Proc. Cambridge Philos. Soc. 85 (1979), no. 1, 91109.
+* {#Thomason79} [[R. W. Thomason]], _Homotopy colimits in the category of small categories_ , Math. Proc. Cambridge Philos. Soc. 85 (1979), no. 1, 91109.([pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/32ACB453B263410CE1643E682D7DE335/S0305004100055535a.pdf/homotopy-colimits-in-the-category-of-small-categories.pdf))
 
 
 Review is in
