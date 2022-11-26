@@ -127,6 +127,8 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathr
 
 The dependent product type of a family of h-propositions is always an h-proposition. 
 
+One doesn't need all [[dependent product types]] to define universal quantifiers. The [[isProp]] types are definable without all dependent product types, by use of [[center of contraction]], which are also definable without all dependent product types. This means that one could define the type-theoretic internal logic of a [[Heyting category]] or [[Boolean category]] which are not [[locally cartesian closed]], for [[strongly predicative mathematics]]. 
+
 ## Examples
 
 Let $\mathcal{E} = $ [[Set]], let $X = \mathbb{N}$ be the set of [[natural number]]s and let $\phi \coloneqq 2\mathbb{N} \hookrightarrow \mathbb{N}$ be the [[subset]] of even natural numbers. This expresses the [[proposition]] $\phi(x) \coloneqq IsEven(x)$. 
