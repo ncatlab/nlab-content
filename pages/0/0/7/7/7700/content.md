@@ -19,7 +19,11 @@
 
 __Adic spaces__ are the basic objects in Huber's approach to [[non-archimedean analytic geometry]]. They are built by gluing [[valuation spectra]] of a certain class of [[topological rings]]. Unlike [[Berkovich analytic spectra]] the points of adic spaces correspond to valuations of arbitrary rank, not only rank one. If a [[Berkovich space]] is corresponding to a separated [[rigid analytic space]] then it can be obtained as the largest Hausdorff quotient of the corresponding adic space.
 
+The framework of adic spaces are used to build [[perfectoid spaces]] out of perfectoid rings.
+
 ## Related concepts
+
+* [[perfectoid space]]
 
 * [[p-adic geometry]]
 
