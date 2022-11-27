@@ -40,5 +40,12 @@ A model for a multiplicative differential refinement of [[complex cobordism coho
 
 * [[Ulrich Bunke]], [[Thomas Schick]], Ingo Schr&#246;der,  Moritz Wiethaup,  _Landweber exact formal group laws and smooth cohomology theories_ ([arXiv:0711.1134](http://arxiv.org/abs/0711.1134))
 
+See also:
+
+* Knut Bjarte Haus, [[Gereon Quick]], *Geometric Hodge filtered complex cobordism* &lbrack;[arXiv:2210.13259](https://arxiv.org/abs/2210.13259)&rbrack;
+
+
+
+
 
 [[!redirects differential cobordism cohomology theory]]
