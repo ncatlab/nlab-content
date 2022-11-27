@@ -13,24 +13,41 @@
 =--
 =--
 
-
-#Contents#
-* table of contents
-{:toc}
-
+\tableofcontents
 
 ## Idea
 
-[[set theory]] in the spirit of [[constructive mathematics]]
-
-There are two main axiom systems:
-
-* The impredicative IZF which includes the [[power set]] or [[power object]] axiom.
-* The variant CZF for [[predicative mathematics]] . This system can be interpreted in predicative [[type theory]].
+Constructive set theory is [[set theory]] in the spirit of [[constructive mathematics]]. 
 
 [[Algebraic set theory]] is a categorical presentation of such set theories.
 
 Some more information can be found at [[ZFC]]. Perhaps this should be moved here.
+
+## Axiom systems
+
+There are a number of axiom systems:
+
+### Impredicative set theories
+
+All of these set theories can be interpreted in a [[set-level type theory]] with a [[type of all propositions]]. 
+
+* The impredicative IZF which includes the [[power set]] or [[power object]] axiom. 
+* [[SEAR|ISEAR]] - the [[allegorical set theory]] version of IZF. 
+* [[ETCS|IETCSR]] - the [[categorical set theory]] version of IZF. 
+
+### Weakly predicative set theories
+
+All of these set theories can be interpreted in [[set-level type theory]] with no [[type of all propositions]], but with [[function types]] and [[dependent function types]]
+
+* The variant CZF for [[predicative mathematics]]. 
+* [[SEAR|CSEAR]] - the [[allegorical set theory]] version of CZF. 
+* [[ETCS|CETCSR]] - the [[categorical set theory]] version of CZF. 
+
+### Strongly predicative set theories
+
+All of these set theories can be interpreted in [[set-level type theory]] with only dependent function types for families of [[subsingletons]]. 
+
+* [[SEAR|PSEAR]] 
 
 ## Related concepts
 
