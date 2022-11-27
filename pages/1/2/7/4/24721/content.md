@@ -265,6 +265,14 @@ A **[[modality]]** is...
 
 (Section under construction see [[reflective subuniverse]] for the [[Russell universe]] variant for the time being)
 
+## Choice operators
+
+A [[choice operator]] on a universe is a family of functions which, given a witness that a type is inhabited, gives an element of the type. Given a Tarski universe $(U, T)$, the $U$-local choice operator is given by the following rule:
+
+$$\frac{\Gamma \vdash U \; \mathrm{type} \quad \Gamma, X:U \vdash T \; \mathrm{type}}{\Gamma \vdash \varepsilon_U:\prod_{A:U} \vert T[A/X] \vert \to T[A/X]}$$
+
+$U$ having a choice operator implies that $U$ satisfies [[axiom K]] or [[UIP]]. If $U$ is also univalent, then it is an [[h-groupoid]]. 
+
 ## Examples
 
 The [[types of propositions]] in a type theory are univalent Tarski universes: they model a dependent type theoretic model of [[propositional logic]] with [[function types]], [[product types]], [[disjunction]] [[higher inductive types]], [[empty type]], and [[unit type]]. 
