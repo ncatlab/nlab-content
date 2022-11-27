@@ -87,6 +87,8 @@ Recall that the universal property for $\mathbb{N}$ states that for data $g_0\co
 
 * [[recursive mathematics]]
 
+* [[recursive function]]
+
 * [[partial recursive function]], [[recursive subset]]
 
 * [[guarded recursion]]
