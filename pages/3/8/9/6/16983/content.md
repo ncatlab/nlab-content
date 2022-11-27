@@ -33,12 +33,14 @@ These taboos are unprovable in [[constructive mathematics]].
 * [[axiom of choice]]
 * [[supports split]]
 * [[fan theorem]]
+* [[choice operator]]
 
 ### Predicative taboos
 
 These taboos are unprovable in [[predicative mathematics]].
 
 * [[propositional resizing]]
+* [[type of all propositions]]
 
 ### Homotopical taboos
 
