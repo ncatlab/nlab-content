@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Constructivism, Realizability, Computability
+#### Computability
 +-- {: .hide}
 [[!include constructivism - contents]]
 =--
@@ -54,6 +54,8 @@ A [[program]]. A construction of a [[term]] of some [[type]]. The topic of [[com
 [[!include computable mathematics -- table]]
 
 ## References
+
+* [[Michael Sipser]], *Introduction to the Theory Of Computation*, 3rd ed: Cengage Learning (2012) &lbrack;ISBN:978-1-133-18779-0,[pdf](https://www.mog.dog/files/SP2019/Sipser_Introduction.to.the.Theory.of.Computation.3E.pdf), [pdf](https://fuuu.be/polytech/INFOF408/Introduction-To-The-Theory-Of-Computation-Michael-Sipser.pdf)&rbrack;
 
 An account with focus on [[programming languages]]:
 
