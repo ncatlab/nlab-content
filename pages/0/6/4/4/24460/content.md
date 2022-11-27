@@ -33,11 +33,17 @@ The cut elimination of [[second order linear logic]] is strongly normalizable, s
 * It is possible that only one term is strongly normalizable but not the entire rewriting system: see [[normal form]].
 
 * [[abstract rewriting system]]
+
 * [[rewriting system]]
+
+
 
 ## References
 
-* {#PaganiTortora09}[[Michele Pagani]], [[Lorenzo Tortora de Falco]], *Strong Normalization Property for Second Order Linear Logic*, 2009 ([pdf](https://www.irif.fr/~michele/snllTCS-1.pdf))
+On [[strong normalization]]:
+
+* {#PaganiTortora09} [[Michele Pagani]], [[Lorenzo Tortora de Falco]], *Strong Normalization Property for Second Order Linear Logic* (2009) &lbrack;[pdf](https://www.irif.fr/~michele/snllTCS-1.pdf)&rbrack;
+
 
 [[!redirects strongly normalizing]]
 [[!redirects strong normalization]]
