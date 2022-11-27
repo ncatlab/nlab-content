@@ -96,7 +96,7 @@ where $\mathrm{ap}_f:(0 =_\mathbb{I} 1) \to (f(0) =_A f(1))$ is the [[action on 
 
 ### Relation to dependent identity types
 
-Given a type $A$, a dependent type $x:A \vdash B$, terms $a_0:A$ and $a_1:A$, identity $q:a_0 =_A a_1$, terms $b_0:B[a_0/x]$ and $b_1:B[a_1/x]$, and dependent identity $r:b_0 =_B^q b_1$, let us inductively define the dependent function $f:\prod_{x:\mathbb{I}} B(x)$ by
+Given a type $A$, a dependent type $x:A \vdash B$, terms $a_0:A$ and $a_1:A$, identity $q:a_0 =_A a_1$, terms $b_0:B[a_0/x]$ and $b_1:B[a_1/x]$, and [[dependent identity]] $r:b_0 =_B^q b_1$, let us inductively define the dependent function $f:\prod_{x:\mathbb{I}} B(x)$ by
 
 * $\beta_f^0:f(0) =_{B[a_0/x]} b_0$
 * $\beta_f^1:f(1) =_{B[a_1/x]} b_1$
