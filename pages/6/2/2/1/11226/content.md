@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Constructivism, Realizability, Computability
+#### Computability
 +-- {: .hide}
 [[!include constructivism - contents]]
 =--
@@ -24,11 +24,13 @@ Historically, computational complexity theory arose from questions in [[computab
 
 ### Current Directions
 
-Today, the main focus of computational complexity theory is analysis of the [[complexity class|complexity classes]] P and NP. Their relationship determines which of [[Impagliazzo's five worlds]] is physical reality.
+Today, the main focus of computational complexity theory is analysis of the [[complexity class|complexity classes]] [[P]] and [[NP]]. Their relationship determines which of [[Impagliazzo's five worlds]] is physical reality.
 
 Additionally, [[descriptive complexity]] theory is an active research programme which characterizes complexity classes via formal logic rather than abstract machines.
 
 ## Related concepts
+
+* [[NP]]
 
 * [[Kolmogorov complexity]]
 
@@ -40,12 +42,18 @@ Additionally, [[descriptive complexity]] theory is an active research programme 
 
 ## References
 
-* Wikipedia, _[Computational complexity theory](http://en.wikipedia.org/wiki/Computational_complexity_theory)_
-* Wikipedia, _[P vs NP problem](https://en.wikipedia.org/wiki/P_versus_NP_problem)_
-
-Reference textbook:
+Textbook accounts:
 
 * [[Christos Papadimitriou]] (1994), _Computational Complexity_ (1st ed.), Addison Wesley.
+
+* [[Michael Sipser]], Part III of: *Introduction to the Theory Of Computation*, 3rd ed: Cengage Learning (2012) &lbrack;ISBN:978-1-133-18779-0,[pdf](https://www.mog.dog/files/SP2019/Sipser_Introduction.to.the.Theory.of.Computation.3E.pdf), [pdf](https://fuuu.be/polytech/INFOF408/Introduction-To-The-Theory-Of-Computation-Michael-Sipser.pdf)&rbrack;
+
+See also:
+
+* Wikipedia, _[Computational complexity theory](http://en.wikipedia.org/wiki/Computational_complexity_theory)_
+
+* Wikipedia, _[P vs NP problem](https://en.wikipedia.org/wiki/P_versus_NP_problem)_
+
 
 Discussion of complexity classes via [[linear logic]]:
 
