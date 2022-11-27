@@ -46,11 +46,11 @@ $$
   \bigcirc_B D' \;\coloneqq\; \big( B \to D'\big)
 $$
 
-exhibits a "$B$-indefinitess effect" that goes along with the execution of the program, making its output indefinite. Such *side effects* in computing may be modeled by [[monads in computer science]]. Indeed $\bigcirc_B$ is a classical example of such a monad, often called the *$B$-[[reader monad]]*, reflecting the idea that it postpones returning definite output data until it has "read in" an otherwise unspecified parameter.
+exhibits a "$B$-indefinitess effect" that goes along with the execution of the program, making its output indefinite. Such *side effects* in computing may be modeled by [[monads in computer science]] (see [there](monad+in+computer+science#BasicIdea) for more). Indeed $\bigcirc_B$ is a classical example of such a monad, often called the *$B$-[[reader monad]]*, reflecting the idea that it postpones returning definite output data until it has "read in" an otherwise unspecified parameter.
 
 > Incidentally, in terms of [[modal logic]] the parameter type $B$ plays the role of the set of "[[possible worlds]]" in which the given non-deterministic computation may take definite values. For more on this modal logic perspective see at *[[necessity and possibility]]* the section *[relation to potentiality](necessity+and+possibility#RelationToPotentiality)*.
 
-Now the [[monad]]-[[structure]] on $\bigcirc_B$ allows to *carry along* this *indefiniteness effect* so that followup programs, nominally waiting for input data in $D'$, are consistently treated as non-deterministic dependent on specification of $b \colon B$, too.
+Now the [[monad]]-[[structure]] on $\bigcirc_B$ allows to *carry along* this *indefiniteness effect* so that followup programs, nominally waiting for input data in $D'$, are consistently treated as non-deterministic, dependent on specification of $b \colon B$, too.
 
 Concretely, if 
 
