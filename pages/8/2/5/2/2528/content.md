@@ -107,4 +107,6 @@ To make the [[principle of equivalence]] hold automatically, a [[category]] shou
 [[!redirects pre-relation]]
 [[!redirects pre-relations]]
 
+[[!redirects preset theory]]
+
 [[!include types and logic - table]]
