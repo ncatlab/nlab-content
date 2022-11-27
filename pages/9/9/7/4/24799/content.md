@@ -39,3 +39,5 @@
   * [[universal class]], [[universe]]
   * [[category of classes]]
   * [[category with class structure]]
+* [[constructive set theory]]
+* [[algebraic set theory]]
