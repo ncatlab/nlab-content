@@ -36,9 +36,19 @@ We discuss three equivalent definitions of comma categories
 ### Via components: the objectwise definition
  {#InComponents}
 
-\begin{defn} If $f:C\to E$ and $g:D\to E$ are [[functors]], their **comma category** is the category $(f/g)$ whose
+\begin{defn}\label{CommaCategory}
+If $f\colon C\to E$ and $g \colon D\to E$ are [[functors]], their **comma category** is the [[category]] $(f/g)$ whose
 
-* [[objects]] are triples $(c,d,\alpha)$ where $c\in C$, $d\in D$, and $\alpha:f(c)\to g(d)$ is a morphism in $E$, and whose
+* [[objects]] are [[triples]] $(c,d,\alpha)$ where $c\in C$, $d\in D$, and 
+
+  \[
+    \label{MorphismMakingAnObjectInTheComma}
+    \alpha \colon f(c) \to g(d)
+  \] 
+  
+  is a [[morphism]] in $E$, 
+
+and whose
 
 * [[morphisms]] from $(c_1,d_1,\alpha_1)$ to $(c_2,d_2,\alpha_2)$ are pairs $(\beta,\gamma)$, where $\beta:c_1\to c_2$ and $\gamma:d_1\to d_2$ are morphisms in $C$ and $D$, respectively, such that $\alpha_2 . f(\beta) = g(\gamma) . \alpha_1$.
 
@@ -63,12 +73,12 @@ $$
   }
 $$
 
-
 * [[composition]] of morphisms is given on components by composition in $C$ and $D$.
 
 \end{defn}
 
-The definition of $(f/g)$ is now complete.  In addition, there are two canonical [[forgetful functors]] defined on the comma category:
+\begin{remark}
+In addition, there are two canonical [[forgetful functors]] defined on the comma category:
 
 * there is a functor $H_C\colon (f/g)\rightarrow C$ which sends each object $(c,d,\alpha)$ to $c$, and each pair $(\beta,\gamma)$ to $\beta$.
 
@@ -78,7 +88,12 @@ Furthermore:
 
 * there is a [[natural transformation]] $\theta : f \circ H_C \to g\circ H_D$ defined by $\theta_{(c,d,\alpha)} = \alpha$.
 
-These functors and natural transformation together give the comma category a 2-categorical universal property; see [this section](#AsA2Limit) for more.
+These functors and natural transformation together give the comma category a [[2-category theory|2-category theoretic]] [[universal property]]; see [this section](#AsA2Limit) for more.
+\end{remark}
+
+\begin{remark}\label{IsoCommaCategory}
+  Alternatively, requiring the morphisms (eq:MorphismMakingAnObjectInTheComma) to be [[isomorphisms]] yields the notion of an **iso-comma category** (an [[iso-comma object]] in [[Cat]]). This has the [[universal property]] of a non-lax "[[2-pullback]]".
+\end{remark}
 
 
 ### Via fiber products in the 1-category Cat
@@ -94,10 +109,15 @@ $$
     &\to&
     E^I
     \\
-    \downarrow & (pb) & \downarrow^{\mathrlap{(F\mapsto F(a))\times(F\mapsto F(b))}}
+    \big\downarrow 
+    & \scriptsize{(pb)} & 
+    \big\downarrow
+    \mathrlap{^{\mathrlap{(F\mapsto F(a))\times(F\mapsto F(b))}}}
     \\
     C \times D
-    &\stackrel{f \times g}{\to}&
+    &
+      \underset{f \times g}{\longrightarrow}
+    &
     E \times E
   }
 $$
@@ -175,3 +195,14 @@ For a proof, see
 * [[Toby Bartels]], _[Comma categories](http://tobybartels.name/notes/#comma)_
 
 [[!redirects comma categories]]
+
+
+[[!redirects isocomma category]]
+[[!redirects isocomma categories]]
+
+[[!redirects iso-comma category]]
+[[!redirects iso-comma categories]]
+
+[[!redirects iso-comma-category]]
+[[!redirects iso-comma-categories]]
+
