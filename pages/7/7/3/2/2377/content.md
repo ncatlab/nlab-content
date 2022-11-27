@@ -524,7 +524,7 @@ The following pages develop various aspects of set theory in SEAR or related the
 * [[natural numbers in SEAR]]: defining individual natural numbers without the axiom of infinity.
 * [[categories in SEAR]]: defining small categories, in response to a query on the blog.
 * [[universes in SEAR]]: how to formulate an axiom of [[Grothendieck universes]].
-* [[SEAR+?]]: a variant theory containing a [[choice operator]].
+* [[SEAR plus epsilon]]: a variant theory containing a [[choice operator]].
 * [[ETCR]]: A categorical version of Bounded SEARC. 
 * [[ETCS with elements]]: A version of [[ETCS]] that, like SEAR, includes elements as a primitive. 
 
