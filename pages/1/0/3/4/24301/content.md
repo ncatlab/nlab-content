@@ -36,3 +36,4 @@ In [[homotopy type theory]], the __axiom of replacement__ states that given a [[
 
 * [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]], Section 2.19 in: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$ 
 
+[[!redirects type-theoretic axiom of replacement]]
