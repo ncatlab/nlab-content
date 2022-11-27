@@ -5,15 +5,17 @@
 
 ## Idea
 
-Proof theory is the part of [[mathematical logic]] concerned with the notion of [[proof]]. It was introduced by [[David Hilbert]] under the name _Beweistheorie_ as part of [[Hilbert's program]]. Since [[Gödel's incompleteness theorem]] put an end to the original version of Hilbert's program, proof theory has broadened its scope to include the following:
+*Proof theory* is that part of [[mathematical logic]] which is concerned with the notion of [[formal proof]]. It was introduced by [[David Hilbert]] under the name _Beweistheorie_ as part of [[Hilbert's program]]. Since [[Gödel's incompleteness theorem]] put an end to the original version of Hilbert's program, proof theory has broadened its scope to include the following:
 
-* **Structural proof theory** This is concerned with the structure of proofs and perspicuous proof calculi for elucidating this structure. This leads to the study of [[sequent calculus]] and [[natural deduction]].
+* **Structural proof theory** is concerned with the structure of proofs and perspicuous proof calculi for elucidating this structure. This leads to the study of [[sequent calculi]] and of [[natural deduction]].
 
-* **Reductive proof theory** This is modern version of [[Hilbert's program]], in which we don't hope to secure all of mathematics with finitistic means, but rather ask: _what rests on what?_ That is, we find reductions between various systems, showing for example that some [[classical logic|classical]] systems can be reduced to [[constructive mathematics|constructive]] systems, or some systems which use _a priori_ [[impredicative]] principles can nevertheless be reduced to [[predicative]] systems. See also: [[reverse mathematics]].
+* **Reductive proof theory** is the modern version of [[Hilbert's program]]: Instead of hoping to secure all of mathematics with finitistic means, one ask: _what rests on what?_ 
 
-* **[[ordinal analysis|Ordinal analysis]]** Here one analyzes the provably well-founded recursive [[ordinals]] and provably total [[recursive functions]] of a theory by devising suitable proof calculi
+  That is, one asks for reductions between various formal systems, showing for example that some [[classical logic|classical]] systems can be reduced to [[constructive mathematics|constructive]] systems, or some systems which use _a priori_ [[impredicative]] principles can nevertheless be reduced to [[predicative]] systems. See also: [[reverse mathematics]].
 
-* **Proof mining** Here one analyzes proofs of specific statements in order to extract more information than the mere truth of the statement, for instance witnesses or bounds on witnesses of [[existential quantifier|existential]] statements.
+* **[[ordinal analysis|Ordinal analysis]]** analyzes the provably well-founded recursive [[ordinals]] and provably total [[recursive function|recursive functions]] of a theory by devising suitable proof calculi.
+
+* **Proof mining** analyzes proofs of specific statements in order to extract more information than the mere truth of the statement, for instance witnesses or bounds on witnesses of [[existential quantifier|existential]] statements.
 
 ## Related concepts
 
