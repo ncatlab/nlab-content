@@ -28,7 +28,7 @@ In a [[linear category]] this is an [[associative algebra]] over the ground ring
 
 * [[endomorphism]]
 
-* [[endomorphism monoid]], **endomorphism ring**
+* [[endomorphism monoid]], **endomorphism ring**, [[endomorphism monoid object]]
 
 * [[endomorphism operad]]
 
