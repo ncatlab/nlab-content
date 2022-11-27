@@ -84,6 +84,26 @@ Uniqueness rules for the interval type:
 
 * An interval type is a [[cubical type]] $\Box^1$. 
 
+### Relation to identity types
+
+Every [[identity]] $q:a =_A b$ between two terms $a:A$ and $b:A$ of a type $A$ has an associated function $f:\mathbb{I} \to A$ with domain the interval type and codomain $A$, inductively defined by 
+
+* $\beta_f^0:f(0) =_A a$
+* $\beta_f^1:f(1) =_A b$
+* $\beta_f^p:\mathrm{ap}_f(p) =_{f(0) =_A f(1)} \mathrm{concat}_{f(0), b, f(1)}(\mathrm{concat}_{f(0), a, b}(\beta_f^0, q), \mathrm{inv}_{f(1), b}(\beta_f^1))$
+
+where $\mathrm{ap}_f:(0 =_\mathbb{I} 1) \to (f(0) =_A f(1))$ is the [[action on identities]], $\mathrm{concat}_{a, b, c}:(a =_A b) \times (b =_A c) \to (a =_A c)$ is concatenation of identities (i.e. [[transitivity]]), and $\mathrm{inv}_{a, b}:(a =_A b) \to (b =_A a)$ is the inverse of identities (i.e. [[symmetry]]).
+
+### Relation to dependent identity types
+
+Given a type $A$, a dependent type $x:A \vdash B$, terms $a_0:A$ and $a_1:A$, identity $q:a_0 =_A a_1$, terms $b_0:B[a_0/x]$ and $b_1:B[a_1/x]$, and dependent identity $r:b_0 =_B^q b_1$, let us inductively define the dependent function $f:\prod_{x:\mathbb{I}} B(x)$ by
+
+* $\beta_f^0:f(0) =_{B[a_0/x]} b_0$
+* $\beta_f^1:f(1) =_{B[a_1/x]} b_1$
+* $\beta_f^p:\mathrm{apd}_f(p) =_{f(0) =_B^q f(1)} \mathrm{concat}_{\mathrm{trans}_B^q(f(0)), b_1, f(1)}(\mathrm{concat}_{\mathrm{trans}_B^q(f(0)), \mathrm{trans}_B^q(b_0), b_1}(\mathrm{apd}_{\mathrm{trans}_B^q}(\beta_f^0), r), \mathrm{inv}_{f(1), b}(\beta_f^1))$
+
+where $\mathrm{trans}_B^q:B[a_0/x] \to B[a_1/x]$ is [[transport]], $\mathrm{ap}_f:(0 =_\mathbb{I} 1) \to (f(0) =_A f(1))$ is the [[action on identities]], $\mathrm{concat}_{a, b, c}:(a =_A b) \times (b =_A c) \to (a =_A c)$ is concatenation of identities (i.e. [[transitivity]]), and $\mathrm{inv}_{a, b}:(a =_A b) \to (b =_A a)$ is the inverse of identities (i.e. [[symmetry]]).
+
 ## Related concepts
 
 * [[interval]], [[interval object]]
