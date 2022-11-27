@@ -132,15 +132,18 @@ However, [Erhardt & Regnier (2009), p. 3](differential+linear+logic#EhrhardtRegn
 
 ## References
 
+* {#Sipser2012} [[Michael Sipser]], §1.2 in: *Introduction to the Theory Of Computation*, 3rd ed: Cengage Learning (2012) &lbrack;ISBN:978-1-133-18779-0,[pdf](https://www.mog.dog/files/SP2019/Sipser_Introduction.to.the.Theory.of.Computation.3E.pdf), [pdf](https://fuuu.be/polytech/INFOF408/Introduction-To-The-Theory-Of-Computation-Michael-Sipser.pdf)&rbrack;
+
 See also:
 
 * Wikipedia, *[Nondeterministic algorithm](https://en.wikipedia.org/wiki/Nondeterministic_algorithm)*
 
 Nondeterministic Turing machines:
 
+* [Sipser (2012), §3.2](#Sipser2012)
+
 * Wikipedia, *[Nondeterministic Turing machine](https://en.wikipedia.org/wiki/Nondeterministic_Turing_machine)*
 
-* [[Michael Sipser]], *Introduction to the Theory Of Computation*, Third edition (2012), Course Technology Inc.
 
 The notion in [[complexity theory]]:
 
