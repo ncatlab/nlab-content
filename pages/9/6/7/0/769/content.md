@@ -26,21 +26,63 @@ Where a [[pullback]] involves a [[commuting diagram|commuting square]], for a co
 
 ## Definition
 
-The **comma object** of two morphisms $f:A\to C$ and $g:B\to C$ in a [[2-category]] is an object $(f/g)$ equipped with projections $p:(f/g)\to A$ and $q:(f/g)\to B$ and a 2-cell
+\begin{definition}\label{CommaObject}
+**(comma object)**
+\linebreak
+The *comma object* of a [[pair]] of [[1-morphisms]] $f \colon A\to C$ and $g \colone B\to C$ in a [[2-category]] is an [[object]] $(f/g)$ equipped with [[projections]] $p \colon (f/g)\to A$ and $q \colon (f/g)\to B$ and a [[2-morphism]] of this form:
 
 $$
 \array{
-  (f/g) & \overset{p}{\to} & A \\
-  \mathllap{\scriptsize{q}} \downarrow & \swArrow \alpha & \downarrow   \mathrlap{\scriptsize{f}} \\
-  B & \underset{g}{\to} & C
+  (f/g) 
+  & 
+    \overset{p}{\longrightarrow} 
+  & 
+  A 
+  \\
+  \mathllap{\scriptsize{q}} \big\downarrow 
+  & 
+  \swArrow \alpha 
+  & 
+  \big\downarrow   \mathrlap{\scriptsize{f}} 
+  \\
+  B 
+  & 
+  \underset{g}{\longrightarrow} 
+  & 
+  C
 }
 $$
 
-which is universal in the sense of a [[2-limit]].  Comma objects are also sometimes called **lax pullbacks**, but this term more properly refers to the [[lax limit]] of a cospan.
+which is [[universal property|universal]] in the sense of a [[2-limit]].  
+\end{definition}
+\begin{remark}\label{RelationToLaxLimits}
+**(terminology)**
+\linebreak
+Comma objects are also sometimes called **lax pullbacks**, but this term more properly refers to the [[lax limit]] of a [[cospan]], which is a slightly different notion.
+\end{remark}
 
-Part of this (to be explicit) is the statement that for any object $D$, 1-morphisms $p':D\to A$, $q':D\to B$ and 2-cell $\sigma:f p'\Rightarrow g q'$ there is a 1-morphism $u:D\to(f/g)$ and isomorphisms $p u\cong p'$, $q u\cong q'$ such that modulo these isomorphisms, we have $\sigma=\alpha u$.  There is also an additional "2-dimensional universality" saying that given $u:D\to (f/g)$ and $v:D\to (f/g)$ and 2-cells $\mu:p u \to p v$ and $\nu:q u \to q v$ such that $\alpha v. f \mu = g\nu . \alpha u$, there exists a unique 2-cell $\beta:u\to v$ such that $p\beta = \mu$ and $q \beta = \nu$.  Note that the 2-dimensional property implies that in the 1-dimensional property, [[generalized the|the]] 1-morphism $u$ is unique up to unique isomorphism.  A square containing a 2-cell with this property is sometimes called a **comma square**.
+\begin{remark}
+**(in components)** More concretely: 
 
-A **strict comma object** is analogous but has the universal property of a [[strict 2-limit]].  This means that given $p'$, $q'$, and $\sigma$ as above, there exists a _unique_ $u:D\to (f/g)$ such that $p u = p'$, $q u = q'$, and $\sigma u = \alpha$.  Note that any strict comma object is a comma object, but the converse is not in general true.
+Part of Def. \ref{CommaObject} is the statement that for any object $D$, 1-morphisms $p' \colon D\to A$, $q' \colon D\to B$ and 2-morphisms  $\sigma \colon f p'\Rightarrow g q'$ there is a 1-morphism $u \colon D\to(f/g)$ and isomorphisms $p u\cong p'$, $q u\cong q'$ such that modulo these isomorphisms, we have $\sigma=\alpha u$.  
+
+In addition there is the "2-dimensional universality" saying that given $u 'colon D\to (f/g)$ and $v \colon D\to (f/g)$ and 2-morphisms $\mu \colon p u \to p v$ and $\nu \colon q u \to q v$ such that $\alpha v. f \mu = g\nu . \alpha u$, there exists a unique 2-morphism $\beta \colon u\to v$ such that $p\beta = \mu$ and $q \beta = \nu$.  
+
+Notice that the 2-dimensional property implies that in the 1-dimensional property, [[generalized the|the]] 1-morphism $u$ is unique up to unique isomorphism.  A square containing a 2-cell with this property is sometimes called a **comma square**.
+\end{remark}
+
+\begin{remark}\label{IsoCommaObjects}
+By an **iso-comma object** one means the analogous notion as in Def. \ref{CommaObject}, now subject to the requirement that the [[2-morphism]] is a [[2-isomorphism]] and subject to the relevant universal property.
+
+For more on this case see at *[[2-pullback]]*.
+\end{remark}
+
+\begin{remark}
+The notion of a  **strict comma object** is analogous to that of Def. \ref{CommaObject} but has the [[universal property]] of a [[strict 2-limit]].  This means that given $p'$, $q'$, and $\sigma$ as above, there exists a _unique_ $u:D\to (f/g)$ such that $p u = p'$, $q u = q'$, and $\sigma u = \alpha$.  Note that any strict comma object is a comma object, but the converse is not in general true.
+
+When combining this with the constraint in Rem. \ref{IsoCommaObjects}, one also has the notion of *strict iso-comma objects*
+\end{remark}
+
 
 
 ## Properties
@@ -98,3 +140,36 @@ The proof is analogous to that at [[pullback]].
 [[!redirects comma squares]]
 [[!redirects lax pullback]]
 [[!redirects lax pullbacks]]
+
+[[!redirects strict comma object]]
+[[!redirects strict comma objects]]
+
+[[!redirects iso-comma object]]
+[[!redirects iso-comma objects]]
+
+[[!redirects isocomma object]]
+[[!redirects isocomma objects]]
+
+[[!redirects iso-comma-object]]
+[[!redirects iso-comma-objects]]
+
+
+[[!redirects strict iso-comma object]]
+[[!redirects strict iso-comma objects]]
+
+[[!redirects strict isocomma object]]
+[[!redirects strict isocomma objects]]
+
+[[!redirects strict iso-comma-object]]
+[[!redirects strict iso-comma-objects]]
+
+
+[[!redirects bi-iso-comma object]]
+[[!redirects bi-iso-comma objects]]
+
+[[!redirects bi-iso-comma-object]]
+[[!redirects bi-iso-comma-objects]]
+
+
+
+
