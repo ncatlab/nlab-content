@@ -16,17 +16,31 @@
 
 ## Idea
 
-(...) for the moment see at *[[partial recursive function]]* (...)
-
 A recursive function is any [[function]] defined by [[recursion]] (i.e. non-dependent [[induction]]). 
+
+For more see also at *[[partial recursive function]]*.
 
 ## Example 
 
-For example, [[negation]] $\neg:\mathrm{Bool} \to \mathrm{Bool}$ on the [[booleans type]] $\mathrm{Bool}$ is recursively defined by sending $\top$ to $\bot$ and $\bot$ to $\top$.
 
-* $\neg \top =_{\mathrm{Bool}} \bot$
+\begin{example}
+The [[negation]] function 
 
-* $\neg \bot =_{\mathrm{Bool}} \top$
+$$
+  \neg \colon \mathrm{Bool} \to \mathrm{Bool}
+$$ 
+
+on the [[booleans type]] is recursively defined by sending  [[true|$\top$]] to [[false|$\bot$]] and [[false|$\bot$]] to [[true|$\top$]]:
+
+$$
+  \begin{array}{l}
+    \neg \top =_{\mathrm{Bool}} \bot
+    \\
+    \neg \bot =_{\mathrm{Bool}} \top
+  \end{array}
+$$
+
+\end{example}
 
 ## Related concepts
 
