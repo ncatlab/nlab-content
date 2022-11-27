@@ -4,7 +4,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Constructivism, Realizability, Computability
+#### Computability
 +-- {: .hide}
 [[!include constructivism - contents]]
 =--
