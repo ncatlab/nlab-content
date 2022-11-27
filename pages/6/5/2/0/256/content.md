@@ -66,7 +66,7 @@ leads to the conclusion that $k \pi_1 = k \pi_1 \sigma$, or $\pi_1 = \pi_2: c \t
 
 * **endomorphism**, [[automorphism]]
 
-* **endomorphism monoid**, [[endomorphism ring]]
+* **endomorphism monoid**, [[endomorphism ring]], [[endomorphism monoid object]]
 
 * [[endomorphism operad]]
 
