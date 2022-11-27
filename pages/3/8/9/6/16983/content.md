@@ -11,7 +11,6 @@
 =--
 
 
-
 # Taboos
 * table of contents
 {: toc}
@@ -34,13 +33,29 @@ These taboos are unprovable in [[constructive mathematics]].
 * [[supports split]]
 * [[fan theorem]]
 * [[choice operator]]
+* [[presentation axiom]]
+* [[dependent choice]]
 
-### Predicative taboos
+### Weakly predicative-constructive taboos
 
-These taboos are unprovable in [[predicative mathematics]].
+These taboos are unprovable in (constructive) [[weakly predicative mathematics]].
 
+* [[power sets]]
+* [[axiom of separation|unbounded separation]]
+* [[coinductive types]]
 * [[propositional resizing]]
 * [[type of all propositions]]
+
+### Strongly predicative taboos
+
+These taboos are unprovable in [[strongly predicative mathematics]].
+
+* [[subset collection]]
+* [[function sets]]
+* [[axiom of replacement]]
+* [[axiom of collection]]
+* [[function types]]
+* [[dependent function types]]
 
 ### Homotopical taboos
 
@@ -59,6 +74,13 @@ These taboos are unprovable in constructive homotopy type theory, but they may b
 
 * [[sets cover]]
 * [[Whitehead's principle]]
+
+### Discrete cohesion taboos
+
+These taboos are unprovable in discrete [[cohesive homotopy type theory]] (i.e. the setting for plain homotopy type theory):
+
+* [[axiom of real cohesion]]
+* [[axiom of A1-cohesion]]
 
 ## Related entries
 
