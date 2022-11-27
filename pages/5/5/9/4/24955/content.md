@@ -5,7 +5,10 @@ Michele Pagani is a proof theorist working at [[IRIF]].
 ## Selected writings
  {#SelectedWritings}
 
-* {#PaganiTortora09}[[Michele Pagani]], [[Lorenzo Tortora de Falco]], *Strong Normalization Property for Second Order Linear Logic*, 2009 ([pdf](https://www.irif.fr/~michele/snllTCS-1.pdf))
+On [[strong normalization]]:
+
+* {#PaganiTortora09} [[Michele Pagani]], [[Lorenzo Tortora de Falco]], *Strong Normalization Property for Second Order Linear Logic* (2009) &lbrack;[pdf](https://www.irif.fr/~michele/snllTCS-1.pdf)&rbrack;
+
 
 category: people
 
