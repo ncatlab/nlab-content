@@ -70,19 +70,19 @@ $$
 \end{example}
 
 \begin{example}
-This last example is an example of a *higher recursive function*. Given a type $A$, elements $a:A$ and $b:A$, and identity $q:a =_A b$, there is a higher recursive function $f:\mathbb{I} \to A$ from an [[interval type]] $\mathbb{I}$ (with [[judgment|judgmental]] [[computation rules]] for terms of $\mathbb{I}$) to $A$, recursively defined by 
+This last example is an example of a *higher recursive function*. Given a type $A$, elements $a:A$ and $b:A$, and identity $q:a =_A b$, there is a higher recursive function $f:\mathbb{I} \to A$ from an [[interval type]] $\mathbb{I}$ to $A$, recursively defined by 
 
 $$
   \begin{array}{l}
-    f(0) \equiv a
+    \beta_f^0:f(0) =_A a
     \\
-    f(1) \equiv b
+    \beta_f^1:f(1) =_A b
     \\
-    \mathrm{ap}_f(p) =_{a =_A b} q
+    \beta_f^p:\mathrm{ap}_f(p) =_{f(0) =_A f(1)} \mathrm{trans}_{f(0), b, f(1)}(\mathrm{trans}_{f(0), a, b}(\beta_f^0, q), \mathrm{sym}_{f(1), b}(\beta_f^1)) 
   \end{array}
 $$
 
-where $\mathrm{ap}_f:(0 =_\mathbb{I} 1) \to (a =_A b)$ is the [[action on identities]]. 
+where $\mathrm{ap}_f:(0 =_\mathbb{I} 1) \to (f(0) =_A f(1))$ is the [[action on identities]], $\mathrm{trans}_{a, b, c}:(a =_A b) \times (b =_A c) \to (a =_A c)$ is [[transitivity]], and $\mathrm{sym}_{a, b}:(a =_A b) \to (b =_A a)$ is [[symmetry]] of identities. 
 \end{example}
 
 ## Related concepts
