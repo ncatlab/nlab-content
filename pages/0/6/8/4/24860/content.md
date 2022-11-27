@@ -136,8 +136,11 @@ See also:
 
 * Wikipedia, *[Nondeterministic algorithm](https://en.wikipedia.org/wiki/Nondeterministic_algorithm)*
 
+Nondeterministic Turing machines:
+
 * Wikipedia, *[Nondeterministic Turing machine](https://en.wikipedia.org/wiki/Nondeterministic_Turing_machine)*
 
+* [[Michael Sipser]], *Introduction to the Theory Of Computation*, Third edition (2012), Course Technology Inc.
 
 The notion in [[complexity theory]]:
 
