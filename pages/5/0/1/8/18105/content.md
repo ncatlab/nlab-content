@@ -26,7 +26,7 @@ $$
 
 * [[endomorphism]]
 
-* [[endomorphism monoid]], [[endomorphism ring]]
+* [[endomorphism monoid]], [[endomorphism ring]], [[endomorphism monoid object]]
 
 * [[representable multicategory]]
 
