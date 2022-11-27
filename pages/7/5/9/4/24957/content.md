@@ -2,9 +2,10 @@
 * table of contents
 {:toc}
 
+
 # Idea
 
-The _Emerton-Gee stack_ is the [[moduli stack]] of etale $(\varphi,\Gamma)$-modules.
+The _Emerton-Gee stack_ is the [[moduli stack]] of étale $(\varphi,\Gamma)$-modules.
 
 # Related concepts
 
@@ -16,5 +17,6 @@ The _Emerton-Gee stack_ is the [[moduli stack]] of etale $(\varphi,\Gamma)$-modu
 
 # References
 
-* {#EmertonGee19} [[Matthew Emerton]], [[Toby Gee]], _Moduli stacks of etale (phi,Gamma) modules and the existence of crystalline lifts_ ([arXiv:1908.07185](https://arxiv.org/abs/1908.07185))
+* {#EmertonGee19} [[Matthew Emerton]], [[Toby Gee]], *Moduli stacks of étale $(\phi, \Gamma)$ modules and the existence of crystalline lifts* ([arXiv:1908.07185](https://arxiv.org/abs/1908.07185))
 
+[[!redirects Emerton-Gee stacks]]
