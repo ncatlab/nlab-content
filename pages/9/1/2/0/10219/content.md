@@ -30,7 +30,7 @@ In [[constructive mathematics]], however, it may not be true that all supports s
 
 ### In (homotopy) type theory
 
-In [[type theory]] under [[propositions as types]]), where assertions of existence are always witnessed, to say that "all supports split" would by default mean that there is a *function* as above, assigning to every $X$ a section of $X\to {\Vert X \Vert}$, and imply the global axiom of choice.  To recover the statement which depends only on excluded middle, we need an additional truncation:
+In [[type theory]] under [[propositions as types]]), where assertions of existence are always witnessed, to say that "all supports split" would by default mean that there is a *function* as above called the [[choice operator]], assigning to every $X$ a section of $X\to {\Vert X \Vert}$, and imply the [[global axiom of choice]].  To recover the statement which depends only on excluded middle, we need an additional truncation:
 
 $$ \prod_{(X:Type)} \Vert ( \Vert X \Vert \to X ) \Vert. $$
 
