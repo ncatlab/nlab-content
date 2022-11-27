@@ -11,6 +11,23 @@ In [[David Hilbert|Hilbert]]'s original formulation, for any property $P(x)$ we 
 $$\exists x.P(x) \;\Rightarrow\; P\big(\varepsilon x.P(x)\big).$$
 In other words, if $P$ holds of anything at all, then it holds of the particular term $\varepsilon x.P(x)$.  A similar operator was used by [[Bourbaki]] and appears in [[FMathL]].
 
+### In dependent type theory
+
+In dependent type theory with [[propositional truncations]], the naive translation of the global choice operator results in the following rule:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\vert A \vert \to A}$$
+
+The type-theoretic global choice operator implies global [[axiom K]] or global [[UIP]], and thus is inconsistent with the existence of a univalent Tarski universe with [[h-proposition|non-propositional]] [[h-sets]]. 
+
+If one wants to express the set-theoretic global choice operator and still consistently have a univalent Tarski universe with [[h-proposition|non-propositional]] [[h-sets]], one needs to set-truncate the target, or restrict the global choice operator to inhabited [[h-sets]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\vert A \vert \to \vert A \vert_0} \quad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isSet}(A)}{\Gamma \vdash \varepsilon_A:\vert A \vert \to A}$$
+
+There is also a version of the type-theoretic choice operator local to a [[Tarski universe]] $(U, T)$, given by:
+
+$$\frac{\Gamma \vdash U \; \mathrm{type} \quad \Gamma, X:U \vdash T \; \mathrm{type}}{\Gamma \vdash \varepsilon_U:\prod_{A:U} \vert T[A/X] \vert \to T[A/X]}$$
+
+$U$ having a choice operator implies that $U$ satisfies [[axiom K]] or [[UIP]]. If $U$ is also univalent, then it is an [[h-groupoid]]. 
 
 ## Foundational status
 
@@ -30,8 +47,11 @@ However, in some [[foundations]] it seems to be possible to avoid this conclusio
 
 Like the [[axiom of choice]], the existence of a global choice operator is consistent with the other axioms of most foundations.  For example, in ZF, the [[constructible universe]] (which models $ZF + (V=L)$, the [[axiom of constructibility]]) admits a natural classical [[well-ordering]] of the entire universe, giving rise to a naturally defined global choice operator (namely, $\varepsilon x.P$ = the smallest $x$ such that $P$ in the global well-ordering).
 
-On the other hand, a global choice operator is inconsistent with the [[univalence axiom]] of [[homotopy type theory]].  For univalence requires that all operations on the [[type of types]] must be natural with respect to equivalences, which no global choice operator can be.
+On the other hand, a type-theoretic global choice operator is inconsistent with the [[univalence axiom]] of [[homotopy type theory]]. For univalence requires that all operations on the [[type of types]] must be natural with respect to equivalences, which no global choice operator can be.
 
+## See also
+
+* [[split support]]
 
 ## Readings
 
@@ -46,6 +66,12 @@ category: foundational axiom
 
 [[!redirects choice operator]]
 [[!redirects global choice operator]]
+
+[[!redirects type-theoretic choice operator]]
+[[!redirects type-theoretic global choice operator]]
+
+[[!redirects set-theoretic choice operator]]
+[[!redirects set-theoretic global choice operator]]
 
 [[!redirects axiom of existence]]
 [[!redirects axiom scheme of existence]]
