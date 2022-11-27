@@ -157,7 +157,7 @@ and, a current state of the art description is in
 
 A modern approach from classical via Grothendieck up to [[categorical Galois theory]] based on precategories and adjunctions is in 
 
-* [[Francis Borceux]], [[George Janelidze]], _[[Galois theories]]_, Cambridge Studies in Adv. Math. __72__, 2001. xiv+341 pp.
+* [[Francis Borceux]], [[George Janelidze]], _[[Galois Theories]]_, Cambridge Studies in Adv. Math. __72__, 2001. xiv+341 pp.
 
 The application of a general Tannakian theorem of Saavaedra Rivano, as corrected by Deligne, to the "[[differential Galois theory]]" for differential instead of algebraic equations is in the last chapter of Deligne's [[Catégories Tannakiennes]].
 
