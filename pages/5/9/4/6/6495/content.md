@@ -13,6 +13,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -143,7 +144,7 @@ THH and TC specifically of [[KU|ku]] and [[KO|ko]] is discussed in
 
 and of [[tmf]] in 
 
-* [[Bob Bruner]], [[John Rognes]], _Topological Hochschild homology of topological modular forms_ 2008 ([pdf](http://folk.uio.no/rognes/papers/ntnu08.pdf))
+* [[Robert Bruner]], [[John Rognes]], *Topological Hochschild homology of topological modular forms*, talk at *Nordic Topology Meeting* NTNU (2008) &lbrack;[[Bruner-Rognes_THHtmf.pdf:file]]&rbrack;
 
 
 [[!redirects topological Hochschild homology]]
