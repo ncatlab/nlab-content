@@ -38,7 +38,7 @@ The [[philosophy]] of [[mathematics]].
   * [[philosophy of physics]]
 * [[history of mathematics]]
 
-* [[epistomology of mathematics]]
+* [[epistemology of mathematics]]
 
 ## References
 
