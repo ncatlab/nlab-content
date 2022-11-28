@@ -20,9 +20,11 @@
 
 ## Idea
 
-The [[philosophy]] of [[mathematics]].
+The [[philosophy]] of [[mathematics]]. 
 
 ## Related concepts
+
+* [[pluralism]], [[reductionism]]
 
 * [[Platonism]]
 
