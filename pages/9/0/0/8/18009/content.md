@@ -19,10 +19,15 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-Any [[free loop space]] $\mathcal{L}X \,=\, Map(S^1,X)$ carries a canonical [[group action]] ([[infinity-action]]) of the [[circle group]] $S^1$ acting by rigid [[rotation]] on itself. The [[homotopy quotient]] $\mathcal{L}(X) \sslash S^1$ of this action might be called the _cyclic loop space_ of $X$, and is also known as the *string space* of $X$ ([Chataur 2005. 4.8.1](#Chataur05), [B&ouml;kstedt & Ottosen 05, p. 1](#BokstedtOttosen05)).
+Any [[free loop space]] $\mathcal{L}X \,=\, Map(S^1,X)$ carries a canonical [[group action]] ([[infinity-action]]) of the [[circle group]] $S^1$ acting by rigid [[rotation]] on itself. The [[homotopy quotient]] $Cyc(X) \;\coloneqq\; \mathcal{L}(X) \sslash S^1$ of this action might be called the _cyclic loop space_ of $X$:
 
-If $X = Spec(A)$ is an [[affine variety]] regarded in [[derived algebraic geometry]], then $\mathcal{O}(\mathcal{L}Spec(A))$ is the [[Hochschild homology]] of $A$ and $\mathcal{O}((\mathcal{L}Spec(A))/S^1)$ the corresponding [[cyclic homology]], see the discussion at _[[Hochschild cohomology]]_.
+If $X$ is a [[simply connected topological space]], then the [[ordinary cohomology]] of $Cyc(X)$ is the [[cyclic cohomology]] of $X$ (Jones' theorem &lbrack;[Jones (1987)](#Jones87); [Loday (1992), §7.2](#Loday92); [Loday (2015)](#Loday15)&rbrack;, see [below](#RelationToCyclicCohomology)).
+
+Analogously, if $X = Spec(A)$ is an [[affine variety]] regarded in [[derived algebraic geometry]], then $\mathcal{O}(\mathcal{L}Spec(A))$ is the [[Hochschild homology]] of $A$ and $\mathcal{O}((\mathcal{L}Spec(A))/S^1)$ the corresponding [[cyclic homology]], see also the discussion at _[[Hochschild cohomology]]_.
+
+But $Cyc(X)$ is also known as the *string space* of $X$ ([Chataur 2005. 4.8.1](#Chataur05), [B&ouml;kstedt & Ottosen 05, p. 1](#BokstedtOttosen05)).
  
 {#StapletonTerminology} If $X = Y\sslash G$ is the [[homotopy quotient]] of a [[topological space]] by a [[topological group]] action, regarded as a locally constant $\infty$-stack, then (a [[point-set topology|point set]]-model for) the [[free loop space]] $\mathcal{L}(Y \sslash G)$ has been called the *twisted loop space* in [Witten 88](#Witten88); and this terminology is essentially carried over to the cyclification of its restriction to the constant loops 
 [Stapleton (2013), p. 2](#Stapleton13) in the context of the [[transchromatic character]].
@@ -38,6 +43,7 @@ A candidate lift of this construction from plain [[homotopy types]] to [[smooth 
 The cyclic loop space $\mathcal{L}X  \sslash S^1$ is equivalently the right [[base change]]/[[dependent product]] along the canonical point inclusion $\ast \to B S^1$ ([this prop.](base+change#CyclicLoopSpace)) into the [[delooping]] of $S^1$ (the [[classifying space]] of the [[circle group]] when realized in the [[classical model structure on topological spaces|homotopy theory of]] [[topological spaces]]). See also at _[[double dimensional reduction]]_ ([BMSS 19, Sec. 2.2](#BMSS19), following [FSS 18, Sec. 3](#FSS18)).
 
 ### Ordinary cohomology of $\mathcal{L}X \sslash S^1$ as cyclic cohomology of $X$
+ {#RelationToCyclicCohomology}
 
 Let $X$ be a [[simply connected topological space|simply connected]] [[topological space]]. 
 
@@ -216,20 +222,28 @@ The notion of the cyclic loop space of a topological space appears as:
 
 * {#Cohen1985} [[Ralph Cohen]], p. 194 of: *A Model for the Free Loop Space of a Suspension*, in: [[Haynes Miller]], [[Douglas Ravenel]] (eds.), *Algebraic Topology*, Lecture Notes in Mathematics **1286**, Springer 1985 ([doi:10.1007/BFb0078743](https://link.springer.com/chapter/10.1007/BFb0078743))
 
-* {#Jones87} [[John D.S. Jones]], _Cyclic homology and equivariant homology_, Invent. Math. __87__, 403-423 (1987) ([pdf](https://math.berkeley.edu/~nadler/jones.pdf), [doi:10.1007/BF01389424](https://doi.org/10.1007/BF01389424))
 
 * {#CarlssonCohen1987} [[Gunnar Carlsson]], [[Ralph Cohen]], *The cyclic groups and the free loop space*, Commentarii Mathematici Helvetici **62** (1987) 423–449  ([doi:10.1007/BF02564455](https://doi.org/10.1007/BF02564455), [dml:140092](https://eudml.org/doc/140092))
 
 * {#Witten88} [[Edward Witten]], _The index of the Dirac operator in loop space_. In Elliptic curves and modular forms in algebraic topology (Princeton, NJ, 1986), volume 1326 of Lecture Notes in Math., pages 161&#8211;181. Springer, Berlin, 1988 ([doi:10.1007/BFb0078045](https://doi.org/10.1007/BFb0078045))
 
+* {#Chataur05} [[David Chataur]], *A bordism approach to string topology*, International Mathematics Research Notices **2005** 46, (2005)  ([arXiv:math/0306080](https://arxiv.org/abs/math/0306080), [doi:10.1155/IMRN.2005.2829](https://doi.org/10.1155/IMRN.2005.2829))
+
+
+* {#BokstedtOttosen05} [[Marcel Bökstedt]], [[Iver Ottosen]], *A spectral sequence for string cohomology*, Topology Volume 44, Issue 6, November 2005, Pages 1181-1212 ([arXiv:math/0411571](https://arxiv.org/abs/math/0411571), [doi:10.1016/j.top.2005.04.006](https://doi.org/10.1016/j.top.2005.04.006))
+
+and in their relation to [[Hochschild homology]]/[[cyclic homology]]:
+
+* {#Jones87} [[John D.S. Jones]], _Cyclic homology and equivariant homology_, Invent. Math. __87__, 403-423 (1987) ([pdf](https://math.berkeley.edu/~nadler/jones.pdf), [doi:10.1007/BF01389424](https://doi.org/10.1007/BF01389424))
+
 * {#Loday92} [[Jean-Louis Loday]], *Cyclic Spaces and $S^1$-Equivariant Homology* ([doi:10.1007/978-3-662-21739-9_7](https://link.springer.com/chapter/10.1007/978-3-662-21739-9_7))
 
   Chapter 7 in: *Cyclic Homology*, Grundlehren **301**, Springer 1992 ([doi:10.1007/978-3-662-21739-9](https://link.springer.com/book/10.1007/978-3-662-21739-9))
 
-* {#Chataur05} [[David Chataur]], *A bordism approach to string topology*, International Mathematics Research Notices **2005** 46, (2005)  ([arXiv:math/0306080](https://arxiv.org/abs/math/0306080), [doi:10.1155/IMRN.2005.2829](https://doi.org/10.1155/IMRN.2005.2829))
+* {#Loday15} [[Jean-Louis Loday]], Section 4 of: _Free loop space and homology_, Chapter 4 in: Janko Latchev, Alexandru Oancea (eds.): *Free Loop Spaces in Geometry and Topology*, IRMA Lectures in Mathematics and Theoretical Physics **24**, EMS 2015 ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405), [ISBN:978-3-03719-153-8](https://bookstore.ams.org/emsilmtp-24/))
 
+and specifically for [[complex projective spaces]] in [Loday (2015), Sec 4](#Loday15).
 
-* {#Loday11}[[Jean-Louis Loday]], Section 4 of: _Free loop space and homology_, Chapter 4 in: Janko Latchev, Alexandru Oancea (eds.): *Free Loop Spaces in Geometry and Topology*, IRMA Lectures in Mathematics and Theoretical Physics **24**, EMS 2015 ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405), [ISBN:978-3-03719-153-8](https://bookstore.ams.org/emsilmtp-24/))
 
 Discussion in the context of the [[transchromatic character]]:
 
