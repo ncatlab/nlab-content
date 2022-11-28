@@ -260,6 +260,10 @@ and
 
 
 [[!redirects cyclic (co)homology]]
+[[!redirects cyclic cohomology]]
 
 
 [[!redirects string cohomology]]
+
+
+
