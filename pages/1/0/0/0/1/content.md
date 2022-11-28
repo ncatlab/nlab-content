@@ -83,16 +83,12 @@ Usually this works well. If there is need for discussion, the
 [nForum](http://nforum.ncatlab.org) is the forum to turn to. If serious problems arise, the [steering committee](#SteeringCommitte) might intervene. 
 
 
-## Server and setup
- {#Server}
+## Installation
+ {#Installation}
 
 The domain `ncatlab.org` is owned by [[Urs Schreiber]]. 
 
-The $n$Lab server is currently hosted at Carnegie Mellon University, funded in the context of the [HoTT MURI grant](http://homotopytypetheory.org/2014/04/29/hott-awarded-a-muri/). 
-
-> The nLab runs on a server at Carnegie Mellon University that is supported by MURI grant FA9550-15-1-0053 from the Air Force Office of Scientific Research. Any opinions, findings and conclusions or recommendations expressed on the nLab are those of the authors and do not necessarily reflect the views of the AFOSR.
-
-However, we will imminently be moving to the cloud, to an account registered to the [Topos Institute](https://topos.institute/). For this, we rely on donations which have kindly been made to the nLab. See [[funding of the nLab]] for an overview of the financial side of things. The $n$Lab is currently in the process of migrating to the cloud. 
+The $n$Lab server is currently hosted at Carnegie Mellon University, kindly provided by [[Steve Awodey]].
 
 The nLab's software and technical administrative matters are in the hands of the nLab's [[nLab meta:technical board]]. 
 
