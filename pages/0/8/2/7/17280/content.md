@@ -9,6 +9,11 @@ On [[H-infinity ring spectra|$H_\infty$-ring spectra]]:
 
 * {#BrunerMayMcLureSteinberger86} [[Robert Bruner]], [[Peter May]], [[James McClure]], [[Mark Steinberger]], *$H_\infty$-Ring Spectra and their Applications*, Lecture Notes in Mathematics **1176**, Springer (1986) &lbrack;[doi:10.1007/BFb0075405](https://link.springer.com/book/10.1007/BFb0075405), [pdf](http://www.math.uchicago.edu/~may/BOOKS/h_infty.pdf)&rbrack;
 
+On the [[topological Hochschild homology]] of [[topological modular forms]]:
+
+* [[Robert Bruner]], [[John Rognes]], *Topological Hochschild homology of topological modular forms*, talk at *Nordic Topology Meeting* NTNU (2008) &lbrack;[[Bruner-Rognes_THHtmf.pdf:file]]&rbrack;
+
+
 
 On [[equivariant K-theory]] and [[KR-theory]] for [[finite group|finite]] [[equivariance groups]]:
 
@@ -24,3 +29,6 @@ On [[equivariant K-theory]] and [[KR-theory]] for [[finite group|finite]] [[equi
 * [[Steenrod algebra]]
 
 category: people
+
+[[!redirects Bob Bruner]]
+
