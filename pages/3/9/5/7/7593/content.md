@@ -11,6 +11,11 @@ On [[iterated algebraic K-theory]] and the [[red-shift conjecture]]:
 
 * [[Christian Ausoni]], [[John Rognes]], _The chromatic red-shift in algebraic K-theory_, Enseign. Math. (2) 54 (2008), 9-11. ([pdf](http://www.math.univ-paris13.fr/~ausoni/papers/gmconj-AR.pdf), [[AusoniRognesRedShiftInAlgebraicKTheory.pdf:file]], [doi:10.5169/seals-109873](http://doi.org/10.5169/seals-109873))
 
+On the [[topological Hochschild homology]] of [[topological modular forms]]:
+
+* [[Robert Bruner]], [[John Rognes]], *Topological Hochschild homology of topological modular forms*, talk at *Nordic Topology Meeting* NTNU (2008) &lbrack;[[Bruner-Rognes_THHtmf.pdf:file]]&rbrack;
+
+
 On the first [[algebraic K-theory]] $K(ku)$ of [[topological K-theory]] ([[iterated algebraic K-theory]]):
 
 * [[Christian Ausoni]], [[John Rognes]], _Algebraic K-theory of topological K-theory_, Acta Math. Volume 188, Number 1 (2002), 1-39 ([euclid:acta/1485891473](https://projecteuclid.org/euclid.acta/1485891473))
@@ -28,7 +33,7 @@ Divisibility of a [[gerbe]] on the [[3-sphere]] seen as a [[BDR 2-vector bundle]
 * [[Christian Ausoni]], [[Bjørn Ian Dundas]] and [[John Rognes]],  _Divisibility of the Dirac magnetic monopole as a two-vector bundle over the three-sphere_, Doc. Math. 13, 795-801 (2008). ([pdf](http://www.math.univ-paris13.fr/~ausoni/papers/ADR08.pdf))
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[red-shift conjecture]]
 
