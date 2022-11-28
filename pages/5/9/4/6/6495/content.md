@@ -73,9 +73,9 @@ Higher topological Hochschild Homology is discussed in
 * {#CarlssonDouglasDundas08} [[Gunnar Carlsson]], [[Christopher Douglas]], [[Bjørn Ian Dundas]], _Higher topological cyclic homology and the Segal conjecture for tori_, 
 Adv. Math. __226__ (2011), no. 2, 1823&#8211;1874, ([arXiv:0803.2745](http://arxiv.org/abs/0803.2745), [MR2737802](http://www.ams.org/mathscinet-getitem?mr=2737802), [doi](http://dx.doi.org/10.1016/j.aim.2010.08.016))
 
-A general abstract construction is in
+A [[(infinity,1)-category theory|$(\infty,1)$-category theoretic]] construction:
 
-* {#NikolausScholze17} [[Thomas Nikolaus]], [[Peter Scholze]], chapter 3 of _On topological cyclic homology_ ([arXiv:1707.01799](https://arxiv.org/abs/1707.01799))
+* {#NikolausScholze17} [[Thomas Nikolaus]], [[Peter Scholze]], _On topological cyclic homology_,  Acta Math. **221** 2 (2018) 203-409 &lbrack;[arXiv:1707.01799](https://arxiv.org/abs/1707.01799), [doi:10.4310/ACTA.2018.v221.n2.a1](https://dx.doi.org/10.4310/ACTA.2018.v221.n2.a1)&rbrack;
 
 
 Review and exposition includes
@@ -103,9 +103,6 @@ Abstract characterization of the [[Dennis trace]] and cyclotomic trace is discus
 
 * {#BlumbergGepnerTabuada11} [[Andrew Blumberg]], [[David Gepner]], [[Goncalo Tabuada]], _Uniqueness of the multiplicative cyclotomic trace_, Advances in Mathematics 260 (2014) 191-232 ([arXiv:1103.3923](http://arxiv.org/abs/1103.3923))
 
-An approach using only homotopy-invariant notions, which gives a construction of topological cyclic homology based on a new definition of the ∞-category of [[cyclotomic spectra]] is in
-
-* [[Thomas Nikolaus]], [[Peter Scholze]], _On topological cyclic homology_, [arXiv:1707.01799](https://arxiv.org/abs/1707.01799)
 
 See also
 
