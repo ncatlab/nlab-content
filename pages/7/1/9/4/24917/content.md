@@ -31,3 +31,7 @@ Important examples of neutral non-well-founded set theory include
 The foundation-like axioms are given in section 2 of
 
 * [[Michael Shulman]] (2018). Comparing material and structural set theories. [arXiv:1808.05204](https://arxiv.org/abs/1808.05204).
+
+The set theory in this textbook does not have the axiom of regularity, and is thus equivalent to $ZFC^{\circlearrowleft}$. However, it isn't fully neutral, since Mostowski's principle still holds. 
+
+* Paul Halmos, *Naive Set Theory*. Princeton, NJ: D. Van Nostrand Company, 1960. 
