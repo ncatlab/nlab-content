@@ -53,13 +53,13 @@ In the case $R=\Delta^{op}$, the latching object $L_n X$ can be thought of as th
 
 We now define a morphism $f:X\to Y$ in $C^R$ to be a cofibration or trivial cofibration if for all $r$, the map
 $$L_r Y \amalg_{L_r X} X_r \to Y_r$$
-is a cofibration or trivial cofibration in $M$, respectively, and to be a fibration or trivial fibration if for all $r$, the map
+is a cofibration or trivial cofibration in $C$, respectively, and to be a fibration or trivial fibration if for all $r$, the map
 $$ X_r \to M_r X \times_{M_r Y} Y_r$$
-is a fibration or trivial fibration in $M$, respectively.  Define $f$ to be a weak equivalence if each $f_r$ is a weak equivalence in $M$.
+is a fibration or trivial fibration in $C$, respectively.  Define $f$ to be a weak equivalence if each $f_r$ is a weak equivalence in $C$.
 
 One then verifies that this defines a model structure; the details can be found in (for instance) Hovey and Hirschhorn's books.  In particular, to factor a morphism $f:X\to Y$ in either of the two necessary ways, we construct the factorization $f_r = g_r h_r$ inductively on $r$, by factoring the induced morphism
 $$ L_r Z \amalg_{L_r X} X_r \to M_r Z \times_{M_r Y} Y_r$$
-in the appropriate way in $M$.
+in the appropriate way in $C$.
 
 ### Enriched version
 
