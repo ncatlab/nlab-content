@@ -1,120 +1,42 @@
 
-## References
-
-* Kerem Halil Shah, Daniel Kuan Li Oi, *Ancilla Driven Quantum Computation with arbitrary entangling strength*, Theory of Quantum Computation **22** (2013) &lbrack;[arXiv:1303.2066](https://arxiv.org/abs/1303.2066), [doi:10.4230/LIPIcs.TQC.2013.1](https://doi.org/10.4230/LIPIcs.TQC.2013.1)&rbrack;
-
-
-* Yuan Liang Lim, Almut Beige, Leong Chuan Kwek, *Repeat-Until-Success Quantum Computing*, Phys. Rev. Lett. **95** (2005)  030505 &lbrack;[doi:10.1103/PhysRevLett.95.030505](https://doi.org/10.1103/PhysRevLett.95.030505), [arXiv:quant-ph/0408043](https://arxiv.org/abs/quant-ph/0408043)&rbrack;
-
-
-* Adam Paetznick, Krysta M. Svore, *Repeat-Until-Success: Non-deterministic decomposition of single-qubit unitaries*, Quantum Information & Computation **14** 15-16 (2014) 1277-1301 &lbrack;[arXiv:1311.1074](https://arxiv.org/abs/1311.1074), [doi:10.5555/2685179.2685181](https://dl.acm.org/doi/10.5555/2685179.2685181)&rbrack;
-
-
-
-
-
-***
-
-[[test-file.pdf:file]]
-Please rerender the previous link...
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Algebra
+#### Topology
 +--{: .hide}
-[[!include higher algebra - contents]]
+[[!include topology - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
 {:toc}
 
-(This article is about primitive elements in coalgebra theory, not about primitive elements for finite [[field extensions]].)  
+## Idea
 
-## Definition
+Any [[free loop space]] $\mathcal{L}X$ has a canonical [[action]] ([[infinity-action]]) of the [[circle group]] $S^1$. The [[homotopy quotient]] $\mathcal{L}(X)/S^1$ of this action might be called the _cyclic loop space_ of $X$, and is also known as the *string space* of $X$ ([Chataur 2005. 4.8.1](#Chataur05), [B&ouml;kstedt & Ottosen 05, p. 1](#BokstedtOttosen05)).
 
-Working over a [[commutative ring]] $R$, recall that a _unital_ or _coaugmented_ [[coalgebra]] is an $R$-[[coalgebra]] $(C, \Delta: C \to C \otimes_R C, \epsilon: C \to R)$ equipped with a coalgebra map $u: R \to C$. Abusing notation, denote $u(1) \in C$ by $1$. 
+If $X = Spec(A)$ is an [[affine variety]] regarded in [[derived algebraic geometry]], then $\mathcal{O}(\mathcal{L}Spec(A))$ is the [[Hochschild homology]] of $A$ and $\mathcal{O}((\mathcal{L}Spec(A))/S^1)$ the corresponding [[cyclic homology]], see the discussion at _[[Hochsc hild cohomology]]_.
+ 
+If $X = Y\sslash G$ is the [[homotopy quotient]] of a [[topological space]] by a [[topological group]] action, regarded as a locally constant $\infty$-stack, then (a [[point-set topology|point set]]-model for) the [[free loop space]] $\mathcal{L}(Y \sslash G)$ has been called the *twisted loop space* in [Witten 88](#Witten88); and this terminology is essentially carried over to the cyclification of its restriction to the constant loops 
+[Stapleton (2013), p. 2](#Stapleton13) in the context of the [[transchromatic character]].
 
-### Primitive element in a coalgebra
+A candidate lift of this construction from plain [[homotopy types]] to [[smooth homotopy types]], namely to [[orbifold]] [[stacks]] is [[Huan's inertia orbifold]]-construction.
 
-An element  $x$ in a [[coalgebra]] $C$ is __primitive__ if $\Delta(x) = 1\otimes x + x\otimes 1$. This condition implies $\epsilon(x) = 0$. 
-
-This notion generalizes straightforwardly to unital [[corings]] over $R$ and even more generally to any [[comonoid object]] in a [[CMon-enriched monoidal category]] (see below).
-
-### Primitive element in a comodule
-
-Let $N$ be a [[comodule]] over $C$, with co-action map $\Psi \colon N \longrightarrow C \otimes_R N$. Then an element $n \in N$ is called a **primitive element** or **[[coinvariant]]** if $\Psi(n) = 1 \otimes n$.
-
-The $R$-module $prim(N)$ of primitive elements of $N$ is [[natural isomorphism|naturally]] to 
-
-1. the module of comodule homomorphisms out of $R$ into $N$
-
-   $$
-     prim(N) \simeq Hom_{C}(R,N)
-     \,.
-   $$
-
-1. the [[cotensor product]] of $N$ with $A$
-
-   $$
-     prim(N) \simeq A \Box_R N
-     \,.
-   $$
-
-### Object of primitive elements of a comonoid in a $CMon$-enriched monoidal category 
-
-Let $(C,\Delta,\epsilon)$ be a [[comonoid object]] in a [[CMon-enriched monoidal category]] $(\mathcal{C},\otimes,I)$. The object $P$ of primitive elements of $C$ is defined if it exists, as the coequalizer in this diagram:
-
-...
-
-\begin{proposition}
-If the comonoid $C$ admits an object $P$ of primitive elements, we then have:
-
-...
-
-\end{proposition}
 
 ## Properties
 
-### Primitives in a Hopf algebra 
+### As right base change along $\ast \to \mathbf{B} S^1$
+ {#AsRightBaseChange}
 
-A straightforward calculation shows that the module of primitive elements in a [[Hopf algebra]] $H$ (or even in a [[bialgebra]] $H$) is a Lie subalgebra of the underlying [[Lie algebra]] of $H$ (whose bracket is the algebra [[commutator]]). 
-Thus, taking primitive elements yields a functor 
+The cyclic loop space $\mathcal{L}X  \sslash S^1$ is equivalently the right [[base change]]/[[dependent product]] along the canonical point inclusion $\ast \to B S^1$ ([this prop.](base+change#CyclicLoopSpace)) into the [[delooping]] of $S^1$ (the [[classifying space]] of the [[circle group]] when realized in the [[classical model structure on topological spaces|homotopy theory of]] [[topological spaces]]). See also at _[[double dimensional reduction]]_ ([BMSS 19, Sec. 2.2](#BMSS19), following [FSS 18, Sec. 3](#FSS18)).
 
-$$P: HopfAlg \to LieAlg$$ 
 
-(and of course we have more generally a functor $P: BiAlg \to LieAlg$ which is an extension along the full inclusion $HopfAlg \to BiAlg$). 
 
-For a Lie algebra $L$, let $U(L)$ be its [[universal enveloping algebra]]: 
 
-$$U(L) = T(L)/I$$ 
-
-where $I$ is the two-sided ideal generated by elements of the form $x y - y x - [x, y]$ where $x, y \in L$. This carries a bialgebra structure whose comultiplication $\delta: U(L) \to U(L) \otimes U(L)$ is uniquely determined by the rule $\delta(x) = 1 \otimes x + x \otimes 1$ for $x \in L$. Since this says $x \in L$ is primitive, the counit $\epsilon: U(L) \to R$ is forced to be the algebra map such $\epsilon(x) = 0$ for all $x \in L$, and also the Hopf antipode is uniquely determined: $\sigma(x) = -x$ for $x \in L$. 
-
-The following proposition is entirely straightfoward: 
-
-+-- {: .num_prop} 
-###### Proposition 
-The functor $U: LieAlg \to BiAlg$ is [[left adjoint]] to the functor $P: BiAlg \to LieAlg$. 
-=-- 
-
-This result is essentially tautologous and holds for any commutative ring of arbitrary characteristic. (This despite the fact that the $U(L)$ as defined above is not as well-behaved in nonzero characteristic as one might like; e.g. the [[PBW theorem]] fails.) More information on this adjunction may require more restrictive hypotheses: 
-
-+-- {: .num_prop} 
-###### Proposition 
-For $R = k$ a [[field]] of [[characteristic zero]], the [[adjunction unit|unit]] $L \to P U(L)$ is an [[isomorphism]]. 
-=-- 
-
-An immediate consequence is that for such ground fields $k$, the functor $U: LieAlg \to BiAlg$ is [[fully faithful functor|fully faithful]]. Of course, $U$ lands in the full subcategory of cocommutative Hopf algebras, which is exactly the category of [[group objects]] in the [[cartesian monoidal category]] of [[cocommutative coalgebras]]. 
-
-The [[Milnor-Moore theorem]] gives further information: for Hopf algebras over a field of characteristic zero, the counit $U P(H) \to H$ is a monomorphism, and an isomorphism in case $H$ satisfies a suitable conilpotency condition. 
-
-(More needs to be added.) 
-
-[[!redirects primitive element in a coalgebra]]
-
-[[!redirects primitive elements]]
