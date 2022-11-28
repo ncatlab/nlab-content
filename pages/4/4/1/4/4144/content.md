@@ -18,7 +18,7 @@
 _Syntomic cohomology_ is the [[abelian sheaf cohomology]] of the _syntomic site_ of a [[scheme]].
 It is a $p$-[[p-adic|adic]] analogue of [[Deligne-Beilinson cohomology]].
 
-It is closely related to the [[crystalline cohomology]] of that scheme. It may be regarded as a $p$-adic [[absolute Hodge cohomology]].
+Syntomic cohomology is closely related to the [[crystalline cohomology]] of that scheme and may be regarded as a [[p-adic numbers|$p$-adic]] [[absolute Hodge cohomology]].
 
 ## Construction via Prismatic Cohomology
 
