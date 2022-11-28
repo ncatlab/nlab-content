@@ -72,6 +72,8 @@ This entire subject about past research programs, paradigms in mathematics and p
 
 ## Philosophical positions
 
+* [[pluralism]], [[reductionism]]
+
 * [[Platonism]]
 
 * [[idealism]]
@@ -93,11 +95,13 @@ This entire subject about past research programs, paradigms in mathematics and p
 * [[category (philosophy)]], [[modality]]
 * [[logos (in philosophy)]], [[Nous]]
 * [[history of mathematics]], [[structuralism]], [[opinions on development of mathematics]]
+* [[epistemology of mathematics]]
 * [[metaphysics]]
 * [[hermeticism]], [[mysticism]], [[gnosticism]], [[speculative philosophy]]
 * _[[Science of Logic]]_
 * [[analytic philosophy]]
-* [[philosophy of mathematics]], [[predicative mathematics]]
+* [[philosophy of mathematics]] 
+* [[constructive mathematics]], [[predicative mathematics]]
 * [[philosophy of science]], [[philosophy of physics]]
 * [[Judea Pearl]]
 * [[Gravity and Grace]]
