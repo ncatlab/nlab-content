@@ -30,7 +30,7 @@ Review:
 
 * {#Kosinski93} [[Antoni Kosinski]], chapter IX of: _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf), [ISBN:978-0-12-421850-5](https://www.sciencedirect.com/bookseries/pure-and-applied-mathematics/vol/138/suppl/C))
 
-* {#Milnor97} [[John Milnor]], Chapter 7 of: _Topology from the differential viewpoint_, Princeton University Press, 1997. ([ISBN:9780691048338](https://press.princeton.edu/books/paperback/9780691048338/topology-from-the-differentiable-viewpoint), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf))
+* {#Milnor97} [[John Milnor]], Chapter 7 of: _Topology from the differentiable viewpoint_, Princeton University Press, 1997. ([ISBN:9780691048338](https://press.princeton.edu/books/paperback/9780691048338/topology-from-the-differentiable-viewpoint), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf))
 
 * [[Mladen Bestvina]] (notes by [[Adam Keenan]]), Chapter 16 in: _Differentiable Topology and Geometry_, 2002 ([[BestvinaKeenanDifferentialTopology.pdf:file]])
 
