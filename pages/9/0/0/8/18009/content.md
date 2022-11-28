@@ -20,11 +20,15 @@
 
 ## Idea
 
-Any [[free loop space]] $\mathcal{L}X$ has a canonical [[action]] ([[infinity-action]]) of the [[circle group]] $S^1$. The [[homotopy quotient]] $\mathcal{L}(X)/S^1$ of this action might be called the _cyclic loop space_ of $X$, and is also known as the *string space* of $X$ ([Chataur 2005. 4.8.1](#Chataur05), [B&ouml;kstedt & Ottosen 05, p. 1](#BokstedtOttosen05)).
+Any [[free loop space]] $\mathcal{L}X \,=\, Map(S^1,X)$ carries a canonical [[group action]] ([[infinity-action]]) of the [[circle group]] $S^1$ acting by rigid [[rotation]] on itself. The [[homotopy quotient]] $\mathcal{L}(X) \sslash S^1$ of this action might be called the _cyclic loop space_ of $X$, and is also known as the *string space* of $X$ ([Chataur 2005. 4.8.1](#Chataur05), [B&ouml;kstedt & Ottosen 05, p. 1](#BokstedtOttosen05)).
 
 If $X = Spec(A)$ is an [[affine variety]] regarded in [[derived algebraic geometry]], then $\mathcal{O}(\mathcal{L}Spec(A))$ is the [[Hochschild homology]] of $A$ and $\mathcal{O}((\mathcal{L}Spec(A))/S^1)$ the corresponding [[cyclic homology]], see the discussion at _[[Hochschild cohomology]]_.
+ 
+{#StapletonTerminology} If $X = Y\sslash G$ is the [[homotopy quotient]] of a [[topological space]] by a [[topological group]] action, regarded as a locally constant $\infty$-stack, then (a [[point-set topology|point set]]-model for) the [[free loop space]] $\mathcal{L}(Y \sslash G)$ has been called the *twisted loop space* in [Witten 88](#Witten88); and this terminology is essentially carried over to the cyclification of its restriction to the constant loops 
+[Stapleton (2013), p. 2](#Stapleton13) in the context of the [[transchromatic character]].
 
-If $X = Y//G$ is the [[homotopy quotient]] of a [[topological space]] by a [[topological group]] action, regarded as a locally constant $\infty$-stack, so that the $S^1$-action on $\mathcal{L}(X//G)$ is an $B \mathbb{Z}$-action, then the restriction of the cyclic loop space to the constant loops $\mathcal{L}_{const}Y//G \to \mathcal{L}(Y//G)$ has been called the _twisted loop space_ in ([Witten 88](#Witten88)). This terminology has been widely adopted, for example in the context of the [[transchromatic character]] map ([Stapleton 11](#Stapleton11))
+A candidate lift of this construction from plain [[homotopy types]] to [[smooth homotopy types]], namely to [[orbifold]] [[stacks]], is [[Huan's inertia orbifold]]-construction.
+
 
 ## Properties
 
@@ -227,7 +231,10 @@ The notion of the cyclic loop space of a topological space appears as:
 
 * {#Loday11}[[Jean-Louis Loday]], Section 4 of: _Free loop space and homology_, Chapter 4 in: Janko Latchev, Alexandru Oancea (eds.): *Free Loop Spaces in Geometry and Topology*, IRMA Lectures in Mathematics and Theoretical Physics **24**, EMS 2015 ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405), [ISBN:978-3-03719-153-8](https://bookstore.ams.org/emsilmtp-24/))
 
-* {#Stapleton11} [[Nathaniel Stapleton]], _Transchromatic generalized character maps_, Algebr. Geom. Topol. 13 (2013) 171-203 ([arXiv:1110.3346](https://arxiv.org/abs/1110.3346))
+Discussion in the context of the [[transchromatic character]]:
+
+* {#Stapleton13} [[Nathaniel Stapleton]], _Transchromatic twisted character maps_,  J. Homotopy Relat. Struct. 10, 29–61 (2015). ([arXiv:1304.5194](https://arxiv.org/abs/1304.5194), [doi:10.1007/s40062-013-0040-9](https://doi.org/10.1007/s40062-013-0040-9))
+
 
 Specifically on cyclic loop spaces of [[n-spheres]]:
 
