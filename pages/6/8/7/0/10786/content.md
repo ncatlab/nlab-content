@@ -13,6 +13,11 @@ On [[p-adic Hodge theory]]:
 
 * {#BhattScholze19}[[Bhargav Bhatt]], [[Peter Scholze]], _Prisms and Prismatic Cohomology_, preprint (2019) arXiv:[1905.08229](https://arxiv.org/abs/1905.08229)
 
+On [[cyclotomic spectra]] and [[topological cyclic homology]]:
+
+* {#NikolausScholze17} [[Thomas Nikolaus]], [[Peter Scholze]], _On topological cyclic homology_,  Acta Math. **221** 2 (2018) 203-409 &lbrack;[arXiv:1707.01799](https://arxiv.org/abs/1707.01799), [doi:10.4310/ACTA.2018.v221.n2.a1](https://dx.doi.org/10.4310/ACTA.2018.v221.n2.a1)&rbrack;
+
+
 On the [[local Langlands conjecture]]:
 
 * [[Laurent Fargues]], [[Peter Scholze]], _Geometrization of the local Langlands correspondence_ ([pdf](http://www.math.uni-bonn.de/people/scholze/Geometrization.pdf))
