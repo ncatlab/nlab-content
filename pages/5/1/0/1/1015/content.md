@@ -36,6 +36,8 @@ A variation of Zermelo\'s system (developed by Fraenkel and Skolem and called Ze
 
 It is also possible to make a __definitional set theory__, in which one defines sets in terms of some more primitive concept. Examples include
 
+* [[class theory]], where a set may be defined as a small [[class]].
+
 * [[formal category theory]], where a set may be defined as a [[discrete category]]. 
 
 * [[dependent type theory]], where a set may be defined as those [[types]] which are [[h-sets]]. 
