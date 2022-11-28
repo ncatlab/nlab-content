@@ -115,7 +115,7 @@ but
 
 * {#Redding} [[Paul Redding]],  _Georg Wilhelm Friedrich Hegel_, The Stanford Encyclopedia of Philosophy, Edward N. Zalta (ed.) ([web](http://plato.stanford.edu/entries/hegel/))
  
-
+* Alexander Prähauser, *Hegel in Mathematics* ([pdf](https://github.com/nameiwillforget/hegel-in-mathematics/blob/main/Hegel_in_Mathematics.pdf))
 
 category: people
 
