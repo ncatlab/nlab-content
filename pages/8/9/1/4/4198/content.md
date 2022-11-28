@@ -21,6 +21,10 @@ On [[noncommutative motives]] in terms of [[algebraic K-theory]]:
 
 * {#BlumbergGepnerTabuada10} [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], _A universal characterization of higher algebraic K-theory_,  Geometry and Topology 17 (2013) 733&#8211;838 ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282))
 
+On the [[equivariant stable homotopy theory]] of [[cyclotomic spectra]]:
+
+* {#BlumbergMandell13} [[Andrew Blumberg]], [[Michael Mandell]], _The homotopy theory of cyclotomic spectra_, Geom. Topol. **19** (2015) 3105-3147 &lbrack;[arXiv:1303.1694](http://arxiv.org/abs/1303.1694), [doi:10.2140/gt.2015.19.3105](https://doi.org/10.2140/gt.2015.19.3105)&rbrack;
+
 
 On [[equivariant homotopy theory]]:
 
@@ -32,19 +36,20 @@ On [[persistent homotopy theory]] and its [[stability of persistence diagrams|st
 * {#BlumbergLesnick17} [[Andrew J. Blumberg]], [[Michael Lesnick]], *Universality of the Homotopy Interleaving Distance* $[$[arXiv:1705.01690](https://arxiv.org/abs/1705.01690)$]$
 
 
-
 On the [[Arnold conjecture]] and [[Morava K-theory]]:
 
 * [[Mohammed Abouzaid]], [[Andrew J. Blumberg]], _Arnold Conjecture and Morava K-theory_, ([arXiv:2103.01507](https://arxiv.org/abs/2103.01507))
 
 
-## related $n$Lab entries
+## Related entries
 
 * [[twisted cohomology]]
 
 * [[equivariant homotopy theory]], [[Bredon cohomology]]
 
 category: people
+
+
 
 [[!redirects Andrew J. Blumberg]]
 [[!redirects Andrew J Blumberg]]
