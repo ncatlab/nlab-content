@@ -186,7 +186,7 @@ The [[tensor unit]] in the [[symmetric monoidal (infinity,1)-category]] of cyclo
 
 ## References
 
-* {#BlumbergMandell13} [[Andrew Blumberg]], [[Michael Mandell]], _The homotopy theory of cyclotomic spectra_ ([arXiv:1303.1694](http://arxiv.org/abs/1303.1694))
+* {#BlumbergMandell13} [[Andrew Blumberg]], [[Michael Mandell]], _The homotopy theory of cyclotomic spectra_, Geom. Topol. **19** (2015) 3105-3147 &lbrack;[arXiv:1303.1694](http://arxiv.org/abs/1303.1694), [doi:10.2140/gt.2015.19.3105](https://doi.org/10.2140/gt.2015.19.3105)&rbrack;
 
 * {#BarwickGlasman16} [[Clark Barwick]], [[Saul Glasman]], _Cyclonic spectra, cyclotomic spectra, and a conjecture of Kaledin_ ([arXiv:1602.02163](http://arxiv.org/abs/1602.02163))
 
@@ -195,7 +195,7 @@ The [[tensor unit]] in the [[symmetric monoidal (infinity,1)-category]] of cyclo
 * {#Malkiewich15} [[Cary Malkiewich]], _A visual introduction to cyclic sets and cyclotomic spectra_, 2015 ([pdf](http://math.uiuc.edu/~cmalkiew/ytm_2015.pdf))
 
 
-* {#NikolausScholze17} [[Thomas Nikolaus]], [[Peter Scholze]], _On topological cyclic homology_ ([arXiv:1707.01799](https://arxiv.org/abs/1707.01799))
+* {#NikolausScholze17} [[Thomas Nikolaus]], [[Peter Scholze]], _On topological cyclic homology_,  Acta Math. **221** 2 (2018) 203-409 &lbrack;[arXiv:1707.01799](https://arxiv.org/abs/1707.01799), [doi:10.4310/ACTA.2018.v221.n2.a1](https://dx.doi.org/10.4310/ACTA.2018.v221.n2.a1)&rbrack;
 
 
 [[!redirects cyclotomic spectra]]
