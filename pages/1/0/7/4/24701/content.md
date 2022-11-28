@@ -93,10 +93,10 @@ Introduction rule for identity types:
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A \vdash \mathrm{refl}_A(a) : a =_A a}$$
 
 Elimination rule for identity types:
-$$\frac{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash C(a, b, p) \mathrm{type} \quad \Gamma, a:A, \Delta(a, a, \mathrm{refl}_A(a)) \vdash t:C(a, a, \mathrm{refl}_A(a))}{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash J(t, a, b, p):C(a, b, p)}$$
+$$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C \mathrm{type} \quad \Gamma, a:A \vdash t:C[a, a, \mathrm{refl}_A(a)/x, y, p]}{\Gamma, x:A, y:A, p:x =_A y \vdash J(t, x, y, p):C}$$
 
 Computation rules for identity types:
-$$\frac{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash C(a, b, p) \; \mathrm{type} \quad \Gamma, a:A, \Delta(a, a, \mathrm{refl}_A(a)) \vdash t:C(a, a, \mathrm{refl}_A(a))}{\Gamma, a:A, b:A, p:a =_A b, \Delta(a, b, p) \vdash \beta_{=_A}(a) : J(t, a, a, \mathrm{refl}(a)) =_{C(a, a, \mathrm{refl}_A(a))} t}$$
+$$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C \mathrm{type} \quad \Gamma, a:A \vdash t:C[a, a, \mathrm{refl}_A(a)/x, y, p]}{\Gamma, a:A \vdash \beta_{=_A}(a) : J(t, a, a, \mathrm{refl}(a)) =_{C[a, a, \mathrm{refl}_A(a)/x, y, p]} t}$$
 
 The [[uniqueness of identity proofs|uniqueness rule for identity types]] is usually not included in objective type theory. However, if it were included in objective type theory it turns the type theory into a [[set-level type theory]]. 
 
