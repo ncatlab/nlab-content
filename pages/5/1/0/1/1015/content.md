@@ -13,9 +13,7 @@
 =--
 =--
 
-# Contents
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -28,19 +26,27 @@ __Na&#239;ve set theory__ is the basic algebra of the [[subsets]] of any given s
 
 Once you start thinking very much about the nature of sets in general (rather than merely _using_ na&#239;ve set theory), it quickly becomes clear that one must be careful about how one can and cannot form sets.  [[Georg Cantor]] is credited with being the first to think about sets this deeply; although he did not propose a system of general rules for valid set-making operations, he recognised that some sets were 'inconsistent'.  An __axiomatic set theory__ is a set theory which carefully states the rules (or '[[axioms]]') which sets are assumed to obey.
 
-[[Gottlob Frege]] has perhaps the first axiomatic set theory, but it was found (by [[Bertrand Russell]]) to be logically trivial; see [[Russell's paradox]].  [[Ernst Zermelo]] is credited with the first consistent axiomatic set theory.
-
+[[Gottlob Frege]] has perhaps the first axiomatic set theory, but it was found (by [[Bertrand Russell]]) to be logically trivial; see [[Russell's paradox]]. [[Charles Sanders Peirce]] presented what could be regarded as the first consistent axiomatic set theory in [Peirce 1885](#Peirce1885) (see [Brady 2000](#Brady2000)). The more widely known consistent set theory is [[Ernst Zermelo]]'s set theory in 1905, which forms the basis for the axiomatic set theory used today.
 
 ## Foundational vs definitional set theory
 
 There are two ways to go about doing axiomatic set theory.  The more ambitious is to develop a __foundational set theory__: set theory as [[foundations]] for all of mathematics.  This is what Frege proposed (although he failed through inconsistency) and which Zermelo achieved.
 
-A variation of Zermelo\'s system (developed by Fraenkel and Skolem and called Zermelo--Fraenkel set theory or [[ZFC]]) is the orthodox foundations today, although it needs to be supplemented by [[Grothendieck universes]] (or something along those lines) to handle modern [[category theory]], and set theorists often consider further strengthenings of it through [[large cardinal]] [[axioms]] (of which the existence of Grothendieck universes is an example, just the tip of the iceberg).
+A variation of Zermelo\'s system (developed by Fraenkel and Skolem and called Zermelo--Fraenkel set theory or [[ZFC]]) is the orthodox foundations today, although it needs to be supplemented by [[Grothendieck universes]] (or something along those lines) to handle modern [[category theory]], and set theorists often consider further strengthenings of it through [[large cardinal]] [[axioms]] (of which the existence of Grothendieck universes is an example, just the tip of the iceberg). 
 
-It is also possible to make a __definitional set theory__, in which one defines sets in terms of some more primitive concept.  For example, [[Bill Lawvere]] proposed a foundation [[ETCC]] based on [[Cat|the category of categories]]; then a set may be defined as a [[discrete category]].  This is also the case in [[homotopy type theory]], where sets are defined as those [[types]] which are [[h-sets]].
+It is also possible to make a __definitional set theory__, in which one defines sets in terms of some more primitive concept. Examples include
 
-In [[constructive mathematics]], a foundation based on [[type theory]] is popular, with types interpreted as _[[preset|presets]]_ (sets without [[equality]]); then a set may be defined as a preset equipped with an [[equivalence relation]] (the term [[setoid]] is also used for such a gadget).  In [[computer science]], a foundation based on the [[lambda-calculus]] is sometimes seen; in these terms, the concept of _[[list]]_ is more natural than set, with the difference being that sets have a coarser notion of equality.
+* [[formal category theory]], where a set may be defined as a [[discrete category]]. 
 
+* [[dependent type theory]], where a set may be defined as those [[types]] which are [[h-sets]]. 
+
+* [[preset theory]], where a set may be defined as a preset equipped with an [[equivalence relation]]. 
+
+In [[computer science]], a foundation based on the [[lambda-calculus]] is sometimes seen; in these terms, the concept of _[[list]]_ is more natural than set, with the difference being that sets have a coarser notion of equality.
+
+## Constructive vs classical set thoery
+
+There are also a difference in the set theory, depending on whether the set theory is built in [[classical logic]] or in [[constructive logic]]. In the latter, the set theory is called **[[constructive set theory]]**. In order to make sure that classical logic isn't implied by the axioms, certain axioms, such as the [[axiom of choice]], cannot be accepted in classical logic. 
 
 ## Material vs structural set theory
    {#MaterialSetTheory}
@@ -87,6 +93,12 @@ There is also [[algebraic set theory]], in which a material set theory is interp
   * [[univalent foundations of mathematics]]
 
 ## Literature
+
+### Historical
+
+* {#Peirce1885} Charles Sanders Peirce (1885), "On the Algebra of Logic: A Contribution to the Philosophy of Notation", American Journal of Mathematics 7
+
+* {#Brady2000} Geraldine Brady (2000), From Peirce to Skolem: A Neglected Chapter in the History of Logic, North-Holland/Elsevier Science BV, Amsterdam, Netherlands.
 
 ### General
 
