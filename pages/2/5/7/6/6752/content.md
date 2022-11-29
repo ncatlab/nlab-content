@@ -81,6 +81,8 @@ From this [[arithmetic geometry]] point of view the Langlands conjecture seems t
 
 * [[Langlands functoriality]]
 
+* [[relative Langlands program]]
+
 ## References
  {#References}
 
