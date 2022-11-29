@@ -124,7 +124,7 @@ This is described at <a href="http://ncatlab.org/nlab/show/simplicial%20group#De
 For $G$ a simplicial group, define the [[simplicial set]] $W G$ to be the [[decalage]] of $\overline{W}G$
 
 $$
-  W G := Dec \overline{W}G
+  W G \coloneqq Dec \overline{W}G
   \,.
 $$
 
