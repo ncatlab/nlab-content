@@ -13,17 +13,23 @@
 
 ## Idea
 
-Reductionism is a philosophical position which states that all of that field should be based on a common foundation. This contrasts with [[pluralism]], which states that there are multiple equally valid approaches to a particular field. 
+Reductionism is a philosophical position which states that all of that field can be reduced to a common foundation. 
+
+This contrasts with [[emergentism]], which says that the entire field cannot be reduced to a common foundation. 
+
+Note that this is different from the [[pluralism]]/[[monism]] distinction: monist reductionists believe there is only one way to reduce a field down to a common foundation, while pluralist reductionists would believe that there are multiple ways to reduce a field down to a common foundation. 
 
 ## Reductionism in the foundations of mathematics
 
-In the context of the [[foundations of mathematics]], reductionism states that one should single out a single approach to the foundations of mathematics as the universal approach to the foundations of mathematics. The mathematical status quo regards the [[material set theory]] of [[ZFC]] as the single reductionist approach to the foundations of mathematcs. Some category theorists take the [[categorical set theory]] of [[ETCS]] as the single reductionist approach to the foundations of mathematcs. 
+Reductionism is inherent in the foundations of mathematics, because it posits that everything in mathematics can be reduced down to the foundations of mathematics. 
 
 ## See also
 
 * [[philosophy]]
 
-* [[pluralism]]
+* **reductionism**, [[emergentism]]
+
+* [[pluralism]], [[monism]]
 
 ## References
 
