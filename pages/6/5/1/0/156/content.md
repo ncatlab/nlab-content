@@ -22,7 +22,7 @@
 
 ## Definition
 
-A [[category]] is __skeletal__ if objects that are [[isomorphism|isomorphic]] are necessarily [[equality|equal]]. 
+A [[category]] is __skeletal__ if objects that are [[isomorphism|isomorphic]] are necessarily [[equality|equal]]. (However we do not require that the witnessing isomorphism be the identity, i.e. we can still have non-trivial [[automorphism|automorphisms]].)
 
 A __skeleton__ of a category $C$ is defined to be a skeletal [[subcategory]] of $C$ whose [[inclusion functor]] exhibits it as [[equivalence of categories|equivalent]] to $C$. A __weak skeleton__ of $C$ is any skeletal category which is [[equivalence of categories|weakly equivalent]] to $C$.
 
