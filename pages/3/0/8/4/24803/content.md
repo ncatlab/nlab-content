@@ -47,6 +47,16 @@ See also:
 
 * Wikipedia, *[Nuclear magnetic resonance quantum computer](https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance_quantum_computer)*
 
+Implementation of [[quantum logic gates]] on [[qbits]] realized via [[nucleon]]-[[spin]], via pulse protocols in NMR-technology:
+
+* Price, Somaroo, Tseng, Gore, Fahmy,, Havel, Cory: *Construction and Implementation of NMR Quantum Logic Gates for Two Spin Systems*, Journal of Magnetic Resonance
+**140** 2 (1999) 371-378 &lbrack;[doi;10.1006/jmre.1999.1851](https://doi.org/10.1006/jmre.1999.1851)&rbrack;
+
+and analogously on [[electron]]-[[spin]]:
+
+* M. Yu. Volkov and K. M. Salikhov, *Pulse Protocols for Quantum Computing with Electron Spins as Qubits*, Appl Magn Reson **41** (2011) 145–154 &lbrack;[doi:10.1007/s00723-011-0297-2](https://doi.org/10.1007/s00723-011-0297-2)&rbrack;
+
+
 There exist toy desktop [[quantum computers]] for educational purposes, operating on a couple of nuclear magnetic resonance [[qbits]] at room temperature :
 
 * [CIQTEK](https://en.ciqtek.com/): *[Diamond Quantum Computer for Education](https://en.ciqtek.com/products/detail/diamond-quantum-computer-for-education.html?id=644102ee-942e-4568-aacd-20241a1a2469&id=644102ee-942e-4568-aacd-20241a1a2469)*
