@@ -25,6 +25,8 @@ There is another dimension in which approaches to the foundations of mathematics
 
 To show that these two dimensions are independent of each other, we give some examples. On one hand, one could have a [[material set theory]] in which all [[sets]] have a [[choice operator]]; on the other hand, one could merely have a material set theory which is strongly predicative. In addition, we could have a [[categorical set theory]] in which all sets have a [[choice operator]], and a categorical set theory which is strongly predicative. Formal category theory is usually considered to be [[higher foundations]], but set-level formal category theory could be considered by adding an [[axiom]] or rule that every category is a [[discrete category]]. 
 
+There is also mathematics based in [[linear logic]]/[[linear dependent type theory]], as well as [[paraconsistent mathematics]], which from the pluralistic view are also true in their own ways. 
+
 ## Pluralism in physics
 
 There are also the philosophical position of pluralism in [[physics]], which arose in response to the position of [[reductionism]], which states that all of physics could be described by one basic universal theory. 
@@ -36,6 +38,16 @@ In practice, pluralism is true, because even if one were to say the [[standard m
 * [[philosophy]]
 
 * [[reductionism]]
+
+* [[epistemology of mathematics]]
+
+## References
+
+* Justin Clarke-Doane (2022). *Mathematics and Metaphilosophy (Elements in the Philosophy of Mathematics)*. Cambridge: Cambridge University Press. ([doi:10.1017/9781108993937](https://doi.org/10.1017/9781108993937), [philsci-archive:20728](https://philsci-archive.pitt.edu/20728/))
+
+On pluralism in [[set theory]]:
+
+* Neil Barton (2017). *Independence and Ignorance: How agnotology informs set-theoretic pluralism.* ([philsci-archive:14636](https://philsci-archive.pitt.edu/14636/)
 
 ## External links
 
