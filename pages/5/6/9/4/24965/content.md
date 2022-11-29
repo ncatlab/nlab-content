@@ -25,6 +25,14 @@ In the context of the [[foundations of mathematics]], reductionism states that o
 
 * [[pluralism]]
 
+## References
+
+On how ontological reductionism is problematic in the philosophy of science:
+
+* Daniel C. Dennett (1987) “True Believers." The Intentional Stance. Cambridge, MA: MIT Press.
+
+* Jimmy Aames (2019) Patternhood and Generality: A Peircean Approach to Emergence. European Journal of Pragmatism and American Philosophy, XI (2). ([pdf](https://philsci-archive.pitt.edu/16878/1/Patternhood%20and%20Generality.pdf), [web](https://philsci-archive.pitt.edu/16878/))
+
 ## External links
 
 * Wikipedia, _[Reductionism](https://en.wikipedia.org/wiki/Reductionism)_
