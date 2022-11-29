@@ -71,3 +71,5 @@ The [[philosophy]] of [[physics]].
 Reference specifically on the [[interpretation of quantum mechanics]] include
 
 * [[Roland Omnès]], _[[The Interpretation of Quantum Mechanics]]
+
+* Valia Allori (2017). *A New Argument for the Nomological Interpretation of the Wave Function: The Galilean Group and the Classical Limit of Nonrelativistic Quantum Mechanics.* ([philsci-archive:14023](https://philsci-archive.pitt.edu/14023/))
