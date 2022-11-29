@@ -2006,6 +2006,7 @@ See for instance [Ginzburg, section 7](http://arxiv.org/PS_cache/math/pdf/0506/0
 
 * [[cyclic homology]], [[dihedral homology]]
 
+* [[topological Hochschild homology]]
  
 ## References
  
