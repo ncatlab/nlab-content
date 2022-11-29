@@ -1,5 +1,5 @@
 
-* [website](http://math.stanford.edu/~galatius/)
+* [website](https://sorengalatius.com/)
 
 ## related entries
 
