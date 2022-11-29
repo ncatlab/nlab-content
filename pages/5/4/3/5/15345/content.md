@@ -39,6 +39,46 @@ The reference for these definitions are [Weinstein17](#Weinstein17).
 
 * A _perfectoid space_ is an [[adic space]] which can be covered by affinoids $Spa(A,A^{+})$, where $A$ is a perfectoid ring.
 
+## Properties
+
+### Tilting
+
+The concept of tilting allows us to generalize the theorem of Fontaine and Wintenberger on the isomorphism of the absolute Galois groups of a perfectoid field and its tilt mentioned above, to perfectoid rings, and further to perfectoid spaces.
+
+\begin{definition}([ScholzeWeinstein20](#ScholzeWeinstein20), Definition 6.2.1)
+
+Let $R$ be a perfectoid ring. The _tilt_ of $R$ is
+
+$$R^{\flat}=\underset
+    {\underset{x\mapsto x^{p}}{\leftarrow}}
+    {\lim}R$$
+
+A priori this is a topological multiplicative monoid, so turn it into a topological ring we equip it with the addition structure given by
+
+$$(x+y)^{(i)}=\lim_{n\to\infty}(x^{(i+n)}+y^{(i+n)})^{p^{n}}.$$
+
+\end{definition}
+
+\begin{proposition}([ScholzeWeinstein20](#ScholzeWeinstein20), Theorem 7.4.5)
+
+Let $R$ be a perfectoid ring and let $R^{\flat}$ be its tilt.
+
+* For any finite etale $R$-algebra $S$, $S$ is perfectoid.
+
+* Tilting $S\mapsto S^{\flat}$ induces an equivalence between finite etale $R$-algebras and finite etale $R^{\flat}$-algebras.
+
+* For any finite etale $R$-algebra $S$, the algebra $S^{\circ}$, is almost finite etale over $R^{\circ}$.
+
+\end{proposition}
+
+The tilting construction "glues" and therefore carries over from perfectoid rings to perfectoid spaces; in other words to a perfectoid space $X$ we can take the tilt to obtain a perfectoid space $X^{\flat}$ of characteristic $p$ ([ScholzeWeinstein20](#ScholzeWeinstein20), 7.1).
+
+\begin{proposition}([ScholzeWeinstein20](#ScholzeWeinstein20), Corollary 7.5.3)
+
+There exists an etale site $X_{et}$ such that $X_{et}\cong X_{et}^{\flat}$ and $H^{i}(X_{et},\mathcal{O}_{X}^{+})$ is almost zero for all $i\geq 1$ and for all affinoids $X$.
+
+\end{proposition}
+
 ## Generalizations
 
 The concept of perfectoid space can be generalized into that of a _diamond_, which is a quotient of a perfectoid space of characteristic $p$ by a perfectoid equivalence relation ([ScholzeWeinstein20](#ScholzeWeinstein20), Definition 8.3.1). The concept of diamond can similarly be generalized into that of a _v-sheaf_, and in particular a _small v-sheaf_ is a quotient of a diamond by a diamond equivalence relation ([ScholzeWeinstein20](#ScholzeWeinstein20), Proposition 17.2.2).
