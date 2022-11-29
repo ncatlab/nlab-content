@@ -149,18 +149,18 @@ $$
 \end{proposition}
 \begin{proof}
 
-Consider the following [[commuting diagram]] of [[SimplicialSets]]:
+{#TheDiagram} Consider the following [[commuting diagram]] of [[SimplicialSets]]:
 
 \begin{tikzcd}
     &&
-    &[-15pt]
+    &[+35pt]
     \frac{W \mathcal{G}}{\mathcal{G}}
     \times W\mathcal{G}
     \ar[
       dr,
       "\mathrm{pr}_1 \in \mathrm{W}"{description}
     ]
-    &[-15pt]
+    &[-50pt]
     \\
     \frac{
       \mathclap{\phantom{\vert_a}}
@@ -185,11 +185,24 @@ Consider the following [[commuting diagram]] of [[SimplicialSets]]:
     }
     \ar[
       ur,
+      shorten <=-3pt,
+      shorten >=-4pt,
       "\sim"{sloped, below},
       "{
-        \scalebox{.7}{$
+        \scalebox{.8}{$
         \!\!\!\!
-        [\vec g, (\vec g',h)] \mapsto ([\vec g], h^{-1}\cdot \vec g')
+        \big[
+          \vec g, (\vec g',h)
+        \big] 
+        \mapsto 
+        \Big(
+          [\vec g],\,
+          \big(
+            \vec g^{-1}
+            \cdot
+            (h \cdot \vec g')
+          \big)
+        \Big)
         $}
       }"{sloped, above}
     ]
