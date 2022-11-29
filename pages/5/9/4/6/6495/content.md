@@ -52,6 +52,8 @@ There are various generalizations:
 
 * [[norm cofibration]]
 
+* [[prismatic cohomology]]
+
 ## References
 
 ### General
@@ -77,6 +79,9 @@ A [[(infinity,1)-category theory|$(\infty,1)$-category theoretic]] construction:
 
 * {#NikolausScholze17} [[Thomas Nikolaus]], [[Peter Scholze]], _On topological cyclic homology_,  Acta Math. **221** 2 (2018) 203-409 &lbrack;[arXiv:1707.01799](https://arxiv.org/abs/1707.01799), [doi:10.4310/ACTA.2018.v221.n2.a1](https://dx.doi.org/10.4310/ACTA.2018.v221.n2.a1)&rbrack;
 
+A relation to integral [[p-adic Hodge theory]] is discussed in
+
+* {#BhattMorrowScholze18}[[Bhargav Bhatt]], [[Matthew Morrow]], [[Peter Scholze]], *Topological Hochschild Homology and Integral $p$-adic Hodge Theory* &lbrack;[arXiv:1802.03261](https://arxiv.org/abs/1802.03261)&rbrack;
 
 Review and exposition includes
 
