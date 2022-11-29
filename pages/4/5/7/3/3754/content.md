@@ -40,7 +40,15 @@ More generally, recall from [[semicategory]] that the forgetful functor $U \colo
 Semifunctors between categories arise in the study of non-extensional type theories such as [[lambda calculus]] with $\beta$ equivalence, but not $\eta$ equivalence for the function type (see [Hayashi 85](#H85)).
 Whereas with both $\beta, \eta$, a function type $A \to B$ can be described as a right adjoint functor to $A \times -$, the non-extensional function type can be described by weakening the requirement to the right adjoint being merely a semifunctor.
 
-* {#H85} Susumu Hayashi, "Adjunction of semifunctors: categorical structures in nonextensional lambda calculus" Theoretical Computer Science 1985
+## References
+
+An early reference for semifunctors (there called "weak functors") is:
+
+- B. Elkins and J. A. Zilber. _Categories of actions and Morita equivalence_. The Rocky Mountain Journal of Mathematics 6.2 (1976): 199-225.
+
+The terminology "semifunctors" was introduced in:
+
+- {#H85} Susumu Hayashi. _Adjunction of semifunctors: categorical structures in nonextensional lambda calculus_. Theoretical Computer Science 1985
 
 [[!redirects semifunctor]]
 [[!redirects semifunctors]]
