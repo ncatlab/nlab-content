@@ -87,6 +87,15 @@ There may also be extra structure induced more directly on $K(C)$. For instance 
 
 ...
 
+## Parable ##
+From John Baez, https://math.ucr.edu/home/baez/week121.html
+
+ If one studies categorification one soon discovers an amazing fact: many deep-sounding results in mathematics are just categorifications of facts we learned in high school! There is a good reason for this. All along, we have been unwittingly "decategorifying" mathematics by pretending that categories are just sets. We "decategorify" a category by forgetting about the morphisms and pretending that isomorphic objects are equal. We are left with a mere set: the set of isomorphism classes of objects.
+
+To understand this, the following parable may be useful. Long ago, when shepherds wanted to see if two herds of sheep were isomorphic, they would look for an explicit isomorphism. In other words, they would line up both herds and try to match each sheep in one herd with a sheep in the other. But one day, along came a shepherd who invented decategorification. She realized one could take each herd and "count" it, setting up an isomorphism between it and some set of "numbers", which were nonsense words like "one, two, three,..." specially designed for this purpose. By comparing the resulting numbers, she could show that two herds were isomorphic without explicitly establishing an isomorphism! In short, by decategorifying the category of finite sets, the set of natural numbers was invented.
+
+According to this parable, decategorification started out as a stroke of mathematical genius. Only later did it become a matter of dumb habit, which we are now struggling to overcome by means of categorification. While the historical reality is far more complicated, categorification really has led to tremendous progress in mathematics during the 20th century. For example, Noether revolutionized algebraic topology by emphasizing the importance of homology groups. Previous work had focused on Betti numbers, which are just the dimensions of the rational homology groups. As with taking the cardinality of a set, taking the dimension of a vector space is a process of decategorification, since two vector spaces are isomorphic if and only if they have the same dimension. Noether noted that if we work with homology groups rather than Betti numbers, we can solve more problems, because we obtain invariants not only of spaces, but also of maps. 
+
 [[!redirects decategorifications]]
 
 [[!redirects decategorification]]
