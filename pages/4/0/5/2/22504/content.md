@@ -168,7 +168,7 @@ Given a [[semistandard Young tableau]] $T$, we write $X^T$ for the [[monomial]] 
   x^T
   \;\coloneqq\;
   x_1^{\#1s}
-  x_1^{\#2s}
+  x_2^{\#2s}
   \cdots
   \,.
 \]
