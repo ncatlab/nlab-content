@@ -88,12 +88,13 @@ Prismatic cohomology has also been used to construct a version of [[syntomic coh
 
 ## Historical Precursors
 
-Prismatic cohomology was developed by [[Bhargav Bhatt]] and [[Peter Scholze]] following earlier work on developing an integral version of [[p-adic Hodge theory]]. Some of this earlier work includes $A_inf$-cohomology in [BhattMorrowScholze16](#BhattMorrowScholze16) and integral p-adic Hodge theory via topological [[Hochschild homology]] in [BhattMorrowScholze16](#BhattMorrowScholze16), both of which were developed together with [[Matthew Morrow]].
+Prismatic cohomology was developed by [[Bhargav Bhatt]] and [[Peter Scholze]] following earlier work on developing an integral version of [[p-adic Hodge theory]]. Some of this earlier work includes $A_inf$-cohomology in [BhattMorrowScholze16](#BhattMorrowScholze16) and integral p-adic Hodge theory via [[topological Hochschild homology]] in [BhattMorrowScholze16](#BhattMorrowScholze16), both of which were developed together with [[Matthew Morrow]].
 
 ## Related entries
 
 * [[p-adic Hodge theory]]
 * [[perfectoid spaces]]
+* [[topological Hochschild homology]]
 * [[arithmetic differential geometry]]
 * [[Borger's absolute geometry]]
 
