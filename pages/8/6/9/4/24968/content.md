@@ -33,3 +33,6 @@ On the failure of monism in [[set theory]]:
 
 * Neil Barton (2017). *Independence and Ignorance: How agnotology informs set-theoretic pluralism.* ([philsci-archive:14636](https://philsci-archive.pitt.edu/14636/)
 
+## External links
+
+* Wikipedia, ([Monism](https://en.wikipedia.org/wiki/Monism)*
