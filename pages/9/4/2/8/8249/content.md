@@ -851,13 +851,13 @@ let $Ac \subset \mathcal{A}$ be the [[nLab:full subcategory]] on the $F$-[[nLab:
 +-- {: .proof}
 ###### Proof
 
-Consider the case that $F$ is right exact. The other case works dually.
+Consider the case that $F$ is left exact. The other case works dually.
 Then the first condition of def. \ref{FInjectives} is satisfied because every [[nLab:injective object]] is an $F$-[[nLab:acyclic object]] and by assumption there are enough of these. 
 
 For the second and third condition of def. \ref{FInjectives} use that there is the [[nLab:long exact sequence]] of [[nLab:derived functors]] prop. \ref{LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence}
 
 $$
-  0 \to A \to B \to C \to R^1 F(A) \to R^1 F(B) \to R^1 F(C) \to R^2 F(A) \to R^2 F(B) \to R^2 F(C) \to \cdot
+  0 \to F(A) \to F(B) \to F(C) \to R^1 F(A) \to R^1 F(B) \to R^1 F(C) \to R^2 F(A) \to R^2 F(B) \to R^2 F(C) \to \cdot
   \,.
 $$
 
