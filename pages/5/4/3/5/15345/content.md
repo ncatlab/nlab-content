@@ -45,7 +45,7 @@ The concept of perfectoid space can be generalized into that of a _diamond_, whi
 
 ## Applications
 
-One application of perfectoid spaces is in relating [[Galois representations]] to torsion in the cohomology of [[Shimura varieties]]. In turn, using the excision sequence, one can relate this to the cohomology of arithmetic manifolds that are not Shimura varieties (for example Bianchi manifolds, which are quotients of [[hyperbolic 3-space]] by an arithmetic subgroup). This is surveyed in [Weinstein15](#Weinstein15).
+One application of perfectoid spaces is in relating [[Galois representations]] to torsion in the cohomology of [[Shimura varieties]]. In turn, using the excision sequence, one can relate this to the cohomology of arithmetic manifolds that are not Shimura varieties (for example Bianchi manifolds, which are quotients of [[hyperbolic 3-space]] by an arithmetic subgroup). This is surveyed in section 5 of [Weinstein15](#Weinstein15).
 
 ## Related concepts
 
