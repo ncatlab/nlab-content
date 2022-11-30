@@ -414,6 +414,8 @@ $$
 
 Conversely, if both of these products exist and so does the equalizer of this pair of maps, then that equalizer is a limit of $F$.  In particular, therefore, a category has all limits as soon as it has all products and equalizers, and a functor defined on such a category [[preserved limit|preserves]] all limits as soon as it preserves products and equalizers.
 
+(More precisely, it suffices only to consider equalizers of [[reflexive pairs]].)
+
 Another example is that all [[finite limits]] can be computed in terms of [[pullbacks]] and a [[terminal object]].
 
 ### Interaction with $Hom$-functor
@@ -563,6 +565,14 @@ Limits and [[colimits]] were defined in [[Daniel M. Kan]] in Chapter II of the p
 * [[Daniel M. Kan]], _Adjoint functors_, Transactions of the American Mathematical Society 87:2 (1958), 294–294 ([doi:10.1090/s0002-9947-1958-0131451-0](https://doi.org/10.1090/s0002-9947-1958-0131451-0))
 
 This paper refers to limits as _inverse limits_.
+
+The observation that limits can be constructed from products and equalisers is due to:
+
+* [[J.-M. Maranda]], *Some remarks on limits in categories*. Canadian Mathematical Bulletin **5** 2 (1962) 133-146 &lbrack;[doi:10.4153/CMB-1962-015-0](https://doi.org/10.4153/CMB-1962-015-0)&rbrack;
+
+That, more generally, it suffices to consider only equalisers of [[reflexive pairs]] is due to:
+
+* S. A. Huq and R. Cornu. _A remark on the existence of limits in categories_. Mathematische Nachrichten 55.1‐6 (1973): 223-224. &lbrack;[doi:10.1002/mana.19730550111](https://doi.org/10.1002/mana.19730550111)&rbrack;
 
 [[!redirects limits]]
 [[!redirects limit functor]]
