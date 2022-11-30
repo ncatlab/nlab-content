@@ -64,6 +64,8 @@ where $d$ is a generator of $I$.
 
 By forgetting the choice of base prism, one obtains the absolute prismatic cohomology. Given a p-adic formal scheme $X$, its absolute prismatic site ${X}_{\Delta}$ is the category of all bounded  prisms $(B,J)$ equipped with a map $\mathrm{Spf}(B/J)\to X$, topologized with the flat topology. We have sheaves $\mathcal{O}_{\Delta}$, $I_{\Delta}$, and $\overline{\mathcal{O}}_{\Delta}$ obtained by remembering $B$, $J$, and $B/J$ respectively.
 
+The absolute prismatic cohomology $R\Gamma(X_{\Delta},\mathcal{O}_{\Delta})$ is equipped with a filtration called the _Nygaard filtration_, playing a role analogous to that of the [[Hodge filtration]] for [[de Rham cohomology]].
+
 ## Prismatic Crystals
 
 Let $X$ be a p-adic formal scheme and let $X_{\Delta}$ be its absolute prismatic site as above. A _prismatic crystal_ is an assignment
@@ -84,7 +86,7 @@ $$dim_{\mathbb{F}_{p}}H_{et}^{i}(X_{\mathbb{C}_{p}},\mathbb{F}_{p})\leq dim_{k}H
 
 Prismatic cohomology has also been used in [Bhatt20](#Bhatt20) to prove that modulo a prime power the absolute integral closure of an excellent Noetherian domain is Cohen-Macaulay. The proof also uses a p-adic version of the [[Riemann-Hilbert correspondence]] being developed in yet-unpublished work of [[Bhargav Bhatt]] and [[Jacob Lurie]].
 
-Prismatic cohomology has also been used to construct a version of [[syntomic cohomology]], which describes the graded pieces of a "motivic" filtration on p-adic etale K-theory. This is analogous to the filtration on [[topological K-theory]] whose graded pieces are described by the shifted singular cohomology complex, and is also analogous to the filtration on [[algebraic K-theory]] by [[motivic cohomology]].
+Prismatic cohomology has also been used to construct a version of [[syntomic cohomology]], which describes the graded pieces of a "motivic" filtration on p-adic etale K-theory. This is analogous to the filtration on [[topological K-theory]] whose graded pieces are described by the shifted singular cohomology complex, and is also analogous to the filtration on [[algebraic K-theory]] by [[motivic cohomology]]. This is used by Antieau, Krause and Nikolaus in [AKN22](#AKN22) to determine the K-groups of $\mathbb{Z}/p^{n}$.
 
 ## Historical Precursors
 
@@ -139,6 +141,10 @@ Recent developments include
 * {#Bhatt20}[[Bhargav Bhatt]], _Cohen-Macaulayness of Absolute Integral Closures_, preprint (2020) arXiv:[2008.08070](https://arxiv.org/abs/2008.08070)
 
 * [[Jeremy Hahn]], [[Arpon Raksit]], [[Dylan Wilson]], _A motivic filtration on the topological cyclic homology of commutative ring spectra_, preprint (2022) arXiv:[2206.11208] (https://arxiv.org/abs/2206.11208)
+
+An application to [[algebraic K-theory]] is
+
+* {#AKN22} Benjamin Antieau, Achim Krause, and Thomas Nikolaus, _On the K-theory of $\mathbb{Z}/p^{n}$ -- Announcement_ ([arXiv:2204.03420](https://arxiv.org/abs/2204.03420)) 
 
 Historical precursors of prismatic cohomology are
 
