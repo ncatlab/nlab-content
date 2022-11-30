@@ -19,6 +19,11 @@ The **modularity theorem** states that given an [[elliptic curve]] $E$ over the 
 
 The "semistable" case of the modularity theorem was proven in [Wiles 1995](#Wiles95), [Taylor & Wiles 1995](#TaylorWiles95). The full theorem was proved by [Breuil, Conrad, Diamond & Taylor 2001](#BreuilConradDiamondTaylor2001).
 
+## Generalizations
+
+The modularity theorem was extended to the case of elliptic curves over real quadratic fields by Freitas-Le Hung-Siksek, and work in progress by Caraiani-Newton extends this to the case of elliptic curves over imaginary quadratic fields.
+
+More generally, the term "modularity" is often applied to mean the question of whether a Galois representation comes from a modular form or one of its higher-dimensional generalizations such as [[Hilbert modular forms]] or [[Siegel modular forms]].
 
 ## Related concepts
 
