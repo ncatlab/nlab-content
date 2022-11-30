@@ -85,7 +85,7 @@ The concept of perfectoid space can be generalized into that of a _diamond_, whi
 
 ## Applications
 
-One application of perfectoid spaces is in relating [[Galois representations]] to torsion in the cohomology of [[Shimura varieties]]. In turn, using the excision sequence, one can relate this to the cohomology of arithmetic manifolds that are not Shimura varieties (for example Bianchi manifolds, which are quotients of [[hyperbolic 3-space]] by an arithmetic subgroup). This is surveyed in section 5 of [Weinstein15](#Weinstein15).
+One application of perfectoid spaces is in relating [[Galois representations]] to torsion in the cohomology of [[Shimura varieties]]. In turn, using the excision sequence, one can relate this to the cohomology of arithmetic manifolds that are not Shimura varieties (for example Bianchi manifolds, which are quotients of [[hyperbolic 3-space]] by an arithmetic subgroup). This is surveyed in section 5 of [Weinstein15](#Weinstein15). Subsequent work in progress by Ana Caraiani and James Newton (see Caraiani's talk at IHES, [CaraianiIHES](#CaraianiIHES)) make use of this to prove a version of the [[modularity theorem]] for elliptic curves over quadratic imaginary fields.
 
 ## Related concepts
 
@@ -131,6 +131,11 @@ Perfectoid spaces and related concepts were the topic of a course at Berkeley in
 Some applications of perfectoid spaces are discussed in
 
 * {#Weinstein15} Jared Weinstein, _Reciprocity Laws and Galois Representations: Recent Breakthroughs_ [pdf](https://math.bu.edu/people/jsweinst/CEB/BAMS.pdf)
+
+Progress in the theory is being applied to prove a modularity
+theorem for elliptic curves over quadratic imaginary fields, discussed in
+
+* {#CaraianiIHES} Ana Caraiani, _Modularity over CM Fields_, (Talk at IHES [YouTube](https://www.youtube.com/watch?v=MM6sebSdtCc))
 
 See also 
 
