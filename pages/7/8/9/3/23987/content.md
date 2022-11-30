@@ -582,7 +582,24 @@ Stone-von Neumann**
 
 \linebreak
 
-* {#RiehlNov2022} 20 Nov 2022
+* 30 Nov 2022
+
+  [[Allan Merino]], 
+
+  **Classification and double commutant property for dual pairs in an orthosymplectic Lie supergroup**
+
+  > One of the main problems in representation theory is to determine the set of equivalence classes of irreducible unitary representations of a Lie group. Using the Weil representation, Roger Howe established a one-to-one correspondence (known as the local theta correspondence) between particular representations of two subgroups $G$ and $G'$ forming a dual pair in $Sp(W)$. This correspondence provides a nice way to construct unitary representations of small Gelfand-Kirillov dimension.
+
+  > In his wonderful paper "Remarks on classical invariant theory", Roger Howe suggested that his classical duality should be extendable to superalgebras/supergroups. In a recent work with Hadi Salmasian, we obtained a classification of irreducible reductive dual pairs in a real or complex orthosymplectic Lie supergroup $SpO(V)$. Moreover, we proved a "double commutant theorem" for all dual pairs in a real or complex orthosymplectic Lie supergroup.
+
+  > In my talk, I will spend quite some time explaining how the Howe duality works in the symplectic case and then talk about the results we obtained in our paper with H. Salmasian. &lbrack;[arXiv:2208.09746](https://arxiv.org/abs/2208.09746)&rbrack;
+
+
+\linebreak
+
+### Dec 2022
+
+* {#RiehlNov2022} 07 Dec 2022
 
   [[Emily Riehl]] (Johns Hopkins University)
 
