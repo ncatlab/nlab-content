@@ -9,7 +9,7 @@ A list of publications may be found in Berthiaume's [Prologue to "A generalizati
 
 The observation that colimits can be constructed from coproducts and coequalisers:
 
-* [[J.-M. Maranda]], *Some remarks on limits in categories*. Canadian Mathematical Bulletin 5.2 (1962): 133-146.
+* [[J.-M. Maranda]], *Some remarks on limits in categories*. Canadian Mathematical Bulletin **5** 2 (1962) 133-146 &lbrack;[doi:10.4153/CMB-1962-015-0](https://doi.org/10.4153/CMB-1962-015-0)&rbrack;
 
 Introducing the notion of *[[enriched categories]]*:
 
