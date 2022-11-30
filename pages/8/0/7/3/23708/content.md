@@ -26,6 +26,8 @@
 
 Let $S$ be a [[Cauchy space]] (such as a [[uniform space]] or a [[metric space]]). $S$ is **sequentially Cauchy-complete** if every [[Cauchy sequence]] in $S$ [[converges]].
 
+Note that this is usually just called *Cauchy complete space* in some areas of mathematics. 
+
 ## Examples ##
 
 * The [[Dedekind real numbers]] are sequentially Cauchy complete. 
