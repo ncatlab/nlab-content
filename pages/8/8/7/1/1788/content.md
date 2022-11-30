@@ -1,4 +1,4 @@
-
+A monad is just a monoid in the category of endofunctors. 
 
 $$
   \begin{array}{ccc}
