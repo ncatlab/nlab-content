@@ -1,3 +1,5 @@
+\tableofcontents
+
 ## Idea 
 
 An *epistemology* is a certain type of [[cartesian bicategory]] that admits a "free cocompletion". 
