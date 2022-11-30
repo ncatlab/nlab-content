@@ -21,9 +21,9 @@ The "semistable" case of the modularity theorem was proven in [Wiles 1995](#Wile
 
 ## Generalizations
 
-The modularity theorem was extended to the case of elliptic curves over real quadratic fields by Freitas-Le Hung-Siksek, and work in progress by Caraiani-Newton extends this to the case of elliptic curves over imaginary quadratic fields.
+The modularity theorem was extended to the case of elliptic curves over real quadratic fields by Freitas-Le Hung-Siksek in [FLS15](#FLS15), and work in progress by Caraiani-Newton extends this to the case of elliptic curves over imaginary quadratic fields.
 
-More generally, the term "modularity" is often applied to mean the question of whether a Galois representation comes from a modular form or one of its higher-dimensional generalizations such as [[Hilbert modular forms]] or [[Siegel modular forms]].
+More generally, the term "modularity" is often applied to mean the question of whether a [[Galois representation]] comes from a modular form or one of its higher-dimensional generalizations such as [[Hilbert modular forms]] or [[Siegel modular forms]].
 
 ## Related concepts
 
@@ -43,6 +43,10 @@ More generally, the term "modularity" is often applied to mean the question of w
 * {#TaylorWiles95} [[Richard Taylor]], [[Andrew Wiles]], *Ring-Theoretic Properties of Certain Hecke Algebras*, Annals of Mathematics Second Series **141** 3 (1995) 553-572 $[$[doi:10.2307/2118560 ](https://doi.org/10.2307/2118560 )$]$
 
 * {#BreuilConradDiamondTaylor2001} [[Christophe Breuil]], [[Brian Conrad]], [[Fred Diamond]], [[Richard Taylor]], *On the modularity of elliptic curves over $\mathbf{Q}$: Wild 3-adic exercises*, Journal of the American Mathematical Society **14** 4 (2001) 843–939 $[$[doi:10.1090/S0894-0347-01-00370-8](https://doi.org/10.1090/S0894-0347-01-00370-8)$]$
+
+A generalization to elliptic curves over real quadratic fields is in
+
+* {#FLS15} Nuno Freitas, Bao V. Le Hung, Samir Siksek _Elliptic Curves Over Real Quadratic Fields Are Modular_, Invent. Math. 201 (2015), no. 1, 159–206. ([arXiv:1310.7088](https://arxiv.org/abs/1310.7088))
 
 Review:
 
