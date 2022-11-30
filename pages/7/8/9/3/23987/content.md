@@ -580,6 +580,15 @@ Stone-von Neumann**
 
   > The [[Brownian loop soup]] (BLS) is a stochastic system that is constructed from random loops in the plane and is invariant under conformal transformations. Correlation functions of certain observables can be used to formulate the BLS as a Conformal Field Theory (CFT). I will give an overview of CFTs in two dimensions and point out their relation to certain stochastic systems. Then I will discuss the BLS including some recent progress, such as the operator content, the continuous spectrum, and hints of an extended symmetry algebra.
 
+\linebreak
+
+* {#RiehlNov2022} 20 Nov 2022
+
+  [[Emily Riehl]] (Johns Hopkins University)
+
+  **$\infty$-Category theory for undergraduates**
+
+  > At its current state of the art, [[(infinity,1)-category theory|$\infty$-category theory]] is challenging to explain even to specialists in closely related mathematical areas. Nevertheless, historical experience suggests that in, say, a century's time, we will routinely teach this material to undergraduates. This talk describes one dream about how this might come about --- under the assumption that 22nd century undergraduates have absorbed the background intuitions of [[homotopy type theory]]/[[univalent foundations]].
 
 \linebreak
 
