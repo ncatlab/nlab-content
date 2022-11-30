@@ -297,7 +297,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 \linebreak
 
-* 21 Nov 2022
+* {#KentNov22} 21 Nov 2022
 
   [[Andrew Kent]] (Center for Quantum Phenomena, NYU)
 
@@ -307,8 +307,20 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
   > Recent advances in magnetism research are likely to have an important impact on electronics and information processing. These advances use the electron magnetic moment (spin) to transmit, write and store information. They enable new devices that operate at high speed with very low energy consumption. The information is stored in the orientation of electron magnetic moments in magnetic materials and can persist without power; energy is only needed to write and read the information. Important physics concepts include the interconversion of electrical (charge) currents into spin currents, the efficiency of the interconversion, controlling the currents, spin polarization direction, and the associated spin torques on magnetic order. [Magnetic skyrmions](skyrmion#ReferencesInSolidStatePhysics) are also of interest both because of their stability --- they are topologically protected objects --- and because their nucleation and motion can be controlled using spin currents. In this talk I will highlight the new physics concepts that have enabled these advances and discuss some of their applications in information processing.
 
-> cf. J. Appl. Phys. **130** (2021) &lbrack;[doi:10.1063/5.0046950](https://doi.org/10.1063/5.0046950)&rbrack;
+> cf.: J. Appl. Phys. **130** (2021) &lbrack;[doi:10.1063/5.0046950](https://doi.org/10.1063/5.0046950)&rbrack;
 
+\linebreak
+
+
+* {#EqubalNov22} 28 Nov 2022
+
+  [[Asif Equbal]] (NYUAD)
+
+  **Molecular spin qubits for future quantum technology**
+
+  > Spins are a purely quantum mechanical phenomenon and have been proposed as one of the several candidates for qubits in quantum information science. Quantum computers based on spin qubits were first proposed by DiVincenzo, who established five necessary criteria for building a quantum computer. The technology to control the quantum states of nuclear and electron spins and the theory of spin-spin and spin-magnetic field interactions are well developed, but a quantum computer based on spin qubits has not yet been realized. Why is this?
+
+  > In this talk, I will discuss the challenges in developing spin qubits that meet DiVincenzo's criteria for quantum computers. First, I will explain in a pedagogical way how to manipulate spins in an external magnetic field that form the building block of quantum logic gates. I will then provide some insight into my own recent research on the development of optically polarized molecular spin qubits in solids.
 
 \linebreak
 
