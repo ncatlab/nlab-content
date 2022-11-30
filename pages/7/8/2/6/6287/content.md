@@ -15,7 +15,7 @@
 
 ## Definition
 
-A [[Lie algebra]] $\mathfrak{g}$ is called _reductive_ if the following equivalence conditions hold:
+A [[Lie algebra]] $\mathfrak{g}$ is called _reductive_ if the following equivalent conditions hold:
 
 1. it is the [[direct sum]] $\mathfrak{g} \simeq \mathfrak{h} \oplus \mathfrak{a}$ of a [[semisimple Lie algebra]] $\mathfrak{h}$ and an abelian Lie algebra $\mathfrak{a}$;
 
@@ -56,7 +56,11 @@ is called _reductive_ if the [[adjoint representation|adjoint]] [[Lie algebra re
 
 * The graded algebra of [[invariant polynomial]]s on a reductive Lie algebra is the [[free construction|free]] graded algebra on the [[graded vector space]] of indecomposable invariant polynomials, and via [[transgression]] there generators are in bijection with the odd generators of the [[Lie algebra cohomology]].
 
-[[!redirects reductive Lie algebras]]
+
+## Related concepts
+
+* [[reductive dual pair]]
+
 
 ## References
  
@@ -66,3 +70,6 @@ is called _reductive_ if the [[adjoint representation|adjoint]] [[Lie algebra re
  
 
 * {#Solleveld02} [[Maarten Solleveld]], _Lie algebra cohomology and Macdonald’s conjectures_, 2002 ([pdf](https://www.math.ru.nl/~solleveld/scrip.pdf))
+
+[[!redirects reductive Lie algebras]]
+
