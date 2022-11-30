@@ -262,6 +262,10 @@ Discussion for [[(infinity,1)-monads]] realized in the context of [[quasi-catego
 * [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
  {#RiehlVerity13}
 
+An analogue of the pullback theorem for [[lax algebras]] (there confusingly called "pseudoagebras") of a [[2-monad]] is given in:
+
+* [[Albert Burroni]]. _Structures pseudo-algébriques (1ère partie)_. Cahiers de topologie et géométrie différentielle catégoriques 16.4 (1975): 343-393. ([pdf](http://www.numdam.org/item/CTGDC_1975__16_4_343_0.pdf))
+
 [[!redirects Eilenberg--Moore categories]]
 [[!redirects Eilenberg–Moore category]]
 [[!redirects Eilenberg--Moore category]]
