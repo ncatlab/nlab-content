@@ -32,7 +32,11 @@ This is a special case of [[Sullivan models of mapping spaces]].
 Let $(\wedge^\bullet V, d_X)$ be a [[semifree dg-algebra]] being a [[minimal Sullivan model]] of a [[rational space|rational]] [[simply connected space]] $X$. Then a Sullivan model for the [[free loop space]] $\mathcal{L} X$ is given by
 
 $$
-  (\wedge^\bullet( V \oplus s V ), d_{\mathcal{L}X})
+  \big(
+    \wedge^\bullet( V \oplus s V )
+    ,\, 
+    d_{\mathcal{L}X}
+  \big)
   \,,
 $$
 
@@ -66,6 +70,7 @@ This is due to ([Vigu&#233;-Sullivan 76](#VigueSullivan76)). Review includes ([F
 The formula in prop. \ref{SullivanModelForTheFreeLoopSpace} is akin to that that for the [[Weil algebra]] of the [[L-infinity algebra|$L_\infty$-algebra]] of which $(\wedge^\bullet V,d_X)$ is the [[Chevalley-Eilenberg algebra]], except that here $s$ shifts _down_, whereas for the Weil algebra it shifts _up_.
 
 =--
+
 
 ### For the based loop space
  {#ConstructionForBasedLoopSpace}
@@ -118,7 +123,13 @@ is the dgc-algebra obtained from $(\wedge\bullet V, d_X)$ by shifting down all g
 Given a [[Sullivan model]] $(\wedge^\bullet (V \oplus s V), d_{\mathcal{L}X})$ for a [[free loop space]] as in prop. \ref{SullivanModelForTheFreeLoopSpace}, then a Sullivan model for the [[cyclic loop space]], i.e. for the [[homotopy quotient]] $\mathcal{L} X \sslash S^1$ with respect to the canonical [[circle group]] action that rotates loops (i.e. for the [[Borel construction]] $\mathcal{L}X \times_{S^1} E S^1$) is given by
 
 $$
-  (\wedge^\bullet(  V\oplus s V \oplus \langle \omega_2\rangle ), d_{\mathcal{L}X/S^1})
+  \Big(
+    \wedge^\bullet(  
+       V\oplus s V \oplus \langle \omega_2\rangle 
+    )
+    ,\, 
+    d_{\mathcal{L}X/S^1}
+  \Big)
 $$
 
 where 
@@ -159,6 +170,99 @@ which exhibits the [[infinity-action]] (by the discussion there) of $S^1$ on $\m
 =--
 
 This is due to ([Vigu&#233;-Burghelea 85, theorem A](#VigueBurghelea85)).
+
+
+\begin{example}\label{SullivanModelOfCyclicLoopOfEm}
+**([[Sullivan model]] of [[cyclic loop space]] of [[Eilenberg-MacLane space|EM-space]])**
+\linebreak
+For $n \geq 1$ consider the [[Eilenberg-MacLane space]] 
+$X \,=\, B^{n+1} \mathbb{Q}$, whose [[Sullivan model of a classifying space]] is
+
+$$
+  CE\big(
+    \mathfrak{l}
+    B^{n+1} \mathbb{Q}
+  \big)
+  \;\;
+  =
+  \;\;
+  \mathbb{Q}[c_{n+1}]
+  \big/
+  \big(
+    \mathrm{d} \, c_{n+1}  \;=\; 0
+  \big)
+  \,.
+$$
+
+
+Notice -- from [this Prop](free+loop+space+of+classifying+space#FreeLoopSpaceOfClassifyingSpaceOfSimplicialAbelianGroup) at *[[free loop space of classifying space]]* -- that its [[free loop space]] is the [[product]]
+
+$$
+  \mathcal{L}
+  \; 
+  B^{n+1} \mathbb{Q}
+  \;\simeq\;
+  B^{n} \mathbb{Q}
+  \,\times\,
+  B^{n+1} \mathbb{Q}
+  \,.
+$$
+
+Now Prop. \ref{ModelForS1quotient} shows that the corresponding [[cyclic loop space]] is as in the middle item here:
+
+$$
+  \begin{array}{ccc}
+  B^n \mathbb{Q}
+  &\longrightarrow&
+  \Big(
+    \overset{
+      B^{n} \mathbb{Q} 
+      \,\times\,
+      B^{n+1} \mathbb{Q}
+    }{
+      \overbrace{
+        \mathcal{L} \;B^{n+1} \mathbb{Q}
+      }
+    }
+  \Big) 
+  \sslash S^1
+  &\longrightarrow&
+  B^n \mathbb{Q}
+  \\
+  \left(
+  \begin{array}{lcl}
+    d & c_{n} & = 0
+  \end{array}
+  \right)  
+  &
+  \longleftarrow
+  &
+  \left(
+  \begin{array}{lcl}
+    d & c_{n+1} & = \omega_2 \wedge c_n
+    \\
+    d & c_{n} & = 0
+    \\
+    d & \omega_2 & = 0
+  \end{array}
+  \right)
+  &
+  \longleftarrow
+  &
+  \left(
+  \begin{array}{lcl}
+    d & c_{n} & = 0
+  \end{array}
+  \right)  
+  \end{array}
+$$
+
+Incidentally, as indicated by the full diagram, this readily shows that $\big(\mathcal{L}\, B^{n+1} \mathbb{Q}\big) \sslash S^1$ [[retraction|retracts]] onto $B^{n} \mathbb{Q}$.
+\end{example}
+
+
+
+
 
 ### Relation to Hochschild- and cyclic-homology
   {#RelationToHochschildHomology}
