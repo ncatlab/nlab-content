@@ -205,7 +205,7 @@ $$
 
 with the $B$-tuple of "block $B \times 1$" matrices $(F_b)_{b \colon B}$ that it evidently encodes. 
 
-Observe that the comultiplication on the $\bigotimes_B$-[[comonad]] is given by the [[diagonal map]] into the [[biproduct]], coming from the "randomness unit" (terminology from [modal quantum logic](necessity+and+possibility#ModalQuantumLogic)):
+Observe that the comultiplication on the $\bigotimes_B$-[[comonad]] is given by the [[diagonal map]] into the [[biproduct]], coming from the "randomness unit" (terminology from [modal quantum logic](necessity+and+possibility#ModalQuantumLogic), following [CQTS (2022)](quantum+circuits+via+dependent+linear+types#CQTS22)):
 
 \begin{imagefromfile}
     "file_name": "QCwthLHT-QuantumModalUnits-221021b.jpg",
