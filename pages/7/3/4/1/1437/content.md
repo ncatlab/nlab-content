@@ -230,15 +230,14 @@ For [[category theory|category theoretic]] treatments of the self-similarity fou
 [[!redirects final coalgebra]]
 [[!redirects final coalgebras]]
 
+[[!redirects terminal coalgebra for an endofunctor]]
+[[!redirects terminal coalgebras for an endofunctor]]
+
+[[!redirects terminal coalgebra for the endofunctor]]
+[[!redirects terminal coalgebras for the endofunctor]]
+
 [[!redirects terminal coalgebra of an endofunctor]]
 [[!redirects terminal coalgebras of an endofunctor]]
 
 [[!redirects terminal coalgebra of the endofunctor]]
 [[!redirects terminal coalgebras of the endofunctor]]
-
-
-[[!redirects terminal coalgebra]]
-
-[[!redirects terminal coalgebra of an endofunctor]]
-[[!redirects terminal coalgebras of an endofunctor]]
-[[!redirects terminal coalgebras of an endofunctors]]
