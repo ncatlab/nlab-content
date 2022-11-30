@@ -6,6 +6,9 @@ Sabine Hossenfelder is a physicist in Frankfurt focused on foundation questions.
 
 * Sabine Hossenfelder, _Was läuft falsch in der gegenwärtigen Physik?_, talk at University of Stuttgart, 2019 ([video](https://www.youtube.com/watch?v=99hVAu1k6G8))
 
+* J. R. Hance, S. Hossenfelder, _The wave function as a true ensemble_, Proc. R. Soc. A 478: 20210705 (2022)
+[doi](https://doi.org/10.1098/rspa.2021.0705)
+
 Related pages include [[empiricism]].
 
 category: people
