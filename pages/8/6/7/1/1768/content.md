@@ -26,18 +26,18 @@ The precise definition varies with the context.
 
 
 A sequence $(x_i)_i$ of [[real numbers]] is __Cauchy__ if, for every positive number $\epsilon$, almost all terms are within $\epsilon$ of one another.  Explicitly:
-$$ \forall \epsilon,\; \exists N,\; \forall i, j \geq N,\; |x_i - x_j| \leq \epsilon .$$
+$$ \forall \epsilon,\; \exists N,\; \forall i, j \geq N,\; |x_i - x_j| \lt \epsilon .$$
 
 
 In a [[metric space]], a sequence $(x_i)_i$ is __Cauchy__ under the same condition, now relative to the metric $d$ on that space.  Explicitly:
-$$ \forall \epsilon,\; \exists N,\; \forall i, j \geq N,\; d(x_i,x_j) \leq \epsilon .$$
+$$ \forall \epsilon,\; \exists N,\; \forall i, j \geq N,\; d(x_i,x_j) \lt \epsilon .$$
 
 The same definition immediately applies to an extended quasipseudometric space (aka a Lawvere metric space), or anything in between.
 
 In a [[gauge space]], a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for each gauging distance separately.  Explicitly:
-$$ \forall d,\; \forall \epsilon,\; \exists N,\; \forall i, j \geq N,\; d(x_i,x_j) \leq \epsilon .$$
+$$ \forall d,\; \forall \epsilon,\; \exists N,\; \forall i, j \geq N,\; d(x_i,x_j) \lt \epsilon .$$
 
-In a [[premetric space]], a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for the premetric given a positive rational number $\epsilon$.  Explicitly:
+In a [[Booij premetric space]], a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for the premetric given a positive rational number $\epsilon$.  Explicitly:
 $$ \forall \epsilon,\; \exists N,\; \forall i, j \geq N,\; x_i \sim_\epsilon x_j .$$
 
 In a [[uniform space]], a sequence $(x_i)_i$ is __Cauchy__ if an analogous condition is satisfied for each [[entourage]] $U$.  Explicitly:
