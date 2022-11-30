@@ -25,6 +25,11 @@ See also
 
 * Wikipedia, *[Nuclear magnetic resonance](https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance)*
 
+On [[Floquet theory]] in [[nuclear magnetic resonance]]:
+
+* Konstantin L. Ivanov, Kaustubh R. Mote, Matthias Ernst, [[Asif Equbal]], Perunthiruthy K. Madhu, *Floquet theory in magnetic resonance: Formalism and applications*, Progress in Nuclear Magnetic Resonance Spectroscopy, **126**–**127** (2021) 17-58 &lbrack;[doi:10.1016/j.pnmrs.2021.05.002](https://doi.org/10.1016/j.pnmrs.2021.05.002)&rbrack;
+
+
 ### Application to quantum computation
 
 NMR is one possible platform for [[quantum computation]]:
