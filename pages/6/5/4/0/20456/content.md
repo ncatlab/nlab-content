@@ -144,7 +144,7 @@ Recent developments include
 
 An application to [[algebraic K-theory]] is
 
-* {#AKN22} [[Benjamin Antieau]], [[Achim Krause]], [[Thomas Nikolaus]], _On the K-theory of $\mathbb{Z}/p^{n}$ -- Announcement_ &lbrack;[arXiv:2204.03420](https://arxiv.org/abs/2204.03420)&lbrack;
+* {#AKN22} [[Benjamin Antieau]], [[Achim Krause]], [[Thomas Nikolaus]], _On the K-theory of $\mathbb{Z}/p^{n}$ -- Announcement_ &lbrack;[arXiv:2204.03420](https://arxiv.org/abs/2204.03420)&rbrack;
 
 Historical precursors of prismatic cohomology are
 
