@@ -1,4 +1,4 @@
-Sabine Hossenfelder is a physicist in Frankfurt focused on foundation questions. 
+Sabine Hossenfelder is a physicist in Frankfurt focused on foundation questions and [[dark matter]]. 
 
 * [web](http://sabinehossenfelder.com/index.php)
 
@@ -6,8 +6,16 @@ Sabine Hossenfelder is a physicist in Frankfurt focused on foundation questions.
 
 * Sabine Hossenfelder, _Was läuft falsch in der gegenwärtigen Physik?_, talk at University of Stuttgart, 2019 ([video](https://www.youtube.com/watch?v=99hVAu1k6G8))
 
+## On the foundations of quantum mechanics
+
 * J. R. Hance, S. Hossenfelder, _The wave function as a true ensemble_, Proc. R. Soc. A 478: 20210705 (2022)
 [doi](https://doi.org/10.1098/rspa.2021.0705)
+
+## On dark matter
+
+* [[Tobias Mistele]], [[Stacy McGaugh]], [[Sabine Hossenfelder]], *Galactic mass-to-light ratios with superfluid dark matter*, Astronomy and Astrophysics, Volume 664, Article 40, August 2022 ([doi:10.1051/0004-6361/202243216](https://doi.org/10.1051/0004-6361/202243216), [arXiv:2201.07282](https://arxiv.org/abs/2201.07282))
+
+## Related pages
 
 Related pages include [[empiricism]].
 
