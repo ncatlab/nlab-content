@@ -4,7 +4,7 @@ Thomas Nikolaus is a full Professor at the Fachbereich Mathematik und Informatik
 
 [Homepage](https://www.uni-muenster.de/IVV5WS/WebHop/user/nikolaus/index.html)
 
-## Notes
+## Selected writings
 
 * _[[NikolausHigherCatStructuresInGeometry.pdf:file]]_ ([[NikolausHigherCatStructuresInGeometrySlides.pdf:file]]) PhD thesis (2011) 
 
@@ -26,6 +26,10 @@ object in a general model category (obeying certain technical conditions). Based
 On [[cyclotomic spectra]] and [[topological cyclic homology]]:
 
 * {#NikolausScholze17} [[Thomas Nikolaus]], [[Peter Scholze]], _On topological cyclic homology_,  Acta Math. **221** 2 (2018) 203-409 &lbrack;[arXiv:1707.01799](https://arxiv.org/abs/1707.01799), [doi:10.4310/ACTA.2018.v221.n2.a1](https://dx.doi.org/10.4310/ACTA.2018.v221.n2.a1)&rbrack;
+
+On [[prismatic cohomology]] applied to [[algebraic K-theory]]:
+
+* {#AKN22} [[Benjamin Antieau]], [[Achim Krause]], [[Thomas Nikolaus]], _On the K-theory of $\mathbb{Z}/p^{n}$ -- Announcement_ &lbrack;[arXiv:2204.03420](https://arxiv.org/abs/2204.03420)&lbrack;
 
 
 category: people
