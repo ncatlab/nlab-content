@@ -195,3 +195,5 @@ Since finitary monads $T$ preserve reflexive coequalizers, it follows that the m
 [[!redirects reflexive equalizers]]
 [[!redirects reflexive equaliser]]
 [[!redirects reflexive equalisers]]
+[[!redirects reflexive pair]]
+[[!redirects reflexive pairs]]
