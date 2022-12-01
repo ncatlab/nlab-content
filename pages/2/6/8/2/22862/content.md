@@ -1339,7 +1339,6 @@ $$
 $$
 
 This is manifestly the image under $sSet\big( [S,\overline{W}G], - \big)$ of the correct morphism (eq:ComparisonMorphismFromFreeLoopSpaceViaEilenbergZilber) from Prop. \ref{FreeLoopSpaceOfEMSpaceIdentifiedViaEilenbergZilber}.
-
 \end{proof}
 
 ## References
@@ -1361,6 +1360,15 @@ The transgression formula itself (without derivation) is also considered, in a c
 and specifically in the context of equivariant [[Tate K-theory]]:
 
 * {#Dove19} [[Thomas Dove]], _Twisted Equivariant Tate K-Theory_ ([arXiv:1912.02374](https://arxiv.org/abs/1912.02374))
+
+
+Generalization to Real $\mathbb{Z}/2$-equivariant cohomology (as appropriate for twists of [[KR-theory]]):
+
+* [[Behrang Noohi]], [[Matthew B. Young]], *Twisted loop transgression and higher Jandl gerbes over finite groupoids*, Algebr. Geom. Topol. **22** (2022) 1663-1712 &lbrack;[arXiv:1910.01422](https://arxiv.org/abs/1910.01422), [doi:10.2140/agt.2022.22.1663](https://doi.org/10.2140/agt.2022.22.1663)&rbrack;
+
+The above discussion and proof is taken from:
+
+* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:cyclic loop spaces 2022|Cyclification of Orbifolds]]* (2022), in preparation
 
 
 [[!redirects transgressions in group cohomology]]
