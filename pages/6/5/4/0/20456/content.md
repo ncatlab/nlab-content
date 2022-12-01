@@ -23,7 +23,7 @@
 
 ## Idea
 
-Prismatic cohomology is a cohomology theory which can specialize into various $p$-adic cohomology theories, including [[étale cohomology]], [[de Rham cohomology]] and [[crystalline cohomology]], as well as the so far conjectural $q$-de Rham cohomology of [[Peter Scholze]]. It is a geometric approach to integral [[p-adic Hodge theory]].
+Prismatic cohomology is a cohomology theory for p-adic [[formal schemes]] which can specialize into various $p$-adic cohomology theories, including [[étale cohomology]], [[de Rham cohomology]] and [[crystalline cohomology]], as well as the so far conjectural $q$-de Rham cohomology of [[Peter Scholze]]. It is a geometric approach to integral [[p-adic Hodge theory]].
 
 ## Prisms
 
