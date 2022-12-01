@@ -1,6 +1,3 @@
-[[!redirects booleans type]]
-[[!redirects type of booleans]]
-[[!redirects decidable subset classifier]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
