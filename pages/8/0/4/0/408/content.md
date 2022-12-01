@@ -74,6 +74,10 @@ There is a straightforward generalization to an adjunction of $n$ variables, whi
 
 This 2-multicategory can also be promoted to a 2-[[polycategory]]; see [Shulman](#Shulman).
 
+## Adjunctions with a parameter
+
+In [[CWM]] Theorem IV.7.3, [[Mac Lane]] introduced the notion of **adjunction with a parameter**, which is equivalent to the notion of two-variable adjunction.
+
 ## Related concepts
 
 * [[Quillen bifunctor]]
@@ -114,3 +118,6 @@ This 2-multicategory can also be promoted to a 2-[[polycategory]]; see [Shulman]
 
 [[!redirects trijunction]]
 [[!redirects trijunctions]]
+
+[[!redirects adjunction with a parameter]]
+[[!redirects adjunctions with a parameter]]
