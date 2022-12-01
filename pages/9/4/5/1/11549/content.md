@@ -29,3 +29,4 @@ An analogue in triangulated setup: every triangulated category which is well gen
 [[!redirects Popesco–Gabriel theorem]]
 [[!redirects Giraud subcategory]]
 [[!redirects Giraud subcategories]]
+[[!redirects Gabriel-Popescu embedding theorem]]
