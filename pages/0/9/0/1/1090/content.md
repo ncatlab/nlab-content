@@ -63,3 +63,4 @@ A right 'exact' category is a category with an initial object and a Grothendieck
 [[!redirects Quillen exact categories]]
 [[!redirects Quillen-exact category]]
 [[!redirects Quillen exactness]]
+[[!redirects Quillen-Gabriel embedding theorem]]
