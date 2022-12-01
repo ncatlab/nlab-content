@@ -76,8 +76,6 @@ Uniqueness rules for the interval type:
 
 * An interval type is provably [[contractible type|contractible]].  Conversely, any contractible type satisfies the rules of an interval type up to propositional equality.
 
-* On the other hand, postulating an interval type with *definitional* computation rules for `left` and `right` implies [[function extensionality]]. ([Shulman](#Shulman)).
-
 * An interval type is a [[suspension type]] of the [[unit type]], and the suspension of an interval type is a 2-[[globe]] type. 
 
 * An interval type is a [[cone type]] of the unit type.
@@ -103,6 +101,32 @@ Given a type $A$, a dependent type $x:A \vdash B$, terms $a_0:A$ and $a_1:A$, id
 * $\beta_f^p:\mathrm{apd}_f(p) =_{f(0) =_B^q f(1)} \mathrm{concat}_{\mathrm{trans}_B^q(f(0)), b_1, f(1)}(\mathrm{concat}_{\mathrm{trans}_B^q(f(0)), \mathrm{trans}_B^q(b_0), b_1}(\mathrm{apd}_{\mathrm{trans}_B^q}(\beta_f^0), r), \mathrm{inv}_{f(1), b}(\beta_f^1))$
 
 where $\mathrm{trans}_B^q:B[a_0/x] \to B[a_1/x]$ is [[transport]], $\mathrm{ap}_f:(0 =_\mathbb{I} 1) \to (f(0) =_A f(1))$ is the [[action on identities]], $\mathrm{concat}_{a, b, c}:(a =_A b) \times (b =_A c) \to (a =_A c)$ is concatenation of identities (i.e. [[transitivity]]), and $\mathrm{inv}_{a, b}:(a =_A b) \to (b =_A a)$ is the inverse of identities (i.e. [[symmetry]]).
+
+### Relation to function extensionality
+
+Postulating an interval type with [[judgmental equality|judgmental]] [[computation rules]] for the point constructors of the interval type implies [[function extensionality]]. ([Shulman](#Shulman)). 
+
+The proof assumes the [[uniqueness rule]] for [[function types]]. First it constructs a function $k:A \to (\mathbb{I} \to B)$ from a dependent function $h:\prod_{x:A} f(x) =_B g(x)$, inductively defined by
+
+* $\beta_{k(x)}^0:k(x)(0) =_B f(x)$
+* $\beta_{k(x)}^1:k(x)(1) =_B g(x)$
+* $\beta_{k(x)}^p:\mathrm{ap}_{k(x)}(p) =_{k(x)(0) =_B k(x)(1)} \mathrm{concat}_{k(x)(0), f(x), k(x)(1)}(\mathrm{concat}_{k(x)(0), f(x), g(x)}(\beta_{k(x)}^0, h(x)), \mathrm{inv}_{k(x)(1), g(x)}(\beta_{k(x)}^1))$
+
+Then it uses the properties of function types, product types, currying, uncurrying, and the symmetry of products $A \times B \simeq B \times A$, to construct a function $k':\mathbb{I} \to (A \to B)$, inductively defined by
+
+* $\beta_{k'}^0(x):k'(0)(x) =_B f(x)$
+* $\beta_{k'}^1(x):k'(1)(x) =_B g(x)$
+* $\beta_{k'}^p(x):\mathrm{ap}_{k'}(p)(x) =_{k'(0)(x) =_B k'(1)(x)} \mathrm{concat}_{k'(0)(x), f(x), k'(1)(x)}(\mathrm{concat}_{k'(0)(x), f(x), g(x)}(\beta_{k'}^0(x), h(x)), \mathrm{inv}_{k'(1)(x), g(x)}(\beta_{k'}^1(x)))$
+
+If the interval type has judgmental computation rules for the point constructors, the above simplifies to 
+
+* $k'(0)(x) \equiv f(x)$
+* $k'(1)(x) \equiv g(x)$
+* $\mathrm{ap}_{k'}(p)(x) =_{f(x) =_B g(x)} h(x)$
+
+Finally it use the [[judgmental equality]] in the [[computation rules]] for the interval type and the [[uniqueness rule]] for function types to construct an identity $h':f =_{A \to B} g$. Since $k'(0)(x) \equiv f(x)$ and $k'(1)(x) \equiv g(x)$ for all $x:A$, this means that $k'(0) \equiv f$ and $k'(1) \equiv g$ and there is an identity $\mathrm{ap}_{k'}(p):f =_{A \to B} g$. 
+
+An interval type with only typal computation rules for left and right does not imply function extensionality. This is because the proof with the judgmental computation rules uses the fact that $k'(0)(x) \equiv f(x)$ and $k'(1)(x) \equiv g(x)$ for all $x:A$ implies that $k'(0) \equiv f$ and $k'(1) \equiv g$. However, if the computation rules are typal, then the equivalent statement is $k'(0)(x) =_B f(x)$ and $k'(1)(x) =_B g(x)$ for all $x:A$ implies that $k'(0) =_{A \to B} f$ and $k'(1) =_{A \to B} g$, which is precisely [[function extensionality]], and so cannot be used to prove function extensionality. 
 
 ## Related concepts
 
