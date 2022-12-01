@@ -48,12 +48,11 @@ $$
 together with natural [[isomorphism]]s
 
 $$
-  Hom_E(c \otimes d, e)
+  E(c \otimes d, e)
   \simeq
-  Hom_C(c, hom_l(d,e))
+  D(d, hom_l(c,e))
   \simeq
-  Hom_D(d, hom_r(c,e))
-  \,.
+  C(c, hom_r(d,e))
 $$
 
 ## Cyclicity
