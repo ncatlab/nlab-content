@@ -1,4 +1,30 @@
 
+<div style="float:right;margin:10px 10px 10px 10px;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Cup_or_faces_paradox.svg/450px-Cup_or_faces_paradox.svg.png" width="300"></div>
+
+
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+klskdj flskdj fslkfj lskdfj sldkfj sldkfj 
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
