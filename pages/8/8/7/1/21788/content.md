@@ -103,43 +103,52 @@ The [[Ochanine genus]] lifts to a homomorphism of [[ring spectra]] $M Spin \to K
 
 As [[elliptic cohomology]] over the [[Tate sphere]]:
 
-* {#AHS01}  [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], Section 2.7 of: _Elliptic spectra, the Witten genus and the theorem of the cube_, Invent. math. 146, 595–687 (2001) ([doi:10.1007/s002220100175](https://doi.org/10.1007/s002220100175))
+* {#AHS01}  [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], Section 2.7 of: _Elliptic spectra, the Witten genus and the theorem of the cube_, Invent. math. 146, 595–687 (2001) &lbrack;[doi:10.1007/s002220100175](https://doi.org/10.1007/s002220100175)&rbrack;
 
 
-* {#Lurie09} [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_, in: _Algebraic Topology_ Abel Symposia Volume 4, 2009, pp 219-277 ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf), [doi:10.1007/978-3-642-01200-6_9](https://doi.org/10.1007/978-3-642-01200-6_9))
+* {#Lurie09} [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_, in: _Algebraic Topology_ Abel Symposia **4** (2009) 219-277 &lbrack;[pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf), [doi:10.1007/978-3-642-01200-6_9](https://doi.org/10.1007/978-3-642-01200-6_9)&rbrack;
 
 As completed $S^1$-[[equivariant K-theory]] of [[free loop space]]
 
-* {#KM04}  [[Nitu Kitchloo]], [[Jack Morava]], Section 5 of: _Thom Prospectra for Loopgroup representations_ ([arXiv:math/0404541](https://arxiv.org/abs/math/0404541))
+* {#KM04}  [[Nitu Kitchloo]], [[Jack Morava]], Section 5 of: _Thom Prospectra for Loopgroup representations_ &lbrack;[arXiv:math/0404541](https://arxiv.org/abs/math/0404541)&rbrack;
 
 
 As a form of [[equivariant elliptic cohomology]] ([[twisted ad-equivariant Tate K-theory]]):
 
 
-* {#Ganter07} [[Nora Ganter]], Section 3.1 in: _Stringy power operations in Tate K-theory_ ([arXiv:math/0701565](https://arxiv.org/abs/math/0701565))
+* {#Ganter07} [[Nora Ganter]], Section 3.1 in: _Stringy power operations in Tate K-theory_ &lbrack;[arXiv:math/0701565](https://arxiv.org/abs/math/0701565)&rbrack;
 
-* {#Ganter13} [[Nora Ganter]], _Power operations in orbifold Tate K-theory_, Homology Homotopy Appl. Volume 15, Number 1 (2013), 313-342. ([arXiv:1301.2754](https://arxiv.org/abs/1301.2754), [euclid:hha/1383943680](https://projecteuclid.org/euclid.hha/1383943680))
+* {#Ganter13} [[Nora Ganter]], _Power operations in orbifold Tate K-theory_, Homology Homotopy Appl. **15** 1 (2013)  313-342 &lbrack;[arXiv:1301.2754](https://arxiv.org/abs/1301.2754), [euclid:hha/1383943680](https://projecteuclid.org/euclid.hha/1383943680)&rbrack;
 
-* [[Zhen Huan]], _Quasi-elliptic cohomology_, 2017 ([hdl:2142/97268](http://hdl.handle.net/2142/97268))
 
-* [[Zhen Huan]], *Quasi-elliptic cohomology and its Spectrum* ([arXiv:1703.06562](https://arxiv.org/abs/1703.06562))
+* [[Zhen Huan]], _Quasi-elliptic cohomology_ (2017) &lbrack;[hdl:2142/97268](http://hdl.handle.net/2142/97268)&rbrack;
 
-* {#Huan18} [[Zhen Huan]], _Quasi-Elliptic Cohomology I_, Advances in Mathematics, Volume 337, 15 October 2018, Pages 107-138 ([arXiv:1805.06305](https://arxiv.org/abs/1805.06305), [doi:10.1016/j.aim.2018.08.007](https://doi.org/10.1016/j.aim.2018.08.007))
+* [[Zhen Huan]], *Quasi-Elliptic Cohomology and its Power Operations*, J. Homotopy and Related Structures **13** (2018) 715–767 &lbrack;[arXiv:1612.00930](https://arxiv.org/abs/1612.00930), [doi:10.1007/s40062-018-0201-y](https://doi.org/10.1007/s40062-018-0201-y)&rbrack;
+
+* [[Zhen Huan]], *Quasi-elliptic cohomology and its Spectrum* &lbrack;[arXiv:1703.06562](https://arxiv.org/abs/1703.06562)&rbrack;
+
+* {#Huan18} [[Zhen Huan]], _Quasi-Elliptic Cohomology I_, Advances in Mathematics, **337** (2018) 107-138 &lbrack;[arXiv:1805.06305](https://arxiv.org/abs/1805.06305), [doi:10.1016/j.aim.2018.08.007](https://doi.org/10.1016/j.aim.2018.08.007)&rbrack;
 
 with a streamlined account in 
 
-* [[Zhen Huan]], *Quasi-theories* ([arXiv:1809.06651](https://arxiv.org/abs/1809.06651))
+* [[Zhen Huan]], *Quasi-theories* &lbrack;[arXiv:1809.06651](https://arxiv.org/abs/1809.06651)&rbrack;
+
+* [[Zhen Huan]], *Quasi-theories and their equivariant orthogonal spectra* &lbrack;[arXiv:1809.07622](https://arxiv.org/abs/1809.07622)&rbrack;
 
 
 For simply-connected [[compact Lie groups]]:
 
-* {#Luecke19}  Kiran Luecke, _Completed K-theory and Equivariant Elliptic Cohomology_ ([arXiv:1904.00085](https://arxiv.org/abs/1904.00085))
+* {#Luecke19}  Kiran Luecke, _Completed K-theory and Equivariant Elliptic Cohomology_ &lbrack;[arXiv:1904.00085](https://arxiv.org/abs/1904.00085)&rbrack;
 
 For [[finite groups]]:
 
-* {#Dove19} [[Thomas Dove]], _Twisted Equivariant Tate K-Theory_ ([arXiv:1912.02374](https://arxiv.org/abs/1912.02374))
+* {#Dove19} [[Thomas Dove]], _Twisted Equivariant Tate K-Theory_ &lbrack;[arXiv:1912.02374](https://arxiv.org/abs/1912.02374)&rbrack;
 
-Generalized to [[twisted equivariant K-theory|twisted equivariant]] [[KR-theory]]:
+Generalization to [[twisted equivariant K-theory]] 
+
+* [[Zhen Huan]], [[Matthew Spong]], *Twisted Quasi-elliptic cohomology and twisted equivariant elliptic cohomology* ([arXiv:2006.00554](https://arxiv.org/abs/2006.00554))
+
+and further to [[KR-theory]]:
 
 * [[Zhen Huan]], [[Matthew B. Young]], *Twisted Real quasi-elliptic cohomology* &lbrack;[arXiv:2210.07511](https://arxiv.org/abs/2210.07511)&rbrack;
 
