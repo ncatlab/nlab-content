@@ -193,6 +193,8 @@ See also at _[categorical model theory](model+theory#CategoricalModelTheory)_.
 
 ## Examples
 
+- Every [[discrete category]] is $\kappa$-accessible for every [[regular cardinal]] $\kappa$, since every discrete filtered diagram is trivial.
+
 ### Functor categories
 
 See at _[Functor category -- Accessibility](functor+category#LocalPresentability)_.
