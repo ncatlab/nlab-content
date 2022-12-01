@@ -60,6 +60,13 @@ General aspects of [[nearly AdS2-CFT1]] ([[JT-gravity]]/matrix models):
 
 * [[Juan Maldacena]], [[Douglas Stanford]], [[Zhenbin Yang]], _Conformal symmetry and its breaking in two dimensional Nearly Anti-de-Sitter space_ ([arXiv:1606.01857](https://arxiv.org/abs/1606.01857))
 
+
+Argument that the image of *[[wormhole]] traversal* under [[AdS-CFT duality]] is *[[quantum teleportation]]*:
+
+* [[Juan Maldacena]], [[Douglas Stanford]], [[Zhenbin Yang]], *Diving into traversable wormholes*,Fortsch. Phys. **65** 5 (2017) 1700034 &lbrack;[arXiv:1704.05333](https://arxiv.org/abs/1704.05333), [doi:10.1002/prop.201700034](https://doi.org/10.1002/prop.201700034)&rbrack;
+
+
+
 On  [[AdS2/CFT1]] with the [[BFSS matrix model]] on the CFT side and [[black hole in string theory|black hole-like solutions]] in [[type IIA supergravity]] on the AdS side:
 
 * [[Juan Maldacena]], Alexey Milekhin, _To gauge or not to gauge?_, JHEP 04 (2018) 084 ([arxiv:1802.00428](https://arxiv.org/abs/1802.00428))
