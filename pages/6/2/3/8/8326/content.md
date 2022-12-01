@@ -629,7 +629,7 @@ There is an opposition between the two kinds of opposition here:
 
 > EL92Zusatz Negation ist das, was wir Grenze hei&#223;en. Etwas ist nur in seiner Grenze und durch seine Grenze das, was es ist.
 
-<div style="float:right;margin:0 10px 10px 0;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Cup_or_faces_paradox.svg/450px-Cup_or_faces_paradox.svg.png" width="300"></div>
+<div style="float:right;margin:10px 10px 10px 15px;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Cup_or_faces_paradox.svg/450px-Cup_or_faces_paradox.svg.png" width="300"></div>
 
 If $\Box X$ is a pure moment found inside $X$, then it makes to ask for its _complement moment_ or its _negative_
 
