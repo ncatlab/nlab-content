@@ -40,14 +40,16 @@ $$
   a^n 
     \;\colon\; 
   X^{\times n} 
-    \stackrel{(a,\cdots,a)}{\longrightarrow} 
+    \overset{\;\;\;
+      (a,\cdots,a)
+    \;\;\;}{\longrightarrow} 
   E^{\times n} 
-    \stackrel{\mu}{\longrightarrow} 
+    \overset{\;\; \mu \;\;}{\longrightarrow} 
   E
   \,,
 $$
 
-where the second map is given the product operation in the [[ring spectrum]] $E$. Since this is, by assumption, commutative up to coherent higher homotopy, this map factors through the [[homotopy quotient]] by the [[∞-action]] of the [[symmetric group]] $\Sigma_n$
+where the second map is given the [[multiplication]] operation in the [[ring spectrum]] $E$. Since this is, by assumption, commutative up to coherent higher homotopy, this map factors through the [[homotopy quotient]] by the [[∞-action]] of the [[symmetric group]] $\Sigma_n$:
 
 $$
   a^n 
