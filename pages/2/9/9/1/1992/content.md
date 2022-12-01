@@ -1,6 +1,3 @@
-
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -33,19 +30,25 @@ Examples include the classical Tannaka theorem and Krein theorem, [[Doplicher-Ro
 
 These theorems for schemes (or varieties only) reconstruct a [[scheme]] (variety) out of the category of quasicoherent or only coherent sheaves (or a [[derived category]] version of them). In that class one can find Gabriel--Rosenberg theorem, [[Bondal-Orlov reconstruction theorem]], reconstruction theorems of [P. Balmer](http://www.math.ucla.edu/~balmer) and of [G. Garkusha](http://www-maths.swan.ac.uk/staff/gg) and so on. There is also a class of reconstructions where for some derived categories a realization as derived categories of representation of quivers can be reconstructed.
 
-There is a large class of __abelian reconstruction theorems__, for example the [[Gabriel-Popescu theorem]]. In _topos theory_ the __[[Giraud theorem]]__ is also a reconstruction theorem (of a [[site]] out of a [[topos]], though a nonuniqueness of the resulting site is involved, not affecting cohomology, hence, according to Grothendieck, nonessential). 
+There is a large class of __abelian reconstruction theorems__, for example the [[Gabriel-Popescu theorem]]. In _topos theory_ the __[[Giraud theorem]]__ is also a reconstruction theorem (of a [[site]] out of a [[topos]], though a nonuniqueness of the resulting site is involved, not affecting cohomology, hence, according to Grothendieck, nonessential).
 
-## Lawvere's reconstruction theorem
+Examples:
 
-__[[Lawvere's reconstruction theorem]]__ reconstructs a Lawvere theory $C$ from its category of finitely generated free models. 
+- [[Freyd-Mitchell embedding theorem]]
+- [[Gabriel-Popescu embedding theorem]]
+- [[Quillen-Gabriel embedding theorem]]
 
 ## Gabriel-Ulmer duality
 
 [[Gabriel-Ulmer duality]] is an equivalence of 2-categories LFP of locally finitely presentable categories and Lex of finitely complete categories. It is related to syntax-semantics adjunction and to Tannaka type reconstruction for coalgebra-like objects, with which has a common generalization (enriched Tannaka duality of Day).  
 
+Gabriel–Ulmer duality has a generalisation to [[sound doctrines]]. For [[sifted colimits]] rather than [[filtered colimits]], this gives [[Lawvere's reconstruction theorem]].
+
 ## Heuristics
 
-Typically in the proofs of most reconstruction theorems an implicit use of the  Yoneda lemma is involved. Various embedding theorems of classes of categories (as well as theorems on realization as quotient categories) are closely related, e.g. [[Barr embedding theorem]] and [[Freyd-Mitchell embedding theorem]]. 
+Typically in the proofs of most reconstruction theorems an implicit use of the  Yoneda lemma is involved. Various embedding theorems of classes of categories (as well as theorems on realization as quotient categories) are closely related, e.g. [[Barr embedding theorem]] and [[Freyd-Mitchell embedding theorem]].
+
+Many of these examples are corollaries of the theory of _lex colimits_.
 
 
 ## References
@@ -97,6 +100,10 @@ Typically in the proofs of most reconstruction theorems an implicit use of the  
 * [[P. Deligne]], J. S. Milne, _Tannakian categories_, Lect. notes in math. 900, 101&#8211;228, Springer 1982.
 
 * A. Brugui&#232;res, _On a tannakian theorem due to Nori_, [pdf](http://imag.umontpellier.fr/~bruguieres/docs/ntan.pdf); _Th&#233;orie tannakienne non commutative_, Comm. Algebra __22__, 5817&#8211;5860, 1994 
+
+Lex colimits are discussed in:
+
+* [[Richard Garner]] and [[Stephen Lack]]. _Lex colimits_. Journal of Pure and Applied Algebra 216.6 (2012): 1372-1396.
 
 
 [[!redirects reconstruction theorems]]
