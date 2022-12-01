@@ -136,9 +136,10 @@ with a streamlined account in
 * [[Zhen Huan]], *Quasi-theories and their equivariant orthogonal spectra* &lbrack;[arXiv:1809.07622](https://arxiv.org/abs/1809.07622)&rbrack;
 
 
-For simply-connected [[compact Lie groups]]:
+For [[simply-connected topological space|simply-connected]] [[compact Lie groups]]:
 
-* {#Luecke19}  Kiran Luecke, _Completed K-theory and Equivariant Elliptic Cohomology_ &lbrack;[arXiv:1904.00085](https://arxiv.org/abs/1904.00085)&rbrack;
+* {#Luecke19}  [[Kiran Luecke]], *Completed K-theory and Equivariant Elliptic Cohomology*, Advances in Mathematics **410** B (2022) 108754 &lbrack;[arXiv:1904.00085](https://arxiv.org/abs/1904.00085), [doi:10.1016/j.aim.2022.108754](https://doi.org/10.1016/j.aim.2022.108754)&rbrack;
+
 
 For [[finite groups]]:
 
