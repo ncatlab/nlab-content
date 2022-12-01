@@ -22,7 +22,8 @@ Surveys:
 
 * {#Lurie} [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_, in:  _Algebraic Topology_, Abel Symposia Volume 4, 2009, pp 219-277 ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf), [doi:10.1007/978-3-642-01200-6_9](https://doi.org/10.1007/978-3-642-01200-6_9))
 
-* [[Charles Rezk]], _Elliptic cohomology and elliptic curves_, Felix Klein Lectures, Bonn  2015 ([web](http://www.hcm.uni-bonn.de/fkl-rezk), [pdf](https://faculty.math.illinois.edu/~rezk/felix-klein-lectures-notes.pdf), [[RezkElliptic2015.pdf:file]])
+* [[Charles Rezk]], _Elliptic cohomology and elliptic curves_, Felix Klein Lectures, Bonn  (2015) $[$[web](http://www.hcm.uni-bonn.de/fkl-rezk), [pdf](https://faculty.math.illinois.edu/~rezk/felix-klein-lectures-notes.pdf), [[RezkElliptic2015.pdf:file]], video rec: [part 1](https://youtu.be/eFzB_2fkOxY), [2](https://youtu.be/4e9e3AtK7yg), [3](https://youtu.be/ueL5dMH9JoI), [4](https://youtu.be/r_7SsIoU9No)$]$
+
 
 Textbook accounts:
 
@@ -35,8 +36,7 @@ Textbook accounts:
 
 On [[equivariant elliptic cohomology]] and [[positive energy representations]] of [[loop groups]]:
 
-* [[Eduard Looijenga]], _Root systems and elliptic curves_, Invent. Math.,
-38(1):17&#8211;32, 1976/77 ([doi:10.1007/BF01390167](https://doi.org/10.1007/BF01390167))
+* [[Eduard Looijenga]], _Root systems and elliptic curves_, Invent. Math. **38** 1 (1976/77) 17-32 &lbrack;[doi:10.1007/BF01390167](https://doi.org/10.1007/BF01390167)&rbrack;
 
 * {#Grojnowski94} [[Ian Grojnowski]], _Delocalised equivariant elliptic cohomology_ (1994), in: _Elliptic cohomology_, Volume 342 of London Math. Soc. Lecture Note Ser., pages 114&#8211;121. Cambridge Univ. Press, Cambridge, 2007 ([pdf](http://hopf.math.purdue.edu/Grojnowski/deloc.pdf), [doi:10.1017/CBO9780511721489.007]( https://doi.org/10.1017/CBO9780511721489.007))
 
