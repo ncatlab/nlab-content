@@ -46,6 +46,26 @@ $$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isPr
 Univalence:
 $$\frac{\Gamma \vdash A:\Omega \quad \Gamma \vdash B:\Omega} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
 
+### The type of booleans
+
+The **type of booleans** or **booleans type** is given by the following rules:
+
+Formation rules:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{bool} \; \mathrm{type}}$$
+
+Type reflection:
+$$\frac{\Gamma \vdash A:\mathrm{bool}}{\Gamma \vdash El(A) \; \mathrm{type}}$$
+
+Introduction rules:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{false}:\mathrm{bool}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash El(\mathrm{false}) \equiv \mathbb{0}}$$
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{true}:\mathrm{bool}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash El(\mathrm{true}) \equiv \mathbb{1}}$$
+
+Univalence:
+$$\frac{\Gamma \vdash A:\mathrm{bool} \quad \Gamma \vdash B:\mathrm{bool}} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
+
+Unlike a generic [[two-valued type]] defined as the [[sum type]] of two copies of the [[unit type]] or directly defined in terms of natural deduction rules, having a type of booleans is inconsistent with every type being an [[h-proposition]]. If $\mathrm{bool}$ were an h-proposition, that means that the identity type $\mathrm{false} = \mathrm{true}$ is pointed, and by [[transport]] across $\mathrm{El}$, there is an equivalence between the empty type and the unit type, which is a contradiction. 
+
 ### Other types of propositions
 
 We work in an [[intensional type theory]] with [[propositional truncations]] $\left[T\right]$ for types $T$. A **type of propositions** is a [[type]] $\Omega$ with a [[type family]] $T$ such that 
@@ -95,3 +115,13 @@ Detailed discussion of the type of propositions in [[Coq]] is in
 
 [[!redirects type of all propositions]]
 [[!redirects types of all propositions]]
+
+[[!redirects booleans type]]
+[[!redirects type of booleans]]
+
+[[!redirects type of decidable propositions]]
+[[!redirects types of decidable propositions]]
+[[!redirects type of all decidable propositions]]
+[[!redirects types of all decidable propositions]]
+
+[[!redirects decidable subset classifier]]
