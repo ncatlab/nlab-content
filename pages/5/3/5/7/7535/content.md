@@ -52,7 +52,7 @@ Exactness properties of a functor refer to preservation of limits or colimits of
 
 * Exact categories with pullback-stable [[reflexive coequalizers]] are an exactness notion.
 
-* The various types of [[additive and abelian categories]] can also be considered "exactness properties" in a looser sense, though they are not lex colimits in the formal sense.  See also [[AT-category]].
+* The various types of [[additive and abelian categories]] are [[Ab-enriched]] exactness properties. See also [[AT-category]].
 
 * A [[site]] can be considered as a category with "exactness [[structure]]", or as a way of specifying certain exactness conditions which ought to hold after "completion".  See [[postulated colimit]] and [[exact completion]].
 
