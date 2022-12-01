@@ -106,6 +106,8 @@ For more discussion see the [$n$-Cafe](http://golem.ph.utexas.edu/category/2007/
 
 * [stable model category -- as A-infinity algebroid module categories](stable+model+category#AsCategoriesOfModules)
 
+* [[reconstruction theorem]]
+
 ## References
 
 A standard textbook is
