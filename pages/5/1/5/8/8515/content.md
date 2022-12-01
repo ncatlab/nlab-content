@@ -112,3 +112,5 @@ $$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C \; \mathrm{type} \quad \Gamma, c:A 
 
 [[!redirects judgemental equality]]
 [[!redirects judgemental equalities]]
+
+[[!redirects judgmentally equal]]
