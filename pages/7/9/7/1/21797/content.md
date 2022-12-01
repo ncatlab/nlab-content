@@ -7,17 +7,30 @@
 
 On [[equivariant elliptic cohomology]] in the form of [[orbifold K-theory]] on [[Huan's inertia orbifolds]] (a form of [[twisted ad-equivariant Tate K-theory]]):
 
+
+
 * [[Zhen Huan]], _Quasi-elliptic cohomology_, 2017 ([hdl](http://hdl.handle.net/2142/97268))
+
+* [[Zhen Huan]], *Quasi-Elliptic Cohomology and its Power Operations*, J. Homotopy and Related Structures **13** (2018) 715–767 &lbrack;[arXiv:1612.00930](https://arxiv.org/abs/1612.00930), [doi:10.1007/s40062-018-0201-y](https://doi.org/10.1007/s40062-018-0201-y)&rbrack;
+
 
 * [[Zhen Huan]], *Quasi-elliptic cohomology and its Spectrum* ([arXiv:1703.06562](https://arxiv.org/abs/1703.06562))
 
 
 * {#Huan18} [[Zhen Huan]], _Quasi-Elliptic Cohomology I_, Advances in Mathematics, Volume 337, 15 October 2018, Pages 107-138 ([arXiv:1805.06305](https://arxiv.org/abs/1805.06305), [doi:10.1016/j.aim.2018.08.007](https://doi.org/10.1016/j.aim.2018.08.007))
 
+* [[Zhen Huan]], *Quasi-theories* &lbrack;[arXiv:1809.06651](https://arxiv.org/abs/1809.06651)&rbrack;
+
+* [[Zhen Huan]], *Quasi-theories and their equivariant orthogonal spectra* &lbrack;[arXiv:1809.07622](https://arxiv.org/abs/1809.07622)&rbrack;
+
+  > (via [[orthogonal spectra]])
+
 
 * [[Zhen Huan]], [[Matthew Spong]], *Twisted Quasi-elliptic cohomology and twisted equivariant elliptic cohomology* ([arXiv:2006.00554](https://arxiv.org/abs/2006.00554))
 
 * [[Zhen Huan]], [[Nathaniel Stapleton]], *Level structures on p-divisible groups from the Morava E-theory of abelian groups* ([arXiv:2001.10075](https://arxiv.org/abs/2001.10075))
+
+
 
 Generalized to [[twisted equivariant K-theory|twisted equivariant]] [[KR-theory]]:
 
