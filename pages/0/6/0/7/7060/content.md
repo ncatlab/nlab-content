@@ -46,6 +46,30 @@ $$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isPr
 Univalence:
 $$\frac{\Gamma \vdash A:\Omega \quad \Gamma \vdash B:\Omega} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
 
+### The type of all decidable propositions
+
+The type of all decidable propositions is given by the following rules:
+
+Formation rules:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \Omega \; \mathrm{type}}$$
+
+Type reflection:
+$$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash El(A) \; \mathrm{type}}$$
+
+Introduction rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A) \quad \Gamma \vdash \mathrm{lem}_A:A \vee \neg A}{\Gamma \vdash A_\Omega:\Omega}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A) \quad \Gamma \vdash \mathrm{lem}_A:A \vee \neg A}{\Gamma \vdash El(A_\Omega) \equiv A}$$
+
+Propositional truncation for each type reflection
+$$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(El(A))}$$
+
+Excluded middle for each type reflection
+$$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash \mathrm{lem}(A):El(A) \vee \neg El(A)}$$
+
+Univalence:
+$$\frac{\Gamma \vdash A:\Omega \quad \Gamma \vdash B:\Omega} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
+
 ### The type of booleans
 
 The **type of booleans** or **booleans type** is given by the following rules:
