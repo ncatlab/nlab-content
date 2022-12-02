@@ -429,7 +429,7 @@ Further resources:
 
 
 
-### As models for atomic nculei
+### As a model for atomic nculei
  {#ReferencesAsModelsForAtomicNuclei}
 
 Skyrmions modelling [[atomic nuclei]]:
@@ -456,7 +456,7 @@ For [[carbon]]:
 
 
 
-### As models for neutron stars
+### As a models for neutron star
 
 Discussion of [[model (in theoretical physics)|models]] of [[neutron stars]] by [[Skyrmions]]:
 
@@ -487,6 +487,8 @@ With [[higher curvature corrections]] included ([[Starobinsky model of cosmic in
 See also:
 
 * [[Mannque Rho]], _Fractionalized Quasiparticles and the Hadron-Quark Duality in Dense Baryonic Matter_ ([arXiv:2004.09082](https://arxiv.org/abs/2004.09082))
+
+* Christoph Adam, Alberto García Martín-Caro, Miguel Huidobro, Ricardo Vázquez, Andrzej Wereszczynski, *Kaon condensation in skyrmion matter and compact stars* &lbrack;[arXiv:2212.00385](https://arxiv.org/abs/2212.00385)&rbrack;
 
 
 
