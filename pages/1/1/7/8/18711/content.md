@@ -67,6 +67,9 @@ See also:
 
 * [[Mannque Rho]], _Fractionalized Quasiparticles and the Hadron-Quark Duality in Dense Baryonic Matter_ ([arXiv:2004.09082](https://arxiv.org/abs/2004.09082))
 
+* Christoph Adam, Alberto García Martín-Caro, Miguel Huidobro, Ricardo Vázquez, Andrzej Wereszczynski, *Kaon condensation in skyrmion matter and compact stars* &lbrack;[arXiv:2212.00385](https://arxiv.org/abs/2212.00385)&rbrack;
+
+
 
 
 ### Via holographic QCD
