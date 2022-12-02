@@ -46,7 +46,7 @@ Using extensionality, we obtain [[M-types]] from W-types.
 
 * Define [[higher inductive types]] in [[higher observational type theory]]. 
 
-* Does having [[propositional truncation]] in conjunction with the [[booleans]], both of which only have typal [[beta conversion]] rules, imply [[function extensionality]] in [[Martin-Löf type theory]]? If yes, does the above still hold if the [[function types]] only have a typal [[eta conversion]] rule? 
+* Is the [[propositional truncation]] of the [[two-valued type]], both of which only have typal [[computation rules]] rules, the [[interval type]]? The case with judgmental computation rules was done [here](https://www.cs.bham.ac.uk/~mhe/truncation-and-extensionality/hsetfunext.html). 
 
 ## Homotopy theory and algebraic topology
 
