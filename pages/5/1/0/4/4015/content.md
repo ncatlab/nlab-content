@@ -41,7 +41,7 @@ Every decidable bar is uniform.
 
 +-- {.un_theorem}
 ###### (Full) Fan Theorem
-Every bar is uniform. (In other words, if a collection of bitlists is decidable and barred, then it is also uniform.)
+Every bar is uniform. (In other words, if a collection of bitlists is barred, then it is also uniform.)
 =--
 
 Although the fan theorem is about bars, it is different from the [[bar theorem]], also known as "bar induction", which is related but stronger. The fan theorem discusses bars on lists of elements of $\mathbb{B}$; the bar theorem discusses bars on lists of elements of $\mathbb{N}$.
