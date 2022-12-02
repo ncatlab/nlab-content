@@ -106,7 +106,7 @@ where $\mathrm{trans}_B^q:B[a_0/x] \to B[a_1/x]$ is [[transport]], $\mathrm{ap}_
 
 Postulating an interval type with [[judgmental equality|judgmental]] [[computation rules]] for the point constructors of the interval type implies [[function extensionality]]. ([Shulman](#Shulman)). 
 
-The proof assumes the [[uniqueness rule]] for [[function types]]. First it constructs a function $k:A \to (\mathbb{I} \to B)$ from a dependent function $h:\prod_{x:A} f(x) =_B g(x)$, inductively defined by
+The proof assumes a typal [[uniqueness rule]] for [[function types]]. First it constructs a function $k:A \to (\mathbb{I} \to B)$ from a dependent function $h:\prod_{x:A} f(x) =_B g(x)$, inductively defined by
 
 * $\beta_{k(x)}^0:k(x)(0) =_B f(x)$
 * $\beta_{k(x)}^1:k(x)(1) =_B g(x)$
@@ -118,15 +118,13 @@ Then it uses the properties of function types, product types, currying, uncurryi
 * $\beta_{k'}^1(x):k'(1)(x) =_B g(x)$
 * $\beta_{k'}^p(x):\mathrm{ap}_{k'}(p)(x) =_{k'(0)(x) =_B k'(1)(x)} \mathrm{concat}_{k'(0)(x), f(x), k'(1)(x)}(\mathrm{concat}_{k'(0)(x), f(x), g(x)}(\beta_{k'}^0(x), h(x)), \mathrm{inv}_{k'(1)(x), g(x)}(\beta_{k'}^1(x)))$
 
-If the interval type has judgmental computation rules for the point constructors, the above simplifies to 
+If the interval type has judgmental computation rules for the point constructors, then $k'(x)(0) \equiv f(x)$ and $k'(x)(1) \equiv g(x)$ for all $x:A$, which implies that $k'(0)(x) \equiv f(x)$ and $k'(1)(x) \equiv g(x)$ for all $x:A$, and subsequently that $k'(0) \equiv f$ and $k'(1) \equiv g$. This means that there are identities $\beta_{k'}^0:k'(0) =_{A \to B} f$ and $\beta_{k'}^1:k'(1) =_{A \to B} g$, and an identity 
 
-* $k'(0)(x) \equiv f(x)$
-* $k'(1)(x) \equiv g(x)$
-* $\mathrm{ap}_{k'}(p)(x) =_{f(x) =_B g(x)} h(x)$
+$$\mathrm{concat}_{f, k'(1), g}(\mathrm{concat}_{f, k'(0), k'(1)}(\mathrm{inv}_{k'(0), g}(\beta_{k'}^0), \mathrm{ap}_{k'}(p), \beta_{k'}^1):f =_{A \to B} g$$
 
-Finally it use the [[judgmental equality]] in the [[computation rules]] for the interval type and the [[uniqueness rule]] for function types to construct an identity $h':f =_{A \to B} g$. Since $k'(0)(x) \equiv f(x)$ and $k'(1)(x) \equiv g(x)$ for all $x:A$, this means that $k'(0) \equiv f$ and $k'(1) \equiv g$ and there is an identity $\mathrm{ap}_{k'}(p):f =_{A \to B} g$. 
+thus proving function extensionality. 
 
-An interval type with only typal computation rules for left and right does not imply function extensionality. This is because the proof with the judgmental computation rules uses the fact that $k'(0)(x) \equiv f(x)$ and $k'(1)(x) \equiv g(x)$ for all $x:A$ implies that $k'(0) \equiv f$ and $k'(1) \equiv g$. However, if the computation rules are typal, then the equivalent statement is $k'(0)(x) =_B f(x)$ and $k'(1)(x) =_B g(x)$ for all $x:A$ implies that $k'(0) =_{A \to B} f$ and $k'(1) =_{A \to B} g$, which is precisely [[function extensionality]], and so cannot be used to prove function extensionality. 
+An interval type with only typal computation rules for the point constructors does not imply function extensionality. This is because the proof with the judgmental computation rules uses the fact that $k'(0)(x) \equiv f(x)$ and $k'(1)(x) \equiv g(x)$ for all $x:A$ implies that $k'(0) \equiv f$ and $k'(1) \equiv g$. However, if the computation rules are typal, then the equivalent statement is that having identities $\beta_{k'}^0(x):k'(0)(x) =_B f(x)$ and $\beta_{k'}^1(x):k'(1)(x) =_B g(x)$ for all $x:A$ implies that there are identities $\beta_{k'}^0:k'(0) =_{A \to B} f$ and $\beta_{k'}^1:k'(1) =_{A \to B} g$, which is precisely [[function extensionality]], and so cannot be used to prove function extensionality. 
 
 ## Related concepts
 
@@ -146,10 +144,10 @@ An interval type with only typal computation rules for left and right does not i
 
 ## References
 
-* [[Mike Shulman]], _An interval type implies functional extensionality_ ([blog post](http://homotopytypetheory.org/2011/04/04/an-interval-type-implies-function-extensionality/))
- {#Shulman}
+Proofs of [[function extensionality]] using an interval type with [[judgmental equality|judgmental]] [[computation rules]] for point constructors could be found here
 
-Another proof that the interval type with definitional [[eta-conversion]] rules for point constructors could be found here
+* [[Mike Shulman]], _An interval type implies functional extensionality_ ([blog post](http://homotopytypetheory.org/2011/04/04/an-interval-type-implies-function-extensionality/))
+ {#Shulman11}
 
 * Carlo Angiuli, _Univalence implies function extensionality_ ([blog](http://homotopytypetheory.org/2011/12/05/hott-in-prose/), [pdf](http://hottheory.files.wordpress.com/2011/12/hott2.pdf))
 
