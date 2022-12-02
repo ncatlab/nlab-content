@@ -801,7 +801,9 @@ On the [[deep learning]] algorithm on [[neural networks]] as analogous to the [[
 
 * [[Koji Hashimoto]], Sotaro Sugishita, Akinori Tanaka, Akio Tomiya, _Deep Learning and AdS/CFT_,  Phys. Rev. D 98, 046019 (2018) ([arxiv:1802.08313](https://arxiv.org/abs/1802.08313))
 
+### Philosophy of AdS/CFT
 
+* Radin Dardashti, Richard Dawid, Sean Gryb, Karim Thébault (2020). *On the Empirical Consequences of the AdS/CFT Duality*. In Nick Huggett, Keizo Matsubara, and Christian Wüthrich (Eds.), Beyond Spacetime: The Foundations of Quantum Gravity (pp. 284-303). Cambridge: Cambridge University Press. ([doi:10.1017/9781108655705.016](https://doi.org/10.1017/9781108655705.016), [arXiv:1810.00949](https://arxiv.org/abs/1810.00949))
 
 [[!redirects AdS/CFT]]
 
