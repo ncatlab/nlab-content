@@ -76,6 +76,8 @@ Uniqueness rules for the interval type:
 
 * An interval type is provably [[contractible type|contractible]].  Conversely, any contractible type satisfies the rules of an interval type up to propositional equality.
 
+* An interval type is the [[propositional truncation]] of the [[two-valued type]] $\mathbb{2}$. If both propositional truncations and the two-valued type have [[judgmental equality|judgmental]] [[computation rules]], the the interval type also has judgmental computation rules. See ([this file](https://www.cs.bham.ac.uk/~mhe/truncation-and-extensionality/hsetfunext.html))
+
 * An interval type is a [[suspension type]] of the [[unit type]], and the suspension of an interval type is a 2-[[globe]] type. 
 
 * An interval type is a [[cone type]] of the unit type.
