@@ -32,6 +32,8 @@ Let $X$ be a [[modular curve]] and let $X^{\rig}$ be its associated [[rigid anal
 
 * [[eigenvariety]]
 
+* [[Hida theory]]
+
 ## References
 
 * {#Calegari13} Frank Calegari, _Congruences Between Modular Forms_, 2013 ([pdf](https://swc-math.github.io/aws/2013/2013CalegariLectureNotes.pdf))
