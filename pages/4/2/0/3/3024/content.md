@@ -3,6 +3,18 @@
 * automatic table of contents goes here
 {:toc}
 
+## Description
+
+In their 1939 paper, Myers and Steenrod
+proved two theorems on [[Riemannian manifolds]].
+
+The first theorem shows that distance-preserving maps between Riemannian manifolds are differentiable isometries.
+
+In 1956 Palais simplified the proof and extended the result to show that a Riemannian manifold can be reconstructed from its [[metric space]].
+That is to say, the functor that sends Riemannian manifolds and isometries to metric spaces and isometries is a [[fully faithful functor]].
+
+The second theorem proves that the group of isometries of a Riemannian manifold is a [[Lie group]].
+
 ## Idea
 
 Recall that an [[isometry]] between two [[Riemannian manifolds]] $(M,g), (N,h)$ is a [[diffeomorphism]] $\phi: M \to N$ such that $\phi^* h = g$.  In other words, $\phi$ respects the Riemannian structure as well as the differentiable structure.  
@@ -91,6 +103,23 @@ while
 \[ l(\exp_p(c)) = \int | (\exp_p)_{*c(t)} c'(t) |_{\exp_p(c(t))} \]
 where in the second equation we are referring to the norms induced by the metric on the various tangent spaces of $M$.
 The difference between these two is $o(l(c))$, because $\exp_p$ has derivative the identity at $0 \in T_p(M)$, and the metric on $T_{\exp_p(c(t))}(M)$ is very close (say by a factor of $1 \pm \epsilon$) to that of $T_p(M)$ if we work in local coordinates and agree to identify the tangent spaces.
+
+
+## Related concepts
+
+* [[Riemannian manifold]]
+
+* [[Lie group]]
+
+* [[isometry]]
+
+## References
+
+* [[S. B. Myers]], [[N. E. Steenrod]], _The Group of Isometries of a Riemannian Manifold_, The Annals of Mathematics 40:2 (1939), 400–416.  [doi](http://dx.doi.org/10.2307/1968928).
+
+A simplified proof that isometries are differentiable is given by
+
+* [[Richard S. Palais]], _On the differentiability of isometries_, Proceedings of the American Mathematical Society 8:4 (1956), 805–807.  [doi](http://dx.doi.org/10.1090/s0002-9939-1957-0088000-x).
 
 
 [[!redirects Myers–Steenrod theorem]]
