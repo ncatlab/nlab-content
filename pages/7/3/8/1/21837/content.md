@@ -1,5 +1,6 @@
 
 
+
 ### Elliptic genera as super $p$-brane partition functions
   {#EllipticGeneraAsBranePartitionFunctionsReferences}
 
@@ -53,7 +54,11 @@ based on [[chiral differential operators]]:
 
 Tentative interpretation as [[indices]] of [[Dirac-Ramond operators]] as would-be [[Dirac operators on smooth loop space]]:
 
-* {#Witten87b} [[Edward Witten]], _The Index Of The Dirac Operator In Loop Space_, Proc. of Conf. on Elliptic Curves and Modular Forms in Algebraic Topology Princeton (1986) ([spire:245523](http://inspirehep.net/record/245523), [doi:10.1007/BFb0078045]( https://doi.org/10.1007/BFb0078045))
+* {#Witten87b} [[Edward Witten]], *The Index Of The Dirac Operator In Loop Space*, in: *Elliptic Curves and Modular Forms in Algebraic Topology*, Lecture Notes in Mathematics **1326**, Springer (1988) 161-181 &lbrack;[doi:10.1007/BFb0078045](https://doi.org/10.1007/BFb0078045), [spire](http://inspirehep.net/record/245523)&rbrack;
+
+  originating from:
+  
+  [[Edward Witten]], p. 92-94 in: *Global anomalies in string theory*, in: W. Bardeen and A. White (eds.) *[Symposium on Anomalies, Geometry, Topology](https://inspirehep.net/conferences/965785?ui-citation-summary=true)*, World Scientific (1985) 61-99 &lbrack;[[WittenGlobalAnomaliesInStringTheory.pdf:file]], [spire:214913](https://inspirehep.net/literature/214913)&rbrack;
 
 * {#AlvarezKillingbackManganoWindey87} [[Orlando Alvarez]], T. P. Killingback, Michelangelo Mangano, [[Paul Windey]], _The Dirac-Ramond operator in string theory and loop space index theorems_, Nuclear Phys. B Proc. Suppl., 1A:189&#8211;215, 1987, in: _Nonperturbative methods in field theory_, 1987 (<a href="https://doi.org/10.1016/0920-5632(87)90110-1">doi"10.1016/0920-5632(87)90110-1</a>)
 
