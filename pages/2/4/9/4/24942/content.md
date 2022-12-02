@@ -32,6 +32,8 @@ Let $\mathcal{X}$ be the set of $\overline{\mathbb{Q}}_{p}$-valued points in $\S
 
 * [[p-adic modular form]]
 
+* [[Hida theory]]
+
 ## References
 
 * {#Emerton09} Matthew Emerton, _p-adic Families of Modular Forms_, 2009 ([pdf](http://www.math.uchicago.edu/~emerton/pdffiles/padic.pdf))
