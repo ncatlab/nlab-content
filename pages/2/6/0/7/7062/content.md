@@ -92,6 +92,10 @@ Every [[identity]] $q:a =_A b$ between two terms $a:A$ and $b:A$ of a type $A$ h
 
 where $\mathrm{ap}_f:(0 =_\mathbb{I} 1) \to (f(0) =_A f(1))$ is the [[action on identities]], $\mathrm{concat}_{a, b, c}:(a =_A b) \times (b =_A c) \to (a =_A c)$ is concatenation of identities (i.e. [[transitivity]]), and $\mathrm{inv}_{a, b}:(a =_A b) \to (b =_A a)$ is the inverse of identities (i.e. [[symmetry]]).
 
+Conversely, given a function $f:\mathbb{I} \to A$ and terms $a:A$ and $b:A$ with identities $\delta_a:f(0) =_A a$ and $\delta_b:f(1) =_A b$, there is an identity 
+
+$$\mathrm{concat}_{a, f(1), b}(\mathrm{concat}_{a, f(0), f(1)}(\mathrm{inv}_{f(0), a}(\delta_a), \mathrm{ap}_{f}(p)), \delta_b):a =_{A} b$$
+
 ### Relation to dependent identity types
 
 Given a type $A$, a dependent type $x:A \vdash B$, terms $a_0:A$ and $a_1:A$, identity $q:a_0 =_A a_1$, terms $b_0:B[a_0/x]$ and $b_1:B[a_1/x]$, and [[dependent identity]] $r:b_0 =_B^q b_1$, let us inductively define the dependent function $f:\prod_{x:\mathbb{I}} B(x)$ by
@@ -120,7 +124,7 @@ Then it uses the properties of function types, product types, currying, uncurryi
 
 If the interval type has judgmental computation rules for the point constructors, then $k'(x)(0) \equiv f(x)$ and $k'(x)(1) \equiv g(x)$ for all $x:A$, which implies that $k'(0)(x) \equiv f(x)$ and $k'(1)(x) \equiv g(x)$ for all $x:A$, and subsequently that $k'(0) \equiv f$ and $k'(1) \equiv g$. This means that there are identities $\beta_{k'}^0:k'(0) =_{A \to B} f$ and $\beta_{k'}^1:k'(1) =_{A \to B} g$, and an identity 
 
-$$\mathrm{concat}_{f, k'(1), g}(\mathrm{concat}_{f, k'(0), k'(1)}(\mathrm{inv}_{k'(0), g}(\beta_{k'}^0), \mathrm{ap}_{k'}(p), \beta_{k'}^1):f =_{A \to B} g$$
+$$\mathrm{concat}_{f, k'(1), g}(\mathrm{concat}_{f, k'(0), k'(1)}(\mathrm{inv}_{k'(0), f}(\beta_{k'}^0), \mathrm{ap}_{k'}(p)), \beta_{k'}^1):f =_{A \to B} g$$
 
 thus proving function extensionality. 
 
