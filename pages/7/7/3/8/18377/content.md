@@ -9,7 +9,7 @@ A **pseudo-distributive law** is a vertical [[categorification]] of a [[distribu
 
 ## Definition
 
-See any of the references, particularly [(CHP)](#CHP)
+See any of the references, particularly [(Walker)](#Decagons), who simplified the definition of Marmolejo (reducing from 8 conditions to 5).
 
 ## Examples
 
@@ -45,6 +45,8 @@ See any of the references, particularly [(CHP)](#CHP)
 
 * Charles Walker, *Distributive laws via admissibility*, [arXiv:1706.09575](https://arxiv.org/abs/1706.09575)
  {#Walker}
+
+* Charles Walker. _Distributive laws, pseudodistributive laws and decagons_. arXiv preprint arXiv:2102.12468 (2021). {#Decagons}
 
 [[!redirects pseudo-distributive laws]]
 [[!redirects pseudodistributive law]]
