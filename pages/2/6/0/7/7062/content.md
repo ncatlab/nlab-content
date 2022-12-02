@@ -72,11 +72,30 @@ $$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C
 Uniqueness rules for the interval type:
 ...
 
+### Using a function from the two-valued type
+
+The interval type is defined by the following rules:
+
+Formation rules for the interval type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{I} \; \mathrm{type}}$$
+
+Introduction rules for the interval type:
+$$\frac{\Gamma \vdash a:\mathbb{2}}{\Gamma \vdash j(a):\mathbb{I}} \qquad \frac{\Gamma \vdash 0:\mathbb{2} \quad \Gamma \vdash 1:\mathbb{2}}{\Gamma \vdash p:j(0) =_\mathbb{I} j(1)}$$
+
+Elimination rules for the interval type:
+$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma, a:\mathbb{2} \vdash c:C[j(a)/x] \quad \Gamma \vdash 0:\mathbb{2} \quad \Gamma \vdash 1:\mathbb{2} \quad \Gamma \vdash c_p:\mathrm{trans}^C(p)(c[j(0)/x]) =_{C[j(1)/x]} c[j(1)/x] \quad \Gamma \vdash i:\mathbb{I}}{\Gamma \vdash \mathrm{ind}_\mathbb{I}^C(i, c[j(0)/x], c[j(1)/x], c_p):C[p/x]}$$
+
+Computation rules for the interval type:
+$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma, a:\mathbb{2} \vdash c:C[j(a)/x] \quad \Gamma \vdash 0:\mathbb{2} \quad \Gamma \vdash 1:\mathbb{2} \quad \Gamma \vdash c_p:\mathrm{trans}^C(p)(c[j(0)/x]) =_{C[j(1)/x]} c[j(1)/x]}{\Gamma, a:\mathbb{2} \vdash \beta_\mathbb{I}^{j}:\mathrm{ind}_\mathbb{I}^{C}(j(a), c[j(0)/x], c[j(1)/x], c_p) =_{C[j(a)/x]} c[j(a)/x]}$$
+
+$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma, a:\mathbb{2} \vdash c:C[j(a)/x] \quad \Gamma \vdash 0:\mathbb{2} \quad \Gamma \vdash 1:\mathbb{2} \quad \Gamma \vdash c_p:\mathrm{trans}^C(p)(c[j(0)/x]) =_{C[j(1)/x]} c[j(1)/x]}{\Gamma \vdash \beta_\mathbb{I}^{p}: \mathrm{apd}_{(\lambda y.\mathrm{ind}_\mathbb{I}^{C}(y, c[j(0)/x], c[j(1)/x], c_p))}(p) =_{\mathrm{trans}^C(p)(c[j(0)/x]) =_{C[j(1)/x]} c[j(1)/x]} c_p}$$
+
+Uniqueness rules for the interval type:
+...
+
 ## Properties
 
 * An interval type is provably [[contractible type|contractible]].  Conversely, any contractible type satisfies the rules of an interval type up to propositional equality.
-
-* An interval type is the [[propositional truncation]] of the [[two-valued type]] $\mathbb{2}$. If both propositional truncations and the two-valued type have [[judgmental equality|judgmental]] [[computation rules]], the the interval type also has judgmental computation rules. See ([this file](https://www.cs.bham.ac.uk/~mhe/truncation-and-extensionality/hsetfunext.html))
 
 * An interval type is a [[suspension type]] of the [[unit type]], and the suspension of an interval type is a 2-[[globe]] type. 
 
@@ -131,6 +150,34 @@ $$\mathrm{concat}_{f, k'(1), g}(\mathrm{concat}_{f, k'(0), k'(1)}(\mathrm{inv}_{
 thus proving function extensionality. 
 
 An interval type with only typal computation rules for the point constructors does not imply function extensionality. This is because the proof with the judgmental computation rules uses the fact that $k'(0)(x) \equiv f(x)$ and $k'(1)(x) \equiv g(x)$ for all $x:A$ implies that $k'(0) \equiv f$ and $k'(1) \equiv g$. However, if the computation rules are typal, then the equivalent statement is that having identities $\beta_{k'}^0(x):k'(0)(x) =_B f(x)$ and $\beta_{k'}^1(x):k'(1)(x) =_B g(x)$ for all $x:A$ implies that there are identities $\beta_{k'}^0:k'(0) =_{A \to B} f$ and $\beta_{k'}^1:k'(1) =_{A \to B} g$, which is precisely [[function extensionality]], and so cannot be used to prove function extensionality. 
+
+### Relation to propositional truncations
+
+An interval type is the [[propositional truncation]] of the [[two-valued type]] $\mathbb{2}$. We use the definition of an interval type using a function from $\mathbb{2}$. Since the interval type has identities 
+
+* $\mathrm{refl}_\mathbb{I}(j(0)):j(0) =_\mathbb{I} j(0)$, 
+* $p:j(0) =_\mathbb{I} j(1)$, 
+* $\mathrm{inv}_{j(0), j(1)}(p):j(1) =_\mathbb{I} j(0)$,
+* $\mathrm{refl}_\mathbb{I}(j(1)):j(1) =_\mathbb{I} j(1)$, 
+
+there is a dependent function 
+$$f:\prod_{a:\mathbb{2}} \prod_{b:\mathbb{2}} j(a) =_\mathbb{I} j(b)$$
+inductively defined by the identities
+$$\beta_{f}(0, 0):f(0)(0) =_{j(0) =_\mathbb{I} j(0)} \mathrm{refl}_\mathbb{I}(j(0))$$ 
+$$\beta_{f}(0, 1):f(0)(1) =_{j(0) =_\mathbb{I} j(1)} p$$ 
+$$\beta_{f}(1, 0):f(1)(0) =_{j(1) =_\mathbb{I} j(0)} \mathrm{inv}_{j(0), j(1)}(p)$$ 
+$$\beta_{f}(1, 1):f(1)(1) =_{j(1) =_\mathbb{I} j(1)} \mathrm{refl}_\mathbb{I}(j(1))$$
+
+If [[dependent product types]] have [[judgmental equality|judgmental]] [[computation rules]], then the above becomes
+
+$$f(0)(0) \equiv \mathrm{refl}_\mathbb{I}(j(0)):j(0) =_\mathbb{I} j(0)$$ 
+$$f(0)(1) \equiv p:j(0) =_\mathbb{I} j(1)$$ 
+$$f(1)(0) \equiv \mathrm{inv}_{j(0), j(1)}(p):j(1) =_\mathbb{I} j(0)$$ 
+$$f(1)(1) \equiv \mathrm{refl}_\mathbb{I}(j(1)):j(1) =_\mathbb{I} j(1)$$
+
+Both show that the interval type is the propositional truncation of the two-valued type. 
+
+If both propositional truncations and the two-valued type have [[judgmental equality|judgmental]] [[computation rules]], the the interval type also has judgmental computation rules. See ([this file](https://www.cs.bham.ac.uk/~mhe/truncation-and-extensionality/hsetfunext.html))
 
 ## Related concepts
 
