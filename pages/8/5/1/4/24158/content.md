@@ -46,8 +46,6 @@ Using extensionality, we obtain [[M-types]] from W-types.
 
 * Define [[higher inductive types]] in [[higher observational type theory]]. 
 
-* Does having an [[interval type]] with only typal [[beta conversion]] rules imply [[function extensionality]] in [[Martin-Löf type theory]]? If yes, does the above still hold if the [[function types]] only have a typal [[eta conversion]] rule? 
-
 * Does having [[propositional truncation]] in conjunction with the [[booleans]], both of which only have typal [[beta conversion]] rules, imply [[function extensionality]] in [[Martin-Löf type theory]]? If yes, does the above still hold if the [[function types]] only have a typal [[eta conversion]] rule? 
 
 ## Homotopy theory and algebraic topology
@@ -199,3 +197,5 @@ OK, here's the rule: if it was stated here (or on the UF-wiki) as an open proble
 
 * Define the Whitehead product.
 Guillaume Brunerie did this in 2017, written up in [this paper](https://arxiv.org/abs/1710.10307). He also gives a constructive proof of $\pi_4( S^3)= Z/n Z$ for some $n$ and a construction of the [reduced James product](https://ncatlab.org/nlab/show/EHP+spectral+sequence#via_the_james_model) as a HIT and a homotopy colimit. It is also proven that $\Omega \Sigma X \simeq J(X)$ for some pointed connected type $X$. All of these constructions can be found in detail in [his thesis](https://arxiv.org/abs/1606.05916).
+
+* Does having an [[interval type]] with only typal [[beta conversion]] rules imply [[function extensionality]] in [[Martin-Löf type theory]]? If yes, does the above still hold if the [[function types]] only have a typal [[eta conversion]] rule? Answered in the negative in [this section about the relation between the interval type and function extensionality](https://ncatlab.org/nlab/show/interval+type#relation_to_function_extensionality): where judgmental beta conversion was used in the original proof becomes function extensionality in the typal case, resulting in circularity. 
