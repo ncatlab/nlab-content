@@ -180,6 +180,7 @@ for which $f(x) = y$. This is the ordinary notion of [[graph of a function]].
 
 * **graph of a functor**, [[cograph of a functor]]
 * [[cograph of a profunctor]]
+* [[tabulator]]
 
 [[!redirects graphs of a functor]]
 [[!redirects graphs of functors]]
