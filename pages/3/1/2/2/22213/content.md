@@ -1,6 +1,6 @@
 ## Idea
 
-A tabulator is a kind of [[limit]] in a double category generalizes the notion of the [[graph of a profunctor]]. Dually, a cotabulator generalizes the [[cograph of a profunctor]].
+A tabulator is a kind of [[limit]] in a double category generalizes the notion of the [[graph of a profunctor]] (also called the _cocollage_). Dually, a cotabulator generalizes the [[cograph of a profunctor]] (also called the _collage_).
 
 ## Definition
 
@@ -19,3 +19,5 @@ and the 2-cell $\pi$ yields $\pi'$.
 * [[Marco Grandis]], _Higher Dimensional Categories.  From Double to Multiple Categories_, [doi](https://doi.org/10.1142/11406)
 
 [[!redirects tabulators]]
+[[!redirects cotabulator]]
+[[!redirects cotabulators]]
