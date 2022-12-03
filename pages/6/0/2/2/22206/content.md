@@ -5,10 +5,6 @@
 +-- {: .hide}
 [[!include foundations - contents]]
 =--
-#### 2-category theory
-+-- {: .hide}
-[[!include 2-category theory - contents]]
-=--
 =--
 =--
 
@@ -18,21 +14,15 @@
 
 ## Idea
 
-(...)
+A **first-order set theory** is a [[set theory]] which is a [[first-order theory]]. These include [[unsorted set theories]] like [[ZFC]] and [[fully formal ETCS]], [[simply sorted set theories]] like the two-sorted presentation of [[ETCS]], and [[dependently sorted set theories]] like the usual presentation of [[ETCS]] and [[SEAR]]. 
+
+It contrasts with other approaches to [[set theory]] which are not first-order theories, such as [[set-level type theories]] like [[XTT]] or [[Martin-Löf type theory]] with a [[type of all propositions]] and [[UIP]]/[[axiom K]], all of which could be considered to be set theories. 
 
 ## Related concepts
 
 * [[predicate logic]]
 
-* [[structural set theory]]
-
-  * [[zeroth-order set theory]]
-
-  * __first-order set theory__
-
-  * [[higher-order set theory]]
-
-
+* [[set-level type theory]]
 
 ## References
 
