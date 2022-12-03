@@ -41,7 +41,7 @@ For $G$ a [[discrete group]] (often taken to be a [[finite group]]) and for $A$ 
   \;\;\;
     \simeq
   \;
-  \underset{
+  \undrset{
     [g] \in G^{ad}/G
   }{\oplus}
   H^n_{grp}\big(C_g;\, A \big)
@@ -196,7 +196,7 @@ We denote (using the same symbols for [[derived functors]] as for the original [
     \label{DerivedFreeSimplicialAbelianGroupAdjunction}
     Ho(sAb)
       \underoverset
-       {\underset{frgt}{\longrightarrow}}
+       {\underset{undrlg}{\longrightarrow}}
        {\overset{\mathbb{Z}(-)}{\longleftarrow}}
        {\;\;\;\;\;\;\bot\;\;\;\;\;\;}
     Ho(sSet)
@@ -274,14 +274,14 @@ $$
     \bullet
     \xrightarrow{g_{n-1}}
     \bullet
-    \xrightarrow{\;}
+    \xrightarrow{\phantom{--}}
     \cdots
     \bullet
-    \xrightarrow{\;}
+    \xrightarrow{\phantom{--}}
     \bullet
-    \xrightarrow{g_1}
+    \xrightarrow{\; g_1 \;}
     \bullet
-    \xrightarrow{g_0}
+    \xrightarrow{\; g_0 \;}
     \bullet
     \;\big\vert\;
     g_i \in G
@@ -291,7 +291,7 @@ $$
 
 \end{remark}
 
-We denote the [[image]] of $\overline{W}G$ in the [[classical homotopy category]] by (the first equality reflects that $G$ is assumed to be [[discrete group|discrete]]):
+We denote the [[image]] of $\overline{W}G$ in the [[classical homotopy category]] by:
 
 $$
   B G
@@ -306,8 +306,9 @@ $$
   \in
   \;
   Ho(sSet)
-  \,.
 $$
+
+(where the first equality reflects that $G$ is assumed to be [[discrete group|discrete]]).
 
 
 
@@ -383,7 +384,7 @@ $$
 $$
   H^n_{grp}(G;\, A)
   \;\simeq\;
-  H^n(B G,\, B^A)
+  H^n(B G;\, A)
   \,.
 $$
 
@@ -407,8 +408,8 @@ $$
     & \;\simeq\;
     Ho(sAb)
     \big(
-      \mathbb{Z}(\overline{W}G),
-      \,
+      \mathbb{Z}(\overline{W}G)
+      ,\,
       DK(A[n])
     \big)
     \\
@@ -416,15 +417,15 @@ $$
     Ho(sSet)
     \big(
       \overline{W}G
-      \,
-      frgt \circ DK(A[n])
+      ,\,
+      undrlng \circ DK(A[n])
     \big)
     \\
     & \;=\;
     Ho(sSet)
     \big(
       B G
-      \,
+      ,\,
       B^n A
     \big)
     \\
@@ -462,7 +463,7 @@ $$
 
 ### Products of simplices
 
-Some fundamental fact about [[products of simplicial sets]]:
+Some basic facts about [[products of simplicial sets]]:
 
 \begin{proposition}\label{NonDegenerateSimplicesInProductOfSimplices}
 **(non-degenerate $(p+q)$-simplices in $\Delta[p] \times \Delta[q]$)**
@@ -640,9 +641,9 @@ $$
 This follows by immediate inspection. For more discussion see at *[[free loop space of a classifying space]]* the section *[Examples -- For finite groups](free+loop+space+of+classifying+space#ExampleDiscreteGroups)*.
 
 
-\begin{proposition}
-The [[groupoid convolution algebra]] of the inertia groupoid of the [[delooping groupoid]] $\mathbf{B}G$ is the [[Drinfeld double]] of the [[group convolution algebra]] of $G$.
-\end{proposition}
+\begin{remark}
+The [[groupoid convolution algebra]] of the [[inertia groupoid]] of the [[delooping groupoid]] $\mathbf{B}G$ is the [[Drinfeld double]] (see there for more) of the [[group algebra]] of $G$.
+\end{remark}
 
 
 
@@ -701,7 +702,7 @@ $$
 
 The following proposition follows on abstract grounds, but the explicit component-based proof we give is necessary in order to understand the [[transgression]]-formula for [[cocycles]] in the [[group cohomology]] of $G$ to cocycles on the inertia groupoid.
 \begin{proposition}\label{RelationToSimplicialHomComplexIntoClassifyingSpace}
-The [[nerve]] of the inertia groupoid of a delooping groupoid of a [[finite group]] $G$ is [[isomorphism|isomorphic]] to the [[simplicial hom complex]] out of the [[minimal simplicial circle]] $S$ (Def. \ref{MinimalSimplicialCircle}) into the [[simplicial classifying space]] $\overline{W}G$ (Rem. \ref{DeloopingGroupoidAndSimplicialClassifyingSpaceOfFiniteGroup}):
+The [[nerve]] of the [[inertia groupoid]] of a [[delooping groupoid]] of a [[finite group]] $G$ is [[isomorphism|isomorphic]] to the [[simplicial hom complex]] out of the [[minimal simplicial circle]] $S$ (Def. \ref{MinimalSimplicialCircle}) into the [[simplicial classifying space]] $\overline{W}G$ (Rem. \ref{DeloopingGroupoidAndSimplicialClassifyingSpaceOfFiniteGroup}):
 
 $$
   N\big( \Lambda \mathbf{B}G\big)_\bullet
@@ -976,7 +977,7 @@ the following [[composition|composite]] of is a [[simplicial weak equivalence]]
     \big[
       S, 
       \,
-      frgt \circ DK(A[n])
+      undrlng \circ DK(A[n])
     \big]_\bullet
     \\
     &
@@ -985,7 +986,7 @@ the following [[composition|composite]] of is a [[simplicial weak equivalence]]
     \big(
       S \times \Delta[\bullet],
       \,
-      frgt \circ DK(A[n])
+      undrlng \circ DK(A[n])
     \big)
     \\
     & \;\simeq\;
@@ -1020,7 +1021,7 @@ the following [[composition|composite]] of is a [[simplicial weak equivalence]]
     \\
     & \;\simeq\;
     \Big(
-    frgt \circ DK
+    undrlng \circ DK
     \big(
       [
         \underset{
@@ -1038,7 +1039,7 @@ the following [[composition|composite]] of is a [[simplicial weak equivalence]]
     \\
     & \;\simeq\;
     \Big(
-    frgt \circ DK
+    undrlng \circ DK
     \big(
       A[n] \oplus A[n-1]
     \big)
@@ -1088,7 +1089,7 @@ Consider the following sequence of [[natural isomorphisms]] of [[hom-sets]] of t
     \;\simeq\;
     Ho(sSet)
     \big(
-      \overline{W}G, \, frgt \circ DK\big( A[n] \big)
+      \overline{W}G, \, undrlng \circ DK\big( A[n] \big)
     \big)
     \\
     =
@@ -1100,7 +1101,7 @@ Consider the following sequence of [[natural isomorphisms]] of [[hom-sets]] of t
     \;\overset{[S,-]}{\to}\;
     Ho(sSet)
     \Big(
-      [S,\overline{W}G],\, \, \big[S, frgt \circ DK\big( A[n] \big)\big]
+      [S,\overline{W}G],\, \, \big[S, undrlng \circ DK\big( A[n] \big)\big]
     \Big)
     \\
     & 
@@ -1108,7 +1109,7 @@ Consider the following sequence of [[natural isomorphisms]] of [[hom-sets]] of t
     Ho(sSet)
     \Big(
       [S,\overline{W}G] \times S,
-      \, frgt \circ DK\big( A[n] \big)  
+      \, undrlng \circ DK\big( A[n] \big)  
     \Big)
     \\
     &
@@ -1215,7 +1216,7 @@ $$
     \Big(
       \big[S, \overline{W}G \big], 
       \,
-      \big[S, frgt \circ DK(A[n]) \big]
+      \big[S, undrlng \circ DK(A[n]) \big]
     \Big)
     & \;\simeq\;
     sSet
@@ -1232,7 +1233,7 @@ $$
       }{\lim}
       \Delta[k], 
       \,
-      \big[S, frgt \circ DK(A[n]) \big]
+      \big[S, undrlng \circ DK(A[n]) \big]
     \Big)    
     \\
     & \;\simeq\;
@@ -1251,7 +1252,7 @@ $$
     \Big(
       \Delta[k], 
       \,
-      \big[S, frgt \circ DK(A[n]) \big]
+      \big[S, undrlng \circ DK(A[n]) \big]
     \Big)    
     \\
     & \;\simeq\;
@@ -1313,7 +1314,7 @@ $$
     \Big(
       \Delta[k],
       \,
-      frgt \circ DK
+      undrlng \circ DK
       \big(
         A[n] \oplus A[n-1] 
       \big)
@@ -1334,7 +1335,7 @@ $$
     }{\lim}
       \Delta[k],
       \,
-      frgt \circ DK
+      undrlng \circ DK
       \big(
         A[n] \oplus A[n-1] 
       \big)
@@ -1345,7 +1346,7 @@ $$
     \Big(
       [S,\overline{W}G],
       \,
-      frgt \circ DK
+      undrlng \circ DK
       \big(
         A[n] \oplus A[n-1] 
       \big)
