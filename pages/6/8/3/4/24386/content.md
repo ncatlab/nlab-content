@@ -36,14 +36,20 @@ While the characterization of adjusted Weil algebras for $L_\infty$-algebra in [
 On the other hand, [Borsten, Kim & Saemann 2021](#BorstenKimSaemann21) argue that adjustment is naturally understood after embedding [[L-infinity algebras|$L_\infty$-algebras]] within [[EL-infinity algebra|$E L_\infty$-algebras]] (and that this is what exhibits [[tensor hierarchies]] as a [[higher gauge theory]]-phenomenon). 
 
 
+## Related entries
+
+* [[principal infinity-connection]]
+
+
 ## References
 
 The original discussion for the special case of [[string 2-connections]] and their higher analogs:
 
+* [[Urs Schreiber]], *[Obstructions to $n$-Bundle Lifts Part II](https://golem.ph.utexas.edu/category/2007/10/obstructions_to_nbundle_lifts.html)* (Oct 2007) &lbrack;bottom right corner in this hand-drawn diagram: [[Schreiber-PrincipalInfinityConnections-2007.pdf:file]]&rbrack;
+
 * {#SSS09} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], *[[schreiber:L-infinity algebra connections|$L_{\infty}$ algebra connections and applications to String- and Chern-Simons $n$-transport]]*, in *Quantum Field Theory*, Birkhäuser (2009) 303-424 &lbrack;[arXiv:0801.3480](https://arxiv.org/abs/0801.3480), [doi:10.1007/978-3-7643-8736-5_17](https://doi.org/10.1007/978-3-7643-8736-5_17)&rbrack;
 
 * {#SSS12} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]]:  *[[schreiber:Twisted Differential String and Fivebrane Structures]]*, Communications in Mathematical Physics **315** 1 (2012)  169-213 &lbrack;[arXiv:0910.4001](https://arxiv.org/abs/0910.4001), [doi:10.1007/s00220-012-1510-3)]([arXiv:](https://link.springer.com/article/10.1007/s00220-012-1510-3))&rbrack;
-
 
 * {#FSS12} [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes|Čech cocycles for differential characteristic classes]]_, Advances in Theoretical and Mathematical Physics, **16** 1 (2012) 149-250 &lbrack;[arXiv:1011.4735](https://arxiv.org/abs/1011.4735), [doi:10.1007/BF02104916](https://doi.org/10.1007/BF02104916)&rbrack;
 
