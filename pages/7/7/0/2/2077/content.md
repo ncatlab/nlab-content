@@ -135,7 +135,7 @@ The alternative sort of monotone function on a single proset $S$ is rather diffe
 [[!redirects strict order-preserving function]]
 [[!redirects strict order-preserving functions]]
 
-
+[[!redirects strictly monotone]]
 [[!redirects strictly monotone function]]
 [[!redirects strictly monotone functions]]
 
