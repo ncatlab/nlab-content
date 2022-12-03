@@ -10,6 +10,7 @@
   * [[set]], [[element]], [[function]], [[relation]]
   * [[universe]], [[small set]], [[large set]]
 * presentations of set theory
+  * [[first-order set theory]]
   * [[unsorted set theory]]
   * [[simply sorted set theory]]
     * [[one-sorted set theory]]
