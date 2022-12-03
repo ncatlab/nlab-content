@@ -290,6 +290,7 @@ category: analysis, geometry, noncommutative geometry
 
 [[!redirects Gelfand-Naimark duality]]
 
+[[!redirects Gelfand duality theorem]]
 
 
 
