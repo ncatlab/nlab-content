@@ -7,9 +7,15 @@
 
 ## Selected writings 
 
-On [[quantum groups]]:
+Introducing [[quantum groups]] and the [[Drinfeld double]]-construction:
 
-* V. G. Drinfel'd, _Quantum groups_, Proceedings of the International Congress of Mathematicians 1986, Vol. 1, 798&#8211;820, AMS 1987, [djvu:1.3M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.djvu), [pdf:2.5M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.pdf)
+* {#Drinfeld87} [[Vladimir Drinfeld]], _Quantum groups_, in: A. Gleason (ed.) *[Proceedings of the](https://archive.org/details/proceedingsofint0002inte_v5c3/mode/2up) [1986 International Congress of Mathematics](https://inspirehep.net/conferences/966215?ui-citation-summary=true)* **1** (1987) 798-820 &lbrack;[pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1986.1/ICM1986.1.ocr.pdf)&rbrack;
+
+  expanded version:
+
+  Journal of Soviet Mathematics **41** (1988) 898–915 &lbrack;[doi:10.1007/BF01247086](https://doi.org/10.1007/BF01247086)&rbrack;
+
+
 
 On [[chiral algebras]]:
 
