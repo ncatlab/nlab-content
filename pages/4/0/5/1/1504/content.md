@@ -458,6 +458,7 @@ Introduction and survey:
 
 * [[Harold Erbin]], _[String Field Theory -- Website](http://string-field-theory.org/)_
 
+* [[Theodore Erler]], *Four Lectures on Closed String Field Theory*, Physics Reports **851** (2020) 1-36 &lbrack;[arXiv:1905.06785](https://arxiv.org/abs/1905.06785), [doi:10.1016/j.physrep.2020.01.003](https://doi.org/10.1016/j.physrep.2020.01.003)&rbrack;
 
 ### Bosonic string field theory
  {#ReferencesBosonicSFT}
