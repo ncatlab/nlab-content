@@ -76,9 +76,7 @@ satisfies the defining [[universal property]] of the [[Cartesian product]].
 **(degenerate simplices in product of simplicial sets)**
 Prop. \ref{CartesianProductOfSimplicialSetsIsComponentwise} 
 means in particular that a [[simplex]] 
-of the form $(s_\alpha(x), s_\beta(y) \in K \times L$ 
-may be non-degenerate even though its two components are each degenerate
-(see the archetypical Example \ref{NonDegenerateSimplicesInSimplicialSquare} below).
+of the form $\big(s_\alpha(x),\, s_\beta(y)\big) \,\in\, K \times L$  may be non-degenerate even though its two components are each degenerate (see the archetypical Example \ref{NonDegenerateSimplicesInSimplicialSquare} below).
 
 Indeed, the proposition says that the degenerate simplices in $K \times L$ are precisely those such that their two simplex-components in $K$ and $L$, respectively, are in the image of the *same* degeneracy map $\alpha = \beta$.
 \end{remark}
@@ -275,11 +273,11 @@ for the map dual to the sequence
 
 $$
   [p+q] 
-    \stackrel{\sigma_{\mu_q}}{\to}
+    \overset{\;\; \sigma_{\mu_q} \;\;}{\longrightarrow}
   [p+q-1]
-    \stackrel{\sigma_{\mu_{q-1}}}{\to}
+    \overset{\;\; \sigma_{\mu_{q-1}} \;\;}{\longrightarrow}
   \cdots
-   \stackrel{\sigma_{\mu_1}}{\to}
+   \overset{\;\; \sigma_{\mu_1} \;\;}{\longrightarrow}
    [p]
   \,,
 $$
@@ -575,7 +573,7 @@ $$
 
 
 
-### In terms of partitions
+### In terms of shuffles
 
 Each such simplex yields a [[partition]] of $\{0, \ldots, p+q-1\}$ into two disjoint sets,
 $\mu_1\lt\ldots \lt\mu_p$, and $\nu_1 \lt \ldots \lt \nu_q$, and vice versa, any such partition yields a simplex. Suppose that we have an array, as above, written
