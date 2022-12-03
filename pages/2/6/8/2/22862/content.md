@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -24,30 +23,38 @@ For $G$ a [[discrete group]] (often taken to be a [[finite group]]) and for $A$ 
 
 \[
   \label{TransgressionMapOnGroupCohomology}
+  \begin{array}{rcl}
   H_{grp}^{\bullet + 1}(G;\,A)
   \;\;=\;\;
+  \\
   H^{\bullet + 1}(B G;\, A)
+  &
   \xrightarrow{ 
-    \;\;\;
+    \;\;\;\;
     \tau 
-    \;\;\;
+    \;\;\;\;
   }
+  &
   H^n
   \big(
     \Lambda B G,
     \,
     A
   \big)
-  \;\;\;
-    \simeq
-  \;
-  \undrset{
-    [g] \in G^{ad}/G
+  \;\simeq
+  \\
+  &&
+  \underset{
+    \mathclap{
+      [g] \in G^{ad}/G
+    }
   }{\oplus}
+  \;
   H^n_{grp}\big(C_g;\, A \big)
+  \end{array}
 \]
 
-from the [[group cohomology]] of $G$ to the [[groupoid cohomology]], in one degree lower,  of the [[inertia groupoid]]  $\Lambda B G$ of its [[delooping groupoid]] $B G \simeq (G \rightrightarrows \ast)$.
+from the [[group cohomology]] of $G$ to the [[groupoid cohomology]], in one degree lower, of the [[inertia groupoid]]  $\Lambda B G$ of its [[delooping groupoid]] $B G \simeq (G \rightrightarrows \ast)$.
 
 Since the [[inertia groupoid]] of the [[delooping groupoid]] is [[equivalence of groupoids|equivalent]] to a [[disjoint union]] over [[conjugacy classes]] $[g] \in G^{ad}/G$ of [[delooping groupoids]] of [[centralizer subgroups]] $C_g$, with $C_e = G$,
 
@@ -90,7 +97,9 @@ It is a [[folklore]] [[theorem]] that the transgression (eq:TransgressionMapOnGr
 
 \[
   \label{SumFormulaForTransgressedCocycle}
+  \begin{array}{l}
   \tau(c)(\gamma, g_{n-1}, \cdots, g_1, g_0)
+  \\
   \;=\;
   \pm
   \underset{
@@ -108,6 +117,7 @@ It is a [[folklore]] [[theorem]] that the transgression (eq:TransgressionMapOnGr
     g_0 
   \big)
   \,,
+  \end{array}
 \]
 
 where
@@ -686,7 +696,7 @@ $$
     \\
     \mathbb{Z}
     \\
-    \big\downarrow {}^{\mathrlap{ 0 }}
+\big\downarrow\mathrlap{ \scriptsize{0} }
     \\
     \mathbb{Z}
   }
@@ -700,7 +710,7 @@ $$
 
 
 
-The following proposition follows on abstract grounds, but the explicit component-based proof we give is necessary in order to understand the [[transgression]]-formula for [[cocycles]] in the [[group cohomology]] of $G$ to cocycles on the inertia groupoid.
+The following proposition holds on general grounds (duscussed at *[[free loop space of classifying space]]*), but the explicit component-based proof we give now is necessary, further below, in order to understand the [[transgression]]-formula for [[cocycles]] in the [[group cohomology]] of $G$ to cocycles on the inertia groupoid.
 \begin{proposition}\label{RelationToSimplicialHomComplexIntoClassifyingSpace}
 The [[nerve]] of the [[inertia groupoid]] of a [[delooping groupoid]] of a [[finite group]] $G$ is [[isomorphism|isomorphic]] to the [[simplicial hom complex]] out of the [[minimal simplicial circle]] $S$ (Def. \ref{MinimalSimplicialCircle}) into the [[simplicial classifying space]] $\overline{W}G$ (Rem. \ref{DeloopingGroupoidAndSimplicialClassifyingSpaceOfFiniteGroup}):
 
@@ -744,8 +754,7 @@ $$
     &&
     \big\downarrow
     && &&
-    \big\downarrow 
-    {}^{\mathrlap{  
+    \big\downarrow\mathrlap{^{  
       ( g_{n-1} \cdots g_{0} )^{-1} 
       \cdot
       \gamma 
@@ -925,9 +934,8 @@ As a consequence:
 
 \begin{definition}\label{Transgression}
   **([[transgression]])**
-  For $\mathcal{A} \,\in\, sAb$, hence with  
-  [[free loop space of classifying space|free loop space of its classifying space]] given
-  (by [this Prop.](free+loop+space+of+classifying+space#FreeLoopSpaceOfClassifyingSpaceOfSimplicialAbelianGroup)) by
+  For $\mathcal{A} \,\in\, sAb$ a [[simplicial abelian group]], hence with [[free loop space of classifying space|free loop space of its classifying space]] given
+  (via [this Prop.](free+loop+space+of+classifying+space#FreeLoopSpaceOfClassifyingSpaceOfSimplicialAbelianGroup)) by
   \[
     \label{FreeLoopSpaceOfClassifyingSpaceOfAbelianSimplicialGroup}
     \Lambda \mathbf{B}\mathcal{A}
@@ -968,11 +976,13 @@ the following [[composition|composite]] of is a [[simplicial weak equivalence]]
 \[
   \label{ComparisonMorphismFromFreeLoopSpaceViaEilenbergZilber}
   \begin{aligned}
+    &
     \big[
       S,
       \,
       B^n A
     \big]_\bullet   
+    \\
     & \;=\;
     \big[
       S, 
@@ -1053,7 +1063,7 @@ the following [[composition|composite]] of is a [[simplicial weak equivalence]]
 Here all [[isomorphisms]] are [hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism) of the [above](#HomotopyCategories) [[adjoint functor|adjunctions]], the step denoted $EZ_S$ is pre-composition with the [[Eilenberg-Zilber map]], and under the brace we are using Prop. \ref{NormalizedChainComplexOfMinimalSimplicialCircle}.
 
 \begin{proof}
-  By the fact that the [[Eilenberg-Zilber map]] has a [[left inverse]] given by the [[Alexander-Whitney map]] $AW$ (see at *[[Eilenberg-Zilber/Alexander-Whitney deformation retraction]]*, the analogous composite with $AW_S$ instead of $EZ_S$ yields a left inverse morphism, which hence [[retraction|retracts]] the [[homotopy groups]] of $B^n A \times B^{n-1}A$ onto those of $\big[S, B^n A \big]$. 
+  By the fact that the [[Eilenberg-Zilber map]] has a [[left inverse]] given by the [[Alexander-Whitney map]] $AW$ (see at *[[Eilenberg-Zilber/Alexander-Whitney deformation retraction]]*), the analogous composite with $AW_S$ instead of $EZ_S$ yields a left inverse morphism, which hence [[retraction|retracts]] the [[homotopy groups]] of $B^n A \times B^{n-1}A$ onto those of $\big[S, B^n A \big]$. 
 But, by (eq:FreeLoopSpaceOfClassifyingSpaceOfAbelianSimplicialGroup), the latter is a product of [[Eilenberg-MacLane spaces]]
 with homotopy groups $A$ concentrated in degrees $n$ and $n -1 $. By assumption on $A$ the only retractions of $A$ onto itself is the identity, so that $EZ_S$ must induce the identity morphism of homotopy groups. 
 \end{proof}
@@ -1212,12 +1222,14 @@ the chain of hom-isomorphisms of [[derived adjunctions]] in (eq:TransgressionDec
 
 $$
   \begin{aligned}
+    &
     sSet
     \Big(
       \big[S, \overline{W}G \big], 
       \,
       \big[S, undrlng \circ DK(A[n]) \big]
     \Big)
+    \\
     & \;\simeq\;
     sSet
     \Big(
