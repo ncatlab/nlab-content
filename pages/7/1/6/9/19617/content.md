@@ -50,6 +50,11 @@ PhD thesis:
 
 ## Invited talks
 
+* _Classical BV-BFV theory as derived $n$-plectic geometry_, seminar talk at [Monthly Global Diffeology Seminar series](https://diffeology.net/index.php/seminar), 2nd December 2022
+
+
+* *Higher quantum geometry and global string duality*, talk at NYU Abu Dhabi (April 2022) $[$[web](Center+for+Quantum+and+Topological+Systems#AlfonsiFeb2022)$]$
+
 * _Extended geometry from higher geometry_, gong show at [Higher Structures in QFT and String Theory](https://sites.google.com/view/jrqftconf2021), 13th July 2021
 
 * _Towards an extended/higher correspondence -- generalised geometry, bundle gerbes and global T-duality_, seminar at [University of Hertfordshire](https://www.herts.ac.uk/research/groups-and-units/mathematics-and-mathematical-physics), 12th May 2021
@@ -61,9 +66,6 @@ PhD thesis:
 * _Global Double Field Theory is Higher Kaluza-Klein Theory_, regular seminar at Max Planck Institute for Gravitational Physics (Albert Einstein Institute), Potsdam, 16th March 2020.
 
 * _Global Double Field Theory as gerbe geometry_, talk at [Generalized Geometry and Applications](https://www.math.uni-hamburg.de/projekte/gg2020/), University of Hamburg, 3rd March 2020.
-
-* *Higher quantum geometry and global string duality*, talk at NYU Abu Dhabi (April 2022) $[$[web](Center+for+Quantum+and+Topological+Systems#AlfonsiFeb2022)$]$
-
 
 ## Short bio
 
