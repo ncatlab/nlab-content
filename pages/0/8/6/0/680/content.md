@@ -725,3 +725,5 @@ A [[categorification]] to a [[categorified Dold-Kan correspondence]] is discusse
 [[!redirects dual Dold--Kan theorem]]
 [[!redirects dual Dold–Kan theorem]]
 [[!redirects Dold-Kan equivalence]]
+
+[[!redirects Dold-Kan construction]]
