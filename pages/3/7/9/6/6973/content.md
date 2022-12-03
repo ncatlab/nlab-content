@@ -13,5 +13,10 @@ Introducing the [[homotopy type theory]]-interpretation of [[identity types]]:
 
 * {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]]  _The groupoid interpretation of type theory_, in: Giovanni Sambin et al. (eds.) , _Twenty-five years of constructive type theory_, Proceedings of a congress, Venice, Italy, October 19&#8212;21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. 36, 83-111 (1998).  ([ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz) [[HofmannStreicherGroupoidInterpretation.pdf:file]])
 
+On [[first-order set theory]] and [[categorical logic]]:
+
+* [[Steve Awodey]], [[Carsten Butz]], [[Alex Simpson]], [[Thomas Streicher]], *Relating first-order set theories, toposes and categories of classes*, Annals of Pure and Applied Logic **165** 2 (2014) 428-502 &lbrack;[doi:10.1016/j.apal.2013.06.004](https://doi.org/10.1016/j.apal.2013.06.004)&rbrack;
+
+
 
 category: people
