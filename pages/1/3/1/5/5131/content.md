@@ -87,6 +87,7 @@ Indeed, the proposition says that the degenerate simplices in $K \times L$ are p
  {#NonDegenerateCellsInAProductOfSimplices}
 
 ### Characterization
+ {#Characterization}
 
 \begin{proposition}\label{NonDegenerateSimplicesInProductOfSimplices}
 **(non-degenerate $(p+q)$-simplices in $\Delta[p] \times \Delta[q]$)**
@@ -119,7 +120,7 @@ which satisfy the following equivalent conditions:
 
 (e.g. [Kerodon 2.5.7.2](#Kerodon): [00RH](https://kerodon.net/tag/00RH))
 
-Such morphisms may hence be represented by [[paths]]
+Here the first statement says that such morphisms may hence be represented by [[paths]]
 
 * on a $(p+1)\times(q+1)$-lattice,
 
@@ -127,12 +128,29 @@ Such morphisms may hence be represented by [[paths]]
 
 * consisting of $p+q$ unit steps, 
 
-* each either horizontally or vertically:
+* each either horizontally or vertically
 
-\begin{tikzcd}
-  [
-    row sep=large
+and the second statement says that such paths are characterized by the $(p,q)$-[[shuffle]] $(\mu_1 \lt \cdots \lt \mu_p, \, \nu_1 \lt \cdots \lt \nu_q)$ of lists of step numbers $\mu_i$ where the path proceeds horizontally and step numbers $\nu_i$ where it proceeds vertically:
+
+\begin{tikzcd}[
+    sep=30pt
   ]
+    &[-12pt]
+    &
+    \mathclap{
+      \color{gray}
+      \mu_1 = 1
+    }
+    &
+    \mathclap{
+      \color{gray}
+      \mu_2 = 4
+    }
+    &
+    \color{gray}
+    \cdots
+    \\[-20pt]
+    &
     {(0,0)}
     \ar[r]
     \ar[d]
@@ -162,6 +180,9 @@ Such morphisms may hence be represented by [[paths]]
     {(p,0)}
     \ar[d]
     \\
+    \color{gray}
+    \nu_1 = 2
+    &
     {(0,1)}
     \ar[r]
     \ar[d]
@@ -180,11 +201,13 @@ Such morphisms may hence be represented by [[paths]]
     \ar[rr, dotted]
     \ar[d]
     &
-    \cdots
     &
-    {(p,1)}    
+    {(p,1)}
     \ar[d]
     \\
+    \color{gray}
+    \nu_2 = 3
+    &
     {(0,2)}
     \ar[r]
     \ar[dd, dotted]
@@ -215,10 +238,14 @@ Such morphisms may hence be represented by [[paths]]
     {(p,2)}
     \ar[dd, dotted]
     \\
+    \color{gray}
+    \vdots
+    &
     &
     &
     &&
     \\
+    &
     {(0,q)}
     \ar[r]
     &
@@ -241,10 +268,11 @@ precisely if, when regarded as a path as above, it contains a [[constant functio
 \end{proof}
 
 \begin{remark}\label{NotationForSimplicesInAProductOfSimplices}
-**(sequence-notation for simplices in a product of simplices)** \linebreak
-Written as a [[pair]] of $(p+q)$-simplices, one in $\Delta[p]$ and one in $\Delta[q]$, the non-degenerate simplex (eq:GenericSimplexInProductOfSimplices) is a [[pair]] of [[monotone]] lists of [[natural numbers]]
+**(sequence- and shuffle-notation for simplices in a product of simplices)** \linebreak
+Written as a [[pair]] of $(p+q)$-simplices, one in $\Delta[p]$ and one in $\Delta[q]$, the non-degenerate simplex (eq:GenericSimplexInProductOfSimplices) is hence a [[pair]] of [[monotone]] lists of [[natural numbers]]
 
-$$
+\[
+  \label{ListNotationForProductsOfSimplices}
   \left(
     \begin{array}{ccccccccc}
       0& \ldots & 0 & 1 & \ldots & 1 & 2 & \ldots & p
@@ -253,23 +281,42 @@ $$
     \end{array}
   \right)
   \,,
-$$
+\]
 
 such that one row has a constant step precisely where the other has not.
+
+Recording the step numbers where either of these lists is non-constant yields a *$(p,q)$-[[shuffle]]*:
+
+\[
+  \label{ShuffleNotationForProductsOfSimplices}
+  \begin{array}{cc}
+    \text{positions of horizontal steps}
+    &
+    \text{positions of vertical steps}
+    \\
+    \mu_1 \lt \mu_2 \lt \cdots \lt \mu_p
+    &
+    \nu_1 \lt \nu_2 \lt \cdots \lt \nu_p
+  \end{array}  
+\]
+
+namely a [[permutation]] of $(p+q)$ elements where each element is larger than its left neighbour, except possibly when going from the $p$th to the $p+1$st element.
+
 \end{remark}
 
+The shuffle-data yields a conveniently explicit re-construction of the product of simplices, as follows:
 
-Here is a slightly alternative way to think of these non-degenerate simplices:
 
 \begin{definition}
-For $X$ some [[simplicial set]] $x \in X_p$ some $p$-cell and 
-for $\mu = (\mu_1 \lt  \mu_2, \lt \cdots \lt \mu_q)$ a sequence of [[natural numbers]] in $\{0, \cdots p+q\}$, write
+For $\mu = (\mu_1 \lt  \mu_2 \lt \cdots \lt \mu_p)$ a sequence of [[natural numbers]] in $\{1, \cdots,  p+q\}$, write
 
 $$
-  s_\mu \colon X_p \to X_{p+q}
+  \sigma_\mu 
+  \;\colon\; 
+  X_q \to X_{p+q}
 $$
 
-for the map dual to the sequence 
+for [[composition|composite]] of co-[[degeneracy maps]]
 
 $$
   [p+q] 
@@ -278,11 +325,11 @@ $$
     \overset{\;\; \sigma_{\mu_{q-1}} \;\;}{\longrightarrow}
   \cdots
    \overset{\;\; \sigma_{\mu_1} \;\;}{\longrightarrow}
-   [p]
+   [q]
   \,,
 $$
 
-where $\sigma_i$ is the surjective monotone map that repeats the index $i$.
+hence where $\sigma_i$ is the surjective monotone map that repeats the index $i$.
 
 \end{definition}
 
@@ -296,13 +343,25 @@ $$
 of [[simplices]] in [[sSet]] are precisely those of the form 
 
 $$
-  (s_\mu x , s_\nu y) \in (\Delta[p] \times \Delta[q])_{p+q}
+  (\sigma_\nu, \sigma_\mu) 
+    \;\in\; 
+  Hom\big(
+    \Delta[p + q]
+    ,\,
+    \Delta[p] \times \Delta[q]
+  \big)
+  \;=\;
+  \big(
+    \Delta[p] \times \Delta[q]
+  \big)_{p+q}
 $$ 
 
-for $(\mu,\nu)$ a $(p,q)$-[[shuffle]] and $x, y$ non-degenerate simplices in $\Delta[p]$ and $\Delta[q]$, respectively.
+for $(\mu,\nu)$ a $(p,q)$-[[shuffle]].
+
 
 \end{proposition}
 
+\linebreak
 
 ### Examples
  {#Examples}
@@ -571,40 +630,6 @@ $$
 
 \end{example}
 
-
-
-### In terms of shuffles
-
-Each such simplex yields a [[partition]] of $\{0, \ldots, p+q-1\}$ into two disjoint sets,
-$\mu_1\lt\ldots \lt\mu_p$, and $\nu_1 \lt \ldots \lt \nu_q$, and vice versa, any such partition yields a simplex. Suppose that we have an array, as above, written
-
-$$
-  \left(
-    \begin{array}{cccc}
-      i_0& i_1&\ldots & i_{p+q}
-      \\
-      j_0& j_1 & \ldots & j_{p+q}
-     \end{array}
-  \right)
-  \,,
-$$
-
-with $0= i_0 \leq i_1 \leq \ldots \leq i_{p+q}= p$, then if $i_k = i_{k+1}$, we put $k$ into the second set, otherwise $k$ is put in the first set.  This, of course, leads to an operation that preserves order. For instance, in the above example 2., the $i$-sequence is $(0,1,1,2)$, so there is the single repeat with $k = 1$, and $\nu = \{1\}$. 
-
-We likewise require $0= j_0 \leq j_1 \leq \ldots \leq j_{p+q}= p$, and put $k$ into the first set if  $j_k = j_{k+1}$.  For the example, we have the $j$-sequence is $(0,0,1,1)$, so $\mu = \{ 0,2\}$.  Of course, from the partition you can get the sequences and conversely. The attentive reader will, of course, have noted that, for example 2., the $\alpha$, we specified was exactly the $\nu$, and the $\beta$ was the $\mu$.  This is general with the simplex corresponding to a partition, $(\mu,\nu)$,  being given by $(s_{\nu_q}\ldots s_{\nu_1}x_p,s_{\mu_p}\ldots s_{\mu_1}y_q)$.
-
-Each such partition defines a [[permutation]] of $\{0,\ldots, p+q-1 \}$.  Let us write $\iota_0 : \{ 0, \ldots, q-1\}\to \{0, \ldots, p+q-1\}$ for the order preserving function $\iota_0 (r)= p+r$, whilst $\iota_1 : \{ 0, \ldots, p-1\}\to \{0, \ldots, p+q-1\}$ will denote the inclusion, so $\iota_1(r) = r$. There will be a permutation  $\sigma$ of $\{0,\ldots, p+q-1 \}$ such that $\sigma \iota_0(r) = \nu_{r+1}$ and $\sigma\iota_1(r) = \mu_{r+1}$. This means that the permutation looks like  
-
-$$\sigma =\left(\begin{array}{ccccccccc}0&1&2& \ldots & p-1&p&p+1& \ldots & p+q-1\\
-\mu_1&\mu_2&\mu_3&\ldots & \mu_p&\nu_1&\nu_2&\ldots &\nu_q\end{array}\right).$$
-
-
-
-
-We can thus assign  a sign, $sgn(\sigma)$, to each such shuffle, namely the sign of the corresponding permutation.  
-
-For our standard examples, we have : 1) $\sigma$ is the identity, 2) $\sigma = \left(\begin{array}{ccc}0&1&2\\0&2&1\end{array}\right)$, i.e. the transposition exchanging 1 and 2,  and for 3) $\sigma = \left(\begin{array}{ccc}0&1&2\\1&2&0\end{array}\right)$, a 3-cycle. 
-We thus have, in this case, the signs are +1, -1, and  + 1, respectively.
 
 
 
