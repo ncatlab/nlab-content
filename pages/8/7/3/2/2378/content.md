@@ -99,7 +99,7 @@ Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]].
 ## Exponentiability
  {#Exponentiability}
 
-+-- {: .num_prop}
++-- {: .num_prop #evIsContinuous}
 ###### Proposition 
 
 Let $(X, \mathcal{O}_{X})$ be a locally compact topological space, def. \ref{LocallyCompact}, and let $(Y, \mathcal{O}_{Y})$ be a [[topological space]]. The map $ev : X \times Y^{X} \rightarrow Y$ given by $(x,f) \mapsto f(x)$ is continuous, where $X \times Y^{X}$ is equipped with the [[product topology]] $\mathcal{O}_{X \times Y^{X}}$ with respect to $\mathcal{O}_{X}$ and $\mathcal{O}_{Y^{X}}$ (notation \ref{CompactOpenTopologyNotation}). 
@@ -171,7 +171,7 @@ We make the following observations.
 
 1) We have that $\alpha^{-1}_{f} = ev \circ \tau \circ (f \times id)$, where $\tau : Z^{Y} \times Y \rightarrow Y \times Z^{Y}$ is given by $(f,y) \mapsto (y,f)$.
 
-2) By Proposition \ref{alphafIsContinuous}, we have that $ev$ is continuous. 
+2) By Proposition \ref{evIsContinuous}, we have that $ev$ is continuous. 
 
 3) It is an elementary fact that $\tau$ is continuous. 
 
