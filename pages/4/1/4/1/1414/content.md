@@ -427,7 +427,7 @@ $$
 
 As such, it is a special case of the [[Michael Boardman|Boardman]]-[[Rainer Vogt|Vogt]] [[W-construction]] for [[model structure on operads|cofibrant replacement of]] topological [[operads]]. See also _[[dendroidal homotopy coherent nerve]]_.
 
-In this construction, rouhgly, for $T$ a [[tree]] in an operad $O$, the tree is replaced with the topological space $e(T) \to [0,1]$ of maps from the set of edges of $T$ to the topological unit interval.
+In this construction, roughly, for $T$ a [[tree]] in an operad $O$, the tree is replaced with the topological space $e(T) \to [0,1]$ of maps from the set of edges of $T$ to the topological unit interval.
 
 We may restrict this construction to the $n$-[[simplex]] $\Delta[n]$, regarded as a [[category]] and then trivially regarded as a $Top$-category. Then a tree in $\Delta[n]$ is necessarily a linear tree $\to \to \cdots \to$ of some length $k$ and is hence mapped to the topological space of functions $k \to [0,1]$, i.e. to the space $[0,1]^k$. This is the [[geometric realization]] of the simplicial cubes $(\Delta[1])^k$ that we saw above.
 
