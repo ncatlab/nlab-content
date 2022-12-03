@@ -20,7 +20,7 @@
 
 ## Idea
 
-For $G$ a [[discrete group]] (often taken to be a [[finite group]]) and for $A$ any [[abelian group]], there is a [[transgression]] [[homomorphism]] of [[cohomology groups]]
+For $G$ a [[discrete group]] (often taken to be a [[finite group]]) and for $A$ any ([[discrete group|discrete]]) [[abelian group]], there is a [[transgression]] [[homomorphism]] of [[cohomology groups]]
 
 \[
   \label{TransgressionMapOnGroupCohomology}
@@ -98,7 +98,15 @@ It is a [[folklore]] [[theorem]] that the transgression (eq:TransgressionMapOnGr
   }{\sum}
   (-1)^j
   \cdot
-  c( g_{n-1}, \cdots, g_{n-j}, Ad_j(\gamma), g_{n-j-1}, \cdots, g_0 )
+  c\big( 
+    g_{n-1}, 
+     \cdots,\, 
+    g_{n-j},\, 
+    Ad_j(\gamma),\, 
+    g_{n-j-1},\, 
+    \cdots,\, 
+    g_0 
+  \big)
   \,,
 \]
 
@@ -110,7 +118,7 @@ $$
   Ad_{n-1}(\gamma)
   \xrightarrow{ g_{n-2} }
   \cdots
-  \xrightarrow{ g_0 }
+  \xrightarrow{\; g_0 \;}
   Ad_{0}(\gamma)
   \;\;\;\;\;
   \in
@@ -127,7 +135,9 @@ $$
     Ad_{(g_{n-1}\cdots g_j)}(\gamma)
     \\
     & \;\coloneqq\;
-    (g_{n-1} \cdots g_j)^{-1} \cdot \gamma \cdot (g_{n-1} \cdots g_j)
+    (g_{n-1} \cdots g_j)^{-1} 
+      \cdot 
+    \gamma \cdot (g_{n-1} \cdots g_j)
     \,,
   \end{aligned}
 $$
@@ -136,11 +146,11 @@ $$
 
 In historically influential examples, for the case $n = 4$ and $A = \mathbb{Z}$ or, equivalently, $n = 3$ and $A = $ [[U(1)]], this formula (eq:SumFormulaForTransgressedCocycle):
 
-* implicitly underlies ([Dijkgraaf & Witten 1990, p. 24](#DijkgraafWitten90)) the discussion of [[Dijkgraaf-Witten theory]]; 
+* implicitly underlies &lbrack;[Dijkgraaf & Witten 1990, p. 24](#DijkgraafWitten90)&rbrack; the discussion of [[Dijkgraaf-Witten theory]]; 
 
-* explains ([Willerton 2008](#Willerton08)) the nature of the "[[twisted Drinfeld double]]" of the [[group algebra]] of $G$;
+* explains &lbrack;[Willerton 2008](#Willerton08)&rbrack; the nature of the "[[twisted Drinfeld double]]" of the [[group algebra]] of $G$;
 
-* governs ([Dove 2019, Sec. 6.4](#Dove19)) the expression of 4-[[twisted cohomology|twisted]] [[equivariant elliptic cohomology]] at the [[Tate curve]] in terms of 3-[[twisted equivariant K-theory|twisted equivariant]] [[Tate K-theory]].
+* governs &lbrack;[Dove 2019, Sec. 6.4](#Dove19)^rbrack; the expression of 4-[[twisted cohomology|twisted]] [[equivariant elliptic cohomology]] at the [[Tate curve]] in terms of 3-[[twisted equivariant K-theory|twisted equivariant]] [[Tate K-theory]].
 
 Below we mean to spell out a general abstract definition (Def. \ref{Transgression}) of the transgression map (eq:TransgressionMapOnGroupCohomology) and a [full proof](#ProofOfTheComponentFormula) of its component formula (eq:SumFormulaForTransgressedCocycle), amplifying that its form is a direct consequence of -- besides some basic [[homotopy theory]]/[[homological algebra]] which we review [below](#BackgroundAndLemmata)  -- the classical [[Eilenberg-Zilber theorem]], i.e. the [[Eilenberg-Zilber/Alexander-Whitney deformation retraction]] (which was partially re-discovered in [Willerton 2008, Sec. 1](#Willerton08) under the name "Parmesan theorem").
 
@@ -252,8 +262,8 @@ $$
   sSet
   \,.
 $$
-For notational brevity we will be referring to $\overline{W}G$ in the following, but it may be helpful to keep thinking of the [[nerve]] of the [[delooping groupoid]]. 
-From that perspective, an [[n-simplex]] in $\overline{W}G$, which is an [[n-tuple]] of [[group]] [[elements]], is suggestively denoted as a sequence of [[morphisms]]:
+For notational brevity we will be referring to $\overline{W}G$ in the following, but it may be helpful to keep thinking of this isomorphically as the [[nerve]] of the [[delooping groupoid]], $\overline{W} G \,=\, N (G \rightrightarrows \ast)$. 
+From this perspective, an [[n-simplex]] in $\overline{W}G$, which is an [[n-tuple]] of [[group]] [[elements]], is suggestively denoted as a sequence of [[morphisms]]:
 
 $$
   \big(\overline{W}G\big)_{n}
@@ -281,14 +291,17 @@ $$
 
 \end{remark}
 
-We denote the [[image]] of $\overline{W}G$ in the [[classical homotopy category]] by
+We denote the [[image]] of $\overline{W}G$ in the [[classical homotopy category]] by (the first equality reflects that $G$ is assumed to be [[discrete group|discrete]]):
 
 $$
   B G
   \;=\;
   \mathbf{B} G
   \;=\;
-  Loc_{\mathrm{W}}(\overline{W}G)
+  Loc_{\mathrm{W}}
+  \big(
+    \overline{W}G
+  \big)
   \;\;\;
   \in
   \;
@@ -308,28 +321,30 @@ Some relevant basics of [[cohomology]], for the cases of [[ordinary cohomology]]
   $$
     B^n A \,=\, K(A,n) 
     \,\coloneqq\,
-    frgt \circ DK(A[n])
+    underlg \circ DK(A[n])
     \;\;\;
     \in
     \;
     sAb 
       \xrightarrow{ Loc_{\mathrm{W}}}
     Ho(sAb)
-     \xrightarrow{frgt}
+     \xrightarrow{undrlg}
     Ho(sSet)
   $$
-  for (the [[homotopy type]] of) the [[Eilenberg-MacLane space]]
-  with $A$ in degree $n$.
+  for (the [[homotopy type]] of) the [[Eilenberg-MacLane space]] with $A$ in degree $n$ -- here constructed as the [[underlying]] [[simplicial set]] of the [[simplicial abelian group]] which is the image under the [[Dold-Kan construction]] of the [[chain complex]] that is concentrated on $A$ in degree $n$.
 \end{definition}
 
 \begin{definition}\label{OrdinaryCohomology}
 **([[ordinary cohomology]])** \linebreak
   For $X \in Ho(sSet)$,  $A \,\in\, Ab$  and $n \in \mathbb{N}$,
-  the degree-$n$ *[[ordinary cohomology]]* of $X$ with [[coefficients]] in $A$ is
+  the degree-$n$ *[[ordinary cohomology]]* of $X$ with [[coefficients]] in $A$ is the following [[hom-set]] in the [[classical homotopy category]]:
   $$
     H^n(X;\, A)
     \;=\;
-    Ho(sSet)(X, \, B^n A)
+    Ho(sSet)
+    \big(
+      X, \, B^n A
+    \big)
     \,,
   $$
   where on the right we have the [[Eilenberg-MacLane space]] from Def. \ref{EilenbergMacLaneSpaces}.
@@ -470,15 +485,15 @@ of standard [[simplices]] in [[sSet]] correspond, under the [[Yoneda lemma]], to
 
 which satisfy the following equivalent conditions:
 
-* as morphisms of [[posets]], they are [[strictly monotone]];
+* as [[morphisms]] of [[posets]], they are [[strictly monotone]];
 
-* as [[permutations]] of $(p+q)$ elements they are $(p,q)$-[[shuffles]];
+* as [[permutations]] of $(p+q)$ [[elements]] they are $(p,q)$-[[shuffles]];
 
-* as morphisms of [[finitely generated object|finitely generated]] [[categories]] they take generating morphisms to generating morphisms;
+* as [[morphisms]] of [[finitely generated object|finitely generated]] [[categories]] they take generating morphisms to generating morphisms;
 
 \end{proposition}
 
-Such morphisms may hence be represented by [[paths]]
+Such morphisms may hence be represented by [[paths]]:
 
 * on a $(p+1)\times(q+1)$-lattice,
 
@@ -595,8 +610,9 @@ Such morphisms may hence be represented by [[paths]]
 From [this Prop.](product+of+simplices#CartesianProductOfSimplicialSetsIsComponentwise) 
 it is clear (see [this Remark](product+of+simplices#DegenerateSimplicesInProductOfSimplicialSets)) that a 
 simplex $\sigma \,\colon\, \Delta[p+q] \xrightarrow{\;} \Delta[p] \times \Delta[q]$  is degenerate 
-precisely if, when regarded as a path as above, it contains a [[constant function|constant]] step, i.e. one which moves neither horizontally nor vertically. But then -- by degree reasons, since we are looking at paths of $p + q$ steps in a lattice of side length $p$ and $q$ -- it must be that the path proceeds by $p + q$ unit steps. 
+precisely if, when regarded as a path as above, it contains a [[constant function|constant]] step, i.e. one which moves neither horizontally nor vertically. But then --- by degree reasons, since we are looking at paths of $p + q$ steps in a lattice of side length $p$ and $q$ --- it must be that the path proceeds by $p + q$ unit steps. 
 \end{proof}
+
 
 ### Nerve of the inertia groupoid
 
@@ -1349,7 +1365,7 @@ The transgression map is alluded to in
 
 An indication of a proof, implicitly using ingredients of the [[Eilenberg-Zilber map]] (re-discovered under the name "Parmesan map"):
 
-* {#Willerton08} [[Simon Willerton]], Section 1 of: *The twisted Drinfeld double of a finite group via gerbes and finite groupoids*, Algebr. Geom. Topol. 8 (2008) 1419-1457 ([arXiv:math/0503266](https://arxiv.org/abs/math/0503266))
+* {#Willerton08} [[Simon Willerton]], Section 1 of: *The twisted Drinfeld double of a finite group via gerbes and finite groupoids*, Algebr. Geom. Topol. 8 (2008) 1419-1457 &lbrack;[arXiv:math/0503266](https://arxiv.org/abs/math/0503266), [doi:10.2140/agt.2008.8.1419](https://doi.org/10.2140/agt.2008.8.1419)&rbrack;
 
 The transgression formula itself (without derivation) is also considered, in a context of [[twisted equivariant K-theory|twisted]] [[orbifold K-theory]], in:
 
@@ -1368,7 +1384,7 @@ Generalization to Real $\mathbb{Z}/2$-equivariant cohomology (as appropriate for
 
 The above discussion and proof is taken from:
 
-* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:cyclic loop spaces 2022|Cyclification of Orbifolds]]* (2022), in preparation
+* {#SatiSchreiber22} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:cyclic loop spaces 2022|Cyclification of Orbifolds]]* (2022), in preparation
 
 
 [[!redirects transgressions in group cohomology]]
