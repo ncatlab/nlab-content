@@ -29,7 +29,7 @@ The characterization of set-theoretic [[models]] of (finitary) first-order theor
 
 ## Examples
 
-Formulations of [[set theory]] are usually first-order theories, such as
+Formulations of [[set theory]] are usually first-order theories (see *[[first-order set theory]]*), such as
 
 * [[material set theory]]: [[ZFC]]
 
