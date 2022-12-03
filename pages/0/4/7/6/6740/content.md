@@ -15,7 +15,7 @@
 
 ## Idea
 
-Measurable locales are certain [[locales]], which may serve as a basis for [[measure theory]] much as general locales serve as a basis for [[topology]] (especially in [[constructive mathematics]]).  Specifically, a measurable locale is equivalent to a compact strictly [[localizable measurable space]] (or [[dual equivalence|dual]] to a commutative [[von Neumann algebra]]).
+Measurable locales are certain [[locales]], which may serve as a basis for [[measure theory]] much as general locales serve as a basis for [[topology]] (especially in [[constructive mathematics]]).  Specifically, a measurable locale is equivalent to a compact strictly [[localizable measurable space]] (or [[dual equivalence|dual]] to a [[commutative von Neumann algebra]]).
 
 Ironically, in [[constructive mathematics]], measurable locales are *not* locales (except for the [[empty space]]), on pain of [[excluded middle]].
 
