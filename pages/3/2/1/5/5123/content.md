@@ -37,25 +37,29 @@ $$
   C(A \otimes B) 
 $$
 
-defined on two [[n-simplices]] $a \in A_p$ and $b \in B_q$ by
+defined on a [[pair]] of [[n-simplices|$n$-simplices]] $a \in A_p$ and $b \in B_q$ by
 
 $$
+  \begin{aligned}
   \nabla_{A,B} 
   \;\colon\; 
   a \otimes b 
     \;\mapsto\; 
+   &
    \sum_{(\mu,\nu) \in Sh(p,q)} 
    sgn(\mu,\nu) 
    \cdot
    \big(s_\nu(a)\big) 
      \otimes 
    \big(s_\mu(b)\big)
-   \;\;
+   \\
+   &
    \in
    C_{p+q}(A \otimes B)
    =
    A_{p+q} \otimes B_{p+q}
-  \,,
+   \,,
+  \end{aligned}
 $$
 
 where:
@@ -69,7 +73,7 @@ where:
 
 * $sgn(\mu,\nu)$ is the [[signature of a permutation|signature]] of the corresponding [[permutation]],
 
-* the maps $s_{\mu}$ and $s_\nu$ are defined by:
+* the maps $s_{\mu}$ and $s_\nu$ are iterated [[degeneracy maps]]:
   
   $$ 
     s_{\mu}   
@@ -114,7 +118,7 @@ The sum in Def. \ref{TheEilenbergZilberMap} may be understood as being over all 
 +-- {: .num_prop}
 ###### Proposition
 
-This Eilenberg-Zilber map (Def. \ref{TheEilenbergZilberMap}) [[corestriction|co]]/[[restriction|restricts]] to the [[normalized chain complex]] inside the [[Moore complex]], to a [[chain map]] of the form:
+This Eilenberg-Zilber map (Def. \ref{TheEilenbergZilberMap}) [[corestriction|co]]/[[restriction|restricts]] on the [[normalized chain complex]] inside the [[Moore complex]], to a [[chain map]] of the form:
 
 $$
   \nabla_{A,B} 
