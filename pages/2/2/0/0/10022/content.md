@@ -75,7 +75,7 @@ Various properties of [[entanglement entropy]] find immediate geometric interpre
 
 Further discussion of implications of the Ryu-Takayanagi formula in [van Raamsdonk 10](#vanRaamsdonk10) suggested that the logic may also be turned around: Instead of computing [[entanglement entropy]] of a given [[boundary field theory]] from known [[bulk]] [[geometry]], conversely the [[bulk]] [[spacetime]] may be reconstructed from knowledge of the [[entanglement entropy]] of a boundary field theory.
 
-Talking this perspective to the extreme suggests a description of [[bulk]] [[spacetimes]] entirely in terms of [[quantum information theory]]/[[entanglement]]-relations of a boundary [[QFT]] ("[[tensor networks]]", [Swingle 09](#Swingle09), [Swingle 12](#Swingle12), and [[quantum error correction codes]] [ADH 14](#ADH14), [PYHP 15](#PYHP15), see [Harlow 18](#Harlow18), [Jahn-Eisert 21](#JahnEisert21) for review).
+Talking this perspective to the extreme suggests a description of [[bulk]] [[spacetimes]] entirely in terms of [[quantum information theory]]/[[entanglement]]-relations of a boundary [[QFT]] ("[[tensor networks]]", [Swingle 09](#Swingle09), [Swingle 12](#Swingle12), and [[quantum error correction codes]] [ADH 14](#ADH14), [PYHP 15](#PYHP15), [HNQTWY 16](#HNQTWY16), see [Harlow 18](#Harlow18), [Jahn-Eisert 21](#JahnEisert21) for review).
 
 
 Here a [[tensor network]] [[Poincaré duality|Poincaré dual]] to a finite-stage [[hyperbolic tesselation]] of the [[hyperbolic plane]] is interpreted as a discretized model for a [[bulk]] [[spacetime]] with holographic [[quantum state]] on its [[asymptotic boundary]] being given by the [[string diagram]]-evaluation of the [[tensor network]] as a [[linear map]] to the [[tensor product]] of spaces corresonding to the [[edges]] crossing the boundary of the [[tesselation]]. 
@@ -336,6 +336,8 @@ and further in terms of [[quantum error correcting codes]] due to
 * {#ADH14} [[Ahmed Almheiri]], [[Xi Dong]], [[Daniel Harlow]], _Bulk Locality and Quantum Error Correction in AdS/CFT_, JHEP 1504:163,2015 ([arXiv:1411.7041](https://arxiv.org/abs/1411.7041))
 
 * {#PYHP15} [[Fernando Pastawski]], [[Beni Yoshida]], [[Daniel Harlow]], [[John Preskill]], _Holographic quantum error-correcting codes: Toy models for the bulk/boundary correspondence_, JHEP 06 (2015) 149 ([arXiv:1503.06237](https://arxiv.org/abs/1503.06237))
+
+* {#HNQTWY16} Patrick Hayden, Sepehr Nezami, Xiao-Liang Qi, Nathaniel Thomas, Michael Walter, Zhao Yang, _Holographic duality from random tensor networks_, JHEP 11 (2016) 009 ([arXiv:1601.01694](https://arxiv.org/abs/1601.01694))
 
 * Helia Kamal, [[Geoffrey Penington]], _The Ryu-Takayanagi Formula from Quantum Error Correction: An Algebraic Treatment of the Boundary CFT_ ([arXiv:1912.02240](https://arxiv.org/abs/1912.02240))
 
