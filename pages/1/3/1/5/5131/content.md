@@ -19,7 +19,7 @@
 
 ## Idea
 
-This page describes aspects of the [[combinatorics]] of [[Cartesian products]] of [[simplicial sets]], mostly by describing (Prop. \ref{NonDegenerateSimplicesInProductOfSimplices}) the non-degenerate simplicices inside a [[Cartesian product]] $\Delta[p] \times \Delta[q]$ of basic [[n-simplices]] for $n = p,q$. These are enumerate by the $(p,q)$ (un-)[[shuffles]] in a manner that for [[simplicial abelian groups]] is originally known from the [[Eilenberg-Zilber map]].
+This page describes aspects of the [[combinatorics]] of [[Cartesian products]] of [[simplicial sets]], mostly by describing (Prop. \ref{NonDegenerateSimplicesInProductOfSimplices}) the non-degenerate simplicices inside a [[Cartesian product]] $\Delta[p] \times \Delta[q]$ of basic [[n-simplices]] for $n = p,q$. These are enumerated by $(p,q)$-(un-)[[shuffles]] in a manner that for [[simplicial abelian groups]] is originally known from the [[Eilenberg-Zilber map]].
 
 
 ## Products of simplicial sets
@@ -35,7 +35,7 @@ $$
   SimplicialSets
 $$
 
-is the simplicial set whose $k$th component [[set]] is the [[Cartesian product]] of [[Sets]] of the components of the two factors
+is the [[simplicial set]] whose $k$th component [[set]] is the [[Cartesian product]] of [[Sets]] of the components of the two factors
 
 \[
   \label{ComponentSetsOfProductSimplicialSet}
@@ -316,20 +316,30 @@ $$
   X_q \to X_{p+q}
 $$
 
-for [[composition|composite]] of co-[[degeneracy maps]]
+for the [[composition|composite]]
 
 $$
   [p+q] 
-    \overset{\;\; \sigma_{\mu_q} \;\;}{\longrightarrow}
+    \overset{\;\; 
+      \sigma_{\mu_q - 1 }  
+    \;\;}{\longrightarrow}
   [p+q-1]
-    \overset{\;\; \sigma_{\mu_{q-1}} \;\;}{\longrightarrow}
-  \cdots
-   \overset{\;\; \sigma_{\mu_1} \;\;}{\longrightarrow}
+    \longrightarrow
+    \cdots
+    \longrightarrow
+  [q + 2]
+    \overset{\;\; 
+      \sigma_{ \mu_{2} - 1 } 
+    \;\;}{\longrightarrow}
+   [q + 1]
+   \overset{\;\; 
+     \sigma_{ \mu_1 - 1 } 
+   \;\;}{\longrightarrow}
    [q]
   \,,
 $$
 
-hence where $\sigma_i$ is the surjective monotone map that repeats the index $i$.
+where $\sigma_i \,\colon\, [n+1] \to [n]$ denotes  the [[surjective map|surjective]] [[monotone map]] (the [[codegeneracy map]]) that repeats the index $i$.
 
 \end{definition}
 
