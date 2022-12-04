@@ -91,6 +91,9 @@ On [[quasi-categories]]:
 
 * {#Rezk16} [[Charles Rezk]], _Stuff about quasicategories_, Lecture Notes for course at University of Illinois at Urbana-Champaign, 2016, version May 2017 ([pdf](http://math.uiuc.edu/~rezk/595-fal16/quasicats.pdf), [[RezkQuasicategories.pdf:file]])
 
+* [[Charles Rezk]], *Introduction to quasicategories* (2022) &lbrack;[pdf](https://faculty.math.illinois.edu/~rezk/quasicats.pdf), [[Rezk-IntroToQuasicategories.pdf:file]]&rbrack;
+
+
 On [[compactly generated topological spaces]]:
 
 * [[Charles Rezk]], *Compactly Generated Spaces*, 2018 ([pdf](https://faculty.math.illinois.edu/~rezk/cg-spaces-better.pdf), [[Rezk_CompactlyGeneratedSpaces.pdf:file]])
