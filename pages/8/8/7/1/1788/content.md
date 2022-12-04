@@ -1,6 +1,42 @@
 
 
 \begin{tikzcd}[
+  row sep=0pt
+  ]
+  7 &[-20pt] 
+  {} \ar[rr, -, line width=5pt, blue, opacity=.3] &[-10pt] {}  &[+25pt] {} &[-10pt] {}
+  &[+30pt]
+  5 &[-20pt] {} &[-10pt] {} \ar[rr, -, line width=5pt, blue, opacity=.3] &[+25pt] {} &[-10pt] {}
+  \\
+  6 & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {}  & {} & {}
+  &
+  3 & {} & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {}
+  \\
+  5 & {} & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {}
+  &
+  2 & {} & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {}
+  \\
+  4 & {}  \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {} & {}
+  &
+  7 &
+  {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {}  & {} & {}
+  \\
+  3 & {} & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {}
+  &
+  6 & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {}  & {} & {}
+  \\
+  2 & {} & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {}
+  &
+  4 & {}  \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {} & {}
+  \\
+  1 & {} \ar[rr, -, line width=5pt, blue, opacity=.3]  & {} & {} & {} 
+  &
+  1 & {} \ar[rr, -, line width=5pt, blue, opacity=.3]  & {} & {} & {} 
+\end{tikzcd}
+
+
+
+\begin{tikzcd}[
     sep=30pt
   ]
     &[-12pt]
