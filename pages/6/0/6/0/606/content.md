@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Combinatorics
++-- {: .hide}
+[[!include combinatorics - contents]]
+=--
 #### Homotopy theory
 +--{: .hide}
 [[!include homotopy - contents]]
