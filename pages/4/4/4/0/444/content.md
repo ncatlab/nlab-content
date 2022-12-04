@@ -315,8 +315,7 @@ of [[Cat]] on non-empty finite [[linear orders]] regarded as categories, meaning
 +-- {: .num_defn}
 ###### Definition
 
-For $\mathcal{C}$ a [[small category]] its _nerve_ 
-$N(\mathcal{C})$ is the [[simplicial set]] given by
+For $\mathcal{C}$ a [[small category|small]] [[strict category]] its _nerve_ $N(\mathcal{C})$ is the [[simplicial set]] given by
 
 
 $$
@@ -329,7 +328,8 @@ $$
     Set
   \,,
 $$
-where [[Cat]] is regarded as a [[1-category]] with objects locally small categories, and morphisms being [[functors]] between these.
+
+where [[Cat]] is regarded as a [[1-category]] with objects locally small strict categories, and morphisms being [[functors]] between these.
 
 =--
 
@@ -555,36 +555,156 @@ $$
 
 It suggests the sense that  a Kan complex  models an [[∞-groupoid]]. The possible lack of uniqueness of fillers in general gives the 'weakness' needed, whilst the lack of a [[coskeletal]] property requirement means that the homotopy type it represents has enough generality, not being constrained to be a 1-type.
 
-+-- {: .num_prop}
-###### Proposition
-
+\begin{proposition}
+\label{NerveOfCategoriesIsFullyFaithfulFunctor}
+\linebreak
 The nerve functor
-
-$$
-  N : Cat \to SSet
-$$
-
-is a [[full and faithful functor]].
-
-=--
+$
+  N \colon Cat \longrightarrow SSet
+$
+(on [[small category|small]] [[strict categories]]) is a [[full and faithful functor]].
+\end{proposition}
 
 So  [[functors]] between [[locally small category|locally small categories]] are in [[bijection]] with morphisms of [[simplicial sets]] between their nerves.
 
+\begin{proposition}
+\label{NerveOfCategoriesPreservesFiniteProducts}
+The nerve functor
+$
+  N \colon Cat \longrightarrow SSet
+$
+(on [[small category|small]] [[strict categories]]) [[preserved limit|preserves]] [[finite products]], in that it sends:
 
+1. the [[terminal category]] to the terminal simplicial set,
+
+1. any [[product category]] to the [[product of simplicial sets]] of the nerves of the factors:
+
+   $$
+     N \;\colon\;
+     \mathcal{C} \times \mathcal{D}
+     \;\mapsto\;
+     N(\mathcal{C}) 
+       \times 
+     N(\mathcal{D})
+   $$
+
+\end{proposition}
+\begin{proof}
+  By direct inspection, using that the [[morphisms]] in a [[product category]] are just [[pairs]] of morphisms of the two factor categories.
+\end{proof}
+
+\begin{proposition}
+\label{NerveOfCategoriesPreservesMappingObjects}
+The nerve functor
+$
+  N \colon Cat \longrightarrow SSet
+$
+sends [[functor categories]] to the [[function complexes]] between the separate nerves:
+$$
+  N 
+  \big(
+    Maps(\mathcal{X},\,\mathcal{A})
+  \big)
+  \;\simeq\;
+  Maps
+  \big(
+    N(\mathcal{X})
+    ,\,
+    N(\mathcal{A})
+  \big)
+  \,.
+$$
+
+\end{proposition}
+\begin{proof}
+For $n \in \mathbb{N}$ we have the following sequence of [[natural isomorphisms]]:
+$$
+  \begin{array}{l}
+  \Big(
+  N
+  \big(
+    Maps(\mathcal{C}, \mathcal{D})
+  \big)
+  \Big)_n
+  \\
+  \;\simeq\;
+  Hom_{Cat}
+  \big(
+    \mathcal{C} \times [n]
+    ,\,
+    \mathcal{D}
+  \big)
+  \\
+  \;\simeq\;
+  Hom_{sSet}
+  \big(
+    N(\mathcal{C} \times [n])
+    ,\,
+    N(\mathcal{D})
+  \big)
+  \\
+  \;\simeq\;
+  Hom_{sSet}
+  \big(
+    N(\mathcal{C}) \times N([n])
+    ,\,
+    N(\mathcal{D})
+  \big)  
+  \\
+  \;\simeq\;
+  Hom_{sSet}
+  \big(
+    N(\mathcal{C}) \times \Delta[n]
+    ,\,
+    N(\mathcal{D})
+  \big)  
+  \\
+  \;\simeq\;
+  Maps
+  \big(
+    N(\mathcal{C})
+    ,\,
+    N(\mathcal{D})
+  \big)_n  
+  \end{array}
+$$
+
+Here
+
+* the first step follows as discussed at *[[natural transformation]]* ([here](natural+transformation#InTermsOfCartMon));
+
+* the second step follow by Prop. \ref{NerveOfCategoriesIsFullyFaithfulFunctor};
+
+* the third step follows by Prop. \ref{NerveOfCategoriesPreservesFiniteProducts}.
+
+\end{proof}
 
 
 +-- {: .num_prop}
 ###### Proposition
 
-A [[simplicial set]] $S$ is the nerve of a locally small category $C$ precisely if it satisfies the [[Segal conditions]]:  precisely if all the commuting squares
+A [[simplicial set]] $S$ is the nerve of a locally small category $C$ precisely if it satisfies the [[Segal conditions]]: precisely if all the [[commuting squares]]
 
 $$
   \array{
-    S_{n+m} &\stackrel{\cdots \circ d_0 \circ d_0}{\to}& S_m
+    S_{n+m} 
+    &
+     \overset
+       {\cdots \circ d_0 \circ d_0}
+       {\longrightarrow}
+    & 
+    S_m
     \\
-    {}^{\cdots d_{n+m-1}\circ d_{n+m}}\downarrow && \downarrow
+    \mathllap{
+      ^{ 
+       \cdots d_{n+m-1}\circ d_{n+m}
+      }
+    }
+    \big\downarrow && \big\downarrow
     \\
-    S_n &\stackrel{d_0 \circ \cdots d_0}{\to}& S_0
+    S_n 
+    &\underset{d_0 \circ \cdots d_0}{\longrightarrow}& 
+    S_0
   }
 $$
 
