@@ -1,4 +1,40 @@
 
+$$
+  Hom\big(
+    \Delta[n]
+    ,\,
+    [X, A] \times X
+    \xrightarrow{\; ev \;}
+    X
+  \big)
+  \;\; \simeq \;\;
+  Hom\big(
+    \Delta[n]
+    ,\,
+    [X, A] \times X
+    \xrightarrow{\; ev \;}
+    X
+  \big)
+  \;\; \colon \;\;
+  Hom\big(
+    X \times \Delta[n]
+    ,\,
+    A
+  \big)
+  \times
+  Hom\big(
+    \Delta[n]
+    ,\,
+    X
+  \big)
+  \to
+  Hom\big(
+    \Delta[n]
+    ,\,
+    A
+  \big)
+$$
+
 
 $$
   \begin{array}{cc}
