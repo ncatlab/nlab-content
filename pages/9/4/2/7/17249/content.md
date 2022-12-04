@@ -184,7 +184,7 @@ $$
 $$
 
 \end{example}
-(e.g. [Rezk (2022), Exc. 15.8](#Rezk22))
+(For the proof see [here](nerve#NerveOfCategoriesPreservesMappingObjects) at *[[nerve]]*.)
 
 
 ## Related concepts
