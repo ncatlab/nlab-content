@@ -13,18 +13,57 @@
 * table of contents
 {:toc}
  
-##Idea
+## Idea
+
+In [[mathematics]], by "shuffles" or "un-shuffles" one means  certain [[permutations]] , namely those which (when thought of as permuting the [[natural numbers]] $\{1, 2, \cdots, n \}$) are [[linear order]]-preserving along the first $p$ steps and then again along the remaining $q = n - p$ steps. 
 
 The term 'shuffle' conjures up the idea of shuffling a pack of cards. In fact the mathematical idea is nearer to shuffling two packs of cards one through the other. Suppose we have a pack of $p$ cards and a pack of $q$ cards and we build a pack of $p+q$ cards, whilst retaining the order on the two 'sub-packs'.  The result is a $(p,q)$-shuffle. 
 
-##Definitions
+Or rather, the permutation in question may be seen as describing the un-doing of such a shuffling, whence some authors say "un-shuffle" for the same concept. 
 
-###Shuffles
+{#Illustration} In this vein, the following graphics shows an illustration of an example of a $(4,3)$-(un-)shuffle of an ordered list of 7 elements:
 
-+-- {: .un_defn}
-###### Definition
+\begin{tikzcd}[
+  row sep=0pt
+  ]
+  7 &[-20pt] 
+  {} \ar[rr, -, line width=5pt, blue, opacity=.3] &[-10pt] {}  &[+25pt] {} &[-10pt] {}
+  &[+30pt]
+  5 &[-20pt] {} &[-10pt] {} \ar[rr, -, line width=5pt, blue, opacity=.3] &[+25pt] {} &[-10pt] {}
+  \\
+  6 & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {}  & {} & {}
+  &
+  3 & {} & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {}
+  \\
+  5 & {} & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {}
+  &
+  2 & {} & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {}
+  \\
+  4 & {}  \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {} & {}
+  &
+  7 &
+  {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {}  & {} & {}
+  \\
+  3 & {} & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {}
+  &
+  6 & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {}  & {} & {}
+  \\
+  2 & {} & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {}
+  &
+  4 & {}  \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {} & {}
+  \\
+  1 & {} \ar[rr, -, line width=5pt, blue, opacity=.3]  & {} & {} & {} 
+  &
+  1 & {} \ar[rr, -, line width=5pt, blue, opacity=.3]  & {} & {} & {} 
+\end{tikzcd}
 
-For $p,q \in \mathbb{N}$ two [[natural number]]s, a **$(p,q)$-shuffle** is a [[permutation]]
+
+
+## Definitions
+
+\begin{definition}
+
+For $p,q \in \mathbb{N}$ two [[natural numbers]], a **$(p,q)$-shuffle** is a [[permutation]]
 
 $$
   (\mu_1, \cdots, \mu_p, \nu_1, \cdots, \nu_q)
@@ -43,29 +82,60 @@ $$
   \,.
 $$
 
+In more formal terms, a $(p,q)$-shuffle is a [[permutation]] $\sigma \,\in\, \Sigma_{p + q}$ (an [[element]] of the [[symmetric group]] [[group action|acting]] on the [[finite set]] $\{1, \cdots, p + q\}$ of $p + q$ [[elements]]), such that 
+
+$$
+  \sigma(1)
+  \lt
+  \sigma(2)
+  \lt 
+  \cdots
+  \lt
+  \sigma(p)
+  \;\;\;\;\;\;\;\;
+  \text{and}
+  \;\;\;\;\;\;\;\;
+  \sigma(p+1)
+  \lt
+  \sigma(p+2)
+  \lt 
+  \cdots
+  \lt
+  \sigma(p+q)
+  \,;
+$$
+
+hence, equivalently, such that 
+
+$$  
+  \underset{1 \leq i \lt p+q}{\forall}
+  \;\;\;\;\;\;\;\;\;\;
+  i \neq p
+    \;\;\;\;
+      \Rightarrow
+    \;\;\;\;
+  \sigma(i) \lt \sigma(i + 1)
+  \,.
+$$
+
 The **signature** of a $(p,q)$-shuffle is the [[signature of a permutation|signature]] of the corresponding permutation.
 
-=--
+\end{definition}
 
-###Equivalent characterizations
-
-Two other equivalent (and dual) ways of defining the notion of $(p,q)$-shuffle are as follows (e.g. [Hoffbeck-Moerdijk 17, section 1.1](#HoffbeckMoerdijk17)):
+Two other equivalent (and dual) ways of defining the notion of $(p,q)$-shuffle are as follows (e.g. [Hoffbeck-Moerdijk 17, section 1.1](#HoffbeckMoerdijk17)), naturally understood as characterizing the non-degenerate [[simplices]] in a [[product of simplices]] (e.g. [Kerodon 2.5.7.2](#Kerodon): [00RH](https://kerodon.net/tag/00RH)):
 
 * Consider $p$ and $q$ as the [[linear orders]] $(p) = \{ 1 \lt \dots \lt p \}$ and $(q) = \{ 1 \lt \dots \lt q \}$. Then a $(p,q)$-shuffle is a way of extending the [[partial order]] on the [[coproduct]] $(p) + (q)$ to a linear order, or equivalently, a [[surjective]] [[monotone function]]
-$$(p) + (q) \to (p+q).$$
-* Consider $p$ and $q$ as [[non-empty]] [[linear orders]] $[p] = \{ 0 \lt \dots \lt p \}$ and $[q] = \{ 0 \lt \dots \lt q \}$. Then a $(p,q)$-shuffle is a [[maximal chain]] within the [[product]] [[partial order]] $[p] \times [q]$, or equivalently, an [[injective]] [[monotone function]]
-$$[p+q] \to [p] \times [q].$$
 
-### Unshuffles 
+   $$
+     (p) + (q) \to (p+q)
+   $$
 
-The same concept viewed from the other end leads to _unshuffles_ .  These are just shuffles but are used in dual situations in the applications. The definition that follows is 'from the literature'. It is equivalent to that of shuffle that we gave above. (Although not needed, it is important to note the different terminology used in certain applications of the idea for when original source material is consulted.)
+* Consider $p$ and $q$ as [[non-empty]] [[linear orders]] $[p] = \{ 0 \lt \dots \lt p \}$ and $[q] = \{ 0 \lt \dots \lt q \}$. Then a $(p,q)$-shuffle is a [[maximum|maximal]] [[chain]] within the [[product]] [[partial order]] $[p] \times [q]$, or equivalently, an [[injective]] [[monotone function]]:
 
-
-+-- {: .un_defn}
-###### Definition
-We say that a permutation $\sigma\in S_n$ is a $(j,n-j)$-unshuffle, $o\leq j\leq n$ if $\sigma(1)\lt \ldots \sigma(j)$ and $\sigma(j+1)\lt \ldots \lt \sigma(n)$.
-=--
-You can also say that $\sigma$ is a $(j,n-j)$-unshuffle if $\sigma(i) \lt \sigma(i+1)$ when $i\neq j$.
+  $$
+    [p + q] \to [p] \times [q]
+    \,.
+  $$
 
 ## Applications 
 
