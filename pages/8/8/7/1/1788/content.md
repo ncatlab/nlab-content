@@ -1,5 +1,135 @@
 
 $$
+  \begin{array}{l}
+  \Big(
+  N
+  \big(
+    Maps(\mathcal{C}, \mathcal{D})
+  \big)
+  \Big)_n
+  \\
+  \;\simeq\;
+  Hom_{Cat}
+  \big(
+    \mathcal{C} \times [n]
+    ,\,
+    \mathcal{D}
+  \big)
+  \\
+  \;\simeq\;
+  Hom_{sSet}
+  \big(
+    N(\mathcal{C} \times [n])
+    ,\,
+    N(\mathcal{D})
+  \big)
+  \\
+  \;\simeq\;
+  Hom_{sSet}
+  \big(
+    N(\mathcal{C}) \times N([n])
+    ,\,
+    N(\mathcal{D})
+  \big)  
+  \end{array}
+$$
+
+\linebreak
+\linebreak
+
+$$
+  N
+  \Big(
+    Maps\big( 
+      (\mathcal{G}_1 \rightrightarrows \mathcal{G}_0)
+      ,\,
+      (\mathcal{H}_1 \rightrightarrows \mathcal{H}_0)
+    \big)
+  \Big)
+  \;\;
+  \simeq
+  \;\;
+  Maps
+  \Big(
+    N(\mathcal{G}_1 \rightrightarrows \mathcal{G}_0)
+    ,\,
+    N(\mathcal{H}_1 \rightrightarrows \mathcal{H}_0)
+  \Big)
+$$
+
+\linebreak
+
+$$
+  \begin{array}{ccc}
+    S 
+      \times 
+    N(\Lambda \mathbf{B}G)
+    &
+    \xrightarrow{\;\;\; \;\;\;}
+    &
+    N(\mathbf{B}G)
+    \\
+    \begin{array}{c}
+      [0,
+        \cdots, 
+        \overset{ 
+          \mathclap{
+            \mathrm{step} \; j 
+          }
+        }{
+          \overbrace{0, 1}
+        }, 
+        \cdots, 
+      1]
+      \\
+      \big(
+        \gamma
+        ;\,
+        g_{n-1}, 
+        \cdots, 
+        \underset{
+          \mathclap{
+            \mathrm{step} \; j
+          }
+        }{
+          \underbrace{\mathrm{e}}
+        }
+        , 
+        \cdots 
+        ,
+        g_1
+        , 
+        g_0
+      \big)
+    \end{array}
+    &\mapsto&
+    \big(
+      g_{n-1}
+      ,\,
+      \cdots
+      ,\,
+      g_{n-j}
+      ,\,
+      Ad_j(\gamma)
+      ,\,
+      g_{n - j - 1}
+      ,\,
+      \cdots
+      ,\,
+      g_0
+    \big)
+  \end{array}
+$$
+
+\linebreak
+
+\linebreak
+
+\linebreak
+
+\linebreak
+
+$$
   Hom\big(
     \Delta[n]
     ,\,
