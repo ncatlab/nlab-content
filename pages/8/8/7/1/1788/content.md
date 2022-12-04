@@ -1,5 +1,34 @@
 
 
+$$
+  \begin{array}{cc}
+  \text{path} & (1,n)\text{-shuffle}
+  \\
+  \left(
+  \;\,
+  \array{
+    \mathllap{[}
+    0 & 1 & 1 & 1 & 1 & \cdots & 1 & 1
+    \mathrlap]
+    \\
+    \mathllap[
+    0 & 0 & 1 & 2 & 3 & \cdots & n-1 & n
+    \mathrlap]
+  }
+  \;\,
+  \right)
+  &
+  \Big(
+    1
+    ,
+    \;
+    2, 3, \cdots, n
+  Big)
+  \,,
+  \end{array}
+$$
+
+
 \begin{tikzcd}[
   row sep=0pt
   ]
