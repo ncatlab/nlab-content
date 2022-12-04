@@ -39,7 +39,7 @@ But prominent claims of experimental detection of (these kinds of) Majorana zero
 
 * and a range of further claims are under similar criticism, see [Frolov & Mourik 2020](https://doi.org/10.5281/zenodo.6344447), [Das Sarma & Pan 2021](#DasSarmaPan21), [Frolov, Mourik & Zuo 2022](https://doi.org/10.5281/zenodo.6325378) and the extensive list [here](https://twitter.com/spinespresso/status/1503352928656138241). 
 
-While some (probably most) researchers now dismiss the whole approach (e.g. [BSSA21](#BSSA21), [p. 3](https://arxiv.org/pdf/2106.11840v4.pdf#page=3)) there is a new claim of detection by [Nayak 22](#Nayak22) & [MicrosoftQuantum 22](#MicrosoftQuantum22) -- but see [Frolov & Mourik 22a](#FrolovMourik22a), [22b](#FrolovMourik22a) and [Frolov 22](#Frolov22).
+While some (probably most) researchers now dismiss the whole approach (e.g. [BSSA21](#BSSA21), [p. 3](https://arxiv.org/pdf/2106.11840v4.pdf#page=3)) there is a new claim of detection by [Nayak 22](#Nayak22) & [MicrosoftQuantum 22](#MicrosoftQuantum22) -- but see cautionary commentary by [Frolov & Mourik 22a](#FrolovMourik22a), [22b](#FrolovMourik22a), [Frolov 22](#Frolov22) and [Das Sarma 22, p. 9](#DasSarma22).
 
 ## References
 
@@ -68,6 +68,11 @@ General review and experimental status:
 * [[Sergey M. Frolov]], *How do we discover MAJORANA PARTICLES in NANOWIRES?*, talk via [ Instituto de Física, Universidade de São Paulo](http://portal.if.usp.br/ifusp/) (May 2021) &lbrack;[video](https://www.youtube.com/watch?v=7btnPqmSh_0)&rbrack;
 
   > [41:25](https://youtu.be/7btnPqmSh_0?t=2485): No, we have not discovered Majorana particles in nanowires. Yes, we should be able to do it.
+
+
+* {#DasSarma22} [[Sankar Das Sarma]], *In search of Majorana* &lbrack;[arXiv:2210.17365](https://arxiv.org/abs/2210.17365)&rbrack;
+
+
 
 See also:
 
