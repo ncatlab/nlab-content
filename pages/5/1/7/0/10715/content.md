@@ -9,6 +9,7 @@ The _initial value problem_ or _Cauchy problem_ for [[partial differential equat
 
 ## References
 
+* Wikipedia, _[Initial value problem](https://en.wikipedia.org/wiki/Initial_value_problem)_
 * Wikipedia, _[Cauchy problem](http://en.wikipedia.org/wiki/Cauchy_problem)_
 
 [[!redirects initial value problems]]
