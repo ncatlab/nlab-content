@@ -15,11 +15,53 @@
 
 ## Definition ##
 
+### In Heyting fields
+
 Given a [[Heyting field]] $F$, let us define the [[type]] of all [[terms]] in $F$ [[apartness|apart]] from 0:
 
 $$F_{#0} \coloneqq \{a \in F \vert a # 0\}$$
 
 The **reciprocal** or **reciprocal function** is a [[partial function]] $f:F_{#0} \to F$ such that for all $a \in F_{#0}$ we have $a \cdot f(a) = 1$ and $f(a) \cdot a = 1$
+
+### In dense sequentially Cauchy complete ordered integral domains
+
+Let $R$ be a [[ordered integral domain]], and for all elements $a \in R$ and $b \in R$ let $(a, b)$ be the [[open interval|open subinterval]] containing all elements greater than $a$ and less than $b$. Then the sequences
+
+$$f(p)(x) \coloneqq \sum_{n=0}^{p} x^n$$
+$$g(p)(x) \coloneqq \sum_{n=0}^{p} (-1)^n x^n$$
+
+indexed by natural number $p \in \mathbb{N}$ are [[Cauchy sequences]] for all elements $x \in (-1, 1)$, and if $R$ is [[sequentially Cauchy complete]], it has a limit for elements $x \in (-1, 1)$ as 
+
+$$f_\infty(x) \coloneqq \lim_{p \to \infty} \sum_{n=0}^{p} x^n$$
+$$g_\infty(x) \coloneqq \lim_{p \to \infty} \sum_{n=0}^{p} (-1)^n x^n$$
+
+If $R$ is also [[dense]] with given element $a \in (0, 1)$, then there are sequences of sequences
+
+$$f'(i)(p)(x) \coloneqq a^i \sum_{n=0}^{p} (-a^i)^n (x-f_\infty(-a^i+1))^n$$
+$$g'(i)(p)(x) \coloneqq a^i \sum_{n=0}^{p} (-a^i)^n (x+g_\infty(a^i-1))^n$$
+
+indexed by natural numbers $i \in \mathbb{N}$ and $p \in \mathbb{N}$, the first which is Cauchy for elements $x \in (-2 f_\infty(-a^i+1), 0)$ and the second which is Cauchy for $x \in (0, 2 g_\infty(a^i-1))$. Since $R$ is sequentially Cauchy complete, both have limits as 
+
+$$f_\infty'(i)(x) \coloneqq \lim_{p \to \infty} a^i \sum_{n=0}^{p} (-a^i)^n (x-f_\infty(-a^i+1))^n$$
+$$g_\infty'(i)(x) \coloneqq \lim_{p \to \infty} a^i \sum_{n=0}^{p} (-a^i)^n (x+g_\infty(a^i-1))^n$$
+
+which themselves are Cauchy, and thus have limits 
+$$f' '(x) \coloneqq \lim_{i \to \infty} f_\infty'(i)(x)$$
+$$g' '(x) \coloneqq \lim_{i \to \infty} g_\infty'(i)(x)$$
+
+Since both $f_\infty(-a^i+1)$ and $g_\infty(a^i-1)$ go to infinity as $i$ goes to infinity, the domain of $f' '$ is $(-\infty, 0)$ and the domain of $g' '$ is $(0, \infty)$. 
+
+The __reciprocal__ $\frac{1}{(-)}:(-\infty, 0)\union (0, \infty) \to R$ is a piecewise defined [[partial function]] defined as 
+
+$$
+\frac{1}{x} \coloneqq 
+\begin{cases}
+f' '(x) & x \in (-\infty, 0) \\
+g' '(x) & x \in (0, \infty)
+\end{cases}
+$$
+
+Thus, every dense sequentially Cauchy complete ordered integral domain is an [[ordered field]]. 
 
 ## See also ##
 
