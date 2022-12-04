@@ -28,6 +28,10 @@ On the need for [[topological quantum computation]] in [[quantum computation]]:
 
   > The [[qubit]] systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. $[\cdots]$ What is missing is the breakthrough $[\cdots]$ bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called [[topological quantum computing]].
 
+On the prospect of detecting [[Majorana zero modes]]:
+
+* {#DasSarma22} [[Sankar Das Sarma]], *In search of Majorana* &lbrack;[arXiv:2210.17365](https://arxiv.org/abs/2210.17365)&rbrack;
+
 
 
 category: people
