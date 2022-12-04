@@ -1,5 +1,5 @@
 
-> This entry is about the notion of _monad_ in [[category theory]]. For other notions see _[[monad (disambiguation)]]_.
+> This entry is about the notion of _monad_ in [[category theory]] and [[categorical algebra]]. For other notions see _[[monad (disambiguation)]]_.
 
 ***
 
@@ -21,13 +21,11 @@
 * table of contents
 {:toc}
 
-The entry is about monads in the sense of category theory, for another concept see also [[monad in nonstandard analysis]]. 
-
 ## Idea
 
-A [[monad]] is a structure that is a lot like a [monoid](https://ncatlab.org/nlab/show/monoid+in+a+monoidal+category), but that lives in a [[bicategory]] rather than a [[monoidal category]].  In other words, the concept of a monad is a [[vertical categorification]] of that of a monoid.
+A [[monad]] is a structure that is a lot like a [monoid](monoid+in+a+monoidal+category), but that lives in a [[bicategory]] rather than a [[monoidal category]]. In other words, the concept of a monad is a [[vertical categorification]] of that of a monoid.
 
-Monads are among the most pervasive structures in [[category theory]] and its applications.   For their applications to computer science, see *[[monad (computer science)|monads in computer science]]*.
+Monads are among the most pervasive structures in [[category theory]] and its applications (notably to [[categorical algebra]]). For their applications to [[computer science]], see *[[monad (computer science)|monads in computer science]]*.
 
 Many of these applications use monads in the bicategory [[Cat]], which is called a monad *on a category*.   These are central to the category-theoretic account of [[universal algebra]], as well as underlying the theory of [[simplicial objects]] and thus, via the [[Dold-Kan correspondence]], much of [[homological algebra]].   
 
@@ -160,26 +158,33 @@ For a fixed set of "states" $S$, the ($S \times - \dashv (-)^S$)-adjunction indu
 
 +-- {: .num_example #ContinuationMonad}
 ###### Example
-The contravariant [[power set]] functor is its own right adjoint, giving $\Set(A,P B) \cong \Set (B, P A)$. Note that $\hom(A, P B) = \hom(A, \hom(B,\Omega)) \cong \hom( A \times B, \Omega) = P(A \times B)$ inducing a **double power set monad** taking a set $A$ to $P^2 A$. The components of the unit are the [[ultrafilter|principal ultrafilter]] functions $\eta_A : A \to P^2 A$ which send an element $a$ to the set of subsets of $A$ that contain $a$. The components of the  multiplication $\mu_A$ is the inverse image function for the map $\eta_{P A} : P A \to P^3 A$. Which can be painfully stated as: the function taking a set of sets of sets of subsets to the set of subsets of $A$ with the property that one of the sets of sets of subsets is the set of all sets of subsets of $A$ that include that particular subset as an element. 
 
-Replacing the two element [[power object]] $\Omega$ with any other set gives similar monads. In computer science contexts these are known as [[continuation monad|continuation monads]]. This construction can also be generalised for any other [[closed monoidal category|bi-closed monoidal category]]. For example there is a similar **double dual monad* on $\Vect_k$.
+The contravariant [[power set]]-functor is its own [[right adjoint]], giving $\Set(A,P B) \cong \Set (B, P A)$. Note that $\hom(A, P B) = \hom(A, \hom(B,\Omega)) \cong \hom( A \times B, \Omega) = P(A \times B)$ inducing a **double power set monad** taking a set $A$ to $P^2 A$. The components of the [[unit of a monad|unit]] are the [[ultrafilter|principal ultrafilter]] functions $\eta_A \colon A \to P^2 A$ which send an element $a$ to the set of subsets of $A$ that contain $a$. The components of the multiplication $\mu_A$ is the [[inverse image]] function for the map $\eta_{P A} \colon P A \to P^3 A$; which can be painfully stated as: the function taking a set of sets of sets of subsets to the set of subsets of $A$ with the property that one of the sets of sets of subsets is the set of all sets of subsets of $A$ that include that particular subset as an element. 
+
+Replacing the two element [[power object]] $\Omega$ with any other set gives similar monads. In [[monad in computer science|computer science contexts]] these are known as *[[continuation monad|continuation monads]]*. This construction can also be generalised for any other [[closed monoidal category|bi-closed monoidal category]]. For example there is a similar **double dual monad** on [[Vect|$\Vect_k$]].
 
 =--
 
 +-- {: .num_example}
 ###### Example
-[[function monad]]
+
+[[function monad]] (also "[[reader monad]]", cf. [[coreader comonad]])
+
 =--
 
 +-- {: .num_example}
 ###### Example
-[[necessity]] 
+
 [[possibility]]
+
 =--
+
 
 +-- {: .num_example}
 ###### Example
+
 [[selection monad]]
+
 =--
 
 
