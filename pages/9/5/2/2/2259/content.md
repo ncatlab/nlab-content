@@ -50,7 +50,7 @@ On [[sheaf and topos theory]]:
 
 On [[homological algebra]]:
 
-* _Homology_, number 114 in Grundlehren, Springer 1967 ([pdf](http://www.math.hcmuns.edu.vn/~nvdong/DaiSoDongDieu/Homology%20Mac%20lane.pdf))
+* [[Saunders MacLane]], *Homology*, Grundlehren der Mathematischen Wissenschaften **114**, Springer (1963, 1974), reprinted as: Classics in Mathematics, Springer (1995)  &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/maclane_homology.pdf), [doi:10.1007/978-3-642-62029-4](https://doi.org/10.1007/978-3-642-62029-4)&rbrack;
 
 
 On [[philosophy of mathematics]]:
