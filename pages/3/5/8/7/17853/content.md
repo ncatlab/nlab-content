@@ -143,3 +143,6 @@ category: topology
 [[!redirects uniform apartness spaces]]
 [[!redirects uniformly locally decomposable space]]
 [[!redirects uniformly locally decomposable spaces]]
+
+[[!redirects quasiuniformly locally decomposable space]]
+[[!redirects quasiuniformly locally decomposable spaces]]
