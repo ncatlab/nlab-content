@@ -513,6 +513,7 @@ Comments on the relation to [[topos theory]]:
 [[!redirects Hausdorff locale]]
 [[!redirects Hausdorff locales]]
 
+[[!redirects sequentially Hausdorff]]
 [[!redirects sequentially Hausdorff space]]
 [[!redirects sequentially Hausdorff spaces]]
 
