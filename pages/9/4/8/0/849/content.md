@@ -809,11 +809,15 @@ This is a Banach space and makes $Ban$ into a [[closed category]].
 A discussion query (R. Brown, T. Bartels, M. Shulman) about internal hom is at $n$Forum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=3372&Focus=27648).
 
 
+
 [[!redirects internal homs]]
 [[!redirects inner hom]]
 [[!redirects inner homs]]
 [[!redirects internal-hom]]
 [[!redirects internal-homs]]
+
+[[!redirects mapping object]]
+[[!redirects mapping objects]]
 
 
 [[!redirects exponential law]]
