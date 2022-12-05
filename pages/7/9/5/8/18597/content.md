@@ -135,7 +135,7 @@ $$
 Let $(C^\infty(\mathbb{R}^n), \pi)$ be a [[Poisson manifold]] whose
 underlying manifold is a [[Cartesian space]] $\mathbb{R}^n$. Then the restriction
 of its Poisson algebra $( C^\infty(\mathbb{R}^n, \cdot), \pi^{i j} \partial_i(-) \cdot \partial_j(-)  )$
-to the [[polynomial functions]] $\mathbb{R}[x^1, \cdots, x^n ] \ookrightarrow C^\infty(\mathbb{R}^n)$
+to the [[polynomial functions]] $\mathbb{R}[x^1, \cdots, x^n ] \hookrightarrow C^\infty(\mathbb{R}^n)$
 is a polynomial Poisson algebra according to def. \ref{PolynomialPoissonAlgebra}.
 
 In particular if $(\mathfrak{g}, [-,-])$ is a [[Lie algebra]] and
