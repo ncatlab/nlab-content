@@ -98,6 +98,10 @@ since according to the [[algebraic limit theorem]], limits distribute over finit
 
 In particular, this is how exponential functions are defined in [[Clifford algebras]] and [[matrix algebras]]. However, the exponential functions in non-commutative algebras are not [[abelian group homomorphisms]], because multiplication is not commutative while addition is commutative. 
 
+### In the dual numbers
+
+The [[dual number]] real algebra $\mathbb{D} \coloneqq \mathbb{R}[\epsilon]/\epsilon^2$ has a notion of exponential function, which is the solution to the functional equation $\exp(x + \epsilon) = \exp(x) (1 + \epsilon)$ with $\exp(0) = 1$. 
+
 ## In arbitrary Archimedean ordered fields
 
 In general, Archimedean ordered fields which are not [[sequentially Cauchy complete]] do not have an exponential function. Nevertheless, the exponential map is still guaranteed to be a [[partial function]], because every Archimedean ordered field is a [[Hausdorff space]] and thus a [[sequentially Hausdorff space]]. Thus, an axiom could be added to an Archimedean ordered field $F$ to ensure that the exponential partial function is actually a total function:
