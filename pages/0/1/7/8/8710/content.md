@@ -43,9 +43,9 @@ No full formalization of such a type theory currently exists, and how to design 
 
 Some work has been done on [[synthetic differential geometry]] in modal homotopy type theory.
 
-[[Felix Cherubini]] ([Cherubini18]({#Cherubini})) has formalized some synthetic differential geometry using an abstract [[infinitesimal shape modality]] working in plain homotopy type theory.
+[[Felix Cherubini]] ([Cherubini18](#Cherubini)) has formalized some synthetic differential geometry using an abstract [[infinitesimal shape modality]] working in plain homotopy type theory.
 
-[[David Jaz Myers]] ([JazMyers22]({#JazMyers})) formalized a synthetic theory of [[orbifolds]] working in a type theory extending [[cohesive homotopy type theory]] with axioms such as the [[Kock-Lawvere axiom]] to axiomatize the notion of infinitesimals and defines the [[infinitesimal shape modality]] and [[shape modality]] as [[localizations]] at the infinitesimals and reals respectively.
+[[David Jaz Myers]] ([JazMyers22](#JazMyers)) formalized a synthetic theory of [[orbifolds]] working in a type theory extending [[cohesive homotopy type theory]] with axioms such as the [[Kock-Lawvere axiom]] to axiomatize the notion of infinitesimals and defines the [[infinitesimal shape modality]] and [[shape modality]] as [[localizations]] at the infinitesimals and reals respectively.
 
 
 ## Related concepts
@@ -60,8 +60,8 @@ Some work has been done on [[synthetic differential geometry]] in modal homotopy
 
 ## References
 
-* {#Cherubini} [[Felix Cherubini]], Cartan Geometry in Modal Homotopy Type Theory, [arxiv](https://arxiv.org/abs/1806.05966)
+* {#Cherubini} [[Felix Cherubini]], Cartan Geometry in Modal Homotopy Type Theory, ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966))
 
-* [[David Jaz Myers]], Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory [arxiv](https://arxiv.org/abs/2205.15887)
+* {#JazMyers} [[David Jaz Myers]], Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory ([arXiv:2205.15887](https://arxiv.org/abs/2205.15887))
 
 [[!redirects differential homotopy type theory]]
