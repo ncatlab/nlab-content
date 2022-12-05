@@ -33,6 +33,11 @@ Further discussion (all without attribution):
 
 * Zhuan Li, Roger S.K. Mong, *Detecting topological order from modular transformations of ground states on the torus* $[$[arXiv:2203.04329](https://arxiv.org/abs/2203.04329)$]$
 
+
+* Willie Aboumrad, *Quantum computing with anyons: an F-matrix and braid calculator* $[$[arXiv:2212.00831](https://arxiv.org/abs/2212.00831)$]$
+
+
+
 Relation to [[ZX-calculus]]:
 
 * [[Fatimah Rita Ahmadi]], [[Aleks Kissinger]], *Topological Quantum Computation Through the Lens of Categorical Quantum Mechanics* $[$[arXiv:2211.03855](https://arxiv.org/abs/2211.03855)$]$
