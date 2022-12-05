@@ -11,5 +11,9 @@ Relating [[parafermions]] to the [[affine Lie algebra|affine]] [[su(2)]]-[[curre
 
 * [[Daniel C. Cabra]], [[Eduardo Fradkin]], G. L. Rossini, F. A. Schaposnik, *Non-Abelian fractional quantum Hall states and chiral coset conformal field theories*, International Journal of Modern Physics A **15** 30 (2000) 4857-4870 $[$[doi:10.1142/S0217751X00002354](https://doi.org/10.1142/S0217751X00002354), [arXiv:cond-mat/9905192](https://arxiv.org/abs/cond-mat/9905192)$]$
 
+On [[solid state physics]] via [[quantum field theory]]:
+
+* [[Eduardo Fradkin]], *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) &lbrack;ISBN: 9781139015509, [doi:10.1017/CBO9781139015509](https://doi.org/10.1017/CBO9781139015509)&rbrack;
+
 
 category: people
