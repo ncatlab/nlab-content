@@ -10,13 +10,14 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea ##
 
-The most general space where the notion of convergence and limit for [[sequences]] makes sense, but the term "[[sequential convergence space]]" is already taken to mean a synonym of [[subsequential space]], and that definition is not the most general definition for which the notions of convergence and limit makes sense for sequences. 
+By a *sequential preconvergence space* we shall mean the most general kind of [[topological space]] where the notion of [[convergence]] and [[limit of a sequence|limit]] for [[sequences]] makes sense. The possibly more evident term "[[sequential convergence space]]" for this notion is already taken to mean a synonym of *[[subsequential space]]*, but that definition is not the most general definition for which the notions of convergence and limit makes sense for sequences. 
 
 ## Definition ##
 
