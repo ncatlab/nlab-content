@@ -1,420 +1,235 @@
 
-Let $G  \,\in\, Grp(Set)$ be a [[discrete group]] and write $\mathbf{B}G \,=\,\big( G \rightrightarrows \ast\big)$ for its [[delooping groupoid]]. The [[functor category]]
 
+\begin{example}
+**([[evaluation map]] on [[function complexes]] which are [[nerves]] of [[inertia groupoids]])**
+\linebreak
+
+Consider a [[discrete group]] $G$. 
+
+We write $\mathbf{B}G$ for its [[delooping groupoid]], here specifically for its [[strict category|strict]] version $\mathbf{B}G \,\coloneqq\,\big(G \rightrightarrows \ast \big)$. The [[nerve]] of this groupoid is the canonical model for the [[simplicial classifying space]]:
+$
+  N \mathbf{B}G \,=\, \overline{W}G
+  \,.
+$
+
+The [[functor groupoid]]
 $$
   \Lambda \mathbf{B}G
   \;\coloneqq\;
-  Maps(\mathbf{B}\mathbb{Z}, \, \mathbf{B}G)
-$$
-
-is also known as the *[[inertia groupoid]]* of $G$.
-
-By the discussion [here](natural+transformation#InTermsOfCartMon) at *[[natural transformation]]* that its [[nerve]] may be described as
-
-$$
-  \big(
-    N \Lambda \mathbf{B}G
-  \big)_n
-  \;\;
-  =
-  \;\;
-  Hom\big(
-    \mathbf{B}\mathbb{Z} 
-    \,\times\,
-    [n]
-    ,\;
+  Maps\big(
+    \mathbf{B}\mathbb{Z}    
+    ,\,
     \mathbf{B}G
   \big)
+$$
+is also known as the *[[inertia groupoid]]* of $\mathbf{B}G$. 
+
+The [[simplicial nerve]] of this functor groupoid is the following [[function complex]] of [[simplicial sets]] (using [this Prop.](nerve#NerveOfCategoriesPreservesMappingObjects)):
+$$
+  N \Lambda \mathbf{B}G
+  \;\coloneqq\;
+  Maps\big(
+    N \mathbf{B}\mathbb{Z}    
+    ,\,
+    N \mathbf{B}G
+  \big)
+  \;\simeq\;
+  Maps\big(
+    S
+    ,\,
+    N \mathbf{B}G
+  \big)
+  \,.
+$$
+Here in the second step we introduced the simplicial set
+\[
+  \label{MinimalSimplicialCircle}
+  S 
+  \;\coloneqq\;
+  \Delta[1]/\partial \Delta[1]
+  \;\;\;
+  \in
+  \;
+  sSet
   \,,
+\]
+which is the [[minimal model]] for $\mathbf{B}\mathbb{Z}$, whose unique non-degenerate 1-cell we will denote by
+$$
+  \ell \;\coloneqq\; [0,1] \in \Delta[1]_1 \twoheadrightarrow S_1
 $$
 
-where $ (-) \times [n]$ denotes forming the [[product category]] with the [[poset]] $\big\{ 0 \lt 1 \lt \cdots \lt n \big\}$, regarded as a category. 
+We now describe in detail the [[evaluation map]] on the simplicial [[function complex]]
+$  
+  Maps\big(
+    S
+    ,\,
+    N \mathbf{B}G
+  \big)
+  \,.
+$
 
-We may denote the elements in this nerve by
-
+To that end, we denote by
+\[
+  \label{CellInNerveOfInertiaGroupoid}
+ \big(
+  \gamma
+  ;\,
+  g_{n-1}
+  ,\,
+  g_{n-2}
+  ,\,
+  \cdots
+  ,\,
+  g_{0}
+ \big)
+ \;\; \in \;\;
+ \mathrm{Hom}
+ \big(
+   S \times \Delta[n]
+   ,\,
+   \overline{W}G
+ \big)
+ \;\simeq\;
+ \Big(
+ N
+ \mathrm{Map}
+  \big( 
+   { \mathbf{B}\mathbb{Z} }
+   ,\,
+   { \mathbf{B}G }
+  \big)
+ \Big)_{n}
+\]
+the $n$-cell in the [[nerve]] of the [[inertia groupoid]] that corresponds to the sequence of natural transformation which start at the functor 
 $$
+  \gamma 
+    \,\in\, 
+   G 
+    \,\simeq\, 
+  \mathrm{Hom}_{\mathrm{Grp}}(\mathbb{Z}, G) 
+    \,\simeq\, 
+  \mathrm{Hom}\big(
+    \mathbf{B}\mathbb{Z}
+    ,\, 
+    \mathbf{B}G
+  \big)
+$$
+and successively have components $g_{n-\bullet} \in G$. 
+
+> Throughout we are writing "$Hom$" for [[hom-sets]] and "$Map$" for [[hom-objects]], i.e. for [[internal homs]] and we keep tacitly going back and forth through the [[bijections]] in (eq:CellInNerveOfInertiaGroupoid).
+
+If we abbreviate (this follows conventions familiar in discussion of *[[transgression in group cohomology]]*)
+$$
+  \begin{aligned}
+    Ad_{k}(\gamma)
+    & \;\coloneqq\;
+    Ad_{(g_{n-1}\cdots g_{n-k})}(\gamma)
+    \\
+    & \;\coloneqq\;
+    (g_{n-1} \cdots g_{n-k})^{-1} 
+      \cdot 
+    \gamma \cdot (g_{n-1} \cdots g_{n-k})
+    \,,
+  \end{aligned}
+$$
+then this corresponds to a sequence of composable morphisms in the inertia groupoid of this form:
+$$ 
+  \gamma
+  \xrightarrow{ g_{n-1} }
+  Ad_{1}(\gamma)
+  \xrightarrow{ g_{n-2} }
+  \cdots
+  \xrightarrow{\; g_0 \;}
+  Ad_{n}(\gamma)
+  \;\;\;\;\;
+  \in
+  \;\;
+  \Lambda B G
+$$
+
+The simplicial map (eq:CellInNerveOfInertiaGroupoid) maps the non-degenerate $(n+1)$-cells in the [[product of simplicial sets]] (see the discussion there) of $S$ (eq:MinimalSimplicialCircle) with the [[simplicial simplex|simplicial $n$-simplex]] as follows:
+
+\begin{imagefromfile}
+    "file_name": "ActionOfCellInNerveOfIniertiaGroupoid-221205.jpg",
+    "width": "800",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+This is not exactly what we need unwinding the [[evaluation map]], but it is close: the image of (eq:CellInNerveOfInertiaGroupoid) under the $k$th [[degeneracy map]] evidently gives the following mapping:
+
+
+\begin{imagefromfile}
+    "file_name": "ActOfDegOfCellInNerveOfInertiaGrpd-221205.jpg",
+    "width": "900",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+This is the mapping that appears in the component formula for the [[evaluation map]] on [[function complexes]] (via Prop. \ref{ComponentFormulaForEvaluationMap}). Hence we find that this evaluation map is given on non-degenerate $(n+1)$-simplices in the product (see again [there](product+of+simplices#NonDegenerateCellsInAProductOfSimplices)) as follows:
+
+\begin{tikzcd}[
+    column sep=30pt,
+    row sep=4pt
+  ]
+  S_{n+1}
+  \times
+  \mathrm{Hom}
   \big(
-    \gamma;
-    \,
+    S \times \Delta[n+1]
+    ,\,
+    \overline{W}G
+  \big)
+  \ar[
+    rr,
+    "{ \mathrm{ev} }"
+  ]
+  &&
+  \big(
+    \overline{W}G
+  \big)_{n+1}
+  \\
+  \Big(
+  s_{(1,\cdots, \widehat{k}, \cdots, n)} \ell
+  ,\,
+  s_k
+  \big(
+    \gamma
+    ;\,
     g_{n-1}
     ,\,
+    \cdots
+    ,\,
+    g_{0}
+  \big)
+  \Big)
+  &\mapsto&
+  \big(
     g_{n-1}
+    ,\,
+    \cdots,
+    g_{n-k}
+    ,\,
+    \mathrm{Ad}_k(\gamma)
+    ,\,
+    g_{n - (k+1)}
     ,\,
     \cdots
     ,\,
     g_0
   \big)
-  \;\;
-  \in
-  \;\;
-  \big(
-    N \Lambda \mathbf{B}G
-  \big)_n
-$$
-
-$$
-  \begin{array}{ccc}
-    \big(
-      N \mathbf{B}\mathbb{Z}
-    \big)_n
-      \,\times\,     
-     \overset{
-        \mathclap{
-          \big(
-           N
-           Maps(\mathbf{B}\mathbb{Z},\, \mathbf{B}G) 
-         \big)_n
-       }
-     }{
-     \overbrace{
-     Hom\big(
-        \mathbf{B}\mathbb{Z} \times [n]
-        ,\,
-        \mathbf{B}G
-     \big)
-     }
-    }
-    &
-    \xrightarrow{\;\;\; \;\;\;}
-    &
-    N\big(
-      \mathbf{B}G
-    \big)_n
-    \\
-    \begin{array}{ccccccccccc}
-      \big(\bullet;
-      &
-      0,
-      &
-        \cdots, 
-      &
-        \overset{ 
-          \mathclap{
-            \mathrm{step} \; j+1 
-          }
-        }{
-          \overbrace{\;1\;}
-        }, 
-        &
-        \cdots, 
-        &
-      0,
-        &
-      0
-      \big)
-      \\
-      \big(
-        \gamma
-        ;
-        &
-        g_{n-1}, 
-        &
-        \cdots, 
-        &
-        \mathrm{e}
-        , 
-        &
-        \cdots 
-        ,
-        &
-        g_1
-        , 
-        &
-        g_0
-      \big)
-    \end{array}
-    &\mapsto&
-    \big(
-      g_{n-1}
-      ,\,
-      \cdots
-      ,\,
-      g_{n-j}
-      ,\,
-      Ad_j(\gamma)
-      ,\,
-      g_{n - j - 1}
-      ,\,
-      \cdots
-      ,\,
-      g_0
-    \big)
-  \end{array}
-$$
-
-\linebreak
-
-\linebreak
-
-\linebreak
-
-\linebreak
-
-$$
-  Hom\big(
-    \Delta[n]
-    ,\,
-    [X, A] \times X
-    \xrightarrow{\; ev \;}
-    X
-  \big)
-  \;\; \simeq \;\;
-  Hom\big(
-    \Delta[n]
-    ,\,
-    [X, A] \times X
-    \xrightarrow{\; ev \;}
-    X
-  \big)
-  \;\; \colon \;\;
-  Hom\big(
-    X \times \Delta[n]
-    ,\,
-    A
-  \big)
-  \times
-  Hom\big(
-    \Delta[n]
-    ,\,
-    X
-  \big)
-  \to
-  Hom\big(
-    \Delta[n]
-    ,\,
-    A
-  \big)
-$$
-
-
-$$
-  \begin{array}{cc}
-  \text{path} & (1,n)\text{-shuffle}
-  \\
-  \left(
-  \;\,
-  \array{
-    \mathllap{[}
-    0 & 1 & 1 & 1 & 1 & \cdots & 1 & 1
-    \mathrlap]
-    \\
-    \mathllap[
-    0 & 0 & 1 & 2 & 3 & \cdots & n-1 & n
-    \mathrlap]
-  }
-  \;\,
-  \right)
-  &
-  \Big(
-    1
-    ,
-    \;
-    2, 3, \cdots, n
-  Big)
-  \,,
-  \end{array}
-$$
-
-
-\begin{tikzcd}[
-  row sep=0pt
-  ]
-  7 &[-20pt] 
-  {} \ar[rr, -, line width=5pt, blue, opacity=.3] &[-10pt] {}  &[+25pt] {} &[-10pt] {}
-  &[+30pt]
-  5 &[-20pt] {} &[-10pt] {} \ar[rr, -, line width=5pt, blue, opacity=.3] &[+25pt] {} &[-10pt] {}
-  \\
-  6 & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {}  & {} & {}
-  &
-  3 & {} & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {}
-  \\
-  5 & {} & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {}
-  &
-  2 & {} & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {}
-  \\
-  4 & {}  \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {} & {}
-  &
-  7 &
-  {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {}  & {} & {}
-  \\
-  3 & {} & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {}
-  &
-  6 & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {}  & {} & {}
-  \\
-  2 & {} & {} \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {}
-  &
-  4 & {}  \ar[rr, -, line width=5pt, blue, opacity=.3] & {} & {} & {}
-  \\
-  1 & {} \ar[rr, -, line width=5pt, blue, opacity=.3]  & {} & {} & {} 
-  &
-  1 & {} \ar[rr, -, line width=5pt, blue, opacity=.3]  & {} & {} & {} 
 \end{tikzcd}
 
-
-
-\begin{tikzcd}[
-    sep=30pt
-  ]
-    &[-12pt]
-    &
-    \mathclap{
-      \color{gray}
-      \mu_1 = 1
-    }
-    &
-    \mathclap{
-      \color{gray}
-      \mu_2 = 4
-    }
-    &
-    \color{gray}
-    \cdots
-    \\[-20pt]
-    &
-    {(0,0)}
-    \ar[r]
-    \ar[d]
-    \ar[
-      r,-,
-      color=blue,
-      opacity=.25,
-      line width=6pt
-    ]
-    &
-    %
-    {(1,0)}
-    \ar[r]
-    \ar[d]
-    \ar[
-      d,-,
-      color=blue,
-      opacity=.25,
-      line width=6pt
-    ]
-    &
-    {(2,0)}
-    \ar[rr,dotted]
-    \ar[d]
-    &
-    &
-    {(p,0)}
-    \ar[d]
-    \\
-    \color{gray}
-    \nu_1 = 2
-    &
-    {(0,1)}
-    \ar[r]
-    \ar[d]
-    &
-    {(1,1)}
-    \ar[r]
-    \ar[d]
-    \ar[
-      d,-,
-      color=blue,
-      opacity=.25,
-      line width=6pt
-    ]
-    &
-    {(2,1)}
-    \ar[rr, dotted]
-    \ar[d]
-    &
-    &
-    {(p,1)}
-    \ar[d]
-    \\
-    \color{gray}
-    \nu_2 = 3
-    &
-    {(0,2)}
-    \ar[r]
-    \ar[dd, dotted]
-    &
-    {(1,2)}
-    \ar[r]
-    \ar[dd, dotted]
-    \ar[
-      r,-,
-      color=blue,
-      opacity=.25,
-      line width=6pt
-    ]
-    &
-    {(2,2)}
-    \ar[rr, dotted]
-    \ar[dd, dotted]
-    \ar[ddrr, dotted]
-    \ar[
-      ddrr,-,
-      color=blue,
-      opacity=.25,
-      line width=6pt,
-      dotted
-    ]
-    &
-    &
-    {(p,2)}
-    \ar[dd, dotted]
-    \\
-    \color{gray}
-    \vdots
-    &
-    &
-    &
-    &&
-    \\
-    &
-    {(0,q)}
-    \ar[r]
-    &
-    {(1,q)}
-    \ar[r]
-    &
-    {(2,q)}
-    \ar[rr, dotted]
-    &
-    &
-    {(p,q)}
-\end{tikzcd}
-
-
-$$
-  \begin{array}{cc}
-    \text{positions of horizontal steps}
-    &
-    \text{positions of vertical steps}
-    \\
-    \mu_1 \lt \mu_2 \lt \cdots \lt \mu_p
-    &
-    \nu_1 \lt \nu_2 \lt \cdots \lt \nu_p
-  \end{array}  
-$$
-
-
-***
-
-+-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Analytic geometry
-+--{: .hide}
-[[!include analytic geometry -- contents]]
-=--
-=--
-=--
-
-\begin{definition}([ScholzeWeinstein20](#ScholzeWeinstein20), Definition 6.2.1)
-
-Let $R$ be a perfectoid ring. The _tilt_ of $R$ is
-
-$$R^{\flat}=\underset
-    {\underset{x\mapsto x^{p}}{\leftarrow}}
-    {\lim}R$$
-
-A priori this is a topological multiplicative monoid, so turn it into a topological ring we equip it with the addition structure given by
-
-$$(x+y)^{(i)}=\lim_{n\to\infty}(x^{(i+n)}+y^{(i+n)})^{p^{n}}.$$
-
-\end{definition}
+The expressions on the right happen to be those that appear in the formula for [[transgression in group cohomology]], see [there](transgression+in+group+cohomology#eq:SumFormulaForTransgressedCocycle).
+\end{example}
