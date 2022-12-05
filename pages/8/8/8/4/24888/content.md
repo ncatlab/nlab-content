@@ -74,6 +74,7 @@ There are a number of axioms which in general could be called an axiom of cohesi
 | $\mathbb{R}_{U}^\mathrm{loc} \flat$ | locally $U$-small localic real cohesion | [[localization of a type at a family of functions|localization]] at the $U$-[[localic real numbers]] $\mathbb{R}_{U}^\mathrm{loc}$ | A [[Tarski universe]] $(U, T)$. |
 |  | [[unit interval]] cohesion | [[localization of a type at a family of functions|localization]] at the [[unit interval]] $[0, 1]$ | a higher [[coinductive type]] representing the [[homotopy]] [[terminal]] [[dyadic interval coalgebra]]. |
 |  | $U$-small unit interval cohesion | [[localization of a type at a family of functions|localization]] at the $U$-small [[unit interval]] $[0, 1]_\mathbb{U}$ | A [[Tarski universe]] $(U, T)$. |
+|  | smooth cohesion | [[localization of a type at a family of functions|localization]] at a [[local Artin algebra|local Artin $\mathbb{R}$-algebra]] | A [[local Artin algebra|local Artin $\mathbb{R}$-algebra]] $R$ |
 
 ## See also
 
@@ -130,6 +131,10 @@ There are a number of axioms which in general could be called an axiom of cohesi
 [[!redirects algebraic cohesion]]
 [[!redirects axiom of algebraic cohesion]]
 [[!redirects axioms of algebraic cohesion]]
+
+[[!redirects smooth cohesion]]
+[[!redirects axiom of smooth cohesion]]
+[[!redirects axioms of smooth cohesion]]
 
 [[!redirects axiom C0]]
 [[!redirects axiom C1]]
