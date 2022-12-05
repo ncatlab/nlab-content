@@ -1,4 +1,57 @@
 
+Let $G  \,\in\, Grp(Set)$ be a [[discrete group]] and write $\mathbf{B}G \,=\,\big( G \rightrightarrows \ast\big)$ for its [[delooping groupoid]]. The [[functor category]]
+
+$$
+  \Lambda \mathbf{B}G
+  \;\coloneqq\;
+  Maps(\mathbf{B}\mathbb{Z}, \, \mathbf{B}G)
+$$
+
+is also known as the *[[inertia groupoid]]* of $G$.
+
+By the discussion [here](natural+transformation#InTermsOfCartMon) at *[[natural transformation]]* that its [[nerve]] may be described as
+
+$$
+  \big(
+    N \Lambda \mathbf{B}G
+  \big)_n
+  \;\;
+  =
+  \;\;
+  Hom\big(
+    \mathbf{B}\mathbb{Z} 
+    \,\times\,
+    [n]
+    ,\;
+    \mathbf{B}G
+  \big)
+  \,,
+$$
+
+where $ (-) \times [n]$ denotes forming the [[product category]] with the [[poset]] $\big\{ 0 \lt 1 \lt \cdots \lt n \big\}$, regarded as a category. 
+
+We may denote the elements in this nerve by
+
+$$
+  \big(
+    \gamma;
+    \,
+    g_{n-1}
+    ,\,
+    g_{n-1}
+    ,\,
+    \cdots
+    ,\,
+    g_0
+  \big)
+  \;\;
+  \in
+  \;\;
+  \big(
+    N \Lambda \mathbf{B}G
+  \big)_n
+$$
+
 $$
   \begin{array}{ccc}
     \big(
