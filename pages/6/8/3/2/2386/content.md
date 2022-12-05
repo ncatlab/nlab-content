@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On a [[de Rham theorem]] for [[algebraic stack|algbraic]] [[infinity-stacks|$\infty$-stacks]] via an [[infinitesimal shape modality]] realizing the [[de Rham stack]]:
+
+* {#SimpsonTeleman} [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ (1997) &lbrack;[pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf), [[SimpsonTeleman-deRham.pdf:file]]&rbrack;
+
+
 On [[twisted equivariant K-theory]] with an eye towards [[twisted ad-equivariant K-theory]]:
 
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Twisted equivariant K-theory with complex coefficients_, Journal of Topology, Volume 1, Issue 1
