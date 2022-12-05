@@ -29,3 +29,7 @@ $$\lim_{n \to \infty} (-)_n:(\mathbb{N} \to S) \to S$$
 * [[sequentially Hausdorff space]]
 * [[subsequential space]]
 * [[preconvergence space]]
+* [[metric space]]
+* [[uniform space]]
+* [[Cauchy space]]
+* [[Booij premetric space]]
