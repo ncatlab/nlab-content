@@ -41,6 +41,8 @@ An archimedean group that is also a linearly ordered [[ring]] is called an __arc
 
 * Every archimedean group is a [[flat module]] and a torsion-free group. 
 
+* Every Dedekind complete archimedean group is isomorphic to the [[integers]], if the group is not dense, or the [[Dedekind real numbers]], if the group is dense. 
+
 ## Examples
 
 Archimedean groups include
