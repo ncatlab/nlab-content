@@ -23,9 +23,13 @@ A more general concept of [[metric space]] by Auke Booij. While Auke Booij simpl
 
 ## Definition ##
 
-A __Booij premetric space__ is a [[set]] $S$ with a ternary [[relation]] $(-)\sim_{(-)}(-)\colon S \times \mathbb{Q}_+ \times S \to \Omega$, where $\mathbb{Q}_+$ represent the positive [[rational numbers]] in $\mathbb{Q}$ and $\Omega$ is the set of [[truth values]]. 
+A __Booij premetric space__ is a [[set]] $S$ with a ternary [[relation]] $a \sim_\epsilon b$ for $a \in S$, $b \in S$, and $\epsilon \in \mathbb{Q}_+$, where $\mathbb{Q}_+$ represent the positive [[rational numbers]] in $\mathbb{Q}$. 
 
 Booij premetric spaces are used as in the construction of the [[Cauchy real numbers]] and the [[HoTT book real numbers]]. 
+
+## Generalizations
+
+Booij premetric spaces could be generalized from the positive rational numbers $\mathbb{Q}_+$ to any set $T$. These are called $T$-premetric spaces, which are sets $S$ with a ternary [[relation]] $a \sim_\epsilon b$ for $a \in S$, $b \in S$, and $\epsilon \in T$. These could also be used to construct the [[HoTT book real numbers]], if one only has an integral subdomain $R \subseteq \mathbb{Q}$ such as the [[dyadic rational numbers]] or the [[decimal rational numbers]], where $T$ is $R_+$. 
 
 ## See also ##
 
