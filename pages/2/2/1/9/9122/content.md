@@ -22,7 +22,7 @@
 
 ## Idea
 
-In a context of [[differential cohesion]] the _infinitesimal shape modality_ or _&#233;tale modality_ $\Im $ characterizes [[coreduced objects]]. It is itself the [[right adjoint]] in an [[adjoint modality]] with the [[reduction modality]] and the [[left adjoint]] in an [[adjoint modality]] with the [[infinitesimal flat modality]].
+In a context of [[differential cohesion]] the _infinitesimal shape modality_, _crystalline modality_ or _&#233;tale modality_ $\Im $ characterizes [[coreduced objects]]. It is itself the [[right adjoint]] in an [[adjoint modality]] with the [[reduction modality]] and the [[left adjoint]] in an [[adjoint modality]] with the [[infinitesimal flat modality]].
 
 ## Definition
 
@@ -78,7 +78,13 @@ Implementation in [[HoTT]] and application to [[Cartan geometry]] is discussed i
 
 * {#Wellen18} [[Felix Wellen]], _[[schreiber:thesis Wellen|Cartan Geometry in Modal Homotopy Type Theory]]_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966))
 
+Called the crystalline modality in 
+
+* [[David Jaz Myers]], Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory ([arXiv:2205.15887](https://arxiv.org/abs/2205.15887))
 
 [[!redirects infinitesimal shape modalities]]
 
 [[!redirects infinitesimal shape]]
+
+[[!redirects crystalline modality]]
+[[!redirects crystalline modalities]]
