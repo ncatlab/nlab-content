@@ -98,7 +98,10 @@ It is a [[folklore]] [[theorem]] that the transgression (eq:TransgressionMapOnGr
 \[
   \label{SumFormulaForTransgressedCocycle}
   \begin{array}{l}
-  \tau(c)(\gamma, g_{n-1}, \cdots, g_1, g_0)
+  \tau(c)
+  \big(
+    \gamma, g_{n-1}, \cdots, g_1, g_0
+  \big)
   \\
   \;=\;
   \pm
