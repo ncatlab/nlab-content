@@ -29,4 +29,5 @@ and $c \in S$
 * [[limit of a net]]
 * [[Hausdorff space]]
 * [[pointwise continuous function]]
-* [[sequential convergence space]]
+* [[sequential preconvergence space]]
+* [[convergence space]]
