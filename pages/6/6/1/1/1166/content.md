@@ -27,7 +27,6 @@ Subsequential spaces are also known as Kuratowski _limit spaces_, or _L-spaces_;
 
 A subsequential space is said to be **sequentially [[Hausdorff space|Hausdorff]]** if each sequence converges to at most one limit.
 
-
 ## Properties
 
 The definition of a subsequential space is arguably easier and more intuitive than that of a [[topological space]].  Continuity of functions between subsequential spaces is likewise easy to define by preservation of convergent sequences.
@@ -44,6 +43,9 @@ It follows that the [[geometric realization]] functor from [[simplicial set]]s c
 
 These properties of subsequential spaces should be compared with analogous ones for [[convergence space]]s and their relatives, such as [[pseudotopological space]]s.  The category $Conv$ of convergence spaces is also a complete and cocomplete quasitopos (hence, in particular, locally cartesian closed) and includes *all* of $Top$ as a reflective subcategory.  However, $Conv$ is not locally presentable and has no generator, and while the embedding of $Top$ into $Conv$ also preserves all limits (since it has a left adjoint), it actually preserves _fewer_ colimits than the embedding of $SeqTop$ into $SeqPsTop$.  In particular, it does _not_ preserve the colimits used in the construction of CW complexes: if you carry out the construction of a CW complex in $Conv$, in general the result won't even be a topological space.
 
+## See also
+
+* [[sequential preconvergence space]]
 
 ## References
 
