@@ -156,6 +156,7 @@ Possible to-dos: say something about $m$-adic topology, completion, Zariski topo
 
 * [[Henselian ring]]
 
+* [[ordered local ring]]
 
 ## References
 
