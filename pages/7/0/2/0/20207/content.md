@@ -1,5 +1,6 @@
 [[!redirects David Myers]]
-David Jaz Myers is graduating at Johns Hopkins, now transitioning to [[CQTS]].
+
+David Jaz Myers is postdoctoral researcher at [[CQTS]].
 
 * [personal webpage](http://davidjaz.com/)
 
