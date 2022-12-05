@@ -10,13 +10,14 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea ##
 
-The most general space where the notion of convergence and limit for nets makes sense, but the term "[[convergence space]]" is already taken to mean a set with filters that are isotone, centered, and directed, and that definition is not the most general definition for which the notions of convergence and limit makes sense for nets. 
+By a *preconvergence space* we shall mean the most general notion of [[topological space]] for which the notion of [[convergence]] and of [[limit of a net|limit]] for [[nets]] makes sense. Notice that the possibly more natural term "[[convergence space]]" for this notion is already taken to mean a set with [[filters]] that are isotone, centered, and directed, and that definition is not the most general definition for which the notions of convergence and limit makes sense for nets. 
 
 ## Definition ##
 
