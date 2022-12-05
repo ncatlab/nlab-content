@@ -2531,7 +2531,7 @@ The following literature is related to or subsumes by the discussion here.
 Something analogous to the notion of [[infinity-connected (infinity,1)-site|∞-connected site]] and the
 [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] is the content of section 2.16.  of
 
-* {#SimpsonTeleman} [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
+* {#SimpsonTeleman} [[Carlos Simpson]], [[Constantin Teleman]], Section 3 of: _deRham theorem for $\infty$-stacks_ (1997) &lbrack;[pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf), [[SimpsonTeleman-deRham.pdf:file]]&rbrack;
 
 
 The [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\Re \dashv \Im \dashv \&)$ is essentially discussed in section 3 there.
