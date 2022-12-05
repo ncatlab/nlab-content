@@ -67,20 +67,38 @@ For any object $X$ in [[differential cohesion]], the [[base change]] [[comonad]]
 
 The [[cohomology]] of $\Im X$ has the interpretation of [[crystalline cohomology]] of $X$. See there for more.
 
-## Related concepts
 
+## Related concepts
 
 [[!include cohesion - table]]
 
-## References
 
-Implementation in [[HoTT]] and application to [[Cartan geometry]] is discussed in
+## References
+ {#References}
+
+The infinitesimal shape modality as part of an extension of [[cohesive (infinity,1)-toposes|cohesive $\infty$-toposes]] to [[differential cohesive (infinity,1)-toposes|differential cohesive $\infty$-toposes]] was introduced in
+
+* [[Urs Schreiber]], Def. 3.5.4 in: _[[schreiber:differential cohomology in a cohesive topos]]_ &lbrack;[arXiv:1310.7930](https://arxiv.org/abs/1310.7930)&rbrack;
+
+mimicking an analogous construction (cf. *[[de Rham space]]*) for [[schemes]] in
+
+* {#SimpsonTeleman} [[Carlos Simpson]], [[Constantin Teleman]], Section 3 of: _deRham theorem for $\infty$-stacks_ (1997) &lbrack;[pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf), [[SimpsonTeleman-deRham.pdf:file]]&rbrack;
+
+and further developed (in relation to [[jet comonads]] and [[partial differential equations]]) in
+
+* [[Igor Khavkine]], [[Urs Schreiber]], *[[schreiber:Synthetic geometry of differential equations]]* &lbrack;[arXiv:1701.06238](https://arxiv.org/abs/1701.06238)&rbrack;
+
+reviewed in
+
+* {#Loregian19} [[Fosco Loregian]], pp. 30 in: *Cohesion in Rome*, talk notes (Dec. 2019)  &lbrack;[pdf](https://tetrapharmakon.github.io/stuff/cohesive_rome.pdf), [[LoregianCohesion.pdf:file]]&rbrack;
+
+Its implementation in [[HoTT]] and application to [[Cartan geometry]] is considered in
 
 * {#Wellen18} [[Felix Wellen]], _[[schreiber:thesis Wellen|Cartan Geometry in Modal Homotopy Type Theory]]_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966))
 
-Called the crystalline modality in 
+It is called the *crystalline modality* in 
 
-* [[David Jaz Myers]], Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory ([arXiv:2205.15887](https://arxiv.org/abs/2205.15887))
+* [[David Jaz Myers]], *Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory* ([arXiv:2205.15887](https://arxiv.org/abs/2205.15887))
 
 [[!redirects infinitesimal shape modalities]]
 
