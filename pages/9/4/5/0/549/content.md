@@ -78,7 +78,7 @@ where
  
 * $rlp(I)$ is the set of morphisms with [[weak factorization system|right lifting property]] with respect to $I$
 
-* $cell(I)$ is the set of [[transfinite composition]]s of [[pushout]]s of morphisms in $I$;
+* $cell(I)$ is the set of [[transfinite composition]]s of [[pushout]]s of coproducts of morphisms in $I$;
 
   
 =--
