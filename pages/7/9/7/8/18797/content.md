@@ -89,6 +89,10 @@ In general, Archimedean ordered fields which are not [[sequentially Cauchy compl
 
 **Axiom of sine function:** _For all elements $x \in F$, there exists a unique element $\sin(x) \in F$ such that for all positive elements $\epsilon \in F_+$, there exists a natural number $N \in \mathbb{N}$ such that for all natural numbers $n \in \mathbb{N}$, if $n \geq N$, then  $-\epsilon \lt \left(\sum_{i = 0}^{n} \frac{(-1)^i x^{2 i + 1}}{(2 i + 1)!}\right) - \sin(x) \lt \epsilon$._
 
+### In the dual numbers
+
+The [[dual number]] real algebra $\mathbb{D} \coloneqq \mathbb{R}[\epsilon]/\epsilon^2$ has a notion of sine and cosine function, which are the solutions to the system of functional equations $\sin(x + \epsilon) = \sin(x) + \cos(x) \epsilon$ and $\cos(x + \epsilon) = \cos(x) - \sin(x) \epsilon$ with $\sin(0) = 1$ and $\cos(0) = 1$. 
+
 ## Properties
 
 ### Relation to other functions
