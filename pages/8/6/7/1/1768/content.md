@@ -43,8 +43,8 @@ $$ \forall \epsilon,\; \exists N,\; \forall i, j \geq N,\; x_i \sim_\epsilon x_j
 In a [[uniform space]], a sequence $(x_i)_i$ is __Cauchy__ if an analogous condition is satisfied for each [[entourage]] $U$.  Explicitly:
 $$ \forall U,\; \exists N,\; \forall i, j \geq N,; x_i \approx_U x_j .$$
 
-In a [[preuniform space]], a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for each [[entourage]] $U$.  Explicitly:
-$$ \forall U,\; \exists N,\; \forall i, j \geq N,\; x_i \sim_U x_j .$$
+In a [[preuniform space]], a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for each [[preuniformity]] $U$.  Explicitly:
+$$ \forall U,\; \exists N,\; \forall i, j \geq N,\; x_i \approx_U x_j .$$
 
 Generalizing both [[Booij premetric spaces]] and [[preuniform spaces]], in a $T$-premetric space with set $T$, a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for each element $U \in T$. Explicitly:
 $$ \forall U,\; \exists N,\; \forall i, j \geq N,\; x_i \sim_U x_j .$$
