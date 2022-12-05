@@ -37,7 +37,10 @@ The same definition immediately applies to an extended quasipseudometric space (
 In a [[gauge space]], a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for each gauging distance separately.  Explicitly:
 $$ \forall d,\; \forall \epsilon,\; \exists N,\; \forall i, j \geq N,\; d(x_i,x_j) \lt \epsilon .$$
 
-In a [[Booij premetric space]], a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for the premetric given a positive rational number $\epsilon$.  Explicitly:
+In a [[Booij premetric space]], a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for the premetric for all positive rational numbers $\epsilon$.  Explicitly:
+$$ \forall \epsilon,\; \exists N,\; \forall i, j \geq N,\; x_i \sim_\epsilon x_j .$$
+
+More generally, given a set $T$, in a $T$-premetric space, a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for the premetric for all elements $\epsilon \in T$.  Explicitly:
 $$ \forall \epsilon,\; \exists N,\; \forall i, j \geq N,\; x_i \sim_\epsilon x_j .$$
 
 In a [[uniform space]], a sequence $(x_i)_i$ is __Cauchy__ if an analogous condition is satisfied for each [[entourage]] $U$.  Explicitly:
