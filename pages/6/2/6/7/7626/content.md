@@ -83,11 +83,11 @@ On the other hand, anyonic braiding is conceptually different from boson/fermion
 ### Braiding of anyonic quanta -- via "fictitious" AB-phases
  {#AsAFictitiousAharonovBohmEffect}
 
-A concrete model for *[anyonic quanta](#AnyonicQuanta)* via otherwise [[free field|free]] [[fermions]] in 2d [[interaction|interacting]] through a flat "[[fictitious gauge field]]" was proposed in [Arovas, Schrieffer, Wilczek & Zee 1985](#ArovasSchriefferWilczekZee85) and developed in
-[Chen, Wilczek, Witten & Halperin 1989](#ChenWilczekWittenHalperin89) (the model has been advertized in early reviews, e.g. [Wilczek 1990, §I.3](#Wilczek90) and [Wilczek 1991](#Wilczek91), but seems not to have been developed much since):
+A concrete model for *[anyonic quanta](#AnyonicQuanta)* via otherwise [[free field|free]] [[fermions]] in 2d [[interaction|interacting]] through a [[flat connection|flat]] "[[fictitious gauge field]]" was proposed in [Arovas, Schrieffer, Wilczek & Zee 1985](#ArovasSchriefferWilczekZee85) and developed in
+[Chen, Wilczek, Witten & Halperin 1989](#ChenWilczekWittenHalperin89) and [Iengo & Lechner 1992](#IengoLechner92) (the model has been advertized in early reviews, e.g. [Wilczek 1990, §I.3](#Wilczek90) and [Wilczek 1991](#Wilczek91), but seems not to have been developed much since):
 
-The model regards anyons as *a priori* [[free field|free]] [[fermions]], but equipped now with a non-local mutual [[interaction]] via a "fictitious gauge field" ([CWWH89, §2](#ChenWilczekWittenHalperin89)), in that
-each of the particles is modeled as the singular source of a [[flat connection|flat]] [[circle bundle with connection|circle connection]] (a [[vector potential]] with vanishing [[field strength]]), which hence exerts no [[Lorentz force]] but has the effect that globally each particle is subject to the same [[Aharonov-Bohm effect]] as would be caused by a tuple of infinite [[solenoids]] piercing through each of the other particle's positions.
+This model regards anyons as *a priori* [[free field|free]] [[fermions]], but equipped now with a non-local mutual [[interaction]] via a "fictitious gauge field" ([CWWH89, §2](#ChenWilczekWittenHalperin89)), in that
+each of the particles is modeled as the singular source of a [[flat connection|flat]] [[circle bundle with connection|circle connection]] (a [[vector potential]] with vanishing [[field strength]]), which hence exerts no [[Lorentz force]] but has the effect that globally each other particle is subject to the same [[Aharonov-Bohm effect]] as would be caused by a tuple of infinite [[solenoids]] piercing through each of the other particle's positions.
 
 For emphasis, from [CWWH89, p. 359](#ChenWilczekWittenHalperin89):
 
@@ -311,9 +311,10 @@ The "[[fictitious gauge field]]"-method for modelling anyons:
 
 * {#Wilczek91} [[Frank Wilczek]], *States of Anyon Matter*,  International Journal of Modern Physics B **05** 09 (1991) 1273-1312 &lbrack;[doi:10.1142/S0217979291000626](https://doi.org/10.1142/S0217979291000626)&rbrack;
 
-Explit relation to [[Chern-Simons theory]]:
+and with specific emphasis on the resulting (abelian!) [[Chern-Simons theory]]:
 
-* [[Roberto Iengo]], [[Kurt Lechner]], *Anyon quantum mechanics and Chern-Simons theory*, Physics Reports **213** 4 (1992) 179-269 &lbrack;<a href="https://doi.org/10.1016/0370-1573(92)90039-3">doi:10.1016/0370-1573(92)90039-3</a>&rbrack;
+* {#IengoLechner92} [[Roberto Iengo]], [[Kurt Lechner]], *Anyon quantum mechanics and Chern-Simons theory*, Physics Reports **213** 4 (1992) 179-269 &lbrack;<a href="https://doi.org/10.1016/0370-1573(92)90039-3">doi:10.1016/0370-1573(92)90039-3</a>&rbrack;
+
 
 
 The suggestion that the anyonic [[ground state]]-[[wavefunctions]] are essentially [[conformal blocks]] of [[2d CFT]] (notably for [[su(2)-anyons]]):
@@ -327,6 +328,9 @@ More comprehensive accounts of anyons:
 * {#Wilczek90} [[Frank Wilczek]], *Fractional Statistics and Anyon Superconductivity*, World Scientific (1990) &lbrack;[doi:10.1142/0961](https://doi.org/10.1142/0961)&rbrack;
 
 * {#Kitaev06} [[Alexei Kitaev]], *Anyons in an exactly solved model and beyond*, Annals of Physics **321** 1 (2006) 2-111 &lbrack;[doi:10.1016/j.aop.2005.10.005](https://doi.org/10.1016/j.aop.2005.10.005)&rbrack;
+
+* [[Eduardo Fradkin]], *Anyon superconductivity*, Chapter 11 in: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) 414-431 &lbrack;ISBN: 9781139015509, [doi:10.1017/CBO9781139015509.013](https://doi.org/10.1017/CBO9781139015509.013)&rbrack;
+
 
 See also:
 
