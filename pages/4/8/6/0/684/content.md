@@ -70,7 +70,7 @@ Notably it may be expressed using [[path objects]] which may come from [[interva
 ### Free loop space objects
  {#FreeLoopSpaceObject}
 
-In a category with [[interval object]] $ * \xrightarrow{0} T \xleftarrow{1} * $ the  **[[free loop space object]]** is the part of the [[path object]] $B^I = [I,B]$ which consists of closed paths, namely the [[pullback]]
+In a category with [[interval object]] $ * \xrightarrow{0} I \xleftarrow{1} * $ the  **[[free loop space object]]** is the part of the [[path object]] $B^I = [I,B]$ which consists of closed paths, namely the [[pullback]]
 
 \begin{tikzcd}
   \Lambda B 
