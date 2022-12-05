@@ -352,6 +352,57 @@ $$inj(1,a) \div inj(1,b) \coloneqq inj(0,a \div b)$$
 for $a:\mathbb{N}$, $b:\mathbb{N}_{\neq 0}$. 
 =--
 
+### Archimedean property
+
+The integers satisfy the Archimedean property, making it into an [[Archimedean integral domain]]. 
+
+### Sequential Cauchy completeness
+
+Let $x:\mathbb{N} \to \mathbb{Z}$ be a sequence of integers, and let $b:\mathbb{Z}$ be an integer. Then, there is a limit relation defined as
+
+$$\mathrm{isLimit}(x, b) \coloneqq \forall \epsilon:\mathbb{Z}_+.\exists N:\mathbb{N}.\forall n:\mathbb{N}.(n \geq N) \to (\vert x(n) - b \vert \lt \epsilon)$$
+
+This relation is a [[functional relation]], making the integers a [[sequentially Hausdorff space]]. 
+
+A **modulus of Cauchy convergence** is a function $M:\mathbb{Z}_+ \to \mathbb{N}$ with a witness
+
+$$p(M, x):\forall \epsilon:\mathbb{Z}_+.\forall m:\mathbb{N}.\forall n:\mathbb{N}.((m \geq M(\epsilon)) \wedge (n \geq M(\epsilon))) \to (\vert x(m) - x(n) \vert \lt \epsilon)$$
+
+$\mathbb{Z}$ is [[sequentially Cauchy complete]] if every sequence with a modulus of Cauchy convergence has a unique limit. But $\mathbb{Z}$ is sequentially Cauchy complete, because the only sequences with a unique limit are those sequences for which there exists a natural number $N:\mathbb{N}$ such that for all natural numbers $m \geq N$ and $n \geq N$, $x(m) = x(n)$. The sequence $x$ has many moduli of Cauchy convergence $M$, where the natural number $N$ is given by $N = M(1)$. 
+
+Since the integers are the [[initial object|initial]] [[Archimedean integral domain]], the integers are also the initial sequentially Cauchy complete Archimedean integral domain. Every other sequentially Cauchy complete Archimedean integral domain is provably an [[ordered field]] and has the [[HoTT book real numbers]] $\mathbb{R}$ as an integral subdomain. That means, in the context of the [[limited principle of omniscience]], the category of sequentially Cauchy complete Archimedean integral domains is equivalent to the [[walking arrow]], with objects $\mathbb{Z}$ and $\mathbb{R}$ and homomorphism $h:\mathbb{Z} \to \mathbb{R}$. 
+
+### Cauchy completeness
+
+Given a [[Tarski universe]] $(U, T)$ and a small type $A$ whose type reflection $T(A)$ is a [[directed set]], let $x:T(A) \to \mathbb{Z}$ be a [[net]] of integers, and let $b:\mathbb{Z}$ be an integer. Then, there is a limit relation defined as
+
+$$\mathrm{isLimit}(x, b) \coloneqq \forall \epsilon:\mathbb{Z}_+.\exists N:T(A).\forall n:T(A).(n \geq N) \to (\vert x(n) - b \vert \lt \epsilon)$$
+
+This relation is a [[functional relation]], making the integers a [[Hausdorff space]]. 
+
+A **modulus of $U$-Cauchy convergence** is a function $M:\mathbb{Z}_+ \to T(A)$ with a witness
+
+$$p(M, x):\forall \epsilon:\mathbb{Z}_+.\forall m:T(A).\forall n:T(A).((m \geq M(\epsilon)) \wedge (n \geq M(\epsilon))) \to (\vert x(m) - x(n) \vert \lt \epsilon)$$
+
+$\mathbb{Z}$ is $U$-[[Cauchy complete]] if every net with a modulus of $U$-Cauchy convergence has a unique limit. But $\mathbb{Z}$ is $U$-Cauchy complete, because the only $U$-nets with a unique limit are those nets for which there exists an element $N:T(A)$ such that for all elements $m \geq N$ and $n \geq N$, $x(m) = x(n)$. The net $x$ has many moduli of $U$-Cauchy convergence $M$, where the element $N$ is given by $N = M(1)$. 
+
+Since the integers are the [[initial object|initial]] [[Archimedean integral domain]], the integers are also the initial $U$-Cauchy complete Archimedean integral domain. Every other $U$-Cauchy complete Archimedean integral domain is provably an [[ordered field]] and has the $U$-[[Dedekind real numbers]] $\mathbb{R}$ as an integral subdomain. 
+
+### Dedekind completeness
+
+Let $\Omega$ be the [[type of all propositions]], so that the foundations is [[impredicative]]. A **Dedekind cut** is an pair $(L, U)$ of [[predicates]] such that 
+
+* there exists an integer $a:\mathbb{Z}$ such that $L(a)$
+* there exists an integer $b:\mathbb{Z}$ such that $U(b)$
+* for all integers $a:\mathbb{Z}$, $L(a)$ if and only if there exists an integer $b:\mathbb{Z}$ such that $a \lt b$ and $L(b)$
+* for all integers $b:\mathbb{Z}$, $U(b)$ if and only if there exists an integer $a:\mathbb{Z}$ such that $a \lt b$ and $U(a)$
+* for all integers $a:\mathbb{Z}$, it is not true that $L(a)$ and $U(a)$
+* for all integers $a:\mathbb{Z}$ and $b:\mathbb{Z}$, if $a \lt b$, then $L(a)$ and $U(b)$. 
+
+There is a Dedekind cut for every integer $a:\mathbb{Z}$, given by $L_a(b) \coloneqq b \lt a$ and $U_a(b) \coloneqq a \lt b$. There are no other Dedekind cuts on the integers. Thus, the integers are Dedekind complete. 
+
+Since the integers are the [[initial object|initial]] [[Archimedean integral domain]], the integers are also the initial Dedekind complete Archimedean integral domain. The only other Dedekind complete Archimedean integral domain is the [[Dedekind real numbers]] $\mathbb{R}$. That means, if there is a [[type of all propositions]], the category of Dedekind complete Archimedean integral domains is equivalent to the [[walking arrow]], with objects $\mathbb{Z}$ and $\mathbb{R}$ and homomorphism $h:\mathbb{Z} \to \mathbb{R}$. 
+
 ## Terminology
 
 The underlying [[sets]] $\mathbb{Z}$ and $\mathbb{N}$ are [[isomorphic]]. Some subcultures of mathematics (and not only [[set theory|set theorists]]) use the term 'integer' synonymously for a natural number.  Computer scientists distinguish between 'unsigned integers' (natural numbers) and 'signed integers' (integers as described here).  Translations can also cause confusion with the term 'whole number'.
