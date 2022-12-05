@@ -1,104 +1,72 @@
 
 $$
-  \begin{array}{l}
-  \Big(
-  N
-  \big(
-    Maps(\mathcal{C}, \mathcal{D})
-  \big)
-  \Big)_n
-  \\
-  \;\simeq\;
-  Hom_{Cat}
-  \big(
-    \mathcal{C} \times [n]
-    ,\,
-    \mathcal{D}
-  \big)
-  \\
-  \;\simeq\;
-  Hom_{sSet}
-  \big(
-    N(\mathcal{C} \times [n])
-    ,\,
-    N(\mathcal{D})
-  \big)
-  \\
-  \;\simeq\;
-  Hom_{sSet}
-  \big(
-    N(\mathcal{C}) \times N([n])
-    ,\,
-    N(\mathcal{D})
-  \big)  
-  \end{array}
-$$
-
-\linebreak
-\linebreak
-
-$$
-  N
-  \Big(
-    Maps\big( 
-      (\mathcal{G}_1 \rightrightarrows \mathcal{G}_0)
-      ,\,
-      (\mathcal{H}_1 \rightrightarrows \mathcal{H}_0)
-    \big)
-  \Big)
-  \;\;
-  \simeq
-  \;\;
-  Maps
-  \Big(
-    N(\mathcal{G}_1 \rightrightarrows \mathcal{G}_0)
-    ,\,
-    N(\mathcal{H}_1 \rightrightarrows \mathcal{H}_0)
-  \Big)
-$$
-
-\linebreak
-
-$$
   \begin{array}{ccc}
-    S 
-      \times 
-    N(\Lambda \mathbf{B}G)
+    \big(
+      N \mathbf{B}\mathbb{Z}
+    \big)_n
+      \,\times\,     
+     \overset{
+        \mathclap{
+          \big(
+           N
+           Maps(\mathbf{B}\mathbb{Z},\, \mathbf{B}G) 
+         \big)_n
+       }
+     }{
+     \overbrace{
+     Hom\big(
+        \mathbf{B}\mathbb{Z} \times [n]
+        ,\,
+        \mathbf{B}G
+     \big)
+     }
+    }
     &
     \xrightarrow{\;\;\; \;\;\;}
     &
-    N(\mathbf{B}G)
+    N\big(
+      \mathbf{B}G
+    \big)_n
     \\
-    \begin{array}{c}
-      [0,
+    \begin{array}{ccccccccccc}
+      \big(\bullet;
+      &
+      0,
+      &
         \cdots, 
+      &
         \overset{ 
           \mathclap{
-            \mathrm{step} \; j 
+            \mathrm{step} \; j+1 
           }
         }{
-          \overbrace{0, 1}
+          \overbrace{\;1\;}
         }, 
+        &
         \cdots, 
-      1]
+        &
+      0,
+        &
+      0
+      \big)
       \\
       \big(
         \gamma
-        ;\,
+        ;
+        &
         g_{n-1}, 
+        &
         \cdots, 
-        \underset{
-          \mathclap{
-            \mathrm{step} \; j
-          }
-        }{
-          \underbrace{\mathrm{e}}
-        }
+        &
+        \mathrm{e}
         , 
+        &
         \cdots 
         ,
+        &
         g_1
         , 
+        &
         g_0
       \big)
     \end{array}
