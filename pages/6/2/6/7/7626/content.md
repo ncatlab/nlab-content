@@ -309,7 +309,11 @@ The "[[fictitious gauge field]]"-method for modelling anyons:
 
 * {#ChenWilczekWittenHalperin89} [[Yi-Hong Chen]], [[Frank Wilczek]], [[Edward Witten]], [[Bertrand Halperin]], *On Anyon Superconductivity*,  International Journal of Modern Physics B **03** 07 (1989) 1001-1067 (reprinted in [Wilczek 1990, p. 342-408](#Wilczek90))  $[$[doi:10.1142/S0217979289000725](https://doi.org/10.1142/S0217979289000725), [[CWWH-AnyonSuperfluidity.pdf:file]]$]$
 
-* {#Wilczek91} [[Frank Wilczek]], *States of Anyon Matter*,  International Journal of Modern Physics B **05** 09 (1991) 1273-1312 $[$[doi:10.1142/S0217979291000626](https://doi.org/10.1142/S0217979291000626)$]$
+* {#Wilczek91} [[Frank Wilczek]], *States of Anyon Matter*,  International Journal of Modern Physics B **05** 09 (1991) 1273-1312 &lbrack;[doi:10.1142/S0217979291000626](https://doi.org/10.1142/S0217979291000626)&rbrack;
+
+Explit relation to [[Chern-Simons theory]]:
+
+* [[Roberto Iengo]], [[Kurt Lechner]], *Anyon quantum mechanics and Chern-Simons theory*, Physics Reports **213** 4 (1992) 179-269 &lbrack;<a href="https://doi.org/10.1016/0370-1573(92)90039-3">doi:10.1016/0370-1573(92)90039-3</a>&rbrack;
 
 
 The suggestion that the anyonic [[ground state]]-[[wavefunctions]] are essentially [[conformal blocks]] of [[2d CFT]] (notably for [[su(2)-anyons]]):
