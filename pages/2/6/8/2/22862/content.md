@@ -128,11 +128,11 @@ where
 $$ 
   \gamma
   \xrightarrow{ g_{n-1} }
-  Ad_{n-1}(\gamma)
+  Ad_{1}(\gamma)
   \xrightarrow{ g_{n-2} }
   \cdots
   \xrightarrow{\; g_0 \;}
-  Ad_{0}(\gamma)
+  Ad_{n}(\gamma)
   \;\;\;\;\;
   \in
   \;\;
@@ -143,14 +143,14 @@ is any sequence of $n$ composable [[morphisms]] in the [[inertia groupoid]], and
 
 $$
   \begin{aligned}
-    Ad_j(\gamma)
+    Ad_{j}(\gamma)
     & \;\coloneqq\;
-    Ad_{(g_{n-1}\cdots g_j)}(\gamma)
+    Ad_{(g_{n-1}\cdots g_{n-j})}(\gamma)
     \\
     & \;\coloneqq\;
-    (g_{n-1} \cdots g_j)^{-1} 
+    (g_{n-1} \cdots g_{n-j})^{-1} 
       \cdot 
-    \gamma \cdot (g_{n-1} \cdots g_j)
+    \gamma \cdot (g_{n-1} \cdots g_{n-j})
     \,,
   \end{aligned}
 $$
