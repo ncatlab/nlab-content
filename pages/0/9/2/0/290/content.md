@@ -168,26 +168,30 @@ Ours is the age to figure this out.
 
 ## References
 
-The early history of the subject is outlined in 
+The early history of the subject:
 
 * [[Rudolf Haag]], _Early papers on quantum field theory (1929-1930)_ ([pdf](https://link.springer.com/content/pdf/bfm%3A978-3-642-70078-1%2F1%2F1.pdf))
 
 * [Scharf 95, section 0.0](#Scharf95)
 
 
-Introductions include
+Introductions:
 
 * _[[geometry of physics -- perturbative quantum field theory]]_
 
-* [[Arnold Neumaier]], chapter B of _[Theoretical Physics FAQ](http://www.mat.univie.ac.at/~neum/physfaq/physics-faq.html)_
+* [[Arnold Neumaier]], chapter B of: _[Theoretical Physics FAQ](http://www.mat.univie.ac.at/~neum/physfaq/physics-faq.html)_
 
 * Gerald B. Folland, _Quantum field theory: A tourist guide for mathematicians_, Math. Surveys and Monographs __149__ ([ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1155.81003&format=complete))
 
 * [[Richard Borcherds]], A. Barnard, _Lectures on QFT_, ([arxiv:math-ph/0204014](http://arxiv.org/abs/math-ph/0204014))
 
-A standard textbook written from the perspective of [[effective field theory]] is
+A standard textbook written from the perspective of [[effective field theory]]:
 
 * {#Weinberg95} [[Steven Weinberg]] _The Quantum Theory of Fields_, Cambridge University Press (1995)
+
+Application in/to [[solid state physics]]:
+
+* [[Eduardo Fradkin]], *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) &lbrack;ISBN: 9781139015509, [doi:10.1017/CBO9781139015509](https://doi.org/10.1017/CBO9781139015509)&rbrack;
 
 
 
