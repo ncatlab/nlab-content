@@ -725,6 +725,8 @@ $$
 $$
 \end{proposition}
 \begin{proof}
+This is a specialization of the general fact that the simplicial nerve repects [[mapping objects]] (see [this Prop.](nerve#NerveOfCategoriesPreservesMappingObjects) at *[[nerve]]*). We spell it out for the present case:
+
 We claim that the isomorphism is given by sending, for each $n \in \mathbb{N}$, any [[n-simplex]] $(\gamma;\, g_{n-1}, \cdots, g_1, g_0)$ of $N\big( Func( \mathbf{B}\mathbb{Z}, \, \mathbf{B}G )\big)$, being a sequence of [[natural transformations]] of the form
 $$
   \array{
@@ -861,77 +863,175 @@ As a consequence:
     \overline{W}G
   $$
   (out of the [[product of simplicial sets|product]] of the [[simplicial hom complex]] out of $S$ with $S$)
-  takes any non-degenerate $n+1$-simplex of $[S,\overline{W}G] \times S$ of the form (still in the path notation discussed at *[[product of simplices]]*)
-  $$
-    \array{
-      (\gamma, [0]) 
-      &\xrightarrow{ (g_{n-1}, id) }&
-      ( Ad_{n-1}(\gamma), [0]  )
-      &\xrightarrow{ (g_{n-2}, id) }&
-      \cdots
-      &\xrightarrow{ (g_{j}, id) }&
-      \big( Ad_{j}(\gamma), [0]  \big)      
-      \\
-      && && &&
-      \big\downarrow {}^{\mathrlap{ (e, [ [0],[1] ]) }}
-      \\
-      && && &&
-      (Ad_j(\gamma), [1])
-      &\xrightarrow{ (g_{n-j},id)  }
-      &
-      \cdots
-      &\xrightarrow{ (g_0,id) }&      
-      (Ad_0(\gamma), [1])
-      \mathrlap{\,,}
-    }
-  $$
-  where we are abbreviating
-  $$  
-    \begin{aligned}
-    Ad_j(\gamma) 
-      &
-      \;\coloneqq\;
-    Ad_{(g_{n-1} \cdots g_j)}(\gamma)
-    \\
-    &
-    \;\coloneqq\;
-    (g_{n-1} \cdots g_j)^{-1} 
-      \cdot 
+  maps non-degenerate $n+1$-simpleces of $[S,\overline{W}G] \times S$ as follows:
+
+\begin{tikzcd}[
+    column sep=30pt,
+    row sep=4pt
+  ]
+  S_{n+1}
+  \times
+  \mathrm{Hom}
+  \big(
+    S \times \Delta[n+1]
+    ,\,
+    \overline{W}G
+  \big)
+  \ar[
+    rr,
+    "{ \mathrm{ev} }"
+  ]
+  &&
+  \big(
+    \overline{W}G
+  \big)_{n+1}
+  \\
+  \Big(
+  s_{(1,\cdots, \widehat{k}, \cdots, n)} \ell
+  ,\,
+  s_k
+  \big(
     \gamma
-      \cdot
-    (g_{n-1} \cdots g_j)
-    \,,
-    \end{aligned}
-  $$
-  to the following $n+1$ simplex of $\overline{W}G$:
-  $$
-    \array{
-      \bullet
-      &\xrightarrow{ g_{n-1} }&
-      \bullet
-      &\xrightarrow{ g_{n-2} }&
-      \cdots
-      &\xrightarrow{ g_{j} }&
-      \bullet
-      \\
-      && && &&
-      \big\downarrow {}^{\mathrlap{ 
-        Ad_j(\gamma)
-      }}
-      \\
-      && && &&
-      \bullet
-      &\xrightarrow{ g_{n-j} }
-      &
-      \cdots
-      &
-      \xrightarrow{ g_0 } 
-      &      
-      \bullet
-      \mathrlap{\,.}
-    }
-  $$
+    ;\,
+    g_{n-1}
+    ,\,
+    \cdots
+    ,\,
+    g_{0}
+  \big)
+  \Big)
+  &\mapsto&
+  \big(
+    g_{n-1}
+    ,\,
+    \cdots,
+    g_{n-k}
+    ,\,
+    \mathrm{Ad}_k(\gamma)
+    ,\,
+    g_{n - (k+1)}
+    ,\,
+    \cdots
+    ,\,
+    g_0
+  \big)
+\end{tikzcd}
+
+ 
 \end{proposition}
+\begin{proof}
+This follows by unwinding the component formula for the [[evaluation map]] on [[simplicial mapping complexes]] ([this Prop.](function+complex#ComponentFormulaForEvaluationMap)):
+
+Recall that we denote by
+\[
+  \label{CellInNerveOfInertiaGroupoid}
+ \big(
+  \gamma
+  ;\,
+  g_{n-1}
+  ,\,
+  g_{n-2}
+  ,\,
+  \cdots
+  ,\,
+  g_{0}
+ \big)
+ \;\; \in \;\;
+ \mathrm{Hom}
+ \big(
+   S \times \Delta[n]
+   ,\,
+   \overline{W}G
+ \big)
+ \;\simeq\;
+ \Big(
+ N
+ \mathrm{Map}
+  \big( 
+   { \mathbf{B}\mathbb{Z} }
+   ,\,
+   { \mathbf{B}G }
+  \big)
+ \Big)_{n}
+\]
+the $n$-cell in the [[nerve]] of the [[inertia groupoid]] that corresponds to the sequence of natural transformation which start at the functor 
+$$
+  \gamma 
+    \,\in\, 
+   G 
+    \,\simeq\, 
+  \mathrm{Hom}_{\mathrm{Grp}}(\mathbb{Z}, G) 
+    \,\simeq\, 
+  \mathrm{Hom}\big(
+    \mathbf{B}\mathbb{Z}
+    ,\, 
+    \mathbf{B}G
+  \big)
+$$
+and successively have components $g_{n-\bullet} \in G$. 
+
+> Throughout we are writing "$Hom$" for [[hom-sets]] and "$Map$" for [[hom-objects]], i.e. for [[internal homs]] and we keep tacitly going back and forth through the [[bijections]] in (eq:CellInNerveOfInertiaGroupoid).
+
+If we abbreviate (this follows conventions familiar in discussion of *[[transgression in group cohomology]]*)
+$$
+  \begin{aligned}
+    Ad_{k}(\gamma)
+    & \;\coloneqq\;
+    Ad_{(g_{n-1}\cdots g_{n-k})}(\gamma)
+    \\
+    & \;\coloneqq\;
+    (g_{n-1} \cdots g_{n-k})^{-1} 
+      \cdot 
+    \gamma \cdot (g_{n-1} \cdots g_{n-k})
+    \,,
+  \end{aligned}
+$$
+then this corresponds to a sequence of composable morphisms in the inertia groupoid of this form:
+$$ 
+  \gamma
+  \xrightarrow{ g_{n-1} }
+  Ad_{1}(\gamma)
+  \xrightarrow{ g_{n-2} }
+  \cdots
+  \xrightarrow{\; g_0 \;}
+  Ad_{n}(\gamma)
+  \;\;\;\;\;
+  \in
+  \;\;
+  \Lambda B G
+$$
+
+The simplicial map (eq:CellInNerveOfInertiaGroupoid) maps the non-degenerate $(n+1)$-cells in the [[product of simplicial sets]] (see the discussion [there](product+of+simplices#NonDegenerateCellsInAProductOfSimplices)) of $S$ (eq:MinimalSimplicialCircle) with the [[simplicial simplex|simplicial $n$-simplex]] as follows:
+
+\begin{imagefromfile}
+    "file_name": "ActionOfCellInNerveOfIniertiaGroupoid-221205.jpg",
+    "width": "800",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+This is not exactly what we need unwinding the [[evaluation map]], but it is close: the image of (eq:CellInNerveOfInertiaGroupoid) under the $k$th [[degeneracy map]] evidently gives the following mapping:
+
+\begin{imagefromfile}
+    "file_name": "ActOfDegOfCellInNerveOfInertiaGrpd-221205b.jpg",
+    "width": "850",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+This is the type of mapping that appears in the component formula for the [[evaluation map]] on [[function complexes]] (from [that Prop.](function+complex#ComponentFormulaForEvaluationMap)), and so the claim follows.
+\end{proof}
 
 ### Transgression in cohomology
 
