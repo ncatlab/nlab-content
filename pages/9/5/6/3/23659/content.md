@@ -79,6 +79,16 @@ Examples of these structures include
 
 * [[quasipreuniform spaces]] satisfy axioms 1 and 2
 
+### Euclidean spaces
+
+Let $R$ be an [[ordered integral domain]], and let $V$ be a [[finite set|finite]] [[rank]] $R$-[[module]] with [[basis]] $X:\mathrm{Fin}(n) \to V$ and [[positive definite]] [[bilinear form|bilinear]] [[inner product space|inner product]] $\langle -, -\rangle:V \times V \to R$, where $\langle X_i, X_j \rangle = \delta_i^j$ and $\delta_{(-)}^{(-)}:\mathrm{Fin}(n) \times \mathrm{Fin}(n) \to R$ is the [[Kronecker delta]] indexed by $\mathrm{Fin}(n)$. 
+
+We define the Euclidean premetric $a \sim_\epsilon b$ indexed by $a \in V$, $b \in V$, and $\epsilon \in R_+$ as
+
+$$a \sim_\epsilon b \coloneqq \sum_{i = 0}^{n - 1} \langle a - b, X_i\rangle^2 \lt \epsilon^2$$
+
+which makes $V$ an [[Euclidean space]]. 
+
 ## Convergence
 
 Every $T$-premetric space is a [[sequential preconvergence space]] with the convergence relation $x \to b$ between sequences $x$ and elements $b$ true if and only if for all elements $U \in T$, there exists a natural number $N \in \mathbb{N}$ such that for all natural numbers $n \geq N$, $x_n \sim_U b$. 
