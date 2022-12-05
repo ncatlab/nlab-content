@@ -12,7 +12,12 @@
 
 * _Systems of Hodge bundles and uniformization_, Ph.D. Thesis, Harvard Univ., Cambridge, MA, 1987; J. Amer. Math. Soc. 1 (1988), no. 4, 867--918; [MR90e:58026](http://www.ams.org/mathscinet-getitem?mr=90e:58026), [doi](http://dx.doi.org/10.2307/1990994)
 
-On [[nonabelian Hodge theory]]
+On a [[de Rham theorem]] for [[algebraic stack|algbraic]] [[infinity-stacks|$\infty$-stacks]] via an [[infinitesimal shape modality]] realizing the [[de Rham stack]]:
+
+* {#SimpsonTeleman} [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ (1997) &lbrack;[pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf), [[SimpsonTeleman-deRham.pdf:file]]&rbrack;
+
+
+On [[nonabelian Hodge theory]]:
 
 * _[[Higgs bundles]] and [[local systems]]_, Publ. Math&#233;matiques de l'IH&#201;S __75__ (1992), p. 5-95 ([numdam:PMIHES_1992__75__5_0](http://www.numdam.org/item?id=PMIHES_1992__75__5_0), [MR94d:32027](http://www.ams.org/mathscinet-getitem?mr=94d:32027))
 
