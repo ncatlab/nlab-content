@@ -61,6 +61,16 @@ In [[Agda]] [[syntax]] this is
 
 The [[recursion principle]] for $supp(A)$ says that if $B$ is a [[mere proposition]] and we have $f: A \to B$, then there is an induced $g : supp(A) \to B$ such that $g(isinhab(a)) \equiv f(a)$ for all $a:A$. In other words, any mere proposition which follows from (the inhabitedness of) $A$ already follows from $supp(A)$. Thus, $supp(A)$, as a mere proposition, contains no more information than the inhabitedness of $A$.
 
+### As localization
+
+Let $\mathbb{1}$ be the [[unit type]] and let $\mathbb{2}$ be the [[two-valued type]]. The bracket type of a type $A$ is the [[localization of a type at a family of functions|localization]] of $A$ at the unique function $\mathbb{2} \to \mathbb{1}$. 
+
+$$\left[A\right] \coloneqq L_\mathbb{2}(A)$$
+
+By definition, the type of functions $(\mathbb{1} \to \left[A\right]) \to (\mathbb{2} \to \left[A\right])$ is an [[equivalence of types]]. 
+
+This is the special case of the [[n-truncation modality]] as the [[n-truncation modality]] is localization at the unique map from the $(n + 1)$-dimensional sphere type to the unit type, and $\mathbb{2}$ is the zero-dimensional [[sphere type]]. 
+
 For more see at _[[n-truncation modality]]_.
 
 ## Semantics
@@ -148,6 +158,9 @@ Discussion of this in the more general context of truncations is in
 
 * [[Guillaume Brunerie]], _Truncations and truncated higher inductive types_ ([web](http://homotopytypetheory.org/2012/09/16/truncations-and-truncated-higher-inductive-types/))
 
+For [[n-truncations]] as [[localizations]] at [[sphere types]], see:
+
+* [[David Jaz Myers]], Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory ([arXiv:2205.15887](https://arxiv.org/abs/2205.15887))
 
 [[!redirects bracket types]]
 [[!redirects propositions as some types]]
