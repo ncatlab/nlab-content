@@ -20,10 +20,12 @@ _Mapping complexes_ of [[dg-categories]] are the direct analogue of [[mapping sp
 
 ## Related concepts
 
-* [[simplicial mapping complex]]
+* [[function complex]], [[simplicial mapping complex]]
 
 * [[mapping space]]
 
 * [[internal hom]]
 
 [[!redirects mapping complexes]]
+
+
