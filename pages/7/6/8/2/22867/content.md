@@ -34,7 +34,7 @@ Let
 
 and denote 
 
-* by $N(A), N(B) \,\in\, Ch^+_\bullet = $ [[ConnectiveChainComplexes]] their [[normalized chain complexes]], 
+* by $N(A), N(B) \,\in\, Ch^+_\bullet $ (=[[ConnectiveChainComplexes]]) their [[normalized chain complexes]], 
 
 * by $A \otimes B \,\in\, sAb$ the degreewise [[tensor product of abelian groups]],
 
