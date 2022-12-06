@@ -36,7 +36,7 @@ This quasitriangular structure in some infinite-dimensional versions of the cons
 ### Relation to Yetter-Drinfeld modules
 
 
-The [[category of modules]] over a quantum double of a Hopf algebra $H$ is equivalent to the category of [[Yetter-Drinfeld modules]] of $H$-
+The [[category of modules]] over a quantum double of a finite-dimensional Hopf algebra $H$ is equivalent to the category of [[Yetter-Drinfeld modules]] of $H$.
 
 ### Relation to Drinfeld center
 
