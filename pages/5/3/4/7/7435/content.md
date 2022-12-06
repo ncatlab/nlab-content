@@ -36,11 +36,15 @@ The following traditional notions of "traces" turn out to be special cases of bi
 
 ## References
 
-* [[Kate Ponto]], [[Michael Shulman]], _Shadows and traces in bicategories_ ([arXiv:0910.1306](http://arxiv.org/abs/0910.1306))
+* [[Kate Ponto]], [[Michael Shulman]], _Shadows and traces in bicategories_ ([arXiv:0910.1306](https://arxiv.org/abs/0910.1306))
 
 A survey is in 
 
 * [[Mike Shulman]], _Traces in monoidal categories and bicategories_ (2008) ([pdf slides](http://home.sandiego.edu/~shulman/papers/ccrtraces.pdf))
+
+Connections of traces in bicategories with shadow to some traces related to K-theory is discussed in
+
+* Jonathan A. Campbell, John A. Lind, Cary Malkiewich, Kate Ponto, Inna Zakharevich, _K-theory of endomorphisms, the TR-trace, and zeta functions_, [arXiv:2005.04334](https://arxiv.org/abs/2005.04334)
 
 [[!redirects 2-bicategorical traces]]
 
