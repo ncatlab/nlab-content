@@ -16,7 +16,7 @@
 
 ## Idea
 
-(...)
+The _Iwasawa algebra_, classically, is the completed group ring $\mathbb{Z}_{p}[[\Gamma]]$, where $\Gamma$ is the subgroup of $\Gal(\mathbb{Q}(\mu_{p^{}\infty})/\mathbb{Q})\cong \mathbb{Z}_{p}^{\times}$ which is isomorphic to $1+p\mathbb{Z}_{p}$. The Iwasawa algebra is also isomorphic to the power series ring $\mathbb{Z}_{p}[[T]]$.
 
 ## Related concepts
 
