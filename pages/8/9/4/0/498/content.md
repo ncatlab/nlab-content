@@ -158,6 +158,8 @@ Possible to-dos: say something about $m$-adic topology, completion, Zariski topo
 
 * [[ordered local ring]]
 
+* [[weak local ring]]
+
 ## References
 
 
