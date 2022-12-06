@@ -564,7 +564,7 @@ $
 (on [[small category|small]] [[strict categories]]) is a [[fully faithful functor]].
 \end{proposition}
 
-(e.g [[Kerodon]], [Prop. 1.2.2.1](https://kerodon.net/tag/002Z))
+(e.g [[Kerodon]], [Prop. 1.2.2.1](https://kerodon.net/tag/002Z); [Rezk 2022, Prop. 4.10](#Rezk22))
 
 So  [[functors]] between [[locally small category|locally small categories]] are in [[bijection]] with morphisms of [[simplicial sets]] between their nerves.
 
@@ -1069,6 +1069,11 @@ Review and exposition:
 * [[Kerodon]], *The Nerve of a Category* ([002L](https://kerodon.net/tag/002L))
 
 * [[Kerodon]], *The Nerve of a Groupoid* ([0035](https://kerodon.net/tag/0035))
+
+* {#Rezk22} [[Charles Rezk]], Part 1 of: *Introduction to quasicategories* (2022) &lbrack;[pdf](https://faculty.math.illinois.edu/~rezk/quasicats.pdf), [[Rezk-IntroToQuasicategories.pdf:file]]&rbrack;
+
+
+See also:
 
 * [[Tom Leinster]], p. 117 onwards in: _Higher operads, higher categories_ , London Mathematical Society Lecture Note Series, 298. Cambridge Univ. Press 2004. xiv+433 pp. ISBN: 0-521-53215-9 ([arXiv:math.CT/0305049](https://arxiv.org/abs/math/0305049))
 
