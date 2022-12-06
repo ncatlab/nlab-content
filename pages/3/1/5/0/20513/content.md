@@ -33,6 +33,9 @@ In detail, the argument for WIMP dark matter proceeds as follows (recalled e.g. 
 
 ## References
 
+* Jonathan L. Feng, *The WIMP Paradigm: Theme and Variations* &lbrack;[arXiv:2212.02479](https://arxiv.org/abs/2212.02479)&rbrack;
+
+
 See also 
 
 * Wikipedia _[Weakly interacting massive particle](https://en.wikipedia.org/wiki/Weakly_interacting_massive_particles)_
