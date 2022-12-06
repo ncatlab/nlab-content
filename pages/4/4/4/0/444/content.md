@@ -557,13 +557,14 @@ It suggests the sense that  a Kan complex  models an [[∞-groupoid]]. The possi
 
 \begin{proposition}
 \label{NerveOfCategoriesIsFullyFaithfulFunctor}
-\linebreak
 The nerve functor
 $
   N \colon Cat \longrightarrow SSet
 $
-(on [[small category|small]] [[strict categories]]) is a [[full and faithful functor]].
+(on [[small category|small]] [[strict categories]]) is a [[fully faithful functor]].
 \end{proposition}
+
+(e.g [[Kerodon]], [Prop. 1.2.2.1](https://kerodon.net/tag/002Z))
 
 So  [[functors]] between [[locally small category|locally small categories]] are in [[bijection]] with morphisms of [[simplicial sets]] between their nerves.
 
