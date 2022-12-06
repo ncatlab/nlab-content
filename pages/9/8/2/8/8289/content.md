@@ -54,6 +54,8 @@ Famous bifunctors are
     \otimes : C \times C \to C
   $$
 
+A bifunctor of the form $D^{op} \times C \to Set$ is called a [[profunctor]].
+
 
 ## Related concepts
 
