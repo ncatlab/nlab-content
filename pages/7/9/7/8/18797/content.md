@@ -89,6 +89,10 @@ In general, Archimedean ordered fields which are not [[sequentially Cauchy compl
 
 **Axiom of sine function:** _For all elements $x \in F$, there exists a unique element $\sin(x) \in F$ such that for all positive elements $\epsilon \in F_+$, there exists a natural number $N \in \mathbb{N}$ such that for all natural numbers $n \in \mathbb{N}$, if $n \geq N$, then  $-\epsilon \lt \left(\sum_{i = 0}^{n} \frac{(-1)^i x^{2 i + 1}}{(2 i + 1)!}\right) - \sin(x) \lt \epsilon$._
 
+There is another axiom which uses the fact that derivatives of functions are well defined in the [[ordered local ring|ordered local]] [[local Artin algebra|Artin $F$-algebra]] $F[\epsilon]/\epsilon^2$ by the equation $f(x + \epsilon) = f(x) + f'(x) \epsilon$:
+
+**Axiom of sine and cosine functions:** _Let $F[\epsilon]/\epsilon^2$ be the ordered local Artin $F$-algebra, with non-zero non-positive non-negative [[nilpotent element]] $\epsilon \in F[\epsilon]/\epsilon^2$ where $\epsilon^2 = 0$ and canonical $F$-algebra homomorphism $h:F \to F[x]/x^2$. There exists unique functions $\sin:F \to F$ and $\cos:F \to F$ and functions $\sin':F[\epsilon]/\epsilon^2 \to F[\epsilon]/\epsilon^2$ and $\cos':F[\epsilon]/\epsilon^2 \to F[\epsilon]/\epsilon^2$ such that for every element $x \in F$, $h(\sin(x)) = \sin'(h(x))$, $h(\cos(x)) = \cos'(h(x))$, $\sin'(x + \epsilon) = \sin'(x) + \cos'(x) \epsilon$, $\cos'(x + \epsilon) = \cos'(x) - \sin'(x) \epsilon$, $\sin'(0) = 0$, and $\cos'(0) = 1$._
+
 ### In the dual numbers
 
 The [[dual number]] real algebra $\mathbb{D} \coloneqq \mathbb{R}[\epsilon]/\epsilon^2$ has a notion of sine and cosine function, which are the solutions to the system of functional equations $\sin(x + \epsilon) = \sin(x) + \cos(x) \epsilon$ and $\cos(x + \epsilon) = \cos(x) - \sin(x) \epsilon$ with $\sin(0) = 1$ and $\cos(0) = 1$. 
