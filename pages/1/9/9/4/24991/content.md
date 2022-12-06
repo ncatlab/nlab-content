@@ -53,7 +53,7 @@ Every ordered local ring has a [[preorder]] given by $a \leq b \coloneqq \neg (b
 
 ### Quotient ordered field
 
-Let $D$ be the [[ideal]] of all non-positive and non-negative elements in $R$. Then the quotient ring $R/D$ is an [[ordered field]]. 
+Let $D$ be the [[ideal]] of all non-invertible elements in $R$. Then the quotient ring $R/D$ is an [[ordered field]]. 
 
 ## Examples
 
