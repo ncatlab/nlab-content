@@ -108,6 +108,10 @@ In general, Archimedean ordered fields which are not [[sequentially Cauchy compl
 
 **Axiom of exponential function:** _For all elements $x \in F$, there exists a unique element $\exp(x) \in F$ such that for all positive elements $\epsilon \in F_+$, there exists a natural number $N \in \mathbb{N}$ such that for all natural numbers $n \in \mathbb{N}$, if $n \geq N$, then $-\epsilon \lt \left(1 + \frac{x}{n}\right)^{n} - \exp(x) \lt \epsilon$ (or equivalently, $-\epsilon \lt \left(\sum_{i = 0}^{n} \frac{x^i}{i!}\right) - \exp(x) \lt \epsilon$)._
 
+There is another axiom which uses the fact that derivatives of functions are well defined in the [[ordered local ring|ordered local]] [[local Artin algebra|Artin $F$-algebra]] $F[\epsilon]/\epsilon^2$ by the equation $f(x + \epsilon) = f(x) + f'(x) \epsilon$:
+
+**Axiom of exponential function:** _Let $F[\epsilon]/\epsilon^2$ be the ordered local Artin $F$-algebra, with non-zero non-positive non-negative [[nilpotent element]] $\epsilon \in F[\epsilon]/\epsilon^2$ where $\epsilon^2 = 0$ and canonical $F$-algebra homomorphism $h:F \to F[x]/x^2$. There exists a unique function $\exp:F \to F$ and a function $\exp':F[\epsilon]/\epsilon^2 \to F[\epsilon]/\epsilon^2$ such that for every element $x \in F$, $h(\exp(x)) = \exp'(h(x))$, $\exp'(x + \epsilon) = \exp'(x) + \exp'(x) \epsilon$, and $\exp'(0) = 1$._
+
 ## In Lie groups {#exp_of_Lie_groups}
 
 Note: this section is under repair. 
