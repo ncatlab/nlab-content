@@ -809,11 +809,11 @@ The streamlined perspective of strictly monotonic morphisms $\Delta[p+q] \to \De
 
 Exposition:
 
-* {#Friedman08} [[Greg Friedman]], Section 5 of: _An elementary illustrated introduction to simplicial sets_, Rocky Mountain J. Math. 42(2): 353-423 (2012) ([arXiv:0809.4221](http://arxiv.org/abs/0809.4221), [doi:10.1216/RMJ-2012-42-2-353](https://projecteuclid.org/journals/rocky-mountain-journal-of-mathematics/volume-42/issue-2/Survey-Article-An-elementary-illustrated-introduction-to-simplicial-sets/10.1216/RMJ-2012-42-2-353.full))
+* {#Friedman08} [[Greg Friedman]], §5 of: _An elementary illustrated introduction to simplicial sets_, Rocky Mountain J. Math. 42(2): 353-423 (2012) ([arXiv:0809.4221](http://arxiv.org/abs/0809.4221), [doi:10.1216/RMJ-2012-42-2-353](https://projecteuclid.org/journals/rocky-mountain-journal-of-mathematics/volume-42/issue-2/Survey-Article-An-elementary-illustrated-introduction-to-simplicial-sets/10.1216/RMJ-2012-42-2-353.full))
 
 Textbook accounts:
 
-* {#Friedman20} [[Greg Friedman]], Appendix B.6 in: *Singular Intersection Homology*,  Cambridge University Press 2020 ([doi:10.1017/9781316584446](https://doi.org/10.1017/9781316584446), [pdf](http://faculty.tcu.edu/gfriedman/IHbook.pdf))
+* {#Friedman20} [[Greg Friedman]], §2.5.1 & §B.6 in: *Singular Intersection Homology*,  Cambridge University Press 2020 ([doi:10.1017/9781316584446](https://doi.org/10.1017/9781316584446), [pdf](http://faculty.tcu.edu/gfriedman/IHbook.pdf))
 
 
 [[!redirects products of simplices]]
