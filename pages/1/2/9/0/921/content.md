@@ -256,6 +256,10 @@ and the resulting [[bijection]] $\mathbb{R}_+ \to \omega \times \omega \times \l
 
 There are more and similar characterizations along these lines. 
 
+### Smooth real numbers
+
+The **smooth real numbers** (say in a [[smooth topos]]) are only an [[ordered local ring]] rather than an [[ordered field]], because there might be non-zero non-invertible [[nilpotent]] [[infinitesimals]] in the smooth real numbers. Nevertheless, the quotient of the smooth real numbers by the [[ideal]] of non-invertible elements is one of the ordered field of real numbers as defined above. 
+
 ### Other definitions
 
 * [[Eudoxus real number]]
@@ -337,3 +341,6 @@ For more see the references at _[[analysis]]_.
 [[!redirects located real numbers]]
 [[!redirects located Dedekind real number]]
 [[!redirects located Dedekind real numbers]]
+
+[[!redirects smooth real number]]
+[[!redirects smooth real numbers]]
