@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -66,8 +65,9 @@ The concept of MOND is due to
 * {#Milgrom83c} [[Mordehai Milgrom]], _A modification of the Newtonian dynamics - Implications for galaxy systems_, Astrophysical Journal. 270: 384. (1983) doi:10.1086/161132
 
 and its most popular relativistic completion TeVeS is due to
+ * [Bekenstein 2004](#Bekenstein04)
 
-* {#Bekenstein04} [[Jacob Bekenstein]], _Relativistic gravitation theory for the modified Newtonian dynamics paradigm_, Physical Review D, 70 (8): 083509, ([arXiv:astro-ph/0403694](https://arxiv.org/abs/astro-ph/0403694))
+
 
 ### Review
 
@@ -139,6 +139,12 @@ Hybrid models which contain both [[MOND]] and [[dark matter]] are explored in
 
 * [[Tobias Mistele]], *A novel Cherenkov radiation constraint for hybrid MOND dark matter models*, ([arXiv:2208.14308](https://arxiv.org/abs/2208.14308))
 
+
 ### Relativistic MOND models
+ {#ReferencesRelativisticModels}
+
+On [[general relativity|relativistic]] MOND [[model (in theoretical physics)|models]]:
+
+* {#Bekenstein04} [[Jacob Bekenstein]], *Relativistic gravitation theory for the modified Newtonian dynamics paradigm*, Physical Review D **70** 8 (2004) 083509, &lbrack;[arXiv:astro-ph/0403694](https://arxiv.org/abs/astro-ph/0403694), [doi:10.1103/PhysRevD.70.083509](https://doi.org/10.1103/PhysRevD.70.083509)&rbrack;
 
 * [[Constantinos Skordis]], [[Tom Zlosnik]], *A new relativistic theory for Modified Newtonian Dynamics*. Physical Review Letters. Volume 127, Issue 16. Published 15 October 2021 ([doi:10.1103/PhysRevLett.127.161302](https://doi.org/10.1103/PhysRevLett.127.161302), [arXiv:2007.00082](https://arxiv.org/abs/2007.00082))
