@@ -131,5 +131,14 @@ and for fuzzy dark matter with [[superfluid]]-effects includes in
 
 * {#Khoury16} [[Justin Khoury]], _Another Path for the Emergence of Modified Galactic Dynamics from Dark Matter Superfluidity_, Phys. Rev. D 93, 103533 (2016) ([arXiv:1602.05961](https://arxiv.org/abs/1602.05961))
 
- 
+### Hybrid MOND dark matter models
 
+Hybrid models which contain both [[MOND]] and [[dark matter]] are explored in
+
+* [[Tobias Mistele]], *Cherenkov radiation from stars constrains hybrid MOND dark matter models*. Journal of Cosmology and Astroparticle Physics, Volume 2022, November 2022 ([doi:10.1088/1475-7516/2022/11/008](https://doi.org/10.1088/1475-7516/2022/11/008), [arXiv:2103.16954](https://arxiv.org/abs/2103.16954))
+
+* [[Tobias Mistele]], *A novel Cherenkov radiation constraint for hybrid MOND dark matter models*, ([arXiv:2208.14308](https://arxiv.org/abs/2208.14308))
+
+### Relativistic MOND models
+
+* [[Constantinos Skordis]], [[Tom Zlosnik]], *A new relativistic theory for Modified Newtonian Dynamics*. Physical Review Letters. Volume 127, Issue 16. Published 15 October 2021 ([doi:10.1103/PhysRevLett.127.161302](https://doi.org/10.1103/PhysRevLett.127.161302), [arXiv:2007.00082](https://arxiv.org/abs/2007.00082))
