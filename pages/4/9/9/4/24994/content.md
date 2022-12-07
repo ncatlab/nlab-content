@@ -1,0 +1,13 @@
+
+Stacy McGaugh is an astronomer who studies [[galaxies]], [[cosmology]], [[dark matter]], and [[MOND]]. 
+
+* [website](http://astroweb.case.edu/ssm/index.html)
+
+* [blog](https://tritonstation.com/)
+
+## Publications
+
+* [[Tobias Mistele]], [[Stacy McGaugh]], [[Sabine Hossenfelder]], *Galactic mass-to-light ratios with superfluid dark matter*, Astronomy and Astrophysics, Volume 664, Article 40, August 2022 ([doi:10.1051/0004-6361/202243216](https://doi.org/10.1051/0004-6361/202243216), [arXiv:2201.07282](https://arxiv.org/abs/2201.07282))
+
+category: people
+
