@@ -192,7 +192,9 @@ recognition of [[instantons]] and [[confinement]] in [[lattice gauge theory]]:
 
 * Daniel Spitz, Julian M. Urban, Jan M. Pawlowski, *Confinement in non-Abelian lattice gauge theory via persistent homology* &lbrack;[arXiv:2208.03955](https://arxiv.org/abs/2208.03955)&rbrack;
 
+Persistent homology has strong computational limits for large data sets and major problems with multifitrations. An alternative propoposal in TDA to persistent homology which is worse in 1 dimension but does not suffer above problems is
 
+* Paweł Dłotko, Davide Gurnari, _Euler Characteristic Curves and Profiles: a stable shape invariant for big data problems_, [arXiv:2212.01666](https://arxiv.org/abs/2212.01666)
 
 ### See also
 
