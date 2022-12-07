@@ -163,7 +163,7 @@ In historically influential examples, for the case $n = 4$ and $A = \mathbb{Z}$ 
 
 * explains &lbrack;[Willerton 2008](#Willerton08)&rbrack; the nature of the "[[twisted Drinfeld double]]" of the [[group algebra]] of $G$;
 
-* governs &lbrack;[Dove 2019, Sec. 6.4](#Dove19)^rbrack; the expression of 4-[[twisted cohomology|twisted]] [[equivariant elliptic cohomology]] at the [[Tate curve]] in terms of 3-[[twisted equivariant K-theory|twisted equivariant]] [[Tate K-theory]].
+* governs &lbrack;[Dove 2019, Sec. 6.4](#Dove19)&rbrack; the expression of 4-[[twisted cohomology|twisted]] [[equivariant elliptic cohomology]] at the [[Tate curve]] in terms of 3-[[twisted equivariant K-theory|twisted equivariant]] [[Tate K-theory]].
 
 Below we mean to spell out a general abstract definition (Def. \ref{Transgression}) of the transgression map (eq:TransgressionMapOnGroupCohomology) and a [full proof](#ProofOfTheComponentFormula) of its component formula (eq:SumFormulaForTransgressedCocycle), amplifying that its form is a direct consequence of -- besides some basic [[homotopy theory]]/[[homological algebra]] which we review [below](#BackgroundAndLemmata)  -- the classical [[Eilenberg-Zilber theorem]], i.e. the [[Eilenberg-Zilber/Alexander-Whitney deformation retraction]] (which was partially re-discovered in [Willerton 2008, Sec. 1](#Willerton08) under the name "Parmesan theorem").
 
