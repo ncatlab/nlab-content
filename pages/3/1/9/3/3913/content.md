@@ -365,7 +365,7 @@ $$
   \,.
 $$
 
-Since the cohomology in degree $k$ only depends on the $k$-skeleton, and since for $k \lt n$ the $k$-skeleton of $S(V)$ equals that of $X$, and since $D(V)$ is even homotopy equivalent to $X$, the morhism $i^\ast$ is an isomorphism in degrees lower than $n$. Hence by exactness of the sequence it follows that $H^{\bullet \lt n}(D(V),S(V)) = 0$.
+Since the cohomology in degree $k$ only depends on the $k$-skeleton, and since for $k \lt n$ the $k$-skeleton of $S(V)$ equals that of $X$, and since $D(V)$ is even homotopy equivalent to $X$, the morphism $i^\ast$ is an isomorphism in degrees lower than $n$. Hence by exactness of the sequence it follows that $H^{\bullet \lt n}(D(V),S(V)) = 0$.
 
 =--
 
