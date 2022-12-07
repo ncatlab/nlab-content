@@ -310,6 +310,12 @@ Similarly, we can have a [[factorization system in an (∞,1)-category]], and so
 
 ## References
 
+Factorisation systems appear to have been first studied by [[Mac Lane]] in the following paper under the term *bicategory* (not to be confused with [[bicategory]]), though this definition imposed extra conditions that are now not considered:
+
+* [[Saunders Mac Lane]]. _Duality for groups_. Bulletin of the American Mathematical Society 56.6 (1950): 485-516.
+
+See also:
+
 * [[André Joyal]], _[[joyalscatlab:Factorization systems]]_
  {#Joyal}
 
