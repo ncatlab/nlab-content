@@ -230,3 +230,6 @@ Discussion in [[univalent foundations of mathematics]] ([[homotopy type theory]]
 [[!redirects Heyting fields]]
 [[!redirects heyting field]]
 [[!redirects heyting fields]]
+
+[[!redirects Johnstone residue field]]
+[[!redirects Johnstone residue fields]]
