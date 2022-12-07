@@ -29,9 +29,14 @@ Here are a few equivalent ways to phrase the combined condition:
 
 * Whenever a sum of products is invertible, for at least one of the summands, all of its multiplicands are invertible.  (This is not entirely trivial in the noncommutative case, but it\'s still correct.)
 
-* The non-invertible elements form an [[ideal]].  (Unlike the previous clauses, this requires [[excluded middle]] to be equivalent; otherwise, it gives a weaker notion.)
+* The invertible elements form an [[anti-ideal]]. 
 
-The ideal of non-invertible elements is in fact a [[maximal ideal]], so the [[quotient object|quotient ring]] is a field, the __[[residue field]]__ of the local ring.  (This quotient can also be taken constructively, where one anti-mods out by the [[minimal anti-ideal]] of invertible elements.)
+The anti-ideal of invertible elements is in fact a minimal anti-ideal, so the [[quotient object|quotient ring]] of a local ring by its anti-ideal of invertible elements is a [[Heyting field]], the __[[residue field]]__ of the local ring.
+
+In the context of [[excluded middle]], every [[weak local ring]] is a [[local ring]]. Thus, the following is equivalent to the above definitions in classical mathematics:
+
+* The sum of two non-invertible elements is non-invertible.
+* The non-invertible elements form an [[ideal]]. 
 
 \begin{remark}\label{TrivialRingAsALocalRing}
 In [LombardiQuitté2010](#LombardiQuitté2010), the authors' definitions of local ring do not include the non-equational axiom $1 \neq 0$, which means that the [[trivial ring]] is a local ring and constitutes the [[terminal object]] in the [[category|categories]] of local rings.
