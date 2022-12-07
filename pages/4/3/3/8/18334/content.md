@@ -108,6 +108,11 @@ Discussion of the [[model structure on modules in a monoidal model category|mode
 
 * Angelos Anastopoulos, [[Marco Benini]], Sec. 2.4 of *Homotopy theory of net representations* $[$[arXiv:2201.06464](https://arxiv.org/abs/2201.06464)$]$
 
+Relation to [[factorization algebras]]:
+
+* [[Marco Benini]], Giorgio Musante, [[Alexander Schenkel]], *Quantization of Lorentzian free BV theories: factorization algebra vs algebraic quantum field theory* &lbrack;[arXiv:2212.02546](https://arxiv.org/abs/2212.02546)&rbrack;
+
+
 
 
 
