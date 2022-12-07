@@ -17,7 +17,7 @@ A definition of [[field]] in [[constructive mathematics]] which uses [[denial in
 
 ## Definition
 
-A **field in the sense of Kock**, or **Kock field** in short, is a [[commutative ring]] $R$ such that [[Anders Kock]]'s Postulate K is satisfied: 
+A **field in the sense of Kock**, or **Kock field** for short, is a [[commutative ring]] $R$ such that [[Anders Kock]]'s Postulate K is satisfied: 
 
 1. $R$ is nontrivial ($0 \neq 1$)
 
