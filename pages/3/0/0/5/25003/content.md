@@ -17,7 +17,7 @@ A definition of [[ordered field]] in [[constructive mathematics]] which uses [[d
 
 ## Definition
 
-An **ordered Kock field** is a [[Kock field]] $R$ with a [[strict order]] $\lt$ which is not [[linear relation|linear]]: 
+An **ordered Kock field** is a [[Kock field]] $R$ with a [[strict order]] $\lt$ which is not necessarily [[linear relation|linear]]: 
 
 1. for all $a \in R$, $\neg(a \lt a)$ 
 
