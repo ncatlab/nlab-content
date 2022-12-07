@@ -591,6 +591,8 @@ Stone-von Neumann**
 
   **Classification and double commutant property for dual pairs in an orthosymplectic Lie supergroup**
 
+  video: [rec](https://nyu.zoom.us/rec/play/oYJuNiMXDAurst6yAENgOX7PgADZXx6CGL_cp0zppoSU41Dz8Xw9a4oOHdf8tesb-1HvoY_S3vhCwSRK.YR9-fiYNemEmWTg2?continueMode=true&_x_zm_rtaid=sLgowcVYSQCvxs8pgmL7BA.1670394507008.c2f106fca7fc8238463055aaaac2faee&_x_zm_rhtaid=940)
+
   > One of the main problems in representation theory is to determine the set of equivalence classes of irreducible unitary representations of a Lie group. Using the Weil representation, [[Roger Howe]] established a one-to-one correspondence (known as the local theta correspondence) between particular representations of two subgroups $G$ and $G'$ forming a [[reductive dual pair|dual pair]] in $Sp(W)$. This correspondence provides a nice way to construct unitary representations of small Gelfand-Kirillov dimension.
 
   > In his wonderful paper "Remarks on classical invariant theory", Roger Howe suggested that his classical duality should be extendable to superalgebras/supergroups. In a recent work with Hadi Salmasian, we obtained a classification of irreducible reductive dual pairs in a real or complex orthosymplectic Lie supergroup $SpO(V)$. Moreover, we proved a "double commutant theorem" for all dual pairs in a real or complex orthosymplectic Lie supergroup.
