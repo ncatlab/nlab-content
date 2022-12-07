@@ -36,7 +36,7 @@ The negation of a strict order is a [[preorder]] $a \leq b \coloneqq \neg(b \lt 
 
 * [[linear order]]
 
-* [[strictly ordered commutative ring]]
+* [[strictly ordered ring]]
 
 * [[ordered local ring]]
 
