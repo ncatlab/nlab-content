@@ -48,7 +48,7 @@ Given elements $a \in R$ and $b \in R$, if the product $a \cdot b$ is cancellati
 \end{theorem}
 
 \begin{theorem}
-Given a commutative ring $R$, if for all elements $a \in R$ and $b \in R$, if the sum $a + b$ is cancellative, then either $a$ is cancellative or $b$ is cancellative, then the addition and multiplication operations on $R$ are strongly extensional with respect to the canonical apartness relation $\#$ defined by $x \# y$ iff $x - y$ is cancellative.
+Given an [[approximate integral domain]] $R$, if for all elements $a \in R$ and $b \in R$, if the sum $a + b$ is cancellative, then either $a$ is cancellative or $b$ is cancellative, then the addition and multiplication operations on $R$ are strongly extensional with respect to the canonical apartness relation $\#$ defined by $x \# y$ iff $x - y$ is cancellative.
 
 In this way $R$ becomes an internal commutative [[ring object]] in the category $\mathrm{Apart}$, consisting of sets with apartness relations and maps (strongly extensional functions) between them.
 \end{theorem}
