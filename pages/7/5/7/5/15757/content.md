@@ -43,7 +43,7 @@ This is a refinement to [[spectra]] of the [[Dennis trace]].
 ## References
 
 * [[Marcel Bökstedt]], W.C. Hsiang, [[Ib Madsen]], _The cyclotomic trace and algebraic K-theory of spaces_, Invent. Math. __111__ (1993), 463-539, [MR94g:55011](http://www.ams.org/mathscinet-getitem?mr=1202133), [doi](http://dx.doi.org/10.1007/BF01231296)
-
+* [[Ib Madsen]], _The cyclotomic trace in algebraic K-theory_, In: Joseph, A., Mignot, F., Murat, F., Prum, B., Rentschler, R. (eds) First European Congress of Mathematics Paris, July 6–10, 1992. Progress in Mathematics __120__, Birkhäuser 1994 [doi](https://doi.org/10.1007/978-3-0348-9112-7_9)
 
 * [[Andrew Blumberg]], [[David Gepner]], [[Goncalo Tabuada]], _Uniqueness of the multiplicative cyclotomic trace_ ([arXiv:1103.3923](http://arxiv.org/abs/1103.3923))
 
