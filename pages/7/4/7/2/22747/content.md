@@ -6,7 +6,7 @@
 
 An ordered integral domain is an [[integral domain]] equipped with a compatible [[linear order]].
 
-Note that while the adjective 'ordered' usually refers to a [[partial order]], it is traditionally used more strictly when placed before 'integral domain'.
+Note that while the adjective 'ordered' usually refers to a [[total order]], it is traditionally used more strictly when placed before 'integral domain'.
 
 ## Definition
 
@@ -29,8 +29,11 @@ Every [[localization of a commutative ring|localization]] of the integral domain
 
 ## Related concepts
 
-* [[ordered ring]]
+* [[linearly ordered ring]]
 
 * [[ordered field]]
 
 * [[protoring]]
+
+[[!redirects ordered integral domain]]
+[[!redirects ordered integral domains]]
