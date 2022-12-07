@@ -42,9 +42,9 @@ A survey is in
 
 * [[Mike Shulman]], _Traces in monoidal categories and bicategories_ (2008) ([pdf slides](http://home.sandiego.edu/~shulman/papers/ccrtraces.pdf))
 
-Connections of traces in bicategories with shadow to some traces related to K-theory is discussed in
+Relating the [[bicategorical trace]] to the [[Dennis trace]] on [[algebraic K-theory]]:
 
-* Jonathan A. Campbell, John A. Lind, Cary Malkiewich, Kate Ponto, Inna Zakharevich, _K-theory of endomorphisms, the TR-trace, and zeta functions_, [arXiv:2005.04334](https://arxiv.org/abs/2005.04334)
+* {#CLMPZ20} [[Jonathan Campbell]], [[John Lind]], [[Cary Malkiewich]], [[Kate Ponto]], [[Inna Zakharevich]], _K-theory of endomorphisms, the TR-trace, and zeta functions_ &lbrack;[arXiv:2005.04334](https://arxiv.org/abs/2005.04334)&rbrack;
 
 [[!redirects 2-bicategorical traces]]
 
