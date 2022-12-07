@@ -264,9 +264,13 @@ A higher-dimensional generalization of vertex algebras is suggested in the frame
 
 >  We introduce categories of weak factorization algebras and factorization spaces, and prove that they are equivalent to the categories of ordinary factorization algebras and spaces, respectively. This allows us to define the pullback of a factorization algebra or space by an \'etale morphism of schemes, and hence to define the notion of a universal factorization space or algebra. This provides a generalization to higher dimensions and to non-linear settings of the notion of a vertex algebra. 
 
-Homotopy prefactorization algebras play also a major role in
+Relation to [[homotopical algebraic quantum field theory]]:
 
-* Donald Yau, _Homotopical quantum field theory_, [arxiv/1802.08101](https://arxiv.org/abs/1802.08101), 302 pages
+* [[Donald Yau]], _Homotopical quantum field theory_ &lbrack;[arxiv/1802.08101](https://arxiv.org/abs/1802.08101)&rbrack;
+
+* [[Marco Benini]], Giorgio Musante, [[Alexander Schenkel]], *Quantization of Lorentzian free BV theories: factorization algebra vs algebraic quantum field theory* &lbrack;[arXiv:2212.02546](https://arxiv.org/abs/2212.02546)&rbrack;
+
+
 
 
 [[!redirects factorization algebras]]
