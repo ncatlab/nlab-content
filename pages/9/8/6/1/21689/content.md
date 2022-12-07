@@ -43,7 +43,7 @@ $$
      g \cdot n - n
      \;\vert\;
      g \in G,\;
-     n \in \Gamma_n N 
+     n \in \Gamma_k N 
   \big\}
   \,,
   \end{aligned}
