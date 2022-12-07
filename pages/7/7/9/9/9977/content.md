@@ -27,6 +27,7 @@ This is a term found in [[constructive mathematics]], to distinguish from other 
 
 If one wishes to reserve the word "inequality" for [[order]] relations (such as $\le$ and $\lt$), then one may instead use the word **disequality** to refer to the denial inequality.  (For instance, this is common in [[type theory]] with [[subtype]] relations that form an ordering on the [[types]].)
 
+
 ## See also
 
 * [[apartness relation]]
