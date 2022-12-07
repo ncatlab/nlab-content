@@ -9,6 +9,8 @@ An __partially ordered ring__ is a [[ring]] $R$ with a [[partial order]] such th
 
 Due to the [[reflexivity]] of the partial order, partially ordered rings may have [[zero divisors]]. Also, the [[trivial ring]] is an partially ordered ring. 
 
+If the relation $\leq$ is only a [[preorder]], then the ring $R$ is said to be a **preordered ring**. 
+
 ## Related concepts
 
 * [[pseudolattice ordered ring]]
@@ -29,4 +31,8 @@ Due to the [[reflexivity]] of the partial order, partially ordered rings may hav
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Partially_ordered_ring">Partially ordered ring</a>_
 
+[[!redirects partially ordered ring]]
 [[!redirects partially ordered rings]]
+
+[[!redirects preordered ring]]
+[[!redirects preordered rings]]
