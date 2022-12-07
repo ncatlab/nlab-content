@@ -18,9 +18,15 @@
 
 ## Idea
 
-A pseudolattice ordered ring is an [[ordered ring]] whose order forms a [[pseudolattice]]. 
+A pseudolattice ordered ring is an [[partially ordered ring]] whose partial order forms a [[pseudolattice]]. 
 
 ## Definition
+
+A **psuedolattice ordered ring** is a [[preordered ring]] where the partial order $\lt$ is a [[pseudolattice]]: it has binary [[joins]] and [[meets]]. 
+
+If the relation $\leq$ is only a [[preorder]], then the [[preordered ring]] $R$ is said to be a **pseudolattice preordered ring**. 
+
+### Essentially algebraic definition
 
 The following [[essentially algebraic]] definition is adapted from the algebraic definition of [[pseudolattice ordered abelian group]] by [[Peter Freyd]]:
 
@@ -84,3 +90,6 @@ All [[total order|totally ordered]] rings, such as the [[integers]], the [[ratio
 
 [[!redirects pseudolattice ordered ring]]
 [[!redirects pseudolattice ordered rings]]
+
+[[!redirects pseudolattice preordered ring]]
+[[!redirects pseudolattice preordered rings]]
