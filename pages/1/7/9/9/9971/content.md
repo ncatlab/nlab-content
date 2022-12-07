@@ -2,16 +2,23 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Computation
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
-#### Quantum Field Theory
-+--{: .hide}
-[[!include AQFT and operator algebra contents]]
 =--
 =--
-=--
+
+
+
 
 #Contents#
 * table of contents
@@ -48,9 +55,11 @@ Original articles on Quipper:
 
 * [[Jonathan Smith]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], _Quipper: Concrete Resource Estimation in Quantum Algorithms_, QAPL 2014 ([arXiv:1412.0625](https://arxiv.org/abs/1412.0625))
 
-Review:
+Introduction and review:
 
 * [[Alexander Green]], [[Peter LeFanu Lumsdaine]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], _An Introduction to Quantum Programming in Quipper_, Lecture Notes in Computer Science 7948:110-124, Springer, 2013 ([arXiv:1304.5485](https://arxiv.org/abs/1304.5485))
+
+* [[Peter Selinger]], *Introduction to Quipper*, talk at [QPL2016](qpl2016.cis.strath.ac.uk) (2016) &lbrack;[video](https://youtu.be/59frzb__Eqo)&rbrack;
 
 On quantum [[software verification]] for/with Quipper:
 
@@ -78,9 +87,9 @@ The issue of "[[dynamic lifting]]" (of "bits" resulting from [[quantum measureme
 
 * [[Dongho Lee]], [[Valentin Perrelle]], [[Benoît Valiron]], Zhaowei Xu, *Concrete Categorical Model of a Quantum Circuit Description Language with Measurement*, Leibniz International Proceedings in Informatics **213** (2021) 51:1-51:20 &lbrack;[arXiv:2110.02691](https://arxiv.org/abs/2110.02691), [doi:10.4230/LIPIcs.FSTTCS.2021.51](https://doi.org/10.4230/LIPIcs.FSTTCS.2021.51)&rbrack;
 
-* Andrea Colledan, [[Ugo Dal Lago]], *On Dynamic Lifting and Effect Typing in Circuit Description Languages* &lbrack;[arXiv:2202.07636](https://arxiv.org/abs/2202.07636)&rbrack;
+* [[Andrea Colledan]], [[Ugo Dal Lago]], *On Dynamic Lifting and Effect Typing in Circuit Description Languages* &lbrack;[arXiv:2202.07636](https://arxiv.org/abs/2202.07636)&rbrack;
 
-* Andrea Colledan, [[Ugo Dal Lago]], *On Dynamic Lifting
+* [[Andrea Colledan]], [[Ugo Dal Lago]], *On Dynamic Lifting
 and Effect Typing in Circuit Description Languages*, talk at *TYPES Workshop*, Nantes (2022)  &lbrack;[pdf](https://types22.inria.fr/files/2022/06/TYPES_2022_slides_13.pdf), [[ColledanLago-DynamicsLifting.pdf:file]]&rbrack;
 
 * [[Peng Fu]], [[Kohei Kishida]], [[Neil J. Ross]], [[Peter Selinger]], *A biset-enriched categorical model for Proto-Quipper with dynamic lifting*, in proceedings of *[Quantum Physics and Logic 2022](https://www.qplconference.org/)* &lbrack;[arXiv:2204.13039](https://arxiv.org/abs/2204.13039)&rbrack;
