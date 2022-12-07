@@ -49,7 +49,7 @@ If we replace "an element is invertible iff it is nonzero" in Definition \ref{cl
 Such a field $F$ is 'discrete' in that it decomposes as a coproduct $F = \{0\} \sqcup F^\times$ (where $F^\times$ is the subset of invertible elements).  An advantage is that this is a [[coherent logic|coherent theory]] and hence also a [[geometric theory]]; for this reason [Johnstone](#Johnstone77) calls such fields **geometric fields**.  A disadvantage is that this axiom is not satisfied (constructively) by the ring of [[real numbers]] (however these are defined), although it is satisfied by the ring of [[rational number|rational]] (or even [[algebraic number|algebraic]]) numbers and by the [[finite field]]s as usual.
 
 \begin{definition}\label{heyting}
-If we interpret 'nonzero' in Definition \ref{classical} as a reference to a [[tight apartness relation]], thus defining the apartness relation $\#$ by $x # y$ iff $x - y$ is invertible, then we obtain the notion of **Heyting field**. (As shown [here](/nlab/show/local+ring#internal), the ring operations become strongly extensional functions.)   In addition to $0\# 1$, the condition then means that every element apart from $0$ is invertible.
+If we interpret 'nonzero' in Definition \ref{classical} as a reference to a [[tight apartness relation]], thus defining the apartness relation $\#$ by $x # y$ iff $x - y$ is invertible, then we obtain the notion of **[[Heyting field]]**. (As shown [here](/nlab/show/local+ring#internal), the ring operations become strongly extensional functions.)   In addition to $0\# 1$, the condition then means that every element apart from $0$ is invertible.
 \end{definition}
 
 This is how 'practising' constructive analysts of the Bishop school usually define the simple word 'field'.  An advantage is that the (located Dedekind) [[real numbers]] form a Heyting field, although (for example) the (less located) [[MacNeille real number]]s need not form a Heyting field; another disadvantage is that this is not a coherent axiom and so cannot be [[internalization|internalized]] in as many categories.
@@ -60,44 +60,7 @@ If we replace "an element is invertible iff it is nonzero" in Definition \ref{cl
 
 An advantage is that even more versions of the [[real numbers]] (including the [[MacNeille real number]]s) form a residue field; disadvantages are that this axiom is not coherent either and that a residue field lacks an [[apartness relation]] (in particular, the MacNeille reals have no apartness).
 
-Every discrete field is also a Heyting field, and every Heyting field is also a residue field. A Heyting field is a discrete field if and only if [[decidable equality|equality is decidable]]; it is in this sense that a discrete field is 'discrete'.
-
-It is not true that every residue field with decidable equality is Heyting. The following proof is due to Mark Saving: 
-
-\begin{definition}
-Let $p$ be a proposition. We define the set $R_p$ to be the union of $\mathbb{Z}$ and $\{x \in \mathbb{Q} \vert p\}$
-\end{definition}
-
-$R_p$ is a subring of $\mathbb{Q}$. 
-
-Since $R_p$ is a subset of $\mathbb{Q}$ and $\mathbb{Q}$ has decidable equality, $R_p$ also has decidable equality. And of course $0\neq 1$ in $R_p$. 
-
-\begin{theorem}
-$R_p$ is a residue field iff $\neg \neg p$. 
-\end{theorem}
-
-\begin{proof}
-Given a proposition $p$, suppose that $\neg \neg p$, and consider some $x\in R_p$. Suppose $x$ does not have a multiplicative inverse. Now suppose $x\neq 0$. Then we see that $x^{-1}$ is not in $R_p$. If $p$ held, we would have $x{-1} \in R_p$. So we know $\neg p$ holds. But this is a contradiction. Therefore, $x$ must be zero (using decidable equality).
-
-Conversely, suppose $R_p$ is a residue field. If $\neg p$ held, we would have $R_p = \mathbb{Z}$, which clearly is not a residue field since $2$ is neither invertible nor zero. So we must have $\neg \neg p$.
-
-\end{proof}
-
-\begin{theorem}
-$R_p$ is a Heyting field iff it is the case that $p$ iff $R_p$ is a discrete field. 
-\end{theorem}
-
-\begin{proof}
-Suppose $R_p$ is a Heyting field. Then either $2$ or $3$ has a multiplicative inverse, so either $2^{-1} \in R_p$ or $3^{-1} \in R_p$. In either case, we see that $p$ holds. If $p$ holds, then $R_p = \mathbb{Q}$, which is a discrete field. And if $R_p$ is a discrete field, it is clearly a Heyting field.
-\end{proof}
-
-\begin{theorem}
-If every residue field with discrete equality is Heyting, then [[excluded middle]] is valid
-\end{theorem}
-
-\begin{proof}
-From the lemmas above, if every residue field with decidable equality is a Heyting field, then $p \iff \neg \neg p$ holds for all propositions $p$. So we have full excluded middle.
-\end{proof}
+Every discrete field is also a Heyting field, and every Heyting field is also a residue field. A Heyting field is a discrete field if and only if [[decidable equality|equality is decidable]]; it is in this sense that a discrete field is 'discrete'. It is not true that every residue field with decidable equality is Heyting. See [this proof](https://ncatlab.org/nlab/show/Heyting+field#properties) for details. 
 
 A residue field is a Heyting field if and only if it is a [[local ring]].  Furthermore, the quotient ring (or 'residue ring') of any local ring by its ideal of noninvertible elements is a Heyting field; in particular, it is a [[residue field]].  On the other hand, not every residue field is even a local ring (the MacNeille reals are not), so not every residue field is the residue ring of any local ring.  The name "residue field" comes from the fact that these fields are precisely the residue rings of *weak local rings* (rings in which the noninvertible elements form an ideal).
 
@@ -225,11 +188,6 @@ Discussion in [[univalent foundations of mathematics]] ([[homotopy type theory]]
 
 [[!redirects discrete field]]
 [[!redirects discrete fields]]
-
-[[!redirects Heyting field]]
-[[!redirects Heyting fields]]
-[[!redirects heyting field]]
-[[!redirects heyting fields]]
 
 [[!redirects Johnstone residue field]]
 [[!redirects Johnstone residue fields]]
