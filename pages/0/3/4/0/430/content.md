@@ -40,7 +40,14 @@ If we omit the commutativity axiom, then the result is a [[skewfield]] or [[divi
 ### Constructive notions
 {#constructive}
 
-Fields are (arguably) not a purely [[algebra|algebraic]] notion in that they don\'t form an [[algebraic category]] (see [discussion below](#category)).  For this reason, it should be unsurprising that in [[constructive mathematics]] (including the [[internal logic]] of a [[topos]]) there are different inequivalent ways to define a field.  In this case the classical definition is not usually the best one; for instance, the real numbers do not satisfy it.  There are several potential replacements with their own advantages and disadvantages.
+Fields are (arguably) not a purely [[algebra|algebraic]] notion in that they don\'t form an [[algebraic category]] (see [discussion below](#category)).  For this reason, it should be unsurprising that in [[constructive mathematics]] (including the [[internal logic]] of a [[topos]]) there are different inequivalent ways to define a field.  In this case the classical definition is not usually the best one; for instance, the real numbers do not satisfy it.  There are several potential replacements with their own advantages and disadvantages. These include: 
+
+* [[discrete field]]
+* [[Heyting field]]
+* [[Johnstone residue field]]
+* [[Kock field]]
+* [[local ring]]
+* [[weak local ring]]
 
 \begin{definition}\label{discrete}
 If we replace "an element is invertible iff it is nonzero" in Definition \ref{classical} by "an element is invertible [[xor]] it equals zero" (which is equivalent in [[classical logic]] but stronger in [[constructive logic]]), then we obtain the notion of **discrete field**.  This condition means that every element is either $0$ or invertible, and it also implies that $0\neq 1$.
@@ -166,6 +173,8 @@ The canonical  [[ring object|local ring object]] of the [[Zariski site|gros Zari
 * [[model theory of fields]]
 
 * [[infinity-field]]
+
+* [[Kock field]]
 
 ## References
 
