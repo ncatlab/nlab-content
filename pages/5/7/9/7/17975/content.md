@@ -93,6 +93,14 @@ Some thoughts on the quantum [[measurement problem]] for fuzzy DM particles with
 
 * Adam D. Helfer, _Quantum measurement and fuzzy dark matter_ ([arXiv:1809.04946](https://arxiv.org/abs/1809.04946))
 
+### Superfluid dark matter
+
+Discussion of [[superfluid]] dark matter could be found in:
+
+* {#HossenfelderMistele19} [[Sabine Hossenfelder]], [[Tobias Mistele]], *Strong lensing with superfluid dark matter*. Journal of Cosmology and Astroparticle Physics, Volume 2019, February 2019. ([doi:10.1088/1475-7516/2019/02/001](https://doi.org/10.1088/1475-7516/2019/02/001), [arXiv:1809.00840](https://arxiv.org/abs/1809.00840))
+
+* {#Mistele22} [[Tobias Mistele]], [[Stacy McGaugh]], [[Sabine Hossenfelder]], *Galactic mass-to-light ratios with superfluid dark matter*, Astronomy and Astrophysics, Volume 664, Article 40, August 2022 ([doi:10.1051/0004-6361/202243216](https://doi.org/10.1051/0004-6361/202243216), [arXiv:2201.07282](https://arxiv.org/abs/2201.07282))
+
 ### MOND Phenomenology
 
 Discussion of how [[superfluid]] aspects of [[axion|axionic]] fuzzy dark matter reproduce [[MOND]] [[phenomenology]] is in 
