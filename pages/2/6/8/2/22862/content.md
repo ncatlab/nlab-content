@@ -159,7 +159,7 @@ $$
 
 In historically influential examples, for the case $n = 4$ and $A = \mathbb{Z}$ or, equivalently, $n = 3$ and $A = $ [[U(1)]], this formula (eq:SumFormulaForTransgressedCocycle):
 
-* implicitly underlies &lbrack;[Dijkgraaf & Witten 1990, p. 24](#DijkgraafWitten90)&rbrack; the discussion of [[Dijkgraaf-Witten theory]]; 
+* implicitly underlies &lbrack;[Dijkgraaf & Witten 1990, p. 14](#DijkgraafWitten90)&rbrack; the discussion of [[Dijkgraaf-Witten theory]]; 
 
 * explains &lbrack;[Willerton 2008](#Willerton08)&rbrack; the nature of the "[[twisted Drinfeld double]]" of the [[group algebra]] of $G$;
 
@@ -1477,7 +1477,7 @@ This is manifestly the image under $sSet\big( [S,\overline{W}G], - \big)$ of the
 
 The transgression map is alluded to in 
 
-* {#DijkgraafWitten90} [[Robbert Dijkgraaf]], [[Edward Witten]], p. 24 of: _[[DW.pdf:file]]_, Commun. Math. Phys. __129__ (1990) 393 ([euclid:cmp/1104180750](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-129/issue-2/Topological-gauge-theories-and-group-cohomology/cmp/1104180750.full))
+* {#DijkgraafWitten90} [[Robbert Dijkgraaf]], [[Edward Witten]], p. 14 of: _[[DW.pdf:file]]_, Commun. Math. Phys. __129__ (1990) 393 ([euclid:cmp/1104180750](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-129/issue-2/Topological-gauge-theories-and-group-cohomology/cmp/1104180750.full))
 
 An indication of a proof, implicitly using ingredients of the [[Eilenberg-Zilber map]] (re-discovered under the name "Parmesan map"):
 
