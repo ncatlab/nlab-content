@@ -17,7 +17,7 @@ A definition of [[field]] in [[constructive mathematics]] which uses [[denial in
 
 ## Definition
 
-A **Kock field** is a [[commutative ring]] $R$ such that 
+A **field in the sense of Kock**, or **Kock field** in short, is a [[commutative ring]] $R$ such that [[Anders Kock]]'s Postulate K is satisfied: 
 
 1. $R$ is nontrivial ($0 \neq 1$)
 
@@ -44,3 +44,6 @@ Every Kock field with [[decidable equality]] is a [[discrete field]].
 ## References
 
 * [[David Jaz Myers]], Axiom 3 in Sec. 4.1 of: *Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory* &lbrack;[arXiv:2205.15887](https://arxiv.org/abs/2205.15887)&rbrack;
+
+[[!redirects Postulate K]]
+[[!redirects field in the sense of Kock]]
