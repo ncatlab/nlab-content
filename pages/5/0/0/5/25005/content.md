@@ -5,15 +5,23 @@ Traditionally, in classical mathematics, an ordered ring is a [[totally ordered 
 
 These include 
 
-* [[totally ordered rings]]
+* [[preordered ring]]
 
-* [[partially ordered rings]]
+* [[totally preordered ring]]
 
-* [[pseudolattice ordered rings]]
+* [[pseudolattice preordered ring]]
 
-* [[linearly ordered rings]]
+* [[strictly ordered ring]]
 
-* [[strictly ordered rings]]
+
+
+* [[partially ordered ring]]
+
+* [[totally ordered ring]]
+
+* [[pseudolattice ordered ring]]
+
+* [[linearly ordered ring]]
 
 ## External links
 
