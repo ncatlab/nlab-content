@@ -44,6 +44,10 @@ In [LombardiQuitté2010](#LombardiQuitté2010), the authors' definitions of loca
 
 ## Examples
 
+* Every [[Heyting field]] is a local ring.
+
+* Every [[Kock field]] is a local ring.
+
 * For $R$ a local ring, then the [[power series ring]] $R[ [x] ]$ is also a local ring.
 
 ## Properties
