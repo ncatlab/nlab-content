@@ -42,9 +42,11 @@ and its [[model structure on algebras over an operad]] (with respect to the [[mo
 * {#BeniniSchenkelWoike18} [[Marco Benini]], [[Alexander Schenkel]], [[Lukas Woike]], _Homotopy theory of algebraic quantum field theories_, Lett. Math. Phys. 109, 1487-1532 (2019) ([arXiv:1805.08795](https://arxiv.org/abs/1805.08795), [doi:10.1007/s11005-018-01151-x](https://doi.org/10.1007/s11005-018-01151-x))
 
 
-On relating [[algebraic quantum field theory]] via [[local nets of observables]] to [[factorization algebras]]:
+On relating [[homotopy AQFT|homotopy]] [[algebraic quantum field theory]] via [[local nets of observables]] to [[factorization algebras]]:
 
 * [[Marco Benini]], [[Marco Perin]], [[Alexander Schenkel]], _Model-independent comparison between factorization algebras and algebraic quantum field theory on Lorentzian manifolds_, Communications in Mathematical Physics volume 377, pages 971–997 (2020) ([arXiv:1903.03396v2](https://arxiv.org/abs/1903.03396), [doi:10.1007/s00220-019-03561-x](https://doi.org/10.1007/s00220-019-03561-x))
+
+* [[Marco Benini]], Giorgio Musante, [[Alexander Schenkel]], *Quantization of Lorentzian free BV theories: factorization algebra vs algebraic quantum field theory* &lbrack;[arXiv:2212.02546](https://arxiv.org/abs/2212.02546)&rbrack;
 
 Discussion of [[orbifold|orbifolding]] via [[categorification]], in [[homotopical algebraic quantum field theory]]:
 
