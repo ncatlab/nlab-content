@@ -17,19 +17,29 @@
 =--
 =--
 
-In [[constructive mathematics]], an __inequality relation__ is a [[binary relation]] that is [[irreflexive relation|irreflexive]] and [[symmetric relation|symmetric]].  An inequality relation is often denoted '$\ne$' (infix) or a variation.
+\tableofcontents
 
-Although this concept is nontrivial in [[classical mathematics]], one does not usually run across it there; this is because one is usually interested in _tight_ inequalities (see below), and [[excluded middle]] shows that the only tight inequality (on a given [[set]]) is the [[denial inequality]] (the [[negation]] of [[equality relation|equality]]).
+## Definition
+
+An __inequality relation__ is a [[binary relation]] that is [[irreflexive relation|irreflexive]] and [[symmetric relation|symmetric]].  An inequality relation is often denoted '$\neq$' (infix) or a variation like $\#$.
+
+## Examples
+
+* Every [[apartness relation]] is an inequality relation which is also a [[comparison]]. 
+
+* Every [[local ring]] has an inequality relation given by $a \# b$ if and only if $b - a$ is invertible. This happens to be an apartness relation. 
+
+## Warning on terminology
 
 The term 'inequality relation' is often shortened to 'inequality', but it should not be confused with [[order]] relations (the sort typically denoted '$\le$' or a variation).  Sometimes 'inequation' is used for a statement containing an inequality relation (much as 'equation' is used for a statement containing an equality relation), leaving 'inequality' to mean a statement containing an order relation).
 
+## Tight inequality relations
 
-Specific types of inequality relations include:
+A tight inequality relation is an inequality relation such that if $\neg(a \neq b)$ then $a = b$. This concept is trivial in [[classical mathematics]], since every tight inequality on a set is the [[denial inequality]] (the [[negation]] of [[equality relation|equality]]).
 
-*  A _[[tight relation|tight]]_ inequality, that is one such that $x = y$ holds whenever $x \ne y$ fails.
-*  An _[[apartness relation]]_, that is an inequality relation that is also a [[comparison]] relation.
-*  The _[[denial inequality]]_, the [[negation]] of [[equality relation|equality]].
+## See also
 
+* [[apartness relation]]
 
 [[!redirects inequality relation]]
 [[!redirects inequality relations]]
