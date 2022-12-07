@@ -38,7 +38,7 @@ Hence the inclusion $Map M \to M$ is the "universal" proarrow equipment that can
 [[Mike Shulman]]: This is obviously morally true, but I can't be bothered right now to check which 1-, 2-, or 3-categories of equipments and bicategories one has to use to make it precisely correct.
 =--
 
-A lot of work in bicategories that makes use of maps could easily be reformulated in a proarrow equipment, and conversely.  Thus, it is to some extent a question of aesthetics which is preferred.  One advantage of proarrow equipments is they can distinguish between a category and its Cauchy completion (as objects of Prof), while maps in bicategories are perhaps simpler in some ways.
+A lot of work in bicategories that makes use of maps can easily be reformulated in a proarrow equipment. One advantage of proarrow equipments over bicategories of maps is they can distinguish between a category and its Cauchy completion (as objects of [[Prof]]).
 
 ## See also 
 
