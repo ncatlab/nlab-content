@@ -15,15 +15,15 @@
 
 ## Definitions
 
-A **local ring** is a [[ring]] (with unit, usually also assumed commutative) such that:
+A **local ring** is a [[ring]] (with [[unit]], usually also assumed [[commutative ring|commutative]]) such that:
 
 * $0 \ne 1$; and
 
-* whenever $a + b = 1$, $a$ or $b$ is invertible.
+* whenever $a + b = 1$, $a$ or $b$ is [[invertible]].
 
 Here are a few equivalent ways to phrase the combined condition:
 
-* Whenever a (finite) sum equals $1$, at least one of the summands is invertible.
+* Whenever a (finite) [[sum]] equals $1$, at least one of the summands is invertible.
 
 * Whenever a sum is invertible, at least one of the summands is invertible.
 
