@@ -51,3 +51,6 @@ The [[integers]], the [[rational numbers]], and the [[real numbers]] are totally
 ## External links
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Ordered_ring">Ordered ring</a>_
+
+[[!redirects totally ordered ring]]
+[[!redirects totally ordered rings]]
