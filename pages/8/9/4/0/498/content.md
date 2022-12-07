@@ -126,8 +126,7 @@ For addition, if $(x + y) \# (x' + y')$, then $x + y - (x' + y') = (x - x') + (y
 For multiplication, if $x y # x' y'$, then $x y - x' y'$ is invertible. Write $x y - x' y' = (x - x')y + x'(y - y')$. Since $R$ is local, either $(x - x')y$ is a unit or $x'(y - y')$ is a unit. From this we easily conclude $x - x'$ is a unit or $y - y'$ is, whence $(x, y) # (x', y')$. So multiplication is also strongly extensional. 
 =-- 
 
-Constructively there are also possible variants of the definition of local ring.  For instance, in [Johnstone77](#Johnstone77) a **weak local ring** is defined to be a ring in which the sum of any two noninvertible elements is noninvertible.  The quotients of weak local rings are precisely the *residue [[fields]]* (nontrivial rings in which every noninvertible element is zero); this is the origin of the name "residue field".
-
+Constructively there are also possible variants of the definition of local ring.  For instance, in [Johnstone77](#Johnstone77) a **[[weak local ring]]** is defined to be a ring in which the sum of any two noninvertible elements is noninvertible.  The quotients of weak local rings are precisely the *residue [[fields]]* (nontrivial rings in which every noninvertible element is zero); this is the origin of the name "residue field".
 
 ## Local homomorphisms 
 
