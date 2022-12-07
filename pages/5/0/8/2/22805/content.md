@@ -12,9 +12,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -27,6 +25,8 @@ This definition is adapted from [[Peter Freyd]]'s definition of a [[totally orde
 A __totally ordered ring__ is an [[pseudolattice ordered ring]] $R$ such that for all elements $a$ in $R$, $a \leq 0$ or $-a \leq 0$. 
 
 In a totally ordered ring, the [[join]] is usually called the __maximum__, while the [[meet]] is usually called the __minimum__  
+
+If the relation $\leq$ is only a [[preorder]], then the [[pseudolattice preordered ring]] $R$ is said to be a **totally preordered ring**. 
 
 ## Examples
 
@@ -54,3 +54,6 @@ The [[integers]], the [[rational numbers]], and the [[real numbers]] are totally
 
 [[!redirects totally ordered ring]]
 [[!redirects totally ordered rings]]
+
+[[!redirects totally preordered ring]]
+[[!redirects totally preordered rings]]
