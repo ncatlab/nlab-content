@@ -20,20 +20,16 @@
 ###### Theorem
 **("[[John Milnor|Milnor]]'s [[exercise]]")**
 
-
 The [[functor]]
-
 $$
   C^\infty(-) \colon SmoothMfd \longrightarrow Alg_{\mathbb{R}}^{op}
 $$
-
 which sends a [[smooth manifold]] ([[finite number|finite]] [[dimension|dimensional]], [[paracompact topological space|paracompact]], [[second countable topological space|second countable]]) to (the [[formal dual]] of) its $\mathbb{R}$-[[associative algebra|algebra]] of [[smooth functions]] is a [[full and faithful functor]].
 
-
 In other words, for two [[smooth manifolds]] $X,Y$ there is a [[natural bijection]] between the [[smooth functions]] $X \to Y$ and the $\mathbb{R}$-[[associative algebra|algebra]] [[homomorphisms]] $C^\infty(X)\leftarrow C^\infty(Y)$.
-
-
 =--
+
+For the case of the category of smooth manifolds and diffeomorphisms this was proved by Pursell in 1952.
 
 The statement originates with [Milnor-Stasheff 74, Problem 1-C (p. 11)](#MilnorStasheff74).
 Proof is in ([Kolar-Slovak-Michor 93, lemma 35.8, corollaries 35.9, 35.10](#KolarSlovakMichor93)).
@@ -79,11 +75,15 @@ The analogous statement in [[topology]] is:
 
 ## References
 
+The case of the category of smooth manifolds and diffeomorphisms is proved in
+
+* [[Lyle Eugene Pursell]], _Algebraic structures associated with smooth manifolds_, PhD dissertation, Purdue University, 1952.  93 pp.  ISBN: 978-1392-88143-9.  [PDF](https://www.proquest.com/docview/2327629257).
+
 The statement for domain a point is due to
 
 * {#MilnorStasheff74} [[John Milnor]], [[James Stasheff]], Problem 1-C (p. 11) in: _Characteristic Classes_, Annals of Mathematics Studies, Princeton University Press 1974 ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76))
 
-Statement and proof for [[isomorphisms]] is in
+Expository accounts for the case of [[isomorphisms]] are in
 
 * [[Janusz Grabowski]], _Isomorphisms and ideals of the Lie algebras of vector fields_, Inventiones mathematicae volume 50, pages 13–33 (1978) ([doi:10.1007/BF01406466](https://doi.org/10.1007/BF01406466))
 
