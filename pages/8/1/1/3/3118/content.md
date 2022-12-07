@@ -25,6 +25,8 @@ via [[Quipper]]:
 
 * [[Peter Selinger]], _The Quipper Language_ ([web](http://www.mathstat.dal.ca/~selinger/quipper/))
 
+* [[Peter Selinger]], *Introduction to Quipper*, talk at [QPL2016](qpl2016.cis.strath.ac.uk) (2016) &lbrack;[video](https://youtu.be/59frzb__Eqo)&rbrack;
+
 On [[self-dual objects]] in [[star-autonomous categories]] and their relation to [[inner products]] and to [[dagger-category|dagger-structure]]:
 
 * {#Selinger12} [[Peter Selinger]], _Autonomous categories in which $A \simeq A^\ast$_, talk at QPL 2012 ([[SelingerSelfDual.pdf:file]])
