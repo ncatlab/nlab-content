@@ -17,8 +17,12 @@ On [[spherical T-duality]] in [[iterated algebraic K-theory]]:
 
 * {#LindSatiWesterland16} [[John Lind]], [[Hisham Sati]], [[Craig Westerland]], _A higher categorical analogue of topological T-duality for sphere bundles_, Annals of K-Theory, Vol. 5 (2020), No. 1, 1–42 ([arXiv:1601.06285](http://arxiv.org/abs/1601.06285), [doi:doi:10.2140/akt.2020.5.1](https://msp.org/akt/2020/5-1/p01.xhtml))
 
+On the [[Dennis trace]] on [[algebraic K-theory]] and relating to [[bicategorical trace]]:
 
-## Related $n$Lab entries
+* {#CLMPZ20} [[Jonathan Campbell]], [[John Lind]], [[Cary Malkiewich]], [[Kate Ponto]], [[Inna Zakharevich]], _K-theory of endomorphisms, the TR-trace, and zeta functions_ &lbrack;[arXiv:2005.04334](https://arxiv.org/abs/2005.04334)&rbrack;
+
+
+## Related entries
 
 * [[spherical T-duality]]
 
