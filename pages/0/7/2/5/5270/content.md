@@ -39,6 +39,10 @@ On [[quantum probability theory]] and the [[operator algebra]]-foundations for [
 
 * {#Froehlich} [[Jürg Fröhlich]], _The structure of quantum theory_, Chapter 6 in _The quest for laws and structure_, EMS 2016  ([doi](https://www.researchgate.net/publication/308595814_The_Quest_for_Laws_and_Structure), [doi:10.4171/164-1/8](https://www.ems-ph.org/books/show_abstract.php?proj_nr=207&vol=1&rank=8))
 
+On [[quantum measurement]]:
+
+* [[Jürg Fröhlich]], Zhou Gang, *On the Evolution of States in a Quantum-Mechanical Model of Experiments* &lbrack;[arXiv:2212.02599](https://arxiv.org/abs/2212.02599)&rbrack;
+
 ## Quotes
  {#Quotes}
 
