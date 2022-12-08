@@ -28,6 +28,7 @@ but some people distinguish forks and coforks.
 
 ## Related concepts
 
+* [[parallel pair]]
 * [[monadicity theorem]]
 
 [[!redirects fork]]
