@@ -138,8 +138,7 @@ On [[quantization]] of the [[M2-brane]] [[Green-Schwarz sigma-model]]:
 
 On [[Kaluza-Klein compactification]]
 
-
-* {#Duff94} [[Michael Duff]], _Kaluza-Klein Theory in Perspective_, Proc. of the Symposium: _The Oskar Klein Centenary_, World Scientific, Singapore. 1994. ([arXiv:hep-th/9410046](http://arxiv.org/abs/hep-th/9410046))
+* {#Duff94} [[Michael Duff]], *Kaluza-Klein Theory in Perspective*, Proc. of the Symposium: *The Oskar Klein Centenary*, World Scientific, Singapore (1994) &lbrack;[arXiv:hep-th/9410046](http://arxiv.org/abs/hep-th/9410046), [doi:10.1142/2816](https://doi.org/10.1142/2816)&rbrack;
 
 and specifically in [[supergravity]]:
 
