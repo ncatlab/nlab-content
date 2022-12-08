@@ -49,6 +49,10 @@ Now functors $P\to C$ are pecisely pairs of parallel morphisms.
 
 The [[limit]] of a pair (or family) or morphisms is called their __[[equalizer]]__; the [[colimit]] is their __[[coequalizer]]__. (Of course, these do not always exist.)
 
+## Related concepts
+
+* [[fork]]
+
 [[!include free diagrams -- table]]
 
 [[!redirects parallel morphism]]
