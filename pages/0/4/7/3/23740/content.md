@@ -144,7 +144,7 @@ In [Lombardi & Quitté 2010](#LombardiQuitté2010), a [[unique factorization dom
 
 * [[GCD ring]]
 
-* [[prefield]]
+* [[prefield ring]]
 
 ## References
 
