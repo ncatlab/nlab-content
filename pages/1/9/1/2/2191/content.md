@@ -53,6 +53,14 @@ If a category $D$ is [[enriched category|enriched]] in $C$ with [[copowers]], th
 
 Conversely, if an actegory is such that the functor $(-)\oslash d:C\to D$ has a [[right adjoint]] for all objects $d$ of $D$, then the right adjoints $D(d,-):D\to C$ provide an enrichment of $D$ in $C$ for which the action is a copower. See [KJ01](#KJ01).
 
+## Origins
+
+The original use of the term is explained in [Cockett & Pastro](#CockettPastro07): 
+
+> The term *actegory* is used to describe the situation of a monoidal category “acting” on a category.  They first appeared (under a different name) in the work of B&eacute;nabou as a simple example of a bicategory. B. Pareigis developed the theory of actegories (again under a different name) and showed there usefulness in the representation theory of monoids and comonoids. The word “actegory” was first suggested at the Australian Category Seminar and first appeared in print in the thesis of P. McCrudden where they were used to study categories of representations of coalgebroids.
+
+
+
 ## Related Concepts
 
 * If an actegory is like a [[module]], then a _[[biactegory]]_ is like a [[bimodule]].
@@ -66,6 +74,8 @@ Conversely, if an actegory is such that the functor $(-)\oslash d:C\to D$ has a 
 * P. Schauenburg, _Actions of monoidal categories and generalized Hopf smash products_, J. Algebra __270__ (2003) 521&#8211;563 (remark: actegories with action in the strong monoidal sense)
 
 * [[Zoran Škoda]], _Distributive laws for actions of monoidal categories_, [arxiv:0406310](http://arxiv.org/abs/math/0406310), _Equivariant monads and equivariant lifts versus a 2-category of distributive laws_, [arxiv:0707.1609](http://arxiv.org/abs/0707.1609)
+
+* [[J. R. B. Cockett]], Craig Pastro, _The logic of message-passing_ [arXiv:math/0703713](https://arxiv.org/abs/math/0703713).
 
 A recent survey of many basic definitions and operations on actegories is
 
