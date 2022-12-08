@@ -60,7 +60,7 @@ C \ar[d, "t"'] \ar[r, "n"]\ar[dd, bend right, equals]& P \ar[d, "u"]  \\
  A \ar[r, "p"] \ar[d, "q"'] & B \ar[d, "b"] \\ C \ar[r, "c"'] & X
 \end{tikzcd}\end{center}
 we see that $c$ factors through the claimed pushout $P$ as $c = (b  u) n$. We must verify that $b$ also factors as $b = (b  u)  m$. Since $p$ is an epimorphism, it suffices to prove that $b p = b u m p$, which follows easily:
-$$ b p = c q = b u n q = b u m p.$$
+$$ b p = c q = c q t q = b p t q = b u n q = b u m p.$$
 This produces the desired factorization. Finally, since $m$ is an epimorphism, such factorizations are unique.
 =--
 
