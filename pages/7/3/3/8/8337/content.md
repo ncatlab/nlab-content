@@ -56,5 +56,6 @@
   * [[axiom of replacement]]
 
 * further
-
   * [[reflection principle]]
+
+* [[axiom of inequality spaces]]
