@@ -47,6 +47,10 @@ For addition, if $(x + y) \# (x' + y')$, then $x + y - (x' + y') = (x - x') + (y
 For multiplication, if $x y # x' y'$, then $x y - x' y'$ is cancellative. Write $x y - x' y' = (x - x')y + x'(y - y')$. Since $R$ is a strict approximate integral domain, either $(x - x')y$ is a cancellative element or $x'(y - y')$ is a cancellative element. From this we easily conclude $x - x'$ is a cancellative element or $y - y'$ is, since cancellative elements are closed under multiplicaiton, whence $(x, y) # (x', y')$. So multiplication is also strongly extensional. 
 =-- 
 
+\begin{theorem}
+The [[ring of fractions]] of every strict approximate integral domain is a [[local ring]]. 
+\end{theorem}
+
 ## Examples and non-examples
 
 * The [[integers]] are an approximate integral domain which are an [[integral domain]]. 
