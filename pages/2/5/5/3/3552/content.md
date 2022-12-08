@@ -338,7 +338,7 @@ Review and application:
 
 * {#Hess06} [[Kathryn Hess]], around def 1.10  of _Rational homotopy theory: a brief introduction_ ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
 
-* {#Menichi13} [[Luc Menichi]], _Rational homotopy -- Sullivan models_, IRMA Lect. Math. Theor. Phys., EMS ([arXiv:1308.6685](https://arxiv.org/abs/1308.6685))
+* {#Menichi13} [[Luc Menichi]], *Rational homotopy -- Sullivan models*, in: *Free Loop Spaces in Geometry and Topology*, IRMA Lect. Math. Theor. Phys., EMS (2015) &lbrack;[arXiv:1308.6685](https://arxiv.org/abs/1308.6685), [doi:10.4171/153](https://doi.org/10.4171/153)&rbrack;
 
 * {#FelixHalperin17} [[Yves Félix]], [[Steve Halperin]], _Rational homotopy theory via Sullivan models: a survey_,  Notices of the International Congress of Chinese Mathematicians Volume 5 (2017) Number 2 ([arXiv:1708.05245](https://arxiv.org/abs/1708.05245), [doi:10.4310/ICCM.2017.v5.n2.a3](https://dx.doi.org/10.4310/ICCM.2017.v5.n2.a3))
 
