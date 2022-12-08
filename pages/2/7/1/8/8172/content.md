@@ -1980,7 +1980,7 @@ The following is the complete list of solid rings (def. \ref{CoreOfARing}) up to
      \,;
    $$
 
-1. the [[cyclic rings]]
+1. the [[integers modulo n]]
 
    $$
      \mathbb{Z}/n\mathbb{Z}
@@ -5248,7 +5248,7 @@ Let $E$ be a [[connective spectrum|connective]] [[ring spectrum]] such that the 
 
 * the [[localization of a ring|localization]] of the [[integers]] at a set $J$ of [[primes]], $c \pi_0(E) \simeq \mathbb{Z}[J^{-1}]$;
 
-* a [[cyclic ring]] $c \pi_0(E) \simeq \mathbb{Z}/n\mathbb{Z}$, for $n \geq 2$.
+* a ring of [[integers modulo n]] $c \pi_0(E) \simeq \mathbb{Z}/n\mathbb{Z}$, for $n \geq 2$.
 
 Then the map in remark \ref{CanonicalMapFromELocalizationToTotalization} is an equivalence
 
@@ -5409,7 +5409,7 @@ Notice that the first morphism is always surjective, while the second is necessa
 
 $\,$
 
-Now we state sufficient conditions for complete convergence of the $E$-Adams spectral sequence. It turns out that convergence is controled by the [[core of a ring|core]] (def. \ref{CoreOfARing}) of the ring $\pi_0(E)$. By prop. \ref{ClassificationOfSolidRings} these cores are either localizations of the integers $\mathbb{Z}[J^{-1}]$ at a set $J$ of primes (def. \ref{InvertingPrimes}) or are [[cyclic rings]], or cores of products of these. We discuss the first two cases.
+Now we state sufficient conditions for complete convergence of the $E$-Adams spectral sequence. It turns out that convergence is controled by the [[core of a ring|core]] (def. \ref{CoreOfARing}) of the ring $\pi_0(E)$. By prop. \ref{ClassificationOfSolidRings} these cores are either localizations of the integers $\mathbb{Z}[J^{-1}]$ at a set $J$ of primes (def. \ref{InvertingPrimes}) or are rings of [[integers modulo n]], or cores of products of these. We discuss the first two cases.
 
 
 +-- {: .num_theorem #EAdamsConvergenceForCorepi0EBeingZLocalizedAtPrimes}
