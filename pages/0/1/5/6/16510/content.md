@@ -30,7 +30,7 @@ given by forming the [[Cartesian product]] with $W$, with the [[coproduct]] indu
 
 Notice then if $W$ is furthermore equipped with the structure of a [[monoid]], then $W \times (-)$ also canonically inherits the structure of a [[monad]], allowing aggregation of a program's $W$ outputs, corresponding to a sort of side channel. Equipped with this [[monad]]-structure, the operation $W \times (-)$ is known as the *[[writer monad]]*, see there for more.
 
-On the other hand, the canonical comonad structure on $W \times (-)$ is [[left adjoint]] to the [[reader monad]], so that it is known as the *reader comonad* (eg. in the [[Haskell]] documentation for *[Control.Comonad.Reader](https://hackage.haskell.org/package/category-extras-0.53.0/docs/Control-Comonad-Reader.html)*) or *coreader comonad* (eg. [Ahman & Uustalu (2019)](#AhmanUustalu19)).
+On the other hand, the canonical comonad structure on $W \times (-)$ is [[left adjoint]] to the [[reader monad]], so that it is known as the *reader comonad* (eg. in the [[Haskell]] documentation for *[Control.Comonad.Reader](https://hackage.haskell.org/package/category-extras-0.53.0/docs/Control-Comonad-Reader.html)*) or *coreader comonad* (e.g. [Ahman & Uustalu (2019)](#AhmanUustalu19)). It is also known as the *product comonad* (e.g. [Uustalu & Vene 2008, p. 270](#UustaluVene08)).
 
 ## Properties
 
@@ -92,6 +92,8 @@ Eg.
 
 * [[Tarmo Uustalu]], p. 13 of: *Monads and Interaction Lecture 3*, lecture notes for [MGS 2021](https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html) (2021) &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs3.pdf), [[Uustalu-Monads3.pdf:file]]&rbrack;
 
+* {#UustaluVene08} [[Tarmo Uustalu]], [[Varmo Vene]], *Comonadic Notions of Computation*, Electronic Notes in Theoretical Computer Science **203** 5 (2008) 263-284 &lbrack;[doi:10.1016/j.entcs.2008.05.029](https://doi.org/10.1016/j.entcs.2008.05.029)&rbrack;
+
 In [[Haskell]]:
 
 * *[Control.Comonad.Reader](https://hackage.haskell.org/package/category-extras-0.53.0/docs/Control-Comonad-Reader.html)*
@@ -111,6 +113,8 @@ See also:
 
 [[!redirects co-reader comonad]]
 [[!redirects co-reader comonads]]
+
+[[!redirects product comonad]]
 
 
 [[!redirects writer comonad]]
