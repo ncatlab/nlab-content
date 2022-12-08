@@ -15,7 +15,7 @@
 
 ## Definition
 
-For $n \in \mathbb{N}$, the [[group of units]] of the [[ring]] of [[integers]] modulo $n$
+For $n \in \mathbb{N}$, the [[group of units]] of the [[ring]] of [[integers modulo n]]
 
 $$
   \left(
@@ -29,13 +29,13 @@ This consists of all those elements $k \in \mathbb{Z}/n$ which are represented b
 
 ## Related concepts
 
+* [[integers modulo n]]
+
 * [[cyclic group]]
 
 * [[Q/Z]]
 
-## References
-
-See also 
+## External links
 
 * Wikipedia, _[Multiplicative group of integers modulo n](https://en.wikipedia.org/wiki/Multiplicative_group_of_integers_modulo_n)_
 
