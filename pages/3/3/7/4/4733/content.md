@@ -195,6 +195,11 @@ The generalization to unoriented surfaces (hence to type I strings) was given in
 
 (...)
 
+Discussion of [[transgression]] and [[higher holonomy]] in [[Deligne cohomology]] (for [[bundle gerbes with connection]]) over [[orbifolds]]:
+
+* [[Ernesto Lupercio]], [[Bernardo Uribe]], *Holonomy for Gerbes over Orbifolds*, J. Geom.Phys. **56** (2006) 1534-1560 &lbrack;[arXiv:math/0307114](https://arxiv.org/abs/math/0307114), [doi:10.1016/j.geomphys.2005.08.006](https://doi.org/10.1016/j.geomphys.2005.08.006)&rbrack;
+
+
 [[!redirects connections on a bundle gerbes]]
 [[!redirects connections on bundle gerbess]]
 
