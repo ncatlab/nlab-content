@@ -144,6 +144,3 @@ which became one chapter in
 [[!redirects h-level 2]]
 [[!redirects h-level 2 type]]
 [[!redirects h-level 2 types]]
-
-[[!redirects Hedberg's theorem]]
-[[!redirects Hedberg theorem]]
