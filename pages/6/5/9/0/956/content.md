@@ -15,7 +15,7 @@
 
 ## Definitions
 
-A (binary) [[relation]] $\sim$ on a set $A$ is __connected__ (or sometimes __linear__) if any two elements that are related in neither order are [[equality|equal]]:
+A (binary) [[relation]] $\sim$ on a [[set]] $A$ is __connected__ (or sometimes __linear__) if any two [[elements]] that are related in neither order are [[equality|equal]]:
 $$ \forall (x, y: A),\; x \nsim y \;\wedge\; y \nsim x \;\Rightarrow\; x = y .$$
 This is a basic property of [[linear orders]].
 
