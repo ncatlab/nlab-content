@@ -109,9 +109,7 @@ For more about apartness algebra, see [[antisubalgebra]].
 
 ## Related concepts
 
-* [[apartness relation]]
-
-* [[tight relation]]
+* [[denial inequality]]
 
 * [[linear order]]
 
