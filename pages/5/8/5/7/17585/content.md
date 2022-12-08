@@ -1,4 +1,3 @@
-[[!redirects Sullivan model of free loop space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -855,6 +854,8 @@ Review:
 
 * [[Luc Menichi]], _Sullivan models and free loop space_, A short introduction to Sullivan models, with the Sullivan model of a free loop space and the detailed proof of Vigu&#233;-Sullivan theorem on the Betti numbers of free loop space. Workshop on free loop space &#224; Strasbourg, November 2008 (scanned notes [pdf](http://math.univ-angers.fr/perso/lmenichi/Sullivan_models_free_loop_space.pdf))
 
+* {#Menichi13} [[Luc Menichi]], *Rational homotopy -- Sullivan models*, in: *Free Loop Spaces in Geometry and Topology*, IRMA Lect. Math. Theor. Phys., EMS (2015) &lbrack;[arXiv:1308.6685](https://arxiv.org/abs/1308.6685), [doi:10.4171/153](https://doi.org/10.4171/153)&rbrack;
+
 
 * {#FiorenzaSatiSchreiber16} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: _[[schreiber:Rational sphere valued supercocycles in M-theory|Rational sphere valued supercocycles in M-theory and type IIA string theory]]_, Journal of Geometry and Physics, Volume 114, Pages 91-108 (2017) ([arXiv:1606.03206](https://arxiv.org/abs/1606.03206))
 
@@ -873,7 +874,9 @@ The case of [[iterated based loop spaces]] of [[n-spheres]] is discussed also in
 
 * {#KallelSjerve99} [[Sadok Kallel]], [[Denis Sjerve]], _On Brace Products and the Structure of Fibrations with Section_, 1999 ([pdf](https://www.math.ubc.ca/~sjer/brace.pdf), [[KallelSjerv99.pdf:file]])
 
+[[!redirects Sullivan models of loop spaces]]
 
+[[!redirects Sullivan model of free loop space]]
 [[!redirects Sullivan models of free loop space]]
 [[!redirects Sullivan model of free loop spaces]]
 
