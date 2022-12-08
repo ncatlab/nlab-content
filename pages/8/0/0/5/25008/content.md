@@ -1,9 +1,20 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Algebra
++-- {: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 ## Idea
 
-A weaker notion of [[integral domain]] which allows for some [[zero divisors]], but which one could quotient out the zero divisors to get an [[integral domain]]. 
+A weaker notion of [[integral domain]] which allows for some [[zero divisors]], but for which one may [[quotient ring|quotient out]] the zero divisors to obtain an [[integral domain]]. 
 
 The author of this article doesn't know if this concept already has a name in the mathematics literature, but "approximate integral domains" ought to be to integral domains, as [[local rings]] are to [[Heyting fields]], and as [[weak local rings]] are to [[Peter Johnstone]]'s [[Johnstone residue field|notion of residue field]]. 
 
@@ -13,11 +24,11 @@ An **approximate integral domain** is a [[commutative ring]] $R$ such that:
 
 * $R$ is nontrivial ($0 \ne 1$); and
 
-* The zero divisors in an approximate integral domain form an [[ideal]]. (equivalently, the non-[[cancellative elements]] form an [[ideal]]). 
+* The [[zero divisors]] form an [[ideal]]. (equivalently, the non-[[cancellative elements]] form an [[ideal]]). 
 
-Thus, the quotient of an approximate integral domain by its ideal of zero divisors is an [[integral domain]]. 
+Thus, the [[quotient ring|quotient]] of an approximate integral domain by its [[ideal]] of [[zero divisors]] is an [[integral domain]]. 
 
-Every approximate integral domain has an [[equivalence relation]] $\approx$, defined as $x \approx y$ if and only if $x - y$ is a zero divisor. Hence the name "approximate" integral domain. Then [[integral domains]] are precisely the approximate integral domains for which $\approx$ implies [[equality]]. 
+Every approximate integral domain has an [[equivalence relation]] $\approx$, defined as $x \approx y$ if and only if $x - y$ is a [[zero divisor]]. Hence the name "approximate" integral domain. Then [[integral domains]] are precisely the approximate integral domains for which $\approx$ implies [[equality]]. 
 
 ## In constructive mathematics
 
@@ -55,9 +66,9 @@ The [[ring of fractions]] of every strict approximate integral domain is a [[loc
 
 * The [[integers]] are an approximate integral domain which are an [[integral domain]]. 
 
-* The [[dual numbers|dual]] integers $\mathbb{Z}[\epsilon]/\epsilon^2$ is an approximate integral domain where the [[nilpotent]] [[infinitesimal]] $\epsilon \in \mathbb{Z}[\epsilon]/\epsilon^2$ is a non-zero zero divisor. 
+* The [[dual numbers|dual]] integers $\mathbb{Z}[\epsilon]/\epsilon^2$ is an approximate integral domain where the [[nilpotent]] [[infinitesimal]] $\epsilon \in \mathbb{Z}[\epsilon]/\epsilon^2$ is a non-[[zero]] [[zero divisor]]. 
 
-* For any prime number $p$ and any positive natural number $n$, the cyclic ring $\mathbb{Z}/p^n\mathbb{Z}$ is an approximate integral domain, whose ideal of zero divisors is the ideal $p(\mathbb{Z}/p^n\mathbb{Z})$. The quotient of $\mathbb{Z}/p^n\mathbb{Z}$ by its ideal of zero divisors is the [[finite field]] $\mathbb{Z}/p\mathbb{Z}$, indicating that it is also a [[weak local ring]]. 
+* For any [[prime number]] $p$ and any [[positive number|positive]] [[natural number]] $n$, the [[cyclic ring]] $\mathbb{Z}/p^n\mathbb{Z}$ is an approximate integral domain, whose [[ideal]] of [[zero divisors]] is the ideal $p(\mathbb{Z}/p^n\mathbb{Z})$. The quotient of $\mathbb{Z}/p^n\mathbb{Z}$ by its ideal of [[zero divisors]] is the [[finite field]] $\mathbb{Z}/p\mathbb{Z}$, indicating that it is also a [[weak local ring]]. 
 
 * There exist commutative rings which are not approximate integral domains. For example, the cyclic ring $\mathbb{Z}/6\mathbb{Z}$ is not an approximate integral domain, because $3$ and $4$ are both zero divisors, but $3 + 4$ is cancellative. When one tries to quotient out the zero divisors, the resulting ring is [[trivial ring|trivial]]. 
 
