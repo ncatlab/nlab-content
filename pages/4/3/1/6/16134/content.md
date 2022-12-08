@@ -1,11 +1,19 @@
 
 This page collects links related to
 
-* [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], 
+* [[Ivan Kolář]], [[Jan Slovák]], [[Peter Michor]]
+
+  \linebreak
 
   **Natural operations in differential geometry** 
 
+  \linebreak
+
   Springer 1993
+
+  \linebreak
+
+  [book webpage](https://www.emis.de/monographs/KSM/)
 
   [doi:10.1007/978-3-662-02950-3](https://link.springer.com/book/10.1007/978-3-662-02950-3)
 
@@ -46,6 +54,8 @@ on [[differential geometry]] with particular emphasis on [[natural bundles]].
 ## Chapter VII. Further operations
 
 ## Chapter VIII.  Product preserving functors
+
+* [[embedding of smooth manifolds into formal duals of R-algebras]]
 
 ## Chapter IX. Bundle functors on manifolds
 
