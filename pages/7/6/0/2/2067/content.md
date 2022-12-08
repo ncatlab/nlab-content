@@ -105,7 +105,9 @@ x'' \arrow[rd, "u"]                                                             
                                                                                                   & x' \arrow[r, "f"]                                 & x                           
 \end{tikzcd}
 
-There is a weaker universal property, originally devised by Grothendieck and Gabriel, where one requires above lifting property only for $u = id_{p(x_1)}$, and traditionally also called simply cartesian, or rarely weak cartesian. In Grothendieck's [[fibered categories]] (see below), cartesian in the strong sense and cartesian in the weak sense are equivalent properties of morphisms.  
+There is a weaker universal property, originally devised by Grothendieck and Gabriel, where one requires above lifting property only for $u = id_{p(x_1)}$.  Morphisms satisfying this universal property have in recent years been called [[locally cartesian morphisms]], although historically they have been called simply cartesian, or rarely weak cartesian. In Grothendieck's [[fibered categories]] (see below), cartesian in the strong sense and cartesian in the weak sense are equivalent properties of morphisms.  
+
+Equivalently, a morphism $f:x\to x^\prime$ is called locally $p$-cartesian (relative to a functor $X\to Y$) if it is cartesian with respect to the projection functor $p_{pf}:X_{pf}\to \mathbf{2}$ where $X_{pf}$ is the (homotopy) pullback of $X$ along the functor $c_{pf}:\mathbf{2}\to Y$ classifying the arrow $pf:px\to px^\prime$ in $Y$.
 
 If we pass to the [[nerve]] $N(X)$ and $N(Y)$ of the categories, then in terms of diagrams in [[sSet]] this means that the morphism $f : x \to y$ is $p$-cartesian precisely if for all [[horn]] inclusions
 
