@@ -44,10 +44,11 @@ A tight inequality relation is an inequality relation such that if $\neg(a \neq 
 [[!redirects inequality relation]]
 [[!redirects inequality relations]]
 
-[[!redirects inequality]]
-[[!redirects inequalities]]
+[[!redirects irreflexive symmetric relation]]
+[[!redirects irreflexive symmetric relations]]
 
-[[!redirects tight inequality]]
-[[!redirects tight inequalities]]
 [[!redirects tight inequality relation]]
 [[!redirects tight inequality relations]]
+
+[[!redirects tight irreflexive symmetric relation]]
+[[!redirects tight irreflexive symmetric relations]]
