@@ -29,7 +29,7 @@ Recall that a [[cancellative element]] in a commutative ring $R$ is an element $
 
 A **strict approximate integral domain** is an weak approximate integral domain for which additionally the cancellative elements form an [[anti-ideal]]. 
 
-The [[quotient object|quotient ring]] of a local ring by its anti-ideal of cancellative elements is a [[Heyting integral domain]].
+The [[quotient object|quotient ring]] of a strict approximate integral domain by its anti-ideal of cancellative elements is a [[Heyting integral domain]].
 
 One can define an [[apartness relation]] in any strict approximate integral domain: $x \# y$ iff $x - y$ is cancellative. Then the local ring is a Heyting field if and only if this apartness relation is [[tight relation|tight]].
 
