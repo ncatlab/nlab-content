@@ -37,6 +37,8 @@ Every weak local ring has an [[equivalence relation]] $\approx$, defined as $x \
 
 * The dual algebra $\mathbb{R}[\epsilon]/\epsilon^2$ of the [[MacNeille real numbers]] $\mathbb{R}$ is a weak local ring where the [[nilpotent]] [[infinitesimal]] $\epsilon \in \mathbb{R}[\epsilon]/\epsilon^2$ is a non-zero non-invertible element. 
 
+* For any prime number $p$ and any positive natural number $n$, the [[cyclic ring]] $\mathbb{Z}/p^n\mathbb{Z}$ is an weak local ring, whose ideal of non-invertible elements is the ideal $p(\mathbb{Z}/p^n\mathbb{Z})$. The quotient of $\mathbb{Z}/p^n\mathbb{Z}$ by its ideal of non-invertible elements is the [[finite field]] $\mathbb{Z}/p\mathbb{Z}$. 
+
 * Every [[local ring]] is a weak local ring with an [[apartness relation]] $\#$ such that for all $a \in R$ and $b \in R$, $a \# b$ if and only if $a - b$ is invertible. The negation of $a \# b$ is an [[equivalence relation]] which holds if and only if $a - b$ is non-invertible, making every local ring a weak local ring. 
 
 ## Weakly ordered local rings
