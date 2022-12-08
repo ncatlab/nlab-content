@@ -91,6 +91,7 @@ see at _[[prime number theorem]]_
 
 * [[prime knot]]
 
+* [[prime power]]
 
 ## References
 
