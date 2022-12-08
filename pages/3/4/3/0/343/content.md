@@ -61,6 +61,14 @@ respectively, where $e$ stands for the unique morphism to the terminal object an
 
 Cartesian categories may be [[freely generated]] from sets, categories, signatures, etc., as explained at [[free cartesian category]].
 
+## Free and cofree cartesian monoidal categories
+
+As outlined above, cartesianity is an algebraic structure on top of a monoidal structure. This means that the [[2-category]] of cartesian monoidal categories $\mathbf{CartMonCat}$ is [[monadic]] over $\mathbf{MonCat}$, i.e. there is a [[free functor|free]]-[[forgetful functor|forgetful]] adjunction
+\[
+U \dashv F : \mathbf{CartMonCat} \leftrightarrows \mathbf{MonCat}
+\]
+Thomas Fox showed in ([Fox 1976](#Fox76)) that $\mathbf{Cart}$ is also comonadic, that is, that $U$ admits a right adjoint $C \dashv U$, given by constructing the category of comonoids in a given monoidal category $\mathbf{M}$.
+
 ## Related concepts
 
 * [[monoidal category]]
