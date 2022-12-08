@@ -31,13 +31,17 @@ $$
 $$
 and multiplication by $(a/b)(c/d) = (ac)/(bd)$. 
 
+## Examples
+
+The ring of fractions of a [[strict approximate integral domain]] is a [[local ring]]. 
+
 ## Related concepts
 
 * [[Grothendieck group]]
 
 * [[localization]]
 
-* [[prefield]]
+* [[prefield ring]]
 
 * [[multiplicative submonoid of cancellative elements]]
 
@@ -50,12 +54,12 @@ and multiplication by $(a/b)(c/d) = (ac)/(bd)$.
 [[!redirects fraction ring]]
 [[!redirects fraction rings]]
 
-[[!redirects prefield of fractions]]
-[[!redirects prefields of fractions]]
+[[!redirects prefield ring of fractions]]
+[[!redirects prefield rings of fractions]]
 
-[[!redirects quotient prefield]]
-[[!redirects quotient prefields]]
+[[!redirects quotient prefield ring]]
+[[!redirects quotient prefield rings]]
 
-[[!redirects fraction prefield]]
-[[!redirects fraction prefields]]
+[[!redirects fraction prefield ring]]
+[[!redirects fraction prefield rings]]
 
