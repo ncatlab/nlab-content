@@ -30,6 +30,9 @@ $$
 which sends a [[smooth manifold]] ([[finite number|finite]] [[dimension|dimensional]], [[paracompact topological space|paracompact]], [[second countable topological space|second countable]]) to (the [[formal dual]] of) its $\mathbb{R}$-[[associative algebra|algebra]] of [[smooth functions]] is a [[full and faithful functor]].
 
 In other words, for two [[smooth manifolds]] $X,Y$ there is a [[natural bijection]] between the [[smooth functions]] $X \to Y$ and the $\mathbb{R}$-[[associative algebra|algebra]] [[homomorphisms]] $C^\infty(X)\leftarrow C^\infty(Y)$.
+
+In particular, the [[diffeomorphisms]] between smooth manifolds are in [[natural bijection]] to the [[isomorphisms]] between these algebras.
+
 =--
 
 \begin{remark}\label{Attribution}
