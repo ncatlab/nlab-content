@@ -33,6 +33,7 @@ In [[constructive mathematics]], a [[set]] $X$ has __stable equality__ if any tw
 
 ## See also ##
 
+* [[stable relation]]
 * [[decidable equality]]
 * [[stable equivalence relation]]
 
