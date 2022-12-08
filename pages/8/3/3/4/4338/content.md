@@ -18,7 +18,7 @@
 
 ## Idea
 
-A zero-divisor is something that, like zero itself, can be multiplied by something nonzero to produce zero as a product.
+A zero-divisor is something that, like [[zero]] itself, when [[multiplication|multiplied]] by something possibly nonzero still produces zero as a product.
 
 
 ## Definitions
