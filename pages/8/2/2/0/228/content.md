@@ -41,36 +41,13 @@ Of course, nobody but a [[category theory|category-theorist]] would use the abov
 
 ### Related notions
 
-The [[negation]] of an apartness relation is an equivalence relation. (On the other hand, the statement that every equivalence relation is the negation of some apartness relation is equivalent to [[excluded middle]], and the statement that the negation of an equivalence relation is always an apartness relation is equivalent to the nonconstructive [[de Morgan law]].) An apartness relation is __tight__ (see [[connected relation]]) if this equivalence relation is [[equality]]; any apartness relation defines a tight apartness relation on the [[quotient set]]. A tight apartness relation, also called an __inequality__, is often written $\ne$ instead of $\#$, but keep in mind that $\ne$ is not the negation of $=$; rather, $=$ is the negation of $\ne$. (So inequality, when it exists, is more basic than equality.)
+The [[negation]] of an apartness relation is an equivalence relation. (On the other hand, the statement that every equivalence relation is the negation of some apartness relation is equivalent to [[excluded middle]], and the statement that the negation of an equivalence relation is always an apartness relation is equivalent to the nonconstructive [[de Morgan law]].) An apartness relation is a [[tight apartness relation]] if this equivalence relation is [[equality]]; any apartness relation defines a [[tight apartness relation]] on the [[quotient set]]. 
 
 If $S$ and $T$ are both sets equipped with apartness relations, then a [[function]] $f\colon S \to T$ is __[[strongly extensional function|strongly extensional]]__ if $x \# y$ whenever $f(x) \# f(y)$; that is, $f$ reflects apartness. The strongly extensional functions are precisely the [[enriched functors]] between $TV^\op$-enriched groupoids, so they are the correct morphisms. (Note that there is no nontrivial notion of enriched [[natural isomorphism]], at least not when the apartness in $T$ is tight.)
 
-### In dependent type theory
+## (2,1)-category of sets with apartness relations
 
-In [[dependent type theory]], a **tight apartness relation** on a type $T$ is a type family $a:T, b:T \vdash a \# b \; \mathrm{type}$ with 
-
-* a dependent term $a:T, b:T \vdash \mathrm{proptrunc}(a, b):\mathrm{isProp}(a \# b)$
-* a dependent term $a:T \vdash \mathrm{irr}(a):(a \# a) \to \mathbb{0}$
-* a dependent term $a:T, b:T \vdash \mathrm{sym}(a, b):(a \# b) \to (b \# a)$
-* a dependent term $a:T, b:T, c:T \vdash \mathrm{com}(a, b, c):(a \# c) \to ((a \# b) \vee (b \# c))$
-* a dependent term $a:T, b:T \vdash \mathrm{tight}(a, b):\mathrm{isEquiv}(\mathrm{idtonotapart}(a, b))$ 
-
-where $a:T, b:T \vdash \mathrm{idtonotapart}(a, b):(a =_T b) \to ((a \# b) \to \mathbb{0})$ is inductively defined by 
-
-$$a:T \vdash \beta(a):\mathrm{idtonotapart}(a, a) =_{(a \# a) \to \mathbb{0}} \mathrm{irr}(a)$$
-
-The last condition ensures that the type is an [[h-set]]. 
-
-## The category of inequality spaces
-
-By an __inequality space__, I mean a set equipped with a tight apartness relation. By a __map__, I mean a strongly extensional function between inequality spaces.
-
-In the category of inequality spaces, [[monomorphisms]] between inequality spaces are strongly extensional functions that preserve tight apartness, or strong [[injections]]. These monomorphisms are [[regular monomorphisms]]. The category of inequality spaces has all (small) [[limits]], [[created limit|created]] by the [[forgetful functor]] to [[Set]]. (For example, $(a,b) \ne (x,y)$ iff $a \ne x$ or $b \ne y$.) Similarly, it has all finite [[coproducts]], and it has [[quotient object|quotients]] of [[equivalence relations]]. In fact, this category is a [[complete category|complete]] [[pretopos]]. It is *not*, however, a [[Grothendieck topos]] (or even a [[topos]] at all), because it doesn\'t have all infinite coproducts. (To be precise, the statement that it has all small coproducts, or even that it has a subobject classifier, seems to be equivalent to excluded middle.)
-
-We can say, however, that it has coproducts indexed by inequality spaces, although to make this precise is a triviality. More interestingly, it has products indexed by inequality spaces; that is, it is (even [[locally cartesian closed category|locally]]) a [[cartesian closed category]]. In particular, given inequality spaces $X$ and $Y$, the set $\StrExt(X,Y)$ of maps from $X$ to $Y$ becomes an inequality space under the rule that $f \ne g$ iff $f(x) \ne g(x)$ for some $x\colon X$.
-
-If you generalise from inequality spaces to allow non-tight apartness relations, then you get (at first) a different category. However, now you also have $2$-[[2-morphism|morphisms]] which serve to identify unequal but equivalent (that is, not apart) elements of a space, so the resulting bicategory is [[equivalence of categories|equivalent]] to the category of inequality spaces.
-
+Sets with apartness relations, strongly extensional functions, and equivalences of strongly extensional functions, which serve to identify unequal but equivalent (that is, not apart) elements of a set, form a locally thin [[(2,1)-category]]; i.e. a [[bicategory]] [[enriched bicategory|enriched]] in [[thin groupoids]]. This bicategory is [[locally small category|locally small]] and a [[univalent bicategory]]. 
 
 ## Topological aspects {#topology}
 
@@ -147,18 +124,6 @@ Another characterization of the $\#$-open sets is that $U$ is $\#$-open if $U\ti
 
 As a partial converse to the above theorem, if $X$ is a [[Hausdorff space|localically strongly Hausdorff]] topological space, meaning that its diagonal is a strongly closed sublocale, then the pullback of this diagonal to the discrete locale on the set of points of $X$ is a closed localic equivalence relation, hence an apartness, whose $\ne$-topology refines the given topology.  See [this theorem](/nlab/show/Hausdorff+space#Apartness).  If we are given an apartness relation $\ne$, it is unclear whether the $\ne$-topology is localically strongly Hausdorff; but if it is, then the apartness relation resulting from this topology is stronger than the given $\ne$.
 
-## In algebra
-
-Since inequality spaces have finite limits, the usual constructions of [[universal algebra]] apply; it\'s straightforward to define inequality [[groups]], inequality [[rings]], and so on.
-
-The various subsets that appear in algebra (such as [[subgroups]], [[ideals]], and [[cosets]]) become less fundamental than certain subsets that are, classically, simply their complements. For example, a left ideal in a ring $R$ is a subset $I$ such that $0 \in I$, $x + y \in I$ whenever $x, y \in I$, and $x y \in I$ whenever $x \in I$. But a left _[[antiideal]]_ in an inequality ring $R$ is an $\ne$-open subset $A$ such that $0 \in A$ is false, $x \in A$ or $y \in A$ whenever $x + y \in A$, and $x \in A$ whenever $x y \in A$.  (The $\ne$-openness requirement is automatic if $\neg(0\in A)$ is strengthened to $p\ne 0$ for all $p\in A$, using that the ring operations are strongly extensional.)  Note that the complement of an antiideal is an ideal, but not every ideal can be constructively shown to be the complement of an antiideal; so antiideals are more fundamental than ideals, in an inequality ring.
-
-[[prime ideal|Prime ideals]] are even more interesting. A two-sided antiideal $A$ (so also satisfying that $y \in A$ whenever $x y \in A$) is _antiprime_ (or simply _prime_ if no confusion is expected) if $1 \in A$ and $x y \in A$ whenever $x, y \in A$. Now the complement of an antiprime antiideal may *not* be a prime ideal (as normally defined). But in fact, it is antiprime antiideals that are more important in constructive algebra. In particular, an [[integral domain]] in constructive algebra is an inequality ring in which the antiideal of nonzero elements is antiprime.
-
-The localic perspective on apartness relations extends naturally to anti-algebra: an antiideal is the same as a *closed* ideal in a discrete localic ring that respects the closed equivalence relation corresponding to $\ne$.  Equivalently, this is a closed ideal of the $\ne$-topology regarded as a (non-discrete) localic ring.  The spatial part of this closed localic ideal is then the ordinary ideal complementary to the antiideal, and so on.  Moreover, since unions of closed sublocales correspond to intersections of their open complements, an antiideal $A$ is antiprime exactly when its corresponding closed localic ideal $\mathsf{C}A$ is "prime" in an appropriate internal sense in [[Loc]], namely that $m^*(\mathsf{C}A) \subseteq (\mathsf{C}A \times R) \cup (R\times \mathsf{C}A)$, where $m:R\times R\to R$ is the multiplication.  The fact that the complement of an antiprime antiideal need not be prime in the usual sense corresponds to the fact that taking the spatial part of sublocales doesn't commute with unions.
-
-For more about apartness algebra, see [[antisubalgebra]].
-
 ## Related concepts
 
 * [[inequality relation]]
@@ -166,6 +131,8 @@ For more about apartness algebra, see [[antisubalgebra]].
   * [[denial inequality]]
 
 * [[antisubalgebra]]
+
+* [[inequality space]]
 
 [[!include logic symbols -- table]]
 
@@ -188,7 +155,6 @@ According to [Troelstra and van Dalen](#TvD):
 * Apartness plays a minimal role in _A Course in Constructive Algebra_ (also 1988), by Ray Mines, Fred Richman, and Wim Ruitenburg.
 
 * A great reference for point-set topology in constructive mathematics is the Ph.D. thesis of Frank Waaldijk, _[Modern Intuitionist Topology](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf)_ (1996).
-
 
 [[!redirects apart]]
 [[!redirects apartness]]
@@ -217,13 +183,3 @@ According to [Troelstra and van Dalen](#TvD):
 [[!redirects point–point apartness relations]]
 [[!redirects point--point apartness relation]]
 [[!redirects point--point apartness relations]]
-
-[[!redirects tight apartness]]
-[[!redirects tight apartnesses]]
-[[!redirects tight apartness structure]]
-[[!redirects tight apartness structures]]
-[[!redirects tight apartness relation]]
-[[!redirects tight apartness relations]]
-
-[[!redirects inequality space]]
-[[!redirects inequality spaces]]
