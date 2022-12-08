@@ -25,6 +25,48 @@ By default, our natural numbers always include $0$.
 
 ## Operations
 
+### Addition
+
+Addition is inductively defined by double induction on the natural numbers
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash m + n:\mathbb{N}$$
+
+$$\vdash \beta_+^{0, 0}(n):0 + 0 =_\mathbb{N} 0$$
+
+$$n:\mathbb{N} \vdash \beta_+^{0, s}(n):0 + s(n) =_\mathbb{N} s(n)$$
+
+$$n:\mathbb{N} \vdash \beta_+^{s, 0}(n):s(n) + 0 =_\mathbb{N} s(n)$$
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash \beta_+^{s, s}(n):s(m) + s(n) =_\mathbb{N} s(s(m + n))$$
+
+### Distance function
+
+The distance function is inductively defined by double induction on the natural numbers
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash \rho(m, n):\mathbb{N}$$
+
+$$\vdash \beta_\rho^{0, 0}(n):\rho(0, 0) =_\mathbb{N} 0$$
+
+$$n:\mathbb{N} \vdash \beta_\rho^{0, s}(n):\rho(0, s(n)) =_\mathbb{N} s(n)$$
+
+$$n:\mathbb{N} \vdash \beta_\rho^{s, 0}(n):\rho(s(n), 0) =_\mathbb{N} s(n)$$
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash \beta_\rho^{s, s}(n):\rho(s(n), s(n)) =_\mathbb{N} \rho(n, n)$$
+
+### Multiplication
+
+Multiplication is inductively defined by double induction on the natural numbers
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash m + n:\mathbb{N}$$
+
+$$\vdash \beta_\cdot^{0, 0}(n):0 \cdot 0 =_\mathbb{N} 0$$
+
+$$n:\mathbb{N} \vdash \beta_\cdot^{0, s}(n):0 \cdot s(n) =_\mathbb{N} 0$$
+
+$$n:\mathbb{N} \vdash \beta_\cdot^{s, 0}(n):s(n) \cdot 0 =_\mathbb{N} 0$$
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash \beta_\cdot^{s, s}(n):s(m) \cdot s(n) =_\mathbb{N} m \cdot n + m + n + s(0)$$
+
 ### Division and remainder
 
 Given a natural number $n$, we define the division function $m \div n: \mathbb{N} \times \mathbb{N}_{+} \to \mathbb{N}$ such that  
