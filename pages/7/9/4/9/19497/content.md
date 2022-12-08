@@ -31,4 +31,10 @@ See also
 
 * Wikipedia, _[If and only if](https://en.wikipedia.org/wiki/If_and_only_if)_
 
+[[!redirects logical equivalence]]
 [[!redirects logical equivalences]]
+
+[[!redirects logically equivalent]]
+
+[[!redirects if and only if]]
+[[!redirects iff]]
