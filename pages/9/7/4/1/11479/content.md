@@ -18,8 +18,7 @@ Introducing [[Freund-Rubin compactifications]]:
 
 On [[Kaluza-Klein theory]]:
 
-* T. Applequist, A. Chodos, [[Peter Freund]], _Modern Kaluza-Klein
-Theories_, Addison-Wesley Publ. Comp., (1987) ([spire](https://inspirehep.net/literature/255996))
+* [[Thomas Appelquist]], A. Chodos, [[Peter Freund]], *Modern Kaluza-Klein Theories*, Frontiers in Physics, Addison-Wesley (1987) &lbrack;[spire:255996](https://inspirehep.net/literature/255996)&rbrack;
 
 
 On [[p-adic string theory]]:
