@@ -227,9 +227,9 @@ The classical notion of transgression of forms through fiber bundles is describe
 
 * {#Borel} [[Armand Borel]], _Topology of Lie groups and characteristic classes_  Bull. Amer. Math. Soc. Volume 61, Number 5 (1955), 397-432. ([EUCLID](http://projecteuclid.org/euclid.bams/1183520007))
 
-Discussion in [[Deligne cohomology]]:
+Discussion of transgression and [[higher holonomy]] in [[Deligne cohomology]] (for [[bundle gerbes with connection]]) over [[orbifolds]]:
 
-* [[Ernesto Lupercio]], [[Bernardo Uribe]], *Holonomy for Gerbes over Orbifolds*, J. Geom.Phys. 56 (2006) 1534-1560 ([arXiv:math/0307114](https://arxiv.org/abs/math/0307114))
+* [[Ernesto Lupercio]], [[Bernardo Uribe]], *Holonomy for Gerbes over Orbifolds*, J. Geom.Phys. **56** (2006) 1534-1560 &lbrack;[arXiv:math/0307114](https://arxiv.org/abs/math/0307114), [doi:10.1016/j.geomphys.2005.08.006](https://doi.org/10.1016/j.geomphys.2005.08.006)&rbrack;
 
 Transgression of [[group cohomology]] for [[discrete groups]] to cohomology of [[inertia groupoids]] (see at *[[transgression in group cohomology]]*):
 
