@@ -51,7 +51,7 @@ where $[-]$ denotes a [[bracket type]].  Since every type maps to its bracket, $
 
 On the other hand, if $Decidable2(A)$ holds and $A$ is an [[h-set]], i.e. it satisfies [[uniqueness of identity proofs]], then $(x=y)$ and $\neg (x=y)$ represent disjoint subobjects of $A\times A$.  Thus $(x=y) + \neg (x=y)$ is already a subobject of $A\times A$, so it is equivalent to its bracket, and $Decidable1(A)$ also holds.
 
-The converse of this is also true: if $Decidable1(A)$ holds, then not only does $Decidable2(A)$ also hold, but in fact $A$ is an h-set.  This was first proven by Michael Hedberg; a proof can be found at [[h-set]] and in the references below.  This fact is useful in [[homotopy type theory]] to show that many familiar types, such as the [[natural numbers]], are h-sets.
+The converse of this is also true: if $Decidable1(A)$ holds, then not only does $Decidable2(A)$ also hold, but in fact $A$ is an h-set. This was first proven by Michael Hedberg; a proof can be found at [[Hedberg's theorem]] and in the references below.  This fact is useful in [[homotopy type theory]] to show that many familiar types, such as the [[natural numbers]], are h-sets.
 
 For non-h-sets, the difference between $Decidable1$ and $Decidable2$ can be dramatic.  For instance, if we model homotopy type theory in a [[Boolean topos|Boolean]] $(\infty,1)$-topos (such as $\infty Gpd$ constructed classically), then *every* type satisfies $Decidable2$ (which is what it means for the logic to be boolean), but only the h-sets satisfy $Decidable1$ (in accordance with Hedberg\'s theorem).
 
@@ -70,4 +70,3 @@ For non-h-sets, the difference between $Decidable1$ and $Decidable2$ can be dram
 
 
 [[!redirects decidable equality]]
-[[!redirects Hedberg's theorem]]
