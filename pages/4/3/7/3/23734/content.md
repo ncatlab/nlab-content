@@ -45,7 +45,7 @@ $$\mathrm{Can}(F) \cong \{x \in F \vert 0 \lt \vert x \vert\}$$
 
 * The [[trivial ring]] $0$ is the unique prefield ring up to unique isomorphism such that $0 \in \mathrm{Can}(0)$. The trivial ring is also the terminal prefield. 
 
-* The [[cyclic ring]] $\mathbb{Z}/4\mathbb{Z}$ is a prefield ring, because $2 \in \mathbb{Z}/4\mathbb{Z}$ is not cancellative: $2 \cdot 2 = 0$ and $2 \cdot 0 = 0$, but $2 \neq 0$, and thus, $\mathrm{Can}(\mathbb{Z}/4\mathbb{Z})$ is the same as the group of units $\{1, 3\}$. 
+* The [[integers modulo n|integers modulo 4]] $\mathbb{Z}/4\mathbb{Z}$ is a prefield ring, because $2 \in \mathbb{Z}/4\mathbb{Z}$ is not cancellative: $2 \cdot 2 = 0$ and $2 \cdot 0 = 0$, but $2 \neq 0$, and thus, $\mathrm{Can}(\mathbb{Z}/4\mathbb{Z})$ is the same as the group of units $\{1, 3\}$. 
 
 * Non-example: the [[integers]] $\mathbb{Z}$ are not a prefield ring. 
 
