@@ -156,6 +156,8 @@ The canonical  [[ring object|local ring object]] of the [[Zariski site|gros Zari
 
 * [[finite field]], [[field with one element]]
 
+* [[possibly trivial field]]
+
 * [[residue field]]
 
 * [[global field]] 
