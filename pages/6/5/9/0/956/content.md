@@ -19,10 +19,7 @@ A (binary) [[relation]] $\sim$ on a [[set]] $A$ is __connected__ (or sometimes _
 $$ \forall (x, y: A),\; x \nsim y \;\wedge\; y \nsim x \;\Rightarrow\; x = y .$$
 This is a basic property of [[linear orders]].
 
-An [[apartness relation]] (or indeed any [[inequality]]) is usually called __tight__ if it is connected, in which case [[equality]] is its [[negation]].  Since these are [[symmetric relation|symmetric]], one can use a simpler definition:
-$$ \forall (x, y: A),\; x \nsim y \;\Rightarrow\; x = y .$$
-Thus, one could in principle distinguish _connected_ from _tight_ relations in the nonsymmetric case (with tightness stronger than connectedness), but it\'s not clear that anybody does this.  (That is, it may be that the term 'tight' is only ever applied to symmetric relations.)
-
+Every [[tight relation]] is a connected relation. Every connected [[symmetric relation]] is a tight relation. 
 
 ## Constructive aspects
 
@@ -45,24 +42,15 @@ $$\beta(a):\mathrm{idtosymnotrel}(a, a)(\mathrm{refl}_A(a)) =_{((a \sim a) \to \
 is an [[equivalence of types]]
 $$\mathrm{conn}(a, b):\mathrm{isEquiv}(\mathrm{idtosymnotrel}(a, b))$$
 
-Similarly, an [[irreflexive relation]] $\sim$ with terms $a:A \vdash \mathrm{irr}(a):(a \sim a) \to \emptyset$ is tight if the canonical function
-$$\mathrm{idtonotrel}(a, b):(a =_A b) \to ((a \sim b) \to \emptyset)$$
-inductively defined by 
-$$\beta(a):\mathrm{idtonotrel}(a, a)(\mathrm{refl}_A(a)) =_{(a \sim a) \to \emptyset} \mathrm{irr}(a)$$
-is an [[equivalence of types]]
-$$\mathrm{conn}(a, b):\mathrm{isEquiv}(\mathrm{idtonotrel}(a, b))$$
-
 ## See also
 
-* [[strict order]], [[linear order]]
-* [[apartness relation]], [[tight apartness relation]]
+* [[linear order]]
+* [[tight relation]]
 
 [[!redirects connected relation]]
 [[!redirects connected relations]]
 [[!redirects linear relation]]
 [[!redirects linear relations]]
-[[!redirects tight relation]]
-[[!redirects tight relations]]
 
 [[!redirects strongly connected relation]]
 [[!redirects strongly connected relations]]
