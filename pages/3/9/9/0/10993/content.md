@@ -68,9 +68,9 @@ In the special case that $\mathbf{J} = \mathbf{C}$ and $J = id$ the [[identity f
 \end{example}
 
 
-### As skew-monoids
+### As monoids in a skew-monoidal category
 
-The notion of a *[[skew-monoidal category]]* is like that of a [[monoidal category]] except that the [[unitors]] and [[associators]] are not necessarily [[invertible morphism|invertible]]. A [[monoid]] in a [[skew-monoidal category]] is called a "*skew-monoid*".
+The notion of a *[[skew-monoidal category]]* is like that of a [[monoidal category]] except that the [[unitors]] and [[associators]] are not necessarily [[invertible morphism|invertible]]. [[Monoids]] may be defined in a [[skew-monoidal category]] analogously as to in a [[monoidal category]].
 
 In the general case that $\mathbf{J}$ is distinct from $\mathbf{C}$,  the [[functor category]] $Func(\mathbf J, \mathbf C)$ lacks a natural [[monoidal category]] [[structure]] (as opposed to the case of [[endofunctors]] $Func(\mathbf{C}, \mathbf{C})$) so that the usual definition of [[monads]] as [[monoids]] cannot apply --- but a suitable "skew" variant works:
 
