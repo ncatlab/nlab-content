@@ -16,7 +16,7 @@
 
 ## Definition
 
-For $p$ a [[prime number]], a [[group]] is _$p$-primary_ if each of its elements $g$ has [[order of a group|order]] a power $p^{n(g)}$ of the given prime.
+For $p$ a [[prime number]], a [[group]] is _$p$-primary_ if each of its elements $g$ has a [[prime power]] [[order of a group|order]] $p^{n(g)}$.
 
 (Also called _primary group_ a _$p$-group_, but NO relation to _[[n-group]]_.)
 
