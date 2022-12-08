@@ -283,8 +283,7 @@ Brief reviews:
 
 Textbook accounts:
 
-* T. Applequist, A. Chodos, [[Peter Freund]], _Modern Kaluza-Klein
-Theories_, Addison-Wesley Publ. Comp., (1987) ([spire](https://inspirehep.net/literature/255996))
+* [[Thomas Appelquist]], A. Chodos, [[Peter Freund]], *Modern Kaluza-Klein Theories*, Frontiers in Physics, Addison-Wesley (1987) &lbrack;[spire:255996](https://inspirehep.net/literature/255996)&rbrack;
 
 
 * [[Paul Wesson]], _Space-Time-Matter: Modern Kaluza-Klein Theory_, World Scientific 1989 ([doi:10.1142/3889](https://doi.org/10.1142/3889))
@@ -298,7 +297,7 @@ Review specifically for [[supergravity]]:
 
 A survey of the history of the role of the KK-mechanism in theoretical physics:
 
-* {#Duff94} [[Michael Duff]], _Kaluza-Klein Theory in Perspective_, Proc. of the Symposium: _The Oskar Klein Centenary_, World Scientific, Singapore. 1994. ([arXiv:hep-th/9410046](http://arxiv.org/abs/hep-th/9410046))
+* {#Duff94} [[Michael Duff]], *Kaluza-Klein Theory in Perspective*, Proc. of the Symposium: *The Oskar Klein Centenary*, World Scientific, Singapore (1994) &lbrack;[arXiv:hep-th/9410046](http://arxiv.org/abs/hep-th/9410046), [doi:10.1142/2816](https://doi.org/10.1142/2816)&rbrack;
 
 The seminal analysis of the semi-realistic KK-reductions is in 
 
@@ -392,7 +391,7 @@ and specifically with an eye to discussion of the [[quark-gluon plasma]] in
 
 Discussion in [[higher differential geometry]] of Kaluza-Klein compactification along [[principal ∞-bundles]], relating to [[double field theory]], [[T-folds]], [[non-abelian T-duality]], [[type II geometry]], [[exceptional geometry]]:
 
-* [[Luigi Alfonsi]], _Global Double Field Theory is Higher Kaluza-Klein Theory_ ([arXiv:1912.07089](https://arxiv.org/abs/1912.07089))
+* [[Luigi Alfonsi]], *Global Double Field Theory is Higher Kaluza-Klein Theory*, Fortschr. Phys. **68** (2020) 2000010 &lbrack;[arXiv:1912.07089](https://arxiv.org/abs/1912.07089), [doi:10.1002/prop.202000010](https://doi.org/10.1002/prop.202000010)&rbrack;
 
 * [[Luigi Alfonsi]], _The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective_ ([arXiv:2007.04969](https://arxiv.org/abs/2007.04969))
 
