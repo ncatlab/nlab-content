@@ -31,7 +31,9 @@ An **irreflexive symmetric relation** is a [[binary relation]] that is [[irrefle
 
 * Every [[apartness relation]] is an irreflexive symmetric relation which is also a [[comparison]]. 
 
-* Every [[tight relation|tight]] irreflexive symmetric relation is [[denial inequality]]. 
+* The negation of a [[reflexive symmetric relation]] is an irreflexive symmetric relation. 
+
+* Every [[denial inequality]] is a [[weakly tight relation|weakly tight]] irreflexive symmetric relation. 
 
 ## In constructive mathematics
  {#ConstructiveMathematics}
@@ -58,6 +60,7 @@ The notion of "[[inequality relation]]" in constructive mathematics usually refe
 
 * [[apartness relation]]
 * [[inequality relation]]
+* [[reflexive symmetric relation]]
 
 [[!redirects irreflexive symmetric relation]]
 [[!redirects irreflexive symmetric relations]]
