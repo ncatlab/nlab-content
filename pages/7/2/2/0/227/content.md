@@ -216,7 +216,7 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
 * [[Euclidean ring]]
 
-* [[prefield]]
+* [[prefield ring]]
 
 * [[Noetherian ring]]
 
