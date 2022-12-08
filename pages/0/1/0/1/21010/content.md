@@ -98,6 +98,8 @@ See also
 
 * Alfredo Vega, Miguel Angel Martin Contreras, _Two-body light front wave functions from general AdS/QCD models_ ([arXiv:2005.04501](https://arxiv.org/abs/2005.04501))
 
+* Dmitriy N. Kim, Gerald A. Miller, *Light-Front Holography Model of the EMC Effect* &lbrack;[arXiv:2209.13753](https://arxiv.org/abs/2209.13753)&rbrack;
+
 
 
 
