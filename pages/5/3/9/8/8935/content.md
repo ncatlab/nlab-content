@@ -46,8 +46,7 @@ Since every Tarski universe consists of a type $U$ of encodings and a type famil
 In the same manner that [[uniqueness of identity proofs]] could be expressed as a rule instead of an [[axiom]], Axiom K could also be rewritten as a rule instead of an axiom, by making the hypotheses of the axioms into premises of the rule. This makes axiom K applicable not only to universes, but to the entire type theory. In this manner, axiom K then becomes the rule
 
 $$
-\frac{\Gamma\vdash A\; type \quad \Gamma\vdash a : A \quad  \quad \Gamma \vdash p : a =_A a}{
-  \Gamma\vdash K : p =_{a =_A a} refl_A(a)}
+\frac{\Gamma\vdash A\; type \quad \Gamma\vdash a : A \quad  \quad \Gamma \vdash p : a =_A a}{\Gamma\vdash K : p =_{a =_A a} refl_A(a)}
 $$
 
 This should probably be called the **K rule** rather than axiom K, since it is no longer an axiom. 
@@ -113,3 +112,5 @@ around theorem 7.2.1
 [[!redirects K rule]]
 [[!redirects definitional K rule]]
 [[!redirects definitional K]]
+
+[[!redirects K principle]]
