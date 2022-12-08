@@ -330,6 +330,9 @@ Review and further discussion:
 
 * {#Loday92} [[Jean-Louis Loday]], Section 1.6 of: *Cyclic Homology*, Grund. Math. Wiss. **301** Springer (1992) &lbrack;[doi:10.1007/978-3-662-21739-9](https://link.springer.com/book/10.1007/978-3-662-21739-9)&rbrack;
 
+* {#SchwedeShipley03} [[Stefan Schwede]], [[Brooke Shipley]], §2.3 in: _Equivalences of monoidal model categories_, Algebr. Geom. Topol. **3** (2003) 287-334 &lbrack;[arXiv:math.AT/0209342](http://arxiv.org/abs/math.AT/0209342), [euclid:euclid.agt/1513882376](https://projecteuclid.org/euclid.agt/1513882376)&rbrack;
+
+
 * [[Kerodon]], 2.5.7 *The Shuffle Product* ([00RF](https://kerodon.net/tag/00RF))
 
   *The Eilenberg-Zilber Homomorphism* ([00RS](https://kerodon.net/tag/00RS))
@@ -340,9 +343,6 @@ See also:
 * [[Andy Tonks|A.P. Tonks]], _On the Eilenberg-Zilber Theorem for crossed complexes_. J. Pure Appl. Algebra, 179 (1-2) (2003) 199-220
 
 * [[Tim Porter]], Section 11.2 of: _[[Crossed Menagerie]]_,
-
-
-The specific maps introduced by Eilenberg-Mac Lane have stronger properties which for simplicial sets $K,L$ make $C(K) \otimes C(L)$ a strong deformation retract of $C(K \times L)$. This is exploited in 
 
 * [[Ronnie Brown]], _The twisted Eilenberg-Zilber theorem_. Simposio di Topologia (Messina, 1964), Edizioni Oderisi, Gubbio (1965), 33--37. [pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/twistedez.pdf)
 
