@@ -93,7 +93,10 @@ Expository accounts for the case of [[isomorphisms]] are in
 
 The general statement and its proof is discussed in:
 
-* {#KolarSlovakMichor93} Ivan Kolar, [[Jan Slovák]], [[Peter Michor]], _Natural operations in differential geometry_, Springer (1993) ([book webpage](http://www.emis.de/monographs/KSM/), [doi:10.1007/978-3-662-02950-3](https://link.springer.com/book/10.1007/978-3-662-02950-3))
+* {#KolarSlovakMichor93} [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], section 14 of: _[[Natural operations in differential geometry]]_, Springer (1993) &lbrack;[book webpage](http://www.emis.de/monographs/KSM/), [doi:10.1007/978-3-662-02950-3](https://link.springer.com/book/10.1007/978-3-662-02950-3)
+[pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf)&rbrack;
+
+
 
 Discussion that takes the dual algebraic formulation as the very definition of [[smooth functions]] is in
 
