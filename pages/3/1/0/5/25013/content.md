@@ -24,7 +24,7 @@
 
 ## Idea
 
-A **tight apartness relation** $\#$ or **inequality** $\ne$ is an [[apartness relation]] which is also a [[tight relation]]. An **inequality space** is a set with a tight apartness relation. 
+A **tight apartness relation** or **connected apartness relation** $\#$ or **[[inequality relation]]** $\ne$ is an [[apartness relation]] which is also a [[tight relation]] or [[connected relation]]; these two conditions are the same because apartness is symmetric. An **inequality space** is a set with a inequality relation. 
 
 ## Definition
 
@@ -60,7 +60,7 @@ Given two inequality spaces $S$ and $T$, a [[function]] $f\colon S \to T$ is __[
 
 ## Stable and decidable inequality
 
-Tight apartness is stable if [[denial inequality]] is [[logically equivalent]] to tight apartness; i.e. for all elements $a \in S$ and $b \in S$, $\neg(a = b)$ if and only if $a \# b$. Stable tight apartness is simply called "inequality", as there is no need to distinguish between tight apartness and [[denial inequality]] in this case. 
+Tight apartness is stable if it is also a [[denial apartness]]; i.e. for all elements $a \in S$ and $b \in S$, $\neg(a = b)$ if and only if $a \# b$. Stable tight apartness is simply called "inequality", as there is no need to distinguish between tight apartness and [[denial inequality]] in this case. 
 
 Tight apartness is decidable if for all elements $a \in S$ and $b \in S$, $a \# b$ or $a = b$. Decidable tight apartness implies stable tight apartness, so it is usually called decidable inequality. In the context of [[excluded middle]], every tight apartness relation is decidable. 
 
@@ -125,6 +125,13 @@ For more about apartness algebra, see [[antisubalgebra]].
 [[!redirects tight apartness structures]]
 [[!redirects tight apartness relation]]
 [[!redirects tight apartness relations]]
+
+[[!redirects connected apartness]]
+[[!redirects connected apartnesses]]
+[[!redirects connected apartness structure]]
+[[!redirects connected apartness structures]]
+[[!redirects connected apartness relation]]
+[[!redirects connected apartness relations]]
 
 [[!redirects inequality spaces]]
 
