@@ -31,7 +31,7 @@ Finite-dimensional _differential geometry is the [[geometry]] modeled on [[Carte
 Formally, it is the [[higher geometry|geometry]] modeled on 
 the [[pregeometry (for structured (infinity,1)-toposes)|pre-geometry]] $\mathcal{G} = $[[CartSp]].
 
-This includes a sequence of concepts of [[generalized smooth space]]s:
+This includes a sequence of concepts of [[generalized smooth spaces]]:
 
 * A [[smooth manifold]] (see there for details) is a locally $CartSp$-representable object in the [[sheaf topos]] $Sh(CartSp)$.
 
@@ -140,23 +140,29 @@ the study of [[curves]]  and [[surfaces]] [[embedding of smooth manifolds|embedd
 * [[M M Postnikov]], _Lectures on geometry_ (6 vols.: 1 "Analytic geometry", 2 "Linear algebra", 3 "Diff. manifolds"; 4 "Diff. geometry" (covers extensively fibre bundles and connections); 5 "Lie groups"; 6 "Riemannian geometry")
 
 
-With emphasis in [[G-structures]]:
+With emphasis on [[G-structures]]:
 
 * {#Sternberg64} [[Shlomo Sternberg]], _Lectures on differential geometry_, Prentice-Hall (1964)
+
+With emphasis on [[natural bundles]]:
+
+
+* {#KolarSlovakMichor93} [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], _[[Natural operations in differential geometry]]_, Springer (1993) &lbrack;[book webpage](http://www.emis.de/monographs/KSM/), [doi:10.1007/978-3-662-02950-3](https://link.springer.com/book/10.1007/978-3-662-02950-3)
+[pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf)&rbrack;
 
 With emphasis on [[Cartan geometry]]:
 
 * R. Sharpe, _Differential geometry -- Cartan's generalization of Klein's Erlagen program_, Springer (1997)
 
 
-Lecture notes include
+Lecture notes:
 
 * {#Conrad} [[Brian Conrad]], Handouts on Differential Geometry ([web](http://math.stanford.edu/~conrad/diffgeomPage/handouts.html))
 
 * [[Liviu Nicolaescu]], _Lectures on the Geometry of Manifolds_, 2018 ([pdf](https://www3.nd.edu/~lnicolae/Lectures.pdf))
 
  
-An introduction with an eye towards applications in [[physics]], specifically to [[gravity]] and [[gauge theory]] is in 
+An introduction with an eye towards applications in [[physics]], specifically to [[gravity]] and [[gauge theory]]:
 
 * [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
 
@@ -166,9 +172,7 @@ A discussion in the context of [[Frölicher spaces]] and [[diffeological spaces]
 
 * [[Andreas Kriegl]], [[Peter Michor]], _[[The convenient setting of global analysis]]_, Math. Surveys and Monographs __53__, Amer. Math. Soc. 1997. 618 pages
 
-Discussion with emphasis on [[natural bundles]] is in
 
-* [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]],  _[[Natural operations in differential geometry]]_ ([pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf))
 
 
 See also
