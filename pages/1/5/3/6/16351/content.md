@@ -18,21 +18,30 @@
 
 +-- {: .num_theorem #Embedding}
 ###### Theorem
-**("[[John Milnor|Milnor]]'s [[exercise]]")**
 
 The [[functor]]
 $$
-  C^\infty(-) \colon SmoothMfd \longrightarrow Alg_{\mathbb{R}}^{op}
+  C^\infty(-) 
+   \;\colon\; 
+  SmoothMfd 
+    \longrightarrow 
+  Alg_{\mathbb{R}}^{op}
 $$
 which sends a [[smooth manifold]] ([[finite number|finite]] [[dimension|dimensional]], [[paracompact topological space|paracompact]], [[second countable topological space|second countable]]) to (the [[formal dual]] of) its $\mathbb{R}$-[[associative algebra|algebra]] of [[smooth functions]] is a [[full and faithful functor]].
 
 In other words, for two [[smooth manifolds]] $X,Y$ there is a [[natural bijection]] between the [[smooth functions]] $X \to Y$ and the $\mathbb{R}$-[[associative algebra|algebra]] [[homomorphisms]] $C^\infty(X)\leftarrow C^\infty(Y)$.
 =--
 
-For the case of the category of smooth manifolds and diffeomorphisms this was proved by Pursell in 1952.
+\begin{remark}\label{Attribution}
+**(attribution)**
+\linebreak
+For the case of [[diffeomorphisms]], Thm. \ref{Embedding} was proven by [Pursell (1952)](#Pursell52), following an announcement by [Shanks (1951)](#Shanks51). This is the case that most reviews focus on, e.g. [Grabowski (1978)](#Grabowski78), [Marsden, Ratiu & Abraham (2002)](#MarsdenRatiuAbraham02), [Grabowski (2005)](#Grabowski05).
 
-The statement originates with [Milnor-Stasheff 74, Problem 1-C (p. 11)](#MilnorStasheff74).
-Proof is in ([Kolar-Slovak-Michor 93, lemma 35.8, corollaries 35.9, 35.10](#KolarSlovakMichor93)).
+For the case that the domain is a point the statement is an an [[exercise]] (without reference to Pursell) in [Milnor & Stasheff (1974), Problem 1-C (p. 11)](#MilnorStasheff74), sometimes now referred to as "Milnor's exercise". 
+
+The general statement of Thm. \ref{Embedding}, with a detailed proof, is given in [Kolář, Slovák & Michor (1993), lemma 35.8, corollaries 35.9, 35.10](#KolarSlovakMichor93).
+\end{remark}
+
 
 +-- {: .num_remark}
 ###### Remark
@@ -75,9 +84,13 @@ The analogous statement in [[topology]] is:
 
 ## References
 
-The case of the category of smooth manifolds and diffeomorphisms is proved in
+The case of the category of [[smooth manifolds]] with (just) [[diffeomorphisms]] between them is proved in
 
-* [[Lyle Eugene Pursell]], _Algebraic structures associated with smooth manifolds_, PhD dissertation, Purdue University, 1952.  93 pp.  ISBN: 978-1392-88143-9.  [PDF](https://www.proquest.com/docview/2327629257).
+* {#Pursell52} [[Lyle Eugene Pursell]], _Algebraic structures associated with smooth manifolds_, PhD dissertation, Purdue University, (1952)  93 pp.  &lbrack;ISBN:978-1392-88143-9, [proquest:2327629257](https://www.proquest.com/docview/2327629257)&rbrack;
+
+following an announcement in 
+
+* {#Shanks51} M. E. Shanks, *Rings of functions on locally compact spaces*, 469th meeting of the AMS (1951) &lbrack;[pdf](https://www.ams.org/journals/bull/1951-57-04/S0002-9904-1951-09521-X/S0002-9904-1951-09521-X.pdf)&rbrack; 
 
 The statement for domain a point is due to
 
@@ -85,11 +98,11 @@ The statement for domain a point is due to
 
 Expository accounts for the case of [[isomorphisms]] are in
 
-* [[Janusz Grabowski]], _Isomorphisms and ideals of the Lie algebras of vector fields_, Inventiones mathematicae volume 50, pages 13–33 (1978) ([doi:10.1007/BF01406466](https://doi.org/10.1007/BF01406466))
+* {#Grabowski78} [[Janusz Grabowski]], _Isomorphisms and ideals of the Lie algebras of vector fields_, Inventiones mathematicae volume 50, pages 13–33 (1978) ([doi:10.1007/BF01406466](https://doi.org/10.1007/BF01406466))
 
-* [[Jerrold Marsden]], J. Ratiu, R. Abraham, Theorem 4.2.36 in: _Manifolds, tensor analysis, and applications_, Springer 2003 ([ISBN:978-1-4612-1029-0](https://www.springer.com/gp/book/9780387967905))
+* {#MarsdenRatiuAbraham02} [[Jerrold Marsden]], J. Ratiu, R. Abraham, Theorem 4.2.36 in: _Manifolds, tensor analysis, and applications_, Springer 2003 ([ISBN:978-1-4612-1029-0](https://www.springer.com/gp/book/9780387967905))
 
-* [[Janusz Grabowski]], _Isomorphisms of algebras of smooth functions revisited_, Arch. Math. 85 (2005), 190-196 ([arXiv:math/0310295](https://arxiv.org/abs/math/0310295))
+* {#Grabowski05} [[Janusz Grabowski]], _Isomorphisms of algebras of smooth functions revisited_, Arch. Math. 85 (2005), 190-196 ([arXiv:math/0310295](https://arxiv.org/abs/math/0310295))
 
 The general statement and its proof is discussed in:
 
