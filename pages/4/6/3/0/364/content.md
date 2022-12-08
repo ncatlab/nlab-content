@@ -60,6 +60,10 @@ On the [[relation between type theory and category theory|categorical semantics]
 
 * {#Riehl22} [[Emily Riehl]], *On the $\infty$-topos semantics of homotopy type theory*, lecture at *[Logic and higher structures](https://conferences.cirm-math.fr/2689.html)* CIRM (Feb. 2022) $[$[pdf](https://emilyriehl.github.io/files/semantics.pdf), [[Riehl-InfinityToposSemantics.pdf:file]]$]$
 
+Exposition of [[(∞,1)-category theory]] with an eye towards [[homotopy type theory]]:
+
+* {#Riehl22} [[Emily Riehl]], *$\infty$-Category theory for undergraduates*, talk at *[[CQTS]]* (Dec. 2022) &lbrack;video: [rec](https://nyu.zoom.us/rec/play/uhPi_E6RhKKkV5NO5ZCxX-jRBZnRwgPCbkNWi4flBWujKQb6zeecTWi9zhYcSaYRL_M_nPW-tJ7DPuoi.yb4KL0WhGoxp02ii?continueMode=true&_x_zm_rtaid=JLv1PfDKQf6S_2mHA5ukTg.1670481932564.2228c1085c8887067af0b733ac87a817&_x_zm_rhtaid=543)&rbrack;
+
 
 category: people
 
