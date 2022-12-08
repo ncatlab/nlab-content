@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 ## Idea
@@ -10,6 +24,8 @@ A relation whose [[double negation]] implies the relation itself.
 A stable [[binary relation]] $R$ on a set $S$ is a relation such that for all elements $a \in S$ and $b \in S$, $\neg \neg R(a, b)$ implies that $R(a, b)$. 
 
 ## Examples
+
+* Every [[decidable relation]] is a stable relation. 
 
 * The [[denial inequality relation]] of a set is a stable relation. 
 
