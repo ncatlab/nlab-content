@@ -318,7 +318,7 @@ For several years [[Andre Joyal]] -- who was one of the first to promote the ide
 
 * {#Joyal08} [[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at: _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, Quadern **45** 2, Centre de Recerca Matemàtica, Barcelona 2008 ( [[JoyalTheoryOfQuasiCategories.pdf:file]])
 
-Further notes (where the term "[[logos]]" is used instead of [[quasi-category]]) are in
+Further notes (where the term "[[logos]]" is used instead of [[quasi-category]]):
 
 * {#Joyal08} [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf), [[JoyalOnLogoi2008.pdf:file]])
   
@@ -384,9 +384,15 @@ For discussion in [[homotopy type theory]] see _[[internal category in homotopy 
 ### Surveys and lecture notes 
  {#LectureNotes}
 
-An introduction to [[higher category theory]] through $(\infty,1)$-categories is
+An introduction to [[higher category theory]] through $(\infty,1)$-categories:
 
 * Omar Antol&#237;n Camarena, _A whirlwind tour of the world of $(\infty,1)$-categories_, 2013 ([arXiv:1303.4669](http://arxiv.org/abs/1303.4669))
+
+
+Elementary exposition with an eye towards [[homotopy type theory]]:
+
+* {#Riehl22} [[Emily Riehl]], *$\infty$-Category theory for undergraduates*, talk at *[[CQTS]]* (Dec. 2022) &lbrack;video: [rec](https://nyu.zoom.us/rec/play/uhPi_E6RhKKkV5NO5ZCxX-jRBZnRwgPCbkNWi4flBWujKQb6zeecTWi9zhYcSaYRL_M_nPW-tJ7DPuoi.yb4KL0WhGoxp02ii?continueMode=true&_x_zm_rtaid=JLv1PfDKQf6S_2mHA5ukTg.1670481932564.2228c1085c8887067af0b733ac87a817&_x_zm_rhtaid=543)&rbrack;
+
 
 A foundational set of lecture notes:
 
@@ -404,7 +410,7 @@ Also:
 
 * [[Markus Land]], *Introduction to Infinity-Categories*, Birkh&auml;user 2021 ([doi:10.1007/978-3-030-61524-6](https://link.springer.com/book/10.1007/978-3-030-61524-6))
 
-Lecture notes are in 
+Lecture notes:
 
 * [[Dylan Wilson]], _Lectures on higher categories_ ([pdf](https://sites.google.com/a/uw.edu/dwilson/notes))
 
