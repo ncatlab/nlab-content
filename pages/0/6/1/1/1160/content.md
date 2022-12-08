@@ -40,20 +40,13 @@ Working with decidable subsets of sets with decidable equality makes [[construct
 
 ## In type theory
 
-In [[type theory|type-theoretic]] foundations, the notion of decidable equality is slightly different depending on whether "or" is interpreted using [[propositions as types]] or [[propositions as some types]].  That is, decidable equality for $A$ could be either of the two types
-$$
-\begin{aligned}
-  Decidable1(A) &\coloneqq \prod_{x,y\colon A} (x=y) + \neg (x=y)\\
-  Decidable2(A) &\coloneqq \prod_{x,y\colon A} [(x=y) + \neg (x=y)]
-\end{aligned}
-$$
-where $[-]$ denotes a [[bracket type]].  Since every type maps to its bracket, $Decidable1(A)$ implies $Decidable2(A)$.
+In [[type theory|type-theoretic]] foundations, there are two different notions of decidable equality, depending on whether "or" is interpreted using [[sum types]] $\prod_{x,y\colon A} (x=y) + \neg (x=y)$ or [[disjunctions]] $\prod_{x,y\colon A} (x=y) \vee \neg (x=y)$, i.e. the [[bracket type]] of [[sum types]]. The former notion of decidable equality is called **untruncated decidable equality**, while the latter notion is called **truncated decidable equality**. Since every type maps to its bracket, untruncated decidable equality implies truncated decidable equality.
 
-On the other hand, if $Decidable2(A)$ holds and $A$ is an [[h-set]], i.e. it satisfies [[uniqueness of identity proofs]], then $(x=y)$ and $\neg (x=y)$ represent disjoint subobjects of $A\times A$.  Thus $(x=y) + \neg (x=y)$ is already a subobject of $A\times A$, so it is equivalent to its bracket, and $Decidable1(A)$ also holds.
+On the other hand, if truncated decidable equality holds and $A$ is an [[h-set]], i.e. it satisfies [[uniqueness of identity proofs]], then $(x=y)$ and $\neg (x=y)$ represent disjoint subobjects of $A\times A$.  Thus $(x=y) + \neg (x=y)$ is already a subobject of $A\times A$, so it is equivalent to its bracket, and untruncated decidable equality also holds.
 
-The converse of this is also true: if $Decidable1(A)$ holds, then not only does $Decidable2(A)$ also hold, but in fact $A$ is an h-set. This was first proven by Michael Hedberg; a proof can be found at [[Hedberg's theorem]] and in the references below.  This fact is useful in [[homotopy type theory]] to show that many familiar types, such as the [[natural numbers]], are h-sets.
+The converse of this is also true: if untruncated decidable equality holds, then not only does truncated decidable equality also hold, but in fact $A$ is an h-set. This was first proven by Michael Hedberg; a proof can be found at [[Hedberg's theorem]] and in the references below. This fact is useful in [[homotopy type theory]] to show that many familiar types, such as the [[natural numbers]], are h-sets.
 
-For non-h-sets, the difference between $Decidable1$ and $Decidable2$ can be dramatic.  For instance, if we model homotopy type theory in a [[Boolean topos|Boolean]] $(\infty,1)$-topos (such as $\infty Gpd$ constructed classically), then *every* type satisfies $Decidable2$ (which is what it means for the logic to be boolean), but only the h-sets satisfy $Decidable1$ (in accordance with Hedberg\'s theorem).
+For non-h-sets, the difference between untruncated decidable equality and truncated decidable equality can be dramatic. For instance, if we model homotopy type theory in a [[Boolean topos|Boolean]] $(\infty,1)$-topos (such as $\infty Gpd$ constructed classically), then *every* type satisfies truncated decidable equality (which is what it means for the logic to be boolean), but only the h-sets satisfy untruncated decidable equality (in accordance with Hedberg\'s theorem).
 
 ## Related concepts
 
@@ -70,3 +63,5 @@ For non-h-sets, the difference between $Decidable1$ and $Decidable2$ can be dram
 
 
 [[!redirects decidable equality]]
+[[!redirects truncated decidable equality]]
+[[!redirects untruncated decidable equality]]
