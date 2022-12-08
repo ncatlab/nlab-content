@@ -1,15 +1,42 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
 
-A _cyclic ring_ is a [[cyclic group]] $\mathbb{Z}/n\mathbb{Z}$ or $\mathbb{Z}$, equipped with its canonical [[commutative ring]]-structure induced from multiplication in the [[integers]].
+\tableofcontents
 
-(hm, bad terminology, need disambiguation with the other meaning of cyclic ring)
+## Definition
 
-For $n$ a [[prime number]] this is a _[[prime field]]_.
+Given a natural number $n$, the **ring of integers modulo $n$** is the [[quotient ring]] $\mathbb{Z}/n\mathbb{Z}$.
+
+For $n$ a [[prime number]] this is a [[prime field]], and for $n$ a [[prime power]] this is a [[prime power local ring]]. 
+
+The underlying [[abelian group]] of the integers modulo $n$ is the [[cyclic group]] of order $n$. 
+
+## See also
+
+* [[prime field]]
+
+* [[prime power local ring]]
+
+* [[multiplicative group of integers modulo n]]
 
 ## References
 
 e.g. example 5 in these notes: [pdf](http://www-math.mit.edu/~dav/fields.pdf)
 
+## External links
 
-[[!redirects cyclic rings]] 
+* Wikipedia, *[Modular arithmetic#Integers modulo n](https://en.wikipedia.org/wiki/Modular_arithmetic#Integers_modulo_n)
+
+[[!redirects ring of integers modulo n]]
+[[!redirects rings of integers modulo n]]
+
+[[!redirects integers modulo]]
 
