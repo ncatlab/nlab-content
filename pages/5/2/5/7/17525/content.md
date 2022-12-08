@@ -8,7 +8,7 @@
 =--
 =--
 =--
-
+ 
 
 #Contents#
 * table of contents
@@ -327,7 +327,7 @@ The following is the complete list of solid rings (Def. \ref{SolidRing}) up to [
      \,;
    $$
 
-1. the [[cyclic rings]]
+1. the [[integers modulo n]]
 
    $$
      \mathbb{Z}/n\mathbb{Z}
