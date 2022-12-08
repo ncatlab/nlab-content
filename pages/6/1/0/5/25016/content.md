@@ -1,0 +1,26 @@
+
+\tableofcontents
+
+## Idea
+
+A relation whose [[double negation]] implies the relation itself. 
+
+## Definition
+
+A stable [[binary relation]] $R$ on a set $S$ is a relation such that for all elements $a \in S$ and $b \in S$, $\neg \neg R(a, b)$ implies that $R(a, b)$. 
+
+## Examples
+
+* The [[denial inequality relation]] of a set is a stable relation. 
+
+* In any [[inequality space]], [[equality]] is a stable relation. 
+
+* Given a relation $R$, the negation of the relation $\neg R$ is a stable relation. 
+
+* In the presence of the [[double negation law]], every relation is a stable relation. 
+
+## See also
+
+* [[stable equality]]
+
+* [[denial inequality]]
