@@ -187,7 +187,7 @@ $$
 
 * [[Q/Z]]
 
-* [[cyclic ring]]
+* [[integers modulo n]]
 
 * [[p-localization]]
 
