@@ -136,7 +136,7 @@ $$0 \coloneqq inj(0, 0)$$
 
 +--{: .num_defn}
 ###### Definition
-Let $(-)+(-):\mathbb{N} \times \mathbb{N} \to \mathbb{N}$ be addition of the natural numbers, let $\rho:\mathbb{N} \times \mathbb{N} \to \mathbb{N}$ be the symmetric difference or metric of the natural numbers, and let $\lt:\mathbb{N} \times \mathbb{N} \to \mathbb{2}$ be the decidable strict order on the natural numbers into the booleans. The binary operation **addition** $(-)+(-):\mathbb{Z} \times \mathbb{Z} \to \mathbb{Z}$ is inductively defined as
+Let $(-)+(-):\mathbb{N} \times \mathbb{N} \to \mathbb{N}$ be addition of the natural numbers, let $\rho:\mathbb{N} \times \mathbb{N} \to \mathbb{N}$ be the distance function or metric of the natural numbers, and let $\lt:\mathbb{N} \times \mathbb{N} \to \mathbb{2}$ be the decidable strict order on the natural numbers into the booleans. The binary operation **addition** $(-)+(-):\mathbb{Z} \times \mathbb{Z} \to \mathbb{Z}$ is inductively defined as
 
 $$inj(0,a) + inj(0,b) \coloneqq inj(0,a+b)$$
 
