@@ -45,7 +45,21 @@ The [[negation]] of an apartness relation is an equivalence relation. (On the ot
 
 If $S$ and $T$ are both sets equipped with apartness relations, then a [[function]] $f\colon S \to T$ is __[[strongly extensional function|strongly extensional]]__ if $x \# y$ whenever $f(x) \# f(y)$; that is, $f$ reflects apartness. The strongly extensional functions are precisely the [[enriched functors]] between $TV^\op$-enriched groupoids, so they are the correct morphisms. (Note that there is no nontrivial notion of enriched [[natural isomorphism]], at least not when the apartness in $T$ is tight.)
 
-In [[homotopy type theory]], a __pure tight apartness relation__ on a type $A$ is a [[type family]] $#_A:(A \times A) \rightarrow Type$ such that $\prod_{m:A} \prod_{n:A} ((m #_A n) \rightarrow 0) = (m =_A n)$, where $=_A$ is the [[equality type]] on $A$ and $=$ is equality between types. A __mere tight apartness relation__ on a type $A$ is a mere relation $#_A:(A \times A) \rightarrow Prop$ such that $\vert \prod_{m:A} \prod_{n:A} ((m #_A n) \rightarrow 0) \vert = \vert m =_A n\vert$, where $\vert A \vert$ is the [[propositional truncation]] of type $A$. 
+### In dependent type theory
+
+In [[dependent type theory]], a **tight apartness relation** on a type $T$ is a type family $a:T, b:T \vdash a \# b \; \mathrm{type}$ with 
+
+* a dependent term $a:T, b:T \vdash \mathrm{proptrunc}(a, b):\mathrm{isProp}(a \# b)$
+* a dependent term $a:T \vdash \mathrm{irr}(a):(a \# a) \to \mathbb{0}$
+* a dependent term $a:T, b:T \vdash \mathrm{sym}(a, b):(a \# b) \to (b \# a)$
+* a dependent term $a:T, b:T, c:T \vdash \mathrm{com}(a, b, c):(a \# c) \to ((a \# b) \vee (b \# c))$
+* a dependent term $a:T, b:T \vdash \mathrm{tight}(a, b):\mathrm{isEquiv}(\mathrm{idtonotapart}(a, b))$ 
+
+where $a:T, b:T \vdash \mathrm{idtonotapart}(a, b):(a =_T b) \to ((a \# b) \to \mathbb{0})$ is inductively defined by 
+
+$$a:T \vdash \beta(a):\mathrm{idtonotapart}(a, a) =_{(a \# a) \to \mathbb{0}} \mathrm{irr}(a)$$
+
+The last condition ensures that the type is an [[h-set]]. 
 
 ## The category of inequality spaces
 
