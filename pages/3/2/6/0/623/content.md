@@ -590,16 +590,15 @@ Notice that alternatively we could consider the topological 1-simplex $\Delta^1 
 
 Original sources are
 
-* [[John Moore]], _Homotopie des complexes mono&#239;daux, I._  S&#233;minaire Henri Cartan, 7 no. 2 (1954-1955), Expos&#233; No. 18, 8 p. ([numdam]( http://www.numdam.org/item?id=SHC_1954-1955__7_2_A8_0))
+* [[John Moore]], _Homotopie des complexes mono&#239;daux, I._  S&#233;minaire Henri Cartan **7** 2 (1954-1955), Expos&#233; **18**  ([numdam:SHC_1954-1955__7_2_A8_0](http://www.numdam.org/item?id=SHC_1954-1955__7_2_A8_0))
 
- * [[John Moore]], _Semi-simplicial complexes and Postnikov systems_ , Symposium international de topologia algebraica, Mexico 1958, p. 243].
+ * [[John Moore]], _Semi-simplicial complexes and Postnikov systems_, Symposium international de topologia algebraica, Mexico (1958) p. 243
 
-* [[John Moore]], _Semi-simplicial Complexes, seminar notes_ , Princeton University 1956]
+* [[John Moore]], *Semi-simplicial Complexes, seminar notes*, Princeton University (1956)
 
 There is also a never published
 
-* [[John C. Moore]], _Algebraic homotopy theory_.  Princeton 1956. Mimeographed notes.
-[PDF](https://dmitripavlov.org/scans/moore-algebraic-homotopy-theory.pdf)
+* [[John C. Moore]], _Algebraic homotopy theory_.  Princeton 1956. Mimeographed notes &lbrack;[pdf](https://dmitripavlov.org/scans/moore-algebraic-homotopy-theory.pdf)&rbrack;
 
 A proof by Cartan is in
 
