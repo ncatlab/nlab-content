@@ -79,6 +79,8 @@ One could also relax the requirement that the integral domain be associative or 
 
 * [[approximate integral domain]]
 
+* [[possibly trivial integral domain]]
+
 * [[Dedekind domain]]
 
 * [[field]], [[field of fractions]]
