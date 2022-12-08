@@ -12,10 +12,7 @@
 =--
 =--
 
-
-# Locally univalent bicategories
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Definition
 
