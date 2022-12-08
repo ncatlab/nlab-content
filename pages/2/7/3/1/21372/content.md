@@ -6,7 +6,8 @@
 
 On the [[infinite-temperature thermal field theory]] of [[Yang-Mills theory]]:
 
-* {#AppelquistPisarski81} Thomas Appelquist, [[Robert Pisarski]], _High-temperature Yang-Mills theories and three-dimensional quantum chromodynamics_, Phys. Rev. D 23, 2305 (1981) ([doi:10.1103/PhysRevD.23.2305](https://doi.org/10.1103/PhysRevD.23.2305))
+* {#AppelquistPisarski81} [[Thomas Appelquist]], [[Robert Pisarski]], _High-temperature Yang-Mills theories and three-dimensional quantum chromodynamics_, Phys. Rev. D **23** 2305 (1981) &lbrack;[doi:10.1103/PhysRevD.23.2305](https://doi.org/10.1103/PhysRevD.23.2305)&rbrack;
+
 
 On the [[rho-meson]]  and its [[chiral partner]] [[a1-meson]] in the [[quark-gluon plasma]]:
 
