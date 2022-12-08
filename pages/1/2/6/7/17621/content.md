@@ -11,7 +11,13 @@ On [[BV-algebra]] [[structure]] on [[Hochschild cohomology]]:
 
 On [[Sullivan models]] in [[rational homotopy theory]]:
 
-* {#Menichi13} [[Luc Menichi]], _Rational homotopy -- Sullivan models_, IRMA Lect. Math. Theor. Phys., EMS ([arXiv:1308.6685](https://arxiv.org/abs/1308.6685))
+* {#Menichi13} [[Luc Menichi]], *Rational homotopy -- Sullivan models*, in: *Free Loop Spaces in Geometry and Topology*, IRMA Lect. Math. Theor. Phys., EMS (2015) &lbrack;[arXiv:1308.6685](https://arxiv.org/abs/1308.6685), [doi:10.4171/153](https://doi.org/10.4171/153)&rbrack;
+
+and specifically regarding the [[Sullivan models of loop spaces]]:
+
+* [[Luc Menichi]], _Sullivan models and free loop space_, A short introduction to Sullivan models, with the Sullivan model of a free loop space and the detailed proof of Vigu&#233;-Sullivan theorem on the Betti numbers of free loop space. Workshop on free loop space &#224; Strasbourg, November 2008 (scanned notes [pdf](http://math.univ-angers.fr/perso/lmenichi/Sullivan_models_free_loop_space.pdf))
+
+
 
 ## Related $n$Lab entries
 
