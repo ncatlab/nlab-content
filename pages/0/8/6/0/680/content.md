@@ -634,7 +634,7 @@ Similar material is in section 4.6 of
 
 Interpretation via model categories:
 
-* {#SchwedeShipley03} [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv:math.AT/0209342](http://arxiv.org/abs/math.AT/0209342), [euclid:euclid.agt/1513882376](https://projecteuclid.org/euclid.agt/1513882376))
+* {#SchwedeShipley03} [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_, Algebr. Geom. Topol. **3** (2003) 287-334 &lbrack;[arXiv:math.AT/0209342](http://arxiv.org/abs/math.AT/0209342), [euclid:euclid.agt/1513882376](https://projecteuclid.org/euclid.agt/1513882376)&rbrack;
 
 * {#Jardine03} [[J. F. Jardine]], Lemma 1.5 in: _Presheaves of chain complexes_, K-theory 30.4 (2003): 365-420 ([pdf](https://pdfs.semanticscholar.org/360c/fd4eb76da956e0c8dd897377f6d6f342e44e.pdf), [[JardinePresheavesOfChainComplexes.pdf:file]])
 
