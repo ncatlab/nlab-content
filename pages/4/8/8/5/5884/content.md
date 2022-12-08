@@ -12,6 +12,11 @@ On [[equivariant ordinary differential cohomology]]:
 
 * [[Ernesto Lupercio]], [[Bernardo Uribe]], _Deligne Cohomology for Orbifolds, discrete torsion and B-fields_, in: _Geometric and topological methods for quantum field theory_ Proceedings, Summer School, Villa de Leyva, Colombia, July 9-27, 2001 ([arXiv:hep-th/0201184](https://arxiv.org/abs/hep-th/0201184), [spire:582101](https://inspirehep.net/literature/582101))
 
+On [[transgression]] and [[higher holonomy]] in [[Deligne cohomology]] (for [[bundle gerbes with connection]]) over [[orbifolds]]:
+
+* [[Ernesto Lupercio]], [[Bernardo Uribe]], *Holonomy for Gerbes over Orbifolds*, J. Geom.Phys. **56** (2006) 1534-1560 &lbrack;[arXiv:math/0307114](https://arxiv.org/abs/math/0307114), [doi:10.1016/j.geomphys.2005.08.006](https://doi.org/10.1016/j.geomphys.2005.08.006)&rbrack;
+
+
 Exposition of [[noncommutative geometry]]:
 
 * [[Ernesto Lupercio]], _Non-commutative Geometry Indomitable_ ([arXiv:2008.08529](https://arxiv.org/abs/2008.08529))
