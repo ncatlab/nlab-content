@@ -16,9 +16,10 @@
 ## Definition
 
 A **full and faithful functor** is a [[functor]] which is both [[full functor|full]] and [[faithful functor|faithful]].  That is, a [[functor]] $F\colon C \to D$ from a [[category]] $C$ to a category $D$ is called _full and faithful_ if for each pair of [[objects]] $x, y \in C$, the [[function]]
-$$F\colon C(x,y) \to D(F(x), F(y))$$
+$$F\colon C(x, y) \to D(F(x), F(y))$$
 between [[hom sets]] is [[bijective]].  "Full and faithful" is sometimes shortened to "fully faithful" or "ff."   See also [[full subcategory]].
 
+Note that it is not sufficient for there simply to exist _some_ isomorphism between $C(x, y)$ and $D(F(x), F(y))$. For instance, consider the category comprising a [[parallel pair]] $f, g : x \rightrightarrows y$ and the [[identity-on-objects]] [[endofunctor]] $F$ sending $f \mapsto f$ and $g \mapsto f$. We have $C(x, y) \cong C(F(x), F(y)) = C(x, y)$, but this functor is not fully faithful.
 
 ## Properties
 
