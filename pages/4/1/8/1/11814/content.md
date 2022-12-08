@@ -33,7 +33,9 @@ _[Spec(Z) -- As a 3-dimensional space containing knots](http://ncatlab.org/nlab/
 
 ## Related concepts
 
-* [[cyclic ring]]
+* [[prime power local ring]]
+
+* [[integers modulo n]]
 
 * [[field with one element]]
 
