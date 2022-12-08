@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include relations - contents]]
 =--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 =--
 =--
 
@@ -34,37 +38,16 @@ $$
 $$
 
 whence the terminology  --- but, of course, there are other ways in which a pair of expressions can be "in-equal".
-Generally, inequality may  just be the statement that a pair of [[terms]] of any [[type]] are *not equal*, though in non-classical [[foundations of mathematics]] there may be slightly different notions of "inequality relation" in this general sense, see the disambiguation [below](#InequalityRelation).
 
 ## Inequality relations
- {#InequalityRelation}
 
-In [[classical mathematics]], an *inequality relation* is simply the [[negation]] ($\not$) of [[equality]] ($=$). However, in [[constructive mathematics]], due to the lack of [[excluded middle]], there are multiple different notions of inequality relation. These include:
+Generally, inequality may just be the statement that a pair of [[terms]] of any [[type]] are *not equal*. However, in the [[foundations of mathematics]], sometimes one talks about a particular relation called the *inequality relation*. In [[classical mathematics]], the *inequality relation* is defined as the [[negation]] ($\not$) of [[equality]] ($=$). However, in [[constructive mathematics]], due to the lack of [[excluded middle]], there are multiple different notions of inequality relation. The two most commonly used notions are the [[denial inequality relation]] and the [[tight apartness relation]], the latter of which is used to define [[inequality spaces]]. Other relations which have been called "inequality relation" in the constructive mathematics literature are listed in [[irreflexive symmetric relation#ConstructiveMathematics]]. 
 
-* [[denial inequality relation]] and [[denial apartness relation]]
-* [[tight inequality relation]] and [[tight apartness relation]]
+## See also
 
-More generally, an *inequality relation* is a [[relation]] $\neq$ which satisfies
+* [[denial inequality]]
 
-* $\neg(a \neq a)$
-* $a \neq b$ implies $b \neq a$
-* one of these two equivalent [[contrapositive]] statements:
-  * $\neg(a = b)$ implies $\neg \neg (a \neq b)$
-  * $\neg(a \neq b)$ implies $\neg \neg (a = b)$
-
-Both these imply that 
-
-* $\neg(a = b)$ if and only if $\neg \neg (a \neq b)$
-* $\neg(a \neq b)$ if and only if $\neg \neg (a = b)$
-
-A [[denial inequality]] relation is an inequality relation in which $\neg(a = b)$ implies $(a \neq b)$. By the above result, $\neg \neg (a \neq b)$ implies $(a \neq b)$, and for [[denial inequality]], the inequality relation is a [[stable relation]]. 
-
-A [[tight inequality]] relation is an inequality relation which $\neg(a \neq b)$ implies $(a = b)$. By the above result, $\neg \neg (a = b)$ implies $(a = b)$, and for [[tight inequality]], the *[[equality]]* relation is a [[stable relation]]. 
-
-There are also the more general relations which do not make reference to [[equality]] at all, which are sometimes called "inequality relations" in constructive mathematics:
-
-* [[apartness relation]]
-* [[irreflexive symmetric relation]]
+* [[inequality space]]
 
 ## References
 
