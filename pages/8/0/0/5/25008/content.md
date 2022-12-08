@@ -68,9 +68,9 @@ The [[ring of fractions]] of every strict approximate integral domain is a [[loc
 
 * The [[dual numbers|dual]] integers $\mathbb{Z}[\epsilon]/\epsilon^2$ is an approximate integral domain where the [[nilpotent]] [[infinitesimal]] $\epsilon \in \mathbb{Z}[\epsilon]/\epsilon^2$ is a non-[[zero]] [[zero divisor]]. 
 
-* For any [[prime number]] $p$ and any [[positive number|positive]] [[natural number]] $n$, the [[cyclic ring]] $\mathbb{Z}/p^n\mathbb{Z}$ is an approximate integral domain, whose [[ideal]] of [[zero divisors]] is the ideal $p(\mathbb{Z}/p^n\mathbb{Z})$. The quotient of $\mathbb{Z}/p^n\mathbb{Z}$ by its ideal of [[zero divisors]] is the [[finite field]] $\mathbb{Z}/p\mathbb{Z}$, indicating that it is also a [[weak local ring]]. 
+* For any [[prime number]] $p$ and any [[positive number|positive]] [[natural number]] $n$, the [[prime power local ring]] $\mathbb{Z}/p^n\mathbb{Z}$ is an approximate integral domain, whose [[ideal]] of [[zero divisors]] is the ideal $p(\mathbb{Z}/p^n\mathbb{Z})$. The quotient of $\mathbb{Z}/p^n\mathbb{Z}$ by its ideal of [[zero divisors]] is the [[finite field]] $\mathbb{Z}/p\mathbb{Z}$, indicating that it is also a [[weak local ring]]. 
 
-* There exist commutative rings which are not approximate integral domains. For example, the cyclic ring $\mathbb{Z}/6\mathbb{Z}$ is not an approximate integral domain, because $3$ and $4$ are both zero divisors, but $3 + 4$ is cancellative. When one tries to quotient out the zero divisors, the resulting ring is [[trivial ring|trivial]]. 
+* There exist commutative rings which are not approximate integral domains. For example, the [[integers modulo]] 6 $\mathbb{Z}/6\mathbb{Z}$ is not an approximate integral domain, because $3$ and $4$ are both zero divisors, but $3 + 4$ is cancellative. When one tries to quotient out the zero divisors, the resulting ring is [[trivial ring|trivial]]. 
 
 ## See also
 
