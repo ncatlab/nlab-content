@@ -8,6 +8,8 @@ On the [[embedding of smooth manifolds into formal duals of R-algebras]]:
 
 * [[Lyle Eugene Pursell]], _Algebraic structures associated with smooth manifolds_, PhD dissertation, Purdue University, 1952.  93 pp.  ISBN: 978-1392-88143-9.  [PDF](https://www.proquest.com/docview/2327629257).
 
+category: people
+
 
 [[!redirects Lyle Pursell]]
 [[!redirects Lyle E. Pursell]]
