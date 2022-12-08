@@ -47,7 +47,7 @@ It could be proven from these definitions that the sine and cosine satisfy vario
 
 * Every ring can be made into a exponential ring by defining $e^a \coloneqq 1$ for all $a$ in $R$. 
 
-* Any [[cyclic group|cyclic ring]] $\mathbb{Z}/2n\mathbb{Z}$ with $e^{(-)}$ defined such that $e^{a} = 1$ for $a \equiv 0 \mod 2$ and $e^{a} = -1$ for $a \equiv 1 \mod 2$ is an exponential ring. 
+* Given a natural number $n$, the [[integers modulo n|integers modulo $2n$]] $\mathbb{Z}/2n\mathbb{Z}$ with $e^{(-)}$ defined such that $e^{a} = 1$ for $a \equiv 0 \mod 2$ and $e^{a} = -1$ for $a \equiv 1 \mod 2$ is an exponential ring. 
 
 * The real numbers and complex numbers with the usual [[exponential map]] $\exp$ are a exponential ring. 
 
