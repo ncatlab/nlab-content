@@ -59,7 +59,7 @@ In view of [[quantum computation]] (ie. quantum machine learning):
 
 * [[Jacob Biamonte]], Peter Wittek, Nicola Pancotti, Patrick Rebentrost, Nathan Wiebe, [[Seth Lloyd]], *Quantum Machine Learning*, Nature **549**  (2017) 195–202 ([doi:10.1038/nature23474](https://doi.org/10.1038/nature23474))
 
-  EurekaAlert, *Quanutum Machine Learning* [14-Sep-2017](https://www.eurekalert.org/pub_releases/2017-09/iiop-qml091417.php)
+  EurekaAlert, *Quantum Machine Learning* [14-Sep-2017](https://www.eurekalert.org/pub_releases/2017-09/iiop-qml091417.php)
 
 * Iris Cong, Soonwon Choi, Mikhail D. Lukin, *Quantum convolutional neural networks*, Nature Physics volume 15, pages 1273–1278 (2019)  ([doi:10.1038/s41567-019-0648-8](https://doi.org/10.1038/s41567-019-0648-8))
 
