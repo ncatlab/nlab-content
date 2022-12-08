@@ -28,19 +28,19 @@ In the same vein that [[commutative rings]] are to [[integral domains]] and [[GC
 
 ## Definition ##
 
-A $R$-[[module]] $V$ is a **prevector space** if $R$ is a [[prefield]]. The elements of $V$ are called **vectors**. 
+A $R$-[[module]] $V$ is a **prevector space** if $R$ is a [[prefield ring]]. The elements of $V$ are called **vectors**. 
 
 ## Examples ##
 
-* Every $\mathbb{Q}$-vector space is a $\mathbb{Q}$-prefield. 
+* Every $\mathbb{Q}$-vector space is a $\mathbb{Q}$-prevector space. 
 
-* Every classical vector space is a $F$-prefield for a classical [[field]] $F$ (defined using [[denial inequality]]).
+* Every classical vector space is a $F$-prevector space for a classical [[field]] $F$ (defined using [[denial inequality]]).
 
-* Every Heyting vector space is a $F$-prefield for a [[Heyting field]] $F$. 
+* Every Heyting vector space is a $F$-prevector space for a [[Heyting field]] $F$. 
 
-* Every discrete vector space is a $F$-prefield for a [[discrete field]] $F$. 
+* Every discrete vector space is a $F$-prevector space for a [[discrete field]] $F$. 
 
-* Every residue vector space is a $F$-prefield for a [[residue field]] $F$. 
+* Every residue vector space is a $F$-prevector space for a [[residue field]] $F$. 
 
 ## See also ##
 
@@ -52,4 +52,4 @@ A $R$-[[module]] $V$ is a **prevector space** if $R$ is a [[prefield]]. The elem
 
 * [[N-graded prevector space]]
 
-* [[prefield]]
+* [[prefield ring]]
