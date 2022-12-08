@@ -58,40 +58,25 @@ This says that a version of Streicher's "[[axiom K]]" holds for h-sets. (See als
 
 ### Equivalent characterizations
 
-One interesting consequence of this definition is the following, first proven in ([Hedberg](#Hedberg))
-
-+-- {: .num_theorem #DecidableIsSet}
-###### Theorem
-(**[[Hedberg's theorem]]**)
-
-Suppose that $A$ is a [[type]] which has [[decidable equality]] in the [[propositions as types]] [[logic]] (which is not the logic of h-propositions usually used in HoTT).  In other words, the projection
-$$\array{Paths_A + (0\to A\times A)^{(Paths_A\to A\times A)}\\
-\downarrow\\
-A\times A}
-$$
-
-(where $Paths_A$ is the [[path object|path type]] of $A$, "+" forms the [[sum type]], and on the right we have the $A \times A$-[[dependent type|dependent]] [[function type]] into the [[empty type]]), has a section.  
-
-Then $A$ is a h-set.
-
-=--
-
-+-- {: .proof}
-###### Proof
-Let $d$ be the given [[section]].  Thus, for any $x,y\colon A$, $d(x,y)$ is either a path from $x$ to $y$ or a function from $Paths(x,y)$ to the empty type (implying that $Paths(x,y)$ is also empty).
-
-It suffices to exhibit an operation connecting any endo-path $p \in Paths(x,x)$ to the identity path $1_x$.  Given such a path, define $q = d(x,x)$.  If $d(x,x)$ lies in the second case, then $Paths(x,x)$ is empty, a contradiction since we know it contains $1_x$; hence we may assume $q\in Paths(x,x)$ as well.
-
-Let $r$ be the image of $(1_x,p) \in Paths_{A\times A}((x,x),(x,x))$ under the section $d$.  This is a path in the total space $Paths_A$ lying over the path $(1_x,p)$ in $A\times A$.  Equivalently, it is a path in the fiber over $x$ from $(1_x,p)_*(d(x,x))$ to $d(x,x)$, where $(1_x,p)_*$ denotes transport in the fibration $Paths_A \to A\times A$ along the path $(1_x,p)$.  However, we have defined $d(x,x) = q$, and transport in a path-space is just composition, so $r$ may be regarded as a path from $q p$ to $q$.  Canceling $q$, we obtain a path from $p$ to $1_x$.
-=--
-
-Not every h-set has decidable equality (unless the law of [[excluded middle]] hold), but there are some other related equivalent characterizations.
+There are some equivalent characterizations of a type $A$ being an h-set:
 
 * A type $A$ is an h-set if and only if all its identity types $x=_A y$ have [[split support]], i.e. $\prod_{(x,y:A)} \Vert x=y\Vert \to (x=y)$.  This is proven in [(KECA)](#KECA).
 
 * More generally, $A$ is an h-set if and only if there is some $R:A\to A\to Prop$ which is reflexive (i.e. $\prod_{(x:A)} R(x,x)$) and such that $\prod_{(x,y:A)} R(x,y) \to (x=y)$.  This is Theorem 7.2.2 in the [[HoTT Book]].
 
+### Hedberg's theorem
 
+[[Hedberg's theorem]] states that
+
+\begin{theorem}
+Suppose that $A$ is a [[type]] with [[untruncated decidable equality]], a type such that for every element $a:A$ and $b:A$, there is an element in the sum type of the identity type $a =_A b$ and the type of functions from $a =_A b$ to the [[empty type]]. 
+
+$$a:A, b:A \vdash \delta(a, b):(a =_A b) + (a =_A b) \to \emptyset$$
+
+Then $A$ is a h-set.
+\end{theorem}
+
+A proof of this theorem could be found in [[Hedberg's theorem]]. 
 
 ### Relation to internal sets
  {#RelationToInternalSets}
