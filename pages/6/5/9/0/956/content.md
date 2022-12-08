@@ -36,6 +36,26 @@ Since $\#$ is connected itself, every strongly connected relation is connected; 
 
 We can do a similar thing if $A$ is equipped with any [[inequality]] $\#$, except that in the general case, this is not necessarily stronger than being connected, and so we should call it __$\#$-connected__.
 
+## In dependent type theory
+
+In dependent type theory, an [[irreflexive relation]] $\sim$ with terms $a:A \vdash \mathrm{irr}(a)(a \sim a) \to \emptyset$ is connected if the canonical function 
+$$\mathrm{idtosymnotrel}(a, b):(a =_A b) \to (((a \sim b) \to \emptyset) \times ((b \sim a) \to \emptyset))$$
+inductively defined by 
+$$\beta(a):\mathrm{idtosymnotrel}(a, a)(\mathrm{refl}_A(a)) =_{((a \sim a) \to \emptyset) \times ((a \sim a) \to \emptyset)} (\mathrm{irr}(a), \mathrm{irr}(a))$$
+is an [[equivalence of types]]
+$$\mathrm{conn}(a, b):\mathrm{isEquiv}(\mathrm{idtosymnotrel}(a, b))$$
+
+Similarly, an [[irreflexive relation]] $\sim$ with terms $a:A \vdash \mathrm{irr}(a)(a \sim a) \to \emptyset$ is tight if the canonical function
+$$\mathrm{idtonotrel}(a, b):(a =_A b) \to ((a \sim b) \to \emptyset)$$
+inductively defined by 
+$$\beta(a):\mathrm{idtonotrel}(a, a)(\mathrm{refl}_A(a)) =_{(a \sim a) \to \emptyset} \mathrm{irr}(a)$$
+is an [[equivalence of types]]
+$$\mathrm{conn}(a, b):\mathrm{isEquiv}(\mathrm{idtonotrel}(a, b))$$
+
+## See also
+
+* [[strict order]], [[linear order]]
+* [[apartness relation]], [[tight apartness relation]]
 
 [[!redirects connected relation]]
 [[!redirects connected relations]]
