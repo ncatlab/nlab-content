@@ -63,7 +63,7 @@ In the second case there is by induction assumption an element $a \in A$ such th
 ###### Theorem
 **([[fundamental theorem of finite abelian groups]])**
 
-Every finite abelian group is the [[direct sum of abelian groups|direct sum]] of [[cyclic groups]] of [[order of a group|order]] $p^k$ for a [[prime number]] $p \in \mathbb{N}$ (its [[p-primary groups]]).
+Every finite abelian group is the [[direct sum of abelian groups|direct sum]] of [[cyclic groups]] of [[prime power]] [[order of a group|order]] (its [[p-primary groups]]).
 
 =--
 
