@@ -13,7 +13,9 @@
 
 ## Definition
 
-Given a natural number $n$, the **ring of integers modulo $n$** is the [[quotient ring]] $\mathbb{Z}/n\mathbb{Z}$.
+Given a natural number $n$, the ring of **integers modulo $n$** is the [[quotient ring]] $\mathbb{Z}/n\mathbb{Z}$.
+
+These are also the [[quotient]] [[rig]] $\mathbb{N}/n\mathbb{N}$. 
 
 For $n$ a [[prime number]] this is a [[prime field]], and for $n$ a [[prime power]] this is a [[prime power local ring]]. 
 
