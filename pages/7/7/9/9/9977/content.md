@@ -29,7 +29,7 @@ If one wishes to reserve the word "inequality" for [[order]] relations (such as 
 
 ## Properties
 
-The denial inequality relation is an [[irreflexive symmetric relation]]. Irreflexivity follows from the negation of reflexivity of [[equality]], while symmetry follows from the [[contrapositive]] of symmetry of equality. In addition, the denial inequality relation is a [[stable relation]], because in [[constructive mathematics]], given any proposition $P$, $\neg \neg \neg P$ implies that $\neg P$. This means that $\neg \neg \neg (a = b)$ implies that $\neg (a = b)$, and since $\neg (a = b)$ if and only if $a \neq b$, this means that $\neg \neg (a \neq b)$ implies that $a \neq b$. 
+The denial inequality relation is an [[irreflexive symmetric relation]]. Irreflexivity follows from the negation of reflexivity of [[equality]], while symmetry follows from the [[contrapositive]] of symmetry of equality. In addition, the denial inequality relation is a [[stable relation]], because in [[constructive mathematics]], given any proposition $P$, $\neg \neg \neg P$ implies that $\neg P$. This means that $\neg \neg \neg (a = b)$ implies that $\neg (a = b)$, and since $\neg (a = b)$ if and only if $a \neq b$, this means that $\neg \neg (a \neq b)$ implies that $a \neq b$. Denial inequality is a [[weakly tight relation]], in that for all elements $a \in A$ and $b \in A$, $\neg (a \neq b)$ implies that $\neg \neg (a = b)$, because by definition, $\neg (a = b)$ if and only if $a \neq b$, and so by contraposition, $\neg \neg (a = b)$ if and only if $\neg (a \neq b)$. 
 
 ### Denial apartness relation
 
