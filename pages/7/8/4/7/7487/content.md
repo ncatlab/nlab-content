@@ -1,4 +1,9 @@
 
+
+> This entry is about domains in [[domain theory]]. For other uses, see at _[[domain]]_. 
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -78,6 +83,22 @@ Discussion in [[homotopy type theory]]/[[univalent foundations]]:
 [[!redirects directed complete poset]]
 [[!redirects directed complete posetss]]
 
+[[!redirects pointed dcpo]]
+[[!redirects pointed dcpo's]]
+[[!redirects pointed dcpos]]
+[[!redirects pointed DCPO]]
+[[!redirects pointed DCPO's]]
+[[!redirects pointed DCPOs]]
+
+[[!redirects pointed directed-complete partial order]]
+[[!redirects pointed directed-complete partial orders]]
+[[!redirects pointed directed complete partial order]]
+[[!redirects pointed directed complete partial orders]]
+
+[[!redirects pointed directed-complete poset]]
+[[!redirects pointed directed-complete posets]]
+[[!redirects pointed directed complete poset]]
+[[!redirects pointed directed complete posetss]]
 
 [[!redirects cpo]]
 [[!redirects cpo's]]
@@ -88,3 +109,5 @@ Discussion in [[homotopy type theory]]/[[univalent foundations]]:
 [[!redirects complete partial order]]
 [[!redirects complete partial orders]]
 
+[[!redirects lift algebra]]
+[[!redirects lift algebras]]
