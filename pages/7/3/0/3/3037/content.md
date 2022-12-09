@@ -27,6 +27,7 @@ A __predicate calculus__ is simply a system for describing and working with pred
 
 For many (perhaps most?) authors, predicate logic is really __predicate logic with [[equality]]__. That means that one predicate symbol with two arguments $=(x,y)$ (also  written $x=y$) is distinguished, and has to satisfy reflexivity, symmetry, transitivity and the rule of substitution: $(x = y \wedge \phi(x))\implies \phi(y)$ for any predicate $\phi$ with one argument. However, some forms of predicate logic do not include an equality primitive, such as [[FOLDS]] (in whose name 'FOL' stands for 'first-order logic').  In some first-order theories, such as [[ZFC]], equality can be defined and so is not needed in the logic itself.
 
+In constructive mathematics, one could also have a __predicate logic with [[apartness]]__, which has one predicate symbol with two arguments $\#(x,y)$ (also  written $x\#y$) is distinguished, and has to satisfy irreflexivity, symmetry, and comparison. By definition of an [[apartness relation]], its negation is an [[equivalence relation]], which we could take to be [[equality]] $x = y \coloneqq \neg(x \# y)$ satisfying the rule of substitution: $(\neg(x \# y) \wedge \phi(x))\implies \phi(y)$ for any predicate $\phi$ with one argument. This makes the domain of discourse into an [[apartness space]]. 
 
 ## Properties
 
@@ -80,8 +81,8 @@ First order logic within [[type theory]]/[[homotopy type theory]] via _[[proposi
 [[!redirects predicate logic]]
 [[!redirects predicate calculus]]
 [[!redirects 1st-order logic]]
-[[!redirects first-order logic]]
 [[!redirects 1st order logic]]
+[[!redirects first-order logic]]
 [[!redirects first order logic]]
 
 [[!redirects first-order language]]
@@ -90,3 +91,17 @@ First order logic within [[type theory]]/[[homotopy type theory]] via _[[proposi
 [[!redirects first order languages]]
 
 [[!redirects FOL]]
+
+[[!redirects Predicate logic with equality]]
+[[!redirects predicate logic with equality]]
+[[!redirects 1st-order logic with equality]]
+[[!redirects 1st order logic with equality]]
+[[!redirects first-order logic with equality]]
+[[!redirects first order logic with equality]]
+
+[[!redirects Predicate logic with apartness]]
+[[!redirects predicate logic with apartness]]
+[[!redirects 1st-order logic with apartness]]
+[[!redirects 1st order logic with apartness]]
+[[!redirects first-order logic with apartness]]
+[[!redirects first order logic with apartness]]
