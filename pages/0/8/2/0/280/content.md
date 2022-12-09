@@ -45,10 +45,11 @@ Usually the key aspect of an action of some $X$ is that $X$ itself carries an al
 
 In terms of the uncurried action $X\times Y\to Y$, the "preservation" condition says roughly speaking that acting consecutively with two elements in $X$ is the same as first multiplying them and then acting with the result:
 
-$$
+\[
+  \label{ActionProperty}
   act(x_2,act(x_1,y)) = act(x_2\cdot x_1, y)
   \,.
-$$
+\]
 
 To be precise, this is the condition for a *left action*; a *right action* is defined dually in terms of a map $Y\times X\to Y$.  If $X$ has no algebraic structure, or if its relevant structure is commutative, then there is no essential difference between the two; but in general they can be quite different.
 
@@ -70,6 +71,7 @@ $$
 $$
 
 Here the total space $Y/X$ of this bundle is typically the "weak" [[quotient]] (for instance: [[homotopy quotient]]) of the action, whence the notation. If one thinks of $\mathbf{B}X$ as the [[classifying space]] for the $X$-[[universal principal bundle]], then this bundle $Y/X \to \mathbf{B}X$ is the $Y$-[[fiber bundle]] which is [[associated bundle|associated]] via the action to this universal bundle. For more on this perspective on actions see at _[[∞-action]]_.
+
 
 
 
