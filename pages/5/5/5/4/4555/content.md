@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -27,6 +27,8 @@ The definition of CS-differential characters encodes rather directly the higher 
 Since Cheeger-Simons characters enocde information beyond the [[curvature characteristic form]] which represents the underlying [[characteristic class]] in de Rham cohomology, they are frequently called [[secondary characteristic class]]es, in particular if the curvature characteristic form vanishes so that the corresponding [[Chern-Simons form]] becomes exact.
 
 ## Related concepts
+
+* [[ordinary differential cohomology]]
 
 * [[Chern-Simons form]]
 
@@ -53,6 +55,11 @@ Further developments are in
 * [[James Simons]], [[Dennis Sullivan]], _Axiomatic characterization of ordinary differential cohomology_,  J Topology (2008) 1 (1): 45-56 ([arXiv:math/0701077](https://arxiv.org/abs/math/0701077), [doi:10.1112/jtopol/jtm006]( https://doi.org/10.1112/jtopol/jtm006) [web pdf](http://jtopol.oxfordjournals.org/content/1/1/45.full.pdf+html))
 
 * Mark Brightwell, Paul Turner, _Relative differential characters_ ([arXiv:math.AT/0408333](http://arxiv.org/abs/math.AT/0408333))
+
+See also:
+
+* [[Christian Bär]], [[Christian Becker]], *Differential Characters and Geometric Chains*, in: *Differential Characters*, Lecture Notes in Mathematics **2112**, Springer (2014)  &lbrack;[arXiv:1303.6457](https://arxiv.org/abs/1303.6457), [doi:10.1007/978-3-319-07034-6_1](https://doi.org/10.1007/978-3-319-07034-6_1)&rbrack;
+
 
 For a review in the broader context of [[differential cohomology]] see also 
 
