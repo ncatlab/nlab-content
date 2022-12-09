@@ -23,6 +23,8 @@ The [[quotient]] $R/I$ is also called the _[[reduced object|reduced]]_ part of $
 
 ## Examples
 
+Every [[local Artinian ring]] is a commutative ring whose set of non-invertible elements is a [[nilradical]]. 
+
 With rings regarded as [[Isbell duality|formal dual]]s of [[affine scheme]]s, the canonical inclusion
 
 $$
