@@ -15,26 +15,19 @@
 
 ## Definitions
 
-Given a [[cardinal number]] $n$, an __n-ary operation__ on a [[set]] $S$ is a [[function]] 
+Given a [[natural number]] $n$, an __n-ary operation__ on a [[set]] $S$ is a [[function]] 
 
-$$
-  \phi
-  \;\colon\;
-  \big(
-    \prod_{i:[n]} 
-    S
-  \big)
-  \,=\, 
-  S^n 
-  \overset{\;\;\;\;\;}{\longrightarrow} 
-  S
-$$ 
+$$\phi:(\mathrm{Fin}(n) \to S) \to S$$ 
 
-from the $n$th [[cartesian power]] $S^n$ of $S$ to $S$ itself, where [n] is a set with $n$ elements. The __arity__ of the operation is $n$.
+from the function set $\mathrm{Fin}(n) \to S$ to $S$ itself, where $\mathrm{Fin}(n)$ is the finite set with $n$ elements. The __arity__ of the operation is $n$. In general, if the natural number $n$ is not specified, these are called **finitary operations**. 
 
-Sets with $n$-ary operations are called **$n$-ary magmas** or **$n$-ary groupoids**. 
+Sets with finitary operations are called **finitary magmas** or **finitary groupoids**. 
 
-More generally, an n-ary operation in a [[multicategory]] is just a [[multimorphism]]. 
+More generally, a finitary operation in a [[multicategory]] is just a [[multimorphism]]. 
+
+### Arbitrary arity
+
+More generally, one could use an arbitrary [[set]] instead of a [[finite set]]. However, the generalizations are only definable in [[closed monoidal category|closed]] [[multicategories]], rather than any [[multicategory]]. 
 
 ## Properties
 
@@ -88,3 +81,9 @@ where $ S \overset{diag_n}{\longrightarrow} S^n$ is the [[diagonal morphism]].
 
 [[!redirects n-ary magma]]
 [[!redirects n-ary magmas]]
+
+[[!redirects finitary operation]]
+[[!redirects finitary operations]]
+
+[[!redirects finitary magma]]
+[[!redirects finitary magmas]]
