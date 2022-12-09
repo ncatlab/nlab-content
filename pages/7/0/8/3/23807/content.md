@@ -23,17 +23,25 @@ In the same vein that [[commutative rings]] are to [[integral domains]] and [[GC
 
 ## Definition ##
 
-For a [[commutative ring]] $R$, where $\mathrm{Can}(R)$ is the [[multiplicative submonoid of cancellative elements]], the corresponding [[commutative localization]] $D\to (\mathrm{Can}(R))^{-1} R$ is an injective homomorphism of rings and $Q(R) = (\mathrm{Can}(R))^{-1} R$ is a [[prefield]], called the **ring of fractions** or the fraction ring of $R$. 
+Let $R$ be a [[commutative ring]]. A multiplicative submonoid of $R$ is a subset $S \subseteq R$ with an injection $m:S \hookrightarrow R$, an element $1_S \in S$ and a function $(-)\cdot_S(-):S \times S \to S$, such that $m(1_S) = 1$ and for all elements $a \in S$ and $b \in S$, $s(a \cdot_S b) = s(a) \cdot s(b)$. The [[localization of a commutative ring|localization]] of $R$ away from a multiplicative submonoid $S$ is the [[initial object|initial]] commutative ring $R[S^{-1}]$ with a commutative ring homomorphism $h:R \to R[S^{-1}]$ and a function $(-)^{-1}:S \to R[S^{-1}]$, such that for all $a \in S$, $h(m(a)) \cdot a^{-1} = 1$. 
 
-Its elements are fractions $a/b$ where $a\in R$ and $b\in \mathrm{Can}(R)$ which are by the definition the equivalence classes of pairs $(a,b) \in R\times \mathrm{Can}(R)$ and $(a,b)\sim (c,d)$ iff $a d = b c$. The addition is given by the formula
-$$
-\frac{a}{b}+\frac{c}{d} = \frac{ad+bc}{bd}
-$$
-and multiplication by $(a/b)(c/d) = (ac)/(bd)$. 
+The **ring of fractions** $R[\mathrm{Reg}(R)^{-1}]$ is the localization of $R$ away from the [[multiplicative subset of regular elements]] $\mathrm{Reg}(R)$. Its elements are fractions $\frac{a}{b}$ where $a\in R$ and $b\in \mathrm{Reg}(R)$ which are by the definition the equivalence classes of pairs $(a,b) \in R\times \mathrm{Reg}(R)$ and $(a,b)\sim (c,d)$ iff $a \cdot d = b \cdot c$. The addition is given by the formula
+$$\frac{a}{b}+\frac{c}{d} = \frac{a \cdot d+b \cdot c}{b \cdot d}$$
+and multiplication by 
+$$\frac{a}{b} \cdot \frac{c}{d} = \frac{a \cdot c}{b \cdot d}$$
+
+For $a \in R$, $b \in \mathrm{Reg}(R)$, $c \in \mathrm{Reg}(R)$, and $d \in \mathrm{Reg}(R)$, division is given by
+$$\frac{a}{b} \div \frac{c}{d} = \frac{a \cdot d}{b \cdot c}$$
 
 ## Examples
 
-The ring of fractions of a [[strict approximate integral domain]] is a [[local ring]]. 
+* The ring of fractions of the [[integers]] is the [[rational numbers]] $\mathbb{Q} \coloneqq \mathbb{Z}[\mathrm{Reg}(\mathbb{Z})^{-1}]$. 
+
+* The ring of fractions of a [[Heyting integral domain]] is a [[Heyting field]]. 
+
+* The ring of fractions of a [[strict approximate integral domain]] is a [[local ring]]. 
+
+* The ring of fractions of any [[commutative ring]] is a [[prefield ring]]. 
 
 ## Related concepts
 
