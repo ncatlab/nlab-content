@@ -40,7 +40,7 @@ where $]a,b[$, $]a,c[$, $]c,b[$ are [[open intervals]] in $A$.
 
 ## References ##
 
-* [[Auke Booij]], *Extensional constructive real analysis via locators*, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
+* [[Auke Booij]], *Analysis in univalent type theory* (2020) $[$[etheses:10411]( 	http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)$]$
 
 [[!redirects locators]]
 
