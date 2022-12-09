@@ -67,7 +67,7 @@ For instance, [[bundle gerbe]] contains the geometric interpretation of $H^3(X, 
 
 ##References
 
-* [[Jean-Luc Brylinski]], _Loop Spaces, Characteristic Classes, and Geometric Quantization_, Birkhäuser Boston 1993  ([doi:10.1007/978-0-8176-4731-5](https://doi.org/10.1007/978-0-8176-4731-5))
+* [[Jean-Luc Brylinski]], _Loop Spaces, Characteristic Classes, and Geometric Quantization_, Birkhäuser (1993)  &lbrack;[doi:10.1007/978-0-8176-4731-5](https://doi.org/10.1007/978-0-8176-4731-5)&rbrack;
 
 * I. Moerdijk, _Introduction to the language of stacks and gerbes_ ([arXiv](http://arxiv.org/abs/math/0212266))
 
