@@ -51,6 +51,9 @@ In another direction, the __complement__ of a [[complemented subobject]] $S$ of 
 
 The complement of a [[truth value]] (seen as a subset of the [[point]]) is called its _[[negation]]_.
 
+### Strict complements
+
+In [[constructive mathematics]], the denial inequality is not a [[tight apartness relation]], and [[sets]] in general do not have a [[tight apartness relation]]. This means that every [[set]] with a [[tight apartness relation]] has two notions of inequality, the normal [[denial inequality]] $\neq$ and the [[tight apartness relation]] $\#$. Thus, there are two notions of complement. There is the usual notion of complement, where given a set $X$, every element in the complement of a subset $S \subseteq X$ is not equal to any element in $S$. Then there are **strict complements**, where given a set $X$ with a tight inequality relation $\#$, every element in the strict complement of a subset $S \subseteq X$ is apart from every element in $S$. 
 
 ## Related concepts
 
@@ -72,5 +75,8 @@ The complement of a [[truth value]] (seen as a subset of the [[point]]) is calle
 
 [[!redirects pseudocomplement]]
 [[!redirects pseudocomplements]]
+
+[[!redirects strict complement]]
+[[!redirects strict complements]]
 
 [[!redirects complemented]]
