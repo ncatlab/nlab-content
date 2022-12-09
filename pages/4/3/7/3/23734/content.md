@@ -23,29 +23,21 @@ In the same vein that [[commutative rings]] are to [[integral domains]] and [[GC
 
 ## Definition ##
 
-A commutative ring $R$ is a **prefield ring** if there exists a function $(-)^{-1}: \mathrm{Can}(R) \to R$ from the [[multiplicative submonoid of cancellative elements]] in $R$ to $R$ itself, often called the *multiplicative inverse* or *reciprocal*, such that for all $e \in \mathrm{Can}(R)$, $e \cdot e^{-1} = 1$ and $e^{-1} \cdot e = 1$. 
-
-Thus, in an prefield ring, $\mathrm{Can}(R)$ and the [[group of units]] $R^\times$ coincide. 
+A commutative ring $R$ is a **prefield ring** if the [[ring of fractions]] of $R$ isomorphic to $R$. Equivalently, a commutative ring $R$ is a prefield ring if for all elements $a \in R$, $a$ is a [[cancellative element]] if and only if $a$ is a [[unit]]; the [[monoid of cancellative elements]] $\mathrm{Can}(F)$ is equivalent to the [[group of units]] $R^\times$. 
 
 ## Examples ##
 
 * The [[rational numbers]] $\mathbb{Q}$ are a prefield ring. 
 
-* A classical field $F$ is a prefield ring where $\mathrm{Can}(F)$ is the multiplicative monoid of elements not equal to zero (where inequality is [[denial inequality]])
+* A classical field $F$ is a prefield ring whose monoid of cancellative elements is the set of elements [[not equal to]] zero. 
 
-$$\mathrm{Can}(F) \cong \{x \in F \vert x \neq 0\}$$
+* A [[Heyting field]] $F$ is a prefield ring whose monoid of cancellative elements is the multiplicative monoid of elements [[tight apartness relation|apart from]] zero
 
-* A [[Heyting field]] $F$ is a prefield ring where $\mathrm{Can}(F)$ is the multiplicative monoid of elements apart from zero
+* A [[local ring]] $F$ is a prefield ring whose monoid of cancellative elements is the multiplicative monoid of elements [[apartness relation|apart from]] the [[ideal]] of [[zero divisors]] $D$. 
 
-$$\mathrm{Can}(F) \cong \{x \in F \vert x \# 0\}$$
+* The [[trivial ring]] $0$ is the unique prefield ring up to unique isomorphism such that zero is in the monoid of cancellative elements. The trivial ring is also the terminal prefield. 
 
-* An [[ordered field]] $F$ is a prefield ring where $\mathrm{Can}(F)$ is the multiplicative monoid of elements with a positive absolute value
-
-$$\mathrm{Can}(F) \cong \{x \in F \vert 0 \lt \vert x \vert\}$$
-
-* The [[trivial ring]] $0$ is the unique prefield ring up to unique isomorphism such that $0 \in \mathrm{Can}(0)$. The trivial ring is also the terminal prefield. 
-
-* The [[integers modulo n|integers modulo 4]] $\mathbb{Z}/4\mathbb{Z}$ is a prefield ring, because $2 \in \mathbb{Z}/4\mathbb{Z}$ is not cancellative: $2 \cdot 2 = 0$ and $2 \cdot 0 = 0$, but $2 \neq 0$, and thus, $\mathrm{Can}(\mathbb{Z}/4\mathbb{Z})$ is the same as the group of units $\{1, 3\}$. 
+* The [[integers modulo n|integers modulo 6]] $\mathbb{Z}/6\mathbb{Z}$ is a prefield ring which is not a [[local ring]], because $2$, $3$, and $4$ are not cancellative: $2 \cdot 3 = 0$, $4 \cdot 3 = 0$ and $2 \cdot 0 = 0$, $3 \cdot 0 = 0$, $4 \cdot 0 = 0$, but $2 \neq 0$, $3 \neq 0$, $4 \neq 0$, and thus, the monoid of cancellative elements is the same as the group of units $\{1, 5\}$. 
 
 * Non-example: the [[integers]] $\mathbb{Z}$ are not a prefield ring. 
 
