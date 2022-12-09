@@ -157,6 +157,12 @@ A $G$-[[equivariant principal bundle]] is an internal action of a [[group object
 
 \end{example}
 
+\begin{example}\label{ActionObjectsInCat}
+**(2-actions)**
+\linebreak
+The notion of [[coherence|coherent]] action object in the [[2-category]] [[Cat]] (of [[categories]] with [[functors]] and [[natural transformations]]) is a [[categorification|categorified]] notion of "action" (namely of [[monoidal categories]]), known as *[[module categories]]* (also: "*[[actegories]]*"), see also *[[2-module]]* and *[[n-module]]*).
+\end{example}
+
 \begin{example}
 **([[module spectrum]])** \linebreak
 
