@@ -20,7 +20,7 @@
 ## Idea
  {#Idea}
 
-As the notion of [[monoidal categories]] is a [[vertical categorification]] of [[monoids]], the notion of *actegories* is a [[vertical categorification]] of that of *[[actions]]* of monoids: [[action objects]]  [[coherence|coherently]] [[internalization|internal]] to the [[2-category]] [[Cat]].
+As the notion of [[monoidal categories]] is a [[vertical categorification]] of [[monoids]], the notion of *actegories* (also and maybe better: *[[module categories]]*) is a [[vertical categorification]] of that of *[[actions]]* of monoids: [[action objects]]  [[coherence|coherently]] [[internalization|internal]] to the [[2-category]] [[Cat]].
 
 
 So given a monoidal category $(C,\otimes,I,l,r,a)$ an actegory is another [[category]] $D$ with a notion of "tensor by object of $C$", i.e., a [[functor]]:
