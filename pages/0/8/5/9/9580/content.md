@@ -22,7 +22,7 @@ By "module category" may be meant
 
 1. a [[category of modules]] of a [[monoid]] (e.g. an [[associative algebra]]).
 
-Here we consider the first sense. For the second, see at _[[category of modules]]_.
+Here we consider the first sense (see also at "*[[actegory]]*". For the second, see at _[[category of modules]]_.
 
 
 The collection of module categories over a monoidal category forms a [[2-category]] of module categories.
@@ -30,7 +30,7 @@ The collection of module categories over a monoidal category forms a [[2-categor
 
 ## Definition
 
-Let $\mathcal{M}$ be a monoidal category and $B\mathcal{M}$ its [[delooping]] as a [[bicategory]]. A (left) module category is then simply a 2-functor $B\mathcal{M} \to Cat$.
+Let $\mathcal{M}$ be a monoidal category and $B\mathcal{M}$ its [[delooping]] as a [[bicategory]]. A (left) module category is then simply a [[2-functor]] $B\mathcal{M} \to Cat$.
 
 Written out, this amounts to:
 
@@ -47,6 +47,10 @@ Further expanding this definition, we have the following data:
 An obvious example is given by a monoidal category, which has an action on itself by left multiplication.
 
 ## Related concepts
+
+* [[actegory]]
+
+* [[2-module]], [[n-module]]
 
 * [[bimodule category]]
 
