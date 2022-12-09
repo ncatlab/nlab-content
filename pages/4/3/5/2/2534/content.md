@@ -80,6 +80,9 @@ In the following, let $\mathcal{X} = \langle X,\mu_X\rangle$ and $\mathcal{Y} = 
 * [An Overview of the Applications of
 Multisets](http://www.emis.de/journals/NSJOM/Papers/37_2/NSJOM_37_2_073_092.pdf), D. Singh, A. M. Ibrahim, T. Yohanna and J. N. Singh
 
+[[!redirects finite multiset]]
+[[!redirects finite multisets]]
+
 [[!redirects multiset]]
 [[!redirects multisets]]
 
