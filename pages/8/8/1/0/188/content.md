@@ -17,10 +17,7 @@
 =--
 =--
 
-
-# Monoids
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Definitions
 
@@ -33,20 +30,6 @@ $$ (x \cdot y) \cdot z = x \cdot (y \cdot z)$$
 and the **left and right [[unit laws]]**: 
 
 $$ 1 \cdot x = x = x \cdot 1 .$$
-
-### With $n$-ary operations
-
-Equivalently, a **monoid** is a set $M$ with an element $1 \in M$ and a [[dependent type|dependent sequence]] of functions: for every [[natural number]] $n \in \mathbb{N}$, an [[n-ary operation|$n$-ary operation]] $\mu_n:M^n \to M$ with [[domain]] the $n$-th [[cartesian power]] of $M$ and [[codomain]] $M$, such that 
-
-$$\mu_0(*) = 1$$
-
-$$\mu_1(x) = x$$
-
-$$\mu_2(\mu_m(x_1, \ldots, x_m), \mu_n(x_{m+1}, \ldots, x_{m+n})) = \mu_{m+n}(x_1, \ldots, x_m, x_{m+1}, \ldots, x_{m+n})$$
-
-For $n \gt 1$, $\mu_n$ is usually written as 
-
-$$x_1 \cdot x_2 \cdot \ldots \cdot x_n = \mu_n(x_1, x_2, \ldots, x_n)$$
 
 ### In a monoidal category
 {#inamonoidalcategory}
@@ -91,6 +74,33 @@ The notion of _associative monoids_ discussed above are controled by the
 
 These are closely related to [[(infinity,1)-algebras over an (infinity,1)-operad]] with respect to $\mathcal{O}$ ([Lurie, prop. 2.4.2.5](#Lurie)).
 
+## Properties
+
+### Finite products (and sums)
+
+Let $M$ be a monoid, and let $M^*$ be the [[free monoid]] on $M$ with canonical function $h:M \to M^*$ taking the elements of $M$ to the generators in $M^*$. The finite product operation on $M$ is a [[monoid homomorphism]] 
+
+$$\prod_{i = 0}^{\mathrm{len}(-) - 1}(-)(i):M^* \to M$$ 
+
+from $M^*$ to $M$, where:
+
+$$\prod_{i = 0}^{\mathrm{len}(\epsilon) - 1} \epsilon(i) = 1$$
+
+$$\prod_{i = 0}^{\mathrm{len}(h(a)) - 1} (h(a))(i) = a$$
+
+$$\left(\prod_{i = 0}^{\mathrm{len}(a) - 1} a(i)\right) \cdot \left(\prod_{i = 0}^{\mathrm{len}(b) - 1} b(i)\right) = \prod_{i = 0}^{\mathrm{len}(a b) - 1} (a b)(i)$$
+
+If $M$ is written additively $(+, 0)$ instead of multiplicatively $(\cdot, 1)$, the operation is called finite sum, and is defined as 
+
+$$\sum_{i = 0}^{\mathrm{len}(-) - 1}(-)(i):M^* \to M$$ 
+
+from $M^*$ to $M$, where:
+
+$$\sum_{i = 0}^{\mathrm{len}(\epsilon) - 1} \epsilon(i) = 0$$
+
+$$\sum_{i = 0}^{\mathrm{len}(h(a)) - 1} (h(a))(i) = a$$
+
+$$\left(\sum_{i = 0}^{\mathrm{len}(a) - 1} a(i)\right) + \left(\sum_{i = 0}^{\mathrm{len}(b) - 1} b(i)\right) = \sum_{i = 0}^{\mathrm{len}(a b) - 1} (a b)(i)$$
 
 ## Examples
 
@@ -185,7 +195,7 @@ In summary, it is important to make people understand that groups can be identif
 
 * [[categorical algebra]]
 
-* [[A3-space]]
+* [[A3-type]]
 
 [[!include oidification - table]]
 
