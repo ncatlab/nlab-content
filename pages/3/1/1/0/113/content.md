@@ -1,5 +1,7 @@
 
-> This entry is about the basic notion of "source" in [[category theory]]. For another use in category theory see at _[[sink]]_ and for the use in [[physics]] see at _[[source field]]_. There is also [[source forms]] in [[variational calculus]].
+> This entry is about the basic notion of "source" of a morphism in [[category theory]]. For another use in category theory see at _[[sink]]_ and for the use in [[physics]] see at _[[source field]]_. There is also [[source forms]] in [[variational calculus]].
+
+> This entry is about the basic notion of "domain" of a morphism in [[category theory]]. For other uses, see at _[[domain]]_. 
 
 ***
 
