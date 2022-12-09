@@ -53,7 +53,7 @@ Generally, inequality may just be the statement that a pair of [[terms]] of any 
 
 See also:
 
-* Wikipedia, *<a href="https://en.m.wikipedia.org/wiki/Inequality_(mathematics)">Inequality (mathematics)</a>*
+* Wikipedia, *<a href="https://en.wikipedia.org/wiki/Inequality_(mathematics)">Inequality (mathematics)</a>*
 
 [[!redirects inequality]]
 [[!redirects inequalities]]
