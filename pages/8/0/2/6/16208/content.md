@@ -45,6 +45,9 @@ Some [[mathematics]] that has been formalized in Lean (in particular in the [[Xe
 
   * [[The Stacks Project]]
 
+* The main theorem of [[liquid vector spaces]]
+  * [github.com/leanprover-community/lean-liquid](https://github.com/leanprover-community/lean-liquid)
+
 ## Related concepts
 
 [[!include proof assistants and formalization projects -- list]]
@@ -74,3 +77,5 @@ Some [[mathematics]] that has been formalized in Lean (in particular in the [[Xe
 
 
   (on the [[Xena project]])
+
+* _[Lean community and Mathlib] (https://leanprover-community.github.io/)_
