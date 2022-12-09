@@ -67,6 +67,8 @@ where $ S \overset{diag_n}{\longrightarrow} S^n$ is the [[diagonal morphism]].
 
 * [[multicategory]]
 
+* [[operad]]
+
 ### $n$-ary algebraic structures
 
 * [[n-ary semigroup]]
