@@ -84,9 +84,9 @@ The concept was introduced on the level of differential form data in
 
 In these papers the $U(1)$-[[gerbe]] ([[circle 2-bundle with connection]]) does not appear, but an integral [[differential 3-form]], representing its [[Dixmier-Douady class]] does. Note that if the [[Eilenberg-MacLane spectrum|integral]] [[cohomology group]] $H^3(X,\mathbb{Z})$ of $X$ has [[torsion]] in dimension three, not all gerbes will arise in this way.  The formalization with the above data originates in 
 
-* {#BunkeSchick04} [[Ulrich Bunke]], [[Thomas Schick]], _On the topology of T-duality_, Rev.Math.Phys.17:77-112,2005, ([arXiv:math/0405132](https://arxiv.org/abs/math/0405132))
+* {#BunkeSchick04} [[Ulrich Bunke]], [[Thomas Schick]], _On the topology of T-duality_, Rev. Math. Phys. **17** (2005) 77-112 &lbrack;[arXiv:math/0405132](https://arxiv.org/abs/math/0405132), [doi:10.1142/S0129055X05002315](https://doi.org/10.1142/S0129055X05002315)&rbrack;
 
-* {#BunkeRumpfSchick08} {#BunkeRumpfSchick08} [[Ulrich Bunke|U. Bunke]], P. Rumpf, [[Thomas Schick]], _The topology of $T$-duality for $T^n$-bundles_,  Rev. Math. Phys. 18, 1103 (2006). ([arXiv:math.GT/0501487](http://arxiv.org/abs/math.GT/0501487))
+* {#BunkeRumpfSchick08} {#BunkeRumpfSchick08} [[Ulrich Bunke|U. Bunke]], P. Rumpf, [[Thomas Schick]], _The topology of $T$-duality for $T^n$-bundles_,  Rev. Math. Phys. **18** 1103 (2006) &lbrack;[arXiv:math.GT/0501487](http://arxiv.org/abs/math.GT/0501487)&rbrack;
 
 * [[Ulrich Bunke]], [[Markus Spitzweck]], [[Thomas Schick]], _Periodic twisted cohomology and T-duality_, Ast&#233;risque No. 337 (2011), vi+134 pp. ISBN: 978-2-85629-307-2
 
