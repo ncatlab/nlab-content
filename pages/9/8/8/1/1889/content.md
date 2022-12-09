@@ -39,7 +39,7 @@ See the definition at [[pseudofunctor]], and let the [[natural isomorphisms]] in
 
 ## Properties
 
-One of the most important properties is that lax functors compose associatively and unitally: we have a category $\bf{BiCat}$ with [[bicategories]] as objects and lax functors as morphisms.
+One of the most important properties is that lax functors compose associatively and unitally: we have a category $\mathbf{BiCat}$ with [[bicategories]] as objects and lax functors as morphisms.
 If we add [[icons]] as 2-cells, this becomes a [[2-category]].
 
 ## Examples
