@@ -221,7 +221,7 @@ More generally, the [[KK-compactification]] of [[11d supergravity]] of [[fibers]
 
 Dedicated [[string phenomenology]] for the case of compactification on [[G2-manifolds]] (or rather [[orbifolds]]) goes back to:
 
-* {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv. Theor. Math. Phys. 3 (1999) 227-248 ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
+* {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv. Theor. Math. Phys. **3** (1999) 227-248 &lbrack;[arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205)&rbrack;
 
 * {#Acharya00} [[Bobby Acharya]], _On Realising $N=1$ Super Yang-Mills in M theory_ ([arXiv:hep-th/0011089](http://arxiv.org/abs/hep-th/0011089))
 
