@@ -58,6 +58,21 @@ A dual condition is noetherian: a __[[noetherian ring]]__ is a ring satisfying t
 
 * [[artinian object]]
 
+* [[local Artin ring]]
+
+## References
+
+* [[The Stacks Project]]
+
+  * [10.100. Flatness criteria over Artinian rings](http://stacks.math.columbia.edu/tag/051E)
+
+[[!redirects artinian ring]]
 [[!redirects artinian rings]]
 [[!redirects Artinian ring]]
 [[!redirects Artinian rings]]
+
+[[!redirects Artin ring]]
+[[!redirects Artin rings]]
+
+[[!redirects Artin algebra]]
+[[!redirects Artin algebras]]
