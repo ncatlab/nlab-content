@@ -52,7 +52,7 @@ where $a:T, b:T \vdash \mathrm{idtonotapart}(a, b):(a =_T b) \to ((a \# b) \to \
 
 $$a:T \vdash \beta_{\mathrm{idtonotapart}}^{\mathrm{refl}_T}(a):\mathrm{idtonotapart}(a, a)(\mathrm{refl}_T(a)) =_{(a \# a) \to \mathbb{0}} \mathrm{irr}(a)$$
 
-The last condition ensures that the type is an [[h-set]]. 
+The last condition ensures that the type is an [[h-set]]. By [[Hedberg's theorem]], every type with an equivalence $a \# b \simeq (a =_T b) \to \mathbb{0}$ has [[decidable equality]]. 
 
 ## Strongly extensional functions
 
@@ -93,7 +93,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, b:A \vdash \mathrm{idtono
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A \vdash \mathrm{idtonotapart}(a, a)(\mathrm{refl}_A(a)) \equiv \mathrm{irr}(a):(a \# a) \to \mathbb{0}}$$
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, b:A \vdash \mathrm{tight}(a, b):\mathrm{isEquiv}(\mathrm{idtonotapart}(a, b))}$$
 
-This implies [[axiom K]] and [[uniqueness of identity proofs]]. In particular, this can be used to prove [[Hedberg's theorem]], which says that if every type has [[decidable equality]], then it is an [[h-set]]. 
+This implies [[axiom K]] and [[uniqueness of identity proofs]]. 
 
 ## In algebra
 
