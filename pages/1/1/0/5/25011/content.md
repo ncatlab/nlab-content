@@ -74,3 +74,6 @@ The concept of a possibly trivial field appeared in
 * {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
 where the possibly trivial Heyting fields are called "Heyting fields" and the possibly trivial discrete field are called "discrete fields". 
+
+[[!redirects possibly trivial field]]
+[[!redirects possibly trivial fields]]
