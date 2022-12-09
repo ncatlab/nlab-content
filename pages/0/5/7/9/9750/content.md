@@ -331,13 +331,20 @@ The [[double dimensional reduction]] of the [[M5-brane]] to the [[D4-brane]]:
 
 * {#Witten11} [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216)) 
  
+### Reduction of black M2s and black M5s
+
+The [[differential geometry]] of the double dimensional reduction of the [[M2-brane]]- and [[M5-brane]]-charges was maybe first clearly written out in:
+
+* [[Varghese Mathai]], [[Hisham Sati]], §4 in: *Some Relations between Twisted K-theory and $E_8$ Gauge Theory*, J. High Energ. Phys. **2004** 03 (2004) 016 &lbrack;[arXiv:hep-th/0312033](https://arxiv.org/abs/hep-th/0312033), [doi:10.1088/1126-6708/2004/03/016](https://doi.org/10.1088/1126-6708/2004/03/016)&rbrack;
+
+For their [[black brane]]-reductions see:
+
+* [[José Figueroa-O'Farrill]], [[Joan Simón]], _Supersymmetric Kaluza-Klein reductions of M2 and M5-branes_, Adv. Theor. Math. Phys. 6:703-793, 2003 ([arXiv:hep-th/0208107](https://arxiv.org/abs/hep-th/0208107))
+
 ### Reduction of M-Waves and MK6s
 
 * [[José Figueroa-O'Farrill]], [[Joan Simón]], _Supersymmetric Kaluza-Klein reductions of M-waves and MKK-monopoles_, Class. Quant. Grav.19:6147-6174, 2002 ([arXiv:hep-th/0208108](https://arxiv.org/abs/hep-th/0208108))
 
-### Reduction of black M2s and black M5s
-
-* [[José Figueroa-O'Farrill]], [[Joan Simón]], _Supersymmetric Kaluza-Klein reductions of M2 and M5-branes_, Adv. Theor. Math. Phys. 6:703-793, 2003 ([arXiv:hep-th/0208107](https://arxiv.org/abs/hep-th/0208107))
 
 [[!redirects double dimensional reductions]]
 
