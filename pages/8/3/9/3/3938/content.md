@@ -227,9 +227,19 @@ The classical notion of transgression of forms through fiber bundles is describe
 
 * {#Borel} [[Armand Borel]], _Topology of Lie groups and characteristic classes_  Bull. Amer. Math. Soc. Volume 61, Number 5 (1955), 397-432. ([EUCLID](http://projecteuclid.org/euclid.bams/1183520007))
 
-Discussion of transgression and [[higher holonomy]] in [[Deligne cohomology]] (for [[bundle gerbes with connection]]) over [[orbifolds]]:
+Transgression as [[pullback in cohomology]] along the [[evaluation map]] followed by [[fiber integration]] over the base space is considered in:
 
-* [[Ernesto Lupercio]], [[Bernardo Uribe]], *Holonomy for Gerbes over Orbifolds*, J. Geom.Phys. **56** (2006) 1534-1560 &lbrack;[arXiv:math/0307114](https://arxiv.org/abs/math/0307114), [doi:10.1016/j.geomphys.2005.08.006](https://doi.org/10.1016/j.geomphys.2005.08.006)&rbrack;
+for [[differential forms]]:
+
+* [[Jean-Luc Brylinski]], §3.5 in *Loop Spaces, Characteristic Classes, and Geometric Quantization*, Birkhäuser (1993)  &lbrack;[doi:10.1007/978-0-8176-4731-5](https://doi.org/10.1007/978-0-8176-4731-5)&rbrack;
+
+for [[Deligne cohomology]] (and with an eye towards defining the [[higher holonomy]] of [[bundle gerbes with connection]]):
+
+* [[Ernesto Lupercio]], [[Bernardo Uribe]], p. 2 of: *Holonomy for Gerbes over Orbifolds*, J. Geom.Phys. **56** (2006) 1534-1560 &lbrack;[arXiv:math/0307114](https://arxiv.org/abs/math/0307114), [doi:10.1016/j.geomphys.2005.08.006](https://doi.org/10.1016/j.geomphys.2005.08.006)&rbrack;
+
+  > (over [[orbifolds]])
+
+* [[Christian Bär]], [[Christian Becker]], Def. 9.1 in: *Differential Characters and Geometric Chains*, in: *Differential Characters*, Lecture Notes in Mathematics **2112**, Springer (2014)  &lbrack;[arXiv:1303.6457](https://arxiv.org/abs/1303.6457), [doi:10.1007/978-3-319-07034-6_1](https://doi.org/10.1007/978-3-319-07034-6_1)&rbrack;
 
 Transgression of [[group cohomology]] for [[discrete groups]] to cohomology of [[inertia groupoids]] (see at *[[transgression in group cohomology]]*):
 
