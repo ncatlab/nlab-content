@@ -30,6 +30,8 @@ The structure rings of classical [[algebraic variety|algebraic varieties]] are f
 
 * [[nilpotent topological space]]
 
+* [[nilradical]]
+
 For [[Lie algebras]]:
 
 * [[Jacobson-Morozov theorem]]
