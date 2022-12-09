@@ -31,6 +31,8 @@ In [[constructive mathematics]], given a $\sigma$-locale $\Sigma$ whose poset of
 
 * [[Dedekind real numbers]]
 
+* [[number line rig]]
+
 ## References
 
 * Davorin Lešnik, Synthetic Topology and Constructive Metric Spaces, ([arxiv:2104.10399](https://arxiv.org/abs/2104.10399))
