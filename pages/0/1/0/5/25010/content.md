@@ -39,13 +39,13 @@ $R/I_D$ is a possibly trivial integral domain, because the quotient of $R$ by $I
 
 In constructive mathematics, the notion of integral domain bifurcates into multiple notions. While the definition given above results in the usual notion of an integral domain as a commutative ring whose zero divisors are equal to zero, there are also possibly trivial [[Heyting integral domains]] and possibly trivial [[discrete integral domains]], which refer directly to cancellative elements. 
 
-### Possibly trivial Heyting integral domains
+\begin{definition}
+A possibly trivial integral domain $R$ is **Heyting** if it has a [[tight apartness relation]] and where every element apart from zero is cancellative. The trivial ring is trivially Heyting because the set of elements apart from zero is the empty subset. 
+\end{definition}
 
-A possibly trivial integral domain $R$ is **Heyting** if, whenever the sum of two elements $a + b$ is cancellative, then either $a$ is cancellative or $b$ is cancellative. 
-
-### Possibly trivial discrete integral domains
-
-A possibly trivial integral domain is **discrete** if every element of $R$ is either zero or cancellative. These are simply called *integral domains* in [LombardiQuitté2010](#LombardiQuitté2010). Possibly trivial discrete integral domains have [[decidable equality]]. 
+\begin{definition}
+A possibly trivial integral domain is **discrete** if every element of $R$ is either equal to zero or cancellative. The trivial ring is trivially discrete because every element is both equal to zero and cancellative. These are simply called *integral domains* in [LombardiQuitté2010](#LombardiQuitté2010). Possibly trivial discrete integral domains have [[decidable equality]]. 
+\end{definition}
 
 ## See also
 
@@ -60,3 +60,6 @@ The concept of a possibly trivial integral domain appeared in
 * {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
 where the possibly trivial discrete integral domains are simply called "integral domains". 
+
+[[!redirects possibly trivial integral domain]]
+[[!redirects possibly trivial integral domains]]
