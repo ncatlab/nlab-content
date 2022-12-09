@@ -173,6 +173,21 @@ In [Lombardi & Quitté 2010](#LombardiQuitté2010), a [[unique factorization dom
 [[!redirects filter of regular elements]]
 [[!redirects filters of regular elements]]
 
+[[!redirects monoid of cancellative elements]]
+[[!redirects monoids of cancellative elements]]
+[[!redirects monoid of regular elements]]
+[[!redirects monoids of regular elements]]
+
+[[!redirects submonoid of cancellative elements]]
+[[!redirects submonoids of cancellative elements]]
+[[!redirects submonoid of regular elements]]
+[[!redirects submonoids of regular elements]]
+
+[[!redirects multiplicative monoid of cancellative elements]]
+[[!redirects multiplicative monoids of cancellative elements]]
+[[!redirects multiplicative monoid of regular elements]]
+[[!redirects multiplicative monoids of regular elements]]
+
 [[!redirects multiplicative submonoid of cancellative elements]]
 [[!redirects multiplicative submonoids of cancellative elements]]
 [[!redirects multiplicative submonoid of regular elements]]
