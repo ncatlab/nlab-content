@@ -25,6 +25,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -81,7 +82,7 @@ As for the [[string 2-group]], this defines an [[infinity-group extension]] (the
 
 * {#Nikolaus14} [[Thomas Nikolaus]], _[[T-Duality in K-theory and Elliptic Cohomology]]_, talk at _String Geometry Network Meeting_, Feb 2014, ESI Vienna ([website](http://www.ingvet.kau.se/juerfuch/conf/esi14/esi14_34.html))
 
-* {#NikolausWaldorf18} [[Thomas Nikolaus]], [[Konrad Waldorf]], _Higher geometry for non-geometric T-duals_ ([arXiv:1804.00677](https://arxiv.org/abs/1804.00677))
+* {#NikolausWaldorf18} [[Thomas Nikolaus]], [[Konrad Waldorf]], *Higher geometry for non-geometric T-duals*, Commun. Math. Phys. **374** (2020) 317-366 &lbrack;[arXiv:1804.00677](https://arxiv.org/abs/1804.00677), [doi:10.1007/s00220-019-03496-3](https://doi.org/10.1007/s00220-019-03496-3)&rbrack;
 
 See also:
 
