@@ -212,6 +212,10 @@ This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of th
 
 ## 2-categorical concepts
 
+**constructions**
+
+* [[opposite 2-category]]
+
 **extra properties**
 
 * [[regular 2-category]] 
