@@ -18,13 +18,19 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-As [[monoidal categories]] are a [[vertical categorification]] of [[monoids]], *actegories* are a [[vertical categorification]] of *[[actions]]* of a monoid.
-So given a monoidal category $(C,\otimes,I,l,r,a)$ an actegory is another category $D$ with a notion of "tensor by object of $C$", i.e., a functor:
+As the notion of [[monoidal categories]] is a [[vertical categorification]] of [[monoids]], the notion of *actegories* is a [[vertical categorification]] of that of *[[actions]]* of monoids: [[action objects]]  [[coherence|coherently]] [[internalization|internal]] to the [[2-category]] [[Cat]].
 
-$$\oslash : C \times D \to D$$
 
-that is associative and unital up to natural isomorphism with respect to $\otimes$ in ways that generalize actions of a monoid, and satisfy coherence laws similar to those of a monoidal category.
+So given a monoidal category $(C,\otimes,I,l,r,a)$ an actegory is another [[category]] $D$ with a notion of "tensor by object of $C$", i.e., a [[functor]]:
+
+$$\oslash \colon C \times D \to D$$
+
+that is [[associativity|associative]] (satisfies the [action property](action#eq:ActionProperty)) and [[unitality|unital]] up to [[natural isomorphism]] with respect to $\otimes$ in ways that generalize actions of a monoid, and satisfy [[coherence laws]] similar to those of a [[monoidal category]].
+
+At least in situations where the monoidal category $C$  is (regarded as) a [[categorification|categorified]] [[ring]] (a [[2-ring]]), then if $D$ carries compatible linear structure one would alternatively call it a categorified [[module]] over $C$: a *[[2-module]]* (see also at *[[n-module|$n$-module]]*).
+
 
 ## Definition
 
