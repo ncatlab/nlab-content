@@ -169,6 +169,24 @@ The three different notions of equality above could also be used in the [[conver
 
 There are also equalities in [[type theory]] which are not internal to the type theory itself, but rather equalties in the metatheroy. These include **syntactic equality** of expressions, as well as **[[alpha-equivalence]]** and **[[definitional equality]]** of syntactical expressions. When using [[de Bruijn indices]], alpha-equivalence is the same as syntactic equality, but when using [[variables]], alpha-equivalence is different from syntactic equality: rather alpha-equivalence is equality up to the renaming of [[bound variables]]. All type theories, like [[MLTT]], [[cubical type theory]], [[ZFC]], and [[ETCS]], have syntactic equality, alpha-equivalence, and definitional equality of syntactical expressions, including the type theories which lack [[judgmental equality]] like [[objective type theories]]. 
 
+## Equality in constructive and classical mathematics
+
+Constructive mathematics is mathematics in which the law of excluded middle does not necessarily hold for [[propositions]], [[subsingletons]], or [[h-propositions]]. Classical mathematics is matheamtics in which the law of excluded middle does hold for [[propositions]], [[subsingletons]], or [[h-propositions]]. Here, we take equality to mean either typal or propositional equality, so that equality is a relation or a type family on a type or set. 
+
+In classical mathematics, equality of sets is a [[stable relation|stable]] [[equivalence relation]], and [[denial inequality]] of sets is a [[tight apartness relation]]. However, in constructive mathematics, equality cannot be proven to be stable for all sets, and denial inequality cannot be proven to be a tight apartness relation for all sets. Instead, one could distinguish between 4 different notions of equality and [[inequality]]:
+
+* [[tight apartness relations]]. However, not all sets have tight apartness relations. The sets which do are called [[inequality spaces]]. 
+
+* equality, which is an [[equivalence relation]]; [[inequality spaces]] have [[stable equality]]. 
+
+* [[denial inequality]], which can only be proven to be a [[weakly tight]] [[irreflexive symmetric relation]]. However, all statements in classical mathematics involving only denial inequalities hold in constructive mathematics, by the [[double negation translation]] and the property that for any proposition $P$, $\neg \neg \neg P$ if and only if $\neg P$. 
+
+* the [[double negation]] of equality, which can only be proven to be a [[stable relation|stable]] [[reflexive symmetric relation]]. However, all statements in classical mathematics involving only equality hold in constructive mathematics with the equality replaced by its double negation, by the [[double negation translation]]. 
+
+The sets in which equality and inequality behaves as it does in [[classical mathematics]] are the sets with [[decidable equality]]. 
+
+As a result, in constructive mathematics, sometimes one takes [[inequality spaces]] instead of general [[sets]] to be the foundational primitive concept. In classical mathematics, this is unnecessary, because every [[set]] is an [[inequality space]]. 
+
 ## Internal equality in set theory
 
 Relations and equality could be [[internal logic of set theory|internalized in any set theory]]: the internal equality in set theory is the smallest internal [[reflexive relation]] on $S$, and it is in fact an internal [[equivalence relation]]; it is the only internal equivalence relation on $S$ that is also a [[partial order]] (although that fact is somewhat circular).  This relation is often called the __identity relation__ on $S$, either because 'identity' can mean 'equality' or because it is the [[identity]] for [[composition]] of relations. 
