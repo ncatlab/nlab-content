@@ -196,6 +196,8 @@ A review of these ideas of 2-Hilbert spaces as well as applications of 2-Hilbert
 
 * [[vector space]]
 
+* [[actegory]]
+
 * **2-vector space**, [[2-representation]]
 
   * [[2-ring]]
