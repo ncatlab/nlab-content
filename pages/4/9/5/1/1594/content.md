@@ -388,11 +388,14 @@ Review of orbifolds in the context of string [[KK-compactifications]] and [[inte
 
 * {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], Chapter 10.5 _Toroidal orbifolds_,  of _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer 2013
 
-and for orbifolds of [[G2-manifolds]] for [[M-theory on G2-manifolds]]
+and for orbifolds of [[G2-manifolds]] for [[M-theory on G2-manifolds]]:
 
-* {#Reidegeld15} [[Frank Reidegeld]], _$G_2$-orbifolds from K3 surfaces with ADE-singularities_ ([arXiv:1512.05114](http://arxiv.org/abs/1512.05114))
+* {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv. Theor. Math. Phys. **3** (1999) 227-248 &lbrack;[arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205)&rbrack;
 
-* [[Frank Reidegeld]], _$G_2$-orbifolds with ADE-singularities_ ([pdf](https://core.ac.uk/download/pdf/159317626.pdf))
+
+* {#Reidegeld15} [[Frank Reidegeld]], _$G_2$-orbifolds from K3 surfaces with ADE-singularities_ &lbrack;[arXiv:1512.05114](http://arxiv.org/abs/1512.05114)&rbrack;
+
+* [[Frank Reidegeld]], _$G_2$-orbifolds with ADE-singularities_ &lbrack;[pdf](https://core.ac.uk/download/pdf/159317626.pdf)&rbrack;
 
 
 For [[topological strings]] the [[path integral as a pull-push transform]] for target orbifolds -- in analogy to what [[Gromov-Witten theory]] is for [[Deligne-Mumford stacks]] -- has first been considered in 
