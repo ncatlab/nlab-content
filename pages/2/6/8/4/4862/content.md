@@ -60,6 +60,8 @@ The two most common definitions of the circle as a [[topological space]] are:
 
 The standard equivalence of the two definitions is given by the map $\mathbb{R} \to \mathbb{C}$, $t \mapsto e^{2 \pi i t}$.
 
+In constructive mathematics, the notions of real numbers and complex numbers split into multiple notions. In general, if the metric space of the real numbers is not [[sequentially Cauchy complete]], such as in the [[modulated Cantor real numbers]], then the two definitions cannot be proven to be equivalent, since the [[exponential function]] is not well defined on $\mathbb{C}$. Only if the real numbers are [[sequentially Cauchy complete]] are the two definitions the same. 
+
 ### As a homotopy type
 
 As the bare [[homotopy type]], the [[shape modality|shape]] $&#643; S^1 \simeq \mathbf{B}\mathbb{Z}$ of the [[cohesion|cohesive]] circle $S^1$ is equivalent to the [[homotopy pushout]]
