@@ -1,3 +1,6 @@
+> This entry is about the basic notion of "monic" in relation to [[polynomials]] in [[commutative algebra]]. For the notion of "monic" in relation to [[morphisms]] in [[category theory]], see at _[[monomorphism]]_. 
+
+***
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
