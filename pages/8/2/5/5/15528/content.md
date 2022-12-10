@@ -57,6 +57,8 @@ Some authors have tried to define a principal ideal domain as a [[Noetherian rin
 
 ## Examples
 
+* Every [[field]] $K$ is a Bézout domain where for all elements $a \in K$ and $b \in K$, $\gamma(a, b) = a \cdot b$, $\beta_1(a, b) = 1$, and $\beta_2(a, b) = 1$
+
 * The ring of integers $\mathbb{Z}$
 
 * For any [[discrete field]] $K$, the [[polynomial ring]] $K[x]$ on one generator is a Bézout domain. 
