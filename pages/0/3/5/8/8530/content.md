@@ -31,8 +31,10 @@ See also:
 
 * Wikipedia, _[Coprime integers](https://en.wikipedia.org/wiki/Coprime_integers)_
 
-[[!redirects coprime integer]]
+[[!redirects coprime]]
+[[!redirects relatively prime]]
 
+[[!redirects coprime integer]]
 [[!redirects coprime numbers]]
 
 [[!redirects relatively prime integers]]
