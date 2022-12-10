@@ -17,6 +17,8 @@
 
 For $p \in \mathbb{R}$, $p \geq 1$, the _$p$-norm_ is a [[norm]] on suitable [[real vector spaces]] given by the $p$th [[root]] of the [[sum]] (or [[integral]]) of the $p$th-[[powers]] of the [[absolute values]] of the vector components. With due care the definition makes sense for non-[[finite dimensional vector spaces]] such as [[sequence spaces]] and [[Lebesgue spaces]], making them into [[normed vector spaces]], hence [[metric spaces]].
 
+For $p = 1$ the $p$-norm is the _Taxicab norm_ or _Manhattan norm_.
+
 For $p = 2$ the $p$-norm is the standard _Euclidean norm_, defining [[Euclidean spaces]] and [[Hilbert spaces]] of [[square integrable functions]].
 
 For $p = \infty$ the $p$-norm (found by taking the limit $p \to \infty$) is the [[supremum]] (or [[essential supremum]] in the continuous case) of the absolute values of the components of vectors, then called the _supremum norm_.
@@ -157,11 +159,16 @@ for $l^0$, and this is an $F$-norm.  (But I don\'t know what is the justificatio
 
 * German Wikipedia, _[p-Norm](https://de.wikipedia.org/wiki/P-Norm)_
 
-
 [[!redirects p-norm]]
 [[!redirects p-norms]]
 [[!redirects Lebesgue norm]]
 [[!redirects Lebesgue norms]]
+
+[[!redirects taxicab norm]]
+[[!redirects taxicab norms]]
+
+[[!redirects Manhattan norm]]
+[[!redirects Manhattan norms]]
 
 [[!redirects Euclidean norm]]
 [[!redirects Euclidean norms]]
