@@ -50,6 +50,14 @@ On the other hand, in [[Euclidean field theories]] the $n$-point functions/corre
 
 * [[Feynman amplitude]]
 
+## References
+
+Discussion in [[AdS-CFT]]:
+
+* Adam Bzowski, Paul McFadden, Kostas Skenderis, *A handbook of holographic 4-point functions* &lbrack;[arXiv:2207.02872](https://arxiv.org/abs/2207.02872)&rbrack;
+
+
+
 [[!redirects n-point functions]]
 
 [[!redirects 2-point function]]
