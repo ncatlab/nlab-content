@@ -31,11 +31,17 @@ A stable [[binary relation]] $R$ on a set $S$ is a relation such that for all el
 
 * In any [[inequality space]], [[equality]] is a stable relation. 
 
+* [[Markov's principle]] states that the [[strict order]] for the [[modulated Cauchy real numbers]]  is a stable relation. 
+
+* The [[analytic Markov's principle]] states that the [[strict order]] for the [[Dedekind real numbers]] is a stable relation. 
+
 * Given a relation $R$, the negation of the relation $\neg R$ is a stable relation. 
 
 * In the presence of the [[double negation law]], every relation is a stable relation. 
 
 ## See also
+
+* [[stable proposition]]
 
 * [[stable equality]]
 
