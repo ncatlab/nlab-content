@@ -21,7 +21,7 @@ Here, $P(n)$ is the statement that $\alpha_n = 0$, and the hypothesis $\forall{n
 
 In standard constructive mathematics (such as in the [[internal logic]] of a [[topos]]), it is possible that the only Markovian sets are the Kuratowski-[[finite sets]].  Thus, Markov\'s principle, stating that the set of natural numbers is Markovian, is nontrivial.  (It is true, of course, in a [[Boolean topos]]; that is, Markov\'s principle follows from the principle of [[excluded middle]].)
 
-[[А. А. Марков Jr]] (the one who proved undecidability theorems, and son of the great stochastician) belonged to the [[Russian constructivism|Russian school of constructivism]], which saw mathematics as about computability.  From this perspective, Markov\'s principle is justified as follows:  We are justified in concluding $\exists{n}\, \neg{P(n)}$ if we can actually compute a value of $n$ such that $\neg{P(n)}$ can be proved; since $P$ is decidable, it\'s enough to compute $n$ such that $\neg{P(n)}$ is true.  And to compute this, you just set a computer working, deciding $P(0), P(1), P(2), \ldots$, until it finds $n$.  Other constructivists find this argument unconvincing, since they\'re not convinced that the computer will ever stop, even though it\'s impossible that it continue forever.
+[[Andrey Markov Jr]] (the one who proved undecidability theorems, and son of the great stochastician) belonged to the [[Russian constructivism|Russian school of constructivism]], which saw mathematics as about computability.  From this perspective, Markov\'s principle is justified as follows:  We are justified in concluding $\exists{n}\, \neg{P(n)}$ if we can actually compute a value of $n$ such that $\neg{P(n)}$ can be proved; since $P$ is decidable, it\'s enough to compute $n$ such that $\neg{P(n)}$ is true.  And to compute this, you just set a computer working, deciding $P(0), P(1), P(2), \ldots$, until it finds $n$.  Other constructivists find this argument unconvincing, since they\'re not convinced that the computer will ever stop, even though it\'s impossible that it continue forever.
 
 Equivalent forms:
 
@@ -46,7 +46,7 @@ $$
 
 ## Analytic Markov\'s Principle
 
-Markov\'s principle is equivalent to the assertion that for every [[modulated Cantor real number]] $a$, if $a \ge 0$ and $a \neq 0$, then $a \gt 0$.  Another way to say this is that the standard [[tight apartness relation]] on modulated Cantor reals is a [[stable relation]].
+Markov\'s principle is equivalent to the assertion that for every [[modulated Cantor real number]] $a$, if $a \leq 0$ is false, then $a \gt 0$.  Another way to say this is that the standard [[tight apartness relation]] on modulated Cantor reals is a [[stable relation]].
 
 The analogous statement for [[Dedekind real numbers]] might be called the **[[analytic Markov's principle]]**, by analogy with the [analytic LPO](principle+of+omniscience#analytic).  The [[Russian constructivism|Russian constructivists]], who used Markov\'s principle most, accepted [[countable choice]], or at least $AC_{0,0}$, which implies that these two principles are equivalent.  However, in other varieties of constructive mathematics, the analytic Markov\'s principle is stronger.
 
