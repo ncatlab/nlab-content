@@ -275,11 +275,16 @@ Discussion for the [[superstring]] is in
 
 * M. Abou-Zeid, [[Chris Hull]], [[Ulf Lindström]], [[Martin Roček]], _T-Duality in $(2,1)$ Superspace_ ([arXiv:1901.00662](https://arxiv.org/abs/1901.00662))
 
-Review includes
+Review:
 
 * Amit Giveona, Massimo Porrati, Eliezer Rabinovicia, _Target space duality in string theory_, Physics Reports Volume 244, Issues 2–3, August 1994, Pages 77-202 (<a href="https://doi.org/10.1016/0370-1573(94)90070-1">doi:10.1016/0370-1573(94)90070-1</a>)
 
 * E. Alvarez, [[Luis Alvarez-Gaume]], Y. Lozano, _An Introduction to T-Duality in String Theory_, Nucl.Phys.Proc.Suppl.41:1-20,1995 ([arXiv:hep-th/9410237](https://arxiv.org/abs/hep-th/9410237))
+
+* [[Jonathan Rosenberg]], *Topology, $C^*$-algebras, and string duality*, Regional Conference Series in Mathematics **111**, Amer. Math. Soc. (2009)  &lbrack;[doi:10.1090/cbms/111](https://doi.org/10.1090/cbms/111), [ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:05632075&type=pdf&format=complete)&rbrack;
+
+  > (focus on [[topological T-duality]])
+
 
 * {#West12} [[Peter West]], section 17.1 of _[[Introduction to Strings and Branes]]_, Cambridge University Press 2012
 
