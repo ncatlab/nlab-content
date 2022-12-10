@@ -1,4 +1,8 @@
 
+> This entry is about the basic notion of "monic" in relation to [[morphisms]] in [[category theory]]. For the notion of "monic" in relation to [[polynomials]] in [[commutative algebra]], see at _[[monic polynomial]]_. 
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
