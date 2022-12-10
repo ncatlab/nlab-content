@@ -104,13 +104,18 @@ The equivalence of the [[C*-algebra|C*-algebraic]] to the Bunke-Schick version, 
 
 * Ansgar Schneider, _Die lokale Struktur von T-Dualitn&#228;tstripeln_ ([arXiv:0712.0260](https://arxiv.org/abs/0712.0260))
 
-Jonathan Rosenberg has also written a little introductory book for mathematicians:
+Introduction and review:
 
-* [[Jonathan Rosenberg]], _Topology, $C^*$-algebras, and string duality_ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:05632075&type=pdf&format=complete))
+* [[Jonathan Rosenberg]], *Topology, $C^*$-algebras, and string duality*, Regional Conference Series in Mathematics **111**, Amer. Math. Soc. (2009)  &lbrack;[doi:10.1090/cbms/111](https://doi.org/10.1090/cbms/111), [ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:05632075&type=pdf&format=complete)&rbrack;
 
 Another discussion that instead of [[noncommutative geometry]] uses [[topological groupoids]] is in 
 
 * Calder Daenzer, _A groupoid approach to noncommutative T-duality_ ([arXiv:0704.2592](http://arxiv.org/abs/0704.2592))
+
+Comments in relation to [[T-folds]]:
+
+* [[Peter Bouwknegt]], [[Ashwin S. Pande]], *Topological T-duality and T-folds*, Advances in Theoretical and Mathematical Physics **13** 5 (2009) &lbrack;[arXiv:0810.4374](https://arxiv.org/abs/0810.4374), [doi:10.4310/ATMP.2009.v13.n5.a6](https://dx.doi.org/10.4310/ATMP.2009.v13.n5.a6)&rbrack;
+
 
 The [[bi-brane]] perspective on T-duality is amplified in
 
@@ -119,7 +124,7 @@ The [[bi-brane]] perspective on T-duality is amplified in
 
 Discussion for non-free torus actions (physically: [[KK-monopoles]]) is in
 
-* {#Pande06} Ashwin S. Pande, _Topological T-duality and Kaluza-Klein Monopoles_, Adv. Theor. Math. Phys., 12, (2007), pp 185-215 ([arXiv:math-ph/0612034](https://arxiv.org/abs/math-ph/0612034))
+* {#Pande06} [[Ashwin S. Pande]], _Topological T-duality and Kaluza-Klein Monopoles_, Adv. Theor. Math. Phys. **12** (2007) 185-215 &lbrack;[arXiv:math-ph/0612034](https://arxiv.org/abs/math-ph/0612034), [doi:10.4310/ATMP.2008.v12.n1.a3](https://dx.doi.org/10.4310/ATMP.2008.v12.n1.a3)&rbrack;
 
 Discussion in [[rational homotopy theory]]/[[dg-geometry]] is in
 
