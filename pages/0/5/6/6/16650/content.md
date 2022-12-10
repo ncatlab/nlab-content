@@ -33,7 +33,7 @@ Some authors also add the requirement that $d(a) \leq d(a b)$ for all nonzero $a
 
 In constructive mathematics, there are different types of integral domains, yielding different types of Euclidean domains: the degree function, division, function, and remainder function are no longer valued in $A \setminus \{0\}$ in one variable, but in $\{x \in A \vert x \neq 0\}$, $\{x \in A \vert x \# 0\}$, or some other definition, depending on what the base [[integral domain]] ends up being (classical, Heyting, discrete, residue, et cetera). 
 
-The definition of the Euclidean ring further bifurcates in [[constructive mathematics]] due to the disjunctive condition above, which could be represented as $(r = 0) \vee (d(r) \lt d(g))$ or as the weaker [[double negation]] $\not((r \neq 0) \wedge (d(r) \geq d(g)))$ in constructive mathematics, or equivalently, as either $(f\ \%\ g = 0) \vee (d(f\ \%\ g) \lt d(g))$ or the weaker $(\not(f\ \%\ g \neq 0) \vee (d(f\ \%\ g) \geq d(g))$. 
+The definition of the Euclidean domain further bifurcates in [[constructive mathematics]] due to the disjunctive condition above, which could be represented as $(r = 0) \vee (d(r) \lt d(g))$ or as the weaker [[double negation]] $\not((r \neq 0) \wedge (d(r) \geq d(g)))$ in constructive mathematics, or equivalently, as either $(f\ \%\ g = 0) \vee (d(f\ \%\ g) \lt d(g))$ or the weaker $(\not(f\ \%\ g \neq 0) \vee (d(f\ \%\ g) \geq d(g))$. 
 
 ## Examples 
 
