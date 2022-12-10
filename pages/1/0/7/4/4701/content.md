@@ -9,6 +9,11 @@ He is an editor of the [Journal of K-theory](https://www.cambridge.org/core/jour
 
 ## Selected writings
 
+On [[T-duality]] and specifically [[topological T-duality]]:
+
+* [[Jonathan Rosenberg]], *Topology, $C^*$-algebras, and string duality*, Regional Conference Series in Mathematics **111**, Amer. Math. Soc. (2009)  &lbrack;[doi:10.1090/cbms/111](https://doi.org/10.1090/cbms/111), [ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:05632075&type=pdf&format=complete)&rbrack;
+
+
 On [[D-brane charge]] in [[orientifolds]] formulated in [[KR-theory]]:
 
 * {#DMR13} [[Charles Doran]], Stefan Mendez-Diez, [[Jonathan Rosenberg]], _T-duality For Orientifolds and Twisted KR-theory_ ([arXiv:1306.1779](http://arxiv.org/abs/1306.1779))
