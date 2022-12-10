@@ -15,7 +15,11 @@ The standard cubical $n$-cube is the [[cubical set]] represented (as a [[preshea
 
 ## As a topological space
 
-The standard topological $n$-cube is the space $[0,1]^n$, where $[0,1]$ is the [[unit interval]].  The collection of topological cubes forms a topological [[cocubical set]].
+The standard topological $n$-cube is the space $[0,1]^n$, where $[0,1]$ is the [[unit interval]]. In general, any closed $n$-cube is the [[topological product]] of [[closed intervals]]. The collection of topological cubes forms a topological [[cocubical set]]. 
+
+There are also open $n$-cubes, which contain all points of the closed $n$-cube which are [[apartness relation|apart from]] the boundary. Open $n$-cubes are the [[topological product]] of [[open intervals]]. The standard topological open $n$-cube is the space $(0,1)^n$, where $(0,1)$ is the [[open interval|open]] [[unit interval]].
+
+The open $n$-cubes are the [[balls]] in $n$-dimensional Cartesian space $\mathrm{R}^n$ with respect to the [[metric]] derived from the [[supremum norm]] $\Vert x \Vert_\infty$ on $\mathrm{R}^n$. 
 
 ## related entries
 
