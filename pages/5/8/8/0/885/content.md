@@ -23,7 +23,9 @@ The set of natural numbers is often written $N$, $\mathbf{N}$, $\mathbb{N}$, $\o
 
 By default, our natural numbers always include $0$. 
 
-## Operations
+## Operations and relations
+
+We define the standard [[arithmetic]] and [[metric]] operations and [[order]] relations of the [[natural numbers]] in [[dependent type theory]] using [[induction]] on the natural numbers. 
 
 ### Addition
 
@@ -31,13 +33,41 @@ Addition is inductively defined by double induction on the natural numbers
 
 $$m:\mathbb{N}, n:\mathbb{N} \vdash m + n:\mathbb{N}$$
 
-$$\vdash \beta_+^{0, 0}(n):0 + 0 =_\mathbb{N} 0$$
+$$\vdash \beta_+^{0, 0}:0 + 0 =_\mathbb{N} 0$$
 
 $$n:\mathbb{N} \vdash \beta_+^{0, s}(n):0 + s(n) =_\mathbb{N} s(n)$$
 
 $$n:\mathbb{N} \vdash \beta_+^{s, 0}(n):s(n) + 0 =_\mathbb{N} s(n)$$
 
-$$m:\mathbb{N}, n:\mathbb{N} \vdash \beta_+^{s, s}(n):s(m) + s(n) =_\mathbb{N} s(s(m + n))$$
+$$m:\mathbb{N}, n:\mathbb{N} \vdash \beta_+^{s, s}(m, n):s(m) + s(n) =_\mathbb{N} s(s(m + n))$$
+
+### Minimum function
+
+The minimum function is inductively defined by double induction on the natural numbers
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash \min(m, n):\mathbb{N}$$
+
+$$\vdash \beta_\min^{0, 0}:\min(0, 0) =_\mathbb{N} 0$$
+
+$$n:\mathbb{N} \vdash \beta_\min^{0, s}(n):\min(0, s(n)) =_\mathbb{N} 0$$
+
+$$n:\mathbb{N} \vdash \beta_\min^{s, 0}(n):\min(s(n), 0) =_\mathbb{N} 0$$
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash \beta_\min^{s, s}(m, n):\min(s(m), s(n)) =_\mathbb{N} s(\min(m, n))$$
+
+### Maximum function
+
+The maximum function is inductively defined by double induction on the natural numbers
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash \max(m, n):\mathbb{N}$$
+
+$$\vdash \beta_\max^{0, 0}:\max(0, 0) =_\mathbb{N} 0$$
+
+$$n:\mathbb{N} \vdash \beta_\max^{0, s}(n):\max(0, s(n)) =_\mathbb{N} s(n)$$
+
+$$n:\mathbb{N} \vdash \beta_\max^{s, 0}(n):\max(s(n), 0) =_\mathbb{N} s(n)$$
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash \beta_\max^{s, s}(m, n):\max(s(m), s(n)) =_\mathbb{N} s(\max(m, n))$$
 
 ### Distance function
 
@@ -45,27 +75,125 @@ The distance function is inductively defined by double induction on the natural 
 
 $$m:\mathbb{N}, n:\mathbb{N} \vdash \rho(m, n):\mathbb{N}$$
 
-$$\vdash \beta_\rho^{0, 0}(n):\rho(0, 0) =_\mathbb{N} 0$$
+$$\vdash \beta_\rho^{0, 0}:\rho(0, 0) =_\mathbb{N} 0$$
 
 $$n:\mathbb{N} \vdash \beta_\rho^{0, s}(n):\rho(0, s(n)) =_\mathbb{N} s(n)$$
 
 $$n:\mathbb{N} \vdash \beta_\rho^{s, 0}(n):\rho(s(n), 0) =_\mathbb{N} s(n)$$
 
-$$m:\mathbb{N}, n:\mathbb{N} \vdash \beta_\rho^{s, s}(n):\rho(s(n), s(n)) =_\mathbb{N} \rho(n, n)$$
+$$m:\mathbb{N}, n:\mathbb{N} \vdash \beta_\rho^{s, s}(m, n):\rho(s(n), s(n)) =_\mathbb{N} \rho(n, n)$$
+
+### Absolute value
+
+The absolute value is defined as the distance of a natural number from zero. 
+
+$$n:\mathbb{N} \vdash \vert n \vert:\mathbb{N}$$
+
+$$n:\mathbb{N} \vdash \delta_{\vert-\vert}(n):\vert n \vert =_\mathbb{N} \rho(n, 0)$$
+
+### Less than relation
+
+The less than relation is inductively defined by double induction on the natural numbers
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash m \lt n \; \mathrm{type}$$
+
+$$\vdash \beta_\lt^{0, 0}:0 \lt 0 \simeq \mathbb{0}$$
+
+$$n:\mathbb{N} \vdash \beta_\lt^{0, s}(n):0 \lt s(n) \simeq \mathbb{1}$$
+
+$$n:\mathbb{N} \vdash \beta_\lt^{s, 0}(n):s(n) \lt 0 \simeq \mathbb{0}$$
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash \beta_\lt^{s, s}(n):s(m) \lt s(n) \simeq m \lt n$$
+
+### Less than or equal to relation
+
+The less than or equal to relation is inductively defined by double induction on the natural numbers
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash m \leq n \; \mathrm{type}$$
+
+$$\vdash \beta_\leq^{0, 0}:0 \leq 0 \simeq \mathbb{1}$$
+
+$$n:\mathbb{N} \vdash \beta_\leq^{0, s}(n):0 \leq s(n) \simeq \mathbb{1}$$
+
+$$n:\mathbb{N} \vdash \beta_\leq^{s, 0}(n):s(n) \leq 0 \simeq \mathbb{0}$$
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash \beta_\leq^{s, s}(n):s(m) \leq s(n) \simeq m \leq n$$
+
+### Apart from relation
+
+The apart from relation is inductively defined by double induction on the natural numbers
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash m \# n \; \mathrm{type}$$
+
+$$\vdash \beta_\#^{0, 0}:0 \# 0 \simeq \mathbb{0}$$
+
+$$n:\mathbb{N} \vdash \beta_\#^{0, s}(n):0 \# s(n) \simeq \mathbb{1}$$
+
+$$n:\mathbb{N} \vdash \beta_\#^{s, 0}(n):s(n) \# 0 \simeq \mathbb{1}$$
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash \beta_\#^{s, s}(n):s(m) \# s(n) \simeq m \# n$$
+
+### Observational equality relation
+
+The observational equality relation is inductively defined by double induction on the natural numbers
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash m \doteq n \; \mathrm{type}$$
+
+$$\vdash \beta_\doteq^{0, 0}:0 \doteq 0 \simeq \mathbb{1}$$
+
+$$n:\mathbb{N} \vdash \beta_\doteq^{0, s}(n):0 \doteq s(n) \simeq \mathbb{0}$$
+
+$$n:\mathbb{N} \vdash \beta_\doteq^{s, 0}(n):s(n) \doteq 0 \simeq \mathbb{0}$$
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash \beta_\doteq^{s, s}(n):s(m) \doteq s(n) \simeq m \doteq n$$
+
+### Greater than relation
+
+The greater than relation is inductively defined by double induction on the natural numbers
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash m \gt n \; \mathrm{type}$$
+
+$$\vdash \beta_\gt^{0, 0}:0 \gt 0 \simeq \mathbb{0}$$
+
+$$n:\mathbb{N} \vdash \beta_\gt^{0, s}(n):0 \gt s(n) \simeq \mathbb{0}$$
+
+$$n:\mathbb{N} \vdash \beta_\gt^{s, 0}(n):s(n) \gt 0 \simeq \mathbb{1}$$
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash \beta_\gt^{s, s}(n):s(m) \gt s(n) \simeq m \gt n$$
+
+### Greater than or equal to relation
+
+The greater than or equal to relation is inductively defined by double induction on the natural numbers
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash m \geq n \; \mathrm{type}$$
+
+$$\vdash \beta_\geq^{0, 0}:0 \geq 0 \simeq \mathbb{1}$$
+
+$$n:\mathbb{N} \vdash \beta_\geq^{0, s}(n):0 \geq s(n) \simeq \mathbb{0}$$
+
+$$n:\mathbb{N} \vdash \beta_\geq^{s, 0}(n):s(n) \geq 0 \simeq \mathbb{1}$$
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash \beta_\geq^{s, s}(n):s(m) \geq s(n) \simeq m \geq n$$
 
 ### Multiplication
 
-Multiplication is inductively defined by double induction on the natural numbers
+Multiplication is inductively defined by induction on the natural numbers
 
 $$m:\mathbb{N}, n:\mathbb{N} \vdash m + n:\mathbb{N}$$
 
-$$\vdash \beta_\cdot^{0, 0}(n):0 \cdot 0 =_\mathbb{N} 0$$
+$$n:\mathbb{N} \vdash \beta_\cdot^{0}(n):0 \cdot n =_\mathbb{N} 0$$
 
-$$n:\mathbb{N} \vdash \beta_\cdot^{0, s}(n):0 \cdot s(n) =_\mathbb{N} 0$$
+$$m:\mathbb{N}, n:\mathbb{N} \vdash \beta_\cdot^{s}(m, n):s(m) \cdot n =_\mathbb{N} m \cdot n + n$$
 
-$$n:\mathbb{N} \vdash \beta_\cdot^{s, 0}(n):s(n) \cdot 0 =_\mathbb{N} 0$$
+### Exponentiation
 
-$$m:\mathbb{N}, n:\mathbb{N} \vdash \beta_\cdot^{s, s}(n):s(m) \cdot s(n) =_\mathbb{N} m \cdot n + m + n + s(0)$$
+Exponentiation is inductively defined by induction on the natural numbers
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash n^m:\mathbb{N}$$
+
+$$n:\mathbb{N} \vdash \beta_\cdot^{0}(n):n^0 =_\mathbb{N} 1$$
+
+$$m:\mathbb{N}, n:\mathbb{N} \vdash \beta_{(-)^{(-)}}^{s}(m, n):n^{s(m)} =_\mathbb{N} n^m \cdot n$$
 
 ### Division and remainder
 
