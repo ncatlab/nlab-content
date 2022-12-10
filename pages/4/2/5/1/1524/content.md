@@ -27,7 +27,7 @@ Equivalent forms:
 
 *  If a [[Turing machine]] does not run forever, then it halts.
 *  If an [[extended natural number system|extended natural number]] is not infinite, then it is finite.
-*  If a [[Cauchy real number]] does not equal zero, then it is [[apartness relation|apart]] from zero in that it has a multiplicative inverse.
+*  If a [[modulated Cantor real number]] does not equal zero, then it is [[apartness relation|apart]] from zero in that it has a multiplicative inverse.
 
 Note that the contrapositives of these are all valid regardless of Markov\'s principle.
 
@@ -46,9 +46,9 @@ $$
 
 ## Analytic Markov\'s Principle
 
-Markov\'s principle is equivalent to the assertion that if a [[Cauchy real number]] is $\ge 0$ and $\neq 0$, then it is $\gt 0$.  Another way to say this is that the standard [[apartness]] relation on Cauchy reals coincides with [[inequality]].
+Markov\'s principle is equivalent to the assertion that for every [[modulated Cantor real number]] $a$, if $a \ge 0$ and $a \neq 0$, then $a \gt 0$.  Another way to say this is that the standard [[tight apartness relation]] on modulated Cantor reals is a [[stable relation]].
 
-The analogous statement for [[Dedekind real numbers]] might be called the **analytic Markov\'s principle**, by analogy with the [analytic LPO](principle+of+omniscience#analytic).  The [[Russian constructivism|Russian constructivists]], who used Markov\'s principle most, accepted [[countable choice]], or at least $AC_{0,0}$, which implies that these two principles are equivalent.  However, in other varieties of constructive mathematics, the analytic Markov\'s principle is stronger.
+The analogous statement for [[Dedekind real numbers]] might be called the **[[analytic Markov's principle]]**, by analogy with the [analytic LPO](principle+of+omniscience#analytic).  The [[Russian constructivism|Russian constructivists]], who used Markov\'s principle most, accepted [[countable choice]], or at least $AC_{0,0}$, which implies that these two principles are equivalent.  However, in other varieties of constructive mathematics, the analytic Markov\'s principle is stronger.
 
 
 ## References
