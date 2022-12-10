@@ -135,6 +135,9 @@ with a streamlined account in
 
 * [[Zhen Huan]], *Quasi-theories and their equivariant orthogonal spectra* &lbrack;[arXiv:1809.07622](https://arxiv.org/abs/1809.07622)&rbrack;
 
+Review:
+
+* [[Zhen Huan]], *Quasi-elliptic cohomology theory and the twisted, twisted Real theories*, talk at Perimeter Institute (2020) &lbrack;video: [doi:10.48660/20050059](https://doi.org/10.48660/20050059)&rbrack;
 
 For [[simply-connected topological space|simply-connected]] [[compact Lie groups]]:
 
