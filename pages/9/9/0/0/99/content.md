@@ -1,6 +1,6 @@
 
 
-> There are two different concepts called _Weil algebra_. This entry is about the notion of Weil algebra in [[Lie theory]]. For the notion in [[infinitesimal object|infinitesimal]] geometry see [[infinitesimally thickened point]]/[[Artin algebra]].
+> There are two different concepts called _Weil algebra_. This entry is about the notion of Weil algebra in [[Lie theory]]. For the notion in [[infinitesimal object|infinitesimal]] geometry see [[infinitesimally thickened point]]/[[local Artin algebra]].
 
 ***
 
