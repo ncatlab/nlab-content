@@ -75,6 +75,10 @@ Discussion for [[nonabelian T-duality]]:
 
 * Ladislav Hlavatý, Ivo Petr, _T-folds as Poisson-Lie plurals_ ([arXiv:2004.08387](https://arxiv.org/abs/2004.08387))
 
+Comments in relation to [[topological T-duality]]:
+
+* [[Peter Bouwknegt]], [[Ashwin S. Pande]], *Topological T-duality and T-folds*, Advances in Theoretical and Mathematical Physics **13** 5 (2009) &lbrack;[arXiv:0810.4374](https://arxiv.org/abs/0810.4374), [doi:10.4310/ATMP.2009.v13.n5.a6](https://dx.doi.org/10.4310/ATMP.2009.v13.n5.a6)&rbrack;
+
 
 ### Via higher geometry
  {#ReferencesViaHigherGeometry}
