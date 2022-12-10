@@ -170,3 +170,5 @@ In [[constructive mathematics]], where [[excluded middle]] does not hold, the ab
 
 * [[polynomial]]
 * [[degree]]
+
+[[!redirects polynomial degree]]
