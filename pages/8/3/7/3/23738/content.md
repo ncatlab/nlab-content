@@ -27,6 +27,14 @@ A [[GCD ring]] $R$ is a **GCD domain** if $R$ is also an [[integral domain]].
 
 Every [[GCD domain]] of dimension at most 1 is a Bézout domain. 
 
+## Examples
+
+* The ring of integers $\mathbb{Z}$
+
+* For any [[GCD domain]] $R$, the [[polynomial ring]] $R[x]$ on one generator 
+
+* The ring of [[entire function|entire]] [[holomorphic functions]] on the [[complex plane]]
+
 ## See also ##
 
 * [[GCD ring]]
