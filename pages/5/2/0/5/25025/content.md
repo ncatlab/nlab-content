@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
 #### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
@@ -9,19 +13,21 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
 
 ## Idea
 
-In this article we axiomatize the algebraic, order theoretic, and metric properties which are common to the basic numbers found in mathematics, the [[natural numbers]], [[integers]], [[rational numbers]], and [[Dedekind real numbers]], and which remain valid in constructive and predicative mathematics. 
+In this article we [[axioms|axiomatize]] the [[algebra|algebraic]], [[order theory|order theoretic]], and [[metric space|metric]] properties which are common to the basic [[types]] of [[numbers]] found in [[mathematics]]: the [[natural numbers]], [[integers]], [[rational numbers]], and [[Dedekind real numbers]], and which remain valid in [[constructive mathematics|constructive]] and [[predicative mathematics]]. 
 
 ## Definition
 
 A **number line rig** $S$ is 
 
-* A [[commutative rig]] $(S, 0, 1, +, \cdot)$. It follows that there is a [[rig homomorphism]] $h:\mathbb{N} \to S$, since the natural numbers are the initial commutative rig. 
+* A [[commutative rig]] $(S, 0, 1, +, \cdot)$. It follows that there is a [[rig homomorphism]] $h:\mathbb{N} \to S$, since the natural numbers are the [[initial object|initial]] [[commutative rig]]
+ 
 * with a [[linear order]] $(S, \lt)$ such that
   * $0 \lt 1$
   * $0 \lt a$ and $0 \lt b$ imply that $0 \lt a + b$
@@ -35,11 +41,11 @@ A **number line rig** $S$ is
   * $\rho(a, b) = \rho(b, a)$
   * $\rho(a, b) \leq \rho(a, c) + \rho(c, b)$
 * such that addition is a [[cancellative monoid]], and the [[multiplicative subset of cancellative elements]] is the set of elements apart from zero
-* and $S$ satisfies the [[Archimedean property]]: for every positive element $0 \lt a$, there is a positive natural number $n$ such that $a \lt h(n)$, and there is a positive natural number $m$ such that $1 \lt h(m) \cdot a$. 
+* and $S$ satisfies the [[Archimedean property]]: for every [[positive number|positive]] element $0 \lt a$, there is a positive natural number $n$ such that $a \lt h(n)$, and there is a positive natural number $m$ such that $1 \lt h(m) \cdot a$. 
 
 ## Group completion, rig of fractions, and completions
 
-Given any number line rig, one could construct the [[group completion]], which results in a [[Archimedean integral domain]]. One could also localize at the subset of regular elements, which results in a rig of fractions. Doing both results in an [[Archimedean field]]. One could also complete the resulting field by [[Dedekind cuts]], resulting in the [[Dedekind real numbers]], or complete it by [[Cauchy sequences]], resulting in a [[sequentially Cauchy complete]] [[Archimedean field]] such as the [[HoTT book real numbers]]. 
+Given any number line rig, one could construct the [[group completion]], which results in a [[Archimedean integral domain]]. One could also [[localization of a ring|localize]] at the subset of [[regular elements]], which results in a rig of fractions. Doing both results in an [[Archimedean field]]. One could also complete the resulting field by [[Dedekind cuts]], resulting in the [[Dedekind real numbers]], or complete it by [[Cauchy sequences]], resulting in a [[sequentially Cauchy complete]] [[Archimedean field]] such as the [[HoTT book real numbers]]. 
 
 ## See also
 
