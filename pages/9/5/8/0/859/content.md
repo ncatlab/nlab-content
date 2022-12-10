@@ -58,9 +58,9 @@ Consider the [[category]] $GrpActions$ with
 
 * [[objects]] $(G,\Gamma,\rho)$ where $G$ and $\Gamma$ are [[groups]] and $\rho: G \to \Aut(\Gamma)$ is a [[group homomorphisms]], and whose
 
-* [[morphisms]] $(G,\Gamma,\rho) \to (G',\Gamma',\rho')$ are $G$-[[equivariant]] pairs of morphisms $f: G \to G'$ and $h: \Gamma \to \Gamma'$, i.e. such that $h(\rho(g)(\gamma)) = \rho(f(g))(h(\gamma))$ for all $g \in G$ and $\gamma \in \Gamma$.
+* [[morphisms]] $(G,\Gamma,\rho) \to (G',\Gamma',\rho')$ are $G$-[[equivariant]] pairs of morphisms $f: G \to G'$ and $h: \Gamma \to \Gamma'$, i.e. such that $h(\rho(g)(\gamma)) = \rho'(f(g))(h(\gamma))$ for all $g \in G$ and $\gamma \in \Gamma$.
 
-There is a [[forgetful functor]] $U: Arr(Grp) \to GrpActions$ from the [[arrow category]] of [[Grp]], sending a [[group homomorphism]] $f\colon G \to \Gamma$ to $(G,\Gamma,\rho)$ where $\rho: G \to Aut(\Gamma)$ is given by conjugation, i.e. $\rho(g)(\gamma) = g \gamma g^{-1}$.
+There is a [[forgetful functor]] $U: Arr(Grp) \to GrpActions$ from the [[arrow category]] of [[Grp]], sending a [[group homomorphism]] $f\colon G \to \Gamma$ to $(G,\Gamma,\rho)$ where $\rho: G \to Aut(\Gamma)$ is given by conjugation, i.e. $\rho(g)(\gamma) \coloneqq f(g) \gamma f(g)^{-1}$.
 
 Now, its [[left adjoint functor]] $GrpActions \to Arr(Grp)$ maps $(G,\Gamma,\rho)$ to the [[inclusion]] $G \hookrightarrow \Gamma \rtimes_\rho G$.
 
