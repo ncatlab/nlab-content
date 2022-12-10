@@ -33,15 +33,29 @@ Some authors also add the requirement that $d(a) \leq d(a b)$ for all nonzero $a
 
 In constructive mathematics, there are different types of integral domains, yielding different types of Euclidean domains: the degree function, division, function, and remainder function are no longer valued in $A \setminus \{0\}$ in one variable, but in $\{x \in A \vert x \neq 0\}$, $\{x \in A \vert x \# 0\}$, or some other definition, depending on what the base [[integral domain]] ends up being (classical, Heyting, discrete, residue, et cetera). 
 
-The definition of the Euclidean domain further bifurcates in [[constructive mathematics]] due to the disjunctive condition above, which could be represented as $(r = 0) \vee (d(r) \lt d(g))$ or as the weaker [[double negation]] $\not((r \neq 0) \wedge (d(r) \geq d(g)))$ in constructive mathematics, or equivalently, as either $(f\ \%\ g = 0) \vee (d(f\ \%\ g) \lt d(g))$ or the weaker $(\not(f\ \%\ g \neq 0) \vee (d(f\ \%\ g) \geq d(g))$. 
+The definition of the Euclidean domain further bifurcates in [[constructive mathematics]] due to the disjunctive condition above. These statements, which are equivalent in the presence of [[excluded middle]], include: 
+
+* $(r = 0) \vee (d(r) \lt d(g))$
+* $\not((r \neq 0) \wedge (d(r) \geq d(g)))$ 
+* $(d(r) \geq d(g)) \to (r = 0)$
+
+or equivalently, 
+
+* $(f\ \%\ g = 0) \vee (d(f\ \%\ g) \lt d(g))$ 
+* $\not((f\ \%\ g \neq 0) \wedge (d(f\ \%\ g) \geq d(g))$ 
+* $(d(f\ \%\ g) \geq d(g)) \to (f\ \%\ g = 0)$ 
 
 ## Examples 
 
 * The (rational) [[integers]] $\mathbb{Z}$. 
 
-* The ring of [[polynomials]] $k[x]$ over a field $k$, using the ordinary polynomial degree. 
-
 * Any field (trivially). 
+
+* The ring of [[polynomials]] $k[x]$ over a [[discrete field]] $k$, using the ordinary [[polynomial degree]]. 
+
+* On the other hand, if $k$ is a [[Heyting field]] which is not a discrete field, not every polynomial in $k[x]$ apart from zero can be proven to have a well-defined degree, and so is not an [[Euclidean domain]]. 
+
+* The real polynomial ring $\mathbb{R}[x]$ is only an Euclidean domain in the presence of the [[limited principle of omniscience]], since only in that case does it have [[decidable equality]]. 
 
 * Any [[valuation ring|discrete valuation ring]]: letting $\pi$ be a generator of the maximal ideal, put $d(x) = n$ where $x = u \pi^n$, with $u$ a unit. 
 
