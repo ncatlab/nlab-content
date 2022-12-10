@@ -55,7 +55,7 @@ or equivalently,
 
 * On the other hand, if $k$ is a [[Heyting field]] which is not a discrete field, not every polynomial in $k[x]$ apart from zero can be proven to have a well-defined degree, and so is not an [[Euclidean domain]]. 
 
-* The real polynomial ring $\mathbb{R}[x]$ is only an Euclidean domain in the presence of the [[limited principle of omniscience]], since only in that case does it have [[decidable equality]]. 
+* The real polynomial ring $\mathbb{R}[x]$ is only an Euclidean domain in the presence of the [[analytic limited principle of omniscience]], which states that it has decidable apartness. 
 
 * Any [[valuation ring|discrete valuation ring]]: letting $\pi$ be a generator of the maximal ideal, put $d(x) = n$ where $x = u \pi^n$, with $u$ a unit. 
 
