@@ -53,11 +53,11 @@ Bishop introduced the above principles of omniscience to show that certain resul
 *  The __analytic LPO__ states that the usual [[apartness relation]] on the set $\mathbb{R}$ of [[real numbers]] is [[decidable relation|decidable]] ($x \neq y$ or $x = y$), or equivalently __[[trichotomy]]__ for the real numbers ($x \lt y$ or $x = y$ or $x \gt y$).
 *  The __analytic LLPO__ states that the usual order on $\mathbb{R}$ is a [[total order]] ($x \leq y$ or $x \geq y$), which (by analogy with trichotomy) may be called __dichotomy__ for the real numbers.
 
-The analytic (L)LPO implies the (L)LPO for natural numbers; the converses hold if we assume [[weak countable choice]] (as Bishop did).  In any case, if we use the [[Cauchy real numbers]] (sequential real numbers), then the sequential-analytic (L)LPO is the same as the (L)LPO for natural numbers.
+The analytic (L)LPO implies the (L)LPO for natural numbers; the converses hold if we assume [[weak countable choice]] (as Bishop did).  In any case, if we use the [[modulated Cantor real numbers]] (sequential real numbers), then the sequential-analytic (L)LPO is the same as the (L)LPO for natural numbers.
 
 (Note that we need not accept $WCC$ to see that an analytic result implies the (L)LPO and so cannot be constructively valid.)
 
-That the real numbers have [[decidable equality]] is weaker than the analytic LPO (and decidable equality for the Cauchy reals in weaker than $LPO_{\mathbf{N}}$), unless we also assume [[Markov's principle]] (over $\mathbf{N}$ for the Cauchy reals, an analytic version for the Dedekind reals).
+That the real numbers have [[decidable equality]] is weaker than the analytic LPO (and decidable equality for the modulated Cantor reals in weaker than $LPO_{\mathbf{N}}$), unless we also assume [[Markov's principle]] (over $\mathbf{N}$ for the modulated Cantor reals, an analytic version for the Dedekind reals).
 
 ## Truncated and untrumcated versions in homotopy type theory
 
@@ -75,16 +75,16 @@ In the context of [[homotopy type theory]], the various principles of omniscienc
 
 There are various other results that are equivalent to or related to the principles of omniscience.  Here are a few:
 
-* Every Cauchy real number has a [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) iff $LLPO_{\mathbf{N}}$ holds; every Dedekind real number has a radix expansion iff the analytic $LLPO$ holds.  At least in the presence of [[countable choice]] (which also implies that Cauchy and Dedekind reals agree), this is equivalent to the claim that the rings of radix expansions in any two bases are isomorphic.  See Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri).
+* Every modulated Cantor real number has a [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) iff $LLPO_{\mathbf{N}}$ holds; every Dedekind real number has a radix expansion iff the analytic $LLPO$ holds.  At least in the presence of [[countable choice]] (which also implies that modulated Cantor reals and Dedekind reals agree), this is equivalent to the claim that the rings of radix expansions in any two bases are isomorphic. See Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri).
 
-* Let $[0,1]/(0 \sim 1)$ be the [[quotient space|quotient]] of the unit [[interval]] that identifies the endpoints, and let $\mathbb{R}/\mathbb{Z}$ be the [[quotient ring]]; both are classically isomorphic to the [[circle]] $S^1$.  (Constructively, we take $S^1$ to be $\mathbb{R}/\mathbb{Z}$, although $S^1$ can also be constructed as a [[uniform completion|completion]] of $[0,1]/(0 \sim 1)$.)  Constructively, there is an [[injection]] $[0,1]/(0 \sim 1) \hookrightarrow \mathbb{R}/\mathbb{Z}$, which is a [[bijection]] if and only if the $LLPO$ holds (for the appropriate kind of real number).
+* Let $[0,1]/(0 \sim 1)$ be the [[quotient space|quotient]] of the unit [[interval]] that identifies the endpoints, and let $\mathbb{R}/\mathbb{Z}$ be the [[quotient ring]]; both are classically isomorphic to the [[circle]] $\mathbb{S}^1$. (Constructively, we take $\mathbb{S}^1$ to be $\mathbb{R}/\mathbb{Z}$, although $S^1$ can also be constructed as a [[uniform completion|completion]] of $[0,1]/(0 \sim 1)$.)  Constructively, there is an [[injection]] $[0,1]/(0 \sim 1) \hookrightarrow \mathbb{R}/\mathbb{Z}$, which is a [[bijection]] if and only if the $LLPO$ holds (for the appropriate kind of real number).
 
 
 ## Models
 
 * Assuming that [[Set]] is a [[Boolean topos]], then $LPO_{\mathbb{N}}$ (the LPO for natural numbers) holds in any [[presheaf topos]] over $Set$ and indeed in any [[locally connected topos]] over $Set$, essentially since then $2^N$ is a constant object.
 
-* The LPO for natural numbers fails in Johnstone's [[topological topos]], due to its internal continuity principle.  Hence, the analytic LPO also fails, since the Cauchy and Dedekind reals coincide in this topos.  However, the (analytic) LLPO holds, as a consequence of the preservation of finite closed unions by the inclusion of sequential spaces.
+* The LPO for natural numbers fails in Johnstone's [[topological topos]], due to its internal continuity principle.  Hence, the analytic LPO also fails, since the modulated Cantor reals and Dedekind reals coincide in this topos.  However, the (analytic) LLPO holds, as a consequence of the preservation of finite closed unions by the inclusion of sequential spaces.
 
 ## References
 
@@ -106,11 +106,17 @@ There are various other results that are equivalent to or related to the princip
 [[!redirects omniscience principles]]
 
 [[!redirects LPO]]
-[[!redirects Limited Principle of Omniscience]]
 [[!redirects limited principle of omniscience]]
 [[!redirects limited principles of omniscience]]
 
 [[!redirects LLPO]]
-[[!redirects Lesser Limited Principle of Omniscience]]
 [[!redirects lesser limited principle of omniscience]]
 [[!redirects lesser limited principles of omniscience]]
+
+[[!redirects analytic LPO]]
+[[!redirects analytic limited principle of omniscience]]
+[[!redirects analytic limited principles of omniscience]]
+
+[[!redirects analytic LLPO]]
+[[!redirects analytic lesser limited principle of omniscience]]
+[[!redirects analytic lesser limited principles of omniscience]]
