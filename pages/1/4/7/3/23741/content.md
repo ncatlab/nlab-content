@@ -32,7 +32,17 @@ One could also add the requirement that $d(a) \leq d(a b)$ for all nonzero $a, b
 
 ### In constructive mathematics ###
 
-The definition of the Euclidean ring bifurcates in [[constructive mathematics]] due to the disjunctive condition, which could be represented as $(r = 0) \vee (d(r) \lt d(g))$ or as the weaker [[double negation]] $\not((r \neq 0) \wedge (d(r) \geq d(g)))$ in constructive mathematics, or equivalently, as either $(f\ \%\ g = 0) \vee (d(f\ \%\ g) \lt d(g))$ or the weaker $(\not(f\ \%\ g \neq 0) \vee (d(f\ \%\ g) \geq d(g))$. 
+The definition of the Euclidean ring further bifurcates in [[constructive mathematics]] due to the disjunctive condition above. These statements, which are equivalent in the presence of [[excluded middle]], include: 
+
+* $(r = 0) \vee (d(r) \lt d(g))$
+* $\not((r \neq 0) \wedge (d(r) \geq d(g)))$ 
+* $(d(r) \geq d(g)) \to (r = 0)$
+
+or equivalently, 
+
+* $(f\ \%\ g = 0) \vee (d(f\ \%\ g) \lt d(g))$ 
+* $\not((f\ \%\ g \neq 0) \wedge (d(f\ \%\ g) \geq d(g))$ 
+* $(d(f\ \%\ g) \geq d(g)) \to (f\ \%\ g = 0)$ 
 
 ## Properties ##
 
