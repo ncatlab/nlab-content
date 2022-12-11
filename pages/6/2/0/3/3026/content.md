@@ -356,7 +356,14 @@ The argument is spelled out in: [MO:a/1645794](https://math.stackexchange.com/a/
 
 ## Examples
 
-### Eculidean spaces compactify to Spheres
+### One-point compactification of a discrete countable space
+
+For a simple example, consider the natural numbers $\mathbb{N}$ regarded as a [[discrete space]]. This is not compact. The one-point compactification is the space 
+$\mathbb{N}\cup\{\infty\}$ where the open sets are the sets that either do not contain $\infty$, or which contain $\infty$ and are [[cofinite subsets]]. 
+
+This space is actually a [[Stone space]], and corresponds via [[Stone duality]] to the [[Boolean algebra]] of the finite and cofinite subsets of $\mathbb{N}$, with the usual Boolean algebra operations of union and set-complement. To see this, notice that the [[clopen sets]] in the space are the sets that are either finite and not containing $\infty$, or cofinite and containing $\infty$. So a clopen set is determined by giving either a finite or a cofinite subset of $\mathbb{N}$, and then adding $\infty$ if it is cofinite. Under this correspondence, the Boolean algebra operations on finite and cofinite subsets of $\mathbb{N}$ correspond to the Boolean algebra operations on the clopen sets.
+
+### Euclidean spaces compactify to Spheres
  {#ExamplesSpheres}
 
 We discuss how the [[one-point compactification]] of [[Euclidean space]] of [[dimension]] $n$ is the [[n-sphere]].
