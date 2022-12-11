@@ -38,7 +38,6 @@ $$
 where $A$ is defined as an [[inductive type]] and $B$ is defined by [[recursion]] on $A$. Crucially, the definition of $A$ may use $B$. Without this last requirement, we could first define $A$ and then separately $B$.
 
 ##Example 
-(from [ForsSetz](#ForsSetz))
 
 The universe a la Tarski is an example of an inductive-recursive definition,
 where a set $U$ is defined inductively together with a recursive function $T: U \to
@@ -65,6 +64,8 @@ define $T$ inductively as well. This is the principle of [[induction-induction]]
 
 * [[Peter Dybjer]] (2000), _A General Formulation of Simultaneous Inductive-Recursive Definitions in Type Theory_ ([pdf](http://www.cse.chalmers.se/~peterd/papers/Inductive_Recursive.pdf))
 
-* {#ForsSetz} [[Fredrik Nordvall Forsberg]] and [[Anton Setzer]], _A finite axiomatisation of inductive-inductive definitions_, ([pdf](https://personal.cis.strath.ac.uk/fredrik.nordvall-forsberg/papers/indind_finite.pdf))
+* [[Peter Dybjer]] and [[Anton Setzer]], _A Finite Axiomatization of Inductive-Recursive Definitions_, [springer](https://link.springer.com/chapter/10.1007/3-540-48959-2_11)
+
+* [papers by Peter Dybjer about induction and induction-recursion](http://www.cse.chalmers.se/~peterd/papers/inductive.html)
 
 [[!redirects induction-recursion]]
