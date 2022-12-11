@@ -158,7 +158,7 @@ $$
 ## Examples of lifting properties
  {#ExamplesOfLiftingProperties}
 
-Decyphering notation in most of the examples below leads to standard definitions or reformulations. The intution behind most examples below 
+Decyphering notation in most of the examples below leads to standard definitions or reformulations. The intuition behind most examples below 
 is that the class of morphisms consists of simple or archetypal examples
 related to the property defined. 
 
@@ -308,7 +308,9 @@ In the category of [[uniform  spaces]] or [[metric spaces]] with [[uniformly con
 
 #### In topological spaces 
 
-The following lifting properties are calculated in the category of (all) topological spaces. 
+The following lifting properties are calculated in the category of (all) topological spaces. Below
+we use notation defined in 
+[[separation axioms in terms of lifting properties#NotationForFiniteTopologicalSpaces|the page on lifting properties]]
 
 #### Iterated lifting properties
 
