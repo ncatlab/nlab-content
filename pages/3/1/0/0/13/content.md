@@ -1,7 +1,7 @@
 
 # Toby Bartels
 
-I am [Toby Bartels](http://tobybartels.name/).
+I am [Toby Bartels](http://tobybartels.name/) (they/them).
 
 My main interests here are the [[foundations]] of mathematics, including [[constructive mathematics]] and how to formalise [[higher category theory]] [[internalization|internally]].  I have a liking for [[centipede mathematics]], which I sometimes take too far, but usually it has applications somewhere.  I also have an aptitude for [[negative thinking]]; my favourite mathematical object is the [[empty set]].  Along these lines, I advocate learning [[order theory]] before [[category theory]], just as one learns category theory before [[higher category theory]]; see [[category theory vs order theory]].
 
