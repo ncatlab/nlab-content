@@ -10,6 +10,10 @@
 =--
 =--
 
+## Definition
+
+A galaxy is a collection of stars, compact stars, interstellar gas and dust which are bound together by [[gravity]]. 
+
 ## Properties
 
 * [[galaxy rotation curve]]
@@ -78,7 +82,11 @@ Simulation specifically of Milky Way-like galaxies:
 
 * [VINTERGATAN simulation](http://www.astro.lu.se/~florent/vintergatan.php)
 
+On high redshift galaxies discovered at the [[James Webb Space Telescope]]:
 
+* Michael Boylan-Kolchin, *Stress Testing ΛCDM with High-redshift Galaxy Candidates*, ([arXiv:2208.01611](https://arxiv.org/abs/2208.01611))
+
+* B. E. Robertson et al. *Discovery and properties of the earliest galaxies with confirmed distances*. ([arXiv:2212.0448](https://arxiv.org/abs/2212.04480))
 
 [[!redirects galaxies]]
 
