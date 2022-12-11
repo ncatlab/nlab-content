@@ -416,7 +416,7 @@ where it is attributed to [[Witold Hurewicz]], who introduced the concept in a l
 
 Early textbook accounts, assuming the Hausdorff condition:
 
-* {#Kelley55} [[John Kelley]], p. 230 in: _General topology_, D. van Nostrand, New York 1955, reprinted as: Graduate Texts in Mathematics, Springer 1955 ([ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251))
+* {#Kelley55} [[John Kelley]], p. 230 in: _General topology_, D. van Nostrand, New York (1955), reprinted as: Graduate Texts in Mathematics, Springer (1975) &lbrack;[ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251)&rbrack;
 
 * {#Dugundji66} [[James Dugundji]], Section XI.9 of: *Topology*, Allyn and Bacon 1966 ([pdf](https://www.southalabama.edu/mathstat/personal_pages/carter/Dugundji.pdf))
 
