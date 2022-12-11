@@ -17,6 +17,11 @@ On [[tensor networks]] and ([[holographic entanglement entropy|holographic]]) [[
 
 * A. Kshetrimayum, C. Balz, B. Lake, [[Jens Eisert]], _Tensor network investigation of the double layer Kagome compound $Ca_{10} Cr_{7} O_{28}$_ ([arXiv:1904.00028](https://arxiv.org/abs/1904.00028))
 
+On simulation of quantum [[spin chains]] on [[quantum computers]]:
+
+* M. Gluza, M. Kliesch, [[Jens Eisert]], [[Leandro Aolita]], *Fidelity witnesses for fermionic quantum simulations*, Phys. Rev. Lett. **120** 190501 (2018) &lbrack;[arXiv:1703.03152](https://arxiv.org/abs/1703.03152), [doi:10.1103/PhysRevLett.120.190501](https://doi.org/10.1103/PhysRevLett.120.190501)&rbrack;
+
+
 Introducing [[Majorana dimer codes]] ([[quantum error correcting codes]] induced by [[tensor networks]] exhibiting [[holographic entanglement entropy]]):
 
 * [[Alexander Jahn]], [[Marek Gluza]], [[Fernando Pastawski]], [[Jens Eisert]], *Majorana dimers and holographic quantum error-correcting code*, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
