@@ -33,11 +33,11 @@ In any case, if $A$ is a subset of $B$, then $B$ is a __superset__ of $A$.
 
 ### In type theory
 
-In [[homotopy type theory]], the inclusion [[relation]] between two types $A$ and $B$ is defined as 
+In [[dependent type theory]], the inclusion [[relation]] between two types $A$ and $B$ is defined as 
 
 $$A \subseteq B \coloneqq \left[\sum_{f:A \to B} \prod_{b:B} \mathrm{isProp}\left(\sum_{a:A} f(a) = b\right)\right]$$
 
-A **subset** of a [[set]] $B$ is a set $A$ with a term $p:A \subseteq B$. 
+A **subset** of a [[set]] $B$ is a set $A$ with a term $p:A \subseteq B$. A **superset** of a [[set]] $A$ is a set $B$ with a term $p:A \subseteq B$. 
 
 Every subset $A$ of $B$ in a universe $\mathcal{U}$ comes with a choice of [[injection]] $i:A \hookrightarrow B$ if and only if the [[axiom of choice]] holds for sets in the universe:
 
