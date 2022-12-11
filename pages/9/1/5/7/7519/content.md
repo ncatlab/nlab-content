@@ -15,7 +15,7 @@ Examine the [[fundamental group of a graph of groups|fundamental group]] of the 
 
 The functor $\mathbf{Grp} \to \mathbf{Grpd},G \mapsto BG$ allows us to view [[Grp|the category of groups]] as a 2-category. Explicitly, this means that for two morphisms $(\varphi,\theta):H \rightrightarrows G$, a 2-morphism $\varphi \to \theta$ is an element $g \in G$ such that $g\varphi g^{-1}=\vartheta$.
 
-With this strict 2-category, one can describe a HNN-extension as a strict [[2-limit]]. If $\iota:K \to G$ denotes the subgroup inclusion and $\theta:K \to G$ is a monomorphism, then $G\ast_A$ is the [[inserter|coinserter]] of $(\theta,\iota):K \rightrightarrows G$.
+With this 2-category, one can describe a HNN-extension as a  [[2-limit|2-colimit]]. If $\iota:K \to G$ denotes the subgroup inclusion and $\theta:K \to G$ is a monomorphism, then $G\ast_A$ is the [[inserter|coinserter]] of $(\theta,\iota):K \rightrightarrows G$.
 
 
 ##References
