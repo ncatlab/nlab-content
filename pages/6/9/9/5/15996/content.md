@@ -8,5 +8,7 @@ The  3-punctured [[2-sphere]]. The "pair of pants".
 
 * [[Riemann surface]]
 
+* [[fusion bundle]]
+
 [[!redirects trinions]]
 [[!redirects pair of pants]]
