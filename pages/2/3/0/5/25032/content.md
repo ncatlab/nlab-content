@@ -3,7 +3,7 @@
 
 ## Definition
 
-Given a set $V$ with an [[extensional relation]] $\prec$ on $V$, a **ordered pairing structure** on $V$ is a [[binary function]] $(-,-):V \times V \to V$ such that 
+Given a [[set]] $V$ with an [[extensional relation]] $\prec$ on $V$, a **ordered pairing structure** on $V$ is a [[binary function]] $(-,-):V \times V \to V$ such that 
 
 * for all $a \in V$ and $b \in V$, $a \prec (a, b)$ and $b \prec (a, b)$
 
