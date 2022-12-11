@@ -3,23 +3,31 @@
 
 ## Definition
 
-Given a [[set]] $V$ with an [[extensional relation]] $\prec$ on $V$, a **ordered pairing structure** on $V$ is a [[binary function]] $(-,-):V \times V \to V$ such that 
+### Pairing structure
 
-* for all $a \in V$ and $b \in V$, $a \prec (a, b)$ and $b \prec (a, b)$
+Given a [[set]] $V$ with an [[extensional relation]] $\prec$ on $V$, a **pairing structure** is a [[binary function]] $P:V \times V \to V$ such that
 
-* for all $a \in V$, $a' \in V$, $b \in V$, $b' \in V$, $a = a'$ and $b = b'$ if and only if $(a, b) = (a', b')$
+* for all $a \in V$ and $b \in V$, $a \prec P(a, b)$ and $b \prec P(a, b)$
+
+### Unordered pairing structure
+
+An **unordered pairing structure** on $V$ is pairing structure $\{-,-\}:V \times V \to V$ where additionally
+
+* for all sets $z$, $z \in \{x, y\}$ implies that $z = x$ or $z = y$. 
+
+Uniqueness of $\{x, y\}$ follows from $\prec$ being an [[extensional relation]]. 
+
+### Ordered pairing structure
+
+An **ordered pairing structure** on $V$ is a pairing structure $(-,-):V \times V \to V$ where additionally 
+
+* for all $a \in V$, $a' \in V$, $b \in V$, $b' \in V$, $P(a, b) = P(a', b')$ if and only if $a = a'$ and $b = b'$
 
 ## Foundational concerns
 
-In any [[material set theory]] one could add a primitive binary operation $(-,-)$ which takes material sets $a$ and $b$ and returns a material set $(a, b)$ such that 
-
-* for all $a$ and $b$, $a \prec (a, b)$ and $b \prec (a, b)$
-
-* for all $a$, $a'$, $b$, $b'$, $a = a'$ and $b = b'$ if and only if $(a, b) = (a', b')$
+In any [[material set theory]], instead of postulating the mere existence of a set $P$ in which $a \in P$ and $b \in P$ one could add a primitive binary operation $P(a, b)$ which takes material sets $a$ and $b$ and returns a material set $P(a, b)$ such that for all $a$ and $b$, $a \in P(a, b)$ and $b \prec P(a, b)$
 
 ## See also
-
-* [[ordered pair]]
 
 * [[axiom of pairing]] 
 
@@ -27,4 +35,11 @@ In any [[material set theory]] one could add a primitive binary operation $(-,-)
 
 * [[Håkon Robbestad Gylterud]], [[Elisabeth Bonnevier]], *Non-wellfounded sets in HoTT* ([arXiv:2001.06696](https://arxiv.org/abs/2001.06696))
 
+[[!redirects pairing structure]]
+[[!redirects pairing structures]]
+
+[[!redirects unordered pairing structure]]
+[[!redirects unordered pairing structures]]
+
+[[!redirects ordered pairing structure]]
 [[!redirects ordered pairing structures]]
