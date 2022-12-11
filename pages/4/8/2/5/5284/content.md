@@ -120,6 +120,7 @@ See at _[[Sullivan model of free loop space]]_.
 
   * [[suspension]]
 
+* [[fusion bundle]]
 
 ## References
 
