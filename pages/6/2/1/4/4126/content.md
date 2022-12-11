@@ -245,6 +245,9 @@ Strengthening of the Kochen-Specker theorem and relation to the "[[free will the
 
   > The new theorem &lbrack;...&rbrack; does require any use of free will on the experimenter’s part. The theorem also strengthens the Kochen-Specker Theorem
 
+Relation of Kochen-Specker to [[Bell's inequalities]]:
+
+* [[Leandro Aolita]], Rodrigo Gallego, Antonio Acín, Andrea Chiuri, Giuseppe Vallone, Paolo Mataloni, Adán Cabello, *Fully nonlocal quantum correlations*, Phys. Rev. A **85** 032107 (2012) &lbrack;[arXiv:1105.3598](https://arxiv.org/abs/1105.3598), [doi:10.1103/PhysRevA.85.032107](https://doi.org/10.1103/PhysRevA.85.032107)&rbrack;
 
 
 
