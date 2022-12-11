@@ -505,6 +505,7 @@ $$
 
 is to denote the [[functor]] between [[specialization orders]] of [[discrete spaces]] with a single and with two elements, respectively, which takes the point denoted "$0$" on the left to the point denoted by the same symbol "$0$" on the right.
 
+{#NotationForFiniteTopologicalSpaces}
 In this notation, the following shows the canonical functors between the four examples of specialization orders from the above list:
 
 $$
