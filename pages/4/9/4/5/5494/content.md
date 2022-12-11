@@ -20,13 +20,9 @@ The _unordered pair_ of $x$ and $y$, denoted $\{x,y\}$, has the property that $\
 
 ## Definition
 
-### In material set theory
+In [[structural set theory]] and [[material set theory]] with [[ordered pairing structure]], given a [[set]] $A$, the set of unordered pairs of elements of $A$ is the [[quotient set]] $A \times A / \sim$, where $\sim$ is a [[binary relation]] on $A \times A$ where $(x, y) \sim (y, x)$ for all elements $x \in A$ and $y \in A$. An **unordered pair** is just an element of said quotient set. 
 
-In [[material set theory]], an unordered pair is just a [[pair set]]. 
-
-### In structural set theory
-
-In structural set theory]], given a [[set]] $A$, the set of unordered pairs of elements of $A$ is the [[quotient set]] $A \times A / \sim$, where $\sim$ is a [[binary relation]] on $A \times A$ where $(x, y) \sim (y, x)$ for all elements $x \in A$ and $y \in A$. An **unordered pair** is just an element of said quotient set. 
+In [[material set theory]] without [[ordered pairing structure]], an unordered pair is usually just defined as a [[pair set]]. 
 
 ### In type theory
 
