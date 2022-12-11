@@ -79,6 +79,10 @@ On [[topological phases]] (i.e. gapped  [[ground states]]) of spin chains:
 
 * [[Houssam Abdul-Rahman]], Marius Lemm, Angelo Lucia, [[Bruno Nachtergaele]], Amanda Young,  *A class of two-dimensional AKLT models with a gap*, in: *Analytic Trends in Mathematical Physics*,  Contemporary Mathematics **741**,  AMS (2020) &lbrack;[arXiv:1901.09297](https://arxiv.org/abs/1901.09297), [doi:10.1090/conm/741/14917](https://doi.org/10.1090/conm/741/14917)&rbrack;
 
+On simulation of quantum spin chains on [[quantum computers]]:
+
+* M. Gluza, M. Kliesch, [[Jens Eisert]], [[Leandro Aolita]], *Fidelity witnesses for fermionic quantum simulations*, Phys. Rev. Lett. **120** 190501 (2018) &lbrack;[arXiv:1703.03152](https://arxiv.org/abs/1703.03152), [doi:10.1103/PhysRevLett.120.190501](https://doi.org/10.1103/PhysRevLett.120.190501)&rbrack;
+
 
 
 [[!redirects spin chains]]
