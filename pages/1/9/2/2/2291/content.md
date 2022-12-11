@@ -100,6 +100,8 @@ The [[product]] of any [[space]] $X$ with the [[moduli stack]] $Pic_X$ of line b
 
 * [[cubical structure on a line bundle]]
 
+* [[fusion bundle]]
+
 * [[bundle gerbe]]
 
 * [[circle n-bundle with connection]]
