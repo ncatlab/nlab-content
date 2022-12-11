@@ -65,7 +65,7 @@ Consider groups $G$ seen in terms of their [[delooping groupoid]] $\mathbf{B}G$ 
 
 > Beware that this construction $\mathbf{B}(-) \;\colon\; Grps \to Grpds$ is not a [[fully faithful (infinity,1)-functor|fully faithful]] [[(2,1)-functor]]: The fully-faithful embedding is obtained only by regarding the delooping groupoids as *[[pointed objects]]* in [[Grpd]], see at *[[looping and delooping]]*. The [[2-morphisms]] between ([[1-morphisms]] between) delooping groupoids which do not respect the base point are precisely those [[natural transformations]] referred to in the following.
 
-Explicitly, this means that for a [[parallel pair]] of [[group homomorphisms]] $(\varphi,\vartheta) \colon H \rightrightarrows G$, a [[2-morphism]] $\mathbf{B}\varphi \Rightarrow \mathbf{B}\theta$ between their [[deloopings]] is equivalently (a [[natural isomorphism]] whose unique component is) an element $g \in G$ such that $g\varphi g^{-1}=\vartheta$.
+Explicitly, this means that for a [[parallel pair]] of [[group homomorphisms]] $(\varphi,\theta) \colon H \rightrightarrows G$, a [[2-morphism]] $\mathbf{B}\varphi \Rightarrow \mathbf{B}\theta$ between their [[deloopings]] is equivalently (a [[natural isomorphism]] whose unique component is) an element $g \in G$ such that $g\varphi g^{-1}=\theta$.
 
 Now within this [[(2,1)-category]], the ([[delooping]] of the) HNN-extension $G\ast_H$ (Def. \ref{HNNConstruction}) is a [[2-colimit]]: 
 
