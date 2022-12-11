@@ -427,6 +427,8 @@ This produces a bundle gerbe whose class in $H^3(X,\mathbb{Z})$ has $[H]$ as its
 
 * [[discrete torsion]]
 
+* [[fusion bundle]]
+
 and 
 
 * [[principal bundle]] / [[torsor]] / [[associated bundle]]
