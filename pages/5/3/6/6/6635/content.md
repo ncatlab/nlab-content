@@ -137,7 +137,7 @@ This is useful in the construction of [[reflective factorization systems]].
 
 ## References
 
-* {#CHK} Cassidy and H&#233;bert and [[Max Kelly|Kelly]], "Reflective subcategories, localizations, and factorization systems".  *J. Austral. Math Soc. (Series A)* 38 (1985), 287--329
+* {#CHK} Cassidy and H&#233;bert and [[Max Kelly|Kelly]]. _Reflective subcategories, localizations, and factorization systems_.  *J. Austral. Math Soc. (Series A)* 38 (1985), 287--329
  
 
 
