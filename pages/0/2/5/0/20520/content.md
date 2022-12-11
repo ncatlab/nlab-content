@@ -67,4 +67,8 @@ A *useful feature* of such constructions is that the multiplication of the grade
 
 * {#OrchWadEad} Dominic Orchard, Philip Wadler, Harley Eades, _Unifying graded and parameterised monads_, ([arXiv:2001.10274](https://arxiv.org/abs/2001.10274))
 
+Graded monads are shown to be examples of [[enriched]] [[relative monads]] in:
+
+* [[Dylan McDermott]] and [[Tarmo Uustalu]]. _Flexibly graded monads and graded algebras_. International Conference on Mathematics of Program Construction. Springer, Cham, 2022.
+
 [[!redirects graded monads]]
