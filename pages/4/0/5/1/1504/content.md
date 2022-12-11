@@ -467,9 +467,11 @@ Introduction and survey:
 #### Open SFT
  {#ReferencesBosonocOSFT}
 
-Original articles are
+Original articles:
 
-* {#Witten86} [[Edward Witten]], _Noncommutative Geometry and String Field Theory_ , Nucl. Phys B268 , 253, (1986) (<a href="https://doi.org/10.1016/0550-3213(86)90155-0">doi:10.1016/0550-3213(86)90155-0</a>)
+* {#Witten86} [[Edward Witten]], *Noncommutative Geometry and String Field Theory*, Nucl. Phys B **268** (1986) 253-294 &lbrack;<a href="https://doi.org/10.1016/0550-3213(86)90155-0">doi:10.1016/0550-3213(86)90155-0</a>&rbrack;
+
+  > (cf. also [here](fusion+bundle#RelationToStringFieldTheory) at *[[fusion bundle]]*)
  
 
 * [[Edward Witten]], _On background independent open string field theory_,  Phys.Rev. D46 (1992) 5467. ([arXiv:hep-th/9208027](http://arxiv.org/abs/hep-th/9208027))
