@@ -356,12 +356,19 @@ The argument is spelled out in: [MO:a/1645794](https://math.stackexchange.com/a/
 
 ## Examples
 
-### One-point compactification of a discrete countable space
+### Compactification of discrete spaces
 
-For a simple example, consider the natural numbers $\mathbb{N}$ regarded as a [[discrete space]]. This is not compact. The one-point compactification is the space 
-$\mathbb{N}\cup\{\infty\}$ where the open sets are the sets that either do not contain $\infty$, or which contain $\infty$ and are [[cofinite subsets]]. 
 
-This space is actually a [[Stone space]], and corresponds via [[Stone duality]] to the [[Boolean algebra]] of the finite and cofinite subsets of $\mathbb{N}$, with the usual Boolean algebra operations of union and set-complement. To see this, notice that the [[clopen sets]] in the space are the sets that are either finite and not containing $\infty$, or cofinite and containing $\infty$. So a clopen set is determined by giving either a finite or a cofinite subset of $\mathbb{N}$, and then adding $\infty$ if it is cofinite. Under this correspondence, the Boolean algebra operations on finite and cofinite subsets of $\mathbb{N}$ correspond to the Boolean algebra operations on the clopen sets.
+\begin{example}\label{CompactifOfCountableSet}
+**(one-point compactification of [[countable set|countable]] [[discrete space]])**
+\linebreak
+Consider the [[natural numbers]] $\mathbb{N}$ regarded as a [[discrete space]]. This is not [[compact topological space|compact]]. Its one-point compactification has as [[underlying set]] the [[disjoint union]] 
+$\mathbb{N}\cup\{\infty\}$ of the natural numbers with an element "at [[infinity]]", and its [[open subsets]] are those [[subsets]] that either do not contain $\infty$, or which contain $\infty$ and are [[cofinite subsets]]. 
+
+This space is actually a [[Stone space]], and corresponds via [[Stone duality]] to the [[Boolean algebra]] of the finite and cofinite subsets of $\mathbb{N}$, with the usual [[Boolean algebra]] operations of [[union]] and [[complement|set-complement]]. 
+
+To see this, notice that the [[clopen sets]] in the space are those that are either [[finite set|finite]] and not containing $\infty$, or [[cofinite set|cofinite]] and containing $\infty$. So a clopen set is determined by giving either a finite or a cofinite subset of $\mathbb{N}$, and then adding $\infty$ if it is cofinite. Under this correspondence, the Boolean algebra operations on finite and cofinite subsets of $\mathbb{N}$ correspond to the Boolean algebra operations on the clopen sets.
+\end{example}
 
 ### Euclidean spaces compactify to Spheres
  {#ExamplesSpheres}
@@ -557,7 +564,8 @@ The concept goes back to
 
 Textbook accounts:
 
-* {#Kelly75} John Kelly, [p. 150](https://archive.org/details/GeneralTopology/page/n167) of: _General Topology_, van Nostrand 1955 ([archive:GeneralTopology](https://archive.org/details/GeneralTopology))
+* {#Kelley75} [[John Kelley]], p. 150 of: *General topology*, D. van Nostrand, New York (1955), reprinted as: Graduate Texts in Mathematics, Springer (1975) &lbrack;[ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251)&rbrack;
+
 
 * {#Bredon93} [[Glen Bredon]], p. 199 of: _Topology and Geometry_, Graduate Texts in Mathematics 139, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0), [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
 
