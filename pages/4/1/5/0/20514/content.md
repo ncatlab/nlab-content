@@ -45,7 +45,9 @@ Indication that the tension is not in the data but in systematic errors:
 
 * Freedman et al. _The Carnegie-Chicago Hubble Program. VIII. An Independent Determination of the Hubble Constant Based on the Tip of the Red Giant Branch_ ([arxiv:1907.05922](https://arxiv.org/abs/1907.05922))
 
+Indication from new data from the [[James Webb Space Telescope]] that the old data does not have systematic errors and the tension is in the data:
 
+* [[Wenlong Yuan]], [[Adam G. Riess]], [[Stefano Casertano]], [[Lucas M. Macri]], *A First Look at Cepheids in a SN Ia Host with JWST* ([arXiv:2209.09101](https://arxiv.org/abs/2209.09101))
 
 Indication that the tension is not resolved by effects in [[inhomogeneous cosmology]] (such as the [[KBC void]]):
 
