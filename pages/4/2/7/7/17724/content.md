@@ -29,28 +29,29 @@
 
 In [[type theory]], _induction-recursion_ is a principle for mutually defining [[types]] of the form 
 
-
-$$
-  A \colon Type\,,\;\;\; and \;\;\; B \colon A \to Type
-  \,,
-$$ 
+$$A \; \mathrm{type} \qquad a:A \vdash B(a) \; \mathrm{type}$$
 
 where $A$ is defined as an [[inductive type]] and $B$ is defined by [[recursion]] on $A$. Crucially, the definition of $A$ may use $B$. Without this last requirement, we could first define $A$ and then separately $B$.
 
-##Example 
+In type theory, **higher induction-reduction** is the principle that one could also have identity and identity section constructors in addition to the element and section constructors. 
 
-The universe a la Tarski is an example of an inductive-recursive definition,
-where a set $U$ is defined inductively together with a recursive function $T: U \to
-Set$. The constructors for $U$ may depend negatively on $T$ applied to
-elements of $U$, as is the case if $U$, for example, is closed under dependent function spaces:
+## Example 
 
-$$
-\frac{a:U \;\;\;\;\;\;b : T(a) \to U}{\pi(a, b) : U}
-$$
+A [[Tarski universe]] is an example of an inductive-recursive definition,
+where a type $U$ is defined inductively together with a dependent type $a:U \vdash T(a) \; \mathrm{type}$. The constructors for $U$ may depend negatively on $T$ applied to
+elements of $U$, as is the case if $U$, for example, is strictly closed under dependent function types:
 
-with $T(\pi(a, b)) = \prod_{x:T(a)} T(b(x))$.
+$$\frac{\Gamma \vdash a:U \quad \Gamma \vdash b : T(a) \; \mathrm{type}}{\Gamma \vdash \Pi(a, b) \; \mathrm{type}}$$
 
-Here, $T:U \to Set$ is defined recursively. Sometimes, however, one might
+$$\frac{\Gamma \vdash a:U \quad \Gamma \vdash b : T(a) \; \mathrm{type}}{\Gamma \vdash T(\Pi(a, b)) \equiv \prod_{x:T(a)} T(b(x)) \; \mathrm{type}}$$
+
+If the Tarski universe is weakly closed under dependent function types, then the Tarski universe becomes a higher inductive-recursive type, since the rules for defining an equivalence of types involve generating identities of the [[identity type]]. 
+
+$$\frac{\Gamma \vdash a:U \quad \Gamma \vdash b : T(a) \; \mathrm{type}}{\Gamma \vdash \Pi(a, b) \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash a:U \quad \Gamma \vdash b : T(a) \; \mathrm{type}}{\Gamma \vdash E_\Pi:T(\Pi(a, b)) \simeq \prod_{x:T(a)} T(b(x))}$$
+
+Here, the type family $T$ is defined recursively. Sometimes, however, one might
 not want to give $T(u)$ completely as soon as $u:U$ is introduced, but instead
 define $T$ inductively as well. This is the principle of [[induction-induction]].
 
