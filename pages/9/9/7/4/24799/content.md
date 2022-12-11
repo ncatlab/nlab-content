@@ -9,7 +9,7 @@
   * [[propositional equality]]
   * [[set]], [[element]], [[function]], [[relation]]
   * [[universe]], [[small set]], [[large set]]
-  * [[unordered pair]], [[ordered pair]]
+  * [[pair set]], [[unordered pair]], [[ordered pair]],
 * presentations of set theory
   * [[first-order set theory]]
   * [[unsorted set theory]]
