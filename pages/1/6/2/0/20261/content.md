@@ -34,6 +34,8 @@ The [[equivalence classes]] under this [[relation]] are hence called the _[[conj
 
 * [[subgroup lattice]]
 
+* [[HNN-extension]]
+
 ## References
 
 See also
