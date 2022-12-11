@@ -49,6 +49,16 @@ The consistency of the framework used for the elimination (e.g. in the [[theorem
 
 Experiments with higher inductive inductive types (elaborate versions of [[higher inductive types]]) are sections 11.3 "Cauchy reals" and section 11.6 "Conway surreals"  of the [HoTT book](#HoTTBook). As they are at the set level, these are instances of [[quotient inductive type|quotient inductive-inductive types]]; see [QIIT](#QIIT). An experimental syntax for HIITs by [Kaposi and Kovacs](#KaposiKovacs).
 
+Another example of a higher inductive-inductive type is a [[univalent Tarski universe]], where the where a type $U$ is defined inductively together with a [[type family]] $a:U \vdash T(a) \; \mathrm{type}$ and has constructors 
+
+* an element $h(a, b, f):\mathrm{fiber}(\mathrm{transport}^T(a, b), f)$ for all $a:U$, $b:U$, $f:T(a) \simeq T(b)$
+* an identity $\mathrm{ua}(a, b, f, c):c =_{\mathrm{fiber}(\mathrm{transport}^T(a, b), f} h(a, b, f)$ for all $a:U$, $b:U$, $f:T(a) \simeq T(b)$ and $c:\mathrm{fiber}(\mathrm{transport}^T(a, b), f)$
+
+where $\mathrm{transport}^T(a, b):(a =_U b) \to (T(a) \simeq T(b))$ is the [[transport]] function for all $a:U$ and $b:U$ and 
+$$\mathrm{fiber}(\mathrm{transport}^T(a, b), f) \coloneqq \sum_{p:a =_U b} \mathrm{transport}^T(a, b)(p) =_{T(a) \simeq T(b)} f$$
+
+This means that $h(a, b, f)$ is the [[center of contraction]] of the fiber of transport across $T$ at the equivalence $f:T(a) \simeq T(b)$. 
+
 ## References ##
 
 * [[Andrej Bauer]], _[What is induction-induction?](http://cs.stackexchange.com/q/64139)_
