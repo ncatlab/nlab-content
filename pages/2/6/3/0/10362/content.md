@@ -269,6 +269,10 @@ Experiments:
 
 * {#Aspect15} [[Alain Aspect]], *[Closing the Door on Einstein and Bohr’s Quantum Debate](https://physics.aps.org/articles/v8/123)*, Physics **8** 123 (2015)
 
+Relation to the [[Kochen-Specker theorem]]:
+
+* [[Leandro Aolita]], Rodrigo Gallego, Antonio Acín, Andrea Chiuri, Giuseppe Vallone, Paolo Mataloni, Adán Cabello, *Fully nonlocal quantum correlations*, Phys. Rev. A **85** 032107 (2012) &lbrack;[arXiv:1105.3598](https://arxiv.org/abs/1105.3598), [doi:10.1103/PhysRevA.85.032107](https://doi.org/10.1103/PhysRevA.85.032107)&rbrack;
+
     
 
 
@@ -279,6 +283,7 @@ See also:
 * Wikipedia, *[Bell test](https://en.wikipedia.org/wiki/Bell_test)*
 
 * Wikipedia, *[Leggett-Garg inequality](https://en.wikipedia.org/wiki/Leggett%E2%80%93Garg_inequality)*
+
 
 
 ### Probabilistic opposition
