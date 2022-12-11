@@ -249,6 +249,17 @@ Transgression of [[group cohomology]] for [[discrete groups]] to cohomology of [
 
 * {#AdemRuanZhang07} [[Alejandro Adem]], [[Yongbin Ruan]], [[Bin Zhang]], Section 4 of: _A Stringy Product on Twisted Orbifold K-theory_, Morfismos (10th Anniversary Issue), **11** 2 (2007) 33-64 &lbrack;[arXiv:math/0605534](https://arxiv.org/abs/math/0605534), [Morfismos pdf](www.morfismos.cinvestav.mx/Portals/morfismos/SiteDocs/Articulos/Volumen11/No2/Zhang/arz.pdf)&rbrack;
 
+The [[image]] of the transgression operation from [[bundle gerbes]] ([[bundle gerbe with connection|with connection]]) to [[complex line bundles]] ([[connection on a vector bundle|with connection]]) on the [[free loop space]] of their base space is characterized (as consisting of the "[[fusion bundle|fusion bundles]]") in:
+
+* [[Konrad Waldorf]], *Transgression to Loop Spaces and its Inverse, I: Diffeological Bundles and Fusion Maps*, Cah. Topol. Geom. Differ. Categ., 2012, Vol. LIII, 162-210 &lbrack;[arXiv:0911.3212](https://arxiv.org/abs/0911.3212), [cahierstgdc:LIII](http://cahierstgdc.com/index.php/volumes/volume-liii-2012)&rbrack;
+
+* [[Konrad Waldorf]], *Transgression to Loop Spaces and its Inverse, II: Gerbes and Fusion Bundles with Connection*, Asian Journal of Mathematics **20** 1 (2016) 59-116 &lbrack;[arXiv:1004.0031](https://arxiv.org/abs/1004.0031), [doi:10.4310/AJM.2016.v20.n1.a4](https://dx.doi.org/10.4310/AJM.2016.v20.n1.a4)&rbrack;
+
+* [[Konrad Waldorf]], *Transgression to Loop Spaces and its Inverse, III: Gerbes and Thin Fusion Bundles*, Advances in Mathematics **231** (2012) 3445-3472 &lbrack;[arXiv:1109.0480](https://arxiv.org/abs/1109.0480), [doi:10.1016/j.aim.2012.08.016](https://doi.org/10.1016/j.aim.2012.08.016)&rbrack;
+
+
+
+
 
 
 [[!redirects transgressions]]
