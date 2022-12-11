@@ -49,5 +49,17 @@ Phrased differently, repeat-until-success algorithms do have a generalized [[qua
 
 * Adam Paetznick, Krysta M. Svore, *Repeat-Until-Success: Non-deterministic decomposition of single-qubit unitaries*, Quantum Information & Computation **14** 15-16 (2014) 1277-1301 &lbrack;[arXiv:1311.1074](https://arxiv.org/abs/1311.1074), [doi:10.5555/2685179.2685181](https://dl.acm.org/doi/10.5555/2685179.2685181)&rbrack;
 
+Discussion of the setup where "fail" (non-success) is guaranteed to act as the [[identity]] on the input [[quantum states]] ("success or draw")
 
 * Qingxiuxiong Dong, Marco Túlio Quintino, Akihito Soeda, Mio Murao, *Success-or-Draw: A Strategy Allowing Repeat-Until-Success in Quantum Computation*, Phys. Rev. Lett. **126** (2021) 150504 &lbrack;[arXiv:2011.01055](https://arxiv.org/abs/2011.01055), [doi:10.1103/PhysRevLett.126.150504](https://doi.org/10.1103/PhysRevLett.126.150504)&rbrack;
+
+On repeat-until-success algorithms for creating "quantum imaginary time evolution":
+
+* Thais de Lima Silva, Márcio M. Taddei, Stefano Carrazza, [[Leandro Aolita]], *Fragmented imaginary-time evolution for early-stage quantum signal processors* &lbrack;[arXiv:2110.13180](https://arxiv.org/abs/2110.13180), [spire:1952417](https://inspirehep.net/literature/1952417)&rbrack;
+
+Review:
+
+* [[Leandro Aolita]], *Imaginary-time evolution algorithms for intermediate-scale quantum signal processors*, talk at *[Atomtronics@AbuDhabi2021](https://qrcseminar.tii.ae)* (2021) &lbrack;[video](https://youtu.be/G2eigbPiMKU)&rbrack;
+
+
+
