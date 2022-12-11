@@ -130,16 +130,21 @@ review:
 
 * {#SWP22} Snowmass White Paper: *Cosmology Intertwined: A Review of the Particle Physics, Astrophysics, and Cosmology Associated with the Cosmological Tensions and Anomalies*, J. High En. Astrophys. **34** (2022) 49-211 &lbrack;[arXiv:2203.06142](https://arxiv.org/abs/2203.06142), [doi:10.1016/j.jheap.2022.04.002](https://doi.org/10.1016/j.jheap.2022.04.002)&rbrack;
 
-
 Indication that the tension is not in the data but in systematic errors:
 
 * Freedman et al. _The Carnegie-Chicago Hubble Program. VIII. An Independent Determination of the Hubble Constant Based on the Tip of the Red Giant Branch_ ([arxiv:1907.05922](https://arxiv.org/abs/1907.05922))
+
+Indication from new data from the [[James Webb Space Telescope]] that the old data does not have systematic errors and the tension is in the data:
+
+* [[Wenlong Yuan]], [[Adam G. Riess]], [[Stefano Casertano]], [[Lucas M. Macri]], *A First Look at Cepheids in a SN Ia Host with JWST* ([arXiv:2209.09101](https://arxiv.org/abs/2209.09101))
 
 Review of further observed deviations (such as large-scale [[inhomogeneous cosmology|inhomogeneties]] like the [[KBC void]]):
 
 * {#Peebles22} [[Phillip James E. Peebles]], *Anomalies in Physical Cosmology* &lbrack;[arXiv:2208.05018](https://arxiv.org/abs/2208.05018)&rbrack;
 
+There are possible tensions with high redshift [[galaxies]] detected at the [[James Webb Space Telescope]]:
 
+* Michael Boylan-Kolchin, *Stress Testing ΛCDM with High-redshift Galaxy Candidates*, ([arXiv:2208.01611](https://arxiv.org/abs/2208.01611))
 
 ### In AQFT on Curved spacetimes
 
