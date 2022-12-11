@@ -396,7 +396,7 @@ The most common example of this is the computation of limits in terms of product
 $$
   \prod_{d \in Obj(D)}
   F(d)
-  \stackrel{\prod_{f \in Mor(d)} (F(f) \circ p_{t(f)}) }{\to}  
+  \stackrel{\prod_{f \in Mor(d)} (F(f) \circ p_{s(f)}) }{\to}  
   \prod_{f \in Mor(D)}
   F(s(f))
 $$
@@ -406,7 +406,7 @@ and
 $$
   \prod_{d \in Obj(D)}
   F(d)
-  \stackrel{\prod_{f \in Mor(d)} (p_{s(f)}) }{\to}  
+  \stackrel{\prod_{f \in Mor(d)} (p_{t(f)}) }{\to}  
   \prod_{f \in Mor(D)}
   F(s(f))  
   \,.
