@@ -33,23 +33,18 @@ $$A \; \mathrm{type} \qquad a:A \vdash B(a) \; \mathrm{type}$$
 
 where $A$ is defined as an [[inductive type]] and $B$ is defined by [[recursion]] on $A$. Crucially, the definition of $A$ may use $B$. Without this last requirement, we could first define $A$ and then separately $B$.
 
-In type theory, **higher induction-reduction** is the principle that one could also have identity and identity section constructors in addition to the element and section constructors. 
+In type theory, **higher induction-reduction** is the principle that one could also have identity constructors and identity section constructors in addition to the element and section constructors. 
 
 ## Example 
 
-A [[Tarski universe]] is an example of an inductive-recursive definition,
-where a type $U$ is defined inductively together with a dependent type $a:U \vdash T(a) \; \mathrm{type}$. The constructors for $U$ may depend negatively on $T$ applied to
-elements of $U$, as is the case if $U$, for example, is strictly closed under dependent function types:
+A [[Tarski universe]] is an example of an inductive-recursive definition, where a type $U$ is defined inductively together with a [[type family]] $a:U \vdash T(a) \; \mathrm{type}$. The constructors for $U$ may depend negatively on $T$ applied to elements of $U$. This is the case if $U$, for example, is closed under [[dependent product types]], where it has constructors of 
 
-$$\frac{\Gamma \vdash a:U \quad \Gamma \vdash b : T(a) \; \mathrm{type}}{\Gamma \vdash \Pi(a, b) \; \mathrm{type}}$$
+* a [[dependent type]] $\Pi(a, b)$ for each $a:U$ and $b:T(a) \to U$, 
+* a [[function]] $E_\Pi(a, b):\left(\prod_{x:T(a)} T(b)(x)\right) \to T(\Pi(a, b))$ for each $a:U$ and $b:T(a) \to U$. 
 
-$$\frac{\Gamma \vdash a:U \quad \Gamma \vdash b : T(a) \; \mathrm{type}}{\Gamma \vdash T(\Pi(a, b)) \equiv \prod_{x:T(a)} T(b(x)) \; \mathrm{type}}$$
+If the Tarski universe is strictly closed under dependent product types, then the last condition is replaced by 
 
-If the Tarski universe is weakly closed under dependent function types, then the Tarski universe becomes a higher inductive-recursive type, since the rules for defining an equivalence of types involve generating identities of the [[identity type]]. 
-
-$$\frac{\Gamma \vdash a:U \quad \Gamma \vdash b : T(a) \; \mathrm{type}}{\Gamma \vdash \Pi(a, b) \; \mathrm{type}}$$
-
-$$\frac{\Gamma \vdash a:U \quad \Gamma \vdash b : T(a) \; \mathrm{type}}{\Gamma \vdash E_\Pi:T(\Pi(a, b)) \simeq \prod_{x:T(a)} T(b(x))}$$
+* a [[judgmental equality]] $T(\Pi(a, b)) \equiv \prod_{x:T(a)} T(b)(x)$ for each $a:U$ and $b:T(a) \to U$. 
 
 Here, the type family $T$ is defined recursively. Sometimes, however, one might
 not want to give $T(u)$ completely as soon as $u:U$ is introduced, but instead
