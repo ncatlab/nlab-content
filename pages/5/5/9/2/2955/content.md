@@ -4,10 +4,16 @@ If a $C$-actegory is a [[categorification]] of a [[module]], then for two monoid
 
 For very basic outline see section 2 in 
 
-* [[Zoran Škoda]], Some equivariant constructions in noncommutative algebraic geometry, Georgian Mathematical Journal 16 (2009), No. 1, 183&#8211;-202, [arXiv:0811.4770](http://arxiv.org/abs/0811.4770). 
+* [[Zoran Škoda]], Some equivariant constructions in noncommutative algebraic geometry, Georgian Mathematical Journal 16 (2009), No. 1, 183&#8211;-202, [arXiv:0811.4770](https://arxiv.org/abs/0811.4770). 
 
-A longer 2006 preprint called "Biactegories" (around 17 pages) has never been finished (one old version: [link](http://www.irb.hr/korisnici/zskoda/biact.pdf))
+and partial writeup 
+
+* Zoran Škoda, _Biactegories_, 2006, [pdf](https://www2.irb.hr/korisnici/zskoda/biact.pdf))
 
 In a language of "module categories", a different treatment is now available in 
 
-* Justin Greenough, Monoidal 2-structure of bimodule categories, [arxiv:0911.4979](http://arxiv.org/abs/0911.4979).
+* Justin Greenough, Monoidal 2-structure of bimodule categories, [arxiv:0911.4979](https://arxiv.org/abs/0911.4979).
+
+It is one of the notions discussed in the review
+
+* Matteo Capucci, Bruno Gavranović, _Actegories for the working amthematician_, [arXiv:2203.16351](https://arxiv.org/abs/2203.16351)
