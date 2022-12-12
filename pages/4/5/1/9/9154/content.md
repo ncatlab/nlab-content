@@ -36,7 +36,7 @@ $$
   \,,
 $$
 
-where the [[action]] of the [[product group]] is via its canonical embedding $O(n)\times O(k-n) \hookrightarrow O(n)$.
+where the [[action]] of the [[product group]] is via its canonical embedding $O(n)\times O(k-n) \hookrightarrow O(k)$.
 
 Generally, for $W \subset V$ an inclusion of [[Euclidean space|Euclidean]] vector spaces, then 
 
@@ -52,7 +52,7 @@ where $V-W$ denotes the [[orthogonal complement]] of $W$ in $V$.
 +-- {: .num_remark}
 ###### Remark
 
-The group $O(k)$ [[transitive action|acts transitively]] on the set of $n$-dimensional [[linear subspaces]], and given any such, then its [[stabilizer subgroup]] in $O(k)$ is isomorphic to $O(n)\times O(k-n)$. In this way the underlying set of $Gr_n(k)$ is in [[natural bijection]] to the set of $n$-dimensional linear subspaces in $\mathbb{R}^k$. The realization as a [[coset]] as above serves to euqip this set naturally with a [[topology|topological space]].
+The group $O(k)$ [[transitive action|acts transitively]] on the set of $n$-dimensional [[linear subspaces]], and given any such, then its [[stabilizer subgroup]] in $O(k)$ is isomorphic to $O(n)\times O(k-n)$. In this way the underlying set of $Gr_n(k)$ is in [[natural bijection]] to the set of $n$-dimensional linear subspaces in $\mathbb{R}^k$. The realization as a [[coset]] as above serves to equip this set naturally with a [[topology|topological space]].
 
 =--
 
