@@ -55,7 +55,7 @@ Discussion of the setup where "fail" (non-success) is guaranteed to act as the [
 
 On repeat-until-success algorithms for creating "quantum imaginary time evolution":
 
-* Thais de Lima Silva, Márcio M. Taddei, Stefano Carrazza, [[Leandro Aolita]], *Fragmented imaginary-time evolution for early-stage quantum signal processors* &lbrack;[arXiv:2110.13180](https://arxiv.org/abs/2110.13180), [spire:1952417](https://inspirehep.net/literature/1952417)&rbrack;
+* {#AolitaEtAl21} Thais de Lima Silva, Márcio M. Taddei, Stefano Carrazza, [[Leandro Aolita]], *Fragmented imaginary-time evolution for early-stage quantum signal processors* &lbrack;[arXiv:2110.13180](https://arxiv.org/abs/2110.13180), [spire:1952417](https://inspirehep.net/literature/1952417)&rbrack;
 
 Review:
 
