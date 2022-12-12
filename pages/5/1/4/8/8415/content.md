@@ -22,7 +22,7 @@ Traditionally, a compactification of a [[topological space]] $X$ is a [[compact 
 In some cases, the terminology 'compactification' is applied to generalizations where $i$ is not a dense embedding (does not map [[homeomorphism|homeomorphically]] to an image that is dense). For example, the one-point compactification of an already [[compact Hausdorff space]] adds an *isolated* point at infinity, and so is not a dense subspace. Or, if $X$ is not a Tychonoff space, then the universal map to its [[Stone-Cech compactification]] is not an embedding.  
 
 If the space has further geometric structure, the compactification is 
-usually required to has such a structure and embedding has to preserve it.
+usually required to have such a structure and embedding has to preserve it.
 Many [[moduli space]]s in algebraic and differential geometry have their
 natural compactifications. They are often useful because they carry natural integration which is useful in defining various invariants. 
 
