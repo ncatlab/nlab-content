@@ -47,25 +47,49 @@ Given two types $A$ and $B$, the **type of equivalences** from $A$ to $B$ is the
 
 $$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{hasContrFibers}(f)$$
 
-### As functions with inverse functions giving the center of contractions of fibers
+### As functions with an inverse function
 
-There is also another definition of equivalence, which uses the notion of [[center of contraction]]; namely, that a type $A$ is a contractible type if it comes with a element $a:A$ and a witness that for all other elements $b:A$, $a =_A b$
+For every $b:B$, one could get an element $a:A$ via a function $g:B \to A$, since the contractible fibers, the [[principle of unique choice]], and the [[type theoretic axiom of choice]] implies such a function. 
+
+In particular, the [[principle of unique choice]] implies that given a function $f:A \to B$, if for all $b:B$ the fiber of $f$ at $b$ is contractible, then for all $b:B$ there is an element $g(b):\mathrm{fiber}(f, b)$. 
+
+$$\prod_{b:B} \mathrm{isContr}\left(\sum_{a:A} f(a) =_A b\right) \to \prod_{b:B} \sum_{a:A} f(a) =_A b$$
+
+The [[type theoretic axiom of choice]] then states that for all elements $b:B$ one has the structure of an element $a:A$ such that $f(a) =_A b$, then one has a function $g:B \to A$ such that $f(g(b)) =_A b$. 
+
+$$\prod_{b:B} \sum_{a:A} f(a) =_A b \to \sum_{g:B \to A} \prod_{b:B} f(g(b)) =_A b$$
+
+There is also another definition of contractible type, which uses the notion of [[center of contraction]]; namely, that a type $A$ is a contractible type if it comes with a element $a:A$ and a witness that for all elements $b:A$, $a =_A b$
 
 $$\prod_{b:A} a =_A b$$
 
-Additionally, for every $b:B$, one could get an element $a:A$ via a function $g:B \to A$, since the [[principle of unique choice]] and the contractible fibers implies such a function. This gives an alternate definition: A function $f:A \to B$ is an equivalence if it comes with 
+This gives an alternate definition, we provide a function $g:B \to A$ and state that $g$ is a [[retraction]] of $f$ and for all $b:B$, $g(b)$ is the [[center of contraction]] for the fiber of $f$ at $b$. Thus, a function $f:A \to B$ is an equivalence if it comes with 
 
 * a function $g:B \to A$ 
 * for all elements $b:B$, a witness $p(b):f(g(b)) =_B b$, 
 * for all elements $a:A$ and $b:B$ and a witness $q(a, b):f(a) =_B b$, a witness $r(a, b, q(a, b)):a =_A g(b)$. 
 
-The latter condition is the same as 
+$$\sum_{g:B \to A} \prod_{b:B} \left((f(g(b)) =_B b) \times \prod_{q:\sum_{a:A} f(a) =_A b} (\pi_1(q) =_A g(b))\right)$$
+
+Since the type $a =_A g(b)$ doesn't depend on $q(a, b)$, by the rules of [[function types]], the latter condition is the same as 
 
 * for all elements $a:A$ and $b:B$, a function $r(a, b):f(a) =_B b \to a =_A g(b)$. 
 
-$$\mathrm{isEquiv}(f) \coloneqq \sum_{g:B \to A} \left(\prod_{b:B} f(g(b)) =_B b\right) \times \left(\prod_{a:A} \prod_{b:B} (f(a) =_B b) \to (a =_A g(b))\right)$$
+$$\sum_{g:B \to A} \left(\prod_{b:B} f(g(b)) =_B b\right) \times \left(\prod_{a:A} \prod_{b:B} (f(a) =_B b) \to (a =_A g(b))\right)$$
 
-In this definition, witnesses of $f$ being an equivalences are [[inverse functions]]. 
+We could use either defintion to define the proposition that a function $g:B \to A$ is an [[inverse function]] of $f:A \to B$:
+
+$$\mathrm{isInv}(f, g) \coloneqq \prod_{b:B} \left((f(g(b)) =_B b) \times \prod_{q:\sum_{a:A} f(a) =_A b} (\pi_1(q) =_A g(b))\right)$$
+
+$$\mathrm{isInv}(f, g) \coloneqq \left(\prod_{b:B} f(g(b)) =_B b\right) \times \left(\prod_{a:A} \prod_{b:B} (f(a) =_B b) \to (a =_A g(b))\right)$$
+
+Then the types above become the type of inverses of $f$. 
+
+$$\mathrm{Inv}(f) \coloneqq \sum_{g:B \to A} \mathrm{isInv}(f, g)$$
+
+Given two types $A$ and $B$, the **type of equivalences** from $A$ to $B$ is the [[dependent sum type]] of all functions with inverses
+
+$$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{Inv}(f)$$
 
 ### As functions with a left and a right inverse
 
@@ -83,7 +107,7 @@ Three variations of this definition are, informally:
 
 * $f\colon A\to B$ is an equivalence if there are maps $g,h\colon B\to A$ and homotopies $p\colon \prod_{a\colon A} (g(f(a)) = a)$ and $q\colon \prod_{b\colon B} (f(h(b)) = b)$ (sometimes called a **homotopy isomorphism**).
 
-By formalizing these, we obtain types $homotopyEquiv(f)$, $isAdjointEquiv(f)$, and $isHIso(f)$.  All four of these types are co-inhabited: we have a function from any one of them to any of the others.  Moreover, at least if we assume [[function extensionality]], the types $isAdjointEquiv(f)$ and $isHIso(f)$ are themselves *equivalent* to $isEquiv(f)$, and all three are [[h-propositions]].
+By formalizing these, we obtain types $homotopyEquiv(f)$, $isAdjointEquiv(f)$, and $isHIso(f)$.  All four of these types are co-inhabited: we have a function from any one of them to any of the others.  Moreover, at least if we assume [[function extensionality]], the types $isAdjointEquiv(f)$ and $isHIso(f)$ are themselves *equivalent* to $hasContrFibers(f)$, and all three are [[h-propositions]].
 
 This is not true for $homotopyEquiv(f)$, which is not in general an h-prop even with function extensionality.  However, often the most convenient way to show that $f$ is an equivalence is by exhibiting a term in $homotopyEquiv(f)$ (although such a term could just as well be interpreted to lie in $isHIso(f)$ with $h\coloneqq g$).
 
@@ -97,24 +121,24 @@ We define the type of equivalences from $A$ to $B$ in $\mathcal{U}$ as
 
 $$(A \simeq_\mathcal{U} B)  \equiv \sum_{R : (A \times B) \to \mathcal{U}} isOneToOne(R)$$
 
-### Rules for isEquiv
+### Rules for hasContrFibers
 
-In any [[dependent type theory]] with [[identity types]], [[function types]], [[fiber types]], and [[isContr]] defined either through [[isProp]] or [[contraction types]], all of which could be defined without [[dependent product types]] or [[dependent sum types]], we can still define isEquiv by adding the formation, introduction, elimination, computation, and uniqueness rules for isEquiv
+In any [[dependent type theory]] with [[identity types]], [[function types]], [[fiber types]], and [[isContr]] defined either through [[isProp]] or [[contraction types]], all of which could be defined without [[dependent product types]] or [[dependent sum types]], we can still define hasContrFibers by adding the formation, introduction, elimination, computation, and uniqueness rules for hasContrFibers
 
-Formation rules for isEquiv types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B, y:B \vdash \mathrm{isContr}(\mathrm{fiber}_{A, B}(f, y)) \; \mathrm{type}}{\Gamma \vdash \mathrm{isEquiv}_{A, B}(f) \; \mathrm{type}}$$
+Formation rules for hasContrFibers types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B, y:B \vdash \mathrm{isContr}(\mathrm{fiber}_{A, B}(f, y)) \; \mathrm{type}}{\Gamma \vdash \mathrm{hasContrFibers}_{A, B}(f) \; \mathrm{type}}$$
 
-Introduction rules for isEquiv types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B, y:B \vdash b(y):\mathrm{isContr}(\mathrm{fiber}_{A, B}(f, y))}{\Gamma, f:A \to B \vdash \lambda x.b(x):\mathrm{isEquiv}_{A, B}(f)}$$
+Introduction rules for hasContrFibers types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B, y:B \vdash b(y):\mathrm{isContr}(\mathrm{fiber}_{A, B}(f, y))}{\Gamma, f:A \to B \vdash \lambda x.b(x):\mathrm{hasContrFibers}_{A, B}(f)}$$
 
-Elimination rules for isEquiv types:
-$$\frac{\Gamma, f:A \to B \vdash p:\mathrm{isEquiv}_{A, B}(f) \quad \Gamma \vdash c:B}{\Gamma, f:A \to B \vdash p(a):\mathrm{isEquiv}_{A, B}(f)(c)}$$
+Elimination rules for hasContrFibers types:
+$$\frac{\Gamma, f:A \to B \vdash p:\mathrm{hasContrFibers}_{A, B}(f) \quad \Gamma \vdash c:B}{\Gamma, f:A \to B \vdash p(a):\mathrm{hasContrFibers}_{A, B}(f)(c)}$$
 
-Computation rules for isEquiv types:
-$$\frac{\Gamma, f:A \to B, y:B \vdash b(y):\mathrm{isContr}(\mathrm{fiber}_{A, B}(f, y)) \quad \Gamma \vdash c:B}{\Gamma, f:A \to B \vdash \beta_\mathrm{isEquiv}:\lambda x.b(x)(c) =_{\mathrm{isContr}(\mathrm{fiber}_{A, B}(f, c))} b(c)}$$
+Computation rules for hasContrFibers types:
+$$\frac{\Gamma, f:A \to B, y:B \vdash b(y):\mathrm{isContr}(\mathrm{fiber}_{A, B}(f, y)) \quad \Gamma \vdash c:B}{\Gamma, f:A \to B \vdash \beta_\mathrm{hasContrFibers}:\lambda x.b(x)(c) =_{\mathrm{isContr}(\mathrm{fiber}_{A, B}(f, c))} b(c)}$$
 
-Uniqueness rules for isEquiv types:
-$$\frac{\Gamma, f:A \to B \vdash p:\mathrm{isEquiv}_{A, B}(f)}{\Gamma, f:A \to B \vdash \eta_\mathrm{isEquiv}:p =_{\mathrm{isEquiv}_{A, B}(f)} \lambda(x).p(x)}$$
+Uniqueness rules for hasContrFibers types:
+$$\frac{\Gamma, f:A \to B \vdash p:\mathrm{hasContrFibers}_{A, B}(f)}{\Gamma, f:A \to B \vdash \eta_\mathrm{hasContrFibers}:p =_{\mathrm{hasContrFibers}_{A, B}(f)} \lambda(x).p(x)}$$
 
 ### Rules for equivalence types
 
@@ -152,13 +176,13 @@ We discuss the [[categorical semantics]] of equivalences in homotopy type theory
 
 Let $\mathcal{C}$ be a [[locally cartesian closed category]] which is a [[model category]], in which the (acyclic cofibration, fibration) [[weak factorization system]] has [[stable path objects]], and acyclic cofibrations are preserved by pullback along fibrations between fibrant objects.  (We ignore questions of coherence, which are not important for this discussion.) For instance $\mathcal{C}$ could be a [[type-theoretic model category]].
 
-### Of $isEquiv(-)$
+### Of $hasContrFibers(-)$
 
 +-- {: .num_prop }
 ###### Proposition
 
 For $A, B$ two [[cofibrant object|cofibrant]]-[[fibrant objects]] in $\mathcal{C}$,
-a morphism $f\colon A\to B$ is a [[weak equivalence]] or equivalently a [[homotopy equivalence]] in $\mathcal{C}$ precisely when the interpretation of $isEquiv(f)$ has a [[generalized element|global point]] $* \to isEquiv(f)$.
+a morphism $f\colon A\to B$ is a [[weak equivalence]] or equivalently a [[homotopy equivalence]] in $\mathcal{C}$ precisely when the interpretation of $hasContrFibers(f)$ has a [[generalized element|global point]] $* \to hasContrFibers(f)$.
 
 =--
 
@@ -215,13 +239,13 @@ But by the [[2-out-of-3 property]], this is equivalent to $f$ being a weak equiv
 +-- {: .num_remark #InterpretationIfIsEquivAsDependentType}
 ###### Remark
 
-In the above we fixed one function $f : A \to X$. But the type $isEquiv$ is actually a [[dependent type]]
+In the above we fixed one function $f : A \to X$. But the type $hasContrFibers$ is actually a [[dependent type]]
 
 $$
-  f : A \to B \vdash isEquiv(f)
+  f : A \to B \vdash hasContrFibers(f)
 $$
 
-on the [[function type|type of all functions]]. To obtain the [[categorical semantics]] of this general dependent $isEquiv$-construction, first notice that the interpretation of
+on the [[function type|type of all functions]]. To obtain the [[categorical semantics]] of this general dependent $hasContrFibers$-construction, first notice that the interpretation of
 
 $f : A \to B,\; a : A,\; b : B \;\vdash\; (f(a) = b)  \colon Type$
 
