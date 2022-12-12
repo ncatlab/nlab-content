@@ -14,6 +14,7 @@
   * [[pairing structure]], [[axiom of pairing]]
   * [[union structure]], [[axiom of union]]
   * [[powerset structure]], [[axiom of power sets]]
+  * [[natural numbers structure]], [[axiom of infinity]]
 * presentations of set theory
   * [[first-order set theory]]
   * [[unsorted set theory]]
