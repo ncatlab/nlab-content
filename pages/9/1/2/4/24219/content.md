@@ -40,6 +40,10 @@ The $n$-fold **iterated loop space** $\Omega^n(A,\star_A)$ can be defined by ind
 
 > An element of it will be called an _n-loop_ or an _n-dimensional_ **loop** at $a$.
 
+## Properties
+
+The [[axiom K]] on a type states that for every element $a:A$, [[reflexivity]] $\mathrm{refl}_A(a)$ is the [[center of contraction]] of the [[loop space type]] of $a$. 
+
 ## Related entries
 
 * [[pointed type]]
