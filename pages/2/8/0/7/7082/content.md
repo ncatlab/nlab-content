@@ -47,9 +47,9 @@ Given two types $A$ and $B$, the **type of equivalences** from $A$ to $B$ is the
 
 $$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{hasContrFibers}(f)$$
 
-### As functions with an inverse function
+### As functions with a quasi-inverse
 
-For every $b:B$, one could get an element $a:A$ via a function $g:B \to A$, since the contractible fibers, the [[principle of unique choice]], and the [[type theoretic axiom of choice]] implies such a function. 
+For every $b:B$, one could get an element $a:A$ via a function $g:B \to A$, since the contractible fibers and the [[principle of unique choice]], and the [[type theoretic axiom of choice]] implies such a function. 
 
 In particular, the [[principle of unique choice]] implies that given a function $f:A \to B$, if for all $b:B$ the fiber of $f$ at $b$ is contractible, then for all $b:B$ there is an element $g(b):\mathrm{fiber}(f, b)$. 
 
@@ -77,19 +77,21 @@ Since the type $a =_A g(b)$ doesn't depend on $q(a, b)$, by the rules of [[funct
 
 $$\sum_{g:B \to A} \left(\prod_{b:B} f(g(b)) =_B b\right) \times \left(\prod_{a:A} \prod_{b:B} (f(a) =_B b) \to (a =_A g(b))\right)$$
 
-We could use either defintion to define the proposition that a function $g:B \to A$ is an [[inverse function]] of $f:A \to B$:
+We could use either definition to define the proposition that a function $g:B \to A$ is a quasi-[[inverse function]] of $f:A \to B$:
 
-$$\mathrm{isInv}(f, g) \coloneqq \prod_{b:B} \left((f(g(b)) =_B b) \times \prod_{q:\sum_{a:A} f(a) =_A b} (\pi_1(q) =_A g(b))\right)$$
+$$\mathrm{isQuasiInv}(f, g) \coloneqq \prod_{b:B} \left((f(g(b)) =_B b) \times \prod_{q:\sum_{a:A} f(a) =_A b} (\pi_1(q) =_A g(b))\right)$$
 
-$$\mathrm{isInv}(f, g) \coloneqq \left(\prod_{b:B} f(g(b)) =_B b\right) \times \left(\prod_{a:A} \prod_{b:B} (f(a) =_B b) \to (a =_A g(b))\right)$$
+$$\mathrm{isQuasiInv}(f, g) \coloneqq \left(\prod_{b:B} f(g(b)) =_B b\right) \times \left(\prod_{a:A} \prod_{b:B} (f(a) =_B b) \to (a =_A g(b))\right)$$
 
-Then the types above become the type of inverses of $f$. 
+Then the types above become the type of quasi-inverses of $f$. 
 
-$$\mathrm{Inv}(f) \coloneqq \sum_{g:B \to A} \mathrm{isInv}(f, g)$$
+$$\mathrm{QuasiInv}(f) \coloneqq \sum_{g:B \to A} \mathrm{isQuasiInv}(f, g)$$
 
-Given two types $A$ and $B$, the **type of equivalences** from $A$ to $B$ is the [[dependent sum type]] of all functions with inverses
+This notion of quasi-inverse is weaker than the notion of equivalence via functions with contractible fibers, because the converse of the principle of [[unique choice]] usually doesn't hold.
 
-$$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{Inv}(f)$$
+$$\prod_{b:B} \sum_{a:A} f(a) =_A b \to \prod_{b:B} \mathrm{isContr}\left(\sum_{a:A} f(a) =_A b\right)$$
+
+and so beginning with a function $g:B \to A$ which is a two-sided inverse of $f:A \to B$, one cannot prove that for each element $b:B$ the fiber of $f$ at $b$ is contractible. 
 
 ### As functions with a left and a right inverse
 
