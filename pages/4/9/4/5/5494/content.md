@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Unordered pairs
 * table of contents
 {: toc}
@@ -30,6 +29,7 @@ In [[dependent type theory]], let $A$ be an [[h-set]]. Then the type of unordere
 
 * $\{-,-\}:A \times A \to \mathrm{UnorderedPairs}(A)$
 * $a:A, b:A \vdash \mathrm{eq}_{\{-,-\}}(a, b):\{a,b\} =_{\mathrm{UnorderedPairs}(A)} \{b,a\}$
+* $a:A, c(a):\{a,a\} =_{\mathrm{UnorderedPairs}(A)} \{a,a\} \vdash K(a):\mathrm{eq}_{\{-,-\}}(a, a) =_{\{a,a\} =_{\mathrm{UnorderedPairs}(A)} \{a,a\}} c(a)$
 
 ## Relation to ordered pairs
 
