@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Set theory
++-- {: .hide}
+[[!include set theory - contents]]
+=--
+=--
+=--
+
 # The axiom of union
 * table of contents
 {: toc}
@@ -26,5 +36,6 @@ A slightly different notation may be used when $\mathcal{X}$ is (Kuratowski)-[[f
 
 If $\mathcal{X}$ is given as a collection of [[subsets]] of some ambient [[set]] $S$, then the axiom of union is not necessary; $S$ itself already satisfies the conclusion of the hypothesis (and then bounded separation gives us the union that we want).  This is the only case when unions are taken in [[structural set theory]].  However, structural set theory makes use of _[[disjoint unions]]_, and [[predicative mathematics]] requires an axiom giving their existence.  (In impredicative mathematics, we can construct disjoint unions from [[power sets]] and [[cartesian products]].)
 
+One could also include [[union structure]] in the set theory. 
 
 category: foundational axiom
