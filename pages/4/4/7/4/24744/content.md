@@ -45,6 +45,8 @@ $$isContr(A) = \sum_{a:A} \mathrm{Contr}_A(a)$$
 and a type $A$ is an [[h-proposition]] if every element in $A$ is a center of contraction 
 $$isProp(A) = \prod_{a:A} \mathrm{Contr}_A(a)$$
 
+The [[axiom K]] on a type states that for every element $a:A$, [[reflexivity]] $\mathrm{refl}_A(a)$ is the [[center of contraction]] of the [[loop space type]] of $a$. 
+
 ## See also
 
 * [[contractible type]]
