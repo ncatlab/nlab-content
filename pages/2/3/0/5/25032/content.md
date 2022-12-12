@@ -45,6 +45,8 @@ In any [[material set theory]], instead of postulating the mere existence of a s
 
 * [[powerset structure]]
 
+* [[natural numbers structure]]
+
 ## References
 
 * [[Håkon Robbestad Gylterud]], [[Elisabeth Bonnevier]], *Non-wellfounded sets in HoTT* ([arXiv:2001.06696](https://arxiv.org/abs/2001.06696))
