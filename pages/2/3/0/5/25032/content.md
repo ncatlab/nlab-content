@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Set theory
++-- {: .hide}
+[[!include set theory - contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 ## Definition
@@ -30,6 +40,7 @@ In any [[material set theory]], instead of postulating the mere existence of a s
 ## See also
 
 * [[axiom of pairing]] 
+* [[union structure]]
 
 ## References
 
