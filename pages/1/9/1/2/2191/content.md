@@ -44,7 +44,9 @@ subject to [[associators]], [[unitors]] and [[coherence conditions]] for [[actio
 
 At least if some linear structure is present and respected (such as when $\mathcal{A}$ qualifies as a [[2-ring]]) it is natural to speak of *[[module categories]]* over $\mathcal{A}$ (see also at *[[n-module|$n$-module]]*).
 
-Beware that, alternatively, an old pun promoted in [McCrudden (2000)](#McCrudden00) is still fairly widely used by some authors, who find it reasonable to speak of "actegories"[^1].
+Similarly, compatible actions from both sides, such as for a [[bimodule]], give a notion of *[[bimodule category]].
+
+Beware that, alternatively, an old pun promoted in [McCrudden (2000)](#McCrudden00) is still fairly widely used by some authors, who find it reasonable to speak of "actegories"[^1] (and then, for better or worse, "[[biactegory|biactegories]]" for the two-sided case).
 
 
 [^1]: From [Cockett & Pastro (2007)](#CockettPastro07): "The term *actegory* is used to describe the situation of a monoidal category “acting” on a category.  They first appeared (under a different name) in the work of B&eacute;nabou as a simple example of a bicategory. B. Pareigis developed the theory of actegories (again under a different name) and showed there usefulness in the representation theory of monoids and comonoids. The word “actegory” was first suggested at the Australian Category Seminar and first appeared in print in the thesis of P. McCrudden where they were used to study categories of representations of coalgebroids."
@@ -83,7 +85,10 @@ Conversely, if module category is such that the functor $(-)\oslash d:C\to D$ ha
 
 ## Related Concepts
 
-* If an actegory is like a [[module]], then a _[[biactegory]]_ is like a [[bimodule]].
+* [[action object]], [[module object]]
+
+* [[2-module]], [[n-module]]
+
 
 ## References
 
