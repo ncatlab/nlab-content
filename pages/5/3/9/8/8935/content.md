@@ -18,7 +18,7 @@
 
 In [[intensional type theory]], _axiom K_ refers to a couple of different axioms and rules applicable to individual [[types]] to turn them into [[h-sets]], [[type families]] to turn them into [[families of sets]] (and in particular, [[universes]] to turn them into internal types of sets), as well as the type theory as a whole to turn it into an actual [[set-level type theory]], where all types are [[h-sets]]. Under certain conditions, axiom K for universes is incompatible with the [[univalence axiom]], and axiom K for the whole type theory is incompatible with the existence of a [[univalent universe]]. 
 
-Heuristically, the axiom asserts that each [[term]] of each [[identity type]] $x =_A x$ (of [[equivalences]] of a [[term]] $x:A$) is [[propositional equality|propositionally equal]] to the canonical [[reflexive relation|reflexivity]] equality proof $refl_A(x):x =_A x$. 
+Heuristically, the axiom asserts that each [[term]] of each [[identity type]] $x =_A x$ (of [[equivalences]] of a [[term]] $x:A$) is [[typal equality|typally equal]] to the canonical [[reflexive relation|reflexivity]] equality proof $refl_A(x):x =_A x$. This is equivalent to saying that for every element $x:A$, [[reflexivity]] $\mathrm{refl}_A(x)$ is the [[center of contraction]] of the [[loop space type]] of $x$. 
 
 ## Statement
 
@@ -53,14 +53,14 @@ This should probably be called the **K rule** rather than axiom K, since it is n
 
 Adding this rule to the type theory turns it into a [[set-level type theory]]. 
 
-### Definitional K
+### Judgmental K
 
-There is also a version of the K rule called the **definitional K rule** which uses [[definitional equality]] instead of the [[identity type]]. It is given by the following rule
+There is also a version of the K rule called the **judgmental K rule** which uses [[judgmental equality]] instead of the [[identity type]]. It is given by the following rule
 $$
 \frac{\Gamma\vdash A\; type \quad \Gamma\vdash a : A \quad  \quad \Gamma \vdash p : a =_A a}{
   \Gamma\vdash p \equiv refl_A(a):a =_A a}
 $$
-Similarly to the typal K rule, adding the definitional K rule to a type theory turns it into a [[set-level type theory]]. The definitional K rule holds in [[XTT]], where it follows from the definitional UIP rule, which in turn follows from [[boundary separation]]. 
+Similarly to the typal K rule, adding the judgmental K rule to a type theory turns it into a [[set-level type theory]]. The judgmental K rule holds in [[XTT]], where it follows from the judgmental UIP rule, which in turn follows from [[boundary separation]]. 
 
 ## Properties
 
@@ -110,7 +110,16 @@ around theorem 7.2.1
 [[!redirects Axiom K (type theory)]]
 
 [[!redirects K rule]]
-[[!redirects definitional K rule]]
+
+[[!redirects judgmental K rule]]
+[[!redirects propositional K rule]]
+[[!redirects typal K rule]]
+
+[[!redirects judgmental K]]
+[[!redirects propositional K]]
+[[!redirects typal K]]
+
 [[!redirects definitional K]]
+[[!redirects definitional K rule]]
 
 [[!redirects K principle]]
