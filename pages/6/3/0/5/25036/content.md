@@ -37,3 +37,8 @@ One could avoid having to choose amongst the definitions and abstract it all by 
 * [[pairing structure]]
 * [[union structure]]
 * [[powerset structure]]
+
+* [[natural numbers]]
+* [[natural numbers object]]
+* [[natural numbers type]]
+* [[induction]]
