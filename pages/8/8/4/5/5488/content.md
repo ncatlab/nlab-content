@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Set theory
++-- {: .hide}
+[[!include set theory - contents]]
+=--
+=--
+=--
+
 # The axiom of pairing
 * table of contents
 {: toc}
