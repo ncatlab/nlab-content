@@ -33,5 +33,7 @@ In any [[material set theory]], instead of postulating the mere existence of a s
 
 * [[pairing structure]]
 
+* [[powerset structure]]
+
 [[!redirects union structure]]
 [[!redirects union structures]]
