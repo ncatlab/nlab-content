@@ -1007,3 +1007,5 @@ For a treatment of left Kan extensions as 'partial colimits', see
 [[!redirects right kan extensions]]
 [[!redirects pointwise Kan extension]]
 [[!redirects pointwise Kan extensions]]
+[[!redirects absolute Kan extension]]
+[[!redirects absolute Kan extensions]]
