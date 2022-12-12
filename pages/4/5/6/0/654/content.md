@@ -196,7 +196,7 @@ A review of these ideas of 2-Hilbert spaces as well as applications of 2-Hilbert
 
 * [[vector space]]
 
-* [[module category]], [[actegory]]
+* [[module category]], ("[[actegory]]")
 
 * **2-vector space**, [[2-representation]]
 
