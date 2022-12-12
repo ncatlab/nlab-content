@@ -47,52 +47,6 @@ Given two types $A$ and $B$, the **type of equivalences** from $A$ to $B$ is the
 
 $$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{hasContrFibers}(f)$$
 
-### As functions with a quasi-inverse
-
-For every $b:B$, one could get an element $a:A$ via a function $g:B \to A$, since the contractible fibers and the [[principle of unique choice]], and the [[type theoretic axiom of choice]] implies such a function. 
-
-In particular, the [[principle of unique choice]] implies that given a function $f:A \to B$, if for all $b:B$ the fiber of $f$ at $b$ is contractible, then for all $b:B$ there is an element $g(b):\mathrm{fiber}(f, b)$. 
-
-$$\prod_{b:B} \mathrm{isContr}\left(\sum_{a:A} f(a) =_A b\right) \to \prod_{b:B} \sum_{a:A} f(a) =_A b$$
-
-The [[type theoretic axiom of choice]] then states that for all elements $b:B$ one has the structure of an element $a:A$ such that $f(a) =_A b$, then one has a function $g:B \to A$ such that $f(g(b)) =_A b$. 
-
-$$\prod_{b:B} \sum_{a:A} f(a) =_A b \to \sum_{g:B \to A} \prod_{b:B} f(g(b)) =_A b$$
-
-There is also another definition of contractible type, which uses the notion of [[center of contraction]]; namely, that a type $A$ is a contractible type if it comes with a element $a:A$ and a witness that for all elements $b:A$, $a =_A b$
-
-$$\prod_{b:A} a =_A b$$
-
-This gives an alternate definition, we provide a function $g:B \to A$ and state that $g$ is a [[retraction]] of $f$ and for all $b:B$, $g(b)$ is the [[center of contraction]] for the fiber of $f$ at $b$. Thus, a function $f:A \to B$ is an equivalence if it comes with 
-
-* a function $g:B \to A$ 
-* for all elements $b:B$, a witness $p(b):f(g(b)) =_B b$, 
-* for all elements $a:A$ and $b:B$ and a witness $q(a, b):f(a) =_B b$, a witness $r(a, b, q(a, b)):a =_A g(b)$. 
-
-$$\sum_{g:B \to A} \prod_{b:B} \left((f(g(b)) =_B b) \times \prod_{q:\sum_{a:A} f(a) =_A b} (\pi_1(q) =_A g(b))\right)$$
-
-Since the type $a =_A g(b)$ doesn't depend on $q(a, b)$, by the rules of [[function types]], the latter condition is the same as 
-
-* for all elements $a:A$ and $b:B$, a function $r(a, b):f(a) =_B b \to a =_A g(b)$. 
-
-$$\sum_{g:B \to A} \left(\prod_{b:B} f(g(b)) =_B b\right) \times \left(\prod_{a:A} \prod_{b:B} (f(a) =_B b) \to (a =_A g(b))\right)$$
-
-We could use either definition to define the proposition that a function $g:B \to A$ is a quasi-[[inverse function]] of $f:A \to B$:
-
-$$\mathrm{isQuasiInv}(f, g) \coloneqq \prod_{b:B} \left((f(g(b)) =_B b) \times \prod_{q:\sum_{a:A} f(a) =_A b} (\pi_1(q) =_A g(b))\right)$$
-
-$$\mathrm{isQuasiInv}(f, g) \coloneqq \left(\prod_{b:B} f(g(b)) =_B b\right) \times \left(\prod_{a:A} \prod_{b:B} (f(a) =_B b) \to (a =_A g(b))\right)$$
-
-Then the types above become the type of quasi-inverses of $f$. 
-
-$$\mathrm{QuasiInv}(f) \coloneqq \sum_{g:B \to A} \mathrm{isQuasiInv}(f, g)$$
-
-This notion of quasi-inverse is weaker than the notion of equivalence via functions with contractible fibers, because the converse of the principle of [[unique choice]] usually doesn't hold.
-
-$$\prod_{b:B} \sum_{a:A} f(a) =_A b \to \prod_{b:B} \mathrm{isContr}\left(\sum_{a:A} f(a) =_A b\right)$$
-
-and so beginning with a function $g:B \to A$ which is a two-sided inverse of $f:A \to B$, one cannot prove that for each element $b:B$ the fiber of $f$ at $b$ is contractible. 
-
 ### As functions with a left and a right inverse
 
 There is also another definition of an equivalence: a function which has both a left inverse and a right inverse:
@@ -170,6 +124,32 @@ $$\mathrm{isInv}(f, g) \coloneqq \prod_{a:A} \prod_{b:B} (f(a) =_B b) \simeq (a 
 This leads to a coinductive definition of the type of equivalences
 
 $$A \simeq B \coloneqq \sum_{f:A \to B} \sum_{g:B \to A} \prod_{a:A} \prod_{b:B} (f(a) =_B b) \simeq (a =_A g(b))$$
+
+## Properties
+
+### Constructing the inverse function. 
+
+For every equivalence, there is a function $g:B \to A$ which is an [[inverse function]]. 
+
+The [[principle of unique choice]] implies that given a function $f:A \to B$, if for all $b:B$ the fiber of $f$ at $b$ is contractible, then for all $b:B$ there is an element $g(b):\mathrm{fiber}(f, b)$. 
+
+$$\prod_{b:B} \mathrm{isContr}\left(\sum_{a:A} f(a) =_A b\right) \to \prod_{b:B} \sum_{a:A} f(a) =_A b$$
+
+The [[type theoretic axiom of choice]] then states that for all elements $b:B$ one has the structure of an element $a:A$ such that $f(a) =_A b$, then one has a function $g:B \to A$ such that $f(g(b)) =_A b$. 
+
+$$\prod_{b:B} \sum_{a:A} f(a) =_A b \to \sum_{g:B \to A} \prod_{b:B} f(g(b)) =_A b$$
+
+There is also another definition of contractible type, which uses the notion of [[center of contraction]]; namely, that a type $A$ is a contractible type if it comes with a element $a:A$ and a witness that for all elements $b:A$, $a =_A b$
+
+$$\prod_{b:A} a =_A b$$
+
+Since the fiber of $f$ at $b$ is contractible, $g(b)$ is the [[center of contraction]] for the fiber of $f$ at $b$. 
+
+Thus, for all elements $a:A$ and $b:B$ and a witness $q(a, b):f(a) =_B b$, there is a witness $r(a, b, q(a, b)):a =_A g(b)$. Since the type $a =_A g(b)$ doesn't depend on $q(a, b)$, by the rules of [[function types]], the latter condition is the same as for all elements $a:A$ and $b:B$, a function $r(a, b):f(a) =_B b \to a =_A g(b)$. 
+
+...
+
+still to prove: that the function above is an equivalence of types for all $a:A$ and $b:B$. 
 
 ## Semantics
  {#Semantics}
