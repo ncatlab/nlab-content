@@ -15,10 +15,22 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-By analogy with [[graded algebra]], an **$\mathcal{M}$-graded monad** in a category $\mathcal{C}$ for a [[monoidal category]], $(\mathcal{M}, \otimes, I)$, is a [[lax monoidal functor]] from $\mathcal{M}$ to the [[endofunctor|endo]]-[[functor category]]: $(\mathcal{M}, \otimes, I) \to ([\mathcal{C}, \mathcal{C}], \circ, id_{\mathcal{C}})$. This generalizes the concept of [[monad]], which may be considered as graded by $\mathbf{1}$, the [[terminal category]]. This definition may be rephrased in terms of a lax action of $\mathcal{M}$ on $\mathcal{C}$.
+By analogy with [[graded algebra]], an **$\mathcal{M}$-graded monad** in a category $\mathcal{C}$ for a [[monoidal category]], $(\mathcal{M}, \otimes, I)$, is a [[lax monoidal functor]] from $\mathcal{M}$ to the [[endofunctor|endo]]-[[functor category]] of $\mathcal{C}$ (that whose [[monoid objects]] are [[monads]] on $\mathcal{C}$): 
 
-Equivalently, an $\mathcal{M}$-graded monad is a lax [[2-functor]] from the [[delooping#deloopings_of_higher_categorical_structures|delooping]] (or "suspension") of $\mathcal{M}$, $\mathbf{B} \mathcal{M} \to Cat$. Just as [[monads]] may be defined in any 2-category, $K$, this suggests that we may generalize graded monads to lax 2-functors $\mathbf{B} \mathcal{M} \to K$.
+$$
+  (\mathcal{M}, \otimes, I) 
+  \longrightarrow 
+  ([\mathcal{C}, \mathcal{C}], \circ, id_{\mathcal{C}})
+  \,.
+$$ 
+
+This generalizes the concept of a plain *[[monad]]* on $\mathcal{C}$, which is recoverd as the special case of grading by the the [[terminal category|terminal]] monoidal category $1$. 
+
+Equivalently, an $\mathcal{M}$-grading is a [[action of a monoidal category|lax action]] of $\mathcal{M}$ on $\mathcal{C}$, which in turn is equivalently a lax [[2-functor]] to [[Cat]] from the [[delooping#deloopings_of_higher_categorical_structures|delooping]] of $\mathcal{M}$, i.e.: $\mathbf{B} \mathcal{M} \to Cat$. 
+
+Just as [[monads]] may be defined in any [[2-category]] $K$ (besides the case $K = $[[Cat]]), this suggests that we may generalize graded monads to lax 2-functors $\mathbf{B} \mathcal{M} \to K$.
 
 A further generalization is to category-valued monads, lax functors from any category to $Cat$ ([OrchWadEad](#OrchWadEad)), and then to 2-category-valued monads from any 2-category.
 
@@ -81,6 +93,6 @@ A *useful feature* of such constructions is that the multiplication of the grade
 
 Graded monads are shown to be examples of [[enriched]] [[relative monads]] in:
 
-* [[Dylan McDermott]] and [[Tarmo Uustalu]]. _Flexibly graded monads and graded algebras_. International Conference on Mathematics of Program Construction. Springer, Cham, 2022.
+* [[Dylan McDermott]], [[Tarmo Uustalu]]. _Flexibly graded monads and graded algebras_, in: *Mathematics of Program Construction MPC 2022*, Lecture Notes in Computer Science **13544**, Springer (2022) &lbrack;[doi:10.1007/978-3-031-16912-0_4](https://doi.org/10.1007/978-3-031-16912-0_4)&rbrack;
 
 [[!redirects graded monads]]
