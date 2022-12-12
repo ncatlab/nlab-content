@@ -321,3 +321,5 @@ Note that the version on the left is the unwrapping of the loop; we would like a
 
 [[!redirects pure set]]
 [[!redirects pure sets]]
+
+[[!redirects pure set theory]]
