@@ -22,6 +22,8 @@
 
 There is a canonical way to turn any [[category]] in [[homotopy type theory]] into a [[weak equivalence|weakly equivalent]] [[univalent category]]. This can be thought of as an analogue of [[univalence]] but for [[isomorphisms]] instead of [[equivalence]].
 
+Intuitively, the Rezk completion is a "strictification via Yoneda" type result, in the style of [[Yoneda lemma for bicategories|strictification for bicategories via Yoneda]]. One starts with a category that may not have nice strictness properties, embeds it into the category of presheaves, which does have the nice strictness properties, and then restricts to representables, which gives something equivalent to the original category, but retains the nice strictness properties.
+
 ## Construction ##
 
 These results are from [UFP13](#UFP13). Note: [UFP13](#UFP13)  calls a [[category]] a "[[precategory]]" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
