@@ -27,6 +27,8 @@ in the group of Prof. [[Hisham Sati]] leading the <br/>
 [Research Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) <br/>
 (see at *[[CQTS]]* for latest activity).
 
+* [page at NYU AD](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts/urs-schreiber.html)
+
 
 ## contact
 
