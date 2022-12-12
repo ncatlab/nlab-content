@@ -285,11 +285,12 @@ $$\frac{\Gamma, x:\mathbb{N} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C
 Given a type $A$, we define the type $\mathrm{isContr}(A)$ representing whether $A$ is a [[contractible type]] as 
 $$\mathrm{isContr}(A) \coloneqq \sum_{a:A} \prod_{b:A} a =_A b$$
 
-Given types $A$ and $B$, function $f:A \to B$, and element $b:B$, we define the [[fiber]] of $f$ at $b$  $\mathrm{fiber}_{A, B}(f, y)$ as
-$$\mathrm{fiber}_{A, B}(f, y) \coloneqq \sum_{a:A} f(a) =_B b$$
+Given types $A$ and $B$ and functions $f:A \to B$ and $g:A \to B$, we define the type $\mathrm{isInv}(f, g)$ representing whether $g$ is an [[inverse function]] of $f$ as
+
+$$\mathrm{isInv}(f, g) \coloneqq \left(\prod_{b:B} f(g(b)) =_B b\right) \times \left(\prod_{a:A} \prod_{b:B} (f(a) =_B b) \to (a =_A g(b))\right)$$
 
 Given types $A$ and $B$ and function $f:A \to B$, we define the type $\mathrm{isEquiv}(f)$ representing whether $f$ is a [[equivalence of types]] as 
-$$\mathrm{isEquiv}(f) \coloneqq \prod_{b:B} \mathrm{isContr}(\mathrm{fiber}_{A, B}(f, b))$$
+$$\mathrm{isEquiv}(f) \coloneqq \sum_{g:B \to A} \mathrm{isInv}(f, g)$$
 
 Given types $A$ and $B$, we define the type of equivalences $A \simeq B$ as
 $$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{isEquiv}(f)$$
