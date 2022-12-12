@@ -36,6 +36,9 @@ The term "quantum supremacy" is due to:
 
 See also:
 
+* Rønnow et al. *Defining and detecting quantum speedup*, Science **345** 6195 (2014) 420-424 &lbrack;[doi:10.1126/science.1252319](https://doi.org/10.1126/science.1252319)&rbrack;
+
+
 * Wikipedia, *[Quantum supremacy](https://en.wikipedia.org/wiki/Quantum_supremacy)*
 
 Review:
