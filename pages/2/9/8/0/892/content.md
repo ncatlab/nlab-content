@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include (0,1)-category theory - contents]]
 =--
+#### Set theory
++-- {: .hide}
+[[!include set theory - contents]]
+=--
 =--
 =--
 
@@ -36,7 +40,7 @@ If $S$ is a set, then there exists a set $\mathcal{P}$ such that $A \in \mathcal
 
 One can then use the [[axiom of separation]] ([[bounded separation]] is enough) to prove that $\mathcal{P}$ may be chosen so that the subsets of $A$ are the *only* members of $\mathcal{P}$; the [[axiom of extensionality]] proves that this $\mathcal{P}$ is unique.
 
-Alternatively, one could include a primitive unary operator $\mathcal{P}(S)$ such that for all sets $S$, $A \subseteq S$ implies that $A \in \mathcal{P}(S)$. 
+Alternatively, one could include a [[powerset structure]], a primitive unary operator $\mathcal{P}(S)$ such that for all sets $S$, if for all sets $A$ and sets $B$, $B \in A$ implies that $B \in S$, then $A \in \mathcal{P}(S)$. 
 
 In [[structural set theory]], we state rather that there exists a set $\mathcal{P}$ which indexes the subsets of $A$ and prove uniqueness [[generalised the|up to unique isomorphism]].
 
