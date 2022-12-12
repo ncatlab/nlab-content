@@ -1,4 +1,6 @@
 
+* head of [Quantum Algorithms](https://www.tii.ae/quantum/our-research/quantum-algorithms) division at [QRC](https://www.tii.ae/quantum)-[TII](https://www.tii.ae/)
+
 * [institute page](https://www.tii.ae/team/prof-leandro-aolita)
 
 * [GoogleScholar page](https://scholar.google.ca/citations?user=AHJJnvMAAAAJ&hl=en)
