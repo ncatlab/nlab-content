@@ -91,7 +91,7 @@ Review:
 * [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lectures 2,3 in: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
 
 
-* [[Dylan Wilson]], _James construction_, 2017 ([pdf](http://www.math.uchicago.edu/~dwilson/pretalbot2017/james-construction.pdf))
+* [[Dylan Wilson]], _James construction_, 2017 ([pdf](https://web.archive.org/web/20170829072533/http://www.math.uchicago.edu/~dwilson/pretalbot2017/james-construction.pdf))
 
 * Wikipedia, _[James reduced product](https://en.wikipedia.org/wiki/James_reduced_product)_
 
