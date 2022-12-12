@@ -46,8 +46,7 @@ At least if some linear structure is present and respected (such as when $\mathc
 
 Similarly, compatible actions from both sides, such as for a [[bimodule]], give a notion of *[[bimodule category]].
 
-Beware that, alternatively, an old pun promoted in [McCrudden (2000)](#McCrudden00) is still fairly widely used by some authors, who find it reasonable to speak of "actegories"[^1] (and then, for better or worse, "[[biactegory|biactegories]]" for the two-sided case).
-
+Note that the term **actegory**, introduced by [McCrudden (2000)](#McCrudden00)[^1], is often used in the literature for this concept, and consequently **[[biactegory]]** for the two-sided case. However, since "actegory" is a single transposition away from "category", we prefer to use the explicit terminology on this page and elsewhere.
 
 [^1]: From [Cockett & Pastro (2007)](#CockettPastro07): "The term *actegory* is used to describe the situation of a monoidal category “acting” on a category.  They first appeared (under a different name) in the work of B&eacute;nabou as a simple example of a bicategory. B. Pareigis developed the theory of actegories (again under a different name) and showed there usefulness in the representation theory of monoids and comonoids. The word “actegory” was first suggested at the Australian Category Seminar and first appeared in print in the thesis of P. McCrudden where they were used to study categories of representations of coalgebroids."
 
