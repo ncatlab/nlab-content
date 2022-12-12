@@ -61,5 +61,5 @@ Review:
 
 * [[Leandro Aolita]], *Imaginary-time evolution algorithms for intermediate-scale quantum signal processors*, talk at *[Atomtronics@AbuDhabi2021](https://qrcseminar.tii.ae)* (2021) &lbrack;[video](https://youtu.be/G2eigbPiMKU)&rbrack;
 
-
+[[!redirects repeat-until-success]]
 
