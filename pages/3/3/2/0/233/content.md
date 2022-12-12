@@ -12,6 +12,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -436,7 +437,7 @@ $$
 
 * [[action]], [[∞-action]]
 
-* **module**, [[(∞,1)-module]], [[2-module]]
+* **module**, [[(∞,1)-module]], [[2-module]], [[module category]]
 
   * [[operad for modules over an algebra]]
 
