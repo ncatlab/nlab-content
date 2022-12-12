@@ -53,7 +53,7 @@ There is also another definition of equivalence, which uses the notion of [[cent
 
 $$\prod_{b:A} a =_A b$$
 
-Additionally, for every $b:B$, one could get an element $a:A$ via a function $g:B \to A$. This gives an alternate definition: A function $f:A \to B$ is an equivalence if it comes with 
+Additionally, for every $b:B$, one could get an element $a:A$ via a function $g:B \to A$, since the [[principle of unique choice]] and the contractible fibers implies such a function. This gives an alternate definition: A function $f:A \to B$ is an equivalence if it comes with 
 
 * a function $g:B \to A$ 
 * for all elements $b:B$, a witness $p(b):f(g(b)) =_B b$, 
