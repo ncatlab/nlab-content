@@ -1,10 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Categorical algebra
++-- {: .hide}
+[[!include categorical algebra -- contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-By analogy with [[graded algebra]], an **$\mathcal{M}$-graded monad** in a category $\mathcal{C}$ for a [[monoidal category]], $(\mathcal{M}, \otimes, I)$, is a [[lax monoidal functor]], $(\mathcal{M}, \otimes, I) \to ([\mathcal{C}, \mathcal{C}], \circ, id_{\mathcal{C}})$. This generalizes the concept of [[monad]], which may be considered as graded by $\mathbf{1}$, the [[terminal category]]. This definition may be rephrased in terms of a lax action of $\mathcal{M}$ on $\mathcal{C}$.
+By analogy with [[graded algebra]], an **$\mathcal{M}$-graded monad** in a category $\mathcal{C}$ for a [[monoidal category]], $(\mathcal{M}, \otimes, I)$, is a [[lax monoidal functor]] from $\mathcal{M}$ to the [[endofunctor|endo]]-[[functor category]]: $(\mathcal{M}, \otimes, I) \to ([\mathcal{C}, \mathcal{C}], \circ, id_{\mathcal{C}})$. This generalizes the concept of [[monad]], which may be considered as graded by $\mathbf{1}$, the [[terminal category]]. This definition may be rephrased in terms of a lax action of $\mathcal{M}$ on $\mathcal{C}$.
 
 Equivalently, an $\mathcal{M}$-graded monad is a lax [[2-functor]] from the [[delooping#deloopings_of_higher_categorical_structures|delooping]] (or "suspension") of $\mathcal{M}$, $\mathbf{B} \mathcal{M} \to Cat$. Just as [[monads]] may be defined in any 2-category, $K$, this suggests that we may generalize graded monads to lax 2-functors $\mathbf{B} \mathcal{M} \to K$.
 
@@ -59,9 +71,9 @@ A *useful feature* of such constructions is that the multiplication of the grade
 
 * {#Perrone} [[Paolo Perrone]], _Categorical Probability and Stochastic Dominance in Metric Spaces_, ([thesis](http://www.paoloperrone.org/phdthesis.pdf))
 
-* {#FPKan} [[Tobias Fritz]] and Paolo Perrone, _A Criterion for Kan Extensions of Lax Monoidal Functors_, ([arXiv:1809.10481](https://arxiv.org/abs/1809.10481)).
+* {#FPKan} [[Tobias Fritz]], [[Paolo Perrone]], _A Criterion for Kan Extensions of Lax Monoidal Functors_, ([arXiv:1809.10481](https://arxiv.org/abs/1809.10481)).
 
-* {#FPKant} [[Tobias Fritz]] and Paolo Perrone, _A Probability Monad as the Colimit of Spaces of Finite Samples_, ([arXiv:1712.05363](https://arxiv.org/abs/1712.05363)).
+* {#FPKant} [[Tobias Fritz]], [[Paolo Perrone]], _A Probability Monad as the Colimit of Spaces of Finite Samples_, ([arXiv:1712.05363](https://arxiv.org/abs/1712.05363)).
 
 * {#OrchPet} [[Dominic Orchard]], Tomas Petricek, _Embedding effect systems in Haskell_, ([pdf](https://www.doc.ic.ac.uk/~dorchard/publ/haskell14-effects.pdf))
 
