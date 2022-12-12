@@ -53,6 +53,10 @@ Indication that the tension is not resolved by effects in [[inhomogeneous cosmol
 
 * Hao-Yi Wu, Dragan Huterer, _Sample variance in the local measurements of the Hubble constant_, Monthly Notices of the Royal Astronomical Society, Volume 471, Issue 4, November 2017, Pages 4946–4955 ([arXiv:1706.09723](https://arxiv.org/abs/1706.09723))
 
+Indications that the Hubble constant is decreasing over time:
+
+* Xuan-Dong Jia, Jian-Ping Hu, Fa-Yin Wang, *The evidence for a decreasing trend of Hubble constant*, ([arXiv:2212.00238](https://arxiv.org/abs/2212.00238))
+
 [[!redirects Hubble constant]]
 
 [[!redirects Hubble tension]]
