@@ -123,10 +123,16 @@ The coherence law of [[associativity]] is stated in
 
 
 [[!redirects coherence laws]]
+
 [[!redirects coherent]]
 [[!redirects coherence]]
 [[!redirects coherences]]
 
 [[!redirects coherence condition]]
+[[!redirects coherence conditions]]
+
 [[!redirects coherence relation]]
+[[!redirects coherence relations]]
+
+
 
