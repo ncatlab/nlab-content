@@ -9,7 +9,10 @@
   * [[propositional equality]]
   * [[set]], [[element]], [[function]], [[relation]]
   * [[universe]], [[small set]], [[large set]]
-  * [[pair set]], [[unordered pair]], [[ordered pair]],
+* [[material set theory]]
+  * [[membership relation]], [[propositional equality]], [[axiom of extensionality]]
+  * [[pairing structure]], [[axiom of pairing]]
+  * [[union structure]], [[axiom of union]]
 * presentations of set theory
   * [[first-order set theory]]
   * [[unsorted set theory]]
