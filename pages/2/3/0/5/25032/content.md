@@ -25,7 +25,7 @@ An **ordered pairing structure** on $V$ is a pairing structure $(-,-):V \times V
 
 ## Foundational concerns
 
-In any [[material set theory]], instead of postulating the mere existence of a set $P$ in which $a \in P$ and $b \in P$ one could add a primitive binary operation $P(a, b)$ which takes material sets $a$ and $b$ and returns a material set $P(a, b)$ such that for all $a$ and $b$, $a \in P(a, b)$ and $b \prec P(a, b)$
+In any [[material set theory]], instead of postulating the mere existence of a set $P$ in which $a \in P$ and $b \in P$ one could add a primitive binary operation $P(a, b)$ which takes material sets $a$ and $b$ and returns a material set $P(a, b)$ such that for all $a$ and $b$, $a \in P(a, b)$ and $b \in P(a, b)$
 
 ## See also
 
