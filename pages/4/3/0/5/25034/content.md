@@ -35,5 +35,7 @@ In any [[material set theory]], instead of postulating the mere existence of a s
 
 * [[powerset structure]]
 
+* [[natural numbers structure]]
+
 [[!redirects union structure]]
 [[!redirects union structures]]
