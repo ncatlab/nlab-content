@@ -13,6 +13,7 @@
   * [[membership relation]], [[propositional equality]], [[axiom of extensionality]]
   * [[pairing structure]], [[axiom of pairing]]
   * [[union structure]], [[axiom of union]]
+  * [[powerset structure]], [[axiom of power sets]]
 * presentations of set theory
   * [[first-order set theory]]
   * [[unsorted set theory]]
