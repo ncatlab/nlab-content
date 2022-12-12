@@ -10,6 +10,19 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 \linebreak
 
+\begin{imagefromfile}
+    "file_name": "CQTS-Main-Poster-221212.jpg",
+   "float": "right",
+    "width": 590,
+    "unit": "px",
+    "margin": {
+        "top": -50,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
 #Contents#
 * table of contents
@@ -134,7 +147,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 * 12-15 Jan 2023 (upcoming)
 
-  **M-Theory and Mathematics 2023**
+  **M-Theory and Mathematics 2023** -- *Classical and Quantum Aspects*
 
 
 
