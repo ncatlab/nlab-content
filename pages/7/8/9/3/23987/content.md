@@ -331,9 +331,51 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 \linebreak
 
+### Dec 2022
+
+\linebreak
+
+* {#AolitaDec2022} 12 Dec 2022
+
+  [[Leandro Aolita]]
+
+  **Quantum Algorithms, from noisy intermediate scale devices through the early fault-tolerant era** 
+
+  > Reaching long-term maturity in [[quantum computation]] science and technology relies on the field delivering practically useful application in a short term. In this colloquium, I will discuss ideas for the noisy intermediate scale (NISQ) and early [[quantum error correction|fault-tolerant]] eras. I will divide my talk into two parts. In the first part, I will make a brief non-technical introduction to the field, its relevance to the UAE, and the main lines of research of the [Quantum Algorithms](https://www.tii.ae/quantum/our-research/quantum-algorithms) division at [QRC](https://www.tii.ae/quantum)-[TII](https://www.tii.ae/). 
+
+  > In the second one, I will try to convey some level of technical detail about our work. In particular, I will first present a hybrid classical-quantum algorithm to simulate high-connectivity quantum circuits from low-connectivity ones. This provides a versatile toolbox for both error-mitigation and circuit boosts useful for NISQ computations. Then, I will move on to algorithms for the forthcoming quantum hardware of the early fault-tolerant era: I will present a new generation of high-precision algorithms for [simulating quantum imaginary-time evolution](repeat-until-success+computing#AolitaEtAl21) (QITE) that are significantly simpler than current schemes based on quantum amplitude amplification (QAA). QITE is central not only to ground-state optimisations but also to partition-function estimation and Gibbs-state sampling, with a plethora of computational applications. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+\linebreak
+
 ***
 
 \linebreak
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -600,6 +642,7 @@ Stone-von Neumann**
   > In his wonderful paper "Remarks on classical invariant theory", Roger Howe suggested that his classical duality should be extendable to superalgebras/supergroups. In a recent work with Hadi Salmasian, we obtained a classification of irreducible reductive dual pairs in a real or complex orthosymplectic Lie supergroup $SpO(V)$. Moreover, we proved a "double commutant theorem" for all dual pairs in a real or complex orthosymplectic Lie supergroup.
 
   > In my talk, I will spend quite some time explaining how the [[Howe duality]] works in the symplectic case and then talk about the results we obtained in our paper with H. Salmasian. &lbrack;[arXiv:2208.09746](https://arxiv.org/abs/2208.09746)&rbrack;
+
 
 
 \linebreak
