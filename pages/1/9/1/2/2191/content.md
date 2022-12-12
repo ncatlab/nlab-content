@@ -96,16 +96,16 @@ Conversely, if module category is such that the functor $(-)\oslash d:C\to D$ ha
 
 * {#KJ01} [[Max Kelly]], [[George Janelidze]], _A note on actions of a monoidal category_, Theory and Applications of Categories, Vol. 9, 2001, No. 4, pp 61--91 [link](http://www.tac.mta.ca/tac/volumes/9/n4/9-04abs.html)
 
-* {#McCrudden00} P. McCrudden, *Categories of representations of coalgebroids*, Advances in Mathematics __154__ 2 (2000) 299-332 &lbrack;[doi:10.1006/aima.2000.1926](https://doi.org/10.1006/aima.2000.1926)&rbrack;
+* {#McCrudden00} P. McCrudden, *Categories of representations of coalgebroids*, Advances in Mathematics __154__ 2 (2000) 299--332 &lbrack;[doi:10.1006/aima.2000.1926](https://doi.org/10.1006/aima.2000.1926)&rbrack;
 
-* P. Schauenburg, _Actions of monoidal categories and generalized Hopf smash products_, J. Algebra __270__ (2003) 521&#8211;563 (remark: actegories with action in the strong monoidal sense)
+* P. Schauenburg, _Actions of monoidal categories and generalized Hopf smash products_, J. Algebra __270__ (2003) 521--563 (remark: actegories with action in the strong monoidal sense)
 
-* [[Zoran Škoda]], _Distributive laws for actions of monoidal categories_, [arxiv:0406310](http://arxiv.org/abs/math/0406310), _Equivariant monads and equivariant lifts versus a 2-category of distributive laws_, [arxiv:0707.1609](http://arxiv.org/abs/0707.1609)
+* [[Zoran Škoda]], _Distributive laws for actions of monoidal categories_, [arXiv:0406310](https://arxiv.org/abs/math/0406310), _Equivariant monads and equivariant lifts versus a 2-category of distributive laws_, [arXiv:0707.1609](https://arxiv.org/abs/0707.1609)
 
 * [[J. R. B. Cockett]], Craig Pastro, _The logic of message-passing_ [arXiv:math/0703713](https://arxiv.org/abs/math/0703713).
 
 A recent survey of many basic definitions and operations on actegories is
 
-* Matteo Capucci, Bruno Gavranovic, _Actegories for the working amthematician_, [arxiv](https://arxiv.org/abs/2203.16351), 2022
+* Matteo Capucci, Bruno Gavranović, _Actegories for the working amthematician_, [arXiv:2203.16351](https://arxiv.org/abs/2203.16351)
 
 [[!redirects actegories]]
