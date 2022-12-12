@@ -13,67 +13,67 @@
 =--
 =--
 
-
-
-
 # Equivalences in type theory
 * table of contents
 {:toc}
 
 ## Idea
 
-In [[homotopy type theory]], the notion of **equivalence** is an internalization of the notion of [[equivalence]] or [[homotopy equivalence]].
+In [[dependent type theory]] with [[axiom K]] or [[uniqueness of identity proofs]], the notion of **equivalence** corresponds roughly to the notion of [[bijection]] or [[one-to-one correspondence]] in [[set theory]]. 
 
-These are sometimes called **[[weak equivalences]]**, but there is nothing [[weak equivalence|weak]] about them (in particular, they always have homotopy inverses). 
-
+In the context of dependent type theories without [[axiom K]] or [[uniqueness of identity proofs]], such as [[homotopy type theory]], **equivalence** corresponds to the notion of [[equivalence]] in [[groupoid|groupoid theory]] and the notion of [[homotopy equivalence]] in [[homotopy theory]]. These are sometimes called **[[weak equivalences]]**, but there is nothing [[weak equivalence|weak]] about them (in particular, they always have homotopy inverses). 
 
 ## Definition
 
 We work in [[intensional type theory|intensional]] [[type theory]] with [[dependent sums]], [[dependent products]], and [[identity types]].  
 
-+-- {: .num_defn}
-###### Definition
+### As functions with contractible fibers
 
-For $f\colon A\to B$ a [[term]] of [[function type]]; we define new [[dependent types]] as follows:
+Given types $A$ and $B$, a function $f:A \to B$, and an element $b:B$, the [[fiber type]] of $f$ at $b$ is the [[dependent sum type]] 
 
-the [[homotopy fiber type]]
+$$\mathrm{fiber}(f,b) \coloneqq \sum_{a:A} f(a) = b$$
 
-$$
-  f \colon A \to B, b\colon B \vdash hfiber(f,b) \coloneqq \sum_{a\colon A} (f(a) = b)
-$$
+the [[proposition]] that a type $C$ is a [[contractible type]] is
 
-and the [[proposition]] that the homotopy fiber type is a (dependently) [[contractible type]]:
+$$\mathrm{isContr}(C) \coloneqq \sum_{a:C} \prod_{b:C} a =_C b$$
 
-$$
-  f \colon A \to B 
-   \vdash 
-   isEquiv(f) \coloneqq \prod_{b\colon B} isContr(hfiber(f,b))
-  \,.
-$$
+and the [[proposition]] that a function $f$ has contractible fibers 
 
-We say $f$ is an **equivalence** if $isEquiv(f)$ is an [[inhabited type]].
+$$\mathrm{hasContrFibers}(f) \coloneqq \prod_{b:B} \mathrm{isContr}(\mathrm{fiber}(f,b))$$
 
-=--
+We say $f$ is an **equivalence** if it comes with an witness $p:\mathrm{hasContrFibers}(f)$; that is, a function is an equivalence if all of its [[fiber types]] are [[contractible types]].
 
-That is, a function is an equivalence if all of its [[homotopy fiber types]] are [[contractible types]] (in a way which depends continuously on the base point).
+Given two types $A$ and $B$, the **type of equivalences** from $A$ to $B$ is the [[dependent sum type]]
 
-+-- {: .num_defn}
-###### Definition
+$$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{hasContrFibers}(f)$$
 
-For $X, Y : Type$ two [[types]], the **type of equivalences** from $X$ to $Y$ is the [[dependent sum]]
+### As functions with inverse functions giving the center of contractions of fibers
 
-$$
-  Equiv(X,Y)
-  =
-  (X \stackrel{\simeq}{\to}Y)
-  \coloneqq
-  \sum_{f : (X \to Y)}
-  isEquiv(f)
-  \,.
-$$
+There is also another definition of equivalence, which uses the notion of [[center of contraction]]; namely, that a type $A$ is a contractible type if it comes with a element $a:A$ and a witness that for all other elements $b:A$, $a =_A b$
 
-=--
+$$\prod_{b:A} a =_A b$$
 
+Additionally, for every $b:B$, one could get an element $a:A$ via a function $g:B \to A$. This gives an alternate definition: A function $f:A \to B$ is an equivalence if it comes with 
+
+* a function $g:B \to A$ 
+* for all elements $b:B$, a witness $p(b):f(g(b)) =_B b$, 
+* for all elements $a:A$ and $b:B$ and a witness $q(a, b):f(a) =_B b$, a witness $r(a, b, q(a, b)):a =_A g(b)$. 
+
+The latter condition is the same as 
+
+* for all elements $a:A$ and $b:B$, a function $r(a, b):f(a) =_B b \to a =_A g(b)$. 
+
+$$\mathrm{isEquiv}(f) \coloneqq \sum_{g:B \to A} \left(\prod_{b:B} f(g(b)) =_B b\right) \times \left(\prod_{a:A} \prod_{b:B} (f(a) =_B b) \to (a =_A g(b))\right)$$
+
+In this definition, witnesses of $f$ being an equivalences are [[inverse functions]]. 
+
+### As functions with a left and a right inverse
+
+There is also another definition of an equivalence: a function which has both a left inverse and a right inverse:
+
+$$\mathrm{hasLeftRightInv}(f) \coloneqq \left(\sum_{g:B \to A} \prod_{b:B} f(g(b)) =_B b\right) \times \left(\sum_{h:B \to A} \prod_{a:A} a =_A h(f(a))\right)$$
+
+### Other variations
 
 Three variations of this definition are, informally:
 
@@ -87,7 +87,8 @@ By formalizing these, we obtain types $homotopyEquiv(f)$, $isAdjointEquiv(f)$, a
 
 This is not true for $homotopyEquiv(f)$, which is not in general an h-prop even with function extensionality.  However, often the most convenient way to show that $f$ is an equivalence is by exhibiting a term in $homotopyEquiv(f)$ (although such a term could just as well be interpreted to lie in $isHIso(f)$ with $h\coloneqq g$).
 
-### As one-to-one correspondences ###
+### As one-to-one correspondences
+
 Let $\mathcal{U}$ be a [[universe]] and $A:\mathcal{U}$ and $B:\mathcal{U}$ be terms of the universe, and $R :A \times B \to \mathcal{U}$ be a [[correspondence]] between $A$ and $B$. We define the property of $R$ being **one-to-one** as follows:
 
 $$isOneToOne(R) \coloneqq \left(\prod_{a:A} \mathrm{isContr}\left(\sum_{b:B} R(a,b)\right)\right) \times \left(\prod_{b:B} \mathrm{isContr}\left(\sum_{a:A} R(a,b)\right)\right)$$
@@ -133,6 +134,16 @@ $$\frac{\Gamma, f:A \to B \vdash p(f):\mathrm{isEquiv}(f) \quad \Gamma \vdash g:
 
 Uniqueness rules for equivalence types:
 $$\frac{\Gamma \vdash h:A \simeq B}{\Gamma \vdash \eta_\simeq:h =_{A \simeq B} (\pi_1(h), \pi_2(h))}$$
+
+### Coinductive definition
+
+Given two types $A$ and $B$ and two functions $f:A \to B$ and $g:B \to A$, $f$ and $g$ are inverses of each other if for every element $a:A$ and $b:A$, there is an equivalence of types between $f(a) =_B b$ and $a =_A g(b)$:
+
+$$\mathrm{isInv}(f, g) \coloneqq \prod_{a:A} \prod_{b:B} (f(a) =_B b) \simeq (a =_A g(b))$$
+
+This leads to a coinductive definition of the type of equivalences
+
+$$A \simeq B \coloneqq \sum_{f:A \to B} \sum_{g:B \to A} \prod_{a:A} \prod_{b:B} (f(a) =_B b) \simeq (a =_A g(b))$$
 
 ## Semantics
  {#Semantics}
