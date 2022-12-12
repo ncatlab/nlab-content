@@ -13,13 +13,41 @@ More generally, in any [[concrete category]], the inverse of any [[isomorphism]]
 
 ### In type theory
 
-In type theory, given [[types]] $A$ and $B$ and a [[function]] $f:A \to B$,  the __inverse function__ of $f$ (if it exists) is the function $f^{-1}:B \to A$ such that $f^{-1}$ is a [[retraction]] of $f$, and for each element $b:B$, $f^{-1}(b)$ is the [[center of contraction]] of the fiber of $f$ at $b$. 
+In type theory, there are two different kinds of inverse functions, quasi-inverse functions, various kinds of more or less coherent quasi-inverse functions, and inverse functions. 
 
-$$\prod_{b:B} (f(f^{-1}(b)) =_B b) \times \prod_{q:\sum_{a:A} f(a) =_A b} (\pi_1(q) =_A f^{-1}(b))$$
+#### Quasi-inverse functions
 
-Equivalently, the inverse function of $f$ (if it exists) is the function $f^{-1}:B \to A$ such that $f^{-1}$ is a [[retraction]] of $f$ and for each element $a:A$ and $b:B$, there is a function $r(a, b):(f(a) = b) \to (a = f^{-1}(b))$. 
+Given [[types]] $A$ and $B$ and a [[function]] $f:A \to B$, a __quasi-inverse function__ of $f$ is a function $g:B \to A$ such that $g$ is a [[retraction]] and a [[section]] of $f$. 
 
-$$\left(\prod_{b:B} f(f^{-1}(b)) =_B b\right) \times \left(\prod_{a:A} \prod_{b:B} (f(a) =_B b) \to (a =_A f^{-1}(b))\right)$$
+$$\prod_{b:B} (f(g(b)) =_B b) \times \prod_{a:A} (a =_A g(f(a)))$$
+
+Equivalently, there are functions $\epsilon_0(a, b):(a =_A g(b)) \to (f(a) =_B b)$ and $\eta_0(a, b):(f(a) =_B b) \to (a =_A g(b))$ for all $a:A$ and $b:B$. 
+
+$$\prod_{a:A} \prod_{b:B} ((a =_A g(b)) \to (f(a) =_B b)) \times ((f(a) =_B b) \to (a =_A g(b)))$$
+
+A function might have multiple quasi-inverse functions. 
+
+#### $n$-quasi inverse functions
+
+There are also variants of quasi-inverse functions where they are the inverse functions for $n$-truncated types. 
+
+For example, every function $g:B \to A$ is a (-1)-quasi inverse function, because it is an inverse function for [[h-propositions]] $A$ and $B$. 
+
+A quasi-inverse function is a 0-quasi inverse function, because it is an inverse function for [[h-sets]] $A$ and $B$. 
+
+A 1-quasi-inverse function is a quasi-inverse function with functions $\epsilon_0(a, b):(a =_A g(b)) \to (f(a) =_B b)$ and $\eta_0(a, b):(f(a) =_B b) \to (a =_A g(b))$ for all $a:A$ and $b:B$ such that for all $c:a =_A g(b)$ and $d:f(a) =_B b$, 
+there are functions
+$$\epsilon_1(a, b, c, d):(\epsilon_0(a, b, c) =_{f(a) =_B b} d) \to (c =_{a =_A g(b)} \eta_0(a, b, d))$$
+$$\eta_1(a, b, c, d):(c =_{a =_A g(b)} \eta_0(a, b, d)) \to (\epsilon_0(a, b, c) =_{f(a) =_B b} d)$$
+This is an inverse function for [[h-groupoids]] $A$ and $B$. 
+
+So on and so forth. 
+
+#### Inverse functions
+
+Given [[types]] $A$ and $B$ and a [[function]] $f:A \to B$, an __inverse function__ of $f$ is a function $g:B \to A$ with a function $\epsilon(a, b):(f(a) =_B b) \to (a =_A g(b))$ for all $a:A$ and $b:B$, such that for all identities $p:a =_A g(b)$, the fiber of $\epsilon(a, b)$ at $p$ is contractible. 
+
+$$\mathrm{isInv}(f, g) \coloneqq \prod_{a:A} \prod_{b:B} \sum_{\epsilon(a, b):(f(a) =_B b) \to (a =_A g(b))} \prod_{p:a =_A g(b)} \mathrm{isContr}(\mathrm{fiber}(\epsilon(a, b), p))$$
 
 ## Related concepts
 
@@ -37,3 +65,8 @@ Not really related
 [[!redirects inverse functions]]
 [[!redirects inverse map]]
 [[!redirects inverse maps]]
+
+[[!redirects quasi-inverse function]]
+[[!redirects quasi-inverse functions]]
+[[!redirects quasi-inverse map]]
+[[!redirects quasi-inverse maps]]
