@@ -29,6 +29,10 @@ More generally, an **absolutely dense morphism** in a [[proarrow equipment]] $K 
 
 ## References
 
+(Absolutely dense functors are called **Cauchy dense** in the following paper of [[Brian Day]].)
+
+- [[Brian Day]]. _Density presentations of functors_. Bulletin of the Australian Mathematical Society 16.3 (1977): 427-448.
+
 - [[Jiri Adamek]], [[Robert El Bashir]], [[Manuela Sobral]], [[Jiri Velebil]]. _On functors which are lax epimorphisms_. TAC. (2001)
 
 - [[Fernando Lucatelli Nunes]] and [[Sousa Lurdes]]. _On lax epimorphisms and the associated factorization_. Journal of Pure and Applied Algebra 226.12 (2022)
