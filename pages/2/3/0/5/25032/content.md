@@ -40,7 +40,10 @@ In any [[material set theory]], instead of postulating the mere existence of a s
 ## See also
 
 * [[axiom of pairing]] 
+
 * [[union structure]]
+
+* [[powerset structure]]
 
 ## References
 
