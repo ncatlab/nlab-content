@@ -21,6 +21,8 @@ This could be simplified down to the statement that $f(a) = b$ if and only if $a
 
 $$\forall a \in A.\forall b \in B.((f(a) =_B b) \iff (a =_A f^{-1}(b))$$
 
+This is an [[adjoint equivalence]] between two thin univalent groupoids. 
+
 ## Terminology
 
 In older literature, a bijection may be called a __one-to-one correspondence__, or (as a compromise) __bijective correspondence__.
