@@ -34,12 +34,12 @@ $$\mathrm{sqrt}(x) \coloneqq e^{\frac{1}{2} \ln(x)}$$
 Let us define continuous functions $f_n:[0, \infty) \to [0, \infty)$: 
 $$f_n(x) = \begin{cases}
 1/2^n & \mathrm{when}\; x \leq 1/4^n \\
-\mathrm{sqrt}(x) & \mathrm{when}\; x \geq 1/4^n \\
+e^{\frac{1}{2} \ln(x)} & \mathrm{when}\; x \geq 1/4^n \\
 \end{cases}$$
 As stated, that requires knowing whether $x \leq 1/4^n$ or $x \geq 1/4^n$, but it is possible to work around this by patching three functions together:
 
- * $f^{-}_n:[0,1/4^n) \to [0, \infty)$ is the constant function with value $1/2^n$,
- * $f^{+}_n:(0,\infty) \to [0, \infty)$ is defined as $\max(1/2^n,\mathrm{sqrt}(x))$.
+ * $f^{0}_k:[0,1/4^k) \to \mathbb{R}$ is the linear function $f(x) = 2^k x$,
+ * $f^{+}_k:(0,\infty) \to \mathbb{R}$ is defined as $\min(2^k x,\exp(\frac{1}{2} \ln(x)))$.
 
 Since these functions agree on their overlap, and their domains comprise all of $[0, \infty)$ we do get a total function $f_n:[0, \infty) \to [0, \infty)$ as a result. 
 
