@@ -40,7 +40,7 @@ The cut elimination of [[second order linear logic]] is strongly normalizable, s
 
 ## References
 
-On [[strong normalization]]:
+On [[strong normalization]] of second order linear logic:
 
 * {#PaganiTortora09} [[Michele Pagani]], [[Lorenzo Tortora de Falco]], *Strong Normalization Property for Second Order Linear Logic* (2009) &lbrack;[pdf](https://www.irif.fr/~michele/snllTCS-1.pdf)&rbrack;
 
