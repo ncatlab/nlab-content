@@ -55,15 +55,6 @@ Every ordered local ring has a [[preorder]] given by $a \leq b \coloneqq \neg (b
 
 Let $D$ be the [[ideal]] of all non-invertible elements in $R$. Then the quotient ring $R/D$ is an [[ordered field]]. 
 
-### Ordered local Artinian real algebras
-
-In synthetic differential geometry, one uses ordered local rings which are also [[commutative algebra|commutative $\mathbb{R}$-algebras]] whose ideal of zero divisors is a [[nilradical]] and which have no infinite elements. 
-
-Given such an $\mathbb{R}$-algebra $A$, since $A$ is a [[local ring]], the quotient $A/I$ is the real numbers $\mathbb{R}$, and the canonical function used in defining the quotient is the function $\Re:A \to \mathbb{R}$ which takes a number $a \in A$ to its purely real component $\Re(a) \in \mathbb{R}$. Since $A$ is an ordered $\mathbb{R}$-algebra, there is a [[strictly monotone]] [[ring homomorphism]] $h:\mathbb{R} \to A$. A number $a \in A$ is purely real if $h(\Re(a)) = a$, and a number $a \in A$ is purely [[infinitesimal]] if it is in the [[fiber]] of $\Re$ at the real number $0$. Zero is the only number in $A$ which is both purely real and purely infinitesimal. 
-
-The ring homomorphism $h:\mathbb{R} \to A$ preserves [[smooth functions]]: given a natural number $n \in \mathbb{N}$ and a purely infinitesimal number $\epsilon \in I$ such that $\epsilon^{n + 1} = 0$, then for every [[smooth function]] $f \in C^\omega(\mathbb{R})$, there is a function $f_A:A \to A$ such that for all real numbers $x \in \mathbb{R}$, $f_A(h(x)) = h(f(x))$ and 
-$$f_A(h(x) + \epsilon) = \sum_{i = 0}^{n} \frac{1}{i!} h\left(\frac{d^i f}{d x^i}(x)\right) \epsilon^i$$ 
-
 ## Examples
 
 * Every [[ordered field]] is an ordered local ring where every non-positive non-negative element is equal to zero. 
@@ -77,6 +68,8 @@ $$f_A(h(x) + \epsilon) = \sum_{i = 0}^{n} \frac{1}{i!} h\left(\frac{d^i f}{d x^i
 * [[local ring]]
 
 * [[ordered field]]
+
+* [[ordered Artinian local ring]]
 
 [[!redirects ordered local ring]]
 [[!redirects ordered local rings]]
