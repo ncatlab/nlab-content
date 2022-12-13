@@ -93,7 +93,13 @@ The definition of the Archimedean property for an ordered field is given in sect
 [[!redirects nonarchimedean field]]
 [[!redirects nonarchimedean fields]]
 
+[[!redirects archimedean ordered field]]
+[[!redirects archimedean ordered fields]]
+
 [[!redirects Archimedean field]]
 [[!redirects Archimedean fields]]
 [[!redirects non-Archimedean field]]
 [[!redirects non-Archimedean fields]]
+
+[[!redirects Archimedean ordered field]]
+[[!redirects Archimedean ordered fields]]
