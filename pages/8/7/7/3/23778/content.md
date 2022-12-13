@@ -69,6 +69,8 @@ Then the function $f(x) \coloneqq (-1)^{1_{\mathbb{Q}}(x)} \sqrt{x}$ is a real s
 
 * [[Euclidean field]]
 
+* [[real nth root function]]
+
 ## References 
 
 * {#Richman2010} [[Fred Richman]] (2010). _Algebraic functions, calculus style_. [Fred Richman's documents](http://math.fau.edu/richman/html/docs.htm).
