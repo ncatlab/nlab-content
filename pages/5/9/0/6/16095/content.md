@@ -71,7 +71,19 @@ to be continued...
 
 ## In constructive mathematics
 
-The given proof of the inverse function theorem above relies on the [[mean value theorem]], which in [[constructive mathematics]] is only true for functions that are [[uniformly differentiable]] on every closed subinterval in the domain of the function. There might be other proofs which might not rely on the [[mean value theorem]] and could prove the inverse function theorem for continuously differentiable functions. 
+The given proof of the inverse function theorem above relies on the [[mean value theorem]], which in [[constructive mathematics]] is only true for [[uniformly differentiable functions]]. There might be other proofs which might not rely on the [[mean value theorem]] and could prove the inverse function theorem for continuously differentiable functions. 
+
+## As an axiom for Archimedean ordered fields
+
+While [[continuously differentiable functions]] and [[locally uniformly differentiable functions]] are well-defined in every [[Archimedean ordered field]], the inverse function theorem does not hold in all Archimedean ordered fields. One could instead consider adding the inverse function theorem as an axiom to an arbitrary Archimedean ordered field $R$. There are a few axioms which could be used here 
+
+* For any Archimedean ordered field $R$, the **continuously differentiable inverse function axiom** for $R$ states that given any differentiable function $f:I \to R$ on an open subinterval $I \subseteq R$ such that its derivative $\frac{d f}{d x}:I \to R$ is pointwise continuous and always apart from zero, there is a unique differentiable function $f^{-1}:\mathrm{im}(f) \to R$ called the **inverse function** with pointwise continuous derivative $\frac{d f^{-1}}{d x}:\mathrm{im}(f) \to R$ such that $f^{-1}(f(a)) = a$ and for all elements $a \in \mathrm{im}(f)$ and
+$$\frac{d f}{d x}\left(f^{-1}(a)\right) \cdot \frac{d f^{-1}}{d x}\left(a\right) = 1$$
+
+* For any Archimedean ordered field $R$, the **locally uniformly differentiable inverse function axiom** for $R$ states that given any differentiable function $f:I \to R$ on an open subinterval $I \subseteq R$ such that its derivative $\frac{d f}{d x}:I \to R$ is locally uniformly continuous and always apart from zero, there is a unique differentiable function $f^{-1}:\mathrm{im}(f) \to R$ called the **inverse function** with locally uniformly continuous derivative $\frac{d f^{-1}}{d x}:\mathrm{im}(f) \to R$ such that $f^{-1}(f(a)) = a$ and for all elements $a \in \mathrm{im}(f)$ and
+$$\frac{d f}{d x}\left(f^{-1}(a)\right) \cdot \frac{d f^{-1}}{d x}\left(a\right) = 1$$
+
+The former is stronger than the latter, although they are equivalent in the presence of [[excluded middle]]. If $R$ satisfies the locally uniformly continuous inverse function axiom, then $R$ is a [[real closed field]]. 
 
 ## Related concepts
 
@@ -97,3 +109,6 @@ See also:
 
 * Wikipedia, _[Inverse function theorem](https://en.wikipedia.org/wiki/Inverse_function_theorem)_
 
+
+[[!redirects inverse function axiom]]
+[[!redirects inverse function principle]]
