@@ -68,7 +68,7 @@ The [[empty set]] (with its unique structure as preordered set) is not an except
 
 +-- {: .num_remark} 
 ###### Remark 
-The proof above (does anyone know where it appears in the literature?) can be seen as an application of general recursion theory &#224; la Paul Taylor's [[Practical Foundations of Mathematics|book]], which in turn is inspired in large part by [Osius](#Osius). In particular, initial segments are the same as $P$-coalgebra maps between [[well-founded coalgebras]], and the maximal $U$ constructed is a maximal attempt with respect to a partial algebra structure $f: P(S) \rightharpoonup S$, following Taylor's formulation of the recursion scheme. For a slightly different arrangement of the facts, one very commonly found in the literature, see the account of the Bourbaki-Witt theorem below. 
+The proof above (originally by [Kneser](#Kneser)) can be seen as an application of general recursion theory &#224; la Paul Taylor's [[Practical Foundations of Mathematics|book]], which in turn is inspired in large part by [Osius](#Osius). In particular, initial segments are the same as $P$-coalgebra maps between [[well-founded coalgebras]], and the maximal $U$ constructed is a maximal attempt with respect to a partial algebra structure $f: P(S) \rightharpoonup S$, following Taylor's formulation of the recursion scheme. For a slightly different arrangement of the facts, one very commonly found in the literature, see the account of the Bourbaki-Witt theorem below. 
 =-- 
 
 +-- {: .num_lemma #wo} 
@@ -194,6 +194,8 @@ Theoretical Computer Science, **430** (2012) 43--50, doi:[10.1016/j.tcs.2011.12.
 arXiv:[0911.0068](https://arxiv.org/abs/0911.0068).
 
 * {#Bauer-Lumsdaine_13} [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _On the Bourbaki-Witt Principle in Toposes_, Math. Proc. Cam. Phil. Soc. 155 (2013), no. 1, 87--99 doi:[10.1017/S0305004113000108](https://doi.org/10.1017/S0305004113000108), arXiv:[1201.0340](https://arxiv.org/abs/1201.0340).
+
+* {#Kneser} Hellmuth Kneser, *Das Auswahlaxiom und das Lemma von Zorn*, Mathematische Zeitschrift, 96:62--63, 1967; available [here](http://resolver.sub.uni-goettingen.de/purl?PPN266833020_0096)
 
 On Zorn's lemma and [[Boolean algebra]] in [[intuitionistic type theories]]:
 
