@@ -69,6 +69,8 @@ Let $D$ be the [[ideal]] of all non-invertible elements in $R$. Then the quotien
 
 * [[ordered field]]
 
+* [[Archimedean ordered local ring]]
+
 * [[ordered Artinian local ring]]
 
 [[!redirects ordered local ring]]
