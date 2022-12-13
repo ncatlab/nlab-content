@@ -41,6 +41,7 @@ However, in contexts where there _is_ a separately provided relevant notion of e
 
 ## See also
 
+* [[prelattice]]
 * [[Heyting prealgebra object]]
 
 [[!redirects Heyting prealgebras]]
