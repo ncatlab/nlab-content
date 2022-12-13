@@ -6,7 +6,7 @@ Prelattices are lattices which do not satisfy [[antisymmetry]]. Or equivalently,
 
 Examples of prelattices include [[Heyting prealgebras]]. 
 
-In the same way as lattices, one could either assume that prelattices have top and bottom elements, in which those without top and bottom elements are **pseudoprelattices**, or prelattices do not have top and bottom elements, in which those with top and bottom elements are **bounded prelattices**. Pseudoprelattices are important because every [[ordered Artinian local ring|ordered Artinian local $\mathbb{R}$-algebra]] without [[infinite elements]], found in some approaches to [[analysis]], is a pseudoprelattice. 
+In the same way as lattices, one could either assume that prelattices have top and bottom elements, in which those without top and bottom elements are **pseudoprelattices**, or prelattices do not have top and bottom elements, in which those with top and bottom elements are **bounded prelattices**. Pseudoprelattices are important because given any ordered field $K$ with [[pseudolattice]] structure, every [[ordered Artinian local ring|ordered Artinian local $K$-algebra]], found in some approaches to [[analysis]], is a pseudoprelattice. 
 
 ## See also
 
