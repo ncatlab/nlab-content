@@ -63,6 +63,44 @@ $$
 
 Thus, every dense sequentially Cauchy complete ordered integral domain is an [[ordered field]]. 
 
+### In sequentially Cauchy complete ordered integral rational algebras
+
+Let $R$ be a [[ordered integral domain]] which is a [[rational algebra|$\mathbb{Q}$-algebra]], and for all elements $a \in R$ and $b \in R$ let $(a, b)$ be the [[open interval|open subinterval]] containing all elements greater than $a$ and less than $b$. Then the sequence
+
+$$g(p)(x) \coloneqq \sum_{n=0}^{p} \frac{(-1)^n x^n}{n + 1}$$
+
+indexed by natural number $p \in \mathbb{N}$ is a [[Cauchy sequence]] for all elements $x \in (-1, 1)$, and if $R$ is [[sequentially Cauchy complete]], it has a limit for elements $x \in (-1, 1)$ as 
+
+$$g_\infty(x) \coloneqq \lim_{p \to \infty} \sum_{n=0}^{p} \frac{(-1)^n x^n}{n + 1}$$
+
+There is a sequence of sequences
+
+$$g'(i)(p)(x) \coloneqq i \sum_{n=0}^{p} \frac{(-i)^n (x+g_\infty(i-1))^n}{n + 1}$$
+
+indexed by natural numbers $i \in \mathbb{N}$ and $p \in \mathbb{N}$, which is Cauchy for $x \in (0, 2 g_\infty(i-1))$. 
+
+Since $R$ is sequentially Cauchy complete, the function has a limit as 
+
+$$g_\infty'(i)(x) \coloneqq \lim_{p \to \infty} i \sum_{n=0}^{p} \frac{(-i)^n (x+g_\infty(i-1))^n}{n + 1}$$
+
+which itself is Cauchy, and thus has a limit 
+$$\ln(x) \coloneqq \lim_{i \to \infty} g_\infty'(i)(x)$$
+called the [[natural logarithm]]. Since $g_\infty(a^i-1)$ goes to infinity as $i$ goes to infinity, the domain of $\ln(x)$ is $(0, \infty)$. 
+
+The [[exponential function]] is defined as as
+
+$$\exp(x) \coloneqq \lim_{n \to \infty} \sum_{i = 0}^{n} \frac{x^i}{i!}$$
+
+and the reciprocal function is defined as
+
+$$
+\frac{1}{x} \coloneqq 
+\begin{cases}
+-\exp(- \ln(-x)) & x \in (-\infty, 0) \\
+\exp(- \ln(x)) & x \in (0, \infty)
+\end{cases}
+$$
+
 ## See also ##
 
 * [[Heyting field]]
