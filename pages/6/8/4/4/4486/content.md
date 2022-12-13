@@ -220,6 +220,7 @@ $$ \forall\, \epsilon \gt 0,\; \exists\, \delta \gt 0,\; \forall\, x \in U,\; \f
 
 In [[classical mathematics]], $f$ is uniformly differentiable if and only if $f$ is differentiable and its derivative $f'$ is [[uniformly continuous map|uniformly continuous]]; in other words, $f$ is uniformly differentiable iff $f$ is _uniformly-continuously differentiable_.  The same is true in [[constructive mathematics]] as long as one assumes [[dependent choice]]. In the absence of dependent choice, however, the argument only goes one way, and uniform differentiability is stronger.  Furthermore, just as pointwise continuity is not as well behaved constructively as uniform continuity, so pointwise differentiability is not as well behaved constructively as uniform differentiability.  For this reason, uniform differentiability is particularly important in constructive mathematics.
 
+In addition, one could talk about **locally uniform differentiablilty**, which is a continuously differentiable function on a set $U$ which is uniformly differentiable on every closed and bounded subset $V \subseteq U$. 
 
 ### Symmetry of higher derivatives
 
@@ -494,6 +495,12 @@ Early account, in the context of [[Cohomotopy]], [[cobordism theory]] and the [[
 [[!redirects uniformly differentiable function]]
 [[!redirects uniformly differentiable functions]]
 [[!redirects uniform differentiability]]
+
+[[!redirects locally uniformly differentiable map]]
+[[!redirects locally uniformly differentiable maps]]
+[[!redirects locally uniformly differentiable function]]
+[[!redirects locally uniformly differentiable functions]]
+[[!redirects locally uniform differentiability]]
 
 [[!redirects twice differentiable map]]
 [[!redirects twice differentiable maps]]
