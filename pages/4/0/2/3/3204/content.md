@@ -32,6 +32,21 @@ Similarly, one can use polynomials to define infinitesimal versions of complex n
 
 The downside of this approach is that the resulting infinitesimal numbers will be subject only to those operations that apply to the category in which one forms the free construction.  For example, there is no way to apply transcendental functions to infinitesimals with this approach.  Presumably that could be fixed by working with $C^\infty$-[[C-infinity-ring|rings]], but no algebraic theory covers everything that can be done with real numbers (or whatever numbers you start with).
 
+## Nilpotent infinitesimals
+
+Instead of working with free infinitesimals, we could also work with [[nilpotent]] infintiesimals. This requires working in an [[ordered local ring|ordered]] [[local Artinian algebra|local Artinian $\mathbb{R}$-algebras]], which are [[local ring|local]] [[commutative algebra|commutative $\mathbb{R}$-algebras]] whose ideal of zero divisors is a [[nilradical]]. Since these are not ordered fields, the [[strict order]] is not a [[linear order]], the [[preorder]] is not a [[partial order]], and the [[apartness relation]] is not [[tight apartness relation|tight]]. There is an [[equivalence relation]] $a \approx b$ which says that $a$ is approximately equal to $b$, and is defined by $a \approx b$ if and only if the difference $a - b$ is a zero divisor. 
+
+Given an ordered local Artinian $\mathbb{R}$-algebra $A$, since $A$ is a [[local ring]], the quotient of $A$ by its [[nilradical]] $I$ is the real numbers $\mathbb{R}$, and the canonical function used in defining the [[quotient ring]] is the function $\Re:A \to \mathbb{R}$ which takes a number $a \in A$ to its purely real component $\Re(a) \in \mathbb{R}$. Since $A$ is an ordered $\mathbb{R}$-algebra, there is a [[strictly monotone]] [[ring homomorphism]] $h:\mathbb{R} \to A$. A number $a \in A$ is **purely real** if $h(\Re(a)) = a$, and a number $a \in A$ is **purely infinitesimal** if it is in the ideal of zero divisors $I$, the [[fiber]] of $\Re$ at the real number $0$. Zero is the only number in $A$ which is both purely real and purely infinitesimal. 
+
+The advantage of working with nilpotent infinitesimals is that the ring homomorphism $h:\mathbb{R} \to A$ preserves [[smooth functions]]: given a natural number $n \in \mathbb{N}$ and a purely infinitesimal number $\epsilon \in I$ such that $\epsilon^{n + 1} = 0$, then for every [[smooth function]] $f \in C^\omega(\mathbb{R})$, there is a function $f_A:A \to A$ such that for all real numbers $x \in \mathbb{R}$, $f_A(h(x)) = h(f(x))$ and 
+$$f_A(h(x) + \epsilon) = \sum_{i = 0}^{n} \frac{1}{i!} h\left(\frac{d^i f}{d x^i}(x)\right) \epsilon^i$$ 
+
+If we restrict to local Artinian $\mathbb{R}$-algebras $A$ where every element of the nilradical $I$ is a nilsquare element, where for all $\epsilon \in I$, $\epsilon^2 = 0$, then the ring homomorphism $h:\mathbb{R} \to A$ preserves [[differentiable functions]]; for every [[differentiable function]] $f:\mathbb{R} \to \mathbb{R}$, there is a function $f_A:A \to A$ such that for all real numbers $x \in \mathbb{R}$ and nilpotent elements $\epsilon \in I$, $f_A(h(x)) = h(f(x))$ and 
+$$f_A(h(x) + \epsilon) = h(f(x)) + h\left(\frac{d f}{d x}(x)\right) \epsilon$$ 
+
+This allows us to define certain differentiable functions on the [[real numbers]], such as the [[exponential function]], the [[sine function]], and the [[cosine function]], through its property as solutions to systems of first-order [[ordinary differential equations]], without having to define the notion of [[limit of a sequence]], [[series]], [[integral]], and prove the [[fundamental theorem of calculus]] and/or [[convergence]] of [[Taylor series]]. 
+
+This approach is used in [[synthetic differential geometry]], where one adds additional axioms to the foundations stating that the only functions on $A$ are the [[smooth functions]]. 
 
 ## Nonstandard analysis
 
@@ -47,7 +62,6 @@ Nonstandard analysis can be applied to [[mathematics]] as a whole, so it treats 
 Another approach is to focus only on what we want to do with infinitesimals in a particular field.  Since infinitesimals were used to do calculus, then let\'s just do calculus.  We can take as axiomatic the familiar properties of [[smooth map|smooth functions]] used in calculus, including the ways these were applied to infinitesimals before analysis was made rigorous (by modern standards) in the 19th century.  This is the approach taken by [[Bill Lawvere]] and others in [[synthetic differential geometry]].
 
 ...
-
 
 ## Other approaches
 
@@ -83,7 +97,12 @@ These toposes are related to the smooth topos called $\mathcal{G}$ there, which 
   (on [[Gottfried Leibniz]]'s concept of infinitesimals)
 
 
-[[!redirects infinitesimal]]
 [[!redirects notions of infinitesimals]]
+[[!redirects infinitesimal]]
 [[!redirects infinitesimals]]
+[[!redirects infinitesimal number]]
 [[!redirects infinitesimal numbers]]
+
+[[!redirects purely infinitesimal]]
+[[!redirects purely infinitesimal number]]
+[[!redirects purely infinitesimal numbers]]
