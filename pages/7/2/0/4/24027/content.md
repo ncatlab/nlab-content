@@ -26,6 +26,10 @@ In terms of [[Renyi entropy]] (it's independent of the Renyi entropy parameter):
 
 * Ulrich Schollwöck, *(Almost) 25 Years of DMRG - What Is It About?* ([pdf](https://confs.physics.ox.ac.uk/pauli2016/files/slides/Schollwoeck.pdf))
 
+and in the example of [[Chern-Simons theory]]:
+
+* Aditya Dwivedi, Siddharth Dwivedi, Bhabani Prasad Mandal, Pichai Ramadevi, [[Vivek Kumar Singh]], *Topological entanglement and hyperbolic volume*, J. High Energy Phys. **21021** 172 (2021) 172 &lbrack;[arXiv:2106.03396](https://arxiv.org/abs/2106.03396), <a href="https://doi.org/10.1007/JHEP10(2021)172">doi:10.1007/JHEP10(2021)172</a>&rbrack;
+
 Discussion in the [[dimer model]]:
 
 * Shunsuke Furukawa, Gregoire Misguich, *Topological Entanglement Entropy in the Quantum Dimer Model on the Triangular Lattice*, Phys. Rev. B 75, 214407 (2007) ([arXiv:cond-mat/0612227](https://arxiv.org/abs/cond-mat/0612227))
