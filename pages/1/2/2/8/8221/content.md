@@ -146,6 +146,10 @@ There are possible tensions with high redshift [[galaxies]] detected at the [[Ja
 
 * Michael Boylan-Kolchin, *Stress Testing ΛCDM with High-redshift Galaxy Candidates*, ([arXiv:2208.01611](https://arxiv.org/abs/2208.01611))
 
+For testing the standard model of cosmology in light of the [[James Webb Space Telescope]], see 
+
+* Nikita Lovyagin, Alexander Raikov, Vladimir Yershov, Yuri Lovyagin, *Cosmological Model Tests with JWST*. ([arXiv:2212.06575](https://arxiv.org/abs/2212.06575))
+
 ### In AQFT on Curved spacetimes
 
 Discussion in the rigorous context of[[AQFT on curved spacetimes]] includes
