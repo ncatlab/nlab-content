@@ -27,7 +27,7 @@
 
 Since every [[ordered Artinian local ring]] $R$ has [[characteristic zero]], the positive integers $\mathbb{Z}_+$ are a subset of $R$, with [[injection]] $i:\mathbb{Z}_+ \hookrightarrow R$. An **Archimedean ordered Artinian local ring** is an [[ordered Artinian local ring]] which satisfies the [[archimedean property]]: for all elements $a \in R$ and $b \in R$, if $0 \lt a$ and $0 \lt b$, then there exists a positive integer $n \in \mathbb{Z}_+$ such that such that $a \lt i(n) \cdot b$. 
 
-Archimedean ordered Artinian local rings are important because they are the [[ordered local rings]] with [[nilpotent]] [[infinitesimals]] but no [[infinite elements]], and thus play an important role in synthetic approaches to [[analysis]] and [[differential geometry]]. 
+Archimedean ordered Artinian local rings are important because they are the [[ordered local rings]] with [[nilpotent]] [[infinitesimals]] but no [[infinite elements]] or invertible infinitesimals, and thus play an important role in synthetic approaches to [[analysis]] and [[differential geometry]]. 
 
 [[Archimedean ordered fields]] are the Archimedean ordered Artinian local rings in which the [[nilradical]] is the [[trivial|trivial ideal]], or equivalently, in which every non-invertible element is equal to zero. 
 
