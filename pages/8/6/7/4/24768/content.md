@@ -17,13 +17,13 @@ In [[intensional type theory]], [[equality]] is represented by the [[identity ty
 Instead, we have the following:
 
 For every type $A$ and $B$ and element $a:A \times B$ and $b:A \times B$, there is a canonical function 
-$$\mathrm{idtocomponentid}(a, b):a =_{A \times B} b \to \left((\pi_1(a) =_A \pi_1(b)) \times (\pi_2(a) =_B \pi_2(b))\right)$$
+$$\mathrm{idtoprojectionids}(a, b):a =_{A \times B} b \to \left((\pi_1(a) =_A \pi_1(b)) \times (\pi_2(a) =_B \pi_2(b))\right)$$
 inductively defined by 
-$$\mathrm{idtocomponentid}(a, a)(\mathrm{refl}_{A \times B}(a)) \equiv (\mathrm{refl}_{A}(\pi_1(a)), \mathrm{refl}_{B}(\pi_2(a)):\Omega(A, \pi_1(a)) \times \Omega(B, \pi_2(a))$$
+$$\mathrm{idtoprojectionids}(a, a)(\mathrm{refl}_{A \times B}(a)) \equiv (\mathrm{refl}_{A}(\pi_1(a)), \mathrm{refl}_{B}(\pi_2(a)):\Omega(A, \pi_1(a)) \times \Omega(B, \pi_2(a))$$
 where $\Omega(A, a)$ is the [[loop space type]] $a =_A a$ of $A$ at $a:A$. 
 
-Product extensionality is the statement that the function $\mathrm{idtocomponentid}(a, b)$ is an [[equivalence of types]] for all elements $a:A \times B$ and $b:A \times B$:
-$$\mathrm{prodext}(a, b):\mathrm{isEquiv}(\mathrm{idtocomponentid}(a, b))$$
+Product extensionality is the statement that the function $\mathrm{idtoprojectionids}(a, b)$ is an [[equivalence of types]] for all elements $a:A \times B$ and $b:A \times B$:
+$$\mathrm{prodext}(a, b):\mathrm{isEquiv}(\mathrm{idtoprojectionids}(a, b))$$
 
 \subsection{Definitional product extensionality}
 
