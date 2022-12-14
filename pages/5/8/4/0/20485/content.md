@@ -33,6 +33,8 @@ Together with the [[LHCb experiment]] and the [[Belle experiment]], BaBar is res
 
 * [[precision experiment]]
 
+* [[experiment]]
+
 ## References
 
 * [BaBar Public webpage](https://www.slac.stanford.edu/BFROOT/)
