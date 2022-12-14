@@ -215,6 +215,8 @@ See [[quasitopos]] for the proof.
 
 * **separated presheaf**
 
+* [[epipresheaf]]
+
 * [[separated (2,1)-presheaf]]
 
 * [[separated (∞,1)-presheaf]]
