@@ -160,15 +160,11 @@ There are also "internal" versions of these axioms.
 ### In type theory
  {#InTypeTheory}
 
-In [[dependent type theory]], if "there exists" and "for all" are interpreted in the classical way according to [[propositions as types]], then the statement of the axiom of choice comes out as simply the statement that products distribute over coproducts.  (See [[distributivity pullback]] for a discussion in terms of the internal type theory of a locally cartesian closed category.) The equivalent form of the axiom of choice involving cartesian products of inhabited types then becomes in type theory the statement
+In [[dependent type theory]], there are two interpretations of [[predicate logic]] in the type theory; [[propositions as some types]] and [[propositions as types]]. 
 
-* That any [[dependent product]] of any [[family]] of [[pointed types]] is [[pointed]]. 
+The [[propositions as some types]] interprets [[disjunction]] and [[existential quantification]] as the [[bracket type]] of the [[sum type]] and [[dependent sum type]] respectively, and leads to the statement of the axiom of choice in [[dependent type theory]]. In particular, the form of the axiom of choice stated as "any [[dependent product]] of any [[family]] of [[inhabited]] [[h-sets]] is [[inhabited]]" implies [[weak function extensionality]], because every [[contractible type]] is an [[inhabited]] [[h-proposition]], [[h-propositions]] are [[h-sets]], dependent product types preserve the property of being an [[h-proposition]], and weak function extensionality states that "any [[dependent product]] of any [[family]] of [[contractible types]] is [[contractible]]". In turn, weak function extensionality is equivalent in strength to [[function extensionality]], which means that the axiom of choice implies [[function extensionality]]. 
 
-This statement of the axiom of choice is just the [[identity function]] on the dependent product type. Since both statements is provable, traditionally type theorists say that "the axiom of choice is provable" in type theory.
-
-However, this is arguably not really a faithful representation of the axiom of choice, not only because it is provable, but because it lacks the usual strong consequences of the set-theoretic axiom of choice.
-
-A better type-theoretic form of the axiom of choice is obtained by inserting [[propositional truncations]] in the notion of "exists".  See for instance the [HoTT Book](#HoTTBook) for further discussion.
+The [[propositions as types]] interprets [[disjunction]] and [[existential quantification]] directly as the [[sum type]] and [[dependent sum type]] respectively, and the statement of the axiom of choice comes out as simply the statement that products distribute over coproducts. (See [[distributivity pullback]] for a discussion in terms of the internal type theory of a locally cartesian closed category.) The equivalent form of the axiom of choice involving cartesian products of inhabited types then becomes in type theory the statement that "any [[dependent product]] of any [[family]] of [[pointed types]] is [[pointed]]". and is just the [[identity function]] on the dependent product type. Since both statements is provable, traditionally type theorists say that "the axiom of choice is provable" in type theory.
 
 ## Consequences
 
@@ -240,7 +236,7 @@ Discussion in [[homotopy type theory]]:
 
 * {#HoTTBook} [[Univalent Foundations Project]], section 3.8 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
-
+* [[Egbert Rijke]], section 17.4 of *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([pdf](https://raw.githubusercontent.com/martinescardo/HoTTEST-Summer-School/main/HoTT/hott-intro.pdf)) (478 pages)
 
 category: foundational axiom
 
