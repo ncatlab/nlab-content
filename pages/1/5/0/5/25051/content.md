@@ -35,14 +35,16 @@ Archimedean ordered Artinian local rings are important because they are the [[or
 
 ### Purely real and purely infinitesimal elements
 
-Suppose that $K$ is an [[Archimedean ordered field]] and $A$ is an Archimedean ordered local $K$-algebra. Since $A$ is a [[local ring]], the quotient of $A$ by its ideal of non-invertible elements $I$ is the [[residue field]] $K$ itself, and the canonical function used in defining the quotient is the function $\Re:A \to K$ which takes a number $a \in A$ to its purely real component $\Re(a) \in K$. Since $A$ is an ordered $K$-algebra, there is a [[strictly monotone]] [[ring homomorphism]] $h:K \to A$. An element $a \in A$ is **purely real** if $h(\Re(a)) = a$, and an element $a \in A$ is **purely [[infinitesimal]]** if it is in the [[fiber]] of $\Re$ at $0 \in K$. Zero is the only element in $A$ which is both purely real and purely infinitesimal. 
+Suppose that $K$ is an [[Archimedean ordered field]] and $A$ is an Archimedean ordered local $K$-algebra. Since $A$ is a [[local ring]], the quotient of $A$ by its ideal of non-invertible elements $D$ is the [[residue field]] $K$ itself, and the canonical function used in defining the quotient is the function $\Re:A \to K$ which takes a number $a \in A$ to its purely real component $\Re(a) \in K$. Since $A$ is an ordered $K$-algebra, there is a [[strictly monotone]] [[ring homomorphism]] $h:K \to A$. An element $a \in A$ is **purely real** if $h(\Re(a)) = a$, and an element $a \in A$ is **purely [[infinitesimal]]** if it is in the [[fiber]] of $\Re$ at $0 \in K$. Zero is the only element in $A$ which is both purely real and purely infinitesimal. 
 
-### Prelattice, pseudometric, and seminorm structure
+### Prelattice structure
 
-Now, suppose that the [[Archimedean ordered field]] $K$ has [[lattice]] structure $\min:K \times K \to K$ and $\max:K \times K \to K$. Then the Archimedean ordered local $K$-algebra $A$ has a [[prelattice]] structure given by functions $\min':A \times A \to A$ and $\max':A \times A \to A$, defined by 
-$$\min'(a, b) \coloneqq h(\min(\Re(a), \Re(b)))$$
+Now, suppose that the [[Archimedean ordered field]] $K$ has [[lattice]] structure $\min:K \times K \to K$ and $\max:K \times K \to K$. Then the Archimedean ordered local $K$-algebra $A$ has a [[prelattice]] structure given by functions $(-)\wedge(-):A \times A \to A$ and $(-)\vee(-):A \times A \to A$, defined by 
+$$a \wedge b \coloneqq h(\min(\Re(a), \Re(b)))$$
 and 
-$$\max'(a, b) \coloneqq h(\max(\Re(a), \Re(b)))$$
+$$a \vee b \coloneqq h(\max(\Re(a), \Re(b)))$$
+
+### Pseudometric and seminorm structure
 
 The [[distance]] function on $A$ is given by the function $\rho:A \times A \to K$, defined as 
 
@@ -58,10 +60,10 @@ The distance function and absolute value are [[pseudometrics]] and multiplicativ
 
 Suppose that $K$ is an [[Archimedean ordered field]] with lattice structure, and $A$ is an [[Archimedean ordered local ring|Archimedean ordered]] [[Artinian local algebra|Artinian local $K$-algebra]]. Then [[continuous functions]], [[differentiable functions]], and [[smooth functions]] are each definable on $K$ using the algebraic, order, and metric structure on $K$. 
 
-The ring homomorphism $h:K \to A$ preserves [[smooth functions]]: given a natural number $n \in \mathbb{N}$ and a purely infinitesimal element $\epsilon \in I$ such that $\epsilon^{n + 1} = 0$, then for every [[smooth function]] $f \in C^\omega(K)$, there is a function $f_A:A \to A$ such that for all elements $x \in K$, $f_A(h(x)) = h(f(x))$ and 
+The ring homomorphism $h:K \to A$ preserves [[smooth functions]]: given a natural number $n \in \mathbb{N}$ and a purely infinitesimal element $\epsilon \in D$ such that $\epsilon^{n + 1} = 0$, then for every [[smooth function]] $f \in C^\omega(K)$, there is a function $f_A:A \to A$ such that for all elements $x \in K$, $f_A(h(x)) = h(f(x))$ and 
 $$f_A(h(x) + \epsilon) = \sum_{i = 0}^{n} \frac{1}{i!} h\left(\frac{d^i f}{d x^i}(x)\right) \epsilon^i$$ 
 
-If we restrict to Archimedean ordered Artinian local $K$-algebras $A$ where every element of the nilradical $I$ is a nilsquare element, where for all $\epsilon \in I$, $\epsilon^2 = 0$, then the ring homomorphism $h:K \to A$ preserves [[differentiable functions]]; for every [[differentiable function]] $f:K \to K$ with given [[derivative]] $f':K \to K$, there is a function $f_A:A \to A$ such that for all elements $x \in K$ and nilpotent elements $\epsilon \in I$, $f_A(h(x)) = h(f(x))$ and 
+If we restrict to Archimedean ordered Artinian local $K$-algebras $A$ where every element of the nilradical $D$ is a nilsquare element, where for all $\epsilon \in D$, $\epsilon^2 = 0$, then the ring homomorphism $h:K \to A$ preserves [[differentiable functions]]; for every [[differentiable function]] $f:K \to K$ with given [[derivative]] $f':K \to K$, there is a function $f_A:A \to A$ such that for all elements $x \in K$ and nilpotent elements $\epsilon \in D$, $f_A(h(x)) = h(f(x))$ and 
 $$f_A(h(x) + \epsilon) = h(f(x)) + h(f'(x)) \epsilon$$ 
 
 In particular, every [[polynomial function]] $p:K \to K$ lifts to a polynomial function $p_A:A \to A$. 
@@ -70,12 +72,12 @@ Alternatively, one could use this property to define differentiable and smooth f
 
 One could also work with [[partial functions]] instead. Given a predicate $P$ on the real numbers $\mathbb{R}$, let $I$ denote the set of all elements in $\mathbb{R}$ for which $P$ holds. A [[partial function]] $f:\mathbb{R} \to \mathbb{R}$ is equivalently a function $f:I \to \mathbb{R}$ for any such predicate $P$ and set $I$. 
 
-A function $f:I \to \mathbb{R}$ is **smooth at a subset** $S \subseteq I$ with injection $j:S \hookrightarrow \mathbb{R}$ if it has a function $\frac{d^{-} f}{d x^{-}}:\mathbb{N} \times S \to \mathbb{R}$ with $(D^0 j)(a) = a$ for all $a \in S$, such that for all Archimedean ordered Artinian local $\mathbb{R}$-algebras $A$ with ring homomorphism $h_A:\mathbb{R} \to A$, natural numbers $n \in \mathbb{N}$, and purely infinitesimal elements $\epsilon \in I$ such that $\epsilon^{n + 1} = 0$
+A function $f:I \to \mathbb{R}$ is **smooth at a subset** $S \subseteq I$ with injection $j:S \hookrightarrow \mathbb{R}$ if it has a function $\frac{d^{-} f}{d x^{-}}:\mathbb{N} \times S \to \mathbb{R}$ with $(D^0 j)(a) = a$ for all $a \in S$, such that for all Archimedean ordered Artinian local $\mathbb{R}$-algebras $A$ with ring homomorphism $h_A:\mathbb{R} \to A$, natural numbers $n \in \mathbb{N}$, and purely infinitesimal elements $\epsilon \in D$ such that $\epsilon^{n + 1} = 0$
 $$f_A(h_A(j(a)) + \epsilon) = \sum_{i = 0}^{n} \frac{1}{i!} h_A\left(\frac{d^i f}{d x^i}\left(a\right)\right) \epsilon^i$$ 
 
 A function $f:I \to \mathbb{R}$ is **smooth at an element** $a \in I$ if it is smooth at the [[singleton subset]] $\{a\}$, and a function $f:I \to \mathbb{R}$ is **smooth** if it is smooth at the [[improper subset]] of $I$. 
 
-A function $f:I \to \mathbb{R}$ is **differentiable at a subset** $S \subseteq I$ with injection $j:S \hookrightarrow \mathbb{R}$ if it has a function $\frac{d f}{d x}:S \to \mathbb{R}$ such that for all Archimedean ordered Artinian local $K$-algebras $A$ with ring homomorphism $h:K \to A$ such that for all $\epsilon \in I$, $\epsilon^2 = 0$, for all nilpotent elements $\epsilon \in I$,
+A function $f:I \to \mathbb{R}$ is **differentiable at a subset** $S \subseteq I$ with injection $j:S \hookrightarrow \mathbb{R}$ if it has a function $\frac{d f}{d x}:S \to \mathbb{R}$ such that for all Archimedean ordered Artinian local $K$-algebras $A$ with ring homomorphism $h:K \to A$ such that for all $\epsilon \in D$, $\epsilon^2 = 0$, for all nilpotent elements $\epsilon \in D$,
 $$f_A(h(j(a)) + \epsilon) = h(j(a)) + h\left(\frac{d f}{d x}(a)\right) \epsilon$$ 
 
 A function $f:I \to \mathbb{R}$ is **differentiable at an element** $a \in I$ if it is differentiable at the [[singleton subset]] $\{a\}$, and a function $f:I \to \mathbb{R}$ is **differentiable** if it is differentiable at the [[improper subset]] of $I$. 
