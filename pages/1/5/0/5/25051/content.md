@@ -70,13 +70,15 @@ Alternatively, one could use this property to define differentiable and smooth f
 
 ### Square roots and Euclidean pseudometric structure
 
-Now, assume that $K$ is an [[Euclidean field]] as well, in addition to being an [[Archimedean ordered field]]. While $K$ has a [[principal square root function]] $\sqrt{-}:[0, \infty) \to [0, \infty)$, not every Archimedean ordered local $K$-algebra $A$ has a principal square root function $\sqrt{-}:[0, \infty) \to [0, \infty)$, because purely infinitesimal elements in $A$ are not guaranteed to have [[square roots]]. An Archimedean ordered local $K$-algebra is **Euclidean** if every nilpotent element has a square root. 
+Now, assume that $K$ is an [[Euclidean field]] as well, in addition to being an [[Archimedean ordered field]]. While $K$ has a [[principal square root function]] $\sqrt{-}:[0, \infty) \to [0, \infty)$, not every Archimedean ordered local $K$-algebra $A$ has a principal square root function $\sqrt{-}:[0, \infty) \to [0, \infty)$, because purely infinitesimal elements in $A$ are not guaranteed to have [[square roots]]. An Archimedean ordered Artinian local $K$-algebra is **Euclidean** if every nilpotent element has a square root. 
 
-However, given an Archimedean ordered local $K$-algebra $A$, every [[rank]] $n$ $A$-module $V$ with basis $v:\mathrm{Fin}(n) \to V$ has a [[Euclidean pseudometric]], given by 
+However, given an Archimedean ordered Artinian local $K$-algebra $A$, every [[rank]] $n$ $A$-module $V$ with basis $v:\mathrm{Fin}(n) \to V$ has a [[Euclidean pseudometric]] $\rho_V:V \times V \to K$, given by 
 
 $$\rho_V(a, b) \coloneqq \sqrt{\sum_{i \in \mathrm{Fin}(n)} \rho(a_i, b_i)^2}$$
 for module elements $a \in V$ and $b \in V$ and scalars $a_i \in A$ and $b_i \in A$ for index $i \in \mathrm{Fin}(n)$, where
 $$a = \sum_{i \in \mathrm{Fin}(n)} a_i v_i \quad b = \sum_{i \in \mathrm{Fin}(n)} b_i v_i$$
+
+If $A$ is an [[ordered field]], then the Euclidean pseudometric on $V$ is a [[metric]].  
 
 ## See also
 
