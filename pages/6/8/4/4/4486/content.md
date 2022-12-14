@@ -49,6 +49,23 @@ $$
 
 The [[open subsets]] of the corresponding [[metric topology]] are the [[unions]] of [[open balls]] in $\mathbb{R}^n$.
 
+### In the real numbers
+
+#### Epsilon-delta definition
+
+A function $f:\mathbb{R} \to \mathbb{R}$ is **differentiable** if it comes with a function $\frac{d f}{d x}:\mathbb{R} \to \mathbb{R}$ and a function $M_f:\mathbb{Q}_+ \to \mathbb{Q}_+$ in the positive rational numbers, such that 
+
+* for every positive rational number $\epsilon \in \mathbb{Q}_+$, for every real number $h \in \mathbb{R}$ such that $0 \lt | h | \lt M_f(\epsilon)$, and for every real number $x \in \mathbb{R}$, 
+$$\left|f(x + h) - \frac{d f}{d x}(x)\right| \lt \epsilon |h|$$
+
+#### Infinitesimal definition
+
+Given a predicate $P$ on the real numbers $\mathbb{R}$, let $I$ denote the set of all elements in $\mathbb{R}$ for which $P$ holds. A [[partial function]] $f:\mathbb{R} \to \mathbb{R}$ is equivalently a function $f:I \to \mathbb{R}$ for any such predicate $P$ and set $I$. 
+
+A function $f:I \to \mathbb{R}$ is **differentiable at a subset** $S \subseteq I$ with injection $j:S \hookrightarrow \mathbb{R}$ if it has a function $\frac{d f}{d x}:S \to \mathbb{R}$ such that for all Archimedean ordered Artinian local $K$-algebras $A$ with ring homomorphism $h:K \to A$ and [[nilradical]] $D$ such that for all $\epsilon \in D$, $\epsilon^2 = 0$, for all nilpotent elements $\epsilon \in D$,
+$$f_A(h(j(a)) + \epsilon) = h(j(a)) + h\left(\frac{d f}{d x}(a)\right) \epsilon$$ 
+
+A function $f:I \to \mathbb{R}$ is **differentiable at an element** $a \in I$ if it is differentiable at the [[singleton subset]] $\{a\}$, and a function $f:I \to \mathbb{R}$ is **differentiable** if it is differentiable at the [[improper subset]] of $I$. 
 
 ### From a Cartesian space to the real numbers
 
