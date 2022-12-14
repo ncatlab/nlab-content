@@ -60,6 +60,30 @@ Arguably, the spaces studied by Euclid were not really modelled on inner product
 
 Since the days of [[René Descartes]], it is common to identify a Euclidean space with a [[Cartesian space]], that is $\mathbb{R}^n$ for $n$ the dimension.  But Euclid\'s spaces had no coordinates; and in any case, what we do with them is still coordinate-independent.
 
+## Euclidean spaces with infinitesimals
+
+Instead of working in the real numbers $\mathbb{R}$ and $n$-[[dimension|dimensional]] real vector spaces $V$, one could instead work in a [[Archimedean ordered local ring|Archimedean ordered local $\mathbb{R}$-algebra]] $A$ and [[rank]] $n$ $A$-modules $V$. $A$ has [[infinitesimals]], and so the $A$-modules $V$ have [[infinitesimals]] as well. Nevertheless, it is still possible to define the Euclidean distance function on $V$; the only difference is that the distance function is a [[pseudometric]] rather than a [[metric]] here. 
+
+Since $A$ is an [[local ring]], the quotient of $A$ by its [[ideal]] of non-invertible elements $I$ is $\mathbb{R}$ itself, and the canonical function used in defining the [[quotient ring]] is the function $\Re:A \to \mathbb{R}$ which takes a number $a \in A$ to its purely real component $\Re(a) \in \mathbb{R}$. Since $A$ is an ordered $\mathbb{R}$-algebra, there is a [[strictly monotone]] [[ring homomorphism]] $h:\mathbb{R} \to A$. 
+
+The real numbers have [[lattice]] structure $\min:\mathbb{R} \times \mathbb{R} \to \mathbb{R}$ and $\max:\mathbb{R} \times \mathbb{R} \to \mathbb{R}$. This means that $A$ has a distance function given by the function $\rho:A \times A \to \mathbb{R}$, defined as 
+
+$$\rho(a, b) \coloneqq \max(\Re(a), \Re(b)) - \min(\Re(a), \Re(b))$$
+
+as well as an [[absolute value]] given by the function $\vert-\vert:A \to \mathbb{R}$, defined as 
+
+$$\vert a \vert \coloneqq \rho(a, 0)$$
+
+Since $\min(a, b) \leq \max(a, b)$, the [[pseudometric]] and multiplicative [[seminorm]] are always non-negative. In addition, by definition, the pseudometric takes any two elements $a \in A$ and $b \in A$ whose difference $a - b \in I$ is an infinitesimal to zero $\rho(a, b) = 0$. 
+
+Since $\mathbb{R}$ is an [[Euclidean field]], it has a [[metric square root function]] $\sqrt{-}:[0, \infty) \to [0, \infty)$. Every [[rank]] $n$ $A$-module $V$ with basis $v:\mathrm{Fin}(n) \to V$ thus has a **Euclidean pseudometric** defined by 
+
+$$\rho_V(a, b) \coloneqq \sqrt{\sum_{i \in \mathrm{Fin}(n)} \rho(a_i, b_i)^2}$$
+for module elements $a \in V$ and $b \in V$ and scalars $a_i \in A$ and $b_i \in A$ for index $i \in \mathrm{Fin}(n)$, where
+$$a = \sum_{i \in \mathrm{Fin}(n)} a_i v_i \quad b = \sum_{i \in \mathrm{Fin}(n)} b_i v_i$$
+
+If $A$ is an [[ordered field]], then this reduces down to the Euclidean metric defined above. 
+
 ## In constructive mathematics
 
 In [[constructive mathematics]], the [[real numbers]] used to define Euclidean spaces are the [[Dedekind real numbers]] $\mathbb{R}_{D}$, as those are the only ones that are [[Dedekind complete]], in the sense of not having any gaps in the [[dense linear order]]. The Dedekind real numbers are also the real numbers that are geometrically contractible: whose [[shape]] is [[homotopy theory|homotopically]] [[contractible]] $\esh(\mathbb{R}_D) \cong \mathbb{1}$. 
@@ -114,3 +138,13 @@ On the use of the Dedekind real numbers in constructive and predicative construc
 [[!redirects Euclidean spaces]]
 [[!redirects euclidean space]]
 [[!redirects euclidean spaces]]
+
+[[!redirects Euclidean metric]]
+[[!redirects Euclidean metrics]]
+[[!redirects euclidean metric]]
+[[!redirects euclidean metrics]]
+
+[[!redirects Euclidean pseudometric]]
+[[!redirects Euclidean pseudometrics]]
+[[!redirects euclidean pseudometric]]
+[[!redirects euclidean pseudometrics]]
