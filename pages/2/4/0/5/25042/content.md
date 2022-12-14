@@ -2,23 +2,26 @@
 
 ## Definition
 
-The principle of **weak function extensionality** states that the [[dependent product type]] of a family of [[contractible types]] is itself contractible. Under the [[propositions as some types]] interpretation of [[predicate logic]] in [[type theory]], this states that if in the context of the variable $x:A$ the predicate $B(x)$ is true, then the proposition that "for all $x:A$, $B(x)$" is true. 
+The principle of **weak function extensionality** states that the [[dependent product type]] of a family of contractible types is itself contractible. 
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isContr}(B(x))}{\Gamma \vdash \mathrm{weakfunext}(\lambda x.p(x)):\mathrm{isContr}\left(\prod_{x:A} B(x)\right)}$$
 
-## Properties
+This is equivalent to the condition that the dependent product type of a family of types with [[h-level]] $n$ itself has h-level $n$:
 
-* Weak function extensionality is equivalent to [[function extensionality]] itself. 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma \vdash n:\mathbb{N} \quad \Gamma, x:A \vdash p(x):\mathrm{hasHLevel}(n, B(x))}{\Gamma \vdash \mathrm{weakfunext}(\lambda x.p(x)):\mathrm{hasHLevel}\left(n, \prod_{x:A} B(x)\right)}$$
 
-* Weak function extensionality is equivalent to the [[principle of unique choice]]. 
+Weak function extensionality is not equivalent to the [[principle of unique choice]]. The principle of unique choice states that the dependent product type of a family of contractible types is pointed
 
-* The [[axiom of choice]] implies weak function extensionality, because every [[contractible type]] is an [[inhabited]] [[h-set]], and the axiom of choice states that the [[dependent product type]] of a [[family]] of inhabited [[h-sets]] is itself inhabited. 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isContr}(B(x))}{\Gamma\vdash \mathrm{weakfunext}(\lambda x.p(x)):\prod_{x:A} B(x)}$$
+
+## Properties
+
+* Weak function extensionality is equivalent to [[function extensionality]]. 
 
 ## See also
 
 * [[function extensionality]]
 * [[principle of unique choice]]
-* [[axiom of choice]]
 
 ## References
 
