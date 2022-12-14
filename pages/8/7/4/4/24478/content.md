@@ -27,11 +27,13 @@ However, note that a generalization from [[Rel]] to the bicategory [[Prof]] of c
 
 ## In dependent type theory
 
-In dependent type theory, the principle of unique choice states that if one has a dependent type $P(a)$ indexed by types $A$ such that each $P(a)$ is [[contractible]] for all $a:A$, then for all $a:A$, there is an element $u(a):P(a)$. 
+In dependent type theory, the **principle of unique choice** states that the dependent product type of a family of contractible types is pointed. 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isContr}(B(x))}{\Gamma, x:A \vdash \mathrm{uniquechoice}(p(x)):B(x)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isContr}(B(x))}{\Gamma\vdash \mathrm{uniquechoice}(\lambda x.p(x)):\prod_{x:A} B(x)}$$
 
-The [[principle of unique choice]] is equivalent to [[weak function extensionality]], which is equivalent to [[function extensionality]]. Thus in [[dependent type theories]] without [[function extensionality]], the principle of unique choice does not hold. 
+The [[principle of unique choice]] is not equivalent to [[weak function extensionality]]. Weak function extensionality states that the dependent product type of a family of contractible types is contractible
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isContr}(B(x))}{\Gamma\vdash \mathrm{weakfunext}(\lambda x.p(x)):\mathrm{isContr}\left(\prod_{x:A} B(x)\right)}$$
 
 ## Related concepts
 
@@ -45,3 +47,9 @@ The [[principle of unique choice]] is equivalent to [[weak function extensionali
 [[!redirects function comprehension]]
 [[!redirects axiom of unique choice]]
 [[!redirects unique choice]]
+
+[[!redirects type theoretic principle of unique choice]]
+[[!redirects type-theoretic principle of unique choice]]
+
+[[!redirects type theoretic axiom of unique choice]]
+[[!redirects type-theoretic axiom of unique choice]]
