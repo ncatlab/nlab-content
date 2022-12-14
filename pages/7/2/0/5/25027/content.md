@@ -19,6 +19,8 @@ So far, it has observed distant [[galaxies]] at high redshift, as well as cephei
 
 * B. E. Robertson et al. *Discovery and properties of the earliest galaxies with confirmed distances*. ([arXiv:2212.0448](https://arxiv.org/abs/2212.04480))
 
+* Nikita Lovyagin, Alexander Raikov, Vladimir Yershov, Yuri Lovyagin, *Cosmological Model Tests with JWST*. ([arXiv:2212.06575](https://arxiv.org/abs/2212.06575))
+
 ## External links
 
 * [website](https://jwst.nasa.gov/)
