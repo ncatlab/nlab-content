@@ -68,6 +68,18 @@ In particular, every [[polynomial function]] $p:K \to K$ lifts to a polynomial f
 
 Alternatively, one could use this property to define differentiable and smooth functions in $K$, such as the [[exponential function]], [[natural logarithm]], [[sine function]], and [[cosine function]]. 
 
+One could also work with [[partial functions]] instead. Given a predicate $P$ on the real numbers $\mathbb{R}$, let $I$ denote the set of all elements in $\mathbb{R}$ for which $P$ holds. A [[partial function]] $f:\mathbb{R} \to \mathbb{R}$ is equivalently a function $f:I \to \mathbb{R}$ for any such predicate $P$ and set $I$. 
+
+A function $f:I \to \mathbb{R}$ is **smooth at a subset** $S \subseteq I$ with injection $j:S \hookrightarrow \mathbb{R}$ if it has a function $\frac{d^{-} f}{d x^{-}}:\mathbb{N} \times S \to \mathbb{R}$ with $(D^0 j)(a) = a$ for all $a \in S$, such that for all Archimedean ordered Artinian local $\mathbb{R}$-algebras $A$ with ring homomorphism $h_A:\mathbb{R} \to A$, natural numbers $n \in \mathbb{N}$, and purely infinitesimal elements $\epsilon \in I$ such that $\epsilon^{n + 1} = 0$
+$$f_A(h_A(j(a)) + \epsilon) = \sum_{i = 0}^{n} \frac{1}{i!} h_A\left(\frac{d^i f}{d x^i}\left(a\right)\right) \epsilon^i$$ 
+
+A function $f:I \to \mathbb{R}$ is **smooth at an element** $a \in I$ if it is smooth at the [[singleton subset]] $\{a\}$, and a function $f:I \to \mathbb{R}$ is **smooth** if it is smooth at the [[improper subset]] of $I$. 
+
+A function $f:I \to \mathbb{R}$ is **differentiable at a subset** $S \subseteq I$ with injection $j:S \hookrightarrow \mathbb{R}$ if it has a function $\frac{d f}{d x}:S \to \mathbb{R}$ such that for all Archimedean ordered Artinian local $K$-algebras $A$ with ring homomorphism $h:K \to A$ such that for all $\epsilon \in I$, $\epsilon^2 = 0$, for all nilpotent elements $\epsilon \in I$,
+$$f_A(h(j(a)) + \epsilon) = h(j(a)) + h\left(\frac{d f}{d x}(a)\right) \epsilon$$ 
+
+A function $f:I \to \mathbb{R}$ is **differentiable at an element** $a \in I$ if it is differentiable at the [[singleton subset]] $\{a\}$, and a function $f:I \to \mathbb{R}$ is **differentiable** if it is differentiable at the [[improper subset]] of $I$. 
+
 ### Square roots and Euclidean pseudometric structure
 
 Now, assume that $K$ is an [[Euclidean field]] as well, in addition to being an [[Archimedean ordered field]]. While $K$ has a [[principal square root function]] $\sqrt{-}:[0, \infty) \to [0, \infty)$, not every Archimedean ordered local $K$-algebra $A$ has a principal square root function $\sqrt{-}:[0, \infty) \to [0, \infty)$, because purely infinitesimal elements in $A$ are not guaranteed to have [[square roots]]. An Archimedean ordered Artinian local $K$-algebra is **Euclidean** if every nilpotent element has a square root. 
