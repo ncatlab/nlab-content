@@ -1,4 +1,6 @@
 
+member of [[CQTS]] at NYU Abu Dhabi
+
 * [institute page](https://nyuad.nyu.edu/en/academics/divisions/science/faculty/asif-equbal.html)
 
 * [personal page](https://www.asifequbal.com/)
