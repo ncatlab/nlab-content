@@ -27,11 +27,11 @@ However, note that a generalization from [[Rel]] to the bicategory [[Prof]] of c
 
 ## In dependent type theory
 
-In dependent type theory, the principle of unique choice states that if one has a dependent type $P(a)$ indexed by types $A$ such that each $P(a)$ is [[contractible]] for all $a:A$, then for all $a:A$, there is an element $p(a):P(a)$. 
+In dependent type theory, the principle of unique choice states that if one has a dependent type $P(a)$ indexed by types $A$ such that each $P(a)$ is [[contractible]] for all $a:A$, then for all $a:A$, there is an element $u(a):P(a)$. 
 
-$$\prod_{a:A} \mathrm{isContr}(P(a)) \to \prod_{a:A} P(a)$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isContr}(B(x))}{\Gamma, x:A \vdash \mathrm{uniquechoice}(p(x)):B(x)}$$
 
-The [[principle of unique choice]] is equivalent to [[weak function extensionality]], which is equivalent to [[function extensionality]]. 
+The [[principle of unique choice]] is equivalent to [[weak function extensionality]], which is equivalent to [[function extensionality]]. Thus in [[dependent type theories]] without [[function extensionality]], the principle of unique choice does not hold. 
 
 ## Related concepts
 
