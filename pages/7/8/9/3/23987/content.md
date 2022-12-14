@@ -676,13 +676,16 @@ Stone-von Neumann**
 
 \linebreak
 
+
 * {#FinsterDec2022} 14 Dec 2022
 
   [[Eric Finster]] (University of Birmingham)
 
   **The $(\infty,1)$-category of Types**
 
-  > A major outstanding difficulty in [[homotopy type theory|Homotopy Type Theory]] is the description of [[coherence law|coherent]] [[nLab:higher algebra|higher algebraic structures]]. As an example, we know that the algebraic structure possessed by the collection of types and functions between them is *not* a traditional 1-category, but rather an [[(infinity,1)-category|(∞,1)-category]]. In this talk, I will describe how the addition of a finite collection of additional definitional equalities designed to render the notion of "[[opetope|opetopic]] type" definable in fact allows one to construct the (∞,1)-category structure on the universe of types.
+  slides: [[Finster-CQTS2022.pdf:file]]
+
+  > A major outstanding difficulty in [[homotopy type theory|Homotopy Type Theory]] is the description of [[coherence law|coherent]] [[nLab:higher algebra|higher algebraic structures]]. As an example, we know that the algebraic structure possessed by the collection of types and functions between them is *not* a traditional 1-category, but rather an [[(infinity,1)-category|(∞,1)-category]]. In this talk, I will describe how the addition of a finite collection of additional definitional equalities designed to render the notion of "[[opetopic type theory|opetopic type]]" definable in fact allows one to construct the [[(∞,1)-category]] structure on the [[universe of types]].
 
 
 \linebreak
@@ -761,6 +764,8 @@ co-PIS:
 
 * [[Tim Byrnes]]
 
+* [[Asif Equbal]]
+
 * for more see [here](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html)
 
 Senior Researcher: 
@@ -773,6 +778,8 @@ Researchers:
 
 * [Tatiana Ezubova](https://de.linkedin.com/in/tatiana-ezubova-0b21091b9)
 
+* [[Grigorios Giotopoulos]]
+
 * [[Amaria Javed]]
 
 * [[Marwa Mannaï]] 
@@ -780,6 +787,8 @@ Researchers:
 * [[David Jaz Myers]] 
 
 * [[Mitchell Riley]] 
+
+* [[Vivek Kumar Singh]]
 
 * [[Sachin Valera]]
 
