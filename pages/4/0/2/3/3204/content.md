@@ -46,11 +46,12 @@ $$f_A(h(x) + \epsilon) = h(f(x)) + h\left(\frac{d f}{d x}(x)\right) \epsilon$$
 
 This allows us to define certain differentiable functions on the [[real numbers]], such as the [[exponential function]], the [[sine function]], and the [[cosine function]], through its property as solutions to systems of first-order [[ordinary differential equations]], without having to define the notion of [[limit of a sequence]], [[series]], [[integral]], and prove the [[fundamental theorem of calculus]] and/or [[convergence]] of [[Taylor series]]. 
 
-One could also work with single elements rather than entire functions. A function $f:K \to K$ is smooth at an element $a \in K$ if it has a sequence of elements $a':\mathbb{N} \to K$ with $a'(0) = a$, such that for all Archimedean ordered Artinian local $K$-algebras $A$ with ring homomorphism $h:K \to A$, natural numbers $n \in \mathbb{N}$, and purely infinitesimal elements $\epsilon \in I$ such that $\epsilon^{n + 1} = 0$
-$$f_A(h(a) + \epsilon) = \sum_{i = 0}^{n} \frac{1}{i!} h(a'(i)) \epsilon^i$$ 
+One could also work with partial functions instead of functions. Given a predicate $P$ on the real numbers $\mathbb{R}$, let $I$ denote the set of all elements in $\mathbb{R}$ for which $P$ holds. A [[partial function]] $f:\mathbb{R} \to \mathbb{R}$ is equivalently a function $f:I \to \mathbb{R}$ for any such predicate $P$ and set $I$. 
 
-Similarly, a function $f:K \to K$ is differentiable at an element $a \in K$ if it has an element $a' \in K$, such that for all Archimedean ordered Artinian local $K$-algebras $A$ with ring homomorphism $h:K \to A$ such that for all $\epsilon \in I$, $\epsilon^2 = 0$, for all nilpotent elements $\epsilon \in I$,
-$$f_A(h(a) + \epsilon) = h(a) + h(a') \epsilon$$ 
+A function $f:I \to \mathbb{R}$ is smooth at a subset $S \subseteq I$ with injection $j:S \hookrightarrow \mathbb{R}$ if it has a function $(D^{(-)} j)(-):\mathbb{N} \times S \to \mathbb{R}$ with $(D^0 j)(a) = a$ for all $a \in S$, such that for all [[Archimedean ordered Artinian local ring|Archimedean ordered Artinian local $\mathbb{R}$-algebras]] $A$ with ring homomorphism $h_A:\mathbb{R} \to A$, natural numbers $n \in \mathbb{N}$, and purely infinitesimal elements $\epsilon \in I$ such that $\epsilon^{n + 1} = 0$
+$$f_A(h_A(j(a)) + \epsilon) = \sum_{i = 0}^{n} \frac{1}{i!} h_A((D^i j)(a)) \epsilon^i$$ 
+
+Special cases include being smooth at an element $a \in I$, which is the same as being smooth at the [[singleton subset]] $\{a\}$, and being **smooth** which is the same as being smooth at the [[improper subset]] of $I$. 
 
 This approach is used in [[synthetic differential geometry]], where one adds additional axioms to the foundations stating that the only functions on $A$ are the [[smooth functions]]. 
 
