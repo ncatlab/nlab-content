@@ -8,17 +8,13 @@
 =--
 =--
 
+\tableofcontents 
 
-#Contents#
-
-* automatic table of contents goes here
-{:toc}
-
-#Idea#
+## Idea
 
 In the axiomatic formulation of [[differential geometry]] given by [[synthetic differential geometry]] the standard [[Kock-Lawvere axiom]] provides a notion of [[differentiation]]. In general this need not come with an inverse operation of [[integration]]. The additional _integration axiom_ on a [[smooth topos]] does ensure this.
 
-# Definition #
+## Definition 
 
 +-- {: .un_defn}
 ###### Definition
@@ -46,12 +42,12 @@ $$
 
 > ... need to say more ...
 
-# Examples #
+## Examples 
 
 The axiom holds for all the [[smooth topos]] presented in [[Models for Smooth Infinitesimal Analysis|MSIA]], listed in appendix 2 there. See appendix 3 for the proof.
 
 
-#References#
+## References
 
 page 49 of 
 
