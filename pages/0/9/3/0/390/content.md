@@ -293,6 +293,8 @@ Similarly, we can have a [[factorization system in an (∞,1)-category]], and so
 
   * **orthogonal factorization system**
 
+  * [[strict factorization system]]
+
   * [[reflective factorization system]]
 
   * [[stable factorization system]]
