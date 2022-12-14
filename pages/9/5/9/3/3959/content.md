@@ -19,6 +19,8 @@ A [[function]] which is [[differentiable function]] to arbitrary order is called
 
 ### In the real numbers
 
+#### Epsilon-delta definition
+
 Let $\mathbb{R}$ be the [[real numbers]]. A function $f:\mathbb{R} \to \mathbb{R}$ is **smooth** if it comes with a [[sequence]] of functions $D^{(-)}f:\mathbb{N} \to (\mathbb{R} \to \mathbb{R})$ and a sequence of functions $M^{(-)}f:\mathbb{N} \to (\mathbb{Q}_+ \to \mathbb{Q}_+)$ in the positive rational numbers, such that 
 
 * for every real number $x \in \mathbb{R}$, $(D^{0}f)(x) = f(x)$
@@ -32,6 +34,15 @@ Unwrapping the recursive definition above, a function $f:\mathbb{R} \to \mathbb{
 
 * for every natural number $n \in \mathbb{N}$, for every positive rational number $\epsilon \in \mathbb{Q}_+$, for every real number $h \in \mathbb{R}$ such that $0 \lt | h | \lt M^{n}f(\epsilon)$, and for every real number $x \in \mathbb{R}$, 
 $$\left|f(x + h) - \sum_{i=0}^n \frac{h^i (D^{i}f)(x)}{i!}\right| \lt \epsilon |h^n|$$
+
+#### Infintesimal definition
+
+Given a predicate $P$ on the real numbers $\mathbb{R}$, let $I$ denote the set of all elements in $\mathbb{R}$ for which $P$ holds. A [[partial function]] $f:\mathbb{R} \to \mathbb{R}$ is equivalently a function $f:I \to \mathbb{R}$ for any such predicate $P$ and set $I$. 
+
+A function $f:I \to \mathbb{R}$ is **smooth at a subset** $S \subseteq I$ with injection $j:S \hookrightarrow \mathbb{R}$ if it has a function $\frac{d^{-} f}{d x^{-}}:\mathbb{N} \times S \to \mathbb{R}$ with $\frac{d^0 f}{d x^0}\left(a\right) = a$ for all $a \in S$, such that for all Archimedean ordered Artinian local $\mathbb{R}$-algebras $A$ with ring homomorphism $h_A:\mathbb{R} \to A$, natural numbers $n \in \mathbb{N}$, and purely infinitesimal elements $\epsilon \in I$ such that $\epsilon^{n + 1} = 0$
+$$f_A(h_A(j(a)) + \epsilon) = \sum_{i = 0}^{n} \frac{1}{i!} h_A\left(\frac{d^i f}{d x^i}\left(a\right)\right) \epsilon^i$$ 
+
+A function $f:I \to \mathbb{R}$ is **smooth at an element** $a \in I$ if it is smooth at the [[singleton subset]] $\{a\}$, and a function $f:I \to \mathbb{R}$ is **smooth** if it is smooth at the [[improper subset]] of $I$. 
 
 ### Between Cartesian spaces
 
