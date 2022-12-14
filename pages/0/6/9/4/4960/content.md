@@ -2243,18 +2243,17 @@ and
 
 The axioms for a cohesive topos originate around
 
-* {#LawvereCatsOfSpaces} [[William Lawvere]], _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_ , preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.6357&rep=rep1&type=pdf))
-
+* {#LawvereCatsOfSpaces} [[William Lawvere]], *Categories of spaces may not be generalized spaces, as exemplified by directed graphs*, Revista Colombiana de Matematicas **XX** (1986) 179-186, reprinted as: Reprints in Theory and Applications of Categories, **9** (2005) 1-7 &lbrack;[tac:tr9](http://www.tac.mta.ca/tac/reprints/articles/9/tr9abs.html)&rbrack;
 
 where however the term "cohesive topos" was not yet used. 
 
 This appears maybe first in
 
-* {#Lawvere94} [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_ Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([doi:10.1093/philmat/2.1.5](https://doi.org/10.1093/philmat/2.1.5), [[LawvereCohesiveToposes.pdf:file]])
+* {#Lawvere94} [[William Lawvere]], *[[Cohesive Toposes and Cantor's "lauter Einsen"]]*, Philosophia Mathematica **2** 1 (1994) 5-15 &lbrack;[doi:10.1093/philmat/2.1.5](https://doi.org/10.1093/philmat/2.1.5), [[LawvereCohesiveToposes.pdf:file]]&rbrack;
 
 The term "cohesion" and parts of its later axiomatization (p. 245) appears thoughout section C.1 of
 
-* {#LawvereRosebrugh03} [[William Lawvere]], [[Robert Rosebrugh]], _[[Sets for Mathematics]]_, Cambridge University Press  2003 ([doi:10.1017/CBO9780511755460](https://doi.org/10.1017/CBO9780511755460), [book homepage](http://www.mta.ca/~rrosebru/setsformath/), [pdf](http://patryshev.com/books/Sets%20for%20Mathematics.pdf))
+* {#LawvereRosebrugh03} [[William Lawvere]], [[Robert Rosebrugh]], *[[Sets for Mathematics]]*, Cambridge University Press  (2003) &lbrack;[doi:10.1017/CBO9780511755460](https://doi.org/10.1017/CBO9780511755460), [book homepage](http://www.mta.ca/~rrosebru/setsformath/), [pdf](http://patryshev.com/books/Sets%20for%20Mathematics.pdf)&rbrack;
 
 Under the name _categories of cohesion_ a formal axiomatization is given in
 
@@ -2299,13 +2298,13 @@ Notes for these lectures are in [this pdf](http://comocategoryarchive.com/People
 
 The notion of "cohesion" was explored earlier in
 
-* [[William Lawvere]], _Volterra's functionals and covariant cohesion of space_ Perugia Studies in Mathematics (Proceedings of the May 1997 Meeting in Perugia) ([pdf](http://www.acsu.buffalo.edu/~wlawvere/Volterra.pdf))
+* [[William Lawvere]], _Volterra's functionals and covariant cohesion of space_, Perugia Studies in Mathematics (Proceedings of the May 1997 Meeting in Perugia) &lbrack;[pdf](http://www.acsu.buffalo.edu/~wlawvere/Volterra.pdf)&rbrack;
 
 where (on p. 9) it is suggested that "almost any" [[extensive category]]  may be called a "species of cohesion".
 
 An analysis of the interdependency of the axioms on a cohesive topos is in
 
-* {#Johnstone11} [[Peter Johnstone]], _Remarks on punctual local connectedness_, Theory and Applications of Categories, Vol. 25, 2011, No. 3, pp 51-63.  ([tac](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
+* {#Johnstone11} [[Peter Johnstone]], *Remarks on punctual local connectedness*, Theory and Applications of Categories, **25** 3 (2011) 51-63 &lbrack;[tac:25-03](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html)&rbrack;
 
 Discussion of "sufficient cohesion" is in 
 
