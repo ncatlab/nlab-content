@@ -6,9 +6,9 @@ The principle of **weak function extensionality** states that the [[dependent pr
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isContr}(B(x))}{\Gamma \vdash \mathrm{weakfunext}(\lambda x.p(x)):\mathrm{isContr}\left(\prod_{x:A} B(x)\right)}$$
 
-This is equivalent to the condition that the dependent product type of a family of types with [[h-level]] $n$ itself has h-level $n$:
+This is equivalent to the condition that the dependent product type of a family of [[h-propositions]] itself is an [[h-proposition]]:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma \vdash n:\mathbb{N} \quad \Gamma, x:A \vdash p(x):\mathrm{hasHLevel}(n, B(x))}{\Gamma \vdash \mathrm{weakfunext}(\lambda x.p(x)):\mathrm{hasHLevel}\left(n, \prod_{x:A} B(x)\right)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isProp}(B(x))}{\Gamma \vdash \mathrm{weakfunext}(\lambda x.p(x)):\mathrm{isProp}\left(\prod_{x:A} B(x)\right)}$$
 
 Weak function extensionality is not equivalent to the [[principle of unique choice]]. The principle of unique choice states that the dependent product type of a family of contractible types is pointed
 
