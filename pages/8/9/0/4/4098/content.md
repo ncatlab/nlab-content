@@ -32,7 +32,7 @@ A particular [[colimit]] diagram in a particular [[category]] $C$ is an **absolu
 
 This definition makes sense also in [[enriched category theory]]: for any $V$, a [[weighted colimit]] in a particular $V$-[[enriched category]] $C$ is an **absolute colimit** if it is preserved by every $V$-functor with domain $C$.
 
-Note, however, that a [[conical colimit]] in a $V$-category $C$ may be preserved by all $V$-functors without being preserved by all unenriched functors on the underlying ordinary category $C_o$.  Thus, for clarity we may speak of a colimit being **$V$-absolute**.
+Note, however, that a [[conical colimit]] in a $V$-category $C$ may be preserved by all $V$-functors without being preserved by all unenriched functors on the underlying ordinary category $C_o$.
 
 Generalizing in a different direction, absolute colimits in $Set$-enriched categories can be regarded as the particular case of [[postulated colimit]]s in [[sites]] where the site has the [[trivial topology]].
 
