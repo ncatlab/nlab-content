@@ -35,6 +35,15 @@ In [[constructive mathematics]], the Jordan curve theorem is stated as
 Given a Jordan curve $J$, two points $a$ and $b$ can be constructed off of $J$, such that given any point $c$ off of $J$, we can construct a polygonal path that is bounded away from $J$, and that joins $c$ to one of $a$ or $b$, and any polygonal path joining $a$ and $b$ comes arbitrarily close to $J$. 
 \end{theorem}
 
+## In cohesive homotopy type theory
+
+In cohesive homotopy type theory, the Jordan curve theorem says that:
+
+Let $J$ be a Jordan curve in the [[Euclidean plane]] $J \subseteq \mathbb{R}^2$ with injection $i:J \hookrightarrow \mathbb{R}^2$, and let $\mathbb{R}^2 \setminus J$ be the set of all points in $\mathbb{R}^2$ which is away from all points in the Jordan curve $J$. 
+$$\mathbb{R}^2 \setminus J \coloneqq \sum_{x:R^2} \prod_{a:J} \vert x - i(a) \vert \gt 0$$
+The shape of $\mathbb{R}^2 \setminus J$ is equivalent to $\mathbb{1} + S^1$, where $\mathbb{1}$ is the [[unit type]] and $S^1$ is the [[circle type]]. 
+$$\esh(\mathbb{R}^2 \setminus J) \simeq \mathbb{1} + S^1$$ 
+
 ## Generalization
 
 The __Jordan--Brouwer separation theorem__ states that, in the [[Cartesian space]] $\mathbb{R}^n$, every simple closed continuous [[hypersurface]] (defined as the [[image]] of a [[continuous map|continuous]] [[injection]] from the [[sphere]] $S^{n-1}$) has an [[exterior]] with two [[connected components]], one [[bounded subspace|bounded]] (the inside of the hypersurface) and one unbounded, each of which has the original hypersurface as its [[boundary]].  (Furthermore, the continuous map defining the hypersurface can be extended to an [[automorphism|auto]]-[[homeomorphism]] of $\mathbb{R}^n$ under which the inside and outside appear as the images of the inside and outside of the sphere.)
