@@ -82,6 +82,8 @@ There are several proofs in the [[HoTT book]] that the [[loop space]] $\Omega(S^
 
 * [[Jordan curve]]
 
+* [[lemniscate type]]
+
 ## References
 
 The definition of the circle type as a coequalizer could be found in section 9 of 
