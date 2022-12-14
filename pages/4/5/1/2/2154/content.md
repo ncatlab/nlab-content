@@ -62,7 +62,7 @@ Since the days of [[René Descartes]], it is common to identify a Euclidean spac
 
 ## Euclidean spaces with infinitesimals
 
-Instead of working in the real numbers $\mathbb{R}$ and $n$-[[dimension|dimensional]] real vector spaces $V$, one could instead work in a [[Archimedean ordered local ring|Archimedean ordered local $\mathbb{R}$-algebra]] $A$ and [[rank]] $n$ $A$-modules $V$. $A$ has [[infinitesimals]], and so the $A$-modules $V$ have [[infinitesimals]] as well. Nevertheless, it is still possible to define the Euclidean distance function on $V$; the only difference is that the distance function is a [[pseudometric]] rather than a [[metric]] here. 
+Instead of working in the real numbers $\mathbb{R}$ and $n$-[[dimension|dimensional]] real vector spaces $V$, one could instead work in a [[Archimedean ordered Artinian local ring|Archimedean ordered Artinian local $\mathbb{R}$-algebra]] $A$ and [[rank]] $n$ $A$-modules $V$. $A$ has [[infinitesimals]], and so the $A$-modules $V$ have [[infinitesimals]] as well. Nevertheless, it is still possible to define the Euclidean distance function on $V$; the only difference is that the distance function is a [[pseudometric]] rather than a [[metric]] here. 
 
 Since $A$ is an [[local ring]], the quotient of $A$ by its [[ideal]] of non-invertible elements $I$ is $\mathbb{R}$ itself, and the canonical function used in defining the [[quotient ring]] is the function $\Re:A \to \mathbb{R}$ which takes a number $a \in A$ to its purely real component $\Re(a) \in \mathbb{R}$. Since $A$ is an ordered $\mathbb{R}$-algebra, there is a [[strictly monotone]] [[ring homomorphism]] $h:\mathbb{R} \to A$. 
 
@@ -76,7 +76,7 @@ $$\vert a \vert \coloneqq \rho(a, 0)$$
 
 Since $\min(a, b) \leq \max(a, b)$, the [[pseudometric]] and multiplicative [[seminorm]] are always non-negative. In addition, by definition, the pseudometric takes any two elements $a \in A$ and $b \in A$ whose difference $a - b \in I$ is an infinitesimal to zero $\rho(a, b) = 0$. 
 
-Since $\mathbb{R}$ is an [[Euclidean field]], it has a [[metric square root function]] $\sqrt{-}:[0, \infty) \to [0, \infty)$. Every [[rank]] $n$ $A$-module $V$ with basis $v:\mathrm{Fin}(n) \to V$ thus has a **Euclidean pseudometric** defined by 
+Since $\mathbb{R}$ is an [[Euclidean field]], it has a [[metric square root function]] $\sqrt{-}:[0, \infty) \to [0, \infty)$. Every [[rank]] $n$ $A$-module $V$ with basis $v:\mathrm{Fin}(n) \to V$ thus has a **Euclidean pseudometric** $\rho_V:V \times V \to K$ defined by 
 
 $$\rho_V(a, b) \coloneqq \sqrt{\sum_{i \in \mathrm{Fin}(n)} \rho(a_i, b_i)^2}$$
 for module elements $a \in V$ and $b \in V$ and scalars $a_i \in A$ and $b_i \in A$ for index $i \in \mathrm{Fin}(n)$, where
