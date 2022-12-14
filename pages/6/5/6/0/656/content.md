@@ -32,7 +32,7 @@ Equivalently, given two [[rings]] $R$ and $S$, a $R$-$S$-bimodule is an [[abelia
 
 * for all $b \in B$, $1_R b 1_S = b$
 
-* for all $b \in B$, $r_1 \in R$, $r_2 \in R$, $s_1 \in S$, $s_2 \in S$, $r_1 (r_2, b, s_1) s_2 = (r_1 \cdot_R r_2) b (s_1 \cdot_S s_2)$
+* for all $b \in B$, $r_1 \in R$, $r_2 \in R$, $s_1 \in S$, $s_2 \in S$, $r_1 (r_2 b s_1) s_2 = (r_1 \cdot_R r_2) b (s_1 \cdot_S s_2)$
 
 * for all $r_1 \in R$, $r_2 \in R$, $b \in B$, $s \in S$, $(r_1 + r_2) b s = r_1 b s + r_2 b s$
 
