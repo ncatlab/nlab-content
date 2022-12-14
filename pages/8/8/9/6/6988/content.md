@@ -1,9 +1,9 @@
 
 **[[factorization system]]**
 
-* [[weak factorization system|weak]], [[algebraic weak factorization system|algebraic weak]]
+* [[orthogonal factorization system|orthogonal]], [[strict factorization system|strict]]
 
-* [[orthogonal factorization system|orthogonal]]
+* [[weak factorization system|weak]], [[algebraic weak factorization system|algebraic weak]]
 
 * [[enriched factorization system|enriched]]
 
