@@ -31,6 +31,8 @@ In dependent type theory, the principle of unique choice states that if one has 
 
 $$\prod_{a:A} \mathrm{isContr}(P(a)) \to \prod_{a:A} P(a)$$
 
+The [[principle of unique choice]] is equivalent to [[weak function extensionality]], which is equivalent to [[function extensionality]]. 
+
 ## Related concepts
 
 * [[anafunction]]
