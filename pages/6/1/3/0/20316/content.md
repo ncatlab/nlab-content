@@ -34,3 +34,7 @@
 * [[Event Horizon Telescope]]
 
   ([[black holes]])
+
+* [[James Webb Space Telescope]]
+
+  ([[galaxies]], [[cosmology]])
