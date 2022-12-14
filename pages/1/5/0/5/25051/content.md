@@ -61,12 +61,12 @@ Suppose that $K$ is an [[Archimedean ordered field]] with lattice structure, and
 The ring homomorphism $h:K \to A$ preserves [[smooth functions]]: given a natural number $n \in \mathbb{N}$ and a purely infinitesimal element $\epsilon \in I$ such that $\epsilon^{n + 1} = 0$, then for every [[smooth function]] $f \in C^\omega(K)$, there is a function $f_A:A \to A$ such that for all elements $x \in K$, $f_A(h(x)) = h(f(x))$ and 
 $$f_A(h(x) + \epsilon) = \sum_{i = 0}^{n} \frac{1}{i!} h\left(\frac{d^i f}{d x^i}(x)\right) \epsilon^i$$ 
 
-If we restrict to ordered Artinian local $K$-algebras $A$ where every element of the nilradical $I$ is a nilsquare element, where for all $\epsilon \in I$, $\epsilon^2 = 0$, then the ring homomorphism $h:K \to A$ preserves [[differentiable functions]]; for every [[differentiable function]] $f:K \to K$ with given [[derivative]] $f':K \to K$, there is a function $f_A:A \to A$ such that for all elements $x \in K$ and nilpotent elements $\epsilon \in I$, $f_A(h(x)) = h(f(x))$ and 
+If we restrict to Archimedean ordered Artinian local $K$-algebras $A$ where every element of the nilradical $I$ is a nilsquare element, where for all $\epsilon \in I$, $\epsilon^2 = 0$, then the ring homomorphism $h:K \to A$ preserves [[differentiable functions]]; for every [[differentiable function]] $f:K \to K$ with given [[derivative]] $f':K \to K$, there is a function $f_A:A \to A$ such that for all elements $x \in K$ and nilpotent elements $\epsilon \in I$, $f_A(h(x)) = h(f(x))$ and 
 $$f_A(h(x) + \epsilon) = h(f(x)) + h(f'(x)) \epsilon$$ 
 
 In particular, every [[polynomial function]] $p:K \to K$ lifts to a polynomial function $p_A:A \to A$. 
 
-Alternatively, one could use this property to define differentiable and smooth functions. 
+Alternatively, one could use this property to define differentiable and smooth functions in $K$, such as the [[exponential function]], [[natural logarithm]], [[sine function]], and [[cosine function]]. 
 
 ### Square roots and Euclidean pseudometric structure
 
