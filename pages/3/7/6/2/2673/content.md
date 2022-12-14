@@ -77,7 +77,9 @@ See also:
 
 * J. Fernando Barbero G., Juan Margalef-Bentabol, Valle Varo, Eduardo J.S. Villaseñor, *Covariant phase space for gravity with boundaries: metric vs tetrad formulations* ([arXiv:2103.06362](https://arxiv.org/abs/2103.06362))
 
+Discussion via [[L-infinity algebras|$L_\infty$-algebras]]:
 
+* Marija Dimitrijević Ćirić, [[Grigorios Giotopoulos]], Voja Radovanović, [[Richard J. Szabo]], *$L_\infty$-Algebras of Einstein-Cartan-Palatini Gravity*, J. Math. Phys., **61** 112502 (2020) &lbrack;[arXiv:2003.06173](https://arxiv.org/abs/2003.06173), [doi:10.1063/5.0011344](https://doi.org/10.1063/5.0011344)&rbrack;
 
 
 
