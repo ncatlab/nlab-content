@@ -79,7 +79,7 @@ $$\frac{\Xi \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi \vert \Gamma, w:\es
 
 ...
 
-The shape modality is an example of a [[higher inductive type]] which states that the [[shape modality]] of a type $A$ $\esh(A)$ is the [[localization of a type at a family of functions|localization]] $L_{R^1}(A)$ of $A$ at the function $\mathrm{const}:A \to (R \to A)$, equivalent to $\mathrm{const}':(1 \to A) \to (R \to A)$. Weak shape modalities are primarily used in cohesive [[objective type theories]], while strict shape modalities are typically used in cohesive type theories with [[judgmental equality]], such as cohesive [[Martin-Löf type theory]] ([[cohesive homotopy type theory]] or cohesive [[higher observational type theory]]. 
+The shape modality is an example of a [[higher inductive type]] which states that the [[shape modality]] of a type $A$ $\esh(A)$ is the [[localization of a type|localization]] $L_{R^1}(A)$ of $A$ at the function $\mathrm{const}:A \to (R \to A)$, equivalent to $\mathrm{const}':(1 \to A) \to (R \to A)$. Weak shape modalities are primarily used in cohesive [[objective type theories]], while strict shape modalities are typically used in cohesive type theories with [[judgmental equality]], such as cohesive [[Martin-Löf type theory]] ([[cohesive homotopy type theory]] or cohesive [[higher observational type theory]]. 
 
 ## Properties
 
