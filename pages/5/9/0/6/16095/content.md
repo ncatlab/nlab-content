@@ -85,6 +85,13 @@ $$\frac{d f}{d x}\left(f^{-1}(a)\right) \cdot \frac{d f^{-1}}{d x}\left(a\right)
 
 The former is stronger than the latter, although they are equivalent in the presence of [[excluded middle]]. If $R$ satisfies the locally uniformly continuous inverse function axiom, then $R$ is a [[real closed field]]. 
 
+There is also a third possible axiom in [[dependent type theory]], which uses the [[shape modality]]. Given an Archimedean ordered field $R$, let $\esh \coloneqq L_R$ be the [[shape modality]], the [[localization of a type|localization]] at $R$. A type $T$ is shapewise contractible if its shape is contractible. Given an open interval $I$, a function $f:I \to R$ is shapewise continuous if the graph of $f$, the set of all pairs $a$ in $I \times R$ such that $a = (x, f(x))$, is shapewise contractible:
+
+$$\mathrm{isShapewiseContinuous}(f) \coloneqq \mathrm{isContr}\left(\esh\left(\sum_{x:I} \sum_{a:I \times R} a =_{I \times R} (x, f(x))\right)\right)$$
+
+* For any Archimedean ordered field $R$, the **shapewise continuously differentiable inverse function axiom** for $R$ states that given any differentiable function $f:I \to R$ on an open subinterval $I \subseteq R$ such that its derivative $\frac{d f}{d x}:I \to R$ is shapewise continuous and always apart from zero, there is a unique differentiable function $f^{-1}:\mathrm{im}(f) \to R$ called the **inverse function** with shapewise continuous derivative $\frac{d f^{-1}}{d x}:\mathrm{im}(f) \to R$ such that $f^{-1}(f(a)) = a$ and for all elements $a \in \mathrm{im}(f)$ and
+$$\frac{d f}{d x}\left(f^{-1}(a)\right) \cdot \frac{d f^{-1}}{d x}\left(a\right) = 1$$
+
 ## Related concepts
 
 * [[mean value theorem]]
