@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -14,21 +15,21 @@
 
 ## Idea
 
-An _archimedean field_ is an [[ordered field]] that satisfies the [[archimedean property]].
+An _Archimedean ordered field_ is an [[ordered field]] that satisfies the [[archimedean property]].
 
 ## Definition
 
-The [[rational numbers]] are the [[initial]] [[ordered field]], so for every ordered field $F$ there is a field homomorphism $h:\mathbb{Q}\to F$. $F$ is _archimedean_ if for all elements $a\in F$ and $b\in F$, if $a \lt b$, then there exists a rational number $q\in \mathbb{Q}$ such that $a \lt h(q)$ and $h(q) \lt b$. 
+The [[rational numbers]] are the [[initial]] [[ordered field]], so for every ordered field $F$ there is a field homomorphism $h:\mathbb{Q}\to F$. $F$ is _Archimedean_ if for all elements $a\in F$ and $b\in F$, if $a \lt b$, then there exists a rational number $q\in \mathbb{Q}$ such that $a \lt h(q)$ and $h(q) \lt b$. 
 
 ## Properties
 
-Every archimedean field is a [[dense linear order]]. This means that the [[Dedekind completion]] of every archimedean field is the field of [[real numbers]]. 
+Every Archimedean ordered field is a [[dense linear order]]. This means that the [[Dedekind completion]] of every Archimedean ordered field is the field of [[real numbers]]. 
 
-Every archimedean field is a [[differentiable space]]:
+Every Archimedean ordered field is a [[differentiable space]]:
 
 ### Pointwise continuous functions
 
-Let $F$ be an Archimedean field. A function $f:F \to F$ is __continuous at a point__ $c \in F$ if 
+Let $F$ be an Archimedean ordered field. A function $f:F \to F$ is __continuous at a point__ $c \in F$ if 
 
 $$isContinuousAt(f, c) \coloneqq \forall \epsilon \in (0, \infty). \forall x \in F. \exists \delta \in (0, \infty). (\vert x - c \vert \lt \delta) \implies (\vert f(x) - f(c) \vert \lt \epsilon)$$
 
@@ -41,7 +42,7 @@ $$C^0(F) \coloneqq \{f \in F \to F \vert isPointwiseContinuous(f)\}$$
 
 ### Pointwise differentiable functions
 
-Let $F$ be an Archimedean field. A function $f:F \to F$ is __differentiable at a point__ $c \in F$ if 
+Let $F$ be an Archimedean ordered field. A function $f:F \to F$ is __differentiable at a point__ $c \in F$ if 
 
 $$isDifferentiableAt(f, c) \coloneqq isContinuousAt(f, c) \times \exists L \in F. \forall \epsilon \in (0, \infty). \forall x \in F. \exists \delta \in (0, \infty). \forall h \in (-\delta, 0) \cup (0, \delta). \left| \frac{f(c + h) - f(c)}{h} - L \right| \lt \epsilon$$
 
@@ -54,13 +55,13 @@ $$D^0(F) \coloneqq \{f \in F \to F \vert isPointwiseDifferentiable(f)\}$$
 
 ## Examples
 
-Archimedean fields include
+Archimedean ordered fields include
 
 * [[rational numbers]]
 * [[real closed fields]]
 * [[real numbers]]
 
-Non-archimedean fields include
+Non-Archimedean ordered fields include
 
 * [[finite fields]]
 
@@ -77,6 +78,8 @@ Non-archimedean fields include
 * [[archimedean integral domain]]
 
 * [[archimedean group]]
+
+* [[Archimedean ordered Artinian local ring]]
 
 * [[differentiable space]]
 
