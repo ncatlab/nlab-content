@@ -83,43 +83,54 @@ In good cases, the intrinsic properties of $X$ do not depend on whether one rega
 
 The notion of a _gros topos_ of a _topological space_ is due to [[Jean Giraud]]. Some early results from the Grothendieck school appear in 
 
-* {#SGA4}[[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_ , Springer LNM **269** (1972). (expos&#233; IV, 2.5 pp.316-318, 4.10 pp.358-365)
+* {#SGA4}[[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, Springer LNM **269** (1972). (expos&#233; IV, 2.5 pp.316-318, 4.10 pp.358-365)
 
 In this context see also
 
-* [[Saunders Mac Lane|S. Mac Lane]], [[Ieke Moerdijk|I. Moerdijk]], _Sheaves in Geometry and Logic_ , Springer Heidelberg 1994. (pp.113, 325, 416)
+* [[Saunders Mac Lane|S. Mac Lane]], [[Ieke Moerdijk|I. Moerdijk]], pp. 113, 325, 416 in: *[[Sheaves in Geometry and Logic]]*, Springer (1994) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0) &rbrack;
 
-In the context of a discussion of the [[big Zariski topos]] Lawvere calls the gros-petit distinction '_a surprising twist of logic that is not yet fully clarified_' on p.110 of his contribution to the _Eilenberg-Festschrift_:
+In the context of a discussion of the [[big Zariski topos]] [Lawvere (1976, p. 110)](#Lawvere76) calls the gros-petit distinction '_a surprising twist of logic that is not yet fully clarified_':
 
-* {#Lawvere76}[[Bill Lawvere]], _Variable quantities and variable structures in topoi_, pp.101-131 in Heller, Tierney (eds.), _Algebra, Topology and Category Theory_ , Academic Press New York 1976.
+* {#Lawvere76} [[William Lawvere]], *Variable quantities and variable structures in topoi*, in [[Alex Heller]], [[Myles Tierney]] (eds.), *Algebra, Topology and Category Theory -- A Collection of Papers in Honor of [[Samuel Eilenberg]]*, Academic Press New York (1976) 101-131 &lbrack;[doi:10.1016/C2013-0-10841-0](https://doi.org/10.1016/C2013-0-10841-0)&rbrack;
 
 The suggestion that a _general notion_ of gros topos is needed goes back to some remarks in _[[Pursuing Stacks]]_. A precise axiom system capturing the notion is first proposed in 
 
-* [[Bill Lawvere]], _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_, preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7.([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.6357&rep=rep1&type=pdf))
+* {#Lawvere86} [[William Lawvere]], *Categories of spaces may not be generalized spaces, as exemplified by directed graphs*, Revista Colombiana de Matematicas **XX** (1986) 179-186, reprinted as: Reprints in Theory and Applications of Categories, **9** (2005) 1-7 &lbrack;[tac:tr9](http://www.tac.mta.ca/tac/reprints/articles/9/tr9abs.html)&rbrack;
 
-The axioms 0 and 1 for _toposes of generalized spaces_ given there later became called the axioms for a [[cohesive topos]], together with axiom 2 they make out a [[sufficiently cohesive topos]].
+"Axiom 0" ([[local topos|locality]]) used in [Lawvere 1986](#Lawvere86) for gros toposes  is argued in [Lawvere 1994](#Lawvere94) to be essentially an insight due to [[Georg Cantor]] and is called the *Cantorian Contrast* (namely between [[discrete spaces]] and [[codiscrete spaces]]) in [Lawvere & Rosebrugh (2003)](#LawvereRosebrugh03), [p. 245](http://patryshev.com/books/Sets%20for%20Mathematics.pdf#page=260).
 
-Further discussion of this axiomatics for [[gros topos]]es is in
+* {#LawvereRosebrugh03} [[William Lawvere]], [[Robert Rosebrugh]], [p. 245](http://patryshev.com/books/Sets%20for%20Mathematics.pdf#page=260) in: *[[Sets for Mathematics]]*, Cambridge University Press  (2003) &lbrack;[doi:10.1017/CBO9780511755460](https://doi.org/10.1017/CBO9780511755460), [book homepage](http://www.mta.ca/~rrosebru/setsformath/), [pdf](http://patryshev.com/books/Sets%20for%20Mathematics.pdf)&rbrack;
 
-* [[Bill Lawvere]], _Categories of space and quantity_ in: J. Echeverria et al (eds.), _The Space of mathematics_, de Gruyter, Berlin, New York (1992)
+The axioms 0 and 1 for _toposes of generalized spaces_ given in [Lawvere 1986](#Lawvere86) later became called the axioms for a *[[cohesive topos]]*
+
+* {#Lawvere94} [[William Lawvere]], *[[Cohesive Toposes and Cantor's "lauter Einsen"]]*, Philosophia Mathematica **2** 1 (1994) 5-15 &lbrack;[doi:10.1093/philmat/2.1.5](https://doi.org/10.1093/philmat/2.1.5), [[LawvereCohesiveToposes.pdf:file]]&rbrack;
+
+together with axiom 2 they make out a [[sufficiently cohesive topos]].
+
+
+
+Further discussion of this axiomatics for gros toposes is in
+
+* [[Bill Lawvere]], _Categories of space and quantity_ in: J. Echeverria et al (eds.), _The Space of mathematics_, de Gruyter, Berlin, New York (1992) &lbrack;[pdf](https://raw.githubusercontent.com/mattearnshaw/lawvere/master/pdfs/1992-categories-of-space-and-quantity.pdf)&rbrack;
 
 where a proposal for a general axiomatization of [[homotopy]]/[[homology]]-like "extensive quantities" and [[cohomology]]-like "intensive quantities") as covariant and contravariant functors out of a distributive category are considered.
 
 The following two papers contain Lawvere's early view of a trichotomy between big toposes vs. étendue and locally decidable toposes as paradigmatic "generalized spaces" with "infinitesimally cohesive" in between, with the latter subsumed into the fine structure of cohesion in more recent versions
 
-* {#Law89a} [[F. W. Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
+* {#Law89a} [[F. W. Lawvere]], *Qualitative Distinctions between some Toposes of Generalized Graphs*, in *Categories in Computer Science and Logic*, Cont. Math. **92** (1989) 261-299 &lbrack;[doi:10.1090/conm/092](http://dx.doi.org/10.1090/conm/092), [pdf](https://github.com/mattearnshaw/lawvere/raw/master/pdfs/1989-qualitative-distinctions-between-some-toposes-of-generalized-graphs.pdf)&rbrack;
 
-* {#Law91a} [[F. W. Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ , pp.1-13 in Springer LNM **1488** (1991).
+* {#Law91a} [[F. W. Lawvere]], *[[Some Thoughts on the Future of Category Theory]]*, 1-13 in Springer LNM **1488** (1991).
 
-The left and right adjoint to the global section functor as a means to identify discrete and codiscrete spaces respectively is also mentioned in
+The [[left adjoint]]  in a cohesive topos is also mentioned in
 
-* [[Bill Lawvere]], _Taking categories seriously_, Reprints in Theory and Applications of Categories, No. 8, 2005, pp. 1&#8211;24. ([pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf))
+* [[Bill Lawvere]], [page 14](http://www.tac.mta.ca/tac/reprints/articles/8/tr8.pdf#page=14) of: _Taking categories seriously_, Revista Colombiana de Matematicas **XX** (1986) 147-178, Reprints in Theory and Applications of Categories, **8** (2005) 1-24. &lbrack;[tac:tr8](http://www.tac.mta.ca/tac/reprints/articles/8/tr8abs.html), [pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf)&rbrack;
 
-on [page 14](http://www.tac.mta.ca/tac/reprints/articles/8/tr8.pdf#page=14).
 
 Under the term _categories of cohesion_ these axioms are discussed in
 
-* [[Bill Lawvere]], _Axiomatic cohesion_, Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+* [[Bill Lawvere]], _Axiomatic cohesion_, Theory and Applications of Categories **19** 3 (2007) 41-49 &lbrack;[tac:19-03](http://www.tac.mta.ca/tac/volumes/19/3/19-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf)&rbrack;
+
+
 
 Another definition of gros vs petit toposes and remarks on applications in [[Galois theory]] is in
 
@@ -135,7 +146,7 @@ There is also something relevant in this article:
 
 * [[Mamuka Jibladze]], _Homotopy types for "gros" toposes_, thesis, [pdf](http://www.rmi.ge/~jib/pubs/thesis.pdf)
 
-* [[Peter Johnstone]], _Calibrated Toposes_ , Bull. Belgian Math. Soc. - Simon Stevin **19** no.5 (2012) pp.889-907. ([projecteuclid](http://projecteuclid.org/euclid.bbms/1354031555))
+* [[Peter Johnstone]], _Calibrated Toposes_, Bull. Belgian Math. Soc. - Simon Stevin **19** 5 (2012) 889-907. &lbrack;[euclid:1354031555](http://projecteuclid.org/euclid.bbms/1354031555)&rbrack;
 
 A discussion and comparison of big vs little approaches to $(\infty,1)$-topos theory began at these blog entries:
 
