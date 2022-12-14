@@ -19,5 +19,14 @@ On [[Donaldson-Thomas theory]] and [[Hilbert schemes]]:
 
 * Michele Cirafici, Annamaria Sinkovics, [[Richard Szabo]], _Cohomological gauge theory, quiver matrix models and Donaldson-Thomas theory_, Nucl. Phys. B809: 452-518, 2009 ([arXiv:0803.4188](https://arxiv.org/abs/0803.4188))
 
+On the [[first-order formulation of gravity]] via [[L-infinity algebras|$L_\infty$-algebras]]:
+
+* Marija Dimitrijević Ćirić, [[Grigorios Giotopoulos]], Voja Radovanović, [[Richard J. Szabo]], *$L_\infty$-Algebras of Einstein-Cartan-Palatini Gravity*, J. Math. Phys., **61** 112502 (2020) &lbrack;[arXiv:2003.06173](https://arxiv.org/abs/2003.06173), [doi:10.1063/5.0011344](https://doi.org/10.1063/5.0011344)&rbrack;
+
+
+
+[[!redirects Richard J. Szabo]]
 
 category: people
+
+
