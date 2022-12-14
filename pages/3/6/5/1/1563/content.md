@@ -209,9 +209,9 @@ Lecture notes University of Chicago 1975.
 
     (a review of topos theory: on structural sets, role of [[forcing]] and non-standard analysis and [[étendue]] toposes)
 
-* _Variable quantities and variable structures in topoi_ , pp.101-131 in Heller, Tierney (eds.), Algebra, Topology and Category Theory, Academic Press New York 1976.
+* *Variable quantities and variable structures in topoi*, in [[Alex Heller]], [[Myles Tierney]] (eds.), *Algebra, Topology and Category Theory -- A Collection of Papers in Honor of [[Samuel Eilenberg]]*, Academic Press New York (1976) 101-131 &lbrack;[doi:10.1016/C2013-0-10841-0](https://doi.org/10.1016/C2013-0-10841-0)&rbrack;
 
-    (an important text for the Eilenberg-festschrift, reviews toposes in [[algebraic geometry]], first attention to [[gros topos]])
+    (reviews toposes in [[algebraic geometry]], first attention to [[gros topos]])
 
 * _Topos-theoretic methods in geometry_, Aarhus 1997
 
@@ -233,16 +233,15 @@ Lecture notes University of Chicago 1975.
 
   (on [[continuum mechanics]], [[variational calculus]] and [[laws of motion]] in [[synthetic differential geometry]] and in [[diffeological spaces]] and [[Frölicher spaces]], and on [[intensive and extensive]] properties in terms of [[ring objects]] and [[modules]] in a [[topos]].)
 
-* {#TakingCategoriesSeriously} _Taking categories seriously_, Reprints in Theory and Applications of Categories, No. 8, 2005, pp. 1&#8211;24. ([pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf))
+* {#TakingCategoriesSeriously} _Taking categories seriously_, Revista Colombiana de Matematicas **XX** (1986) 147-178, Reprints in Theory and Applications of Categories, **8** (2005) 1-24. &lbrack;[tac:tr8](http://www.tac.mta.ca/tac/reprints/articles/8/tr8abs.html), [pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf)&rbrack;
 
-  (reprint of a 1986 paper on the relevance of fundamental concepts in [[category theory]], such as [[Isbell duality]])
-&#8206;
+  (on the relevance of fundamental concepts in [[category theory]], such as [[Isbell duality]])
 
-* _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_, preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7 ([tac:tr9](http://www.tac.mta.ca/tac/reprints/articles/9/tr9abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/9/tr9.pdf))
+* *Categories of spaces may not be generalized spaces, as exemplified by directed graphs*, Revista Colombiana de Matematicas **XX** (1986) 179-186, reprinted as: Reprints in Theory and Applications of Categories, **9** (2005) 1-7 &lbrack;[tac:tr9](http://www.tac.mta.ca/tac/reprints/articles/9/tr9abs.html)&rbrack;
 
   (on the notion of [[gros topos|gros toposes]], details of his claims are worked out at [[sufficiently cohesive topos]])
 
-*   _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
+* *Qualitative Distinctions between some Toposes of Generalized Graphs*, in *Categories in Computer Science and Logic*, Cont. Math. **92** (1989) 261-299 &lbrack;[doi:10.1090/conm/092](http://dx.doi.org/10.1090/conm/092), [pdf](https://github.com/mattearnshaw/lawvere/raw/master/pdfs/1989-qualitative-distinctions-between-some-toposes-of-generalized-graphs.pdf)&rbrack;
 
      (Uses toposes of graphs to introduce his ideas on petit/gros toposes)
 
@@ -313,7 +312,7 @@ pages 43-56, 1994.
 
   (on [[set theory]] from a practical [[category theory|theoretic]] point of view (informal [[ETCS]]))
 
-* _Axiomatic cohesion_ ,Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+* _Axiomatic cohesion_, Theory and Applications of Categories **19** 3 (2007) 41-49 &lbrack;[tac:19-03](http://www.tac.mta.ca/tac/volumes/19/3/19-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf)&rbrack;
 
   (a more formal definition of [[cohesive topos|cohesive toposes]], [[sufficiently cohesive topos]] works out details of his claims concerning 'sufficient cohesion')  
 
