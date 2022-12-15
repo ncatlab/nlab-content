@@ -54,6 +54,8 @@ In fact, it suffices to assume that each counit $\epsilon : F U b \to b$ is a [[
 
 Similarly, the [[adjoint lifting theorem]] states conditions on a square of functors in order to ensure the existence of certain adjoints. Since a triangle can be viewed as a square with 'two sides composed', it is possible to deduce the adjoint lifting theorem from the adjoint triangle theorem as a corollary.
 
+It is also possible to derive the [[monadicity theorem]] from the adjoint triangle theorem [Dubuc (1968)](#dubuc68).
+
 ## Related entries
 
 * [[adjoint functor theorem]]
