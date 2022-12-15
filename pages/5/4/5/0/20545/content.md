@@ -44,6 +44,11 @@ Arises from
 
 * [[Kantaro Ohmori]], _Six-Dimensional Superconformal Field Theories and Their Torus Compactifications_, Springer Theses 2018 ([springer:book/9789811330919](https://www.springer.com/gp/book/9789811330919))
 
+Comprehensive review of expected [[top-down model building|top-down constructions]] of [[D=6 N=(2,0) SCFT|$D=6$ $\mathcal{N}=(2,0)$ SCFTs]] and [[D=6 N=(1,0) SCFT|$D=6$ $\mathcal{N}=(1,0)$ SCFTs]]
+
+* [[Jonathan J. Heckman]], [[Tom Rudelius]], *Top Down Approach to 6D SCFTs*, J. Phys. A: Math. Theor. **52** 9 (2019) 093001 &lbrack;[arXiv:1805.06467](https://arxiv.org/abs/1805.06467), [doi:10.1088/1751-8121/aafc81](https://doi.org/10.1088/1751-8121/aafc81)&rbrack;
+
+
 ### Anomaly cancellation
 
 Discussion of [[anomaly cancellation]] and [[Green-Schwarz mechanism]]:
@@ -99,7 +104,7 @@ On [[D=6 N=(1,0) SCFTs]] via [[geometric engineering of QFT|geometric engineerin
   (emphasis on the [[KK-compactifications]])
 
 
-* Michele Del Zotto, [[Jonathan Heckman]], [[Alessandro Tomasiello]], [[Cumrun Vafa]], _6d Conformal Matter_, JHEP02(2015)054 ([arXiv:1407.6359](https://arxiv.org/abs/1407.6359))
+* [[Michele Del Zotto]], [[Jonathan Heckman]], [[Alessandro Tomasiello]], [[Cumrun Vafa]], _6d Conformal Matter_, JHEP02(2015)054 ([arXiv:1407.6359](https://arxiv.org/abs/1407.6359))
 
 * {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_, JHEP12(2014)003 ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
 
