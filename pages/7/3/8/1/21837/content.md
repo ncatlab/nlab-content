@@ -162,6 +162,9 @@ Further discussion in:
 
 * {#GukovPeiPutrovVafa18} [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], _4-manifolds and topological modular forms_ ([arXiv:1811.07884](https://arxiv.org/abs/1811.07884), [spire:1704312](https://inspirehep.net/literature/1704312))
 
+* Kimyeong Lee, Kaiwen Sun, Xin Wang, *Twisted Elliptic Genera* &lbrack;[arXiv:2212.07341](https://arxiv.org/abs/2212.07341)&rbrack;
+
+
 
 ##### M-string elliptic genus
 {#ReferencesEllipticGeneraAsPartitionFunctionsOfMStrings}
