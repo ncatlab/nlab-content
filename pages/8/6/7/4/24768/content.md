@@ -8,7 +8,7 @@ The counterpart to [[function extensionality]] but for [[products]]/[[pairs]] of
 
 \subsection{In set theory}
 
-Product extensionality states that for all elements $a \in A$, $a' \in A$, $b \in B$, and $b' \in B$, if $a = a'$ and $b = b'$, then the ordered pairs $(a, b) = (a', b')$. 
+Product extensionality states that for all elements $a \in A$, $a' \in A$, $b \in B$, and $b' \in B$, $a = a'$ and $b = b'$ if and only if $(a, b) = (a', b')$. Product extensionality is sometimes assumed as an axiom in [[material set theory]] to make the [[pairing structure]] into an [[ordered pairing structure]] $(a, b)$. 
 
 \subsection{In type theory}
 
@@ -44,3 +44,7 @@ Definitional product extensionality holds in [[cubical type theory]] and [[highe
 For definitional product extensionality in higher observational type theory, see
 
 * [[Mike Shulman]], *Towards a Third-Generation HOTT Part 1* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA))
+
+For a proof that the given function above between identity types is a [[quasi-inverse function]] in [[intensional type theory]], see section 2.6:
+
+* *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
