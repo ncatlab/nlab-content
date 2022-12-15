@@ -127,7 +127,7 @@ Derivation of the abelian 6d theory to low order as the small fluctuations of th
 * {#ClausKalloshProeyen97} P. Claus, [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl.Phys. B518 (1998) 117-150 ([arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161))
 
 
-General survey includes
+General survey:
 
 * {#Moore11} [[Greg Moore]], _On the role of six&#8208;dimensional $(2,0)$-theories in recent developments in Physical Mathematics_, talk at [Strings 2011](http://www2.physics.uu.se/external/strings2011/) ([pdf slides](http://www.physics.rutgers.edu/~gmoore/Strings2011FinalPDF.pdf))
   
@@ -142,7 +142,7 @@ Discussion of [[anomaly cancellation]]:
 
 * [[Hiroyuki Shimizu]], _Aspects of anomalies in 6d superconformal field theories_, Tokyo 2018 ([spire:1802462](https://inspirehep.net/literature/1802462), [[ShimizuAnomaliesIn6dSCFT.pdf:file]])
 
-Construction from [[F-theory]] [[KK-compactification]] is reviewed in 
+Review of construction from [[F-theory]] [[KK-compactification]]:
 
 * {#HeckmanRudelius18} [[Jonathan Heckman]], [[Tom Rudelius]], _Top Down Approach to 6D SCFTs_, J. Phys. A: Math. Theor. 52 093001 2018 ([arXiv:1805.06467](https://arxiv.org/abs/1805.06467), [doi:10.1088/1751-8121/aafc81](https://doi.org/10.1088/1751-8121/aafc81))
 
