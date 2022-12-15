@@ -16,8 +16,15 @@
 
 A **strict factorization system** is like an [[orthogonal factorization system]], but the factorizations are specified uniquely on the nose, rather than merely up to [[isomorphism]].
 
-One reason these are of interest is that they can be identified with [[distributive laws]] in the [[bicategory]] of [[spans]], as shown by [Rosebrugh & Wood (2002)](#RosebrughWood02).
+## Definition
 
+A **strict factorization system** on a category $C$ comprises [[wide subcategories]] $E$ and $M$ of $C$ such that every morphism in $C$ factors as $m e$ for $e \in E$ and $m \in M$.
+
+Note that a strict factorization system is not necessarily an [[orthogonal factorization system]], since $E$ and $M$ may not contain the isomorphisms in $C$. However, for every strict factorization system, there is a unique orthogonal factorization system containing it, given by closing $E$ under postcomposition by isomorphisms and closing $M$ under precomposition by isomorphisms (see §2.1 of [Grandis (2000)](#Grandis00)).
+
+## As distributive laws in a bicategory
+
+One reason strict factorization systems are of interest is that they can be identified with [[distributive laws]] in the [[bicategory]] of [[spans]], as shown by [Rosebrugh & Wood (2002)](#RosebrughWood02).
 
 Ordinary orthogonal factorization systems can be similarly characterized by:
 
@@ -30,6 +37,12 @@ Ordinary orthogonal factorization systems can be similarly characterized by:
 * using [[weak distributive laws]], as in [Böhm (2012)](#Böhm12).
 
 ## References
+
+Strict factorization systems were defined in:
+
+* {#Grandis00} [[Marco Grandis]]. _Weak subobjects and the epi-monic completion of a category_. Journal of Pure and Applied Algebra 154.1-3 (2000): 193-212.
+
+See also:
 
 * {#RosebrughWood02} [[Robert Rosebrugh]], [[Richard J. Wood]], *Distributive Laws and Factorization*, Journal of Pure and Applied Algebra **175** 1–3 (2002) 327-353 &lbrack;<a href="http://dx.doi.org/10.1016/S0022-4049(02)00140-8">doi:10.1016/S0022-4049(02)00140-8</a>[pdf](http://www.mta.ca/~rrosebru/articles/fac.pdf)&rbrack;
 
