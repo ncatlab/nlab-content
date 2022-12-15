@@ -106,6 +106,13 @@ In [[homotopy type theory]] the unit type is a [[contractible type]], and every 
 
 =--
 
+### The extensionality principle 
+
+Given elements $x:\mathbb{1}$ and $y:\mathbb{1}$, there is an [[equivalence of types]] $(x =_\mathbb{1} y) \simeq \mathbb{1}$ between the [[identity type]] $x =_\mathbb{1} y$ and $\mathbb{1}$ itself. 
+
+By the negative presentation of the unit type $\mathbb{1}$ every type has a function into $\mathbb{1}$, given by sending every element in the domain into the canonical element $*:\mathbb{1}$. This means that there is a function $\mathrm{idToUnit}(x, y):(x =_\mathbb{1} y) \to \mathbb{1}$ which takes every identity $p:x =_\mathbb{1} y$ to $*:\mathbb{1}$. Now, by the positive presentation of the unit type, there is a function $\mathrm{unitToId}(x, y):\mathbb{1} \to (x =_\mathbb{1} y)$, which is inductively defined by an identity 
+$$\beta_{\mathrm{unitToId}(x, x)}^{*}:\mathrm{unitToId}(x, x)(*) =_{x =_\mathbb{1} x} \mathrm{refl}_\mathbb{1}(x)$$
+
 ## Categorical semantics
 
 Under [[categorical semantics]], a unit type satisfying both beta and eta conversions corresponds to a [[terminal object]] in a [[category]].  More precisely:
