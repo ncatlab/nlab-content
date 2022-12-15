@@ -33,7 +33,7 @@ F (\mu F)
   \arrow[r, "F (\textrm{cata}\:\varphi)"]
   \arrow[d, "\textrm{in}"] &
 F A
-  \arrow[d, "\phi"] \\
+  \arrow[d, "\varphi"] \\
 \mu F
   \arrow[r, "\textrm{cata}\:\varphi"] &
 A
