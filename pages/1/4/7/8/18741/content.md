@@ -1,8 +1,12 @@
 
-* [webpage](http://www.cs.cmu.edu/~amoertbe/)
+* [webpage](https://staff.math.su.se/anders.mortberg/)
 
 
 ## Selected writings
+
+On [[affine schemes]] in [[cubical type theory]]:
+
+* [[Anders Mörtberg]], [[Max Zeuner]], *A Univalent Formalization of Affine Schemes* ([arXiv:2212.02902](https://arxiv.org/abs/2212.02902))
 
 On [[cubical type theory|cubical]] [[homotopy type theory]] implemented in the [[proof assistant]] [[Cubical Agda]]:
 
