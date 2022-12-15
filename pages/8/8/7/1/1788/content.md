@@ -1,2 +1,4 @@
 
-[[CQTS-Main-Poster-221212.jpg:file]]
+**Topological quantum gates from M-Theory**
+
+> The promising idea that strongly coupled quantum systems such as (confined QCD or) topologically ordered quantum materials are usefully modeled as worldvolume dynamics on intersecting branes in string theory has been suffering from the latter's lack of non-perturbative formulation (M-theory), necessary in the realistic regime of small numbers of individual branes (i.e. beyond the usual holographic large-$N$ approximation). In this talk I will briefly review our "Hypothesis H" that brane charge in M-theory is quantized in a twisted equivariant non-abelian cohomology theory called *Cohomotopy*, where M-brane quantum observables are identified with the twisted equivariant cohomology of the Cohomotopy moduli space. Then I explain our recent derivation, from this assumption, of anyonic topological order in ground states of M5-brane intersections; and I close with an outlook on how this describes topological quantum logic gates via braiding of defect branes.
