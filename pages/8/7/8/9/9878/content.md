@@ -21,6 +21,8 @@ In the [[Lagrangian]] of a [[prequantum field theory]] the those terms that invo
 
 In [[perturbative quantum field theory]] the coupling constant (as well as [[Planck's constant]] which indicates the strength of [[quantum physics|quantum]] effects) is regarded as tiny, in fact as [[infinitesimal]], in that all [[observables]] are expressed as (generally non-converging, [[asymptotic series|asymptotic]]) [[formal power series]] in the coupling constant.
 
+Beyond that approximation, in the realm of finite (large) coupling, one speaks of *[[non-perturbative field theory]]*.
+
 ## Example
 
 * [[Yukawa interaction|Yukawa coupling constant]]
@@ -50,6 +52,7 @@ See also
 
 [[!redirects gauge coupling]]
 
-
+[[!redirects coupling]]
+[[!redirects couplings]]
 
 
