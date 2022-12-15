@@ -158,11 +158,10 @@ Discussion of the resulting [[elliptic genus]] ([[2d SCFT]] [[partition function
 
 Further discussion in:
 
-* Murad Alim, Babak Haghighat, Michael Hecht, [[Albrecht Klemm]], Marco Rauch, Thomas Wotschke, _Wall-crossing holomorphic anomaly and mock modularity of multiple M5-branes_ ([arXiv:1012.1608](https://arxiv.org/abs/1012.1608))
+* Murad Alim, [[Babak Haghighat]], Michael Hecht, [[Albrecht Klemm]], Marco Rauch, Thomas Wotschke, *Wall-crossing holomorphic anomaly and mock modularity of multiple M5-branes*, Comm. Math. Phys. **339** (2015) 773–814 $[$[arXiv:1012.1608](https://arxiv.org/abs/1012.1608), [doi:10.1007/s00220-015-2436-3](https://doi.org/10.1007/s00220-015-2436-3)$]$
 
-* {#GukovPeiPutrovVafa18} [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], _4-manifolds and topological modular forms_ ([arXiv:1811.07884](https://arxiv.org/abs/1811.07884), [spire:1704312](https://inspirehep.net/literature/1704312))
+* {#GukovPeiPutrovVafa18} [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], *4-manifolds and topological modular forms*,  J. High Energ. Phys. **2021** 84 (2021) $[$[arXiv:1811.07884](https://arxiv.org/abs/1811.07884), <a href="https://doi.org/10.1007/JHEP05(2021)084">doi:10.1007/JHEP05(2021)084</a>, [spire:1704312](https://inspirehep.net/literature/1704312)$]$
 
-* Kimyeong Lee, Kaiwen Sun, Xin Wang, *Twisted Elliptic Genera* &lbrack;[arXiv:2212.07341](https://arxiv.org/abs/2212.07341)&rbrack;
 
 
 
@@ -175,10 +174,9 @@ On the [[elliptic genus]] of [[M-strings]] inside [[M5-branes]]:
 
 * [[Stefan Hohenegger]], [[Amer Iqbal]], Soo-Jong Rey, _M String, Monopole String and Modular Forms_, Phys. Rev. D 92, 066005 (2015) ([arXiv:1503.06983](https://arxiv.org/abs/1503.06983))
 
-
-
-
 * M. Nouman Muteeb, _Domain walls and M2-branes partition functions: M-theory and ABJM Theory_ ([arXiv:2010.04233](https://arxiv.org/abs/2010.04233))
+
+* Kimyeong Lee, Kaiwen Sun, Xin Wang, *Twisted Elliptic Genera* &lbrack;[arXiv:2212.07341](https://arxiv.org/abs/2212.07341)&rbrack;
 
 
 
