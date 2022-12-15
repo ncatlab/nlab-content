@@ -22,7 +22,7 @@ The [[category of functors]] on a [[monoidal category]] canonically inherits its
 
 In more detail, just as there is [[convolution]] of  [[functions]] $f : G \to \mathbb{C}$ whenever $G$ carries the structure of a  [[group]], or more generally just the structure of a [[monoid]], so there is convolution of  [[functors]] $f \colon  \mathcal{G} \to Set$ whenever the [[category]] $\mathcal{G}$ carries the structure of a [[monoidal category]].  
 
-This may be generalized by replacing [[Set]] with a more general [[cocomplete category|cocomplete]] [[symmetric monoidal category]] $V$. The technical condition is that the [[tensor product]] $u \otimes v$ preserves [[colimits]] in its two arguments separately; hence that the functors $u \otimes -$ and $- \otimes v$ preserve colimits. This occurs notably when $V$ is symmetric [[closed monoidal category|closed monoidal]] (so that these functors are [[left adjoints]]). 
+This may be generalized by replacing [[Set]] with a more general [[cocomplete category|cocomplete]] [[symmetric monoidal category]] $V$. The technical condition is that $V$ is a [[monoidally cocomplete category]]: i.e. the [[tensor product]] $u \otimes v$ preserves [[colimits]] in its two arguments separately; hence that the functors $u \otimes -$ and $- \otimes v$ preserve colimits. This occurs notably when $V$ is symmetric [[closed monoidal category|closed monoidal]] (so that these functors are [[left adjoints]]). 
 
 ## Definition
 
