@@ -259,3 +259,7 @@ In [Becker-Becker-Strominger 95](#BeckerBeckerStrominger95) it was realized that
 
 [[!redirects nonperturbative effect]]
 [[!redirects nonperturbative effects]]
+
+[[!redirects non-perturbative]]
+
+
