@@ -26,7 +26,7 @@ Intuitively, the Rezk completion is a "strictification via Yoneda" type result, 
 
 ## Construction ##
 
-These results are from [UFP13](#UFP13). Note: [UFP13](#UFP13)  calls a [[category]] a "[[precategory]]" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
+We work in a [[dependent type theory]] where [[UIP]] or [[axiom K]] cannot be proven. These results are from [UFP13](#UFP13). Note: [UFP13](#UFP13)  calls a [[category]] a "[[precategory]]" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
 
 \begin{theorem}\label{Theorem995}
 **(Theorem 9.9.5 in [UFP13](#UFP13))**
