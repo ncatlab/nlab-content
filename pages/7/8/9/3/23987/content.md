@@ -147,8 +147,9 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 * 12-15 Jan 2023 (upcoming)
 
-  **M-Theory and Mathematics 2023** -- *Classical and Quantum Aspects*
+  **[M-Theory and Mathematics 2023](M-Theory+and+Mathematics#2023)** -- *Classical and Quantum Aspects*
 
+  > on [[M-theory]] ([[non-perturbative]] [[string theory]])
 
 
 \linebreak
