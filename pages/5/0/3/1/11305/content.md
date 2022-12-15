@@ -15,7 +15,7 @@ On [[toroidal orbifolds]] in [[string theory]]:
 
 On the [[M5-brane elliptic genus]]:
 
-* Murad Alim, Babak Haghighat, Michael Hecht, [[Albrecht Klemm]], Marco Rauch, Thomas Wotschke, _Wall-crossing holomorphic anomaly and mock modularity of multiple M5-branes_ ([arXiv:1012.1608](https://arxiv.org/abs/1012.1608))
+* Murad Alim, [[Babak Haghighat]], Michael Hecht, [[Albrecht Klemm]], Marco Rauch, Thomas Wotschke, *Wall-crossing holomorphic anomaly and mock modularity of multiple M5-branes*, Comm. Math. Phys. **339** (2015) 773–814 &lbrack;[arXiv:1012.1608](https://arxiv.org/abs/1012.1608), [doi:10.1007/s00220-015-2436-3](https://doi.org/10.1007/s00220-015-2436-3)&rbrack;
 
 
 On [[E-strings]] in [[F-theory]]:
