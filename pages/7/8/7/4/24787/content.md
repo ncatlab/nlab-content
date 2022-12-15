@@ -19,7 +19,7 @@
 
 ## Definition
 
-An **enhanced factorisation system** on a [[2-category]] is a [[factorisation system on a 2-category]] such that, for any invertible 2-cell $\alpha t e \Rightarrow m s$
+An **enhanced factorisation system** on a [[2-category]] is a [[factorisation system on a 2-category]] such that, for any invertible 2-cell $\alpha : t e \Rightarrow m s$
 
 \begin{tikzcd}
 	A & B \\
@@ -31,7 +31,7 @@ An **enhanced factorisation system** on a [[2-category]] is a [[factorisation sy
 	\arrow["\alpha"{description}, draw=none, from=1-2, to=2-1]
 \end{tikzcd}
 
-there is a unique pair of a 1-cell $r : B \to C$ and invertible 2-cell $\beta : t \Rightarrow mr$ such that $r e = s$ and $\beta e = \alpha$.
+there is a unique pair of a 1-cell $r : B \to C$ and invertible 2-cell $\beta : t \Rightarrow m r$ such that $r e = s$ and $\beta e = \alpha$.
 
 ## References
 
