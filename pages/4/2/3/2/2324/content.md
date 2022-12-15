@@ -94,6 +94,12 @@ ${}_R Mod\to Qcoh(Spec R)$ between the category of $R$-modules and the category 
 
 * Demazure, Gabriel, _Algebraic groups_
 
+For [[affine schemes]] in [[cubical type theory]], see:
+
+* [[Anders Mörtberg]], [[Max Zeuner]], *A Univalent Formalization of Affine Schemes* ([arXiv:2212.02902](https://arxiv.org/abs/2212.02902))
+
+* [[Max Zeuner]], *A univalent formalization of affine schemes*, 20 October 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Zeuner-2022-10-20-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=nLP7GjL1Buc))
+
 category: algebraic geometry
 
 [[!redirects Zariski duality]]
