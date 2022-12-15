@@ -2,6 +2,10 @@
 
 ## Selected writings
 
+On the [[M5-brane elliptic genus]]:
+
+* Murad Alim, [[Babak Haghighat]], Michael Hecht, [[Albrecht Klemm]], Marco Rauch, Thomas Wotschke, *Wall-crossing holomorphic anomaly and mock modularity of multiple M5-branes*, Comm. Math. Phys. **339** (2015) 773–814 &lbrack;[arXiv:1012.1608](https://arxiv.org/abs/1012.1608), [doi:10.1007/s00220-015-2436-3](https://doi.org/10.1007/s00220-015-2436-3)&rbrack;
+
 On [[M-strings]]:
 
 * [[Babak Haghighat]], [[Amer Iqbal]], [[Can Kozcaz]], [[Guglielmo Lockhart]], [[Cumrun Vafa]], _M-Strings_, Commun. Math. Phys. 334, 779–842 (2015) ([arXiv:1305.6322](https://arxiv.org/abs/1305.6322), [doi:10.1007/s00220-014-2139-1](https://doi.org/10.1007/s00220-014-2139-1))
@@ -14,8 +18,11 @@ On [[E-strings]]:
 
 * {#GHKKLV15} Abhijit Gadde, [[Babak Haghighat]], Joonho Kim, Seok Kim, [[Guglielmo Lockhart]], [[Cumrun Vafa]], _6d String Chains_, JHEP 1802 (2018) 143 ([arXiv:1504.04614](https://arxiv.org/abs/1504.04614)) 
 
+
+
 On [[braid group representations]] for [[su(2)-anyon]]-[[anyon statistics|statistics]] from the [[monodromy]] of the [[Knizhnik-Zamolodchikov connection]] of bundles of [[conformal blocks]] over [[configuration spaces of points]]:
 
 * Xia Gu, [[Babak Haghighat]], Yihua Liu, *Ising- and Fibonacci-Anyons from KZ-equations* &lbrack;[arXiv:2112.07195](https://arxiv.org/abs/2112.07195)&rbrack;
 
 category: people
+
