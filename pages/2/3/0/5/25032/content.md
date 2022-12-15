@@ -29,7 +29,7 @@ Uniqueness of $\{x, y\}$ follows from $\prec$ being an [[extensional relation]].
 
 ### Ordered pairing structure
 
-An **ordered pairing structure** on $V$ is a pairing structure $(-,-):V \times V \to V$ where additionally 
+An **ordered pairing structure** on $V$ is a pairing structure $(-,-):V \times V \to V$ which satisfies [[product extensionality]]: 
 
 * for all $a \in V$, $a' \in V$, $b \in V$, $b' \in V$, $P(a, b) = P(a', b')$ if and only if $a = a'$ and $b = b'$
 
@@ -46,6 +46,8 @@ In any [[material set theory]], instead of postulating the mere existence of a s
 * [[powerset structure]]
 
 * [[natural numbers structure]]
+
+* [[product extensionality]]
 
 ## References
 
