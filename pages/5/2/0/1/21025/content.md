@@ -36,6 +36,19 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 \linebreak
 
 
+
+
+\linebreak
+
+## M-Theory and Mathematics 2023
+ {#2023}
+
+* January 12-15, 2023
+
+  New York University, Abu Dhabi
+
+  (...)
+
 \linebreak
 
 ## M-Theory and Mathematics 2020
@@ -183,23 +196,15 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 This suggests that [[Hypothesis H]] is a correct assumption about the elusive mathematical fomulation of [[nLab:M-theory]].
 This is joint work with [[nLab:Hisham Sati|H. Sati]] ([[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation|arxiv:1909.12277]], [[schreiber:Differential Cohomotopy implies intersecting brane observables|arxiv:1912.10425]]).
 
-\linebreak
-
-more to appear here...
 
 \linebreak
 
 \linebreak
 
-\linebreak
 
-\linebreak
+## Related events
 
-\linebreak
-
-**Related events:
-
-* [[Higher Structures in M-Theory 2018]]
+* *[[Higher Structures in M-Theory 2018]]*
 
 \linebreak
 
