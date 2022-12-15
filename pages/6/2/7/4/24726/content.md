@@ -152,6 +152,8 @@ The **Homotopy Type Theory Electronic Seminar Talks**, abbreviated as HoTTEST, i
 
 * [[Chris Grossack]], *Where are the open sets? Comparing HoTT with Classical Topology*, 6 October 2022, ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Grossack-2022-10-06-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=syftUuf5Hpk))
 
+* [[Max Zeuner]], *A univalent formalization of affine schemes*, 20 October 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Zeuner-2022-10-20-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=nLP7GjL1Buc))
+
 ## See also
 
 * [[homotopy type theory events]]
@@ -166,3 +168,4 @@ The **Homotopy Type Theory Electronic Seminar Talks**, abbreviated as HoTTEST, i
 
 category: reference
 
+[[!redirects HoTTEST]]
