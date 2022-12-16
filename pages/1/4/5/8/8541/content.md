@@ -27,7 +27,7 @@ $$\frac{\Gamma \vdash \mathbb{N} \; \mathrm{type} \quad \Gamma \vdash m:\mathbb{
 
 * Introduction and propositional computation rules for addition $+$:
 
-$$\frac{\Gamma \vert \Phi \vdash \mathbb{N} \; \mathrm{type} \quad \Gamma \vert \Phi \vdash m:\mathbb{N} \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vert \Phi \vdash m + n:\mathbb{N}} \qquad \frac{\Gamma \vert \Phi \vdash \mathbb{N} \; \mathrm{type} \quad \Gamma \vert \Phi \vdash n:\mathbb{N}}{\Gamma \vert \Phi \vdash 0 + n =_\mathbb{N} n \; \mathrm{true}} \qquad \frac{\Gamma \vert \Phi \vdash \mathbb{N} \; \mathrm{type}\quad \Gamma \vert \Phi \vdash m:\mathbb{N} \quad \Gamma \vert \Phi \vdash n:\mathbb{N}}{\Gamma \vert \Phi \vdash s(m) + n =_\mathbb{N} s(m + n) \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash \mathbb{N} \; \mathrm{type} \quad \Gamma \vdash m:\mathbb{N} \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash m + n:\mathbb{N}} \qquad \frac{\Gamma \vdash \mathbb{N} \; \mathrm{type} \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash 0 + n =_\mathbb{N} n \; \mathrm{true}} \qquad \frac{\Gamma\vdash \mathbb{N} \; \mathrm{type}\quad \Gamma \vdash m:\mathbb{N} \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash s(m) + n =_\mathbb{N} s(m + n) \; \mathrm{true}}$$
 
 * Introduction and typal computation rules for addition $+$:
 
@@ -43,9 +43,9 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma, x
 
 * Introduction and propositional computation rules for the transport function $\mathrm{tr}$:
 
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:A \quad \Gamma \vert \Phi \vdash p:a =_A b \quad \Gamma, x:A, \Delta \vert \Phi \vdash B \; \mathrm{type}}{\Gamma, \Delta[b/x] \vert \Phi[b/x] \vdash \mathrm{tr}(x.B, a, b, p):B[a/x] \simeq B[b/x]}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A, \Delta \vdash B \; \mathrm{type}}{\Gamma, \Delta[b/x] \vdash \mathrm{tr}(x.B, a, b, p):B[a/x] \simeq B[b/x]}$$
 
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma, x:A, \Delta \vert \Phi \vdash B \; \mathrm{type}}{\Gamma, \Delta[a/x] \vert \Phi[a/x] \vdash \mathrm{tr}(x.B, a, a, \mathrm{refl}_A(a)) =_{B[a/x] \simeq B[a/x]} \mathrm{id}_{B[a/x]} \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma, x:A, \Delta \vdash B \; \mathrm{type}}{\Gamma, \Delta[a/x] \vdash \mathrm{tr}(x.B, a, a, \mathrm{refl}_A(a)) =_{B[a/x] \simeq B[a/x]} \mathrm{id}_{B[a/x]} \; \mathrm{true}}$$
 
 * Introduction and typal computation rules for the transport function $\mathrm{tr}$:
 
