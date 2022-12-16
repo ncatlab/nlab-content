@@ -98,20 +98,35 @@ As in the case of binary [[product types]], these translations require the [[con
 
 ## Properties
 
+\begin{theorem}
+The unit type is a [[contractible type]].
+\end{theorem}
 
-+-- {: .num_prop}
-###### Proposition
+\begin{proof}
+For all elements $x:\mathbb{1}$, by induction on the unit type, there is an identity $\mathrm{ind}_\mathbb{1}^*(x):x =_\mathbb{1} *$. This means that $*$ is a [[center of contraction]] of $\mathbb{1}$, and thus that $\mathbb{1}$ is a [[contractible type]]. 
+\end{proof}
 
-In [[homotopy type theory]] the unit type is a [[contractible type]], and every contractible type is [[equivalence in homotopy type theory|equivalent]] to the unit type.
+\begin{theorem}
+There is an [[equivalence of types]] between the [[unit type]] and every [[contractible type]] $T$. 
+\end{theorem}
 
-=--
+\begin{proof}
+By the definition of [[contractible type]], there is an element $p_T:\sum_{a:T} \prod_{b:T} a =_T b$, and thus, an element $\pi_1(p_T)$ and a witness $\pi_2(p_T)$ that $\pi_1(p_T)$ is a [[center of contraction]] of $T$. By the induction principle of the unit type, it suffices to define a function $f:\mathbb{1} \to T$ at $*$. We define it as $f(*) \coloneqq \pi_1(p_T)$. Now, all that's left is to prove that the fiber of $f$ at all elements $a:T$ is contractible. But by [[singleton induction]], it suffices to prove it for the center of contraction $\pi_1(p_T)$. The canonical element $*$ is in the fiber of $f$ at $\pi_1(p_T)$, and since $*$ is the center of contraction of $\mathbb{1}$, the fiber of $f$ at $\pi_1(p_T)$ is contractible, and thus the fiber of $f$ at every element $a:T$ is contractible. Thus, $f$ is an equivalence of types between the unit type and the contractible type $T$. 
+\end{proof}
 
-### The extensionality principle 
+\begin{theorem}
+Given a contractible type $T$ and elements $x:T$ and $y:T$, the identity type $x =_T y$ is contractible. 
+\end{theorem}
 
+Then we could derive the extensionality principle for the unit type:
+
+\begin{lemma}
 Given elements $x:\mathbb{1}$ and $y:\mathbb{1}$, there is an [[equivalence of types]] $(x =_\mathbb{1} y) \simeq \mathbb{1}$ between the [[identity type]] $x =_\mathbb{1} y$ and $\mathbb{1}$ itself. 
+\end{lemma}
 
-By the negative presentation of the unit type $\mathbb{1}$ every type has a function into $\mathbb{1}$, given by sending every element in the domain into the canonical element $*:\mathbb{1}$. This means that there is a function $\mathrm{idToUnit}(x, y):(x =_\mathbb{1} y) \to \mathbb{1}$ which takes every identity $p:x =_\mathbb{1} y$ to $*:\mathbb{1}$. Now, by the positive presentation of the unit type, there is a function $\mathrm{unitToId}(x, y):\mathbb{1} \to (x =_\mathbb{1} y)$, which is inductively defined by an identity 
-$$\beta_{\mathrm{unitToId}(x, x)}^{*}:\mathrm{unitToId}(x, x)(*) =_{x =_\mathbb{1} x} \mathrm{refl}_\mathbb{1}(x)$$
+\begin{proof}
+This follows from the previous three theorems. 
+\end{proof}
 
 ## Categorical semantics
 
