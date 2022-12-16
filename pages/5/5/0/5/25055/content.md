@@ -3,6 +3,8 @@
 
 ## Selected writings
 
+On [[affine schemes]] in  [[univalent foundations]]:
+
 * [[Anders Mörtberg]], [[Max Zeuner]], *A Univalent Formalization of Affine Schemes* ([arXiv:2212.02902](https://arxiv.org/abs/2212.02902))
 
 ## Talks
