@@ -21,13 +21,51 @@ In a [[model]] by [[categorical semantics]], this is a [[terminal object]]. In [
 
 ## Definition
 
-Like any type in type theory, the unit type is specified by rules saying when we can introduce it as a type, how to construct terms of that type, how to use or "eliminate" terms of that type, and how to compute when we combine the constructors with the eliminators.
+Like any type in type theory, the unit type is specified by rules saying when we can introduce it as a type, how to construct terms of that type, how to use or "eliminate" terms of that type, and how to compute when we combine the constructors with the eliminators. The unit type, like the binary [[product type]], can be presented both as a [[positive type]] and a [[negative type]]. There are typically two foundations in which the unit type is specified in, [[natural deduction]] and [[lambda-calculus]]. 
 
-The unit type, like the binary [[product type]], can be presented both as a [[positive type]] and a [[negative type]].  In both cases the rule for building the unit type is the same, namely "it exists":
+### In natural deduction
+
+In both the presentation as a positive and negative type, the formation and introduction rules are the same. 
+
+The [[formation rule]] for the unit type is given by
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1} \; \mathrm{type}}$$
+
+and the [[introduction rule]] for the unit type is given by
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:\mathbb{1}}$$
+
+#### As a positive type
+
+As a positive type, the [[elimination rule]] for $\mathbb{1}$ now says that given a type family $C$ indexed by $\mathbb{1}$, for all elements $c_*:C(*)$ and $p:\mathbb{1}$, there is an element $\mathrm{ind}_\mathbb{1}^C(p, c_*):C(p)$. 
+
+$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type}}{\Gamma, c_*:C(*), p:\mathbb{1} \vdash \mathrm{ind}_\mathbb{1}^C(p, c_*):C(p)}$$
+
+We then have the following [[computation rule]]:
+
+$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type}}{\Gamma, c_*:C(*) \vdash \beta_\mathbb{1}^C(c_*):\mathrm{ind}_\mathbb{1}^C(*, c_*) =_{C(*)} c_*}$$
+
+and the [[uniqueness rule]]:
+
+$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma, x:\mathbb{1} \vdash u:C}{\Gamma, c_*:C(*), p:\mathbb{1}, i_*(u):u(*) =_{C(*)} c_* \vdash \eta_\mathbb{1}^C(c_*, p, u, i_*(u)):u(p) =_{C(p)} \mathrm{ind}_\mathbb{1}^{C}(p, c_*)}$$
+
+The computation rule states that given a type family $C$ indexed by $\mathbb{1}$, for all elements $c_*:C(*)$, the element $\mathrm{ind}_\mathbb{1}^C(*, c_*)$ derived from the elimination rule is equal to $c_*$ with witness $\beta_\mathbb{1}^C(c_*)$. 
+
+The uniqueness rule says that given a type family $C$ indexed by $\mathbb{1}$ and a family of terms $u:C$ indexed by $\mathbb{1}$, for all elements $c_*:C(*)$, elements $p:\mathbb{1}$, and witnesses $i_*(u)$ that $u(*)$ is equal to $c_*$ in $C(*)$, there is a witness $\eta_\mathbb{1}^C(c_*, p, u, i_*(u))$ that $u(p)$ is equal to $\mathrm{ind}_\mathbb{1}^{C}(p, c_*)$ in $C(p)$ 
+
+#### As a negative type
+
+As a negative type, there are no [[elimination rules]] or [[computation rules]] for $\mathbb{1}$. The [[uniqueness rule]] is given by:
+
+...
+
+### In lambda-calculus 
+
+In both cases the rule for building the unit type is the same, namely "it exists":
 
 $$ \frac{ }{1\colon Type} $$
 
-### As a positive type
+#### As a positive type
 
 Regarded as a positive type, we give primacy to the constructors, of which there is exactly one, denoted $()$ or $tt$.
 
@@ -56,7 +94,7 @@ The positive presentation of the unit type is naturally expressed as an [[induct
 
 (Coq then implements beta-reduction, but not eta-reduction. However, eta-equivalence is provable with the internally defined [[identity type]], using the dependent eliminator mentioned above.)
 
-### As a negative type
+#### As a negative type
 
 A negative type is characterized by its eliminators, which is a little subtle for the unit type.  But by analogy with binary [[product types]], which have two eliminators $\pi_1$ and $\pi_2$ when presented negatively, the negative unit type (a [[zero|nullary]] product) should have *no eliminators at all*.
 
@@ -72,7 +110,7 @@ This is obviously not a well-defined "operation", so in this case it is better t
 
 $$ u \;\to_\eta\; ().$$
 
-### Positive versus negative
+#### Positive versus negative
 
 In ordinary "nonlinear" type theory, the positive and negative unit types are equivalent.  They manifestly have the same constructor, while we can define the positive eliminator in a trivial way as
 
