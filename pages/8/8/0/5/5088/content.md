@@ -28,7 +28,7 @@ One reason strict factorization systems are of interest is that they can be iden
 
 Ordinary orthogonal factorization systems can be similarly characterized by:
 
-* using a type of [[pseudo distributive law]], as in [Rosebrugh & Wood (2002)](#RosebrughWood02);
+* using a type of relaxed [[distributive law]], as in [Rosebrugh & Wood (2002)](#RosebrughWood02);
 
 * using [[wreaths]] as in [Lack & Street (2002)](#LackStreet02);
 
@@ -54,3 +54,6 @@ See also:
 
 
 [[!redirects strict factorization systems]]
+[[!redirects strict factorisation system]]
+[[!redirects strict factorisation systems]]
+
