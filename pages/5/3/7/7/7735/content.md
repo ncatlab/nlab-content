@@ -81,5 +81,12 @@ On [[BPS-states]] in [[string theory]]/[[supergravity]] using [[G-structures]]:
 
 * [[Ruben Minasian]], [[Daniël Prins]], [[Hagen Triendl]], _Supersymmetric branes and instantons on curved spaces_, JHEP 10 (2017) 159 ([arXiv:1707.07002](https://arxiv.org/abs/1707.07002))
 
+On [[sphere fiber bundles]] as [[Kaluza-Klein compactifications]] in [[supergravity]] and [[string theory]]:
+
+* [[Federico Bonetti]], [[Ruben Minasian]], Valentí Vall Camell, Peter Weck, *Consistent truncations from the geometry of sphere bundles* &lbrack;[arXiv:2212.08068](https://arxiv.org/abs/2212.08068)&rbrack;
+
+
+
+
 
 category: people
