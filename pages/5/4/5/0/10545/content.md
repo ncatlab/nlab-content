@@ -522,12 +522,18 @@ Lecture notes include
 
 
 
-Reviews include
+Review:
 
 * {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_ Academic Press 1986
+
+  > (appendix 1, section 5 reviews the abstract algebraic definition).
+
+
+* [[Agnès Beaudry]], [[Jonathan A. Campbell]], §3 in: *A Guide for Computing Stable Homotopy Groups*, in *Topology and Quantum Theory in Interaction*, Contemporary Mathematics **718**, Amer. Math. Soc. (2018)  &lbrack;[arXiv:1801.07530](https://arxiv.org/abs/1801.07530), [ams:conm/718](https://bookstore.ams.org/view?ProductCode=CONM/718)&rbrack;
+
+  > (with an eye towards [[functorial quantum field theory]])
  
 
-(appendix 1, section 5 reviews the abstract algebraic definition).
 
 * Cary Malkievich, _The Steenrod Algebra_ ([pdf](http://math.stanford.edu/~carym/steenrod.pdf))
 
