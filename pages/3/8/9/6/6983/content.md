@@ -55,6 +55,8 @@ $$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type}}{\Gamma, c_*:C(*) \vdash 
 
 $$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma, x:\mathbb{1} \vdash u:C}{\Gamma, c_*:C(*), p:\mathbb{1}, i_*(u):u(*) =_{C(*)} c_* \vdash \eta_\mathbb{1}^C(c_*, p, u, i_*(u)):u(p) =_{C(p)} \mathrm{ind}_\mathbb{1}^{C}(p, c_*)}$$
 
+Thus, the unit type satisfies [[singleton induction]]. 
+
 #### As a negative type
 
 As a negative type, there are no [[elimination rules]] or [[computation rules]] for $\mathbb{1}$. The [[uniqueness rule]] states that $*$ is the [[center of contraction]] of $\mathbb{1}$ and is given by:
@@ -194,7 +196,7 @@ There are two interpretations of the unit type, corresponding to the positive an
 
 * The negative unit type corresponds to a [[terminal object]] in a category
 
-* The positive unit type with both $\beta$-conversion and $\eta$-conversion corresponds to an [[initial object]] with a point, a morphism from some unit object $I$, in a category. 
+* The positive unit type with both $\beta$-conversion and $\eta$-conversion corresponds to an [[initial object]] with a point, a morphism from some unit object $I$ to the object corresponding to the unit type, in a category. 
 
 These two conditions are the same if the [[syntactic category]] is a [[cartesian monoidal category]], where the points are the [[global elements]] and the [[unit]] is the [[terminal object]]. In general, however, the points may not be defined out of the terminal object. In [[linear logic]], therefore, the categorical terminal object interprets "top" $\top$, while the unit object of an additional [[monoidal category|monoidal structure]] interprets "one" $\mathbf{1}$.
 
