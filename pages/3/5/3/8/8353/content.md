@@ -92,7 +92,11 @@ $$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \v
 
 ## Copy definitions
 
-Another way of typally defining a type $A$ to be a type $B$ is via **copying**. The rules for copying the type $A$ over to the symbol $B$ are given as follows:
+Another way of typally defining a type $A$ to be a type $B$ is via **copying**. Copying becomes important for typally defining the [[type of equivalences]], as the usual way of typally defining types involves the [[type of equivalences]] and thus isn't available. There are two ways to copy a type $A$ to a type $B$, by using **unary sums** or **unary products**. 
+
+### Unary sums
+
+The rules for copying the type $A$ over to the symbol $B$ are given as follows:
 
 Formation rules for the symbol $B$:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash B \; \mathrm{type}}$$
@@ -109,7 +113,32 @@ $$\frac{\Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\math
 Uniqueness rules for the symbol $B$:
 $$\frac{\Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash e:B \quad \Gamma, y:B \vdash u:C \quad \Gamma, a:A \vdash i_\mathrm{copy}(u):u[\mathrm{copy}(a)/y] =_{C[\mathrm{copy}(a)/y]} c[a/x]}{\Gamma \vdash \eta_{B}:u[e/z] =_{C[e/z]} \mathrm{ind}_{B}^C(c, e)}$$
 
-Similarly, there is an alternative to the typal structural rules for type definitions, which use the [[natural deduction]] rules for copying types instead of a reflection rule into an [[equivalence of types]]:
+Unary sums results in defining $\mathrm{copy}$ to be a function with contractible fibers. 
+
+### Unary products
+
+The rules for copying the type $A$ over to the symbol $B$ are given as follows:
+
+Formation rules for the symbol $B$:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}}$$
+
+Introduction rules for the symbol $B$:
+$$\frac{\Gamma \vdash a:A}{\Gamma \vdash \mathrm{copy}(a):B}$$
+
+Elimination rules for the symbol $B$:
+$$\frac{\Gamma \vdash b:B}{\Gamma \vdash \mathrm{original}(b):A}$$
+
+Computation rules for the symbol $B$:
+$$\frac{\Gamma \vdash a:A}{\Gamma \vdash \mathrm{original}(\mathrm{copy}(a)) \equiv a:A} \qquad \frac{\Gamma \vdash a:A}{\Gamma \vdash \mathrm{original}(\mathrm{copy}(a)) \equiv_A a \; \mathrm{true}} \qquad \frac{\Gamma \vdash a:A}{\Gamma \vdash \beta_{B}(a):\mathrm{original}(\mathrm{copy}(a)) =_A a}$$
+
+Uniqueness rules for the symbol $B$:
+$$\frac{\Gamma \vdash b:B}{\Gamma \vdash b \equiv \mathrm{copy}(\mathrm{original}(b)):B} \qquad \frac{\Gamma \vdash b:B}{\Gamma \vdash b \equiv_{B} \mathrm{copy}(\mathrm{original}(b)) \; \mathrm{true}} \qquad \frac{\Gamma \vdash b:B}{\Gamma \vdash \eta_{B}(b):b =_{B} \mathrm{copy}(\mathrm{original}(b))}$$
+
+Unary products results in defining $\mathrm{copy}$ to be a [[quasi-inverse function]]. Unary products with typal [[conversion rules]] are the same as unary sums in the presence of [[UIP]]/[[axiom K]] and [[function extensionality]], but they are in general not the same. Unary products with judgmental or propositional [[conversion rules]] turn $\mathrm{copy}$ into a [[judgmentally strict equivalence]] and a [[propositionally strict equivalence]] respectively. 
+
+### Copying as assignment
+
+There is an alternative to the typal structural rules for type definitions, which use the [[natural deduction]] rules for copying types instead of a reflection rule into an [[equivalence of types]]. We use unary sums because they result in the right notion of equivalence in all conditions, even in type theories without judgmental or propositional equality or [[UIP]]/[[axiom K]] or [[function extensionality]]. 
 
 * Formation and introduction rules for type definitions
 $$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{copy}(a):B}$$
@@ -122,8 +151,6 @@ $$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma, z:B \vdash C 
 
 * Uniqueness rules for type definitions rules:
 $$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash e:B \quad \Gamma, y:B \vdash u:C \quad \Gamma, a:A \vdash i_\mathrm{copy}(u):u[\mathrm{copy}(a)/y] =_{C[\mathrm{copy}(a)/y]} c[a/x]}{\Gamma \vdash \eta_{B}:u[e/z] =_{C[e/z]} \mathrm{ind}_{B}^C(c, e)}$$
-
-Copying becomes important for typally defining the [[type of equivalences]], as the usual way of typally defining types involves the [[type of equivalences]] and thus isn't available. 
 
 ## Related concepts
 
