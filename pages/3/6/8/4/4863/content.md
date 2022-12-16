@@ -295,6 +295,11 @@ Review specifically for [[supergravity]]:
 
 * {#DuffNilssonPope86} [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], _Kaluza-Klein supergravity_, Physics Reports Volume 130, Issues 1–2, January 1986, Pages 1-142 ([spire:229417](https://inspirehep.net/record/229417), <a href="https://doi.org/10.1016/0370-1573(86)90163-8">doi:10.1016/0370-1573(86)90163-8</a>)
 
+and here specifically for [[sphere fiber bundles]]:
+
+* [[Federico Bonetti]], [[Ruben Minasian]], Valentí Vall Camell, Peter Weck, *Consistent truncations from the geometry of sphere bundles* &lbrack;[arXiv:2212.08068](https://arxiv.org/abs/2212.08068)&rbrack;
+
+
 A survey of the history of the role of the KK-mechanism in theoretical physics:
 
 * {#Duff94} [[Michael Duff]], *Kaluza-Klein Theory in Perspective*, Proc. of the Symposium: *The Oskar Klein Centenary*, World Scientific, Singapore (1994) &lbrack;[arXiv:hep-th/9410046](http://arxiv.org/abs/hep-th/9410046), [doi:10.1142/2816](https://doi.org/10.1142/2816)&rbrack;
