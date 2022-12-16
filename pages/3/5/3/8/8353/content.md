@@ -33,7 +33,7 @@ One way that definitions of types and of terms could be formalized inside the ty
 
 As documented in the article on [[equality]], there are three notions of equality used in type theory: judgmental equality, propositional equality, and typal equality. All three notions of equality could be used in the definition rule. In [[Martin-Löf type theory]] and [[cubical type theory]], symbols and abbreviations are defined using judgmental equality. In [[ZFC]] and [[ETCS]], they are defined using propositional equality, and in [[objective type theories]], they are defined using typal equality. 
 
-For example, suppose that the type $B$ is already derived in some context $\Gamma$ or $\Gamma \vert \Phi$. Then, in order to define the symbol $A$ to be the type $B$ there are the following formation and definition rules for $A$:
+For example, suppose that the type $B$ is already derived in some context $\Gamma$. Then, in order to define the symbol $A$ to be the type $B$ there are the following formation and definition rules for $A$:
 
 * Formation and judgmental definition rules for $A$:
 
@@ -41,13 +41,13 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash A \; \mathrm{type}} \qquad \frac{\
 
 * Formation and propositional definition rules for $A$:
 
-$$\frac{\Gamma \vert \Phi \; \mathrm{ctx}}{\Gamma \vert \Phi \vdash A \; \mathrm{type}} \qquad \frac{\Gamma \vert \Phi \; \mathrm{ctx}}{\Gamma \vert \Phi \vdash A = B\; \mathrm{true}}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash A \; \mathrm{type}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash A = B\; \mathrm{true}}$$
 
 * Formation and typal definition rules for $A$:
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash A \; \mathrm{type}} \qquad \frac{\Gamma \: \mathrm{ctx}}{\Gamma \vdash \delta_A:A \simeq B}$$
 
-Similarly, suppose that the term $b:A$ is already derived in some context $\Gamma$ or $\Gamma \vert \Phi$. Then, in order to define the symbol $a$ to be the term $b:A$ there are the following introduction and definition rules for $a$:
+Similarly, suppose that the term $b:A$ is already derived in some context $\Gamma$. Then, in order to define the symbol $a$ to be the term $b:A$ there are the following introduction and definition rules for $a$:
 
 * Introduction and judgmental definition rules for $a$:
 
@@ -55,7 +55,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash a:A} \qquad \frac{\Gamma
 
 * Introduction and propositional definition rules for $a$:
 
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash a:A} \qquad \frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash a =_A b \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash a:A} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash a =_A b \; \mathrm{true}}$$
 
 * Introduction and typal definition rules for $a$:
 
