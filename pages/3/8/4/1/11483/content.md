@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[string bordism]] of the [[classifying space]] of [[E8|$E_8$]]:
+
+* [[Michael Hill]], *The $String$  bordism of $B E_8$ and $B E_8 \times B E_8$ through dimension 14*, Ill. J. Math. **53** 1 (2009) 183-196 &lbrack;[doi:10.1215/ijm/1264170845](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-53/issue-1/The-string-bordism-of-BE_8-and-BE_8times-BE_8-through-dimension/10.1215/ijm/1264170845.full)&rbrack;
+
+
 On [[tmf]]:
 
 * [[Christopher Douglas]], [[John Francis]], [[André Henriques]], [[Michael Hill]], _Topological Modular Forms_, Mathematical Surveys and Monographs Volume 201, AMS 2014  ([ISBN:978-1-4704-1884-7](https://bookstore.ams.org/surv-201))
