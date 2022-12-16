@@ -63,6 +63,10 @@ On the [[landscape of string theory vacua]]:
 
 * {#Schellekens16} [[Bert Schellekens]], _Big Numbers in String Theory_ ([arXiv:1601.02462](http://arxiv.org/abs/1601.02462))
 
+On [[string phenomenology]] with [[orbifold]]/[[orientifold]] [[intersecting D-brane models]] and [[Gepner models]]:
+
+* [[Fernando Marchesano]], [[Bert Schellekens]], [[Timo Weigand]], *D-brane and F-theory Model Building* &lbrack;[arXiv:2212.07443](https://arxiv.org/abs/2212.07443)&rbrack;
+
 
 
 
