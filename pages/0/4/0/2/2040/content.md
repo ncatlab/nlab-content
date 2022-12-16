@@ -209,6 +209,10 @@ See also
 
 * {#Kronholm10} [[William Kronholm]], _The $RO(G)$-graded Serre spectral sequence_, Homology Homotopy Appl. Volume 12, Number 1 (2010), 75-92. ([pdf](http://www.swarthmore.edu/NatSci/wkronho1/serre.pdf), [Euclid](https://projecteuclid.org/euclid.hha/1296223823))
 
+For Mackey functors [[enriched]] over [[closed category|closed]] [[multicategories]]:
+
+* [[Niles Johnson]], [[Donald Yau]], _Homotopy Theory of Enriched Mackey Functors_ ([arXiv:2212.04276](https://arxiv.org/abs/2212.04276))
+
 Relation of Mackey functors to [[sheaves with transfer]] in the theory of [[motives]]:
 
 * {#KahnYamazaki11} [[Bruno Kahn]], Takao Yamazaki, _Voevodsky's motives and Weil reciprocity_, Duke Mathematical Journal 162, 14 (2013) 2751-2796 ([arXiv:1108.2764](http://arxiv.org/abs/1108.2764))
@@ -246,6 +250,9 @@ The generalization of [[K-theory of permutative categories]] to spectral Mackey 
 Discussion of [[Goodwillie calculus]] via [[spectral Mackey functors]]
 
 * {#Glasman16} [[Saul Glasman]], _Goodwillie calculus and Mackey functors_  ([arXiv:1610.03127](https://arxiv.org/abs/1610.03127))
+
+
+
 
 [[!redirects Mackey functors]]
 
