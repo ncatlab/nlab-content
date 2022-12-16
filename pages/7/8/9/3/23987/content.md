@@ -151,6 +151,12 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
   > on [[M-theory]] ([[non-perturbative]] [[string theory]])
 
+<center>
+<a href="https://ncatlab.org/nlab/show/M-Theory+and+Mathematics#2023">
+<img src="https://ncatlab.org/nlab/files/MTheoryAndMathematics2023Title.jpg" width="700"/>
+</a>
+</center>
+
 
 \linebreak
 
