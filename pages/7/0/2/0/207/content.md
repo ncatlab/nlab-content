@@ -49,7 +49,15 @@ However, not all type theories have judgmental equality; most [[first-order theo
 
 ### Propositional equality
 
-In any two-layer type theory with a layer of [[types]] and a layer of [[propositions]], or equivalently a [[first order logic]] over [[type theory]] or a [[first-order theory]], every type $A$ has a binary [[relation]] according to which two elements $x$ and $y$ of $A$ are related if and only if they are equal; in this case we write $x =_A y$. Since relations are propositions in the context of a term variable judgment in the type layer, this is called **[[propositional equality]]**. Notable examples of propositional equality include the equality in all flavors of [[set theory]], such as [[ZFC]] or [[ETCS]].  
+In any two-layer type theory with a layer of [[types]] and a layer of [[propositions]], or equivalently a [[first order logic]] over [[type theory]] or a [[first-order theory]], every type $A$ has a binary [[relation]] according to which two elements $x$ and $y$ of $A$ are related if and only if they are equal; in this case we write $x =_A y$. Since relations are propositions in the context of a term variable judgment in the type layer, this is called **[[propositional equality]]**. The formation and introduction rules for propositional equality is as follows
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A, y:A \vdash x =_A y \; \mathrm{prop}} \quad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:A \quad \Gamma \vdash y:A}{\Gamma \vdash x =_A y \; \mathrm{true}}$$
+
+In addition, one could have propositional equality between the types themselves, with formation and introduction rules
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A = B \; \mathrm{prop}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A = B \; \mathrm{true}}$$
+
+Notable examples of propositional equality include the equality in all flavors of [[set theory]], such as [[ZFC]] or [[ETCS]].  
 
 The presence of propositional equality is part of the axiomatization of first-order theories, although this is usually swept under the rug by including propositional equality by default in all first-order theories.  (It has to be made more explicit in a structural set theory such as [[SEAR]], where there is no propositional equality on sets themselves, only on elements of a particular set.) By contrast, in a first order theory without propositional equality, propositional equality is an [[equivalence relation]] which has to be put onto a [[type]] or [[preset]].
 
@@ -59,7 +67,7 @@ However, not all type theories are [[first order logic]] over [[type theory]], n
 
 Type theories with only typal equality are called [[objective type theories]]. In type theories with both typal equality and either judgmental equality or propositional equality, one could distinguish between [[intensional type theories]] and [[extensional type theories]]: extensional type theories are type theories with an equality reflection rule, where one could derive judgmental or propositional equality of terms from typal equality of terms:
 
-$$\frac{\Gamma \vdash p:a =_A b}{\Gamma \vdash a \equiv b:A} \qquad \frac{\Gamma \vert \Phi \vdash p:a =_A b}{\Gamma \vert \Phi \vdash a \equiv_A b \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash p:a =_A b}{\Gamma \vdash a \equiv b:A} \qquad \frac{\Gamma \vdash p:a =_A b}{\Gamma \vdash a \equiv_A b \; \mathrm{true}}$$
 
 Intensional type theories are then type theories with typal equality and one of either judgmental or propositional equality without an equality reflection rule. Note that this notion of extensionality is different from the [[axiom of extensionality]] or [[function extensionality]]. 
 
@@ -70,7 +78,7 @@ This table gives the six different notions of equality found in type theory.
 | Judgment | of types | of terms |
 |--------|--------|--------|
 | Judgmental equality | $\Gamma \vdash A = B \; \mathrm{type}$ | $\Gamma \vdash a = b:A$ |
-| Propositional equality | $\Gamma \vert \Phi \vdash A = B \; \mathrm{true}$ | $\Gamma \vert \Phi \vdash a =_A b \; \mathrm{true}$ |
+| Propositional equality | $\Gamma \vdash A = B \; \mathrm{true}$ | $\Gamma \vdash a =_A b \; \mathrm{true}$ |
 | Typal equality | $\Gamma \vdash P:A \simeq B$ | $\Gamma \vdash p:a =_A b$ |
 
 ## Structural rules of equalities
@@ -85,8 +93,8 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash A = A \; \mathrm{type}}$
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash a = a:A}$$
 
 * Reflexivity of propositional equality
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash A = A \; \mathrm{true}}$$
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash a =_A a \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash A = A \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash a =_A a \; \mathrm{true}}$$
 
 * Reflexitivity of typal equality (i.e. [[identity function]] and identity [[path]])
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash id_{A}:A \simeq A}$$
@@ -101,8 +109,8 @@ $$\frac{\Gamma \vdash A = B \; \mathrm{type}}{\Gamma \vdash B = A \; \mathrm{typ
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a = b:A}{\Gamma \vdash b = a:A}$$
 
 * Symmetry of propositional equality
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash A = B \; \mathrm{true}}{\Gamma \vert \Phi \vdash B = A \; \mathrm{true}}$$
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:A \quad \Gamma \vert \Phi \vdash a =_A b \; \mathrm{true}}{\Gamma \vert \Phi \vdash b =_A a \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash A = B \; \mathrm{true}}{\Gamma \vdash B = A \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash a =_A b \; \mathrm{true}}{\Gamma \vdash b =_A a \; \mathrm{true}}$$
 
 * Symmetry of typal equality (i.e. [[inverse function]] and inverse path)
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash P:A \simeq B}{\Gamma \vdash P^{-1}:B \simeq A}$$
@@ -117,8 +125,8 @@ $$\frac{\Gamma \vdash A = B \; \mathrm{type} \quad \Gamma \vdash B = C \; \mathr
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a = b:A \quad b = c:A }{\Gamma \vdash a = c:A}$$
 
 * Transitivity of propositional equality
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma \vert \Phi \vdash A = B \; \mathrm{true} \quad \Gamma \vert \Phi \vdash B = C \; \mathrm{true}}{\Gamma \vert \Phi \vdash A = C \; \mathrm{true}}$$ 
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:A \quad \Gamma \vert \Phi \vdash c:A \quad \Gamma \vert \Phi \vdash a =_A b \; \mathrm{true} \quad \Gamma \vert \Phi \vdash b =_A c \; \mathrm{true}}{\Gamma \vert \Phi \vdash a =_A c \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash A = B \; \mathrm{true} \quad \Gamma \vdash B = C \; \mathrm{true}}{\Gamma \vdash A = C \; \mathrm{true}}$$ 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash c:A \quad \Gamma \vdash a =_A b \; \mathrm{true} \quad \Gamma \vdash b =_A c \; \mathrm{true}}{\Gamma \vdash a =_A c \; \mathrm{true}}$$
 
 * Transitivity of typal equality (i.e. [[composition]] of functions and path concatenation)
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash P:A \simeq B \quad \Gamma \vdash Q:B \simeq C}{\Gamma \vdash Q \circ P:A \simeq C}$$
@@ -133,8 +141,8 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a = b : A \quad \Ga
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a = b : A \quad \Gamma, x:A, \Delta \vdash c:B}{\Gamma, \Delta[b/x] \vdash c[a/x] = c[b/x]: B[b/x]}$$
 
 * Substitution of propositionally equal terms:
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a : A \quad \Gamma \vert \Phi \vdash b : A \quad \Gamma \vert \Phi \vdash a =_A b \; \mathrm{true} \quad \Gamma, x:A, \Delta \vert \Phi \vdash B \; \mathrm{type}}{\Gamma, \Delta[b/x] \vert \Phi[b/x] \vdash B[a/x] = B[b/x] \; \mathrm{true}}$$
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a : A \quad \Gamma \vert \Phi \vdash b : A \quad \Gamma \vert \Phi \vdash a =_A b \; \mathrm{true} \quad \Gamma, x:A, \Delta \vert \Phi \vdash c:B}{\Gamma, \Delta[b/x] \vert \Phi[b/x] \vdash c[a/x] =_{B[b/x]} c[b/x] \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a : A \quad \Gamma \vdash b : A \quad \Gamma \vdash a =_A b \; \mathrm{true} \quad \Gamma, x:A, \Delta \vdash B \; \mathrm{type}}{\Gamma, \Delta[b/x] \vdash B[a/x] = B[b/x] \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a : A \quad \Gamma \vdash b : A \quad \Gamma \vdash a =_A b \; \mathrm{true} \quad \Gamma, x:A, \Delta \vdash c:B}{\Gamma, \Delta[b/x] \vdash c[a/x] =_{B[b/x]} c[b/x] \; \mathrm{true}}$$
 
 * Substitution of typally equal terms (i.e. [[transport]] and [[action on identifications]]):
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A, \Delta \vdash B \; \mathrm{type}}{\Gamma, \Delta[b/x] \vdash \mathrm{tr}(x.B, a, b, p):B[a/x] \simeq B[b/x]}$$
@@ -148,7 +156,7 @@ The variable conversion rule is given by the following judgmental, propositional
 $$\frac{\Gamma \vdash A = B \; \mathrm{type} \quad \Gamma, x:A, \Delta \vdash \mathcal{J}}{\Gamma, x:B, \Delta \vdash \mathcal{J}}$$
 
 * Propositional variable conversion rule:
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash A = B \; \mathrm{true} \quad \Gamma, x:A, \Delta \vert \Phi \vdash \mathcal{J}}{\Gamma, x:B, \Delta \vert \Phi \vdash \mathcal{J}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash A = B \; \mathrm{true} \quad \Gamma, x:A, \Delta \vdash \mathcal{J}}{\Gamma, x:B, \Delta \vdash \mathcal{J}}$$
 
 * Typal variable conversion rule:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash P:A \simeq B \quad \Gamma, x:A, \Delta \vdash \mathcal{J}}{\Gamma, y:B, \Delta[P^{-1}(y)/x] \vdash \mathcal{J}[P^{-1}(y)/x]}$$
