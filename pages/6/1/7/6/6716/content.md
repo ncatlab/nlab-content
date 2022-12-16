@@ -50,7 +50,7 @@ $$
   \end{aligned}
 $$
 
-of the [[product]] of the [[spin group]] with the [[circle group]] by the common [[subgroup|sub]]-[[group of order 2]] $\mathbb{Z}_2 \hookrightarrow \mathbb{Z}$ and $\mathbb{Z}_2 \hookrightarrow U(1)$ (i.e.: the [[central product group]]).
+of the [[product]] of the [[spin group]] with the [[circle group]] by the common [[subgroup|sub]]-[[group of order 2]] $\mathbb{Z}_2 \hookrightarrow Spin$ and $\mathbb{Z}_2 \hookrightarrow U(1)$ (i.e.: the [[central product group]]).
 
 =--
 
