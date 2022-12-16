@@ -34,6 +34,15 @@ $$
 
 Spin structures derive their name from the fact that their existence on a space $X$ make the [[quantum anomaly]] for spinning particles propagating on $X$ vanish. See there.
 
+### Algebraic definition
+
+Just like an [[orientation]] of a real vector space $V$ equipped with an [[inner product]]
+is an isometry between the top exterior power of $V$ and real numbers,
+a __spin structure__ on a real vector space $V$ equipped with an [[inner product]]
+is an isomorphism in the bicategory of algebras, bimodules, and intertwiners from the [[Clifford algebra]] of $V$ to the Clifford algebra of the real vector space $\mathbf{R}^n$ of the same dimension $n=\dim V$ with the canonical inner product.
+
+Spin structures naturally form a category, with morphisms being (isometric) isomorphisms of bimodules as described above.
+
 ## Definition
  {#Definition}
 
