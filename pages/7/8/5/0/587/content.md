@@ -44,8 +44,9 @@ However, these versions involve $\forall$ and $\Rightarrow$, while the previous 
 Even if one is completely uninterested in [[internalization]] or weak logics, a basic familiarity with contexts may help drive home a point that is important throughout reasoning:  **What you can state and prove depends on your assumptions.**
 
 ## Split contexts
+ {#SplitContexts}
 
-Sometimes contexts are split, where one has two different collection of contexts $\Gamma$ and $\Delta$ whose individual judgments are required to be listed separate from each other as $\Gamma \vert \Delta$. This commonly occurs in [[modal type theory]] such as [[spatial type theory]] and [[cohesive homotopy type theory]]. 
+Sometimes contexts are [[split context|split]], where one has two different collection of contexts $\Gamma$ and $\Delta$ whose individual [[judgments]] are required to be listed separate from each other as $\Gamma \vert \Delta$. This commonly occurs in [[modal type theory]] such as [[spatial type theory]] and [[cohesive homotopy type theory]] (specifically in [[real-cohesive homotopy type theory]] and [[linear homotopy type theory]]). 
 
 ## Properties
 
