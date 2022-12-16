@@ -88,6 +88,7 @@ in learning the subject rather then only the goals and supposed content matter. 
 
 ### Other references
 
+* wikipedia: [mathematics education](https://en.wikipedia.org/wiki/Mathematics_education), [Van Hiele model](https://en.wikipedia.org/wiki/Van_Hiele_model)
 * G. Ziegler, _Teaching and learning "What is mathematics?"_, in Proc.ICM 2014, Seoul, vol. 4
 * Alexander Karp, Bruce R Vogeli (eds.), _Russian mathematics education_, 2 vols, World Sci. Publ.
 * Lingguo Bu, Robert Schoen (eds.), _Model centered learning_, Pathways to mathematical understanding using geogebra, vol. 6 of Modeling and simulations for learning and instruction
