@@ -32,4 +32,10 @@ On [[5d Chern-Simons theory]] in [[5-dimensional supergravity]]:
 
 * {#BonettiGrimmHohenegger13} [[Federico Bonetti]], [[Thomas Grimm]], [[Stefan Hohenegger]], _One-loop Chern-Simons terms in five dimensions_ ([arXiv:1302.2918](http://arxiv.org/abs/1302.2918))
 
+On [[sphere fiber bundles]] as [[Kaluza-Klein compactifications]] in [[supergravity]] and [[string theory]]:
+
+* [[Federico Bonetti]], [[Ruben Minasian]], Valentí Vall Camell, Peter Weck, *Consistent truncations from the geometry of sphere bundles* &lbrack;[arXiv:2212.08068](https://arxiv.org/abs/2212.08068)&rbrack;
+
+
+
 category: people
