@@ -149,7 +149,7 @@ Communications in Algebra __44__:7 (2016) 3160-3170 [arxiv/0806.0832](http://arx
 
 Generalization to [[homotopy theory]]/[[higher algebra]] is discussed in 
 
-* [[Mark Hovey]], _The Eilenberg-Watts theorem in homotopical algebra_ ([pdf](http://hopf.math.purdue.edu/Hovey/watts.pdf))
+* [[Mark Hovey]], _The Eilenberg-Watts theorem in homotopical algebra_ ([pdf](https://arxiv.org/pdf/0910.3842.pdf))
  {#Hovey}
 
 and 
