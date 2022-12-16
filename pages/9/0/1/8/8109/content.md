@@ -142,32 +142,32 @@ it follows that in principle one may study a spectrum $X$ by understanding all i
 
 ### Stable case
 
-Original articles include
+Original articles:
 
 * {#Ravenel84} [[Douglas Ravenel]], _Localization with Respect to Certain Periodic Homology Theories_, American Journal of Mathematics Vol. 106, No. 2 (Apr., 1984), pp. 351-414 ([doi:10.2307/2374308](https://doi.org/10.2307/2374308), [jstor:2374308](https://www.jstor.org/stable/2374308))
 
+A quick idea:
 
-A quick idea is given in section 6 of 
+* [[Mark Mahowald]], [[Doug Ravenel]], Section 6 of: _Towards  a Global Understanding of the Homotopy Groups of Spheres_, pages 57-74 in Part II of: _The Lefschetz Centennial Conference -- Proceedings on Algebraic Topology_, Proceedings of the Lefschetz Centennial Conference held December 10-14, 1984, Contemporary Mathematics 58, American Mathematical Society, 1987.  ([ISBN:978-0-8218-5063-3](https://bookstore.ams.org/conm-58-2), [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/global.pdf), [[MahowaldRavenelHomotopyGroupsOfSpheres.pdf:file]])
 
-* [[Mark Mahowald]], [[Doug Ravenel]], _Towards  a Global Understanding of the Homotopy Groups of Spheres_, pages 57-74 in Part II of: _The Lefschetz Centennial Conference -- Proceedings on Algebraic Topology_, Proceedings of the Lefschetz Centennial Conference held December 10-14, 1984, Contemporary Mathematics 58, American Mathematical Society, 1987.  ([ISBN:978-0-8218-5063-3](https://bookstore.ams.org/conm-58-2), [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/global.pdf), [[MahowaldRavenelHomotopyGroupsOfSpheres.pdf:file]])
-
-A good historical introduction is in 
+Historical introduction:
 
 * [[Jack Morava]], _Complex cobordism and algebraic topology_ ([arXiv:0707.3216](http://arxiv.org/abs/0707.3216))
 
-
-Comprehensive lecture notes are in
+Comprehensive lecture notes:
 
 * {#LurieLectures} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
  
-
 * [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_
 
-Brief surveys include
+Survey:
 
 * [[Haynes Miller]], _"Chromatic" homotopy theory_ May 2011 ([pdf](http://www-math.mit.edu/~hrm/papers/chromatic.pdf))
 
-A lightning review of results by Henn with Goerss, Mahowald, Rezk, and Karamanov is in 
+* [[Tobias Barthel]], [[Agnès Beaudry]], *Chromatic structures in stable homotopy theory*, in [[Handbook of Homotopy Theory]], Chapman and Hall/CRC Press (2019) &lbrack;[arXiv:1901.09004](https://arxiv.org/abs/1901.09004), [doi:10.1201/9781351251624](https://doi.org/10.1201/9781351251624)&rbrack;
+
+
+A lightning review of results by Henn with Goerss, Mahowald, Rezk, and Karamanov:
 
 * Hans-Werner Henn, _Recent developments in stable homotopy theory_ ([pdf](https://etale.site/livetex/saft/henn.pdf),)
 
