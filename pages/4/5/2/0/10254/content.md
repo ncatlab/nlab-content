@@ -7,4 +7,8 @@ On [[F/M-theory on elliptically fibered Calabi-Yau 5-folds]], relating to [[D=2 
 
 * [[Sakura Schäfer-Nameki]], [[Timo Weigand]], _F-theory and 2d (0,2) Theories_, J. High Energ. Phys. 2016, 59 (2016) ([arXiv:1601.02015](https://arxiv.org/abs/1601.02015))
 
+On [[string phenomenology]] with [[orbifold]]/[[orientifold]] [[intersecting D-brane models]] and [[Gepner models]]:
+
+* [[Fernando Marchesano]], [[Bert Schellekens]], [[Timo Weigand]], *D-brane and F-theory Model Building* &lbrack;[arXiv:2212.07443](https://arxiv.org/abs/2212.07443)&rbrack;
+
 category: people
