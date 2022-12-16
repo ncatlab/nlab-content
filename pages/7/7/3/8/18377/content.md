@@ -51,5 +51,7 @@ See any of the references, particularly [(Walker)](#Decagons), who simplified th
 [[!redirects pseudo-distributive laws]]
 [[!redirects pseudodistributive law]]
 [[!redirects pseudodistributive laws]]
+[[!redirects pseudo distributive law]]
+[[!redirects pseudo distributive laws]]
 [[!redirects distributive law between pseudomonads]]
 [[!redirects distributive law between pseudo-monads]]
