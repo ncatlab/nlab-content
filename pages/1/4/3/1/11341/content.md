@@ -112,6 +112,10 @@ Specifically [[string phenomenology]] and the [[landscape of string theory vacua
 
 * {#DijkstraHuiszoonSchellekens04b} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Supersymmetric Standard Model Spectra from RCFT orientifolds_, Nucl.Phys.B710:3-57,2005 ([arXiv:hep-th/0411129](https://arxiv.org/abs/hep-th/0411129))
 
+* [[Fernando Marchesano]], [[Bert Schellekens]], [[Timo Weigand]], Sec. 4 of: *D-brane and F-theory Model Building* &lbrack;[arXiv:2212.07443](https://arxiv.org/abs/2212.07443)&rbrack;
+
+
+
 [[!redirects Gepner models]]
 
 [[!redirects Gepner point]]
