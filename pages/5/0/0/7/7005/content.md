@@ -121,9 +121,9 @@ Given a [[type universe]] $U$, there is a canonical function
 $$\mathrm{idtoequiv}(A, B):(A =_U B) \to (A \simeq B)$$
 for all $A:U$ and $B:U$. 
 
-Suppose we are working in a [[dependent type theory]] with [[judgmental equality]] of [[terms]] $\equiv$. Then $U$ is **judgmentally Shulman univalent** if for all $A:U$ and $B:U$ there is a function $\mathrm{ua}(A, B):(A \simeq B) \to (A =_U B)$ such that for all equivalences $R:A \simeq B$, one could judge that $\mathrm{idtoequiv}(A, B)(\mathrm{ua}(A, B)(R)) \equiv R$. 
+Suppose we are working in a [[dependent type theory]] with [[judgmental equality]] of [[terms]] $\equiv$. Then $U$ is **judgmentally Shulman univalent** if for all $A:U$ and $B:U$, $\mathrm{idtoequiv}(A, B)$ is a [[judgmentally strict equivalence]]. 
 
-Now, suppose we are working in the framework of [[logic over type theory]], where our [[dependent type theory]] has [[propositional equality]] of [[terms]] $\equiv$. Then $U$ is **propositionally Shulman univalent** if there is a function $\mathrm{ua}(A, B):(A \simeq B) \to (A =_U B)$ for all $A:U$ and $B:U$ such that for all equivalences $R:A \simeq B$, the [[proposition]] $\mathrm{idtoequiv}(A, B)(\mathrm{ua}(A, B)(R)) \equiv R$ is true. 
+Now, suppose we are working in the framework of [[logic over type theory]], where our [[dependent type theory]] has [[propositional equality]] of [[terms]] $\equiv$. Then $U$ is **propositionally Shulman univalent** if for all $A:U$ and $B:U$, $\mathrm{idtoequiv}(A, B)$ is a [[propositionally strict equivalence]]. 
 
 ### Internal univalence
 
