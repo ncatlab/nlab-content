@@ -44,23 +44,23 @@ Objective type theory consists of the following judgments:
 
 * Type definition judgments, where we judge $B$ to be defined as the type $A$, $B \coloneqq A \; \mathrm{type}$
 
-* Term judgments, where we judge $a$ to be an element of $A$, $a:A$
+* Element judgments, where we judge $a$ to be an element of $A$, $a:A$
 
-* Term definition judgments, where we judge $b$ to be defined as the term $a:A$, $b \coloneqq a:A$
+* Element definition judgments, where we judge $b$ to be defined as the term $a:A$, $b \coloneqq a:A$
 
 * Context judgments, where we judge $\Gamma$ to be a context, $\Gamma \; \mathrm{ctx}$. 
 
-Contexts are lists of term judgments $a:A$, $b:B$, $c:C$, et cetera, and are formalized by the rules for the empty context and extending the context by a term judgment
+Contexts are lists of element judgments $a:A$, $b:B$, $c:C$, et cetera, and are formalized by the rules for the empty context and extending the context by a element judgment
 
 $$\frac{}{() \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash A \; \mathrm{type}}{(\Gamma, a:A) \; \mathrm{ctx}}$$
 
-Note that type and term definition judgments are not judgmental equalities; the former are [[single assignment operators]] while the latter are [[equivalence relations]]. 
+Note that type and element definition judgments are not judgmental equalities; the former are [[single assignment operators]] while the latter are [[equivalence relations]]. 
 
 ### Structural rules
 
 There are three structural rules in objective type theory, the [[variable rule]], the [[weakening rule]], and the [[substitution rule]]. 
 
-The variable rule states that we may derive a term judgment if the term judgment is in the context already:
+The variable rule states that we may derive a element judgment if the element judgment is in the context already:
 
 $$\frac{\vdash \Gamma, a:A, \Delta \; \mathrm{ctx}}{\vdash \Gamma, a:A, \Delta \vdash a:A}$$
 
@@ -76,11 +76,11 @@ $$\frac{\Gamma \vdash a:A \quad \Gamma, b:A, \Delta \vdash \mathcal{J}}{\Gamma, 
 
 The weakening and substitution rules are admissible rules: they do not need to be explicitly included in the type theory as they could be proven by induction on the structure of all possible derivations. 
 
-### Dependent types and sections
+### Families of types and elements
 
-A dependent type is a type $B$ in the context of the variable judgment $x:A$, $x:A \vdash B \; \mathrm{type}$, they are usually written as $B(x)$ to indicate its dependence upon $x$. 
+A family of types is a type $B$ in the context of the element judgment $x:A$, $x:A \vdash B \; \mathrm{type}$, they are usually written as $B(x)$ to indicate its dependence upon $x$. Given a particular element $a:A$, the type $B(a)$ is a type dependent upon $a:A$. 
 
-A section or dependent term is a term $b:B$ in the context of the variable judgment $x:A$, $x:A \vdash b:B$. Sections are likewise usually written as $b(x)$ to indicate its dependence upon $x$. 
+A family of terms is a term $b:B$ in the context of the variable judgment $x:A$, $x:A \vdash b:B$. They are likewise usually written as $b(x)$ to indicate its dependence upon $x$. Given a particular element $a:A$, the element $b(a)$ is an element dependent upon $a:A$. 
 
 ### Identity types
 
@@ -123,6 +123,44 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \m
 
 and uniqueness rules:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash e:B \quad \Gamma, y:B \vdash u:C \quad \Gamma, a:A \vdash i_\mathrm{copy}(u):u[\mathrm{copy}(a)/y] =_{C[\mathrm{copy}(a)/y]} c[a/x]}{\Gamma \vdash \eta_{B}:u[e/z] =_{C[e/z]} \mathrm{ind}_{B}^C(c, e)}$$
+
+
+### Subsingletons and singletons
+
+Identity types allow us to establish when a type is a subsingleton and singletons. 
+
+A subsingleton is a type $A$ with a family of identities $a:A, b:B \vdash \mathrm{trunc}(a, b):a =_A b$. Subsingletons are important because they are used to build the logic in objective type theory, and thus are also called [[propositions]]. 
+
+A singleton is a type $A$ with an element $a:A$ and either 
+
+* a family of identities $b:A \vdash \eta_A(b):a =_A b$ stating that $a$ is a [[center of contraction]] of $A$ (axiom K style)
+* a family of identities $b:A, c:B \vdash \mathrm{trunc}(b, c):b =_A c$ stating that $A$ is a [[subsingleton]] (UIP style)
+
+Singletons are also called [[contractible types]] or [[true]] types. Equivalently, a singleton is a type $A$ with 
+
+### Unit type
+
+We specify a particular singleton called the [[unit type]], which comes with rules stating that one could form the unit type $\mathbb{1}$, the generic element $*:\mathbb{1}$, and a family of identities stating that $\mathbb{1}$ is a singleton: 
+
+Formation rule for the unit type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1} \; \mathrm{type}}$$
+
+Introduction rule for the unit type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:\mathbb{1}}$$
+
+Uniqueness rules for the unit type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, p:\mathbb{1} \vdash \eta_\mathbb{1}(p):* =_\mathbb{1} p}$$
+
+### Empty type
+
+Formation rules for the empty type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{0} \; \mathrm{type}}$$
+
+Elimination rules for the empty type:
+$$\frac{\Gamma, x:\mathbb{0} \vdash C \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{0}}{\Gamma \vdash \mathrm{ind}_\mathbb{0}^C(p):C(p)}$$
+
+Uniqueness rules for the empty type:
+$$\frac{\Gamma, x:\mathbb{0} \vdash C \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{0} \quad \Gamma, x:\mathbb{0} \vdash u:C}{\Gamma \vdash \eta_\mathbb{0}(p, u):u[p/x] =_{C[p/x]} \mathrm{ind}_\mathbb{0}^{C}(p)}$$
 
 ### Function types
 
@@ -213,28 +251,6 @@ $$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c(x):
 
 Uniqueness rules for sum types:
 $$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c(x):C(\mathrm{inl}(x)) \quad \Gamma, y:B \vdash d(y):C(\mathrm{inr}(y)) \quad \Gamma \vdash e:A + B \quad \Gamma, x:A + B \vdash u:C \quad \Gamma, a:A \vdash i_\mathrm{inl}(u):u(\mathrm{inl}(a)) =_{C(\mathrm{inl}(a))} c(a) \quad \Gamma, b:B \vdash i_\mathrm{inr}(u):u(\mathrm{inr}(b)) =_{C(\mathrm{inr}(b))} d(b)}{\Gamma \vdash \eta_{A + B}:u(e) =_{C(e)} \mathrm{ind}_{A + B}^C(c(\mathrm{inl}(e)), d(\mathrm{inl}(e)), e)}$$
-
-### Empty type
-
-Formation rules for the empty type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{0} \; \mathrm{type}}$$
-
-Elimination rules for the empty type:
-$$\frac{\Gamma, x:\mathbb{0} \vdash C \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{0}}{\Gamma \vdash \mathrm{ind}_\mathbb{0}^C(p):C(p)}$$
-
-Uniqueness rules for the empty type:
-$$\frac{\Gamma, x:\mathbb{0} \vdash C \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{0} \quad \Gamma, x:\mathbb{0} \vdash u:C}{\Gamma \vdash \eta_\mathbb{0}(p, u):u[p/x] =_{C[p/x]} \mathrm{ind}_\mathbb{0}^{C}(p)}$$
-
-### Unit type
-
-Formation rules for the unit type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1} \; \mathrm{type}}$$
-
-Introduction rules for the unit type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:\mathbb{1}}$$
-
-Uniqueness rules for the unit type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, p:\mathbb{1} \vdash \eta_\mathbb{1}(p):* =_\mathbb{1} p}$$
 
 ### Booleans
 
