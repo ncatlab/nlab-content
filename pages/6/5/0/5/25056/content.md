@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Weak distributive laws
 
 * table of contents
@@ -20,11 +21,13 @@
 
 ## Idea
 
-A **weak distributive law** between two [[monads]] is a generalisation of a [[distributive law]], in which forming the composite monad requires splitting an [[idempotent]] on the underlying composite endofunctor.
+The notion of a **weak distributive law** between two [[monads]] is a generalisation of that of a [[distributive law]], in which forming the [[composition|composite]] monad requires [[split idempotent|splitting]] an [[idempotent]] on the [[underlying]] [[composition|composite]] [[endofunctor]].
 
 ## References
 
-* [[Ross Street]]. _Weak distributive laws_. Theory and Applications of Categories 22 (2009): 313-320.
+* [[Ross Street]], *Weak distributive laws* Theory and Applications of Categories **22** (2009) 313-320 &lbrack;[tac:22-12](http://www.tac.mta.ca/tac/volumes/22/12/22-12abs.html)&rbrack;
 
 
 [[!redirects weak distributive laws]]
+
+
