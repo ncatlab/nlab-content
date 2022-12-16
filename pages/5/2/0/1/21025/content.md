@@ -43,7 +43,7 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 * January 12-15, 2023
 
-  New York University, Abu Dhabi
+  [[CQTS]] @ New York University, Abu Dhabi
 
   [event webpage](https://nyuad.nyu.edu/en/events/2023/january/m-theory-and-mathematics-conference-2023.html)
 
@@ -54,6 +54,48 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 </a>
 </center>
 
+> (title page adapted from [JMP **62** (2021) 042301](https://arxiv.org/abs/2002.11093))
+
+**Speakers**
+
+* [[Luigi Alfonsi]]
+
+* [[Ibrahima Bah]]
+
+* [[David Berman]]
+
+* [[Michael Duff]]
+
+* [[Fei Han]]
+
+* [[Yang-Hui He]]
+
+* [[Chris Hull]]
+
+* [[Branislav Jurčo]]
+
+* [[Neil Lambert]]
+
+* [[Alessio Marrani]] 
+
+* [[Varghese Mathai]]
+
+* [[Christian Saemann]]
+
+* [[Hisham Sati]]
+
+* [[Ashoke Sen]]
+
+* [[Urs Schreiber]]
+
+* [[Richard Szabo]]
+
+* [[Meng-Chwan Tan]]
+
+* [[Dimitrios Tsimpis]]
+
+* [[Alexander Voronov]]
+
 
 
 \linebreak
@@ -61,6 +103,9 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 ## M-Theory and Mathematics 2020
 
 * January 27-30, 2020
+
+  [Research Institute](https://nyuad.nyu.edu/en/research/research-institute-centers.html) of New York University, Abu Dhabi
+
 
 * [event webpage](https://nyuadi.secure.force.com/Events/NYUEventRegistration?event=u2f8V99W_2FoUW_2FK0f7HydVQ_3D_3D)
 
