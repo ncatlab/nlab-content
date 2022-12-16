@@ -334,20 +334,15 @@ Types and terms are built inductively from various constructors. Types, terms an
 
 We have the basic judgement forms:
 
-* $\Gamma \vdash A\; \mathrm{type}$ - $A$ is a well-typed type in type context $\Gamma$.
-* $\Gamma \vdash a : A$ - $a$ is a well-typed term of type $A$ in type context $\Gamma$.
-* $\Gamma \; \mathrm{typectx}$ - $\Gamma$ is a well-formed type context. 
-* $\Gamma \vert \Phi \vdash \phi \; \mathrm{prop}$ - $\phi$ is a well-formed proposition in context $\Gamma \vert \Phi$
-* $\Gamma \vert \Phi \vdash \phi \; \mathrm{true}$ - $\phi$ is a well-formed true proposition in context $\Gamma \vert \Phi$
-* $\Gamma \vert \Phi \; \mathrm{ctx}$ - $\Gamma \vert \Phi$ is a well-formed context. 
+* $\Gamma \vdash A\; \mathrm{type}$ - $A$ is a well-typed type in context $\Gamma$.
+* $\Gamma \vdash a : A$ - $a$ is a well-typed term of type $A$ in context $\Gamma$.
+* $\Gamma \vdash \phi \; \mathrm{prop}$ - $\phi$ is a well-formed proposition in context $\Gamma$
+* $\Gamma \vdash \phi \; \mathrm{true}$ - $\phi$ is a well-formed true proposition in context $\Gamma$
+* $\Gamma \; \mathrm{ctx}$ - $\Gamma$ is a well-formed context. 
 
-Type contexts are defined by the following rules:
+Contexts are defined by the following rules:
 
-$$\frac{}{() \; \mathrm{typectx}} \qquad \frac{\Gamma \; \mathrm{typectx} \quad \Gamma \vdash A \; \mathrm{type}}{(\Gamma, a:A) \; \mathrm{typectx}}$$
-
-and full contexts are defined by the following rules:
-
-$$\frac{\Gamma \; \mathrm{typectx}}{\Gamma \vert () \; \mathrm{ctx}} \qquad \frac{\Gamma \vert \Phi \; \mathrm{ctx} \quad \Gamma \vert \Phi \vdash \phi \; \mathrm{prop}}{\Gamma \vert (\Phi, \phi \; \mathrm{true}) \; \mathrm{ctx}}$$
+$$\frac{}{() \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash A \; \mathrm{type}}{(\Gamma, a:A) \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash \phi \; \mathrm{prop}}{(\Gamma, \phi \; \mathrm{true}) \; \mathrm{ctx}}$$
 
 #### Structural rules
 
@@ -355,17 +350,17 @@ There are three structural rules in dependent type theory, the [[variable rule]]
 
 The variable rule states that we may derive a typing judgment if the typing judgment is in the context already:
 
-$$\frac{\Gamma, a:A, \Delta \vert \Phi \; \mathrm{ctx}}{\Gamma, a:A, \Delta \vert \Phi \vdash a:A}$$
+$$\frac{\Gamma, a:A, \Delta \; \mathrm{ctx}}{\Gamma, a:A, \Delta \vdash a:A}$$
 
 Let $\mathcal{J}$ be any arbitrary judgment. Then we have the following rules:
 
 The weakening rule:
 
-$$\frac{\Gamma, \Delta \vert \Phi \vdash \mathcal{J} \quad \Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, \Delta \vert \Phi \vdash \mathcal{J}}$$
+$$\frac{\Gamma, \Delta \vdash \mathcal{J} \quad \Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, \Delta \vdash \mathcal{J}}$$
 
 The substitution rule:
 
-$$\frac{\Gamma \vdash a:A \quad \Gamma, b:A, \Delta \vert \Phi \vdash \mathcal{J}}{\Gamma, \Delta[a/b] \vert \Phi[a/b] \vdash \mathcal{J}[a/b]}$$
+$$\frac{\Gamma \vdash a:A \quad \Gamma, b:A, \Delta \vdash \mathcal{J}}{\Gamma, \Delta[a/b] \vdash \mathcal{J}[a/b]}$$
 
 The weakening and substitution rules are admissible rules: they do not need to be explicitly included in the type theory as they could be proven by induction on the structure of all possible derivations. 
 
@@ -373,34 +368,34 @@ The weakening and substitution rules are admissible rules: they do not need to b
 
 Definitional equality of types and terms is formed by the following rules:
 
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type}}{\Gamma \vert \Phi \vdash A \equiv B \; \mathrm{prop}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \equiv B \; \mathrm{prop}}$$
 
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:A}{\Gamma \vert \Phi \vdash a \equiv_A b \; \mathrm{prop}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A}{\Gamma \vdash a \equiv_A b \; \mathrm{prop}}$$
 
 Definitional equality has its own structural rules:  reflexivity, symmetry, transitivity, the principle of substitution, and the variable conversion rule. 
 
 * Reflexivity of definitional equality
 
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash A \equiv A \; \mathrm{true}}$$
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash a \equiv_A a \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash A \equiv A \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash a \equiv_A a \; \mathrm{true}}$$
 
 * Symmetry of definitional equality
 
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash A \equiv B \; \mathrm{true}}{\Gamma \vert \Phi \vdash B \equiv A \; \mathrm{true}}$$
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:A \quad \Gamma \vert \Phi \vdash a \equiv_A b \; \mathrm{true}}{\Gamma \vert \Phi \vdash b \equiv_A a \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash A \equiv B \; \mathrm{true}}{\Gamma \vdash B \equiv A \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash a \equiv_A b \; \mathrm{true}}{\Gamma \vdash b \equiv_A a \; \mathrm{true}}$$
 
 * Transitivity of definitional equality
 
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma \vert \Phi \vdash A \equiv B \; \mathrm{true} \quad \Gamma \vert \Phi \vdash B \equiv C \; \mathrm{true}}{\Gamma \vert \Phi \vdash A \equiv C \; \mathrm{true}}$$ 
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A \quad \Gamma \vert \Phi \vdash b:A \quad \Gamma \vert \Phi \vdash c:A \quad \Gamma \vert \Phi \vdash a \equiv_A b \; \mathrm{true} \quad \Gamma \vert \Phi \vdash b \equiv_A c \; \mathrm{true}}{\Gamma \vert \Phi \vdash a \equiv_A c \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash A \equiv B \; \mathrm{true} \quad \Gamma \vdash B \equiv C \; \mathrm{true}}{\Gamma \vdash A \equiv C \; \mathrm{true}}$$ 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash c:A \quad \Gamma \vdash a \equiv_A b \; \mathrm{true} \quad \Gamma \vdash b \equiv_A c \; \mathrm{true}}{\Gamma \vdash a \equiv_A c \; \mathrm{true}}$$
 
 * Principle of substitution of definitionally equal terms:
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a : A \quad \Gamma \vert \Phi \vdash b : A \quad \Gamma \vert \Phi \vdash a \equiv_A b \; \mathrm{true} \quad \Gamma, x:A, \Delta \vert \Phi \vdash B \; \mathrm{type}}{\Gamma, \Delta[b/x] \vert \Phi[b/x] \vdash B[a/x] \equiv B[b/x] \; \mathrm{true}}$$
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a : A \quad \Gamma \vert \Phi \vdash b : A \quad \Gamma \vert \Phi \vdash a \equiv_A b \; \mathrm{true} \quad \Gamma, x:A, \Delta \vert \Phi \vdash c:B}{\Gamma, \Delta[b/x] \vert \Phi[b/x] \vdash c[a/x] \equiv_{B[b/x]} c[b/x] \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a : A \quad \Gamma \vdash b : A \quad \Gamma \vdash a \equiv_A b \; \mathrm{true} \quad \Gamma, x:A, \Delta \vdash B \; \mathrm{type}}{\Gamma, \Delta[b/x] \vdash B[a/x] \equiv B[b/x] \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a : A \quad \Gamma \vdash b : A \quad \Gamma \vdash a \equiv_A b \; \mathrm{true} \quad \Gamma, x:A, \Delta \vdash c:B}{\Gamma, \Delta[b/x] \vdash c[a/x] \equiv_{B[b/x]} c[b/x] \; \mathrm{true}}$$
 
 * Variable conversion rule:
 
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash A \equiv B \; \mathrm{true} \quad \Gamma, x:A, \Delta \vert \Phi \vdash \mathcal{J}}{\Gamma, x:B, \Delta \vert \Phi \vdash \mathcal{J}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash A \equiv B \; \mathrm{true} \quad \Gamma, x:A, \Delta \vdash \mathcal{J}}{\Gamma, x:B, \Delta \vdash \mathcal{J}}$$
 
 #### Definitions
 
@@ -558,7 +553,7 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:\mathbb{1}}$$
 
 * Elimination rules for the unit type:
 
-$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_*:C[*/x] \quad \Gamma \vert \Phi \vdash p:\mathbb{1}}{\Gamma \vdash \mathrm{ind}_\mathbb{1}(x.C, p, c_*):C[p/x]}$$
+$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_*:C[*/x] \quad \Gamma \vdash p:\mathbb{1}}{\Gamma \vdash \mathrm{ind}_\mathbb{1}(x.C, p, c_*):C[p/x]}$$
 
 * Computation rules for the unit type:
 
@@ -623,25 +618,25 @@ The type theory is an [[intensional type theory]] if it doesn't have the equalit
 
 One could add an additional set of rules in this second presentation of Martin-Löf dependent type theory which isn't available in the first presentation: propositional reflections. Unlike the first presentation, in this presentation, there are two notions of propositions: the external propositions and the internal propositions. The external propositions are the judgmental propositions in the logic layer of Martin-Löf dependent type theory, and correspond to the external logic. On the other hand, the internal propositions are [[types]] equipped with a witness of the [[isProp]] [[modality]] and correspond to the [[internal logic]]. They are also called [[subsingletons]] or [[h-propositions]]. We could make the internal logic imply the external logic with the following proposition reflection rules:
 
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash p:\mathrm{isProp}(A)}{\Gamma \vert \Phi \vdash \phi_A \; \mathrm{prop}} \qquad \frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash p:\mathrm{isProp}(A) \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash \phi_A \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \phi_A \; \mathrm{prop}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma \vdash a:A}{\Gamma \vdash \phi_A \; \mathrm{true}}$$
 
 and similar rules for [[predicates]]:
 
-$$\frac{\Gamma, x:A, \Delta \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma, x:A, \Delta \vert \Phi \vdash p:\mathrm{isProp}(B)}{\Gamma, x:A, \Delta \vert \Phi \vdash \phi_B \; \mathrm{prop}} \qquad \frac{\Gamma, x:A, \Delta \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma, x:A, \Delta \vert \Phi \vdash p:\mathrm{isProp}(B) \quad \Gamma, x:A, \Delta \vert \Phi \vdash b:B}{\Gamma, x:A, \Delta \vert \Phi \vdash \phi_B \; \mathrm{true}}$$
+$$\frac{\Gamma, x:A, \Delta \vdash B \; \mathrm{type} \quad \Gamma, x:A, \Delta \vdash p:\mathrm{isProp}(B)}{\Gamma, x:A, \Delta \vdash \phi_B \; \mathrm{prop}} \qquad \frac{\Gamma, x:A, \Delta \vdash B \; \mathrm{type} \quad \Gamma, x:A, \Delta \vdash p:\mathrm{isProp}(B) \quad \Gamma, x:A, \Delta \vdash b:B}{\Gamma, x:A, \Delta \vdash \phi_B \; \mathrm{true}}$$
 
 If the [[identity types]] of Martin-Löf dependent type theory have a uniqueness rule such as the [[K rule]] or [[uniqueness of identity proofs]], then propositional reflection implies that the type theory is an [[extensional type theory]]. 
 
 In addition, since the [[product type]] and [[function type]] preserve types being a subsingleton, the dependent product of a subsingleton-valued type family, and the [[unit type]] and [[empty type]] are always subsingletons, one could also add the following propositional reflection rules to the theory, defining [[conjunction]], [[implication]], [[true]], [[false]], and bounded [[universal quantification]]:
 
-$$\frac{\Gamma \vert \Phi \vdash A \times B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash p:\mathrm{isProp}(A) \quad \Gamma \vert \Phi \vdash q:\mathrm{isProp}(B)}{\Gamma \vert \Phi \vdash \phi_A \wedge \phi_B \; \mathrm{prop}}$$ 
-$$\frac{\Gamma \vert \Phi \vdash A \to B \; \mathrm{type} \quad \Gamma \vert \Phi \vdash p:\mathrm{isProp}(A) \quad \Gamma \vert \Phi \vdash q:\mathrm{isProp}(B)}{\Gamma \vert \Phi \vdash \phi_A \implies \phi_B \; \mathrm{prop}}$$
-$$\frac{\Gamma \vert \Phi \vdash \mathbb{0} \; \mathrm{type}}{\Gamma \vert \Phi \vdash \bot \; \mathrm{prop}} \qquad \frac{\Gamma \vert \Phi \vdash \mathbb{1} \; \mathrm{type}}{\Gamma \vert \Phi \vdash \top \; \mathrm{prop}}$$
-$$\frac{\Gamma, \Delta \vert \Phi \vdash \prod_{x:A} B(x) \; \mathrm{type} \quad \Gamma, x:A, \Delta \vert \Phi \vdash q:\mathrm{isProp}(B(x))}{\Gamma, \Delta \vert \Phi \vdash \forall x:A.\phi_B(x) \; \mathrm{prop}}$$
+$$\frac{\Gamma \vdash A \times B \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma \vdash q:\mathrm{isProp}(B)}{\Gamma \vdash \phi_A \wedge \phi_B \; \mathrm{prop}}$$ 
+$$\frac{\Gamma \vdash A \to B \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma \vdash q:\mathrm{isProp}(B)}{\Gamma \vdash \phi_A \implies \phi_B \; \mathrm{prop}}$$
+$$\frac{\Gamma \vdash \mathbb{0} \; \mathrm{type}}{\Gamma \vdash \bot \; \mathrm{prop}} \qquad \frac{\Gamma \vdash \mathbb{1} \; \mathrm{type}}{\Gamma \vdash \top \; \mathrm{prop}}$$
+$$\frac{\Gamma, \Delta \vdash \prod_{x:A} B(x) \; \mathrm{type} \quad \Gamma, x:A, \Delta \vdash q:\mathrm{isProp}(B(x))}{\Gamma, \Delta \vdash \forall x:A.\phi_B(x) \; \mathrm{prop}}$$
 
 Adding [[propositional truncations]] to Martin-Löf dependent type theory allows for the full [[intuitionistic logic]] to be defined, as [[disjunctions]] could be defined from the propositional truncation of the [[sum type]], and the [[existential quantifier]] could be defined from the propositional truncation of the [[dependent sum type]]:
 
-$$\frac{\Gamma \vert \Phi \vdash [A + B] \; \mathrm{type} \quad \Gamma \vert \Phi \vdash p:\mathrm{isProp}(A) \quad \Gamma \vert \Phi \vdash q:\mathrm{isProp}(B)}{\Gamma \vert \Phi \vdash \phi_A \vee \phi_B \; \mathrm{prop}}$$ 
-$$\frac{\Gamma, \Delta \vert \Phi \vdash \left[\sum_{x:A} B(x)\right] \; \mathrm{type} \quad \Gamma, x:A, \Delta \vert \Phi \vdash q:\mathrm{isProp}(B(x))}{\Gamma, \Delta \vert \Phi \vdash \exists x:A.\phi_B(x) \; \mathrm{prop}}$$
+$$\frac{\Gamma \vdash [A + B] \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma\vdash q:\mathrm{isProp}(B)}{\Gamma \vdash \phi_A \vee \phi_B \; \mathrm{prop}}$$ 
+$$\frac{\Gamma, \Delta \vdash \left[\sum_{x:A} B(x)\right] \; \mathrm{type} \quad \Gamma, x:A, \Delta \vdash q:\mathrm{isProp}(B(x))}{\Gamma, \Delta \vdash \exists x:A.\phi_B(x) \; \mathrm{prop}}$$
 
 The rules above reflect the [[propositions as some types]] philosophy in [[type theory]]. 
 
@@ -649,20 +644,20 @@ The rules above reflect the [[propositions as some types]] philosophy in [[type 
 
 An alternative to the [[propositions as some types]] philosophy is the [[propositions as types]] philosophy, where instead of reflecting the [[subsingletons]] to propositions and the [[singletons]] to true propositions, we reflect all types to propositions, and the [[pointed types]] to true propositions. The rules are given as follows:
 
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash \phi_A \; \mathrm{prop}} \qquad \frac{\Gamma \vert \Phi \vdash A \; \mathrm{type} \quad \Gamma \vert \Phi \vdash a:A}{\Gamma \vert \Phi \vdash \phi_A \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \phi_A \; \mathrm{prop}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \phi_A \; \mathrm{true}}$$
 
 and similar rules for [[predicates]]:
 
-$$\frac{\Gamma, x:A, \Delta \vert \Phi \vdash B \; \mathrm{type}}{\Gamma, x:A, \Delta \vert \Phi \vdash \phi_B \; \mathrm{prop}} \qquad \frac{\Gamma, x:A, \Delta \vert \Phi \vdash B \; \mathrm{type} \quad \Gamma, x:A, \Delta \vdash b:B}{\Gamma, x:A, \Delta \vert \Phi \vdash \phi_B \; \mathrm{true}}$$
+$$\frac{\Gamma, x:A, \Delta \vdash B \; \mathrm{type}}{\Gamma, x:A, \Delta \vdash \phi_B \; \mathrm{prop}} \qquad \frac{\Gamma, x:A, \Delta \vdash B \; \mathrm{type} \quad \Gamma, x:A, \Delta \vdash b:B}{\Gamma, x:A, \Delta \vdash \phi_B \; \mathrm{true}}$$
 
 There is no need for [[propositional truncations]] in this interpretation: the full [[intuitionistic logic]] results from reflecting all type formers except for the [[natural numbers type]] and [[identity types]]:
 
-$$\frac{\Gamma \vert \Phi \vdash A + B \; \mathrm{type}}{\Gamma \vert \Phi \vdash \phi_A \vee \phi_B \; \mathrm{prop}}$$ 
-$$\frac{\Gamma \vert \Phi \vdash A \times B \; \mathrm{type}}{\Gamma \vert \Phi \vdash \phi_A \wedge \phi_B \; \mathrm{prop}}$$ 
-$$\frac{\Gamma \vert \Phi \vdash A \to B \; \mathrm{type}}{\Gamma \vert \Phi \vdash \phi_A \implies \phi_B \; \mathrm{prop}}$$
-$$\frac{\Gamma \vert \Phi \vdash \mathbb{0} \; \mathrm{type}}{\Gamma \vert \Phi \vdash \bot \; \mathrm{prop}} \qquad \frac{\Gamma \vert \Phi \vdash \mathbb{1} \; \mathrm{type}}{\Gamma \vert \Phi \vdash \top \; \mathrm{prop}}$$
-$$\frac{\Gamma \vert \Phi \vdash \sum_{x:A} B(x) \; \mathrm{type}}{\Gamma \vert \Phi \vdash \exists x:A.\phi_B(x) \; \mathrm{prop}}$$
-$$\frac{\Gamma \vert \Phi \vdash \prod_{x:A} B(x) \; \mathrm{type}}{\Gamma \vert \Phi \vdash \forall x:A.\phi_B(x) \; \mathrm{prop}}$$
+$$\frac{\Gamma \vdash A + B \; \mathrm{type}}{\Gamma \vdash \phi_A \vee \phi_B \; \mathrm{prop}}$$ 
+$$\frac{\Gamma \vdash A \times B \; \mathrm{type}}{\Gamma \vdash \phi_A \wedge \phi_B \; \mathrm{prop}}$$ 
+$$\frac{\Gamma \vdash A \to B \; \mathrm{type}}{\Gamma \vdash \phi_A \implies \phi_B \; \mathrm{prop}}$$
+$$\frac{\Gamma \vdash \mathbb{0} \; \mathrm{type}}{\Gamma \vdash \bot \; \mathrm{prop}} \qquad \frac{\Gamma \vdash \mathbb{1} \; \mathrm{type}}{\Gamma \vdash \top \; \mathrm{prop}}$$
+$$\frac{\Gamma \vdash \sum_{x:A} B(x) \; \mathrm{type}}{\Gamma \vdash \exists x:A.\phi_B(x) \; \mathrm{prop}}$$
+$$\frac{\Gamma \vdash \prod_{x:A} B(x) \; \mathrm{type}}{\Gamma \vdash \forall x:A.\phi_B(x) \; \mathrm{prop}}$$
 
 ## Properties
 
