@@ -104,6 +104,11 @@ On [[asymptotic safety]]:
 
 \linebreak
 
+* Astrid Eichhorn, Marc Schiffer, *Asymptotic safety of gravity with matter*, in: [[Handbook of Quantum Gravity]], Springer (2023) &lbrack;[arXiv:2212.07456](https://arxiv.org/abs/2212.07456)&rbrack;
+
+
+\linebreak
+
 On non-locality:
 
 * Arnau Bas i Beneito, Gianluca Calcagni, Lesław Rachwał, *Classical and quantum nonlocal gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.05606](https://arxiv.org/abs/2211.05606)&rbrack;
