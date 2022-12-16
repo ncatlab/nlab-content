@@ -35,29 +35,65 @@ and the [[introduction rule]] for the unit type is given by
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:\mathbb{1}}$$
 
-#### As a positive type
-
-As a positive type, the [[elimination rule]] for $\mathbb{1}$ now says that given a type family $C$ indexed by $\mathbb{1}$, for all elements $c_*:C(*)$ and $p:\mathbb{1}$, there is an element $\mathrm{ind}_\mathbb{1}^C(p, c_*):C(p)$. 
-
-$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type}}{\Gamma, c_*:C(*), p:\mathbb{1} \vdash \mathrm{ind}_\mathbb{1}^C(p, c_*):C(p)}$$
-
-We then have the following [[computation rule]]:
-
-$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type}}{\Gamma, c_*:C(*) \vdash \beta_\mathbb{1}^C(c_*):\mathrm{ind}_\mathbb{1}^C(*, c_*) =_{C(*)} c_*}$$
-
-and the [[uniqueness rule]]:
-
-$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma, x:\mathbb{1} \vdash u:C}{\Gamma, c_*:C(*), p:\mathbb{1}, i_*(u):u(*) =_{C(*)} c_* \vdash \eta_\mathbb{1}^C(c_*, p, u, i_*(u)):u(p) =_{C(p)} \mathrm{ind}_\mathbb{1}^{C}(p, c_*)}$$
-
-The computation rule states that given a type family $C$ indexed by $\mathbb{1}$, for all elements $c_*:C(*)$, the element $\mathrm{ind}_\mathbb{1}^C(*, c_*)$ derived from the elimination rule is equal to $c_*$ with witness $\beta_\mathbb{1}^C(c_*)$. 
-
-The uniqueness rule says that given a type family $C$ indexed by $\mathbb{1}$ and a family of terms $u:C$ indexed by $\mathbb{1}$, for all elements $c_*:C(*)$, elements $p:\mathbb{1}$, and witnesses $i_*(u)$ that $u(*)$ is equal to $c_*$ in $C(*)$, there is a witness $\eta_\mathbb{1}^C(c_*, p, u, i_*(u))$ that $u(p)$ is equal to $\mathrm{ind}_\mathbb{1}^{C}(p, c_*)$ in $C(p)$ 
+The positive unit type says that $\mathbb{1}$ satisfies [[singleton induction]]. The negative unit type says that the element $*:\mathbb{1}$ is the [[center of contraction]] of $\mathbb{1}$. 
 
 #### As a negative type
 
-As a negative type, there are no [[elimination rules]] or [[computation rules]] for $\mathbb{1}$. The [[uniqueness rule]] is given by:
+As a negative type, there are no [[elimination rules]] or [[computation rules]] for $\mathbb{1}$. The [[uniqueness rule]] states that $*$ is the [[center of contraction]] of $\mathbb{1}$ and is given by:
 
-...
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, p:\mathbb{1} \vdash \eta_\mathbb{1}(p):* =_\mathbb{1} p}$$
+
+Thus, the unit type is a [[contractible type]]. 
+
+#### As a positive type
+
+Singleton induction for a type $\mathbb{1}$ and term $*:\mathbb{1}$ states that the type has the following [[elimination rule]], [[computation rule]], and [[uniqueness rule]]:
+
+* given a type family $C$ indexed by $\mathbb{1}$, for all elements $c_*:C(*)$ and $p:\mathbb{1}$, there is an element $\mathrm{ind}_\mathbb{1}^C(p, c_*):C(p)$. 
+
+$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type}}{\Gamma, c_*:C(*), p:\mathbb{1} \vdash \mathrm{ind}_\mathbb{1}^C(p, c_*):C(p)}$$
+
+* given a type family $C$ indexed by $\mathbb{1}$, for all elements $c_*:C(*)$, the element $\mathrm{ind}_\mathbb{1}^C(*, c_*)$ derived from the elimination rule is equal to $c_*$ with witness $\beta_\mathbb{1}^C(c_*)$. 
+
+$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type}}{\Gamma, c_*:C(*) \vdash \beta_\mathbb{1}^C(c_*):\mathrm{ind}_\mathbb{1}^C(*, c_*) =_{C(*)} c_*}$$
+
+* given a type family $C$ indexed by $\mathbb{1}$ and a family of terms $u:C$ indexed by $\mathbb{1}$, for all elements $c_*:C(*)$, elements $p:\mathbb{1}$, and witnesses $i_*(u)$ that $u(*)$ is equal to $c_*$ in $C(*)$, there is a witness $\eta_\mathbb{1}^C(c_*, p, u, i_*(u))$ that $u(p)$ is equal to $\mathrm{ind}_\mathbb{1}^{C}(p, c_*)$ in $C(p)$.
+
+$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma, x:\mathbb{1} \vdash u:C}{\Gamma, c_*:C(*), p:\mathbb{1}, i_*(u):u(*) =_{C(*)} c_* \vdash \eta_\mathbb{1}^C(c_*, p, u, i_*(u)):u(p) =_{C(p)} \mathrm{ind}_\mathbb{1}^{C}(p, c_*)}$$
+
+In particular, if given an element $p:\mathbb{1}$ we define $C(q) \coloneqq p =_\mathbb{1} q$ for all $q:\mathbb{1}$, the elimination, computation, and uniqueness rules imply that $p =_\mathbb{1} q$ is a [[contractible type]] with [[center of contraction]] $\mathrm{ind}_\mathbb{1}^{C}(p, c_*)$. 
+
+#### Positive versus negative
+
+\begin{theorem}
+There is an [[equivalence of types]] between two [[contractible types]] $S$ and $T$. 
+\end{theorem}
+
+\begin{proof}
+By the definition of [[contractible type]], there are elements $p_S:\sum_{a:S} \prod_{b:S} a =_S b$ and $p_T:\sum_{a:T} \prod_{b:T} a =_T b$, and thus, an element $\pi_1(p_S)$ and a witness $\pi_2(p_S)$ that $\pi_1(p_S)$ is a [[center of contraction]] of $S$, and an element $\pi_1(p_T)$ and a witness $\pi_2(p_T)$ that $\pi_1(p_T)$ is a [[center of contraction]] of $T$. By the uniqueness principle of contractible types, it suffices to define a function $f:S \to T$ at $\pi_1(p_S)$. We define it as $f(\pi_1(p_S)) \coloneqq \pi_1(p_T)$. Now, all that's left is to prove that the fiber of $f$ at all elements $a:T$ is contractible. But by the uniqueness principle of contractible types, it suffices to prove it for the center of contraction $\pi_1(p_T)$. The canonical element $*$ is in the fiber of $f$ at $\pi_1(p_T)$, and since $\pi_1(p_S)$ is the center of contraction of $S$, the fiber of $f$ at $\pi_1(p_T)$ is contractible, and thus the fiber of $f$ at every element $a:T$ is contractible. Thus, $f$ is an equivalence of types between the contractible types $S$ and $T$. 
+\end{proof}
+
+could do something with [[action on identities]]. 
+
+\begin{theorem}
+Every pointed type with singleton induction is contractible. 
+\end{theorem}
+
+\begin{lemma}
+The positive and negative unit types are equivalent to each other. 
+\end{lemma}
+
+#### Extensionality principle
+
+Then we could derive the extensionality principle for the unit type:
+
+\begin{lemma}
+Given elements $x:\mathbb{1}$ and $y:\mathbb{1}$, there is an [[equivalence of types]] $(x =_\mathbb{1} y) \simeq \mathbb{1}$ between the [[identity type]] $x =_\mathbb{1} y$ and $\mathbb{1}$ itself. 
+\end{lemma}
+
+\begin{proof}
+This follows from the previous theorem and that the unit type is contractible and satisfies singleton induction. 
+\end{proof}
 
 ### In lambda-calculus 
 
@@ -134,47 +170,15 @@ where in the first conversion we use $c \coloneqq ()$ and in the second we use $
 
 As in the case of binary [[product types]], these translations require the [[contraction rule]] and the [[weakening rule]]; that is, they duplicate and discard terms.  In [[linear logic]] these rules are disallowed, and therefore the positive and negative unit types become different.  The positive product becomes "one" $\mathbf{1}$, while the negative product becomes "top" $\top$.
 
-## Properties
-
-\begin{theorem}
-The unit type is a [[contractible type]].
-\end{theorem}
-
-\begin{proof}
-For all elements $x:\mathbb{1}$, by induction on the unit type, there is an identity $\mathrm{ind}_\mathbb{1}^*(x):x =_\mathbb{1} *$. This means that $*$ is a [[center of contraction]] of $\mathbb{1}$, and thus that $\mathbb{1}$ is a [[contractible type]]. 
-\end{proof}
-
-\begin{theorem}
-There is an [[equivalence of types]] between the [[unit type]] and every [[contractible type]] $T$. 
-\end{theorem}
-
-\begin{proof}
-By the definition of [[contractible type]], there is an element $p_T:\sum_{a:T} \prod_{b:T} a =_T b$, and thus, an element $\pi_1(p_T)$ and a witness $\pi_2(p_T)$ that $\pi_1(p_T)$ is a [[center of contraction]] of $T$. By the induction principle of the unit type, it suffices to define a function $f:\mathbb{1} \to T$ at $*$. We define it as $f(*) \coloneqq \pi_1(p_T)$. Now, all that's left is to prove that the fiber of $f$ at all elements $a:T$ is contractible. But by [[singleton induction]], it suffices to prove it for the center of contraction $\pi_1(p_T)$. The canonical element $*$ is in the fiber of $f$ at $\pi_1(p_T)$, and since $*$ is the center of contraction of $\mathbb{1}$, the fiber of $f$ at $\pi_1(p_T)$ is contractible, and thus the fiber of $f$ at every element $a:T$ is contractible. Thus, $f$ is an equivalence of types between the unit type and the contractible type $T$. 
-\end{proof}
-
-\begin{theorem}
-Given a contractible type $T$ and elements $x:T$ and $y:T$, the identity type $x =_T y$ is contractible. 
-\end{theorem}
-
-Then we could derive the extensionality principle for the unit type:
-
-\begin{lemma}
-Given elements $x:\mathbb{1}$ and $y:\mathbb{1}$, there is an [[equivalence of types]] $(x =_\mathbb{1} y) \simeq \mathbb{1}$ between the [[identity type]] $x =_\mathbb{1} y$ and $\mathbb{1}$ itself. 
-\end{lemma}
-
-\begin{proof}
-This follows from the previous three theorems. 
-\end{proof}
-
 ## Categorical semantics
 
-Under [[categorical semantics]], a unit type satisfying both beta and eta conversions corresponds to a [[terminal object]] in a [[category]].  More precisely:
+There are two interpretations of the unit type, corresponding to the positive and negative unit types. Namely:
 
-* A terminal object may be used to interpret a unit type that validates both beta and eta rules, while
+* The negative unit type corresponds to a [[terminal object]] in a category
 
-* the syntactic category of a type theory with a unit type has a terminal object, as long as the unit type satisfies both beta and eta rules.
+* The positive unit type with both $\beta$-conversion and $\eta$-conversion corresponds to an [[initial object]] with a point, a morphism from some unit object $I$, in a category. 
 
-Of course, the categorical notion of terminal object matches the *negative* definition of a unit type most directly.  In [[linear logic]], therefore, the categorical terminal object interprets "top" $\top$, while the unit object of an additional [[monoidal category|monoidal structure]] interprets "one" $\mathbf{1}$.
+These two conditions are the same if the [[syntactic category]] is a [[cartesian monoidal category]], where the points are the [[global elements]] and the [[unit]] is the [[terminal object]]. In general, however, the points may not be defined out of the terminal object. In [[linear logic]], therefore, the categorical terminal object interprets "top" $\top$, while the unit object of an additional [[monoidal category|monoidal structure]] interprets "one" $\mathbf{1}$.
 
 
 ## Related concepts
