@@ -17,8 +17,6 @@ In [[type theory]], a **split context** is a [[context]] $\Gamma \vert \Delta$, 
 
 Split contexts are frequently used in [[modal type theories]] such as [[spatial type theory]] and [[cohesive homotopy type theory]] in order to make [[comonadic]] [[modalities]] work. Specifically Shulman's [[real-cohesive homotopy type theory]] and Riley's [[linear homotopy type theory]] use split contexts. 
 
-In addition, split contexts are used in [[two-level type theory]] and [[type theory with shapes]]. 
-
 ## See also
 
 * [[context]]
