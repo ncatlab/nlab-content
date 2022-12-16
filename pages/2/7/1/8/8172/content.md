@@ -8223,6 +8223,10 @@ Reviews of the traditional theory:
 
 * _[[Introduction to the Adams Spectral Sequence]]_
 
+* [[Agnès Beaudry]], [[Jonathan A. Campbell]], §4 in: *A Guide for Computing Stable Homotopy Groups*, in *Topology and Quantum Theory in Interaction*, Contemporary Mathematics **718**, Amer. Math. Soc. (2018)  &lbrack;[arXiv:1801.07530](https://arxiv.org/abs/1801.07530), [ams:conm/718](https://bookstore.ams.org/view?ProductCode=CONM/718)&rbrack;
+
+  > (with an eye towards [[functorial quantum field theory]])
+
 The modern point of view in terms of derived $E_\infty$-descent is hinted at in ([Hopkins 99, remark 5.5 (ii)](#Hopkins99)) and is consistently adopted in
 
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ (2010)
