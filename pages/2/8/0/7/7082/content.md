@@ -125,6 +125,12 @@ This leads to a coinductive definition of the type of equivalences
 
 $$A \simeq B \coloneqq \sum_{f:A \to B} \sum_{g:B \to A} \prod_{a:A} \prod_{b:B} (f(a) =_B b) \simeq (a =_A g(b))$$
 
+### Strict equivalences
+
+There is also a notion of **strict equivalence** between two types $A$ and $B$, where given functions $f:A \to B$ and $g:B \to A$ instead of having identity types between $g(f(a)) =_A a$ and similarly $b =_B f(g(b))$ making the pair of functions into [[quasi-inverse functions]], there are [[judgmental equalities]] $g(f(a)) \equiv a:A$ and $b \equiv f(g(b)):B$ or [[propositional equalities]] $g(f(a)) \equiv_A a \; \mathrm{true}$ and $b \equiv_B f(g(b)) \; \mathrm{true}$, making them into **judgmentally strict equivalences** and **propositionally strict equivalences** respectively. 
+
+Judgmentally strict equivalences are used in defining [[Shulman univalent universes]] in [[higher observational type theory]]. 
+
 ## Properties
 
 ### Constructing the inverse function. 
@@ -319,6 +325,15 @@ For equivalences as one-to-one correspondences in homotopy type theory, see
 [[!redirects equivalence of types]]
 [[!redirects equivalences of types]]
 
+[[!redirects strict equivalence]]
+[[!redirects strict equivalences]]
+
+[[!redirects judgmentally strict equivalence]]
+[[!redirects judgmentally strict equivalences]]
+
+[[!redirects propositionally strict equivalence]]
+[[!redirects propositionally strict equivalences]]
+
 [[!redirects isEquiv]]
 
 [[!redirects equivalence in homotopy type theory]]
@@ -341,6 +356,27 @@ For equivalences as one-to-one correspondences in homotopy type theory, see
 [[!redirects weak equivalences in type theory]]
 [[!redirects weak equivalence in HoTT]]
 [[!redirects weak equivalences in HoTT]]
+
+[[!redirects strict equivalence in homotopy type theory]]
+[[!redirects strict equivalences in homotopy type theory]]
+[[!redirects strict equivalence in type theory]]
+[[!redirects strict equivalences in type theory]]
+[[!redirects strict equivalence in HoTT]]
+[[!redirects strict equivalences in HoTT]]
+
+[[!redirects judgmentally strict equivalence in homotopy type theory]]
+[[!redirects judgmentally strict equivalences in homotopy type theory]]
+[[!redirects judgmentally strict equivalence in type theory]]
+[[!redirects judgmentally strict equivalences in type theory]]
+[[!redirects judgmentally strict equivalence in HoTT]]
+[[!redirects judgmentally strict equivalences in HoTT]]
+
+[[!redirects propositionally strict equivalence in homotopy type theory]]
+[[!redirects propositionally strict equivalences in homotopy type theory]]
+[[!redirects propositionally strict equivalence in type theory]]
+[[!redirects propositionally strict equivalences in type theory]]
+[[!redirects propositionally strict equivalence in HoTT]]
+[[!redirects propositionally strict equivalences in HoTT]]
 
 [[!redirects homotopy isomorphism]]
 [[!redirects h-isomorphism]]
