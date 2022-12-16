@@ -25,6 +25,12 @@ On [[MSSM]] model building:
 
 * {#MarchesanoShiu04} [[Fernando Marchesano]], [[Gary Shiu]], _Building MSSM Flux Vacua_, JHEP0411:041, 2004 ([arXiv:hep-th/0409132](https://arxiv.org/abs/hep-th/0409132))
 
+On [[string phenomenology]] with [[orbifold]]/[[orientifold]] [[intersecting D-brane models]] and [[Gepner models]]:
+
+* [[Fernando Marchesano]], [[Bert Schellekens]], [[Timo Weigand]], *D-brane and F-theory Model Building* &lbrack;[arXiv:2212.07443](https://arxiv.org/abs/2212.07443)&rbrack;
+
+
+
 ## Related $n$Lab entries
 
 * [[intersecting D-brane model]]
