@@ -25,7 +25,9 @@ Like any type in type theory, the unit type is specified by rules saying when we
 
 ### In natural deduction
 
-In both the presentation as a positive and negative type, the formation and introduction rules are the same. 
+We assume that our unit types have typal [[conversion rules]], as those are the most general of the conversion rules. Both the propositional and judgmental conversion rules imply the typal conversion rules by the structural rules for propositional and judgmental equality respectively. 
+
+For both the positive unit type and the negative unit type, the formation and introduction rules are the same. 
 
 The [[formation rule]] for the unit type is given by
 
@@ -36,14 +38,6 @@ and the [[introduction rule]] for the unit type is given by
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:\mathbb{1}}$$
 
 The positive unit type says that $\mathbb{1}$ satisfies [[singleton induction]]. The negative unit type says that the element $*:\mathbb{1}$ is the [[center of contraction]] of $\mathbb{1}$. 
-
-#### As a negative type
-
-As a negative type, there are no [[elimination rules]] or [[computation rules]] for $\mathbb{1}$. The [[uniqueness rule]] states that $*$ is the [[center of contraction]] of $\mathbb{1}$ and is given by:
-
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, p:\mathbb{1} \vdash \eta_\mathbb{1}(p):* =_\mathbb{1} p}$$
-
-Thus, the unit type is a [[contractible type]]. 
 
 #### As a positive type
 
@@ -61,9 +55,35 @@ $$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type}}{\Gamma, c_*:C(*) \vdash 
 
 $$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type} \quad \Gamma, x:\mathbb{1} \vdash u:C}{\Gamma, c_*:C(*), p:\mathbb{1}, i_*(u):u(*) =_{C(*)} c_* \vdash \eta_\mathbb{1}^C(c_*, p, u, i_*(u)):u(p) =_{C(p)} \mathrm{ind}_\mathbb{1}^{C}(p, c_*)}$$
 
-In particular, if given an element $p:\mathbb{1}$ we define $C(q) \coloneqq p =_\mathbb{1} q$ for all $q:\mathbb{1}$, the elimination, computation, and uniqueness rules imply that $p =_\mathbb{1} q$ is a [[contractible type]] with [[center of contraction]] $\mathrm{ind}_\mathbb{1}^{C}(p, c_*)$. 
+#### As a negative type
+
+As a negative type, there are no [[elimination rules]] or [[computation rules]] for $\mathbb{1}$. The [[uniqueness rule]] states that $*$ is the [[center of contraction]] of $\mathbb{1}$ and is given by:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, p:\mathbb{1} \vdash \eta_\mathbb{1}(p):* =_\mathbb{1} p}$$
+
+Thus, the unit type is a [[contractible type]]. 
 
 #### Positive versus negative
+
+\begin{theorem}
+Let $\mathbb{1}$ denote the positive unit type, and let $p:\mathbb{1}$ and $q:\mathbb{1}$ be elements of $\mathbb{1}$. Then the identity type $q =_\mathbb{1} p$ is a [[contractible type]]. 
+\end{theorem}
+
+\begin{proof}
+Given an element $p:\mathbb{1}$, we can define the family of types $C(q) \coloneqq q =_\mathbb{1} p$ for all $q:\mathbb{1}$. The elimination and computation rules for the positive unit type imply that $* =_\mathbb{1} p$ is a [[contractible type]] with [[center of contraction]] $c_*(p):* =_\mathbb{1} p$ which is equal to $\mathrm{ind}_\mathbb{1}^{(-) =_\mathbb{1} p}(p, c_*(p))$. 
+
+The uniqueness rule for the positive unit type states that given a family of terms $u(p):q =_\mathbb{1} p$ indexed by $p:\mathbb{1}$ and $q:\mathbb{1}$, for all elements $c_*(p):* =_\mathbb{1} p$, elements $q:\mathbb{1}$, and witnesses $i_*(u(p))$ that $u(p)(*)$ is equal to $c_*(p)$ in $* =_\mathbb{1} p$, there is a witness $\eta_\mathbb{1}^{(-) =_\mathbb{1} p}(c_*(p), q, u(p), i_*(u(q)))$ that $u(p)$ is equal to $\mathrm{ind}_\mathbb{1}^{(-) =_\mathbb{1} p}(p, c_*(p))$ in $C(p)$.
+
+Thus, the identity type $q =_\mathbb{1} p$ is a [[contractible type]] for all elements $p:\mathbb{1}$ and $q:\mathbb{1}$, with element $\eta_\mathbb{1}^{(-) =_\mathbb{1} p}(c_*(p), q, u(p), i_*(u(q))):q =_\mathbb{1} p$. 
+\end{proof}
+
+\begin{lemma}
+The positive unit type is a contractible type. 
+\end{lemma}
+
+\begin{proof}
+Since the identity type $q =_\mathbb{1} p$ is a [[contractible type]] for all elements $p:\mathbb{1}$ and $q:\mathbb{1}$, with element $\eta_\mathbb{1}^{(-) =_\mathbb{1} p}(c_*(p), q, u(p), i_*(u(q))):q =_\mathbb{1} p$, it follows that $\mathbb{1}$ is an [[h-proposition]]. Since $\mathbb{1}$ is also pointed with element $*:\mathbb{1}$, it is thus a [[contractible type]]. 
+\end{proof}
 
 \begin{theorem}
 There is an [[equivalence of types]] between two [[contractible types]] $S$ and $T$. 
@@ -73,15 +93,13 @@ There is an [[equivalence of types]] between two [[contractible types]] $S$ and 
 By the definition of [[contractible type]], there are elements $p_S:\sum_{a:S} \prod_{b:S} a =_S b$ and $p_T:\sum_{a:T} \prod_{b:T} a =_T b$, and thus, an element $\pi_1(p_S)$ and a witness $\pi_2(p_S)$ that $\pi_1(p_S)$ is a [[center of contraction]] of $S$, and an element $\pi_1(p_T)$ and a witness $\pi_2(p_T)$ that $\pi_1(p_T)$ is a [[center of contraction]] of $T$. By the uniqueness principle of contractible types, it suffices to define a function $f:S \to T$ at $\pi_1(p_S)$. We define it as $f(\pi_1(p_S)) \coloneqq \pi_1(p_T)$. Now, all that's left is to prove that the fiber of $f$ at all elements $a:T$ is contractible. But by the uniqueness principle of contractible types, it suffices to prove it for the center of contraction $\pi_1(p_T)$. The canonical element $*$ is in the fiber of $f$ at $\pi_1(p_T)$, and since $\pi_1(p_S)$ is the center of contraction of $S$, the fiber of $f$ at $\pi_1(p_T)$ is contractible, and thus the fiber of $f$ at every element $a:T$ is contractible. Thus, $f$ is an equivalence of types between the contractible types $S$ and $T$. 
 \end{proof}
 
-could do something with [[action on identities]]. 
-
-\begin{theorem}
-Every pointed type with singleton induction is contractible. 
-\end{theorem}
-
 \begin{lemma}
 The positive and negative unit types are equivalent to each other. 
 \end{lemma}
+
+\begin{proof}
+Since the negative unit type is contractible by definition, and the positive unit type is contractible, they are equivalent to each other. 
+\end{proof}
 
 #### Extensionality principle
 
@@ -92,12 +110,12 @@ Given elements $x:\mathbb{1}$ and $y:\mathbb{1}$, there is an [[equivalence of t
 \end{lemma}
 
 \begin{proof}
-This follows from the previous theorem and that the unit type is contractible and satisfies singleton induction. 
+Since every identity type $x =_\mathbb{1} y$ is contractible for elements $x:\mathbb{1}$ and $y:\mathbb{1}$, and $\mathbb{1}$ itself is contractible, this implies that every identity type $x =_\mathbb{1} y$ is equivalent to $\mathbb{1}$. 
 \end{proof}
 
 ### In lambda-calculus 
 
-In both cases the rule for building the unit type is the same, namely "it exists":
+In lambda-calculus, for both the positive unit type and the negative unit type, the rule for building the unit type is the same, namely "it exists":
 
 $$ \frac{ }{1\colon Type} $$
 
