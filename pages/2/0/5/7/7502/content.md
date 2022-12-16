@@ -15,8 +15,7 @@
 
 ## Idea
 
-The concept of _pushout product_ is a natural kind of pairing operation on [[morphisms]] in [[categories]] equipped with a pairing operation on [[objects]] (e.g. a [[tensor product]]) and having [[pushouts]]. It sends two morphisms to the universal morphism out of the [[pushout]] of the [[span]]-diagram they form by pairing their [[domain]] objects.
-
+The concept of _pushout product_ is a natural kind of pairing operation on [[morphisms]] in [[categories]] equipped with a pairing operation on [[objects]] (e.g. a [[tensor product]]) and having [[pushouts]]. It sends two morphisms to the universal morphism out of the [[pushout]] of the [[span]]-diagram they form by pairing their [[domain]] objects. Regarding arrows in a category as diagrams with domain the [[interval category]], and giving the interval category the natural monoidal product, this is a kind of [[Day convolution]] [[tensor product]] with the natural [[copower|copowering]] over [[Set]] replacing a tensor in the [[end|coend]].
 
 
 ## Definition
