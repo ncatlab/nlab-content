@@ -47,7 +47,7 @@ $$\frac{\Gamma \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vdash 2:\mathbb{N}} \
 
 * Introduction and propositional definition rules for $2$:
 
-$$\frac{\Gamma \vert \Phi \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vert \Phi \vdash 2:\mathbb{N}} \qquad \frac{\Gamma \vert \Phi \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vert \Phi \vdash 2 =_{\mathbb{N}} s(s(0)) \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vdash 2:\mathbb{N}} \qquad \frac{\Gamma \vdash \mathbb{N} \; \mathrm{type}}{\Gamma \vdash 2 =_{\mathbb{N}} s(s(0)) \; \mathrm{true}}$$
 
 * Introduction and typal definition rules for $2$:
 
@@ -63,7 +63,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) \; \m
 
 * Formation and propositional definition rules for $\mathrm{isProp}(A)$:
 
-$$\frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash \mathrm{isProp}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vert \Phi \vdash A \; \mathrm{type}}{\Gamma \vert \Phi \vdash \mathrm{isProp}(A) = \prod_{x:A} \prod_{y:A} x =_A y\; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) = \prod_{x:A} \prod_{y:A} x =_A y\; \mathrm{true}}$$
 
 * Formation and typal definition rules for $\mathrm{isProp}(A)$:
 
