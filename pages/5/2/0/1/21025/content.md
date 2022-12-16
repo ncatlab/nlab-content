@@ -5,8 +5,6 @@ This page collects material related to:
 
 \linebreak
 
-[mtheorymath.org](http://mtheorymath.org)
-
 A **conference series on [[M-theory]] and [[mathematics]]**.
 
 > These workshops bring together experts on the mathematical aspects of [[M-theory]], the main candidate for a [[theory of everything]], with implications to [[string theory]] and [[quantum field theory]] and interactions with [[geometry]] and [[algebraic topology]].
@@ -14,7 +12,7 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 \linebreak
 
 
-<div style="float:left;margin:0 10px 10px 0;">
+<div style="float:left;margin:0 10px 10px 10pc;">
 <a href="https://nyuadi.secure.force.com/Events/NYUEventRegistration?event=u2f8V99W_2FoUW_2FK0f7HydVQ_3D_3D">
 <img src="https://ncatlab.org/nlab/files/MTheoryAndMathematicsWorkshop.jpg" width="300">
 </a>
@@ -47,7 +45,16 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   New York University, Abu Dhabi
 
-  (...)
+  [event webpage](https://nyuad.nyu.edu/en/events/2023/january/m-theory-and-mathematics-conference-2023.html)
+
+
+<center>
+<a href="https://ncatlab.org/nlab/show/M-Theory+and+Mathematics#2023">
+<img src="https://ncatlab.org/nlab/files/MTheoryAndMathematics2023Title.jpg" width="700"/>
+</a>
+</center>
+
+
 
 \linebreak
 
@@ -55,9 +62,13 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 * January 27-30, 2020
 
-* [Event webpage](https://nyuadi.secure.force.com/Events/NYUEventRegistration?event=u2f8V99W_2FoUW_2FK0f7HydVQ_3D_3D)
+* [event webpage](https://nyuadi.secure.force.com/Events/NYUEventRegistration?event=u2f8V99W_2FoUW_2FK0f7HydVQ_3D_3D)
+
+* [mtheorymath.org](http://mtheorymath.org)
 
 * [Program](https://hisham-sati.github.io/M-theory-and-Mathematics/)
+
+
 
 <img src="https://ncatlab.org/nlab/files/MTheoryAndMathematics2020Program.jpg" width="450">
 
