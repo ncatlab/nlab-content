@@ -244,6 +244,9 @@ Reviews of [[intersecting D-brane model]] in [[type II string theory]] (in [[ori
  
 * Anshuman Maharana, [[Eran Palti]], _Models of Particle Physics from Type IIB String Theory and F-theory: A Review_ ([arXiv:1212.0555](http://arxiv.org/abs/1212.0555))
 
+* [[Fernando Marchesano]], [[Bert Schellekens]], [[Timo Weigand]], *D-brane and F-theory Model Building* &lbrack;[arXiv:2212.07443](https://arxiv.org/abs/2212.07443)&rbrack;
+
+
 Computer scan of [[Gepner model]]-[[KK-compactifications]] of [[intersecting D-brane models]]:
 
 * {#DijkstraHuiszoonSchellekens04a} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Chiral Supersymmetric Standard Model Spectra from Orientifolds of Gepner Models_, Phys.Lett. B609 (2005) 408-417 ([arXiv:hep-th/0403196](https://arxiv.org/abs/hep-th/0403196))
