@@ -433,6 +433,8 @@ These appear in the discussion of [[Thom spaces]] and hence of [[Thom spectra]],
 
 * [[Sullivan model of a spherical fibration]]
 
+* [[twisted Cohomotopy]]
+
 ## References
 
 With focus on [[3-sphere]]-fiber bundles over the [[4-sphere]] and the construction of [[exotic 7-spheres]]:
@@ -440,6 +442,11 @@ With focus on [[3-sphere]]-fiber bundles over the [[4-sphere]] and the construct
 * {#Milnor1956} [[John Milnor]], _On manifolds homeomorphic to the 7-sphere_, Annals of Mathematics 64 (2): 399&#8211;405 (1956) ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/exotic.pdf), [doi:10.1142/9789812836878_0001](https://doi.org/10.1142/9789812836878_0001))
 
 * {#CrowleyEscher03} [[Diarmuid Crowley]], [[Christine Escher]], _A classification of $S^3$-bundles over $S^4$_, Differential Geometry and its Applications Volume 18, Issue 3, May 2003, Pages 363-380 (<a href="https://doi.org/10.1016/S0926-2245(03)00012-3">doi:10.1016/S0926-2245(03)00012-3</a>))
+
+On sphere fiber bundles as [[Kaluza-Klein compactifications]] in [[supergravity]] and [[string theory]]:
+
+* [[Federico Bonetti]], [[Ruben Minasian]], Valentí Vall Camell, Peter Weck, *Consistent truncations from the geometry of sphere bundles* &lbrack;[arXiv:2212.08068](https://arxiv.org/abs/2212.08068)&rbrack;
+
 
 
 [[!redirects sphere fiber bundles]]
