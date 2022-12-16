@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Higher algebra
-+--{: .hide}
-[[!include higher algebra - contents]]
+#### Categorical algebra
++-- {: .hide}
+[[!include categorical algebra -- contents]]
 =--
 #### 2-Category theory
 +--{: .hide}
@@ -100,12 +100,16 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 
 ## Related concepts
 
+
+* [[weak distributive law]]
+
 * [[wreath]]
 
 * [[distributivity for monoidal structures]]
 
 * [[monad transformer]]
 
+* [[pseudo-distributive law]]
 
 ## Literature
 
