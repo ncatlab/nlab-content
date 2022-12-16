@@ -1,3 +1,19 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Categorical algebra
++-- {: .hide}
+[[!include categorical algebra -- contents]]
+=--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+
 # Pseudo-distributive laws
 
 * table of contents
@@ -5,7 +21,7 @@
 
 ## Idea
 
-A **pseudo-distributive law** is a vertical [[categorification]] of a [[distributive law]], relating two [[pseudomonads]] on a [[bicategory]].  There are various different levels of weakness that such a thing can exist at.  As with ordinary distributive laws, a pseudo-distributive law governs the lifting of one pseudomonad to the Eilenberg-Moore and Kleisli bicategories of the other.
+The notion of a **pseudo-distributive law** is a [[vertical categorification]] of that of a [[distributive law]], relating two [[pseudomonads]] on a [[bicategory]]. There are various different levels of weakness that such a thing can exist at.  As with ordinary distributive laws, a pseudo-distributive law governs the lifting of one pseudomonad to the Eilenberg-Moore and Kleisli bicategories of the other.
 
 ## Definition
 
@@ -24,6 +40,7 @@ See any of the references, particularly [(Walker)](#Decagons), who simplified th
 ## Related pages
 
 * [[distributive law]]
+
 * [[pseudomonad]], [[relative pseudomonad]]
 
 ## References
