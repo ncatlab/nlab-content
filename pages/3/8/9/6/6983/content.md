@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc} 
@@ -19,9 +20,12 @@ In [[type theory]] the _unit type_ is the [[type]] with a unique [[term]].  It i
 
 In a [[model]] by [[categorical semantics]], this is a [[terminal object]]. In [[set theory]], it is a [[singleton]].
 
+
 ## Definition
 
-Like any type in type theory, the unit type is specified by rules saying when we can introduce it as a type, how to construct terms of that type, how to use or "eliminate" terms of that type, and how to compute when we combine the constructors with the eliminators. The unit type, like the binary [[product type]], can be presented both as a [[positive type]] and a [[negative type]]. There are typically two foundations in which the unit type is specified in, [[natural deduction]] and [[lambda-calculus]]. 
+Like any [[type]] in [[type theory]], the unit type is specified by rules saying when we can [[type formation|introduce it as a type]], how to  [[term introduction|introduce terms]] of that type, how to use or [[term elimination|eliminate terms]] of that type, and how to [[computation rule|compute]] when we combine the constructors with the eliminators. 
+
+The unit type, like the binary [[product type]], can be presented both as a [[positive type]] and as a [[negative type]]. There are typically two foundations in which the unit type is specified in, [[natural deduction]] and [[lambda-calculus]]. 
 
 ### In natural deduction
 
@@ -123,7 +127,7 @@ $$ \frac{ }{1\colon Type} $$
 
 #### As a positive type
 
-Regarded as a positive type, we give primacy to the constructors, of which there is exactly one, denoted $()$ or $tt$.
+Regarded as a [[positive type]], we give primacy to the constructors, of which there is exactly one, denoted $()$ or $tt$.
 
 $$ \frac{ }{() \colon 1 } $$
 
@@ -152,7 +156,7 @@ The positive presentation of the unit type is naturally expressed as an [[induct
 
 #### As a negative type
 
-A negative type is characterized by its eliminators, which is a little subtle for the unit type.  But by analogy with binary [[product types]], which have two eliminators $\pi_1$ and $\pi_2$ when presented negatively, the negative unit type (a [[zero|nullary]] product) should have *no eliminators at all*.
+A [[negative type]] is characterized by its eliminators, which is a little subtle for the unit type.  But by analogy with binary [[product types]], which have two eliminators $\pi_1$ and $\pi_2$ when presented negatively, the negative unit type (a [[zero|nullary]] product) should have *no eliminators at all*.
 
 To derive the constructors from this, we follow the general rule for negative types that to construct an element of $1$, it should suffice to specify how that element behaves under all the eliminators.  Since there *are* no eliminators, this means we have nothing to do; thus we have exactly one way to construct an element of $1$, by doing nothing:
 
