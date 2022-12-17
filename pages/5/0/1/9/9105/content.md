@@ -4,6 +4,13 @@
 
 ## Selected writings
 
+On [[intersecting D-brane models]]:
+
+* [[Ralph Blumenhagen]], [[Mirjam Cvetic]], [[Paul Langacker]], [[Gary Shiu]], *Towards Realistic Intersecting D-Brane Models*, Ann. Rev. Nucl. Part. Sci. **55** (2005) 71-139 &lbrack;[arXiv:hep-th/0502005](http://arxiv.org/abs/hep-th/0502005), [doi:10.1146/annurev.nucl.55.090704.151541](https://doi.org/10.1146/annurev.nucl.55.090704.151541)&rbrack;
+
+
+On [[string phenomenology]] with [[F-theory]]:
+
 * {#CLLO18} [[Mirjam Cvetič]], Ling Lin, Muyang Liu, Paul-Konstantin Oehlmann, _An F-theory Realization of the Chiral MSSM with $\mathbb{Z}_2$-Parity_ ([arXiv:1807.01320](https://arxiv.org/abs/1807.01320))
 
 * {#CveticHalversonLinLiuTian19} [[Mirjam Cvetic]], [[James Halverson]], Ling Lin, Muyang Liu, Jiahua Tian, _A Quadrillion Standard Models from F-theory_ ([arXiv:1903.00009](https://arxiv.org/abs/1903.00009))
