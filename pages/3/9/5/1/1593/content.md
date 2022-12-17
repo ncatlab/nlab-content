@@ -157,7 +157,7 @@ Traditional lecture notes include
 
 Textbook discussion is in
 
-* {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], Section 15.3 of _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics, Springer 2013
+* {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], Section 15.3 of: *Basic Concepts of String Theory*, Theoretical and Mathematical Physics, Springer (2013) &lbrack;[doi:10.1007/978-3-642-29497-6](https://doi.org/10.1007/978-3-642-29497-6)&rbrack;
 
 and specifically in the context of [[intersecting D-brane models]] with an eye towards [[string phenomenology]] in
 
