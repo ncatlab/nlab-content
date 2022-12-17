@@ -29,6 +29,67 @@ Note that a [[dependent product type]] is something different (a generalization 
 
 Like any type constructor in [[type theory]] (see at [[natural deduction]]), a product type is specified by rules saying when we can introduce it as a type, how to construct terms of that type, how to use or "eliminate" terms of that type, and how to compute when we combine the constructors with the eliminators.
 
+
+### In natural deduction
+
+We assume that our product types have typal [[conversion rules]], as those are the most general of the conversion rules. Both the propositional and judgmental conversion rules imply the typal conversion rules by the structural rules for propositional and judgmental equality respectively. 
+
+The formation and introduction rules are the same for both the positive and negative product types
+
+Formation rules for product types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \times B \; \mathrm{type}}$$
+
+Introduction rules for product types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma\vdash B \; \mathrm{type}}{\Gamma, x:A, y:B \vdash (x, y):A \times B}$$
+
+#### As a positive type 
+
+* Elimination rules for product types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, z:A \times B \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[(x, y)/z]}{\Gamma, z:A \times B \vdash \mathrm{ind}_{A \times B}^C(c):C}$$
+
+* Computation rules for product types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, z:A \times B \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[(x, y)/z]}{\Gamma, x:A, y:B \vdash \beta_{A \times B}^C(c):\mathrm{ind}_{A \times B}^C(c)[(x, y)/z] =_{C[(x, y)/z]} c}$$
+
+* Uniqueness rules for product types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma\vdash B \; \mathrm{type} \quad \Gamma, z:A \times B \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[(x, y)/z] \quad \Gamma, z:A \times B \vdash u:C \quad \Gamma, x:A, y:B \vdash i_{(-,-)}(u):u[(x, y)/z] =_{C[(x, y)/z]} c}{\Gamma, z:A \times B \vdash \eta_{A \times B}^C(c):u =_{C} \mathrm{ind}_{A \times B}^C(c)}$$
+
+Given a [[pointed type|pointed]] [[h-proposition]] $(A, a)$, the positive product type results in $(a,-)$ being an [[equivalence of types]]. 
+
+#### As a negative type
+
+* Elimination rules for product types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, z:A \times B \vdash \pi_1(z):A} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, z:A \times B \vdash \pi_2(z):B}$$
+
+* Computation rules for product types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma\vdash B \; \mathrm{type}}{\Gamma, x:A, y:B \vdash \beta_{\Sigma 1}(x, y):\pi_1((x, y)) =_A x} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, x:A, y:B \vdash \beta_{\Sigma 2}(x, y):\pi_2((x, y)) =_{B} y}$$
+
+* Uniqueness rules for product types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, z:A \times B \vdash \eta_{\Sigma}(z):z =_{A \times B} (\pi_1(z), \pi_2(z))}$$
+
+Given a [[pointed type|pointed]] [[h-proposition]] $(A, a)$, the negative product type results in $\pi_2(a,-)$ being a [[quasi-inverse function]] of $(a,-)$, rather than an [[equivalence of types]]. Thus, the positive definition is preferred to the negative definition. Alternatively, the negative product type should be defined as a [[coinductive type]] rather than an [[inductive type]]. 
+
+#### As a special case of the dependent sum
+
+In [[dependent type theory]] a product type $A \times B$ is the special case the [[dependent sum]] over $a : A$ for the special case that $B$ is regarded as an $A$-[[dependent type]] that actually happens to be $A$-independent. The rules are given as follows:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, a:A, b:A \vdash B[a/x] \equiv B[b/x] \; \mathrm{type}}{\Gamma \vdash A \times B \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, a:A, b:A \vdash B[a/x] \equiv B[b/x] \; \mathrm{type}}{\Gamma \vdash A \times B \equiv \sum_{x:A} B\; \mathrm{type}}$$
+
+#### As a special case of the dependent product
+
+In [[dependent type theory]] given types $A$ and $B$, one could define a type family $C$ indexed by elements of the [[two-valued type]] $\mathbb{2}$ by $C(0) \coloneqq A$ and $C(1) \coloneqq B$. A product type $A \times B$ is a special case of the [[dependent product type]]
+
+$$A \times B \coloneqq C(0) \times C(1) \coloneqq \prod_{x:\mathbb{2}} C(x)$$
+
+### In lambda-calculus
+
 There are actually two ways to present product types, as a [[negative type]] or as a [[positive type]].  In both cases the [[type formation rule]]
 is the following:
 
@@ -38,7 +99,7 @@ $$
 
 but the constructors and eliminators may be different.
 
-### As a negative type
+#### As a negative type
 
 When presented negatively, primacy is given to the [[term elimination rule|eliminators]].  We specify that there are two ways to eliminate a term of type $A\times B$: by projecting out the first component, or by projecting out the second.
 
@@ -56,7 +117,7 @@ and we may or may not choose to have an [[eta reduction]] rule
 
 $$ (\pi_1 p, \pi_2 p) \to_\eta p $$
 
-### As a positive type
+#### As a positive type
 
 When presented positively, primacy is given to the constructors.  We specify that the way to construct something of type $A\times B$ is to give something of type $A$ and something of type $B$:
 
@@ -90,7 +151,7 @@ Positively defined products are naturally expressed as [[inductive types]].  For
 Arguably, negatively defined products should be naturally expressed as [[coinductive type]]s, but this is not exactly the case for the presentation of coinductive types used in Coq.
 
 
-### Positive versus negative
+#### Positive versus negative
 
 In ordinary "nonlinear" type theory, the positive and negative product types are equivalent.  They manifestly have the same constructor, while we can define the eliminators in terms of each other as follows:
 
@@ -141,20 +202,6 @@ In conclusion, we have:
 * In any case, the two *definitional* $\eta$-conversion rules also correspond.
 
 It is of importance to note that these translations require the [[contraction rule]] and the [[weakening rule]]; that is, they duplicate and discard terms.  In [[linear logic]] these rules are disallowed, and therefore the positive and negative products become different.  The positive product becomes "tensor" $A\otimes B$, and the negative product becomes "with" $A \& B$.
-
-### As a special case of the dependent sum
-
-In [[dependent type theory]] a product type $A \times B$ is the special case the [[dependent sum]] over $a : A$ for the special case that $B$ is regarded as an $A$-[[dependent type]] that actually happens to be $A$-independent. The rules are given as follows:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, a:A, b:A \vdash B[a/x] \equiv B[b/x] \; \mathrm{type}}{\Gamma \vdash A \times B \; \mathrm{type}}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, a:A, b:A \vdash B[a/x] \equiv B[b/x] \; \mathrm{type}}{\Gamma \vdash A \times B \equiv \sum_{x:A} B\; \mathrm{type}}$$
-
-### As a special case of the dependent product
-
-In [[dependent type theory]] given types $A$ and $B$, one could define a type family $C$ indexed by elements of the [[two-valued type]] $\mathbb{2}$ by $C(0) \coloneqq A$ and $C(1) \coloneqq B$. A product type $A \times B$ is a special case of the [[dependent product type]]
-
-$$A \times B \coloneqq C(0) \times C(1) \coloneqq \prod_{x:\mathbb{2}} C(x)$$
 
 ## Categorical interpretation
 
