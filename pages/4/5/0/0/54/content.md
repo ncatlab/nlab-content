@@ -41,6 +41,17 @@ I am doing research in mathematical fundamental physics (e.g. on *[[Hypothesis H
 For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References).
 
 
+Upcoming activity:
+
+<center>
+<a href="https://ncatlab.org/nlab/show/M-Theory+and+Mathematics#2023">
+<img src="https://ncatlab.org/nlab/files/MTheoryAndMathematics2023Title.jpg" width="560"/>
+</a>
+</center>
+
+> $\phantom{------}$ (logo adapted from [JMP **62** (2021) 042301](https://arxiv.org/abs/2002.11093))
+
+
 
 ## publications
 
