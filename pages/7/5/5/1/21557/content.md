@@ -198,7 +198,7 @@ The **Street nerve** of the tricategory $\mathcal{C}$ is then the simplicial set
 
 * {#LackPaoli2006} Stephen Lack and Simona Paoli, _2-nerves for bicategories_, Journal of $K$-Theory 38.2 (2008): 153–175. [ [arXiv:0607271] ](https://arxiv.org/abs/math/0607271).
 
-* {#Street1987} [[Ross Street]], _The algebra of oriented simplexes_, Journal of Pure and Applied Algebra, Volume 49, Issue 3, December 1987, Pages 283&#8211;335.
+* {#Street1987} [[Ross Street]], _The algebra of oriented simplexes_, Journal of Pure and Applied Algebra, Volume 49, Issue 3, December 1987, Pages 283&#8211;335. [pdf](https://ncatlab.org/nlab/files/Street-AlgebraOfOrientedSimplexes.pdf)
 
 * {#GPS1995} [[Robert Gordon]], [[John Power]], [[Ross Street]], _Coherence for tricategories_, Mem. Amer. Math Soc. 117 (1995) no 558.
 
