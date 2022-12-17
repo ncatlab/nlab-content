@@ -1,5 +1,3 @@
-[[!redirects co-Kleisli category]]
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -21,13 +19,13 @@
 ## Idea
 
 
-[[formal dual|Formally dually]] to how a [[monad]] has a [[Kleisli category]] so also a [[comonad]] $P \colon \mathcal{C}\to\mathcal{C}$ has a (co-)Kleisli category: its [[objects]] are the objects of $\mathcal{C}$, a [[morphism]] $f \colon c_1 \to c_2$ in the co-Kleisli category is a morphism
+[[formal dual|Formally dually]] to how a [[monad]] has a [[Kleisli category]] so also a [[comonad]] $P \colon \mathcal{C}\to\mathcal{C}$ has a Kleisli category: its [[objects]] are the objects of $\mathcal{C}$, a [[morphism]] $f \colon c_1 \to c_2$ in the Kleisli category is a morphism
 
 $$
   \tilde f \colon P(c_1) \longrightarrow c_2
 $$
 
-in $\mathcal{C}$, and the composition of two such in the co-Kleisli category is represented by the morphism in $\mathcal{C}$ given by
+in $\mathcal{C}$, and the composition of two such in the Kleisli category is represented by the morphism in $\mathcal{C}$ given by
 
 $$
   \widetilde{f_2 \circ f_1}
@@ -38,6 +36,8 @@ $$
  \,.
 $$
 
+Sometimes the term *co-Kleisli category* is encountered, but this is redundant, since there is only one notation of Kleisli category for a comonad.
+
 ## Examples
  {#Examples}
 
@@ -46,7 +46,7 @@ $$
 ### General 
 
 \begin{example}
-For an [[idempotent comonad]] the co-Kleisli category is the [[coreflective subcategory]] of its [[modal types]].
+For an [[idempotent comonad]] the Kleisli category is the [[coreflective subcategory]] of its [[modal types]].
 \end{example}
 
 \begin{example}\label{CallByNameProgramming}
@@ -61,7 +61,7 @@ Generally, see at *[[monad (in computer science)]]* for more on this.
 ### Specific
 
 \begin{example}\label{MatrixmultiplicationAsCoKleisliComposition}
-**([[matrix multiplication]] as (co-)Kleisli composition)**
+**([[matrix multiplication]] as Kleisli composition)**
 \linebreak
   For
 
@@ -411,7 +411,7 @@ For $P= Jet$ a [[jet comonad]], then morphisms in its coKleisli category are [[d
 
 ## References
 
-The [[equivalence of categories]] between the [[co-Kleisli category]] over a given [[comonad]] with the [[Kleisli category]] of an [[adjoint functor|adjoint]] [[monad]] (if it exists):
+The [[equivalence of categories]] between the [[Kleisli category]] over a given [[comonad]] with the [[Kleisli category]] of an [[adjoint functor|adjoint]] [[monad]] (if it exists):
 
 * [[Mark Kleiner]],  *Adjoint monads and an isomorphism of the Kleisli categories*, Journal of Algebra
 Volume **133** 1 (1990) 79-82 &lbrack;<a href="https://doi.org/10.1016/0021-8693(90)90069-Z">doi:10.1016/0021-8693(90)90069-Z</a>&rbrack;
@@ -422,6 +422,7 @@ Some introductory material on [[comonads]], [[coalgebras]] and [[co-Kleisli morp
 * [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_, Chapter 5. ([arXiv](http://arxiv.org/abs/1912.10642))
 
 
+[[!redirects co-Kleisli category]]
 [[!redirects co-Kleisli categories]]
 [[!redirects coKleisli category]]
 [[!redirects coKleisli categories]]
