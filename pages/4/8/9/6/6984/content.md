@@ -88,6 +88,23 @@ In [[dependent type theory]] given types $A$ and $B$, one could define a type fa
 
 $$A \times B \coloneqq C(0) \times C(1) \coloneqq \prod_{x:\mathbb{2}} C(x)$$
 
+and is given by the following rules:
+
+Formation rules for product types:
+$$\frac{\Gamma, x:\mathbb{2} \vdash C \; \mathrm{type}}{\Gamma \vdash C(0) \times C(1) \; \mathrm{type}}$$
+
+Introduction rules for product types:
+$$\frac{\Gamma, x:\mathbb{2} \vdash c:C}{\Gamma \vdash \lambda(x:\mathbb{2}).c(x):C(0) \times C(1)}$$
+
+Elimination rules for product types:
+$$\frac{\Gamma \vdash z:C(0) \times C(1) \quad \Gamma \vdash p:\mathbb{2}}{\Gamma \vdash z(p):C[p/x]}$$
+
+Computation rules for product types:
+$$\frac{\Gamma, x:\mathbb{2} \vdash c:C \quad \Gamma \vdash p:\mathbb{2}}{\Gamma \vdash \beta_\Pi(p):\lambda(x:\mathbb{2}).c(x)[p/x] =_{C[p/x]} c[p/x]}$$
+
+Uniqueness rules for product types:
+$$\frac{\Gamma \vdash z:C(0) \times C(1)}{\Gamma \vdash \eta_\Pi(z):z =_{C(0) \times C(1)} \lambda(x).z(x)}$$
+
 ### In lambda-calculus
 
 There are actually two ways to present product types, as a [[negative type]] or as a [[positive type]].  In both cases the [[type formation rule]]
