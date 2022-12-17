@@ -64,7 +64,8 @@ The inserter in $Cat$ is also called the category of [[dialgebras]].
 ## References
 
 * G.J. Bird, G.M. Kelly, A.J. Power, R.H. Street, _Flexible limits for 2-categories_, J. Pure and Applied Algebra __61__:1, 1-27, 1989, <a href="https://doi.org/10.1016/0022-4049(89)90065-0">doi:10.1016/0022-4049(89)90065-0</a>
-* Fernando Lucatelli Nunes, _Freely generated $n$-categories, coinserters and presentations of low dimensional categories_, [arxiv/1704.04474](https://arxiv.org/abs/1704.04474)
+
+* [[Fernando Lucatelli Nunes]], _Freely generated $n$-categories, coinserters and presentations of low dimensional categories_, [arxiv/1704.04474](https://arxiv.org/abs/1704.04474)
 
 [[!redirects inserters]]
 [[!redirects strict inserter]]
