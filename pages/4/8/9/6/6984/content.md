@@ -144,13 +144,17 @@ It is of importance to note that these translations require the [[contraction ru
 
 ### As a special case of the dependent sum
 
-In [[dependent type theory]] a product type $A \times B$ is the special case the [[dependent sum]] over $a : A$ for the 
-special case that $B$ is regarded as an $A$-[[dependent type]] that
-actually happens to be $A$-independent. The rules are given as follows:
+In [[dependent type theory]] a product type $A \times B$ is the special case the [[dependent sum]] over $a : A$ for the special case that $B$ is regarded as an $A$-[[dependent type]] that actually happens to be $A$-independent. The rules are given as follows:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, a:A, b:A \vdash B[a/x] \equiv B[b/x] \; \mathrm{type}}{\Gamma \vdash A \times B \; \mathrm{type}}$$
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, a:A, b:A \vdash B[a/x] \equiv B[b/x] \; \mathrm{type}}{\Gamma \vdash A \times B \equiv \sum_{x:A} B\; \mathrm{type}}$$
+
+### As a special case of the dependent product
+
+In [[dependent type theory]] given types $A$ and $B$, one could define a type family $C$ indexed by elements of the [[two-valued type]] $\mathbb{2}$ by $C(0) \coloneqq A$ and $C(1) \coloneqq B$. A product type $A \times B$ is a special case of the [[dependent product type]]
+
+$$A \times B \coloneqq C(0) \times C(1) \coloneqq \prod_{x:\mathbb{2}} C(x)$$
 
 ## Categorical interpretation
 
