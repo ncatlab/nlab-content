@@ -406,7 +406,7 @@ as a [[higher WZW model]]:
 
 Discussion of the effect of [[T-duality]] on NS5-branes includes
 
-* Eduardo Eyras, Bert Janssen, Yolanda Lozano, _5-branes, KK-monopoles and T-duality_, Nucl.Phys. B531 (1998) 275-301 ([arXiv:hep-th/9806169](https://arxiv.org/abs/hep-th/9806169))
+* Eduardo Eyras, [[Bert Janssen]], [[Yolanda Lozano]], _5-branes, KK-monopoles and T-duality_, Nucl.Phys. B531 (1998) 275-301 ([arXiv:hep-th/9806169](https://arxiv.org/abs/hep-th/9806169))
 
 * [[David Tong]], _NS5-Branes, T-Duality and Worldsheet Instantons_, JHEP 0207:013,2002 ([arXiv:hep-th/0204186](https://arxiv.org/abs/hep-th/0204186))
 
@@ -452,7 +452,7 @@ Intersection of [[black brane|black]] NS5-branes with [[O8-planes]]/[[black bran
 
 * {#HananyZaffaroni98} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Branes and Six Dimensional Supersymmetric Theories_, Nucl.Phys. B529 (1998) 180-206 ([arXiv:hep-th/9712145](https://arxiv.org/abs/hep-th/9712145))
 
-* {#JanssenMeessenOrtin99} Bert Janssen, Patrick Meessen, Tomas Ortin, _The D8-Brane Tied up: String and Brane Solutions in Massive Type IIA Supergravity_, Phys. Lett. B453 (1999) 229-236 ([arXiv:hep-th/9901078](https://arxiv.org/abs/hep-th/9901078))
+* {#JanssenMeessenOrtin99} [[Bert Janssen]], [[Patrick Meessen]], [[Tomas Ortin]], _The D8-Brane Tied up: String and Brane Solutions in Massive Type IIA Supergravity_, Phys. Lett. B453 (1999) 229-236 ([arXiv:hep-th/9901078](https://arxiv.org/abs/hep-th/9901078))
 
 * {#HananyZaffaroni99} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arXiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
 
