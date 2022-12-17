@@ -224,6 +224,12 @@ Virtual double categories can be viewed as "the natural place in which to enrich
 
 ## References
 
+Virtual double categories were first considered by [[Albert Burroni]] under the name **multicatégorie** on page 61 of:
+
+* [[Albert Burroni]], _$T$-catégories (catégories dans un triple)_. Cahiers de topologie et géométrie différentielle catégoriques 12.3 (1971): 215-321. ([pdf](http://www.numdam.org/article/CTGDC_1971__12_3_215_0.pdf))
+
+Later, they were considered in:
+
 * [[Tom Leinster]], _Higher Operads, Higher Categories_, [link](http://www.maths.gla.ac.uk/~tl/book.html), [arXiv:0305049](http://arxiv.org/abs/math/0305049)
 
 * [[Tom Leinster]], **fc**-multicategories, [arxiv](https://arxiv.org/abs/math/9903004) (1999)
