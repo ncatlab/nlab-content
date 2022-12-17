@@ -27,13 +27,59 @@ In a [[model]] of the type theory in [[categorical semantics]], this is a [[depe
 
 Like any [[type formation|type constructor]] in [[type theory]], the dependent sum type is specified by rules saying when we can [[type formation|introduce]] it as a type, how to [[term introduction|construct terms]] of that type, how to use or "[[term elimination|eliminate]]" terms of that type, and how to [[computation rule|compute]] when we combine the constructors with the eliminators.
 
+### In natural deduction
+
+We assume that our dependent sum types have typal [[conversion rules]], as those are the most general of the conversion rules. Both the propositional and judgmental conversion rules imply the typal conversion rules by the structural rules for propositional and judgmental equality respectively. 
+
+The formation and introduction rules are the same for both the positive and negative dependent sum types
+
+Formation rules for dependent sum types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma \vdash \sum_{x:A} B(x) \; \mathrm{type}}$$
+
+Introduction rules for dependent sum types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, y:B \vdash \mathrm{in}(x, y):\sum_{x:A} B(x)}$$
+
+#### As a positive type 
+
+* Elimination rules for dependent sum types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, z:\sum_{x:A} B(x) \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[\mathrm{in}(x, y)/z]}{\Gamma, z:\sum_{x:A} B(x) \vdash \mathrm{ind}_{\sum_{x:A} B(x)}^C(c):C}$$
+
+* Computation rules for dependent sum types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, z:\sum_{x:A} B(x) \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[\mathrm{in}(x, y)/z]}{\Gamma, x:A, y:B \vdash \beta_{\sum_{x:A} B(x)}^C(c):\mathrm{ind}_{\sum_{x:A} B(x)}^C(c)[\mathrm{in}(x, y)/z] =_{C[\mathrm{in}(x, y)/z]} c}$$
+
+* Uniqueness rules for dependent sum types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, z:\sum_{x:A} B(x) \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[\mathrm{in}(x, y)/z] \quad \Gamma, z:\sum_{x:A} B(x) \vdash u:C \quad \Gamma, x:A, y:B \vdash i_\mathrm{in}(u):u[\mathrm{in}(x, y)/z] =_{C[\mathrm{in}(x, y)/z]} c}{\Gamma, z:\sum_{x:A} B(x) \vdash \eta_{\sum_{x:A} B(x)}^C(c):u =_{C} \mathrm{ind}_{\sum_{x:A} B(x)}^C(c)}$$
+
+Given a [[pointed type|pointed]] [[h-proposition]] $(A, a)$, the positive dependent sum type results in $\mathrm{in}(a,-)$ being an [[equivalence of types]]. 
+
+#### As a negative type
+
+* Elimination rules for dependent sum types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, z:\sum_{x:A} B(x) \vdash \pi_1(z):A} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, z:\sum_{x:A} B(x) \vdash \pi_2(z):B[\pi_1(z)/x]}$$
+
+* Computation rules for dependent sum types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, y:B \vdash \beta_{\Sigma 1}(x, y):\pi_1(\mathrm{in}(x, y)) =_A x} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, y:B \vdash \beta_{\Sigma 2}(x, y):\pi_2(\mathrm{in}(x, y)) =_{B[\pi_1(\mathrm{in}(x, y))/x]} y}$$
+
+* Uniqueness rules for dependent sum types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, z:\sum_{x:A} B(x) \vdash \eta_{\Sigma}(z):z =_{\sum_{x:A} B(x)} \mathrm{in}(\pi_1(z), \pi_2(z))}$$
+
+Given a [[pointed type|pointed]] [[h-proposition]] $(A, a)$, the negative dependent sum type results in $\pi_2(a,-)$ being a [[quasi-inverse function]] of $\mathrm{in}(a,-)$, rather than an [[equivalence of types]]. Thus, the positive definition is preferred to the negative definition. Alternatively, the negative dependent sum type should be defined as a [[coinductive type]] rather than an [[inductive type]]. 
+
+### In lambda-calculus
+
 The presentation of dependent sum type is almost exactly the same as that of [[product types]], with the simple change that $B$ may depend on $A$.  In particular, they can be presented both as a [[negative type]] or as a [[positive type]].  In both cases, the rule for building the dependent sum type is the same:
 
 $$ \frac{A\colon Type \qquad x\colon A\vdash B(x)\colon Type}{\sum_{x\colon A} B(x)\colon Type} $$
 
 but the constructors and eliminators may be different.
 
-### As a negative type
+#### As a negative type
 
 When presented negatively, primacy is given to the eliminators.  We specify that there are two ways to eliminate a term of type $\sum_{x\colon A} B(x)$: by projecting out the first component, or by projecting out the second.
 
@@ -51,7 +97,7 @@ and we may or may not choose to have an [[eta reduction]] rule
 
 $$ (\pi_1 p, \pi_2 p) \to_\eta p $$
 
-### As a positive type
+#### As a positive type
 
 When presented positively, primacy is given to the constructors.  We specify that the way to construct something of type $\sum_{x\colon A} B(x)$ is to give a term $a\colon A$ and a term $b\colon B(a)$:
 
@@ -85,8 +131,7 @@ Positively defined dependent sum types are naturally expressed as [[inductive ty
 
 Arguably, negatively defined products should be naturally expressed as [[coinductive type]]s, but this is not exactly the case for the presentation of coinductive types used in Coq.
 
-
-### Positive versus negative
+#### Positive versus negative
 
 In ordinary "nonlinear" [[type theory]], the positive and negative dependent sum types are equivalent, just as in the case of [[product types]].  They manifestly have the same constructor, while we can define the eliminators in terms of each other as follows:
 
@@ -103,7 +148,6 @@ The [[computation rules]] then also correspond, just as for [[product types]].
 Also just as for [[product types]], in order to recover the important *dependent* eliminator for the positive product type from the eliminators for the negative product type, we need the latter to satisfy the $\eta$-conversion rule so as to make the above definition well-typed.  By inserting a transport, we can make do with a [propositional](/nlab/show/eta-conversion#Propositional) $\eta$-conversion, which is also provable from the dependent eliminator.
 
 One might expect that in "[[dependent linear type theory]]" the positive and negative dependent sums would become different.  However, the meaning of the quoted phrase is unclear.
-
 
 ## Categorical interpretation
 
