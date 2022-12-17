@@ -38,8 +38,7 @@ Super-orbifolds as [[target spaces]] in [[superstring theory]] (orbi-[[superspac
 
 * [[Jaemo Park]], Soo-Jong Reym, _Supertwistor Orbifolds: Gauge Theory Amplitudes and Topological Strings_, JHEP 0412:017, 2004 ([arXiv:hep-th/0411123](https://arxiv.org/abs/hep-th/0411123))
 
-
-* [[Matthias Gaberdiel]], Dan Israel, Eliezer Rabinovici, _D-branes at multicritical points_, JHEP 0804:086, 2008 ([arXiv:0803.0291](https://arxiv.org/abs/0803.0291))
+* [[Matthias Gaberdiel]], [[Dan Israel]], [[Eliezer Rabinovici]], _D-branes at multicritical points_, JHEP 0804:086, 2008 &lbrack;[arXiv:0803.0291](https://arxiv.org/abs/0803.0291)&rbrack;
 
 and in [[M-theory]]:
 
