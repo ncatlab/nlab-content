@@ -349,9 +349,48 @@ on [[quantization]] of the WZW model, see at
  {#References}
 
 
-### Introduction and review
+### Introduction and survey
+ {#IntroductionsAndSurveys}
+
+* [[Peter Goddard]], [[David Olive]], *Kac-Moody and Virasoro algebras in relation to quantum physics*,  International Journal of Modern Physics A **01** 02 (1986) 303-414 &lbrack;[doi:10.1142/S0217751X86000149](https://doi.org/10.1142/S0217751X86000149), [spire:18583](https://inspirehep.net/literature/18583)&rbrack;
+
+Textbook accounts:
+
+* [[Philippe Di Francesco]], Pierre Mathieu, David S&#233;n&#233;chal, Part C of: *Conformal field theory*, Springer (1997) &lbrack;[doi:10.1007/978-1-4612-2256-9](https://doi.org/10.1007/978-1-4612-2256-9)&rbrack;
+
+* [[Bojko Bakalov]], [[Alexander Kirillov]], *Wess-Zumino-Witten model*, chapter 7 of: *Lectures on tensor categories and modular functors*, University Lecture Series **21**, Amer. Math. Soc. (2001) &lbrack;[[BakalovKirillov-WZWModel-Ch7OfTensorCat.pdf:file]], [web](http://www.math.stonybrook.edu/~kirillov/tensor/tensor.html), [ams:ulect/21](https://bookstore.ams.org/view?ProductCode=ULECT/21)&rbrack;
+
+* [[Ralph Blumenhagen]], [[Erik Plauschinn]], Chapter 3 of: *Introduction to Conformal Field Theory -- With Applications to String Theory*, Lecture Notes in Physics **779**, Springer (2009) &lbrack;[doi:10.1007/978-3-642-00450-6](https://doi.org/10.1007/978-3-642-00450-6)&rbrack;
+
+Lecture notes:
+
+* [[Patrick Meessen]], *Strings Moving on Group Manifolds: The WZW Model* &lbrack;[pdf](http://www.unioviedo.es/hepth/people/Patrick/fysica/zooi/WZW_ClassMunoz.pdf), [[Meessen-WZWModel.pdf:file]]&rbrack;
 
 * [[Lorenz Eberhardt]], *Wess-Zumino-Witten models*, lecture notes at *[YRISW 2019: A modern primer for 2D CFT](https://conf.itp.phys.ethz.ch/esi-school/)*, Vienna (2019) &lbrack;[pdf](https://conf.itp.phys.ethz.ch/esi-school/Lecture_notes/WZW%20models.pdf), [[Eberhardt-WZWModels.pdf:file]]&rbrack;
+
+
+A basic introduction also to the super-WZW model (and with an eye towards the corresponding [[2-spectral triple]]) is in
+
+* {#FroehlichGawedzki93} [[Jürg Fröhlich]], [[Krzysztof Gawedzki]], _Conformal Field Theory and Geometry of Strings_,  extended lecture notes for lecture given at the Mathematical Quantum Theory Conference, Vancouver, Canada, August 4-8 ([arXiv:hep-th/9310187](http://arxiv.org/abs/hep-th/9310187))
+
+
+A useful account of the WZW model that encompasses both its [[action functional]] and [[path integral]] quantization as well as the [[current algebra]] aspects of the QFT is in
+
+* {#Gawedzki99} [[Krzysztof Gawedzki]], _Conformal field theory: a case study_ in Y. Nutku, C. Saclioglu, T. Turgut (eds.) _Frontier in Physics_ 102, Perseus Publishing (2000) ([hep-th/9904145](http://xxx.lanl.gov/abs/hep-th/9904145))
+
+This starts in section 2 as a warmup with describing the 1d QFT of a particle propagating on a group manifold. The [[Hilbert space]] of [[states]] is expressed in terms of the [[Lie theory]] of $G$ and its [[Lie algebra]] $\mathfrak{g}$.
+
+In section 4 the [[quantization]] of the 2d WZW model is discussed in analogy to that. In lack of a full formalization of the quantization procedure, the author uses the loop algebra $\mathcal{l} \mathfrak{g}$ --  the [[affine Lie algebra]] -- of $\mathfrak{g}$ as the evident analog that replaces $\mathfrak{g}$ and discusses the [[Hilbert space]] [[space of states|of states]] in terms of that. He also indicates how this may be understood as a space of [[sections]] of a ([[prequantum line bundle|prequantum]]) [[line bundle]] over the [[loop group]].
+
+
+See also
+
+* L. Feh&#233;r, L. O'Raifeartaigh, P. Ruelle, I. Tsutsui, A. Wipf, _On Hamiltonian reductions of the Wess-Zumino-Novikov-Witten theories_, Phys. Rep. __222__ (1992), no. 1, 64 pp. [MR93i:81225](http://www.ams.org/mathscinet-getitem?mr=1192998), <a href="http://dx.doi.org/10.1016/0370-1573(92)90026-V">doi</a>
+
+* [[Krzysztof Gawedzki]], Rafal Suszek, [[Konrad Waldorf]], _Global gauge anomalies in two-dimensional bosonic sigma models_ ([arXiv:1003.4154](http://arxiv.org/abs/1003.4154))
+
+* Paul de Fromont, [[Krzysztof Gawędzki]], Cl&#233;ment Tauber, _Global gauge anomalies in coset models of conformal field theory_ ([arXiv:1301.2517](http://arxiv.org/abs/1301.2517))
+
 
 
 [[!include WZW term of QCD chiral perturbation theory -- references]]
@@ -399,43 +438,9 @@ See also
 
 * [[Edward Witten]], _On holomorphic factorization of WZW and coset models_, Comm. Math. Phys. Volume 144, Number 1 (1992), 189-212. ([Euclid](http://projecteuclid.org/euclid.cmp/1104249222))
 
-### Introductions and surveys
-
-An survey of and introduction to the topic is in 
-
-* Patrick Meessen, _Strings Moving on Group Manifolds: The WZW Model_ ([pdf](http://www.unioviedo.es/hepth/people/Patrick/fysica/zooi/WZW_ClassMunoz.pdf))
-
-A classical textbook accounts include
-
-* [[Bojko Bakalov]], [[Alexander Kirillov]], chapter 7 ([ps.gz](http://www.math.sunysb.edu/~kirillov/tensor/chapter7.ps.gz)) of _Lectures on tensor categories and modular functor_ ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html))
-
-* P. Di Francesco, P. Mathieu, D. S&#233;n&#233;chal, _Conformal field theory_, Springer 1997
-
-A basic introduction also to the super-WZW model (and with an eye towards the corresponding [[2-spectral triple]]) is in
-
-* {#FroehlichGawedzki93} [[Jürg Fröhlich]], [[Krzysztof Gawedzki]], _Conformal Field Theory and Geometry of Strings_,  extended lecture notes for lecture given at the Mathematical Quantum Theory Conference, Vancouver, Canada, August 4-8 ([arXiv:hep-th/9310187](http://arxiv.org/abs/hep-th/9310187))
-
-
-A useful account of the WZW model that encompasses both its [[action functional]] and [[path integral]] quantization as well as the [[current algebra]] aspects of the QFT is in
-
-* {#Gawedzki99} [[Krzysztof Gawedzki]], _Conformal field theory: a case study_ in Y. Nutku, C. Saclioglu, T. Turgut (eds.) _Frontier in Physics_ 102, Perseus Publishing (2000) ([hep-th/9904145](http://xxx.lanl.gov/abs/hep-th/9904145))
-
-This starts in section 2 as a warmup with describing the 1d QFT of a particle propagating on a group manifold. The [[Hilbert space]] of [[states]] is expressed in terms of the [[Lie theory]] of $G$ and its [[Lie algebra]] $\mathfrak{g}$.
-
-In section 4 the [[quantization]] of the 2d WZW model is discussed in analogy to that. In lack of a full formalization of the quantization procedure, the author uses the loop algebra $\mathcal{l} \mathfrak{g}$ --  the [[affine Lie algebra]] -- of $\mathfrak{g}$ as the evident analog that replaces $\mathfrak{g}$ and discusses the [[Hilbert space]] [[space of states|of states]] in terms of that. He also indicates how this may be understood as a space of [[sections]] of a ([[prequantum line bundle|prequantum]]) [[line bundle]] over the [[loop group]].
-
-
-See also
-
-* L. Feh&#233;r, L. O'Raifeartaigh, P. Ruelle, I. Tsutsui, A. Wipf, _On Hamiltonian reductions of the Wess-Zumino-Novikov-Witten theories_, Phys. Rep. __222__ (1992), no. 1, 64 pp. [MR93i:81225](http://www.ams.org/mathscinet-getitem?mr=1192998), <a href="http://dx.doi.org/10.1016/0370-1573(92)90026-V">doi</a>
-
-* [[Krzysztof Gawedzki]], Rafal Suszek, [[Konrad Waldorf]], _Global gauge anomalies in two-dimensional bosonic sigma models_ ([arXiv:1003.4154](http://arxiv.org/abs/1003.4154))
-
-* Paul de Fromont, [[Krzysztof Gaw?dzki]], Cl&#233;ment Tauber, _Global gauge anomalies in coset models of conformal field theory_ ([arXiv:1301.2517](http://arxiv.org/abs/1301.2517))
 
 ### Relation to gerbes and Chern-Simons theory
  {#ReferencesRelationToGerbesAndCS}
-
 
 Discussion of [[circle n-bundle with connection|circle 2-bundles with connection]] (expressed in terms of [[bundle gerbes]]) and discussion of the WZW-background [[B-field]] ([[WZW term]]) in this language is in 
 
