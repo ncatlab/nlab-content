@@ -67,6 +67,10 @@ In contrast to that situation, however, the lax-idempotent situation is of inter
 
 * [[Marta Bunge]] and [[Jonathon Funk]], *Singular Coverings of Toposes*.  In this book the notion is called a "KZ-adjointness" and defined by both (1) *and* (6).
 
+§3 of:
+
+* [[Maria Manuel Clementino]] and [[Fernando Lucatelli Nunes]]. _Lax comma 2-categories and admissible 2-functors_. [arXiv:2002.03132](https://arxiv.org/abs/2002.03132) (2020).
+
 [[!redirects lax-idempotent 2-adjunction]]
 [[!redirects lax-idempotent 2-adjunctions]]
 [[!redirects lax idempotent 2-adjunction]]
