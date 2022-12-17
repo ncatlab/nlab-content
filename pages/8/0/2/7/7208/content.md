@@ -41,7 +41,11 @@ The higher Kac-Moody analogs of the [[exceptional Lie group|exceptional semisimp
 
 ### General
 
-Surveys include
+On the [[Wess-Zumino-Witten model]] [[2d CFT]] via [[Kac-Moody algebra]] and [[Virasoro algebra]]:
+
+* [[Peter Goddard]], [[David Olive]], *Kac-Moody and Virasoro algebras in relation to quantum physics*,  International Journal of Modern Physics A **01** 02 (1986) 303-414 &lbrack;[doi:10.1142/S0217751X86000149](https://doi.org/10.1142/S0217751X86000149), [spire:18583](https://inspirehep.net/literature/18583)&rbrack;
+
+See also:
 
 * wikipedia, _[Kac-Moody algebra](http://en.wikipedia.org/wiki/Kac%E2%80%93Moody_algebra)_
 
