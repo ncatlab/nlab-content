@@ -11,7 +11,7 @@
 =--
 
 
-
+/clissifying
 #Contents#
 * table of contents
 {:toc}
@@ -117,7 +117,7 @@ We have the following [[commuting diagram]] of [[subgroup]] inclusions, where ea
     }
     &
     \mathrm{Spin}(7)
-    \ar@{^{(}->}[d]^{B \iota'}
+    \ar@{^{(}->}[d]^{\iota'}
     \\
     \mathrm{Spin}(5)
     \ar@{^{(}->}[r]
@@ -140,7 +140,7 @@ with their canonical [[subgroup]]-inclusions, while in the top row we have
 
 [[SU(2)]] $\hookrightarrow$ [[SU(3)]] $\hookrightarrow$ [[G2]] $\hookrightarrow$ [[Spin(7)]]
 
-and the right vertical inclusion $B \iota'$ is the [[delooping]] of one of the two non-standard inclusions, according to Prop. \ref{Spin7SubgroupsInSpin8}.
+and the right vertical inclusion $\iota'$ is one of the two non-standard inclusions, according to Prop. \ref{Spin7SubgroupsInSpin8}.
 
 =--
 
