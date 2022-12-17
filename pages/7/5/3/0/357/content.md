@@ -226,7 +226,7 @@ Virtual double categories can be viewed as "the natural place in which to enrich
 
 Virtual double categories were first considered by [[Albert Burroni]] under the name **multicatégorie** on page 61 of:
 
-* [[Albert Burroni]], _$T$-catégories (catégories dans un triple)_. Cahiers de topologie et géométrie différentielle catégoriques 12.3 (1971): 215-321. ([pdf](http://www.numdam.org/article/CTGDC_1971__12_3_215_0.pdf))
+* [[Albert Burroni]], _$T$-catégories (catégories dans un triple)_, Cahiers de topologie et géométrie différentielle catégoriques **12**.3 (1971) 215-321 &lbrack;[dml:91097](https://eudml.org/doc/91097), [pdf](http://www.numdam.org/article/CTGDC_1971__12_3_215_0.pdf)&rbrack;
 
 Later, they were considered in:
 
