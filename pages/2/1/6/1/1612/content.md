@@ -106,6 +106,10 @@ Original article:
 
 * [[Vladimir Turaev]], *Modular categories and 3-manifold invariants*,  International Journal of Modern Physics B Vol. 06, No. 11n12, pp. 1807-1824 (1992) ([doi:10.1142/S0217979292000876](https://doi.org/10.1142/S0217979292000876))
 
+Review in the context of the [[Reshetikhin-Turaev construction]] of [[modular functors]]:
+
+* [[Bojko Bakalov]], [[Alexander Kirillov]], *Modular Tensor Categories*, Ch. 3 in: *Lectures on tensor categories and modular functors*, University Lecture Series **21**, Amer. Math. Soc. (2001) &lbrack;[[BakalovKirillov-Ch3-ModularTensorCategories.pdf:file]],[web](http://www.math.stonybrook.edu/~kirillov/tensor/tensor.html), [ams:ulect/21](https://bookstore.ams.org/view?ProductCode=ULECT/21)&rbrack;
+
 Review in the context of [[2d CFT]]/[[VOA]]
 
 * [Fuchs-Runkel-Schweigert 02, Sec. 2.1](#FuchsRunkelSchweigert02)
