@@ -160,6 +160,8 @@ such that the associativity and unitality diagrams, as written above, commute. V
 
 If $X$, $Y$ are sets which come equipped with enrichments in $B$, then a $B$-functor consists of a function $f: X \to Y$ such that $p_Y \circ f = p_X$, together with a function $f_1: X \times X \to B_2$, satisfying the constraint $f_1(x, y): \hom_X(x, y) \to \hom_Y(f(x), f(y))$, and satisfying equations expressing coherence with the composition and unit data $\circ$, $j$ of $X$ and $Y$. (Diagram to be inserted, perhaps.)
 
+Categories enriched in bicategories were originally introduced by [[Bénabou]] under the name **polyad**. These can be seen as [[horizontal categorification|many-object generalisations]] of [[monads]], since a category $X$ enriched in a bicategory $B$ is precisely a monad in $B$ when $X$ has one object.
+
 ### Enrichment in a double category {#InDoubleCat}
 
 It is also natural to generalize further to categories enriched in a (possibly weak) [[double category]].  Just like for a bicategory, if $D$ is a double category, then a $D$-**enriched category** $\mathbf{X}$ consists of a set $X$ together with
@@ -362,6 +364,7 @@ Further examples are discussed in
 [[!redirects category enriched]]
 [[!redirects categories enriched]]
 [[!redirects enriched]]
+[[!redirects polyad]]
 
 [[!redirects enriched groupoid]]
 [[!redirects enriched groupoids]]
