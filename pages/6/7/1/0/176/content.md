@@ -430,7 +430,6 @@ With emphases on [[braid group representations]] constituted by [[conformal bloc
 * [[Toshitake Kohno]], *Conformal field theory and topology*, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. (2002) &lbrack;[AMS:mmono-210](https://bookstore.ams.org/mmono-210)&rbrack;
 
 
-
 Introduction and surveys:
 
 * [[Paul Ginsparg]], *Applied Conformal Field Theory*, lectures at: *[Fields, strings, critical phenomena, Les Houche Summer School 1988](https://inis.iaea.org/search/search.aspx?orig_q=RN:21047524)([arXiv:hep-th/9108028](https://arxiv.org/abs/hep-th/9108028))
@@ -438,6 +437,8 @@ Introduction and surveys:
 * {#Gawedzki99} [[Krzysztof Gawedzki]], _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
 
 * [[Ingo Runkel]], _Boundary problems in conformal field theory_ ([pdf](http://www.math.uni-hamburg.de/home/runkel/PDF/phd.pdf))
+
+* [[Ralph Blumenhagen]], [[Erik Plauschinn]], *Introduction to Conformal Field Theory -- With Applications to String Theory*, Lecture Notes in Physics **779**, Springer (2009) &lbrack;[doi:10.1007/978-3-642-00450-6](https://doi.org/10.1007/978-3-642-00450-6)&rbrack;
 
 * Yu Nakayama, _A lecture note on scale invariance vs conformal invariance_, [arXiv:1302.0884](http://arxiv.org/abs/1302.0884)
 
