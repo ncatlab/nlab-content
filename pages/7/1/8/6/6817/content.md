@@ -59,14 +59,17 @@ See at [supersymmetry -- Classification -- Superconformal algebra -- In dimensio
 
 ### General
 
-A basic but detailed exposition focusing on the super-[[WZW model]] (and the perspective of [[2-spectral triples]]) is in [Fr&#246;hlich Gawedzki 93](#FroehlichGawedzki93)
+A basic but detailed exposition focusing on the super-[[WZW model]] (and the perspective of [[2-spectral triples]]) is in [Fr&#246;hlich & Gawedzki (1993)](#FroehlichGawedzki93).
 
-Other accounts include
+Textbook account:
 
-* [[Lance Dixon]], [[Paul Ginsparg]], and [[Jeffrey Harvey]], _$\hat c = 1$ Superconformal field theory_ ([pdf](http://www.slac.stanford.edu/cgi-wrap/getdoc/slac-pub-4515.pdf))
+* [[Ralph Blumenhagen]], [[Erik Plauschinn]], *Introduction to Conformal Field Theory -- With Applications to String Theory*, Lecture Notes in Physics **779**, Springer (2009) &lbrack;[doi:10.1007/978-3-642-00450-6](https://doi.org/10.1007/978-3-642-00450-6)&rbrack;
+
+Other accounts:
+
+* [[Lance Dixon]], [[Paul Ginsparg]], [[Jeffrey Harvey]], _$\hat c = 1$ Superconformal field theory_ ([pdf](http://www.slac.stanford.edu/cgi-wrap/getdoc/slac-pub-4515.pdf))
  
-* [[Yasuyuki Kawahigashi]], _$N = 2$ Superconformal Field Theory
-and Operator Algebras_ ([pdf](http://www.rci.rutgers.edu/~yzhuang/math/papers/kawahigashi.pdf))
+* [[Yasuyuki Kawahigashi]], _$\mathcal{N} = 2$ Superconformal Field Theory and Operator Algebras_ ([pdf](http://www.rci.rutgers.edu/~yzhuang/math/papers/kawahigashi.pdf))
 
 A hint for a relation to [[tmf]], vaguely in line with the lift of the [[Witten genus]] to the [[string orientation of tmf]]:
 
