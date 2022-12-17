@@ -8,8 +8,8 @@ $$
 $$
 In Sweedler notation, we also write $c\triangleright (ab) = 
 \sum (c_{(1)}\triangleright a)(c_{(2)}\triangleright b)$ and
-$c\triangleright 1_A = \epsilon(c) 1_A$.
-A [[Hopf action]] is a special case of measuring which is also an action of a <em> bimonoid </em> where $B=(C,\mu_C)$. In other words, $A$ is a monoid in the monoidal category of $B$-modules (also called $B$-module monoid or $B$-[[module algebra]]). Measurings are used to define the (cocycled) [[crossed product algebra]]s, see also [[cleft extension]] (of an algebra by a bialgebra). For measurings and module algebras see
+$c\triangleright 1_A = \epsilon(c) 1_A$. Note that $C$ is not a monoid so a measuring is not an action (although the notation may suggest this). However if $C$ is a bialgebra, we may consider when it is an action.
+A [[Hopf action]] is a measuring which is also an action of a <em> bimonoid </em> $B=(C,\Delta_C,\epsilon,\mu_C,\eta_C)$. In other words, $A$ is a monoid in the monoidal category of $B$-modules (also called $B$-module monoid or $B$-[[module algebra]]). Measurings are used to define the (cocycled) [[crossed product algebra]]s, see also [[cleft extension]] (of an algebra by a bialgebra). For measurings and module algebras see
 
 * S. Montgomery, Hopf algebras and their actions on rings, CBMS 82, AMS 1993.
 
