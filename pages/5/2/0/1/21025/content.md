@@ -11,25 +11,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 \linebreak
 
+\tableofcontents
 
-<div style="float:left;margin:0 10px 10px 10pc;">
-<a href="https://nyuadi.secure.force.com/Events/NYUEventRegistration?event=u2f8V99W_2FoUW_2FK0f7HydVQ_3D_3D">
-<img src="https://ncatlab.org/nlab/files/MTheoryAndMathematicsWorkshop.jpg" width="300">
-</a>
-</left>
-</div>
-
-<div style="float:right;margin:0 10px 10px 0;">
-<a href="https://nyuad.nyu.edu/en/institute-events.html">
-<img src="https://ncatlab.org/nlab/files/NYUADInstitute.jpg" width="170"/>
-</a>
-</div>
-
-\linebreak
-
-\linebreak
-
-\linebreak
 
 \linebreak
 
@@ -53,9 +36,11 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 </a>
 </center>
 
-> (title page adapted from [JMP **62** (2021) 042301](https://arxiv.org/abs/2002.11093))
+> $\phantom{-----}$ (logo adapted from [JMP **62** (2021) 042301](https://arxiv.org/abs/2002.11093))
 
-**Speakers**
+\linebreak
+
+**Speakers:**
 
 * [[Luigi Alfonsi]]
 
@@ -97,11 +82,32 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 * [[Alexander Voronov]]
 
+\linebreak
+
+
+**Abstracts, slides and talk notes:**
+
+...to appear here...
 
 
 \linebreak
 
+
+
+
+
+
+
+
 ## M-Theory and Mathematics 2020
+
+
+<div style="float:right;margin:0 10px 10px 0;">
+<a href="https://nyuad.nyu.edu/en/institute-events.html">
+<img src="https://ncatlab.org/nlab/files/NYUADInstitute.jpg" width="170"/>
+</a>
+</div>
+
 
 * January 27-30, 2020
 
@@ -173,7 +179,6 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 **Abstracts, Slides and Talk notes:**
  {#Abstracts2020}
 
-\linebreak
 
 * [[Bianca Cerchiai]]
 
