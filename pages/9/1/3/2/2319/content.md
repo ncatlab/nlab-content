@@ -34,14 +34,7 @@ $$
 
 Spin structures derive their name from the fact that their existence on a space $X$ make the [[quantum anomaly]] for spinning particles propagating on $X$ vanish. See there.
 
-### Algebraic definition
 
-Just like an [[orientation]] of a real vector space $V$ equipped with an [[inner product]]
-is an isometry between the top exterior power of $V$ and real numbers,
-a __spin structure__ on a real vector space $V$ equipped with an [[inner product]]
-is an isomorphism in the bicategory of algebras, bimodules, and intertwiners from the [[Clifford algebra]] of $V$ to the Clifford algebra of the real vector space $\mathbf{R}^n$ of the same dimension $n=\dim V$ with the canonical inner product.
-
-Spin structures naturally form a category, with morphisms being (isometric) isomorphisms of bimodules as described above.
 
 ## Definition
  {#Definition}
@@ -53,6 +46,8 @@ $$
 $$
 
 for the [[spin group]] [[group extension]] of the [[special orthogonal group]] in [[dimension]] $n$. (All of the following also applies verbatim for [[Lorentzian signature]]).
+
+### Topological
 
 +-- {: .num_defn }
 ###### Definition
@@ -188,7 +183,7 @@ Such a lift is a choice of _spin structure_ on $X$. Therefore as [[bundle gerbes
 
 
 
-From the perspective of lifting bundle gerbes, spin structures are discussed in ([Murray-Singer 03](#MurraySinger03)).
+From the perspective of lifting [[bundle gerbes]], spin structures are discussed in ([Murray-Singer 03](#MurraySinger03)).
 
 
 +-- {: .num_defn }
@@ -236,6 +231,18 @@ Beware that sometimes in the [[physics]] literature an $SO(n)$-[[principal conne
 
 
 =--
+
+
+
+### Algebraic
+ {#DefinitionAlgebraic}
+
+In analogy to how an [[orientation]] of a [[real vector space]] $V$ equipped with an [[inner product]]
+is equivalently an [[isometry]] between the [[determinant line|top exterior power]] of $V$ and the [[real numbers]],
+so a __spin structure__ on a [[real vector space]] $V$ equipped with an [[inner product]]
+is an [[isomorphism]] in the [[2-category]] of [[algebras]], [[bimodules]], and [[intertwiners]] (see [here](bimodule#AsMorphismsInA2Category)) from the [[Clifford algebra]] of $V$ to the Clifford algebra of the real vector space $\mathbf{R}^n$ of the same dimension $n=\dim V$ with the canonical inner product.
+
+Spin structures naturally form a [[category]], with [[morphisms]] being ([[isometry|isometric]]) isomorphisms of bimodules as described above.
 
 
 
