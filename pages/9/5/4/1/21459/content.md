@@ -44,7 +44,7 @@ Proccedings in:
 
 **Related events:
 
-* [[M-Theory and Mathematics]] 2020
+* *[[M-Theory and Mathematics]]*
 
 \linebreak
 
