@@ -68,6 +68,9 @@ See also
 
 * [[Michael Dine]], _Supersymmetry and string theory: beyond the standard model_, Cambridge University Press 2006, 2007
 
+* [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], *Basic Concepts of String Theory*, Theoretical and Mathematical Physics, Springer (2013) &lbrack;[doi:10.1007/978-3-642-29497-6](https://doi.org/10.1007/978-3-642-29497-6)&rbrack;
+
+
 * {#Kane17} [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
 
 
