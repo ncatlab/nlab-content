@@ -38,6 +38,8 @@ where it says (p. 213):
 
 > Several mathematicians have worked on the problem of proving the Verlinde formula, starting with $[$[TUY89](#TUY89)$]$ and coming to a certain end with $[$[Fal94](#Faltings94)$]$. These proofs are all quite difficult to understand.
 
+* [[Ralph Blumenhagen]], [[Erik Plauschinn]], §4.3 of: *Introduction to Conformal Field Theory -- With Applications to String Theory*, Lecture Notes in Physics **779**, Springer (2009) &lbrack;[doi:10.1007/978-3-642-00450-6](https://doi.org/10.1007/978-3-642-00450-6)&rbrack;
+
 
 Introduction:
 
