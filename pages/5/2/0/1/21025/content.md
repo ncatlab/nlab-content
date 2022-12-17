@@ -35,7 +35,6 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 
 
-
 \linebreak
 
 ## M-Theory and Mathematics 2023
