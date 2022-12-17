@@ -113,7 +113,13 @@ $$\frac{\Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\math
 Uniqueness rules for the symbol $B$:
 $$\frac{\Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash e:B \quad \Gamma, y:B \vdash u:C \quad \Gamma, a:A \vdash i_\mathrm{copy}(u):u[\mathrm{copy}(a)/y] =_{C[\mathrm{copy}(a)/y]} c[a/x]}{\Gamma \vdash \eta_{B}:u[e/z] =_{C[e/z]} \mathrm{ind}_{B}^C(c, e)}$$
 
-Unary sums results in defining $\mathrm{copy}$ to be a function with contractible fibers. 
+\begin{theorem}
+$\mathrm{copy}$ is an [[equivalence of types]] between $A$ and $B$. 
+\end{theorem}
+
+\begin{proof}
+Suppose one takes the type family $C$ in the elimination, computation, and uniqueness rules to be the type family $\sum_{x:A} \mathrm{copy}(x) =_B (-)$. Then the elimination rule states that $\sum_{x:A} \mathrm{copy}(x) =_B b$ has an element for all elements $b:B$, the computation rule states that given all elements $a:A$ the type $\sum_{x:A} \mathrm{copy}(x) =_B \mathrm{copy}(a)$ is contractible, and the uniqueness rule states that if the type $\sum_{x:A} \mathrm{copy}(x) =_B \mathrm{copy}(a)$ is contractible for all elements $a:A$, then the type $\sum_{x:A} \mathrm{copy}(x) =_B b$ is contractible for all elements $b:B$. Thus, $\mathrm{copy}$ is an [[equivalence of types]], since the type $\sum_{x:A} \mathrm{copy}(x) =_B b$ is contractible for all elements $b:B$. 
+\end{proof}
 
 ### Unary products
 
