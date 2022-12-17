@@ -342,6 +342,14 @@ Textbooks on [[string theory]] and [[M-theory]] include the following (for more 
 
   Les Houches  Session LXXXVII 2007
 
+
+* [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], 
+
+  *Basic Concepts of String Theory*, 
+
+  Springer (2013) &lbrack;[doi:10.1007/978-3-642-29497-6](https://doi.org/10.1007/978-3-642-29497-6)&rbrack;
+
+
 * [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ ,Proceedings of Symposia in Pure Mathematics, [volume 83](http://www.ams.org/bookstore?fn=20&arg1=pspumseries&ikey=PSPUM-83) AMS (2011)
 
 * [[Luis Ibáñez]], [[Angel Uranga]], 
