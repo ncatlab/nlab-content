@@ -25,12 +25,12 @@ where $\Omega(A, a)$ is the [[loop space type]] $a =_A a$ of $A$ at $a:A$.
 Product extensionality is the statement that the function $\mathrm{idstoproductid}(a, a', b, b')$ is an [[equivalence of types]] for all elements $a:A$, $a':A$ and $b:A$, $b':A$:
 $$\mathrm{prodext}(a, a', b, b'):\mathrm{isEquiv}(\mathrm{idtoprojectionids}(a, a', b, b'))$$
 
-\subsection{Definitional product extensionality}
+\subsection{Judgmental product extensionality}
 
-One could replace the equivalence of types above with a [[definitional equality]] of types, resulting in definitional product extensionality, that for all types $A$ and $B$ and elements $a:A$, $a':A$, $b:B$, and $b':B$, 
+One could replace the equivalence of types above with a [[judgmental equality]] of types, resulting in judgmental product extensionality, that for all types $A$ and $B$ and elements $a:A$, $a':A$, $b:B$, and $b':B$, 
 $$(a, b) =_{A \times B} (a', b') \equiv (a =_A a') \times (b =_B b')$$
 
-Definitional product extensionality holds in [[cubical type theory]] and [[higher observational type theory]]. 
+Judgmental product extensionality holds in [[cubical type theory]] and [[higher observational type theory]]. 
 
 \section{See also}
 
@@ -38,7 +38,7 @@ Definitional product extensionality holds in [[cubical type theory]] and [[highe
 
 \section{References}
 
-For definitional product extensionality in higher observational type theory, see
+For judgmental product extensionality in higher observational type theory, see
 
 * [[Mike Shulman]], *Towards a Third-Generation HOTT Part 1* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA))
 
