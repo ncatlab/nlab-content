@@ -32,6 +32,25 @@ $$(a, b) =_{A \times B} (a', b') \equiv (a =_A a') \times (b =_B b')$$
 
 Judgmental product extensionality holds in [[cubical type theory]] and [[higher observational type theory]]. 
 
+\subsection{Relation to dependent product extensionality}
+
+Product extensionality is equivalent to dependent product extensionality for dependent products indexed by the [[two-valued type]] $\mathbb{2}$. Indeed, given types $A$ and $B$, we can define a type family $C$ indexed by $\mathbb{2}$ as $C(0) \coloneqq A$ and $C(1) \coloneqq B$. Then $A \times B$ is the same as $\prod_{x:\mathbb{2}} C(x)$. 
+
+We define $c:\prod_{x:\mathbb{2}} C(x)$ and $c':\prod_{x:\mathbb{2}} C(x)$ by $c(0) \coloneqq a$, $c(1) \coloneqq b$, $c'(0) \coloneqq a'$, $c'(1) \coloneqq b'$. 
+
+There is a canonical function
+$$\mathrm{idstodepprodid}(c, c'):(c(0) =_{C(0)} c'(0)) \times (c(1) =_{C(1)} c'(1)) \to (c =_{\prod_{x:\mathbb{2}} C(x)} c')$$
+inductively defined by 
+$$\mathrm{idstodepprodid}(c, c)(\mathrm{refl}_{C(0)}(c(0)), \mathrm{refl}_{C(1)}(c(1))) \equiv \mathrm{refl}_{\prod_{x:\mathbb{2}} C(x)}(c):\Omega(\prod_{x:\mathbb{2}} C(x), c)$$
+where $\Omega(A, a)$ is the [[loop space type]] $a =_A a$ of $A$ at $a:A$. 
+
+We could also make $(c(0) =_{C(0)} c'(0)) \times (c(1) =_{C(1)} c'(1))$ into a dependent product as well, as $\left(\prod_{x:\mathbb{2}} (c(x) =_{C(x)} c'(x))\right)$, making the above function
+
+$$\mathrm{idstodepprodid}(c, c'):\left(\prod_{x:\mathbb{2}} (c(x) =_{C(x)} c'(x))\right) \to (c =_{\prod_{x:\mathbb{2}} C(x)} c')$$
+
+Product extensionality is the statement that the function $\mathrm{idstodepprodid}(c, c')$ is an [[equivalence of types]] for all elements $c:\prod_{x:\mathbb{2}} C(x)$ and $c':\prod_{x:\mathbb{2}} C(x)$:
+$$\mathrm{prodext}(c, c'):\mathrm{isEquiv}(\mathrm{idstodepprodid}(c, c'))$$
+
 \section{See also}
 
 * [[extensionality]]
