@@ -15,6 +15,10 @@ Discussion of [[pp-wave spacetimes]] as [[Penrose limits]] of [[anti de Sitter s
 
 * [[Nakwoo Kim]], Ari Pankiewicz, Soo-Jong Rey, [[Stefan Theisen]], _Superstring on PP-Wave Orbifold from Large-N Quiver Gauge Theory_, Eur. Phys. J. C25:327-332, 2002 ([arXiv:hep-th/0203080](https://arxiv.org/abs/hep-th/0203080))
 
+On [[string theory]]:
+
+* {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], *Basic Concepts of String Theory*, Theoretical and Mathematical Physics, Springer (2013) &lbrack;[doi:10.1007/978-3-642-29497-6](https://doi.org/10.1007/978-3-642-29497-6)&rbrack;
+
 
 On [[TT deformations]]:
 
