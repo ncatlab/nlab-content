@@ -98,7 +98,12 @@ Review:
 * [[Toshitake Kohno]], §1.5 and §2.1 in: *Conformal field theory and topology*, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. 2002 $[$[AMS:mmono-210](https://bookstore.ams.org/mmono-210)$]$
 
   > (relating to [[conformal blocks]] and [[braid representations]])
- 
+
+
+* [[Ralph Blumenhagen]], [[Erik Plauschinn]], §3.5 of: *Introduction to Conformal Field Theory -- With Applications to String Theory*, Lecture Notes in Physics **779**, Springer (2009) &lbrack;[doi:10.1007/978-3-642-00450-6](https://doi.org/10.1007/978-3-642-00450-6)&rbrack;
+
+  > (in view of [[2d CFT]] and [[string theory]])
+
 
 A quick review of the Knizhnik-Zamolodchikov equation in the context of an introduction to [[WZW model]] [[CFT]] is in  
 
