@@ -96,7 +96,9 @@ See also
 
 * {#RecknagelSchomerus99} [[Andreas Recknagel]], [[Volker Schomerus]], _Boundary Deformation Theory and Moduli Spaces of D-Branes_, Nucl.Phys. B545 (1999) 233-282 ([arXiv:hep-th/9811237](https://arxiv.org/abs/hep-th/9811237))
 
-A textbook account is in
+Textbook accounts
+
+* [[Ralph Blumenhagen]], [[Erik Plauschinn]], Chapter 6 of: *Introduction to Conformal Field Theory -- With Applications to String Theory*, Lecture Notes in Physics **779**, Springer (2009) &lbrack;[doi:10.1007/978-3-642-00450-6](https://doi.org/10.1007/978-3-642-00450-6)&rbrack;
 
 
 * {#RecknagelSchomerus13} [[Andreas Recknagel]], [[Volker Schomerus]], _Boundary Conformal Field Theory and the Worldsheet Approach to D-branes_, Cambridge 2013 ([spire:1308990](http://inspirehep.net/record/1308990))
