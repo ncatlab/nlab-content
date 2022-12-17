@@ -25,9 +25,9 @@ On [[fractional-level WZW models]] and [[logarithmic CFTs]]:
 * {#Gaberdiel01} [[Matthias R. Gaberdiel]], *An algebraic approach to logarithmic conformal field theory*, Int. J. Mod. Phys. A **18** (2003) 4593-4638 $[$[arXiv:hep-th/0111260](https://arxiv.org/abs/hep-th/0111260), [doi:10.1142/S0217751X03016860](https://doi.org/10.1142/S0217751X03016860)$]$
 
 
-On [[super-orbifolds]] as [[target spaces]] in [[superstring theory]] (orbi-[[superspace]]):
+On [[super-orbifolds]] as [[target spaces]] in [[superstring theory]] ([[orbispace|orbi-]][[superspace]]):
 
-* [[Matthias Gaberdiel]], Dan Israel, Eliezer Rabinovici, _D-branes at multicritical points_, JHEP 0804:086, 2008 ([arXiv:0803.0291](https://arxiv.org/abs/0803.0291))
+* [[Matthias Gaberdiel]], [[Dan Israel]], [[Eliezer Rabinovici]], _D-branes at multicritical points_, JHEP 0804:086, 2008 &lbrack;[arXiv:0803.0291](https://arxiv.org/abs/0803.0291)&rbrack;
 
 
 On [[higher spin gauge theory]]:
