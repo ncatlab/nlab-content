@@ -34,6 +34,8 @@ A [[category theory|category-theoretic]] explanation of this fact is that [[call
 
 * [[focusing]]
 
+* [[representability determines functoriality]]
+
 ## References
 
 * [[Noam Zeilberger]], _The Logical Basis of Evaluation Order and Pattern-Matching_, ([pdf](http://noamz.org/thesis.pdf))
