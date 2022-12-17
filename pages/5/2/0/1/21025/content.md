@@ -87,6 +87,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 * [[Urs Schreiber]]
 
+* [[Eric Sharpe]]
+
 * [[Richard Szabo]]
 
 * [[Meng-Chwan Tan]]
