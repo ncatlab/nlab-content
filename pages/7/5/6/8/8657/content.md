@@ -79,9 +79,9 @@ It is also possible to derive the [[monadicity theorem]] from the adjoint triang
 
 Generalizations of the adjoint triangle theorem to [[2-categories]] are considered in
 
-* Fernando Lucatelli Nunes, *On biadjoint triangles*, [TAC](http://tac.mta.ca/tac/volumes/31/9/31-09abs.html)
+* [[Fernando Lucatelli Nunes]], *On biadjoint triangles*, [TAC](http://tac.mta.ca/tac/volumes/31/9/31-09abs.html)
 
-* Fernando Lucatelli Nunes, *On lifting of biadjoints and lax algebras*, [arXiv](https://arxiv.org/abs/1607.03087)
+* [[Fernando Lucatelli Nunes]], *On lifting of biadjoints and lax algebras*, [arXiv](https://arxiv.org/abs/1607.03087)
 
 [[!redirects adjoint triangle]]
 [[!redirects adjoint triangles]]
