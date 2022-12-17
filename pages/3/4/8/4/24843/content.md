@@ -29,11 +29,16 @@ And in [[first order logic]] over [[type theory]], the contextual term eliminati
 
 $$\frac{\Gamma, z:A + B, \Delta \vert \Phi \vdash C \; \mathrm{type} \quad \Gamma, x:A, \Delta[\mathrm{inl}(x)/z] \vert \Phi[\mathrm{inl}(x)/z] \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B, \Delta[\mathrm{inr}(y)/z] \vert \Phi[\mathrm{inr}(y)/z] \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash e:A + B}{\Gamma, \Delta[e/z] \vert \Phi[e/z] \vdash \mathrm{ind}_{A + B}(z.C, x.c, y.d, e):C[e/z]}$$
 
-## See also
+## Related concepts
 
 * [[formation rule]], [[introduction rule]], [[conversion rule]]
+
 * [[beta-conversion]], [[eta-conversion]]
+
 * [[definition rule]]
+
+* [[polarity in type theory]]
+
 * [[equality]]
 
 ## References
@@ -46,6 +51,10 @@ where the term elimination rules are contextual term elimination rules.
 
 [[!redirects term elimination]]
 [[!redirects term elimination rule]]
+
+[[!redirects term eliminator]]
+[[!redirects term eliminators]]
+
 [[!redirects term elimination rules]]
 [[!redirects elimination rule]]
 [[!redirects elimination rules]]
