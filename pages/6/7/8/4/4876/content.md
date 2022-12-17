@@ -343,9 +343,15 @@ on [[quantization]] of the WZW model, see at
 
 * [[Gepner model]]
 
+
+
 ## References
  {#References}
 
+
+### Introduction and review
+
+* [[Lorenz Eberhardt]], *Wess-Zumino-Witten models*, lecture notes at *[YRISW 2019: A modern primer for 2D CFT](https://conf.itp.phys.ethz.ch/esi-school/)*, Vienna (2019) &lbrack;[pdf](https://conf.itp.phys.ethz.ch/esi-school/Lecture_notes/WZW%20models.pdf), [[Eberhardt-WZWModels.pdf:file]]&rbrack;
 
 
 [[!include WZW term of QCD chiral perturbation theory -- references]]
@@ -353,7 +359,7 @@ on [[quantization]] of the WZW model, see at
 
 ### Interpretation via CFT and gerbes
 
-Interpretation of the 3d WZW temr as defining a [[2d CFT]]
+Interpretation of the 3d WZW term as defining a [[2d CFT]]
 
 * {#Witten84} [[Edward Witten]], _Non-Abelian bosonization in two dimensions_ Commun. Math. Phys. 92, 455 (1984)
 
