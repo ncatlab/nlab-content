@@ -19,7 +19,7 @@ One can wonder when an expression of the form $lim colim$ can be replaced by an 
 
 ## Commutativity of limits and colimits
 
-[[Commutativity]] of limits and colimits refers to the situation
+__Commutativity of limits and colimits__ refers to the situation
 when we have a diagram $X\colon I\times J\to C$
 and the canonical morphism $colim_{i\in I} lim_{j\in J} X_{i,j} \to lim_{j\in J} colim_{i\in I} X_{i,j}$
 is an isomorphism (or an equivalence in the case of ∞-categories).
@@ -30,7 +30,7 @@ property holds.
 
 ## Distributivity of limits over colimits
 
-[[Distributivity]] of limits over colimits, in its
+__Distributivity of limits over colimits__, in its
 easiest possible formulation, is stated for $X$ as above,
 and requires the canonical map $colim_{i\in I^J} lim_{j\in J} X_{i(j),j} \to lim_{j\in J} colim_{i\in I} X_{i,j}$
 to be an isomorphism (or an equivalence in the case of ∞-categories).  Note that here $i$ is an element of the [[functor category]] $I^J$, and $i(j)$ denotes its value at $j\in J$.
@@ -44,3 +44,9 @@ this Grothendieck fibration.
 The article [[distributivity of limits over colimits]]
 explores the situations for which such a distributivity
 property holds.
+
+## Related concepts
+
+* [[commutativity of limits and colimits]]
+
+* [[distributivity of limits and colimits]]
