@@ -154,7 +154,7 @@ As a nontrivial example of the $K\colon I\to Cat$ case, let $I$ be the [[walking
 
 ## Related entries
 
-* [[commutativity of limits and colimits]]
+* [[commutativity of limits and colimits]], [[permuting limits and colimits]]
 * [[distributivity pullback]]
 * [[distributive law]]
 * [[distributivity for monoidal structures]]
