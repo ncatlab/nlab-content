@@ -14,7 +14,7 @@
 
 ## Idea
 
-In general, [[limit]]s and [[colimit]]s do not commute.  It is therefore of interest to list the special conditions under which certain limits do commute with certain colimits. (See also at *[[permuting of limits and colimits]]*.)
+In general, [[limit]]s and [[colimit]]s do not commute.  It is therefore of interest to list the special conditions under which certain limits do commute with certain colimits. (See also at *[[permuting limits and colimits]]*.)
 
 ## Definition
 
