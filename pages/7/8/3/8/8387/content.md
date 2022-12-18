@@ -55,6 +55,8 @@ A [[program]]. A construction of a [[term]] of some [[type]]. The topic of [[com
 
 ## References
 
+### General
+
 * [[Michael Sipser]], *Introduction to the Theory Of Computation*, 3rd ed: Cengage Learning (2012) &lbrack;ISBN:978-1-133-18779-0,[pdf](https://www.mog.dog/files/SP2019/Sipser_Introduction.to.the.Theory.of.Computation.3E.pdf), [pdf](https://fuuu.be/polytech/INFOF408/Introduction-To-The-Theory-Of-Computation-Michael-Sipser.pdf)&rbrack;
 
 An account with focus on [[programming languages]]:
@@ -63,7 +65,10 @@ An account with focus on [[programming languages]]:
 
 \linebreak
 
+
+### As path lifting
 {#ReferencesConceptualizationViaPathLifting}
+
 A conceptualization of computation as something at least close to [[path]]-[[lifting]] and/or as [[functors]] between [[path groupoids]] of [[topological spaces]] (a "semantical mapping" from an "action space" parameterizing the possible computing instructions to a "knowledge space" expressing their executions):
 
 * {#vanLeeuwen15} [[Jan van Leeuwen]], *The Philosophy of Computation*, p. xix-xxx in: Proceedings of *IIT.SRC 2015 -- Student Research Conference* Bratislava (2015) &lbrack;full proceedings: [pdf](http://www2.fiit.stuba.sk/iitsrc/iit-src2015-proceedings.pdf), [web](https://www.fiit.stuba.sk/iit-src2015/proceedings.html?page_id=4340); article: [pdf](https://webspace.science.uu.nl/~leeuw112/Bratislava-2015.pdf); slides: [pdf](https://www.fiit.stuba.sk/buxus/docs/IIT.SRC/2015/iit-src-2015_leeuwen_philosophy-of-computation.pdf)&rbrack;
@@ -105,6 +110,11 @@ A conceptualization of computation as something at least close to [[path]]-[[lif
 * {#vanLeeuwenWiedermann19} [[Jan van Leeuwen]], [[Jiří Wiedermann]], *Understanding Computation -- A General Theory of Computational Processes*, Technical Report UU-CS-2019-012, Utrecht University (2019) &lbrack;[dspace:1874/390075](https://dspace.library.uu.nl/handle/1874/390075), [pdf](http://www.cs.uu.nl/research/techreps/repo/CS-2019/2019-012.pdf), [pdf](https://dspace.library.uu.nl/bitstream/handle/1874/390075/2019_012.pdf?sequence=1&isAllowed=y)&rbrack;
 
 
+Related discussion for [[quantum computation]], with [[quantum circuits]] regarded as paths:
+
+* {#NielsenDowlingGuDoherty06} [[Michael A. Nielsen]], [[Mark R. Dowling]], [[Mile Gu]], [[Andrew C. Doherty]], *Quantum Computation as Geometry*, Science, **311** 5764 (2006) 1133-1135 &lbrack;[doi:10.1126/science.1121541](https://doi.org/10.1126/science.1121541), [arXiv:quant-ph/0603161](https://arxiv.org/abs/quant-ph/0603161)&rbrack; 
+
+* [[Mark R. Dowling]], [[Michael A. Nielsen]], *The geometry of quantum computation*, Quantum Information & Computation **8** 10 (2008) 861–899 &lbrack;[doi:10.5555/2016985.2016986](https://dl.acm.org/doi/abs/10.5555/2016985.2016986), [arXiv:quant-ph/0701004](https://arxiv.org/abs/quant-ph/0701004)&rbrack;
 
 
 [[!redirects computations]]
