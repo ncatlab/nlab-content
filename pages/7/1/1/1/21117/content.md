@@ -446,7 +446,7 @@ In relation to continuous symmetries:
 
 Further developments:
 
-* Mackenzie H. Shaw, Andrew C. Doherty, Arne L. Grimsmo, *Stabilizer subsystem decompositions for single- and multi-mode Gottesman-Kitaev-Preskill codes* &lbrack;[arXiv:2210.14919](https://arxiv.org/abs/2210.14919)&rbrack;
+* Mackenzie H. Shaw, [[Andrew C. Doherty]], Arne L. Grimsmo, *Stabilizer subsystem decompositions for single- and multi-mode Gottesman-Kitaev-Preskill codes* &lbrack;[arXiv:2210.14919](https://arxiv.org/abs/2210.14919)&rbrack;
 
 On relevant classical control mechanisms:
 
