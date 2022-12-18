@@ -125,9 +125,7 @@ $$\beta_{\mathrm{idstoprodid}}(a, b):\mathrm{idstoprodid}(a, a, b, b)(\mathrm{re
 
 For all elements $c:A \times B$ and $c':A \times B$, the composition of functions 
 $$\mathrm{idstoprodid}(\pi_1(c), \pi_1(c'), \pi_2(c), \pi_2(c')) \circ \mathrm{idtoprodofids}(c, c')$$ 
-has domain $c =_{A \times B} c'$ and codomain $(\pi_1(c), \pi_2(c)) =_{A \times B} (\pi_1(c'), \pi_2(c'))$, and the composition of functions 
-$$\mathrm{idtoprodofids}(c, c') \circ \mathrm{idstoprodid}(\pi_1(c), \pi_1(c'), \pi_2(c), \pi_2(c'))$$ 
-has domain $(\pi_1(c), \pi_2(c)) =_{A \times B} (\pi_1(c'), \pi_2(c'))$ and codomain $c =_{A \times B} c'$. 
+has domain $c =_{A \times B} c'$ and codomain $(\pi_1(c), \pi_2(c)) =_{A \times B} (\pi_1(c'), \pi_2(c'))$. 
 
 By the uniqueness rule for the negative product type, there are identities $\eta_{\times}(c):c =_{A \times B} (\pi_1(c), \pi_2(c))$ and $\eta_{\times}(c'):c' =_{A \times B} (\pi_1(c'), \pi_2(c'))$, and thus, for all identities $p:c =_{A \times B} c'$, there are identities
 
@@ -137,15 +135,25 @@ $$
           &c' & \underset{\eta_{\times}(c')}= & (\pi_1(c'), \pi_2(c')) & \\
 }$$
 
-and for all identities $q:(\pi_1(c), \pi_2(c)) =_{A \times B} (\pi_1(c'), \pi_2(c'))$, there are identities
+For all elements $a:A$, $a':A$, and $b:B$, $b':B$, the composition of functions 
+$$\mathrm{idtoprodofids}((a, b), (a', b')) \circ \mathrm{idstoprodid}(a, a', b, b')$$ 
+has domain $(a =_A a') \times (b =_B b')$ and codomain $(\pi_1((a, b)) =_A \pi_1((a', b'))) \times (\pi_2((a, b)) =_B \pi_2((a', b')))$. 
+
+By the computation rules of the negative product type, there are identities $\beta_{\times 1}(a, b):\pi_1((a, b)) =_A a$, $\beta_{\times 2}(a, b):\pi_2((a, b)) =_A b$, $\beta_{\times 1}(a', b'):\pi_1((a', b')) =_A a'$, and $\beta_{\times 2}(a', b'):\pi_2((a', b')) =_A b'$, and for all pairs of identities $q:(a =_A a') \times (b =_B b')$, there are identities
 
 $$
-  \array{& c & \overset{\eta_{\times}(c)}= & (\pi_1(c), \pi_2(c)) & \\
-          \mathrm{idtoprodofids}(c, c')(\mathrm{idstoprodid}(\pi_1(c), \pi_1(c'), \pi_2(c), \pi_2(c'))(q)) & \Vert & \leftarrow & \Vert & q\\
-          &c' & \underset{\eta_{\times}(c')}= & (\pi_1(c'), \pi_2(c')) & \\
+  \array{& a & \overset{\beta_{\times 1}(a, b)^{-1}}= & \pi_1((a, b)) & \\
+          \pi_1(q) & \Vert & \rightarrow & \Vert & \pi_1(\mathrm{idtoprodofids}((a, b), (a', b'))(\mathrm{idstoprodid}(a, a', b, b')(q)))\\
+          &a' & \underset{\beta_{\times 1}(a', b')^{-1}}= & \pi_1((a', b')) & \\
 }$$
 
-Both of these square are in general not [[commutative squares]], which means these two functions are merely [[quasi-inverse functions]] of each other. In the context of [[axiom K]]/[[UIP]], these become [[inverse functions]] of each other, and in the context of [[function extensionality]], both functions become [[equivalences of types]], and thus the negative product type satisfies [[product extensionality]]. 
+$$
+  \array{& b & \overset{\beta_{\times 2}(a, b)^{-1}}= & \pi_2((a, b)) & \\
+          \pi_2(q) & \Vert & \rightarrow & \Vert & \pi_2(\mathrm{idtoprodofids}((a, b), (a', b'))(\mathrm{idstoprodid}(a, a', b, b')(q)))\\
+          &b' & \underset{\beta_{\times 2}(a', b')^{-1}}= & \pi_2((a', b')) & \\
+}$$
+
+Both of these square are in general not [[commutative squares]]. 
 
 ### In lambda-calculus
 
