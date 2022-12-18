@@ -1,4 +1,8 @@
-
+$$
+  \array{& X & \overset{f}= & Z & \\
+          g & \Vert && \Vert & g'\\
+          &Y & \underset{f'}= & W & \\
+}$$
 
 <center>
 <img src="https://ncatlab.org/nlab/files/AbuDhabiTheorPhysMeetingTitle.jpg" width="700"/>
