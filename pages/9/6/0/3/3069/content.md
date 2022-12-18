@@ -319,3 +319,6 @@ Discussion for [[Goursat categories]]:
 
 [[!redirects Beck-Chevalley relation]]
 [[!redirects Beck-Chevalley relations]]
+
+[[!redirects Beck-Chevalley]]
+
