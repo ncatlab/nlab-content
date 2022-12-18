@@ -66,11 +66,11 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}
 
 * Computation rules for product types:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma\vdash B \; \mathrm{type}}{\Gamma, x:A, y:B \vdash \beta_{\Sigma 1}(x, y):\pi_1((x, y)) =_A x} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, x:A, y:B \vdash \beta_{\Sigma 2}(x, y):\pi_2((x, y)) =_{B} y}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma\vdash B \; \mathrm{type}}{\Gamma, x:A, y:B \vdash \beta_{\times 1}(x, y):\pi_1((x, y)) =_A x} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, x:A, y:B \vdash \beta_{\times 2}(x, y):\pi_2((x, y)) =_{B} y}$$
 
 * Uniqueness rules for product types:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, z:A \times B \vdash \eta_{\Sigma}(z):z =_{A \times B} (\pi_1(z), \pi_2(z))}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, z:A \times B \vdash \eta_{\times}(z):z =_{A \times B} (\pi_1(z), \pi_2(z))}$$
 
 Given a [[pointed type|pointed]] [[h-proposition]] $(A, a)$, the negative product type results in $\pi_2(a,-)$ being a [[quasi-inverse function]] of $(a,-)$, rather than an [[equivalence of types]]. Thus, the positive definition is preferred to the negative definition. Alternatively, the negative product type should be defined as a [[coinductive type]] rather than an [[inductive type]]. 
 
@@ -104,6 +104,48 @@ $$\frac{\Gamma, x:\mathbb{2} \vdash c:C \quad \Gamma \vdash p:\mathbb{2}}{\Gamma
 
 Uniqueness rules for product types:
 $$\frac{\Gamma \vdash z:C(0) \times C(1)}{\Gamma \vdash \eta_\Pi(z):z =_{C(0) \times C(1)} \lambda(x).z(x)}$$
+
+#### Properties
+
+Suppose $A$ and $B$ are types and $A \times B$ is the negative product type of $A$ and $B$. Then for all elements $c:A \times B$ and $c':A \times B$, there is a function 
+$$\mathrm{idtoprodofids}(c, c'):(c =_{A \times B} c') \to \left((\pi_1(c) =_A \pi_1(c')) \times (\pi_2(c) =_B \pi_2(c'))\right)$$ 
+There are functions $\mathrm{ap}_{\pi_1}(c, c'):(c =_{A \times B} c') \to (\pi_1(c) =_A \pi_1(c'))$ and $\mathrm{ap}_{\pi_2}(c, c'):(c =_{A \times B} c') \to (\pi_2(c) =_B \pi_2(c'))$ which are the [[action on identities]] for the product projections $\pi_1$ and $\pi_2$, which means for all identities $p:c =_{A \times B} c'$, there are identities 
+$$\mathrm{ap}_{\pi_1}(c, c')(p):\pi_1(c) =_A \pi_1(c')$$ 
+$$\mathrm{ap}_{\pi_2}(c, c')(p):\pi_2(c) =_A \pi_2(c')$$ 
+Then, by the introduction rule for products, one could form the pair 
+$$(\mathrm{ap}_{\pi_1}(c, c')(p), \mathrm{ap}_{\pi_2}(c, c')(p))$$
+with identites
+$$\delta(c, c', p):\mathrm{idtoprodofids}(c, c')(p) =_{(\pi_1(c) =_A \pi_1(c')) \times (\pi_2(c) =_B \pi_2(c'))} (\mathrm{ap}_{\pi_1}(c, c')(p), \mathrm{ap}_{\pi_2}(c, c')(p))$$ 
+for all $p:c =_{A \times B} c'$. 
+
+Similarly, for all elements $a:A$, $a':A$, $b:B$, $b':B$, there is a function 
+$$\mathrm{idstoprodid}(a, a', b, b'):\left(a =_A a') \times (b =_B b')\right) \to ((a, b) =_{A \times B} (a', b')$$
+inductively defined by the identities 
+$$\beta_{\mathrm{idstoprodid}}(a, b):\mathrm{idstoprodid}(a, a, b, b)(\mathrm{refl}_{A}(a), \mathrm{refl}_{B}(b)) =_{(a, b) =_{A \times B} (a, b)} \mathrm{refl}_{A \times B}((a, b)))$$
+
+For all elements $c:A \times B$ and $c':A \times B$, the composition of functions 
+$$\mathrm{idstoprodid}(\pi_1(c), \pi_1(c'), \pi_2(c), \pi_2(c')) \circ \mathrm{idtoprodofids}(c, c')$$ 
+has domain $c =_{A \times B} c'$ and codomain $(\pi_1(c), \pi_2(c)) =_{A \times B} (\pi_1(c'), \pi_2(c'))$, and the composition of functions 
+$$\mathrm{idtoprodofids}(c, c') \circ \mathrm{idstoprodid}(\pi_1(c), \pi_1(c'), \pi_2(c), \pi_2(c'))$$ 
+has domain $(\pi_1(c), \pi_2(c)) =_{A \times B} (\pi_1(c'), \pi_2(c'))$ and codomain $c =_{A \times B} c'$. 
+
+By the uniqueness rule for the negative product type, there are identities $\eta_{\times}(c):c =_{A \times B} (\pi_1(c), \pi_2(c))$ and $\eta_{\times}(c'):c' =_{A \times B} (\pi_1(c'), \pi_2(c'))$, and thus, for all identities $p:c =_{A \times B} c'$, there are identities
+
+$$
+  \array{& c & \overset{\eta_{\times}(c)}= & (\pi_1(c), \pi_2(c)) & \\
+          p & \Vert & \rightarrow & \Vert & \mathrm{idstoprodid}(\pi_1(c), \pi_1(c'), \pi_2(c), \pi_2(c'))(\mathrm{idtoprodofids}(c, c')(p))\\
+          &c' & \underset{\eta_{\times}(c')}= & (\pi_1(c'), \pi_2(c')) & \\
+}$$
+
+and for all identities $q:(\pi_1(c), \pi_2(c)) =_{A \times B} (\pi_1(c'), \pi_2(c'))$, there are identities
+
+$$
+  \array{& c & \overset{\eta_{\times}(c)}= & (\pi_1(c), \pi_2(c)) & \\
+          \mathrm{idtoprodofids}(c, c')(\mathrm{idstoprodid}(\pi_1(c), \pi_1(c'), \pi_2(c), \pi_2(c'))(q)) & \Vert & \leftarrow & \Vert & q\\
+          &c' & \underset{\eta_{\times}(c')}= & (\pi_1(c'), \pi_2(c')) & \\
+}$$
+
+Both of these square are in general not [[commutative squares]], which means these two functions are merely [[quasi-inverse functions]] of each other. In the context of [[axiom K]]/[[UIP]], these become [[inverse functions]] of each other, and in the context of [[function extensionality]], both functions become [[equivalences of types]], and thus the negative product type satisfies [[product extensionality]]. 
 
 ### In lambda-calculus
 
