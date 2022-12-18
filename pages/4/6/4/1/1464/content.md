@@ -14,7 +14,7 @@
 
 ## Idea
 
-In general, [[limit]]s and [[colimit]]s do not commute.  It is therefore of interest to list the special conditions under which certain limits do commute with certain colimits. 
+In general, [[limit]]s and [[colimit]]s do not commute.  It is therefore of interest to list the special conditions under which certain limits do commute with certain colimits. (See also at *[[permuting of limits and colimits]]*.)
 
 ## Definition
 
@@ -94,8 +94,10 @@ In general, for any class of limits $\Phi$, one may consider the class of all co
 
 ## Related concepts
 
-* [[distributivity of limits over colimits]]
+* [[distributivity of limits over colimits]], [[permuting limits and colimits]]
+
 * [[pullback-stable colimit]]
+
 * [[absolute colimits]]
 
 ## References
