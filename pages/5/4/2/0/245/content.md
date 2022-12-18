@@ -228,6 +228,10 @@ For an elementary introduction to braided monoidal categories using [[string dia
 Eventually we should include all these diagrams here, along with the definition of braided monoidal functor and braided monoidal natural transformation!  Can anyone help out?
 =--
 
+A generalisation of braidings to *lax braidings*, where $B$ is not required to be invertible, is described in:
+
+* [[Brian Day]], [[Elango Panchadcharam]], and [[Ross Street]]. _Lax braidings and the lax centre_. Contemporary Mathematics 441 (2007): 1.
+
 
 [[!redirects braided monoidal category]]
 [[!redirects braided monoidal categories]]
