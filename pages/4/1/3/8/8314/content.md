@@ -118,7 +118,7 @@ $$
 
 ### Linear representations
 
-We discuss some of the [[representation theory]] of cyclic grou
+We discuss some of the [[representation theory]] of cyclic groups.
 
 +-- {: .num_example #IrreducibleRealRepresentationsOfCyclicGroups}
 ###### Example
