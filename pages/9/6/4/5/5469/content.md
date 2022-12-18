@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -20,7 +19,7 @@
 
 ## Definition
 
-A [[sheaf topos]] $\mathcal{E}$ is called **strongly connected** if it is a [[locally connected topos]]
+A [[sheaf topos]] $\mathcal{E}$ is called **stably locally connected** if it is a [[locally connected topos]]
 
 $$
   (\Pi_0 \dashv \Delta \dashv \Gamma) : \mathcal{E} \stackrel{\overset{\Pi_0}{\longrightarrow}}{\stackrel{\overset{\Delta}{\longleftarrow}}{\underset{\Gamma}{\longrightarrow}}} Set
@@ -32,19 +31,7 @@ This means it is in particular also a [[connected topos]].
 
 If $\Pi_0$ preserves even all [[finite limit]]s then $\mathcal{E}$ is called a [[totally connected topos]].
 
-If a strongly connected topos is also a [[local topos]], then it is a [[cohesive topos]].
-
-## Terminology
- {#Terminology}
-
-The "strong" in "strongly connected" may be read as referring to $f_! \dashv f^*$ being a [[strong adjoint functor|strong adjunction]] in that we have a [[natural isomorphism]] for the [[internal homs]] in the sense that
-
-$$
-  [f_! X, A] \simeq f_* [X, f^* A]  
-  \,.
-$$
-
-This follows already for $f$ [[connected geometric morphism|connected]] and [[essential geometric morphism|essential]] if $f_!$ preserves products, because this already implies the equivalent [[Frobenius reciprocity]] isomorphism. See [here](http://ncatlab.org/nlab/show/locally%20connected%20geometric%20morphism#StrongAdjunctions) for more.
+If a stably locally connected topos is also a [[local topos]], then it is a [[cohesive topos]].
 
 
 
@@ -54,7 +41,7 @@ This follows already for $f$ [[connected geometric morphism|connected]] and [[es
 
   * [[connected topos]] / [[∞-connected (∞,1)-topos]]
 
-  * **strongly connected topos** / [[strongly ∞-connected (∞,1)-topos]]
+  * **stably locally connected topos** / [[strongly ∞-connected (∞,1)-topos]]
 
   * [[totally connected topos]] / [[totally ∞-connected (∞,1)-topos]]
 
@@ -73,7 +60,15 @@ and
 * [[cohesive site]]
 
 
+## References
 
+* [[Peter Johnstone]]. _Remarks on punctual local connectedness_. Theory and Application of Categories 25.3 (2011): 51-63. ([TAC](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
+
+[[!redirects stably locally connected toposes]]
+[[!redirects stably locally connected topoi]]
+[[!redirects stably locally connected geometric morphism]]
+
+[[!redirects strongly connected topos]]
 [[!redirects strongly connected toposes]]
 [[!redirects strongly connected topoi]]
 [[!redirects strongly connected geometric morphism]]
