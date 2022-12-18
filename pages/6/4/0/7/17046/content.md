@@ -37,7 +37,8 @@ when we have a [[diagram]] of the form
 
 and the canonical morphism 
 
-$$
+\[
+  \label{ComparisonMapForCommutativity}
   \underset
     {i\in I}
     {colim}
@@ -57,7 +58,8 @@ $$
     {colim}
   \;
   X_{i,j}
-$$
+\]
+
 is an [[isomorphism]] (or an [[equivalence in an (infinity,1)-category|equivalence]] in the case of [[(infinity,1)-category|∞-categories]]).
 
 This situation is discussed at *[[commutativity of limits and colimits]]*
@@ -69,7 +71,8 @@ __Distributivity of limits over colimits__, in its
 easiest possible formulation, is stated for $X$ as above (eq:TheDiagram),
 and requires the canonical map 
 
-$$
+\[
+  \label{ComparisonMapForPermutativity}
   \underset
     {i\in I^J}
     {colim}
@@ -88,8 +91,9 @@ $$
     {i\in I}
     {colim}
   X_{i,j}
-$$
-to be an [[isomorphism]] (or an [[equivalence in an (infinity,1)-category|equivalence]] in the case of [[(infinity,1)-categories|∞-categories]]). Here (on the left) $i$ is an element of the [[functor category]] $I^J$, and $i(j)$ denotes its value at $j\in J$.
+\]
+
+{#WhereNow} to be an [[isomorphism]] (or an [[equivalence in an (infinity,1)-category|equivalence]] in the case of [[(infinity,1)-categories|∞-categories]]), where now -- on the left of (eq:ComparisonMapForPermutativity) -- $i$ is an [[object]] of the [[functor category]] $I^J$, and $i(j)$ denotes the value of this [[functor]] at $j\in J$.
 
 More generally, one may allow the indexing category $I$
 to depend on $j\in J$, in that the functor $I\times J\to J$
