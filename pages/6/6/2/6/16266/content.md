@@ -18,7 +18,7 @@
 
 In elementary algebra (or more generally in a [[ring]]), [[multiplication]] distributes over [[addition]], meaning that
 $$ a\cdot (b+c) = (a\cdot b) + (a\cdot c)$$
-and dually.  Since multiplication and addition are a [[decategorification]] of [[products]] and [[coproducts]] in a category, we can categorify this relationship to say what it means for products to distribute over coproducts in any category.  More generally, we can talk about arbitrary [[limits]] distributing over [[colimits]].  Note that this is *not* the same as limits [[commutativity of limits and colimits|commuting]] with colimits, although in some cases they are related.
+and dually.  Since multiplication and addition are a [[decategorification]] of [[products]] and [[coproducts]] in a category, we can categorify this relationship to say what it means for products to distribute over coproducts in any category.  More generally, we can talk about arbitrary [[limits]] distributing over [[colimits]].  Note that this is *not* the same as limits [[commutativity of limits and colimits|commuting]] with colimits, although in some cases they are related (see at *[[permuting limits and colimits]]* for more).
 
 ## Definitions
 
