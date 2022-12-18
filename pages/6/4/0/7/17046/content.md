@@ -89,7 +89,7 @@ $$
     {colim}
   X_{i,j}
 $$
-to be an [[isomorphism]] (or an [[equivalence in an (infinity,1)-category|equivalence]] in the case of [[(infinity,1)-categories|∞-categories]]). Here $i$ is an element of the [[functor category]] $I^J$, and $i(j)$ denotes its value at $j\in J$.
+to be an [[isomorphism]] (or an [[equivalence in an (infinity,1)-category|equivalence]] in the case of [[(infinity,1)-categories|∞-categories]]). Here (on the left) $i$ is an element of the [[functor category]] $I^J$, and $i(j)$ denotes its value at $j\in J$.
 
 More generally, one may allow the indexing category $I$
 to depend on $j\in J$, in that the functor $I\times J\to J$
