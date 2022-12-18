@@ -142,15 +142,15 @@ has domain $(a =_A a') \times (b =_B b')$ and codomain $(\pi_1((a, b)) =_A \pi_1
 By the computation rules of the negative product type, there are identities $\beta_{\times 1}(a, b):\pi_1((a, b)) =_A a$, $\beta_{\times 2}(a, b):\pi_2((a, b)) =_A b$, $\beta_{\times 1}(a', b'):\pi_1((a', b')) =_A a'$, and $\beta_{\times 2}(a', b'):\pi_2((a', b')) =_A b'$, and for all pairs of identities $q:(a =_A a') \times (b =_B b')$, there are identities
 
 $$
-  \array{& a & \overset{\beta_{\times 1}(a, b)^{-1}}= & \pi_1((a, b)) & \\
-          \pi_1(q) & \Vert & \rightarrow & \Vert & \pi_1(\mathrm{idtoprodofids}((a, b), (a', b'))(\mathrm{idstoprodid}(a, a', b, b')(q)))\\
-          &a' & \underset{\beta_{\times 1}(a', b')^{-1}}= & \pi_1((a', b')) & \\
+  \array{& \pi_1((a, b)) & \overset{\beta_{\times 1}(a, b)}= & a & \\
+          \pi_1(\mathrm{idtoprodofids}((a, b), (a', b'))(\mathrm{idstoprodid}(a, a', b, b')(q))) & \Vert & \leftarrow & \Vert & \pi_1(q) \\
+          & \pi_1((a', b')) & \underset{\beta_{\times 1}(a', b')}= & a' & \\
 }$$
 
 $$
-  \array{& b & \overset{\beta_{\times 2}(a, b)^{-1}}= & \pi_2((a, b)) & \\
-          \pi_2(q) & \Vert & \rightarrow & \Vert & \pi_2(\mathrm{idtoprodofids}((a, b), (a', b'))(\mathrm{idstoprodid}(a, a', b, b')(q)))\\
-          &b' & \underset{\beta_{\times 2}(a', b')^{-1}}= & \pi_2((a', b')) & \\
+  \array{& \pi_2((a, b)) & \overset{\beta_{\times 2}(a, b)}= & b & \\
+          \pi_2(\mathrm{idtoprodofids}((a, b), (a', b'))(\mathrm{idstoprodid}(a, a', b, b')(q))) & \Vert & \leftarrow & \Vert & \pi_2(q) \\
+          & \pi_2((a', b')) & \underset{\beta_{\times 2}(a', b')}= & b' & \\
 }$$
 
 Both of these square are in general not [[commutative squares]]. 
