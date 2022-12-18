@@ -188,6 +188,14 @@ satisfying analogues of the associativity and unit conditions.  Note that is is 
 
 satisfying suitable equations.  If $D$ is vertically discrete, i.e. just a bicategory $B$ with no nonidentity vertical arrows, then this is just the same as a $B$-functor as defined above.  However, for many $D$ this notion of functor is more general and natural.
 
+### Other bases of enrichment
+
+It is possible to generalise the above further to enrichment in [[virtual double categories]] (see [Leinster (2002)](#Leinster02)), which generalises enrichment in a [[multicategory]].
+
+Other kinds of enrichment:
+
+- Enrichment in a [[closed category]] (though this is subsumed by enrichment in a (closed) multicategory).
+- Enrichment in a [[skew-monoidal category]].
 
 ## Change of enriching category {#BaseChange}
 
@@ -344,7 +352,7 @@ Vista of some modern generalizations is in
 
 * [[Tom Leinster]], _Generalized enrichment for categories and multicategories_,  [math.CT/9901139](http://arxiv.org/abs/math.CT/9901139)
 
-* [[Tom Leinster]], _Generalized enrichment of categories_, Journal of Pure and Applied Algebra __168__ (2002), no. 2-3, 391-406, [math.CT/0204279](http://arxiv.org/abs/math.CT/0204279)
+* {#Leinster02} [[Tom Leinster]], _Generalized enrichment of categories_, Journal of Pure and Applied Algebra __168__ (2002), no. 2-3, 391-406, [math.CT/0204279](http://arxiv.org/abs/math.CT/0204279)
 
 * John Armstrong, _[Enriched categories](http://unapologetic.wordpress.com/2007/08/13/enriched-categories/)_
 
