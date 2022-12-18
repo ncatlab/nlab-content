@@ -1,5 +1,3 @@
-[[!redirects pullback-power]]
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -84,5 +82,3 @@ into the evident [[fiber product]] on the right.
 
 [[!redirects pullback hom]]
 [[!redirects pullback-hom]]
-
-
