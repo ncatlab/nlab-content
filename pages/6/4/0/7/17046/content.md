@@ -9,41 +9,93 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-One can wonder when an expression of the form $lim colim$ can be replaced by an expression of the form $colim lim$, i.e., under which circumstances [[limits]] and [[colimits]] can be permuted.
+In [[category theory]] one may ask when an expression of the form "$lim \, colim$" can be replaced by an expression of the form "$colim \, lim$", i.e., under which circumstances [[limits]] and [[colimits]] can be "permuted".
+
+There are (at least) two different types of such "permutation" of limits and colimits:
+
+- [commutativity](#Commutativity),
+
+- [distributivity](#Distributivity):
 
 ## Commutativity of limits and colimits
+ {#Commutativity}
 
 __Commutativity of limits and colimits__ refers to the situation
-when we have a diagram $X\colon I\times J\to C$
-and the canonical morphism $colim_{i\in I} lim_{j\in J} X_{i,j} \to lim_{j\in J} colim_{i\in I} X_{i,j}$
-is an isomorphism (or an equivalence in the case of ∞-categories).
+when we have a [[diagram]] of the form 
 
-The article [[commutativity of limits and colimits]]
-explores the situations for which such a commutativity
-property holds.
+\[
+  \label{TheDiagram}
+  X \,\colon\, I\times J\to C
+\]
+
+and the canonical morphism 
+
+$$
+  \underset
+    {i\in I}
+    {colim}
+  \;
+  \underset
+    {j\in J}
+    {lim} 
+  \;
+  X_{i,j} 
+  \longrightarrow 
+  \underset
+    {j\in J}
+    {lim}
+  \;
+  \underset
+    {i\in I}
+    {colim}
+  \;
+  X_{i,j}
+$$
+is an [[isomorphism]] (or an [[equivalence in an (infinity,1)-category|equivalence]] in the case of [[(infinity,1)-category|∞-categories]]).
+
+This situation is discussed at *[[commutativity of limits and colimits]]*
 
 ## Distributivity of limits over colimits
+ {#Distributivity}
 
 __Distributivity of limits over colimits__, in its
-easiest possible formulation, is stated for $X$ as above,
-and requires the canonical map $colim_{i\in I^J} lim_{j\in J} X_{i(j),j} \to lim_{j\in J} colim_{i\in I} X_{i,j}$
-to be an isomorphism (or an equivalence in the case of ∞-categories).  Note that here $i$ is an element of the [[functor category]] $I^J$, and $i(j)$ denotes its value at $j\in J$.
+easiest possible formulation, is stated for $X$ as above (eq:TheDiagram),
+and requires the canonical map 
+
+$$
+  \underset
+    {i\in I^J}
+    {colim}
+  \;
+  \underset
+    {j\in J}
+    {lim}
+  \;
+  X_{i(j),j} 
+  \longrightarrow 
+  \underset
+    {j\in J}
+    {lim}
+  \;
+  \underset
+    {i\in I}
+    {colim}
+  X_{i,j}
+$$
+to be an [[isomorphism]] (or an [[equivalence in an (infinity,1)-category|equivalence]] in the case of [[(infinity,1)-categories|∞-categories]]). Here $i$ is an element of the [[functor category]] $I^J$, and $i(j)$ denotes its value at $j\in J$.
 
 More generally, one may allow the indexing category $I$
-to depend on $j\in J$, i.e., the functor $I\times J\to J$
-is replaced by some arbitrary [[Grothendieck fibration]] in categories.
-Then $I^J$ is replaced by the category of sections of
-this Grothendieck fibration.
+to depend on $j\in J$, in that the functor $I\times J\to J$
+is replaced by some arbitrary [[Grothendieck fibration]] in categories and $I^J$ by the category of its [[sections]].
 
-The article [[distributivity of limits over colimits]]
-explores the situations for which such a distributivity
-property holds.
+This situation is discussed at *[[distributivity of limits over colimits]]*.
 
 ## Related concepts
 
