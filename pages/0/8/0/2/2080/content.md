@@ -65,7 +65,7 @@ In [[type theory]]
 
 * a _conditional statement_ is, under [[propositions-as-types]] a [[function type]] $p \to q$ (or the [[bracket type]] thereof).
 
-* an _entailment_ is a [[hypothetical judgement]]/[[sequent]].
+* an _entailment_ is a [[hypothetical judgement]] or [[sequent]].
 
 ## Related concepts
 
