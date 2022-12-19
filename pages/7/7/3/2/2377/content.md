@@ -393,6 +393,28 @@ We now define a **relation** $A\looparrowright B$ to be a subset of $A\times B$.
 
 Applying separation to subsets of $A\times B$ and composing $i$ with the product projections, we recover Axiom 2 (tabulations).  We can now go on with the subsequent axioms stated in the same way as before.
 
+### SEPAF: Using pairs and functions instead of relations
+
+One could use functions instead of relations. Sets and elements are as before. A function $f:A \to B$ depends on two sets $A$ and $B$, similar to a relation. For every function $f:A \to B$ and element $a \in A$, one could form the element $f(a) \in B$ called the **function evaluation** of $f$ at $a$. Finally, there is an operation which assigns to every pair of sets $A$ and $B$ a set $A\times B$, and to every pair of elements $x\in A$ and $y\in B$ an element $(x,y)\in A\times B$, as well as functions $\pi_A:A \times B \to A$ and $\pi_B:A \times B \to B$. 
+
+**Axiom 0** is the same as before.
+
+**Axiom $\frac{1}{4}$ (strong extensionality):** _Given function $i:A \to B$, the following statements are logically equivalent to each other:_ 
+
+* _there exists a function $i^{-1}:B \to A$ such that for all elements $x \in A$ and $y \in B$, $i^{-1}(i(x)) = x$ and $i(i^{-1}(y)) = y$_
+* _for every element $x \in B$ there exists a unique element $y \in A$ such that $i(y) = x$_ 
+
+A function is a **bijection** if one of the two conditions above hold. 
+
+**Axiom $\frac{1}{2}$ (Pairing):** _For every pair of sets $A$ and $B$ and for every element $x \in A$, $y \in B$, and $z\in A\times B$, $\pi_A((x, y)) = x$, $\pi_B((x, y)) = y$, and $z=(\pi_A(z),\pi_B(z))$._
+
+An function $f:A \to B$ is an **injection** if for all elements $x \in A$ and $y \in A$, $x = y$ if and only if $f(x) = f(y)$, and is usually denoted $f:A \hookrightarrow B$. $A$ is a **subset** of $B$ if it comes with an injection $i:A \hookrightarrow B$. We now define a **relation** to be a set $R$ with an injective function $i:R \hookrightarrow A\times B$. 
+
+**Axiom $2\frac{1}{2}$ (Separation):** _For every property $P$ that can obtain of elements $x$ of some set $A$, there exists a set $S$ and unique injection $i:S \hookrightarrow A$ such that there exists an element $y \in S$ such that $i(y) = x$ precisely when $P$ obtains of $x$_
+
+A relation $i:R \hookrightarrow A \times B$ is a **total functional relation** if for all elements $a \in A$, there exists a unique element $b \in B$ and a unique element $z \in A \times B$ such that $i(z) = (a, b)$. Since there is a function $\pi_A \circ i:R \to A$, by strong extensionality there is an inverse function $(\pi_A \circ i)^{-1}:A \to R$, and the function $\pi_B \circ (\pi_A \circ i)^{-1}:A \to B$ is the function satisfying $i((\pi_A \circ i)^{-1}(a)) = (a, \pi_B((\pi_A \circ i)^{-1}(a))$. Thus, the [[principle of unique choice]] holds. 
+
+Applying separation to relations $i:R \hookrightarrow A \times B$ and using the [[principle of unique choice]], we recover Axioms 1 (relational comprehension) and 2 (tabulations). We can now go on with the subsequent axioms stated in the same way as before.
 
 ### Eliminating equality
 {#eqfree}
