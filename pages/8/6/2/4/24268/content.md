@@ -56,9 +56,9 @@ Review with focus on optimization problems ([[quantum annealing]]):
 
 * Tameem Albash, Daniel A. Lidar,  *Adiabatic Quantum Computing*, Rev. Mod. Phys. **90** (2018) 015002 &lbrack;[arXiv:1611.04471](https://arxiv.org/abs/1611.04471), [doi:10.1103/RevModPhys.90.015002](https://doi.org/10.1103/RevModPhys.90.015002)&rbrack;
 
-* Erica K. Grant and Travis S. Humble, *Adiabatic Quantum Computing and Quantum Annealing*, Oxford research Encyclopedia (20200) &lbrack;[doi:10.1093/acrefore/9780190871994.013.32](https://doi.org/10.1093/acrefore/9780190871994.013.32)&rbrack;
+* Erica K. Grant and Travis S. Humble, *Adiabatic Quantum Computing and Quantum Annealing*, Oxford research Encyclopedia (2020) &lbrack;[doi:10.1093/acrefore/9780190871994.013.32](https://doi.org/10.1093/acrefore/9780190871994.013.32)&rbrack;
 
-* Atanu Rajak, Sei Suzuki, Amit Dutta, Bikas K. Chakrabarti, *Quantum Annealing: An Overview* &lbrack;[arXiv:2207.01827](https://arxiv.org/abs/2207.01827)&rbrack;
+* Atanu Rajak, Sei Suzuki, Amit Dutta, Bikas K. Chakrabarti, *Quantum Annealing: An Overview*, Philos Trans A Math Phys Eng Sci  **381** 2241 (2023) 20210417 &lbrack;[arXiv:2207.01827](https://arxiv.org/abs/2207.01827), [doi:10.1098/rsta.2021.0417](https://doi.org/10.1098/rsta.2021.0417)&rbrack;
 
     
 See also:
