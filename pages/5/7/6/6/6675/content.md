@@ -15,6 +15,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -120,11 +121,19 @@ This means that while every individual loop in $Conf_N(\mathbb{R}^3)$ is homotop
 ## References
   {#References}
 
+### General
+
 Highlighting the need for topological stabilization mechanisms:
+
+* [[Jay Sau]], *A Roadmap for a Scalable Topological Quantum Computer*, [Physics **10** 68 (2017)](https://physics.aps.org/articles/v10/68)
+
+  > "small machines are unlikely to uncover truly macroscopic quantum phenomena, which have no classical analogs. This will likely require a scalable approach to quantum computation. &lbrack;...&rbrack; based on &lbrack;...&rbrack; topological quantum computation (TQC) as envisioned by [[Alexei Kitaev]] and [[Michael Freedman]] &lbrack;...&rbrack; The central idea of TQC is to encode [[qubits]] into states of [[topological phases of matter]]. Qubits encoded in such states are expected to be topologically protected, or robust, against the 'prying eyes' of the environment, which are believed to be the bane of conventional quantum computation."
 
 * {#DasSarma22} [[Sankar Das Sarma]], *Quantum computing has a hype problem*, [MIT Technology Review (March 2022)](https://www.technologyreview.com/2022/03/28/1048355/quantum-computing-has-a-hype-problem/)
 
-  > The qubit systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. $[\cdots]$ What is missing is the breakthrough $[\cdots]$ bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called topological quantum computing.
+  > "The qubit systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. $[\cdots]$ What is missing is the breakthrough $[\cdots]$ bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called topological quantum computing."
+
+
 
 [[!include topological quantum computation with anyons -- references]]
 
