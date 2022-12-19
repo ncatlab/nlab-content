@@ -6,10 +6,11 @@
 
 ## Selected writings
 
-On [[topological quantum computation]]:
+On [[topological quantum computation]] by [[braiding]] of [[anyon]] [[worldlines]]:
+
+* [[Gavin K. Brennen]], [[Jiannis K. Pachos]], *Why should anyone care about computing with anyons?*, Proc. R. Soc. A **464** (2008) 1-24 $[$[arXiv:0704.2241](https://arxiv.org/abs/0704.2241), [doi:10.1098/rspa.2007.0026](https://doi.org/10.1098/rspa.2007.0026)$]$
 
 * [[Jiannis K. Pachos]], *Introduction to Topological Quantum Computation*, Cambridge University Press (2012) $[$[doi:10.1017/CBO9780511792908]( https://doi.org/10.1017/CBO9780511792908)$]$
-
 
 * {#LahtinenPachos17} [[Ville Lahtinen]], [[Jiannis K. Pachos]], _A Short Introduction to Topological Quantum Computation_,  SciPost Phys. **3** 021 (2017) &lbrack;[arXiv:1705.04103](https://arxiv.org/abs/1705.04103), [doi:10.21468/SciPostPhys.3.3.021](https://scipost.org/SciPostPhys.3.3.021)&rbrack;
 
