@@ -67,7 +67,7 @@ The modern $ZF$ consists of (1--8) and (10), using [[first-order logic|first-ord
 
 $ZFC$ adds (9) and is thus the strongest version without classes or additional axioms.  The version originally formulated by Fraenkel and Skolem did not include (10), although the three founders all eventually accepted it.
 
-It is common to take __Zermelo set theory__ ($\mathrm{Z}$) to be $ZF$ without (6), although Zermelo never accepted the first-order formulation; note that the weakest form (Weak Replacement) of (6) follows from (7) and (5), so it holds even in $\mathrm{Z}$.
+It is common to take __Zermelo set theory__ ($\mathrm{Z}$) to be $ZF$ without (6), although Zermelo never accepted the first-order formulation, and his axioms did not include the Axiom of Foundation (10). Note that the weakest form (Weak Replacement) of (6) follows from (7) and (5), so it holds even in $\mathrm{Z}$.
 
 Another variant is __bounded Zermelo set theory__ ($BZ$), which is like $\mathrm{Z}$ but with only Bounded Separation; this is of interest to category theorists because $BZC$ is equivalent to [[ETCS]].
 
