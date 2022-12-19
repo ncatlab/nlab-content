@@ -8,7 +8,9 @@ Introducing modern foundations of [[topology]] and basic concepts of  [[algebrai
 
 * [[Henri Poincaré]], *[[Analysis Situs]]*, Journal de l'École Polytechnique. (2). 1: 1–123  (1895) (Orig.: [gallica:12148/bpt6k4337198/f7](https://gallica.bnf.fr/ark:/12148/bpt6k4337198/f7), Engl.: [[John Stillwell]]: [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/poincare2009.pdf), [[Stillwell_AnalysisSitus.pdf:file]])
 
+On the future of mathematics
 
+* {#Poincaré1908} [[Henri Poincaré]], *The future of mathematics*, Revue generale des Sciences pures et appliquees, Paris, 19th year, No. 23, December, 1908 ([pdf](https://sites.math.rutgers.edu/courses/535/535-f08/Poincare.pdf))
 
 ## Related $n$Lab entries
 
