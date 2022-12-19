@@ -13,6 +13,10 @@ The idea of [[topological quantum computation]] via the [[Chern-Simons theory]] 
 
   > (specifically via [[su(2)-anyons]])
 
+
+* [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. **80** 1083 (2008) $[$[arXiv:0707.1888] (http://arxiv.org/abs/0707.1889), [doi:10.1103/RevModPhys.80.1083](https://doi.org/10.1103/RevModPhys.80.1083)$]$
+
+
 * D. Melnikov, A. Mironov, S. Mironov, A. Morozov, An. Morozov, _Towards topological quantum computer_, Nucl. Phys. B926 (2018) 491-508 ([arXiv:1703.00431](https://arxiv.org/abs/1703.00431), [doi:10.1016/j.nuclphysb.2017.11.016](https://doi.org/10.1016/j.nuclphysb.2017.11.016))
 
 Textbook accounts:
@@ -27,7 +31,7 @@ Textbook accounts:
 
 Review:
 
-* [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. **80** 1083 (2008) $[$[arXiv:0707.1888] (http://arxiv.org/abs/0707.1889), [doi:10.1103/RevModPhys.80.1083](https://doi.org/10.1103/RevModPhys.80.1083)$]$
+* [[Gavin K. Brennen]], [[Jiannis K. Pachos]], *Why should anyone care about computing with anyons?*, Proc. R. Soc. A **464** (2008) 1-24 $[$[arXiv:0704.2241](https://arxiv.org/abs/0704.2241), [doi:10.1098/rspa.2007.0026](https://doi.org/10.1098/rspa.2007.0026)$]$
 
 * [[Ady Stern]], Netanel H. Lindner, *Topological Quantum Computation -- From Basic Concepts to First Experiments*, Science **339** 6124 (2013) 1179-1184 ([doi:10.1126/science.1231473](https://science.sciencemag.org/content/339/6124/1179.full.pdf+html))
 
