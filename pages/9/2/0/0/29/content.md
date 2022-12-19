@@ -33,8 +33,15 @@ Every isomorphism is in particular an [[epimorphism]] and a [[monomorphism]], bu
 
 Common jargon includes "is a mono" or "is monic" for "is a monomorphism", and "is an epi" or "is epic" for "is an epimorphism", and "is an iso" for "is an isomorphism".
 
+[[Henri Poincaré]] wrote in [Poincaré 1908](#Poincaré1908) about isomorphisms:
 
+> "It is scarcely credible, as Mach said, how much a well-chosen word can economize thought. I do not know whether or not I have said somewhere that mathematics is the art of giving the same name to different things. We must so understand it. It is appropriate that things different in substance, but alike in form, should be put into the same mold, so to speak. When our language is well chosen, it is astonishing to see how all the demonstrations made upon some known fact immediately become applicable to many new facts. Nothing has to be changed, not even the words, since the names are the same in the new cases. There is an example, which comes at once to my mind; it is quaternions, upon which, however, I will not dwell.
 
+> A word well chosen very often causes the disappearance of exceptions to rules as announced in their former forms; it was for this purpose that the terms 'negative quantities', 'imaginary quantities', 'infinite points', have been invented. And let us not forget that these exceptions are pernicious, for they conceal laws. Very well then, one of those marks by which we recognize the pregnancy of a result is in that it permits a happy innovation in our language. The mere fact is oftentimes without interest; it has been noted many times, but has rendered no service to science; it becomes of value only on that day when some happily advised thinker perceives a relationship, which he indicates and symbolizes by a word.
+
+> The physicists also do it just the same way. They invented the term 'energy', a word of very great fertility, because through the elimination of exceptions it established a law; because it gave the same name to things different in substance, but alike in form.
+
+> Among the words which have had this happy result, I will mention the 'group' and the 'invariant'. They make us perceive the gist of many mathematical demonstrations; they make us realize how often mathematicians of the past must have run across groups without recognizing them and how, believing these groups to be isolated things, they have found them to be in close relationship without knowing why. Today we would say that they were looking right in the face of isomorphic groups. We feel now that in a group the substance interests us but very little; it is the form alone which matters, and so, when we once know well a single group, then we know through it all the isomorphic groups; thanks to the words 'groups' and 'isomorphism', which sum in a few syllables this subtle law and make it at once familiar to us all, we take our step at once and in so doing economize all effort of thought."
 
 ##Definitions
 
@@ -93,6 +100,10 @@ Suppose given $g:hom_A(b,a)$ and $\eta:1_a = g \circ f$ and $\epsilon : f \circ 
 * [[equivalence of (∞,1)-categories]]
 
 * [[EI-category]]
+
+## References
+
+* {#Poincaré1908} [[Henri Poincaré]], *The future of mathematics*, Revue generale des Sciences pures et appliquees, Paris, 19th year, No. 23, December, 1908 ([pdf](https://sites.math.rutgers.edu/courses/535/535-f08/Poincare.pdf))
 
 
 [[!redirects isomorphic]]
