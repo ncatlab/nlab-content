@@ -27,3 +27,5 @@ There should also be a definition from a hypothetical "[[division allegory]] wit
 ## References
 
 * [[Steve Awodey]]. *Notes on algebraic set theory*, Notes for lectures given at the Summer School on Topos Theory, Haute-Bodeux, Belgium. May 29 to June 5, 2005. Carnegie Mellon University Technical Report No. CMU-PHIL-170. June 2005. ([pdf](https://www.phil.cmu.edu/projects/ast/Papers/bnotes.pdf))
+
+[[!redirects class of all sets]]
