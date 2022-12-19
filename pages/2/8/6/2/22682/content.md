@@ -17,13 +17,13 @@ in relation to [[modular tensor categories]]:
 
 Braid representations from the [[monodromy]] of the [[Knizhnik-Zamolodchikov connection]] on bundles of [[conformal blocks]] over [[configuration spaces of points]]:
 
-* [[Ivan Todorov]], [[Ludmil Hadjiivanov]], *Monodromy Representations of the Braid Group*, Phys. Atom. Nucl. **64** (2001) 2059-2068; Yad.Fiz. **64** (2001) 2149-2158 &lbrack;[arXiv:hep-th/0012099](https://arxiv.org/abs/hep-th/0012099), [doi:10.1134/1.1432899](https://doi.org/10.1134/1.1432899)&rbrack;
+* [[Ivan Todorov]], [[Ludmil Hadjiivanov]], *Monodromy Representations of the Braid Group*, Phys. Atom. Nucl. **64** (2001) 2059-2068; Yad.Fiz. **64** (2001) 2149-2158 $[$[arXiv:hep-th/0012099](https://arxiv.org/abs/hep-th/0012099), [doi:10.1134/1.1432899](https://doi.org/10.1134/1.1432899)$]$
 
-* [[Ivan Marin]], *Sur les représentations de Krammer génériques*, Annales de l'Institut Fourier, **57** 6 (2007) 1883-1925 &lbrack;[numdam:AIF_2007__57_6_1883_0](http://www.numdam.org/item/AIF_2007__57_6_1883_0)&rbrack;
+* [[Ivan Marin]], *Sur les représentations de Krammer génériques*, Annales de l'Institut Fourier, **57** 6 (2007) 1883-1925 $[$[numdam:AIF_2007__57_6_1883_0](http://www.numdam.org/item/AIF_2007__57_6_1883_0)$]$
 
 and understood in terms of [[anyon statistics]]:
 
-* Xia Gu, [[Babak Haghighat]], Yihua Liu, *Ising- and Fibonacci-Anyons from KZ-equations* &lbrack;[arXiv:2112.07195](https://arxiv.org/abs/2112.07195)&rbrack;
+* Xia Gu, [[Babak Haghighat]], Yihua Liu, *Ising- and Fibonacci-Anyons from KZ-equations* $[$[arXiv:2112.07195](https://arxiv.org/abs/2112.07195)$]$
 
 
 
@@ -56,11 +56,11 @@ Introduction and review:
 
 * [[Colleen Delaney]], [[Eric C. Rowell]], [[Zhenghan Wang]], *Local unitary representations of the braid group and their applications to quantum computing*, Revista Colombiana de Matemáticas(2017), 50 (2):211 ([arXiv:1604.06429](https://arxiv.org/abs/1604.06429), [doi:10.15446/recolma.v50n2.62211](http://dx.doi.org/10.15446/recolma.v50n2.62211))
 
-* [[Eric C. Rowell]], *Braids, Motions and Topological Quantum Computing* &lbrack;[arXiv:2208.11762](https://arxiv.org/abs/2208.11762)&rbrack;
+* [[Eric C. Rowell]], *Braids, Motions and Topological Quantum Computing* $[$[arXiv:2208.11762](https://arxiv.org/abs/2208.11762)$]$
 
 Realization of [[Fibonacci anyons]] on [[quasicrystal]]-states:
 
-* Marcelo Amaral, [[David Chester]], Fang Fang, Klee Irwin, *Exploiting Anyonic Behavior of Quasicrystals for Topological Quantum Computing*, Symmetry **14** 9 (2022) 1780 &lbrack;[arXiv:2207.08928](https://arxiv.org/abs/2207.08928), [doi:10.3390/sym14091780](https://doi.org/10.3390/sym14091780)&rbrack;
+* Marcelo Amaral, [[David Chester]], Fang Fang, Klee Irwin, *Exploiting Anyonic Behavior of Quasicrystals for Topological Quantum Computing*, Symmetry **14** 9 (2022) 1780 $[$[arXiv:2207.08928](https://arxiv.org/abs/2207.08928), [doi:10.3390/sym14091780](https://doi.org/10.3390/sym14091780)$]$
 
 Realization on [[supersymmetry|supersymmetric]] [[spin chains]]:
 
