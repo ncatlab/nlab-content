@@ -640,6 +640,18 @@ $$\frac{\Gamma, \Delta \vdash \left[\sum_{x:A} B(x)\right] \; \mathrm{type} \qua
 
 The rules above reflect the [[propositions as some types]] philosophy in [[type theory]]. 
 
+#### Bounded separation
+
+A predicate on a type $A$ is a proposition $P \; \mathrm{prop}$ in the context of the free variable $x:A$. Bounded separation states that given a predicate $P$ on a set $A$, one could construct the set $\vert P \vert$ with an injection $i:\vert P \vert \hookrightarrow A$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{prop}}{\Gamma \vdash \vert P \vert \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{prop}}{\Gamma \vdash i:\vert P \vert \to A}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{prop}}{\Gamma, x:A, y:A \vdash \varphi_{x =_A y} \iff \varphi{i(x) =_B i(y)} \; \mathrm{true}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x \in A \vdash P \; \mathrm{prop}}{\Gamma, x \in A \vdash P(x) \iff \varphi_{\sum_{y:\vert P \vert} i(y) = x} \; \mathrm{true}}$$
+
 #### Propositions as types
 
 An alternative to the [[propositions as some types]] philosophy is the [[propositions as types]] philosophy, where instead of reflecting the [[subsingletons]] to propositions and the [[singletons]] to true propositions, we reflect all types to propositions, and the [[pointed types]] to true propositions. The rules are given as follows:
