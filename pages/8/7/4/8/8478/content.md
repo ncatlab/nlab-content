@@ -236,6 +236,3 @@ See also
 [[!redirects sequents]]
 
 [[!redirects turnstile]]
-
-[[!redirects hypothetical judgement]]
-[[!redirects hypothetical judgements]]
