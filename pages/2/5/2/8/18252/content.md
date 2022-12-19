@@ -408,7 +408,7 @@ $$
     \;\simeq\;
   Th
   \big(
-    \mathcal{L}_{k P^\infty}
+    \mathcal{L}^\ast_{k P^\infty}
   \big)
   \,.
 $$
