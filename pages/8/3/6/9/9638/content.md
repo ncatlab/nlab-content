@@ -216,6 +216,9 @@ Textbook accounts on quantum computation:
 
 * [[Eleanor Rieffel]], [[Wolfgang Polak]], *Quantum Computing -- A gentle introduction*, MIT Press (2011) &lbrack;[ISBN:9780262526678](https://mitpress.mit.edu/9780262526678/quantum-computing/), [pdf](http://mmrc.amss.cas.cn/tlb/201702/W020170224608150244118.pdf)&rbrack;
 
+* [[Dirk Bouwmeester]], [[Artur Ekert]], [[Anton Zeilinger]] (eds.), *The Physics of Quantum Information -- Quantum Cryptography, Quantum Teleportation, Quantum Computation*, Springer (2020) &lbrack;[doi:10.1007/978-3-662-04209-0](https://doi.org/10.1007/978-3-662-04209-0)&rbrack;
+
+
 Introducing the notion of [[quantum supremacy]] and highlighting its relation to [[quantum entanglement]]:
 
 * [[John Preskill]]: *Quantum computing and the entanglement frontier*: pp. 63-80 in: *The Theory of the Quantum World -- Proceedings of the 25th Solvay Conference on Physics*, World Scientific (2013) &lbrack;[arXiv:1203.5813](https://arxiv.org/abs/1203.5813), [doi:10.1142/8674](https://doi.org/10.1142/8674), slides: [pdf](https://simons.berkeley.edu/sites/default/files/docs/394/preskilljohn.pdf)&rbrack;
@@ -380,7 +383,7 @@ in particular in [[quantum machine learning]]:
 
 * Nikolaj Moll et al., *Quantum optimization using variational algorithms on near-term quantum devices*, Quantum Science and Technology, Volume 3, Number 3 2018 ([arXiv:1710.01022](https://arxiv.org/abs/1710.01022))
 
-* {#Preskill18} [[John Preskill]], *Quantum Computing in the NISQ era and beyond*, Quantum  2018-08-06, volume 2, page 79 ([arXiv:1801.00862](https://arxiv.org/abs/1801.00862), [doi:10.22331/q-2018-08-06-79](https://doi.org/10.22331/q-2018-08-06-79))
+* {#Preskill18} [[John Preskill]], *Quantum Computing in the NISQ era and beyond*, Quantum  **2** 79 (2018) &lbrack;[arXiv:1801.00862](https://arxiv.org/abs/1801.00862), [doi:10.22331/q-2018-08-06-79](https://doi.org/10.22331/q-2018-08-06-79)&rbrack;
 
 * Daniel Koch, Brett Martin, Saahil Patel, Laura Wessing, and Paul M. Alsing, *Demonstrating NISQ era challenges in algorithm design on IBM's 20 qubit quantum computer*, AIP Advances 10, 095101 (2020) ([doi:10.1063/5.0015526](https://doi.org/10.1063/5.0015526))
 
