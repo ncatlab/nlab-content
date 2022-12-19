@@ -25,7 +25,7 @@ Typed predicate logic is used in many type theories, including [[simplicial type
 
 ### Judgments and contexts
 
-Typed predicate logic is a type theory which consists of two layers, a layer for types and a layer for propositions over the layer for types. 
+Typed predicate logic is a type theory which consists of two layers, a layer for types and a layer for propositions. 
 
 We have the basic judgement forms of the type layer:
 
@@ -47,17 +47,17 @@ $$\frac{}{() \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma \
 
 ### Structural rules
 
-There are three structural rules in logic over type theory, the [[variable rule]], the [[weakening rule]], and the [[substitution rule]]. 
+The structural rules in logic over type theory include the variable rules, the [[weakening rules]], and the [[substitution rule]]. 
 
-The variable rule states that we may derive a typing judgment if the typing judgment is in the context already:
+The variable rules states that we may derive a typing judgment or a true proposition judgment if the typing judgment or true proposition judgment is in the context already:
 
-$$\frac{\Gamma, a:A, \Delta \; \mathrm{ctx}}{\Gamma, a:A, \Delta \vdash a:A}$$
+$$\frac{\Gamma, a \in A, \Delta \; \mathrm{ctx}}{\Gamma, a \in A, \Delta \vdash a \in A} \qquad \frac{\Gamma, P \; \mathrm{true}, \Delta \; \mathrm{ctx}}{\Gamma, P \; \mathrm{true}, \Delta \vdash P \; \mathrm{true}}$$
 
 Let $\mathcal{J}$ be any arbitrary judgment. Then we have the following rules:
 
-The weakening rule:
+The weakening rules:
 
-$$\frac{\Gamma, \Delta \vdash \mathcal{J} \quad \Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, \Delta \vdash \mathcal{J}}$$
+$$\frac{\Gamma, \Delta \vdash \mathcal{J} \quad \Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, \Delta \vdash \mathcal{J}} \qquad \frac{\Gamma, \Delta \vdash \mathcal{J} \quad \Gamma \vdash P \; \mathrm{prop}}{\Gamma, P \; \mathrm{true}, \Delta \vdash \mathcal{J}}$$
 
 The substitution rule:
 
