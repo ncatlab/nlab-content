@@ -33,7 +33,8 @@ Review:
 
 * [[Eric C. Rowell]], *An Invitation to the Mathematics of Topological Quantum Computation*, J. Phys.: Conf. Ser. 698 (2016) 012012 ([doi:10.1088/1742-6596/698/1/012012](https://iopscience.iop.org/article/10.1088/1742-6596/698/1/012012))
     
-* {#LahtinenPachos17} Ville Lahtinen, [[Jiannis K. Pachos]], _A Short Introduction to Topological Quantum Computation_,  SciPost Phys. **3** 021 (2017) ([arXiv:1705.04103](https://arxiv.org/abs/1705.04103))
+* {#LahtinenPachos17} [[Ville Lahtinen]], [[Jiannis K. Pachos]], _A Short Introduction to Topological Quantum Computation_,  SciPost Phys. **3** 021 (2017) $[$[arXiv:1705.04103](https://arxiv.org/abs/1705.04103), [doi:10.21468/SciPostPhys.3.3.021](https://scipost.org/SciPostPhys.3.3.021)$]$
+
 
 * {#RowellWang18} [[Eric C. Rowell]], [[Zhenghan Wang]], _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
 
