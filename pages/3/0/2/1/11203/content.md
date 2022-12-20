@@ -94,7 +94,7 @@ More theoretically flavored discussion of the flux quantization mechanism:
 
 * {#AlvarezGaume98} [[Luis Alvarez-Gaumé]], Frederic Zamora, Section IV.B of: _Duality in Quantum Field Theory (and String Theory)_, AIP Conference Proceedings 423, 46 (1998) ([arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180))
 
-On the vortex flux tubes as dynamical [[vortex string|vortex strings]]:
+On the vortex [[flux tubes]] as dynamical [[vortex string|vortex strings]]:
 
 * [Abrikosov 57a](#Abrikosov57a)
 
