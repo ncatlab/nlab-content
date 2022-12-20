@@ -1,4 +1,9 @@
 
+\tableofcontents
+
+## Idea
+
+(...)
 
 ## Related concepts
 
@@ -6,7 +11,7 @@
 
 * [[confinement]], [[mass gap]]
 
-* [[quark-gluon plams]]
+* [[quark-gluon plasma]]
 
 * [[Landau pole]]
 
