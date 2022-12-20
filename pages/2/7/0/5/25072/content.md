@@ -30,7 +30,9 @@ Generally, in [[gauge theory]] by a *flux tube* one means a cylindrical/string-s
 
 * similarly: [magnetic flux tubes inside a superconductor](flux#MagneticFluxQuantizationInTypeIISuperconductors)
 
-* "[[color charge|color]]" flux tubes between [[quarks]] in [[quantum chromodynamics]]
+* "[[color charge|color]]" flux tubes between [[quarks]] in [[quantum chromodynamics]] 
+
+  (which become the [[strings]] of [[string theory]] under [[AdS-CFT correspondence]]/[[AdS-QCD correspondence]])
 
 ## Related concepts
 
