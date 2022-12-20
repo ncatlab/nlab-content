@@ -589,6 +589,11 @@ These computations shown so far all use just the field theory in the bulk, not y
 ### General
  {#ReferencesGeneral}
 
+Early amplification of the idea that the [[holographic principle]] is all about understanding [[flux tubes]] in [[QCD]] as [[strings]]:
+
+* [[Alexander Polyakov]], *The wall of the cave*, Int. J. Mod. Phys. A **14** (1999) 645-658 &lbrack;[arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057), [doi:10.1142/S0217751X99000324](https://doi.org/10.1142/S0217751X99000324)&rbrack;
+
+
 #### Review and introduction
 
 * {#Aharony02} [[Ofer Aharony]], _The non-AdS/non-CFT correspondence, or three different paths to QCD_, Progress in string, field and particle theory. Springer, Dordrecht, 2003. 3-24 ([arXiv:hep-th/0212193](https://arxiv.org/abs/hep-th/0212193))
