@@ -5,7 +5,7 @@
 
 ## Idea
 
-This page is used as a hub to gather references about [[category theory|category-theoretic]] work directly related to Biology. Biology can be seen as an umbrella term for a spectrum of scientific domains all interested in studying life, at various scales. A range of [[category theory|category-theoretic]] formalisms have been proposed to model these scales from DNA mechanisms to complex systems through protein dynamics. This page gathers works that explicit express their results in the language of biology by using category theory concepts. More works with potential applications to topics somewhat related to biological questions are referred at the end of the page.
+This page is used as a hub to gather references about [[category theory|category-theoretic]] work directly related to Biology. Biology can be seen as an umbrella term for a spectrum of scientific domains all interested in studying life, at various scales. A range of [[category theory|category-theoretic]] formalisms have been proposed to model these scales from DNA mechanisms to complex systems through protein dynamics. This page gathers works expressing their results in the language of biology by using category theory concepts. More works with potential applications to topics somewhat related to biological questions are referred at the end of the page.
 
 ## Categories
 
@@ -17,13 +17,13 @@ Ontologies are used in genomics to classify categories of observable phenomena s
 
 * each object is a [nominal sentence](https://en.wikipedia.org/wiki/Nominal_sentence) about a given topic;
 
-* each arrow is encoded by a [predicate](https://en.wikipedia.org/wiki/Predicate_(grammar)) starting with the verb _is_ but deprived of its last [grammatical object](https://en.wikipedia.org/wiki/Object_(grammar)) such that the arrow, its source and its target all together define a semantically correct (English) sentence.
+* each arrow is encoded by a [grammatical predicate](https://en.wikipedia.org/w/index.php?title=Predicate) starting with the verb _is_ but deprived of its last [grammatical object](https://en.wikipedia.org/wiki/Object) such that the arrow, its source and its target all together define a semantically correct (English) sentence.
 
 The idea is that each arrow of an olog describe a fact about a given topic.
 
 \begin{centre}
-    \begin{xymatrix}
-        \fbox{$\textrm{chromosome }x$} \ar[r]^-{\textrm{is the owner of}} & \fbox{$\textrm{gene }y$} \ar[r]^-{\textrm{(that) is}} & \fbox{$\textrm{reponsible for disease }z$}
+    \begin{xymatrix@C=10em}
+        \fbox{$\textrm{chromosome }x$} \ar[r]^-{\textrm{is the owner of}} & \fbox{$\textrm{gene }y$} \ar[r]^-{\textrm{(which) is reponsible for}} & \fbox{$\textrm{disease }z$}
     \end{xymatrix}
 \end{centre}
 
@@ -61,10 +61,15 @@ If the preorder $(\Omega,\preceq)$ defines a [[lattice]], then we can show that 
 
 ### References
 
+Ologs and biology:
+
 * DI Spivak, RE Kent, _Ologs: A categorical framework for knowledge representation_ [pdf](https://math.mit.edu/~dspivak/informatics/olog.pdf)
 * JY Wong, J McDonald, M Taylor-Pinney, DI Spivak, KaplanDL , MJ Buehler, _Materials by Design: Merging Proteins and Music_, Nano Today. 2012 Dec 1;7(6):488-495. [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3752788/)
 * T. Giesa, DI Spivak, MJ. Buehler, _Reoccurring patterns in hierarchical protein materials and music: The power of analogies_ [pdf](https://arxiv.org/pdf/1111.5297.pdf)
-* R Tuyeras, Category Theory for Genetics,  [arXiv:1708.05255](https://arxiv.org/abs/1708.05255)
+
+An introduction to categories of segments:
+
+* R Tuyeras, _Category Theory for Genetics_,  [arXiv:1708.05255](https://arxiv.org/abs/1708.05255)
 
 ## Theories and models
 
@@ -103,11 +108,15 @@ A [[pedigrad]] is a model for a limit sketch defined on a [category of segments]
 
 ### References
 
+Stock-flow diagrams and petri nets:
+
 * J Baez, X Li, S Libkind, N Osgood and E Patterson, _Compositional modeling with stock and flow diagrams_, [pdf](https://arxiv.org/pdf/2205.08373.pdf)
 
 * A Baas, J Fairbanks, M Halter, S Libkind and E Patterson, _An algebraic framework for structured epidemic modeling_, [pdf](https://arxiv.org/pdf/2203.16345.pdf)
 
 * JC Baez, BS Pollard, _A Compositional Framework for Reaction Networks_, [pdf](https://arxiv.org/pdf/1704.02051.pdf)
+
+Pedigrads:
 
 * R Tuyeras, _Category theory for genetics I: mutations and sequence alignments_, Theory and Applications of Categories, Vol. 33, 2018, No. 40, pp 1269-1317, [pdf](http://www.tac.mta.ca/tac/volumes/33/40/33-40abs.html5)
 
@@ -127,11 +136,11 @@ We can then define a functor $F:\mathsf{Sub}(I) \to \mathsf{Sub}(P)$ with the fo
 $$
 F(i) = \bigcup\{p| Q(p,i) = 1\}
 $$
-If the binary relation $Q$ is defined $F$ preserves _joins_ (ie. unions), then we can use the [[adjoint functor theorem]] to define a left-adjoint $L:\mathsf{Sub}(P) \to \mathsf{Sub}(I)$ for the functor $F$.
+If the binary relation $Q$ is defined such that $F$ preserves [[meet|meets]] (ie. intersections), then we can use the [[adjoint functor theorem]] to define a left-adjoint $L:\mathsf{Sub}(P) \to \mathsf{Sub}(I)$ for the functor $F$.
 $$
 L(p) = \bigcap\{i|p \subseteq F(i)\}
 $$
-The previous adjunction gives us a context in which we can reason about immune responses and their triggering pathogens and diseases. Further, the adjunction formalism ensures a certain _continuity_ in time and space regarding the linking of diseases\pathogens to their immune response (as suggested in the following correspondence).
+The previous adjunction gives us a context in which we can reason about immune responses and their triggering pathogens and diseases. Further, the adjunction formalism ensures a certain _continuity_ in time and space regarding the linking of diseases/pathogens to their immune response (as suggested in the following correspondence).
 
 
 \begin{centre}
@@ -160,17 +169,21 @@ We can embed the previous type of models in time and space by filtering the sets
 
 ### Trees
 
-Operads have been used to model Phylogenetic Trees, see:
+Operads have been used to model [phylogenetic trees](https://en.wikipedia.org/wiki/Phylogenetic_tree), see:
 
 * [Operads and Phylogenetic Trees](https://golem.ph.utexas.edu/category/2015/12/operads_and_phylogenetic_trees.html)
 
 ### Axioms for algebras and gradient descent
 
-A little-disc-operad-inspired formalism was developed to model biological systems and cellular behaviour. This formalism considers gradient descent techniques to approximate sets of tuples into operadic algebra by using the equations resulting from the axioms for algebras as objective functions. The resulting sets model biological special of functions and entropy in living organisms.
+A little-disc-operad-inspired formalism was developed to model biological systems and cellular behaviour. This formalism considers gradient descent techniques to make certain subsets $A \subseteq \mathbb{R}^{\times n}$ converge towards algebra-like structure. These gradient descent techniques use the equations encoding the axioms for algebras as objective functions. The resulting sets $A$ can be interpreted as models for specialization of biological functions and entropic mechanisms in living organisms.
 
 ### References
 
+Phylogenies:
+
 * JC Baez, N Otter, _Operads and Phylogenetic Trees_, Theory and Applications of Categories, Vol. 32 No. 40 (2017), 1397-1453, [paper](http://www.tac.mta.ca/tac/volumes/32/40/32-40abs.html)
+
+Specialization and gradient descent:
 
 * R Tuyeras et al., _Cellular intelligence: dynamic specialization through non-equilibrium multi-scale compartmentalization_, [bioarxiv](https://www.biorxiv.org/content/10.1101/2021.06.25.449951v1.abstract)
 
@@ -189,11 +202,11 @@ Singularities in algebraic geometry have been used to study morphologies.
 
 ### References
 
-* Kanari, Lida; Dłotko, Paweł; Scolamiero, Martina; Levi, Ran; Shillcock, Julian; Hess, Kathryn; Markram, Henry (2016). "Quantifying topological invariants of neuronal morphologies", [arXiv:1603.08432](https://arxiv.org/abs/1603.08432)
+* Kanari, Lida; Dłotko, Paweł; Scolamiero, Martina; Levi, Ran; Shillcock, Julian; Hess, Kathryn; Markram, Henry (2016), _Quantifying topological invariants of neuronal morphologies_, [arXiv:1603.08432](https://arxiv.org/abs/1603.08432)
 
-* Lee, Yongjin; Barthel, Senja D.; Dłotko, Paweł; Moosavi, S. Mohamad; Hess, Kathryn; Smit, Berend (2017). "Pore-geometry recognition: on the importance of quantifying similarity in nanoporous materials", [arXiv:1701.06953.](https://arxiv.org/abs/1701.06953)
+* Lee, Yongjin; Barthel, Senja D.; Dłotko, Paweł; Moosavi, S. Mohamad; Hess, Kathryn; Smit, Berend (2017), _Pore-geometry recognition: on the importance of quantifying similarity in nanoporous materials_, [arXiv:1701.06953.](https://arxiv.org/abs/1701.06953)
 
-*  E.C. Zeeman, Catastrophe Theory, Scientific American, April 1976; pp. 65–70, 75–83, [pdf](http://www.gaianxaos.com/pdf/dynamics/zeeman-catastrophe_theory.pdf)
+*  E.C. Zeeman, _Catastrophe Theory_, Scientific American, April 1976; pp. 65–70, 75–83, [pdf](http://www.gaianxaos.com/pdf/dynamics/zeeman-catastrophe_theory.pdf)
 
 
 ## Higher structures
@@ -210,11 +223,15 @@ According to [[Mikhail Gromov]], the mathematical structures nearest to what is 
 
 ### References
 
-* [Ergologic and Interfaces Between Languages](https://www.youtube.com/watch?v=jRSqGYJQQM8)
+Higher categories:
 
-* Baas, N.A., On Higher Structures, [arxiv](https://arxiv.org/pdf/1509.00403.pdf)
+* Talk by Mikhail Gromov, [Ergologic and Interfaces Between Languages](https://www.youtube.com/watch?v=jRSqGYJQQM8)
 
-* Baas, N.A. Extended Memory Evolutive Systems in a Hyperstructure Context. Axiomathes 19, 215–221 (2009). [link](https://doi.org/10.1007/s10516-009-9066-3)
+Hyperstructures:
+
+* NA Baas, _On Higher Structures_, [arxiv](https://arxiv.org/pdf/1509.00403.pdf)
+
+* NA Baas, _Extended Memory Evolutive Systems in a Hyperstructure Context. Axiomathes 19, 215–221 (2009). [link](https://doi.org/10.1007/s10516-009-9066-3)
 
 
 ## Other related works
@@ -230,18 +247,18 @@ For other approaches see [category theory and biology](http://golem.ph.utexas.ed
 
 * V. Noel, D. Grigoriev, S. Vakulenko, O. Radulescu, _Tropical geometries and dynamics of biochemical networks. Application to hybrid cell cycle models_, [pdf](http://logic.pdmi.ras.ru/~grigorev/pub/tropical_dynamics_modified.pdf)
 
-* A.C. Ehresmann and P. Smeonov. Wlimes: Towards a theoretical framework for wandering logic intelligence memory evolutive systems. In P. L. Simeonov, L. S. Smith, and A. C. Ehresmann, editors, Integral. Biomathics: Tracing the Road to Reality. Springer-Verlag, 2012.
+* A.C. Ehresmann and P. Smeonov. Wlimes: _Towards a theoretical framework for wandering logic intelligence memory evolutive systems_. In P. L. Simeonov, L. S. Smith, and A. C. Ehresmann, editors, Integral. Biomathics: Tracing the Road to Reality. Springer-Verlag, 2012.
 
 
-* A.C. Ehresmann and J.-P. Vanbremeersch. The memory evolutive systems as a model of rosens organisms. Axiomathes, 16:165–214, 2006.
+* A.C. Ehresmann and J.-P. Vanbremeersch. _The memory evolutive systems as a model of Rosen's organisms_. Axiomathes, 16:165–214, 2006.
 
-* A.C. Ehresmann and J.-P. Vanbremeersch. Memory Evolutive Systems: Hierarchy, Emergence, Cognition, volume 4 of Studies in Multidisciplinarity. Elsevier, 2007.
+* A.C. Ehresmann and J.-P. Vanbremeersch. _Memory Evolutive Systems: Hierarchy, Emergence, Cognition_, volume 4 of Studies in Multidisciplinarity. Elsevier, 2007.
 
-* A.C. Ehresmann, N. Baas, and J.-P. Vanbremeersch. Hyperstructures and memory evolutive systems.
+* A.C. Ehresmann, N. Baas, and J.-P. Vanbremeersch. _Hyperstructures and memory evolutive systems_.
 Intern. J. Gen. Sys., 33(5):553–568, 2004.
 
-* R Rosen, The representation of biological systems from the standpoint of the theory of categories , Bulletin of Mathematical Biophysics, Vol 20. 1958, [pdf]( http://www.few.vu.nl/~rplanque/Onderwijs/MathBio/PapersForProject/Rosen.pdf)
+* R Rosen, _The representation of biological systems from the standpoint of the theory of categories_ , Bulletin of Mathematical Biophysics, Vol 20. 1958, [pdf]( http://www.few.vu.nl/~rplanque/Onderwijs/MathBio/PapersForProject/Rosen.pdf)
 
-* I. C. Baianu, James F. Glazebrook and Ronald Brown, A CATEGORY THEORY AND HIGHER DIMENSIONAL ALGEBRA APPROACH TO COMPLEX SYSTEMS BIOLOGY, META-SYSTEMS AND ONTOLOGICAL THEORY OF LEVELS: EMERGENCE OF LIFE, SOCIETY, HUMAN CONSCIOUSNESS AND ARTIFICIAL INTELLIGENCE, [text](https://planetmath.org/ACATEGORYTHEORYANDHIGHERDIMENSIONALALGEBRAAPPROACHTOCOMPLEXSYSTEMSBIOLOGYMETASYSTEMSANDONTOLOGICALTHEORYOFLEVELS)
+* I. C. Baianu, James F. Glazebrook and Ronald Brown, _A Category Theory And Higher Dimensional Algebra Approach To Complex Systems Biology, Meta-systems And Ontological Theory Of Levels: Emergence Of Life, Society, Human Consciousness And Artificial Intelligence_, [text](https://planetmath.org/ACATEGORYTHEORYANDHIGHERDIMENSIONALALGEBRAAPPROACHTOCOMPLEXSYSTEMSBIOLOGYMETASYSTEMSANDONTOLOGICALTHEORYOFLEVELS)
 
 * Dominique Pastor, Erwan Beurier, Andrée Ehresmann, Roger Waldeck, _Interfacing biology, category theory and mathematical statistics_, [https://arxiv.org/pdf/2009.06832.pdf](pdf)
