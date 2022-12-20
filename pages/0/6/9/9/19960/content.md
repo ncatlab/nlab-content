@@ -589,7 +589,9 @@ These computations shown so far all use just the field theory in the bulk, not y
 ### General
  {#ReferencesGeneral}
 
-Early amplification of the idea that the [[holographic principle]] is all about understanding [[flux tubes]] in [[QCD]] as [[strings]]:
+Early suggestion that the [[holographic principle]] is all about understanding [[flux tubes]] in [[QCD]] as [[strings]] in a higher dimensional spacetime:
+
+* [[Alexander Polyakov]], *String Theory and Quark Confinement*, Nucl. Phys. Proc. Suppl. **68** (1998) 1-8 &lbrack;[arXiv:hep-th/9711002](https://arxiv.org/abs/hep-th/9711002), <a href="https://doi.org/10.1016/S0920-5632(98)00135-2">doi:10.1016/S0920-5632(98)00135-2</a>&rbrack;
 
 * [[Alexander Polyakov]], *The wall of the cave*, Int. J. Mod. Phys. A **14** (1999) 645-658 &lbrack;[arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057), [doi:10.1142/S0217751X99000324](https://doi.org/10.1142/S0217751X99000324)&rbrack;
 
