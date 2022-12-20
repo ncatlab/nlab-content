@@ -32,13 +32,14 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 <center>
 <a href="https://ncatlab.org/nlab/show/M-Theory+and+Mathematics#2023">
-<img src="https://ncatlab.org/nlab/files/MTheoryAndMathematics2023Title.jpg" width="700"/>
+<img src="https://ncatlab.org/nlab/files/MTheoryAndMathematics2023TitleFramed.jpg" width="700"/>
 </a>
 </center>
 
 > $\phantom{-----}$ (logo adapted from [JMP **62** (2021) 042301](https://arxiv.org/abs/2002.11093))
 
 \linebreak
+
 
 **Speakers:**
 
