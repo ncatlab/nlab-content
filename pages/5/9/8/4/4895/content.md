@@ -352,7 +352,9 @@ The idea of the holographic principle in [[quantum gravity]] originates with:
 
 * {#Susskind94} [[Leonard Susskind]], *The World as a hologram*, J. Math. Phys. **36** (1995) 6377-6396 &lbrack;[hep-th/9409089](http://arxiv.org/abs/hep-th/9409089), [doi:10.1063/1.531249](https://doi.org/10.1063/1.531249)&rbrack;
 
-Early discussion of holography in the form of [[QCD]] [[flux tubes]] being described by [[strings]] in a higher dimensional [[spacetime]] ([[AdS-QCD duality]]):
+Early suggestion of holography in the form of [[QCD]] [[flux tubes]] being described by [[strings]] in a higher dimensional [[spacetime]] (later discussed as *[[AdS-QCD duality]]*):
+
+* [[Alexander Polyakov]], *String Theory and Quark Confinement*, Nucl. Phys. Proc. Suppl. **68** (1998) 1-8 &lbrack;[arXiv:hep-th/9711002](https://arxiv.org/abs/hep-th/9711002), <a href="https://doi.org/10.1016/S0920-5632(98)00135-2">doi:10.1016/S0920-5632(98)00135-2</a>&rbrack;
 
 * [[Alexander Polyakov]], *The wall of the cave*, Int. J. Mod. Phys. A **14** (1999) 645-658 &lbrack;[arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057), [doi:10.1142/S0217751X99000324](https://doi.org/10.1142/S0217751X99000324)&rbrack;
 
