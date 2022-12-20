@@ -236,7 +236,7 @@ Further introduction and survey:
 
 * [[Jens Eisert]], M. M. Wolf, _Quantum computing_, In: _Handbook of Nature-Inspired and Innovative Computing_, Springer 2006 ([arXiv:quant-ph/0401019](https://arxiv.org/abs/quant-ph/0401019))
 
-* [[Scott Aaronson]], Lecture notes _Quantum Computing Since Democritus_ 2006 ([web](http://www.scottaaronson.com/democritus/))
+* [[Scott Aaronson]], _Quantum Computing Since Democritus_, Lecture notes (2006) &lbrack;[web](http://www.scottaaronson.com/democritus/)&rbrack;
 
 * [[Phillip Kaye]], [[Raymond Laflamme]], [[Michele Mosca]], *An Introduction to Quantum Computing*, Oxford University Press (2007) &lbrack;[pdf](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149125645.pdf), [ISBN:9780198570493](https://global.oup.com/academic/product/an-introduction-to-quantum-computing-9780198570493?cc=at&lang=en&)&rbrack;
  
@@ -265,8 +265,7 @@ Further introduction and survey:
 
 * Sophie Choe, *Quantum computing overview: discrete vs. continuous variable models* $[$[arXiv:2206.07246](https://arxiv.org/abs/2206.07246)$]$
 
-* [[John Preskill]], *The Physics of Quantum Information*, talk at
-*The Physics of Quantum Information*, 28th Solvay Conference on Physics (2022) &lbrack;[arXiv:2208.08064](https://arxiv.org/abs/2208.08064)&rbrack;
+* [[John Preskill]], *The Physics of Quantum Information*, talk at *The Physics of Quantum Information*, 28th Solvay Conference on Physics (2022) &lbrack;[arXiv:2208.08064](https://arxiv.org/abs/2208.08064)&rbrack;
 
 
 
