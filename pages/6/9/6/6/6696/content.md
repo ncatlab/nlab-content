@@ -3,6 +3,8 @@
 
 ## Selected writings
 
+
+
 Proving the non-[[renormalizable interaction|renormalizability]] of Einstein-[[gravity]] ([[general relativity]]):
 
 * {#tHooftVelrman74} [[Gerard 't Hooft]], [[Martinus Veltman]], _One loop divergencies in the theory of gravitation_, Ann. Inst. Poincar &#233; 20 (1974) 69 ([numdam:AIHPA_1974__20_1_69_0](AIHPA_1974__20_1_69_0))
@@ -27,6 +29,9 @@ On [[instantons]] in [[chiral perturbation theory]]:
 
 * [[Gerard 't Hooft]], _How instantons solve the $U(1)$ problem_, Physics Reports Volume 142, Issue 6, September 1986, Pages 357-387 (<a href="https://doi.org/10.1016/0370-1573(86)90117-1">doi:10.1016/0370-1573(86)90117-1</a>)
 
+Introducing the [[holographic principle]]:
+
+* [[Gerard 't Hooft]], _Dimensional Reduction in Quantum Gravity_, talk at *[Conference on Highlights of Particle and Condensed Matter Physics (SALAMFEST)](https://inspirehep.net/conferences/968293)* (1993) &lbrack;[gr-qc/9310026](http://arxiv.org/abs/gr-qc/9310026), [spire:36137](https://inspirehep.net/literature/36137)&rbrack;
 
 
 
