@@ -1,6 +1,27 @@
 
 * [wikipedia](http://en.wikipedia.org/wiki/Richard_Feynman)
 
+
+
+## Related $n$Lab entries
+
+* [[perturbative quantum field theory]]
+
+* [[Schwinger-Tomonaga-Feynman-Dyson]]
+
+* [[path integral]]
+
+* [[Feynman propagator]]
+
+* [[Feynman diagram]]
+
+* [[Feynman perturbation series]]
+
+* [[Feynman diagrams in causal perturbation theory -- summary]]
+
+* [[Feynman slash notation]]
+
+
 ## Selected popular writings
  {#PopularWritings}
 
@@ -10,6 +31,8 @@
 
 * {#Feynman64} [[Richard Feynman]], *What Is and What Should Be the Role of Scientific Culture in Modern Society*, Galileo Symposium 1964, Italy, recorded as [Chapter 4](http://www.sitpor.org/wp-content/uploads/2015/03/Helix-Books-Richard-P.-Feynman-The-Pleasure-of-Finding-Things-Out_-The-Best-Short-Works-of-Richard-Feynman-Perseus-Publishing-Company-1999.pdf#page=117) in [Feynman 1999](#Feynman99)
 
+* {#Feynman66} [[Richard Feynman]], *What is Science?*, speech at *15th annual meeting of the National Science Teachers Association*, New York City (1966), reprinted in *The Physics Teacher* **7** 6 (1969) 313-320 &lbrack;[doi:10.1119/1.2351388](https://doi.org/10.1119/1.2351388), [webpage](http://www.feynman.com/science/what-is-science)&rbrack;
+
 * {#Feynman88} [[Richard Feynman]], _What Do You Care What Other People Think?_, W.W. Norton, 1988 ([Wikipedia entry](https://en.wikipedia.org/wiki/What_Do_You_Care_What_Other_People_Think%3F))
 
 * {#Feynman99} [[Richard Feynman]], edited by J. Robbins, *The Pleasure of Finding Things Out -- The Best Short Works of Richard P. Feynman*, Perseus Books 1999 ([pdf](http://www.sitpor.org/wp-content/uploads/2015/03/Helix-Books-Richard-P.-Feynman-The-Pleasure-of-Finding-Things-Out_-The-Best-Short-Works-of-Richard-Feynman-Perseus-Publishing-Company-1999.pdf))
@@ -17,7 +40,7 @@
 
 ## Quotes
 
-### On Doubt
+### On Science and Doubt
  {#OnDoubt}
 
 From [Feynman 1955](#Feynman55): 
@@ -44,6 +67,14 @@ From [Feynman 1964](#Feynman64) (from [this page](http://www.sitpor.org/wp-conte
 
 > We absolutely must leave room for doubt or there is no progress and there is no learning. There is no learning without having to pose a question. And a question requires doubt. People search for certainty. But there is no certainty. 
 
+From [Feynman 1966](#Feynman66):
+
+> Science is the belief in the ignorance of experts.
+
+> When someone says, "Science teaches such and such," he is using the word incorrectly. Science doesn’t teach anything; experience teaches it. If they say to you, "Science has shown such and such," you might ask, "How does science show it? How did the scientists find out? How? What? Where?"
+
+> It should not be "science has shown" but "this experiment, this effect, has shown." And you have as much right as anyone else, upon hearing about the experiments -- but be patient and listen to all the evidence -- to judge whether a sensible conclusion has been arrived at.
+
 
 From [Feynman 1988](#Feynman88) ([here](https://books.google.de/books?id=vbMIlkpQXEkC&lpg=PT30&vq=Have%20no%20respect&pg=PT30#v=onepage&q=%22Have%20no%20respect%20whatsoever%20for%20authority%22&f=false)):
 
@@ -52,23 +83,6 @@ From [Feynman 1988](#Feynman88) ([here](https://books.google.de/books?id=vbMIlkp
 cf. [[Carl Sagan]] [on scepticism](Carl+Sagan#OnScepticism)
 
 
-## Related $n$Lab entries
-
-* [[perturbative quantum field theory]]
-
-* [[Schwinger-Tomonaga-Feynman-Dyson]]
-
-* [[path integral]]
-
-* [[Feynman propagator]]
-
-* [[Feynman diagram]]
-
-* [[Feynman perturbation series]]
-
-* [[Feynman diagrams in causal perturbation theory -- summary]]
-
-* [[Feynman slash notation]]
 
 category: people
 
