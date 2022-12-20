@@ -7,9 +7,9 @@ Introducing [[conformal field theory]]:
 
 * [[Alexander Belavin]], [[Alexander Polyakov]], [[Alexander Zamolodchikov]], _Infinite conformal symmetry in two–dimensional quantum field theory_, Nuclear Physics B Volume 241, Issue 2, 23 July 1984, Pages 333-380 (<a href="https://doi.org/10.1016/0550-3213(84)90052-X">doi:10.1016/0550-3213(84)90052-X</a>)
 
-On the [[AdS-CFT correspondence]]:
+On the [[holographic principle]] ([[AdS-CFT correspondence]]) with motivation from and focus on understanding [[flux tubes]] in [[confinement|confined]] [[QCD]], hence on what came to be known as the [[AdS-QCD correspondence]]:
 
-* [[Alexander Polyakov]], _The wall of the cave_, Int. J. Mod. Phys. A14 (1999) 645-658 ([arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057))
+* [[Alexander Polyakov]], *The wall of the cave*, Int. J. Mod. Phys. A **14** (1999) 645-658 &lbrack;[arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057), [doi:10.1142/S0217751X99000324](https://doi.org/10.1142/S0217751X99000324)&rbrack;
 
 
 and specifically between [[single trace operators]] and [[superstring]]-excitations:
