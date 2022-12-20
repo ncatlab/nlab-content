@@ -68,6 +68,8 @@ See at _[supergravity C-field -- shifted flux quantization condition](supergravi
 
 ## Related concepts
 
+* [[flux]], [[flux tube]]
+
 * [[fiber bundles in physics]]
 
 * [[monopole]]
