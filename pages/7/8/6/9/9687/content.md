@@ -189,10 +189,14 @@ See also at _[[glueball]]_.
 
 #### General
 
-* {#Wilson74} [[Kenneth Wilson]],  _Confinement of quarks, Phys. Rev. D10, 2445, 1974 ([doi:10.1103/PhysRevD.10.2445](https://doi.org/10.1103/PhysRevD.10.2445))
+* {#Wilson74} [[Kenneth Wilson]],  *Confinement of quarks*, Phys. Rev. D **10** 2445 (1974) &lbrack;[doi:10.1103/PhysRevD.10.2445](https://doi.org/10.1103/PhysRevD.10.2445)&rbrack;
+
 
 
 Textbook accounts:
+
+* [[Alexander Polyakov]], Chapter V of: *Gauge Fields and Strings*, Routledge, Taylor and Francis (1987, 2021) &lbrack;[doi:10.1201/9780203755082](https://doi.org/10.1201/9780203755082), [oapen:20.500.12657/50871](https://library.oapen.org/handle/20.500.12657/50871)&rbrack;
+
 
 * David Griffiths, chapter 8 of _Introduction to Elementary Particles_ 2nd ed., 2008. ([pdf] (https://www.physics.utah.edu/~belz/phys5110/Griffiths.pdf))
 
@@ -316,6 +320,11 @@ The suggestion that the [[flux tubes]] in confined [[QCD]] are to be interpreted
 * [[Alexander Polyakov]], *String Theory and Quark Confinement*, Nucl. Phys. Proc. Suppl. **68** (1998) 1-8 &lbrack;[arXiv:hep-th/9711002](https://arxiv.org/abs/hep-th/9711002), <a href="https://doi.org/10.1016/S0920-5632(98)00135-2">doi:10.1016/S0920-5632(98)00135-2</a>&rbrack;
 
 * [[Alexander Polyakov]], *The wall of the cave*, Int. J. Mod. Phys. A **14** (1999) 645-658 &lbrack;[arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057), [doi:10.1142/S0217751X99000324](https://doi.org/10.1142/S0217751X99000324)&rbrack;
+
+* {#GubserKlebanovPolyakov98} [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], *Gauge theory correlators from non-critical string theory*, Physics Letters B **428** 105-114 (1998) &lbrack;[hep-th/9802109](http://arxiv.org/abs/hep-th/9802109), <a href="https://doi.org/10.1016/S0370-2693(98)00377-3">doi:10.1016/S0370-2693(98)00377-3</a>&rbrack;
+
+> Relations between gauge fields and strings present an old, fascinating and unanswered question. The full answer to this question is of great importance for theoretical physics. It will provide us with a theory of quark confinement by explaining the dynamics of color-electric fluxes.
+
 
 Via detour through the [[AdS-CFT correspondence]] this eventually became the [[AdS-QCD correspondence]]; see there for many references, including:
 
