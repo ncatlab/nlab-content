@@ -134,15 +134,17 @@ which is the Polyakov action with "[[cosmological constant]]" $(p-1)$.
 
 (So the case where this cosmological constant correction disappears is $p = 1$ corresponding to the [[string]].)
 
+## Related concepts
+
+* [[Liouville theory]]
+
+
 ## References
 
-The Polyakov action was introduced in 
+The Polyakov action was introduced in:
 
-* [[Alexander Polyakov]], 
+* [[Alexander Polyakov]], *Quantum geometry of bosonic strings*, Phys. Lett. B **103** (1981) 207-210 &lbrack;<a href="https://doi.org/10.1016/0370-2693(81)90743-7">doi:10.1016/0370-2693(81)90743-7</a>, [pdf](http://qft.itp.ac.ru/polyakov-2.pdf)&rbrack;
 
-  _Quantum geometry of bosonic strings_ , Phys. Lett. B103 (1981) 207;
-
-  _Quantum geometry of fermionic strings_ , Phys. Lett. B103 (1981) 211
 
 Detailed discussion of the relation to the [[Nambu-Goto action]] and the [[Dirac-Born-Infeld action]] is in 
 
