@@ -151,6 +151,13 @@ When the definition for Kan extensions is internalized to internal categories an
 
 As a nontrivial example of the $K\colon I\to Cat$ case, let $I$ be the [[walking structure|walking]] [[cospan]] $0 \to 1 \leftarrow 2$, and let $K(0) = J$ for some category $J$ while $K(1)=K(2)=\ast$, the [[terminal category]].  Then $\int^I K$ is $J$ together with a new terminal object $1$ and a new object $2$ having only a map to $1$, and so a diagram $D: \int^I K \to C$ consists of a $J$-diagram $D_0$ in a slice category $C/Z$ over some object $Z$ along with a morphism $f:Z\to Y$.  The limit category $\lim_I K$ is isomorphic to $J$, and the functor $D'\colon I\times \lim_I K\to C$ has $D'(0,j) = D_0(j)$, with $D'(1,j) =Z$ and $D'(2,j)=Y$.  Therefore, $\colim_{\lim_I K} \lim_I D'$ is the $J$-colimit of the pullback of $D_0$ along $f$, while $\lim_{i\in I} \colim_{K(i)} D$ is the pullback along $f$ of the colimit of $D_0$.  Thus, the distributivity condition for this $K$ holds if and only if $J$-colimits are [[universal colimit|universal]] (stable under pullback).
 
+### For formal filtered limits and colimits
+
+In the case of presentation of [[ind-object]]s and [[pro-object]]s as formal small filtered colimits and cofiltered limits of (co)representables, a corollary is that there is a functor 
+$$
+Ind(Pro(C))\to Pro(Ind(C)).
+$$
+In a number of interesting cases this functor is inclusion.
 
 ## Related entries
 
