@@ -27,6 +27,8 @@ One way of achieving [[moduli stabilization]] for KK-compactifications in [[Eins
 
 ## Related concepts
 
+* [[flux]], [[flux tube]], [[flux quantization]]
+
 * [[moduli stabilization]]
 
 * [[landscape of string theory vacua]]
