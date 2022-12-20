@@ -464,7 +464,7 @@ Early review:
 
 * {#ObersPioline98} N. A. Obers, B. Pioline, _U-duality and M-Theory_, Phys. Rept. **318** 113-225,1999 ([arXiv:hep-th/9809039](http://arxiv.org/abs/hep-th/9809039))
 
-* [[John Schwarz]], *Introduction to M Theory and AdS/CFT Duality* &lbrack;[arXiv:hep-th/9812037](https://arxiv.org/abs/hep-th/9812037)&rbrack;
+* [[John Schwarz]], *Introduction to M Theory and AdS/CFT Duality*, in: *Quantum Aspects of Gauge Theories, Supersymmetry and Unification* Lecture Notes in Physics **525**, Springer (1999)  &lbrack;[arXiv:hep-th/9812037](https://arxiv.org/abs/hep-th/9812037), [doi:10.1007/BFb0104239](https://doi.org/10.1007/BFb0104239)&rbrack;
 
   >  (with an eye towards [[AdS/CFT duality]])
 
