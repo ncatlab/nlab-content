@@ -440,16 +440,17 @@ Via [[exceptional field theory]]:
 
 ### Introductions and surveys
 
-Surveys and introductions include
+Surveys and introductions:
 
-* [[John Schwarz]], *Introduction to M Theory and AdS/CFT Duality* &lbrack;[arXiv:hep-th/9812037](https://arxiv.org/abs/hep-th/9812037)&rbrack;
+* [[Alexander Polyakov]], *The wall of the cave*, Int. J. Mod. Phys. A **14** (1999) 645-658 &lbrack;[arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057), [doi:10.1142/S0217751X99000324](https://doi.org/10.1142/S0217751X99000324)&rbrack;
+
+  > (early account with focus on [[AdS-QCD duality]])
+
+* [[John Schwarz]], *Introduction to M Theory and AdS/CFT Duality*, in: *Quantum Aspects of Gauge Theories, Supersymmetry and Unification* Lecture Notes in Physics **525**, Springer (1999)  &lbrack;[arXiv:hep-th/9812037](https://arxiv.org/abs/hep-th/9812037), [doi:10.1007/BFb0104239](https://doi.org/10.1007/BFb0104239)&rbrack;
 
   >  (early review with an eye towards [[M-theory]])
 
-
-* [[Alexander Polyakov]], _The wall of the cave_, Int. J. Mod. Phys. A14 (1999) 645-658 ([arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057))
-
-* Jens L. Petersen, _Introduction to the Maldacena Conjecture on AdS/CFT_, Int.J.Mod.Phys. A14 (1999) 3597-3672, [hep-th/9902131](http://arxiv.org/abs/hep-th/9902131) , [doi](http://dx.doi.org/10.1142/S0217751X99001676)
+* [[Jens L. Petersen]], _Introduction to the Maldacena Conjecture on AdS/CFT_, Int. J. Mod. Phys. A **14** (1999) 3597-3672 &lbrack;[hep-th/9902131](http://arxiv.org/abs/hep-th/9902131), [doi:10.1142/S0217751X99001676](http://dx.doi.org/10.1142/S0217751X99001676)&rbrack;
 
 * {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], [[Steven Gubser]], [[Juan Maldacena]], [[Hirosi Ooguri]], [[Yaron Oz]], _Large $N$ Field Theories, String Theory and Gravity_, Phys. Rept. **323**  183-386 (2000) $[$<a href="https://doi.org/10.1016/S0370-1573(99)00083-6">doi:10.1016/S0370-1573(99)00083-6</a>, [arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111)$]$
 
@@ -806,6 +807,7 @@ On the [[deep learning]] algorithm on [[neural networks]] as analogous to the [[
 * Radin Dardashti, Richard Dawid, Sean Gryb, Karim Thébault (2020). *On the Empirical Consequences of the AdS/CFT Duality*. In Nick Huggett, Keizo Matsubara, and Christian Wüthrich (Eds.), Beyond Spacetime: The Foundations of Quantum Gravity (pp. 284-303). Cambridge: Cambridge University Press. ([doi:10.1017/9781108655705.016](https://doi.org/10.1017/9781108655705.016), [arXiv:1810.00949](https://arxiv.org/abs/1810.00949))
 
 [[!redirects AdS/CFT]]
+[[!redirects AdS-CFT]]
 
 [[!redirects AdS/CFT correspondence]]
 
