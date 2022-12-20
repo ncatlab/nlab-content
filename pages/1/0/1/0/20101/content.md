@@ -121,6 +121,16 @@ survey:
 
   > In recent years a number of results in flavour physics have drawn some attention due to tensions with respect to Standard Model predictions. An overview of these results will be shown, together with a few recent results from this Spring, both on the flavour anomalies and 'classical' flavour physics
 
+Claim that the apparent $R_K$-anomalies were due to mis-identification of hadronic backgrounds:
+
+* {#LHCB22} [[LHCb collaboration]] *Test of lepton universality in $b \to s \ell^+ \ell^-$ decays LHCb collaboration* &lbrack;[arXiv:2212.09152](https://arxiv.org/abs/2212.09152)&rbrack;
+
+  [[LHCb collaboration]], *Measurement of lepton universality parameters in $B^+ \to K^+ \ell^+ \ell^-$ and $B^0 \to K^{\ast 0} \ell^+ \ell^-$ decays* &lbrack;[arXiv:2212.09153](https://arxiv.org/abs/2212.09153)&rbrack;
+
+  Davide Castelvecchi, *[Hint of crack in standard model vanishes in LHC data](https://www.nature.com/articles/d41586-022-04545-z)*, Nature News (20 Dec 2022)
+
+
+
 ### On tetraquarks
 
 On [[tetraquarks]]:
