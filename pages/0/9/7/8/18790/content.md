@@ -13,4 +13,10 @@ However, in more exotic contexts where the [[function comprehension|function com
 
 Anafunctions are a [[decategorification]] of the notion of [[anafunctor]], and take their name from the latter.  Traditionally they would be called "total functional relations".
 
+## References
+
+For anafunctions in [[foundations of mathematics]] without the [[principle of unique choice]] see:
+
+* [[Mike Shulman]], *Mathematics without the principle of unique choice*. Mathoverflow. Jun 5, 2018. ([web](https://mathoverflow.net/questions/302037/mathematics-without-the-principle-of-unique-choice](https://mathoverflow.net/questions/302037/mathematics-without-the-principle-of-unique-choice))
+
 [[!redirects anafunctions]]
