@@ -589,12 +589,30 @@ These computations shown so far all use just the field theory in the bulk, not y
 ### General
  {#ReferencesGeneral}
 
-Early suggestion that the [[holographic principle]] is all about understanding [[flux tubes]] in [[QCD]] as [[strings]] in a higher dimensional spacetime:
+#### Pre-history (Polyakov)
+ {#ReferencesPreHistory}
+
+Early suggestion that the [[holographic principle]] is all about understanding [[flux tubes]] in [[confinement|confined]] [[QCD]] as [[strings]] in a higher dimensional spacetime:
+
+* [[Alexander Polyakov]], *Gauge Fields and Strings*, Routledge, Taylor and Francis (1987, 2021) &lbrack;[doi:10.1201/9780203755082](https://doi.org/10.1201/9780203755082), [oapen:20.500.12657/50871](https://library.oapen.org/handle/20.500.12657/50871)&rbrack;
+
+> &lbrack;[personal page](https://phy.princeton.edu/people/alexander-polyakov)&rbrack;: My main interests this year were directed towards [[string theory]] of [[quark]] [[confinement]]. The problem is to find the string Lagrangian for the Faraday's "[[flux tube|lines of force]]",which would reproduce perturbative corrections from the [[Yang-Mills theory]] to the Coulomb law at small distances and would give permanent [[confinement]] of quarks at large distances.
+
 
 * [[Alexander Polyakov]], *String Theory and Quark Confinement*, Nucl. Phys. Proc. Suppl. **68** (1998) 1-8 &lbrack;[arXiv:hep-th/9711002](https://arxiv.org/abs/hep-th/9711002), <a href="https://doi.org/10.1016/S0920-5632(98)00135-2">doi:10.1016/S0920-5632(98)00135-2</a>&rbrack;
 
 * [[Alexander Polyakov]], *The wall of the cave*, Int. J. Mod. Phys. A **14** (1999) 645-658 &lbrack;[arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057), [doi:10.1142/S0217751X99000324](https://doi.org/10.1142/S0217751X99000324)&rbrack;
 
+Eventually culminating in the formulation of the [[AdS-CFT correspondence]]:
+
+* {#GubserKlebanovPolyakov98} [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], *Gauge theory correlators from non-critical string theory*, Physics Letters B **428** 105-114 (1998) &lbrack;[hep-th/9802109](http://arxiv.org/abs/hep-th/9802109), <a href="https://doi.org/10.1016/S0370-2693(98)00377-3">doi:10.1016/S0370-2693(98)00377-3</a>&rbrack;
+
+> Relations between gauge fields and strings present an old, fascinating and unanswered question. The full answer to this question is of great importance for theoretical physics. It will provide us with a theory of quark confinement by explaining the dynamics of color-electric fluxes.
+
+* {#Polyakov02} [[Alexander Polyakov]], _Gauge Fields and Space-Time_, Int. J. Mod. Phys. A **17** S1 (2002) 119-136 &lbrack;[arXiv:hep-th/0110196](https://arxiv.org/abs/hep-th/0110196), [doi:10.1142/S0217751X02013071](https://doi.org/10.1142/S0217751X02013071)&rbrack;
+
+> in the strong coupling limit of a lattice gauge theory the elementary excitations are represented by closed strings formed by the color-electric fluxes. In the presence of quarks these strings open up and end on the quarks, thus guaranteeing quark confinement. More over, in the $SU(N)$
+gauge theory the strings interaction is weak at large $N$. This fact makes it reasonable to expect that also in the physically interesting continuous limit (not accessible by the strong coupling approximation) the best description of the theory should involve the [[flux tubes|flux lines]] (strings) and not fields, thus returning us from Maxwell to Faraday. In other words it is natural to expect an exact duality between gauge fields and strings. The challenge is to build a precise theory on the string side of this duality.
 
 #### Review and introduction
 
