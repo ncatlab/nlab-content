@@ -346,17 +346,19 @@ See [[ABJM theory]].
 
 ### General
 
-The idea of the holographic principle originates in
+The idea of the holographic principle in [[quantum gravity]] originates with:
 
-* [[Gerard 't Hooft]], _Dimensional Reduction in Quantum Gravity_  ([gr-qc/9310026](http://arxiv.org/abs/gr-qc/9310026)).
- {#tHooft93}
+* {#tHooft93} [[Gerard 't Hooft]], _Dimensional Reduction in Quantum Gravity_, talk at *[Conference on Highlights of Particle and Condensed Matter Physics (SALAMFEST)](https://inspirehep.net/conferences/968293)* (1993) &lbrack;[gr-qc/9310026](http://arxiv.org/abs/gr-qc/9310026), [spire:36137](https://inspirehep.net/literature/36137)&rbrack;
 
-* [[Leonard Susskind]], _The World as a hologram_ , J. Math. Phys. 36 (1995) 6377&#8211;6396, ([hep-th/9409089](http://arxiv.org/abs/hep-th/9409089))
- {#Susskind94}
+* {#Susskind94} [[Leonard Susskind]], *The World as a hologram*, J. Math. Phys. **36** (1995) 6377-6396 &lbrack;[hep-th/9409089](http://arxiv.org/abs/hep-th/9409089), [doi:10.1063/1.531249](https://doi.org/10.1063/1.531249)&rbrack;
 
-A review is
+Early discussion of holography in the form of [[QCD]] [[flux tubes]] being described by [[strings]] in a higher dimensional [[spacetime]] ([[AdS-QCD duality]]):
 
-* R. Bousso, _The holographic principle_, Rev. Mod. Phys. __74__ (2002) 825-874, ([MR2003m:83048](http://www.ams.org/mathscinet-getitem?mr=1925130), [doi](http://link.aps.org/doi/10.1103/RevModPhys.74.825), [arXiv:hep-th/0203101](http://arxiv.org/abs/hep-th/0203101))
+* [[Alexander Polyakov]], *The wall of the cave*, Int. J. Mod. Phys. A **14** (1999) 645-658 &lbrack;[arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057), [doi:10.1142/S0217751X99000324](https://doi.org/10.1142/S0217751X99000324)&rbrack;
+
+Review:
+
+* R. Bousso, _The holographic principle_, Rev. Mod. Phys. __74__ (2002) 825-874 &lbrack;[MR2003m:83048](http://www.ams.org/mathscinet-getitem?mr=1925130), [doi](http://link.aps.org/doi/10.1103/RevModPhys.74.825), [arXiv:hep-th/0203101](http://arxiv.org/abs/hep-th/0203101)&rbrack;
 
 See also
 
