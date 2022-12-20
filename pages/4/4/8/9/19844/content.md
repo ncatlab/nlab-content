@@ -317,6 +317,11 @@ The main point to bear in mind is that there are three anomalies, RD(∗) , RK(�
 
 > So, the chances of at least one of these surviving the test of time and leading us to new physics is rather high, 
 
+\linebreak
+
+
+
+However, [LHCB22](#LHCB22) claims that re-analysis of hadronic backgrounds in kaonic decays makes the decay rate in the electron channel go down, so that the ratio $R_K$, $R_{K^\ast}$ over the corresponding muon channel is accurately described by the standard model (cf. [A. Maas, 20 Dec 2022](https://twitter.com/axelmaas/status/1605159026441986049)).
 
 
 \linebreak
@@ -678,6 +683,8 @@ Saad Nabeebaccus, Roman Zwicky, *On the $R_K$ Theory Error* &lbrack;[arXiv:2209.
 * {#LHCB21} [[LHCb collaboration]], *Tests of lepton universality using $B^0 \to K^0_S l^+ l^-$− and $B^+ \to K^\ast \ell^+ \ell^-$ decays* ([arXiv:2110.09501](https://arxiv.org/abs/2110.09501))
 
 * Gregory Max Ciezarek on behalf of the [[LHCb collaboration]]: *First joint measurement of $R(D^\ast)$ and $R(D^0)$ at LHCb*, LHC seminar (2022) &lbrack;[indico:1187939](https://indico.cern.ch/event/1187939), slides: [pdf](https://indico.cern.ch/event/1187939/attachments/2530158/4353109/dtaunu_CERNSeminar.pdf)&rbrack;
+
+* {#LHCB22} [[LHCb collaboration]], *Measurement of lepton universality parameters in $B^+ \to K^+ \ell^+ \ell^-$ and $B^0 \to K^{\ast 0} \ell^+ \ell^-$ decays* &lbrack;[arXiv:2212.09153](https://arxiv.org/abs/2212.09153)&rbrack;
 
 More accurate predictions from [[lattice QCD]] of the expected branching ratios:
 
