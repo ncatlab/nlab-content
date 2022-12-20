@@ -1508,9 +1508,9 @@ See also early occurences in [[physics]], listed [below](#ReferencesInQuantumFie
 
 General accounts:
 
-* [[Edward Fadell]], [[Sufian Husseini]], _Geometry and topology of configuration spaces_, Springer Monographs in Mathematics (2001)  ([MR2002k:55038](http://www.ams.org/mathscinet-getitem?mr=2002k:55038), [doi:10.1007/978-3-642-56446-8]([doi:10.1007/978-3-642-56446-8](https://link.springer.com/book/10.1007/978-3-642-56446-8)) xvi+313 
+* [[Edward Fadell]], [[Sufian Husseini]], _Geometry and topology of configuration spaces_, Springer Monographs in Mathematics (2001)  &lbrack;[doi:10.1007/978-3-642-56446-8](https://link.springer.com/book/10.1007/978-3-642-56446-8), [MR2002k:55038](http://www.ams.org/mathscinet-getitem?mr=2002k:55038)&rbrack; xvi+313 
 
-* {#Cohen09} [[Frederick R. Cohen]], *Introduction to configuration spaces and their applications*, in *Braids* Lecture Notes Series, Institute for Mathematical Sciences, National University of Singapore **19** (2009)  183-261  $[$[doi:10.1142/9789814291415_0003](https://doi.org/10.1142/9789814291415_0003), [pdf](https://www.mimuw.edu.pl/~sjack/prosem/Cohen_Singapore.final.24.december.2008.pdf), [doi:https://doi.org/10.1142/7550 ](https://doi.org/10.1142/7550 )$]$
+* {#Cohen09} [[Frederick R. Cohen]], *Introduction to configuration spaces and their applications*, in *Braids* Lecture Notes Series, Institute for Mathematical Sciences, National University of Singapore **19** (2009)  183-261  &lbrack;[doi:10.1142/9789814291415_0003](https://doi.org/10.1142/9789814291415_0003), [doi:10.1142/7550](https://doi.org/10.1142/7550 ), [pdf](https://www.mimuw.edu.pl/~sjack/prosem/Cohen_Singapore.final.24.december.2008.pdf)&rbrack;
 
 * [[Craig Westerland]], _Configuration spaces in geometry and topology_, 2011 ([pdf](https://www.austms.org.au/Publ/Gazette/2011/Nov11/TechPaperWesterland.pdf))
 
