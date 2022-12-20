@@ -13,9 +13,13 @@
 
 This page collects material related to the textbook
 
-* [[Günter Scharf]], 
+* [[Günter Scharf]]
 
-  _Quantum Gauge Theories -- A True Ghost Story_, 
+  \linebreak
+
+  **Quantum Gauge Theories -- A True Ghost Story** 
+
+  \linebreak
 
   Wiley 2001
 
