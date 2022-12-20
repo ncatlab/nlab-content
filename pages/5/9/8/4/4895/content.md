@@ -373,14 +373,13 @@ See the references at [[AdS/CFT correspondence]].
 
 The identification of the [[space of quantum states]] of 3d $G$-[[Chern-Simons theory]] with the space of [[conformal blocks]] of the [[WZW model]] on $G$ is due to 
 
-* [[Edward Witten]] _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([EUCLID](http://projecteuclid.org/euclid.cmp/1104178138))
- {#Witten89}
-
+* {#Witten89} [[Edward Witten]], *Quantum Field Theory and the Jones Polynomial*, Commun. Math. Phys. 121 (3) (1989) 351-399. &lbrack;[euclid:cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138), MR0990772&rbrack;
+ 
 
 A review of the standard holographic relation between 3d $G$-[[Chern-Simons theory]] and the [[WZW model]] on $G$ is for instance around p. 30 of
 
-* [[Krzysztof Gawędzki]], _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
- {#Gawedzki99}
+* {#Gawedzki99} [[Krzysztof Gawędzki]], _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
+ 
 
 
 Discussion of how [[gauge transformations]] of the [[action functional]] of [[Chern-Simons theory]] reproduce overe [[boundaries]] the action functional of the [[WZW model]] are for instance on p. 6 of
