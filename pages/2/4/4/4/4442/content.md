@@ -375,7 +375,8 @@ The rough conjecture originates in:
 
 The actual rule for matching [[bulk field theory|bulk]] [[states]] to [[generating functions]] for [[boundary field theory|boundary]] [[correlators]]/[[n-point functions]] is due to
 
-* {#GubserKlebanovPolyakov98} [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], around (12) of _Gauge theory correlators from non-critical string theory_, Physics Letters B428: 105&#8211;114 (1998) ([hep-th/9802109](http://arxiv.org/abs/hep-th/9802109))
+* {#GubserKlebanovPolyakov98} [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], around (12) of: *Gauge theory correlators from non-critical string theory*, Physics Letters B **428** 105-114 (1998) &lbrack;[hep-th/9802109](http://arxiv.org/abs/hep-th/9802109), <a href="https://doi.org/10.1016/S0370-2693(98)00377-3">doi:10.1016/S0370-2693(98)00377-3</a>&rbrack;
+
 
 * {#Witten98} [[Edward Witten]], around (2.11) of _Anti-de Sitter space and holography_, Advances in Theoretical and Mathematical Physics 2: 253&#8211;291, 1998 ([hep-th/9802150](http://arxiv.org/abs/hep-th/9802150))
 
@@ -500,14 +501,13 @@ Using the [[KK-compactification]] of [[D=4 N=4 super Yang-Mills theory]] to the 
 
 The correspondence of [[single trace operators]] to [[superstring]] excitations under the [[AdS-CFT correspondence]] originates with these articles:
 
-* {#Polyakov02} [[Alexander Polyakov]], _Gauge Fields and Space-Time_, Int. J. Mod. Phys. A17S1 (2002) 119-136 ([arXiv:hep-th/0110196](https://arxiv.org/abs/hep-th/0110196))
-
+* {#Polyakov02} [[Alexander Polyakov]], _Gauge Fields and Space-Time_, Int. J. Mod. Phys. A17S1 (2002) 119-136 &lbrack;[arXiv:hep-th/0110196](https://arxiv.org/abs/hep-th/0110196), [doi:10.1142/S0217751X02013071](https://doi.org/10.1142/S0217751X02013071)&rbrack;
 
 * {#BerensteinMaldacenaNastase02} [[David Berenstein]], [[Juan Maldacena]], [[Horatiu Nastase]], _Strings in flat space and pp waves from $\mathcal{N} = 4$ Super Yang Mills_, JHEP 0204 (2002) 013 ([arXiv:hep-th/0202021](https://arxiv.org/abs/hep-th/0202021))
 
   (whence "[[BMN operators]]")
 
-* [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], _A semi-classical limit of the gauge/string correspondence_, Nucl. Phys. B636 (2002) 99-114 ([arXiv:hep-th/0204051](https://arxiv.org/abs/hep-th/0204051))
+* [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], *A semi-classical limit of the gauge/string correspondence*, Nucl. Phys. B **636** (2002) 99-114 &lbrack;[arXiv:hep-th/0204051](https://arxiv.org/abs/hep-th/0204051), <a href="https://doi.org/10.1016/S0550-3213(02)00373-5">doi:10.1016/S0550-3213(02)00373-5</a>&rbrack;
 
 
 * {#Kruczenski04} [[Martin Kruczenski]], _Spiky strings and single trace operators in gauge theories_, JHEP 0508:014, 2005 ([arXiv:hep-th/0410226](https://arxiv.org/abs/hep-th/0410226))
