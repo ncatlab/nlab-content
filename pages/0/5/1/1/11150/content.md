@@ -34,6 +34,11 @@ An argument (via [[Chern-Simons gravity]], but see the caveats there) that [[3d 
 
 ## References
 
+On the non-critical [[bosonic string]] via Liouville theory (cf. *[[Polyakov action]]*):
+
+* [[Alexander Polyakov]], *Quantum geometry of bosonic strings*, Phys. Lett. B **103** (1981) 207-210 &lbrack;<a href="https://doi.org/10.1016/0370-2693(81)90743-7">doi:10.1016/0370-2693(81)90743-7</a>, [pdf](http://qft.itp.ac.ru/polyakov-2.pdf)&rbrack;
+
+
 Survey:
 
 
