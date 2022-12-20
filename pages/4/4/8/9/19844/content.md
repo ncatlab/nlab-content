@@ -684,7 +684,13 @@ Saad Nabeebaccus, Roman Zwicky, *On the $R_K$ Theory Error* &lbrack;[arXiv:2209.
 
 * Gregory Max Ciezarek on behalf of the [[LHCb collaboration]]: *First joint measurement of $R(D^\ast)$ and $R(D^0)$ at LHCb*, LHC seminar (2022) &lbrack;[indico:1187939](https://indico.cern.ch/event/1187939), slides: [pdf](https://indico.cern.ch/event/1187939/attachments/2530158/4353109/dtaunu_CERNSeminar.pdf)&rbrack;
 
-* {#LHCB22} [[LHCb collaboration]], *Measurement of lepton universality parameters in $B^+ \to K^+ \ell^+ \ell^-$ and $B^0 \to K^{\ast 0} \ell^+ \ell^-$ decays* &lbrack;[arXiv:2212.09153](https://arxiv.org/abs/2212.09153)&rbrack;
+* {#LHCB22} [[LHCb collaboration]] *Test of lepton universality in $b \to s \ell^+ \ell^-$ decays LHCb collaboration* &lbrack;[arXiv:2212.09152](https://arxiv.org/abs/2212.09152)&rbrack;
+
+  [[LHCb collaboration]], *Measurement of lepton universality parameters in $B^+ \to K^+ \ell^+ \ell^-$ and $B^0 \to K^{\ast 0} \ell^+ \ell^-$ decays* &lbrack;[arXiv:2212.09153](https://arxiv.org/abs/2212.09153)&rbrack;
+
+  Davide Castelvecchi, *[Hint of crack in standard model vanishes in LHC data](https://www.nature.com/articles/d41586-022-04545-z)*, Nature News (20 Dec 2022)
+
+
 
 More accurate predictions from [[lattice QCD]] of the expected branching ratios:
 
