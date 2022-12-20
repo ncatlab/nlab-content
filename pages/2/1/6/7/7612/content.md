@@ -175,3 +175,6 @@ See also:
 
 [[!redirects verified programming]]
 
+[[!redirects certification language]]
+[[!redirects certification languages]]
+
