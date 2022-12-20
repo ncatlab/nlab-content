@@ -158,6 +158,8 @@ Together with the entanglement-theoretic characterization just mentioned, the lo
     }
 \end{tikzcd}
 
+> (diagram adapted from [SS22](#SatiSchreiber22))
+
 The first steps in this sequence is intuitively plausible and widely expected to hold (eg. [Lu & Viyah 2022, p. 1](entanglement+entropy#LuVijay22)) but not currently derivable from first principles ([Zaanen, Liu, Sun & Schalm 2015, p. 527](entanglement+entropy#ZaanenLiuSunSchalm15)):
  
 If the [[electromagnetic field|Coulomb]] interaction between the electrons -- which by itself is certainly strong and long-range -- cannot be neglected (hence if the averaging- or screening-effects that make [[electron band theory]] work do not apply) then this strong interaction makes the electrons in the ground state be correlated with each other, one way or other, across non-negligible distances; and quantum mechanically this leads to the ground state's entanglement entropy having long-range contributions, which,  essentially by definition, means that it has a constant contribution by the *topological* entanglement entropy.
@@ -311,7 +313,7 @@ Nucl. Phys. B419, 455 (1994).
 
 Discussion via [[twisted equivariant K-theory]]:
 
-* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]* &lbrack;[arXiv:2206.13563](https://arxiv.org/abs/2206.13563)&rbrack;
+* {#SatiSchreiber22} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]* &lbrack;[arXiv:2206.13563](https://arxiv.org/abs/2206.13563)&rbrack;
 
 
 
