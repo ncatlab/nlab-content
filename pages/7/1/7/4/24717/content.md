@@ -21,6 +21,8 @@ A model for [[n-categories]].
 
 (...)
 
+## Homotopically discrete n-fold categories
+
 ## References
 
 * {#Paoli19a} [[Simona Paoli]], *Weakly globular $N$-fold categories as a model of weak $N$-categories*, in: *Simplicial Methods for Higher Categories*, Algebra and Applications **26** Springer (2019)  &lbrack;[doi:10.1007/978-3-030-05674-2_12](https://doi.org/10.1007/978-3-030-05674-2_12)&rbrack;
