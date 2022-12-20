@@ -60,7 +60,7 @@ On [[Green-Schwarz sigma-models]] for [[D-branes]]:
 
 Early review of [[M-theory]] and [[AdS/CFT duality]]:
 
-* [[John Schwarz]], *Introduction to M Theory and AdS/CFT Duality* &lbrack;[arXiv:hep-th/9812037](https://arxiv.org/abs/hep-th/9812037)&rbrack;
+* [[John Schwarz]], *Introduction to M Theory and AdS/CFT Duality*, in: *Quantum Aspects of Gauge Theories, Supersymmetry and Unification* Lecture Notes in Physics **525**, Springer (1999)  &lbrack;[arXiv:hep-th/9812037](https://arxiv.org/abs/hep-th/9812037), [doi:10.1007/BFb0104239](https://doi.org/10.1007/BFb0104239)&rbrack;
 
 
 On [[type I' string theory]]:
