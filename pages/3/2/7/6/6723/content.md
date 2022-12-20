@@ -3,6 +3,8 @@
 
 ## Selected writings
 
+
+
 Inclusion of heavy [[flavor (particle physics)|flavors]] ([[strange quarks]]/[[kaons]], etc.) into the [[Skyrme model]]:
 
 * [[Curtis Callan]], [[Igor Klebanov]], _Bound-state approach to strangeness in the Skyrme model_, Nuclear Physics B Volume 262, Issue 2, 16 December 1985, Pages 365-382 (<a href="https://doi.org/10.1016/0550-3213(85)90292-5">doi10.1016/0550-3213(85)90292-5</a>)
@@ -12,11 +14,17 @@ Inclusion of heavy [[flavor (particle physics)|flavors]] ([[strange quarks]]/[[k
 
 On [[black holes in string theory]] via the [[BFSS matrix model]]:
 
-* [[Tom Banks]], [[Willy Fischler]], [[Igor Klebanov]], [[Leonard Susskind]],  _Schwarzschild Black Holes from Matrix Theory_, Phys. Rev. Lett. 80:226-229,1998 ([arXiv:hep-th/9709091](https://arxiv.org/abs/hep-th/9709091))
+* [[Tom Banks]], [[Willy Fischler]], [[Igor Klebanov]], [[Leonard Susskind]],  _Schwarzschild Black Holes from Matrix Theory_, Phys. Rev. Lett. 80:226-229 (1998) &lbrack;[arXiv:hep-th/9709091](https://arxiv.org/abs/hep-th/9709091)&rbrack;
 
-* [[Tom Banks]], [[Willy Fischler]], [[Igor Klebanov]], [[Leonard Susskind]], _Schwarzchild Black Holes in Matrix Theory II_, JHEP 9801:008,1998 ([arXiv:hep-th/9711005](https://arxiv.org/abs/hep-th/9711005))  
+* [[Tom Banks]], [[Willy Fischler]], [[Igor Klebanov]], [[Leonard Susskind]], _Schwarzchild Black Holes in Matrix Theory II_, JHEP 9801:008 (1998) &lbrack;[arXiv:hep-th/9711005](https://arxiv.org/abs/hep-th/9711005)&rbrack; 
 
-* [[Igor Klebanov]], [[Leonard Susskind]], _Schwarzschild Black Holes in Various Dimensions from Matrix Theory_, Phys.Lett.B416:62-66,1998 ([arXiv:hep-th/9709108](https://arxiv.org/abs/hep-th/9709108))
+* [[Igor Klebanov]], [[Leonard Susskind]], _Schwarzschild Black Holes in Various Dimensions from Matrix Theory_, Phys.Lett.B416:62-66 (1998) &lbrack;[arXiv:hep-th/9709108](https://arxiv.org/abs/hep-th/9709108)&rbrack;
+
+Introducing the dictionary of the [[AdS-CFT correspondence]]:
+
+* {#GubserKlebanovPolyakov98} [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], *Gauge theory correlators from non-critical string theory*, Physics Letters B **428** 105-114 (1998) &lbrack;[hep-th/9802109](http://arxiv.org/abs/hep-th/9802109), <a href="https://doi.org/10.1016/S0370-2693(98)00377-3">doi:10.1016/S0370-2693(98)00377-3</a>&rbrack;
+
+> Relations between gauge fields and strings present an old, fascinating and unanswered question. The full answer to this question is of great importance for theoretical physics. It will provide us with a theory of quark [[confinement]] by explaining the dynamics of color-electric fluxes.
 
 
 On the [[pp-wave spacetime]] [[Penrose limit]] of the [[AdS5-CFT4 correspondence]]:
@@ -26,7 +34,7 @@ On the [[pp-wave spacetime]] [[Penrose limit]] of the [[AdS5-CFT4 correspondence
 
 On [[single trace operators]] in the [[AdS/CFT correspondence]]:
 
-* [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], _A semi-classical limit of the gauge/string correspondence_, Nucl. Phys. B636 (2002) 99-114 ([arXiv:hep-th/0204051](https://arxiv.org/abs/hep-th/0204051))
+* [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], *A semi-classical limit of the gauge/string correspondence*, Nucl. Phys. B **636** (2002) 99-114 &lbrack;[arXiv:hep-th/0204051](https://arxiv.org/abs/hep-th/0204051), <a href="https://doi.org/10.1016/S0550-3213(02)00373-5">doi:10.1016/S0550-3213(02)00373-5</a>&rbrack;
 
 On [[double trace operators]] in [[AdS/CFT]]:
 
