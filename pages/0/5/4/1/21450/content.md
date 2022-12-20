@@ -282,6 +282,13 @@ the many experimental cross section measurements.
 
 \linebreak
 
+* Daniele Binosi, *Emergent Hadron Mass in Strong Dynamics*, Few-Body Syst **63** 42 (2022) &lbrack;[arXiv:2203.00942](https://arxiv.org/abs/2203.00942), [doi:10.1007/s00601-022-01740-6](https://doi.org/10.1007/s00601-022-01740-6)&rbrack;
+
+> [[asymptotic freedom]] implies that the theory is innately [[nonperturbative quantum field theory|nonperturbative]] at short distances, which in turn means that it is extremely difficult to describe [[QCD]]’s dynamics at the [[fm|$fm$]] scale. Indeed, QCD’s colour-charged degrees of freedom, the massless gluons and the light up and down quarks, have never been observed in isolation: they are confined in colour-neutral bound-states, the hadrons, of which the (light) pion and the (heavy) proton are primary examples. It should be noticed that without a mass-scale confinement would not be possible: colour-singlet combinations of quarks would still be there, but the participating particles would need not be close together, since in a scale invariant theory all lengths are equivalent. Accordingly, the question "how does confinement appear in QCD" is inextricably connected to the question “how does mass emerge in strong dynamics”.
+
+
+\linebreak
+
 * [[Mikhail Shifman]], *OPE-based Methods in Nonperturbative QCD*, Eur. Phys. J. C (2022) $[$[arXiv:2208.10600](https://arxiv.org/abs/2208.10600)$]$
 
 > QCD and its relatives are special because QCD is the theory of nature. QCD is strongly coupled in the infrared domain where it is impossible to treat it quasi-classically -- perturbation theory fails even qualitatively. It does not capture drastic rearrangement of the vacuum structure related to confinement. The Lagrangian is defined at short distances in terms of gluons and quarks, while at large distances we deal with [[hadrons]], e.g. pions, ρ mesons, protons, etc. Certainly, the latter are connected with quarks and gluons in a divine way, but this connection is highly nonlinear and non-local; even now, 50 years later, the full analytic solution of QCD
