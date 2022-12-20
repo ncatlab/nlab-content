@@ -1579,7 +1579,7 @@ Textbook accounts:
 
 * {#Bourbaki71} [[Nicolas Bourbaki]], Chapter 1 of:  _Topological Structures_ of _Elements of Mathematics III: General topology_, Springer 1971, 1990
 
-* {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000) $[$[pdf](http://mathcenter.spb.ru/nikaan/2019/topology/4.pdf)$]$
+* {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000) &lbrack;ISBN:0-13-181629-2, [pdf](http://mathcenter.spb.ru/nikaan/2019/topology/4.pdf)&rbrack;
 
 
 * {#Engelking89} [[Ryszard Engelking]], *General Topology*, Sigma series in pure mathematics **6**, Heldermann 1989 ([ ISBN 388538-006-4](https://www.heldermann.de/SSPM/SSPM06/sspm06.htm))
