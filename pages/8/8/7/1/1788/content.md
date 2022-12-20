@@ -4,6 +4,8 @@ $$
           &Y & \underset{f'}= & W & \\
 }$$
 
+[https://nyuad.nyu.edu/en/events/2023/january/m-theory-and-mathematics-conference-2023.html](https://nyuad.nyu.edu/en/events/2023/january/m-theory-and-mathematics-conference-2023.html)
+
 <center>
 <img src="https://ncatlab.org/nlab/files/AbuDhabiTheorPhysMeetingTitle.jpg" width="700"/>
 <br/>
