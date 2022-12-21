@@ -43,7 +43,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Generalization of Algebraic Operations via Enrichment|[[Christina Vasilakopoulou]]|2014|[arXiv](https://arxiv.org/abs/1411.3038)| |
 |Three studies in higher category theory: fibrations, skew monoidal structures and excision of extremals|Mitchell Buckley|2015|[Macquarie repository](http://hdl.handle.net/1959.14/1068202)| |
 |Synthetic Lie theory|Matthew Burke|2015|[Macquarie repository](http://hdl.handle.net/1959.14/1068205)| |
-|Sketches in higher category theory|Remy Vincent Tuyeras|2015|[Macquarie repository](http://hdl.handle.net/1959.14/1061373)| | 
+|Sketches in higher category theory|[[Remy Tuyeras|Remy Vincent Tuyeras]]|2015|[Macquarie repository](http://hdl.handle.net/1959.14/1061373)| | 
 |A higher categorical approach to Giraud's non-abelian cohomology|Alexander Campbell|2016|[Macquarie repository](http://hdl.handle.net/1959.14/1261186)| |
 |The Algebra of Open and Interconnected Systems|Brendan Fong|2016|[arXiv](https://arxiv.org/abs/1609.05382)| |
 |Oplax actions and enriched icons with applications to coalgebroids and quantum categories|Ramón Abud Alcalá|2017|[Macquarie repository](http://hdl.handle.net/1959.14/1267344)| |
