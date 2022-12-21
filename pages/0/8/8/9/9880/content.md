@@ -176,6 +176,10 @@ becomes
 
 * {#BakulevShirkov10} Alexander P. Bakulev, [[Dmitry Shirkov]], _Inevitability and Importance of Non-Perturbative Elements in Quantum Field Theory_, Proceedings of the 6th Mathematical Physics Meeting, Sept. 14--23, 2010, Belgrade, Serbia, pp. 27--54 ([arXiv:1102.2380](https://arxiv.org/abs/1102.2380), [ISBN 978-86-82441-30-4](http://www.proceedings.com/22646.html), [book webpage](http://www.mphys6.ipb.ac.rs/proceedings6.htm), [book TOC pdf](http://toc.proceedings.com/22646webtoc.pdf)) 
 
+Discussion of traditional [[algebraic quantum field theory]] as being about non-perturbative effects (and therefore lacking any interesting models in 3+1 dimensions, so far...):
+
+* {#Strocchi13} [[Franco Strocchi]], _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
+
 
 Genral introduction and toy examples (e.g. [[phi^4-theory]] or anharmonic oscillator):
 
