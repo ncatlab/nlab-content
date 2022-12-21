@@ -78,6 +78,15 @@ An __$n$-ary relation__ on $A$ is a relation on a family of $n$ copies of $A$, t
 
 For a binary relation, one often uses a symbol such as $\sim$ and writes $a \sim b$ instead of $(a,b) \in \sim$.  Actually, even when a relation is given by a letter such as $R$, one often sees $a R b$ instead of $(a,b) \in R$, although now that does not look so good.
 
+### Internal and external relations
+
+In foundations of mathematics with a [[sort]] of [[propositions]] and a separate sort of [[sets]], such as most presentations of [[set theory]] in [[first-order logic]] with [[equality]], there are actually two notions of relation. The definition given above is the notion of **internal relation**, defined as a [[subset]] of the [[Cartesian product]] of a [[family of sets]]. There is a second definition of relation on a set: external relations, which are not defined purely inside of the set theory. Since each set has a type of elements inside of the set, an **external relation** is simply a [[proposition]] in the [[context]] of a family of [[variables]] $x_i$ inside of a family of sets $A_i$
+$$\Gamma, x_0 \in A_0, x_1 \in A_1, x_2 \in A_2, \ldots, x_n \in A_n \vdash P \; \mathrm{prop}$$
+In any [[unsorted set theory]], those variables would be expressed as
+$$\Gamma, x_0, A_0, x_0 \in A_0 \; \mathrm{true}, x_1, A_1, x_1 \in A_1 \; \mathrm{true}, x_2, A_2, x_2 \in A_2 \; \mathrm{true}, \ldots, x_n, A_n, x_n \in A_n \; \mathrm{true} \vdash P \; \mathrm{prop}$$
+It is in this second sense of external relation that [[equality]] in [[first-order logic with equality]] is an [[equivalence relation]], and [[inequality]] is a [[tight apartness relation]] in a first-order theory with equality presented in [[classical logic]]. 
+
+In [[dependent type theory]], where propositions are considered to be the [[subsingletons]] or the [[sets]]/[[types]] themselves, there is only one notion of relation, the internal notion given above. 
 
 ## Morphisms
 
@@ -230,3 +239,9 @@ Probably the trickiest bit is the definition of [[composition]] of binary relati
 
 [[!redirects binary endorelation]]
 [[!redirects binary endorelations]]
+
+[[!redirects internal relation]]
+[[!redirects internal relations]]
+
+[[!redirects external relation]]
+[[!redirects external relations]]
