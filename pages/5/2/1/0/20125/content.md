@@ -358,6 +358,10 @@ Discussion in relation to [[higher parallel transport]]:
 
 * {#Parzygnat18} [[Arthur Parzygnat]], _Two-dimensional algebra in lattice gauge theory_, Journal of Mathematical Physics 60, 043506 (2019) ([arXiv:1802.01139](https://arxiv.org/abs/1802.01139), [doi:10.1063/1.5078532](https://doi.org/10.1063/1.5078532))
 
+### Related to language models
+
+* [[Vasily Pestun]], [[Yiannis Vlassopoulos]], _Tensor network language model_, [arXiv:1710.10248](https://arxiv.org/abs/1710.10248)
+
 
 
 [[!redirects tensor networks]]
