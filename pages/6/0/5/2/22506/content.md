@@ -119,6 +119,8 @@ For more on this see at *[[holographic entanglement entropy]]*.
 
 * [[holographic entanglement entropy]]
 
+* [[quantum teleportation]]
+
 * [[black hole firewall problem]]
 
 
@@ -127,6 +129,10 @@ For more on this see at *[[holographic entanglement entropy]]*.
 The original article:
 
  * {#MaldacenaSusskind13} [[Juan Maldacena]], [[Leonard Susskind]], _Cool horizons for entangled black holes_, Fortsch. Phys. 61 (2013) 781-811, 2013 ([arXiv:1306.0533](http://arxiv.org/abs/1306.0533), [doi:10.1002/prop.201300020](https://doi.org/10.1002/prop.201300020)) 
+
+An email exchange that happened half a year earlier:
+
+* [[Erik Verlinde]], [[Herman Verlinde]], *A Conversation on ER = EPR* &lbrack;[arXiv:2212.09389](https://arxiv.org/abs/2212.09389)&rbrack;
 
 See also
 
