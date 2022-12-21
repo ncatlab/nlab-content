@@ -42,6 +42,11 @@ Detailed argument for the theta vacuum from [[chiral symmetry breaking]] is offe
 
 * G. Morchio, [[Franco Strocchi]], _Chiral symmetry breaking and theta vacuum structure in QCD_, Annals Phys.324:2236-2254, 2009 ([arXiv:0907.2522](https://arxiv.org/abs/0907.2522))
 
+Discussion in a context of [[algebraic quantum field theory|algebraic]] [[non-perturbative quantum field theory]]:
+
+* [[Franco Strocchi]], §8 of: _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
+
+
 [[!redirects theta vacua]]
 
 [[!redirects theta-vacuum]]
