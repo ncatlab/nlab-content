@@ -6,15 +6,18 @@
 ## Selected writings
 
 
+On [[topological quantum computation]] with a [[Chern-Simons theory]] for [[anyons]]:
+
+* {#Freedman98} [[Michael Freedman]], *P/NP, and the quantum field computer*, Proc. Nat. Acad. Sci. **95** 1 (1998) 98-101 &lbrack;[doi:10.1073/pnas.95.1.9](https://doi.org/10.1073/pnas.95.1.9)&rbrack;
+
+
+* [[Michael Freedman]], [[Alexei Kitaev]], [[Michael Larsen]], [[Zhenghan Wang]], _Topological quantum computation_,  Bull. Amer. Math. Soc. __40__ (2003), 31-38 ([arXiv:quant-ph/0101025](https://arxiv.org/abs/quant-ph/0101025), [doi:10.1090/S0273-0979-02-00964-3](https://doi.org/10.1090/S0273-0979-02-00964-3), [pdf](http://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00964-3/S0273-0979-02-00964-3.pdf))
+
 
 On [[quantum error correcting codes]] associated with planar bulk/boundary systems (precursor to [[holographic tensor networks]]):
 
 * [[Michael Freedman]], David A. Meyer, *Projective Plane and Planar Quantum Codes*, Found. Comput. Math. 1, 325–332 (2001) ([arXiv:quant-ph/9810055](https://arxiv.org/abs/quant-ph/9810055), [doi:10.1007/s102080010013](https://doi.org/10.1007/s102080010013))
 
-
-On [[topological quantum computation]] with [[anyons]]:
-
-* [[Michael Freedman]], [[Alexei Kitaev]], [[Michael Larsen]], [[Zhenghan Wang]], _Topological quantum computation_,  Bull. Amer. Math. Soc. __40__ (2003), 31-38 ([arXiv:quant-ph/0101025](https://arxiv.org/abs/quant-ph/0101025), [doi:10.1090/S0273-0979-02-00964-3](https://doi.org/10.1090/S0273-0979-02-00964-3), [pdf](http://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00964-3/S0273-0979-02-00964-3.pdf))
 
 On [[braiding]] of [[su(2)-anyons]] providing universal [[quantum gates]] for [[topological quantum computation]]:
 
