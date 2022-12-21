@@ -189,7 +189,9 @@ Implementation in [[quantum programming languages]]:
 * *[Qiskit: Quantum Teleportation](https://qiskit.org/textbook/ch-algorithms/teleportation.html)*
 
 
-Argument that the image of quantum teleportation under [[AdS-CFT duality]] is *[[wormhole]] traversal*:
+Argument that the image of quantum teleportation under [[AdS-CFT duality]] is *[[wormhole]] traversal* (see also at *[[ER = EPR]]*):
+
+* [[Erik Verlinde]], [[Herman Verlinde]], *A Conversation on ER = EPR* &lbrack;[arXiv:2212.09389](https://arxiv.org/abs/2212.09389)&rbrack;
 
 * [[Ping Gao]], [[Daniel Louis Jafferis]], [[Aron C. Wall]], *Traversable Wormholes via a Double Trace Deformation*, Journal of High Energy Physics **2017** 151 (2017) &lbrack;[arXiv:1608.05687](https://arxiv.org/abs/1608.05687), <a href="https://doi.org/10.1007/JHEP12(2017)151">doi:10.1007/JHEP12(2017)151</a>&rbrack;
 
