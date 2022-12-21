@@ -21,10 +21,12 @@
 
 A _Wilson loop_ or _Wilson line_ is an [[observable]] in (both classical and quantum) [[gauge theory]] obtained from the [[holonomy]] of the [[gauge field|gauge]] [[connection on a bundle|connection]]. 
 
-Hence if the gauge connection is given by a globally defined 1-form $A$, then the __Wilson loop__ along a closed [[loop]] $C$ is the trace of the [[path-ordered exponential]]
+Hence if the gauge connection is given by a globally defined 1-form $A$, then the __Wilson loop__ along a closed [[loop]] $C$ is the trace of the [[Dyson formula|path-ordered exponential]]
+
 $$
-W_C = Tr(\mathcal{P}exp(i\oint_C A_\mu d x^\mu))
+  W_C = Tr(\mathcal{P}exp(i\oint_C A_\mu d x^\mu))
 $$
+
 where $\mathcal{P}$ is the "path-ordering operator" and $A_\mu$ are the components of the connection. 
 
 ## Properties
@@ -82,6 +84,8 @@ This is [Roberts-Willerton 10, Lemma 8.6](Rozansky-Witten+Wilson+loop+of+unknot+
 
 
 ## Related entries
+
+* [[flux tube]]
 
 * [['t Hooft operator]]
 
