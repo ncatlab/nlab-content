@@ -19,15 +19,20 @@
 
 ## Syntax
 
-Linguists may deploy formal methods to analyse the syntax of natural language.
+Linguists may deploy formal methods to analyse the [[syntax]] of natural language.
 
-[[formal grammar|Formal grammars]] characterize which strings of words are considered grammatical, they come in many different flavours:
+[[formal grammar|Formal grammars]] characterize which [[string (computer science)|strings]] of [[words]] are considered grammatical, they come in many different flavours:
 
 * [[context-free grammar]]
+
 * [[pregroup grammar]]
+
 * [[categorial grammar]]
+
 * [[mildly context-sensitive grammar]]
+
 * [[context-sensitive grammar]]
+
 * [[formal grammar#unrestrictedgrammar|unrestricted grammar]]
 
 These different frameworks come in a hierarchy of expressive power, see [[Chomsky hierarchy]].
@@ -85,7 +90,10 @@ Pragmatics is concerned with the meaning of language in context.
 
 * [[Joachim Lambek]], _Pregroups and natural language processing_, The Mathematical Intelligencer 28 (2006), 41–48 [pdf](http://www.math.mcgill.ca/rags/JAC/124/Lambek-Pregroups-s.pdf)
 * [[Bob Coecke]], [[Mehrnoosh Sadrzadeh]], Stephen Clark, _Mathematical foundations for a compositional distributional model of meaning_, in the Lambek Festschrift, special issue of Linguistic Analysis, 2010 [arxiv/1003.4394](https://arxiv.org/abs/1003.4394)
-* [[Vasily Pestun]], [[Yiannis Vlassopoulos]], _Tensor network language model_, [arXiv:1710.10248](https://arxiv.org/abs/1710.10248)
+
+* [[Vasily Pestun]], [[Yiannis Vlassopoulos]], *Tensor network language model*, &lbrack;[arXiv:1710.10248](https://arxiv.org/abs/1710.10248)&rbrack;
+
+  > (via [[tensor networks]])
 
 category: philosophy
 
