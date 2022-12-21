@@ -9,10 +9,6 @@
 
 Introducing the [[Polyakov action]] (and via [[Liouville theory]] in the non-critical case) for the [[bosonic string]]:
 
-* [[Alexander Polyakov]], *String representations and hidden symmetries for gauge fields*, Physics Letters B **82** 2 (1979) 247-250 &lbrack;<a href="https://doi.org/10.1016/0370-2693(79)90747-0">doi:10.1016/0370-2693(79)90747-0</a>
-
-* [[Alexander Polyakov]], *Gauge fields as rings of glue*, Nuclear Physics B **164** (1980) 171-188 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90507-6">doi:10.1016/0550-3213(80)90507-6</a>&rbrack;
-
 * [[Alexander Polyakov]], *Quantum geometry of bosonic strings*, Phys. Lett. B **103** (1981) 207-210 &lbrack;<a href="https://doi.org/10.1016/0370-2693(81)90743-7">doi:10.1016/0370-2693(81)90743-7</a>, [pdf](http://qft.itp.ac.ru/polyakov-2.pdf)&rbrack;
 
 Introducing [[conformal field theory]]:
@@ -20,6 +16,10 @@ Introducing [[conformal field theory]]:
 * [[Alexander Belavin]], [[Alexander Polyakov]], [[Alexander Zamolodchikov]], _Infinite conformal symmetry in two–dimensional quantum field theory_, Nuclear Physics B Volume 241, Issue 2, 23 July 1984, Pages 333-380 (<a href="https://doi.org/10.1016/0550-3213(84)90052-X">doi:10.1016/0550-3213(84)90052-X</a>)
 
 Proposing the identification of [[flux tubes]] in [[confinement|confined]] [[QCD]] with the [[strings]] of [[string theory]], hence of the [[holographic principle]] in what came to be known as the [[AdS-QCD correspondence]]:
+
+* [[Alexander Polyakov]], *String representations and hidden symmetries for gauge fields*, Physics Letters B **82** 2 (1979) 247-250 &lbrack;<a href="https://doi.org/10.1016/0370-2693(79)90747-0">doi:10.1016/0370-2693(79)90747-0</a>&rbrack;
+
+* [[Alexander Polyakov]], *Gauge fields as rings of glue*, Nuclear Physics B **164** (1980) 171-188 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90507-6">doi:10.1016/0550-3213(80)90507-6</a>&rbrack;
 
 * [[Alexander Polyakov]], *Gauge Fields and Strings*, Routledge, Taylor and Francis (1987, 2021) &lbrack;[doi:10.1201/9780203755082](https://doi.org/10.1201/9780203755082), [oapen:20.500.12657/50871](https://library.oapen.org/handle/20.500.12657/50871)&rbrack;
 
@@ -54,10 +54,18 @@ Historical review:
 
 ## Related $n$Lab entries
 
+* [[QCD]], [[confinement]]
+
 * [[Polyakov action]], [[harmonic map]]
 
 * [[conformal bootstrap]]
 
 * [[string theory]]
+
+* [[AdS-CFT correspondence]]
+
+* [[AdS-QCD correspondence]]
+
+* [[Polyakov gauge-string duality -- references]]
 
 category: people
