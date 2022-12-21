@@ -243,18 +243,24 @@ Algebraic geometry:
 ### Hyperstructures
 
 
-[[hyperstructure|Hyperstructures]] are a type of higher structures tailored to hierarchical organizations in biology. These structures offer an alternative to $n$-categories in that biological processes are not necessarily oriented as [[globe|globular arrows]] but as mechanisms with _bonds_.
+[[Nils Baas|N Baas]] has proposed [[hyperstructure|hyperstructures]] to describe hierarchical organizations in biology. While these structures were originally designed to organize [[extended cobordism]] structures, they are argued to also be appropriate for modeling multilevel systems in biology. Note that contrarily to multilevel structures such as [[n-category|$n$-categories]], hyperstructures offer more freedom in that biological processes are not necessarily oriented as [[globe|globular arrows]] but, instead, appear to be organized as "aggregates" with _bonds_.
 
-+--{.query}
+The idea behind applying hyperstructures to biology is that they allow us to consider some set $X_0$ of "agents" such that any subset $S \subseteq X_0$ can define an _aggregate_ when it is "labeled" by an explanation (or description) $\omega$ for that aggregation.
+\begin{centre}
+    \begin{xymatrix@C=+80pt}
+X_0 = \{\textrm{all cells}\} \ar[r]^-{\textrm{consider a subset}}& S = \{\textrm{all liver cells}\} \ar[r]^-{\textrm{label with}} & \omega = \fbox{$\textrm{liver cell}$} \ar[r]^{\textrm{define}}& (S,\omega)\textit{ an organ; a liver}
+    \end{xymatrix}
+\end{centre}
+The pair $(S,\omega)$ can then be represented by another label, say $\beta$, that can classify a collection of pairs sharing similarities.
+\begin{centre}
+    \begin{xymatrix}
+(S,\omega) = (\{\textrm{all liver cells for individual $i$}\}, \fbox{$\textrm{liver cell}$}) \ar@{|->}[r]&\beta = \fbox{$\textrm{liver in an individual}$}
+    \end{xymatrix}
+\end{centre}
+The previous construction can then be repeated recursively on the set of labels $\beta$. This set, call it $X_1$, could potentially be the set of all the [biological organs](https://en.wikipedia.org/wiki/Organ) in an individual. Then, the next level $X_2$ (obtained from $X_1$ by following the previous procedure) can be the set of all [organ systems](https://en.wikipedia.org/wiki/Organ_system), which can subsequently be organized as [bodies](https://en.wikipedia.org/wiki/Human_body) on a fourth level $X_3$.
 
-[[Remy Tuyeras|Remy]]: _The following discussion belonged to a previous version of this page. What is the state of [[hyperstructure]]s nowadays? are these reflections still relevant?_
+Note that hyperstructures also require compatibility properties between the labels. In particular, for each level $X_k$, the pairs $(S,\omega)$ should be organized into a [[Grothendieck construction]] $\int \Omega$ such that the mappings $(S,\omega) \mapsto \beta$ define a [[functor]] $\int \Omega \to \mathbf{Set}$.
 
-Noticing that category theory at first is a formalism of _states_ and _processes_ (directed arrows) and $n$-category theory of processes of processes, etc., can we also naturally encode in its language _structures of structures_, i.e. hierarchical structures, which do not naturally or not manifestly have an interpretation as processes, in particular in that they are lacking the directionality of processes?
-
-Whatever the definition of [[hyperstructure]] really will be in the end, I think this question is what motivates them: a hyperstructure differs from an $\infty$-category in that in degree $n$ it has cells (called _bonds_) which _bind_ $(n-1)$-cells, but there is no directionality imposed on this, and not necessarily a notion of composition. 
-
-Now, biological structures are often of the complex hierarchical structure that one would imagine the concept of  [[hyperstructure]] would describe to some extent, but if the notion of hyperstructure is good and natural, that should be just a very specific of a more general kind of applications which maybe should not be regarded as the archetypical application of the concept as such. In this respect it is maybe noteworthy that the idea of hyperstructure does not originate in a motivation from biology, but was originally conceived as a means to formalize [[extended cobordism]]s such as appear in the [[generalized tangle hypothesis]].
-=--
 
 ### Bigraphs, $\lambda$-calculus and $\pi$-calculus
 
@@ -268,7 +274,9 @@ A number of bigraph-based formalisms have been proposed to model complex systems
 
 Hyperstructures:
 
-* [[Nils Baas|NA Baas]], _On Higher Structures_,  [arxiv](https://arxiv.org/pdf/1509.00403.pdf)
+* [[Nils Baas|NA Baas]], _On the Philosophy of Higher Structures_, [arXiv:1805.11943](https://arxiv.org/pdf/1805.11943.pdf)
+
+* [[Nils Baas|NA Baas]], _On Higher Structures_,  [arXiv:1509.00403](https://arxiv.org/pdf/1509.00403.pdf)
 
 * [[Nils Baas|NA Baas]], _Extended Memory Evolutive Systems in a Hyperstructure Context. Axiomathes 19, 215–221 (2009), [link](https://doi.org/10.1007/s10516-009-9066-3)
 
@@ -323,7 +331,7 @@ Neuroscience:
 
 * [[Andree Ehresmann|AC Ehresmann]] and J-P Vanbremeersch. _Memory Evolutive Systems: Hierarchy, Emergence, Cognition_, volume 4 of Studies in Multidisciplinarity. Elsevier, 2007.
 
-* [[Andree Ehresmann|AC Ehresmann]], N Baas, and J-P Vanbremeersch. _Hyperstructures and memory evolutive systems_.
+* [[Andree Ehresmann|AC Ehresmann]], [[Nils Baas|N Baas]], and J-P Vanbremeersch. _Hyperstructures and memory evolutive systems_.
 Intern. J. Gen. Sys., 33(5):553–568, 2004.
 
 * D Pastor, E Beurier, [[Andree Ehresmann|AC Ehresmann]], R Waldeck, _Interfacing biology, category theory and mathematical statistics_, [pdf](https://arxiv.org/pdf/2009.06832.pdf)
