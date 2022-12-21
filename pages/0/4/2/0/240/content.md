@@ -76,7 +76,7 @@ The main point of a well-pointed topos in logic is the equivalence of *external*
 
 ### Well-pointedness and concrete categories
 
-The category [[Set]] of sets and functions is both well-pointed and concrete. However, not every [[concrete category]] is a well-pointed category: the category $Field$ of [[fields]] and field [[homomorphisms]] is concrete, but is not well-pointed because it doesn't have a [[terminal object]]. Moreover, not every well-pointed category is an concrete category, as well-pointed categories are not required to be concrete categories: most models of [[ETCS]] aren't defined to be concrete. 
+The category [[Set]] of sets and functions is both well-pointed and concrete. However, not every [[concrete category]] is a well-pointed category: the category $Field$ of [[fields]] and field [[homomorphisms]] is concrete, but is not well-pointed because it doesn't have a [[terminal object]]. Moreover, not every well-pointed category is a concrete category, as well-pointed categories are not required to be concrete categories: most models of [[ETCS]] aren't defined to be concrete. 
 
 The distinction between well-pointed categories and concrete categories is the distinction between [[elements]] and [[global elements]] in a concrete category, as it is not true that elements and global elements (if they exist) coincide in general.
 
