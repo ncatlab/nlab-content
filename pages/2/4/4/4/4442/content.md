@@ -365,7 +365,14 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
 ## References
 
-### Original articles
+
+
+[[!include Polyakov gauge-string duality -- references]]
+
+
+
+
+### Original articles on AdS/CFT duality
 
 The rough conjecture originates in:
 
