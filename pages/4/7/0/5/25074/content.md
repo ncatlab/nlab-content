@@ -1,4 +1,4 @@
-Remy is a PhD graduate and past member of the Australian school of higher category theory (Macquarie University). 
+Remy is a PhD alumnus and past member of the Australian school of higher category theory (Macquarie University). 
 
 His PhD research was about the [[homotopy hypothesis|Homotopy Hypothesis]] for Grothendieck's [[infinity-groupoid|$\infty$-groupoids]].
 
