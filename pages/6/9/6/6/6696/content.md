@@ -47,5 +47,13 @@ Introducing the [[holographic principle]]:
 category: people
 
 [[!redirects Gerard 't Hooft]]
+
+[[!redirects Gerardus 't Hooft]]
+[[!redirects Gerardus ’t Hooft]]
+
+
+
+
 [[!redirects 't Hooft]]
 [[!redirects 't Hooft]]
+
