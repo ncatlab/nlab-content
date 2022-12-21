@@ -543,6 +543,24 @@ for [[phi-mesons]]:
     "caption": "from [Chen & Huang 2021](#ChenHuang21)"
 \end{imagefromfile}
 
+\linebreak
+
+From [CLFH22](#CLFH22):
+
+
+\begin{imagefromfile}
+    "file_name": "MesonMassSpectraFromCLFH22.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "from [CLFH22](#CLFH22)"
+\end{imagefromfile}
+
 
 \linebreak
 
@@ -965,6 +983,11 @@ Review:
 * Valery E. Lyubovitskij, Ivan Schmidt, _Gluon parton densities in soft-wall AdS/QCD_ ([arXiv:2012.01334](https://arxiv.org/abs/2012.01334))
 
 * Lorenzo Bartolini, Sven Bjarke Gudnason, *Symmetry energy in holographic QCD* &lbrack;[arXiv:2209.14309](https://arxiv.org/abs/2209.14309)&rbrack;
+
+See also:
+
+* {#CLFH22} Ruixiang Chen, Danning Li, Kazem Bitaghsir Fadafan, Mei Huang, *The hadron spectra and pion form factor in dynamical holographic QCD model with anomalous 5D mass of scalar field* &lbrack;[arXiv:2212.10363](https://arxiv.org/abs/2212.10363)&rbrack;
+
 
 
 
