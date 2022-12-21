@@ -1,4 +1,14 @@
 
+
+***
+
+**Update Dec 2022.** At long last, the [[LHCb collaboration]] in Dec 2022 announced ([LHCB22](#LHCB22)) that they had all along been mis-attributing hadronic backgrounds in the measurement of kaonic decays of B-mesons to electrons, and that fixing this makes the apparent anomaly in $R_K$, $R_{K^{\ast}}$ disappear, and with it most of the other apparent anomalies, too ([CFFPSV22](#CFFPSV22)). For more see [below](#FixingTheBackgrounds).
+
+This seems to mean that all the discussion on this page here is essentially obsolete as far as its particle physics content goes -- what remains is maybe just of historical/sociological interest.
+
+***
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -320,8 +330,16 @@ The main point to bear in mind is that there are three anomalies, RD(âˆ—) , RK(â
 \linebreak
 
 
+### Fixing the backgrounds
+ {#FixingTheBackgrounds}
 
 However, [LHCB22](#LHCB22) claims that re-analysis of hadronic backgrounds in kaonic decays makes the decay rate in the electron channel go down, so that the ratio $R_K$, $R_{K^\ast}$ over the corresponding muon channel is accurately described by the standard model (cf. [A. Maas, 20 Dec 2022](https://twitter.com/axelmaas/status/1605159026441986049)).
+
+This seems to make all the apparent anomalies disappear.
+
+[CFFPSV22](#CFFPSV22):
+
+> we show that current data no longer provide strong hints for NP. 
 
 
 \linebreak
@@ -636,6 +654,7 @@ Saad Nabeebaccus, Roman Zwicky, *On the $R_K$ Theory Error* &lbrack;[arXiv:2209.
 
 ### Experimental results
 
+#### Before fixing the backgrounds
 
 * [[LHCb collaboration]], _Differential branching fractions and isospin asymmetries of $B \to K^{(\ast)}\mu^+ \mu^-$ decays_, JHEP 06 (2014) 133 ([arXiv:1403.8044](https://arxiv.org/abs/1403.8044))
 
@@ -684,11 +703,6 @@ Saad Nabeebaccus, Roman Zwicky, *On the $R_K$ Theory Error* &lbrack;[arXiv:2209.
 
 * Gregory Max Ciezarek on behalf of the [[LHCb collaboration]]: *First joint measurement of $R(D^\ast)$ and $R(D^0)$ at LHCb*, LHC seminar (2022) &lbrack;[indico:1187939](https://indico.cern.ch/event/1187939), slides: [pdf](https://indico.cern.ch/event/1187939/attachments/2530158/4353109/dtaunu_CERNSeminar.pdf)&rbrack;
 
-* {#LHCB22} [[LHCb collaboration]] *Test of lepton universality in $b \to s \ell^+ \ell^-$ decays LHCb collaboration* &lbrack;[arXiv:2212.09152](https://arxiv.org/abs/2212.09152)&rbrack;
-
-  [[LHCb collaboration]], *Measurement of lepton universality parameters in $B^+ \to K^+ \ell^+ \ell^-$ and $B^0 \to K^{\ast 0} \ell^+ \ell^-$ decays* &lbrack;[arXiv:2212.09153](https://arxiv.org/abs/2212.09153)&rbrack;
-
-  Davide Castelvecchi, *[Hint of crack in standard model vanishes in LHC data](https://www.nature.com/articles/d41586-022-04545-z)*, Nature News (20 Dec 2022)
 
 
 
@@ -698,6 +712,22 @@ More accurate predictions from [[lattice QCD]] of the expected branching ratios:
 
 * {#PBD22b} W. G. Parrott, C. Bouchard, C. T. H. Davies, *The search for new physics in $B \to K \ell^+ \ell^-$ and $B \to K \nu^+ \nu^-$ using precise lattice QCD form factors* &lbrack;[arXiv:2210.10898](https://arxiv.org/abs/2210.10898)&rbrack;
 
+
+#### After fixing the backgrounds
+
+Announcement that hadronic backgrounds had been mis-identified all along and observation that fixing this makes at least the anomaly in $R_K$ disappear:
+
+* {#LHCB22} [[LHCb collaboration]], *Test of lepton universality in $b \to s \ell^+ \ell^-$ decays LHCb collaboration* &lbrack;[arXiv:2212.09152](https://arxiv.org/abs/2212.09152)&rbrack;
+
+  [[LHCb collaboration]], *Measurement of lepton universality parameters in $B^+ \to K^+ \ell^+ \ell^-$ and $B^0 \to K^{\ast 0} \ell^+ \ell^-$ decays* &lbrack;[arXiv:2212.09153](https://arxiv.org/abs/2212.09153)&rbrack;
+
+  Davide Castelvecchi, *[Hint of crack in standard model vanishes in LHC data](https://www.nature.com/articles/d41586-022-04545-z)*, Nature News (20 Dec 2022)
+
+Re-analysis finding that thereby essentially all the anomalies disappear:
+
+* {#CFFPSV22} Marco Ciuchini, Marco Fedele, Enrico Franco, Ayan Paul, Luca Silvestrini, Mauro Valli, *Constraints on Lepton Universality Violation from Rare B Decays* &lbrack;[arXiv:2212.10516](https://arxiv.org/abs/2212.10516)&rbrack;
+
+  > show that current data no longer provide strong hints for NP. 
 
 
 
