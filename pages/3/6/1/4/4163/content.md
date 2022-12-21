@@ -190,6 +190,8 @@ recalled for instance in
 
 * {#FloryHellingSluka12} Mario Flory, [[Robert C. Helling]], Constantin Sluka, Section 2 of: *How I Learned to Stop Worrying and Love QFT* ([arXiv:1201.2714](https://arxiv.org/abs/1201.2714))
 
+* {#Strocchi13} [[Franco Strocchi]], §2.2 of: _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
+
 * {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], section 4.1 of _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
 
 * Marco Serone, from 2:46 on in _A look at $\phi^4_2$ using perturbation theory_ ([recording](https://www.youtube.com/watch?v=J4nxvY1rOhI))
