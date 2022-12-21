@@ -29,9 +29,10 @@
 ### General
  {#GeneralIdea}
 
-In [[solid state physics]], a [[phase of matter]] (of a [[quantum material]]) is called *topological*, within a given [[energy]] bound $\Delta$ (the "gap") if external deformations of the system that are gentle enough -- namely "[[adiabatic theorem|adiabatic]]" -- not to excite modes $\gt \Delta$ above the [[ground state]] leave the main properties of the system [[invariant]]. This is vaguely reminiscent of how [[topology]] is concerned with properties of [[spaces]] that are invariant under "gentle" -- namely "[[continuous map|continuous]]" -- deformations. Indeed, it turns out or is expected that topological phases of matter may be characterized (classified) by certain [[homeomorphism classes]] or rather by [[homotopy classes]] of the kind studied in [[topology]], or rather in [[homotopy theory]] and [[generalized cohomology theory]].
+In [[solid state physics]], a [[phase of matter]] (of a [[quantum material]]) is called *topological* (sometimes: a *topological state of matter*), within a given [[energy]] bound $\Delta$ (the "gap") if external deformations of the system that are gentle enough -- namely "[[adiabatic theorem|adiabatic]]" -- not to excite modes ([[quanta]]) $\gt \Delta$ above the [[ground state]] leave the main properties of the system [[invariant]]. This is vaguely reminiscent of how [[topology]] is concerned with properties of [[spaces]] that are invariant under "gentle" -- namely "[[continuous map|continuous]]" -- deformations. Indeed, it turns out or is expected that topological phases of matter may be characterized (classified) by certain [[homeomorphism classes]] or rather by [[homotopy classes]] of the kind studied in [[topology]], or rather in [[homotopy theory]] and [[generalized cohomology theory]] (e.g. the [[K-theory classification of topological phases of matter]]).
 
 Such topological phases are fundamentally different from classical [[phases of matter]] in that they are *not* controlled by the [[Landau theory of phase transitions]].
+
 
 ### Topological insulators
 
@@ -204,12 +205,17 @@ Review and survey:
 
 * [[Jérôme Cayssol]], [[Jean-Noël Fuchs]], *Topological and geometrical aspects of band theory*, J. Phys. Mater. **4** (2021) 034007 ([arXiv:2012.11941](https://arxiv.org/abs/2012.11941), [doi:10.1088/2515-7639/abf0b5](https://doi.org/10.1088/2515-7639/abf0b5))
 
+* Delft Topology Course, *Online course on topology in condensed matter* (2015-) $[$[topocondmat.org](https://topocondmat.org)$]$
+
+
 * [[Tanmoy Das]], *A pedagogic review on designing model topological insulators*, Journal of the Indian Institute of Science **96** 77-106 (2016) $[$[arXiv:1604.07546](https://arxiv.org/abs/1604.07546), [ISSN:0970-4140](http://journal.library.iisc.ernet.in/index.php/iisc/article/view/4606)$]$
 
 
-* Delft Topology Course, *Online course on topology in condensed matter* (2015-) $[$[topocondmat.org](https://topocondmat.org)$]$
+* {#WangZhang17} Jing Wang, [[Shou-Cheng Zhang]], *Topological states of condensed matter*, Nature Materials **16** (2017) 1062–1067 &lbrack;[doi:10.1038/nmat5012](https://doi.org/10.1038/nmat5012)&rbrack;
+   
 
-* [[Charles Zhaoxi Xiong]], p. 13 of: *Classification and Construction of Topological Phases of Quantum Matter* &lbrack;[arXiv:1906.02892](https://arxiv.org/abs/1906.02892)&rbrack;
+
+* [[Charles Zhaoxi Xiong]], *Classification and Construction of Topological Phases of Quantum Matter* &lbrack;[arXiv:1906.02892](https://arxiv.org/abs/1906.02892)&rbrack;
 
 * [[Muhammad Ilyas]], *Quantum Field Theories, Topological Materials, and Topological Quantum Computing* &lbrack;[arXiv:2208.09707](https://arxiv.org/abs/2208.09707)&rbrack;
 
