@@ -7,6 +7,12 @@
 
 A *minimal surface* is an [[embedding|embedded]] [[Riemannian manifold|Riemannian]] [[surface]] which *locally* [[minimum|minimizes]] its [[area]].
 
+## Related concepts
+
+* [[Polyakov action]], [[Nambu-Goto action]]
+
+* [[Ryu-Takayanagi formula]], [[ER = EPR]]
+
 ## References
 
 See also:
@@ -19,4 +25,6 @@ Discussion of complex minimal surfaces via the [[Oka principle]]:
 
 
 [[!redirects minimal surfaces]]
+
+[[!redirects minimal area]]
 
