@@ -23,7 +23,7 @@
 
 The original article:
 
-* [[Albert Einstein]], [[Nathan Rosen]], *The Particle Problem in the General Theory of Relativity*, Phys. Rev. **48** 73 (1935) ([doi:10.1103/PhysRev.48.73](https://doi.org/10.1103/PhysRev.48.73))
+* {#EinsteinRosen35} [[Albert Einstein]], [[Nathan Rosen]], *The Particle Problem in the General Theory of Relativity*, Phys. Rev. **48** 73 (1935) ([doi:10.1103/PhysRev.48.73](https://doi.org/10.1103/PhysRev.48.73))
 
 See also:
 
