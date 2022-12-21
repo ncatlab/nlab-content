@@ -169,7 +169,7 @@ We can embed the previous type of models in time and space by filtering the sets
 
 ### References
 
-* J-F Mascari, D Giacchero and N Sfakianakis, _Symetries and asymetries of the immune system response: A categorification approach_, 2017 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2017, pp. 1451-1454, [pdf](http://www.mcs.st-and.ac.uk/~ns210/files/Masc-Sfak-Categor.pdf)
+* [[Gianfranco Mascari|J-F Mascari]], D Giacchero and N Sfakianakis, _Symetries and asymetries of the immune system response: A categorification approach_, 2017 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2017, pp. 1451-1454, [pdf](http://www.mcs.st-and.ac.uk/~ns210/files/Masc-Sfak-Categor.pdf)
 
 ## Operads and algebras
 
@@ -275,11 +275,11 @@ A range of graph-based formalisms have been proposed to model complex systems, s
 
 ## Other references
 
-A general dicussion on using category theory for biology can be found on the n-cafe:
+A general dicussion on using category theory for biology can be found on the $n$-category café:
 
 * [category theory and biology](http://golem.ph.utexas.edu/category/2007/11/category_theory_and_biology.html).
 
-Phylogeny:
+Phylogenomics:
 
 * L Pachter, B Sturmfels, _The mathematics of phylogenomics_, [math/0409132](http://arxiv.org/abs/math/0409132)
 
