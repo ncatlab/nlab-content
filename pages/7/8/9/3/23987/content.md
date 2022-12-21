@@ -692,6 +692,8 @@ Stone-von Neumann**
 
   slides: [[Finster-CQTS2022.pdf:file]]
 
+  video: [rec](https://nyu.zoom.us/rec/share/MFJT2B2SX8XUsB0n4z-hwMKb-mxyenQhE5HgBC72qIdHb-ixm7FqQ_KN8hDa0YWl.tEp5kHPzkef1ZDHU)
+
   > A major outstanding difficulty in [[homotopy type theory|Homotopy Type Theory]] is the description of [[coherence law|coherent]] [[nLab:higher algebra|higher algebraic structures]]. As an example, we know that the algebraic structure possessed by the collection of types and functions between them is *not* a traditional 1-category, but rather an [[(infinity,1)-category|(∞,1)-category]]. In this talk, I will describe how the addition of a finite collection of additional definitional equalities designed to render the notion of "[[opetopic type theory|opetopic type]]" definable in fact allows one to construct the [[(∞,1)-category]] structure on the [[universe of types]].
 
 
