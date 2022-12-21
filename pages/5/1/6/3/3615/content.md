@@ -3,9 +3,13 @@
 
 * Yiannis Vlassopoulos, _Quantum cohomology and Morse theory on the loop space of toric varieties_, [math.AG/0203083](https://arxiv.org/abs/math.AG/0203083)
 
-More recent works include
 
-* [[Vasily Pestun]], Yiannis Vlassopoulos, _Tensor network language model_, [arXiv:1710.10248](https://arxiv.org/abs/1710.10248)
+On [[tensor networks]] in [[machine learning]] of [[natural language]]:
+
+* [[Vasily Pestun]], Yiannis Vlassopoulos, _Tensor network language model_ &lbrack;[arXiv:1710.10248](https://arxiv.org/abs/1710.10248)&rbrack;
+
+See also:
+
 * [[Maxim Kontsevich]], Alex Takeda, Yiannis Vlassopoulos, _Pre-Calabi-Yau algebras and topological quantum field theories_, [arXiv:2112.14667](https://arxiv.org/abs/2112.14667)
 * Maxim Kontsevich, Yannis Vlassopoulos, Natalia Iyudu, _Pre-Calabi-Yau algebras and [[double Poisson bracket]]s_, [arXiv:1906.07134](https://arxiv.org/abs/1906.07134)
 * Maxim Kontsevich, Yannis Vlassopoulos, Natalia Iyudu, _Pre-Calabi-Yau algebras as noncommutative Poisson structures_, J. Algebra _567_ (2021) 63--90 [doi](https://doi.org/10.1016/j.jalgebra.2020.08.029)
