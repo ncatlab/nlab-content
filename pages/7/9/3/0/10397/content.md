@@ -16,5 +16,10 @@ On [[thermodynamics]] of the [[BMN matrix model]]:
 
 * Curtis T. Asplund, [[David Berenstein]], Diego Trancanelli, _Evidence for fast thermalization in the plane-wave matrix model_, 	Phys. Rev. Lett. 107, 171602 (2011) ([arXiv:1104.5469](https://arxiv.org/abs/1104.5469))
 
+M-theory on ALE-spaces
+
+* [[David Berenstein]], Richard Corrado, [[Jacques Distler]], _Aspects of ALE matrix models and twisted matrix strings_, Phys. Rev. D 58, 026005 (1998) ([arXiv:hep-th/9712049](https://arxiv.org/abs/hep-th/9712049))
+
+
 
 category: people
