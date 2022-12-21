@@ -136,8 +136,11 @@ which is the Polyakov action with "[[cosmological constant]]" $(p-1)$.
 
 ## Related concepts
 
+* [[bosonic string]]
+
 * [[Liouville theory]]
 
+* [[Nambu-Goto action]]
 
 ## References
 
