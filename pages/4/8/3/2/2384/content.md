@@ -35,7 +35,7 @@ Ologs have been used to characterize hierarchies in biology.
 
 ### Segments {#CategoryOfSegments}
 
-Categories of segments model natural and experimental operations that can be done on [DNA segments](https://en.wikipedia.org/wiki/DNA). The definition of their arrows is simple but flexible enough to express a wide range of biological mechanisms occurring in [genetics](https://en.wikipedia.org/wiki/Genetics) and related fields. 
+Categories of segments aim to model the set of natural and experimental operations that can be done on [DNA segments](https://en.wikipedia.org/wiki/DNA). The definition of their arrows is simple but flexible enough to express a wide range of biological mechanisms occurring in [genetics](https://en.wikipedia.org/wiki/Genetics) and related fields. 
 
 For every non-negative integer $n$, we will denote the set $\{1,2,\dots,n\}$ as $[n]$. Note that $[0] = \emptyset$.
 
@@ -68,7 +68,7 @@ Ologs and biology:
 
 * [[David Spivak|DI Spivak]], RE Kent, _Ologs: A categorical framework for knowledge representation_, [pdf](https://math.mit.edu/~dspivak/informatics/olog.pdf)
 * JY Wong, J McDonald, M Taylor-Pinney, [[David Spivak|DI Spivak]], KaplanDL , MJ Buehler, _Materials by Design: Merging Proteins and Music_, Nano Today. 2012 Dec 1;7(6):488-495,  [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3752788/)
-* T. Giesa, [[David Spivak|DI Spivak]], MJ. Buehler, _Reoccurring patterns in hierarchical protein materials and music: The power of analogies_ [pdf](https://arxiv.org/pdf/1111.5297.pdf)
+* T. Giesa, [[David Spivak|DI Spivak]], MJ. Buehler, _Reoccurring patterns in hierarchical protein materials and music: The power of analogies_, [pdf](https://arxiv.org/pdf/1111.5297.pdf)
 
 Introductory material for categories of segments:
 
@@ -160,7 +160,7 @@ The previous adjunction gives us a context in which we can reason about immune r
 \end{centre}
 
 
-We can embed the previous type of models in time and space by filtering the sets $P$ and $I$ into a sequence (or a category) of subsets containing chromological and spatial occurrences of diseases and their immune responses, respectively. In this case, the corresponding binary relations $Q \subseteq \mathsf{Sub}(P) \times \mathsf{Sub}(I)$ need to be defined for each time and space parameter in a functorial way.
+We can embed the previous type of models in time and space by filtering the sets $P$ and $I$ into a sequence (or a category) of subsets containing chronological and spatial occurrences of diseases and their immune responses, respectively. In this case, the corresponding binary relations $Q \subseteq \mathsf{Sub}(P) \times \mathsf{Sub}(I)$ need to be defined for each time and space parameter in a functorial way.
 
 \begin{centre}
     \begin{xymatrix}
@@ -183,7 +183,7 @@ We can embed the previous type of models in time and space by filtering the sets
 
 ### Axioms for algebras and gradient descent
 
-A [[little cubes operad|little-disc-operad-inspired]] formalism was developed to model biological systems and cellular behaviour. This formalism considers [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent) techniques to make certain subsets $A \subseteq \mathbb{R}^{\times n}$ converge towards [[algebra over an operad|algebra-like structures]]. 
+A [[little cubes operad|little-disc-operad-inspired]] formalism was developed to model biological systems and cellular behaviors. This formalism considers [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent) techniques to make certain subsets $A \subseteq \mathbb{R}^{\times n}$ converge towards [[algebra over an operad|algebra-like structures]]. 
 
 More specifically, these gradient descent techniques use the underlying equations of the axioms for algebras as [objective functions](https://en.wikipedia.org/wiki/Loss_function). The sets $A$ obtained through these optimizations can be interpreted as models for [specialization of biological functions](https://en.wikipedia.org/wiki/Specialization) and [[entropy|entropic]] mechanisms in living organisms.
 
@@ -213,7 +213,9 @@ Additionally, the clustering algorithm [UMAP](https://umap-learn.readthedocs.io/
 
 ### Algebraic geometry
 
-The concept of [[singularity|singularities]], in algebraic geometry, has been used to model anatomic morphologies and behaviors.
+The concept of [[singularity|singularities]], in [[algebraic geometry]], has been used to model anatomic morphologies and behaviors.
+
+Additionally, various concepts of algebraic geometry such as [[manifold|manifolds]] and [[moduli space|moduli spaces]] have been used by [[Mikhail Gromov|M Gromov]] to model molecular mechanisms in living cells.
 
 ### References
 
@@ -230,10 +232,11 @@ Fuzzy simplicial sets:
 * [[David Spivak|DI Spivak]], _Metric Realization of Fuzzy Simplicial Sets_, [pdf](https://math.mit.edu/~dspivak/files/metric_realization.pdf)
 
 
-Singularities:
+Algebraic geometry:
 
 *  EC Zeeman, _Catastrophe Theory_, Scientific American, April 1976; pp. 65–70, 75–83, [pdf](http://www.gaianxaos.com/pdf/dynamics/zeeman-catastrophe_theory.pdf)
 
+* [[Mikhail Gromov|M Gromov]], Mathematical slices of molecular biology, [pdf](https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/M01-03.pdf)
 
 ## Higher structures
 
@@ -265,9 +268,9 @@ A number of bigraph-based formalisms have been proposed to model complex systems
 
 Hyperstructures:
 
-* [[Nils Baas|NA Baas]], _On Higher Structures_, [arxiv](https://arxiv.org/pdf/1509.00403.pdf)
+* [[Nils Baas|NA Baas]], _On Higher Structures_,  [arxiv](https://arxiv.org/pdf/1509.00403.pdf)
 
-* [[Nils Baas|NA Baas]], _Extended Memory Evolutive Systems in a Hyperstructure Context. Axiomathes 19, 215–221 (2009). [link](https://doi.org/10.1007/s10516-009-9066-3)
+* [[Nils Baas|NA Baas]], _Extended Memory Evolutive Systems in a Hyperstructure Context. Axiomathes 19, 215–221 (2009), [link](https://doi.org/10.1007/s10516-009-9066-3)
 
 Bigraphs:
 
@@ -279,7 +282,7 @@ Volume 218, 22 October 2008, Pages 73-9, [link](https://www.sciencedirect.com/sc
 
 Relations between $\lambda$-calculus, $\pi$-calculus and biology:
 
-* S Federhen, _Replication is Recursion; or, Lambda: the Biological Imperative_,[bioarxiv](https://www.biorxiv.org/content/biorxiv/early/2015/05/01/018804.full.pdf)
+* S Federhen, _Replication is Recursion; or, Lambda: the Biological Imperative_, [bioarxiv](https://www.biorxiv.org/content/biorxiv/early/2015/05/01/018804.full.pdf)
 
 * [A Regev](https://en.wikipedia.org/wiki/Aviv_Regev), W Silverman, E Shapiro E, _Representation and simulation of biochemical processes using the pi-calculus process algebra_, Pacific Symposium on Biocomputing 6:459-470 (2001), [pdf](http://psb.stanford.edu/psb-online/proceedings/psb01/regev.pdf)
 
