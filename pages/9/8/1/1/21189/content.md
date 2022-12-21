@@ -190,7 +190,6 @@ It has been posited that the statistics of the low-lying eigenvalues of the QCD 
 
 ### Introduction and review
 
-
 * [[Jürg Gasser]], _The QCD Vacuum and Chiral Symmetry_, In: Vautherin D., Lenz F., Negele J.W. (eds.) _Hadrons and Hadronic Matter_, NATO ASI Series (Series B: Physics), vol 228. Springer 1990 ([doi:10.1007/978-1-4684-1336-6_4](https://doi.org/10.1007/978-1-4684-1336-6_4))
 
 * [[Gerhard Ecker]], _The standard model at low energies_, Czech. J. Phys. 44:405-430, 1995 ([arXiv:hep-ph/9309268](https://arxiv.org/abs/hep-ph/9309268))
@@ -210,19 +209,20 @@ It has been posited that the statistics of the low-lying eigenvalues of the QCD 
 * [[Stefan Scherer]], Matthias R. Schindler, _A Chiral Perturbation Theory Primer_ ([arXiv:hep-ph/0505265](https://arxiv.org/abs/hep-ph/0505265))
 
 
-
 * [[Véronique Bernard]], [[Ulf-G. Meissner]], _Chiral perturbation theory_, Ann. Rev. Nucl. Part. Sci.57:33-60, 2007 ([arXiv:hep-ph/0611231](https://arxiv.org/abs/hep-ph/0611231))
 
-
-
 * [[Gerhard Ecker]], _Status of chiral perturbation theory_, PoS Confinement 8:025, 2008 ([arXiv:0812.4196](https://arxiv.org/abs/0812.4196))
-
 
 * Johan Bijnens, _Chiral perturbation theory in the meson sector_, PoS CD09:031, 2009 ([arXiv:0909.4635](https://arxiv.org/abs/0909.4635))
 
 * Johan Bijnens, _Status of Strong ChPT_, PoS EFT09 (2009) 022 ([spire:818610](http://inspirehep.net/record/818610/))
 
 * {#MachleidtEntem11} [[Rupert Machleidt]], [[David Rodríguez Entem]], _Chiral effective field theory and nuclear forces_, Phys. Rept. 503:1-75, 2011 ([arXiv:1105.2919](https://arxiv.org/abs/1105.2919), [doi:10.1016/j.physrep.2011.02.001](https://doi.org/10.1016/j.physrep.2011.02.001))
+
+* [[Franco Strocchi]], §8 of: _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
+
+  (in a context of [[non-perturbative quantum field theory]])
+
 
 * {#Brambilla14} Brambilla et al., Sections 3-4 in: _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981  ([arXiv:1404.3723](https://arxiv.org/abs/1404.3723), [doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
 
