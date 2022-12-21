@@ -206,14 +206,14 @@ This section gathers works in domains that often use category theory as a langua
 
 [[algebraic topology|Algebraic topology]] techniques and intuitions developed along with [[persistent homology]] have been used to study neuronal morphologies.
 
-Additionally, the clustering algorithm [UMAP](https://umap-learn.readthedocs.io/en/latest/), commonly-used in computational biology to classify sequencing data, relies on [[fuzzy simplicial set]]s. For more detail, see the following blog post:
+Additionally, the clustering algorithm [UMAP](https://umap-learn.readthedocs.io/en/latest/), commonly-used in computational biology to classify sequencing data, relies on properties holding for [[fuzzy simplicial set]]s. For more detail, see the following blog post:
 
 * [[John Baez|JC Baez]], [The Category Theory Behind UMAP](https://johncarlosbaez.wordpress.com/2020/02/10/the-category-theory-behind-umap/), Azimuth
 
 
 ### Algebraic geometry
 
-The concept of [[singularity|singularities]], in algebraic geometry, has been used to model anatomic morphologies and behaviours.
+The concept of [[singularity|singularities]], in algebraic geometry, has been used to model anatomic morphologies and behaviors.
 
 ### References
 
