@@ -19,7 +19,7 @@ Early suggestion (due to the [[Liouville theory|Liouville field]] see in the [[q
 
 * [[Alexander Polyakov]], *String Theory and Quark Confinement*, talk at [Strings'97](https://inspirehep.net/conferences/970718), Nucl. Phys. Proc. Suppl. **68** (1998) 1-8 $[$[arXiv:hep-th/9711002](https://arxiv.org/abs/hep-th/9711002), <a href="https://doi.org/10.1016/S0920-5632(98)00135-2">doi:10.1016/S0920-5632(98)00135-2</a>$]$
 
-* [[Alexander Polyakov]], *The wall of the cave*, Int. J. Mod. Phys. A **14** (1999) 645-658 $[$[arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057), [doi:10.1142/S0217751X99000324](https://doi.org/10.1142/S0217751X99000324)$]$
+* {#Polyakov99} [[Alexander Polyakov]], *The wall of the cave*, Int. J. Mod. Phys. A **14** (1999) 645-658 $[$[arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057), [doi:10.1142/S0217751X99000324](https://doi.org/10.1142/S0217751X99000324)$]$
 
 eventually culminating in the formulation of the dictionary for the [[AdS-CFT correspondence]]:
 
