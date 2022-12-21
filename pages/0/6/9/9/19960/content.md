@@ -618,7 +618,7 @@ These computations shown so far all use just the field theory in the bulk, not y
 
 * {#Aharony02} [[Ofer Aharony]], _The non-AdS/non-CFT correspondence, or three different paths to QCD_, Progress in string, field and particle theory. Springer, Dordrecht, 2003. 3-24 ([arXiv:hep-th/0212193](https://arxiv.org/abs/hep-th/0212193))
 
-* {#Erlich09} Joshua Erlich, _How Well Does AdS/QCD Describe QCD?_,  	Int. J. Mod. Phys.A25:411-421,2010 ([arXiv:0908.0312](https://arxiv.org/abs/0908.0312))
+* {#Erlich09} [[Joshua Erlich]], *How Well Does AdS/QCD Describe QCD?*,	Int. J. Mod. Phys.A **25** (2010) 411-421 &lbrack;[arXiv:0908.0312](https://arxiv.org/abs/0908.0312), [doi:10.1142/S0217751X10048718](https://doi.org/10.1142/S0217751X10048718)&rbrack;
 
 * Marco Panero, _QCD thermodynamics in the large-$N$ limit_, 2010 ([[PaneroAdsQCD.pdf:file|pdf]])
 
@@ -633,10 +633,9 @@ These computations shown so far all use just the field theory in the bulk, not y
 * {#AHI12} Sinya Aoki, [[Koji Hashimoto]], [[Norihiro Iizuka]], _Matrix Theory for Baryons: An Overview of Holographic QCD for Nuclear Physics_, Reports on Progress in Physics, Volume 76, Number 10 ([arxiv:1203.5386](https://arxiv.org/abs/1203.5386))
 
 
-* Youngman Kim, Ik Jae Shin, Takuya Tsukioka, _Holographic QCD: Past, Present, and Future_, Progress in Particle and Nuclear Physics
-Volume 68, January 2013, Pages 55-112 Progress in Particle and Nuclear Physics ([arXiv:1205.4852](https://arxiv.org/abs/1205.4852))
+* Youngman Kim, Ik Jae Shin, Takuya Tsukioka, _Holographic QCD: Past, Present, and Future_, Progress in Particle and Nuclear Physics **68** (2013) 55-112 &lbrack;[arXiv:1205.4852](https://arxiv.org/abs/1205.4852)&rbrack;
 
-* {#Erlich14} Joshua Erlich, _An Introduction to Holographic QCD for Nonspecialists_,  Contemporary Physics ([arXiv:1407.5002](https://arxiv.org/abs/1407.5002))
+* {#Erlich14} [[Joshua Erlich]], *An Introduction to Holographic QCD for Nonspecialists*, Contemporary Physics, **56** 2 (2015) &lbrack;[arXiv:1407.5002](https://arxiv.org/abs/1407.5002), [doi:10.1080/00107514.2014.942079](https://doi.org/10.1080/00107514.2014.942079)&rbrack;
 
 * {#Guijosa16} Alberto Guijosa, _QCD, with Strings Attached_, IJMPE Vol. 25, No. 10 (2016) 1630006 ([arXiv:1611.07472](https://arxiv.org/abs/1611.07472))
 
