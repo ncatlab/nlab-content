@@ -182,6 +182,8 @@ The list [[monad]] as a [[monad in computer science]]:
 * [[Tarmo Uustalu]], p.25 of: *Monads and Interaction Lecture 1* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf), [[Uustalu-Monads1.pdf:file]]&rbrack;, lecture notes for [MGS 2021](https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html) (2021):
 
 
+[[!redirects free monoids]]
+
 [[!redirects list]]
 [[!redirects lists]]
 [[!redirects finite list]]
