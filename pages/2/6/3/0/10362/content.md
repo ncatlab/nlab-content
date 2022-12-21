@@ -284,6 +284,10 @@ See also:
 
 * Wikipedia, *[Leggett-Garg inequality](https://en.wikipedia.org/wiki/Leggett%E2%80%93Garg_inequality)*
 
+On Bell inequalities in [[particle physics]] and possible relation to the [[weak gravity conjecture]]:
+
+* Aninda Sinha, Ahmadullah Zahed, *Bell inequalities in 2-2 scattering* &lbrack;[arXiv:2212.10213](https://arxiv.org/abs/2212.10213)&rbrack;
+
 
 
 ### Probabilistic opposition
