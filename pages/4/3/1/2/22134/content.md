@@ -3,9 +3,11 @@
 ### Topological quantum computation with anyons
  {#TopologicalQuantumComputationWithAnyons}
 
-The idea of [[topological quantum computation]] via the [[Chern-Simons theory]] of [[anyons]] (e.g. in the [[quantum Hall effect]]) is due to:
+The idea of [[topological quantum computation]] via a [[Chern-Simons theory]] with [[anyon]] [[braiding]] [[defects]] is due to:
 
-* {#Kitaev03} [[Alexei Kitaev]], _Fault-tolerant quantum computation by anyons_,  Annals Phys. 303 (2003) 2-30 ([arXiv:quant-ph/9707021](https://arxiv.org/abs/quant-ph/9707021), <a href="https://doi.org/10.1016/S0003-4916(02)00018-0">doi:10.1016/S0003-4916(02)00018-0</a>)
+* {#Kitaev03} [[Alexei Kitaev]], _Fault-tolerant quantum computation by anyons_,  Annals Phys. 303 (2003) 2-30 $[$[arXiv:quant-ph/9707021](https://arxiv.org/abs/quant-ph/9707021), <a href="https://doi.org/10.1016/S0003-4916(02)00018-0">doi:10.1016/S0003-4916(02)00018-0</a>$]$
+
+* {#Freedman98} [[Michael Freedman]], *P/NP, and the quantum field computer*, Proc. Nat. Acad. Sci. **95** 1 (1998) 98-101 $[$[doi:10.1073/pnas.95.1.9](https://doi.org/10.1073/pnas.95.1.9)$]$
 
 * {#FreedmanKitaevLarsenWang03} [[Michael Freedman]], [[Alexei Kitaev]], [[Michael Larsen]], [[Zhenghan Wang]], *Topological quantum computation*,  Bull. Amer. Math. Soc. __40__ (2003), 31-38 ([arXiv:quant-ph/0101025](https://arxiv.org/abs/quant-ph/0101025), [doi:10.1090/S0273-0979-02-00964-3](https://doi.org/10.1090/S0273-0979-02-00964-3), [pdf](http://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00964-3/S0273-0979-02-00964-3.pdf))
 
