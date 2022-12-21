@@ -60,7 +60,7 @@ For non-[[supersymmetry|supersymmetric]] [[gauge theories]] such as [[QCD]] this
 
 The original article observing the large $N$-behaviour and the [[planar limit]] of [[Yang-Mills theory]] in [['t Hooft double line notation]] is:
 
-* [[Gerard 't Hooft]], _A Planar Diagram Theory for Strong Interactions_, Nucl. Phys. B72 (1974) 461 ([spire:80491](http://inspirehep.net/record/80491), <a href="https://doi.org/10.1016/0550-3213(74)90154-0">doi:10.1016/0550-3213(74)90154-0</a>)
+* {#tHooft74} [[Gerard 't Hooft]], _A Planar Diagram Theory for Strong Interactions_, Nucl. Phys. B72 (1974) 461 ([spire:80491](http://inspirehep.net/record/80491), <a href="https://doi.org/10.1016/0550-3213(74)90154-0">doi:10.1016/0550-3213(74)90154-0</a>)
 
 First inkling of [[holographic QCD]] and [[matrix models]]:
 
