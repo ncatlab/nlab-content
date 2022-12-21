@@ -44,9 +44,20 @@ Generally, in [[gauge theory]] by a *flux tube* one means a cylindrical/string-s
 
 ## References
 
+### General
+
 See also:
 
 * Wikipedia, *[Flux tube](https://en.wikipedia.org/wiki/Flux_tube)*
+
+
+
+[[!include Polyakov gauge-string duality -- references]]
+
+
+
+
+
 
 [[!redirects flux tubes]]
 
