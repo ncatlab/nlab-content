@@ -166,7 +166,7 @@ See also _[[AQFT on curved spacetimes]]_ .
 
 ### Lecture notes and Textbooks
 
-Introductory lecture notes include
+Introductory lecture notes:
 
 * {#Fredenhagen03} [[Klaus Fredenhagen]], _Algebraische Quantenfeldtheorie_, lecture notes, 2003 ([[FredenhagenAQFT2003.pdf:file]])
 
@@ -176,17 +176,22 @@ and for just [[quantum mechanics]] in the algebraic perspective:
 
 * {#Gleason09} Jonathan Gleason, _The $C^\ast$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf), [[GleasonAlgebraic.pdf:file]])
 
-Classical textbooks are
+Textbookaccount
 
 * [[Huzihiro Araki]], _[[Mathematical Theory of Quantum Fields]]_
 
 * [[Rudolf Haag]], _[[Local Quantum Physics -- Fields, Particles, Algebras]]_ 
 
+* [[Raymond F. Streater]], [[Arthur S. Wightman]], *PCT, Spin and Statistics, and All That*, Princeton University Press (1989, 2000) &lbrack;[ISBN:9780691070629](https://press.princeton.edu/books/paperback/9780691070629/pct-spin-and-statistics-and-all-that), [jstor:j.ctt1cx3vcq](https://www.jstor.org/stable/j.ctt1cx3vcq)&rbrack;
+
+* [[Franco Strocchi]], _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
+
+
+
 A good account of the mathematical axiomatics of Haag-Kastler AQFT is
 
 * [[Hans Halvorson]], [[Michael Müger]], _Algebraic Quantum Field Theory_ ([arXiv](http://arxiv.org/abs/math-ph/0602036))
 
-This is, among other things, the ideal starting point for pure mathematicians who have always been left puzzled or otherwise unsatisfied by accounts of quantum field theory, even those tagged as being "for mathematicians". AQFT is truly axiomatic and rigorously formal. 
 
 An account written by mathematicians for mathematicians is this:
 
@@ -205,13 +210,10 @@ A classic of the trade is this one:
 
 Recent account of the principle of locality in AQFT from the point of view of traditional school
 
-* [[Franco Strocchi]], _Relativistic Quantum Mechanics and Field Theory_, Found.Phys. 34 (2004) 501-527 ([arXiv:hep-th/0401143](http://arxiv.org/abs/hep-th/0401143))
+* [[Franco Strocchi]], _Relativistic Quantum Mechanics and Field Theory_, Found. Phys. **34** (2004) 501-527 &lbrack;[arXiv:hep-th/0401143](http://arxiv.org/abs/hep-th/0401143)&rbrack;
 
 * [[Sergio Doplicher]], _The principle of locality: Effectiveness, fate, and challenges_, J. Math. Phys. __51__, 015218 (2010), [doi](http://dx.doi.org/10.1063/1.3276100)
 
-and with emphasis on traditional AQFT as [[non-perturbative quantum field theory]]:
-
-* [[Franco Strocchi]], _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
 
 Talk slides include
 
