@@ -123,7 +123,7 @@ survey:
 
 Claim that the apparent $R_K$-anomalies were due to mis-identification of hadronic backgrounds:
 
-* {#LHCB22} [[LHCb collaboration]] *Test of lepton universality in $b \to s \ell^+ \ell^-$ decays LHCb collaboration* &lbrack;[arXiv:2212.09152](https://arxiv.org/abs/2212.09152)&rbrack;
+* {#LHCB22} [[LHCb collaboration]], *Test of lepton universality in $b \to s \ell^+ \ell^-$ decays LHCb collaboration* &lbrack;[arXiv:2212.09152](https://arxiv.org/abs/2212.09152)&rbrack;
 
   [[LHCb collaboration]], *Measurement of lepton universality parameters in $B^+ \to K^+ \ell^+ \ell^-$ and $B^0 \to K^{\ast 0} \ell^+ \ell^-$ decays* &lbrack;[arXiv:2212.09153](https://arxiv.org/abs/2212.09153)&rbrack;
 
