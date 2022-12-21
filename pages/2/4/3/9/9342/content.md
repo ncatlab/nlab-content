@@ -55,7 +55,7 @@ Outlook from the point of view of [[causal perturbation theory]]/[[locally covar
 
 A textbook account in the school of [[AQFT]] is in 
 
-* [[Franco Strocchi]], _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press, 2013
+* [[Franco Strocchi]], _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
 
 See also
 
