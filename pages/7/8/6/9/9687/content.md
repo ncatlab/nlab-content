@@ -283,15 +283,13 @@ and analogously (at [[thermal field theory|positive temperature]]) relation to _
 
 * {#LarsenShuryak15} Rasmus Larsen, [[Edward Shuryak]], _Interacting Ensemble of the Instanton-dyons and Deconfinement Phase Transition in the SU(2) Gauge Theory_, Phys. Rev. D 92, 094022, 2015 ([arXiv:1504.03341](https://arxiv.org/abs/1504.03341))
 
- 
 
-For further developments see
+Further developments:
 
 * _Dimensional Transmutation by Monopole Condensation in QCD_ ([arXiv:1206.6936](http://arxiv.org/abs/1206.6936))
 
-### Interacting field vacuum
 
-Discussion of confinement as a result of the [[interacting vacuum]] includes
+Discussion of confinement via an interacting field vacuum
 
 * {#Rafelski90} [[Johann Rafelski]], _Vacuum structure -- An Essay_, in pages 1-29 of H. Fried, Berndt Müller (eds.) _Vacuum Structure in Intense Fields_, Plenum Press 1990 ([GBooks](https://books.google.de/books?id=5uXcBwAAQBAJ&pg=PA14&lpg=PA14&dq=confinement+%22interacting+vacuum%22&source=bl&ots=xPGYJ-JOc-&sig=AoYbqWQeNRMg6hMSRZjJ3nzq8B0&hl=en&sa=X&ved=0ahUKEwjIgK68-tnYAhVCESwKHThMDykQ6AEIKTAA#v=onepage&q=confinement%20%22interacting%20vacuum%22&f=false))
 
@@ -313,20 +311,16 @@ Reviews with discussion of the impact on confinement in plain YM include
 
 * {#Yung00} Alexei Yung, _What Do We Learn about Confinement from the Seiberg-Witten Theory_ ([arXiv:hep-th/0005088](http://arxiv.org/abs/hep-th/0005088))
 
-### Under the AdS/QCD correspondence
-
-The suggestion that the [[flux tubes]] in confined [[QCD]] are to be interpreted as [[strings]] in a higher-dimensional spacetime originates with 
-
-* [[Alexander Polyakov]], *String Theory and Quark Confinement*, Nucl. Phys. Proc. Suppl. **68** (1998) 1-8 &lbrack;[arXiv:hep-th/9711002](https://arxiv.org/abs/hep-th/9711002), <a href="https://doi.org/10.1016/S0920-5632(98)00135-2">doi:10.1016/S0920-5632(98)00135-2</a>&rbrack;
-
-* [[Alexander Polyakov]], *The wall of the cave*, Int. J. Mod. Phys. A **14** (1999) 645-658 &lbrack;[arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057), [doi:10.1142/S0217751X99000324](https://doi.org/10.1142/S0217751X99000324)&rbrack;
-
-* {#GubserKlebanovPolyakov98} [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], *Gauge theory correlators from non-critical string theory*, Physics Letters B **428** 105-114 (1998) &lbrack;[hep-th/9802109](http://arxiv.org/abs/hep-th/9802109), <a href="https://doi.org/10.1016/S0370-2693(98)00377-3">doi:10.1016/S0370-2693(98)00377-3</a>&rbrack;
-
-> Relations between gauge fields and strings present an old, fascinating and unanswered question. The full answer to this question is of great importance for theoretical physics. It will provide us with a theory of quark confinement by explaining the dynamics of color-electric fluxes.
 
 
-Via detour through the [[AdS-CFT correspondence]] this eventually became the [[AdS-QCD correspondence]]; see there for many references, including:
+[[!include Polyakov gauge-string duality -- references]]
+
+
+
+
+### Confinement via AdS/QCD correspondence
+
+[Polyakov's ideas](#PolyakovGaugeStringDualityReferences) were eventually picked up by discussion of confinement in the [[AdS-QCD correspondence]]; see there for many references, including:
 
 * {#Witten98} [[Edward Witten]], _Anti-de Sitter Space, Thermal Phase Transition, And Confinement In Gauge Theories_, Adv. Theor. Math. Phys.2:505-532, 1998 ([arXiv:hep-th/9803131](https://arxiv.org/abs/hep-th/9803131))
 
