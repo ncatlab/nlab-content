@@ -423,6 +423,15 @@ An article summarizing information about [[cohomology|cohomological]] models for
 
 * [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_
 
+
+
+
+[[!include Polyakov gauge-string duality -- references]]
+
+
+
+
+
 ### Higher structures
 
 Discussion from the [[nPOV]]/[[schreiber:Higher Structures]]:
