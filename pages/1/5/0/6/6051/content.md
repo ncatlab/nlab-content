@@ -136,6 +136,8 @@ which is the Polyakov action with "[[cosmological constant]]" $(p-1)$.
 
 ## Related concepts
 
+* [[minimal surface]]
+
 * [[bosonic string]]
 
 * [[Liouville theory]]
