@@ -18,6 +18,11 @@ Early proposal relating [[black hole entropy]] to [[quantum error correcting cod
 
 * {#VerlindeVerlinde12} [[Erik Verlinde]], [[Herman Verlinde]], *Black Hole Entanglement and Quantum Error Correction*, J. High Energ. Phys. 2013, 107 (2013) ([arXiv:1211.6913](https://arxiv.org/abs/1211.6913),  <a href="https://doi.org/10.1007/JHEP10(2013)107">doi:10.1007/JHEP10(2013)107</a>)
 
+On [[ER = EPR]]:
+
+* [[Erik Verlinde]], [[Herman Verlinde]], *A Conversation on ER = EPR* &lbrack;[arXiv:2212.09389](https://arxiv.org/abs/2212.09389)&rbrack;
+
+
 ## Related $n$Lab entries
 
 * [[Verlinde algebra]]
