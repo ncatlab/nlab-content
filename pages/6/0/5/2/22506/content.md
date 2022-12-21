@@ -6,33 +6,41 @@
 +-- {: .hide}
 [[!include gravity contents]]
 =--
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
+ {#Idea}
 
-The symbols *ER = EPR* (pronounced: "ee arr is ee pee arr") are the name of a hypothesis about [[quantum gravity]], claiming, somewhat vaguely, that [[entangled particles]] ([[EPR paradox|Einstein-Podolsky-Rosen phenomenon]]) are connected by a [[wormhole]] ([[Einstein-Rosen bridge]]). 
+The symbols *ER = EPR* (pronounced: "ee arr is ee pee arr") serve as a slogan for a hypothesis about [[quantum gravity]], claiming, somewhat vaguely, that [[entangled particles]] (the [[EPR paradox|Einstein-Podolsky-Rosen phenomenon]]: "EPR") "are" connected by a [[wormhole]] ([[Einstein-Rosen bridge]]: "ER"). 
 
-This idea was proposed by [Maldacena-Susskind 13](#MaldacenaSusskind13) as a solution for the [[black hole firewall problem]].
+This slogan is due to [Maldacena & Susskind (2013)](#MaldacenaSusskind13) (there motivated from a search for a solution for the perceived [[black hole firewall problem]]) but the idea may in this form have circulated earlier &lbrack;cf. [Verlinde & Verlinde (2022)](#VerlindeVerlinde22)&rbrack;. In fact, what is arguably a precise and provable version of the statement has appeared years earlier: the [[Ryu-Takayanagi formula]], see [below](#AsASloganForTheRyuTakayanagiFormula).
+
+At face value the statement "ER = EPR", even if parsed benevolently, suffers from a [[type checking|typing error]] between [[quantum physics]] and [[classical field theory|classical]] [[gravity]]. However, [like with a Zen koan](https://twitter.com/schreiberurs/status/1134503200550203392?lang=en), one may imagine the [[paradox|paradoxical]] formulation to propel the intuitive grasp of indeed rather deep principles of [[holographic principle|holography]] and particularly of [[holographic entanglement entropy]], such as expressed with precision by the [Ryu-Takayanagi formula](#AsASloganForTheRyuTakayanagiFormula).
+
+Another source of fun with the slogan "ER = EPR" is to thereby see the two classical and seminal papers by [[Albert Einstein]] et al. from 1935 &lbrack;[Einstein & Rosen (1935)](wormhole#EinsteinRosen35), [Einstein, Podoldsky & Rosen (1935)](EPR+paradox#EinsteinPodoldskyRosen35)&rbrack; --- which to [[Einstein]] must have seemed unrelated --- to secretly be about two sides of the same medal.
+
+
 
 ## As a slogan for the Ryu-Takayanagi formula
  {#AsASloganForTheRyuTakayanagiFormula}
 
-The idea may usefully be compared -- and maybe is in parts a way of turning into prose -- the *[[Ryu-Takayanagi formula]]* (which has a more well-defined content as a *[[theorem]]* in a class of discrete [[tensor network]]-models), which equates 
+The idea meant to be expressed by the slogan "ER = EPR" may usefully be compared to -- and may be a way of turning into prose -- the *[[Ryu-Takayanagi formula]]* &lbrack;[Ryu & Takayanagi (2006)](#RyuTakayanagi06a)&rbrack; (which has a more well-defined content as a *[[theorem]]* in a class of discrete [[tensor network]]-models). The RT-formula equates:
 
 * **(quantum entanglement:)** the [[entanglement entropy]] of a [[boundary field theory|boundary]] [[quantum field theory]] in a subspace of an [[asymptotic boundary]] 
 
 with 
 
-* **(global spacetime structure:)** the minimal area of a [[coboundary|cobounding]] [[hypersurface]] in an ambient curved [[bulk]] [[spacetime]].
+* **(global spacetime structure:)** the [[minimal surface|minimal area]] of a [[coboundary|cobounding]] [[hypersurface]] in an ambient [[curvature|curved]] [[bulk]] [[spacetime]].
 
 Concretely, in [[tensor network]]-models of [[AdS2/CFT1 duality]], the [[entanglement entropy]] $S_A$ of any [[Majorana dimer code]]-[[tensor network]] [[quantum state|state]] turns out to count the number of [[dimers]] that cross between a ([[connected topological space|connected]]) subregion $A$ and its [[complement]]:
 
@@ -126,13 +134,17 @@ For more on this see at *[[holographic entanglement entropy]]*.
 
 ## References
 
-The original article:
+The original result of the [[Ryu-Takayanagi formula]]:
+
+* {#RyuTakayanagi06a} [[Shinsei Ryu]], [[Tadashi Takayanagi]], *Holographic Derivation of Entanglement Entropy from AdS/CFT*, Phys. Rev. Lett. **96** 181602 (2006) &lbrack;[arXiv:hep-th/0603001](https://arxiv.org/abs/hep-th/0603001), [doi:10.1103/PhysRevLett.96.181602](https://doi.org/10.1103/PhysRevLett.96.181602)&rbrack;
+
+The slogan "ER = EPR" is due to:
 
  * {#MaldacenaSusskind13} [[Juan Maldacena]], [[Leonard Susskind]], _Cool horizons for entangled black holes_, Fortsch. Phys. 61 (2013) 781-811, 2013 ([arXiv:1306.0533](http://arxiv.org/abs/1306.0533), [doi:10.1002/prop.201300020](https://doi.org/10.1002/prop.201300020)) 
 
-An email exchange that happened half a year earlier:
+An email exchange of similar content that happened half a year earlier is recalled in:
 
-* [[Erik Verlinde]], [[Herman Verlinde]], *A Conversation on ER = EPR* &lbrack;[arXiv:2212.09389](https://arxiv.org/abs/2212.09389)&rbrack;
+* {#VerlindeVerlinde22} [[Erik Verlinde]], [[Herman Verlinde]], *A Conversation on ER = EPR* &lbrack;[arXiv:2212.09389](https://arxiv.org/abs/2212.09389)&rbrack;
 
 See also
 
