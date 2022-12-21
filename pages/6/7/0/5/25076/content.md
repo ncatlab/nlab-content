@@ -2,7 +2,7 @@
 ### Polyakov gauge/string duality
  {#PolyakovGaugeStringDualityReferences}
 
-Key ideas underlying what is now known as the *[[AdS-CFT correspondence]]* and the *[[AdS-QCD correspondence]]* in [[string theory]] were preconceived by [[Alexander Polyakov]] in efforts to understand [[confinement|confined]] [[QCD]] (the [[mass gap problem]]) by regarding [[color charge|color]]-[[flux tubes]] between [[quarks]] as dynamical [[strings]]:
+Key ideas underlying what is now known as the *[[AdS-CFT correspondence|AdS-CFT]]-* and the *[[AdS-QCD correspondence|AdS-QCD]]*-[[duality in string theory|duality in]] [[string theory]] were preconceived by [[Alexander Polyakov]] in efforts to understand [[confinement|confined]] [[QCD]] (the [[mass gap problem]]) by regarding [[color charge|color]]-[[flux tubes]] between [[quarks]] as dynamical [[strings]]:
 
 Early suggestion that [[confinement|confined]] [[QCD]] is described by regarding the [[color charge|color]]-[[flux tubes]] as [[string]]-like dynamical degrees of freedoms:
 
