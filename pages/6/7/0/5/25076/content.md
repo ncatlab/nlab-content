@@ -17,7 +17,7 @@ Early suggestion that [[confinement|confined]] [[QCD]] is described by regarding
 
 Early suggestion (due to the [[Liouville theory|Liouville field]] see in the [[quantization]] of the [[bosonic string]] via the [[Polyakov action]]) that such [[flux tubes]] regarded as [[confinement|confinig]] [[strings]] are to be thought of a probing higher dimensional spacetime, exhibiting a [[holographic principle]] in which actual spacetime appears as a [[intersecting brane model|brane]]:
 
-* [[Alexander Polyakov]], *String Theory and Quark Confinement*, Nucl. Phys. Proc. Suppl. **68** (1998) 1-8 $[$[arXiv:hep-th/9711002](https://arxiv.org/abs/hep-th/9711002), <a href="https://doi.org/10.1016/S0920-5632(98)00135-2">doi:10.1016/S0920-5632(98)00135-2</a>$]$
+* [[Alexander Polyakov]], *String Theory and Quark Confinement*, talk at [Strings'97](https://inspirehep.net/conferences/970718), Nucl. Phys. Proc. Suppl. **68** (1998) 1-8 $[$[arXiv:hep-th/9711002](https://arxiv.org/abs/hep-th/9711002), <a href="https://doi.org/10.1016/S0920-5632(98)00135-2">doi:10.1016/S0920-5632(98)00135-2</a>$]$
 
 * [[Alexander Polyakov]], *The wall of the cave*, Int. J. Mod. Phys. A **14** (1999) 645-658 $[$[arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057), [doi:10.1142/S0217751X99000324](https://doi.org/10.1142/S0217751X99000324)$]$
 
