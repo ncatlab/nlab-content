@@ -85,7 +85,7 @@ Pragmatics is concerned with the meaning of language in context.
 
 * [[Joachim Lambek]], _Pregroups and natural language processing_, The Mathematical Intelligencer 28 (2006), 41–48 [pdf](http://www.math.mcgill.ca/rags/JAC/124/Lambek-Pregroups-s.pdf)
 * [[Bob Coecke]], [[Mehrnoosh Sadrzadeh]], Stephen Clark, _Mathematical foundations for a compositional distributional model of meaning_, in the Lambek Festschrift, special issue of Linguistic Analysis, 2010 [arxiv/1003.4394](https://arxiv.org/abs/1003.4394)
-
+* [[Vasily Pestun]], [[Yiannis Vlassopoulos]], _Tensor network language model_, [arXiv:1710.10248](https://arxiv.org/abs/1710.10248)
 
 category: philosophy
 
