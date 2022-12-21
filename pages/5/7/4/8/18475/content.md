@@ -100,9 +100,9 @@ For [[Bruhat-Tits tree]] [[tensor network states]] one finds that the [[holograp
 
 Textbooks:
 
-* {#ZaanenLiuSunSchalm15} [[Jan Zaanen]], Yan Liu, Ya-Wen Sun, [[Koenraad Schalm]], _Holographic Duality in Condensed Matter Physics_, Cambridge University Press 2015 $[$[doi:10.1017/CBO9781139942492](https://doi.org/10.1017/CBO9781139942492)$]$
+* {#ZaanenLiuSunSchalm15} [[Jan Zaanen]], Yan Liu, Ya-Wen Sun, [[Koenraad Schalm]], _Holographic Duality in Condensed Matter Physics_, Cambridge University Press 2015 &lbrack;[doi:10.1017/CBO9781139942492](https://doi.org/10.1017/CBO9781139942492)&rbrack;
 
-* {#HartnollLucasSachdev16} [[Sean Hartnoll]], [[Andrew Lucas]], [[Subir Sachdev]], _Holographic quantum matter_, MIT Press 2018 ([arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [publisher](https://mitpress.ublish.com/book/holographic-quantum-matter))
+* {#HartnollLucasSachdev16} [[Sean Hartnoll]], [[Andrew Lucas]], [[Subir Sachdev]], _Holographic quantum matter_, MIT Press (2018) &lbrack;[arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [ISBN:9780262348010](https://mitpress.ublish.com/book/holographic-quantum-matter)&rbrack;
 
 
 
