@@ -629,6 +629,8 @@ More recent discussion is in
 
 * [[Tom Avery]], [[Tom Leinster]], _Isbell conjugacy and the reflexive completion_, arXiv:2102.08290 (2021). ([abstract](https://arxiv.org/abs/2102.08290))
 
+* [[John Baez]], Isbell duality, *Notices Amer. Math. Soc.* **70** (2022), 140-141.  ([pdf](https://www.ams.org/journals/notices/202301/rnoti-p140.pdf))
+
 Isbell conjugacy for [[(∞,1)-presheaves]] over the [[(∞,1)-category]] of duals of [[dg-algebra]]s is discussed around page 32 of
 
 * [[David Ben-Zvi]], [[David Nadler]], _Loop spaces and connections_ ([arXiv:1002.3636](http://arxiv.org/abs/1002.3636))
