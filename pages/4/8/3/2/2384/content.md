@@ -8,7 +8,7 @@
 This page is used as a hub to gather references about [[category theory|category-theoretic]] work with explicit applications to biology. 
 
 
-_Biology_ can be seen as an umbrella term for a spectrum of scientific domains all interested in studying life, at various [scales](https://en.wikipedia.org/wiki/Biological_organisation). A range of category-theoretic formalisms have now been proposed to model these scales from [DNA mechanisms](https://www.cdc.gov/genomics/about/basics.htm) to [complex systems](https://en.wikipedia.org/wiki/Complex_system) through [protein interactions](https://en.wikipedia.org/wiki/Protein%E2%80%93protein_interaction). This page gathers works expressing their results in the language of biology by using category theory concepts. More works with potential applications to topics somewhat related to biological questions are referred at the end of the page.
+_Biology_ can be seen as an umbrella term for a spectrum of scientific domains all interested in studying life, at various [scales](https://en.wikipedia.org/wiki/Biological_organisation). A range of category-theoretic formalisms have now been proposed to model these scales, from [DNA mechanisms](https://www.cdc.gov/genomics/about/basics.htm) to [complex systems](https://en.wikipedia.org/wiki/Complex_system) through [protein interactions](https://en.wikipedia.org/wiki/Protein%E2%80%93protein_interaction). This page gathers works expressing their results in the language of biology by using category theory concepts. More works with potential applications to topics somewhat related to biological questions are referred at the end of the page.
 
 ## Categories
 
@@ -16,7 +16,7 @@ This section presents category theoretic models using categories as ways to desc
 
 ### Ologs
 
-Ontologies are used in genomics to classify categories of observable phenomena such as [diseases](https://www.ebi.ac.uk/ols/ontologies/doid) or [genes](http://geneontology.org/). D. Spivak proposed a model for ontologies called _Ologs_. Ologs are freely generated categories over graphs whose objects and arrows are defined by (English) sentences such that
+[[ontology|Ontologies]] are used in [genomics](https://en.wikipedia.org/wiki/Genomics) to classify categories of observable phenomena such as [diseases](https://www.ebi.ac.uk/ols/ontologies/doid) or [gene expressions](https://en.wikipedia.org/wiki/Gene_Ontology). A category-theoretic model called "Ologs" was proposed to formalize such ontologies. _Ologs _ are freely generated categories over graphs whose objects and arrows are defined by (English) sentences such that
 
 * each object is a [nominal sentence](https://en.wikipedia.org/wiki/Nominal_sentence) about a given topic;
 
@@ -66,13 +66,15 @@ We can show that if the preorder $(\Omega,\preceq)$ defines a [[lattice]], then 
 
 Ologs and biology:
 
-* DI Spivak, RE Kent, _Ologs: A categorical framework for knowledge representation_, [pdf](https://math.mit.edu/~dspivak/informatics/olog.pdf)
-* JY Wong, J McDonald, M Taylor-Pinney, DI Spivak, KaplanDL , MJ Buehler, _Materials by Design: Merging Proteins and Music_, Nano Today. 2012 Dec 1;7(6):488-495,  [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3752788/)
-* T. Giesa, DI Spivak, MJ. Buehler, _Reoccurring patterns in hierarchical protein materials and music: The power of analogies_ [pdf](https://arxiv.org/pdf/1111.5297.pdf)
+* [[David Spivak|DI Spivak]], RE Kent, _Ologs: A categorical framework for knowledge representation_, [pdf](https://math.mit.edu/~dspivak/informatics/olog.pdf)
+* JY Wong, J McDonald, M Taylor-Pinney, [[David Spivak|DI Spivak]], KaplanDL , MJ Buehler, _Materials by Design: Merging Proteins and Music_, Nano Today. 2012 Dec 1;7(6):488-495,  [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3752788/)
+* T. Giesa, [[David Spivak|DI Spivak]], MJ. Buehler, _Reoccurring patterns in hierarchical protein materials and music: The power of analogies_ [pdf](https://arxiv.org/pdf/1111.5297.pdf)
 
-An introduction to categories of segments:
+Introductory material for categories of segments:
 
-* R Tuyeras, _Category Theory for Genetics_,  [arXiv:1708.05255](https://arxiv.org/abs/1708.05255)
+* A [talk](https://www.youtube.com/watch?v=l2PB9by6IBc) by [[Kenny Courser|K Courser]]. 
+
+* [[Remy Tuyeras|R Tuyeras]], _Category Theory for Genetics_,  [arXiv:1708.05255](https://arxiv.org/abs/1708.05255)
 
 ## Theories and models
 
@@ -107,38 +109,38 @@ There is a notion of _open_ stock-flow diagram that can be composed by using the
 
 ### Pedigrads
 
-A [[pedigrad]] is a model for a limit sketch defined on a [category of segments](#CategoryOfSegments) $\mathbf{Seg}(\Omega)$. The functors defining pedigrads can land in any types of categories. These functors have been used to model [genomic data](https://en.wikipedia.org/wiki/Genomics) and design algorithms to study them.
+A [[pedigrad]] is a model for a limit sketch defined on a [category of segments](#CategoryOfSegments). The functors defining pedigrads can land in any types of categories. These functors have been used to model [genomic data](https://en.wikipedia.org/wiki/Genomics) and design algorithms to study them.
 
 ### References
 
 Stock-flow diagrams and petri nets:
 
-* J Baez, X Li, S Libkind, N Osgood and E Patterson, _Compositional modeling with stock and flow diagrams_, [pdf](https://arxiv.org/pdf/2205.08373.pdf)
+* [[John Baez|JC Baez]], X Li, S Libkind, N Osgood and E Patterson, _Compositional modeling with stock and flow diagrams_, [pdf](https://arxiv.org/pdf/2205.08373.pdf)
 
 * A Baas, J Fairbanks, M Halter, S Libkind and E Patterson, _An algebraic framework for structured epidemic modeling_, [pdf](https://arxiv.org/pdf/2203.16345.pdf)
 
-* JC Baez, BS Pollard, _A Compositional Framework for Reaction Networks_, [pdf](https://arxiv.org/pdf/1704.02051.pdf)
+* [[John Baez|JC Baez]], BS Pollard, _A Compositional Framework for Reaction Networks_, [pdf](https://arxiv.org/pdf/1704.02051.pdf)
 
 Pedigrads:
 
-* R Tuyeras, _Category theory for genetics I: mutations and sequence alignments_, Theory and Applications of Categories, Vol. 33, 2018, No. 40, pp 1269-1317, [pdf](http://www.tac.mta.ca/tac/volumes/33/40/33-40abs.html5)
+* [[Remy Tuyeras|R Tuyeras]], _Category theory for genetics I: mutations and sequence alignments_, Theory and Applications of Categories, Vol. 33, 2018, No. 40, pp 1269-1317, [pdf](http://www.tac.mta.ca/tac/volumes/33/40/33-40abs.html5)
 
-* R Tuyeras, _Category theory for genetics II: genotype, phenotype and haplotype_, [arXiv:1805.07004](https://arxiv.org/abs/1805.07004)
+* [[Remy Tuyeras|R Tuyeras]], _Category theory for genetics II: genotype, phenotype and haplotype_, [arXiv:1805.07004](https://arxiv.org/abs/1805.07004)
 
-* R Tuyeras, _A category theoretical argument for causal inference_, [arXiv:2004.09999](https://arxiv.org/abs/2004.09999)
+* [[Remy Tuyeras|R Tuyeras]], _A category theoretical argument for causal inference_, [arXiv:2004.09999](https://arxiv.org/abs/2004.09999)
 
 
 ## Adjunctions
 
-[[adjunction|Adjunctions]] have been used to model pathogenes and diseases, and their corresponding immune response. For example, denote as $I$ the set of immune responses and as $P$ the set pathogenes and diseases. In practice, we can map a subset of $P$ to a subset of $I$. This defines a binary relation as follows.
+[[adjunction|Adjunctions]] have been used to model [pathogens](https://en.wikipedia.org/wiki/Pathogen) and [disease diagnoses](https://en.wikipedia.org/wiki/Disease), and their corresponding [immune response](https://en.wikipedia.org/wiki/Immune_response). For example, denote as $I$ the set of immune responses and as $P$ the set pathogens and [disease symptoms](https://en.wikipedia.org/wiki/Signs_and_symptoms). In practice, we can map a subset of $P$ to a subset of $I$. This defines a binary relation as follows.
 $$
 Q \subseteq \mathsf{Sub}(P) \times \mathsf{Sub}(I)
 $$
-We can complete this binary relation into a functor of the following form.
+We can complete this binary [[relation]] into a functor of the following form.
 $$
 Q: \mathsf{Sub}(P)^{\mathsf{op}} \times \mathsf{Sub}(I) \to \mathbf{2} = \{0 \leq 1\}.
 $$
-We can then define a functor $F:\mathsf{Sub}(I) \to \mathsf{Sub}(P)$ with the following specification.
+We can then define a [[functor]] $F:\mathsf{Sub}(I) \to \mathsf{Sub}(P)$ with the following specification.
 $$
 F(i) = \bigcup\{p| Q(p,i) = 1\}
 $$
@@ -189,11 +191,11 @@ More specifically, these gradient descent techniques use the underlying equation
 
 Phylogenies:
 
-* JC Baez, N Otter, _Operads and Phylogenetic Trees_, Theory and Applications of Categories, Vol. 32 No. 40 (2017), 1397-1453, [paper](http://www.tac.mta.ca/tac/volumes/32/40/32-40abs.html)
+* [[John Baez|JC Baez]], N Otter, _Operads and Phylogenetic Trees_, Theory and Applications of Categories, Vol. 32 No. 40 (2017), 1397-1453, [paper](http://www.tac.mta.ca/tac/volumes/32/40/32-40abs.html)
 
 Specialization and gradient descent:
 
-* R Tuyeras et al., _Cellular intelligence: dynamic specialization through non-equilibrium multi-scale compartmentalization_, [bioarxiv](https://www.biorxiv.org/content/10.1101/2021.06.25.449951v1.abstract)
+* [[Remy Tuyeras|R Tuyeras]] et al., _Cellular intelligence: dynamic specialization through non-equilibrium multi-scale compartmentalization_, [bioarxiv](https://www.biorxiv.org/content/10.1101/2021.06.25.449951v1.abstract)
 
 
 ## Related fields
@@ -206,7 +208,7 @@ This section gathers works in domains that often use category theory as a langua
 
 Additionally, the clustering algorithm [UMAP](https://umap-learn.readthedocs.io/en/latest/), commonly-used in computational biology to classify sequencing data, relies on [[fuzzy simplicial set]]s. For more detail, see the following blog post:
 
-* John Carlos Baez, [The Category Theory Behind UMAP](https://johncarlosbaez.wordpress.com/2020/02/10/the-category-theory-behind-umap/), Azimuth
+* [[John Baez|JC Baez]], [The Category Theory Behind UMAP](https://johncarlosbaez.wordpress.com/2020/02/10/the-category-theory-behind-umap/), Azimuth
 
 
 ### Algebraic geometry
@@ -217,15 +219,15 @@ The concept of [[singularity|singularities]], in algebraic geometry, has been us
 
 Persistent homology:
 
-* L Kanari, P Dłotko, M Scolamiero, R Levi, J Shillcock, K Hess, H Markram (2016), _Quantifying topological invariants of neuronal morphologies_, [arXiv:1603.08432](https://arxiv.org/abs/1603.08432)
+* L Kanari, P Dłotko, M Scolamiero, R Levi, J Shillcock, [[Kathryn Hess|K Hess]], H Markram (2016), _Quantifying topological invariants of neuronal morphologies_, [arXiv:1603.08432](https://arxiv.org/abs/1603.08432)
 
-* Y Lee, SD Barthel, P Dłotko, SM Moosavi, K Hess, B Smit, (2017), _Pore-geometry recognition: on the importance of quantifying similarity in nanoporous materials_, [arXiv:1701.06953.](https://arxiv.org/abs/1701.06953)
+* Y Lee, SD Barthel, P Dłotko, SM Moosavi, [[Kathryn Hess|K Hess]], B Smit, (2017), _Pore-geometry recognition: on the importance of quantifying similarity in nanoporous materials_, [arXiv:1701.06953.](https://arxiv.org/abs/1701.06953)
 
 Fuzzy simplicial sets:
 
 * A Jackson, _The mathematics of UMAP_, [pdf](https://adelejackson.github.io/files/Maths_of_UMAP.pdf)
 
-* S Spivak, _Metric Realization of Fuzzy Simplicial Sets_, [pdf](https://math.mit.edu/~dspivak/files/metric_realization.pdf)
+* [[David Spivak|DI Spivak]], _Metric Realization of Fuzzy Simplicial Sets_, [pdf](https://math.mit.edu/~dspivak/files/metric_realization.pdf)
 
 
 Singularities:
@@ -251,31 +253,43 @@ Whatever the definition of [[hyperstructure]] really will be in the end, I think
 Now, biological structures are often of the complex hierarchical structure that one would imagine the concept of  [[hyperstructure]] would describe to some extent, but if the notion of hyperstructure is good and natural, that should be just a very specific of a more general kind of applications which maybe should not be regarded as the archetypical application of the concept as such. In this respect it is maybe noteworthy that the idea of hyperstructure does not originate in a motivation from biology, but was originally conceived as a means to formalize [[extended cobordism]]s such as appear in the [[generalized tangle hypothesis]].
 =--
 
+### Bigraphs, $\lambda$-calculus and $\pi$-calculus
 
-### n-Categories
+[Bigraphs](https://en.wikipedia.org/wiki/Bigraph) are a type of [[hypergraph|hypergraph-based]] structures that can be linked to [process algebras](https://en.wikipedia.org/wiki/Process_calculus) such as the [[lambda-calculus|$\lambda$-calculus]], the [$\pi$-calculus](https://en.wikipedia.org/wiki/%CE%A0-calculus) and its [stochastic variant](https://link.springer.com/referenceworkentry/10.1007/978-1-4419-9863-7_767). Each of these calculus formalisms has been used to model biological systems. 
 
-According to [[Mikhail Gromov]], the mathematical structures nearest to what is happening in the mind are [[n-categories]].
+Interestingly, it was shown that the $\pi$-calculus can be interpreted within a [[2-category theory|2-category-theoretic]] setting. 
+
+A number of bigraph-based formalisms have been proposed to model complex systems, some with a category theoretic flavor. For example, [stochastic bigraphs](https://www.pure.ed.ac.uk/ws/portalfiles/portal/15231648/Stochastic_Bigraphs.pdf) and their compositions have been used to model [membrane budding](https://en.wikipedia.org/wiki/Budding) in a biological system.
 
 ### References
 
-Higher categories:
-
-* Talk by Mikhail Gromov, [Ergologic and Interfaces Between Languages](https://www.youtube.com/watch?v=jRSqGYJQQM8)
-
 Hyperstructures:
 
-* NA Baas, _On Higher Structures_, [arxiv](https://arxiv.org/pdf/1509.00403.pdf)
+* [[Nils Baas|NA Baas]], _On Higher Structures_, [arxiv](https://arxiv.org/pdf/1509.00403.pdf)
 
-* NA Baas, _Extended Memory Evolutive Systems in a Hyperstructure Context. Axiomathes 19, 215–221 (2009). [link](https://doi.org/10.1007/s10516-009-9066-3)
+* [[Nils Baas|NA Baas]], _Extended Memory Evolutive Systems in a Hyperstructure Context. Axiomathes 19, 215–221 (2009). [link](https://doi.org/10.1007/s10516-009-9066-3)
 
+Bigraphs:
 
-## Bigraphs and $pi$-calculus
+*  [[Robin Milner|R Milner]], _Bigraphs and Their Algebra_, Electronic Notes in Theoretical Computer Science
+Volume 209, 24 April 2008, Pages 5-19, [link](https://www.sciencedirect.com/science/article/pii/S157106610800217X)
 
-A range of graph-based formalisms have been proposed to model complex systems, some with a category theoretic flavour. In particular [process algebras](https://en.wikipedia.org/wiki/Process_calculus), such as the [pi-calculus](https://en.wikipedia.org/wiki/%CE%A0-calculus) and its stochastic variant, have been used to model biological systems. Further developments point to Milner's [bigraphs](http://www.cl.cam.ac.uk/~rm135/uam-theme.html) ([bibliography](http://www.itu.dk/~mikkelbu/research/bigraphsbib/index.html)). In [Stochastic Bigraphs](https://www.pure.ed.ac.uk/ws/portalfiles/portal/15231648/Stochastic_Bigraphs.pdf) the authors discuss membrane budding in a biological system.
+* J Krivine, [[Robin Milner|R Milner]], A Troina, _Stochastic Bigraphs_, Electronic Notes in Theoretical Computer Science
+Volume 218, 22 October 2008, Pages 73-9, [link](https://www.sciencedirect.com/science/article/pii/S1571066108004003)
+
+Relations between $\lambda$-calculus, $\pi$-calculus and biology:
+
+* S Federhen, _Replication is Recursion; or, Lambda: the Biological Imperative_,[bioarxiv](https://www.biorxiv.org/content/biorxiv/early/2015/05/01/018804.full.pdf)
+
+* [A Regev](https://en.wikipedia.org/wiki/Aviv_Regev), W Silverman, E Shapiro E, _Representation and simulation of biochemical processes using the pi-calculus process algebra_, Pacific Symposium on Biocomputing 6:459-470 (2001), [pdf](http://psb.stanford.edu/psb-online/proceedings/psb01/regev.pdf)
+
+* See the blog post by [[John Baez]]: [Biology and the Pi-Calculus](https://johncarlosbaez.wordpress.com/2016/01/02/biology-and-the-pi-calculus/)
+
+* [[Mike Stay|M Stay]], LG Meredith, _Higher category models of the pi-calculus_, [arXiv:1504.04311](https://arxiv.org/abs/1504.04311)
 
 ## Other references
 
-A general dicussion on using category theory for biology can be found on the $n$-category café:
+A general discussion on using category theory for biology can be found on the $n$-category café:
 
 * [category theory and biology](http://golem.ph.utexas.edu/category/2007/11/category_theory_and_biology.html).
 
@@ -287,22 +301,26 @@ Cell biology:
 
 * V Noel, D Grigoriev, S Vakulenko, O Radulescu, _Tropical geometries and dynamics of biochemical networks. Application to hybrid cell cycle models_, [pdf](http://logic.pdmi.ras.ru/~grigorev/pub/tropical_dynamics_modified.pdf)
 
-Neuroscience:
-
-* AC Ehresmann and P S Wlimes, _Towards a theoretical framework for wandering logic intelligence memory evolutive systems_. In P. L. Simeonov, L. S. Smith, and A. C. Ehresmann, editors, Integral. Biomathics: Tracing the Road to Reality. Springer-Verlag, 2012.
-
-
-* AC Ehresmann and J-P Vanbremeersch, _The memory evolutive systems as a model of Rosen's organisms_. Axiomathes, 16:165–214, 2006.
-
-* AC Ehresmann and J-P Vanbremeersch. _Memory Evolutive Systems: Hierarchy, Emergence, Cognition_, volume 4 of Studies in Multidisciplinarity. Elsevier, 2007.
-
-* AC Ehresmann, N Baas, and J-P Vanbremeersch. _Hyperstructures and memory evolutive systems_.
-Intern. J. Gen. Sys., 33(5):553–568, 2004.
-
-* D Pastor, E Beurier, A Ehresmann, R Waldeck, _Interfacing biology, category theory and mathematical statistics_, [https://arxiv.org/pdf/2009.06832.pdf](pdf)
 
 Systems biology:
 
 * R Rosen, _The representation of biological systems from the standpoint of the theory of categories_ , Bulletin of Mathematical Biophysics, Vol 20. 1958, [pdf]( http://www.few.vu.nl/~rplanque/Onderwijs/MathBio/PapersForProject/Rosen.pdf)
 
 * IC Baianu, JF Glazebrook and R Brown, _A Category Theory And Higher Dimensional Algebra Approach To Complex Systems Biology, Meta-systems And Ontological Theory Of Levels: Emergence Of Life, Society, Human Consciousness And Artificial Intelligence_, [text](https://planetmath.org/ACATEGORYTHEORYANDHIGHERDIMENSIONALALGEBRAAPPROACHTOCOMPLEXSYSTEMSBIOLOGYMETASYSTEMSANDONTOLOGICALTHEORYOFLEVELS)
+
+Neuroscience:
+
+* According to [[Mikhail Gromov]], the mathematical structures nearest to what is happening in the mind are [[n-categories]]. See his talk: [Ergologic and Interfaces Between Languages](https://www.youtube.com/watch?v=jRSqGYJQQM8)
+
+
+* [[Andree Ehresmann|AC Ehresmann]] and P S Wlimes, _Towards a theoretical framework for wandering logic intelligence memory evolutive systems_. In P. L. Simeonov, L. S. Smith, and A. C. Ehresmann, editors, Integral. Biomathics: Tracing the Road to Reality. Springer-Verlag, 2012.
+
+
+* [[Andree Ehresmann|AC Ehresmann]] and J-P Vanbremeersch, _The memory evolutive systems as a model of Rosen's organisms_. Axiomathes, 16:165–214, 2006.
+
+* [[Andree Ehresmann|AC Ehresmann]] and J-P Vanbremeersch. _Memory Evolutive Systems: Hierarchy, Emergence, Cognition_, volume 4 of Studies in Multidisciplinarity. Elsevier, 2007.
+
+* [[Andree Ehresmann|AC Ehresmann]], N Baas, and J-P Vanbremeersch. _Hyperstructures and memory evolutive systems_.
+Intern. J. Gen. Sys., 33(5):553–568, 2004.
+
+* D Pastor, E Beurier, [[Andree Ehresmann|AC Ehresmann]], R Waldeck, _Interfacing biology, category theory and mathematical statistics_, [pdf](https://arxiv.org/pdf/2009.06832.pdf)
