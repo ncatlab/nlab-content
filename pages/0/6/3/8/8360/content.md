@@ -1,13 +1,17 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Alexander_Markovich_Polyakov)
 
-* [old personal page](https://phy.princeton.edu/people/alexander-polyakov) at Princeton (~ 1993?)
+* [old personal page](https://phy.princeton.edu/people/alexander-polyakov) at Princeton 
 
-  > My main interests this year were directed towards [[string theory]] of [[quark]] [[confinement]]. The problem is to find the string Lagrangian for the Faraday's "[[flux tube|lines of force]]",which would reproduce perturbative corrections from the [[Yang-Mills theory]] to the Coulomb law at small distances and would give permanent [[confinement]] of quarks at large distances.
+  > My main interests this year &lbrack;1993?&rbrack; were directed towards [[string theory]] of [[quark]] [[confinement]]. The problem is to find the string Lagrangian for the Faraday's "[[flux tube|lines of force]]",which would reproduce perturbative corrections from the [[Yang-Mills theory]] to the Coulomb law at small distances and would give permanent [[confinement]] of quarks at large distances.
 
 ## Selected writings
 
 Introducing the [[Polyakov action]] (and via [[Liouville theory]] in the non-critical case) for the [[bosonic string]]:
+
+* [[Alexander Polyakov]], *String representations and hidden symmetries for gauge fields*, Physics Letters B **82** 2 (1979) 247-250 &lbrack;<a href="https://doi.org/10.1016/0370-2693(79)90747-0">doi:10.1016/0370-2693(79)90747-0</a>
+
+* [[Alexander Polyakov]], *Gauge fields as rings of glue*, Nuclear Physics B **164** (1980) 171-188 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90507-6">doi:10.1016/0550-3213(80)90507-6</a>&rbrack;
 
 * [[Alexander Polyakov]], *Quantum geometry of bosonic strings*, Phys. Lett. B **103** (1981) 207-210 &lbrack;<a href="https://doi.org/10.1016/0370-2693(81)90743-7">doi:10.1016/0370-2693(81)90743-7</a>, [pdf](http://qft.itp.ac.ru/polyakov-2.pdf)&rbrack;
 
@@ -39,8 +43,12 @@ and specifically between [[single trace operators]] and [[superstring]]-excitati
 
 > These expectation values can be calculated either from the gauge theory or from the strongly coupled 2d sigma model. The coupling in this model is proportional to the target space curvature. This target space can be interpreted as a usual continuous space-time only when the curvature is small. As we increase the coupling, this interpretation becomes more and more fuzzy and finally completely meaningless. 
 
-
 * [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], *A semi-classical limit of the gauge/string correspondence*, Nucl. Phys. B **636** (2002) 99-114 &lbrack;[arXiv:hep-th/0204051](https://arxiv.org/abs/hep-th/0204051), <a href="https://doi.org/10.1016/S0550-3213(02)00373-5">doi:10.1016/S0550-3213(02)00373-5</a>&rbrack;
+
+Historical review:
+
+
+* [[Alexander Polyakov]], *Confinement and Liberation*, in [[Gerardus ’t Hooft]] (ed.) *50 Years of Yang-Mills Theory* (2005) 311-329 &lbrack;[arXiv:hep-th/0407209](https://arxiv.org/abs/hep-th/0407209), [doi:10.1142/9789812567147_0013](https://doi.org/10.1142/9789812567147_0013), [doi:10.1142/5601](https://doi.org/10.1142/5601)&rbrack;
 
 
 
