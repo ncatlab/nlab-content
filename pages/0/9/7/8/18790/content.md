@@ -17,6 +17,6 @@ Anafunctions are a [[decategorification]] of the notion of [[anafunctor]], and t
 
 For anafunctions in [[foundations of mathematics]] without the [[principle of unique choice]] see:
 
-* [[Mike Shulman]], *Mathematics without the principle of unique choice*. Mathoverflow. Jun 5, 2018. ([web](https://mathoverflow.net/questions/302037/mathematics-without-the-principle-of-unique-choice](https://mathoverflow.net/questions/302037/mathematics-without-the-principle-of-unique-choice))
+* [[Mike Shulman]], *Mathematics without the principle of unique choice*. [[MathOverflow]]. June 5, 2018. [Web](https://mathoverflow.net/questions/302037/mathematics-without-the-principle-of-unique-choice).
 
 [[!redirects anafunctions]]
