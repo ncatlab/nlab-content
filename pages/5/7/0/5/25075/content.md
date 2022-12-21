@@ -4,7 +4,7 @@
 
 ## Idea
 
-A pedigrad defines a computation environment to study genetic mechanisms.
+In applications of [[category theory]] to [[biology]], a "pedigrad" defines a computational environment to study genetic mechanisms.
 
 ## Definition
 
