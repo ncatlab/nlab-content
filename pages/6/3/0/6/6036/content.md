@@ -66,11 +66,14 @@ $\,$
 
 ## References
 
-The suggestion that [[flux tubes]] between [[quarks]] in [[confinement|confined]] [[quantum chromodynamics]] are to be interpreted as [[string theory|strings in a higher dimensional spacetime]] (with the endpoint [[quarks]] constrained on a [[intersecting brane model|brane intersection]]), and hence the origin of the [[AdS-CFT correspondence]] and specifically the [[AdS-QCD correspondence]], is due to:
+### General
 
-* {#Polyakov98} [[Alexander Polyakov]], *String Theory and Quark Confinement*, Nucl. Phys. Proc. Suppl. **68** (1998) 1-8 &lbrack;[arXiv:hep-th/9711002](https://arxiv.org/abs/hep-th/9711002), <a href="https://doi.org/10.1016/S0920-5632(98)00135-2">doi:10.1016/S0920-5632(98)00135-2</a>&rbrack;
+See references at *[[string theory]]*, *[[bosonic string]]* and *[[superstring]]*.
 
-* {#Polyakov99} [[Alexander Polyakov]], *The wall of the cave*, Int. J. Mod. Phys. A **14** (1999) 645-658 &lbrack;[arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057), [doi:10.1142/S0217751X99000324](https://doi.org/10.1142/S0217751X99000324)&rbrack;
+
+
+[[!include Polyakov gauge-string duality -- references]]
+
 
 
 
