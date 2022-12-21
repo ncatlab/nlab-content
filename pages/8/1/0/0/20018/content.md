@@ -8,7 +8,7 @@ By extension, one may also refer to elements of any algebraic structure, at leas
 
 \section{Prototypical example}
 
-The prototypical algebraic structure with which to make sense of the notion of a word is that of a [[monoid]]. If 'word' is used in a context where the intended algebraic structure is not made clear, use of free monoids is likely intended.
+The prototypical algebraic structure with which to make sense of the notion of a word is that of a [[monoid]]. If 'word' is used in a context where the intended algebraic structure is not made clear, use of [[free monoids]] is likely intended.
 
 \begin{defn} Let $X$ be a set. A _word_ in the elements of $X$ is an element of the [[free monoid]] on $X$. \end{defn}
 
@@ -29,3 +29,17 @@ Another common case is that in which the algebraic structure is that of groups.
 \begin{rmk} As for monoids, we do not assume commutativity. \end{rmk}
 
 \begin{example} Let $X = \{a, b\}$ be a set. Examples of words in the free group on $X$ are the empty word, $a$, $b$, $a b$, $a^{5}$, $a^{-5}$, $a b^{3}$, $a b a b a b$, $a^{-1}b^{-1}a^{-1}b^{-1}a^{-1}b^{-1}$, $a b^{-1}$, $b^{3}a^{2}b^{5}$, $a^{-3}b^{2}a^{7}b^{-2}$, and so on. \end{example}
+
+## Related concepts
+
+* [[free monoid]]
+
+* [[string (computer science)]]
+
+* [[syntax]]
+
+* [[language]]
+
+
+[[!redirects words]]
+
