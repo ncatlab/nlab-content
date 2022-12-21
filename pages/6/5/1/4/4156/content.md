@@ -18,8 +18,9 @@
 * table of contents
 {:toc}
 
-## Idea ##
-This page is about PCT theorems in [[quantum field theory]]. PCT stands for parity, charge and [[time-reversel symmetry]] (warning: the order of the letters P, C and T varies, some authors use CPT, for example). The laws of nature as described by [[quantum field theory]]s are believed to be invariant if one simultaneously reverses the arrow of time, conjugates all charges and reverses all chiral properties. PCT theorems try to make this belief precise by defining the appropriate operators and showing that certain expressions remain constant. Both the statements and the proofs depend on the framework for [[quantum field theory]] one uses.
+## Idea
+
+This page is about PCT theorems in [[quantum field theory]]. PCT stands for parity, charge and [[time-reversal symmetry]] (warning: the order of the letters P, C and T varies, some authors use CPT, for example). The laws of nature as described by [[quantum field theory]]s are believed to be invariant if one simultaneously reverses the arrow of time, conjugates all charges and reverses all chiral properties. PCT theorems try to make this belief precise by defining the appropriate operators and showing that certain expressions remain constant. Both the statements and the proofs depend on the framework for [[quantum field theory]] one uses.
 
 Being "invariant" means that every process that can be observerd in our universe can be observed identically in the "mirror" universe, that is there is no experiment in our universe that cannot be duplicated in the mirror universe. 
 
@@ -103,9 +104,16 @@ See also:
 
 * Wikipedia: [CPT symmetry](http://en.wikipedia.org/wiki/CPT_symmetry)
 
-Proof for Wightman fields:
+Proof from the [[Wightman axioms]]:
 
 * Res Jost: _Eine Bemerkung zum CPT Theorem_ Helv. Phys. Acta 30 (1957), p.409-416
+
+Textbook accounts of this formulation in [[algebraic quantum field theory]]:
+
+* [[Raymond F. Streater]], [[Arthur S. Wightman]], *PCT, Spin and Statistics, and All That*, Princeton University Press (1989, 2000) &lbrack;[ISBN:9780691070629](https://press.princeton.edu/books/paperback/9780691070629/pct-spin-and-statistics-and-all-that), [jstor:j.ctt1cx3vcq](https://www.jstor.org/stable/j.ctt1cx3vcq)&rbrack;
+
+* {#Strocchi13} [[Franco Strocchi]], §4.3 in: _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
+
 
 See also
 
