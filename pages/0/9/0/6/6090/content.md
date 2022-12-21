@@ -7633,6 +7633,9 @@ Textbook accounts of this axiomatic approach to defining the S-matrix (i.e. not 
 
 * {#Gribov69} [[Vladimir Gribov]], _The theory of complex angular momenta_, Lecture St. Petersburg 1996, publsihed.  Cambridge 2003 ([doi:10.1017/CBO9780511534959](https://doi.org/10.1017/CBO9780511534959))
 
+* [[Franco Strocchi]], §6 of: _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
+
+
 Discussion of S-matrix analyticity as a constraint on global causality violation of locally Lorentz invariant theories is in
 
 * {#AAHDNR06} Allan Adams, [[Nima Arkani-Hamed]], Sergei Dubovsky, Alberto Nicolis, Riccardo Rattazzi, _Causality, Analyticity and an IR Obstruction to UV Completion_, JHEP 0610:014, 2006 ([arXiv:hep-th/0602178](https://arxiv.org/abs/hep-th/0602178))
