@@ -33,4 +33,12 @@ Syntax is the formal specification of a [[theory]] of [[formal logic]], as oppos
 
 * [[name binding]]
 
+* [[language]], [[theory]]
+
+* [[word]], [[string (computer science)|string]]
+
+* [[linguistics]]
+
 [[!redirects syntax]]
+
+
