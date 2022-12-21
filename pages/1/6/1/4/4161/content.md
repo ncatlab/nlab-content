@@ -42,6 +42,8 @@ In the [[Haag-Kastler approach]] ("[[algebraic quantum field theory]]") the [[Bi
 
 * [[Atiyah-Sutcliffe conjecture]]
 
+* [[PCT theorem]]
+
 ## References
 
 The original formulation of the spin-statistics theorem:
@@ -50,9 +52,12 @@ The original formulation of the spin-statistics theorem:
 
 * {#Pauli40} [[Wolfgang Pauli]], _The connection between spin and statistics_, Phys. Rev. 58, 716&#8211;722 (1940)
 
-Textbook account:
+Textbook accounts:
 
-* R. F. Streater and A. S. Wightman, _PCT, Spin and Statistics, and All That_ , reprinted by Addison-Wesley, New York, 1989. 
+* [[Raymond F. Streater]], [[Arthur S. Wightman]], *PCT, Spin and Statistics, and All That*, Princeton University Press (1989, 2000) &lbrack;[ISBN:9780691070629](https://press.princeton.edu/books/paperback/9780691070629/pct-spin-and-statistics-and-all-that), [jstor:j.ctt1cx3vcq](https://www.jstor.org/stable/j.ctt1cx3vcq)&rbrack;
+
+* {#Strocchi13} [[Franco Strocchi]], §4.2 in: _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
+
 
 The proof, which goes back originally to Fermi. There is also a more intuitive approach based on topology. One can see hints of it in Feynman's lecture here:
 
