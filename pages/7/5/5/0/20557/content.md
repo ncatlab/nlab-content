@@ -4,6 +4,10 @@
 
 ## Selected writings
 
+On [[holomorphic blocks]]:
+
+* {#BeemDimoftePasquetti12} [[Christopher Beem]], [[Tudor Dimofte]], [[Sara Pasquetti]], _Holomorphic Blocks in Three Dimensions_ ([arXiv:1211.1986](http://arxiv.org/abs/1211.1986))
+
 On [[conformal bootstrap]] for [[SCFT]]:
 
 * [[Christopher Beem]], Madalena Lemos, Pedro Liendo, [[Leonardo Rastelli]], Balt C. van Rees, _The $N=2$ superconformal bootstrap_ ([arXiv:1412.7541](https://arxiv.org/abs/1412.7541))
