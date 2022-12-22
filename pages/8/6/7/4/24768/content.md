@@ -14,16 +14,8 @@ Product extensionality states that for all elements $a \in A$, $a' \in A$, $b \i
 
 In [[intensional type theory]], [[equality]] is represented by the [[identity type]], and furthermore, there might be more than one element of the identity type in [[intensional type theory]], so a naive translation of product extensionality into intensional type theory doesn't result in the right statement. 
 
-Instead, we have the following:
-
-For every type $A$ and $B$ and elements $a:A$, $a':A$ and $b:A$, $b':A$, there is a canonical function 
-$$\mathrm{idstoproductid}(a, a', b, b'):(a =_A a') \times (b =_B b') \to ((a, b) =_{A \times B} (a', b'))$$
-inductively defined by 
-$$\mathrm{idstoproductid}(a, a, b, b)(\mathrm{refl}_{A}(a), \mathrm{refl}_{B}(b)) \equiv \mathrm{refl}_{A \times B}((a, b)):\Omega(A \times B, (a, b))$$
-where $\Omega(A, a)$ is the [[loop space type]] $a =_A a$ of $A$ at $a:A$. 
-
-Product extensionality is the statement that the function $\mathrm{idstoproductid}(a, a', b, b')$ is an [[equivalence of types]] for all elements $a:A$, $a':A$ and $b:A$, $b':A$:
-$$\mathrm{prodext}(a, a', b, b'):\mathrm{isEquiv}(\mathrm{idtoprojectionids}(a, a', b, b'))$$
+Instead, product extensionality is the statement that given types $A$ and $B$, the [[binary action on identities]] $\mathrm{apbinary}_{(-,-)}(a, a', b, b')$ of the function $a:A, b:B \vdash (a, b):A \times B$ defined in the [[introduction rule]] for the [[product type]] is an [[equivalence of types]] for all elements $a:A$, $a':A$ and $b:A$, $b':A$:
+$$\mathrm{prodext}(a, a', b, b'):\mathrm{isEquiv}(\mathrm{apbinary}_{(-,-)}(a, a', b, b'))$$
 
 \subsection{Judgmental product extensionality}
 
