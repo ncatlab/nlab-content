@@ -187,14 +187,14 @@ A priori [[type IIA superstring theory]] does not have S-duality, but by compact
 
 ## References
 
-* [[Mike Duff]], chapter 6 of _[[The World in Eleven Dimensions]]: Supgergravity, Supermembranes and M-theory_ IoP 1999
+* [[Mike Duff]], chapter 6 of _[[The World in Eleven Dimensions]]: Supgergravity, Supermembranes and M-theory_, IoP (1999)
 
 ### In (super-)Yang-Mills theory
  {#ReferencesInSYM}
 
 It was originally noticed in
 
-* {#GNO77} P. Goddard, J. Nuyts, and [[David Olive]], _Gauge Theories And Magnetic Charge_, Nucl. Phys. B125 (1977) 1-28.
+* {#GNO77} [[Peter Goddard]], [[Jean Nuyts]], [[David Olive]], *Gauge Theories And Magnetic Charge*, Nucl. Phys. B **125** (1977) 1-28 &lbrack;<a href="https://doi.org/10.1016/0550-3213(77)90221-8">doi:10.1016/0550-3213(77)90221-8</a>, [spire:111435](https://inspirehep.net/literature/111435)&rbrack;
 
 that where [[electric charge]] in [[Yang-Mills theory]] takes values in the [[weight lattice]] of the [[gauge group]], then [[magnetic charge]] takes values in the lattice of what is now called the [[Langlands dual group]].
 
@@ -240,6 +240,15 @@ The understanding of this $SL(2,\mathbb{Z})$-symmetry as a remnant conformal tra
 
 * {#Witten07} [[Edward Witten]], _[[Conformal field theory in four and six dimensions]]_ ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
 
+On an [[algorithm]] for constructing [[S-duality|S-dual]] [[quiver gauge theories]]:
+
+* Chiung Hwang, [[Sara Pasquetti]], Matteo Sacchi, *Rethinking mirror symmetry as a local duality on fields*, Phys. Rev. D **106** (2022) 105014 &lbrack;[arXiv:2110.11362](https://arxiv.org/abs/2110.11362), [doi:10.1103/PhysRevD.106.105014](https://doi.org/10.1103/PhysRevD.106.105014)&rbrack;
+
+
+* Riccardo Comi, Chiung Hwang, Fabio Marino, [[Sara Pasquetti]], Matteo Sacchi, *The $SL(2, \mathbb{Z})$ dualization algorithm at work* &lbrack;[arXiv:2212.10571](https://arxiv.org/abs/2212.10571)&rbrack;
+
+
+
 
 ### In type II superstring theory
 
@@ -252,7 +261,7 @@ The suggestion of an $SL(2,\mathbb{Z})$-duality action in [[type II superstring 
 
 _Duality Symmetric Actions_, Nucl. Phys. B411 (1994) 35-63 ([arXiv:hep-th/9304154](http://arxiv.org/abs/hep-th/9304154))
 
-* [[Chris Hull]], [[Paul Townsend]], _Unity of Superstring Dualities_, Nucl.Phys.B438:109-137,1995 ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
+* [[Chris Hull]], [[Paul Townsend]], _Unity of Superstring Dualities_, Nucl. Phys. B438:109-137,1995 ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
 
 * [[John Schwarz]], _An $SL(2,\mathbb{Z})$ Multiplet of Type IIB Superstrings_, Phys.Lett. B360 (1995) 13-18; Erratum-ibid. B364 (1995) 252 ([arXiv:hep-th/9508143](http://arxiv.org/abs/hep-th/9508143))
 
@@ -265,14 +274,14 @@ A textbook account is in
 * {#West12} [[Peter West]], section 17.3 of _[[Introduction to Strings and Branes]]_, Cambridge University Press 2012
 
 
-A 2-loop test is in 
+A [[2-loop]] test is in 
 
-* [[Eric D'Hoker]], Michael Gutperle, [[Duong Phong]], _Two-loop superstrings and S-duality_, Nucl.Phys. B722 (2005) 81-118 ([arXiv:hep-th/0503180](http://arxiv.org/abs/hep-th/0503180))
+* [[Eric D'Hoker]], Michael Gutperle, [[Duong Phong]], _Two-loop superstrings and S-duality_, Nucl.Phys. B 722 (2005) 81-118 ([arXiv:hep-th/0503180](http://arxiv.org/abs/hep-th/0503180))
 
 
 S-duality acting on the [[worldsheet]] theory if [[(p,q)-strings]] is discussed for instance in 
 
-* {#Bandos00} [[Igor Bandos]], _Superembedding Approach and S-Duality. A unified description of superstring and super-D1-brane_, Nucl.Phys.B599:197-227,2001 ([arXiv:hep-th/0008249](http://arxiv.org/abs/hep-th/0008249))
+* {#Bandos00} [[Igor Bandos]], _Superembedding Approach and S-Duality. A unified description of superstring and super-D1-brane_, Nucl. Phys. B **599** 197-227 (2001) ([arXiv:hep-th/0008249](http://arxiv.org/abs/hep-th/0008249))
 
 Closely related to this, S-duality in [[type II string theory]] as an operation on the [[extended super spacetime]] [[super L-infinity algebra]] is 
 
