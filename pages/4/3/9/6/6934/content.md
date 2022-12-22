@@ -135,8 +135,7 @@ Introductions to Agda as implementation of [[homotopy type theory]]/[[univalent 
 
 and specifically of [[Cubical Agda]] as an implementation of [[cubical type theory]]:
 
-* {#VMA19} [[homotopytypetheory:Andrea Vezzosi]], [[Anders Mörtberg]] and Andreas Abel, _Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types_, 2019 ([pdf](http://www.cs.cmu.edu/~amoertbe/papers/cubicalagda.pdf))
-
+* {#VMA19} [[Andrea Vezzosi]], [[Anders Mörtberg]], [[Andreas Abel]], *Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types*, Proceedings of the ACM on Programming Languages **3** ICFP 87  (2019) 1–29 &lbrack;[doi:10.1145/3341691](https://doi.org/10.1145/3341691), [pdf](https://www.cse.chalmers.se/~abela/icfp19.pdf)&rbrack;
 
 
 The HoTT-Agda library is at
