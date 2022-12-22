@@ -202,11 +202,13 @@ Clearly the concept of left homotopy in def. \ref{PathAndCylinderObjectsInAModel
 
 Likewise if there is a [[cylinder functor]], one gets functorially defined [[cylinder objects]], etc.
 
-### In Martin-Löf dependent type theory
+### In dependent type theory
 
-In [[Martin-Löf dependent type theory]], let $f,g : \prod_{(x:A)}P(x)$ be two [[terms]] of a [[dependent product type]] of a [[type family]] $P: A \to \mathcal{U}$. A **homotopy** from $f$ to $g$ is a [[dependent function]] of type 
+In [[dependent type theory]], let $A$ be a type and let $P$ be a [[type family]] indexed by $A$, and let $f,g:\prod_{x:A} P(x)$ be two elements of a [[dependent product type]] of a [[type family]] $P$. The **type of homotopies** between $f$ and $g$ is the type
 
-$$(f \sim g) \equiv \prod_{x : A} (f(x) = g(x))$$
+$$f \sim g \equiv \prod_{x:A} (f(x) =_{B(x)} g(x))$$
+
+A **homotopy** between $f$ and $g$ is simply an element $H:f \sim g$. 
 
 Note that a homotopy is not the same as an [[identification]] $f = g$. However this can be made so if one assumes [[function extensionality]]. 
 
@@ -264,3 +266,7 @@ For homotopies in [[Martin-Löf dependent type theory]]:
 [[!redirects homotopies]]
 
 [[!redirects homotopic]]
+
+[[!redirects type of homotopies]]
+[[!redirects type of left homotopies]]
+[[!redirects type of right homotopies]]
