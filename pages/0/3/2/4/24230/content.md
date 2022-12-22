@@ -2,10 +2,13 @@
 
 ## Selected writings
 
+Introducing the [[programming language]] *[[Cubical Agda]]* implementing [[univalence|univalent]] [[homotopy type theory]]:
+
+* {#VMA19} [[Andrea Vezzosi]], [[Anders Mörtberg]], [[Andreas Abel]], *Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types*, Proceedings of the ACM on Programming Languages **3** ICFP 87  (2019) 1–29 &lbrack;[doi:10.1145/3341691](https://doi.org/10.1145/3341691), [pdf](https://www.cse.chalmers.se/~abela/icfp19.pdf)&rbrack;
+
+
 
 On [[nLab:cubical type theory|cubical]] [[nLab:homotopy type theory]] implemented in the [[nLab:proof assistant]] [[nLab:Cubical Agda]]:
-
-* {#VMA19} [[Andrea Vezzosi]], [[nLab:Anders Mörtberg]] and Andreas Abel, _Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types_, 2019 ([pdf](http://www.cs.cmu.edu/~amoertbe/papers
 
 * _Guarded Cubical Type Theory: Path Equality for Guarded Recursion_, [[Lars Birkedal]], [[Ale? Bizjak]], [[Ranald Clouston]], [[Hans Bugge Grathwohl]], [[Bas Spitters]], [[Andrea Vezzosi]], ([arXiv:1606.05223](https://arxiv.org/abs/1606.05223))
 
