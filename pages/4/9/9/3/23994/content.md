@@ -34,6 +34,13 @@ where $\Omega(A, a)$ is the [[loop space type]] $a =_A a$ of $A$ at $a:A$.
 
 Binary actions on identities are used in proving [[product extensionality]] for [[product types]]. 
 
+### Finitary actions on identities
+
+Let $n$ be a natural number, let $A$ be a family of types indexed by the [[finite type]] with $n$ elements $\mathrm{Fin}(n)$, and let $B$ be a type. Then given a function 
+$$n:\mathbb{N}, x:\left(\prod_{i:\mathrm{Fin}(n)} A(i)\right) \vdash f(x):B$$ 
+there is a dependent function 
+$$n:\mathbb{N}, a:\prod_{i:\mathrm{Fin}(n)} A(i), b:\prod_{i:\mathrm{Fin}(n)} A(i) \vdash \mathrm{ap}_f(n)(a, b):\left(\prod_{i:\mathrm{Fin}(n)} a(i) =_{A(i)} b(i)\right) \to f(a) =_{B} f(b)$$
+
 ## See also ##
 
 * [[identification]]
