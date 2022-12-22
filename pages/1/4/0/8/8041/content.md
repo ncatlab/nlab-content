@@ -43,9 +43,9 @@ This is an inverse function for [[h-groupoids]] $A$ and $B$.
 
 So on and so forth. 
 
-#### Inverse functions
+#### Coherent inverse functions
 
-Given [[types]] $A$ and $B$ and a [[function]] $f:A \to B$, an __inverse function__ of $f$ is a function $g:B \to A$ with a function $\epsilon(a, b):(f(a) =_B b) \to (a =_A g(b))$ for all $a:A$ and $b:B$, such that for all identities $p:a =_A g(b)$, the fiber of $\epsilon(a, b)$ at $p$ is contractible. 
+Given [[types]] $A$ and $B$ and a [[function]] $f:A \to B$, a __coherent inverse function__ of $f$ is a function $g:B \to A$ with a function $\epsilon(a, b):(f(a) =_B b) \to (a =_A g(b))$ for all $a:A$ and $b:B$, such that for all identities $p:a =_A g(b)$, the fiber of $\epsilon(a, b)$ at $p$ is contractible. 
 
 $$\mathrm{isInv}(f, g) \coloneqq \prod_{a:A} \prod_{b:B} \sum_{\epsilon(a, b):(f(a) =_B b) \to (a =_A g(b))} \prod_{p:a =_A g(b)} \mathrm{isContr}(\mathrm{fiber}(\epsilon(a, b), p))$$
 
@@ -70,3 +70,8 @@ Not really related
 [[!redirects quasi-inverse functions]]
 [[!redirects quasi-inverse map]]
 [[!redirects quasi-inverse maps]]
+
+[[!redirects coherent inverse function]]
+[[!redirects coherent inverse functions]]
+[[!redirects coherent inverse map]]
+[[!redirects coherent inverse maps]]
