@@ -110,7 +110,7 @@ See at _[[QCD trace anomaly]]_.
 
 ### General
 
-Introductions:
+Introduction and review:
 
 * [[Jiri Chyla]], _Quarks, partons and Quantum Chromodynamics_, ([spire:674163/)](http://inspirehep.net/record/674163/), [[ChylaQuarksQCD.pdf:file]])
 
@@ -119,6 +119,8 @@ Introductions:
 * Y. Kurihara, _QCD at LHC for beginners_ Lesson 1 ([pdf](http://www.iop.vast.ac.vn/theor/conferences/vsop/18/files/QCD_Kurihara_1.pdf)), Lesson 2 ([pdf](http://www.iop.vast.ac.vn/theor/conferences/vsop/18/files/QCD_Kurihara_2.pdf)) Lesson 3 ([pdf](http://www.iop.vast.ac.vn/theor/conferences/vsop/18/files/QCD_Kurihara_3.pdf))
 
 * [[Particle Data Group]], _Quantum Chromodynamics_ ([pdf](http://pdg.lbl.gov/2015/reviews/rpp2015-rev-qcd.pdf))
+
+* [[Franz Gross]], [[Eberhard Klempt]] et al., *50 Years of Quantum Chromodynamics*, EJPC &lbrack;[arXiv:2212.11107](https://arxiv.org/abs/2212.11107)&rbrack;
 
 Textbooks:
 
