@@ -9,7 +9,7 @@ This entry collects links related to the forthcoming book
 
   Cambridge University Press 
 
-  {#pdf} [pdf](https://raw.githubusercontent.com/martinescardo/HoTTEST-Summer-School/main/HoTT/hott-intro.pdf) (478 pages)
+  {#pdf} [arXiv:2212.11082](https://arxiv.org/abs/2212.11082) (359 pages)
 
 
 which introduces [[homotopy type theory]] in general and [[Martin-Löf's dependent type theory]], the [[Univalent Foundations for Mathematics]] and [[synthetic homotopy theory]] in particular. 
@@ -26,6 +26,8 @@ Previous versions:
 * [pdf (2019 summer school notes)](https://hott.github.io/HoTT-2019/images/hott-intro-rijke.pdf) (134 pages)
 
 * [GitHub repositories](https://github.com/HoTT-Intro)
+
+* {#2022HoTTEST} [pdf (2022 HoTTEST summer school)] (https://raw.githubusercontent.com/martinescardo/HoTTEST-Summer-School/main/HoTT/hott-intro.pdf) (478 pages)
 
 
 ## Contents
@@ -69,15 +71,19 @@ $\;\;\;16.$ [[finite type|Finite types]]
 
 $\;\;\;17.$ The [[univalence axiom]]
 
-$\;\;\;18.$ [[quotient|Set-quotients]]
+$\;\;\;18.$ [[quotient|Set quotients]]
 
 $\;\;\;19.$ [[group|Groups]] in [[Univalent Foundations for Mathematics|univalent mathematics]]
+
+$\;\;\;20.$ [[inductive type|General inductive types]]
   
-**Chapter 3** studies [[higher inductive types]], and develops [[homotopy theory]] and concepts from [[higher category theory]] in type theory.
+**Chapter III** studies the [[circle]] as a [[higher inductive type]].
 
-$\;\;\;20.$ The [[circle]]
+$\;\;\;21.$ The [[circle]]
 
-$\;\;\;21.$ The [[universal cover]] of the [[circle]]
+$\;\;\;22.$ The [[universal cover]] of the [[circle]]
+
+An [older version](#2022HoTTEST) of the book ended:
 
 $\;\;\;22.$ [[homotopy pullback|Homotopy pullbacks]]
 
