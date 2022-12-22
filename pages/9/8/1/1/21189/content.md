@@ -229,6 +229,11 @@ It has been posited that the statistics of the low-lying eigenvalues of the QCD 
 
 * Yong-Liang Ma, Masayasu Harada, Section II.B of: _Lecture notes on the Skyrme model_ ([arXiv:1604.04850](https://arxiv.org/abs/1604.04850), [spire:1448311](https://inspirehep.net/literature/1448311))
 
+
+* [[Franz Gross]], [[Eberhard Klempt]] et al., Section 6.2 of: *50 Years of Quantum Chromodynamics*, EJPC &lbrack;[arXiv:2212.11107](https://arxiv.org/abs/2212.11107)&rbrack;
+
+
+
 See also:
 
 * Wikipedia, _[Chiral perturbation theory](https://en.wikipedia.org/wiki/Chiral_perturbation_theory)_ 
