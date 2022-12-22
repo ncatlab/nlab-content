@@ -46,7 +46,7 @@ From [Ghani et al. 15](#GhaniEtAl15):
 
 Introduction:
 
-* Patrick Cousot, Radhia Cousot, *A gentle introduction to formal verification of computer systems by abstract interpretation*, NATO Science for Peace and Security Series - D: Information and Communication Security, Volume 25: Logics and Languages for Reliability and Security (2009)([doi:10.3233/978-1-60750-100-8-1](https://dx.doi.org/10.3233/978-1-60750-100-8-1))
+* Patrick Cousot, Radhia Cousot, *A gentle introduction to formal verification of computer systems by abstract interpretation*, NATO Science for Peace and Security Series - D: Information and Communication Security, **25** Logics and Languages for Reliability and Security (2009)&lbrack;[doi:10.3233/978-1-60750-100-8-1](https://dx.doi.org/10.3233/978-1-60750-100-8-1), [pdf](https://www.di.ens.fr/~cousot/publications.www/CousotCousot-Marktoberdorf-2009.pdf)&rbrack;
 
 * Catherine Meadows, *Program Verification and Security* ([doi:10.1007/978-1-4419-5906-5_863](https://doi.org/10.1007/978-1-4419-5906-5_863)), In:  Henk C. A. van Tilborg, Sushil Jajodia (ed.) *[Encyclopedia of Cryptography and Security](https://link.springer.com/referencework/10.1007/978-1-4419-5906-5)* Springer (2011)
 
