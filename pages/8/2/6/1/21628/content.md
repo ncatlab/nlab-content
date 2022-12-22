@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Homotopy theory
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
 This entry collects links related to the forthcoming book
 
 
@@ -12,7 +27,7 @@ This entry collects links related to the forthcoming book
   {#pdf} [arXiv:2212.11082](https://arxiv.org/abs/2212.11082) (359 pages)
 
 
-which introduces [[homotopy type theory]] in general and [[Martin-Löf's dependent type theory]], the [[Univalent Foundations for Mathematics]] and [[synthetic homotopy theory]] in particular. 
+which introduces [[homotopy type theory]] in general and in particular [[Martin-Löf's dependent type theory]], the [[Univalent Foundations for Mathematics]] and [[synthetic homotopy theory]]. 
 
 The book is based on a course taught by the author at Carnegie Mellon University in the spring semester of 2018:
 
