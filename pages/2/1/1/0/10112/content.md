@@ -210,6 +210,10 @@ Introduction and survey:
 * Francesco Giacosa, *Conventional mesons below 2 GeV* &lbrack;[arXiv:2211.10092](https://arxiv.org/abs/2211.10092)&rbrack;
 
 
+* [[Franz Gross]], [[Eberhard Klempt]] et al., Section 8 of: *50 Years of Quantum Chromodynamics*, EJPC &lbrack;[arXiv:2212.11107](https://arxiv.org/abs/2212.11107)&rbrack;
+
+
+
 
 See also
 
