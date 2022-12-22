@@ -11,10 +11,13 @@ Introducing [[Martin-Löf dependent type theory]]:
 
 * [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), _Intuitionistic type theory_, Lecture notes Padua 1984, Bibliopolis, Napoli (1984) ([pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]])
 
-
 and regarded as a [[programming language]]:
 
 * [[Per Martin-Löf]], *Constructive Mathematics and Computer Programming*, Studies in Logic and the Foundations of Mathematics Volume 104, 1982, Pages 153-175 (<a href="https://doi.org/10.1016/S0049-237X(09)70189-2">doi:10.1016/S0049-237X(09)70189-2</a>, [pdf](http://www.cs.tufts.edu/~nr/cs257/archive/per-martin-lof/constructive-math.pdf))
+
+and with emphasis on the meaning of the [[type formation]]-rules:
+
+* {#MartinLoef96} [[Per Martin-Löf]], *On the Meanings of the Logical Constants and the Justifications of the Logical Laws*, Nordic Journal of Philosophical Logic, **1** 1 (1996) 11-60 &lbrack;[pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf), [[MartinLofOnTheMeaning96.pdf:file]]&rbrack;
 
 
 
