@@ -87,8 +87,14 @@ Software verification for [[cryptography]]:
 
 * [[Mihhail Aizatulin]], *Verifying Cryptographic Security Implementations in C Using Automated Model Extraction* ([arXiv:2001.00806](https://arxiv.org/abs/2001.00806))
 
+Verification of [[cryptography]] via [[type theory]]:
 
-### Via type theory
+* Cédric Fournet, Karthikeyan Bhargavan, Andrew D. Gordon, *Cryptographic Verification by Typing for a Sample Protocol Implementation*, In: Aldini A., Gorrieri R. (eds) Foundations of Security Analysis and Design VI. FOSAD 2011. Lecture Notes in Computer Science, vol 6858. Springer (2011) ([doi:10.1007/978-3-642-23082-0_3]( https://doi.org/10.1007/978-3-642-23082-0_3))
+
+* Cédric Fournet, Markulf Kohlweiss, Pierre-Yves Strub, *Modular code-based cryptographic verification*, CCS '11: Proceedings of the 18th ACM conference on Computer and communications securityOctober 2011 Pages 341–350 ([doi:10.1145/2046707.2046746](https://doi.org/10.1145/2046707.2046746))
+
+
+### Via (dependent) type theory
 
 The general idea of verified programming via ([[dependent type theory|dependent]] [[type theory]]):
 
@@ -99,21 +105,20 @@ Exposition:
 * [[Harley Eades]], *Type Theory and Applications*, 2012 ([pdf](https://metatheorem.org/includes/pubs/comp.pdf), [[EadesTypeTheoryAndApplications.pdf:file]])
 
 
-Verification of [[cryptography]] via [[type theory]]:
 
-* Cédric Fournet, Karthikeyan Bhargavan, Andrew D. Gordon, *Cryptographic Verification by Typing for a Sample Protocol Implementation*, In: Aldini A., Gorrieri R. (eds) Foundations of Security Analysis and Design VI. FOSAD 2011. Lecture Notes in Computer Science, vol 6858. Springer (2011) ([doi:10.1007/978-3-642-23082-0_3]( https://doi.org/10.1007/978-3-642-23082-0_3))
+Software verification via [[dependent type theory]] (such as in [[Coq]] or [[Agda]]):
 
-* Cédric Fournet, Markulf Kohlweiss, Pierre-Yves Strub, *Modular code-based cryptographic verification*, CCS '11: Proceedings of the 18th ACM conference on Computer and communications securityOctober 2011 Pages 341–350 ([doi:10.1145/2046707.2046746](https://doi.org/10.1145/2046707.2046746))
+* [[Adam Chlipala]], _Implementing Certified Programming Language Tools in Dependent Type Theory_ PhD (2007) &lbrack;[pdf](http://adam.chlipala.net/papers/ChlipalaPhD/ChlipalaPhD.pdf),  [web](http://adam.chlipala.net/papers/ChlipalaPhD/)&rbrack;
 
-### Via dependent type theory
-
-Software verification via [[dependent type theory]] (such as in [[Coq]]):
-
-* [[Adam Chlipala]], _Implementing Certified Programming Language Tools in Dependent Type Theory_ PhD (2007) ([pdf](http://adam.chlipala.net/papers/ChlipalaPhD/ChlipalaPhD.pdf),  [web](http://adam.chlipala.net/papers/ChlipalaPhD/))
-
-* [[Adam Chlipala]], _Certified programming with dependent types_, MIT Press 2013 ([ISBN:9780262026659 ](https://mitpress.mit.edu/books/certified-programming-dependent-types), [pdf](http://adam.chlipala.net/cpdt/cpdt.pdf),  [book webpage](http://adam.chlipala.net/cpdt/))
+* [[Adam Chlipala]], _Certified programming with dependent types_, MIT Press 2013 &lbrack;[ISBN:9780262026659 ](https://mitpress.mit.edu/books/certified-programming-dependent-types), [pdf](http://adam.chlipala.net/cpdt/cpdt.pdf),  [book webpage](http://adam.chlipala.net/cpdt/)&rbrack;
 
 * Aleksandar Nanevski, Anindya Banerjee, Deepak Garg, *Dependent Type Theory for Verification of Information Flow and Access Control Policies*,  ACM Transactions on Programming Languages and Systems July 2013 Article No.: 6 ([doi:10.1145/2491522.2491523](https://doi.org/10.1145/2491522.2491523))
+
+On [[Agda]] as a dependently typed certification language:
+
+* [[Aaron Stump]], *Verified Functional Programming in Agda*, Association for Computing Machinery and Morgan & Claypool (2016) &lbrack;[doi:10.1145/2841316](https://doi.org/10.1145/2841316), ISBN:978-1-970001-27-3&rbrack;
+
+
 
 
 ### Via homotopy type theory
