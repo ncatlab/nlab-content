@@ -11,6 +11,10 @@ On [[perturbative quantum field theory|perturbative]] [[Chern-Simons theory with
 
 * {#Dimofte16} [[Tudor Dimofte]],  _Perturbative and nonperturbative aspects of complex Chern-Simons Theory_, Journal of Physics A: Mathematical and Theoretical, Volume 50, Number 44 ([arXiv:1608.02961](https://arxiv.org/abs/1608.02961))
 
+On [[holomorphic blocks]]:
+
+* {#BeemDimoftePasquetti12} [[Christopher Beem]], [[Tudor Dimofte]], [[Sara Pasquetti]], _Holomorphic Blocks in Three Dimensions_ ([arXiv:1211.1986](http://arxiv.org/abs/1211.1986))
+
 
 On [[Coulomb branch]] [[singularities]] in [[D=3 N=4 super Yang-Mills theory]]:
 
