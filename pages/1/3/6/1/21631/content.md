@@ -142,7 +142,7 @@ See also:
 
 * {#Voevodsky11} [[Vladimir Voevodsky]],  _Univalent foundations_, talk at IAS 2011 ([pdf](https://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/2011_UPenn.pdf))
 
-* {#UFIAS12} [[UF-IAS-2012|Univalent Foundations Project]], _Homotopy Type Theory -- Univalent Foundations of Mathematics_ ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf), [[Planet Math|PM]] [wiki version](http://planetmath.org/node/87534))
+* {#UFIAS12} [[UF-IAS-2012|Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf), [[Planet Math|PM]] [wiki version](http://planetmath.org/node/87534))
 
 * {#Corfield20} [[David Corfield]], _Modal homotopy type theory_, Oxford University Press 2020 ([ISBN: 9780198853404](https://global.oup.com/academic/product/modal-homotopy-type-theory-9780198853404)) doi:[10.1093/oso/9780198853404.001.0001](https://doi.org/10.1093/oso/9780198853404.001.0001)
 
