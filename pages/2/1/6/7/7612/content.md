@@ -108,7 +108,7 @@ Exposition:
 
 Software verification via [[dependent type theory]] (such as in [[Coq]] or [[Agda]]):
 
-* [[Adam Chlipala]], _Implementing Certified Programming Language Tools in Dependent Type Theory_ PhD (2007) &lbrack;[pdf](http://adam.chlipala.net/papers/ChlipalaPhD/ChlipalaPhD.pdf),  [web](http://adam.chlipala.net/papers/ChlipalaPhD/)&rbrack;
+* [[Adam Chlipala]], *Implementing Certified Programming Language Tools in Dependent Type Theory*, Berkeley (2007) &lbrack;[UCB/EECS-2007-113](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2007/EECS-2007-113.html), [pdf](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2007/EECS-2007-113.pdf),  [web](http://adam.chlipala.net/papers/ChlipalaPhD/)&rbrack;
 
 * [[Adam Chlipala]], _Certified programming with dependent types_, MIT Press 2013 &lbrack;[ISBN:9780262026659 ](https://mitpress.mit.edu/books/certified-programming-dependent-types), [pdf](http://adam.chlipala.net/cpdt/cpdt.pdf),  [book webpage](http://adam.chlipala.net/cpdt/)&rbrack;
 
