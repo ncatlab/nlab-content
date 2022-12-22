@@ -104,7 +104,14 @@ Since Agda has many experimental features under active development, bugs in thes
 ## References
  {#References}
 
-General information on Agda is at
+Agda originates with:
+
+* [[Ulf Norell]], _Towards a practical programming language based on dependent type theory_, PhD thesis (2007) &lbrack;[pdf](https://www.cse.chalmers.se/~ulfn/papers/thesis.pdf), [[Norell-PracticalDTT.pdf:file]]&rbrack;
+
+* [[Ulf Norell]], *Dependently Typed Programming in Agda*, p. 230-266 in: *Advanced Functional Programming* AFP 2008. Lecture Notes in Computer Science **5832** (2009) &lbrack;[doi:10.1007/978-3-642-04652-0_5](https://doi.org/10.1007/978-3-642-04652-0_5), [pdf](https://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf)&rbrack;
+
+
+General information on Agda:
 
 * [Agda Wiki](http://wiki.portal.chalmers.se/agda/pmwiki.php)
 
@@ -112,30 +119,25 @@ General information on Agda is at
 
 * _[learn-you-an-agda (and achieve enlightment)](https://github.com/liamoc/learn-you-an-agda)_
 
-
 * [[Dan Licata]], Ian Voysey, _[Programming and proving in Agda](http://www.cs.cmu.edu/~drl/teaching/oplss13/)_
 
+Textbook account:
 
-With emphasis on the [[dependent type theory]]-aspect:
+* [[Aaron Stump]], *Verified Functional Programming in Agda*, Association for Computing Machinery and Morgan & Claypool (2016) &lbrack;[doi:10.1145/2841316](https://doi.org/10.1145/2841316), ISBN:978-1-970001-27-3&rbrack;
 
-* [[Ulf Norell]], _Towards a practical programming language based on dependent type theory_, PhD thesis (2007) &lbrack;[pdf](https://www.cse.chalmers.se/~ulfn/papers/thesis.pdf), [[Norell-PracticalDTT.pdf:file]]&rbrack;
-
-* [[Ulf Norell]], *Dependently Typed Programming in Agda*, p. 230-266 in: *Advanced Functional Programming* AFP 2008. Lecture Notes in Computer Science **5832** (2009) &lbrack;[doi:10.1007/978-3-642-04652-0_5](https://doi.org/10.1007/978-3-642-04652-0_5), [pdf](https://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf)&rbrack;
-
-
-A tutorial for use of Agda as an implementation of [[homotopy type theory]] is at
+Introductions to Agda as implementation of [[homotopy type theory]]/[[univalent foundations of mathematics]]:
 
 * {#Brunerie} [[Guillaume Brunerie]], _Agda for homotopy type theory_ ([web](https://github.com/guillaumebrunerie/HoTT/tree/master/Agda/tutorial))
  
-* [[Guillaume Brunerie]], _The Agda proof assistant_, slides,  [pdf](http://web.archive.org/web/20160101212359/http://uf-ias-2012.wikispaces.com/file/view/agda.pdf/390147250/agda.pdf)
+* [[Guillaume Brunerie]], _The Agda proof assistant_ (2012) &lbrack; slides: [pdf](http://web.archive.org/web/20160101212359/http://uf-ias-2012.wikispaces.com/file/view/agda.pdf/390147250/agda.pdf)&rbrack;
+
+* [[Martín Hötzel Escardó]], *Introduction to Univalent Foundations of Mathematics with Agda* (2019) &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580), [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)&rbrack;
 
 and specifically of [[Cubical Agda]] as an implementation of [[cubical type theory]]:
 
 * {#VMA19} [[homotopytypetheory:Andrea Vezzosi]], [[Anders Mörtberg]] and Andreas Abel, _Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types_, 2019 ([pdf](http://www.cs.cmu.edu/~amoertbe/papers/cubicalagda.pdf))
 
-On [[homotopy type theory]] and [[univalent foundations of mathematics]] in/with Agda:
 
-* [[Martín Hötzel Escardó]], *Introduction to Univalent Foundations of Mathematics with Agda* &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580), [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)&rbrack;
 
 The HoTT-Agda library is at
 
