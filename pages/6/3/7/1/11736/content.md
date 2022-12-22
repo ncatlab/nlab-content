@@ -120,6 +120,14 @@ Discussion for [[Sasakian manifolds]] includes
 
 * {#RoblesLlanaRocek04} Daniel Robles-Llana, Martin Rocek, _Quivers, Quotients, and Duality_ ([arXiv:hep-th/0405230](http://arxiv.org/abs/hep-th/0405230))
 
+On an [[algorithm]] for constructing [[S-duality|S-dual]] [[quiver gauge theories]]:
+
+* Chiung Hwang, [[Sara Pasquetti]], Matteo Sacchi, *Rethinking mirror symmetry as a local duality on fields*, Phys. Rev. D **106** (2022) 105014 &lbrack;[arXiv:2110.11362](https://arxiv.org/abs/2110.11362), [doi:10.1103/PhysRevD.106.105014](https://doi.org/10.1103/PhysRevD.106.105014)&rbrack;
+
+
+* Riccardo Comi, Chiung Hwang, Fabio Marino, [[Sara Pasquetti]], Matteo Sacchi, *The $SL(2, \mathbb{Z})$ dualization algorithm at work* &lbrack;[arXiv:2212.10571](https://arxiv.org/abs/2212.10571)&rbrack;
+
+
 
 
 [[!redirects quiver gauge theories]]
