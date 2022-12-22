@@ -106,7 +106,7 @@ Detailed review is in
 
 It was originally noticed in
 
-* {#GNO77} P. Goddard, J. Nuyts, and [[David Olive]], _Gauge Theories And Magnetic Charge_, Nucl. Phys. B125 (1977) 1-28.
+* {#GNO77} [[Peter Goddard]], [[Jean Nuyts]], [[David Olive]], *Gauge Theories And Magnetic Charge*, Nucl. Phys. B **125** (1977) 1-28 &lbrack;<a href="https://doi.org/10.1016/0550-3213(77)90221-8">doi:10.1016/0550-3213(77)90221-8</a>, [spire:111435](https://inspirehep.net/literature/111435)&rbrack;
 
 that where [[electric charge]] in [[Yang-Mills theory]] takes values in the [[weight lattice]] of the [[gauge group]], then [[magnetic charge]] takes values in the lattice of what is now called the [[Langlands dual group]].
 
