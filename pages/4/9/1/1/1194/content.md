@@ -619,12 +619,15 @@ This is reviewed for instance in
 
 * Jean van Heijenoort, _From Frege to G&#246;del_, A Source Book in Mathematical Logic, 1879-1931
 
-The introduction of [[identity types]] in "intuitionistic type theory" is due to
+On the modern notion of types in [[constructive mathematics]] and in the sense of [[data types]] in [[programming languages]], such as embodied by [[Martin-Löf type theory]]:
+
+* {#Martin-Löf82} [[Per Martin-Löf]], *Constructive Mathematics and Computer Programming*, Studies in Logic and the Foundations of Mathematics Volume **104** (1982) 153-175 &lbrack;<a href="https://doi.org/10.1016/S0049-237X(09)70189-2">doi:10.1016/S0049-237X(09)70189-2</a>&rbrack;
+
+The introduction of (the [[J-rule]] for) [[identity types]] in "intuitionistic"/[[Martin-Löf type theory]] is originally due to:
 
 * {#MartinLoef75} [[Per Martin-Löf]], §1.7 in: *An intuitionistic theory of types: predicative part*, in: H. E. Rose, J. C. Shepherdson (eds.), *Logic Colloquium '73, Proceedings of the Logic Colloquium*, Studies in Logic and the Foundations of Mathematics **80** Pages 73-118,  Elsevier 1975 (<a href="https://doi.org/10.1016/S0049-237X(08)71945-1">doi:10.1016/S0049-237X(08)71945-1</a>, [CiteSeer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
 
 * Bengt Nordström, Kent Petersson, Jan M. Smith, §8.1 of: *Programming in Martin-Löf's Type Theory*, Oxford University Press (1990) &lbrack;[webpage](https://www.cse.chalmers.se/research/group/logic/book/), [pdf](https://www.cse.chalmers.se/research/group/logic/book/book.pdf), [[NordstromPeterssonSmith-TypeTheory.pdf:file]]&rbrack;
-
 
 The development of that to [[homotopy type theory]] followed insights by ([Hofmann-Streicher 98](#HofmannStreicher98)) and others and was laid out in
 
@@ -641,13 +644,13 @@ Of course there is also discussion of formalized [[types]] originating in [[comp
 
 * Leon Chwistek, The Theory of Constructive Types: Principles of Logic and Mathematics, Krakow: University Press, 1925, 98 pp. Extracted from the Annales de la Société Polonaise de Mathématique. (In DjVu format) [Linked from this page, under Bibliography, On logic and mathematics.](http://www.monoskop.org/Leon_Chwistek)
 
-Surveys of and introductions to type theory include
+Surveys of and introductions:
 
-* [[Per Martin-Löf]], _Intuitionistic type theory_, Studies in Proof Theory 1, Bibliopolis, Naples, 1984 ([pdf](http://intuitionistic.files.wordpress.com/2010/07/martin-lof-tt.pdf))
+* [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), _Intuitionistic type theory_, Lecture notes Padua 1984, Bibliopolis, Napoli (1984) ([pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]])
 
 * [[Thomas Streicher]], _Investigations into intensional type theory_, habilitation 2003, [pdf](http://www.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf); 
 
-* {#MartinLoef96} [[Per Martin-Löf]], _On the Meanings of the Logical Constants and the Justifications of the Logical Laws_, Nordic Journal of Philosophical Logic, 1(1): 11&#8211;60, 1996, ([pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf), [[MartinLofOnTheMeaning96.pdf:file]])
+* {#MartinLoef96} [[Per Martin-Löf]], *On the Meanings of the Logical Constants and the Justifications of the Logical Laws*, Nordic Journal of Philosophical Logic, **1** 1 (1996) 11-60 &lbrack;[pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf), [[MartinLofOnTheMeaning96.pdf:file]]&rbrack;
 
 * Rober Constable, _The Triumph of Types: Creating a Logic of
 Computational Reality_ ([[ConstableTriumphOfTypes.pdf:file]])
