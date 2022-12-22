@@ -29,7 +29,7 @@ Where a [[pullback]] involves a [[commuting diagram|commuting square]], for a co
 \begin{definition}\label{CommaObject}
 **(comma object)**
 \linebreak
-The *comma object* of a [[pair]] of [[1-morphisms]] $f \colon A\to C$ and $g \colone B\to C$ in a [[2-category]] is an [[object]] $(f/g)$ equipped with [[projections]] $p \colon (f/g)\to A$ and $q \colon (f/g)\to B$ and a [[2-morphism]] of this form:
+The *comma object* of a [[pair]] of [[1-morphisms]] $f \colon A\to C$ and $g \colon B\to C$ in a [[2-category]] is an [[object]] $(f/g)$ equipped with [[projections]] $p \colon (f/g)\to A$ and $q \colon (f/g)\to B$ and a [[2-morphism]] of this form:
 
 $$
 \array{
@@ -66,7 +66,7 @@ Comma objects are also sometimes called **lax pullbacks**, but this term more pr
 
 Part of Def. \ref{CommaObject} is the statement that for any object $D$, 1-morphisms $p' \colon D\to A$, $q' \colon D\to B$ and 2-morphisms  $\sigma \colon f p'\Rightarrow g q'$ there is a 1-morphism $u \colon D\to(f/g)$ and isomorphisms $p u\cong p'$, $q u\cong q'$ such that modulo these isomorphisms, we have $\sigma=\alpha u$.  
 
-In addition there is the "2-dimensional universality" saying that given $u 'colon D\to (f/g)$ and $v \colon D\to (f/g)$ and 2-morphisms $\mu \colon p u \to p v$ and $\nu \colon q u \to q v$ such that $\alpha v. f \mu = g\nu . \alpha u$, there exists a unique 2-morphism $\beta \colon u\to v$ such that $p\beta = \mu$ and $q \beta = \nu$.  
+In addition there is the "2-dimensional universality" saying that given $u \colon D\to (f/g)$ and $v \colon D\to (f/g)$ and 2-morphisms $\mu \colon p u \to p v$ and $\nu \colon q u \to q v$ such that $\alpha v. f \mu = g\nu . \alpha u$, there exists a unique 2-morphism $\beta \colon u\to v$ such that $p\beta = \mu$ and $q \beta = \nu$.  
 
 Notice that the 2-dimensional property implies that in the 1-dimensional property, [[generalized the|the]] 1-morphism $u$ is unique up to unique isomorphism.  A square containing a 2-cell with this property is sometimes called a **comma square**.
 \end{remark}
