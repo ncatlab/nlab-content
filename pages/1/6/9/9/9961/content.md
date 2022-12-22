@@ -89,6 +89,10 @@ Introduction and review:
 
 * Mattia Dalla Brida, _Past, present, and future of precision determinations of the QCD parameters from lattice QCD_ ([arXiv:2012.01232](https://arxiv.org/abs/2012.01232))
 
+
+* [[Franz Gross]], [[Eberhard Klempt]] et al., Chapter 4 of: *50 Years of Quantum Chromodynamics*, EJPC &lbrack;[arXiv:2212.11107](https://arxiv.org/abs/2212.11107)&rbrack;
+
+
 Rigorous discussion in view of the [[mass gap problem]]:
 
 * {#Chatterjee20} [[Sourav Chatterjee]], _A probabilistic mechanism for quark confinement_, Comm. Math. Phys. 2020 ([arXiv:2006.16229](https://arxiv.org/abs/2006.16229))
