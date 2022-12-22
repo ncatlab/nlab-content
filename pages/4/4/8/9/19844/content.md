@@ -721,7 +721,17 @@ Announcement that hadronic backgrounds had been mis-identified all along and obs
 
   [[LHCb collaboration]], *Measurement of lepton universality parameters in $B^+ \to K^+ \ell^+ \ell^-$ and $B^0 \to K^{\ast 0} \ell^+ \ell^-$ decays* &lbrack;[arXiv:2212.09153](https://arxiv.org/abs/2212.09153)&rbrack;
 
+  $\,$
+
+  anonymous but informative Twitter thread on what happened: [here](https://twitter.com/particleist/status/1605151216094572547)
+
+  $\,$
+
   Davide Castelvecchi, *[Hint of crack in standard model vanishes in LHC data](https://www.nature.com/articles/d41586-022-04545-z)*, Nature News (20 Dec 2022)
+
+  $\,$
+
+  *[Standard Model survives its biggest challenge yet](https://bigthink.com/starts-with-a-bang/standard-model-survives/)*
 
 Re-analysis finding that thereby essentially all the anomalies disappear:
 
