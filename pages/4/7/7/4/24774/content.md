@@ -113,6 +113,12 @@ On non-locality:
 
 * Arnau Bas i Beneito, Gianluca Calcagni, Lesław Rachwał, *Classical and quantum nonlocal gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.05606](https://arxiv.org/abs/2211.05606)&rbrack;
 
+\linebreak
+
+On [[causal dynamical triangulation]]:
+
+* Dario Benedetti, *Landau Theory of Causal Dynamical Triangulations*, in: [[Handbook of Quantum Gravity]], Springer (2023) &lbrack;[arXiv:2212.11043](https://arxiv.org/abs/2212.11043)&rbrack;
+
 
 
 \linebreak
