@@ -35,5 +35,30 @@ Proposing [[ER = EPR]]:
 
  * {#MaldacenaSusskind13} [[Juan Maldacena]], [[Leonard Susskind]], _Cool horizons for entangled black holes_, Fortsch. Phys. 61 (2013) 781-811, 2013 ([arXiv:1306.0533](http://arxiv.org/abs/1306.0533), [doi:10.1002/prop.201300020](https://doi.org/10.1002/prop.201300020)) 
 
+## Interviews
+
+* Y Combinator: *Leonard Susskind on Richard Feynman, the Holographic Principle, and Unanswered Questions in Physics* (Dec 2018) &lbrack;[YT](https://youtu.be/CQAcLW6qdQY)&rbrack;
+
+  $\,$
+
+  [49:00](https://www.youtube.com/watch?v=CQAcLW6qdQY&feature=youtu.be&t=49m)
+
+  S:... rules of quantum mechanics which reflect the gravitational things..., but this is gonna get us into technical discussion
+
+  Y: let's do it!
+
+  S: No!
+
+  Y: Yes!
+
+  S grudgingly gives in
+
+  ...
+
+  [53:57](https://www.youtube.com/watch?v=CQAcLW6qdQY&t=3237s)
+
+  Y: and what was the technical part you wanted to get to?
+
+  S: uhm
 
 category: people
