@@ -1,8 +1,5 @@
 
-#Content#
-
-* automatic table of contents goes here
-{:toc}
+\tableofcontents
 
 #Idea#
 
