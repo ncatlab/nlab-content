@@ -11,6 +11,6 @@ What are called _holomorphic blocks_ for [[super Yang-Mills theory]] are roughly
 
 ## References
 
-* {#BeemDimoftePasquetti12} Christopher Beem, [[Tudor Dimofte]], [[Sara Pasquetti]], _Holomorphic Blocks in Three Dimensions_ ([arXiv:1211.1986](http://arxiv.org/abs/1211.1986))
+* {#BeemDimoftePasquetti12} [[Christopher Beem]], [[Tudor Dimofte]], [[Sara Pasquetti]], _Holomorphic Blocks in Three Dimensions_ ([arXiv:1211.1986](http://arxiv.org/abs/1211.1986))
 
 * Fabrizio Nieri, [[Sara Pasquetti]], _Factorisation and holomorphic blocks in 4d_ ([arXiv.1507.00261](http://arxiv.org/abs/1507.00261))
