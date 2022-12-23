@@ -21,7 +21,7 @@
 ## Idea
 
 
-What came to be called *Bell's inequality* ([Bell 1964](#Bell64)) is an [[inequality]] satisfied by the three pairwise [[correlation functions]] between three [[random variables]] defined on one and the same classical [[probability space]]. As such, it is an elementary statement about classical probability theory which as been argued ([Pitowsky 1989a](#Pitowsky89a)) to have been known already to [[Boole -- The Laws of Thought|Boole (1854)]].
+In [[quantum physics]]/[[quantum information theory]], What came to be called *Bell's inequality* ([Bell 1964](#Bell64)) is an [[inequality]] satisfied by the three pairwise [[correlation functions]] between three [[random variables]] defined on one and the same classical [[probability space]]. As such, it is an elementary statement about classical probability theory which as been argued ([Pitowsky 1989a](#Pitowsky89a)) to have been known already to [[Boole -- The Laws of Thought|Boole (1854)]].
 
 The point of the argument by [Bell 1964](#Bell64) was to highlight that when taking these three random variables to be the results of [[quantum measurements]] of the [[spin]] of an [[electron]] along three pairwise non-orthogonal axes (as in the [[Stern-Gerlach experiment]]) then [[quantum theory]] predicts that this inequality is *violated* -- implying that there is no single classical [[probability space]] (called a *[[hidden variable theory|hidden variable]]* in the context of [[interpretations of quantum mechanics]]) on which these three [[quantum measurement]]-results are jointly [[random variables]].
 
@@ -245,7 +245,10 @@ This is the inequality (eq:TheInequality).
 
 ## Related concepts
 
+
 * [[Einstein-Podolsky-Rosen paradox]]
+
+* [[Grothendieck inequality]]
 
 * [[quantum probability]]
 
@@ -284,6 +287,17 @@ See also:
 
 * Wikipedia, *[Leggett-Garg inequality](https://en.wikipedia.org/wiki/Leggett%E2%80%93Garg_inequality)*
 
+In relation to the [[Grothendieck inequality]]:
+
+* [[Boris S. Tsirelson]], *Quantum analogues of the Bell inequalities. The case of two spatially separated domains*, Journal of Soviet Mathematics **36** (1987) 557–570 &lbrack;[doi:10.1007/BF01663472](https://doi.org/10.1007/BF01663472)&rbrack;
+
+* [[Boris S. Tsirelson]], *Some results and problems on quantum Bell-type inequalities* Hadronic Journal Supplement **8** 4 (1993) 329-345 &lbrack;[pdf](https://www.tau.ac.il/~tsirel/download/hadron.pdf), [[Tsirelson-QuantumBellType.pdf:file]] [web](https://www.tau.ac.il/~tsirel/download/hadron.html)&rbrack;
+
+  > (but see the erratum [here](https://www.tau.ac.il/~tsirel/Research/bellopalg/main.html))
+
+* Wikipedia, *[Tsirelson's bound](https://en.wikipedia.org/wiki/Tsirelson%27s_bound)*
+
+
 On Bell inequalities in [[particle physics]] and possible relation to the [[weak gravity conjecture]]:
 
 * Aninda Sinha, Ahmadullah Zahed, *Bell inequalities in 2-2 scattering* &lbrack;[arXiv:2212.10213](https://arxiv.org/abs/2212.10213)&rbrack;
@@ -301,9 +315,7 @@ Identification of Bell's inequalities with much older inequalities in classical 
 
 * [[Luigi Accardi]], *The Probabilistic Roots of the Quantum Mechanical Paradoxes*, in: *The Wave-Particle Dualism*,  Fundamental Theories of Physics **3** Springer (1984) &lbrack;[doi:10.1007/978-94-009-6286-6_16](https://doi.org/10.1007/978-94-009-6286-6_16)&rbrack;
 
-
 reviewed in:
-
 
 * Elemer E Rosinger, *George Boole and the Bell inequalities* &lbrack;[arXiv:quant-ph/0406004](https://arxiv.org/abs/quant-ph/0406004)&rbrack;
 
