@@ -2,7 +2,7 @@
 
 A synchronic desription of language expression in linguistics is described at several levels of description: sounds (phonetics), groups of equivalent sounds which has a distinctive role (phonology), longer sequences of sound which carry a meaning or a function (morphems and words studied in morphology and lexicography), and rule how these morphems form utterances (sentences, discourse). Syntax is the part of the description of language expression which in this traditional classification describes the top level of expression, that is how morphems and words form phrases, sentences. It is a part of a grammar. In addition there is a relation to meaning and usage (semantics, pragmatics) which is often considered completely separate, though it is not in natural language.  Another term is a syntax as a discipline which studies syntax in above sense, often meant with emphasis on a well formed sentences. Syntax as a theoretical discipline also studies how these rules function and are derived (e.g. syntax part of generative and cognitive grammar). 
 
-Unlike [[syntax]] in the sense of logic and computer science, thus, syntax is not contrasted only to semantics but also to lower level formations: sounds, lexical units. It usually does not include prosody which is however also on the level of a phrase or sentence.
+Unlike [[syntax]] in the sense of logic and computer science, thus, syntax is not contrasted only to semantics but also to the description lower level formations: sounds, lexical units. It usually does not include prosody which is however also on the level of a phrase or sentence.
 
 The following is from Tallerman 2020
 
