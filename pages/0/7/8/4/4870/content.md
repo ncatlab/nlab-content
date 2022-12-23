@@ -38,30 +38,30 @@ In detail:
 
 ## In dependent type theory
 
-In [[dependent type theory]], whiskering is the type theoretic equivalent of the principle in [[set theory]] that given sets $A$ and $B$ and functions $f:A \to B$ and $g:A \to B$, if $f(x) = g(x)$ for all elements $x \in A$, then 
+In [[dependent type theory]], whiskering is the type theoretic equivalent of the principle in [[set theory]] that given sets $A$, $B$, and $C$, and functions $f:A \to B$ and $g:A \to B$, if $f(x) = g(x)$ for all elements $x \in A$, then 
 
-* $h(f(x)) = h(g(x))$ for all elements $x \in A$, sets $C$, and functions $h:B \to C$
-* $f(h(x)) = g(h(x))$ for all elements $x \in C$, sets $C$, and functions $h:C \to A$
+* $h(f(x)) = h(g(x))$ for all elements $x \in A$ and functions $h:B \to C$
+* $f(h(x)) = g(h(x))$ for all elements $x \in C$ and functions $h:C \to A$
 
-Given types $A$, $B$, and $C$, there is a function
+Given types $A$, $B$, and $C$ and functions $f:A \to B$ and $g:A \to B$ there is a function
 
-$$\mathrm{leftwhisker}_{A, B, C}:\prod_{f:A \to B} \prod_{g:A \to B} \left(\prod_{x:A} f(x) =_B g(x)\right) \to \left(\prod_{h:B \to C} \prod_{x:A} h(f(x)) =_C h(g(x))\right)$$
+$$\mathrm{leftwhiskering}_{A, B, C}(f, g):\left(\prod_{x:A} f(x) =_B g(x)\right) \to \left(\prod_{h:B \to C} \prod_{x:A} h(f(x)) =_C h(g(x))\right)$$
 
-called **left whiskering**, which is defined as the [[lambda abstraction]] of the composite of the [[action on identities]] of $h$ with $H$. 
+called **left whiskering**, which is defined as the [[lambda abstraction]] of the composite of the [[action on identities]] of function $h:B \to C$ with [[homotopy]] $H:\prod_{x:A} f(x) =_B g(x)$ 
 
-$$\mathrm{leftwhisker}_{A, B, C}(f, g, H, h) \coloneqq \lambda x.\mathrm{ap}_h(H(x))$$
+$$\mathrm{leftwhiskering}_{A, B, C}(f, g)(H, h) \coloneqq \lambda x.\mathrm{ap}_h(H(x))$$
 
-for functions $f:A \to B$ and $g:A \to B$, [[homotopy]] $H:\prod_{x:A} f(x) =_B g(x)$ between $f$ and $g$, and function $h:B \to C$. Left whiskering is frequently written simply as $h \circ H$ or $h \cdot H$. 
+Left whiskering is frequently written simply as $h \circ H$ or $h \cdot H$.
 
-Given types $A$, $B$, and $C$, there is a function
+Given types $A$, $B$, and $C$ and functions $f:A \to B$ and $g:A \to B$, there is a function
 
-$$\mathrm{rightwhisker}_{A, B, C}:\prod_{f:A \to B} \prod_{g:A \to B} \left(\prod_{x:A} f(x) =_B g(x)\right) \to \left(\prod_{h:C \to A} \prod_{x:C} f(h(x)) =_B g(h(x))\right)$$
+$$\mathrm{rightwhiskering}_{A, B, C}(f, g):\left(\prod_{x:A} f(x) =_B g(x)\right) \to \left(\prod_{h:C \to A} \prod_{x:C} f(h(x)) =_B g(h(x))\right)$$
 
-called **right whiskering**, defined as the [[lambda abstraction]] of the composite of $H$ with $h$ 
+called **right whiskering**, defined as the [[lambda abstraction]] of the composite of [[homotopy]] $H:\prod_{x:A} f(x) =_B g(x)$ with function $h:C \to A$ 
 
-$$\mathrm{rightwhisker}_{A, B, C}(f, g, H, h) \coloneqq \lambda x.H(h(x))$$
+$$\mathrm{rightwhiskering}_{A, B, C}(f, g)(H, h) \coloneqq \lambda x.H(h(x))$$
 
-for functions $f:A \to B$ and $g:A \to B$, [[homotopy]] $H:\prod_{x:A} f(x) =_B g(x)$ between $f$ and $g$, and function $h:C \to A$. Right whiskering is frequently written simply as $H \circ h$ or $H \cdot h$. 
+Right whiskering is frequently written simply as $H \circ h$ or $H \cdot h$. 
 
 ## Related concepts
 
