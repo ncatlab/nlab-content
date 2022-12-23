@@ -60,7 +60,7 @@ whence the terminology. But, of course, there are other ways in which a pair of 
 ## Inequality relations
  {#InequalityRelations}
 
-More generally, inequality may just be the statement that a pair of [[terms]] of any [[type]] are *[[negation|not]] [[euqality|equal]]*. 
+More generally, inequality may just be the statement that a pair of [[terms]] of any [[type]] are *[[negation|not]] [[equality|equal]]*. 
 
 In  the [[foundations of mathematics]], sometimes one talks about a particular [[relation]] called the *inequality relation*. 
 
