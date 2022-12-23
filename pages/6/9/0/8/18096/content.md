@@ -1,10 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+=--
+=--
+
 # Contents 
 * table of contents 
 {:toc}
 
 ## Idea 
 
-H&#246;lder's inequality is a basic inequality in analysis, used to prove that if the sum of positive numbers $p, q$ equals their product, then the [[L-p space|Banach spaces]] $L^p, L^q$ are Banach duals of one another. 
+H&#246;lder's inequality is a basic [[inequality]] in [[analysis]], used to prove that if the sum of positive numbers $p, q$ equals their product, then the [[L-p space|Banach spaces]] $L^p, L^q$ are Banach duals of one another. 
 
 ## Statements 
 
