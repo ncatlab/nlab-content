@@ -25,7 +25,9 @@ Equivalently, there are functions $\epsilon_0(a, b):(a =_A g(b)) \to (f(a) =_B b
 
 $$\prod_{a:A} \prod_{b:B} ((a =_A g(b)) \to (f(a) =_B b)) \times ((f(a) =_B b) \to (a =_A g(b)))$$
 
-A function might have multiple quasi-inverse functions. 
+A function $f:A \to B$ might have multiple quasi-inverse functions. The type of quasi-inverses of $f$ is given by 
+
+$$\mathrm{QuasiInv}(f) \coloneqq \sum_{g:B \to A} \prod_{b:B} (f(g(b)) =_B b) \times \prod_{a:A} (a =_A g(f(a)))$$
 
 #### $n$-quasi inverse functions
 
@@ -43,11 +45,29 @@ This is an inverse function for [[h-groupoids]] $A$ and $B$.
 
 So on and so forth. 
 
-#### Coherent inverse functions
+#### Inverse functions
 
-Given [[types]] $A$ and $B$ and a [[function]] $f:A \to B$, a __coherent inverse function__ of $f$ is a function $g:B \to A$ with a function $\epsilon(a, b):(f(a) =_B b) \to (a =_A g(b))$ for all $a:A$ and $b:B$, such that for all identities $p:a =_A g(b)$, the fiber of $\epsilon(a, b)$ at $p$ is contractible. 
+Given [[types]] $A$ and $B$ and a [[function]] $f:A \to B$, an __inverse function__ of $f$ is a function $g:B \to A$ with a function $\epsilon(a, b):(f(a) =_B b) \to (a =_A g(b))$ for all $a:A$ and $b:B$, such that for all identities $p:a =_A g(b)$, the fiber of $\epsilon(a, b)$ at $p$ is contractible. 
 
 $$\mathrm{isInv}(f, g) \coloneqq \prod_{a:A} \prod_{b:B} \sum_{\epsilon(a, b):(f(a) =_B b) \to (a =_A g(b))} \prod_{p:a =_A g(b)} \mathrm{isContr}(\mathrm{fiber}(\epsilon(a, b), p))$$
+
+#### Coherent inverse functions
+
+Given [[types]] $A$ and $B$ and a [[function]] $f:A \to B$, a __coherent inverse function__ of $f$ is a quasi-inverse function $g:B \to A$ with [[homotopies]] 
+
+$$G:\prod_{x:B} f(g(x)) =_B x \qquad H:\prod_{x:A} g(f(x)) =_A x$$
+
+which additionally has [[homotopy]]
+$$K:\prod_{x:B} H(g(x)) =_{g(f(x)) =_B x} \mathrm{ap}_g(G(x))$$
+
+The type of coherent inverse functions of $f$ is given by the type
+
+$$\mathrm{CohInv}(f) \coloneqq \sum_{g:B \to A} \sum_{H:\prod_{x:A} g(f(x)) =_A x} \sum_{G:\prod_{x:B} f(g(x)) =_B x} \prod_{x:B} H(g(x)) =_{g(f(x)) =_B x} \mathrm{ap}_g(G(x))$$
+
+## Properties
+
+Given a function $f:A \to B$, a function $g:B \to A$, and a [[homotopy]] $H:\prod_{x:A} (g(f(x)) =_A x)$ which shows that $g$ is a [[retraction]] of $f$, there is a function 
+$$\mathrm{QuasiInvToCohInv}(f, g, H):\left(\prod_{x:B} f(g(x)) =_B x\right) \to \sum_{G:\prod_{x:B} f(g(x)) =_B x} \prod_{x:B} H(g(x)) =_{g(f(x)) =_B x} \mathrm{ap}_g(G(x))$$
 
 ## Related concepts
 
