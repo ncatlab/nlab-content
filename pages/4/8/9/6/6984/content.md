@@ -108,48 +108,48 @@ $$\frac{\Gamma \vdash z:C(0) \times C(1)}{\Gamma \vdash \eta_\Pi(z):z =_{C(0) \t
 #### Properties
 
 Suppose $A$ and $B$ are types and $A \times B$ is the negative product type of $A$ and $B$. Then for all elements $c:A \times B$ and $c':A \times B$, there is a function 
-$$\mathrm{idtoprodofids}(c, c'):(c =_{A \times B} c') \to \left((\pi_1(c) =_A \pi_1(c')) \times (\pi_2(c) =_B \pi_2(c'))\right)$$ 
+$$\mathrm{ap}_{(\pi_1, \pi_2)}(c, c'):(c =_{A \times B} c') \to \left((\pi_1(c) =_A \pi_1(c')) \times (\pi_2(c) =_B \pi_2(c'))\right)$$ 
 There are functions $\mathrm{ap}_{\pi_1}(c, c'):(c =_{A \times B} c') \to (\pi_1(c) =_A \pi_1(c'))$ and $\mathrm{ap}_{\pi_2}(c, c'):(c =_{A \times B} c') \to (\pi_2(c) =_B \pi_2(c'))$ which are the [[action on identities]] for the product projections $\pi_1$ and $\pi_2$, which means for all identities $p:c =_{A \times B} c'$, there are identities 
 $$\mathrm{ap}_{\pi_1}(c, c')(p):\pi_1(c) =_A \pi_1(c')$$ 
 $$\mathrm{ap}_{\pi_2}(c, c')(p):\pi_2(c) =_A \pi_2(c')$$ 
 Then, by the introduction rule for products, one could form the pair 
 $$(\mathrm{ap}_{\pi_1}(c, c')(p), \mathrm{ap}_{\pi_2}(c, c')(p))$$
 with identites
-$$\delta(c, c', p):\mathrm{idtoprodofids}(c, c')(p) =_{(\pi_1(c) =_A \pi_1(c')) \times (\pi_2(c) =_B \pi_2(c'))} (\mathrm{ap}_{\pi_1}(c, c')(p), \mathrm{ap}_{\pi_2}(c, c')(p))$$ 
+$$\delta(c, c', p):\mathrm{ap}_{(\pi_1, \pi_2)}(c, c')(p) =_{(\pi_1(c) =_A \pi_1(c')) \times (\pi_2(c) =_B \pi_2(c'))} (\mathrm{ap}_{\pi_1}(c, c')(p), \mathrm{ap}_{\pi_2}(c, c')(p))$$ 
 for all $p:c =_{A \times B} c'$. 
 
-Similarly, for all elements $a:A$, $a':A$, $b:B$, $b':B$, there is a function 
-$$\mathrm{idstoprodid}(a, a', b, b'):\left(a =_A a') \times (b =_B b')\right) \to ((a, b) =_{A \times B} (a', b')$$
+Similarly, for all elements $a:A$, $a':A$, $b:B$, $b':B$, the [[binary action on identities]] for $(-, -)$ defined in the [[introduction rule]] for product types is given by
+$$\mathrm{apbinary}_{(-,-)}(a, a', b, b'):\left(a =_A a') \times (b =_B b')\right) \to ((a, b) =_{A \times B} (a', b')$$
 inductively defined by the identities 
-$$\beta_{\mathrm{idstoprodid}}(a, b):\mathrm{idstoprodid}(a, a, b, b)(\mathrm{refl}_{A}(a), \mathrm{refl}_{B}(b)) =_{(a, b) =_{A \times B} (a, b)} \mathrm{refl}_{A \times B}((a, b)))$$
+$$\beta_{\mathrm{apbinary}_{(-,-)}}(a, b):\mathrm{apbinary}_{(-,-)}(a, a, b, b)(\mathrm{refl}_{A}(a), \mathrm{refl}_{B}(b)) =_{(a, b) =_{A \times B} (a, b)} \mathrm{refl}_{A \times B}((a, b)))$$
 
 For all elements $c:A \times B$ and $c':A \times B$, the composition of functions 
-$$\mathrm{idstoprodid}(\pi_1(c), \pi_1(c'), \pi_2(c), \pi_2(c')) \circ \mathrm{idtoprodofids}(c, c')$$ 
+$$\mathrm{apbinary}_{(-,-)}(\pi_1(c), \pi_1(c'), \pi_2(c), \pi_2(c')) \circ \mathrm{ap}_{(\pi_1, \pi_2)}(c, c')$$ 
 has domain $c =_{A \times B} c'$ and codomain $(\pi_1(c), \pi_2(c)) =_{A \times B} (\pi_1(c'), \pi_2(c'))$. 
 
 By the uniqueness rule for the negative product type, there are identities $\eta_{\times}(c):c =_{A \times B} (\pi_1(c), \pi_2(c))$ and $\eta_{\times}(c'):c' =_{A \times B} (\pi_1(c'), \pi_2(c'))$, and thus, for all identities $p:c =_{A \times B} c'$, there are identities
 
 $$
   \array{& c & \overset{\eta_{\times}(c)}= & (\pi_1(c), \pi_2(c)) & \\
-          p & \Vert & \rightarrow & \Vert & \mathrm{idstoprodid}(\pi_1(c), \pi_1(c'), \pi_2(c), \pi_2(c'))(\mathrm{idtoprodofids}(c, c')(p))\\
+          p & \Vert & \rightarrow & \Vert & \mathrm{apbinary}_{(-,-)}(\pi_1(c), \pi_1(c'), \pi_2(c), \pi_2(c'))(\mathrm{ap}_{(\pi_1, \pi_2)}(c, c')(p))\\
           &c' & \underset{\eta_{\times}(c')}= & (\pi_1(c'), \pi_2(c')) & \\
 }$$
 
 For all elements $a:A$, $a':A$, and $b:B$, $b':B$, the composition of functions 
-$$\mathrm{idtoprodofids}((a, b), (a', b')) \circ \mathrm{idstoprodid}(a, a', b, b')$$ 
+$$\mathrm{ap}_{(\pi_1, \pi_2)}((a, b), (a', b')) \circ \mathrm{apbinary}_{(-,-)}(a, a', b, b')$$ 
 has domain $(a =_A a') \times (b =_B b')$ and codomain $(\pi_1((a, b)) =_A \pi_1((a', b'))) \times (\pi_2((a, b)) =_B \pi_2((a', b')))$. 
 
 By the computation rules of the negative product type, there are identities $\beta_{\times 1}(a, b):\pi_1((a, b)) =_A a$, $\beta_{\times 2}(a, b):\pi_2((a, b)) =_A b$, $\beta_{\times 1}(a', b'):\pi_1((a', b')) =_A a'$, and $\beta_{\times 2}(a', b'):\pi_2((a', b')) =_A b'$, and for all pairs of identities $q:(a =_A a') \times (b =_B b')$, there are identities
 
 $$
   \array{& \pi_1((a, b)) & \overset{\beta_{\times 1}(a, b)}= & a & \\
-          \pi_1(\mathrm{idtoprodofids}((a, b), (a', b'))(\mathrm{idstoprodid}(a, a', b, b')(q))) & \Vert & \leftarrow & \Vert & \pi_1(q) \\
+          \pi_1(\mathrm{ap}_{(\pi_1, \pi_2)}((a, b), (a', b'))(\mathrm{apbinary}_{(-,-)}(a, a', b, b')(q))) & \Vert & \leftarrow & \Vert & \pi_1(q) \\
           & \pi_1((a', b')) & \underset{\beta_{\times 1}(a', b')}= & a' & \\
 }$$
 
 $$
   \array{& \pi_2((a, b)) & \overset{\beta_{\times 2}(a, b)}= & b & \\
-          \pi_2(\mathrm{idtoprodofids}((a, b), (a', b'))(\mathrm{idstoprodid}(a, a', b, b')(q))) & \Vert & \leftarrow & \Vert & \pi_2(q) \\
+          \pi_2(\mathrm{ap}_{(\pi_1, \pi_2)}((a, b), (a', b'))(\mathrm{apbinary}_{(-,-)}(a, a', b, b')(q))) & \Vert & \leftarrow & \Vert & \pi_2(q) \\
           & \pi_2((a', b')) & \underset{\beta_{\times 2}(a', b')}= & b' & \\
 }$$
 
