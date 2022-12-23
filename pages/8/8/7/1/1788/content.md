@@ -1,4 +1,3 @@
-$\xlongequal{test}$
 
 $$
   \array{& X & \overset{f}= & Z & \\
