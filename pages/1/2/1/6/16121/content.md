@@ -51,6 +51,10 @@ Known as “Cauchy inequality”, “Cauchy–Schwarz inequality”, “Cauchy�
 
 Proofs were published by [[Cauchy]] in 1821, [[Bouniakowsky]] in 1859, [[Hermann Schwarz]] in 1888.
 
+## Related concepts
+
+* [[inequality]]
+
 ## References
 
 * Wikipedia, _[Cauchy-Schwarz inequality](https://en.wikipedia.org/wiki/Cauchy-Schwarz_inequality)_
