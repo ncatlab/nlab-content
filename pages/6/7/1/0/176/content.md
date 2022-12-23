@@ -364,6 +364,8 @@ $$
 
 * [[6d (2,0)-supersymmetric QFT]]
 
+
+
 ## Related concepts
 
 * [[sewing constraints]]
@@ -409,6 +411,7 @@ $$
 * [[automorphism of a 2d conformal field theory]]
 
 * [[TT deformation]]
+
 
 
 ## References ##
@@ -468,6 +471,11 @@ For a discussion of mathematical formalization ([[vertex operator algebras]], [[
 For a survey of perspectives in CFT with an eye towards [[string theory]] see various contributions in 
 
 * [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
+
+Discussion in relation to the [[AdS-CFT correspondence]]:
+
+* Matteo Broccoli, *Aspects of Conformal Field Theory* &lbrack;[arXiv:2212.11829](https://arxiv.org/abs/2212.11829)&rbrack;
+
 
 
 
