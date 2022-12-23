@@ -40,8 +40,8 @@ In detail:
 
 In [[dependent type theory]], whiskering is the type theoretic equivalent of the principle in [[set theory]] that given sets $A$, $B$, and $C$, and functions $f:A \to B$ and $g:A \to B$, if $f(x) = g(x)$ for all elements $x \in A$, then 
 
-* $h(f(x)) = h(g(x))$ for all elements $x \in A$ and functions $h:B \to C$
-* $f(h(x)) = g(h(x))$ for all elements $x \in C$ and functions $h:C \to A$
+* $h(f(x)) = h(g(x))$ for all functions $h:B \to C$ and elements $x \in A$ 
+* $f(h(x)) = g(h(x))$ for all functions $h:C \to A$ and elements $x \in C$ 
 
 Given types $A$, $B$, and $C$ and functions $f:A \to B$ and $g:A \to B$ there is a function
 
