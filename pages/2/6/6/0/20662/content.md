@@ -14,11 +14,19 @@
 {:toc}
 
 
-**Noam Chomsky** is an American [[linguistics|linguist]], [[philosophy|philosopher]], cognitive scientist, historian, social critic, and political activist.
+**Noam Chomsky** is an American [[linguistics|linguist]], [[philosophy|philosopher]], cognitive scientist, historian, political critic and activist.
 
 He is often regarded as the greatest linguist of the 20th century and has indisputably been the most influential one.
 
 His seminal early work on [[language|formal language]] theory and computational [[complexity theory]] is by now an established part of the foundations of [[computer science]].
+
+* [personal page](https://chomsky.info/)
+
+* [institute page](https://linguistics.arizona.edu/user/noam-chomsky)
+
+For what it's worth, there is of course also a:
+
+* [Wikipedia entry](https://en.m.wikipedia.org/wiki/Noam_Chomsky)
 
 
 ## Notable Ideas
