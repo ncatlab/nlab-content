@@ -57,17 +57,25 @@ Given [[types]] $A$ and $B$ and a [[function]] $f:A \to B$, a __coherent inverse
 
 $$G:\prod_{x:B} f(g(x)) =_B x \qquad H:\prod_{x:A} g(f(x)) =_A x$$
 
-which additionally has [[homotopy]]
-$$K:\prod_{x:B} H(g(x)) =_{g(f(x)) =_B x} \mathrm{ap}_g(G(x))$$
+which additionally has [[homotopies]]
+$$K_f:\prod_{x:A} \mathrm{ap}_f(H(x)) =_{g(f(x)) =_A x} G(f(x)) \qquad K_g:\prod_{x:B} H(g(x)) =_{f(g(x)) =_B x} \mathrm{ap}_g(G(x)) $$
 
 The type of coherent inverse functions of $f$ is given by the type
 
-$$\mathrm{CohInv}(f) \coloneqq \sum_{g:B \to A} \sum_{H:\prod_{x:A} g(f(x)) =_A x} \sum_{G:\prod_{x:B} f(g(x)) =_B x} \prod_{x:B} H(g(x)) =_{g(f(x)) =_B x} \mathrm{ap}_g(G(x))$$
+$$\mathrm{CohInv}(f) \coloneqq \sum_{g:B \to A} \sum_{G:\prod_{x:B} f(g(x)) =_B x} \sum_{H:\prod_{x:A} g(f(x)) =_A x}  \left(\prod_{x:A} \mathrm{ap}_f(H(x)) =_{g(f(x)) =_A x} G(f(x))\right) \times \left(\prod_{x:B} H(g(x)) =_{f(g(x)) =_B x} \mathrm{ap}_g(G(x))\right)$$
 
 ## Properties
 
 Given a function $f:A \to B$, a function $g:B \to A$, and a [[homotopy]] $H:\prod_{x:A} (g(f(x)) =_A x)$ which shows that $g$ is a [[retraction]] of $f$, there is a function 
-$$\mathrm{QuasiInvToCohInv}(f, g, H):\left(\prod_{x:B} f(g(x)) =_B x\right) \to \sum_{G:\prod_{x:B} f(g(x)) =_B x} \prod_{x:B} H(g(x)) =_{g(f(x)) =_B x} \mathrm{ap}_g(G(x))$$
+$$\mathrm{QuasiInvToCohInv}(f, g, H):\left(\prod_{x:B} f(g(x)) =_B x\right) \to \sum_{G:\prod_{x:B} f(g(x)) =_B x} \prod_{x:B} \mathrm{ap}_f(H(x)) =_{f(g(x)) =_B x} G(f(x))$$
+
+which satisfies the [[commutative square]] for all [[homotopies]] $G:\prod_{x:B} f(g(x)) =_B x$ and elements $b:B$
+
+$$
+  \array{& f(g(f(g(b)))) & \overset{G(f(g(b))}= & f(g(b)) & \\
+          \mathrm{ap}_{f}(H(g(b)))) & \Vert & =_{f(g(f(g(b)))) =_B b} & \Vert & \pi_1(\mathrm{QuasiInvToCohInv}(f, g, H)(G))(b) \\
+          & f(g(b)) & \underset{G(b)}= & b & \\
+}$$
 
 ## Related concepts
 
