@@ -77,6 +77,8 @@ We define the type of equivalences from $A$ to $B$ in $\mathcal{U}$ as
 
 $$(A \simeq_\mathcal{U} B)  \equiv \sum_{R : (A \times B) \to \mathcal{U}} isOneToOne(R)$$
 
+By the [[type theoretic axiom of replacement]], the image of $R$ is $\mathcal{U}$-small, and thus $A \simeq_\mathcal{U} B$ is $\mathcal{U}$-small as well. 
+
 ### Rules for hasContrFibers
 
 In any [[dependent type theory]] with [[identity types]], [[function types]], [[fiber types]], and [[isContr]] defined either through [[isProp]] or [[contraction types]], all of which could be defined without [[dependent product types]] or [[dependent sum types]], we can still define hasContrFibers by adding the formation, introduction, elimination, computation, and uniqueness rules for hasContrFibers
