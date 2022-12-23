@@ -6,7 +6,7 @@
 +-- {: .hide}
 [[!include relations - contents]]
 =--
-#### Constructivism, Realizability, Computability
+#### Constructivism
 +-- {: .hide}
 [[!include constructivism - contents]]
 =--
@@ -30,20 +30,45 @@ $$
   \mathrlap{\,.}
 $$
 
-This is in contrast to the statement of their *[[equality]]*
+This is in contrast to the statement of their *[[equality]]*, expressed by an *[[equation]]*
 
 $$ 
   x = y
   \mathrlap{\,,}
 $$
 
-whence the terminology  --- but, of course, there are other ways in which a pair of expressions can be "in-equal".
+whence the terminology. But, of course, there are other ways in which a pair of expressions can be "in-equal"; see at *[Inequality relations](#InequalityRelations)* below.
+
+## Examples
+ {#Examples}
+
+* [[triangle inequality]]
+
+* [[Minkowski's inequality]]
+
+* [[Cauchy-Schwarz inequality]]
+
+* [[Hölder's inequality]]
+
+* [[Cramer-Rao inequality]]
+
+* [[Grothendieck's inequality]]
+
+* [[Bell's inequality]]
+
 
 ## Inequality relations
+ {#InequalityRelations}
 
-Generally, inequality may just be the statement that a pair of [[terms]] of any [[type]] are *not equal*. However, in the [[foundations of mathematics]], sometimes one talks about a particular relation called the *inequality relation*. In [[classical mathematics]], the *inequality relation* is defined as the [[negation]] ($\not$) of [[equality]] ($=$). However, in [[constructive mathematics]], due to the lack of [[excluded middle]], there are multiple different notions of inequality relation. The two most commonly used notions are the [[denial inequality relation]] and the [[tight apartness relation]], the latter of which is used to define [[inequality spaces]]. Other relations which have been called "inequality relation" in the constructive mathematics literature are listed in [[irreflexive symmetric relation#ConstructiveMathematics]]. 
+More generally, inequality may just be the statement that a pair of [[terms]] of any [[type]] are *[[negation|not]] [[euqality|equal]]*. 
+
+In  the [[foundations of mathematics]], sometimes one talks about a particular [[relation]] called the *inequality relation*. 
+
+In [[classical mathematics]], the *inequality relation* is defined as the [[negation]] ($\not$) of [[equality]] ($=$). However, in [[constructive mathematics]], due to the lack of [[excluded middle]], there are multiple different notions of inequality relation. The two most commonly used notions are the [[denial inequality relation]] and the [[tight apartness relation]], the latter of which is used to define [[inequality spaces]]. Other relations which have been called "inequality relation" in the constructive mathematics literature are listed in [[irreflexive symmetric relation#ConstructiveMathematics]]. 
 
 ## See also
+
+* [[equality]], [[equation]]
 
 * [[denial inequality]]
 
