@@ -92,6 +92,7 @@ Another commonly seen proof of Minkowski's inequality derives it with the help o
 
 * [[Hölder's inequality]]
 
+* [[inequality]]
 
 ## References
 
