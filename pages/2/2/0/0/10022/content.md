@@ -304,8 +304,6 @@ Survey talks:
 
 * Matthew Headrick, _Entanglement entropies in holographic field theory_ ([pdf slides](http://www.ggi.fi.infn.it/talks/talk1853.pdf))
 
-* Tadashi Takayanagi, _Entanglement Entropy and Holography (Introductory review)_ ([pdf slides](http://www.princeton.edu/~jmaciejk/entanglement2012/slides/TakayanagiPCTS2012.pdf))
-
 * {#Hartmann14} Tom Hartmann, _Entanglement entropy and geometry_, talk slides, 2014 ([pdf](http://online.kitp.ucsb.edu/online/qft14/hartman/pdf/Hartman_QFT14_KITP.pdf))
 
 An influential argument that this relation implies that [[entanglement]] in the boundary theory is what makes spacetime as such appear in the bulk theory is due to
