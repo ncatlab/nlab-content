@@ -59,6 +59,7 @@ The [[braid group]] $Br(n)$ on $n \in \mathrm{N}$ strands is finitely generated 
 
   * [[finitely generated module]], [[finitely presented module]]
 
+* [[Solovay-Kitaev theorem]]
 
 ## References
 
