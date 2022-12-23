@@ -2,7 +2,7 @@
 
 ***
 
-**Update Dec 2022.** At long last, the [[LHCb collaboration]] in Dec 2022 announced ([LHCB22](#LHCB22)) that they had all along been mis-attributing hadronic backgrounds in the measurement of kaonic decays of B-mesons to electrons, and that fixing this makes the apparent anomaly in $R_K$, $R_{K^{\ast}}$ disappear, and with it most of the other apparent anomalies, too ([CFFPSV22](#CFFPSV22)). For more see [below](#FixingTheBackgrounds).
+**Update Dec 2022.** At long last, the [[LHCb collaboration]] in Dec 2022 announced ([LHCB22](#LHCB22)) that they had all along been mis-attributing hadronic backgrounds in the measurement of kaonic decays of B-mesons to electron pairs (as some people had [suspected](http://resonaances.blogspot.com/2021/03/thoughts-on-rk.html?showComment=1617397775790&m=1#c6699295970247538741)), and that fixing this makes the apparent anomaly in $R_K$, $R_{K^{\ast}}$ disappear, and with it most of the other apparent anomalies, too ([CFFPSV22](#CFFPSV22)). For more see [below](#FixingTheBackgrounds).
 
 This seems to mean that all the discussion on this page here is essentially obsolete as far as its particle physics content goes -- what remains is maybe just of historical/sociological interest.
 
