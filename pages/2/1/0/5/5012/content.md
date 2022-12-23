@@ -13,7 +13,7 @@ On relating the [[automorphism groups]] of the [[profinite completion]] of [[bra
 
 On sensitivity of mathematics in law
 
-* Leila Schneps, Coralie Colmez, _Math on trial: how numbers get used and abused in the courtroom?_, New York: Basic Books, ISBN 978-0465032921 wikipedia:[Math on Trial](https://en.wikipedia.org/wiki/Math_on_Trial)
+* Leila Schneps, Coralie Colmez, _Math on trial: how numbers get used and abused in the courtroom_, New York: Basic Books (2013) &lbrack;[ISBN:978-0465032921](https://www.basicbooks.com/titles/leila-schneps/math-on-trial/9780465032921), [Wikipedia entry](https://en.wikipedia.org/wiki/Math_on_Trial)&rbrack;
 
 On [[Hodge theory]]:
 
