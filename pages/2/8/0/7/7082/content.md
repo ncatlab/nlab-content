@@ -79,6 +79,21 @@ $$(A \simeq_\mathcal{U} B)  \equiv \sum_{R : (A \times B) \to \mathcal{U}} isOne
 
 By the [[type theoretic axiom of replacement]], the image of $R$ is $\mathcal{U}$-small, and thus $A \simeq_\mathcal{U} B$ is $\mathcal{U}$-small as well. 
 
+One could also forego universes entirely and make this definition into rules of the type theory, as follows:
+
+Formation rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
+
+Correspondence reflection rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:A \simeq B \; \mathrm{type}}{\Gamma, x:A, y:B \vdash \mathcal{T}(R)(x, y) \; \mathrm{type}}$$
+
+One-to-one correspondence rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \lambda(R)(y):\mathrm{isContr}\left(\sum_{x:A} \mathcal{T}(R)(x, y)\right)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \rho(R)(x):\mathrm{isContr}\left(\sum_{y:B} \mathcal{T}(R)(x, y)\right)}$$
+
+This is valid so long as the dependent type theory has [[identity types]], [[dependent product types]], and [[dependent sum types]]. By the [[principle of unique choice]], one could derive functions $f:A \to B$ and $g:B \to A$ given an equivalence $R:A \simeq B$, which are [[coherent inverse functions]] of each other and have [[contractible]] [[fibers]] each. 
+
 ### Rules for hasContrFibers
 
 In any [[dependent type theory]] with [[identity types]], [[function types]], [[fiber types]], and [[isContr]] defined either through [[isProp]] or [[contraction types]], all of which could be defined without [[dependent product types]] or [[dependent sum types]], we can still define hasContrFibers by adding the formation, introduction, elimination, computation, and uniqueness rules for hasContrFibers
