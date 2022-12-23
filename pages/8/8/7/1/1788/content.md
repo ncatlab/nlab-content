@@ -1,3 +1,5 @@
+$\xlongequal{test}$
+
 $$
   \array{& X & \overset{f}= & Z & \\
           g & \Vert && \Vert & g'\\
