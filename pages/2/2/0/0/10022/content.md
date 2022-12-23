@@ -274,7 +274,7 @@ Review:
 
 * [[Jens Eisert]], M. Cramer, M.B. Plenio, _Area laws for the entanglement entropy - a review_, Rev. Mod. Phys. 82, 277 (2010) ([arXiv:0808.3773](https://arxiv.org/abs/0808.3773))
 
-* {#NishiokaRyuTakayanagi09} Tatsuma Nishioka, [[Shinsei Ryu]], [[Tadashi Takayanagi]], _Holographic Entanglement Entropy: An Overview_, J.Phys.A42:504008,2009 ([arXiv:0905.0932](https://arxiv.org/abs/0905.0932))
+* {#NishiokaRyuTakayanagi09} Tatsuma Nishioka, [[Shinsei Ryu]], [[Tadashi Takayanagi]], *Holographic Entanglement Entropy: An Overview*, J. Phys. A **42** 504008 (2009) &lbrack;[arXiv:0905.0932](https://arxiv.org/abs/0905.0932), [doi:10.1088/1751-8113/42/50/504008](https://iopscience.iop.org/article/10.1088/1751-8113/42/50/504008)&rbrack;
 
 * Matthew Headrick, _Lectures on entanglement entropy in field theory and holography_ ([arXiv:1907.08126](https://arxiv.org/abs/1907.08126))
 
@@ -282,7 +282,16 @@ Review:
 
   Sec. 5 of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
 
-* Bowen Chen, Bartlomiej Czech, Zi-zhi Wang, *Quantum Information in Holographic Duality* ([arXiv:2108.09188](https://arxiv.org/abs/2108.09188))
+
+* Bin Chen, *Holographic Entanglement Entropy: A Topical Review*, Communications in Theoretical Physics, **71** (2019) 837 &lbrack;[doi:10.1088/0253-6102/71/7/837](https://iopscience.iop.org/article/10.1088/0253-6102/71/7/837)&rbrack;
+
+
+* [[Bowen Chen]], [[Bartlomiej Czech]], [[Zi-zhi Wang]], *Quantum Information in Holographic Duality*, Rept. Prog. Phys. **85** (2022) 4, 046001 &lbrack;[arXiv:2108.09188](https://arxiv.org/abs/2108.09188), [doi:10.1088/1361-6633/ac51b5](https://doi.org/10.1088/1361-6633/ac51b5)&rbrack;
+
+Textbook account:
+
+* [[Mukund Rangamani]], [[Tadashi Takayanagi]], *Holographic Entanglement Entropy*, Lecture Notes in Physics **931**, Springer (2017) &lbrack;[doi:10.1007/978-3-319-52573-0](https://doi.org/10.1007/978-3-319-52573-0), [arXiv:1609.01287](https://arxiv.org/abs/1609.01287)&rbrack;
+
 
 
 Survey talks:
@@ -338,6 +347,8 @@ and further in terms of [[quantum error correcting codes]] due to
 * {#PYHP15} [[Fernando Pastawski]], [[Beni Yoshida]], [[Daniel Harlow]], [[John Preskill]], _Holographic quantum error-correcting codes: Toy models for the bulk/boundary correspondence_, JHEP 06 (2015) 149 ([arXiv:1503.06237](https://arxiv.org/abs/1503.06237))
 
 * {#HNQTWY16} Patrick Hayden, Sepehr Nezami, Xiao-Liang Qi, Nathaniel Thomas, Michael Walter, Zhao Yang, _Holographic duality from random tensor networks_, JHEP 11 (2016) 009 ([arXiv:1601.01694](https://arxiv.org/abs/1601.01694))
+
+* [[Daniel Harlow]], *The Ryu–Takayanagi Formula from Quantum Error Correction*, Comm. Math. Phys. **354** (2017) 865–912 &lbrack;[doi:10.1007/s00220-017-2904-z](https://doi.org/10.1007/s00220-017-2904-z), [arXiv:1607.03901](https://arxiv.org/abs/1607.03901)&rbrack;
 
 * Helia Kamal, [[Geoffrey Penington]], _The Ryu-Takayanagi Formula from Quantum Error Correction: An Algebraic Treatment of the Boundary CFT_ ([arXiv:1912.02240](https://arxiv.org/abs/1912.02240))
 
