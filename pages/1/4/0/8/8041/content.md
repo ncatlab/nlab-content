@@ -70,17 +70,17 @@ Given a function $f:A \to B$ and a function $g:B \to A$, there are functions
 $$G:\prod_{x:B} f(g(x)) =_B x, H:\prod_{x:A} (g(f(x)) =_A x) \vdash \mathrm{QInvToCohInv}_1(f, g)(G, H):\prod_{x:A} \mathrm{ap}_f(H(x)) =_{g(f(x)) =_A x} G(f(x))$$
 $$G:\prod_{x:B} f(g(x)) =_B x, H:\prod_{x:A} (g(f(x)) =_A x) \vdash \mathrm{QInvToCohInv}_2(f, g)(G, H):\prod_{x:B} H(g(x)) =_{f(g(x)) =_B x} \mathrm{ap}_g(G(x))$$
 
-which satisfies the [[commutative square]] for elements $a:A$ and $b:B$
+which satisfies the [[commutative squares]] for all elements $a:A$ and $b:B$
 
 $$
   \array{& f(g(f(g(b)))) & \overset{G(f(g(b))}= & f(g(b)) & \\
-          \mathrm{ap}_{f}(H(g(b)))) & \Vert & =_{f(g(f(g(b)))) =_B b} & \Vert & \pi_1(\mathrm{QInvToCohInv}_1(f, g)(G)(H))(b) \\
+          \mathrm{ap}_{f}(H(g(b)))) & \Vert & =_{f(g(f(g(b)))) =_B b} & \Vert & \pi_1(\mathrm{QInvToCohInv}_1(f, g)(G, H))(b) \\
           & f(g(b)) & \underset{G(b)}= & b & \\
 }$$
 
 $$
   \array{& g(f(g(f(a)))) & \overset{H(g(f(a))}= & g(f(a)) & \\
-          \mathrm{ap}_{g}(G(f(a)))) & \Vert & =_{g(f(g(f(a)))) =_A a} & \Vert & \pi_1(\mathrm{QInvToCohInv}_2(f, g)(G)(H))(a) \\
+          \mathrm{ap}_{g}(G(f(a)))) & \Vert & =_{g(f(g(f(a)))) =_A a} & \Vert & \pi_1(\mathrm{QInvToCohInv}_2(f, g)(G, H))(a) \\
           & g(f(a)) & \underset{H(a)}= & a & \\
 }$$
 
