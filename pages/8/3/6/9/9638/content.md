@@ -227,6 +227,9 @@ Introducing the notion of [[quantum supremacy]] and highlighting its relation to
    
 Further introduction and survey:
 
+* [[Alexei Kitaev]],  *Quantum computations: algorithms and error correction*, Russian Mathematical Surveys, **52** 6 (1997) &lbrack;[doi:10.1070/RM1997v052n06ABEH002155](https://iopscience.iop.org/article/10.1070/RM1997v052n06ABEH002155), <a href="https://ochicken.top/Library/Physics/Quantum_Computation_and_Quantum_Information/1997.06%20A.Yu.Kitaev_%20Quantum%20computations_%20algorithms%20and%20error%20correction%20(kitaev1997).pdf">pdf</a>&rbrack;
+
+
 * [[Eleanor Rieffel]], [[Wolfgang Polak]],  *An Introduction to Quantum Computing for Non-Physicists*, ACM Comput. Surveys **32** (2000) 300-335 &lbrack;[arXiv:quant-ph/9809016](https://arxiv.org/abs/quant-ph/9809016), [doi:10.1145/367701.367709](https://dl.acm.org/doi/10.1145/367701.367709)&rbrack;
 
 
