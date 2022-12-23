@@ -1,0 +1,14 @@
+
+* [personal page](https://asfpg.de/17303/petersen.html)
+
+> Seine Hoffnung geht tatsächlich so weit, dass seine Arbeit die Metaphysik (in der Form spekulativer Logik) den Philosophen aus der Hand nehmen und in die Mathematik verlagern wird. 
+
+> &lbrack;Engl.&rbrack; His hope actually goes as far that his work will take metaphics (in the form of speculative logic) out of the hands of the philosophers, relocating it into mathematics.
+
+## Selected writings
+
+On a proposal for a [[formal logic|logical formalization]] of [[Hegel|Hegelian]] [[dialectics]]:
+
+* {#Petersen09} [[Uwe Petersen]], *35 Thesen zur Grundlegung einer formalen dialektischen Logik — nebst Kommentaren*, DILEMMATA: Jahrbuch der ASFPG **4** (2009) 125–207 &lbrack;[pdf](https://asfpg.de/english/17303/Jahrbuecher/JB09/jb09-petersen.pdf)&rbrack;
+
+category: people
