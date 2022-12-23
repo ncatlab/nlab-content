@@ -150,6 +150,8 @@ Markov categories as defined here appear in:
 
 * [[Sean Moss]], [[Paolo Perrone]], _Probability monads with submonads of deterministic states_, LICS 2022. ([arXiv:2204.07003](https://arxiv.org/abs/2204.07003))
 
+* [[Paolo Perrone]], _Markov Categories and Entropy_ ([arXiv:2212.11719](https://arxiv.org/abs/2212.11719))
+
 See also the references therein.
 
 The first idea of defining a "category of probabilistic mappings" seems to be due to [[Lawvere]], in
