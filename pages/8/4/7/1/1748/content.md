@@ -240,6 +240,8 @@ Note that a homotopy is not the same as an [[identification]] $f = g$. However t
 
 * [[function extensionality]]
 
+* [[whiskering]]
+
 * [[homotopy analysis method]]
 
 ## References 
