@@ -26,7 +26,7 @@ A _formal language_ is a collection of words over an [[alphabet]], i.e. strings 
 
 * [[metalanguage]]
 
-* [[theory]]
+* [[syntax]], [[theory]]
 
 * [[mathematical linguistics]]
 
