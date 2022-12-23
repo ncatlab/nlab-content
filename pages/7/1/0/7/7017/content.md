@@ -24,7 +24,7 @@
 
 In [[formal logic]], by *syntax* one means formal specification of the ([[language]] of) a [[theory]] -- this in contrast to *[[semantics]]*.
 
-In [[linguistics]] the meaning of syntax is similar, but a little different.
+In [[linguistics]] the meaning of syntax is similar, but a little different and narrower (does not include phonological, morphological and lexical levels of descriptions), see [[syntax (linguistics)]].
 
 ## Related concepts
 
@@ -40,7 +40,7 @@ In [[linguistics]] the meaning of syntax is similar, but a little different.
 
 * [[word]], [[string (computer science)|string]]
 
-* [[linguistics]]
+* [[linguistics]], [[syntax (linguistics)]].
 
 
 
