@@ -56,7 +56,7 @@ The [[philosophy]] of [[mathematics]].
 
 * [[Saunders MacLane]], _Mathematics, form and function_, Springer-Verlag 1986, xi+476 pp. [MR87g:00041](http://www.ams.org/mathscinet-getitem?mr=816347), [wikipedia](http://en.wikipedia.org/wiki/Mathematics,_Form_and_Function)
 
-* George Lakoff, Rafael E. N&#250;&#241;ez, _Where mathematics comes from_, Basic Books 2000, xviii+493 pp. [MR2001i:00013](http://www.ams.org/mathscinet-getitem?mr=1794854)
+* [[George Lakoff]], Rafael E. N&#250;&#241;ez, _Where mathematics comes from_, Basic Books 2000, xviii+493 pp. [MR2001i:00013](http://www.ams.org/mathscinet-getitem?mr=1794854)
 
 * [[Yuri Manin|Yuri I. Manin]], _Mathematics as Metaphor:
 Selected Essays of Yuri Manin_, Amer. Math. Soc. 2007
