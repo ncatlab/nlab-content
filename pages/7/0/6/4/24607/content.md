@@ -195,7 +195,7 @@ Argument that the image of quantum teleportation under [[AdS-CFT duality]] is *[
 
 * [[Ping Gao]], [[Daniel Louis Jafferis]], [[Aron C. Wall]], *Traversable Wormholes via a Double Trace Deformation*, Journal of High Energy Physics **2017** 151 (2017) &lbrack;[arXiv:1608.05687](https://arxiv.org/abs/1608.05687), <a href="https://doi.org/10.1007/JHEP12(2017)151">doi:10.1007/JHEP12(2017)151</a>&rbrack;
 
-* [[Juan Maldacena]], [[Douglas Stanford]], [[Zhenbin Yang]], *Diving into traversable wormholes*,Fortsch. Phys. **65** 5 (2017) 1700034 &lbrack;[arXiv:1704.05333](https://arxiv.org/abs/1704.05333), [doi:10.1002/prop.201700034](https://doi.org/10.1002/prop.201700034)&rbrack;
+* [[Juan Maldacena]], [[Douglas Stanford]], [[Zhenbin Yang]],  *Diving into traversable wormholes*,Fortsch. Phys. **65** 5 (2017) 1700034 &lbrack;[arXiv:1704.05333](https://arxiv.org/abs/1704.05333), [doi:10.1002/prop.201700034](https://doi.org/10.1002/prop.201700034)&rbrack;
 
 
 
