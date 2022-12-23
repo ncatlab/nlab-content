@@ -81,18 +81,23 @@ By the [[type theoretic axiom of replacement]], the image of $R$ is $\mathcal{U}
 
 One could also forego universes entirely and make this definition into rules of the type theory, as follows:
 
-Formation rules:
+Formation rules for equivalence types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
 
-Correspondence reflection rules:
+Reflection rule for equivalence types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:A \simeq B \; \mathrm{type}}{\Gamma, x:A, y:B \vdash \mathcal{T}(R)(x, y) \; \mathrm{type}}$$
 
-One-to-one correspondence rules:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \lambda(R)(y):\mathrm{isContr}\left(\sum_{x:A} \mathcal{T}(R)(x, y)\right)}$$
+Totality rules for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \lambda(R)(y):\sum_{x:A} \mathcal{T}(R)(x, y)}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \rho(R)(x):\mathrm{isContr}\left(\sum_{y:B} \mathcal{T}(R)(x, y)\right)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \rho(R)(x):\sum_{y:B} \mathcal{T}(R)(x, y)}$$
 
-This is valid so long as the dependent type theory has [[identity types]], [[dependent product types]], and [[dependent sum types]]. By the [[principle of unique choice]], one could derive functions $f:A \to B$ and $g:B \to A$ given an equivalence $R:A \simeq B$, which are [[coherent inverse functions]] of each other and have [[contractible]] [[fibers]] each. 
+Uniqueness rules for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, u:\sum_{x:A} \mathcal{T}(R)(x, y) \vdash \eta_\lambda(R)(y)(u):\lambda_\tau(R)(y) =_{\sum_{x:A} \mathcal{T}(R)(x, y)} u}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, u:\sum_{y:B} \mathcal{T}(R)(x, y) \vdash \eta_\rho(R)(x)(u):\rho_\tau(R)(x) =_{\sum_{y:B} \mathcal{T}(R)(x, y)} u}$$
+
+This is valid so long as the dependent type theory has [[identity types]] and [[dependent sum types]]. By the [[principle of unique choice]], one could derive functions $f:A \to B$ and $g:B \to A$ given an equivalence $R:A \simeq B$, which are [[coherent inverse functions]] of each other and have [[contractible]] [[fibers]] each. 
 
 ### Rules for hasContrFibers
 
