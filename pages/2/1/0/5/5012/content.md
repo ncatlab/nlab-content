@@ -1,7 +1,7 @@
 
 * [webpage](http://www.math.jussieu.fr/~leila)
-
 * [articles](http://www.math.jussieu.fr/~leila/articles.html)
+* [wikipedia](https://en.wikipedia.org/wiki/Leila_Schneps)
 
 ## Selected writings
 
@@ -11,6 +11,9 @@ On relating the [[automorphism groups]] of the [[profinite completion]] of [[bra
 
 * [[Pierre Lochak]], [[Leila Schneps]], *The Grothendieck-Teichmüller group and automorphisms of braid groups*, in: *The Grothendieck Theory of Dessins d’Enfant*, Cambridge University Press (1994, 2011) &lbrack;[pdf](https://webusers.imj-prg.fr/~leila.schneps/Fls.pdf), [doi:10.1017/CBO9780511569302](https://doi.org/10.1017/CBO9780511569302)&rbrack;
 
+On sensitivity of mathematics in law
+
+* Leila Schneps, Coralie Colmez, _Math on trial: how numbers get used and abused in the courtroom?_, New York: Basic Books, ISBN 978-0465032921 wikipedia:[Math on Trial](https://en.wikipedia.org/wiki/Math_on_Trial)
 
 On [[Hodge theory]]:
 
