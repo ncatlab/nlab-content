@@ -516,6 +516,10 @@ An n-cat café discussion initiated by [[John Huerta]] and probing some of its u
 
 * [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, Comm. Math. Phys. 371: 425. (2019 ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987), [doi:10.1007/s00220-019-03442-3](https://doi.org/10.1007/s00220-019-03442-3))
 
+Some generalization to [[monoid]]-[[actions]]:
+
+* Mehmet Akif Erdal, *Homotopy theory of monoid actions via group actions and an Elmendorf style theorem*, Collectanea Mathematica (2022) &lbrack;[arXiv 1609.06785](https://arxiv.org/abs/1609.06785), [doi:10.1007/s13348-022-00388-z](https://doi.org/10.1007/s13348-022-00388-z)&rbrack;
+
 
 
 [[!redirects Elmendorf theorem]]
