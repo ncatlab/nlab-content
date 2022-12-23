@@ -109,6 +109,7 @@ This idea of classically controlled quantum programming via [[dependent linear t
 
 * [[Grover's algorithm]], [[Shor's algorithm]]
 
+* [[Solovay-Kitaev theorem]]
 
 * [[quantum information theory]]
 
