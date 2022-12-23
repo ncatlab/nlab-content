@@ -756,6 +756,8 @@ To record some aspects of the [[linear representation|linear]] [[representation 
 
 * [[SU(3)]], [[SU(4)]], [[SU(5)]]
 
+* [[Solovay-Kitaev theorem]]
+
 [[!include low dimensional rotation groups -- table]]
 
 ## References
