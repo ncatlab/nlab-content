@@ -536,6 +536,11 @@ and concrete implementation by the [[HaPPY code]]:
 
 * {#PYHP15} [[Fernando Pastawski]], [[Beni Yoshida]], [[Daniel Harlow]], [[John Preskill]], _Holographic quantum error-correcting codes: Toy models for the bulk/boundary correspondence_, JHEP 06 (2015) 149 ([arXiv:1503.06237](https://arxiv.org/abs/1503.06237))
 
+and possibly more generally:
+
+* [[Daniel Harlow]], *The Ryu–Takayanagi Formula from Quantum Error Correction*, Comm. Math. Phys. **354** (2017) 865–912 &lbrack;[doi:10.1007/s00220-017-2904-z](https://doi.org/10.1007/s00220-017-2904-z), [arXiv:1607.03901](https://arxiv.org/abs/1607.03901)&rbrack;
+
+
 Introduction of the more general [[Majorana dimer code]]:
 
 * [[Alexander Jahn]], [[Marek Gluza]], [[Fernando Pastawski]], [[Jens Eisert]], _Majorana dimers and holographic quantum error-correcting codes_, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
