@@ -20,8 +20,11 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-Syntax is the formal specification of a [[theory]] of [[formal logic]], as opposed to [[semantics]].
+In [[formal logic]], by *syntax* one means formal specification of the ([[language]] of) a [[theory]] -- this in contrast to *[[semantics]]*.
+
+In [[linguistics]] the meaning of syntax is similar, but a little different.
 
 ## Related concepts
 
@@ -38,6 +41,16 @@ Syntax is the formal specification of a [[theory]] of [[formal logic]], as oppos
 * [[word]], [[string (computer science)|string]]
 
 * [[linguistics]]
+
+
+
+## References
+
+See also 
+
+* Wikipedia, *<a href="https://en.wikipedia.org/wiki/Syntax_(logic)">Syntax (logic)</a>*
+
+* Wikipedia, *[Syntax](https://en.wikipedia.org/wiki/Syntax)*
 
 [[!redirects syntax]]
 
