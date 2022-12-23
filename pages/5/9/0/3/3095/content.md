@@ -98,7 +98,7 @@ Pragmatics is concerned with the meaning of language in context.
 * George Lakoff, _Women, fire and dangerous things_, 1987
 * Ronald Langacker, _Foundations of cognitive grammar_, vol. 1, 1987, vol. 2, 1991
 * Pieter A. M. Seuren, The logic of language, vol. II of Language from within; (vol. I: Language in cognition) Oxford University Press 2010
-* David Mumford, _Grammar isn't merely part of language_, 2016 [blog](https://www.dam.brown.edu/people/mumford/blog/2016/grammar.html)
+* [[David Mumford]], _Grammar isn't merely part of language_, 2016 [blog](https://www.dam.brown.edu/people/mumford/blog/2016/grammar.html)
 * M. Tallerman, _Understanding syntax_ (1st ed, 1998, 5th ed. 2020)
 
 ### Category theory and linguistics
