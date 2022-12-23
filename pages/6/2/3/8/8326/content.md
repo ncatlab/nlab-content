@@ -7462,3 +7462,7 @@ Further references referred to in the context of the formalization discussed [ab
 
 * {#UFP13} [[nLab:Univalent Foundations Project]], _[[nLab:Homotopy Type Theory -- Univalent Foundations of Mathematics]]_, 2013
 
+Another proposal for formalizing dialectics, with emphasis on  using *un*-typed logic, instead, is discussed by [[Uwe Petersen]], e.g. 
+
+* {#Petersen09} [[Uwe Petersen]], *35 Thesen zur Grundlegung einer formalen dialektischen Logik — nebst Kommentaren*, DILEMMATA: Jahrbuch der ASFPG **4** (2009) 125–207 &lbrack;[pdf](https://asfpg.de/english/17303/Jahrbuecher/JB09/jb09-petersen.pdf)&rbrack;
+
