@@ -101,7 +101,7 @@ deep ideas, surface representations, formal models_, [article](https://www.resea
 
 Cognitive, linguistic and cultural aspects of mathematics (which are of relevance for learning) are emphasized in
 
-* George Lakoff, Rafael E. N&#250;&#241;ez, _Where mathematics comes from_, Basic Books 2000, xviii+493 pp. [MR2001i:00013](http://www.ams.org/mathscinet-getitem?mr=1794854) (cf. also wikipedia: [George Lakoff#Mathematics](https://en.wikipedia.org/wiki/George_Lakoff#Mathematics))
+* [[George Lakoff]], Rafael E. N&#250;&#241;ez, _Where mathematics comes from_, Basic Books 2000, xviii+493 pp. [MR2001i:00013](http://www.ams.org/mathscinet-getitem?mr=1794854) (cf. also wikipedia: [George Lakoff#Mathematics](https://en.wikipedia.org/wiki/George_Lakoff#Mathematics))
 
 category: education
 [[!redirects mathematical education]]
