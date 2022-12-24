@@ -3,7 +3,7 @@
 
 * [institute page](https://math.berkeley.edu/people/faculty/robert-m-solovay)
 
-* [MathematicsGenealogy page](https://www.mathgenealogy.org/id.php?id=6522)
+* [Mathematics Genealogy page](https://www.mathgenealogy.org/id.php?id=6522)
 
 ## Selected writings
 
