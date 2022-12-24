@@ -105,38 +105,43 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \v
 
 The uniqueness rule for identity types is usually not included in objective type theory. However, if it were included in objective type theory it turns the type theory into a [[set-level type theory]]. 
 
-### Dependent identity types
+### Sigma types
 
-Formation rule for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, a:A \vdash B(a) \; \mathrm{type}}{\Gamma, a:A, b:A, p:a =_A b, x:B(a), y:B(b) \vdash x =_B^p y \; \mathrm{type}}$$ 
+We use the positive presentation for sigma types. 
 
-Introduction rule for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, a:A \vdash B(a) \; \mathrm{type}}{\Gamma, a:A, x:B(a) \vdash \mathrm{refl}_{B(a)}(X):x =_B^{\mathrm{refl}_A} x}$$ 
+Formation rules for sigma types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma \vdash \Sigma (x:A).B(x) \; \mathrm{type}}$$
 
-Elimination rule for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, a:A \vdash B(a) \; \mathrm{type} \quad \Gamma, a:A, b:A, p:a =_A b, x:B(a), y:B(b), q:x =_B^p y \vdash C(a, b, p, x, y, q) \; \mathrm{type} \quad \Gamma, a:A, c:B(a) \vdash t:C(a, a, \mathrm{refl}_A(a), c, c, \mathrm{refl}_{B(a)})}{\Gamma, a:A, b:B, p:a =_A b, x:B(b), y:B(b), q:x =_B^p y \vdash J(t, a, b, p, x, y, q):C(a, b, p, x, y, q)}$$
+Introduction rules for sigma types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, y:B \vdash \mathrm{in}(x, y):\Sigma (x:A).B(x)}$$
 
-Computation rules for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, a:A \vdash B(a) \; \mathrm{type} \quad \Gamma, a:A, b:A, p:a =_A b, x:B(a), y:B(b), q:x =_B^p y \vdash C(a, b, p, x, y, q) \; \mathrm{type} \quad \Gamma, a:A, c:B(a) \vdash t:C(a, a, \mathrm{refl}_A(a), c, c, \mathrm{refl}_{B(a)})}{\Gamma, a:A, x:B(a) \vdash \beta_{=_B}(x):J(t, a, a, \mathrm{refl}_A(a), x, x, \mathrm{refl}_{B(a)}(x)) =_{C(a, a, \mathrm{refl}_A(a), c, c, \mathrm{refl}_{B(a)})} t}$$
+Elimination rules for sigma types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, z:\Sigma (x:A).B(x) \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[\mathrm{in}(x, y)/z]}{\Gamma, z:\Sigma (x:A).B(x) \vdash \mathrm{ind}_{\Sigma (x:A).B(x)}^C(c):C}$$
 
-Optional uniqueness rules for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, a:A \vdash B(a) \; \mathrm{type}}{\Gamma, a:A, x:B(a), p:x =_B^{\mathrm{refl}_A(a)} x \vdash K(a, x, p):p =_{x =_B^{\mathrm{refl}_A(a)} x} refl_{B(a)}(x)}$$
+Computation rules for sigma types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, z:\Sigma (x:A).B(x) \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[\mathrm{in}(x, y)/z]}{\Gamma, x:A, y:B \vdash \beta_{\Sigma (x:A).B(x)}^C(c):\mathrm{ind}_{\Sigma (x:A).B(x)}^C(c)[\mathrm{in}(x, y)/z] =_{C[\mathrm{in}(x, y)/z]} c}$$
+
+Uniqueness rules for sigma types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, z:\Sigma (x:A).B(x) \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[\mathrm{in}(x, y)/z] \quad \Gamma, z:\Sigma (x:A).B(x) \vdash u:C \quad \Gamma, x:A, y:B \vdash i_\mathrm{in}(u):u[\mathrm{in}(x, y)/z] =_{C[\mathrm{in}(x, y)/z]} c}{\Gamma, e:\Sigma (x:A).B(x) \vdash \eta_{\Sigma (x:A).B(x)}^C(c):u[e/z] =_{C[e/z]} \mathrm{ind}_{\Sigma (x:A).B(x)}^C(c)[e/z]}$$
 
 ### Equivalence types
 
-We define the [[type of equivalences]] as the type of encodings of pairs of [[inverse functions]] with [[contractible type|contractible]] [[fiber type|fibers]], with the following rules:
+We define the [[type of equivalences]] as the type of encodings of pairs of [[quasi-inverse functions]] with [[contractible type|contractible]] [[fiber type|fibers]], with the following rules:
 
+Formation rules for equivalence types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
 
+Quasi-inverse rules for equivalence types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \lambda(R, y):A} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \rho(R, x):B}$$ 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A \vdash \lambda_\kappa(R, x, y):\lambda(R, y) =_A x}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \lambda_\tau(R, y):\rho(R, \lambda(R, y)) =_B y}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, y:B \vdash \rho_\kappa(R, x, y):\rho(R, x) =_B y}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \rho_\tau(R, x):\lambda(R, \rho(R, x)) =_A x}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A, u:\rho(R, x) =_B y \vdash \eta_\lambda(R, y, x, u):\rho_\kappa(R, \lambda(R, y), y) =_{\rho(R, -) =_B y}^{\lambda_\kappa(R, x, y)} u}$$
+Uniqueness rules for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A, u:\rho(R, x) =_B y \vdash \eta_\lambda(R, y, x, u):(\lambda(R, y), \lambda_\tau(R, y)) =_{\sum_{x:A} \rho(R, x) =_B y} (x, u)}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, y:B, u:\lambda(R, y) =_A x \vdash \eta_\rho(R, x, y, u):\lambda_\kappa(R, x, \rho(R, x)) =_{\lambda(R, -) =_A x}^{\rho_\kappa(R, x, y)} u}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, y:B, u:\tau(R, y) =_A x \vdash \eta_\rho(R, x, y, u):(\rho(R, x), \rho_\tau(R, x)) =_{\sum_{y:B} \lambda(R, y) =_A x} (y, u)}$$
 
 The equivalence types between two types $A$ and $B$ behaves as the equality between $A$ and $B$, in the same way that the identity type between two terms $a:A$ and $b:A$ behaves as the equality between $a$ and $b$. This is similar to [[structural set theory]] whose type of sets have no primitive equality relation, where [[bijection]] behaves as the equality between sets $A$ and $B$. 
 
@@ -164,8 +169,8 @@ $$\lambda(R^{-1}, b) \coloneqq \rho(R, b)$$
 
 Given equivalences $R:A \simeq B$ and $S:B \simeq C$, the composite of $R$ and $S$ is an equivalence $S \circ R:A \simeq C$ such that for all elements $a:A$ and $c:C$,
 
-$$\lambda(S \circ R, a) \coloneqq \lambda(R, \lambda(S, a))$$
-$$\rho(S \circ R, c) \coloneqq \rho(S, \rho(R, c))$$
+$$\lambda(S \circ R, a) \coloneqq \lambda(S, \lambda(R, a))$$
+$$\rho(S \circ R, c) \coloneqq \rho(R, \rho(S, c))$$
 
 ### Transport
 
@@ -177,12 +182,13 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{t
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type}}{\Gamma, a:A \vdash \mathrm{ind}_{\mathrm{trans}^P}^{\mathrm{refl}}(a):\mathrm{trans}^P(a, a, \mathrm{refl}_A(a)) =_{P(a) \simeq P(a)} \mathrm{id}_{P(a)}}$$
 
-There are equivalences of types
+Transport is very important in defining [[univalent Tarski universes]] as well as [[dependent identity types]], which in turn are important in defining [[higher inductive types]], in objective type theory. 
 
-$$(x =_B^p y) \simeq (\rho(\mathrm{trans}^P(a, b, p), x) =_{B(b)} y)$$
-$$(x =_B^p y) \simeq (x =_{B(a)} \lambda(\mathrm{trans}^P(a, b, p), y))$$
+### Dependent identity types
 
-Transport is very important in defining [[univalent Tarski universes]]. 
+We define the [[dependent identity type]] as follows:
+
+$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash x:P(a) \quad \Gamma \vdash y:P(b)}{\Gamma \vdash x =_P^p y \coloneqq \mathrm{trans}^P(a, b, p)(x) =_{P(b)} y \; \mathrm{type}}$$
 
 ### Dependent actions on identifications
 
@@ -283,25 +289,6 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} 
 
 Uniqueness rules for product types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma\vdash B \; \mathrm{type} \quad \Gamma, z:A \times B \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[(x, y)/z] \quad \Gamma, z:A \times B \vdash u:C \quad \Gamma, x:A, y:B \vdash i_{(-,-)}(u):u[(x, y)/z] =_{C[(x, y)/z]} c}{\Gamma, z:A \times B \vdash \eta_{A \times B}^C(c):u =_{C} \mathrm{ind}_{A \times B}^C(c)}$$
-
-### Sigma types
-
-We use the positive presentation for sigma types. 
-
-Formation rules for sigma types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma \vdash \Sigma (x:A).B(x) \; \mathrm{type}}$$
-
-Introduction rules for sigma types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, y:B \vdash \mathrm{in}(x, y):\Sigma (x:A).B(x)}$$
-
-Elimination rules for sigma types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, z:\Sigma (x:A).B(x) \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[\mathrm{in}(x, y)/z]}{\Gamma, z:\Sigma (x:A).B(x) \vdash \mathrm{ind}_{\Sigma (x:A).B(x)}^C(c):C}$$
-
-Computation rules for sigma types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, z:\Sigma (x:A).B(x) \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[\mathrm{in}(x, y)/z]}{\Gamma, x:A, y:B \vdash \beta_{\Sigma (x:A).B(x)}^C(c):\mathrm{ind}_{\Sigma (x:A).B(x)}^C(c)[\mathrm{in}(x, y)/z] =_{C[\mathrm{in}(x, y)/z]} c}$$
-
-Uniqueness rules for sigma types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, z:\Sigma (x:A).B(x) \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[\mathrm{in}(x, y)/z] \quad \Gamma, z:\Sigma (x:A).B(x) \vdash u:C \quad \Gamma, x:A, y:B \vdash i_\mathrm{in}(u):u[\mathrm{in}(x, y)/z] =_{C[\mathrm{in}(x, y)/z]} c}{\Gamma, e:\Sigma (x:A).B(x) \vdash \eta_{\Sigma (x:A).B(x)}^C(c):u[e/z] =_{C[e/z]} \mathrm{ind}_{\Sigma (x:A).B(x)}^C(c)[e/z]}$$
 
 ### Sum types
 
