@@ -57,7 +57,7 @@ If after looking around for a while you feel like contributing yourself, you are
 
 If you make any edits to the nLab, please follow the guidelines for announcing your changes at the [nForum](https://nforum.ncatlab.org) given [above](#Discussion). If you are unsure whether what you would like to contribute is appropriate, please ask at the nForum before making the edit.
 
-## Viewing and editing the nLab
+## Viewing and editing the $n$Lab
  {#SoftwareRequirements}
 
 The nLab should be viewable and editable in any modern web browser on any device. For technical reasons, browsers which are able to render [MathML](http://en.wikipedia.org/wiki/MathML), such as Firefox, may render very large pages quicker than other browsers, but these pages are few and far between, and most people will be able to use the browser of their choice. 
