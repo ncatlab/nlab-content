@@ -86,22 +86,21 @@ Simulation of [[Ising anyons]] in a lattice of ordinary [[superconductor|superco
 ### Compilation to braid gate circuits
   {#CompilationToBraidGates} 
 
-On approximating given [[quantum gates]] by (i.e. compiling them to) [[quantum circuit|cicuits]] of [[anyon]] [[braid representation|braid]] [[quantum gates|gates]] (generally considered for [[su(2)-anyons]] and here mostly for universal [[Fibonacci anyons]], to some extent also for non-universal [[Majorana anyons]]):
+On approximating (cf. the [[Solovay-Kitaev theorem]]) given [[quantum gates]] by (i.e. compiling them to) [[quantum circuit|cicuits]] of [[anyon]] [[braid representation|braid]] [[quantum gates|gates]] (generally considered for [[su(2)-anyons]] and here mostly for universal [[Fibonacci anyons]], to some extent also for non-universal [[Majorana anyons]]):
 
-* Nicholas E. Bonesteel, Layla Hormozi, Georgios Zikos, Steven H. Simon, *Braid Topologies for Quantum Computation*, Phys. Rev. Lett. **95** 140503 (2005) $[$[arXiv:quant-ph/0505065](https://arxiv.org/abs/quant-ph/0505065), [doi:10.1103/PhysRevLett.95.140503](https://doi.org/10.1103/PhysRevLett.95.140503)$]$
+* [[Nicholas E. Bonesteel]], [[Layla Hormozi]], [[Georgios Zikos]], [[Steven H. Simon]], *Braid Topologies for Quantum Computation*, Phys. Rev. Lett. **95** 140503 (2005) $[$[arXiv:quant-ph/0505065](https://arxiv.org/abs/quant-ph/0505065), [doi:10.1103/PhysRevLett.95.140503](https://doi.org/10.1103/PhysRevLett.95.140503)$]$
 
+* [[Layla Hormozi]], [[Georgios Zikos]], [[Nicholas E. Bonesteel]], [[Steven H. Simon]], *Topological Quantum Compiling*, Phys. Rev. B **75** 165310 (2007) $[$[arXiv:quant-ph/0610111](https://arxiv.org/abs/quant-ph/0610111), [doi:10.1103/PhysRevB.75.165310](https://doi.org/10.1103/PhysRevB.75.165310)$]$
 
-* Layla Hormozi, Georgios Zikos, Nicholas E. Bonesteel, Steven H. Simon, *Topological Quantum Compiling*, Phys. Rev. B **75** 165310 (2007) $[$[arXiv:quant-ph/0610111](https://arxiv.org/abs/quant-ph/0610111), [doi:10.1103/PhysRevB.75.165310](https://doi.org/10.1103/PhysRevB.75.165310)$]$
+* [[Layla Hormozi]], [[Nicholas E. Bonesteel]], [[Steven H. Simon]], *Topological Quantum Computing with Read-Rezayi States*, Phys. Rev. Lett. **103** 160501 (2009) $[$[doi:10.1103/PhysRevLett.103.160501](https://doi.org/10.1103/PhysRevLett.103.160501), [arXiv:0903.2239](https://arxiv.org/abs/0903.2239)$]$
 
-* Layla Hormozi, Nicholas E. Bonesteel, Steven H. Simon, *Topological Quantum Computing with Read-Rezayi States*, Phys. Rev. Lett. **103** 160501 (2009) $[$[doi:10.1103/PhysRevLett.103.160501](https://doi.org/10.1103/PhysRevLett.103.160501), [arXiv:0903.2239](https://arxiv.org/abs/0903.2239)$]$
-
-* M. Baraban, Nicholas E. Bonesteel, Steven H. Simon, *Resources required for topological quantum factoring*, Phys. Rev. A **81** 062317 (2010) $[$[doi:10.1103/PhysRevA.81.062317](https://doi.org/10.1103/PhysRevA.81.062317), [arXiv:1002.0537](https://arxiv.org/abs/1002.0537)$]$
+* M. Baraban, [[Nicholas E. Bonesteel]], [[Steven H. Simon]], *Resources required for topological quantum factoring*, Phys. Rev. A **81** 062317 (2010) $[$[doi:10.1103/PhysRevA.81.062317](https://doi.org/10.1103/PhysRevA.81.062317), [arXiv:1002.0537](https://arxiv.org/abs/1002.0537)$]$
 
   > (focus on compiling [[Shor's algorithm]])
 
 * Vadym Kliuchnikov, Alex Bocharov, Krysta M. Svore, *Asymptotically Optimal Topological Quantum Compiling*, Phys. Rev. Lett. **112** 140504 (2014) $[$[arXiv:1310.4150](https://arxiv.org/abs/1310.4150), journal: [doi:10.1103/PhysRevLett.112.140504](https://doi.org/10.1103/PhysRevLett.112.140504), talk recording: [doi:10.48660/13100129](https://doi.org/10.48660/13100129)$]$
 
-* J. W. Brunekreef,  *Topological Quantum Computation and Quantum Compilation* (2014) $[$[studenttheses.uu.nl:20.500.12932/17738](https://studenttheses.uu.nl/handle/20.500.12932/17738)
+* [[Joren W. Brunekreef]],  *Topological Quantum Computation and Quantum Compilation*, Utrecht (2014) $[$[studenttheses.uu.nl:20.500.12932/17738](https://studenttheses.uu.nl/handle/20.500.12932/17738)$]$
 
 * Yuan-Hang Zhang, Pei-Lin Zheng, Yi Zhang, Dong-Ling Deng, *Topological Quantum Compiling with Reinforcement Learning*, Phys. Rev. Lett. **125** 170501 (2020) $[$[doi:2004.04743](https://arxiv.org/abs/2004.04743), [doi:10.1103/PhysRevLett.125.170501](https://doi.org/10.1103/PhysRevLett.125.170501)$]$
 
