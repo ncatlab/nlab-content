@@ -54,7 +54,7 @@ As observed before, $\aleph(S)$ is well-ordered. Suppose there were an injection
 
 $$j: I \hookrightarrow \aleph(S)$$ 
 
-which takes $x \in I$ to (the order type of) $I_x = \{y \in I: y \lt x\}$. Since there can be at most one initial segment inclusion between well-orders (cf. [simulation](https://ncatlab.org/nlab/show/well-founded+relation#simulations)), $j$ must coincide with the isomorphism $i^{-1}$, which is onto. This means $I$, as an order-type, is order-isomorphic to a well-ordered set $I_x$ for some $x \in I$, say by $\phi: I_x \cong I$. Again, by uniqueness of initial segment inclusions, $\phi$ coincides with the inclusion $I_x \hookrightarrow I$, so this inclusion is onto and so $I_x = I$. This in turn implies $x \lt x$, a contradiction. 
+which takes $x \in I$ to (the order type of) $I_x = \{y \in I: y \lt x\}$. Since there can be at most one initial segment inclusion between well-orders (cf. [simulation](https://ncatlab.org/nlab/show/well-founded+relation#simulations)), $j$ must coincide with the isomorphism $i^{-1}$, which is onto. This means $I$, representing its isomorphism class $[I] \in \aleph(S)$, is order-isomorphic to a well-ordered set $I_x$ for some $x \in I$, say by $\phi: I_x \cong I$. Again, by uniqueness of initial segment inclusions, $\phi$ coincides with the inclusion $I_x \hookrightarrow I$, so this inclusion is onto and so $I_x = I$. This in turn implies $x \lt x$, a contradiction. 
 =-- 
 
 According to this theorem, using the usual ordering of cardinal numbers, $\kappa^+ \nleq \kappa$.  So if this $\leq$ is a [[total order]] (a statement equivalent to the [[axiom of choice]]), we can say that $\kappa^+ \gt \kappa$.
@@ -63,7 +63,7 @@ Even without choice, however, we can say this:  If $\alpha$ is an ordinal number
 
 +-- {: .proof} 
 ###### Proof
-Define a relation $R$ from $\kappa^+$ to $\alpha$ where $x R y$ if $\kappa_x^+$ and $\alpha_y$ are isomorphic as well-ordered sets. Then $R$ defines a monic partial function whose domain $\dom(R)$ is an initial segment of $\kappa^+$. If $\dom(R) = \kappa^+$, then $R$ witnesses $\kappa^+ \leq \alpha$. Otherwise there is a least $x$ such that the restriction of $R$ to $\kappa_x^+$ has no upper bound in $\alpha$. By downward closure, it follows that $R$ is onto, hence $R^{op}$ witnesses $\alpha \leq \kappa_x^+$, where the codomain is isomorphic to a well-ordered subset of $\kappa$ by definition of $\kappa^+$, and contradicting $|\alpha| \nleq \kappa$. 
+Define a relation $R$ from $\kappa^+$ to $\alpha$ where $x R y$ if $\kappa_x^+$ and $\alpha_y$ are isomorphic as well-ordered sets. Then $R$ defines a monic partial function whose domain $\dom(R)$ is an initial segment of $\kappa^+$. If $\dom(R) = \kappa^+$, then $R$ witnesses $\kappa^+ \leq \alpha$. Otherwise there is a least $x$ such that the restriction of $R$ to $\kappa_x^+$ has no upper bound in $\alpha$ (implying $\dom(R) = \kappa_x^+$). By downward closure, it follows that $R$ is onto, hence $R^{op}$ witnesses $\alpha \leq \kappa_x^+$, where the codomain is isomorphic to a well-ordered subset of $\kappa$ by definition of $\kappa^+$, and contradicting $|\alpha| \nleq \kappa$. 
 =-- 
 
 The axiom of choice also implies the well-ordering theorem, that any set can be well-ordered.  Thus with choice, $\kappa^+$ is (now as a cardinal again) the smallest cardinal number greater than $\kappa$; this explains the notation $\kappa^+$. 
