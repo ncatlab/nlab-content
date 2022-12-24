@@ -11,4 +11,6 @@ On a proposal for a [[formal logic|logical formalization]] of [[Hegel|Hegelian]]
 
 * {#Petersen09} [[Uwe Petersen]], *35 Thesen zur Grundlegung einer formalen dialektischen Logik — nebst Kommentaren*, DILEMMATA: Jahrbuch der ASFPG **4** (2009) 125–207 &lbrack;[pdf](https://asfpg.de/english/17303/Jahrbuecher/JB09/jb09-petersen.pdf)&rbrack;
 
+* [[Uwe Petersen]], _Logic Without Contraction as Based on Inclusion and Unrestricted Abstraction_, Studia Logica 64, 365–403 (2000). [doi:10.1023/A:1005293713265](https://doi.org/10.1023/A:1005293713265)
+
 category: people
