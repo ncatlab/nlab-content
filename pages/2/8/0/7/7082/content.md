@@ -82,72 +82,67 @@ By the [[type theoretic axiom of replacement]], the image of $R$ is $\mathcal{U}
 One could also forego universes entirely and make this definition into rules of the type theory, as follows:
 
 Formation rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
-
-Reflection rule for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:A \simeq B \; \mathrm{type}}{\Gamma, x:A, y:B \vdash \mathcal{T}(R)(x, y) \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, y:B \vdash \mathcal{T}(R, x, y) \; \mathrm{type}}$$
 
 Totality rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \lambda(R)(y):\sum_{x:A} \mathcal{T}(R)(x, y)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \lambda(R, y):A} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \lambda_\tau(R, y):\mathcal{T}(R, \lambda(R, y), y)}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \rho(R)(x):\sum_{y:B} \mathcal{T}(R)(x, y)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \rho(R, x):B} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \rho_\tau(R, x):\mathcal{T}(R, x, \rho(R, x))}$$
 
 Uniqueness rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, u:\sum_{x:A} \mathcal{T}(R)(x, y) \vdash \eta_\lambda(R)(y)(u):\lambda_\tau(R)(y) =_{\sum_{x:A} \mathcal{T}(R)(x, y)} u}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A, u:\mathcal{T}(R, x, y) \vdash \eta_\lambda(R, y, x, u):(\lambda(R, y), \lambda_\tau(R, y)) =_{\sum_{x:A} \mathcal{T}(R, x, y)} (x, u)}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, u:\sum_{y:B} \mathcal{T}(R)(x, y) \vdash \eta_\rho(R)(x)(u):\rho_\tau(R)(x) =_{\sum_{y:B} \mathcal{T}(R)(x, y)} u}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, y:B, u:\mathcal{T}(R, x, y) \vdash \eta_\rho(R, x, y, u):(\rho(R, x), \rho_\tau(R, x)) =_{\sum_{y:B} \mathcal{T}(R, x, y)} (y, u)}$$
 
 This is valid so long as the dependent type theory has [[identity types]] and [[dependent sum types]]. By the [[principle of unique choice]], one could derive functions $f:A \to B$ and $g:B \to A$ given an equivalence $R:A \simeq B$, which are [[coherent inverse functions]] of each other and have [[contractible]] [[fibers]] each. 
 
 The identity equivalence on a type $A$ is defined as an equivalence $\mathrm{id}_A:A \simeq A$ such that for all elements $a:A$ and $b:A$,
 
-$$\mathcal{T}(\mathrm{id}_A)(a, b) \coloneqq (a =_A b)$$
+$$\mathcal{T}(\mathrm{id}_A, a, b) \coloneqq (a =_A b)$$
 
 Given an equivalence $R:A \simeq B$, the inverse equivalence of $R$ is an equivalence $R^{-1}:B \simeq A$ such that for all elements $a:A$ and $b:B$,
 
-$$\mathcal{T}(R^{-1})(b, a) \coloneqq \mathcal{T}(R)(a, b)$$
+$$\mathcal{T}(R^{-1}, b, a) \coloneqq \mathcal{T}(R)(a, b)$$
 
 Given equivalences $R:A \simeq B$ and $S:B \simeq C$, the composite of $R$ and $S$ is an equivalence $S \circ R:A \simeq C$ such that for all elements $a:A$ and $c:C$,
 
-$$\mathcal{T}(S \circ R)(a, c) \coloneqq \sum_{b:B} \mathcal{T}(R)(a, b) \times \mathcal{T}(S)(b, c)$$
-
-### Rules for hasContrFibers
-
-In any [[dependent type theory]] with [[identity types]], [[function types]], [[fiber types]], and [[isContr]] defined either through [[isProp]] or [[contraction types]], all of which could be defined without [[dependent product types]] or [[dependent sum types]], we can still define hasContrFibers by adding the formation, introduction, elimination, computation, and uniqueness rules for hasContrFibers
-
-Formation rules for hasContrFibers types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B, y:B \vdash \mathrm{isContr}(\mathrm{fiber}_{A, B}(f, y)) \; \mathrm{type}}{\Gamma \vdash \mathrm{hasContrFibers}_{A, B}(f) \; \mathrm{type}}$$
-
-Introduction rules for hasContrFibers types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B, y:B \vdash b(y):\mathrm{isContr}(\mathrm{fiber}_{A, B}(f, y))}{\Gamma, f:A \to B \vdash \lambda x.b(x):\mathrm{hasContrFibers}_{A, B}(f)}$$
-
-Elimination rules for hasContrFibers types:
-$$\frac{\Gamma, f:A \to B \vdash p:\mathrm{hasContrFibers}_{A, B}(f) \quad \Gamma \vdash c:B}{\Gamma, f:A \to B \vdash p(a):\mathrm{hasContrFibers}_{A, B}(f)(c)}$$
-
-Computation rules for hasContrFibers types:
-$$\frac{\Gamma, f:A \to B, y:B \vdash b(y):\mathrm{isContr}(\mathrm{fiber}_{A, B}(f, y)) \quad \Gamma \vdash c:B}{\Gamma, f:A \to B \vdash \beta_\mathrm{hasContrFibers}:\lambda x.b(x)(c) =_{\mathrm{isContr}(\mathrm{fiber}_{A, B}(f, c))} b(c)}$$
-
-Uniqueness rules for hasContrFibers types:
-$$\frac{\Gamma, f:A \to B \vdash p:\mathrm{hasContrFibers}_{A, B}(f)}{\Gamma, f:A \to B \vdash \eta_\mathrm{hasContrFibers}:p =_{\mathrm{hasContrFibers}_{A, B}(f)} \lambda(x).p(x)}$$
+$$\mathcal{T}(S \circ R, a, c) \coloneqq \sum_{b:B} \mathcal{T}(R, a, b) \times \mathcal{T}(S, b, c)$$
 
 ### Rules for equivalence types
 
-We work in a [[dependent type theory]] with [[identity types]], [[function types]], and some set of rules for isEquiv defined above which does not require [[dependent product types]] or [[dependent sum types]]. The type of equivalences $A \simeq B$ is given by the following rules:
+These are similar to the rules for one-to-one correspondences, but use pairs of [[quasi-inverse functions]] each with [[contractible]] [[fibers]], rather than one-to-one correspondences. 
 
 Formation rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \vdash \mathrm{isEquiv}(f) \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
 
-Introduction rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \vdash p(f):\mathrm{isEquiv}(f) \quad \Gamma \vdash g:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}[g/f]}{\Gamma \vdash (g, p):A \simeq B}$$
+Quasi-inverse rules for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \lambda(R, y):A} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \rho(R, x):B}$$ 
 
-Elimination rules for equivalence types:
-$$\frac{\Gamma \vdash h:A \simeq B}{\Gamma \vdash \pi_1(h):A \to B} \qquad \frac{\Gamma \vdash h:A \simeq B}{\Gamma \vdash \pi_2(h):\mathrm{isEquiv}(\pi_1(h))}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \lambda_\tau(R, y):\rho(R, \lambda(R, y)) =_B y}$$
 
-Computation rules for equivalence types:
-$$\frac{\Gamma, f:A \to B \vdash p(f):\mathrm{isEquiv}(f) \quad \Gamma \vdash g:A \to B}{\Gamma \vdash \beta_{\simeq 1}:\pi_1(g, p) =_{A \to B} g} \qquad \frac{\Gamma, f:A \to B \vdash p:\mathrm{isEquiv} \quad \Gamma \vdash g:A \to B}{\Gamma \vdash \beta_{\simeq 2}:\pi_2(g, p) =_{\mathrm{isEquiv}(\pi_1(g, p))} p}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \rho_\tau(R, x):\lambda(R, \rho(R, x)) =_A x}$$
 
 Uniqueness rules for equivalence types:
-$$\frac{\Gamma \vdash h:A \simeq B}{\Gamma \vdash \eta_\simeq:h =_{A \simeq B} (\pi_1(h), \pi_2(h))}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A, u:\rho(R, x) =_B y \vdash \eta_\lambda(R, y, x, u):(\lambda(R, y), \lambda_\tau(R, y)) =_{\sum_{x:A} \rho(R, x) =_B y} (x, u)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, y:B, u:\tau(R, y) =_A x \vdash \eta_\rho(R, x, y, u):(\rho(R, x), \rho_\tau(R, x)) =_{\sum_{y:B} \lambda(R, y) =_A x} (y, u)}$$
+
+This is valid so long as the dependent type theory has [[identity types]] and [[dependent sum types]]. 
+
+The identity equivalence on a type $A$ is defined as an equivalence $\mathrm{id}_A:A \simeq A$ such that for all elements $a:A$,
+
+$$\lambda(\mathrm{id}_A, a) \coloneqq a$$
+$$\rho(\mathrm{id}_A, a) \coloneqq a$$
+
+Given an equivalence $R:A \simeq B$, the inverse equivalence of $R$ is an equivalence $R^{-1}:B \simeq A$ such that for all elements $a:A$ and $b:B$,
+
+$$\rho(R^{-1}, a) \coloneqq \lambda(R, a)$$
+$$\lambda(R^{-1}, b) \coloneqq \rho(R, b)$$
+
+Given equivalences $R:A \simeq B$ and $S:B \simeq C$, the composite of $R$ and $S$ is an equivalence $S \circ R:A \simeq C$ such that for all elements $a:A$ and $c:C$,
+
+$$\lambda(S \circ R, a) \coloneqq \lambda(S, \lambda(R, a))$$
+$$\rho(S \circ R, c) \coloneqq \rho(R, \rho(S, c))$$
 
 ### Coinductive definition
 
