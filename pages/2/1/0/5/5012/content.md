@@ -1,6 +1,6 @@
 
-* [webpage](http://www.math.jussieu.fr/~leila)
-* [articles](http://www.math.jussieu.fr/~leila/articles.html)
+* [webpage](https://webusers.imj-prg.fr/~leila.schneps/)
+* [articles](https://webusers.imj-prg.fr/~leila.schneps/articles.html)
 * [wikipedia](https://en.wikipedia.org/wiki/Leila_Schneps)
 
 ## Selected writings
@@ -17,7 +17,7 @@ On sensitivity of mathematics in law
 
 On [[Hodge theory]]:
 
-* {#Voisin02} [[Claire Voisin]] (translated bei [[Leila Schneps]]), _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3 ([doi:10.1017/CBO9780511615344](https://doi.org/10.1017/CBO9780511615344))
+* {#Voisin02} [[Claire Voisin]] (translated by [[Leila Schneps]]), _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3 ([doi:10.1017/CBO9780511615344](https://doi.org/10.1017/CBO9780511615344))
 
 category: people
 
