@@ -71,6 +71,12 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{t
 
 Given a [[pointed type|pointed]] [[h-proposition]] $(A, a)$, the negative dependent sum type results in $\pi_2(a,-)$ being a [[quasi-inverse function]] of $\mathrm{in}(a,-)$, rather than an [[equivalence of types]]. Thus, the positive definition is preferred to the negative definition. Alternatively, the negative dependent sum type should be defined as a [[coinductive type]] rather than an [[inductive type]]. 
 
+#### Extensionality principle
+
+The extensionality principle for the dependent sum type states that there is an [[equivalence of types]] between the types $(a, b) =_{\sum_{x:A} B(x)} (a', b')$ and $\sum_{p:a =_A a'} b =_B^p b'$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a) \quad \Gamma \vdash a':A \quad \Gamma \vdash b':B(a')}{\Gamma \vdash \mathrm{ext}_{\Sigma}(a, b, a', b'):(a, b) =_{\sum_{x:A} B(x)} (a', b') \simeq \sum_{p:a =_A a'} b =_B^p b'}$$
+
 ### In lambda-calculus
 
 The presentation of dependent sum type is almost exactly the same as that of [[product types]], with the simple change that $B$ may depend on $A$.  In particular, they can be presented both as a [[negative type]] or as a [[positive type]].  In both cases, the rule for building the dependent sum type is the same:
