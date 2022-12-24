@@ -54,7 +54,7 @@ As observed before, $\aleph(S)$ is well-ordered. Suppose there were an injection
 
 $$j: I \hookrightarrow \aleph(S)$$ 
 
-which takes $x \in I$ to (the order type of) $\{y \in I: y \lt x\}$. Since there can be at most one initial segment inclusion between well-orders (cf. [simulation](https://ncatlab.org/nlab/show/well-founded+relation#simulations)), $j$ must coincide with the isomorphism $i^{-1}$, which is onto. This means $I$ itself, as an order type, must be of the form $I = \{y \in I: y \lt x\}$ for some $x \in I$, which in turn implies $x \lt x$, a contradiction. 
+which takes $x \in I$ to (the order type of) $I_x = \{y \in I: y \lt x\}$. Since there can be at most one initial segment inclusion between well-orders (cf. [simulation](https://ncatlab.org/nlab/show/well-founded+relation#simulations)), $j$ must coincide with the isomorphism $i^{-1}$, which is onto. This means $I$, as an order-type, is order-isomorphic to a well-ordered set $I_x$ for some $x \in I$, say by $\phi: I_x \cong I$. Again, by uniqueness of initial segment inclusions, $\phi$ coincides with the inclusion $I_x \hookrightarrow I$, so this inclusion is onto and so $I_x = I$. This in turn implies $x \lt x$, a contradiction. 
 =-- 
 
 According to this theorem, using the usual ordering of cardinal numbers, $\kappa^+ \nleq \kappa$.  So if this $\leq$ is a [[total order]] (a statement equivalent to the [[axiom of choice]]), we can say that $\kappa^+ \gt \kappa$.
