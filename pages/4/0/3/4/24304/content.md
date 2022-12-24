@@ -1,6 +1,8 @@
 
 * [personal page](https://michaelnielsen.org/)
 
+* [blog](https://michaelnielsen.org/blog/)
+
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Michael_Nielsen)
 
 ## Selected writings
