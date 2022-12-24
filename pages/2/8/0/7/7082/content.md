@@ -99,6 +99,18 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}
 
 This is valid so long as the dependent type theory has [[identity types]] and [[dependent sum types]]. By the [[principle of unique choice]], one could derive functions $f:A \to B$ and $g:B \to A$ given an equivalence $R:A \simeq B$, which are [[coherent inverse functions]] of each other and have [[contractible]] [[fibers]] each. 
 
+The identity equivalence on a type $A$ is defined as an equivalence $\mathrm{id}_A:A \simeq A$ such that for all elements $a:A$ and $b:A$,
+
+$$\mathcal{T}(\mathrm{id}_A)(a, b) \coloneqq (a =_A b)$$
+
+Given an equivalence $R:A \simeq B$, the inverse equivalence of $R$ is an equivalence $R^{-1}:B \simeq A$ such that for all elements $a:A$ and $b:B$,
+
+$$\mathcal{T}(R^{-1})(b, a) \coloneqq \mathcal{T}(R)(a, b)$$
+
+Given equivalences $R:A \simeq B$ and $S:B \simeq C$, the composite of $R$ and $S$ is an equivalence $S \circ R:A \simeq C$ such that for all elements $a:A$ and $c:C$,
+
+$$\mathcal{T}(S \circ R)(a, c) \coloneqq \sum_{b:B} \mathcal{T}(R)(a, b) \times \mathcal{T}(S)(b, c)$$
+
 ### Rules for hasContrFibers
 
 In any [[dependent type theory]] with [[identity types]], [[function types]], [[fiber types]], and [[isContr]] defined either through [[isProp]] or [[contraction types]], all of which could be defined without [[dependent product types]] or [[dependent sum types]], we can still define hasContrFibers by adding the formation, introduction, elimination, computation, and uniqueness rules for hasContrFibers
