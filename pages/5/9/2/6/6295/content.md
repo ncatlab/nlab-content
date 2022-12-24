@@ -92,16 +92,16 @@ Specifically, starting with a Jordan--Lie algebra or $JLB$-algebra $A$ (possibly
 * addition: $(a + \mathrm{i} b) + (c + \mathrm{i} d) \coloneqq (a + c) + \mathrm{i} (b + d)$,
 * opposite: $-(a + \mathrm{i} b) \coloneqq (-a) + \mathrm{i} (-b)$ (which we write as $-a - \mathrm{i} b$ as usual),
 * zero: $0 \coloneqq 0 + \mathrm{i} 0$,
-* scalar multiplication: $(x + \mathrm{i} y) (a + \mathrm{i} b) = (x a - y b) + \mathrm{i} (x b + y a)$ (for $x + \mathrm{i} y$ a scalar in $K[i]$),
+* scalar multiplication: $(x + \mathrm{i} y) (a + \mathrm{i} b) = (x a - y b) + \mathrm{i} (x b + y a)$ (for $x + \mathrm{i} y$ a scalar in $K[\mathrm{i}]$),
 * involution: $(a + \mathrm{i} b)^* \coloneqq a + \mathrm{i} (-b) = a - \mathrm{i} b$,
 * multiplication: $(a + \mathrm{i} b) (c + \mathrm{i} d) \coloneqq (a \circ c + q [a, d] + q [b, c] - b \circ d) + \mathrm{i} (-q [a, c] + a \circ d + b \circ c + q [b, d])$,
 * unit (in the unital case): $1 \coloneqq 1 + \mathrm{i} 0$.
 
-This makes $A + \mathrm{i} A$ into an associative $*$-[[star-algebra|algebra]] over $K[i] := K[\mathrm{x}]/\lang\!\lang\mathrm{x}^2 + 1\rang\!\rang$ (which is a proper extension of $K$, and a field if $K$ is, because $K$ is formally real).  If $A$ is a $JLB$-algebra, then $A + \mathrm{i} A$ becomes a $C^*$-algebra; if $A$ is a $JLBW$-algebra, then $A + \mathrm{i} A$ becomes a von Neumann algebra.
+This makes $A + \mathrm{i} A$ into an associative $*$-[[star-algebra|algebra]] over $K[\mathrm{i}] \coloneqq K[\mathrm{x}]/\lang\!\lang\mathrm{x}^2 + 1\rang\!\rang$ (which is a proper extension of $K$, and a field if $K$ is, because $K$ is formally real).  If $A$ is a $JLB$-algebra, then $A + \mathrm{i} A$ becomes a $C^*$-algebra; if $A$ is a $JLBW$-algebra, then $A + \mathrm{i} A$ becomes a von Neumann algebra.
 
 The intermediate Jordan--Lie--Banach case doesn\'t seem to work.  For one thing, if we allow the Lie bracket to be unbounded (except when $q = 0$ so that it is irrelevant), then we might not be able to define multiplication everywhere.  Even assuming that the Lie bracket is bounded (at least when $q \ne 0$), it\'s not clear how to define the norm in this case.  (For $C^*$-algebras, in contrast, there is no need to define the norm explicitly, since it is determined by the algebraic structure.)
 
-Conversely, starting with a $*$-algebra $A$ (possibly unital, possibly a Banach $*$-algebra) over $K[i]$ and an *invertible* scalar $q$, and assuming that $2$ is invertible in $K$, we form the subspace $sa(A) = \{x\colon A \;|\; x^* = x\}$, on which we define the following operations (under each of which $sa(A)$ is closed):
+Conversely, starting with a $*$-algebra $A$ (possibly unital, possibly a Banach $*$-algebra) over $K[\mathrm{i}]$ and an *invertible* scalar $q$, and assuming that $2$ is invertible in $K$, we form the subspace $sa(A) = \{x\colon A \;|\; x^* = x\}$, on which we define the following operations (under each of which $sa(A)$ is closed):
 
 * addition, opposite, zero, scalar multiplication (by scalars in $K$), unit (in the unital case): by [[restriction]],
 * Jordan product: $a \circ b \coloneqq \frac{1}{2} a b + \frac{1}{2} b a$,
