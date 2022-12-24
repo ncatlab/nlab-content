@@ -21,7 +21,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -46,7 +45,7 @@ In fact, the theorem holds in the generality of [[SU(n)|$SU(d)$]], $d \in \mathb
 
 Regarding the practical relevance, it has been argued &lbrack;[MO:a/22197](https://quantumcomputing.stackexchange.com/a/22197/19363)&rbrack; that [[quantum computing]]-hardware such as based on [[superconductors]] will already allow to approximate any operation on a "physical qbit" by a single [[quantum gate]], but that for such hardware the Solovay-Kitaev theorem is still relevant on the level of "[[logical qbits]]", i.e. taking [[quantum error correction]] into account.
 
-Similarly, in [[topological quantum computation]] the available set of basic [[anyon]] [[braiding|braid gates]] is highly constrained and the Solovay-Kitaev algorithm is used for "topological quantum compilation" (e.g. [Bonesteel, Hormozi, Zikos & Simon (2005)](#BonesteelHormoziZikosSimon05), [Hormozi, Zikos, Bonesteel & Simon (2007)](#HormoziZikosBonesteelSimon07))
+Similarly, in [[topological quantum computation]] the available set of basic [[anyon]] [[braiding|braid gates]] is highly constrained and the Solovay-Kitaev algorithm is used for "topological quantum compilation" (e.g. [Bonesteel, Hormozi, Zikos & Simon (2005)](#BonesteelHormoziZikosSimon05), [Hormozi, Zikos, Bonesteel & Simon (2007)](#HormoziZikosBonesteelSimon07), [Hormozi, Bonesteel & Simon (2009)](#HormoziBonesteelSimon09))
 
 
 
@@ -95,8 +94,9 @@ Discussion of the Solovay-Kitaev theorem in the context of [[topological quantum
 
 * {#BonesteelHormoziZikosSimon05} [[Nicholas E. Bonesteel]], [[Layla Hormozi]], [[Georgios Zikos]], [[Steven H. Simon]], *Braid Topologies for Quantum Computation*, Phys. Rev. Lett. **95** 140503 (2005) $[$[arXiv:quant-ph/0505065](https://arxiv.org/abs/quant-ph/0505065), [doi:10.1103/PhysRevLett.95.140503](https://doi.org/10.1103/PhysRevLett.95.140503)$]$
 
-
 * {#HormoziZikosBonesteelSimon07} [[Layla Hormozi]], [[Georgios Zikos]], [[Nicholas E. Bonesteel]], [[Steven H. Simon]], *Topological Quantum Compiling*, Phys. Rev. B **75** 165310 (2007) &lbrack;[arXiv:quant-ph/0610111](https://arxiv.org/abs/quant-ph/0610111), [doi:10.1103/PhysRevB.75.165310](https://doi.org/10.1103/PhysRevB.75.165310)&rbrack;
+
+* {#HormoziBonesteelSimon09} [[Layla Hormozi]], [[Nicholas E. Bonesteel]], [[Steven H. Simon]], *Topological Quantum Computing with Read-Rezayi States*, Phys. Rev. Lett. **103** 160501 (2009) &lbrack;[doi:10.1103/PhysRevLett.103.160501](https://doi.org/10.1103/PhysRevLett.103.160501), [arXiv:0903.2239](https://arxiv.org/abs/0903.2239)&rbrack;
 
 
 * [[Joren W. Brunekreef]], *Topological Quantum Computation and Quantum Compilation*, Utrecht (2014) &lbrack;[studenttheses.uu.nl:20.500.12932/17738](https://studenttheses.uu.nl/handle/20.500.12932/17738)&rbrack;
