@@ -8,7 +8,6 @@ The physical existence of the [[Home Page|nLab]] is funded by donations (see [be
 The nLab's [[nlabmeta:technical board]] decides about how to use these funds for paying server rent and sysadmin services (see [further below](#Expenditures)).
 
 
-
 \section{Donate!}
   {#Donate}
 
@@ -39,7 +38,7 @@ Thanks for your support!
 
 As of 05 May 2022 the funds available to the nLab due to donations are 
 
-* USD 7280.59 .
+* 7280.59 USD .
 
 
 
@@ -47,16 +46,18 @@ As of 05 May 2022 the funds available to the nLab due to donations are
 \section{Expenditures}
  {#Expenditures}
 
-The [[nlabmeta:technical board]] has decided to put these funds to use for the following tasks:
+Since then we have spent:
 
-1. Starting in July 2022 we have hired a sysadmin on a basis of
+* 3 $\times$ 400 USD
 
-   * USD 400 / month .
+  on payment of a temporary sysadmin.
 
-1. We are still in the process of migrating the nLab installation to a new server. (The server we have been running on -- which had been kindly donated to us -- was sunsetted already $\ 2$ years ago, and we had been urged to migrate already then.) We have meanwhile been offered a new server for free, again (and a million and more thanks are due to the people who make this work), but actually performing the migration to the new server is a non-trivial task. This is now underway in a joint effort of some nLab technical team members and an IT company. The total costs are not in yet but should amount to
+* 504 EUR
 
-   * $\sim$ EUR 4000 .
+  paying a software company to help with the server migration.
 
+
+The full expected cost of (at least) $\sim$ 4000 EUR was saved, since the enlarged [[nlabmeta:technical board|technical team]] kindly took care of the necessary server migration themselves.
 
   
 
