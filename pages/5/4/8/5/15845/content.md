@@ -5,7 +5,7 @@
 
 ## Idea
 
-It can be nice to describe the [[kinematics]] of a [[quantum system]] using a [[JBW-algebra]].  (Then some extra structure is needed for [[dynamics]].)
+It can be nice to describe the [[kinematics]] of a [[quantum system]] using a [[JBW-algebra]].  (Then some extra structure is needed for [[dynamics]]; see [below] (#dynamics).)
 
 
 ## Motivation
@@ -22,7 +22,7 @@ Then we may further refine from $C^*$-algebras to $W^*$-[[W*-algebra|algebras]].
 
 There is, however, an objection to all of these algebras of observables, which is that they have many elements that are not observable.  Only the [[self-adjoint elements]] of these algebras are considered to be observable.  (Even if we allow for complex-valued observables, only the [[normal element]]s can be observables.)  By themselves, the self-adjoint operators form a [[Jordan algebra]].  Instead of recovering the classical case when the algebra of operators is [[commutative algebra|commutative]], we recover it when the Jordan algebra of self-adjoint operators is [[associative algebra|associative]] (and specifically we get the classical algebra of real-valued observables immediately).  Thus, the algebra of observables is a Jordan algebra, even if it is viewed as embedded within a larger algebra.
 
-The analytic structure on a Jordan algebra that makes it the algebra of self-adjoint elements in a $W^*$-algebra is captured in the definition of a [[JW-algebra]] (Jordan $W$-algebra, which may be read as a Jordan $W^*$-algebra with trivial [[involution]]) or [[JBW-algebra]] (Jordan--Banach $W$-algebra, which allows exceptional cases such as the [[Albert algebra]]).  This is a loss of [[extra structure|structure]] from the full $W^*$-algebra; in fact, a complex $W^*$-algebra can be recovered from a $JBW$-algebra by giving it an additional compatible [[Lie algebra]] structure, making it into a [[JLBW-algebra]], which (as explained there) is equivalent to a complex $W^*$-algebra.  However, the $JBW$-algebra already identifies the observables and the states, so it is a sufficient place to start from.
+The analytic structure on a Jordan algebra that makes it the algebra of self-adjoint elements in a $W^*$-algebra is captured in the definition of a [[JW-algebra]] (Jordan $W$-algebra, which may be read as a Jordan $W^*$-algebra with trivial [[involution]]) or [[JBW-algebra]] (Jordan--Banach $W$-algebra, which allows exceptional cases such as the [[Albert algebra]]).  This is a loss of [[extra structure|structure]] from the full $W^*$-algebra; in fact, a complex $W^*$-algebra can be recovered from a $JBW$-algebra by giving it an additional compatible [[Lie algebra]] structure, making it into a [[JLBW-algebra]], which (as explained there) is equivalent to a complex $W^*$-algebra.  However, the $JBW$-algebra already identifies what the observables and states are, so it is a sufficient place to start from.
 
 
 ## Description
@@ -53,7 +53,7 @@ We might also want to consider generalized (non-normal) [[state on an operator a
 In particular, if $A$ is the space of [[bounded operators|bounded]] [[self-adjoint operators]] on some [[Hilbert space]] $H$, then $A_*$ is the space of [[trace-class operator|trace-class]] self-adjoint operators on $H$.  Then a normal state is a [[density matrix]], and the pure states (those that cannot be written as nontrivial [[convex combinations]] of other states) are those of the form ${|\psi\rangle \langle\psi|}$ for $\psi$ a unit vector in $H$.
 
 
-## Dynamics
+## Dynamics {#dynamics}
 
 We can add [[dynamics]] by giving the $JBW$-algebra the structure of a [[pointed object|pointed]] [[JLBW-algebra]], that is by defining a kind of [[commutator]] (the 'L') and identifying one of the operators in the algebra as the [[Hamiltonian]] (the 'pointed').  This is mathematically equivalent to a [[complex numbers|complex]] $W^*$-[[W*-algebra|algebra]] equipped with a [[self-adjoint element]].
 
