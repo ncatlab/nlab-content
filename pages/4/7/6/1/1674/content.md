@@ -59,7 +59,12 @@ which takes $x \in I$ to (the order type of) $I_x = \{y \in I: y \lt x\}$. Since
 
 According to this theorem, using the usual ordering of cardinal numbers, $\kappa^+ \nleq \kappa$.  So if this $\leq$ is a [[total order]] (a statement equivalent to the [[axiom of choice]]), we can say that $\kappa^+ \gt \kappa$.
 
-Even without choice, however, we can say this:  If $\alpha$ is an ordinal number such that $|\alpha| \nleq \kappa$, then $\kappa^+ \leq \alpha$.  (Notice that we\'ve shifted our thinking of the Hartogs number from a cardinal to an ordinal.)  That is, $\kappa^+$ is the smallest ordinal number whose cardinal number is not at most $\kappa$.  This doesn\'t use any form of choice except for [[excluded middle]]; we only need choice to conclude that $|\kappa^+| \gt \kappa$.
+Even without choice, however, we can say this:  If $\alpha$ is an ordinal number such that $|\alpha| \nleq \kappa$, then $\kappa^+ \leq \alpha$.  (Notice that we\'ve shifted our thinking of the Hartogs number from a cardinal to an ordinal.)  That is, $\kappa^+$ is the smallest ordinal number whose cardinal number is not at most $\kappa$.  This doesn\'t use any form of choice except for [[excluded middle]]; we only need choice to conclude that $|\kappa^+| \gt \kappa$. 
+
++-- {: .proof} 
+###### Proof
+Define a relation $R$ from $\kappa^+$ to $\alpha$ where $x R y$ if $\kappa_x^+$ and $\alpha_y$ are isomorphic as well-ordered sets. Then $R$ defines a monic partial function whose domain $\dom(R)$ is an initial segment of $\kappa^+$. If $\dom(R) = \kappa^+$, then $R$ witnesses $\kappa^+ \leq \alpha$. Otherwise there is a least $x$ such that the restriction of $R$ to $\kappa_x^+$ has no upper bound in $\alpha$. By downward closure, it follows that $R$ is onto, hence $R^{op}$ witnesses $\alpha \leq \kappa_x^+$, where the codomain is isomorphic to a well-ordered subset of $\kappa$ by definition of $\kappa^+$, and contradicting $|\alpha| \nleq \kappa$. 
+=-- 
 
 The axiom of choice also implies the well-ordering theorem, that any set can be well-ordered.  Thus with choice, $\kappa^+$ is (now as a cardinal again) the smallest cardinal number greater than $\kappa$; this explains the notation $\kappa^+$. 
 
