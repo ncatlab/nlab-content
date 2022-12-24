@@ -1,5 +1,5 @@
 
-* [Jim Stasheff's home page](http://www.math.unc.edu/Faculty/jds/)
+* [Jim Stasheff's home page](https://www2.math.upenn.edu/~jds/)
 
 * interview by [[Kathryn Hess]]: [video](https://www.youtube.com
 /watch?v=K8kPS6FZBoc&feature=youtu.be)
