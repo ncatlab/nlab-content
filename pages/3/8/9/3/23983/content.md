@@ -19,9 +19,30 @@ In [[dependent type theory]], given a [[type]] $A$, a [[type family]] $x:A \vdas
 
 The terms of a dependent identity types are **dependent identifications** or **heterogeneous identifications**.
 
-## Definition in Martin-Löf type theory
+## Definitions
 
-One way to define the dependent identity type in [[Martin-Löf type theory]] is by using [[transport]] along the identification $p$:
+### Rules for dependent identity types
+
+The rules for dependent identity types are given below as:
+
+Formation rule for dependent identity types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, a:A \vdash B(a) \; \mathrm{type}}{\Gamma, a:A, b:A, p:a =_A b, x:B(a), y:B(b) \vdash x =_B^p y \; \mathrm{type}}$$ 
+
+Introduction rule for dependent identity types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, a:A \vdash B(a) \; \mathrm{type}}{\Gamma, a:A, x:B(a) \vdash \mathrm{refl}_{B(a)}(X):x =_B^{\mathrm{refl}_A} x}$$ 
+
+Elimination rule for dependent identity types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, a:A \vdash B(a) \; \mathrm{type} \quad \Gamma, a:A, b:A, p:a =_A b, x:B(a), y:B(b), q:x =_B^p y \vdash C(a, b, p, x, y, q) \; \mathrm{type} \quad \Gamma, a:A, c:B(a) \vdash t:C(a, a, \mathrm{refl}_A(a), c, c, \mathrm{refl}_{B(a)})}{\Gamma, a:A, b:B, p:a =_A b, x:B(b), y:B(b), q:x =_B^p y \vdash J(t, a, b, p, x, y, q):C(a, b, p, x, y, q)}$$
+
+Computation rules for dependent identity types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, a:A \vdash B(a) \; \mathrm{type} \quad \Gamma, a:A, b:A, p:a =_A b, x:B(a), y:B(b), q:x =_B^p y \vdash C(a, b, p, x, y, q) \; \mathrm{type} \quad \Gamma, a:A, c:B(a) \vdash t:C(a, a, \mathrm{refl}_A(a), c, c, \mathrm{refl}_{B(a)})}{\Gamma, a:A, x:B(a) \vdash \beta_{=_B}(x):J(t, a, a, \mathrm{refl}_A(a), x, x, \mathrm{refl}_{B(a)}(x)) =_{C(a, a, \mathrm{refl}_A(a), c, c, \mathrm{refl}_{B(a)})} t}$$
+
+Optional uniqueness rules for dependent identity types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, a:A \vdash B(a) \; \mathrm{type}}{\Gamma, a:A, x:B(a), p:x =_B^{\mathrm{refl}_A(a)} x \vdash K(a, x, p):p =_{x =_B^{\mathrm{refl}_A(a)} x} refl_{B(a)}(x)}$$
+
+### As transport along an identity
+
+Another way to define the dependent identity type is by using [[transport]] along the identification $p$:
 
 $$
   (a =_B^p b) 
@@ -34,9 +55,7 @@ $$
   \,.
 $$ 
 
-There are also other possibilities...
-
-## Definition in higher observational type theory 
+### Definition in higher observational type theory 
 
 In [[higher observational type theory]], the dependent identity type is a primitive type former (although depending on the presentation, it can also be obtained using $ap$ into the universe).  In its general form, the type family can depend not just on a single type but on a [[type telescope]] $\Delta$.  The resulting dependent identity type then depends on an "identification in that telescope", which is defined by mutual recursion as a telescope of dependent identity types.  The [[type formation|formation rule]] is then
 
@@ -44,7 +63,7 @@ $$\frac{\varsigma:\delta =_\Delta \delta^{'} \quad \delta \vdash A\; \mathrm{typ
 
 ... needs to be finished
 
-### Dependent identity types in universes ###
+#### Dependent identity types in universes
 
 Given a term of a universe $A:\mathcal{U}$, a judgment $z:\mathcal{T}_\mathcal{U}(A) \vdash B:\mathcal{U}$, terms $x:\mathcal{T}_\mathcal{U}(A)$ and $y:\mathcal{T}_\mathcal{U}(A)$, and an identity $p:\mathrm{id}_{\mathcal{T}_\mathcal{U}(A)}(x,y)$, we have
 
