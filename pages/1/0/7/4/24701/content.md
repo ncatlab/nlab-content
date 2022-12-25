@@ -110,19 +110,19 @@ The uniqueness rule for identity types is usually not included in objective type
 The rules for dependent identity types are given below as:
 
 Formation rule for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash y:B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b}{\Gamma \vdash y[a/x] =_B^{p} y[b/x] \; \mathrm{type}}$$ 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, y:B[a/x], z:B[b/x] \vdash y =_B^{p} z \; \mathrm{type}}$$ 
 
 Introduction rule for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash y:B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b}{\Gamma \vdash \mathrm{apd}_B^{p}(y):y[a/x] =_B^{p} y[b/x]}$$ 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, w:B \vdash \mathrm{apd}_B^{p}(w):w[a/x] =_B^{p} w[b/x]}$$ 
 
 Elimination rule for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash y:B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, q:y[a/x] =_B^p y[b/x] \vdash C \; \mathrm{type} \quad \Gamma, z:B \vdash t:C[z, z, \mathrm{apd}_B^{p}(z)/x, y, q]}{\Gamma, q:y[a/x] =_B^p y[b/x] \vdash J_B^p(t, y, q):C}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, y:B[a/x], z:B[b/x], q:y =_B^p z \vdash C \; \mathrm{type} \quad \Gamma, x:A, w:B \vdash t:C[w[a/x], w[b/x], \mathrm{apd}_B^{p}(w)/y, z, q]}{\Gamma, y:B[a/x], z:B[b/x], q:y =_B^p z \vdash J_B^p(t, y, z, q):C}$$
 
 Computation rules for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash y:B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, y:B, q:y[a/x] =_B^p y[b/x] \vdash C \; \mathrm{type} \quad \Gamma, z:B \vdash t:C[z, z, \mathrm{apd}_B^{p}(z)/x, y, q]}{\Gamma, z:B \vdash \beta_{=_B^p}(z):J(t, z, z, \mathrm{apd}_B^{p}(z)) =_{C[z, z, \mathrm{apd}_B^{p}(z)/x, y, q]} t}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, y:B[a/x], z:B[b/x], q:y =_B^p z \vdash C \; \mathrm{type} \quad \Gamma, x:A, w:B \vdash t:C[w[a/x], w[b/x], \mathrm{apd}_B^{p}(w)/y, z, q]}{\Gamma, x:A, w:B \vdash \beta_{=_B^p}(w):J(t, w[a/x], w[b/x], \mathrm{apd}_B^{p}(w)) =_{C[w[a/x], w[b/x], \mathrm{apd}_B^{p}(w)/y, z, q]} t}$$
 
 Optional uniqueness rules for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash y:B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b}{\Gamma, q:y[a/x] =_B^{p} y[b/x] \vdash K_B^p(y, q):q =_{y[a/x] =_B^{p} y[b/x]} \mathrm{apd}_B^{p}(y)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, w:B, q:w[a/x] =_B^{p} w[b/x] \vdash K_B^p(x, w, q):q =_{w[a/x] =_B^{p} w[b/x]} \mathrm{apd}_B^{p}(w)}$$
 
 ### Equivalence types
 
