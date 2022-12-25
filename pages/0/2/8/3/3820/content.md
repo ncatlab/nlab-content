@@ -15,6 +15,7 @@
 
 
 
+\tableofcontents
 
 
 ## Idea
@@ -39,6 +40,8 @@ There are two main routes to the construction of the covariant phase space,
 * (S) via [[presymplectic structure]];
 
 * (P) via [[Poisson algebra]] structure.
+
+\linebreak
 
 ### (S) Via pre-symplectic structures
  {#ViaSymplecticStructure}
@@ -136,27 +139,27 @@ $$
 
 on the space of field configurations. Since $\omega(\phi)$ is horizontally closed on shell, the the pullback of the presymplectic form $\iota^* \Omega$ is independent of the choice of the surface $X|_{in}$ (provided the choice is restricted to a single homology class of surfaces).
 
-+-- {: .un_claim}
-###### Claim
+\begin{proposition}
 
-The presymplectic form $\iota^* \Omega$ on the covariant phase space is symplectic iff the linearized [[Euler-Lagrange equation]]s, $EL(\phi)=0$, have a locally well-posed initial value problem on $X|_{in}$. In particular, in the presence of gauge symmetries, due to the failure of uniqueness of solutions for given initial data on $X|_{in}$, the form $\iota^*\Omega$ is only presymplectic.
-
-=--
+The presymplectic form $\iota^* \Omega$ on the covariant phase space is symplectic iff the linearized [[Euler-Lagrange equation]]s, $EL(\phi)=0$, have a locally well-posed initial value problem on $X|_{in}$. In particular, in the presence of [[gauge symmetries]], due to the failure of uniqueness of solutions for given initial data on $X|_{in}$, the form $\iota^*\Omega$ is only presymplectic.
+\end{proposition}
 
 However, the infinitesimal actions of gauge symmetries exhaust the kernel of the $\iota^* \Omega$ and upon performing [[symplectic reduction]], we obtain the space of orbits of solutions under the action of gauge symmetries, which is the _physical_ or _[[reduced phase space]]_.
 
 Notice that the form $\Omega$, on the field configuration space, does depend on the choice of Cauchy surface. Performing [[symplectic reduction]] gives the symplectic space of equivalence classes of solutions of equations of motion modulo [[gauge transformation]]s, and hence also the _[[reduced phase space]]_. Thus, the end point of the reduction no longer depends on the choice of the Cauchy surface.
 
-#### Application to the inverse problem of the calculus of variations
- {#InverseProblem}
+\begin{remark}
+\label{InverseProblem}
+**Application to the inverse problem of the calculus of variations**
+\linebreak
 
-We discuss the _inverse problem_ of variational calculus: 
+We discuss the _inverse problem_ of [[variational calculus]]: 
 
 given a [[presymplectic form]] on the locus of solutions of a system of [[partial differential equations]], when is it the covariant phase space of a [[local action functional]]?
 
-(This section follows [BridgesHydonLawson](#BridgesHydonLawson).)
+(This section follows [Bridges, Hydon & Lawson](#BridgesHydonLawson).)
 
-We use same notation as the preceding section. Namely dependence on $\phi$ in local forms really means dependence on finitely many components of the infinite jet $j^\infty(\phi)$. Also, $\iota$ denotes the embedding of the space of solutions in the space of field configurations. Moreover, we presume to work on a sufficiently small neighborhoods in the space of solutions and field configurations that the Poincar\'e lemma applies.
+We use same notation as above. Namely, dependence on $\phi$ in local forms really means dependence on finitely many components of the infinite jet $j^\infty(\phi)$. Also, $\iota$ denotes the embedding of the space of solutions in the space of field configurations. Moreover, we presume to work on a sufficiently small neighborhoods in the space of solutions and field configurations that the Poincar\'e lemma applies.
 
 Consider a system of partial differential equations $P(\phi)=0$, together with a local presymplectic form $\Omega = \int_{X|_{in}} \omega(\phi)$, where $\omega(\phi)$ is a degree-$(2,dim X-1)$ element of the [[variational bicomplex]], that is $\delta \omega = 0$. Suppose further that [[presymplectic current]] density $\omega(\phi)$ is horizontally conserved on solutions:
 
@@ -191,6 +194,10 @@ $$
 $$
 we conclude that the [[Euler-Lagrange equation]]s of $L(\phi)$ are satisfied on solutions of $P(\phi)=0$, since $EL(\phi)\delta\phi = P(\phi)\lambda''(\phi)$.
 
+\end{remark}
+
+
+
 ### (P) Via Poisson structures
  {#ViaPoissonStructure}
  
@@ -206,10 +213,9 @@ The [[BV-BRST complex]] of a [[local action functional]] is (the [[Isbell dualit
 
 Moreover, by the nature of its construction, the BV-complex is canonically equipped with a _graded_ symplectic form $\Omega$, whose [[Gerstenhaber algebra|(-1)-graded Poisson bracket]] is called the _antibracket_ (essentially the canonical [[Schouten bracket]] on graded derivations, see at _[[schreiber:derived critical locus]]_). This is not the canonical symplectic form  $\int_\Sigma \omega$ on the [[reduced phase space]], as discussed above, but it is  something like a potential for it.
 
-We want to make the following
+We want to claim the following
 
-+-- {: .un_claim #BVAntiFormAsHomotopyForPresymplecticCurrent}
-###### Claim
+\begin{proposition}
 
 Given a [[local action functional]] on a space of fields over a spacetime $X$. Let $d_{BV}$ denote the [[differential]] of the [[BV-BRST complex]] and let $d$ denote the horizontal de Rham differential on $X$. Then
 
@@ -229,7 +235,7 @@ $$
   \,.
 $$
 
-=--
+\end{proposition}
 
 
 We discuss this now in more detail. (The stament then also appears in [Cattaneo-Mnev-Reshetikhin 12, equation (9)](#CattaneoMnevReshetikhin12)).
