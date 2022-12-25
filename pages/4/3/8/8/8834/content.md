@@ -74,7 +74,7 @@ equipped with a [[pair]] of overlapping [[null homotopies]]
     ^-{ \phi_1 }
 \end{xymatrix}
 
-to the [[higher homotopy]]-[[equivalence class]] of their [[pasting diagram|pasting]]-composite, which is a [[2-morphism]] [[loop]] (on the [[zero morphism|zero]] [[1-morphism]]) in the [[(∞,1)-categorical hom space]] $\mathcal{C}(X_0,X_1) \in $ [[∞Groupoids]], hence an element in its [[fundamental group]] $\pi_1 \mathcal{C}(X_0,X_1)$:
+to the [[higher homotopy]]-[[equivalence class]] of their [[pasting diagram|pasting]]-composite, which is a [[2-morphism]] [[loop]] (on the [[zero morphism|zero]] [[1-morphism]]) in the [[(∞,1)-categorical hom space]] $\mathcal{C}(X_0,X_3) \in $ [[∞Groupoids]], hence an element in its [[fundamental group]] $\pi_1 \mathcal{C}(X_0,X_3)$:
 
 \begin{xymatrix@=18pt}
   &&
