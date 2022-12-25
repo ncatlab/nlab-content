@@ -1,14 +1,12 @@
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
-## Level2
+\section{Level2}
 
-### Level3
+\subsection{Level3}
 
-##### Level5
+\subsubsubsection{Level5}
 
-#### Level4
+\subsubsection{Level4}
 
