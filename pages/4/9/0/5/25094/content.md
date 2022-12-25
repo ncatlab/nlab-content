@@ -92,7 +92,7 @@ Further refinement of the algorithm:
 
 Discussion of the Solovay-Kitaev theorem in the context of [[topological quantum computation]]:
 
-* {#BonesteelHormoziZikosSimon05} [[Nicholas E. Bonesteel]], [[Layla Hormozi]], [[Georgios Zikos]], [[Steven H. Simon]], *Braid Topologies for Quantum Computation*, Phys. Rev. Lett. **95** 140503 (2005) $[$[arXiv:quant-ph/0505065](https://arxiv.org/abs/quant-ph/0505065), [doi:10.1103/PhysRevLett.95.140503](https://doi.org/10.1103/PhysRevLett.95.140503)$]$
+* {#BonesteelHormoziZikosSimon05} [[Nicholas E. Bonesteel]], [[Layla Hormozi]], [[Georgios Zikos]], [[Steven H. Simon]], *Braid Topologies for Quantum Computation*, Phys. Rev. Lett. **95** 140503 (2005) &lbrack;[arXiv:quant-ph/0505065](https://arxiv.org/abs/quant-ph/0505065), [doi:10.1103/PhysRevLett.95.140503](https://doi.org/10.1103/PhysRevLett.95.140503)&rbrack;
 
 * {#HormoziZikosBonesteelSimon07} [[Layla Hormozi]], [[Georgios Zikos]], [[Nicholas E. Bonesteel]], [[Steven H. Simon]], *Topological Quantum Compiling*, Phys. Rev. B **75** 165310 (2007) &lbrack;[arXiv:quant-ph/0610111](https://arxiv.org/abs/quant-ph/0610111), [doi:10.1103/PhysRevB.75.165310](https://doi.org/10.1103/PhysRevB.75.165310)&rbrack;
 
