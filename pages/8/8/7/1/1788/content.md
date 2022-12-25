@@ -1,4 +1,8 @@
-\tableofcontents
+
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Level2
 
