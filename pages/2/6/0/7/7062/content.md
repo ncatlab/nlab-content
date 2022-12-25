@@ -67,7 +67,7 @@ $$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C
 
 $$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x] \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \beta_\mathbb{I}^{1}:\mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p)[1/x] =_{C[1/x]} c_1}$$
 
-$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x] \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \beta_\mathbb{I}^{p}: \mathrm{apd}(\mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p), p) =_{c_0 =_C^p c_1} c_p}$$
+$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x] \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \beta_\mathbb{I}^{p}: \mathrm{apd}_C^p(\mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p)) =_{c_0 =_C^p c_1} c_p}$$
 
 Uniqueness rules for the interval type:
 $$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma, x:\mathbb{I} \vdash c:C}{\Gamma, x:\mathbb{I} \vdash \eta_\mathbb{I}(c):c =_{C} \mathrm{ind}_\mathbb{I}^{C}(c[0/x], c[1/x], \mathrm{apd}(c, p))}$$
@@ -88,7 +88,7 @@ $$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma, a:\mathbb{2
 Computation rules for the interval type:
 $$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma, a:\mathbb{2} \vdash c:C[j(a)/x] \quad \Gamma \vdash 0:\mathbb{2} \quad \Gamma \vdash 1:\mathbb{2} \quad \Gamma \vdash c_p:c[j(0)/x] =_C^p c[j(1)/x]}{\Gamma, a:\mathbb{2} \vdash \beta_\mathbb{I}^{j}:\mathrm{ind}_\mathbb{I}^{C}(c[j(a)/x], c_p)[j(a)/x] =_{C[j(a)/x]} c[j(a)/x]}$$
 
-$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma, a:\mathbb{2} \vdash c:C[j(a)/x] \quad \Gamma \vdash 0:\mathbb{2} \quad \Gamma \vdash 1:\mathbb{2} \quad \Gamma \vdash c_p:c[j(0)/x] =_C^p c[j(1)/x]}{\Gamma, a:\mathbb{2}, \vdash \beta_\mathbb{I}^{p}: \mathrm{apd}(\mathrm{ind}_\mathbb{I}^{C}(c[j(a)/x], c_p), p) =_{c[j(0)/x] =_C^p c[j(1)/x]} c_p}$$
+$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma, a:\mathbb{2} \vdash c:C[j(a)/x] \quad \Gamma \vdash 0:\mathbb{2} \quad \Gamma \vdash 1:\mathbb{2} \quad \Gamma \vdash c_p:c[j(0)/x] =_C^p c[j(1)/x]}{\Gamma, a:\mathbb{2}, \vdash \beta_\mathbb{I}^{p}:\mathrm{apd}_C^p(\mathrm{ind}_\mathbb{I}^{C}(c[j(a)/x], c_p)) =_{c[j(0)/x] =_C^p c[j(1)/x]} c_p}$$
 
 Uniqueness rules for the interval type:
 
@@ -106,7 +106,7 @@ Uniqueness rules for the interval type:
 
 ### Relation to identity types
 
-Every [[identity]] $q:a =_A b$ between two terms $a:A$ and $b:A$ of a type $A$ has an associated function $f:\mathbb{I} \to A$ with domain the interval type and codomain $A$, inductively defined by 
+Every [[identity]] $q:a =_A b$ between two terms $a:A$ and $b:A$ of a type $A$ has an associated [[term in context]] $x:\mathbb{I} \vdash f(x):A$, inductively defined by 
 
 * $\beta_f^0:f(0) =_A a$
 * $\beta_f^1:f(1) =_A b$
@@ -120,7 +120,7 @@ $$\mathrm{concat}_{a, f(1), b}(\mathrm{concat}_{a, f(0), f(1)}(\mathrm{inv}_{f(0
 
 ### Relation to dependent identity types
 
-Given a type $A$, a dependent type $x:A \vdash B$, terms $a_0:A$ and $a_1:A$, identity $q:a_0 =_A a_1$, terms $b_0:B[a_0/x]$ and $b_1:B[a_1/x]$, and [[dependent identity]] $r:b_0 =_B^q b_1$, let us inductively define the dependent function $f:\prod_{x:\mathbb{I}} B(x)$ by
+Given a type $A$, a dependent type $x:A \vdash B$, terms $a_0:A$ and $a_1:A$, identity $q:a_0 =_A a_1$, terms $b_0:B[a_0/x]$ and $b_1:B[a_1/x]$, and [[dependent identity]] $r:b_0 =_B^q b_1$, let us inductively define the family of elements $x:\mathbb{I} \vdash f(x):B(x)$ by
 
 * $\beta_f^0:f(0) =_{B[a_0/x]} b_0$
 * $\beta_f^1:f(1) =_{B[a_1/x]} b_1$
