@@ -60,17 +60,17 @@ Introduction rules for the interval type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{I}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathbb{I}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash p:0 =_\mathbb{I} 1}$$
 
 Elimination rules for the interval type:
-$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x] \quad \Gamma \vdash c_p:\mathrm{trans}^C(p)(c_0) =_{C[1/x]} c_1 \quad \Gamma \vdash i:\mathbb{I}}{\Gamma \vdash \mathrm{ind}_\mathbb{I}^C(i, c_0, c_1, c_p):C[p/x]}$$
+$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x] \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma, x:\mathbb{I} \vdash \mathrm{ind}_\mathbb{I}^C(c_0, c_1, c_p):C}$$
 
 Computation rules for the interval type:
-$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x] \quad \Gamma \vdash c_p:\mathrm{trans}^C(p)(c_0) =_{C[1/x]} c_1}{\Gamma \vdash \beta_\mathbb{I}^{0}: \mathrm{ind}_\mathbb{I}^{C}(0, c_0, c_1, c_p) =_{C[0/x]} c_0}$$
+$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x] \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \beta_\mathbb{I}^{0}: \mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p)[0/x] =_{C[0/x]} c_0}$$
 
-$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x] \quad \Gamma \vdash c_p:\mathrm{trans}^C(p)(c_0) =_{C[1/x]} c_1}{\Gamma \vdash \beta_\mathbb{I}^{1}: \mathrm{ind}_\mathbb{I}^{C}(1, c_0, c_1, c_p) =_{C[1/x]} c_1}$$
+$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x] \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \beta_\mathbb{I}^{1}:\mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p)[1/x] =_{C[1/x]} c_1}$$
 
-$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x] \quad \Gamma \vdash c_p:\mathrm{trans}^C(p)(c_0) =_{C[1/x]} c_1}{\Gamma \vdash \beta_\mathbb{I}^{p}: \mathrm{apd}_{(\lambda y.\mathrm{ind}_\mathbb{I}^{C}(y, c_0, c_1, c_p))}(p) =_{\mathrm{trans}^C(p)(c_0) =_{C[1/x]} c_1} c_p}$$
+$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x] \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \beta_\mathbb{I}^{p}: \mathrm{apd}(\mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p), p) =_{c_0 =_C^p c_1} c_p}$$
 
 Uniqueness rules for the interval type:
-...
+$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma, x:\mathbb{I} \vdash c:C}{\Gamma, x:\mathbb{I} \vdash \eta_\mathbb{I}(c):c =_{C} \mathrm{ind}_\mathbb{I}^{C}(c[0/x], c[1/x], \mathrm{apd}(c, p))}$$
 
 ### Using a function from the two-valued type
 
@@ -83,14 +83,15 @@ Introduction rules for the interval type:
 $$\frac{\Gamma \vdash a:\mathbb{2}}{\Gamma \vdash j(a):\mathbb{I}} \qquad \frac{\Gamma \vdash 0:\mathbb{2} \quad \Gamma \vdash 1:\mathbb{2}}{\Gamma \vdash p:j(0) =_\mathbb{I} j(1)}$$
 
 Elimination rules for the interval type:
-$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma, a:\mathbb{2} \vdash c:C[j(a)/x] \quad \Gamma \vdash 0:\mathbb{2} \quad \Gamma \vdash 1:\mathbb{2} \quad \Gamma \vdash c_p:\mathrm{trans}^C(p)(c[j(0)/x]) =_{C[j(1)/x]} c[j(1)/x] \quad \Gamma \vdash i:\mathbb{I}}{\Gamma \vdash \mathrm{ind}_\mathbb{I}^C(i, c[j(0)/x], c[j(1)/x], c_p):C[p/x]}$$
+$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma, a:\mathbb{2} \vdash c:C[j(a)/x] \quad \Gamma \vdash 0:\mathbb{2} \quad \Gamma \vdash 1:\mathbb{2} \quad \Gamma \vdash c_p:c[j(0)/x] =_C^p c[j(1)/x]}{\Gamma, x:\mathbb{I}, a:\mathbb{2} \vdash \mathrm{ind}_\mathbb{I}^C(c[j(a)/x], c_p):C}$$
 
 Computation rules for the interval type:
-$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma, a:\mathbb{2} \vdash c:C[j(a)/x] \quad \Gamma \vdash 0:\mathbb{2} \quad \Gamma \vdash 1:\mathbb{2} \quad \Gamma \vdash c_p:\mathrm{trans}^C(p)(c[j(0)/x]) =_{C[j(1)/x]} c[j(1)/x]}{\Gamma, a:\mathbb{2} \vdash \beta_\mathbb{I}^{j}:\mathrm{ind}_\mathbb{I}^{C}(j(a), c[j(0)/x], c[j(1)/x], c_p) =_{C[j(a)/x]} c[j(a)/x]}$$
+$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma, a:\mathbb{2} \vdash c:C[j(a)/x] \quad \Gamma \vdash 0:\mathbb{2} \quad \Gamma \vdash 1:\mathbb{2} \quad \Gamma \vdash c_p:c[j(0)/x] =_C^p c[j(1)/x]}{\Gamma, a:\mathbb{2} \vdash \beta_\mathbb{I}^{j}:\mathrm{ind}_\mathbb{I}^{C}(c[j(a)/x], c_p)[j(a)/x] =_{C[j(a)/x]} c[j(a)/x]}$$
 
-$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma, a:\mathbb{2} \vdash c:C[j(a)/x] \quad \Gamma \vdash 0:\mathbb{2} \quad \Gamma \vdash 1:\mathbb{2} \quad \Gamma \vdash c_p:\mathrm{trans}^C(p)(c[j(0)/x]) =_{C[j(1)/x]} c[j(1)/x]}{\Gamma \vdash \beta_\mathbb{I}^{p}: \mathrm{apd}_{(\lambda y.\mathrm{ind}_\mathbb{I}^{C}(y, c[j(0)/x], c[j(1)/x], c_p))}(p) =_{\mathrm{trans}^C(p)(c[j(0)/x]) =_{C[j(1)/x]} c[j(1)/x]} c_p}$$
+$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma, a:\mathbb{2} \vdash c:C[j(a)/x] \quad \Gamma \vdash 0:\mathbb{2} \quad \Gamma \vdash 1:\mathbb{2} \quad \Gamma \vdash c_p:c[j(0)/x] =_C^p c[j(1)/x]}{\Gamma, a:\mathbb{2}, \vdash \beta_\mathbb{I}^{p}: \mathrm{apd}(\mathrm{ind}_\mathbb{I}^{C}(c[j(a)/x], c_p), p) =_{c[j(0)/x] =_C^p c[j(1)/x]} c_p}$$
 
 Uniqueness rules for the interval type:
+
 ...
 
 ## Properties
