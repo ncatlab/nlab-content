@@ -38,23 +38,6 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \v
 Optional uniqueness rules for dependent identity types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, w:B, q:w[a/x] =_B^{p} w[b/x] \vdash K_B^p(x, w, q):q =_{w[a/x] =_B^{p} w[b/x]} \mathrm{apd}_B^{p}(w)}$$
 
-### Using an interval type
-
-Formation rule for dependent identity types:
-$$\frac{\Gamma \vdash i:\mathbb{I} \vdash A \; \mathrm{type} \quad \Gamma, i:\mathbb{I}, x:A \vdash B \; \mathrm{type}}{\Gamma, y:B[x[0/i]/x], z:B[x[1/i]/x] \vdash y =_B^{\mathrm{apd}_A^p(x)} z \; \mathrm{type}}$$ 
-
-Introduction rule for dependent identity types:
-$$\frac{\Gamma \vdash i:\mathbb{I} \vdash A \; \mathrm{type} \quad \Gamma, i:\mathbb{I}, x:A \vdash B \; \mathrm{type}}{\Gamma, i:\mathbb{I}, x:A, w:B \vdash \mathrm{apd}_B^{\mathrm{apd}_A^p(x)}(w):w[x[0/i]/x] =_B^{\mathrm{apd}_A^p(x)} w[x[1/i]/x]}$$ 
-
-Elimination rule for dependent identity types:
-$$\frac{\Gamma \vdash i:\mathbb{I} \vdash A \; \mathrm{type} \quad \Gamma, i:\mathbb{I}, x:A \vdash B \; \mathrm{type} \quad \Gamma, y:B[x[0/i]/x], z:B[x[1/i]/x], q:y =_B^{\mathrm{apd}_A^p(x)} z \vdash C \; \mathrm{type} \quad \Gamma, i:\mathbb{I}, x:A, w:B \vdash t:C[w[x[0/i]/x], w[x[1/i]/x], \mathrm{apd}_B^{\mathrm{apd}_A^p(x)}(w)/y, z, q]}{\Gamma, y:B[x[0/i]/x], z:B[x[0/i]/x], q:y =_B^p z \vdash J_B^p(t, y, z, q):C}$$
-
-Computation rules for dependent identity types:
-$$\frac{\Gamma, i:\mathbb{I} \vdash A \; \mathrm{type} \quad \Gamma, i:\mathbb{I}, x:A \vdash B \; \mathrm{type} \quad \Gamma, y:B[x[0/i]/x], z:B[x[1/i]/x], q:y =_B^{\mathrm{apd}_A^p(x)} z \vdash C \; \mathrm{type} \quad \Gamma, i:\mathbb{I}, x:A, w:B \vdash t:C[w[x[0/i]/x], w[x[1/i]/x], \mathrm{apd}_B^{\mathrm{apd}_A^p(x)}(w)/y, z, q]}{\Gamma, i:\mathbb{I}, x:A, w:B \vdash \beta_{=_B^p}(w):J(t, w[x[0/i]/x], w[x[1/i]/x], \mathrm{apd}_B^{\mathrm{apd}_A^p(x)}(w)) =_{C[w[x[0/i]/x], w[x[1/i]/x], \mathrm{apd}_B^{\mathrm{apd}_A^p(x)}(w)/y, z, q]} t}$$
-
-Optional uniqueness rules for dependent identity types:
-$$\frac{\Gamma, i:\mathbb{I} \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, i:\mathbb{I}, x:A, w:B, q:w[x[0/i]/x] =_B^{\mathrm{apd}_A^p(x)} w[x[1/i]/x] \vdash K_B^p(x, w, q):q =_{w[x[0/i]/x] =_B^{\mathrm{apd}_A^p(x)} w[x[1/i]/x]} \mathrm{apd}_B^{\mathrm{apd}_A^p(x)}(w)}$$
-
 ### As transport along an identity
 
 Another way to define the dependent identity type is by using [[transport]] along the identification $p$:
