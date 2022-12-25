@@ -47,17 +47,17 @@ The positive unit type says that $\mathbb{1}$ satisfies [[singleton induction]].
 
 Singleton induction for a type $\mathbb{1}$ and term $*:\mathbb{1}$ states that the type has the following [[elimination rule]], [[computation rule]], and [[uniqueness rule]]:
 
-* given a type family $C$ indexed by $\mathbb{1}$, for all elements $x:\mathbb{1}$ and $c:C(*)$, there is an element $\mathrm{ind}_\mathbb{1}^C(x, c):C(x)$. 
+* given a type family $C(x)$ indexed by $\mathbb{1}$, for all elements $x:\mathbb{1}$ and $c:C(*)$, there is an element $\mathrm{ind}_\mathbb{1}^C(x, c):C(x)$. 
 
-$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type}}{\Gamma, x:\mathbb{1}, c:C(*) \vdash \mathrm{ind}_\mathbb{1}^C(x, c):C(x)}$$
+$$\frac{\Gamma, x:\mathbb{1} \vdash C(x) \; \mathrm{type}}{\Gamma, x:\mathbb{1}, c:C(*) \vdash \mathrm{ind}_\mathbb{1}^C(x, c):C(x)}$$
 
-* given a type family $C$ indexed by $\mathbb{1}$, for all elements $c:C(*)$, the element $\mathrm{ind}_\mathbb{1}^C(*, c)$ derived from the elimination rule is equal to $c$ with witness $\beta_\mathbb{1}^C(c)$. 
+* given a type family $C(x)$ indexed by $\mathbb{1}$, for all elements $c:C(*)$, the element $\mathrm{ind}_\mathbb{1}^C(*, c)$ derived from the elimination rule is equal to $c$ with witness $\beta_\mathbb{1}^C(c)$. 
 
-$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type}}{\Gamma, c_*:C(*) \vdash \beta_\mathbb{1}^C(c):\mathrm{ind}_\mathbb{1}^C(*, c) =_{C(*)} c}$$
+$$\frac{\Gamma, x:\mathbb{1} \vdash C(x) \; \mathrm{type}}{\Gamma, c_*:C(*) \vdash \beta_\mathbb{1}^C(c):\mathrm{ind}_\mathbb{1}^C(*, c) =_{C(*)} c}$$
 
-* given a type family $C$ indexed by $\mathbb{1}$ for all elements $x:\mathbb{1}$ and family of elements $u(x):C(x)$ indexed by $\mathbb{1}$, there is a witness $\eta_\mathbb{1}^C(x, u(x))$ that $u(x)$ is equal to $\mathrm{ind}_\mathbb{1}^{C}(x, u(*))$ in $C(x)$.
+* given a type family $C(x)$ indexed by $\mathbb{1}$ and a family of elements $u(x):C(x)$ indexed by $\mathbb{1}$, for all elements $x:\mathbb{1}$ there is a witness $\eta_\mathbb{1}^C(x, u(x))$ that $u(x)$ is equal to $\mathrm{ind}_\mathbb{1}^{C}(x, u(*))$ in $C(x)$.
 
-$$\frac{\Gamma, x:\mathbb{1} \vdash C \; \mathrm{type}}{\Gamma, x:\mathbb{1}, u(x):C(x), \vdash \eta_\mathbb{1}^C(x, u(x)):u(x) =_{C(x)} \mathrm{ind}_\mathbb{1}^{C}(x, u(*))}$$
+$$\frac{\Gamma, x:\mathbb{1} \vdash C(x) \; \mathrm{type} \quad \Gamma, x:\mathbb{1} \vdash u(x):C(x)}{\Gamma, x:\mathbb{1} \vdash \eta_\mathbb{1}^C(x, u(x)):u(x) =_{C(x)} \mathrm{ind}_\mathbb{1}^{C}(x, u(*))}$$
 
 Thus, the unit type satisfies [[singleton induction]]. 
 
