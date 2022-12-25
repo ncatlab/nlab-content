@@ -232,10 +232,10 @@ Formation rules for the empty type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{0} \; \mathrm{type}}$$
 
 Elimination rules for the empty type:
-$$\frac{\Gamma, x:\mathbb{0} \vdash C \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{0}}{\Gamma \vdash \mathrm{ind}_\mathbb{0}^C(p):C(p)}$$
+$$\frac{\Gamma, x:\mathbb{0} \vdash C \; \mathrm{type} \quad}{\Gamma, x:\mathbb{0} \vdash \mathrm{ind}_\mathbb{0}^C(x):C(x)}$$
 
 Uniqueness rules for the empty type:
-$$\frac{\Gamma, x:\mathbb{0} \vdash C \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{0} \quad \Gamma, x:\mathbb{0} \vdash u:C}{\Gamma \vdash \eta_\mathbb{0}(p, u):u[p/x] =_{C[p/x]} \mathrm{ind}_\mathbb{0}^{C}(p)}$$
+$$\frac{\Gamma, x:\mathbb{0} \vdash C \; \mathrm{type} \quad \Gamma, x:\mathbb{0} \vdash u(x):C(x)}{\Gamma, x:\mathbb{0} \vdash \eta_\mathbb{0}(x, u(x)):u(x) =_{C(x)} \mathrm{ind}_\mathbb{0}^{C}(x)}$$
 
 ### Function types
 
