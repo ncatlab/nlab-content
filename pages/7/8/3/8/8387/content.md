@@ -63,6 +63,11 @@ An account with focus on [[programming languages]]:
 
 * [[Robert Harper]], *[[Practical Foundations for Programming Languages]]*, Cambridge University Press (2016) &lbrack;[ISBN:9781107150300](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB), [pdf](https://www.cs.cmu.edu/~rwh/pfpl/2nded.pdf)&rbrack;
 
+An account going from classical computation to [[quantum computation]]:
+
+* [[Alexei Y. Kitaev]], A. H. Shen, M. N. Vyalyi, *Classical and Quantum Computation*, Graduate Studies in Mathematics **47** (2002) &lbrack;[doi:10.1090/gsm/047](http://dx.doi.org/10.1090/gsm/047)&rbrack;
+
+
 \linebreak
 
 
@@ -119,7 +124,16 @@ Related discussion for [[quantum computation]], with [[quantum circuits]] regard
 
 [[!redirects computations]]
 
+[[!redirects classical computation]]
+[[!redirects classical computations]]
+
 [[!redirects computing]]
 
 [[!redirects computer]]
+[[!redirects computers]]
+
 [[!redirects classical computer]]
+[[!redirects classical computers]]
+
+
+
