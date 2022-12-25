@@ -17,6 +17,10 @@ On [[quantum error correcting codes]] associated with planar bulk/boundary syste
 
 * S. B. Bravyi, [[Alexei Kitaev]], *Quantum codes on a lattice with boundary* ([arXiv:quant-ph/9811052](https://arxiv.org/abs/quant-ph/9811052))
 
+On [[computation]] in general and [[quantum computation]] in particular:
+
+* [[Alexei Y. Kitaev]], A. H. Shen, M. N. Vyalyi, *Classical and Quantum Computation*, Graduate Studies in Mathematics **47** (2002) &lbrack;[doi:10.1090/gsm/047](http://dx.doi.org/10.1090/gsm/047)&rbrack;
+
 
 Introducing the idea of [[topological quantum computation]] with [[anyons]]:
 
@@ -52,3 +56,7 @@ Introducing the notion of [[short-range entanglement]] in [[quantum materials]]:
 
 
 category: people
+
+
+[[!redirects Alexei Y. Kitaev]]
+
