@@ -196,7 +196,7 @@ A textbook account of the basic theory is in [Chapter 10](http://www.andrew.cmu.
 
 A brief review of some basics, with an eye towards [[inductive types]], is in Section 2 of
 
-* {#AwodeyGambinoSojakova} [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory*, LICS'12: (2012) 95–104 &lbrack;[arXiv:1201.3898](http://arxiv.org/abs/1201.3898), [doi:10.1109/LICS.2012.21](https://doi.org/10.1109/LICS.2012.21)&rbrack;
+* {#AwodeyGambinoSojakova} [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory*, LICS'12 (2012) 95–104 &lbrack;[arXiv:1201.3898](http://arxiv.org/abs/1201.3898), [doi:10.1109/LICS.2012.21](https://doi.org/10.1109/LICS.2012.21)&rbrack;
  
 
 relating to [[higher inductive types]] in [[homotopy type theory]]:
