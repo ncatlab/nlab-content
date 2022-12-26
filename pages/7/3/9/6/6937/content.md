@@ -18,6 +18,12 @@ and on their [[categorical semantics]]:
 
 * {#LumsdaineShulman17} [[Peter LeFanu Lumsdaine]], [[Mike Shulman]], *Semantics of higher inductive types*, Math. Proc. Camb. Phil. Soc. **169** (2020) 159-208 &lbrack;[arXiv:1705.07088](https://arxiv.org/abs/1705.07088), talk slides [pdf](http://home.sandiego.edu/~shulman/papers/cellcxs.pdf), [doi:10.1017/S030500411900015X](https://doi.org/10.1017/S030500411900015X)&rbrack;
 
+with precursors in:
+
+* {#ShulmanLumsdaine12} [[Mike Shulman]], [[Peter LeFanu Lumsdaine]], *Semantics of higher inductive types* (2012) &lbrack;[[ShulmanLumsdaine-HITs2012.pdf:file]]&rbrack;
+
+* {#ShulmanLumsdaine16} [[Mike Shulman]], [[Peter LeFanu Lumsdaine]], _Semantics and syntax of higher inductive types_ (2016) &lbrack;[slides](http://home.sandiego.edu/~shulman/papers/stthits.pdf)&rbrack;
+
 
 
 On [[synthetic homotopy theory]] in [[homotopy type theory]]:
