@@ -70,7 +70,7 @@ The original formulation:
 
 Making explicit the unitary action by non-abelian [[Berry phases]]:
 
-* Gustavo Rigolin, Gerardo Ortiz, *The Adiabatic Theorem for Quantum Systems with Spectral Degeneracy*, Phys. Rev. A **85** 062111 (2012) &lbrack;[arXiv:1111.5333](https://arxiv.org/abs/1111.5333), [doi:10.1103/PhysRevA.85.062111](https://doi.org/10.1103/PhysRevA.85.062111)&rbrack;
+* [[Gustavo Rigolin]], [[Gerardo Ortiz]], *The Adiabatic Theorem for Quantum Systems with Spectral Degeneracy*, Phys. Rev. A **85** 062111 (2012) &lbrack;[arXiv:1111.5333](https://arxiv.org/abs/1111.5333), [doi:10.1103/PhysRevA.85.062111](https://doi.org/10.1103/PhysRevA.85.062111)&rbrack;
 
 
 See also:
@@ -78,20 +78,23 @@ See also:
 * Wikipedia, *[Adiabatic theorem](https://en.wikipedia.org/wiki/Adiabatic_theorem)*
 
 
+
 ### In condensed matter theory
 
 Discussion in [[solid state physics]] and in view of gapped [[topological phases of matter]] ([[quantum Hall effect]], [[topological insulators]]):
 
-* J. E. Avron, R. Seiler & L. G. Yaffe, *Adiabatic theorems and applications to the quantum hall effect*, Communications in Mathematical Physics **110** (1987) 33–49 ([doi:10.1007/BF01209015](https://doi.org/10.1007/BF01209015))
+* [[Joseph E. Avron]], R. Seiler & L. G. Yaffe, *Adiabatic theorems and applications to the quantum Hall effect*, Communications in Mathematical Physics **110** (1987) 33–49 &lbrack;[doi:10.1007/BF01209015](https://doi.org/10.1007/BF01209015)&rbrack;
 
-* [[Mathew B. Hastings]], [[Xiao-Gang Wen]], *Quasiadiabatic continuation of quantum states: The stability of topological ground-state degeneracy and emergent gauge invariance* ([arXiv:cond-mat/0503554](https://arxiv.org/abs/cond-mat/0503554), [doi:10.1103/PhysRevB.72.045141](https://doi.org/10.1103/PhysRevB.72.045141))
+* [[Joseph E. Avron]], A. Raveh, B. Zur, *Adiabatic quantum transport in multiply connected systems*, Rev. Mod. Phys. **60** (1988) 873-915 &lbrack;[doi:10.1103/RevModPhys.60.873](https://doi.org/10.1103/RevModPhys.60.873)&rbrack;
 
-* [[Sven Bachmann]], Spyridon Michalakis, [[Bruno Nachtergaele]], Robert Sims, *Automorphic Equivalence within Gapped Phases of Quantum Lattice Systems*, Commun. Math. Phys. **309** (2012) 835-871 ([arXiv:1102.0842](https://arxiv.org/abs/1102.0842), [doi:10.1007/s00220-011-1380-0](https://doi.org/10.1007/s00220-011-1380-0))
+* [[Mathew B. Hastings]], [[Xiao-Gang Wen]], *Quasiadiabatic continuation of quantum states: The stability of topological ground-state degeneracy and emergent gauge invariance*, Phys. Rev. B **72** (2005) 045141  &lbrack;[arXiv:cond-mat/0503554](https://arxiv.org/abs/cond-mat/0503554), [doi:10.1103/PhysRevB.72.045141](https://doi.org/10.1103/PhysRevB.72.045141)&rbrack;
 
-* Jan Carl Budich, Björn Trauzettel, *From the adiabatic theorem of quantum mechanics to topological states of matter*, physica status solidi (RRL) **7** 1-2 (2013) 109-129  $[$[arXiv:1210.6672](https://arxiv.org/abs/1210.6672), [doi:10.1002/pssr.201206416](https://doi.org/10.1002/pssr.201206416)$]$
+* [[Sven Bachmann]], Spyridon Michalakis, [[Bruno Nachtergaele]], Robert Sims, *Automorphic Equivalence within Gapped Phases of Quantum Lattice Systems*, Commun. Math. Phys. **309** (2012) 835-871 &lbrack;[arXiv:1102.0842](https://arxiv.org/abs/1102.0842), [doi:10.1007/s00220-011-1380-0](https://doi.org/10.1007/s00220-011-1380-0)&rbrack;
+
+* Jan Carl Budich, Björn Trauzettel, *From the adiabatic theorem of quantum mechanics to topological states of matter*, physica status solidi (RRL) **7** 1-2 (2013) 109-129  &lbrack;[arXiv:1210.6672](https://arxiv.org/abs/1210.6672), [doi:10.1002/pssr.201206416](https://doi.org/10.1002/pssr.201206416)&rbrack;
 
 
-* [[Sven Bachmann]], [[Wojciech De Roeck]], [[Martin Fraas]], *Adiabatic Theorem for Quantum Spin Systems*, Phys. Rev. Lett. **119** (2017) 060201 ([doi:10.1103/PhysRevLett.119.060201](https://doi.org/10.1103/PhysRevLett.119.060201))
+* [[Sven Bachmann]], [[Wojciech De Roeck]], [[Martin Fraas]], *Adiabatic Theorem for Quantum Spin Systems*, Phys. Rev. Lett. **119** (2017) 060201 &lbrack;[doi:10.1103/PhysRevLett.119.060201](https://doi.org/10.1103/PhysRevLett.119.060201)&rbrack;
 
 Review:
 
