@@ -9,6 +9,11 @@ On [[vortex]]$\;$[[anyons]]:
 
 * [[Hoi-Kwong Lo]], [[John Preskill]], *Non-Abelian vortices and non-Abelian statistics*, Phys. Rev. D **48** (1993) 4821 $[$[doi:10.1103/PhysRevD.48.4821](https://doi.org/10.1103/PhysRevD.48.4821)$]$
 
+On [[topological quantum computation]]:
+
+
+* R. Walter Ogburn, [[John Preskill]], *Topological Quantum Computation*, in: *Quantum Computing and Quantum Communications*, Lecture Notes in Computer Science **1509**, Springer (1998) &lbrack;[doi:10.1007/3-540-49208-9_31](https://doi.org/10.1007/3-540-49208-9_31)&rbrack;
+
 
 On [[quantum error correction]] for fault-tolerant/reliable [[quantum computation]]:
 
