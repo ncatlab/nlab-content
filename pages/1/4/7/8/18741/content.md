@@ -8,7 +8,9 @@ On [[affine schemes]] in [[cubical type theory]]:
 
 * [[Anders Mörtberg]], [[Max Zeuner]], *A Univalent Formalization of Affine Schemes* ([arXiv:2212.02902](https://arxiv.org/abs/2212.02902))
 
-Introducing the [[programming language]] *[[Cubical Agda]]* implementing [[univalence|univalent]] [[homotopy type theory]]:
+Introducing the [[programming language]] *[[Cubical Agda]]* implementing [[univalence|univalent]] [[cubical type theory|cubical]] [[homotopy type theory]] with [[higher inductive types]]:
+
+* [[Anders Mörtberg]], *Cubical Agda* (2018) &lbrack;[blog post](https://homotopytypetheory.org/2018/12/06/cubical-agda)&rbrack;
 
 * {#VMA19} [[Andrea Vezzosi]], [[Anders Mörtberg]], [[Andreas Abel]], *Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types*, Proceedings of the ACM on Programming Languages **3** ICFP 87  (2019) 1–29 &lbrack;[doi:10.1145/3341691](https://doi.org/10.1145/3341691), [pdf](https://www.cse.chalmers.se/~abela/icfp19.pdf)&rbrack;
 
