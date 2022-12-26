@@ -7,6 +7,10 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
 =--
 =--
 
@@ -17,21 +21,37 @@
 
 ## Idea
 
-Given a monoidal category $C$ with monoidal product $\otimes$,
-and an object $V$ in $C$, the quantum Yang-Baxter operator
-is a morphism $R : V\otimes V\to V\otimes V$ which satisfies quantum Yang-Baxter equation in $V\otimes V\otimes V$
+Given a [[monoidal category]] $C$ with [[tensor product]] $\otimes$, and an [[object]] $V$ in $C$, a *quantum Yang-Baxter operator* is a [[morphism]] of the form 
+
 $$
-R_{12}  R_{13}  R_{23} = R_{23} R_{13} R_{12}
+  R \,\colon\, V\otimes V\to V\otimes V
+$$ 
+
+which satisfies the following *quantum Yang-Baxter equation* in $V\otimes V\otimes V$
+
+$$
+  R_{12}  R_{13}  R_{23} \;=\; R_{23} R_{13} R_{12}
+  \,,
 $$
 
 where the subscripts indicate which tensor factors are being utilized, for instance $R_{12} = R\otimes id_V\in V\otimes V\otimes V$.
 
-This equation is in particular satisfied by the component $\mathcal{R}_{VV}$ at $V$ of any brading $\mathcal{R}$ on $C$.
-Typical categories where the equation is considered are the category of vector spaces when the solutions are called $R$-matrices (or quantum Yang-Baxter matrices), categores of representations of quantum groups when a particular solution is called a universal $\mathcal{R}$-element and the category of sets when we talk about [[set theoretic Yang-Baxter equation|set theoretic solutions of Yang-Baxter equation]].
+This equation is in particular satisfied by the component $\mathcal{R}_{V V}$ at $V$ of any [[braided monoidal category|braiding]] $\mathcal{R}$ on $C$.
 
-#### Historical motivation
+Typical categories where the equation is considered are 
 
-The _quantum Yang-Baxter equation_ has been proposed by Baxter in the context of a particular model of [[statistical mechanics]] (6-vertex model ??) and called star-triangle relation. Later it has been generalized and axiomatized to a number of contexts: it is most notably satisfied by the universal R-element in a [[quasitriangular Hopf algebra]]. In some context it is equivalent to a braid relation for certain transposed matrix. Some solutions to quantum Yang-Baxter equation have good limits in classical mechanics which are [[classical r-matrices]], and the latter satisfy the classical Yang-Baxter equation. 
+1. the [[category of vector spaces]] when the solutions are called *$R$-matrices* (or *quantum Yang-Baxter matrices*), 
+
+1. [[categories of representations]] of [[quantum groups]] where a particular solution is called a *universal $\mathcal{R}$-element*;
+
+1. the [[category of sets]] where one spekas about [[set theoretic Yang-Baxter equation|set theoretic solutions of Yang-Baxter equation]].
+
+
+\begin{remark}\label{HistoricalMotivation}
+**(Historical motivation)**
+\linebreak
+The _quantum Yang-Baxter equation_ has been proposed by Baxter in the context of a particular model of [[statistical mechanics]] (6-vertex model ??) and called *star-triangle relation*. Later it has been generalized and axiomatized to a number of contexts: it is most notably satisfied by the universal R-element in a [[quasitriangular Hopf algebra]]. In some context it is equivalent to a braid relation for certain transposed matrix. Some solutions to quantum Yang-Baxter equation have good limits in classical mechanics which are [[classical r-matrices]], and the latter satisfy the [[classical Yang-Baxter equation]]. 
+\end{remark}
 
 ## Equation with spectral parameter
 
@@ -47,7 +67,11 @@ where the subscripts indicate which tensor factors are being utilized.
 
 [[!include Yang-Baxter equations -- contents]]
 
+
+
 ## References
+
+Discussion in the context of [[quantum groups]]:
 
 * A. U. Klymik, K. Schmuedgen, _Quantum groups and their representations_, Springer 1997.
 
@@ -59,8 +83,17 @@ where the subscripts indicate which tensor factors are being utilized.
 
 * P. P. Kulish, N. Yu. Reshetikhin, E. K. Sklyanin, _Yang-Baxter equation and representation theory: I_, Lett. Math. Phys. __5__:5 (1981), 393-403, [doi](http://dx.doi.org/10.1007/BF02285311)
 
+Discussion in the context of [[braid group representations]]:
+
+* [[Camilo Arias Abad]], §5.1 *Introduction to representations of braid groups*, Rev. colomb. mat. vol.49 no.1 (2015) &lbrack;[arXiv:1404.0724](https://arxiv.org/abs/1404.0724), [doi:10.15446/recolma.v49n1.54160](https://doi.org/10.15446/recolma.v49n1.54160)&rbrack;
+
 
 
 
 [[!redirects quantum R-matrix]]
+
+[[!redirects quantum Yang-Baxter matrix]]
+
+
 [[!redirects quantum Yang-Baxter equation]]
+
