@@ -180,7 +180,7 @@ the space
 of $F$-[[algebra for an endofunctor|algebra]] maps $W \to X$ is 
 [[contractible]].
 
-([Awodey-Gambino-Sojakova](#AwodeyGambinoSojakova))
+&lbrack;[Awodey, Gambino & Sojakova (2012)](#AwodeyGambinoSojakova12)&rbrack;
 
 ## Examples
 
@@ -691,18 +691,15 @@ The formalization in [[Coq]] is discussed in
 
 * Eduardo Gim&#233;nez, Pierre Cast&#233;ran, _A Tutorial on [Co-]Inductive Types in Coq_ ([pdf](http://flint.cs.yale.edu/cs428/coq/pdf/RecTutorial.pdf))
 
-A study of the homotopy-initiality of inductive types in [[homotopy type theory]] is in
+Discussion of homotopy-initiality of inductive types in [[homotopy type theory]] (cf. also at *[[higher inductive type]]*):
 
-* [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory* ([arXiv:1201.3898](http://arxiv.org/abs/1201.3898))
- {#AwodeyGambinoSojakova}
+* {#AwodeyGambinoSojakova12} [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory*, LICS'12: (2012) 95–104 &lbrack;[arXiv:1201.3898](http://arxiv.org/abs/1201.3898), [doi:10.1109/LICS.2012.21](https://doi.org/10.1109/LICS.2012.21), [Coq code](https://github.com/HoTT/HoTT/tree/master/Coq/IT)&rbrack;
+ 
+  \linebreak
+ 
+  Exposition: 
 
-The corresponding [[Coq]]-code is at
-
-* [https://github.com/HoTT/HoTT/tree/master/Coq/IT](https://github.com/HoTT/HoTT/tree/master/Coq/IT)
-
-Exposition and discussion of that result is in 
-
-* [[Steve Awodey]], _Inductive types in Hott_ ([blog post](http://homotopytypetheory.org/2012/01/19/inductive-types-in-hott/))
+  [[Steve Awodey]], *Inductive types in HoTT* (Jan 2012) &lbrack;[blog post](http://homotopytypetheory.org/2012/01/19/inductive-types-in-hott/)&rbrack;
 
 Discussion of the inductive type of [[natural numbers]] is in 
 
