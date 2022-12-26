@@ -25,6 +25,8 @@ In [[topological quantum computation]] on [[anyons]], braid representations serv
 
 ## Related concepts
 
+* [[quantum Yang-Baxter equation]]
+
 * [[braid group statistics]] ([[anyons]])
 
 * [[Knizhnik-Zamolodchikov equation]]
