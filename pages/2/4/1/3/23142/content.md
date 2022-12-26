@@ -1166,7 +1166,7 @@ The resulting Quillen equivalences for the global [[model structure on simplicia
 ### In $\infty$-category theory
  {#InInfinityCategoryTheory}
 
-All the natural equivalences used in a category-theoretic proof such as of Prop. \ref{StatementInPlainCategoryTheoryOverAnyPresheaf} above also hold in [[(infinity,1)-category theory|$\infty$-categoru theory]].
+All the natural equivalences used in a category-theoretic proof such as of Prop. \ref{StatementInPlainCategoryTheoryOverAnyPresheaf} above also hold in [[(infinity,1)-category theory|$\infty$-category theory]].
 
 More explicitly, 
 since [[simplicial localization]] at the [[Quillen equivalences]] [[Ho(CombModCat)|identifies]]  the [[homotopy theory]] ([[(infinity,1)-category|$\infty$-category]]) of [[combinatorial model categories]] (such as [[model categories of simplicial presheaves]] and their [[slice model structures]]) with that of [[presentable (infinity,1)-categories|presentable $\infty$-categories]], Prop. \ref{SimplicialLocalSectionsIsRightQuillen} immediately [[Ho(CombModCat)|implies]] [[simplicial Quillen adjunction|simplicial]] [[Quillen equivalences]] which [[presentable (infinity,1)-category|present]] the equivalence of $\infty$-categories.
