@@ -59,10 +59,7 @@ Notably in [[homotopy type theory]] with [[univalence]], which is the [[internal
 
 ## Related entries
 
-
-* [[universal exceptionalism]]
-
-* [[empiricism]]
+* [[structure identity principle]]
 
 * [[idealism]]
 
@@ -71,6 +68,7 @@ Notably in [[homotopy type theory]] with [[univalence]], which is the [[internal
   * [[subjective idealism]]
 
   * [[absolute idealism]]
+
 
 * [[Salomon Maimon]]
 
