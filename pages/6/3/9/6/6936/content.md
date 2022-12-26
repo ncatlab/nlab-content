@@ -23,7 +23,7 @@
 
 While HITs are already useful in [[extensional type theory]], they are most useful and powerful in [[homotopy type theory]], where they allow the construction of [[cell complexes]], [[homotopy colimits]], [[n-truncated|truncations]], [[Bousfield localization of model categories|localizations]], and many other objects from classical [[homotopy theory]].
 
-Defining what a HIT is "in general" is an open research problem.  One mostly precise proposal may be found in ([ShulmanLumsdaine16](#ShulmanLumsdaine16)).  A more syntactic description of a class of HITs may be found in ([Brunerie16](#Brunerie16)). A solution to this problem should determine how to define the concept of an [[elementary (∞,1)-topos]].
+Defining what a HIT is "in general" is an open research problem.  One mostly precise proposal may be found in ([Shulman & Lumsdaine (2016)](#ShulmanLumsdaine16)).  A more syntactic description of a class of HITs may be found in ([Brunerie (2016)](#Brunerie16), [Vezzosi, Mörtberg & Abel (2019)](#VezzosiMörtbergAbel19)). A solution to this problem should determine how to define the concept of an [[elementary (∞,1)-topos]].
 
 See also [[homotopytypetheory:higher inductive type]].
 
@@ -229,46 +229,63 @@ See ([Lumsdaine-Shulman17](#LumsdaineShulman17)).
 
 ## References
 
-Expositions include
+Textbook account:
+
+* [[Univalent Foundations Project]], §6 of: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+
+Expositions:
 
 * [[Mike Shulman]], _Homotopy type theory IV_ ([blog entry](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_vi.html))
 
-* [[Peter LeFanu Lumsdaine]], _Higher inductive types, a tour of the menageries_ ([blog post](http://homotopytypetheory.org/2011/04/24/higher-inductive-types-a-tour-of-the-menagerie/))
+* [[Peter LeFanu Lumsdaine]], *Higher inductive types, a tour of the menagerie* (2011) &lbrack;[blog post](http://homotopytypetheory.org/2011/04/24/higher-inductive-types-a-tour-of-the-menagerie/)&rbrack;
 
-* [[Peter LeFanu Lumsdaine]], _Higher Inductive Types: The circle and friends, axiomatically_ ([pdf](http://pages.cpsc.ucalgary.ca/~robin/FMCS/FMCS2011/Lumsdaine_slides.pdf))
+* [[Peter LeFanu Lumsdaine]], *Higher Inductive Types: The circle and friends, axiomatically* (2011) &lbrack;[pdf](http://pages.cpsc.ucalgary.ca/~robin/FMCS/FMCS2011/Lumsdaine_slides.pdf), [[Lumsdaine-HITs.pdf:file]]&rbrack;
 
-Details of the semantics are in 
+Details on the [[categorical semantics]] of HITs:
 
-* {#LumsdaineShulman17} [[Peter LeFanu Lumsdaine]] [[Mike Shulman]], _Semantics of higher inductive types_ ([arXiv:1705.07088](https://arxiv.org/abs/1705.07088), talk slides [pdf](http://home.sandiego.edu/~shulman/papers/cellcxs.pdf))
+* {#LumsdaineShulman17} [[Peter LeFanu Lumsdaine]], [[Mike Shulman]], *Semantics of higher inductive types*, Math. Proc. Camb. Phil. Soc. **169** (2020) 159-208 &lbrack;[arXiv:1705.07088](https://arxiv.org/abs/1705.07088), talk slides [pdf](http://home.sandiego.edu/~shulman/papers/cellcxs.pdf), [doi:10.1017/S030500411900015X](https://doi.org/10.1017/S030500411900015X)&rbrack;
 
 with precursors in
 
-* {#ShulmanLumsdaine12} [[Mike Shulman]], [[Peter LeFanu Lumsdaine]], _Semantics of higher inductive types_, 2012 ([pdf](http://uf-ias-2012.wikispaces.com/file/view/semantics.pdf/410646692/semantics.pdf))
+* {#ShulmanLumsdaine12} [[Mike Shulman]], [[Peter LeFanu Lumsdaine]], *Semantics of higher inductive types* (2012) &lbrack;[[ShulmanLumsdaine-HITs2012.pdf:file]]&rbrack;
 
-* {#ShulmanLumsdaine16} [[Mike Shulman]], [[Peter LeFanu Lumsdaine]], _Semantics and syntax of higher inductive types_, 2016, ([slides](http://home.sandiego.edu/~shulman/papers/stthits.pdf))
-
-Discussion of a subset of the HITs is in:
-
-* [[Kristina Sojakova]], _Higher Inductive Types as Homotopy-Initial Algebras_
-[arXiv:1402.0761](http://arxiv.org/abs/1402.0761)
+* {#ShulmanLumsdaine16} [[Mike Shulman]], [[Peter LeFanu Lumsdaine]], _Semantics and syntax of higher inductive types_ (2016) &lbrack;[slides](http://home.sandiego.edu/~shulman/papers/stthits.pdf)&rbrack;
 
 
-* [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], _Homotopy-initial algebras in type theory_ ([arXiv:1504.05531](http://arxiv.org/abs/1504.05531))
+Discussion of HITs which arise as homotopy-[[initial algebras of an endofunctor]]:
+
+* [[Kristina Sojakova]], *Higher Inductive Types as Homotopy-Initial Algebras*, ACM SIGPLAN Notices **50** 1 (2015) 31–42 &lbrack;[arXiv:1402.0761](http://arxiv.org/abs/1402.0761), [doi:10.1145/2775051.2676983](https://doi.org/10.1145/2775051.2676983)&rbrack;
+
+* [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Homotopy-initial algebras in type theory*, Journal of the ACM **63** 6 (2017) 1–45 &lbrack;[arXiv:1504.05531](http://arxiv.org/abs/1504.05531), [doi:10.1145/3006383](https://doi.org/10.1145/3006383)&rbrack;
+
+A research grant on HITs:
+
+* [[Michael Rathjen]], _[Homotopical Inductive Types](http://www2.macs.hw.ac.uk/~cm389/hexmaps/2014/03/epsrc-ict-50/grants/EP-K023128-1.php)_ 
 
 
-* [[Michael Rathjen]], _[Homotopical Inductive Types](http://www2.macs.hw.ac.uk/~cm389/hexmaps/2014/03/epsrc-ict-50/grants/EP-K023128-1.php)_ on [[higher inductive types]]
+Implementation of HITs in [[proof assistants]]:
 
+in [[Agda]]:
 
-Implementation in [[Agda]]/[[Coq]] is discussed in
+* {#Brunerie16} [[Guillaume Brunerie]], _Implementation of higher inductive types in HoTT-Agda_ (2016) &lbrack;[github](https://github.com/HoTT/HoTT-Agda/blob/master/core/lib/types/HIT_README.txt)&rbrack;
 
-* {#Brunerie16} [[Guillaume Brunerie]], _Implementation of higher inductive types in HoTT-Agda_, 2016, [github](https://github.com/HoTT/HoTT-Agda/blob/master/core/lib/types/HIT_README.txt)
+  > (deprecated)
+
+in [[Cubical Agda]]:
+
+* {#VezzosiMörtbergAbel19} [[Andrea Vezzosi]], [[Anders Mörtberg]], [[Andreas Abel]], §4 in: *Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types*, Proceedings of the ACM on Programming Languages **3** ICFP 87  (2019) 1–29 &lbrack;[doi:10.1145/3341691](https://doi.org/10.1145/3341691), [pdf](https://www.cse.chalmers.se/~abela/icfp19.pdf)&rbrack;
+
+* [cubical Agda documentation](https://agda.readthedocs.io/en/v2.6.2.2.20221128/language/cubical.html): *[Higher Inductive Types](https://agda.readthedocs.io/en/v2.6.1/language/cubical.html#higher-inductive-types)*
+
+in [[Coq]]:
 
 * Bruno Barras, _Native implementation of Higher Inductive
 Types (HITs) in Coq_ [PDF](http://www.crm.cat/en/activities/documents/barras-crm-2013.pdf)
 
-For [[coinduction]] via HITs: 
+Discussion of [[coinduction]] via HITs: 
 
-* [[Magnus Baunsgaard Kristensen]], [[Rasmus Ejlers Møgelberg]], [[Andrea Vezzosi]], *Greatest HITs: Higher inductive types in coinductive definitions via induction under clocks* ([arXiv:2102.01969](https://arxiv.org/abs/2102.01969))
+* Magnus Baunsgaard Kristensen, [[Rasmus Ejlers Møgelberg]], [[Andrea Vezzosi]], *Greatest HITs: Higher inductive types in coinductive definitions via induction under clocks* ([arXiv:2102.01969](https://arxiv.org/abs/2102.01969))
 
 [[!redirects higher inductive types]]
 
