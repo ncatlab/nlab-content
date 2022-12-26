@@ -16,8 +16,13 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-A __classical r-matrix__ is a solution of classical [[Yang-Baxter equation]]. 
+An *$R$-matrix* is a solition to a [[Yang-Baxter equation]]:
+
+A __classical r-matrix__ is a solution of  [[classical Yang-Baxter equation]]. 
+
+(A [[quantum R-matrix]] is a solution to the [[quantum Yang-Baxter equation]].)
 
 ## Related entries
 
