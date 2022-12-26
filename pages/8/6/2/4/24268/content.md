@@ -113,6 +113,9 @@ References which make explicit that [[topological quantum computation]] by [[bra
 
 * {#ChengGalitskiDasSarma11} [[Meng Cheng]], [[Victor Galitski]], [[Sankar Das Sarma]], *Non-adiabatic Effects in the Braiding of Non-Abelian Anyons in Topological Superconductors*, Phys. Rev. B **84** (2011) 104529 &lbrack;[arXiv:1106.2549](https://arxiv.org/abs/1106.2549), [doi:10.1103/PhysRevB.84.104529](https://doi.org/10.1103/PhysRevB.84.104529)&rbrack;
 
+* [[Gustavo Rigolin]], [[Gerardo Ortiz]], p. 1 of: *The Adiabatic Theorem for Quantum Systems with Spectral Degeneracy*, Phys. Rev. A **85** 062111 (2012) &lbrack;[arXiv:1111.5333](https://arxiv.org/abs/1111.5333), [doi:10.1103/PhysRevA.85.062111](https://doi.org/10.1103/PhysRevA.85.062111)&rbrack;
+
+
 * [[Jiannis K. Pachos]], *Introduction to Topological Quantum Computation*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511792908]( https://doi.org/10.1017/CBO9780511792908)&rbrack;
 
   > &lbrack;p. 50&rbrack;: "topological quantum computation resembles an adiabatic quantum computation with constant energy gap, where the quasiparticle coordinates provide the control parameters of the Hamiltonian."
