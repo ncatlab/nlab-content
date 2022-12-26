@@ -15,17 +15,24 @@ The idea of [[topological quantum computation]] via a [[Chern-Simons theory]] wi
 
   > (specifically via [[su(2)-anyons]])
 
-
 * [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. **80** 1083 (2008) $[$[arXiv:0707.1888] (http://arxiv.org/abs/0707.1889), [doi:10.1103/RevModPhys.80.1083](https://doi.org/10.1103/RevModPhys.80.1083)$]$
 
-
 * D. Melnikov, A. Mironov, S. Mironov, A. Morozov, An. Morozov, _Towards topological quantum computer_, Nucl. Phys. B926 (2018) 491-508 ([arXiv:1703.00431](https://arxiv.org/abs/1703.00431), [doi:10.1016/j.nuclphysb.2017.11.016](https://doi.org/10.1016/j.nuclphysb.2017.11.016))
+
+and via a [[Dijkgraaf-Witten theory]] (like [[Chern-Simons theory]] but with [[discrete group|discrete]] [[gauge group]]):
+
+* R. Walter Ogburn, [[John Preskill]], *Topological Quantum Computation*, in: *Quantum Computing and Quantum Communications*, Lecture Notes in Computer Science **1509**, Springer (1998) $[$[doi:10.1007/3-540-49208-9_31](https://doi.org/10.1007/3-540-49208-9_31)$]$
+
+* [[Carlos Mochon]], *Anyons from non-solvable finite groups are sufficient for universal quantum computation*, Phys. Rev. A **67** 022315 (2003) $[$[arXiv:quant-ph/0206128](https://arxiv.org/abs/quant-ph/0206128), [doi:10.1103/PhysRevA.67.022315](https://doi.org/10.1103/PhysRevA.67.022315)$]$
+
+* [[Carlos Mochon]], *Anyon computers with smaller groups*, Phys. Rev. A **69** 032306 (2004) $[$[arXiv:quant-ph/0306063](https://arxiv.org/abs/quant-ph/0306063), [doi:10.1103/PhysRevA.69.032306](https://doi.org/10.1103/PhysRevA.69.032306)$]$
+
 
 Textbook accounts:
 
 * [[Zhenghan Wang]], *Topological Quantum Computation*, CBMS Regional Conference Series in Mathematics **112**, AMS 2010 ([ISBN-13: 978-0-8218-4930-9](http://www.ams.org/publications/authors/books/postpub/cbms-112), [pdf](http://web.math.ucsb.edu/~zhenghwa/data/course/cbms.pdf))
 
-* [[Jiannis K. Pachos]], *Introduction to Topological Quantum Computation*, Cambridge University Press (2012) $[$[doi:10.1017/CBO9780511792908]( https://doi.org/10.1017/CBO9780511792908)$]$
+* [[Jiannis K. Pachos]], *Introduction to Topological Quantum Computation*, Cambridge University Press (2012) $[$[doi:10.1017/CBO9780511792908](https://doi.org/10.1017/CBO9780511792908)$]$
 
 * [[Tudor D. Stanescu]], Part IV of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
 
