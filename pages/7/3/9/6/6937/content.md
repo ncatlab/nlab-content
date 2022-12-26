@@ -8,6 +8,17 @@ On the [[relation between type theory and category theory|categorical semantics]
 
 * {#KapulkinLumsdaine12} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], *The Simplicial Model of Univalent Foundations (after Voevodsky)*, Journal of the European Mathematical Society **23** (2021) 2071–2126  $[$[arXiv:1211.2851](https://arxiv.org/abs/1211.2851), [doi:10.4171/jems/1050](https://doi.org/10.4171/jems/1050)$]$
 
+On [[higher inductive types]] in [[homotopy type theory]]:
+
+* [[Peter LeFanu Lumsdaine]], *Higher inductive types, a tour of the menagerie* (2011) &lbrack;[blog post](http://homotopytypetheory.org/2011/04/24/higher-inductive-types-a-tour-of-the-menagerie/)&rbrack;
+
+* [[Peter LeFanu Lumsdaine]], *Higher Inductive Types: The circle and friends, axiomatically* (2011) &lbrack;[pdf](http://pages.cpsc.ucalgary.ca/~robin/FMCS/FMCS2011/Lumsdaine_slides.pdf), [[Lumsdaine-HITs.pdf:file]]&rbrack;
+
+and on their [[categorical semantics]]:
+
+* {#LumsdaineShulman17} [[Peter LeFanu Lumsdaine]], [[Mike Shulman]], *Semantics of higher inductive types*, Math. Proc. Camb. Phil. Soc. **169** (2020) 159-208 &lbrack;[arXiv:1705.07088](https://arxiv.org/abs/1705.07088), talk slides [pdf](http://home.sandiego.edu/~shulman/papers/cellcxs.pdf), [doi:10.1017/S030500411900015X](https://doi.org/10.1017/S030500411900015X)&rbrack;
+
+
 
 On [[synthetic homotopy theory]] in [[homotopy type theory]]:
 
