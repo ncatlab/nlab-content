@@ -364,7 +364,7 @@ Notice that since $\mathcal{O}_\lambda$ is a [[manifold]] of finite [[dimension]
 
 * [[string field theory]]
 
-##### Gauge fields and gravity -- Einstein-Maxwell-Yang-Mills theory 
+#### Gauge fields and gravity -- Einstein-Maxwell-Yang-Mills theory 
  {#EinsteinYangMillsTheory}
 
 * [[gravity]]
@@ -376,18 +376,18 @@ Notice that since $\mathcal{O}_\lambda$ is a [[manifold]] of finite [[dimension]
 * [[Einstein-Yang-Mills theory]]
 
 
-##### Kaluza-Klein compactification
+#### Kaluza-Klein compactification
  {#KaluzaKleinCompactification}
 
 * [[Kaluza-Klein compactification]]
 
 
-##### Standard model of particle physics 
+#### Standard model of particle physics 
  {#StandardModelParticlePhyiscs}
 
 * [[standard model of particle physics]]
 
-##### Standard model of cosmology
+#### Standard model of cosmology
  {#StandardModelCosmology}
 
 * [[standard model of cosmology]]
@@ -397,10 +397,10 @@ Notice that since $\mathcal{O}_\lambda$ is a [[manifold]] of finite [[dimension]
  {#GaugeAndGravitySemanticsLayer}
 
 
-an exposition and survey is in ([FSS 13](#FiorenzaSatiSchreiberCSIntroAndSurvey)).
+exposition and survey is in ([FSS 13](#FiorenzaSatiSchreiberCSIntroAndSurvey)).
 
 +-- {: bluebox }
-###### 
+###### Examples
 
 1. [1d Chern-Simons theory](#GaugeAndGravity1dCSTheory)
 
@@ -473,7 +473,7 @@ We consider now [[extended Lagrangians]] defined on [[field (physics)|fields]] a
 
 
 +-- {: bluebox }
-###### 
+###### Examples 
 
 1. [Survey](#FormulationInHigherGeometrySurvey)
 
@@ -871,7 +871,7 @@ We discuss the Chan-Paton gauge field and its [[quantum anomaly cancellation]] i
 Throughout we write $\mathbf{H} = $ [[Smooth∞Grpd]] for the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoids]].
 
 +-- {: bluebox }
-###### 
+###### Examples
 
 1. [The B-field as a prequantum 2-bundle](#TheBFieldAsAPrequantum2Bundle)
 
