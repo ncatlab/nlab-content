@@ -102,29 +102,27 @@ H&ouml;lder's inequality is closely related to the notion of log-convexity. On t
 
 +-- {: .num_theorem} 
 ###### Theorem 
-The collection of log-convex functions on a convex domain $D$ is closed under pointwise multiplication, pointwise addition, and pointwise max. 
+The collection of log-convex positive functions on a convex domain $D$ is closed under pointwise multiplication, pointwise addition, and pointwise sups. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
 The statement for multiplication is clear since $\log(f \cdot g) = \log(f) + \log(g)$ and any sum of convex functions is convex. 
 
-Similarly, $\log: (0,\infty) \to \mathbb{R}$ is an isomorphism of [[partially ordered sets]] and so $\log (\max\{f, g\}) = \max\{\log(f), \log(g)\}$. It thus suffices to show that if $f, g$ are convex on $D$, then so is $\max\{f, g\}$. For $x, y \in D$ and $a, b \geq 0$ such that $a + b = 1$, we must show 
+Similarly, $\log: (0,\infty) \to \mathbb{R}$ is an isomorphism of [[partially ordered sets]] and so $\log (\sup\{f_i\}) = \sup\{\log(f_i)\}$. It thus suffices to show that if $f_i$ is a collection of convex functions on $D$, then so is $\sup\{f_i\}$. For $x, y \in D$ and $a, b \geq 0$ such that $a + b = 1$, we must show 
 
-$$\max\{f, g\}(a x + b y) \leq a \max\{f, g\}(x) + b\max\{f, g\}(y);$$ 
+$$\sup\{f_i\}(a x + b y) \leq a \sup\{f_i\}(x) + b\sup\{f_i\}(y);$$ 
  
-letting $c$ denote the right side, this holds iff $f(a x + b y) \leq c$ and $g(a x + b y) \leq c$ (by definition of $\max$). But 
+letting $c$ denote the right side, this holds iff $f_i(a x + b y) \leq c$ for all $i$ (by definition of $\sup$). But 
 
 $$\array{
-f(a x + b y) & \leq & a f(x) + b f(y) & since\; f\; is\; convex \\
- & \leq & a\max\{f, g\}(x) + b\max\{f, g\}(y) & 
-}$$ 
-
-and similarly $g(a x + b y) \leq a \max\{f, g\}(x) + b\max\{f, g\}(y)$. 
+f_i(a x + b y) & \leq & a f_i(x) + b f_i(y) & since\; f_i\; is\; convex \\
+ & \leq & a\sup\{f_i\}(x) + b\sup\{f_i\}(y) & 
+}.$$ 
 
 Finally, for the sum $f + g$, in order to show $\log(f + g)$ is convex, it suffices to show that 
 
-$$\label{sum} (f + g)(\frac1{p}x + \frac1{q}y) \leq (f+g)(x)^{\frac1{p}} (f+g)(y)^{\frac1{q}}$$ 
+$$\label{sum} (f + g)\left(\frac1{p}x + \frac1{q}y\right) \leq (f+g)(x)^{\frac1{p}} (f+g)(y)^{\frac1{q}}$$ 
 
 for $p, q \gt 1$ such that $\frac1{p} + \frac1{q} = 1$. But setting 
 
@@ -134,11 +132,50 @@ the right side of (eq:sum) is $(s^p + t^p)^{\frac1{p}} \cdot (u^q + v^q)^{\frac1
 
 $$\array{
 s u + t v & = & f(x)^{\frac1{p}} f(y)^{\frac1{q}} + g(x)^{\frac1{p}} g(y)^{\frac1{q}} \\ 
- & \geq & f(\frac1{p} x + \frac1{q} y) + g(\frac1{p} x + \frac1{q} y)
+ & \geq & f\left(\frac1{p} x + \frac1{q} y\right) + g\left(\frac1{p} x + \frac1{q} y\right)
 }$$ 
 
 where the last inequality is by log-convexity of $f$ and $g$. 
 =-- 
+
+This last theorem enters into Emil Artin's account of the basic theory of the Gamma function: 
+
++-- {: .num_cor} 
+###### Corollary 
+The Gamma function 
+
+$$\Gamma(x) = \int_0^\infty t^x e^{-t} \frac{d t}{t}$$ 
+
+is log-convex. 
+=--
+
++-- {: .proof} 
+###### Proof 
+The function $x \mapsto t^{x-1}$ is log-linear, hence log-convex. Hence the integral defining $\Gamma(x)$ is a sup over suitable Riemann sums that are positive-linear combinations of the form 
+
+$$\sum_{i=1}^n t_i^{x-1} e^{-t_i} \Delta t_i$$ 
+and these, and together with their sup, are log-convex by the Theorem. 
+=-- 
+
+The main fact underlying Artin's account is the Bohr-Haagerup theorem: 
+
++-- {: .num_theorem} 
+###### Theorem 
+The Gamma function is characterized as the unique function $\Gamma: \{x \in \mathbb{R}|\; -x \notin \mathbb{N}\} \to \mathbb{R}\} \to \mathbb{R}$ satisfying the following conditions: 
+
+\begin{itemize} 
+\item $\Gamma(1) = 1$, 
+\item $\Gamma(x+1) = x\Gamma(x)$, 
+\item $\Gamma$ is log-convex over $(0, \infty)$. 
+\end{itemize} 
+
+=--
+
+## References 
+
+* [[Emil Artin]], Einführung in die Theorie der Gammafunktion, Hamburger Mathematische Einzelschriften
+l. Heft, Verlag B. G. Teubner, Leipzig (1931). 
+
 
 [[!redirects Holder's inequality]] 
 [[!redirects Holder inequality]] 
