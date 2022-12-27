@@ -32,7 +32,9 @@ Some of the additional assumptions on a model category $M$ that are often useful
 
 * $M$ is [[combinatorial model category|combinatorial]], or at least [[accessible model category|accessible]] and/or [[cofibrantly generated model category|cofibrantly generated]].
 
-* The cofibrations in $M$ are the monomorphisms; or at least that they are closed under limits, preserved by pullbacks, all monomorphisms are cofibrations, and/or all fibrant objects are cofibrant.
+* The cofibrations in $M$ are the monomorphisms; 
+
+  or at least: they are closed under limits, preserved by pullbacks, all monomorphisms are cofibrations, and/or all fibrant objects are cofibrant.
 
 * Acyclic cofibrations are preserved by pullback along fibrations.
 
