@@ -23,7 +23,8 @@ Classically, models of weak $n$-categories comprise sets of cells in dimension 0
 "width": 300
 \end{imagefromfile}
 
-The category $n\mi n$
+
+The category 
 
 
 
