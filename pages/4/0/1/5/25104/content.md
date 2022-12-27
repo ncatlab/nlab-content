@@ -44,7 +44,7 @@ which is an [[equality]] if and only if $a^p = b^q$.
 
 See also:
 
-* Wikipedia, *[Young's inequality for productd](https://en.m.wikipedia.org/wiki/Young%27s_inequality_for_products)*
+* Wikipedia, *[Young's inequality for products](https://en.m.wikipedia.org/wiki/Young%27s_inequality_for_products)*
 
 [[!redirects Young's inequality for products]]
 
