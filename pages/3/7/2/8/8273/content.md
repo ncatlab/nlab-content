@@ -7,8 +7,14 @@ Introducing the [[braid group]]:
 
 * {#Artin25} [[Emil Artin]], *Theorie der Zöpfe*, Abh. Math. Semin. Univ. Hambg. **4**  (1925) 47–72 &lbrack;[doi;10.1007/BF02950718](https://doi.org/10.1007/BF02950718)&rbrack;
 
-
 * [[Emil Artin]], *Theory of Braids*, Annals of Mathematics, Second Series, **48** 1 (1947) 101-126 &lbrack;[doi:10.2307/1969050](https://doi.org/10.2307/1969050)&rbrack;
+
+On the [[Gamma function]]:
+
+* {#Artin31} [[Emil Artin]], *Einführung in die Theorie der Gammafunktion*, Hamburger Mathematische Einzelschriften
+l. Heft, Verlag B. G. Teubner, Leipzig (1931)
+
+  English translation by Michael Butler: *The Gamma Function*, Holt, Rinehart and Winston (1931) &lbrack;[[Artin-TheGammaFunction.pdf:file]]&rbrack;
 
 
 Introducing the [[Artin-Tate lemma]]:
