@@ -33,9 +33,13 @@ $$
 
 which is an [[equality]] if and only if $a^p = b^q$.
 
-\end{proposition}
+\end{proposition} 
 
-## Related concept's
+One proof is by [[convex function|convexity]] of the [[exponential function]]: choosing $x, y, t$ such that $\exp(x) = a^p$, $\exp = b^q$ and $t = \frac1{p}$, Young's inequality is identical to the convexity constraint 
+
+$$\exp(tx + (1-t)y) \leq t\exp(x) + (1-t)\exp(y).$$ 
+
+## Related concepts
 
 * from Young's inequality follows [[Hölder's inequality]]
 
