@@ -32,22 +32,132 @@ In [[point-set topology]] and generally in the context of [[homotopical category
 ## Definition
  {#Definition}
 
-We work in [[intensional type theory|intensional]] [[type theory]] with [[dependent sums]], [[dependent products]], and [[identity types]]. 
+Notice that there are several ways to define a [[bijection]] in [[set theory]]: 
 
-Most of the following claims may be found proven in [UFP13, §2.4 & §4](#UFP13).
+1. as a map which admits a *two sided* [[inverse morphism]] --
 
-### As functions with contractible fibers
- {#AsFunctionsWithContractibleFibers}
+   in [[homotopy type theory]] this leads to the notion of *[[quasi-inverse functions]]* or *[[homotopy equivalence]]* 
 
-Given 
+   (Def. \ref{FunctionWithTwoSidedInverse} below);
+
+1. as a map which admits a [[left inverse]] and a [[right inverse]] --
+
+   in [[homotopy type theory]] this leads to the notion of *left/right quasi-invertible maps* or *homotopy isomorphisms* 
+
+   (Def. \ref{FunctionsWithLeftAndRightInverse} below);
+
+1. as a function which is both an [[injection]] (whose fibers are [[subsingletons]]) and a [[surjection]] (whose fibers are [[inhabited]]) --
+
+   in [[homotopy type theory]] this leads to the definition of equivalence as a function with contractible fibers 
+
+   (Def. \ref{FunctionWithContractibleFiber} below).
+
+\linebreak
+
+{#OutlookOnEquivalenceOfDefinitions} As (eventually to be) discussed in the *[Properties](#Properties)*-section below,
+the evident types formed by these definitions are co-inhabited: we have a function from any one of them to any of the others.  Moreover, at least if we assume [[function extensionality]], the evident types of "homotopy isomorphisms" and of functions with contractible fibers are equivalent and are [[h-propositions]].
+This is not true for the evident type of homotopy equivalences (as discussed [below](#TheIssueWithQuasiInverses)) which is not in general an h-prop even with function extensionality. However, often the most convenient way to show that $f$ is an equivalence is by exhibiting it as a term of the type of homotopy equivalences.
+
+
+\linebreak
+
+Throughout, we work in [[intensional type theory|intensional]] [[type theory]] with [[dependent sums]], [[dependent products]], and [[identity types]]. 
+
+In all of the following we consider:
 
 * [[types]] $\;$ $A$ and $B$, 
 
 * a [[term]] of [[function type]] $f \colon A \to B$, 
 
-* a [[term]] $b \colon B$, 
+* a [[term]] $b \colon B$.
 
-then 
+\linebreak
+
+Most of the following claims may be found proven in [UFP13, §2.4 & §4](#UFP13).
+
+\linebreak
+
+> {#WarningOnFunctionExtensionality} **Warning.** The following discussion is still suffering from not saying where [[function extensionality]] is used, and not otherwise distinguishing between pointwise and global homotopy.
+
+\linebreak
+
+### As functions with two-sided quasi-inverse
+ {#AsFunctionsWithTwoSidedInverse}
+
+\begin{definition}\label{FunctionWithTwoSidedInverse}
+**(function with two-sided inverse, up to homotopy)**
+\linebreak
+A function $f \,\colon\, A \to B$ is said to be [[quasi-inverse function|quasi invertible]] if it has a *two-sided* inverse, up to homotopy (hence also called a *[[homotopy equivalence]]*):
+
+$$
+  qinv(f)
+  \;\coloneqq\;
+  \underset{
+    \overline{f} \colon B \to A
+  }{\sum}
+  \;\;
+  Id_{(A \to A)}
+  \big(
+    \overline{f} \circ f 
+    ,\,
+    (a \mapsto a)
+  \big)
+  \;\times\;
+  Id_{(B \to B)}
+  \big(
+    f \circ \overline{f} 
+    ,\,
+    (b \mapsto b)
+  \big)
+$$
+
+\end{definition}
+
+([Hofmann & Streicher (1998), §5.4](#HofmannStreicher98))
+
+This definition may seem the most obvious, but it suffers from a subltety in the construction of the type of all such functions, see [below](#TheIssueWithQuasiInverses).
+
+
+
+### As functions with a left and a right quasi-inverse
+
+In variation of Def. \ref{FunctionWithTwoSidedInverse}, we need not presuppose that the left and right inverse are already identified (this circumvents the [issue with two-sided inverses](#TheIssueWithQuasiInverses)):
+
+\begin{definition}\label{FunctionsWithLeftAndRightInverse}
+**(function with left and right inverse, up to homotopy)**
+\linebreak
+
+$$
+  \mathrm{hasLeftRightInv}(f) 
+  \;\coloneqq\; 
+  \left(
+    \sum_{g \colon B \to A} 
+    \;
+    \prod_{b:B} 
+    \;
+    f(g(b)) =_B b
+  \right) 
+   \;\times;\ 
+  \left(
+    \sum_{h \colon B \to A} 
+    \;
+    \prod_{a:A} 
+    \;
+    a =_A h(f(a))
+  \right)
+$$
+
+\end{definition}
+
+This is also called a *homotopy isomorphism* by [[André Joyal]] (2011), see [Kapulkin & Lumsdaine (2012, 2021), Def. 3.1.1](#KapulkinLumsdaine21).
+ 
+
+
+### As functions with contractible fibers
+ {#AsFunctionsWithContractibleFibers}
+
+
+Recall that:
 
 1. the ([[homotopy fiber|homotopy]]) [[fiber type]] of $f$ at $b$ is the [[dependent sum type]] 
 
@@ -97,26 +207,14 @@ $$
   \,.
 $$
 
+This definition originates with [Voevodsky (2010), p. 8, 10](#Voevodsky10).
 
-### As functions with a left and a right inverse
 
-There is also another definition of an equivalence: a function which has both a left inverse and a right inverse:
+### As adjoint equivalences
 
-$$\mathrm{hasLeftRightInv}(f) \coloneqq \left(\sum_{g:B \to A} \prod_{b:B} f(g(b)) =_B b\right) \times \left(\sum_{h:B \to A} \prod_{a:A} a =_A h(f(a))\right)$$
 
-### Other variations
+(...) like for a homotopy equivalence above, but in addition requiring the [[triangle identity]] for $f$ and $g$ -- as in an [[adjoint equivalence]] (...)
 
-Three variations of this definition are, informally:
-
-* $f\colon A\to B$ is an equivalence if there is a map $g\colon B\to A$ and homotopies $p\colon \prod_{a\colon A} (g(f(a)) = a)$ and $q\colon \prod_{b\colon B} (f(g(b)) = b)$ (a **[[homotopy equivalence]]**)
-
-* $f\colon A\to B$ is an equivalence if there is the above data, together with a higher homotopy expressing one [[triangle identity]] for $f$ and $g$ (an **[[adjoint equivalence]]**).
-
-* $f\colon A\to B$ is an equivalence if there are maps $g,h\colon B\to A$ and homotopies $p\colon \prod_{a\colon A} (g(f(a)) = a)$ and $q\colon \prod_{b\colon B} (f(h(b)) = b)$ (sometimes called a **homotopy isomorphism**).
-
-By formalizing these, we obtain types $homotopyEquiv(f)$, $isAdjointEquiv(f)$, and $isHIso(f)$.  All four of these types are co-inhabited: we have a function from any one of them to any of the others.  Moreover, at least if we assume [[function extensionality]], the types $isAdjointEquiv(f)$ and $isHIso(f)$ are themselves *equivalent* to $hasContrFibers(f)$, and all three are [[h-propositions]].
-
-This is not true for $homotopyEquiv(f)$, which is not in general an h-prop even with function extensionality.  However, often the most convenient way to show that $f$ is an equivalence is by exhibiting a term in $homotopyEquiv(f)$ (although such a term could just as well be interpreted to lie in $isHIso(f)$ with $h\coloneqq g$).
 
 ### As one-to-one correspondences
 
@@ -227,11 +325,12 @@ There is also a notion of **strict equivalence** between two types $A$ and $B$, 
 Judgmentally strict equivalences are used in defining [[Shulman univalent universes]] in [[higher observational type theory]]. 
 
 ## Properties
+ {#Properties}
 
-### The issue with quasi-inverses
+### The issue with two-sided quasi-inverses
  {#TheIssueWithQuasiInverses}
 
-There are two ways to define a [[bijection]] in [[set theory]]: as a function which is both an [[injection]] (whose fibers are [[subsingletons]]) and a [[surjection]] (whose fibers are [[inhabited]]), and as an [[isomorphism]] of [[sets]]. The former definition in [[homotopy type theory]] leads to the definition of equivalence as a function with contractible fibers, while the latter definition leads to the definition of equivalence as a [[quasi-inverse function]]. However, the definition of equivalences as [[quasi-inverse functions]] suffers from the drawback that the type 
+The possibly most evident definition of equivalences as two-sided [[quasi-inverse functions]] (Def. \ref{FunctionWithTwoSidedInverse}) suffers from the drawback that the type 
 
 $$
   f \colon A \to B
@@ -496,15 +595,19 @@ $$
 ## References
  {#References}
 
-The notion of homotopy equivalence of types in [[homotopy type theory]] appears (together with the formulation of the [[univalence axiom]]) already in
+The notion of two-sided homotopy equivalence of types in [[homotopy type theory]] appears (together with the formulation of the [[univalence axiom]]) already in
 
 * {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]], §5.4 of:  _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), *Twenty-five years of constructive type theory*, Proceedings of a congress, Venice, Italy, October 19-21, 1995. Oxford: Logic Guides. **36**, Clarendon Press (1998) 83-111 &lbrack;[ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz), [[HofmannStreicherGroupoidInterpretation.pdf:file]]&rbrack;
 
-except that these authors refer to the subtly incorrect type (eq:TheSubtlyWrongTypeOfEquivalences) of all equivalences.
+except that these authors refer to the subtly incorrect type (eq:TheSubtlyWrongTypeOfEquivalences) of all such equivalences.
 
 The notion of equivalences as [[function type|functions]] with [[contractible type|contractible]] [[fiber type|homotopy fibers]] (and thereby the fix of the [[univalence axiom]] of [Hofmann & Streicher (1998), §5.4](#HofmannStreicher98)) is due to:
 
-* {#UnivalentFoundationsProject} [[Vladimir Voevodsky]], p. 10 of: *Univalent Foundations Project* (2010) &lbrack;[pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf), [[Voevodsky-UFP2010.pdf:file]]&rbrack;
+* {#Voevodsky10} [[Vladimir Voevodsky]], p. 10 of: *Univalent Foundations Project* (2010) &lbrack;[pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf), [[Voevodsky-UFP2010.pdf:file]]&rbrack;
+
+The notion of "homotopy isomorphisms" (functions with left- and right-quasi inverses) was proposed by [[André Joyal]] in a 2011 Oberwolfach meeting, recorded in:
+
+* {#KapulkinLumsdaine21} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], Def. 3.1.1 in: *The Simplicial Model of Univalent Foundations (after Voevodsky)*, Journal of the European Mathematical Society **23** (2021) 2071–2126  &lbrack;[arXiv:1211.2851](https://arxiv.org/abs/1211.2851), [doi:10.4171/jems/1050](https://doi.org/10.4171/jems/1050)&rbrack;
 
 
 Introduction and exposition:
