@@ -251,7 +251,17 @@ in global context, which has a global element precisely when $isContr(A)\to B$ h
 
 ## References
 
-[[Coq]]-code for contractible types is at
+The notion of contractible types (and with it the modern notion of [[equivalence in homotopy type theory]]) originates around:
+
+* {#Voevodsky10} [[Vladimir Voevodsky]], p. 8, 10 of: *Univalent Foundations Project* (2010) &lbrack;[pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf), [[Voevodsky-UFP2010.pdf:file]]&rbrack;
+
+Textbook account:
+
+
+* {#UFP13} [[Univalent Foundations Project]], §3.11 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+
+[[Coq]]-code for contractible types:
 
 * [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/Contractible.v)
 
