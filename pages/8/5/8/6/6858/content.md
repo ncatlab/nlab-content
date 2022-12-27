@@ -86,20 +86,48 @@ $$
 Quite remarkably, the Gamma function (this time as a function of a real variable) is uniquely characterized in the following theorem: 
 
 
-\begin{theorem}
-**(Bohr-Mollerup)** \linebreak
+\begin{theorem}\label{BohrMollerupTheorem}
+**(Bohr-Mollerup)** 
+\linebreak
 
-The restriction of the Gamma function to the interval $(0, \infty)$ is the unique function $f$ such that $f(x+1) = x f(x)$, $f(1) = 1$, and $\log f$ is convex. 
+The [[restriction]] of the Gamma function to the [[open interval]] $(0, \infty)$ is the unique function $f$ such that 
+
+1. $f(x+1) = x f(x)$, 
+
+1. $f(1) = 1$, 
+
+1. $\log f$ is [[convex function|convex]]. 
+
 \end{theorem}
+
+([Artin (1931), Thm. 2.1](#Artin31))
 
 A number of other representations of the Gamma function are known and frequently utilized, e.g., 
 
 * Product representation: 
-$$\frac1{\Gamma(x)} = x e^{\gamma x} \prod_{n=1}^{\infty} (1 + \frac{x}{n})e^{-x/n}$$ 
-where $\gamma$ is [[Euler's constant]]. 
+  
+  $$
+    \frac1{\Gamma(x)} 
+    \;=\; 
+    x e^{\gamma x} 
+    \prod_{n=1}^{\infty} 
+    \left(
+      1 + \frac{x}{n}
+    \right)
+    e^{-x/n}
+    \,,
+  $$ 
+
+  where $\gamma$ is [[Euler's constant]]. 
 
 * Integral representation: 
-$$\Gamma(x) = \int_{0}^{\infty} t^x e^{-t} \frac{d t}{t}.$$ 
+
+  $$
+    \Gamma(x) 
+    \;=\; 
+    \int_{0}^{\infty} t^x e^{-t} \frac{d t}{t}
+    \,.
+  $$ 
 
 
 
@@ -113,7 +141,15 @@ $$\Gamma(x) = \int_{0}^{\infty} t^x e^{-t} \frac{d t}{t}.$$
 
 * [[Barnes G-function]]
 
+* [[Hölder's inequality]]
+
 ## References 
+
+
+* {#Artin31} [[Emil Artin]], *Einführung in die Theorie der Gammafunktion*, Hamburger Mathematische Einzelschriften
+l. Heft, Verlag B. G. Teubner, Leipzig (1931)
+
+  English translation by Michael Butler: *The Gamma Function*, Holt, Rinehart and Winston (1931) &lbrack;[[Artin-TheGammaFunction.pdf:file]]&rbrack;
 
 * George Andrews, Richard Askey, Ranjan Roy, _Special Functions_. Encyclopedia of Mathematics and Its Applications 71, Cambridge University Press, 1999. 
 
@@ -121,8 +157,13 @@ See also:
 
 * Wikipedia, *[Gamma function](https://en.wikipedia.org/wiki/Gamma_function)*
 
+* Wikipedia, *[Bohr-Mollerup theorem](https://en.wikipedia.org/wiki/Bohr%E2%80%93Mollerup_theorem)*
+
 [[!redirects gamma function]]
 [[!redirects Gamma function]]
 
 [[!redirects Gamma-function]]
 [[!redirects Gamma-functions]]
+
+[[!redirects Bohr-Mollerup theorem]]
+
