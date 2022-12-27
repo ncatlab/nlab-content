@@ -13,7 +13,9 @@ More generally, in any [[concrete category]], the inverse of any [[isomorphism]]
 
 ### In type theory
 
-In type theory, there are two different kinds of inverse functions, quasi-inverse functions, various kinds of more or less coherent quasi-inverse functions, and inverse functions. 
+In [[type theory]], there are two different kinds of inverse functions, quasi-inverse functions, various kinds of more or less coherent quasi-inverse functions, and inverse functions. 
+
+For more on this see at *[[equivalence in type theory]]*.
 
 #### Quasi-inverse functions
 
