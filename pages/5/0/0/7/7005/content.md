@@ -385,13 +385,13 @@ In a post to the [Homotopy Type Theory Google Group](https://groups.google.com/f
 ## References
  {#References}
 
-The earliest occurrence of the univalence axiom is due to:
+The earliest occurrence of the univalence axiom is due to, under the name "universe extensionality"
 
-* {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]], Section 5.4 of:  _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), _Twenty-five years of constructive type theory_, Proceedings of a congress, Venice, Italy, October 19&#8212;21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. 36, 83-111 (1998).  ([ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz), [[HofmannStreicherGroupoidInterpretation.pdf:file]])
+* {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]], Section 5.4 of:  _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), *Twenty-five years of constructive type theory*, Proceedings of a congress, Venice, Italy, October 19-21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. **36** (1998) 83-111   &lbrack;[ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz), [[HofmannStreicherGroupoidInterpretation.pdf:file]]&rbrack;
 
-under the name "universe extensionality".  These authors formulate almost the modern univalence axiom; the only difference is the lack of a coherent definition of [[equivalence in homotopy type theory|equivalence]].  
+These authors formulate almost the modern univalence axiom; the only difference is the lack of a coherent definition of [[equivalence in homotopy type theory|equivalence]].  
 
-The univalence axiom has famously come to be attributed to [[Vladimir Voevodsky]], though early documentation is hard to come by. 
+The univalence axiom has famously come to be attributed to [[Vladimir Voevodsky]], though early documentation is hard to come by:
 
 
 The first technical understanding of univalence in simplicial sets seems to be due to:
