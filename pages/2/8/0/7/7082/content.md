@@ -19,33 +19,84 @@
 
 ## Idea
 
+We discuss the correct (operational) notion of [[equivalence]] in [[type theory]].
+
 In [[dependent type theory]] with [[axiom K]] or [[uniqueness of identity proofs]], the notion of **equivalence** corresponds roughly to the notion of [[bijection]] or [[one-to-one correspondence]] in [[set theory]]. 
 
-In the context of dependent type theories without [[axiom K]] or [[uniqueness of identity proofs]], such as [[homotopy type theory]], **equivalence** corresponds to the notion of [[equivalence]] in [[groupoid|groupoid theory]] and the notion of [[homotopy equivalence]] in [[homotopy theory]]. These are sometimes called **[[weak equivalences]]**, but there is nothing [[weak equivalence|weak]] about them (in particular, they always have homotopy inverses). 
+In the context of dependent type theories without [[axiom K]] or [[uniqueness of identity proofs]], such as [[homotopy type theory]], **equivalence** corresponds to the notion of [[equivalence of categories|equivalence]] in [[groupoid|groupoid theory]] and, more generally, the notion of [[homotopy equivalence]] in [[homotopy theory]]. 
+
+In [[point-set topology]] and generally in the context of [[homotopical category|homotopical]] [[1-category]]-[[category theory|theory]], these are called *[[weak equivalences]]*, since without suitable [[resolution]] they may not be [[homotopy equivalences]]. However, via the [[categorical semantics]] of [[homotopy type theory]] in [[type-theoretic model categories]], the required [[resolutions]] are all implicit (essentially since all objects are assumed to be [[cofibrant object|cofibrant]] and [[identity types]] are interpreted as [[fibrant resolution]] of [[diagonal maps]]) so that all (weak) equivalences are actually homotopy equivalences.
+
+
 
 ## Definition
+ {#Definition}
 
-We work in [[intensional type theory|intensional]] [[type theory]] with [[dependent sums]], [[dependent products]], and [[identity types]].  
+We work in [[intensional type theory|intensional]] [[type theory]] with [[dependent sums]], [[dependent products]], and [[identity types]]. 
+
+Most of the following claims may be found proven in [UFP13, §2.4 & §4](#UFP13).
 
 ### As functions with contractible fibers
+ {#AsFunctionsWithContractibleFibers}
 
-Given types $A$ and $B$, a function $f:A \to B$, and an element $b:B$, the [[fiber type]] of $f$ at $b$ is the [[dependent sum type]] 
+Given 
 
-$$\mathrm{fiber}(f,b) \coloneqq \sum_{a:A} f(a) = b$$
+* [[types]] $\;$ $A$ and $B$, 
 
-the [[proposition]] that a type $C$ is a [[contractible type]] is
+* a [[term]] of [[function type]] $f \colon A \to B$, 
 
-$$\mathrm{isContr}(C) \coloneqq \sum_{a:C} \prod_{b:C} a =_C b$$
+* a [[term]] $b \colon B$, 
 
-and the [[proposition]] that a function $f$ has contractible fibers 
+then 
 
-$$\mathrm{hasContrFibers}(f) \coloneqq \prod_{b:B} \mathrm{isContr}(\mathrm{fiber}(f,b))$$
+1. the ([[homotopy fiber|homotopy]]) [[fiber type]] of $f$ at $b$ is the [[dependent sum type]] 
 
-We say $f$ is an **equivalence** if it comes with an witness $p:\mathrm{hasContrFibers}(f)$; that is, a function is an equivalence if all of its [[fiber types]] are [[contractible types]].
+   $$
+     \mathrm{fiber}(f,b) 
+     \;\coloneqq\; 
+     \sum_{a:A} 
+       \; f(a) = b
+     \,,
+   $$
+
+1. the [[proposition]] that any type $C$ is a [[contractible type]] is
+
+   $$
+     \mathrm{isContr}(C) 
+     \;\coloneqq\; 
+     \sum_{a:C} \prod_{b:C} a =_C b
+     \,,
+   $$
+
+1. so that the [[proposition]] that $f$ has *contractible fibers* is
+
+   $$
+     \mathrm{hasContrFibers}(f) 
+     \;\coloneqq\; 
+     \prod_{b:B} 
+      \mathrm{isContr}
+      \big(
+        \mathrm{fiber}(f,b)
+      \big)
+     \,.
+   $$
+
+\begin{definition}\label{FunctionWithContractibleFiber}
+**(functions with contractible fibers)**
+\linebreak
+We say $f$ is an **equivalence** if it comes with a witness $p \colon \mathrm{hasContrFibers}(f)$; that is, a function is an equivalence if all of its [[fiber types]] are [[contractible types]].
+\end{definition}
 
 Given two types $A$ and $B$, the **type of equivalences** from $A$ to $B$ is the [[dependent sum type]]
 
-$$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{hasContrFibers}(f)$$
+$$
+  A \simeq B 
+  \;\coloneqq\; 
+  \sum_{f:A \to B} 
+    \mathrm{hasContrFibers}(f)
+  \,.
+$$
+
 
 ### As functions with a left and a right inverse
 
@@ -175,11 +226,14 @@ There is also a notion of **strict equivalence** between two types $A$ and $B$, 
 
 Judgmentally strict equivalences are used in defining [[Shulman univalent universes]] in [[higher observational type theory]]. 
 
+
 ## Properties
 
-### Constructing the inverse function. 
+### Constructing the inverse function
+ {#ConstructingTheInverseFunction}
 
-For every equivalence, there is a function $g:B \to A$ which is an [[inverse function]]. 
+For every function $f \colon A \to B$ with contractible fibers (Def. \ref{FunctionWithContractibleFiber}), 
+there exists a function $g \colon B \to A$ which is an [[inverse function]]. 
 
 The [[principle of unique choice]] implies that given a function $f:A \to B$, if for all $b:B$ the fiber of $f$ at $b$ is contractible, then for all $b:B$ there is an element $g(b):\mathrm{fiber}(f, b)$. 
 
@@ -344,24 +398,35 @@ $$
 
   * [[stable weak homotopy equivalence]]
 
+
+
 ## References
 
-An introduction to equivalence in homotopy type theory is in 
+Textbook account:
 
-* [[Andrej Bauer]], _A seminar on HoTT equivalences_ ([blog post](http://homotopytypetheory.org/2011/12/07/a-seminar-on-hott-equivalences/))
+* {#UFP13} [[Univalent Foundations Project]], §2.4 and §4 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
-and basic ideas are also indicated from [slide 60 of part 2](https://home.sandiego.edu/~shulman/hottminicourse2012/02hott.pdf#page=60), [slide 49 of part 3](https://home.sandiego.edu/~shulman/hottminicourse2012/03models.pdf#page=49) of 
+Introduction and exposition:
 
-* [[Mike Shulman]], _Minicourse in homotopy type theory_ (2012) ([web](https://home.sandiego.edu/~shulman/hottminicourse2012/))
- {#Shulman}
+* [[Andrej Bauer]], *HoTT equivalences*, talk (2011) &lbrack;[webpage](https://math.andrej.com/2011/12/07/hott-equivalences/), [video](https://www.youtube.com/watch?v=V3YUsZx_fmo)&rbrack;
 
-[[Coq]] code for homotopy equivalences is at
+* {#Shulman} [[Mike Shulman]], from [slide 60 of part 2](https://home.sandiego.edu/~shulman/hottminicourse2012/02hott.pdf#page=60), [slide 49 of part 3](https://home.sandiego.edu/~shulman/hottminicourse2012/03models.pdf#page=49) in: _Minicourse in homotopy type theory_ (2012) &lbrack;[web](https://home.sandiego.edu/~shulman/hottminicourse2012/)&rbrack;
 
-* [HoTT repository](https://github.com/HoTT/HoTT/blob/master/theories/Basics/Equivalences.v)
+* [[Andrej Bauer]], *Equivalences* &lbrack;[video](https://www.youtube.com/watch?v=BuI62-o3Ds8)&rbrack;, Part 4 of: *[Introduction to homotopy type theory](https://www.youtube.com/playlist?list=PL-47DDuiZOMCRDiXDZ1fI0TFLQgQqOdDa)*, lecture series (2019)
 
-For equivalences as one-to-one correspondences in homotopy type theory, see
+Implementation of equivalences in [[proof assistants]]:
 
-* Mike Shulman, Towards a Third-Generation HOTT Part 1 ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA))
+in [[Coq]]:
+
+* [github.com/HoTT/HoTT/blob/master/theories/Basics/Equivalences.v](https://github.com/HoTT/HoTT/blob/master/theories/Basics/Equivalences.v)
+
+in [[Agda]]:
+
+* [agda.github.io/agda-stdlib/v1.1/Function.Equivalence.html](https://agda.github.io/agda-stdlib/v1.1/Function.Equivalence.html)
+
+On equivalences as one-to-one correspondences in homotopy type theory:
+
+* Mike Shulman, *Towards a Third-Generation HOTT* Part 1 &lbrack;[slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA)&rbrack;
 
 
 [[!redirects type of equivalences]]
