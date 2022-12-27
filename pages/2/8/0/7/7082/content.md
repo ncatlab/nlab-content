@@ -229,6 +229,100 @@ Judgmentally strict equivalences are used in defining [[Shulman univalent univer
 
 ## Properties
 
+### The issue with quasi-inverses
+ {#TheIssueWithQuasiInverses}
+
+The possibly most evident definition of equivalences as [[quasi-inverse functions]] suffers from the drawback that the type 
+
+$$
+  f \colon A \to B
+  \;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;
+  qinv(f)
+  \coloneqq
+  \underset{
+    \overline{f} \colon B \to A
+  }{\sum}
+  \;\;
+  Id_{(A \to A)}
+  \big(
+    \overline{f} \circ f 
+    ,\,
+    (a \mapsto a)
+  \big)
+  \;\times\;
+  Id_{(B \to B)}
+  \big(
+    f \circ \overline{f} 
+    ,\,
+    (b \mapsto b)
+  \big)
+  \,,
+$$
+
+which may naively look like it merely detects whether $f$ is an equivalence, is in fact *not* a [[mere proposition]] ([UFP13, Thm. 4.1.3](#UFP13)).
+
+This means that the type
+
+\[
+  \label{TheSubtlyWrongTypeOfEquivalences}
+  \underset{
+    f \colon A \to B
+  }{\sum}  
+  \;
+  \underset{
+    \overline{f} \colon B \to A
+  }{\sum}
+  \;\;
+  Id_{(A \to A)}
+  \big(
+    \overline{f} \circ f 
+    ,\,
+    (a \mapsto a)
+  \big)
+  \;\times\;
+  Id_{(B \to B)}
+  \big(
+    f \circ \overline{f} 
+    ,\,
+    (b \mapsto b)
+  \big)
+\]
+
+is --- despite its possible superficial appearance (cf. &lbrack;[Hofmann & Streicher (1998),  §5.4](#HofmannStreicher98)&rbrack;) -- *not* in fact equivalent to the correct type of equivalences $Equiv(A,B)$, which is instead obtained from this expression by including a [[0-truncation]] $[-]_{0}$:
+
+$$
+  Equiv(A,B)
+  \;\simeq\;
+  \underset{
+    f \colon A \to B
+  }{\sum}  
+  \Bigg[
+  \underset{
+    \overline{f} \colon B \to A
+  }{\sum}
+  \;\;
+  Id_{(A \to A)}
+  \big(
+    \overline{f} \circ f 
+    ,\,
+    (a \mapsto a)
+  \big)
+  \;\times\;
+  Id_{(B \to B)}
+  \big(
+    f \circ \overline{f} 
+    ,\,
+    (b \mapsto b)
+  \big)
+  \Bigg]_0
+  \,.
+$$
+
+\linebreak
+
+
 ### Constructing the inverse function
  {#ConstructingTheInverseFunction}
 
@@ -401,10 +495,18 @@ $$
 
 
 ## References
+ {#References}
 
-Textbook account:
+The notion of homotopy equivalence of types in [[homotopy type theory]] appears (together with the formulation of the [[univalence axiom]]) already in
 
-* {#UFP13} [[Univalent Foundations Project]], §2.4 and §4 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+* {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]], §5.4 of:  _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), *Twenty-five years of constructive type theory*, Proceedings of a congress, Venice, Italy, October 19-21, 1995. Oxford: Logic Guides. **36**, Clarendon Press (1998) 83-111 &lbrack;[ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz), [[HofmannStreicherGroupoidInterpretation.pdf:file]]&rbrack;
+
+except that these authors refer to the subtly incorrect type (eq:TheSubtlyWrongTypeOfEquivalences) of all equivalences.
+
+The notion of equivalences as [[function type|functions]] with [[contractible type|contractible]] [[fiber type|homotopy fibers]] (and thereby the fix of the [[univalence axiom]] of [Hofmann & Streicher (1998), §5.4](#HofmannStreicher98)) is due to:
+
+* {#UnivalentFoundationsProject} [[Vladimir Voevodsky]], p. 10 of: *Univalent Foundations Project* (2010) &lbrack;[pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf), [[Voevodsky-UFP2010.pdf:file]]&rbrack;
+
 
 Introduction and exposition:
 
@@ -413,6 +515,12 @@ Introduction and exposition:
 * {#Shulman} [[Mike Shulman]], from [slide 60 of part 2](https://home.sandiego.edu/~shulman/hottminicourse2012/02hott.pdf#page=60), [slide 49 of part 3](https://home.sandiego.edu/~shulman/hottminicourse2012/03models.pdf#page=49) in: _Minicourse in homotopy type theory_ (2012) &lbrack;[web](https://home.sandiego.edu/~shulman/hottminicourse2012/)&rbrack;
 
 * [[Andrej Bauer]], *Equivalences* &lbrack;[video](https://www.youtube.com/watch?v=BuI62-o3Ds8)&rbrack;, Part 4 of: *[Introduction to homotopy type theory](https://www.youtube.com/playlist?list=PL-47DDuiZOMCRDiXDZ1fI0TFLQgQqOdDa)*, lecture series (2019)
+
+
+Textbook account:
+
+* {#UFP13} [[Univalent Foundations Project]], §2.4 and §4 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
 
 Implementation of equivalences in [[proof assistants]]:
 
