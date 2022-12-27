@@ -92,6 +92,8 @@ $$
 
 * [[isomorphism]]
 
+* [[equivalence in homotopy type theory]]
+
 Not really related
 
 * [[inverse image]]
