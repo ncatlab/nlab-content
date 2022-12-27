@@ -459,16 +459,23 @@ See also
 
 * [[Colin McLarty]], _A univalent universe in finite order arithmetic_ ([arXiv:1412.6714](http://arxiv.org/abs/1412.6714))
 
-The [[HoTT]]-[[Coq]] code is at
+Implementation of univalence in [[proof assistants]]:
+
+in [[Agda]]:
+
+* [[1lab]], *[Univalence](https://1lab.dev/1Lab.Univalence.html)*
+
+in [[Coq]]:
 
 * _[HoTT/HoTT theories/Types/Universe.v](https://github.com/HoTT/HoTT/blob/master/theories/Types/Universe.v)_
 
 * _[HoTT/HoTT theories/UnivalenceAxiom.v](https://github.com/HoTT/HoTT/blob/master/theories/UnivalenceAxiom.v)_
 
+
 A guided walk through the formal proof that univalence implies [[functional extensionality]] is at
 
-* [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _[[Oberwolfach HoTT-Coq tutorial]]_
- {#BauerLumsdaine}
+* {#BauerLumsdaine} [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _[[Oberwolfach HoTT-Coq tutorial]]_
+ 
 
 Some details regarding the univalence axiom for [[weakly Tarski universes]] appeared on MathOverflow in:
 
