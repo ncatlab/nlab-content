@@ -226,13 +226,12 @@ There is also a notion of **strict equivalence** between two types $A$ and $B$, 
 
 Judgmentally strict equivalences are used in defining [[Shulman univalent universes]] in [[higher observational type theory]]. 
 
-
 ## Properties
 
 ### The issue with quasi-inverses
  {#TheIssueWithQuasiInverses}
 
-The possibly most evident definition of equivalences as [[quasi-inverse functions]] suffers from the drawback that the type 
+There are two ways to define a [[bijection]] in [[set theory]]: as a function which is both an [[injection]] (whose fibers are [[subsingletons]]) and a [[surjection]] (whose fibers are [[inhabited]]), and as an [[isomorphism]] of [[sets]]. The former definition in [[homotopy type theory]] leads to the definition of equivalence as a function with contractible fibers, while the latter definition leads to the definition of equivalence as a [[quasi-inverse function]]. However, the definition of equivalences as [[quasi-inverse functions]] suffers from the drawback that the type 
 
 $$
   f \colon A \to B
