@@ -182,12 +182,12 @@ The [[Gamma function]]
 
 $$\Gamma(x) = \int_0^\infty t^x e^{-t} \frac{d t}{t}$$ 
 
-is log-convex. 
+is log-convex over the domain $x \gt 0$. 
 =--
 
 +-- {: .proof} 
 ###### Proof 
-The function $x \mapsto t^{x-1}$ is log-linear, hence log-convex. Hence the integral defining $\Gamma(x)$ is a sup over suitable Riemann sums that are positive-linear combinations of the form 
+The function $x \mapsto t^{x-1}$ is log-linear, hence log-convex. Hence the integral defining $\Gamma(x)$ over $x \gt 0$ is a sup over suitable Riemann sums that are positive-linear combinations of the form 
 
 $$\sum_{i=1}^n t_i^{x-1} e^{-t_i} \Delta t_i$$ 
 and these, and together with their sup, are log-convex by the Theorem. 
