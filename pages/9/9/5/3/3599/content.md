@@ -28,7 +28,7 @@ $$
 
 is represented by a particular [[morphism]] $p\colon B\to A$, the intended meaning being that each type $B(x)$ is the [[fiber]] of $p$ over $x\in A$.  The morphism in a category that may represent dependent types in this way are sometimes called [[display morphisms]] (especially when not every morphism is a display morphism).
 
-Dependent types can be thought of as fibrations in classical homotopy theory. The base space is $X$, the total space is $\sum_{(x:X)}P(x)$ and the fiber $P(\star_X)$. This gives the fibration:
+Dependent types can be thought of as [[fibrations]] ([[Serre fibrations]]) in classical homotopy theory. The base space is $X$, the total space is $\sum_{(x:X)}P(x)$ and the fiber $P(\star_X)$. This gives the fibration:
 
 $$P(\star_X)\to \sum_{x:X}P(x) \to X$$
 
@@ -49,6 +49,8 @@ When the [[theory]] of a [[category]] is phrased in dependent type theory then t
 * [[indexed set]]
 
 ## References
+
+See the references at *[[dependent type theory]]*.
 
 * Blog post: [In praise of dependent types](http://golem.ph.utexas.edu/category/2010/03/in_praise_of_dependent_types.html)
 
