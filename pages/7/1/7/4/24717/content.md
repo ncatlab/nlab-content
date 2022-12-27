@@ -17,9 +17,15 @@
 
 ## Idea
 
-A model for [[n-categories]].
+Classically, models of weak $n$-categories comprise sets of cells in dimension 0 up to $n$. This is also called the globularity condition. Geometrically, it corresponds to cells having a globular shape
+\begin{imagefromfile}
+"file_name": "Glob_Shape.jpg",
+"width": 300
+\end{imagefromfile}
 
-(...)
+The category $n\mi n$
+
+
 
 ## Homotopically discrete n-fold categories
 
