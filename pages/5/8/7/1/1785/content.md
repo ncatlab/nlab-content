@@ -7,19 +7,24 @@
 
 * [Wikipedia article](http://secure.wikimedia.org/wikipedia/en/wiki/Vladimir_Voevodsky) . 
 
-
 Voevodsky received a [[Fields medal]] in 2002 for a [[proof]] of the [[Milnor conjecture]]. The proof crucially uses [[A1-homotopy theory]] and [[motivic cohomology]] developed by Voevodsky for this purpose. In further development of this in 2009 Voevodsky announced a proof of the [[Bloch-Kato conjecture]].
 
 After this work in [[algebraic geometry]], [[cohomology]] and [[homotopy theory]] Voevodsky turned to the [[foundations of mathematics]] and worked on [[homotopy type theory]] which he described as a new "[[univalence|univalent]] foundations" for modern mathematics with its emphasis on [[homotopy theory]] and [[higher category theory]].
 
+## Selected writings
 
-## Talks
+Introducing the modern notion of [[equivalence in type theory]] (namely via [[contractible type|contractible]] [[fiber type|fibers]]) and thereby fixing the [[univalence axiom]] of [Hofmann & Streicher (1998),  §5.4](univalence+axiom#HofmannStreicher98) (due to the [subtlety with quasi-inverses](equivalence+in+type+theory#TheIssueWithQuasiInverses)):
+
+* {#UnivalentFoundationsProject} [[Vladimir Voevodsky]],  *Univalent Foundations Project* (2010) &lbrack;[pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf), [[Voevodsky-UFP2010.pdf:file]]&rbrack;
+
+
+## Selected Talks
 
 *  {#Talk14} _The origins and motivations for univalent foundations_, IAS 2014 ([adapted transcript](https://www.ias.edu/ideas/2014/voevodsky-origins), [video]( https://video.ias.edu/voevodsky14/))
 
 * list of video-recorded talks on [[homotopy type theory]]: [here](http://video.ias.edu/taxonomy/term/42).
 
-## Interviews
+## Selected Interviews
 
 * An interview is [here](http://www.youtube.com/watch?v=vcDaQTPH-Rc).
 
