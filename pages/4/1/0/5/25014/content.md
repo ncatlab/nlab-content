@@ -39,6 +39,16 @@ $$
 
 whence the terminology. But, of course, there are other ways in which a pair of expressions can be "in-equal"; see at *[Inequality relations](#InequalityRelations)* below.
 
+On the other hand, in practice one also calls the relation
+
+$$
+  x \leq y
+$$
+
+an "inequality". Many famous inequalities are of this form (starting with the [[triangle inequality]]), often accompanied with statement of conditions when exactly the actual [[equality]] holds.
+
+
+
 ## Examples
  {#Examples}
 
@@ -47,6 +57,8 @@ whence the terminology. But, of course, there are other ways in which a pair of 
 * [[Minkowski's inequality]]
 
 * [[Cauchy-Schwarz inequality]]
+
+* [[Young's inequality]]
 
 * [[Hölder's inequality]]
 
