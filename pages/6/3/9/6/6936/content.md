@@ -242,6 +242,8 @@ Expositions:
 
 * [[Peter LeFanu Lumsdaine]], *Higher Inductive Types: The circle and friends, axiomatically* (2011) &lbrack;[pdf](http://pages.cpsc.ucalgary.ca/~robin/FMCS/FMCS2011/Lumsdaine_slides.pdf), [[Lumsdaine-HITs.pdf:file]]&rbrack;
 
+* Kajetan Söhnen, *Higher Inductive Types in Homotopy Type Theory*,Munich (2018) &lbrack;[pdf](https://www.math.lmu.de/~petrakis/Soehnen.pdf)&rbrack;
+
 Details on the [[categorical semantics]] of HITs:
 
 * {#LumsdaineShulman17} [[Peter LeFanu Lumsdaine]], [[Mike Shulman]], *Semantics of higher inductive types*, Math. Proc. Camb. Phil. Soc. **169** (2020) 159-208 &lbrack;[arXiv:1705.07088](https://arxiv.org/abs/1705.07088), talk slides [pdf](http://home.sandiego.edu/~shulman/papers/cellcxs.pdf), [doi:10.1017/S030500411900015X](https://doi.org/10.1017/S030500411900015X)&rbrack;
