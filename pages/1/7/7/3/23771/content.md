@@ -21,9 +21,9 @@ What is called _higher observational type theory_ (HOTT) is a flavor of  [[inten
 
 There are a few technical differences (e.g. [[proofs]] of [[types]] in a [[universe]] are [[definitional equality|definitionally equal]] in HOTT, whereas proofs of types in a universe are only [[propositional equality|propositionally equal]] in HoTT) but on the whole HoTT looks a lot like HOTT.
 
-## Overview ##
+## Mike Shulman's higher observational type theory
 
-We are working in a [[dependent type theory]]. 
+We are working in a [[dependent type theory]] with [[judgmental equality]]. 
 
 ### Telescopes ###
 
