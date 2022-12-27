@@ -24,9 +24,9 @@ Classically, models of weak $n$-categories comprise sets of cells in dimension 0
 \end{imagefromfile}
 
 On the other hand, non-globular structures exist in higher category theory: for instance, $n$-fold categories, defined by iterated internalization
-\begin{equation*}
-Cat^{0}=Set,\qquad\qquad Cat^{n}=Cat(cat^{n-1})\;.
-\end{equation*}
+\[
+Cat^{0}=Set,\qquad\qquad Cat^{n}=Cat(Cat^{n-1})\;.
+\]
 
 
 
