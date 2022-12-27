@@ -385,16 +385,17 @@ In a post to the [Homotopy Type Theory Google Group](https://groups.google.com/f
 ## References
  {#References}
 
-The earliest occurrence of the univalence axiom is due to, under the name "universe extensionality"
+The earliest occurrence of the univalence axiom is due -- under the name "universe extensionality" -- to:
 
 * {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]], Section 5.4 of:  _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), *Twenty-five years of constructive type theory*, Proceedings of a congress, Venice, Italy, October 19-21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. **36** (1998) 83-111   &lbrack;[ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz), [[HofmannStreicherGroupoidInterpretation.pdf:file]]&rbrack;
 
-These authors formulate almost the modern univalence axiom; the only difference is the lack of a coherent definition of [[equivalence in homotopy type theory|equivalence]].  
+The only issue is that these authors refer to a subtly incorrect type of [[equivalences in homotopy type theory]] (see [there](equivalence+in+type+theory#TheIssueWithQuasiInverses) for details).
 
-The univalence axiom has famously come to be attributed to [[Vladimir Voevodsky]], though early documentation is hard to come by:
+It is this notion of [[equivalence in homotopy type theory]] which was fixed by [[Vladimir Voevodsky]] (...reference?), ever since the univalence axiom is widely attributed to him.
 
+Early documentation of the univalence axiom in modern form is hard to come by:
 
-The first technical understanding of univalence in simplicial sets seems to be due to:
+The first technical understanding of (the semantics of) univalence in simplicial sets seems to be due to:
 
 * {#Bousfield06} [[Aldridge Bousfield]], [email to VV from 01 May 2006 10:10:30 CDT](https://groups.google.com/g/homotopytypetheory/c/K_4bAZEDRvE/m/YSQz-jJ_AAAJ) $[$[[BousfieldOnUnivalence.jpg:file]]$]$
 
@@ -404,7 +405,7 @@ The first mentioning by Voevodsky of the term "univalence" by email is 3.5 years
 
 The earliest accounts by Voevodsky's hand date from 2010, but the un-iniated may have trouble recognizing the univalence axiom here:
 
-* {#UnivalentFoundationsProject} [[Vladimir Voevodsky]], Section 4 of: _Univalent Foundations Project_, 2010 ([pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf))
+* {#UnivalentFoundationsProject} [[Vladimir Voevodsky]], Section 4 of: _Univalent Foundations Project_ (2010) &lbrack;[pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf), [[Voevodsky-UFP2010.pdf:file]]&rbrack;
  
 * [[Vladimir Voevodsky]], *The equivalence axiom and univalent models of type theory* (Talk at CMU on February 4, 2010) ([arXiv:1402.5556](https://arxiv.org/abs/1402.5556))
 
