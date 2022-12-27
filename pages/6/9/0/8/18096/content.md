@@ -15,37 +15,75 @@
 
 ## Idea 
 
-*Hölder's inequality* is a basic [[inequality]] in [[analysis]], used to prove that if the sum of positive numbers $p, q$ equals their product, then the [[L-p space|Banach spaces]] $L^p, L^q$ are Banach duals of one another. 
+*Hölder's inequality* is a basic [[inequality]] in [[analysis]], which can be interpreted as saying that the $\mathbf{C}$-graded \*-algebra of [[L^p-spaces]]
+$$L^{1/p}(X,\mu)$$
+(the unfortunate reciprocal in the grading is explained in the article [[Lebesgue space]])
+is a $\mathbf{C}$-graded __normed__ \*-algebra.
+That is, the canonical bilinear multiplication map
+$$L^{1/p}(X,\mu)\otimes L^{1/q}(X,\mu)\to L^{1/(p+q)}(X,\mu)$$
+is a [[contractive map]], i.e.,
+if $f\in L^{1/p}(X,\mu)$ and $g\in L^{1/q}(X,\mu)$, then 
+$$f g \in L^{1/(p+q)}(X,\mu)$$
+and
+$$\|f g \|\le \|f\|\cdot\|g\|,$$
+where the norms are [[p-norms]] for the corresponding values of $p$.
+
+As a consequence, it implies that the canonical pairing
+$$L^{1/p}(X,\mu)\otimes L^{1/(1-p)}(X,\mu)\to L^1(X,\mu)\to \mathbf{C}$$
+exhibits $L^{1/(1-p)}(X,\mu)$ as the [[Banach space]] dual of the [[Banach space]] $L^{1/p}(X,\mu)$.
 
 ## Statements 
 
-Let $(X, \mu)$ be a [[measure space]], and for $p \gt 0$ let $L^p$ denote $L^p(X, \mu)$, the Banach space of complex-valued functions on $X$ with finite [[p-norm]]  considered modulo almost everywhere equality. Suppose $p, q$ are positive real numbers such that $\frac1{p} + \frac1{q} = 1$ (that is, $q+p=q p$). Then **Hölder's inequality** states that for any $f \in L^p, g \in L^q$ we have 
+Let $(X, \mu)$ be a [[measure space]], and for $p \in \mathbf{C}$ a complex number with a nonnegative real part let $L^{1/p}$ denote $L^{1/p}(X, \mu)$, the Banach space of complex-valued functions on $X$ with finite [[p-norm|1/p-norm]] modulo equality almost everywhere.
 
-$$\int_X \left| f g \right| \leq {\|f\|_p} {\|g\|_q}$$ 
+Suppose $p,q,r\in \mathbf{C}$ have nonnegative real parts and $p+q=r$. Then **Hölder's inequality** states that for any $f \in L^{1/p}$, $g \in L^{1/q}$ we have 
+$$f g \in L^{1/r}(X,\mu)$$
+and
+$$\|f g\|_{1/r}\le\|f\|_{1/p}\cdot \|g\|_{1/q}.$$
 
+## Duality
+
+In particular, if $r=1$ we have
+$$\int_X \left| f g \right| \leq {\|f\|_{1/p}} {\|g\|_{1/q}}$$ 
 (in particular, $f g$ is an $L^1$ function). 
 
-The "[[nPOV]]" meaning is this: in this situation there is a canonical pairing $\langle -, - \rangle$ between $L^p$ and $L^q$, 
+The "[[nPOV]]" meaning is this: in this situation there is a canonical pairing $\langle -, - \rangle$ between $L^{1/p}$ and $L^{1/q}$, 
+$$L^{1/p} \times L^{1/q} \to \mathbb{C}: (f, g) \mapsto \langle f, g \rangle \coloneqq \int_X f \cdot g,$$ 
+which gives a bounded linear map
+$$L^{1/p} \otimes L^{1/q} \to \mathbb{C}$$
+between Banach spaces. The point of Hölder's inequality is that this pairing is a *short* map, i.e., a map of norm bounded above by $1$. In other words, this is morphism in the [[symmetric monoidal closed category]] [[Ban]] consisting of Banach spaces and short linear maps between them. Accordingly, the map
+$$L^{1/p} \otimes L^{1/q} \to \mathbb{C}$$
+induces (by [[currying]]) a map from $L^{1/p}$ to the Banach dual of $L^{1/(1-p)}$: 
+$$L^{1/p} \to (L^{1/q})^\ast \coloneqq [L^{1/q}, \mathbb{C}]$$ 
+(again a short map of course), and reciprocally a map $L^{1/q} \to (L^{1/p})^\ast$. 
 
-$$L^p \times L^q \to \mathbb{C}: (f, g) \mapsto \langle f, g \rangle \coloneqq \int_X f \cdot g,$$ 
+It is a short step to prove that in fact the norm of the pairing $L^{1/p} \otimes L^{1/q} \to \mathbb{C}$ is *exactly* $1$, and even better that the maps $L^{1/p} \to (L^{1/q})^\ast$ and $L^{1/q} \to (L^{1/p})^\ast$ are in fact [[isometry|isometric]] embeddings.
 
-which gives a bounded linear map $L^p \otimes L^q \to \mathbb{C}$ between Banach spaces. The point of Hölder's inequality is that this pairing is a *short* map, i.e., a map of norm bounded above by $1$. In other words, this is morphism in the [[symmetric monoidal closed category]] [[Ban]] consisting of Banach spaces and short linear maps between them. Accordingly, the map $L^p \otimes L^q \to \mathbb{C}$ induces (by [[currying]]) a map from $L^p$ to the Banach dual of $L^q$: 
-
-$$L^p \to (L^q)^\ast \coloneqq [L^q, \mathbb{C}]$$ 
-
-(again a short map of course), and reciprocally a map $L^q \to (L^p)^\ast$. 
-
-It is a short step to prove that in fact the norm of the pairing $L^p \otimes L^q \to \mathbb{C}$ is *exactly* $1$, and even better that the maps $L^p \to (L^q)^\ast$ and $L^q \to (L^p)^\ast$ are in fact [[isometry|isometric]] embeddings. With a little more work (with the help of the [[Radon-Nikodym theorem]]; see for example [here](https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes_ch7.pdf)), one sees these maps are [[surjective map|surjective]] and thus [[isomorphisms]] in $Ban$. 
+If the real parts of $p$ and $q$ are nonzero, then
+with a little more work (with the help of the [[Radon-Nikodym theorem]]; see for example [here](https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes_ch7.pdf)), one sees these maps are [[surjective map|surjective]] and thus [[isomorphisms]] in $Ban$. 
 
 +-- {: .num_remark} 
 ###### Remark 
-Throughout we are working in the range $1 \lt p, q \lt \infty$. We also have a H&#246;lder inequality in the extreme case where $p = 1$, $q = \infty$, something which is easily seen directly, and it is true also that $(L^1)^\ast \cong L^\infty$, *but* it is not true that $(L^\infty)^\ast$ is isomorphic to $L^1$. Or, it is at least not true in [[ZFC]], although it may be true in [[dream mathematics]]. 
+It is true also that $(L^1)^\ast \cong L^\infty$, *but* it is not true that $(L^\infty)^\ast$ is isomorphic to $L^1$. Or, it is at least not true in [[ZFC]], although it may be true in [[dream mathematics]]. 
 =-- 
 
-## Proof of Hölder's inequality 
+## The noncommutative case
+
+Remarkably, [[L^p-spaces]] can be defined for arbitrary [[von Neumann algebras]] (Haagerup, 1979)
+and the Hölder inequality continues to hold in this generality (Kosaki, 1984).
+
+The $L^{1/p}$-spaces are now [[bimodules]] over the underlying [[von Neumann algebra]].
+
+If the real part of $p$ is zero
+and the [[von Neumann algebra]] is commutative,
+than the space $L^{1/p}$ is (noncanonically) isomorphic to $L^\infty$.
+
+In the noncommutative case this is no longer true,
+which is the starting point of the [[Tomita–Takesaki theory]].
+
+## Proof of Hölder's inequality in the commutative case
 
 The proof is remarkably simple. First, if $p, q \gt 0$ and $\frac1{p} + \frac1{q} = 1$, then we have *[[Young's inequality]]*, viz. for $a, b \gt 0$ 
-
 $$
   a b 
   \;\leq\;
@@ -54,16 +92,13 @@ $$
   \frac{b^q}{q}
   \,,
 $$ 
-
 with equality precisely when $a^p = b^q$. This is quickly derived from the (strict) convexity of the [[exponential function]], that $0 \leq t \leq 1$ implies  
-
 $$
   e^{t x + (1-t)y} 
   \leq 
   t e^x + (1-t)e^y
   \,,
 $$ 
-
 where equality holds iff $e^x = e^y$. All one has to do is put $t = \frac{1}{p}$ and arrange $x, y$ so that $e^x = a^p$ and $e^y = b^q$. 
 
 Then, to prove ${|\langle f, g \rangle|} \leq {\|f\|_p} {\|g\|_q}$, we may assume $f, g$ nonzero (so their norms are positive) and normalize them to unit vectors $u = f/{\|f\|_p}, v = g/{\|g\|_q}$, so that now the object is to prove 
