@@ -5,7 +5,7 @@
 
 ## Definition
 
-A [[function]] $f$ from $A$ to $B$ is __injective__ if $x = y$ whenever $f(x) = f(y)$.  An injective function is also called __one-to-one__ or an __injection__; it is the same as a [[monomorphism]] in [[Set|the category of sets]].
+A [[function]] $f$ from $A$ to $B$ is __injective__ if $x = y$ whenever $f(x) = f(y)$. Equivalently, a function is injective if all its [[fibers]] are [[subsingletons]]: for all elements $b \in B$ and for all elements $x \in A$ and $y \in A$, if $f(x) = b$ and $f(y) = b$, then $x = y$. An injective function is also called __one-to-one__ or an __injection__; it is the same as a [[monomorphism]] in [[Set|the category of sets]]. 
 
 A _[[bijection]]_ is a function that is both injective and [[surjection|surjective]].
 
