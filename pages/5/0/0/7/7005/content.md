@@ -389,11 +389,13 @@ The earliest occurrence of the univalence axiom is due -- under the name "univer
 
 * {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]], Section 5.4 of:  _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), *Twenty-five years of constructive type theory*, Proceedings of a congress, Venice, Italy, October 19-21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. **36** (1998) 83-111   &lbrack;[ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz), [[HofmannStreicherGroupoidInterpretation.pdf:file]]&rbrack;
 
-The only issue is that these authors refer to a subtly incorrect type of [[equivalences in homotopy type theory]] (see [there](equivalence+in+type+theory#TheIssueWithQuasiInverses) for details).
+But these authors refer to a subtly incorrect type of [[equivalences in homotopy type theory]] (see [there](equivalence+in+type+theory#TheIssueWithQuasiInverses) for details).
 
-It is this notion of [[equivalence in homotopy type theory]] which was fixed by [[Vladimir Voevodsky]] (...reference?), ever since the univalence axiom is widely attributed to him.
+It is this notion of [[equivalence in homotopy type theory]] which was fixed in 
 
-Early documentation of the univalence axiom in modern form is hard to come by:
+* {#Voevodsky10} [[Vladimir Voevodsky]], p. 8, 10-11 of: *Univalent Foundations Project* (2010) &lbrack;[pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf), [[Voevodsky-UFP2010.pdf:file]]&rbrack;
+
+ever since the univalence axiom is widely attributed to Voevodsky. Earlier documentation of the univalence axiom in modern form is hard to come by:
 
 The first technical understanding of (the semantics of) univalence in simplicial sets seems to be due to:
 
@@ -403,10 +405,10 @@ The first technical understanding of (the semantics of) univalence in simplicial
 
 The first mentioning by Voevodsky of the term "univalence" by email is 3.5 years later, from [Dec. 30 2009](https://groups.google.com/g/homotopytypetheory/c/K_4bAZEDRvE/m/3N2xxxfSAAAJ) (according to [Grayson, Oct. 2017](https://groups.google.com/g/homotopytypetheory/c/K_4bAZEDRvE/m/-Lp5dxTTAAAJ)).
 
-The earliest accounts by Voevodsky's hand date from 2010, but the un-iniated may have trouble recognizing the univalence axiom here:
+The earliest recorded statement of the univalence axiom by Voevodsky's hand date may be [Voevodsky (2010), p. 11](#Voevodsky10)
 
-* {#UnivalentFoundationsProject} [[Vladimir Voevodsky]], Section 4 of: _Univalent Foundations Project_ (2010) &lbrack;[pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf), [[Voevodsky-UFP2010.pdf:file]]&rbrack;
- 
+see also:
+
 * [[Vladimir Voevodsky]], *The equivalence axiom and univalent models of type theory* (Talk at CMU on February 4, 2010) ([arXiv:1402.5556](https://arxiv.org/abs/1402.5556))
 
 
@@ -420,9 +422,9 @@ appears the claim that:
 
 
 
-A clean and comprehensive discussion finally appears in the textbook:
+A comprehensive discussion finally appears in the textbook:
 
-* [[UF-IAS-2012|Univalent Foundations Project]], p. 4 & Sec. 2.10 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]*, 2013  (**[web](http://homotopytypetheory.org/book/)**, **[pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)**)
+* [[UF-IAS-2012|Univalent Foundations Project]], p. 4 & Sec. 2.10 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013)  &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
 Voevodsky's ([Bousfield's](#Bousfield06)) original idea for the [[universal Kan fibration]] as a model for a univalent universe in [[simplicial sets]]/[[infinity-groupoids|$\infty$-groupoids]] was eventually published as:
 
