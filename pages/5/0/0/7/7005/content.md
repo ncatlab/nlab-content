@@ -71,11 +71,20 @@ $$A \simeq_U B \coloneqq \sum_{R:T(A) \times T(B) \to U} isOneToOne(R)$$
 
 A universe $U$ is **univalent** if for all $A:U$ and $B:U$, the canonical map
 
-$$\mathrm{idtoequiv}_U(A, B):(A =_U B) \to (A \simeq_U B) $$
+$$
+  \mathrm{idtoequiv}_U(A, B)
+  \;\colon\;
+  (A =_U B) \to (A \simeq_U B) 
+$$
 
-from the identity type $A =_U B$ to the type of one-to-one correspondences $A \simeq_U B$, defined by [[identification elimination]] which take the reflexive identification $\mathrm{refl}_U(X):X =_U X$ to the identity one-to-one correspondence $\Delta_X:X \simeq X$, is an [[equivalence of types]]
+from the [[identity type]] $A =_U B$ to the type of one-to-one correspondences $A \simeq_U B$, defined by [[identification elimination]] which take the reflexive identification $\mathrm{refl}_U(X):X =_U X$ to the identity one-to-one correspondence $\Delta_X:X \simeq X$, is an [[equivalence of types]]
 
-$$\mathrm{idtoequiv}_U(A, B):(A =_U B) \simeq (A \simeq_U B)$$
+$$
+  \mathrm{idtoequiv}_U(A, B)
+  \;\colon\;
+  (A =_U B) \simeq (A \simeq_U B)
+  \,.
+$$
 
 ## Alternate versions of univalence
 
