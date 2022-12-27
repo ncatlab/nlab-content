@@ -52,6 +52,12 @@ Notice that there are several ways to define a [[bijection]] in [[set theory]]:
 
    (Def. \ref{FunctionWithContractibleFiber} below).
 
+1. as a [[relation]] which is an injective and surjective [[anafunction]].  --
+
+   in [[homotopy type theory]] this leads to the definition of equivalence as a one-to-one correspondence
+
+   (Def. \ref{OneToOneCorrespondence} below).
+
 \linebreak
 
 {#OutlookOnEquivalenceOfDefinitions} As (eventually to be) discussed in the *[Properties](#Properties)*-section below,
@@ -209,18 +215,17 @@ $$
 
 This definition originates with [Voevodsky (2010), p. 8, 10](#Voevodsky10).
 
-
-### As adjoint equivalences
-
-
-(...) like for a homotopy equivalence above, but in addition requiring the [[triangle identity]] for $f$ and $g$ -- as in an [[adjoint equivalence]] (...)
-
-
 ### As one-to-one correspondences
+  {#OneToOneCorrespondences}
 
 Let $\mathcal{U}$ be a [[universe]] and $A:\mathcal{U}$ and $B:\mathcal{U}$ be terms of the universe, and $R :A \times B \to \mathcal{U}$ be a [[correspondence]] between $A$ and $B$. We define the property of $R$ being **one-to-one** as follows:
 
 $$isOneToOne(R) \coloneqq \left(\prod_{a:A} \mathrm{isContr}\left(\sum_{b:B} R(a,b)\right)\right) \times \left(\prod_{b:B} \mathrm{isContr}\left(\sum_{a:A} R(a,b)\right)\right)$$
+
+\begin{definition}\label{OneToOneCorrespondence}
+\linebreak
+We say $R$ is an **equivalence** if it comes with a witness $p:isOneToOne(R)$. 
+\end{definition}
 
 We define the type of equivalences from $A$ to $B$ in $\mathcal{U}$ as 
 
@@ -228,85 +233,9 @@ $$(A \simeq_\mathcal{U} B)  \equiv \sum_{R : (A \times B) \to \mathcal{U}} isOne
 
 By the [[type theoretic axiom of replacement]], the image of $R$ is $\mathcal{U}$-small, and thus $A \simeq_\mathcal{U} B$ is $\mathcal{U}$-small as well. 
 
-One could also forego universes entirely and make this definition into rules of the type theory, as follows:
+### As adjoint equivalences
 
-Formation rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, y:B \vdash \mathcal{T}(R, x, y) \; \mathrm{type}}$$
-
-Totality rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \lambda(R, y):A} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \lambda_\tau(R, y):\mathcal{T}(R, \lambda(R, y), y)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \rho(R, x):B} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \rho_\tau(R, x):\mathcal{T}(R, x, \rho(R, x))}$$
-
-Uniqueness rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A, u:\mathcal{T}(R, x, y) \vdash \eta_\lambda(R, y, x, u):(\lambda(R, y), \lambda_\tau(R, y)) =_{\sum_{x:A} \mathcal{T}(R, x, y)} (x, u)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, y:B, u:\mathcal{T}(R, x, y) \vdash \eta_\rho(R, x, y, u):(\rho(R, x), \rho_\tau(R, x)) =_{\sum_{y:B} \mathcal{T}(R, x, y)} (y, u)}$$
-
-This is valid so long as the dependent type theory has [[identity types]] and [[dependent sum types]]. By the [[principle of unique choice]], one could derive functions $f:A \to B$ and $g:B \to A$ given an equivalence $R:A \simeq B$, which are [[coherent inverse functions]] of each other and have [[contractible]] [[fibers]] each. 
-
-The identity equivalence on a type $A$ is defined as an equivalence $\mathrm{id}_A:A \simeq A$ such that for all elements $a:A$ and $b:A$,
-
-$$\mathcal{T}(\mathrm{id}_A, a, b) \coloneqq (a =_A b)$$
-
-Given an equivalence $R:A \simeq B$, the inverse equivalence of $R$ is an equivalence $R^{-1}:B \simeq A$ such that for all elements $a:A$ and $b:B$,
-
-$$\mathcal{T}(R^{-1}, b, a) \coloneqq \mathcal{T}(R)(a, b)$$
-
-Given equivalences $R:A \simeq B$ and $S:B \simeq C$, the composite of $R$ and $S$ is an equivalence $S \circ R:A \simeq C$ such that for all elements $a:A$ and $c:C$,
-
-$$\mathcal{T}(S \circ R, a, c) \coloneqq \sum_{b:B} \mathcal{T}(R, a, b) \times \mathcal{T}(S, b, c)$$
-
-### Rules for equivalence types
-
-These are similar to the rules for one-to-one correspondences, but use pairs of [[quasi-inverse functions]] each with [[contractible]] [[fibers]], rather than one-to-one correspondences. 
-
-Formation rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
-
-Quasi-inverse rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \lambda(R, y):A} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \rho(R, x):B}$$ 
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \lambda_\tau(R, y):\rho(R, \lambda(R, y)) =_B y}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \rho_\tau(R, x):\lambda(R, \rho(R, x)) =_A x}$$
-
-Uniqueness rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A, u:\rho(R, x) =_B y \vdash \eta_\lambda(R, y, x, u):(\lambda(R, y), \lambda_\tau(R, y)) =_{\sum_{x:A} \rho(R, x) =_B y} (x, u)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, y:B, u:\tau(R, y) =_A x \vdash \eta_\rho(R, x, y, u):(\rho(R, x), \rho_\tau(R, x)) =_{\sum_{y:B} \lambda(R, y) =_A x} (y, u)}$$
-
-This is valid so long as the dependent type theory has [[identity types]] and [[dependent sum types]]. There is another definition of equivalence type which uses [[identity types]] and [[heterogeneous identity types]] rather than [[identity types]] and [[dependent sum types]]:
-
-Rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \lambda(R, y):A} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \rho(R, x):B}$$ 
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A \vdash \lambda_\kappa(R, x, y):\lambda(R, y) =_A x}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, y:B \vdash \rho_\kappa(R, x, y):\rho(R, x) =_B y}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A, u:\rho(R, x) =_B y \vdash \eta_\lambda(R, y, x, u):\rho_\kappa(R, \lambda(R, y), y) =_{\rho(R, -) =_B y}^{\lambda_\kappa(R, x, y)} u}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, y:B, u:\lambda(R, y) =_A x \vdash \eta_\rho(R, x, y, u):\lambda_\kappa(R, x, \rho(R, x)) =_{\lambda(R, -) =_A x}^{\rho_\kappa(R, x, y)} u}$$
-
-This can be shown to be equivalent to the type above via the extensionality property of the [[dependent sum type]]. 
-
-The identity equivalence on a type $A$ is defined as an equivalence $\mathrm{id}_A:A \simeq A$ such that for all elements $a:A$,
-
-$$\lambda(\mathrm{id}_A, a) \coloneqq a$$
-$$\rho(\mathrm{id}_A, a) \coloneqq a$$
-
-Given an equivalence $R:A \simeq B$, the inverse equivalence of $R$ is an equivalence $R^{-1}:B \simeq A$ such that for all elements $a:A$ and $b:B$,
-
-$$\rho(R^{-1}, a) \coloneqq \lambda(R, a)$$
-$$\lambda(R^{-1}, b) \coloneqq \rho(R, b)$$
-
-Given equivalences $R:A \simeq B$ and $S:B \simeq C$, the composite of $R$ and $S$ is an equivalence $S \circ R:A \simeq C$ such that for all elements $a:A$ and $c:C$,
-
-$$\lambda(S \circ R, a) \coloneqq \lambda(R, \lambda(S, a))$$
-$$\rho(S \circ R, c) \coloneqq \rho(S, \rho(R, c))$$
+(...) like for a homotopy equivalence above, but in addition requiring the [[triangle identity]] for $f$ and $g$ -- as in an [[adjoint equivalence]] (...)
 
 ### Coinductive definition
 
@@ -326,6 +255,24 @@ Judgmentally strict equivalences are used in defining [[Shulman univalent univer
 
 ## Properties
  {#Properties}
+
+### Functions with contractible fibers and one-to-one correspondences
+
+We define an [[anafunction]] to be a type family $R :A \times B \to \mathcal{U}$ with a witness
+
+$$p:\prod_{a:A} \mathrm{isContr}\left(\sum_{b:B} R(a,b)\right)$$
+
+The [[principle of unique choice]] holds in [[dependent type theory]]. This means that given any anafunction $R :A \times B \to \mathcal{U}$, there is function $f:A \to B$. Similarly, for any function $f:A \to B$, there is an anafunction $R :A \times B \to \mathcal{U}$ defined by $R(a,b) \coloneqq f(a) =_B b$. 
+
+A function with contractible fibers comes with a witness 
+
+$$q:\prod_{b:B} \mathrm{isContr}\left(\sum_{a:A} f(a) =_A b\right)$$
+
+while an one-to-one correspondence is an anafunction which comes with a witness 
+
+$$q:\prod_{b:B} \mathrm{isContr}\left(\sum_{a:A} R(a, b)\right)$$
+
+Since we established that the types $f(a) =_A b$ and $R(a, b)$ are the same for function $f$ and anafunction $R$, functions with contractible fibers are equivalent to one-to-one correspondences. 
 
 ### The issue with two-sided quasi-inverses
  {#TheIssueWithQuasiInverses}
@@ -590,7 +537,7 @@ $$
 
   * [[stable weak homotopy equivalence]]
 
-
+* [[equivalence type]]
 
 ## References
  {#References}
@@ -639,8 +586,6 @@ On equivalences as one-to-one correspondences in homotopy type theory:
 * Mike Shulman, *Towards a Third-Generation HOTT* Part 1 &lbrack;[slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA)&rbrack;
 
 
-[[!redirects type of equivalences]]
-[[!redirects types of equivalences]]
 [[!redirects equivalence of types]]
 [[!redirects equivalences of types]]
 
