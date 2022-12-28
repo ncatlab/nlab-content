@@ -29,7 +29,7 @@ This consists of all those elements $k \in \mathbb{Z}/n$ which are represented b
 
 ## Euler totient function 
 
-The cardinality ${|(\mathbb{Z}/n)^\times|}$ is often denoted $\phi(n)$ (after Euler), and $\phi$ is known as the Euler totient function. 
+The cardinality ${|(\mathbb{Z}/n)^\times|}$ is often denoted $\phi(n)$ (after [[Leonhard Euler]]), and $\phi$ is known as the *Euler totient function*. 
 
 The function $\phi$ is *multiplicative* in the standard number theory sense: $\phi(m n) = \phi(m)\phi(n)$ is $m$ and $n$ are coprime. This is a corollary of the [[Chinese remainder theorem]], which asserts that the canonical ring map 
 
@@ -55,6 +55,12 @@ $$\phi(p^r) = p^r - p^{r-1} = p^{r-1}(p-1).$$
 
 * Wikipedia, _[Multiplicative group of integers modulo n](https://en.wikipedia.org/wiki/Multiplicative_group_of_integers_modulo_n)_
 
+* Wikipedia, *[Euler's totient function](https://en.wikipedia.org/wiki/Euler%27s_totient_function)*
+
 [[!redirects multiplicative groups of integers modulo n]]
 
 [[!redirects modulo]]
+
+[[!redirects Euler totient function]]
+[[!redirects Euler's totient function]]
+
