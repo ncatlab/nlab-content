@@ -1,35 +1,43 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+
 \tableofcontents
 
-## Idea 
 
-An *epistemology* is a certain type of [[cartesian bicategory]] that admits a "free cocompletion". 
+## Idea
 
-For now it is an experimental notion, testing how far it might be possible to "do" enriched category theory (including working with enriched functor categories) without regard to size considerations. To what extent they can be said to "exist" is part of some ongoing investigation, but we give the axioms below. 
+In [[philosophy]], *epistemology* refers to the theory of knowledge.
 
-## Definition 
+The [[mathematics|mathematical]] [[formal logic|formalization]] of epistemology is the subject of [[epistemic modal logic]] (and possibly of [[modal logic]] and [[modal type theory]] more generally).
 
-Recall that a proarrow equipment consists of 
+## Related concepts
 
-* a (weak) 2-category (or [[bicategory]]) $M$, generally thought of as a bicategory of *[[profunctor|modules]]*, 
+* [[epistemology of mathematics]]
 
-* a 2-category $K$ together with a functor (a homomorphism of bicategories in the older terminology) $i: K \to M$ that is locally fully faithful and bijective on objects, for which $i(f)$ is a left adjoint 1-cell in $M$ for each 1-cell $f: a \to b$ in $K$. This $i(f)$ is often denoted $B(1, f): a \nrightarrow b$, with right adjoint denoted $B(f, 1): b \nrightarrow a$. 
+* [[epistemic modal logic]]
 
-We say that the proarrow equipment is *potent* if $i: K \to M$ admits a right (bi-)adjoint functor $p: M \to K$ that is KZ (Kock-Z&#246;berlein), meaning that the induced 2-monad $p i: K \to K$ is [[lax-idempotent 2-monad|lax-idempotent]]. This 2-monad is to be thought of as a free cocompletion. 
+## Literature
 
-Another way of stating the lax-idempotence: let $y: 1_K \to p i$ denote the unit and $e: i p \to 1_M$ the counit of the 2-monad. In addition we have triangulator isomorphisms $t: 1_i \stackrel{\sim}{\to} (e i)(i y)$ and $s: (p e)(y p) \stackrel{\sim}{\to} 1_p$ as in 
+Textbook accounts:
 
-$$\array{
- & & i p i & & \\ 
- & \mathllap{i y} \nearrow & \Uparrow t & \searrow \mathrlap{e i} & \\ 
-i & & \underset{1_i}{ \; \; \; \; \; \to \; \; \; \; \; \; \; } & & i
-}$$
+* Robert Audi , *Epistemology -- A Contemporary Introduction to the Theory of Knowledge*, Routledge (2011) &lbrack;[ISBN:9780415879231](https://www.routledge.com/Epistemology-A-Contemporary-Introduction-to-the-Theory-of-Knowledge/Audi/p/book/9780415879231)&rbrack;
 
-$$\,$$ 
+*  Duncan Pritchard, *Epistemology*, Springer (2016) &lbrack;[doi:10.1007/978-1-137-52692-2](https://doi.org/10.1007/978-1-137-52692-2)&rbrack;
 
-$$\array{
-p & & \overset{1_p}{ \; \; \; \; \; \to \; \; \; \; \; \; \; } & & p \\ 
- & \mathllap{y p} \searrow & \Uparrow s & \nearrow \mathrlap{p e} \\ 
- & & p i p & & 
-}$$ 
+See also:
 
-and the adjunction is KZ if $t$ is the unit of an adjunction $i y \dashv e i$ (in other words, $e = B(y, 1)$ according to the notion of proarrow equipment). This is equivalent to the condition that $s$ is the counit of an adjunction $p e \dashv y p$ in $K$. 
+* Wikipedia, *[Epistemology](https://en.wikipedia.org/wiki/Epistemology)*
+
+* Stanford Encyclopedia of Philosophy, *[Epistemology](https://plato.stanford.edu/entries/epistemology/)*
+
+
+
