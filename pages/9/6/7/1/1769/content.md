@@ -66,7 +66,9 @@ In some [[constructive analysis|constructive approaches to analysis]] (including
 
 Every complete metric space is a [[Baire space]].  Since being a Baire space is a [[topological property]], it follows that every [[topologically complete space]] is a Baire space.
 
-There is also a topological property of [[Cech-complete space|Čech-completeness]] that is related  to this; in particular, a metric space is &#268;ech-complete if and only if it is complete, and every &#268;ech-complete space is a Baire space.  In general, we have these proper implications: topologically complete &#8594; &#268;ech-complete &#8594; Baire.
+There is also a topological property of [[Cech-complete space|Čech-completeness]] that is related  to this; in particular, a metric space is &#268;ech-complete if and only if it is complete, and every &#268;ech-complete space is a Baire space.  In general, we have these proper implications: topologically complete &#8594; &#268;ech-complete &#8594; Baire. 
+
+It is not the case that a complete uniform space (meaning complete with respect to its uniformity) is a Baire space. See MathOverflow [here](https://mathoverflow.net/questions/212308/baire-category-theorem-for-complete-uniform-spaces) for some examples. 
 
 
 ## Generalization
