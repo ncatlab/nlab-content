@@ -27,7 +27,8 @@ On the other hand, non-globular structures exist in higher category theory: for 
 \[
 Cat^{0}=Set,\qquad\qquad Cat^{n}=Cat(Cat^{n-1})\;.
 \]
-The category $n\text{-}Cat$ of strict $n$-categories is defined by iterated enrichment:
+The category $n\text{-}Cat$ of strict $n$-categories is defined by iterated enrichment: $\mathsf{Set}$
+
 
 
 ## Homotopically discrete n-fold categories
