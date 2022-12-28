@@ -27,7 +27,20 @@ On the other hand, non-globular structures exist in higher category theory: for 
 \[
 Cat^{0}=Set,\qquad\qquad Cat^{n}=Cat(Cat^{n-1})\;.
 \]
-The category $n\text{-}Cat$ of strict $n$-categories is defined by iterated enrichment: $\mathsf{Set}$
+The category $n\text{-}Cat$ of strict $n$-categories is defined by iterated enrichment:
+
+$$
+0\text{-}Cat=Set,\qquad\qquad n\text{-}Cat=((n-1)\text{-}Cat,\times)\text{-}Cat\;.
+$$
+There is an embedding
+$$
+n\text{-}Cat\hookrightarrow Cat^{n}
+$$
+such that a strict $n$-category is an $n$-fold category in which certain substructures are discrete (that is, sets).
+This discreteness condition is precisely the globularity condition and the sets underlying these discrete substructures are the sets of cells in the strict $n$-category.
+
+
+For instance, in the case $n=2$, strict 2-categories are double categories in which the category of objects and vertical arrows is discrete. In pictures:
 
 
 
