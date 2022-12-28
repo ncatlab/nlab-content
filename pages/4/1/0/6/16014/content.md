@@ -15,7 +15,7 @@
 
 ## Idea
 
-In the context of [[modal logic]], two key [[modalities]] that one wants to consider are those of _necessity_ and _possibility_.
+In the context of [[modal logic]] and specifically in [[epistemic modal logic]], two key [[modalities]] that one wants to consider are those of _necessity_ and _possibility_.
 
 The idea is to consider for any [[proposition]] $p$ 
 
@@ -592,6 +592,7 @@ We see that the base type $B$ (eq:FiniteBaseType) *of [[quantum measurement]] ou
 
 * [[modal logic]], [[modal type theory]]
 
+* [[epistemic modal logic]]
 
 ## References
 
