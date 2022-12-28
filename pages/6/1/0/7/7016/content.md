@@ -44,44 +44,119 @@ Since sets and functions form a [[category]], the set theory definition of funct
 In additon, function extensionality in category theory is true in any [[concrete category]] $\mathcal{C}$. The axiom could be called "morphism extensionality"; however, in all concrete categories, the morphisms are functions between sets. 
 
 ### In type theory
+ {#InTypeTheory}
 
-In [[intensional type theory]], [[equality]] is represented by the [[identity type]], and furthermore, there might be more than one element of the identity type in intensional type theory, so a naive translation of function extensionality into intensional type theory doesn’t result in the right statement.
+In [[intensional type theory]], the notion of [[equality]] $a = a'$ is replaced by [[identifications]], these being [[terms]] of [[identity type]] $Id_A(a,a')$. Since such [[identity type]] are in general not [[mere propositions]], care needs to be exercised in stating function extensionality in intensional type theory:
 
-Instead we have the following:
+For [[types]] $A, B \,\colon\, Type $ and [[parallel morphisms|parallel]] [[function type|functions]] $f, g  \,\colon\, A \to B$, there are the following two canonical functions (from [[identity types]] of [[function types]] to [[dependent products]] of pointwise identity types), which one may use for expressing function extensionality (eq:FunctionExtensionalityInTypeTheory), both defined via [[path induction]] as shown now:
 
-For all types $A$ and $B$ and functions $f:A \to B$ and $g:A \to B$, there are two canonical functions which one could use for function extensionality
+\[
+  \label{happlyDefinition}
+  \begin{array}{ll}
+     \mathrm{happly}(f, g)
+     &\colon&
+     Id_{(A \to B)} 
+     (f ,\, g) 
+     &
+     \longrightarrow
+     &
+     \underset{
+       a \colon A
+     }
+     {\prod} 
+     Id_B
+     \big(
+       f(a)
+       ,\,
+       g(a)
+     \big)
+   \\
+     \mathrm{happly}(f,f)
+     &\colon& 
+     \mathrm{refl}_{(A \to B)}(f)
+     &\mapsto&
+     \lambda (a \colon A).
+     \mathrm{refl}_B
+     \big(f(a)\big)
+     \\
+     \phantom{-}
+     \\
+    \mathrm{happly}(f, g)  
+    &\colon&
+    Id_{(A \to B)}(f, g) 
+    &
+    \longrightarrow 
+    &
+    \underset{a \colon A}{\prod}
+    \;
+    \underset{a' \colon A}{\prod}
+    \prod_{p \colon Id_A(a,a')} 
+    Id_B
+    \big(
+      f(a) ,\, g(a')
+    \big)
+    \\
+    \mathrm{happly}(f,f)
+    &\colon& 
+    \mathrm{refl}_{A \to B}(f)
+    &\mapsto&
+    \lambda (a \colon A).
+      \lambda (a \colon A).
+        \lambda \big(
+           \mathrm{refl}_A(x) 
+            \colon 
+            Id_A(a, a)
+        \big).
+        \mathrm{refl}_B\big(f(a)\big)
+  \end{array}
+\]
 
-$$\mathrm{happly}(f, g):(f =_{A \to B} g) \to \prod_{x:A} f(x) =_B g(x)$$
-
-inductively defined by 
-
-$$\mathrm{happly}(f,f)(\mathrm{refl}_{A \to B}(f)) \equiv \lambda (x:A).\mathrm{refl}_B(f(x)):\prod_{x:A} f(x) =_B f(x)$$
-
-and
-
-$$\mathrm{happly}(f, g):(f =_{A \to B} g) \to \left(\prod_{x:A} \prod_{y:A} \prod_{p:x =_A y} f(x) =_B g(y)\right)$$
-
-inductively defined by 
-
-$$\mathrm{happly}(f,f)(\mathrm{refl}_{A \to B}(f)) \equiv \lambda (x:A).\lambda (x:A).\lambda (\mathrm{refl}_A(x):x =_A x).\mathrm{refl}_B(f(x)):\prod_{x:A} \prod_{x:A} \prod_{\mathrm{refl}_A(x):x =_A x} f(x) =_B f(x)$$
-
-The two definitions of $\mathrm{happly}$ become the same under [[singleton contractibility]]. This second definition behaves better with the [[action on identifications]]. 
+(These two definitions of $\mathrm{happly}$ become the same under [[singleton contractibility]]. The second definition behaves better with the [[action on identifications]].)
 
 In general, both functions $\mathrm{happly}(f, g)$ are not [[equivalences of types]] in [[intensional type theory]]: two functions could be defined in different ways, and thus be intensionally different, yet produce the same values on all inputs (i.e. be extensionally the same).
 
-Function extensionality is then the statement that the function $\mathrm{happly}(f, g)$ is an [[equivalence of types]] for all functions $f:A \to B$ and $g:A \to B$. 
+Function extensionality is then the statement that the function $\mathrm{happly}(f, g)$ (eq:happlyDefinition) is an [[equivalence of types]] after all, for all functions $f, g \,\colon\,A \to B$:
 
-$$\mathrm{funext}(f, g):\mathrm{isEquiv}(\mathrm{happly}(f, g))$$
+\[
+  \label{FunctionExtensionalityInTypeTheory}
+  \mathrm{funext}(f, g)
+  \;\colon\;
+  \mathrm{isEquiv}
+  \big(
+    \mathrm{happly}(f, g)
+  \big)
+\]
+
+\linebreak
 
 ### Judgmental function extensionality
 
 One could replace the equivalences of types above with [[judgmental equality]] of types, which results in **judgmental function extensionality**. Applied to each definition, judgmental function extensionality states that for all all types $A$ and $B$ and functions $f:A \to B$ and $g:A \to B$
 
-$$f =_{A \to B} g \equiv \prod_{x:A} f(x) =_B g(x)$$
+$$
+  Id_{(A \to B)}(f, g) 
+  \;\;\equiv\; 
+  \prod_{x:A} 
+  id_B\big(
+    f(x)
+    ,\,
+    g(x)
+  \big)
+$$
 
 and 
 
-$$f =_{A \to B} g \equiv \prod_{x:A} \prod_{y:A} \prod_{p:x =_A y} f(x) =_B g(y)$$
+$$
+  Id_{(A \to B)}
+  (f ,\, g) 
+  \;\equiv\; 
+  \prod_{x:A} 
+  \prod_{y:A} 
+  \prod_{p \colon Id_A(x, y)} 
+  Id_B\big(
+    f(x) ,\, g(y)
+  \big)
+$$
 
 respectively. 
 
@@ -91,23 +166,44 @@ Suppose that given functions $f:A \to B$ and $g:A \to B$, for all $x:A$, $f(x)$ 
 
 ## Properties
 
+### Relation to weak function extensionality
+
+Function extensionality is equivalent to [[weak function extensionality]] -- see at *[References -- General](#ReferencesGeneral)*.
+
+### Relation to the univalence axiom
+
+In [[homotopy type theory]], the [[univalence axiom]] implies type-theoretic function extensionality (eq:FunctionExtensionalityInTypeTheory) -- see at *[References -- in HoTT](#ReferencesInHomotopyTypeTheory)*.
+
+
 ### Categorical semantics 
+ {#CategoricalSemantics}
 
-Translating the type theoretic definition into its [[categorical semantics]], the term $\eta$ gives a map 
+Translating the type theoretic definition (eq:FunctionExtensionalityInTypeTheory) into its [[categorical semantics]], the term $\eta$ gives a map 
 
-$$1 \to \Pi_{X \to 1} [f x = g x]$$ 
+$$
+  1 \to \Pi_{X \to 1} [f x = g x]
+$$ 
 
 into the [[dependent product]], which (as discussed there), in turn corresponds to a [[section]] $\sigma \colon X \to [f x = g x]$ of the [[display map]] on the left side of the [[pullback]] 
 
-$$\array{
-[f x = g x] & \to & P(Y) \\
-\downarrow & & \downarrow \\
-X & \underset{\langle f, g \rangle}{\to} & Y \times Y
-}
-\,,
+$$
+  \array{
+    [f x = g x] 
+    & \longrightarrow & 
+    P(Y) 
+    \\
+    \big\downarrow & & \big\downarrow 
+    \\
+    X 
+    & 
+     \underset{\langle f, g \rangle}{\to} 
+    & 
+    Y \times Y
+  }
+  \,,
 $$ 
 
-where $P(Y)$ is the [[identity type]] or space of paths in $Y$. Such a section is tantamount to a lift $X \to P(Y)$ of $\langle f, g \rangle \colon X \to Y \times Y$. From this we would like to deduce an actual path $p \colon 1 \to P(Y^X)$. 
+where $P(Y)$ is the [[identity type]] or [[path space]] in $Y$. Such a section is tantamount to a lift $X \to P(Y)$ of $\langle f, g \rangle \colon X \to Y \times Y$. From this we would like to deduce an actual path $p \colon 1 \to P(Y^X)$. 
 
 So, very simply, function extensionality means we are able to lift elements $h \colon 1 \to P(Y)^X$ through a canonical map $\phi \colon P(Y^X) \to P(Y)^X$ that is obtained from a [[dependent eliminator]]. 
 
@@ -140,35 +236,32 @@ Notice that every [[presentable (∞,1)-category|presentable]] [[locally Cartesi
 
 Postulating an [[interval type]] with [[judgmental equality|judgmental]] [[computation rules]] for the point constructors of the interval type implies function extensionality. 
 
-The proof assumes a typal [[uniqueness rule]] for [[function types]]. Let $\mathrm{ap}_f:(0 =_\mathbb{I} 1) \to (f(0) =_A f(1))$ be the [[action on identities]], $\mathrm{concat}_{a, b, c}:(a =_A b) \times (b =_A c) \to (a =_A c)$ be concatenation of identities (i.e. [[transitivity]]), and $\mathrm{inv}_{a, b}:(a =_A b) \to (b =_A a)$ be the inverse of identities (i.e. [[symmetry]]).
+The proof assumes a typal [[uniqueness rule]] for [[function types]]. Let $\mathrm{ap}_f \colon Id_{\mathbb{I}}(0, 1) \to Id_A(f(0),f(1))$ be the [[action on identities]], $\mathrm{concat}_{a, b, c}: Id_A(a , b) \times Id_A(b , c) \to Id_A(a , c)$ be concatenation of identities (i.e. [[transitivity]]), and $\mathrm{inv}_{a, b}: Id_A(a , b) \to Id_A(b , a)$ be the inverse of identities (i.e. [[symmetry]]).
 
-First the proof constructs a function $k:A \to (\mathbb{I} \to B)$ from a dependent function $h:\prod_{x:A} f(x) =_B g(x)$, inductively defined by
+First the proof constructs a function $k:A \to (\mathbb{I} \to B)$ from a dependent function $h:\prod_{x:A} Id_B\big(f(x) , g(x)\big)$, inductively defined by
 
-* $\beta_{k(x)}^0:k(x)(0) =_B f(x)$
-* $\beta_{k(x)}^1:k(x)(1) =_B g(x)$
-* $\beta_{k(x)}^p:\mathrm{ap}_{k(x)}(p) =_{k(x)(0) =_B k(x)(1)} \mathrm{concat}_{k(x)(0), f(x), k(x)(1)}(\mathrm{concat}_{k(x)(0), f(x), g(x)}(\beta_{k(x)}^0, h(x)), \mathrm{inv}_{k(x)(1), g(x)}(\beta_{k(x)}^1))$
+* $\beta_{k(x)}^0 : Id_B\big(k(x)(0) , f(x)\big)$
+
+* $\beta_{k(x)}^1 : Id_B\big( k(x)(1) , g(x) \big)$
+
+* $\beta_{k(x)}^p : Id_{Id_B\big(k(x)(0) , k(x)(1)\big)}\big(\mathrm{ap}_{k(x)}(p) , \mathrm{concat}_{k(x)(0), f(x), k(x)(1)}(\mathrm{concat}_{k(x)(0), f(x), g(x)}(\beta_{k(x)}^0, h(x)), \mathrm{inv}_{k(x)(1), g(x)}(\beta_{k(x)}^1))\big)$
 
 Then it uses the properties of function types, product types, currying, uncurrying, and the symmetry of products $A \times B \simeq B \times A$, to construct a function $k':\mathbb{I} \to (A \to B)$, inductively defined by
 
-* $\beta_{k'}^0(x):k'(0)(x) =_B f(x)$
-* $\beta_{k'}^1(x):k'(1)(x) =_B g(x)$
-* $\beta_{k'}^p(x):\mathrm{ap}_{k'}(p)(x) =_{k'(0)(x) =_B k'(1)(x)} \mathrm{concat}_{k'(0)(x), f(x), k'(1)(x)}(\mathrm{concat}_{k'(0)(x), f(x), g(x)}(\beta_{k'}^0(x), h(x)), \mathrm{inv}_{k'(1)(x), g(x)}(\beta_{k'}^1(x)))$
+* $\beta_{k'}^0(x): Id_B\big( k'(0)(x) , f(x)\big)$
+
+* $\beta_{k'}^1(x): Id_B\big( k'(1)(x) , g(x) \big)$
+
+* $\beta_{k'}^p(x):\mathrm{ap}_{k'}(p)(x) =_{Id_B\big( k'(0)(x) , k'(1)(x) \big)} \mathrm{concat}_{k'(0)(x), f(x), k'(1)(x)}(\mathrm{concat}_{k'(0)(x), f(x), g(x)}(\beta_{k'}^0(x), h(x)), \mathrm{inv}_{k'(1)(x), g(x)}(\beta_{k'}^1(x)))$
 
 If the interval type has judgmental computation rules for the point constructors, then $k'(x)(0) \equiv f(x)$ and $k'(x)(1) \equiv g(x)$ for all $x:A$, which implies that $k'(0)(x) \equiv f(x)$ and $k'(1)(x) \equiv g(x)$ for all $x:A$, and subsequently that $k'(0) \equiv f$ and $k'(1) \equiv g$. This means that there are identities $\beta_{k'}^0:k'(0) =_{A \to B} f$ and $\beta_{k'}^1:k'(1) =_{A \to B} g$, and an identity 
 
-$$\mathrm{concat}_{f, k'(1), g}(\mathrm{concat}_{f, k'(0), k'(1)}(\mathrm{inv}_{k'(0), g}(\beta_{k'}^0), \mathrm{ap}_{k'}(p), \beta_{k'}^1):f =_{A \to B} g$$
+$$\mathrm{concat}_{f, k'(1), g}(\mathrm{concat}_{f, k'(0), k'(1)}(\mathrm{inv}_{k'(0), g}(\beta_{k'}^0), \mathrm{ap}_{k'}(p), \beta_{k'}^1): Id_{(A \to B)}(f , g)$$
 
 thus proving function extensionality. 
 
-An interval type with only typal computation rules for the point constructors does not imply function extensionality. This is because the proof with the judgmental computation rules uses the fact that $k'(0)(x) \equiv f(x)$ and $k'(1)(x) \equiv g(x)$ for all $x:A$ implies that $k'(0) \equiv f$ and $k'(1) \equiv g$. However, if the computation rules are typal, then the equivalent statement is that having identities $\beta_{k'}^0(x):k'(0)(x) =_B f(x)$ and $\beta_{k'}^1(x):k'(1)(x) =_B g(x)$ for all $x:A$ implies that there are identities $\beta_{k'}^0:k'(0) =_{A \to B} f$ and $\beta_{k'}^1:k'(1) =_{A \to B} g$, which is precisely function extensionality, and so cannot be used to prove function extensionality. 
+An interval type with only typal computation rules for the point constructors does not imply function extensionality. This is because the proof with the judgmental computation rules uses the fact that $k'(0)(x) \equiv f(x)$ and $k'(1)(x) \equiv g(x)$ for all $x:A$ implies that $k'(0) \equiv f$ and $k'(1) \equiv g$. However, if the computation rules are typal, then the equivalent statement is that having identities $\beta_{k'}^0(x): Id_B\big(k'(0)(x) , f(x)\big)$ and $\beta_{k'}^1(x): Id_B\big(k'(1)(x) , g(x)\big)$ for all $x:A$ implies that there are identities $\beta_{k'}^0: Id_{(A \to B)}\big(k'(0) , f\big)$ and $\beta_{k'}^1 : Id_{A \to B}\big(k'(1) , g\big)$, which is precisely function extensionality, and so cannot be used to prove function extensionality. 
 
-### Relation to weak function extensionality
-
-Function extensionality is equivalent to [[weak function extensionality]], as shown in [Rijke 22](#Rijke22). 
-
-### Relation to the univalence axiom
-
-The [[univalence axiom]] implies function extensionality (this is due to [[Vladimir Voevodsky]]).  See for instance ([Bauer-Lumsdaine](#BauerLumsdaine)).
 
 ## See also
 
@@ -187,6 +280,7 @@ The [[univalence axiom]] implies function extensionality (this is due to [[Vladi
  {#References}
 
 ### General
+ {#ReferencesGeneral}
 
 Discussion of variants of function extensionality in [[Martin-Löf type theory]], and their relation:
 
@@ -202,8 +296,13 @@ Proofs of function extensionality from an [[interval type]] with [[judgmental eq
 
 
 ### In homotopy type theory
+ {#ReferencesInHomotopyTypeTheory}
 
 Discussion of function extensionality in [[homotopy type theory]] and proof that it is implied by [[univalence]]:
+
+Original announcement in:
+
+* {#Voevodsky10} [[Vladimir Voevodsky]], p. 8 of: *Univalent Foundations Project* (2010) &lbrack;[pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf), [[Voevodsky-UFP2010.pdf:file]]&rbrack;
 
 Textbook accounts:
 
