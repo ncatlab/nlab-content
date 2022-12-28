@@ -68,11 +68,14 @@ Suppose $\mathfrak{M},w\models K p$, then, for every  $t$ with $R w t$, we have 
 
 ## Related concepts
 
+* [[epistemic modal logic]], [[necessity and possibility]]
+
 * [[K modal logic]]
   
 * [[T modal logic]]
 
 * [[Löb's axiom]]
+
 
 ## References
 
