@@ -60,6 +60,13 @@ For the converse, we will suppose $R$ is not reflexive, so there is some state, 
 We need a state with this property and we only know about one namely $w$, so that is the obvious to try! We need a valuation such that 1) $w\in V(p)$ and 2) $\{x\in W\mid R w x\}\cap V(p)= \empty$. If we set $V(p) = \{w\}$ this works since $w$ is not related to itself. (Other values of $V$ are irrelevant.) If $w$ has no $R$-successors, then we are finished since clearly in that case, $\neg(w \models M \phi)$, so suppose that $v$ is any $R$-successor of $w$, i.e., $R w v$, then $w\neq v$, so $\neg(v\models p)$, hence $\neg(w\models M p)$ as required.$\blacksquare$
 =--
 
+## Related entries
+
+* [[epistemic modal logic]]
+
+* [[necessity and possibility]]
+
+
 
 [[!redirects the logic T(m)]]
 [[!redirects The logic T(m)]]
