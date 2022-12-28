@@ -19,7 +19,7 @@
 
 ## Idea
 
-The term **homotopy level** (or **h-level**), originating in [[homotopy type theory]], is another name for the notion of [[truncated object|truncation]] (particularly in [[(∞,1)-categories]] and their 
+The term **homotopy level** (or **h-level**) -- originating in [[homotopy type theory]] -- is another name for the notion of [[truncated object|truncation]] (particularly in [[(∞,1)-categories]] and their 
 [[internal logic|internal language]] of [[homotopy type theory]]) in which the numbering is offset by 2:
 
 a [[homotopy n-type]] is a [[type]] of homotopy level $n+2$.  
@@ -74,7 +74,21 @@ The correspondence between the various terminologies is indicated in the followi
 
 ## Referencees ##
 
-* Ayberk Tosun, Formal Topology in Univalent Foundations, ([pdf](https://odr.chalmers.se/handle/20.500.12380/301098))
+* [[Guillaume Brunerie]], *Truncations and truncated higher inductive types* (2012) &lbrack;[blog post](https://homotopytypetheory.org/2012/09/16/truncations-and-truncated-higher-inductive-types/)&rbrack;
+
+Discussion with [[Agda]]:
+
+* [[1lab]], *[h-Levels](https://1lab.dev/1Lab.HLevel.html)*
+
+Synonymous discussion, but under the name *[[homotopy n-type|$n$-types]]*, is in
+
+* [[Univalent Foundations Project]], §7 of: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+See also:
+
+* [[Thierry Coquand]], Ayberk Tosun, *Formal Topology in Univalent Foundations*, Ch. 6 in:  *Proof and Computation II -- From Proof Theory and Univalent Mathematics to Program Extraction and Verification*, Wold Scientific (2021) &lbrack;[doi:10.1142/12263](https://doi.org/10.1142/12263)&rbrack;
+
+
 
 [[!redirects homotopy level]]
 [[!redirects homotopy levels]]
