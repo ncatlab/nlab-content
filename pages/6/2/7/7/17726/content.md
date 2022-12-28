@@ -58,7 +58,7 @@ Many of the results that have originated from this view have been implemented in
 
 * [[Martín Escardó]], _Synthetic topology of data types and classical spaces_, 2004 ([pdf](http://www.cs.bham.ac.uk/~mhe/papers/barbados.pdf))
 
-* [[Martín Escardó]], {#EscardoPopl2012} _The topology of seemingly impossible functional programs_, 2012 ([pdf](http://www.cs.bham.ac.uk/~mhe/.talks/popl2012/escardo-popl2012.pdf))
+* [[Martín Escardó]], {#EscardoPopl2012} _The topology of seemingly impossible functional programs_, 2012 ([pdf](http://www.cs.bham.ac.uk/~mhe/.talks/popl2012/escardo-popl2012.pdf), almost same presentation with minor changes [pdf](https://cs.ioc.ee/ewscs/2012/escardo/slides.pdf))
 
 * [[Andrej Bauer]], [[Davorin Lešnik]], _Metric Spaces in Synthetic Topology_, 2010 ([pdf](http://math.andrej.com/wp-content/uploads/2010/01/csms_in_synthtop.pdf))
 
