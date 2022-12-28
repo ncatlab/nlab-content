@@ -17,9 +17,9 @@
 
 ## Overview
 
-The epistemology of mathematics is the study of mathematical knowledge. 
+The [[epistemology]] of [[mathematics]] is the study of mathematical knowledge. 
 
-There are a few branches of epistemology which could be applied to mathematics and the [[foundations of mathematics]]. 
+There are a few branches of [[epistemology]] which could be applied to mathematics and the [[foundations of mathematics]]. 
 
 ### Rationalism
 
@@ -53,15 +53,20 @@ Looking at the mathematical community as a whole, epistemic relativism seems to 
 
 For now see [[idealism]], [[absolute idealism]], [[subjective idealism]], [[objective idealism]]. 
 
-## See also
+## Related entries
+
+* [[epistemology]]
 
 * [[philosophy of mathematics]]
+
 * [[epistemic modal logic]]
 
 ## References
 
-* {#JCD22} Justin Clarke-Doane (2022). *Mathematics and Metaphilosophy (Elements in the Philosophy of Mathematics)*. Cambridge: Cambridge University Press. ([doi:10.1017/9781108993937](https://doi.org/10.1017/9781108993937), [philsci-archive:20728](https://philsci-archive.pitt.edu/20728/))
+* {#JCD22} Justin Clarke-Doane (2022). *Mathematics and Metaphilosophy (Elements in the Philosophy of Mathematics)*. Cambridge: Cambridge University Press. &lbrack;[doi:10.1017/9781108993937](https://doi.org/10.1017/9781108993937), [philsci-archive:20728](https://philsci-archive.pitt.edu/20728/)&rbrack;
 
-## External links
+See also:
 
 * Wikipedia, *[Epistemology](https://en.wikipedia.org/wiki/Epistemology)*
+
+
