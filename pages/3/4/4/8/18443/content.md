@@ -79,12 +79,13 @@ Note that the assumptions about the later modality $\blacktriangleright$ are usu
 
 * [[synthetic guarded domain theory]]
 
+
+
 ## References
 
 * {#GrossGallagherFallenstein16} [[Jason Gross]], Jack Gallagher, Benya Fallenstein, _L&#246;b's theorem -- A functional pearl of dependently typed quining_, 2016 ([pdf](https://jasongross.github.io/lob-paper/nightly/lob.pdf))
 
 * [[Neelakantan Krishnaswami]], _[L&#246;b's theorem is (almost) the Y-combinator](http://semantic-domain.blogspot.de/2016/05/lobs-theorem-is-almost-y-combinator.html)_, 2016
-
 
 * [[Jason Gross]], [MO comment](https://mathoverflow.net/a/273951/381) on incompletenss theorems in type theory, 2017
 
