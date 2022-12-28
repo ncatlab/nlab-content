@@ -41,6 +41,11 @@ This discreteness condition is precisely the globularity condition and the sets 
 
 
 For instance, in the case $n=2$, strict 2-categories are double categories in which the category of objects and vertical arrows is discrete. In pictures:
+\begin{imagefromfile}
+"file_name": "2-Cat.jpg",
+"width": 800
+\end{imagefromfile}
+
 
 
 
