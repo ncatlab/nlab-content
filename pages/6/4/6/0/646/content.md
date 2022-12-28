@@ -87,6 +87,15 @@ This has the possibility of leading to computations, by applying [[van Kampen th
 
 * [[n-types cover]]
 
+* [[homotopy level]]
+
+## References
+
+Discussion in [[homotopy type theory]]:
+
+* [[Univalent Foundations Project]], §7 of: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+
 
 [[!redirects n-type]]
 [[!redirects n-types]]
