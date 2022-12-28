@@ -14,16 +14,26 @@
 
 ## Overview
 
-The __Association of Collaborators of Nicolas Bourbaki__ (l\'Association des collaborateurs de Nicolas Bourbaki) is a collective of mathematicians based in France, who in the 20th century set a standard for a structural and abstract approach to exposition of pure mathematics.  They published a series "Elements of mathematics" of 10 multi-volume monographs under the pseudonym 'Nicolas Bourbaki', consolidating known results.  They also held ---and still hold--- a largely independent seminar on contemporary research.
+The __Association of Collaborators of Nicolas Bourbaki__ (*l\'Association des collaborateurs de Nicolas Bourbaki*) is a collective of mathematicians based in France, who in the 20th century set a standard for a structural and abstract approach to exposition of pure mathematics.  They published a series "Elements of mathematics" of 10 multi-volume monographs under the pseudonym 'Nicolas Bourbaki', consolidating known results.  They also held ---and still hold--- a largely independent seminar on contemporary research.
 
-The members of the group at any one time are required to be under 50 years of age, which is considered the only fixed rule of the group[^fine]; the membership is taken under acceptance of an invitation by existing members. For a bit of history can be found at [en.wikipedia](http://en.wikipedia.org/wiki/Nicolas_Bourbaki), [fr.wikipedia](http://fr.wikipedia.org/wiki/Nicolas_Bourbaki), [britannica](http://www.britannica.com/EBchecked/topic/75700/Nicolas-Bourbaki) and references therein. 
+The members of the group at any one time are required to be under 50 years of age, which is considered the only fixed rule of the group[^fine]; the membership is taken under acceptance of an invitation by existing members. 
 
-According to [[Jean Dieudonné]], the Bourbaki series of expositions is dedicated to "dead", i.e. stable mathematics which is not likely to change soon and which has wider importance, rather than being of a specialized character. Most successful was the exposition of the chapters on [[Lie theory]], especially concerning [[Lie algebras]], whose style is later followed in much of later literature in the subject. See more in ([Dieudonn&#233;](#Dieudonne)).
+A bit of history can be found at: 
+
+* [en.wikipedia](http://en.wikipedia.org/wiki/Nicolas_Bourbaki), 
+
+* [fr.wikipedia](http://fr.wikipedia.org/wiki/Nicolas_Bourbaki), 
+
+* [britannica](http://www.britannica.com/EBchecked/topic/75700/Nicolas-Bourbaki) 
+
+and references therein. 
+
+According to [[Jean Dieudonné]], the Bourbaki series of expositions is dedicated to "dead", i.e. stable mathematics which is not likely to change soon and which has wider importance, rather than being of a specialized character. Most successful was the exposition of the chapters on [[Lie theory]], especially concerning [[Lie algebras]], whose style was later followed by much of the literature on the subject. See more in &lbrack;[Dieudonn&#233;](#Dieudonne)&rbrack;.
 
 Bourbaki has been blamed for following too formal an approach. Indeed, the  books are void of much motivation and application, apart from a few of introductions and few chapters on history. 
 
 
-Apart from the Bourbaki volumes, there is also a lively _Bourbaki seminar_ which takes place on certain Saturdays in Paris, is open to public, has non-Bourbaki members as invited speakers who present and discuss in advance chosen topics of recent development in mathematics; the expositions are subsequently published. 
+Apart from the Bourbaki volumes, there is also a lively _Bourbaki seminar_ which takes place in Paris on certain Saturdays, is open to public and has non-Bourbaki members as invited speakers who present and discuss topics,chosen in advance, of recent development in mathematics. The expositions are subsequently published. 
 
 
 ## Bourbaki's notion of _structure_ and the relation to category theory
@@ -31,9 +41,9 @@ Apart from the Bourbaki volumes, there is also a lively _Bourbaki seminar_ which
 
 A central point of view of Bourbaki is the emphasis of mathematics as the study of [[structure]], as in the approach developed by G&#246;ttingen mathematicians in the 1920s and 1930s, such as [[Emmy Noether]] and [[Emil Artin]], and written up by van der Waerden in _Moderne Algebra_ (see [Corry](#Corry)). This approach was very influential in the mainstream mathematics of the second half of the 20th century. 
 
-However, Bourbaki did not embrace [[category theory]], which may be thought of as being the essence of that structural approach, though some of the [[universal properties]] treated in category theory in fact first appeared in early editions of Bourbaki. Instead, Bourbaki proposed its own formalization of the notion of "structure" (in the book Theory of Sets), which however neither caught on nor does it seem to have been taken very seriously by the group itself. As documented by [Corry](#Corry), the Elements pays only the slightest lip service to the Bourbaki formal notion of structure in its vast development (in the books after Theory of Sets when they are considered in their intended logical order). 
+However, Bourbaki did not embrace [[category theory]], which may be thought of as being the essence of that structural approach (cf. [[structuralism]]), though some of the [[universal properties]] treated in category theory in fact first appeared in early editions of Bourbaki. Instead, Bourbaki proposed its own formalization of the notion of "structure" (in the book *Theory of Sets*), which however neither caught on nor does it seem to have been taken very seriously by the group itself. As documented by &lbrack;[Corry](#Corry)&rbrack;, the Elements pays only the slightest lip service to the Bourbaki formal notion of structure in its vast development (in the books after *Theory of Sets* when they are considered in their intended logical order). 
 
-Discussion of this point can be found in ([CTList](#CTList)). There [[Colin McLarty]] writes:
+Discussion of this point can be found in &lbrack;[CTList](#CTList)&rbrack;. There [[Colin McLarty]] writes:
 
 > Bourbaki's first publication was
 
@@ -47,18 +57,17 @@ Discussion of this point can be found in ([CTList](#CTList)). There [[Colin McLa
 
 > Cartier has justly said it would have been a huge job to formulate all Bourbaki's ideas in terms of categories and functors.  It would have called for a lot of ideas which were only invented in the coming years.
 
-> It was relatively easy to give Bourbaki's theory of structures -- because it never really worked at all even for Bourbaki's purposes (as Corry documents in detail).  Naturally it is easier to give an unusable theory of structures than to work out the ways categories and functors would actually be used. ([McLarty, Category Theory List 2012](http://permalink.gmane.org/gmane.science.mathematics.categories/7298))
+> It was relatively easy to give Bourbaki's theory of structures -- because it never really worked at all even for Bourbaki's purposes (as Corry documents in detail).  Naturally it is easier to give an unusable theory of structures than to work out the ways categories and functors would actually be used. &lbrack;[McLarty, Category Theory List 2012](http://permalink.gmane.org/gmane.science.mathematics.categories/7298)&rbrack;
 
 
 ## References
 
 * [website](https://www.bourbaki.fr/) of the group
 
-Accounts of the history of the Bourbaki project include the following
+Accounts of the history of the Bourbaki project include the following:
 
 
-* [[Jean Dieudonné]], _The work of Nicolas Bourbaki_, Amer. Math. Monthly __77__ (1970) 134&#8211;145 [MR252179](http://www.ams.org/mathscinet-getitem?mr=252179), [doi](http://dx.doi.org/10.2307/2317325)
- {#Dieudonne}
+* {#Dieudonne} [[Jean Dieudonné]], _The work of Nicolas Bourbaki_, Amer. Math. Monthly __77__ (1970) 134-145 &lbrack;[MR252179](http://www.ams.org/mathscinet-getitem?mr=252179), [doi](http://dx.doi.org/10.2307/2317325)&rbrack;
 
 * Bourbaki's biography at math tutor: the [pre-war years](http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/Bourbaki_1.html), the [after-war years](http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/Bourbaki_2.html)
 
