@@ -149,3 +149,8 @@ category: software
 [[!redirects agda]]
 
 [[!redirects Cubical Agda]]
+[[!redirects cubical Agda]]
+[[!redirects cubical agda]]
+
+
+
