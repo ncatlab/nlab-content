@@ -52,7 +52,7 @@ Discussion of this point can be found in ([CTList](#CTList)). There [[Colin McLa
 
 ## References
 
-* [website](http://www.bourbaki.ens.fr) of the group
+* [website](https://www.bourbaki.fr/) of the group
 
 Accounts of the history of the Bourbaki project include the following
 
