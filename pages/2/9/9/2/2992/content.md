@@ -276,7 +276,7 @@ for $a \in \mathbb{Z}$, $b \in \mathbb{Z}_{#0}$, $ramp:\mathbb{Z} \to \mathbb{Z}
 ###### Definition
 The **minimum** $min:\mathbb{Q} \times \mathbb{Q} \to \mathbb{Q}$ is defined as
 
-$$min(p,q) \coloneqq p - ramp(p - q)$$
+$$\min(p,q) \coloneqq p - ramp(p - q)$$
 
 for $p:\mathbb{Q}$, $q:\mathbb{Q}$.
 =--
@@ -285,7 +285,7 @@ for $p:\mathbb{Q}$, $q:\mathbb{Q}$.
 ###### Definition
 The **maximum** $max:\mathbb{Q} \times \mathbb{Q} \to \mathbb{Q}$ is defined as
 
-$$max(p, q) \coloneqq p + ramp(q - p)$$
+$$\max(p, q) \coloneqq p + ramp(q - p)$$
 
 for $p:\mathbb{Q}$, $q:\mathbb{Q}$.
 =--
@@ -294,10 +294,35 @@ for $p:\mathbb{Q}$, $q:\mathbb{Q}$.
 ###### Definition
 The **absolute value** $\vert(-)\vert:\mathbb{Q} \to \mathbb{Q}$ is defined as
 
-$$\vert p \vert \coloneqq max(p, -p)$$
+$$\vert p \vert \coloneqq \max(p, -p)$$
 
 for $p:\mathbb{Q}$. 
 =--
+
++--{: .num_defn}
+###### Definition
+The **metric** $\rho:\mathbb{Q} \times \mathbb{Q} \to \mathbb{Q}$ is defined as
+
+$$\rho(p, q) \coloneqq \max(p, q) - \min(p, q)$$
+
+for $p:\mathbb{Q}$, $q:\mathbb{Q}$. 
+=--
+
+### Uniform structure on the rational numbers ###
+
+We define the ternary relation $x \sim_\epsilon y \coloneqq \rho(x, y) \lt \epsilon$ for $x \in \mathbb{Q}$, $y \in \mathbb{Q}$, and $\epsilon \in \mathbb{Q}_+$, called "$x$ and $y$ are within a distance of $\epsilon$". One could show that the rational numbers are a [[uniform space]] with respect to the [[uniformity]] [[ternary relation]] $x \sim_\epsilon y$. 
+
+1. For every $x \in \mathbb{Q}$ and $\epsilon \in \mathbb{Q}_+$, $x \sim_\epsilon x$
+
+2. For every $x \in \mathbb{Q}$, $y \in \mathbb{Q}$, $z \in \mathbb{Q}$ and $\delta \in \mathbb{Q}_+$, $\epsilon \in \mathbb{Q}_+$, $x \sim_\delta y$ and $y \sim_\epsilon z$ implies that $x \sim_{\delta + \epsilon} z$. 
+
+3. For every $x \in \mathbb{Q}$, $y \in \mathbb{Q}$ and $\epsilon \in \mathbb{Q}_+$, $x \sim_\epsilon y$ implies that $y \sim_\epsilon x$. 
+
+4. For every $x \in \mathbb{Q}$, $y \in \mathbb{Q}$, $x \sim_1 y$ if and only if $\rho(x, y) \lt 1$. 
+
+5. For every $x \in \mathbb{Q}$, $y \in \mathbb{Q}$ and $\delta \in \mathbb{Q}_+$, $\epsilon \in \mathbb{Q}_+$, $x \sim_{\min(\delta, \epsilon)} y$ implies that $x \sim_{\delta} y$ and $x \sim_{\epsilon} y$. 
+
+6. For every $x \in \mathbb{Q}$, $y \in \mathbb{Q}$ and $\delta \in \mathbb{Q}_+$, $\epsilon \in \mathbb{Q}_+$, $\delta \leq \epsilon$ and $x \sim_{\delta} y$ implies that $x \sim_{\epsilon} y$. 
 
 ### Algebraic closure
 
