@@ -182,40 +182,57 @@ The [[univalence axiom]] implies function extensionality (this is due to [[Vladi
 
 * [[weak function extensionality]]
 
+
 ## References
+ {#References}
 
-An introduction to the relevant notions and a guided walk through the formal proof that univalence implies functional extensionality is at
+### General
 
-* {#BauerLumsdaine} [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _[[Oberwolfach HoTT-Coq tutorial]]_
-  
+Discussion of variants of function extensionality in [[Martin-Löf type theory]], and their relation:
 
-A discussion of various flavors of function extensionality, and how to move between them, can be found in
+* [[Richard Garner]], *On the strength of dependent products in the type theory of Martin-Löf*, Annals of Pure and Applied Logic **160** 1 (2009) 1-12 &lbrack;[arXiv:0803.4466](https://arxiv.org/abs/0803.4466), [doi:10.1016/j.apal.2008.12.003](https://doi.org/10.1016/j.apal.2008.12.003)&rbrack;
 
-* [[Richard Garner]], _On the strength of dependent products in the type theory of Martin-L&#246;f_
+* [[Peter LeFanu Lumsdaine]], *Strong functional extensionality from weak* (2011) &lbrack;[blog post](http://homotopytypetheory.org/2011/12/19/strong-funext-from-weak)&rbrack;
 
-* [[Peter LeFanu Lumsdaine]], [Strong functional extensionality from weak](http://homotopytypetheory.org/2011/12/19/strong-funext-from-weak) (HoTT blog post)
+* [Rijke (2022), §13.1](#Rijke22)
 
-For definitional function extensionality in higher observational type theory, see
+Proofs of function extensionality from an [[interval type]] with [[judgmental equality|judgmental]] [[computation rules]]:
 
-* [[Mike Shulman]], *Towards Third-Generation HOTT -- Part 1* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA))
+* {#Shulman11} [[Mike Shulman]], _An interval type implies functional extensionality_ (2011) &lbrack;[blog post](http://homotopytypetheory.org/2011/04/04/an-interval-type-implies-function-extensionality/)&rbrack;
 
-Discussion of the [[categorical semantics]] in the context of [[homotopy type theory]] is in 
+
+### In homotopy type theory
+
+Discussion of function extensionality in [[homotopy type theory]] and proof that it is implied by [[univalence]]:
+
+Textbook accounts:
+
+* [[Univalent Foundations Project]], §2.9 & §4.9 *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+* {#Rijke22} [[Egbert Rijke]], §13 in: *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press &lbrack;[arXiv:2212.11082](https://arxiv.org/abs/2212.11082)&rbrack;
+
+Exposition:
+
+* {#Angiuli11} [[Carlo Angiuli]], *Univalence implies function extensionality* (2011) &lbrack;[blog post](http://homotopytypetheory.org/2011/12/05/hott-in-prose/), [pdf](http://hottheory.files.wordpress.com/2011/12/hott2.pdf)&rbrack;
+
+Tutorial for formalization in [[Coq]]:
+
+* {#BauerLumsdaine} [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], *[[Oberwolfach HoTT-Coq tutorial]]* (2011)
+
+Formalization in cubical [[Agda]]:
+
+* [[1lab]], *[$\Pi$-types and function extensionality](https://1lab.dev/HoTT.html#%CF%80-types-and-function-extensionality)*
+
+Discussion of the [[categorical semantics]] in the context of [[homotopy type theory]]:
 
 * {#Shulman12} [[Michael Shulman]], _Univalence for inverse diagrams and homotopy canonicity_, Mathematical Structures in Computer Science, Volume 25, Issue 5 ( _From type theory and homotopy theory to Univalent Foundations of Mathematics_ ) June 2015 ([arXiv:1203.3253](https://arxiv.org/abs/1203.3253), [doi:/10.1017/S0960129514000565](https://doi.org/10.1017/S0960129514000565))
+  
 
-For proofs of function extensionality from an [[interval type]] with [[judgmental equality|judgmental]] [[computation rules]] for the points, see:
+On definitional function extensionality in [[higher observational type theory]]:
 
-* {#Shulman11} [[Mike Shulman]], _An interval type implies functional extensionality_ ([blog post](http://homotopytypetheory.org/2011/04/04/an-interval-type-implies-function-extensionality/))
+* [[Mike Shulman]], *Towards Third-Generation HOTT -- Part 1* (2022) &lbrack;[slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA)&rbrack;
 
-* {#Angiuli11} [[Carlo Angiuli]], _Univalence implies function extensionality_ ([blog](http://homotopytypetheory.org/2011/12/05/hott-in-prose/), [pdf](http://hottheory.files.wordpress.com/2011/12/hott2.pdf))
 
-For proofs of the equivalence of [[function extensionality]] and [[weak function extensionality]], see section 13.1 of:
-
-* {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([pdf](https://raw.githubusercontent.com/martinescardo/HoTTEST-Summer-School/main/HoTT/hott-intro.pdf)) (478 pages)
-
-See also 
-
-* [[Coq]] code in the [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/Funext.v) and [Peter Lumsdaine's fork](https://github.com/peterlefanulumsdaine/HoTT/blob/master/Coq/Funext.v) (dead link)
 
 [[!redirects function extensionality]]
 [[!redirects functional extensionality]]
