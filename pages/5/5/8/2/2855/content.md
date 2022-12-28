@@ -11,11 +11,16 @@ On [[weak factorization systems]] such as for [[cofibrantly generated model cate
 
 On the [[small object argument]]:
 
-* R. Garner, _Understanding the small object argument_, Applied Cat. Structures, [arXiv:math.CT/0712.0724](http://arXiv.org/abs/0712.0724).
+* [[Richard Garner]], _Understanding the small object argument_, Applied Cat. Structures, [arXiv:math.CT/0712.0724](http://arXiv.org/abs/0712.0724).
 
-On [[homotopy type theory]]:
+On [[categorical semantics]] of [[homotopy type theory]] in [[omega-groupoids]]:
 
-* [[Benno van den Berg]], Richard Garner, *Types are weak $\omega$-groupoids*, [arXiv:0812.0298](http://arxiv.org/abs/0812.0298)
+* [[Benno van den Berg]], Richard Garner, *Types are weak $\omega$-groupoids* &lbrack;[arXiv:0812.0298](http://arxiv.org/abs/0812.0298)&rbrack;
+
+On [[dependent product types]] and [[function extensionality]]:
+
+* [[Richard Garner]], *On the strength of dependent products in the type theory of Martin-Löf*, Annals of Pure and Applied Logic **160** 1 (2009) 1-12 &lbrack;[arXiv:0803.4466](https://arxiv.org/abs/0803.4466), [doi:10.1016/j.apal.2008.12.003](https://doi.org/10.1016/j.apal.2008.12.003)&rbrack;
+
 
 On [[2-type theory]]
 
