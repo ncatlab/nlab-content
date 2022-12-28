@@ -89,7 +89,7 @@ $$(f =_{\prod_{x:A} B(x)}^\varsigma g) \equiv \prod_{a:A} \prod_{b:A} \prod_{p:(
 
 ...
 
-## With universes ##
+### With universes ###
 
 We are working in a [[dependent type theory]] with Tarski-style [[universes]].
 
@@ -123,13 +123,13 @@ $$\mathrm{ap}_{x.t}(p) \equiv \mathrm{refl}_{t}$$
 
 for constant term $t$. 
 
-### Identity types for universes ###
+#### Identity types for universes ####
 
 Let $A \cong_\mathcal{U} B$ be the type of [[one-to-one correspondences]] between two terms of a universe $A:\mathcal{U}$ and $B:\mathcal{U}$, and let $\mathrm{id}_\mathcal{U}(A, B)$ be the identity type between two terms of a universe $A:\mathcal{U}$ and $B:\mathcal{U}$. Then there are rules
 
 $$\frac{R:A \cong_\mathcal{U} B}{\Delta(R):\mathrm{id}_\mathcal{U}(A, B)} \qquad \frac{P:\mathrm{id}_\mathcal{U}(A, B)}{\nabla(P):A \cong_\mathcal{U} B} \qquad \frac{R:A \cong_\mathcal{U} B}{\nabla(\Delta(R)) \equiv R}$$
 
-### Identity types in universes and singleton contractibility ###
+#### Identity types in universes and singleton contractibility ####
 
 Given a term of a universe $A:\mathcal{U}$
 
@@ -141,7 +141,7 @@ $$\pi_1(\pi_2(\nabla(\mathrm{refl}_A)):\prod_{a:\mathcal{T}_\mathcal{U}(A)} \mat
 
 $$\pi_2(\pi_2(\nabla(\mathrm{refl}_A))):\prod_{b:\mathcal{T}_\mathcal{U}(A)} \mathrm{isContr}\left(\sum_{a:\mathcal{T}_\mathcal{U}(A)} \mathrm{id}_{\mathcal{T}_\mathcal{U}(A)}(a, b)\right)$$
 
-### Dependent identity types in universes ###
+#### Dependent identity types in universes ####
 
 Given a term of a universe $A:\mathcal{U}$, a judgment $z:\mathcal{T}_\mathcal{U}(A) \vdash B:\mathcal{U}$, terms $x:\mathcal{T}_\mathcal{U}(A)$ and $y:\mathcal{T}_\mathcal{U}(A)$, and an identity $p:\mathrm{id}_{\mathcal{T}_\mathcal{U}(A)}(x,y)$, we have
 
