@@ -95,6 +95,8 @@ This entire subject about past research programs, paradigms in mathematics and p
 * [[category (philosophy)]], [[modality]]
 * [[logos (in philosophy)]], [[Nous]]
 * [[history of mathematics]], [[structuralism]], [[opinions on development of mathematics]]
+
+* [[epistemology]]
 * [[epistemology of mathematics]]
 * [[metaphysics]]
 * [[hermeticism]], [[mysticism]], [[gnosticism]], [[speculative philosophy]]
