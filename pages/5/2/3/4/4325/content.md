@@ -54,7 +54,7 @@ See at _[[free infinite loop space]]_.
 * [[Peter May]], _The uniqueness of infinite loop space machines_, Topology, vol 17, pp. 205-224 (1978) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/22.pdf))
 
 
-Section 5.1.3 of
+Theorem 5.2.6.15 of
 
 * {#Lurie} [[Jacob Lurie]], _[[Higher Algebra]]_
  
