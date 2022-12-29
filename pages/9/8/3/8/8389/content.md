@@ -23,13 +23,11 @@
 
 In [[computer science]] and [[formal logic]], *denotational semantics* refers [[semantics]] based on the idea that [[programs]] and the [[data]] they manipulate are symbolic realizations of abstract [[mathematics|mathematical]] [[objects]]. 
 
-For example, 
+For example, the denotational semantics
 
-*  [[string (computer science)|strings]] of digits refer to [[numbers]], 
+*  of [[numerals]] are [[numbers]], 
 
-and 
-
-*  [[programs]] correspond (approximately) mathematical [[functions]]. 
+*  of [[programs]] are [[functions]] (approximately). 
 
 The idea of denotational semantics is thus to associate an appropriate  mathematical object, such as a number, a tuple, or a function, with each [[term]] of the given [[programming language]].
 
@@ -52,7 +50,7 @@ A key requirement on denotational semantics is that it respects the *composition
 
 ## References
 
-Denotational semantics originates with:
+Denotational semantics originates with the proposal of [[domain theory]] to regard [[data types]] as [[posets]] ([[(0,1)-categories]]):
 
 * [[Dana S. Scott]], *Outline of a mathematical theory of computation*, in: Proceedings of the *Fourth Annual Princeton Conference on Information Sciences and Systems* (1970) 169–176. &lbrack;[pdf](https://ropas.snu.ac.kr/~kwang/520/readings/sco70.pdf), [[Scott-TheoryOfComputation.pdf:file]]&rbrack;
 
