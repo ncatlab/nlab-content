@@ -6,12 +6,17 @@
 
 On [[categorical semantics]] of ([[dependent type theory|dependent]]) [[type theory]] (and proving an [[initiality conjecture]] in Ch. 4):
 
-* {#Streicher91} [[Thomas Streicher]], _Semantics of type theory -- Correctness, completeness and independence results_, Progress in Theoretical Computer Science, Birkhäuser Boston, Inc., Boston, MA, 1991, xii+298 pp., (ISBN:0-8176-3594-7, [doi:10.1007/978-1-4612-0433-6](https://doi.org/10.1007/978-1-4612-0433-6))
+* {#Streicher91} [[Thomas Streicher]], _Semantics of type theory -- Correctness, completeness and independence results_, Progress in Theoretical Computer Science, Birkhäuser Boston (1991) &lbrack;ISBN:0-8176-3594-7, [doi:10.1007/978-1-4612-0433-6](https://doi.org/10.1007/978-1-4612-0433-6)&rbrack;
 
 
 Introducing the [[homotopy type theory]]-interpretation of [[identity types]]. and introducing what came to be known the [[univalence axiom]] (under the name "universe extensionality"):
 
 * {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]]  _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), *Twenty-five years of constructive type theory*, Proceedings of a congress, Venice, Italy, October 19-21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. **36** (1998) 83-111  &lbrack;[ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps.gz](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz), [[HofmannStreicherGroupoidInterpretation.pdf:file]]&rbrack;
+
+On [[denotational semantics]] and [[domain theory]] for [[functional programming|functional]] [[programming languages]]:
+
+* [[Thomas Streicher]], *Domain-Theoretic Foundations of Functional Programming*, World Scientific (2006) &lbrack;[pdf](https://doc.lagout.org/programmation/Functional%20Programming/Domain-Theoretic%20Foundations%20of%20Functional%20Programming%20%5BStreicher%202006-12-04%5D.pdf), [doi:10.1142/6284](https://www.worldscientific.com/worldscibooks/10.1142/6284)&rbrack;
+
 
 
 On [[first-order set theory]] and [[categorical logic]]:
