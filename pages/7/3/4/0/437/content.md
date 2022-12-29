@@ -43,9 +43,9 @@ such that $s$ is a [[weak equivalence]] ([Quillen 1967, §I.1](#Quillen67)).
 
 Moreover ([Dwyer & Spalinski 1995, §4.12](#DwyerSpalinski95)):
 
-If $\mathcal{C}$ in addition has the structure of a [[fibration category]] then one speaks, furthermore, of a *good path space object* if $(d_0,d_1)$ is a [[fibration]].
+If $\mathcal{C}$ in addition has the structure of a [[fibration category]] then one speaks, furthermore, of a **good path space object** if $(d_0,d_1)$ is a [[fibration]].
 
-If $\mathcal{C}$ furthermore has the structure of a [[model category]] then one speaks of a *very good path space object* if $(d_0,d_1)$ is a [[fibration]] and $s$ is a [[cofibration]] (hence an [[acyclic cofibration]]).
+If $\mathcal{C}$ furthermore has the structure of a [[model category]] then one speaks of a **very good path space object** if $(d_0,d_1)$ is a [[fibration]] and $s$ is a [[cofibration]] (hence an [[acyclic cofibration]]).
 \end{definition}
 
 \begin{remark}
@@ -59,7 +59,8 @@ In Def. \ref{PathSpaceObject} one interprets
 
 \end{remark}
 
-\begin{remark}
+\begin{remark}\label{InModelCategories}
+**(in model categories)**
   In any [[model category]], the [[factorization system|factoization axioms]] applied to the [[diagonal maps]] immediately imply that every object has a path space object, and in fact a "very good" one. (See [below](#InModelCategories).)
 
 The very good path space objects in [[locally cartesian closed model categories]] serve as [[categorical semantics]] for the [[identity types]] in [[dependent type theory]] ([[homotopy type theory]]).
