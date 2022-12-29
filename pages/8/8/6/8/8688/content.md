@@ -53,7 +53,7 @@ Typical categories where the equation is considered are
 
 1. the [[category of vector spaces]] when the solutions are called *$R$-matrices* (or *quantum Yang-Baxter matrices*), 
 
-1. [[categories of representations]] of [[quantum groups]] where a particular solution is called a *universal $\mathcal{R}$-element*;
+1. [[categories of representations]] of [[quantum groups]]; often (a completion of) a quantum group $G$ itself has a particular element $\mathcal{R}$, called a *universal $\mathcal{R}$-element*, satisfying axioms ([[quasitriangular bialgebra|quasitriangularity]]) ensuring that its image in every representation satisfies qYBE
 
 1. the [[category of sets]] where one spekas about [[set theoretic Yang-Baxter equation|set theoretic solutions of Yang-Baxter equation]].
 
