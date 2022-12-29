@@ -24,6 +24,8 @@ Hadron supersymmetry
 
 This experimentally observed (see [below](#Phenomenology)) hadron [[flavor physics|flavor]] supersymmetry is in contrast to the more popular but also more speculative idea of [[color charge]] [[supersymmetry]] ([[super QCD]], [[MSSM]]), which hypothesizes that [[quarks]] and [[gluons]] have [[superpartners]]. While these ([[squarks]] and [[gluinos]]) have not been observed, even single [[quarks]] have never been observed, due to their [[confinement]] inside [[hadrons]].
 
+A model of [[confinement|confined]] [[QCD]] which brings out the hadron supersymmetry is [[holographic light front QCD]].
+
 In terms of [[geometric engineering of QFT]] via [[intersecting D-brane models]], [[hadron supersymmetry]] means that the [[flavor brane]] is [[supersymmetry|supersymmetric]], while the [[color brane]] may not be.
 
 ## Theory
