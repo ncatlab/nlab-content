@@ -667,9 +667,9 @@ Computational Reality_ ([[ConstableTriumphOfTypes.pdf:file]])
 
 * wikipedia: _[type theory](http://en.wikipedia.org/wiki/Type_theory)_, _[intuitionistic type theory](http://en.wikipedia.org/wiki/Intuitionistic_type_theory)_, [typed lambda calculus](http://en.wikipedia.org/wiki/Typed_lambda_calculus), [Curry-Howard correspondence](http://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence), [Per Martin-L&#246;f](http://en.wikipedia.org/wiki/Per_Martin-L&#246;f)
 
-Textbook accounts in from the point of view of [[programming languages]] include
+Textbook accounts on type theory in [[programming languages]]:
 
-* Bengt Nordstr&#246;m, Kent Petersson Jan M. Smith, _Programming in Martin-L&#246;f's type theory_, Oxford University Press 1990 ([pdf](http://www.cse.chalmers.se/research/group/logic/book/book.pdf))
+* [[Carl A. Gunter]], *The Semantics of Types in Programming Languages*, in: *[[Handbook of Logic in Computer Science]]* Vol 3: *Semantic structures*, Oxford University Press (1995) &lbrack;[ISBN:9780198537625](https://global.oup.com/academic/product/handbook-of-logic-in-computer-science-9780198537625), [pdf](http://seclab.illinois.edu/wp-content/uploads/2011/04/Gunter94.pdf)&rbrack;
 
 * [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
 
