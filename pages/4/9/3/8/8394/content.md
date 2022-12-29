@@ -90,7 +90,20 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
 ## References
 
-* [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
+Textbook accounts:
+
+With an eye towards [[operational semantics|operational]] or [[denotational semantics|denotational]] [[semantics]]:
+
+* [[Carl A. Gunter]], *Semantics of Programming Languages -- Structures and Techniques*, MIT Press (1992) &lbrack;[ISBN:9780262570954](https://mitpress.mit.edu/9780262570954/semantics-of-programming-languages/)&rbrack;
+
+* [[Glynn Winskel]], *The Formal Semantics of Programming Languages*, MIT Press (1993) &lbrack;[ISBN:9780262731034](https://mitpress.mit.edu/9780262731034/the-formal-semantics-of-programming-languages/), [pdf](https://www.cin.ufpe.br/~if721/intranet/TheFormalSemanticsofProgrammingLanguages.pdf)&rbrack;
+
+* [[Kenneth Slonneger]], [[Barry Kurtz]]: *Formal Syntax and Semantics of Programming Languages*, Addison-Wesley (1995) &lbrack;[webpage](https://homepage.divms.uiowa.edu/~slonnegr/plf/Book/), [pdf](https://doc.lagout.org/science/Artificial%20Intelligence/Natural%20Language%20Processing/Formal%20Syntax%20and%20Semantics%20of%20Programming%20Languages%20-%20Kenneth%20Slonneger.pdf)&rbrack;
+
+With an eye towards [[type theory]]:
+
+* [[Robert Harper]]: *[[Practical Foundations for Programming Languages]]*, Cambridge University Press (2016 &lbrack;[ISBN:9781107150300](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB), [pdf](https://www.cs.cmu.edu/~rwh/pfpl/2nded.pdf)&rbrack;
+
 
 On [[category theory]] in [[computer science]]/[[programming languages]] (such as for [[monads in computer science]]):
 
