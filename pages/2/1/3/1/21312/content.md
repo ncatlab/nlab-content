@@ -23,6 +23,7 @@ _Light-Front Holographic QCD and Emerging Confinement_, Physics Reports Volume 5
 
 * [[Stanley Brodsky]], [[Guy de Teramond]], [[Hans Günter Dosch]], _Light-Front Holography and Supersymmetric Conformal Algebra: A Novel Approach to Hadron Spectroscopy, Structure, and Dynamics_ ([arXiv:2004.07756](https://arxiv.org/abs/2004.07756))
 
+* [[Guy de Téramond]], *Emergent phenomena in QCD: The holographic perspective* &lbrack;[arXiv:2212.14028](https://arxiv.org/abs/2212.14028)&rbrack;
 
 
 On [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[supersymmetric quantum mechanics]] in [[holographic light front QCD]];
@@ -60,8 +61,9 @@ In view of [[tetraquarks]]:
 
 category: people
 
-
+[[!redirects Guy de Teramond]]
 
 [[!redirects Guy F. de Téramond]]
+[[!redirects Guy F. de Teramond]]
 
-[[!redirects Guy de Teramond]]
+
