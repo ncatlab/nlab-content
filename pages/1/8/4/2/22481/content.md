@@ -3,15 +3,16 @@
 
 * [Wikipedia entry](https://de.wikipedia.org/wiki/Karl_Heinrich_Hofmann) (German)
 
+
 ## Selected writings
 
 Introducing [[Baire lattices]]:
 
  * [[Karl Heinrich Hofmann]], _A note on Baire spaces and continuous lattices_ 1980. Bulletin of the Australian Mathematical Society, 21(2), pp. 265-279. ([doi:10.1017/S0004972700006080]( https://doi.org/10.1017/S0004972700006080))
 
-Textbook on [[Baire lattices]]:
+Textbook on [[domain theory]] and [[Baire lattices]]:
 
- * G. Gierz, [[Karl Heinrich Hofmann]], K. Keimel, J. D. Lawson, M. Mislove, [[Dana Scott]], _Continuous Lattices and Domains_ 2003, Vol. 93 of _Encyclopedia of Mathematics and its Applications_ ([doi:10.1017/CBO9780511542725](https://doi.org/10.1017/CBO9780511542725))
+ * G. Gierz, [[Karl H. Hofmann]], K. Keimel, J. D. Lawson, M. Mislove, [[Dana S. Scott]], *Continuous Lattices and Domains* in *Encyclopedia of Mathematics and its Applications* 93, Cambridge University Press (2003)  &lbrack;[doi:10.1017/CBO9780511542725](https://doi.org/10.1017/CBO9780511542725)&rbrack;
 
 
 On [[compact subgroups]] of [[Lie groups]] and [[locally compact groups]]:
@@ -23,3 +24,6 @@ On [[compact subgroups]] of [[Lie groups]] and [[locally compact groups]]:
 category: people
 
 [[!redirects Karl Hofmann]]
+[[!redirects Karl H. Hofmann]]
+
+
