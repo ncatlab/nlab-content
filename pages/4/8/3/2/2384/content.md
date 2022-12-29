@@ -153,9 +153,9 @@ The previous adjunction gives us a context in which we can reason about immune r
 
 \begin{centre}
 \begin{xymatrix@R=-2pt[font = \large]}
-&L(p) \subseteq i & \textrm{if the immune response of a disease $p$ is in $i$}&\\
-\ar@{-}[rrr]&&&\\    
-&p \subseteq FL(p) \subseteq F(i) & \textrm{then the disease $p$ describes conditions triggering $i$}&
+&p \subseteq F(i) & \textrm{\normalsize{if a disease $p$ describes conditions (reportedly) triggering $i$}}&\\
+\ar@{-}[rrr]&&&\\ 
+&L(p) \subseteq LF(i) \subseteq i & \textrm{\normalsize{then the (expected) immune response for $p$ is in $i$}}&   
     \end{xymatrix}
 \end{centre}
 
