@@ -84,7 +84,7 @@ There are many [[modal operators]] in such contexts which are all modeled by (id
 Therefore it makes sense to ask which _additional_ axioms on a modal operator make it an accurate formalization of the informal concepts of necessity and possibility.  The answer to this may depend on context and intention (after all one is trying to find a precise formulation of an a priori informal idea).
 
 
-## Possible worlds via first-order logic and type theory
+## Possible worlds via dependent types
  {#InFirstOrderLogicAndTypeTheory}
 
 One common philosophical interpretation of "necessarily" and "possibly" is in terms of a collection of "possible worlds" that are similar to the "real world", but not the same.  Under this interpretation, a proposition is necessarily true if it is true in all possible worlds, and possibly true if it is true in some possible world.
