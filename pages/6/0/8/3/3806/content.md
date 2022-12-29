@@ -56,12 +56,16 @@ continues to exert a decisive influence today.
 ## Related concepts
 
 * [[topological domain theory]]
+
 * [[synthetic domain theory]]
+
 * [[synthetic guarded domain theory]]
+
+* [[denotational semantics]]
 
 ## References
 
-### General
+### In computation theory
 
 Origin of domain theory in [[denotational semantics]] for [[programming languages]]:
 
@@ -71,9 +75,25 @@ Origin of domain theory in [[denotational semantics]] for [[programming language
 
 * {#Scott76} [[Dana Scott]], *Data types as lattices*. SIAM Journal of Computing **5** 3 (1976) 522--587 &lbrack;[doi:10.1137/0205037](https://doi.org/10.1137/0205037), [pdf](https://www.cs.ox.ac.uk/files/3287/PRG05.pdf)&rbrack;
 
-Textbook account:
 
- * {#GierzHofmannKeimelLawsonLisloveScott03} G. Gierz, [[Karl H. Hofmann]], K. Keimel, J. D. Lawson, M. Mislove, [[Dana S. Scott]], *Continuous Lattices and Domains*, in: *Encyclopedia of Mathematics and its Applications* **93**, Cambridge University Press (2003)  &lbrack;[doi:10.1017/CBO9780511542725](https://doi.org/10.1017/CBO9780511542725)&rbrack;
+Introductions and lecture notes:
+
+* [[Robert D. Tennet]], *The denotational semantics of programming languages*, Communications of the ACM **19** 8 (1976) 437–453 &lbrack;[doi:10.1145/360303.360308](https://doi.org/10.1145/360303.360308), [pdf](https://dl.acm.org/doi/pdf/10.1145/360303.360308)&rbrack;
+
+* [[Andrew M. Pitts]], *Lecture Notes on Denotational Semantics* (2012) &lbrack;[pdf](https://www.cl.cam.ac.uk/teaching/1112/DenotSem/dens-notes-bw.pdf), [[Pitts-DenotationalSemantics.pdf:file]]&rbrack;
+
+
+Textbook accounts:
+
+* [[Glynn Winskel]], §8 of: *The Formal Semantics of Programming Languages*, MIT Press (1993) &lbrack;[ISBN:9780262731034](https://mitpress.mit.edu/9780262731034/the-formal-semantics-of-programming-languages/), [pdf](https://www.cin.ufpe.br/~if721/intranet/TheFormalSemanticsofProgrammingLanguages.pdf)&rbrack;
+
+* [[David A. Schmidt]], *Denotational Semantics -- A methodology for language development*, Allyn and Bacon (1986)  &lbrack;[pdf](https://people.cs.ksu.edu/~schmidt/text/DenSem-full-book.pdf), [webpage](https://people.cs.ksu.edu/~schmidt/text/densem.html)&rbrack;
+
+* {#GierzHofmannKeimelLawsonLisloveScott03} G. Gierz, [[Karl H. Hofmann]], K. Keimel, J. D. Lawson, M. Mislove, [[Dana S. Scott]], *Continuous Lattices and Domains*, in: *Encyclopedia of Mathematics and its Applications* **93**, Cambridge University Press (2003)  &lbrack;[doi:10.1017/CBO9780511542725](https://doi.org/10.1017/CBO9780511542725)&rbrack;
+
+* [[Thomas Streicher]], *Domain-Theoretic Foundations of Functional Programming*, World Scientific (2006) &lbrack;[pdf](https://doc.lagout.org/programmation/Functional%20Programming/Domain-Theoretic%20Foundations%20of%20Functional%20Programming%20%5BStreicher%202006-12-04%5D.pdf), [doi:10.1142/6284](https://www.worldscientific.com/worldscibooks/10.1142/6284)&rbrack;
+
+
 
 See also:
 
@@ -86,12 +106,12 @@ Discussion in [[homotopy type theory]]/[[univalent foundations]]:
 
 Review:
 
-* [[Samson Abramsky]], [[Achim Jung]], *Domain Theory*, in: *Handbook of Logic in Computer Science* **3**, Oxford University Press (1995) &lbrack;[ISBN:9780198537625](https://global.oup.com/academic/product/handbook-of-logic-in-computer-science-9780198537625?cc=de&lang=en&), [pdf](https://www.cs.bham.ac.uk/~axj/pub/papers/handy1.pdf)&rbrack;
+* [[Samson Abramsky]], [[Achim Jung]], *Domain Theory*, in: *[[Handbook of Logic in Computer Science]]* **3**, Oxford University Press (1995) &lbrack;[ISBN:9780198537625](https://global.oup.com/academic/product/handbook-of-logic-in-computer-science-9780198537625?cc=de&lang=en&), [pdf](https://www.cs.bham.ac.uk/~axj/pub/papers/handy1.pdf)&rbrack;
 
 * Gordon Plotkin &lbrack;[ps](http://homepages.inf.ed.ac.uk/gdp/publications/Domains_a4.ps)&rbrack:
 
 ### Relation to causets
- {ReferencesRelationToCausets}
+ {#ReferencesRelationToCausets}
 
 Possible relation to [[spacetime]] [[causality]] (cf. *[[causets]]*):
 
