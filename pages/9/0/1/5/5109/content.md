@@ -5,7 +5,7 @@
 
 ## Idea
 
-The flavor of _[[modal logic]]_ called $T$ is [[propositional logic]] equipped with a single [[modality]] usually written ''$\Box$" subject to the rules that for all [[propositions]] $p, q \colon Prop$ we have
+The flavor of _[[modal logic]]_ called $T$ is [[propositional logic]] equipped with a single [[modality]] usually written "$\Box$" subject to the rules that for all [[propositions]] $p, q \colon Prop$ we have
 
 1. $\Box K \colon \Box(p \to q) \to (\Box p \to \Box q)$ ([[K modal logic]])
 
