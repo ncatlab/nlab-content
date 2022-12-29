@@ -10,35 +10,63 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
-#### Modalities, Closure and Reflection
+#### Modality
 +-- {: .hide}
 [[!include modalities - contents]]
 =--
 =--
 =--
 
+
 # Modal Logics
 * table of contents
 {:toc}
 
-
 ## Idea
  {#Idea}
 
-The term _modal logic_ refers to an enrichment of standard formal [[logic]] where the standard operations ([[and]], [[or]], [[not]], implication and perhaps [[universal quantifier|forall]], etc.) are accompanied by certain extra operations -- called _modal operators_ and often denoted by "$\lozenge$" and "$\Box$" or similar -- such that for $p$ any [[proposition]] the expression $\Box p$ is a new proposition whose interpretation is roughly as "$p$ holds (only) in some _mode_" or "$p$ holds (only) _in a certain way_", such as: "$p$ is _possibly_ true", "$p$ will _eventually become_ true", "$p$ is _believed_ to be true", etc. 
+The term _modal logic_ refers to an enrichment of standard [[formal logic]], where the standard [[logical conjunctions]] (*[[and]]*, *[[or]]*, *[[not]]*, *[[implication]]* and, [[first-order logic|perhaps]], *[[universal quantifier|for all]]*, *[[existential quantifier|exists]]* etc.) are accompanied by certain extra operations -- called _[[modal operators]]_ and traditionally denoted by symbols like "$\Box$", "$\lozenge$", , "$\bigcirc$" -- such that for $p$ any [[proposition]] an expression like $\Box p$ is a(nother) proposition whose interpretation is intended to be:
 
-There is no established axiom set that an operator on propositions has to satisfy to count as a _modal operator_. As a result, for instance in the preface of ([Blackburn-deRijke-Venema](#BlackburnDeRijkeVenema)) et al.) it says
+* "$p$ holds (only) _in a certain way_",
 
->_'Ask three modal logicians what modal logic is, and you are likely to get at least three different answers'_.
+where the "certain way" is (implicitly) specified by whatever [[axioms]] are satisfied by the given [[modal operator]].
 
-Hence there is a good bit of flexibility in the notion _modal logic_.
-The archetypical example of a modal logic, often taken to be the default example, is a system, called _[[S4 modal logic]]_ or some slight variants (S1, S2, ...) of it, that aims to model the idea of propositions being "possibly true" or "necessarily true".  We list and discuss further examples of modal logic in more detail below in _[Examples](#Examples)_. 
+In other words, [[modal operators]] in modal logic are meant to express a certain **mode of being true** --- and in generalization to [[modal type theory]] they express more generally a **mode of being**, whence the reference to [[Kant]]'s [[modalities]].
 
-One way to view the axioms of [[S4 modal logic]] is as being those of [[propositional logic]] together with a [[monad (in computer science)|co-monad]] $\Box$ on the [[type of propositions|universe of propositions]].  Accordingly, many other flavours of modal operators that are being considered (but not all) are also (co)monads, see below at _[modal type theory -- Relation to monads](modal%20type%20theory#RelationToMonads)_. This has an evident generalization to _[[modal type theory]]_, which is concerned with [[type theory|type theories]] equipped with [[monad (in computer science)|(co)monads]] on their [[type of types|type universe]]. Hence when restricted to modalities that are required to be (co)monads, then modal logic is the counterpart in _[[computational trinitarianism]]_ to [[category theory]] making use of [[closure operator]] [[monads]] and to [[computer science]] with [[monads in computer science]].
+For example (see also pointers [below](#Examples)):
 
-For a good survey of and introduction to modal logic see _[SEP - Modern Origins of Modal Logic](#SEPModernOrigins)_ for (historical) motivation and introduction and then _[SEP - Modal logic](#SEPModalLogic)_ for more technical details.
+* in *[[epistemic logic]]* one considers modal operators meant to express that
 
-Modal logics have [[semantics]] in terms of sets with [[relations]], called _[[Kripke frames]]_ in the context of modal logic. They also have algebraic semantics in terms of algebras with (co)-closure operators. For instance, [[temporal logic|temporal logics]] can have [[posets]] as [[models]].
+  "$p$ is _[[necessity|necessarily]]_ true", or that "$p$ is _[[possibility|possibly]]_ true"
+
+  (often read as "necessarily *known* to be true" etc., whence the reference to [[epistemology]]);
+
+* in *[[temporal logic]]* one considers modal operators meant to express that
+
+  "$p$ will _eventually become_ true", etc.;
+
+* in *[[doxastic logic]]* one is concerned with statements such as:
+
+  "$p$ is _believed_ to be true", etc.
+
+
+Beware however that there is no broad agreement on which further [[axioms]] exactly make a general [[modal operator]] --- which in itself is any ([[comonad|co]]-)[[monad]] on the underlying [[universe of propositions]] ([[universe of types|of types]]), see [below](modal%20type%20theory#RelationToMonads) --- encode/reflect any such intended "mode of being (true)". As a result: 
+
+>_'Ask three modal logicians what modal logic is, and you are likely to get at least three different answers'_. &lbrack;[Blackburn, deRijke & Venema (2001), Introduction](#BlackburnDeRijkeVenema01)&rbrack;
+
+Historically, the default example of a modal logic is known as *[[S4 modal logic]]*, originally motivated as a model for [[epistemic logic]] (with a modality for being "[[necessity|necessarily true]]"), but really just axiomatizing ([[propositional logic]] equipped with) any [[monad (in computer science)|co-monad]] $\Box$ on the [[type of propositions|universe of propositions]], without further specification. There are variants known as *[[T modal logic]]* and *[[K modal logic]]* which drop some of the [[axioms]] even on this [[comonad|co]][[monad]], but it seems good practice to agree that a [[modal operator]] is *at least* a ([[comonad|co]]-)[[monad]] on the [[universe of propositions]] ([[universe of types|of types]]).
+
+
+In this sense, modal logic is the counterpart in the *[[computational trilogy]]* to:
+
+* [[category theory]] with ([[comonads|co]]-)[[monads]] ([[categorical algebra]]),
+
+* [[computer science]] with (co-)[[monads in computer science]] ([[computational effects]]).
+
+A traditional [[semantics]] considered for modal logics is in terms of sets with [[relations]], called _[[Kripke frames]]_. 
+Specifically for [[epistemic logic]] this is also known as *[[possible worlds semantics]]*. However, the canonical [[categorical semantics]] for [[epistemic logic]] is arguably in [[categorical models of dependent types]], as explained [here](necessity+and+possibility#InFirstOrderLogicAndTypeTheory).
+
+There is also algebraic semantics in terms of algebras with (co)-[[closure operators]]. For instance, [[temporal logic|temporal logics]] can have [[posets]] as [[models]].
 
 
 
@@ -163,17 +191,15 @@ As the set of all formulae in $\mathcal{L}_\omega(n)$ satisfies the conditions f
 
 Here is a brief list of flavors of modal logic. More details are discussed below.
 
+*  [[epistemic logics]]: it is known to $X$ that, it is common knowledge that;
 
-*  [[epistemic logics]]: it is known to $X$ that, it is common knowledge that (see [below](#EpistemicLogic) for more);
+* [[temporal logic]]: henceforth, eventually, hitherto, previously, now, tomorrow, yesterday, since, until, inevitably, finally, ultimately, endlessly, it will have been, it is being ...
 
 *  [[dynamic logic]]: after the program/computation/action finishes, the program enables, throughout the computation;
 
-* tense logic: henceforth, eventually, hitherto, previously, now, tomorrow, yesterday, since, until, inevitably, finally, ultimately, endlessly, it will have been, it is being ...
+* [[doxastic logic]]: it is believed that
 
 * deontic logic: it is obligatory/forbidden/permitted/unlawful that 
-
-
-* doxastic logic: it is believed that
 
 * [[Lawvere-Tierney topology|geometric logic]]: it is locally the case that
 
@@ -253,19 +279,19 @@ Examples for this are [[local toposes]] and [[cohesive toposes]]. See there for 
 * [[coalgebra for an endofunctor]]
 
 * The discussion of "[[possible worlds semantics]]" in modal logic is reminiscent of some discussion in the context of the "[[multiverse]]".
+ 
 
-## Links
-  
-* {#SEPModernOrigins} Stanford Encyclopedia of Philosophy: _[Modern Origins of Modal Logic](http://plato.stanford.edu/entries/logic-modal-origins/)_.
- 
-* {#SEPModalLogic} Stanford Encyclopedia of Philosophy: _[Modal Logic](http://plato.stanford.edu/entries/logic-modal/)_.
- 
 ## References
  {#References}
 
-A nice historical overview of modern modal logic that might serve as a general introduction as well can be found in
+Historical overview and introduction
 
 * [[R. Goldblatt]], _Mathematical Modal Logic: a View of its Evolution_ , in Gabbay, Woods (eds.), _Handbook of the History of Logic vol. 6_ , Elsevier Amsterdam 2005. ([draft](http://homepages.mcs.vuw.ac.nz/~rob/papers/modalhist.pdf))
+
+* {#SEPModernOrigins} Stanford Encyclopedia of Philosophy: _[Modern Origins of Modal Logic](http://plato.stanford.edu/entries/logic-modal-origins/)_.
+ 
+* {#SEPModalLogic} Stanford Encyclopedia of Philosophy: _[Modal Logic](http://plato.stanford.edu/entries/logic-modal/)_.
+
 
 One of the earliest texts that exhibits the [[intuitionism|intuitionist]] context is
 
@@ -276,7 +302,7 @@ Textbook accounts:
 
 * {#BradleySwartz79} Raymond Bradley, Norman Swartz, *Possible Worlds -- An Introduction to Logic and its Philosophy*, Hackett Publishing (1979) &lbrack;[pdf](https://www.sfu.ca/~swartz/pw/text/pw_all.pdf)&rbrack;
 
-* {#BlackburnDeRijkeVenema01} [[Patrick Blackburn]], [[Maarten de Rijke]], [[Yde Venema]], *Modal Logic*, Cambridge Tracts in Theoretical Computer Science **53** (2001) &lbrack;[doi:10.1017/CBO9781107050884](https://doi.org/10.1017/CBO9781107050884)&rbrack;
+* {#BlackburnDeRijkeVenema01} [[Patrick Blackburn]], [[Maarten de Rijke]], [[Yde Venema]], *Modal Logic*, Cambridge Tracts in Theoretical Computer Science **53**, Cambridge University Press  (2001) &lbrack;[doi:10.1017/CBO9781107050884](https://doi.org/10.1017/CBO9781107050884)&rbrack;
 
 * {#BlackburnvanBenthemWolter07} [[Patrick Blackburn]], [[Johan van Benthem]], [[Frank Wolter]] (eds.), *The Handbook of Modal Logic*, Elsevier Amsterdam (2007) &lbrack;[book webpage](https://cgi.csc.liv.ac.uk/~frank/MLHandbook/), [publisher page](https://www.sciencedirect.com/bookseries/studies-in-logic-and-practical-reasoning/vol/3/suppl/C)&rbrack;
 
