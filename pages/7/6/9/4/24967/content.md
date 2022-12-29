@@ -29,10 +29,12 @@ Its key [[modal operators]] are *[[necessity and possibility]]* and its popular 
 
 ## Introduction
 
-Epistemic modalities are captured in [[epistemic logic|epistemic modal logic]], where [[necessity]] is interpreted as saying _"I know that proposition $\phi$ is true"_, and in 'provability logic', the basic modal operator interprets  as _"it is provable that $\phi$"_. If we have the basic temporal logic, then there is a future truth operator, so that $F\phi$ is intended to mean _'' $\phi$ will be true at some future time"_, and also a past operator $P$ so $P\phi$ is intended to mean "$\phi$ was true at some past time". 
+Epistemic modalities are captured in [[epistemic logic|epistemic modal logic]], where [[necessity]] is interpreted as saying _"I know that proposition $\phi$ is true"_, and in 'provability logic', the basic modal operator interprets  as _"it is provable that $\phi$"_. 
+
+If we have the basic [[temporal logic]], then there is a future truth operator, so that $F\phi$ is intended to mean _'' $\phi$ will be true at some future time"_, and also a past operator $P$ so $P\phi$ is intended to mean "$\phi$ was true at some past time". 
 
 
-Notice that the notions of _possibility_ and _necessity_ have different senses in ordinary language. For example, if we say '$P$ is possible', we may mean that $P$ is: *epistemically* possible, not ruled out by anything I know; *physically* possible, not ruled out by the laws of physics; *logically* possible, not ruled out by the laws of logic. Some suggest that there is a further type of possibility, *metaphysical* possibility intermediate between logical and physical possibility. Metaphysical possibility would allow that different laws of physics might apply. 
+Notice that the notions of _[[possibility]]_ and _[[necessity]]_ have different senses in ordinary language. For example, if we say '$P$ is possible', we may mean that $P$ is: *epistemically* possible, not ruled out by anything I know; *physically* possible, not ruled out by the laws of physics; *logically* possible, not ruled out by the laws of logic. Some suggest that there is a further type of possibility, *metaphysical* possibility intermediate between logical and physical possibility. Metaphysical possibility would allow that different laws of physics might apply. 
 
 
 
