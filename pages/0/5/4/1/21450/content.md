@@ -305,6 +305,14 @@ is absent.
 
   > (see the articles for a wealth of relevant commentary)
 
+\linebreak
+
+* [[Guy de Téramond]], *Emergent phenomena in QCD: The holographic perspective* &lbrack;[arXiv:2212.14028](https://arxiv.org/abs/2212.14028)&rbrack;
+
+  > (discussion in [[holographic light front QCD]])
+
+> At large distances, however, the nonperturbative nature of the strong interactions becomes dominant and a basic understanding of the essential features of hadron physics from first principles QCD has remained an important unsolved problem in the standard model of particle physics. Hadronic characteristics are not explicit properties of the QCD Lagrangian but emergent phenomena, notably, the origin of the hadron mass scale, the mechanism of color confinement, the relation between chiral symmetry breaking and confinement, the massless pion in the chiral limit (the limit of zero quark masses), bound states and the pattern of hadron excitations.
+
 
 
 
