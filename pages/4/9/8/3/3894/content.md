@@ -469,6 +469,11 @@ and specifically so for [[M-theory on 8-manifolds]]:
 
   > (relation to [[holographic QCD]])
 
+* Mateo Galdeano, *The Geometry and Superconformal Algebras of String Compactifications with a $G$-structure* &lbrack;[arXiv:2212.13781](https://arxiv.org/abs/2212.13781)&rbrack;
+
+  > (relation to [[superconformal algebras]])
+
+
 See also
 
 * Johannes Held, Section 3 of: _Non-SupersymmetricFlux Compactifications of Heterotic String- and M-theory_ ([pdf](https://edoc.ub.uni-muenchen.de/14341/1/Held_Johannes.pdf))
