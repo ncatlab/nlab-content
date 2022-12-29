@@ -57,10 +57,9 @@ Relation to [[renormalization]] ([[field-strength renormalization]]):
 
 
 
-Review in:
+Review:
 
-* [[Stanley Brodsky]], [[Guy de Teramond]],  [[Hans Günter Dosch]], [[Joshua Erlich]], 
-_Light-Front Holographic QCD and Emerging Confinement_, Physics Reports Volume 584, 8 July 2015, Pages 1-105 ([arXiv:1407.8131](https://arxiv.org/abs/1407.8131))
+* [[Stanley Brodsky]], [[Guy de Teramond]],  [[Hans Günter Dosch]], [[Joshua Erlich]], _Light-Front Holographic QCD and Emerging Confinement_, Physics Reports Volume 584, 8 July 2015, Pages 1-105 ([arXiv:1407.8131](https://arxiv.org/abs/1407.8131))
 
 
 * [[Alexandre Deur]], [[Stanley Brodsky]], [[Guy de Teramond]], Section 4.2 of: *The QCD Running Coupling*, Prog. Part. Nuc. Phys. 90 1 (2016) ([arXiv:1604.08082](https://arxiv.org/abs/1604.08082), [doi:10.1016/j.ppnp.2016.04.003](https://doi.org/10.1016/j.ppnp.2016.04.003))
@@ -76,6 +75,7 @@ _Light-Front Holographic QCD and Emerging Confinement_, Physics Reports Volume 5
 
 * [[Stanley Brodsky]], *Supersymmetric and Other Novel Features of Hadron Physics from Light-Front Holography*,  Proceedings of the 24th Workshop, "What Comes Beyond the Standard Models" ([arXiv:2112.02453](https://arxiv.org/abs/2112.02453))
 
+* [[Guy de Téramond]], *Emergent phenomena in QCD: The holographic perspective* &lbrack;[arXiv:2212.14028](https://arxiv.org/abs/2212.14028)&rbrack;
 
 
 Further concerning [[confinement]] and [[chiral symmetry breaking]]:
@@ -131,6 +131,16 @@ Discussion of [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[sup
 In view of [[tetraquarks]]:
 
 * [[Hans Günter Dosch]], [[Stanley Brodsky]], [[Guy de Teramond]], [[Marina Nielsen]], [[Liping Zou]], _Exotic States in a Holographic Theory_ ([arXiv:2012.02496](https://arxiv.org/abs/2012.02496))
+
+
+
+
+[[!include Polyakov gauge-string duality -- references]]
+
+
+
+
+
 
 [[!redirects light-front QCD]]
 
