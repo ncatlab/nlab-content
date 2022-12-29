@@ -164,7 +164,10 @@ respectively.
 
 Suppose that given functions $f:A \to B$ and $g:A \to B$, for all $x:A$, $f(x)$ and $g(x)$ are [[judgmentally equal]] to each other $f(x) \equiv g(x):B$. Then it follows that $f$ and $g$ are judgmentally equal to each other, $f \equiv g:A \to B$, and thus function extensionality holds. This result is crucial in the proof of function extensionality from an [[interval type]] with judgmental computation rules. 
 
+
+
 ## Properties
+ {#Properties}
 
 ### Relation to weak function extensionality
 
@@ -173,64 +176,6 @@ Function extensionality is equivalent to [[weak function extensionality]] -- see
 ### Relation to the univalence axiom
 
 In [[homotopy type theory]], the [[univalence axiom]] implies type-theoretic function extensionality (eq:FunctionExtensionalityInTypeTheory) -- see at *[References -- in HoTT](#ReferencesInHomotopyTypeTheory)*.
-
-
-### Categorical semantics 
- {#CategoricalSemantics}
-
-Translating the type theoretic definition (eq:FunctionExtensionalityInTypeTheory) into its [[categorical semantics]], the term $\eta$ gives a map 
-
-$$
-  1 \to \Pi_{X \to 1} [f x = g x]
-$$ 
-
-into the [[dependent product]], which (as discussed there), in turn corresponds to a [[section]] $\sigma \colon X \to [f x = g x]$ of the [[display map]] on the left side of the [[pullback]] 
-
-$$
-  \array{
-    [f x = g x] 
-    & \longrightarrow & 
-    P(Y) 
-    \\
-    \big\downarrow & & \big\downarrow 
-    \\
-    X 
-    & 
-     \underset{\langle f, g \rangle}{\to} 
-    & 
-    Y \times Y
-  }
-  \,,
-$$ 
-
-where $P(Y)$ is the [[identity type]] or [[path space]] in $Y$. Such a section is tantamount to a lift $X \to P(Y)$ of $\langle f, g \rangle \colon X \to Y \times Y$. From this we would like to deduce an actual path $p \colon 1 \to P(Y^X)$. 
-
-So, very simply, function extensionality means we are able to lift elements $h \colon 1 \to P(Y)^X$ through a canonical map $\phi \colon P(Y^X) \to P(Y)^X$ that is obtained from a [[dependent eliminator]]. 
-
-Of course we are not just interested in [[global element|global elements]] here. What we really want is an actual section $P(Y)^X \to P(Y^X)$ of $\phi$ in the [[slice category|slice]] over $(Y \times Y)^X$ (although this can be derived from the global element formulation by using the [[Yoneda lemma]] together with [[currying]] and uncurrying tricks). This condition may be called "naive" or "weak" function extensionality, in view of an apparently stronger condition that this section (and therefore also $\phi$) be _equivalences_. This latter condition might be called "strong function extensionality". 
-
-Under reasonable assumptions on the type theory, it turns out that these and other versions of function extensionality are equivalent; for now see ([Lumsdaine](#Lumsdaine)) below. In any case, if the type theory has an extra [[axiom]] that implies some such version, one says that **function extensionality** holds. 
-
-### Homotopy categorical semantics
- {#HomotopyCategoricalSemantics}
-
-+-- {: .num_prop #FunExtInFibrationCat}
-###### Proposition
-
-Function extensionality holds in the [[internal language|internal]] [[type theory]] of a [[type-theoretic fibration category]] precisely if [[dependent products]] (i.e. right [[base change]]) along [[fibrations]] preserve [[acyclic fibrations]].
-
-=--
-
-([Shulman 12, lemma 5.9](#Shulman12))
-
-+-- {: .num_example #EveryPresentableLocallyCartesinClosedInfinityCatInterpretsHoTTPlusFunExt}
-###### Example
-
-The condition in prop. \ref{FunExtInFibrationCat} holds in particular in [[right proper model category|right proper]] [[Cisinski model structures]], since in these right [[base change]] along fibrations is a [[right Quillen functor]] (see e.g. the proof <a href="https://ncatlab.org/nlab/show/locally+cartesian+closed+(infinity,1)-category#PresentationTheorem">here</a>). 
-
-Notice that every [[presentable (∞,1)-category|presentable]] [[locally Cartesian closed (∞,1)-category]] (by the discussion <a href="locally+cartesian+closed+(infinity,1)-category#PresentationTheorem">there</a>) has a presentation by a [[right proper model category|right proper]] [[Cisinski model category]]. Accordingly we may say that every [[presentable (∞,1)-category|presentable]] [[locally Cartesian closed (∞,1)-category]] interprets [[HoTT]]+FunExt.
-
-=--
 
 ### Relation to interval types
 
@@ -261,6 +206,141 @@ $$\mathrm{concat}_{f, k'(1), g}(\mathrm{concat}_{f, k'(0), k'(1)}(\mathrm{inv}_{
 thus proving function extensionality. 
 
 An interval type with only typal computation rules for the point constructors does not imply function extensionality. This is because the proof with the judgmental computation rules uses the fact that $k'(0)(x) \equiv f(x)$ and $k'(1)(x) \equiv g(x)$ for all $x:A$ implies that $k'(0) \equiv f$ and $k'(1) \equiv g$. However, if the computation rules are typal, then the equivalent statement is that having identities $\beta_{k'}^0(x): Id_B\big(k'(0)(x) , f(x)\big)$ and $\beta_{k'}^1(x): Id_B\big(k'(1)(x) , g(x)\big)$ for all $x:A$ implies that there are identities $\beta_{k'}^0: Id_{(A \to B)}\big(k'(0) , f\big)$ and $\beta_{k'}^1 : Id_{A \to B}\big(k'(1) , g\big)$, which is precisely function extensionality, and so cannot be used to prove function extensionality. 
+
+
+
+### Categorical semantics 
+ {#CategoricalSemantics}
+
+Under the standard [[relation between type theory and category theory]], the [[categorical semantics]] of the [[type]]
+$
+  \underset{x \colon X}{\prod} Id_Y\big( f(x),\, g(x) \big)
+$
+of pointwise [[identity type|identifications]] between a [[pair]] of [[parallel morphism|parallel]] [[functions]] $f,g \;\colon\; X \to Y$ is the [[space of sections]] over (hence the right [[base change]] along) $X$ of the [[pullback]]
+
+\begin{tikzcd}[sep=30pt]
+  (f,g)^\ast \mathrm{Paths}(Y)
+  \ar[r]
+  \ar[d]
+  \ar[dr, phantom, "{\lrcorner}"{pos=.1}]
+  &
+  \mathrm{Paths}(Y)
+  \ar[d, "{ (\mathrm{ev}_0, \mathrm{ev}_1) }"]
+  \\
+  X
+  \ar[r, "{(f,g)}"]
+  &
+  Y \times Y
+  \mathrlap{\,,}
+\end{tikzcd}
+
+where 
+
+* $X,Y$ now denote [[objects]] in any given ambient [[categorical model of dependent types]] which serve as the [[categorical semantics]] for the [[types]] of the same name,
+
+* $Paths(Y)$ denotes any "very good" [[path space object]] (see [there](path+space+object#InModelCategories)) of $Y$.
+
+Since the right [[base change]] is [[right adjoint]] to [[pullback]], this means that the [[categorical semantics]] of [[global elements]] of $\underset{x \colon X}{\prod} Id_Y\big( f(x),\, g(x) \big)$, whose immediate categorical semantics is as [[maps]] out of the [[terminal object]] (to be denoted "$\ast$"):
+
+\begin{tikzcd}[sep=20pt]
+  \ast 
+  \ar[r, dashed]
+  &
+  \underset{x \colon X}{\prod} 
+  (f,g)^\ast \mathrm{Paths}(X)
+  \mathrlap{\,,}
+\end{tikzcd}
+
+is [equivalently](adjoint+functor#InTermsOfHomIsomorphism) given by [[maps]] of the form
+
+\begin{tikzcd}[sep=30pt]
+  X 
+  \ar[rr, dashed] 
+  \ar[dr, equals]
+  && 
+  (f,g)^\ast \mathrm{Paths}(Y)
+  \ar[dl]
+  \\
+  & 
+  X
+  \mathrlap{\,.}
+\end{tikzcd}
+
+These in turn (now by the defining [[universal property]] of the [[pullback]]) are equivalent to maps of the form
+
+\begin{tikzcd}[sep=30pt]
+  X 
+  \ar[rr, dashed] 
+  \ar[dr, "{(f,g)}"{swap}]
+  && 
+  \mathrm{Paths}(Y)
+  \ar[dl, "{(\mathrm{ev}_0, \mathrm{ev}_1)}"]
+  \\
+  & 
+  Y \times Y
+  \mathrlap{\,,}
+\end{tikzcd}
+
+hence to [[lifts]] of $(f,g)$ through the [[path fibration]] [[display map]].
+
+In contrast, the [[categorical semantics]] of the global type of identifications $Id_{(X \to Y)}(f,g)$ is by maps of the form
+
+\begin{tikzcd}[
+  column sep=-30pt,
+  row sep=30pt
+]
+  \ast
+  \ar[rr, dashed]
+  \ar[dr, "{(f,g)}"{swap}]
+  &&
+  \mathrm{Paths}\big(\mathrm{Maps}(X,Y)\big)
+  \ar[dl, "{(\mathrm{ev}_0, \mathrm{ev}_1)}"]
+  \\
+  & 
+  \mathrm{Maps}(X,Y)
+  \times
+  \mathrm{Maps}(X,Y)
+  \,,
+\end{tikzcd}
+
+where 
+
+* $Maps(X,Y)$ denotes the [[internal hom]] in the ambient [[categorical model of dependent types]] ---
+
+  if one assumes a [[cartesian closed category|cartesian closure]], then this is equivalently denoted as an [[exponential objects]]: $Y^X$.
+
+So the [[categorical semantics]] of function extensionality (eq:FunctionExtensionalityInTypeTheory) says in particular that there is a map
+
+$$
+  \phi
+  \;\colon\;
+  Paths\big(Maps(X,Y)\big)
+  \longrightarrow 
+  Maps\big(X, Paths(Y) \big)
+$$
+
+which serves to lift [[global elements]] as above.
+
+Of course we are not just interested in [[global element|global elements]] here. What we really want is an actual [[section]] $Maps\big(X, Paths(Y)\big) \to Paths\big(Maps(X,Y)\big)$ of $\phi$ in the [[slice category|slice]] over $Maps\big(X, (Y \times Y)\big)$ (although this can be derived from the global element formulation by using the [[Yoneda lemma]] together with [[currying]] and uncurrying tricks), such that this exhibits a [[weak equivalence]].
+
++-- {: .num_prop #FunExtInFibrationCat}
+###### Proposition
+
+Function extensionality holds in the [[internal language|internal]] [[type theory]] of a [[type-theoretic fibration category]] precisely if [[dependent products]] (i.e. right [[base change]]) along [[fibrations]] preserve [[acyclic fibrations]].
+
+=--
+
+([Shulman 12, lemma 5.9](#Shulman12))
+
++-- {: .num_example #EveryPresentableLocallyCartesinClosedInfinityCatInterpretsHoTTPlusFunExt}
+###### Example
+
+The condition in prop. \ref{FunExtInFibrationCat} holds in particular in [[right proper model category|right proper]] [[Cisinski model structures]], since in these right [[base change]] along fibrations is a [[right Quillen functor]] (see e.g. the proof <a href="https://ncatlab.org/nlab/show/locally+cartesian+closed+(infinity,1)-category#PresentationTheorem">here</a>). 
+
+Notice that every [[presentable (∞,1)-category|presentable]] [[locally Cartesian closed (∞,1)-category]] (by the discussion <a href="locally+cartesian+closed+(infinity,1)-category#PresentationTheorem">there</a>) has a presentation by a [[right proper model category|right proper]] [[Cisinski model category]]. Accordingly we may say that every [[presentable (∞,1)-category|presentable]] [[locally Cartesian closed (∞,1)-category]] interprets [[HoTT]]+FunExt.
+
+=--
+
 
 
 ## See also
