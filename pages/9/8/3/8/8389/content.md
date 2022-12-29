@@ -58,10 +58,28 @@ Denotational semantics originates with the proposal of [[domain theory]] to rega
 
 * {#Scott76} [[Dana Scott]], *Data types as lattices*. SIAM Journal of Computing **5** 3 (1976) 522--587 &lbrack;[doi:10.1137/0205037](https://doi.org/10.1137/0205037), [pdf](https://www.cs.ox.ac.uk/files/3287/PRG05.pdf)&rbrack;
 
+Textbook accounts:
+
+* [[Glynn Winskel]], §5 of: *The Formal Semantics of Programming Languages*, MIT Press (1993) &lbrack;[ISBN:9780262731034](https://mitpress.mit.edu/9780262731034/the-formal-semantics-of-programming-languages/), [pdf](https://www.cin.ufpe.br/~if721/intranet/TheFormalSemanticsofProgrammingLanguages.pdf)&rbrack;
+
+* [[Kenneth Slonneger]], [[Barry Kurtz]], *Denotational semantics* &lbrack;[pdf](https://homepage.divms.uiowa.edu/~slonnegr/plf/Book/Chapter9.pdf)&rbrack;, Chapter 9 of: *Formal Syntax and Semantics of Programming Languages*, Addison-Wesley (1995) &lbrack;[webpage](https://homepage.divms.uiowa.edu/~slonnegr/plf/Book/), [pdf](https://doc.lagout.org/science/Artificial%20Intelligence/Natural%20Language%20Processing/Formal%20Syntax%20and%20Semantics%20of%20Programming%20Languages%20-%20Kenneth%20Slonneger.pdf)&rbrack;
+
+* [[Thomas Streicher]], *Domain-Theoretic Foundations of Functional Programming*, World Scientific (2006) &lbrack;[pdf](https://doc.lagout.org/programmation/Functional%20Programming/Domain-Theoretic%20Foundations%20of%20Functional%20Programming%20%5BStreicher%202006-12-04%5D.pdf), [doi:10.1142/6284](https://www.worldscientific.com/worldscibooks/10.1142/6284)&rbrack;
+
+Lecture notes:
+
+* [[Andrew M. Pitts]], *Lecture Notes on Denotational Semantics* (2012) &lbrack;[pdf](https://www.cl.cam.ac.uk/teaching/1112/DenotSem/dens-notes-bw.pdf), [[Pitts-DenotationalSemantics.pdf:file]]&rbrack;
+
 
 See also:
 
 * Wikipedia, [Denotational semantics](http://en.wikipedia.org/wiki/Denotational_semantics)
+
+
+
+Discussion of denotational semantics for [[Haskell]]:
+
+* *[Haskell/Denotational semantics](https://en.wikibooks.org/wiki/Haskell/Denotational_semantics)*
 
 
 category: computer science
