@@ -12,3 +12,5 @@
 * [[infinitesimal braid relation]]
 
 * [[set theoretic Yang-Baxter equation]]
+
+* [[quasitriangular bialgebra]]
