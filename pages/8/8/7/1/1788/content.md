@@ -1,4 +1,21 @@
 
+\begin{tikzcd}[sep=20pt]
+  \ast 
+  \ar[r, dashed]
+  &
+  \underset{x \colon X}{\prod} 
+  (f,g)^\ast \mathrm{Paths}(X)
+\end{tikzcd}
+
+
+\begin{tikzcd}
+  {} \ar[r, "\lrcorner"] & {}
+\end{tikzcd}
+
+$\rlcorner$
+
+$\rescale{.4}{x}$
+
 The possibly most evident definition of equivalences as [[quasi-inverse functions]] suffers from the drawback that the type 
 
 $$
