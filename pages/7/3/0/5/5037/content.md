@@ -5,7 +5,7 @@
 
 ## Idea
 
-**Temporal logics**, as their name suggests, are logics that involve time.  They form a very large and important class of [[modal logics]], but here we will, to start with, only look at some simple cases. An important early example of a temporal logic is given by [[Arthur Prior]]'s **tense** logic.
+**Temporal logics**, as their name suggests, are [[formal logics]] that are meant to refer to the passage of [[time]].  They form a very large and important class of [[modal logics]], but here we will, to start with, only look at some simple cases. An important early example of a temporal logic is given by [[Arthur Prior]]'s **tense** logic.
 
 
 ## Basic temporal language, (BTL)
