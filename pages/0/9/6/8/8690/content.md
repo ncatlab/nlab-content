@@ -20,7 +20,7 @@
 (...)
 
 
-Beware that the term _Yang-Baxter equation_ can mean any of several related but different concepts:
+Beware that the term _Yang-Baxter equation_ can mean (or be interpreted in the context of) any of several related but different concepts:
 
 [[!include Yang-Baxter equations -- contents]]
 
