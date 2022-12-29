@@ -57,6 +57,15 @@ A [[program]]. A construction of a [[term]] of some [[type]]. The topic of [[com
 
 ### General
 
+On the theory of computation and introducing the notion of [[denotational semantics]] of [[programming languages]]:
+
+* [[Dana S. Scott]], *Outline of a mathematical theory of computation*, in: Proceedings of the *Fourth Annual Princeton Conference on Information Sciences and Systems* (1970) 169–176. &lbrack;[pdf](https://ropas.snu.ac.kr/~kwang/520/readings/sco70.pdf), [[Scott-TheoryOfComputation.pdf:file]]&rbrack;
+
+* [[Dana S. Scott]], [[Christopher Strachey]], *Toward a Mathematical Semantics for Computer Languages*, Oxford University Computing Laboratory, Technical Monograph PRG-6 (1971) &lbrack;[pdf](https://www.cs.ox.ac.uk/files/3228/PRG06.pdf), [[ScottStrachey-MathematicalSemantics.pdf:file]]&rbrack;
+
+
+Textbook accounts:
+
 * [[Michael Sipser]], *Introduction to the Theory Of Computation*, 3rd ed: Cengage Learning (2012) &lbrack;ISBN:978-1-133-18779-0,[pdf](https://www.mog.dog/files/SP2019/Sipser_Introduction.to.the.Theory.of.Computation.3E.pdf), [pdf](https://fuuu.be/polytech/INFOF408/Introduction-To-The-Theory-Of-Computation-Michael-Sipser.pdf)&rbrack;
 
 An account with focus on [[programming languages]]:
