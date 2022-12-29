@@ -3,9 +3,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Constructivism, Realizability, Computability
+#### Computability
 +-- {: .hide}
 [[!include constructivism - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
 =--
 =--
 =--
@@ -16,14 +24,21 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-Domain theory has its origin in the problem in finding a viable [[denotational semantics]] for certain theories of [[computability]] (such as the untyped [[lambda calculus]]) which resist straightforward interpretations in terms of [[sets]] and [[functions]]. It has since grown into an area which weaves together diverse strands in [[logic]], computability, [[lattice]] theory, [[general topology]], and [[category theory]]. 
+*Domain theory* has its origin in
 
-Domain theory can be said to have come into existence with [[Dana Scott]]'s solution for interpreting untyped lambda calculus in terms of continuous lattices. In rough terms, the problem can be set out as follows: 
+1. topological algebra concerned with Lawson semilattices,
 
-* [[lambda calculus|Lambda calculus]] is a syntax of functions and functional application, whose basic constituents are types, terms of types, and type and term formation schemes with which one can speak of product types $A \times B$ and function space types $A \Rightarrow B$. 
+1. [[computer science]], concerned with the problem of finding a viable [[denotational semantics]] for certain theories of [[computability]] (such as the untyped [[lambda calculus]]): this resist straightforward interpretations in terms of plain [[functions]] between sets but does have interpretation in terms of [[monotone functions]] between [[partially ordered sets]] (certain [[lattices]]) &lbrack;[Scott (1970)](#Scott70), [Scott & Strachey (1971)](#ScottStrachey71)&rbrack;. 
 
-* One problem is to construct a meaning or semantics for this syntax in terms of "actual" elements and functions. In category-theoretic terms, lambda calculus is naturally modeled by cartesian closed categories, in which types are interpreted as objects $A$ and terms are interpreted as (generalized) elements or "functions" $X \to A$. 
+The theory has since grown into an area which weaves together diverse strands in [[logic]], [[computability]], [[lattice]] theory, [[general topology]], and [[category theory]]. 
+
+Domain theory can be said to have come into existence with the insight from [Scott (1970)](#Scott70) of interpreting untyped [[lambda calculus]] in terms of [[monotone functions]] between [[continuous lattices]]. In rough terms, the problem can be set out as follows: 
+
+* [[lambda calculus|Lambda calculus]] is a [[syntax]] of [[functions]] and [[functional]] application, whose basic constituents are [[types]], [[terms]] of types, and type and term [[type formation|formation schemes]] with which one can speak of [[product types]] $A \times B$ and [[function types]] $A \Rightarrow B$. 
+
+* One problem is to construct a *meaning* or *[[semantics]]* for such [[syntax]] in terms of "actual" [[sets]] and [[functions]]. The [[categorical semantics]] of [[lambda calculus]] is by [[cartesian closed categories]], in which [[types]] are interpreted as [[objects]] $A$ and [[terms]] are interpreted as ([[generalized element|generalized]]) [[elements]] or "functions" $X \to A$. 
 
 * In so-called untyped lambda calculus (whose syntax is closely connected with the theory of computability and recursive functions), all terms may be regarded as being of the same type $D$ (which therefore need not be mentioned, hence "untyped"), so that intuitively speaking, elements of $D$ and functions on $D$ are treated on one and the same footing. 
 
@@ -46,12 +61,39 @@ continues to exert a decisive influence today.
 
 ## References
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Domain_theory)(English)
+### General
+
+Origin of domain theory in [[denotational semantics]] for [[programming languages]]:
+
+* {#Scott70} [[Dana S. Scott]], *Outline of a mathematical theory of computation*, in: Proceedings of the *Fourth Annual Princeton Conference on Information Sciences and Systems* (1970) 169–176. &lbrack;[pdf](https://ropas.snu.ac.kr/~kwang/520/readings/sco70.pdf), [[Scott-TheoryOfComputation.pdf:file]]&rbrack;
+
+* {#ScottStrachey71} [[Dana S. Scott]], [[Christopher Strachey]], *Toward a Mathematical Semantics for Computer Languages*, Oxford University Computing Laboratory, Technical Monograph PRG-6 (1971) &lbrack;[pdf](https://www.cs.ox.ac.uk/files/3228/PRG06.pdf), [[ScottStrachey-MathematicalSemantics.pdf:file]]&rbrack;
+
+* {#Scott76} [[Dana Scott]], *Data types as lattices*. SIAM Journal of Computing **5** 3 (1976) 522--587 &lbrack;[doi:10.1137/0205037](https://doi.org/10.1137/0205037), [pdf](https://www.cs.ox.ac.uk/files/3287/PRG05.pdf)&rbrack;
+
+Textbook account:
+
+ * {#GierzHofmannKeimelLawsonLisloveScott03} G. Gierz, [[Karl H. Hofmann]], K. Keimel, J. D. Lawson, M. Mislove, [[Dana S. Scott]], *Continuous Lattices and Domains*, in: *Encyclopedia of Mathematics and its Applications* **93**, Cambridge University Press (2003)  &lbrack;[doi:10.1017/CBO9780511542725](https://doi.org/10.1017/CBO9780511542725)&rbrack;
+
+See also:
+
+* Wikipedia, *[Domain theory](http://en.wikipedia.org/wiki/Domain_theory)*
 
 
-* Notes available online by Abramsky and Jung: [here](http://www.cs.bham.ac.uk/~axj/pub/papers/handy1.pdf)
+Discussion in [[homotopy type theory]]/[[univalent foundations]]:
 
-* Notes by Gordon Plotkin, [here](http://homepages.inf.ed.ac.uk/gdp/publications/Domains_a4.ps)
+* {#deJongEscardo21} [[Tom de Jong]], [[Martín Hötzel Escardó]], _Domain Theory in Constructive and Predicative Univalent Foundations_, in: _29th EACSL Annual Conference on Computer Science Logic_, [CSL 2021](https://csl2021.fmf.uni-lj.si/), LIPIcs proceedings 183, 2021 ([doi:10.4230/LIPIcs.CSL.2021.28](https://doi.org/10.4230/LIPIcs.CSL.2021.28), [arXiv:2008.01422](https://arxiv.org/abs/2008.01422))
+
+Review:
+
+* [[Samson Abramsky]], [[Achim Jung]], *Domain Theory*, in: *Handbook of Logic in Computer Science* **3**, Oxford University Press (1995) &lbrack;[ISBN:9780198537625](https://global.oup.com/academic/product/handbook-of-logic-in-computer-science-9780198537625?cc=de&lang=en&), [pdf](https://www.cs.bham.ac.uk/~axj/pub/papers/handy1.pdf)&rbrack;
+
+* Gordon Plotkin &lbrack;[ps](http://homepages.inf.ed.ac.uk/gdp/publications/Domains_a4.ps)&rbrack:
+
+### Relation to causets
+ {ReferencesRelationToCausets}
+
+Possible relation to [[spacetime]] [[causality]] (cf. *[[causets]]*):
 
 * [Domain theory and general relativity](http://www.cs.mcgill.ca/~prakash/Pubs/dom_gr_review.pdf), Keye Martin and [[Prakash Panangaden]]
 
@@ -61,9 +103,6 @@ continues to exert a decisive influence today.
 
 > **Abstract**: We prove that a globally hyperbolic [[spacetime]] with its causality relation is a bicontinuous [[poset]] whose interval topology is the manifold topology. From this one can show that from only a countable dense set of events and the causality relation, it is possible to reconstruct a globally hyperbolic spacetime in a purely order theoretic manner. The ultimate reason for this is that globally hyperbolic spacetimes belong to a category that is equivalent to a special category of domains called interval domains. We obtain a mathematical setting in which one can study causality independently of geometry and differentiable structure, and which also suggests that spacetime emerges from something discrete.
 
-Discussion in [[homotopy type theory]]/[[univalent foundations]]:
-
-* {#deJongEscardo21} [[Tom de Jong]], [[Martín Hötzel Escardó]], _Domain Theory in Constructive and Predicative Univalent Foundations_, in: _29th EACSL Annual Conference on Computer Science Logic_, [CSL 2021](https://csl2021.fmf.uni-lj.si/), LIPIcs proceedings 183, 2021 ([doi:10.4230/LIPIcs.CSL.2021.28](https://doi.org/10.4230/LIPIcs.CSL.2021.28), [arXiv:2008.01422](https://arxiv.org/abs/2008.01422))
 
 
 
