@@ -133,7 +133,9 @@ On [[Cohomotopy]] and [[Hypothesis H]]:
 
 On [[U-duality]] (and possibly [[mysterious duality]]) via [[Hypothesis H]] as [[automorphisms]] of [[iterated loop space|iterated]] ([[Sullivan model of loop space|rational]]) [[cyclic loop spaces]] of the ([[rational n-sphere|rational]]) [[4-sphere]]:
 
-* [[Hisham Sati]], [[Alexander Voronov]], *Mysterious triality* ([arXiv:2111.14810](https://arxiv.org/abs/2111.14810))
+* [[Hisham Sati]], [[Alexander Voronov]], *Mysterious Triality and Rational Homotopy Theory* &lbrack;[arXiv:2111.14810](https://arxiv.org/abs/2111.14810)&rbrack;
+
+* [[Hisham Sati]], [[Alexander Voronov]], *Mysterious Triality and M-Theory* &lbrack;[arXiv:2212.13968](https://arxiv.org/abs/2212.13968)
 
 
 
