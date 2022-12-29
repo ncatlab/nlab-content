@@ -17,6 +17,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -100,9 +101,12 @@ With an eye towards [[operational semantics|operational]] or [[denotational sema
 
 * [[Kenneth Slonneger]], [[Barry Kurtz]]: *Formal Syntax and Semantics of Programming Languages*, Addison-Wesley (1995) &lbrack;[webpage](https://homepage.divms.uiowa.edu/~slonnegr/plf/Book/), [pdf](https://doc.lagout.org/science/Artificial%20Intelligence/Natural%20Language%20Processing/Formal%20Syntax%20and%20Semantics%20of%20Programming%20Languages%20-%20Kenneth%20Slonneger.pdf)&rbrack;
 
-With an eye towards [[type theory]]:
+With an eye towards ([[data type|data-]])[[type theory]]:
 
-* [[Robert Harper]]: *[[Practical Foundations for Programming Languages]]*, Cambridge University Press (2016 &lbrack;[ISBN:9781107150300](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB), [pdf](https://www.cs.cmu.edu/~rwh/pfpl/2nded.pdf)&rbrack;
+* [[Carl A. Gunter]], *The Semantics of Types in Programming Languages*, in: *[[Handbook of Logic in Computer Science]]* Vol 3: *Semantic structures*, Oxford University Press (1995) &lbrack;[ISBN:9780198537625](https://global.oup.com/academic/product/handbook-of-logic-in-computer-science-9780198537625), [pdf](http://seclab.illinois.edu/wp-content/uploads/2011/04/Gunter94.pdf)&rbrack;
+ 
+
+* [[Robert Harper]]: *[[Practical Foundations for Programming Languages]]*, Cambridge University Press (2016) &lbrack;[ISBN:9781107150300](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB), [pdf](https://www.cs.cmu.edu/~rwh/pfpl/2nded.pdf)&rbrack;
 
 
 On [[category theory]] in [[computer science]]/[[programming languages]] (such as for [[monads in computer science]]):
