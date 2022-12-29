@@ -16,7 +16,8 @@ The following is a list of references that involve ([[weight systems]] on) [[cho
 
 For a unifying perspective (via [[Hypothesis H]]) and further pointers, see:
 
-* {#SatiSchreiber19c} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Differential Cohomotopy implies intersecting brane observables]]* ([arXiv:1912.10425](https://arxiv.org/abs/1912.10425))
+* {#SatiSchreiber19c} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Differential Cohomotopy implies intersecting brane observables]]*, Adv. Theor. Math. Phys. **26** 4 (2022) &lbrack;[arXiv:1912.10425](https://arxiv.org/abs/1912.10425)&rbrack;
+
 
 * {#CSS21} [[David Corfield]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Fundamental weight systems are quantum states]]* ([arXiv:2105.02871](https://arxiv.org/abs/2105.02871))
 
@@ -123,6 +124,8 @@ With emphasis on the [[AdS-CFT|holographic content]]:
 * [[Micha Berkooz]], Mikhail Isachenkov, Vladimir Narovlansky, Genis Torrents, Section 5 of: _Towards a full solution of the large $N$ double-scaled SYK model_, JHEP 03 (2019) 079 ([arxiv:1811.02584](https://arxiv.org/abs/1811.02584))
 
 * {#Narovlansky19} Vladimir Narovlansky, Slide 23 (of 28) of: _Towards a Solution of Large $N$ Double-Scaled SYK_, 2019 ([[NarovlanskySYK19.pdf:file]])
+
+* [[Micha Berkooz]], Mikhail Isachenkov, Prithvi Narayan, Vladimir Narovlansky, *Quantum groups, non-commutative $AdS_2$, and chords in the double-scaled SYK model* &lbrack;[arXiv:2212.13668](https://arxiv.org/abs/2212.13668)&rbrack;
 
 and specifically in relation, under [[AdS2/CFT1]], to [[Jackiw-Teitelboim gravity]]: 
 
