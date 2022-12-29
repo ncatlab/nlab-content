@@ -158,6 +158,8 @@ Review with emphasis on the formulation via [[holographic light front QCD]]:
 
 * [[Stanley Brodsky]], _Color Confinement and Supersymmetric Properties of Hadron Physics from Light-Front Holography_, International Conference on Beauty, Charm and Hyperon Hadrons (BEACH 2018) 17–23 June 2018, Peniche, Portugal ([arXiv:1912.12578](https://arxiv.org/abs/1912.12578))
 
+* [[Guy de Téramond]], *Emergent phenomena in QCD: The holographic perspective* &lbrack;[arXiv:2212.14028](https://arxiv.org/abs/2212.14028)&rbrack;
+
 
 ### Exotic hadron phenomenology
 
