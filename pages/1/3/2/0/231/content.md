@@ -415,7 +415,7 @@ The [[internal language]] of monoidal categories is a flavor of [[linear logic]]
 
 ### Scalars
 
-In any monoidal category $(\mathcal{C}, \otimes, I)$, the [[hom-set]] $\mathcal{C}[I,I]$ is a [[commutative rig]]. It was originally remarked in [Kelly & Laplaza (1980), Prop. 6.1](#KellyLaplaza80), and recently popularized in the context of [[categorical quantum mechanics]] by [[Samson Abramsky]], firstly in [Abramsky & Coecke (2004), Sec. 6](#AbramskyCoecke04). The proof uses the [[Eckmann-Hilton argument]].
+In any monoidal category $(\mathcal{C}, \otimes, I)$, the [[hom-set]] $\mathcal{C}[I,I]$ is a [[commutative monoid]]. It was originally remarked in [Kelly & Laplaza (1980), Prop. 6.1](#KellyLaplaza80), and recently popularized in the context of [[categorical quantum mechanics]] by [[Samson Abramsky]], firstly in [Abramsky & Coecke (2004), Sec. 6](#AbramskyCoecke04). The proof uses the [[Eckmann-Hilton argument]].
 
 ## Where the definition comes from
 
