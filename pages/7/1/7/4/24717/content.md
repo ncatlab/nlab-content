@@ -45,6 +45,18 @@ For instance, in the case $n=2$, strict 2-categories are double categories in wh
 "file_name": "2-Cat.jpg",
 "width": 800
 \end{imagefromfile}
+We see that the picture on the right becomes the one on the left when all vertical morphisms are identities. 
+
+
+In the weakly globular approach to higher categories, the cells in each dimension $k$ ($0\leq k\leq n$) instead of forming a set, have a higher categorical structure which is homotopically discrete, that is only equivalent (in higher categorical sense) to a set. This condition, called weak globularity condition, is a new paradigm to weaken higher categorical structures and allows to use rigid structures, namely $n$-fold categories, to model weak $n$-categories. There are strict embeddings
+$$
+n\text{-} Cat \hookrightarrow Cat_{wg}^{n} \hookrightarrow Cat^{n}
+$$
+so that the category $Cat_{wg}^{n}$ of weakly globular $n$-fold categories is intermediate between strict $n$-categories and $n$-fold categories.
+
+
+In the case $n=2$, a weakly globular double category $X$ is a double category satisfying two conditions: 
+the first is the weak globularity condition, stating that the category $X_0$ of objects and vertical arrows is equivalent to a discrete category, that is it is an equivalence relation. The set $pX$ of connected components of $X_0$ plays the role of 'set of objects' in the weak structure. We therefore need to define a composition of horizontal arrows whose source and target are in the same vertical connected component
 
 
 
