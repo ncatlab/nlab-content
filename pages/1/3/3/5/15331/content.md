@@ -48,6 +48,13 @@ As SOL permits characterisation of mathematical structures up to isomorphism, it
 
 ## References
 
+
+Textbook account in view of the [[Curry-Howard correspondence]]:
+
+* Morten Heine Sørensen, Pawel Urzyczyn, *Lectures on the Curry-Howard isomorphism*, Studies in Logic **149**, Elsevier (2006) &lbrack;[ISBN:9780444520777](https://www.elsevier.com/books/lectures-on-the-curry-howard-isomorphism/sorensen/978-0-444-52077-7), [pdf](https://disi.unitn.it/~bernardi/RSISE11/Papers/curry-howard.pdf)&rbrack;
+
+See also:
+
 * Wikipedia, _[Second-order logic](http://en.wikipedia.org/wiki/Second-order_logic)_
 
 * Stewart Shapiro, _Do Not Claim Too Much: Second-Order Logic and First-Order Logic_ , Phil. Math. **3** no. 7 (1999) pp.42-64 . ([pdf](http://www.accionfilosofica.com/misc/1214145300crs.pdf))
@@ -55,6 +62,7 @@ As SOL permits characterisation of mathematical structures up to isomorphism, it
 * [[Jouko Väänänen]], _Second-order Logic and Foundations of Mathematics_ , BSL **7** no. 4 (2001) pp.504-520. ([ps](http://www.math.ucla.edu/~asl/bsl/0704/0704-003.ps)) 
 
 * [[Jouko Väänänen]], _Second-order logic, set theory, and the foundations of mathematics_ , Ms. ([pdf](http://www.math.helsinki.fi/logic/people/jouko.vaananen/second_order_or_set_theory.pdf))
+
 
 [[!redirects second order logic]]
 [[!redirects SOL]]
