@@ -17,6 +17,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -77,7 +78,7 @@ We would not say homotopy type theory has propositions as types in the same way 
 
 * [[theory]]
 
-* [[proposition]]/[[type]] (**propositions as types**) 
+* [[proposition]]/[[type]]
 
 * [[definition]]/[[proof]]/[[program]] ([[proofs as programs]])
 
@@ -87,23 +88,38 @@ We would not say homotopy type theory has propositions as types in the same way 
 
 * [[propositional logic as a dependent type theory]]
 
-## References
 
+
+## References
 
 ### General
 
-A standard account for [[intuitionistic type theory]] is 
+An early account for [[intuitionistic type theory]]:
 
-* [[Per Martin-Löf]], _Intuitionistic Type Theory_, Notes by Giovanni Sambin of a series of lectures given in Padua, June 1980. Bibliopolis, Napoli, 1984.
+* [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), _Intuitionistic type theory_, noted of a Lecture in Padua 1984, Bibliopolis (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
 
-Discussion in [[homotopy type theory]] is in section 1.11 of
+Textbook accounts:
 
-* {#HoTTBook} [[UF-IAS-2012|Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (**[web](http://homotopytypetheory.org/book/)**, **[pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)**, **[[Planet Math|PM]] [wiki version](http://planetmath.org/node/87534)**)
+* [[Simon Thompson]], *[[Type Theory and Functional Programming]]*, Addison-Wesley (1991) &lbrack;ISBN:0-201-41667-0, [webpage](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP), [pdf](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf), [ISBN:9780444520777](https://www.elsevier.com/books/lectures-on-the-curry-howard-isomorphism/sorensen/978-0-444-52077-7)&rbrack;
+
+* Morten Heine Sørensen, Pawel Urzyczyn, *Lectures on the Curry-Howard isomorphism*, Studies in Logic **149**, Elsevier (2006) &lbrack;[ISBN:9780444520777](https://www.elsevier.com/books/lectures-on-the-curry-howard-isomorphism/sorensen/978-0-444-52077-7), [pdf](https://disi.unitn.it/~bernardi/RSISE11/Papers/curry-howard.pdf)&rbrack;
+
+Exposition:
+
+* {#Harper} [[Robert Harper]], _Extensionality, Intensionality, and Brouwer's Dictum_ (2012) &lbrack;[blog](http://existentialtype.wordpress.com/2012/08/11/extensionality-intensionality-and-brouwers-dictum/)&rbrack;
+
+* [[Philip Wadler]], *Propositions as Types*, Communications of the ACM **58** 12 (2015) 75–84 &lbrack;[doi:10.1145/2699407](https://doi.org/10.1145/2699407), [pdf](https://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf), [video](https://www.youtube.com/watch?v=IOiZatlZtGU)&rbrack;
+
  
+See also:
 
-Exposition is in 
+* Wikipedia, *[Curry-Howard correspondence](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence)*
 
-* {#Harper} [[Robert Harper]], _Extensionality, Intensionality, and Brouwer's Dictum_ ([blog](http://existentialtype.wordpress.com/2012/08/11/extensionality-intensionality-and-brouwers-dictum/))
+
+Discussion in view of [[homotopy type theory]]:
+
+* {#HoTTBook} [[Univalent Foundations Project]], Section 1.11 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf), [[Planet Math|PM]] [wiki version](http://planetmath.org/node/87534)&rbrack;
+
  
 ### History
  {#ReferencesHistory}
@@ -140,7 +156,6 @@ and in section 5 of
 * {#Troelstra91} [[Anne Sjerp Troelstra]], _History of Constructivism in the 20th Century_, 1991 ([preprint](https://www.illc.uva.nl/Research/Publications/Reports/ML-1991-05.text.pdf))
  
 
-Philip Wadler is currently in the process of writing another history [here](http://homepages.inf.ed.ac.uk/wadler/topics/history.html#propositions-as-types).
 
 
 
