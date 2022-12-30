@@ -671,7 +671,9 @@ Textbook accounts on type theory in [[programming languages]]:
 
 * [[Carl A. Gunter]], *The Semantics of Types in Programming Languages*, in: *[[Handbook of Logic in Computer Science]]* Vol 3: *Semantic structures*, Oxford University Press (1995) &lbrack;[ISBN:9780198537625](https://global.oup.com/academic/product/handbook-of-logic-in-computer-science-9780198537625), [pdf](http://seclab.illinois.edu/wp-content/uploads/2011/04/Gunter94.pdf)&rbrack;
 
-* [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
+* [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_, Cambridge University Press (2016) &lbrack;[ISBN:9781107150300](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB), [pdf](https://www.cs.cmu.edu/~rwh/pfpl/2nded.pdf)&rbrack;
+
+  > &lbrack;p. xvii:&rbrack; Types are the central organizing principle of the theory of programming languages. Language features are manifestations of type structure. The syntax of a language is governed by the constructs that define its types, and its semantics is determined by the interactions among those constructs. The soundness of a language design—the absence of ill-defined programs—follows naturally. The purpose of this book is to explain this remark.
 
 
 Further discussion of type theory in the context of ([[functional programming|functional]]) [[programming languages]]:
