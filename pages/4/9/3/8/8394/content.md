@@ -6,7 +6,7 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
-#### Constructivism, Realizability, Computability
+#### Computability
 +-- {: .hide}
 [[!include constructivism - contents]]
 =--
