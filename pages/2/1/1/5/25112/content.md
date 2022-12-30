@@ -63,7 +63,7 @@ On [[denotational semantics]]:
 
 On [[data type|data-]][[type theory]] in [[programming languages]]:
 
-* [[Carl A. Gunter]]: *The semantics of types in programming languages* &lbrack;[pdf](http://seclab.illinois.edu/wp-content/uploads/2011/04/Gunter94.pdf)&rbrack;
+* {#Gunter} [[Carl A. Gunter]]: *The semantics of types in programming languages* &lbrack;[pdf](http://seclab.illinois.edu/wp-content/uploads/2011/04/Gunter94.pdf)&rbrack;
 
 \linebreak
 
