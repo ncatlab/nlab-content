@@ -1,4 +1,19 @@
 
+\begin{imagefromfile}
+    "file_name": "ProductTypeInferenceRules-221230.jpg",
+    "float": "right",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+[[ProductTypeInferenceRules-221230.jpg:file]]
+
 \begin{tikzcd}[sep=20pt]
   \ast 
   \ar[r, dashed]
