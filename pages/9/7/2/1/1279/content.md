@@ -469,27 +469,25 @@ See [[cut elimination]].
 
 * [[Paul Hertz]]
 
+
 ## References
 
-For the basic definition of bi-minimal sequents see for instance def. D1.1.5 of 
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+Sequent calculus was introduced in
 
-and section D1.3 for sequent calculus.
+* {#Gentzen} [[Gerhard Gentzen]]  _Untersuchungen &#252;ber das logische Schlie&#223;en I_ _Mathematische Zeitschrift_ **39** 1 (1935) &lbrack;[doi:10.1007/BF01201353](http://dx.doi.org/10.1007/BF01201353)&rbrack;
 
-Sequent calculus was introduced by Gerhard Gentzen in his 1933 thesis 
+Textbook accounts:
 
-* [[Gerhard Gentzen]]  _Untersuchungen &#252;ber das logische Schlie&#223;en I_ _Mathematische Zeitschrift_ 39(1), Springer-Verlag 1935. &lt;http://dx.doi.org/10.1007/BF01201353>.
- {#Gentzen}
+* Morten Heine Sørensen, Pawel Urzyczyn, Chapter 7 of: *Lectures on the Curry-Howard isomorphism*, Studies in Logic **149** (2006) &lbrack;[ISBN:9780444520777](https://www.elsevier.com/books/lectures-on-the-curry-howard-isomorphism/sorensen/978-0-444-52077-7), [pdf](https://disi.unitn.it/~bernardi/RSISE11/Papers/curry-howard.pdf)&rbrack;
 
-as a formal system for studying the properties of proof systems presented in the style of [[natural deduction]] (also introduced by Gentzen).  It has since been widely adopted over natural deduction in [[proof theory]].
+For the basic definitions in a context of [[topos theory]]:
 
-
-The article
+* [[Peter Johnstone]], Defs. D1.1.5 and D1.3 in: _[[Sketches of an Elephant]]_
+  
+See also:
 
 * Wikipedia, _[Sequent calculus](http://en.wikipedia.org/wiki/Sequent_calculus)_
-
-provides a good summary.  So does
 
 * [Sequent Calculus Primer](http://sakharov.net/sequent.html)
 
