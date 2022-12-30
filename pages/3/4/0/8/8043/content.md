@@ -81,6 +81,7 @@ For more about the precise relationship between the various meanings of $\vdash$
 
 While this may seem to be a very basic form of (hypothetical/generic) judgement only, in systems such as [[dependent type theory]] or [[homotopy type theory]], all of [[logic]] and a good bit more is all based on just this.
 
+
 ## Related concepts
 
 * [[infinite judgment]]
@@ -88,6 +89,9 @@ While this may seem to be a very basic form of (hypothetical/generic) judgement 
 ## References
 
 Foundational discussion of the notion of _judgement_ in [[formal logic]] and [[type theory]]:
+
+
+* [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), p. 2-4 in: _Intuitionistic type theory_, Lecture in Padua 1984, Bibliopolis (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
 
 * [[Per Martin-Löf]], *Truth of a proposition, evidence of a judgement, validity of a proof*, Synthese **73** (1987) 407–420 &lbrack;[doi:10.1007/BF00484985](https://doi.org/10.1007/BF00484985), [pdf](https://archive-pml.github.io/martin-lof/pdfs/Truth-of-a-Proposition-Evidence-of-a-Judgment-1987.pdf)&rbrack; 
 
