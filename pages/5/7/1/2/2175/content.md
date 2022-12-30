@@ -1,10 +1,12 @@
 [[!redirects JA]]
 
+* [JA @ Mathstodon](https://mathstodon.xyz/@Inquiry)
+
 * [JA @ WordPress](https://inquiryintoinquiry.com/)
 
 * [JA @ OEIS Wiki](https://oeis.org/wiki/User:Jon_Awbrey)
 
-* [JA @ InterSciWiki](http://web.archive.org/web/20191124081501/http://intersci.ss.uci.edu/wiki/index.php/User%3AJon_Awbrey)
+* [JA @ InterSciWiki](https://web.archive.org/web/20191124081501/http://intersci.ss.uci.edu/wiki/index.php/User%3AJon_Awbrey)
 
 # Algebra #
 
