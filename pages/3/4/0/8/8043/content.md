@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Judgments
 * table of contents
 {: toc}
@@ -86,20 +87,19 @@ While this may seem to be a very basic form of (hypothetical/generic) judgement 
 
 ## References
 
-Foundational discussion of the notion of _judgement_ in [[formal logic]] is in
+Foundational discussion of the notion of _judgement_ in [[formal logic]] and [[type theory]]:
 
+* [[Per Martin-Löf]], *Truth of a proposition, evidence of a judgement, validity of a proof*, Synthese **73** (1987) 407–420 &lbrack;[doi:10.1007/BF00484985](https://doi.org/10.1007/BF00484985), [pdf](https://archive-pml.github.io/martin-lof/pdfs/Truth-of-a-Proposition-Evidence-of-a-Judgment-1987.pdf)&rbrack; 
 
-
-* {#Martin-L&#246;f83} [[Per Martin-Löf]], _On the meaning of logical constants and the justifications of the logical laws_, lecture series in Siena (1983) ([web](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf))
- 
+* {#Martin-L&#246;f83} [[Per Martin-Löf]], *On the Meanings of the Logical Constants and the Justifications of the Logical Laws*, Nordic Journal of Philosophical Logic, **1** 1 (1996) 11-60 &lbrack;[pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf), [[MartinLofOnTheMeaning96.pdf:file]]&rbrack;
 
 * {#MartinLoef90} [[Per Martin-Löf]], _A path from logic to metaphysics_, talk at _Nuovi problemi della logica e della filosofia della scienza_, Jan 1990 ([pdf](https://github.com/michaelt/martin-lof/raw/master/pdfs/A-path-from-logic-to-metaphysics-1991.pdf))
 
 
 More on this is in in sections 2 and 3 of
 
-* [[Frank Pfenning]], Rowan Davies, _A judgemental reconstruction of modal logic_ (2000) ([pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf))
- {#Pfenning-Davies}
+* {#Pfenning-Davies} [[Frank Pfenning]], Rowan Davies, _A judgemental reconstruction of modal logic_ (2000) ([pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf))
+ 
 
 A textbook acccount is in section I.3 of 
 
