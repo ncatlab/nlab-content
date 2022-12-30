@@ -19,6 +19,10 @@ and with emphasis on the meaning of the [[type formation]]-rules:
 
 * {#MartinLoef96} [[Per Martin-Löf]], *On the Meanings of the Logical Constants and the Justifications of the Logical Laws*, Nordic Journal of Philosophical Logic, **1** 1 (1996) 11-60 &lbrack;[pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf), [[MartinLofOnTheMeaning96.pdf:file]]&rbrack;
 
+On the notion of [[judgement]]:
+
+* [[Per Martin-Löf]], *Truth of a proposition, evidence of a judgement, validity of a proof*, Synthese **73** (1987) 407–420 &lbrack;[doi:10.1007/BF00484985](https://doi.org/10.1007/BF00484985), [pdf](https://archive-pml.github.io/martin-lof/pdfs/Truth-of-a-Proposition-Evidence-of-a-Judgment-1987.pdf)&rbrack; 
+
 
 
 A list of publication is kept here:
