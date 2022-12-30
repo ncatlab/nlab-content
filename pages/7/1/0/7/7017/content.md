@@ -28,6 +28,8 @@ In [[linguistics]] the meaning of syntax is similar, but a little different and 
 
 ## Related concepts
 
+* [[abstract syntax tree]]
+
 * [[syntax - semantics duality]]
 
 * [[relation between type theory and category theory]]
