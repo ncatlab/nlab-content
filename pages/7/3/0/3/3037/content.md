@@ -63,6 +63,12 @@ In constructive mathematics, one could also have a __predicate logic with [[apar
 
 ### General
 
+Textbook accounts:
+
+In view of the [[Curry-Howard correspondence]]:
+
+* Morten Heine Sørensen, Pawel Urzyczyn, §9 of: *Lectures on the Curry-Howard isomorphism*, Studies in Logic **149**, Elsevier (2006) &lbrack;[ISBN:9780444520777](https://www.elsevier.com/books/lectures-on-the-curry-howard-isomorphism/sorensen/978-0-444-52077-7), [pdf](https://disi.unitn.it/~bernardi/RSISE11/Papers/curry-howard.pdf)&rbrack;
+
 The [[syntax - semantics duality]] in first order logic is discussed in 
 
 * [[Steve Awodey]], [[Henrik Forssell]], _First-Order Logical Duality_ .([arXiv:1008.3145](http://arxiv.org/abs/1008.3145))
