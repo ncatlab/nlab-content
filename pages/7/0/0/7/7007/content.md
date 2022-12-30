@@ -7,7 +7,7 @@
 
 An introduction to [[program|programming]] languages in terms of [[type theory]]:
 
-* _Practical foundations for programming languages, second edition_, Cambridge University Press 2016, ([webpage](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB)).
+* [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_, Cambridge University Press (2016) &lbrack;[ISBN:9781107150300](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB), [pdf](https://www.cs.cmu.edu/~rwh/pfpl/2nded.pdf)&rbrack;
 
 An abridged preview, author comments and supplementary material are available on the [PFPL Home Page](http://www.cs.cmu.edu/~rwh/pfpl.html).
 
