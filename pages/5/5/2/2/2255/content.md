@@ -188,6 +188,9 @@ As Kock shows, this description of trees is well-adapted to the usual sorts of c
 
 * [[tree tensor network state]]
 
+* [[abstract syntax tree]]
+
+
 ## References 
 
 * {#Kock} [[Joachim Kock]], *Polynomial functors and trees*, arXiv:[0807.2874](http://arxiv.org/abs/0807.2874)
