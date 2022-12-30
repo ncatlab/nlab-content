@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -22,8 +23,24 @@ In a [[model]] of the type theory in [[categorical semantics]], this is a [[prod
 Note that a [[dependent product type]] is something different (a generalization of a [[function type]]).
 
 ## Overview
+ {#Overview}
 
-[[!include product natural deduction - table]]
+\linebreak
+
+\begin{imagefromfile}
+    "file_name": "ProductTypeInferenceRules-221230.jpg",
+    "width": 650,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+> (table taken from [[schreiber:Topological Quantum Gates in Homotopy Type Theory|Myers et al.]])
+
 
 ## Definition
 
