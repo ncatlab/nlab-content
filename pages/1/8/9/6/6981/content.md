@@ -23,7 +23,7 @@
 | [[negation]] | [[function set]] into [[empty set]] | [[internal hom]] into [[initial object]] | [[function type]] into [[empty type]] |
 | [[universal quantification]] | indexed [[cartesian product]] | [[dependent product]] | [[dependent product type]] |     
 | [[existential quantification]] | indexed [[disjoint union]] ([[support]] of) | [[dependent sum]] ([[(-1)-truncation]] of) | [[dependent sum type]] ([[bracket type]] of) |
-| [[logical equivalence]] | [[bijection]] | [[isomorphism]]/[[adjoint equivalence]] | [[equivalence of types]] |
+| [[logical equivalence]] | [[set]] of [[bijections]] | [[object]] of [[isomorphisms]]/[[adjoint equivalences]] | [[equivalence type]] |
 |  | [[support set]] | [[support object]]/[[(-1)-truncation]] | [[propositional truncation]]/[[bracket type]]
 | | | [[n-image]] of [[morphism]] into [[terminal object]]/[[n-truncation]] | [[n-truncation modality]]
 | [[equality]] | [[diagonal function]]/[[diagonal subset]]/[[diagonal relation]] | [[path space object]] | [[identity type]]/[[path type]] |
