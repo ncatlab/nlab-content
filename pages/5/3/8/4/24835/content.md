@@ -32,6 +32,9 @@ Moreover, from the point of view of [[monads in computer science|monads]] in [[f
 
 * [[list]], [[free monoid]]
 
+* [[language]], [[word]]
+
+* [[syntax]], [[abstract syntax tree]]
 
 ## References
 
