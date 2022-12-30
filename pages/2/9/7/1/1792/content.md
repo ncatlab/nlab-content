@@ -168,20 +168,25 @@ Up to topological structure, the suspension of the $n$-[[simplex]] is the $(n+1)
 
 Basics in:
 
-* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 2 of: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 2 of: _Spectra and stable homotopy theory_ (2012) &lbrack;[pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]]&rbrack;
 
+A textbook which knows that the suspension of the [[empty set]] is the [[0-sphere]], although even it regards this as an exception:
 
-The question on what is the Eckman-Hilton dual to $X\star Y$ find in 
+* Anatole Katok, Alexey Sossinsky, Chapter 1 of: *Introduction to Modern Topology and Geometry* (2010) &lbrack;[toc pdf](http://akatok.s3-website-us-east-1.amazonaws.com/TOPOLOGY/Contents.pdf), [[KatokSossinsky-Topology-Ch1.pdf:file]]&rbrack;
+
+Discussion of suspension as a [[higher inductive type]] in [[homotopy type theory]]:
+
+* [[Univalent Foundations Project]], §6.5 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+On the [[free loop space]] of a suspension:
+
+* [[Ralph Cohen]], _A model for the free loop space of a suspension_ Lecture Notes in Mathematics, 1987, Volume 1286/1987, 193-207
+
+On the question on what is the Eckman-Hilton dual to $X\star Y$:
 
 * D. B. Fuks, Eckmann--Hilton duality and the theory of functors in the category of topological spaces, 1966 Russ. Math. Surv. 21 1--33 [doi](http://dx.doi.org/10.1070/RM1966v021n02ABEH004149), [free Russian original pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=rm&paperid=5847&what=fullt&option_lang=rus)
 
-Here is [Chapter 1](http://www.math.psu.edu/katok_a/TOPOLOGY/Chapter1.pdf) (pdf) of a textbook that knows that $S \empty = 2$, although even it regards this as an exception.
-
-* [[George Whitehead]], _Some aspects of stable homotopy theory_ ([pdf](http://www.mathunion.org/ICM/ICM1962.1/Main/icm1962.1.0502.0506.ocr.pdf))
-
-* [[Ralph Cohen]], _A model for the free loop space of a suspension_ Lecture Notes in Mathematics, 1987, Volume 1286/1987, 193-207 ([])
-
-Graphics taken from
+The above graphics is taken from
 
 * {#Muro10} [[Fernando Muro]], _Representability of Cohomology Theories_, Joint Mathematical Conference CSASC 2010, 22–27 January 2010, Prague, Czech Republic ([slides](https://personal.us.es/fmuro/files/slides/praha.pdf))
 
