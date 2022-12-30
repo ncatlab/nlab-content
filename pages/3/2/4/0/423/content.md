@@ -1579,8 +1579,10 @@ Textbook accounts:
 
 * {#Bourbaki71} [[Nicolas Bourbaki]], Chapter 1 of:  _Topological Structures_ of _Elements of Mathematics III: General topology_, Springer 1971, 1990
 
-* {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000) &lbrack;ISBN:0-13-181629-2, [pdf](http://mathcenter.spb.ru/nikaan/2019/topology/4.pdf)&rbrack;
+* {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000) &lbrack;ISBN:0-13-181629-2, [pdf](http://mathcenter.spb.ru/nikaan/2019/topology
+/4.pdf)&rbrack;
 
+* [[Klaus Jänich]], *Topology*, Undergraduate Texts in Mathematics, Springer (1984) &lbrack;[ISBN:9780387908922](https://link.springer.com/book/9780387908922), Chapters 1-2: [pdf](http://topologicalmedialab.net/xinwei/classes/readings/Janich/Janich_Topology_ch1-2.pdf)&rbrack;
 
 * {#Engelking89} [[Ryszard Engelking]], *General Topology*, Sigma series in pure mathematics **6**, Heldermann 1989 ([ ISBN 388538-006-4](https://www.heldermann.de/SSPM/SSPM06/sspm06.htm))
 
@@ -1589,6 +1591,9 @@ Textbook accounts:
 * {#Bredon93} [[Glen Bredon]], _Topology and Geometry_, Graduate texts in mathematics **139**, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
 
 * {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
+
+* Anatole Katok, Alexey Sossinsky, *Introduction to Modern Topology and Geometry* (2010) &lbrack;[toc pdf](http://akatok.s3-website-us-east-1.amazonaws.com/TOPOLOGY/Contents.pdf), [[KatokSossinsky-Topology-Ch1.pdf:file]]&rbrack;
+
 
 On [[counterexamples]] in topology:
 
