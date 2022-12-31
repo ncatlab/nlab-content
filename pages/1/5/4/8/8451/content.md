@@ -118,6 +118,9 @@ Placing Bayesian inference in a category theoretic setting occurs in
 
 * Kotaro Kamiya, John Welliaveetil, _A category theory framework for Bayesian learning_ ([arXiv:2111.14293](https://arxiv.org/abs/2111.14293))
 
+* [[Toby St Clere Smithe]], _Mathematical Foundations for a Compositional Account of the Bayesian Brain_ ([arXiv:2212.12538](https://arxiv.org/abs/2212.12538))
+
+
 
 ### Exchangeability
 
