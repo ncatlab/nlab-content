@@ -132,7 +132,7 @@ It may seem on first sight that foundational questions in mathematics are remote
 
 Under [[computational trinitarianism]] this corresponds to a practical foundation in [[program|programming]], laid out in
 
-*  [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_ ([web](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
+*  [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_ ([web](https://www.cs.cmu.edu/~rwh/pfpl/))
 {#Harper}
 
 A classification of [[material set theories]] and [[structural set theories]] is in
