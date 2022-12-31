@@ -417,14 +417,17 @@ Since every proposition comes with an antithesis proposition in the antithesis i
 
 ## References
 
-The original article is
+The original article:
 
-* {#Girard} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science 50:1, 1987.  ([pdf](http://iml.univ-mrs.fr/~girard/linear.pdf))
+* {#Girard} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science **50** 1 (1987)  &lbrack;[pdf](http://iml.univ-mrs.fr/~girard/linear.pdf)&rbrack;
  
 
 Review:
 
-* [[Jean-Yves Girard]], _Linear logic, its syntax and semantics_ ([pdf](http://www.cs.brandeis.edu/~cs112/2006-cs112/docs/girard-intro.pdf))
+* [[Frank Pfenning]], *Linear Logic*, lecture notes (1998) &lbrack;[pdf](https://www.cs.cmu.edu/~fp/courses/98-linear/handouts/notes.pdf), [webpage](https://www.cs.cmu.edu/~fp/courses/98-linear/handouts.html), [[Pfenning-LinearLogic98.pdf:file]]&rbrack;
+
+
+* [[Jean-Yves Girard]], _Linear logic, its syntax and semantics_ (2006) &lbrack;[pdf](http://www.cs.brandeis.edu/~cs112/2006-cs112/docs/girard-intro.pdf)&rbrack;
 
 * {#Girard11} [[Jean-Yves Girard]], part III of _[[Lectures on Logic]]_, European Mathematical Society 2011
 
@@ -487,7 +490,7 @@ This is reviewed/further discussed in
 
 The relation of dual intuitionistic linear logic and $\pi$-calculus is given in
 
-* Luis Caires, Frank Pfenning. _Session Types as Intuitionistic Linear Propositions_.
+* Luis Caires, [[Frank Pfenning]]. _Session Types as Intuitionistic Linear Propositions_.
 
 Noncommutative linear logic is discussed for instance in
 
