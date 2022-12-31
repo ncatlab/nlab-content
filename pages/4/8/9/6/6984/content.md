@@ -312,6 +312,10 @@ A textbook account in the context of [[programming languages]] is in section 11 
 
 * [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
 
+On product types as [[inductive types]]:
+
+* Kajetan Söhnen, §2.4.3 in : *Higher Inductive Types in Homotopy Type Theory*, Munich (2018) &lbrack;[pdf](https://www.math.lmu.de/~petrakis/Soehnen.pdf), [[Soehnen-HigherInductiveTypes.pdf:file]]&rbrack;
+
 
 [[!redirects product type]]
 [[!redirects product types]]
