@@ -23,8 +23,12 @@ On the [[classical model structure on topological spaces]]:
 
 * {#Hirschhorn15} [[Philip Hirschhorn]], _The Quillen model category of topological spaces_, Expositiones Mathematicae Volume 37, Issue 1, March 2019, Pages 2-24 ([arXiv:1508.01942](http://arxiv.org/abs/1508.01942), [doi:10.1016/j.exmath.2017.10.004](https://doi.org/10.1016/j.exmath.2017.10.004))
 
+On [[slice model structures]]:
 
-## related $n$Lab entries
+
+* {#Hirschhorn21} [[Philip Hirschhorn]], *Overcategories and undercategories of model categories*, J. Homotopy Relat. Struct. **16**  (2021) 753–768 &lbrack;[arXiv:1507.01624](https://arxiv.org/abs/1507.01624), [doi:10.1007/s40062-021-00294-4](https://doi.org/10.1007/s40062-021-00294-4)&rbrack;
+
+## related entries
 
 * [[model category]]
 
