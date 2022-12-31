@@ -170,11 +170,11 @@ while the analytic version was proposed by
 * [[Per Martin-Lof]], _On the meanings of the logical constants and the justifications of the logical laws_
  {#ML}
 
-General overviews include:
+General overview:
 
-* [[Frank Pfenning]], _Logical frameworks -- a brief introduction_ ([pdf](http://www.cs.cmu.edu/~fp/papers/mdorf01.pdf))
+* [[Frank Pfenning]], _Logical frameworks -- a brief introduction_ (2002) &lbrack;[pdf](http://www.cs.cmu.edu/~fp/papers/mdorf01.pdf)&rbrack;
 
-* [[Frank Pfenning]], _Logical frameworks_ In Alan Robinson and Andrei Voronkov (eds.) _Handbook of Automated Reasoning_, chapter 17, pages 1063&#8211;1147. Elsevier Science Publishers, 1999. ([ps](http://www-2.cs.cmu.edu/twelf/notes/handbook00.ps)).
+* [[Frank Pfenning]], _Logical frameworks_, chapter 17 in: Alan Robinson and Andrei Voronkov (eds.): _Handbook of Automated Reasoning_ (1999) 1063-1147 &lbrack;[ps](http://www-2.cs.cmu.edu/twelf/notes/handbook00.ps)&rbrack;
 
 * [[Frank Pfenning]], _Logical frameworks web site_ ([web](http://www.cs.cmu.edu/~fp/lfs.html)), including an extensive bibliography and a list of implementations
 
