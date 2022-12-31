@@ -206,6 +206,7 @@ For $\mathcal{C}$ a [[category]], $X \;\colon\; \mathcal{D} \longrightarrow \mat
 For a proof see at [[(∞,1)-limit]]  _[here](limit+in+a+quasi-category#InOvercategories)_.
 
 ### Initial and terminal objects
+ {#InitialAndTerminalObjects}
 
 As a special case of the above discussion of limits and colimits in a 
 slice $\mathcal{C}_{/X}$ we obtain the following statement, which of 
