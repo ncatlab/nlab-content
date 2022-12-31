@@ -14,7 +14,7 @@
 * table of contents
 {: toc}
 
-This article is about an axiom of constructive mathematics.  Some set thoery literature instead uses this name for an unrelated weakening of [[axiom of choice|AC]].  For that notion, see [[(classical) axiom of multiple choice]]
+This article is about an axiom of constructive mathematics.  Some set theory literature instead uses this name for an unrelated weakening of [[axiom of choice|AC]].  For that notion, see [[(classical) axiom of multiple choice]].
 
 ## Idea
 
