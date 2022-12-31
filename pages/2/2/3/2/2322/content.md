@@ -367,10 +367,17 @@ morphisms $X \to U$ in $PSh_\infty(C)$.
 
 ## References
 
+The general notion is due to:
 
+* [[Jacob Lurie]], section 6.1.6 of _[[Higher Topos Theory]]_ (2009)
 
-* [[Jacob Lurie]],  section 6.1.6 of _[[Higher Topos Theory]]_ 
+The object classifier in the archetypical special case of the $\infty$-topos [[∞Grpd]] of [[infinity-groupoids|$\infty$-groupoids]], seen in the [[classical model structure on simplicial sets]], is discussed in 
 
+* {#KapulkinLumsdaineVoevodsky12} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], [[Vladimir Voevodsky]], *Univalence in simplicial sets* &lbrack;[arXiv:1203.2553](http://arxiv.org/abs/1203.2553)&rbrack;
+
+* {#KapulkinLumsdaine21} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], *The Simplicial Model of Univalent Foundations (after Voevodsky)*, Journal of the European Mathematical Society **23** (2021) 2071–2126  $[$[arXiv:1211.2851](https://arxiv.org/abs/1211.2851), [doi:10.4171/jems/1050](https://doi.org/10.4171/jems/1050)$]$
+
+as [[categorical semantics]] for [[univalence|univalent]] [[type universes]] in [[homotopy type theory]].
 
 
 [[!redirects object classifier]]
