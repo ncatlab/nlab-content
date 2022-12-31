@@ -321,7 +321,7 @@ Other texts:
 
 A formulation of modal logic in terms of [[type|typing]] [[judgements]] and  [[type formation rules]] is in 
 
-* {#Pfenning-Davies} [[Frank Pfenning]], Rowan Davies, _A judgemental reconstruction of modal logic_, Mathematical Structures in Comp. Sci., 11(4):511{540, August 2001. (2000) ([pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf))
+* {#Pfenning-Davies} [[Frank Pfenning]], Rowan Davies, *A judgemental reconstruction of modal logic*, Mathematical Structures in Comp. Sci. **11** 4 (2001) 511-540 &lbrack;[pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf)&rbrack;
 
 See also:
 
