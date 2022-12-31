@@ -9,9 +9,14 @@ Thorsten Altenkirch is an associate professor for [[computer science]] at Univer
 
 ## Selected writings
 
+On [[inductive types]] and [[W-types]]:
+
+* [[Michael Abbott]], [[Thorsten Altenkirch]], [[Neil Ghani]]: *Representing Nested Inductive Types using W-types*, in: *Automata, Languages and Programming*, ICALP 2004, Lecture Notes in Computer Science, **3142**, Springer (2004) &lbrack;[doi:10.1007/978-3-540-27836-8_8](https://doi.org/10.1007/978-3-540-27836-8_8), [pdf](http://www.cs.nott.ac.uk/~psztxa/publ/icalp04.pdf)&rbrack;
+
+
 Introducing the [[quantum programming language]] [[QML]]:
 
-* {#AltenkirchGrattage05} [[Thorsten Altenkirch]], [[Jonathan Grattage]], _A functional quantum programming language_, Logic in Computer Science, 2005. Proceedings. 20th Annual IEEE Symposium on, 26-29 June 2005 Page(s):249 - 258 ([arXiv:quant-ph/0409065](https://arxiv.org/abs/quant-ph/0409065), [doi:10.1109/LICS.2005.1](https://doi.org/10.1109/LICS.2005.1), [pdf](http://www.cs.nott.ac.uk/~txa/publ/qml.pdf))
+* {#AltenkirchGrattage05} [[Thorsten Altenkirch]], [[Jonathan Grattage]], _A functional quantum programming language_, Logic in Computer Science, 2005. Proceedings. 20th Annual IEEE Symposium on, 26-29 June 2005 249 - 258 ([arXiv:quant-ph/0409065](https://arxiv.org/abs/quant-ph/0409065), [doi:10.1109/LICS.2005.1](https://doi.org/10.1109/LICS.2005.1), [pdf](http://www.cs.nott.ac.uk/~txa/publ/qml.pdf))
 
 Introducing the [[quantum IO monad]]:
 
