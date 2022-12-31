@@ -18,6 +18,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -37,7 +38,7 @@ _Adjoint logic_ or _adjoint type theory_ is [[formal logic]] or [[type theory]] 
 * Jason Reed, _A judgemental deconstruction of modal logic_, 2009, ([pdf](http://www.cs.cmu.edu/~jcreed/papers/jdml2.pdf))
 
 
-* Klaas Pruiksma, William Chargin, Frank Pfenning, and Jason Reed, _Adjoint Logic_, 2018, ([pdf](https://www.cs.cmu.edu/~fp/papers/adjoint18b.pdf))
+* Klaas Pruiksma, William Chargin, [[Frank Pfenning]], and Jason Reed, *Adjoint Logic*, 2018, &lbrack;[pdf](https://www.cs.cmu.edu/~fp/papers/adjoint18b.pdf), [[PCPR18-AdjointLogic.pdf:file]]&rbrack;
  
 
 A framework for ([[homotopy type theory|homotopy]]-)[[type theory|type theoretic]] adjoint logic ([[modal type theory]]) is discussed, in various stages of generality, in
