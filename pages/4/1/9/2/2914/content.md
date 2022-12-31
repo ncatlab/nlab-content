@@ -53,7 +53,7 @@ More in detail, if $I,J \subset Mor(\mathcal{C})$ are the classes of [[generatin
 
 =--
 
-([Hirschhorn 2005](#Hirschhorn05); [May & Ponto 2012, Th. 15.3.6](#MayPonto12)).
+([Hirschhorn (2021)](#Hirschhorn21); [May & Ponto (2012, Th. 15.3.6)](#MayPonto12)).
 
 +-- {: .num_prop #ModelStructureInheritsCombinatorial}
 ###### Proposition
@@ -100,7 +100,7 @@ More explicitly, for any [[model category]] $\mathcal{C}$, let
   \gamma \colon \mathcal{C} \longrightarrow L_W \mathcal{C}
 \]
 
-denote the localization of an (infinity,1)-category|localization]] (as an [[(∞,1)-category]]) inverting the [[weak equivalences]] (as e.g. given by [[simplicial localization]]; see also the [[model structure on relative categories]]). Then:
+denote the [[localization of an (infinity,1)-category|localization]] (as an [[(∞,1)-category]]) inverting the [[weak equivalences]] (as e.g. given by [[simplicial localization]]; see also the [[model structure on relative categories]]). Then:
 
 +-- {: .num_prop #PresentationOfSliceInfinityCatAlt}
 ###### Proposition
@@ -734,7 +734,7 @@ This follows by the same argument after replacing $B$ by the [[connected compone
 * {#Hirschhorn02} [[Philip Hirschhorn]], Theorem 7.6.5 of: _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
 
 
-* {#Hirschhorn05} [[Philip Hirschhorn]], _Overcategories and undercategories of model categories_, 2005 ([preprint on author's website (2005)](http://www-math.mit.edu/~psh/undercat.pdf), [arXiv:1507.01624 (2015)](https://arxiv.org/abs/1507.01624), [published (2021)](https://doi.org/10.1007/s40062-021-00294-4))
+* {#Hirschhorn21} [[Philip Hirschhorn]], *Overcategories and undercategories of model categories*, J. Homotopy Relat. Struct. **16**  (2021) 753–768 &lbrack;[arXiv:1507.01624](https://arxiv.org/abs/1507.01624), [doi:10.1007/s40062-021-00294-4](https://doi.org/10.1007/s40062-021-00294-4)&rbrack;
 
 * {#MayPonto12} [[Peter May]], [[Kate Ponto]], Thm. 15.3.6 in: _[[More concise algebraic topology]]_,   University of Chicago Press (2012) ([ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html), [pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf))
 
