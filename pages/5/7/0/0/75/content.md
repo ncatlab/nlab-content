@@ -71,7 +71,7 @@ For theories with a membership relation, one could further distinguish between [
 
 For theories with a typing judgment, one simply judges the object, element, or term $a$ to be in the collection, set, or type $A$, () or $a:A$. This is in contrast to membership relations, where () is a proposition with some truth value, and thus one could say whether the proposition that the object, element, or term $a$ is in collection, set, or type $A$ is true or not. 
 
-Formally, there are also a difference in the contexts. When () or $a:A$ is a judgment, then it lies in the type layer, but when () is a true proposition, then it lies in the proposition layer $\Phi$ while the typing judgment $a:\mathrm{Set}$ lies in the type layer. 
+Formally, there are also a difference in the contexts. When () or $a:A$ is a judgment, then it lies in the type layer, but when () is a true proposition, then it lies in the proposition layer $\Phi$ while the typing judgment $a:$Set lies in the type layer. 
 
 ### Equality and equivalence
 
