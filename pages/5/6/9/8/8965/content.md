@@ -17,6 +17,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -94,7 +95,7 @@ The [[type of natural numbers]] $\mathbb{N}$ is the [[inductive type]] defined a
    $$
 =--
 
-See for instance ([Pfenning, section 2](#Pfenning)).
+See for instance [Pfenning (2009, §2)](#Pfenning).
 
 In [[Coq]]-[[syntax]] the [[natural numbers]] are the inductive type defined by
 
@@ -103,28 +104,33 @@ In [[Coq]]-[[syntax]] the [[natural numbers]] are the inductive type defined by
      | succ : nat -> nat.
 
 In the [[categorical semantics]]
-this is interpreted as the [[initial algebra for an endofunctor|initial algebra]] for the endofunctor $F$ that sends an object to its [[coproduct]] with the [[terminal object]] 
+this is interpreted as the [[initial algebra for an endofunctor|initial algebra]] for the [[endofunctor]] $F$ that sends an object to its [[coproduct]] with the [[terminal object]] 
 
-$$
-  F(X) = * \coprod X
+\[
+  \label{TheEndofunctor}
+  F(X) \;\coloneqq\; * \sqcup X
   \,,
-$$
+\]
 
 or in different equivalent notation, which is very suggestive here:
 
 $$
-  F(X) = 1 + X
+  F(X) \;=\; 1 + X
   \,.
 $$
 
 That [[initial algebra for an endofunctor|initial algebra]] is (as explained there) precisely a [[natural number object]] $\mathbb{N}$. The two components of the morphism $F(\mathbb{N}) \to \mathbb{N}$ that defines the algebra structure are the 0-[[generalized element|element]] $zero : * \to \mathbb{N}$ and the successor [[endomorphism]] $successor : \mathbb{N} \to \mathbb{N}$
 
 $$
-  (zero,successor) : * \coprod \mathbb{N} \to \mathbb{N}
+  (zero,successor) 
+  \;\colon\; 
+  * \sqcup \mathbb{N} 
+  \longrightarrow 
+  \mathbb{N}
   \,.
 $$
 
-In the following we write of course for short $0 : * \to \mathbb{N}$ and $s : \mathbb{N} \to \mathbb{N}$.
+In the following we write of course for short $0 \colon * \to \mathbb{N}$ and $s \colon \mathbb{N} \to \mathbb{N}$.
 
 
 ## Properties
@@ -143,7 +149,9 @@ Here is how this is formalized in type theory and then [[categorical semantics|i
 First of all, that $P$ is a proposition depending on the natural numbers means that it is a [[dependent type]]
 
 $$
-  n \in \mathbb{N} \vdash P(n) : Type
+  n \,\colon\, \mathbb{N} 
+  \;\;\vdash\;\; 
+  P(n) \,\colon\, Type
   \,.
 $$ 
 
@@ -164,11 +172,11 @@ in the given category $\mathcal{C}$.
 Next, the fact that $P$ holds at 0 means that there is a ([[proof]]-)[[term]]
 
 $$
-  \vdash p_0 \in P(0)
+  \vdash \;\; p_0 \,\colon\, P(0)
   \,.
 $$
 
-In the categorical semantics the [[substitution]] of $n$ for 0 that gives $P(0)$ is given by the [[pullback]] of the above fibration
+In the [[categorical semantics]] the [[substitution]] of $n$ for 0 that gives $P(0)$ is given by the [[pullback]] of the above fibration
 
 $$
   \array{
@@ -209,14 +217,17 @@ $$
 Next the induction step. Formally it says that for all $n \in \mathbb{N}$ there is an [[implication]] $p_s(n) : P(n) \to P(n+1)$
 
 $$
-  n \in \mathbb{N} \vdash p_s(n)  : P(n) \to   P(n+1)
+  n \in \mathbb{N} 
+  \;\;\;\vdash\;\;\; 
+  p_s(n) \,\colon\, P(n) \to   P(n+1)
+  \,.
 $$
 
-The categorical semantics of the [[substitution]] of $n+1$ for $n$ is now given by the [[pullback]]
+The [[categorical semantics]] of the [[substitution]] of $n+1$ for $n$ is given by the [[pullback]]
 
 $$
   \array{
-     P((-)+1) \coloneqq & s^*P &\to& P
+     P\big((-)+1\big) \coloneqq & s^*P &\to& P
      \\
      & \downarrow && \downarrow 
      \\
@@ -250,7 +261,11 @@ $$
   \,.
 $$
 
-In summary this shows that the fact that $P$ is a proposition depending on natural numbers which holds at 0 and which holds at $n+1$ if it holds at $n$ is interpreted precisely as an $F$-[[algebra for an endofunctor|algebra homomorphism]]
+In summary this shows that 
+
+* $P$ being a proposition depending on natural numbers which holds at 0 and which holds at $n+1$ if it holds at $n$ 
+
+is interpreted precisely as an [[algebra for an endofunctor|endofunctor-algebra homomorphism]] 
 
 $$
   \array{
@@ -262,6 +277,9 @@ $$
   }
   \,.
 $$
+
+for the [[endofunctor]] $F$ (eq:TheEndofunctor).
+
 
 The [[induction principle]] is supposed to deduce from this that $P$ holds for every $n$, hence that there is a proof $p_n : P(n)$ for all $n$:
 
@@ -298,22 +316,34 @@ $$
 By [[initial object|initiality]] of the $F$-algebra $\mathbb{N}$, there is then a (unique) morphism
 
 $$
-  f : \mathbb{N} \to A
+  f \colon \mathbb{N} \to A
 $$
 
-such that the diagram 
+such that the following [[commuting diagram|diagram commutes]]:
 
 $$
   \array{
-    * &\stackrel{0}{\to}& \mathbb{N} &\stackrel{(-)+1}{\to}& \mathbb{N}
+    * 
+    &\stackrel{0}{\longrightarrow}& 
+    \mathbb{N} 
+    &\stackrel{(-)+1}{\longrightarrow}& 
+    \mathbb{N}
     \\
-    \downarrow && \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{f}}
+    \big\downarrow 
+    && 
+    \big\downarrow\mathrlap{^\mathrlap{f}} 
+    && 
+    \big\downarrow\mathrlap{^\mathrlap{f}}
     \\
-    * &\stackrel{a_0}{\to}& A &\stackrel{h}{\to}& A
+    * 
+    &\underset{a_0}{\longrightarrow}& 
+    A 
+    &\underset{h}{\longrightarrow}& 
+    A
   }
 $$
 
-commutes. This means precisely that $f$ is the function defined recursively by
+This means precisely that $f$ is the function defined recursively by
 
 1. $f(0) = a_0$;
 
@@ -325,12 +355,22 @@ commutes. This means precisely that $f$ is the function defined recursively by
 ## Related concepts
 
 * [[natural numbers]], [[natural numbers object]]
+
 * [[decimal numeral representation of the natural numbers]]
+
 
 ## References
 
-* Frank Pfenning, _Lecture notes on natural numbers_ (2009) ([pdf](http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/06-nat.pdf))
-  {#Pfenning}
+* {#Pfenning} [[Frank Pfenning]], _Lecture notes on natural numbers_ (2009) &lbrack;[pdf](http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/06-nat.pdf), [[Pfenning-NaturalNumbersType.pdf:file]]&rbrack;
+  
+Discussion in a context of [[homotopy type theory]] and in view of [[higher inductive types]]:
+
+* [[Univalent Foundations Project]], §1.9 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+
+* Kajetan Söhnen, §2.4.5 in: *Higher Inductive Types in Homotopy Type Theory*, Munich (2018) &lbrack;[pdf](https://www.math.lmu.de/~petrakis/Soehnen.pdf), [[Soehnen-HigherInductiveTypes.pdf:file]]&rbrack;
+
+
 
 
 [[!redirects natural number type]]
