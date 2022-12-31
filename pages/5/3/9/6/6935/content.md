@@ -76,15 +76,23 @@ Let $\mathcal{C}$ be the [[ambient category]].
 
 1. **[[term elimination rule]]** 
 
-   The interpretation of the dependent elimination rule says that given a [[display map]] $B \to W$, where $B$ is given an $F$-[[algebra over an endofunctor|algebra structure]] and the display map is an $F$-algebra [[homomorphism]], the dependent eliminator is interpreted as a specified [[section]] $\sigma : W \to B \in \mathcal{C}_{/W}$, hence as a [[diagram]]
+   The interpretation of the dependent elimination rule says that given a [[display map]] $B \to W$, where $B$ is given an $F$-[[algebra over an endofunctor|algebra structure]] and the display map is an $F$-algebra [[homomorphism]], the dependent eliminator is interpreted as a specified [[section]] $\sigma : W \to B \in \mathcal{C}_{/W}$, hence as a [[commuting diagram]] of the form
 
    $$
      \array{
-       W &&\stackrel{\sigma}{\to}&& B
+       W 
+       &&
+       \overset{\sigma}{\longrightarrow}
+       && 
+       B
        \\
-        & {}_{\mathllap{id}}\searrow && \swarrow_{\mathrlap{}}
+       & 
+       {}_{\mathllap{id}}\searrow 
+       && 
+       \swarrow_{\mathrlap{}}
        \\
-       && W
+       && 
+       W
      }
    $$
 
