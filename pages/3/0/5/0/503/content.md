@@ -87,6 +87,7 @@ The Cauchy completion $\overline{C}$ satisfies the following properties
 
 This appears for instance as ([BorceuxDejean, theorem 1](#BorceuxDejean)).
 
+
 +-- {: .proof}
 ###### Proof
 
@@ -575,7 +576,7 @@ $$Set^{C^{op}} \simeq Set^{\bar{C}^{op}}$$
 and we say that $C$ and $\bar{C}$ are **Morita equivalent**. 
 
 
-### Of prosets
+### Of posets
 
 Every ordinary [[poset]] clearly is Cauchy complete, since the only idempotents are the [[identity morphism]]s. The [[internalization]] of this statement requires some extra assumptions:
 
