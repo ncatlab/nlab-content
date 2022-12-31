@@ -1,3 +1,4 @@
+Ham $a:Set$, $b : Set$, $c:$Set Sandwich
 
 \begin{imagefromfile}
     "file_name": "ProductTypeInferenceRules-221230.jpg",
