@@ -122,7 +122,7 @@ Explicit mentioning of type theory equipped with such a monad as _modal type the
 
 Discussion of modal operators explicitly in [[dependent type theory]] (and with a brief mentioning of the relation to [[monad (in computer science)|monads]]) is in 
 
-* {#NanevskiPfenningPientka05} [[Aleksandar Nanevski]], [[Frank Pfenning]], Brigitte Pientka, _Contextual Modal Type Theory_ (2005) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.61.2356), [slides](http://wips.cs.umn.edu/slides/pientka.pdf)) 
+* {#NanevskiPfenningPientka05} [[Aleksandar Nanevski]], [[Frank Pfenning]], Brigitte Pientka, _Contextual Modal Type Theory_ (2005) &lbrack;[web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.61.2356), [slides](http://wips.cs.umn.edu/slides/pientka.pdf)&rbrack;
 
 * [[Valeria de Paiva]], Eike Ritter, _Fibrational Modal Type Theory_, Electronic Notes in Theoretical Computer Science Volume 323, 11 July 2016, Proceedings of the Tenth Workshop on Logical and Semantic Frameworks, with Applications (LSFA 2015), pp. 143&#8211;161 ([doi:10.1016/j.entcs.2016.06.010](http://www.sciencedirect.com/science/article/pii/S1571066116300378))
 
@@ -236,9 +236,9 @@ A general framework is discussed in
 
 See also
 
-* [[Frank Pfenning]], _Towards modal type theory_ (2000) ([pdf](http://www.cs.cmu.edu/~fp/talks/mantova00-talk.pdf))
+* [[Frank Pfenning]], _Towards modal type theory_ (2000) &lbrack;[pdf](http://www.cs.cmu.edu/~fp/talks/mantova00-talk.pdf)&rbrack;
 
-* [[Frank Pfenning]], _Intensionality, Extensionality, and Proof Irrelevance in Modal Type Theory_, 	Pages 221&#8211;230 of: Symposium on Logic in Computer Science (2001) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.28.5884))
+* [[Frank Pfenning]], _Intensionality, Extensionality, and Proof Irrelevance in Modal Type Theory_, in: Symposium on Logic in Computer Science (2001) 221&-230 &lbrack;[web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.28.5884)&rbrack;
 
 
 * Giuseppe Primiero, _A multi-modal dependent type theory_ ([pdf](http://logica.ugent.be/centrum/preprints/primiero_PSPL10.pdf))
