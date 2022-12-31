@@ -13,19 +13,21 @@
 =--
 =--
 
+
 # Recursion
 * table of contents
 {: toc}
 
 ## Idea
 
-The traditional notion of _recursion_ over the [[natural numbers]] $\mathbb{N}$ is a way of defining a [[function]] out of $\mathbb{N}$ by specifying the image of $0$ (the "initial value") along with a way to obtain each successive value from the previous one(s).  There is a rich theory regarding the functions which can or cannot be defined using only recursion: this is [[computability theory]] and has deep connections with the logic of [[Peano arithmetic]].
+The traditional notion of _recursion_ over the [[natural numbers]] $\mathbb{N}$ is a way of defining a [[function]] out of $\mathbb{N}$ by specifying the image of *[[zero|$0$]]* (the "initial value") along with a way to obtain each *[[successor|successive]]* value from the previous one(s).  
+The study of functions on the [[natural numbers]] which can or cannot be defined using only recursion -- *[[recursive functions]]* -- is the topic of [[computability theory]] and has deep connections with the [[formal logic]] of [[Peano arithmetic]].
 
-More generally, recursion is a way of defining a function on any mathematical object which is "defined inductively" (in a way analogous to how the natural numbers are characterized by [[zero]] and [[successor]]).  In place of the "initial value" and "successor step", a general definition by recursion consists of giving one "clause" for each "constructor" of the inductively defined object.
+More generally, recursion is a way of defining a function on any mathematical object which is "defined inductively" (in a way analogous to how the [[natural numbers]] are characterized by [[zero]] and [[successor]]).  In place of the "initial value" and "successor step", a general definition by recursion consists of giving one "clause" for each "constructor" of the inductively defined object.
 
 Recursion is formalized in [[type theory]] by the notion of _[[inductive type]]_ (and the corresponding [[elimination rule]])  and, equivalently, in [[category theory]] by the notion of _[[initial algebra of an endofunctor]]_.  For $F$ an [[endofunctor]], a [[morphism]] of the form $F(X) \to X$ determines a collection of _constructors_ and the _recursion principle_ is the statement that there is a (unique) morphism $f : A \to X$ from the [[initial object|initial]] such structure $F(A) \to A$.  This $f$ is the corresponding _recursively defined function_.
 
-Viewed from just a slightly different angle, this state of affairs is the _[[induction principle]]_.
+Viewed from just a slightly different angle, this state of affairs is the _[[induction principle]]_ on non-[[dependent types]].
 
 
 
@@ -35,12 +37,15 @@ Viewed from just a slightly different angle, this state of affairs is the _[[ind
 +-- {: .un_example}
 ###### Example
 
-In the theory of Peano arithmetic, we define $x + y$ recursively in terms of the successor operation $s$ as follows:
+In the theory of [[Peano arithmetic]], we define $x + y$ recursively in terms of the [[successor]] operation $s$ as follows:
 
 1. $x + 0 = x$
+
 2. $x + s(y) = s(x + y)$
 
-The definition above is taken as axiomatic in Peano arithmetic. More generally, given a (parametrizable) [[natural numbers object]] $\mathbb{N}$, its universal property guarantees that there is a unique (!) map $\mathbb{N} \times \mathbb{N} \to \mathbb{N}$ with the above properties.
+The definition above is taken as an [[axiom]] in [[Peano arithmetic]]. 
+
+More generally, given a (parametrizable) [[natural numbers object]] $\mathbb{N}$, its universal property guarantees that there is a unique (!) map $\mathbb{N} \times \mathbb{N} \to \mathbb{N}$ with the above properties.
 =--
 
 
@@ -96,6 +101,21 @@ Recall that the universal property for $\mathbb{N}$ states that for data $g_0\co
 Dually, there is a notion of [[corecursion]] on a [[coinduction|coinductive structure]]. 
 
 [[!include computable mathematics -- table]]
+
+
+## References
+
+See also:
+
+* Wikipedia, <a href="https://en.m.wikipedia.org/wiki/Recursion_(computer_science)">Recursion (computer science)</a>
+
+Discussion in [[type theory]]:
+
+* [[Frank Pfenning]], *Recursive types*, Section 4.6 in:  *Linear Logic* (1998) &lbrack;[pdf](https://www.cs.cmu.edu/~fp/courses/98-linear/handouts/notes.pdf), [webpage](https://www.cs.cmu.edu/~fp/courses/98-linear/handouts.html), [[Pfenning-LinearLogic98.pdf:file]]&rbrack;
+
+and in view of [[homotopy type theory]]:
+
+* [[Univalent Foundations Project]], §1.10 *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
 
 [[!redirects recursion]]
