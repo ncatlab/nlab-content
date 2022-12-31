@@ -36,9 +36,9 @@ The axiom of multiple choice weakens the axiom of choice by allowing choice func
 
 ## Relationships to other axioms
 
-The axiom of multiple choice is [[logical equivalence|equivalent]] to the axiom of choice modulo [[ZF]] set thoery.  However, it is strictly weaker in [[ZFA]] and other similar set theories.  AMC holds in any [[permutation model]] with finite supports where each atom has a finite orbit.  For a detailed proof, see [Jech's "The Axiom of Choice"](https://www.gwern.net/docs/math/1973-jech-theaxiomofchoice.pdf), chapter 9.
+The axiom of multiple choice is [[logical equivalence|equivalent]] to the axiom of choice modulo [[ZF]] set theory.  However, it is strictly weaker in [[ZFA]] and other similar set theories.  AMC holds in any [[permutation model]] with finite supports where each atom has a finite orbit.  For a detailed proof, see [Jech's "The Axiom of Choice"](https://www.gwern.net/docs/math/1973-jech-theaxiomofchoice.pdf), chapter 9.
 
-The [[axiom of multiple choice|constructive axiom by the same name]] is not historically related, and the two axioms are independent.  Any permutation model will satisfy [[SVC]], which [Rathjen](#Rathjen} proves implies the constructive axiom, but this AMC can fail in a permutation model.
+The [[axiom of multiple choice|constructive axiom by the same name]] is not historically related, and the two axioms are independent.  Any permutation model will satisfy [[SVC]], which [Rathjen](#Rathjen) proves implies the constructive axiom, but this AMC can fail in a permutation model.
 
 
 ## References
