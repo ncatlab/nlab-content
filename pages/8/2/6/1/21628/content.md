@@ -16,9 +16,13 @@
 This entry collects links related to the forthcoming book
 
 
-* [[Egbert Rijke]], 
+* [[Egbert Rijke]]:
 
-  _Introduction to Homotopy Type Theory_,
+  \linebreak
+
+  **Introduction to Homotopy Type Theory**
+
+  \linebreak
 
   Cambridge Studies in Advanced Mathematics,
 
@@ -34,9 +38,10 @@ The book is based on a course taught by the author at Carnegie Mellon University
 * [course webpage](http://www.andrew.cmu.edu/user/erijke/hott/)
 
 
+
 Previous versions:
 
-* [pdf (2018 course notes)](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf) (221 pages)
+* [pdf (2018 course notes)](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [[Rijke-IntroductionHoTT-2018.pdf:file]] (221 pages)
 
 * [pdf (2019 summer school notes)](https://hott.github.io/HoTT-2019/images/hott-intro-rijke.pdf) (134 pages)
 
