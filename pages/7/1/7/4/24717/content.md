@@ -181,7 +181,7 @@ d) For each $k\geq 2$ the induced Segal maps
 \]
 are $(n-1)$-equivalences in $Ta_{wg}^{n-1}$. The maps $\hat{\mu}_k$ arise from the commutativity of the diagram
 
-\begin{tikzcd}
+\begin{tikzcd}[column sep=scriptsize]
 	&&&& {X_k} \\
 	& {X_1} && {X_1} && \cdots && {X_1} \\
 	{X_0^d} && {X_0^d} && {X_0^d} & \cdots & {X_0^d} && {X_0^d}
@@ -207,7 +207,7 @@ We define a map $f:X\rightarrow  Y$ in $Ta_{wg}^{n}$ to be an $n$-equivalence if
 
 i) For all $a,b\in X_0^d$
 $$
-  f(a,b): X(a,b)\rightarrow  Y(fa,fb)
+  f(a,b): X(a,b)\rightarrow  Y(f a,f b)
 $$
 is a $(n-1)$-equivalence.
 
