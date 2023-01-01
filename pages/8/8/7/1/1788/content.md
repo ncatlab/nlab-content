@@ -1,3 +1,13 @@
+
+$$
+  \begin{array}{c}
+    c
+    \\
+    \hline
+    c
+  \end{array}
+$$
+
 Ham $a:Set$, $b : Set$, $c:$Set Sandwich
 
 \begin{imagefromfile}
