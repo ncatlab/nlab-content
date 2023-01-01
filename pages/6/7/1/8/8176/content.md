@@ -619,6 +619,9 @@ and implementation in [[Lean]] is in
 
 * [[Floris van Doorn]], [[Egbert Rijke]], [[Ulrik Buchholtz]], [[Favonia]], [[Steve Awodey]], [[Jeremy Avigad]], [[Mike Shulman]], [[Jonas Frey]],  _Spectral_ ([github.com/cmu-phil/Spectral](https://github.com/cmu-phil/Spectral))
 
+* [[Floris van Doorn]], §5 in: *On the Formalization of Higher Inductive Types and Synthetic Homotopy Theory* (2018) &lbrack;[arXiv:1808.10690](https://arxiv.org/abs/1808.10690)&rbrack;
+
+
 ### In equivariant cohomology
 
 In [[equivariant cohomology]], for [[Bredon cohomology]]:
