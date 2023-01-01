@@ -242,8 +242,6 @@ Expositions:
 
 * [[Peter LeFanu Lumsdaine]], *Higher Inductive Types: The circle and friends, axiomatically* (2011) &lbrack;[pdf](http://pages.cpsc.ucalgary.ca/~robin/FMCS/FMCS2011/Lumsdaine_slides.pdf), [[Lumsdaine-HITs.pdf:file]]&rbrack;
 
-* [[Floris van Doorn]], §3 in: *On the Formalization of Higher Inductive Types and Synthetic Homotopy Theory* (2018) &lbrack;[arXiv:1808.10690](https://arxiv.org/abs/1808.10690)&rbrack;
-
 * Kajetan Söhnen, *Higher Inductive Types in Homotopy Type Theory*, Munich (2018) &lbrack;[pdf](https://www.math.lmu.de/~petrakis/Soehnen.pdf), [[Soehnen-HigherInductiveTypes.pdf:file]]&rbrack;
 
 
@@ -264,9 +262,15 @@ Discussion of HITs which arise as homotopy-[[initial algebras of an endofunctor]
 
 * [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Homotopy-initial algebras in type theory*, Journal of the ACM **63** 6 (2017) 1–45 &lbrack;[arXiv:1504.05531](http://arxiv.org/abs/1504.05531), [doi:10.1145/3006383](https://doi.org/10.1145/3006383)&rbrack;
 
-See also:
+Further developments:
 
-* Henning Basold, Herman Geuvers, Niels van der Weide, *Higher Inductive Types in Programming*, Journal of Universal Computer Science **23** 1 (2017) 63-88 &lbrack;[pdf](https://www.jucs.org/jucs_23_1/higher_inductive_types_in/jucs_23_01_0063_0088_basold.pdf), [slides pdf](https://nmvdw.github.io/pubs/Agda25.pdf)&rbrack;
+* Henning Basold, Herman Geuvers, [[Niels van der Weide]], *Higher Inductive Types in Programming*, Journal of Universal Computer Science **23** 1 (2017) 63-88 &lbrack;[pdf](https://www.jucs.org/jucs_23_1/higher_inductive_types_in/jucs_23_01_0063_0088_basold.pdf), [slides pdf](https://nmvdw.github.io/pubs/Agda25.pdf)&rbrack;
+
+* {#vanDoorn18} [[Floris van Doorn]], §3 in: *On the Formalization of Higher Inductive Types and Synthetic Homotopy Theory* (2018) &lbrack;[arXiv:1808.10690](https://arxiv.org/abs/1808.10690)&rbrack;
+
+  > (formalization in [[Lean]])
+
+* [[Niccolò Veltri]], [[Niels van der Weide]], *Constructing Higher Inductive Types as Groupoid Quotients*, Logical Methods in Computer Science **17** 2 (2021)  &lbrack;[arXiv:2002.08150](https://arxiv.org/abs/2002.08150), <a href="https://doi.org/10.23638/LMCS-17(2:8)2021">doi:10.23638/LMCS-17(2:8)2021</a>&rbrack;
 
 
 
@@ -288,6 +292,8 @@ in [[Coq]]:
 
 * Bruno Barras, _Native implementation of Higher Inductive
 Types (HITs) in Coq_ [PDF](http://www.crm.cat/en/activities/documents/barras-crm-2013.pdf)
+
+in [[Lean]]: [van Doorn (2018)](#vanDoorn18)
 
 Discussion of [[coinduction]] via HITs: 
 
