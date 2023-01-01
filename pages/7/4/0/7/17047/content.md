@@ -66,7 +66,7 @@ The identity types of an indexed W-type are another indexed W-type.  This has be
 
 * {#Dybjer91} [[Peter Dybjer]], _Inductive Families_  Formal aspects of computing 6 (4), 440-465 [PS](http://www.cse.chalmers.se/~peterd/papers/Inductive_Families.ps)
 
-* [[Peter Dybjer]], _Inductive sets and families in Martin-L&#246;f's type theory and their set-theoretic semantics_, 1991 Logical frameworks 2, 6
+* [[Peter Dybjer]], *Inductive sets and families in Martin-L&#246;f's type theory and their set-theoretic semantics*, Logical frameworks (1991) 280-306 &lbrack;[doi:10.1017/CBO9780511569807.012](https://doi.org/10.1017/CBO9780511569807.012), [pdf](http://www.cse.chalmers.se/~peterd/papers/Setsem_Inductive.pdf)&rbrack; 
 
 * {#Dybjer2000} [[Peter Dybjer]], _A general formulation of simultaneous inductive-recursive definitions in type theory_, 2000, The Journal of Symbolic Logic 65 (02), 525-549
 
