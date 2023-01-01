@@ -18,6 +18,7 @@
 =--
 
 
+
 # Contents
 * table of contents
 {: toc}
@@ -34,65 +35,119 @@ In [[type theory]]: the the _natural numbers type_ is the [[type]] of [[natural 
 
 The [[type of natural numbers]] $\mathbb{N}$ is the [[inductive type]] defined as follows.
 
-1. **[[type formation rule]]**
+1. **[[type formation rule]]**:
 
    $$
-     \frac{}{\mathbb{N} : Type}
+     \frac{}{
+       \mathclap{\phantom{\vert^{\vert}}}
+       \mathbb{N} \,\colon\, Type
+     }
    $$
 
-2. **[[term introduction rules]]**
+2. **[[term introduction rules]]**:
 
    $$
-     \frac{}{0 : \mathbb{N}}
-   $$
-   and
-   $$
-     \frac{n : \mathbb{N}}{s n : \mathbb{N}}
+     \frac{}{
+       \mathclap{\phantom{\vert^{\vert}}}
+       0 \,\colon\, \mathbb{N}
+     }
+     \;\;\;\;\;\;\;\;
+     \frac{
+       n \,\colon\, \mathbb{N}
+       \mathclap{\phantom{\vert_{\vert}}}
+     }{
+       \mathclap{\phantom{\vert^{\vert}}}
+       succ(n) \,\colon\, \mathbb{N}
+     }
    $$
 
-3. **[[term elimination rule]]**
+3. **[[term elimination rule]]**:
 
    $$
      \frac{
-       x : \mathbb{N} \vdash P(x) : Type;
-       \;\;
-       \vdash p_0 : P(0);
-       \;\;
-       x : \mathbb{N}, p : P(x) \vdash p_s(x,p) : P(s x);
-       \;\;
-       \vdash n : \mathbb{N}
+       n \,\colon\, \mathbb{N} 
+         \;\vdash\; 
+       P(n) \,\colon\, Type
+       \;;
+       \;\;\;\;
+       \vdash\; 0_P \,\colon\, P(0)
+       \;;
+       \;\;\;\;
+       n \,\colon\, \mathbb{N}
+       \,,
+       \; 
+       p \,\colon\, P(x) 
+         \;\vdash\; 
+       succ_P(n,\,p) \,\colon\, P\big(succ(n)\big)
+       \mathclap{\phantom{\vert_{\vert}}}
      }{
-       rec^n_P(p_0,p_s) : P(n)
+       \mathclap{\phantom{\vert^{\vert}}}
+       n \,\colon\, \mathbb{N}
+       \;\vdash\;
+       ind_{(P, 0_P, succ_P)}(n)
+        \,\colon\, 
+       P(n)
      }
    $$
    
-4. **[[computation rules]]**
+4. **[[computation rules]]**:
 
    $$
      \frac{
-       x : \mathbb{N} \vdash  P(x) : Type;
-       \;\;
-       \vdash p_0 : P(0);
-       \;\;
-       x : \mathbb{N}, p : P(x) \vdash p_s(x,p) : P(s x)
+       n \,\colon\, \mathbb{N} 
+        \;\vdash\;  
+       P(n) \,\colon\, Type
+       \;;
+       \;\;\;\;
+         \vdash\; 
+       0_P \,\colon\, P(0)
+       \;;
+       \;\;\;\;
+       n \,\colon\, \mathbb{N}
+       \,, 
+       \;
+       p \,\colon\, P(x) 
+         \;\vdash\; 
+       succ_P(n,p) \,\colon\, P\big(succ(n)\big)
+       \mathclap{\phantom{\vert_{\vert}}}
      }{
-       rec^0_P(p_0,p_s) = p_0 : P(0)
+       \mathclap{\phantom{\vert^{\vert}}}
+       ind_{(P, 0_P, succ_P)}(0)
+        \,=\, 
+       0_P 
      }
    $$
+
    and
+
    $$
      \frac{
-       x : \mathbb{N} \vdash  P(x) : Type;
-       \;\;
-       \vdash p_0 : P(0);
-       \;\;
-       x : \mathbb{N}, p : P(x) \vdash p_s(x,p) : P(s x);
-       \;\;
-       \vdash n : \mathbb{N}
+       n \,\colon\, \mathbb{N} 
+         \;\vdash\;  
+       P(x) \,\colon\, Type
+       \;;
+       \;\;\;\;
+       \vdash\; 0_P \,\colon\, P(0)
+       \;;
+       \;\;\;\;
+       n \,\colon\, \mathbb{N}
+       \,, 
+       \;
+       p \,\colon\, P(x) 
+         \;\vdash\; 
+       succ_P(x,p) \,\colon\, P(s x)
+       \;;
+       \;\;\;\;
+       \vdash\; n \,\colon\, \mathbb{N}
+       \mathclap{\phantom{\vert_{\vert}}}
      }{
-       rec^{s n}_P(p_0,p_s) = p_s(n,rec^n_P(p_0,p_s)) : P(s n)
+       \mathclap{\phantom{\vert^{\vert}}}
+       ind_{(P, 0_P, succ_P)}\big(succ(n)\big)
+       \,=\, 
+       succ_P\big(n,\, rec^n_P(0_P,\, succ_P)\big) 
      }
    $$
+
 =--
 
 See for instance [Pfenning (2009, §2)](#Pfenning), [Söhnen (2018, §2.4.5)](#Söhnen18).
@@ -142,9 +197,10 @@ We spell out how under the canonical [[categorical model of dependent types]], t
 
 Throughout, we consider an ambient [[category]] $\mathcal{C}$ (e.g. $\mathcal{C} =$ [[Set]]) and write
 
-$$
+\[
+  \label{CategoryOfFAlgebras}
   F Alg(\mathcal{C}) \xrightarrow{underlying} \mathcal{C}
-$$
+\]
 
 for the category of [[algebra over an endofunctor|algebras over the endofunctor]] $F$ (eq:TheEndofunctor).
 
@@ -158,7 +214,9 @@ We spell out how the fact that $\mathbb{N}$ satisfies Def. \ref{InterpretationOf
 
 \linebreak
 
-Consider then any $F$-algebra $\big(D, (0_D, succ_D)\big) \,\in\, F Alg(\mathcal{C})$, hence an [[object]] $D \in \mathcal{C}$ equipped with a morphism
+We begin with a simple special case of recursion, where not only the underlying type but also its successor-map is independent of $\mathbb{N}$ (we come to the general form of recursion further [below](#RecursionGenerally)).
+
+So consider any $F$-algebra $\big(D, (0_D, succ_D)\big) \,\in\, F Alg(\mathcal{C})$ (eq:CategoryOfFAlgebras), hence an [[object]] $D \in \mathcal{C}$ equipped with a morphism
 
 $$
   0_D \colon * \to D
@@ -266,7 +324,7 @@ may depend on $\mathbb{N}$.
 Now, since with $\big(\mathbb{N},(0,\mathrm{succ})\big)$ being the [[initial object]] in $F Alg(\mathcal{C})$, the [[identity morphism]] on $\big(\mathbb{N},(0,\mathrm{succ})\big)$ is the [[initial object]] in the [[slice category]] $F Alg(\mathcal{C})_{/\big(\mathbb{N}, (0,succ)\big)}$ (cf. [there](over+category#InitialAndTerminalObjects)), it follows that from such data is induced a unique morphism $f$ in the following [[commuting diagram]]:
 
 \begin{tikzcd}[
-    column sep=30pt,
+    column sep=34pt,
     row sep=25pt
   ]
     &[+34pt]
@@ -290,7 +348,7 @@ Now, since with $\big(\mathbb{N},(0,\mathrm{succ})\big)$ being the [[initial obj
       "{
         \mathrm{id}_\ast
         \,\sqcup\,
-        (\mathrm{id}_{\mathbb{N}},\, f)
+        (\mathrm{id}_{\mathbb{N}},\, \mathrm{rec})
       }"
     ]
     &[+16pt]
@@ -320,7 +378,7 @@ Now, since with $\big(\mathbb{N},(0,\mathrm{succ})\big)$ being the [[initial obj
       r,
       dashed,
       "{
-        (\mathrm{Id}_{\mathbb{N}},\, f)
+        (\mathrm{Id}_{\mathbb{N}},\, \mathrm{rec})
       }"{description}
     ]
     &
@@ -350,13 +408,13 @@ Now, since with $\big(\mathbb{N},(0,\mathrm{succ})\big)$ being the [[initial obj
 Here the [[commuting diagram|commutativity]] of the top square means equivalently that
 
 $$
-  f(0) \,=\, 0_D
+  \mathrm{rec}(0) \,=\, 0_D
   \;\;\;\;\text{and}\;\;\;\;\;
-  f\big(
+  \mathrm{rec}\big(
     \mathrm{succ}(n)
   \big)
   \;=\;
-  \mathrm{succ}_D\big(n,\, f(n)\big)
+  \mathrm{succ}_D\big(n,\, \mathrm{rec}(n)\big)
   \,.
 $$
 
@@ -381,69 +439,157 @@ $$
 
 The categorical interpretation of this is by a [[display map]]
 
-$$
+\[
+  \label{DisplayMapInterpretingNDependentType}
   \array{
      P 
      \\
-     \downarrow
+     \big\downarrow\mathrlap{^{\pi_P}}
      \\
      \mathbb{N}
   }
-$$
+\]
 
 in the given category $\mathcal{C}$.
 
-Next, the fact that $P$ holds at 0 means that there is a ([[proof]]-)[[term]]
+
+{#DiagramInterpretingInductionPrinciple} With this, the [[commuting diagram]] which interprets the induction principle is the following:
+
+\begin{tikzcd}[
+    column sep=30pt,
+    row sep=25pt
+  ]
+    &[+34pt]
+    &
+    \ast \,\sqcup\, \mathbb{N}
+    \ar[
+      ddll,
+      "{
+        (0,\mathrm{succ})
+      }"{sloped}
+    ]
+    \ar[
+      dr, 
+      equals,
+      shorten >=-2pt
+     ]
+    \ar[
+      r,
+      dashed,
+      shorten=-1pt,
+      "{
+        \mathrm{id}_\ast
+        \,\sqcup\,
+        \mathrm{ind}
+      }"
+    ]
+    &[+16pt]
+    \ast \,\sqcup\, P
+    \ar[
+      d,
+      "{
+        \mathrm{id}_\ast 
+          \,\sqcup\, 
+        \pi_P
+      }"
+    ]
+    \\
+    &
+    &&
+    \ast \,\sqcup\, \mathbb{N}
+    \ar[
+      ddll,
+      "{
+        (0, \mathrm{succ})
+      }"{description, sloped}
+    ]
+    \\[+10pt]
+    \mathbb{N}
+    \ar[dr, equals]
+    \ar[
+      r,
+      dashed,
+      "{
+        \mathrm{ind}
+      }"{description}
+    ]
+    &
+    P
+    \ar[
+      d,
+      "{ \pi_P }"
+    ]
+    \ar[
+      from=uurr,
+      crossing over,
+      "{
+        (0_P,\, \mathrm{succ}_P)
+      }"{description, sloped, pos=.6}
+    ]
+    \\
+    &
+    \mathbb{N}
+\end{tikzcd}
+
+We now unwind again how this comes about and what it all means:
+
+First, the fact that $P$ holds at 0 means that there is a ([[proof]]-)[[term]]
 
 $$
-  \vdash \;\; p_0 \,\colon\, P(0)
+  \vdash \;\; 0_P \,\colon\, P(0)
   \,.
 $$
 
-In the [[categorical semantics]] the [[substitution]] of $n$ for 0 that gives $P(0)$ is given by the [[pullback]] of the above fibration
+In the [[categorical semantics]] the [[substitution]] of $n$ for 0 that gives $P(0)$ is given by the [[pullback]] of the given display map (eq:DisplayMapInterpretingNDependentType):
 
 $$
   \array{
-    0^* P &\to& P
+    0^* P &\longrightarrow& P
     \\
-    \downarrow && \downarrow
+    \big\downarrow && \big\downarrow
     \\
-    * &\stackrel{0}{\to}& \mathbb{N}
+    * &\underset{0}{\longrightarrow}& \mathbb{N}
   }
 $$
 
-and the [[term]] $p_0$ is interpreted as a [[section]] of the resulting fibration over the terminal object
+and the [[term]] $0_P$ is interpreted as a [[section]] of the resulting fibration over the terminal object
 
 $$
   \array{
-    * &\stackrel{p_0}{\to}& 0^* P &\to& P
+    * 
+    &\overset{p_0}{\longrightarrow}& 
+    0^* P 
+    & \longrightarrow & 
+    P
     \\
-    &\searrow& \downarrow && \downarrow
+    &\searrow& \big\downarrow && \big\downarrow
     \\
-    && * &\stackrel{0}{\to}& \mathbb{N}
-  }
-  \,.
-$$
-
-But by the defining [[universal property]] of the pullback, this is equivalently just a [[commuting diagram]]
-
-$$
-  \array{
-    * &\stackrel{p_0}{\to}& P
-    \\
-    \downarrow && \downarrow
-    \\
-    * &\stackrel{0}{\to}& \mathbb{N}
+    && 
+    * 
+    &\underset{0}{\longrightarrow}& \mathbb{N}
   }
   \,.
 $$
 
-Next the induction step. Formally it says that for all $n \in \mathbb{N}$ there is an [[implication]] $p_s(n) : P(n) \to P(n+1)$
+But by the defining [[universal property]] of the [[pullback]], this is equivalently just a [[commuting diagram]]
+
+$$
+  \array{
+    * &\stackrel{p_0}{\longrightarrow}& P
+    \\
+    \big\downarrow && \big\downarrow
+    \\
+    * &\underset{0}{\longrightarrow}& \mathbb{N}
+  }
+  \,.
+$$
+
+Next the induction step. Formally it says that for all $n \in \mathbb{N}$ there is an [[implication]] $succ_P(n) \,\colon\, P(n) \to P(n+1)$
 
 $$
   n \in \mathbb{N} 
   \;\;\;\vdash\;\;\; 
-  p_s(n) \,\colon\, P(n) \to   P(n+1)
+  succ_P(n) \,\colon\, P(n) \to   P(n+1)
   \,.
 $$
 
@@ -451,36 +597,41 @@ The [[categorical semantics]] of the [[substitution]] of $n+1$ for $n$ is given 
 
 $$
   \array{
-     P\big((-)+1\big) \coloneqq & s^*P &\to& P
+     P\big(\ast \sqcup (-)\big) \coloneqq 
+     & s^*P &\longrightarrow& P
      \\
-     & \downarrow && \downarrow 
+     & \big\downarrow && \big\downarrow 
      \\
-     & \mathbb{N} &\stackrel{s}{\to}& \mathbb{N}
+     & \mathbb{N} &\underset{s}{\longrightarrow}& \mathbb{N}
   }
 $$
 
-and the interpretation of the implication term $p_s(n)$ is as a morphism $P \to s^* P$ in $\mathcal{C}_{/\mathbb{N}}$
+and the interpretation of the implication term $succ_P(n)$ is as a [[morphism]] $P \to s^* P$ in $\mathcal{C}_{/\mathbb{N}}$
 
 $$
   \array{
-     P & \stackrel{p_s}{\to} &  s^*P &\to& P
+     P 
+     & \overset{p_s}{\longrightarrow} &  
+     s^*P &\longrightarrow& P
      \\
-     &\searrow & \downarrow && \downarrow 
+     &\searrow & \big\downarrow && \big\downarrow 
      \\
-     && \mathbb{N} &\stackrel{s}{\to}& \mathbb{N}
+     && \mathbb{N} &\overset{s}{\longrightarrow}& \mathbb{N}
   }
   \,.
 $$
 
-Again by the [[universal property]] of the pullback this is the same as a [[commuting diagram]]
+Again by the [[universal property]] of the pullback this is equivalently a [[commuting diagram]]
 
 $$
   \array{
-     P &\stackrel{p_s}{\to}& P
+     P &\overset{succ_P}{\longrightarrow}& P
      \\
-     \downarrow && \downarrow 
+     \big\downarrow && \big\downarrow 
      \\
-     \mathbb{N} &\stackrel{s}{\to}& \mathbb{N}
+     \mathbb{N} 
+     &\underset{s}{\longrightarrow}& 
+     \mathbb{N}
   }
   \,.
 $$
@@ -505,16 +656,16 @@ $$
 for the [[endofunctor]] $F$ (eq:TheEndofunctor).
 
 
-The [[induction principle]] is supposed to deduce from this that $P$ holds for every $n$, hence that there is a proof $p_n : P(n)$ for all $n$:
+The [[induction principle]] is supposed to deduce from this that $P$ holds for every $n$, hence that there is a proof $ind(n) \colon P(n)$ for all $n$:
 
 $$
   n \,\colon\, \mathbb{N} 
   \;\;\;\vdash\;\;\; 
-  p(n) \,\colon\, P(n)
+  ind(n) \,\colon\, P(n)
   \,.
 $$
 
-The categorical interpretation of this is as a morphism $p : \mathbb{N} \to P$ in $\mathcal{C}_{/\mathbb{N}}$. The existence of this is indeed exactly what the interpretation of the elimination rule, def. \ref{InterpretationOfTheRules}, gives, or (equivalently by prop. \ref{BothFormulationsOfInitialityAreEquivalent}) exactly what the initiality of the $F$-algebra $\mathbb{N}$ gives.
+The categorical interpretation of this is as a morphism $p \,\colon\, \mathbb{N} \to P$ in $\mathcal{C}_{/\mathbb{N}}$. The existence of this is indeed exactly what the interpretation of the elimination rule, def. \ref{InterpretationOfTheRules}, gives, or (equivalently by prop. \ref{BothFormulationsOfInitialityAreEquivalent}) exactly what the initiality of the $F$-algebra $\mathbb{N}$ gives.
 
 
 ## Related concepts
