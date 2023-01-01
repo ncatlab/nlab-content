@@ -255,9 +255,12 @@ Quick review includes
 * {#Yin} Xi Yin, _On Eilenberg-MacLane spaces_ ([pdf](http://www.people.fas.harvard.edu/~xiyin/Site/Notes_files/AT.pdf))
 
 
-Formalization of Eilenberg-MacLane spaces in [[homotopy type theory]] is discussed in
+Formalization of Eilenberg-MacLane spaces in [[homotopy type theory]]:
 
-* {#LicataFinster14} [[Dan Licata]], [[Eric Finster]], _Eilenberg-MacLane spaces in homotopy type theory_, CSL-LICS '14 **66** (2014) 1-9 $[$[pdf text](http://dlicata.web.wesleyan.edu/pubs/lf14em/lf14em.pdf), [Agda HoTT code](https://github.com/dlicata335/hott-agda/blob/master/homotopy/KGn.agda), [web discussion](http://homotopytypetheory.org/2014/04/15/eilenberg-maclane-spaces-in-hott/), [doi:10.1145/2603088.2603153](https://doi.org/10.1145/2603088.2603153)$]$
+* {#LicataFinster14} [[Dan Licata]], [[Eric Finster]], _Eilenberg-MacLane spaces in homotopy type theory_, CSL-LICS '14 **66** (2014) 1-9 &lbrack;[pdf text](http://dlicata.web.wesleyan.edu/pubs/lf14em/lf14em.pdf), [Agda HoTT code](https://github.com/dlicata335/hott-agda/blob/master/homotopy/KGn.agda), [web discussion](http://homotopytypetheory.org/2014/04/15/eilenberg-maclane-spaces-in-hott/), [doi:10.1145/2603088.2603153](https://doi.org/10.1145/2603088.2603153)&rbrack;
+
+* {#vanDoorn18} [[Floris van Doorn]], §42 in: *On the Formalization of Higher Inductive Types and Synthetic Homotopy Theory* (2018) &lbrack;[arXiv:1808.10690](https://arxiv.org/abs/1808.10690)&rbrack;
+
 
 ### Cohomology
 
