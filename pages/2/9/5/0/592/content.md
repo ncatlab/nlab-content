@@ -255,6 +255,9 @@ where $\chi_i$ is the classifying map of $i$) and therefore strong.
 
 * [[pullback]]
 
+* [[homotopy pushout]]
+
+
 ## References
 
 Textbook accounts:
