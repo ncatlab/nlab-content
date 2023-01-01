@@ -150,7 +150,7 @@ The [[type of natural numbers]] $\mathbb{N}$ is the [[inductive type]] defined a
 
 =--
 
-See for instance [Pfenning (2009, §2)](#Pfenning), [Söhnen (2018, §2.4.5)](#Söhnen18).
+See for instance [Martin-Löf (1984)](#Martin-Löf84), [pp. 38](/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=44); [Pfenning (2009, §2)](#Pfenning); [Söhnen (2018, §2.4.5)](#Söhnen18).
 
 In [[Coq]]-[[syntax]] the [[natural numbers]] are the inductive type defined by
 
@@ -187,6 +187,23 @@ $$
 
 
 ## Properties
+
+### General
+
+\begin{example}\label{NaturalNumbersAsWType}
+**([[natural numbers type]] as a [[W-type|$\mathcal{W}$-type]])**
+\linebreak
+The [[natural numbers type]] $(\mathbb{N},\, 0,\, succ)$ is equivalently the [[W-type|$\mathcal{W}$-type]] with
+
+* $C \,\coloneqq\, \{0, succ\} \,\simeq\, \ast \sqcup \ast$;
+
+* $A_0 \,\coloneqq\, \varnothing$ ([[empty type]]);
+
+  $A_{succ} \,\coloneqq\, \ast$ ([[unit type]])
+
+\end{example}
+&lbrack;[Martin-Löf (1984)](#Martin-Löf84), [pp. 45](/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=51), [Dybjer (1997, p. 330, 333)](W-type#Dybjer97)&rbrack;
+
 
 ### Categorical semantics
  {#CategoricalSemantics}
@@ -677,7 +694,12 @@ The categorical interpretation of this is as a morphism $p \,\colon\, \mathbb{N}
 
 ## References
 
+* {#Martin-Löf84} [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), [pp. 38](/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=44) of: _Intuitionistic type theory_, Lecture notes Padua 1984, Bibliopolis, Napoli (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
+
+
 * {#Pfenning} [[Frank Pfenning]], _Lecture notes on natural numbers_ (2009) &lbrack;[pdf](http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/06-nat.pdf), [[Pfenning-NaturalNumbersType.pdf:file]]&rbrack;
+
+
   
 Discussion in a context of [[homotopy type theory]] and in view of [[higher inductive types]]:
 
