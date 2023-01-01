@@ -61,7 +61,7 @@ There are two slightly different formulations of W-types:
 ### $\mathcal{W}$-types in type theory
  {#WTypesInTypeTheory}
 
-\begin{definition}
+\begin{definition}\label{WTypeInferenceRules}
 **([[inference rules]] for $\mathcal{W}$-types)**
 \linebreak
 
@@ -214,7 +214,7 @@ In the case of dependent polynomial functors, it seems that $q$ must also be a d
 
 \end{remark}
 
-\begin{remark} In [[intensional type theory]], a $\mathcal{W}$-type is only an initial algebra with respect to [[propositional equality]], not [[definitional equality]].  In particular, the constructors are injective only propositionally, not definitionally.  This applies already for the [[natural numbers type]].
+\begin{remark} In [[intensional type theory]], a $\mathcal{W}$-type is only an initial algebra with respect to [[propositional equality]], not [[definitional equality]].  In particular, the constructors are injective only propositionally, not definitionally.  This applies already for the [[natural numbers type]] (Exp. \ref{NaturalNumbersAsWType}).
 
 \end{remark}
 
@@ -276,7 +276,7 @@ Such a composite is called a _[[polynomial endofunctor]]_.
 This definition makes sense in any [[locally cartesian closed category]], although the W-type (the initial algebra) may or may not exist in any given such category.  (A non-elementary construction of them is given by the [[transfinite construction of free algebras]].)
 
 The above definition is most useful when the category $\mathcal{C}$ is not just 
-[[locally cartesian closed category|locally cartesian closed]] but is a [[Π-pretopos]], since often we want to use at least [[coproducts]] in constructing $A$ and $C$.  For example, a [[natural numbers object]] is a $\mathcal{W}$-type specified by one of the coproduct inclusions $1\to 1+1$, and the [[list object]] $L X$ is a $\mathcal{W}$-type specified by $X\to X+1$.  More generally, endofunctors that look like [[polynomials]] in the traditional sense:
+[[locally cartesian closed category|locally cartesian closed]] but is a [[Π-pretopos]], since often we want to use at least [[coproducts]] in constructing $A$ and $C$.  For example, a [[natural numbers object]] (Exp. \ref{NaturalNumbersAsWType}) is a $\mathcal{W}$-type specified by one of the coproduct inclusions $1\to 1+1$, and the [[list object]] $L X$ is a $\mathcal{W}$-type specified by $X\to X+1$.  More generally, endofunctors that look like [[polynomials]] in the traditional sense:
 $$ F(Y) = A_n \times Y^{\times n}  + \dots + A_1 \times Y  + A_0 $$
 can be constructed as polynomial endofunctors in the above sense in any $\Pi$-pretopos.  A $\Pi$-pretopos in which all W-types exist is called a **[[ΠW-pretopos]]**.
 
@@ -317,11 +317,31 @@ This reduces to the above for $C = \ast$ the [[terminal object]].
 Notice that we do not necessarily have $g f = h$, so this is not just a [[polynomial endofunctor]] of $\mathcal{C}/_{C}$ considered as a lccc in its own right.  If we *do* have $g f = h$, then $C$ is called a type of *parameters* instead of indices.
 
 
+## Examples
+
+\begin{example}\label{NaturalNumbersAsWType}
+**([[natural numbers type]] as a [[W-type|$\mathcal{W}$-type]])**
+\linebreak
+The [[natural numbers type]] $(\mathbb{N},\, 0,\, succ)$ is equivalently the [[W-type|$\mathcal{W}$-type]] (Def. \ref{WTypeInferenceRules}) with
+
+* $C \,\coloneqq\, \{0, succ\} \,\simeq\, \ast \sqcup \ast$;
+
+* $A_0 \,\coloneqq\, \varnothing$ ([[empty type]]);
+
+  $A_{succ} \,\coloneqq\, \ast$ ([[unit type]])
+
+\end{example}
+&lbrack;[Martin-Löf (1984)](#Martin-Löf84), [pp. 45](/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=51), [Dybjer (1997, p. 330, 333)](#Dybjer97)&rbrack;
+
 
 ## Properties
  {#Properties}
 
-In [[homotopy type theory]], if $A$ as h-level $n\geq -1$, then $W A B$ has h-level $n$ (as it should be for [[(infinity,1)-colimits]]). A formal proof of this is discussed in ([Danielsson](#Danielsson)).
+\begin{proposition}
+**([Danielsson (2012)](#Danielsson12))**
+\linebreak
+In [[homotopy type theory]], if $C$ has [[h-level]] $n\geq -1$, then any $\mathcal{W}$-type of the form $\underset{C}{\mathcal{W}} B$ has h-level $n$ (as it should be for [[(infinity,1)-colimits|$\infty$-colimits]]). 
+\end{proposition}
 
 ## Related concepts
 
@@ -336,10 +356,12 @@ In [[homotopy type theory]], if $A$ as h-level $n\geq -1$, then $W A B$ has h-le
 The original definition in [[type theory]] is due to
 
 * {#Martin-Löf84} [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), [pp. 43](https://ncatlab.org/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=49) of: _Intuitionistic type theory_, Lecture notes Padua 1984, Bibliopolis, Napoli (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
-
  
 
-The [[categorical semantics]] of W-types by initial algebras of polynomial endofunctors is due to
+The [[categorical semantics]] of W-types by [[initial algebra of an endofunctor|initial algebras of]] [[polynomial  functor|polynomial]] [[endofunctors]]:
+
+* {#Dybjer97} [[Peter Dybjer]], *Representing inductively defined sets by wellorderings in Martin-Löf's type theory*, Theoretical Computer Science **176** 1–2 (1997) 329-335 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(96)00145-4">doi:10.1016/S0304-3975(96)00145-4</a>&rbrack;
+
 
 * {#MoerdijkPalmgren00} [[Ieke Moerdijk]], [[Erik Palmgren]], *Wellfounded trees in categories*, Annals of Pure and Applied Logic **104** 1-3 (2000) 189-218 &lbrack;<a href="https://doi.org/10.1016/S0168-0072(00)00012-9">doi:10.1016/S0168-0072(00)00012-9</a>&rbrack;
  
@@ -361,18 +383,19 @@ Discussion in relation to [[identity types]] and [[homotopy type theory]] is in
 
 * [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Homotopy-initial algebras in type theory*, Journal of the ACM **63** 6 (2017) 1–45 &lbrack;[arXiv:1504.05531](http://arxiv.org/abs/1504.05531), [doi:10.1145/3006383](https://doi.org/10.1145/3006383)&rbrack;
 
+* [[Jasper Hugunin]], *Why Not W?*, Leibniz International Proceedings in Informatics (LIPIcs) **188** (2021) &lbrack;[doi:10.4230/LIPIcs.TYPES.2020.8](https://doi.org/10.4230/LIPIcs.TYPES.2020.8), [pdf](https://jashug.github.io/papers/whynotw.pdf)&rbrack; 
+
 Work towards dependent W-types in HoTT is here; see also [[inductive families]].
 
 * [[Christian Sattler]], _On relating indexed W-types with ordinary ones_ (2015) &lbrack;[PDF](http://cs.ioc.ee/types15/abstracts-book/contrib31.pdf)&rbrack;
 
 A formal proof about the [[h-level]] of W-types is discussed in
 
-* {#Danielsson} Nils Anders Danielsson, _Positive h-levels are closed under W_ ([web](https://homotopytypetheory.org/2012/09/21/positive-h-levels-are-closed-under-w/))
- 
+* {#Danielsson12} Nils Anders Danielsson, _Positive h-levels are closed under W_ (2012) &lbrack;[web](https://homotopytypetheory.org/2012/09/21/positive-h-levels-are-closed-under-w/)&rbrack;
 
 and also in
 
-* Jasper Hugunin, _IWTypes_, <https://github.com/jashug/IWTypes>
+* [[Jasper Hugunin]], _IWTypes_, <https://github.com/jashug/IWTypes>
 
 which also computes the [[identity types]] of W-types (and more generally [[indexed W-types]]).
 
