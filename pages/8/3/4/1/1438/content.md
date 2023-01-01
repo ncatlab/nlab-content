@@ -90,7 +90,7 @@ The generalization to [[weak initial]] algebras captures the notion in [[intensi
 ### Natural numbers
  {#NaturalNumbers}
 
-The archetypical example of an initial algebra is the set of [[natural numbers]].  
+The archetypical example of an initial algebra is the set of [[natural numbers]] [[natural numbers object]].  
 
 +-- {: .num_prop}
 ###### Proposition
@@ -132,7 +132,7 @@ commutes. This is the very definition of [[natural number object]] $X = \mathbb{
 
 ### Bi-pointed sets
 
-Another example of an initial algebra is the [[bi-pointed set]] $\mathbf{2}$.  
+{#BiPointedSets} Another example of an initial algebra is the [[bi-pointed set]] $\mathbf{2}$.  
 
 +-- {: .num_prop}
 ###### Proposition
