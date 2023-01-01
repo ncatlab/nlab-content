@@ -1,4 +1,21 @@
-This page is about [[spectral sequences]] in [[homotopy type theory]].  For now, it contains mainly a fixed version of two blog posts, one at the [n-category cafe](http://golem.ph.utexas.edu/category/2013/08/what_is_a_spectral_sequence.html) and the other on the [HoTT blog](http://homotopytypetheory.org/2013/08/08/spectral-sequences/).
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Homotopy theory
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+
+> This page is about formalizign the notion of [[spectral sequences]] in [[homotopy type theory]].  For now, it contains mainly a fixed version of two blog posts, one at the [n-category cafe](http://golem.ph.utexas.edu/category/2013/08/what_is_a_spectral_sequence.html) and the other on the [HoTT blog](http://homotopytypetheory.org/2013/08/08/spectral-sequences/). For more see the References [below](#References).
 
 # Spectral sequences in homotopy type theory
 * table of contents
@@ -399,9 +416,21 @@ Some notes not in the original blog posts:
 $$\mathsf{SpSect}(X,\lambda x.\mathsf{SpMap}(F_x,Y)) = \mathsf{SpMap}(\sum_{(x:X)} F_x, Y)$$
 used in the proof is only true for unpointed maps.
 
-* Urs Schreiber has [pointed out](https://homotopytypetheory.org/2013/08/08/spectral-sequences/#comment-100544) that this construction of the AHSS appears in a [1963 paper](http://journals.cambridge.org/abstract_S0305004100037245) by C. R. F. Maunder, who also shows that it agrees with the standard construction by constructing an isomorphism of exact couples.  It seems likely that a similar method would work for the Serre SS.
- {#Maunder}
+* {#Maunder} [[Urs Schreiber]] has [pointed out](https://homotopytypetheory.org/2013/08/08/spectral-sequences/#comment-100544) that this construction of the AHSS appears in [C. R. F. Maunder (1963)](Atiyah–Hirzebruch+spectral+sequence#Maunder63), who also shows that it agrees with the standard construction by constructing an isomorphism of [[exact couples]]. It seems likely that a similar method would work for the Serre SS.
+ 
 
-* This construction has been formalized [here](https://github.com/cmu-phil/Spectral) in Lean, and will appear in the PhD thesis of Floris van Doorn.
+
+## References
+ {#References}
+
+* {#Shulman13} [[Mike Shulman]], _Spectral sequences_ (2013) &lbrack;[part I](https://golem.ph.utexas.edu/category/2013/08/what_is_a_spectral_sequence.html), [part II](http://homotopytypetheory.org/2013/08/08/spectral-sequences/)&rbrack;
+
+* [[Floris van Doorn]], §5 in: *On the Formalization of Higher Inductive Types and Synthetic Homotopy Theory* (2018) &lbrack;[arXiv:1808.10690](https://arxiv.org/abs/1808.10690)&rbrack;
+
+Formalization in [[Lean]]:
+
+* {#vanDoornSpectral} [[Floris van Doorn]], [[Egbert Rijke]], [[Ulrik Buchholtz]], [[Favonia]], [[Steve Awodey]], [[Jeremy Avigad]], [[Mike Shulman]], [[Jonas Frey]],  *Spectral* &lbrack;[github.com/cmu-phil/Spectral](https://github.com/cmu-phil/Spectral)&rbrack;
+
+
 
 category: homotopy theory
