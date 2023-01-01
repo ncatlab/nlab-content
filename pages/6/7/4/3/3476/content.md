@@ -17,15 +17,32 @@
 * table of contents
 {: toc}
 
+
 ## Idea
+ {#Idea}
 
-In [[type theory]], a *W-type* is a [[type]] (but the same terminology is used in [[set theory]] for [[sets]] providing, essentially, the corresponding [[categorical semantics]]) which is defined [[induction|inductively]] in a [[well-founded relation|well-founded]] way based on a type of "constructors" and a type of "arities", with one constructor having a certain canonical form.  As such it is a particular kind of an [[inductive type]].
+In [[type theory]], by a *$\mathcal{W}$-type* &lbrack;[Martin-Löf (1984)](#Martin-Löf84), [pp. 43](https://ncatlab.org/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=49)&rbrack; one means a [[type]] which is defined [[induction|inductively]] in a *[[well-founded relation|$\mathcal{W}$ell-founded]]* way based on a type $C$ of "*c*onstructors" and a type of $A$ of "*a*rities". As such, $\mathcal{W}$-types are special kinds of [[inductive types]] (see [below](#WTypesInTypeTheory)).
 
-{#InMost} In most [[set theory|set theories]], W-types can be proven to exist, but in [[predicative mathematics]] or [[type theory]], where this is not the case, they are often assumed explicitly to exist. In particular, W-types can be used to provide a [[constructive mathematics|constructive]] counterpart of the [[classical logic|classical]] notion of a [[well-ordering]] and to uniformly define a variety of [[inductive types]]. More complex inductive types, with multiple constructors that are assumed only to be strictly [[positive type|positive]], can be reduced to W-types, at least in the presence of other structure such as [[sum types]] and [[function extensionality]]; see for instance [Abbott, Altenkirch & Ghani (2004)](#AbbottAltenkirchGhani04). This can even be extended to [[inductive families]].
+The same terminology "$\mathcal{W}$-type" is used &lbrack;[Moerdijk & Palmgren (2000)](MoerdijkPalmgren00)&rbrack; for [[objects]] in (suitable [[pretopos|pre]]-)[[toposes]] which provide [[categorical semantics]] for the type-theoretic notion (see [further below](#WTypesInCategories)).
 
-The [[terms]]/[[elements]] of a W-type can be considered to be "rooted well-founded [[trees]]" with a certain branching type; different W-types are distinguished by their branching signatures.  A branching signature is represented essentially by a [[family of sets]] $\{A_b\}_{b\in B}$ which can be interpreted as requiring that each *node* of the tree is labeled with an element of the set $B$, and that if a node is labeled by $b$ then it has exactly ${|A_b|}$ outgoing edges, each labeled by an element of $A_b$.  From a more computational point of view, the W-type can be viewed as a data type, where $B$ indexes the set of *constructors* and $A_b$ is the *arity* of the constructor $b$.
+Concretely, the [[terms]]/[[elements]] of a $\mathcal{W}$-type may be thought of as "rooted well-founded [[trees]]" with a certain branching type; different $\mathcal{W}$-types are distinguished by their branching signatures: In [[categorical semantics]] in [[Sets]], a branching signature is represented by a [[family of sets]] $\{A_c\}_{c \in C}$ such that
 
-If we remove the requirement that the trees are well-founded, we obtain instead a kind of [[coinductive type]] called an [[M-type]] (presumably since "M" is like a "W" upside down).
+* each *node* of the tree is labeled with an element $c \colon C$ -- referring to a *constructor*;
+
+* if a node is labeled by $c$ then it has exactly ${|A_c|}$ outgoing edges, each labeled by some $a \colon A_c$ -- the *arity* of the constructor $c$.  
+
+If one discards the requirement that the trees be well-founded, then the notion of $\mathcal{W}$-type becomes that of a [[coinductive type]] called an *[[M-type]]* (presumably since "M" is like a "W" upside down).
+
+In practice, $\mathcal{W}$-types are used to:
+
+1. provide a [[constructive mathematics|constructive]] counterpart of the [[classical logic|classical]] notion of a [[well-ordering]] 
+
+1. uniformly define a variety of well-behaved [[inductive types]]. 
+
+More complex [[inductive types]], with multiple constructors that are assumed only to be strictly [[positive type|positive]], can be reduced to $\mathcal{W}$-types, at least in the presence of other structure such as [[sum types]] and [[function extensionality]]; see for instance [Abbott, Altenkirch & Ghani (2004)](#AbbottAltenkirchGhani04). This can even be extended to [[inductive families]].
+
+{#InMost} In most [[set theory|set theoretic]] [[mathematical foundations]], $\mathcal{W}$-types can be proven to exist, but in [[predicative mathematics]] and in [[type theory]], where this is not the case, they are often introduced [[axiom|axiomatically]] (as usual for [[inductive types]] more generally). 
+
 
 
 ## Definition
@@ -33,32 +50,233 @@ If we remove the requirement that the trees are well-founded, we obtain instead 
 
 There are two slightly different formulations of W-types:
 
-1. [W-types in categories](#WTypesInCategories)
+1. [$\mathcal{W}$-types in type theory](#WTypesInTypeTheory)
 
-1. [W-types in type theory](#WTypesInTypeTheory)
+1. [$\mathcal{W}$-types in categories](#WTypesInCategories)
 
-### W-types in categories
+
+
+
+
+### $\mathcal{W}$-types in type theory
+ {#WTypesInTypeTheory}
+
+\begin{definition}
+**([[inference rules]] for $\mathcal{W}$-types)**
+\linebreak
+
+(1) **[[type formation rule]]:**
+
+$$
+  \frac
+    { 
+      C \,\colon\, Type
+      \;; 
+      \;\;\;
+      c \,\colon\, C
+      \;\;\vdash\;\; 
+      A(c) \,\colon\,Type
+      \mathclap{\phantom{\vert_{\vert}}}
+    }
+    {
+      \mathclap{\phantom{\vert^{\vert}}}
+      \underset{c \colon C}{\mathcal{W}}\, A(c) 
+        \,\colon\, 
+      Type 
+    }
+$$
+
+(2) **[[term introduction rule]]:**
+
+$$
+  \frac{
+    \vdash\; root \,\colon\, C
+    \;;
+    \;\; 
+    subtr 
+      \,\colon\, 
+    A(root) \to \underset{c \colon C}{\mathcal{W}}\, A(c)
+  }{
+    \mathclap{\phantom{\vert^{\vert}}}
+    tree\big(root ,\, subtr\big) 
+      \,\colon\, 
+    \underset{c \colon C}{\mathcal{W}}\, A(c)
+  }
+$$
+
+(3) **[[term elimination rule]]:**
+
+$$
+  \frac{
+    \begin{array}{l}
+      t \,\colon\, \underset{c \colon C}{\mathcal{W}}\, A(c)
+      \;\vdash\; 
+      D(t) \,\colon\, Type
+      \;;
+      \\
+      root \,\colon\, C
+      \,,
+      \; 
+      subt
+        \,\colon\, 
+      A(root) \to \underset{c \colon C}{\mathcal{W}}\, A(c)
+      \,, 
+      \;
+      subt_D 
+        \,\colon\, 
+      \underset{a \colon A(root)}{\prod} 
+        D\big(subt(a)\big)
+      \\
+      \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+      \;\;\vdash\;\;
+      tree_D\big(root,\,subt ,\, subt_D\big) 
+        \,\colon\, 
+      D\big(tree(c,\, subt)\big)
+      \mathclap{\phantom{\vert_{\vert}}}
+    \end{array}  
+  }{
+    \mathclap{\phantom{\vert^{\vert}}}
+    t
+      \,\colon\, 
+    \underset{c \colon C}{\mathcal{W}}\, A(c) 
+    \;\vdash\; 
+    wrec_{(D,tree_D)}(t) \,\colon\, D(t)
+  }
+$$
+
+(4) **[[computation rule]]:**
+
+$$
+  \frac{
+    \begin{array}{l}
+      t
+        \,\colon\, 
+      \underset{c \colon C}{\mathcal{W}}\, A(c)
+      \;\vdash\; 
+      D(t) \,\colon\, Type
+      \;;
+      \\
+      root \,\colon\, C
+      \,,\; 
+      subt
+        \,\colon\, 
+      A(root) \to \underset{c \colon C}{\mathcal{W}}\, A(c)
+      \,,
+      \; 
+      subt_D
+        \,\colon\, 
+      \underset{a\colon A(c)}{\Pi} D\big(subt(a)\big)
+      \\
+      \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+      \;\;\vdash\;\;
+      tree_D\big(root,\,subt,\,subt_D\big) 
+        \,\colon\, 
+      D\big(tree(root,\, subt)\big)
+      \mathclap{\phantom{\vert_{\vert}}}
+    \end{array}
+  }{
+    \begin{array}{l}
+    \mathclap{\phantom{\vert^{\vert}}}
+    root \,\colon\, C
+    \,,
+    \;\; 
+    subtr
+      \,\colon\, 
+    A(root) \to \underset{c \colon C}{\mathcal{W}}\, A(c)
+    \\
+    \;\;\;\;\;\;\;\;\;\;\;
+    \;\;\vdash\;\; 
+    wrec_{(D,tree_D)}\big( tree(root, \, subtr) \big)
+    \;=\;
+    tree_D
+    \Big(
+      root
+      ,\, 
+      subt
+      ,\,
+      \lambda a . wrec_{(D,tree_D)}\big(subtr(a)\big)
+    \Big)
+    \end{array}
+  }
+$$
+
+\end{definition}
+
+(due to [Martin-Löf (1984)](#Martin-Löf84), [pp. 43](https://ncatlab.org/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=49); streamlined review e.g. in [Awodey, Gambino & Sojakova (2012, §2)](#AwodeyGambinoSojakova12))
+
+
+\begin{remark}
+ If the type theory is *[[extensional type theory|extensional]]*, i.e. [[identity type|identities]] have unique proofs and (dependent) [[function types]] are [[function extensionality|extensional]] ($f=g$ if and only if $f(x)=g(x)$ for all $x$), then this is more or less equivalent to the [[1-category]]-[[category theory|theoretic]]  definition [below](#WTypesInCategories). The type theories that are the [[internal logic]] of familiar kinds of categories are all extensional in this sense.
+
+The main distinction from the naive categorical theory below is that the map $f$ (eq:TheDisplayMap) must be assumed to be a [[display map]], i.e. to exhibit $A$ as a [[dependent type]] over $B$, in order that the dependent product $\Pi_f$ be defined.
+
+In the case of dependent polynomial functors, it seems that $q$ must also be a display map, in order to define $\Sigma_q$.  However, using [[adjunction|adjointness]], one can still define the W-type even if $q$ is not a display map.  This more general version is what in type theory is called an *indexed W-type*; if $q$ is a display map then one sometimes refers to *non-uniform parameters* instead of *indices*.  (By contrast, *uniform parameters* are the kind discussed above where $g f = h$, so that the entire construction takes place in a single slice category  This is an instance of the [[red herring principle]], since non-uniform parameters are not really parameters at all, but a special kind of indices.)  For example, [[identity type]]s are indexed W-types but not parametrized ones (even non-uniformly); see [this blog post](http://homotopytypetheory.org/2011/04/18/whats-special-about-identity-types/).)
+
+\end{remark}
+
+\begin{remark} In [[intensional type theory]], a $\mathcal{W}$-type is only an initial algebra with respect to [[propositional equality]], not [[definitional equality]].  In particular, the constructors are injective only propositionally, not definitionally.  This applies already for the [[natural numbers type]].
+
+\end{remark}
+
+
+
+
+
+
+
+
+
+
+
+### $\mathcal{W}$-types in categories
  {#WTypesInCategories}
 
 #### Plain version
 
-This version of W-types is the most natural for mathematicians used to thinking in terms of [[set theory]] or [[category theory]]: the [[categorical semantics]] of W-types, due to [Moerdijk & Palmgren (2000)](#MoerdijkPalmgren00).
+We discuss the [[categorical semantics]] of $\mathcal{W}$-types, due to [Moerdijk & Palmgren (2000)](#MoerdijkPalmgren00).
 
-Here one describes a W-type as an [[initial algebra|initial]] [[algebra for an endofunctor]]. The family $\{A_b\}_{b\in B}$ can be thought of as a [[morphism]] $f\colon A\to B$ in some [[category]] $\mathcal{C}$ (the [[fiber]] over $b\in B$ being $A_b$), and the [[endofunctor]] in question is the composite
+Here one describes a $\mathcal{W}$-type as an [[initial algebra|initial]] [[algebra for an endofunctor]] on an ambient category $\mathcal{C}$. The family $\{A_c\}_{c\in C}$ can be thought of as a [[morphism]] 
+
+\[
+  \label{TheDisplayMap}
+  \array{
+    A
+    \\
+    \big\downarrow\mathrlap{^{f}}
+    \\ 
+    C
+  }
+\]
+
+
+in some [[category]] $\mathcal{C}$ (such that the [[fiber]] over $c\in C$ is $A_c$), and the [[endofunctor]] in question is the [[composition|composite]]
 
 $$ 
-  \mathcal{C} \overset{A^*}{\longrightarrow} \mathcal{C}_{/A} \overset{\Pi_f}{\longrightarrow} \mathcal{C}_{/B} \overset{\Sigma_B}{\longrightarrow} \mathcal{C}
+  \mathcal{C} 
+    \overset{A^*}{\longrightarrow} 
+  \mathcal{C}_{/A} 
+    \overset{\Pi_f}{\longrightarrow} 
+  \mathcal{C}_{/C} 
+    \overset{\Sigma_B}{\longrightarrow} 
+  \mathcal{C}
   \,,
 $$
 
-where $A^*$ is [[context extension]], hence is the [[pullback]] functor (a.k.a. $A\times -$), $\Pi_f$ is a [[dependent product]], and $\Sigma_B$ is a [[dependent sum]] (a.k.a. the [[forgetful functor]] from $\mathcal{C}_{/B}$ to $\mathcal{C}$).  
+where 
+
+* $A^*$ denotes [[context extension]], hence the [[pullback]] functor (a.k.a. $A\times -$);
+
+* $\Pi_f$ denotes the interpretation of the [[dependent product]], i.e. the right [[base change]] along $f$; 
+
+
+* $\Sigma_C$ the denotes the interoretation of the [[dependent sum]], i.e. the left [[base change]] given by the  [[forgetful functor]] from $\mathcal{C}_{/B}$ to $\mathcal{C}$.  
 
 Such a composite is called a _[[polynomial endofunctor]]_.  
 
 This definition makes sense in any [[locally cartesian closed category]], although the W-type (the initial algebra) may or may not exist in any given such category.  (A non-elementary construction of them is given by the [[transfinite construction of free algebras]].)
 
-This definition is most useful when the category $\mathcal{C}$ is not just 
-[[locally cartesian closed category|locally cartesian closed]] but is a [[Π-pretopos]], since often we want to use at least [[coproducts]] in constructing $A$ and $B$.  For example, a [[natural numbers object]] is a W-type specified by one of the coproduct inclusions $1\to 1+1$, and the [[list object]] $L X$ is a W-type specified by $X\to X+1$.  More generally, endofunctors that look like [[polynomial]]s in the traditional sense:
+The above definition is most useful when the category $\mathcal{C}$ is not just 
+[[locally cartesian closed category|locally cartesian closed]] but is a [[Π-pretopos]], since often we want to use at least [[coproducts]] in constructing $A$ and $C$.  For example, a [[natural numbers object]] is a $\mathcal{W}$-type specified by one of the coproduct inclusions $1\to 1+1$, and the [[list object]] $L X$ is a $\mathcal{W}$-type specified by $X\to X+1$.  More generally, endofunctors that look like [[polynomials]] in the traditional sense:
 $$ F(Y) = A_n \times Y^{\times n}  + \dots + A_1 \times Y  + A_0 $$
 can be constructed as polynomial endofunctors in the above sense in any $\Pi$-pretopos.  A $\Pi$-pretopos in which all W-types exist is called a **[[ΠW-pretopos]]**.
 
@@ -99,56 +317,6 @@ This reduces to the above for $C = \ast$ the [[terminal object]].
 Notice that we do not necessarily have $g f = h$, so this is not just a [[polynomial endofunctor]] of $\mathcal{C}/_{C}$ considered as a lccc in its own right.  If we *do* have $g f = h$, then $C$ is called a type of *parameters* instead of indices.
 
 
-### W-types in type theory
- {#WTypesInTypeTheory}
-
-In [[type theory]], W-types are introduced by giving explicit constructors and destructors, a.k.a. [[term introduction]] and [[term elimination]] rules.  If the type theory is *[[extensional type theory|extensional]]*, i.e. [[identity type|identities]] have unique proofs and (dependent) [[function types]] are [[function extensionality|extensional]] ($f=g$ if and only if $f(x)=g(x)$ for all $x$), then this is more or less equivalent to the categorical version given above.  The type theories that are the [[internal logic]] of familiar kinds of categories are all extensional in this sense.
-
-The rules for $W$-types in extensional type theory are the following:
-
-(1) $W$-formation rule
-
-$$
-  \frac
-    { 
-      A \,\colon\, Type 
-      \;\; 
-      x \,\colon\, A 
-      \;\;\;\vdash\;\;\; 
-      B(x) \,\colon\,Type}
-    {
-      (W x \colon A) B(x) \,\colon\, Type 
-    }
-$$
-
-+--{: .query}
-[[Andreas Abel]]: A and B are used exactly the other way round in the introductory text to this page.  (Before, A was the arity, now B is the arity.)  Harmonize!?
-=--
-
-In the following we will sometimes abbreviate $(W x:A)B(x)$ by $W$.
-
-(2) $W$-introduction rule
-$$\frac{a:A\; t:B(a)\to W}{sup(a,t):W}$$
-
-(3) $W$-elimination rule
-$$\frac{\array{w:W\vdash C(w):Type\\
-x:A, u:B(x)\to W, v:(\Pi y:B(x))C(u(y))\vdash\\
-c(x,u,v):C(sup(x,u))}}{w:W\vdash wrec(w,c):C(w)}$$
-
-(4) $W$-computation rule
-$$\frac{\array{w:W\vdash C(w):Type\\
-x:A, u:B(x)\to W, v:(\Pi y:B(x))C(u(y))\vdash\\
-c(x,u,v):C(sup(x,u))}}{\array{
-x:A, u:B(x)\to W\vdash wrec(sup(x,u),c)=\\
-c(x,u,\lambda y.wrec(u(y),c)):C(sup(x,u))}}$$
-
-([Awodey, Gambino & Sojakova (2012)](#AwodeyGambinoSojakova12) &#167;2, originally from [Martin-L&#246;f (1984)](#Martin-LofITT))
-
-The main distinction from the naive categorical theory above is that the map $f$ (from the lines above the rules) must be assumed to be a [[display map]], i.e. to exhibit $A$ as a [[dependent type]] over $B$, in order that the dependent product $\Pi_f$ be defined.
-
-In the case of dependent polynomial functors, it seems that $q$ must also be a display map, in order to define $\Sigma_q$.  However, using [[adjunction|adjointness]], one can still define the W-type even if $q$ is not a display map.  This more general version is what in type theory is called an *indexed W-type*; if $q$ is a display map then one sometimes refers to *non-uniform parameters* instead of *indices*.  (By contrast, *uniform parameters* are the kind discussed above where $g f = h$, so that the entire construction takes place in a single slice category  This is an instance of the [[red herring principle]], since non-uniform parameters are not really parameters at all, but a special kind of indices.)  For example, [[identity type]]s are indexed W-types but not parametrized ones (even non-uniformly); see [this blog post](http://homotopytypetheory.org/2011/04/18/whats-special-about-identity-types/).)
-
-Note also that in [[intensional type theory]], a W-type is only an initial algebra with respect to propositional equality, not definitional equality.  In particular, the constructors are injective only propositionally, not definitionally.  This applies already for the natural numbers.
 
 ## Properties
  {#Properties}
@@ -167,16 +335,16 @@ In [[homotopy type theory]], if $A$ as h-level $n\geq -1$, then $W A B$ has h-le
 
 The original definition in [[type theory]] is due to
 
-* {#Martin-LofITT} [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), _Intuitionistic type theory_, Lecture notes Padua 1984, Bibliopolis, Napoli (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
+* {#Martin-Löf84} [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), [pp. 43](https://ncatlab.org/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=49) of: _Intuitionistic type theory_, Lecture notes Padua 1984, Bibliopolis, Napoli (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
 
  
 
 The [[categorical semantics]] of W-types by initial algebras of polynomial endofunctors is due to
 
-* {#MoerdijkPalmgren00} [[Ieke Moerdijk]], [[Erik Palmgren]], _Wellfounded trees in categories_, Annals of Pure and Applied Logic 104 (2000) 189 &#8211; 218 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.44.6700))
+* {#MoerdijkPalmgren00} [[Ieke Moerdijk]], [[Erik Palmgren]], *Wellfounded trees in categories*, Annals of Pure and Applied Logic **104** 1-3 (2000) 189-218 &lbrack;<a href="https://doi.org/10.1016/S0168-0072(00)00012-9">doi:10.1016/S0168-0072(00)00012-9</a>&rbrack;
  
+*  [[Benno van den Berg]],  [[Ieke Moerdijk]], _$W$-types in sheaves_ &lbrack;[arXiv:0810.2398](https://arxiv.org/abs/0810.2398)&rbrack;
 
-*  [[Benno van den Berg]],  [[Ieke Moerdijk]] (2008-09-25); _$W$-types in sheaves_; [vdBM_Wtypes.ps/pdf](http://www.phil.cmu.edu/projects/ast/Papers/)
 
 Dependent W-type were introduced in 
 
@@ -191,17 +359,16 @@ Discussion in relation to [[identity types]] and [[homotopy type theory]] is in
 * {#AwodeyGambinoSojakova12} [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory*, LICS'12: (2012) 95–104 &lbrack;[arXiv:1201.3898](http://arxiv.org/abs/1201.3898), [doi:10.1109/LICS.2012.21](https://doi.org/10.1109/LICS.2012.21), [Coq code](https://github.com/HoTT/HoTT/tree/master/Coq/IT)&rbrack;
  
 
-* [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], _Homotopy-initial algebras in type theory_ ([arXiv:1504.05531](http://arxiv.org/abs/1504.05531))
-
+* [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Homotopy-initial algebras in type theory*, Journal of the ACM **63** 6 (2017) 1–45 &lbrack;[arXiv:1504.05531](http://arxiv.org/abs/1504.05531), [doi:10.1145/3006383](https://doi.org/10.1145/3006383)&rbrack;
 
 Work towards dependent W-types in HoTT is here; see also [[inductive families]].
 
-* Christian Sattler, _On relating indexed W-types with ordinary ones_, 2015 [PDF](http://cs.ioc.ee/types15/abstracts-book/contrib31.pdf)
+* [[Christian Sattler]], _On relating indexed W-types with ordinary ones_ (2015) &lbrack;[PDF](http://cs.ioc.ee/types15/abstracts-book/contrib31.pdf)&rbrack;
 
 A formal proof about the [[h-level]] of W-types is discussed in
 
-* Nils Anders Danielsson, _Positive h-levels are closed under W_ ([web](https://homotopytypetheory.org/2012/09/21/positive-h-levels-are-closed-under-w/))
- {#Danielsson}
+* {#Danielsson} Nils Anders Danielsson, _Positive h-levels are closed under W_ ([web](https://homotopytypetheory.org/2012/09/21/positive-h-levels-are-closed-under-w/))
+ 
 
 and also in
 
@@ -211,8 +378,8 @@ which also computes the [[identity types]] of W-types (and more generally [[inde
 
 Discussion of W-types in [[homotopy type theory]], or rather in [[model categories]] presenting [[homotopy theories]], is in 
 
-* [[Benno van den Berg]], [[Ieke Moerdijk]], _W-types in Homotopy Type Theory_ ([arXiv:1307.2765](http://arxiv.org/abs/1307.2765))
- {#vdBergMoerdijk13}
+* {#vdBergMoerdijk13} [[Benno van den Berg]], [[Ieke Moerdijk]], _W-types in Homotopy Type Theory_ ([arXiv:1307.2765](http://arxiv.org/abs/1307.2765))
+ 
 
 W-types in [[Coq]] [wiki](https://coq.inria.fr/cocorico/WTypeInsteadOfInductiveTypes)
 
