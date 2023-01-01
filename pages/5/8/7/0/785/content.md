@@ -108,7 +108,10 @@ $$
       \\
       {b\colon B}
     }
-   }{\sum} (f(a)= g(b))
+   }{\sum} 
+   \big(
+     f(a) = g(b)
+   \big)
 $$
 
 
