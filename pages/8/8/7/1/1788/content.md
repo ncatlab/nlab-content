@@ -1,103 +1,204 @@
 
+**[[type formation rule]]:**
+
 $$
-  \begin{array}{c}
-    c
+  \frac{
+    \begin{array}{l}
+    X,\, Y,\, Y^' \,\colon\, Type
+    \;;
+    \;\;
+    f \,\colon\, X \to Y
+    \;,
+    \;\;
+    f^' \,\colon\, X \to Y^'    
+    \mathclap{\phantom{\vert_{\vert}}}
+    \end{array}
+  }
+  {
+    \mathclap{\phantom{\vert^{\vert}}}
+    Y \underset{X}{\sqcup} Y^'
+    \,\colon\,
+    Type
+  }
+$$
+
+\linebreak
+
+**[[term introduction rules]]:**
+
+$$
+  \frac{
+    y \,\colon\, Y^'
+    \mathclap{\phantom{\vert_{\vert}}}
+  }{
+    \mathclap{\phantom{\vert^{\vert}}}
+    cpr(y)
+    \,\colon\,
+    Y \underset{X}{\sqcup} Y^'
+  }
+  \;\;\;\;\;\;\;\;\;
+  \frac{
+    y^' \,\colon\, Y^'
+    \mathclap{\phantom{\vert_{\vert}}}
+  }{
+    \mathclap{\phantom{\vert^{\vert}}}
+    cpr^'(y^')
+    \,\colon\,
+    Y \underset{X}{\sqcup} Y^'
+  }
+  \;\;\;\;\;\;\;\;\;
+  \frac{
+    x \,\colon\, X
+    \mathclap{\phantom{\vert}}
+  }{
+    \mathclap{\phantom{\vert^{\vert^{\vert}}}}
+    homot(x)
+    \,\colon\,
+    Id_{\big(Y \underset{X}{\sqcup} Y^'\big)}
+    \Big(
+      cpr\big(f(x)\big)
+      ,\,
+      cpr^'\big(f^'(x)\big)      
+    \Big)
+  }
+$$
+
+\linebreak
+
+
+**[[term elimination rule]]:**
+
+$$
+  \frac{
+    \begin{array}{l}
+    \hat{y}
+      \,\colon\,
+    Y \underset{X}{\sqcup} Y^'
+    \;\vdash\;
+    P(\hat{y})
+    \,\colon\,
+    Type
+    \;;
     \\
-    \hline
-    c
-  \end{array}
+    f_P
+    \,\colon\,
+    \underset{ y \colon Y }{\prod}
+    P\big(
+      cpr(\hat{y})
+    \big)
+    \;;
+    \;\;
+    f^'_P
+    \,\colon\,
+    \underset{ y^' \colon Y^' }{\prod}
+    P\big(
+      cpr^'(y^')
+    \big)
+    \;;
+    \\
+    homot_P
+    \,\colon\,
+    \underset{x \colon X}{\prod}
+    Id_{P(x)}
+    \bigg(
+      homot(x)_\ast
+      \Big(
+        f_P\big(
+          f(x)
+        \big)
+      \Big)
+      ,\,
+        f^'_P\big(
+          f^'(x)
+        \big)
+    \bigg)
+    \end{array}
+  }{
+    \mathclap{\phantom{\vert^{\vert}}}
+    ind_{\big(P,\, f_P,\,f^'_P\big)}
+    \,\colon\,
+    \underset{ 
+      \hat{y} \,\colon\, Y \underset{X}{\sqcup} Y^' 
+    }{\prod} 
+    \,
+    P(\hat{y})
+  }
 $$
 
-Ham $a:Set$, $b : Set$, $c:$Set Sandwich
+\linebreak
 
-\begin{imagefromfile}
-    "file_name": "ProductTypeInferenceRules-221230.jpg",
-    "float": "right",
-    "width": 700,
-    "unit": "px",
-    "margin": {
-        "top": -40,
-        "bottom": 20,
-        "right": 0, 
-        "left": 10
-    }
-\end{imagefromfile}
-
-[[ProductTypeInferenceRules-221230.jpg:file]]
-
-\begin{tikzcd}[sep=20pt]
-  \ast 
-  \ar[r, dashed]
-  &
-  \underset{x \colon X}{\prod} 
-  (f,g)^\ast \mathrm{Paths}(X)
-\end{tikzcd}
-
-
-\begin{tikzcd}
-  {} \ar[r, "\lrcorner"] & {}
-\end{tikzcd}
-
-$\rlcorner$
-
-$\rescale{.4}{x}$
-
-The possibly most evident definition of equivalences as [[quasi-inverse functions]] suffers from the drawback that the type 
+**[[computation rule]]**
 
 $$
-  f \colon A \to B
-  \;\;\;\;\;\;
-  \vdash
-  \;\;\;\;\;\;
-  qinv(f)
-  \coloneqq
-  \underset{
-    \overline{f} \colon B \to A
-  }{\sum}
-  \;\;
-  Id_{(A \to A)}
-  \big(
-    \overline{f} \circ f 
-    ,\,
-    (a \mapsto a)
-  \big)
-  \;\times\;
-  Id_{(B \to B)}
-  \big(
-    f \circ \overline{f} 
-    ,\,
-    (b \mapsto b)
-  \big)
-  \,,
+  \frac{
+    \begin{array}{l}
+    \hat{y}
+      \,\colon\,
+    Y \underset{X}{\sqcup} Y^'
+    \;\vdash\;
+    P(\hat{y})
+    \,\colon\,
+    Type
+    \;;
+    \\
+    f_P
+    \,\colon\,
+    \underset{ y \colon Y }{\prod}
+    P\big(
+      cpr^'(y)
+    \big)
+    \;;
+    \;\;
+    f^'_P
+    \,\colon\,
+    \underset{ y^' \colon Y^' }{\prod}
+    P\big(
+      cpr^'(y^')
+    \big)
+    \;;
+    \\
+    homot_P
+    \,\colon\,
+    \underset{x \colon X}{\prod}
+    Id_{P(x)}
+    \bigg(
+      homot(x)_\ast
+      \Big(
+        f_P\big(
+          f(x)
+        \big)
+      \Big)
+      ,\,
+        f^'_P\big(
+          f^'(x)
+        \big)
+    \bigg)
+    \end{array}
+  }{
+    \begin{array}{rlc}
+    \mathclap{\phantom{\vert^{\vert}}}
+    ind_{\big(P,\, f_P,\,f^'_P\big)} \,\circ\,cpr
+    &=&
+    f_P
+    \;;
+    \\
+    \mathclap{\phantom{\vert^{\vert}}}
+    y^' \,\colon\, Y^'
+    \;\vdash\;
+    ind_{\big(P,\, f_P,\,f^'_P\big)} \,\circ\, cpr^'
+    &=&
+    f^'_P
+    \;;
+    \\
+    happly_{\big(ind_{\big(P,\, f_P,\,f^'_P\big)}\big)}
+    \,\circ\,
+    homot
+    &=&
+    homot_P
+    \end{array}
+  }
 $$
 
-which may naively look like it merely detects whether $f$ is an equivalence, is in fact *not* a [[mere proposition]] ([UFP13, Thm. 4.1.3](#UFP13)).
+## References
 
-This means that the type
-
-\[
-  \label{TheSubtlyWrongTypeOfEquivalences}
-  \underset{
-    f \colon A \to B
-  }{\sum}  
-  \underset{
-    \overline{f} \colon B \to A
-  }{\sum}
-  \;\;
-  Id_{(A \to A)}
-  \big(
-    \overline{f} \circ f 
-    ,\,
-    (a \mapsto a)
-  \big)
-  \;\times\;
-  Id_{(B \to B)}
-  \big(
-    f \circ \overline{f} 
-    ,\,
-    (b \mapsto b)
-  \big)
-\]
-
-is --- despite its possible superficial appearance (cf. &lbrack;[Hofmann & Streicher (1998) --- §5.4](#HofmannStreicher98)&rbrack;), *not* in fact equivalent to the correct type of equivalences $Equiv(A,B)$, which is instead given by including a [[0-truncation]] ${[-]_{0}}$
-
+* [[Egbert Rijke]], *Homotopy pushouts* &lbrack;[pdf](https://www.andrew.cmu.edu/user/erijke/hott/pushout.pdf)&rbrack;, Lecture 13 in: *Introduction to Homotopy Type Theory*, lecture notes, CMU (2018) &lbrack;[pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [[Rijke-IntroductionHoTT-2018.pdf:file]], [webpage](https://www.andrew.cmu.edu/user/erijke/hott/)&rbrack;
