@@ -1313,6 +1313,10 @@ See also
 
 ## Related concepts
 
+* [[cohesion]] 
+
+* [[cohesive homotopy theory]], [[cohesive homotopy type theory]]
+
 * [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
 
   * [[connected topos]] / [[∞-connected (∞,1)-topos]]
@@ -1416,9 +1420,6 @@ Exposition is at
 
 [[!redirects cohesive infinity-groupoid]]
 [[!redirects cohesive infinity-groupoids]]
-
-[[!redirects cohesive homotopy theory]]
-[[!redirects cohesive homotopy theories]]
 
 [[!redirects cohesive model topos]]
 [[!redirects cohesive model toposes]]
