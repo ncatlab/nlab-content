@@ -28,7 +28,7 @@ _Higher-order abstract-syntax_, often abbreviated as _HOAS_, is an approach to f
 
 ## References
 
-* [[Frank Pfenning]], Conal Elliot, ACM SIGPLAN Notices **23** 7 (1988) 199–208 &lbrack;[doi;10.1145/960116.54010](https://doi.org/10.1145/960116.54010), [pdf](https://www.cs.cmu.edu/~fp/papers/pldi88.pdf)&rbrack;
+* [[Frank Pfenning]], Conal Elliot, *Higher-order abstract syntax*, ACM SIGPLAN Notices **23** 7 (1988) 199–208 &lbrack;[doi;10.1145/960116.54010](https://doi.org/10.1145/960116.54010), [pdf](https://www.cs.cmu.edu/~fp/papers/pldi88.pdf)&rbrack;
 
 * [[Martin Hofmann]], _Semantical analysis of higher-order abstract syntax_, LICS 1999 &lbrack;[ieee:782616](https://ieeexplore.ieee.org/document/782616), [doi:10.1109/LICS.1999.782616](https://doi.ieeecomputersociety.org/10.1109/LICS.1999.782616)&rbrack;
 
