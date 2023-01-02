@@ -776,18 +776,32 @@ Discussion of the logical [[axiom of choice]] in dependent type theory is in
 * {#Tait} Tait (1994)
 
 
-[[!redirects Martin-Lof dependent type theory]]
-[[!redirects Martin-Löf dependent type theory]]
-[[!redirects Martin-Lof type theory]]
+
 [[!redirects Martin-Löf type theory]]
 [[!redirects Martin-Löf type theories]]
+[[!redirects Martin-Löf dependent type theories]]
+
+[[!redirects Martin-Löf's dependent type theory]]
+[[!redirects Martin-Löf's dependent type theories]]
+
+
+[[!redirects Martin-Lof type theory]]
+[[!redirects Martin-Lof type theories]]
+[[!redirects Martin-Lof dependent type theory]]
+[[!redirects Martin-Löf dependent type theory]]
+
+
+[[!redirects Martin-Loef type theory]]
+[[!redirects Martin-Loef type theories]]
+[[!redirects Martin-Loef dependent type theory]]
+[[!redirects Martin-Loef dependent type theories]]
+
+
 [[!redirects constructive type theory]]
 
 [[!redirects intuitionistic type theory]]
 [[!redirects intuitionistic type theories]]
 
-[[!redirects Martin-Löf's dependent type theory]]
-[[!redirects Martin-Löf's dependent type theories]]
 
 [[!redirects MLTT]]
 
