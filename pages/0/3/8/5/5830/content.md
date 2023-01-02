@@ -384,7 +384,7 @@ Motivation via practical problems in [[homotopy theory]] and [[higher category t
 A list of video-recorded talks by Voevodsky on this topic is [here](http://video.ias.edu/taxonomy/term/42).
 
 
-Writeups on the topic include
+Introduction and review:
 
 * [[Nicolai Kraus]], _Homotopy type theory -- An overview_ ([pdf](http://www.cs.nott.ac.uk/~ngk/homotopy_type_theory.pdf))
 
@@ -392,7 +392,9 @@ Writeups on the topic include
 
 * {#PelayoWarren} &#193;lvaro Pelayo, [[Michael Warren]], _Homotopy type theory and Voevodsky's univalent foundations_ ([arXiv:1210.5658](http://arxiv.org/abs/1210.5658))
 
-* Daniel Grayson, _An introduction to univalent foundations for mathematicians_, 2017, [arXiv:1711.01477](https://arxiv.org/abs/1711.01477).
+* [[Cecilia Flori]], [[Tobias Fritz]], *Homotopy Type Theory: Univalent Foundations of Mathematics*, lecture notes (2014) &lbrack;[pdf](http://tobiasfritz.science/2014/HoTT_lecturenotes.pdf), [webpage](http://tobiasfritz.science/2014/hott.html)&rbrack;
+
+* [[Daniel Grayson]], _An introduction to univalent foundations for mathematicians_ (2017) &lbrack;[arXiv:1711.01477](https://arxiv.org/abs/1711.01477)&rbrack;
 
 * {#Rijke19} [[Egbert Rijke]], _[[Introduction to Homotopy Type Theory]]_ (2019)  ([web](http://www.andrew.cmu.edu/user/erijke/hott/), [pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [GitHub](https://github.com/EgbertRijke/HoTT-Intro)) 
 
