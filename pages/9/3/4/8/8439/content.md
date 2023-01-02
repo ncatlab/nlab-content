@@ -112,7 +112,7 @@ Thus, analytic approaches are less general and flexible; they are best adapted t
 ### Higher-order abstract syntax
  {#HOAS}
 
-In both synthetic and analytic presentations, we use [[higher-order abstract syntax]] (HOAS).  Roughly, this means that *variables* in the object-theory are not terms of some LF-type, but are represented by actual LF-variables.  For instance, when describing a type theory containing [[function types]] synthetically, we would have
+In both synthetic and analytic presentations, we use [[higher-order abstract syntax]] ([[HOAS]]).  Roughly, this means that *variables* in the object-theory are not terms of some LF-type, but are represented by actual LF-variables.  For instance, when describing a type theory containing [[function types]] synthetically, we would have
 
 * an LF-term $arr : tp \to tp \to tp$, where for object-theory types $A:tp$ and $B:tp$, the term $arr(A,B):tp$ represents their function-type
 * an LF-term $app : tm \to tm \to tm$, where $app(f,a)$ represents the function application $f(a)$
@@ -197,4 +197,3 @@ Other references:
 
 
 [[!redirects logical frameworks]]
-[[!redirects higher-order abstract syntax]]
