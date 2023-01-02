@@ -66,4 +66,8 @@ Review in:
 
 * Ali Nabi Duman, _The Topology of Grover Algorithm_ ([arXiv:1405.4425](https://arxiv.org/abs/1405.4425))
 
+* Kamil Khadiev, §§5-9 in: *Lecture Notes on Quantum Algorithms* &lbrack;[arXiv:2212.14205](https://arxiv.org/abs/2212.14205)&rbrack;
+
+
+
 
