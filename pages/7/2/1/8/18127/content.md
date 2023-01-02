@@ -4761,21 +4761,27 @@ A textbook account:
 
 * {#tomDieck06} [[Tammo tom Dieck]], sections 2 and 3 of _Algebraic Topology_, EMS 2006 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf), [doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86))
 
-Lecture notes:
+Exposition:
 
-* {#Moller11} [[Jesper Møller]], _The fundamental group and covering spaces_ (2011) ([pdf](http://www.math.ku.dk/~moller/f03/algtop/notes/covering.pdf))
+* {#Moller11} [[Jesper Møller]], _The fundamental group and covering spaces_ (2011) &lbrack;[pdf](http://www.math.ku.dk/~moller/f03/algtop/notes/covering.pdf), [[Moller-FundamentalGroup.pdf:file]]&rbrack;
+
+* Alberto Santini, *Topological groupoids* (2011) &lbrack;[pdf](http://web.math.ku.dk/~moller/students/alberto.pdf), [[Santini-Groupoids.pdf:file]]&rbrack;
+
+  > (about [[groupoids]] in [[topology]], notably [[fundamental groupoids]] -- not about [[topological groupoids]])
+
 
 Further reading:
 
+
+
 * *[[geometry of physics -- categories and toposes]] -- Sec. 7: [∞-Groupoids I: Topological homotopy theory](geometry+of+physics+--+categories+and+toposes#TopologicalHomotopyTheory)*
 
-$\,$
+
+
+\linebreak
 
 Fun application of basic homotopy theory in [[condensed matter theory]] ([[anyon]] [[braiding]]):
 
 * [[N. David Mermin]], *The topological theory of defects in ordered media*, Rev. Mod. Phys. **51** (1979) 591 $[$[doi:10.1103/RevModPhys.51.591](https://doi.org/10.1103/RevModPhys.51.591)$]$
 
-
-$\,$
-
-$\,$
+\linebreak
