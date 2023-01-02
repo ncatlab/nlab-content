@@ -16,7 +16,6 @@
 =--
 
 
-
 #Contents#
 * table of contents 
 {:toc}
@@ -71,6 +70,8 @@ Using variants of 'weak equivalence', for instance, '$n$-equivalence', one gets 
 
 ## Related concepts
 
+* [[homotopy n-type]]
+
 * [[model structure for homotopy types]]
 
 * [[finite homotopy type]], [[homotopy type with finite homotopy groups]]
@@ -96,11 +97,12 @@ Using variants of 'weak equivalence', for instance, '$n$-equivalence', one gets 
 
 ## References
 
-* {#Spanier66} [[Edwin Spanier]], section 7.8 of _Algebraic topology_, McGraw-Hill, 1966
+For instance:
 
-There are some useful points made in:
+* {#Spanier66} [[Edwin Spanier]], p. 25 & §8 of:  _Algebraic topology_, McGraw Hill (1966), Springer (1982) &lbrack;[doi:10.1007/978-1-4684-9322-1](https://link.springer.com/book/10.1007/978-1-4684-9322-1)&rbrack;
 
-* [[H. J. Baues]], _[[Homotopy Types]]_, in  _[[Handbook of Algebraic Topology]]_, (edited by [[Ioan Mackenzie James]]), North Holland, 1995.
+* [[Hans J. Baues]], *[[Homotopy Types]]* &lbrack;[pdf](https://archive.mpim-bonn.mpg.de/id/eprint/2171/1/preprint_1994_88.pdf), [[Baues-HomotopyTypes.pdf:file]]&rbrack;, in: [[Ioan Mackenzie James|I. M. James]] (ed.),  *[[Handbook of Algebraic Topology]]*, North Holland (1995) 1-72 &lbrack;[ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2), [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7)&rbrack;
+
 
 
 [[!redirects homotopy types]]
