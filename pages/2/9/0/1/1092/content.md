@@ -29,9 +29,14 @@ $$
 $$
 is a [[pushout]] square in some [[category]] then the [[morphism]] $U \to U \sqcup_X Y$ is the **cobase change** or **cobase extension** of $X \to Y$ along $X \to U$.
 
-## Remarks
+## Related concepts
 
 * The [[duality|dual]] concept is [[base change]].
 
+* [[base change]]
+
+* [[homotopy co-base change]]
+
 
 [[!redirects cobase changes]]
+
