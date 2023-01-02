@@ -17,7 +17,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -399,41 +398,59 @@ In the case that $X_\bullet$ is the classifier of the [[codomain fibration]], th
 
 * [[coinductive type]]
 
+
+
 ## References
  {#References}
 
-A very basic introduction to the concept, with an eye towards explaining [[identity types]] is in 
+Original references:
 
-* [[Mike Shulman]], _Induction on equality_ ([pdf](http://home.sandiego.edu/~shulman/papers/induction.pdf))
+* [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), _Intuitionistic type theory_, Lecture notes Padua 1984, Bibliopolis, Napoli (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
 
-A textbook account in the context of [[programming languages]] is in section 15 of
+* [[Paul Francis Mendler]], *Inductive Definition in Type Theory*, Cornell (1987) &lbrack;[hdl:1813/6710](https://hdl.handle.net/1813/6710)&rbrack;
 
-* [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
+Textbook accounts:
+
+* [[Simon Thompson]], §4.10 in: *[[Type Theory and Functional Programming]]*, Addison-Wesley (1991) &lbrack;ISBN:0-201-41667-0, [webpage](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP), [pdf](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)&rbrack;
+
+* [[Adam Chlipala]], §3 of: _Certified programming with dependent types_, MIT Press 2013 &lbrack;[ISBN:9780262026659 ](https://mitpress.mit.edu/books/certified-programming-dependent-types), [pdf](http://adam.chlipala.net/cpdt/cpdt.pdf),  [book webpage](http://adam.chlipala.net/cpdt/)&rbrack;
+
+  > (discussion for the *[[Coq]]* [[proof assistant]])
+
+* [[Robert Harper]], §15 in: _[[Practical Foundations for Programming Languages]]_, Cambridge University Press (2016) &lbrack;[ISBN:9781107150300](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB), [pdf](https://www.cs.cmu.edu/~rwh/pfpl/2nded.pdf)&rbrack;
 
 
-Discussion of inductive types in the context of [[Coq]]-programming is in chapter 3 of 
+See also:
 
-* [[Adam Chlipala]], _[Certified programming with dependent types](http://adam.chlipala.net/cpdt/)_ 
+* Wikipedia, *[Inductive types](https://en.wikipedia.org/wiki/Inductive_type)*
 
-See also
+Exposition with an eye towards explaining [[identity types]] in [[Martin-Löf type theory]]/[[homotopy type theory]]:
 
-* Michael Abbott, [[Thorsten Altenkirch]], [[Neil Ghani]], _Inductive Types for Free -- Representing nested inductive types using W-types_ ([pdf](http://www.cs.nott.ac.uk/~txa/talks/icalp-slides.pdf))
+* [[Mike Shulman]], _Induction on equality_ (2011) &lbrack;[pdf](http://home.sandiego.edu/~shulman/papers/induction.pdf), [[Shulman-Induction.pdf:file]]&rbrack;
 
-Expositions with an eye towards [[higher inductive types]] include
+
+Formalization in [[proof assistants]]:
+
+in [[Coq]]:
+
+* Eduardo Gim&#233;nez, Pierre Cast&#233;ran, _A Tutorial on [Co-]Inductive Types in Coq_ (1998, 2005) &lbrack;[pdf](http://flint.cs.yale.edu/cs428/coq/pdf/RecTutorial.pdf), [[GimenezCasteran-InductiveTypes.pdf:file]]&rbrack;
+
+in [[Lean]]:
+
+* [Inductive types](https://leanprover.github.io/theorem_proving_in_lean/inductive_types.html), §7 in: *[Theorem Proving in Lean](https://leanprover.github.io/theorem_proving_in_lean/index.html)*
+
+On inductive types in the context of [[linear type theory]]:
+
+* St&#233;phane Gimenez, _Towards Generic Inductive Constructions in Systems of Nets_ &lbrack;[pdf](https://www.imn.htwk-leipzig.de/~waldmann/WST2013/papers/paper_16.pdf)&rbrack;
+
+
+Expositions with an eye towards [[higher inductive types]]:
 
 * [[Mike Shulman]], _Homotopy type theory IV_ ([web](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_vi.html))
 
 * [[Peter LeFanu Lumsdaine]], _Higher inductive types, a tour of the menagerie_ ([blog post](http://homotopytypetheory.org/2011/04/24/higher-inductive-types-a-tour-of-the-menagerie/))
 
 * [[Mike Shulman]], _Inductive and higher inductive types_, talk slides (2012) ([pdf](http://www.sandiego.edu/~shulman/hottminicourse2012/04induction.pdf))
-
-Original references include
-
-* [[Per Martin-Löf]], _Intuitionistic Type Theory_. Notes by G. Sambin of a series of lectures given in Padua, 1980. Bibliopolis, 1984.
-
-The formalization in [[Coq]] is discussed in 
-
-* Eduardo Gim&#233;nez, Pierre Cast&#233;ran, _A Tutorial on [Co-]Inductive Types in Coq_ ([pdf](http://flint.cs.yale.edu/cs428/coq/pdf/RecTutorial.pdf))
 
 Discussion of homotopy-initiality of inductive types in [[homotopy type theory]] (cf. also at *[[higher inductive type]]*):
 
@@ -445,16 +462,9 @@ Discussion of homotopy-initiality of inductive types in [[homotopy type theory]]
 
   [[Steve Awodey]], *Inductive types in HoTT* (Jan 2012) &lbrack;[blog post](http://homotopytypetheory.org/2012/01/19/inductive-types-in-hott/)&rbrack;
 
-Discussion of the inductive type of [[natural numbers]] is in 
-
-* Frank Pfenning, _Lecture notes on natural numbers_ (2009) ([pdf](http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/06-nat.pdf))
-  {#Pfenning}
-
-Discussion of inductive types in the context of [[linear type theory]] is in 
-
-* St&#233;phane Gimenez, _Towards Generic Inductive Constructions in
-Systems of Nets_ ([pdf](http://www.imn.htwk-leipzig.de/WST2013/papers/paper_16.pdf))
+  
 
 [[!redirects inductive type]]
 [[!redirects inductive types]]
 [[!redirects inducive type]]
+
