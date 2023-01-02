@@ -92,6 +92,18 @@ See [[simplicial fundamental groupoid]].
 
 ## References
 
+Review and Exposition:
+
+* {#Moller11} [[Jesper Møller]], _The fundamental group and covering spaces_ (2011) &lbrack;[pdf](http://www.math.ku.dk/~moller/f03/algtop/notes/covering.pdf), [[Moller-FundamentalGroup.pdf:file]]&rbrack;
+
+* Alberto Santini, *Topological groupoids* (2011) &lbrack;[pdf](http://web.math.ku.dk/~moller/students/alberto.pdf), [[Santini-Groupoids.pdf:file]]&rbrack;
+
+  > (about [[groupoids]] in [[topology]], notably [[fundamental groupoids]] -- not about [[topological groupoids]])
+
+* *[[Introduction to Topology -- 2]]*
+
+See also:
+
 * R. Brown, Groupoids and Van Kampen's theorem, _Proc. London
 Math. Soc_. (3)   17 (1967) 385-401.
 
@@ -104,7 +116,7 @@ groupoid, _Cah. Top. G\'eom. Diff. Cat_. 36 (1995) 345-369.
 
 * {#Brown06} [[Ronnie Brown]], _Topology and Groupoids_, Booksurge (2006). (See particularly 10.5.8, using lifted topologies to topologise $(\pi_1 X)/N$ where $N$ is a normal, totally disconnected subgroupoid of $\pi_1 X$, and $X$ admits a universal cover). ([more info] (http://pages.bangor.ac.uk/~mas010/topgpds.html))
 
-Relations with group theory are discussed in: 
+Relations with [[group theory]]:
 
 * P.J. Higgins, _Notes on Categories and Groupoids_, Mathematical  Studies, Volume 32. Van Nostrand Reinhold Co. London (1971); _Reprints in Theory and Applications of   Categories_, No. 7 (2005) pp 1--195.
 
@@ -122,8 +134,7 @@ Discussion of the fundamental groupoid (for good [[topological spaces]] and for 
 
  A recent paper in the area of dynamical systems which uses  fundamental groupoids on many base points   is:
 
-* Paul, E. and Ramis, J.-P.
-Dynamics on Wild Character Varieties, _SIGMA_ 11 (2015), 068, 21 pages. arXiv:1508.03122. 
+* Paul, E. and Ramis, J.-P. Dynamics on Wild Character Varieties, _SIGMA_ 11 (2015), 068, 21 pages. arXiv:1508.03122. 
 
 [[!redirects fundamental groupoid]]
 [[!redirects fundamental groupoids]]
