@@ -5,8 +5,13 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
@@ -14,7 +19,7 @@
 
 ## Idea
 
-The _pushout type_ is an [[axiom|axiomatization]] of the [[homotopy pushout]] in the context of [[homotopy type theory]].
+In [[homotopy type theory]], a _homotopy pushout type_ is a kind of [[higher inductive type]] whose [[categorical semantics]] is that of [[homotopy pushouts]].
 
 ## Definition
 
@@ -30,6 +35,299 @@ In [[Coq]] pseudocode:
     | inl : B -> hpushout f g
     | inr : C -> hpushout f g
     | glue : forall (a : A), inl (f a) == inr (g a).
+
+
+\linebreak
+
+{#InferenceRules} Explicitly, this means that the [[inference rules]] for pushout types are as follows (where we now label terms as shown in the following diagram):
+
+
+\begin{tikzcd}[sep=40pt]
+  &
+  Y
+  \ar[
+    dr, 
+    "{ \mathrm{cpr} }"{description, sloped}
+  ]
+  \ar[
+    dd,
+    Rightarrow,
+    shorten=11pt,
+    start anchor={[xshift=+6pt]},
+    end anchor={[xshift=-6pt]},
+    "{ \mathrm{hmt} }"{description}
+  ]
+  \ar[
+    rrrd,
+    bend left=30,
+    "{ \mathrm{cpr}_P }",
+    "{\ }"{name=s, swap, pos=.55}
+  ]
+  \\[-20pt]
+  X
+  \ar[
+    ur,
+    "{ f }"
+  ]
+  \ar[
+    dr,
+    "{ f' }"{swap}
+  ]
+  && 
+  Y \underset{X}{\sqcup} Y'
+  \ar[ddr, equals, gray]
+  \ar[
+    rr, 
+    dashed,
+    "{ \mathrm{ind}_{(P,\, \cdots)} }"
+  ]
+  &&
+  P
+  \ar[ddl, gray, "{ \pi_P }"{description}]
+  \\
+  &
+  Y'
+  \ar[
+    ur,
+    shorten >=-6pt,
+    "{ \mathrm{cpr}' }"{description, sloped}
+  ]
+  \ar[
+    rrru,
+    bend right=45,
+    "{ \mathrm{cpr}_{P'} }"{swap, pos=.35},
+    "{\ }"{name=t, pos=.4}
+  ]
+  \ar[
+    from=s,
+    to=t,
+    shorten=8pt,
+    Rightarrow,
+    crossing over,
+    "{\mathrm{hmt}_P}"{description, pos=.7}
+  ]
+  \\[-100pt]
+  && & 
+  \color{gray}
+  Y \underset{X}{\sqcup} Y'
+\end{tikzcd}  
+
+
+
+**[[type formation rule]]:**
+
+$$
+  \frac{
+    \begin{array}{l}
+    X,\, Y,\, Y^' \,\colon\, Type
+    \;;
+    \;\;
+    f \,\colon\, X \to Y
+    \;,
+    \;\;
+    f^' \,\colon\, X \to Y^'    
+    \mathclap{\phantom{\vert_{\vert}}}
+    \end{array}
+  }
+  {
+    \mathclap{\phantom{\vert^{\vert}}}
+    Y \underset{X}{\sqcup} Y^'
+    \,\colon\,
+    Type
+  }
+$$
+
+\linebreak
+
+**[[term introduction rules]]:**
+
+$$
+  \frac{
+    y \,\colon\, Y
+    \mathclap{\phantom{\vert_{\vert}}}
+  }{
+    \mathclap{\phantom{\vert^{\vert}}}
+    cpr(y)
+    \,\colon\,
+    Y \underset{X}{\sqcup} Y^'
+  }
+  \;\;\;\;\;\;\;\;\;
+  \frac{
+    y^' \,\colon\, Y^'
+    \mathclap{\phantom{\vert_{\vert}}}
+  }{
+    \mathclap{\phantom{\vert^{\vert}}}
+    cpr^'(y^')
+    \,\colon\,
+    Y \underset{X}{\sqcup} Y^'
+  }
+  \;\;\;\;\;\;\;\;\;
+  \frac{
+    x \,\colon\, X
+    \mathclap{\phantom{\vert}}
+  }{
+    \mathclap{\phantom{\vert^{\vert^{\vert}}}}
+    hmt(x)
+    \,\colon\,
+    Id_{\big(Y \underset{X}{\sqcup} Y^'\big)}
+    \Big(
+      cpr\big(f(x)\big)
+      ,\,
+      cpr^'\big(f^'(x)\big)      
+    \Big)
+  }
+$$
+
+\linebreak
+
+
+**[[term elimination rule]]:**
+
+$$
+  \frac{
+    \begin{array}{l}
+    \hat{y}
+      \,\colon\,
+    Y \underset{X}{\sqcup} Y^'
+    \;\vdash\;
+    P(\hat{y})
+    \,\colon\,
+    Type
+    \;;
+    \\
+    cpr_P
+    \,\colon\,
+    \underset{ y \colon Y }{\prod}
+    P\big(
+      cpr(y)
+    \big)
+    \;;
+    \;\;
+    cpr^'_P
+    \,\colon\,
+    \underset{ y^' \colon Y^' }{\prod}
+    P\big(
+      cpr^'(y^')
+    \big)
+    \;;
+    \\
+    hmt_P
+    \,\colon\,
+    \underset{x \colon X}{\prod}
+    Id_{P(x)}
+    \bigg(
+      hmt(x)_\ast
+      \Big(
+        cpr_P\big(
+          f(x)
+        \big)
+      \Big)
+      ,\,
+        cpr^'_P\big(
+          f^'(x)
+        \big)
+    \bigg)
+    \end{array}
+  }{
+    \mathclap{\phantom{\vert^{\vert}}}
+    ind_{\big(P,\, cpr_P,\,cpr^'_P,\,hmt_P\big)}
+    \,\colon\,
+    \underset{ 
+      \hat{y} \,\colon\, Y \underset{X}{\sqcup} Y^' 
+    }{\prod} 
+    \,
+    P(\hat{y})
+  }
+$$
+
+\linebreak
+
+**[[computation rules]]:**
+
+$$
+  \frac{
+    \begin{array}{l}
+    \hat{y}
+      \,\colon\,
+    Y \underset{X}{\sqcup} Y^'
+    \;\vdash\;
+    P(\hat{y})
+    \,\colon\,
+    Type
+    \;;
+    \\
+    cpr_P
+    \,\colon\,
+    \underset{ y \colon Y }{\prod}
+    P\big(
+      cpr^'(y)
+    \big)
+    \;;
+    \;\;
+    cpr^'_P
+    \,\colon\,
+    \underset{ y^' \colon Y^' }{\prod}
+    P\big(
+      cpr^'(y^')
+    \big)
+    \;;
+    \\
+    hmt_P
+    \,\colon\,
+    \underset{x \colon X}{\prod}
+    Id_{P(x)}
+    \bigg(
+      hmt(x)_\ast
+      \Big(
+        cpr_P\big(
+          f(x)
+        \big)
+      \Big)
+      ,\,
+        cpr^'_P\big(
+          cpr^'(x)
+        \big)
+    \bigg)
+    \end{array}
+  }{
+    \begin{array}{rlc}
+    \mathclap{\phantom{\vert^{\vert}}}
+    ind_{\big(P,\, cpr_P,\,cpr^'_P,\,hmt_P\big)}  
+      \,\circ\,
+    cpr
+    &=&
+    cpr_P
+    \;;
+    \\
+    \mathclap{\phantom{\vert^{\vert}}}
+    ind_{\big(P,\, cpr_P,\,cpr^'_P,\,hmt_P\big)} 
+      \,\circ\, 
+    cpr^'
+    &=&
+    cpr^'_P
+    \;;
+    \\
+    happly_{\big(
+      ind_{\big(P,\, cpr_P,\,cpr^'_P,\,hmt_P\big)}
+    \big)}
+    \,\circ\,
+    hmt
+    &=&
+    hmt_P
+    \end{array}
+  }
+$$
+
+\linebreak
+
+Here:
+
+* "$Id_X$" denotes the [[identity type]] of the type $X$;
+
+* "=" denotes [[judgemental equality]];
+
+*  "$happly$" denotes the [[dependent type|dependently typed]] version of the operation [here](function+extensionality#eq:happlyDefinition).
+
 
 ## Examples ##
 
@@ -51,7 +349,18 @@ In [[Coq]] pseudocode:
 
 ## References ##
 
-* [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
+Many references on [[higher inductive types]] mention pushout types and highlight their categorical semantics, but skip type-theoretic details, e.g.:
 
-[[!redirects pushout type]]
+* [[Univalent Foundations Project]], §6.8 of: *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
+
+A little more detailed description is in:
+
+* [[Egbert Rijke]], *Homotopy pushouts* &lbrack;[pdf](https://www.andrew.cmu.edu/user/erijke/hott/pushout.pdf)&rbrack;, Lecture 13 in: *Introduction to Homotopy Type Theory*, lecture notes, CMU (2018) &lbrack;[pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [[Rijke-IntroductionHoTT-2018.pdf:file]], [webpage](https://www.andrew.cmu.edu/user/erijke/hott/)&rbrack;
+
 [[!redirects pushout types]]
+
+[[!redirects homotopy pushout type]]
+[[!redirects homotopy pushout types]]
+
+
+
