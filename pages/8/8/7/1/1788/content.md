@@ -1,4 +1,74 @@
 
+\begin{tikzcd}[sep=40pt]
+  &
+  Y
+  \ar[
+    dr, 
+    "{ \mathrm{cpr} }"{description, sloped}
+  ]
+  \ar[
+    dd,
+    Rightarrow,
+    shorten=11pt,
+    "{ \mathrm{homot} }"{description}
+  ]
+  \ar[
+    rrrd,
+    bend left=30,
+    "{ \mathrm{cpr}_P }",
+    "{\ }"{name=s, swap, pos=.55}
+  ]
+  \\[-20pt]
+  X
+  \ar[
+    ur,
+    "{ f }"
+  ]
+  \ar[
+    dr,
+    "{ f' }"{swap}
+  ]
+  && 
+  Y \underset{X}{\sqcup} Y'
+  \ar[ddr, equals, gray]
+  \ar[
+    rr, 
+    dashed,
+    "{ \mathrm{ind}_{(P,\, \cdots)} }"
+  ]
+  &&
+  P
+  \ar[ddl, gray, "{ \pi_P }"{description}]
+  \\
+  &
+  Y'
+  \ar[
+    ur,
+    shorten >=-6pt,
+    "{ \mathrm{cpr}' }"{description, sloped}
+  ]
+  \ar[
+    rrru,
+    bend right=45,
+    "{ \mathrm{cpr}_{P'} }"{swap, pos=.35},
+    "{\ }"{name=t, pos=.4}
+  ]
+  \ar[
+    from=s,
+    to=t,
+    shorten=8pt,
+    Rightarrow,
+    crossing over,
+    "{\mathrm{homot_P}}"{description, pos=.7}
+  ]
+  \\[-100pt]
+  && & 
+  \color{gray}
+  Y \underset{X}{\sqcup} Y'
+\end{tikzcd}  
+
+
+
 **[[type formation rule]]:**
 
 $$
@@ -80,7 +150,7 @@ $$
     Type
     \;;
     \\
-    f_P
+    cpr_P
     \,\colon\,
     \underset{ y \colon Y }{\prod}
     P\big(
@@ -88,7 +158,7 @@ $$
     \big)
     \;;
     \;\;
-    f^'_P
+    cpr^'_P
     \,\colon\,
     \underset{ y^' \colon Y^' }{\prod}
     P\big(
@@ -103,19 +173,19 @@ $$
     \bigg(
       homot(x)_\ast
       \Big(
-        f_P\big(
+        cpr_P\big(
           f(x)
         \big)
       \Big)
       ,\,
-        f^'_P\big(
+        cpr^'_P\big(
           f^'(x)
         \big)
     \bigg)
     \end{array}
   }{
     \mathclap{\phantom{\vert^{\vert}}}
-    ind_{\big(P,\, f_P,\,f^'_P\big)}
+    ind_{\big(P,\, cpr_P,\,cpr^'_P,\,homot_P\big)}
     \,\colon\,
     \underset{ 
       \hat{y} \,\colon\, Y \underset{X}{\sqcup} Y^' 
@@ -127,7 +197,7 @@ $$
 
 \linebreak
 
-**[[computation rule]]**
+**[[computation rules]]**
 
 $$
   \frac{
@@ -141,7 +211,7 @@ $$
     Type
     \;;
     \\
-    f_P
+    cpr_P
     \,\colon\,
     \underset{ y \colon Y }{\prod}
     P\big(
@@ -149,7 +219,7 @@ $$
     \big)
     \;;
     \;\;
-    f^'_P
+    cpr^'_P
     \,\colon\,
     \underset{ y^' \colon Y^' }{\prod}
     P\big(
@@ -164,33 +234,37 @@ $$
     \bigg(
       homot(x)_\ast
       \Big(
-        f_P\big(
+        cpr_P\big(
           f(x)
         \big)
       \Big)
       ,\,
-        f^'_P\big(
-          f^'(x)
+        cpr^'_P\big(
+          cpr^'(x)
         \big)
     \bigg)
     \end{array}
   }{
     \begin{array}{rlc}
     \mathclap{\phantom{\vert^{\vert}}}
-    ind_{\big(P,\, f_P,\,f^'_P\big)} \,\circ\,cpr
+    ind_{\big(P,\, cpr_P,\,cpr^'_P,\,homot_P\big)}  
+      \,\circ\,
+    cpr
     &=&
-    f_P
+    cpr_P
     \;;
     \\
     \mathclap{\phantom{\vert^{\vert}}}
-    y^' \,\colon\, Y^'
-    \;\vdash\;
-    ind_{\big(P,\, f_P,\,f^'_P\big)} \,\circ\, cpr^'
+    ind_{\big(P,\, cpr_P,\,cpr^'_P,\,homot_P\big)} 
+      \,\circ\, 
+    cpr^'
     &=&
-    f^'_P
+    cpr^'_P
     \;;
     \\
-    happly_{\big(ind_{\big(P,\, f_P,\,f^'_P\big)}\big)}
+    happly_{\big(
+      ind_{\big(P,\, cpr_P,\,cpr^'_P,\,homot_P\big)}
+    \big)}
     \,\circ\,
     homot
     &=&
@@ -199,6 +273,5 @@ $$
   }
 $$
 
-## References
 
-* [[Egbert Rijke]], *Homotopy pushouts* &lbrack;[pdf](https://www.andrew.cmu.edu/user/erijke/hott/pushout.pdf)&rbrack;, Lecture 13 in: *Introduction to Homotopy Type Theory*, lecture notes, CMU (2018) &lbrack;[pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [[Rijke-IntroductionHoTT-2018.pdf:file]], [webpage](https://www.andrew.cmu.edu/user/erijke/hott/)&rbrack;
+
