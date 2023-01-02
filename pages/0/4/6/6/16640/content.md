@@ -142,7 +142,7 @@ where each $P_k$ has order $p^k$.
 =-- 
 
 
-+-- {: .num_theorem} 
++-- {: .num_theorem #SylowConj} 
 ###### Theorem 
 If $H$ is a $p$-subgroup of $G$ and $P$ is a Sylow $p$-subgroup, then $g^{-1} H g \subseteq P$ for some $g \in G$. In particular, all Sylow $p$-subgroups are conjugate to one another. 
 =-- 
@@ -152,7 +152,7 @@ If $H$ is a $p$-subgroup of $G$ and $P$ is a Sylow $p$-subgroup, then $g^{-1} H 
 $G$ acts on the set of cosets $G/P$ as usual by left translation, and we may restrict the action to the $p$-subgroup $H$. By maximality of $P$, we see ${|G/P|}$ is prime to $p$, and so by Proposition \ref{pparity}, ${|Fix_H(G/P)|}$ is also prime to $p$. In particular, $Fix_H(G/P)$ has at least one element, say $g P$. We infer that $h g P = g P$ for all $h \in H$, or that $g^{-1} h g P = P$ for all $h \in H$, and this implies that $g^{-1} H g \subseteq P$. 
 =-- 
 
-+-- {: .num_theorem} 
++-- {: .num_theorem #numberSylow} 
 ###### Theorem 
 The number of Sylow $p$-subgroups of $G$ is $\equiv 1 \; mod p$. 
 =-- 
@@ -161,7 +161,24 @@ The number of Sylow $p$-subgroups of $G$ is $\equiv 1 \; mod p$.
 ###### Proof 
 Let $Y$ be the set of Sylow $p$-subgroups; $G$ acts on $Y$ by conjugation. As all Sylow $p$-subgroups are conjugate, there is just one orbit of the action, and the stabilizer of an element $P \in Y$ is just the [[normalizer]] $N_G(P)$ (by definition of normalizer). Thus $Y \cong G/N_G(P)$ as $G$-sets. 
 
-Restrict the action to the subgroup $P$. Of course the element $P \in Y$ is a fixed point of this restricted action, and if $Q$ is any other fixed point, it means $x Q x^{-1} = Q$ for all $x \in P$, whence $P \subseteq N_G(Q)$. Now: $P, Q$ are both Sylow $p$-subgroups of $N_G(Q)$ and are therefore conjugate to each other (as seen within the group $N_G(Q)$). But $Q$ is already fixed by the conjugation action in its stabilizer $N_G(Q)$, so we conclude $P = Q$. We conclude $Fix_P(Y)$ has exactly one element. From ${|Y|} \equiv {|Fix_P(Y)|} \; mod p$, the theorem follows. 
+Restrict the action to the subgroup $P$. Of course the element $P \in Y$ is a fixed point of this restricted action, and if $Q$ is any other fixed point, it means $x Q x^{-1} = Q$ for all $x \in P$, whence $P \subseteq N_G(Q)$. Now: $P, Q$ are both Sylow $p$-subgroups of $N_G(Q)$ and are therefore conjugate to each other (as seen within the group $N_G(Q)$). But $Q$ is already fixed by the conjugation action in its stabilizer $N_G(Q)$, so we conclude $P = Q$. We conclude $Fix_P(Y)$ has exactly one element. From ${|Y|} \equiv {|Fix_P(Y)|} \; mod p$ (Proposition \ref{pparity}), the theorem follows. 
+=-- 
+
++-- {: .num_cor #numbertwoSylow} 
+###### Corollary 
+If $G$ is a group of order $n = p^k m$ where $p$ is prime to $m$, then the number $n_p$ of $p$-Sylow subgroups divides $m$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Because $G$ acts transitively on $p$-Sylow subgroups (Theorem \ref{SylowConj}) , the number $n_p$ divides ${|G|} = p^k m$. From Theorem \ref{numberSylow}, we have $a n_p + b p^k = 1$ for some integers $a, b$. Since $n_p$ divides both terms of the left side of $a n_p m + b p^k m = m$, it divides $m$. 
+=-- 
+
+The Sylow theorems are routinely used throughout group theory. As a sample application: if $p, q$ are distinct primes, with $p^2 \nequiv 1\; \mod q$ and $q \nequiv 1\; \mod p$, then any group of order $p^2 q$ is abelian. (For example, a group of order $2023 = 7 \cdot 17^2$ must be commutative.) 
+
++-- {: .proof} 
+###### Proof 
+We have $n_p|q$ by Corollary \ref{numbertwoSylow}, but $n_p \neq q$ (using Theorem \ref{numberSylow} and $q \nequiv 1\; \mod p$), so $n_p = 1$. Arguing similarly we have $n_q|p^2$ but $n_q \neq p$ and $n_q \neq p^2$, so $n_q = 1$. The $p$-Sylow subgroup $P$ of order $p^2$ and the $q$-Sylow subgroup $Q$ of order $q$ are both abelian. $P \cap Q = \{1\}$ since $p, q$ are relatively prime, and $P, Q$ are normal subgroups of $G$ since $n_p, n_q$ are both $1$. It follows that $P Q$ is a subgroup of order $p^2 q$, hence $P Q = G$. Thus to prove $G$ abelian, it suffices to show that if $x \in P$ and $y \in Q$, then $x$ and $y$ commute, i.e., $x y x^{-1} y^{-1} = 1$. But by normality of $Q$, the element $(x y x^{-1}) y^{-1}$ belongs to $Q$; similarly, the element $x(y x^{-1} y^{-1})$ belongs to $P$, and so $x y x^{-1} y^{-1} \in P \cap Q = \{1\}$. The result follows. 
 =-- 
 
 ## Related concepts
