@@ -1,49 +1,80 @@
-##Homotopy Types
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
 
 
+This page compiles pointers related to:
+
+* [[Hans Baues]]:
+
+  \linebreak
+
+  **Homotopy Types**
+
+  [pdf](https://archive.mpim-bonn.mpg.de/id/eprint/2171/1/preprint_1994_88.pdf), [[Baues-HomotopyTypes.pdf:file]]
+
+  \linebreak 
+
+  in:
+
+  [[Ioan M. James]] (ed):
+
+  *[[Handbook of Algebraic Topology]]*
+
+  Oxford 1995
+
+  [ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2)
+
+  [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7)
 
 
-This 72 page article, by [[Hans Baues]], is to be found in the [[Handbook of Algebraic Topology]]. It starts from a basic position and attacks three main topics:
+on [[homotopy theory]] with focus on the notion of [[homotopy types]].
 
-* Homotopy types with non-trivial fundamental group (Sections 2 - 5);
+It starts from a basic position and attacks three main topics:
+
+* Homotopy types with non-trivial [[fundamental group]] (Sections 2 - 5);
 
 * Homotopy types with trivial fundamental group (Sections 6 - 9, 12);
 
-* Stable homotopy types (Sections 10 and 11).
+* [[stable homotopy types]] (Sections 10 and 11).
+
 
 #Contents#
-
-* automatic table of contents goes here
-
+* table of contents
 {:toc}
 
-##1 What are homotopy types?
+## What are homotopy types?
 
-##2 How to build homotopy types
+## How to build homotopy types
 
-##3 Whitehead's realization  problem
+## Whitehead's realization  problem
 
-##4 Algebraic models of $n$-types
+## Algebraic models of $n$-types
 
-##5 Cohomology of groups and cohomology of categories
+## Cohomology of groups and cohomology of categories
 
-##6 Simply connectd homotopy types and $H\pi$-duality
+## Simply connectd homotopy types and $H\pi$-duality
 
-##7 The Hurewicz homomorphism
+## The Hurewicz homomorphism
 
-##8 Postnikov invariants and boundary invariants
+## Postnikov invariants and boundary invariants
 
-##9 The classification theorems
+## The classification theorems
 
-##10 Stable homotopy types
+## Stable homotopy types
 
-##11 Decomposition of stable homotopy types 
+## Decomposition of stable homotopy types 
 
-##12 Localization
+## Localization
 
 ##References
 
-#Linked Reference:
-*  [[Handbook of Algebraic Topology]], ed. I. M.James, Elsevier Science, 1995.
 
 category:reference
