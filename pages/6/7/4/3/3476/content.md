@@ -376,6 +376,9 @@ see also:
 
 * {#AbbottAltenkirchGhani04} [[Michael Abbott]], [[Thorsten Altenkirch]], [[Neil Ghani]]: *Representing Nested Inductive Types using W-types*, in: *Automata, Languages and Programming*, ICALP 2004, Lecture Notes in Computer Science, **3142**, Springer (2004) &lbrack;[doi:10.1007/978-3-540-27836-8_8](https://doi.org/10.1007/978-3-540-27836-8_8), [pdf](http://www.cs.nott.ac.uk/~psztxa/publ/icalp04.pdf)&rbrack;
 
+  exposition: _Inductive Types for Free -- Representing nested inductive types using W-types_, talk at ICALP (2004) &lbrack;[pdf](http://www.cs.nott.ac.uk/~txa/talks/icalp-slides.pdf)&rbrack;
+
+
 Discussion in relation to [[identity types]] and [[homotopy type theory]] is in
 
 * {#AwodeyGambinoSojakova12} [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory*, LICS'12: (2012) 95–104 &lbrack;[arXiv:1201.3898](http://arxiv.org/abs/1201.3898), [doi:10.1109/LICS.2012.21](https://doi.org/10.1109/LICS.2012.21), [Coq code](https://github.com/HoTT/HoTT/tree/master/Coq/IT)&rbrack;
