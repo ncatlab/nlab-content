@@ -54,7 +54,7 @@ see also ([Hacket 13, pp. 629 "Eckhart reception in the 19th century"](#Hacket13
 
 * {#Hacket13} Jeremiah Hackett, _A companion to Meister Eckhart_, 2013
 
-The YouTube channel Let's Talk Religion offers a discussion of Eckharts philosophy and of related his contemporaries related to him, like Ibn Arabi and Marguerite Porete
+The YouTube channel *Let's Talk Religion* offers a discussion of Eckharts philosophy and of contemporaries related to him, like Ibn Arabi and Marguerite Porete:
 
 * Let's Talk Religion, _Meister Eckhart & Christian Mysticism_. YouTube. [Video link](https://www.youtube.com/watch?v=Hg0c32KbA-g).
 
