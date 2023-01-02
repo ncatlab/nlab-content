@@ -136,9 +136,13 @@ The [[twisted differential c-structures]] corresponding to Pontryagin class incl
 
 The original definition is in
 
-* [[Л. С. Понтрягин]], _Характеристические циклы многообразий_, ДАН, XXXV, № 2 (1942). 
+* [[Л. С. Понтрягин]], _Характеристические циклы многообразий_, ДАН, XXXV, № 2 (1942), 35–39.
+English translation: _Characteristic Cycles of Manifolds_.  L. S. Pontryagin Selected Works.  Volume 1.  Selected Research Papers.  Edited by R. V. Gamkrelidze.  CRC Press, 1986.  283–287.  [doi](https://doi.org/10.1201/9780367813758).
 
-* [[Л. С. Понтрягин]], _Характеристические циклы дифференцируемых многообразий_, Матем. сб., 21(63):2 (1947), 233–284.  [MathNet.Ru PDF](http://mi.mathnet.ru/msb6237 ).  English translation: [[Lev Pontrjagin]], _Characteristic cycles on differentiable manifolds_, Mat. Sbornik N. S. 21(63) (1947), 233-284; A.M.S. Translation 32 (1950).
+* [[Л. С. Понтрягин]], _Характеристические циклы дифференцируемых многообразий_, Матем. сб., 21(63):2 (1947), 233–284.  [MathNet.Ru PDF](http://mi.mathnet.ru/msb6237 ).
+English translation by A. A. Brown: [[Lev Pontrjagin]], _Characteristic cycles on differentiable manifolds_, Mat. Sbornik N. S. 21(63) (1947), 233-284; A.M.S. Translation 32 (1950).  [PDF](https://www.maths.ed.ac.uk/~v1ranick/papers/pont4.pdf).
+English translation by P. S. V. Naidu:
+_Characteristic Cycles of Differentiable Manifolds_.  L. S. Pontryagin Selected Works.  Volume 1.  Selected Research Papers.  Edited by R. V. Gamkrelidze.  CRC Press, 1986.  375–433.  [doi](https://doi.org/10.1201/9780367813758).
 
 Early accounts:
 
