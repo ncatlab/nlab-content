@@ -31,9 +31,11 @@ A simple example of an inductive family is the type of vectors Vect n indexed by
 By the identification of [[propositions as types]], inductive families correspond to inductively defined predicates. For example, the [[identity type]] on a type A can be defined inductively by the reflexivity rule stipulating that a is identical to a for any a : A, that is, identity is the least reflexive relation. The identity family of types in intuitionistic type theory results from the identification of this relation with a family of types.
 
 ## History
+ {#History} 
+
 The inductively defined identity type was introduced by Martin-L&#246;f 1973 in his first published paper on Intuitionistic Type Theory.
 
-A general schema for inductive families in Intuitionistic Type Theory was defined in [Dybjer91](#Dybjer91), [Dybjer94](#Dybjer94). This general schema was based on Martin-L&#246;f's 1971 schema for inductive definitions in predicate logic. Simultaneously, [Coquand](#CoquandPaulin) and [Paulin](#Paulin93) extended the Calculus of Constructions with a similar schema for inductive families. This resulted in the [[calculus of inductive constructions]].
+A general schema for inductive families in Intuitionistic Type Theory was defined in [Dybjer91](#Dybjer91), [Dybjer94](#Dybjer94). This general schema was based on Martin-L&#246;f's 1971 schema for inductive definitions in predicate logic. Simultaneously, [Coquand & Paulin](#CoquandPaulin) and [Paulin](#Paulin93) extended the Calculus of Constructions with a similar schema for inductive families. This resulted in the [[calculus of inductive constructions]].
 
 [Dybjer](#Dybjer2000) and [Dybjer and Setzer](#DybjerSetzer2001) generalized this schema to inductive-recursive definitions, resulting in "indexed induction-recursion".
 
@@ -42,6 +44,7 @@ A general schema for inductive families in Intuitionistic Type Theory was define
 Inductive families are part of the axiomatic foundation in [[Coq]] and [[agda]]. However, [[Lean]] does not have fix-point expressions, match expressions, or a termination checker in the kernel. Instead, recursive definitions and pattern matching are compiled into eliminators outside of the kernel.
 
 ## Semantics
+
 Standard inductive types, [[W-types]] can be interpreted in any topos with [[natural numbers object]] (Moerdijk-Palmgren). Gambino and Hyland construct initial algebras for dependent [[polynomial functors]]. [Indexed containers](#AGHMM) are the same as dependent polynomial functors.
 [Indexed containers](#AGHMM) are claimed to form a foundation for inductive families.
 
@@ -64,15 +67,15 @@ The identity types of an indexed W-type are another indexed W-type.  This has be
 
 * [[Per Martin-Löf]], _An Intuitionistic Theory of Types: Predicative Part_, 1975, in Logic Colloquium 1973.
 
-* {#Dybjer91} [[Peter Dybjer]], _Inductive Families_  Formal aspects of computing 6 (4), 440-465 [PS](http://www.cse.chalmers.se/~peterd/papers/Inductive_Families.ps)
+* [[Peter Dybjer]], *Inductive families*, Formal Aspects of Computing **6** (1994) 440–465 &lbrack;[doi:10.1007/BF01211308](https://doi.org/10.1007/BF01211308), [doi:10.1007/BF01211308](https://doi.org/10.1007/BF01211308), [pdf](http://www.cse.chalmers.se/~peterd/papers/Inductive_Families.pdf)&rbrack;
 
-* [[Peter Dybjer]], *Inductive sets and families in Martin-L&#246;f's type theory and their set-theoretic semantics*, Logical frameworks (1991) 280-306 &lbrack;[doi:10.1017/CBO9780511569807.012](https://doi.org/10.1017/CBO9780511569807.012), [pdf](http://www.cse.chalmers.se/~peterd/papers/Setsem_Inductive.pdf)&rbrack; 
+* [[Peter Dybjer]], *Inductive sets and families in Martin-Löf's type theory and their set-theoretic semantics*, Logical frameworks (1991) 280-306 &lbrack;[doi:10.1017/CBO9780511569807.012](https://doi.org/10.1017/CBO9780511569807.012), [pdf](http://www.cse.chalmers.se/~peterd/papers/Setsem_Inductive.pdf)&rbrack; 
 
 * {#Dybjer2000} [[Peter Dybjer]], _A general formulation of simultaneous inductive-recursive definitions in type theory_, 2000, The Journal of Symbolic Logic 65 (02), 525-549
 
 * {#DybjerSetzer2001} [[Peter Dybjer]], Anton Setzer, _Indexed induction-recursion_, 2001 Proof Theory in Computer Science, 93-113
 
-* {#Paulin93} Christine Paulin-Mohring, _Inductive definitions in the system Coq rules and properties_, 1993 Typed lambda calculi and applications, 328-345.
+* {#Paulin93} [[Christine Paulin-Mohring]], _Inductive definitions in the system Coq rules and properties_, 1993 Typed lambda calculi and applications, 328-345.
 
 * {#CoquandPaulin} [[Thierry Coquand]], Christine Paulin, _Inductively defined types_, COLOG-88 Volume 417 of the series Lecture Notes in Computer Science pp 50-66 [Springer](http://link.springer.com/chapter/10.1007%2F3-540-52335-9_47)
 [G books](https://books.google.dk/books?id=o_f4UwiZtL0C&pg=PA50)
