@@ -102,7 +102,7 @@ $N$ lattice gauge theory_, Phys. Rev. D 27, 2397 (1983) ([doi:10.1103/PhysRevD.2
 
 The original articles on the BFSS matrix model:
 
-* {#BanksFischlerShenkerSusskind96} [[Tom Banks]], [[Willy Fischler]], [[Stephen Shenker]], [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_,  Phys. Rev. D55 (1997). ([arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043))
+* {#BanksFischlerShenkerSusskind96} [[Tom Banks]], [[Willy Fischler]], [[Stephen Shenker]], [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_,  Phys. Rev. D **55** (1997) &lbrack;[doi:10.1103/PhysRevD.55.5112](https://doi.org/10.1103/PhysRevD.55.5112), [arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043)&rbrack;
 
 * [[Leonard Susskind]], _Another Conjecture about M(atrix) Theory_ ([arXiv:hep-th/9704080](https://arxiv.org/abs/hep-th/9704080)) 
 
