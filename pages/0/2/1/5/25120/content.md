@@ -15,7 +15,8 @@
 ## Idea
  {#Idea}
 
-Generally, in the context of [[formal logic]] and [[type theory]], *higher-order abstract syntax* (HOAS) refers to equipping the data type of [[abstract syntax trees]] with [[quantifiers]] i.e. with [[higher-order logic]], whence the name.
+Generally, in the context of [[formal logic]] and [[type theory]], *higher-order abstract syntax* (HOAS) refers to equipping the data type of [[abstract syntax trees]] with 
+[[variable-binding operators]] (e.g. [[quantifiers]]) i.e. with [[higher-order logic]], whence the name.
 
 A specific approach &lbrack;[Pfenning & Elliot (1988)](#PfenningElliot88)&rbrack; considers formalizing [[languages]] supporting forms of [[name binding]] (such as function parameters or [[quantifiers]]) by using the meta-language [[function space]] rather than a more syntactic notion of [[bound variable]].
 
