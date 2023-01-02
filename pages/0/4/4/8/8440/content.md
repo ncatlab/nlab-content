@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[higher-order abstract syntax]]:
+
+* [[Frank Pfenning]], Conal Elliot, ACM SIGPLAN Notices **23** 7 (1988) 199–208 &lbrack;[doi;10.1145/960116.54010](https://doi.org/10.1145/960116.54010), [pdf](https://www.cs.cmu.edu/~fp/papers/pldi88.pdf)&rbrack;
+
 On [[linear logic]] and basics of [[type theory]]:
 
 * [[Frank Pfenning]], *Linear Logic*, lecture notes (1998) &lbrack;[pdf](https://www.cs.cmu.edu/~fp/courses/98-linear/handouts/notes.pdf), [webpage](https://www.cs.cmu.edu/~fp/courses/98-linear/handouts.html), [[Pfenning-LinearLogic98.pdf:file]]&rbrack;
