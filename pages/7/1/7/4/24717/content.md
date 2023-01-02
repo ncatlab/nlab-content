@@ -71,7 +71,7 @@ For this purpose, we impose a second condition: for each 'staircase path'
 A more concise way to express this second condition is in term of the so called induced Segal maps condition.
 
 
-Weakly globular double categories have been shown to be suitably equivalent to [[bicategory|bicategories]].
+Weakly globular double categories have been shown by Paoli and Pronk to be suitably equivalent to [[bicategory|bicategories]].
 
 In dimension $n\geq2$, a weakly globular $n$-fold category $X$ is an $n$-fold category which first of all needs to satisfy the weak globularity condition; namely those substructures that are discrete in the image of the embedding $n\text{-} Cat\hookrightarrow Cat^{n}$, are now instead only equivalent to sets. The precise notion we use for these substructures is the one of homotopically discrete $n$-fold categories. The latter are defined inductively, starting with equivalence relations in the case of $n=1$. When $n\geq1$, the idea of a homotopically discrete $n$-fold category is that it is an $n$-fold category suitably equivalent to a discrete one both 'globally' and in each simplicial dimension.
 
@@ -87,7 +87,7 @@ The definition of weakly globular $n$-fold category requires a preliminary notio
 \begin{definition}\label{def01}
 Let $Cat_{hd}^{0}=Set$. Suppose, inductively, we have defined the subcategory $Cat_{hd}^{n-1}\subset Cat^{n-1}$ of homotopically discrete $(n-1)$-fold categories. We say that the $n$-fold category $X\in Cat^{n}$ is homotopically discrete if:
 
-a) $X$ is a levelwise equivalence relation, that is for each $(k_1,\ldots,k_{n-1})\in\Delta^{{n-1}^{op}}$, $X_{k_1,\ldots,k_{n-1}}\in Cat$ is an [[equivalence relation|equivalence relation]] (or equivalently a category equivalent to a discrete one).
+a) $X$ is a levelwise equivalence relation, that is for each $(k_1,\ldots,k_{n-1})\in\Delta^{{n-1}^{op}}$, $X_{k_1,\ldots,k_{n-1}}\in Cat$ is an [[equivalence relation|equivalence relation]] (that is, a category equivalent to a discrete one).
 
 b) $p^{(n-1)}X\in Cat_{hd}^{n-1}$ where $(p^{(n-1)}X)_{k_1,\ldots,k_{n-1}}=p X_{k_1,\ldots,k_{n-1}}$ with $p: Cat\rightarrow  Set$ the [[isomorphism class|isomorphism classes of objects]] functor.
 
@@ -120,7 +120,7 @@ $X(a,b)\in Cat_{hd}^{n-1}$ should be thought of as a hom-$(n-1)$-category.
 \end{definition}
 
 \begin{definition}\label{def04}
-Define inductively $n$-equivalences in $Cat_{hd}^{n}$. For $n=1$, a 1-equival\-ence is an [[equivalence of categories|equivalence of categories]]. Suppose we have defined $(n-1)$-equival\-ences in $Cat_{hd}^{n-1}$. Then a map $f:X\rightarrow  Y$ in $Cat_{hd}^{n}$ is an $n$-equivalence if
+Define inductively $n$-equivalences in $Cat_{hd}^{n}$. For $n=1$, a 1-equivalence is an [[equivalence of categories|equivalence of categories]]. Suppose we have defined $(n-1)$-equivalences in $Cat_{hd}^{n-1}$. Then a map $f:X\rightarrow  Y$ in $Cat_{hd}^{n}$ is an $n$-equivalence if
 
 
 a) For all $a,b \in X_0^d$,
@@ -338,9 +338,9 @@ $$
 $$
 induce an equivalence of categories
 $$
-  GCat_{wg}^{n}/\!\!\sim^{n}\,\simeq \,\mathcal{H}!o(n\text{-types})\;.
+  GCat_{wg}^{n}/\!\!\sim^{n}\,\simeq \,\mathcal{H}\!o(n\text{-types})\;.
 $$
-where $\mathcal{H}!o(n\text{-types})$ is the [[homotopy category|homotopy category]] of $n\text{-types}$.
+where $\mathcal{H}\!o(n\text{-types})$ is the [[homotopy category|homotopy category]] of $n\text{-types}$.
 \end{theorem}
 
 ## References
@@ -367,9 +367,9 @@ The groupoidal case of weakly globular $n$-fold structures started in
 
 * [[David Blanc|D. Blanc]] and S. Paoli. Segal-type algebraic models of $n$-types. _Algebr. Geom. Topol._, 14:3419–3491, 2014.
 
-An even earlier precursor in the groupoidal case, restricted to modelling path connected $n$-types and related to the $cat_n$-groups model, can be found in
+An even earlier precursor in the groupoidal case, restricted to modelling path connected $n$-types and related to the [[cat-n-group|$cat_n$-groups]] model, can be found in
 
-* S. Paoli. Weakly globular [[cat-n-group|$cat_n$-groups]] and Tamsamani’s model. _Adv. in Math._, 222:621–727, 2009.
+* S. Paoli. Weakly globular $cat_n$-groups and Tamsamani’s model. _Adv. in Math._, 222:621–727, 2009.
 
 [[!redirects weakly globular n-fold categories]]
 
