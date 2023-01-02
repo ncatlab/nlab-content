@@ -37,6 +37,8 @@ Higher-order logic in general could be thought of as a [[first order theory]] wi
 
 * [[higher-order set theory]]
 
+* [[higher-order abstract syntax]]
+
 * [[dependent type theory]]
 
 * [[tripos]]
