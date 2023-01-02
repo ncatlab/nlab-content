@@ -54,13 +54,22 @@ All of the other standard [[type formation|type formations]] are subsumed by the
 
 ## References
 
-Original articles include
+Original articles:
 
-*  [[Thierry Coquand]], [[Gérard Huet]], _The Calculus of Constructions_ ([inria](http://hal.inria.fr/inria-00076024/en/), [pdf](http://hal.inria.fr/docs/00/07/60/24/PDF/RR-0530.pdf))
+*  [[Thierry Coquand]], [[Gérard Huet]], _The Calculus of Constructions_, INRIA Rapport **530** (1986) &lbrack;[inria:00076024](http://hal.inria.fr/inria-00076024/en/), [pdf](http://hal.inria.fr/docs/00/07/60/24/PDF/RR-0530.pdf)&rbrack;
 
-* M. Bunder, [[Jonathan Seldin]], _Variants of the basic calculus of constructions_ ([Cite Seer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.88.9497))
+* [[Christine Paulin-Mohring]], *Inductive definitions in the system Coq rules and properties*, in: *Typed Lambda Calculi and Applications* TLCA 1993, Lecture Notes in Computer Science **664** Springer (1993) &lbrack;[doi:10.1007/BFb0037116](https://doi.org/10.1007/BFb0037116)&rbrack;
 
-Surveys include
+  > (adding [[inductive types]])
+
+
+Surveys:
+
+* M. Bunder, [[Jonathan Seldin]], *Variants of the basic calculus of constructions*, Journal of Applied Logic
+**2** 2 (2004) 191-217 &lbrack;[doi:10.1016/j.jal.2004.02.004](https://doi.org/10.1016/j.jal.2004.02.004)&rbrack;
+
+   
+
 
 * Frade, _Calculus of inductive constructions_ ([pdf](http://www3.di.uminho.pt/~mjf/pub/SFV-CIC-2up.pdf))
 
