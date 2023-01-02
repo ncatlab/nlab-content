@@ -5,7 +5,7 @@
 
 ## Definition
 
-A __Yetter--Drinfeld module__ over a $k$-[[bialgebra]] $B=(B,\Delta,\epsilon)$, (with [[Sweedler notation]] $\Delta(b) = \sum b_{(1)}\otimes b_{(2)}$), is a $k$-module which is simultaneously a $B$-module and a $B$-[[comodule]] with certain compatibility between the $B$-action and $B$-coaction. 
+A __Yetter--Drinfeld module__ over a $k$-[[bialgebra]] $B=(B,\Delta,\epsilon)$, (with [[Sweedler notation]] $\Delta(b) = \sum b_{(1)}\otimes b_{(2)}$), is a $k$-module which is simultaneously a $B$-module and a $B$-[[comodule]] with certain compatibility -- also called Yetter-Drinfeld condition -- between the $B$-action and $B$-coaction. 
 
 +-- {: .un_defn}
 ###### Compatibility for left-right YD Modules
@@ -67,14 +67,27 @@ $B$-comodules.
 The _category of left-right YD modules_ over a bialgebra $B$ is denoted by ${}_B \mathcal{Y D}^B$; the category is rarely alternatively called the (left-right) Yetter--Drinfeld category
 and it can be presented as the category of entwined modules for certain  special entwining structure. 
 
-${}_B \mathcal{Y D}^B$ is a monoidal category equipped 
+${}_B \mathcal{Y D}^B$ is a monoidal category: if $V$ and $W$ are left-right YD modules, $V\otimes W$ is the tensor product of underlying vector spaces equipped with left $B$-action
+$$
+b\blacktriangleright (v\otimes w) = (b_{(1)}\blacktriangleright v)\otimes (b_{(2)}\blacktriangleright w)
+$$
+and right $B$-coaction
+$$
+v\otimes w\mapsto v_{[0]}\otimes w_{[0]}\otimes w_{[1]}v_{[1]}
+$$
+Note the order within the rightmost tensor factor! One checks directly that this tensor product indeed satisfies the Yetter-Drinfeld condition.
+Radford and Towber prefer slightly different monoidal structure: in above formulas use the opposite product and coopposite coproduct on $B$. (They mention, however, both structures.)
+
+Monoidal category ${}_B \mathcal{Y D}^B$ is equipped 
 with "pre-braiding" morphisms
 $$ 
 R_{V,W}: V\otimes W\to W\otimes V,\,\,\,\,\,\,\,\,
-v\otimes w\mapsto w_{(2)}v\otimes w_{(1)}
+v\otimes w\mapsto w_{[0]} \otimes (w_{[1]}\blacktriangleright v).
 $$
-Prebraidings satisfy all conditions for a [[braided monoidal category|braiding]] except for invertibility,
-which is fullfilled iff $B$ is a Hopf algebra. 
+In Radford-Towber convention the pre-braiding is $v\otimes w\mapsto (v_{[1]}\blacktriangleright w)\otimes v_{[0]}$.
+Prebraidings satisfy all conditions for a [[braided monoidal category|braiding]] except for invertibility
+of $R_{V,W}$
+which is fullfilled for all $V,W$ iff $B$ is a Hopf algebra. $R_{V,W}$ is always fullfilled if both $V$ and $W$ are finite dimensional. In particular, $R_{V,V}$ satisfies the Yang-Baxter equation.
 If $A$ is a commutative algebra in
 ${}_B\mathcal{Y D}^B$ then the [[smash product algebra]] $A\sharp B$
 is an associative [[bialgebroid]], said to be the extension of scalars
@@ -93,12 +106,33 @@ it inherits a Hopf algebroid structure.
 
 ## Yetter-Drinfeld module algebras
 
-Let us consider monoids in ${}_H\mathcal{Y D}^H$.
+A __left-right Yetter-Drinfeld module algebra__ is a monoid $(A,\mu)$ in ${}_B\mathcal{Y D}^B$. Let its multiplication map be denoted $\mu:a\otimes c\mapsto a\cdot c$. Let us unwind the requirements that $\mu:A\otimes A\to A$ is a morphism in ${}_B\mathcal{Y D}^B$.
 
+Requirement that $\mu$ is a map of $B$-modules is, for $a,c\in A$
+$$
+b\blacktriangleright (a\cdot c) = (b_{(1)}\blacktriangleright a)\cdot (b_{(2)}\blacktriangleright c),
+$$
+which, together with compatibility of unit $b\blacktriangleright 1 = \epsilon(b) 1$, means that the action is Hopf ($A$ is a left $B$-module algebra).
+Requirement that $\mu$ is a map of $B$-comodules is
+$$\rho\circ\mu = (\mu\otimes id)\rho_{A\otimes A}$$
+$$
+\rho(a\cdot c)
+= (\mu\otimes id)(a_{[0]}\otimes c_{[0]}\otimes c_{[1]} a_{[1]})
+= a_{[0]}\cdot c_{[0]}\otimes c_{[1]} a_{[1]},
+$$
+that is (along with the counit condition), $A$ is right $B^\op$-comodule algebra.
+A left-right Yetter-Drinfeld module algebra $A$ is __braided-commutative__ if
+$$
+\mu\circ R_{A,A} = \mu.
+$$
+In explicit terms, for all $a,c\in A$,
+$$
+c_{[0]}\cdot (c_{[1]}\blacktriangleright a) = a\cdot c.
+$$
 
 ## Anti Yetter--Drinfeld modules
 
-The most general coefficients for Hopf cyclic cohomology is called stable-anti-Yetter--Drinfled modules. These kind of modules appeared for the first time  in  different name  in B. Rangipour's PhD thesis under supervision of M. Khalkhali. Later on it was generalized by 
+The most general coefficients for Hopf cyclic cohomology are called stable anti-Yetter-Drinfeld modules. These kind of modules appeared for the first time  in  different name  in B. Rangipour's PhD thesis under supervision of M. Khalkhali. Later on it was generalized by 
 P.M. Hajac, M. Khalkhali, B. Rangipour, and Y. Sommerhaeuser. The category of AYD modules is not monodical but product of an AYD module   with a YD module results in an AYD module.  By the work of Rangipour--Sutlu one knows that there is such category over Lie algebras and there is a one-to-one correspondence between AYD modules over a Lie algebra and those over the universal enveloping algebra of the Lie algebra. This correspondence is extended by the same authors for bicrossed product Hopf algebras. 
 The true  meaning of the AYD modules in non commutative geometry is not known yet. There are some  attempts by   A. Kaygun--M. Khalkhali to relate them to the curvature of flat  connections similar to the work of T. Brzezi&#324;ski on YD modules, however their identification   are not restricted to AYD and  works for a wide variety of YD type modules. 
 
@@ -108,28 +142,28 @@ The true  meaning of the AYD modules in non commutative geometry is not known ye
 * Susan Montgomery, _Hopf algebras and their actions on rings_, 
 CBMS Lecture Notes __82__, AMS 1993, 240p.
 
-* A.M. Semikhatov, _Yetter--Drinfeld structures on Heisenberg doubles and chains_, [arXiv:0908.3105](http://arxiv.org/abs/0908.3105)
+* A.M. Semikhatov, _Yetter--Drinfeld structures on Heisenberg doubles and chains_, [arXiv:0908.3105](https://arxiv.org/abs/0908.3105)
 
 * wikipedia [Yetter--Drinfeld category](http://en.wikipedia.org/wiki/Yetter%E2%80%93Drinfeld_category)
 
 * Peter Schauenburg, _Hopf Modules and Yetter--Drinfel&#8242;d Modules_,
-Journal of Algebra __169__:3 (1994) 874--890 [doi](http://dx.doi.org/10.1006/jabr.1994.1314); _Hopf modules and the double of a quasi-Hopf algebra_, Trans. Amer. Math. Soc. 354 (2002), 3349--3378 [doi](http://dx.doi.org/10.1090/S0002-9947-02-02980-X) [pdf](http://www.ams.org/journals/tran/2002-354-08/S0002-9947-02-02980-X/S0002-9947-02-02980-X.pdf); _Actions of monoidal categories, and generalized Hopf smash products_, Journal of Algebra __270__ (2003) 521--563, [doi](http://dx.doi.org/10.1016/S0021-8693%2803%2900403-4) [ps](http://www.mathematik.uni-muenchen.de/%7Eschauen/papers/amcghsp.ps)
+Journal of Algebra __169__:3 (1994) 874--890 [doi](https://doi.org/10.1006/jabr.1994.1314); _Hopf modules and the double of a quasi-Hopf algebra_, Trans. Amer. Math. Soc. 354 (2002), 3349--3378 [doi](https://doi.org/10.1090/S0002-9947-02-02980-X) [pdf](http://www.ams.org/journals/tran/2002-354-08/S0002-9947-02-02980-X/S0002-9947-02-02980-X.pdf); _Actions of monoidal categories, and generalized Hopf smash products_, Journal of Algebra __270__ (2003) 521--563, [doi](http://dx.doi.org/10.1016/S0021-8693%2803%2900403-4) [ps](http://www.mathematik.uni-muenchen.de/%7Eschauen/papers/amcghsp.ps)
 
 * V. G. Drinfel'd, _Quantum groups_, Proceedings of the International Congress of Mathematicians 1986, Vol. 1, 798--820, AMS 1987, [djvu:1.3M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.djvu), [pdf:2.5M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.pdf)
 
 * David N. Yetter, _Quantum groups and representations of monoidal categories_, 
-Math. Proc. Cambridge Philos. Soc. 108 (1990), no. 2, 261--290 [MR91k:16028](http://www.ams.org/mathscinet-getitem?mr=1074714) [doi](http://dx.doi.org/10.1017/S0305004100069139)
+Math. Proc. Cambridge Philos. Soc. 108 (1990), no. 2, 261--290 [MR91k:16028](https://www.ams.org/mathscinet-getitem?mr=1074714) [doi](http://dx.doi.org/10.1017/S0305004100069139)
 
 * [[Gabriella Bohm|Gabriella B&#246;hm]], Dragos Stefan, _(Co)cyclic (co)homology of bialgebroids: An approach via (co)monads_, Comm. Math. Phys. 282 (2008), no.1, 239--286, [arxiv/0705.3190](http://arxiv.org/abs/0705.3190); _A categorical approach to cyclic duality_, J. Noncommutative Geometry __6__ (2012), no. 3, 481--538, [arxiv/0910.4622](http://arxiv.org/abs/0910.4622) 
 
 * Atabey Kaygun, Masoud Khalkhali, _Hopf modules and noncommutative differential geometry_, Lett. in Math. Physics __76:1__, pp 77--91 (2006) [arxiv/math.QA/0512031](http://arxiv.org/abs/math/0512031), [doi](http://dx.doi.org/10.1007/s11005-006-0062-x)
 
-* [[T. Brzeziński]], _Flat connections and (co)modules_, [in:] New Techniques in Hopf Algebras and Graded Ring Theory, S Caenepeel and F Van Oystaeyen (eds), Universa Press, Wetteren, 2007 pp. 35--52   [arxiv:math.QA/0608170](http://arxiv.org/abs/math.QA/0608170)
+* [[T. Brzeziński]], _Flat connections and (co)modules_, [in:] New Techniques in Hopf Algebras and Graded Ring Theory, S Caenepeel and F Van Oystaeyen (eds), Universa Press, Wetteren, 2007 pp. 35--52   [arXiv:math.QA/0608170](https://arxiv.org/abs/math.QA/0608170)
 
-* P.M. Hajac, M. Khalkhali, B. Rangipour, Y. Sommerhaeuser, _Hopf-cyclic homology and cohomology with coefficients_, C. R. Math. Acad. Sci. Paris __338__(9), 667--672 (2004) [math.KT/0306288](http://arxiv.org/abs/math/0306288); _Stable anti-Yetter--Drinfeld modules_. C. R. Math Acad. Sci. Paris __338__(8), 587--590 (2004)
+* P.M. Hajac, M. Khalkhali, B. Rangipour, Y. Sommerhaeuser, _Hopf-cyclic homology and cohomology with coefficients_, C. R. Math. Acad. Sci. Paris __338__(9), 667--672 (2004) [math.KT/0306288](https://arxiv.org/abs/math/0306288); _Stable anti-Yetter--Drinfeld modules_. C. R. Math Acad. Sci. Paris __338__(8), 587--590 (2004)
 
-* B. Rangipour, Serkan S&#252;tl&#252;, _Characteristic classes of foliations via SAYD-twisted cocycles_, [arxiv/1210.5969](http://arxiv.org/abs/1210.5969);
-_SAYD modules over Lie--Hopf algebras_, [http://arxiv.org/abs/1108.6101](http://arxiv.org/abs/1108.6101); _Cyclic cohomology of Lie algebras_, [arxiv:1108.2806](http://arxiv.org/abs/1108.2806)
+* B. Rangipour, Serkan S&#252;tl&#252;, _Characteristic classes of foliations via SAYD-twisted cocycles_, [arXiv:1210.5969](https://arxiv.org/abs/1210.5969);
+_SAYD modules over Lie--Hopf algebras_, [arXiv:1108.6101](https://arXiv.org/abs/1108.6101); _Cyclic cohomology of Lie algebras_, [arXiv:1108.2806](https://arxiv.org/abs/1108.2806)
 
 * Florin Panaite, Mihai D. Staic, _Generalized (anti) Yetter--Drinfeld modules as components of a braided T-category_, arXiv:[math.QA/0503413](https://arxiv.org/abs/math/0503413) 
 
