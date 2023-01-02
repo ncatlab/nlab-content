@@ -15,7 +15,9 @@
 
 ## Idea
 
-Classically, a __truth value__ is either $\top$ (True) or $\bot$ (False). (In [[constructive mathematics]], this is not so simple, although it still holds that any truth value that is not true is false.)
+[[classical mathematics|Classically]], a __truth value__ is either $\top$ ([[true]]) or $\bot$ ([[false]]), hence an [[element]] of the [[boolean domain]].
+
+(In [[constructive mathematics]], this is not so simple, although it still holds that any truth value that is not true is false.)
 
 More generally, a __truth value__ in a [[topos]] $T$ is a morphism $1 \to \Omega$ (where $1$ is the [[terminal object]] and $\Omega$ is the [[subobject classifier]]) in $T$.  By definition of $\Omega$, this is equivalent to an (equivalence class of) monomorphisms $U\hookrightarrow 1$.  In a [[two-valued topos]], it is again true that every truth value is either $\top$ or $\bottom$, while in a [[Boolean topos]] this is true in the [[internal logic]].
 
@@ -29,6 +31,8 @@ A truth value may be interpreted as a $0$-[[0-poset|poset]] or as a $(-1)$-[[(-1
 
 
 ## Related concepts
+
+* [[boolean domain]]
 
 * [[bit]], [[qbit]]
 
@@ -50,10 +54,4 @@ A truth value may be interpreted as a $0$-[[0-poset|poset]] or as a $(-1)$-[[(-1
 [[!redirects poset of truth values]]
 [[!redirects lattice of truth values]]
 [[!redirects algebra of truth values]]
-
-[[!redirects boolean]]
-[[!redirects booleans]]
-
-[[!redirects Boolean]]
-[[!redirects Booleans]]
 
