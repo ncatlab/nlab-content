@@ -652,16 +652,16 @@ Surveys of and introductions:
 
 * {#MartinLoef96} [[Per Martin-Löf]], *On the Meanings of the Logical Constants and the Justifications of the Logical Laws*, Nordic Journal of Philosophical Logic, **1** 1 (1996) 11-60 &lbrack;[pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf), [[MartinLofOnTheMeaning96.pdf:file]]&rbrack;
 
-* Rober Constable, _The Triumph of Types: Creating a Logic of
-Computational Reality_ ([[ConstableTriumphOfTypes.pdf:file]])
 
-* Herman Geuvers, _Introduction to type theory_, Lecture notes 2008  ([pdf](http://www.cs.ru.nl/~herman/PUBS/IntroTT-improved.pdf))
+* Herman Geuvers, _Introduction to type theory_, Lecture notes (2008)  &lbrack;[pdf](http://www.cs.ru.nl/~herman/PUBS/IntroTT-improved.pdf)&rbrack;
 
 * N. G. de Bruijn, _On the roles of types in mathematics_, Cahier du Centre de Logique (vol 8) ([pdf](http://alexandria.tue.nl/repository/freearticles/597627.pdf))
 
 * [[Bart Jacobs]], _Categorical Logic and Type Theory_, Studies in Logic and the Foundations of Mathematics 141, North Holland, Elsevier (1999) 
 
   _Categorical Type Theory_ PhD. Thesis, University of Nijmegen (1991) ([ps](http://www.cs.ru.nl/B.Jacobs/PAPERS/PhD.ps) [[JacobsCategoricalTypeTheory.pdf:file]])
+
+* [[Robert Constable]], *The Triumph of Types: Creating a Logic of Computational Reality*, lecture at *[Types, Semantics and Verification](http://www.cs.uoregon.edu/research/summerschool/summer11/)*, Oregon (2011) &lbrack;[pdf](http://www.cs.uoregon.edu/research/summerschool/summer11/lectures/Triumph-of-Types-Extended.pdf), [[ConstableTriumphOfTypes.pdf:file]]&rbrack;
 
 * {#Bauer17} [[Andrej Bauer]], _Spartan Type Theory_, UniMath School, 2017 ([pdf](http://math.andrej.com/wp-content/uploads/2017/12/Spartan-Type-Theory.pdf))
 
