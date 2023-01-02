@@ -91,6 +91,11 @@ This has the possibility of leading to computations, by applying [[van Kampen th
 
 ## References
 
+
+* {#Spanier66} [[Edwin Spanier]], p. 25 & §8 of:  _Algebraic topology_, McGraw Hill (1966), Springer (1982) &lbrack;[doi:10.1007/978-1-4684-9322-1](https://link.springer.com/book/10.1007/978-1-4684-9322-1)&rbrack;
+
+* [[Hans J. Baues]], *[[Homotopy Types]]* &lbrack;[pdf](https://archive.mpim-bonn.mpg.de/id/eprint/2171/1/preprint_1994_88.pdf), [[Baues-HomotopyTypes.pdf:file]]&rbrack;, in: [[Ioan Mackenzie James|I. M. James]] (ed.),  *[[Handbook of Algebraic Topology]]*, North Holland (1995) 1-72 &lbrack;[ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2), [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7)&rbrack;
+
 Discussion in [[homotopy type theory]]:
 
 * [[Univalent Foundations Project]], §7 of: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
