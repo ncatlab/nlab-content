@@ -62,14 +62,20 @@ $$
 
 ## The category of Yetter--Drinfeld modules
 
-The _category of left-right YD modules_, i.e. Yetter--Drinfeld modules which are left $B$-modules and
-right $B$-comodules, is denoted by ${}_B \mathcal{Y D}^B$; the category is rarely alternatively called the (left-right) Yetter--Drinfeld category
+Morphisms of YD $B$-modules are morphisms of underlying $B$-modules which are also the morphisms of underlying
+$B$-comodules.
+The _category of left-right YD modules_ over a bialgebra $B$ is denoted by ${}_B \mathcal{Y D}^B$; the category is rarely alternatively called the (left-right) Yetter--Drinfeld category
 and it can be presented as the category of entwined modules for certain  special entwining structure. 
 
 ${}_B \mathcal{Y D}^B$ is a monoidal category equipped 
-with "pre-braiding" morphisms, which make it into a 
-[[braided monoidal category]] iff $B$ is a Hopf
-algebra with a bijective antipode. If $A$ is a commutative algebra in
+with "pre-braiding" morphisms
+$$ 
+R_{V,W}: V\otimes W\to W\otimes V,\,\,\,\,\,\,\,\,
+v\otimes w\mapsto w_{(2)}v\otimes w_{(1)}
+$$
+Prebraidings satisfy all conditions for a [[braided monoidal category|braiding]] except for invertibility,
+which is fullfilled iff $B$ is a Hopf algebra. 
+If $A$ is a commutative algebra in
 ${}_B\mathcal{Y D}^B$ then the [[smash product algebra]] $A\sharp B$
 is an associative [[bialgebroid]], said to be the extension of scalars
 from the bialgebra $B$ along $k\hookrightarrow A$. If $B=H$ 
@@ -84,6 +90,10 @@ The commutative algebras in the center of a monoidal category, play
 role in the [[dynamical extension of a monoidal category]]. Hence the commutative algebras in ${}_H\mathcal{Y D}^H$ provide such examples. An important example, is the dual $H^*$ when $H$ is finite-dimensional. 
 The smash product algebra is in that case the [[Heisenberg double]], hence 
 it inherits a Hopf algebroid structure. 
+
+## Yetter-Drinfeld module algebras
+
+Let us consider monoids in ${}_H\mathcal{Y D}^H$.
 
 
 ## Anti Yetter--Drinfeld modules
@@ -119,31 +129,33 @@ Math. Proc. Cambridge Philos. Soc. 108 (1990), no. 2, 261--290 [MR91k:16028](htt
 * P.M. Hajac, M. Khalkhali, B. Rangipour, Y. Sommerhaeuser, _Hopf-cyclic homology and cohomology with coefficients_, C. R. Math. Acad. Sci. Paris __338__(9), 667--672 (2004) [math.KT/0306288](http://arxiv.org/abs/math/0306288); _Stable anti-Yetter--Drinfeld modules_. C. R. Math Acad. Sci. Paris __338__(8), 587--590 (2004)
 
 * B. Rangipour, Serkan S&#252;tl&#252;, _Characteristic classes of foliations via SAYD-twisted cocycles_, [arxiv/1210.5969](http://arxiv.org/abs/1210.5969);
-_SAYD modules over Lie--Hopf algebras_, [http://arxiv.org/abs/1108.6101](http://arxiv.org/abs/1108.6101); _Cyclic cohomology of Lie algebras_, [arxiv/1108.2806](http://arxiv.org/abs/1108.2806)
+_SAYD modules over Lie--Hopf algebras_, [http://arxiv.org/abs/1108.6101](http://arxiv.org/abs/1108.6101); _Cyclic cohomology of Lie algebras_, [arxiv:1108.2806](http://arxiv.org/abs/1108.2806)
 
-* Florin Panaite, Mihai D. Staic, _Generalized (anti) Yetter--Drinfeld modules as components of a braided T-category_, [math.QA/0503413](http://arxiv.org/abs/math/0503413) 
+* Florin Panaite, Mihai D. Staic, _Generalized (anti) Yetter--Drinfeld modules as components of a braided T-category_, arXiv:[math.QA/0503413](https://arxiv.org/abs/math/0503413) 
 
-* D. Bulacu, S. Caenepeel, F. Panaite, _Doi--Hopf modules and Yetter--Drinfeld categories for quasi-Hopf algebras_, Communications in Algebra, 34 (9), 3413--3449 (2006) [math.QA/0311379](http://arxiv.org/abs/math/0311379)
+* D. Bulacu, S. Caenepeel, F. Panaite, _Doi--Hopf modules and Yetter--Drinfeld categories for quasi-Hopf algebras_, Communications in Algebra, 34 (9), 3413--3449 (2006) [math.QA/0311379](https://arxiv.org/abs/math/0311379)
 
-* Florin Panaite, Dragos Stefan, _Deformation cohomology for Yetter--Drinfel'd modules and Hopf (bi)modules_, [math.QA/0006048](http://arxiv.org/abs/math/0006048)
+* Florin Panaite, Dragos Stefan, _Deformation cohomology for Yetter--Drinfel'd modules and Hopf (bi)modules_, [math.QA/0006048](https://arxiv.org/abs/math/0006048)
 
-* Nicol&#225;s Andruskiewitsch, Istv&#225;n Heckenberger, Hans-J&#252;rgen Schneider, _The Nichols algebra of a semisimple Yetter--Drinfeld module_,  American J. of Math. __132__:6, (2010) 1493--1547 [doi](http://dx.doi.org/10.1353/ajm.2010.0019)
+* Nicol&#225;s Andruskiewitsch, Istv&#225;n Heckenberger, Hans-J&#252;rgen Schneider, _The Nichols algebra of a semisimple Yetter--Drinfeld module_,  American J. of Math. __132__:6, (2010) 1493--1547 [doi](https://doi.org/10.1353/ajm.2010.0019)
 
 * M. Cohen, D. Fischman, S. Montgomery, _On Yetter&#8211;Drinfeld categories and $H$-commutativity_, Commun. Algebra __27__ (1999) 1321--1345
 
-* Yukio Doi, _Hopf modules in Yetter--Drinfeld categories_, Commun. Alg. __26__:9, 3057--3070 (1998) [doi](http://dx.doi.org/10.1080/00927879808826327)
+* Yukio Doi, _Hopf modules in Yetter--Drinfeld categories_, Commun. Alg. __26__:9, 3057--3070 (1998) [doi](https://doi.org/10.1080/00927879808826327)
 
-* I. Heckenberger, H.-J. Schneider, _Yetter--Drinfeld modules over bosonizations of dually paired Hopf algebras_, [arxiv/1111.4673](http://arxiv.org/abs/1111.4673)
+* I. Heckenberger, H.-J. Schneider, _Yetter--Drinfeld modules over bosonizations of dually paired Hopf algebras_, [arXiv:1111.4673](https://arxiv.org/abs/1111.4673)
 
 * V. Ulm, _Actions of Hopf algebras in categories of Yetter--Drinfeld modules_, Comm. Alg. __31__:6, 2719--2743
 
-* D.E. Radford, J. Towber, _Yetter--Drinfel'd categories associated to an arbitrary bialgebra_, J. Pure Appl. Algebra __87__ (1993), 259--279 [MR94f:16060](http://www.ams.org/mathscinet-getitem?mr=1228157) [doi](http://dx.doi.org/10.1016/0022-4049%2893%2990114-9)
+* L. A. Lambe, D. E. Radford, Algebraic aspects of the quantum Yang–Baxter equation, J. Algebra 154 (1992) 228--288 [doi](https://doi.org/10.1006/jabr.1993.1014)
 
-* Georgia Benkart, Mariana Pereira, Sarah Witherspoon, _Yetter--Drinfeld modules under cocycle twists_, [arxiv/0908.1563](http://arxiv.org/abs/0908.1563)
+* D.E. Radford, J. Towber, _Yetter--Drinfel'd categories associated to an arbitrary bialgebra_, J. Pure Appl. Algebra __87__ (1993), 259--279 [MR94f:16060](http://www.ams.org/mathscinet-getitem?mr=1228157) [doi](https://doi.org/10.1016/0022-4049%2893%2990114-9)
 
-* [[Shahn Majid]], Robert Oeckl, _Twisting of quantum differentials and
-the Planck scale Hopf algebra_, Commun. Math. Phys. __205__, 617--655 (1999)
+* [[Georgia Benkart]], Mariana Pereira, Sarah Witherspoon, _Yetter--Drinfeld modules under cocycle twists_, J. Algebra 324:11 (2010) 2990--3006 [arxiv:0908.1563](https://arxiv.org/abs/0908.1563)
 
+* [[Shahn Majid]], Robert Oeckl, _Twisting of quantum differentials and the Planck scale Hopf algebra_, Commun. Math. Phys. __205__, 617--655 (1999)
+
+category: algebra
 
 [[!redirects Yetter-Drinfeld module]]
 [[!redirects Yetter-Drinfeld modules]]
