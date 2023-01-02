@@ -30,9 +30,13 @@ On [[membranes]] in [[D=4 supergravity]] ([[super 2-brane in 4d]]):
 
 * [[Igor Bandos]], [[Fotis Farakos]] Stefano Lanza, L. Martucci,  [[Dmitri Sorokin]], _Higher Forms and Membranes in 4D Supergravities_, in: Proceedings of _[[Higher Structures in M-Theory 2018]]_, Fortschritte der Physik, Special Issue Volume 67, Issue 8-9 ([arXiv:1903.02841](https://arxiv.org/abs/1903.02841), [doi:10.1002/prop.201910020](https://doi.org/10.1002/prop.201910020))
 
+Proposal for a non-abelian and [[supersymmetry|supersymmetric]] [[DBI-action]] for [[coincident brane|coincident]] [[D0-branes]]:
 
+* [[Igor Bandos]], Unai D. M. Sarraga, *Complete nonlinear action for supersymmetric multiple D0-brane system*, Phys. Rev. D **106** (2022) 066004 &lbrack;[doi:10.1103/PhysRevD.106.066004](https://doi.org/10.1103/PhysRevD.106.066004), [arXiv:2204.05973](https://arxiv.org/abs/2204.05973)&rbrack;
 
-## Related $n$Lab pages
+* [[Igor Bandos]], Unai D. M. Sarraga, *Properties of multiple D0-brane system: 11D origin, equations of motion and their solutions* &lbrack;[arXiv:2212.14829](https://arxiv.org/abs/2212.14829)&rbrack;
+
+## Related entries
 
 * [[M5-brane]]
 
