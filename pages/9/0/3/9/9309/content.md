@@ -646,6 +646,15 @@ On [[KK-compactification]] of the non-abelian DBI-action from 10d to 4d:
 
 * Yoshihiko Abe, Tetsutaro Higaki, Tatsuo Kobayashi, Shintaro Takada, Rei Takahashi, *4D effective action from non-Abelian DBI action with magnetic flux background* ([arXiv:2107.11961](https://arxiv.org/abs/2107.11961))
 
+Proposals for non-abelian and [[supersymmetry|supersymmetric]] DBI-actions for [[D0-branes]]:
+
+* Sudhakar Panda, [[Dmitri Sorokin]], *Supersymmetric and Kappa-invariant Coincident D0-Branes*, 	JHEP 0302 (2003) 055 &lbrack;[arXivLhep-th/0301065](https://arxiv.org/abs/hep-th/0301065), [doi:10.1088/1126-6708/2003/02/055](https://doi.org/10.1088/1126-6708/2003/02/055)&rbrack;
+
+* [[Igor Bandos]], Unai D. M. Sarraga, *Complete nonlinear action for supersymmetric multiple D0-brane system*, Phys. Rev. D **106** (2022) 066004 &lbrack;[doi:10.1103/PhysRevD.106.066004](https://doi.org/10.1103/PhysRevD.106.066004), [arXiv:2204.05973](https://arxiv.org/abs/2204.05973)&rbrack;
+
+* [[Igor Bandos]], Unai D. M. Sarraga, *Properties of multiple D0-brane system: 11D origin, equations of motion and their solutions* &lbrack;[arXiv:2212.14829](https://arxiv.org/abs/2212.14829)&rbrack;
+
+
 
 
 ### On flavor branes for holographic QCD
