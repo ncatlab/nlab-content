@@ -148,6 +148,8 @@ The [[type of natural numbers]] $\mathbb{N}$ is the [[inductive type]] defined a
      }
    $$
 
+(In the last line, "$=$" denotes [[judgemental equality]].)
+
 =--
 
 See for instance [Martin-Löf (1984)](#Martin-Löf84), [pp. 38](/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=44); [Pfenning (2009, §2)](#Pfenning); [Söhnen (2018, §2.4.5)](#Söhnen18).
