@@ -1,4 +1,76 @@
 
+
+**[[type formation rule]]**
+
+$$
+  \frac{
+  }{
+    Bit \,\colon\, Type
+  }
+$$
+
+\linebreak
+
+**[[term introduction rule]]**
+
+$$
+  \frac{ 
+  }{
+    0 \,\colon\, Bit
+  }
+  \;\;\;\;\;
+  \frac{ 
+  }{
+    1 \,\colon\, Bit
+  }
+$$
+
+\linebreak
+
+**[[term elimination rule]]**
+
+$$
+  \frac{
+    b \,\colon\, Bit \;\vdash\; P(b)
+    ;\;
+    \;\;
+    0_P \,\colon\, P(0)
+    ;\;
+    \;\;
+    1_P \,\colon\, P(1)
+  }{
+    ind_{(P,\,0_P,\,1_P)} 
+      \,\colon\, 
+    \underset{b \colon Bit}{\prod} P(b)
+  }
+$$
+
+\linebreak
+
+**[[computation rules]]**
+
+$$
+  \frac{
+    b \,\colon\, Bit \;\vdash\; P(b)
+    ;\;
+    \;\;
+    0_P \,\colon\, P(0)
+    ;\;
+    \;\;
+    1_P \,\colon\, P(1)
+  }{
+    \begin{array}{l}
+    ind_{(P,\,0_P,\,1_P)}(0) \;=\; 0_P
+    ;\;
+    \\
+    ind_{(P,\,0_P,\,1_P)}(1) \;=\; 1_P
+    \end{array}
+  }
+$$
+
+\linebreak
+
+
 \begin{tikzcd}[sep=40pt]
   &
   Y
