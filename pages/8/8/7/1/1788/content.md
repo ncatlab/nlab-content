@@ -345,5 +345,10 @@ $$
   }
 $$
 
+---
 
+**Linkology**
+
+- [[Grothendieck fibration#opfibrations_and_bifibrations]]
+- [[Grothendieck fibration#opfibrations_and_bifibrations|Opfibrations]]
 
