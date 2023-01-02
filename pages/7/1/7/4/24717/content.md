@@ -56,7 +56,7 @@ so that the category $Cat_{wg}^{n}$ of weakly globular $n$-fold categories is in
 
 
 In the case $n=2$, a weakly globular double category $X$ is a double category satisfying two conditions: 
-the first is the weak globularity condition, stating that the category $X_0$ of objects and vertical arrows is equivalent to a discrete category, that is it is an equivalence relation. The set $pX$ of connected components of $X_0$ plays the role of 'set of objects' in the weak structure. We therefore need to define a composition of horizontal arrows whose source and target are in the same vertical connected component
+the first is the weak globularity condition, stating that the category $X_0$ of objects and vertical arrows is equivalent to a discrete category, that is it is an equivalence relation. The set $pX_0$ of connected components of $X_0$ plays the role of 'set of objects' in the weak structure. We therefore need to define a composition of horizontal arrows whose source and target are in the same vertical connected component
 \begin{imagefromfile}
 "file_name": "Horiz-Comp.jpg",
 "width": 700
