@@ -431,6 +431,8 @@ Of particular interest are consecutive homotopy pullbacks of point inclusions. T
 
 * [[homotopy limit]], [[(∞,1)-limit]]
 
+* [[homotopy pushout type]]
+
 
 [[!include notions of pullback -- contents]]
 
