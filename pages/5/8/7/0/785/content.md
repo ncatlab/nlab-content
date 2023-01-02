@@ -6,10 +6,6 @@
 +-- {: .hide}
 [[!include infinity-limits - contents]]
 =--
-#### Equality and Equivalence
-+--{: .hide}
-[[!include equality and equivalence - contents]]
-=--
 #### Homotopy theory
 +-- {: .hide}
 [[!include homotopy - contents]]
@@ -23,7 +19,6 @@
 
 
 
-
 # Contents
 * table of contents
 {: toc}
@@ -33,9 +28,9 @@
 
 A **homotopy pullback** is a special kind of [[homotopy limit]]: the appropriate notion of [[pullback]] in the context of [[homotopy theory]]. Homotopy pullbacks model the [[limit in quasi-categories|quasi-category pullbacks]] in the [[(infinity,1)-category]] that is [[presentable (infinity,1)-category|presented]] by a given [[homotopical category]].  Since pullbacks are also called fiber products, homotopy pullbacks are also called **homotopy fiber products**.
 
-A __homotopy pushout__ is the [[duality|dual]] concept.
+The notion of __[[homotopy pushout]]__ is the [[duality|dual]] concept.
 
-For more details see [[homotopy limit]].
+For more details see *[[homotopy limit]]*.
 
 In the context of [[homotopy type theory]] a homotopy pullback is the [[categorical semantics|interpretation]] of the space of solutions to an [[equation]].
 
@@ -469,11 +464,10 @@ A [[homotopy type theory|HoTT]]-[[Coq]]-coding of homotopy pullbacks and pushout
 * [[Guillaume Brunerie]], _[HoTT/Coq/Limits/Pullbacks.v](https://github.com/guillaumebrunerie/HoTT/blob/master/Coq/Limits/Pullbacks.v)_
  {#Brunerie}
 
+
 [[!redirects homotopy pullback]]
 [[!redirects homotopy pullbacks]]
 
-[[!redirects homotopy pushout]]
-[[!redirects homotopy pushouts]]
 
 [[!redirects homotopy fiber product]]
 [[!redirects homotopy fiber products]]
@@ -482,10 +476,5 @@ A [[homotopy type theory|HoTT]]-[[Coq]]-coding of homotopy pullbacks and pushout
 [[!redirects homotopy cofiber products]]
 
 
-[[!redirects homotopy co-fiber product]]
-[[!redirects homotopy co-fiber products]]
-
 [[!redirects homotopy base change]]
 [[!redirects homotopy base changes]]
-[[!redirects homotopy cobase change]]
-[[!redirects homotopy cobase changes]]
