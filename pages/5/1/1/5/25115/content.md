@@ -28,6 +28,8 @@ In [[formal logic]] and [[computer science]], by an *abstract syntax tree* one m
 
 * [[word]], [[string (computer science)]]
 
+* [[higher-order abstract syntax]]
+
 ## References
 
 Textbook account:
