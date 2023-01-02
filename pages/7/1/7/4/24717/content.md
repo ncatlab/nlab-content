@@ -149,7 +149,7 @@ There are three Segal-type models of weak $n$-categories
 \end{tikzcd}
 Here $Ta^{n}$ is the Tamsamani-Simpson model and $Ta_{wg}^{n}$ (called weakly globular Tamsamani $n$-categories) is a generalization of it using weak globularity; the latter contains weakly globular $n$-fold categories as special case.
 
-### Weakly globular Tamsamani $\mathbf{n}$-categories
+### Weakly globular Tamsamani ${n}$-categories
 
 The definition of $Ta_{wg}^{n}$ is by induction on $n$, starting with $Ta_{wg}^{1}= Cat$ and 1-equivalences being equivalences of categories. Suppose, inductively, that we defined $Ta_{wg}^{n-1}$ and $(n-1)$-equivalences. Then we define $Ta_{wg}^{n}$ through the following conditions:
 
@@ -215,7 +215,7 @@ is a $(n-1)$-equivalence.
 ii) $p^{(n-1)}f$ is a $(n-1)$-equivalence.
 
 
-### Tamsamani $\mathbf{n}$-categories
+### Tamsamani ${n}$-categories
 
 The category $Ta^{n}$ of Tamsamani $n$-categories is the full subcategory of $Ta_{wg}^{n}$ whose objects $X$ are such that $X_0$ and $X_{k_1\ldots k_r 0}$ are discrete for all $(k_1\ldots k_r)\in    \Delta^{{r}^{op}}$, $1\leq r\leq n-2$.
 
@@ -353,7 +353,7 @@ The main reference for the theory of weakly globular $n$-fold categories is the 
 
 The case $n=2$ was originally introduced in the following paper
 
-* S. Paoli, D. Pronk, A double categorical model of weak 2-categories, _Theory and Application of categories_, 28, (2013), 933-980. 
+* S. Paoli, [[Dorette Pronk|D. Pronk]], A double categorical model of weak 2-categories, _Theory and Application of categories_, 28, (2013), 933-980. 
 
 The theory or Tamsamani weak $n$-categories was originally developed in 
 
@@ -361,15 +361,15 @@ The theory or Tamsamani weak $n$-categories was originally developed in
 
 Tamsamani weak $n$-categories were further studied (from a model category theoretic perspective) in
 
-* C. Simpson. _Homotopy theory of higher categories_, volume 19 of New Math. Monographs. Cambridge University Press, 2012.
+* [[Carlos Simpson|C. Simpson]]. _Homotopy theory of higher categories_, volume 19 of New Math. Monographs. Cambridge University Press, 2012.
 
 The groupoidal case of weakly globular $n$-fold structures started in 
 
-* D. Blanc and S. Paoli. Segal-type algebraic models of $n$-types. _Algebr. Geom. Topol._, 14:3419–3491, 2014.
+* [[David Blanc|D. Blanc]] and S. Paoli. Segal-type algebraic models of $n$-types. _Algebr. Geom. Topol._, 14:3419–3491, 2014.
 
-An even earlier precursor in the groupoidal case, restricted to modelling path connected $n$-types, can be found in
+An even earlier precursor in the groupoidal case, restricted to modelling path connected $n$-types and related to the $cat_n$-groups model, can be found in
 
-* S. Paoli. Weakly globular $cat_n$-groups and Tamsamani’s model. _Adv. in Math._, 222:621–727, 2009.
+* S. Paoli. Weakly globular [[cat-n-group|$cat_n$-groups]] and Tamsamani’s model. _Adv. in Math._, 222:621–727, 2009.
 
 [[!redirects weakly globular n-fold categories]]
 
