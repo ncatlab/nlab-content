@@ -32,6 +32,10 @@ _Higher-order abstract-syntax_, often abbreviated as _HOAS_, is an approach to f
 
 * [[Martin Hofmann]], _Semantical analysis of higher-order abstract syntax_, LICS 1999 &lbrack;[ieee:782616](https://ieeexplore.ieee.org/document/782616), [doi:10.1109/LICS.1999.782616](https://doi.ieeecomputersociety.org/10.1109/LICS.1999.782616)&rbrack;
 
+* [[Marcelo Fiore]], [[Gordon Plotkin]], and [[Daniele Turi]]. _Abstract syntax and variable binding_. Proceedings. 14th Symposium on Logic in Computer Science (Cat. No. PR00158). IEEE, 1999.
+
+* [[Marcelo Fiore]] and [[Chung-Kil Hur]]. _Second-order equational logic_. International Workshop on Computer Science Logic. Springer, Berlin, Heidelberg, 2010.
+
 
 See also: 
 
