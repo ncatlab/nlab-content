@@ -59,7 +59,7 @@ The analytic (L)LPO implies the (L)LPO for natural numbers; the converses hold i
 
 That the real numbers have [[decidable equality]] is weaker than the analytic LPO (and decidable equality for the modulated Cantor reals in weaker than $LPO_{\mathbf{N}}$), unless we also assume [[Markov's principle]] (over $\mathbf{N}$ for the modulated Cantor reals, an analytic version for the Dedekind reals).
 
-## Truncated and untrumcated versions in homotopy type theory
+## Truncated and untruncated versions in homotopy type theory
 
 In the context of [[homotopy type theory]], the various principles of omniscience can be translated in two ways, by interpreting "or" as [[propositional truncation|propositionally truncated]] ("merely or") or untruncated ("purely or"). The relationships between the truncated and untruncated principles of omniscience are as follows are:
 
