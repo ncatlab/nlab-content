@@ -403,12 +403,16 @@ In the case that $X_\bullet$ is the classifier of the [[codomain fibration]], th
 ## References
  {#References}
 
-Original references:
 
-* [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), _Intuitionistic type theory_, Lecture notes Padua 1984, Bibliopolis, Napoli (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
 
-* [[Paul Francis Mendler]], *Inductive Definition in Type Theory*, Cornell (1987) &lbrack;[hdl:1813/6710](https://hdl.handle.net/1813/6710)&rbrack;
 
+[[!include history of inductive types -- references]]
+
+
+
+
+### Introduction and review
+    
 Textbook accounts:
 
 * [[Simon Thompson]], §4.10 in: *[[Type Theory and Functional Programming]]*, Addison-Wesley (1991) &lbrack;ISBN:0-201-41667-0, [webpage](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP), [pdf](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)&rbrack;
@@ -462,7 +466,7 @@ Discussion of homotopy-initiality of inductive types in [[homotopy type theory]]
 
   [[Steve Awodey]], *Inductive types in HoTT* (Jan 2012) &lbrack;[blog post](http://homotopytypetheory.org/2012/01/19/inductive-types-in-hott/)&rbrack;
 
-  
+ 
 
 [[!redirects inductive type]]
 [[!redirects inductive types]]
