@@ -201,7 +201,7 @@ The type
 
 denotes the object of [[homotopy]] [[section]]s of this bundle $P\to X$ --- that is, the _[[dependent product]]_ of the bundle.  (See the section _[relation to spaces of sections](http://ncatlab.org/nlab/show/dependent+product#RelationToSpacesOfSections)_ there).  It also denotes the [[universal quantifier]] when acting on (-1)-truncated objects [[propositions]].  A term of this type :
 
-    f : forall x : X, P x
+    f : \forall x : X, P x
 
 denotes therefore a particular [[section]] of this bundle
 
@@ -364,7 +364,7 @@ Early sketches and introductions to the idea of homotopy type theory include
 
 * {#ShulmanCourse} [[Mike Shulman]], _Minicourse on homotopy type theory_, Swansea, April (2012) ([web](http://home.sandiego.edu/~shulman/hottminicourse2012/))
 
-* [[Dan Licata]], *Programming in Homotopy Type Theory*, Talk at IFIP Wroking Group 2.8 meeting, November, 2012 ([pdf](https://dlicata.wescreates.wesleyan.edu/pubs/lh122tttalks/lh12wg2.8.pdf), [[LicataProgrammingInHoTT.pdf:file]])
+* [[Dan Licata]], *Programming in Homotopy Type Theory*, Talk at IFIP Working Group 2.8 meeting, November, 2012 ([pdf](https://dlicata.wescreates.wesleyan.edu/pubs/lh122tttalks/lh12wg2.8.pdf), [[LicataProgrammingInHoTT.pdf:file]])
 
 On [[synthetic homotopy theory]] in [[homotopy type theory]]:
 
