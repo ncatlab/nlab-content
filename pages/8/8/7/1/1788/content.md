@@ -1,354 +1,53 @@
 
+### History of inductive types
+ {#ReferencesHistoryOfInductiveTypes}
 
-**[[type formation rule]]**
+Historical references on the definition of [[inductive types]].
 
-$$
-  \frac{
-  }{
-    Bit \,\colon\, Type
-  }
-$$
+#### Precursors
 
-\linebreak
+A first [[type theory|type theoretic]] formulation of general [[inductive definitions]]:
 
-**[[term introduction rule]]**
+* [[Per Martin-Löf]], *Hauptsatz for the Intuitionistic Theory of Iterated Inductive Definitions*, Studies in Logic and the Foundations of Mathematics **63** (1971) 179-216 $[$<a href="https://doi.org/10.1016/S0049-237X(08)70847-4">doi:10.1016/S0049-237X(08)70847-4</a>$]$
 
-$$
-  \frac{ 
-  }{
-    0 \,\colon\, Bit
-  }
-  \;\;\;\;\;
-  \frac{ 
-  }{
-    1 \,\colon\, Bit
-  }
-$$
+The [[induction principle]] for [[identity types]] (also known as "path induction" or the "[[J-rule]]") is first stated in:
 
-\linebreak
+* {#MartinLof75} [[Per Martin-Löf]], §1.7 and p. 94 of: _An intuitionistic theory of types: predicative part_, in: H. E. Rose, J. C. Shepherdson (eds.), *Logic Colloquium '73, Proceedings of the Logic Colloquium*, Studies in Logic and the Foundations of Mathematics **80** (1975) 73-118 (<a href="https://doi.org/10.1016/S0049-237X(08)71945-1">doi:10.1016/S0049-237X(08)71945-1</a>, [CiteSeer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
 
-**[[term elimination rule]]**
+and in the modern form of [[inference rules]] in:
 
-$$
-  \frac{
-    b \,\colon\, Bit \;\vdash\; P(b)
-    ;\;
-    \;\;
-    0_P \,\colon\, P(0)
-    ;\;
-    \;\;
-    1_P \,\colon\, P(1)
-  }{
-    ind_{(P,\,0_P,\,1_P)} 
-      \,\colon\, 
-    \underset{b \colon Bit}{\prod} P(b)
-  }
-$$
+* {#NordströmPeterssonSmith90} Bengt Nordström, Kent Petersson, Jan M. Smith, §8.1 of: *Programming in Martin-Löf's Type Theory*, Oxford University Press (1990) $[$[webpage](https://www.cse.chalmers.se/research/group/logic/book/), [pdf](https://www.cse.chalmers.se/research/group/logic/book/book.pdf), [[NordstromPeterssonSmith-TypeTheory.pdf:file]]$]$
 
-\linebreak
+A general notion of inductive types is somewhat implicit in
 
-**[[computation rules]]**
+* [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), _Intuitionistic type theory_, Lecture notes Padua 1984, Bibliopolis, Napoli (1984) $[$[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]$]$
 
-$$
-  \frac{
-    b \,\colon\, Bit \;\vdash\; P(b)
-    ;\;
-    \;\;
-    0_P \,\colon\, P(0)
-    ;\;
-    \;\;
-    1_P \,\colon\, P(1)
-  }{
-    \begin{array}{l}
-    ind_{(P,\,0_P,\,1_P)}(0) \;=\; 0_P
-    ;\;
-    \\
-    ind_{(P,\,0_P,\,1_P)}(1) \;=\; 1_P
-    \end{array}
-  }
-$$
+A first explicit proposal:
 
-\linebreak
+* [[Paul Francis Mendler]], *Inductive Definition in Type Theory*, Cornell (1987) $[$[hdl:1813/6710](https://hdl.handle.net/1813/6710)$]$
 
+#### Modern definition
 
-\begin{tikzcd}[sep=40pt]
-  &
-  Y
-  \ar[
-    dr, 
-    "{ \mathrm{cpr} }"{description, sloped}
-  ]
-  \ar[
-    dd,
-    Rightarrow,
-    shorten=11pt,
-    "{ \mathrm{homot} }"{description}
-  ]
-  \ar[
-    rrrd,
-    bend left=30,
-    "{ \mathrm{cpr}_P }",
-    "{\ }"{name=s, swap, pos=.55}
-  ]
-  \\[-20pt]
-  X
-  \ar[
-    ur,
-    "{ f }"
-  ]
-  \ar[
-    dr,
-    "{ f' }"{swap}
-  ]
-  && 
-  Y \underset{X}{\sqcup} Y'
-  \ar[ddr, equals, gray]
-  \ar[
-    rr, 
-    dashed,
-    "{ \mathrm{ind}_{(P,\, \cdots)} }"
-  ]
-  &&
-  P
-  \ar[ddl, gray, "{ \pi_P }"{description}]
-  \\
-  &
-  Y'
-  \ar[
-    ur,
-    shorten >=-6pt,
-    "{ \mathrm{cpr}' }"{description, sloped}
-  ]
-  \ar[
-    rrru,
-    bend right=45,
-    "{ \mathrm{cpr}_{P'} }"{swap, pos=.35},
-    "{\ }"{name=t, pos=.4}
-  ]
-  \ar[
-    from=s,
-    to=t,
-    shorten=8pt,
-    Rightarrow,
-    crossing over,
-    "{\mathrm{homot_P}}"{description, pos=.7}
-  ]
-  \\[-100pt]
-  && & 
-  \color{gray}
-  Y \underset{X}{\sqcup} Y'
-\end{tikzcd}  
+The modern notion of [[inductive types]] and [[inductive families]] is independently due to
 
+* [[Peter Dybjer]], *Inductive sets and families in Martin-Löf's type theory and their set-theoretic semantics*, Logical frameworks (1991) 280-306 $[$[doi:10.1017/CBO9780511569807.012](https://doi.org/10.1017/CBO9780511569807.012), [pdf](http://www.cse.chalmers.se/~peterd/papers/Setsem_Inductive.pdf)$]$
 
+* [[Peter Dybjer]], *Inductive families*, Formal Aspects of Computing **6** (1994) 440–465 $[$[doi:10.1007/BF01211308](https://doi.org/10.1007/BF01211308), [doi:10.1007/BF01211308](https://doi.org/10.1007/BF01211308), [pdf](http://www.cse.chalmers.se/~peterd/papers/Inductive_Families.pdf)$]$
 
-**[[type formation rule]]:**
+and due to
 
-$$
-  \frac{
-    \begin{array}{l}
-    X,\, Y,\, Y^' \,\colon\, Type
-    \;;
-    \;\;
-    f \,\colon\, X \to Y
-    \;,
-    \;\;
-    f^' \,\colon\, X \to Y^'    
-    \mathclap{\phantom{\vert_{\vert}}}
-    \end{array}
-  }
-  {
-    \mathclap{\phantom{\vert^{\vert}}}
-    Y \underset{X}{\sqcup} Y^'
-    \,\colon\,
-    Type
-  }
-$$
+* [[Thierry Coquand]], [[Christine Paulin]], *Inductively defined types*, COLOG-88 Lecture Notes in Computer Science **417**, Springer (1990) 50-66 $[$[doi:10.1007/3-540-52335-9_47](https://doi.org/10.1007/3-540-52335-9_47)$]$
 
-\linebreak
+which became basis of the [[calculus of inductive constructions]] used in the [[Coq]]-[[proof assistant]]:
 
-**[[term introduction rules]]:**
+* [[Christine Paulin-Mohring]], *Inductive definitions in the system Coq rules and properties*, in: *Typed Lambda Calculi and Applications* TLCA 1993, Lecture Notes in Computer Science **664** Springer (1993) $[$[doi:10.1007/BFb0037116](https://doi.org/10.1007/BFb0037116)$]$
 
-$$
-  \frac{
-    y \,\colon\, Y^'
-    \mathclap{\phantom{\vert_{\vert}}}
-  }{
-    \mathclap{\phantom{\vert^{\vert}}}
-    cpr(y)
-    \,\colon\,
-    Y \underset{X}{\sqcup} Y^'
-  }
-  \;\;\;\;\;\;\;\;\;
-  \frac{
-    y^' \,\colon\, Y^'
-    \mathclap{\phantom{\vert_{\vert}}}
-  }{
-    \mathclap{\phantom{\vert^{\vert}}}
-    cpr^'(y^')
-    \,\colon\,
-    Y \underset{X}{\sqcup} Y^'
-  }
-  \;\;\;\;\;\;\;\;\;
-  \frac{
-    x \,\colon\, X
-    \mathclap{\phantom{\vert}}
-  }{
-    \mathclap{\phantom{\vert^{\vert^{\vert}}}}
-    homot(x)
-    \,\colon\,
-    Id_{\big(Y \underset{X}{\sqcup} Y^'\big)}
-    \Big(
-      cpr\big(f(x)\big)
-      ,\,
-      cpr^'\big(f^'(x)\big)      
-    \Big)
-  }
-$$
+The generalization to [[inductive-recursive types]] is due to
 
-\linebreak
+* [[Peter Dybjer]], *A general formulation of simultaneous inductive-recursive definitions in type theory*, The Journal of Symbolic Logic **65** 2 (2000) 525-549 $[$[doi:10.2307/2586554](https://doi.org/10.2307/2586554), [pdf](http://www.cse.chalmers.se/~peterd/papers/Inductive_Recursive.pdf)$]$
 
+* [[Peter Dybjer]], [[Anton Setzer]], *Indexed induction-recursion*, in *Proof Theory in Computer Science* PTCS 2001. Lecture Notes in Computer Science**2183** Springer (2001) $[$[doi:10.1007/3-540-45504-3_7](https://doi.org/10.1007/3-540-45504-3_7), [pdf](http://www.cse.chalmers.se/~peterd/papers/InductionRecursionInitialAlgebras.pdf)$]$
 
-**[[term elimination rule]]:**
+See also:
 
-$$
-  \frac{
-    \begin{array}{l}
-    \hat{y}
-      \,\colon\,
-    Y \underset{X}{\sqcup} Y^'
-    \;\vdash\;
-    P(\hat{y})
-    \,\colon\,
-    Type
-    \;;
-    \\
-    cpr_P
-    \,\colon\,
-    \underset{ y \colon Y }{\prod}
-    P\big(
-      cpr(\hat{y})
-    \big)
-    \;;
-    \;\;
-    cpr^'_P
-    \,\colon\,
-    \underset{ y^' \colon Y^' }{\prod}
-    P\big(
-      cpr^'(y^')
-    \big)
-    \;;
-    \\
-    homot_P
-    \,\colon\,
-    \underset{x \colon X}{\prod}
-    Id_{P(x)}
-    \bigg(
-      homot(x)_\ast
-      \Big(
-        cpr_P\big(
-          f(x)
-        \big)
-      \Big)
-      ,\,
-        cpr^'_P\big(
-          f^'(x)
-        \big)
-    \bigg)
-    \end{array}
-  }{
-    \mathclap{\phantom{\vert^{\vert}}}
-    ind_{\big(P,\, cpr_P,\,cpr^'_P,\,homot_P\big)}
-    \,\colon\,
-    \underset{ 
-      \hat{y} \,\colon\, Y \underset{X}{\sqcup} Y^' 
-    }{\prod} 
-    \,
-    P(\hat{y})
-  }
-$$
-
-\linebreak
-
-**[[computation rules]]**
-
-$$
-  \frac{
-    \begin{array}{l}
-    \hat{y}
-      \,\colon\,
-    Y \underset{X}{\sqcup} Y^'
-    \;\vdash\;
-    P(\hat{y})
-    \,\colon\,
-    Type
-    \;;
-    \\
-    cpr_P
-    \,\colon\,
-    \underset{ y \colon Y }{\prod}
-    P\big(
-      cpr^'(y)
-    \big)
-    \;;
-    \;\;
-    cpr^'_P
-    \,\colon\,
-    \underset{ y^' \colon Y^' }{\prod}
-    P\big(
-      cpr^'(y^')
-    \big)
-    \;;
-    \\
-    homot_P
-    \,\colon\,
-    \underset{x \colon X}{\prod}
-    Id_{P(x)}
-    \bigg(
-      homot(x)_\ast
-      \Big(
-        cpr_P\big(
-          f(x)
-        \big)
-      \Big)
-      ,\,
-        cpr^'_P\big(
-          cpr^'(x)
-        \big)
-    \bigg)
-    \end{array}
-  }{
-    \begin{array}{rlc}
-    \mathclap{\phantom{\vert^{\vert}}}
-    ind_{\big(P,\, cpr_P,\,cpr^'_P,\,homot_P\big)}  
-      \,\circ\,
-    cpr
-    &=&
-    cpr_P
-    \;;
-    \\
-    \mathclap{\phantom{\vert^{\vert}}}
-    ind_{\big(P,\, cpr_P,\,cpr^'_P,\,homot_P\big)} 
-      \,\circ\, 
-    cpr^'
-    &=&
-    cpr^'_P
-    \;;
-    \\
-    happly_{\big(
-      ind_{\big(P,\, cpr_P,\,cpr^'_P,\,homot_P\big)}
-    \big)}
-    \,\circ\,
-    homot
-    &=&
-    homot_P
-    \end{array}
-  }
-$$
-
----
-
-**Linkology**
-
-- [[Grothendieck fibration#opfibrations_and_bifibrations]]
-- [[Grothendieck fibration#opfibrations_and_bifibrations|Opfibrations]]
-
+* [[Peter Dybjer]], *[Inductive and inductive-recursive definitions in type theory](http://www.cse.chalmers.se/~peterd/papers/inductive.html)* (link list)
