@@ -466,6 +466,16 @@ Discussion of homotopy-initiality of inductive types in [[homotopy type theory]]
 
   [[Steve Awodey]], *Inductive types in HoTT* (Jan 2012) &lbrack;[blog post](http://homotopytypetheory.org/2012/01/19/inductive-types-in-hott/)&rbrack;
 
+
+
+
+
+[[!include semantics of W-types -- references]]
+
+
+
+
+
  
 
 [[!redirects inductive type]]
