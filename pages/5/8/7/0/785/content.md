@@ -436,9 +436,21 @@ Of particular interest are consecutive homotopy pullbacks of point inclusions. T
 
 ### General
 
-See the references at _[[homotopy limit]]_ .
+See also the references at _[[homotopy limit]]_ .
 
-Fairly comprehensive resources:
+Homotopy pullbacks are at least mentioned in almost any textbook on [[homotopy theory]].
+
+Dedicated textbook introductions:
+
+* [[Jeffrey Strom]], *Homotopy Pushput Squares*, §7.3 in: *Modern classical homotopy theory*, Graduate Studies in Mathematics **127**, American Mathematical Society (2011) &lbrack;[doi:10.1090/gsm/127](http://www.ams.org/books/gsm/127/)&rbrack;
+
+* [[Martin Arkowitz]], *Homotopy Pushouts and Pullbacks*, §6 in: *Introduction to Homotopy Theory*, Springer (2011) &lbrack;[doi:10.1007/978-1-4419-7329-0](https://doi.org/10.1007/978-1-4419-7329-0)&rbrack;
+
+Exposition in [[model category]]-theory:
+
+* [[Urs Schreiber]], *[Homotopy Pullback](Introduction+to+Homotopy+Theory#HomotopyPullbacks)*, section in *[[Introduction to Homotopy Theory]]*
+
+Fairly comprehensive general resources:
 
 * {#Hovey07} [[Mark Hovey]], _Model categories_, Mathematical Surveys and Monographs, vol 63, 1999,reprinted 2007
 
@@ -455,14 +467,12 @@ See also:
 ### In terms of homotopy type theory
  {#ReferencesForHoTT}
 
-A proposal for a formalization of homotopy pushouts by [[higher inductive types]] in [[homotopy type theory]] has been given in
+Discussion of homotopy pullbacks in [[homotopy type theory]]:
 
-* [[Mike Shulman]], _Homotopy Type Theory VI_ ([blog post](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_vi.html))
+* [[Univalent Foundations Project]], Exc. 2.11 in: *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
-A [[homotopy type theory|HoTT]]-[[Coq]]-coding of homotopy pullbacks and pushouts is in 
+* [[Egbert Rijke]], *Homotopy pullbacks* &lbrack;[pdf](https://www.andrew.cmu.edu/user/erijke/hott/pullback.pdf)&rbrack;, Lecture 10 in: *[[Introduction to Homotopy Type Theory]]*, lecture notes, CMU (2018) &lbrack;[pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [[Rijke-IntroductionHoTT-2018.pdf:file]], [webpage](https://www.andrew.cmu.edu/user/erijke/hott/)&rbrack;
 
-* [[Guillaume Brunerie]], _[HoTT/Coq/Limits/Pullbacks.v](https://github.com/guillaumebrunerie/HoTT/blob/master/Coq/Limits/Pullbacks.v)_
- {#Brunerie}
 
 
 [[!redirects homotopy pullback]]
