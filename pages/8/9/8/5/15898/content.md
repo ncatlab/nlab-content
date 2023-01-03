@@ -18,6 +18,10 @@ On ([[homotopy types]] of) [[covering spaces]] via [[homotopy type theory]]:
 
 * [[Kuen-Bang Hou]], [[Robert Harper]], *Covering Spaces in Homotopy Type Theory*, Leibniz International Proceedings in Informatics (LIPIcs) **97** (2018) $[$[doi:10.4230/LIPIcs.TYPES.2016.11](https://doi.org/10.4230/LIPIcs.TYPES.2016.11), [pdf](https://drops.dagstuhl.de/opus/volltexte/2018/9851/pdf/LIPIcs-TYPES-2016-11.pdf)$]$
 
+Formalization of (the proof of) the [[Blakers-Massey theorem]] in [[homotopy type theory]]:
+
+* {#FFLL16} [[Kuen-Bang Hou]] ([[Favonia]]), [[Eric Finster]], [[Dan Licata]], [[Peter LeFanu Lumsdaine]], *A mechanization of the Blakers-Massey connectivity theorem in Homotopy Type Theory*, LICS '16 (2016) 565–574  &lbrack;[arXiv.1605.03227](https://arxiv.org/abs/1605.03227), [doi:10.1145/2933575.2934545](https://doi.org/10.1145/2933575.2934545)&rbrack;
+
 
 On [[cellular cohomology]] formulated in [[homotopy type theory]]:
 
