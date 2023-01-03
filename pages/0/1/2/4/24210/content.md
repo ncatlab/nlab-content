@@ -353,7 +353,12 @@ Many references on [[higher inductive types]] mention pushout types and highligh
 
 * [[Univalent Foundations Project]], §6.8 of: *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
-A little more detailed description is in:
+The full [[inference rules]] are stated in:
+
+* {#FFLL16} [[Kuen-Bang Hou]] ([[Favonia]]), [[Eric Finster]], [[Dan Licata]], [[Peter LeFanu Lumsdaine]], p. 4 of: *A mechanization of the Blakers-Massey connectivity theorem in Homotopy Type Theory*, LICS '16 (2016) 565–574  &lbrack;[arXiv.1605.03227](https://arxiv.org/abs/1605.03227), [doi:10.1145/2933575.2934545](https://doi.org/10.1145/2933575.2934545)&rbrack;
+
+
+See also:
 
 * [[Egbert Rijke]], *Homotopy pushouts* &lbrack;[pdf](https://www.andrew.cmu.edu/user/erijke/hott/pushout.pdf)&rbrack;, Lecture 13 in: *Introduction to Homotopy Type Theory*, lecture notes, CMU (2018) &lbrack;[pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [[Rijke-IntroductionHoTT-2018.pdf:file]], [webpage](https://www.andrew.cmu.edu/user/erijke/hott/)&rbrack;
 
