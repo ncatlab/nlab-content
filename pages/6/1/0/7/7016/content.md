@@ -21,6 +21,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -111,7 +112,7 @@ For [[types]] $A, B \,\colon\, Type $ and [[parallel morphisms|parallel]] [[func
   \end{array}
 \]
 
-(These two definitions of $\mathrm{happly}$ become the same under [[singleton contractibility]]. The second definition behaves better with the [[action on identifications]].)
+{#TheseTwoDefinitions} (These two definitions of $\mathrm{happly}$ become the same under [[singleton contractibility]]. The second definition behaves better with the [[action on identifications]].)
 
 In general, both functions $\mathrm{happly}(f, g)$ are not [[equivalences of types]] in [[intensional type theory]]: two functions could be defined in different ways, and thus be intensionally different, yet produce the same values on all inputs (i.e. be extensionally the same).
 
