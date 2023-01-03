@@ -36,7 +36,7 @@ Only the intensional but not the [[extensional type theory|extensional]] [[Marti
 
 ## Examples
 
-* [[CiC]]
+* [[calculus of inductive constructions]]
 
 ## Related concepts
 
