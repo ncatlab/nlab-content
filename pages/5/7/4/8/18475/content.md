@@ -194,6 +194,10 @@ Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 * Chuan-Yin Xia, Hua-Bi Zeng, Yu Tian, Chiang-Mei Chen, [[Jan Zaanen]],
 *Holographic Abrikosov lattice: vortex matter from black hole* ([arXiv:2111.07718](https://arxiv.org/abs/2111.07718))
 
+* Dong Wang, Xiongying Qiao, Qiyuan Pan, Chuyu Lai, Jiliang Jing, *Holographic entanglement entropy and complexity for the excited states of holographic superconductors* &lbrack;[arXiv:2301.00513](https://arxiv.org/abs/2301.00513)&rbrack;
+
+  > (relation to [[holographic entanglement entropy]])
+
 
 On [[strange metals]], high $T_c$-[[superconductors]] and [[AdS/CMT duality]]:
 
