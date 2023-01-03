@@ -58,10 +58,14 @@ define $T$ inductively as well. This is the principle of [[induction-induction]]
 
 ## References 
 
-* [[Peter Dybjer]], *A General Formulation of Simultaneous Inductive-Recursive Definitions in Type Theory*, The Journal of Symbolic Logic **65** 2 (2000) &lbrack;[pdf](http://www.cse.chalmers.se/~peterd/papers/Inductive_Recursive.pdf), [doi:10.2307/2586554](https://doi.org/10.2307/2586554)&rbrack;
 
-* [[Peter Dybjer]] and [[Anton Setzer]], _A Finite Axiomatization of Inductive-Recursive Definitions_, [springer](https://link.springer.com/chapter/10.1007/3-540-48959-2_11)
+[[!include history of inductive types -- references]]
 
-* [papers by Peter Dybjer about induction and induction-recursion](http://www.cse.chalmers.se/~peterd/papers/inductive.html)
+
+### Further development
+
+(...)
+
+
 
 [[!redirects induction-recursion]]
