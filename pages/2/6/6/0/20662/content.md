@@ -26,7 +26,7 @@ His seminal early work on [[language|formal language]] theory and computational 
 
 For what it's worth, there is of course also a:
 
-* [Wikipedia entry](https://en.m.wikipedia.org/wiki/Noam_Chomsky)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Noam_Chomsky)
 
 
 ## Notable Ideas
@@ -75,7 +75,6 @@ Many well established concepts are tossed overboard when optimality is adopted a
 The preliminarily last word is here
 
 * Noam Chomsky, _The UCLA Lectures_ , ms. October 2020.  ([lingbuzz](https://ling.auf.net/lingbuzz/005485))
-
 
 
 
