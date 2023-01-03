@@ -43,7 +43,7 @@ and due to
 
 which became the basis of the [[calculus of inductive constructions]] used in the [[Coq]]-[[proof assistant]]:
 
-* [[Christine Paulin-Mohring]], *Inductive definitions in the system Coq rules and properties*, in: *Typed Lambda Calculi and Applications* TLCA 1993, Lecture Notes in Computer Science **664** Springer (1993) $[$[doi:10.1007/BFb0037116](https://doi.org/10.1007/BFb0037116)$]$
+* [[Christine Paulin-Mohring]], *Inductive definitions in the system Coq -- Rules and Properties*, in: *Typed Lambda Calculi and Applications* TLCA 1993, Lecture Notes in Computer Science **664** Springer (1993) $[$[doi:10.1007/BFb0037116](https://doi.org/10.1007/BFb0037116)$]$
 
 reviewed in
 
