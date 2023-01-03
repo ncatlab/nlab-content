@@ -122,17 +122,17 @@ If $G$ has order $n$ and $p^k$ is a prime power dividing $n$, then there is a su
 
 +-- {: .proof} 
 ###### Proof 
-First we show that Sylow subgroups exist. We start by observing that if a group $H$ has a $p$-Sylow subgroup $P$, then so does any subgroup $G$. First note that if we let $G$ act on $H/P$ by left translation, then the stabilizer of any element $h P$ is $G \cap h P h^{-1}$, a $p$-group since $h P h^{-1}$ is. Then note that since $H/P$ has cardinality prime to $p$, so must one of its [[connected object|connected components]] $G/Stab(a_x)$ in its $G$-set decomposition 
+First we show that Sylow subgroups exist. We start by observing that if a group $H$ has a $p$-Sylow subgroup $P$, then so does any subgroup $G$. To prove this, first note that if we let $G$ act on $H/P$ by left translation, then the stabilizer of any element $h P$ is $G \cap h P h^{-1}$, a $p$-group since $h P h^{-1}$ is. Then note that since $H/P$ has cardinality prime to $p$, so must one of its [[connected object|connected components]] $G/Stab(a_x)$ in its $G$-set decomposition 
 
 $$H/P \cong \sum_{orbits\; x} G/Stab(a_x),$$ 
 
 and this makes $Stab(a_x)$ a $p$-Sylow subgroup of $G$. 
 
-Then, if $G$ is any group, and $n = ord(G)$, apply this observation to the embedding 
+Then, if $G$ is of order $n$, apply this observation to the embedding 
 
 $$G \stackrel{Cayley}{\hookrightarrow} Perm({|G|}) \cong S_n \hookrightarrow GL_n(\mathbb{Z}/(p)) = H$$ 
 
-where we embed the [[symmetric group]] $S_n$ via [[permutation matrices]] into the group $H$ of $n \times n$ invertible matrices over $\mathbb{Z}/(p)$. The group $H$ has order $(p^n - 1)(p^n - p)\ldots (p^n - p^{n-1})$, with maximal $p$-factor $p^{n(n-1)/2}$. It thus has a $p$-Sylow subgroup given by unitriangular matrices, i.e., upper-triangular matrices with all $1$\'s on the diagonal. Therefore $p$-Sylow subgroups $P$ exist for any $G$. 
+where we embed the [[symmetric group]] $S_n$ via [[permutation matrices]] into the group $H$ of $n \times n$ invertible matrices over $\mathbb{Z}/(p)$. The group $H$ has order $(p^n - 1)(p^n - p)\ldots (p^n - p^{n-1})$, with maximal $p$-factor $p^{n(n-1)/2}$. It thus has a $p$-Sylow subgroup given by unitriangular matrices, i.e., upper-triangular matrices with all $1$\'s on the diagonal. Therefore $p$-Sylow subgroups $P$ exist for any finite group $G$. 
 
 Finally, note that by Proposition \ref{pgroup}, $P$ is solvable and therefore has a [[composition series]] 
 
