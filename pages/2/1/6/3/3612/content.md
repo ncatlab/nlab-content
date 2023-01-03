@@ -58,7 +58,7 @@ Original articles:
 
 *  [[Thierry Coquand]], [[Gérard Huet]], _The Calculus of Constructions_, INRIA Rapport **530** (1986) &lbrack;[inria:00076024](http://hal.inria.fr/inria-00076024/en/), [pdf](http://hal.inria.fr/docs/00/07/60/24/PDF/RR-0530.pdf)&rbrack;
 
-* [[Christine Paulin-Mohring]], *Inductive definitions in the system Coq rules and properties*, in: *Typed Lambda Calculi and Applications* TLCA 1993, Lecture Notes in Computer Science **664** Springer (1993) &lbrack;[doi:10.1007/BFb0037116](https://doi.org/10.1007/BFb0037116)&rbrack;
+* [[Christine Paulin-Mohring]], *Inductive definitions in the system Coq -- Rules and Properties*, in: *Typed Lambda Calculi and Applications* TLCA 1993, Lecture Notes in Computer Science **664** Springer (1993) &lbrack;[doi:10.1007/BFb0037116](https://doi.org/10.1007/BFb0037116)&rbrack;
 
   > (adding [[inductive types]])
 
