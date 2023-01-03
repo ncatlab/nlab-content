@@ -97,7 +97,6 @@ $$
   }
 $$
 
-(Here "$=$" denotes [[judgemental equality]].)
 
 ## References
 
@@ -109,7 +108,13 @@ Discussion in [[type theory]] as a simple example of an [[inductive type]]:
 
 * [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), [p. 37](https://ncatlab.org/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=43) of _Intuitionistic type theory_, Lecture notes Padua 1984, Bibliopolis, Napoli (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
 
-* [[Egbert Rijke]], Exc. 4.2 in: *[[Introduction to Homotopy Type Theory]]* (2023) &lbrack;[arXiv:2212.11082](https://arxiv.org/abs/2212.11082)&rbrack;
+Discussion in [[homotopy type theory]]:
+
+* {#AwodeyGambinoSojakova} [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], §3.1 in: *Inductive types in homotopy type theory*, LICS'12 (2012) 95–104 &lbrack;[arXiv:1201.3898](http://arxiv.org/abs/1201.3898), [doi:10.1109/LICS.2012.21](https://doi.org/10.1109/LICS.2012.21)&rbrack;
+ 
+
+* [[Egbert Rijke]], Exc. 4.2 (pp. 35) in: *[[Introduction to Homotopy Type Theory]]* (2023) &lbrack;[arXiv:2212.11082](https://arxiv.org/abs/2212.11082)&rbrack;
+
 
 [[!redirects Boolean domain]]
 [[!redirects boolean variable]]
