@@ -70,7 +70,7 @@ Review and surveys:
 * M. Bunder, [[Jonathan Seldin]], *Variants of the basic calculus of constructions*, Journal of Applied Logic
 **2** 2 (2004) 191-217 &lbrack;[doi:10.1016/j.jal.2004.02.004](https://doi.org/10.1016/j.jal.2004.02.004)&rbrack;
 
-   
+* [[Christine Paulin-Mohring]], *Introduction to the Calculus of Inductive Constructions*, contribution to: *Vienna Summer of Logic* (2014) &lbrack;[hal:01094195](https://hal.inria.fr/hal-01094195), [pdf](https://hal.inria.fr/hal-01094195/document), [pdf slides](https://easychair.org/smart-program/VSL2014/APPA-invited-slides-6.pdf)&rbrack;
 
 
 * Frade, _Calculus of inductive constructions_ ([pdf](http://www3.di.uminho.pt/~mjf/pub/SFV-CIC-2up.pdf))
