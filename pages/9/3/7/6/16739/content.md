@@ -36,7 +36,7 @@ A [[Heyting algebra]] $M$ that satisfies the following equivalent conditions is 
 
 +-- {: .proof} 
 ###### Proof of equivalence 
-(2. implies 1.) First, it is automatic that $\neg a \vee \neg b \leq \neg(a \wedge b)$. Now, in a distributive lattice such as a Heyting algebra, if $x \wedge y = \bot$ and $x \vee z = \top$, then $y \leq z$. Putting $x = \neg \neg a \wedge \neg \neg b$ and $y = \neg(a \wedge b)$ and $z = \neg a \vee \neg b$, we check 
+(2. implies 1.) First, it is automatic that $\neg a \vee \neg b \leq \neg(a \wedge b)$. Now, in a distributive lattice such as a Heyting algebra, if $x \wedge y = \bot$ and $x \vee z = \top$, then $y \leq z$ (consider applying $- \wedge y$ to the second equation). Putting $x = \neg \neg a \wedge \neg \neg b$ and $y = \neg(a \wedge b)$ and $z = \neg a \vee \neg b$, we check 
 $$\neg\neg a \wedge \neg\neg b \wedge \neg(a \wedge b) = \neg\neg (a \wedge b) \wedge \neg(a \wedge b) = \bot$$ 
 (since $\neg\neg$ preserves meets; see [[Heyting algebra]]) and 
 $$(\neg\neg a \wedge \neg\neg b) \vee \neg a \vee \neg b = (\neg \neg a \vee \neg a \vee \neg b) \wedge (\neg\neg b \vee \neg a \vee \neg b) = (\top \vee \neg b) \wedge (\neg a \vee \top) = \top \wedge \top = \top$$ 
