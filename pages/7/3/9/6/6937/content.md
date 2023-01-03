@@ -37,6 +37,11 @@ Introducing the [[functional programming language|functional]] [[quantum program
 
 * [[Alexander Green]], [[Peter LeFanu Lumsdaine]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], _An Introduction to Quantum Programming in Quipper_, Lecture Notes in Computer Science 7948:110-124, Springer, 2013 ([arXiv:1304.5485](https://arxiv.org/abs/1304.5485))
 
+Formalization of (the proof of) the [[Blakers-Massey theorem]] in [[homotopy type theory]]:
+
+* {#FFLL16} [[Kuen-Bang Hou]] ([[Favonia]]), [[Eric Finster]], [[Dan Licata]], [[Peter LeFanu Lumsdaine]], *A mechanization of the Blakers-Massey connectivity theorem in Homotopy Type Theory*, LICS '16 (2016) 565–574  &lbrack;[arXiv.1605.03227](https://arxiv.org/abs/1605.03227), [doi:10.1145/2933575.2934545](https://doi.org/10.1145/2933575.2934545)&rbrack;
+
+
 ## Related entries
 
 * [[initiality conjecture]]
