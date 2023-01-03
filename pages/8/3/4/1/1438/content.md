@@ -188,22 +188,14 @@ Theorem \ref{AdameksTheorem} applies (in particular) to any functor $F: Set \to 
 
 
 ## References
+
+### General
+
 * {#BlassSeven} [[Andreas Blass]], _Seven Trees in One_ ([arXiv:9405205](https://arxiv.org/abs/math/9405205))
 
 A textbook account of the basic theory is in [Chapter 10](http://www.andrew.cmu.edu/course/80-413-713/notes/chap10.pdf) of
 
 * [[Steve Awodey]], _Category theory_ lecture notes (2011) ([web](http://www.andrew.cmu.edu/course/80-413-713/))
-
-A brief review of some basics, with an eye towards [[inductive types]], is in Section 2 of
-
-* {#AwodeyGambinoSojakova} [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory*, LICS'12 (2012) 95–104 &lbrack;[arXiv:1201.3898](http://arxiv.org/abs/1201.3898), [doi:10.1109/LICS.2012.21](https://doi.org/10.1109/LICS.2012.21)&rbrack;
- 
-
-relating to [[higher inductive types]] in [[homotopy type theory]]:
-
-* [[Kristina Sojakova]], *Higher Inductive Types as Homotopy-Initial Algebras*, ACM SIGPLAN Notices **50** 1 (2015) 31–42 &lbrack;[arXiv:1402.0761](http://arxiv.org/abs/1402.0761), [doi:10.1145/2775051.2676983](https://doi.org/10.1145/2775051.2676983)&rbrack;
-
-* [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Homotopy-initial algebras in type theory*, Journal of the ACM **63** 6 (2017) 1–45 &lbrack;[arXiv:1504.05531](http://arxiv.org/abs/1504.05531), [doi:10.1145/3006383](https://doi.org/10.1145/3006383)&rbrack;
 
 
 The relation to [[free monads]] is discussed in 
@@ -217,6 +209,13 @@ Original references on initial algebras include
 * [[Jiří Adámek]], *Free algebras and automata realizations in the language of categories*, Commentationes Mathematicae Universitatis Carolinae 15.4 (1974): 589-602.
 
 * [[Jiří Adámek]], Věra Trnková, *Automata and algebras in categories* Vol. 37. Springer Science & Business Media, 1990.
+
+
+
+
+[[!include semantics of W-types -- references]]
+
+
 
 
 [[!redirects initial algebras of an endofunctor]]
