@@ -15,9 +15,9 @@
 
 ## Idea
 
-_Extensional type theory_ denotes the flavor of [[type theory]] in which [[identity types]] satisfy the *reflection rule*, saying that if two terms are propositionally equal then they are also definitionally equal.
+_Extensional type theory_ denotes the flavor of [[type theory]] in which [[identity types]] satisfy the *reflection rule*, saying that if two terms are [[propositional equality|propositionally equal]] then they are also [[definitional equality|definitionally equal]].
 
-In particular, this implies that all identity types are [[propositions]] / of [[h-level 1]], and thus equivalently that all types are required to be [[h-sets]].  Therefore, extensional type theory is a [[set-level type theory]], and hence a form of [[set-level foundations]].  However, there are other set-level type theories, such as those obtained by adding [[UIP]] as an axiom.
+In particular, this implies that all [[identity types]] are [[propositions]] / of [[h-level 1]], and thus equivalently that all types are required to be [[h-sets]].  Therefore, extensional type theory is a [[set-level type theory]], and hence a form of [[set-level foundations]].  However, there are other set-level type theories, such as those obtained by adding [[UIP]] as an axiom.
 
 __Note:__ *For a while, the nLab incorrectly used "extensional type theory" to refer to what we now call [[set-level type theory]].  If you encounter uses of this sort, please correct them.*
 
