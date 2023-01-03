@@ -214,9 +214,10 @@ and an announcement was given in
 
 * {#Lumsdaine13} [[Peter LeFanu Lumsdaine]], _The Blakers-Massey theorem in homotopy type theory_ talk at [Conference on Type Theory, Homotopy Theory and Univalent Foundations](http://www.crm.cat/en/Activities/Pages/ActivityFoldersAndPages/Curs%202013-2014/CHomotopy/chomotopy.aspx) (2013) ([talk abstracts pdf](http://www.crm.cat/en/Activities/Documents/AbstractsTypeTheory.pdf)).
 
-A writeup finally appeared as
 
-* {#FFLL16} Kuen-Bang Hou ([[Favonia]]), [[Eric Finster]], [[Dan Licata]], [[Peter LeFanu Lumsdaine]], _A mechanization of the Blakers-Massey connectivity theorem in Homotopy Type Theory_ ([arXiv.1605.03227](https://arxiv.org/abs/1605.03227))
+A writeup finally appeared as:
+
+* {#FFLL16} [[Kuen-Bang Hou]] ([[Favonia]]), [[Eric Finster]], [[Dan Licata]], [[Peter LeFanu Lumsdaine]], *A mechanization of the Blakers-Massey connectivity theorem in Homotopy Type Theory*, LICS '16 (2016) 565–574  &lbrack;[arXiv.1605.03227](https://arxiv.org/abs/1605.03227), [doi:10.1145/2933575.2934545](https://doi.org/10.1145/2933575.2934545)&rbrack;
 
 Another unwinding to ordinary mathematical language of the above [code](#Favonia) was meanwhile given in
 
