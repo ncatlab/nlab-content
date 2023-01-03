@@ -669,6 +669,10 @@ Surveys of and introductions:
 
 Textbook accounts on type theory in [[programming languages]]:
 
+* [[Zhaohui Luo]], *Computation and Reasoning -- A Type Theory for Computer Science*, Clarendon Press (1994) $[$[ISBN:9780198538356](https://global.oup.com/academic/product/computation-and-reasoning-9780198538356), [pdf](https://www.researchgate.net/profile/Zhaohui-Luo-4/publication/243770570_Computation_and_Reasoning_A_Type_Theory_for_Computer_Science/links/54d0dc6b0cf29ca81103f26a/Computation-and-Reasoning-A-Type-Theory-for-Computer-Science.pdf)$]$
+
+  > (via the [[calculus of constructions]])
+
 * [[Carl A. Gunter]], *The Semantics of Types in Programming Languages*, in: *[[Handbook of Logic in Computer Science]]* Vol 3: *Semantic structures*, Oxford University Press (1995) &lbrack;[ISBN:9780198537625](https://global.oup.com/academic/product/handbook-of-logic-in-computer-science-9780198537625), [pdf](http://seclab.illinois.edu/wp-content/uploads/2011/04/Gunter94.pdf)&rbrack;
 
 * [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_, Cambridge University Press (2016) &lbrack;[ISBN:9781107150300](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB), [pdf](https://www.cs.cmu.edu/~rwh/pfpl/2nded.pdf)&rbrack;
