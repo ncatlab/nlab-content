@@ -6,6 +6,11 @@
 
 ## Selected writings
 
+On the [[categorical semantics]] of [[W-types]] by [[initial algebras over an endofunctor]] in [[homotopy type theory]]:
+
+* [[Christian Sattler]], _On relating indexed W-types with ordinary ones_, in *[Types for Proofs and Programs -- TYPES 2015](https://cs.ioc.ee/types15/abstracts-book/)* (2015) 71-72 &lbrack;[pdf](http://cs.ioc.ee/types15/abstracts-book/contrib31.pdf), [[Sattler-WTypes.pdf:file]]&rbrack;
+
+
 On the [[fibration category of semi-simplicial sets]]:
 
 * {#Sattler18} [[Christian Sattler]], *Constructive homotopy theory of marked semisimplicial sets* ([arXiv:1809.11168](https://arxiv.org/abs/1809.11168))
