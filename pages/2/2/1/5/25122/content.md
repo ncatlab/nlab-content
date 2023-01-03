@@ -37,9 +37,11 @@ Homotopy pushouts are at least mentioned in essentially any textbook on [[homoto
 
 Dedicated textbook introductions:
 
-* [[Jeffrey Strom]], *Homotopy Pushput Squares*, §7.1 in: *Modern classical homotopy theory*, Graduate Studies in Mathematics **127**, American Mathematical Society (2011) &lbrack;[doi:10.1090/gsm/127](http://www.ams.org/books/gsm/127/)&rbrack;
+* [[Jeffrey Strom]], *Homotopy Pushout Squares*, §7.1 in: *Modern classical homotopy theory*, Graduate Studies in Mathematics **127**, American Mathematical Society (2011) &lbrack;[doi:10.1090/gsm/127](http://www.ams.org/books/gsm/127/)&rbrack;
 
 * [[Martin Arkowitz]], *Homotopy Pushouts and Pullbacks*, §6 in: *Introduction to Homotopy Theory*, Springer (2011) &lbrack;[doi:10.1007/978-1-4419-7329-0](https://doi.org/10.1007/978-1-4419-7329-0)&rbrack;
+
+* [[Peter May]], [[Kate Ponto]], *Some basic homotopy colimits*, §2.1 in: _[[More concise algebraic topology]]_,   University of Chicago Press (2012) &lbrack;[ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html), [pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf)&rbrack;
 
 
 For more references see at 
