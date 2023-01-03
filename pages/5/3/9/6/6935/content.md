@@ -190,17 +190,280 @@ of $F$-[[algebra for an endofunctor|algebra]] maps $W \to X$ is
 &lbrack;[Awodey, Gambino & Sojakova (2012)](#AwodeyGambinoSojakova12)&rbrack;
 
 ## Examples
+ {#Examples}
+
+> In the first examples to follow, the [[computation rules]] are written with ordinary equality signs "=". At least for extensional inductive types these are [[judgemental equalities]].
+
+\linebreak 
+
+### Unit type
+ {#UnitType}
+
+The inductive [[inference rules]] for the [[unit type]]:
+
+
+**[[type formation rule]]:**
+
+$$
+  \frac{
+  }{
+    \mathclap{\phantom{\vert^{\vert}}}
+    \ast \,\colon\, Type
+  }
+$$
+
+\linebreak
+
+
+**[[term introduction rule]]:**
+
+$$
+  \frac{
+  }{
+    \mathclap{\phantom{\vert^{\vert}}}
+    pt \,\colon\, \ast
+  }
+$$
+
+\linebreak
+
+**[[term elimination rule]]:**
+
+$$
+  \frac{
+    x \,\colon\, \ast
+    \;\vdash\;\;
+    D(x) \,:\, Type
+    \;;
+    \;\;\;
+    pt_D \,\colon\, D(pt)
+    \mathclap{\phantom{\vert_{\vert}}}
+  }{
+    \mathclap{\phantom{\vert^{\vert}}}
+    ind_{(D,\,pt_D)}
+    \,\colon\,
+    \underset{x \colon \ast}{\prod}
+    D(x)
+  }
+$$
+
+\linebreak
+
+**[[computation rule]]:**
+
+$$
+  ind_{(D,\,pt_D)}(pt)
+  \;=\;
+  pt_D
+$$
+
+
+\linebreak
+
 
 ### Booleans
  {#Booleans}
 
+The [[inference rules]] for the type of classical [[truth values]]/[[bits]] (the classical [[boolean domain]]):
+
+\linebreak
+
+**[[type formation rule]]:**
+
+$$
+  \frac{
+  }{
+    Bit \,\colon\, Type
+  }
+$$
+
+\linebreak
+
+**[[term introduction rule]]:**
+
+$$
+  \frac{ 
+  }{
+    0 \,\colon\, Bit
+  }
+  \;\;\;\;\;
+  \frac{ 
+  }{
+    1 \,\colon\, Bit
+  }
+$$
+
+\linebreak
+
+**[[term elimination rule]]:**
+
+$$
+  \frac{
+    b \,\colon\, Bit \;\vdash\; P(b)
+    ;\;
+    \;\;
+    0_P \,\colon\, P(0)
+    ;\;
+    \;\;
+    1_P \,\colon\, P(1)
+  }{
+    ind_{(P,\,0_P,\,1_P)} 
+      \,\colon\, 
+    \underset{b \colon Bit}{\prod} P(b)
+  }
+$$
+
+\linebreak
+
+**[[computation rules]]:**
+
+$$
+  \frac{
+    b \,\colon\, Bit \;\vdash\; P(b)
+    ;\;
+    \;\;
+    0_P \,\colon\, P(0)
+    ;\;
+    \;\;
+    1_P \,\colon\, P(1)
+  }{
+    \begin{array}{l}
+    ind_{(P,\,0_P,\,1_P)}(0) \;=\; 0_P
+    ;\;
+    \\
+    ind_{(P,\,0_P,\,1_P)}(1) \;=\; 1_P
+    \end{array}
+  }
+$$
+
 See at *[Boolean domain -- In type theory](boolean+domain#InTypeTheory)*
+
+
+\linebreak
+
 
 ### Natural numbers
  {#NaturalNumbers}
 
+The inductive [[inference rules]] for the [[natural numbers type]]:
 
-See at *[[natural numbers type]]*.
+\linebreak
+
+1. **[[type formation rule]]**:
+
+   $$
+     \frac{}{
+       \mathclap{\phantom{\vert^{\vert}}}
+       \mathbb{N} \,\colon\, Type
+     }
+   $$
+
+2. **[[term introduction rules]]**:
+
+   $$
+     \frac{}{
+       \mathclap{\phantom{\vert^{\vert}}}
+       0 \,\colon\, \mathbb{N}
+     }
+     \;\;\;\;\;\;\;\;
+     \frac{
+       n \,\colon\, \mathbb{N}
+       \mathclap{\phantom{\vert_{\vert}}}
+     }{
+       \mathclap{\phantom{\vert^{\vert}}}
+       succ(n) \,\colon\, \mathbb{N}
+     }
+   $$
+
+3. **[[term elimination rule]]**:
+
+   $$
+     \frac{
+       n \,\colon\, \mathbb{N} 
+         \;\vdash\; 
+       P(n) \,\colon\, Type
+       \;;
+       \;\;\;\;
+       \vdash\; 0_P \,\colon\, P(0)
+       \;;
+       \;\;\;\;
+       n \,\colon\, \mathbb{N}
+       \,,
+       \; 
+       p \,\colon\, P(x) 
+         \;\vdash\; 
+       succ_P(n,\,p) \,\colon\, P\big(succ(n)\big)
+       \mathclap{\phantom{\vert_{\vert}}}
+     }{
+       \mathclap{\phantom{\vert^{\vert}}}
+       n \,\colon\, \mathbb{N}
+       \;\vdash\;
+       ind_{(P, 0_P, succ_P)}(n)
+        \,\colon\, 
+       P(n)
+     }
+   $$
+   
+4. **[[computation rules]]**:
+
+   $$
+     \frac{
+       n \,\colon\, \mathbb{N} 
+        \;\vdash\;  
+       P(n) \,\colon\, Type
+       \;;
+       \;\;\;\;
+         \vdash\; 
+       0_P \,\colon\, P(0)
+       \;;
+       \;\;\;\;
+       n \,\colon\, \mathbb{N}
+       \,, 
+       \;
+       p \,\colon\, P(x) 
+         \;\vdash\; 
+       succ_P(n,p) \,\colon\, P\big(succ(n)\big)
+       \mathclap{\phantom{\vert_{\vert}}}
+     }{
+       \mathclap{\phantom{\vert^{\vert}}}
+       ind_{(P, 0_P, succ_P)}(0)
+        \,=\, 
+       0_P 
+     }
+   $$
+
+   and
+
+   $$
+     \frac{
+       n \,\colon\, \mathbb{N} 
+         \;\vdash\;  
+       P(x) \,\colon\, Type
+       \;;
+       \;\;\;\;
+       \vdash\; 0_P \,\colon\, P(0)
+       \;;
+       \;\;\;\;
+       n \,\colon\, \mathbb{N}
+       \,, 
+       \;
+       p \,\colon\, P(x) 
+         \;\vdash\; 
+       succ_P(x,p) \,\colon\, P(s x)
+       \;;
+       \;\;\;\;
+       \vdash\; n \,\colon\, \mathbb{N}
+       \mathclap{\phantom{\vert_{\vert}}}
+     }{
+       \mathclap{\phantom{\vert^{\vert}}}
+       ind_{(P, 0_P, succ_P)}\big(succ(n)\big)
+       \,=\, 
+       succ_P\big(n,\, ind_{(P, 0_P, succ_P)}(n) \big) 
+     }
+   $$
+
+
+\linebreak
 
 ### Lists
 
