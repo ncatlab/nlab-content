@@ -60,7 +60,7 @@ This now says that $X$ is contractible iff $X$ is [[inhabited type|inhabited]] a
 
 There is a third definition of a contractible type, provably equivalent to the others. 
 
-\begin{definition}
+\begin{definition}\label{SingletonInduction}
 Let $(A, a:A)$ be a [[pointed type]]. $A$ satisfies **singleton induction** if for every [[type family]] $B$ over $A$ the dependent function 
 $$\mathrm{evpt}(a):\left(\prod_{x:A} B(x)\right) \to B(a)$$
 has a [[section]]. A **contractible type** is a pointed type which satisfies singleton induction. 
