@@ -129,8 +129,12 @@ Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 
 * Yiqian Chen, Xiaobo Guo, Peng Wang, *Holographic Superconductors in a Non-minimally Coupled Einstein-Maxwell-scalar Model* ([arXiv:2111.03810](https://arxiv.org/abs/2111.03810))
 
-* Chuan-Yin Xia, Hua-Bi Zeng, Yu Tian, Chiang-Mei Chen, [[Jan Zaanen]],
-*Holographic Abrikosov lattice: vortex matter from black hole* ([arXiv:2111.07718](https://arxiv.org/abs/2111.07718))
+* Chuan-Yin Xia, Hua-Bi Zeng, Yu Tian, Chiang-Mei Chen, [[Jan Zaanen]], *Holographic Abrikosov lattice: vortex matter from black hole* ([arXiv:2111.07718](https://arxiv.org/abs/2111.07718))
+
+* Dong Wang, Xiongying Qiao, Qiyuan Pan, Chuyu Lai, Jiliang Jing, *Holographic entanglement entropy and complexity for the excited states of holographic superconductors* &lbrack;[arXiv:2301.00513](https://arxiv.org/abs/2301.00513)&rbrack;
+
+  > (in relation to [[holographic entanglement entropy]])
+
 
 ### High $T_c$-superconductivity
 
