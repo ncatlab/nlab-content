@@ -3,7 +3,15 @@
 
 * [blog](http://existentialtype.wordpress.com/)
 
-## Writings
+
+
+## Selected writings
+
+
+On [[logical frameworks]]:
+
+* [[Robert Harper]], [[Furio Honsell]], [[Gordon Plotkin]], _A framework for defining logics_, J. ACM __40__:1 (1993) 143--184 &lbrack;[doi:10.1145/138027.138060](https://doi.org/10.1145/138027.138060)&rbrack;
+
 
 An introduction to [[program|programming]] languages in terms of [[type theory]]:
 
