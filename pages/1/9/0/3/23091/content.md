@@ -138,7 +138,11 @@ On [[homotopy category of a model category|localization via]] [[model category]]
 
 * {#Hirschhorn02} [[Philip Hirschhorn]], _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
 
-* [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]], [[Jeffrey H. Smith]], _Homotopy Limits Functors on Model Categories and Homotopical Categories_, [AMS](https://bookstore.ams.org/surv-113-s/), Mathematical Surveys and Monographs 113 (2004).
+* [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]], [[Jeffrey H. Smith]], _[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]_, Mathematical Surveys and Monographs 113 (2004) $[$[ISBN: 978-1-4704-1340-8](https://bookstore.ams.org/surv-113-s), [pdf](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf)$]$
+
+On [[localization]] (especially of categories of [[simplicial sheaves]]/[[simplicial presheaves]]) via [[categories of fibrant objects]]:
+
+* [[Kenneth S. Brown]], *[[BrownAbstractHomotopyTheory.pdf:file]]*, Transactions of the American Mathematical Society **186** (1973) 419-458 $[$[jstor:1996573](http://www.jstor.org/stable/1996573)$]$.
 
 
 See also:
