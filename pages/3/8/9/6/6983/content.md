@@ -45,7 +45,7 @@ The positive unit type says that $\mathbb{1}$ satisfies [[singleton induction]].
 
 #### As a positive type
 
-Singleton induction for a type $\mathbb{1}$ and term $*:\mathbb{1}$ states that the type has the following [[elimination rule]], [[computation rule]], and [[uniqueness rule]]:
+[[singleton induction|Singleton induction]] for a type $\mathbb{1}$ and term $*:\mathbb{1}$ states that the type has the following [[elimination rule]], [[computation rule]], and [[uniqueness rule]]:
 
 * given a type family $C(x)$ indexed by $\mathbb{1}$, for all elements $x:\mathbb{1}$ and $c:C(*)$, there is an element $\mathrm{ind}_\mathbb{1}^C(x, c):C(x)$. 
 
@@ -210,6 +210,15 @@ These two conditions are the same if the [[syntactic category]] is a [[cartesian
 * [[product type]]
 * [[empty type]]
 * [[contractible type]]
+
+## References
+
+On the unit type as an [[inductive type]] satisfying [[singleton induction]]:
+
+* [[Univalent Foundations Project]], p. 30 *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+* [[Egbert Rijke]], Def. 3.1.1 in: *[[Introduction to Homotopy Type Theory]]*, lecture notes, CMU (2018) &lbrack;[pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [[Rijke-IntroductionHoTT-2018.pdf:file]], [webpage](https://www.andrew.cmu.edu/user/erijke/hott/)&rbrack;
+
 
 [[!include homotopy n-types - table]]
 
