@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # W-types
 * table of contents
 {: toc}
@@ -351,62 +352,32 @@ In [[homotopy type theory]], if $C$ has [[h-level]] $n\geq -1$, then any $\mathc
 
 [[!include notions of type]]
 
+
 ## References
+
+### General
 
 The original definition in [[type theory]] is due to
 
 * {#Martin-Löf84} [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), [pp. 43](https://ncatlab.org/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=49) of: _Intuitionistic type theory_, Lecture notes Padua 1984, Bibliopolis, Napoli (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
  
 
-The [[categorical semantics]] of W-types by [[initial algebra of an endofunctor|initial algebras of]] [[polynomial  functor|polynomial]] [[endofunctors]]:
-
-* {#Dybjer97} [[Peter Dybjer]], *Representing inductively defined sets by wellorderings in Martin-Löf's type theory*, Theoretical Computer Science **176** 1–2 (1997) 329-335 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(96)00145-4">doi:10.1016/S0304-3975(96)00145-4</a>&rbrack;
-
-
-* {#MoerdijkPalmgren00} [[Ieke Moerdijk]], [[Erik Palmgren]], *Wellfounded trees in categories*, Annals of Pure and Applied Logic **104** 1-3 (2000) 189-218 &lbrack;<a href="https://doi.org/10.1016/S0168-0072(00)00012-9">doi:10.1016/S0168-0072(00)00012-9</a>&rbrack;
- 
-*  [[Benno van den Berg]],  [[Ieke Moerdijk]], _$W$-types in sheaves_ &lbrack;[arXiv:0810.2398](https://arxiv.org/abs/0810.2398)&rbrack;
-
-
-Dependent W-type were introduced in 
-
-* {#GambinoHyland04} [[Nicola Gambino]], [[Martin Hyland]], *Wellfounded trees and dependent polynomial functors*, In Types for proofs and programs, volume 3085 of Lecture Notes in Comput. Sci., pages 210&#8211;225. Springer-Verlag, Berlin, 2004 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.98.4534))
-
-see also:
-
-* {#AbbottAltenkirchGhani04} [[Michael Abbott]], [[Thorsten Altenkirch]], [[Neil Ghani]]: *Representing Nested Inductive Types using W-types*, in: *Automata, Languages and Programming*, ICALP 2004, Lecture Notes in Computer Science, **3142**, Springer (2004) &lbrack;[doi:10.1007/978-3-540-27836-8_8](https://doi.org/10.1007/978-3-540-27836-8_8), [pdf](http://www.cs.nott.ac.uk/~psztxa/publ/icalp04.pdf)&rbrack;
-
-  exposition: _Inductive Types for Free -- Representing nested inductive types using W-types_, talk at ICALP (2004) &lbrack;[pdf](http://www.cs.nott.ac.uk/~txa/talks/icalp-slides.pdf)&rbrack;
-
-
-Discussion in relation to [[identity types]] and [[homotopy type theory]] is in
-
-* {#AwodeyGambinoSojakova12} [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory*, LICS'12: (2012) 95–104 &lbrack;[arXiv:1201.3898](http://arxiv.org/abs/1201.3898), [doi:10.1109/LICS.2012.21](https://doi.org/10.1109/LICS.2012.21), [Coq code](https://github.com/HoTT/HoTT/tree/master/Coq/IT)&rbrack;
- 
-
-* [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Homotopy-initial algebras in type theory*, Journal of the ACM **63** 6 (2017) 1–45 &lbrack;[arXiv:1504.05531](http://arxiv.org/abs/1504.05531), [doi:10.1145/3006383](https://doi.org/10.1145/3006383)&rbrack;
+In [[homotopy type theory]]:
 
 * [[Jasper Hugunin]], *Why Not W?*, Leibniz International Proceedings in Informatics (LIPIcs) **188** (2021) &lbrack;[doi:10.4230/LIPIcs.TYPES.2020.8](https://doi.org/10.4230/LIPIcs.TYPES.2020.8), [pdf](https://jashug.github.io/papers/whynotw.pdf)&rbrack; 
 
-Work towards dependent W-types in HoTT is here; see also [[inductive families]].
-
-* [[Christian Sattler]], _On relating indexed W-types with ordinary ones_ (2015) &lbrack;[PDF](http://cs.ioc.ee/types15/abstracts-book/contrib31.pdf)&rbrack;
-
-A formal proof about the [[h-level]] of W-types is discussed in
+On the [[h-level]] of W-types:
 
 * {#Danielsson12} Nils Anders Danielsson, _Positive h-levels are closed under W_ (2012) &lbrack;[web](https://homotopytypetheory.org/2012/09/21/positive-h-levels-are-closed-under-w/)&rbrack;
-
-and also in
 
 * [[Jasper Hugunin]], _IWTypes_, <https://github.com/jashug/IWTypes>
 
 which also computes the [[identity types]] of W-types (and more generally [[indexed W-types]]).
-
-Discussion of W-types in [[homotopy type theory]], or rather in [[model categories]] presenting [[homotopy theories]], is in 
-
-* {#vdBergMoerdijk13} [[Benno van den Berg]], [[Ieke Moerdijk]], _W-types in Homotopy Type Theory_ ([arXiv:1307.2765](http://arxiv.org/abs/1307.2765))
  
+W-types in [[Coq]]: [wiki](https://coq.inria.fr/cocorico/WTypeInsteadOfInductiveTypes)
 
-W-types in [[Coq]] [wiki](https://coq.inria.fr/cocorico/WTypeInsteadOfInductiveTypes)
+
+[[!include semantics of W-types -- references]]
+
 
 [[!redirects W-types]]
