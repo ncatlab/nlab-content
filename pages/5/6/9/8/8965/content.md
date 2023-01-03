@@ -30,10 +30,10 @@ In [[type theory]]: the the _natural numbers type_ is the [[type]] of [[natural 
 
 ## Definition
 
-+-- {: .num_defn #InterpretationOfTheRules}
++-- {: .num_defn #InferenceRules}
 ###### Definition
 
-The [[type of natural numbers]] $\mathbb{N}$ is the [[inductive type]] defined as follows.
+The [[type of natural numbers]] $\mathbb{N}$ is the [[inductive type]] defined by the following [[inference rules]].
 
 1. **[[type formation rule]]**:
 
@@ -152,13 +152,14 @@ The [[type of natural numbers]] $\mathbb{N}$ is the [[inductive type]] defined a
 
 =--
 
-See for instance [Martin-Löf (1984)](#Martin-Löf84), [pp. 38](/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=44); [Pfenning (2009, §2)](#Pfenning); [Söhnen (2018, §2.4.5)](#Söhnen18).
+That this is the right definition (and a special case of the general principle of [[inductive types]]) was clearly understood around [Martin-Löf (1984)](#Martin-Löf84), [pp. 38](/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=44); [Coquand & Paulin (1990, p. 52-53)](#CoquandPaulin90); [Paulin-Mohring (1993, §1.3)](#Paulin-Mohring93); [Dybjer (1994, §3)](#Dybjer94). For review see also, e.g., [Pfenning (2009, §2)](#Pfenning); [UFP (2013, §1.9)](#UFP13); [Söhnen (2018, §2.4.5)](#Söhnen18).
 
-In [[Coq]]-[[syntax]] the [[natural numbers]] are the inductive type defined by
+In [[Coq]]-[[syntax]] the [[natural numbers]] are the [[inductive type]] defined &lbrack;cf. [Paulin-Mohring (2014, p. 6)](#Paulin-Mohring14)&rbrack; by 
 
     Inductive nat : Type :=
      | zero : nat
      | succ : nat -> nat.
+
 
 In the [[categorical semantics]] (via the [[categorical model of dependent types]], see [below](#CategoricalSemantics))
 this is interpreted as the [[initial algebra for an endofunctor|initial algebra]] for the [[endofunctor]] $F$ that sends an object to its [[coproduct]] with the [[terminal object]] 
@@ -176,7 +177,7 @@ $$
   \,.
 $$
 
-That [[initial algebra for an endofunctor|initial algebra]] is (as also explained [there](#initial+algebra+of+an+endofunctor#NaturalNumbers)) precisely a [[natural number object]] $\mathbb{N}$. The two components of the morphism $F(\mathbb{N}) \to \mathbb{N}$ that defines the algebra structure are the 0-[[generalized element|element]] $0 \colo * \to \mathbb{N}$ and the [[successor]] [[endomorphism]] $succ \colon \mathbb{N} \to \mathbb{N}$
+That [[initial algebra for an endofunctor|initial algebra]] is (as also explained [there](#initial+algebra+of+an+endofunctor#NaturalNumbers)) precisely a [[natural number object]] $\mathbb{N}$. The two components of the morphism $F(\mathbb{N}) \to \mathbb{N}$ that defines the algebra structure are the 0-[[generalized element|element]] $0 \,\colon\, * \to \mathbb{N}$ and the [[successor]] [[endomorphism]] $succ \colon \mathbb{N} \to \mathbb{N}$
 
 $$
   (0 ,\, succ) 
@@ -195,7 +196,7 @@ $$
 \begin{example}\label{NaturalNumbersAsWType}
 **([[natural numbers type]] as a [[W-type|$\mathcal{W}$-type]])**
 \linebreak
-The [[natural numbers type]] $(\mathbb{N},\, 0,\, succ)$ is equivalently the [[W-type|$\mathcal{W}$-type]] with
+The [[natural numbers type]] $(\mathbb{N},\, 0,\, succ)$ (Def. \ref{InferenceRules}) is equivalently the [[W-type|$\mathcal{W}$-type]] $\underset{c \colon C}{\mathcal{W}} A(c)$ with:
 
 * $C \,\coloneqq\, \{0, succ\} \,\simeq\, \ast \sqcup \ast$;
 
@@ -228,12 +229,12 @@ for the category of [[algebra over an endofunctor|algebras over the endofunctor]
  {#Recursion}
 
 
-We spell out how the fact that $\mathbb{N}$ satisfies Def. \ref{InterpretationOfTheSimpleRules} is the classical [[recursion principle]]. 
+We spell out how the fact that $\mathbb{N}$ satisfies Def. \ref{InferenceRules} is the classical [[recursion principle]]. 
 
 
 \linebreak
 
-We begin with a simple special case of recursion, where not only the underlying type but also its successor-map is independent of $\mathbb{N}$ (we come to the general form of recursion further [below](#RecursionGenerally)).
+We begin with a simple special case of recursion (cf. Rem. \ref{NeedForDependentRecursion}), where not only the underlying type but also its successor-map is independent of $\mathbb{N}$ (we come to the general form of recursion further [below](#RecursionGenerally)).
 
 So consider any $F$-algebra $\big(D, (0_D, succ_D)\big) \,\in\, F Alg(\mathcal{C})$ (eq:CategoryOfFAlgebras), hence an [[object]] $D \in \mathcal{C}$ equipped with a morphism
 
@@ -251,7 +252,7 @@ $$
 By [[initial object|initiality]] of the $F$-algebra $\mathbb{N}$, there is then a (unique) morphism
 
 $$
-  f \colon \mathbb{N} \to D
+  rec \,\colon\, \mathbb{N} \to D
 $$
 
 such that the following [[commuting diagram|diagram commutes]]:
@@ -266,9 +267,9 @@ $$
     \\
     \big\downarrow 
     && 
-    \big\downarrow\mathrlap{^\mathrlap{f}} 
+    \big\downarrow\mathrlap{^\mathrlap{rec}} 
     && 
-    \big\downarrow\mathrlap{^\mathrlap{f}}
+    \big\downarrow\mathrlap{^\mathrlap{rec}}
     \\
     * 
     &\underset{0_D}{\longrightarrow}& 
@@ -278,14 +279,22 @@ $$
   }
 $$
 
-This means precisely that $f$ is the function defined recursively by
+This means precisely that $rec$ is the function [[recursive definition|defined recursively]] by
 
-1. $f(0) \;=\; 0_D$;
+\[
+  rec(0) \;=\; 0_D
+\]
+and
+\[
+  \label{FormulaForNonDependentRecursion}
+  rec\big(succ(n)\big) 
+   \;=\; 
+  succ_D\big(rec(n)\big)
+  \,.
+\]
 
-1. $f\big(succ(n)\big) \;=\; succ_D\big(f(n)\big)$.
 
-
-{#RecursionGenerally} More generally, consider an $F$-algebra in the [[slice category|slice]] over $\big(\mathbb{N}, (0,succ)\big)$, but with the [[underlying]] slice object assumed to be independent of $\mathbb{N}$, hence of the form
+{#RecursionGenerally} More generally, consider an $F$-algebra in the [[slice category|slice]] over $\big(\mathbb{N}, (0,succ)\big)$, but with the [[underlying]] slice object assumed (dropping also this assumption leads to the fully general notion of induction further [below](#Induction)) to be independent of $\mathbb{N}$, hence of the form
 
 \[
   \label{AssumingUnderlyingScliceObjectToBeIndependent}
@@ -426,22 +435,31 @@ Now, since with $\big(\mathbb{N},(0,\mathrm{succ})\big)$ being the [[initial obj
 
 Here the [[commuting diagram|commutativity]] of the top square means equivalently that
 
-$$
+\[
   \mathrm{rec}(0) \,=\, 0_D
-  \;\;\;\;\text{and}\;\;\;\;\;
+\]
+and
+\[
+\label{FormulaForDependentRecursion}
   \mathrm{rec}\big(
     \mathrm{succ}(n)
   \big)
   \;=\;
   \mathrm{succ}_D\big(n,\, \mathrm{rec}(n)\big)
   \,.
-$$
+\]
+
+\begin{remark}\label{NeedForDependentRecursion}
+**(the need for dependent recursion &lbrack;[Paulin-Mohring (1993, p. 330)](#Paulin-Mohring93)&rbrack;)**
+\linebreak
+  The appearance of the argument "$n$" on the right of (eq:FormulaForDependentRecursion) -- in contrast to formula (eq:FormulaForNonDependentRecursion) for non-dependent recursion -- means (in view of the argument $succ(n)$ on the left) that the recursor $succ_D$ has access to the *[[predecessor]]* [[function]]. This is necessary in order to express all computable functions on the natural numbers inductively and hence explains the need for the [[dependent type|dependently typed]] recursion principle (eq:AssumingUnderlyingScliceObjectToBeIndependent) 
+\end{remark}
 
 
 #### Induction
  {#Induction}
 
-Dropping the above constraint (eq:AssumingUnderlyingScliceObjectToBeIndependent) on the dependent $F$-algebra, we spell out in detail how the fact that $\mathbb{N}$ satisfied def. \ref{InterpretationOfTheRules} is the classical [[induction principle]]. 
+Dropping the above constraint (eq:AssumingUnderlyingScliceObjectToBeIndependent) on the dependent $F$-algebra, we spell out in detail how the fact that $\mathbb{N}$ satisfied Def. \ref{InferenceRules} is the classical [[induction principle]]. 
 
 That principle says informally that if a [[proposition]] $P$ depending on the natural numbers is true at $n = 0$ and such that if it is true for some $n$ then it is true for $n+1$, then it is true for all natural numbers.
  
@@ -684,7 +702,7 @@ $$
   \,.
 $$
 
-The categorical interpretation of this is as a morphism $p \,\colon\, \mathbb{N} \to P$ in $\mathcal{C}_{/\mathbb{N}}$. The existence of this is indeed exactly what the interpretation of the elimination rule, def. \ref{InterpretationOfTheRules}, gives, or (equivalently by prop. \ref{BothFormulationsOfInitialityAreEquivalent}) exactly what the initiality of the $F$-algebra $\mathbb{N}$ gives.
+The categorical interpretation of this is as a morphism $p \,\colon\, \mathbb{N} \to P$ in $\mathcal{C}_{/\mathbb{N}}$. The existence of this is indeed exactly what the interpretation of the elimination rule (Def. \ref{InferenceRules}) gives exactly what the initiality of the $F$-algebra $\mathbb{N}$ gives.
 
 
 ## Related concepts
@@ -696,8 +714,22 @@ The categorical interpretation of this is as a morphism $p \,\colon\, \mathbb{N}
 
 ## References
 
+Original articles with emphasis on the nature of $\mathbb{N}$ as an [[inductive type]]:
+
 * {#Martin-Löf84} [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), [pp. 38](/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=44) of: _Intuitionistic type theory_, Lecture notes Padua 1984, Bibliopolis, Napoli (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
 
+* {#CoquandPaulin90} [[Thierry Coquand]], [[Christine Paulin]], p. 52-53 in:  *Inductively defined types*, COLOG-88 Lecture Notes in Computer Science **417**, Springer (1990) 50-66 &lbrack;[doi:10.1007/3-540-52335-9_47](https://doi.org/10.1007/3-540-52335-9_47)&rbrack;
+
+* {#Paulin-Mohring93} [[Christine Paulin-Mohring]], §1.3 in: *Inductive definitions in the system Coq -- Rules and Properties*, in: *Typed Lambda Calculi and Applications* TLCA 1993, Lecture Notes in Computer Science **664** Springer (1993) &lbrack;[doi:10.1007/BFb0037116](https://doi.org/10.1007/BFb0037116)&rbrack;
+
+* {#Dybjer94} [[Peter Dybjer]], §3 in: *Inductive families*, Formal Aspects of Computing **6** (1994) 440–465 $[$[doi:10.1007/BF01211308](https://doi.org/10.1007/BF01211308), [doi:10.1007/BF01211308](https://doi.org/10.1007/BF01211308), [pdf](http://www.cse.chalmers.se/~peterd/papers/Inductive_Families.pdf)$]$
+
+The syntax in [[Coq]]:
+
+* {#Paulin-Mohring14} [[Christine Paulin-Mohring]], p. 6 in: *Introduction to the Calculus of Inductive Constructions*, contribution to: *Vienna Summer of Logic* (2014) &lbrack;[hal:01094195](https://hal.inria.fr/hal-01094195), [pdf](https://hal.inria.fr/hal-01094195/document), [pdf slides](https://easychair.org/smart-program/VSL2014/APPA-invited-slides-6.pdf)&rbrack;
+
+
+See also:
 
 * {#Pfenning} [[Frank Pfenning]], _Lecture notes on natural numbers_ (2009) &lbrack;[pdf](http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/06-nat.pdf), [[Pfenning-NaturalNumbersType.pdf:file]]&rbrack;
 
@@ -705,7 +737,7 @@ The categorical interpretation of this is as a morphism $p \,\colon\, \mathbb{N}
   
 Discussion in a context of [[homotopy type theory]] and in view of [[higher inductive types]]:
 
-* [[Univalent Foundations Project]], §1.9 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+* {#UFP13} [[Univalent Foundations Project]], §1.9 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
 
 * {#Söhnen18} Kajetan Söhnen, §2.4.5 in: *Higher Inductive Types in Homotopy Type Theory*, Munich (2018) &lbrack;[pdf](https://www.math.lmu.de/~petrakis/Soehnen.pdf), [[Soehnen-HigherInductiveTypes.pdf:file]]&rbrack;
