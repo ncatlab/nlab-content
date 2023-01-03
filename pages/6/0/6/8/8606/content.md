@@ -55,7 +55,7 @@ of
 
 * the [[diagonal]] on $G\times G$;
 
-* the [[direct product]] $(f,g)$;
+* the [[direct product]] $(c_1,c_2)$;
 
 * the group operation $+ \colon A \times A \to A$.
 
