@@ -25,7 +25,7 @@ On [[internal type theory]]:
 * [[Peter Dybjer]], *Internal type theory*, in:  *Types for Proofs and Programs*, Lecture Notes in Computer Science **1158** (1996) 120-134 &lbrack;[doi:10.1007/3-540-61780-9_66](https://doi.org/10.1007/3-540-61780-9_66), [pdf](http://www.cse.chalmers.se/~peterd/papers/InternalTT.pdf)&rbrack;  
 
 
-On the [[categorucal semantics]] of [[W-types]] by [[initial algebras over an endofunctor]]:
+On the [[categorical semantics]] of [[W-types]] by [[initial algebras over an endofunctor]]:
 
 * [[Peter Dybjer]], *Representing inductively defined sets by wellorderings in Martin-Löf's type theory*, Theoretical Computer Science **176** 1–2 (1997) 329-335 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(96)00145-4">doi:10.1016/S0304-3975(96)00145-4</a>&rbrack;
 
