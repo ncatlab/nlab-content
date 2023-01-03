@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+A first [[type theory|type theoretic]] formulation of general [[inductive definitions]] (precusor notion of [[inductive types]]):
+
+* [[Per Martin-Löf]], *Hauptsatz for the Intuitionistic Theory of Iterated Inductive Definitions*, Studies in Logic and the Foundations of Mathematics **63** (1971) 179-216 &lbrack;<a href="https://doi.org/10.1016/S0049-237X(08)70847-4">doi:10.1016/S0049-237X(08)70847-4</a>&rbrack;
+
+
 Introducing [[Martin-Löf dependent type theory]]:
 
 * {#MartinLof75} [[Per Martin-Löf]], Section 1.7 in: _An intuitionistic theory of types: predicative part_, in: H. E. Rose, J. C. Shepherdson (eds.), *Logic Colloquium '73, Proceedings of the Logic Colloquium*, Studies in Logic and the Foundations of Mathematics **80** Pages 73-118,  Elsevier 1975 (<a href="https://doi.org/10.1016/S0049-237X(08)71945-1">doi:10.1016/S0049-237X(08)71945-1</a>, [CiteSeer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
