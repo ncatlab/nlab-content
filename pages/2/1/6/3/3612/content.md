@@ -63,7 +63,9 @@ Original articles:
   > (adding [[inductive types]])
 
 
-Surveys:
+Review and surveys:
+
+* [[Zhaohui Luo]], *Computation and Reasoning -- A Type Theory for Computer Science*, Clarendon Press (1994) $[$[ISBN:9780198538356](https://global.oup.com/academic/product/computation-and-reasoning-9780198538356), [pdf](https://www.researchgate.net/profile/Zhaohui-Luo-4/publication/243770570_Computation_and_Reasoning_A_Type_Theory_for_Computer_Science/links/54d0dc6b0cf29ca81103f26a/Computation-and-Reasoning-A-Type-Theory-for-Computer-Science.pdf)$]$
 
 * M. Bunder, [[Jonathan Seldin]], *Variants of the basic calculus of constructions*, Journal of Applied Logic
 **2** 2 (2004) 191-217 &lbrack;[doi:10.1016/j.jal.2004.02.004](https://doi.org/10.1016/j.jal.2004.02.004)&rbrack;
@@ -75,7 +77,7 @@ Surveys:
 
 * Wikipedia, _[Calculus of constructions](http://en.wikipedia.org/wiki/Calculus_of_constructions)_
 
-A categorical semantics for CoC is discussed in
+A [[categorical semantics]] for CoC is discussed in
 
 * [[Martin Hyland]], [[Andy Pitts]], _The Theory of Constructions: Categorical Semantics and Topos-theoretic Models_ , Cont. Math. **92** (1989) pp.137-199. ([draft](https://www.dpmms.cam.ac.uk/~martin/Research/Pub81-90/hp89.pdf))
 
