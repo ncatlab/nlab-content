@@ -163,8 +163,8 @@ Then inspired by the development of [[Martin-Löf dependent type theory]] was th
 
 The original logical framework using a synthetic approach was introduced in
 
-* {#Harper} [[Robert Harper]], Furio Honsell, Gordon Plotkin, _A framework for defining logics_, J. ACM __40__:1 (1993) 143--184 [doi](https://doi.org/10.1145/138027.138060)
- {#HHP}
+* {#HHP} [[Robert Harper]], [[Furio Honsell]], [[Gordon Plotkin]], _A framework for defining logics_, J. ACM __40__:1 (1993) 143--184 &lbrack;[doi:10.1145/138027.138060](https://doi.org/10.1145/138027.138060)&rbrack;
+ 
 
 while the analytic version was proposed by
 
