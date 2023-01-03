@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+Formalization of (the proof of) the [[Blakers-Massey theorem]] in [[homotopy type theory]]:
+
+* {#FFLL16} [[Kuen-Bang Hou]] ([[Favonia]]), [[Eric Finster]], [[Dan Licata]], [[Peter LeFanu Lumsdaine]], *A mechanization of the Blakers-Massey connectivity theorem in Homotopy Type Theory*, LICS '16 (2016) 565–574  &lbrack;[arXiv.1605.03227](https://arxiv.org/abs/1605.03227), [doi:10.1145/2933575.2934545](https://doi.org/10.1145/2933575.2934545)&rbrack;
+
+
 Proving the [[Blakers-Massey theorem]] in any [[(infinity,1)-topos|$(\infty,1)$-topos]] and with the [[(n-connected, n-truncated) factorization system]] allowed to be replaced by more general [[modal homotopy type theory|modalities]]:
 
 * {#AnelBiedermanFinsterJoyal17a} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]], _A Generalized Blakers-Massey Theorem_, Journal of Topology **13** 4 (2020) 1521-1553 $[$[arXiv:1703.09050](https://arxiv.org/abs/1703.09050), [doi:10.1112/topo.12163](https://doi.org/10.1112/topo.12163)$]$
@@ -28,7 +33,7 @@ On [[homotopy type theory|homotopy]] [[dependent linear type theory]] of depende
 
 
 
-## Related $n$Lab pages
+## Related entries
 
 
 * [[opetopic type theory]]
