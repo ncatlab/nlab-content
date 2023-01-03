@@ -144,7 +144,7 @@ The [[type of natural numbers]] $\mathbb{N}$ is the [[inductive type]] defined b
        \mathclap{\phantom{\vert^{\vert}}}
        ind_{(P, 0_P, succ_P)}\big(succ(n)\big)
        \,=\, 
-       succ_P\big(n,\, rec^n_P(0_P,\, succ_P)\big) 
+       succ_P\big(n,\, ind_{(P, 0_P, succ_P)}(n) \big) 
      }
    $$
 
@@ -154,7 +154,7 @@ The [[type of natural numbers]] $\mathbb{N}$ is the [[inductive type]] defined b
 
 That this is the right definition (and a special case of the general principle of [[inductive types]]) was clearly understood around [Martin-Löf (1984)](#Martin-Löf84), [pp. 38](/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=44); [Coquand & Paulin (1990, p. 52-53)](#CoquandPaulin90); [Paulin-Mohring (1993, §1.3)](#Paulin-Mohring93); [Dybjer (1994, §3)](#Dybjer94). For review see also, e.g., [Pfenning (2009, §2)](#Pfenning); [UFP (2013, §1.9)](#UFP13); [Söhnen (2018, §2.4.5)](#Söhnen18).
 
-In [[Coq]]-[[syntax]] the [[natural numbers]] are the [[inductive type]] defined &lbrack;cf. [Paulin-Mohring (2014, p. 6)](#Paulin-Mohring14)&rbrack; by 
+In [[Coq]]-[[syntax]] the [[natural numbers]] are the [[inductive type]] defined &lbrack;cf. [Paulin-Mohring (2014, p. 6)](#Paulin-Mohring14)&rbrack; by:
 
     Inductive nat : Type :=
      | zero : nat
@@ -450,9 +450,9 @@ and
 \]
 
 \begin{remark}\label{NeedForDependentRecursion}
-**(the need for dependent recursion &lbrack;[Paulin-Mohring (1993, p. 330)](#Paulin-Mohring93)&rbrack;)**
+(**the need for dependent recursion** &lbrack;[cf. Paulin-Mohring (1993, p. 330)](#Paulin-Mohring93)&rbrack;)
 \linebreak
-  The appearance of the argument "$n$" on the right of (eq:FormulaForDependentRecursion) -- in contrast to formula (eq:FormulaForNonDependentRecursion) for non-dependent recursion -- means (in view of the argument $succ(n)$ on the left) that the recursor $succ_D$ has access to the *[[predecessor]]* [[function]]. This is necessary in order to express all computable functions on the natural numbers inductively and hence explains the need for the [[dependent type|dependently typed]] recursion principle (eq:AssumingUnderlyingScliceObjectToBeIndependent) 
+  The appearance of the argument "$n$" on the right of (eq:FormulaForDependentRecursion) -- in contrast to formula (eq:FormulaForNonDependentRecursion) for non-dependent recursion -- means (in view of the argument "$succ(n)$" on the left) that the recursor $succ_D$ has access to the *[[predecessor]]* [[partial function]] $pred \,\colon\,succ(n) \,\mapsto\, n$. This is necessary in order to express all computable functions on the natural numbers inductively and hence explains the need for the [[dependent type|dependently typed]] recursion principle (eq:AssumingUnderlyingScliceObjectToBeIndependent) 
 \end{remark}
 
 
