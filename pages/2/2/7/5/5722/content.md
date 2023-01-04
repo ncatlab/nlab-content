@@ -1,4 +1,4 @@
 
-* [website](http://www.math.jussieu.fr/~kahn/)
+* [website](https://webusers.imj-prg.fr/~bruno.kahn/)
 
 category: people
