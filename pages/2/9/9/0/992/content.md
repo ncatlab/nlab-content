@@ -152,7 +152,7 @@ $$
 $$
   \Sigma : C \to C
 $$
-which are autoequivalences of $C$ that are inverses of each other.
+which are [[autoequivalences]] of $C$ that are inverses of each other.
 
 
 ### Stabilization
@@ -448,11 +448,9 @@ Discussion of how $k$-linear [[dg-categories]]/[[A-infinity categories]] present
 
 * {#Faonte13} [[Giovanni Faonte]], _Simplicial nerve of an A-infinity category_ ([arXiv:1312.2127](http://arxiv.org/abs/1312.2127))
 
-
 A diagram of the interrelation of all models for stable $(\infty,1)$-categories (in the guise of [[enhanced triangulated categories]]) with a list of further literature:
 
 * {#Schwede} [[Stefan Schwede]], [[Markus Hausmann]], _Enhancements of triangulated categories_, Graduate Seminar Topology, Bonn 2019-2020 ([[Schwede_EnhancedSeminar.pdf:file]])
-
 
 For discussion of the [[stable model category]] models of stable $\infty$-categories see
 
