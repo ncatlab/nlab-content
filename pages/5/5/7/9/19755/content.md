@@ -351,7 +351,7 @@ Notice that the squares on the right are _not_ [[homotopy pullback]] squares. (T
 
 * [[automorphism group]], [[automorphism infinity-group]]
 
-* [[automorphism type]]
+* [[autoequivalence type]]
 
 
 ## References
