@@ -81,9 +81,9 @@ Discussion of $n$-truncation as a [[modality]]:
 
 and in addition via [[lifting properties]] against [[n-spheres]]:
 
-* [[Felix Cherubini]], [[Egbert Rijke]], *Modal Descent*, Mathematical Structures in Computer Science **31** 4 (2021) 363-391  &lbrack;[arXiv:2003.09713](https://arxiv.org/abs/2003.09713), [doi:10.1017/S0960129520000201](https://doi.org/10.1017/S0960129520000201)&rbrack;
+* [[Felix Cherubini]], [[Egbert Rijke]], Thm. 3.10 in: *Modal Descent*, Mathematical Structures in Computer Science **31** 4 (2021) 363-391  &lbrack;[arXiv:2003.09713](https://arxiv.org/abs/2003.09713), [doi:10.1017/S0960129520000201](https://doi.org/10.1017/S0960129520000201)&rbrack;
 
-In a discussion of [[homotopy levels]]:
+Earlier discussion (and in view of [[homotopy levels]]):
 
 * [[Nicolai Kraus]], Def. 2.3.8 in: *Truncation levels in Homotopy Type Theory*, Nottingham (2015) &lbrack;[pdf](https://eprints.nottingham.ac.uk/28986/1/thesis.pdf), [eprints:28986](https://eprints.nottingham.ac.uk/28986)&rbrack;
 
