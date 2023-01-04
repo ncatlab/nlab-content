@@ -24,17 +24,13 @@ In [[dependent type theory]], given a [[type]] $A$, the **autoequivalence type**
 ## Properties
  {#Properties}
 
-* $\mathrm{Aut}(A)$ is an [[infinity-group|$\infty$-group]]  and as such also known (assuming [[univalence]]) as the *[[automorphism infinity-group|automorphism $\infty$-group]]* in the [[type universe]] at $A$.
+* $\mathrm{Aut}(A)$ is an [[infinity-group|$\infty$-group]]. 
+
+* Given a [[univalent universe|univalent]] [[Russell universe]] $U$ and an element $A:U$, there is an equivalence between $\mathrm{Aut}(A)$ and the [[loop space type]] $\Omega(U, A)$, $\mathrm{ua}(A, A):\Omega(U, A) \simeq \mathrm{Aut}(A)$. $\Omega(U, A)$ is called the *[[automorphism infinity-group|automorphism $\infty$-group]]* in $U$ at $A$. 
 
 * The autoequivalence type on an [[n-truncation modality|$n$-truncated type]] $A$ is an [[n-group|$(n + 1)$-group]]. 
 
-* If $A$ is a [[set]], then $\mathrm{Aut}(A)$ is the **[[symmetric group]]** on $A$ and is also written as $S_A$, $\Sigma_A$, or $\mathrm{Sym}(A)$, and the elements of $\mathrm{Aut}(A)$ are called **[[permutations]]**. 
-
-  Every autoequivalence type is a symmetric group in a [[dependent type theory]] with [[axiom K]] or [[uniqueness of identity proofs]].  
-
-  Given a [[natural number]] $n:\mathbb{N}$, the autoequivalence type on [[generalized the|the]] [[finite set]] with $n$ elements $\Sigma_n \coloneqq \mathrm{Aut}(\mathrm{Fin}(n))$ has $n!$ elements, where $n!$ is the [[factorial]] of $n$. 
-
-  Assuming the [[axiom of choice]], the autoequivalence type on the natural numbers $\mathrm{Aut}(\mathbb{N})$ is an [[uncountable set]], and in general, given an [[infinite set]] $A$, there is an equivalence $\mathrm{Aut}(A) \simeq (A \to \mathbb{2})$ between the autoequivalence type of $A$ and the function type from $A$ to the [[two-valued type]]. 
+* If $A$ is a [[set]], then $\mathrm{Aut}(A)$ is the **[[symmetric group]]** on $A$ and is also written as $S_A$, $\Sigma_A$, or $\mathrm{Sym}(A)$, and the elements of $\mathrm{Aut}(A)$ are called **[[permutations]]**. Every autoequivalence type is a symmetric group in a [[dependent type theory]] with [[axiom K]] or [[uniqueness of identity proofs]].  
 
 * If $A$ is a [[mere proposition]], then $\mathrm{Aut}(A)$ is a [[contractible type]].
 
@@ -54,12 +50,6 @@ $$\kappa_A:\mathrm{ae}_\mathrm{Aut}(\epsilon_A) =_{\mathrm{Aut}(B(\mathrm{Aut}(A
 * [[automorphism group]], [[automorphism infinity-group]]
 
 * [[loop space type]] (for the equivalent for [[identity types]])
-
-## References
-
-That in the context of the [[axiom of choice]], the autoequivalence type (i.e. [[symmetric group]]) of an [[infinite set]] is equivalent (i.e. has the same [[cardinality]]) to the type of functions to the [[two-valued type]], see:
-
-* John Dawson; Paul Howard, *Factorials of infinite cardinals*, Fundamenta Mathematicae (1976), Volume: 93, Issue: 3, page 185-195, ISSN: 0016-2736 ([EuDML](https://eudml.org/doc/214975))
 
 [[!redirects autoequivalence]]
 [[!redirects autoequivalences]]
