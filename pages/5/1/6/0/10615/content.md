@@ -19,17 +19,281 @@
 
 ## Idea
 
-For all $n \in \{-2, -1, 0,1,2,3, \cdots\}$, [[truncated object in an (infinity,1)-category|n-truncation]] is a [[modality]] (in [[homotopy type theory]]).
+For all $n \in \{-2, -1, 0,1,2,3, \cdots\}$, [[truncated object in an (infinity,1)-category|$n$-truncation]] is a [[modality]] (in [[homotopy type theory]]).
 
-## Defintion
+## Definition
 
-Let us work in a [[dependent type theory]] with [[suspension types]] and [[localizations]]. Starting with the $(-1)$-dimensional [[sphere type]], which is the [[empty type]] $S^{-1} \coloneqq \mathbb{0}$, the $(n + 1)$-dimensional sphere type $S^{n + 1}$ is the suspension of the $n$-dimensional sphere type $S^{n + 1} \coloneqq \Sigma S^n$. 
+The following applies to [[dependent type theory]] with [[suspension types]] and [[localizations]], such as to standard [[homotopy type theory]].
 
-The $n$-truncation modality is the [[localization of a type at a family of functions|localization at the unique function]] from the $(n + 1)$-dimensional sphere type to the [[unit type]] $S^{n + 1} \to \mathbb{1}$
+Recall: 
+
+
+\begin{definition}\label{SphereTypes}
+**([[sphere type|$n$-sphere type]] $S^n$)**
+
+* $S^{-1}$ is the [[empty type]],
+
+* $S^0$ (the [[0-sphere]]) is the [[boolean domain]] [type](boolean+domain#InTypeTheory)
+
+* $S^{n+1} \,\coloneqq\, \Sigma S^n$ is the [[suspension type]] of the sphere type of dimension lower.
+
+\end{definition}
+
+### As nullification of the $n+1$-sphere
+
+The $n$-truncation modality may also be defined to be the [[localization of a type at a family of functions|localization at the unique function]] from the $(n + 1)$-dimensional sphere type (Def. \ref{SphereTypes}) to the [[unit type]] $S^{n + 1} \to \mathbb{1}$
 
 $$\left[A\right]_n \coloneqq L_{S^{n + 1}}(A)$$
 
 By definition, the type of functions $(\mathbb{1} \to \left[A\right]_n) \to (S^{n + 1} \to \left[A\right]_n)$ is an [[equivalence of types]]. 
+
+
+### Explicit inference rules
+ {#ExplicitInferenceRules}
+
+The following should be the [[inference rules]] for the $n$-truncation $[X]_n$ of a given $X \,\colon\, Type$ along the lines sketched in [UFP13, §7.3](#UFP13) (the [[diagram]] indicates the [[categorical semantics]], for orientation):
+
+
+
+\begin{tikzcd}
+  X
+  \ar[
+    d,
+    "{ \eta }"
+  ]
+  \ar[
+    rr,
+    equals
+  ]
+  &[-130pt]
+  &[-10pt]
+  X
+  \ar[
+    d,
+    "{ \eta_D }"
+  ]
+  &[-130pt]
+  \\
+  {
+    [X]_n
+  }
+  \ar[ddd, equals]
+  \ar[
+    rr, 
+    dashed,
+    shift left=2pt,
+    "{ 
+       \mathrm{ind}_{
+         (D,\, \eta_D,\, \mathrm{hub}_D,\, \mathrm{hmt}_D)
+    } }"{description}
+  ]
+  &[-70pt]
+  &[-10pt]
+  D
+  \ar[dddll]
+  \\
+  &[-70pt]
+  &[-10pt]
+  &[-70pt]
+  \mathrm{Map}\big({S^{n+1}},\,{D}\big)
+  \ar[
+    ul,
+    "{ \mathrm{hub}_D}"{sloped},
+    "{\ }"{name=t2}
+  ]
+  &[+70pt]
+  \\[+10pt]
+  &&
+  \mathrm{Map}\big({S^{n+1}},\,{D}\big) \times S^{n+1}
+  \ar[
+    ur,
+    "{ \mathrm{pr}_1 }"{description}
+  ]
+  \ar[dddll]
+  \ar[
+    uu,
+    bend left=50,
+    gray,
+    "{ \mathrm{ev} }"{pos=.6},
+    "{\ }"{pos=.7, swap, name=s2}
+  ]
+  \\[-80pt]
+  {
+    [X]_n
+  }
+  \\
+  & 
+  \mathrm{Map}\big({S^{n+1}},\,{[X]_n}\big)
+  \ar[
+    ul,
+    "{ \mathrm{hub}}"{sloped},
+    "{\ }"{name=t}
+  ]
+  \ar[
+    from=uuurr,
+    shorten <=-6pt,
+    crossing over
+  ]
+  \\[+10pt]
+  \mathrm{Map}\big({S^{n+1}},\,{[X]_n}\big) \times S^{n+1}
+  \ar[
+    ur,
+    "{ \mathrm{pr}_1 }"{description}
+  ]
+  \ar[
+    uu,
+    bend left=40,
+    "{ \mathrm{ev} }"{pos=.6},
+    "{\ }"{pos=.7, swap, name=s}
+  ]
+  \ar[
+    from=s,
+    to=t,
+    Rightarrow,
+    "{ \mathrm{hmt} }"{yshift=1pt,sloped},
+  ]
+  \ar[
+    from=s2,
+    to=t2,
+    Rightarrow,
+    gray,
+    "{ \mathrm{hmt}_D }"{yshift=1pt,sloped},
+  ]
+\end{tikzcd}
+
+
+
+**[[type formation rule]]**
+
+$$
+  \frac{
+     X \,\colon\, Type
+    \mathclap{\phantom{\vert_{\vert}}}
+  }{
+    \mathclap{\phantom{\vert^{\vert}}}
+    [X]_n \,\colon\, Type
+  }
+$$
+
+\linebreak
+
+
+**[[term introduction rule]]**
+
+$$
+  \frac{
+    x \,\colon\, X
+    \mathclap{\phantom{\vert_{\vert}}}
+  }{
+    \mathclap{\phantom{\vert^{\vert}}}
+    \eta_X(x) \,\colon\, [X]_n
+  }
+  \;\;\;\;\;\;\;\;\;
+  \frac{
+    \phi \,\colon\, S^{n+1} \to [X]_n
+    \mathclap{\phantom{\vert_{\vert}}}
+  }{
+    \mathclap{\phantom{\vert^{\vert}}}
+    hub_X^{\phi} \,\colon\, [X]_n
+  }
+  \;\;\;\;\;\;\;\;\;
+  \frac{
+    \phi \,\colon\, S^{n+1} \to [X]_n  
+    \;;
+    \;\;\;
+    s \,\colon\, S^{n+1}
+    \mathclap{\phantom{\vert_{\vert}}}
+  }{
+    \mathclap{\phantom{\vert^{\vert}}}
+    hmt_X^{\phi}(s) 
+     \,\colon\, 
+    Id_{[X]_n}\big(
+      \phi(s)
+      ,\,
+      hub_X^{\phi}
+    \big)
+  }
+$$
+
+\linebreak
+
+**[[term elimination rule]]**
+
+$$
+  \frac{
+    \begin{array}{l}
+      \overline{x} \,\colon\, [X]_n
+      \;\vdash\;
+      D(\overline{x}) \,\colon\, Type \;;
+      \\
+      x \,\colon\, X
+      \;\vdash\;
+      \eta_D(x) \,\colon\, D\big( \eta_X(x) \big)
+      \;;
+      \\
+      \phi \,\colon\, S^{n+1} \to [X]_n
+      \,,
+      \;
+      \phi_D 
+        \,\colon\, 
+      \underset{s \,\colon\,S^{n+1}}{\prod}
+      \,
+      D\big( \phi(s) \big)
+      \;\;\vdash\;\;
+      hub^{\phi_D}_D 
+       \,\colon\,
+      D\big( hub_X^\phi \big)
+      \;;
+      \\
+      \phi \,\colon\, S^{n+1} \to [X]_n
+      \,,
+      \;
+      \phi_D 
+        \,\colon\, 
+      \underset{s \,\colon\,S^{n+1}}{\prod}
+      \,
+      D\big( \phi(s) \big)
+      \,,
+      \;
+      s \,\colon\, S^{n+1}
+      \;\;\vdash\;\;
+      hmt_D^{\phi_D}(s)
+        \,\colon\, 
+      Id_{D\big(hub_X^{\phi}\big)}\Big(
+        \big(hmt^{\phi}_X(s)\big)_\ast
+        \phi_D(s)
+        ,\,
+        hub_D^{\phi_D}
+      \Big)
+      \mathclap{\phantom{\vert^{\vert^{\vert}}}}
+    \end{array}
+  }{
+    \mathclap{\phantom{\vert^{\vert_{\vert}}}}
+    ind_{\big(D,\,\eta_D,\, hub_D,\, hmt_D \big)}
+    \,\colon\,
+    \underset{\overline{x}\colon [X]_n}{\prod}
+    \,
+    D(\overline{x})
+  }
+$$
+
+\linebreak
+
+**[[computation rule]]**
+
+$$
+  ind_{\big(D,\,\eta_D,\, hub_D,\, hmt_D \big)}
+  \big(
+    \eta(x)
+  \big)
+  \;=\;
+  \eta_D(x)
+$$
+
+
+
+
+
 
 ## Properties
 
@@ -48,16 +312,6 @@ $$
 
 and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] holds.
 
-### In homotopy type theory
- {#InHomotopyTypeTheory}
-
-([UFP (2013, §6.9 & §7.3) ](#UFP13))
-
-(...)
-
-The $(-1)$-truncation in the context is forming the [[bracket type]] [[hProp]].
-$n$-truncation is given by a [[higher inductive type]].
-
 
 ## Related concepts
 
@@ -72,7 +326,6 @@ Discussion of $n$-truncation as a [[higher inductive type]] in [[homotopy type t
 Original textbook account:
 
 * {#UFP13} [[Univalent Foundations Project]], §6.9 & §7.3 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
-
 
 
 Discussion of $n$-truncation as a [[modality]]:
