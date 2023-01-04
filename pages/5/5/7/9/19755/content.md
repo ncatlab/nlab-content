@@ -327,7 +327,15 @@ $$
 
 Notice that the squares on the right are _not_ [[homotopy pullback]] squares. (The homotopy pullback of the [[string 2-group]] along $\tilde A \hookrightarrow Spin(n)$ is a $\mathbf{B}U(1)$-extension of $\tilde  A$, but here we get the universal _finite_ 2-group extension, by $\mathbb{Z}/24$ instead.
 
+### Cardinality of symmetric groups
 
+Recall that two sets $A$ and $B$ have the same [[cardinality]] if $A$ is in [[bijection]] with $B$. 
+
+Given a [[natural number]] $n:\mathbb{N}$, the symmetric group on [[generalized the|the]] [[finite set]] with $n$ elements $\Sigma(n)$ is in bijection with the [[finite set]] $\mathrm{Fin}(n!)$ elements, where $n!$ is the [[factorial]] of $n$. 
+
+The symmetric group on the natural numbers $\mathrm{Sym}(\mathbb{N})$ is an [[uncountable set]] in [[bijection]] with the endofunction set $\mathbb{N}^\mathbb{N}$. In the context of [[excluded middle]], this is in bijection with $\mathcal{P}(\mathbb{N})$, the [[power set]] of the natural numbers. 
+
+Assuming the [[axiom of choice]], given an [[infinite set]] $A$, there is a [[bijection]] $\mathrm{Sym}(A) \cong \mathcal{P}(A)$ between the symmetric group of $A$ and the [[power set]] of $A$. 
 
 ## Related entries
 
@@ -385,6 +393,9 @@ For more on permutation patterns, see:
 
 * Étienne Ghys, _A Singular Mathematical Promenade_, August 2017. [arXiv:1612.06373](https://arxiv.org/abs/1612.06373) [author pdf](http://perso.ens-lyon.fr/ghys/promenade/)
 
+That in the context of the [[axiom of choice]], the [[symmetric group]] of an [[infinite set]] is in [[bijection]] (i.e. has the same [[cardinality]]) with the [[power set]] of that infinite set, see:
+
+* John Dawson; Paul Howard, *Factorials of infinite cardinals*, Fundamenta Mathematicae (1976), Volume: 93, Issue: 3, page 185-195, ISSN: 0016-2736 ([EuDML](https://eudml.org/doc/214975))
 
 [[!redirects symmetric groups]]
 
