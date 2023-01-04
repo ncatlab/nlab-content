@@ -60,7 +60,7 @@ Given a pointed connected groupoid $(A, a)$, the loop space type $\Omega(A, a)$ 
 
 * [[identity type]]
 
-* [[automorphism type]]
+* [[autoequivalence type]]
 
 ## References
 
