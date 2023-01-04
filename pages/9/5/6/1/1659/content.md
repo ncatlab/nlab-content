@@ -100,6 +100,7 @@ The [[diagonal argument]] also shows the uncountability of the real numbers (non
 [[!redirects denumerable set]]
 [[!redirects denumerable sets]]
 
+[[!redirects uncountable]]
 [[!redirects uncountable set]]
 [[!redirects uncountable sets]]
 
