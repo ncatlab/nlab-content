@@ -176,6 +176,8 @@ To be done: figure out what the categorical semantics of the equivalence type is
 
 * [[identity type]], [[heterogeneous identity type]]
 
+* [[automorphism type]]
+
 ## References
 
 For the definition of the equivalence type as a dependent sum type, see:
