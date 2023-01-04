@@ -21,7 +21,7 @@ In [[physics]] there are (at least) two different concepts that go by the name *
 
 * a _global gauge group_ is a group of [[automorphism]]s that acts on the ([[local net]] of) [[observable]]s of a [[quantum field theory]].
 
-Notably after [[quantization]] the gauge group in the first sense does _not_ become a gauge group in the second sense. On the contrary, observables in quantum field theory are required _not_ to depend on gauge transformations in the first sense, and part of what makes quantization of [[gauge theory]] nontrivial is to find among all potentiall candidate observables those that actually are invariant under gauge transformations, i.e. under isomorphisms of [[principal bundle]]s with [[connection on a bundle|connection]] in the configuration space of the gauge theory.
+Notably after [[quantization]] the gauge group in the first sense does _not_ become a gauge group in the second sense. On the contrary, observables in quantum field theory are required _not_ to depend on gauge transformations in the first sense, and part of what makes quantization of [[gauge theory]] nontrivial is to find among all potential candidate observables those that actually are invariant under gauge transformations, i.e. under isomorphisms of [[principal bundle]]s with [[connection on a bundle|connection]] in the configuration space of the gauge theory.
 
 ### Global gauge group
 
