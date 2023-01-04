@@ -1,4 +1,8 @@
 
+> This entry is about conditional convergence of [[spectral sequences]] in [[homological algebra]]. For conditional convergence of [[series]] in [[real analysis]], see [[conditional convergence]]. 
+
+---
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -79,7 +83,4 @@ Lecture notes include
 
 * {#Rognes12} [[John Rognes]], p 44 of _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
-[[!redirects converges conditionally]]
-[[!redirects conditionally converges]]
-
-[[!redirects conditionally convergent]]
+[[!redirects conditionally convergent spectral sequence]]
