@@ -81,3 +81,5 @@ Lecture notes include
 
 [[!redirects converges conditionally]]
 [[!redirects conditionally converges]]
+
+[[!redirects conditionally convergent]]
