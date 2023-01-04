@@ -75,6 +75,8 @@ The most straightforward notion of the **sum** of a series is the [[limit of a s
 
 * [[partial sum]]
 
+* [[Riemann series theorem]]
+
 [[!redirects series]]
 [[!redirects infinite series]]
 
