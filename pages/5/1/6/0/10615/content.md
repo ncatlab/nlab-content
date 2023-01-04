@@ -73,9 +73,7 @@ Original textbook account:
 
 * {#UFP13} [[Univalent Foundations Project]], §6.9 & §7.3 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
-The actual [[inference rules]] are made explicit in:
 
-* [[Nicolai Kraus]], Def. 2.3.8 in: *Truncation levels in Homotopy Type Theory*, Nottingham (2015) &lbrack;[pdf](https://eprints.nottingham.ac.uk/28986/1/thesis.pdf), [eprints:28986](https://eprints.nottingham.ac.uk/28986)&rbrack;
 
 Discussion of $n$-truncation as a [[modality]]:
 
@@ -84,6 +82,10 @@ Discussion of $n$-truncation as a [[modality]]:
 and in addition via [[lifting properties]] against [[n-spheres]]:
 
 * [[Felix Cherubini]], [[Egbert Rijke]], *Modal Descent*, Mathematical Structures in Computer Science **31** 4 (2021) 363-391  &lbrack;[arXiv:2003.09713](https://arxiv.org/abs/2003.09713), [doi:10.1017/S0960129520000201](https://doi.org/10.1017/S0960129520000201)&rbrack;
+
+In a discussion of [[homotopy levels]]:
+
+* [[Nicolai Kraus]], Def. 2.3.8 in: *Truncation levels in Homotopy Type Theory*, Nottingham (2015) &lbrack;[pdf](https://eprints.nottingham.ac.uk/28986/1/thesis.pdf), [eprints:28986](https://eprints.nottingham.ac.uk/28986)&rbrack;
 
 Precursor discussion of the material that became [UFP (2013, §7.3)](#UFP13):
 
