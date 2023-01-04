@@ -228,8 +228,6 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
 * [[enriched poset]]
 
-* [[translation-invariant metric space]]
-
 [[!include generalized uniform structures - table]]
 
 
