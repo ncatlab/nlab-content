@@ -74,8 +74,9 @@ Accordingly, negation mediates [[de Morgan duality]] in classical and [[linear l
 
 ## In type theory syntax
 
-In usual [[type theory]] [[syntax]] negation is obtained as the [[function type]] into the [[empty type]]: $\not a = a \to \varnothing$.
+In usual [[type theory]] [[syntax]] negation is obtained as the [[function type]] into the [[empty type]]: $\not a = a \to \varnothing$. 
 
+Equivalently, in [[type theory]] with [[equivalence types]] but without [[function types]], negation is the [[equivalence type]] with the [[empty type]]: $\not a = a \simeq \varnothing$. 
 
 ## In categorical semantics
 
