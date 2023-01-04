@@ -118,12 +118,14 @@ For instance when $G$ is an ordinary [[group]], $AUT(G)$ is the [[2-group]] disc
 
 ## Related concepts
 
-There may be the [[stuff, structure, property|structure]] of an [[∞-Lie group]] on $Aut(F)$. The corresponding [[∞-Lie algebra]] is an [[automorphism ∞-Lie algebra]].
+* There may be the [[stuff, structure, property|structure]] of an [[∞-Lie group]] on $Aut(F)$. The corresponding [[∞-Lie algebra]] is an [[automorphism ∞-Lie algebra]].
 
 
 * [[group]], [[∞-group]],
 
-* [[automorphism group]], [[automorphism 2-group]], **automorphism $\infty$-group,
+* [[automorphism group]], [[automorphism 2-group]]
+
+* [[autoequivalence type]]
 
 * [[center]], [[center of an ∞-group]]
 
@@ -133,6 +135,9 @@ There may be the [[stuff, structure, property|structure]] of an [[∞-Lie group]
 
 [[!redirects automorphism ∞-group]]
 [[!redirects automorphism ∞-groups]]
+
+[[!redirects autoequivalence ∞-group]]
+[[!redirects autoequivalence ∞-groups]]
 
 [[!redirects ∞-automorphism]]
 [[!redirects ∞-automorphisms]]
