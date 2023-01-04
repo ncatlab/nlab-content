@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -11,7 +12,6 @@
 =--
 =--
 =--
-
 
 #Contents#
 * table of contents
@@ -918,7 +918,7 @@ $$
 
 * [[spectral sequence of a tower of fibrations]]
 
-* [[conditional convergence]] (of [[spectral sequences]])
+* [[conditional convergence of spectral sequences]])
 
 ## References
 
@@ -949,7 +949,7 @@ Discussion in the context of [[categories of fibrant objects]] is in
 
 * [[Kenneth Brown]], section 5 of _[[Abstract Homotopy Theory and Generalized Sheaf Cohomology]]_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458
 
-Discussion in the context of [[conditional convergence]] of [[spectral sequences]] is in
+Discussion in the context of [[conditional convergence of spectral sequences]] is in
 
 * {#Boardman99} [[Michael Boardman]], section I.1 of _Conditionally convergent spectral sequences_, 1999 ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/boardman-conditionally-1999.pdf))
 
