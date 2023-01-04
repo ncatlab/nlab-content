@@ -166,6 +166,12 @@ For [[Tarski universes]] $(U, \mathrm{El})$, one instead says that $A =_U B$ is 
 
 $$\mathrm{ua}(A, B):(A =_U B) \simeq (\mathrm{El}(A) \simeq \mathrm{El}(B))$$
 
+### Action on equivalences
+
+We introduce a [[modal operator]] $L$ to the type theory, which we assume in general not to be [[idempotent]] or [[monadic]]; this is given by the formation rule 
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash L(A) \; \mathrm{type}}$$
+$L$ preserves equivalences: given types $A$ and $B$, there is a function $\mathrm{ae}_L:(A \simeq B) \to L(A) \simeq L(B)$, called the action on equivalences for $L$. 
+
 ### Categorical semantics
 
 To be done: figure out what the categorical semantics of the equivalence type is; i.e. an object $(X \simeq Y) \in \mathcal{C}$ which behaves as the "object of [[isomorphisms]] from $X$ to $Y$". 
