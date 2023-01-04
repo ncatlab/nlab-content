@@ -3,6 +3,13 @@
 
 ## Selected writings
 
+On [[homotopy n-types]] ("[[homotopy levels]]") in [[homotopy type theory]]:
+
+* [[Nicolai Kraus]], *Truncation levels in Homotopy Type Theory*, Nottingham (2015) &lbrack;[pdf](https://eprints.nottingham.ac.uk/28986/1/thesis.pdf), [eprints:28986](https://eprints.nottingham.ac.uk/28986)&rbrack;
+
+
+On [[higher inductive types]] in [[homotopy type theory]]:
+
 * [[Jakob von Raumer]], [[Nicolai Kraus]], *Path Spaces of Higher Inductive Types in Homotopy Type Theory*,  34th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS), Vancouver, Canada, 2019 ([arXiv:1901.06022](https://arxiv.org/abs/1901.06022))
 
 On [[quotient inductive types]]:
