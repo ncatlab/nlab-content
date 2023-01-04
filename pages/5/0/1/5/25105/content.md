@@ -166,6 +166,10 @@ For [[Tarski universes]] $(U, \mathrm{El})$, one instead says that $A =_U B$ is 
 
 $$\mathrm{ua}(A, B):(A =_U B) \simeq (\mathrm{El}(A) \simeq \mathrm{El}(B))$$
 
+### Categorical semantics
+
+To be done: figure out what the categorical semantics of the equivalence type is; i.e. an object $(X \simeq Y) \in \mathcal{C}$ which behaves as the "object of [[isomorphisms]] from $X$ to $Y$". 
+
 ## See also
 
 * [[equivalence in type theory]]
