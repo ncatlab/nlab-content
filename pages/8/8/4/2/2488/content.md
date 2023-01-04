@@ -282,7 +282,7 @@ $$
 has an [[accessible (infinity,1)-functor|accessible]] [[left adjoint]]
 
 $$
-  \tau_{\leq n} : C \to C_{\leq n}
+  \tau_{\leq n} : C \to \tau_{\leq n} C
   \,.
 $$
 
@@ -292,7 +292,7 @@ This is [[Higher Topos Theory|HTT 5.5.6.18]].
 
 
 
-Indeed, as the notation suggests, $C_{\leq n}$ is the [[essential image]] of $C$ under $\tau_{\leq n}$. The image  $\tau_{\leq n} A$ of an object $A$ under this operation is the **$n$-truncation** of $A$.
+Indeed, as the notation suggests, $\tau_{\leq n} C$ is the [[essential image]] of $C$ under $\tau_{\leq n}$. The image  $\tau_{\leq n} A$ of an object $A$ under this operation is the **$n$-truncation** of $A$.
 
 So $n$-truncated objects form a [[reflective sub-(∞,1)-category]] 
 
