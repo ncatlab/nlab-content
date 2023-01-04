@@ -84,6 +84,8 @@ Synonymous discussion, but under the name *[[homotopy n-type|$n$-types]]*, is in
 
 * [[Univalent Foundations Project]], §7 of: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
+* [[Nicolai Kraus]], *Truncation levels in Homotopy Type Theory*, Nottingham (2015) &lbrack;[pdf](https://eprints.nottingham.ac.uk/28986/1/thesis.pdf), [eprints:28986](https://eprints.nottingham.ac.uk/28986)&rbrack;
+
 See also:
 
 * [[Thierry Coquand]], Ayberk Tosun, *Formal Topology in Univalent Foundations*, Ch. 6 in:  *Proof and Computation II -- From Proof Theory and Univalent Mathematics to Program Extraction and Verification*, Wold Scientific (2021) &lbrack;[doi:10.1142/12263](https://doi.org/10.1142/12263)&rbrack;
@@ -94,3 +96,7 @@ See also:
 [[!redirects homotopy levels]]
 [[!redirects h-level]]
 [[!redirects h-levels]]
+
+[[!redirects hlevel]]
+[[!redirects hlevels]]
+
