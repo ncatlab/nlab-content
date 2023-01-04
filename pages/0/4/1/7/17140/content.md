@@ -21,7 +21,7 @@ Given a [[spectrum]] $X$, and a [[ring spectrum]] $E$, then the _$E$-nilpotent c
 
 Under certain finiteness conditions (see [below](#RelationToELocalization)), but not generally, this is equivalent to the $E$-[[Bousfield localization of spectra|Bousfield localization]] $L_E X$ (which, in turn, is in special cases given by [[formal completion]], see at _[[fracture theorem]]_).
 
-The $E$-[[Adams spectral sequence]] induced by the given [[Adams tower]] [[conditionally converges]] to the $E$-nilpotent completion.
+The $E$-[[Adams spectral sequence]] induced by the given [[Adams tower]] [[conditionally convergent spectral sequence|conditionally converges]] to the $E$-nilpotent completion.
 
 ## Definition
 
