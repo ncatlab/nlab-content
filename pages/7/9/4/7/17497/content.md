@@ -2542,7 +2542,7 @@ $$
   [\mathcal{C}\times \mathcal{C}, Top^{\ast/}_{cg}]
 $$
 
-from pairs of [[topologically enriched functors]] over $\mmathcal{C}$ to topologically enriched functors over the [[product category]] $\mathcal{C} \times \mathcal{C}$ (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}) given by
+from pairs of [[topologically enriched functors]] over $\mathcal{C}$ to topologically enriched functors over the [[product category]] $\mathcal{C} \times \mathcal{C}$ (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}) given by
 
 $$
   X \overline{\wedge} Y
