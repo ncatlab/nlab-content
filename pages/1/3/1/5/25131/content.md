@@ -17,15 +17,28 @@
 
 ## Definition
 
-In [[dependent type theory]], given a [[type]] $A$, the **autoequivalence type** of $A$ is the [[equivalence type]] between $A$ and $A$ itself, $\mathrm{Aut}(A) \coloneqq (A \simeq A)$. The elements of $\mathrm{Aut}(A)$ are called **autoequivalences** or **self-equivalences**. 
+In [[dependent type theory]], given a [[type]] $A$, the **autoequivalence type** of $A$ is the [[equivalence type]] between $A$ and $A$ itself, $\mathrm{Aut}(A) \coloneqq (A \simeq A)$. The elements ([[terms]]) of $\mathrm{Aut}(A)$ are called **autoequivalences** or **self-equivalences**. 
+
+
 
 ## Properties
+ {#Properties}
 
-$\mathrm{Aut}(A)$ is an [[infinity-group]]. The autoequivalence type on an [[n-truncation modality|$n$-truncated type]] $A$ is an [[n-group|$(n + 1)$-group]]. If $A$ is a [[set]], then $\mathrm{Aut}(A)$ is the **[[symmetric group]]** on $A$ and is also written as $S_A$, $\Sigma_A$, or $\mathrm{Sym}(A)$, and the elements of $\mathrm{Aut}(A)$ are called **[[permutations]]**. Every autoequivalence type is a symmetric group in a [[dependent type theory]] with [[axiom K]] or [[uniqueness of identity proofs]]. If $A$ is a [[mere proposition]], then $\mathrm{Aut}(A)$ is a [[contractible type]]. 
+* $\mathrm{Aut}(A)$ is an [[infinity-group|$\infty$-group]]  and as such also known (assuming [[univalence]]) as the *[[automorphism infinity-group|automorphism $\infty$-group]]* in the [[type universe]] at $A$.
 
-Given a [[natural number]] $n:\mathbb{N}$, the autoequivalence type on [[generalized the|the]] [[finite set]] with $n$ elements $\Sigma_n \coloneqq \mathrm{Aut}(\mathrm{Fin}(n))$ has $n!$ elements, where $n!$ is the [[factorial]] of $n$. Assuming the [[axiom of choice]], the autoequivalence type on the natural numbers $\mathrm{Aut}(\mathbb{N})$ is an [[uncountable set]], and in general, given an [[infinite set]] $A$, there is an equivalence $\mathrm{Aut}(A) \simeq (A \to \mathbb{2})$ between the autoequivalence type of $A$ and the function type from $A$ to the [[two-valued type]]. 
+* The autoequivalence type on an [[n-truncation modality|$n$-truncated type]] $A$ is an [[n-group|$(n + 1)$-group]]. 
 
-Given types $A$ and $B$, there is a function $\mathrm{ae}_\mathrm{Aut}:(A \simeq B) \to (\mathrm{Aut}(A) \simeq \mathrm{Aut}(B))$. 
+* If $A$ is a [[set]], then $\mathrm{Aut}(A)$ is the **[[symmetric group]]** on $A$ and is also written as $S_A$, $\Sigma_A$, or $\mathrm{Sym}(A)$, and the elements of $\mathrm{Aut}(A)$ are called **[[permutations]]**. 
+
+  Every autoequivalence type is a symmetric group in a [[dependent type theory]] with [[axiom K]] or [[uniqueness of identity proofs]].  
+
+  Given a [[natural number]] $n:\mathbb{N}$, the autoequivalence type on [[generalized the|the]] [[finite set]] with $n$ elements $\Sigma_n \coloneqq \mathrm{Aut}(\mathrm{Fin}(n))$ has $n!$ elements, where $n!$ is the [[factorial]] of $n$. 
+
+  Assuming the [[axiom of choice]], the autoequivalence type on the natural numbers $\mathrm{Aut}(\mathbb{N})$ is an [[uncountable set]], and in general, given an [[infinite set]] $A$, there is an equivalence $\mathrm{Aut}(A) \simeq (A \to \mathbb{2})$ between the autoequivalence type of $A$ and the function type from $A$ to the [[two-valued type]]. 
+
+* If $A$ is a [[mere proposition]], then $\mathrm{Aut}(A)$ is a [[contractible type]].
+
+* Given types $A$ and $B$, there is a [[function]] $\mathrm{ae}_\mathrm{Aut}:(A \simeq B) \to (\mathrm{Aut}(A) \simeq \mathrm{Aut}(B))$. 
 
 ### Deloopings
 
