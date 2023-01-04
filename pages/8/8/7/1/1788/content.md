@@ -108,7 +108,7 @@
 
 
 
-**[[type formation rule]]**
+**[[type formation rule]]:**
 
 $$
   \frac{
@@ -123,7 +123,7 @@ $$
 \linebreak
 
 
-**[[term introduction rule]]**
+**[[term introduction rules]]:**
 
 $$
   \frac{
@@ -162,7 +162,7 @@ $$
 
 \linebreak
 
-**[[term elimination rule]]**
+**[[term elimination rule]]:**
 
 $$
   \frac{
@@ -224,7 +224,7 @@ $$
 
 \linebreak
 
-**[[computation rule]]**
+**[[computation rule]]:**
 
 $$
   ind_{\big(D,\,\eta_D,\, hub_D,\, hmt_D \big)}
