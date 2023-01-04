@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -180,7 +179,7 @@ Furthermore one says that $E$
 
 =--
 
-([Boardman 99, def. 2.5](#Boardman99)) See also _[[conditional convergence]]_.
+([Boardman 99, def. 2.5](#Boardman99)) See also _[[conditional convergence of spectral sequences]]_.
 
 +-- {: .num_remark }
 ###### Remark
