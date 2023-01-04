@@ -1,4 +1,113 @@
 
+
+\begin{tikzcd}
+  X
+  \ar[
+    d,
+    "{ \eta }"
+  ]
+  \ar[
+    rr,
+    equals
+  ]
+  &[-130pt]
+  &[-10pt]
+  X
+  \ar[
+    d,
+    "{ \eta_D }"
+  ]
+  &[-130pt]
+  \\
+  {
+    [X]_n
+  }
+  \ar[ddd, equals]
+  \ar[
+    rr, 
+    dashed,
+    shift left=2pt,
+    "{ 
+       \mathrm{ind}_{
+         (D,\, \eta_D,\, \mathrm{hub}_D,\, \mathrm{hmt}_D)
+    } }"{description}
+  ]
+  &[-70pt]
+  &[-10pt]
+  D
+  \ar[dddll]
+  \\
+  &[-70pt]
+  &[-10pt]
+  &[-70pt]
+  \mathrm{Map}\big({S^{n+1}},\,{D}\big)
+  \ar[
+    ul,
+    "{ \mathrm{hub}_D}"{sloped},
+    "{\ }"{name=t2}
+  ]
+  &[+70pt]
+  \\[+10pt]
+  &&
+  \mathrm{Map}\big({S^{n+1}},\,{D}\big) \times S^{n+1}
+  \ar[
+    ur,
+    "{ \mathrm{pr}_1 }"{description}
+  ]
+  \ar[dddll]
+  \ar[
+    uu,
+    bend left=50,
+    gray,
+    "{ \mathrm{ev} }"{pos=.6},
+    "{\ }"{pos=.7, swap, name=s2}
+  ]
+  \\[-80pt]
+  {
+    [X]_n
+  }
+  \\
+  & 
+  \mathrm{Map}\big({S^{n+1}},\,{[X]_n}\big)
+  \ar[
+    ul,
+    "{ \mathrm{hub}}"{sloped},
+    "{\ }"{name=t}
+  ]
+  \ar[
+    from=uuurr,
+    shorten <=-6pt,
+    crossing over
+  ]
+  \\[+10pt]
+  \mathrm{Map}\big({S^{n+1}},\,{[X]_n}\big) \times S^{n+1}
+  \ar[
+    ur,
+    "{ \mathrm{pr}_1 }"{description}
+  ]
+  \ar[
+    uu,
+    bend left=40,
+    "{ \mathrm{ev} }"{pos=.6},
+    "{\ }"{pos=.7, swap, name=s}
+  ]
+  \ar[
+    from=s,
+    to=t,
+    Rightarrow,
+    "{ \mathrm{hmt} }"{yshift=1pt,sloped},
+  ]
+  \ar[
+    from=s2,
+    to=t2,
+    Rightarrow,
+    gray,
+    "{ \mathrm{hmt}_D }"{yshift=1pt,sloped},
+  ]
+\end{tikzcd}
+
+
+
 **[[type formation rule]]**
 
 $$
@@ -118,7 +227,12 @@ $$
 **[[computation rule]]**
 
 $$
-  \cdots
+  ind_{\big(D,\,\eta_D,\, hub_D,\, hmt_D \big)}
+  \big(
+    \eta(x)
+  \big)
+  \;=\;
+  \eta_D(x)
 $$
 
 
