@@ -1,5 +1,5 @@
 
-> This entry is about conditional convergence of [[series]] in [[real analysis]]. For conditional convergence of [[spectral sequences]] in [[homological algebra]], see [[conditional convergence of spectral sequences]]. 
+> This entry is about conditional convergence of [[series]] in [[real analysis]]. For conditional convergence of [[spectral sequences]] in [[homological algebra]], see *[[conditional convergence of spectral sequences]]*. 
 
 ---
 
