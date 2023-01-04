@@ -214,7 +214,7 @@ $$
     hmt_P
     \,\colon\,
     \underset{x \colon X}{\prod}
-    Id_{P(x)}
+    Id_{P\Big( cpr^'\big(f^'(x)\big) \Big)}
     \bigg(
       hmt(x)_\ast
       \Big(
