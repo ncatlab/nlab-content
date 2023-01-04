@@ -349,6 +349,9 @@ Notice that the squares on the right are _not_ [[homotopy pullback]] squares. (T
 
 * [[permutation D-brane]]
 
+* [[automorphism group]], [[automorphism infinity-group]]
+
+* [[automorphism type]]
 
 
 ## References
