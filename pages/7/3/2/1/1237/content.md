@@ -111,7 +111,7 @@ See at _[one-point compactification -- Examples -- Spheres](one-point+compactifi
 ## References
  {#References}
 
-Discussion of (reduced) [[suspension]] may be found in most introductions to [[homotopy theory]].
+Discussion of (reduced) [[suspension]] may be found in most introductions to [[homotopy theory]] (for discussion of unreduced suspension see also [there](suspension#References)).
 
 For instance:
 
