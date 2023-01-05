@@ -109,8 +109,13 @@ Boolean toposes are closely related to [[measurable spaces]] (e.g [Jackson 06](#
 ## Related entries
 
 * [[Boolean category]]
+
+* [[Boolean domain]]
+
 * [[axiom of choice]]
+
 * [[double negation]]
+
 * [[de Morgan topos]]
 
 ## References
