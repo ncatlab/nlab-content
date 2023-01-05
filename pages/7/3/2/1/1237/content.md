@@ -108,6 +108,24 @@ See at _[one-point compactification -- Examples -- Spheres](one-point+compactifi
 
     * [[Sullivan model of a suspension]]
 
+## References
+ {#References}
+
+Discussion of (reduced) [[suspension]] may be found in most introductions to [[homotopy theory]].
+
+For instance:
+
+* [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], §2.10 in: *Algebraic topology from a homotopical viewpoint*, Springer (2008) &lbrack;[doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586)&rbrack;
+
+* [[Jeffrey Strom]], §3.8 and §17 in: *Modern classical homotopy theory*, Graduate Studies in Mathematics **127**, American Mathematical Society (2011) &lbrack;[doi:10.1090/gsm/127](http://www.ams.org/books/gsm/127/)&rbrack;
+
+* [[Martin Arkowitz]], *Loop spaces and suspensions*, §2.3 in: *Introduction to Homotopy Theory*, Springer (2011) &lbrack;[doi:10.1007/978-1-4419-7329-0](https://doi.org/10.1007/978-1-4419-7329-0)&rbrack;
+
+Review in the context of [[stable homotopy theory]]:
+
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 2 of: _Spectra and stable homotopy theory_ (2012) &lbrack;[pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]]&rbrack;
+
+
 [[!redirects reduced suspensions]]
 
 [[!redirects reduced suspension object]]
