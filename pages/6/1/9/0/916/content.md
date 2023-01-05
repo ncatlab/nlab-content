@@ -14,6 +14,8 @@ In some fields (including secondary-school mathematics even today), functions ar
 
 ### In type theory
 
+#### As functions
+
 In [[dependent type theory]], given [[h-sets]] $A$ and $B$, a **partial function** $f$ from $A$ to $B$ is an [[h-proposition]]-valued type family $P_f$ on $A$ which states whether $f$ is defined for element $a:A$, and a section
 
 $$x:A, p:P_f \vdash f:B$$
@@ -35,6 +37,26 @@ $$\frac{\Gamma \vdash \mathbb{R} \; \mathrm{type}}{\Gamma, x:\mathbb{R}, p:x \ge
 $$\frac{\Gamma \vdash \mathbb{R} \; \mathrm{type}}{\Gamma, x:\mathbb{R}, p:x \geq 0 \vdash \mathrm{sqrtax}:\sqrt{x, p}^2 =_\mathbb{R} x}$$
 
 In both cases, the witness $p$ is usually left implicit in informal notation, and the partial function is written as ${x}^{-1}$ or $\sqrt{x}$. 
+
+#### As partial anafunctions
+
+In [[dependent type theory]], given types $A$ and $B$, a **partial anafunction** is a [[type family]] $x\colon A, y \colon B \vdash R(x, y) \; \mathrm{type}$ which comes with a family of witnesses 
+$$x \colon A \vdash p(x) \colon \mathrm{isProp}\left(\sum_{y:B} R(x, y) \right)$$
+that for each [[term|element]] $x\colon A$, the [[dependent sum type]] $\sum_{y \colon B} R(x, y)$ is a [[mere proposition]].
+
+For any partial anafunction, there is a partial function 
+$$x:A, p:\mathrm{isContr}\left(\sum_{y:B} R(x, y) \right) \vdash f(x, p):B$$
+
+which could be written as the function
+$$f:\sum_{x:A} \mathrm{isContr}\left(\sum_{y:B} R(x, y) \right) \to B$$
+
+since $\sum_{y:B} R(x, y)$ is already a proposition, one could simply use
+$$x:A, p:\sum_{y:B} R(x, y) \vdash f(x, p):B$$
+instead, and by the rules of dependent sum types, it becomes 
+$$x:A, y:B, p:R(x, y) \vdash f(x, y, p):B$$
+
+on the other side, the function can be written as
+$$f:\left(\sum_{x:A} \sum_{y:B} R(x, y) \right) \to B$$
 
 ### In category theory
 
@@ -146,3 +168,6 @@ An axiomatic treatment of such semirings may be found at the end of [Richman 201
 
 [[!redirects partial morphism]]
 [[!redirects partial morphisms]]
+
+[[!redirects partial anafunction]]
+[[!redirects partial anafunctions]]
