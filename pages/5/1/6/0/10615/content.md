@@ -51,8 +51,7 @@ By definition, the type of functions $(\mathbb{1} \to \left[A\right]_n) \to (S^{
 ### Explicit inference rules
  {#ExplicitInferenceRules}
 
-The following should be the [[inference rules]] for the $n$-truncation $[X]_n$ of a given $X \,\colon\, Type$ along the lines sketched in [UFP13, §7.3](#UFP13) (the [[diagram]] indicates the [[categorical semantics]], for orientation):
-
+The following are the [[inference rules]] for the $n$-truncation $[X]_n$ of a given $X \,\colon\, Type$ regarded as a [[higher inductive type]] according to [UFP13, §7.3, p. 223](#UFP13) (the [[diagram]] indicates the [[categorical semantics]], for orientation):
 
 
 \begin{tikzcd}
