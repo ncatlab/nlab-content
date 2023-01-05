@@ -32,6 +32,7 @@ The notion of *homomtopy pushout* is
 * the [[formal duality|formal dual]] to the notion of [[homotopy pullback]]. For the moment, see there for more details.
 
 ## References
+ {#References}
 
 Homotopy pushouts are at least mentioned in essentially any textbook on [[homotopy theory]].
 
