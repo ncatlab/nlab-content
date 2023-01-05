@@ -100,7 +100,7 @@ For [[Bruhat-Tits tree]] [[tensor network states]] one finds that the [[holograp
 
 Textbooks:
 
-* {#ZaanenLiuSunSchalm15} [[Jan Zaanen]], Yan Liu, Ya-Wen Sun, [[Koenraad Schalm]], _Holographic Duality in Condensed Matter Physics_, Cambridge University Press 2015 &lbrack;[doi:10.1017/CBO9781139942492](https://doi.org/10.1017/CBO9781139942492)&rbrack;
+* {#ZaanenLiuSunSchalm15} [[Jan Zaanen]], [[Yan Liu]], Ya-Wen Sun, [[Koenraad Schalm]], *Holographic Duality in Condensed Matter Physics*, Cambridge University Press 2015 &lbrack;[doi:10.1017/CBO9781139942492](https://doi.org/10.1017/CBO9781139942492)&rbrack;
 
 * {#HartnollLucasSachdev16} [[Sean Hartnoll]], [[Andrew Lucas]], [[Subir Sachdev]], _Holographic quantum matter_, MIT Press (2018) &lbrack;[arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [ISBN:9780262348010](https://mitpress.ublish.com/book/holographic-quantum-matter)&rbrack;
 
@@ -151,10 +151,23 @@ On holographic description of [[phonon]] gases in non-merallic [[crystals]]:
 
 
 
+### Application to topological phases of matter
+ {#ApplicatinToTopologicalPhases}
+
+On holographic descriptions of [[topological semimetals]] via the [[AdS-CMT correspondence]]:
+
+* [[Karl Landsteiner]], [[Yan Liu]], *The holographic Weyl semi-metal*, Physics Letters B **753** (2016) 453-457 &lbrack;[arXiv:1505.04772](https://arxiv.org/abs/1505.04772), [doi:10.1016/j.physletb.2015.12.052](https://doi.org/10.1016/j.physletb.2015.12.052)&rbrack;
+
+* [[Karl Landsteiner]], [[Yan Liu]], Ya-Wen Sun, *Quantum phase transition between a topological and a trivial semimetal from holography*, Phys. Rev. Lett. **116** 081602 (2016) &lbrack;[arXiv:1511.05505](https://arxiv.org/abs/1511.05505), [doi:10.1103/PhysRevLett.116.081602](https://doi.org/10.1103/PhysRevLett.116.081602)&rbrack;
+
+* Ling-Long Gao, [[Yan Liu]], Hong-Da Lyu, *Black hole interiors in holographic topological semimetals* &lbrack;[arXiv:2301.01468](https://arxiv.org/abs/2301.01468)&rbrack;
+
+
 
 ### Application to band structure
 
 Application to [[electron band structure]] of multi-layer [[graphene]]:
+
 
 * Jeong-Won Seo, Taewon Yuk, Young-Kwon Han, Sang-Jin Sin, *ABC-stacked multilayer graphene in holography* &lbrack;[arXiv:2208.14642](https://arxiv.org/abs/2208.14642)&rbrack;
 
