@@ -179,7 +179,7 @@ There are also equalities in [[type theory]] which are not internal to the type 
 
 ## Equality in constructive and classical mathematics
 
-Constructive mathematics is mathematics in which the law of excluded middle does not necessarily hold for [[propositions]], [[subsingletons]], or [[h-propositions]]. Classical mathematics is matheamtics in which the law of excluded middle does hold for [[propositions]], [[subsingletons]], or [[h-propositions]]. Here, we take equality to mean either typal or propositional equality, so that equality is a relation or a type family on a type or set. 
+Constructive mathematics is mathematics in which the law of excluded middle does not necessarily hold for [[propositions]], [[subsingletons]], or [[h-propositions]]. Classical mathematics is mathematics in which the law of excluded middle does hold for [[propositions]], [[subsingletons]], or [[h-propositions]]. Here, we take equality to mean either typal or propositional equality, so that equality is a relation or a type family on a type or set. 
 
 In classical mathematics, equality of sets is a [[stable relation|stable]] [[equivalence relation]], and [[denial inequality]] of sets is a [[tight apartness relation]]. However, in constructive mathematics, equality cannot be proven to be stable for all sets, and denial inequality cannot be proven to be a tight apartness relation for all sets. Instead, one could distinguish between 4 different notions of equality and [[inequality]]:
 
