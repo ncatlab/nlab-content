@@ -17,6 +17,7 @@ Anafunctions are a [[decategorification]] of the notion of [[anafunctor]], and t
 
 In [[dependent type theory]], an anafunction is a type family $R$ indexed by types $A$ and $B$ such that for each element $a:A$, the [[dependent sum type]] $\sum_{b:B} R(a, b)$ is a [[contractible type]]: 
 $$\mathrm{isAnafunction}(R) \coloneqq \prod_{a:A} \mathrm{isContr}\left(\sum_{b:B} R(a, b) \right)$$
+
 The [[principle of unique choice]] holds in dependent type theory, which means that given any anafunction $a:A, b:B \vdash R(a, b) \; \mathrm{type}$, there is a function $a:A \vdash f(a):B$. 
 
 The categorical semantics of an anafunction in dependent type theory is an [[infinity-anafunctor]], since the [[identity types]] between two elements of a type are not required to be [[mere propositions]]. 
@@ -28,6 +29,7 @@ Given any type family $R$ indexed by types $A$ and $B$, there is a type family $
 * [[anafunctor]]
 * [[infinity-anafunctor]]
 * [[equivalence of types]]
+* [[dependent anafunction]]
 
 ## References
 
