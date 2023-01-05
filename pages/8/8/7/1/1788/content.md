@@ -1,4 +1,18 @@
 
+$$
+  \frac{
+    X \,\times\, [-1,\, +1]
+  }{
+    \left(
+    \begin{array}{c}  
+      X \times \{-1\}\mathrlap{,\,}
+      \\
+      X \times \{+1\}
+    \end{array}
+    \right)
+  }
+$$
+
 
 \begin{tikzcd}
   X
