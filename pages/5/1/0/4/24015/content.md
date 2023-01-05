@@ -51,7 +51,7 @@ Braiding of Dirac points in twisted bilayer [[graphene]]:
 
 > Real space braiding is practically constrained to boundary states, which has made experimental observation and manipulation difficult; instead, reciprocal space braiding occurs in the bulk states of the band structures and we demonstrate in this work that this provides a straightforward platform for non-Abelian braiding.
 
-* {#PBMS22} *[[Bo Peng]], [[Adrien Bouhon]], [[Bartomeu Monserrat]], [[Robert-Jan Slager]], *Phonons as a platform for non-Abelian braiding and its manifestation in layered silicates*, Nature Communications volume 13, Article number: 423 (2022) ([doi:10.1038/s41467-022-28046-9](https://doi.org/10.1038/s41467-022-28046-9))
+* {#PBMS22} [[Bo Peng]], [[Adrien Bouhon]], [[Bartomeu Monserrat]], [[Robert-Jan Slager]], *Phonons as a platform for non-Abelian braiding and its manifestation in layered silicates*, Nature Communications **13** 423 (2022) $[$[doi:10.1038/s41467-022-28046-9](https://doi.org/10.1038/s41467-022-28046-9)$]$
 
   (analog realization in [[phononic crystals]])
 
