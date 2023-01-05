@@ -46,7 +46,13 @@ See e.g. [Félix-Murillo-Tanré 10, Prop. 5.1](#FelixMurilloTanre10)
 
 * {#FelixMurilloTanre10} [[Yves Félix]], Aniceto Murillo [[Daniel Tanré]], _Fibrewise stable rational homotopy_, Journal of Topology, Volume 3, Issue 4, 2010, Pages 743–758 ([doi:10.1112/jtopol/jtq023](https://doi.org/10.1112/jtopol/jtq023))
 
+[[!redirects Sullivan model of suspensions]]
 
 [[!redirects Sullivan models for suspensions]]
+[[!redirects Sullivan models of suspensions]]
+
 
 [[!redirects rational model for a suspension]]
+
+
+
