@@ -82,7 +82,7 @@ The localization $L_F(X)$ of a type $X$ at a family of types $F:\prod_{i:I} S(i)
 
 * The $n$-[[shape modality]] is the localization at the two unique functions $\mathbb{R} \to \mathbb{1}$ and $S^{n + 1} \to \mathbb{1}$. 
 
-* Let $\mathcal{R}$ be an ordered local ring whose Archimedean subfield $\mathbb{R} \subseteq \mathcal{R}$ is the [[Dedekind real numbers]], and let $\mathcal{D}$ be the type of all [[infinitesimals]] in $\mathcal{R}$: the type of elements in $\mathcal{R}$ which are [[not not]] equal to zero. The [[infinitesimal shape modality]] is the localization at the unique function $\mathcal{D} \to \mathbb{1}$. 
+* Let $\mathcal{R}$ be an [[Archimedean ordered Artinian local ring]] whose Archimedean subfield $\mathbb{R} \subseteq \mathcal{R}$ is the [[Dedekind real numbers]], and let $\mathcal{D}$ be the type of all [[infinitesimals]] in $\mathcal{R}$. The [[infinitesimal shape modality]] is the localization at the unique function $\mathcal{D} \to \mathbb{1}$. 
 
 ## See also
 
