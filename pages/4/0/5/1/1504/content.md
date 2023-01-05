@@ -452,7 +452,7 @@ Introduction and survey:
 
 * [[Ashoke Sen]], _String Field Theory as World-sheet UV Regulator_ ([arXiv:1902.00263](https://arxiv.org/abs/1902.00263))
 
-* {#Erbin20a} [[Harold Erbin]], _String Field Theory – A Modern Introduction_, 2020 ([pdf](http://www.lpthe.jussieu.fr/~erbin/files/reviews/book_string_theory.pdf))
+* {#Erbin20a} [[Harold Erbin]], *String Field Theory – A Modern Introduction*, Lecture Notes in Physics **980**, Springer (2021) &lbrack;[arXiv:2301.01686](https://arxiv.org/abs/2301.01686), [doi:10.1007/978-3-030-65321-7](https://doi.org/10.1007/978-3-030-65321-7)&rbrack;
 
 * {#Erbin20b} [[Harold Erbin]], _String theory: a field theory perspective_, 2020 ([pdf](http://www.lpthe.jussieu.fr/~erbin/files/reviews/string_theory.pdf))
 
