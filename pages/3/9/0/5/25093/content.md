@@ -3,7 +3,7 @@
 
 > Seine Hoffnung geht tatsächlich so weit, dass seine Arbeit die Metaphysik (in der Form spekulativer Logik) den Philosophen aus der Hand nehmen und in die Mathematik verlagern wird. 
 
-> &lbrack;Engl.&rbrack; His hope actually goes as far that his work will take metaphics (in the form of speculative logic) out of the hands of the philosophers, relocating it into mathematics.
+> &lbrack;Engl.&rbrack; His hope actually goes as far that his work will take metaphysics (in the form of speculative logic) out of the hands of the philosophers, relocating it into mathematics.
 
 * [online publications](https://independent.academia.edu/UwePetersen)
 
