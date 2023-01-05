@@ -165,16 +165,22 @@ Up to topological structure, the suspension of the $n$-[[simplex]] is the $(n+1)
 
 
 ## References
+ {#References}
 
-Basics in:
+> For discussion of *[[reduced suspension]]* see [there](reduced+suspension#References). For more general discussion of [[homotopy pushouts]] see also [there](homotopy+pushout#References). Most introductions to [[homotopy theory]] discuss suspension, in one form or other, see [there](homotopy+theory#References).
 
-* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 2 of: _Spectra and stable homotopy theory_ (2012) &lbrack;[pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]]&rbrack;
+Textbook accounts with the basics definition:
 
-A textbook which knows that the suspension of the [[empty set]] is the [[0-sphere]], although even it regards this as an exception:
+* [[Klaus Jänich]], p. 41 in: *Topology*, Undergraduate Texts in Mathematics, Springer (1984, 1999) &lbrack;[ISBN:9780387908922](https://link.springer.com/book/9780387908922), [doi:10.1007/978-3-662-10574-0](https://doi.org/10.1007/978-3-662-10574-0), Chapters 1-2: [pdf](http://topologicalmedialab.net/xinwei/classes/readings/Janich/Janich_Topology_ch1-2.pdf)&rbrack;
+
+* [[Allen Hatcher]], p. 8 in: *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
+
+
+A textbook which knows that the suspension of the [[empty set]] is the [[0-sphere]] (although even it regards this as an exception):
 
 * Anatole Katok, Alexey Sossinsky, Chapter 1 of: *Introduction to Modern Topology and Geometry* (2010) &lbrack;[toc pdf](http://akatok.s3-website-us-east-1.amazonaws.com/TOPOLOGY/Contents.pdf), [[KatokSossinsky-Topology-Ch1.pdf:file]]&rbrack;
 
-Discussion of suspension as a [[higher inductive type]] in [[homotopy type theory]]:
+Discussion of the [[suspension type]] as a [[higher inductive type]] in [[homotopy type theory]]:
 
 * [[Univalent Foundations Project]], §6.5 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
@@ -188,7 +194,8 @@ On the question on what is the Eckman-Hilton dual to $X\star Y$:
 
 The above graphics is taken from
 
-* {#Muro10} [[Fernando Muro]], _Representability of Cohomology Theories_, Joint Mathematical Conference CSASC 2010, 22–27 January 2010, Prague, Czech Republic ([slides](https://personal.us.es/fmuro/files/slides/praha.pdf))
+* {#Muro10} [[Fernando Muro]], _Representability of Cohomology Theories_, Joint Mathematical Conference CSASC 2010, 22–27 January 2010, Prague, Czech Republic &lbrack;[slides](https://personal.us.es/fmuro/files/slides/praha.pdf), [[Muro-Representability.pdf:file]]&rbrack;
+
 
 
 [[!redirects suspension]]
