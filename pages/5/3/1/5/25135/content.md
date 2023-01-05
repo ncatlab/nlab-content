@@ -3,16 +3,16 @@
 
 ## Idea
 
-In [[dependent type theory]], given types $A$ and $B$, an [[anafunction]] is a [[type family]] $x\colon A, y \colon B \vdash R(x, y) \; \mathrm{type}$ which comes with a witness 
-$$p \colon \prod_{x:A} \mathrm{isContr}\left(\sum_{y:B} R(x, y) \right)$$
+In [[dependent type theory]], given types $A$ and $B$, an [[anafunction]] is a [[type family]] $x\colon A, y \colon B \vdash R(x, y) \; \mathrm{type}$ which comes with a family of witnesses 
+$$x \colon A \vdash p(x) \colon \mathrm{isContr}\left(\sum_{y:B} R(x, y) \right)$$
 that for each [[term|element]] $x\colon A$, the [[dependent sum type]] $\sum_{y\colon B} R(x, y)$ is a [[contractible type]]. 
 
 A *dependent anafunction* is like such an anafunction but where we allow $B$ to also [[dependent type|depend]] on $x\colon A$. 
 
 ## Definition 
 
-In [[dependent type theory]] ([[homotopy type theory]]), given a type $A$ and a [[type family]] $x\colon A \vdash B(x) \; \mathrm{type}$, a **dependent anafunction** is a type family $x\colon A, y\colon B(x) \vdash R(x, y) \; \mathrm{type}$ which comes with a witness 
-$$p\colon \prod_{x:A} \mathrm{isContr}\left(\sum_{y\colon B(x)} R(x, y) \right)$$
+In [[dependent type theory]] ([[homotopy type theory]]), given a type $A$ and a [[type family]] $x\colon A \vdash B(x) \; \mathrm{type}$, a **dependent anafunction** is a type family $x\colon A, y\colon B(x) \vdash R(x, y) \; \mathrm{type}$ which comes with a family of witnesses 
+$$x \colon A \vdash p(x) \colon \mathrm{isContr}\left(\sum_{y\colon B(x)} R(x, y) \right)$$
 that for each element $x\colon A$, the [[dependent sum type]] $\sum_{y\colon B(x)} R(x, y)$ is a [[contractible type]]. 
 
 ## Properties
