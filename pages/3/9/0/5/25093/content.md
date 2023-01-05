@@ -15,8 +15,8 @@ On a proposal for a [[formal logic|logical formalization]] of [[Hegel|Hegelian]]
 
 * [[Uwe Petersen]], _Logic Without Contraction as Based on Inclusion and Unrestricted Abstraction_, Studia Logica 64, 365–403 (2000). [doi:10.1023/A:1005293713265](https://doi.org/10.1023/A:1005293713265)
 
-His _opus magnum_
+His _opus magnum_:
 
-* {#Petersen02} [[Uwe Petersen]], _[[Diagonal Method and Dialectical Logic]] 3 vols._, Der Andere Verlag Osnabrück 2002. 
+* {#Petersen02} [[Uwe Petersen]], _[[Diagonal Method and Dialectical Logic]] 3 vols._, Der Andere Verlag, Osnabrück (2002). 
 
 category: people
