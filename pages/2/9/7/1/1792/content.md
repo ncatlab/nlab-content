@@ -13,16 +13,34 @@
 =--
 =--
 
-
 # Contents
 * table of contents
 {:toc}
 
 ## Idea
+ {#Idea}
 
-The suspension $S X$ of a [[topological space]] $X$ is a space of one higher dimension, which is (for [[inhabited set|inhabited]] $X$) a [[quotient object|quotient space]] of $X \times [0,1]$.  The difference between $S X$ and $X \times [0,1]$ is that the copy of $X$ at each endpoint ($0$ or $1$) is replaced by a single point.  
+* [In point-set topology](#InPointSetTopology)
 
-Compare the [[reduced suspension]] $\Sigma X$, where you start with a [[pointed space]] and identify all copies of the base point as well.  This is the special case in [[Top]] of a general operation in [[(∞,1)-categories]]: see [[suspension object]].  For [[CW-complex]]es the reduced suspension is [[weak homotopy equivalence|weakly homotopy equivalent]] to the ordinary suspension: $\Sigma X \simeq S X$.
+* [In homotopy theory](#InHomotopyTheory)
+
+### In point-set topology
+ {#InPointSetTopology}
+
+In [[point-set topology]], the (un-[[reduced suspension|reduced]]) *suspension* $\mathrm{S} X$ of an [[inhabited set|inhabited]] [[topological space]] $X$ is the [[quotient space]] of the [[cylinder]] space $X \times [-1,1]$ (the [[product space]] with a [[closed interval]]) by the relation which identifies all the points at either end:
+
+\[
+  \label{PointSetFormula}
+  \mathrm{S}X
+  \;\coloneqq\;
+  \big(X \times [-1,1]\big)
+  \;\big/\;
+  \big(
+    X\times \{-1,+1\} 
+  \big)
+  \,.
+\]
+
 
 {#Illustration} The following graphics gives an artistic impression of the suspension of a (non-empty) space $X$, indicated in gray:
 
@@ -32,14 +50,67 @@ Compare the [[reduced suspension]] $\Sigma X$, where you start with a [[pointed 
 
 > (adapted from [Muro 2010](#Muro10))
 
-The suspension construction is part of the [[cofiber sequence]] induced from any [[mapping cone]] construction:
+In particular, the suspension of an [[n-sphere|$n$-sphere]] is [[homeomorphism|homeomorphic]] to the $(n+1)$-sphere
+
+$$
+  S^{n+1} 
+    \;\underset{\mathrm{homeo}}{\simeq}\; 
+  \mathrm{S}(S^n)
+  \,,
+$$
+
+namely the [[union]] of (in terms of the above graphics):
+
+1. a north pole "$nth$"
+
+1. a south pole "$sth$"
+
+1. the [[meridians]] "$mer_x$" through all points $x \in S^{n}$ on the [[equator]].
+
+Hence, by [[induction]], the $(n+1)$-sphere is homeomorphic to the $n+1$-fold suspension of the [[0-sphere]]:
+
+$$
+  S^{n+1} 
+    \;\underset{\mathrm{homeo}}{\simeq}\; 
+  \mathrm{S}^{n+1}(S^0)
+  \,.
+$$
+
+
+### In homotopy theory
+ {#InHomotopyTheory}
+
+Regarded in the [[classical homotopy category]], the suspension construction (eq:PointSetFormula) on a [[CW-complex]] $X$ is a canonical model for the *[[suspension object]]* of the [[homotopy type]] represented by $X$ --- namely the [[homotopy pushout]] of the [[terminal object|terminal]] [[map]] $X \to \ast$ along itself) --- and as such plays a key role in [[homotopy theory]] and [[stable homotopy theory]].
+
+This also explains the usual definition of the suspension of the [[empty space]] as the [[0-sphere]]
+
+$$
+  \mathrm{S}(\varnothing)
+  \;=\;
+  S^0
+  \,,
+$$
+
+since the latter does model the [[homotopy pushout]] of $\varnothing \to \ast$ along itself (which is just a [[1-category]][[category theory|theoretic]] [[pushout]] and hence the [[coproduct]] of the [[point space]] with itself).
+
+For more on this see at *[[suspension object]]*.
+
+More precisely, what appears in most of [[algebraic topology]] and [[stable homotopy theory]] is the *[[reduced suspension]]* of [[pointed topological spaces]] $(X,x_0)$ (and eventually their [[suspension spectra]]):
+
+$$
+  \Sigma X \,\coloneqq\, \mathrm{S}X / \{x_0\}
+  \,,
+$$ 
+
+where in addition the copy of the interval over the given basepoint is identified with a single point. For [[CW-complexes]] the [[reduced suspension]] is [[weak homotopy equivalence|weakly homotopy equivalent]] to the ordinary suspension.
+
+In this context of ([[stable homotopy theory|stable]]) [[homotopy theory]], the suspension construction is part of the canonical [[point-set topology|point-set]] model for [[cofiber sequences]] induced from any [[mapping cone]] construction:
 
 <center>
 <img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="660" >
 </center>
 
 > (from [Muro 2010](#Muro10))
-
 
 
 ## Definitions
