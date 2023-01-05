@@ -431,7 +431,7 @@ For $n \in \mathbb{N}$ write
 
 * $D^n \coloneqq \{ \vec x\in \mathbb{R}^n | {\vert \vec x \vert \leq 1}\} \hookrightarrow \mathbb{R}^n$ for the standard topological [[n-disk]];
 
-* $S^{n-1} = \partial D^n \coloneqq \{ \vec x\in \mathbb{R}^n | {\vert \vec x \vert = 1}\} \hookrightarrow \mathbb{R}^n$ for the standard topological [[n-sphere]];
+* $S^{n-1} = \partial D^n \coloneqq \{ \vec x\in \mathbb{R}^n | {\vert \vec x \vert = 1}\} \hookrightarrow \mathbb{R}^n$ for the standard topological [[n-sphere]] (starting with the [[(-1)-sphere]]);
 
 Write
 
