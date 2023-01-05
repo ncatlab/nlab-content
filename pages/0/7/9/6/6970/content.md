@@ -99,6 +99,31 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{t
 
 In [[categorical semantics]] this is the statement that a [[section]] of a product [[projection]] $A \times B \to A$ is equivalently just a morphism $A \to B$.
 
+### As types of anafunctions
+
+In [[dependent type theory]], in the same way that one could define [[equivalence types]] as types of [[one-to-one correspondences]], one could also define function types as types of [[anafunctions]]. This requires both [[identity types]] and [[heterogeneous identity types]] being defined first, which we shall write as $a =_A b$ and $x =_{B}^{p} y$ respectively for $a:A$, $b:A$, $p:a =_A b$, $x:B(a)$, and $y:B(b)$.  
+
+Rules for function types
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \to B \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B, x:A, y:B \vdash \mathcal{F}_{A, B}(f, x, y) \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B}{\Gamma \vdash x \mapsto f(x):A \to B}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B}{\Gamma, x:A \vdash \alpha(x):\mathcal{F}_{A, B}(x \mapsto f(x), x, f(x))}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B, x:A \vdash \mathrm{ev}(f, x):B}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B, x:A \vdash \beta(f, x):\mathcal{F}_{A, B}(f, x, \mathrm{ev}(f, x))}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B, x:A, y:B,  u:\mathcal{F}_{A, B}(f, x, y) \vdash \kappa(f, x, y, u):\mathrm{ev}(f, x) =_B y}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B, x:A, y:B,  u:\mathcal{F}_{A, B}(f, x, y) \vdash \eta(f, x, y, u):\beta(f, x) =_{\mathcal{F}_{A, B}(f, x)}^{\kappa(f, x, y, u)} u}$$
+
+By the rules for [[dependent sum types]] and [[dependent product types]], one could derive that 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B \vdash \eta(f):\prod_{x:A} \mathrm{isContr}\left(\sum_{y:B} \mathcal{F}_{A, B}(f, x, y) \right)}$$
+
+which is precisely the statement that $\mathcal{F}_{A, B}(f)$ is an [[anafunction]] for all functions $f:A \to B$. 
+
 ## Properties
 
 ### Relation to dependent product types
@@ -125,6 +150,8 @@ In [[logic]], functions types express [[implication]]. More precisely, for $\phi
 * [[function monad]]
 
 * [[dependent product type]]
+
+* [[equivalence type]]
 
 * [[lambda calculus]]
 
