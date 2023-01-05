@@ -18,18 +18,7 @@
 
 ## Idea ##
 
-A very general structure where the concept of [[limit of a function]] makes sense. 
-
-## Definition ##
-
-A __function limit space__ is a set $T$ such that for all [[subsets]] $S \subseteq T$, there is a ternery relation on the Cartesian product $(S \to T) \times S \times T$
-$$ f(x) \underset{x \to c}{\to} L $$
-for $f:S \to T$, $c \in S$, and $L \in T$. 
-
-### Hausdorff function limit spaces ###
-
-A __Hausdorff function limit space__ is a set $T$ such that for all [[subsets]] $S \subseteq T$, there is a [[partial function]] 
-$$\lim_{x \to (-)} (-)(x): S \times (S \to T) \to T$$ 
+The term "function limit space" is used for instance by  [Petrakis (2016, p. 9)](#Petrakis16).
 
 ## See also ##
 
@@ -38,3 +27,8 @@ $$\lim_{x \to (-)} (-)(x): S \times (S \to T) \to T$$
 * [[pointwise continuous function]]
 
 * [[algebraic limit field]]
+
+
+## References
+
+* {#Petrakis16} Iosif Petrakis: *Limit spaces with approximations*, Annals of Pure and Applied Logic **167** 9 (2016) 737-752 &lbrack;[doi:10.1016/j.apal.2016.04.013](https://doi.org/10.1016/j.apal.2016.04.013), [pdf](https://www.math.lmu.de/~petrakis/LSA.pdf)&rbrack;
