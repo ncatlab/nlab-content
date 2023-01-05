@@ -94,7 +94,7 @@ See at _[one-point compactification -- Examples -- Spheres](one-point+compactifi
 
 * [[suspension object]]
 
-  * [[suspension type]]
+  * [[suspension type]], [[reduced suspension type]]
 
   * [[suspension]], **reduced suspension**
 
