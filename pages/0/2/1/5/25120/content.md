@@ -13,12 +13,27 @@
 {: toc}
 
 ## Idea
- {#Idea}
+{#Idea}
 
-Generally, in the context of [[formal logic]] and [[type theory]], *higher-order abstract syntax* (HOAS) refers to equipping the data type of [[abstract syntax trees]] with 
-[[variable-binding operators]] (e.g. [[quantifiers]]) i.e. with [[higher-order logic]], whence the name.
+The term **higher-order abstract syntax** has been used to refer to several distinct, but related, concepts. In chronological order, and from least to most generality:
 
-A specific approach &lbrack;[Pfenning & Elliot (1988)](#PfenningElliot88)&rbrack; considers formalizing [[languages]] supporting forms of [[name binding]] (such as function parameters or [[quantifiers]]) by using the meta-language [[function space]] rather than a more syntactic notion of [[bound variable]].
+1. A [[logical framework]] proposed by &lbrack;[Pfenning & Elliot (1988)](#PfenningElliot88)&rbrack; based on the [[simply-typed lambda-calculus]] with [[polymorphism]].
+2. The [[logical framework]] technique of representing [[abstract syntax]] for [[theories]] with [[variable-binding operators]] using the [[function types]] of another theory viewed as a meta-theory, popularised by [[LF]] and Pfenning–Elliot's logical framework described in (1).
+3. [[abstract syntax|Abstract syntax]] for [[theories]] with variable-binding operators, metavariable-binding operators, and so on. The logical framework technique in (2) is a particular representation of such abstract syntax.
+
+Usage (1) does not appear to be in common usage. Usage (2) tends to be the convention in literature on [[logical frameworks]]; while usage (3) is the convention in literature on algebraic type theory, though note that authors often restrict to [[second-order abstract syntax]], which is sufficient for most [[type theories]].
+
+Examples of variable-binding operators are [[lambda-abstraction]] and [[quantifiers]] (e.g. in [[higher-order logic]], whence the name).
+
+## Higher-order abstract syntax in logical frameworks
+
+In logical frameworks, one formalizes [[languages]] supporting forms of [[name binding]] (such as function parameters or [[quantifiers]]) by using the meta-language [[function space]] rather than a more syntactic notion of [[bound variable]].
+
+## Higher-order abstract syntax in algebraic type theory
+
+Traditional approaches to [[abstract syntax]], e.g. for [[algebraic theories]], typically involve [[abstract syntax trees]]. However, it is not possibly directly to capture [[variable-binding operators]] with such structures. Therefore, alternative structures are necessary to capture the syntax of [[theories]] with such operators, e.g. [[type theories]].
+
+One possible approach is via the [[logical framework]] approach described above.
 
 ## Related Concepts
 
