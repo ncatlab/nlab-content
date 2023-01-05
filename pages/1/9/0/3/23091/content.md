@@ -30,13 +30,13 @@ Textbook accounts of [[homotopy theory]] of [[topological spaces]] (i.e. via "[[
 * [[Hans-Joachim Baues]], _Homotopy types_, in [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_, North Holland, 1995 ([ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2), [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
 
 
-* [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], *Algebraic topology from a homotopical viewpoint*, Springer Science & Business Media, 2008 ([doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586))
+* [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], *Algebraic topology from a homotopical viewpoint*, Springer (2008) ([doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586))
 
 * [[Jeffrey Strom]], *Modern classical homotopy theory*, Graduate Studies in Mathematics **127**, American Mathematical Society (2011) $[$[doi:10.1090/gsm/127](http://www.ams.org/books/gsm/127/)$]$
 
 * [[Martin Arkowitz]], *Introduction to Homotopy Theory*, Springer (2011) $[$[doi:10.1007/978-1-4419-7329-0](https://doi.org/10.1007/978-1-4419-7329-0)$]$
 
-* [[Dai Tamaki]], *Fiber Bundles and Homotopy*, World Scientific 2021 ([doi:10.1142/12308](https://doi.org/10.1142/12308))
+* [[Dai Tamaki]], *Fiber Bundles and Homotopy*, World Scientific (2021) $[$[doi:10.1142/12308](https://doi.org/10.1142/12308)$]$
 
   > (motivated from [[classifying spaces]] for [[principal bundles]]/[[fiber bundles]])
 
@@ -78,7 +78,7 @@ Textbooks:
 
 * {#tomDieck2008} [[Tammo tom Dieck]],  _Algebraic topology_, European Mathematical Society, Zürich (2008) ([doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/diecktop.pdf))
 
-* {#Hatcher02} [[Allen Hatcher]], *Algebraic Topology*, Cambridge University Press 2002 ([ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html))
+* {#Hatcher02} [[Allen Hatcher]], *Algebraic Topology*, Cambridge University Press (2002) $[$[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)$]$
 
 On [[constructive mathematics|constructive]] methods ([[constructive algebraic topology]]):
 
