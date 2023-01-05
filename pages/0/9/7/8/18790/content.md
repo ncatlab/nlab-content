@@ -13,6 +13,22 @@ However, in more exotic contexts where the [[function comprehension|function com
 
 Anafunctions are a [[decategorification]] of the notion of [[anafunctor]], and take their name from the latter.  Traditionally they would be called "total functional relations".
 
+## In dependent type theory
+
+In [[dependent type theory]], an anafunction is a type family $R$ indexed by types $A$ and $B$ such that for each element $a:A$, the [[dependent sum type]] $\sum_{b:B} R(a, b)$ is a [[contractible type]]: 
+$$\mathrm{isAnafunction}(R) \coloneqq \prod_{a:A} \mathrm{isContr}\left(\sum_{b:B} R(a, b) \right)$$
+The [[principle of unique choice]] holds in dependent type theory, which means that given any anafunction $a:A, b:B \vdash R(a, b) \; \mathrm{type}$, there is a function $a:A \vdash f(a):B$. 
+
+The categorical semantics of an anafunction in dependent type theory is an [[infinity-anafunctor]], since the [[identity types]] between two elements of a type are not required to be [[mere propositions]]. 
+
+Given any type family $R$ indexed by types $A$ and $B$, there is a type family $R^\op$ indexed by $B$ and $A$, defined by $R^\op(b, a) \coloneqq R(a, b)$ for all $a:A$ and $b:B$. An anafunction $R$ is an [[equivalence of types]] if both $R$ and $R^\op$ are anafunctions. 
+
+## See also
+
+* [[anafunctor]]
+* [[infinity-anafunctor]]
+* [[equivalence of types]]
+
 ## References
 
 For anafunctions in [[foundations of mathematics]] without the [[principle of unique choice]] see:
