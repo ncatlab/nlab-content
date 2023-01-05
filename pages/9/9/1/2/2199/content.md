@@ -98,6 +98,18 @@ $$
 $$
 
 
+### In homotopy type theory
+ {#InHomotopyTypeTheory}
+
+In [[homotopy type theory]] the type of booleans / bits looks as [above](#InTypeTheory) (using [[judgemental equality|judgemental]] or [[propositional equality]] for the [[computation rule]]) but now it may equivalently be thought of as the [[sphere type]] of the *[[0-sphere]]* and as such as the beginning of the [[suspension type]]-tower of types of "higher homotopy bits":
+
+<center>
+<img src="/nlab/files/HigherHomotopyBits-230106.jpg" width="450">
+</center>
+
+
+
+
 ## References
 
 See also:
