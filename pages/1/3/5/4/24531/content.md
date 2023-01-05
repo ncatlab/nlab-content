@@ -46,3 +46,7 @@ Just as Lawvere theories can be identified with [[cartesian multicategories]], t
 * [[Marcelo Fiore]] and Ola Mahmoud, _Second-order Algebraic Theories_, MFCS 2010, [arxiv](https://arxiv.org/abs/1308.5409)
 
 A formalization in [[Agda]] by Marcelo Fiore and Dmitrij Szamozvancev: [webpage](https://www.cl.cam.ac.uk/~ds709/agda-soas/) with an [accompanying talk](https://www.youtube.com/watch?v=nP2J9SJ9DVM).
+
+[[!redirects second-order algebraic theory]]
+[[!redirects second order algebraic theories]]
+[[!redirects second-order algebraic theories]]
