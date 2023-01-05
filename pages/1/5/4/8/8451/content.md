@@ -110,7 +110,7 @@ See also
 
 ### Bayesian reasoning and neuroscience
 
-* David C. Knill, Alexandre Pouget. _The Bayesian Brain: The Role of Uncertainty in Neural Coding and Computation_, in Trends in Neurosciences 27(12) (2004), pp. 712–719, ([doi:10.1016/j.tins.2004.10.007](https://doi.org/10.1016/j.tins.2004.10.007)).
+* David C. Knill, Alexandre Pouget: *The Bayesian Brain: The Role of Uncertainty in Neural Coding and Computation*, in Trends in Neurosciences **27** 12 (2004) 712–719 &lbrack;[doi:10.1016/j.tins.2004.10.007](https://doi.org/10.1016/j.tins.2004.10.007)&rbrack;
 
 ### Category-theoretic treatment
 
