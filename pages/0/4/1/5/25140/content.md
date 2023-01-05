@@ -45,7 +45,7 @@ Hence the $n$-sphere may be regarded as the [[union]] of
 
 1. all meridians.
 
-This decomposition exhibits the $n$-sphere as the (un-reduced) [[suspension]] of the $S^{n-1}$-sphere which is its [[equator]].
+This decomposition exhibits the $n$-sphere as the (un-reduced) [[suspension]] of the $(n-1)$-sphere which is its [[equator]].
  
 
 ## Related concepts
