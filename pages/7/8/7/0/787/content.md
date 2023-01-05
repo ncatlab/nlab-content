@@ -319,7 +319,7 @@ The relation between the two different Lie-alebroid-like  definition of Courant 
 
 A proposal for a higher analog of the [[standard Courant algebroid]] with the [[generalized tangent bundle]] $T X \oplus T^* X$ replaced by $T X \oplus \wedge^n T^* X$ -- for a notion of standard [[higher Courant Lie algebroid]] -- is discussed in
 
-* [[Marco Zambon]], _$L_\infty$-algebras and higher analogues of Dirac structures and Courant algebroids_, J. Symplectic Geometry, ([arXiv:1003.1004](http://arxiv.org/abs/1003.1004))
+* [[Marco Zambon]], _$L_\infty$-algebras and higher analogues of Dirac structures and Courant algebroids_, J. Symplectic Geometry, J. Sympl. Geom. __10__:4 (2012) 563--599 [arXiv:1003.1004](https://arxiv.org/abs/1003.1004) [Zbl:1260.53134](https://zbmath.org/?q=an:1260.53134) [doi](https://doi.org/10.4310/JSG.2012.v10.n4.a4)
 
 The relation to [[schreiber:∞-Chern-Simons theory]] is discussed in 
 
