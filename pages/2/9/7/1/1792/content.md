@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {:toc}
@@ -23,19 +24,22 @@ The suspension $S X$ of a [[topological space]] $X$ is a space of one higher dim
 
 Compare the [[reduced suspension]] $\Sigma X$, where you start with a [[pointed space]] and identify all copies of the base point as well.  This is the special case in [[Top]] of a general operation in [[(∞,1)-categories]]: see [[suspension object]].  For [[CW-complex]]es the reduced suspension is [[weak homotopy equivalence|weakly homotopy equivalent]] to the ordinary suspension: $\Sigma X \simeq S X$.
 
-This picture 
+{#Illustration} The following graphics gives an artistic impression of the suspension of a (non-empty) space $X$, indicated in gray:
 
-[[suspension.jpg:pic]]
+<center>
+<img src="https://ncatlab.org/nlab/files/Suspension-unreduced-230105.jpg" width="420">
+</center>
 
-from [Wikimedia](https://secure.wikimedia.org/wikipedia/commons/wiki/File:Suspension.svg) shows the suspension of the blue circle as $X$; the green dots correspond to $2$ in the first definition below.
+> (adapted from [Muro 2010](#Muro10))
 
-Note that we *replace* $X$ by a single point at each endpoint; we don\'t merely *identify* all of the points in $X$ there.  This only makes a difference for the [[empty space]]; we should have $S \empty = \{\bot,\top\}$, not $S \empty = \empty$.  (This is related to the issues in the definition of [[connected space]].)
+The suspension construction is part of the [[cofiber sequence]] induced from any [[mapping cone]] construction:
 
-The suspension construction is part of the [[cofiber sequence]] induced from any [[mapping cone]] construction
-
+<center>
 <img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="660" >
+</center>
 
-(graphics taken from [Muro 2010](#Muro10))
+> (from [Muro 2010](#Muro10))
+
 
 
 ## Definitions
