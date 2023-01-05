@@ -5,11 +5,14 @@
 
 ## Idea
 
-The __boolean domain__ or __boolean field__ (often just: $Bool$) is a $2$-element [[set]], say $\mathbb{B} = \{ 0, 1 \}$ ("[[bits]]") or $\mathbb{B} = \{ \bot, \top \}$ ("[[bottom]]", "[[top]]"), whose elements may be interpreted as [[truth values]]. 
+The __boolean domain__ or __boolean field__ (often just: $Bool$) is a $2$-element [[set]], say $\mathbb{B} = \{ 0, 1 \}$ ("[[bits]]") or $\mathbb{B} = \{ \bot, \top \}$ ("[[bottom]]", "[[top]]"), whose [[elements]] may be interpreted as [[truth values]]. 
 
 Note that $\mathbb{B}$ is the set of *all* [[truth values]] in [[classical logic]], but this cannot be assumed in non-classical logic such as [[intuitionistic logic]].  
 
-If we think of $\mathbb{B}$ as a [[pointed set]] equipped with the true element, then there is an [[generalized the|effectively unique]] boolean domain.
+The Boolean domain plays the role of the [[subobject classifier]] in the [[Boolean topos]] of [[Sets]].
+
+
+If we think of the classical $\mathbb{B}$ as a [[pointed set]] equipped with the true element, then there is an [[generalized the|effectively unique]] boolean domain.
 
 A __boolean variable__ $x$ is a variable that takes its value in a boolean domain, as $x \in \mathbb{B}$.  If this variable depends on parameters, then it is (or defines) a [[Boolean-valued function]], that is a [[function]] whose target is $\mathbb{B}$.
 
@@ -101,12 +104,13 @@ $$
 ### In homotopy type theory
  {#InHomotopyTypeTheory}
 
-In [[homotopy type theory]] the type of booleans / bits looks as [above](#InTypeTheory) (using [[judgemental equality|judgemental]] or [[propositional equality]] for the [[computation rule]]) but now it may equivalently be thought of as the [[sphere type]] of the *[[0-sphere]]* and as such as the beginning of the [[suspension type]]-tower of types of "higher homotopy bits":
+In [[homotopy type theory]] the type of booleans / bits looks as [above](#InTypeTheory) (using [[judgemental equality|judgemental]] or [[propositional equality]] for the [[computation rule]]) but now it may equivalently be thought of as the [[sphere type]] of the *[[0-sphere]]* and as such as the beginning of the [[suspension type]]-tower of types of "higher homotopy bits" --- the [[n-sphere|$n$-]][[sphere types]]:
 
 <center>
 <img src="/nlab/files/HigherHomotopyBits-230106.jpg" width="450">
 </center>
 
+\linebreak
 
 
 
