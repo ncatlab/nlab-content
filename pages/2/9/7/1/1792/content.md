@@ -33,12 +33,17 @@ In [[point-set topology]], the (un-[[reduced suspension|reduced]]) *suspension* 
   \label{PointSetFormula}
   \mathrm{S}X
   \;\coloneqq\;
-  \big(X \times [-1,1]\big)
-  \;\big/\;
-  \big(
-    X\times \{-1,+1\} 
-  \big)
-  \,.
+  \frac{
+    X \,\times\, [-1,\, +1]
+  }{
+    \left(
+    \begin{array}{c}  
+      X \times \{-1\}\mathrlap{,\,}
+      \\
+      X \times \{+1\}
+    \end{array}
+    \right)
+  }  \,.
 \]
 
 
@@ -65,7 +70,7 @@ namely the [[union]] of (in terms of the above graphics):
 
 1. a south pole "$sth$"
 
-1. the [[meridians]] "$mer_x$" through all points $x \in S^{n}$ on the [[equator]].
+1. the [[meridians]] "$mer(x)$" through all points $x \in S^{n}$ on the [[equator]].
 
 Hence, by [[induction]], the $(n+1)$-sphere is homeomorphic to the $n+1$-fold suspension of the [[0-sphere]]:
 
