@@ -5,6 +5,10 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
 =--
 =--
 
@@ -14,7 +18,9 @@
 
 ## Idea
 
-The _suspension type_ is an [[axiom|axiomatization]] of the [[suspension object]] in the context of [[homotopy type theory]].
+In [[homotopy type theory]], a _suspension type_ of any [[type]] $X$ is the [[pushout type]] of the terminal function $X \to \ast$ (to the [[unit type]]) along itself, hence the pushout of the [[span]] $\ast \longleftarrow X \longrightarrow \ast$.
+
+The [[categorical semantics]] is given by [[suspension objects]] in [[homotopy theory]] (and hence by [[suspension]] of [[topological spaces]] in, say, the [[classical model structure on topological spaces]]). 
 
 ## Definition
 
@@ -24,7 +30,9 @@ As a [[higher inductive type]], the suspension $\Sigma A$ of a type $A$ is given
 * A point $\mathrm{S} : \Sigma A$
 * A function $merid : A \to (\mathrm{N} =_{\Sigma A} \mathrm{S})$
 
-In [[Coq]] pseudocode it becomes
+The resulting [[inference rules]] are the specialization of those of [[pushout types]] (see [there](pushout+type#InferenceRules)).
+
+In [[Coq]] [[pseudocode]] this becomes
 
     Inductive Suspension (A : Type) : Type
       | north : Suspension A
@@ -47,7 +55,6 @@ This says that the type is [[dependent type|dependent]] on the type A and induct
 
 * Homotopical $n$-[[globe]] types of dimension $n:\mathbb{N}$, $G_n$, are suspension types of $G_{n-1}$.
 
-* In general, the suspension type $\Sigma A$ of a type $A$ is the [[homotopy pushout]] of the [[span]] $\mathbf{1} \leftarrow A \rightarrow \mathbf{1}$. 
 
 ## Related concepts
 
@@ -61,6 +68,6 @@ This says that the type is [[dependent type|dependent]] on the type A and induct
 
 ## References
 
-* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+* [[Univalent Foundations Project]], §6.5 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
 [[!redirects suspension types]]
