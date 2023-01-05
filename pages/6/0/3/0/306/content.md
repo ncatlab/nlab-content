@@ -135,7 +135,7 @@ By further playing around with this one finds that this latter subobject of $\Om
 
 ### In $Set$
 
-In the category of [[set]]s, the 2-element set $\mathbf{2} = \{f, t\}$ plays the role of $\Omega$; the morphism $t: 1 \to \mathbf{2}$ just names the element $t$. Given a [[subset]] $S \subseteq X$, the characteristic function $\chi_S: X \to \mathbf{2}$ is the function defined by $\chi_S(x) = t$ if $x \in S$, and $\chi_S(x) = f$ if $x \notin S$.
+In the category [[Sets]] of [[sets]], the 2-element set $\mathbf{2} = \{f, t\}$ (the [[classical mathematics|classical]] *[[Boolean domain]]*) plays the role of $\Omega$; the morphism $t \colon  1 \to \mathbf{2}$ just names the element $t$. Given a [[subset]] $S \subseteq X$, the characteristic function $\chi_S: X \to \mathbf{2}$ is the function defined by $\chi_S(x) = t$ if $x \in S$, and $\chi_S(x) = f$ if $x \notin S$.
 
 +-- {: .num_remark}
 ###### Remark
@@ -441,6 +441,8 @@ Whereas for 1-toposes the _subobject classifier_ is the key structural ingredien
 
 
 ## Related concepts
+
+* [[boolean domain]]
 
 * [[quasitopos]] where a weaker notion of subobject classifier only classifies [[strong monomorphism]]s. 
 
