@@ -166,6 +166,8 @@ Another, more recent take on pure lambda calculus as a certain kind of [[algebra
 [[!redirects simply typed λ-calculus]]
 
 [[!redirects simply-typed lambda calculus]]
+[[!redirects simply-typed lambda-calculus]]
+[[!redirects simply-typed λ-calculus]]
 
 [[!redirects λ-term]]
 [[!redirects λ-terms]]
