@@ -153,6 +153,8 @@ In [[logic]], functions types express [[implication]]. More precisely, for $\phi
 
 * [[equivalence type]]
 
+* [[partial function type]]
+
 * [[lambda calculus]]
 
 * [[implication]], [[linear implication]]
