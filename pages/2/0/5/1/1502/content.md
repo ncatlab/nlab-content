@@ -29,15 +29,17 @@ A _semisimple category_ is a category in which each object is a [[direct sum]] o
 
 An [[abelian category]] is called **semisimple** if every [[object]] is a [[semisimple object]], hence a [[direct sum]] of [[finite number|finitely many]] [[simple objects]].  See [[semisimple abelian category]].
 
-Alternatively, a [[monoidal category|monoidal]] [[linear category]] (that is, a [[monoidal category]] [[enriched category|enriched over]] [[Vect]]) is called **semisimple** if:
+Alternatively, at least over an algebraically closed field $k$, a [[linear category]] (that is, a [[category]] [[enriched category|enriched over]] [[Vect]]) is called **semisimple** if:
 
 *  it has finite [[biproducts]] (usually called '[[direct sums]]'),
 *  [[split idempotent|idempotents split]] (so we say that it 'has [[subobjects]]' or, perhaps better, 'has [[retract]]s'), and
-*  there exist [[object]]s $X_i$ labeled by an index set $I$ such that $Hom(X_i, X_j) \cong \delta_{ij} k$ where $k$ is the [[ground field]] (such objects are called _[[simple object|simple]]_) and such that for any two objects $V$ and $W$ in the category, the natural composition map
+*  there exist [[object]]s $X_i$ labeled by an index set $I$ such that $Hom(X_i, X_j) \cong \delta_{i j} k$ where $k$ is the [[ground field]] (such objects are called _[[simple object|simple]]_) and such that for any two objects $V$ and $W$ in the category, the natural composition map
    \[
      \bigoplus_{i \in I} Hom(V, X_i) \otimes Hom(X_i, W) \rightarrow Hom(V, W)
    \]
    is an isomorphism.
+
+(If the field $k$ is not algebraically closed, a [[simple object]] $X$ can have a finite-dimensional division algebra other than $k$ itself as its endomorphism algebra.)
 
 ## Direct sums of simple objects 
 
@@ -82,7 +84,7 @@ where "$\vee$" denotes the ordinary linear dual of a vector space. Such a functo
 
 * The archetypical simple example is [[FinVect]] itself, the category of [[finite dimensional vector spaces]] over some [[ground field]] $k$. This has a single [[isomorphism]] class of simple objects: given by $k$ itself.
 
-* The [[category of representations|category of finite-dimensional representations]] of a compact [[Lie group]] $G$ is semisimple, with the simple objects being precisely the [[irreducible representation]]s (this is the content of [[Schur's lemma]]). If $G$ is not a [[compact Lie group]], one needs to pass from the concept of 'direct sum' to '[[direct integral]]'.
+* The [[category of representations|category of finite-dimensional complex representations]] of a compact [[Lie group]] $G$ is semisimple, with the simple objects being precisely the [[irreducible representation]]s (this is the content of [[Schur's lemma]]). If $G$ is not a [[compact Lie group]], one needs to pass from the concept of 'direct sum' to '[[direct integral]]'.
 
 * Every [[fusion category]] is a semisimple category.
 
