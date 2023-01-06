@@ -150,6 +150,7 @@ An axiomatic treatment of such semirings may be found at the end of [Richman 201
 * [[restriction category]]
 * [[category of partial endofunctions]]
 * [[partial function type]]
+* [[multivalued partial function]]
 
 ## References 
  {#References}
