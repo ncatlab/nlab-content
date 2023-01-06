@@ -33,9 +33,9 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} 
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash P(x) \; \mathrm{type} \quad \Gamma, x:A, p:P(x), q:P(x) \vdash \tau_{-1}(x, p, q):p =_{P(x)} q \quad \Gamma, x:A, p:P(x) \vdash f(x, p):B}{\Gamma, x:A, p:P(x) \vdash \alpha(x, p):\mathcal{P}_{A, B}((x, p) \mapsto f(x, p), x, f(x, p))}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash P(x) \; \mathrm{type} \quad \Gamma, x:A, p:P(x), q:P(x) \vdash \tau_{-1}(x, p, q):p =_{P(x)} q}{\Gamma, f:A \to B, x:A, p:P(x) \vdash \mathrm{ev}(f, x, p):B}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash P(x) \; \mathrm{type} \quad \Gamma, x:A, p:P(x), q:P(x) \vdash \tau_{-1}(x, p, q):p =_{P(x)} q}{\Gamma, f:A \rightharpoonup B, x:A, p:P(x) \vdash \mathrm{ev}(f, x, p):B}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash P(x) \; \mathrm{type} \quad \Gamma, x:A, p:P(x), q:P(x) \vdash \tau_{-1}(x, p, q):p =_{P(x)} q}{\Gamma, f:A \to B, x:A, p:P(x) \vdash \beta(f, x, p):\mathcal{F}_{A, B}(f, x, \mathrm{ev}(f, x, p))}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash P(x) \; \mathrm{type} \quad \Gamma, x:A, p:P(x), q:P(x) \vdash \tau_{-1}(x, p, q):p =_{P(x)} q}{\Gamma, f:A \rightharpoonup B, x:A, p:P(x) \vdash \beta(f, x, p):\mathcal{F}_{A, B}(f, x, \mathrm{ev}(f, x, p))}$$
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \rightharpoonup B, x:A, y:B, u:\mathcal{P}_{A, B}(f, x, y), z:B, v:\mathcal{P}_{A, B}(f, x, z) \vdash \kappa(f, x, y, u, z, v):y =_B z}$$
 
