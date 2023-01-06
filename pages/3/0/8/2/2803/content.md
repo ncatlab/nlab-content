@@ -78,7 +78,9 @@ An account of [[Morita equivalence]] as a corollary of the Yoneda lemma for bica
 
 * [[Niles Johnson]], _Morita Theory For Derived Categories: A Bicategorical Perspective_ ([arXiv:0805.3673](http://arxiv.org/abs/0805.3673))
 
+The stricter case of 2-categories is detailed in
 
+* Jonas Hedman, _2-Categories and Yoneda lemma_ ([pdf](http://www.diva-portal.org/smash/get/diva2:1064822/FULLTEXT01.pdf))
 
 
 [[!redirects bicategorical Yoneda lemma]]
