@@ -715,7 +715,7 @@ Every anodyne extension, def. \ref{AnodyneExtensions}, is a weak equivalence in 
 +-- {: .num_remark }
 ###### Remark
 
-What is not true in general is the converse of prop. \ref{EveryAnodyneExtensionIsWeakEquivalence}, that every acyclic cofibration is an anodyne extension. (A counterexample derives from chapter XI, remark 2.4 in [[Paul Goerss|Goerss]], [[Rick Jardine|Jardine]] _[[Simplicial homotopy theory]]_.)
+What is not true in general is the converse of prop. \ref{EveryAnodyneExtensionIsWeakEquivalence}, that every acyclic cofibration is an anodyne extension. (A counterexample derives from chapter X, remark 2.4 in [[Paul Goerss|Goerss]], [[Rick Jardine|Jardine]] _[[Simplicial homotopy theory]]_.)
 
 =--
 
