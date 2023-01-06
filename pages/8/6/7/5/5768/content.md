@@ -109,6 +109,10 @@ Connections to diophantine integration (involving p-adic integration):
 
 * Eric Katz, Joseph Rabinoff, David Zureick-Brown, _Diophantine and tropical geometry, and uniformity of rational points on curves_, [arxiv/1606.09618](http://arxiv.org/abs/1606.09618)
 
+Mirror symmetry for correlation functions of tropical observables:
+
+* Andrey Losev, Vyacheslav Lysov, _Tropical mirror symmetry: correlation functions_, [arXiv:2301.01687](https://arxiv.org/abs/2301.01687)
+
 ###Miscellaneous: MO questions, discussions, etc.
 
 * MathOverflow : [Mikhalkin's tropical schemes versus Durov's tropical schemes](http://mathoverflow.net/questions/72613/mikhalkins-tropical-schemes-versus-durovs-tropical-schemes), [learning-tropical-geometry](http://mathoverflow.net/questions/84629/learning-tropical-geometry)
