@@ -596,6 +596,7 @@ For more on relations between Barr's approach to topological spaces, Lawvere's a
 ## References 
 
 * Michael Barr, _Relational algebras_, Springer Lecture Notes in Math. 137 (1970), 39-55.
+([pdf](https://www.math.mcgill.ca/barr/papers/relalgs.pdf))
 {#Barr} 
 
 * Maria Manuel Clementino, Dirk Hofmann, and George Janelidze, _On exponentiability of &#233;tale algebraic homomorphisms_, Preprint 11-35, University of Coimbra. ([pdf](http://www.mat.uc.pt/preprints/ps/p1135.pdf))
