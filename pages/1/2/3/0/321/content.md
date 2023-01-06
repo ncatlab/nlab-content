@@ -9,6 +9,14 @@
 +-- {: .hide}
 [[!include relations - contents]]
 =--
+#### Set theory
++-- {: .hide}
+[[!include set theory - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
 #### Category theory
 +-- {: .hide}
 [[!include category theory - contents]]
@@ -26,6 +34,45 @@
 
 
 ## Definition 
+
+### In set theory
+
+In [[set theory]], a **span** or **correspondence** between [[sets]] $A$ and $B$ is a set $C$ with a [[function]] $R:C \to A \times B$ to the [[product set]] $A \times B$. A span between a set $A$ and $A$ itself is a [[directed pseudograph]], which is used to define [[categories]] in set theory. 
+
+### In dependent type theory
+
+In [[dependent type theory]], there is a distinction between a *span*, a *multivalued partial function*, and a *correspondence*:
+
+* A **span** between types $A$ and $B$ is a type $C$ with families of elements $x:C \vdash g(x):A$ and $x:C \vdash h(x):B$
+
+* A **[[multivalued partial function]]** from type $A$ to type $B$ is a type family $x:A \vdash P(x)$ with a family of elements $x:A, p:P(x) \vdash f(x, p):B$
+
+* A **correspondence** between types $A$ and $B$ is a type family $x:A, y:B \vdash R(x, y)$. 
+
+However, from any one of the above structures, one could get the other two structures, provided one has [[identity types]] and [[dependent pair types]] in the dependent type theory. Given a type family $x:A \vdash P(x)$, let $z:\sum_{x:A} P(x) \vdash \pi_1(z):A$ and $z:\sum_{x:A} P(x) \vdash \pi_2(z):P(\pi_1(z))$ be the dependent pair projections for the [[dependent pair type]] $\sum_{x:A} P(x)$. 
+
+* From every span one could get a multivalued partial function by defining the type family $x:A \vdash P(x)$ as $P(x) \coloneqq \sum_{y:C} g(y) =_A x$ and the family of elements $x:A, p:P(x) \vdash f(x, p):B$ as $f(x, p) \coloneqq h(\pi_1(x))$. 
+
+* From every multivalued partial function one could get a span by defining the type $C$ as $C \coloneqq \sum_{x:A} P(x)$ and the family of elements $x:C \vdash g(x):A$ as $g(x) \coloneqq \pi_1(x)$. 
+
+* From every multivalued partial function one could get a correspondence by defining the type family $x:A, y:B \vdash R(x, y)$ as $R(x, y) \coloneqq \sum_{p:P(x)} f(x, p) =_B y$. 
+
+* From every correspondence one could get a multivalued partial function by defining the type family $x:A \vdash P(x)$ as $P(x) \coloneqq \sum_{y:B} R(x, y)$, and the family of elements $x:A, p:P(x) \vdash h(x, p):B$ as $h(x, p) \coloneqq \pi_1(p)$
+
+* From every span one could get a correspondence by defining the type family $x:A, y:B \vdash R(x, y)$ as $R(x, y) \coloneqq \sum_{z:C} (g(z) =_A x) \times (h(z) =_B y)$. 
+
+* From every correspondence one could get a span by defining the type $C$ as $C \coloneqq \sum_{x:A} \sum_{y:B} R(x, y)$, the family of elements $z:C \vdash g(z):A$ as $g(z) \coloneqq \pi_1(z)$, and the function $z:C \vdash h(z):B$ as $h(z) \coloneqq \pi_1(\pi_2(z))$ 
+
+Given types $A$, $B$, and $C$ and spans $(D, x:D \vdash g_D(x):A, x:D \vdash h_D(x):B)$ between $A$ and $B$ and $(E, y:E \vdash g_E(y):B, y:E \vdash h_E(y):C)$ between $B$ and $C$, there is a span 
+$$(E \circ D, z:E \circ D \vdash g_{E \circ D}(z):A, z:E \circ D \vdash h_{E \circ D}(z):C)$$ 
+defined by
+$$E \circ D \coloneqq \sum_{x:D} \sum_{y:E} h_D(x) =_B g_E(y)$$
+$$z:E \circ D \vdash g_{E \circ D}(z) \coloneqq g_D(\pi_1(z))$$
+$$z:E \circ D \vdash h_{E \circ D}(z) \coloneqq h_E(\pi_1(\pi_2(\pi_1(z))(z)))$$
+
+Given types $A$, $B$, and $C$ and correspondences $x:A, y:B \vdash R(x, y)$ and $y:B, z:C \vdash S(y, z)$, there is a correspondence $x:A, z:C \vdash (S \circ R)(x, z)$ defined by 
+$$(S \circ R)(x, z) \coloneqq \sum_{y:B} R(x, y) \times S(y, z)$$
+
 
 ### In category theory
 
@@ -127,35 +174,6 @@ This is a weak 2-category: it has a nontrivial [[associator]]: composition of sp
 (Note that we must choose a specific pullback when defining the composite of a pair of morphisms in $Span(C)$, if we want to obtain a [[bicategory]] as traditionally defined; this requires the [[axiom of choice]]. Otherwise we obtain a bicategory with 'composites of morphisms defined only up to canonical iso-2-morphism'; such a structure can be modeled by an [[anabicategory]] or an [[opetopic bicategory]].)
 
 By including functions as well, instead of a bicategory we obtain a [[pseudo-double category]].
-
-### In type theory
-
-In [[dependent type theory]], there is a distinction between a *span*, a *multivalued partial function*, and a *correspondence*:
-
-* A **span** between types $A$ and $B$ is a type $C$ with functions $g:C \to A$ and $h:C \to B$
-
-* A **[[multivalued partial function]]** from type $A$ to type $B$ is a type family $x:A \vdash P(x)$ with a function $f:\left(\sum_{x:A} P(x)\right) \to B$
-
-* A **correspondence** between types $A$ and $B$ is a type family $x:A, y:B \vdash R(x, y)$. 
-
-However, from any one of the above structures, one could get the other two structures. Given a type family $x:A \vdash P(x)$, let $\pi_1:\left(\sum_{x:A} P(x)\right) \to A$ and $\pi_2:\prod_{x:A} \left(\sum_{x:A} P(x)\right) \to P(x)$ be the dependent pair projections for the [[dependent pair type]] $\sum_{x:A} P(x)$. 
-
-* From every span one could get a multivalued partial function by defining the type family $x:A \vdash P(x)$ as $P(x) \coloneqq \sum_{y:C} g(y) =_A x$ and the function $f:\left(\sum_{x:A} P(x)\right) \to B$ as $f(z) \coloneqq h(\pi_1(\pi_2(\pi_1(z))(z)))$. 
-
-* From every multivalued partial function one could get a span by defining the type $C$ as $C \coloneqq \sum_{x:A} P(x)$ and the function $g:C \to A$ as $g(x) \coloneqq \pi_1(x)$. 
-
-* From every multivalued partial function one could get a correspondence by defining the type family $x:A, y:B \vdash R(x, y)$ as $R(x, y) \coloneqq \sum_{p:P(x)} f(x, p) =_B y$. 
-
-* From every correspondence one could get a multivalued partial function by defining the type family $x:A \vdash P(x)$ as $P(x) \coloneqq \sum_{y:B} R(x, y)$, and the function $h:\left(\sum_{x:A} P(x)\right) \to B$ as $h(z) \coloneqq \pi_1(\pi_2(z))$ 
-
-* From every span one could get a correspondence by defining the type family $x:A, y:B \vdash R(x, y)$ as $R(x, y) \coloneqq \sum_{z:C} (g(z) =_A x) \times (h(z) =_B y)$. 
-
-* From every correspondence one could get a span by defining the type $C$ as $C \coloneqq \sum_{x:A} \sum_{y:B} R(x, y)$, the function $g:C \to A$ as $g(z) \coloneqq \pi_1(z)$, and the function $h:C \to B$ as $h(z) \coloneqq \pi_1(\pi_2(z))$ 
-
-Given types $A$, $B$, and $C$ and spans $(D, g_D:D \to A, h_D:D \to B)$ between $A$ and $B$ and $(E, g_E:E \to B, h_E:E \to C)$ between $B$ and $C$, there is a span $(E \circ D, g_{E \circ D}:E \circ D \to A, h_{E \circ D}:E \circ D \to C)$ defined by
-$$E \circ D \coloneqq \sum_{x:D} \sum_{y:E} h_D(x) =_B g_E(y)$$
-$$g_{E \circ D}(z) \coloneqq g_D(\pi_1(z))$$
-$$h_{E \circ D}(z) \coloneqq h_E(\pi_1(\pi_2(\pi_1(z))(z)))$$
 
 ## Properties
 
