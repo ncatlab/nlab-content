@@ -24,25 +24,13 @@ If the dependent type theory has [[function types]] and [[dependent sum types]],
 
 $$f:\left(\sum_{a:A} P_f(a)\right) \to B$$
 
-For example, the [[reciprocal function]] on the [[real numbers]] is only defined on the real numbers apart from zero, and so is given by the following rules:
-
-$$\frac{\Gamma \vdash \mathbb{R} \; \mathrm{type}}{\Gamma, x:\mathbb{R}, p:\vert x \vert \gt 0 \vdash {(-)}^{-1}:\mathbb{R}}$$
-
-$$\frac{\Gamma \vdash \mathbb{R} \; \mathrm{type}}{\Gamma, x:\mathbb{R}, p:\vert x \vert \gt 0 \vdash \mathrm{recipax}:x \cdot {(x, p)}^{-1} =_\mathbb{R} 1}$$
-
-Another example is the [[metric square root]] on the [[real numbers]], which is only defined on the non-negative real numbers, and is given by the following rules:
-
-$$\frac{\Gamma \vdash \mathbb{R} \; \mathrm{type}}{\Gamma, x:\mathbb{R}, p:x \geq 0 \vdash \sqrt{-}:\mathbb{R}}$$
-
-$$\frac{\Gamma \vdash \mathbb{R} \; \mathrm{type}}{\Gamma, x:\mathbb{R}, p:x \geq 0 \vdash \mathrm{sqrtax}:\sqrt{x, p}^2 =_\mathbb{R} x}$$
-
-In both cases, the witness $p$ is usually left implicit in informal notation, and the partial function is written as ${x}^{-1}$ or $\sqrt{x}$. 
-
 #### As partial anafunctions
 
 In [[dependent type theory]], given types $A$ and $B$, a **partial anafunction** is a [[type family]] $x\colon A, y \colon B \vdash R(x, y) \; \mathrm{type}$ which comes with a family of witnesses 
 $$x \colon A \vdash p(x) \colon \mathrm{isProp}\left(\sum_{y:B} R(x, y) \right)$$
 that for each [[term|element]] $x\colon A$, the [[dependent sum type]] $\sum_{y \colon B} R(x, y)$ is a [[mere proposition]].
+
+Historically, partial anafunctions are called *[[functional relations]]*, but nowadays in type theory one tends to use the term *[[relation]]* only for those [[type families]] which are valued in [[mere propositions]]. 
 
 For any partial anafunction, there is a partial function 
 $$x:A, p:\mathrm{isContr}\left(\sum_{y:B} R(x, y) \right) \vdash f(x, p):B$$
@@ -57,6 +45,26 @@ $$x:A, y:B, p:R(x, y) \vdash f(x, y, p):B$$
 
 on the other side, the function can be written as
 $$f:\left(\sum_{x:A} \sum_{y:B} R(x, y) \right) \to B$$
+
+#### Examples
+
+There are multiple examples of partial functions in mathematics. 
+
+The [[reciprocal function]] on the [[real numbers]] is only defined on the real numbers apart from zero, and so is given by the following rules:
+
+$$\frac{\Gamma \vdash \mathbb{R} \; \mathrm{type}}{\Gamma, x:\mathbb{R}, p:\vert x \vert \gt 0 \vdash {(-)}^{-1}:\mathbb{R}}$$
+
+$$\frac{\Gamma \vdash \mathbb{R} \; \mathrm{type}}{\Gamma, x:\mathbb{R}, p:\vert x \vert \gt 0 \vdash \mathrm{recipax}:x \cdot {(x, p)}^{-1} =_\mathbb{R} 1}$$
+
+The reciprocal function is given by the partial anafunction $x \cdot y =_\mathbb{R} 1$. 
+
+Another example is the [[metric square root]] on the [[real numbers]], which is only defined on the non-negative real numbers, and is given by the following rules:
+
+$$\frac{\Gamma \vdash \mathbb{R} \; \mathrm{type}}{\Gamma, x:\mathbb{R}, p:x \geq 0 \vdash \sqrt{-}:\mathbb{R}}$$
+
+$$\frac{\Gamma \vdash \mathbb{R} \; \mathrm{type}}{\Gamma, x:\mathbb{R}, p:x \geq 0 \vdash \mathrm{sqrtax}:\sqrt{x, p}^2 =_\mathbb{R} x}$$
+
+In both cases, the witness $p$ is usually left implicit in informal notation, and the partial function is written as ${x}^{-1}$ or $\sqrt{x}$. 
 
 ### In category theory
 
@@ -141,6 +149,7 @@ An axiomatic treatment of such semirings may be found at the end of [Richman 201
 * [[total function]]
 * [[restriction category]]
 * [[category of partial endofunctions]]
+* [[partial function type]]
 
 ## References 
  {#References}
