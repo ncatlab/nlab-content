@@ -10,10 +10,6 @@
 +--{: .hide}
 [[!include additive and abelian categories - contents]]
 =--
-#### Monoidal categories
-+--{: .hide}
-[[!include monoidal categories - contents]]
-=--
 =--
 =--
 
@@ -22,75 +18,191 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-A _semisimple category_ is a category in which each object is a [[direct sum]] of [[finite number|finitely many]] [[simple objects]], and all such direct sums exist.
+A _semisimple category_ is a [[category]] in which each [[object]] is a [[direct sum]] of [[finite number|finitely many]] [[simple objects]], and all such direct sums exist.
 
 ## Definition
+ {#Definition}
 
-An [[abelian category]] is called **semisimple** if every [[object]] is a [[semisimple object]], hence a [[direct sum]] of [[finite number|finitely many]] [[simple objects]].  See [[semisimple abelian category]].
+\begin{definition}
+**([[semisimple abelian category]])**
+\linebreak
+An [[abelian category]] is called **semisimple** if every [[object]] is a [[semisimple object]], hence a [[direct sum]] of [[finite number|finitely many]] [[simple objects]].
+\end{definition}
 
-Alternatively, at least over an algebraically closed field $k$, a [[linear category]] (that is, a [[category]] [[enriched category|enriched over]] [[Vect]]) is called **semisimple** if:
+Alternatively, at least over an [[algebraically closed field|algebraically closed]] [[ground field]] $k$:
 
-*  it has finite [[biproducts]] (usually called '[[direct sums]]'),
-*  [[split idempotent|idempotents split]] (so we say that it 'has [[subobjects]]' or, perhaps better, 'has [[retract]]s'), and
-*  there exist [[object]]s $X_i$ labeled by an index set $I$ such that $Hom(X_i, X_j) \cong \delta_{i j} k$ where $k$ is the [[ground field]] (such objects are called _[[simple object|simple]]_) and such that for any two objects $V$ and $W$ in the category, the natural composition map
+\begin{definition}\label{SemisimpleLinearCategory}
+**(semisimple linear category)**
+\linebreak
+A [[linear category]] (that is, a [[category]] [[enriched category|enriched over]] [[Vect]], cf. *[[tensor category]]*) is called **semisimple** if:
+
+1. it has [[finite product|finite]] [[biproducts]] 
+ 
+   (usually called '[[direct sums]]'),
+
+1. [[split idempotent|idempotents split]] 
+
+   (so we say that it 'has [[subobjects]]' or, perhaps better, 'has [[retracts]]'), 
+
+1. there exist [[objects]] $X_i$ labeled by an index [[set]] $I$ such that 
+
+   1. for any [[pair]] $i, j$ of indices we have an [[isomorphism]]
+
+      \[
+        \label{SimplicityIsomorphism}
+        Hom(X_i, X_j) 
+          \;\cong\; 
+        \delta_{i j} k
+        \,,
+      \] 
+
+      where $\delta$ denotes the [[Kronecker delta]] and $k$ the [[ground field]] 
+
+      (such objects are called *[[simple object|simple]]*),
+
+   1. for any [[pair]] of [[objects]] $V,\,W$, the natural [[composition]] map
+
+      \[
+        \label{CompositionIsomorphism}
+        \bigoplus_{i \in I} 
+        \,
+        Hom(V, X_i) 
+        \,\otimes\, 
+        Hom(X_i, W) 
+          \longrightarrow
+        Hom(V, W)
+      \]
+    
+      is an [[isomorphism]].
+
+   (If the field $k$ is not [[algebraically closed field|algebraically closed]], a [[simple object]] $X$ can have a [[finite-dimensional vector space|finite-dimensional]] [[division algebra]] other than $k$ itself as its [[endomorphism algebra]].)
+
+\end{definition}
+
+(e.g. [Müger (2003, p. 6)](#Müger03))
+
+\begin{proposition}\label{DirectSumDecompositionintoSimples}
+**(direct sum decomposition into simple objects)**
+\linebreak
+Definition \ref{SemisimpleLinearCategory} implies that every object $V$ is a [[direct sum]] of [[simple objects]] $X_i$. 
+\end{proposition}
+\begin{proof}
+The third item of the definition is equivalent to stipulating that the [[vector space]] $Hom(X_i, V)$ is in canonical [[dual vector space|duality]] with the vector space $Hom(V, X_i)$. Indeed, we have:
+
+1. a pairing
+
    \[
-     \bigoplus_{i \in I} Hom(V, X_i) \otimes Hom(X_i, W) \rightarrow Hom(V, W)
+     \begin{array}{ccc}
+        Hom(V, X_i) 
+         \,\otimes\, 
+        Hom(X_i, V) 
+        &
+          \longrightarrow 
+        &
+        Hom(X_i, X_i)
+        &\simeq&
+        k
+        \\
+        f \,\otimes\, g
+        &\mapsto&
+        f \,\circ\, g 
+        \mathrlap{\,,}
+     \end{array}
    \]
-   is an isomorphism.
 
-(If the field $k$ is not algebraically closed, a [[simple object]] $X$ can have a finite-dimensional division algebra other than $k$ itself as its endomorphism algebra.)
+   where on the right we used (eq:SimplicityIsomorphism),
+  
+1. a copairing
 
-## Direct sums of simple objects 
+   \[
+     k \cdot Id_B
+     \;\hookrightarrow\;
+     Hom(V,V)
+        \longrightarrow 
+      Hom(X_i, V) 
+        \otimes  
+     Hom(V, X_i)
+     \mathrlap{\,,}
+   \]
 
-Note that this definition implies that every object $V$ is a direct sum of simple objects $X_i$. To see this, note that the third item of the definition is equivalent to stipulating that the vector space $Hom(X_i, V)$ is in canonical duality with the vector space $Hom(V, X_i)$. Indeed, we have a canonical pairing
- \[
- Hom(V, X_i) \otimes Hom(X_i, V) \rightarrow k
+   where on the right we used (eq:CompositionIsomorphism),
+ 
+and one checks that these satisfy the [[triangle identities]] and as such exhibit [[dual vector spaces]]. 
+
+Hence if we choose a [[linear basis]]
+
+\[
+   \big\{ 
+     a_{i,p} 
+      \,\colon\, 
+     X_i 
+      \rightarrow V 
+   \big\}
 \]
-given by sending $f \otimes g \mapsto \langle f \circ g \rangle$ where the "$\langle \cdot \rangle$" notation refers to extracting [[scalars]] from endomorphisms of simple objects (each such endomorphism is a scalar multiple of the identity). We also have a canonical copairing
- \[
- k \rightarrow Hom(X_i, V) \otimes Hom(V, X_i)
+
+for each [[vector space]] $Hom(X_i, V)$, we get a corresponding dual basis
+
+\[
+  \big\{ 
+    a_i^p 
+     \,\colon\, 
+    V \rightarrow X_i 
+  \big\}
 \]
-given by sending $\id_{X_i}$ to the "$i$th block" of the image of the identity $\id_V$ arrow under the isomorphism given in the definition. One can check that this pairing and copairing satisfy the snake equations. Hence if we choose a basis 
- \[
- \{ a_{i,p} : X_i \rightarrow V \}
-\]
-for each vector space $Hom(X_i, V)$, we get a corresponding dual basis
- \[
- \{ a_i^p : V \rightarrow X_i \}
-\]
+
 satisfying
- \[
- a_i^p a_{j,q} = \delta_{ij} \delta_p^q \quad and \quad \sum_{i,p} a_{i,p} a_i^p = \id_V.
+
+\[
+  a_i^p a_{j,q} 
+   \;=\; 
+  \delta_{i j} \delta_p^q 
+  \;\;\; \text{and} \;\;\; 
+  \sum_{i,p} a_{i,p} a_i^p 
+    \;=\; \id_V
+  \mathrlap{\,.}
 \]
-This says precisely that $V$ has been expressed as a direct sum of the $X_i$.
+
+This says precisely that $V$ has been expressed as a [[direct sum]] of the $X_i$.
+\end{proof}
 
 
-## Remarks
+\begin{remark}
+Def. \ref{SemisimpleLinearCategory} (of semisimple linear categories) does not use the concept of *[[abelian category]]*. This is because the concepts that one thinks about with abelian categories such as [[kernel]]s and [[cokernel]]s do not play an important conceptual role in semisimple categories, being replaced by the more important concepts of [[biproduct]] and [[retract]]. Hence it is best to give a streamlined definition from first principles without going through the language of abelian categories which would have muddied the waters.
+\end{remark}
 
-* The above definition of semisimple monoidal linear category (taken from the reference of M&#252;ger below) does not use the concept of [[abelian category]]. This is because the concepts that one thinks about with abelian categories such as [[kernel]]s and [[cokernel]]s do not play an important conceptual role in semisimple categories, being replaced by the more important concepts of [[biproduct]] and [[retract]]. Hence it is best to give a streamlined definition from first principles without going through the language of abelian categories which would have muddied the waters.
+\begin{remark}
+For a category to be semisimple, it needs to have a certain directional symmetry in its hom-sets, namely that $Hom(V, W)$ must at least have the same dimension as$Hom(W,V)$. This is the easiest way to check if a category will _fail_ to be semisimple. For instance, the category $Rep(A)$ of [[representations]] of an algebra $A$ will rarely be semisimple, precisely because there is no relation between $Hom(V, W)$ and $Hom(W,V)$ in general. Again, this can be traced back to the original algebra $A$ not having any 'symmetry' like the inverse operation in a group. 
+\end{remark}
 
-* For a category to be semisimple, it needs to have a certain directional symmetry in its hom-sets, namely that $Hom(V, W)$ must at least have the same dimension as$Hom(W,V)$. This is the easiest way to check if a category will _fail_ to be semisimple. For instance, the category $Rep(A)$ of [[representations]] of an algebra $A$ will rarely be semisimple, precisely because there is no relation between $Hom(V, W)$ and $Hom(W,V)$ in general. Again, this can be traced back to the original algebra $A$ not having any 'symmetry' like the inverse operation in a group. 
+\begin{remark}
+As far as 'duality' on the hom-sets is concerned, one might have a $S \colon C \rightarrow C$ from the category to itself with the property that there are canonical isomorphisms
 
-* As far as 'duality' on the hom-sets is concerned, one might have a $S: C \rightarrow C$ from the category to itself with the property that there are canonical isomorphisms
- \[
- Hom(V, W) \cong Hom(W, SV)^\vee
+\[
+  Hom(V, W) \cong Hom(W, SV)^\vee
 \]
-where "$\vee$" denotes the ordinary linear dual of a vector space. Such a functor is called a _Serre functor_ in algebraic geometry, and indeed there is precisely such a functor on the derived category of coherent sheaves on a complex manifold --- it is given by tensoring with the canonical line bundle. 
 
-* For [[2-Hilbert space|2-Hilbert spaces]], there is an antilinear $*$-operation on the hom-sets $* : Hom(V, W) \rightarrow Hom(W,V)$. The presence of this duality in fact forces the category to be semisimple (this comes down to the fact that a finite-dimensional $*$-algebra, such as the hom's between a bunch of objects in the category, must be a full matrix algebra)
+where "$\vee$" denotes the ordinary linear dual of a vector space. Such a functor is called a _Serre functor_ in algebraic geometry, and indeed there is precisely such a functor on the derived category of coherent sheaves on a complex manifold --- it is given by tensoring with the [[canonical line bundle]]. 
+\end{remark}
+
+\begin{remark}
+For [[2-Hilbert space|2-Hilbert spaces]], there is an antilinear $*$-operation on the hom-sets $* : Hom(V, W) \rightarrow Hom(W,V)$. The presence of this duality in fact forces the category to be semisimple (this comes down to the fact that a finite-dimensional $*$-algebra, such as the hom's between a bunch of objects in the category, must be a full matrix algebra)
+\end{remark}
 
 ## Examples
 
 * The archetypical simple example is [[FinVect]] itself, the category of [[finite dimensional vector spaces]] over some [[ground field]] $k$. This has a single [[isomorphism]] class of simple objects: given by $k$ itself.
 
-* The [[category of representations|category of finite-dimensional complex representations]] of a compact [[Lie group]] $G$ is semisimple, with the simple objects being precisely the [[irreducible representation]]s (this is the content of [[Schur's lemma]]). If $G$ is not a [[compact Lie group]], one needs to pass from the concept of 'direct sum' to '[[direct integral]]'.
+* The [[category of representations|category of finite-dimensional complex representations]] of a [[compact Lie group]] $G$ is semisimple, with the simple objects being precisely the [[irreducible representation]]s (this is the content of [[Schur's lemma]]). If $G$ is not a [[compact Lie group]], one needs to pass from the concept of 'direct sum' to '[[direct integral]]'.
 
 * Every [[fusion category]] is a semisimple category.
 
 ## References
 
-* M. M&#252;ger, [From Subfactors to Categories and Topology I. Frobenius algebras in and Morita equivalence classes of tensor categories](https://arxiv.org/abs/math/0111204). 
+For example:
+
+* {#Müger03} [[Michael Müger]], p. 6 in: *From Subfactors to Categories and Topology I. Frobenius algebras in and Morita equivalence classes of tensor categories*, J. Pure Appl. Alg. **180** (2003) 81-157 &lbrack;[arXiv:math/0111204](https://arxiv.org/abs/math/0111204), <a href="https://doi.org/10.1016/S0022-4049(02)00247-5">doi:10.1016/S0022-4049(02)00247-5</a>&rbrack;
 
 There is related discussion on the $n$Forum [here](http://nforum.mathforge.org/discussion/1120/semisimple-category/?Focus=42783#Comment_42783).
 
