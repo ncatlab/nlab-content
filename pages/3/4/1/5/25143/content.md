@@ -23,10 +23,13 @@ $$x:A, p:P(x) \vdash f(x, p):B$$
 
 ## Properties
 
-Correspondences are [[type families]] $x:A, y:B \vdash R(x, y)$. From every correspondence, one could derive the [[multivalued partial function]] 
+Correspondences are [[type families]] $x:A, y:B \vdash R(x, y)$. From every correspondence, one could derive the multivalued partial function 
 $$x:A, p:\sum_{y:B} R(x, y) \vdash f(x, p):B$$
-and for every type family $x:A \vdash P(x)$ and every [[multivalued partial function]] $x:A, p:P(x) \vdash f(x, p):B$, one could define the [[correspondence]] $x:A, y:B \vdash R(x, y)$ as
+and for every type family $x:A \vdash P(x)$ and every multivalued partial function $x:A, p:P(x) \vdash f(x, p):B$, one could define the [[correspondence]] $x:A, y:B \vdash R(x, y)$ as
 $$R(x, y) \coloneqq \sum_{p:P(x)} f(x, p) =_B y$$
+
+Spans are types $C$ with functions $x:C \vdash g_A(x):A$ and $x:C \vdash g_B(x):B$. From every span, one could derive the multivalued partial function 
+$$x:A, p:\sum_{y:C} g_A(x) =_C y \vdash f(x, p):B$$
 
 ## Examples
 
