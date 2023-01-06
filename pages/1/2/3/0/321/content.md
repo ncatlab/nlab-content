@@ -253,6 +253,8 @@ Correspondences may be seen as generalizations of [[relations]]. A relation is a
 
 * [[multispan]]
 
+* [[correspondence type]]
+
 A category of correspondences is a refinement of a category [[Rel]] of relations. See there for more.
 
 ## References ##
