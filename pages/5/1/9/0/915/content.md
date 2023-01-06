@@ -40,6 +40,8 @@ We consider two multi-valued functions (with the same given source and target) t
 
 * [[universal cover]]
 
+* [[multivalued partial function]]
+
 ## References
 
 See also:
