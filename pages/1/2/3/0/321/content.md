@@ -144,6 +144,19 @@ However, from any one of the above structures, one could get the other two struc
 
 * From every multivalued partial function one could get a span by defining the type $C$ as $C \coloneqq \sum_{x:A} P(x)$ and the function $g:C \to A$ as $g(x) \coloneqq \pi_1(x)$. 
 
+* From every multivalued partial function one could get a correspondence by defining the type family $x:A, y:B \vdash R(x, y)$ as $R(x, y) \coloneqq \sum_{p:P(x)} f(x, p) =_B y$. 
+
+* From every correspondence one could get a multivalued partial function by defining the type family $x:A \vdash P(x)$ as $P(x) \coloneqq \sum_{y:B} R(x, y)$, and the function $h:\left(\sum_{x:A} P(x)\right) \to B$ as $h(z) \coloneqq \pi_1(\pi_2(z))$ 
+
+* From every span one could get a correspondence by defining the type family $x:A, y:B \vdash R(x, y)$ as $R(x, y) \coloneqq \sum_{z:C} (g(z) =_A x) \times (h(z) =_B y)$. 
+
+* From every correspondence one could get a span by defining the type $C$ as $C \coloneqq \sum_{x:A} \sum_{y:B} R(x, y)$, the function $g:C \to A$ as $g(z) \coloneqq \pi_1(z)$, and the function $h:C \to B$ as $h(z) \coloneqq \pi_1(\pi_2(z))$ 
+
+Given types $A$, $B$, and $C$ and spans $(D, g_D:D \to A, h_D:D \to B)$ between $A$ and $B$ and $(E, g_E:E \to B, h_E:E \to C)$ between $B$ and $C$, there is a span $(E \circ D, g_{E \circ D}:E \circ D \to A, h_{E \circ D}:E \circ D \to C)$ defined by
+$$E \circ D \coloneqq \sum_{x:D} \sum_{y:E} h_D(x) =_B g_E(y)$$
+$$g_{E \circ D}(z) \coloneqq g_D(\pi_1(z))$$
+$$h_{E \circ D}(z) \coloneqq h_E(\pi_1(\pi_2(\pi_1(z))(z)))$$
+
 ## Properties
 
 ### The 1-category of spans
