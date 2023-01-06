@@ -13,7 +13,7 @@
 
 ## Definition
 
-In [[dependent type theory]], given types $A$ and $B$, a **multivalued partial function** or **partial multivalued function** between $A$ and $B$ is a type family $x:A \vdash P(x)$ with a function 
+In [[dependent type theory]], given types $A$ and $B$, a **multivalued partial function** or **partial multivalued function** from $A$ to $B$ is a type family $x:A \vdash P(x)$ with a function 
 
 $$f:\left(\sum_{x:A} P(x)\right) \to B$$
 
@@ -44,6 +44,18 @@ In dependent type theory, [[correspondences]] are [[type families]] $x:A, y:B \v
 * A multivalued partial function for which the dependent type $P(x)$ is a [[mere proposition]] for all $x:A$ is a [[partial function]]. 
 
 * A multivalued partial function for which the dependent type $P(x)$ is a [[contractible type]] for all $x:A$ is a [[total function]]. 
+
+## Dependent multivalued partial functions
+
+In the same way that there is a notion of [[dependent function]] in addition to (non-dependent) function in dependent type theory, there is also a notion of dependent multivalued partial functions in addition to non-dependent multivalued partial functions. 
+
+In [[dependent type theory]], given a type $A$ and a type family $x:A \vdash B(x)$, a **multivalued partial function** or **partial multivalued function** from $A$ to $B$ is a type family $x:A \vdash P(x)$ with a dependent function 
+
+$$f:\prod_{x:A} \left(\sum_{x:A} P(x)\right) \to B(x)$$
+
+or equivalently 
+
+$$x:A, p:P(x) \vdash f(x, p):B(x)$$
 
 ## See also
 
