@@ -220,6 +220,13 @@ See also:
 [[!redirects definition rule]]
 [[!redirects definition rules]]
 
+[[!redirects copy]]
+[[!redirects copies]]
+[[!redirects unary sum]]
+[[!redirects unary sums]]
+[[!redirects unary product]]
+[[!redirects unary products]]
+
 [[!redirects copying]]
 [[!redirects copy definition]]
 [[!redirects copy definitions]]
