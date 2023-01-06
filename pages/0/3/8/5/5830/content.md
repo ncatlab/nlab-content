@@ -402,7 +402,7 @@ Introduction and review:
 
 An introduction to the notion of [[equivalence]] in HoTT is in
 
-* [[Andrej Bauer]], _A seminar on HoTT equivalences_ ([blog post](http://homotopytypetheory.org/2011/12/07/a-seminar-on-hott-equivalences/))
+* [[Andrej Bauer]], _Introduction to homotopy type theory_ (2019) &lbrack;[YT](https://www.youtube.com/playlist?list=PL-47DDuiZOMCRDiXDZ1fI0TFLQgQqOdDa)&rbrack;
 
 A guided walk through the basics of HoTT and then the formal proof in [[Coq]] that the [[univalence axiom]] implies [[functional extensionality]] is at
 
