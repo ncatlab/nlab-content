@@ -78,7 +78,7 @@ Software verification for [[cryptography]]:
 
 * [[Adam Petcher]], *A Foundational Proof Framework for Cryptography*, 2014 ([pdf](https://dash.harvard.edu/bitstream/handle/1/17463136/PETCHER-DISSERTATION-2015.pdf), [harvard:17463136](https://dash.harvard.edu/handle/1/17463136))
 
-* [[Adam Petcher]], Greg Morrisett, *The Foundational Cryptography Framework*,  In: R. Focardi, A. Myers (eds.) *Principles of Security and Trust* POST 2015. Lecture Notes in Computer Science, vol 9036. Springer, Berlin, Heidelberg ([doi:10.1007/978-3-662-46666-7_4](https://doi.org/10.1007/978-3-662-46666-7_4))
+* [[Adam Petcher]], Greg Morrisett, *The Foundational Cryptography Framework*,  In: R. Focardi, A. Myers (eds.) *Principles of Security and Trust* POST 2015. Lecture Notes in Computer Science **9036**, Springer (2015) &lbrack;[doi:10.1007/978-3-662-46666-7_4](https://doi.org/10.1007/978-3-662-46666-7_4)&rbrack;
 
 * Andrew W. Appel, *Verification of a Cryptographic Primitive: SHA-256*, ACM Transactions on Programming Languages and SystemsApril 2015 Article No.: 7 ([doi:10.1145/2701415](https://doi.org/10.1145/2701415), [pdf](https://www.cs.princeton.edu/~appel/papers/verif-sha.pdf))
 
@@ -118,6 +118,32 @@ On [[Agda]] as a dependently typed certification language:
 
 * [[Aaron Stump]], *Verified Functional Programming in Agda*, Association for Computing Machinery and Morgan & Claypool (2016) &lbrack;[doi:10.1145/2841316](https://doi.org/10.1145/2841316), ISBN:978-1-970001-27-3&rbrack;
 
+### Application to consensus algorithms
+
+Verification of ([[blockchain]]-like) hashgraph consensus algorithms:
+
+Background:
+
+* Pierre Tholoniat, Vincent Gramoli, *Formal Verification of Blockchain Byzantine Fault Tolerance*, in *Handbook on Blockchain*, Optimization and Its Applications **194**, Springer (2022) &lbrack;[arXiv:1909.07453](https://arxiv.org/abs/1909.07453), [doi:10.1007/978-3-031-07535-3_12](https://doi.org/10.1007/978-3-031-07535-3_12)&rbrack;
+
+* Leemon Baird, Mance Harmon, and Paul Madsen, *Hedera: A Public Hashgraph Network & Governing Council*, (last update 2020) &lbrack;[pdf](https://hedera.com/hh_whitepaper_v2.1-20200815.pdf)&rbrack;
+
+
+With [[Coq]]:
+
+* [Hedera](https://hedera.com/) blog: *[Coq Proof Completed By Carnegie Mellon Professor Confirms Hashgraph Consensus Algorithm Is Asynchronous Byzantine Fault Tolerant](https://hedera.com/blog/coq-proof-completed-by-carnegie-mellon-professor-confirms-hashgraph-consensus-algorithm-is-asynchronous-byzantine-fault-tolerant)* (Oct 2018)
+
+* Leemon Baird: *Formal Methods: A Deep Dive Using the Coq Proof Assistant -- Hedera18* (2018) &lbrack;video: [YT](https://youtu.be/6q15ytIOE3U?list=RDCMUCIhE4NYpaX9E9SssFnwrjww)&rbrack;
+
+* Karl Crary, *Formalizing the Hashgraph gossip protocol*, talk at *CyLab Partners Conference* (2019) &lbrack;[pdf](https://www.cylab.cmu.edu/_files/documents/formal-methods-3-kcrary-formalizing-the-hashgraph-gossip-protocol.pdf)&rbrack;
+
+* Karl Crary, *Verifying the Hashgraph Consensus Algorithm* &lbrack;[arXiv:2102.01167](https://arxiv.org/abs/2102.01167), [pdf](https://www.cs.cmu.edu/~crary/papers/2021/hashgraph.pdf)&rbrack;
+
+* Musab A. Alturki, Jing Chen, Victor Luchangco, Brandon Moore, Karl Palmskog, Lucas Peña, Grigore Roşu, *Towards a Verified Model of the Algorand Consensus Protocol in Coq*, Formal Methods. FM 2019 International Workshops. Lecture Notes in Computer Science **12232** (2019) 362-367 &lbrack;[arXiv:1907.05523](https://arxiv.org/abs/1907.05523), [doi:10.1007/978-3-030-54994-7_27](https://doi.org/10.1007/978-3-030-54994-7_27)&rbrack;
+
+With [[Agda]]:
+
+* Harold Carr, Christopher Jenkins, Mark Moir, Victor Cacciari Miraldo, Lisandra Silva, *Towards Formal Verification of HotStuff-based Byzantine Fault Tolerant Consensus in Agda: Extended Version* &lbrack;[arXiv:2203.14711](https://arxiv.org/abs/2203.14711)&rbrack;
 
 
 
