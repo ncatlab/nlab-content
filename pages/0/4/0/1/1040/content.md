@@ -148,18 +148,18 @@ Let $(T, \eta, \mu)$ be an idempotent monad on a category $E$. The following con
 +-- {: .proof} 
 ###### Proof 
 
-The implication 1. $\Rightarrow$ 2. is immediate. Next, if $\xi\colon M e \to e$ is any retraction of $\eta e$, we have both $\xi \circ \eta e = 1_e$ and 
+The implication 1. $\Rightarrow$ 2. is immediate. Next, if $\xi\colon T e \to e$ is any retraction of $\eta e$, we have both $\xi \circ \eta e = 1_e$ and 
 $$\array{
-\eta e \circ \xi & = & (M \xi)(\eta M e) & & \text{naturality of}\, \eta \\
- & = & (M \xi)(M \eta e) & & \text{see definitions above} \\
- & = & M(\xi \circ \eta e) & & \text{functoriality} \\
- & = & 1_{M e} & & 
+\eta e \circ \xi & = & (T \xi)(\eta T e) & & \text{naturality of}\, \eta \\
+ & = & (T \xi)(T \eta e) & & \text{see definitions above} \\
+ & = & T(\xi \circ \eta e) & & \text{functoriality} \\
+ & = & 1_{T e} & & 
 }$$
 so 2. implies 3. Finally, if $\eta e$ is an isomorphism, put $\xi = (\eta e)^{-1}$. Then $\xi \circ \eta e = 1_e$ (unit condition), and the associativity condition for $\xi$, 
 
-$$\xi \circ \mu e = \xi \circ M \xi,$$
+$$\xi \circ \mu e = \xi \circ T \xi,$$
 
-follows by inverting the naturality equation $\eta M e \circ \eta e = M \eta e \circ \eta e$. Thus 3. implies 1. 
+follows by inverting the naturality equation $\eta T e \circ \eta e = T \eta e \circ \eta e$. Thus 3. implies 1. 
 
 =-- 
 
