@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
 #### Homotopy theory
 +--{: .hide}
 [[!include homotopy - contents]]
@@ -15,6 +19,50 @@
 
 
 ## Idea
+ {#Idea}
+
+For a [[pointed topological space]] $(X, x)$, its *reduced suspension* $\Sigma (X,x) $ is obtained from the plain [[suspension]] 
+
+$$
+  \mathrm{S}X
+  \;\coloneqq\;
+  \frac{
+    X \,\times\, [-1,\, +1]
+  }{
+    \left(
+    \begin{array}{c}  
+      X \times \{-1\}\mathrlap{,\,}
+      \\
+      X \times \{+1\}
+    \end{array}
+    \right)
+  }
+$$ 
+
+of the [[underlying]] [[topological space]] $X$ by [[quotient space|collapsing]] the [[meridian]] through the [[basepoint]] $x$ itself to a point --- this making $\Sigma(X,x)$ itself a [[pointed topological space]] with basepoint the [[equivalence class]] of that meridian $mer(x)$:
+
+$$
+  \Sigma (X,x) 
+    \;\coloneqq\; 
+  \frac{
+    \mathrm{S}X
+  }{ \{x\} \times [-1,1] }
+  \;\;\;
+  \in
+  \;\;
+  Top^{\ast/}
+  \,.
+$$
+
+(Notice that this identifies in particular also the two [[antipode|antipodal]] "poles" of the plain suspension.)
+
+If $X$ admits the structure of a [[CW-complex]] then, under passage to the [[classical homotopy category]] of [[pointed topological spaces]] (cf.  [here](classical+model+structure+on+topological+spaces#ModelstructureOnPointedTopologicalSpaces)) this construction models the [[homotopy pushout]] of the [[terminal object|terminal]] map $(X,x) \to (\ast,pt)$ along itself, which explains its prevalence in [[homotopy theory]] (especially in [[stable homotopy theory]], see also at *[[suspension spectrum]]*).
+
+Moreover, in this case of [[CW-complexes]] the [[underlying]] space of $\Sigma (X,x)$ (i.e. forgetting its [[basepoint]]) is [[weak homotopy equivalence|weakly homotopy equivalent]] to the plain [[suspension]] $\mathrm{S} X$ of the [[underlying]] space $X$ of $(X,x)$. In this sense, reduced suspension in the context of [[homotopy theory]] may be understood as just being plain suspension but with basepoints taken into account.
+
+
+## Definition
+ {#Definition}
 
 For $(X,x)$ a [[pointed topological space]], then its *reduced suspension* $\Sigma X$ is equivalently the following:
 
