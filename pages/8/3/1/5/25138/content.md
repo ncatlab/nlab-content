@@ -20,7 +20,7 @@
 
 In [[homotopy type theory]], the notion of _reduced suspension type_ is an [[axiom|axiomatization]] of the [[reduced suspension]] in [[pointed topological space|pointed]] [[homotopy theory]].
 
-The [[underlying]] type of a [[pointed type|pointed]] reduced suspension type is [[equivalence in type theory]] to the plain [[suspension type]] of the given underlying type, so that, up to [[equivalence in type theory|equivalence]] one may simply take the reduced suspension to be the plain suspension equipped with any one of its terms as basepoint (e.g, [UFP13, Rem. 8.6.3](#UFP13)).
+The [[underlying]] type of a [[pointed type|pointed]] reduced suspension type is [[equivalence in type theory|equivalent]] to the plain [[suspension type]] of the given underlying type, so that, up to [[equivalence in type theory|equivalence]] one may simply take the reduced suspension to be the plain suspension equipped with any one of its terms as basepoint (e.g, [UFP13, Rem. 8.6.3](#UFP13)).
 
 However, in practice it is sometimes convenient to use a different (even if equivalent) construction of the reduced suspension:
 
@@ -39,7 +39,11 @@ $$
   \,.
 $$
 
+### In cohesive homotopy type theory
 
+In [[cohesive homotopy type theory]], let $(X, x)$ be a pointed cohesive type, and let $\mathbf{\Sigma} X$ be the [[reduced suspension]] of $X$, as a cohesive type. Then the reduced suspension type of $X$, as a [[discrete space|discrete]] [[homotopy type]], is the [[shape modality|shape]] of the reduced suspension of $X$: $\Sigma X \coloneqq \esh(\mathbf{\Sigma} X)$. 
+
+In particular, if we take $(X, x)$ to be a [[pointed topological space]] in [[real-cohesive homotopy type theory]], this allows a construction of reduced suspension types directly from reduced suspensions in classical [[algebraic topology]]. 
 
 ## Properties
 
