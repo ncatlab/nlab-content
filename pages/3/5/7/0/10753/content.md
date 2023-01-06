@@ -38,9 +38,10 @@ $$\mathcal{U}_+\equiv \sum_{X:\mathcal{U}}X$$
 
 * [[loop space type]]
 
+* [[reduced suspension type]]
+
 * [[prespectrum type]]
 
-* [[suspension type]]
 
 ## References
 
