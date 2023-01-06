@@ -27,7 +27,7 @@
 
 ## Definition 
 
-### Correspondences
+### In category theory
 
 In any [[category]] $C$, a __span__, or __roof__, or __correspondence__, from an [[object]] $x$ to an object $y$ is a [[diagram]] of the form
 
@@ -128,6 +128,21 @@ This is a weak 2-category: it has a nontrivial [[associator]]: composition of sp
 
 By including functions as well, instead of a bicategory we obtain a [[pseudo-double category]].
 
+### In type theory
+
+In [[dependent type theory]], there is a distinction between a *span*, a *multivalued partial function*, and a *correspondence*:
+
+* A **span** between types $A$ and $B$ is a type $C$ with functions $g:C \to A$ and $h:C \to B$
+
+* A **[[multivalued partial function]]** from type $A$ to type $B$ is a type family $x:A \vdash P(x)$ with a function $f:\left(\sum_{x:A} P(x)\right) \to B$
+
+* A **correspondence** between types $A$ and $B$ is a type family $x:A, y:B \vdash R(x, y)$. 
+
+However, from any one of the above structures, one could get the other two structures. Given a type family $x:A \vdash P(x)$, let $\pi_1:\left(\sum_{x:A} P(x)\right) \to A$ and $\pi_2:\prod_{x:A} \left(\sum_{x:A} P(x)\right) \to P(x)$ be the dependent pair projections for the [[dependent pair type]] $\sum_{x:A} P(x)$. 
+
+* From every span one could get a multivalued partial function by defining the type family $x:A \vdash P(x)$ as $P(x) \coloneqq \sum_{y:C} g(y) =_A x$ and the function $f:\left(\sum_{x:A} P(x)\right) \to B$ as $f(z) \coloneqq h(\pi_1(\pi_2(\pi_1(z))(z)))$. 
+
+* From every multivalued partial function one could get a span by defining the type $C$ as $C \coloneqq \sum_{x:A} P(x)$ and the function $g:C \to A$ as $g(x) \coloneqq \pi_1(x)$. 
 
 ## Properties
 
@@ -303,12 +318,12 @@ Generally, an [[(∞,n)-category of spans]] is indicated in section 3.2 of
 
 [[!redirects spans]]
 
-[[!redirects correspondence]]
-[[!redirects correspondences]]
-
 [[!redirects category of spans]]
 [[!redirects categories of spans]]
 [[!redirects bicategory of spans]]
+
+[[!redirects correspondence]]
+[[!redirects correspondences]]
 
 [[!redirects category of correspondences]]
 [[!redirects categories of correspondences]]
