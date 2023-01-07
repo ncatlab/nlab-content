@@ -17,7 +17,9 @@
 
 ## Definition
 
-A [[function]] $f$ (of sets) from $A$ to $B$ is __surjective__ if, given any element $y$ of $B$, $y = f(x)$ for some $x$.  A surjective function is also called __onto__ or a __surjection__; it is the same as an [[epimorphism]] in [[Set|the category of sets]]. 
+A [[function]] $f$ (of sets) from $A$ to $B$ is __surjective__ if, given any element $y$ of $B$, $y = f(x)$ for some $x$.  A surjective function is also called __onto__ or a __surjection__. 
+
+Surjections are the same as [[epimorphisms]] in [[Set|the category of sets]] and [[effective epimorphism in an (infinity,1)-category|effective epimorphisms]] in [[Set|the (infinity,1)-category of sets]]. 
 
 A _[[bijection]]_ is a function that is both [[surjection|surjective]] and [[injection|injective]].
 
