@@ -38,7 +38,7 @@ $$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash El(A) \; \mathrm{type}}$$
 Introduction rules:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A)}{\Gamma \vdash A_\Omega:\Omega}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A)}{\Gamma \vdash El(A_\Omega) \equiv A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A)}{\Gamma \vdash \delta_A:El(A_\Omega) \simeq A}$$
 
 Propositional truncation for each type reflection
 $$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(El(A))}$$
@@ -59,7 +59,7 @@ $$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash El(A) \; \mathrm{type}}$$
 Introduction rules:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A) \quad \Gamma \vdash \mathrm{lem}_A:A \vee \neg A}{\Gamma \vdash A_\Omega:\Omega}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A) \quad \Gamma \vdash \mathrm{lem}_A:A \vee \neg A}{\Gamma \vdash El(A_\Omega) \equiv A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A) \quad \Gamma \vdash \mathrm{lem}_A:A \vee \neg A}{\Gamma \vdash \delta_A:El(A_\Omega) \simeq A}$$
 
 Propositional truncation for each type reflection
 $$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(El(A))}$$
@@ -81,9 +81,9 @@ Type reflection:
 $$\frac{\Gamma \vdash A:\mathrm{bool}}{\Gamma \vdash El(A) \; \mathrm{type}}$$
 
 Introduction rules:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{false}:\mathrm{bool}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash El(\mathrm{false}) \equiv \mathbb{0}}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{false}:\mathrm{bool}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \delta_\mathbb{0}:El(\mathrm{false}) \simeq \mathbb{0}}$$
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{true}:\mathrm{bool}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash El(\mathrm{true}) \equiv \mathbb{1}}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{true}:\mathrm{bool}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \delta_\mathbb{1}:El(\mathrm{true}) \simeq \mathbb{1}}$$
 
 Univalence:
 $$\frac{\Gamma \vdash A:\mathrm{bool} \quad \Gamma \vdash B:\mathrm{bool}} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
@@ -112,7 +112,9 @@ These axioms imply that $(\Omega, T)$ satisfy [[propositional extensionality]] a
 
 The type of all internal propositions 
 $$\sum_{A:U} \mathrm{isProp}(T(A))$$
-in a [[Tarski universe]] $(U, T)$ is a type of propositions. 
+in a [[Tarski universe]] $(U, T)$ is a type of propositions. If the Tarski universe has all propositions, then 
+$$\sum_{A:U} \mathrm{isProp}(T(A))$$
+is the type of all propositions. 
 
 ## Related concepts
 
