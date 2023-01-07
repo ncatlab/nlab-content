@@ -319,3 +319,6 @@ On product types as [[inductive types]]:
 
 [[!redirects product type]]
 [[!redirects product types]]
+
+[[!redirects pair type]]
+[[!redirects pair types]]
