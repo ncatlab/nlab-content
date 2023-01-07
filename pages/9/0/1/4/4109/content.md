@@ -1,7 +1,23 @@
-# Currying
 
-* table of contents
-{:toc}
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Set theory
++-- {: .hide}
+[[!include set theory - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+\tableofcontents
 
 ## Idea
 
@@ -9,19 +25,29 @@ Currying is a process of transforming an operation on two variables into an oper
 
 The [[inverse]] operation is, in the straightforward style of [[computer science]], called __uncurrying__.
 
-Currying is named after [[Haskell Curry]], in accordance with [[Baez's law]], since it was invented by [[Moses Schonfinkel|Moses Schönfinkel]]. (Perhaps Curry helped popularize the application to lambda calculus?)
-
+Currying is named after [[Haskell Curry]], in accordance with [[Stigler's law of eponymy]], since it was invented by [[Moses Schonfinkel|Moses Schönfinkel]]. (Perhaps Curry helped popularize the application to lambda calculus?)
 
 ## Definitions
 
-Since most people are familiar with [[Set]], we work there first.  In $Set$, currying transforms a [[function]] defined on a [[cartesian product]] to a function that takes values in a [[function set]].  That is, starting with
+### In set theory
+
+In [[set theory]], currying transforms a [[function]] defined on a [[product set]] to a function that takes values in a [[function set]]. That is, starting with
 $$ f\colon X \times Y \to Z ,$$
 we __curry__ $f$ to produce
 $$ \hat{f}\colon X \to Z ^ Y $$
 according to the formula 
 $$\hat{f}(x) = (y \mapsto f(x, y)).$$
-This is simply applying the universal property of the [[exponential object]] $Z^Y$.
+This is simply applying the universal property of the [[function set]] $Z^Y$.
 
+### In dependent type theory
+
+In [[dependent type theory]], currying transforms a family of elements defined on a [[dependent pair type]] to a family of elements that takes values in a [[dependent function type]]. That is, starting with
+$$z:\sum_{x:X} Y(x) \vdash f(z):Z(z)$$
+we __curry__ $f$ to produce
+$$x:X \vdash \hat{f}(x):\prod_{y:Y(x)} Z(x, y)$$
+according to the formula 
+$$\hat{f}(x) \coloneqq (\lambda y.f(x, y)).$$
+This is simply applying the universal property of the [[dependent function type]] $\prod_{y:Y(x)} Z(x, y)$.
 
 ### In lambda calculus and CCCs
 
@@ -61,6 +87,23 @@ $$ \check{f}\colon Y \vdash X \to Z ,$$
 but computer scientists (or even mathematicians who are being very careful) will see this as a composite operation whose first step is [[composition]] with the [[braiding]] $Y \times X \vdash X \times Y$.
 
 In a left closed monoidal category, currying does not exist, but cocurrying does.  Perhaps the product should associate on the right in a left closed monoidal category?
+
+## See also
+
+* [[Cartesian product]], [[function set]]
+* indexed [[disjoint union]], indexed [[Cartesian product]]
+* [[pair type]], [[function type]]
+* [[dependent pair type]], [[dependent function type]]
+* [[product]], [[exponential object]]
+* [[dependent sum]], [[dependent product]]
+
+## References
+
+For currying in [[dependent type theory]], see
+
+* Section 1.2 and 1.4 in *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
+
+* [[Egbert Rijke]], Section 4.6 in *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
 
 [[!redirects uncurrying]]
 [[!redirects curried]]
