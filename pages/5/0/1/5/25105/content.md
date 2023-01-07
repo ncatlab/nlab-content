@@ -29,24 +29,24 @@ Given a notion of the [[isEquiv]] type family on the function type $A \to B$, th
 
 $$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{isEquiv}(f)$$ 
 
-### As a type whose elements are functions with contractible fibers
+### As a type whose elements are encodings for functions with contractible fibers
 
-Given types $A$ and $B$, we form the type $A \simeq B$ such that given element $R:A \simeq B$, there is a family of elements $x:A \vdash \mathrm{ev}(R, x):B$, with rules stating that the above structure has contractible fibers, and that given a type $A$, elements $a:A$ and $b:A$, identity $p:a =_A b$, a type family $B$ indexed by $A$ and a family of elements $w:B$ indexed by $A$, one could form the [[transport]] equivalence across $p$ for $B$, $\mathrm{tr}_B(p):B(a) \simeq B(b)$, and the dependent action on $p$ for $w$, $\mathrm{apd}_B(p, w):\mathrm{ev}(\mathrm{tr}_B(p), w(a)) =_{B(b)} w(b)$. 
+Given types $A$ and $B$, we form the type $A \simeq B$ such that given element $R:A \simeq B$, there is a family of elements $x:A \vdash \mathrm{ev}(R, x):B$, with rules stating that the above structure has contractible fibers, and that given a type $A$, elements $a:A$ and $b:A$, identity $p:a =_A b$, a type family $B$ indexed by $A$ and a family of elements $w:B$ indexed by $A$, one could form the [[transport]] equivalence across $p$ for $B$, $\mathrm{tr}_B(a, b, p):B(a) \simeq B(b)$, and the dependent action on $p$ for $w$, $\mathrm{apd}_B(a, b, p, w):\mathrm{ev}(\mathrm{tr}_B(a, b, p), w(a)) =_{B(b)} w(b)$. 
 
 Rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \mathrm{ev}(R, x):B}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, x:A \vdash \mathrm{ev}(f, x):B}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{tr}_B(p):B(a) \simeq B(b) \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, a:A, b:A, p:a =_A b \vdash \mathrm{tr}_B(a, b, p):B(a) \simeq B(b) \; \mathrm{type}}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, w:B \vdash \mathrm{apd}_B(p, w):\mathrm{ev}(\mathrm{tr}_B(p), w(a)) =_{B(b)} w(b)}$$ 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, a:A, b:A, p:a =_A b, x:A, w:B(x) \vdash \mathrm{apd}_B(a, b, p, w):\mathrm{ev}(\mathrm{tr}_B(a, b, p), w(a)) =_{B(b)} w(b)}$$ 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \ev^{-1}(R, y):A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, y:B \vdash \ev^{-1}(f, y):A}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A, u:\mathrm{ev}(R, x) =_B y \vdash \kappa(R, y, x, u):\ev^{-1}(R, y) =_A x}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, y:B, x:A, u:\mathrm{ev}(f, x) =_B y \vdash \kappa(f, y, x, u):\ev^{-1}(f, y) =_A x}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \tau(R, y):\mathrm{ev}(R, \ev^{-1}(R, y)) =_B y}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, y:B \vdash \tau(f, y):\mathrm{ev}(f, \ev^{-1}(f, y)) =_B y}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A, u:\mathrm{ev}(R, x) =_B y \vdash \eta(R, y, x, u):\mathrm{ev}(\mathrm{tr}_B(\kappa(R, y, x, u)), \tau(R, y)) =_{\mathrm{ev}(R, x) =_B y} u}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, y:B, x:A, u:\mathrm{ev}(f, x) =_B y \vdash \eta(f, y, x, u):\mathrm{ev}(\mathrm{tr}_{\mathrm{ev}(f, -) =_B y}(\ev^{-1}(f, y), x, \kappa(f, y, x, u)), \tau(f, y)) =_{\mathrm{ev}(f, x) =_B y} u}$$
 
 ### As a type whose elements are encodings for one-to-one correspondence
 
@@ -123,6 +123,24 @@ $$\mathrm{isInv}(f, g) \coloneqq \prod_{a:A} \prod_{b:B} (f(a) =_B b) \simeq (a 
 This leads to a coinductive definition of the type of equivalences
 
 $$A \simeq B \coloneqq \sum_{f:A \to B} \sum_{g:B \to A} \prod_{a:A} \prod_{b:B} (f(a) =_B b) \simeq (a =_A g(b))$$
+
+Formation rule for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
+
+Introduction rule for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{tr}_B(a, b, p):B(a) \simeq B(b) \; \mathrm{type}}$$
+
+Elimination rules for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B \quad \Gamma \vdash x:A}{\Gamma \vdash \mathrm{ev}(f, x):B} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B \quad \Gamma \vdash y:B}{\Gamma \vdash \ev^{-1}(f, y):A}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B \quad \Gamma \vdash x:A \quad \Gamma \vdash y:B}{\Gamma\vdash \mathrm{coh}(f, x, y):(\mathrm{evr}(f, x) =_B y) \simeq (x =_A \mathrm{evl}(f, y))}$$
+
+Computation rules for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{apdl}_B(a, b, p, w):w(a) =_{B(a)} \mathrm{ev}^{-1}(\mathrm{tr}_B(a, b, p), w(b))}$$ 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{apdr}_B(a, b, p, w):\mathrm{ev}(\mathrm{tr}_B(a, b, p), w(a)) =_{B(b)} w(b)}$$ 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{cohapd}_B(a, b, p, w):\left(\mathrm{ev}(\mathrm{coh}(\mathrm{tr}_B(a, b, p), w(a), w(b)), \mathrm{apdl}_B(a, b, p, w)) =_{\mathrm{ev}(\mathrm{tr}_B(a, b, p), w(a)) =_{B(b)} w(b)} \mathrm{apdr}_B(a, b, p, w)\right) \simeq \left(\mathrm{apdl}_B(a, b, p, w) =_{w(a) =_{B(a)} \mathrm{ev}^{-1}(\mathrm{tr}_B(a, b, p), w(b))} \mathrm{ev}^{-1}(\mathrm{coh}(\mathrm{tr}_B(a, b, p), w(a), w(b)), \mathrm{apdr}_B(a, b, p, w))\right)}$$ 
 
 ## Properties
 
