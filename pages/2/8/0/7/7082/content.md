@@ -29,232 +29,96 @@ In [[point-set topology]] and generally in the context of [[homotopical category
 
 
 
-## Definition
+## Definitions
  {#Definition}
 
-Notice that there are several ways to define a [[bijection]] in [[set theory]]: 
+In [[dependent type theory]], a [[type]] $A$ is a [[contractible type]] if it comes with an element $a:A$ and a family of identities $x:A \vdash c(x):a =_A x$ indicating that $a$ is a [[center of contraction]]. In dependent type theory with [[identity types]] and [[dependent sum types]], an **equivalence** between types $A$ and $B$ could be defined as
 
-1. as a map which admits a *two sided* [[inverse morphism]] --
+* a [[function]] with contractible fibers, a family of elements $x:A \vdash f(x):B$ for which the dependent type $\sum_{x:A} f(x) =_B y$ is a [[contractible type]] for all $y:B$
+* a [[span]] $(C; z:C \vdash g(z):A; z:C \vdash h(z):B)$ for which the dependent type $\sum_{z:C} g(z) =_A x$ is a [[contractible type]] for all $x:A$ and the dependent type $\sum_{z:C} h(z) =_B y$ is a [[contractible type]] for all $y:B$
+* a [[multivalued partial function]] $(x:A \vdash P(x); x:A, p:P(x) \vdash f(x, p):B)$ for which the dependent type $P(x)$ is a [[contractible type]] for all $x:A$ and the dependent type $\sum_{x:A} \sum_{p:P(x)} f(x, p) =_B y$ is a [[contractible type]] for all $y:B$
+* a [[one-to-one correspondence]], a [[correspondence]] $x:A, y:B \vdash R(x, y)$ for which the dependent type $\sum_{y:B} R(x, y)$ is a [[contractible type]] for all $x:A$ and the dependent type $\sum_{x:A} R(x, y)$ is a [[contractible type]] for all $y:B$
+* an element of the [[equivalence type]] $f:A \simeq B$, in dependent type theories with [[equivalence types]] given directly by rules. 
+* a *bi-invertible function* or *homotopy isomorphism*, a family of elements $x:A \vdash f(x):B$ with families of elements $y:B \vdash g(y):A$ and $y:B \vdash h(y):A$ and families of identities $x:A \vdash G(x):g(f(x)) =_A x$ and $y:B \vdash H(y):f(h(y)) =_B y$. 
+* a *coherently invertible function* or *half adjoint equivalence*, a family of elements $x:A \vdash f(x):B$ with a family of elements $y:B \vdash g(y):A$ and families of identities $x:A \vdash G(x):g(f(x)) =_A x$; $y:B \vdash H(y):f(g(y)) =_B y$; and $x:A \vdash K(x):\mathrm{ap}_f(H(x)) =_{g(f(x)) =_A x} G(f(x))$. 
+* a *quasi-invertible function* or *homotopy equivalence*, a family of elements $x:A \vdash f(x):B$ with a family of elements $y:B \vdash g(y):A$ and families of identities $x:A \vdash G(x):g(f(x)) =_A x$ and $y:B \vdash H(y):f(g(y)) =_B y$. 
 
-   in [[homotopy type theory]] this leads to the notion of *[[quasi-inverse functions]]* or *[[homotopy equivalence]]* 
+### Strict equivalences
 
-   (Def. \ref{FunctionWithTwoSidedInverse} below);
+There is also a notion of **strict equivalence** between two types $A$ and $B$, where given families of elements $x:A \vdash f(x)B$ and $y:B \vdash g(y):A$, instead of having families of identities $G(x):g(f(x)) =_A x$ and $H(y):f(g(y)) =_B y$, one has [[judgmental equalities]] $g(f(a)) \equiv a:A$ and $b \equiv f(g(b)):B$ or [[propositional equalities]] $g(f(a)) \equiv_A a \; \mathrm{true}$ and $b \equiv_B f(g(b)) \; \mathrm{true}$, making the families of elements into **judgmentally strict equivalences** and **propositionally strict equivalences** respectively. 
 
-1. as a map which admits a [[left inverse]] and a [[right inverse]] --
+Judgmentally strict equivalences are used in defining [[Shulman univalent universes]] in [[higher observational type theory]]. 
 
-   in [[homotopy type theory]] this leads to the notion of *left/right quasi-invertible maps* or *homotopy isomorphisms* 
-
-   (Def. \ref{FunctionsWithLeftAndRightInverse} below);
-
-1. as a function which is both an [[injection]] (whose fibers are [[subsingletons]]) and a [[surjection]] (whose fibers are [[inhabited]]) --
-
-   in [[homotopy type theory]] this leads to the definition of equivalence as a function with contractible fibers 
-
-   (Def. \ref{FunctionWithContractibleFiber} below).
-
-1. as a [[relation]] which is an injective and surjective [[anafunction]].  --
-
-   in [[homotopy type theory]] this leads to the definition of equivalence as a one-to-one correspondence
-
-   (Def. \ref{OneToOneCorrespondence} below).
-
-\linebreak
+### The isEquiv type family and equivalence types
 
 {#OutlookOnEquivalenceOfDefinitions} As (eventually to be) discussed in the *[Properties](#Properties)*-section below,
 the evident types formed by these definitions are co-inhabited: we have a function from any one of them to any of the others.  Moreover, at least if we assume [[function extensionality]], the evident types of "homotopy isomorphisms" and of functions with contractible fibers are equivalent and are [[h-propositions]].
-This is not true for the evident type of homotopy equivalences (as discussed [below](#TheIssueWithQuasiInverses)) which is not in general an h-prop even with function extensionality. However, often the most convenient way to show that $f$ is an equivalence is by exhibiting it as a term of the type of homotopy equivalences.
-
+This is only true for the evident type of homotopy equivalences if we assume [[axiom K]] or [[uniqueness of identity proofs]] (as discussed [below](#TheIssueWithQuasiInverses)); in [[dependent type theories]] without either axiom, the isEquiv type family is not in general a [[mere proposition]] for homotopy equivalences. However, often the most convenient way to show that $f$ is an equivalence is by exhibiting it as a term of the type of homotopy equivalences.
 
 \linebreak
 
-Throughout, we work in [[intensional type theory|intensional]] [[type theory]] with [[dependent sums]], [[dependent products]], and [[identity types]]. 
+In dependent type theories with [[dependent function types]], one could define the $\mathrm{isContr}$ type family on a type $A$:
+$$\mathrm{isContr}(A) \coloneqq \sum_{x:A} \prod_{y:A} x =_A y$$ 
+One could define $\mathrm{isEquiv}$ type family and the [[equivalence type]] for the first and fifth definition:
 
-In all of the following we consider:
+* We define the property that a function $f:A \to B$ is an equivalence as the property that the function has contractible fibers:
+$$f:A \to B \vdash \mathrm{isEquiv}(f) \coloneqq \prod_{y:B} \mathrm{isContr}\left(\sum_{x:A} f(x) =_B y\right)$$
+  and the [[equivalence type]] for the first definition: 
+$$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{isEquiv}(f)$$
 
-* [[types]] $\;$ $A$ and $B$, 
+* We define the property that an equivalence $f:A \simeq B$ is an equivalence as true, represented in dependent type theory by the [[unit type]], because $f:A \simeq B$ is always an equivalence:
+$$f:A \simeq B \vdash \mathrm{isEquiv}(f) \coloneqq \mathbb{1}$$
+  and there is no need to define $A \simeq B$ because the type is already defined. However, there is an equivalence between the types
+$$\delta:(A \simeq B) \simeq \sum_{f:A \simeq B} \mathrm{isEquiv}(f)$$
 
-* a [[term]] of [[function type]] $f \colon A \to B$, 
+If the dependent type theory came with a [[Tarski universe]] $(U, \mathrm{El})$, one could additionally define the $\mathrm{isEquiv}_U$ type family and the locally $U$-small [[equivalence type]] for the second, third, and fourth definitions above, but only for $U$-small structures:
 
-* a [[term]] $b \colon B$.
+* The type of $U$-small [[spans]] between $A$ and $B$ is the type
+$$\mathrm{Span}_U(A, B) \coloneqq \sum_{C:U} (\mathrm{El}(C) \to A) \times (\mathrm{El}(C) \to B)$$
+We define the property that a $U$-small span $f:\mathrm{Span}_U(A, B)$ is an equivalence as the property that both functions $\pi_1(\pi_2(f)):\mathrm{El}(C) \to A$ and $\pi_2(\pi_2(f)):\mathrm{El}(C) \to B$ have contractible fibers:
+$$f:\mathrm{Span}_U(A, B) \vdash \mathrm{isEquiv}_U(f) \coloneqq \left(\prod_{x:A} \mathrm{isContr}\left(\sum_{z:\mathrm{El}(C)} \pi_1(\pi_2(f))(z) =_A x\right)\right) \times \left(\prod_{y:B} \mathrm{isContr}\left(\sum_{z:\mathrm{El}(C)} \pi_2(\pi_2(f))(z) =_B y\right)\right)$$
+The locally $U$-small [[equivalence type]] is defined as
+$$A \simeq_U B \coloneqq \sum_{f:\mathrm{Span}_U(A, B)} \mathrm{isEquiv}(f)$$
+
+* The type of $U$-small [[multivalued partial functions]] between $A$ and $B$ is the type
+$$\mathrm{MultiPartFunc}_U(A, B) \coloneqq \sum_{P:A \to U} \left(\sum_{x:A} \mathrm{El}(P(x))\right) \to B$$
+We define the property that a $U$-small multivalued partial function $f:\mathrm{MultiPartFunc}_U(A, B)$ is an equivalence as the property that the dependent type $\mathrm{El}(\pi_1(f)(x))$ is a [[contractible type]] for all $x:A$ and the function $\pi_2(f)$ has contractible fibers for all $y:B$:
+$$f:\mathrm{MultiPartFunc}_U(A, B) \vdash \mathrm{isEquiv}_U(f) \coloneqq \left(\prod_{x:A} \mathrm{isContr}\left(\mathrm{El}(\pi_1(f)(x))\right)\right) \times \left(\prod_{y:B} \mathrm{isContr}\left(\sum_{x:A} \sum_{p:\mathrm{El}(\pi_1(f)(x))} \pi_2(f)(x, p) =_B y\right)\right)$$
+The locally $U$-small [[equivalence type]] is defined as
+$$A \simeq_U B \coloneqq \sum_{f:\mathrm{MultiPartFunc}_U(A, B)} \mathrm{isEquiv}(f)$$
+
+* The type of $U$-small [[correspondences]] between $A$ and $B$ is the type 
+$$\mathrm{Corr}_U(A, B) \coloneqq A \times B \to U$$
+We define the property that a $U$-small correspondence $R:\mathrm{Corr}_U(A, B)$ is an equivalence as being a [[one-to-one correspondence]], where the dependent type $\sum_{y:B} \mathrm{El}(R(x,y))$ is a [[contractible type]] for all $x:A$ and the dependent type $\sum_{x:A} \mathrm{El}(R(x,y))$ is a [[contractible type]] for all $y:B$:
+$$R:\mathrm{Corr}_U(A, B) \vdash \mathrm{isEquiv}_U(R) \coloneqq \left(\prod_{x:A} \mathrm{isContr}\left(\sum_{y:B} \mathrm{El}(R(x,y))\right)\right) \times \left(\prod_{y:B} \mathrm{isContr}\left(\sum_{x:A} \mathrm{El}(R(x,y))\right)\right)$$
+The locally $U$-small [[equivalence type]] is defined as
+$$A \simeq_U B \coloneqq \sum_{f:\mathrm{Corr}_U(A, B)} \mathrm{isEquiv}(f)$$
+
+If the dependent type theory also has [[function extensionality]], then one could define the $\mathrm{isEquiv}$ type family and the [[equivalence type]] for the sixth and seventh definitions above:
+
+* For homotopy isomorphisms, given a function $f:A \to B$, we define the $\mathrm{isEquiv}(f)$ type family as the product type of the type of [[sections]] of $f$ and the type of [[retractions]] of $f$. 
+$$f:A \to B \vdash \mathrm{isEquiv}(f) \coloneqq \left(\sum_{g:B \to A} \prod_{x:A} g(f(x)) =_A x\right) \times \left(\sum_{h:B \to A} \prod_{y:B} f(h(y)) =_B y\right)$$
+* For half adjoint equivalences, given a function $f:A \to B$, we define the $\mathrm{isEquiv}(f)$ type family as the type of quasi-inverse functions with a coherence condition. 
+$$f:A \to B \vdash \mathrm{isEquiv}(f) \coloneqq \sum_{g:B \to A} \left(\prod_{x:A} g(f(x)) =_A x\right) \times \left(\prod_{y:B} f(g(y)) =_B y\right) \times \left(\prod_{x:A} \mathrm{ap}_f(H(x)) =_{g(f(x)) =_A x} G(f(x))\right)$$
+
+Finally, if the dependent type theory has [[axiom K]] or [[uniqueness of identity proofs]], then one could define the $\mathrm{isEquiv}$ type family and the [[equivalence type]] directly for homotopy equivalences above; the coherence condition follows from the fact that the type $g(f(x)) =_A x$ is always a [[mere proposition]] in the presence of axiom K or UIP:
+$$f:A \to B \vdash \mathrm{isEquiv}(f) \coloneqq \sum_{g:B \to A} \left(\prod_{x:A} g(f(x)) =_A x\right) \times \left(\prod_{y:B} f(g(y)) =_B y\right)$$
+
+In all three cases, by [[function extensionality]] for the first two and additionally by [[axiom K]] or [[UIP]] for the third case, the $\mathrm{isEquiv}(f)$ type family is a [[mere proposition]] for all $f:A \to B$. Thus, we can define the [[equivalence type]] as 
+$$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{isEquiv}(f)$$
+
+### Historical note
+
+The first attempt at a definition of an equivalence of type was the definition of a quasi-invertible function by [Hofmann & Streicher (1998), §5.4](#HofmannStreicher98). In the absence of [[axiom K]] or [[uniqueness of identity proofs]], this definition suffers from a subltety in the construction of equivalence types, see [below](#TheIssueWithQuasiInverses). In the absence of [[function extensionality]], the definition of an equivalence as a homotopy isomorphism, first proposed by [[André Joyal]] in a 2011 Oberwolfach meeting, recorded in [Kapulkin & Lumsdaine (2012, 2021), Def. 3.1.1](#KapulkinLumsdaine21), similarly suffers from a subltety in the construction of equivalence types. 
+
+It wasn't until [Voevodsky (2010), p. 8, 10](#Voevodsky10) that the correct definition of an equivalence as a function with contractible fibers was formulated, where the definition of equivalence types works even without function extensionality. The definition of an equivalence as a one-to-one correspondence was proposed in [Shulman 2022](#Shulman22), which is equivalent to Voevodsky's definition by the [[principle of unique choice]]. 
+
+## Properties
+ {#Properties}
 
 \linebreak
 
 Most of the following claims may be found proven in [UFP13, §2.4 & §4](#UFP13).
-
-\linebreak
-
-> {#WarningOnFunctionExtensionality} **Warning.** The following discussion is still suffering from not saying where [[function extensionality]] is used, and not otherwise distinguishing between pointwise and global homotopy.
-
-\linebreak
-
-### As functions with two-sided quasi-inverse
- {#AsFunctionsWithTwoSidedInverse}
-
-\begin{definition}\label{FunctionWithTwoSidedInverse}
-**(function with two-sided inverse, up to homotopy)**
-\linebreak
-A function $f \,\colon\, A \to B$ is said to be [[quasi-inverse function|quasi invertible]] if it has a *two-sided* inverse, up to homotopy (hence also called a *[[homotopy equivalence]]*):
-
-$$
-  qinv(f)
-  \;\coloneqq\;
-  \underset{
-    \overline{f} \colon B \to A
-  }{\sum}
-  \;\;
-  Id_{(A \to A)}
-  \big(
-    \overline{f} \circ f 
-    ,\,
-    (a \mapsto a)
-  \big)
-  \;\times\;
-  Id_{(B \to B)}
-  \big(
-    f \circ \overline{f} 
-    ,\,
-    (b \mapsto b)
-  \big)
-$$
-
-\end{definition}
-
-([Hofmann & Streicher (1998), §5.4](#HofmannStreicher98))
-
-This definition may seem the most obvious, but it suffers from a subltety in the construction of the type of all such functions, see [below](#TheIssueWithQuasiInverses).
-
-
-
-### As functions with a left and a right quasi-inverse
-
-In variation of Def. \ref{FunctionWithTwoSidedInverse}, we need not presuppose that the left and right inverse are already identified (this circumvents the [issue with two-sided inverses](#TheIssueWithQuasiInverses)):
-
-\begin{definition}\label{FunctionsWithLeftAndRightInverse}
-**(function with left and right inverse, up to homotopy)**
-\linebreak
-
-$$
-  \mathrm{hasLeftRightInv}(f) 
-  \;\coloneqq\; 
-  \left(
-    \sum_{g \colon B \to A} 
-    \;
-    \prod_{b:B} 
-    \;
-    f(g(b)) =_B b
-  \right) 
-   \;\times;\ 
-  \left(
-    \sum_{h \colon B \to A} 
-    \;
-    \prod_{a:A} 
-    \;
-    a =_A h(f(a))
-  \right)
-$$
-
-\end{definition}
-
-This is also called a *homotopy isomorphism* by [[André Joyal]] (2011), see [Kapulkin & Lumsdaine (2012, 2021), Def. 3.1.1](#KapulkinLumsdaine21).
- 
-
-
-### As functions with contractible fibers
- {#AsFunctionsWithContractibleFibers}
-
-
-Recall that:
-
-1. the ([[homotopy fiber|homotopy]]) [[fiber type]] of $f$ at $b$ is the [[dependent sum type]] 
-
-   $$
-     \mathrm{fiber}(f,b) 
-     \;\coloneqq\; 
-     \sum_{a:A} 
-       \; f(a) = b
-     \,,
-   $$
-
-1. the [[proposition]] that any type $C$ is a [[contractible type]] is
-
-   $$
-     \mathrm{isContr}(C) 
-     \;\coloneqq\; 
-     \sum_{a:C} \prod_{b:C} a =_C b
-     \,,
-   $$
-
-1. so that the [[proposition]] that $f$ has *contractible fibers* is
-
-   $$
-     \mathrm{hasContrFibers}(f) 
-     \;\coloneqq\; 
-     \prod_{b:B} 
-      \mathrm{isContr}
-      \big(
-        \mathrm{fiber}(f,b)
-      \big)
-     \,.
-   $$
-
-\begin{definition}\label{FunctionWithContractibleFiber}
-**(functions with contractible fibers)**
-\linebreak
-We say $f$ is an **equivalence** if it comes with a witness $p \colon \mathrm{hasContrFibers}(f)$; that is, a function is an equivalence if all of its [[fiber types]] are [[contractible types]].
-\end{definition}
-
-Given two types $A$ and $B$, the **type of equivalences** from $A$ to $B$ is the [[dependent sum type]]
-
-$$
-  A \simeq B 
-  \;\coloneqq\; 
-  \sum_{f:A \to B} 
-    \mathrm{hasContrFibers}(f)
-  \,.
-$$
-
-This definition originates with [Voevodsky (2010), p. 8, 10](#Voevodsky10).
-
-### As one-to-one correspondences
-  {#OneToOneCorrespondences}
-
-Let $\mathcal{U}$ be a [[universe]] and $A:\mathcal{U}$ and $B:\mathcal{U}$ be terms of the universe, and $R :A \times B \to \mathcal{U}$ be a [[correspondence]] between $A$ and $B$. We define the property of $R$ being **one-to-one** as follows:
-
-$$isOneToOne(R) \coloneqq \left(\prod_{a:A} \mathrm{isContr}\left(\sum_{b:B} R(a,b)\right)\right) \times \left(\prod_{b:B} \mathrm{isContr}\left(\sum_{a:A} R(a,b)\right)\right)$$
-
-\begin{definition}\label{OneToOneCorrespondence}
-\linebreak
-We say $R$ is an **equivalence** if it comes with a witness $p:isOneToOne(R)$. 
-\end{definition}
-
-We define the type of equivalences from $A$ to $B$ in $\mathcal{U}$ as 
-
-$$(A \simeq_\mathcal{U} B)  \equiv \sum_{R : (A \times B) \to \mathcal{U}} isOneToOne(R)$$
-
-By the [[type theoretic axiom of replacement]], the image of $R$ is $\mathcal{U}$-small, and thus $A \simeq_\mathcal{U} B$ is $\mathcal{U}$-small as well. 
-
-### As adjoint equivalences
-
-(...) like for a homotopy equivalence above, but in addition requiring the [[triangle identity]] for $f$ and $g$ -- as in an [[adjoint equivalence]] (...)
-
-### Coinductive definition
-
-Given two types $A$ and $B$ and two functions $f:A \to B$ and $g:B \to A$, $f$ and $g$ are inverses of each other if for every element $a:A$ and $b:A$, there is an equivalence of types between $f(a) =_B b$ and $a =_A g(b)$:
-
-$$\mathrm{isInv}(f, g) \coloneqq \prod_{a:A} \prod_{b:B} (f(a) =_B b) \simeq (a =_A g(b))$$
-
-This leads to a coinductive definition of the type of equivalences
-
-$$A \simeq B \coloneqq \sum_{f:A \to B} \sum_{g:B \to A} \prod_{a:A} \prod_{b:B} (f(a) =_B b) \simeq (a =_A g(b))$$
-
-### Strict equivalences
-
-There is also a notion of **strict equivalence** between two types $A$ and $B$, where given functions $f:A \to B$ and $g:B \to A$ instead of having identity types between $g(f(a)) =_A a$ and similarly $b =_B f(g(b))$ making the pair of functions into [[quasi-inverse functions]], there are [[judgmental equalities]] $g(f(a)) \equiv a:A$ and $b \equiv f(g(b)):B$ or [[propositional equalities]] $g(f(a)) \equiv_A a \; \mathrm{true}$ and $b \equiv_B f(g(b)) \; \mathrm{true}$, making them into **judgmentally strict equivalences** and **propositionally strict equivalences** respectively. 
-
-Judgmentally strict equivalences are used in defining [[Shulman univalent universes]] in [[higher observational type theory]]. 
-
-## Properties
- {#Properties}
 
 ### Functions with contractible fibers and one-to-one correspondences
 
@@ -401,13 +265,13 @@ We discuss the [[categorical semantics]] of equivalences in homotopy type theory
 
 Let $\mathcal{C}$ be a [[locally cartesian closed category]] which is a [[model category]], in which the (acyclic cofibration, fibration) [[weak factorization system]] has [[stable path objects]], and acyclic cofibrations are preserved by pullback along fibrations between fibrant objects.  (We ignore questions of coherence, which are not important for this discussion.) For instance $\mathcal{C}$ could be a [[type-theoretic model category]].
 
-### Of $hasContrFibers(-)$
+### Of $isEquiv(-)$
 
 +-- {: .num_prop }
 ###### Proposition
 
 For $A, B$ two [[cofibrant object|cofibrant]]-[[fibrant objects]] in $\mathcal{C}$,
-a morphism $f\colon A\to B$ is a [[weak equivalence]] or equivalently a [[homotopy equivalence]] in $\mathcal{C}$ precisely when the interpretation of $hasContrFibers(f)$ has a [[generalized element|global point]] $* \to hasContrFibers(f)$.
+a morphism $f\colon A\to B$ is a [[weak equivalence]] or equivalently a [[homotopy equivalence]] in $\mathcal{C}$ precisely when the interpretation of $isEquiv(f)$ has a [[generalized element|global point]] $* \to hasContrFibers(f)$.
 
 =--
 
@@ -464,10 +328,10 @@ But by the [[2-out-of-3 property]], this is equivalent to $f$ being a weak equiv
 +-- {: .num_remark #InterpretationIfIsEquivAsDependentType}
 ###### Remark
 
-In the above we fixed one function $f : A \to X$. But the type $hasContrFibers$ is actually a [[dependent type]]
+In the above we fixed one function $f : A \to X$. But the type $isEquiv$ is actually a [[dependent type]]
 
 $$
-  f : A \to B \vdash hasContrFibers(f)
+  f : A \to B \vdash isEquiv(f)
 $$
 
 on the [[function type|type of all functions]]. To obtain the [[categorical semantics]] of this general dependent $hasContrFibers$-construction, first notice that the interpretation of
@@ -556,6 +420,9 @@ The notion of "homotopy isomorphisms" (functions with left- and right-quasi inve
 
 * {#KapulkinLumsdaine21} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], Def. 3.1.1 in: *The Simplicial Model of Univalent Foundations (after Voevodsky)*, Journal of the European Mathematical Society **23** (2021) 2071–2126  &lbrack;[arXiv:1211.2851](https://arxiv.org/abs/1211.2851), [doi:10.4171/jems/1050](https://doi.org/10.4171/jems/1050)&rbrack;
 
+The notion of equivalences as [[one-to-one correspondences]] is due to:
+
+* {#Shulman22} [[Mike Shulman]], Towards a Third-Generation HOTT Part 1 ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA))
 
 Introduction and exposition:
 
