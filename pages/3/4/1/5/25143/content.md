@@ -17,7 +17,11 @@ In [[dependent type theory]], given types $A$ and $B$, a **multivalued partial f
 
 $$f:\left(\sum_{x:A} P(x)\right) \to B$$
 
-or equivalently 
+or equivalently by [[currying]],
+
+$$f:\prod_{x:A} P(x) \to B$$
+
+or equivalently
 
 $$x:A, p:P(x) \vdash f(x, p):B$$
 
@@ -49,9 +53,9 @@ In dependent type theory, [[correspondences]] are [[type families]] $x:A, y:B \v
 
 In the same way that there is a notion of [[dependent function]] in addition to (non-dependent) function in dependent type theory, there is also a notion of dependent multivalued partial functions in addition to non-dependent multivalued partial functions. 
 
-In [[dependent type theory]], given a type $A$ and a type family $x:A \vdash B(x)$, a **multivalued partial function** or **partial multivalued function** from $A$ to $B$ is a type family $x:A \vdash P(x)$ with a dependent function 
+In [[dependent type theory]], given a type $A$ and a type family $x:A \vdash B(x)$, a **dependent multivalued partial function** or **dependent partial multivalued function** from $A$ to $B$ is a type family $x:A \vdash P(x)$ with a dependent function 
 
-$$f:\prod_{x:A} \left(\sum_{x:A} P(x)\right) \to B(x)$$
+$$f:\prod_{x:A} P(x) \to B(x)$$
 
 or equivalently 
 
