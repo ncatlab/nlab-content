@@ -33,6 +33,8 @@ So far, it has observed distant [[galaxies]] at high redshift, as well as cephei
 
 * Nikita Lovyagin, Alexander Raikov, Vladimir Yershov, Yuri Lovyagin, *Cosmological Model Tests with JWST*. ([arXiv:2212.06575](https://arxiv.org/abs/2212.06575))
 
+* Deng Wang, Yizhou Liu, *JWST high redshift galaxy observations have a strong tension with Planck CMB measurements*. ([arXiv:2301.00347](https://arxiv.org/abs/2301.00347))
+
 ## External links
 
 * [website](https://jwst.nasa.gov/)
