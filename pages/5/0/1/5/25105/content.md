@@ -54,6 +54,16 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, y:B, u:x =_{A, B}^R y \vdash \rho_\eta(R, x, y, u):\rho_\tau(R, x) =_{(x =_{A, B}^R \rho(R, x)), (x =_{A, B}^R y)}^{\mathrm{tr}_{x =_{A, B}^R (-)}(\rho_\kappa(R, x, y, u))} u}$$
 
+### Coinductive definition
+
+Given two types $A$ and $B$ and two functions $f:A \to B$ and $g:B \to A$, $f$ and $g$ are inverses of each other if for every element $a:A$ and $b:A$, there is an equivalence of types between $f(a) =_B b$ and $a =_A g(b)$:
+
+$$\mathrm{isInv}(f, g) \coloneqq \prod_{a:A} \prod_{b:B} (f(a) =_B b) \simeq (a =_A g(b))$$
+
+This leads to a coinductive definition of the type of equivalences
+
+$$A \simeq B \coloneqq \sum_{f:A \to B} \sum_{g:B \to A} \prod_{a:A} \prod_{b:B} (f(a) =_B b) \simeq (a =_A g(b))$$
+
 ## Properties
 
 ### One-to-one correspondences
