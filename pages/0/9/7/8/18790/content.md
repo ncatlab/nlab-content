@@ -38,6 +38,7 @@ Given any [[type family]] $R$ indexed by types $A$ and $B$, there is a type fami
 
 * [[anafunctor]]
 * [[infinity-anafunctor]]
+* [[one-to-one correspondence]]
 * [[equivalence of types]]
 * [[dependent anafunction]]
 
