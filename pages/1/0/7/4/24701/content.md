@@ -105,40 +105,25 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A, p:x =_A x, \vdash K(x, p)
 
 The uniqueness rule for identity types is usually not included in objective type theory. However, if it were included in objective type theory it turns the type theory into a [[set-level type theory]]. 
 
-### Dependent identity types and actions
+### Equivalence types, transport, and dependent actions
 
-The rules for dependent identity types are given below as:
+We define the [[type of equivalences]] as the type of encodings of functions with [[contractible type|contractible]] [[fiber type|fibers]], with the following rules:
 
-Formation rule for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, y:B[a/x], z:B[b/x] \vdash y =_B^{p} z \; \mathrm{type}}$$ 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, x:A \vdash \mathrm{ev}(f, x):B}$$
 
-Introduction rule for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, w:B \vdash \mathrm{apd}_B^{p}(w):w[a/x] =_B^{p} w[b/x]}$$ 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, a:A, b:A, p:a =_A b \vdash \mathrm{tr}_B(a, b, p):B(a) \simeq B(b) \; \mathrm{type}}$$
 
-Elimination rule for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, y:B[a/x], z:B[b/x], q:y =_B^p z \vdash C \; \mathrm{type} \quad \Gamma, x:A, w:B \vdash t:C[w[a/x], w[b/x], \mathrm{apd}_B^{p}(w)/y, z, q]}{\Gamma, y:B[a/x], z:B[b/x], q:y =_B^p z \vdash J_B^p(t, y, z, q):C}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, a:A, b:A, p:a =_A b, x:A, w:B(x) \vdash \mathrm{apd}_B(a, b, p, w):\mathrm{ev}(\mathrm{tr}_B(a, b, p), w(a)) =_{B(b)} w(b)}$$ 
 
-Computation rules for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, y:B[a/x], z:B[b/x], q:y =_B^p z \vdash C \; \mathrm{type} \quad \Gamma, x:A, w:B \vdash t:C[w[a/x], w[b/x], \mathrm{apd}_B^{p}(w)/y, z, q]}{\Gamma, x:A, w:B \vdash \beta_{=_B^p}(w):J(t, w[a/x], w[b/x], \mathrm{apd}_B^{p}(w)) =_{C[w[a/x], w[b/x], \mathrm{apd}_B^{p}(w)/y, z, q]} t}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, y:B \vdash \ev^{-1}(f, y):A}$$
 
-Optional uniqueness rules for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, w:B, q:w[a/x] =_B^{p} w[b/x] \vdash K_B^p(x, w, q):q =_{w[a/x] =_B^{p} w[b/x]} \mathrm{apd}_B^{p}(w)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, y:B, x:A, u:\mathrm{ev}(f, x) =_B y \vdash \kappa(f, y, x, u):\ev^{-1}(f, y) =_A x}$$
 
-### Equivalence types
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, y:B \vdash \tau(f, y):\mathrm{ev}(f, \ev^{-1}(f, y)) =_B y}$$
 
-We define the [[type of equivalences]] as the type of encodings of pairs of [[quasi-inverse functions]] with [[contractible type|contractible]] [[fiber type|fibers]], with the following rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, y:B, x:A, u:\mathrm{ev}(f, x) =_B y \vdash \eta(f, y, x, u):\mathrm{ev}(\mathrm{tr}_{\mathrm{ev}(f, -) =_B y}(\ev^{-1}(f, y), x, \kappa(f, y, x, u)), \tau(f, y)) =_{\mathrm{ev}(f, x) =_B y} u}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \lambda(R, y):A} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \rho(R, x):B}$$ 
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A \vdash \lambda_\kappa(R, x, y):\lambda(R, y) =_A x}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, y:B \vdash \rho_\kappa(R, x, y):\rho(R, x) =_B y}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A, u:\rho(R, x) =_B y \vdash \eta_\lambda(R, y, x, u):\rho_\kappa(R, \lambda(R, y), y) =_{\rho(R, -) =_B y}^{\lambda_\kappa(R, x, y)} u}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, y:B, u:\lambda(R, y) =_A x \vdash \eta_\rho(R, x, y, u):\lambda_\kappa(R, x, \rho(R, x)) =_{\lambda(R, -) =_A x}^{\rho_\kappa(R, x, y)} u}$$
+The [[transport]] is established by an [[introduction rule]] and the dependent [[action on identities]] is established by a [[computation rule]]. Transport is very important in defining [[univalent Tarski universes]] as well as [[dependent identity types]], which in turn are important in defining [[higher inductive types]], in objective type theory. 
 
 The equivalence types between two types $A$ and $B$ behaves as the equality between $A$ and $B$, in the same way that the identity type between two terms $a:A$ and $b:A$ behaves as the equality between $a$ and $b$. This is similar to [[structural set theory]] whose type of sets have no primitive equality relation, where [[bijection]] behaves as the equality between sets $A$ and $B$. 
 
@@ -152,34 +137,28 @@ The structural rules for term definitions say that given a type $A$ and a type d
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash \delta_{A, B}:B \simeq A}$$
 
+### Dependent identity types
+
+The dependent identity type is defined as 
+
+$$a =_B^P b \coloneqq \mathrm{ev}(\mathrm{tr}_B(p), w(a)) =_{B(b)} w(b)$$
+
 ### Identity, inverse, and composition of equivalences
 
 The identity equivalence on a type $A$ is defined as an equivalence $\mathrm{id}_A:A \simeq A$ such that for all elements $a:A$,
 
-$$\lambda(\mathrm{id}_A, a) \coloneqq a$$
-$$\rho(\mathrm{id}_A, a) \coloneqq a$$
+$$\mathrm{ev}(\mathrm{id}_A, a) \coloneqq a$$
+$$\mathrm{ev}^{-1}(\mathrm{id}_A, a) \coloneqq a$$
 
 Given an equivalence $R:A \simeq B$, the inverse equivalence of $R$ is an equivalence $R^{-1}:B \simeq A$ such that for all elements $a:A$ and $b:B$,
 
-$$\rho(R^{-1}, a) \coloneqq \lambda(R, a)$$
-$$\lambda(R^{-1}, b) \coloneqq \rho(R, b)$$
+$$\mathrm{ev}^{-1}(R^{-1}, a) \coloneqq \mathrm{ev}(R, a)$$
+$$\mathrm{ev}(R^{-1}, b) \coloneqq \mathrm{ev}^{-1}(R, b)$$
 
 Given equivalences $R:A \simeq B$ and $S:B \simeq C$, the composite of $R$ and $S$ is an equivalence $S \circ R:A \simeq C$ such that for all elements $a:A$ and $c:C$,
 
-$$\lambda(S \circ R, a) \coloneqq \lambda(S, \lambda(R, a))$$
-$$\rho(S \circ R, c) \coloneqq \rho(R, \rho(S, c))$$
-
-### Transport
-
-Transport is the statement that given a type family $P$ indexed by $A$, elements $a:A$ and $b:A$, and identity $p:a =_A b$, there is an equivalence $\mathrm{trans}^P(a, b, p):P(a) \simeq P(b)$ This is inductively defined on reflexivity on $a:A$, which transport takes to the identity equivalence on $P(a)$, $\mathrm{trans}^P(a, a, \mathrm{refl}_A(a)) =_{P(a) \simeq P(a)} id_{P(a)}$. 
-
-Transport is given by the following rules:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type}}{\Gamma, a:A, b:A, p:a =_A b \vdash \mathrm{trans}^P(a, b, p):P(a) \simeq P(b)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type}}{\Gamma, a:A \vdash \mathrm{ind}_{\mathrm{trans}^P}^{\mathrm{refl}}(a):\mathrm{trans}^P(a, a, \mathrm{refl}_A(a)) =_{P(a) \simeq P(a)} \mathrm{id}_{P(a)}}$$
-
-Transport is very important in defining [[univalent Tarski universes]] as well as [[dependent identity types]], which in turn are important in defining [[higher inductive types]], in objective type theory. 
+$$\mathrm{ev}(S \circ R, a) \coloneqq \mathrm{ev}(S, \mathrm{ev}(R, a))$$
+$$\mathrm{ev}^{-1}(S \circ R, c) \coloneqq \mathrm{ev}^{-1}(R, \mathrm{ev}^{-1}(S, c))$$
 
 ### Subsingletons and singletons
 
