@@ -219,7 +219,7 @@ in $\mathbb{R}^n$ is clearly a bounded subset, and hence so is $S$.
 
 ## References
 
-[According to Wikipedia](https://en.wikipedia.org/wiki/Heine%E2%80%93Borel_theorem#History_and_motivation), the theorem was first proved by [[Pierre Cousin]] in 1895.  It is named after [[Eduard Heine]] (who used it but did not prove it) and [[Émile Borel]] (who proved a limited version of it), an instance of [[Baez's law]].
+[According to Wikipedia](https://en.wikipedia.org/wiki/Heine%E2%80%93Borel_theorem#History_and_motivation), the theorem was first proved by [[Pierre Cousin]] in 1895.  It is named after [[Eduard Heine]] (who used it but did not prove it) and [[Émile Borel]] (who proved a limited version of it), an instance of [[Stigler's law of eponymy]].
 
 A proof is spelled out for instance at
 
