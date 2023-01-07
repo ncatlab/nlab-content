@@ -21,7 +21,7 @@
 
 ## Idea
 
-A **Conduch&#233; functor**, also called a **Conduch&#233; fibration** or an **exponentiable functor**, is a [[functor]] which is an [[exponentiable morphism]] in [[Cat]].  (In accordance with [[Baez's law]], the notion was actually defined in [Giraud 64](#Giraud64) before [Conduch&#233; 72](#Conduche72).)  This turns out to be equivalent to a certain "factorization lifting" property which includes both [[Grothendieck fibrations]] and opfibrations.
+A **Conduch&#233; functor**, also called a **Conduch&#233; fibration** or an **exponentiable functor**, is a [[functor]] which is an [[exponentiable morphism]] in [[Cat]].  (In accordance with [[Stigler's law of eponymy]], the notion was actually defined in [Giraud 64](#Giraud64) before [Conduch&#233; 72](#Conduche72).)  This turns out to be equivalent to a certain "factorization lifting" property which includes both [[Grothendieck fibrations]] and opfibrations.
 
 So, roughly speaking, a functor $p\colon E\to B$ is a **strict Conduch&#233; functor** if given any morphism $\alpha$ in $E$, and any way of factoring its image in $B$, we can lift that factorization back up to a factorization of $\alpha$, in a way that is unique up to isomorphism.   There is also a weak version of this idea.
 
