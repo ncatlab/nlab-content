@@ -48,7 +48,11 @@ which is precisely the statement that $\mathcal{F}_{A, B}(f)$ is a dependent ana
 
 * [[anafunction]]
 
+* [[dependent function]]
+
 * [[dependent function type]]
+
+* [[dependent correspondence]]
 
 [[!redirects dependent anafunction]]
 [[!redirects dependent anafunctions]]
