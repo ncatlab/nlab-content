@@ -25,7 +25,7 @@ This is an [[adjoint equivalence]] between two thin univalent groupoids.
 
 ## Terminology
 
-In older literature, a bijection may be called a __one-to-one correspondence__, or (as a compromise) __bijective correspondence__.
+In older literature, a bijection may be called a __[[one-to-one correspondence]]__, or (as a compromise) __bijective correspondence__.
 
 ## See also
 
