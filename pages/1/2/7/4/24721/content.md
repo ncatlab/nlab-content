@@ -88,6 +88,16 @@ Let $(U, T)$ be a Tarski universe. Then one could construct a univalent Tarski u
 * a dependent function 
 $$\mathrm{ua}_{U'}:\prod_{A:U} \prod_{B:U} \mathrm{isEquiv}(\mathrm{transport}^{T'}(A, B))$$ 
 
+## Tarski universes with all propositions
+
+A Tarski universe $(U, T)$ **has all propositions** if given a type $A$ with a family of identities $x:A, y:A \vdash \tau_{-1}(x, y):x =_A y$, the universe $U$ comes with the structure of an element $A_U:U$ and an equivalence $\delta_A:T(A_U) \simeq A$. 
+
+The rules for this condition on Tarski universes is as follows:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash \tau_{-1}(x, y):x =_A y}{\Gamma \vdash A_U:U} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash \tau_{-1}(x, y):x =_A y}{\Gamma \vdash \delta_A:T(A_U) \simeq A}$$
+
+Given a Tarski universe which has all propositions, the type $\sum_{A:U} \mathrm{isProp}(T(A))$ is the [[type of all propositions]]. This is a form of strong [[impredicativity]] in the type theory, as given a type $A$, the type $A \to \sum_{A:U} \mathrm{isProp}(T(A))$ is the [[power set]] on $A$. 
+
 ## Closure of Tarski universes under type formers
 
 There are many ways of defining type formers internally in a universe: 
