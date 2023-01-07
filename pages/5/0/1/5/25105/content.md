@@ -29,6 +29,25 @@ Given a notion of the [[isEquiv]] type family on the function type $A \to B$, th
 
 $$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{isEquiv}(f)$$ 
 
+### As a type whose elements are functions with contractible fibers
+
+Given types $A$ and $B$, we form the type $A \simeq B$ such that given element $R:A \simeq B$, there is a family of elements $x:A \vdash \mathrm{ev}(R, x):B$, with rules stating that the above structure has contractible fibers, and that given a type $A$, elements $a:A$ and $b:A$, identity $p:a =_A b$, a type family $B$ indexed by $A$ and a family of elements $w:B$ indexed by $A$, one could form the [[transport]] equivalence across $p$ for $B$, $\mathrm{tr}_B(p):B(a) \simeq B(b)$, and the dependent action on $p$ for $w$, $\mathrm{apd}_B(p, w):\mathrm{ev}(\mathrm{tr}_B(p), w(a)) =_{B(b)} w(b)$. 
+
+Rules for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \mathrm{ev}(R, x):B}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{tr}_B(p):B(a) \simeq B(b) \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, w:B \vdash \mathrm{apd}_B(p, w):\mathrm{ev}(\mathrm{tr}_B(p), w(a)) =_{B(b)} w(b)}$$ 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \ev^{-1}(R, y):A}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A, u:\mathrm{ev}(R, x) =_B y \vdash \kappa(R, y, x, u):\ev^{-1}(R, y) =_A x}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \tau(R, y):\mathrm{ev}(R, \ev^{-1}(R, y)) =_B y}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A, u:\mathrm{ev}(R, x) =_B y \vdash \eta(R, y, x, u):\mathrm{ev}(\mathrm{tr}_B(\kappa(R, y, x, u)), \tau(R, y)) =_{\mathrm{ev}(R, x) =_B y} u}$$
+
 ### As a type whose elements are encodings for one-to-one correspondence
 
 Given types $A$ and $B$, we form the type $A \simeq B$ such that given element $R:A \simeq B$, there is a type family $x =_{A, B}^R y$ indexed by $x:A$ and $y:B$, with rules stating that $(-) =_{A, B}^R (-)$ is a [[one-to-one correspondence]], and that given a type $A$, elements $a:A$ and $b:A$, identity $p:a =_A b$, a type family $B$ indexed by $A$ and a family of elements $w:B$ indexed by $A$, one could form the [[transport]] equivalence across $p$ for $B$, $\mathrm{tr}_B(p):B(a) \simeq B(b)$, and the dependent action on $p$ for $w$, $\mathrm{apd}_B(p, w):w(a) =_{B(a), B(b)}^{\mathrm{tr}_B(p)} w(b)$. 
@@ -53,6 +72,47 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A, u:x =_{A, B}^R y \vdash \lambda_\eta(R, y, x, u):\lambda_\tau(R, y) =_{(\lambda(R, y) =_{A, B}^R y), (x =_{A, B}^R y)}^{\mathrm{tr}_{(-) =_{A, B}^R y}(\lambda_\kappa(R, x, y, u))} u}$$
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, y:B, u:x =_{A, B}^R y \vdash \rho_\eta(R, x, y, u):\rho_\tau(R, x) =_{(x =_{A, B}^R \rho(R, x)), (x =_{A, B}^R y)}^{\mathrm{tr}_{x =_{A, B}^R (-)}(\rho_\kappa(R, x, y, u))} u}$$
+
+### As a type whose elements are encodings for spans with contractible fibers
+
+Given types $A$ and $B$, we form the type $A \simeq B$ such that given element $R:A \simeq B$, there is a type $C(R)$ and families of elements $x:C(R) \vdash g(R, x):A$ and $x:C(R) \vdash h(R, x):B$, with rules stating that the above structures have contractible fibers, and that given a type $A$, elements $a:A$ and $b:A$, identity $p:a =_A b$, a type family $B$ indexed by $A$ and a family of elements $w:B$ indexed by $A$, one could form the [[transport]] equivalence across $p$ for $B$, $\mathrm{tr}_B(p):B(a) \simeq B(b)$, and the components for the dependent action on $p$ for $w$, $\mathrm{apd}_B(p, w) \coloneqq (\alpha_B(p, w), \gamma_B(p, w), \eta_B(p, w))$ with $\alpha_B(p, w):C(\mathrm{tr}_B(p))$, $\gamma_B(p, w):g(\mathrm{tr}_B(p), \alpha_B(p, w)) =_{B(a)} w(a)$, and $\eta_B(p, w):h(\mathrm{tr}_B(p), \alpha_B(p, w)) =_{B(b)} w(b)$.
+
+Rules for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B \vdash C_{A, B}(R) \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, z:C_{A, B}(R) \vdash g(R, z):A} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, z:C_{A, B}(R) \vdash h(R, z):B}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{tr}_B(p):B(a) \simeq B(b) \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, w:B \vdash \alpha_B(p, w):C_{B(a), B(b)}(\mathrm{tr}_B(p))}$$ 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, w:B \vdash \gamma_B(p, w):g(\mathrm{tr}_B(p), \alpha_B(p, w)) =_{B(a)} w(a)}$$ 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, w:B \vdash \eta_B(p, w):h(\mathrm{tr}_B(p), \alpha_B(p, w)) =_{B(b)} w(b)}$$ 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash g^{-1}(R, x):C_{A, B}(R)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash h^{-1}(R, y):C_{A, B}(R)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash g_\tau(R, x):g(R, g^{-1}(R, x)) =_A x}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash h_\tau(R, y):h(R, h^{-1}(R, y)) =_A y}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, z:C_{A, B}(R), u:g(R, z) =_A x \vdash g_\kappa(R, x, z, u):g^{-1}(R, x) =_{C_{A, B}(R)} z}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, z:C_{A, B}(R) u:h(R, z) =_A y \vdash h_\kappa(R, y, z, u):h^{-1}(R, y) =_{C_{A, B}(R)} z}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, z:C_{A, B}(R), u:g(R, z) =_A x \vdash \alpha_g(R, x, z, u):C_{g(R, g^{-1}(R, x)) =_A x, g(R, z) =_A x}(\mathrm{tr}_{g(R, -) =_A x}(g_\kappa(R, x, z, u)))}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, z:C_{A, B}(R), u:g(R, z) =_A x \vdash \gamma_g(R, x, z, u):g(\mathrm{tr}_{g(R, -) =_A x}(g_\kappa(R, x, z, u)), \alpha_g(R, x, z, u)) =_{g(R, g^{-1}(R, x)) =_A x} g_\tau(R, x)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, z:C_{A, B}(R), u:g(R, z) =_A x \vdash \eta_g(R, x, z, u):h(\mathrm{tr}_{g(R, -) =_A x}(g_\kappa(R, x, z, u)), \alpha_g(R, x, z, u)) =_{g(R, z) =_A x} u}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, z:C_{A, B}(R), u:h(R, z) =_B y \vdash \alpha_h(R, y, z, u):C_{h(R, h^{-1}(R, y)) =_B y, h(R, z) =_B y}(\mathrm{tr}_{h(R, -) =_B y}(h_\kappa(R, y, z, u)))}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, z:C_{A, B}(R), u:h(R, z) =_B y \vdash \gamma_h(R, y, z, u):g(\mathrm{tr}_{h(R, -) =_B y}(h_\kappa(R, y, z, u)), \alpha_h(R, y, z, u)) =_{h(R, h^{-1}(R, y)) =_B y} h_\tau(R, y)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, z:C_{A, B}(R), u:h(R, z) =_B y \vdash \eta_h(R, y, z, u):h(\mathrm{tr}_{h(R, -) =_B y}(h_\kappa(R, y, z, u)), \alpha_h(R, y, z, u)) =_{h(R, z) =_B y} u}$$
 
 ### Coinductive definition
 
