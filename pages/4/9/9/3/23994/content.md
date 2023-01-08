@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -20,7 +21,19 @@ The [[type theory|type-theoretic]] version of the fact that in [[set theory]] [[
 ## Definition ##
 
 In [[dependent type theory]], given [[types]] $A$ and $B$ and a [[function]] $x:A \vdash f(x):B$, there is a dependent [[function]] 
-$$a:A, b:A, p:a =_A b \vdash \mathrm{ap}_f(a, b)(p):f(a) =_B f(b)$$ 
+
+$$
+  a \colon A
+  \,, 
+  b\colon A 
+  \,, 
+  p \colon a =_A b 
+  \;\;\vdash\;\; 
+  \mathrm{ap}_f(a, b)(p)
+  \,\colon\,
+  f(a) =_B f(b)
+$$ 
+
 called the **action on [[identities]]/[[identifications]]/[[equalities]]/[[paths]] of $f$** or the **application of $f$ to identities/identifications/equalities/paths**, inductively defined by 
 $$a:A \vdash \mathrm{ap}_{f}(a, a)(\mathrm{refl}_{A}(a)) \equiv \mathrm{refl}_{B}(f(a)):\Omega(B, f(a))$$
 where $\Omega(A, a)$ is the [[loop space type]] $a =_A a$ of $A$ at $a:A$. 
