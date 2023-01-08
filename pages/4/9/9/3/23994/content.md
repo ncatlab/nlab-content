@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -18,9 +19,9 @@ The [[type theory|type-theoretic]] version of the fact that in [[set theory]] [[
 
 ## Definition ##
 
-In [[Martin-Löf type theory]], given [[types]] $A$ and $B$ and a [[function]] $x:A \vdash f(x):B$, there is a dependent [[function]] 
+In [[dependent type theory]], given [[types]] $A$ and $B$ and a [[function]] $x:A \vdash f(x):B$, there is a dependent [[function]] 
 $$a:A, b:A, p:a =_A b \vdash \mathrm{ap}_f(a, b)(p):f(a) =_B f(b)$$ 
-called the **action on [[identifications]]/[[identities]]/[[equalities]]/[[paths]] of $f$** or the **application of $f$ to identifications/identities/equalities/paths**, inductively defined by 
+called the **action on [[identities]]/[[identifications]]/[[equalities]]/[[paths]] of $f$** or the **application of $f$ to identities/identifications/equalities/paths**, inductively defined by 
 $$a:A \vdash \mathrm{ap}_{f}(a, a)(\mathrm{refl}_{A}(a)) \equiv \mathrm{refl}_{B}(f(a)):\Omega(B, f(a))$$
 where $\Omega(A, a)$ is the [[loop space type]] $a =_A a$ of $A$ at $a:A$. 
 
@@ -43,6 +44,7 @@ $$n:\mathbb{N}, a:\prod_{i:\mathrm{Fin}(n)} A(i), b:\prod_{i:\mathrm{Fin}(n)} A(
 
 ## See also ##
 
+* [[dependent action on identities]]
 * [[identification]]
 * [[identity type]]
 
@@ -54,17 +56,17 @@ Binary actions on paths were defined in section 19.5 of:
 
 * [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
 
+[[!redirects action on identities]]
 [[!redirects action on identifications]]
 [[!redirects action on paths]]
-[[!redirects action on identities]]
 [[!redirects action on equalities]]
 
+[[!redirects application of a function to identities]]
 [[!redirects application of a function to identifications]]
 [[!redirects application of a function to paths]]
-[[!redirects application of a function to identities]]
 [[!redirects application of a function to equalities]]
 
+[[!redirects binary action on identities]]
 [[!redirects binary action on identifications]]
 [[!redirects binary action on paths]]
-[[!redirects binary action on identities]]
 [[!redirects binary action on equalities]]
