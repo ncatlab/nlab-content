@@ -45,8 +45,6 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \v
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash w(a) \equiv \mathrm{tr}_B(a, b, p)^{-1}(w(b)):B(a)}$$ 
 
-Given types $A$ and $B$ and an equivalence $f:A \simeq B$, we can define a dependent type $x:\mathbb{I} \vdash C(x)$ indexed by the [[interval type]] $\mathbb{I}$ by $C(0) \equiv A$, $C(1) \equiv B$, and $\mathrm{tr}_C(0, 1, p) \equiv f$. 
-
 #### Propositionally strict equivalence types
 
 Given types $A$ and $B$, one could define the type of [[strict equivalences]] betwen $A$ and $B$. These are given by the following rules:
@@ -198,67 +196,15 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \v
 
 ## Properties
 
+### Relation to interval types
+
+Given types $A$ and $B$ and an equivalence $f:A \simeq B$, one could define the dependent type $x:\mathbb{I} \vdash C(x)$ indexed by the [[interval type]] $\mathbb{I}$ as $C(0) \equiv A$, $C(1) \equiv B$, and $\mathrm{tr}_C(0, 1, p) \equiv f$. 
+
 ### One-to-one correspondences
 
-By the rules for [[dependent sum types]] and [[dependent product types]], one could show that the above rules result in each type family $(-) =_{A, B}^R (-)$ being a [[one-to-one correspondence]] for equivalence $R:A \simeq B$. By the [[introduction rule]] for [[dependent sum types]], one could form the judgments
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A, u:x =_{A, B}^R y \vdash \eta_\lambda(R, y, x, u):\sum_{p:\lambda(R, y) =_A x} \lambda_\tau(R, y) =_{(\lambda(R, y) =_{A, B}^R y), (x =_{A, B}^R y)}^{\mathrm{tr}_{(-) =_{A, B}^R y}(p)} u}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, y:B, u:x =_{A, B}^R y \vdash \eta_\rho(R, x, y, u):\sum_{p:\rho(R, x) =_B y} \rho_\tau(R, x) =_{(x =_{A, B}^R \rho(R, x)), (x =_{A, B}^R y)}^{\mathrm{tr}_{x =_{A, B}^R (-)}(p)} u}$$
-
-and by the extensionality principle for dependent sum types, one could form the judgments 
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A, u:x =_{A, B}^R y \vdash \eta_\lambda(R, y, x, u):(\lambda(R, y), \lambda_\tau(R, y)) =_{\sum_{x:A} x =_{A, B}^R y} (x, u)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, y:B, u:x =_{A, B}^R y \vdash \eta_\rho(R, x, y, u):(\rho(R, x), \rho_\tau(R, x)) =_{\sum_{y:B} x =_{A, B}^R y} (y, u)}$$
-
-By the introduction rule for dependent sum types, the above is the same as 
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, v:\sum_{x:A} x =_{A, B}^R y \vdash \eta_\lambda(R, y, v):(\lambda(R, y), \lambda_\tau(R, y)) =_{\sum_{x:A} x =_{A, B}^R y} v}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, v:\sum_{y:B} x =_{A, B}^R y \vdash \eta_\rho(R, x, v):(\rho(R, x), \rho_\tau(R, x)) =_{\sum_{y:B} x =_{A, B}^R y} v}$$
-
-and by the introduction rule for [[dependent product types]], the above is the same as
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \eta_\lambda(R, y):\prod_{v:\sum_{x:A} x =_{A, B}^R y} (\lambda(R, y), \lambda_\tau(R, y)) =_{\sum_{x:A} x =_{A, B}^R y} v}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \eta_\rho(R, x):\prod_{v:\sum_{y:B} x =_{A, B}^R y} (\rho(R, x), \rho_\tau(R, x)) =_{\sum_{y:B} x =_{A, B}^R y} v}$$
-
-Additionally, by the introduction rule for dependent sum types, there are rules
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \lambda_\tau'(R, y):\sum_{x:A} x =_{A, B}^R y}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \rho_\tau'(R, x):\sum_{x:A} x =_{A, B}^R y}$$
-
-and thus rules 
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \eta_\lambda(R, y):\prod_{v:\sum_{x:A} x =_{A, B}^R y} \lambda_\tau'(R, y) =_{\sum_{x:A} x =_{A, B}^R y} v}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \eta_\rho(R, x):\prod_{v:\sum_{y:B} x =_{A, B}^R y} \rho_\tau'(R, x) =_{\sum_{y:B} x =_{A, B}^R y} v}$$
-
-Then by the introduction rule for dependent sum types, there is a rule
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \eta_\lambda(R, y):\sum_{u:\sum_{x:A} x =_{A, B}^R y} \prod_{v:\sum_{x:A} x =_{A, B}^R y} u =_{\sum_{x:A} x =_{A, B}^R y} v}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \eta_\rho(R, x):\sum_{u:\sum_{y:B} x =_{A, B}^R y} \prod_{v:\sum_{y:B} x =_{A, B}^R y} u =_{\sum_{y:B} x =_{A, B}^R y} v}$$
-
-which could be simplified down to
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \eta_\lambda(R, y):\mathrm{isContr}\left(\sum_{x:A} x =_{A, B}^R y\right)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \eta_\rho(R, x):\mathrm{isContr}\left(\sum_{y:B} x =_{A, B}^R y\right)}$$
-
-By the introduction rules for dependent product types, there are rules 
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B \vdash \eta_\lambda(R):\prod_{y:B} \mathrm{isContr}\left(\sum_{x:A} x =_{A, B}^R y\right)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B \vdash \eta_\rho(R):\prod_{x:A} \mathrm{isContr}\left(\sum_{y:B} x =_{A, B}^R y\right)}$$
-
-and by the introduction rules for product types, there is a rule
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B \vdash \eta(R):\left(\prod_{y:B} \mathrm{isContr}\left(\sum_{x:A} x =_{A, B}^R y\right)\right) \times \left(\prod_{x:A} \mathrm{isContr}\left(\sum_{y:B} x =_{A, B}^R y\right)\right)}$$
-
-which is precisely the condition that $(-) =_{A, B}^R (-)$ is a [[one-to-one correspondence]] for all equivalences $R:A \simeq B$. 
+Given types $A$ and $B$ and an equivalence $f:A \simeq B$, one could define a [[correspondence]] $x:A, y:B \vdash R(x, y)$ as the [[dependent identity type]] 
+$$R(x, y) \coloneqq x =_C^p y$$
+where $x:\mathbb{I} \vdash C(x)$ is defined as in the previous section. By the properties of [[dependent identity types]], the correspondence is always a [[one-to-one correspondence]]. 
 
 ### Quasi-inverse functions with contractible fibers
 
