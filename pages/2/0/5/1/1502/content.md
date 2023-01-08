@@ -173,14 +173,14 @@ Def. \ref{SemisimpleLinearCategory} (of semisimple linear categories) does not u
 \end{remark}
 
 \begin{remark}
-For a category to be semisimple, it needs to have a certain directional symmetry in its hom-sets, namely that $Hom(V, W)$ must at least have the same dimension as$Hom(W,V)$. This is the easiest way to check if a category will _fail_ to be semisimple. For instance, the category $Rep(A)$ of [[representations]] of an algebra $A$ will rarely be semisimple, precisely because there is no relation between $Hom(V, W)$ and $Hom(W,V)$ in general. Again, this can be traced back to the original algebra $A$ not having any 'symmetry' like the inverse operation in a group. 
+For a category to be semisimple, it needs to have a certain directional symmetry in its hom-sets, namely that $Hom(V, W)$ must at least have the same dimension as $Hom(W,V)$. This is the easiest way to check if a category will _fail_ to be semisimple. For instance, the category $Rep(A)$ of [[representations]] of an algebra $A$ will rarely be semisimple, precisely because there is no relation between $Hom(V, W)$ and $Hom(W,V)$ in general. Again, this can be traced back to the original algebra $A$ not having any 'symmetry' like the inverse operation in a group. 
 \end{remark}
 
 \begin{remark}
 As far as 'duality' on the hom-sets is concerned, one might have a $S \colon C \rightarrow C$ from the category to itself with the property that there are canonical isomorphisms
 
 \[
-  Hom(V, W) \cong Hom(W, SV)^\vee
+  Hom(V, W) \cong Hom(W, S V)^\vee
 \]
 
 where "$\vee$" denotes the ordinary linear dual of a vector space. Such a functor is called a _Serre functor_ in algebraic geometry, and indeed there is precisely such a functor on the derived category of coherent sheaves on a complex manifold --- it is given by tensoring with the [[canonical line bundle]]. 
