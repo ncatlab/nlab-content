@@ -4,9 +4,13 @@
 ## Selected writings
 
 
-On [[spin geometry]]:
+On the [[BRST complex]] (with focus on its [[cochain cohomology]]):
 
-* {#FigueroaFarrill10} [[José Figueroa-O'Farrill]], _[PG course on Spin Geometry](https://empg.maths.ed.ac.uk/Activities/Spin/)_ lecture 7: _Riemannian holonomy_, 2010 ([pdf](https://empg.maths.ed.ac.uk/Activities/Spin/Lecture7.pdf))
+* [[José Figueroa-O'Farrill]], [[Takashi Kimura]], *The cohomology of BRST complexes* (1988) &lbrack;[pdf](https://www.maths.ed.ac.uk/~jmf/Research/PVBLICATIONS/homol.pdf), [[FigueroaKimuar-BRSTCohomology.pdf:file]]&rbrack;
+
+and application to the [[NSR string|NSR]] [[superstring]]:
+
+* [[José Figueroa-O'Farrill]], [[Takashi Kimura]], _The BRST cohomology of the NSR string: vanishing and ``no-ghost'' theorems_, Comm. Math. Phys. **124** 1 (1989) 105-132. &lbrack;[euclid:cmp/1104179078](http://projecteuclid.org/euclid.cmp/1104179078)&rbrack;
 
 
 On [[Lie algebra weight systems]] arising from [[super Lie algebras]]:
@@ -37,6 +41,12 @@ On [[Spencer cohomology]] applied to the classification of [[BPS state|BPS solut
 On [[torsion of a G-structure|torsion of G-structures]] for kinematical groups:
 
 * [[José Figueroa-O'Farrill]], _On the intrinsic torsion of spacetime structures_ ([arXiv:2009.01948](https://arxiv.org/abs/2009.01948))
+
+
+On [[spin geometry]]:
+
+* {#FigueroaFarrill10} [[José Figueroa-O'Farrill]], _[PG course on Spin Geometry](https://empg.maths.ed.ac.uk/Activities/Spin/)_ lecture 7: _Riemannian holonomy_, 2010 ([pdf](https://empg.maths.ed.ac.uk/Activities/Spin/Lecture7.pdf))
+
 
 On [[supersymmetry]] and [[Spencer cohomology]] in [[D=5 supergravity|D=5]]:
 
