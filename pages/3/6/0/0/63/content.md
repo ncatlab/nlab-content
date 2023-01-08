@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -122,6 +123,9 @@ and surveyed in
 
 * {#Rejzner16} [[Kasia Rejzner]], section 7 of _Perturbative algebraic quantum field theory_ Springer 2016
 
+With focus on the [[cochain cohomology]]:
+
+* [[José Figueroa-O'Farrill]], [[Takashi Kimura]], *The cohomology of BRST complexes* (1988) &lbrack;[pdf](https://www.maths.ed.ac.uk/~jmf/Research/PVBLICATIONS/homol.pdf), [[FigueroaKimuar-BRSTCohomology.pdf:file]]&rbrack;
 
 Discussion of the BRST complex of the [[bosonic string]]/for [[2d CFT]] includes
 
@@ -130,8 +134,7 @@ Discussion of the BRST complex of the [[bosonic string]]/for [[2d CFT]] includes
 
 Discussion of the BRST complex for the [[superstring]] (hence with the corresponding [[Lie algebroid]] being actually a [[super Lie algebroid]]) is for instance in 
 
-* [[José Figueroa-O'Farrill]], Takashi Kimura, _The BRST cohomology of the NSR string: vanishing and ``no-ghost'' theorems_, Comm. Math. Phys.
-Volume 124, Number 1 (1989), 105-132. ([Euclid](http://projecteuclid.org/euclid.cmp/1104179078))
+* [[José Figueroa-O'Farrill]], [[Takashi Kimura]], _The BRST cohomology of the NSR string: vanishing and ``no-ghost'' theorems_, Comm. Math. Phys. **124** 1 (1989) 105-132. &lbrack;[euclid:cmp/1104179078](http://projecteuclid.org/euclid.cmp/1104179078)&rbrack;
 
 * [[Alexander Belopolsky]], _De Rham Cohomology of the Supermanifolds and Superstring BRST Cohomology_, Phys.Lett. B403 (1997) 47-50 ([arXiv:hep-th/9609220](http://arxiv.org/abs/hep-th/9609220))
 
