@@ -1,5 +1,57 @@
 
 $$
+  \mathrm{equivext}(f, g)  
+  \;\;\colon\;\; 
+  \big(f =_{A \simeq B} g\big) 
+  \;\simeq\; 
+  \prod_{x \colon A} 
+  \;
+  f(x) =_{B} g(x)
+$$
+
+
+$$
+  \mathrm{equivext}(f, g)  
+  \;\;\colon\;\;
+  \big(f =_{A \simeq B} g\big) 
+  \;\simeq\; 
+  \prod_{x \colon A} 
+  \;
+  f(x) =_{B} g(x)
+$$
+
+$$
+  \mathrm{equivext}(f, g)  
+  \;\;\colon\;\;
+  Equiv
+  \bigg(
+    Id_{A \simeq B}\big(
+      f,\,g
+    \big) 
+    ,\,
+    \prod_{x \colon A} 
+    \;
+    Id_B\big(
+      f(x)
+      ,\,
+      g(x)
+    \big)
+  \bigg)
+$$
+
+$$
+  \mathrm{equivext}(f, g)  
+  \,\colon\,
+  \big(f =_{A \simeq B} g\big) 
+  \;\;\simeq\;\; 
+  \prod_{x \colon A} 
+  \;
+  f(x) =_{B} g(x)
+  \,.
+$$
+
+
+$$
   \frac{
     X \,\times\, [-1,\, +1]
   }{
