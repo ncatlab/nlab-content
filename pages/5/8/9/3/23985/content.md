@@ -20,7 +20,7 @@ Thus an identification $p:a=b$ provides a "reason", a "witness", or a "proof" th
 
 ## See also
 
-* [[action on identifications]]
+* [[action on identities]]
 * [[transport]]
 
 ## References ##
