@@ -10,6 +10,10 @@
 +-- {: .hide}
 [[!include induction - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
 =--
 =--
 
