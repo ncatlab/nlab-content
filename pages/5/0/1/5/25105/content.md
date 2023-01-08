@@ -131,16 +131,16 @@ Introduction rule for equivalence types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{tr}_B(a, b, p):B(a) \simeq B(b) \; \mathrm{type}}$$
 
 Elimination rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B \quad \Gamma \vdash x:A}{\Gamma \vdash \mathrm{ev}(f, x):B} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B \quad \Gamma \vdash y:B}{\Gamma \vdash \ev^{-1}(f, y):A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B \quad \Gamma \vdash x:A}{\Gamma \vdash f(x):B} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B \quad \Gamma \vdash y:B}{\Gamma \vdash f^{-1}(y):A}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B \quad \Gamma \vdash x:A \quad \Gamma \vdash y:B}{\Gamma\vdash \mathrm{coh}(f, x, y):(\mathrm{evr}(f, x) =_B y) \simeq (x =_A \mathrm{evl}(f, y))}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B \quad \Gamma \vdash x:A \quad \Gamma \vdash y:B}{\Gamma\vdash \mathrm{coh}(f, x, y):(f(x) =_B y) \simeq (x =_A f^{-1}(y))}$$
 
 Computation rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{apdl}_B(a, b, p, w):w(a) =_{B(a)} \mathrm{ev}^{-1}(\mathrm{tr}_B(a, b, p), w(b))}$$ 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{apdl}_B(a, b, p, w):w(a) =_{B(a)} \mathrm{tr}_B(a, b, p)^{-1}(w(b))}$$ 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{apdr}_B(a, b, p, w):\mathrm{ev}(\mathrm{tr}_B(a, b, p), w(a)) =_{B(b)} w(b)}$$ 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{apdr}_B(a, b, p, w):\mathrm{tr}_B(a, b, p)(w(a)) =_{B(b)} w(b)}$$ 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{cohapd}_B(a, b, p, w):\left(\mathrm{ev}(\mathrm{coh}(\mathrm{tr}_B(a, b, p), w(a), w(b)), \mathrm{apdl}_B(a, b, p, w)) =_{\mathrm{ev}(\mathrm{tr}_B(a, b, p), w(a)) =_{B(b)} w(b)} \mathrm{apdr}_B(a, b, p, w)\right) \simeq \left(\mathrm{apdl}_B(a, b, p, w) =_{w(a) =_{B(a)} \mathrm{ev}^{-1}(\mathrm{tr}_B(a, b, p), w(b))} \mathrm{ev}^{-1}(\mathrm{coh}(\mathrm{tr}_B(a, b, p), w(a), w(b)), \mathrm{apdr}_B(a, b, p, w))\right)}$$ 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{cohapd}_B(a, b, p, w):\left(\mathrm{coh}(\mathrm{tr}_B(a, b, p), w(a), w(b))(\mathrm{apdr}_B(a, b, p, w)) =_{w(a) =_{B(a)} \mathrm{tr}_B(a, b, p)^{-1}(w(b))} \mathrm{apdl}_B(a, b, p, w)\right) \simeq \left(\mathrm{apdr}_B(a, b, p, w) =_{\mathrm{tr}_B(a, b, p)(w(a)) =_{B(b)} w(b)} \mathrm{coh}(\mathrm{tr}_B(a, b, p), w(a), w(b))^{-1}(\mathrm{apdl}_B(a, b, p, w))\right)}$$  
 
 ## Properties
 
