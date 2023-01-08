@@ -1206,6 +1206,8 @@ A quantitative analysis showing that locally supersymmetric [[spacetime]] theori
 
 * Nathaniel Craig, _The State of Supersymmetry after Run I of the LHC_ ([arXiv:1309.0528](https://arxiv.org/abs/1309.0528))
 
+* Jin Min Yang, Pengxuan Zhu, Rui Zhu, *A brief survey of low energy supersymmetry under current experiments* ([arXiv:2211.06686](https://arxiv.org/abs/2211.06686))
+
 Remembering that there is a considerable difference between global low energy supersymmetry and local higher energy supersymmetry aka [[supergravity]]:
 
 * {#Duff04} [[Michael Duff]], _Erice lectures on "The status of local supersymmetry"_ ([arXiv:hep-th/0403160](http://arxiv.org/abs/hep-th/0403160))
