@@ -79,6 +79,10 @@ Review:
 
 * [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _The entropy of Hawking radiation_ ([arXiv:2006.06872](https://arxiv.org/abs/2006.06872))
 
+On [[magnetic black holes]]:
+
+* [[Juan Maldacena]], *Comments on magnetic black holes*,  J. High Energ. Phys. **2021** 79 (2021) &lbrack;[arXiv:2004.06084](https://arxiv.org/abs/2004.06084), <a href="https://doi.org/10.1007/JHEP04(2021)079">doi:10.1007/JHEP04(2021)079</a>&rbrack;
+
 
 ## Related entries
 
