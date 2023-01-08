@@ -25,8 +25,6 @@ In [[dependent type theory]], the equivalence type between two types $A$ and $B$
 
 ### Strict equivalence types
 
-In this section, we shall use $\mathrm{Id}_A$ for the [[identity type]], and reserve $=_A$ for the other two notions of equality. 
-
 #### Judgmentally strict equivalence types
 
 Given types $A$ and $B$, one could define the type of [[strict equivalences]] betwen $A$ and $B$. These are given by the following rules:
@@ -35,7 +33,7 @@ Formation rule for judgmentally strict equivalence types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
 
 Introduction rule for judgmentally strict equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash x:A \vdash f(x):B \quad \Gamma, y:B \vdash c(y):\mathrm{isContr}(\sum_{x:A} \mathrm{Id}_B(f(x),y))}{\Gamma \vdash x \mapsto f(x):A \simeq B}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{tr}_B(a, b, p):B(a) \simeq B(b) \; \mathrm{type}}$$
 
 Elimination rules for judgmentally strict equivalence types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B}{\Gamma, x:A \vdash f(x):B}$$
@@ -43,14 +41,11 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B}{\Gamma, y:B \vdash f^{-1}(x):B}$$
 
 Computation rules for judgmentally strict equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash x:A \vdash f(x):B \quad \Gamma, y:B \vdash c(y):\mathrm{isContr}(\sum_{x:A} \mathrm{Id}_B(f(x),y))}{\Gamma, x:A \vdash (x \mapsto f(x))(x) = f(x):B}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{tr}_B(a, b, p)(w(a)) \equiv w(b):B(b)}$$ 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B}{\Gamma, x:A \vdash f^{-1}(f(x)) = x:A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash w(a) \equiv \mathrm{tr}_B(a, b, p)^{-1}(w(b)):B(a)}$$ 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B}{\Gamma, y:B \vdash f(f^{-1}(y)) = y:B}$$
-
-Optional uniqueness rules for judgmentally strict equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B}{\Gamma \vdash (x \mapsto f(x)) = f:A \simeq B}$$
+Given types $A$ and $B$ and an equivalence $f:A \simeq B$, we can define a dependent type $x:\mathbb{I} \vdash C(x)$ indexed by the [[interval type]] $\mathbb{I}$ by $C(0) \equiv A$, $C(1) \equiv B$, and $\mathrm{tr}_C(0, 1, p) \equiv f$. 
 
 #### Propositionally strict equivalence types
 
@@ -60,7 +55,7 @@ Formation rule for propositionally strict equivalence types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
 
 Introduction rule for propositionally strict equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash x:A \vdash f(x):B \quad \Gamma, y:B \vdash c(y):\mathrm{isContr}(\sum_{x:A} \mathrm{Id}_B(f(x),y))}{\Gamma \vdash x \mapsto f(x):A \simeq B}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{tr}_B(a, b, p):B(a) \simeq B(b) \; \mathrm{type}}$$
 
 Elimination rules for propositionally strict equivalence types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B}{\Gamma, x:A \vdash f(x):B}$$
@@ -68,18 +63,11 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B}{\Gamma, y:B \vdash f^{-1}(x):B}$$
 
 Computation rules for propositionally strict equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash x:A \vdash f(x):B \quad \Gamma, y:B \vdash c(y):\mathrm{isContr}(\sum_{x:A} \mathrm{Id}_B(f(x),y))}{\Gamma, x:A \vdash (x \mapsto f(x))(x) =_B f(x) \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{tr}_B(a, b, p)(w(a)) \equiv_{B(b)} w(b) \; \mathrm{true}}$$ 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B}{\Gamma, x:A \vdash f^{-1}(f(x)) =_A x \; \mathrm{true}}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B}{\Gamma, y:B \vdash f(f^{-1}(y)) =_B y \; \mathrm{true}}$$
-
-Optional uniqueness rules for propositionally strict equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B}{\Gamma \vdash (x \mapsto f(x)) =_{A \simeq B} f \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash w(a) \equiv_{B(a)} \mathrm{tr}_B(a, b, p)^{-1}(w(b)) \; \mathrm{true}}$$ 
 
 ### Weak equivalence types
-
-In this section, and for the rest of the article we shall use $=_A$ to denote [[identity types]] on $A$
 
 #### As a dependent sum type of the isEquiv type family
 
