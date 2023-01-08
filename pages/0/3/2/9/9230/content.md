@@ -335,6 +335,10 @@ See also
 
 * F. T. Brandt, J. Frenkel, D. G. C. McKeon, *Feynman diagrams in terms of on-shell propagators* &lbrack;[arXiv:2206.14860](https://arxiv.org/abs/2206.14860)&rbrack;
 
+* Zhi-Feng Liu, Yan-Qing Ma, *Determining Feynman Integrals with Only Input from Linear Algebra*, Physical Review Letters, Volume 129, Issue 22, 23 November 2022 ([doi:10.1103/PhysRevLett.129.222001]( 	
+https://doi.org/10.1103/PhysRevLett.129.222001
+), [arXiv:2201.11637](https://arxiv.org/abs/2201.11637))
+
 ### In causal perturbation theory
  {#ReferencesInCausalPerturbationTheory}
 
