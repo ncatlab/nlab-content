@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Set theory
++-- {: .hide}
+[[!include set theory - contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
@@ -356,6 +360,7 @@ Notice that every [[presentable (∞,1)-category|presentable]] [[locally Cartesi
 
 * [[weak function extensionality]]
 
+* [[equivalence extensionality]]
 
 ## References
  {#References}
