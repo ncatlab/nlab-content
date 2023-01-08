@@ -156,4 +156,8 @@ A large number of realizations of the exact field content of the MSSM in [[F-the
 
 * {#CveticHalversonLinLiuTian19} [[Mirjam Cvetic]], [[James Halverson]], Ling Lin, Muyang Liu, Jiahua Tian, _A Quadrillion Standard Models from F-theory_ ([arXiv:1903.00009](https://arxiv.org/abs/1903.00009))
 
+### Experimental status
+
+* Jin Min Yang, Pengxuan Zhu, Rui Zhu, *A brief survey of low energy supersymmetry under current experiments* ([arXiv:2211.06686](https://arxiv.org/abs/2211.06686))
+
 [[!redirects minimally supersymmetric standard model]]
