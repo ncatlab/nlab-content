@@ -1,0 +1,18 @@
+
+\tableofcontents
+
+## Definition
+
+In [[dependent type theory]] with [[identity types]], [[equivalence types]], and [[dependent function types]], **equivalence extensionality** characterizes the identity type of equivalence types and is the property that for all equivalences $f:A \simeq B$ and $g:A \simeq B$, there are equivalences
+
+$$\mathrm{equivext}(f, g):(f =_{A \simeq B} g) \simeq \prod_{x:A} f(x) =_{B} g(x)$$
+
+While [[function extensionality]] implies equivalence extensionality, it is unknown whether equivalence extensionality implies function extensionality under any conditions or whether equivalence extensionality is strictly weaker than function extensionality. 
+
+## See also
+
+* [[equivalence type]]
+
+* [[equivalence of types]]
+
+* [[extensionality]]
