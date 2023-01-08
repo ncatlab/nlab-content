@@ -28,79 +28,56 @@
 
 > Two terms are the same (eadem) if one can be substituted for the otherwithout altering the truth of any statement (salva veritate). If we have $P$ and $Q$, and $P$ enters into some true proposition, and the substitution of $Q$ for $P$ wherever it appears results in a new proposition that is likewise true, and if this can be done for every proposition, then $P$ and $Q$ are said to be the same; conversely, if $P$ and $Q$ are the same, they can be substituted for one another.
 
-The converse mentioned at the end of the last sentence is known as the **principle of substitution** or the **indiscernibility of identicals**. In any simply typed first-order theory, this principle is formalized as 
+The converse mentioned at the end of the last sentence is known as the **principle of substitution** or the **indiscernibility of identicals**. In any simply typed first-order theory, given a predicate $P$ on $T$, this principle is formalized as the following
 
-$$
-  x =_T y 
-  \;\;\;
-  \implies 
-  \;\;\;
-  \forall
-  \; \mathrm{properties} \; P    
-  \;.\; 
-  P(x) \iff P(y)
-$$
+$$\forall x,y:T.(x =_T y) \implies (P(x) \iff P(y))$$
 
-In the interpretation of [[propositions as types]] in [[type theory]], [[propositions]] are interpreted as [[types]], and the above statement has a generalization from the types which are propositions to all types: the [[universal quantifier]] becomes a [[dependent product type]], the [[predicate]] becomes a [[type family]], [[implication]] becomes a [[function]], and [[logical equivalence]] of [[propositions]] becomes [[equivalence in homotopy type theory|equivalence of types]]. This results in what is known as *transport* in type theory, the [[function]]:
+In the interpretation of [[propositions as types]] in [[type theory]], [[propositions]] are interpreted as [[types]], and the above statement has a generalization from the types which are propositions to all types: the [[universal quantifier]] becomes a [[dependent product type]], the [[predicate]] becomes a [[type family]], [[implication]] becomes an a [[function type]], and [[logical equivalence]] of [[propositions]] becomes an [[equivalence type]]. This results in what is known as *transport* in type theory, which for the type $T$ and the type family $x:T \vdash P(x)$ results in the [[dependent function]]:
 
-$$
-  \mathrm{transport}(x, y)
-  \;\;\;\colon\;\;\; 
-  x =_T y 
-  \;\;\longrightarrow\;\;
-  \prod_{
-    \mathclap{
-      P \colon T \to \mathcal{U}
-    }
-  } 
-  \;\;
-  P(x) \simeq P(y)
-$$
-
-(Here $\mathcal{U}$ denotes the [[type universe]], so that the [[function type]] $T \to \mathcal{U}$ is that of $T$-[[dependent types]].)
+$$\mathrm{tr}_P:\prod_{x,y:T} (x =_T y) \to (P(x) \simeq P(y))$$
 
 ## Definitions
 
-In [[Martin-Löf type theory]], given 
+There are multiple notions of [[equivalence types]] in [[dependent type theory]], which can be used for a definition of univalence for a [[type universe]] $U$; these include
 
-* a [[type]] $A$, 
+* [[judgmentally strict equivalence types]]
+* [[propositionally strict equivalence types]]
+* various notions of [[weak equivalence types]]
+  * the type of [[functions]] with [[contractible type|contractible]] [[fiber type|fibers]]
+  * the type of [[spans]] with contractible fibers
+  * the type of [[multivalued partial functions]] which are single-valued and [[total function|total]] and have contractible fibers
+  * the type of [[one-to-one correspondences]]
+* type of $U$-small equivalences, given a type universe $U$ and a definition of equivalence above
 
-* a [[judgment]] $z \colon A \vdash B(z)\ \mathrm{type}$ (hence an $A$-[[dependent type]] $B$), 
+Thus, given a notion of [[equivalence type]] $\simeq$, a [[type]] $A$, a family of types $x:A \vdash B(x)$, [[elements]] $a:A$ and $b:A$, and an [[identity]] $p:a =_A b$, there is an equivalence between the types $B(a)$ and $B(b)$ called **transport** 
+$$\mathrm{tr}_B(a, b, p):B(a) \simeq B(b)$$
 
-* [[terms]]$\,$ $x \colon A$ and $y \colon A$, 
+The transport equivalence is called **judgmentally strict transport** if the equivalence type is a [[judgmentally strict equivalence type]], and similarly it is called **propositionally strict transport** if the equivalence type is a [[propositionally strict equivalence type]]. It is called **weak transport** if the equivalence type is a [[weak equivalence type]]. 
 
-* an [[term]] of their [[identity type]] $p \colon (x =_A y)$, 
+### As an introduction rule for the equivalence type
 
-then there are compatible **transport functions** 
+In some presentations of the [[equivalence type]], transport is formed by one of the [[introduction rules]] for the equivalence type: 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{tr}_B(a, b, p):B(a) \simeq B(b) \; \mathrm{type}}$$
 
-\[
-  \label{TheTransportFunctions}
-  \overrightarrow{\mathrm{tr}}_{B}^{p}
-  \,\colon\, 
-  B(x) \longrightarrow B(y) 
-  \;\;\;
-  \text{and}
-  \;\;\;
-  \overleftarrow{\mathrm{tr}}_{B}^{p}
-  \,\colon\, B(y) \longrightarrow B(x)
-  \,,
-\] 
+For the [[inductive definition]] of transport, there are also [[computation rules]] given by
 
-which are both [[equivalences of types]]. The syntax for the rules for the transport functions are as follows:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{tr}_B(a, a, \mathrm{refl}_A(a)) \equiv \mathrm{id}_{B(a)}:B(a) \simeq B(a)}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b}{\Gamma \vdash \overrightarrow{\mathrm{tr}}(x.B, a, b, p):B[a/x] \simeq B[b/x]}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{tr}_B(a, a, \mathrm{refl}_A(a)) \equiv_{B(a) \simeq B(a)} \mathrm{id}_{B(a)} \; \mathrm{true}}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \overrightarrow{\mathrm{tr}}(x.B, a, a, \mathrm{refl}_A[a/x]) =_{B[a/x] \simeq B[a/x]} \mathrm{id}_{B[a/x]}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_B^{\mathrm{tr}}(a):\mathrm{tr}_B(a, a, \mathrm{refl}_A(a)) =_{B(a) \simeq B(a)} \mathrm{id}_{B(a)}}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b}{\Gamma \vdash \overleftarrow{\mathrm{tr}}(x.B, a, b, p):B[b/x] \simeq B[a/x]}$$
+depending on whether the the computation rules for [[identity types]] use [[judgmental equality]], [[propositional equality]], or the [[identity type]]. 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \overleftarrow{\mathrm{tr}}(x.B, a, a, \mathrm{refl}_A[a/x]) =_{B[a/x] \simeq B[a/x]} \mathrm{id}_{B[a/x]}}$$
+Alternatively, one has the [[dependent action on identities]] for the [[computation rules]] for transport:
 
-One could also use [[definitional equality]] in the inductive definitions of the transport function:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{tr}_B(a, b, p)(w(a)) \equiv w(b):B(b)}$$ 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \overrightarrow{\mathrm{tr}}(x.B, a, a, \mathrm{refl}_A[a/x]) \equiv \mathrm{id}_{B[a/x]}:B[a/x] \simeq B[a/x]}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{tr}_B(a, b, p)(w(a)) \equiv_{B(b)} w(b) \; \mathrm{true}}$$ 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \overleftarrow{\mathrm{tr}}(x.B, a, a, \mathrm{refl}_A[a/x]) \equiv \mathrm{id}_{B[a/x]}:B[a/x] \simeq B[a/x]}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{apd}_B(a, b, p, w):\mathrm{tr}_B(a, b, p)(w(a)) =_{B(b)} w(b)}$$ 
+
+depending on whether the [[equivalence type]] uses [[judgmental equality]], [[propositional equality]], or the [[identity type]] in its [[computation rules]]. 
 
 ## Examples and applications
 
@@ -204,7 +181,21 @@ For the role of transport in defining an equivalent notion of [[univalence]] in 
 
 * Madeleine Birchfield, Valery Isaev, *Univalence for weakly Tarski universes*, MathOverflow, ([web](https://mathoverflow.net/q/431723))
 
+[[!redirects transport]]
 [[!redirects transports]]
+
+[[!redirects weak transport]]
+[[!redirects weak transports]]
+
+[[!redirects strict transport]]
+[[!redirects strict transports]]
+
+[[!redirects judgmentally strict transport]]
+[[!redirects judgmentally strict transports]]
+
+[[!redirects propositionally strict transport]]
+[[!redirects propositionally strict transports]]
+
 [[!redirects transporting]]
 
 [[!redirects identity transport]]
@@ -212,6 +203,12 @@ For the role of transport in defining an equivalent notion of [[univalence]] in 
 
 [[!redirects type transport]]
 [[!redirects type transports]]
+
+[[!redirects transport equivalence]]
+[[!redirects transport equivalences]]
+
+[[!redirects transport function]]
+[[!redirects transport functions]]
 
 [[!redirects indiscernibility of identicals]]
 
