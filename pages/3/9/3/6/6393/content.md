@@ -130,9 +130,10 @@ Reviews and survays are also in any text on [[string theory]]. See the reference
 
 ### BRST description
 
-Discussion of the [[BRST complex]] of the NSR string is for instance in
+Discussion of the [[BRST complex]] of the NSR string:
 
-* [[José Figueroa-O'Farrill]], Takashi Kimura, _The BRST cohomology of the NSR string: vanishing and "no-ghost" theorems_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Research/PVBLICATIONS/nsr.pdf))
+* [[José Figueroa-O'Farrill]], [[Takashi Kimura]], _The BRST cohomology of the NSR string: vanishing and ``no-ghost'' theorems_, Comm. Math. Phys. **124** 1 (1989) 105-132. &lbrack;[euclid:cmp/1104179078](http://projecteuclid.org/euclid.cmp/1104179078)&rbrack;
+
 
 [[!redirects spinning strings]]
 
