@@ -60,17 +60,17 @@ Introduction rules for the interval type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{I}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathbb{I}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash p:0 =_\mathbb{I} 1}$$
 
 Elimination rules for the interval type:
-$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x] \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma, x:\mathbb{I} \vdash \mathrm{ind}_\mathbb{I}^C(c_0, c_1, c_p):C}$$
+$$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma, x:\mathbb{I} \vdash \mathrm{ind}_\mathbb{I}^C(c_0, c_1, c_p)(x):C(x)}$$
 
 Computation rules for the interval type:
-$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x] \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \beta_\mathbb{I}^{0}: \mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p)[0/x] =_{C[0/x]} c_0}$$
+$$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \beta_\mathbb{I}^{0}: \mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p)(0) =_{C(0)} c_0}$$
 
-$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x] \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \beta_\mathbb{I}^{1}:\mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p)[1/x] =_{C[1/x]} c_1}$$
+$$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \beta_\mathbb{I}^{1}:\mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p)(1) =_{C(1)} c_1}$$
 
-$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x] \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \beta_\mathbb{I}^{p}: \mathrm{apd}_C^p(\mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p)) =_{c_0 =_C^p c_1} c_p}$$
+$$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \beta_\mathbb{I}^{p}:\mathrm{apd}_C(p, \mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p)) =_{c_0 =_C^p c_1} c_p}$$
 
 Uniqueness rules for the interval type:
-$$\frac{\Gamma, x:\mathbb{I} \vdash C \; \mathrm{type} \quad \Gamma, x:\mathbb{I} \vdash c:C}{\Gamma, x:\mathbb{I} \vdash \eta_\mathbb{I}(c):c =_{C} \mathrm{ind}_\mathbb{I}^{C}(c[0/x], c[1/x], \mathrm{apd}(c, p))}$$
+$$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma, x:\mathbb{I} \vdash c:C(x)}{\Gamma, x:\mathbb{I} \vdash \eta_\mathbb{I}(c):c =_{C(x)} \mathrm{ind}_\mathbb{I}^{C}(c(0), c(1), \mathrm{apd}_C(p, c))}$$
 
 ### Using a function from the two-valued type
 
