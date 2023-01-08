@@ -124,15 +124,17 @@ Each of these imply the usual versions of univalence either through the structur
 
 ### Shulman univalence
 
-We shall call these forms of univalence **Shulman univalence** because it first appeared in [[Mike Shulman]]'s model of [[higher observational type theory]]. 
+We shall call these forms of univalence **Shulman univalence** because it first appeared in [[Mike Shulman]]'s model of [[higher observational type theory]].
 
-Given a [[type universe]] $U$, there is a canonical function 
+Let $A \cong B$ denote the [[type of judgmentally strict equivalences]] between $A$ and $B$, and let $A \simeq B$ denote the [[type of weak equivalences]] between $A$ and $B$, however defined. A [[type universe]] $U$ is judgmentally Shulman univalent if for all elements $A:U$ and $B:U$ there is a **judgmentally strict equivalence** $\mathrm{ua}:(A =_U B) \cong (A \simeq B)$. 
+
+Unrolling the above definition, given a [[type universe]] $U$, there is a canonical function 
 $$\mathrm{idtoequiv}(A, B):(A =_U B) \to (A \simeq B)$$
 for all $A:U$ and $B:U$. 
 
 Suppose we are working in a [[dependent type theory]] with [[judgmental equality]] of [[terms]] $\equiv$. Then $U$ is **judgmentally Shulman univalent** if for all $A:U$ and $B:U$, $\mathrm{idtoequiv}(A, B)$ is a [[judgmentally strict equivalence]]. 
 
-Now, suppose we are working in the framework of [[logic over type theory]], where our [[dependent type theory]] has [[propositional equality]] of [[terms]] $\equiv$. Then $U$ is **propositionally Shulman univalent** if for all $A:U$ and $B:U$, $\mathrm{idtoequiv}(A, B)$ is a [[propositionally strict equivalence]]. 
+Now, suppose we are working in the framework of [[logic over type theory]], where our [[dependent type theory]] has [[propositional equality]] of [[terms]] $\equiv$, and let $A \cong B$ denote the [[type of propositionally strict equivalences]] between $A$ and $B$. A [[type universe]] $U$ is **propositionally Shulman univalent** if for all elements $A:U$ and $B:U$ there is a [[propositionally strict equivalence]] $\mathrm{ua}:(A =_U B) \cong (A \simeq B)$. 
 
 ### Internal univalence
 
