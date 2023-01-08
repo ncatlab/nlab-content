@@ -142,7 +142,7 @@ That the [[near horizon geometry]] of the [[extremal black hole|extremal]] Reiss
 
    (see section 11.1 here: [pdf](http://www.hartmanhep.net/topics2015/11-nearhorizon.pdf) [[ExtremalReissnerNordstrom.pdf:file]])
 
-Discussion of interior solutions includes
+Discussion of interior solutions:
 
 * {#GravesBrill60} Graves J. C., Brill D. R., _Oscillatory character of Reissner-Nordstr&#246;m metric for an ideal charged wormehole._ Phys. Rev. 120, 1507, 1960
 
@@ -182,6 +182,10 @@ General Relativity_, General Relativity and Gravitation, Vol. 19, No. 7, 1987
 
 * {#GuptaKumarPratibha12} Gupta, Y. K.; Kumar, Jitendra; Pratibha, _A Class of Well Behaved Charged Analogues of Schwarzchild's Interior Solution_, International Journal of Theoretical Physics October 2012, Volume 51, Issue 10, pp 3290&#8211;3302 ([publisher](http://link.springer.com/article/10.1007%2Fs10773-012-1209-4))
 
+Discussion of magnetic black holes (similar to [[magnetic monopoles]]):
+
+* [[Juan Maldacena]], *Comments on magnetic black holes*,  J. High Energ. Phys. **2021** 79 (2021) &lbrack;[arXiv:2004.06084](https://arxiv.org/abs/2004.06084), <a href="https://doi.org/10.1007/JHEP04(2021)079">doi:10.1007/JHEP04(2021)079</a>&rbrack;
+
 
 
 [[!redirects Reissner-Nordström spacetimes]]
@@ -198,4 +202,8 @@ General Relativity_, General Relativity and Gravitation, Vol. 19, No. 7, 1987
 
 [[!redirects charged black hole]]
 [[!redirects charged black holes]]
+
+[[!redirects magnetic black hole]]
+[[!redirects magnetic black holes]]
+
 
