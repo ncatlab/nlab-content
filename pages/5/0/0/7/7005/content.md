@@ -44,51 +44,42 @@ Univalence is a commonly assumed [[axiom]] in [[homotopy type theory]], and is c
 
 We work in a [[dependent type theory]] with [[identity types]], [[function types]], [[dependent product types]], [[product types]], and [[dependent sum types]]. 
 
-While traditionally in [[dependent type theory]], [[Russell universes]] $U$ are considered to be distinct from [[Tarski universes]] $(U, T)$, in this article, we define a [[Russell universe]] to be a [[Tarski universe]] $(U, \!\,)$ whose type reflector type family is represented by a zero-width whitespace character $\!\,$ instead of some other symbol $T$. Thus, we can use the more general notion of Tarski universe throughout the article. 
+### Using two notions of equivalence types
 
-Given a universe $U$, there are multiple notions of [[equivalence of types|equivalence]] of $U$-small types which can be used in the definition of [[univalence]], such as [[functions]] with [[contractible]] [[fibers]] and [[one-to-one correspondences]]. 
+There are multiple notions of [[equivalence types]] in [[dependent type theory]], which can be used for a definition of univalence for a [[type universe]] $U$; these include
 
-### Using functions with contractible fibers
+* [[judgmentally strict equivalence types]]
+* [[propositionally strict equivalence types]]
+* various notions of [[weak equivalence types]]
+  * the type of [[functions]] with [[contractible type|contractible]] [[fiber type|fibers]]
+  * the type of [[spans]] with contractible fibers
+  * the type of [[multivalued partial functions]] which are single-valued and [[total function|total]] and have contractible fibers
+  * the type of [[one-to-one correspondences]]
+* type of $U$-small equivalences, given a type universe $U$ and a definition of equivalence above
 
-In any [[dependent type theory]], given types $A$ and $B$ and a function $f:A \to B$, $f$ is an equivalence if for all $b:B$, the fiber of $f$ at $b$ is contractible: 
-$$\mathrm{isEquiv}(f) \coloneqq \prod_{b:B} \mathrm{isContr}\left(\sum_{a:A} f(a) =_B b\right)$$
+In general, given equivalence types $A \simeq_0 B$ and $A \simeq_1 B$, a [[Russell universe]] $U$ is **univalent** with respect to $\simeq_0$ and $\simeq_1$ if for all elements $A:U$ and $B:U$, there is an element 
 
-Now, let $(U, T)$ is a [[Tarski universe]]. The univalence axiom states that the [[transport]] function $\mathrm{trans}^T(A, B)$, defined by [[identification elimination]] which take the reflexive identification $\mathrm{refl}_U(A):A =_U A$ to the identity equivalence $\mathrm{id}_{T(A)}:T(A) \simeq T(A)$, is an equivalence of types for all $A:U$ and $B:U$
-$$\mathrm{trans}^T(A, B):(A =_U B) \simeq (T(A) \simeq T(B))$$
+$$\mathrm{ua}(A, B):(A =_U B) \simeq_1 (A \simeq_0 B)$$
 
-If $(U, \!\,)$ is a [[Russell universe]], transport across the zero-width whitespace character type family $\!\,$ is typically written as $\mathrm{idtoequiv}(A, B)$:
+and a [[Tarski universe]] $(U, T)$ is **univalent** with respect to $\simeq_0$ and $\simeq_1$ if for all elements $A:U$ and $B:U$, there is an element 
 
-$$\mathrm{idtoequiv}(A, B) \coloneqq \mathrm{trans}^{\!\,}(A, B)$$
+$$\mathrm{ua}(A, B):(A =_U B) \simeq_1 (T(A) \simeq_0 T(B))$$
 
-### Using one-to-one correspondences
+Traditional [[homotopy type theory]] uses the type of functions with contractible fibers for both $\simeq_0$ and $\simeq_1$, while [[Mike Shulman]]'s model of [[higher observational type theory]] uses the type of $U$-small one-to-one correspondences for $\simeq_0$ and the type of judgmentally strict equivalences for $\simeq_1$. 
 
-In any [[dependent type theory]] with a [[Tarski universe]] $(U, T)$, we define a correspondence $R:T(A) \times T(B) \to U$ to be a [[one-to-one correspondence]] as: 
-$$isOneToOne(R) \coloneqq \left(\prod_{a:T(A)} \mathrm{isContr}\left(\sum_{b:T(B)} T(R(a,b))\right)\right) \times \left(\prod_{b:T(B)} \mathrm{isContr}\left(\sum_{a:T(A)} T(R(a,b))\right)\right)$$
+### Using the isEquiv type family and the idtoequiv or transport function
 
-and we define the type of one-to-one correspondences from $A$ to $B$ in $U$ as 
+As there are multiple notions of equivalence types, there are also multiple notions of the $\mathrm{idtoequiv}_U$ function for [[Russell universes]] $U$ and the [[transport function]] $\mathrm{trans}^T$ for [[Tarski universes]] $(U, T)$. There are also multiple notions of the [[isEquiv]] type family whose elements are witnesses that a function $f:A \to B$ is an equivalence of types
 
-$$A \simeq_U B \coloneqq \sum_{R:T(A) \times T(B) \to U} isOneToOne(R)$$
+Let $\simeq$ be a notion of [[equivalence type]] in the dependnet type theory, and $U$ be a [[Russell universe]]. The univalence axiom states there is a witnesses that the canonical function $\mathrm{idtoequiv}_U(A, B)$, defined by [[identification elimination]] which take the reflexive identification $\mathrm{refl}_U(A):A =_U A$ to the identity equivalence $\mathrm{id}_{A}:A \simeq A$, is an equivalence of types for all $A:U$ and $B:U$
+$$\mathrm{ua}(A, B):\mathrm{isEquiv}(\mathrm{idtoequiv}_U(A, B))$$
 
-A universe $U$ is **univalent** if for all $A:U$ and $B:U$, the canonical map
-
-$$
-  \mathrm{idtoequiv}_U(A, B)
-  \;\colon\;
-  (A =_U B) \to (A \simeq_U B) 
-$$
-
-from the [[identity type]] $A =_U B$ to the type of one-to-one correspondences $A \simeq_U B$, defined by [[identification elimination]] which take the reflexive identification $\mathrm{refl}_U(X):X =_U X$ to the identity one-to-one correspondence $\Delta_X:X \simeq X$, is an [[equivalence of types]]
-
-$$
-  \mathrm{idtoequiv}_U(A, B)
-  \;\colon\;
-  (A =_U B) \simeq (A \simeq_U B)
-  \,.
-$$
+Now, let $(U, T)$ be a [[Tarski universe]]. The univalence axiom states there is a witnesses that the [[transport]] function $\mathrm{trans}^T(A, B)$, defined by [[identification elimination]] which take the reflexive identification $\mathrm{refl}_U(A):A =_U A$ to the identity equivalence $\mathrm{id}_{T(A)}:T(A) \simeq T(A)$, is an equivalence of types for all $A:U$ and $B:U$
+$$\mathrm{ua}(A, B):\mathrm{isEquiv}(\mathrm{trans}^T(A, B))$$
 
 ## Alternate versions of univalence
 
-In this section, we abbreviate each of the above notions of equivalence ($A \simeq_U B$ or $T(A) \simeq T(B)$) as $A \simeq B$. 
+In this section, we denote the type of equivalences between $A$ and $B$ as $A \simeq B$. 
 
 ### Weaker equivalent versions
 
@@ -121,20 +112,6 @@ There are also stricter versions of univalence, where we replace the [[equivalen
 3. Finally, if we are working inside a [[Tarski universe]] $(\mathcal{V}, \mathcal{T})$, then given an internal [[Tarski universe]] $U:\mathcal{V}$ with $T:\mathcal{T}(U) \to \mathcal{V}$, one could replace the equivalence of types in the definition of univalence with a [[typal equality]] of types. This results in **typal univalence**, which states that for all small types $A:\mathcal{T}(U)$ and $B:\mathcal{T}(U)$, there is an [[identification]] $\mathrm{ua}(A, B):(T(A) =_U T(B)) =_{\mathcal{V}} (T(A) \simeq_{\mathcal{V}} T(B))$.
 
 Each of these imply the usual versions of univalence either through the structural rules for [[judgmental equality]] and [[propositional equality]], or through [[identification elimination]], [[transport]], and [[action on identifications]] for [[typal equality]]. 
-
-### Shulman univalence
-
-We shall call these forms of univalence **Shulman univalence** because it first appeared in [[Mike Shulman]]'s model of [[higher observational type theory]].
-
-Let $A \cong B$ denote the [[type of judgmentally strict equivalences]] between $A$ and $B$, and let $A \simeq B$ denote the [[type of weak equivalences]] between $A$ and $B$, however defined. A [[type universe]] $U$ is judgmentally Shulman univalent if for all elements $A:U$ and $B:U$ there is a **judgmentally strict equivalence** $\mathrm{ua}:(A =_U B) \cong (A \simeq B)$. 
-
-Unrolling the above definition, given a [[type universe]] $U$, there is a canonical function 
-$$\mathrm{idtoequiv}(A, B):(A =_U B) \to (A \simeq B)$$
-for all $A:U$ and $B:U$. 
-
-Suppose we are working in a [[dependent type theory]] with [[judgmental equality]] of [[terms]] $\equiv$. Then $U$ is **judgmentally Shulman univalent** if for all $A:U$ and $B:U$, $\mathrm{idtoequiv}(A, B)$ is a [[judgmentally strict equivalence]]. 
-
-Now, suppose we are working in the framework of [[logic over type theory]], where our [[dependent type theory]] has [[propositional equality]] of [[terms]] $\equiv$, and let $A \cong B$ denote the [[type of propositionally strict equivalences]] between $A$ and $B$. A [[type universe]] $U$ is **propositionally Shulman univalent** if for all elements $A:U$ and $B:U$ there is a [[propositionally strict equivalence]] $\mathrm{ua}:(A =_U B) \cong (A \simeq B)$. 
 
 ### Internal univalence
 
@@ -563,12 +540,6 @@ For more references see _[[homotopy type theory]]_.
 [[!redirects typally univalent universe]]
 [[!redirects typally univalent universes]]
 [[!redirects typal universe extensionality]]
-
-[[!redirects Shulman univalence]]
-[[!redirects Shulman univalent]]
-[[!redirects Shulman univalent universe]]
-[[!redirects Shulman univalent universes]]
-[[!redirects Shulman universe extensionality]]
 
 [[!redirects definitional univalence]]
 
