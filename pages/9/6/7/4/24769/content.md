@@ -6,6 +6,8 @@ There are many principles in mathematics called 'extensionality'; what these pri
 
 * [[function extensionality]] (for functions)
 
+* [[equivalence extensionality]] (for equivalences)
+
 * [[product extensionality]] (for products/pairs)
 
 * [[univalence]]/[[universe extensionality]] (for small types of universes)
