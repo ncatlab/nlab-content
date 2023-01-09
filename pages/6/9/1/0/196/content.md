@@ -154,6 +154,9 @@ Special properties these may have:
 
 * [[anafunction]]
 
+* [[tuple]], [[sequence]], **function**
+
+* [[dependent tuple]], [[dependent sequence]], [[dependent function]]
 
 * [[function set]]
 
