@@ -33,6 +33,10 @@ $$\mathrm{isAnafunc}(R) \coloneqq \prod_{x:A} \exists! y:B.R(x, y)$$
 
 * [[universal quantifier]]
 
+* [[definite description]]
+
+* [[generalized the]]
+
 [[!redirects uniquely quantified]]
 
 [[!redirects uniqueness quantifier]]
