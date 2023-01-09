@@ -35,7 +35,9 @@ $$\frac{\Gamma, n:\mathbb{N} \vdash A(n) \; \mathrm{type} \quad \Gamma, n:\mathb
 Uniqueness rules for dependent sequence types:
 $$\frac{\Gamma, n:\mathbb{N} \vdash A(n) \; \mathrm{type}}{\Gamma, a:(n:\mathbb{N}) \to A(n) \vdash \eta_\Pi(a):a =_{(n:\mathbb{N}) \to A(n)} \lambda(n:\mathbb{N}).a(n)}$$
 
-Dependent sequence types are used in [[strongly predicative mathematics]], where one does not have [[dependent function types]], to construct the [[real numbers]]. 
+Dependent sequence types are used in [[strongly predicative mathematics]], where one does not have [[dependent function types]], to construct the [[real numbers]]. It is also used in defining the [[axiom of countable choice]] in [[dependent type theory]]:
+
+$$\frac{\Gamma, n:\mathbb{N} \vdash A(n) \; \mathrm{type}}{\Gamma, a:(n:\mathbb{N}) \to \left[A(n)\right] \vdash \mathrm{countablechoice}(a):\left[(n:\mathbb{N}) \to A(n)\right]}$$
 
 ## See also
 
@@ -43,7 +45,7 @@ Dependent sequence types are used in [[strongly predicative mathematics]], where
 
 * [[dependent function]]
 
-* [[dependent choice]]
+* [[countable choice]]
 
 [[!redirects dependent sequence]]
 [[!redirects dependent sequences]]
