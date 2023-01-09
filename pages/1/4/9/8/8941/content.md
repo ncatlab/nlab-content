@@ -151,8 +151,7 @@ Journal of Algebra __169__:3 (1994) 874--890 [doi](https://doi.org/10.1006/jabr.
 
 * V. G. Drinfel'd, _Quantum groups_, Proceedings of the International Congress of Mathematicians 1986, Vol. 1, 798--820, AMS 1987, [djvu:1.3M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.djvu), [pdf:2.5M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.pdf)
 
-* David N. Yetter, _Quantum groups and representations of monoidal categories_, 
-Math. Proc. Cambridge Philos. Soc. 108 (1990), no. 2, 261--290 [MR91k:16028](https://www.ams.org/mathscinet-getitem?mr=1074714) [doi](http://dx.doi.org/10.1017/S0305004100069139)
+* David N. Yetter, _Quantum groups and representations of monoidal categories_, Math. Proc. Cambridge Philos. Soc. 108 (1990), no. 2, 261--290 [MR91k:16028](https://www.ams.org/mathscinet-getitem?mr=1074714) [doi](http://dx.doi.org/10.1017/S0305004100069139)
 
 * [[Gabriella Bohm|Gabriella B&#246;hm]], Dragos Stefan, _(Co)cyclic (co)homology of bialgebroids: An approach via (co)monads_, Comm. Math. Phys. 282 (2008), no.1, 239--286, [arxiv/0705.3190](http://arxiv.org/abs/0705.3190); _A categorical approach to cyclic duality_, J. Noncommutative Geometry __6__ (2012), no. 3, 481--538, [arxiv/0910.4622](http://arxiv.org/abs/0910.4622) 
 
@@ -188,6 +187,8 @@ _SAYD modules over Lie--Hopf algebras_, [arXiv:1108.6101](https://arXiv.org/abs/
 * [[Georgia Benkart]], Mariana Pereira, Sarah Witherspoon, _Yetter--Drinfeld modules under cocycle twists_, J. Algebra 324:11 (2010) 2990--3006 [arxiv:0908.1563](https://arxiv.org/abs/0908.1563)
 
 * [[Shahn Majid]], Robert Oeckl, _Twisting of quantum differentials and the Planck scale Hopf algebra_, Commun. Math. Phys. __205__, 617--655 (1999)
+
+* Huixiang Chen, Yinhuo Zhang, _Cocycle deformations and Brauer groups_, Comm. Alg. 35:2 (2007) 399--433 [doi](https://doi.org/10.1080/00927870601052422); arXiv v. Cocycle deformation and Brauer group isomorphisms, [arXiv:math/0505003](https://arxiv.org/abs/math/0505003)
 
 category: algebra
 
