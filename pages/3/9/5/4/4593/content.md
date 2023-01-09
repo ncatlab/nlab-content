@@ -29,7 +29,7 @@ From this definition, one can derive rules for the quantifiers in [[sequent calc
 
 If all of our types have an [[equality predicate]], then we can construct some fancier quantifiers.
 
-Given a predicate $P$ on a type $T$ with equality, the __uniqueness quantification__ of $P$, denoted $\exists!\, x\colon T, P(x)$, may defined in terms of the universal and existential quantifiers as
+Given a predicate $P$ on a type $T$ with equality, the __[[uniqueness quantifier]]__ of $P$, denoted $\exists!\, x\colon T, P(x)$, may defined in terms of the universal and existential quantifiers as
 
 $$ \exists!\, x\colon T, P(x) \;\equiv\; \exists\, x\colon T, P(x) \wedge \forall\, y\colon T, P(y) \Rightarrow (x = y) .$$
 
@@ -125,16 +125,6 @@ A definition of guarded and bounded quantification for the membership relation c
 [[!redirects quantifiers]]
 [[!redirects quantification]]
 [[!redirects quantifications]]
-
-
-[[!redirects uniqueness quantifier]]
-[[!redirects uniqueness quantifiers]]
-[[!redirects uniqueness quantification]]
-[[!redirects uniqueness quantifications]]
-[[!redirects unicity quantifier]]
-[[!redirects unicity quantifiers]]
-[[!redirects unicity quantification]]
-[[!redirects unicity quantifications]]
 
 [[!redirects Lawvere quantifier]]
 [[!redirects Lawvere quantifiers]]
