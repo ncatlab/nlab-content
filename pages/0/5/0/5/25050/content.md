@@ -4,6 +4,8 @@
 
 Since every [[ordered local ring]] $R$ has [[characteristic zero]], the positive integers $\mathbb{Z}_+$ are a subset of $R$, with [[injection]] $i:\mathbb{Z}_+ \hookrightarrow R$. An **Archimedean ordered local ring** is an [[ordered local ring]] which satisfies the [[archimedean property]]: for all elements $a \in R$ and $b \in R$, if $0 \lt a$ and $0 \lt b$, then there exists a positive integer $n \in \mathbb{Z}_+$ such that such that $a \lt i(n) \cdot b$. 
 
+Unlike [[Archimedean ordered fields]], which require arithmetic [[Heyting pretoposes]], Archimedean ordered local rings are definable in any [[arithmetic pretopos]]. 
+
 ## See also
 
 * [[Archimedean ordered field]]
