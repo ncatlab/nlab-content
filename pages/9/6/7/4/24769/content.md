@@ -8,6 +8,8 @@ There are many principles in mathematics called 'extensionality'; what these pri
 
 * [[equivalence extensionality]] (for equivalences)
 
+* [[sequence extensionality]] (for sequences)
+
 * [[product extensionality]] (for products/pairs)
 
 * [[univalence]]/[[universe extensionality]] (for small types of universes)
