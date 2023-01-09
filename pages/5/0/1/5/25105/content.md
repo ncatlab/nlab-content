@@ -92,13 +92,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{t
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, a:A, b:A, p:a =_A b, x:A, w:B(x) \vdash \mathrm{apd}_B(a, b, p, w):\mathrm{ev}(\mathrm{tr}_B(a, b, p), w(a)) =_{B(b)} w(b)}$$ 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, y:B \vdash \ev^{-1}(f, y):A}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, y:B, x:A, u:\mathrm{ev}(f, x) =_B y \vdash \kappa(f, y, x, u):\ev^{-1}(f, y) =_A x}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, y:B \vdash \tau(f, y):\mathrm{ev}(f, \ev^{-1}(f, y)) =_B y}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, y:B, x:A, u:\mathrm{ev}(f, x) =_B y \vdash \eta(f, y, x, u):\mathrm{ev}(\mathrm{tr}_{\mathrm{ev}(f, -) =_B y}(\ev^{-1}(f, y), x, \kappa(f, y, x, u)), \tau(f, y)) =_{\mathrm{ev}(f, x) =_B y} u}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, y:B \vdash \exists !x:A.\ev(f, x) =_B y}$$
 
 #### As a type whose elements are encodings for one-to-one correspondence
 
@@ -111,19 +105,9 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \v
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, w:B \vdash \mathrm{apd}_B(p, w):w(a) =_{B(a), B(b)}^{\mathrm{tr}_B(p)} w(b)}$$ 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \lambda(R, y):A} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \rho(R, x):B}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, x:A \vdash \exists !y:B.x =_{A, B}^R y}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A, u:x =_{A, B}^R y \vdash \lambda_\kappa(R, x, y, u):\lambda(R, y) =_A x}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A, u:x =_{A, B}^R y \vdash \rho_\kappa(R, x, y, u):\rho(R, x) =_B y}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \lambda_\tau(R, y):\lambda(R, y) =_{A, B}^R y}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \rho_\tau(R, x):x =_{A, B}^R \rho(R, x)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, x:A, u:x =_{A, B}^R y \vdash \lambda_\eta(R, y, x, u):\lambda_\tau(R, y) =_{(\lambda(R, y) =_{A, B}^R y), (x =_{A, B}^R y)}^{\mathrm{tr}_{(-) =_{A, B}^R y}(\lambda_\kappa(R, x, y, u))} u}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, y:B, u:x =_{A, B}^R y \vdash \rho_\eta(R, x, y, u):\rho_\tau(R, x) =_{(x =_{A, B}^R \rho(R, x)), (x =_{A, B}^R y)}^{\mathrm{tr}_{x =_{A, B}^R (-)}(\rho_\kappa(R, x, y, u))} u}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, y:B \vdash \exists !x:A.x =_{A, B}^R y}$$
 
 #### As a type whose elements are encodings for spans with contractible fibers
 
