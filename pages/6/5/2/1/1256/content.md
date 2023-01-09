@@ -52,6 +52,13 @@ Coherent logic (including sequents, as above) is the [[internal logic]] of a [[c
 
 * The theory of a [[linear order]] is (seemingly) not coherent if we use the "connectedness" axiom $(x\nless y), (y\nless x) \vdash (x=y)$, which is not coherent since negation is not allowed in coherent formulas.  We can express one outer negation, however, as in the irreflexivity axiom $(x\lt x)\vdash \bot$. Another solution is to use the "trichotomy" axiom $\top \vdash (x=y) \vee (x\lt y) \vee (y\lt x)$ instead, in order to get an axiomatisation of "coherent" linear orderings.
 
+* The theory of a [[strict order]] is coherent, since it doesn't have the connectedness axiom that [[linear orders]] do. The irreflexivity axiom is expressed as $(x\lt x)\vdash \bot$, and the asymmetry axiom is expressed as $(x \lt y) \wedge (y \lt x) \vdash \bot$. 
+
+* Since the theory of a [[local ring]] and a [[strict order]] is coherent, this means that the theory of an [[ordered local ring]] is also coherent, where we have 
+$$(x \lt y) \vee (y \lt x) \vdash \exists z.y \cdot z = 1 + x \cdot z$$ 
+and 
+$$\exists z.x \cdot z = 1 \vdash (0 \lt x) \vee (x \lt 0)$$
+
 ## Properties
 
 Coherent logic has many pleasing properties.
