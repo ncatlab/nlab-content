@@ -19,7 +19,7 @@ In [[dependent type theory]], a _dependent product type_ $\prod_{x\colon A} B(x)
 
 In a [[model]] of the type theory in [[categorical semantics]], this is a [[dependent product]].  In [[set theory]], it is an element of an indexed product.
 
-It includes [[function types]] as the special case when $B$ is not dependent on $A$, and [[product types]] as a special case when $A$ is the type of [[Booleans]].
+It includes [[function types]] as the special case when $B$ is not dependent on $A$, [[product types]] as a special case when $A$ is the type of [[Booleans]], and [[dependent sequence types]] as a special case when $A$ is the [[natural numbers type]]. 
 
 ## Overview
 
@@ -117,6 +117,7 @@ which is precisely the statement that $\mathcal{F}_{A, B}(f)$ is a [[dependent a
 * [[dependent product]]
 * [[dependent sum type]]
 * [[function type]]
+* [[dependent sequence type]]
 
 ## References
 
