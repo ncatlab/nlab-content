@@ -38,6 +38,10 @@ On [[modal homotopy type theory]]:
 
 * {#ChristensenRijke20} [[J. Daniel Christensen]], [[Egbert Rijke]], _Characterizations of modalities and lex modalities_ ([arXiv:2008.03538](https://arxiv.org/abs/2008.03538))
 
+On [[H-spaces]] treated in [[homotopy type theory]]:
+
+* [[Ulrik Buchholtz]], [[J. Daniel Christensen]], Jarl G. Taxerås Flaten, [[Egbert Rijke]], _Central H-spaces and banded types_ ([arXiv:2301.02636](https://arxiv.org/abs/2301.02636))
+
 
 
 ## Related $n$Lab entries
