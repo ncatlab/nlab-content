@@ -59,6 +59,8 @@ $$(x \lt y) \vee (y \lt x) \vdash \exists z.y \cdot z = 1 + x \cdot z$$
 and 
 $$\exists z.x \cdot z = 1 \vdash (0 \lt x) \vee (x \lt 0)$$
 
+* The theory of an [[elementary topos]] is coherent. However, the well-pointedness condition for a [[well-pointed topos]] is not coherent, which means that the theory [[ETCS]] is not coherent. See [[fully formal ETCS]] for more details. 
+
 ## Properties
 
 Coherent logic has many pleasing properties.
