@@ -9,7 +9,7 @@ A __sequence__ is a [[function]] whose [[source|domain]] is a [[subset]] of the 
 
 Sequences may also be indicated by functions $\omega \to X$ where $\omega$ is the first countably infinite [[ordinal]]: the key piece of structure on $\mathbb{N}$ relevant for the study of sequences, particularly in analysis, is the order structure. 
 
-Up to [[bijection]], the only possible [}domains]] are those of the form
+Up to [[bijection]], the only possible [[domains]] are those of the form
 $$ \{i\colon \mathbb{Z} \;|\; 0 \leq i \lt n\} $$
 for $n = 0, 1, 2, \ldots, \infty$; other domains are used for notational convenience.
 
@@ -41,7 +41,7 @@ Infinite sequences are often used in [[topology]], but for topology in general, 
 
 Recall that [[weak countable choice]] is a rather weak version of the [[axiom of choice]] that is accepted even in most schools of [[constructive mathematics]]; it follows separately from both [[excluded middle]] and [[countable choice]].  However, when it fails (as it does in the [[internal language]] of some widely studied [[toposes]], such as the [[topos of sheaves]] over the [[real line]]), then some important results about sequences fail, including many standard results in [[topology]].  In this case, we may want a slight generalisation that we call _sequential nets_.
 
-A __sequential net__ is a [[multi-valued function]] from $\mathbb{N}$ (or a [[decidable subset|decidable]] [[subset]] thereof) to $X$, that is a [[span]] $\mathbb{N} \leftarrow A \rightarrow X$ where the map $A \to \mathbb{N}$ is a [[surjection]] (or has a decidable range).  Note that $A$ inherits the structure of a directed set via $A \to \mathbb{N}$, so that $A \to X$ is a net.  As a net, every sequential net is equivalent (in the sense of corresponding to the same [[filter]]) to some sequence, if you assume WCC.  Without WCC, however, this equivalence fails.
+A __[[sequential net]]__ is a [[multi-valued function]] from $\mathbb{N}$ (or a [[decidable subset|decidable]] [[subset]] thereof) to $X$, that is a [[span]] $\mathbb{N} \leftarrow A \rightarrow X$ where the map $A \to \mathbb{N}$ is a [[surjection]] (or has a decidable range).  Note that $A$ inherits the structure of a directed set via $A \to \mathbb{N}$, so that $A \to X$ is a net.  As a net, every sequential net is equivalent (in the sense of corresponding to the same [[filter]]) to some sequence, if you assume WCC.  Without WCC, however, this equivalence fails.
 
 (Using a multi-valued function here is a special case of an alternative definition of [[net]] that uses only [[partially ordered]] directed sets; see [[net]].  In some [[foundations of mathematics]], we can get the same result by defining a sequential net to be a __presequence__: a [[prefunction]], which is like a function but need not preserve [[equality]], from $\mathbb{N}$ or a decidable subset thereof.)
 
@@ -59,6 +59,10 @@ In [[functional analysis]], one considers [[topological vector spaces]] of infin
 
 * [[sequence algebra]]
 
+* [[dependent sequence]]
+
+* [[sequential net]]
+
 Not all that related, but similar sounding:
 
 * [[sequential limit]]
@@ -68,15 +72,11 @@ Not all that related, but similar sounding:
 [[!redirects infinite sequence]]
 [[!redirects infinite sequences]]
 
-[[!redirects sequential net]]
-[[!redirects sequential nets]]
-
 [[!redirects presequence]]
 [[!redirects presequences]]
 
 [[!redirects pre-sequence]]
 [[!redirects pre-sequences]]
-
 
 [[!redirects subsequence]]
 [[!redirects subsequences]]
