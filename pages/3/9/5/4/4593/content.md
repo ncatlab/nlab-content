@@ -98,6 +98,8 @@ In classical mathematics, at least, formulas with unbounded quantifiers can be c
 
 * [[universal quantifier]], [[dependent product]]
 
+* [[uniqueness quantifier]]
+
 ## Related concepts
  {#RelatedConcepts}
 
