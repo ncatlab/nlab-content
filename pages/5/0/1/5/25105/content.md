@@ -126,29 +126,9 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \v
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, w:B \vdash \eta_B(p, w):h(\mathrm{tr}_B(p), \alpha_B(p, w)) =_{B(b)} w(b)}$$ 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash g^{-1}(R, x):C_{A, B}(R)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \eta_g(R, x):\exists!z:C_{A, B}(R).g(R, z) =_A x}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash h^{-1}(R, y):C_{A, B}(R)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash g_\tau(R, x):g(R, g^{-1}(R, x)) =_A x}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash h_\tau(R, y):h(R, h^{-1}(R, y)) =_A y}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, z:C_{A, B}(R), u:g(R, z) =_A x \vdash g_\kappa(R, x, z, u):g^{-1}(R, x) =_{C_{A, B}(R)} z}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, z:C_{A, B}(R) u:h(R, z) =_A y \vdash h_\kappa(R, y, z, u):h^{-1}(R, y) =_{C_{A, B}(R)} z}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, z:C_{A, B}(R), u:g(R, z) =_A x \vdash \alpha_g(R, x, z, u):C_{g(R, g^{-1}(R, x)) =_A x, g(R, z) =_A x}(\mathrm{tr}_{g(R, -) =_A x}(g_\kappa(R, x, z, u)))}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, z:C_{A, B}(R), u:g(R, z) =_A x \vdash \gamma_g(R, x, z, u):g(\mathrm{tr}_{g(R, -) =_A x}(g_\kappa(R, x, z, u)), \alpha_g(R, x, z, u)) =_{g(R, g^{-1}(R, x)) =_A x} g_\tau(R, x)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, z:C_{A, B}(R), u:g(R, z) =_A x \vdash \eta_g(R, x, z, u):h(\mathrm{tr}_{g(R, -) =_A x}(g_\kappa(R, x, z, u)), \alpha_g(R, x, z, u)) =_{g(R, z) =_A x} u}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, z:C_{A, B}(R), u:h(R, z) =_B y \vdash \alpha_h(R, y, z, u):C_{h(R, h^{-1}(R, y)) =_B y, h(R, z) =_B y}(\mathrm{tr}_{h(R, -) =_B y}(h_\kappa(R, y, z, u)))}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, z:C_{A, B}(R), u:h(R, z) =_B y \vdash \gamma_h(R, y, z, u):g(\mathrm{tr}_{h(R, -) =_B y}(h_\kappa(R, y, z, u)), \alpha_h(R, y, z, u)) =_{h(R, h^{-1}(R, y)) =_B y} h_\tau(R, y)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B, z:C_{A, B}(R), u:h(R, z) =_B y \vdash \eta_h(R, y, z, u):h(\mathrm{tr}_{h(R, -) =_B y}(h_\kappa(R, y, z, u)), \alpha_h(R, y, z, u)) =_{h(R, z) =_B y} u}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \eta_h(R, y):\exists!z:C_{A, B}(R).h(R, z) =_B y}$$
 
 #### Coinductive definition
 
