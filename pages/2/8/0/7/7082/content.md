@@ -32,12 +32,12 @@ In [[point-set topology]] and generally in the context of [[homotopical category
 ## Definitions
  {#Definition}
 
-In [[dependent type theory]], a [[type]] $A$ is a [[contractible type]] if it comes with an element $a:A$ and a family of identities $x:A \vdash c(x):a =_A x$ indicating that $a$ is a [[center of contraction]]. In dependent type theory with [[identity types]] and [[dependent sum types]], an **equivalence** between types $A$ and $B$ could be defined as
+In [[dependent type theory]], a [[type]] $A$ is a [[contractible type]] if it comes with an element $a:A$ and a family of identities $x:A \vdash c(x):a =_A x$ indicating that $a$ is a [[center of contraction]]. A type family $x:A \vdash B(x)$ is [[uniquely quantified]] if the [[dependent sum type]] $\sum_{x:A} B(x)$ is a [[contractible type]]. In dependent type theory with [[identity types]] and [[dependent sum types]], an **equivalence** between types $A$ and $B$ could be defined as
 
-* a [[function]] with contractible fibers, a family of elements $x:A \vdash f(x):B$ for which the dependent type $\sum_{x:A} f(x) =_B y$ is a [[contractible type]] for all $y:B$
-* a [[span]] $(C; z:C \vdash g(z):A; z:C \vdash h(z):B)$ for which the dependent type $\sum_{z:C} g(z) =_A x$ is a [[contractible type]] for all $x:A$ and the dependent type $\sum_{z:C} h(z) =_B y$ is a [[contractible type]] for all $y:B$
-* a [[multivalued partial function]] $(x:A \vdash P(x); x:A, p:P(x) \vdash f(x, p):B)$ for which the dependent type $P(x)$ is a [[contractible type]] for all $x:A$ and the dependent type $\sum_{x:A} \sum_{p:P(x)} f(x, p) =_B y$ is a [[contractible type]] for all $y:B$
-* a [[one-to-one correspondence]], a [[correspondence]] $x:A, y:B \vdash R(x, y)$ for which the dependent type $\sum_{y:B} R(x, y)$ is a [[contractible type]] for all $x:A$ and the dependent type $\sum_{x:A} R(x, y)$ is a [[contractible type]] for all $y:B$
+* a [[function]] with contractible fibers, a family of elements $x:A \vdash f(x):B$ for which the type family $x:A \vdash f(x) =_B y$ is [[uniquely quantified]] for all $y:B$
+* a [[span]] $(C; z:C \vdash g(z):A; z:C \vdash h(z):B)$ for which the type family $z:C \vdash g(z) =_A x$ is [[uniquely quantified]] for all $x:A$ and the type family $z:C \vdash h(z) =_B y$ is [[uniquely quantified]] for all $y:B$
+* a [[multivalued partial function]] $(x:A \vdash P(x); x:A, p:P(x) \vdash f(x, p):B)$ for which the dependent type $P(x)$ is a [[contractible type]] for all $x:A$ and the type family $x:A \vdash \sum_{p:P(x)} f(x, p) =_B y$ is [[uniquely quantified]] for all $y:B$
+* a [[one-to-one correspondence]], a [[correspondence]] $x:A, y:B \vdash R(x, y)$ for which the type family $y:B \vdash R(x, y)$ is [[uniquely quantified]] for all $x:A$ and the type family $x:A \vdash R(x, y)$ is [[uniquely quantified]] for all $y:B$
 * an element of the [[equivalence type]] $f:A \simeq B$, in dependent type theories with [[equivalence types]] given directly by rules. 
 * a *bi-invertible function* or *homotopy isomorphism*, a family of elements $x:A \vdash f(x):B$ with families of elements $y:B \vdash g(y):A$ and $y:B \vdash h(y):A$ and families of identities $x:A \vdash G(x):g(f(x)) =_A x$ and $y:B \vdash H(y):f(h(y)) =_B y$. 
 * a *coherently invertible function* or *half adjoint equivalence*, a family of elements $x:A \vdash f(x):B$ with a family of elements $y:B \vdash g(y):A$ and families of identities $x:A \vdash G(x):g(f(x)) =_A x$; $y:B \vdash H(y):f(g(y)) =_B y$; and $x:A \vdash K(x):\mathrm{ap}_f(H(x)) =_{g(f(x)) =_A x} G(f(x))$. 
@@ -57,12 +57,15 @@ This is only true for the evident type of homotopy equivalences if we assume [[a
 
 \linebreak
 
-In dependent type theories with [[dependent function types]], one could define the $\mathrm{isContr}$ type family on a type $A$:
-$$\mathrm{isContr}(A) \coloneqq \sum_{x:A} \prod_{y:A} x =_A y$$ 
+In dependent type theories with [[dependent product types]], the [[isContr]] modality is defined as
+$$\mathrm{isContr}(A) \coloneqq \sum_{x:A} \prod_{y:A} x =_A y$$
+and the [[uniqueness quantifier]] on a type family $x:A \vdash B(x)$, is defined as 
+$$\exists!x:A.B(x) \coloneqq \mathrm{isContr}\left(\sum_{x:A} B(x)\right)$$
+
 One could define $\mathrm{isEquiv}$ type family and the [[equivalence type]] for the first and fifth definition:
 
 * We define the property that a function $f:A \to B$ is an equivalence as the property that the function has contractible fibers:
-$$f:A \to B \vdash \mathrm{isEquiv}(f) \coloneqq \prod_{y:B} \mathrm{isContr}\left(\sum_{x:A} f(x) =_B y\right)$$
+$$f:A \to B \vdash \mathrm{isEquiv}(f) \coloneqq \prod_{y:B} \exists!x:A.f(x) =_B y$$
   and the [[equivalence type]] for the first definition: 
 $$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{isEquiv}(f)$$
 
@@ -76,21 +79,21 @@ If the dependent type theory came with a [[Tarski universe]] $(U, \mathrm{El})$,
 * The type of $U$-small [[spans]] between $A$ and $B$ is the type
 $$\mathrm{Span}_U(A, B) \coloneqq \sum_{C:U} (\mathrm{El}(C) \to A) \times (\mathrm{El}(C) \to B)$$
 We define the property that a $U$-small span $f:\mathrm{Span}_U(A, B)$ is an equivalence as the property that both functions $\pi_1(\pi_2(f)):\mathrm{El}(C) \to A$ and $\pi_2(\pi_2(f)):\mathrm{El}(C) \to B$ have contractible fibers:
-$$f:\mathrm{Span}_U(A, B) \vdash \mathrm{isEquiv}_U(f) \coloneqq \left(\prod_{x:A} \mathrm{isContr}\left(\sum_{z:\mathrm{El}(C)} \pi_1(\pi_2(f))(z) =_A x\right)\right) \times \left(\prod_{y:B} \mathrm{isContr}\left(\sum_{z:\mathrm{El}(C)} \pi_2(\pi_2(f))(z) =_B y\right)\right)$$
+$$f:\mathrm{Span}_U(A, B) \vdash \mathrm{isEquiv}_U(f) \coloneqq \left(\prod_{x:A} \exists!z:\mathrm{El}(C).\pi_1(\pi_2(f))(z) =_A x\right) \times \left(\prod_{y:B} \exists!z:\mathrm{El}(C).\pi_2(\pi_2(f))(z) =_B y\right)$$
 The locally $U$-small [[equivalence type]] is defined as
 $$A \simeq_U B \coloneqq \sum_{f:\mathrm{Span}_U(A, B)} \mathrm{isEquiv}(f)$$
 
 * The type of $U$-small [[multivalued partial functions]] between $A$ and $B$ is the type
 $$\mathrm{MultiPartFunc}_U(A, B) \coloneqq \sum_{P:A \to U} \left(\sum_{x:A} \mathrm{El}(P(x))\right) \to B$$
 We define the property that a $U$-small multivalued partial function $f:\mathrm{MultiPartFunc}_U(A, B)$ is an equivalence as the property that the dependent type $\mathrm{El}(\pi_1(f)(x))$ is a [[contractible type]] for all $x:A$ and the function $\pi_2(f)$ has contractible fibers for all $y:B$:
-$$f:\mathrm{MultiPartFunc}_U(A, B) \vdash \mathrm{isEquiv}_U(f) \coloneqq \left(\prod_{x:A} \mathrm{isContr}\left(\mathrm{El}(\pi_1(f)(x))\right)\right) \times \left(\prod_{y:B} \mathrm{isContr}\left(\sum_{x:A} \sum_{p:\mathrm{El}(\pi_1(f)(x))} \pi_2(f)(x, p) =_B y\right)\right)$$
+$$f:\mathrm{MultiPartFunc}_U(A, B) \vdash \mathrm{isEquiv}_U(f) \coloneqq \left(\prod_{x:A} \mathrm{isContr}\left(\mathrm{El}(\pi_1(f)(x))\right)\right) \times \left(\prod_{y:B} \exists!x:A.\sum_{p:\mathrm{El}(\pi_1(f)(x))} \pi_2(f)(x, p) =_B y\right)$$
 The locally $U$-small [[equivalence type]] is defined as
 $$A \simeq_U B \coloneqq \sum_{f:\mathrm{MultiPartFunc}_U(A, B)} \mathrm{isEquiv}(f)$$
 
 * The type of $U$-small [[correspondences]] between $A$ and $B$ is the type 
 $$\mathrm{Corr}_U(A, B) \coloneqq A \times B \to U$$
-We define the property that a $U$-small correspondence $R:\mathrm{Corr}_U(A, B)$ is an equivalence as being a [[one-to-one correspondence]], where the dependent type $\sum_{y:B} \mathrm{El}(R(x,y))$ is a [[contractible type]] for all $x:A$ and the dependent type $\sum_{x:A} \mathrm{El}(R(x,y))$ is a [[contractible type]] for all $y:B$:
-$$R:\mathrm{Corr}_U(A, B) \vdash \mathrm{isEquiv}_U(R) \coloneqq \left(\prod_{x:A} \mathrm{isContr}\left(\sum_{y:B} \mathrm{El}(R(x,y))\right)\right) \times \left(\prod_{y:B} \mathrm{isContr}\left(\sum_{x:A} \mathrm{El}(R(x,y))\right)\right)$$
+We define the property that a $U$-small correspondence $R:\mathrm{Corr}_U(A, B)$ is an equivalence as being a [[one-to-one correspondence]]:
+$$R:\mathrm{Corr}_U(A, B) \vdash \mathrm{isEquiv}_U(R) \coloneqq \left(\prod_{x:A} \exists!y:B.\mathrm{El}(R(x,y))\right) \times \left(\prod_{y:B} \exists!x:A.\mathrm{El}(R(x,y))\right)$$
 The locally $U$-small [[equivalence type]] is defined as
 $$A \simeq_U B \coloneqq \sum_{f:\mathrm{Corr}_U(A, B)} \mathrm{isEquiv}(f)$$
 
@@ -124,24 +127,24 @@ Most of the following claims may be found proven in [UFP13, §2.4 & §4](#UFP13)
 
 We define an [[anafunction]] to be a type family $R :A \times B \to \mathcal{U}$ with a witness
 
-$$p:\prod_{a:A} \mathrm{isContr}\left(\sum_{b:B} R(a,b)\right)$$
+$$p:\prod_{a:A} \exists!b:B.R(a,b)$$
 
 The [[principle of unique choice]] holds in [[dependent type theory]]. This means that given any anafunction $R :A \times B \to \mathcal{U}$, there is function $f:A \to B$. Similarly, for any function $f:A \to B$, there is an anafunction $R :A \times B \to \mathcal{U}$ defined by $R(a,b) \coloneqq f(a) =_B b$. 
 
 A function with contractible fibers comes with a witness 
 
-$$q:\prod_{b:B} \mathrm{isContr}\left(\sum_{a:A} f(a) =_A b\right)$$
+$$q:\prod_{b:B} \exists!a:A.f(a) =_A b$$
 
 while an one-to-one correspondence is an anafunction which comes with a witness 
 
-$$q:\prod_{b:B} \mathrm{isContr}\left(\sum_{a:A} R(a, b)\right)$$
+$$q:\prod_{b:B} \exists!a:A.R(a, b)$$
 
 Since we established that the types $f(a) =_A b$ and $R(a, b)$ are the same for function $f$ and anafunction $R$, functions with contractible fibers are equivalent to one-to-one correspondences. 
 
 ### The issue with two-sided quasi-inverses
  {#TheIssueWithQuasiInverses}
 
-The possibly most evident definition of equivalences as two-sided [[quasi-inverse functions]] (Def. \ref{FunctionWithTwoSidedInverse}) suffers from the drawback that the type 
+The definition of equivalences as two-sided [[quasi-inverse functions]] (Def. \ref{FunctionWithTwoSidedInverse}) suffers from the drawback that the type 
 
 $$
   f \colon A \to B
