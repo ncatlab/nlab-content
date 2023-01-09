@@ -101,7 +101,7 @@ In an interview ([Lawvere 07](William+Lawvere#Interview07)) not long after G&#24
 
 by saying (reproduced in [Lawvere 69 reprint, p. 2](#Lawvere69)):
 
-> "In 'Diagonal arguments and Cartesian closed categories' ([Lawvere 69](#Lawvere69)) we demystified the incompleteness theorem of G&#246;del and the truth-definition theory of Tarski by showing that both are consequences of some very simple algebra in the Cartesian-closed setting. It was always hard for many to comprehend how Cantor's mathematical theorem could be re-christened as a "paradox" by Russell and how G&#246;del's theorem could be so often declared to be the most significant result of the 20th century. There was always the suspicion among scientists that such extra-mathematical publicity movements concealed an agenda for re-establishing belief as a substitute for science. Now, one hundred years after G&#246;del's birth, the organized attempts to harness his great mathematical work to such an agenda have become explicit.
+> In 'Diagonal arguments and Cartesian closed categories' ([Lawvere 69](#Lawvere69)) we demystified the incompleteness theorem of G&#246;del and the truth-definition theory of Tarski by showing that both are consequences of some very simple algebra in the Cartesian-closed setting. It was always hard for many to comprehend how Cantor's mathematical theorem could be re-christened as a "paradox" by Russell and how G&#246;del's theorem could be so often declared to be the most significant result of the 20th century. There was always the suspicion among scientists that such extra-mathematical publicity movements concealed an agenda for re-establishing belief as a substitute for science. Now, one hundred years after G&#246;del's birth, the organized attempts to harness his great mathematical work to such an agenda have become explicit.
 
 ## Related pages 
 
@@ -121,22 +121,24 @@ by saying (reproduced in [Lawvere 69 reprint, p. 2](#Lawvere69)):
 
 * [[Löb's theorem]]
 
+
 ## References
+ {#References}
 
-The original article is
+The original article:
 
-* {#Lawvere69} [[William Lawvere]], _Diagonal Arguments and Cartesian Closed Categories_, Lecture Notes in Mathematics, 92 (1969), 134-145 ([TAC](http://tac.mta.ca/tac/reprints/articles/15/tr15abs.html))
+* {#Lawvere69} [[William Lawvere]], _Diagonal Arguments and Cartesian Closed Categories_, Lecture Notes in Mathematics, **92** (1969) 134-145 &lbrack;[tac:15](http://tac.mta.ca/tac/reprints/articles/15/tr15abs.html)&rbrack;
 
-A review and further development is in
+Review and further development:
 
-* {#Yanofsky03} [[Noson Yanofsky]], _A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points_, ([arXiv:math/0305282](http://arxiv.org/abs/math/0305282))
+* {#Yanofsky03} [[Noson Yanofsky]], *A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points*, The Bulletin of Symbolic Logic **9** 3 (2003) 362-386 &lbrack;[arXiv:math/0305282](http://arxiv.org/abs/math/0305282), [jstor:3109884](https://www.jstor.org/stable/3109884)&rbrack;
 
 
-Expositions include
+Exposition:
 
 * [[Andrej Bauer]], _On a proof of Cantor's theorem_ ([web](http://math.andrej.com/2007/04/08/on-a-proof-of-cantors-theorem/))
 
-Other references
+Formalization in [[Agda]]
 
 * {#Escardo18} [[Martin Escardo]], _On Lawvere's Fixed Point Theorem_ (2018) &lbrack;[agda development](https://www.cs.bham.ac.uk/~mhe/agda-new/LawvereFPT.html)&rbrack;
  
