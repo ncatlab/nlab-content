@@ -15,7 +15,7 @@
 
 ## Definition
 
-A **$\Pi W$-pretopos** is a [[Π-pretopos]] with all [[W-types]].
+A **$\Pi W$-pretopos** is a [[Π-pretopos]] with all [[W-types]]. 
 
 ## Examples
  {#Examples}
@@ -43,9 +43,15 @@ which became one chapter in
 * [[Univalent Foundations Project]], _[[Homotopy Type Theory – Univalent Foundations of Mathematics]]_
 
 
+[[!redirects arithmetic Π-pretopos]]
+[[!redirects arithmetic Π-pretopoi]]
+[[!redirects arithmetic Π-pretoposes]]
+[[!redirects arithmetic Pi-pretopos]]
+[[!redirects arithmetic Pi-pretoposes]]
+[[!redirects arithmetic Pi-pretopoi]]
 
 [[!redirects ΠW-pretopos]]
-[[!redirects ?W-pretopoi]]
+[[!redirects ΠW-pretopoi]]
 [[!redirects ΠW-pretoposes]]
 [[!redirects Pi-W-pretopos]]
 [[!redirects Pi-W-pretoposes]]
