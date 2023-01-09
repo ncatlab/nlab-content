@@ -64,13 +64,18 @@ An infinitary pretopos (perhaps with [[well-powered category|well-poweredness]] 
 of [[compact Hausdorff spaces]] ([MarraReggio](#MarraReggio)).
 
 * In [[dependent type theory]], a [[univalent universe]] where every type in the universe satisfies [[axiom K]] and is closed under the [[empty type]], [[unit type]], [[sum types]], [[dependent sum types]], [[product types]], [[propositional truncations]], and [[quotient sets]] is a pretopos. 
+  * the universe becomes a W-pretopos if it is closed under a [[natural numbers type]]
+  * the universe becomes a Heyting pretopos if the universe is closed under [[dependent product types]] for families of [[mere propositions]], or equivalently, if it is closed under types of [[embeddings]]
+  * the universe becomes a Boolean pretopos if it is a Heyting pretopos and additionally every proposition satisfies [[excluded middle]]
+  * the universe becomes a Pi-pretopos if it the universe is closed under all [[dependent product types]], or equivalently, if the universe is closed under [[function types]]
+  * the universe becomes an elementary topos if it is a Pi-pretopos and has a [[type of all propositions]]
+  * the universe becomes an Boolean topos if it is a Boolean Pi-pretopos
 
 ## Properties
 
 ### Internal logic and mathematics in pretopoi
 
 Like any coherent (or Heyting) category, a (Heyting) pretopos has an [[internal logic]].  Extensivity and exactness make a Heyting pretopos a very set-like category.  One can say imprecisely that it has "all the good first-order properties of a [[topos]]", meaning not that it has those properties that can be expressed in elementary terms (which is false) but that it has those properties that (unlike exponential and power objects) correspond to first-order reasoning in ordinary mathematics.  Therefore, pretoposes (especially Heyting, $\Pi$, and/or $W$ ones) are related to predicative constructive mathematics in a way similar to how toposes are related to non-predicative constructive mathematics.
-
 
 ### Colimits
 
