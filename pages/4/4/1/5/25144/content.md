@@ -17,8 +17,12 @@ The first three definitions are interdefinable with each other in [[dependent ty
 
 ## See also
 
-* [[function]]
+* [[tuple]], [[sequence]], [[function]]
+
+* [[dependent tuple]], [[dependent sequence]], **dependent function**
+
 * [[dependent function type]]
+
 * [[dependent anafunction]]
 
 [[!redirects dependent function]]
