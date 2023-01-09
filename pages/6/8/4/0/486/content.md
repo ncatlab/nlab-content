@@ -25,15 +25,19 @@
 
 ### General
 
-A __pretopos__ is a [[category]] which is both [[exact category|exact]] and [[extensive category|extensive]].  (See [[familial regularity and exactness]] for why extensivity and exactness deserve to be considered together.)  This implies that it is a [[coherent category]].
+A __pretopos__ is a [[category]] which is both [[exact category|exact]] and [[extensive category|extensive]].  (See [[familial regularity and exactness]] for why extensivity and exactness deserve to be considered together.)  This implies that it is a [[coherent category]]. 
+
+Pretoposes are suitable as frameworks for [[finite mathematics|finitist]] [[predicative mathematics]], respectively with [[coherent logic]].
 
 Frequently one is especially interested in pretoposes having additional properties, such as:
 
 * A __Heyting pretopos__ is a pretopos which is also a [[Heyting category]]; a __Boolean pretopos__ is a pretopos which is also a [[Boolean category]].  These are suitable as frameworks for [[finite mathematics|finitist]] [[predicative mathematics]], respectively with [[intuitionistic logic|intuitionistic]] or [[classical logic|classical]] logic.
 
+* A __pretopos with choice__ is a pretopos that satisfies the [[axiom of choice]] (that every [[epimorphism]] is [[split epic|split]]). Every pretopos with choice is automatically boolean. 
+
 * A __[[Π-pretopos]]__ is a pretopos which is also a [[locally cartesian closed category]].  (A $\Pi$-pretopos is automatically a Heyting pretopos.)  These are suitable as frameworks for finitist [[constructive mathematics]] which is 'weakly predicative'.
 
-* A __$W$-pretopos__ is a pretopos which has (locally) [[W-types]] ([[initial algebra|initial]] [[algebra for an endofunctor|algebras]] for [[polynomial endofunctors]]), most famously a [[natural numbers object]].  (Here, we take any [[exponentiable morphism]] to define a polynomial endofunctor.  This paragraph is original to this page and not in the literature; it may not be the best definition.)  Heyting $W$-pretoposes and Boolean $W$-pretoposes are suitable as frameworks for non-finitist but strongly predicative mathematics (with intuitionistic and classical logic, respectively).
+* A __$W$-pretopos__ is a pretopos which has (locally) [[W-types]] ([[initial algebra|initial]] [[algebra for an endofunctor|algebras]] for [[polynomial endofunctors]]), most famously a [[natural numbers object]].  (Here, we take any [[exponentiable morphism]] to define a polynomial endofunctor.  This paragraph is original to this page and not in the literature; it may not be the best definition.) $W$-pretoposes are suitable as frameworks for non-finitist but strongly predicative mathematics with [[coherent logic]], while Heyting $W$-pretoposes and Boolean $W$-pretoposes are suitable as frameworks for non-finitist but strongly predicative mathematics with intuitionistic and classical logic, respectively.
 
 * A __[[ΠW-pretopos]]__ is a topos that is both a $\Pi$-pretopos and a $W$-pretopos.  (Now every morphism defines a polynomial endofunctor, since every morphism is exponentiable.)  These are suitable as frameworks for weakly predicative constructive mathematics that is not finitist.
 
@@ -45,7 +49,6 @@ Frequently one is especially interested in pretoposes having additional properti
 
 * A __topos with choice__ is a topos that satisfies the [[axiom of choice]] (that every [[epimorphism]] is [[split epic|split]]).  Every topos with choice is automatically boolean, so $W$-toposes with choice are suitable as a framework for full classical mathematics.  (In fact, a [[well-pointed category|well-pointed]] $W$-topos with choice is precisely a model of [[ETCS]].)
 
-
 ### Infinitary pretoposes
 {#infinitary}
 
@@ -55,10 +58,12 @@ An infinitary pretopos (perhaps with [[well-powered category|well-poweredness]] 
 
 ## Examples
 
-Of course, any [[topos]] is a [[pretopos]], so any example there is an example of a [[pretopos]].
+* Of course, any [[topos]] is a [[pretopos]], so any example there is an example of a [[pretopos]].
 
-An example of a pretopos that is not a [[topos]] is the [[category]]
+* An example of a pretopos that is not a [[topos]] is the [[category]]
 of [[compact Hausdorff spaces]] ([MarraReggio](#MarraReggio)).
+
+* In [[dependent type theory]], a [[univalent universe]] where every type in the universe satisfies [[axiom K]] and is closed under the [[empty type]], [[unit type]], [[sum types]], [[dependent sum types]], [[product types]], [[propositional truncations]], and [[quotient sets]] is a pretopos. 
 
 ## Properties
 
