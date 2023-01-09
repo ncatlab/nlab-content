@@ -72,3 +72,5 @@ The implication countable choice $\Rightarrow$ countable union theorem cannot be
 * _Countable Unions And The Axiom Of Countable Choice_, [MathOverflow discussion](https://mathoverflow.net/questions/74743/countable-unions-and-the-axiom-of-countable-choice)
 
 [[!redirects countable union of countable sets is countable]]
+[[!redirects countable union theorem]]
+[[!redirects countable union axiom]]
