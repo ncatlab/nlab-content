@@ -45,11 +45,30 @@ $$V^C(F, G) = \int_c V(F(c), G(c))$$
 
 A _strong form_ of the enriched Yoneda lemma specifies a $V$-[[natural isomorphism]]
 
-$$V^C(\hom_C(c, -), F) \cong F(c).$$ 
+$$V^C(\hom_C(d, -), F) = \int_c V(\hom_C(d,c),F(c)) \cong F(d).$$ 
 
 This implies the weak form by applying the functor $\hom(I, -): V \to Set$. 
 
+### Density form
+
+If $V$ is also (small-)cocomplete, there is an equivalent dual formulation of the enriched Yondeda lemma as a $V$-[[natural isomorphism]]
+$$\int^c \hom_C(c,d) \otimes F(c) \cong F(d)$$
+induced by the morphisms
+$$\hom_C(c,d) \otimes F(c) \to F(d)$$
+adjoint to $F_{c,d}$.
+This version is sometimes called the **density theorem** and sometimes simply called the enriched Yoneda lemma.
+
+### Dual forms
+
+For an [[enriched presheaf]] $H: C^{op} \to V$ there are dual forms obtained by replacing $C$ above with $C^{op}$.
+These are
+$$ \int_c V(\hom_C(c,d),H(c)) \cong H(d) $$
+and
+$$ \int^c \hom_C(d,c) \otimes H(c) \cong H(d). $$
+
 ## References 
+
+* {#Day70} [[Brian Day]], _On closed categories of functors_, Reports of the Midwest Category Seminar IV, Lecture Notes in Mathematics Vol. 137. Springer-Verlag, 1970, pp 1-38 ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/DayReport.pdf))
 
 Textbook accounts include
 
@@ -57,6 +76,9 @@ Textbook accounts include
 
 * {#Borceux94} [[Francis Borceux]], theorem 6.3.5 of _[[Handbook of Categorical Algebra]]_, Volume 2, Cambridge University Press (1994)
 
+* [[Niles Johnson]], [[Donald Yau]], _Bimonoidal Categories, $E_n$-Monoidal Categories, and Algebraic K-Theory_ ([three volume book](https://nilesjohnson.net/En-monoidal.html), Section III.3.7.
+
+* [[Fosco Loregian]], _Coend calculus_, Cambridge University Press 2021 ([arXiv:1501.02503](http://arxiv.org/abs/1501.02503), [doi:10.1017/9781108778657]( https://doi.org/10.1017/9781108778657), ISBN:9781108778657), discusses the Set-enriched versions of the Yoneda lemma in Section 2.2, where the density forms are called  the **ninja Yoneda lemma**.
 
 Generalizations to the case that the enriching monoidal category is not [[closed monoidal category|closed]] or [[symmetric monoidal category|symmetric]] (using [[skew-symmetric category|skew-symmetric categories]] or [[tensored category|tensored categories]]) can be found in 
 
