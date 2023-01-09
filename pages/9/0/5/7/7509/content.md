@@ -155,6 +155,30 @@ Also just as for [[product types]], in order to recover the important *dependent
 
 One might expect that in "[[dependent linear type theory]]" the positive and negative dependent sums would become different.  However, the meaning of the quoted phrase is unclear.
 
+## Quantification in dependent type theory
+
+Given a family of types $x:A \vdash B(x)$, the [[existential quantifier]] is defined as the [[bracket type]] of the dependent sum type
+
+$$\exists x:A.B(x) \coloneqq \left[\sum_{x:A} B(x)\right]$$
+
+The [[uniqueness quantifier]] is defined as the [[isContr]] [[modality]] of the dependent sum type
+
+$$\exists! x:A.B(x) \coloneqq \mathrm{isContr}\left(\sum_{x:A} B(x)\right)$$
+
+There is also a quantifier which states that $B$ holds for at most one element $x:A$, defined by the [[isProp]] [[modality]] of the dependent sum type:
+$$\mathrm{isProp}\left(\sum_{x:A} B(x)\right)$$
+In each of the last two cases, one could prove that each dependent type $B(x)$ has to be a [[mere proposition]]. 
+
+Given a natural number $n:\mathbb{N}$ and given a family of types $x:A \vdash B(x)$, we can similarly write down [[quantifiers]] to say that
+
+* $B$ holds for exactly $n$ elements:
+$$\left[\left(\sum_{x:A} \left[B(x)\right]\right) \simeq \mathrm{Fin}(n)\right]$$
+* $B$ holds for at most $n$ elements: 
+$$\left[\left(\sum_{x:A} \left[B(x)\right]\right) \hookrightarrow \mathrm{Fin}(n)\right]$$
+* $B$ holds for at least $n$ elements: 
+$$\left[\mathrm{Fin}(n) \hookrightarrow \left(\sum_{x:A} \left[B(x)\right]\right)\right]$$
+where $A \simeq B$ is the [[equivalence type]] between $A$ and $B$, $A \hookrightarrow B$ is the type of [[embeddings]] between $A$ and $B$, and $\mathrm{Fin}(n)$ is the [[finite set]] with $n$ elements. 
+
 ## Categorical interpretation
 
 Under [[categorical semantics]], a dependent type $x\colon A \vdash B(x)\colon Type$ corresponds to a [[fibration]] or [[display map]] $B\to A$.  In this case, the dependent sum is just the [[object]] $B$.  This requires the dependent sum type to satisfy both $\beta$- and $\eta$-conversion.
