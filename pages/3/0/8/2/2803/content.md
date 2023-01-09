@@ -81,7 +81,7 @@ An account of [[Morita equivalence]] as a corollary of the Yoneda lemma for bica
 The stricter case of 2-categories is detailed in
 
 * Jonas Hedman, _2-Categories and Yoneda lemma_ ([pdf](http://www.diva-portal.org/smash/get/diva2:1064822/FULLTEXT01.pdf))
-
+* Max Kelly, _Basic Concepts of Enriched Category Theory_ ([TAC](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
 [[!redirects bicategorical Yoneda lemma]]
 [[!redirects 2-Yoneda lemma]]
