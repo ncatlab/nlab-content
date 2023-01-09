@@ -228,6 +228,9 @@ See also
 [[!redirects universe in type theory]]
 [[!redirects universes in type theory]]
 
+[[!redirects universe type]]
+[[!redirects universe types]]
+
 [[!redirects hierarchy of types]]
 
 [[!redirects Type]]
