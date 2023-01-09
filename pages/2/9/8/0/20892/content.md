@@ -133,6 +133,7 @@ and specifically in relation, under [[AdS2/CFT1]], to [[Jackiw-Teitelboim gravit
 
 * [[Andreas Blommaert]], [[Thomas Mertens]], [[Henri Verschelde]], _Fine Structure of Jackiw-Teitelboim Quantum Gravity_, JHEP 1909 (2019) 066 ([arXiv:1812.00918](https://arxiv.org/abs/1812.00918))
 
+* [[Henry W. Lin]], *The bulk Hilbert space of double scaled SYK*, J. High Energ. Phys. **2022** 60 (2022) $[$[arXiv:2208.07032](https://arxiv.org/abs/2208.07032), <a href="https://doi.org/10.1007/JHEP11(2022)060">doi:10.1007/JHEP11(2022)060</a>$]$
 
 
 #### In D$p$/D$(p+2)$-brane intersections
