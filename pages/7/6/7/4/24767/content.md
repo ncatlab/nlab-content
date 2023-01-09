@@ -23,9 +23,11 @@ See there for introductory material.
 * Jared Culbertson, Paul Gustafson, Daniel E. Koditschek, Peter F. Stiller, _Formal composition of hybrid systems_, [(arXiv)](https://arxiv.org/abs/1911.01267)
 * Kenny Courser, _Open systems: a double categorical perspective_, [(arXiv)](https://arxiv.org/abs/2008.02394), 2020
 See also [[structured cospans]] and [[decorated cospans]]
+* Chad Nester, _Situated Transition Systems_, [(arXiv)](https://arxiv.org/abs/2105.04355), 2021
+* [[David Jaz Myers]], _Categorical systems theory_, [(online)](http://davidjaz.com/Papers/DynamicalBook.pdf), 2021
 * Evan Patterson, _Decorated cospans via the double Grothendieck construction_, [(arXiv)](https://topos.site/blog/2022/05/decorated-cospans-via-the-grothendieck-construction/), 2022
 * [[John Baez]], Kenny Courser, [[Christina Vasilakopoulou]], _Structured versus Decorated Cospans_, [(Compositionality)](https://compositionality-journal.org/papers/compositionality-4-3/pdf), 2022
-* [[David Jaz Myers]], _Categorical systems theory_, [(online)](http://davidjaz.com/Papers/DynamicalBook.pdf), 2021
+* Chad Nester, _Concurrent Process Histories and Resource Transducers_, [(arXiv)](https://arxiv.org/abs/2010.08233), 2022
 
 ### Theory of programming languagues
 * Pierre-Evariste Dagand, [[Conor McBride]], _A Categorical Treatment of Ornaments_, [(acm)](https://dl.acm.org/doi/abs/10.5555/2591370.2591396), 2013
