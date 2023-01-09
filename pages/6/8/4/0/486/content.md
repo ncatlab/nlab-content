@@ -37,9 +37,13 @@ Frequently one is especially interested in pretoposes having additional properti
 
 * A __[[Π-pretopos]]__ is a pretopos which is also a [[locally cartesian closed category]].  (A $\Pi$-pretopos is automatically a Heyting pretopos.)  These are suitable as frameworks for finitist [[constructive mathematics]] which is 'weakly predicative'.
 
-* A __$W$-pretopos__ is a pretopos which has (locally) [[W-types]] ([[initial algebra|initial]] [[algebra for an endofunctor|algebras]] for [[polynomial endofunctors]]), most famously a [[natural numbers object]].  (Here, we take any [[exponentiable morphism]] to define a polynomial endofunctor.  This paragraph is original to this page and not in the literature; it may not be the best definition.) $W$-pretoposes are suitable as frameworks for non-finitist but strongly predicative mathematics with [[coherent logic]], while Heyting $W$-pretoposes and Boolean $W$-pretoposes are suitable as frameworks for non-finitist but strongly predicative mathematics with intuitionistic and classical logic, respectively.
+* An __[[arithmetic pretopos]]__ is a pretopos which has (locally) a parameterised [[natural numbers object]]. Arithmetic pretoposes are suitable as frameworks for non-finitist but strongly predicative mathematics with [[coherent logic]], while Heyting arithmetic pretoposes and Boolean arithmetic pretoposes are suitable as frameworks for non-finitist but strongly predicative mathematics with intuitionistic and classical logic, respectively.
 
-* A __[[ΠW-pretopos]]__ is a topos that is both a $\Pi$-pretopos and a $W$-pretopos.  (Now every morphism defines a polynomial endofunctor, since every morphism is exponentiable.)  These are suitable as frameworks for weakly predicative constructive mathematics that is not finitist.
+* A __$W$-pretopos__ is a pretopos which has (locally) [[W-types]] ([[initial algebra|initial]] [[algebra for an endofunctor|algebras]] for [[polynomial endofunctors]]), most famously a [[natural numbers object]].  (Here, we take any [[exponentiable morphism]] to define a polynomial endofunctor.  This paragraph is original to this page and not in the literature; it may not be the best definition.) 
+
+* An __arithmetic $\Pi$-pretopos__ is a pretopos that is both a $\Pi$-pretopos and an arithmetic pretopos; it is sufficient that the $\Pi$-pretopos have a [[natural numbers object]], and so could be called __$\Pi$-pretopos with NNO__. These are suitable as frameworks for weakly predicative constructive mathematics that is not finitist.
+
+* A __[[ΠW-pretopos]]__ is a pretopos that is both a $\Pi$-pretopos and a $W$-pretopos.  (Now every morphism defines a polynomial endofunctor, since every morphism is exponentiable.) 
 
 * A __[[predicative topos]]__ is a [[ΠW-pretopos]] that satisfies the [[axiom of multiple choice]].  (This now differs from a $W$-[[topos]] below mainly in still lacking [[power objects]], hence still a context for weakly predicative constructive mathematics.)
 
@@ -64,10 +68,11 @@ An infinitary pretopos (perhaps with [[well-powered category|well-poweredness]] 
 of [[compact Hausdorff spaces]] ([MarraReggio](#MarraReggio)).
 
 * In [[dependent type theory]], a [[univalent universe]] where every type in the universe satisfies [[axiom K]] and is closed under the [[empty type]], [[unit type]], [[sum types]], [[dependent sum types]], [[product types]], [[propositional truncations]], and [[quotient sets]] is a pretopos. 
-  * the universe becomes a W-pretopos if it is closed under a [[natural numbers type]]
+  * the universe becomes an [[arithmetic pretopos]] if it is closed under a parameterized [[natural numbers type]]
   * the universe becomes a Heyting pretopos if the universe is closed under [[dependent product types]] for families of [[mere propositions]], or equivalently, if it is closed under types of [[embeddings]]
   * the universe becomes a Boolean pretopos if it is a Heyting pretopos and additionally every proposition satisfies [[excluded middle]]
   * the universe becomes a Pi-pretopos if it the universe is closed under all [[dependent product types]], or equivalently, if the universe is closed under [[function types]]
+  * the universe becomes an arithmetic Pi-pretopos if it is a Pi-pretopos and is closed under a [[natural numbers type]]
   * the universe becomes an elementary topos if it is a Pi-pretopos and has a [[type of all propositions]]
   * the universe becomes an Boolean topos if it is a Boolean Pi-pretopos
 
