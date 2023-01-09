@@ -32,6 +32,9 @@ See [[ordered pair]] for methods of formalising ordered pairs (which are $2$-tup
 
 * A 3-tuple is [[triple]].
 
+* **tuple**, [[sequence]], [[function]]
+
+* [[dependent tuple]], [[dependent sequence]], [[dependent function]]
 
 [[!redirects tuple]]
 [[!redirects tuples]]
