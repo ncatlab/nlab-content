@@ -29,6 +29,8 @@ $$\mathrm{isAnafunc}(R) \coloneqq \prod_{x:A} \exists! y:B.R(x, y)$$
 
 ## See also
 
+* [[quantification]]
+
 * [[existential quantifier]]
 
 * [[universal quantifier]]
