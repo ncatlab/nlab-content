@@ -360,6 +360,8 @@ Notice that every [[presentable (∞,1)-category|presentable]] [[locally Cartesi
 
 * [[weak function extensionality]]
 
+* [[sequence extensionality]]
+
 * [[equivalence extensionality]]
 
 ## References
