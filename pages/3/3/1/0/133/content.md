@@ -185,6 +185,7 @@ See also the [choice consequences data base](#ConsequencesDatabase)
 
 * [[Boolean topos]]
 
+* [[finite choice]]
 
 ## References
 
