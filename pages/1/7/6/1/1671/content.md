@@ -25,7 +25,17 @@ All the reasoning in this page is [[constructive mathematics|constructive]].
 
 ## Definition
 
+### In set theory
+
 More explicitly, let $X$ be any [[set]] and let $p\colon X \to \mathbf{N}$ be a [[surjection]].  Then the axiom of countable choice states that $p$ has a [[section]].  If you phrase the axiom of choice in terms of [[entire relations]], then countable choice states that any entire relation from $\mathbf{N}$ to any other set contains (in the [[2-poset]] [[Rel]]) a [[functional relation|functional]] entire relation.
+
+### In dependent type theory
+
+In [[dependent type theory]], **countable choice** says that the [[dependent product type|dependent product]] of a family of inhabited types indexed by the [[natural numbers]] is itself inhabited:
+
+$$\frac{\Gamma, n:\mathbb{N} \vdash A(n) \; \mathrm{type}}{\Gamma, a:\prod_{n:\mathbb{N}} \left[A(n)\right] \vdash \mathrm{countablechoice}(a):\left[\prod_{n:\mathbb{N}} A(n)\right]}$$
+
+Countable choice could be defined in any dependent type theory with [[dependent sequence types]]. 
 
 ## Consequences
 
