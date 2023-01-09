@@ -35,10 +35,9 @@ $$ \exists!\, x\colon T, P(x) \;\equiv\; \exists\, x\colon T, P(x) \wedge \foral
 
 The intended interpretation is that $\exists!\, x\colon T, P(x)$ is true iff $P(a)$ is true for *exactly* one element $a$ of $T$.
 
-We can similarly write down quantifiers to say that $P$ holds for exactly two elements, at most three elements, at least four elements, etc.  (These all require [[negation]] and therefore there are some slight variations possible when using [[intuitionistic logic]].)
+Given a natural number $n$, we can similarly write down quantifiers to say that $P$ holds for exactly $n$ elements, at most $n$ elements, at least $n$ elements, etc. (These all require [[negation]] and therefore there are some slight variations possible when using [[intuitionistic logic]].)
 
 With these examples, one can see quite readily that quantification is about saying how often a statement is true, that is *quantifying* it.
-
 
 ### Lawvere quantifiers: Quantification as adjunction
 
