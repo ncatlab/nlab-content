@@ -217,6 +217,9 @@ For H-spaces in [[homotopy type theory]]:
 
 * Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
+* [[Ulrik Buchholtz]], [[J. Daniel Christensen]], Jarl G. Taxerås Flaten, [[Egbert Rijke]], _Central H-spaces and banded types_ ([arXiv:2301.02636](https://arxiv.org/abs/2301.02636))
+
+
 See also
 
 * [[John Adams]], _Finite $H$-Spaces and Lie groups_, Journal of Pure and Applied Algebra 19 (1980) 1-8 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/adamse8.pdf))
