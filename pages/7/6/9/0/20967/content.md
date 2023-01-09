@@ -12,7 +12,6 @@ See also:
 * Gregory J. Galloway, Melanie Graf, Eric Ling, _A conformal infinity approach to asymptotically $AdS_2 \times S^{n-1}$ spacetimes_ ([arXiv:2003.00093](https://arxiv.org/abs/2003.00093))
 
 
-
 ### Random matrix theory in $AdS_2/CFT_1$
 
 
@@ -53,3 +52,17 @@ The [[SYK model]] in [[flat space holography]]:
 
 
 [[!include D1-D3 intersections in AdS2-CFT1 -- references]]
+
+
+
+
+
+[[!include weight systems on chord diagrams in physics]]
+
+
+
+
+
+
+
+
