@@ -44,9 +44,13 @@ A **dependent sequential net** in a type family $x:\mathbb{N} \vdash B(x)$ can b
   * a type family $x:\mathbb{N}, y:B(x) \vdash R(x, y)$
   * a family of witnesses $x:\mathbb{N} \vdash \mathrm{isInhab}(x):\left[\sum_{y:B(x)} R(x, y)\right]$ that each dependent type $\sum_{y:B(x)} R(x, y)$ is [[inhabited]] for all natural numbers $x:\mathbb{N}$
 
+
 ## See also
 
 * [[sequence]], [[dependent sequence]]
+
+* [[net]]
+
 * [[weak countable choice]], [[countable choice]], [[dependent choice]]
 
 [[!redirects sequential net]]
