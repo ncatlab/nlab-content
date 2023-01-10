@@ -68,39 +68,24 @@ has a [[section]]. A **contractible type** is a pointed type which satisfies sin
 
 ### Rules for isContr
 
-If the [[dependent type theory]] only has rules for [[identity types]] and [[isProp]], which itself could be defined using only [[identity types]], one could still define isContr by adding the formation, introduction, elimination, computation, and uniqueness rules for isContr. 
+If the [[dependent type theory]] only has rules for [[identity types]] and [[dependent identity types]], one could define the isContr modality by the following rules:
 
 Formation rules for isContr types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}}{\Gamma \vdash \mathrm{isContr}(A) \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isContr}(A) \; \mathrm{type}}$$
 
 Introduction rules for isContr types:
-$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b:\mathrm{isProp}(A)}{\Gamma \vdash (a, b):\mathrm{isContr}(A)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma, x:A \vdash \tau(x):a =_A x}{\Gamma \vdash w(a, \lambda x.\tau(x)):\mathrm{isContr}(A)}$$
 
 Elimination rules for isContr types:
-$$\frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \pi_1(z):A} \qquad \frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \pi_2(z):\mathrm{isProp}(A)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathrm{isContr}(A) \vdash \mathrm{pt}(p):A} \quad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathrm{isContr}(A), x:A \vdash c(p, x):\mathrm{pt}(p) =_A x}$$
 
 Computation rules for isContr types:
-$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b:\mathrm{isProp}(A)}{\Gamma \vdash \beta_{\mathrm{isContr} 1}:\pi_1(a, b) =_A a} \qquad \frac{\Gamma \vdash a:A \quad \Gamma \vdash b:\mathrm{isProp}(A)}{\Gamma \vdash \beta_{\mathrm{isContr} 2}:\pi_2(a, b) =_{\mathrm{isProp}(A)} b}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma, x:A \vdash \tau(x):a =_A x}{\Gamma \vdash \beta_{\mathrm{isContr}(A)}^\mathrm{pt}(a):\mathrm{pt}(w(a, \lambda x.\tau(x))) =_A a}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma, x:A \vdash \tau(x):a =_A x}{\Gamma, x:A \vdash \beta_{\mathrm{isContr}(A)}^w(x):c(w(a, \lambda x.\tau(x)))(x) =_{(-) =_A x}^{\beta_{\mathrm{isContr}(A)}^\mathrm{pt}(a)} \tau(x)}$$
 
 Uniqueness rules for isContr types:
-$$\frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \eta_{\mathrm{isContr}}:z =_{\mathrm{isContr}(A)} (\pi_1(z), \pi_2(z))}$$
-
-Similarly, if the [[dependent type theory]] only has rules for [[identity types]] and [[contraction types]], which itself could be defined using only [[identity types]], one could likewise define isContr by adding the formation, introduction, elimination, computation, and uniqueness rules for isContr. 
-
-Formation rules for isContr types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash \mathrm{Contr}_A(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{isContr}(A) \; \mathrm{type}}$$
-
-Introduction rules for isContr types:
-$$\frac{\Gamma, x:A \vdash b(x):\mathrm{Contr}_A(x) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:\mathrm{Contr}_A[a/x]}{\Gamma \vdash (a, b):\mathrm{isContr}(A)}$$
-
-Elimination rules for isContr types:
-$$\frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \pi_1(z):A} \qquad \frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \pi_2(z):\mathrm{Contr}_A(\pi_1(z))}$$
-
-Computation rules for isContr types:
-$$\frac{\Gamma, x:A \vdash b(x):\mathrm{Contr}_A(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{\mathrm{isContr} 1}:\pi_1(a, b) =_A a} \qquad \frac{\Gamma, x:A \vdash b(x):\mathrm{Contr}_A(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{\mathrm{isContr} 2}:\pi_2(a, b) =_{\mathrm{Contr}_A(a)} b}$$
-
-Uniqueness rules for isContr types:
-$$\frac{\Gamma \vdash z:\mathrm{isContr}(A)}{\Gamma \vdash \eta_{\mathrm{isContr}}:z =_{\mathrm{isContr}(A)} (\pi_1(z), \pi_2(z))}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathrm{isContr}(A) \vdash \eta_{\mathrm{isContr}(A)}(p):w(\mathrm{pt}(p), \lambda x.c(p, x)) =_{\mathrm{isContr}(A)} p}$$
 
 ## Properties
 
@@ -242,6 +227,8 @@ in global context, which has a global element precisely when $isContr(A)\to B$ h
 * **isContr**
 
 * [[isProp]]
+
+* [[uniqueness quantifier]]
 
 * [[contractible space]], [[contractible chain complex]]
 
