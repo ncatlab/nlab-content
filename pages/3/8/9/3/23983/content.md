@@ -117,27 +117,27 @@ needs to be written
 
 * [[Mike Shulman]], *Towards Third-Generation HOTT -- Part 2* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU))
 
-[[!redirects dependent identity types]]
+[[!redirects dependent identity type]]
 [[!redirects dependent identity types]]
 [[!redirects heterogeneous identity type]]
 [[!redirects heterogeneous identity types]]
 
-[[!redirects weak dependent identity types]]
+[[!redirects weak dependent identity type]]
 [[!redirects weak dependent identity types]]
 [[!redirects weak heterogeneous identity type]]
 [[!redirects weak heterogeneous identity types]]
 
-[[!redirects strict dependent identity types]]
+[[!redirects strict dependent identity type]]
 [[!redirects strict dependent identity types]]
 [[!redirects strict heterogeneous identity type]]
 [[!redirects strict heterogeneous identity types]]
 
-[[!redirects judgmentally strict dependent identity types]]
+[[!redirects judgmentally strict dependent identity type]]
 [[!redirects judgmentally strict dependent identity types]]
 [[!redirects judgmentally strict heterogeneous identity type]]
 [[!redirects judgmentally strict heterogeneous identity types]]
 
-[[!redirects propositionally strict dependent identity types]]
+[[!redirects propositionally strict dependent identity type]]
 [[!redirects propositionally strict dependent identity types]]
 [[!redirects propositionally strict heterogeneous identity type]]
 [[!redirects propositionally strict heterogeneous identity types]]
