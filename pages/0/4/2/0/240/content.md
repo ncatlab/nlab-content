@@ -36,7 +36,7 @@ An [[elementary topos]] $E$ is **well-pointed** if
 
 * Any model of [[ETCS]].
 
-* Every [[coherent category]] satisfying the [[axiom of finiteness] is a well-pointed topos. 
+* Every [[coherent category]] satisfying the [[axiom of finiteness]] is a well-pointed topos equivalent to [[FinSet]]. 
 
 ## Properties
 
