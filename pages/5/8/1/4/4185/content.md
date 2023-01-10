@@ -17,6 +17,10 @@ On potential generalization to [[logarithmic CFT]]:
 
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], *Full Logarithmic Conformal Field theory - an Attempt at a Status Report*, Proc. of *[[Higher Structures in M-Theory 2018]]*, Fortschr. Phys.  **67** 8-9 (2019)  $[$[arXiv:1903.02838](https://arxiv.org/abs/1903.02838), [doi:10.1002/prop.201910018](https://doi.org/10.1002/prop.201910018)$]$
 
+Constructing [[correlators]] in [[rational conformal field theory]] via [[string net models]]:
+
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Yang Yang]], *String-Net Construction of RCFT Correlators*, Springer Briefs in Mathematical Physics **45**, Springer (2023) &lbrack;[doi:10.1007/978-3-031-14682-4](https://doi.org/10.1007/978-3-031-14682-4), [arXiv:2112.12708](https://arxiv.org/abs/2112.12708)&rbrack;
+
 
 
 
