@@ -705,6 +705,8 @@ A similar logic is satisfied by '[[almost everywhere]]' and its dual ('not almos
 
 ## Related concepts
 
+* [[sequential net]]
+
 * [[limit of a net]]
 
 * [Tychonoff theorem -- Proof via net convergence](Tychonoff+theorem#ProofViaNets)
