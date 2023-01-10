@@ -34,7 +34,15 @@ $$
   f(a) =_B f(b)
 $$ 
 
-called the **action on [[identities]]/[[identifications]]/[[equalities]]/[[paths]] of $f$** or the **application of $f$ to identities/identifications/equalities/paths**, inductively defined by 
+called the **action on [[identities]]/[[identifications]]/[[equalities]]/[[paths]] of $f$** or the **application of $f$ to identities/identifications/equalities/paths**. 
+
+### As the non-dependent version of the dependent action on identities
+
+The action on identities is a special case of the [[dependent action on identities]] for which the type family $x:A \vdash B$ is a constant type family, and thus the [[dependent identity type]] $f(a) =_B^p f(b)$ doesn't depend on the path $p:a =_A b$ and is thus a normal identity type $f(a) =_B f(b)$. 
+
+### Inductive definition
+
+If the action on identities is inductively defined, then it comes with rules saying that the following judgment can be formed 
 $$a:A \vdash \mathrm{ap}_{f}(a, a)(\mathrm{refl}_{A}(a)) \equiv \mathrm{refl}_{B}(f(a)):\Omega(B, f(a))$$
 where $\Omega(A, a)$ is the [[loop space type]] $a =_A a$ of $A$ at $a:A$. 
 
