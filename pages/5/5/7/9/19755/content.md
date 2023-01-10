@@ -341,6 +341,8 @@ Assuming the [[axiom of choice]], given an [[infinite set]] $A$, there is a [[bi
 
 * [[permutation]], [[permutation representation]], [[permutation matrix]]
 
+* [[bijection set]]
+
 * [[Cayley distance]], [[Kendall distance]]
 
   [[Cayley distance kernel]], [[Mallows kernel]]
