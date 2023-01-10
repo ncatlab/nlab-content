@@ -19,9 +19,9 @@
 | [[proposition]], [[truth value]] | [[subsingleton]] | [[subterminal object]]/[[(-1)-truncated object]] | [[h-proposition]], [[mere proposition]] |
 | [[logical conjunction]] | [[cartesian product]] |[[product]] | [[product type]] |
 | [[disjunction]] |  [[disjoint union]] ([[support]] of) |[[coproduct]] ([[(-1)-truncation]] of) | [[sum type]] ([[bracket type]] of) |
-| [[implication]] | [[function set]] | [[internal hom]] | [[function type]] |
+| [[implication]] | [[function set]] (into [[subsingleton]]) | [[internal hom]] (into [[subterminal object]]) | [[function type]] (into [[h-proposition]]) |
 | [[negation]] | [[function set]] into [[empty set]] | [[internal hom]] into [[initial object]] | [[function type]] into [[empty type]] |
-| [[universal quantification]] | indexed [[cartesian product]] | [[dependent product]] | [[dependent product type]] |     
+| [[universal quantification]] | indexed [[cartesian product]] (of family of [[subsingletons]]) | [[dependent product]] (of family of [[subterminal objects]]) | [[dependent product type]] (of family of [[h-propositions]]) |     
 | [[existential quantification]] | indexed [[disjoint union]] ([[support]] of) | [[dependent sum]] ([[(-1)-truncation]] of) | [[dependent sum type]] ([[bracket type]] of) |
 | [[logical equivalence]] | [[bijection set]] | [[object of isomorphisms]] | [[equivalence type]] |
 |  | [[support set]] | [[support object]]/[[(-1)-truncation]] | [[propositional truncation]]/[[bracket type]]
