@@ -15,17 +15,17 @@ In other words, if $P$ holds of anything at all, then it holds of the particular
 
 In dependent type theory with [[propositional truncations]], the naive translation of the global choice operator results in the following rule:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\vert A \vert \to A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:\vert A \vert \vdash \varepsilon_A(x):A}$$
 
 The type-theoretic global choice operator implies global [[axiom K]] or global [[UIP]], and thus is inconsistent with the existence of a univalent Tarski universe with [[h-proposition|non-propositional]] [[h-sets]]. 
 
 If one wants to express the set-theoretic global choice operator and still consistently have a univalent Tarski universe with [[h-proposition|non-propositional]] [[h-sets]], one needs to set-truncate the target, or restrict the global choice operator to inhabited [[h-sets]]:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\vert A \vert \to \vert A \vert_0} \quad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isSet}(A)}{\Gamma \vdash \varepsilon_A:\vert A \vert \to A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:\vert A \vert \vdash \varepsilon_A(x):\vert A \vert_0} \quad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isSet}(A)}{\Gamma, x:\vert A \vert \vdash \varepsilon_A(x):A}$$
 
 There is also a version of the type-theoretic choice operator local to a [[Tarski universe]] $(U, T)$, given by:
 
-$$\frac{\Gamma \vdash U \; \mathrm{type} \quad \Gamma, X:U \vdash T \; \mathrm{type}}{\Gamma \vdash \varepsilon_U:\prod_{A:U} \vert T[A/X] \vert \to T[A/X]}$$
+$$\frac{\Gamma \vdash U \; \mathrm{type} \quad \Gamma, X:U \vdash T \; \mathrm{type}}{\Gamma, A:U, x:\vert T(A) \vert \vdash \varepsilon_U(A, x):T(A)}$$
 
 $U$ having a choice operator implies that $U$ satisfies [[axiom K]] or [[UIP]]. If $U$ is also univalent, then it is an [[h-groupoid]]. 
 
@@ -65,14 +65,22 @@ On the other hand, a type-theoretic global choice operator is inconsistent with 
 category: foundational axiom
 
 [[!redirects choice operator]]
+[[!redirects choice operators]]
 [[!redirects global choice operator]]
+[[!redirects global choice operators]]
 
 [[!redirects type-theoretic choice operator]]
+[[!redirects type-theoretic choice operators]]
 [[!redirects type-theoretic global choice operator]]
+[[!redirects type-theoretic global choice operators]]
 
 [[!redirects set-theoretic choice operator]]
+[[!redirects set-theoretic choice operators]]
 [[!redirects set-theoretic global choice operator]]
+[[!redirects set-theoretic global choice operators]]
 
 [[!redirects axiom of existence]]
 [[!redirects axiom scheme of existence]]
 [[!redirects axiom schema of existence]]
+[[!redirects axiom schemas of existence]]
+[[!redirects axiom schemata of existence]]
