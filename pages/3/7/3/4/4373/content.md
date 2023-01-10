@@ -78,6 +78,10 @@ A morphism $U \to X$ of [[topological space]]s is a regular monomorphism precise
 
 * [[embedding of smooth manifolds]]
 
+## Related concepts
+
+* [[embedding type]]
+
 [[!redirects embedding]]
 [[!redirects embeddings]]
 [[!redirects imbedding]]
