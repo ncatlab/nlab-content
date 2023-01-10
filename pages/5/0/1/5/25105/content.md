@@ -226,7 +226,7 @@ $L$ preserves equivalences: given types $A$ and $B$, there is a function $\mathr
 
 ### Categorical semantics
 
-To be done: figure out what the categorical semantics of the equivalence type is; i.e. an object $(X \simeq Y) \in \mathcal{C}$ which behaves as the "object of [[isomorphisms]] from $X$ to $Y$". 
+The [[categorical semantics]] of an equivalence type is an [[object of isomorphisms]]. 
 
 ## See also
 
@@ -238,7 +238,7 @@ To be done: figure out what the categorical semantics of the equivalence type is
 
 * [[autoequivalence type]]
 
-* [[function type]]
+* [[function type]], [[embedding type]]
 
 * [[equivalence extensionality]]
 
