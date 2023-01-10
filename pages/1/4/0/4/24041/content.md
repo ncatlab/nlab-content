@@ -63,7 +63,11 @@ Review and exposition:
 
   Sections 6.4-6.9 in: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
 
-* Chien-Hung Lin, [[Michael Levin]], Fiona J. Burnell, *Generalized string-net models: A thorough exposition*, Phys. Rev. B **103** (2021) 195155  $[$[arXiv:2012.14424](https://arxiv.org/abs/2012.14424), [doi:10.1103/PhysRevB.103.195155](https://doi.org/10.1103/PhysRevB.103.195155)$]$
+* Chien-Hung Lin, [[Michael Levin]], Fiona J. Burnell, *Generalized string-net models: A thorough exposition*, Phys. Rev. B **103** (2021) 195155  &lbrack;[arXiv:2012.14424](https://arxiv.org/abs/2012.14424), [doi:10.1103/PhysRevB.103.195155](https://doi.org/10.1103/PhysRevB.103.195155)&rbrack;
+
+Constructing [[correlators]] in [[rational conformal field theory]] via [[string net models]]:
+
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Yang Yang]], *String-Net Construction of RCFT Correlators*, Springer Briefs in Mathematical Physics **45**, Springer (2023) &lbrack;[doi:10.1007/978-3-031-14682-4](https://doi.org/10.1007/978-3-031-14682-4), [arXiv:2112.12708](https://arxiv.org/abs/2112.12708)&rbrack;
 
 [[!redirects string-net models]]
 
