@@ -43,6 +43,8 @@ According to [deBoer & Shigemori 2012, p. 12](#deBoerShigemori12) these may be i
 
 * [[double field theory]]
 
+* [[defect brane]]
+
 ## References
 
 * {#deBoerShigemori12} [[Jan de Boer]], [[Masaki Shigemori]], _Exotic Branes in String Theory_, Physics Reports **532** (2013) 65-118 ([arXiv:1209.6056](https://arxiv.org/abs/1209.6056), [doi:j.physrep.2013.07.003](https://doi.org/10.1016/j.physrep.2013.07.003))
