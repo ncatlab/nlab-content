@@ -15,13 +15,16 @@ The intended interpretation is that $\exists!\, x\colon T, P(x)$ is true iff $P(
 
 In [[dependent type theory]], given a type $T$ and a type family $x:T \vdash P(x)$, the uniqueness quantifier is a type defined as 
 
-$$\exists!\, x\colon T. P(x) \equiv \mathrm{isContr}\left(\sum_{x:T} P(x)\right)$$
+$$\exists!\, x\colon T. P(x) \coloneqq \mathrm{isContr}\left(\sum_{x:T} P(x)\right)$$
 
 which indicates that the [[dependent sum type]] $\sum_{x:T} P(x)$ is a [[contractible type]], which is only the case for a family of type if every dependent type is a mere proposition and, for exactly one element $x:T$ up to identity, the type $P(x)$ is inhabited. 
 
 The uniqueness quantifier is used in the definition of an [[equivalence in type theory]], where one defines a function $f:A \to B$ to be an equivalence if for all $y:B$ the there is a unique $x:A$ such that $f(x) =_B y$
 
 $$\mathrm{isEquiv}(f) \coloneqq \prod_{y:B} \exists! x:A.f(x) =_B y$$ 
+
+This is the same as defining a family of elements $x:A \vdash f(x):B$ to be an equivalence if it comes with a family of elements
+$$y:B \vdash \epsilon(\lambda x.f(x))(y):\exists! x:A.f(x) =_B y$$
 
 Similarly, it is used in the definition of an [[anafunction]], where one defines a [[correspondence]] $x:A, y:B \vdash R(x, y)$ to be an anafunction if for all $x:A$ there is a unique $y:B$ such that $R(x, y)$
 
