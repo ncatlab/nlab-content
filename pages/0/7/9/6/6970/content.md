@@ -151,7 +151,7 @@ In [[logic]], functions types express [[implication]]. More precisely, for $\phi
 
 * [[dependent product type]]
 
-* [[equivalence type]]
+* [[equivalence type]], [[embedding type]]
 
 * [[partial function type]]
 
