@@ -14,11 +14,11 @@
 
 ## Definition
 
-Given sets $A$ and $B$, the **bijection set** $\mathrm{Bij}(A, B)$ is the set of [[bijections]] between the set $A$ and $B$. In the [[foundations]] of mathematics, the existence of such a set may be taken to follow from the existence of [[power sets]], from the axiom of [[subset collection]], from the existence of [[function sets]], or as an axiom (the __axiom of bijection sets__) in its own right.
+Given sets $A$ and $B$, the **bijection set** $\mathrm{Bij}(A, B)$ is the set of [[bijections]] between the set $A$ and $B$. In the [[foundations]] of mathematics, the existence of such a set may be taken to follow from the existence of [[power sets]], from the axiom of [[subset collection]], from the existence of [[function sets]], from the existence of [[injection sets]], or as an axiom (the __axiom of bijection sets__) in its own right.
 
 ## Properties
 
-If the set theory has [[function sets]], then the bijection set between $A$ and $B$ is a [[subset]] of the function set between $A$ and $B$: $\mathrm{Bij}(A, B) \subseteq B^A$. 
+If the set theory has [[function sets]], then the bijection set between $A$ and $B$ is a [[subset]] of the function set between $A$ and $B$: $\mathrm{Bij}(A, B) \subseteq B^A$. Similarly, if the set theory has [[injection sets]], then the bijection set between $A$ and $B$ is a [[subset]] of the injection set between $A$ and $B$: $\mathrm{Bij}(A, B) \subseteq \mathrm{Inj}(A, B)$
 
 The bijection set between $A$ and itself is the [[symmetric group]] on $A$, $\mathrm{Sym}(A) \coloneqq \mathrm{Bij}(A, A)$. 
 
@@ -38,6 +38,8 @@ Thinking of [[Set]] as a [[locally small category]], this is a special case of t
 
 * [[symmetric group]]
 
+* [[function set]], [[injection set]]
+
 [[!include types and logic - table]]
 
 [[!redirects bijection set]]
@@ -45,4 +47,4 @@ Thinking of [[Set]] as a [[locally small category]], this is a special case of t
 [[!redirects set of bijections]]
 [[!redirects sets of bijections]]
 
-[[!redirects axiom of function sets]]
+[[!redirects axiom of bijection sets]]
