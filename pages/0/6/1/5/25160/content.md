@@ -38,6 +38,8 @@ Thinking of [[Set]] as a [[locally small category]], this is a special case of t
 
 * [[symmetric group]]
 
+[[!include types and logic - table]]
+
 [[!redirects bijection set]]
 [[!redirects bijection sets]]
 [[!redirects set of bijections]]
