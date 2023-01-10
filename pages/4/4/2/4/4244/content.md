@@ -41,7 +41,7 @@ Beware that there are slightly different (and inequivalent) definitions in use. 
 
 ## Examples
 
-* in [[dimension]] 1: [[elliptic curve]]
+* in [[dimension]] 1: an [[elliptic curve]] is a pointed Calabi-Yau $1$-fold.
 
 * In [[dimension]] 2: [[K3 surface]].
 
