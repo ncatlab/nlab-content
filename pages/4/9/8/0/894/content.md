@@ -29,6 +29,8 @@ Thinking of [[Set]] as a [[locally small category]], this is a special case of a
 
 * [[internal hom]]
 
+* [[bijection set]]
+
 
 category: foundational axiom
 
