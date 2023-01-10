@@ -58,10 +58,15 @@ where the morphism on the right is a [[monomorphism]].
 
 The morphism $f$ being an [[effective monomorphism]] means that $\tilde f$ is an [[isomorphism]], hence that $f$ is an "isomomorphism onto its image".
 
-##In homotopy type theory
+## In dependent type theory
 
-Let $f: A \to B$. Then $f$ is an embedding if for every $x, y : A$ the [[action on identifications]] $ap_f: (x =_A y) \to (f(x) =_B
-f(y))$ is an [[equivalence]].
+Assume that the [[dependent type theory]] has [[identity types]], [[dependent identity types]], and [[uniqueness quantifiers]]. Then a family of elements $x:A \vdash f(x):B$ is an **embedding** if there is a family of elements
+$$x:A, y:A, q:f(x) =_B f(y) \vdash \eta(x, y, q):\exists! p:x =_A y.ap_f(x, y, p) =_{f(x) =_B f(y)} q$$
+which states that for all identities $q:f(x) =_B f(y)$ there is a unique identity $p:x =_A y$ up to identity such that $ap_f(x, y, p) =_{f(x) =_B f(y)} q$. 
+
+Equivalently, if the [[dependent type theory]] also has [[existential quantifiers]], then $x:A \vdash f(x):B$ is an embedding if there is a family of elements 
+$$y:B, z:\exists x:A.f(x) =_B y \vdash p(y, z):\exists! x:A.f(x) =_B y$$ 
+which states that for all $y:B$, if there exists an element $x:A$ such that $f(x) =_B y$, then that element is unique up to identity. 
 
 ## Examples
 
