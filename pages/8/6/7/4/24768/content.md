@@ -46,6 +46,7 @@ $$\mathrm{prodext}(c, c'):\mathrm{isEquiv}(\mathrm{idstodepprodid}(c, c'))$$
 \section{See also}
 
 * [[extensionality]]
+* [[tuple extensionality]]
 
 \section{References}
 
