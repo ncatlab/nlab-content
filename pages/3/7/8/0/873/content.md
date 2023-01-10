@@ -8,16 +8,17 @@
 
 A subset of a given [[set]] $A$ is a set $B$ that may be viewed as contained within $A$.
 
-
 ## Definitions
 
-### In set theory
+### In material set theory
 
 In [[material set theory]], a __subset__ of a [[set]] $A$ is a set $B$ with the *property* that
 $$ x \in B \;\Rightarrow\; x \in A $$
 for any object $x$ whatsoever.  One writes $B \subseteq A$ or $B \subset A$ (depending on the author) if $B$ has this property.  Set theory\'s [[axiom of extensionality]] says that $A = B$ if (and only if) $A \subseteq B$ and $B \subseteq A$ (although this is only strong enough for [[well-founded set]]s).
 
-In structural [[foundations of mathematics]], this definition doesn\'t make sense, because there is no global membership predicate $\in$ (and there may not be a global [[equality predicate]] either).  Accordingly, we define a __subset__ of $A$ to be a set $B$ with the *structure* of an [[injection]]
+### In structural set theory
+
+In [[structural set theory]], this definition doesn\'t make sense, because there is no global membership predicate $\in$ (and there may not be a global [[equality predicate]] either).  Accordingly, we define a __subset__ of $A$ to be a set $B$ with the *structure* of an [[injection]]
 $$ i\colon B \hookrightarrow A .$$
 
 We can still define a *local* membership predicate $\in_A$ as follows:  Given an element $x$ of $A$ and a subset $B$ (technically, $(B,i)$) of $A$,
@@ -31,19 +32,13 @@ In foundations that already have a global equality predicate on sets (and functi
 
 In any case, if $A$ is a subset of $B$, then $B$ is a __superset__ of $A$.
 
-### In type theory
+### Internal subsets
 
-In [[dependent type theory]], the inclusion [[relation]] between two types $A$ and $B$ is defined as 
+One could define the subset relation as a [[set]] using the [[internal logic]] of a [[set theory]]. The inclusion [[relation]] between two sets $A$ and $B$ is defined as the [[support set|support]] of the [[injection set]] between $A$ and $B$:
 
-$$A \subseteq B \coloneqq \left[\sum_{f:A \to B} \prod_{b:B} \mathrm{isProp}\left(\sum_{a:A} f(a) = b\right)\right]$$
+$$A \subseteq B \coloneqq \left[\mathrm{Inj}(A, B)\right]$$
 
-A **subset** of a [[set]] $B$ is a set $A$ with a term $p:A \subseteq B$. A **superset** of a [[set]] $A$ is a set $B$ with a term $p:A \subseteq B$. 
-
-Every subset $A$ of $B$ in a universe $\mathcal{U}$ comes with a choice of [[injection]] $i:A \hookrightarrow B$ if and only if the [[axiom of choice]] holds for sets in the universe:
-
-$$\prod_{A:\mathrm{Set}_\mathcal{U}} \left[\sum_{f:A \to B} \prod_{b:B} \mathrm{isProp}\left(\sum_{a:A} f(a) = b\right)\right] \to \left[\sum_{g:\prod_{A:\mathrm{Set}_\mathcal{U}} A \to B} \prod_{A:\mathrm{Set}_\mathcal{U}} \prod_{b:B} \mathrm{isProp}\left(\sum_{a:A} g(A)(a) = b\right)\right]$$
-
-As a result, subsets equipped with an injection are typically used when doing mathematics in homotopy type theory. 
+A **internal subset** of a [[set]] $B$ is a set $A$ with an element $p \in A \subseteq B$. A **internal superset** of a [[set]] $A$ is a set $B$ with an element $p \in A \subseteq B$. 
 
 ## Remarks
 
@@ -72,6 +67,12 @@ When the abstract set $A$ is fixed, a subset $B$ of $A$ may be thought of as a _
 
 [[!redirects superset]]
 [[!redirects supersets]]
+
+[[!redirects internal subset]]
+[[!redirects internal subsets]]
+
+[[!redirects internal superset]]
+[[!redirects internal supersets]]
 
 [[!redirects concrete set]]
 [[!redirects concrete sets]]
