@@ -38,6 +38,16 @@ $$\mathrm{tr}_P:\prod_{x,y:T} (x =_T y) \to (P(x) \simeq P(y))$$
 
 ## Definitions
 
+### Using the uniqueness quantifier
+
+Assuming that the type theory has [[uniqueness quantifiers]], a [[type]] $A$, a family of types $x:A \vdash B(x)$, [[elements]] $a:A$ and $b:A$, and an [[identity]] $p:a =_A b$, there is a family of elements between the types $B(a)$ and $B(b)$ called **transport**
+$$x:B(a) \vdash \mathrm{tr}_B(a, b, p)(x):B(b)$$
+and a witness 
+$$y:B(b) \vdash \epsilon(\mathrm{tr}_B(a, b, p))(y):\exists! x:B(a).\mathrm{tr}_B(a, b, p)(x) =_{B(b)} y$$
+that for all $y:B(b)$ there exists a unique elemnt $x:B(a)$ up to identity such that $\mathrm{tr}_B(a, b, p)(x) =_{B(b)} y$. 
+
+### Using equivalence types
+
 There are multiple notions of [[equivalence types]] in [[dependent type theory]], which can be used for a definition of univalence for a [[type universe]] $U$; these include
 
 * [[judgmentally strict equivalence types]]
