@@ -1,9 +1,10 @@
 
 \tableofcontents
 
+
 ## Overview
 
-The **principle of finite choice** states that the [[dependent product]] of a finite family of [[inhabited sets]] is itself inhabited. 
+The **principle of finite choice** states that the [[dependent product]] of a [[finite set|finite]] [[indexed set|family]] of [[inhabited sets]] is itself inhabited. 
 
 Finite choice is provable in most set theories, including [[strongly predicative]] and [[constructive mathematics|constructive]] set theories, as well as set theories without [[quotient sets]]. 
 
