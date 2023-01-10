@@ -26,7 +26,7 @@ A **sequential net** in a type $B$ can be defined as
 
 ## Properties
 
-Given a sequential net $A$, $A$ inherits the structure of a directed set via $A \to \mathbb{N}$, so that $A \to X$ is a net. In the context of [[weak countable choice]], as a net, every sequential net is equivalent (in the sense of corresponding to the same [[filter]]) to some sequence. 
+Given a sequential net $A$, $A$ inherits the structure of a [[directed set]] via $A \to \mathbb{N}$, so that $A \to X$ is a [[net]]. In the context of [[weak countable choice]], as a net, every sequential net is equivalent (in the sense of corresponding to the same [[filter]]) to some sequence. 
 
 Without [[weak countable choice]], many of the usual properties of [[metric spaces]] and other [[sequential spaces]] fail, but they continue to hold using sequential nets in the place of sequences. For example, every (located Dedekind) [[real number]] may be represented as a sequential Cauchy net, even when they might not all be represented as Cauchy sequences; see [[Cauchy real number]].
 
