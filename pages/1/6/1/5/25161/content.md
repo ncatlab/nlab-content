@@ -31,6 +31,7 @@ If the category is a [[cartesian closed category]], then there is a [[monomorphi
 
 * [[bijection set]]
 * [[equivalence type]]
+* [[exponential object]], [[internal hom]], [[object of monomorphisms]]
 
 [[!include types and logic - table]]
 
