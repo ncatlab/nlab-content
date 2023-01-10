@@ -27,16 +27,13 @@ There are (at least) two broad schools of the [[foundations]] of predicative mat
 
 Constructive predicativists sometimes accept principles (such as [[function sets]] and the [[axiom of replacement]]) that classical predicativists must reject because they imply impredicative results using [[excluded middle]].  Such mathematics may be called _weakly predicative_.
 
-
 ## Impredicative axioms
 
 Not all of these axioms are rejected by all predicativists, but they at least come under some suspicion.
 
-
 ### Infinity
 
 The [[axiom of infinity]] is not usually considered impredicative, but we list it anyway, as it is needed for the others to have force.  Mathematics that does not require this axiom, [[finite mathematics]], can be interpreted in a predicative framework even if it uses many of the axioms below.
-
 
 ### Power set
 
@@ -45,7 +42,6 @@ $$ \mathbf{N}, \mathcal{P}\mathbf{N}, \mathcal{P}\mathcal{P}\mathbf{N}, \ldots $
 may be accepted in part, but not forever.
 
 The failure of the power set axiom means that the category of sets is not an [[elementary topos]].
-
 
 ### Unbounded separation
 
@@ -58,7 +54,6 @@ To be precise, however, this $P$ should be written as a [[predicate]] in the lan
 Arguably, the impredicative core of both separation and power sets (in the presence of bounded separation) is [[limited separation]]: separation in which the quantifiers in $P$ may be guarded by power classes.
 
 *We need more on this, particularly with regards to the classical school and replacement.*
-
 
 ### Function sets
 
@@ -74,10 +69,17 @@ The constructive school, however, often accepts function sets (thus being *weakl
 
 [[Brouwer]], on the other hand, did not accept the sequence above, although his followers differ on when (if ever) it stops.
 
-
 ### Excluded middle
 
 Classical predicativists of course accept [[excluded middle]]; otherwise they would be [[constructivism|constructivists]].  But from the perspective of weakly predicative constructive mathematics, excluded middle is impredicative, since it implies power sets (given function sets) and unbounded separation (given replacement).
+
+### Choice operators
+
+Some classical predicativists accept [[choice operators]]. This includes [[dependent type theories]] which include [[choice operators]] but reject [[dependent function types]]. But from the perspective of weakly predicative constructive mathematics, choice operators is impredicative, since it implies excluded middle, and thus power sets (given function sets) and unbounded separation (given replacement). 
+
+### Bijection sets
+
+In predicative mathematics with choice operators, having [[bijection sets]] implies power sets, since choice operators imply the [[axiom of choice]], which in turn implies power sets. 
 
 ### Propositional resizing
 
@@ -90,7 +92,6 @@ The axiom of [[propositional resizing]] is then statement that given any two uni
 Most foundations of mathematics are predicative in one sense: no set may belong to itself.  This (or rather, a certain strengthening of this) is the [[axiom of foundation]].  An alternative is the axiom of antifoundation, which explicitly allows for and tames such sets as $\bullet$, where $\bullet = \{\bullet\}$.  Indeed, this equation is a perfectly good way to *define* $\bullet$ using antifoundation, yet this is about as impredicative as a definition can get.
 
 Once one accepts the [[axiom of infinity]], there\'s not much objection to accepting more general [[inductive type]]s such as [[inductive-inductive types]] and [[quotient inductive types]]; these are sets that are defined recursively much like a [[natural numbers object]].  Categorially, we may see these as [[initial algebra]]s of certain functors on $Set$.  [[coinductive type|Coinductive types]], which are the [[terminal coalgebra|final coalgebra]]s of these functors, also exist in impredicative theories, but not predicatively.
-
 
 ### Polymorphic definitions
 
