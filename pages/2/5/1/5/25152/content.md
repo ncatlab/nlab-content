@@ -55,25 +55,30 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathr
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a) \quad \Gamma, x:A, y:B(x) \vdash \tau_A(x, y):a =_A x \quad \Gamma, x:A, y:B(x) \vdash \tau_B(x, y):b =_B^{\tau_A(x, y)} y}{\Gamma \vdash \beta_{\exists!x:A.B(x)}^{\epsilon_B}(a, b):\epsilon_B(w(a, b, \tau_A, \tau_B))) =_B^{\beta_{\exists!x:A.B(x)}^{\epsilon_A}(a, b)} b}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a) \quad \Gamma, x:A, y:B(x) \vdash \tau_A(x, y):a =_A x \quad \Gamma, x:A, y:B(x) \vdash \tau_B(x, y):b =_B^{\tau_A(x, y)} y}{\Gamma, x:A, y:B(x) \vdash \beta_{\exists!x:A.B(x)}^{c_A}(a, b, x, y):c_A(w(a, b, \tau_A, \tau_B), x, y) =_{p:(-) =_A x}^{\beta_{\exists!x:A.B(x)}^{\epsilon_A}} \tau_A(x, y)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a) \quad \Gamma, x:A, y:B(x) \vdash \tau_A(x, y):a =_A x \quad \Gamma, x:A, y:B(x) \vdash \tau_B(x, y):b =_B^{\tau_A(x, y)} y}{\Gamma, x:A, y:B(x) \vdash \beta_{\exists!x:A.B(x)}^{c_A}(a, b, x, y):c_A(w(a, b, \tau_A, \tau_B), x, y) =_{(-) =_A x}^{\beta_{\exists!x:A.B(x)}^{\epsilon_A}} \tau_A(x, y)}$$
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a) \quad \Gamma, x:A, y:B(x) \vdash \tau_A(x, y):a =_A x \quad \Gamma, x:A, y:B(x) \vdash \tau_B(x, y):b =_B^{\tau_A(x, y)} y}{\Gamma, x:A, y:B(x) \vdash \beta_{\exists!x:A.B(x)}^{c_B}(a, b, x, y):c_B(w(a, b, \tau_A, \tau_B), x, y) =_{(-) =_B^{\beta_{\exists!x:A.B(x)}^{c_A}(a, b, x, y)} y}^{\beta_{\exists!x:A.B(x)}^{\epsilon_B}} \tau_B(x, y)}$$
 
 Uniqueness rules for uniqueness quantifier types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash p:\exists!x:A.B(x)}{\Gamma \vdash \eta_{\exists!x:A.B(x)}(p):w(\epsilon_A(p), \epsilon_B(p), c_A(p), c_B(p)) =_{\exists!x:A.B(x)} p}$$
 
-#### Usage
+## Usages
 
-The uniqueness quantifier is used in the definition of an [[equivalence in type theory]], where one defines a function $f:A \to B$ to be an equivalence if for all $y:B$ the there is a unique $x:A$ such that $f(x) =_B y$
+### Bijections and equivalences
 
-$$\mathrm{isEquiv}(f) \coloneqq \prod_{y:B} \exists! x:A.f(x) =_B y$$ 
+The uniqueness quantifier is used in the definition of a [[bijection]] in [[set theory]] and an [[equivalence in type theory]], where one defines a [[function]] $f:A \to B$ to be a bijection or equivalence if for all $y:B$ the there is a unique $x:A$ such that $f(x) =_B y$
 
-This is the same as defining a family of elements $x:A \vdash f(x):B$ to be an equivalence if it comes with a family of elements
+$$\mathrm{isEquiv}(f) \coloneqq \forall y:B.\exists! x:A.f(x) =_B y$$ 
+
+In [[dependent type theory]], this is the same as defining a family of elements $x:A \vdash f(x):B$ to be an equivalence if it comes with a family of elements
 $$y:B \vdash \epsilon(f)(y):\exists! x:A.f(x) =_B y$$
+The [[inverse]] of an equivalence is given by the family of elements $y:B \vdash \epsilon_A(\epsilon(f)(y)):A$, where $\epsilon_A$ is defined in the [[elimination rules]] for [[uniqueness quantifiers]] in [[dependent type theory]]. 
 
-Similarly, it is used in the definition of an [[anafunction]], where one defines a [[correspondence]] $x:A, y:B \vdash R(x, y)$ to be an anafunction if for all $x:A$ there is a unique $y:B$ such that $R(x, y)$
+### Anafunctions
 
-$$\mathrm{isAnafunc}(R) \coloneqq \prod_{x:A} \exists! y:B.R(x, y)$$ 
+Similarly, uniqueness quantifications is used in the definition of an [[anafunction]], where one defines a [[relation]] or [[correspondence]] $x:A, y:B \vdash R(x, y)$ to be an anafunction if for all $x:A$ there is a unique $y:B$ such that $R(x, y)$
+
+$$\mathrm{isAnafunc}(R) \coloneqq \forall x:A.\exists! y:B.R(x, y)$$ 
 
 ## See also
 
