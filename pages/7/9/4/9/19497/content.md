@@ -22,6 +22,7 @@ Logical equivalence is the [[equivalence]] of [[propositions]] in [[logic]].
 
 [[!include logic symbols -- table]]
 
+[[!include types and logic - table]]
 
 ## References
 
