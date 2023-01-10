@@ -13,4 +13,6 @@ The [[Grothendieck topology]] on any category for which only the [[identity]] mo
 
 * [[subcanonical topology]]
 
+* [[Grothendieck topology]]
+
 [[!redirects trivial topologies]]
