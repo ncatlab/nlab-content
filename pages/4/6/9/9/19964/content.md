@@ -329,6 +329,9 @@ Further development:
 
 * [[Chris Halcrow]], [[Thomas Winyard]], _A consistent two-skyrmion configuration space from instantons_ ([arXiv:2103.15669](https://arxiv.org/abs/2103.15669))
 
+* [[Paul Sutcliffe]], *A Skyrme model with novel chiral symmetry breaking* &lbrack;[arXiv:2301.03021](https://arxiv.org/abs/2301.03021)&rbrack;
+
+
 Large computer search for Skyrmion solutions:
 
 * {#GudnasonHalcrow22} [[Sven Bjarke Gudnason]], [[Chris Halcrow]], *A Smörgåsbord of Skyrmions* &lbrack;[arXiv:2202.01792](https://arxiv.org/abs/2202.01792)&rbrack;
