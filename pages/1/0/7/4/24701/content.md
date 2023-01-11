@@ -192,15 +192,6 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} 
 Uniqueness rules for equivalence types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B \vdash \eta_{A \simeq B}(f):\mathrm{equiv}(\mathrm{ev}(f), \mathrm{uniq}(f)) =_{A \simeq B} f}$$
 
-
-### Transport
-
-Transport is given by the following rules:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{tr}_B(a, b, p):B(a) \simeq B(b) \; \mathrm{type}}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_B^{\mathrm{tr}}(a):\mathrm{tr}_B(a, a, \mathrm{refl}_A(a)) =_{B(a) \simeq B(a)} \mathrm{id}_{B(a)}}$$
-
 ### Univalent universes
 
 Universes are internal models of [[dependent type theory]] inside of the type theory itself. An universe consists of a type of encodings for types $\mathcal{U}$ and a universal type family $\mathcal{T}$ which takes the encodings and returns an actual type, resulting in the formation and type reflection rules for universes:
@@ -209,11 +200,9 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathcal{U} \; \mathrm{type}} \qqu
 
 Given an encoding $A:\mathcal{U}$, an internal type family indexed by $A$ is a function $B:\mathcal{T}(A) \to \mathcal{U}$. 
 
-There are two ways to say that $A:\mathcal{U}$ and $B:\mathcal{U}$ are the same, by way of the identity type of the universe $A =_\mathcal{U} B$, and by way of the type of equivalences between the type reflections of $A:\mathcal{U}$ and $B:\mathcal{U}$, $\mathcal{T}(A) \simeq \mathcal{T}(B)$. By [[transport]], there is a canonical function 
-$$\mathrm{trans}^{\mathcal{T}}(A, B):(A =_\mathcal{U} B) \to (\mathcal{T}(A) \simeq \mathcal{T}(B))$$
-The universe $\mathcal{U}$ is then said to be a [[univalent universe]] if for all encodings $A:\mathcal{U}$ and $B:\mathcal{U}$ and for all equivalences $f:T(A) \simeq T(B)$, there is a unique identity $p:A =_U B$ such that $\mathrm{trans}^{\mathcal{T}}(A, B, p) =_{T(A) \simeq T(B)} f$. This is given by the following rule
+A universe is univalent if for all encodings $A:\mathcal{U}$ there is a unique encoding $B:\mathcal{U}$ up to identity such that $\mathcal{T}(A) \simeq \mathcal{T}(B)$. This is given by the following rule
 
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma, A:U, B:U, f:T(A) \simeq T(B) \vdash \mathrm{univalence}(A, B, f):\exists!p:A =_U B.\mathrm{trans}^{\mathcal{T}}(A, B, p) =_{T(A) \simeq T(B)} f}$$
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma, A:U \vdash \mathrm{univalence}(A):\exists!B:\mathcal{U}.\mathcal{T}(A) \simeq \mathcal{T}(B)}$$
 
 Universes are usually also required to be closed under all the type formers introduced previously.
 
