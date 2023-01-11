@@ -12,8 +12,10 @@
 | [[predicate]] | [[family of sets]] | [[display morphism]] | [[dependent type]] |
 | [[proof]] | [[element]] | [[generalized element]] | [[term]]/[[program]] |
 | [[cut rule]] |  | [[composition]] of [[classifying morphisms]] / [[pullback]] of [[display maps]] | [[substitution]] |
-| [[cut elimination]] for [[implication]] | | [[counit]] for hom-tensor adjunction | [[beta reduction]] |
-| introduction rule for [[implication]] | | [[unit]] for hom-tensor adjunction | [[eta conversion]] |
+| [[introduction rule]] for [[implication]] | | [[counit]] for hom-tensor adjunction | lambda |
+| [[elimination rule]] for [[implication]] | | [[unit]] for hom-tensor adjunction | application |
+| [[cut elimination]] for [[implication]] | | one of the [[zigzag identities]] for hom-tensor adjunction | [[beta reduction]] |
+| identity elimination for [[implication]] | | the other [[zigzag identity]] for hom-tensor adjunction | [[eta conversion]] |
 | [[true]]  | [[singleton]] | [[terminal object]]/[[(-2)-truncated object]] | [[h-level 0]]-[[type]]/[[unit type]] | 
 | [[false]] | [[empty set]] | [[initial object]] | [[empty type]] |
 | [[proposition]], [[truth value]] | [[subsingleton]] | [[subterminal object]]/[[(-1)-truncated object]] | [[h-proposition]], [[mere proposition]] |
