@@ -116,22 +116,22 @@ Since [[gauge theory]] is not just about [[principal bundle]]s, but about princi
 
 ## References
 
-The notion was introduced in
+The notion was introduced in:
 
 * {#SSS2} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Fivebrane structures]]_, Reviews in Mathematical Physics, **21** 10 (2009) 1197-1240 &lbrack;[arXiv:0805.0564](http://arxiv.org/abs/0805.0564), [doi:10.1142/S0129055X09003840](https://doi.org/10.1142/S0129055X09003840)&rbrack;
  
 
-It is briefly mentioned in
+Brief mentioning in:
 
-* {#DHH} [[Chris Douglas]], [[André Henriques]], Michael Hill, *Homological obstructions to string orientations*, Int. Math. Res. Notices **18** (2011) 4074-4088 &lbrack;[arXiv:0810.2131](http://arxiv.org/abs/0810.2131), https://doi.org/10.1093/imrn/rnq237&rbrack;
+* {#DHH} [[Chris Douglas]], [[André Henriques]], [[Michael Hill]], *Homological obstructions to string orientations*, Int. Math. Res. Notices **18** (2011) 4074-4088 &lbrack;[arXiv:0810.2131](http://arxiv.org/abs/0810.2131), [doi:10.1093/imrn/rnq237](https://doi.org/10.1093/imrn/rnq237)&rbrack;
 
-On the differential refinement: 
+On the differential refinement (the fivebrane version of [[differential string structure]]): 
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]],  _[[schreiber:Twisted Differential String and Fivebrane Structures]]_ &lbrack;[arXiv:0910.4001](http://arxiv.org/abs/0910.4001)&rbrack;
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_ &lbrack;[arXiv:1011.4735](http://arxiv.org/abs/1011.4735)&rbrack;
 
-The [[M-theory|M-theoretic]] version of Fivebrane structure ("[[M5-brane]]-structure"), rigorously derived from [[schreiber:Hypothesis H]]:
+The [[M-theory|M-theoretic]] version of Fivebrane structure ("[[M5-brane]]-structure"), and rigorously derived from 5-brane anomaly cancellation via [[schreiber:Hypothesis H]]:
 
 * [[Domenico Fiorenza]], [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]]: Exp. 3.2, Rem. 4.3, Thm. 4.8 in: *Twisted Cohomotopy implies level quantization of the full 6d Wess-Zumino-term of the M5-brane*, Comm. Math. Phys. **384** 403–432 (2021) &lbrack;[arXiv:1906.07417](https://arxiv.org/abs/1906.07417), [doi:10.1007/s00220-021-03951-0](https://doi.org/10.1007/s00220-021-03951-0)&rbrack;
 
@@ -140,7 +140,7 @@ The [[M-theory|M-theoretic]] version of Fivebrane structure ("[[M5-brane]]-struc
 
 Applications of Fivebrane structures:
 
-* Boris Botvinnik, [[Mohammed Labbi]], _Highly connected manifolds of positive $p$-curvature_, Transactions of the AMS, Trans. Amer. Math. Soc. 366 (2014), 3405-3424 ([arXiv:1201.1849](http://arxiv.org/abs/1201.1849), [doi:10.1090/S0002-9947-2014-05939-4](https://doi.org/10.1090/S0002-9947-2014-05939-4))
+* Boris Botvinnik, [[Mohammed Labbi]], _Highly connected manifolds of positive $p$-curvature_, Transactions of the AMS, Trans. Amer. Math. Soc. 366 (2014), 3405-3424 &lbrack;[arXiv:1201.1849](http://arxiv.org/abs/1201.1849), [doi:10.1090/S0002-9947-2014-05939-4](https://doi.org/10.1090/S0002-9947-2014-05939-4)&rbrack;
 
 [[!redirects fivebrane structure]]
 
