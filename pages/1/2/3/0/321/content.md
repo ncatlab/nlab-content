@@ -301,6 +301,8 @@ Correspondences may be seen as generalizations of [[relations]]. A relation is a
 
 * [[correspondence type]]
 
+* [[reflexive graph]]
+
 A category of correspondences is a refinement of a category [[Rel]] of relations. See there for more.
 
 ## References ##
