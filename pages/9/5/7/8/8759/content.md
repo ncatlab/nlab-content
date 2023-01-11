@@ -37,9 +37,25 @@ $RefGph$ is the category of functors $R \to Set$ where $R$ is the [[walking stru
 
 $Cat$ is monadic over $RefGph$ and $RefGph$ is monadic over $Set$ but $Cat$ is not monadic over $Set$; this is a nice example of how the relation 'being monadic over' is not transitive.
 
+## In dependent type theory
+
+In [[dependent type theory]], a graph $(A; x:A, y:A \vdash R(x, y))$ is **reflexive** if it comes with a family of elements $x:A \vdash \mathrm{refl}_A^R(x):R(x, x)$. 
+
+### Properties
+
+There is a family of functions
+
+$$\mathrm{idtofam}(x, y):(x =_A y) \to R(x, y)$$
+
+which is inductively defined on reflexivity:
+
+$$\mathrm{idtofam}(x, x)(\mathrm{refl}_A(x)) \coloneqq \mathrm{refl}_A^R(x)$$
+
 ## Related concepts
 
 * [[reflexive relation]]
+* [[univalent reflexive graph]]
 
+[[!redirects reflexive graph]]
 [[!redirects reflexive graphs]]
 
