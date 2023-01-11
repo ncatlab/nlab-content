@@ -196,24 +196,28 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}
 
 Universes are internal models of [[dependent type theory]] inside of the type theory itself. An universe consists of a type of encodings for types $\mathcal{U}$ and a universal type family $\mathcal{T}$ which takes the encodings and returns an actual type, resulting in the formation and type reflection rules for universes:
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathcal{U} \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\mathcal{U}}{\Gamma \vdash \mathcal{T}(A) \; \mathrm{type}}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathcal{U} \; \mathrm{type}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma, A:\mathcal{U} \vdash \mathcal{T}(A) \; \mathrm{type}}$$
 
 Given an encoding $A:\mathcal{U}$, an internal type family indexed by $A$ is a function $B:\mathcal{T}(A) \to \mathcal{U}$. 
 
 A universe is univalent if for all encodings $A:\mathcal{U}$ there is a unique encoding $B:\mathcal{U}$ up to identity such that $\mathcal{T}(A) \simeq \mathcal{T}(B)$. This is given by the following rule
 
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma, A:U \vdash \mathrm{univalence}(A):\exists!B:\mathcal{U}.\mathcal{T}(A) \simeq \mathcal{T}(B)}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A:\mathcal{U} \vdash \mathrm{univalence}(A):\exists!B:\mathcal{U}.\mathcal{T}(A) \simeq \mathcal{T}(B)}$$
 
 Universes are usually also required to be closed under all the type formers introduced previously.
 
 #### Internal identity types
 
-A universe $\mathcal{U}$ is closed under identity types if it has an internal encoding of identity types in the universe: Given an element $A:\mathcal{U}$, there is a function $\mathrm{Id}^\mathcal{U}(A):\mathcal{T}(A) \times \mathcal{T}(A) \to \mathcal{U}$ and for all elements $a:\mathcal{T}(A)$ and $b:\mathcal{T}(A)$ an equivalence 
-$$\mathrm{canonical}_{\mathrm{Id}}^{\mathcal{U}}(A)(a, b):\mathcal{T}(\mathrm{Id}^\mathcal{U}(A)(a, b)) \simeq (a =_{\mathcal{T}(A)} b)$$
+A universe $\mathcal{U}$ is closed under identity types if it has an internal encoding of identity types in the universe: there is a family of elements 
+$$A:\mathcal{U}, a:\mathcal{T}(A), b:\mathcal{T}(A) \vdash \mathrm{Id}^\mathcal{U}(A, a, b):\mathcal{U}$$
+and a family of equivalences 
+$$A:\mathcal{U}, a:\mathcal{T}(A), b:\mathcal{T}(A) \vdash \delta_{\mathrm{Id}}^{\mathcal{U}}(A, a, b):\mathcal{T}(\mathrm{Id}^\mathcal{U}(A, a, b)) \simeq (a =_{\mathcal{T}(A)} b)$$
 
 The rules for the internal identity types are thus given by
 
-$$\frac{\Gamma \vdash A:\mathcal{U}}{\Gamma \vdash \mathrm{Id}^\mathcal{U}(A):\mathcal{T}(A) \times \mathcal{T}(A) \to \mathcal{U}} \qquad \frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash a:\mathcal{T}(A) \quad \Gamma \vdash b:\mathcal{T}(A)}{\Gamma \vdash \mathrm{canonical}_{\mathrm{Id}}^{\mathcal{U}}(A)(a, b):\mathcal{T}(\mathrm{Id}^\mathcal{U}(A)(a, b)) \simeq (a =_{\mathcal{T}(A)} b)}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A:\mathcal{U}, a:\mathcal{T}(A), b:\mathcal{T}(A) \vdash \mathrm{Id}^\mathcal{U}(A, a, b):\mathcal{U}}$$ 
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A:\mathcal{U}, a:\mathcal{T}(A), b:\mathcal{T}(A) \vdash \delta_{\mathrm{Id}}^{\mathcal{U}}(A, a, b):\mathcal{T}(\mathrm{Id}^\mathcal{U}(A, a, b)) \simeq (a =_{\mathcal{T}(A)} b)}$$
 
 ### Subsingletons and singletons
 
@@ -241,14 +245,12 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:\mathbb{1}}$$
 Uniqueness rules for the unit type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, p:\mathbb{1} \vdash \eta_\mathbb{1}(p):* =_\mathbb{1} p}$$
 
-#### Internal unit type
-
 A universe $\mathcal{U}$ is closed under the unit type if it has an internal encoding of the unit type in the universe: there is an element $\mathbb{1}_\mathcal{U}:\mathcal{U}$, and an equivalence
-$$\mathrm{canonical}_{\mathbb{1}}^{\mathcal{U}}:\mathcal{T}(\mathbb{1}_\mathcal{U}) \simeq \mathbb{1}$$
+$$\delta_{\mathbb{1}}^{\mathcal{U}}:\mathcal{T}(\mathbb{1}_\mathcal{U}) \simeq \mathbb{1}$$
 
 The rules for the internal unit type are thus given by
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1}_\mathcal{U}:\mathcal{U}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{canonical}_{\mathbb{1}}^{\mathcal{U}}:\mathcal{T}(\mathbb{1}_\mathcal{U}) \simeq \mathbb{1}}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1}_\mathcal{U}:\mathcal{U}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \delta_{\mathbb{1}}^{\mathcal{U}}:\mathcal{T}(\mathbb{1}_\mathcal{U}) \simeq \mathbb{1}}$$
 
 ### Function types
 
