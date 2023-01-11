@@ -459,6 +459,18 @@ On equivalences as one-to-one correspondences in homotopy type theory:
 [[!redirects equivalence of types]]
 [[!redirects equivalences of types]]
 
+[[!redirects weak equivalence of types]]
+[[!redirects weak equivalences of types]]
+
+[[!redirects strict equivalence of types]]
+[[!redirects strict equivalences of types]]
+
+[[!redirects judgmentally strict equivalence of types]]
+[[!redirects judgmentally strict equivalences of types]]
+
+[[!redirects propositionally strict equivalence of types]]
+[[!redirects propositionally strict equivalences of types]]
+
 [[!redirects strict equivalence]]
 [[!redirects strict equivalences]]
 
