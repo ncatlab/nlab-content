@@ -80,6 +80,16 @@ Similarly, uniqueness quantifications is used in the definition of an [[anafunct
 
 $$\mathrm{isAnafunc}(R) \coloneqq \forall x:A.\exists! y:B.R(x, y)$$ 
 
+### Univalent universes
+
+Uniqueness quantifiers are also used to define [[univalent universes]]. A [[Russell universe]] $U$ is a [[univalent universe]] if for all elements $A:U$ there is a unique $B:U$ such that $A \simeq B$:
+
+$$\mathrm{isUnivalent}(U) \coloneqq \forall A:U.\exists! B:U.A \simeq B$$
+
+Similarly, a [[Tarski universe]] $(U, T)$ is a [[univalent universe]] if for all elements $A:U$ there is a unique $B:U$ such that $T(A) \simeq T(B)$:
+
+$$\mathrm{isUnivalent}(U, T) \coloneqq \forall A:U.\exists! B:U.T(A) \simeq T(B)$$
+
 ## See also
 
 * [[quantification]]
