@@ -1,4 +1,4 @@
-Sabine Hossenfelder is a physicist in Frankfurt focused on foundation questions and [[dark matter]]. 
+Sabine Hossenfelder is a physicist in Frankfurt focused on foundation questions, [[dark matter]], and [[MOND]]. 
 
 * [web](http://sabinehossenfelder.com/index.php)
 
@@ -16,6 +16,8 @@ Sabine Hossenfelder is a physicist in Frankfurt focused on foundation questions 
 * [[Sabine Hossenfelder]], [[Tobias Mistele]], *Strong lensing with superfluid dark matter*. Journal of Cosmology and Astroparticle Physics, Volume 2019, February 2019. ([doi:10.1088/1475-7516/2019/02/001](https://doi.org/10.1088/1475-7516/2019/02/001), [arXiv:1809.00840](https://arxiv.org/abs/1809.00840))
 
 * [[Tobias Mistele]], [[Stacy McGaugh]], [[Sabine Hossenfelder]], *Galactic mass-to-light ratios with superfluid dark matter*, Astronomy and Astrophysics, Volume 664, Article 40, August 2022 ([doi:10.1051/0004-6361/202243216](https://doi.org/10.1051/0004-6361/202243216), [arXiv:2201.07282](https://arxiv.org/abs/2201.07282))
+
+* [[Tobias Mistele]], [[Stacy McGaugh]], [[Sabine Hossenfelder]], *Aether Scalar Tensor theory confronted with weak lensing data at small accelerations*, ([arXiv:2301.03499](https://arxiv.org/abs/2301.03499))
 
 ## Related pages
 
