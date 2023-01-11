@@ -89,18 +89,9 @@ Given a [[Russell universe]] $U$, $U$ is univalent if for each $A:U$ there is a 
 
 $$\mathrm{ua}(A):\exists!B:U.A \simeq B$$
 
-One could then show that for all $A:U$ and $B:U$, the canonical function
-$$\mathrm{idtoequiv}(A, B):(A =_U B) \to (A \simeq B)$$
-is an [[equivalence of types]], since the function on [[dependent sum types]] from $\sum_{B:U} (A =_U B)$ to $\sum_{B:U} (A \simeq B)$ induced by the function $\mathrm{idtoequiv}(A, B)$ is a [[weak equivalence of types]], since both types are [[contractible types]], hence a fiberwise weak equivalence $(A =_U B) \simeq (A \simeq B)$.
-
 Similarly, given a [[Tarski universe]] $(U, T)$, $U$ is univalent if for each $A:U$ there is a unique $B:U$ up to identity such that $T(A) \simeq T(B)$:
 
 $$\mathrm{ua}(A):\exists!B:U.T(A) \simeq T(B)$$
-
-One could then show that for all $A:U$ and $B:U$, the [[transport]] function across $T$ is an [[equivalence of types]]. Because both $\sum_{B:U} (A =_U B)$ to $\sum_{B:U} (A \simeq B)$ are [[contractible types]], there is an equivalence of types 
-$$f(A):\left(\sum_{B:U} (A =_U B)\right) \simeq \left(\sum_{B:U} (T(A) \simeq T(B))\right)$$
-and by the properties of dependent sum types, this is the same as $f(A)$ being an element of the dependent sum type 
-$$f(A):\sum_{B:U} (A =_U B) \simeq (T(A) \simeq T(B))$$
 
 ## Alternate versions of univalence
 
@@ -329,6 +320,46 @@ See ([Shulman 12](#Shulman12), [UF 13](UF13))
 (...)
 
 ## Properties
+
+### Relations between the definitions of univalence
+
+Given a notion of [[equivalence type]] $\simeq_0$ and a notion of [[weak equivalence type]] $\simeq$, the following notions of univalent [[Tarski universes]] are equivalent to each other:
+
+* That for each $A:U$ there is a unique $B:U$ such that $T(A) \simeq_0 T(B)$. 
+$$A:U \vdash \mathrm{ua}(A):\exists!B:U.T(A) \simeq_0 T(B)$$
+
+* That there is a family of weak equivalences 
+$$A:U, B:U \vdash \mathrm{ua}(A, B):(A =_U B) \simeq (T(A) \simeq_0 T(B))$$
+
+* That for each $A:U$, $B:U$, and $f:T(A) \simeq_0 T(B)$, there is a unique $p:A =_U B$ such that transport across $p$ for the type family $T$ is equal to $f$
+$$A:U, B:U, f:T(A) \simeq_0 T(B) \vdash \mathrm{ua}(A, B, f):\exists!p:A =_U B.\mathrm{transport}^T(A, B, p) =_{T(A) \simeq_0 T(B)} f$$
+
+* That [[transport]] has a [[retraction]] 
+$$A:U, B:U, f:T(A) \simeq_0 T(B) \vdash \mathrm{ua}(A, B, f):(A =_U B)$$
+$$A:U, B:U \vdash G(A, B):\mathrm{transport}^T(A, B, \mathrm{ua}(A, B, f)) =_{T(A) \simeq_0 T(B)} f$$
+
+To show that the first two definitions are the same:
+
+In one direction, because both $\sum_{B:U} (A =_U B)$ and $\sum_{B:U} (T(A) \simeq_0 T(B))$ are [[contractible types]], there is a family of [[weak equivalences of types]] 
+$$A:U \vdash f'(A):\left(\sum_{B:U} (A =_U B)\right) \simeq \left(\sum_{B:U} (T(A) \simeq_0 T(B))\right)$$
+
+Given any two families $x:A vdash B(x)$ and $x:A \vdash C(x)$, there is an weak equivalence of types
+$$\mathrm{tot}:\left(\left(\sum_{x:A} B(x)\right) \simeq \left(\sum_{x:A} C(x)\right)\right) \simeq \left(\prod_{x:A} B(x) \simeq C(x)\right)$$
+
+Thus, for univalent Tarski universes, there is a family of weak equivalences of types
+$$A:U, B:U \vdash \mathrm{tot}(f'(A))(B):(A =_U B) \simeq (T(A) \simeq_0 T(B))$$
+and we define $\mathrm{ua}'(A, B) \coloneqq \mathrm{tot}(f(A))(B)$. 
+
+In the other direction, we begin with a family of weak equivalences 
+$$A:U, B:U \vdash \mathrm{ua}(A, B):(A =_U B) \simeq (T(A) \simeq_0 T(B))$$
+
+We can get a family of weak equivalences
+$$A:U \vdash f'(A):\left(\sum_{B:U} (A =_U B)\right) \simeq \left(\sum_{B:U} (T(A) \simeq_0 T(B))\right)$$
+by defining 
+$$f'(A) \coloneqq \mathrm{tot}^{-1}(\mathrm{ua}(A))$$
+
+The type $\sum_{B:U} (A =_U B)$ is always contractible; this means the type $\sum_{B:U} (T(A) \simeq_0 T(B))$ is contractible as well, since the two types are equivalent to each other. Thus, one could construct an family of witnesses
+$$A:U \vdash \mathrm{ua}'(A):\exists!B:U.T(A) \simeq_0 T(B)$$
 
 ### Relation to function extensionality
 
