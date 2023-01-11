@@ -36,6 +36,8 @@ $$x:A \vdash \mathrm{ua}(x):\mathrm{isContr}\left(\sum_{y:A} R(x, y)\right)$$
 1. That there is a family of equivalences 
 $$x:A, y:A \vdash \mathrm{ua}(x, y):(x =_A y) \simeq R(x, y)$$
 
+1. That $R(x, y)$ is an [[identity system]]. 
+
 1. That for each $x:A$ and $y:A$, the function $\mathrm{idtofam}(x, y)$ is an [[equivalence of types]]
 $$x:A, y:A, \vdash \mathrm{ua}(x, y):\mathrm{isEquiv}(\mathrm{idtofam}(x, y))$$
 
@@ -43,13 +45,11 @@ $$x:A, y:A, \vdash \mathrm{ua}(x, y):\mathrm{isEquiv}(\mathrm{idtofam}(x, y))$$
 $$x:A, y:A \vdash \mathrm{ua}(x, y):R(x, y) \to (x =_A y)$$
 $$x:A, y:A, r:R(x, y) \vdash G(x, y):\mathrm{idtofam}(x, y, \mathrm{ua}(x, y, r)) =_{R(x, y)} r$$
 
-1. That $R(x, y)$ is an [[identity system]]. 
+### Proof that definitions 1, 2, and 3 are the same
 
-### Proof that definitions 1 and 2 are the same
+Suppose the equivalence type used in the second definition is a [[weak equivalence type]]. It is possible to show that definitions 1, 2, and 3 above are the same, as this is just a special case of the [[fundamental theorem of identity types]]:
 
-Suppose the equivalence type used in the second definition is a [[weak equivalence type]]. It is possible to show that definitions 1 and 2 above are the same:
-
-In one direction, because both $\sum_{y:A} (x =_A y)$ and $\sum_{y:A} R(x, y)$ are [[contractible types]], there is a family of [[weak equivalences of types]] 
+Definition 1 implies definition 2, because both $\sum_{y:A} (x =_A y)$ and $\sum_{y:A} R(x, y)$ are [[contractible types]], there is a family of [[weak equivalences of types]] 
 $$x:A \vdash f'(x):\left(\sum_{y:A} (x =_A y)\right) \simeq \left(\sum_{y:A} R(x, y)\right)$$
 
 Given any two families $x:A vdash B(x)$ and $x:A \vdash C(x)$, there is an weak equivalence of types
@@ -59,7 +59,7 @@ Thus, for univalent reflexive graphs, there is a family of weak equivalences of 
 $$x:A \vdash \mathrm{tot}(f'(x)):\prod_{y:A} (x =_A y) \simeq R(x, y)$$
 and we define $\mathrm{ua}'(x, y) \coloneqq \mathrm{tot}(f(x))(y)$. 
 
-In the other direction, we begin with a family of weak equivalences 
+Definition 2 implies definition 1, as we begin with a family of weak equivalences 
 $$x:A, y:A \vdash \mathrm{ua}(x, y):(x =_A y) \simeq R(x, y)$$
 
 or equivalently
@@ -74,7 +74,7 @@ $$f'(x) \coloneqq \mathrm{tot}^{-1}(\mathrm{ua}(x))$$
 The type $\sum_{y:A} (x =_A y)$ is always contractible; this means the type $\sum_{y:A} R(x, y)$ is contractible as well, since the two types are equivalent to each other. Thus, one could construct an family of witnesses
 $$x:A \vdash \mathrm{ua}'(x):\exists!y:A.R(x, y)$$
 
-### Proof that definitions 2 and 3 are the same
+### Proof that definitions 2 and 4 are the same
 
 Suppose the equivalence type used in the second definition is a [[weak equivalence type]]. Then definitions 2 and 3 are the same because given any type $A$ and $B$, there is a equivalence
 
@@ -87,7 +87,7 @@ and in the other direction, we inductively define $\mathrm{ua}'(x, y)$ by induct
 
 $$\mathrm{ua}'(x, x, \mathrm{refl}_A(x)) \coloneqq \delta_\simeq(x =_A x, R(x, x))(\mathrm{ua}(x, x))(\mathrm{refl}_A(x))$$
 
-### Proof that definition 3 implies definition 4
+### Proof that definition 4 implies definition 5
 
 Suppose that for every $x:A$ and $y:A$ we have a witness that the function $\mathrm{idtofam}(x, y)$ is an [[equivalence of types]]
 $$x:A, y:A, \vdash \mathrm{ua}(x, y):\mathrm{isEquiv}(\mathrm{idtofam}(x, y))$$
@@ -98,7 +98,7 @@ $$f:A \to B \vdash \mathrm{isEquivtoQInv}(f):\mathrm{isEquiv}(f) \to \mathrm{QIn
 which takes a witness that $f$ is an equivalence to a [[quasi-inverse function]] of $f$. The [[retraction]] of $\mathrm{idtofam}(x, y)$ is represented by 
 $$\mathrm{isEquivtoQInv}(\mathrm{idtofam}(x, y))$$
 
-### Proof that definition 4 implies definition 1
+### Proof that definition 5 implies definition 1
 
 This proof is adapted from [[Dan Licata]] in [Licata 16](#Licata16): 
 
