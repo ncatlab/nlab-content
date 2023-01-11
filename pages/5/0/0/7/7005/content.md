@@ -44,8 +44,6 @@ Univalence is a commonly assumed [[axiom]] in [[homotopy type theory]], and is c
 
 We work in a [[dependent type theory]] with [[identity types]], [[function types]], [[dependent product types]], [[product types]], and [[dependent sum types]]. 
 
-### Using two notions of equivalence types
-
 There are multiple notions of [[equivalence types]] in [[dependent type theory]], which can be used for a definition of univalence for a [[type universe]] $U$; these include
 
 * [[judgmentally strict equivalence types]]
@@ -56,6 +54,8 @@ There are multiple notions of [[equivalence types]] in [[dependent type theory]]
   * the type of [[multivalued partial functions]] which are single-valued and [[total function|total]] and have contractible fibers
   * the type of [[one-to-one correspondences]]
 * type of $U$-small equivalences, given a type universe $U$ and a definition of equivalence above
+
+### Using two notions of equivalence types
 
 In general, given equivalence types $A \simeq_0 B$ and $A \simeq_1 B$, a [[Russell universe]] $U$ is **univalent** with respect to $\simeq_0$ and $\simeq_1$ if for all elements $A:U$ and $B:U$, there is an element 
 
@@ -77,6 +77,22 @@ $$\mathrm{ua}(A, B):\mathrm{isEquiv}(\mathrm{idtoequiv}_U(A, B))$$
 Now, let $(U, T)$ be a [[Tarski universe]]. The univalence axiom states there is a witnesses that the [[transport]] function $\mathrm{trans}^T(A, B)$, defined by [[identification elimination]] which take the reflexive identification $\mathrm{refl}_U(A):A =_U A$ to the identity equivalence $\mathrm{id}_{T(A)}:T(A) \simeq T(A)$, is an equivalence of types for all $A:U$ and $B:U$
 $$\mathrm{ua}(A, B):\mathrm{isEquiv}(\mathrm{trans}^T(A, B))$$
 
+### Using one notion of equivalence type and the uniqueness quantifier
+
+Let $(U, T)$ be a [[Tarski universe]], and let $\simeq$ be some notion of [[equivalence type]]. [[Egbert Rijke]] in section 17.1 of [Rijke 22](#Rijke22) provided this definition of a univalent universe:
+
+For each $A:U$ there is a unique $B:U$ up to identity such that $T(A) \simeq T(B)$:
+
+$$\prod_{A:U} \exists!B:U.T(A) \simeq T(B)$$
+
+where the [[uniqueness quantifier]] is defined as 
+
+$$\exists!B:U.P(B) \coloneqq \mathrm{isContr}\left(\sum_{B:U} P(B)\right)$$
+
+for type family $B:U \vdash P(B)$. 
+
+This follows since then the function on [[dependent sum types]] from $\sum_{B:U} (A =_U B)$ to $\sum_{B:U} (T(A) \simeq T(B))$ induced by [[transport]] is a [[weak equivalence of types]], hence a fiberwise weak equivalence $(A =_U B) \simeq (T(X) \simeq T(B))$.
+
 ## Alternate versions of univalence
 
 In this section, we denote the type of equivalences between $A$ and $B$ as $A \simeq B$. 
@@ -84,8 +100,6 @@ In this section, we denote the type of equivalences between $A$ and $B$ as $A \s
 ### Weaker equivalent versions
 
 The univalence axiom proper says that the canonical map $coe:(X=Y)\to (X\simeq Y)$ is an equivalence.  However, there are several seemingly-weaker (and therefore often easier to verify) statements that are equivalent to this, such as:
-
-1. For any type $X$, the type $\sum_{Y:U} (X\simeq Y)$ is [[contractible type|contractible]].  This follows since then the map on total spaces from $\sum_{Y:U} (X=Y)$ to $\sum_{Y:U} (X\simeq Y)$ induced by $coe$ is an equivalence, hence a fiberwise equivalence $(X=Y) \simeq (X\simeq Y)$.
 
 2. For any $X,Y:U$ we have a map $ua:(X\simeq Y) \to (X=Y)$ such that $coe(ua(f)) = f$.  This exhibits $X\simeq Y$ as a retract of $X=Y$, hence $\sum_{Y:U} (X\simeq Y)$ as a retract of the contractible type $\sum_{Y:U} (X=Y)$, so it is contractible.  This was observed by [Dan Licata](https://groups.google.com/forum/#!msg/homotopytypetheory/j2KBIvDw53s/YTDK4D0NFQAJ).
 
@@ -425,6 +439,10 @@ Exposition and survey
   > (in view of the [[structure identity principle]])
 
 * [[Mike Shulman]], _Homotopy type theory, IV_ ([blog post](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_iv.html))
+
+Additional definition of univalent universes appeared in section 17.1 of 
+
+* {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
 
 An accessible account of Voevodsky's proof (following [Bousfield 06](#Bousfield06)) that the universal [[Kan fibration]] in [[simplicial sets]] is univalent:
 
