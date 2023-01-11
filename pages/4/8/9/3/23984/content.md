@@ -41,10 +41,26 @@ $$\mathrm{tr}_P:\prod_{x,y:T} (x =_T y) \to (P(x) \simeq P(y))$$
 ### Using the uniqueness quantifier
 
 Assuming that the type theory has [[uniqueness quantifiers]], a [[type]] $A$, a family of types $x:A \vdash B(x)$, [[elements]] $a:A$ and $b:A$, and an [[identity]] $p:a =_A b$, there is a family of elements between the types $B(a)$ and $B(b)$ called **transport**
-$$x:B(a) \vdash \mathrm{tr}_B(a, b, p)(x):B(b)$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:B(a) \vdash \mathrm{tr}_B(a, b, p, x):B(b)}$$
 and a witness 
-$$y:B(b) \vdash \epsilon(\mathrm{tr}_B(a, b, p))(y):\exists! x:B(a).\mathrm{tr}_B(a, b, p)(x) =_{B(b)} y$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, y:B(b) \vdash u(y):\exists!x:A.\mathrm{tr}_B(a, b, p, x) =_{B(b)} y}$$
 that for all $y:B(b)$ there exists a unique elemnt $x:B(a)$ up to identity such that $\mathrm{tr}_B(a, b, p)(x) =_{B(b)} y$. 
+
+If one is inductively defining transport, then one additionally has to add that
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma, x:B(a) \vdash \beta_B^{\mathrm{tr}}(a):\mathrm{tr}_B(a, a, \mathrm{refl}_A(a), x) =_{B(a)} x}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma, x:B(a) \vdash \beta_B^{u}(x):u(\mathrm{tr}_B(a, a, \mathrm{refl}_A(a), x)) =_{\exists!y:B(a).(-) =_{B} y}^{\beta_B^{\mathrm{tr}}(a)} u(x)}$$
+
+which specifies how transport across reflexivity behaves. 
+
+Alternatively, one could specify that there is an equivalence between the [[dependent identity type]] $x =_B^p y$ and the identity type $\mathrm{tr}_B(a, b, p, x) =_{B(b)} y$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:B(a), y:B(b), q:x =_B^p y \vdash \eta(x, y, q):\mathrm{tr}_B(a, b, p, x) =_{B(b)} y}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:B(a), y:B(b), r:\mathrm{tr}_B(a, b, p, x) =_{B(b)} y \vdash \exists!q:x =_B^p y.\eta(x, y, q) =_{\mathrm{tr}_B(a, b, p, x) =_{B(b)} y} r}$$
+
+One then specifies how transport across reflexivity behaves by using the dependent action on reflexivity. 
 
 ### Using equivalence types
 
@@ -67,15 +83,15 @@ The transport equivalence is called **judgmentally strict transport** if the equ
 ### As an introduction rule for the equivalence type
 
 In some presentations of the [[equivalence type]], transport is formed by one of the [[introduction rules]] for the equivalence type: 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{tr}_B(a, b, p):B(a) \simeq B(b) \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{tr}_B(a, b, p):B(a) \simeq B(b) \; \mathrm{type}}$$
 
 For the [[inductive definition]] of transport, there are also [[computation rules]] given by
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{tr}_B(a, a, \mathrm{refl}_A(a)) \equiv \mathrm{id}_{B(a)}:B(a) \simeq B(a)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{tr}_B(a, a, \mathrm{refl}_A(a)) \equiv \mathrm{id}_{B(a)}:B(a) \simeq B(a)}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{tr}_B(a, a, \mathrm{refl}_A(a)) \equiv_{B(a) \simeq B(a)} \mathrm{id}_{B(a)} \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{tr}_B(a, a, \mathrm{refl}_A(a)) \equiv_{B(a) \simeq B(a)} \mathrm{id}_{B(a)} \; \mathrm{true}}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_B^{\mathrm{tr}}(a):\mathrm{tr}_B(a, a, \mathrm{refl}_A(a)) =_{B(a) \simeq B(a)} \mathrm{id}_{B(a)}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_B^{\mathrm{tr}}(a):\mathrm{tr}_B(a, a, \mathrm{refl}_A(a)) =_{B(a) \simeq B(a)} \mathrm{id}_{B(a)}}$$
 
 depending on whether the the computation rules for [[identity types]] use [[judgmental equality]], [[propositional equality]], or the [[identity type]]. 
 
