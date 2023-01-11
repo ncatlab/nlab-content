@@ -55,61 +55,50 @@ There are multiple notions of [[equivalence types]] in [[dependent type theory]]
   * the type of [[one-to-one correspondences]]
 * type of $U$-small equivalences, given a type universe $U$ and a definition of equivalence above
 
-Let us assume an arbitrary notion of equivalence type $\simeq$. Every [[Russell universe]] $U$ is a [[reflexive graph]] with the graph type family $R(A, B)$ defined as $R(A, B) \coloneqq A \simeq B$. Similarly, every [[Tarski universe]] $(U, T)$ is a [[reflexive graph]] with the graph type family $R(A, B)$ defined as $R(A, B) \coloneqq T(A) \simeq T(B)$. In both cases, the function $\mathrm{idtofam}(A, B):(A =_U B) \to R(A, B)$ is inductively defined as 
+Let us assume an arbitrary notion of equivalence type $\simeq_0$. Every [[Russell universe]] $U$ is a [[reflexive graph]] with the graph type family $R(A, B)$ defined as $R(A, B) \coloneqq A \simeq_0 B$ and the function $\mathrm{idtofam}(A, B)$ is defined as 
 
-$$\mathrm{idtofam}(A, A, \mathrm{refl}_U(A)) \coloneqq \mathrm{refl}_U^R(A) \equiv \mathrm{id}_A$$
+$$\mathrm{idtofam}(A, B) \coloneqq \mathrm{idtoequiv}(A, B)$$
 
-A Russell or Tarski universe is **univalent** if it is [[univalent reflexive graph|univalent]] as a [[reflexive graph]]. 
+Similarly, every [[Tarski universe]] $(U, T)$ is a [[reflexive graph]] with the graph type family $R(A, B)$ defined as $R(A, B) \coloneqq T(A) \simeq_0 T(B)$ and the  function $\mathrm{idtofam}(A, B)$ is defined as 
 
-### Using two notions of equivalence types
+$$\mathrm{idtofam}(A, B) \coloneqq \mathrm{transport}^T(A, B)$$
 
-In general, given equivalence types $A \simeq_0 B$ and $A \simeq_1 B$, a [[Russell universe]] $U$ is **univalent** with respect to $\simeq_0$ and $\simeq_1$ if for all elements $A:U$ and $B:U$, there is an element 
+Now, let us assume an arbitrary notion of equivalence type $\simeq$. A Russell or Tarski universe is **univalent** if it is [[univalent reflexive graph|univalent]] as a [[reflexive graph]], or equivalently, if one of the following conditions hold:
 
-$$\mathrm{ua}(A, B):(A =_U B) \simeq_1 (A \simeq_0 B)$$
+1. That for each $x:A$ the type of elements $y:A$ such that $R(x, y)$ is a [[contractible type]]. 
+$$x:A \vdash \mathrm{ua}(x):\mathrm{isContr}\left(\sum_{y:A} R(x, y)\right)$$
 
-and a [[Tarski universe]] $(U, T)$ is **univalent** with respect to $\simeq_0$ and $\simeq_1$ if for all elements $A:U$ and $B:U$, there is an element 
+1. That there is a family of equivalences 
+$$x:A, y:A \vdash \mathrm{ua}(x, y):(x =_A y) \simeq R(x, y)$$
 
-$$\mathrm{ua}(A, B):(A =_U B) \simeq_1 (T(A) \simeq_0 T(B))$$
+1. That $R(x, y)$ is an [[identity system]]. 
 
-Traditional [[homotopy type theory]] uses the type of functions with contractible fibers for both $\simeq_0$ and $\simeq_1$, while [[Mike Shulman]]'s model of [[higher observational type theory]] uses the type of $U$-small one-to-one correspondences for $\simeq_0$ and the type of judgmentally strict equivalences for $\simeq_1$. 
+1. That for each $x:A$ and $y:A$, the function $\mathrm{idtofam}(x, y)$ is an [[equivalence of types]]
+$$x:A, y:A, \vdash \mathrm{ua}(x, y):\mathrm{isEquiv}(\mathrm{idtofam}(x, y))$$
 
-### Using the isEquiv type family and the idtoequiv or transport function
+1. That $\mathrm{idtofam}(x, y)$ has a [[retraction]] (This is due to [[Daniel Licata]] in [Licata 16](#Licata16))
+$$x:A, y:A \vdash \mathrm{ua}(x, y):R(x, y) \to (x =_A y)$$
+$$x:A, y:A, r:R(x, y) \vdash G(x, y):\mathrm{idtofam}(x, y, \mathrm{ua}(x, y, r)) =_{R(x, y)} r$$
 
-As there are multiple notions of equivalence types, there are also multiple notions of the $\mathrm{idtoequiv}_U$ function for [[Russell universes]] $U$ and the [[transport function]] $\mathrm{trans}^T$ for [[Tarski universes]] $(U, T)$. There are also multiple notions of the [[isEquiv]] type family whose elements are witnesses that a function $f:A \to B$ is an equivalence of types
+See [[univalent reflexive graph]] for proofs that these definitions are the same. 
 
-Let $\simeq$ be a notion of [[equivalence type]] in the dependnet type theory, and $U$ be a [[Russell universe]]. The univalence axiom states there is a witnesses that the canonical function $\mathrm{idtoequiv}_U(A, B)$, defined by [[identification elimination]] which take the reflexive identification $\mathrm{refl}_U(A):A =_U A$ to the identity equivalence $\mathrm{id}_{A}:A \simeq A$, is an equivalence of types for all $A:U$ and $B:U$
-$$\mathrm{ua}(A, B):\mathrm{isEquiv}(\mathrm{idtoequiv}_U(A, B))$$
+Traditional [[homotopy type theory]] uses the type of functions with contractible fibers for both $\simeq$ and $R$, while [[Mike Shulman]]'s model of [[higher observational type theory]] uses the type of $U$-small one-to-one correspondences for $R$ and the type of judgmentally strict equivalences for $\simeq$. 
 
-Now, let $(U, T)$ be a [[Tarski universe]]. The univalence axiom states there is a witnesses that the [[transport]] function $\mathrm{trans}^T(A, B)$, defined by [[identification elimination]] which take the reflexive identification $\mathrm{refl}_U(A):A =_U A$ to the identity equivalence $\mathrm{id}_{T(A)}:T(A) \simeq T(A)$, is an equivalence of types for all $A:U$ and $B:U$
-$$\mathrm{ua}(A, B):\mathrm{isEquiv}(\mathrm{trans}^T(A, B))$$
+### Stricter versions of univalence
 
-### Using one notion of equivalence type and the uniqueness quantifier
+There are stricter versions of univalence, where we replace the [[equivalence of types]] between the identity type $A =_U B$ and the type of equivalences of the universe $A \simeq B$ in the univalence axioms with some notion of [[equality]], such as [[judgmental equality]], [[propositional equality]], and [[typal equality]]. 
 
-Let $\simeq$ be some notion of [[equivalence type]]. The [[uniqueness quantifier]] is defined as 
+1. In any [[dependent type theory]] with [[judgmental equality]], given a [[type universe]] $U$, one could replace the equivalence of types in the definition of univalence with a [[judgmental equality]] of types. This results in **judgmental univalence**, which states that for all small types $A:U$ and $B:U$, one could judge that $(A =_U B) \equiv (A \simeq B) \; \mathrm{type}$.
 
-$$\exists!x:A.P(x) \coloneqq \mathrm{isContr}\left(\sum_{x:A} P(x)\right)$$
+2. Similarly, in the context of any [[logic over type theory]] with [[propositional equality]], given a [[type universe]] $U$, one could replace the equivalence of types in the definition of univalence with a [[propositional equality]] of types. This results in **propositional univalence**, which states that for all small types $A:U$ and $B:U$, $(A =_U B) \equiv (A \simeq B) \; \mathrm{true}$.
 
-for type family $x:A \vdash P(x)$. [[Egbert Rijke]] in section 17.1 of [Rijke 22](#Rijke22) provided this definition of a univalent universe:
+3. Finally, if we are working inside a [[Tarski universe]] $(\mathcal{V}, \mathcal{T})$, then given an internal [[Tarski universe]] $U:\mathcal{V}$ with $T:\mathcal{T}(U) \to \mathcal{V}$, one could replace the equivalence of types in the definition of univalence with a [[typal equality]] of types. This results in **typal univalence**, which states that for all small types $A:\mathcal{T}(U)$ and $B:\mathcal{T}(U)$, there is an [[identification]] $\mathrm{ua}(A, B):(T(A) =_U T(B)) =_{\mathcal{V}} (T(A) \simeq_{\mathcal{V}} T(B))$.
 
-Given a [[Russell universe]] $U$, $U$ is univalent if for each $A:U$ there is a unique $B:U$ up to identity such that $A \simeq B$:
+Each of these imply the usual versions of univalence either through the structural rules for [[judgmental equality]] and [[propositional equality]], or through [[identification elimination]], [[transport]], and [[action on identifications]] for [[typal equality]]. 
 
-$$\mathrm{ua}(A):\exists!B:U.A \simeq B$$
+### Weaker versions of univalence
 
-Similarly, given a [[Tarski universe]] $(U, T)$, $U$ is univalent if for each $A:U$ there is a unique $B:U$ up to identity such that $T(A) \simeq T(B)$:
-
-$$\mathrm{ua}(A):\exists!B:U.T(A) \simeq T(B)$$
-
-## Alternate versions of univalence
-
-In this section, we denote the type of equivalences between $A$ and $B$ as $A \simeq B$. 
-
-### Weaker equivalent versions
-
-The univalence axiom proper says that the canonical map $coe:(X=Y)\to (X\simeq Y)$ is an equivalence.  However, there are several seemingly-weaker (and therefore often easier to verify) statements that are equivalent to this, such as:
-
-2. For any $X,Y:U$ we have a map $ua:(X\simeq Y) \to (X=Y)$ such that $coe(ua(f)) = f$.  This exhibits $X\simeq Y$ as a retract of $X=Y$, hence $\sum_{Y:U} (X\simeq Y)$ as a retract of the contractible type $\sum_{Y:U} (X=Y)$, so it is contractible. This was observed in [Licata 16](#Licata16) by [[Daniel Licata]].
-
-3. Ian Orton and Andrew Pitts showed [here](http://types2017.elte.hu/proc.pdf#page=93) that assuming function extensionality, this can be further simplified to the following special cases:
+In the context of [[function extensionality]], Ian Orton and Andrew Pitts showed [here](http://types2017.elte.hu/proc.pdf#page=93) that the univalence axiom can be simplified to the following special cases:
 
    * $unit : A = \sum_{a:A} 1$
    * $flip : (\sum_{a:A} \sum_{b:B} C(a,b)) = (\sum_{b:B} \sum_{a:A} C(a,b))$
@@ -121,17 +110,9 @@ The univalence axiom proper says that the canonical map $coe:(X=Y)\to (X\simeq Y
    $$ A \overset{unit}{=} \sum_{a:A} 1 \overset{contract}{=} \sum_{a:A} \sum_{b:B} f a=b \overset{flip}{=} \sum_{b:B} \sum_{a:A} f a = b \overset{contract}{=} \sum_{b:B} 1 \overset{unit}{=} B $$
    and uses $unit_\beta$ and $flip_\beta$ to compute that $coe(ua(f))(a) = f(a)$, hence by function extensionality $coe(ua(f)) = f$.
 
-### Stricter versions of univalence
+This is weaker than univalence because in the absense of [[function extensionality]], it is no longer possible to prove univalence from this set of axioms. 
 
-There are also stricter versions of univalence, where we replace the [[equivalence of types]] between the identity type $A =_U B$ and the type of equivalences of the universe $A \simeq B$ in the univalence axioms with some notion of [[equality]], such as [[judgmental equality]], [[propositional equality]], and [[typal equality]]. 
-
-1. In any [[dependent type theory]] with [[judgmental equality]], given a [[type universe]] $U$, one could replace the equivalence of types in the definition of univalence with a [[judgmental equality]] of types. This results in **judgmental univalence**, which states that for all small types $A:U$ and $B:U$, one could judge that $(A =_U B) \equiv (A \simeq B) \; \mathrm{type}$.
-
-2. Similarly, in the context of any [[logic over type theory]] with [[propositional equality]], given a [[type universe]] $U$, one could replace the equivalence of types in the definition of univalence with a [[propositional equality]] of types. This results in **propositional univalence**, which states that for all small types $A:U$ and $B:U$, $(A =_U B) \equiv (A \simeq B) \; \mathrm{true}$.
-
-3. Finally, if we are working inside a [[Tarski universe]] $(\mathcal{V}, \mathcal{T})$, then given an internal [[Tarski universe]] $U:\mathcal{V}$ with $T:\mathcal{T}(U) \to \mathcal{V}$, one could replace the equivalence of types in the definition of univalence with a [[typal equality]] of types. This results in **typal univalence**, which states that for all small types $A:\mathcal{T}(U)$ and $B:\mathcal{T}(U)$, there is an [[identification]] $\mathrm{ua}(A, B):(T(A) =_U T(B)) =_{\mathcal{V}} (T(A) \simeq_{\mathcal{V}} T(B))$.
-
-Each of these imply the usual versions of univalence either through the structural rules for [[judgmental equality]] and [[propositional equality]], or through [[identification elimination]], [[transport]], and [[action on identifications]] for [[typal equality]]. 
+In addition, unlike the definitions above, this definition of univalence cannot be generalized to [[reflexive graphs]]. 
 
 ### Internal univalence
 
@@ -326,25 +307,6 @@ See ([Shulman 12](#Shulman12), [UF 13](UF13))
 (...)
 
 ## Properties
-
-### Relations between the definitions of univalence
-
-Given a notion of [[equivalence type]] $\simeq_0$ and a notion of [[weak equivalence type]] $\simeq$, the following notions of univalent [[Tarski universes]] are equivalent to each other:
-
-* That for each $A:U$ there is a unique $B:U$ such that $T(A) \simeq_0 T(B)$. 
-$$A:U \vdash \mathrm{ua}(A):\exists!B:U.T(A) \simeq_0 T(B)$$
-
-* That there is a family of weak equivalences 
-$$A:U, B:U \vdash \mathrm{ua}(A, B):(A =_U B) \simeq (T(A) \simeq_0 T(B))$$
-
-* That for each $A:U$, $B:U$, and $f:T(A) \simeq_0 T(B)$, there is a unique $p:A =_U B$ such that transport across $p$ for the type family $T$ is equal to $f$
-$$A:U, B:U, f:T(A) \simeq_0 T(B) \vdash \mathrm{ua}(A, B, f):\exists!p:A =_U B.\mathrm{transport}^T(A, B, p) =_{T(A) \simeq_0 T(B)} f$$
-
-* That [[transport]] has a [[retraction]] 
-$$A:U, B:U, f:T(A) \simeq_0 T(B) \vdash \mathrm{ua}(A, B, f):(A =_U B)$$
-$$A:U, B:U \vdash G(A, B):\mathrm{transport}^T(A, B, \mathrm{ua}(A, B, f)) =_{T(A) \simeq_0 T(B)} f$$
-
-These follow from the fact that the [[Tarski universe]] $U, (T(A) \simeq_0 T(B))$ is a [[reflexive graph]]. 
 
 ### Relation to function extensionality
 
