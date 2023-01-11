@@ -20,7 +20,7 @@
 
 ## Idea
 
-A **permutative category** is a [[symmetric monoidal category]] (possibly taken to be [[internal category|internal to]] [[Top]]) in which [[associativity]] (including [[unitality]]) holds strictly.  Also known as a **symmetric strict monoidal category**.
+A **permutative category** is a [[symmetric monoidal category]] (possibly taken to be [[internal category|internal to]] [[Top]]) in which [[associativity]] and [[unitality]] hold strictly.  Also known as a **symmetric strict monoidal category**.
 
 ## Definition
 
