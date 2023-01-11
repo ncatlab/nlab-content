@@ -55,6 +55,12 @@ There are multiple notions of [[equivalence types]] in [[dependent type theory]]
   * the type of [[one-to-one correspondences]]
 * type of $U$-small equivalences, given a type universe $U$ and a definition of equivalence above
 
+Let us assume an arbitrary notion of equivalence type $\simeq$. Every [[Russell universe]] $U$ is a [[reflexive graph]] with the graph type family $R(A, B)$ defined as $R(A, B) \coloneqq A \simeq B$. Similarly, every [[Tarski universe]] $(U, T)$ is a [[reflexive graph]] with the graph type family $R(A, B)$ defined as $R(A, B) \coloneqq T(A) \simeq T(B)$. In both cases, the function $\mathrm{idtofam}(A, B):(A =_U B) \to R(A, B)$ is inductively defined as 
+
+$$\mathrm{idtofam}(A, A, \mathrm{refl}_U(A)) \coloneqq \mathrm{refl}_U^R(A) \equiv \mathrm{id}_A$$
+
+A Russell or Tarski universe is **univalent** if it is [[univalent reflexive graph|univalent]] as a [[reflexive graph]]. 
+
 ### Using two notions of equivalence types
 
 In general, given equivalence types $A \simeq_0 B$ and $A \simeq_1 B$, a [[Russell universe]] $U$ is **univalent** with respect to $\simeq_0$ and $\simeq_1$ if for all elements $A:U$ and $B:U$, there is an element 
@@ -79,7 +85,7 @@ $$\mathrm{ua}(A, B):\mathrm{isEquiv}(\mathrm{trans}^T(A, B))$$
 
 ### Using one notion of equivalence type and the uniqueness quantifier
 
-Let $\simeq$ be some notion of [[equivalence type]], and let the [[uniqueness quantifier]] is defined as 
+Let $\simeq$ be some notion of [[equivalence type]]. The [[uniqueness quantifier]] is defined as 
 
 $$\exists!x:A.P(x) \coloneqq \mathrm{isContr}\left(\sum_{x:A} P(x)\right)$$
 
@@ -101,7 +107,7 @@ In this section, we denote the type of equivalences between $A$ and $B$ as $A \s
 
 The univalence axiom proper says that the canonical map $coe:(X=Y)\to (X\simeq Y)$ is an equivalence.  However, there are several seemingly-weaker (and therefore often easier to verify) statements that are equivalent to this, such as:
 
-2. For any $X,Y:U$ we have a map $ua:(X\simeq Y) \to (X=Y)$ such that $coe(ua(f)) = f$.  This exhibits $X\simeq Y$ as a retract of $X=Y$, hence $\sum_{Y:U} (X\simeq Y)$ as a retract of the contractible type $\sum_{Y:U} (X=Y)$, so it is contractible.  This was observed by [Dan Licata](https://groups.google.com/forum/#!msg/homotopytypetheory/j2KBIvDw53s/YTDK4D0NFQAJ).
+2. For any $X,Y:U$ we have a map $ua:(X\simeq Y) \to (X=Y)$ such that $coe(ua(f)) = f$.  This exhibits $X\simeq Y$ as a retract of $X=Y$, hence $\sum_{Y:U} (X\simeq Y)$ as a retract of the contractible type $\sum_{Y:U} (X=Y)$, so it is contractible. This was observed in [Licata 16](#Licata16) by [[Daniel Licata]].
 
 3. Ian Orton and Andrew Pitts showed [here](http://types2017.elte.hu/proc.pdf#page=93) that assuming function extensionality, this can be further simplified to the following special cases:
 
@@ -338,28 +344,7 @@ $$A:U, B:U, f:T(A) \simeq_0 T(B) \vdash \mathrm{ua}(A, B, f):\exists!p:A =_U B.\
 $$A:U, B:U, f:T(A) \simeq_0 T(B) \vdash \mathrm{ua}(A, B, f):(A =_U B)$$
 $$A:U, B:U \vdash G(A, B):\mathrm{transport}^T(A, B, \mathrm{ua}(A, B, f)) =_{T(A) \simeq_0 T(B)} f$$
 
-To show that the first two definitions are the same:
-
-In one direction, because both $\sum_{B:U} (A =_U B)$ and $\sum_{B:U} (T(A) \simeq_0 T(B))$ are [[contractible types]], there is a family of [[weak equivalences of types]] 
-$$A:U \vdash f'(A):\left(\sum_{B:U} (A =_U B)\right) \simeq \left(\sum_{B:U} (T(A) \simeq_0 T(B))\right)$$
-
-Given any two families $x:A vdash B(x)$ and $x:A \vdash C(x)$, there is an weak equivalence of types
-$$\mathrm{tot}:\left(\left(\sum_{x:A} B(x)\right) \simeq \left(\sum_{x:A} C(x)\right)\right) \simeq \left(\prod_{x:A} B(x) \simeq C(x)\right)$$
-
-Thus, for univalent Tarski universes, there is a family of weak equivalences of types
-$$A:U, B:U \vdash \mathrm{tot}(f'(A))(B):(A =_U B) \simeq (T(A) \simeq_0 T(B))$$
-and we define $\mathrm{ua}'(A, B) \coloneqq \mathrm{tot}(f(A))(B)$. 
-
-In the other direction, we begin with a family of weak equivalences 
-$$A:U, B:U \vdash \mathrm{ua}(A, B):(A =_U B) \simeq (T(A) \simeq_0 T(B))$$
-
-We can get a family of weak equivalences
-$$A:U \vdash f'(A):\left(\sum_{B:U} (A =_U B)\right) \simeq \left(\sum_{B:U} (T(A) \simeq_0 T(B))\right)$$
-by defining 
-$$f'(A) \coloneqq \mathrm{tot}^{-1}(\mathrm{ua}(A))$$
-
-The type $\sum_{B:U} (A =_U B)$ is always contractible; this means the type $\sum_{B:U} (T(A) \simeq_0 T(B))$ is contractible as well, since the two types are equivalent to each other. Thus, one could construct an family of witnesses
-$$A:U \vdash \mathrm{ua}'(A):\exists!B:U.T(A) \simeq_0 T(B)$$
+These follow from the fact that the [[Tarski universe]] $U, (T(A) \simeq_0 T(B))$ is a [[reflexive graph]]. 
 
 ### Relation to function extensionality
 
@@ -483,6 +468,10 @@ Exposition and survey
 Additional definition of univalent universes appeared in section 17.1 of 
 
 * {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
+
+as well as in this Google Groups thread:
+
+* {#Licata16} [[Dan Licata]], *weak univalence with "beta" implies full univalence* ([web](https://groups.google.com/forum/#!msg/homotopytypetheory/j2KBIvDw53s/YTDK4D0NFQAJ))
 
 An accessible account of Voevodsky's proof (following [Bousfield 06](#Bousfield06)) that the universal [[Kan fibration]] in [[simplicial sets]] is univalent:
 
