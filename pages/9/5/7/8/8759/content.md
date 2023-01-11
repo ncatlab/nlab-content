@@ -39,17 +39,17 @@ $Cat$ is monadic over $RefGph$ and $RefGph$ is monadic over $Set$ but $Cat$ is n
 
 ## In dependent type theory
 
-In [[dependent type theory]], a graph $(A; x:A, y:A \vdash R(x, y))$ is **reflexive** if it comes with a family of elements $x:A \vdash \mathrm{refl}_A^R(x):R(x, x)$. 
+In [[dependent type theory]], a graph $(A; x:A, y:A \vdash R(x, y))$ is **reflexive** if 
 
-### Properties
+* it comes with a family of elements $x:A \vdash \mathrm{refl}_A^R(x):R(x, x)$. 
+* it comes with a family of functions $\mathrm{idtofam}(x, y):(x =_A y) \to R(x, y)$. 
 
-There is a family of functions
-
-$$\mathrm{idtofam}(x, y):(x =_A y) \to R(x, y)$$
-
-which is inductively defined on reflexivity:
+These two definitions are the same. From $\mathrm{refl}_A^R(x)$, we can inductively define $\mathrm{idtofam}(x, y)$ on reflexivity:
 
 $$\mathrm{idtofam}(x, x)(\mathrm{refl}_A(x)) \coloneqq \mathrm{refl}_A^R(x)$$
+
+From $\mathrm{idtofam}(x, y)$ we define $\mathrm{refl}_A^R(x)$ to be
+$$\mathrm{refl}_A^R(x) \coloneqq \mathrm{idtofam}(x, x)(\mathrm{refl}_A(x))$$
 
 ## Related concepts
 
