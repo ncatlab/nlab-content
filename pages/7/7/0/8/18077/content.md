@@ -20,10 +20,6 @@ In [[dependent type theory]], the law of double negation states that given a typ
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, a:A, b:A \vdash \mathrm{proptrunc}_A(a, b):a =_A b}{\Gamma, c:(A \to \mathbb{0}) \to \mathbb{0} \vdash \mathrm{doubleneg}(c):A}$$
 
-If one doesn't have function types, the law of double negation could be expressed as
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, a:A, b:A \vdash \mathrm{proptrunc}_A(a, b):a =_A b}{\Gamma, a:A, b(a):\mathbb{0}, c(a, b):\mathbb{0} \vdash \mathrm{doubleneg}(a, b, c):A}$$
-
 ## Related concepts
 
 * [[excluded middle]]
