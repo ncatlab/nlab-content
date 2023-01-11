@@ -125,4 +125,7 @@ category: software, applications
 [[!redirects programming languages]] 
 [[!redirects functional programming language]]
 [[!redirects functional programming languages]]
+
+[[!redirects programming language theory]]
+
  
