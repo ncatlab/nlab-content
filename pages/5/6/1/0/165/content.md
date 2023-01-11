@@ -22,7 +22,7 @@ In parts of the literature the fundamental groupoid, and more generally the [[fu
 
 ## Definition
 
-The **fundamental groupoid** $\Pi_1(X)$ of a topological space $X$ is the [[groupoid]] whose set of objects is $X$ and whose morphisms from $x$ to $y$ are the homotopy-classes $[\gamma]$ of continuous maps $\gamma : [0,1] \to X$ whose endpoints map to $x$ and $y$ (which the homotopies are required to fix). Composition is by concatenation (and reparametrization) of representative maps. Under the [[homotopy]]-[[equivalence relation]] this becomes an associative and unital composition with respect to which every morphism has an inverse; hence $\Pi_1(X)$ is a groupoid.
+The **fundamental groupoid** $\Pi_1(X)$ of a topological space $X$ is the [[groupoid]] whose set of objects is $X$ and whose morphisms from $x$ to $y$ are the equivalence classes of homotopy of homotopy relative to $\partial I$ $[\gamma]$ of continuous maps $\gamma : [0,1] \to X$ whose endpoints map to $x$ and $y$ (which the homotopies are required to fix). Composition is by concatenation (and reparametrization) of representative maps. Under the [[homotopy]]-[[equivalence relation]] this becomes an associative and unital composition with respect to which every morphism has an inverse; hence $\Pi_1(X)$ is a groupoid.
 
 The use of the fundamental groupoid of a manifold for describing the monodromy principle on the extension of local morphisms is discussed in the paper by Brown/Mucuk listed below. 
 
