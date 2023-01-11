@@ -11,4 +11,6 @@ Tobias Mistele is a researcher at the [[Frankfurt Institute for Advanced Studies
 
 * [[Tobias Mistele]], *A novel Cherenkov radiation constraint for hybrid MOND dark matter models*, ([arXiv:2208.14308](https://arxiv.org/abs/2208.14308))
 
+* [[Tobias Mistele]], [[Stacy McGaugh]], [[Sabine Hossenfelder]], *Aether Scalar Tensor theory confronted with weak lensing data at small accelerations*, ([arXiv:2301.03499](https://arxiv.org/abs/2301.03499))
+
 category: people
