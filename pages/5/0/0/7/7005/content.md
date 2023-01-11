@@ -79,19 +79,28 @@ $$\mathrm{ua}(A, B):\mathrm{isEquiv}(\mathrm{trans}^T(A, B))$$
 
 ### Using one notion of equivalence type and the uniqueness quantifier
 
-Let $(U, T)$ be a [[Tarski universe]], and let $\simeq$ be some notion of [[equivalence type]]. [[Egbert Rijke]] in section 17.1 of [Rijke 22](#Rijke22) provided this definition of a univalent universe:
+Let $\simeq$ be some notion of [[equivalence type]], and let the [[uniqueness quantifier]] is defined as 
 
-For each $A:U$ there is a unique $B:U$ up to identity such that $T(A) \simeq T(B)$:
+$$\exists!x:A.P(x) \coloneqq \mathrm{isContr}\left(\sum_{x:A} P(x)\right)$$
 
-$$\prod_{A:U} \exists!B:U.T(A) \simeq T(B)$$
+for type family $x:A \vdash P(x)$. [[Egbert Rijke]] in section 17.1 of [Rijke 22](#Rijke22) provided this definition of a univalent universe:
 
-where the [[uniqueness quantifier]] is defined as 
+Given a [[Russell universe]] $U$, $U$ is univalent if for each $A:U$ there is a unique $B:U$ up to identity such that $A \simeq B$:
 
-$$\exists!B:U.P(B) \coloneqq \mathrm{isContr}\left(\sum_{B:U} P(B)\right)$$
+$$\mathrm{ua}(A):\exists!B:U.A \simeq B$$
 
-for type family $B:U \vdash P(B)$. 
+One could then show that for all $A:U$ and $B:U$, the canonical function
+$$\mathrm{idtoequiv}(A, B):(A =_U B) \to (A \simeq B)$$
+is an [[equivalence of types]], since the function on [[dependent sum types]] from $\sum_{B:U} (A =_U B)$ to $\sum_{B:U} (A \simeq B)$ induced by the function $\mathrm{idtoequiv}(A, B)$ is a [[weak equivalence of types]], since both types are [[contractible types]], hence a fiberwise weak equivalence $(A =_U B) \simeq (A \simeq B)$.
 
-This follows since then the function on [[dependent sum types]] from $\sum_{B:U} (A =_U B)$ to $\sum_{B:U} (T(A) \simeq T(B))$ induced by [[transport]] is a [[weak equivalence of types]], hence a fiberwise weak equivalence $(A =_U B) \simeq (T(X) \simeq T(B))$.
+Similarly, given a [[Tarski universe]] $(U, T)$, $U$ is univalent if for each $A:U$ there is a unique $B:U$ up to identity such that $T(A) \simeq T(B)$:
+
+$$\mathrm{ua}(A):\exists!B:U.T(A) \simeq T(B)$$
+
+One could then show that for all $A:U$ and $B:U$, the [[transport]] function across $T$ is an [[equivalence of types]]. Because both $\sum_{B:U} (A =_U B)$ to $\sum_{B:U} (A \simeq B)$ are [[contractible types]], there is an equivalence of types 
+$$f(A):\left(\sum_{B:U} (A =_U B)\right) \simeq \left(\sum_{B:U} (T(A) \simeq T(B))\right)$$
+and by the properties of dependent sum types, this is the same as $f(A)$ being an element of the dependent sum type 
+$$f(A):\sum_{B:U} (A =_U B) \simeq (T(A) \simeq T(B))$$
 
 ## Alternate versions of univalence
 
