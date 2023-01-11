@@ -63,7 +63,7 @@ Similarly, every [[Tarski universe]] $(U, T)$ is a [[reflexive graph]] with the 
 
 $$\mathrm{idtofam}(A, B) \coloneqq \mathrm{transport}^T(A, B)$$
 
-Now, let us assume an arbitrary notion of equivalence type $\simeq$. A Russell or Tarski universe is **univalent** if it is [[univalent reflexive graph|univalent]] as a [[reflexive graph]], or equivalently, if one of the following conditions hold:
+Now, let us assume an arbitrary notion of equivalence type $\simeq$. A Russell or Tarski universe is **univalent** if it is [[univalent reflexive graph|univalent]] as a [[reflexive graph]], or equivalently, if one of the following equivalent conditions by the [[fundamental theorem of identity types]] hold:
 
 1. That for each $x:A$ the type of elements $y:A$ such that $R(x, y)$ is a [[contractible type]]. 
 $$x:A \vdash \mathrm{ua}(x):\mathrm{isContr}\left(\sum_{y:A} R(x, y)\right)$$
@@ -80,7 +80,7 @@ $$x:A, y:A, \vdash \mathrm{ua}(x, y):\mathrm{isEquiv}(\mathrm{idtofam}(x, y))$$
 $$x:A, y:A \vdash \mathrm{ua}(x, y):R(x, y) \to (x =_A y)$$
 $$x:A, y:A, r:R(x, y) \vdash G(x, y):\mathrm{idtofam}(x, y, \mathrm{ua}(x, y, r)) =_{R(x, y)} r$$
 
-See [[univalent reflexive graph]] for proofs that these definitions are the same. 
+See [[fundamental theorem of identity types]] for proofs that these definitions are the same. 
 
 Traditional [[homotopy type theory]] uses the type of functions with contractible fibers for both $\simeq$ and $R$, while [[Mike Shulman]]'s model of [[higher observational type theory]] uses the type of $U$-small one-to-one correspondences for $R$ and the type of judgmentally strict equivalences for $\simeq$. 
 
