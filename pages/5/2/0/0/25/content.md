@@ -18,7 +18,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -58,7 +57,7 @@ describes the process by which
 
 * A horizontal categorification of a [[Lawvere Theory]] is a [[Cartesian multicategory]]. Analogously an [[operad]] categorifies to a many-colored operad.
 
-* In [[type theory]]/[[programming language theory]], horizontal categorification is analogous to *introducing a type distinction*: an untyped language is a special case of a typed language where there is exactly one type. This fits with the semantic view: untyped [[lambda calculus]] has models in Lawvere Theories, whereas (simply) typed lambda calculus has models in Cartesian multicategories.
+* {#InTypeTheory} In [[type theory]]/[[programming language theory]], horizontal categorification is analogous to *introducing a type distinction*: an untyped language is a special case of a typed language where there is exactly one [[type]]. This fits with the [[categorical semantics]]: untyped [[lambda calculus]] has models in [[Lawvere theories]], whereas (simply) [[typed lambda calculus]] has models in Cartesian [[multicategories]].
 
 [[!include oidification - table]]
 
