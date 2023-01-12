@@ -86,16 +86,51 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 \linebreak
 
 
-**Abstracts, slides and talk notes:**
+{#Talks2023} **Titles, Abstracts, and slides:**
 
-...to appear here...
+* {#Sen2023} [[Ashoke Sen]]:
+
+  **D-instanton amplitudes in string theory**
+  
+  >  [[D-brane instanton|D-instantons]] give [[non-perturbative contribution]] to [[string amplitudes]]. While the [[world-sheet]] theory of [[open string|open]] and [[closed strings]] gives a systematic procedure for computing these amplitudes, the analysis runs into [[infrared divergences]] that do not have any known cure within the [[world-sheet]] formalism. We describe how [[string field theory]] cures these divergences and gives an unambiguous procedure for computing [[D-brane instanton|D-instanton]] correction to [[string amplitudes]].
+
+  cf. [arXiv:2204.02981](https://arxiv.org/abs/2204.02981), [arXiv:2207.07138](https://arxiv.org/abs/2207.07138)
+
+\linebreak
+
+* {#Lambert2023} [[Neil Lambert]]:
+
+  **A non-Lorentzian View of the M5-brane**
+
+  > In this talk we will discuss a [[path-integral]] formulation of the [[M5-brane]] [[D=6 N=(2,0) SCFT|(2,0) theory]] based upon a [[Lagrangian density|Lagrangian]] without [[Lorentz group|Lorentz]] [[gauge invariance|invariance]] but a novel $SU(1,3)$ spacetime symmetry. This provides a [[UV completion|UV complete]] five-dimensional [[quantum field theory|field theoretic]] description that we will argue admits a six-dimensional Lorentz invariance at [[non-perturbative quantum field theory|strong coupling]].
+
+  cf.: [arXiv:2011.06968](https://arxiv.org/abs/2011.06968), [arXiv:2212.07717](https://arxiv.org/abs/2212.07717)
+
+\linebreak
+
+* {#Tsimpis2023} [[Dimitrios Tsimpis]]:
+
+  **Universal accelerating cosmologies from 10d supergravity**
+
+  > 4d [[FRW model|Friedmann-Lemaître-Robertson-Walker cosmologies]] are obtained from time-dependent [[KK-compactification|compactifications]] of [[type II supergravity|Type IIA 10d supergravity]] on various classes of 6d manifolds. These cosmologies are universal in that they do not depend on the detailed features of the compactification manifold, but only on the properties which are common to all the manifolds belonging to that class. Once the [[equations of motion]] are rewritten as an appropriate [[dynamical system]], the existence of solutions featuring a phase of accelerated [[cosmic inflation|expansion]] is made manifest. Some of the resulting cosmologies exhibit eternal or semi-eternal acceleration, whereas others allow for a parametric control on the number of $\mathrm{e}$-foldings. Moreover, we find several smooth accelerating cosmologies without [[Big Bang]] [[singularities]]: the [[observable universe|universe]] is contracting in the cosmological past ($T \lt 0$), expanding in the future ($T \gt 0$), while in the vicinity of $T = 0$ it becomes [[de Sitter spacetime|de Sitter]] in hyperbolic slicing. We also obtain several cosmologies featuring an infinite number of cycles of alternating periods of accelerated and decelerated expansions.
+
+  cf.: [arXiv:2210.10813](https://arxiv.org/abs/2210.10813)
+
+\linebreak
+
+* (...)
+
+\linebreak
+
+...more to appear here...
 
 
 \linebreak
 
 
+***
 
-
+\linebreak
 
 
 
