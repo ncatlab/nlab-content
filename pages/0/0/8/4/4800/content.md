@@ -1,11 +1,15 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-[[invariant|Invariance]] under [[gauge transformation]]s. See there for details.
+[[invariant|Invariance]] under [[gauge transformations]]. See there for details.
 
 ## Related concepts
 
-
+* [[gauge theory]]
 
 * [[group averaging]]
 
