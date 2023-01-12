@@ -66,4 +66,5 @@ The [[space]] of all these is the _[[space of trajectories]]_ (space of historie
 [[!redirects world volume]]
 [[!redirects world sheet]]
 
-
+[[!redirects world-sheet]]
+[[!redirects world-sheets]]
