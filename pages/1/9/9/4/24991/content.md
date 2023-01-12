@@ -73,5 +73,7 @@ Let $D$ be the [[ideal]] of all non-invertible elements in $R$. Then the quotien
 
 * [[ordered Artinian local ring]]
 
+* [[ordered reduced local ring]]
+
 [[!redirects ordered local ring]]
 [[!redirects ordered local rings]]
