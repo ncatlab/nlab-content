@@ -17,20 +17,22 @@
 
 ## Definition
 
-In [[dependent type theory]], a reflexive graph is a type $A$ with a type family $x:A, y:A \vdash R(x, y)$ and a family of functions $x:A, y:A \vdash \mathrm{idtofam}(x, y):(x =_A y) \to R(x, y)$. A [[reflexive graph]] is a **univalent reflexive graph** if one of the following equivalent conditions by the [[fundamental theorem of identity types]] holds:
+In [[dependent type theory]], a *[[reflexive graph]]* is a [[type]] $A$ with a [[type family]] $x:A, y:A \vdash R(x, y)$ and a [[family of functions]] $x:A, y:A \vdash \mathrm{idtofam}(x, y):(x =_A y) \to R(x, y)$. 
 
-1. That for each $x:A$ the type of elements $y:A$ such that $R(x, y)$ is a [[contractible type]]. 
+Such a [[reflexive graph]] is a **univalent reflexive graph** if the following conditions hold, which are all equivalent by the [[fundamental theorem of identity types]]:
+
+1. For each $x:A$ the type of elements $y:A$ such that $R(x, y)$ is a [[contractible type]]. 
 $$x:A \vdash \mathrm{ua}(x):\mathrm{isContr}\left(\sum_{y:A} R(x, y)\right)$$
 
-1. That there is a family of equivalences 
+1. There is a family of equivalences 
 $$x:A, y:A \vdash \mathrm{ua}(x, y):(x =_A y) \simeq R(x, y)$$
 
-1. That $R(x, y)$ is an [[identity system]]. 
+1. $R(x, y)$ is an [[identity system]]. 
 
-1. That for each $x:A$ and $y:A$, the function $\mathrm{idtofam}(x, y)$ is an [[equivalence of types]]
+1. For each $x:A$ and $y:A$, the function $\mathrm{idtofam}(x, y)$ is an [[equivalence of types]]
 $$x:A, y:A, \vdash \mathrm{ua}(x, y):\mathrm{isEquiv}(\mathrm{idtofam}(x, y))$$
 
-1. That $\mathrm{idtofam}(x, y)$ has a [[retraction]] 
+1. $\mathrm{idtofam}(x, y)$ has a [[retraction]] 
 $$x:A, y:A \vdash \mathrm{ua}(x, y):R(x, y) \to (x =_A y)$$
 $$x:A, y:A, r:R(x, y) \vdash G(x, y):\mathrm{idtofam}(x, y, \mathrm{ua}(x, y, r)) =_{R(x, y)} r$$
 
