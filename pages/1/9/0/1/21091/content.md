@@ -15,9 +15,9 @@ Related nLab pages:
 
 * [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], _De Finetti's theorem in categorical probability_. Journal of Stochastic Analysis, 2021. ([arXiv:2105.02639](https://arxiv.org/abs/2105.02639))
 
-* [[Tobias Fritz]], Wendong Liang, _Free gs-monoidal categories and free Markov categories_, 2022. ([arXiv:2204.02284](https://arxiv.org/abs/2204.02284))
-
 * Sean Moss, [[Paolo Perrone]], _Probability monads with submonads of deterministic states_, LICS 2022. ([arXiv:2204.07003](https://arxiv.org/abs/2204.07003))
+
+* Sean Moss, [[Paolo Perrone]], _A category-theoretic proof of the ergodic decomposition theorem_ ([arXiv:2207.07353](https://arxiv.org/abs/2207.07353))
 
 * [[Paolo Perrone]], _Markov Categories and Entropy_ ([arXiv:2212.11719](https://arxiv.org/abs/2212.11719))
 
