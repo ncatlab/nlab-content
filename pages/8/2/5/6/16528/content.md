@@ -39,8 +39,16 @@ On [[topological twists]]:
 
 * [[Jeong-Hyuck Park]], [[Dimitrios Tsimpis]], _Topological twisting of conformal supercharges_, Nucl. Phys. B776:405-430, 2007 ([arXiv:hep-th/0610159](http://arxiv.org/abs/hep-th/0610159))
 
+Discussion of *asymptotic* [[de Sitter spacetimes]] from time-dependent [[KK-compactification]] of [[type II supergravity]]:
 
-## related $n$Lab entries
+* Paul Marconnet, [[Dimitrios Tsimpis]], *Universal accelerating cosmologies from 10d supergravity*,  J. High Energ. Phys. **2023** 33 (2023) &lbrack;[arXiv:2210.10813](https://arxiv.org/abs/2210.10813), <a href="https://doi.org/10.1007/JHEP01(2023)033">doi:10.1007/JHEP01(2023)033</a>&rbrack;
+
+reviewed in:
+
+* [[Dimitrios Tsimpis]], *Universal accelerating cosmologies from 10d supergravity*, talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (Jan 2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Tsimpis2023)&rbrack;
+
+
+## Related entries
 
 * [[supergravity torsion constraints]]
 
