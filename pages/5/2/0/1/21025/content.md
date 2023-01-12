@@ -36,7 +36,7 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 </a>
 </center>
 
-> $\phantom{-----}$ (logo adapted from [JMP **62** (2021) 042301](https://arxiv.org/abs/2002.11093))
+> $\phantom{-----}$ (logo adapted from [JMP **62** (2021) 042301](/schreiber/show/Twisted+Cohomotopy+implies+twisted+String+structure+on+M5-branes))
 
 \linebreak
 
