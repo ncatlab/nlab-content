@@ -19,7 +19,7 @@ For $R$ a [[commutative ring]], its **nilradical** $I \subset R$ is the [[ideal]
 
 The [[quotient]] $R/I$ is also called the _[[reduced object|reduced]]_ part of $R$.
 
-(If $R$ is not commutative there are different generalization of the notion of nilradical. See wikipedia, for the moment.) 
+(If $R$ is not [[commutative ring|commutative]] there are different generalization of the notion of nilradical. See Wikipedia, for the moment.) 
 
 ## Examples
 
@@ -48,6 +48,14 @@ Given a [[commutative ring]] $R$, $R$ is **reduced** or has a **trivial nilradic
 ## Related concepts
 
 * [[infinitesimal extension]]
+
+## References
+
+See also:
+
+* Wikipedia, *[Nilradical](https://en.m.wikipedia.org/wiki/Nilradical_of_a_ring)*
+
+
 
 [[!redirects nilradical]]
 [[!redirects nilradicals]]
