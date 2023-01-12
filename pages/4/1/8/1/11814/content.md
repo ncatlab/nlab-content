@@ -17,8 +17,9 @@
 
 For $p \geq 2$ a [[prime number]] , then [[quotient]] $\mathbb{Z}/p\mathbb{Z}$ of the [[ring]] of [[integers]] by $p$ is a [[finite field]] denoted $\mathbb{F}_p$, a _prime field_.
 
-Prime fields have [[positive characteristic]].
+Prime fields have [[positive characteristic]]. 
 
+Every prime field is a [[prime power local ring]] with [[trivial nilradical]]. 
 
 ## Properties
 
