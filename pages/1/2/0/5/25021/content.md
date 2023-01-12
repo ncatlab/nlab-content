@@ -29,6 +29,8 @@ The underlying [[abelian group]] of a prime power local ring is a [[p-primary gr
 
 The cardinality of the [[group of units]] of $\mathbb{Z}/p^n\mathbb{Z}$ (the [[Euler totient function]] $\phi(p^n)$) is given by $\phi(p^n) = p^{n - 1} (p - 1)$. 
 
+In addition, every prime power local ring with [[trivial nilradical]] is a [[prime field]]. 
+
 ## See also
 
 * [[prime field]]
