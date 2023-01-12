@@ -25,12 +25,19 @@ with review in:
 
 
 
-
-
 Discussion of [[gravitational waves]] in relation to the [[soft graviton theorem]]:
 
 
 * Arnab Priya Saha, Biswajit Sahoo, [[Ashoke Sen]], _Proof of the Classical Soft Graviton Theorem in $D=4$_ ([arXiv:1912.06413](https://arxiv.org/abs/1912.06413))
+
+
+
+On [[D-brane instantons]] in 0B string theory using methods from [[string field theory]]:
+
+* Joydeep Chakravarty, [[Ashoke Sen]], *Normalization of D instanton amplitudes in two dimensional type 0B string theory* &lbrack;[arXiv:2207.07138](https://arxiv.org/abs/2207.07138)&rbrack;
+
+
+
 
 ## Related $n$Lab entries
 
