@@ -25,7 +25,7 @@ $$
 
 An ideal is called a _radical ideal_ if it is equal to its own radical.
  
-The [[nilradical|Nilradical]] of a commutative ring is the radical of the $0$ ideal.
+The [[nilradical]] of a commutative ring is the radical of the $0$ ideal.
 
 For a [[noncommutative ring]] or an [[associative algebra]] there are many competing notions of a radical of a ring such as [[Jacobson radical]], Levitzky radical, and sometimes of radicals of ideals or, more often, of radicals of arbitrary modules of a ring. 
 
