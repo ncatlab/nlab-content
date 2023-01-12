@@ -43,7 +43,9 @@ is called the [[de Rham space]] of $X$.
 
 ## Reduced rings and trivial nilradicals
 
-Given a [[commutative ring]] $R$, $R$ is **reduced** or has a **trivial nilradical** if $x \cdot x = 0$ implies that $x = 0$ for all $x \in R$. This implies that for every natural number $n$, given an element $x \in R$ such that $x^{n + 1} = 0$, $x = 0$. Let the function $f:\mathbb{N} \to \mathbb{N}$ be defined as the [[ceiling]] of half of $n$, $f(n) \coloneqq \lceil n/2 \rceil$. Then $x^{n + 1} = 0$ implies that $x^{f(n + 1)} = 0$, and for every natural number $n$, the $(n + 1)$-th iteration of the function $f$ evaluated at $n + 1$ is always equal to $1$, $f^{n + 1}(n + 1) = 1$, thus resulting in $x^{f^{n + 1}(n + 1)} = x = 0$. Thus, the nilradical of $R$ is trivial. 
+Given a [[commutative ring]] $R$, $R$ is **reduced** or has a **trivial nilradical** if $x \cdot x = 0$ implies that $x = 0$ for all $x \in R$. This implies that for every natural number $n$, $x^{n + 1} = 0$ implies that $x = 0$ for all $x \in R$. Let the function $f:\mathbb{N} \to \mathbb{N}$ be defined as the [[ceiling]] of half of $n$, $f(n) \coloneqq \lceil n/2 \rceil$. Then $x^{n + 1} = 0$ implies that $x^{f(n + 1)} = 0$, and for every natural number $n$, the $(n + 1)$-th iteration of the function $f$ evaluated at $n + 1$ is always equal to $1$, $f^{n + 1}(n + 1) = 1$, thus resulting in $x^{f^{n + 1}(n + 1)} = x = 0$. Thus, the nilradical of $R$ is trivial. 
+
+As a result, the theory of a reduced ring is a [[coherent theory]]. 
 
 ## Related concepts
 
@@ -54,8 +56,6 @@ Given a [[commutative ring]] $R$, $R$ is **reduced** or has a **trivial nilradic
 See also:
 
 * Wikipedia, *[Nilradical](https://en.m.wikipedia.org/wiki/Nilradical_of_a_ring)*
-
-
 
 [[!redirects nilradical]]
 [[!redirects nilradicals]]
