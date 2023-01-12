@@ -29,19 +29,17 @@ A **reduced local ring** is a [[commutative ring]] which is both a [[local ring]
 
 ## Properties
 
-Unlike the [[theory]] of [[Heyting fields]], the theory of reduced local rings is a [[coherent theory]]. It is the condition that a reduced local ring is an [[Artinian ring]] that fails in [[coherent logic]], since it relies on either negation to refer to non-invertible elements or proper ideals/maximal ideals (see [[Artinian local ring]]) or the [[natural numbers]] to refer to the [[descending chain condition]]. Even if one has the natural numbers around to define a [[dependent sequence]] of [[monomorphisms]] for the [[descending chain condition]], such as working internally in an [[arithmetic pretopos]], it is not necessarily the case that every such [[Artinian local ring]] has a maximal ideal or that [[Nakayama's lemma]] holds in [[coherent logic]]. 
+The theory of reduced local rings is a [[coherent theory]]. 
 
 ## See also
 
-* [[reduced ring]]
-
-* [[local ring]]
-
-* [[local integral domain]]
-
-* [[Heyting field]]
-
 * [[ordered reduced local ring]]
+
+| [[commutative ring]] | [[reduced ring]] | [[integral domain]] |
+---------------------|-----------------|-----------------|
+| [[local ring]] | [[reduced local ring]] | [[local integral domain]] |
+| [[Artinian ring]] | [[semisimple ring]] | [[field]] |
+| [[Weil ring]] | [[field]] | [[field]] |
 
 [[!redirects reduced local ring]]
 [[!redirects reduced local rings]]
