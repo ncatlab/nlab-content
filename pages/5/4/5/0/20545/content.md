@@ -97,6 +97,8 @@ A description induced form a non-[[Lorentz group|Lorentz]] invariant 5d Lagrangi
 
 * [[Neil Lambert]], Tristan Orchard, *Non-Lorentzian Avatars of $(1,0)$ Theories*, J. High Energ. Phys. **2021** 205 (2021) &lbrack;[arXiv:2011.06968](https://arxiv.org/abs/2011.06968), <a href="https://doi.org/10.1007/JHEP02(2021)205">doi:10.1007/JHEP02(2021)205</a>&rbrack;
 
+* [[Neil Lambert]], Joseph Smith, *RG Flows and Symmetry Enhancement in Five-Dimensional Lifshitz Gauge Theories* &lbrack;[arXiv:2212.07717](https://arxiv.org/abs/2212.07717)&rbrack;
+
 reviewed in:
 
 * [[Neil Lambert]], *A non-Lorentzian View of the M5-brane*,  talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Lambert2023)&rbrack;
