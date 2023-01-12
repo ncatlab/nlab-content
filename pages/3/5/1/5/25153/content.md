@@ -50,6 +50,12 @@ $$\frac{\Gamma, n:\mathbb{N} \vdash A(n) \; \mathrm{type}}{\Gamma, a:(n:\mathbb{
 
 * [[countable choice]]
 
+* [[ascending chain condition]], [[Noetherian ring]], [[Noetherian module]], [[Noetherian bimodule]]
+
+* [[descending chain condition]], [[Artinian ring]], [[Artinian module]], [[Artinian bimodule]]
+
+* [[sequential spectrum]], [[sequential spectrum type]]
+
 [[!redirects dependent sequence]]
 [[!redirects dependent sequences]]
 
