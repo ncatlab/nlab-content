@@ -31,6 +31,8 @@ Similarly, one can use polynomials to define infinitesimal versions of complex n
 
 The downside of this approach is that the resulting infinitesimal numbers will be subject only to those operations that apply to the category in which one forms the free construction.  For example, there is no way to apply transcendental functions to infinitesimals with this approach.  Presumably that could be fixed by working with $C^\infty$-[[C-infinity-ring|rings]], but no algebraic theory covers everything that can be done with real numbers (or whatever numbers you start with).
 
+Alternatively, one could [[formally complete]] the [[polynomial ring]] $R[x]$ to get the ring of [[formal power series]] $R[[x]]$. This results in a [[reduced ring|reduced]] [[local ring]] if $R$ is a [[field]]. In the case that $R$ is sequentially Cauchy complete and Archimedean ordered, then $R[[x]]$ is also sequentially Cauchy complete and Archimedean ordered; this allows for any [[analytic function]] to be defined on $R[[x]]$. 
+
 ## Nilpotent infinitesimals
 
 Instead of working with free infinitesimals, we could also work with [[nilpotent]] infintiesimals. This requires working in an [[Archimedean ordered Artinian local algebra|Archimedean ordered Artinian local $\mathbb{R}$-algebras]]. Since these are not ordered fields, the [[strict order]] is not a [[linear order]], the [[preorder]] is not a [[partial order]], and the [[apartness relation]] is not [[tight apartness relation|tight]]. There is an [[equivalence relation]] $a \approx b$ which says that $a$ is approximately equal to $b$, and is defined by $a \approx b$ if and only if the difference $a - b$ is a zero divisor. 
