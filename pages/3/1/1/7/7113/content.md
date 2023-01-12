@@ -83,6 +83,8 @@ Non-Archimedean ordered fields include
 
 * [[Archimedean ordered reduced local ring]]
 
+* [[Archimedean ordered local integral domain]]
+
 * [[differentiable space]]
 
 ## References
