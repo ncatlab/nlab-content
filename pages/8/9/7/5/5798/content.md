@@ -1,4 +1,8 @@
 
+> Not to be confused with *[[nilpotent ideal]]*, which is a [[nilpotent element]] in the [[lattice]] of [[ideals]] of a [[ring]]. 
+
+---
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
