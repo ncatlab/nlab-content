@@ -37,6 +37,8 @@ Unlike the [[theory]] of [[Heyting fields]], the theory of reduced local rings i
 
 * [[local ring]]
 
+* [[local integral domain]]
+
 * [[Heyting field]]
 
 * [[ordered reduced local ring]]
