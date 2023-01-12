@@ -179,6 +179,14 @@ For analogous discussion of embedding of the [[ekpyrotic cosmology]]-scenario in
 
   Kunihito Uzawa, _Ekpyrotic scenario in string theory_ ([pdf](http://www2.yukawa.kyoto-u.ac.jp/~gc2018/slides/4th/Mar2/Uzawa.pdf))
 
+Discussion of *asymptotic* de Sitter spacetimes from time-dependent [[KK-compactification]] of [[type II supergravity]]:
+
+* Paul Marconnet, [[Dimitrios Tsimpis]], *Universal accelerating cosmologies from 10d supergravity*,  J. High Energ. Phys. **2023** 33 (2023) &lbrack;[arXiv:2210.10813](https://arxiv.org/abs/2210.10813), <a href="https://doi.org/10.1007/JHEP01(2023)033">doi:10.1007/JHEP01(2023)033</a>&rbrack;
+
+reviewed in:
+
+* [[Dimitrios Tsimpis]], *Universal accelerating cosmologies from 10d supergravity*, talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (Jan 2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Tsimpis2023)&rbrack;
+
 
 [[!redirects de Sitter spacetimes]]
 
