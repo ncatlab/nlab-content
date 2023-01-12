@@ -38,7 +38,11 @@ A **weak approximate integral domain** is an approximate integral domain defined
 
 Recall that a [[cancellative element]] in a commutative ring $R$ is an element $a \in R$ for which both left and right multiplication by $a$ is an injection, and [[zero divisors]] are precisely the elements in $R$ which are not cancellative. 
 
-A **strict approximate integral domain** is an weak approximate integral domain for which additionally the cancellative elements form an [[anti-ideal]]. 
+A **strict approximate integral domain** is an weak approximate integral domain for which additionally the cancellative elements form an [[anti-ideal]]:
+
+* $0$ is not cancellative
+* if $a + b$ is cancellative, then either $a$ is cancellative or $b$ is cancellative
+* if $a \cdot b$ is cancellative, then $a$ is cancellative and $b$ is cancellative
 
 The [[quotient object|quotient ring]] of a strict approximate integral domain by its anti-ideal of cancellative elements is a [[Heyting integral domain]].
 
