@@ -168,6 +168,10 @@ Possible to-dos: say something about $m$-adic topology, completion, Zariski topo
 
 * [[weak local ring]]
 
+* [[Artinian local ring]]
+
+* [[reduced local ring]]
+
 ## References
 
 
