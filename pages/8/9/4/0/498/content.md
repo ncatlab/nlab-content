@@ -52,6 +52,10 @@ In [LombardiQuitté2010](#LombardiQuitté2010), the authors' definitions of loca
 
 ## Properties
 
+### Jacobson radical
+
+The set of non-invertible elements in a local ring is the [[Jacobson radical]]. 
+
 ### Kaplansky's theorem 
  {#KaplanskyTheorem}
 
@@ -157,6 +161,8 @@ Possible to-dos: say something about $m$-adic topology, completion, Zariski topo
 * [[localization of a commutative ring]]
 
 * [[strict local ring]]
+
+* [[Jacobson radical]]
 
 * [[valuation ring]] 
 
