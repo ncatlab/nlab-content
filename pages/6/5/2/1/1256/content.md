@@ -49,7 +49,7 @@ Coherent logic (including sequents, as above) is the [[internal logic]] of a [[c
 * A good example of a coherent theory that is not [[algebraic theory|algebraic]] (in any of the usual senses, although it comes from algebra) is the theory of a [[local ring]], defined by axioms $0 = 1 \vdash \bot$ and
 $$x + y = 1 \vdash (\exists z.x \cdot z = 1) \vee (\exists z.y \cdot z = 1)$$
 
-* Similar examples are the theories of a [[discrete integral domain]] and a [[discrete field]].
+* Similar examples are the theories of a [[discrete field]].
 
 * The theory of a [[total order]] is coherent, though also not algebraic.  The theory of a [[partial order]] is [[essentially algebraic theory|essentially algebraic]], but the totality axiom $\vdash_{x,y} (x\le y) \vee (y\le x)$ is coherent but not essentially algebraic.
 
@@ -63,6 +63,8 @@ and
 $$\exists z.x \cdot z = 1 \vdash (0 \lt x) \vee (x \lt 0)$$
 
 * The theory of a [[reduced ring]] is coherent, with the [[trivial nilradical]] axiom being expressed as $x \cdot x = 0 \vdash x = 0$. 
+
+* Similarly, the theory of an [[integral domain]] is coherent, with the [[zero-product property]] axiom being expressed as $x \cdot y \vdash (x = 0) \vee (y = 0)$
 
 * The theory of an [[elementary topos]] is coherent. However, the well-pointedness condition for a [[well-pointed topos]] is not coherent, which means that the theory [[ETCS]] is not coherent. See [[fully formal ETCS]] for more details. 
 
