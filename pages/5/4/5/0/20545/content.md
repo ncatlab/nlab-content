@@ -93,6 +93,14 @@ An attempt to understand the [SSW 11](#SSW11)-models as [[higher gauge theories]
 
 * [[Christian Saemann]], [[Lennart Schmidt]], _Towards an M5-Brane Model I: A 6d Superconformal Field Theory_, J. Math. Phys. 59 (2018) 043502 ([arxiv:1712.06623](https://arxiv.org/abs/1712.06623))
 
+A description induced form a non-[[Lorentz group|Lorentz]] invariant 5d Lagrangian:
+
+* [[Neil Lambert]], Tristan Orchard, *Non-Lorentzian Avatars of $(1,0)$ Theories*, J. High Energ. Phys. **2021** 205 (2021) &lbrack;[arXiv:2011.06968](https://arxiv.org/abs/2011.06968), <a href="https://doi.org/10.1007/JHEP02(2021)205">doi:10.1007/JHEP02(2021)205</a>&rbrack;
+
+reviewed in:
+
+* [[Neil Lambert]], *A non-Lorentzian View of the M5-brane*,  talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Lambert2023)&rbrack;
+
 
 
 ### Geometric engineering on 5-branes
