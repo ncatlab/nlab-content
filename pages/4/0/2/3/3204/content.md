@@ -3,7 +3,6 @@
 {: toc}
 
 
-
 ## Idea
 
 The term 'infinitesimal' means the same as 'infinitely small in absolute value'; in Latin, it literally means 'infinity-eth' and should be interpreted in the sense of a fraction.  In the ordinary [[analysis]] of [[real numbers]], the only infinitesimal number is [[zero]].  However, the basic intuitions of calculus since its beginnings have dealt with infinitely small (and sometimes also infinitely large) numbers.  There are several different ways to develop a rigorous theory that includes infinitesimal numbers.
@@ -31,7 +30,9 @@ Similarly, one can use polynomials to define infinitesimal versions of complex n
 
 The downside of this approach is that the resulting infinitesimal numbers will be subject only to those operations that apply to the category in which one forms the free construction.  For example, there is no way to apply transcendental functions to infinitesimals with this approach.  Presumably that could be fixed by working with $C^\infty$-[[C-infinity-ring|rings]], but no algebraic theory covers everything that can be done with real numbers (or whatever numbers you start with).
 
-Alternatively, one could [[formally complete]] the [[polynomial ring]] $R[x]$ to get the ring of [[formal power series]] $R[[x]]$. This results in a [[reduced ring|reduced]] [[local ring]] if $R$ is a [[field]]. In the case that $R$ is sequentially Cauchy complete and Archimedean ordered, then $R[[x]]$ is also sequentially Cauchy complete and Archimedean ordered; this allows for any [[analytic function]] to be defined on $R[[x]]$. 
+Alternatively, one could [[formally complete]] the [[polynomial ring]] $R[x]$ to get the ring of [[formal power series]] $R[[x]]$. This results in a [[reduced local ring]] if $R$ is a [[field]]. In the case that $R$ is an [[Archimedean ordered field]], then $R[[x]]$ is an [[Archimedean ordered reduced local ring]]; and if $R$ is [[sequentially Cauchy complete]], this allows for any [[analytic function]] to be defined on $R[[x]]$. 
+
+More generally, we work in an [[Archimedean ordered reduced local algebra|Archimedean ordered reduced local $\mathbb{R}$-algebra]]. 
 
 ## Nilpotent infinitesimals
 
