@@ -152,7 +152,7 @@ The canonical  [[ring object|local ring object]] of the [[Zariski site|gros Zari
 
 * [[subfield]]
 
-* [[ring]], [[integral domain]]
+* [[ring]]
 
 * [[finite field]], [[field with one element]]
 
@@ -177,6 +177,12 @@ The canonical  [[ring object|local ring object]] of the [[Zariski site|gros Zari
 * [[infinity-field]]
 
 * [[Kock field]]
+
+| [[commutative ring]] | [[reduced ring]] | [[integral domain]] |
+---------------------|-----------------|-----------------|
+| [[local ring]] | [[reduced local ring]] | [[local integral domain]] |
+| [[Artinian ring]] | [[semisimple ring]] | [[field]] |
+| [[Weil ring]] | [[field]] | [[field]] |
 
 ## References
 
