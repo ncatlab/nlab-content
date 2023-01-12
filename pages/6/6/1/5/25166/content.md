@@ -14,51 +14,61 @@
 
 ## Definition
 
-There are two different fundamental theorem of identity types, depending on whether identity types are defined with identity induction or based identity induction. 
+There are two different fundamental theorems of [[identity types]], depending on whether identity types are defined with plain identity induction or with based identity induction. 
 
 ### With identity induction
+ {#WithIdentityInduction}
 
-The **fundamental theorem of identity types** states that given a type $A$, a type family $x:A, y:A \vdash B(x, y)$ and a family of functions 
+The **fundamental theorem of identity types** states that given a [[type]] $A$, a [[type family]] $x:A, y:A \vdash B(x, y)$ and a [[dependent function|family of functions]] 
 
-$$x:A, y:A \vdash f(x, y):(x =_A y) \to B(x, y)$$
+$$
+  x \colon A, 
+  y \colon A 
+  \;\vdash\; 
+  f(x, y)
+  \,\colon\,
+  (x =_A y) 
+    \to 
+  B(x, y)
+$$
 
 the following conditions are equivalent:
 
-1. That for each $x:A$ the dependent sum type of the type family $y:A \vdash R(x, y)$ is a [[contractible type]]. 
-$$x:A \vdash \mathrm{ftid}(x):\mathrm{isContr}\left(\sum_{y:A} R(x, y)\right)$$
+1. For each $x:A$ the [[dependent sum type]] of the type family $y:A \vdash B(x, y)$ is a [[contractible type]]. 
+$$x:A \vdash \mathrm{ftid}(x):\mathrm{isContr}\left(\sum_{y:A} B(x, y)\right)$$
 
-1. That there is a family of equivalences 
-$$x:A, y:A \vdash \mathrm{ftid}(x, y):(x =_A y) \simeq R(x, y)$$
+1. There is a family of [[equivalence in type theory|equivalences]] 
+$$x:A, y:A \vdash \mathrm{ftid}(x, y):(x =_A y) \simeq B(x, y)$$
 
-1. That $R(x, y)$ is an [[identity system]]. 
+1. $B(x, y)$ is an [[identity system]]. 
 
-1. That for each $x:A$ and $y:A$, the function $f(x, y)$ is an [[equivalence of types]]
+1. For each $x:A$ and $y:A$, the function $f(x, y)$ is an [[equivalence of types]]
 $$x:A, y:A, \vdash \mathrm{ftid}(x, y):\mathrm{isEquiv}(f(x, y))$$
 
-1. That $f(x, y)$ has a [[retraction]] 
-$$x:A, y:A \vdash \mathrm{ftid}(x, y):R(x, y) \to (x =_A y)$$
-$$x:A, y:A, r:R(x, y) \vdash G(x, y):f(x, y, \mathrm{ftid}(x, y, r)) =_{R(x, y)} r$$
+1. $f(x, y)$ has a [[retraction]] 
+$$x:A, y:A \vdash \mathrm{ftid}(x, y):B(x, y) \to (x =_A y)$$
+$$x:A, y:A, r:B(x, y) \vdash G(x, y):f(x, y, \mathrm{ftid}(x, y, r)) =_{B(x, y)} r$$
 
 ### With based identity induction
 
-The **fundamental theorem of identity types** states that given a type $A$, an element $a:A$, a type family $x:A \vdash B(x)$ and a family of functions 
+The **fundamental theorem of identity types** states that given a [[type]] $A$, an [[term|element]] $a:A$, a [[type family]] $x:A \vdash B(x)$ and a [[dependent function|family of functions]] 
 
 $$x:A \vdash f(x):(a =_A x) \to B(x)$$
 
 the following conditions are equivalent:
 
-1. That the dependent sum type of the type family $x:A \vdash B(x)$ is a [[contractible type]]. 
+1. The dependent sum type of the type family $x:A \vdash B(x)$ is a [[contractible type]]. 
 $$\mathrm{ftid}:\mathrm{isContr}\left(\sum_{x:A} B(x)\right)$$
 
-1. That there is a family of equivalences 
+1. There is a family of equivalences 
 $$x:A \vdash \mathrm{ftid}(x):(a =_A x) \simeq B(x)$$
 
-1. That $B(x)$ equipped with $f(\mathrm{refl}_A(a)):B(a)$ is an [[identity system]]. 
+1. $B(x)$ equipped with $f(\mathrm{refl}_A(a)):B(a)$ is an [[identity system]]. 
 
-1. That for each $x:A$, the function $f(x)$ is an [[equivalence of types]]
+1. For each $x:A$, the function $f(x)$ is an [[equivalence of types]]
 $$x:A \vdash \mathrm{ftid}(x):\mathrm{isEquiv}(f(x))$$
 
-1. That for each $x:A$, $f(x)$ has a [[retraction]] 
+1. For each $x:A$, $f(x)$ has a [[retraction]] 
 $$x:A \vdash \mathrm{ftid}(x):B(x) \to (a =_A x)$$
 $$x:A, b:B(x) \vdash G(x):f(x, \mathrm{ftid}(x, r)) =_{B(x)} r$$
 
