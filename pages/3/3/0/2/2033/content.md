@@ -58,7 +58,11 @@ A dual condition is noetherian: a __[[noetherian ring]]__ is a ring satisfying t
 
 * [[artinian object]]
 
-* [[local Artin ring]]
+| [[commutative ring]] | [[reduced ring]] | [[integral domain]] |
+---------------------|-----------------|-----------------|
+| [[local ring]] | [[reduced local ring]] | [[local integral domain]] |
+| [[Artinian ring]] | [[semisimple ring]] | [[field]] |
+| [[Weil ring]] | [[field]] | [[field]] |
 
 ## References
 
