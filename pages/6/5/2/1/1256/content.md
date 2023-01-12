@@ -51,6 +51,8 @@ $$x + y = 1 \vdash (\exists z.x \cdot z = 1) \vee (\exists z.y \cdot z = 1)$$
 
 * Similar examples are the theories of a [[discrete field]].
 
+* The theory of an [[apartness relation]] is coherent. The irreflexivity axiom is expressed as $(x \# x) \vdash \bot$, the symmetry axiom is expressed as $(x \# y) \vdash (y \# x)$, and the comparison axiom is expressed as $(x \# z) \vdash \exists y.(x \# y) \vee (y \# z)$. However, the "tightness" axiom $\neg(x\# y) \vdash (x=y)$ in [[tight apartness relations]] is not coherent since it uses negation. 
+
 * The theory of a [[total order]] is coherent, though also not algebraic.  The theory of a [[partial order]] is [[essentially algebraic theory|essentially algebraic]], but the totality axiom $\vdash_{x,y} (x\le y) \vee (y\le x)$ is coherent but not essentially algebraic.
 
 * The theory of a [[linear order]] is (seemingly) not coherent if we use the "connectedness" axiom $(x\nless y), (y\nless x) \vdash (x=y)$, which is not coherent since negation is not allowed in coherent formulas.  We can express one outer negation, however, as in the irreflexivity axiom $(x\lt x)\vdash \bot$. Another solution is to use the "trichotomy" axiom $\top \vdash (x=y) \vee (x\lt y) \vee (y\lt x)$ instead, in order to get an axiomatisation of "coherent" linear orderings.
@@ -102,6 +104,7 @@ However, here is a property which one might expect coherent theories to have, bu
 
 * [[geometric category]], [[geometric functor]], [[geometric logic]], [[geometric theory]]
 
+* [[coherent mathematics]]
 
 ## References
 
