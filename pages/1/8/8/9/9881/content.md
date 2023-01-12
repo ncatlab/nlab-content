@@ -300,3 +300,8 @@ Scattering amplitudes of highly excited strings:
 [[!redirects string scattering]]
 
 [[!redirects string perturbation series]]
+
+
+[[!redirects string amplitude]]
+[[!redirects string amplitudes]]
+
