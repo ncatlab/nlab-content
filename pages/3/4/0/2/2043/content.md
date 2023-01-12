@@ -46,6 +46,22 @@ The Jacobson radical of a [[formal power series algebra]] consists of those form
 
 =--
 
++-- {: .num_example #JacobsonRadicalOfLocalRing}
+###### Example
+**(Jacobson radical of [[local ring]])**
+
+The Jacobson radical of a [[local ring]] is the set of non-invertible elements.
+
+=--
+
++-- {: .num_example #JacobsonRadicalOfPossiblyTrivialLocalRing}
+###### Example
+**(Jacobson radical of a possibly trivial [[local ring]])**
+
+The Jacobson radical of a possibly trivial [[local ring]] $R$ is the set of elements $x \in R$ such that $x$ being invertible implies that $0 = 1$.
+
+=--
+
 ## Related concepts
 
 * [[radical]]
@@ -57,6 +73,9 @@ The Jacobson radical of a [[formal power series algebra]] consists of those form
 * EoM: [Jacobson radical](https://encyclopediaofmath.org/wiki/Jacobson_radical)
 
 * Wikipedia, _[Jacobson radical](https://en.wikipedia.org/wiki/Jacobson_radical#Examples)_
+
+* {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) &lbrack;[doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf)&rbrack;
+
 [[!redirects Jacobson ideal]]
 
 [[!redirects Jacobson radicals]]
