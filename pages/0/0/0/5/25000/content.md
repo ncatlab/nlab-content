@@ -34,6 +34,8 @@ Equivalently, a Heyting field is:
 
 * a [[local ring]] which is both [[reduced ring|reduced]] and [[Artinian ring|Artinian]]. 
 
+* a [[local ring]] which is a [[semiprimitive ring]]. 
+
 \begin{remark}\label{TrivialRingAsAField}
 In [Lombardi & Quitté (2010)](#LombardiQuitté2010), the authors' definition of Heyting field do not include the non-equational axiom $1 \neq 0$. Instead, they define non-invertible to mean that if the element is invertible, then $1 = 0$. With such a definition, the [[trivial ring]] counts as a Heyting field and constitutes the [[terminal object]] in the [[category|categories]] of Heyting fields.
 \end{remark}
