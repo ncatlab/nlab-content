@@ -11,6 +11,7 @@ Unlike [[Archimedean ordered fields]], which require arithmetic [[Heyting pretop
 * [[Archimedean ordered field]]
 * [[ordered local ring]]
 * [[Archimedean ordered Artinian local ring]]
+* [[Archimedean ordered reduced local ring]]
 
 [[!redirects Archimedean ordered local ring]]
 [[!redirects Archimedean ordered local rings]]
