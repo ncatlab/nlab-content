@@ -24,7 +24,7 @@ $$x:A, y:A \vdash f(x, y):(x =_A y) \to B(x, y)$$
 
 the following conditions are equivalent:
 
-1. That for each $x:A$ the type of elements $y:A$ such that $R(x, y)$ is a [[contractible type]]. 
+1. That for each $x:A$ the dependent sum type of the type family $y:A \vdash R(x, y)$ is a [[contractible type]]. 
 $$x:A \vdash \mathrm{ftid}(x):\mathrm{isContr}\left(\sum_{y:A} R(x, y)\right)$$
 
 1. That there is a family of equivalences 
@@ -32,10 +32,10 @@ $$x:A, y:A \vdash \mathrm{ftid}(x, y):(x =_A y) \simeq R(x, y)$$
 
 1. That $R(x, y)$ is an [[identity system]]. 
 
-1. That for each $x:A$ and $y:A$, the function $\mathrm{idtofam}(x, y)$ is an [[equivalence of types]]
+1. That for each $x:A$ and $y:A$, the function $f(x, y)$ is an [[equivalence of types]]
 $$x:A, y:A, \vdash \mathrm{ftid}(x, y):\mathrm{isEquiv}(f(x, y))$$
 
-1. That $\mathrm{idtofam}(x, y)$ has a [[retraction]] 
+1. That $f(x, y)$ has a [[retraction]] 
 $$x:A, y:A \vdash \mathrm{ftid}(x, y):R(x, y) \to (x =_A y)$$
 $$x:A, y:A, r:R(x, y) \vdash G(x, y):f(x, y, \mathrm{ftid}(x, y, r)) =_{R(x, y)} r$$
 
