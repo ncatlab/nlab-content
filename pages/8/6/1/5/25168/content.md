@@ -27,5 +27,7 @@ Unlike the [[theory]] of [[ordered fields]], the theory of ordered reduced local
 
 * [[ordered field]]
 
+* [[Archimedean ordered reduced local ring]]
+
 [[!redirects ordered reduced local ring]]
 [[!redirects ordered reduced local rings]]
