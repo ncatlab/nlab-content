@@ -32,7 +32,7 @@ The downside of this approach is that the resulting infinitesimal numbers will b
 
 Alternatively, one could [[formally complete]] the [[polynomial ring]] $R[x]$ to get the ring of [[formal power series]] $R[[x]]$. This results in a [[reduced local ring]] if $R$ is a [[field]]. In the case that $R$ is an [[Archimedean ordered field]], then $R[[x]]$ is an [[Archimedean ordered reduced local ring]]; and if $R$ is [[sequentially Cauchy complete]], this allows for any [[analytic function]] to be defined on $R[[x]]$. 
 
-More generally, we work in an [[Archimedean ordered reduced local algebra|Archimedean ordered reduced local $\mathbb{R}$-algebra]]. 
+More generally, we work in an arbitrary [[Archimedean ordered reduced local algebra|Archimedean ordered reduced local $R$-algebra]]. 
 
 ## Nilpotent infinitesimals
 
