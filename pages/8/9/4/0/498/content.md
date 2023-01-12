@@ -168,9 +168,11 @@ Possible to-dos: say something about $m$-adic topology, completion, Zariski topo
 
 * [[weak local ring]]
 
-* [[Artinian local ring]]
-
-* [[reduced local ring]]
+| [[commutative ring]] | [[reduced ring]] | [[integral domain]] |
+---------------------|-----------------|-----------------|
+| [[local ring]] | [[reduced local ring]] | [[local integral domain]] |
+| [[Artinian ring]] | [[semisimple ring]] | [[field]] |
+| [[Weil ring]] | [[field]] | [[field]] |
 
 ## References
 
