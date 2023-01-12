@@ -1,3 +1,15 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 ## Idea
@@ -27,3 +39,8 @@ The first three definitions are interdefinable with each other in [[dependent ty
 
 [[!redirects dependent function]]
 [[!redirects dependent functions]]
+
+[[!redirects family of functions]]
+[[!redirects families of functions]]
+
+
