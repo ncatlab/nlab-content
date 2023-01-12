@@ -31,13 +31,24 @@ Since coherent logic does not have a negation operator in the logic, it is manif
 
 Since coherent mathematics does not have negation, one cannot use negation to define [[denial inequality]] as the [[negation]] of [[equality]]. In particular, what fails is that the definition of denial inequality involves a double implication 
 $$((a = b) \implies \bot) \implies (a \neq b)$$ 
-which is not allowed in coherent mathematics. On the level of coherent [[sequents]], single implications $\phi \implies \psi$ are expressed as [[entailment]], the sequent $\phi \vdash \psi$. But double implications $(\phi \implies \psi) \implies \varphi$ become the sequent $(\phi \implies \psi) \vdash \varphi$, which cannot be simplified down further to get rid of the remaining implication. Instead, one has to use the positive notion of [[apartness relation]] to express the notion of "not being equal". 
+which is not allowed in coherent mathematics. On the level of coherent [[sequents]], single implications $\phi \implies \psi$ are expressed as [[entailment]], the sequent $\phi \vdash \psi$. But double implications $(\phi \implies \psi) \implies \varphi$ become the sequent $(\phi \implies \psi) \vdash \varphi$, which cannot be simplified down further to get rid of the remaining implication. Instead, one has to use the positive notion of [[apartness relation]] $a \# b$ to express the notion of "not being equal". 
 
-Similarly to the fact that one cannot define denial inequality in coherent mathematics, one cannot define a [[tight apartness relation]], since the definition involves negation of an apartness relation. As a result, concepts such as [[Heyting fields]] which are important in [[constructive mathematics]] cannot be defined, and one has to use alternative concepts such as [[local rings]] instead. 
+Similarly to the fact that one cannot define denial inequality in coherent mathematics, one cannot define a [[tight apartness relation]], since the definition involves negation of an apartness relation implying equality, which is a double implication 
+$$((a \# b) \implies \bot) \implies (a = b)$$ 
+As a result, concepts such as [[Heyting fields]] which are important in [[constructive mathematics]] cannot be defined, and one has to use alternative concepts such as [[local rings]] instead. 
 
-Other things have to be expressed positively as well - for example, in the definition of a [[local ring]], one cannot say that the non-invertible elements form an [[ideal]]; one has to say that the invertible elements form an [[anti-ideal]]. Furthermore, in the definition of an anti-ideal itself, one cannot say that $0$ is not in the anti-ideal. One has to say that every element in the ideal is apart from zero, $0 \# a$; and this means that anti-ideals are only definable in rings which come equipped with an [[apartness relation]]. 
+Other things have to be expressed positively as well - for example, in the definition of a [[local ring]], one cannot say that the non-invertible elements form an [[ideal]] $I \subseteq A$, since that would involve an implication
+$$((\exists y \in R.x \cdot y = 1) \implies \bot) \vdash x \in I$$
+or in the structural case with injection $i:I \hookrightarrow R$, 
+$$((\exists y \in R.x \cdot y = 1) \implies \bot) \vdash \exists z \in I.i(z) = x$$
+Instead, one has to say that the invertible elements form an [[anti-ideal]] $A \subseteq R$. 
+$$\exists y \in R.x \cdot y = 1 \vdash x \in A \quad \mathrm{material}$$
+$$\exists y \in R.x \cdot y = 1 \vdash \exists z \in A.i(z) = x \quad \mathrm{structural}$$
+Furthermore, in the definition of an anti-ideal itself, when one says that $0$ is not in the anti-ideal, one has to express it as a sequent $0 \in A \vdash \bot$, or in the structural case with injection $i:A \hookrightarrow R$, that $\exists x \in A.i(x) = 0 \vdash \bot$. Alternatively, if the set has an apartness relation one could just say that every element in the ideal is apart from zero, $0 \# x$. 
 
-Sets with [[decidable equality]] are however still definable in coherent mathematics; they are sets $S$ equipped with an [[apartness relation]] such that for all elements $a \in S$ and $b \in S$, $a = b$ or $a \# b$. This means that one could work in predicative [[classical mathematics]] (i.e. a [[Boolean category]]) by stipulating that every set has decidable equality. 
+Sets with [[decidable equality]] are however still definable in coherent mathematics; they are sets $S$ equipped with an [[apartness relation]] such that for all elements $a \in S$ and $b \in S$, $a = b$ or $a \# b$. This is expressed by the sequent
+$$a \in S, b \in S \vdash (a = b) \vee (a \# b)$$
+This means that one could work in predicative [[classical mathematics]] (i.e. a [[Boolean category]]) by stipulating that every set has decidable equality. 
 
 ## See also
 
