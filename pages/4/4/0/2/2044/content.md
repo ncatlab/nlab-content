@@ -1,4 +1,18 @@
 
+> Not to be confused with *[[nilradical]]*, the [[ideal]] of [[nilpotent elements]]. 
+
+---
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
