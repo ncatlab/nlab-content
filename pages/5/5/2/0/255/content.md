@@ -125,7 +125,7 @@ Some monads arise from [[operad]]s, in which case algebras for the monad are the
 ### Relation to adjunctions and monadicity
  {#RelationToAdjunctionsAndMonadicity}
 
-Every [[adjunction]] $(L \dashv R)$ induces a monad $R \circ L$ and a [[comonad]] $L \circ R$. There is in general more than one adjunction which gives rise to a given monad this way, in fact there is a [[category]] of adjunctions for a given monad. The [[initial object]] in that category is the adjunction over the [[Kleisli category]] of the monad and the [[terminal object]] is that over the [[Eilenberg-Moore category]] of algebras. (e.g. [Borceux, vol. 2, prop. 4.2.2](#Borceux)) The latter is called the _[[monadic adjunction]]_.
+Every [[adjunction]] $(L \dashv R)$ induces a monad $R \circ L$ and a [[comonad]] $L \circ R$. There is in general more than one adjunction which gives rise to a given monad this way, in fact there is a [[category]] of adjunctions for a given monad. An adjunction inducing a monad $T$ is called a **resolution of $T$**. The [[initial object]] in that category is the adjunction over the [[Kleisli category]] of the monad and the [[terminal object]] is that over the [[Eilenberg-Moore category]] of algebras. (e.g. [Borceux, vol. 2, prop. 4.2.2](#Borceux)) The latter is called the _[[monadic adjunction]]_.
 
 Moreover, passing from [[adjunctions]] to monads and back to their [[monadic adjunctions]] constitutes itself an [[adjunction]] between adjunctions and monads, called the _[[semantics-structure adjunction]]_.
 
