@@ -16,6 +16,9 @@
 * [[formal neighbourhood of the diagonal]]
 
 
+[[!redirects formally complete]]
+
+[[!redirects formal completion]]
 [[!redirects formal completions]]
 
 [[!redirects adic completion]]
