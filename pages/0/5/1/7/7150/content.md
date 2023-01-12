@@ -58,8 +58,15 @@ On [[M2-M5 brane bound states]]:
 
 New approach to construction of candidate [[Lagrangian densities]] for [[D=6 N=(2,0) SCFTs]]:
 
-
 * [[Neil Lambert]], _$(2,0)$ Lagrangian Structures_, Physics Letters B Volume 798, 10 November 2019, 134948 ([arXiv:1908.10752](https://arxiv.org/abs/1908.10752))
+
+Description of the [[D=6 N=(1,0) SCFT]] induced form a non-[[Lorentz group|Lorentz]] invariant 5d Lagrangian:
+
+* [[Neil Lambert]], Tristan Orchard, *Non-Lorentzian Avatars of $(1,0)$ Theories*, J. High Energ. Phys. **2021** 205 (2021) &lbrack;[arXiv:2011.06968](https://arxiv.org/abs/2011.06968), <a href="https://doi.org/10.1007/JHEP02(2021)205">doi:10.1007/JHEP02(2021)205</a>&rbrack;
+
+reviewed in:
+
+* [[Neil Lambert]], *A non-Lorentzian View of the M5-brane*,  talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Lambert2023)&rbrack;
 
 
 ## Related $n$Lab entries
