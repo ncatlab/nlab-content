@@ -105,6 +105,25 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A, p:x =_A x, \vdash K(x, p)
 
 The uniqueness rule for identity types is usually not included in objective type theory. However, if it were included in objective type theory it turns the type theory into a [[set-level type theory]]. 
 
+### Structural rules for definitions
+
+Now that we have finally defined identity types, we can define the structural rules for term definitions. The structural rules for term definitions say that given a term $a:A$ and a term definition $b \coloneqq a:A$, one could derive that $b$ is a term of $A$, and that there is an identification between $b$ and $a$:
+
+$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash a:A \quad \Gamma \vdash b \coloneqq a:A}{\Gamma \vdash \delta_A(a, b):b =_A a}$$
+
+The structural rules for type definitions are the natural deduction rules for [[copying]] types, with formation and introduction rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{copy}(a):B}$$
+
+elimination rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash e:B}{\Gamma \vdash \mathrm{ind}_{B}^C(c, e):C[e/z]}$$
+
+computation rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_B:\mathrm{ind}_{B}^C(c, \mathrm{copy}(a)) =_{C[\mathrm{copy}(a)/z]} c[a/x]}$$
+
+and uniqueness rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash e:B \quad \Gamma, y:B \vdash u:C \quad \Gamma, a:A \vdash i_\mathrm{copy}(u):u[\mathrm{copy}(a)/y] =_{C[\mathrm{copy}(a)/y]} c[a/x]}{\Gamma \vdash \eta_{B}:u[e/z] =_{C[e/z]} \mathrm{ind}_{B}^C(c, e)}$$
+
 ### Dependent identity types
 
 The rules for dependent identity types are as follows:
@@ -159,40 +178,7 @@ A family of elements $x:A \vdash f(x):B$ is an equivalence if it comes with a fa
 $$y:B \vdash \epsilon(f)(y):\exists! x:A.f(x) =_B y$$
 which states that for all $y:B$ the there is a unique $x:A$ such that $f(x) =_B y$. 
 
-### Structural rules for definitions
-
-Now that we have finally defined identity types, we can define the structural rules for term definitions. The structural rules for term definitions say that given a term $a:A$ and a term definition $b \coloneqq a:A$, one could derive that $b$ is a term of $A$, and that there is an identification between $b$ and $a$:
-
-$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash a:A \quad \Gamma \vdash b \coloneqq a:A}{\Gamma \vdash \delta_A(a, b):b =_A a}$$
-
-The structural rules for type definitions say that given a type $A$ and a type definition $B \coloneqq A \; \mathrm{type}$, one could derive that $B$ is a type, and that there is an equivalence between $B$ and $A$:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma, a:A \vdash \mathrm{copy}(a):B}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma, b:B \vdash u(b):\exists!a:A.\mathrm{copy}(a) =_B b}$$
-
-### Equivalence types
-
-Formation rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
-
-Introduction rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B \quad \Gamma, y:B \vdash u(y):\exists!x:A.f(x) =_B y}{\Gamma \vdash \mathrm{equiv}(f, u):A \simeq B}$$
-
-Elimination rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, x:A \vdash \mathrm{ev}(f, x):B}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, y:B \vdash \mathrm{uniq}(f, y):\exists!x:A.f(x) =_B y}$$
-
-Computation rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B \quad \Gamma, y:B \vdash u(y):\exists!x:A.f(x) =_B y}{\Gamma, x:A \vdash \beta_{A \simeq B}^{\mathrm{ev}}(x):\mathrm{ev}(\mathrm{equiv}(f, u), x) =_B f(x)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B \quad \Gamma, y:B \vdash u(y):\exists!x:A.f(x) =_B y}{\Gamma, y:B \vdash \beta_{A \simeq B}^{\mathrm{uniq}}(y):\mathrm{uniq}(\mathrm{equiv}(f, u), y) =_{\exists!x:A.(-) =_B y}^{\beta_{A \simeq B}^{\mathrm{ev}}(x)} u(y)}$$
-
-Uniqueness rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B \vdash \eta_{A \simeq B}(f):\mathrm{equiv}(\mathrm{ev}(f), \mathrm{uniq}(f)) =_{A \simeq B} f}$$
-
-### Univalent universes
+### Judgmentally univalent universes
 
 Universes are internal models of [[dependent type theory]] inside of the type theory itself. An universe consists of a type of encodings for types $\mathcal{U}$ and a universal type family $\mathcal{T}$ which takes the encodings and returns an actual type, resulting in the formation and type reflection rules for universes:
 
@@ -200,41 +186,45 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathcal{U} \; \mathrm{type}} \qqu
 
 Given an encoding $A:\mathcal{U}$, an internal type family indexed by $A$ is a function $B:\mathcal{T}(A) \to \mathcal{U}$. 
 
-A universe is univalent if for all encodings $A:\mathcal{U}$ there is a unique encoding $B:\mathcal{U}$ up to identity such that $\mathcal{T}(A) \simeq \mathcal{T}(B)$. This is given by the following rule
+A universe is judgmentally univalent if an identity $f:A =_\mathcal{U} B$ is the same as an equivalence $x:\mathcal{T}(A) \vdash f(x):\mathcal{T}(B)$. This is given by the following rules:
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A:\mathcal{U} \vdash \mathrm{univalence}(A):\exists!B:\mathcal{U}.\mathcal{T}(A) \simeq \mathcal{T}(B)}$$
+Introduction rules:
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash f(x):\mathcal{T}(B) \quad \Gamma, y:\mathcal{T}(B) \vdash u(y):\exists!x:\mathcal{T}(A).f(x) =_{\mathcal{T}(B)} y}{\Gamma \vdash \mathrm{equiv}(f, u):A =_\mathcal{U} B}$$
 
-Universes are usually also required to be closed under all the type formers introduced previously.
+Elimination rules:
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma, f:A =_\mathcal{U} B, x:\mathcal{T}(A) \vdash \mathrm{ev}(f, x):T(B)}$$
 
-#### Internal identity types
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma, f:A =_\mathcal{U} B, y:\mathcal{T}(B) \vdash \mathrm{uniq}(f, y):\exists!x:\mathcal{T}(A).f(x) =_{\mathcal{T}(B)} y}$$
 
-A universe $\mathcal{U}$ is closed under identity types if it has an internal encoding of identity types in the universe: there is a family of elements 
-$$A:\mathcal{U}, a:\mathcal{T}(A), b:\mathcal{T}(A) \vdash \mathrm{Id}^\mathcal{U}(A, a, b):\mathcal{U}$$
-and a family of equivalences 
-$$A:\mathcal{U}, a:\mathcal{T}(A), b:\mathcal{T}(A) \vdash \delta_{\mathrm{Id}}^{\mathcal{U}}(A, a, b):\mathcal{T}(\mathrm{Id}^\mathcal{U}(A, a, b)) \simeq (a =_{\mathcal{T}(A)} b)$$
+Computation rules:
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash f(x):\mathcal{T}(B) \quad \Gamma, y:\mathcal{T}(B) \vdash u(y):\exists!x:\mathcal{T}(A).f(x) =_{\mathcal{T}(B)} y}{\Gamma, x:\mathcal{T}(A) \vdash \beta_{A =_\mathcal{U} B}^{\mathrm{ev}}(x):\mathrm{ev}(\mathrm{equiv}(f, u), x) =_{\mathcal{T}(B)} f(x)}$$
 
-The rules for the internal identity types are thus given by
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash f(x):\mathcal{T}(B) \quad \Gamma, y:\mathcal{T}(B) \vdash u(y):\exists!x:\mathcal{T}(A).f(x) =_{\mathcal{T}(B)} y}{\Gamma, y:T(B) \vdash \beta_{A =_\mathcal{U} B}^{\mathrm{uniq}}(y):\mathrm{uniq}(\mathrm{equiv}(f, u), y) =_{\exists!x:\mathcal{T}(A).(-) =_{\mathcal{T}(B)} y}^{\beta_{A =_U B}^{\mathrm{ev}}(x)} u(y)}$$
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A:\mathcal{U}, a:\mathcal{T}(A), b:\mathcal{T}(A) \vdash \mathrm{Id}^\mathcal{U}(A, a, b):\mathcal{U}}$$ 
+Uniqueness rules:
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma, f:A =_\mathcal{U} B \vdash \eta_{A =_\mathcal{U} B}(f):\mathrm{equiv}(\mathrm{ev}(f), \mathrm{uniq}(f)) =_{A =_\mathcal{U} B} f}$$
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A:\mathcal{U}, a:\mathcal{T}(A), b:\mathcal{T}(A) \vdash \delta_{\mathrm{Id}}^{\mathcal{U}}(A, a, b):\mathcal{T}(\mathrm{Id}^\mathcal{U}(A, a, b)) \simeq (a =_{\mathcal{T}(A)} b)}$$
+### Internal identity types
 
-### Subsingletons and singletons
+A universe $\mathcal{U}$ is closed under identity types if for each element $A:\mathcal{U}$, $a:\mathcal{T}(A)$, and $b:\mathcal{T}(A)$, there is an element $\mathrm{Id}^\mathcal{U}(A, a, b):\mathcal{U}$ which behaves as the internal encoding of the identity type $a =_A b$ in the universe
 
-Identity types allow us to establish when a type is a subsingleton and singletons. 
 
-A subsingleton is a type $A$ with a family of identities $a:A, b:B \vdash \mathrm{trunc}(a, b):a =_A b$. Subsingletons are important because they are used to build the logic in objective type theory, and thus are also called [[propositions]]. 
+Formation rule for identity types:
+$$\frac{\Gamma \vdash A:\mathcal{U}}{\Gamma, a:\mathcal{T}(A), b:\mathcal{T}(A) \vdash \mathrm{Id}^\mathcal{U}(A, a, b):\mathcal{U}}$$
 
-A singleton is a type $A$ with an element $a:A$ and either 
+Introduction rule for identity types:
+$$\frac{\Gamma \vdash A:\mathcal{U}}{\Gamma, a:\mathcal{T}(A) \vdash \mathrm{refl}_A^\mathcal{U}(a) : \mathcal{T}(\mathrm{Id}^\mathcal{U}(A, a, a))}$$
 
-* a family of identities $b:A \vdash \eta_A(b):a =_A b$ stating that $a$ is a [[center of contraction]] of $A$ (axiom K style)
-* a family of identities $b:A, c:B \vdash \mathrm{trunc}(b, c):b =_A c$ stating that $A$ is a [[subsingleton]] (UIP style)
+Elimination rule for identity types:
+$$\frac{\Gamma, x:\mathcal{T}(A), y:\mathcal{T}(A), p:\mathcal{T}(\mathrm{Id}^\mathcal{U}(A, x, y)) \vdash C:\mathcal{U} \quad \Gamma, a:\mathcal{T}(A) \vdash t:\mathcal{T}(C[a, a, \mathrm{refl}_A^\mathcal{U}(a)/x, y, p])}{\Gamma, x:\mathcal{T}(A), y:\mathcal{T}(A), p:\mathcal{T}(\mathrm{Id}^\mathcal{U}(A, x, y)) \vdash J(t, x, y, p):\mathcal{T}(C)}$$
 
-Singletons are also called [[contractible types]] or [[true]] types. Equivalently, a singleton is a type $A$ with 
+Computation rules for identity types:
+$$\frac{\Gamma, x:\mathcal{T}(A), y:\mathcal{T}(A), p:\mathcal{T}(\mathrm{Id}^\mathcal{U}(A, x, y)) \vdash C:\mathcal{U} \quad \Gamma, a:\mathcal{T}(A) \vdash t:\mathcal{T}(C[a, a, \mathrm{refl}_A^\mathcal{U}(a)/x, y, p])}{\Gamma, a:\mathcal{T}(A) \vdash \beta_{\mathrm{Id}^\mathcal{U}(A)}(a) : J(t, a, a, \mathrm{refl}_A^\mathcal{U}(a)) =_{\mathcal{T}(C[a, a, \mathrm{refl}_A^\mathcal{U}(a)/x, y, p])} t}$$
+
+Optional uniqueness rules for identity types:
+$$\frac{\Gamma \vdash A:\mathcal{U}}{\Gamma, x:\mathcal{T}(A), p:\mathcal{T}(\mathrm{Id}^\mathcal{U}(A, x, x)), \vdash \eta_{\mathrm{Id}^\mathcal{U}(A)}(x, p):p =_{\mathcal{T}(\mathrm{Id}^\mathcal{U}(A, x, x))} \mathrm{refl}_A^\mathcal{U}(x)}$$
 
 ### Unit type
-
-We specify a particular singleton called the [[unit type]], which comes with rules stating that one could form the unit type $\mathbb{1}$, the generic element $*:\mathbb{1}$, and a family of identities stating that $\mathbb{1}$ is a singleton: 
 
 Formation rule for the unit type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1} \; \mathrm{type}}$$
@@ -419,18 +409,18 @@ A universe $\mathcal{U}$ is closed under sum types if it for each element $A:\ma
 Formation rules for internal sum types:
 $$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma \vdash A +_\mathcal{U} B:\mathcal{U}}$$
 
-Introduction rules for internal types:
+Introduction rules for internal sum types:
 $$\frac{\Gamma \vdash a:\mathcal{T}(A)}{\Gamma \vdash \mathrm{inl}(a):\mathcal{T}(A +_\mathcal{U} B)} \qquad \frac{\Gamma \vdash b:\mathcal{T}(B)}{\Gamma \vdash \mathrm{inr}(b):\mathcal{T}(A +_\mathcal{U} B)}$$
 
-Elimination rules for internal types:
+Elimination rules for internal sum types:
 $$\frac{\Gamma, z:\mathcal{T}(A +_\mathcal{U} B) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash c(x):\mathcal{T}(C(\mathrm{inl}(x))_ \quad \Gamma, y:\mathcal{T}(B) \vdash d(y):\mathcal{T}(C(\mathrm{inr}(y)))}{\Gamma, z:\mathcal{T}(A +_\mathcal{U} B) \vdash \mathrm{ind}_{A +_\mathcal{U} B}^C(c(x), d(y)):\mathcal{T}(C)}$$
 
-Computation rules for internal types:
+Computation rules for internal sum types:
 $$\frac{\Gamma, z:\mathcal{T}(A +_\mathcal{U} B) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash c(x):\mathcal{T}(C(\mathrm{inl}(x))) \quad \Gamma, y:\mathcal{T}(B) \vdash d(y):\mathcal{T}(C(\mathrm{inr}(y))) \quad \Gamma \vdash a:\mathcal{T}(A)}{\Gamma \vdash \beta_1:\mathrm{ind}_{A + B}^C(c(x), d(y))(\mathrm{inl}(a)) =_{\mathcal{T}(C(\mathrm{inl}(a)))} c(a)}$$
 
 $$\frac{\Gamma, z:\mathcal{T}(A +_\mathcal{U} B) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash c(x):\mathcal{T}(C(\mathrm{inl}(x))) \quad \Gamma, y:\mathcal{T}(B) \vdash d(y):\mathcal{T}(C(\mathrm{inr}(y))) \quad \Gamma \vdash b:\mathcal{T}(B)}{\Gamma \vdash \beta_2:\mathrm{ind}_{A +_\mathcal{U} B}^C(c(x), d(y))(\mathrm{inr}(b)) =_{\mathcal{T}(C(\mathrm{inr}(b)))} d(b)}$$
 
-Uniqueness rules for internal types:
+Uniqueness rules for internal sum types:
 $$\frac{\Gamma, z:\mathcal{T}(A +_\mathcal{U} B) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash c(x):\mathcal{T}(C(\mathrm{inl}(x))) \quad \Gamma, y:\mathcal{T}(B) \vdash d(y):\mathcal{T}(C(\mathrm{inr}(y))) \quad \Gamma, x:\mathcal{T}(A +_\mathcal{U} B) \vdash u:\mathcal{T}(C) \quad \Gamma, a:\mathcal{T}(A) \vdash i_\mathrm{inl}(u):u(\mathrm{inl}(a)) =_{\mathcal{T}(C(\mathrm{inl}(a)))} c(a) \quad \Gamma, b:\mathcal{T}(B) \vdash i_\mathrm{inr}(u):u(\mathrm{inr}(b)) =_{\mathcal{T}(C(\mathrm{inr}(b)))} d(b)}{\Gamma, z:\mathcal{T}(A +_\mathcal{U} B) \vdash \eta_{A + B}:u(z) =_{\mathcal{T}(C(z))} \mathrm{ind}_{A +_\mathcal{U} B}^C(c(\mathrm{inl}(z)), d(\mathrm{inl}(z)))(z)}$$
 
 ### Empty type
@@ -474,14 +464,24 @@ $$\frac{\Gamma, x:\mathbb{2} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C
 Uniqueness rules for the booleans:
 $$\frac{\Gamma, x:\mathbb{2} \vdash C \; \mathrm{type} \quad \Gamma, x:\mathbb{2} \vdash c:C}{\Gamma, x:\mathbb{2} \vdash \eta_\mathbb{2}(c):c =_{C} \mathrm{ind}_\mathbb{2}^{C}(c[0/x], c[1/x])}$$
 
-#### Internal booleans type
+A universe $\mathcal{U}$ is closed under the booleans if it has an element which behaves as an internal encoding of the booleans in the universe: 
 
-A universe $\mathcal{U}$ is closed under the booleans type if it has an internal encoding of the booleans type in the universe: there is an element $\mathbb{2}_\mathcal{U}:\mathcal{U}$, and an equivalence
-$$\mathrm{canonical}_{\mathbb{2}}^{\mathcal{U}}:\mathcal{T}(\mathbb{2}_\mathcal{U}) \simeq \mathbb{2}$$
+Formation rules for the internal booleans:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{2}_\mathcal{U}:\mathcal{U}}$$
 
-The rules for the internal booleans type are thus given by
+Introduction rules for the internal booleans:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathcal{T}(\mathbb{2}_\mathcal{U})} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathcal{T}(\mathbb{2}_\mathcal{U})}$$
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{2}_\mathcal{U}:\mathcal{U}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{canonical}_{\mathbb{2}}^{\mathcal{U}}:\mathcal{T}(\mathbb{2}_\mathcal{U}) \simeq \mathbb{2}}$$
+Elimination rules for the internal booleans:
+$$\frac{\Gamma, x:\mathcal{T}(\mathbb{2}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma \vdash c_0:\mathcal{T}(C[0/x]) \quad \Gamma \vdash c_1:\mathcal{T}(C[1/x])}{\Gamma, x:\mathcal{T}(\mathbb{2}_\mathcal{U}) \vdash \mathrm{ind}_{\mathbb{2}_\mathcal{U}}^{C}(c_0, c_1):\mathcal{T}(C)}$$
+
+Computation rules for the internal booleans:
+$$\frac{\Gamma, x:\mathcal{T}(\mathbb{2}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma \vdash c_0:\mathcal{T}(C[0/x]) \quad \Gamma \vdash c_1:\mathcal{T}(C[1/x])}{\Gamma \vdash \beta_{\mathbb{2}_\mathcal{U}}^{0}: \mathrm{ind}_{\mathbb{2}_\mathcal{U}}^{C}(c_0, c_1)[0/x] =_{\mathcal{T}(C[0/x])} c_0}$$
+
+$$\frac{\Gamma, x:\mathcal{T}(\mathbb{2}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma \vdash c_0:\mathcal{T}(C[0/x]) \quad \Gamma \vdash c_1:\mathcal{T}(C[1/x])}{\Gamma \vdash \beta_{\mathbb{2}_\mathcal{U}}^{0}: \mathrm{ind}_{\mathbb{2}_\mathcal{U}}^{C}(c_0, c_1)[0/x] =_{\mathcal{T}(C[1/x])} c_1}$$
+
+Uniqueness rules for the internal booleans:
+$$\frac{\Gamma, x:\mathcal{T}(\mathbb{2}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(\mathbb{2}_\mathcal{U}) \vdash c:\mathcal{T}(C)}{\Gamma, x:\mathcal{T}(\mathbb{2}_\mathcal{U}) \vdash \eta_{\mathbb{2}_\mathcal{U}}(c):c =_{\mathcal{T}(C)} \mathrm{ind}_{\mathbb{2}_\mathcal{U}}^{C}(c[0/x], c[1/x])}$$
 
 ### Natural numbers
 
@@ -502,14 +502,24 @@ $$\frac{\Gamma, x:\mathbb{N} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C
 Uniqueness rules for the natural numbers:
 $$\frac{\Gamma, x:\mathbb{N} \vdash C \; \mathrm{type} \quad \Gamma, x:\mathbb{N} \vdash c:C}{\Gamma, x:\mathbb{N} \vdash \eta_\mathbb{N}(c):c =_{C} \mathrm{ind}_\mathbb{N}^{C}(c[0/x], c[s(x)/x])}$$
 
-#### Internal natural numbers type
+A universe $\mathcal{U}$ is closed under the booleans if it has an element which behaves as an internal encoding of the natural numbers in the universe: 
 
-A universe $\mathcal{U}$ is closed under the natural numbers type if it has an internal encoding of the natural numbers type in the universe: there is an element $\mathbb{N}_\mathcal{U}:\mathcal{U}$, and an equivalence
-$$\mathrm{canonical}_{\mathbb{N}}^{\mathcal{U}}:\mathcal{T}(\mathbb{N}_\mathcal{U}) \simeq \mathbb{N}$$
+Formation rules for the internal natural numbers:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{N}_\mathcal{U}:\mathcal{U}}$$
 
-The rules for the internal natural numbers type are thus given by
+Introduction rules for the internal natural numbers:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathcal{T}(\mathbb{N}_\mathcal{U})} \qquad \frac{\Gamma \vdash n:\mathcal{T}(\mathbb{N}_\mathcal{U})}{\Gamma \vdash s(n):\mathcal{T}(\mathbb{N}_\mathcal{U})}$$
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{N}_\mathcal{U}:\mathcal{U}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{canonical}_{\mathbb{N}}^{\mathcal{U}}:\mathcal{T}(\mathbb{N}_\mathcal{U}) \simeq \mathbb{N}}$$
+Elimination rules for the internal natural numbers:
+$$\frac{\Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma \vdash c_0:\mathcal{T}(C[0/x]) \quad \Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}), c:\mathcal{T}(C) \vdash c_s:\mathcal{T}(C[s(x)/x])}{\Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}) \vdash \mathrm{ind}_{\mathbb{N}_\mathcal{U}}^C(c_0, c_s):\mathcal{T}(C)}$$
+
+Computation rules for the internal natural numbers:
+$$\frac{\Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma \vdash c_0:\mathcal{T}(C[0/x]) \quad \Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}), c:\mathcal{T}(C) \vdash c_s:\mathcal{T}(C[s(x)/x])}{\Gamma \vdash \beta_{\mathbb{N}_\mathcal{U}}^{0}: \mathrm{ind}_{\mathbb{N}_\mathcal{U}}^C(c_0, c_s)[0/x] =_{\mathcal{T}(C[0/x])} c_0}$$
+
+$$\frac{\Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma \vdash c_0:\mathcal{T}(C[0/x]) \quad \Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}), c:\mathcal{T}(C) \vdash c_s:\mathcal{T}(C[s(x)/x])}{\Gamma \vdash \beta_{\mathbb{N}_\mathcal{U}}^{s(n)}: \mathrm{ind}_{\mathbb{N}_\mathcal{U}}^C(c_0, c_s)[s(n)/x] =_{\mathcal{T}(C[s(n)/x])} c_s(n, \mathrm{ind}_{\mathbb{N}_\mathcal{U}}^C(c_0, c_s)[n/x])}$$
+
+Uniqueness rules for the internal natural numbers:
+$$\frac{\Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}) \vdash c:\mathcal{T}(C)}{\Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}) \vdash \eta_{\mathbb{N}_\mathcal{U}}(c):c =_{\mathcal{T}(C)} \mathrm{ind}_{\mathbb{N}_\mathcal{U}}^{C}(c[0/x], c[s(x)/x])}$$
 
 ## Categorical semantics
 
