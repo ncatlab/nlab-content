@@ -28,7 +28,7 @@ $$\alpha(a, b, c) \coloneqq a \cdot b \cdot c$$
 
 Let $\mathrm{TwoSidedIdeals}(R)$ be the [[category of two-sided ideals]] in $R$, whose objects are [[two-sided ideals]] $I$ in $R$, [[subbimodules|sub-$R$-$R$-bimodules]] of $R$ with respect to the canonical bimodule structure on $R$, and whose [[morphisms]] are $R$-$R$-[[bimodule monomorphisms]]. 
 
-An ascending chain of two-sided ideals in $R$ is a [[direct sequence]] of two-sided ideals in $R$, a [[sequence]] of two-sided ideals $A:\mathbb{N} \to \mathrm{TwoSidedIdeals}(R)$ with the following [[dependent type|dependent sequence]] of $R$-$R$-bimodule monomorphisms: for natural number $n \in \mathbb{N}$, a dependent $R$-$R$-bimodule monomorphism $i_n:A_{n} \hookrightarrow A_{n+1}$. 
+An ascending chain of two-sided ideals in $R$ is a [[direct sequence]] of two-sided ideals in $R$, a [[sequence]] of two-sided ideals $A:\mathbb{N} \to \mathrm{TwoSidedIdeals}(R)$ with the following [[dependent sequence]] of $R$-$R$-bimodule monomorphisms: for natural number $n \in \mathbb{N}$, a dependent $R$-$R$-bimodule monomorphism $i_n:A_{n} \hookrightarrow A_{n+1}$. 
 
 A [[ring]] $R$ is **Noetherian** if it satisfies the [[ascending chain condition]] on its two-sided ideals: for every ascending chain of two-sided ideals $(A, i_n)$ in $R$, there exists a natural number $m \in \mathbb{N}$ such that for all natural numbers $n \geq m$, the $R$-$R$-bimodule monomorphism $i_n:A_{n} \hookrightarrow A_{n+1}$ is an $R$-$R$-[[bimodule isomorphism]]. 
 
@@ -36,7 +36,7 @@ A [[ring]] $R$ is **Noetherian** if it satisfies the [[ascending chain condition
 
 Let $\mathrm{LeftIdeals}(R)$ be the category of [[left ideals]] in $R$, whose objects are [[left ideals]] $I$ in $R$, sub-left-$R$-modules of $R$ with respect to the canonical [[left module]] structure $(-)\cdot(-):R \times R \to R$ on $R$, and whose [[morphisms]] are left $R$-module monomorphisms. 
 
-An ascending chain of left ideals in $R$ is a [[direct sequence]] of left ideals in $R$, a [[sequence]] of left ideals $A:\mathbb{N} \to \mathrm{LeftIdeals}(R)$ with the following [[dependent type|dependent sequence]] of left $R$-module monomorphisms: for natural number $n \in \mathbb{N}$, a dependent left $R$-module monomorphism $i_n:A_{n} \hookrightarrow A_{n+1}$. 
+An ascending chain of left ideals in $R$ is a [[direct sequence]] of left ideals in $R$, a [[sequence]] of left ideals $A:\mathbb{N} \to \mathrm{LeftIdeals}(R)$ with the following [[dependent sequence]] of left $R$-module monomorphisms: for natural number $n \in \mathbb{N}$, a dependent left $R$-module monomorphism $i_n:A_{n} \hookrightarrow A_{n+1}$. 
 
 A [[ring]] $R$ is **left Noetherian** if it satisfies the [[ascending chain condition]] on its left ideals: for every ascending chain of left ideals $(A, i_n)$ in $R$, there exists a natural number $m \in \mathbb{N}$ such that for all natural numbers $n \geq m$, the left $R$-module monomorphism $i_n:A_{n} \hookrightarrow A_{n+1}$ is an left $R$-module isomorphism. 
 
@@ -44,7 +44,7 @@ A [[ring]] $R$ is **left Noetherian** if it satisfies the [[ascending chain cond
 
 Let $\mathrm{RightIdeals}(R)$ be the category of [[right ideals]] in $R$, whose objects are [[right ideals]] $I$ in $R$, sub-right-$R$-modules of $R$ with respect to the canonical [[right module]] structure $(-)\cdot(-):R \times R \to R$ on $R$, and whose [[morphisms]] are right $R$-module monomorphisms. 
 
-An ascending chain of right ideals in $R$ is a [[direct sequence]] of right ideals in $R$, a [[sequence]] of right ideals $A:\mathbb{N} \to \mathrm{RightIdeals}(R)$ with the following [[dependent type|dependent sequence]] of right $R$-module monomorphisms: for natural number $n \in \mathbb{N}$, a dependent right $R$-module monomorphism $i_n:A_{n} \hookrightarrow A_{n+1}$. 
+An ascending chain of right ideals in $R$ is a [[direct sequence]] of right ideals in $R$, a [[sequence]] of right ideals $A:\mathbb{N} \to \mathrm{RightIdeals}(R)$ with the following [[dependent sequence]] of right $R$-module monomorphisms: for natural number $n \in \mathbb{N}$, a dependent right $R$-module monomorphism $i_n:A_{n} \hookrightarrow A_{n+1}$. 
 
 A [[ring]] $R$ is **right Noetherian** if it satisfies the [[ascending chain condition]] on its right ideals: for every ascending chain of right ideals $(A, i_n)$ in $R$, there exists a natural number $m \in \mathbb{N}$ such that for all natural numbers $n \geq m$, the right $R$-module monomorphism $i_n:A_{n} \hookrightarrow A_{n+1}$ is an right $R$-module isomorphism. 
 
