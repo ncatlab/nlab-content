@@ -75,5 +75,7 @@ Let $D$ be the [[ideal]] of all non-invertible elements in $R$. Then the quotien
 
 * [[ordered reduced local ring]]
 
+* [[ordered local integral domain]]
+
 [[!redirects ordered local ring]]
 [[!redirects ordered local rings]]
