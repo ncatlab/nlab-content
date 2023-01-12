@@ -32,6 +32,8 @@ Equivalently, a Heyting field is:
 
 * a local ring $R$ such that the canonical [[apartness relation]] $\#$ --- defined as $a \# b$ if and only if $a - b$ is invertible --- is a [[tight apartness relation]]. 
 
+* a [[local ring]] which is both [[reduced ring|reduced]] and [[Artinian ring|Artinian]]. 
+
 \begin{remark}\label{TrivialRingAsAField}
 In [Lombardi & Quitté (2010)](#LombardiQuitté2010), the authors' definition of Heyting field do not include the non-equational axiom $1 \neq 0$. Instead, they define non-invertible to mean that if the element is invertible, then $1 = 0$. With such a definition, the [[trivial ring]] counts as a Heyting field and constitutes the [[terminal object]] in the [[category|categories]] of Heyting fields.
 \end{remark}
@@ -90,6 +92,10 @@ From the lemmas above, if every Johnstone residue field with decidable equality 
 
 * [[local ring]]
 
+* [[reduced local ring]]
+
+* [[Artinian local ring]]
+
 * [[ordered field]]
 
 ## References
@@ -102,3 +108,7 @@ From the lemmas above, if every Johnstone residue field with decidable equality 
 [[!redirects Heyting fields]]
 [[!redirects heyting field]]
 [[!redirects heyting fields]]
+
+[[!redirects reduced Artinian local ring]]
+[[!redirects reduced local Artinian ring]]
+[[!redirects Artinian reduced local ring]]
