@@ -245,12 +245,16 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:\mathbb{1}}$$
 Uniqueness rules for the unit type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, p:\mathbb{1} \vdash \eta_\mathbb{1}(p):* =_\mathbb{1} p}$$
 
-A universe $\mathcal{U}$ is closed under the unit type if it has an internal encoding of the unit type in the universe: there is an element $\mathbb{1}_\mathcal{U}:\mathcal{U}$, and an equivalence
-$$\delta_{\mathbb{1}}^{\mathcal{U}}:\mathcal{T}(\mathbb{1}_\mathcal{U}) \simeq \mathbb{1}$$
+A universe $\mathcal{U}$ is closed under the unit type if it has an element which behaves as an internal encoding of the unit type in the universe: 
 
-The rules for the internal unit type are thus given by
+Formation rule for the internal unit type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1}:\mathcal{U}}$$
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1}_\mathcal{U}:\mathcal{U}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \delta_{\mathbb{1}}^{\mathcal{U}}:\mathcal{T}(\mathbb{1}_\mathcal{U}) \simeq \mathbb{1}}$$
+Introduction rule for the internal unit type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:\mathcal{T}(\mathbb{1})}$$
+
+Uniqueness rules for the internal unit type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, p:\mathcal{T}(\mathbb{1}) \vdash \eta_{\mathcal{T}(\mathbb{1})}(p):* =_{\mathcal{T}(\mathbb{1})} p}$$
 
 ### Function types
 
@@ -264,19 +268,27 @@ Elimination rules for function types:
 $$\frac{\Gamma \vdash f:A \to B \quad \Gamma \vdash a:A}{\Gamma \vdash f(a):B}$$
 
 Computation rules for function types:
-$$\frac{\Gamma, x:A \vdash b(x):B \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{\to}:(x \mapsto b(x))(a) =_{B} b}$$
+$$\frac{\Gamma, x:A \vdash b(x):B \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{A \to B}:(x \mapsto b(x))(a) =_{B} b}$$
 
 Uniqueness rules for function types:
-$$\frac{\Gamma \vdash f:A \to B}{\Gamma \vdash \eta_{\to}:f =_{A \to B} (x \to f(x))}$$
+$$\frac{\Gamma \vdash f:A \to B}{\Gamma \vdash \eta_{A \to B}:f =_{A \to B} (x \to f(x))}$$
 
-#### Internal function types
+A universe $\mathcal{U}$ is closed under function types if for each element $A:\mathcal{U}$ and $B:\mathcal{U}$ there is an element $A \to_\mathcal{U} B:\mathcal{U}$ which behaves as the internal encoding of the function type $A \to B$ in the universe
 
-A universe $\mathcal{U}$ is closed under function types if it has an internal encoding of function types in the universe: given an element $A:\mathcal{U}$ and an element $B:\mathcal{U}$, there is an element $A \to_\mathcal{U} B:\mathcal{U}$, and an equivalence
-$$\mathrm{canonical}_{\to}^{\mathcal{U}}(A, B):\mathcal{T}(A \to_\mathcal{U} B) \simeq \mathcal{T}(A) \to \mathcal{T}(B)$$
+Formation rules for internal function types:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A:\mathcal{U}, B:\mathcal{U} \vdash A \to_\mathcal{U} B:\mathcal{U}}$$
 
-The rules for the internal function types are thus given by
+Introduction rules for internal function types:
+$$\frac{\Gamma, x:\mathcal{T}(A) \vdash b(x):\mathcal{T}(B)}{\Gamma \vdash (x \mapsto b(x)):\mathcal{T}(A \to_\mathcal{U} B)}$$
 
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma \vdash A \to_\mathcal{U} B:\mathcal{U}} \qquad \frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma \vdash \mathrm{canonical}_{\to}^{\mathcal{U}}(A, B):\mathcal{T}(A \to_\mathcal{U} B) \simeq \mathcal{T}(A) \to \mathcal{T}(B)}$$
+Elimination rules for internal function types:
+$$\frac{\Gamma \vdash f:\mathcal{T}(A \to_\mathcal{U} B) \quad \Gamma \vdash a:\mathcal{T}(A)}{\Gamma \vdash f(a):\mathcal{T}(B)}$$
+
+Computation rules for internal function types:
+$$\frac{\Gamma, x:\mathcal{T}(A) \vdash b(x):\mathcal{T}(B) \quad \Gamma \vdash a:\mathcal{T}(A)}{\Gamma \vdash \beta_{A \to_\mathcal{U} B}:(x \mapsto b(x))(a) =_{\mathcal{T}(B)} b}$$
+
+Uniqueness rules for internal function types:
+$$\frac{\Gamma \vdash f:\mathcal{T}(A \to_\mathcal{U} B)}{\Gamma \vdash \eta_{A \to_\mathcal{U} B}:f =_{\mathcal{T}(A \to_\mathcal{U} B)} (x \to f(x))}$$
 
 ### Pi types
 
@@ -295,14 +307,22 @@ $$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \bet
 Uniqueness rules for Pi types:
 $$\frac{\Gamma \vdash f:\prod_{x:A} B(x)}{\Gamma \vdash \eta_\Pi:f =_{\prod_{x:A} B(x)} \lambda(x).f(x)}$$
 
-#### Internal pi types
+A universe $\mathcal{U}$ is closed under pi types if for each element $A:\mathcal{U}$ and family of elements $x:A \vdash B(x):\mathcal{U}$ there is an element $\Pi_\mathcal{U}(x:A).B(x):\mathcal{U}$ which behaves as the internal encoding of the pi type $\prod_{x:A} B(x)$ in the universe
 
-A universe $\mathcal{U}$ is closed under pi types if it has an internal encoding of pi types in the universe: given an element $A:\mathcal{U}$ and a function $B:\mathcal{T}(A) \to \mathcal{U}$, there is an element $\Pi_\mathcal{U}(x:A).B(x):\mathcal{U}$, and an equivalence
-$$\mathrm{canonical}_\Pi^{\mathcal{U}}(A, B):\mathcal{T}(\Pi_\mathcal{U}(x:A).B(x)) \simeq \prod_{x:\mathcal{T}(A)} \mathcal{T}(B(x))$$
+Formation rules for internal Pi types:
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash B(x):\mathcal{U}}{\Gamma \vdash \Pi_\mathcal{U}(x:A).B(x):\mathcal{U}}$$
 
-The rules for the internal pi types are thus given by
+Introduction rules for internal Pi types:
+$$\frac{\Gamma, x:\mathcal{T}(A) \vdash b(x):\mathcal{T}(B(x))}{\Gamma \vdash \lambda(x:A).b(x):\mathcal{T}(\Pi_\mathcal{U}(x:A).B(x))}$$
 
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{T}(A) \to \mathcal{U}}{\Gamma \vdash \Pi_\mathcal{U}(x:A).B(x):\mathcal{U}} \qquad \frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{T}(A) \to \mathcal{U}}{\Gamma \vdash \mathrm{canonical}_\Pi^{\mathcal{U}}(A, B):\mathcal{T}(\Pi_\mathcal{U}(x:A).B(x)) \simeq \prod_{x:\mathcal{T}(A)} \mathcal{T}(B(x))}$$
+Elimination rules for internal Pi types:
+$$\frac{\Gamma \vdash f:\mathcal{T}(\Pi_\mathcal{U}(x:A).B(x)) \quad \Gamma \vdash a:\mathcal{T}(A)}{\Gamma \vdash f(a):\mathcal{T}(B[a/x])}$$
+
+Computation rules for internal Pi types:
+$$\frac{\Gamma, x:\mathcal{T}(A) \vdash b(x):\mathcal{T}(B(x)) \quad \Gamma \vdash a:\mathcal{T}(A)}{\Gamma \vdash \beta_{\Pi_\mathcal{U}(x:A).B(x)}:\lambda(x:A).b(x)(a) =_{\mathcal{T}(B[a/x])} b[a/x]}$$
+
+Uniqueness rules for internal Pi types:
+$$\frac{\Gamma \vdash f:\mathcal{T}(\Pi_\mathcal{U}(x:A).B(x))}{\Gamma \vdash \eta_{\Pi_\mathcal{U}(x:A).B(x)}:f =_{\mathcal{T}(\Pi_\mathcal{U}(x:A).B(x))} \lambda(x).f(x)}$$
 
 ### Product types
 
@@ -323,14 +343,22 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} 
 Uniqueness rules for product types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma\vdash B \; \mathrm{type} \quad \Gamma, z:A \times B \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[(x, y)/z] \quad \Gamma, z:A \times B \vdash u:C \quad \Gamma, x:A, y:B \vdash i_{(-,-)}(u):u[(x, y)/z] =_{C[(x, y)/z]} c}{\Gamma, z:A \times B \vdash \eta_{A \times B}^C(c):u =_{C} \mathrm{ind}_{A \times B}^C(c)}$$
 
-#### Internal product types
+A universe $\mathcal{U}$ is closed under product types if it for each element $A:\mathcal{U}$ and $B:\mathcal{U}$, there is an element $A \times_\mathcal{U} B:\mathcal{U}$ which behaves as the internal encoding of the product type $A \times B$ in the universe
 
-A universe $\mathcal{U}$ is closed under product types if it has an internal encoding of product types in the universe: given an element $A:\mathcal{U}$ and an element $B:\mathcal{U}$, there is an element $A \times_\mathcal{U} B:\mathcal{U}$, and an equivalence
-$$\mathrm{canonical}_{\times}^{\mathcal{U}}(A, B):\mathcal{T}(A \times_\mathcal{U} B) \simeq \mathcal{T}(A) \times \mathcal{T}(B)$$
+Formation rules for internal product types:
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma \vdash A \times_\mathcal{U} B:\mathcal{U}}$$
 
-The rules for the internal product types are thus given by
+Introduction rules for internal product types:
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B) \vdash (x, y):\mathcal{T}(A \times_\mathcal{U} B)}$$
 
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma \vdash A \times_\mathcal{U} B:\mathcal{U}} \qquad \frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma \vdash \mathrm{canonical}_{\to}^{\mathcal{U}}(A, B):\mathcal{T}(A \times_\mathcal{U} B) \simeq \mathcal{T}(A) \times \mathcal{T}(B)}$$
+Elimination rules for internal product types:
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U} \quad \Gamma, z:\mathcal{T}(A \times_\mathcal{U} B) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B) \vdash c:\mathcal{T}(C[(x, y)/z)]}{\Gamma, z:\mathcal{T}(A \times_\mathcal{U} B) \vdash \mathrm{ind}_{A \times_\mathcal{U} B}^C(c):\mathcal{T}(C)}$$
+
+Computation rules for internal product types:
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U} \quad \Gamma, z:\mathcal{T}(A \times_\mathcal{U} B) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B) \vdash c:\mathcal{T}(C[(x, y)/z])}{\Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B) \vdash \beta_{A \times_\mathcal{U} B}^C(c):\mathrm{ind}_{A \times_\mathcal{U} B}^C(c)[(x, y)/z] =_{\mathcal{T}(C[(x, y)/z])} c}$$
+
+Uniqueness rules for internal product types:
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U} \quad \Gamma, z:\mathcal{T}(A \times_\mathcal{U} B) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B) \vdash c:\mathcal{T}(C[(x, y)/z]) \quad \Gamma, z:\mathcal{T}(A \times_\mathcal{U} B) \vdash u:\mathcal{T}(C) \quad \Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B) \vdash i_{(-,-)}(u):u[(x, y)/z] =_{\mathcal{T}(C[(x, y)/z])} c}{\Gamma, z:\mathcal{T}(A \times_\mathcal{U} B) \vdash \eta_{A \times_\mathcal{U} B}^C(c):u =_{\mathcal{T}(C)} \mathrm{ind}_{A \times_\mathcal{U} B}^C(c)}$$
 
 ### Sigma types
 
@@ -351,14 +379,22 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{t
 Uniqueness rules for sigma types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, z:\Sigma (x:A).B(x) \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[\mathrm{in}(x, y)/z] \quad \Gamma, z:\Sigma (x:A).B(x) \vdash u:C \quad \Gamma, x:A, y:B \vdash i_\mathrm{in}(u):u[\mathrm{in}(x, y)/z] =_{C[\mathrm{in}(x, y)/z]} c}{\Gamma, e:\Sigma (x:A).B(x) \vdash \eta_{\Sigma (x:A).B(x)}^C(c):u[e/z] =_{C[e/z]} \mathrm{ind}_{\Sigma (x:A).B(x)}^C(c)[e/z]}$$
 
-#### Internal sigma types
+A universe $\mathcal{U}$ is closed under sigma types if for each element $A:\mathcal{U}$ and family of elements $x:A \vdash B(x):\mathcal{U}$ there is an element $\Sigma_\mathcal{U}(x:A).B(x):\mathcal{U}$ which behaves as the internal encoding of the sigma type $\Sigma(x:A).B(x)$ in the universe
 
-A universe $\mathcal{U}$ is closed under sigma types if it has an internal encoding of sigma types in the universe: given an element $A:\mathcal{U}$ and a function $B:\mathcal{T}(A) \to \mathcal{U}$, there is an element $\Sigma_\mathcal{U}(x:A).B(x):\mathcal{U}$, and an equivalence
-$$\mathrm{canonical}_\Sigma^{\mathcal{U}}(A, B):\mathcal{T}(\Sigma_\mathcal{U}(x:A).B(x)) \simeq \sum_{x:\mathcal{T}(A)} \mathcal{T}(B(x))$$
+Formation rules for internal sigma types:
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash B:\mathcal{U}}{\Gamma \vdash \Sigma_\mathcal{U} (x:A).B(x):\mathcal{U}}$$
 
-The rules for the internal sigma types are thus given by
+Introduction rules for internal sigma types:
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash B:\mathcal{U}}{\Gamma, x:A, y:B \vdash \mathrm{in}(x, y):\mathcal{T}(\Sigma_\mathcal{U} (x:A).B(x))}$$
 
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{T}(A) \to \mathcal{U}}{\Gamma \vdash \Sigma_\mathcal{U}(x:A).B(x):\mathcal{U}} \qquad \frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{T}(A) \to \mathcal{U}}{\Gamma \vdash \mathrm{canonical}_\Sigma^{\mathcal{U}}(A, B):\mathcal{T}(\Pi_\mathcal{U}(x:A).B(x)) \simeq \sum_{x:\mathcal{T}(A)} \mathcal{T}(B(x))}$$
+Elimination rules for internal sigma types:
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash B:\mathcal{U} \quad \Gamma, z:\mathcal{T}(\Sigma (x:A).B(x)) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B(x)) \vdash c:\mathcal{T}(C[\mathrm{in}(x, y)/z])}{\Gamma, z:\mathcal{T}(\Sigma_\mathcal{U} (x:A).B(x)) \vdash \mathrm{ind}_{\Sigma_\mathcal{U} (x:A).B(x)}^C(c):\mathcal{T}(C)}$$
+
+Computation rules for internal sigma types:
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma, x:A \vdash B:\mathcal{U} \quad \Gamma, z:\mathcal{T}(\Sigma_\mathcal{U} (x:A).B(x)) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B(x)) \vdash c:\mathcal{T}(C[\mathrm{in}(x, y)/z])}{\Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B(x)) \vdash \beta_{\Sigma_\mathcal{U} (x:A).B(x)}^C(c):\mathrm{ind}_{\Sigma_\mathcal{U} (x:A).B(x)}^C(c)[\mathrm{in}(x, y)/z] =_{\mathcal{T}(C[\mathrm{in}(x, y)/z])} c}$$
+
+Uniqueness rules for internal sigma types:
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash B:\mathcal{U} \quad \Gamma, z:\mathcal{T}(\Sigma_\mathcal{U} (x:A).B(x)) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B(x)) \vdash c:\mathcal{T}(C[\mathrm{in}(x, y)/z]) \quad \Gamma, z:\mathcal{T}(\Sigma_\mathcal{U} (x:A).B(x)) \vdash u:\mathcal{T}(C) \quad \Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B(x)) \vdash i_\mathrm{in}(u):u[\mathrm{in}(x, y)/z] =_{\mathcal{T}(C[\mathrm{in}(x, y)/z])} c}{\Gamma, e:\mathcal{T}(\Sigma_\mathcal{U} (x:A).B(x)) \vdash \eta_{\Sigma_\mathcal{U} (x:A).B(x)}^C(c):u[e/z] =_{\mathcal{T}(C[e/z])} \mathrm{ind}_{\Sigma_\mathcal{U} (x:A).B(x)}^C(c)[e/z]}$$
 
 ### Sum types
 
@@ -378,14 +414,24 @@ $$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c(x):
 Uniqueness rules for sum types:
 $$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c(x):C(\mathrm{inl}(x)) \quad \Gamma, y:B \vdash d(y):C(\mathrm{inr}(y)) \quad \Gamma, x:A + B \vdash u:C \quad \Gamma, a:A \vdash i_\mathrm{inl}(u):u(\mathrm{inl}(a)) =_{C(\mathrm{inl}(a))} c(a) \quad \Gamma, b:B \vdash i_\mathrm{inr}(u):u(\mathrm{inr}(b)) =_{C(\mathrm{inr}(b))} d(b)}{\Gamma, z:A + B \vdash \eta_{A + B}:u(z) =_{C(z)} \mathrm{ind}_{A + B}^C(c(\mathrm{inl}(z)), d(\mathrm{inl}(z)))(z)}$$
 
-#### Internal sum types
+A universe $\mathcal{U}$ is closed under sum types if it for each element $A:\mathcal{U}$ and $B:\mathcal{U}$, there is an element $A +_\mathcal{U} B:\mathcal{U}$ which behaves as the internal encoding of the sum type $A + B$ in the universe
 
-A universe $\mathcal{U}$ is closed under sum types if it has an internal encoding of sum types in the universe: given an element $A:\mathcal{U}$ and an element $B:\mathcal{U}$, there is an element $A +_\mathcal{U} B:\mathcal{U}$, and an equivalence
-$$\mathrm{canonical}_{+}^{\mathcal{U}}(A, B):\mathcal{T}(A +_\mathcal{U} B) \simeq \mathcal{T}(A) + \mathcal{T}(B)$$
+Formation rules for internal sum types:
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma \vdash A +_\mathcal{U} B:\mathcal{U}}$$
 
-The rules for the internal sum types are thus given by
+Introduction rules for internal types:
+$$\frac{\Gamma \vdash a:\mathcal{T}(A)}{\Gamma \vdash \mathrm{inl}(a):\mathcal{T}(A +_\mathcal{U} B)} \qquad \frac{\Gamma \vdash b:\mathcal{T}(B)}{\Gamma \vdash \mathrm{inr}(b):\mathcal{T}(A +_\mathcal{U} B)}$$
 
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma \vdash A +_\mathcal{U} B:\mathcal{U}} \qquad \frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma \vdash \mathrm{canonical}_{+}^{\mathcal{U}}(A, B):\mathcal{T}(A +_\mathcal{U} B) \simeq \mathcal{T}(A) + \mathcal{T}(B)}$$
+Elimination rules for internal types:
+$$\frac{\Gamma, z:\mathcal{T}(A +_\mathcal{U} B) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash c(x):\mathcal{T}(C(\mathrm{inl}(x))_ \quad \Gamma, y:\mathcal{T}(B) \vdash d(y):\mathcal{T}(C(\mathrm{inr}(y)))}{\Gamma, z:\mathcal{T}(A +_\mathcal{U} B) \vdash \mathrm{ind}_{A +_\mathcal{U} B}^C(c(x), d(y)):\mathcal{T}(C)}$$
+
+Computation rules for internal types:
+$$\frac{\Gamma, z:\mathcal{T}(A +_\mathcal{U} B) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash c(x):\mathcal{T}(C(\mathrm{inl}(x))) \quad \Gamma, y:\mathcal{T}(B) \vdash d(y):\mathcal{T}(C(\mathrm{inr}(y))) \quad \Gamma \vdash a:\mathcal{T}(A)}{\Gamma \vdash \beta_1:\mathrm{ind}_{A + B}^C(c(x), d(y))(\mathrm{inl}(a)) =_{\mathcal{T}(C(\mathrm{inl}(a)))} c(a)}$$
+
+$$\frac{\Gamma, z:\mathcal{T}(A +_\mathcal{U} B) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash c(x):\mathcal{T}(C(\mathrm{inl}(x))) \quad \Gamma, y:\mathcal{T}(B) \vdash d(y):\mathcal{T}(C(\mathrm{inr}(y))) \quad \Gamma \vdash b:\mathcal{T}(B)}{\Gamma \vdash \beta_2:\mathrm{ind}_{A +_\mathcal{U} B}^C(c(x), d(y))(\mathrm{inr}(b)) =_{\mathcal{T}(C(\mathrm{inr}(b)))} d(b)}$$
+
+Uniqueness rules for internal types:
+$$\frac{\Gamma, z:\mathcal{T}(A +_\mathcal{U} B) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash c(x):\mathcal{T}(C(\mathrm{inl}(x))) \quad \Gamma, y:\mathcal{T}(B) \vdash d(y):\mathcal{T}(C(\mathrm{inr}(y))) \quad \Gamma, x:\mathcal{T}(A +_\mathcal{U} B) \vdash u:\mathcal{T}(C) \quad \Gamma, a:\mathcal{T}(A) \vdash i_\mathrm{inl}(u):u(\mathrm{inl}(a)) =_{\mathcal{T}(C(\mathrm{inl}(a)))} c(a) \quad \Gamma, b:\mathcal{T}(B) \vdash i_\mathrm{inr}(u):u(\mathrm{inr}(b)) =_{\mathcal{T}(C(\mathrm{inr}(b)))} d(b)}{\Gamma, z:\mathcal{T}(A +_\mathcal{U} B) \vdash \eta_{A + B}:u(z) =_{\mathcal{T}(C(z))} \mathrm{ind}_{A +_\mathcal{U} B}^C(c(\mathrm{inl}(z)), d(\mathrm{inl}(z)))(z)}$$
 
 ### Empty type
 
@@ -398,14 +444,16 @@ $$\frac{\Gamma, x:\mathbb{0} \vdash C \; \mathrm{type}}{\Gamma, x:\mathbb{0} \vd
 Uniqueness rules for the empty type:
 $$\frac{\Gamma, x:\mathbb{0} \vdash C \; \mathrm{type} \quad \Gamma, x:\mathbb{0} \vdash c:C}{\Gamma, x:\mathbb{0} \vdash \eta_\mathbb{0}(c):c =_{C} \mathrm{ind}_\mathbb{0}^{C}}$$
 
-#### Internal empty type
+A universe $\mathcal{U}$ is closed under the empty type if it has an element which behaves as an internal encoding of the empty type in the universe: 
 
-A universe $\mathcal{U}$ is closed under the empty type if it has an internal encoding of the empty type in the universe: there is an element $\mathbb{0}_\mathcal{U}:\mathcal{U}$, and an equivalence
-$$\mathrm{canonical}_{\mathbb{0}}^{\mathcal{U}}:\mathcal{T}(\mathbb{0}_\mathcal{U}) \simeq \mathbb{0}$$
+Formation rules for the internal empty type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{0}_\mathcal{U}:\mathcal{U}}$$
 
-The rules for the internal empty type are thus given by
+Elimination rules for the internal empty type:
+$$\frac{\Gamma, x:\mathcal{T}(\mathbb{0}_\mathcal{U}) \vdash C:\mathcal{U}}{\Gamma, x:\mathcal{T}(\mathbb{0}_\mathcal{U}) \vdash \mathrm{ind}_{\mathbb{0}_\mathcal{U}}^C:\mathcal{T}(C)}$$
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{0}_\mathcal{U}:\mathcal{U}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{canonical}_{\mathbb{0}}^{\mathcal{U}}:\mathcal{T}(\mathbb{0}_\mathcal{U}) \simeq \mathbb{0}}$$
+Uniqueness rules for the internal empty type:
+$$\frac{\Gamma, x:\mathcal{T}(\mathbb{0}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(\mathbb{0}_\mathcal{U}) \vdash c:\mathcal{T}(C)}{\Gamma, x:\mathcal{T}(\mathbb{0}_\mathcal{U}) \vdash \eta_{\mathbb{0}_\mathcal{U}}(c):c =_{\mathcal{T}(C)} \mathrm{ind}_{\mathbb{0}_\mathcal{U}}^{C}}$$
 
 ### Booleans
 
