@@ -12,3 +12,5 @@
 * [[RR-field tadpole cancellation]]
 
 category: people
+
+[[!redirects Bogdan Stefański]]
