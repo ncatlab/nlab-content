@@ -23,7 +23,7 @@
 
 A **Artinian local ring** or **local Artinian ring** or **local Artin ring** or **Artin local ring** is a [[local ring]] which is also an [[Artinian ring]]. These are also called **Artinian local algebras**, **local Artinian algebras**, **Artin local algebras**, or **local Artin algebras**, since Artinian local rings are [[commutative algebras]] over the residue field $\mathbb{K}$. 
 
-In [[synthetic differential geometry]], these Artinian local algebras are usually known as _[[infinitesimally thickened point|Weil algebras]]_. 
+In [[synthetic differential geometry]], these Artinian local rings are usually known as **Weil rings** or **Weil algebras**. See _[[infinitesimally thickened point]]_ for more details. 
 
 ## Properties
 
@@ -48,7 +48,11 @@ An Artinian local algebra has a unique [[prime ideal]], which means that its [[s
 
 ## See also
 
-* [[Artinian ring]]
+| [[commutative ring]] | [[reduced ring]] | [[integral domain]] |
+---------------------|-----------------|-----------------|
+| [[local ring]] | [[reduced local ring]] | [[local integral domain]] |
+| [[Artinian ring]] | [[semisimple ring]] | [[field]] |
+| [[Weil ring]] | [[field]] | [[field]] |
 
 ## References
 
@@ -59,6 +63,10 @@ An Artinian local algebra has a unique [[prime ideal]], which means that its [[s
 Local Artinian $\infty$-algebras are discussed in
 
 * [[Jacob Lurie]], _Formal moduli problems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-X.pdf))
+
+
+[[!redirects Weil ring]]
+[[!redirects Weil rings]]
 
 [[!redirects local Artinian ring]]
 [[!redirects local Artinian rings]]
