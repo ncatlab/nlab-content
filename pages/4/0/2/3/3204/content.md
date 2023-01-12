@@ -30,9 +30,7 @@ Similarly, one can use polynomials to define infinitesimal versions of complex n
 
 The downside of this approach is that the resulting infinitesimal numbers will be subject only to those operations that apply to the category in which one forms the free construction.  For example, there is no way to apply transcendental functions to infinitesimals with this approach.  Presumably that could be fixed by working with $C^\infty$-[[C-infinity-ring|rings]], but no algebraic theory covers everything that can be done with real numbers (or whatever numbers you start with).
 
-Alternatively, one could [[formally complete]] the [[polynomial ring]] $R[x]$ to get the ring of [[formal power series]] $R[[x]]$. This results in a [[reduced local ring]] if $R$ is a [[field]]. In the case that $R$ is an [[Archimedean ordered field]], then $R[[x]]$ is an [[Archimedean ordered reduced local ring]]; and if $R$ is [[sequentially Cauchy complete]], this allows for any [[analytic function]] to be defined on $R[[x]]$. 
-
-More generally, we work in an arbitrary [[Archimedean ordered reduced local algebra|Archimedean ordered reduced local $R$-algebra]]. 
+Alternatively, one could [[formally complete]] the [[polynomial ring]] $R[x]$ to get the ring of [[formal power series]] $R[[x]]$. This results in a [[local integral domain]] if $R$ is a [[field]]. In the case that $R$ is an [[Archimedean ordered field]], then $R[[x]]$ is an [[Archimedean ordered local integral domain]]; and if $R$ is [[sequentially Cauchy complete]], this allows for any [[analytic function]] to be defined on $R[[x]]$. 
 
 ## Nilpotent infinitesimals
 
