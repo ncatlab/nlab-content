@@ -149,6 +149,8 @@ That every ideal is contained in a prime ideal is a [[prime ideal theorem]]; tha
 
 * [[modular ideal]]
 
+* [[ideal predicate]]
+
 [[!redirects ideal]]
 [[!redirects ideals]]
 
