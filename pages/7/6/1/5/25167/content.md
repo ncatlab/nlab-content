@@ -39,5 +39,7 @@ Unlike the [[theory]] of [[Heyting fields]], the theory of reduced local rings i
 
 * [[Heyting field]]
 
+* [[ordered reduced local ring]]
+
 [[!redirects reduced local ring]]
 [[!redirects reduced local rings]]
