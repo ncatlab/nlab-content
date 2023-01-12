@@ -15,7 +15,7 @@
 
 ## Definition
 
-Given a [[category]] $C$ and an object $B:C$, let $\mathrm{Mono}(B)$ be the [[category]] whose [[objects]] are [[subobjects]] of $B$ and whose [[morphisms]] are [[monomorphisms]]. A descending chain of subobjects of $B$ is an [[inverse sequence]] in $\mathrm{Mono}(B)$, a [[sequence]] of subobjects $A:\mathbb{N} \to \mathrm{Mono}(B)$ with the following [[dependent type|dependent sequence]] of monomorphisms: for [[natural number]] $n \in \mathbb{N}$, a dependent monomorphism $i_n:A_{n+1} \hookrightarrow A_{n}$. 
+Given a [[category]] $C$ and an object $B:C$, let $\mathrm{Mono}(B)$ be the [[category]] whose [[objects]] are [[subobjects]] of $B$ and whose [[morphisms]] are [[monomorphisms]]. A descending chain of subobjects of $B$ is an [[inverse sequence]] in $\mathrm{Mono}(B)$, a [[sequence]] of subobjects $A:\mathbb{N} \to \mathrm{Mono}(B)$ with the following [[dependent sequence]] of monomorphisms: for [[natural number]] $n \in \mathbb{N}$, a dependent monomorphism $i_n:A_{n+1} \hookrightarrow A_{n}$. 
 
 Given categories $C$ and $D$ with forgetful functor $F:C \to D$, an object $B$ is said to satisfy the **descending chain condition** on subobjects of $F(B)$ if for every descending chain of subobjects $(A, i_n)$ of $F(B)$, there exists a natural number $m \in \mathbb{N}$ such that for all natural numbers $n \geq m$, the monomorphism $i_n:A_{n+1} \hookrightarrow A_{n}$ is an [[isomorphism]]. 
 
