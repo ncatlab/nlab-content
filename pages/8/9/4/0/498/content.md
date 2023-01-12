@@ -29,7 +29,10 @@ Here are a few equivalent ways to phrase the combined condition:
 
 * Whenever a sum of products is invertible, for at least one of the summands, all of its multiplicands are invertible.  (This is not entirely trivial in the noncommutative case, but it\'s still correct.)
 
-* The invertible elements form an [[anti-ideal]]. 
+* The invertible elements form an [[anti-ideal]]: 
+  * $0$ is not invertible 
+  * if $a + b$ is invertible, then either $a$ is invertible or $b$ is invertible
+  * if $a \cdot b$ is invertible, then $a$ is invertible and $b$ is invertible
 
 The anti-ideal of invertible elements is in fact a minimal anti-ideal, so the [[quotient object|quotient ring]] of a local ring by its anti-ideal of invertible elements is a [[Heyting field]], the __[[residue field]]__ of the local ring.
 
