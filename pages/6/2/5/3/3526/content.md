@@ -28,6 +28,11 @@ The two pedagogical books written with Kashiwara:
 
 * links to [coursenotes](http://people.math.jussieu.fr/~schapira/lectnotes)
 
+
+On [[Alexander Grothendieck]]'s *[[Récoltes et semailles]]*:
+
+* [[Pierre Schapira]], *A truncated manuscript*, Inference-Review.com **7** 3 (Dec 2022) &lbrack;[arXiv:2301.02898](https://arxiv.org/abs/2301.02898), [doi:10.37282/991819.22.61](https://doi.org/10.37282/991819.22.61)&rbrack;
+
 [[!redirects P. Schapira]]
 
 category:people
