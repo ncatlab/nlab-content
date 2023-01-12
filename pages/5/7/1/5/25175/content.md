@@ -50,6 +50,20 @@ Sets with [[decidable equality]] are however still definable in coherent mathema
 $$a \in S, b \in S \vdash (a = b) \vee (a \# b)$$
 This means that one could work in predicative [[classical mathematics]] (i.e. a [[Boolean category]]) by stipulating that every set has decidable equality. 
 
+## Predicates, subsets, and restricted separation
+
+The [[axiom schema]] of [[restricted separation]] in the set theory axioms states that for each set $S$ and each predicate $x \in S \vdash P(x)$, one could construct 
+
+* a set $\{x \in S \vert P(x)\}$ 
+* a function $i:\{x \in S \vert P(x)\} \to S$ 
+* a predicate $y \in \{x \in S \vert P(x)\}, z \in \{x \in S \vert P(x)\}, i(y) = i(z) \vdash y = z$
+* a predicate $x \in R, \exists y \in \{x \in S \vert P(x)\}.x = i(y) \vdash P(x)$,
+* a predicate $x \in R, P(x) \vdash \exists y \in \{x \in S \vert P(x)\}.x = i(y)$
+
+This implies that $\{x \in S \vert P(x)\}$ is a [[subset]] of $S$ in the structural sense. 
+
+Assuming that the ambient logic is [[coherent logic]], restricted separation automatically implies that the sets and functions form a [[coherent category]], since the [[poset]] of [[subsets]] of each set being a [[distributive lattice]] follows from the rules for [[coherent logic]] and restricted separation. 
+
 ## See also
 
 * [[coherent logic]]
