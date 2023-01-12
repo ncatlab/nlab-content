@@ -96,6 +96,26 @@ There are stricter versions of univalence, where we replace the [[equivalence of
 
 Each of these imply the usual versions of univalence either through the structural rules for [[judgmental equality]] and [[propositional equality]], or through [[identification elimination]], [[transport]], and [[action on identifications]] for [[typal equality]]. 
 
+### Rules for judgmentally univalent universes
+
+With judgmentally univalent Tarski universes $(U, T)$, identities $p:A =_U B$ are [[equivalences of types]] $A$ and $B$. Namely, given [[uniqueness quantifiers]] in the [[dependent type theory]], one could add rules to the type theory which says that $A =_U B$ behaves as an [[equivalence type]]:
+
+Introduction rules:
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T(A) \vdash f(x):T(B) \quad \Gamma, y:T(B) \vdash u(y):\exists!x:T(A).f(x) =_{T(B)} y}{\Gamma \vdash \mathrm{equiv}(f, u):A =_U B}$$
+
+Elimination rules:
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U}{\Gamma, f:A =_U B, x:T(A) \vdash \mathrm{ev}(f, x):T(B)}$$
+
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U}{\Gamma, f:A =_U B, y:T(B) \vdash \mathrm{uniq}(f, y):\exists!x:T(A).f(x) =_{T(B)} y}$$
+
+Computation rules:
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T(A) \vdash f(x):T(B) \quad \Gamma, y:T(B) \vdash u(y):\exists!x:T(A).f(x) =_{T(B)} y}{\Gamma, x:T(A) \vdash \beta_{A =_U B}^{\mathrm{ev}}(x):\mathrm{ev}(\mathrm{equiv}(f, u), x) =_{T(B)} f(x)}$$
+
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T(A) \vdash f(x):T(B) \quad \Gamma, y:T(B) \vdash u(y):\exists!x:T(A).f(x) =_{T(B)} y}{\Gamma, y:T(B) \vdash \beta_{A =_U B}^{\mathrm{uniq}}(y):\mathrm{uniq}(\mathrm{equiv}(f, u), y) =_{\exists!x:T(A).(-) =_{T(B)} y}^{\beta_{A =_U B}^{\mathrm{ev}}(x)} u(y)}$$
+
+Uniqueness rules:
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U}{\Gamma, f:A =_U B \vdash \eta_{A =_U B}(f):\mathrm{equiv}(\mathrm{ev}(f), \mathrm{uniq}(f)) =_{A =_U B} f}$$
+
 ### Weaker versions of univalence
 
 In the context of [[function extensionality]], Ian Orton and Andrew Pitts showed [here](http://types2017.elte.hu/proc.pdf#page=93) that the univalence axiom can be simplified to the following special cases:
