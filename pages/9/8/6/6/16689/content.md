@@ -21,6 +21,8 @@ D3-brane [[instantons]] are constituted by [[D3-branes]]  [[wrapped brane|wrappe
 
 ## Related concepts
 
+* [[D(-1)-brane]]
+
 * [[non-perturbative effect]]
 
 * [[membrane instanton]]
@@ -35,4 +37,15 @@ D3-brane [[instantons]] are constituted by [[D3-branes]]  [[wrapped brane|wrappe
 
 * Sergei Alexandrov, Jan Manschot, [[Boris Pioline]], _D3-instantons, Mock Theta Series and Twistors_, JHEP 1304 (2013) 002 ([arXiv:1207.1109](http://arxiv.org/abs/1207.1109))
 
+On D-brane instantons in 0B string theory using methods from [[string field theory]]:
+
+* Joydeep Chakravarty, [[Ashoke Sen]], *Normalization of D instanton amplitudes in two dimensional type 0B string theory* &lbrack;[arXiv:2207.07138](https://arxiv.org/abs/2207.07138)&rbrack;
+
+
 [[!redirects D3-brane instanton]]
+
+[[!redirects D-brane instanton]]
+[[!redirects D-brane instantons]]
+
+
+
