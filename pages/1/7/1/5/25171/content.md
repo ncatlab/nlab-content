@@ -23,11 +23,15 @@ A **local integral domain** is a [[commutative ring]] which is both a [[local ri
 
 ## Examples
 
-* Every [[Heyting field]] is a local integral domain which is also a [[Artinian ring]]. 
+* Every [[field]] is a local integral domain which is also a [[Artinian ring]]. 
 
-* Given a [[field]] $K$, the ring of [[power series]] $K[[x]]$ is a local integral domain which is not a [[Heyting field]]. 
+* Given a [[field]] $K$, the ring of [[power series]] $K[[x]]$ is a local integral domain which is not a [[field]]. 
 
 * In general, given a local integral domain $R$, the ring of [[power series]] $R[[x]]$ is a local integral domain. 
+
+* Every [[discrete valuation ring]] is a local integral domain with a [[Dedekind-Hasse norm]]. 
+
+* Every [[finite set|finite]] local integral domain is a [[finite field]]. 
 
 ## Properties
 
@@ -36,6 +40,8 @@ Unlike the [[theory]] of [[Heyting fields]], the theory of local integral domain
 ## See also
 
 * [[ordered local integral domain]]
+
+* [[discrete valuation ring]]
 
 | [[commutative ring]] | [[reduced ring]] | [[integral domain]] |
 ---------------------|-----------------|-----------------|
