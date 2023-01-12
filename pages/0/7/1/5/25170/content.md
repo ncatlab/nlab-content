@@ -25,6 +25,8 @@ As a result, the theory of a reduced ring is a [[coherent theory]].
 
 ## See also
 
+* [[radical]]
+
 | [[commutative ring]] | [[reduced ring]] | [[integral domain]] |
 ---------------------|-----------------|-----------------|
 | [[local ring]] | [[reduced local ring]] | [[local integral domain]] |
