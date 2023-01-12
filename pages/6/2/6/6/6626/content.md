@@ -66,6 +66,17 @@ The structural axioms can of course be stated even in a material set theory, whe
 
 If a structural set theory is given by stating axioms for the [[category of sets]], then restricted separation amounts to the property that this category is a [[Heyting category]].  If it is an [[elementary topos]], then since it satisfies the power set axiom, this implies limited separation as well.  Full separation is somewhat less natural to state category-theoretically, but the combination of full separation with the structural [[axiom of collection]] is equivalent to saying that the category of sets is [[autological category|autological]].
 
+The axiom schema of restricted separation is formally expressed by the rules
+
+$$\frac{\Gamma \vdash S \; \mathrm{set} \quad \Gamma, x \in S \vdash P(x) \; \mathrm{prop}}{\Gamma \vdash \{x \in S \vert P(x)\} \; \mathrm{set}}$$
+
+$$\frac{\Gamma \vdash S \; \mathrm{set} \quad \Gamma, x \in S \vdash P(x) \; \mathrm{prop}}{\Gamma \vdash i:\{x \in S \vert P(x)\} \to S}$$
+
+$$\frac{\Gamma \vdash S \; \mathrm{set} \quad \Gamma, x \in S \vdash P(x) \; \mathrm{prop}}{\Gamma, y \in \{x \in S \vert P(x)\}, z \in \{x \in S \vert P(x)\}, i(y) = i(z) \; \mathrm{true} \vdash y = z \; \mathrm{true}}$$
+
+$$\frac{\Gamma \vdash S \; \mathrm{set} \quad \Gamma, x \in S \vdash P(x) \; \mathrm{prop}}{\Gamma, x \in R, \exists y \in \{x \in S \vert P(x)\}.x = i(y) \; \mathrm{true} \vdash P(x) \; \mathrm{true}}$$
+
+$$\frac{\Gamma \vdash S \; \mathrm{set} \quad \Gamma, x \in S \vdash P(x) \; \mathrm{prop}}{\Gamma, x \in R, P(x) \; \mathrm{true} \vdash \exists y \in \{x \in S \vert P(x)\}.x = i(y) \; \mathrm{true}}$$
 
 ## In hyperdoctrines
 
