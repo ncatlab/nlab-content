@@ -27,14 +27,32 @@ Most of the standard formalism uses [[measure theory]] as used in probability. S
 A __statistical model__ is a [[measurable function]] $P : \Theta \to \Delta(X)$, where $X$ and $\Theta$ are [[measurable spaces]] and $\Delta(X)$ is the [[simplex]] of [[probability measures]] over $X$.
 
 
-## To do 
+## Related entries
 
-statistical methods
+* [[probability]], [[probability theory]]
+
+* [[statistical inference]]
+
+* [[statistical significance]]
+
+* [[stochastic process]], 
+
+* [[statistical mechanics]]
+
+* [[time series]], 
+
+* [[Giry monad]], 
+
+* [[Bayesian reasoning]]
+
+* [[conditional expectation]]
+
+* [[information geometry]]
+
+* [[Bayesian interpretation of quantum mechanics]], 
 
 
 ## Literature
-
-* Related $n$Lab entries include [[probability]], [[stochastic process]], [[statistical mechanics]], [[statistical significance]], [[time series]], [[Giry monad]], [[Bayesian reasoning]], [[conditional expectation]], [[Bayesian interpretation of quantum mechanics]], [[information geometry]]
 
 * Michael Schmitt, _Statistics for theorists_,  quick 3-lecture intro for theoretical physicists at TASI 2020 (each around 1 and half hours) lec1 [mp4](https://physicslearning.colorado.edu/tasi/tasi_2020/videos/Schmitt%20Lecture%202/Schmitt%20Lecture%202.mp4) slides [pdf](https://physicslearning.colorado.edu/tasi/tasi_2020/lectureNotes/Schmitt%20Lecture%201.pdf), lec2 [mp4](https://physicslearning.colorado.edu/tasi/tasi_2020/videos/Schmitt%20Lecture%202/Schmitt%20Lecture%202.mp4) [pdf](https://physicslearning.colorado.edu/tasi/tasi_2020/lectureNotes/Schmitt%20Lecture%202.pdf), lec3 [mp4](https://physicslearning.colorado.edu/tasi/tasi_2020/videos/Schmitt%20Lecture%203/Schmitt%20Lecture%203.mp4) [pdf](https://physicslearning.colorado.edu/tasi/tasi_2020/lectureNotes/Schmitt%20lecture%203.pdf)
 
