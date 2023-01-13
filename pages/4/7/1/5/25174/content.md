@@ -24,7 +24,7 @@ Archimedean ordered local integral domains are important because they are the [[
 * [[Archimedean ordered field]]
 * [[Archimedean ordered local ring]]
 * [[Archimedean ordered reduced local ring]]
-* [[ordered reduced local ring]]
+* [[ordered local integral domain]]
 * [[formal power series]]
 
 [[!redirects Archimedean ordered local integral domain]]
