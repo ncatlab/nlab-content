@@ -42,6 +42,7 @@ In [[dependent type theory]], a [[type]] $A$ is a [[contractible type]] if it co
 * a *bi-invertible function* or *homotopy isomorphism*, a family of elements $x:A \vdash f(x):B$ with families of elements $y:B \vdash g(y):A$ and $y:B \vdash h(y):A$ and families of identities $x:A \vdash G(x):g(f(x)) =_A x$ and $y:B \vdash H(y):f(h(y)) =_B y$. 
 * a *coherently invertible function* or *half adjoint equivalence*, a family of elements $x:A \vdash f(x):B$ with a family of elements $y:B \vdash g(y):A$ and families of identities $x:A \vdash G(x):g(f(x)) =_A x$; $y:B \vdash H(y):f(g(y)) =_B y$; and $x:A \vdash K(x):\mathrm{ap}_f(H(x)) =_{g(f(x)) =_A x} G(f(x))$. 
 * a *quasi-invertible function* or *homotopy equivalence*, a family of elements $x:A \vdash f(x):B$ with a family of elements $y:B \vdash g(y):A$ and families of identities $x:A \vdash G(x):g(f(x)) =_A x$ and $y:B \vdash H(y):f(g(y)) =_B y$. 
+* A function $f:A \to B$ which satisfies [[copy induction]], which makes the type $B$ satisfy the [[universal property]] of a [[copy]] of $A$. 
 
 ### Strict equivalences
 
@@ -109,6 +110,25 @@ $$f:A \to B \vdash \mathrm{isEquiv}(f) \coloneqq \sum_{g:B \to A} \left(\prod_{x
 
 In all three cases, by [[function extensionality]] for the first two and additionally by [[axiom K]] or [[UIP]] for the third case, the $\mathrm{isEquiv}(f)$ type family is a [[mere proposition]] for all $f:A \to B$. Thus, we can define the [[equivalence type]] as 
 $$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{isEquiv}(f)$$
+
+#### Unary sums and rules for isEquiv
+
+Given types $A$ and $B$ and [[function]] $f:A \to B$, $f$ is an [[equivalence of types]] if $B$ satisfies the [[universal property]] of a [[unary sum]]/[[copy]] of $A$ with copy function $f:A \to B$. This means that one could define the type family $f:A \to B \vdash \mathrm{isEquiv}(f)$ using very similar natural deduction rules to the rules for [[unary sums]]:
+
+Formation rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B}{\Gamma \vdash \mathrm{isEquiv}(f) \; \mathrm{type}}$$
+
+Introduction rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma, y:B \vdash b(y):f(a) =_B y \quad \Gamma, x:A, y:B, z:f(x) =_B y \vdash \tau_A(x, y, z):a =_A x \quad \Gamma, x:A, y:B, z:f(x) =_B y \vdash \tau_B(x, y, z):b(y) =_B^{\tau_A(x, y, z)} z}{\Gamma \vdash w(a, b, \tau_A, \tau_B):\mathrm{isEquiv}(f)}$$
+
+Elimination rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma, z:\mathrm{isEquiv}(f) \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash e:B}{\Gamma \vdash \mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, e):C[e/z]}$$
+
+Computation rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma, z:\mathrm{isEquiv}(f) \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_B:\mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, f(a)) =_{C[f(a)/z]} c[a/x]}$$
+
+Uniqueness rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma, z:\mathrm{isEquiv}(f) \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash e:\mathrm{isEquiv}(f) \quad \Gamma, y:\mathrm{isEquiv}(f) \vdash u:C \quad \Gamma, a:A \vdash i_f(u):u[\mathrm{copy}(a)/y] =_{C[f(a)/y]} c[a/x]}{\Gamma \vdash \eta_{\mathrm{isEquiv}(f)}:u[e/z] =_{C[e/z]} \mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, e)}$$
 
 ### Historical note
 
