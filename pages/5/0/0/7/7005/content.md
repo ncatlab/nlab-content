@@ -100,23 +100,19 @@ Each of these imply the usual versions of univalence either through the structur
 
 ### Rules for judgmentally univalent universes
 
-With judgmentally univalent Tarski universes $(U, T)$, identities $p:A =_U B$ are [[equivalences of types]] $A$ and $B$. Namely, given [[uniqueness quantifiers]] in the [[dependent type theory]], one could add rules to the type theory which says that $A =_U B$ behaves as an [[equivalence type]]:
+With judgmentally univalent Tarski universes $(U, T)$, identities $p:A =_U B$ are [[equivalences of types]] $A$ and $B$. Namely, given [[function types]] and the [[isEquiv]] type family, one could add rules to the type theory which says that $A =_U B$ behaves as an [[equivalence type]]:
 
 Introduction rules:
-$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T(A) \vdash f(x):T(B) \quad \Gamma, y:T(B) \vdash u(y):\exists!x:T(A).f(x) =_{T(B)} y}{\Gamma \vdash \mathrm{equiv}(f, u):A =_U B}$$
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash f:T[B/X] \quad \Gamma \vdash y:\mathrm{isEquiv}(f)}{\Gamma \vdash \mathrm{equiv}(f, y):A =_U B}$$
 
 Elimination rules:
-$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U}{\Gamma, f:A =_U B, x:T(A) \vdash \mathrm{ev}(f, x):T(B)}$$
-
-$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U}{\Gamma, f:A =_U B, y:T(B) \vdash \mathrm{uniq}(f, y):\exists!x:T(A).f(x) =_{T(B)} y}$$
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash f:T[B/X] \quad \Gamma, z:A =_U B \vdash C \; \mathrm{type} \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash c:C[\mathrm{equiv}(f, y)/z]}{\Gamma, z:A =_U B \vdash \mathrm{ind}_{A =_U B}^C(c):C}$$
 
 Computation rules:
-$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T(A) \vdash f(x):T(B) \quad \Gamma, y:T(B) \vdash u(y):\exists!x:T(A).f(x) =_{T(B)} y}{\Gamma, x:T(A) \vdash \beta_{A =_U B}^{\mathrm{ev}}(x):\mathrm{ev}(\mathrm{equiv}(f, u), x) =_{T(B)} f(x)}$$
-
-$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T(A) \vdash f(x):T(B) \quad \Gamma, y:T(B) \vdash u(y):\exists!x:T(A).f(x) =_{T(B)} y}{\Gamma, y:T(B) \vdash \beta_{A =_U B}^{\mathrm{uniq}}(y):\mathrm{uniq}(\mathrm{equiv}(f, u), y) =_{\exists!x:T(A).(-) =_{T(B)} y}^{\beta_{A =_U B}^{\mathrm{ev}}(x)} u(y)}$$
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash f:T[B/X] \quad \Gamma, z:A =_U B \vdash C \; \mathrm{type} \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash c:C[\mathrm{equiv}(f, y)/z]}{\Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash \beta_{A =_U B}^C(c):\mathrm{ind}_{A =_U B}^C(c)[\mathrm{equiv}(f, y)/z] =_{C[\mathrm{equiv}(f, y)/z]} c}$$
 
 Uniqueness rules:
-$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U}{\Gamma, f:A =_U B \vdash \eta_{A =_U B}(f):\mathrm{equiv}(\mathrm{ev}(f), \mathrm{uniq}(f)) =_{A =_U B} f}$$
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash f:T[B/X] \quad \Gamma, z:A =_U B \vdash C \; \mathrm{type} \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash c:C[\mathrm{equiv}(f, y)/z] \quad \Gamma, z:A =_U B \vdash u:C \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash i_\mathrm{in}(u):u[\mathrm{equiv}(f, y)/z] =_{C[\mathrm{in}(x, y)/z]} c}{\Gamma, e:A =_U B \vdash \eta_{A =_U B}^C(c):u[e/z] =_{C[e/z]} \mathrm{ind}_{A =_U B}^C(c)[e/z]}$$
 
 ### Weaker versions of univalence
 
