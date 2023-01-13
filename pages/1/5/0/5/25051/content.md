@@ -35,7 +35,7 @@ Archimedean ordered Artinian local rings are important because they are the [[or
 
 ### Purely real and purely infinitesimal elements
 
-Suppose that $K$ is an [[Archimedean ordered field]] and $A$ is an Archimedean ordered local $K$-algebra. Since $A$ is a [[local ring]], the quotient of $A$ by its ideal of non-invertible elements $D$ is the [[residue field]] $K$ itself, and the canonical function used in defining the quotient is the function $\Re:A \to K$ which takes a number $a \in A$ to its purely real component $\Re(a) \in K$. Since $A$ is an ordered $K$-algebra, there is a [[strictly monotone]] [[ring homomorphism]] $h:K \to A$. An element $a \in A$ is **purely real** if $h(\Re(a)) = a$, and an element $a \in A$ is **purely [[infinitesimal]]** if it is in the [[fiber]] of $\Re$ at $0 \in K$. Zero is the only element in $A$ which is both purely real and purely infinitesimal. 
+Suppose that $K$ is an [[Archimedean ordered field]] and $A$ is an Archimedean ordered Artinian local $K$-algebra. Since $A$ is a [[local ring]], the quotient of $A$ by its ideal of non-invertible elements $D$ is the [[residue field]] $K$ itself, and the canonical function used in defining the quotient is the function $\Re:A \to K$ which takes a number $a \in A$ to its purely real component $\Re(a) \in K$. Since $A$ is an ordered $K$-algebra, there is a [[strictly monotone]] [[ring homomorphism]] $h:K \to A$. An element $a \in A$ is **purely real** if $h(\Re(a)) = a$, and an element $a \in A$ is **purely [[infinitesimal]]** if it is in the [[fiber]] of $\Re$ at $0 \in K$. Zero is the only element in $A$ which is both purely real and purely infinitesimal. 
 
 ### Prelattice structure
 
