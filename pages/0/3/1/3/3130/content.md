@@ -292,6 +292,10 @@ Use the exponentional-formula for the [[Chern character]] with the  [[splitting 
 
 * [[twisted equivariant Chern character]]
 
+* [[Chern-Dold character]]
+
+* [[Bismut-Chern character]]
+
 * for [[algebraic K-theory]]:
 
   * [[cyclotomic trace]]
