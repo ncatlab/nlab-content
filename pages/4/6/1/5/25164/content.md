@@ -29,7 +29,7 @@ $$\mathrm{isEmbedding}(f) \coloneqq \prod_{y:B} \mathrm{isProp}\left(\sum_{x:A}f
 
 #### As functions whose action on identities have contractible fibers
 
-Let us assume the [[dependent type theory]] has [[identity types]], [[dependent identity types]] and [[uniqueness quantifiers]]. Then the [[natural deduction]] rules for embedding types is given by:
+Let us assume the [[dependent type theory]] has [[identity types]], [[dependent identity types]] and [[uniqueness quantifiers]], but does not have [[function types]] or [[dependent function types]] (as in some versions of [[predicative mathematics]]). Then the [[natural deduction]] rules for embedding types is given by:
 
 Formation rules for embedding types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
