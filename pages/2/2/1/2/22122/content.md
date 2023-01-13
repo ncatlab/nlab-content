@@ -11,6 +11,8 @@
 
 * [[topological data analysis]]
 
+* [[statistical inference]]
+
 ## References
 
 See also:
