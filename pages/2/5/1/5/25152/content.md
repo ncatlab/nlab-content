@@ -33,7 +33,7 @@ which indicates that the [[dependent sum type]] $\sum_{x:T} P(x)$ is a [[contrac
 
 #### Rules for uniqueness quantifiers
 
-If the [[dependent type theory]] has [[identity types]] and [[dependent identity types]], one could directly form the uniqueness quantifier via its [[natural deduction]] rules:
+If the [[dependent type theory]] has [[identity types]] and [[dependent identity types]], but does not have general [[dependent function types]] (such as in [[strongly predicative mathematics]]), one could directly form the uniqueness quantifier via its [[natural deduction]] rules:
 
 Formation rules for uniqueness quantifier types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \exists!x:A.B(x) \; \mathrm{type}}$$
