@@ -56,7 +56,26 @@ Judgmentally strict equivalences are used in defining [[judgmentally strict equi
 the evident types formed by these definitions are co-inhabited: we have a function from any one of them to any of the others.  Moreover, at least if we assume [[function extensionality]], the evident types of "homotopy isomorphisms" and of functions with contractible fibers are equivalent and are [[h-propositions]].
 This is only true for the evident type of homotopy equivalences if we assume [[axiom K]] or [[uniqueness of identity proofs]] (as discussed [below](#TheIssueWithQuasiInverses)); in [[dependent type theories]] without either axiom, the isEquiv type family is not in general a [[mere proposition]] for homotopy equivalences. However, often the most convenient way to show that $f$ is an equivalence is by exhibiting it as a term of the type of homotopy equivalences.
 
-\linebreak
+#### Rules for isEquiv
+
+Given types $A$ and $B$ and [[function]] $f:A \to B$, $f$ is an [[equivalence of types]] if $f$ has [[contractible type|contractible]] [[fiber type|fibers]] and $B$ satisfies the [[universal property]] of a [[unary sum]]/[[copy]] of $A$ with copy function $f:A \to B$. This means that one could define the type family $f:A \to B \vdash \mathrm{isEquiv}(f)$ using very similar natural deduction rules to the rules for [[unary sums]], but where the [[introduction rule]] states that given a function $f:A \to B$ and evidence that $f$ has contractible fibers, one could form a witness of $\mathrm{isEquiv}(f)$:
+
+Formation rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B}{\Gamma \vdash \mathrm{isEquiv}(f) \; \mathrm{type}}$$
+
+Introduction rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma, y:B \vdash b(y):f(a) =_B y \quad \Gamma, x:A, y:B, z:f(x) =_B y \vdash \tau_A(x, y, z):a =_A x \quad \Gamma, x:A, y:B, z:f(x) =_B y \vdash \tau_B(x, y, z):b(y) =_B^{\tau_A(x, y, z)} z}{\Gamma \vdash w(a, b, \tau_A, \tau_B):\mathrm{isEquiv}(f)}$$
+
+Elimination rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash e:B}{\Gamma \vdash \mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, e):C[e/z]}$$
+
+Computation rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_B:\mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, f(a)) =_{C[f(a)/z]} c[a/x]}$$
+
+Uniqueness rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash e:\mathrm{isEquiv}(f) \quad \Gamma, y:B \vdash u:C \quad \Gamma, a:A \vdash i_f(u):u[f(a)/y] =_{C[f(a)/y]} c[a/x]}{\Gamma \vdash \eta_{\mathrm{isEquiv}(f)}:u[e/z] =_{C[e/z]} \mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, e)}$$
+
+#### Defining isEquiv from other type formers
 
 In dependent type theories with [[dependent product types]], the [[isContr]] modality is defined as
 $$\mathrm{isContr}(A) \coloneqq \sum_{x:A} \prod_{y:A} x =_A y$$
@@ -110,25 +129,6 @@ $$f:A \to B \vdash \mathrm{isEquiv}(f) \coloneqq \sum_{g:B \to A} \left(\prod_{x
 
 In all three cases, by [[function extensionality]] for the first two and additionally by [[axiom K]] or [[UIP]] for the third case, the $\mathrm{isEquiv}(f)$ type family is a [[mere proposition]] for all $f:A \to B$. Thus, we can define the [[equivalence type]] as 
 $$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{isEquiv}(f)$$
-
-#### Unary sums and rules for isEquiv
-
-Given types $A$ and $B$ and [[function]] $f:A \to B$, $f$ is an [[equivalence of types]] if $B$ satisfies the [[universal property]] of a [[unary sum]]/[[copy]] of $A$ with copy function $f:A \to B$. This means that one could define the type family $f:A \to B \vdash \mathrm{isEquiv}(f)$ using very similar natural deduction rules to the rules for [[unary sums]]:
-
-Formation rules for isEquiv:
-$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B}{\Gamma \vdash \mathrm{isEquiv}(f) \; \mathrm{type}}$$
-
-Introduction rules for isEquiv:
-$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma, y:B \vdash b(y):f(a) =_B y \quad \Gamma, x:A, y:B, z:f(x) =_B y \vdash \tau_A(x, y, z):a =_A x \quad \Gamma, x:A, y:B, z:f(x) =_B y \vdash \tau_B(x, y, z):b(y) =_B^{\tau_A(x, y, z)} z}{\Gamma \vdash w(a, b, \tau_A, \tau_B):\mathrm{isEquiv}(f)}$$
-
-Elimination rules for isEquiv:
-$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash e:B}{\Gamma \vdash \mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, e):C[e/z]}$$
-
-Computation rules for isEquiv:
-$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_B:\mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, f(a)) =_{C[f(a)/z]} c[a/x]}$$
-
-Uniqueness rules for isEquiv:
-$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash e:\mathrm{isEquiv}(f) \quad \Gamma, y:B \vdash u:C \quad \Gamma, a:A \vdash i_f(u):u[f(a)/y] =_{C[f(a)/y]} c[a/x]}{\Gamma \vdash \eta_{\mathrm{isEquiv}(f)}:u[e/z] =_{C[e/z]} \mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, e)}$$
 
 ### Historical note
 
