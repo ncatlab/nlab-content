@@ -366,6 +366,9 @@ Discussion of T-duality that takes into account the [[super p-brane]] charges (i
 
   reviewed in _Superfield T-duality rules in ten dimensions with one isometry_ ([arXiv:hep-th/0312299](https://arxiv.org/abs/hep-th/0312299))
 
+Discussion of non-geometric T-duality:
+
+* Hyungrok Kim, Christian Saemann, _Non-Geometric T-Duality as Higher Groupoid Bundles with Connections_ ([arXiv:2204.01783](https://arxiv.org/abs/2204.01783))
 
 [[!redirects Buscher rule]]
 [[!redirects Buscher rules]]
