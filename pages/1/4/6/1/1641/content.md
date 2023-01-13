@@ -110,7 +110,7 @@ U(T)                             & \overset{\sim}\underset{g}\rightarrow & X    
 
 *  In particular, a [[reflective subcategory|reflective]] or [[coreflective subcategory|coreflective]] subcategory of $C$ is topological, as long as the reflectors or coreflectors become [[identity morphisms]] in $D$.
 
-*  The forgetful functor $U\colon C \to D$ is not only faithful but also (for different reasons) [[essentially surjective functor|essentially surjective]].  Thus it is never [[full functor|full]] (except in the trivial case where $U$ is an [[equivalence of categories|equivalence]], of course).
+*  The forgetful functor $U\colon C \to D$ is not only faithful but also (because every algebra must have an initial/indiscrete topology determined by the empty source) [[essentially surjective functor|essentially surjective]] (in fact surjective on the nose for the non-weak definitions).  Thus it is never [[full functor|full]] (except in the trivial case where $U$ is an [[equivalence of categories|equivalence]], of course).
 
 *  If $D$ is [[complete category|complete]] or [[cocomplete category|cocomplete]], then so is $C$.
 
