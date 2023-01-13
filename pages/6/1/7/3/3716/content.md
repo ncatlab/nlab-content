@@ -79,16 +79,18 @@ Proc. Internat. School Phys. Enrico Fermi, 127, IOS, Amsterdam, 1996, [MR97j:580
 * Nicola Ciccoli, _Quantization of co-isotropic subgroups_, Lett. Math. Phys. __42__:2 (1997) 123--138, [doi](http://www.ams.org/leavingmsn?url=http://dx.doi.org/10.1023/A:1007352218739), [MR98k:58252](http://www.ams.org/mathscinet-getitem?mr=98k:58252)
 * Renaud Brahami, _Cluster X-varieties for dual Poisson-Lie groups I, II_, [arxiv/1005.5289](http://arxiv.org/abs/1005.5289), [arxiv/1006.4583](http://arxiv.org/abs/1006.4583)
 
-* L&#225;szl&#243; Feh&#233;r, [[Ctirad Klimčík]], _Poisson-Lie generalization of the Kazhdan-Kostant-Sternberg reduction_,  Lett. Math. Phys. __87__ (2009), no. 1-2, 125--138, [doi](url=http://dx.doi.org/10.1007), [MR2010c:53122](http://www.ams.org/mathscinet-getitem?mr=2010c:53122))
+* L&#225;szl&#243; Feh&#233;r, [[Ctirad Klimčík]], _Poisson-Lie generalization of the Kazhdan-Kostant-Sternberg reduction_,  Lett. Math. Phys. __87__ (2009), no. 1-2, 125--138, [doi](http://dx.doi.org/10.1007), [MR2010c:53122](http://www.ams.org/mathscinet-getitem?mr=2010c:53122))
 
-* V. Fock, A. B. Goncharov, _Cluster X-varieties, amalgamation and Poisson-Lie groups_, [math.RT/0508408](http://front.math.ucdavis.edu/0508.5408)
-* Ivan Calvo, Fernando Falceto, David Garcia-Alvarez, _Topological [[Poisson sigma model]]s on Poisson-Lie groups_, JHEP 0310 (2003) 033, &lt;http://front.math.ucdavis.edu/0307.3178>
-* Philip Boalch, _[[Stokes phenomenon|Stokes matrices]] and Poisson Lie groups_, Invent. math. 146, 479-506 (2001), [math.DG/0011062](http://front.math.ucdavis.edu/0011.5062)
+* V. Fock, A. B. Goncharov, _Cluster X-varieties, amalgamation and Poisson-Lie groups_, [math.RT/0508408](https://arxiv.org/abs/math/0508408).
+
+* Ivan Calvo, Fernando Falceto, David Garcia-Alvarez, _Topological [[Poisson sigma model]]s on Poisson-Lie groups_, JHEP 0310 (2003) 033, [arXiv](https://arxiv.org/abs/hep-th/0307178).
+
+* Philip Boalch, _[[Stokes phenomenon|Stokes matrices]] and Poisson Lie groups_, Invent. math. 146, 479-506 (2001), [math.DG/0011062](https://arxiv.org/abs/math/0011062).
 
 * [[Ctirad Klimčík]], [[Pavol Ševera]], _[[T-duality]] and the moment map_, IHES/P/96/70, [hep-th/9610198](http://arxiv.org/abs/hep-th/9610198); _Poisson-Lie T-duality: open strings and D-branes_, CERN-TH/95-339. Phys.Lett. B376 (1996) 82-89, [hep-th/9512124](http://arxiv.org/abs/hep-th/9512124)
 
 * [[Anton Alekseev]], [[Ctirad Klimčík]], [[Arkady Tseytlin]], _Quantum Poisson-Lie T-duality and WZNW model_, Nucl. Phys. B458:430-444 (1996) [hep-th/9509123](http://arxiv.org/abs/hep-th/9509.3123)
-* David Li-Bland, [[Pavol Ševera]], _On deformation quantization of Poisson-Lie groups and moduli spaces of flat connections_, [arxiv/1307.2047](http://arxiv.org/abs/1307.2047)
+* David Li-Bland, [[Pavol Ševera]], _On deformation quantization of Poisson-Lie groups and moduli spaces of flat connections_, [arXiv/1307.2047](http://arxiv.org/abs/1307.2047)
 
 [[!redirects Poisson-Lie group]]
 [[!redirects Lie Poisson group]]
