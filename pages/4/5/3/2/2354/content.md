@@ -75,9 +75,9 @@ This means that
 1. {#AnyOther} given any other such square
 
    $$\array{
-     Z & \overset{r}{\longrightarrow} &A 
+     Z & \overset{v}{\longrightarrow} &A 
      \\
-     \mathllap{^s}\big\downarrow 
+     \mathllap{^w}\big\downarrow 
      & \searrow & 
      \big\downarrow\mathrlap{^f}
      \\
