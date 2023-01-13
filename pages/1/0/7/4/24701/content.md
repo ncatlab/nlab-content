@@ -143,40 +143,27 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \v
 Optional uniqueness rules for dependent identity types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A, w:B(x), q:w(a) =_B^{p} w(b) \vdash K_B^p(x, w, q):q =_{w(a) =_B^{p} w(b)} \mathrm{apd}_B^{p}(w)}$$
 
-### Uniqueness quantifiers
+### isEquiv types and equivalences
 
-Formation rules for uniqueness quantifier types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \exists!x:A.B(x) \; \mathrm{type}}$$
+The rules for isEquiv types are as follows:
 
-Introduction rules for uniqueness quantifier types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a) \quad \Gamma, x:A, y:B(x) \vdash \tau_A(x, y):a =_A x \quad \Gamma, x:A, y:B(x) \vdash \tau_B(x, y):b =_B^{\tau_A(x, y)} y}{\Gamma \vdash w(a, b, \tau_A, \tau_B):\exists!x:A.B(x)}$$
+Formation rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B}{\Gamma \vdash \mathrm{isEquiv}(f) \; \mathrm{type}}$$
 
-Elimination rules for uniqueness quantifier types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash p:\exists!x:A.B(x)}{\Gamma \vdash \epsilon_A(p):A}$$
+Introduction rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B \quad \Gamma \vdash a:A \quad \Gamma, y:B \vdash b(y):f(a) =_B y \quad \Gamma, x:A, y:B, z:f(x) =_B y \vdash \tau_A(x, y, z):a =_A x \quad \Gamma, x:A, y:B, z:f(x) =_B y \vdash \tau_B(x, y, z):b(y) =_B^{\tau_A(x, y, z)} z}{\Gamma \vdash w(a, b, \tau_A, \tau_B):\mathrm{isEquiv}(f)}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash p:\exists!x:A.B(x)}{\Gamma \vdash \epsilon_B(p):B(\epsilon_A(p))}$$
+Elimination rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash e:B}{\Gamma \vdash \mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, e):C[e/z]}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash p:\exists!x:A.B(x)}{\Gamma, x:A, y:B(x) \vdash c_A(p, x, y):\epsilon_A(p) =_A x}$$
+Computation rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_B:\mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, f(a)) =_{C[f(a)/z]} c[a/x]}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash p:\exists!x:A.B(x)}{\Gamma, x:A, y:B(x) \vdash c_B(p, x, y):\epsilon_B(p) =_B^{c_A(p, x, y)} y}$$
-
-Computation rules for uniqueness quantifier types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a) \quad \Gamma, x:A, y:B(x) \vdash \tau_A(x, y):a =_A x \quad \Gamma, x:A, y:B(x) \vdash \tau_B(x, y):b =_B^{\tau_A(x, y)} y}{\Gamma \vdash \beta_{\exists!x:A.B(x)}^{\epsilon_A}(a, b):\epsilon_A(w(a, b, \tau_A, \tau_B)) =_A a}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a) \quad \Gamma, x:A, y:B(x) \vdash \tau_A(x, y):a =_A x \quad \Gamma, x:A, y:B(x) \vdash \tau_B(x, y):b =_B^{\tau_A(x, y)} y}{\Gamma \vdash \beta_{\exists!x:A.B(x)}^{\epsilon_B}(a, b):\epsilon_B(w(a, b, \tau_A, \tau_B))) =_B^{\beta_{\exists!x:A.B(x)}^{\epsilon_A}(a, b)} b}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a) \quad \Gamma, x:A, y:B(x) \vdash \tau_A(x, y):a =_A x \quad \Gamma, x:A, y:B(x) \vdash \tau_B(x, y):b =_B^{\tau_A(x, y)} y}{\Gamma, x:A, y:B(x) \vdash \beta_{\exists!x:A.B(x)}^{c_A}(a, b, x, y):c_A(w(a, b, \tau_A, \tau_B), x, y) =_{(-) =_A x}^{\beta_{\exists!x:A.B(x)}^{\epsilon_A}} \tau_A(x, y)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a) \quad \Gamma, x:A, y:B(x) \vdash \tau_A(x, y):a =_A x \quad \Gamma, x:A, y:B(x) \vdash \tau_B(x, y):b =_B^{\tau_A(x, y)} y}{\Gamma, x:A, y:B(x) \vdash \beta_{\exists!x:A.B(x)}^{c_B}(a, b, x, y):c_B(w(a, b, \tau_A, \tau_B), x, y) =_{(-) =_B^{\beta_{\exists!x:A.B(x)}^{c_A}(a, b, x, y)} y}^{\beta_{\exists!x:A.B(x)}^{\epsilon_B}} \tau_B(x, y)}$$
-
-Uniqueness rules for uniqueness quantifier types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash p:\exists!x:A.B(x)}{\Gamma \vdash \eta_{\exists!x:A.B(x)}(p):w(\epsilon_A(p), \epsilon_B(p), c_A(p), c_B(p)) =_{\exists!x:A.B(x)} p}$$
-
-### Equivalences
+Uniqueness rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash e:\mathrm{isEquiv}(f) \quad \Gamma, y:B \vdash u:C \quad \Gamma, a:A \vdash i_f(u):u[f(a)/y] =_{C[f(a)/y]} c[a/x]}{\Gamma \vdash \eta_{\mathrm{isEquiv}(f)}:u[e/z] =_{C[e/z]} \mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, e)}$$
 
 A family of elements $x:A \vdash f(x):B$ is an equivalence if it comes with a family of elements
-$$y:B \vdash \epsilon(f)(y):\exists! x:A.f(x) =_B y$$
-which states that for all $y:B$ the there is a unique $x:A$ such that $f(x) =_B y$. 
+$$y:B \vdash \epsilon(f)(y):\mathrm{isEquiv}(f)$$
 
 ### Judgmentally univalent universes
 
@@ -186,23 +173,19 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathcal{U} \; \mathrm{type}} \qqu
 
 Given an encoding $A:\mathcal{U}$, an internal type family indexed by $A$ is a function $B:\mathcal{T}(A) \to \mathcal{U}$. 
 
-A universe is judgmentally univalent if an identity $f:A =_\mathcal{U} B$ is the same as an equivalence $x:\mathcal{T}(A) \vdash f(x):\mathcal{T}(B)$. This is given by the following rules:
+A universe is judgmentally univalent if identities $f:A =_\mathcal{U} B$ and equivalences $x:\mathcal{T}(A) \vdash f(x):\mathcal{T}(B)$ are interderivable in the type theory. This is given by the following rules:
 
 Introduction rules:
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash f(x):\mathcal{T}(B) \quad \Gamma, y:\mathcal{T}(B) \vdash u(y):\exists!x:\mathcal{T}(A).f(x) =_{\mathcal{T}(B)} y}{\Gamma \vdash \mathrm{equiv}(f, u):A =_\mathcal{U} B}$$
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash f:T[B/X] \quad \Gamma \vdash y:\mathrm{isEquiv}(f)}{\Gamma \vdash \mathrm{equiv}(f, y):A =_U B}$$
 
 Elimination rules:
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma, f:A =_\mathcal{U} B, x:\mathcal{T}(A) \vdash \mathrm{ev}(f, x):T(B)}$$
-
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma, f:A =_\mathcal{U} B, y:\mathcal{T}(B) \vdash \mathrm{uniq}(f, y):\exists!x:\mathcal{T}(A).f(x) =_{\mathcal{T}(B)} y}$$
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash f:T[B/X] \quad \Gamma, z:A =_U B \vdash C \; \mathrm{type} \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash c:C[\mathrm{equiv}(f, y)/z]}{\Gamma, z:A =_U B \vdash \mathrm{ind}_{A =_U B}^C(c):C}$$
 
 Computation rules:
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash f(x):\mathcal{T}(B) \quad \Gamma, y:\mathcal{T}(B) \vdash u(y):\exists!x:\mathcal{T}(A).f(x) =_{\mathcal{T}(B)} y}{\Gamma, x:\mathcal{T}(A) \vdash \beta_{A =_\mathcal{U} B}^{\mathrm{ev}}(x):\mathrm{ev}(\mathrm{equiv}(f, u), x) =_{\mathcal{T}(B)} f(x)}$$
-
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash f(x):\mathcal{T}(B) \quad \Gamma, y:\mathcal{T}(B) \vdash u(y):\exists!x:\mathcal{T}(A).f(x) =_{\mathcal{T}(B)} y}{\Gamma, y:T(B) \vdash \beta_{A =_\mathcal{U} B}^{\mathrm{uniq}}(y):\mathrm{uniq}(\mathrm{equiv}(f, u), y) =_{\exists!x:\mathcal{T}(A).(-) =_{\mathcal{T}(B)} y}^{\beta_{A =_U B}^{\mathrm{ev}}(x)} u(y)}$$
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash f:T[B/X] \quad \Gamma, z:A =_U B \vdash C \; \mathrm{type} \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash c:C[\mathrm{equiv}(f, y)/z]}{\Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash \beta_{A =_U B}^C(c):\mathrm{ind}_{A =_U B}^C(c)[\mathrm{equiv}(f, y)/z] =_{C[\mathrm{equiv}(f, y)/z]} c}$$
 
 Uniqueness rules:
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma, f:A =_\mathcal{U} B \vdash \eta_{A =_\mathcal{U} B}(f):\mathrm{equiv}(\mathrm{ev}(f), \mathrm{uniq}(f)) =_{A =_\mathcal{U} B} f}$$
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash f:T[B/X] \quad \Gamma, z:A =_U B \vdash C \; \mathrm{type} \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash c:C[\mathrm{equiv}(f, y)/z] \quad \Gamma, z:A =_U B \vdash u:C \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash i_\mathrm{in}(u):u[\mathrm{equiv}(f, y)/z] =_{C[\mathrm{in}(x, y)/z]} c}{\Gamma, e:A =_U B \vdash \eta_{A =_U B}^C(c):u[e/z] =_{C[e/z]} \mathrm{ind}_{A =_U B}^C(c)[e/z]}$$
 
 ### Internal identity types
 
