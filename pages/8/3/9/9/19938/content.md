@@ -21,7 +21,7 @@
 
 ## Idea
 
-_Dialgebras_ subsume the notion of [[algebras for an endofunctor]] and [[coalgebras for an endofunctor]]. They were originally introduced by Lambek as "subequalizers".
+_Dialgebras_ subsume the notion of [[algebras for an endofunctor]] and [[coalgebras for an endofunctor]]. Universal dialgebras were originally introduced by Lambek as "subequalizers".
 
 
 ## Definition
