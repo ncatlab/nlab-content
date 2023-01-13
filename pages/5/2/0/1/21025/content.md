@@ -146,7 +146,15 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   cf.: [arXiv:2204.01783](https://arxiv.org/abs/2204.01783)
 
+\linebreak
 
+* {#Berman2023} [[David Berman]]:
+
+  **Exact Renormalisation Group and statistical Inference**
+
+  > The [[exact renormalisation group]] is used to describe the process of [[statistical inference]] in the [[Bayesian reasoning|Bayesian sense]].
+
+  cf.: [arXiv:2212.11379](https://arxiv.org/abs/2212.11379)
 
 \linebreak
 
