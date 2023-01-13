@@ -36,6 +36,8 @@ $$x:A, y:A, \vdash \mathrm{ua}(x, y):\mathrm{isEquiv}(\mathrm{idtofam}(x, y))$$
 $$x:A, y:A \vdash \mathrm{ua}(x, y):R(x, y) \to (x =_A y)$$
 $$x:A, y:A, r:R(x, y) \vdash G(x, y):\mathrm{idtofam}(x, y, \mathrm{ua}(x, y, r)) =_{R(x, y)} r$$
 
+1. That $R(x, y)$ with the function $\mathrm{idtofam}(x, y)$ satisfies the [[universal property]] of the [[unary sum]] of $x =_A y$. 
+
 ## Examples
 
 There are many examples of univalent reflexive graphs in mathematics. These include [[posets]], [[T0-spaces]], [[metric spaces]], [[univalent categories]], [[univalent groupoids]],  [[univalent dagger categories]], [[univalent bicategories]], [[univalent setoids]], and [[univalent universes]]. 
