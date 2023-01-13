@@ -252,3 +252,13 @@ See also
 
 [[!redirects renormalization groups]]
 
+[[!redirects renormalisation group]]
+[[!redirects renormalisation groups]]
+
+[[!redirects exact renormalization group]]
+[[!redirects exact renormalization groups]]
+
+[[!redirects exact renormalisation group]]
+[[!redirects exact renormalisation groups]]
+
+
