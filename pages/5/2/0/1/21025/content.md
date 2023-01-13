@@ -138,6 +138,18 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 \linebreak
 
+* {#Saemann23} [[Christian Saemann]]:
+
+  **Geometric and Non-Geometric T-duality with Higher Bundles**
+
+  > I will introduce the notion of [[adjusted Weil algebra|adjusted curvatures]] for [[principal infinity-bundle|higher principal bundles]]. These will allow me to [[differential cohomology|differentially refine]] the description of [[topological T-duality]] [by Nikolaus and Waldorf](T-fold#NikolausWaldorf18) in terms of [[principal 2-bundles]], leading to a description of full [[T-duality]]. I also discuss interesting generalizations that seem to capture the [[non-geometric string vacuum|non-geometric cases]]. 
+
+  cf.: [arXiv:2204.01783](https://arxiv.org/abs/2204.01783)
+
+
+
+\linebreak
+
 * (...)
 
 \linebreak
