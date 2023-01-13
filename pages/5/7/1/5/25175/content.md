@@ -23,14 +23,22 @@
 
 Coherent mathematics is mathematics done using only [[coherent logic]]. 
 
-Examples of coherent mathematics include mathematics done in an [[arithmetic pretopos]], which can be defined using only [[coherent logic]], as well as mathematics done in any [[dependent type theory]] which does not have [[function types]] and [[dependent function types]]. 
+Examples of coherent mathematics include mathematics done in an [[arithmetic pretopos]], which can be defined using only [[coherent logic]], as well as mathematics done in any [[dependent type theory]] which does not have [[function types]] nor [[dependent function types]]. 
 
-Since coherent logic does not have a negation operator in the logic, it is manifestly [[constructive]], since one cannot express the law of [[excluded middle]] or [[double negation]]. Similarly, coherent mathematics is manifestly [[strongly predicative]], since having [[function sets]] in the theory implies having [[implication]] and $\Delta_0$-[[universal quantifiers]], as every cartesian closed coherent category is a [[Heyting category]]. 
+Since coherent logic does not have a [[negation]] operator, it is manifestly [[constructive]], since one cannot even express the law of [[excluded middle]] or [[double negation]]. Similarly, coherent mathematics is manifestly [[strongly predicative]], since having [[function sets]] in the theory implies having [[implication]] and $\Delta_0$-[[universal quantifiers]], as every cartesian closed coherent category is a [[Heyting category]]. 
 
 ## Equality and apartness
 
-Since coherent mathematics does not have negation, one cannot use negation to define [[denial inequality]] as the [[negation]] of [[equality]]. In particular, what fails is that the definition of denial inequality involves a double implication 
-$$((a = b) \implies \bot) \implies (a \neq b)$$ 
+Since coherent mathematics does not have [[negation]], one cannot use negation to define [[denial inequality]] as the [[negation]] of [[equality]]. In particular, what fails is that the definition of denial inequality involves a double implication 
+$$
+  \big(
+    (a = b) 
+      \implies 
+    \bot
+  \big) 
+    \implies 
+  (a \neq b)
+$$ 
 which is not allowed in coherent mathematics. On the level of coherent [[sequents]], single implications $\phi \implies \psi$ are expressed as [[entailment]], the sequent $\phi \vdash \psi$. But double implications $(\phi \implies \psi) \implies \varphi$ become the sequent $(\phi \implies \psi) \vdash \varphi$, which cannot be simplified down further to get rid of the remaining implication. Instead, one has to use the positive notion of [[apartness relation]] $a \# b$ to express the notion of "not being equal". 
 
 Similarly to the fact that one cannot define denial inequality in coherent mathematics, one cannot define a [[tight apartness relation]], since the definition involves negation of an apartness relation implying equality, which is a double implication 
