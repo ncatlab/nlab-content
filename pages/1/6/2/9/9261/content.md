@@ -112,6 +112,10 @@ A useful comparison of the frequentist and Bayesian approaches as employed in pa
 
 > for physics analyses at the CERN’s LHC, the aim is, at least for determining parameters and setting upper limits in searches for various new phenomena, to use both approaches; similar answers would strengthen confidence in the results, while differences suggest the need to understand them in terms of the somewhat different questions that the two approaches are asking. It thus seems that the old war between the two methodologies is subsiding, and that they can hopefully live together in fruitful cooperation.
 
+## Related concepts
+
+* [[statistical inference]]
+
 ## References 
 
 One early discussion is in
