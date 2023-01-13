@@ -81,29 +81,6 @@ $$A \simeq_U B \coloneqq \sum_{f:F_U(A, B)} \mathrm{isEquiv}_U(f)$$
 
 $F_U(A, B)$ could be the type of $U$-small [[spans]], the type of $U$-small [[multivalued partial functions]], or the type of $U$-small [[correspondences]]. 
 
-#### As a type whose elements are encodings for functions with contractible fibers
-
-Given types $A$ and $B$, we form the type $A \simeq B$ such that given element $f:A \simeq B$, there is a family of elements $x:A \vdash \mathrm{ev}(f, x):B$, with rules stating that the above structure has contractible fibers:
-
-Formation rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
-
-Introduction rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B \quad \Gamma, y:B \vdash u(y):\exists!x:A.f(x) =_B y}{\Gamma \vdash \mathrm{equiv}(f, u):A \simeq B}$$
-
-Elimination rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, x:A \vdash \mathrm{ev}(f, x):B}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, y:B \vdash \mathrm{uniq}(f, y):\exists!x:A.f(x) =_B y}$$
-
-Computation rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B \quad \Gamma, y:B \vdash u(y):\exists!x:A.f(x) =_B y}{\Gamma, x:A \vdash \beta_{A \simeq B}^{\mathrm{ev}}(x):\mathrm{ev}(\mathrm{equiv}(f, u), x) =_B f(x)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B \quad \Gamma, y:B \vdash u(y):\exists!x:A.f(x) =_B y}{\Gamma, y:B \vdash \beta_{A \simeq B}^{\mathrm{uniq}}(y):\mathrm{uniq}(\mathrm{equiv}(f, u), y) =_{\exists!x:A.(-) =_B y}^{\beta_{A \simeq B}^{\mathrm{ev}}(x)} u(y)}$$
-
-Uniqueness rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B \vdash \eta_{A \simeq B}(f):\mathrm{equiv}(\mathrm{ev}(f), \mathrm{uniq}(f)) =_{A \simeq B} f}$$
-
 #### As a type whose elements are encodings for one-to-one correspondence
 
 Given types $A$ and $B$, we form the type $A \simeq B$ such that given element $R:A \simeq B$, there is a type family $x =_{A, B}^R y$ indexed by $x:A$ and $y:B$, with rules stating that $(-) =_{A, B}^R (-)$ is a [[one-to-one correspondence]], and that given a type $A$, elements $a:A$ and $b:A$, identity $p:a =_A b$, a type family $B$ indexed by $A$ and a family of elements $w:B$ indexed by $A$, one could form the [[transport]] equivalence across $p$ for $B$, $\mathrm{tr}_B(p):B(a) \simeq B(b)$, and the dependent action on $p$ for $w$, $\mathrm{apd}_B(p, w):w(a) =_{B(a), B(b)}^{\mathrm{tr}_B(p)} w(b)$. 
