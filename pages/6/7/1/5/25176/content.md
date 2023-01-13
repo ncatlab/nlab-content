@@ -54,6 +54,7 @@ $$\forall x \in R.\forall y \in R.P_I(x \cdot y) \implies P_I(x) \vee P_I(y)$$
 
 * [[ideal]]
 * [[predicate]]
+* [[anti-ideal predicate]]
 * [[restricted separation]]
 
 [[!redirects ideal predicate]]
