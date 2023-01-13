@@ -93,6 +93,12 @@ These toposes are related to the smooth topos called $\mathcal{G}$ there, which 
 
 * [[infinitesimal neighbourhood]]
 
+| [[ring]] with [[infinitesimals]] | [[function]] | 
+---------------------|-----------------|
+| [[dual numbers]] | [[differentiable function]] |
+| [[Weil ring]] | [[smooth function]] |
+| [[power series ring]] | [[analytic function]] |
+
 ## References
 
 *  article in the [English Wikipedia](http://en.wikipedia.org/wiki/Infinitesimal) for etymology
