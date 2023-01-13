@@ -53,6 +53,14 @@ Relating the [[abc conjecture]] to [[D=4 N=4 super Yang-Mills theory]]:
 
 * [[Yang-Hui He]], Zhi Hu, Malte Probst, James Read, _Yang-Mills Theory and the ABC Conjecture_,  International Journal of Modern Physics A Vol. 33, No. 13, 1850053 (2018)  ([arXiv:1602.01780](https://arxiv.org/abs/1602.01780), [doi:10.1142/S0217751X18500537](https://doi.org/10.1142/S0217751X18500537))
 
+Application of [[machine learning]] to [[mathematical structures]] in [[algebraic geometry]], [[representation theory]], [[number theory]] and [[combinatorics]]:
+
+* [[Yang-Hui He]], *Machine-Learning Mathematical Structures*, International Journal of Data Science in the Mathematical Sciences &lbrack;[arXiv:2101.06317](https://arxiv.org/abs/2101.06317), [doi:10.1142/S2810939222500010](https://doi.org/10.1142/S2810939222500010)&rbrack;
+
+reviewed in:
+
+* [[Yang-Hui He]], *Machine-Learning Mathematical Structures*, talk at *[M-Theory and Mathematics 2023](https://ncatlab.org/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (Jan 2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#He2023)&rbrack;
+
 
 Discussion via [[machine learning]] of [[connection on a bundle|connections]] on [[heterotic line bundles]] over [[Calabi-Yau manifold|Calabi-Yau 3-folds]]:
 
