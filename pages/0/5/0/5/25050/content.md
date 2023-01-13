@@ -12,6 +12,7 @@ Unlike [[Archimedean ordered fields]], which require arithmetic [[Heyting pretop
 * [[ordered local ring]]
 * [[Archimedean ordered Artinian local ring]]
 * [[Archimedean ordered reduced local ring]]
+* [[Archimedean ordered local integral domain]]
 
 [[!redirects Archimedean ordered local ring]]
 [[!redirects Archimedean ordered local rings]]
