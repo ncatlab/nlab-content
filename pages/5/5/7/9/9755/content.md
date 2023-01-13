@@ -32,10 +32,6 @@ On [[localization of a space|localization]] (in [[algebraic topology]]) formulat
 
 * [[J. Daniel Christensen]], [[Morgan Opie]], [[Egbert Rijke]], [[Luis Scoccola]], _Localization in Homotopy Type Theory_, Higher Structures, 4(1) (2020), 1-32 ([arXiv:1807.04155](https://arxiv.org/abs/1807.04155))
 
-On [[∞-groups]] treated in [[homotopy type theory]]:
-
-* [[Ulrik Buchholtz]], [[Floris van Doorn]], [[Egbert Rijke]], _Higher groups in homotopy type theory_, LICS '18 Proc ([doi](https://dl.acm.org/doi/10.1145/3209108.3209150)), ([arXiv:1802.04315](https://arxiv.org/abs/1802.04315))
-
 On [[H-spaces]] treated in [[homotopy type theory]]:
 
 * [[Ulrik Buchholtz]], [[J. Daniel Christensen]], Jarl G. Taxerås Flaten, [[Egbert Rijke]], _Central H-spaces and banded types_ ([arXiv:2301.02636](https://arxiv.org/abs/2301.02636))
