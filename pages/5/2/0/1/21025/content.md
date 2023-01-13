@@ -125,8 +125,16 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
   > We define exotic [[twisted de Rham cohomology|twisted]] [[circle group|$S^1$]]-[[equivariant de Rham cohomology|equivariant cohomology]] for the [[free loop space|loop space]] $\mathcal{L}Z$ of a [[smooth manifold]] $Z$ via the [[invariant]] [[differential forms]] on $\mathcal{L}Z$ with [[coefficients]] in the (typically non-flat) [[higher holonomy|holonomy]] [[complex line bundle|line bundle]] of a [[bundle gerbe|gerbe]], with differential given by an equivariantly [[flat connection|flat]] [[superconnection]]. We introduce the twisted [[Bismut-Chern character]] form, a loop space refinement of the [[twisted Chern character]] form, which represent classes in the completed periodic exotic twisted [[circle group|$S^1$]]-[[equivariant de Rham  cohomology|equivariant cohomology]] of $\mathcal{L}Z$. We establish a localisation theorem for the completed periodic exotic twisted $S^1$-equivariant cohomology for loop spaces and apply it to establish [[topological T-duality|T-duality]] in a [[background field|background]] [[flux]] in [[type II String Theory]] from a [[loop space]] perspective. Finally we reinterpret these results as [[topological T-duality|T-duality]] for the 1D sigma model.
 
   cf.: [arXiv:1405.1320](https://arxiv.org/abs/1405.1320)
-  
-  
+
+\linebreak
+
+* [[Fei Han]]: 
+
+  **Graded T-duality with H-flux for 2d sigma models**
+
+  > [[T-duality]] in [[string theory]] can be realised as a transformation acting on the [[worldsheet]] fields in the two-dimensional nonlinear [[sigma model]]. [Bouwknegt-Evslin-Mathai](topological+T-duality#BouwknegtEvslinMathai04) established the [[topological T-duality|T-duality in a background flux]] for the first time upon compactifying spacetime in one direction to a principal circle by constructing the T-dual maps transforming the twisted cohomology of the dual spacetimes. In this talk, we will describe our recent work on how to promote the T-duality maps of Bouwknegt-Evslin-Mathai in two aspects. More precisely, we will introduce (1) graded T-duality, concerning the graded T-duality maps of all levels of twistings; (2) the 2-dimensional sigma model picture, concerning the [[iterated loop space|double]] loop space of spacetimes. This represents our joint work with Mathai. 
+
+  cf.: [arXiv:2207.03134](https://arxiv.org/abs/2207.03134)  
 
 \linebreak
 
