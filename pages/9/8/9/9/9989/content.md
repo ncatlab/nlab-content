@@ -3,6 +3,13 @@
 
 ## Selected writings
 
+On a twisted equivariant version of the [[Bismut-Chern character]]:
+
+* [[Fei Han]], *Supersymmetric QFT, Super Loop Spaces and Bismut-Chern Character* &lbrack;[arXiv:0711.3862](https://arxiv.org/abs/0711.3862)
+
+* [[Fei Han]], [[Varghese Mathai]], *Exotic twisted equivariant cohomology of loop spaces, twisted Bismut-Chern character and T-duality*,  Commun. Math. Phys. **337** (2015) 127-150 &lbrack;[arXiv:1405.1320](https://arxiv.org/abs/1405.1320),  [doi:10.1007/s00220-014-2270-z](https://doi.org/10.1007/s00220-014-2270-z)&rbrack;
+
+
 On the [[Green-Schwarz mechanism]] in [[heterotic string theory]] and [[Hořava-Witten theory]]:
 
 * [[Fei Han]], [[Kefeng Liu]], [[Weiping Zhang]], _Anomaly Cancellation and Modularity. II: $E_8 \times E_8$ case_, Sci. China Math. 60, 985–994 (2017) ([arXiv:1209.4540](https://arxiv.org/abs/1209.4540), [doi:10.1007/s11425-016-9034-1](https://doi.org/10.1007/s11425-016-9034-1))
