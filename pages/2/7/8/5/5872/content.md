@@ -23,6 +23,15 @@ On [[analytic torsion]] and [[twisted de Rham cohomology]]:
 
 * [[Varghese Mathai]], [[Siye Wu]], _Analytic torsion for twisted de Rham complexes_, J. Diff. Geom. 88:297-332, 2011 ([arXiv:0810.4204](https://arxiv.org/abs/0810.4204))
 
+On a twisted equivariant version of the [[Bismut-Chern character]]:
+
+* [[Fei Han]], [[Varghese Mathai]], *Exotic twisted equivariant cohomology of loop spaces, twisted Bismut-Chern character and T-duality*,  Commun. Math. Phys. **337** (2015) 127-150 &lbrack;[arXiv:1405.1320](https://arxiv.org/abs/1405.1320),  [doi:10.1007/s00220-014-2270-z](https://doi.org/10.1007/s00220-014-2270-z)&rbrack;
+
+reviewed in:
+
+* [[Varghese Mathai]], *T-duality for loop spaces, or equivalently for the 1D sigma model*,  talk  at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#Mathai2023)*, NYU Abu Dhabi (Jan  2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Mathai2023)&rbrack;
+
+
 Aspects of the classification of [[semi-metals]] seen in [[ordinary cohomology]]:
 
 * [[Varghese Mathai]], [[Guo Chuan Thiang]], *Global topology of Weyl semimetals and Fermi arcs*, J. Phys. A: Math. Theor. **50** (2017) 11LT01 ([arXiv:1607.02242](https://arxiv.org/abs/1607.02242),  [doi:10.1088/1751-8121/aa59b2](https://doi.org/10.1088/1751-8121/aa59b2))
