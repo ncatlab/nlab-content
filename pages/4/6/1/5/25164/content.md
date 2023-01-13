@@ -73,17 +73,10 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} 
 Uniqueness rules for embedding types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B \vdash \eta_{A \simeq B}(f):\mathrm{embed}(\mathrm{ev}(f), \mathrm{atmostone}(f)) =_{A \simeq B} f}$$
 
-## The subtype proposition
-
-Given types $A$ and $B$, the [[subtype]] [[mere proposition]] is defined as the [[bracket type]] of the embedding type:
-
-$$A \subseteq B \coloneqq [A \hookrightarrow B]$$
 
 ## See also
 
 * [[embedding]]
-
-* [[subtype]]
 
 * [[injection set]]
 
