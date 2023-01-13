@@ -106,12 +106,25 @@ and with emphasis on [classically controlled](quantum+computation#ClassicalContr
 
 There are or will be innumerable applications. Here are some:
 
+To [[mathematical structures]] in [[algebraic geometry]], [[representation theory]], [[number theory]] and [[combinatorics]]:
+
+* [[Yang-Hui He]], *Machine-Learning Mathematical Structures*, International Journal of Data Science in the Mathematical Sciences &lbrack;[arXiv:2101.06317](https://arxiv.org/abs/2101.06317), [doi:10.1142/S2810939222500010](https://doi.org/10.1142/S2810939222500010)&rbrack;
+
+reviewed in:
+
+* [[Yang-Hui He]], *Machine-Learning Mathematical Structures*, talk at *[M-Theory and Mathematics 2023](https://ncatlab.org/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (Jan 2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#He2023)&rbrack;
+
+
 To the [[conformal bootstrap]]:
 
 * Gergely Kántor, Vasilis Niarchos, [[Constantinos Papageorgakis]], *Solving Conformal Field Theories with Artificial Intelligence* ([arXiv:2108.08859](https://arxiv.org/abs/2108.08859))
 
 (...)
 
+[[!redirects machine-learning]]
 
 
 [[!redirects quantum machine learning]]
+
+
+
