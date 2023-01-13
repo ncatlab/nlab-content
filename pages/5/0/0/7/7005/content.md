@@ -80,6 +80,8 @@ $$x:A, y:A, \vdash \mathrm{ua}(x, y):\mathrm{isEquiv}(\mathrm{idtofam}(x, y))$$
 $$x:A, y:A \vdash \mathrm{ua}(x, y):R(x, y) \to (x =_A y)$$
 $$x:A, y:A, r:R(x, y) \vdash G(x, y):\mathrm{idtofam}(x, y, \mathrm{ua}(x, y, r)) =_{R(x, y)} r$$
 
+1. That $R(x, y)$ with the function $\mathrm{idtofam}(x, y)$ satisfies the [[universal property]] of the [[unary sum]] of $x =_A y$. 
+
 See [[fundamental theorem of identity types]] for proofs that these definitions are the same. 
 
 Traditional [[homotopy type theory]] uses the type of functions with contractible fibers for both $\simeq$ and $R$, while [[Mike Shulman]]'s model of [[higher observational type theory]] uses the type of $U$-small one-to-one correspondences for $R$ and the type of judgmentally strict equivalences for $\simeq$. 
