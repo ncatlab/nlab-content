@@ -804,6 +804,3 @@ See also
 [[!redirects path computation]]
 [[!redirects identification computation]]
 [[!redirects equality computation]]
-
-[[!redirects typal equality]]
-[[!redirects typally equal]]
