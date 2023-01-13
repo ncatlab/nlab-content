@@ -158,6 +158,18 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 \linebreak
 
+* {#He2023} [[Yang-Hui He]]:
+
+  **Machine-Learning Mathematical Structures**
+
+  > We present a number of recent [[experiments]] on how various standard [[machine-learning]] [[algorithms]] can help with pattern detection across disciplines ranging from [[string theory]], to [[algebraic geometry]], to [[representation theory]], to [[combinatorics]], and to [[number theory]].
+
+  > We speculate on whether there is an inherent hierarchy of "difficulty" in mathematics reflected by data. At the heart of the programme is the question how does AI help with mathematical discovery.
+
+  cf.: [arXiv:2101.06317](https://arxiv.org/abs/2101.06317)
+  
+\linebreak
+
 * (...)
 
 \linebreak
