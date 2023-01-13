@@ -49,6 +49,8 @@ $$x:A, y:A, \vdash \mathrm{ftid}(x, y):\mathrm{isEquiv}(f(x, y))$$
 $$x:A, y:A \vdash \mathrm{ftid}(x, y):B(x, y) \to (x =_A y)$$
 $$x:A, y:A, r:B(x, y) \vdash G(x, y):f(x, y, \mathrm{ftid}(x, y, r)) =_{B(x, y)} r$$
 
+1. $R(x, y)$ with the function $f(x, y)$ satisfies the [[universal property]] of the [[unary sum]] of $x =_A y$. 
+
 ### With based identity induction
 
 The **fundamental theorem of identity types** states that given a [[type]] $A$, an [[term|element]] $a:A$, a [[type family]] $x:A \vdash B(x)$ and a [[dependent function|family of functions]] 
@@ -71,6 +73,8 @@ $$x:A \vdash \mathrm{ftid}(x):\mathrm{isEquiv}(f(x))$$
 1. For each $x:A$, $f(x)$ has a [[retraction]] 
 $$x:A \vdash \mathrm{ftid}(x):B(x) \to (a =_A x)$$
 $$x:A, b:B(x) \vdash G(x):f(x, \mathrm{ftid}(x, r)) =_{B(x)} r$$
+
+1. For each $x:A$, $B(x)$ with the function $f(x)$ satisfies the [[universal property]] of the [[unary sum]] of $a =_A x$. 
 
 ## Proofs that the conditions are the same
 
