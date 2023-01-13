@@ -9,9 +9,7 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Definition
 
@@ -145,6 +143,24 @@ $$b_k = -a_1^{-1}(a_k b_1^k + \; terms\; a_n b_{k_1} \ldots b_{k_n})$$
 given the values $a_1, \ldots, a_k$ and earlier $b$-values $b_{k_j}$ for $k_j \lt k$ given by inductive hypothesis. Similarly we can solve for $a_k$ in terms of given coefficients $b_1, \ldots, b_k$ and earlier $a$-values $a_n$, $n \lt k$. Thus every power series $a$ has a right inverse if $a_1^{-1}$ exists, and $b$ has a left inverse if $b_1^{-1}$ exists, and this completes the proof. 
 =-- 
 
+## Ring of power series as rings with infinitesimals
+
+| [[ring]] with [[infinitesimals]] | [[function]] | 
+---------------------|-----------------|
+| [[dual numbers]] | [[differentiable function]] |
+| [[Weil ring]] | [[smooth function]] |
+| [[power series ring]] | [[analytic function]] |
+
+### Purely real and purely infinitesimal elements
+
+Suppose that $K$ is a [[Archimedean ordered field]] and $K[[\epsilon]]$ is the ring of power series in $K$. Since $K[[\epsilon]]$ is a [[local ring]], the quotient of $K[[\epsilon]]$ by its ideal of non-invertible elements $\epsilon K[[\epsilon]]$ is the [[residue field]] $K$ itself, and the canonical function used in defining the quotient is the function $\Re:K[[\epsilon]] \to K$ which takes a number $a \in K[[\epsilon]]$ to its purely real component $\Re(a) \in K$ and takes $\Re(\epsilon) = 0$. Since $K[[\epsilon]]$ is an ordered $K$-algebra, there is a [[strictly monotone]] [[ring homomorphism]] $h:K \to K[[\epsilon]]$. An element $a \in K[[\epsilon]]$ is **purely real** if $h(\Re(a)) = a$, and an element $a \in K[[\epsilon]]$ is **purely [[infinitesimal]]** if it is in the [[fiber]] of $\Re$ at $0 \in K$. Zero is the only element in $K[[\epsilon]]$ which is both purely real and purely infinitesimal. 
+
+### Analytic functions
+
+Suppose that $K$ is a [[sequentially Cauchy complete]] [[Archimedean ordered field]] with lattice structure, and $K[[\epsilon]]$ is the ring of power series of $K$. Then [[analytic functions]] are each definable on $K$ using the algebraic, order, metric, and convergence structure on $K$. 
+
+The ring homomorphism $h:K \to K[[\epsilon]]$ preserves [[analytic functions]]: given a natural number $n \in \mathbb{N}$ and a purely infinitesimal element $\eta \in \epsilon K[[\epsilon]]$, then for every [[analytic function]] $f \in C^\infty(K)$, there is a function $f_{K[[\epsilon]]}:K[[\epsilon]] \to K[[\epsilon]]$ such that for all elements $x \in K$, $f_{K[[\epsilon]]}(h(x)) = h(f(x))$ and 
+$$f_{K[[\epsilon]]}(h(x) + \eta) = \sum_{i = 0}^{\infty} \frac{1}{i!} h\left(\frac{d^i f}{d x^i}(x)\right) \eta^i$$ 
 
 ## Related concepts
 
@@ -175,7 +191,6 @@ category: analysis, algebra
 
 [[!redirects power series]]
 [[!redirects formal power series]]
-
 
 [[!redirects power series ring]]
 [[!redirects power series rings]]
