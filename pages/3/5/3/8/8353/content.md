@@ -92,7 +92,7 @@ $$\frac{\Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \v
 
 ## Copy definitions
 
-Another way of typally defining a type $A$ to be a type $B$ is via **copying**. Copying becomes important for typally defining the [[type of equivalences]], as the usual way of typally defining types involves the [[type of equivalences]] and thus isn't available. One add rules saying that from the [[assignment]] [[judgment]] $B \coloneqq A \; \mathrm{type}$ one can derive that $B$ satisfies the universal property of a [[copy]] of $A$. 
+Another way of typally defining a type $A$ to be a type $B$ is via *[[copying]]*. Copying becomes important for typally defining the [[type of equivalences]], as the usual way of typally defining types involves the [[type of equivalences]] and thus isn't available. One add rules saying that from the [[assignment]] [[judgment]] $B \coloneqq A \; \mathrm{type}$ one can derive that $B$ satisfies the universal property of a [[copy]] of $A$. 
 
 ## Related concepts
 
@@ -136,11 +136,7 @@ Another way of typally defining a type $A$ to be a type $B$ is via **copying**. 
 
 ## References
 
-Copying types could be found in 
-
-* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]], *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$ 
-
-and the single assignment operator is defined (not by name) in Remark 2.2.1 in:
+The single assignment operator is defined (not by name) in Remark 2.2.1 in:
 
 * [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([pdf](https://raw.githubusercontent.com/martinescardo/HoTTEST-Summer-School/main/HoTT/hott-intro.pdf)) (478 pages)
 
