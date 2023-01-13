@@ -167,7 +167,21 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
   > We speculate on whether there is an inherent hierarchy of "difficulty" in mathematics reflected by data. At the heart of the programme is the question how does AI help with mathematical discovery.
 
   cf.: [arXiv:2101.06317](https://arxiv.org/abs/2101.06317)
-  
+ 
+\linebreak
+
+* {#Sharpe2023} [[Eric Sharpe]]:
+
+  **An introduction to decomposition**
+
+  > In this talk I will review work on `decomposition,' a property of 2d theories with 1-form symmetries and, more generally, d-dim'l theories with (d-1)-form symmetries.  Decomposition is the observation that such quantum field theories are equivalent to ('decompose into’) disjoint unions of other QFTs, known in this context as "universes.”
+
+  > Examples include two-dimensional gauge theories and orbifolds with matter invariant under a subgroup of the gauge group. Decomposition explains and relates several physical properties of these theories -- for example, restrictions on allowed instantons arise as a "multiverse interference effect" between contributions from constituent universes.
+
+  > First worked out in 2006 as part of efforts to understand string propagation on stacks, decomposition has been the driver of a number of developments since. I will walk through general aspects of 2d gauge theories that exhibit decomposition, dive into specifics in orbifold examples, and as time permits, discuss recent work in progress.
+
+  cf.: [arXiv:2204.09117](https://arxiv.org/abs/2204.09117)
+ 
 \linebreak
 
 * (...)
