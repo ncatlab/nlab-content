@@ -20,13 +20,9 @@ Given sets $A$ and $B$, the **injection set** $\mathrm{Inj}(A, B)$ is the set of
 
 If the set theory has [[function sets]], then the injection set between $A$ and $B$ is a [[subset]] of the function set between $A$ and $B$: $\mathrm{Inj}(A, B) \subseteq B^A$. 
 
-The internal [[subset]] [[relation]] is defined as the [[support set|support]] of the injection set between $A$ and $B$: $A \subseteq B \coloneqq [\mathrm{Inj}(A, B)]$. 
-
 The [[universal property]] of the bijection set states that given a function $X \to \mathrm{Inj}(A, B)$ from a set $X$ to the injection set between sets $A$ and $B$, there exists a injection $A \times X \hookrightarrow B \times X$ in the [[slice category]] $\mathrm{Set}/X$. 
 
 ## Related concepts
-
-* [[subset]]
 
 * [[embedding type]]
 
