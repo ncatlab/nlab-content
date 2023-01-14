@@ -23,6 +23,10 @@ On the [[first-order formulation of gravity]] via [[L-infinity algebras|$L_\inft
 
 * Marija Dimitrijević Ćirić, [[Grigorios Giotopoulos]], Voja Radovanović, [[Richard J. Szabo]], *$L_\infty$-Algebras of Einstein-Cartan-Palatini Gravity*, J. Math. Phys., **61** 112502 (2020) &lbrack;[arXiv:2003.06173](https://arxiv.org/abs/2003.06173), [doi:10.1063/5.0011344](https://doi.org/10.1063/5.0011344)&rbrack;
 
+On the [[type II geometry]] ([[doubled geometry]]) of [[para-Hermitian manifolds]]:
+
+* Vincenzo Emilio Marotta, [[Richard J. Szabo]], *Born Sigma-Models for Para-Hermitian Manifolds and Generalized T-Duality*,  Reviews in Mathematical Physics **33** 09 (2021)  2150031 &lbrack;[arXiv:1910.09997](https://arxiv.org/abs/1910.09997), [doi:10.1142/S0129055X21500318](https://doi.org/10.1142/S0129055X21500318)&rbrack;
+
 
 
 [[!redirects Richard J. Szabo]]
