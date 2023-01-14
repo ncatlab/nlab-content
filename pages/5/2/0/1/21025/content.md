@@ -44,12 +44,14 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 * [[Luigi Alfonsi]]
 
+* [[Meer Ashwinkumar]]
+
 * [[Ibrahima Bah]]
 
 * [[David Berman]]
 
-* [[Michael Duff]]
-
+* [[Michael Duff]] (had to cancel last minute) 
+ 
 * [[Fei Han]]
 
 * [[Yang-Hui He]]
@@ -212,8 +214,13 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
   cf.: [arXiv:1912.06695](https://arxiv.org/abs/1912.06695), [arXiv:2002.11168](https://arxiv.org/abs/2002.11168)
 
 
+\linebreak
 
+* {#Ashwinkumar2023} [[Meer Ashwinkumar]]:
 
+  **Matrix Quantization of Classical Nambu Brackets and Super $p$-Branes**
+
+  > We will present an explicit matrix algebra quantization of the algebra of volume-preserving diffeomorphisms of the $n$-torus. That is, we approximate the corresponding classical [[Nambu brackets]] using $\mathfrak{sl}\big(N^{\lceil n/2\rceil}, \mathbb{C}\big)$-matrices equipped with the finite bracket given by the completely anti-symmetrized matrix product, such that the classical brackets are retrieved in the $N \to \infty$ limit. We then apply this approximation to the [[super 4-brane in 9 dimensions]] and give a regularized action in analogy with the matrix quantization of the supermembrane. This action exhibits a reduced gauge symmetry that we discuss from the viewpoint of [[L-infinity algebras|$L_\infty$-algebras]] in a slight generalization to the construction of [[Lie 2-algebras]] from [[M-brane 3-algebra|Bagger-Lambert 3-algebras]]. 
 
 \linebreak
 
