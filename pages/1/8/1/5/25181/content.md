@@ -116,7 +116,7 @@ $$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \
 
 ## References
 
-The copy of a type could be found in 
+The above notion of "copy of a type" is considered in §2.12.8 of:
 
 * [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]], *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$ 
 
@@ -142,3 +142,4 @@ The copy of a type could be found in
 [[!redirects unary product types]] 
 
 [[!redirects copy induction]] 
+
