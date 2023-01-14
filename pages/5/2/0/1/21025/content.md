@@ -224,6 +224,16 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 \linebreak
 
+* {#Bah2023} [[Ibrahima Bah]]:
+
+  **Non-invertible symmetry, holography and branes**
+
+  >  In this talk I will discuss some general methods for realizing topological symmetry generators in [[holography]]. In particular I will present a specific realization of non-invertible symmetry generators and their fusion rules in holographic duals of $SU(N)/\mathbb{Z}_N$ [[SYM]]. This will be both from a [[bottom-up and top-down model building|bottom-up perspective]] from an [[effective field theory|effective theory]] in [[anti de Sitter spacetime|$AdS_5$]], and from a [[bottom-up and top-down model building|top-down perspective]] in terms of [[D-branes]] in $AdS_5$ backgrounds. 
+
+  cf.: [arXiv:2208.07373](https://arxiv.org/abs/2208.07373)
+
+\linebreak
+
 * (...)
 
 \linebreak
