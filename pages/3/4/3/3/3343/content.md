@@ -46,6 +46,15 @@ On [[schreiber:Higher Structures|higher structures]] in [[M-theory]]:
 
 * [[Branislav Jurčo]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]], _Higher Structures in M-Theory_,  Introduction to _[Higher Structures in M-Theory, LMS-EPSRC Durham Symposium, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortsch. d. Phys. 2019 ([arXiv:1903.02807](https://arxiv.org/abs/1903.02807))
 
+On [[quantum L-infinity algebras]] for the [[BV-BRST formalism]]:
+
+* [[Martin Doubek]], [[Branislav Jurčo]], [[Ján Pulmann]], *Quantum L∞ Algebras and the Homological Perturbation Lemma*  Comm. Math. Phys. **367** (2019) 215–240 &lbrack;[arXiv:1712.02696](https://arxiv.org/abs/1712.02696), [doi:10.1007/s00220-019-03375-x](https://doi.org/10.1007/s00220-019-03375-x)&rbrack;
+
+* [[Branislav Jurčo]], [[Tommaso Macrelli]], [[Christian Sämann]], [[Martin Wolf]], *Loop Amplitudes and Quantum Homotopy Algebras*, Journal of High Energy Physics **2020** 3 (2020) &lbrack;<a href="https://doi.org/10.1007/JHEP07(2020)003">doi:10.1007/JHEP07(2020)003</a>, [arXiv:1912.06695](https://arxiv.org/abs/1912.06695)&rbrack;
+
+* [[Branislav Jurčo]], [[Hyungrok Kim]], [[Tommaso Macrelli]], [[Christian Saemann]], [[Martin Wolf]], *Perturbative Quantum Field Theory and Homotopy Algebras*, PoS (CORFU2019) 199 &lbrack;[arXiv:2002.11168](https://arxiv.org/abs/2002.11168), [doi:10.22323/1.376.0199](https://doi.org/10.22323/1.376.0199)&rbrack;
+
+
 On the [[classical double copy]] ([[KLT relations]], relating [[gravity]] to [[Yang-Mills theory]]) via [[L-infinity algebras|$L_\infty$-algebras]]:
 
 * [[Leron Borsten]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Tommaso Macrelli]], [[Christian Saemann]], [[Martin Wolf]], _Double copy from homotopy algebras_, Fortschritte der Physik, **69** 8-9 (2021) 2100075 $[$[arXiv:2102.11390](https://arxiv.org/abs/2102.11390), [doi:10.1002/prop.202100075](https://doi.org/10.1002/prop.202100075)$]$
