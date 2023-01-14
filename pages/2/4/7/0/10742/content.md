@@ -27,8 +27,17 @@ On [[higher curvature corrections]] to [[D=11 supergravity]] and [[M-theory on G
 * H. Lu, [[Christopher Pope]], [[Kellogg Stelle]], [[Paul Townsend]], _String and M-theory Deformations of Manifolds with Special Holonomy_, JHEP 0507:075, 2005 ([arXiv:hep-th/0410176](https://arxiv.org/abs/hep-th/0410176))
 
 
+On the work of [[Mike Duff]]:
+
+* [[Leron Borsten]], [[Alessio Marrani]], [[Christopher N. Pope]], [[Kellogg Stelle]], *Introduction to the special issue dedicated to Michael J. Duff FRS on the occasion of his 70th birthday*, Proceedings of the Royal Society A, 
+**478** (2022) 2259 &lbrack;[doi:10.1098/rspa.2022.0166](https://doi.org/10.1098/rspa.2022.0166)&rbrack;
+
+
+
 ## Related entries
 
 * [[string scattering amplitudes]]
 
 category: people
+
+[[!redirects Christopher N. Pope]]
