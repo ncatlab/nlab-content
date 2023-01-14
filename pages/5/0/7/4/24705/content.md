@@ -687,7 +687,7 @@ This implies that well-defined [[quantum circuits]] may be compiled from iterati
 
 1. vertically adjoining such morphisms via their [[external tensor product]].
 
-We illustrate [below](#QCwthLHT-QBits) how this provides a (programming) language for all tranditional quantum circuits compiled from [[qbits]].
+We illustrate [below](#QCwthLHT-QBits) how this provides a (programming) language for all traditional quantum circuits compiled from [[qbits]].
 
 But the expressiveness of the ambient [[linear homotopy type theory]] is considerably larger and allows to handle more general notions of [[quantum circuits]] with the same language structures. For instance:
 
