@@ -17,7 +17,6 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 \linebreak
 
 
-
 \linebreak
 
 ## M-Theory and Mathematics 2023
@@ -201,7 +200,21 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
   on exotic $\mathcal{N} = (4,0)$ [[D=6 supergravity]] 
 
   > cf. [arXiv:2209.11716](https://arxiv.org/abs/2209.11716) and refs [here](https://ncatlab.org/nlab/show/D%3D6+supergravity#ReferencesFourZero)
- 
+
+\linebreak
+
+* {#Jurco2023} [[Branislav Jurčo]]:
+  
+  **Correspondences of Quantum $L_\infty$ Algebras (BV-theories)**
+
+  > The quantum odd [[symplectic category|symplectic "category"]] is constructed from the odd symplectic "category" via an enhancement of [[Lagrangian correspondence|Lagrangian relations]] (correspondences) by [[canonical Hilbert space of half-densities|half-densities]]. We extend this approach to the (finite-dimensional) setting of the [[BV-BRST formalism|Batalin-Vilkovisky quantum field theories]] (quantum L-infinity algebras). We discuss the effective [[observables]] of [[perturbative quantum field theory]] and the [[homological perturbation lemma]] from this point of view.
+
+  cf.: [arXiv:1912.06695](https://arxiv.org/abs/1912.06695), [arXiv:2002.11168](https://arxiv.org/abs/2002.11168)
+
+
+
+
+
 \linebreak
 
 * (...)
