@@ -201,6 +201,10 @@ Along similar lines, the delooping of a [[braided monoidal category]] produces a
 
 ## Related concepts
 
+* [[looping and delooping]]
+
+* [[May recognition theorem]]
+
 * [[loop space object]], [[free loop space object]],
 
   * **delooping**
