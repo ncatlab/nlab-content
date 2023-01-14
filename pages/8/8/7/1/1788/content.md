@@ -1,4 +1,6 @@
 
+$\lceil$ $\rceil$
+
 $$
   \frac{
     X \,\times\, [-1,\, +1]
