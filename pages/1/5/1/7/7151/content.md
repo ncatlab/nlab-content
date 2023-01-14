@@ -7,6 +7,13 @@ On the [[M2-brane 3-algebra]] and the [[BLG model]]:
 
 * {#CherkisSaemann08} [[Sergey Cherkis]], [[Christian Saemann]], _Multiple M2-branes and Generalized 3-Lie algebras_, Phys. Rev. D78:066019, 2008 ([arXiv:0807.0808](https://arxiv.org/abs/0807.0808))
 
+On [[quantum L-infinity algebras]] for the [[BV-BRST formalism]]:
+
+* [[Branislav Jurčo]], [[Tommaso Macrelli]], [[Christian Sämann]], [[Martin Wolf]], *Loop Amplitudes and Quantum Homotopy Algebras*, Journal of High Energy Physics **2020** 3 (2020) &lbrack;<a href="https://doi.org/10.1007/JHEP07(2020)003">doi:10.1007/JHEP07(2020)003</a>, [arXiv:1912.06695](https://arxiv.org/abs/1912.06695)&rbrack;
+
+* [[Branislav Jurčo]], [[Hyungrok Kim]], [[Tommaso Macrelli]], [[Christian Saemann]], [[Martin Wolf]], *Perturbative Quantum Field Theory and Homotopy Algebras*, PoS (CORFU2019) 199 &lbrack;[arXiv:2002.11168](https://arxiv.org/abs/2002.11168), [doi:10.22323/1.376.0199](https://doi.org/10.22323/1.376.0199)&rbrack;
+
+
 On [[schreiber:Higher Structures]] in [[M-theory]]:
 
 * {#Saemann16} [[Christian Saemann]], _Lectures on Higher Structures in M-Theory_ ([arXiv:1609.09815](https://arxiv.org/abs/1609.09815))
