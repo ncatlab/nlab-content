@@ -403,6 +403,11 @@ In
 
 the geometry of the reduction $O(d) \times O(d) \to O(d,d)$ was referred to as "type I geometry", with "type II geometry" instead referring to further [[U-duality]] group extensions, discussed at _[[exceptional generalized geometry]]_.
 
+See also for [[para-Hermitian manifolds]]:
+
+* Vincenzo Emilio Marotta, [[Richard J. Szabo]], *Born Sigma-Models for Para-Hermitian Manifolds and Generalized T-Duality*,  Reviews in Mathematical Physics **33** 09 (2021)  2150031 &lbrack;[arXiv:1910.09997](https://arxiv.org/abs/1910.09997), [doi:10.1142/S0129055X21500318](https://doi.org/10.1142/S0129055X21500318)&rbrack;
+
+
 ### Doubled super-geometry
   {#ReferencesDoubledSupergeometry}
 
