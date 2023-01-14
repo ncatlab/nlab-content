@@ -191,6 +191,16 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
   > We formulate the [[open string]] version of the Born [[sigma-model]] and describe its conformal [[boundary conditions]]. This leads to a general characterisation of [[D-branes]] in [[doubled geometry]] as maximally [[isotropic subspace|isotropic]] sub-bundles on a [[para-Hermitian manifold]]. The reduction of D-branes to a physical spacetime is obtained by describing them as [[Dirac structures]]. We also introduce a para-complex counterpart of the generalised complex branes of [[generalized complex geometry|generalised geometry]].
 
   cf.: [arXiv:1910.09997](https://arxiv.org/abs/1910.09997)
+
+\linebreak
+
+* {#Hull2023} [[Chris Hull]]:
+
+  **Charges and Duality in Gravity**
+
+  on exotic $\mathcal{N} = (4,0)$ [[D=6 supergravity]] 
+
+  > cf. [arXiv:2209.11716](https://arxiv.org/abs/2209.11716) and refs [here](https://ncatlab.org/nlab/show/D%3D6+supergravity#ReferencesFourZero)
  
 \linebreak
 
