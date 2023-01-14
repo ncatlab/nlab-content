@@ -61,7 +61,7 @@
 
 * Edoardo Lauria, [[Antoine Van Proeyen]], _$\mathcal{N}=2$ Supergravity in $D=4,5,6$ Dimensions_ ([arXiv:2004.11433](https://arxiv.org/abs/2004.11433))
 
-For "exotic" $\mathcal{N} = (4,0)$-supersymmetry:
+{#ReferencesFourZero} For "exotic" $\mathcal{N} = (4,0)$-supersymmetry:
 
 * [[Chris Hull]], *Strongly Coupled Gravity and Duality*, Nucl.Phys. B **583** (2000) 237-259 &lbrack;[arXiv:hep-th/0004195](https://arxiv.org/abs/hep-th/0004195), <a href="https://doi.org/10.1016/S0550-3213(00)00323-0">doi:10.1016/S0550-3213(00)00323-0</a>&rbrack;
 
@@ -74,7 +74,7 @@ For "exotic" $\mathcal{N} = (4,0)$-supersymmetry:
 
 * [[Yannick Bertrand]], [[Stefan Hohenegger]], [[Olaf Hohm]], [[Henning Samtleben]], *Supersymmetric action for 6D $(4,0)$ supergravity*, JHEP (2022) &lbrack;[arXiv:2206.04100](https://arxiv.org/abs/2206.04100)&rbrack;
 
-* [[Chris Hull]], *Gravity, Duality and Conformal Symmetry* &lbrack;[arXi:2209.11716](https://arxiv.org/abs/2209.11716)&rbrack;
+* [[Chris Hull]], *Gravity, Duality and Conformal Symmetry*, in *Quantum gravity, branes and M-theory* &lbrack;[arXi:2209.11716](https://arxiv.org/abs/2209.11716)&rbrack;
 
 
 
