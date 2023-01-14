@@ -19,6 +19,12 @@ Autobiographical notes around encountering [[Chris Isham]]:
 * [[Michael Duff]], *Chris Isham: mentor, colleague, friend* ([arXiv:2112.13722](https://arxiv.org/abs/2112.13722))
 
 
+See also:
+
+* [[Leron Borsten]], [[Alessio Marrani]], [[Christopher N. Pope]], [[Kellogg Stelle]], *Introduction to the special issue dedicated to Michael J. Duff FRS on the occasion of his 70th birthday*, Proceedings of the Royal Society A, 
+**478** (2022) 2259 &lbrack;[doi:10.1098/rspa.2022.0166](https://doi.org/10.1098/rspa.2022.0166)&rbrack;
+
+
 \linebreak
 
 ## Students
