@@ -67,9 +67,15 @@ Computation rules for copies:
 $$\frac{\Gamma \vdash a:A}{\Gamma \vdash \mathrm{original}(\mathrm{copy}(a)) \equiv a:A} \qquad \frac{\Gamma \vdash a:A}{\Gamma \vdash \mathrm{original}(\mathrm{copy}(a)) \equiv_A a \; \mathrm{true}} \qquad \frac{\Gamma \vdash a:A}{\Gamma \vdash \beta_{\mathrm{Copy}(A)}(a):\mathrm{original}(\mathrm{copy}(a)) =_A a}$$
 
 Uniqueness rules for copies:
-$$\frac{\Gamma \vdash b:\mathrm{Copy}(A)}{\Gamma \vdash b \equiv \mathrm{copy}(\mathrm{original}(b)):\mathrm{Copy}(A)} \qquad \frac{\Gamma \vdash b:B}{\Gamma \vdash b \equiv_{\mathrm{Copy}(A)} \mathrm{copy}(\mathrm{original}(b)) \; \mathrm{true}} \qquad \frac{\Gamma \vdash b:\mathrm{Copy}(A)}{\Gamma \vdash \eta_{\mathrm{Copy}(A)}(b):b =_{\mathrm{Copy}(A)} \mathrm{copy}(\mathrm{original}(b))}$$
+$$\frac{\Gamma \vdash b:\mathrm{Copy}(A)}{\Gamma \vdash b \equiv \mathrm{copy}(\mathrm{original}(b)):\mathrm{Copy}(A)} \qquad \frac{\Gamma \vdash b:\mathrm{Copy}(A)}{\Gamma \vdash b \equiv_{\mathrm{Copy}(A)} \mathrm{copy}(\mathrm{original}(b)) \; \mathrm{true}} \qquad \frac{\Gamma \vdash b:\mathrm{Copy}(A)}{\Gamma \vdash \eta_{\mathrm{Copy}(A)}(b):b =_{\mathrm{Copy}(A)} \mathrm{copy}(\mathrm{original}(b))}$$
 
+\begin{theorem}
+$\mathrm{copy}$ is an [[equivalence of types]] between $A$ and $\mathrm{Copy}(A)$. 
+\end{theorem}
+
+\begin{proof}
 Unary products with judgmental or propositional [[conversion rules]] turn $\mathrm{copy}$ into a [[judgmentally strict equivalence]] and a [[propositionally strict equivalence]] respectively. Unary products with only typal [[conversion rules]] turn $\mathrm{copy}$ and $\mathrm{original}$ into [[quasi-inverse functions]] of each other. One could then define a function $f:\mathrm{QInv}(\mathrm{copy}) \to \mathrm{isEquiv}(\mathrm{copy})$ which takes the quasi-inverse function $(\mathrm{original}, \beta_{\mathrm{Copy}(A)}, \eta_{\mathrm{Copy}(A)})$ to a witness that $\mathrm{copy}$ has [[contractible type|contractible]] [[fiber type|fibers]] and is thus an [[equivalence of types]]. 
+\end{proof}
 
 ## Extensionality principle for copies
 
