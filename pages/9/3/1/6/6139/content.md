@@ -440,6 +440,8 @@ For $A$ any monoidal [[space]], we may [[forgetful functor|forget]] its monoidal
 
 ## Related concepts
 
+* [[looping]], [[delooping]]
+
 * [[May recognition theorem]]
 
 * [[Quillen equivalence between simplicial groups and reduced simplicial sets]]
