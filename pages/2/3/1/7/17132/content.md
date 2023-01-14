@@ -12,6 +12,13 @@ Understanding [[tensor hierarchies]] via [[higher gauge theory]] for [[EL-infini
 
 * [[Leron Borsten]], [[Hyungrok Kim]], [[Christian Saemann]].  *$E L_\infty$-algebras, Generalized Geometry, and Tensor Hierarchies* &lbrack;[arXiv:2106.00108](https://arxiv.org/abs/2106.00108)&rbrack;
 
+On the work of [[Mike Duff]]:
+
+* [[Leron Borsten]], [[Alessio Marrani]], [[Christopher N. Pope]], [[Kellogg Stelle]], *Introduction to the special issue dedicated to Michael J. Duff FRS on the occasion of his 70th birthday*, Proceedings of the Royal Society A, 
+**478** (2022) 2259 &lbrack;[doi:10.1098/rspa.2022.0166](https://doi.org/10.1098/rspa.2022.0166)&rbrack;
+
+
+
 
 
 ## Related $n$Lab entries
