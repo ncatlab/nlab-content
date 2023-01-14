@@ -91,7 +91,7 @@ This concept allows us to define the English version of limit directly as a Fren
 +-- {: .num_prop}
 ###### Proposition
 
-$L$ is a limit (in the English sense) of $f$ (or $R$, or $(g,f)$) approaching $c$ in $C$ if and only if $L$ is a limit (in the French sense) of $f$ (or $R$, or $(g,f)$) approaching $c$ in $C \setminus c$.
+$L$ is a limit (in the English sense) of $f$ (or $R$, or $(g,f)$) approaching $c$ in $C$ if and only if $L$ is a limit (in the French sense) of $f$ (or $R$, or $(g,f)$) approaching $c$ in $C \setminus \{c\}$.
 =--
 
 To go more general than this would seem to require referring directly to a [[net]] $\nu$ or [[filter]] $\mathcal{F}$ on $X$, at which point we may as well just talk about the [[limit of the net]] $f \circ \nu$ or the [[limit of the filter]] $f(\mathcal{F})$ (or of the filter $R(\mathcal{F})$ or of the filter $f(g^*(\mathcal{F}))$).
@@ -108,18 +108,18 @@ for the limit, if it exists (so, like $1/x$ when $x$ is an arbitrary real number
 The last notation is not very common, but some variations of it are when $X$ is a topological [[poset]]: $f(c^-)$ is the limit of $f$ approaching $c$ in $C = \{ x \in X \;|\; x \lt c \}$, while $f(c^+)$ is the limit of $f$ approaching $c$ in $C = \{ x \in X \;|\; x \gt c \}$.  Similarly, $f(\infty)$ is the limit of $f$ approaching $\infty$, where the domain $X$ is taken to be the [[disjoint union]] (as a set) of the original topological poset and a point $\infty$ that is greater than every original element and whose neighbourhoods are the [[upper sets]] of $X$; while $f(-\infty)$ is the limit of $f$ approaching $-\infty$, where the domain $X$ is taken to be the disjoint union of the original topological poset and a point $-\infty$ that is less than every original element and whose neighbourhoods are the [[lower sets]] of $X$.  (In all of these, the French and English definitions agree.)
 
 For the general restricted case, write
-$$ \lim_{x \to c \atop c \in C} f(x) $$
+$$ \lim_{x \to c \atop x \in C} f(x) $$
 for the limit of $f$ approaching $c$ in $C$.  The dummy variable is quite useful here, since neither $f$ nor $C$ have to be given names but can be given by formulas instead.  (For example, $f(c^+)$ is $\lim_{x \to c \atop x \gt c} f(x)$.)
 
 In the non-Hausdorff case, we can use the same notation but interpret it as referring to a [[subset]] of $Y$ instead of an element of $Y$.  Then this subset always exists; it just might be [[empty subset|empty]].  Sometimes a capitalized $Lim$ is used to emphasize that this is now a set.  This set could also be taken to be all of $Y$ whenever $c$ is not a limit point of the appropriate kind, but this is likely to lead to confusion if not explicitly warned about.
 
 Another notation, especially useful when $Y$ is non-Hausdorff, but common even in the Hausdorff case, is
 $$ f(x) \underset{x \to c}{\to} L $$
-to mean that $L$ is a limit of $f$ approaching $c$.  Again, we can add $c \in C$ if we wish to take the limit in $C$.  And again, the dummy variable means that we don\'t need a name for $f$ (or $C$), just a formula.  Often one writes only $f(x) \to L$ and puts $x \to c$ (and $c \in C$ if appropriate) off to the side somewhere:
+to mean that $L$ is a limit of $f$ approaching $c$.  Again, we can add $x \in C$ if we wish to take the limit in $C$.  And again, the dummy variable means that we don\'t need a name for $f$ (or $C$), just a formula.  Often one writes only $f(x) \to L$ and puts $x \to c$ (and $x \in C$ if appropriate) off to the side somewhere:
 
-* $f(x) \to L$ as $x \to c$ while $c \in C$,
+* $f(x) \to L$ as $x \to c$ while $x \in C$,
 
-or with more words: $f(x)$ approaches $L$ as $x$ approaches $c$ while $c \in C$.
+or with more words: $f(x)$ approaches $L$ as $x$ approaches $c$ while $x \in C$.
 
 Most of this notation can also be used for limits of spans:
 $$ \array { L = \lim_{g(\gamma) \to c \atop \gamma \in C} f(\gamma) ,\\
