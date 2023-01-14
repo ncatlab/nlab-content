@@ -181,6 +181,16 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
   > First worked out in 2006 as part of efforts to understand string propagation on stacks, decomposition has been the driver of a number of developments since. I will walk through general aspects of 2d gauge theories that exhibit decomposition, dive into specifics in orbifold examples, and as time permits, discuss recent work in progress.
 
   cf.: [arXiv:2204.09117](https://arxiv.org/abs/2204.09117)
+
+\linebreak
+
+* {#Szabo23} [[Richard Szabo]]:
+
+  **D-branes and doubled geometry**
+
+  > We formulate the [[open string]] version of the Born [[sigma-model]] and describe its conformal [[boundary conditions]]. This leads to a general characterisation of [[D-branes]] in [[doubled geometry]] as maximally [[isotropic subspace|isotropic]] sub-bundles on a [[para-Hermitian manifold]]. The reduction of D-branes to a physical spacetime is obtained by describing them as [[Dirac structures]]. We also introduce a para-complex counterpart of the generalised complex branes of [[generalized complex geometry|generalised geometry]].
+
+  cf.: [arXiv:1910.09997](https://arxiv.org/abs/1910.09997)
  
 \linebreak
 
