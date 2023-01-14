@@ -261,6 +261,9 @@ Formalization of Eilenberg-MacLane spaces in [[homotopy type theory]]:
 
 * {#vanDoorn18} [[Floris van Doorn]], §42 in: *On the Formalization of Higher Inductive Types and Synthetic Homotopy Theory* (2018) &lbrack;[arXiv:1808.10690](https://arxiv.org/abs/1808.10690)&rbrack;
 
+* David Wärn, _Eilenberg-MacLane spaces and stabilisation in homotopy type theory_ ([arXiv:2301.03685](https://arxiv.org/abs/2301.03685))
+
+
 
 ### Cohomology
 
