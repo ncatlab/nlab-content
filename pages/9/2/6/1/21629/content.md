@@ -46,7 +46,7 @@ between
 
 1. [[∞-groups]] (i.e. [[groupoid object in an (infinity,1)-category|group objects]]) in $\mathbf{H}$
 
-1. [[pointed object|pointed]] [[n-connected object of an (infinity,1)-topos|connected objects]] in $\mathbf{H}$.
+1. [[pointed object|pointed]]$\;$[[n-connected object of an (infinity,1)-topos|connected objects]] in $\mathbf{H}$.
 
 The inverse equivalence is the [[delooping]] $\mathbf{B}$, see at _[[looping and delooping]]_.
 
