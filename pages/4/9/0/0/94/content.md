@@ -641,7 +641,6 @@ and
 
 ## Related concepts
 
-
 * [[A-∞ algebra]]
 
 * [[E-∞ algebra]]
@@ -661,6 +660,8 @@ and
   * [[derived L-∞ algebroid]]
 
   * [[sheaf of L-∞ algebras]]
+
+  * [[quantum L-∞ algebra]]
 
 * [[relation between L-∞ algebras and dg-Lie algebras]]
 
