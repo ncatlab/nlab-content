@@ -127,7 +127,7 @@ For $V, W \in G Rep^{fin}$ two [[finite-dimensional vector space|finite-dimensio
 $$
   \langle V,W\rangle
   \;\coloneqq\;
-  dim\big( hom_G(-,-) \big)
+  dim\big( hom_G(V,W) \big)
   \;\in\;
   \mathbb{N}
 $$
