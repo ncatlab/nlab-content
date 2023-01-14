@@ -16,7 +16,7 @@
 
 ## Idea
 
-Tropical geometry is often thought of as the [[algebraic geometry]] over the [[tropical semiring]]. Many central results are combinatorial in nature, with relations to the (geometry and combinatorics of) polyhedra, [[matroid]]s, [[cluster algebra]]s and toric geometry. Recently it found applications in explaining [[mirror symmetry]] at a more fundamental level (see e.g. [Gross 11](#Gross11)). 
+Tropical geometry is often thought of as [[algebraic geometry]] over the [[tropical semiring]]. Many central results are combinatorial in nature, with relations to the (geometry and combinatorics of) polyhedra, [[matroid]]s, [[cluster algebra]]s and toric geometry. Recently it found applications in explaining [[mirror symmetry]] at a more fundamental level (see e.g. [Gross 11](#Gross11)). 
 
 
 Tropical algebraic geometry establishes and studies some very general principles to translate algebro-geometric problems into purely combinatorial ones.
