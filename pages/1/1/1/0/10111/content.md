@@ -101,6 +101,8 @@ This is due to ([Hitchin 74](#Hitchin74)). A textbook account is for instance in
 
 * [[Hermitian space]]
 
+* [[para-Hermitian manifold]]
+
 * [[Kähler manifold]]
 
 * [[p-convex polarization]]
@@ -109,8 +111,8 @@ This is due to ([Hitchin 74](#Hitchin74)). A textbook account is for instance in
 
 [[spin structure]] on Hermitian manifolds is discussed for instance in 
 
-* [[Thomas Friedrich]], _Dirac operators in Riemannian geometry_, Graduate studies in mathematics 25, AMS (1997)
- {#Friedrich97}
+* {#Friedrich97} [[Thomas Friedrich]], _Dirac operators in Riemannian geometry_, Graduate studies in mathematics 25, AMS (1997)
+ 
 
 Discussion of the relation between Hermitian metrics and almost K&#228;hler metrics is in 
 
