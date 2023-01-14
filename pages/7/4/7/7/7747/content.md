@@ -58,11 +58,11 @@ Every 3-[[dimension|dimensional]] [[manifold]] with [[spin structure]] admits a 
 +-- {: .proof}
 ###### Proof
 
-That a 3-manifold $X$  has [[spin structure]] means that we have a [[reduction of the structure group]] of the tangent bundle to the [[spin group]], and hence the tangent bundle is classified by a map $X \to B Spin(3)$. But $Spin(3)$ has vanishing [[homotopy groups]] in degree $0 \leq k \leq 2$. Therefore its [[delooping]] [[classifying space]] $B Spin(3)$ has vanishing homotopy groups below degree 4 and hence every morphism out of a 3-dimensional manifold into it is homotopically constant.
+That a 3-manifold $X$  has [[spin structure]] means that we have a [[reduction of the structure group]] of the tangent bundle to the [[spin group]], and hence the tangent bundle is classified by a map $X \to B Spin(3)$. But $Spin(3)$ has vanishing [[homotopy groups]] in degree $0 \leq k \leq 2$. Therefore its [[delooping]] [[classifying space]] $B Spin(3)$ has vanishing homotopy groups below degree 4, and hence every morphism out of a 3-dimensional manifold into it is homotopically constant.
 
 =--
 
-But in fact the following stronger statement is also true.
+But in fact, the following stronger statement is also true.
 
 +-- {: .num_prop #EveryOrientable3ManifoldsIsParallelizable}
 ###### Proposition
@@ -76,7 +76,7 @@ Every [[orientation|orientable]] 3-[[dimension|dimensional]] [[manifold]] admits
 
 By the argument in the proof of 
 prop. \ref{SpinManifoldAdmitsFraming}, the only possible 
-obstruction is the [[second Stiefel-Whitney class]] $w_2$.  By the discussion at _[[Wu class]]_, this vanishes on an oriented manifold precisely if the second [[Wu class]] vanishes. This in turn is by definition defined to represent the [[Steenrod square]] under [[cup product]], and this vanishes on a 3-manifold by degree reasons.
+obstruction is the [[second Stiefel-Whitney class]] $w_2$.  By the discussion at _[[Wu class]]_, this vanishes on an oriented manifold precisely if the second [[Wu class]] vanishes. This, in turn, is by definition defined to represent the [[Steenrod square]] under [[cup product]], and this vanishes on a 3-manifold by degree reasons.
 
 =--
 
@@ -111,9 +111,9 @@ This is due to ([Adams 58](#Adams58)), proven with the [[Adams spectral sequence
 
 Left invariant framings $\mathcal{L}$ on compact connected Lie groups $G$ with $dim(G)=k$ give rise to elements $[G,\mathcal{L}]$ in the stable homotopy group $\pi_k^s$ of spheres. One can restrict attention to semisimple Lie groups $G$ since this construction behaves well with respect to products, $G \to T\times G/T$ gives a framed diffeomorphism and  $[S^1,\mathcal{L}] \in \pi_1^s$ is the generator. The following facts are assembled from ([Ossa 1982](#Ossa82)) and ([Minami 2016](#Minami16)).
 
-* For any *semisimple* compact connected Lie group $G$, Ossa proved that $72[G,\mathcal{L}]=0$. In particular the only possible torsion is at the primes 2 and 3.
+* For any *semisimple* compact connected Lie group $G$, Ossa proved that $72[G,\mathcal{L}]=0$. In particular, the only possible torsion is at the primes 2 and 3.
 
-* The left invariant framings on $SO(n),Spin(n)$ and $SU(n)$ give the zero element for $n\geq 7$, those on $Sp(n)$ for $n\geq 4$, as do those on $F_4,E_6,E_7,E_8, SO(4),SO(6),SU(5),SU(6)$. (this means that the undetermined cases of rank 4 in Ossa's Table 1 are in fact all 0)
+* The left invariant framings on $SO(n),Spin(n)$ and $SU(n)$ give the zero element for $n\geq 7$, those on $Sp(n)$ for $n\geq 4$, as do those on $F_4,E_6,E_7,E_8, SO(4),SO(6),SU(5),SU(6)$. (this means that the undetermined cases of rank 4 in Ossa's Table 1 are, in fact, all 0)
 
 * The left invariant framings on the remaining groups ($SU(2)=Spin(3)=Sp(1),SU(3),SU(4)=Spin(6),Sp(2)=Spin(5),Sp(3),SO(3),SO(5)$ and $G_2$) represent known nonzero classes in $\pi_\ast^s$.
 
@@ -125,7 +125,7 @@ Left invariant framings $\mathcal{L}$ on compact connected Lie groups $G$ with $
 ### Relation to intersection pairing and Kervaire invariant
  {#IntersectionPairing}
 
-On a framed manifold there is a canonical [[quadratic refinement]] of the [[intersection pairing]]. The associated invariant is the _[[Kervaire invariant]]_.
+On a framed manifold, there is a canonical [[quadratic refinement]] of the [[intersection pairing]]. The associated invariant is the _[[Kervaire invariant]]_.
 
 ## Properties 
 
@@ -151,7 +151,7 @@ Formalization in [[differential cohesion]] is discussed [there](http://ncatlab.o
 
 ### General
 
-Rieview in the context of the [[Kervaire invariant]] includes
+Review in the context of the [[Kervaire invariant]] includes
 
 * [[Akhil Mathew]], _The Kervaire invariant I_ ([web](https://amathew.wordpress.com/2012/10/01/the-kervaire-invariant-i/#more-3888))
 
