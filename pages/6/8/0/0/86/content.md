@@ -622,6 +622,7 @@ the **BRST-BV charge** such that
 
 * [[homotopy BV algebra]]
 
+* [[quantum L-infinity algebra]]
 
 ## References 
  {#References}
@@ -828,6 +829,18 @@ Section 4.5 of
 This also makes the connection to 
 
 * P. Olver, _Applications of Lie Groups to Differential Equations_ (Springer-Verlag, Berlin) (1986)
+
+
+See also via [[quantum L-infinity algebras]]:
+
+* [[Martin Doubek]], [[Branislav Jurčo]], [[Ján Pulmann]], *Quantum L∞ Algebras and the Homological Perturbation Lemma*  Comm. Math. Phys. **367** (2019) 215–240 &lbrack;[arXiv:1712.02696](https://arxiv.org/abs/1712.02696), [doi:10.1007/s00220-019-03375-x](https://doi.org/10.1007/s00220-019-03375-x)&rbrack;
+
+* [[Branislav Jurčo]], [[Tommaso Macrelli]], [[Christian Sämann]], [[Martin Wolf]], *Loop Amplitudes and Quantum Homotopy Algebras*, Journal of High Energy Physics **2020** 3 (2020) &lbrack;<a href="https://doi.org/10.1007/JHEP07(2020)003">doi:10.1007/JHEP07(2020)003</a>, [arXiv:1912.06695](https://arxiv.org/abs/1912.06695)&rbrack;
+
+Review:
+
+* Sebastian Albrecht: *Formulation of Batalin-Vilkovisky Field Theories as Homotopy Lie Algebras*, Munich (2022) &lbrack;[pdf](https://www.theorie.physik.uni-muenchen.de/TMP/theses/sebastian_albrecht.pdf)&rbrack;
+
 
 #### For CFT/vertex algebras
 
