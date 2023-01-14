@@ -293,6 +293,10 @@ In some sense homotopy BV is a formal extension of homotopy Gerstenhaber.
 For any [[topological vertex algebra]] $A$ with $\mathbb{N}$-graded conformal weight there exists an expliciit $BV_\infty$-algebra structure on $A$ which extends Lian--Zuckermann operations on $A$ and which lifts the [[BV-algebra]] structure on $H(A)$.
 =--
 
+## Related entries
+
+* [[quantum L-infinity algebra]]
+
 ## References
 
 The above material probably roughly follows the talk slides
