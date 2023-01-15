@@ -311,3 +311,7 @@ Some discussion of quantization in terms of [[Bohr toposes]] is in
 
 
 [[!redirects quantizations]]
+
+[[!redirects quantisation]]
+[[!redirects quantisations]]
+
