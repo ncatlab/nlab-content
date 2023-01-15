@@ -192,7 +192,7 @@ The conception of distributions simply as elements of a double [[mapping space]]
 
 Discussion of distributions in terms morphisms out of [[internal homs]] in the [[smooth topos]] over the site of [[smooth loci]] is in
 
-* {#MoerdijkReyes91} [[Ieke Moerdijk]], [[Gonzalo Reyes]], around prop. 3.6 of _[[Models for Smooth Infinitesimal Analysis]]_, Springer 1991
+* {#MoerdijkReyes91} [[Ieke Moerdijk]], [[Gonzalo Reyes]], around prop. II.3.6 of _[[Models for Smooth Infinitesimal Analysis]]_, Springer 1991
 
 Discussion for the [[Cahiers topos]] is in
 
