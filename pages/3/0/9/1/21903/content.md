@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -39,9 +40,21 @@
 
 * [[Hitoshi Nishino]], _Supersymmetric Yang-Mills Theories in $D \geq 12$_, Nucl.Phys. B523 (1998) 450-464 ([arXiv:hep-th/9708064](https://arxiv.org/abs/hep-th/9708064))
 
-In relation to [[bosonic M-theory]] on [[Cayley plane]]-[[fibers]]:
+In relation to [[bosonic M-theory]] on [[Cayley plane]]-[[fibers]] and [[12-dimensional supergravity]]:
 
-* [[Michael Rios]], [[Alessio Marrani]], [[David Chester]], _The Geometry of Exceptional Super Yang-Mills Theories_, Phys. Rev. D 99, 046004 (2019) ([arXiv:1811.06101](https://arxiv.org/abs/1811.06101))
+* [[Michael Rios]], [[Alessio Marrani]], [[David Chester]], _The Geometry of Exceptional Super Yang-Mills Theories_, Phys. Rev. D **99** (2019) 046004  &lbrack;[arXiv:1811.06101](https://arxiv.org/abs/1811.06101), [doi:10.1103/PhysRevD.99.046004](https://doi.org/10.1103/PhysRevD.99.046004)&rbrack;
+
+* [[Michael Rios]], [[Alessio Marrani]], [[David Chester]], *Exceptional Super Yang-Mills in $D=27+3$ and Worldvolume M-Theory*, Phys. Lett. B **808** (2020) 135674 &lbrack;[arXiv:1906.10709](https://arxiv.org/abs/1906.10709), [doi:10.1016/j.physletb.2020.135674](https://doi.org/10.1016/j.physletb.2020.135674)&rbrack;
+
+reviewed in:
+
+* [[Alessio Marrani]], *Exceptional super Yang-Mills in $27 + 3$ and worldvolume M-theory*, talk at *[M-Theory and mathematics 2023](https://ncatlab.org/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (Jan, 2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Marrani2023)&rbrack;
+
+
+
+
+
+
 
 ## Related concepts
 
