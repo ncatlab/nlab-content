@@ -40,7 +40,7 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 \linebreak
 
 
-**Speakers:**
+{#Speakers2023} **Speakers:**
 
 * [[Luigi Alfonsi]]
 
@@ -264,6 +264,16 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
   > [[Hisham Sati]] and I, on the way to revealing the mystery of 2001 [[Mysterious Duality]] of [Iqbal, Neitzke, and Vafa](mysterious+duality#INV01), generalized [[schreiber:Hypothesis H|hypothesis H]] and presented a universal target for each [[double dimensional reduction|dimensional reduction]] of [[M-theory]]. Each of these targets has the [[dynamics]] of [[supergravity]] embedded into its structure. The target for $(11-k)$-dimensional [[M-theory]] also has an [[Lie algebra representation|action]] of the [[Lie algebra]] of [[exceptional Lie algebra|type $E_k$]], responsible for [[U-duality|symmetries]] of $(11-k)$-dim [[supergravity]] along with its [[equations of motion]] in any spacetime.
 
   cf.: [arXiv:2111.14810](https://arxiv.org/abs/2111.14810), [arXiv:2212.13968](https://arxiv.org/abs/2212.13968)
+
+\linebreak
+
+* {#Marrani2023} [[Alessio Marrani]]:
+
+  **Exceptional super Yang-Mills in $27 + 3$ and worldvolume M-theory**
+
+  > Some time ago, [[D=14 supersymmetry|Bars and Sezgin proposed]] a [[super Yang-Mills theory]] in $D=s+t=11+3$ space-time dimensions, with an electric 3-brane that generalizes the 2-brane of M-theory. More recently, Rios, Chester and the speaker found an infinite family of "exceptional" super Yang-Mills theories in $D=s+t=(8n+3)+3$. A particularly interesting case occurs for $n=3$, namely in signature $D=27+3$, in which the superalgebra is centrally extended by an electric 11-brane and its 15-brane magnetic dual. The worldvolume symmetry of the 11-brane has signature $D=11+3$ and can reproduce super Yang-Mills theory in D=$11+3$. Upon reduction to $D=26+2$, the 11-brane reduces to a 10-brane with $10+2$ worldvolume signature. A single time projection gives a $10+1$ worldvolume signature, and it can serve as a model for $D=10+1$ [[M-theory]] as a reduction from the $D=26+1$ signature of the [[bosonic M-theory]] of [[Gary Horowitz|Horowitz]] and [[Leonard Susskind|Susskind]]; this is further confirmed by the reduction of chiral $(1,0)$, $D=11+3$ superalgebra to the $\mathcal{N}=1$ superalgebra in $D=10+1$, as found by Rudychev, Sezgin and Sundell some time ago. Extending previous results of Dijkgraaf, Verlinde and Verlinde, I will also put forward the realization of spinors as total cohomologies of (the largest spatially extended) branes which centrally extend the $(1,0)$ superalgebra underlying the corresponding "exceptional" super Yang-Mills theory. Moreover, by making use of an “anomalous” Dynkin embedding, I will present further evidence about [[Pierre Ramond|Ramond]]'s and [[Hisham Sati|Sati]]'s argument that M-theory has hidden Cayley plane fibers.
+
+  cf.: [arXiv:1906.10709](https://arxiv.org/abs/1906.10709)
 
 \linebreak
 
