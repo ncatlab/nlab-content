@@ -50,8 +50,14 @@ review:
 * {#Voronov21} [[Alexander Voronov]] (joint with [[Hisham Sati]]), *Mysterious Duality*, talk at Texas Tech 2021 ([abstract pdf](https://www.math.ttu.edu/~lhoang/PureMath/abstract-2021-03-15-Voronov.pdf) [[Voronov_MysteriousAbstract.pdf:file]], [slides pdf](https://www.math.ttu.edu/~lhoang/PureMath/Slides-2021-03-15-Voronov.pdf), [[Voronov_MysteriousSlides.pdf:file]])
 
 
+* [[Alexander Voronov]]: *The $E_k$ symmetry of dimensional reductions of M-theory*, talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Voronov2023)&rbrack;
+
 
 See also at:
 
 * [[U-duality]]
+
+
+[[!redirects Mysterious Duality]]
+
 
