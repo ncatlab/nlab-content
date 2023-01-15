@@ -186,7 +186,7 @@ See also the references and discussion at _[[M5-brane]]_.
 
 and the resulting relation to the [[geometric Langlands correspondence]] is disucssed in 
 
-* {#Witten09} [[Edward Witten]], _Geometric Langlands From Six Dimensions_, in Peter Kotiuga (ed.) _A Celebration of the Mathematical Legacy of Raoul Bott_, CRM Proceedings & Lecture Notes Volume: 50, AMS 2010 ([arXiv:0905.2720](http://arxiv.org/abs/0905.2720), [ISBN:978-0-8218-4777-0](https://bookstore.ams.org/crmp-50))
+* {#Witten09} [[Edward Witten]], *Geometric Langlands From Six Dimensions*, in Peter Kotiuga (ed.) _A Celebration of the Mathematical Legacy of Raoul Bott_, CRM Proceedings & Lecture Notes **50** AMS (2010) &lbrack;[arXiv:0905.2720](http://arxiv.org/abs/0905.2720), [ISBN:978-0-8218-4777-0](https://bookstore.ams.org/crmp-50)&rbrack;
  
 
 For more references on this see at _[[N=2 D=4 super Yang-Mills theory]]_ the section _[References - Constructions from 5-branes](N%3D2+D%3D4+super+Yang-Mills+theory#ConstructionByCompactificationOf5Branes)_.
