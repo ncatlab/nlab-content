@@ -277,6 +277,17 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 \linebreak
 
+* {#Alfonsi2023} [[Luigi Alfonsi]]:
+
+  **Derived $n$-plectic geometry: towards non-perturbative BV-BFV quantisation and M-theory**
+
+  > In this talk I will propose the notion of [[derived geometry|derived]] [[n-plectic geometry|$n$-plectic geometry]] and show that a classical [[BV formalism|BV-BFV theory]] can be globally reformulated in this framework.
+
+  > A derived $n$-plectic structure is a [[derived geometry|derived]] and [[categorification|categorified]] generalisation of a [[symplectic structure]], where the usual [[closed differential form|closed]] [[differential 2-form|2-form]] is replaced by a shifted closed $(n+1)$-form on a [[derived manifold|derived space]]. I will argue that derived $n$-plectic geometry is to classical BV-BFV theory as ordinary $n$-plectic geometry is to ordinary [[Lagrangian field theory]]. I will also discuss the rich [[homotopical algebra|homotopy-algebraic]] structure of [[observables]] of a derived $n$-plectic space. Finally, I will point at promising applications of this formalism to [[non-perturbative quantum field theory|non-perturbative]] [[quantisation]] of [[BV formalism|BV-BFV theories]] and to global aspects of [[M-theory]].
+
+
+\linebreak
+
 * (...)
 
 \linebreak
