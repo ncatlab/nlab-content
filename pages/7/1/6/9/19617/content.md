@@ -21,8 +21,20 @@ My main research interest lies in the global geometric structures underlying the
 
 * email: [l.alfonsi@herts.ac.uk](mailto:l.alfonsi@herts.ac.uk)
 
+## Short bio
+
+PhD in Theoretical Physics at the Centre for Research in String Theory (currently known as [Centre for Theoretical Physics](https://www.qmul.ac.uk/spcs/ctp/)) at [Queen Mary University of London](https://www.qmul.ac.uk/), under the supervision of Prof. [[David Berman]].
+
+MSc in [Quantum Fields and Fundamental Forces](https://www.imperial.ac.uk/study/pg/physics/quantum-fields-fundamental-forces/) at [Imperial College London](https://www.imperial.ac.uk/) under the supervision of Prof. [[Chris Hull]].
+
+
 ## Selected writings
  {#SelectedWritings}
+
+On 2-dimensional [[Yang-Mills theory]]
+
+* _Review of non-abelian localization for $2$d Yang-Mills Theory_, 2017 ([pdf](https://drive.google.com/file/d/1gFPv0tg7mKXQKmhB0dK-Hj3PWdTcM05K/view))
+
 
 On global [[double field theory]] formulated in [[higher differential geometry]]:
 
@@ -67,19 +79,17 @@ PhD thesis:
 
 * _Global Double Field Theory as gerbe geometry_, talk at [Generalized Geometry and Applications](https://www.math.uni-hamburg.de/projekte/gg2020/), University of Hamburg, 3rd March 2020.
 
-## Short bio
+On [[non-perturbative quantum field theory|non-perturbative]] [[BV-BRST formalism]] with an eye towards [[M-theory]]:
 
-PhD in Theoretical Physics at the Centre for Research in String Theory (currently known as [Centre for Theoretical Physics](https://www.qmul.ac.uk/spcs/ctp/)) at [Queen Mary University of London](https://www.qmul.ac.uk/), under the supervision of Prof. [[David Berman]].
-
-MSc in [Quantum Fields and Fundamental Forces](https://www.imperial.ac.uk/study/pg/physics/quantum-fields-fundamental-forces/) at [Imperial College London](https://www.imperial.ac.uk/) under the supervision of Prof. [[Chris Hull]].
+* [[Luigi Alfonsi]], *Derived $n$-plectic geometry: towards non-perturbative BV-BFV quantisation and M-theory*, talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Alfonsi2023)&rbrack;
 
 
-## Notes
-
-* _Review of non-abelian localization for $2$d Yang-Mills Theory_, 2017 ([pdf](https://drive.google.com/file/d/1gFPv0tg7mKXQKmhB0dK-Hj3PWdTcM05K/view))
 
 
-## Related $n$Lab entries
+
+
+
+## Related entries
 
 * [[double field theory]]
 
