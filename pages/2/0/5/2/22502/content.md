@@ -5,12 +5,25 @@
 
 On [[commutative algebra]]:
 
-* [[Michael Atiyah]], [[Ian G. Macdonald]], _Introduction to commutative algebra_, (1969, 1994) $[$[pdf](http://math.univ-lyon1.fr/~mathieu/CoursM2-2020/AMD-ComAlg.pdf), [ISBN:9780201407518](https://www.routledge.com/Introduction-To-Commutative-Algebra/Atiyah/p/book/9780201407518)$]$
+* [[Michael Atiyah]], [[Ian G. Macdonald]], _Introduction to commutative algebra_ (1969, 1994) &lbrack;[pdf](http://math.univ-lyon1.fr/~mathieu/CoursM2-2020/AMD-ComAlg.pdf), [ISBN:9780201407518](https://www.routledge.com/Introduction-To-Commutative-Algebra/Atiyah/p/book/9780201407518)&rbrack;
+
+
+On [[affine Lie algebras]] in relation to [[modular forms]]:
+
+* [[Ian G. MacDonald]], *Affine Lie algebras and modular forms*, Séminaire Bourbaki: vol. 1980/81, exposés 561-578, Séminaire Bourbaki, no. 23 (1981), Exposé no. 577 &lbrack;[numdam:SB_1980-1981__23__258_0](http://www.numdam.org/book-part/SB_1980-1981__23__258_0/)&rbrack;
+
 
 
 On [[hypergeometric functions]]:
 
 * [[Ian G. Macdonald]], _Hypergeometric functions I_, 1987 ([arxiv/1309.4568](http://arxiv.org/abs/1309.4568))
+
+Introducing [[Macdonald polynomials]]:
+
+* [[Ian G. Macdonald]],  *A New Class of Symmetric Functions*, Publ. I.R.M.A. **372** (S-20) (1988) 131-171 &lbrack;[web](https://www.mat.univie.ac.at/~slc/opapers/s20macdonald.html)&rbrack;
+
+* [[Ian G. Macdonald]], _Symmetric functions and Hall polynomials_, Oxford Math. Monographs, 2nd enlarged ed. (1995) &lbrack;[pdf](https://math.berkeley.edu/~corteel/MATH249/macdonald.pdf)&rbrack;
+
 
 On [[symmetric functions]] and [[Hall polynomials]]:
 
@@ -20,3 +33,6 @@ On [[symmetric functions]] and [[Hall polynomials]]:
 category: people
 
 [[!redirects Ian Macdonald]]
+
+[[!redirects Ian G. MacDonald]]
+[[!redirects Ian MacDonald]]
