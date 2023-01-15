@@ -38,10 +38,18 @@ The possibility of a [[bosonic M-theory]] in 27-dimensions which is the lift of 
 
 * [[Hisham Sati]], _On the geometry of the supermultiplet in M-theory_, Int. J. Geom. Meth. Mod. Phys. 8 (2011) 1-33 ([arXiv:0909.4737](https://arxiv.org/abs/0909.4737))
 
-* [[Michael Rios]], [[Alessio Marrani]], [[David Chester]], _Exceptional Super Yang-Mills in $D=27+3$ and Worldvolume M-Theory_, Phys. Lett. B, 808, (2020)
-([arXiv:1906.10709](https://arxiv.org/abs/1906.10709))
+* [[Michael Rios]], [[Alessio Marrani]], [[David Chester]], _The Geometry of Exceptional Super Yang-Mills Theories_, Phys. Rev. D **99** (2019) 046004  &lbrack;[arXiv:1811.06101](https://arxiv.org/abs/1811.06101), [doi:10.1103/PhysRevD.99.046004](https://doi.org/10.1103/PhysRevD.99.046004)&rbrack;
 
-  (relating also to [[12-dimensional supergravity]] et al.)
+  (relating also to [[12-dimensional supergravity]], [[D=14 supersymmetry]] et al.)
+
+* [[Michael Rios]], [[Alessio Marrani]], [[David Chester]], *Exceptional Super Yang-Mills in $D=27+3$ and Worldvolume M-Theory*, Phys. Lett. B **808** (2020) 135674 &lbrack;[arXiv:1906.10709](https://arxiv.org/abs/1906.10709), [doi:10.1016/j.physletb.2020.135674](https://doi.org/10.1016/j.physletb.2020.135674)&rbrack;
+
+reviewed in:
+
+* [[Alessio Marrani]], *Exceptional super Yang-Mills in $27 + 3$ and worldvolume M-theory*, talk at *[M-Theory and mathematics 2023](https://ncatlab.org/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (Jan, 2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Marrani2023)&rbrack;
+
+
+
 
 Relation to the [[Monster group]], [[Moonshine]] and the [[Monster vertex operator algebra]]:
 
