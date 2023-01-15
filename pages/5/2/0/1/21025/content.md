@@ -78,8 +78,6 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 * [[Richard Szabo]]
 
-* [[Meng-Chwan Tan]]
-
 * [[Dimitrios Tsimpis]]
 
 * [[Alexander Voronov]]
@@ -288,11 +286,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 \linebreak
 
-* (...)
 
 \linebreak
-
-...more to appear here...
 
 
 \linebreak
