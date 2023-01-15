@@ -1,3 +1,11 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+
 __Macdonald polynomials__ are a generalization of a [[Schur function]]s; they unify a theory of Hall-Littlewood and [[Jack polynomial]]s. They form a family of [[orthogonal polynomials]] which are [[symmetric functions]] in $x_1,\ldots,x_n$ with coefficients which are rational functions of two additional variables $q$ and $t$. 
 
 Given a [[partition]] $\lambda$, one defines a shift operator $T_{q,x_i}$ which maps $f = f(x_1,\ldots, x_n)$ to $f(x_1,\ldots, x_{i-1}, q x_i, x_{i+1},\ldots,x_n)$ and the operators $D_r$, $r = 0, 1, \ldots, n$ via
@@ -15,9 +23,16 @@ $$
 
 In the case $q = t$ we get the [[Schur function]] $P_\lambda(x; t,t) = s_\lambda(t)$. Similarly, shifted Macdonald polynomials generalize shifted Schur functions. 
 
-* I. G. Macdonald,  Publ. I.R.M.A. 372 (S-20), 131-171, 1988.
-* I. G. Macdonald, _Symmetric functions and Hall polynomials_, Oxford Math. Monographs, 2nd enlarged ed. 1995
-* wikipedia [Macdonald polynomial](http://en.wikipedia.org/wiki/Macdonald_polynomials)
+
+## References
+
+* [[Ian G. Macdonald]],  *A New Class of Symmetric Functions*, Publ. I.R.M.A. **372** (S-20) (1988) 131-171 &lbrack;[web](https://www.mat.univie.ac.at/~slc/opapers/s20macdonald.html)&rbrack;
+
+* [[Ian G. Macdonald]], _Symmetric functions and Hall polynomials_, Oxford Math. Monographs, 2nd enlarged ed. (1995) &lbrack;[pdf](https://math.berkeley.edu/~corteel/MATH249/macdonald.pdf)&rbrack;
+
+
+* Wikipedia, *[Macdonald polynomial](http://en.wikipedia.org/wiki/Macdonald_polynomials)*
+
 * A. M. Garsia, C. Procesi, _On certain graded $S_n$-modules and the $q$-Kostka polynomials_, Adv. Math. __94__ (1992) 82-138
 * A. Okounkov, _(Shifted) Macdonald polynomials: q-integral representation and combinatorial formula_, Compositio Math. __112__ (1998), 147&#8211;182. [MR99h:05120](http://www.ams.org/mathscinet-getitem?mr=1626029), [doi](http://dx.doi.org/10.1023/A:1000436921311), _BC-type interpolation Macdonald polynomials and binomial formula for Koornwinder polynomials_, Transform. Groups __3__ (1998) 181&#8211;207, [MR99h:33061](http://www.ams.org/mathscinet-getitem?mr=1628453), _Combinatorial formula for Macdonald polynomials and generic Macdonald polynomials_, Transform. Groups __8__ (2003), no. 3, 293&#8211;305, [MR2004e:05202](http://www.ams.org/mathscinet-getitem?mr=1996418), [doi](http://dx.doi.org/10.1007/s00031-003-0306-0)
 * N. Bergeron, A. M. Garsia, _On certain spaces of harmonic polynomials_, in: Hypergeometric functions on domains of positivity, Jack polynomials, and applications (Tampa, FL, 1991), Contemp. Math. __138__, 51&#8211;86 (Amer. Math. Soc. 1992)
@@ -43,4 +58,8 @@ J. Reine Angew. Math. 482 (1997), 177&#8211;189, [doi](http://dx.doi.org/10.1515
 > A string theoretic derivation is given for the conjecture of Hausel, Letellier and Rodriguez-Villegas on the cohomology of character varieties with marked points. Their formula is identified with a refined BPS expansion in the stable pair theory of a local root stack, generalizing previous work of the first two authors in collaboration with Pan. Haiman’s geometric construction for Macdonald polynomials is shown to emerge naturally in this context via geometric engineering. In particular this yields a new conjectural relation between Macdonald polynomials and refined local orbifold curve counting invariants. The string theoretic approach also leads to a new spectral cover construction for parabolic Higgs bundles in terms of holomorphic symplectic orbifolds.
 
 category: algebra, combinatorics
+
 [[!redirects Macdonald polynomials]]
+
+[[!redirects Hall polynomial]]
+[[!redirects Hall polynomials]]
