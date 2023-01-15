@@ -443,6 +443,12 @@ $$
 ([VanDenBergh](#VanDenBergh)) and this takes the [[Connes coboundary operator]] to the [[BV operator]] ([Ginzburg](#Ginzburg)).
 
 
+### Non-perturbative
+
+On [[non-perturbative quantum field theory|non-perturbative]] enhancements of BV-BRST formalism
+
+* [[Luigi Alfonsi]], *Derived $n$-plectic geometry: towards non-perturbative BV-BFV quantisation and M-theory*, talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Alfonsi2023)&rbrack;
+
 ## Hamiltonian BFV -- Homotopical Poisson reduction
  {#HamiltonianBV}
 
