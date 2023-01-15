@@ -97,6 +97,11 @@ Conformal blocks for [[self-dual higher gauge theory]]:
 
 * [[Kiyonori Gomi]], _An analogue of the space of conformal blocks in $(4k+2)$-dimensions_ ([pdf](http://www.math.kyoto-u.ac.jp/~kgomi/papers/acb.pdf))
 
+In particular, argument that the higher conformal blocks of the [[D=6 N=(2,0) SCFT|$D=6$ $\mathcal{N}=(2,0)$ SCFT]] reduce to confomal blocks of the ordinary 2d [[WZW model]] after [[KK-compactification]] on a [[Riemann surface]]:
+
+* {#Witten09} [[Edward Witten]], [p. 22](https://arxiv.org/pdf/0905.2720.pdf#page=22) of: *Geometric Langlands From Six Dimensions*, in Peter Kotiuga (ed.) _A Celebration of the Mathematical Legacy of Raoul Bott_, CRM Proceedings & Lecture Notes **50** AMS (2010) &lbrack;[arXiv:0905.2720](http://arxiv.org/abs/0905.2720), [ISBN:978-0-8218-4777-0](https://bookstore.ams.org/crmp-50)&rbrack;
+
+
 
 ### Relation to theta functions
 
