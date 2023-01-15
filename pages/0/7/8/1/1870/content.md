@@ -467,7 +467,7 @@ Via [[C-star algebras|$C^\ast$-algebras]]:
 
 * {#DardalatPennig16} [[Marius Dadarlat]], [[Ulrich Pennig]], *A Dixmier-Douady theory for strongly self-absorbing $C^\ast$-algebras*, J. Reine Angew. Math. 718 (2016) 153-181 ([arXiv:1302.4468](https://arxiv.org/abs/1302.4468), [doi:10.1515/crelle-2014-0044](https://doi.org/10.1515/crelle-2014-0044))
 
-* {#DardalatPennig15} [[Marius Dadarlat]], [[Ulrich Pennig]], *Unit spectra of K-theory from strongly self-absorbing $C^\ast$-algebras*, Algebr. Geom. Topol. 15 (2015) 137-168 ([arXiv:1306.2583](https://arxiv.org/abs/1306.2583))
+* {#DardalatPennig15} [[Marius Dadarlat]], [[Ulrich Pennig]], *Unit spectra of K-theory from strongly self-absorbing $C^\ast$-algebras*, Algebr. Geom. Topol. 15 (2015) 137-168 &lbrack;[arXiv:1306.2583](https://arxiv.org/abs/1306.2583), [doi:10.2140/agt.2015.15.137](http://dx.doi.org/10.2140/agt.2015.15.137)&rbrack;
 
 * [[David Brook]], *Computations in higher twisted K-theory*  ([arXiv:2007.08964A](https://arxiv.org/abs/2007.08964A))
 
