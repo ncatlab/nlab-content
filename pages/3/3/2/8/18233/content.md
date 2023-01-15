@@ -13,7 +13,7 @@ Displayed categories are particularly useful in [[type theory]] (especially [[in
 
 ### By components
 
-A **dsplayed category** $D$ over a category $C$ consists of
+A **displayed category** $D$ over a category $C$ consists of
 
 * for each object $a:C$, a type $D(a)$
 * for each object $a:C$ and $b:C$, morphism $f:a \to b$, and element $x:D(a)$ and $y:D(b)$, a set of morphisms $Hom_f(x, y)$ from $x$ to $y$ over $f$
