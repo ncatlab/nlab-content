@@ -66,6 +66,10 @@ Lectures notes for non-perturbative [[supersymmetry|supersymmetric]] QFT (such a
 
 * John Terning, _TASI-2002 Lectures: Non-perturbative Supersymmetry_ ([arXiv:hep-th/0306119](http://arxiv.org/abs/hep-th/0306119))
 
+On non-perturbative [[BV-BRST formalism]]:
+
+* [[Luigi Alfonsi]], *Derived $n$-plectic geometry: towards non-perturbative BV-BFV quantisation and M-theory*, talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Alfonsi2023)&rbrack;
+
 
 
 [[!redirects non-perturbative QFT]]
