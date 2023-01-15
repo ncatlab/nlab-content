@@ -18,9 +18,10 @@ On the [hypergeometric integral construction](Knizhnik-Zamolodchikov+equation#Br
 
 * [[Boris Feigin]], [[Vadim Schechtman]], [[Alexander Varchenko]], *On algebraic equations satisfied by hypergeometric correlators in WZW models. II*, Comm. Math. Phys. **170** 1 (1995) 219-247  $[$[euclid:cmp/1104272957](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-170/issue-1/On-algebraic-equations-satisfied-by-hypergeometric-correlators-in-WZW-models/cmp/1104272957.full)$]$
 
-On [[fractional level WZW models]]:
+On [[fractional level WZW models]] (non-integrable admissible [[affine Lie algebra]] [[irreps]]) for [[sl(2)|$\mathfrak{sl}(2, \mathbb{C})$]]:
 
 * [[Boris Feigin]], [[Feodor Malikov]], *Modular functor and representation theory of $\widehat{\mathfrak{sl}_2}$ at a rational level*, p. 357-405 in: Loday, Stasheff, Voronov (eds.) *Operads: Proceedings of Renaissance Conferences*,  Contemporary Mathematics **202** , AMS 1997 ([arXiv:q-alg/9511011](https://arxiv.org/abs/q-alg/9511011), [ams:conm-202](https://bookstore.ams.org/conm-202))
+
 
 
 
