@@ -234,6 +234,39 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 \linebreak
 
+
+* {#Sati2023} [[Hisham Sati]]:
+
+  **M-theory and matter via Twisted Equivariant Differential (TED) K-theory**
+
+  > Various flavors of [[topological K-theory|K-theory]] [[D-brane charge quantization in K-theory|play an important role]] in geometric/topological perspectives on [[string theory]]. Ultimately, the [[twisted equivariant differential K-theory|twisted equivariant differential (TED) version of K-theory]] would be what is needed to describe [[field (physics)|fields]] and [[branes]] in the most general backgrounds. However, this theory has not been constructed yet, but major progress has been made in that direction requiring highly nontrivial machinery. I will describe the main conceptual points here. I will also explain how TED K-theory enters naturally into [[condensed matter theory|condensed matter]] ([[topological phases of matter|topological phases]]) and highlight analogies with [[high energy physics]]. All of this embeds in [[M-theory]] via [[schreiber:Hypothesis H]], both from physical and mathematical perspectives. 
+
+  cf.: [[schreiber:Anyonic topological order in TED K-theory|arXiv:2206.13563]]
+
+\linebreak
+
+* {#Schreiber2023} [[Urs Schreiber]]:
+
+  **Topological Quantum Gates from M-Theory**
+
+  >  The [[AdS-QCD correspondence|promising idea]] that [[non-perturbative field theory|strongly]] [[coupling|coupled]] [[quantum systems]] such as ([[confinement|confined]] [[QCD]] or) [[topological order|topologically ordered]] [[quantum materials]] are [[AdS-CMT duality|usefully modeled]] as [[worldvolume]] [[dynamics]] on [[intersecting branes]] in [[string theory]] has been suffering from the latter's lack of [[nLab:non-perturbative effect|non-perturbative]] formulation ([[M-theory]]), [necessary](https://ncatlab.org/nlab/show/AdS-CFT#SmallNCorrections) in the realistic regime of [[large 1/N limit|small numbers]] of individual [[branes]] (i.e. beyond the usual [[holography|holographic]] [[large N limit|large-$N$ approximation]]). In this talk I will briefly review our "[[schreiber:Hypothesis H]]" that [[brane]] [[nLab:charge]] in [[nlab:M-theory]] is [[nLab:Dirac charge quantization|quantized]] in a [[nlab:twisted cohomology|twisted]] [[nLab:equivariant cohomology|equivariant]] [[nLab:non-abelian cohomology|non-abelian]] [[nLab:generalized cohomology]] theory called *[[nLab:Cohomotopy]]*, where [[nLab:M-brane]] [[nLab:quantum states]] are identified inside the [[nLab:twisted de Rham cohomology|twisted equivariant cohomology]] of the [[nLab:Cohomotopy]] [[nLab:moduli stack]]. Then I explain our recent derivation, from this assumption, of [[nLab:anyon|anyonic]] [[nLab:topological order]] in [[nLab:ground states]] of [[nLab:M3-brane|M5-brane intersections]]; and I close with an outlook on how this describes [[nlab:topological quantum computation|topological]] [[nLab:quantum logic gates]] via [[nlab:braid group statistics|braiding]] of [[nLab:defect branes]].
+
+  cf.: [[schreiber:Anyonic defect branes in TED-K-theory|arXiv:2203.11838]]
+
+  talk notes: [pdf](/schreiber/show/Topological+Quantum+Gates+from+M-Theory#Notes)
+
+\linebreak
+
+* {#Voronov2023} [[Alexander Voronov]]:
+
+  **The $E_k$ symmetry of dimensional reductions of M-theory**
+
+  > [[Hisham Sati]] and I, on the way to revealing the mystery of 2001 [[Mysterious Duality]] of [Iqbal, Neitzke, and Vafa](mysterious+duality#INV01), generalized [[schreiber:Hypothesis H|hypothesis H]] and presented a universal target for each [[double dimensional reduction|dimensional reduction]] of [[M-theory]]. Each of these targets has the [[dynamics]] of [[supergravity]] embedded into its structure. The target for $(11-k)$-dimensional [[M-theory]] also has an [[Lie algebra representation|action]] of the [[Lie algebra]] of [[exceptional Lie algebra|type $E_k$]], responsible for [[U-duality|symmetries]] of $(11-k)$-dim [[supergravity]] along with its [[equations of motion]] in any spacetime.
+
+  cf.: [arXiv:2111.14810](https://arxiv.org/abs/2111.14810), [arXiv:2212.13968](https://arxiv.org/abs/2212.13968)
+
+\linebreak
+
 * (...)
 
 \linebreak
