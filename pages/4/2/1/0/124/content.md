@@ -249,7 +249,7 @@ For various applications one uses toposes that have [[stuff, structure, property
 ## Related concepts
 
  
-*  [[category of sheaves]], [[Girausd's theorem]]
+*  [[category of sheaves]], [[Giraud's theorem]]
 
 * [[base topos]], [[indexed topos]] 
 
