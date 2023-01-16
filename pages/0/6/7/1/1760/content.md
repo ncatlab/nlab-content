@@ -217,6 +217,13 @@ Along similar lines, the delooping of a [[braided monoidal category]] produces a
   * [[suspension]], [[reduced suspension]]
 
 
+## References
+
+Discussion in [[homotopy type theory]]:
+
+* [[David Wärn]], _Eilenberg-MacLane spaces and stabilisation in homotopy type theory_ &lbrack;[arXiv:2301.03685](https://arxiv.org/abs/2301.03685)&rbrack;
+
+
 
 
 [[!redirects deloopings]]
