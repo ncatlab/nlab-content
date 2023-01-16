@@ -66,7 +66,7 @@ If $X$ and $Y$ are [[connected space|path-connected]], then (1) is trivial, and 
 =--
 
 \begin{remark}
-It is not enough to require that each pair of homotopy groups are isomorphic. For example, let $Y = S^1 \vee S^2$, and let $X$ be its double cover, which glues two spheres at the north and south poles of a circle. Then the fundamental group $\pi_1(X) \simeq \mathbb{Z} \simeq \pi_1(Y)$. And by the properties of covering spaces, all higher homotopy groups are isomorphic. But these two are not weakly homotopy equivalent.
+It is not enough to require that each pair of homotopy groups are isomorphic. For example, let $Y = S^1 \vee S^2$, and let $X$ be its double cover, which glues two spheres at the north and south poles of a circle. Then there are isomorphisms on the fundamental group $\pi_1(X) \simeq \mathbb{Z} \simeq \pi_1(Y)$, although the map $\pi_1(X) \to \pi_1(Y)$ induced by $f$ is not an isomorphism. And by the properties of covering spaces, all higher homotopy groups are isomorphic. But these two are not weakly homotopy equivalent.
 \end{remark}
 
 \begin{remark}
