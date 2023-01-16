@@ -300,6 +300,8 @@ See also:
 
 * Antonin Delpeuch, _The word problem for double categories_, [arxiv](https://arxiv.org/abs/1907.09927)
 
+* Virtual Double Categories Workshop 2022 ([webpage](https://bryceclarke.github.io/virtual-double-categories-workshop/)).
+
 Model structures on the category of double categories are discussed in:
 
 * {#FPPModel} Thomas M. Fiore, Simona Paoli, Dorette A. Pronk, [Model structures on the category of small double categories](https://doi.org/10.2140/agt.2008.8.1855), _Algebraic & Geometric Topology_ **8** (2008) 1855–1959.
