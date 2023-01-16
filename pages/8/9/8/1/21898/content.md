@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On generalizations of [[exceptional structures]], including [[E8]], [[octonions]] and the [[exceptional Jordan algebra]]:
+
+* [[Piero Truini]], [[Michael Rios]], [[Alessio Marrani]], *The Magic Star of Exceptional Periodicity*, J. Phys.: Conf. Ser. **1194** (2019) 012106 &lbrack;[arXiv:1711.07881](https://arxiv.org/abs/1711.07881), [doi:10.1088/1742-6596/1194/1/012106](https://iopscience.iop.org/article/10.1088/1742-6596/1194/1/012106)&rbrack;
+
+
 On [[D=14 supersymmetry]]:
 
 * [[Michael Rios]], [[Alessio Marrani]], [[David Chester]], _The Geometry of Exceptional Super Yang-Mills Theories_, Phys. Rev. D 99, 046004 (2019) ([arXiv:1811.06101](https://arxiv.org/abs/1811.06101))
