@@ -59,11 +59,16 @@ See also:
 
 * Wikipedia, _[Sphere packing](https://en.wikipedia.org/wiki/Sphere_packing)_
 
-The solution to the sphere packing problem in dimensions  8 and 24 are originally due to
+Solution to the sphere packing problem in dimensions  8 and 24:
 
-* {#Viazovska16} [[Maryna Viazovska]], _The sphere packing problem in dimension 8_, Annals of Mathematics, Pages 991-1015 from Volume 185 (2017), Issue 3 ([arXiv:1603.04246](https://arxiv.org/abs/1603.04246))
+* {#Viazovska16} [[Maryna Viazovska]], _The sphere packing problem in dimension 8_, Annals of Mathematics, **185** 3 (2017) 991-1015 &lbrack;[arXiv:1603.04246](https://arxiv.org/abs/1603.04246), [doi:10.4007/annals.2017.185.3.7](https://doi.org/10.4007/annals.2017.185.3.7)&rbrack;
 
-* {#CKMRV17} Henry Cohn, Abhinav Kumar, Stephen D. Miller, Danylo Radchenko, [[Maryna Viazovska]], _The sphere packing problem in dimension 24_, Annals of Mathematics 185 (2017), 1017-1033 ([arXiv:1603.06518](https://arxiv.org/abs/1603.06518))
+* {#CKMRV17} Henry Cohn, Abhinav Kumar, Stephen D. Miller, Danylo Radchenko, [[Maryna Viazovska]], _The sphere packing problem in dimension 24_, Annals of Mathematics **185** (2017) 1017-1033 &lbrack;[arXiv:1603.06518](https://arxiv.org/abs/1603.06518), [doi:10.4007/annals.2017.185.3.8](https://doi.org/10.4007/annals.2017.185.3.8)&rbrack;
+
+Exposition:
+
+* Ursula Whitcher, *Eight-dimensional spheres and the exceptional $E_8$*, AMS MathVoices Feature Column (Sep. 2022) &lbrack;[web](https://mathvoices.ams.org/featurecolumn/2022/09/01/eight-dimensional-spheres-and-the-exceptional-e_8/)&rbrack;
+
 
 ### In string theory
   {#ReferencesInStringTheory}
