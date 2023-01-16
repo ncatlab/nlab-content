@@ -43,7 +43,7 @@
 
 * exceptional [[Jordan superalgebra]], $K_10$
 
-* [[Leech lattice]] 
+* [[E8 lattice]], [[Leech lattice]] 
 
 * [[Cayley plane]]
 
