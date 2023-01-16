@@ -2,7 +2,7 @@
 
 ## Idea
 
-The *$E_8$ lattice* is an exceptional [[lattice (discrete subgroup)|lattice inside]] $\mathbb{R}^8$.
+The *$E_8$ lattice* is an [[exceptional structure|exceptional]] [[lattice (discrete subgroup)|lattice inside]] $\mathbb{R}^8$.
 
 ## Definition
 
