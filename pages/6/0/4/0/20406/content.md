@@ -33,18 +33,28 @@ Exceptional structures are often related to one another. For example, the [[exce
 
 ## References
 
-See also
+See also:
 
 * Wikipedia, _[Exceptional object](https://en.wikipedia.org/wiki/Exceptional_object#Monstrous_moonshine)_
 
-* [[Yang-Hui He]], [[John McKay]], _Sporadic and Exceptional_, ([arXiv:1505.06742](https://arxiv.org/abs/1505.06742))
 
-* {#Wilson09} [[Robert A. Wilson]], _Octonions and the Leech lattice_, Journal of Algebra
-Volume 322, Issue 6, 15 September 2009, Pages 2186-2190, ([pdf](http://www.maths.qmul.ac.uk/~raw/pubs_files/octoLeech1.pdf)), ([slides](http://www.maths.qmul.ac.uk/~raw/talks_files/Cambridge09.pdf))
+In relation to the [[octonions]] and the [[Leech lattice]]:
 
-* Piero Truini, Michael Rios, Alessio Marrani, _The Magic Star of Exceptional Periodicity_ ([arXiv:1711.07881](https://arxiv.org/abs/1711.07881))
+* {#Wilson09} [[Robert A. Wilson]], _Octonions and the Leech lattice_, Journal of Algebra **322** 6 (2009) 2186-2190, &lbrack;[pdf](http://www.maths.qmul.ac.uk/~raw/pubs_files/octoLeech1.pdf)), ([slides](http://www.maths.qmul.ac.uk/~raw/talks_files/Cambridge09.pdf)&rbrack;
 
-* Michael Rios, Alessio Marrani, David Chester, _Exceptional Super Yang-Mills in $D=27+3$ and Worldvolume M-Theory_ ([arXiv:1906.10709](https://arxiv.org/abs/1906.10709))
+On [[exceptional Lie algebras]] and [[sporadic finite simple groups]] via [[del Pezzo surfaces]]:
+
+* [[Yang-Hui He]], [[John McKay]], _Sporadic and Exceptional_ &lbrack;[arXiv:1505.06742](https://arxiv.org/abs/1505.06742)&rbrack;
+
+
+On generalizations of exceptional structures, including [[E8]], [[octonions]] and the [[exceptional Jordan algebra]]:
+
+* [[Piero Truini]], [[Michael Rios]], [[Alessio Marrani]], *The Magic Star of Exceptional Periodicity*, J. Phys.: Conf. Ser. **1194** (2019) 012106 &lbrack;[arXiv:1711.07881](https://arxiv.org/abs/1711.07881), [doi:10.1088/1742-6596/1194/1/012106](https://iopscience.iop.org/article/10.1088/1742-6596/1194/1/012106)&rbrack;
+
+In relation to [[bosonic M-theory]], [[12d supergravity]], [[D=14 supersymmetry]] etc.:
+
+* [[Michael Rios]], [[Alessio Marrani]], [[David Chester]], *Exceptional Super Yang-Mills in $D=27+3$ and Worldvolume M-Theory*, Phys. Lett. B **808** (2020) 135674 &lbrack;[arXiv:1906.10709](https://arxiv.org/abs/1906.10709), [doi:10.1016/j.physletb.2020.135674](https://doi.org/10.1016/j.physletb.2020.135674)&rbrack;
+
 
 [[!redirects exceptional structures]]
 
