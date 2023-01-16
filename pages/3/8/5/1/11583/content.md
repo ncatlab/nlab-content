@@ -6,9 +6,9 @@
 
 * {#McKay80} [[John McKay]], _Graphs, singularities, and finite groups_ Proc. Symp. Pure Math. Vol. 37. No. 183. 1980
 
-On [[exceptional structures]]:
+On [[exceptional structures]] ([[exceptional Lie algebras]] and [[sporadic finite simple groups]]) via [[del Pezzo surfaces]]:
 
-* [[Yang-Hui He]], [[John McKay]], _Sporadic and Exceptional_, ([arXiv:1505.06742](https://arxiv.org/abs/1505.06742))
+* [[Yang-Hui He]], [[John McKay]], _Sporadic and Exceptional_ &lbrack;[arXiv:1505.06742](https://arxiv.org/abs/1505.06742)&rbrack;
 
 On the [[Monster group]]
 
