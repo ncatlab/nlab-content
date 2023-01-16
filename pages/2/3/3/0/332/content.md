@@ -4,7 +4,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Higher geometry
+#### Geometry
 +--{: .hide}
 [[!include higher geometry - contents]]
 =--
@@ -12,7 +12,7 @@
 =--
 
 
-See also [[topology]].
+See also *[[topology]]*.
 
 ## Related entries
 
