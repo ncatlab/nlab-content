@@ -464,14 +464,16 @@ For $A$ any monoidal [[space]], we may [[forgetful functor|forget]] its monoidal
 
 ## References
 
-Section 6.1.2 of
+* [[Jacob Lurie]], Section 6.1.2 of: _[[Higher Topos Theory]]_
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* {#LurieAlgebra} [[Jacob Lurie]], 
+Section 5.1.3 of: _[[Higher Algebra]]_
+ 
 
-Section 5.1.3 of 
+Discussion in [[homotopy type theory]]:
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_
- {#LurieAlgebra}
+* [[David Wärn]], _Eilenberg-MacLane spaces and stabilisation in homotopy type theory_ &lbrack;[arXiv:2301.03685](https://arxiv.org/abs/2301.03685)&rbrack;
+
 
 
 [[!redirects looping]]
