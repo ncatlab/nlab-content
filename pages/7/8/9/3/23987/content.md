@@ -145,7 +145,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 ### Jan 2023
 
-* 12-15 Jan 2023 (upcoming)
+* 12-15 Jan 2023
 
   **[M-Theory and Mathematics 2023](M-Theory+and+Mathematics#2023)** -- *Classical and Quantum Aspects*
 
@@ -752,6 +752,28 @@ Talks reporting on work at CQTS.
 
   > The proper concept of [[nLab:data types]] in [[nLab:quantum programming languages]], hence of their [[nLab:certified programming|formal verification]] and [[nLab:categorical semantics]], has remained somewhat elusive, as witnessed by the issue of "[dynamic lifting](https://ncatlab.org/nlab/show/Quipper#ReferencesDynamicLifting)" encountered in the [[nLab:Quipper]] language family. In this talk I explain our claim that a powerful [[nLab:quantum computation|quantum]] [[nLab:data type]]-system elegantly solving these problems is naturally provided by the *[[nLab:linear homotopy type theory]]* recently [realized](https://ncatlab.org/nlab/show/dependent+linear+type+theory#Riley22) by [[nLab:Mitchell Riley|M. Riley]]. Together with our [previous claim](Topological+Quantum+Programming+in+TED-K#GMConAbs) that [[nLab:homotopy type theory]] natively knows about the fine detail of [[nLab:su(2)-anyon|$\mathfrak{su}$(2)-]][[nlab:anyon]] [[nLab:braid representation|braid]] [[nLab:quantum gates]], this shows that [[nLab:linear homotopy type theory]] is a natural substrate for [[nLab:type theory|typed]] [[nLab:quantum programming languages]] aware of [[nLab:topological phases of matter|topological]] [[nLab:quantum materials|quantum hardware]]. 
 
+\linebreak
+
+### Jan 2023
+
+\linebreak
+
+* 15 Jan 2023 at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi
+
+  [[Hisham Sati]]:
+
+  **M-theory and matter via Twisted Equivariant Differential (TED) K-theory**
+
+  &lbrack;[links](/nlab/show/M-Theory+and+Mathematics#Sati2023)&rbrack;
+
+
+\linebreak
+
+* 15 Jan 2023 at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi:
+
+  **[[schreiber:Topological Quantum Gates from M-Theory]]**
+
+  &lbrack;[links](/nlab/show/M-Theory+and+Mathematics#Schreiber2023)&rbrack;
   
 
 \linebreak
