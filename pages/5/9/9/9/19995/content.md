@@ -33,9 +33,10 @@ On [[NS5-branes]] and [[orientifolds]] with [[RR-field tadpole cancellation]]:
 
 * {#FengHeKarchUranga01} Bo Feng, [[Yang-Hui He]], [[Andreas Karch]], [[Angel Uranga]], _Orientifold dual for stuck NS5 branes_, JHEP 0106:065, 2001 ([arXiv:hep-th/0103177](https://arxiv.org/abs/hep-th/0103177))
 
-On [[exceptional structures]]:
+On [[exceptional structures]] ([[exceptional Lie algebras]] and [[sporadic finite simple groups]]) via [[del Pezzo surfaces]]:
 
-* [[Yang-Hui He]], [[John McKay]], _Sporadic and Exceptional_, ([arXiv:1505.06742](https://arxiv.org/abs/1505.06742))
+* [[Yang-Hui He]], [[John McKay]], _Sporadic and Exceptional_ &lbrack;[arXiv:1505.06742](https://arxiv.org/abs/1505.06742)&rbrack;
+
 
 On [[heterotic string theory]] [[string phenomenology]] and the [[landscape of string theory vacua]]:
 
