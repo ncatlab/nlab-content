@@ -19,7 +19,8 @@
 
 ## Definition
 
-An [[adjoint triple]] $F \dashv G \dashv H$ is called an _ambidextrous adjunction_ (or sometimes _ambijunction_, for short) if the [[left adjoint]] $F$ and the [[right adjoint]] $H$ of $G$ are [[equivalence|equivalent]] $F \simeq H$. Sometimes $F$ is said to be *biadjoint* to $G$ (not to be confused with [[biadjoint]] in the sense of a biadjunction).
+An [[adjoint triple]] $F \dashv G \dashv H$ is called an _ambidextrous adjunction_ (or sometimes _ambijunction_, for short) if the [[left adjoint]] $F$ and the [[right adjoint]] $H$ of $G$ are [[equivalence|equivalent]] $F \simeq H$, or
+more precisely equipped with a specific equivalence.  Sometimes $F$ is said to be *biadjoint* to $G$ (not to be confused with [[biadjoint]] in the sense of a biadjunction).
 
  
 ## Properties
@@ -28,7 +29,7 @@ An [[adjoint triple]] $F \dashv G \dashv H$ is called an _ambidextrous adjunctio
 
 The [[monad]] induced by an ambidextrous adjunction is a [[Frobenius monoid]] object in [[endofunctors]]. (e.g. [Lauda 05, theorem 17](#Lauda05)), hence a [[Frobenius monad]].
 
-### Fiberwise characterization of ambid. Kan extension
+### Fiberwise characterization of ambidextrous Kan extension
  {#FiberwiseCharacterization}
 
 Let $\mathcal{D} \in Cat_\infty$ be an [[(∞,1)-category]] with small [[(∞,1)-colimits]]. For $f \;\colon\; X \longrightarrow Y$ a morphism of [[∞-groupoids]], write 
@@ -99,12 +100,12 @@ Every [[self-adjoint functor]] forms an ambidextrous adjunction.
 
 * [[Ross Street]], _Frobenius monads and pseudomonoids_, J. Math. Phys. 45.(2004) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.91.2686))
 
-
 * [[Aaron Lauda]], _Frobenius algebras and ambidextrous adjunctions_ ([arXiv:math/0502550](http://arxiv.org/abs/math/0502550))
  {#Lauda05}
 
-
 * {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_ (2014)
+
+For the issue of equipping an ambidextrous adjunction $F \dashv G \dashv H$  with a specific equivalence between $F$ and $H$, see the [comment by Qiaochu Yuan](https://mathoverflow.net/a/377104) on MathOverflow.
 
 [[!redirects ambidextrous adjunctions]]
 
