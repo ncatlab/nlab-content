@@ -2,7 +2,7 @@
 
 * [Mathematics Genealogy page](https://www.mathgenealogy.org/id.php?id=18949)
 
-In his PhD dissertation and one of his papers (*Iterated cotriples*), the last name is misspelled as “Applegate”.  In all other papers it is spelled “Appelgate”.
+Beware that in his PhD dissertation and one of his papers (*[Iterated cotriples](#ApplegateTierney70)*), the last name is misspelled as “Applegate”.  In all other papers it is spelled “Appelgate”.
 
 ## Selected writings
 
