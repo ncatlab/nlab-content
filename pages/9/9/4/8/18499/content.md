@@ -1,4 +1,13 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
@@ -20,7 +29,7 @@ Homology in degree 2: $dim H_2(\mathbb{B}_k, \mathbb{R}) = k+ 1$; a natural basi
 
 This has an integral statement as well. The orthogonal complement to the canonical class in the integral $H_2$ is isomorphic to a root lattice $R_r$. These are given as $E_8$, $E_7$, $E_6$, $D_5$, $A_4$ or $A_2 \times A_1$ depending on the value of $k$.
 
-## Related concept
+## Related concepts
 
 * [[mysterious duality]]
 
@@ -29,6 +38,10 @@ This has an integral statement as well. The orthogonal complement to the canonic
 See also:
 
 * Wikipedia, _[Del Pezzo surface](https://en.m.wikipedia.org/wiki/Del_Pezzo_surface)
+
+On [[exceptional structures]] ([[exceptional Lie algebras]] and [[sporadic finite simple groups]]) via del Pezzo surfaces:
+
+* [[Yang-Hui He]], [[John McKay]], _Sporadic and Exceptional_ &lbrack;[arXiv:1505.06742](https://arxiv.org/abs/1505.06742)&rbrack;
 
 
 
