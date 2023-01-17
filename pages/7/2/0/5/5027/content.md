@@ -5,6 +5,11 @@ Chris Heunen is EPSRC research fellow in [[computer science]] at Oxford.
 
 ## Selected writings
 
+On [[monads]] on [[dagger categories]] with an eye towards [[quantum measurement]] expressed in [[finite quantum mechanics in terms of dagger-compact categories]]:
+
+* [[Chris Heunen]], [[Martti Karvonen]], *Monads on dagger categories*, Theory and Applications of Categories **31** 35 (2016) 1016-1043 &lbrack;[arXiv:1602.04324](https://arxiv.org/abs/1602.04324), [TAC:31-35](http://www.tac.mta.ca/tac/volumes/31/35/31-35abs.html)&rbrack;
+
+
 On the [[category]] of [[matroids]] with *strong maps* between them:
 
 * [[Chris Heunen]], [[Vaia Patta]], *The category of matroids*, Applied Categorical Structures **26** (2018) 205–237 &lbrack;[arXiv:1512.01390](https://arxiv.org/abs/1512.01390), [doi:10.1007/s10485-017-9490-2](https://doi.org/10.1007/s10485-017-9490-2)&rbrack;
