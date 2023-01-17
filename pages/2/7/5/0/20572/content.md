@@ -17,14 +17,19 @@ On the [[black hole firewall problem]]:
 
 * [[Ahmed Almheiri]], [[Donald Marolf]], [[Joseph Polchinski]], James Sully, _Black holes: complementarity or firewalls?_ ([arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123))
 
-
-On [[AdS/CFT]]-duality for $AdS_2/CFT_1$ via [[Jackiw-Teitelboim gravity]]:
+On [[AdS/CFT]]-duality for [[AdS2-CFT1|$AdS_2/CFT_1$]] via [[Jackiw-Teitelboim gravity]]:
 
 * {#AlmheiriPolchinski14} [[Ahmed Almheiri]], [[Joseph Polchinski]], _Models of $AdS_2$ Backreaction and Holography_, J. High Energ. Phys. (2015) 2015: 14. ([arXiv:1402.6334](https://arxiv.org/abs/1402.6334))
 
 Claim that the proper application of [[holographic entanglement entropy]] to the discussion of [[Bekenstein-Hawking entropy]] resolves the apparent [[black hole information paradox]]:
 
-* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _Replica Wormholes and the Entropy of Hawking Radiation_ ([arXiv:1911.12333](https://arxiv.org/abs/1911.12333))
+* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _Replica Wormholes and the Entropy of Hawking Radiation_, J. High Energ. Phys. **2020** 13 (2020) &lbrack;[arXiv:1911.12333](https://arxiv.org/abs/1911.12333)&rbrack;
+
+## Activity
+
+The case for a Kavli-like theoretical physics institute in Abu Dhabi, UAE:
+
+* with [[David Gross]]: *Majlis Mohamed bin Zayed lecture: “The Future of Scientific Research”*, Abu Dhabi (Jan 2023)  &lbrack;[video](https://twitter.com/i/broadcasts/1mnxeRYyomQKX)&rbrack;
 
 
 category: people
