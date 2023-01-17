@@ -21,8 +21,9 @@ Given a [[fibered category]], a morphism along which the induced [[comparison fu
 ## The case of codomain fibration 
 
 ### Definition
+ {#Definition}
 
-Let $C$ be a [[category]] with [[pullbacks]].  For any [[morphism]] $p\colon A\to B$, we have an [[internal category]] $ker(p)$ defined by $A\times_B A \rightrightarrows A$ (the [[kernel pair]] of $p$).  The category of [[descent data]] for $p$ is the category $C^{ker(p)}$ (the "[[descent object]]") of internal diagrams on this internal category.  Explicitly, an object of $C^{ker(p)}$ is a morphism $C\to A$ together with an action $A\times_B C \to C$ satisfying suitable axioms.
+Let $C$ be a [[category]] with [[pullbacks]] and [[coequalizers]].  For any [[morphism]] $p\colon A\to B$, we have an [[internal category]] $ker(p)$ defined by $A\times_B A \rightrightarrows A$ (the [[kernel pair]] of $p$).  The category of [[descent data]] for $p$ is the category $C^{ker(p)}$ (the "[[descent object]]") of internal diagrams on this internal category.  Explicitly, an object of $C^{ker(p)}$ is a morphism $C\to A$ together with an action $A\times_B C \to C$ satisfying suitable axioms.
 
 The evident internal functor $ker(p) \to B$ (viewing $B$ as a [[discrete category|discrete]] internal category) induces a *comparison functor* $C^B \to C^{ker(p)}$.  We say that $p$ is:
 
@@ -106,11 +107,11 @@ Of course, there are also many effective descent morphisms relative to fibration
 
 ## References
 
-* M. Sobral, [[Walter Tholen|W. Tholen]], _Effective descent morphisms and effective equivalence relations_, Category Theory 1991, CMS Conference Proceedings __13__ (1992), 421--433
- {#ST}
+* {#ST} M. Sobral, [[Walter Tholen|W. Tholen]], _Effective descent morphisms and effective equivalence relations_, Category Theory 1991, CMS Conference Proceedings __13__ (1992), 421--433
+ 
 
-* J. Reiterman, M. Sobral, [[Walter Tholen|W. Tholen]], _Composites of effective descent maps_, Cahiers __34__ (1993), 193--207, [numdam](http://www.numdam.org/item?id=CTGDC_1993__34_3_193_0)
- {#RST}
+* {#RST} J. Reiterman, M. Sobral, [[Walter Tholen|W. Tholen]], _Composites of effective descent maps_, Cahiers __34__ (1993), 193--207, [numdam](http://www.numdam.org/item?id=CTGDC_1993__34_3_193_0)
+ 
 
 
 * {#EDM} [[Maria Manuel Clementino]], [[George Janelidze]], _Another note on effective descent morphisms of topological spaces and relational algebras_. Topology Appl. 273 (2020), 106961. [DOI](https://doi.org/10.1016/j.topol.2019.106961).
