@@ -85,7 +85,7 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 \linebreak
 
 
-{#Talks2023} **Titles, Abstracts, and slides:**
+{#Talks2023} **Titles, Abstracts, and Slides** (in chronological order):
 
 * {#Sen2023} [[Ashoke Sen]]:
 
