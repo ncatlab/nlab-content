@@ -54,6 +54,8 @@ All of the other standard [[type formation|type formations]] are subsumed by the
 
 ## References
 
+### General
+
 Original articles:
 
 *  [[Thierry Coquand]], [[Gérard Huet]], _The Calculus of Constructions_, INRIA Rapport **530** (1986) &lbrack;[inria:00076024](http://hal.inria.fr/inria-00076024/en/), [pdf](http://hal.inria.fr/docs/00/07/60/24/PDF/RR-0530.pdf)&rbrack;
@@ -84,6 +86,16 @@ A [[categorical semantics]] for CoC is discussed in
 For specifics of the implementation in [[Coq]] see
 
 *  [[Coq]] manual, _[Calculus of Inductive Constructions](http://coq.inria.fr/doc/Reference-Manual006.html)_
+
+
+
+[[!include history of inductive types -- references]]
+
+
+
+
+
+
 
 
 
