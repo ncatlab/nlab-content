@@ -40,7 +40,7 @@ considers [[adiabatic quantum computation|adiabatic]] [[braiding]] of [defect an
         "right": 0, 
         "left": 10
     },
-    "caption": "Adapted from [Rowell & Wang 17](#RowellWang17), [Rouabah 20](#Rouabah20)"
+    "caption": "Adapted from [Rowell & Wang 18](#RowellWang18), [Rouabah 20](#Rouabah20)"
 \end{imagefromfile}
 
 \linebreak
