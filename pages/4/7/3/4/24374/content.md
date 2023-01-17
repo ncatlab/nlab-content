@@ -22,27 +22,27 @@ at all types $A$, which is consistent when viewing this theory as a logical fram
 
 The original model of (single-clock) SGDT is the category of  [[presheaves]] over $\omega$, the first infinite [[ordinal]]. The objects of this category, also known as the [[topos of trees]], here named $\mathcal{S}$, are contravariant set-valued functors $X : \omega^{\text{op}} \to \text{Set}$ which have  the following shape 
 
-$$X(1) \xleftarrow{r_1} X(2)\xleftarrow{r_2}  \dots \xleftarrow{r_{n-1}} X(n)\xleftarrow{r_{n}} \dots $$
+$$X(0) \xleftarrow{r_0} X(1)\xleftarrow{r_1}  \dots \xleftarrow{r_{n-1}} X(n)\xleftarrow{r_{n}} \dots $$
 
 where the maps $r_i$, for $i \in \omega^{\text{op}}$, are the restriction maps induced by the functor $X$. The arrows of this category are natural transformations between two functors (satisfying the naturality condition).
 
-The later modality $\triangleright$ is an endofunctor in this category defined as $\triangleright A (1) = 1$ and $\triangleright A (n+1) = A(n)$, for an object $A$. Furthermore, for every object $X$ there exists an obvious map $\text{next} : X\to \triangleright X$ witnessing the fact that everything that is available now is also available later. 
+The later modality $\triangleright$ is an endofunctor in this category defined as $\triangleright A (0) = 1$ and $\triangleright A (n+1) = A(n)$, for an object $A$. Furthermore, for every object $X$ there exists an obvious map $\text{next} : X\to \triangleright X$ witnessing the fact that everything that is available now is also available later. 
 
 Inspired by terminology used in the metric spaces (see below), every map $X \to X$ in $\text{Set}^{\omega^\text{op}}$ is called *non-expansive* while a map $f : X \to X$ is *contractive* if it factors through the $\text{next}$ map, i.e. there exists a map $g : \triangleright X \to X$ such that $f = g \circ \text{next}$. 
 
 ### Fixed-point construction
-A $\triangleright$-algebra $(X, f)$ yields a natural transformation with components $f_1 : 1 \to X(1)$ and $f_i : X(i) \to X(i+1)$ commuting with the restriction maps of the object $X$. 
+A $\triangleright$-algebra $(X, f)$ yields a natural transformation with components $f_1 : 1 \to X(0)$ and $f_i : X(i) \to X(i+1)$ commuting with the restriction maps of the object $X$. 
 It can therefore be thought of as an $\omega$-chain as follows 
 
-$$1 \xrightarrow{f_1} X(1) \xrightarrow{f_2} X(2)  \dots \to X(n) \dots $$
+$$1 \xrightarrow{f_0} X(0) \xrightarrow{f_1} X(1)  \dots \to X(n) \dots $$
 
-The morphism $\text{fix}_f : 1 \to X$ is itself a natural transformation whose components are $f_1 \circ \dots f_{i-1} \circ f_{i} : 1 \to X(i)$, for all $i \in \omega^{\text{op}}$ satisfying 
+The morphism $\text{fix}_f : 1 \to X$ is itself a natural transformation whose components are $f_0 \circ f_1 \circ \dots f_{i-1} \circ f_{i} : 1 \to X(i)$, for all $i \in \omega^{\text{op}}$ satisfying 
 
 $$\text{fix}_f = f \circ \text{next} \circ (\text{fix}_f)$$
 
 The idea here is that the recursive call is **guarded** by the $\text{next}$ map. 
 
-### Relation with the metric spaces
+### Relation with metric spaces
 The category of [[complete space|complete]] bisected [[metric space|ultrametric spaces]] (BiCUlt) is a [[coreflective subcategory]] of the topos of trees ([Proposition 5.1](#BMSS2012)). 
 
 $$
