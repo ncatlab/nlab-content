@@ -42,7 +42,7 @@ Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15
 References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Notari 09](#Notari09), [Blomqvist 10](#Blomqvist10), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Ludwick 15](#Ludwick15) [Moffat 16](#Moffat16), [Ludwick 18](#Ludwick18) [Colin-Mohayaee-Rameez-Sarkar 19](#SarkarEtAl18), [Colin-Mohayaee-Rameez-Sarkar 19b](#ColinMoymhayeeRamezSarkar19),
  [Sarkar 18](#Sarkar18), [Lombriser 19](#Lombriser19), [Deledicque 19](#Deledicque19), [Heinesen-Buchert 20](#HeinesenBuchert20).
 
-Discussion specifically of cosmic inhomogenity as the possible cause of the [H0-tension](Hubble+constant#H0TensionReferences) is in [Bolejko 17](#Bolejko17), [Sikora-Glod 20](#SikoraGlod20).
+Discussion specifically of cosmic inhomogenity as the possible cause of the [H0-tension](Hubble+constant#H0TensionReferences) is in [Bolejko 17](#Bolejko17), [Sikora-Glod 20](#SikoraGlod20), [SnowmassWhitePaper22, Section VII.H](#WhitePaper22).
 
 From [Koksbang 19, p. 3](#Koksbang19):
 
@@ -469,9 +469,13 @@ Anisotropy:
 
 Survey of deviations:
 
-
 * {#Peebles22} [[Phillip James E. Peebles]], *Anomalies in Physical Cosmology* &lbrack;[arXiv:2208.05018](https://arxiv.org/abs/2208.05018)&rbrack;
 
+See also: 
+
+* {#WhitePaper22} Snowmass White Paper, Section VII.H in: *Cosmology Intertwined: A Review of the Particle Physics, Astrophysics, and Cosmology Associated with the Cosmological Tensions and Anomalies*, J. High En. Astrophys **34** (2022) 49-211 &lbrack;[arXiv:2203.06142](https://arxiv.org/abs/2203.06142), [doi:10.1016/j.jheap.2022.04.002](https://doi.org/10.1016/j.jheap.2022.04.002)&rbrack;
+
+  > "it is possible that data has reached a requisite precision that the cosmological principle has already become obsolete"
 
 
 
