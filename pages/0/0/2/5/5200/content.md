@@ -39,7 +39,7 @@ Traditionally the canonical interpretation of the Box operator is that $\Box p$ 
 S4 modal logic appears in many [[temporal logics]].
 
 
-If instead of a single Box operator one considers $n \in \mathbb{N}$ box operators $\Box_i$ of this form the resulting modal logic is denote $S4(n)$. Here $\Box_i p$ is sometimes interpreted as "the $i$th agent knows $p$."
+If instead of a single Box operator one considers $n \in \mathbb{N}$ box operators $\Box_i$ of this form, the resulting modal logic is denoted $S4(n)$. Here $\Box_i p$ is sometimes interpreted as "the $i$th agent knows $p$."
 
 In intuitionistic (or constructive) Modal Logic, one does not expect the possibility modality to be dual to the necessity modality, necessarily. [[Alex Simpson]] has written in his thesis the most used constructive modal logic system, but other systems exist.
 
