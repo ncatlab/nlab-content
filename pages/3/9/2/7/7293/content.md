@@ -412,6 +412,11 @@ See also
 
 * {#GonzalezDiazReal99} [[Rocio Gonzalez-Diaz]], [[Pedro Real]], *A Combinatorial Method for Computing Steenrod Squares*, Journal of Pure and Applied Algebra 139 (1999) 89-108 ([arXiv:math/0110308](https://arxiv.org/abs/math/0110308))
 
+Discussion in [[homotopy type theory]]:
+
+* [[David Wärn]], Section 4.4 of: _Eilenberg-MacLane spaces and stabilisation in homotopy type theory_ &lbrack;[arXiv:2301.03685](https://arxiv.org/abs/2301.03685)&rbrack;
+
+
 
 [[!redirects Steenrod squares]]
 
