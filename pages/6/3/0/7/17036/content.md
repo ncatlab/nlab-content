@@ -12,7 +12,8 @@ I am an associate professor at Nord university in Levanger, Norway. Previously, 
 
 On [[differential geometry]] with [[infinite-dimensional manifolds]]:
 
-* [[Alexander Schmeding]],  *An introduction to infinite-dimensional differential geometry*, Cambridge University Press ([arXiv:2112.08114](https://arxiv.org/abs/2112.08114))
+* [[Alexander Schmeding]],  *An introduction to infinite-dimensional differential geometry*, Cambridge University Press. The open access version is available here: [CUP Open Access version](https://www.cambridge.org/core/books/an-introduction-to-infinitedimensional-differential-geometry/6483795C98EE417C0F3654F6C192C3BC)
+Further, here is the [list of Errata](https://min.nord.no/personal/06022029/Documents/Delt%20med%20alle/An_introduction_to_Infinite_Dimensional_Geometry_Errata.pdf)
 
 * [Youtube](https://www.youtube.com/channel/UCTIB6ykZCrpd0trFhiSETGw) (videos on math in particular a course on infinite-dimensional geometry)
 
