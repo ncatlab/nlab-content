@@ -5,7 +5,7 @@
 
 ## Selected writings
 
-On [[delooping]] and [[Eilenberg-MacLane spaces]] in [[homotopy type theory]]:
+On [[delooping]] in [[homotopy type theory]] and application to [[Eilenberg-MacLane spaces]] and [[Steenrod operations]]:
 
 * [[David Wärn]], _Eilenberg-MacLane spaces and stabilisation in homotopy type theory_ &lbrack;[arXiv:2301.03685](https://arxiv.org/abs/2301.03685)&rbrack;
 
