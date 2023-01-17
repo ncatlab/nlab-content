@@ -324,7 +324,7 @@ See also the references at _[[Diaconescu's theorem]]_.
 
 Discussion in [[homotopy type theory]]/[[univalent mathematics]]:
 
-* {#SymmetryBook} Def. 4.6.1 in: _Symmetry_ ([pdf](https://unimath.github.io/SymmetryBook/book.pdf))
+* {#SymmetryBook} [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]], Def. 4.8.1 in: _[[Symmetry]]_ &lbrack[pdf](https://unimath.github.io/SymmetryBook/book.pdf)&rbrack;
 
 Some further [[category theory|category theoretic]] articles discussing torsors:
 
