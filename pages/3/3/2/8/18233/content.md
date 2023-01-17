@@ -70,7 +70,7 @@ The category $\int F$ is built as follows:
 
 * a morphism $(x,x') \to (y,y')$ is given by a pair of morphisms $(f,f^\sharp)$ where $f:x \to y$ is an arrow in $C$ and $f^\sharp \in Ff(y',x')$
 
-* identities are given by picking $1_x : x \to x$ and $1_x^\sharp = 1_x' \in F(1_x)(x',x') = \mathrm{Hom}_{Fx}(x',x')$
+* identities are given by picking $1_x : x \to x$ and $1_x^\sharp = 1_{x'} \in F(1_x)(x',x') = \mathrm{Hom}_{Fx}(x',x')$
 
 * composition is defined componentwise: given $(f,f^\sharp) : (x,x') \to (y,y')$ and $(g,g^\sharp):(y,y') \to (z,z')$, the composite is the pair $(gf, \ell_{f,g}(y', f^\sharp, g^\sharp))$, where $(y', f^\sharp, g^\sharp)$ is the equivalence class of the coend defining the composition $Fg \circ Ff$ (see [[profunctor]]) and $\ell_{f,g}$ is the laxator of $F$.
 
