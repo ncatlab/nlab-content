@@ -251,6 +251,8 @@ For developments of his ideas, see
 
 * Poon Leung, _Classifying tangent structures using Weil algebras_, Theory and Applications of Categories, 32(9):286–337, 2017, ([tac](http://www.tac.mta.ca/tac/volumes/32/9/32-09abs.html))
 
+* [[Geoff Cruttwell]] and [[Jean-Simon Lemay]], _Tangent categories as a bridge between differential geometry and algebraic geometry_, 2023. ([arXiv:2301.05542](https://arxiv.org/abs/2301.05542))
+
 Representation of this tangent structure as exponentiation by a tangent vector is given in
 
 * [[Richard Garner]], _An embedding theorem for tangent categories_, ([arXiv:1704.08386](https://arxiv.org/abs/1704.08386))
