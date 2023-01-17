@@ -447,7 +447,8 @@ The original references are
 * {#MorelVoevodsky99} [[Fabien Morel]], [[Vladimir Voevodsky]], _$\mathbb{A}^1$-homotopy theory of schemes_, Publications Mathématiques de l'IHÉS, Volume 90 (1999), p. 45-143  ([Numdam:PMIHES_1999__90__45_0](http://www.numdam.org/item/?id=PMIHES_1999__90__45_0) [K-Theory:0305](http://www.math.uiuc.edu/K-theory/0305/) )
 
 
-* {#Morel} [[Fabien Morel]], _$\mathbb{A}^1$-algebraic topology over a field_, LNM 2052, 2012, ([pdf](http://www.mathematik.uni-muenchen.de/~morel/A1TopologyLNM.pdf))
+* {#Morel} [[Fabien Morel]], _$\mathbb{A}^1$-algebraic topology over a field_, LNM 2052, 2012, ([pdf](https://www.mathematik.uni-muenchen.de/~morel/Prepublications/A1TopologyLNM.pdf))
+
 
 
 Readable introductions to the subject are:
