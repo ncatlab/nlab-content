@@ -213,6 +213,9 @@ Standard lecture notes:
 
 * [[Scott Aaronson]], §4.2 in: *Introduction to Quantum Information Science* (2018) &lbrack;[pdf](https://www.scottaaronson.com/qclec.pdf), [webpage](https://www.scottaaronson.com/cs378/)&rbrack;
 
+Survey of simulating and designing quantum circuits:
+
+* Alwin Zulehner and Robert Wille: *Simulation and Design of Quantum Circuits*, in: *Reversible Computation: Extending Horizons of Computing. RC 2020* Lecture Notes in Computer Science **12070**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-47361-7_3](https://doi.org/10.1007/978-3-030-47361-7_3)&rbrack;
 
 The ([[dagger-compact category|dagger-compact]] [[monoidal category|monoidal]])  [[category|category theoretic]] formulation is due to:
 
