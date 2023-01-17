@@ -1,6 +1,7 @@
 
 * [webpage](https://www.ias.edu/scholars/ahmed-almheiri)
 
+
 ## Selected writings
 
 On the interpretation of [[tensor networks]] encoding [[holographic entanglement entropy]] as [[quantum error correcting codes]]:
@@ -29,7 +30,7 @@ Claim that the proper application of [[holographic entanglement entropy]] to the
 
 The case for a Kavli-like theoretical physics institute in Abu Dhabi, UAE:
 
-* with [[David Gross]]: *Majlis Mohamed bin Zayed lecture: “The Future of Scientific Research”*, Abu Dhabi (Jan 2023)  &lbrack;[video](https://twitter.com/i/broadcasts/1mnxeRYyomQKX)&rbrack;
+* with [[David Gross]]: *Majlis Mohamed bin Zayed lecture: “The Future of Scientific Research”*, Abu Dhabi (Jan 2023)  &lbrack;video: [TW](https://twitter.com/i/broadcasts/1mnxeRYyomQKX), [YT](https://www.youtube.com/watch?v=PpMWrajguzg)&rbrack;
 
 
 category: people
