@@ -273,7 +273,9 @@ Street's characterization of Grothendieck toposes is given in
 
 * {#Street}  [[Ross Street]], _Notions of topos_, Bull. Australian Math. Soc. 23 (1981), 199-208; MR83a:18014. ([pdf link](http://journals.cambridge.org/download.php?file=%2FBAZ%2FBAZ23_02%2FS000497270000705Xa.pdf&code=c6248e4fa6a517c9bb451e4f5abcf862)) 
  
+These are also called Giraud frames in 
 
+* {#Vickers22} [[Steven Vickers]], *Generalized point-free spaces, pointwise* &lbrack;[arXiv:2206.01113](https://arxiv.org/abs/2206.01113)&rbrack;
 
 [[!redirects Grothendieck toposes]]
 [[!redirects Grothendieck topoi]]
@@ -288,6 +290,9 @@ Street's characterization of Grothendieck toposes is given in
 [[!redirects Giraud/'s axioms]]
 [[!redirects Giraud's axiom]]
 [[!redirects Giraud's axioms]]
+
+[[!redirects Giraud frame]]
+[[!redirects Giraud frames]]
 
 [[!redirects sheaf topos]]
 [[!redirects sheaf toposes]]
