@@ -91,7 +91,7 @@ The [[standard Courant algebroid]] of a [[manifold]] $X$ is the one which
 
     where $\mathcal{L}_X \eta = \{d,\iota_X\} \eta$ denotes the [[Lie derivative]] of the 1-form $\eta$ by the vector field $X$.
 
-* as a [[dg-manifold]] is $\Pi T^* \Pi T X$, the shifted cotangent bundle of the [[shifted tangent bundle]],
+* as a [[dg-manifold]] is $T^*[2] T[1] X$, the shifted cotangent bundle of the [[shifted tangent bundle]],
 
   where the [[differential]] is on each local [[coordinate patch]] $\mathbb{R}^n \simeq U \subset X$ with coordinates $\{x^i\}$ in degree 0, $\{d x^i\}$ and $\{\theta_i\}$ in degree 1 and $\{p_i\}$ in degree 2 given by
 
