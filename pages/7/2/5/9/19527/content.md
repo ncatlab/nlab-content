@@ -141,6 +141,10 @@ See also:
 
 * Wikipedia, _[Cayley graph ](https://en.wikipedia.org/wiki/Cayley_graph)_
 
+Discussion in [[homotopy type theory]]/[[univalent foundations of mathematics]]:
+
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: Def. 6.3.4 in: *[[Symmetry]]* (2021) &lbrack;[pdf](https://unimath.github.io/SymmetryBook/book.pdf)&rbrack;
+
 ### Spectra
  {#ReferencesSpectra}
 
