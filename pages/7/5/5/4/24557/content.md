@@ -71,6 +71,10 @@ Review:
 
 * [[Charles H. Bennett]], *Notes on Landauer's principle, reversible computation, and Maxwell's Demon*, Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics, **34** 3 (2003) 501-510 (<a href="https://doi.org/10.1016/S1355-2198(03)00039-X">doi:10.1016/S1355-2198(03)00039-X</a>)
 
+Review of current developments (as of 2020):
+
+* B. Aman et al., *Foundations of Reversible Computation*, in: *Reversible Computation: Extending Horizons of Computing. RC 2020* Lecture Notes in Computer Science **12070**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-47361-7_1](https://doi.org/10.1007/978-3-030-47361-7_1)&rbrack;
+
 See also:
 
 * Wikipedia, *[Reversible computing](https://en.wikipedia.org/wiki/Reversible_computing)*
