@@ -12,6 +12,8 @@ Introducing the notion of [[inductive types]] in [[type theory]]
 
 and with it the [[calculus of inductive constructions]] used by [[Coq]]:
 
+* [[Frank Pfenning]], [[Christine Paulin-Mohring]], *Inductively defined types in the Calculus of Constructions*, in: *Mathematical Foundations of Programming Semantics MFPS 1989*,  Lecture Notes in Computer Science **442**, Springer (1990) $[$[doi:10.1007/BFb0040259](https://doi.org/10.1007/BFb0040259)$]$
+
 * [[Christine Paulin-Mohring]], *Inductive definitions in the system Coq -- Rules and Properties*, in: *Typed Lambda Calculi and Applications* TLCA 1993, Lecture Notes in Computer Science **664** Springer (1993) &lbrack;[doi:10.1007/BFb0037116](https://doi.org/10.1007/BFb0037116)&rbrack;
 
 * [[Christine Paulin-Mohring]], *Introduction to the Calculus of Inductive Constructions*, contribution to: *Vienna Summer of Logic* (2014) &lbrack;[hal:01094195](https://hal.inria.fr/hal-01094195), [pdf](https://hal.inria.fr/hal-01094195/document), [pdf slides](https://easychair.org/smart-program/VSL2014/APPA-invited-slides-6.pdf)&rbrack;
