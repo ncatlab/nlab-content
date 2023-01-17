@@ -25,11 +25,33 @@
 _Sphere types_ are the [[axiom|axiomatization]] of the [[homotopy type]] of the ([[shape modality|shape]] of) the [[spheres]] in the context of [[homotopy type theory]].
 
 ## Definition
+ {#Definition}
 
-The $n$-sphere type is be defined as the ([[reduced suspension type|reduced]] or un-reduced) [[suspension type]] of the $(n-1)$-sphere type or the iterated suspension of $S^0 \coloneqq \mathbf{2}$. (a.k.a [[boolean domain|$\text{Bool}$]] or [[boolean domain|$\text{Bit}$]], see [there](boolean+domain#InHomotopyTypeTheory)):
+For $n = 0$, the *[[0-sphere]]*-type is defined to the [[boolean domain]] $\mathbf{2}$ (or "[[Bit]]", see [there](boolean+domain#InHomotopyTypeTheory)):
+
+\[
+  \label{ZeroSphereType}
+  S^0 
+   \,\coloneqq\, 
+  \mathbf{2}
+  \,.
+\]
+
+By [[induction]] on the [[natural number]] $n$: For $n \geq 1$, the *$n$-sphere type* is be defined as 
+
+* the (un-reduced) [[suspension type]] $\mathrm{S}(-)$ of the $(n-1)$-sphere type $S^{n-1}$;
+
+or equivalently
+
+* the $n$-fold iterated [[suspension type]] $\mathrm{S}^n(-)$ of $S^0$ (eq:ZeroSphereType):
 
 $$
-  S^n \;\coloneqq\; \mathrm{S}^n S^0
+  S^n 
+   \;\coloneqq\; 
+  \mathrm{S} S^{n-1}
+    \;=\;
+  \mathrm{S}^n S^0
+  \,.
 $$
 
 ## See also
