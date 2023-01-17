@@ -188,6 +188,11 @@ with [[QWIRE]] (in [[Coq]]):
 
 See also:
 
+* Jaap Boender, Florian Kammüller, Rajagopal Nagarajan, *Formalization of Quantum Protocols using Coq*, EPTCS **195** (2015) 71-83 &lbrack;[doi:10.4204/EPTCS.195.6](https://doi.org/10.4204/EPTCS.195.6), [doi:10.4204/EPTCS.195.6](https://doi.org/10.4204/EPTCS.195.6)&rbrack;
+
+  > (via [[Coq]])
+
+
 * Wenjun Shi, Qinxiang Cao, Yuxin Deng, Hanru Jiang, Yuan Feng, *Symbolic Reasoning about Quantum Circuits in Coq*, Journal of Computer Science and Technology (JCST), **36** 6 (2021) 1291-1306 $[$[arXiv:2005.11023](https://arxiv.org/abs/2005.11023), [doi:10.1007/s11390-021-1637-9](https://doi.org/10.1007/s11390-021-1637-9)$]$
 
 * [[Mingsheng Ying]], *Model Checking for Verification of Quantum Circuits*, in: *Formal Methods. FM 2021*, Lecture Notes in Computer Science **13047**, Springer (2021) $[$[arXiv:2104.11359](https://arxiv.org/abs/2104.11359), [doi:10.1007/978-3-030-90870-6_2](https://doi.org/10.1007/978-3-030-90870-6_2)$]$
