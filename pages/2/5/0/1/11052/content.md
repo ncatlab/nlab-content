@@ -13,6 +13,9 @@ A group $G$ is *finitely presentable* if it has a *finite presentation*, i.e., t
 The term 'finitely presented' is often used rather than `finitely presentable', however 'finitely presented' would seem to imply that a given finite presentation was intended, whilst here only the existence of one is required.
 =--
 
+## Related concepts
+
+* [[finitely generated group]]
 
 ## References
 
