@@ -183,8 +183,9 @@ Discussion of quantum measurements in terms of [[finite quantum mechanics in ter
 
 * [[Bob Coecke]], [[Eric Paquette]], [[Dusko Pavlovic]], *Classical and quantum structures* (2008) &lbrack;[pdf](http://www.comlab.ox.ac.uk/files/627/RR-08-02.pdf), [[Coecke-Paquette-Pavlovic-CQS.pdf:file]]&rbrack;
 
-
 * [[Bob Coecke]], [[Duško Pavlović]], [[Jamie Vicary]],  *A new description of orthogonal bases*, Mathematical Structures in Computer Science **23** 3 (2012) 555- 567 &lbrack;[arXiv:0810.0812](https://arxiv.org/abs/0810.0812), [doi:10.1017/S0960129512000047](https://doi.org/10.1017/S0960129512000047)&rbrack;
+
+* [[Chris Heunen]], [[Martti Karvonen]], Exp. 6.5 in: *Monads on dagger categories*, Theory and Applications of Categories **31** 35 (2016) 1016-1043 &lbrack;[arXiv:1602.04324](https://arxiv.org/abs/1602.04324), [TAC:31-35](http://www.tac.mta.ca/tac/volumes/31/35/31-35abs.html)&rbrack;
 
 Textbook account in:
 
