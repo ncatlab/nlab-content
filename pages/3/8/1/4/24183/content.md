@@ -17,6 +17,7 @@ Early accounts re-stating this claim (without attribution):
 
 Further discussion (all without attribution):
 
+
 * {#RowellWang18} [[Eric C. Rowell]], [[Zhenghan Wang]], _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
 
 * [[Tian Lan]], *A Classification of (2+1)D Topological Phases with Symmetries* $[$[arXiv:1801.01210](https://arxiv.org/abs/1801.01210)$]$
@@ -33,6 +34,7 @@ Further discussion (all without attribution):
 
 * Zhuan Li, Roger S.K. Mong, *Detecting topological order from modular transformations of ground states on the torus* $[$[arXiv:2203.04329](https://arxiv.org/abs/2203.04329)$]$
 
+* [[Eric C. Rowell]], *Braids, Motions and Topological Quantum Computing* $[$[arXiv:2208.11762](https://arxiv.org/abs/2208.11762)$]$
 
 * Willie Aboumrad, *Quantum computing with anyons: an F-matrix and braid calculator* $[$[arXiv:2212.00831](https://arxiv.org/abs/2212.00831)$]$
 
