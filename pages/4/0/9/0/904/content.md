@@ -351,7 +351,7 @@ Textbook accounts:
 
 Review and Exposition:
 
-* {#Moller11} [[Jesper Møller]], _The fundamental group and covering spaces_ (2011) &lbrack;[pdf](http://www.math.ku.dk/~moller/f03/algtop/notes/covering.pdf), [[Moller-FundamentalGroup.pdf:file]]&rbrack;
+* {#Moller11} [[Jesper Møller]], _The fundamental group and covering spaces_ (2011) &lbrack;[arXiv:1106.5650](https://arxiv.org/abs/1106.5650), [pdf](http://www.math.ku.dk/~moller/f03/algtop/notes/covering.pdf), [[Moller-FundamentalGroup.pdf:file]]&rbrack;
 
 * Alberto Santini, *Topological groupoids* (2011) &lbrack;[pdf](http://web.math.ku.dk/~moller/students/alberto.pdf), [[Santini-Groupoids.pdf:file]]&rbrack;
 
