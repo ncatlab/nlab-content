@@ -8,6 +8,9 @@ On [[categorical semantics]] of ([[dependent type theory|dependent]]) [[type the
 
 * {#Streicher91} [[Thomas Streicher]], _Semantics of type theory -- Correctness, completeness and independence results_, Progress in Theoretical Computer Science, Birkhäuser Boston (1991) &lbrack;ISBN:0-8176-3594-7, [doi:10.1007/978-1-4612-0433-6](https://doi.org/10.1007/978-1-4612-0433-6)&rbrack;
 
+On [[intensional type theory]]:
+
+* [[Thomas Streicher]], *Investigations into Intensional Type Theory*, Habilitation Thesis, Darmstadt (1993) &lbrack;[pdf](https://www2.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf), [[Streicher-IntensionalTT.pdf:file]]&rbrack;
 
 Introducing the [[homotopy type theory]]-interpretation of [[identity types]]. and introducing what came to be known the [[univalence axiom]] (under the name "universe extensionality"):
 
