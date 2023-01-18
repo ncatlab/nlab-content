@@ -230,6 +230,8 @@ This is the topic of [[schreiber:differential cohomology in a cohesive topos|dcc
 
 ## Related concepts
 
+* [[transport]]
+
 * [[universal cover]]
 
 * [[G-set]]
@@ -239,7 +241,14 @@ This is the topic of [[schreiber:differential cohomology in a cohesive topos|dcc
 
 ## References
 
-Lecture notes on the classical theory:
+On the classical theory:
+
+Textbook account:
+
+* {#tomDieck2008} [[Tammo tom Dieck]],  §3 in: _Algebraic topology_, European Mathematical Society, Zürich (2008) &lbrack;[doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/diecktop.pdf)&rbrack;
+
+
+Lecture notes:
 
 * {#Waldhausen} [[Friedhelm Waldhausen]], around p. 122 of  _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
 
