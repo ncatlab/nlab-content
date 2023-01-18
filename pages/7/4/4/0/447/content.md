@@ -337,6 +337,21 @@ In fact the geometric realization of a Kan fibration is even a [[Hurewicz fibrat
 The previous two sections show that the geometric realization preserves finite limits and fibrations.  Since its right adjoint, the singular complex functor $Top \to sSet$, also preserves both (much more trivially), and since all objects of $Top$ are fibrant and the adjunction is simplicially enriched, it follows that the composite $sSet \to Top \to sSet$ is a simplicially enriched [[fibrant replacement functor]] on $sSet$ that additionally preserves both finite limits and fibrations.
 
 
+### Geometric realization of barycentric subdivisions
+
+\begin{theorem}
+([Fritsch–Puppe, 1967](#FP1967); [Fritsch 1974](#F1974).)
+There is a [[homeomorphism]]
+$$|Sd X| \to |X|$$
+from the [[geometric realization]] of the [[barycentric subdivision]] of a [[simplicial set]] $X$
+to the geometric realization of $X$.
+This homeomorphism is homotopic to the geometric realization of the last vertex map.
+The homeomorphism turns the [[CW-complex]] $|Sd X|$ into a subdivision of the [[CW-complex]] $|X|$.
+The statement also holds relative a simplicial subset $A\subset X$.
+\end{theorem}
+
+For an expository account, see [Fritsch–Piccinini](#FP1990).
+
 ## Examples 
 
 * For $G$ a [[group]], $\mathbf{B}G$, its one-object [[groupoid]] obtained by [[delooping]], $N(\mathbf{B}G)$ the corresponding simplicial [[nerve]] [[Kan complex]], we have that the geometric realization
@@ -393,6 +408,16 @@ Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([euclid:1183541139]
 * Edoardo Lanari, _Compatibility of homotopy colimits and homotopy pullbacks of simplicial presheaves_ ([pdf](http://algant.eu/documents/theses/lanari.pdf), [[LanariHomotopyColimitsBaseChange.pdf:file]])
 
   (expanded version of [Rezk 14](#Rezk14))
+
+### Geometric realization of barycentric subdivisions
+
+
+* {#FP1967} [[Rudolf Fritsch]], [[Dieter Puppe]], _Die Homöomorphie der geometrischen Realisierungen einer semisimplizialen Menge und ihrer Normalunterteilung_, Arch. Math. (Basel) 18 (1967), 508–512.
+
+* {#F1974} Relative semisimpliziale Approximation, Arch. Math. (Basel) 25 (1974), 75–78.
+
+* {#FP1990} [[Rudolf Fritsch]], [[Renzo A. Piccinini]], _Cellular structures in topology_, CUP, 1990.
+
 
 [[!redirects geometric realisation]]
 
