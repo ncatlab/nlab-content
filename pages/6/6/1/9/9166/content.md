@@ -22,7 +22,7 @@ For $V$ a [[symplectic vector space]], its __Lagrangian Grassmannian__ $LGrass(V
 
 ### As a coset space
 
-The group of [[symplectomorphism]]s of $V$ naturally acts on $LGrass(V)$.
+The [[symplectic group]] of $V$ naturally acts on $LGrass(V)$.
 
 The unitary group $U_J(V)$ associated to any fixed compatible [[complex structure]] $J$ on $V$ [[transitive action|acts transitively]] on $LGrass(V)$.  In fact, $LGrass(V)$ is [[diffeomorphism|diffeomorphic]] to the [[coset space]] $U(n)/O(n)$ of the [[unitary group]] by the [[orthogonal group]], where $n$ is the complex [[dimension]] of $(V,J)$ (so the real dimension of $V$ is $2n$).
 
