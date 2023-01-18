@@ -40,6 +40,12 @@ From [Ghani et al. 15](#GhaniEtAl15):
 
 * The [[completion monad]] has been used to produce code for [[real number]] computations with certified approximation bounds. See at _[[completion monad]]_ for more.
 
+(...)
+
+## Related concept
+
+* [[Hoare logic]]
+
 ## References
 
 ### General
@@ -93,12 +99,23 @@ Verification of [[cryptography]] via [[type theory]]:
 
 * Cédric Fournet, Markulf Kohlweiss, Pierre-Yves Strub, *Modular code-based cryptographic verification*, CCS '11: Proceedings of the 18th ACM conference on Computer and communications securityOctober 2011 Pages 341–350 ([doi:10.1145/2046707.2046746](https://doi.org/10.1145/2046707.2046746))
 
+### Via Hoare calculus
+
+Program verification via [[Hoare calculus]]:
+
+* {#Hoare69} [[C. A. R. Hoare]], *An axiomatic basis for computer programming*, Communications of the ACM **12** 10 (1969) 576–580 &lbrack;[doi:10.1145/363235.363259](https://doi.org/10.1145/363235.363259)&rbrack;
+
 
 ### Via (dependent) type theory
+ {#ViaDependentTypeTheoryReferences}
 
-The general idea of verified programming via ([[dependent type theory|dependent]] [[type theory]]):
+The general idea of verified programming via [[dependent type theory|dependent]] [[type theory]]:
 
 * [[Per Martin-Löf]], *Constructive Mathematics and Computer Programming*, Studies in Logic and the Foundations of Mathematics Volume 104, 1982, Pages 153-175 (<a href="https://doi.org/10.1016/S0049-237X(09)70189-2">doi:10.1016/S0049-237X(09)70189-2</a>)
+
+* {#Streicher93} [[Thomas Streicher]], p. 1-2 of: *Investigations into Intensional Type Theory*, Habilitation Thesis, Darmstadt (1993) &lbrack;[pdf](https://www2.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf), [[Streicher-IntensionalTT.pdf:file]]&rbrack;
+
+
 
 Exposition:
 
@@ -118,7 +135,7 @@ On [[Agda]] as a dependently typed certification language:
 
 * [[Aaron Stump]], *Verified Functional Programming in Agda*, Association for Computing Machinery and Morgan & Claypool (2016) &lbrack;[doi:10.1145/2841316](https://doi.org/10.1145/2841316), ISBN:978-1-970001-27-3&rbrack;
 
-### Application to consensus algorithms
+#### Application to consensus algorithms
 
 Verification of ([[blockchain]]-like) hashgraph consensus algorithms:
 
@@ -147,7 +164,7 @@ With [[Agda]]:
 
 
 
-### Via homotopy type theory
+#### Via homotopy type theory
 
 Proposals for verification specifically via [[homotopy type theory]]:
 
@@ -209,8 +226,14 @@ See also:
 [[!redirects software verification]]
 [[!redirects formal software verification]]
 
+[[!redirects program verification]]
+[[!redirects formal program verification]]
+
+
 [[!redirects verified programming]]
 
 [[!redirects certification language]]
 [[!redirects certification languages]]
+
+
 
