@@ -1,5 +1,5 @@
 
-> See also _[[symplectic group]]_.
+> See also _[[compact symplectic group]]_.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -18,7 +18,9 @@
 
 ## Idea
 
-The analog of the [[unitary group]] as one passes from the [[complex numbers]] to the [[quaternions]].
+This Lie group is the analog of the [[unitary group]] as one passes from the [[complex numbers]] to the [[quaternions]].
+
+The quaternionic unitary group $Sp(n)$ is the group of quaternion-unitary transformations of $\mathbb{H}^n$.  It is also called the [[compact symplectic group]], since both it and the [[symplectic group]] $Sp(2n, \mathbb{R})$ are real forms of the complex Lie group $Sp(2n,\mathbb{C})$, and it is the compact form.  
 
 ## Properties
 
