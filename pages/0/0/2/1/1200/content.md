@@ -81,7 +81,7 @@ For ordinal numbers in [[homotopy type theory]], see section 10.3 of:
 
 On the equivalence of set-theoretic and type-theoretic ordinals, see:
 
-* [[Tom de Jong]], [[Nicolai Kraus]], [[Fredrik Norvall Forsberg]], and [[Chuangjie Xu]], *Ordinals.CumulativeHierarchy.html* ([web](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Ordinals.CumulativeHierarchy.html))
+* [[Tom de Jong]], [[Nicolai Kraus]], [[Fredrik Nordvall Forsberg]], and [[Chuangjie Xu]], *Ordinals.CumulativeHierarchy.html* ([web](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Ordinals.CumulativeHierarchy.html))
 
 [[!redirects ordinal]]
 [[!redirects ordinals]]
