@@ -296,7 +296,9 @@ Let $C$ be an [[∞-cohesive site]]. We say a [[site]] $C_{th}$
 
 * such that
 
-  * $i$ preserves [[pullback]]s along morphisms in [[covering]] families;
+  * $i$ preserves finite products
+
+  * $i$ preserves [[pullbacks]] along morphisms in [[covering]] families;
 
   * both $i$ and $p$ send [[covering]] families to covering families;
 
