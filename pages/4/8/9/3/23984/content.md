@@ -167,6 +167,12 @@ In this case, the identity transport (eq:TheTransportFunctions) along paths in [
 
 ## References ##
 
+The traditional notion of the "transport" in [[algebraic topology]] (via the [[fundamental theorem of covering spaces]] and more generally via the notion of [[Serre fibrations]]): 
+
+* {#tomDieck2008} [[Tammo tom Dieck]],  §3.2 and §5.6 in: _Algebraic topology_, European Mathematical Society, Zürich (2008) &lbrack;[doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/diecktop.pdf)&rbrack;
+
+The notion in [[homotopy type theory]]:
+
 * [[Univalent Foundations Project|UVP]], [§2.3 "Type families and fibrations"](https://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf#page=81) in: *[[Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
 Some more details are spelled out in:
@@ -235,6 +241,11 @@ For the role of transport in defining an equivalent notion of [[univalence]] in 
 
 [[!redirects transport function]]
 [[!redirects transport functions]]
+
+
+[[!redirects transport functor]]
+[[!redirects transport functors]]
+
 
 [[!redirects indiscernibility of identicals]]
 
