@@ -61,20 +61,69 @@ It is also possible to combine the cube layer and the tope layer together into o
 
 #### Shape layer
 
-The Shape layer is a [[dependent type theory]] which consists of [[identity types]], [[dependent sum types]], [[empty type]], [[unit type]], [[propositional truncations]], [[booleans type]], [[axiom K]] or [[uniqueness of identity proofs]], [[judgmental equality]], and an [[equality reflection]] rule making the type theory into an [[extensional type theory]]. This is enough to define the coherent theory of the interval used for [[simplicial type theory]]. General types are called "shapes" or "cubes", and types which are (-1)-truncated are called "topes". 
-
-Given a cube or shape $I$ and a family of topes $t:I \vdash \phi(t)$ - a family of cubes with a family of witnesses that each cube is (-1)-truncated - the shape formed by the cube and the tope is the dependent sum type 
-
-$$\{t:I \vert \phi \} \coloneqq \sum_{t:I} \phi(t)$$
+The shape layer is a [[dependent type theory]] which consists of [[identity types]], [[dependent sum types]], [[empty type]], [[unit type]], [[propositional truncations]], [[booleans type]], [[axiom K]] or [[uniqueness of identity proofs]], [[judgmental equality]], and an [[equality reflection]] rule making the type theory into an [[extensional type theory]]. This is enough to define the coherent theory of the interval used for [[simplicial type theory]]. 
 
 #### Type layer
 
 This type layer is a [[dependent type theory]] with some notion of [[identity type]], [[dependent product type]], [[dependent sum type]], and [[higher inductive types]], as well as [[judgmental equality]] to reflect the equality tope of the tope layer, and cube contexts and tope contexts in addition to the usual type contexts. The [[beta conversion]] and [[eta conversion]] rules for the types may either be typal or judgmental. In addition, there is no equality reflection rule, which makes the dependent type theory an [[intensional type theory]]. 
 
-#### Extension types
+We also state the rules in such a way that the following substitution rule is admissible:
 
-Formation rules for non-dependent extension types
-$$\frac{\sum_{t:I} \phi(t) \; \mathrm{shape} \quad \sum_{t:I} \psi(t) \; \mathrm{shape} \quad t:I, \alpha:\phi(t) \vdash \beta:\psi(t) \; \mathrm{type} \quad \Xi \vdash \Gamma \; \mathrm{ctx} \quad \Xi \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi, z:\sum_{t:I} \phi(t) \vert \Gamma \vdash a:A}{\Xi \vert \Gamma \vdash \langle \left(\sum_{t:I} \phi(t)\right) \to A \vert_a^\phi \rangle \; \mathrm{type}}$$
+$$\frac{\Xi \vdash \alpha:A \quad \Xi, x:A \vert \Gamma \vdash b:B}{\Xi \vert \Gamma(\alpha) \vdash b(\alpha):B(\alpha)}$$
+
+#### Cofibrations and extension types
+
+A cofibration is a shape inclusion, which means shapes $A$ and $B$ and an embedding of shapes $i:A \hookrightarrow B$. 
+
+Formation rules for dependent extension types
+$$\frac{
+\begin{array}{l}
+\Xi \vdash A \; \mathrm{shape} \quad \Xi \vdash B \; \mathrm{shape} \quad \Xi \vdash i:A \hookrightarrow B \\
+\Xi \vdash \Gamma \; \mathrm{ctx} \quad \Xi, y:B \vert \Gamma \vdash C(y) \; \mathrm{type} \quad \Xi, x:A \vert \Gamma \vdash c(x):C(x)
+\end{array}
+}{\Xi \vert \Gamma \vdash \langle \prod_{y:B} C(y) \vert_c^A \rangle \; \mathrm{type}}$$
+
+Introduction rules for dependent extension types
+$$\frac{
+\begin{array}{l}
+\Xi \vdash A \; \mathrm{shape} \quad \Xi \vdash B \; \mathrm{shape} \quad \Xi \vdash i:A \hookrightarrow B \\
+\Xi \vdash \Gamma \; \mathrm{ctx} \quad \Xi, y:B \vert \Gamma \vdash C(y) \; \mathrm{type} \quad \Xi, x:A \vert \Gamma \vdash c(x):C(x) \\
+\Xi, y:B \vert \Gamma \vdash d(y):C(y) \quad \Xi, x:A \vert \Gamma \vdash d(i(x)) \equiv c(x):C(x) \\
+\end{array}
+}{\Xi \vert \Gamma \vdash \lambda y^B.d(y):\langle \prod_{y:B} C(y) \vert_c^A \rangle}$$
+
+Elimination rules for dependent extension types
+$$\frac{
+\begin{array}{l}
+\Xi \vdash A \; \mathrm{shape} \quad \Xi \vdash B \; \mathrm{shape} \quad \Xi \vdash i:A \hookrightarrow B \\
+\Xi \vert \Gamma \vdash f:\langle \prod_{y:B} C(y) \vert_c^A \rangle \quad \Xi \vdash b:B
+\end{array}
+}{\Xi \vert \Gamma \vdash f(b):C(b)}$$
+
+$$\frac{
+\begin{array}{l}
+\Xi \vdash A \; \mathrm{shape} \quad \Xi \vdash B \; \mathrm{shape} \quad \Xi \vdash i:A \hookrightarrow B \\
+\Xi \vert \Gamma \vdash f:\langle \prod_{y:B} C(y) \vert_c^A \rangle \quad \Xi \vdash a:A
+\end{array}
+}{\Xi \vert \Gamma \vdash f(i(a)) \equiv c(a):C(a)}$$
+
+Computation rules for dependent extension types
+$$\frac{
+\begin{array}{l}
+\Xi \vdash A \; \mathrm{shape} \quad \Xi \vdash B \; \mathrm{shape} \quad \Xi \vdash i:A \hookrightarrow B \\
+\Xi \vdash \Gamma \; \mathrm{ctx} \quad \Xi, y:B \vert \Gamma \vdash C(y) \; \mathrm{type} \quad \Xi, x:A \vert \Gamma \vdash c(x):C(x) \\
+\Xi, y:B \vert \Gamma \vdash d(y):C(y) \quad \Xi, x:A \vert \Gamma \vdash d(i(x)) \equiv c(x):C(x) \quad \Xi \vert b:B\\
+\end{array}
+}{\Xi \vert \Gamma \vdash (\lambda y^B.d(y))(b) \equiv d(b):C(b)}$$
+
+Uniqueness rules for dependent extension types
+
+$$\frac{
+\begin{array}{l}
+\Xi \vdash A \; \mathrm{shape} \quad \Xi \vdash B \; \mathrm{shape} \quad \Xi \vdash i:A \hookrightarrow B \\
+\Xi \vert \Gamma \vdash f:\langle \prod_{y:B} C(y) \vert_c^A \rangle
+\end{array}
+}{\Xi \vert \Gamma \vdash f \equiv \lambda y^B.f(y):\langle \prod_{y:B} C(y) \vert_c^A \rangle}$$
 
 ## See also
 
