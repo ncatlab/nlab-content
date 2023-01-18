@@ -46,4 +46,7 @@ Building features of [[functional programming languages]] into imperative langua
 [[!redirects imperative programming language]]
 [[!redirects imperative programming languages]]
 
+[[!redirects imperative program]]
+[[!redirects imperative programs]]
+
 
