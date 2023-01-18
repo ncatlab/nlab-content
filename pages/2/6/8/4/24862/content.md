@@ -38,5 +38,9 @@ The notion of layer of a type theory appears in
 
 when defining [[type theory with shapes]] and [[simplicial type theory]]. 
 
+The term "layered type theory" also appears in 
+
+* César Bardomiano Martínez, *Limits and colimits of synthetic $\infty$-categories* $[$[arXiv:2202.12386](https://arxiv.org/abs/2202.12386)$]$
+
 [[!redirects layer]]
 [[!redirects layers]]
