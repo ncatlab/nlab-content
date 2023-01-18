@@ -28,11 +28,17 @@ The unitary group $U_J(V)$ associated to any fixed compatible [[complex structur
 
 ### Cohomology and Maslov index
 
-The first [[ordinary cohomology]] of the stable Lagrangian Grassmannian with [[integer]] [[coefficients]] is isomorphic to the [[integers]]
+The first [[ordinary cohomology]] of the stable Lagrangian Grassmannian 
+
+$$ 
+LGrass = \lim_{n \to \infty} LGrass(\mathbb{C}^n)
+$$
+
+with [[integer]] [[coefficients]] is isomorphic to the [[integers]]
 
 $$
   H^1(LGrass, \mathbb{Z}) 
-  \simeq
+  \cong
   \mathbb{Z}
   \,.
 $$
@@ -58,7 +64,19 @@ $$
   \,.
 $$
 
+Unstably, a generator of 
 
+$$ 
+H^1(\LGrass(\mathbb{C}^n),\mathbb{Z}) \cong [U(n)/O(n), U(1)] 
+$$
+
+is given by the map
+
+$$
+\mathrm{det}^2 \colon U(n) \to U(1)
+$$
+
+This map passes to the quotient $U(n)/O(n)$ because the determinant of an element of $O(n)$ can only be $\pm 1$. 
 
   
 ## Related concepts
