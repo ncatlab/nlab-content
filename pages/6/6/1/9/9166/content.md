@@ -15,7 +15,7 @@
 
 ## Definition
 
-For $V$ a [[symplectic vector space]], its __Lagrangian Grassmannian__ $LGrass(V)$ is the space of its [[Lagrangian subspace|Lagrangian]] (maximal isotropic) subspaces.
+For $V$ a [[symplectic vector space]], its __Lagrangian Grassmannian__ $LGrass(V)$ is the space of its [[Lagrangian subspace|Lagrangian]] (maximal [[isotropic subspace|isotropic]]) subspaces.
 
 
 ## Properties
