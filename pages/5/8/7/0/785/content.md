@@ -249,7 +249,17 @@ The _global_ projective [[model structure on simplicial presheaves]] is [[right 
 If we unwind the [[categorical semantics]] of the [above definition](#InHomotopyTypeTheory) 
 
 $$
-  A \times_C^h B \simeq \{ a : A, b : B | (f(a) = g(b)) \}
+  A \times_C^h B 
+  \;\simeq\; 
+  \Big\{ 
+    a \colon A
+    ,\, 
+    b \colon B 
+    \;\big\vert\; 
+    \big(
+      f(a) = g(b)
+    \big)
+  \Big\}
 $$
 
 of the homotopy pullback in [[homotopy type theory]], we re-obtain the 
