@@ -324,7 +324,10 @@ See also the references at _[[Diaconescu's theorem]]_.
 
 Discussion in [[homotopy type theory]]/[[univalent mathematics]]:
 
-* {#SymmetryBook} [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]], Def. 4.8.1 in: _[[Symmetry]]_ &lbrack[pdf](https://unimath.github.io/SymmetryBook/book.pdf)&rbrack;
+* {#SymmetryBook} [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]], Def. 4.8.1 in: _[[Symmetry]]_ &lbrack;[pdf](https://unimath.github.io/SymmetryBook/book.pdf)&rbrack;
+
+* [[David Wärn]], *Eilenberg-MacLane spaces and stabilisation in homotopy type theory* &lbrack;[arXiv:2301.03685](https://arxiv.org/abs/2301.03685)&rbrack;
+
 
 Some further [[category theory|category theoretic]] articles discussing torsors:
 
