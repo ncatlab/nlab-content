@@ -53,7 +53,7 @@ In additon, function extensionality in category theory is true in any [[concrete
 
 In [[intensional type theory]], the notion of [[equality]] $a = a'$ is replaced by [[identifications]], these being [[terms]] of [[identity type]] $Id_A(a,a')$. Since such [[identity type]] are in general not [[mere propositions]], care needs to be exercised in stating function extensionality in intensional type theory:
 
-For [[types]] $A, B \,\colon\, Type $ and [[parallel morphisms|parallel]] [[function type|functions]] $f, g  \,\colon\, A \to B$, there are the following two canonical functions (from [[identity types]] of [[function types]] to [[dependent products]] of pointwise identity types), which one may use for expressing function extensionality (eq:FunctionExtensionalityInTypeTheory), both defined via [[path induction]] as shown now:
+For [[types]] $A, B \,\colon\, Type $ and [[parallel morphisms|parallel]] [[function type|functions]] $f, g  \,\colon\, A \to B$, there are the following two canonical functions (from [[identity types]] of [[function types]] to [[dependent products]] of pointwise identity types), which one may use for expressing function extensionality (eq:FunctionExtensionalityInTypeTheory), both defined via [[path induction]] (see at *[[function application to identifications]]*) as shown now:
 
 \[
   \label{happlyDefinition}
