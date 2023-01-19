@@ -44,9 +44,11 @@ There is another definition of function extensionality: for all sets $A$ and $B$
 
 ### In category theory
 
-Since sets and functions form a [[category]], the set theory definition of function extensionality could be generalized to any [[category]] with a [[terminal object]]. Function extensionality corresponds to the fact that the [[terminal object]] is an [[extremal generator]] in [[category]], and is one of the conditions for making a [[pretopos]] a [[well-pointed pretopos]]. 
+There are two natural ways to extend the set-theoretic definition of function extensionality from the category of sets to more general categories by using either the external notion of quantifying over points as morphisms from the terminal object $x : 1 \to C$ or by interpreting the logical formulation of function extensionality in the [[internal language]] of the category. These notions are *not* equivalent and it is the latter form that would usually be intended when saying that a category “satisfies function extensionality” as it means that the category can be used as a model of a logic where function extensionality is provable.
 
-In additon, function extensionality in category theory is true in any [[concrete category]] $\mathcal{C}$. The axiom could be called "morphism extensionality"; however, in all concrete categories, the morphisms are functions between sets. 
+The “external” formulation of function extensionality corresponds to the statement that the [[terminal object]] is an [[extremal generator]] in [[category]], and is one of the conditions for making a [[pretopos]] a [[well-pointed pretopos]]. This definition is satisfied in any [[concrete category]] $\mathcal{C}$.
+
+The “internal” formulation can be interpreted in a category with a rich enough [[internal language]]. For instance, function extensionality can be stated in the [[Mitchell-Benabou language]] and is true in any [[topos]]. So every topos *internally* satisfies function extensionality despite the fact that toposes do not generally satisfy the external notion of being well-pointed. This is because the quantifier $\forall x:X$ in the internal language is interpreted as a quantification over all [[generalized elements]] $I \to X$ rather than merely the global elements $1 \to X$. Then the statement when quantifying over generalized elements is true as a consequence of the definition of an [[exponential]].
 
 ### In type theory
  {#InTypeTheory}
