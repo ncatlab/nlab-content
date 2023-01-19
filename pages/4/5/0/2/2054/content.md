@@ -27,6 +27,15 @@ Every [[subgroup]] of a free group is itself a free group. This is the _[[Nielse
 
 * [[Fox derivative]]
 
+## References
+
+Discussion in [[homotopy type theory]]:
+
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: §6.2 in: *[[Symmetry]]* (2021) &lbrack;[pdf](https://unimath.github.io/SymmetryBook/book.pdf)&rbrack;
+
+
+
+
 
 [[!redirects free groups]]
 
