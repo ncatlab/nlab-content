@@ -78,7 +78,9 @@ See [[simplicial fundamental groupoid]].
 
 ## Related concepts
 
-* [[fundamental group]], [[fundamental ∞-groupoid]]
+* [[fundamental group]], 
+
+* [[fundamental 2-groupoid]], [[fundamental ∞-groupoid]]
 
 * [[fundamental theorem of covering spaces]]
 
