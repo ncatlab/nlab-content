@@ -126,7 +126,7 @@ $$\frac{\Gamma \vdash z:C(0) \times C(1)}{\Gamma \vdash \eta_\Pi(z):z =_{C(0) \t
 
 Suppose $A$ and $B$ are types and $A \times B$ is the negative product type of $A$ and $B$. Then for all elements $c:A \times B$ and $c':A \times B$, there is a function 
 $$\mathrm{ap}_{(\pi_1, \pi_2)}(c, c'):(c =_{A \times B} c') \to \left((\pi_1(c) =_A \pi_1(c')) \times (\pi_2(c) =_B \pi_2(c'))\right)$$ 
-There are functions $\mathrm{ap}_{\pi_1}(c, c'):(c =_{A \times B} c') \to (\pi_1(c) =_A \pi_1(c'))$ and $\mathrm{ap}_{\pi_2}(c, c'):(c =_{A \times B} c') \to (\pi_2(c) =_B \pi_2(c'))$ which are the [[action on identities]] for the product projections $\pi_1$ and $\pi_2$, which means for all identities $p:c =_{A \times B} c'$, there are identities 
+There are functions $\mathrm{ap}_{\pi_1}(c, c'):(c =_{A \times B} c') \to (\pi_1(c) =_A \pi_1(c'))$ and $\mathrm{ap}_{\pi_2}(c, c'):(c =_{A \times B} c') \to (\pi_2(c) =_B \pi_2(c'))$ which are the [[function application to identities]] for the product projections $\pi_1$ and $\pi_2$, which means for all identities $p:c =_{A \times B} c'$, there are identities 
 $$\mathrm{ap}_{\pi_1}(c, c')(p):\pi_1(c) =_A \pi_1(c')$$ 
 $$\mathrm{ap}_{\pi_2}(c, c')(p):\pi_2(c) =_A \pi_2(c')$$ 
 Then, by the introduction rule for products, one could form the pair 
@@ -135,7 +135,7 @@ with identites
 $$\delta(c, c', p):\mathrm{ap}_{(\pi_1, \pi_2)}(c, c')(p) =_{(\pi_1(c) =_A \pi_1(c')) \times (\pi_2(c) =_B \pi_2(c'))} (\mathrm{ap}_{\pi_1}(c, c')(p), \mathrm{ap}_{\pi_2}(c, c')(p))$$ 
 for all $p:c =_{A \times B} c'$. 
 
-Similarly, for all elements $a:A$, $a':A$, $b:B$, $b':B$, the [[binary action on identities]] for $(-, -)$ defined in the [[introduction rule]] for product types is given by
+Similarly, for all elements $a:A$, $a':A$, $b:B$, $b':B$, the [[binary function application to identities]] for $(-, -)$ defined in the [[introduction rule]] for product types is given by
 $$\mathrm{apbinary}_{(-,-)}(a, a', b, b'):\left(a =_A a') \times (b =_B b')\right) \to ((a, b) =_{A \times B} (a', b')$$
 inductively defined by the identities 
 $$\beta_{\mathrm{apbinary}_{(-,-)}}(a, b):\mathrm{apbinary}_{(-,-)}(a, a, b, b)(\mathrm{refl}_{A}(a), \mathrm{refl}_{B}(b)) =_{(a, b) =_{A \times B} (a, b)} \mathrm{refl}_{A \times B}((a, b)))$$
