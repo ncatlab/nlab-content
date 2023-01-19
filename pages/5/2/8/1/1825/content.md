@@ -105,6 +105,9 @@ The $n$-sphere is an [[dimension of a cell complex|$n$-dimensional]] [[CW comple
  {#LabelCosetSpaceStructure}
 
 
+#### As quotients of compact Lie groups
+ {#AsQuotientsOfCompactLieGroups}
+
 
 +-- {: .num_prop #nSphereAsCosetSpace}
 ###### Proposition
@@ -182,7 +185,7 @@ Generally:
 +-- {: .num_prop #TransitiveEffectiveActionsOfConnectedLieGroupsOnSpheres}
 ###### Proposition
 
-The [[connected topological space|connected]] [[Lie groups]] with [[effective action|effective]] [[transitive actions]]  on [[n-spheres]] are precisely (up to [[isomorphism]]) the following:
+The [[connected topological space|connected]] [[compact Lie groups]] with [[effective action|effective]] [[transitive actions]]  on [[n-spheres]] are precisely (up to [[isomorphism]]) the following:
 
 * [[SO(n)]]
 
@@ -229,10 +232,7 @@ $$
 
 =--
 
-This goes back to [Montogomery-Samelson 43](#MontogomerySamelson43), see  
-[Gray-Green 70, p. 1-2](#GrayGreen70)
-
-(also e.g [Borel-Serre 53, 17.1](#BorelSerre53))
+This goes back to [Montgomery & Samelson (1943)](#MontgomerySamelson43), see [Gray & Green (1070), p. 1-2](#GrayGreen70), also [Borel & Serre (1953), 17.1](#BorelSerre53).
 
 
 +-- {: .num_remark}
@@ -247,6 +247,13 @@ For more see _[7-sphere -- Coset space realization](7-sphere#CosetSpaceRealizati
 =--
 
 [[!include coset space structure on n-spheres -- table]]
+
+
+#### As quotients of Lorentz groups
+ {#AsQuotientsOfLorentzGroups}
+
+If one drops the assumption of [[compact Lie group|compactness]], then there are further coset space realizations of $n$-spheres, notably as [[quotient group|quotients]] of [[Lorentz groups]] by [[parabolic subgroups]]: *[[celestial spheres]]*, e.g.: [Toller (2003, p. 18)](#Toller03), [Varlamov (2006, p. 6)](#Varlamov06), [Math.SE:a/4092474](https://math.stackexchange.com/a/4092474/58526).
+
 
 
 ### Spin structure
@@ -393,6 +400,7 @@ $$
 
 * The [[non-abelian cohomology|non-abelian]] [[generalized cohomology theory]] [[representable functor|represented]] by [[n-spheres]] is [[Cohomotopy cohomology theory]].
 
+
 ## References
 
 * {#FP1990} [[Rudolf Fritsch]], [[Renzo A. Piccinini]], _Cellular structures in topology_, Cambridge studies in advanced mathematics Vol. 19, Cambridge University Press (1990). ([doi:10.1017/CBO9780511983948](https://doi.org/10.1017/CBO9780511983948)) 
@@ -429,7 +437,7 @@ and lifted to actions of [[Spin group|Spin(8)]] in
 
 Discussion of [[transitive actions]] on $n$-spheres by [[compact Lie groups]]:
 
-* {#MontogomerySamelson43} Deane Montgomery, Hans Samelson, _Transformation Groups of Spheres_, Annals of Mathematics Second Series, Vol. 44, No. 3 (Jul., 1943), pp. 454-470 ([jstor:1968975](https://www.jstor.org/stable/1968975))
+* {#MontgomerySamelson43} [[Deane Montgomery]], [[Hans Samelson]], _Transformation Groups of Spheres_, Annals of Mathematics Second Series **44** 3 (1943) 454-470 &lbrack;[jstor:1968975](https://www.jstor.org/stable/1968975)&rbrack;
 
 * {#GrayGreen70} [[Alfred Gray]], Paul S. Green, _Sphere transitive structures and the triality automorphism_, Pacific J. Math. Volume 34, Number 1 (1970), 83-96 ([euclid:1102976640](https://projecteuclid.org/euclid.pjm/1102976640))
 
@@ -441,8 +449,16 @@ Further discussion of these actions is in
 
 where they are related to the [[black brane|black]] [[M2-brane]] [[BPS state|BPS]]-solutions of [[11-dimensional supergravity]] at [[ADE-singularities]].
 
-
 See also the [[ADE classification]] of such actions on the [[7-sphere]] (as discussed there)
+
+Discussion of actions of [[Lorentz groups]] on [[celestial spheres]]:
+
+* {#Toller03} [[Marco Toller]], *Homogeneous Spaces of the Lorentz Group* &lbrack;[arXiv:math-ph/0301014](https://arxiv.org/abs/math-ph/0301014)&rbrack;
+
+
+* {#Varlamov06} V. V. Varlamov, *Relativistic Spherical Functions on the Lorentz Group*, J. Phys. A: Math. Gen. **39** (2006) 805-822 &lbrack;[doi:10.1088/0305-4470/39/4/006](https://doi.org/10.1088/0305-4470/39/4/006)&rbrack;
+
+
 
 
 ### Geometric structures on spheres
