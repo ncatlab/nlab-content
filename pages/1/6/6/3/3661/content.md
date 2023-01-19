@@ -134,17 +134,25 @@ An analogue of Conduch&#233; functors for [[∞-categories]], classified by maps
  
 
 [[!redirects Conduché fibration]]
+[[!redirects Conduchè fibration]]
 [[!redirects Conduche fibration]]
-[[!redirects Conduche functor]]
-[[!redirects Conduche functors]]
+
 [[!redirects Conduché functor]]
+[[!redirects Conduchè functor]]
+[[!redirects Conduche functor]]
+
 [[!redirects Conduché functors]]
+[[!redirects Conduchè functors]]
+[[!redirects Conduche functors]]
+
 [[!redirects exponentiable functor]]
 [[!redirects exponentiable functors]]
+
 [[!redirects strict Conduche functors]]
 [[!redirects strict Conduche functors]]
 [[!redirects strict Conduché functor]]
 [[!redirects strict Conduché functors]]
+
 [[!redirects strictly exponentiable functor]]
 [[!redirects strictly exponentiable functors]]
 [[!redirects powerful functor]]
