@@ -112,7 +112,13 @@ Every [[identity]] $q:a =_A b$ between two terms $a:A$ and $b:A$ of a type $A$ h
 * $\beta_f^1:f(1) =_A b$
 * $\beta_f^p:\mathrm{ap}_f(p) =_{f(0) =_A f(1)} \mathrm{concat}_{f(0), b, f(1)}(\mathrm{concat}_{f(0), a, b}(\beta_f^0, q), \mathrm{inv}_{f(1), b}(\beta_f^1))$
 
-where $\mathrm{ap}_f:(0 =_\mathbb{I} 1) \to (f(0) =_A f(1))$ is the [[function application to identities]], $\mathrm{concat}_{a, b, c}:(a =_A b) \times (b =_A c) \to (a =_A c)$ is concatenation of identities (i.e. [[transitivity]]), and $\mathrm{inv}_{a, b}:(a =_A b) \to (b =_A a)$ is the inverse of identities (i.e. [[symmetry]]).
+where 
+$$\mathrm{ap}_f:(0 =_\mathbb{I} 1) \to (f(0) =_A f(1))$$ 
+is the [[function application to identities]], 
+$$\mathrm{concat}_{a, b, c}:(a =_A b) \times (b =_A c) \to (a =_A c)$$ 
+is concatenation of identities (i.e. [[transitivity]]), and 
+$$\mathrm{inv}_{a, b}:(a =_A b) \to (b =_A a)$$ 
+is the inverse of identities (i.e. [[symmetry]]).
 
 Conversely, given a function $f:\mathbb{I} \to A$ and terms $a:A$ and $b:A$ with identities $\delta_a:f(0) =_A a$ and $\delta_b:f(1) =_A b$, there is an identity 
 
