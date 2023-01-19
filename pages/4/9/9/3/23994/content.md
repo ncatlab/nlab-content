@@ -87,16 +87,20 @@ $$n:\mathbb{N}, a:\prod_{i:\mathrm{Fin}(n)} A(i), b:\prod_{i:\mathrm{Fin}(n)} A(
 * {#Rijke22} [[Egbert Rijke]], §5.3 in: *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
 
 
-
-
-[[!redirects action on identifications]]
-[[!redirects action on paths]]
-[[!redirects action on equalities]]
+[[!redirects function application to identities]]
+[[!redirects function application to identifications]]
+[[!redirects function application to paths]]
+[[!redirects function application to equalities]]
 
 [[!redirects application of a function to identities]]
 [[!redirects application of a function to identifications]]
 [[!redirects application of a function to paths]]
 [[!redirects application of a function to equalities]]
+
+[[!redirects action on identities]]
+[[!redirects action on identifications]]
+[[!redirects action on paths]]
+[[!redirects action on equalities]]
 
 [[!redirects binary action on identities]]
 [[!redirects binary action on identifications]]
