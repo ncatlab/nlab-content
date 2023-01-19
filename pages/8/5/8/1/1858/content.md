@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -38,6 +38,7 @@ Definitions of path 2-groupoids as strict [[2-groupoids]] internal to [[diffeolo
 
 * [[João Faria Martins]], [[Roger Picken]], _On 2-dimensional holonomy_ ([arXiv](http://arxiv.org/abs/0710.4310))
 
+For the underlying notion of [[fundamental 2-groupoid]] see there.
 
 ## Path 3-groupoid 
 
@@ -53,3 +54,4 @@ A realization of the path [[3-groupoid]] as a [[Gray-groupoid]] internal to [[di
 
 [[!redirects path 3-groupoid]]
 [[!redirects path 3-groupoids]]
+
