@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -85,7 +84,7 @@ The study of strict fundamental $\infty$-groupoids have been pursued by [[Ronnie
 
 
 
-There is a strict homotopy 2-groupoid for a Hausdorff space defined by  Hardie, K. A.; Kamps, K. H.; Kieboom, R. W. (MR1785844), and a weak homotopy 2-groupoid for a general space (by the same authors). They later introduced  a homotopy double groupoid. There is no $n$-dimensional version of these ideas on offer. 
+There is a [[strict 2-groupoid|strict]] homotopy 2-groupoid for a [[Hausdorff space]] defined spring , and a weak homotopy 2-groupoid for a general space (by the same authors). They later introduced  a homotopy double groupoid. There is no $n$-dimensional version of these ideas on offer. 
 
 A strict cubical omega-groupoid $\rho X_*$ for a [[filtered space]] $X_*$ was defined by Brown and Higgins in 1981. Form the filtered cubical complex $R X_*$ which in dimension $n$ consists of  filtered maps $I^n_* \to X_*$ and take filter homotopy classes of these _relative to the vertices_. The proof that the compositions in $RX_*$ are inherited by $\rho X_*$ is one of the key points of the development. 
 
@@ -144,19 +143,26 @@ This perspective suggests that when $X$ is not locally contractible, a better re
 
 ## References
 
-* [[K.A. Hardie]], [[K. H. Kamps]], [[R. Kieboom]], A homotopy 2-groupoid of a Hausdorff space. Papers in honour of Bernhard Banaschewski (Cape Town, 1996). Appl. Categ. Structures 8 (2000), no. 1-2, 209--234. 
+The [[fundamental 2-groupoid]]:
 
-* [[K.A. Hardie]], [[K. H. Kamps]], [[R. Kieboom]], A Homotopy Bigroupoid of a Topological Space. Applied Categorical Structures 9 (2001) 311--327.
+as a [[strict 2-groupoid]]:
 
-* [[J.-L. Loday]], Spaces with finitely many homotopy groups,
-J.Pure Appl.  Alg., 24 (1982) 179--202.
+* [[Keith A. Hardie]], [[Klaus H. Kamps]], [[Rudger Kieboom]], *A homotopy 2-groupoid of a Hausdorff space*. Papers in honour of Bernhard Banaschewski (Cape Town, 1996). Appl. Categ. Structures **8** (2000) 209-234 &lbrack;[doi:10.1023/A:1008758412196](https://doi.org/10.1023/A:1008758412196)&rbrack;
+
+as a [[weak 2-groupoid]]:
+
+* [[Keith A. Hardie]], [[Klaus H. Kamps]], [[Rudger Kieboom]], *A Homotopy Bigroupoid of a Topological Space*, Applied Categorical Structures **9** (2001) 311-327 &lbrack;[doi:10.1023/A:1011270417127](https://doi.org/10.1023/A:1011270417127)&rbrack;
+
+See also:
+
+* [[J.-L. Loday]], *Spaces with finitely many homotopy groups*, J. Pure Appl.  Alg., 24 (1982) 179--202.
 
 * J. M. Casas, G. Ellis, M. Ladra, T. Pirashvili, _Derived functors and the homology of $n$-types_, J. Algebra __256__, 583--598 (2002).
 
 The direct proof of the [[homotopy hypothesis]] for the algebraic version of the fundamental $\infty$-groupoid is in
 
-* [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv](http://arxiv.org/abs/1003.1342))
-{#Nikolaus}
+* {#Nikolaus} [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv](http://arxiv.org/abs/1003.1342))
+
 
 Strict versions of fundamental $\infty$-groupoids are discussed in
 
