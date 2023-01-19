@@ -35,7 +35,28 @@ But the power of the notion of identity types goes beyond this classical situati
 
 \linebreak
 
-### ML Identity types
+### Note on terminology
+
+There are many different names used for this particular dependent type, as well as many different names used for the terms of this dependent type. These include the following:
+
+| name of type | name of terms |
+|--------------|---------------|
+| identity type | identities |
+| path type | paths |
+| identification type | identifications |
+| equality type | equalities |
+
+These four names have different reasons behind the use of the name: 
+
+* The name "identity type" comes from the fact that the identity type is the canonical [[one-to-one correspondence]] $a:A, b:A \vdash \mathrm{Id}_A(a, b)$ of the identity [[equivalence in type theory|equivalence]] $\mathrm{id}_A:A \simeq A$ on a type $A$, as well as philosophically that it represents the notion of "identity" of an object; see [[identity of indiscernibles]].
+
+* The name "path type" comes from either the fact that the identity type is a [[path space object]] in the [[categorical semantics]], or that every term in the identity type is represented by a function from the [[interval type]], just as paths in topology are represented by a function from the [[unit interval]]. 
+
+* The name "identification type" comes from the fact that elements represents identification certificates in computing, as well as philosophically that it represents the notion of "identifying" two objects together. 
+
+* The name "equality type" comes from the fact that it is the typal equivalent of [[propositional equality]] from [[first order logic with equality]]. 
+
+### ML identity types
  {#IdeaMLIdentityTypes}
 
 The [[inference rules]] for identity types in [[Martin-Löf dependent type theory|Martin-Löf-]]/[[homotopy type theory]] (ML identity types) may be understood as follows:
@@ -743,6 +764,8 @@ See also
 
 
 
+[[!redirects identification type]]
+[[!redirects identification types]]
 [[!redirects identity type]]
 [[!redirects identity types]]
 [[!redirects equality type]]
@@ -753,6 +776,11 @@ See also
 [[!redirects path space types]]
 [[!redirects stable path object]]
 [[!redirects stable path objects]]
+
+[[!redirects weak identification type]]
+[[!redirects weak identification types]]
+[[!redirects strict identification type]]
+[[!redirects strict identification types]]
 
 [[!redirects weak identity type]]
 [[!redirects weak identity types]]
@@ -773,6 +801,11 @@ See also
 [[!redirects weak path space types]]
 [[!redirects strict path space type]]
 [[!redirects strict path space types]]
+
+[[!redirects intensional identification type]]
+[[!redirects intensional identification types]]
+[[!redirects extensional identification type]]
+[[!redirects extensional identification types]]
 
 [[!redirects intensional identity type]]
 [[!redirects intensional identity types]]
