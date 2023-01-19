@@ -42,7 +42,17 @@ Strict 2-groupoids still model all [[homotopy 2-types]]. See also at _[homotopy 
 
 ## Examples
 
-Amongst the simplest examples will be the [[strict 2-group]]s, as these are __strict 2-groupoids__ with a single object. About the simplest example of such an object then comes from a group homomorphism:
+### Fundamental 2-groupoid
+
+The [[fundamental 2-groupoid]] of a [[topological space]] with [[thin homotopy|thin]] [[homotopy classes]] of paths ([Hardie, Kapms & Kieboom (2000)](#HardieKapmsKieboom00)).
+
+Similarly the strict [[path 2-groupoid]] of a [[manifold]].
+
+### Delooping of strict 2-groups
+
+The [[deloopings]] of [[strict 2-groups]] are the strict 2-groupoids with a single object. 
+
+About the simplest example of such an object then comes from a [[group homomorphism]]
 
 $$\phi: H\to G$$
 as follows.
@@ -59,7 +69,12 @@ and inverses are given by swapping the two entries, $(h_0,h_1)^{-1} = (h_1,h_0)$
 
 ## References
 
-See the references at *[[strict 2-category]]*.
+See also the references at *[[strict 2-category]]*.
+
+The [[fundamental 2-groupoid]] of a topological space with [[thin homotopy|thin]] [[homotopy classes]] of paths:
+
+* {#HardieKapmsKieboom00} [[Keith A. Hardie]], [[Klaus H. Kamps]], [[Rudger Kieboom]], *A homotopy 2-groupoid of a Hausdorff space*. Papers in honour of Bernhard Banaschewski (Cape Town, 1996). Appl. Categ. Structures **8** (2000) 209-234 &lbrack;[doi:10.1023/A:1008758412196](https://doi.org/10.1023/A:1008758412196)&rbrack;
+
 
 
 [[!redirects strict 2-groupoid]]
