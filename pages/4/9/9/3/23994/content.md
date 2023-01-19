@@ -45,27 +45,27 @@ $$
 
 and called the **application** or **action** of $f$ to/on [[identities]]/[[identifications]]/[[equalities]]/[[paths]] &lbrack;e.g. [UFP (2013, p. 69)](#UFP13), [Rijke (2022, §5.3)](#Rijke22)&rbrack;.
 
-### As the non-dependent version of the dependent action on identities
+### As the non-dependent version of the dependent function application to identities
 
-The action on identities is a special case of the [[dependent action on identities]] for which the type family $x:A \vdash B$ is a constant type family, and thus the [[dependent identity type]] $f(a) =_B^p f(b)$ doesn't depend on the path $p:a =_A b$ and is thus a normal identity type $f(a) =_B f(b)$. 
+The function application to identities is a special case of the [[dependent function application to identities]] for which the type family $x:A \vdash B$ is a constant type family, and thus the [[dependent identity type]] $f(a) =_B^p f(b)$ doesn't depend on the path $p:a =_A b$ and is thus a normal identity type $f(a) =_B f(b)$. 
 
 ### Inductive definition
 
-If the action on identities is inductively defined, then it comes with rules saying that the following judgment can be formed 
+If the function application to identities is inductively defined, then it comes with rules saying that the following judgment can be formed 
 $$a:A \vdash \mathrm{ap}_{f}(a, a)(\mathrm{refl}_{A}(a)) \equiv \mathrm{refl}_{B}(f(a)):\Omega(B, f(a))$$
 where $\Omega(A, a)$ is the [[loop space type]] $a =_A a$ of $A$ at $a:A$. 
 
-### Binary actions on identities
+### Binary function applications to identities
 
 Given types $A$, $B$, and $C$ and a [[binary function]] $x:A, y:B \vdash f(x, y):C$, there is a dependent function 
 $$a:A, a':A, b:B, b':B, p:a =_A a', q:b =_B b' \vdash \mathrm{apbinary}_f(a, a', b, b')(p, q):f(a, b) =_C f(a', b')$$ 
-called the **binary action on identities** ([Rijke (2022), §19.5](#Rijke22)), inductively defined by 
+called the **binary function application to identities** or **binary action on identities** ([Rijke (2022), §19.5](#Rijke22)), inductively defined by 
 $$a:A, b:B \vdash \mathrm{apbinary}_{f}(a, a, b, b)(\mathrm{refl}_{A}(a), \mathrm{refl}_{B}(b)) \equiv \mathrm{refl}_{C}(f(a, b)):\Omega(C, f(a, b))$$
 where $\Omega(A, a)$ is the [[loop space type]] $a =_A a$ of $A$ at $a:A$. 
 
-Binary actions on identities are used in proving [[product extensionality]] for [[product types]]. 
+Binary function applications to identities are used in proving [[product extensionality]] for [[product types]]. 
 
-### Finitary actions on identities
+### Finitary function application to identities
 
 Let $n$ be a natural number, let $A$ be a family of types indexed by the [[finite type]] with $n$ elements $\mathrm{Fin}(n)$, and let $B$ be a type. Then given a function 
 $$n:\mathbb{N}, x:\left(\prod_{i:\mathrm{Fin}(n)} A(i)\right) \vdash f(x):B$$ 
@@ -74,7 +74,7 @@ $$n:\mathbb{N}, a:\prod_{i:\mathrm{Fin}(n)} A(i), b:\prod_{i:\mathrm{Fin}(n)} A(
 
 ## See also ##
 
-* [[dependent action on identities]]
+* [[dependent function application to identities]]
 
 * [[identification]]
 
@@ -101,6 +101,16 @@ $$n:\mathbb{N}, a:\prod_{i:\mathrm{Fin}(n)} A(i), b:\prod_{i:\mathrm{Fin}(n)} A(
 [[!redirects action on identifications]]
 [[!redirects action on paths]]
 [[!redirects action on equalities]]
+
+[[!redirects binary function application to identities]]
+[[!redirects binary function application to identifications]]
+[[!redirects binary function application to paths]]
+[[!redirects binary function application to equalities]]
+
+[[!redirects application of a binary function to identities]]
+[[!redirects application of a binary function to identifications]]
+[[!redirects application of a binary function to paths]]
+[[!redirects application of a binary function to equalities]]
 
 [[!redirects binary action on identities]]
 [[!redirects binary action on identifications]]
