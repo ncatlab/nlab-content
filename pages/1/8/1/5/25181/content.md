@@ -79,7 +79,7 @@ Unary products with judgmental or propositional [[conversion rules]] turn $\math
 
 ## Extensionality principle for copies
 
-The extensionality princple for copies says that for each element $x:A$ and $y:A$ the [[action on identities]] for the copy function $\mathrm{copy}$ is an [[equivalence of types]]
+The extensionality princple for copies says that for each element $x:A$ and $y:A$ the [[function application to identities]] for the copy function $\mathrm{copy}$ is an [[equivalence of types]]
 
 $$x:A, y:A \vdash \mathrm{copyext}(x, y):\mathrm{isEquiv}(\mathrm{ap}_{\mathrm{copy}}(x, y))$$
 
