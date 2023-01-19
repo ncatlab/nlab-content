@@ -59,15 +59,15 @@ $$
 
 =--
 
-## Definitional UIP
+## Judgmental UIP
 
-There is also a definitional version of UIP, where any two terms of the same [[identity type]] or [[path type]] are [[definitional equality|definitionally equal]]. It is given by the following rule: 
+There is also a judgmental version of UIP, where any two terms of the same [[identity type]] or [[path type]] are [[judgmental equality|judgmentally equal]]. It is given by the following rule: 
 
 $$
 \frac{\Gamma\vdash A\; type \quad \Gamma\vdash x : A \quad \Gamma \vdash y:A \quad \Gamma \vdash p : Id_A(x,y) \quad \Gamma \vdash q:Id_A(x,y)}{\Gamma\vdash p \equiv q: Id_A(x,y)}
 $$
 
-Definitional UIP is implied by [[boundary separation]] in [[cubical type theory]]. 
+Judgmental UIP is implied by [[boundary separation]] in [[cubical type theory]]. 
 
 ## Related concepts
 
