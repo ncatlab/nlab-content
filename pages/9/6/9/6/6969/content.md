@@ -33,11 +33,11 @@ In particular, [[homotopy type theory]] is intensional: the [[categorical semant
 \linebreak
 Beware that some authors take the words "intensional type theory" to refer to [[type theories]] which *fail to satisfy [[function extensionality]]*.  This is in general a requirement orthogonal to the (-1)-truncation of identity types.
 
-Generally, the origin of the names "extensional" and "intensional" is somewhat confusing. Even where the term refers to the behaviour of [[equality]], it in fact refers not to the [[propositional equality]] expressed by [[identity types]], but to *[[definitional equality]]*:  
+Generally, the origin of the names "extensional" and "intensional" is somewhat confusing. Even where the term refers to the behaviour of [[equality]], it in fact refers not to the [[typal equality]] expressed by [[identity types]], but to *[[judgmental equality]]*:  
 
-The idea is that the [[identity type]] is *always* an "[[extension (semantics)|extensional]]" notion of [[equality]] (although it can be more or less extensional, depending on whether further extensionality principles like [[function extensionality]] and [[univalence]] hold). Thus, if the definitional equality *coincides* with the identity type, then the former is also extensional, whence the type theory is called "extensional" --- while if the two equalities do *not* coincide, then the definitional equality has room to be more intensional than the identity type, making the type theory "intensional" (but see also [Hofmann (1995, ftn. 3)](#Hofmann95), [p. 17](https://ncatlab.org/nlab/files/HofmannExtensionalIntensionalTypeTheory.pdf#page=17)).
+The idea is that the [[identity type]] is *always* an "[[extension (semantics)|extensional]]" notion of [[equality]] (although it can be more or less extensional, depending on whether further extensionality principles like [[function extensionality]] and [[univalence]] hold). Thus, if the judgmental equality *coincides* with the identity type, then the former is also extensional, whence the type theory is called "extensional" --- while if the two equalities do *not* coincide, then the judgmental equality has room to be more intensional than the identity type, making the type theory "intensional" (but see also [Hofmann (1995, ftn. 3)](#Hofmann95), [p. 17](https://ncatlab.org/nlab/files/HofmannExtensionalIntensionalTypeTheory.pdf#page=17)).
 
-(On this historical reading, "[[extensional type theory]]" should refer only to *definitionally* extensional type theory with the reflection rule, which is much stronger than merely requiring all types to be [[h-sets]].)
+(On this historical reading, "[[extensional type theory]]" should refer only to *judgmentally* extensional type theory with the reflection rule, which is much stronger than merely requiring all types to be [[h-sets]].)
 \end{remark}
 
 ## Properties
