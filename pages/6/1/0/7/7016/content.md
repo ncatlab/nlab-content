@@ -48,7 +48,7 @@ There are two natural ways to extend the set-theoretic definition of function ex
 
 The “external” formulation of function extensionality corresponds to the statement that the [[terminal object]] is an [[extremal generator]] in [[category]], and is one of the conditions for making a [[pretopos]] a [[well-pointed pretopos]]. This definition is satisfied in any [[concrete category]] $\mathcal{C}$.
 
-The “internal” formulation can be interpreted in a category with a rich enough [[internal language]]. For instance, function extensionality can be stated in the [[Mitchell-Benabou language]] and is true in any [[topos]]. So every topos *internally* satisfies function extensionality despite the fact that toposes do not generally satisfy the external notion of being well-pointed. This is because the quantifier $\forall x:X$ in the internal language is interpreted as a quantification over all [[generalized elements]] $I \to X$ rather than merely the global elements $1 \to X$. Then the statement when quantifying over generalized elements is true as a consequence of the definition of an [[exponential]].
+The “internal” formulation can be interpreted in a category with a rich enough [[internal language]]. For instance, function extensionality can be stated in the [[Mitchell-Benabou language]] and is true in any [[topos]]. So every topos *internally* satisfies function extensionality despite the fact that toposes do not generally satisfy the external notion of being well-pointed. This is because the quantifier $\forall x:X$ in the internal language is interpreted as a quantification over all [[generalized elements]] $I \to X$ rather than merely the global elements $1 \to X$. Then the statement when quantifying over generalized elements is true as a consequence of the definition of an [[exponential object]].
 
 ### In type theory
  {#InTypeTheory}
@@ -118,7 +118,7 @@ For [[types]] $A, B \,\colon\, Type $ and [[parallel morphisms|parallel]] [[func
   \end{array}
 \]
 
-{#TheseTwoDefinitions} (These two definitions of $\mathrm{happly}$ become the same under [[singleton contractibility]]. The second definition behaves better with the [[action on identifications]].)
+{#TheseTwoDefinitions} (These two definitions of $\mathrm{happly}$ become the same under [[singleton contractibility]]. The second definition behaves better with the [[function application to identifications]].)
 
 In general, both functions $\mathrm{happly}(f, g)$ are not [[equivalences of types]] in [[intensional type theory]]: two functions could be defined in different ways, and thus be intensionally different, yet produce the same values on all inputs (i.e. be extensionally the same).
 
@@ -188,7 +188,7 @@ In [[homotopy type theory]], the [[univalence axiom]] implies type-theoretic fun
 
 Postulating an [[interval type]] with [[judgmental equality|judgmental]] [[computation rules]] for the point constructors of the interval type implies function extensionality. 
 
-The proof assumes a typal [[uniqueness rule]] for [[function types]]. Let $\mathrm{ap}_f \colon Id_{\mathbb{I}}(0, 1) \to Id_A(f(0),f(1))$ be the [[action on identities]], $\mathrm{concat}_{a, b, c}: Id_A(a , b) \times Id_A(b , c) \to Id_A(a , c)$ be concatenation of identities (i.e. [[transitivity]]), and $\mathrm{inv}_{a, b}: Id_A(a , b) \to Id_A(b , a)$ be the inverse of identities (i.e. [[symmetry]]).
+The proof assumes a typal [[uniqueness rule]] for [[function types]]. Let $\mathrm{ap}_f \colon Id_{\mathbb{I}}(0, 1) \to Id_A(f(0),f(1))$ be the [[function application to identities]], $\mathrm{concat}_{a, b, c}: Id_A(a , b) \times Id_A(b , c) \to Id_A(a , c)$ be concatenation of identities (i.e. [[transitivity]]), and $\mathrm{inv}_{a, b}: Id_A(a , b) \to Id_A(b , a)$ be the inverse of identities (i.e. [[symmetry]]).
 
 First the proof constructs a function $k:A \to (\mathbb{I} \to B)$ from a dependent function $h:\prod_{x:A} Id_B\big(f(x) , g(x)\big)$, inductively defined by
 
