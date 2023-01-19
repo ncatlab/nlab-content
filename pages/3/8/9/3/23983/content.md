@@ -23,10 +23,10 @@ There are many different names used for this particular dependent type, as well 
 
 | name of type | name of terms |
 |--------------|---------------|
-| dependent/heterogeneous identity type | dependent/heterogeneous identities |
-| dependent/heterogeneous path type | dependent/heterogeneous paths |
-| dependent/heterogeneous identification type | dependent/heterogeneous identifications |
-| dependent/heterogeneous equality type | dependent/heterogeneous equalities |
+| heterogeneous identity type | heterogeneous identities |
+| heterogeneous path type | heterogeneous paths |
+| heterogeneous identification type | heterogeneous identifications |
+| heterogeneous equality type | heterogeneous equalities |
 
 These four names have different reasons behind the use of the name: 
 
