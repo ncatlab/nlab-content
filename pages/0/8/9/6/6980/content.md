@@ -153,7 +153,7 @@ General introduction to the notion of proof in modern rigorous mathematics:
 A brief exposition of the notion of proof and formal proof in [[constructive mathematics]]/[[type theory]] is in 
 
 * {#Harper} [[Robert Harper]], _Extensionality, Intensionality, and Brouwer's Dictum_, August 2012 ([web](http://existentialtype.wordpress.com/2012/08/11/extensionality-intensionality-and-brouwers-dictum/))
- 
+
 
 * [[Robert Harper]], _Constructive Mathematics is not Meta-Mathematics_, July 2013 ([web](http://existentialtype.wordpress.com/2013/07/10/constructive-mathematics-is-not-meta-mathematics/))
 
@@ -172,6 +172,11 @@ Discussion of formal proof in view of [[proof assistants]]:
 A discussion of the relation of mathematical proof to [[phenomenology]] of [[theories]] of [[physics]] is in 
  
 * {#Miquel} [[Alexandre Miquel]], _The experimental effectiveness of mathematical proof_ ([pdf](http://perso.ens-lyon.fr/alexandre.miquel/publis/effectiveness.pdf))
+
+Discussion of the statistics and *reception* of formal proof:
+
+* {#ViteriDeDeo22} Scott Viteri, Simon DeDeo, *Epistemic Phase Transitions in Mathematical Proofs*, Cognition **225** (2022) 105120 &lbrack;[arxiv:2004.00055](https://arxiv.org/abs/2004.00055), [doi:10.1016/j.cognition.2022.105120](https://doi.org/10.1016/j.cognition.2022.105120)&rbrack;
+
 
 Texts on genuine [[proof theory]] include
 
