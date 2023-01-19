@@ -12,7 +12,7 @@
 |  | $\partial_p \coloneqq \frac{(-)^p - (-)}{p}$ ([[Fermat quotient]]) | $\frac{\partial}{\partial z}$ ([[coordinate]] [[derivation]])  |  " |
 |   | [[genus of a number field|genus of the rational numbers]] = 0 |  |  [[genus of a surface|genus of the Riemann sphere]] = 0 |
 | **[[formal neighbourhoods]]**  |   |   |   |
-|   | $\mathbb{Z}/(p^n \mathbb{Z})$ ([[prime power local ring]]) |  $\mathbb{F}_q [t-x]/((t-x)^n \mathbb{F}_q [t-x])$ ($n$-th order univariate [[local Artinian ring|local Artinian $\mathbb{F}_q$-algebra]])  |  $\mathbb{C}[z-x]/((z-x)^n \mathbb{C}[z-x])$ ($n$-th order univariate [[Weil algebra|Weil $\mathbb{C}$-algebra]])  |
+|   | $\mathbb{Z}/(p^n \mathbb{Z})$ ([[prime power local ring]]) |  $\mathbb{F}_q [t]/((t-x)^n \mathbb{F}_q [t])$ ($n$-th order univariate [[local Artinian ring|local Artinian $\mathbb{F}_q$-algebra]])  |  $\mathbb{C}[z]/((z-x)^n \mathbb{C}[z])$ ($n$-th order univariate [[Weil algebra|Weil $\mathbb{C}$-algebra]])  |
 |   | $\mathbb{Z}_p$ ([[p-adic integers]]) |  $\mathbb{F}_q[ [ t -x ] ]$ ([[power series]] around $x$)  |  $\mathbb{C}[ [z-x] ]$ ([[holomorphic functions]] on [[formal disk]] around $x$)  |
 |   |  $Spf(\mathbb{Z}_p)\underset{Spec(\mathbb{Z})}{\times} X$ ("$p$-[[arithmetic jet space]]" of $X$ at $p$) |  |  [[formal disks]] in $X$  |
 |   | $\mathbb{Q}_p$ ([[p-adic numbers]]) | $\mathbb{F}_q((z-x))$ ([[Laurent series]] around $x$) |  $\mathbb{C}((z-x))$ ([[holomorphic functions]] on punctured [[formal disk]] around $x$) |
