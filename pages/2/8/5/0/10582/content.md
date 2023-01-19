@@ -93,6 +93,10 @@ $$
 
 the [[Riemann sphere]].
 
+### As a coset space of the Lorentz group
+
+The celestial sphere may be given as a [[coset space]] of the [[Lorentz group]]. For the moment see [here](sphere#AsQuotientsOfLorentzGroups) at *[[n-sphere]]*.
+
 
 ## Related concepts
 
