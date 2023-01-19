@@ -85,6 +85,14 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 \linebreak
 
 
+
+<img src="/nlab/files/MTheoryAndMathematics2023-GroupPhoto.jpg">
+
+> {#GroupPhoto2023} (from left to right: [[Sachin Valera|Valera]], [[Branislav Jurco|Jurčo]], [[David Berman|Berman]], [[Luigi Alfonsi|Alfonsi]], [[Fei Han|Han]], [[Urs Schreiber|Schreiber]], [[Varghese Mathai|Mathai]], [[Christian Saemann|Saemann]], [[Hisham Sati|Sati]], [[Alexander Voronov|Voronov]], [[Neil Lambert|Lambert]], [[Ibrahima Bah|Bah]], [[Dimitrios Tsimpis|Tsimpis]], [[Chris Hull|Hull]], [[Alessio Marrani|Marrani]], [[Yang-Hui He|He]], [[Vivek Kumar Singh|Singh]], [[Grigorios Giotopoulos|Giotopoulos]], [[Richard Szabo|Szabo]], )
+
+\linebreak
+
+
 {#Talks2023} **Titles, Abstracts, and Slides** (in chronological order):
 
 * {#Sen2023} [[Ashoke Sen]]:
