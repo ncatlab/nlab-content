@@ -121,6 +121,17 @@ The exact arrow is picked by the last piece of data from the vertical transforma
 
 Functoriality of $\int \phi$ is a direct consequence of the properties required to $\phi$, which are spelled out at [[vertical natural transformation]].
 
+## Properties of functors through properties of the reindexing
+
+Let $F:E \to B$ be a functor, call $dF : B^{op} \to Prof$ the associated lax normal functor.
+By requiring a different degree of laxity to $dF$ or which subcategory of $Prof$ it hits, we can express different properties of $F$:
+
+1. If $dF$ is a pseudofunctor, then $F$ is a [[Conduché fibration]], i.e. an exponential morphism in $Cat$
+2. If $dF$ factors through the inclusion $Cat \to Prof$, then $F$ is a [[prefibration]]
+3. If $dF$ is both Conduchè and a prefibration, then $F$ is a [[Grothendieck fibration]]
+4. Call *partial functor* a profunctor $\phi : X \to Psh(Y)$ that factors through $(y,0) : Y + 1 \to Psh(Y)$, which is the Yoneda embedding on $Y$ and picks the empty presheaf otherwise. When $dF$ factors through the subcategory of partial functors it is called a [[foliated category|foliation]].
+
+These and more examples are discussed in [Benabou](#Benabou).
 
 ## References
 
@@ -128,7 +139,7 @@ The correspondence between categories over $C$ and [[normal lax functors]] $C\to
 
 * [[Jean Benabou|Jean B&#233;nabou]], *2-dimensional limits and colimits of distributors (or how to glue together categories)*, Oberwolfach 'Tagungsbericht', 1972, [(web)](https://oda.mfo.de/handle/mfo/1575)
 
-A more detailed account of Benaobou's work on this topic can be found at:
+A more detailed account of Benabou's work on this topic can be found at:
 
 * Jean B&#233;nabou, *Distributors at work*, Notes by Thomas Streicher from lectures given at TU Darmstadt, 2000, [pdf](http://www.mathematik.tu-darmstadt.de/~streicher/FIBR/DiWo.pdf) {#Benabou}
 
