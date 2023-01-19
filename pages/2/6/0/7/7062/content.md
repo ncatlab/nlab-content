@@ -96,7 +96,7 @@ Uniqueness rules for the interval type:
 
 ## Properties
 
-* An interval type is provably [[contractible type|contractible]].  Conversely, any contractible type satisfies the rules of an interval type up to propositional equality.
+* An interval type is provably [[contractible type|contractible]].  Conversely, any contractible type satisfies the rules of an interval type up to [[typal equality]].
 
 * An interval type is a [[suspension type]] of the [[unit type]], and the suspension of an interval type is a 2-[[globe]] type. 
 
