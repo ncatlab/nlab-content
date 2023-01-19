@@ -60,7 +60,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \v
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:B(a), y:B(b), r:\mathrm{tr}_B(a, b, p, x) =_{B(b)} y \vdash \exists!q:x =_B^p y.\eta(x, y, q) =_{\mathrm{tr}_B(a, b, p, x) =_{B(b)} y} r}$$
 
-One then specifies how transport across reflexivity behaves by using the dependent action on reflexivity. 
+One then specifies how transport across reflexivity behaves by using the dependent function application to reflexivity. 
 
 ### Using equivalence types
 
@@ -95,7 +95,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathr
 
 depending on whether the the computation rules for [[identity types]] use [[judgmental equality]], [[propositional equality]], or the [[identity type]]. 
 
-Alternatively, one has the [[dependent action on identities]] for the [[computation rules]] for transport:
+Alternatively, one has the [[dependent function application to identities]] for the [[computation rules]] for transport:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{tr}_B(a, b, p)(w(a)) \equiv w(b):B(b)}$$ 
 
