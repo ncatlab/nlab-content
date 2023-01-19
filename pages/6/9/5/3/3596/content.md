@@ -804,3 +804,8 @@ See also
 [[!redirects path computation]]
 [[!redirects identification computation]]
 [[!redirects equality computation]]
+
+[[!redirects Id-induction]]
+[[!redirects id-induction]]
+
+
