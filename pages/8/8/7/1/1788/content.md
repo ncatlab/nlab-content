@@ -1,4 +1,6 @@
 
+[[FuncApOnIds-230119b.jpg:file]]
+
 $\lceil$ $\rceil$
 
 $$
