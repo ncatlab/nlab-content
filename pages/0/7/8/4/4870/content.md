@@ -47,7 +47,7 @@ Given types $A$, $B$, and $C$ and functions $f:A \to B$ and $g:A \to B$ there is
 
 $$\mathrm{leftwhiskering}_{A, B, C}(f, g):\left(\prod_{x:A} f(x) =_B g(x)\right) \to \left(\prod_{h:B \to C} \prod_{x:A} h(f(x)) =_C h(g(x))\right)$$
 
-called **left whiskering**, which is defined as the [[lambda abstraction]] of the composite of the [[action on identities]] of function $h:B \to C$ with [[homotopy]] $H:\prod_{x:A} f(x) =_B g(x)$ 
+called **left whiskering**, which is defined as the [[lambda abstraction]] of the composite of the [[function application to identities]] of function $h:B \to C$ with [[homotopy]] $H:\prod_{x:A} f(x) =_B g(x)$ 
 
 $$\mathrm{leftwhiskering}_{A, B, C}(f, g)(H, h) \coloneqq \lambda x.\mathrm{ap}_h(H(x))$$
 
