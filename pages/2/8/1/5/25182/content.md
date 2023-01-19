@@ -35,16 +35,23 @@ The parallels between the structural rules for judgmental equality and typal equ
 
 | judgmental equality | typal equality |
 |---------------------|----------------|
-| judgmental equality of terms | path |
-| reflexivity of judgmental equality of terms | identity path |
-| symmetry of judgmental equality of terms | inverse path |
-| transitivity of judgmental equality of terms | composition of paths |
+| judgmental equality of terms | identification |
+| reflexivity of judgmental equality of terms | identity identification |
+| symmetry of judgmental equality of terms | inverse identification |
+| transitivity of judgmental equality of terms | composition of identifications |
 | judgmental equality of types | equivalence |
 | reflexivity of judgmental equality of types | identity equivalence |
 | symmetry of judgmental equality of types | inverse equivalence |
 | transitivity of judgmental equality of types | composition of equivalences |
 | principle of substitution | transport |
 | variable conversion rule | substitution of evaluation of inverse equivalence |
+
+## Homogeneous and heterogeneous typal equality
+
+| | homogeneous identification | heterogeneous identification | homogeneous equivalence | heterogeneous equivalence |
+|-|----------|--------------------|-------------|-----------------------|
+| type | $a =_A b$ | $x =_B^p y$ | $A \simeq B$ | $A \simeq B$ |
+| identity term | $\mathrm{refl}_A(a):a =_A a$ | $\mathrm{apd}_B^p(f):f(a) =_B^p f(b)$ | $\mathrm{id}_A:A \simeq A$ | $\mathrm{tr}_B^p:B(a) \simeq B(b)$ |
 
 ## See also
 
