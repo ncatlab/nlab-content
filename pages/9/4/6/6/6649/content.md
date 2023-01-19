@@ -29,7 +29,7 @@ A class $\mathcal{X}$ of [[limits]] is *saturated* if it is closed under the "co
 
 Let $V$ be a [[Bénabou cosmos]], and let $\mathcal{X}$ be a [[class]] of $V$-functors $\Phi\colon D\to V$ where $D$ is a [[small category|small]] $V$-category.  Note that the domain $D$ may be different for different elements of $\mathcal{X}$.
 
-Any such $\Phi\colon D\to V$ can serve as a *weight* for defining the [[weighted limit]] of a $V$-functor $D\to C$, for any $V$-category $C$.  We say that a $V$-category is **$\mathcal{X}$-complete** if it admits all such limits, for all $\Phi\in\mathcal{X}$, and thath a $V$-functor between $\mathcal{X}$-complete $V$-categories is **$\mathcal{X}$-continuous** if it preserves all such limits.
+Any such $\Phi\colon D\to V$ can serve as a *weight* for defining the [[weighted limit]] of a $V$-functor $D\to C$, for any $V$-category $C$.  We say that a $V$-category is **$\mathcal{X}$-complete** if it admits all such limits, for all $\Phi\in\mathcal{X}$, and that a $V$-functor between $\mathcal{X}$-complete $V$-categories is **$\mathcal{X}$-continuous** if it preserves all such limits.
 
 The **saturation** of $\mathcal{X}$ is the class of all weights $\Phi\colon D\to V$ (with $D$ small) such that
 
