@@ -24,9 +24,9 @@ In [[dependent type theory]], given [[types]] $A$ and $B$ and a [[function type|
 
 $$
   a \colon A
-  \,\;
+  ,\,\;
   b\colon A 
-  \,\;
+  ,\,\;
   p 
     \,\colon\, 
   a =_A b 
