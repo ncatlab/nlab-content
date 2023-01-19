@@ -99,9 +99,10 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **D-instanton amplitudes in string theory**
   
+  cf. [arXiv:2204.02981](https://arxiv.org/abs/2204.02981), [arXiv:2207.07138](https://arxiv.org/abs/2207.07138)
+
   >  [[D-brane instanton|D-instantons]] give [[non-perturbative contribution]] to [[string amplitudes]]. While the [[world-sheet]] theory of [[open string|open]] and [[closed strings]] gives a systematic procedure for computing these amplitudes, the analysis runs into [[infrared divergences]] that do not have any known cure within the [[world-sheet]] formalism. We describe how [[string field theory]] cures these divergences and gives an unambiguous procedure for computing [[D-brane instanton|D-instanton]] correction to [[string amplitudes]].
 
-  cf. [arXiv:2204.02981](https://arxiv.org/abs/2204.02981), [arXiv:2207.07138](https://arxiv.org/abs/2207.07138)
 
 \linebreak
 
@@ -109,9 +110,10 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **A non-Lorentzian View of the M5-brane**
 
+  cf.: [arXiv:2011.06968](https://arxiv.org/abs/2011.06968), [arXiv:2212.07717](https://arxiv.org/abs/2212.07717)
+
   > In this talk we will discuss a [[path-integral]] formulation of the [[M5-brane]] [[D=6 N=(2,0) SCFT|(2,0) theory]] based upon a [[Lagrangian density|Lagrangian]] without [[Lorentz group|Lorentz]] [[gauge invariance|invariance]] but a novel $SU(1,3)$ spacetime symmetry. This provides a [[UV completion|UV complete]] five-dimensional [[quantum field theory|field theoretic]] description that we will argue admits a six-dimensional Lorentz invariance at [[non-perturbative quantum field theory|strong coupling]].
 
-  cf.: [arXiv:2011.06968](https://arxiv.org/abs/2011.06968), [arXiv:2212.07717](https://arxiv.org/abs/2212.07717)
 
 \linebreak
 
@@ -119,9 +121,12 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **Universal accelerating cosmologies from 10d supergravity**
 
-  > 4d [[FRW model|Friedmann-Lemaître-Robertson-Walker cosmologies]] are obtained from time-dependent [[KK-compactification|compactifications]] of [[type II supergravity|Type IIA 10d supergravity]] on various classes of 6d manifolds. These cosmologies are universal in that they do not depend on the detailed features of the compactification manifold, but only on the properties which are common to all the manifolds belonging to that class. Once the [[equations of motion]] are rewritten as an appropriate [[dynamical system]], the existence of solutions featuring a phase of accelerated [[cosmic inflation|expansion]] is made manifest. Some of the resulting cosmologies exhibit eternal or semi-eternal acceleration, whereas others allow for a parametric control on the number of $\mathrm{e}$-foldings. Moreover, we find several smooth accelerating cosmologies without [[Big Bang]] [[singularities]]: the [[observable universe|universe]] is contracting in the cosmological past ($T \lt 0$), expanding in the future ($T \gt 0$), while in the vicinity of $T = 0$ it becomes [[de Sitter spacetime|de Sitter]] in hyperbolic slicing. We also obtain several cosmologies featuring an infinite number of cycles of alternating periods of accelerated and decelerated expansions.
+  slides: [[Tsimpis-MTheoryMath2023.pdf:file]]
 
   cf.: [arXiv:2210.10813](https://arxiv.org/abs/2210.10813)
+
+  > 4d [[FRW model|Friedmann-Lemaître-Robertson-Walker cosmologies]] are obtained from time-dependent [[KK-compactification|compactifications]] of [[type II supergravity|Type IIA 10d supergravity]] on various classes of 6d manifolds. These cosmologies are universal in that they do not depend on the detailed features of the compactification manifold, but only on the properties which are common to all the manifolds belonging to that class. Once the [[equations of motion]] are rewritten as an appropriate [[dynamical system]], the existence of solutions featuring a phase of accelerated [[cosmic inflation|expansion]] is made manifest. Some of the resulting cosmologies exhibit eternal or semi-eternal acceleration, whereas others allow for a parametric control on the number of $\mathrm{e}$-foldings. Moreover, we find several smooth accelerating cosmologies without [[Big Bang]] [[singularities]]: the [[observable universe|universe]] is contracting in the cosmological past ($T \lt 0$), expanding in the future ($T \gt 0$), while in the vicinity of $T = 0$ it becomes [[de Sitter spacetime|de Sitter]] in hyperbolic slicing. We also obtain several cosmologies featuring an infinite number of cycles of alternating periods of accelerated and decelerated expansions.
+
 
 \linebreak
 
@@ -129,9 +134,10 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **T-duality for loop spaces, or equivalently for the 1D sigma model**
 
+  cf.: [arXiv:1405.1320](https://arxiv.org/abs/1405.1320)
+
   > We define exotic [[twisted de Rham cohomology|twisted]] [[circle group|$S^1$]]-[[equivariant de Rham cohomology|equivariant cohomology]] for the [[free loop space|loop space]] $\mathcal{L}Z$ of a [[smooth manifold]] $Z$ via the [[invariant]] [[differential forms]] on $\mathcal{L}Z$ with [[coefficients]] in the (typically non-flat) [[higher holonomy|holonomy]] [[complex line bundle|line bundle]] of a [[bundle gerbe|gerbe]], with differential given by an equivariantly [[flat connection|flat]] [[superconnection]]. We introduce the twisted [[Bismut-Chern character]] form, a loop space refinement of the [[twisted Chern character]] form, which represent classes in the completed periodic exotic twisted [[circle group|$S^1$]]-[[equivariant de Rham  cohomology|equivariant cohomology]] of $\mathcal{L}Z$. We establish a localisation theorem for the completed periodic exotic twisted $S^1$-equivariant cohomology for loop spaces and apply it to establish [[topological T-duality|T-duality]] in a [[background field|background]] [[flux]] in [[type II String Theory]] from a [[loop space]] perspective. Finally we reinterpret these results as [[topological T-duality|T-duality]] for the 1D sigma model.
 
-  cf.: [arXiv:1405.1320](https://arxiv.org/abs/1405.1320)
 
 \linebreak
 
@@ -139,9 +145,10 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **Graded T-duality with H-flux for 2d sigma models**
 
+  cf.: [arXiv:2207.03134](https://arxiv.org/abs/2207.03134)  
+
   > [[T-duality]] in [[string theory]] can be realised as a transformation acting on the [[worldsheet]] fields in the two-dimensional nonlinear [[sigma model]]. [Bouwknegt-Evslin-Mathai](topological+T-duality#BouwknegtEvslinMathai04) established the [[topological T-duality|T-duality in a background flux]] for the first time upon compactifying spacetime in one direction to a principal circle by constructing the T-dual maps transforming the twisted cohomology of the dual spacetimes. In this talk, we will describe our recent work on how to promote the T-duality maps of Bouwknegt-Evslin-Mathai in two aspects. More precisely, we will introduce (1) graded T-duality, concerning the graded T-duality maps of all levels of twistings; (2) the 2-dimensional sigma model picture, concerning the [[iterated loop space|double]] loop space of spacetimes. This represents our joint work with Mathai. 
 
-  cf.: [arXiv:2207.03134](https://arxiv.org/abs/2207.03134)  
 
 \linebreak
 
@@ -149,9 +156,10 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **Geometric and Non-Geometric T-duality with Higher Bundles**
 
+  cf.: [arXiv:2204.01783](https://arxiv.org/abs/2204.01783)
+
   > I will introduce the notion of [[adjusted Weil algebra|adjusted curvatures]] for [[principal infinity-bundle|higher principal bundles]]. These will allow me to [[differential cohomology|differentially refine]] the description of [[topological T-duality]] [by Nikolaus and Waldorf](T-fold#NikolausWaldorf18) in terms of [[principal 2-bundles]], leading to a description of full [[T-duality]]. I also discuss interesting generalizations that seem to capture the [[non-geometric string vacuum|non-geometric cases]]. 
 
-  cf.: [arXiv:2204.01783](https://arxiv.org/abs/2204.01783)
 
 \linebreak
 
@@ -159,9 +167,10 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **Exact Renormalisation Group and statistical Inference**
 
+  cf.: [arXiv:2212.11379](https://arxiv.org/abs/2212.11379)
+
   > The [[exact renormalisation group]] is used to describe the process of [[statistical inference]] in the [[Bayesian reasoning|Bayesian sense]].
 
-  cf.: [arXiv:2212.11379](https://arxiv.org/abs/2212.11379)
 
 \linebreak
 
@@ -169,11 +178,12 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **Machine-Learning Mathematical Structures**
 
+  cf.: [arXiv:2101.06317](https://arxiv.org/abs/2101.06317)
+
   > We present a number of recent [[experiments]] on how various standard [[machine-learning]] [[algorithms]] can help with pattern detection across disciplines ranging from [[string theory]], to [[algebraic geometry]], to [[representation theory]], to [[combinatorics]], and to [[number theory]].
 
   > We speculate on whether there is an inherent hierarchy of "difficulty" in mathematics reflected by data. At the heart of the programme is the question how does AI help with mathematical discovery.
 
-  cf.: [arXiv:2101.06317](https://arxiv.org/abs/2101.06317)
  
 \linebreak
 
@@ -181,13 +191,14 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **An introduction to decomposition**
 
+  cf.: [arXiv:2204.09117](https://arxiv.org/abs/2204.09117)
+
   > In this talk I will review work on `decomposition,' a property of 2d theories with 1-form symmetries and, more generally, d-dim'l theories with (d-1)-form symmetries.  Decomposition is the observation that such quantum field theories are equivalent to ('decompose into’) disjoint unions of other QFTs, known in this context as "universes.”
 
   > Examples include two-dimensional gauge theories and orbifolds with matter invariant under a subgroup of the gauge group. Decomposition explains and relates several physical properties of these theories -- for example, restrictions on allowed instantons arise as a "multiverse interference effect" between contributions from constituent universes.
 
   > First worked out in 2006 as part of efforts to understand string propagation on stacks, decomposition has been the driver of a number of developments since. I will walk through general aspects of 2d gauge theories that exhibit decomposition, dive into specifics in orbifold examples, and as time permits, discuss recent work in progress.
 
-  cf.: [arXiv:2204.09117](https://arxiv.org/abs/2204.09117)
 
 \linebreak
 
@@ -195,9 +206,10 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **D-branes and doubled geometry**
 
+  cf.: [arXiv:1910.09997](https://arxiv.org/abs/1910.09997)
+
   > We formulate the [[open string]] version of the Born [[sigma-model]] and describe its conformal [[boundary conditions]]. This leads to a general characterisation of [[D-branes]] in [[doubled geometry]] as maximally [[isotropic subspace|isotropic]] sub-bundles on a [[para-Hermitian manifold]]. The reduction of D-branes to a physical spacetime is obtained by describing them as [[Dirac structures]]. We also introduce a para-complex counterpart of the generalised complex branes of [[generalized complex geometry|generalised geometry]].
 
-  cf.: [arXiv:1910.09997](https://arxiv.org/abs/1910.09997)
 
 \linebreak
 
@@ -205,9 +217,11 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **Charges and Duality in Gravity**
 
-  on exotic $\mathcal{N} = (4,0)$ [[D=6 supergravity]] 
+  cf. [arXiv:2209.11716](https://arxiv.org/abs/2209.11716) and refs [here](https://ncatlab.org/nlab/show/D%3D6+supergravity#ReferencesFourZero)
 
-  > cf. [arXiv:2209.11716](https://arxiv.org/abs/2209.11716) and refs [here](https://ncatlab.org/nlab/show/D%3D6+supergravity#ReferencesFourZero)
+  > on exotic $\mathcal{N} = (4,0)$ [[D=6 supergravity]] 
+
+
 
 \linebreak
 
@@ -215,9 +229,10 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
   
   **Correspondences of Quantum $L_\infty$ Algebras (BV-theories)**
 
+  cf.: [arXiv:1912.06695](https://arxiv.org/abs/1912.06695), [arXiv:2002.11168](https://arxiv.org/abs/2002.11168)
+
   > The quantum odd [[symplectic category|symplectic "category"]] is constructed from the odd symplectic "category" via an enhancement of [[Lagrangian correspondence|Lagrangian relations]] (correspondences) by [[canonical Hilbert space of half-densities|half-densities]]. We extend this approach to the (finite-dimensional) setting of the [[BV-BRST formalism|Batalin-Vilkovisky quantum field theories]] (quantum L-infinity algebras). We discuss the effective [[observables]] of [[perturbative quantum field theory]] and the [[homological perturbation lemma]] from this point of view.
 
-  cf.: [arXiv:1912.06695](https://arxiv.org/abs/1912.06695), [arXiv:2002.11168](https://arxiv.org/abs/2002.11168)
 
 
 \linebreak
@@ -225,6 +240,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 * {#Ashwinkumar2023} [[Meer Ashwinkumar]]:
 
   **Matrix Quantization of Classical Nambu Brackets and Super $p$-Branes**
+
+  cf.: [arXiv:2103.06666](https://arxiv.org/abs/2103.06666)
 
   > We will present an explicit matrix algebra quantization of the algebra of volume-preserving diffeomorphisms of the $n$-torus. That is, we approximate the corresponding classical [[Nambu brackets]] using $\mathfrak{sl}\big(N^{\lceil n/2\rceil}, \mathbb{C}\big)$-matrices equipped with the finite bracket given by the completely anti-symmetrized matrix product, such that the classical brackets are retrieved in the $N \to \infty$ limit. We then apply this approximation to the [[super 4-brane in 9 dimensions]] and give a regularized action in analogy with the matrix quantization of the supermembrane. This action exhibits a reduced gauge symmetry that we discuss from the viewpoint of [[L-infinity algebras|$L_\infty$-algebras]] in a slight generalization to the construction of [[Lie 2-algebras]] from [[M-brane 3-algebra|Bagger-Lambert 3-algebras]]. 
 
@@ -234,9 +251,10 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **Non-invertible symmetry, holography and branes**
 
+  cf.: [arXiv:2208.07373](https://arxiv.org/abs/2208.07373)
+
   >  In this talk I will discuss some general methods for realizing topological symmetry generators in [[holography]]. In particular I will present a specific realization of non-invertible symmetry generators and their fusion rules in holographic duals of $SU(N)/\mathbb{Z}_N$ [[SYM]]. This will be both from a [[bottom-up and top-down model building|bottom-up perspective]] from an [[effective field theory|effective theory]] in [[anti de Sitter spacetime|$AdS_5$]], and from a [[bottom-up and top-down model building|top-down perspective]] in terms of [[D-branes]] in $AdS_5$ backgrounds. 
 
-  cf.: [arXiv:2208.07373](https://arxiv.org/abs/2208.07373)
 
 \linebreak
 
@@ -245,9 +263,10 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **M-theory and matter via Twisted Equivariant Differential (TED) K-theory**
 
+  cf.: [[schreiber:Anyonic topological order in TED K-theory|arXiv:2206.13563]]
+
   > Various flavors of [[topological K-theory|K-theory]] [[D-brane charge quantization in K-theory|play an important role]] in geometric/topological perspectives on [[string theory]]. Ultimately, the [[twisted equivariant differential K-theory|twisted equivariant differential (TED) version of K-theory]] would be what is needed to describe [[field (physics)|fields]] and [[branes]] in the most general backgrounds. However, this theory has not been constructed yet, but major progress has been made in that direction requiring highly nontrivial machinery. I will describe the main conceptual points here. I will also explain how TED K-theory enters naturally into [[condensed matter theory|condensed matter]] ([[topological phases of matter|topological phases]]) and highlight analogies with [[high energy physics]]. All of this embeds in [[M-theory]] via [[schreiber:Hypothesis H]], both from physical and mathematical perspectives. 
 
-  cf.: [[schreiber:Anyonic topological order in TED K-theory|arXiv:2206.13563]]
 
 \linebreak
 
@@ -255,11 +274,13 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **Topological Quantum Gates from M-Theory**
 
-  >  The [[AdS-QCD correspondence|promising idea]] that [[non-perturbative field theory|strongly]] [[coupling|coupled]] [[quantum systems]] such as ([[confinement|confined]] [[QCD]] or) [[topological order|topologically ordered]] [[quantum materials]] are [[AdS-CMT duality|usefully modeled]] as [[worldvolume]] [[dynamics]] on [[intersecting branes]] in [[string theory]] has been suffering from the latter's lack of [[nLab:non-perturbative effect|non-perturbative]] formulation ([[M-theory]]), [necessary](https://ncatlab.org/nlab/show/AdS-CFT#SmallNCorrections) in the realistic regime of [[large 1/N limit|small numbers]] of individual [[branes]] (i.e. beyond the usual [[holography|holographic]] [[large N limit|large-$N$ approximation]]). In this talk I will briefly review our "[[schreiber:Hypothesis H]]" that [[brane]] [[nLab:charge]] in [[nlab:M-theory]] is [[nLab:Dirac charge quantization|quantized]] in a [[nlab:twisted cohomology|twisted]] [[nLab:equivariant cohomology|equivariant]] [[nLab:non-abelian cohomology|non-abelian]] [[nLab:generalized cohomology]] theory called *[[nLab:Cohomotopy]]*, where [[nLab:M-brane]] [[nLab:quantum states]] are identified inside the [[nLab:twisted de Rham cohomology|twisted equivariant cohomology]] of the [[nLab:Cohomotopy]] [[nLab:moduli stack]]. Then I explain our recent derivation, from this assumption, of [[nLab:anyon|anyonic]] [[nLab:topological order]] in [[nLab:ground states]] of [[nLab:M3-brane|M5-brane intersections]]; and I close with an outlook on how this describes [[nlab:topological quantum computation|topological]] [[nLab:quantum logic gates]] via [[nlab:braid group statistics|braiding]] of [[nLab:defect branes]].
+  notes: [pdf](/schreiber/show/Topological+Quantum+Gates+from+M-Theory#Notes)
 
   cf.: [[schreiber:Anyonic defect branes in TED-K-theory|arXiv:2203.11838]]
 
-  talk notes: [pdf](/schreiber/show/Topological+Quantum+Gates+from+M-Theory#Notes)
+
+  >  The [[AdS-QCD correspondence|promising idea]] that [[non-perturbative field theory|strongly]] [[coupling|coupled]] [[quantum systems]] such as ([[confinement|confined]] [[QCD]] or) [[topological order|topologically ordered]] [[quantum materials]] are [[AdS-CMT duality|usefully modeled]] as [[worldvolume]] [[dynamics]] on [[intersecting branes]] in [[string theory]] has been suffering from the latter's lack of [[nLab:non-perturbative effect|non-perturbative]] formulation ([[M-theory]]), [necessary](https://ncatlab.org/nlab/show/AdS-CFT#SmallNCorrections) in the realistic regime of [[large 1/N limit|small numbers]] of individual [[branes]] (i.e. beyond the usual [[holography|holographic]] [[large N limit|large-$N$ approximation]]). In this talk I will briefly review our "[[schreiber:Hypothesis H]]" that [[brane]] [[nLab:charge]] in [[nlab:M-theory]] is [[nLab:Dirac charge quantization|quantized]] in a [[nlab:twisted cohomology|twisted]] [[nLab:equivariant cohomology|equivariant]] [[nLab:non-abelian cohomology|non-abelian]] [[nLab:generalized cohomology]] theory called *[[nLab:Cohomotopy]]*, where [[nLab:M-brane]] [[nLab:quantum states]] are identified inside the [[nLab:twisted de Rham cohomology|twisted equivariant cohomology]] of the [[nLab:Cohomotopy]] [[nLab:moduli stack]]. Then I explain our recent derivation, from this assumption, of [[nLab:anyon|anyonic]] [[nLab:topological order]] in [[nLab:ground states]] of [[nLab:M3-brane|M5-brane intersections]]; and I close with an outlook on how this describes [[nlab:topological quantum computation|topological]] [[nLab:quantum logic gates]] via [[nlab:braid group statistics|braiding]] of [[nLab:defect branes]].
+
 
 \linebreak
 
@@ -267,9 +288,10 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **The $E_k$ symmetry of dimensional reductions of M-theory**
 
+  cf.: [arXiv:2111.14810](https://arxiv.org/abs/2111.14810), [arXiv:2212.13968](https://arxiv.org/abs/2212.13968)
+
   > [[Hisham Sati]] and I, on the way to revealing the mystery of 2001 [[Mysterious Duality]] of [Iqbal, Neitzke, and Vafa](mysterious+duality#INV01), generalized [[schreiber:Hypothesis H|hypothesis H]] and presented a universal target for each [[double dimensional reduction|dimensional reduction]] of [[M-theory]]. Each of these targets has the [[dynamics]] of [[supergravity]] embedded into its structure. The target for $(11-k)$-dimensional [[M-theory]] also has an [[Lie algebra representation|action]] of the [[Lie algebra]] of [[exceptional Lie algebra|type $E_k$]], responsible for [[U-duality|symmetries]] of $(11-k)$-dim [[supergravity]] along with its [[equations of motion]] in any spacetime.
 
-  cf.: [arXiv:2111.14810](https://arxiv.org/abs/2111.14810), [arXiv:2212.13968](https://arxiv.org/abs/2212.13968)
 
 \linebreak
 
@@ -277,9 +299,10 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **Exceptional super Yang-Mills in $27 + 3$ and worldvolume M-theory**
 
+  cf.: [arXiv:1906.10709](https://arxiv.org/abs/1906.10709)
+
   > Some time ago, [[D=14 supersymmetry|Bars and Sezgin proposed]] a [[super Yang-Mills theory]] in $D=s+t=11+3$ space-time dimensions, with an electric 3-brane that generalizes the 2-brane of M-theory. More recently, Rios, Chester and the speaker found an infinite family of "exceptional" super Yang-Mills theories in $D=s+t=(8n+3)+3$. A particularly interesting case occurs for $n=3$, namely in signature $D=27+3$, in which the superalgebra is centrally extended by an electric 11-brane and its 15-brane magnetic dual. The worldvolume symmetry of the 11-brane has signature $D=11+3$ and can reproduce super Yang-Mills theory in D=$11+3$. Upon reduction to $D=26+2$, the 11-brane reduces to a 10-brane with $10+2$ worldvolume signature. A single time projection gives a $10+1$ worldvolume signature, and it can serve as a model for $D=10+1$ [[M-theory]] as a reduction from the $D=26+1$ signature of the [[bosonic M-theory]] of [[Gary Horowitz|Horowitz]] and [[Leonard Susskind|Susskind]]; this is further confirmed by the reduction of chiral $(1,0)$, $D=11+3$ superalgebra to the $\mathcal{N}=1$ superalgebra in $D=10+1$, as found by Rudychev, Sezgin and Sundell some time ago. Extending previous results of Dijkgraaf, Verlinde and Verlinde, I will also put forward the realization of spinors as total cohomologies of (the largest spatially extended) branes which centrally extend the $(1,0)$ superalgebra underlying the corresponding "exceptional" super Yang-Mills theory. Moreover, by making use of an “anomalous” Dynkin embedding, I will present further evidence about [[Pierre Ramond|Ramond]]'s and [[Hisham Sati|Sati]]'s argument that M-theory has hidden Cayley plane fibers.
 
-  cf.: [arXiv:1906.10709](https://arxiv.org/abs/1906.10709)
 
 \linebreak
 
