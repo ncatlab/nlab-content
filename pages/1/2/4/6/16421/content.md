@@ -82,7 +82,7 @@ $$
   \end{array}
 $$
 
-where $\mathrm{ap}_f:(0 =_\mathbb{I} 1) \to (f(0) =_A f(1))$ is the [[action on identities]], $\mathrm{trans}_{a, b, c}:(a =_A b) \times (b =_A c) \to (a =_A c)$ is [[transitivity]], and $\mathrm{sym}_{a, b}:(a =_A b) \to (b =_A a)$ is [[symmetry]] of identities. 
+where $\mathrm{ap}_f:(0 =_\mathbb{I} 1) \to (f(0) =_A f(1))$ is the [[function application to identities]], $\mathrm{trans}_{a, b, c}:(a =_A b) \times (b =_A c) \to (a =_A c)$ is [[transitivity]], and $\mathrm{sym}_{a, b}:(a =_A b) \to (b =_A a)$ is [[symmetry]] of identities. 
 \end{example}
 
 ## Related concepts
