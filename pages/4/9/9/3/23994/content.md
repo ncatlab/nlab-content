@@ -20,6 +20,8 @@ The [[type theory|type-theoretic]] version of the fact that in [[set theory]] [[
 
 ## Definition ##
 
+### Basic definition
+
 In [[dependent type theory]], given [[types]] $A$ and $B$ and a [[function type|function]] $x  \colon A \vdash f(x) \colon B$, there is induced a [[dependent function]] between the corresponding [[identity types]]
 
 $$
@@ -42,8 +44,12 @@ $$
   ap_f\big(refl_a\big) \,\equiv\, refl_{f(a)}
 $$
 
-
 and called the **application** or **action** of $f$ to/on [[identities]]/[[identifications]]/[[equalities]]/[[paths]] &lbrack;e.g. [UFP (2013, p. 69)](#UFP13), [Rijke (2022, §5.3)](#Rijke22)&rbrack;.
+
+{#Functoriality} By repeated [[Id-induction]] it readily follows,  stagewise (e.g. [UFP13, Lem 2.2.1](#UFP13)), that $ap_f$ respects the [[concatenation]], and the [[inverse|inversion]] of [[identifications]], up to [[coherence|coherent]] higher-order identifications, hence that it acts as an [[infinity-functor|$\infty$-functor]] on the  [[infinity-groupoid|$\infty$-groupoid]]-[[structure]] on homotopy types :
+
+<img src="/nlab/files/FuncApOnIds-230119b.jpg" width="700">
+
 
 ### As the non-dependent version of the dependent function application to identities
 
@@ -118,3 +124,5 @@ $$n:\mathbb{N}, a:\prod_{i:\mathrm{Fin}(n)} A(i), b:\prod_{i:\mathrm{Fin}(n)} A(
 [[!redirects binary action on equalities]]
 
 [[!redirects happly]]
+
+[[!redirects function application to identities]]
