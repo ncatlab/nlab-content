@@ -151,7 +151,7 @@ In particular $\#(C,\partial)= (Hom(C,k),D)$  defines a functor from $pre CDGC$ 
 
 #### Coalgebra filtrations
 
-Let $(C,\partial)$ be a pre-dgc. A _coalgebra filtration_ (resp. _differential coalgebra filratation_) of $(C,\partial)$ is a family of subspaces $F_p C$, $p\in \mathbb{Z}$ such that 
+Let $(C,\partial)$ be a pre-dgc. A _coalgebra filtration_ (resp. _differential coalgebra filtration_) of $(C,\partial)$ is a family of subspaces $F_p C$, $p\in \mathbb{Z}$ such that 
 
 $$F_p C\subseteq F_{p+1} C, \quad \Delta F_p C \subseteq \sum_k F_k C\otimes F_{p-k} C, \quad (resp.\quad and \quad \partial F_p C\subseteq F_p C).$$
 
