@@ -137,11 +137,15 @@ The general notion of $2$-groupoid above is also called __weak $2$-groupoid__ to
 
 * For $A$ an [[abelian group]], there is its double [[delooping]] 2-groupoid $\mathbf{B}^2 A$. This is given by the [[strict]] 2-groupoid that comes from the [[crossed complex]] $A \to 0 \stackrel{\to}{\to} 0$. As a [[Kan complex]] this is the image under the [[Dold-Kan correspondence]] of the [[chain complex]] $[A \to 0 \to 0]$.
 
-* The [[fundamental infinity-groupoid]] of a [[topological space]] that is itself a homotopy 2-type.
+* The [[fundamental 2-groupoid]] of a [[topological space]].
+
+* The [[fundamental infinity-groupoid|fundamental $\infty$-groupoid]] of a [[topological space]] that is itself a [[homotopy 2-type]].
 
 * The [[path 2-groupoid]] of a [[smooth manifold]].
 
 ## Related concepts
+
+* [[Grpd-enriched category]]
 
 [[!include homotopy n-types - table]]
 
