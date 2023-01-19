@@ -20,21 +20,30 @@ The [[type theory|type-theoretic]] version of the fact that in [[set theory]] [[
 
 ## Definition ##
 
-In [[dependent type theory]], given [[types]] $A$ and $B$ and a [[function]] $x:A \vdash f(x):B$, there is a dependent [[function]] 
+In [[dependent type theory]], given [[types]] $A$ and $B$ and a [[function type|function]] $x  \colon A \vdash f(x) \colon B$, there is induced a [[dependent function]] between the corresponding [[identity types]]
 
 $$
   a \colon A
-  \,, 
+  \,\;
   b\colon A 
-  \,, 
-  p \colon a =_A b 
-  \;\;\vdash\;\; 
+  \,\;
+  p 
+    \,\colon\, 
+  a =_A b 
+  \;\;\;\vdash\;\;\; 
   \mathrm{ap}_f(a, b)(p)
-  \,\colon\,
+  \;\colon\;
   f(a) =_B f(b)
 $$ 
 
-called the **action on [[identities]]/[[identifications]]/[[equalities]]/[[paths]] of $f$** or the **application of $f$ to identities/identifications/equalities/paths**. 
+defined by [[Id-induction]] from 
+
+$$
+  ap_f\big(refl_a\big) \,\equiv\, refl_{f(a)}
+$$
+
+
+and called the **application** or **action** of $f$ to/on [[identities]]/[[identifications]]/[[equalities]]/[[paths]] &lbrack;e.g. [UFP (2013, p. 69)](#UFP13), [Rijke (2022, §5.3)](#Rijke22)&rbrack;.
 
 ### As the non-dependent version of the dependent action on identities
 
@@ -50,7 +59,7 @@ where $\Omega(A, a)$ is the [[loop space type]] $a =_A a$ of $A$ at $a:A$.
 
 Given types $A$, $B$, and $C$ and a [[binary function]] $x:A, y:B \vdash f(x, y):C$, there is a dependent function 
 $$a:A, a':A, b:B, b':B, p:a =_A a', q:b =_B b' \vdash \mathrm{apbinary}_f(a, a', b, b')(p, q):f(a, b) =_C f(a', b')$$ 
-called the **binary action on identities**, inductively defined by 
+called the **binary action on identities** ([Rijke (2022), §19.5](#Rijke22)), inductively defined by 
 $$a:A, b:B \vdash \mathrm{apbinary}_{f}(a, a, b, b)(\mathrm{refl}_{A}(a), \mathrm{refl}_{B}(b)) \equiv \mathrm{refl}_{C}(f(a, b)):\Omega(C, f(a, b))$$
 where $\Omega(A, a)$ is the [[loop space type]] $a =_A a$ of $A$ at $a:A$. 
 
@@ -66,18 +75,20 @@ $$n:\mathbb{N}, a:\prod_{i:\mathrm{Fin}(n)} A(i), b:\prod_{i:\mathrm{Fin}(n)} A(
 ## See also ##
 
 * [[dependent action on identities]]
+
 * [[identification]]
+
 * [[identity type]]
 
 ## References ##
 
-* [[Univalent Foundations Project]], [[Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+* {#UFP13} [[Univalent Foundations Project]], §2.2 in: *[[Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
-Binary actions on paths were defined in section 19.5 of:
+* {#Rijke22} [[Egbert Rijke]], §5.3 in: *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
 
-* [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
 
-[[!redirects action on identities]]
+
+
 [[!redirects action on identifications]]
 [[!redirects action on paths]]
 [[!redirects action on equalities]]
@@ -91,3 +102,5 @@ Binary actions on paths were defined in section 19.5 of:
 [[!redirects binary action on identifications]]
 [[!redirects binary action on paths]]
 [[!redirects binary action on equalities]]
+
+[[!redirects happly]]
