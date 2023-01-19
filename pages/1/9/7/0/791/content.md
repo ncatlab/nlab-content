@@ -80,7 +80,12 @@ Appl. Categ. Struct. 20, No. 4, 323-378 (2012), see also [arXiv:1003.3820](http:
 
 ## Related concepts
 
+* [[fundamental 2-groupoid]]
+
 [[!include homotopy n-types - table]]
+
+
+
 
 [[!redirects 2-type]]
 [[!redirects 2-types]]
