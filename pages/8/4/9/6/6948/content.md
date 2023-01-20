@@ -46,6 +46,11 @@ In terms of [[semantics]] (as for example topos-theoretic semantics; see the nex
 
 As observed by [[Lawvere]], we are not particularly constrained to product projections; we can pull back along any map $f \colon B \to A$. (Often we have a class of [[display maps]] and require $f$ to be one of these.) Alternatively, any pullback functor $f^\ast\colon Set/A \to Set/B$ can be construed as pulling back along an object $X = (f \colon B \to A)$, i.e., along the unique map $!\colon X \to 1$ corresponding to an object $X$ in the slice $Set/A$, since we have the identification $Set/B \simeq (Set/A)/X$. 
 
+## Internal universal quantifier in set theory
+
+In [[set theory]], recall that a [[predicate]] on a [[set]] $A$ in the [[internal logic of set theory]] is represented by the [[preimage]] $i^*(a)$ of an [[injection]] $i:B \hookrightarrow A$. Because $i$ is an [[injection]], each preimage $i^*(a)$ is a [[subsingleton]] for all $a \in A$, which represents the internal [[propositions]] of the [[set theory]]. The **internal universal quantifier** is represented by the [[Cartesian product]] of the family of sets $(i^*(a))_{a \in A}$:
+
+$$\forall a \in A.i^*(a) \coloneqq \prod_{a \in A} i^*(a)$$
 
 ## In topos theory / in terms of adjunctions
 
@@ -108,7 +113,13 @@ This interpretation of universal quantification as the right adjoint to context 
 
 ## In dependent type theory
 
-In dependent type theory, the universal quantifier is the [[dependent product type]] of a family of [[h-propositions]]:
+In dependent type theory, the universal quantifier is the [[propositional truncation]] of the [[dependent product type]] of a family of [[h-propositions]]:
+
+$$\forall (x:A).B(x) \coloneqq \left[\prod_{x:A} B(x)\right]$$
+
+The axiom of [[function extensionality]] or [[weak function extensionality]] implies that the dependent product type of a family of h-propositions is always an h-proposition. 
+
+One doesn't need all [[dependent product types]] to define universal quantifiers. The [[isProp]] types are definable without all dependent product types, by use of [[center of contraction]], which are also definable without all dependent product types. 
 
 Formation rules for the universal quantifier:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isProp}(B(x))}{\Gamma \vdash \forall (x:A).B(x) \; \mathrm{type}}$$
@@ -125,9 +136,10 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathr
 Uniqueness rules for the universal quantifier:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isProp}(B(x)) \quad \Gamma \vdash f:\forall (x:A).B(x)}{\Gamma \vdash \eta_\forall:f =_{\forall (x:A).B(x)} \lambda(x).f(x)}$$
 
-The dependent product type of a family of h-propositions is always an h-proposition. 
+Closure of universal quantifiers under h-propositions rule:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isProp}(B(x))}{\Gamma \vdash \mathrm{weakfunext}:\mathrm{isProp}(\forall (x:A).B(x))}$$
 
-One doesn't need all [[dependent product types]] to define universal quantifiers. The [[isProp]] types are definable without all dependent product types, by use of [[center of contraction]], which are also definable without all dependent product types. This means that one could define the type-theoretic internal logic of a [[Heyting category]] or [[Boolean category]] which are not [[locally cartesian closed]], for [[strongly predicative mathematics]]. 
+This means that one could define the type-theoretic internal logic of a [[Heyting category]] or [[Boolean category]] which are not [[locally cartesian closed]], for [[strongly predicative mathematics]]. 
 
 ## Examples
 
