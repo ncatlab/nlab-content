@@ -15,13 +15,13 @@
 
 ## Idea
 
-What is called _higher observational type theory_ (HOTT) is a flavor of  [[intensional type theory]] that is a [[higher homotopy]] version of [[observational type theory]] (OTT). 
+What is called _higher observational type theory_ (HOTT or HigherOTT) is a flavor of  [[intensional type theory]] that is a [[higher homotopy]] version of [[observational type theory]] (OTT). 
 
 {#MayBeRegarded} It may be regarded as a [[homotopy type theory]] ([[HoTT]]): the [[propositions]] of OTT correspond to the [[h-propositions]] of HoTT, the [[sets]] in OTT correspond to [[h-sets]] in HoTT, and so forth. The notion of [[equality]] on HOTT in a [[type universe]] is based on [[bijection|one-to-one]] [[correspondences]], but is usually defined as a primitive [[identity type]] for types outside a universe. Since equality is defined type-by-type, HOTT enjoys [[function extensionality]].
 
 There are a few technical differences (e.g. [[proofs]] of [[types]] in a [[universe]] are [[definitional equality|definitionally equal]] in HOTT, whereas proofs of types in a universe are only [[propositional equality|propositionally equal]] in HoTT) but on the whole HoTT looks a lot like HOTT.
 
-## Mike Shulman's higher observational type theory
+## Altenkirch-Kaposi-Shulman's higher observational type theory
 
 We are working in a [[dependent type theory]] with [[judgmental equality]]. 
 
@@ -175,12 +175,8 @@ $$\mathrm{id}_{\mathcal{T}_\mathcal{U}(z.B)}^{p}(u, v) \equiv \mathrm{id}_{\math
 
 ## References 
 
-Higher observational type theory was introduced in
+Higher observational type theory was introduced in a joint work between [[Thorsten Altenkirch]], [[Ambrus Kaposi]] and [[Michael Shulman]], and first presented at the CMU HoTT Seminar by Shulman in 2022:
 
-* [[Mike Shulman]], *Towards a Third-Generation HOTT Part 1* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA))
-
-* [[Mike Shulman]], *Towards a Third-Generation HOTT Part 2* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU))
-
-* [[Mike Shulman]], *Towards a Third-Generation HOTT Part 3* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-12.pdf), [video](https://www.youtube.com/watch?v=9pDddxB7LbE))
+* *Towards a Third-Generation HOTT:* Part 1 ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA)); Part 2 ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU)); Part 3 ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-12.pdf), [video](https://www.youtube.com/watch?v=9pDddxB7LbE))
 
 [[!redirects higher observational type theories]]
