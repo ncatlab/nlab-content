@@ -31,8 +31,7 @@ Originally due to [[Victor Kac]].
 * Andrew Pressley, [[Graeme Segal]], _Loop groups_ Oxford University Press (1988)
   {#PressleySegal88}
 
-* {#Ando2000} [[Matthew Ando]], _Power operations in elliptic cohomology and representations of loop groups_, Trans. Amer. Math. Soc., 352(12):5619&#8211;
-5666, 2000 ([pdf](http://www.math.uiuc.edu/~mando/papers/POECLG/poeclg.pdf))
+* {#Ando2000} [[Matthew Ando]], _Power operations in elliptic cohomology and representations of loop groups_, Trans. Amer. Math. Soc., 352(12):5619-5666, 2000 ([pdf](http://www.math.uiuc.edu/~mando/papers/POECLG/poeclg.pdf))
  
 
 Derivation from [[fiber integration in generalized cohomology|fiber integration]] in [[equivariant elliptic cohomology]] is in 
