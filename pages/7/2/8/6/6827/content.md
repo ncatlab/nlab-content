@@ -32,7 +32,7 @@ On non-integrable but "admissible" [[irreps]] of [[affine Lie algebras]]:
 
 * [[Victor G. Kac]], [[Minoru Wakimoto]], *Modular invariant representations of infinite-dimensional Lie algebras and superalgebras*,  PNAS **85** 14 (1988)  4956-4960 &lbrack;[doi:10.1073/pnas.85.14.4956](https://doi.org/10.1073/pnas.85.14.4956)&rbrack; 
 
-* [[Victor G. Kac]], [[Minuro Wakimoto]], *Classification of modular invariant representations of affine algebras*, p. 138-177 in V. G. Kač (ed.): *Infinite dimensional Lie algebras and groups*, Advanced series in Mathematical physics **7**, World Scientific (1989) &lbrack;[pdf](https://math.mit.edu/~kac/not-easily-available/admissible.pdf),  [cds:268092](https://cds.cern.ch/record/268092)&rbrack;
+* [[Victor G. Kac]], [[Minoru Wakimoto]], *Classification of modular invariant representations of affine algebras*, p. 138-177 in V. G. Kač (ed.): *Infinite dimensional Lie algebras and groups*, Advanced series in Mathematical physics **7**, World Scientific (1989) &lbrack;[pdf](https://math.mit.edu/~kac/not-easily-available/admissible.pdf),  [cds:268092](https://cds.cern.ch/record/268092)&rbrack;
 
 
 
