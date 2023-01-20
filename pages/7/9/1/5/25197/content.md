@@ -28,7 +28,7 @@ where $\mathbb{R}\Gamma(\mathbb{D}_n^\circ,\mathcal{O}_X)$ is the [[commutative 
 
 A __higher Kac-Moody algebra__ $\tilde{\mathfrak{g}}_{n,P}$ is the [[central extension]] of $\mathfrak{g}_n$ via an invariant polynomial $P$ on $\mathfrak{g}_n$ of degree $(n+1)$.
 
-For $n=1$, one recovers $\mathfrak{g}_1 = \mathfrak{g}((z))$ and its [[central extension]] $\tilde{\mathfrak{g}}_{1,P}$ is a an ordinary [[Kac-Moody algebra]].
+For $n=1$, one recovers $\mathfrak{g}_1 = \mathfrak{g}((z))$ and its [[central extension]] $\tilde{\mathfrak{g}}_{1,P}$ is an ordinary [[Kac-Moody algebra]].
 
 ## Related concepts
 
