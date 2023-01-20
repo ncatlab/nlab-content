@@ -61,7 +61,7 @@ and thus for every function $f:X \to Y$ there is a unique element of a function 
 
 #### Internal function extensionality
 
-In [[set theory]], let $\mathbb{1}$ denote [[generalized the|the]] [[uniqueness quantifier|unique]] [[singleton]] up to [[bijection]], let $\left[A\right]$ denote the [[support of a set|support]] of the set $A$, and let $\prod_{x \in A} B_x$ denote the [[Cartesian product]] of a family of sets $(B_x)_{x \in A}$. For all sets $A$, let $\Delta_{A}:A \to A \times A$ denote the [[diagonal function]]; this means that the [[preimage]] of $\Delta_{A}$ at $(x, y) \in A \times A$, $\Delta_{A}^*(x, y)$, is a [[subsingleton]], and $(\Delta_{A}^*(x, y))_{x \in A, y \in A}$ is a [[family of sets]]. 
+In [[set theory]], let $\mathbb{1}$ denote [[generalized the|the]] [[uniqueness quantifier|unique]] [[singleton]] up to [[bijection]] and let $\prod_{x \in A} B_x$ denote the [[Cartesian product]] of a family of sets $(B_x)_{x \in A}$. For all sets $A$, let $\Delta_{A}:A \to A \times A$ denote the [[diagonal function]]; this means that the [[preimage]] of $\Delta_{A}$ at $(x, y) \in A \times A$, $\Delta_{A}^*(x, y)$, is a [[subsingleton]], and $(\Delta_{A}^*(x, y))_{x \in A, y \in A}$ is a [[family of sets]]. 
 
 The principle of **internal function extensionality** is given by one of the two equivalent statements:
 
@@ -216,6 +216,14 @@ Suppose that given functions $f:A \to B$ and $g:A \to B$, for all $x:A$, $f(x)$ 
 ## Properties
  {#Properties}
 
+There are a number of axioms in [[dependent type theory]] which imply function extensionality. These include
+
+* [[weak function extensionality]]
+* [[univalence axiom]]
+* an [[interval type]] with [[judgmental equality|judgmental]] [[computation rules]]
+* [[equality reflection]] in [[extensional type theory]]
+* the axiom which states that every type is a [[mere proposition]]. 
+
 ### Relation to weak function extensionality
 
 Function extensionality is equivalent to [[weak function extensionality]] -- see at *[References -- General](#ReferencesGeneral)*.
@@ -254,7 +262,17 @@ thus proving function extensionality.
 
 An interval type with only typal computation rules for the point constructors does not imply function extensionality. This is because the proof with the judgmental computation rules uses the fact that $k'(0)(x) \equiv f(x)$ and $k'(1)(x) \equiv g(x)$ for all $x:A$ implies that $k'(0) \equiv f$ and $k'(1) \equiv g$. However, if the computation rules are typal, then the equivalent statement is that having identities $\beta_{k'}^0(x): Id_B\big(k'(0)(x) , f(x)\big)$ and $\beta_{k'}^1(x): Id_B\big(k'(1)(x) , g(x)\big)$ for all $x:A$ implies that there are identities $\beta_{k'}^0: Id_{(A \to B)}\big(k'(0) , f\big)$ and $\beta_{k'}^1 : Id_{A \to B}\big(k'(1) , g\big)$, which is precisely function extensionality, and so cannot be used to prove function extensionality. 
 
+### Relation to equality reflection
 
+To do: write how [[extensional type theory]] automatically satisfies function extensionality. 
+
+...
+
+### Relation to propositional logic
+
+To do: write how requiring all types to be [[mere propositions]] in [[dependent type theory]], such as in [[propositional logic as a dependent type theory]] automatically satisfies function extensionality.
+
+...
 
 ### Categorical semantics 
  {#CategoricalSemantics}
