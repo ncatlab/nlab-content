@@ -9,3 +9,5 @@
 * [[formal neighbourhood of the diagonal]]
 
 category: people
+
+[[!redirects Hennion]]
