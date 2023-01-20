@@ -23,7 +23,7 @@ The notion of _Kac-Moody Lie algebra_ is a generalization of that of _[[semisimp
 
 ## Examples
 
-The higher Kac-Moody analogs of the [[exceptional Lie group|exceptional semisimple Lie algebras]] [[E7]], [[E7]], [[E8]] are
+The sequence of [[exceptional Lie group|exceptional semisimple Lie algebras]] [[E7]], [[E7]], [[E8]] may be continued to the Kac-Moody algebras:
 
 * affine: [[E9]] 
 
@@ -34,6 +34,8 @@ The higher Kac-Moody analogs of the [[exceptional Lie group|exceptional semisimp
 ## Related concepts
 
 * [[Kac-Moody group]]
+
+* [[higher Kac-Moody algebra]]
 
 * [[Borcherds algebra]]
 
