@@ -57,7 +57,8 @@ Lecture notes include
 
 The standard textbook is
 
-* [[Victor Kac]], _Infinite dimensional Lie algebras_, , Cambridge University Press (1990) 
+* [[Victor G. Kac]], *Infinite Dimensional Lie Algebras*,  Progress in Mathematics **44** Springer 1983 &lbrack;[doi:10.1007/978-1-4757-1382-4](https://link.springer.com/book/10.1007/978-1-4757-1382-4)&rbrack;, Cambridge University Press (1990) &lbrack;[doi:10.1017/CBO9780511626234](https://doi.org/10.1017/CBO9780511626234)&rbrack;
+
 
 Collections of articles include
 
