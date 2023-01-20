@@ -209,6 +209,10 @@ An equippable 2-category with $\mathcal{E} =$ liberal cofaithfuls = liberals is 
 
 * [[Bob Rosebrugh]] and [[Richard Wood]], "Proarrows and cofibrations" (PC), [MR](http://www.ams.org/mathscinet-getitem?mr=961365)
 
+* [[Bob Rosebrugh]] and [[Richard Wood]], "Gamuts and cofibrations". Cahiers de topologie et geometrie differentielle categoriques 31.3 (1990): 197-211. [Numdam](http://www.numdam.org/item/CTGDC_1990__31_3_197_0/)
+
+* [[Bob Rosebrugh]] and [[Richard Wood]], "Pullback preserving functors". Journal of Pure and Applied Algebra 73.1 (1991): 73-90.
+
 [[!redirects codiscrete cofibrations]]
 [[!redirects two-sided cofibration]]
 [[!redirects two-sided cofibrations]]
