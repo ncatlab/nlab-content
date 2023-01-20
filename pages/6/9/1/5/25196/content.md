@@ -1,1 +1,1 @@
-an alternative to the Markdown syntax for sections (headings), one can use the usual LaTeX 
+See *[[Gödel numbering]]*
