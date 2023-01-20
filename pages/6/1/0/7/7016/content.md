@@ -38,9 +38,13 @@ The principle of functional extensionality states that two [[functions]] are [[e
 
 ### In set theory
 
-In [[set theory]], function extensionality states that for all sets $A$ and $B$ and functions $f:A \to B$ and $g:A \to B$, if, for all elements $x \in A$, $f(x) = g(x)$, then $f = g$. 
+In [[set theory]], there are two equivalent notions of function extensionality:
 
-There is another definition of function extensionality: for all sets $A$ and $B$ and functions $f:A \to B$ and $g:A \to B$, if, for all elements $x \in A$ and $y \in A$ such that $x = y$, $f(x) = g(y)$, then $f = g$. 
+* for all sets $A$ and $B$ and functions $f:A \to B$ and $g:A \to B$, $f = g$ if and only if for all elements $x \in A$ $f(x) = g(x)$. 
+
+* for all sets $A$ and $B$ and elements of the [[function set]] $f \in B^A$ and $g \in B^A$, $f = g$ if and only if for all elements $x \in A$ $\mathrm{ev}(f, x) = \mathrm{ev}(g, x)$. 
+
+While the former is the one most commonly found in most foundations of [[categorical set theories]] as the [[axiom of extensionality]], the latter is the set theoretic analogue of the axiom of function extensionality found in [[dependent type theories]], where functions are elements of function types, the type theoretic analogue of function sets. Nonetheless, the two notions of function extensionality are equivalent to each other by [[currying]] and the [[universal property]] of [[function sets]]. 
 
 ### In category theory
 
@@ -48,7 +52,9 @@ There are two natural ways to extend the set-theoretic definition of function ex
 
 The “external” formulation of function extensionality corresponds to the statement that the [[terminal object]] is an [[extremal generator]] in [[category]], and is one of the conditions for making a [[pretopos]] a [[well-pointed pretopos]]. This definition is satisfied in any [[concrete category]] $\mathcal{C}$.
 
-The “internal” formulation can be interpreted in a category with a rich enough [[internal language]]. For instance, function extensionality can be stated in the [[Mitchell-Benabou language]] and is true in any [[topos]]. So every topos *internally* satisfies function extensionality despite the fact that toposes do not generally satisfy the external notion of being well-pointed. This is because the quantifier $\forall x:X$ in the internal language is interpreted as a quantification over all [[generalized elements]] $I \to X$ rather than merely the global elements $1 \to X$. Then the statement when quantifying over generalized elements is true as a consequence of the definition of an [[exponential object]].
+The “internal” formulation can be interpreted in a category with a rich enough [[internal language]]. For instance, function extensionality can be stated in the [[Mitchell-Benabou language]] and is true in any [[topos]]. So every topos *internally* satisfies function extensionality despite the fact that toposes do not generally satisfy the external notion of being well-pointed. This is because the quantifier $\forall x:X$ in the internal language is interpreted as a quantification over all [[generalized elements]] $I \to X$ rather than merely the global elements $1 \to X$. Then the statement when quantifying over generalized elements is true as a consequence of the definition of an [[exponential]].
+
+Although the internal logic of a locally cartesian closed category is a dependent type theory, a category satisfying function extensionality is not the same as a dependent type theory satisfying function extensionality, the latter corresponds to well-pointedness. This is because there is always an [[equivalence of types]] between the type $X$ and the [[function type]] $1 \to X$ from the [[unit type]] to $X$, and the quantifier $\forall x:X$ defined as the [[propositional truncation]] of the dependent product $\prod_{x:X}$ is interpreted element-wise in dependent type theory, which, by the above equivalence, is quantified over the global elements rather than over the generalized elements. 
 
 ### In type theory
  {#InTypeTheory}
@@ -425,6 +431,12 @@ On definitional function extensionality in [[higher observational type theory]]:
 
 [[!redirects function extensionality]]
 [[!redirects functional extensionality]]
+
+[[!redirects external function extensionality]]
+[[!redirects external functional extensionality]]
+
+[[!redirects internal function extensionality]]
+[[!redirects internal functional extensionality]]
 
 [[!redirects FunExt]]
 
