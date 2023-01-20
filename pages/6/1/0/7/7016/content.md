@@ -39,13 +39,21 @@ The principle of functional extensionality states that two [[functions]] are [[e
 ### In set theory
  {#InSetTheory}
 
-In [[set theory]], there are two equivalent notions of function extensionality:
+In [[set theory]], given [[generalized the|the]] [[uniqueness quantifier|unique]] [[singleton]] $\mathbb{1}$ up to [[bijection]], there are four equivalent notions of function extensionality:
 
-* for all sets $A$ and $B$ and functions $f:A \to B$ and $g:A \to B$, $f = g$ if and only if for all elements $x \in A$ $f(x) = g(x)$. 
+* for all sets $A$ and $B$ and functions $f:A \to B$ and $g:A \to B$, $f = g$ if and only if for all elements $x \in A$, $f(x) = g(x)$. 
 
-* for all sets $A$ and $B$ and elements of the [[function set]] $f \in B^A$ and $g \in B^A$, $f = g$ if and only if for all elements $x \in A$ $\mathrm{ev}(f, x) = \mathrm{ev}(g, x)$. 
+* for all sets $A$ and $B$ and functions $f:A \to B$ and $g:A \to B$, $f = g$ if and only if for all functions $x:\mathbb{1} \to A$, $f \circ x = g \circ x$. 
 
-While the former is the one most commonly found in most foundations of [[categorical set theories]] as the [[axiom of extensionality]], the latter is the set theoretic analogue of the axiom of function extensionality found in [[dependent type theories]], where functions are elements of function types, the type theoretic analogue of function sets. Nonetheless, the two notions of function extensionality are equivalent to each other by [[currying]] and the [[universal property]] of [[function sets]]. 
+* for all sets $A$ and $B$ and elements of the [[function set]] $f \in B^A$ and $g \in B^A$, $f = g$ if and only if for all elements $x \in A$, $\mathrm{ev}_{A, B}(f, x) = \mathrm{ev}_{A, B}(g, x)$. 
+
+* for all sets $A$ and $B$ and elements of the [[function set]] $f \in B^A$ and $g \in B^A$, $f = g$ if and only if for all elements of the function set $x \in A^\mathbb{1}$, $\mathrm{comp}_{\mathbb{1}, A, B}(f, x) = \mathrm{comp}_{\mathbb{1}, A, B}(g, x)$. 
+
+The first is the one most commonly found in foundations of [[categorical set theories]] with separate notions of [[element]] and [[function]]. The second is the one most commonly found in foundations of [[categorical set theories]] where an [[element]] is defined as a [[function]] out of [[generalized the|the]] terminal set $\mathbb{1}$. The third is the set theoretic analogue of the axiom of function extensionality found in [[dependent type theories]], where functions are elements of function types, the type theoretic analogue of function sets. 
+
+Nonetheless, the first and the third notions of function extensionality are equivalent to each other, since for every set theory with [[function sets]], the [[category of sets]] is a [[cartesian closed category]], which means that there is a [[bijection]] between the [[hom-sets]] 
+$$\mathrm{Hom}(X, Y) \cong \mathrm{Hom}(1, Y^X)$$
+and thus for every function $f:X \to Y$ there is a unique element of a function set $[f] \in Y^X$, and for every element of a function set $g \in Y^X$ there is a unique function $g':X \to Y$
 
 ### In category theory
 
