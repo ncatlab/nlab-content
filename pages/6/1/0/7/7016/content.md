@@ -37,6 +37,7 @@ The principle of functional extensionality states that two [[functions]] are [[e
 ## Definition
 
 ### In set theory
+ {#InSetTheory}
 
 In [[set theory]], there are two equivalent notions of function extensionality:
 
