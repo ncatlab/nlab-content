@@ -15,7 +15,7 @@
 
 ## Idea
 
-A [[2-category]] is a good context for doing a lot of category theory (including [[internal category]] theory, [[enriched category]] theory, and so on), but there are some things that are hard to do there, such as to talk about [[weighted limits]] and colimits.  This leads one to introduce the notion of a [[2-category equipped with proarrows]], which is a 2-category along with extra data that plays the role of [[profunctors]], allowing the definition of weighted limits and other aspects of category theory.
+A [[2-category]] is a good context for doing a lot of category theory (including [[internal category]] theory), but there are some things that are hard to do there, such as to talk about [[weighted limits]] and colimits, and [[enriched category]] theory more generally.  This leads one to introduce the notion of a [[2-category equipped with proarrows]], which is a 2-category along with extra data that plays the role of [[profunctors]], allowing the definition of weighted limits and other aspects of category theory.
 
 However, it would also be nice if the extra data in a proarrow equipment were somehow determined by the 2-category we started with.  This is especially so when talking about functors between equipments, since functors between 2-categories are often easier to construct.  It turns out that in many cases, including the most common ones, this is the case: we can construct the proarrows in terms of the underlying 2-category.  This was originally realized by Ross Street.
 
@@ -203,7 +203,7 @@ An equippable 2-category with $\mathcal{E} =$ liberal cofaithfuls = liberals is 
 
 ## References
 
-* [[Ross Street]], "Fibrations in bicategories", [MR](http://www.ams.org/mathscinet-getitem?mr=574662), and [correction](http://www.ams.org/mathscinet-getitem?mr=903151).
+* [[Ross Street]], "Fibrations in bicategories", [Numdam](http://www.numdam.org/item/?id=CTGDC_1980__21_2_111_0), and [correction](http://www.ams.org/mathscinet-getitem?mr=903151).
 
 * [[Aurelio Carboni]] and [[Scott Johnson]] and [[Ross Street]] and [[Dominic Verity]], "Modulated bicategories" (MB) [MR](http://www.ams.org/mathscinet-getitem?mr=1285544).
 
