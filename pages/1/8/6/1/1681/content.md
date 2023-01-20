@@ -261,6 +261,8 @@ Formalization of Eilenberg-MacLane spaces in [[homotopy type theory]]:
 
 * {#vanDoorn18} [[Floris van Doorn]], §42 in: *On the Formalization of Higher Inductive Types and Synthetic Homotopy Theory* (2018) &lbrack;[arXiv:1808.10690](https://arxiv.org/abs/1808.10690)&rbrack;
 
+* [[Ulrik Buchholtz]], [[J. Daniel Christensen]], [[Jarl G. Taxerås Flaten]], [[Egbert Rijke]], *Central H-spaces and banded types* &lbrack;[arXiv:2301.02636](https://arxiv.org/abs/2301.02636)&rbrack;
+
 * [[David Wärn]], _Eilenberg-MacLane spaces and stabilisation in homotopy type theory_ &lbrack;[arXiv:2301.03685](https://arxiv.org/abs/2301.03685)&rbrack;
 
 
