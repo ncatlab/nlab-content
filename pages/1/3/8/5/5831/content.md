@@ -15,10 +15,14 @@ Introducing the notion of [[inductive types]] in [[type theory]] which later bec
 * [[Thierry Coquand]], [[Christine Paulin]], *Inductively defined types*, COLOG-88 Lecture Notes in Computer Science **417**, Springer (1990) 50-66 &lbrack;[doi:10.1007/3-540-52335-9_47](https://doi.org/10.1007/3-540-52335-9_47)&rbrack;
 
 
-
 On [[identity types]] in [[dependent type theory]] ([[homotopy type theory]]):
 
 * [[Thierry Coquand]], slides 26-28 of: *Equality and dependent type theory* (2011) &lbrack;[pdf](https://www.cse.chalmers.se/~coquand/equality.pdf), [[Coquand-EqualityAndDependentTypeTheory.pdf:file]]&rbrack;
+
+
+On the [[structure identity principle]]:
+
+* [[Thierry Coquand]], [[Nils Anders Danielsson]], *Isomorphism is equality*, Indagationes Mathematicae **24** 4 (2013) 1105-1120 &lbrack;[doi:10.1016/j.indag.2013.09.002](https://doi.org/10.1016/j.indag.2013.09.002)&rbrack;
 
 
 ## Related entries
