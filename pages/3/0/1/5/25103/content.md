@@ -16,8 +16,10 @@
 * [[homotopy type theory]]
 
 ## References
+  
+* [[Peter Aczel]], *On Voevodsky’s Univalence Axiom*, talk at  Third European Set Theory Conference (2011) &lbrack;[pdf](http://www.cs.man.ac.uk/~petera/Recent-Slides/Edinburgh-2011-slides_pap.pdf), [[Aczel-Univalence.pdf:file]]&rbrack; 
 
-* [[Peter Aczel]], *On Voevodsky’s Univalence Axiom*, talk at Third European Set Theory Conference (2011) &lbrack;[pdf](http://www.cs.man.ac.uk/~petera/Recent-Slides/Edinburgh-2011-slides_pap.pdf), [[Aczel-Univalence.pdf:file]]&rbrack;
+* [[Thierry Coquand]], [[Nils Anders Danielsson]], *Isomorphism is equality*, Indagationes Mathematicae **24** 4 (2013) 1105-1120 &lbrack;[doi:10.1016/j.indag.2013.09.002](https://doi.org/10.1016/j.indag.2013.09.002)&rbrack;
 
 * [[Univalent Foundations Project]], §9.8 of: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
