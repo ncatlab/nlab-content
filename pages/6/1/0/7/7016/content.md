@@ -39,7 +39,11 @@ The principle of functional extensionality states that two [[functions]] are [[e
 ### In set theory
  {#InSetTheory}
 
-In [[set theory]], given [[generalized the|the]] [[uniqueness quantifier|unique]] [[singleton]] $\mathbb{1}$ up to [[bijection]], there are four equivalent notions of function extensionality:
+In set theory, in the same way that the [[axiom of choice]] has internal and external versions, depending on whether one uses the [[external logic]] or the [[internal logic]] of the [[set theory]], function extensionality also has internal and external versions. 
+
+#### External function extensionality
+
+In [[set theory]], let $\mathbb{1}$ denote [[generalized the|the]] [[uniqueness quantifier|unique]] [[singleton]] up to [[bijection]]. There are multiple notions of **external function extensionality**, due to the different possible notions of [[function]] and [[element]] in set theory:
 
 * for all sets $A$ and $B$ and functions $f:A \to B$ and $g:A \to B$, $f = g$ if and only if for all elements $x \in A$, $f(x) = g(x)$. 
 
@@ -49,21 +53,46 @@ In [[set theory]], given [[generalized the|the]] [[uniqueness quantifier|unique]
 
 * for all sets $A$ and $B$ and elements of the [[function set]] $f \in B^A$ and $g \in B^A$, $f = g$ if and only if for all elements of the function set $x \in A^\mathbb{1}$, $\mathrm{comp}_{\mathbb{1}, A, B}(f, x) = \mathrm{comp}_{\mathbb{1}, A, B}(g, x)$. 
 
-The first is the one most commonly found in foundations of [[categorical set theories]] with separate notions of [[element]] and [[function]]. The second is the one most commonly found in foundations of [[categorical set theories]] where an [[element]] is defined as a [[function]] out of [[generalized the|the]] terminal set $\mathbb{1}$. The third is the set theoretic analogue of the axiom of function extensionality found in [[dependent type theories]], where functions are elements of function types, the type theoretic analogue of function sets. 
+The first is the one most commonly found in foundations of [[categorical set theories]] with separate notions of [[element]] and [[function]]. The second is the one most commonly found in foundations of [[categorical set theories]] where an [[element]] is defined as a [[function]] out of [[generalized the|the]] terminal set $\mathbb{1}$. 
 
-Nonetheless, the first and the third notions of function extensionality are equivalent to each other, since for every set theory with [[function sets]], the [[category of sets]] is a [[cartesian closed category]], which means that there is a [[bijection]] between the [[hom-sets]] 
+The first and the third notions of function extensionality are equivalent to each other, since for every set theory with [[function sets]], the [[category of sets]] is a [[cartesian closed category]], which means that there is a [[bijection]] between the [[hom-sets]] 
 $$\mathrm{Hom}(X, Y) \cong \mathrm{Hom}(1, Y^X)$$
-and thus for every function $f:X \to Y$ there is a unique element of a function set $[f] \in Y^X$, and for every element of a function set $g \in Y^X$ there is a unique function $g':X \to Y$
+and thus for every function $f:X \to Y$ there is a unique element of a function set $[f] \in Y^X$, and for every element of a function set $g \in Y^X$ there is a unique function $g':X \to Y$. 
+
+#### Internal function extensionality
+
+In [[set theory]], let $\mathbb{1}$ denote [[generalized the|the]] [[uniqueness quantifier|unique]] [[singleton]] up to [[bijection]], let $\left[A\right]$ denote the [[support of a set|support]] of the set $A$, and let $\prod_{x \in A} B_x$ denote the [[Cartesian product]] of a family of sets $(B_x)_{x \in A}$. For all sets $A$, let $\Delta_{A}:A \to A \times A$ denote the [[diagonal function]]; this means that the [[preimage]] of $\Delta_{A}$ at $(x, y) \in A \times A$, $\Delta_{A}^*(x, y)$, is a [[subsingleton]], and $(\Delta_{A}^*(x, y))_{x \in A, y \in A}$ is a [[family of sets]]. 
+
+The principle of **internal function extensionality** is given by one of the two equivalent statements:
+
+* given sets $A$ and $B$, one can derive the element of the set
+$$\mathrm{funext}_{A, B} \in \prod_{f \in B^A} \prod_{g \in B^A} \Delta_{B^A}^*(f, g)^{\prod_{x \in A} \Delta_{B}^*(\mathrm{ev}_{A, B}(f, x), \mathrm{ev}_{A, B}(g, x))}$$
+
+* given sets $A$ and $B$, one can derive the element of the set
+$$\mathrm{funext}_{A, B} \in \prod_{f \in B^A} \prod_{g \in B^A} \Delta_{B^A}^*(f, g)^{\prod_{x \in A^\mathbb{1}} \Delta_{B^\mathbb{1}}^*(\mathrm{comp}_{\mathbb{1}, A, B}(f, x), \mathrm{comp}_{\mathbb{1}, A, B}(g, x))}$$
+
+This is the set theoretic analogue of the axiom of function extensionality found in [[dependent type theories]], where functions are elements of function types, the type theoretic analogue of function sets, and equalities are represented by identity types, the type theoretic analogue of the [[diagonal subset|diagonal]] [[one-to-one correspondence]], and is true in any set theory with [[Cartesian products]] of arbitrary [[families of sets]] as well as [[function sets]]. 
 
 ### In category theory
+  {#InCategoryTheory}
 
-There are two natural ways to extend the set-theoretic definition of function extensionality from the category of sets to more general categories by using either the external notion of quantifying over points as morphisms from the terminal object $x : 1 \to C$ or by interpreting the logical formulation of function extensionality in the [[internal language]] of the category. These notions are *not* equivalent and it is the latter form that would usually be intended when saying that a category “satisfies function extensionality” as it means that the category can be used as a model of a logic where function extensionality is provable.
+#### Generalizing external function extensionality
 
-The “external” formulation of function extensionality corresponds to the statement that the [[terminal object]] is an [[extremal generator]] in [[category]], and is one of the conditions for making a [[pretopos]] a [[well-pointed pretopos]]. This definition is satisfied in any [[concrete category]] $\mathcal{C}$.
+There are multiple ways to extend the set-theoretic definition of external function extensionality from the category of sets to more general categories. 
 
-The “internal” formulation can be interpreted in a category with a rich enough [[internal language]]. For instance, function extensionality can be stated in the [[Mitchell-Benabou language]] and is true in any [[topos]]. So every topos *internally* satisfies function extensionality despite the fact that toposes do not generally satisfy the external notion of being well-pointed. This is because the quantifier $\forall x:X$ in the internal language is interpreted as a quantification over all [[generalized elements]] $I \to X$ rather than merely the global elements $1 \to X$. Then the statement when quantifying over generalized elements is true as a consequence of the definition of an [[exponential object]].
+* The first notion of external function extensionality extends from the [[category of sets]] to any [[concrete category]] $C$, where objects are specific kinds of sets (such as [[groups]], [[rings]], [[topological spaces]], et cetera) and morphisms are specific kinds of functions between sets (such as [[group homomorphisms]], [[ring homomorphisms]], [[continuous maps]], et cetera). 
 
-### In type theory
+* The second notion of external function extensionality extends from the category of sets to any [[well-pointed category]] $C$, and corresponds to the statement that the [[terminal object]] is an [[extremal generator]] in [[category]], and is one of the conditions for making a [[pretopos]] a [[well-pointed pretopos]]. This definition is satisfied in any [[concrete category]] $\mathcal{C}$. This is not the same as the first notion of external function extensionality, since not every concrete category is well-pointed, and not every well-pointed category is concrete: [[Grp]] is concrete but not well-pointed, while an arbitrary model of [[ETCS]] is well-pointed but not necessarily concrete. 
+
+* The third and fourth notions of external function extensionality extends from the category of sets to any concrete [[cartesian closed category]] $C$, and is equivalent to the first notion in any concrete cartesian closed category. 
+
+None of these notions are called "function extensionality" in category theory. The term "function extensionality" is reserved for the generalization of internal function extensionality to arbitrary categories, as documented in the next section. 
+
+#### Generalizing internal function extensionality
+
+The notion of **function extensionality** in a category arises from the generalization of the set-theoretic definition of internal function extensionality from the category of sets to more general categories. In particular, similar to internal function extensionality, it the logical formulation of function extensionality in the [[internal language]] of the category. The “internal” formulation can be interpreted in a category with a rich enough [[internal language]]. For instance, function extensionality can be stated in the [[Mitchell-Benabou language]] and is true in any [[topos]]. So every topos *internally* satisfies function extensionality despite the fact that toposes do not generally satisfy the external notion of being concrete or well-pointed. This is because the quantifier $\forall x:X$ in the internal language is interpreted as a quantification over all [[generalized elements]] $I \to X$ rather than merely the global elements $1 \to X$. Then the statement when quantifying over generalized elements is true as a consequence of the definition of an [[exponential object]].
+
+### In dependent type theory
  {#InTypeTheory}
 
 In [[intensional type theory]], the notion of [[equality]] $a = a'$ is replaced by [[identifications]], these being [[terms]] of [[identity type]] $Id_A(a,a')$. Since such [[identity type]] are in general not [[mere propositions]], care needs to be exercised in stating function extensionality in intensional type theory:
@@ -180,11 +209,9 @@ $$
 
 respectively. 
 
-### For judgmental equality of sections
+### For judgmental equality of sections
 
 Suppose that given functions $f:A \to B$ and $g:A \to B$, for all $x:A$, $f(x)$ and $g(x)$ are [[judgmentally equal]] to each other $f(x) \equiv g(x):B$. Then it follows that $f$ and $g$ are judgmentally equal to each other, $f \equiv g:A \to B$, and thus function extensionality holds. This result is crucial in the proof of function extensionality from an [[interval type]] with judgmental computation rules. 
-
-
 
 ## Properties
  {#Properties}
