@@ -22,9 +22,11 @@
 
 ## Idea
 
-The idea underpinning the definition of higher Kac-Moody algebras is that the natural framework to construct higher-dimensional generalizations of [[Kac-Moody algebras]] is [[derived algebraic geometry]].
+The idea underpinning the definition of higher Kac-Moody algebras in [FHK 19](#FHK19) is that the natural framework to construct higher-dimensional generalizations of [[Kac-Moody algebras]] is [[derived algebraic geometry]].
 
 ## Details
+
+### Faonte-Hennion-Kapranov higher Kac-Moody algebras
 
 Let $X$ be an $n$-dimensional [[variety]] over $\mathbb{C}$ and $\mathfrak{g}$ a [[Lie algebra]]. We can define the __higher current algebra__ by the [[dg-Lie algebra]]
 $$ \mathfrak{g}_n \;=\; \mathfrak{g}\otimes\mathbb{R}\Gamma(\mathbb{D}_n^\circ,\mathcal{O}_X), $$
@@ -55,11 +57,11 @@ $$ \mathrm{H}^i(\mathbb{D}_n^\circ,\mathcal{O}_X) \;=\; \begin{cases}\mathbb{C}[
 
 Higher Kac-Moody algebras were proposed in
 
-* G. [[Faonte]], B. [[Hennion]] and M. [[Kapranov]], _Higher Kac-Moody algebras and moduli spaces of $G$-bundles_, Advances in Mathematics, Volume 346, 13 April 2019, pages 389-466, [math.AG/1701.01368](https://arxiv.org/abs/1701.01368v3).
+* {#FHK19} G. [[Faonte]], B. [[Hennion]] and M. [[Kapranov]], _Higher Kac-Moody algebras and moduli spaces of $G$-bundles_, Advances in Mathematics, Volume 346, 13 April 2019, pages 389-466, [math.AG/1701.01368](https://arxiv.org/abs/1701.01368v3).
 
 * M. [[Kapranov]], _Infinite-dimensional (dg) Lie algebras and factorization algebras in algebraic geometry_, Japanese Journal of Mathematics volume 16, pages 49–80 (2021) [https://doi.org/10.1007/s11537-020-1921-4](https://doi.org/10.1007/s11537-020-1921-4).
 
-Higher Kac-Moody algebras were casted in the language of factorization algebras in
+Higher Kac-Moody algebras were casted in the language of [[factorization algebras]] in
 
 * O. Gwilliam and B.R. Williams, _Higher Kac-Moody algebras and symmetries of holomorphic field theories_, Adv.Theor.Math.Phys. 25 (2021) 1, pages 129-239 [math.QA/1810.06534](https://arxiv.org/abs/1810.06534v2).
 
