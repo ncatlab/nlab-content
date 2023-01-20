@@ -205,3 +205,8 @@ Under [[categorical semantics]], a dependent type $x\colon A \vdash B(x)\colon T
 [[!redirects Sigma types]]
 [[!redirects Sigma-type]]
 [[!redirects Sigma-types]]
+
+[[!redirects dependent pair]]
+[[!redirects dependent pairs]]
+
+
