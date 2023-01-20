@@ -59,6 +59,7 @@ In [[dependent type theory]], a [[type]] $A$ is a [[contractible type]] if it co
 * a [[span]] $(C; z:C \vdash g(z):A; z:C \vdash h(z):B)$ for which the dependent type $\sum_{z:C} g(z) =_A x$ is a [[contractible type]] for all $x:A$
 * a [[multivalued partial function]] $(x:A \vdash P(x); x:A, p:P(x) \vdash f(x, p):B)$ for which the dependent type $P(x)$ is a [[contractible type]] for all $x:A$
 * a [[correspondence]] $x:A, y:B \vdash R(x, y)$ for which the dependent type $\sum_{y:B} R(x, y)$ is a [[contractible type]] for all $x:A$. 
+* a family of types $y:B \vdash A'(y)$
 * an element of the [[function type]] $f:A \to B$, in dependent type theories with function types. 
 
 The first four definitions are interdefinable with each other in [[dependent type theories]] with [[identity types]] and [[dependent sum types]]: 
@@ -89,7 +90,13 @@ The first four definitions are interdefinable with each other in [[dependent typ
 
   * From every correspondence one could get a span by defining the type $C$ as $C \coloneqq \sum_{x:A} \sum_{y:B} R(x, y)$, the family of elements $z:C \vdash g(z):A$ as $g(z) \coloneqq \pi_1(z)$, and the function $z:C \vdash h(z):B$ as $h(z) \coloneqq \pi_1(\pi_2(z))$ 
 
-If the dependent type theory has [[function types]], then 
+The first and fifth definitions are interdefinable by the following
+
+* From every family of elements $x:A \vdash f(x):B$ one could get a family of types by $y:B \vdash \sum_{x:A} f(x) =_B y$ where $A'(y) \coloneqq \sum_{x:A} f(x) =_B y$. 
+
+* From every family of types $y:B \vdash A'(y)$ one could get a family of elements $x:\sum_{y:B} A'(y) \vdash \pi_1(x):B$ where $A \coloneqq \sum_{y:B} A'(y)$. 
+
+If the dependent type theory has [[function types]], then  
 
 * From every element of the function type $f:A \to B$, one could define a family of elements $x:A \vdash f'(x):B$ as $f'(x) \coloneqq \mathrm{ev}(f, x)$, where $f:A \to B, x:A \vdash \mathrm{ev}(f, x):B$ appears in the [[elimination rules]] for function types. 
 
