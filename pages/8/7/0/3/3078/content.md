@@ -28,6 +28,8 @@ On [[superalgebra]]:
 
 * [[higher parallel transport]]
 
+* [[Higher Kac-Moody algebras]]
+
 
 
 
