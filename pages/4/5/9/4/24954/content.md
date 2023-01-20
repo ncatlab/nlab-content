@@ -35,6 +35,12 @@ The only dependent type theory which only has one notion of equality is [[object
 
 In addition, the equality in all set theories are by definition propositions, while only in [[set-level type theories]] such as those with [[UIP]], [[axiom K]], or [[boundary separation]] have subsingleton-valued typal equality. More general dependent type theories have equalities which could be sets, or types representing [[infinity-groupoids]]. 
 
+### Functions
+
+Categorical set theory has two notions of functions, either as elements of [[function sets]] $f \in B^A$ or as a primitive $f:A \to B$ in the set theory. One could compare functions for equality in either case.
+
+Dependent type theory only has one notion of function which could be compared for equality: an element of a [[function type]] $f:A \to B$. The corresponding primitive notion is the concept of family of elements $x:A \vdash f(x):B$, of which there is no corresponding notion of equality of a family of elements. 
+
 ## See also
 
 * [[set theory]]
