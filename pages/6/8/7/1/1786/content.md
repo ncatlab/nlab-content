@@ -215,10 +215,9 @@ Wikipedia\'s definition (at time of this writing, and phrased in the language of
 
 For H-spaces in [[homotopy type theory]]:
 
-* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+* [[Univalent Foundations Project]], [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
-* [[Ulrik Buchholtz]], [[J. Daniel Christensen]], Jarl G. Taxerås Flaten, [[Egbert Rijke]], _Central H-spaces and banded types_ ([arXiv:2301.02636](https://arxiv.org/abs/2301.02636))
-
+* [[Ulrik Buchholtz]], [[J. Daniel Christensen]], [[Jarl G. Taxerås Flaten]], [[Egbert Rijke]], *Central H-spaces and banded types* &lbrack;[arXiv:2301.02636](https://arxiv.org/abs/2301.02636)&rbrack;
 
 See also
 
