@@ -32,9 +32,9 @@ On [[localization of a space|localization]] (in [[algebraic topology]]) formulat
 
 * [[J. Daniel Christensen]], [[Morgan Opie]], [[Egbert Rijke]], [[Luis Scoccola]], _Localization in Homotopy Type Theory_, Higher Structures, 4(1) (2020), 1-32 ([arXiv:1807.04155](https://arxiv.org/abs/1807.04155))
 
-On [[H-spaces]] treated in [[homotopy type theory]]:
+On [[delooping]], [[H-spaces]] and [[Eilenberg-MacLane spaces]] in [[homotopy type theory]]:
 
-* [[Ulrik Buchholtz]], [[J. Daniel Christensen]], Jarl G. Taxerås Flaten, [[Egbert Rijke]], _Central H-spaces and banded types_ ([arXiv:2301.02636](https://arxiv.org/abs/2301.02636))
+* [[Ulrik Buchholtz]], [[J. Daniel Christensen]], [[Jarl G. Taxerås Flaten]], [[Egbert Rijke]], *Central H-spaces and banded types* &lbrack;[arXiv:2301.02636](https://arxiv.org/abs/2301.02636)&rbrack;
 
 
 ## Related $n$Lab entries
