@@ -72,10 +72,25 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{t
 Given a [[pointed type|pointed]] [[h-proposition]] $(A, a)$, the negative dependent sum type results in $\pi_2(a,-)$ being a [[quasi-inverse function]] of $\mathrm{in}(a,-)$, rather than an [[equivalence of types]]. Thus, the positive definition is preferred to the negative definition. Alternatively, the negative dependent sum type should be defined as a [[coinductive type]] rather than an [[inductive type]]. 
 
 #### Extensionality principle
+ {#ExtensionalityPrinciple}
 
-The extensionality principle for the dependent sum type states that there is an [[equivalence of types]] between the types $(a, b) =_{\sum_{x:A} B(x)} (a', b')$ and $\sum_{p:a =_A a'} b =_B^p b'$
+The extensionality principle for the dependent sum type states that there is an [[equivalence of types]] between the [[identity type]] $(a, b) =_{\sum_{x:A} B(x)} (a', b')$ of a dependent sum type and the dependent sum $\sum_{p:a =_A a'} b =_B^p b'$ of its component's identity types:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a) \quad \Gamma \vdash a':A \quad \Gamma \vdash b':B(a')}{\Gamma \vdash \mathrm{ext}_{\Sigma}(a, b, a', b'):(a, b) =_{\sum_{x:A} B(x)} (a', b') \simeq \sum_{p:a =_A a'} b =_B^p b'}$$
+$$
+\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a) \quad \Gamma \vdash a':A \quad \Gamma \vdash b':B(a')}{\Gamma \vdash \mathrm{ext}_{\Sigma}(a, b, a', b'):(a, b) =_{\sum_{x:A} B(x)} (a', b') \simeq \sum_{p:a =_A a'} b =_B^p b'}
+$$
+
+The comparison function itself is readily obtained by [[Id-induction]]. That this indeed constitutes an [[equivalence of types]] is shown in [UFP13, Thm. 2.7.2](#UFP13).
+
+{#ExtensionalityForDependentPairs} In the notation of [[dependent pairs]] ([[dependent functions and dependent pairs -- table|here]]) this reads:
+
+<img src="/nlab/files/DependentPairExtensionality-230121.jpg" width="700">
+
+Compare to the analogous extensionality principle for [[dependent functions]] (see at *[[function extensionality]]*, [here](function+extensionality#StatementForDependentFunctions)):
+
+<img src="/nlab/files/DependentFunctionExtensionality-230121.jpg" width="700">
+
+(In this dependent generality this is a special case of [UFP13, Lem. 2.9.7](#UFP13).)
 
 ### In lambda-calculus
 
@@ -189,6 +204,15 @@ Under [[categorical semantics]], a dependent type $x\colon A \vdash B(x)\colon T
 * [[dependent sum]], [[disjoint union]]
 * [[product type]]
 * [[dependent product type]]
+
+
+## References
+
+Discussion in a context of [[homotopy type theory]]:
+
+* {#UFP13} [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+See also most references at *[[dependent type theory]]*.
 
 
 [[!redirects dependent sum type]]
