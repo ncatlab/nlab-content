@@ -50,11 +50,44 @@ This corresponds to the [[relation between type theory and category theory]]: th
 
 If the type theory has [[function types]], then the above notions are also interderivable with an element of a function type $f:A \to B$, which correspond to the [[internal hom]] of a category $C$. 
 
-One can additionally derive the following [[equivalence of types]]: 
+{#OneCan} One can additionally derive the following [[equivalences of types]]: 
 
-$$p:A \simeq \sum_{y:B} \sum_{x:A} f(x) =_B y$$
 
-$$y:B \vdash q(y):A(y) \simeq \sum_{z:\sum_{x:B} A(x)} \pi_1(z) =_A y$$
+$$
+  p
+  \;\;\;\;
+  \colon
+  \;\;\;\;
+  A 
+  \;\;
+  \simeq 
+  \;
+  \sum_{y:B} \sum_{x:A} 
+  \big(
+    f(x) =_B y
+  \big)
+$$
+
+$$
+  y \colon B 
+  \;\;\;\;
+    \vdash
+  \;\;\;\; 
+  q(y) 
+  \;\;\;
+     \colon 
+  \;\;\;
+  A(y) 
+  \;\simeq\; 
+  \sum_{
+     \mathclap{
+       z \colon \sum_{x:B} A(x)
+     }
+  } 
+  \big(
+    \pi_1(z) =_A y
+  \big)
+$$
 
 ## Examples
 
