@@ -97,7 +97,7 @@ The notion of **function extensionality** in a category arises from the generali
 
 In [[intensional type theory]], the notion of [[equality]] $a = a'$ is replaced by [[identifications]], these being [[terms]] of [[identity type]] $Id_A(a,a')$. Since such [[identity type]] are in general not [[mere propositions]], care needs to be exercised in stating function extensionality in intensional type theory:
 
-For [[types]] $A, B \,\colon\, Type $ and [[parallel morphisms|parallel]] [[function type|functions]] $f, g  \,\colon\, A \to B$, there are the following two canonical functions (from [[identity types]] of [[function types]] to [[dependent products]] of pointwise identity types), which one may use for expressing function extensionality (eq:FunctionExtensionalityInTypeTheory), both defined via [[path induction]] (see at *[[function application to identifications]]*) as shown now:
+For [[types]] $A, B \,\colon\, Type $ and [[parallel morphisms|parallel]] [[function type|functions]] $f, g  \,\colon\, A \to B$, there are the following two canonical functions (from [[identity types]] of [[function types]] to [[dependent products]] of pointwise identity types), which one may use for expressing function extensionality (eq:FunctionExtensionalityInTypeTheory), both defined via [[path induction]] (see *[[function application to identifications]]*) as shown now:
 
 \[
   \label{happlyDefinition}
@@ -175,6 +175,21 @@ Function extensionality is then the statement that the function $\mathrm{happly}
     \mathrm{happly}(f, g)
   \big)
 \]
+
+(e.g. [UFP13 (2.9.1)](#UFP13)).
+
+{#StatementForDependentFunctions} In the generality of [[dependent functions]] $f,g \,:\, (d \colon D) \to C_d$ (using the notation [[dependent functions and dependent pairs -- table|here]]) this reads:
+
+<img src="/nlab/files/DependentFunctionExtensionality-230121.jpg" width="700">
+
+(In this dependent generality this is a special case of [UFP13, Lem. 2.9.7](#UFP13).)
+
+Compare this to the analogous extensionality principle for [[dependent pairs]] (see *[there](dependent+sum+type#ExtensionalityPrinciple)*):
+
+<img src="/nlab/files/DependentPairExtensionality-230121.jpg" width="700">
+
+
+
 
 \linebreak
 
@@ -454,7 +469,7 @@ Original announcement in:
 
 Textbook accounts:
 
-* [[Univalent Foundations Project]], §2.9 & §4.9 *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+* {#UFP13} [[Univalent Foundations Project]], §2.9 & §4.9 *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
 * {#Rijke22} [[Egbert Rijke]], §13 in: *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press &lbrack;[arXiv:2212.11082](https://arxiv.org/abs/2212.11082)&rbrack;
 
