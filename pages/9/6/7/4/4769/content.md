@@ -112,6 +112,16 @@ There is another axiom which uses the fact that derivatives of functions are wel
 
 **Axiom of exponential function:** _Let $F[\epsilon]/\epsilon^2$ be the ordered local Artin $F$-algebra, with non-zero non-positive non-negative [[nilpotent element]] $\epsilon \in F[\epsilon]/\epsilon^2$ where $\epsilon^2 = 0$ and canonical $F$-algebra homomorphism $h:F \to F[x]/x^2$. There exists a unique function $\exp:F \to F$ and a function $\exp':F[\epsilon]/\epsilon^2 \to F[\epsilon]/\epsilon^2$ such that for every element $x \in F$, $h(\exp(x)) = \exp'(h(x))$, $\exp'(x + \epsilon) = \exp'(x) + \exp'(x) \epsilon$, and $\exp'(0) = 1$._
 
+## In constructive mathematics
+
+In classical mathematics, one could prove that the [[modulated Cantor real numbers]] $\mathbb{R}_C$ are [[sequentially Cauchy complete]] and equivalent to the [[HoTT book real numbers]] $\mathbb{R}_H$. However, in constructive mathematics, the above cannot be proven; while the HoTT book real numbers $\mathbb{R}_H$ are still sequentially Cauchy complete, the modulated Cantor real numbers $\mathbb{R}_C$ in general cannot be proven to be sequentially Cauchy complete. In particular, this means that the sequences 
+
+$$\left(1 + \frac{x}{n}\right)^{n} \quad \mathrm{or} \quad \sum_{i = 0}^{n} \frac{x^i}{i!}$$ 
+
+do not have a limit for all modulated Cantor real numbers $x \in \mathbb{R}_C$. However, the sequences, by definition of $\mathbb{R}_C$, do have a limit for all [[rational numbers]] $x \in \mathbb{Q}$; this means that one could restrict the [[domain]] of the exponential function to the rational numbers $\exp:\mathbb{Q} \to \mathbb{R}_C$, and define it in the usual manner:
+
+* For all rational numbers $x \in \mathbb{Q}$, there exists a unique modulated Cantor real number $\exp(x) \in \mathbb{R}_C$ such that for all positive rational numbers $\epsilon \in \mathbb{Q}_+$, there exists a natural number $N \in \mathbb{N}$ such that for all natural numbers $n \in \mathbb{N}$, if $n \geq N$, then $-\epsilon \lt \left(1 + \frac{x}{n}\right)^{n} - \exp(x) \lt \epsilon$ (or equivalently, $-\epsilon \lt \left(\sum_{i = 0}^{n} \frac{x^i}{i!}\right) - \exp(x) \lt \epsilon$).
+
 ## In Lie groups {#exp_of_Lie_groups}
 
 Note: this section is under repair. 
