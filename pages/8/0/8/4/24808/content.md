@@ -85,7 +85,18 @@ $$\frac{\Gamma \vdash i:\mathbb{N}}{\Gamma \vdash U(i):U(s(i))} \qquad \frac{\Ga
 ## See also
 
 * [[Tarski universe]]
+
 * [[two-level type theory]]
+
+## References
+
+The notion is due to:
+
+* [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]): p. 48 in: _Intuitionistic type theory_, Lecture notes Padua 1984, Bibliopolis, Napoli (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
+
+For more see the references at *[[type universe]]*.
+
 
 [[!redirects Russell universe]]
 [[!redirects Russell universes]]
+
