@@ -35,18 +35,24 @@ $$P(\star_X)\to \sum_{x:X}P(x) \to X$$
 ## Relation to families of elements. 
  {#RelationToFamiliesOfElements}
 
-Given a family of types, $x:A \vdash B(x)$, one could construct a family of elements $z:\sum_{x:A} B(x) \vdash \pi_1(z):A$ via the rules for [[dependent sum types]]. Conversely, given a family of elements $x:A \vdash f(x):B$ one could construct a family of types $y:B \vdash \sum_{x:A} f(x) =_B y$ as the family of [[fiber types]] of $x:A \vdash f(x):B$. 
+Given a family of types, $x:A \vdash B(x)$, one could construct a family of elements $z:\sum_{x:A} B(x) \vdash \pi_1(z):A$ via the [[elimination rules]] for [[negative type|negative]] [[dependent sum types]]: 
 
-This results in the facts that 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, z:\sum_{x:A} B(x) \vdash \pi_1(z):A}$$
 
-$$p:A \simeq \sum_{y:B} \sum_{x:A} f(x) =_B y$$
+Conversely, given a family of elements $x:A \vdash f(x):B$ one could construct a family of types $y:B \vdash \sum_{x:A} f(x) =_B y$ as the family of [[fiber types]] of $x:A \vdash f(x):B$, via the [[formation rules]] for [[identity types]] and [[dependent sum types]]:
 
-$$y:B \vdash q(y):A(y) \simeq \sum_{z:\sum_{x:B} A(x)} \pi_1(z) =_A y$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B}{\Gamma, x:A, y:B \vdash f(x) =_B y \; \mathrm{type}}}{\Gamma, y:B \vdash \sum_{x:A} f(x) =_B y \; \mathrm{type}}$$
 
 This corresponds to the [[relation between type theory and category theory]]: there are two ways to interpret a morphism $f:\mathrm{Hom}_C(A, B)$ in a [[category]] $C$
 
 * as a family of elements $x:A \vdash f(x):B$
 * as a family of types $y:B \vdash A(y)$
+
+One can additionally derive the following [[equivalence of types]]: 
+
+$$p:A \simeq \sum_{y:B} \sum_{x:A} f(x) =_B y$$
+
+$$y:B \vdash q(y):A(y) \simeq \sum_{z:\sum_{x:B} A(x)} \pi_1(z) =_A y$$
 
 ## Examples
 
