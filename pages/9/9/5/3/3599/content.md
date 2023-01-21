@@ -33,6 +33,7 @@ Dependent types can be thought of as [[fibrations]] ([[Serre fibrations]]) in cl
 $$P(\star_X)\to \sum_{x:X}P(x) \to X$$
 
 ## Relation to families of elements. 
+ {#RelationToFamiliesOfElements}
 
 Given a family of types, $x:A \vdash B(x)$, one could construct a family of elements $z:\sum_{x:A} B(x) \vdash \pi_1(z):A$ via the rules for [[dependent sum types]]. Conversely, given a family of elements $x:A \vdash f(x):B$ one could construct a family of types $y:B \vdash \sum_{x:A} f(x) =_B y$ as the family of [[fiber types]] of $x:A \vdash f(x):B$. 
 
