@@ -3,9 +3,9 @@
 
 ## Selected writings
 
-On [[identity types]] in [[extensional type theory|extensional]]/[[intensional type theory]]:
+On [[identity types]] in [[extensional type theory|extensional]]/[[intensional type theory|intensional]] [[dependent type theory]] ([[Martin-Löf dependent type theory]]):
 
-* {#Hofmann95} [[Martin Hofmann]], _Extensional concepts in intensional type theory_, Ph.D. thesis, University of Edinburgh, (1995) ([ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]])
+* {#Hofmann95} [[Martin Hofmann]], _Extensional concepts in intensional type theory_, Ph.D. thesis, University of Edinburgh (1995), Distinguished Dissertations, Springer (1997) &lbrack;[ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]], [doi:10.1007/978-1-4471-0963-1](https://doi.org/10.1007/978-1-4471-0963-1)&rbrack;
 
 and introducing the [[homotopy type theory]]-interpretation of [[identity types]]. and introducing what came to be known the [[univalence axiom]] (under the name "universe extensionality"):
 
