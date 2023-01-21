@@ -265,3 +265,5 @@ Textbook account:
 [[!redirects type of contractions]]
 [[!redirects h-contractible type]]
 [[!redirects isContr]]
+
+[[!redirects singleton contractibility]]
