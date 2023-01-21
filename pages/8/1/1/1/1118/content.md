@@ -173,7 +173,7 @@ etc.
 In the language of [[dependent type theory]] (using the notation for [[dependent pair types]] *[[dependent functions and dependent pairs -- table|here]]*) the type of group data structures is:
 
 
-<img src="/nlab/files/GroupDataType-230120b.jpg" width="740">
+<img src="/nlab/files/GroupDataType-230121.jpg" width="740">
 
 
 
