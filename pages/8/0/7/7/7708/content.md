@@ -99,6 +99,7 @@ means to declare it to be of the following iterated [[dependent pair]]-type:
 
 
 ### Group data structure
+ {#GroupDataStructure}
 
 The [[dependent pair]]-type declaration of [[group objects|group structure]]:
 
