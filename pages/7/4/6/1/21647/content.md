@@ -22,7 +22,7 @@
 
 ## Idea
 
-The term _higher structure_ (as used in numerous conference titles in recent years, e.g. [CGX 11](#CGX11), [BBM 16](#BBM16), [SBBM 18](#SBBM18), [JSSW 18](#JSSW18) and by a journal [HSJ](#HSJ)) has come to mean essentially what elsewhere was and is called _[[categorification|categorified]] [[mathematical structure]]_ or _[[mathematical structure]] [[internalization|in]] [[higher category theory]]_, or, more specifically, _[[mathematical structure]] [[internalization|in]] [[(∞,1)-category theory]]_, hence _[[mathematical structure]] [[internalization|in]] [[homotopy theory]]_ ([[higher algebra]]/[[homotopical algebra]], [[higher geometry]]/[[derived algebraic geometry|derived geometry]], etc.).
+The term _higher structure_ (as used in numerous conference titles in recent years, e.g. [CGX 11](#CGX11), [BBM 16](#BBM16), [SBBM 18](#SBBM18), [JSSW 18](#JSSW18) and by a journal [Higher Structures](#HSJ)) has come to mean essentially what elsewhere was and is called _[[categorification|categorified]] [[mathematical structure]]_ or _[[mathematical structure]] [[internalization|in]] [[higher category theory]]_, or, more specifically, _[[mathematical structure]] [[internalization|in]] [[(∞,1)-category theory]]_, hence _[[mathematical structure]] [[internalization|in]] [[homotopy theory]]_ ([[higher algebra]]/[[homotopical algebra]], [[higher geometry]]/[[derived algebraic geometry|derived geometry]], etc.).
 
 For example, [[L-∞ algebras]], which are [[Lie algebra objects]] [[internalization|in]] the [[(∞,1)-category|(∞,1)-]][[category of chain complexes]], would be a core topic in _higher structures in [[Lie theory]]_ (elsewhere: _[[∞-Lie theory]]_).
 
@@ -84,7 +84,7 @@ Conferences and proceedings:
 
 Journals:
 
-* {#HSJ} _[Higher Structures](https://journals.mq.edu.au/index.php/higher_structures)_, Jornal ISSN 2209-0606
+* {#HSJ} _[Higher Structures](https://journals.mq.edu.au/index.php/higher_structures)_, Journal ISSN 2209-0606
 
 
 
