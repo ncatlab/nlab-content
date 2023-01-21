@@ -1,8 +1,15 @@
-**Ieke Moerdijk** is a professor of mathematics at the Mathematisch Instituut of the Radboud University Nijmegen. Previously he was in Utrecht.  His main interests are in [[sheaf]] and [[topos theory]], [[descent]] and [[cohomology]], [[synthetic differential geometry]], [[operads]], [[groupoids]], [[stacks]] and [[orbifolds]], [[Lie groupoids]] and foliations, and abstract homotopy theory (Quillen [[model categories]]). 
+**Ieke Moerdijk** is a professor of mathematics at University of Utrecht.  His main interests are in [[sheaf]] and [[topos theory]], [[descent]] and [[cohomology]], [[synthetic differential geometry]], [[operads]], [[groupoids]], [[stacks]] and [[orbifolds]], [[Lie groupoids]] and foliations, and abstract homotopy theory (Quillen [[model categories]]). 
 
 * [website](http://www.math.uu.nl/people/moerdijk/), [wikipedia](http://en.wikipedia.org/wiki/Ieke_Moerdijk), [GQT:researchers](http://www.gqt.nl/members.php)
 
 The website of the research group is [here](http://www.math.ru.nl/~mgroth/group/group.html).
+
+## Selected writings
+
+On the [[categorical semantics]] of well-founded [[inductive types]] ([[W-types|$\mathcal{W}$-types]]) as given by [[initial algebra over an endofunctor|initial algebras over]] [[polynomial functor|polynomial]] [[endofunctors]] on the [[type system]]:
+
+* {#MoerdijkPalmgren00} [[Ieke Moerdijk]], [[Erik Palmgren]], *Wellfounded trees in categories*, Annals of Pure and Applied Logic **104** 1-3 (2000) 189-218 &lbrack;<a href="https://doi.org/10.1016/S0168-0072(00)00012-9">doi:10.1016/S0168-0072(00)00012-9</a>&rbrack;
+
 
 ## books with table of contents and links on the $n$Lab ##
 
