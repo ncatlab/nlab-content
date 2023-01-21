@@ -35,11 +35,11 @@ $$P(\star_X)\to \sum_{x:X}P(x) \to X$$
 ## Relation to families of elements. 
  {#RelationToFamiliesOfElements}
 
-Given a family of types, $x:A \vdash B(x)$, one could construct a family of elements $z:\sum_{x:A} B(x) \vdash \pi_1(z):A$ via the [[elimination rules]] for [[negative type|negative]] [[dependent sum types]]: 
+Given a family of types, $x:A \vdash B(x)$, one can construct a family of elements $z:\sum_{x:A} B(x) \vdash \pi_1(z):A$ via the [[elimination rules]] for [[negative type|negative]] [[dependent sum types]]: 
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, z:\sum_{x:A} B(x) \vdash \pi_1(z):A}$$
 
-Conversely, given a family of elements $x:A \vdash f(x):B$ one could construct a family of types $y:B \vdash \sum_{x:A} f(x) =_B y$ as the family of [[fiber types]] of $x:A \vdash f(x):B$, via the [[formation rules]] for [[identity types]] and [[dependent sum types]]:
+Conversely, given a family of elements $x:A \vdash f(x):B$ one can construct a family of types $y:B \vdash \sum_{x:A} f(x) =_B y$ as the family of [[fiber types]] of $x:A \vdash f(x):B$, via the [[formation rules]] for [[identity types]] and [[dependent sum types]]:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B}{\Gamma, x:A, y:B \vdash f(x) =_B y \; \mathrm{type}}}{\Gamma, y:B \vdash \sum_{x:A} f(x) =_B y \; \mathrm{type}}$$
 
@@ -47,6 +47,8 @@ This corresponds to the [[relation between type theory and category theory]]: th
 
 * as a family of elements $x:A \vdash f(x):B$
 * as a family of types $y:B \vdash A(y)$
+
+If the type theory has [[function types]], then the above notions are also interderivable with an element of a function type $f:A \to B$, which correspond to the [[internal hom]] of a category $C$. 
 
 One can additionally derive the following [[equivalence of types]]: 
 
