@@ -5,7 +5,39 @@
 
 ## Idea
 
-(...)
+By a *stucture identity principle* one means a statement of the form that all "identifications" of [[mathematical structures]] of a given [[type]] are necessarily *structure respecting* identifications (see also *[[structuralism]]*).
+
+The source of the exact term "structure identity principle" seems to be [Aczel (2011, slide 7)](#Aczel11), but the idea will have occurred earlier (see also the *[[principle of equivalence]]*).
+
+The literature on the subject arguably suffers from absence of global conventions on how to name different notions of "identification" (*identity*, *equality*, *isomorphism*, *equivalence*, ...), which can be confusing when speaking about at principle that is all about the fine-print of identifying two nominally different notions of identifications... But the general idea is always the same: Faced with notions of "direct" and of "structure preserving" identifications, a structure-identity-principle asserts that they are suitably identical.
+
+Concretely,  [Aczel (2011, p. 9)](#Aczel11) declares that the structure identity principle (SIP) in [[homotopy type theory]] *is* the [[univalence axiom]]. The latter of course identifies [[terms]] $p \,\colon\, Id_{Type}(A,B)$ of [[identification type]] between [[types]] $A,B \,\colon\, Type$ with [[functions]] that are  [[equivalence in type theory|type-theoretic equivalences]] $f \,\colon\,  A \stackrel{\sim}{\longrightarrow} B$. 
+
+The latter is what [Aczel (2011, p. 22)](#Aczel11) calls "[[isomorphisms]]". While this matches the usage of the term "[[isomorphism]]" in abstract [[category theory]] to mean "[[invertible morphism]]", to complete the notion of "structure identity" one may want a further argument to verify that such isomorphisms really are invertible [[homomorphisms|*homo*-morphism]] with respect to some given [[mathematical structure]] (such as [group structure](structure#GroupDataStructure) etc.). Such enhancement of Aczel's notion of SIP is considered in [Coquand & Danielsson (2013)](#CoquandDanielsson13) (who do not use the terminology "structure udentity principle") and in [UFP13, §9.8](#UFP13) (who do).
+
+To make this more concrete and more manifrst, we may notice that:
+
+1. at least a large class of kinds of [[mathematical structures]] on a base type $B \,\colon\, Type$ are expressible as nothing but [[dependent pairs]] of $B$ with an iteration of further [[dependent pair]]- and [[dependent function]]- and [[identification types]] (for examples, such as [[group object|group structure]], see [here](structure#InDependentTypeTheory));
+
+1. the [[univalence axiom]] implies extensionality principles for all three of these [[type formations]], namely [[dependent function|dependent]] [[function extensionality]] ([here](function+extensionality#InTypeTheory)) and its analog for dependent pairs ([here](dependent+sum+type#ExtensionalityPrinciple)):
+
+\[
+  \label{ExtensionalityPrinciples}
+\]
+
+<img src="/nlab/files/DependentPairExtensionality-230121.jpg" width="600">
+
+<img src="/nlab/files/DependentFunctionExtensionality-230121.jpg" width="600">
+
+
+But together this means exactly that any identification of two structured types which are given as iterated dependent function-, dependent pair- and identity-types of the same form is equivalent to giving the corresponding dependent function- and dependent pairing of componenwise identifications --- but this is exactly what one wants to mean by "preserving" this structure as in the notion of [[homomorphisms]].
+
+For example, with the type of [[group object|group structures]] defined as 
+
+<img src="/nlab/files/GroupDataType-230121.jpg" width="740">
+
+then the above extensionality principles (eq:ExtensionalityPrinciples) imply that the [[type of identifications]] of groups is...
+
 
 ## Related concepts
 
@@ -17,11 +49,11 @@
 
 ## References
   
-* [[Peter Aczel]], *On Voevodsky’s Univalence Axiom*, talk at  Third European Set Theory Conference (2011) &lbrack;[pdf](http://www.cs.man.ac.uk/~petera/Recent-Slides/Edinburgh-2011-slides_pap.pdf), [[Aczel-Univalence.pdf:file]]&rbrack; 
+* {#Aczel11} [[Peter Aczel]], *On Voevodsky’s Univalence Axiom*, talk at  Third European Set Theory Conference (2011) &lbrack;[pdf](http://www.cs.man.ac.uk/~petera/Recent-Slides/Edinburgh-2011-slides_pap.pdf), [[Aczel-Univalence.pdf:file]]&rbrack; 
 
-* [[Thierry Coquand]], [[Nils Anders Danielsson]], *Isomorphism is equality*, Indagationes Mathematicae **24** 4 (2013) 1105-1120 &lbrack;[doi:10.1016/j.indag.2013.09.002](https://doi.org/10.1016/j.indag.2013.09.002)&rbrack;
+* {#CoquandDanielsson13} [[Thierry Coquand]], [[Nils Anders Danielsson]], *Isomorphism is equality*, Indagationes Mathematicae **24** 4 (2013) 1105-1120 &lbrack;[doi:10.1016/j.indag.2013.09.002](https://doi.org/10.1016/j.indag.2013.09.002)&rbrack;
 
-* [[Univalent Foundations Project]], §9.8 but also §2 of: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+* {#UFP13} [[Univalent Foundations Project]], §9.8 but also §2 of: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
 * [[Benedikt Ahrens]], [[Paige Randall North]], [[Michael Shulman]], [[Dimitris Tsementzis]], *A Higher Structure Identity Principle*, LICS '20 (2020) 53–66 &lbrack;[arXiv:2004.06572](https://arxiv.org/abs/2004.06572), [doi:10.1145/3373718.3394755](https://doi.org/10.1145/3373718.3394755)&rbrack;
 
