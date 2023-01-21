@@ -10,18 +10,19 @@
 =--
 
 #Contents#
-* automatic table of contents
+* table of contents
 {:toc}
 
-##History
+## History
+ {#History}
 
-The [[HomePage|nLab]] is a _collaborative [wiki](http://en.wikipedia.org/wiki/Wiki)_.  It grew out of the desire ([I](http://golem.ph.utexas.edu/category/2007/09/towards_a_higherdimensional_wi.html), [II](http://golem.ph.utexas.edu/category/2008/11/beyond_the_blog.html)) to have a place for development (the "Lab" in "$n$Lab") and indexed archives of the ideas and concepts surrounding the discussions at the [The $n$-Category Caf&#233;](http://golem.ph.utexas.edu/category/).  These discussions primarily are about [[mathematics]], [[physics]] and [[philosophy]] from the perspective of [[higher algebra]], [[homotopy theory]], [[type theory]], [[category theory]], and [[higher category theory]] (the "$n$" in "$n$Lab" and [[nPOV]]), as well as from the perspective of [[string theory]] for physics related articles. 
+The [[HomePage|nLab]] is a _collaborative [wiki](http://en.wikipedia.org/wiki/Wiki)_.  It grew out of the desire ([I](http://golem.ph.utexas.edu/category/2007/09/towards_a_higherdimensional_wi.html), [II](http://golem.ph.utexas.edu/category/2008/11/beyond_the_blog.html)) to have a place for development (the "Lab" in "$n$Lab") and indexed archives of the ideas and concepts surrounding the discussions at the [The $n$-Category Caf&#233;](http://golem.ph.utexas.edu/category/).  These discussions primarily are about [[mathematics]], [[physics]] and [[philosophy]] from the [[higher structures]] [[n-point of view|point of view]] of [[homotopy theory]]/[[algebraic topology]], [[homotopy type theory|homotopy]] [[type theory]], [[higher category theory|higher]] [[category theory]] and [[higher algebra|higher]] [[categorical algebra]] (the "$n$" in "$n$Lab" and "[[nPOV]]"), as well as from the perspective of [[string theory]] for physics related articles. 
 
-The $n$Lab was [created](http://golem.ph.utexas.edu/category/2008/11/nlab.html) in November 2008 using software provided and set up by [[Jacques Distler]].  The name "$n$Lab" (short for "$n$-Category Lab", but perhaps less restrictive) was dreamt up by Lisa Raphals ([[John Baez]]'s wife).
+The $n$Lab was [created](http://golem.ph.utexas.edu/category/2008/11/nlab.html) in November 2008 by [[Urs Schreiber]], using software provided and set up by [[Jacques Distler]].  The name "$n$Lab" (short for "$n$-Category Lab", but perhaps less restrictive) was dreamt up by Lisa Raphals ([[John Baez]]'s wife).
 
-The $n$Lab itself spun off the [$n$Forum](https://nforum.ncatlab.org/) for discussion about the $n$Lab that doesn\'t fit well here.
+Discussion of and around edits to the $n$Lab happen on the [$n$Forum](https://nforum.ncatlab.org/) which roughly plays the role of the "talk"-pages at Wikipedia.
 
-##What the $n$Lab is
+## What the $n$Lab is
 
 The most apt analogy for the $n$Lab is of a **group lab book**.  A lab book for a research scientist is a place where they write down anything that they consider relevant for their work; a group lab book is one that several researchers with common interests use.  The material recorded in a lab book can include:
 
@@ -46,7 +47,9 @@ There are three things to say about this that are worth making very clear.
 2. But to make it _work_ properly in public, we need to make it attractive to others so that they will stop by, read our jottings, and scribble something of their own.
 3. We aim to achieve a system whereby those who put most in are also those who get most out.
 
-##Who Are We?
+For more recent impressions of the nature of this wiki see also at: *[[schreiber:What is... the nLab]]*.
+
+## Who Are We?
 
 The $n$Lab is not a community project set up for the education and improvement of Humanity.  It originally grew out of the [The $n$-Category Caf&#233;](http://golem.ph.utexas.edu/category/) and the loose-knit community surrounding that blog.  It is not possible to give a precise description of who is in that community, and the community involved in the $n$Lab has itself evolved from that starting point.  Moreover, even if it were possible to describe that community we would not wish to.  We are not a closed group, we are always keen for others to join us.  The two simple rules are:
 
