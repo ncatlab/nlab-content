@@ -14,10 +14,21 @@
 {: toc}
 
 ## Idea
+ {#Idea}
 
-In [[dependent type theory]], a _dependent sum type_ of a [[dependent type]]  $x\colon A\vdash B(x)\colon Type$ is the type whose [[terms]] are [[ordered pairs]] $(a,b)$ with $a\colon A$ and $b\colon B(a)$ (hence also called _dependent pair type_).
+In [[dependent type theory]], what is traditionally called the _dependent sum type_ (really: dependent [[coproduct]]) of a [[dependent type]]  $d \,\colon\, D \;\;\vdash\;\; C_d \,\colon\, Type$ is the type whose [[terms]] are [[ordered pairs]] $(d,c)$ with $d \,\colon\, D$ and $c \,\colon\, C_d$ --- whence also called the _dependent pair type_.
 
-In a [[model]] of the type theory in [[categorical semantics]], this is a [[dependent sum]] (indexed [[disjoint union]]).  It includes [[product types]] as the special case when B is not dependent on A, and [[sum types]] as a special case when A is the type of Booleans.
+In the [[categorical semantics]] [[categorical model of dependent type theory|of dependent type theory]] in [[fibration categories]], the dependent sum corresponds to internal [[coproducts]] over an index type.
+
+In the special case that $C_d \,=\, C$ is independent of $A$ this reduces to the [[product type]] $D \times C$, while in the special case that $D =$ [[boolean domain|Bool]] it reduces to a binary [[coproduct]].
+
+This notion is dual (in fact: adjoint) to the corresponding notion of [[dependent product type]]:
+
+[[!include dependent functions and dependent pairs -- table]]
+ 
+
+
+
 
 ## Overview
 
