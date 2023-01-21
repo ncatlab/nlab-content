@@ -23,7 +23,7 @@ A surprising parallel between classical [[Hodge theory]] and the theory of [[Gal
 A series of precise conjectures about p-adic Hodge theory was formulated by [[Jean-Marc Fontaine|Fontaine]] at the beginning of the 80's; three different proofs were proposed by [[Gerd Faltings|Faltings]], [[Wieslawa Niziol|Niziol]] and [[Takeshi Tsuji|Tsuji]].
 A significantly simpler approach was developed recently in works of [[Alexander Beilinson|Beilinson]] and [[Bhargav Bhatt|Bhatt]].
 
-_This paragraph is translated from the abstract of ([Beilinson's Yaroslavl' lectures](#BeilinsonLectures2014))._
+_This paragraph is translated from the abstract of ([Beilinson's Yaroslavly' lectures](#BeilinsonLectures2014))._
 
 ## Overview
 
