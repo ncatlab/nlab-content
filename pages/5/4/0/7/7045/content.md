@@ -21,7 +21,7 @@
 
 ## Idea
 
-In [[type theory]], a _type universe_ -- usually written $\mathcal{U}$ or $Type$ -- is a [[type]] whose [[terms]] are either themselves [[type|types]] (Russell universes), or representations of types in an internal model of the type theory (Tarski universes). Either way, it is a [[universe]] of (small) [[type|types]], a _universe in type theory_, and sometimes called a _type of types_.
+In [[type theory]], a _type universe_ -- usually written $\mathcal{U}$ or $Type$ -- is a [[type]] whose [[terms]] are either themselves [[type|types]] ([[Russell universes]]), or representations of types in an internal model of the type theory ([[Tarski universes]]). Either way, it is a [[universe]] of (small) [[type|types]], a _universe in type theory_, and sometimes called a _type of types_.
 
 {#TypeUniverseAsReflection} One also speaks of $\mathcal{U}$ as being a _reflection_ of the type system in itself (e.g. [MartinL&#246;f 74, p. 6](#MartinLoef74), [Palmgren, pp. 2-3](#Palmgren), [Rathjen, p. 1](#Rathjen), [Luo 11, section 2.5](#Luo11), [Luo 12, p. 2](#Luo12), [Stanf. Enc. Phil.](#SEP)), following the _[[reflection principle]]_ in [[set theory]].
 
@@ -78,7 +78,7 @@ Thus, the [type formers](natural+deduction#IntroductionAndElimination) have rule
 
 $$\frac{A:\mathcal{U}\quad B:A\to \mathcal{U}}{\Pi\, A\, B : \mathcal{U}}$$
 
-With Russell universes, we can also omit the judgment "$A\; type$" and replace it everywhere by a judgment that A is a term of some universe. This is the approach taken by the [[Homotopy Type Theory -- Univalent Foundations of Mathematics|HoTT textbook]] and by [[Coq]].
+With Russell universes, we can also omit the judgment "$A\; type$" and replace it everywhere by a judgment that A is a term of some universe. This is the approach taken in [UFP13](#UFP13).
 
 ### Tarski universes
  {#TarskiStyle}
@@ -124,7 +124,7 @@ Cumulative Russell universes have some issues; see for instance [Luo 12](#Luo12)
 
 * [[Agda]] uses non-cumulative Russell style universes.
 
-* The [[HoTT Book]] (first edition) uses cumulative Russell style universes.
+* [UFP13](#UFP13) (first edition) uses cumulative Russell style universes.
 
 ### Categorical semantics
  {#CategoricalSemantics}
@@ -161,20 +161,33 @@ For more on this see the respective sections at _[[relation between type theory 
 
 * [[univalent type theory]]
 
-## References
 
-Some of the text above is adapted from the entry _[[homotopytypetheory:universe]]_ at the [[homotopytypetheory:HomePage|homotopy type theory web]].
+## References
 
 Type universes in [[Martin-Löf type theory]] originate around
 
-* {#MartinLoef74} [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, In Logic Colloquium (1973), ed. H. E. Rose and J. C. Shepherdson (North-Holland, 1974), 73-118. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
+* {#MartinLof75} [[Per Martin-Löf]], §1.10 in: _An intuitionistic theory of types: predicative part_, in: H. E. Rose, J. C. Shepherdson (eds.), *Logic Colloquium '73, Proceedings of the Logic Colloquium*, Studies in Logic and the Foundations of Mathematics **80**, Elsevier (1975) 73-118 &lbrack;<a href="https://doi.org/10.1016/S0049-237X(08)71945-1">doi:10.1016/S0049-237X(08)71945-1</a>, [CiteSeer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926)&rbrack;
+
+elaborated on in
+
+* [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]): *Universes*, pp. 47 in: _Intuitionistic type theory_, Lecture notes Padua 1984, Bibliopolis, Napoli (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
+
+which also introduces (p. 48) the distinction into notions of *[[Russell universes]]* and *[[Tarski universes]]*.
+
+Further discussion in
+
+* {#Hofmann95} [[Martin Hofmann]], *Universes*, section 2.3.5 in: *Syntax and semantics of dependent types*, Chapter 2 in: _Extensional concepts in intensional type theory_, Ph.D. thesis, University of Edinburgh (1995), Distinguished Dissertations, Springer (1997) &lbrack;[ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]], [doi:10.1007/978-1-4471-0963-1](https://doi.org/10.1007/978-1-4471-0963-1)&rbrack;
+
+Review and further discussion:
+
+* {#Palmgren} [[Erik Palmgren]], _On Universes in Type Theory_, in *Twenty-Five Years of Constructive Type Theory*, Oxford University Press (1998) 191–204 &lbrack;[pdf](http://www2.math.uu.se/~palmgren/universe.pdf), [doi:10.1093/oso/9780198501275.003.0012](https://doi.org/10.1093/oso/9780198501275.003.0012)&rbrack;
+
+Introduction with an eye towards [[homotopy type theory]]:
+
+* {#UFP13} [[Univalent Foundations Project]], §1.3 in *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
 
-Basic discussion of the syntax of type universes is in 
-
-* {#Palmgren} [[Erik Palmgren]], _On Universes in Type Theory_  ([pdf](http://www2.math.uu.se/~palmgren/universe.pdf))
-
-Definition of weakly Tarski universes is in 
+Definition of weakly Tarski universes:
 
 * {#Hofmann} [[Martin Hofmann]], section 2.1.6 of _Syntax and semantics of dependent types_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.8985))
 
