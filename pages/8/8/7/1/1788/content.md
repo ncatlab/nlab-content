@@ -1,4 +1,39 @@
 
+$$
+  p
+  \;\;\;\;
+  \colon
+  \;\;\;\;
+  A 
+  \;\;
+  \simeq 
+  \;\;
+  \sum_{y:B} \sum_{x:A} 
+  \big(
+    f(x) =_B y
+  \big)
+$$
+
+$$
+  y \colon B 
+  \;\;\;\vdash\;\;\; 
+  q(y) 
+  \;\;\;
+     \colon 
+  \;\;\;
+  A(y) 
+  \;\simeq\; 
+  \sum_{
+     \mathclap{
+       z \colon \sum_{x:B} A(x)
+     }
+  } 
+  \big(
+    \pi_1(z) =_A y
+  \big)
+$$
+
+
 For $B \,\colon\, Type$ be a (base)type, 
 there is a precise sense in which $B$-[[dependent types]] may be regarded as [[function type|functions]] into $B$, hence as "[[bundles]] over $B$" (in the common sense of [[topology]]) and conversely.
 
