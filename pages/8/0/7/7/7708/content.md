@@ -63,6 +63,47 @@ There are gazillions of examples of objects equipped with extra structure. The m
 
 Generally the [[forgetful functor]] from a category of algebras over an [[algebraic theory]] down to the base category exhibits the equipment with the corresponding algebraic structure.
 
+## Structures in dependent type theory
+ {#InDependentTypeTheory}
+
+In [[dependent type theory]] the notion of "mathematical structure" and/or *data structure* on a base $B \,\colon\, Type$ is given by iterated [[dependent pairs|dependent pairing]] with $B$-dependent types encoding operations on/with this type together with their behavioural specification.
+
+
+The following shows some examples, using the notation for [[dependent pairs]] from [[dependent functions and dependent pairs -- table|here]].
+
+Via the [[extension (semantics)|extensionality]] principles for [[dependent pairs]] ([here](dependent+sum+type#ExtensionalityPrinciple)) and for [[dependent functions]] ([here](function+extensionality#StatementForDependentFunctions)) 
+
+<img src="/nlab/files/DependentPairExtensionality-230121.jpg" width="600">
+
+<img src="/nlab/files/DependentFunctionExtensionality-230121.jpg" width="600">
+
+
+such type theoretic structure automatically obey the *[[structure identity principle]]*.
+
+
+### Lensed data structure
+
+To say that a given data (base) type $B \,\colon\, Set$ is
+
+1. equipped with
+
+   1. a [[function type|function]] $read_D \,\colon\, B \to D $ reading out $D$-data;
+
+   1. a [[function type|function]] $write_D \,\colon\, D \times B \to B$ (over-)writing $D$-data;
+
+1. such that this does behave as expected, namely as a [well-behaved](lens+in+computer+science#LensesAreCostateCoalgebras) $D$-[[lens (in computer science)|lens]]-structure on $B$
+
+means to declare it to be of the following iterated [[dependent pair]]-type:
+
+<img src="/nlab/files/WellBehavedLensDataStructure-210121.jpg" width="740">
+
+
+### Group data structure
+
+The [[dependent pair]]-type declaration of [[group objects|group structure]]:
+
+<img src="/nlab/files/GroupDataType-230121.jpg" width="740">
+
 
 ## Related entries
 
@@ -71,6 +112,8 @@ Generally the [[forgetful functor]] from a category of algebras over an [[algebr
 * [[functions]] that preserves extra structure are called _[[homomorphisms]]_; [[relations]] that preserve extra structure are called [[logical relations]]_
 
 * [[Birkhoff's HSP theorem]]
+
+* [[structure identity principle]]
 
 * [[exceptional structure]]
 
