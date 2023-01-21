@@ -734,8 +734,9 @@ If we use instead a different logic over the same type theory, such as [[bracket
 [[!include notions of type]]
 
 ## References
+ {#References}
 
-See also the references at _[[type theory]]_.
+See also the references at _[[type theory]]_ and at *[[dependent type theory]]*.
 
 The original articles:
 
@@ -749,6 +750,10 @@ As a [[programming language]]:
 
 * Bengt Nordström, Kent Petersson, Jan M. Smith, *Programming in Martin-Löf's Type Theory*, Oxford University Press 1990 ([webpage](http://www.cse.chalmers.se/research/group/logic/book/), [pdf](http://www.cse.chalmers.se/research/group/logic/book/book.pdf))
 
+Further discussion:
+
+* {#Hofmann95} [[Martin Hofmann]], *Syntax and semantics of dependent types*, Chapter 2 in: _Extensional concepts in intensional type theory_, Ph.D. thesis, University of Edinburgh (1995), Distinguished Dissertations, Springer (1997) &lbrack;[ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]], [doi:10.1007/978-1-4471-0963-1](https://doi.org/10.1007/978-1-4471-0963-1)&rbrack;
+
 
 A philosophical examination:
 
@@ -758,10 +763,9 @@ An introduction and survey (with an eye towards [[homotopy type theory]]) is in 
 
 * {#Warren} [[Michael Warren]], _Homotopy theoretic aspects of constructive type theory_, PhD thesis (2008) ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
  
-
 as well as
 
-* {#Rijke} Egbert Rijke, _Homotopy type theory_ (2012) ([pdf](http://hottheory.files.wordpress.com/2012/08/hott2.pdf))
+* {#Rijke} [[Egbert Rijke]], _Homotopy type theory_ (2012) ([pdf](http://hottheory.files.wordpress.com/2012/08/hott2.pdf))
  
 
 A discussion of ML dependent type theory as the [[internal language]] of [[locally cartesian closed categories]] is in 
