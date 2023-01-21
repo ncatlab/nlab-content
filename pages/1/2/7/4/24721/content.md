@@ -308,7 +308,15 @@ Other mathematical structures and their univalent counterparts:
 
 ## References
 
-* {#Hofmann} [[Martin Hofmann]], section 2.1.6 of *Syntax and semantics of dependent types* ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.8985))
+The notion is due to:
+
+* [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]): p. 48 in: _Intuitionistic type theory_, Lecture notes Padua 1984, Bibliopolis, Napoli (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
+
+Further discussion:
+
+* {#Hofmann95} [[Martin Hofmann]], *Universes*, section 2.3.5 in: *Syntax and semantics of dependent types*, Chapter 2 in: _Extensional concepts in intensional type theory_, Ph.D. thesis, University of Edinburgh (1995), Distinguished Dissertations, Springer (1997) &lbrack;[ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]], [doi:10.1007/978-1-4471-0963-1](https://doi.org/10.1007/978-1-4471-0963-1)&rbrack;
+
+See also:
 
 * {#Luo12} [[Zhaohui Luo]], *Notes on Universes in Type Theory*, 2012 ([pdf](http://www.cs.rhul.ac.uk/home/zhaohui/universes.pdf))
 
