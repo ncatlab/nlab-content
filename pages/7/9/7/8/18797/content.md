@@ -97,6 +97,16 @@ There is another axiom which uses the fact that derivatives of functions are wel
 
 The [[dual number]] real algebra $\mathbb{D} \coloneqq \mathbb{R}[\epsilon]/\epsilon^2$ has a notion of sine and cosine function, which are the solutions to the system of functional equations $\sin(x + \epsilon) = \sin(x) + \cos(x) \epsilon$ and $\cos(x + \epsilon) = \cos(x) - \sin(x) \epsilon$ with $\sin(0) = 1$ and $\cos(0) = 1$. 
 
+## In constructive mathematics
+
+In classical mathematics, one could prove that the [[modulated Cantor real numbers]] $\mathbb{R}_C$ are [[sequentially Cauchy complete]] and equivalent to the [[HoTT book real numbers]] $\mathbb{R}_H$. However, in constructive mathematics, the above cannot be proven; while the HoTT book real numbers $\mathbb{R}_H$ are still sequentially Cauchy complete, the modulated Cantor real numbers $\mathbb{R}_C$ in general cannot be proven to be sequentially Cauchy complete. In particular, this means that the sequence 
+
+$$\sum_{i = 0}^{n} \frac{(-1)^i x^{2 i + 1}}{(2 i + 1)!}$$ 
+
+does not have a limit for all modulated Cantor real numbers $x \in \mathbb{R}_C$. However, the sequence, by definition of $\mathbb{R}_C$, does have a limit for all [[rational numbers]] $x \in \mathbb{Q}$; this means that one could restrict the [[domain]] of the sine function to the rational numbers $\sin:\mathbb{Q} \to \mathbb{R}_C$, and define it in the usual manner:
+
+* For all rational numbers $x \in \mathbb{Q}$, there exists a unique modulated Cantor real number $\sin(x) \in \mathbb{R}_C$ such that for all positive rational numbers $\epsilon \in \mathbb{Q}_+$, there exists a natural number $N \in \mathbb{N}$ such that for all natural numbers $n \in \mathbb{N}$, if $n \geq N$, then $-\epsilon \lt \sum_{i = 0}^{n} \frac{(-1)^i x^{2 i + 1}}{(2 i + 1)!} - \sin(x) \lt \epsilon$.
+
 ## Properties
 
 ### Relation to other functions
