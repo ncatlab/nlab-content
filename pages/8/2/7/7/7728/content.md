@@ -59,6 +59,8 @@ Notably in [[homotopy type theory]] with [[univalence]], which is the [[internal
 
 ## Related entries
 
+* [[structure]]
+
 * [[structure identity principle]]
 
 * [[idealism]]
