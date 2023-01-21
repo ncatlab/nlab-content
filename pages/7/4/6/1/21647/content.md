@@ -84,7 +84,7 @@ Conferences and proceedings:
 
 Journals:
 
-* {#HSJ} _[Higher Structures](https://journals.mq.edu.au/index.php/higher_structures)_, Journal ISSN 2209-0606
+* {#HSJ} _[Higher Structures](https://higher-structures.math.cas.cz/)_, Journal ISSN 2209-0606
 
 
 
