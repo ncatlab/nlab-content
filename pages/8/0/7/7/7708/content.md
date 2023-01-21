@@ -114,7 +114,7 @@ The [[dependent pair]]-type declaration of [[group objects|group structure]]:
 
 * [[Birkhoff's HSP theorem]]
 
-* [[structure identity principle]]
+* [[structuralism]], [[structure identity principle]]
 
 * [[exceptional structure]]
 
