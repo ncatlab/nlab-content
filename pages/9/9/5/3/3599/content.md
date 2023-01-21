@@ -32,6 +32,21 @@ Dependent types can be thought of as [[fibrations]] ([[Serre fibrations]]) in cl
 
 $$P(\star_X)\to \sum_{x:X}P(x) \to X$$
 
+## Relation to families of elements. 
+
+Given a family of types, $x:A \vdash B(x)$, one could construct a family of elements $z:\sum_{x:A} B(x) \vdash \pi_1(z):A$ via the rules for [[dependent sum types]]. Conversely, given a family of elements $x:A \vdash f(x):B$ one could construct a family of types $y:B \vdash \sum_{x:A} f(x) =_B y$ as the family of [[fiber types]] of $x:A \vdash f(x):B$. 
+
+This results in the facts that 
+
+$$p:A \simeq \sum_{y:B} \sum_{x:A} f(x) =_B y$$
+
+$$y:B \vdash q(y):A(y) \simeq \sum_{z:\sum_{x:B} A(x)} \pi_1(z) =_A y$$
+
+This corresponds to the [[relation between type theory and category theory]]: there are two ways to interpret a morphism $f:\mathrm{Hom}_C(A, B)$ in a [[category]] $C$
+
+* as a family of elements $x:A \vdash f(x):B$
+* as a family of types $y:B \vdash A(y)$
+
 ## Examples
 
 When the [[theory]] of a [[category]] is phrased in dependent type theory then there is one type "$obj$" of [[objects]] and a type $hom$ of [[morphisms]], which is dependent on two terms of type $obj$, so that for any $x,y:obj$ there is a type $hom(x,y)$ of arrows from $x$ to $y$.  This dependency is usually written as $x,y:obj \vdash hom(x,y):Type$.  In some theories, it makes sense to say that the type of "$hom$" itself is $obj, obj\to Type$ (usually understood as $obj \to (obj \to Type)$ or $(\obj \times \obj) \to Type$), i.e. a function from pairs of elements of $A$ to the [[type of types|universe]] $Type$ of types.
