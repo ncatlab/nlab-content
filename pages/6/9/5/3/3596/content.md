@@ -782,6 +782,9 @@ See also
 [[!redirects strict identification type]]
 [[!redirects strict identification types]]
 
+[[!redirects type of identifications]]
+[[!redirects types of identifications]]
+
 [[!redirects weak identity type]]
 [[!redirects weak identity types]]
 [[!redirects strict identity type]]
