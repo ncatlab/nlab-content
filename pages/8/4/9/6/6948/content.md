@@ -14,35 +14,92 @@
 {: toc}
 
 ## Idea
+ {#Idea}
 
-In [[logic]], the _universal quantifier_ "$\forall$" is the [[quantifier]] used to express, given a [[predicate]] $\phi$ with a [[free variable]] $x$ of [[type]] $T$, the [[proposition]]
+In [[first-order logic]], the _universal quantifier_ "$\forall$" is the [[quantifier]] used to express --- given a [[predicate]] $P$ with a [[free variable]] $t$ of [[type]] $T$ --- the [[proposition]] denoted
 
 $$
-  \forall\, x\colon T, \phi x
+  \underset{
+    t \colon T  
+  }
+  {\forall} P(t)
   \,,
 $$
 
-which is intended to be [[true]] if and only if $\phi a$ is true for every possible element $a$ of $T$.
+which is meant to be [[true]] if and only if $P(t)$ holds true for ALL possible [[elements]] $t$ of $T$ (all [[terms]] of [[type]] $T$) --- whence the notation "A" (even if upside-down) for this quantifier.
 
-Note that it is quite possible that $\phi a$ may be provable (in a given [[context]]) for every *[[term]]* $a$ of type $T$ that can actually be constructed in that context yet $\forall x\colon T, \phi x$ cannot be proved.  Therefore, we cannot define the quantifier by taking the idea literally and applying it to terms.
+This notion is "dual" (in fact *[[adjoint functor|adjoint]]*, see [below](#InTermOfAdjunctions)) to the [[existential quantifier]] "$\exists$" which asserts that $P(t)$ holds true for *some* $t$.
+
+But beware that is quite possible that $P(t)$ may be provable (in a given [[context]]) for every *[[term]]* $t$ of type $T$ that can actually be constructed in that context, and yet 
+$  
+  \underset{
+    t \colon T  
+  }
+  {\forall} \phi(t)
+$ 
+cannot be proved: The proper internal definition of universal quantification is as a [[right adjoint]] to [[context extension]] as brought out by the definition (eq:FirstDefinition) below and expanded on [further below](#InTermOfAdjunctions).
+ 
+
 
 
 ## Definition
+ {#Definition}
 
-We work in a [[logic]] in which we are concerned with which [[propositions]] entail which propositions (in a given [[context]]); in particular, two propositions which entail each other are considered equivalent.
+We work in a [[logic]] in which we are concerned with which [[propositions]] entail which other propositions (in a given [[context]]); in particular, two propositions which entail each other are considered [[logical equivalence|logically equivalent]], denoted by "$\Leftrightarrow$".
 
-Let $\Gamma$ be an arbitrary [[context]] and $T$ a [[type]] in $\Gamma$ so that $\Delta \coloneqq \Gamma, x\colon T$ is $\Gamma$ extended by a [[free variable]] $x$ of type $T$.  We assume that we have a [[weakening rule]] that allows us to interpret any proposition $Q$ in $\Gamma$ as a proposition $Q[\hat{x}]$ in $\Delta$.  Fix a proposition $P$ in $\Delta$, which we think of as a [[predicate]] in $\Gamma$ with the free variable $x$.  Then the __universal quantification__ of $P$ is any proposition $\forall\, x\colon T, P$ in $\Gamma$ such that, given any proposition $Q$ in $\Gamma$, we have
+Let 
 
-*  $Q \vdash_{\Gamma}\forall\, x\colon T, P$ if and only if $Q[\hat{x}] \vdash_{\Gamma, x\colon T} P$.
+* $\Gamma$ be an arbitrary [[context]],
 
-It is then a theorem that the universal quantification of $P$, if it exists, is unique.  The existence is typically asserted as an axiom in a particular logic, but this may be also be deduced from other principles (as in the topos-theoretic discussion below).
+* $T$ a [[dependent type]] in $\Gamma$,
 
-Often one makes the appearance of the free variable in $P$ explicit by thinking of $P$ as a [[propositional function]] and writing $P(x)$ instead; to go along with this one usually conflates $Q$ and $Q[\hat{x}]$.  Then the rule appears as follows:
+so that 
 
-*  $Q \vdash_{\Gamma}\forall\, x\colon T, P(x)$ if and only if $Q \vdash_{\Gamma, x\colon T} P(x)$.
+* $\Delta \coloneqq \Gamma, T$ is the [[context extension]] of $\Gamma$ by a [[free variable]] $t$ of [[type]] $T$.  
+
+We assume that we have a [[weakening rule]] that allows us to interpret any proposition $Q$ in $\Gamma$ as  
+
+* $T^\ast Q$ being a proposition in $\Delta$.  
+
+Then for
+
+* $P$ a [[proposition]] in $\Delta$, which we think of as a [[predicate]] in $\Gamma$ with the [[free variable]] of type $T$, 
+
+its __universal quantification__ is any proposition $\underset{T}{\forall} P$ in $\Gamma$ such that, *given any proposition $Q$ in $\Gamma$*, we have:
+
+\[
+  \label{FirstDefinition}
+  Q \;\vdash_{\Gamma}\; 
+  \underset{
+    T
+  }{\forall} 
+  \;
+  P
+  \;\;\;\;\;\;\;
+    \Leftrightarrow
+  \;\;\;\;\;\;\;
+  T^\ast Q \;\vdash_{\Gamma, T}\; P
+  \,.
+\] 
+
+It is then a theorem that universal quantification of $P$, if it exists, is unique.  The existence is typically asserted as an [[axiom]] in a particular logic, but this may be also be deduced from other principles (as in the topos-theoretic discussion [below](#InTermOfAdjunctions)).
+
+Often one makes the appearance of the [[free variable]] in $P$ explicit by thinking of $P$ as a [[propositional function]] and writing $P(t)$ instead.  Then the rule appears as follows:
+
+\[
+  Q \;\vdash_{\Gamma}\;
+  \underset{
+    t \colon T
+  }{\forall}  P(t)
+  \;\;\;\;\;\;
+    \Leftrightarrow
+  \;\;\;\;\;\;
+  T^\ast Q \;\vdash_{\Gamma, t \colon T}\; P(t)
+  \,.
+\]
 
 
-In terms of [[semantics]] (as for example topos-theoretic semantics; see the next section), the weakening from $Q$ to $Q[\hat{x}]$ corresponds to [[pullback|pulling back]] along a [[product]] projection $\sigma(T) \times A \to A$, where $\sigma(T)$ is the interpretation of the type $T$, and $A$ is the interpretation of $\Gamma$. In other words, if a statement $Q$ read in context $\Gamma$ is interpreted as a [[subobject]] of $A$, then the statement $Q$ read in context $\Delta = \Gamma, x \colon T$ is interpreted by pulling back along the projection, obtaining a subobject of $\sigma(T) \times A$. 
+In terms of [[semantics]] (as for example topos-theoretic semantics; see [below](#InTermOfAdjunctions)), the [[context extension]] from $Q$ to $T^\ast Q$ corresponds to [[pullback|pulling back]] along a [[product]] projection $\sigma(T) \times A \to A$, where $\sigma(T)$ is the interpretation of the type $T$, and $A$ is the interpretation of $\Gamma$. In other words, if a statement $Q$ read in context $\Gamma$ is interpreted as a [[subobject]] of $A$, then the statement $Q$ read in context $\Delta = \Gamma, t \colon T$ is interpreted by pulling back along the [[projection]], obtaining a subobject of $\sigma(T) \times A$. 
 
 As observed by [[Lawvere]], we are not particularly constrained to product projections; we can pull back along any map $f \colon B \to A$. (Often we have a class of [[display maps]] and require $f$ to be one of these.) Alternatively, any pullback functor $f^\ast\colon Set/A \to Set/B$ can be construed as pulling back along an object $X = (f \colon B \to A)$, i.e., along the unique map $!\colon X \to 1$ corresponding to an object $X$ in the slice $Set/A$, since we have the identification $Set/B \simeq (Set/A)/X$. 
 
@@ -52,7 +109,9 @@ In [[set theory]], recall that a [[predicate]] on a [[set]] $A$ in the [[interna
 
 $$\forall a \in A.i^*(a) \coloneqq \prod_{a \in A} i^*(a)$$
 
+
 ## In topos theory / in terms of adjunctions
+ {#InTermOfAdjunctions}
 
 In terms of the [[internal logic]] in some ambient [[topos]] $\mathcal{E}$, 
 
@@ -113,7 +172,7 @@ This interpretation of universal quantification as the right adjoint to context 
 
 ## In dependent type theory
 
-In dependent type theory, the universal quantifier is the [[propositional truncation]] of the [[dependent product type]] of a family of [[h-propositions]]:
+In [[dependent type theory]], the universal quantifier is the [[propositional truncation]] of the [[dependent product type]] of a family of [[h-propositions]]:
 
 $$\forall (x:A).B(x) \coloneqq \left[\prod_{x:A} B(x)\right]$$
 
