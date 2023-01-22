@@ -180,9 +180,12 @@ In order to prove the famous *[[Gentzen's Hauptsatz|Hauptsatz]]* for proof norma
 
 * D. Prawitz, _Natural Deduction - A Proof-theoretical Study_ , Dover reprint New York 2006[1965].
 
-A standard textbook that describes proof systems in natural deduction format, sequent calculi or Hilbert-style systems is
+Textbook accounts of proof systems in natural deduction format, sequent calculi or Hilbert-style systems:
 
-* A. S. Troelstra, H. Schwichtenberg, _Basic Proof Theory_ , CUP 2000$^2$.
+* [[Anne Sjerp Troelstra]], [[Helmut Schwichtenberg]], _Basic Proof Theory_ , Cambridge University Press (2000, 2012) &lbrack;[doi:10.1017/CBO9781139168717](https://doi.org/10.1017/CBO9781139168717)&rbrack;
+
+* Sara Negri, Jan von Plato, §1, §2 in: *Structural Proof Theory*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511527340](https://doi.org/10.1017/CBO9780511527340), [§1 pdf](https://www.logicmatters.net/resources/pdfs/NegriPlato1.pdf), [§2 pdf](https://www.logicmatters.net/resources/pdfs/NegriPlato1.pdf)&rbrack;
+
 
 An introductory lecture using [[dependent type theory]] in [[intuitionistic logic]] is
 
