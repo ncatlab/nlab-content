@@ -444,6 +444,9 @@ Further textbook accounts:
 
 * [[Francis Borceux]], Chapter 8 in Vol 1, _Basic Category Theory_ , of: _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)  ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
 
+* [[Bart Jacobs]], Chapter 7 in: *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
+
+
 and with emphasis on an ambient [[topos theory]]:
 
 * {#Johnstone}[[Peter Johnstone]], Section B2.3 in: Vol. 1 of: _[[Sketches of an Elephant -- A Topos Theory Compendium]]_, Oxford University Press (2002)([ISBN:9780198534259](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198534259))
