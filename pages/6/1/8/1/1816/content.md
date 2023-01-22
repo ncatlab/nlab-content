@@ -42,8 +42,10 @@ Reviews include
 
 * {#Vermeeren09} [[Stijn Vermeeren]], section 3 of _Realizability Toposes_, 2009 ([pdf](http://stijnvermeeren.be/download/mathematics/essay.pdf))
 
-
 * J.M.E. [[Martin Hyland|Hyland]], _The effective topos_ in  A. S. Troelstra (ed.)  D. van Dalen (ed.) , _The L.E.J. Brouwer Centenary Symposium_, North-Holland  (1982)  pp. 165--216.
+
+* [[Bart Jacobs]], Chapter 6 in: *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
+
 
 In the context of [[triposes]]:
 
