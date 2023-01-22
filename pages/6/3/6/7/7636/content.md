@@ -17,7 +17,6 @@
 =--
 =--
 
-
 # Contents
 * table of contents
 {: toc}
@@ -451,18 +450,18 @@ following a statement earlier conjectured in
 
 The problem with strict substitution compared to weak pullback in this argument was discussed and fixed in 
 
-* {#Curien} [[Pierre-Louis Curien]], _Substitution up to isomorphism_, Fundamenta Informaticae, 19(1,2):51&#8211;86 (1993)
+* {#Curien} [[Pierre-Louis Curien]], *Substitution up to isomorphism*, Fundamenta Informaticae, **19** 1-2 (1993) 51-86 &lbrack;[doi:10.5555/175469.175471](https://dl.acm.org/doi/10.5555/175469.175471)&rbrack; and: Diagrammes **23** (1990) 43-66 &lbrack;[numdam:DIA_1990__23__43_0](http://www.numdam.org/item/DIA_1990__23__43_0)&rbrack;
  
 
-* {#Hofmann} [[Martin Hofmann]], _On the interpretation of type theory in locally cartesian closed categories_, Proc. CSL '94, Kazimierz, Poland. Jerzy Tiuryn and Leszek Pacholski, eds. Springer LNCS, Vol. 933 ([CiteSeer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.54.4410))
+* {#Hofmann} [[Martin Hofmann]], *On the interpretation of type theory in locally cartesian closed categories*, in *Computer Science Logic. CSL 1994*, Lecture Notes in Computer Science **933** (1994) 427–441 &lbrack;[doi:10.1007/BFb0022273](https://doi.org/10.1007/BFb0022273)&rbrack;
 
 but in the process the equivalence of categories was lost. This was finally all rectified in 
 
-* {#ClairambaultDybjer} [[Pierre Clairambault]], [[Peter Dybjer]], _The Biequivalence of Locally Cartesian Closed Categories and Martin-L&#246;f Type Theories_, in _Typed lambda calculi and applications_, Lecture Notes in Comput. Sci. 6690, Springer 2011 ([arXiv:1112.3456](http://arxiv.org/abs/1112.3456))
+* {#ClairambaultDybjer} [[Pierre Clairambault]], [[Peter Dybjer]], *The Biequivalence of Locally Cartesian Closed Categories and Martin-L&#246;f Type Theories*, in *Typed lambda calculi and applications*, Lecture Notes in Comput. Sci. **6690** Springer (2011) &lbrack;[arXiv:1112.3456](http://arxiv.org/abs/1112.3456), [doi:10.1007/978-3-642-21691-6_10](https://doi.org/10.1007/978-3-642-21691-6_10)&rbrack;
  
 and
 
-* {#CurienGarnerHofmann} [[Pierre-Louis Curien]], [[Richard Garner]], [[Martin Hofmann]], _Revisiting the categorical interpretation of dependent type theory_ ([[CurienGarnerHofmann.pdf:file]])
+* {#CurienGarnerHofmann} [[Pierre-Louis Curien]], [[Richard Garner]], [[Martin Hofmann]], *Revisiting the categorical interpretation of dependent type theory*, Theoretical Computer Science **546** 21 (2014) 99-119 &lbrack;[doi:10.1016/j.tcs.2014.03.003](https://doi.org/10.1016/j.tcs.2014.03.003), [[CurienGarnerHofmann.pdf:file]]&rbrack;
 
 Another version of this which also applies to [[intensional identity types]] and hence to [[homotopy type theory]] is in
 
