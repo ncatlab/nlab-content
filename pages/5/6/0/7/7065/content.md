@@ -99,11 +99,21 @@ A type is contractible if and only if it is [[equivalence in homotopy type theor
 
 ### Relation to dependent sum types and equivalences
 
-The [[dependent sum type]] of a family of contractible types $x:A \vdash B(x)$ with witnesses $x:A \vdash p(x):\mathrm{isContr}(B(x))$ is equivalent to the index type $A$ itself:
-
-$$p:A \simeq \sum_{x:A} B(x)$$
-
 A family of elements $x:A \vdash f(x):B$ is an [[equivalence of types]] if its family of [[fiber types]] $y:B \vdash \sum_{x:A} f(x) =_B y$ is a family of [[contractible types]]. 
+
+The [[dependent sum type]] of a family of contractible types $x:A \vdash B(x)$ with witnesses $x:A \vdash p(x):\mathrm{isContr}(B(x))$ is equivalent to the index type $A$ itself given by the first pair projection:
+
+$$z:\sum_{x:A} B(x) \vdash \pi_1(z):A$$
+
+$$x:A \vdash p(x):\mathrm{isContr}\left(\sum_{z:\sum_{x:A} B(x)} \pi_1(z) =_A x\right)$$
+
+This is due to the fact that for any family of types $x:A \vdash B(x)$, there is an equivalence 
+
+$$x:A \vdash q(x):\left(\sum_{z:\sum_{x:A} B(x)} \pi_1(z) =_A x\right) \simeq B(x)$$
+
+which means that if $B(x)$ is contractible, then 
+$$\sum_{z:\sum_{x:A} B(x)} \pi_1(z) =_A x$$ 
+is contractible. 
 
 ## Categorical semantics
  {#CategoricalSemantics}
