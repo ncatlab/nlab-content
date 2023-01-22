@@ -5,7 +5,7 @@
 
 ## Selected writings
 
-On [[generalized algebraic theories]] and [[contextual categories]]:
+On [[generalized algebraic theories]] and [[contextual categories]] and the [[categorical model of dependent types]]:
 
 * {#Cartmell1978} [[John Cartmell]], *Generalised Algebraic Theories and Contextual Categories*, PhD thesis, Oxford University (1978) &lbrack;[[Cartmell-Thesis.pdf:file]]&rbrack;
 
