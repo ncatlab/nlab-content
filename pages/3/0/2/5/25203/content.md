@@ -24,7 +24,7 @@ $$\mathbb{Z}_n \coloneqq \prod \mathbb{Z}_{p_i}$$
 
 Given a square-free integer $n$, the [[integers modulo n]] $\mathbb{Z}/n\mathbb{Z}$ is a [[reduced ring]]. Since for every integer $n$ the  $\mathbb{Z}/n\mathbb{Z}$ is a [[prefield ring]], $\mathbb{Z}/n\mathbb{Z}$ is an [[integral domain]] and thus a [[field]] if and only if $n$ is a [[prime number]]. 
 
-Given any odd prime number $p$, the integer $2 p$ is square-free, and the ring $\mathbb{Z}/2 p\mathbb{Z}$ has [[idempotent elements]] of $0$, $1$, $p$, and $p + 1$. 
+Given any odd prime number $p$, the integer $2 p$ is square-free, and the ring $\mathbb{Z}/2 p\mathbb{Z}$ has [[idempotent elements]] of $0$, $1$, $p$, and $p + 1$. Every element of $\mathbb{Z}/2 p\mathbb{Z}$ could be written as a [[linear combination]] of $p$ and $p + 1$. 
 
 ## See also
 
