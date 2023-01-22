@@ -39,6 +39,8 @@ A commutative ring $R$ is a **prefield ring** if the [[ring of fractions]] of $R
 
 * Let $F$ be a [[discrete field]] and let $\overline{F}$ be the [[algebraic closure]] of $F$. Given any non-zero [[polynomial]] $p \in \overline{F}[x]$, the [[quotient ring]] $\overline{F}[x]/p \overline{F}[x]$ is a prefield ring whose monoid of cancellative elements consists of polynomials $q \in \overline{F}[x]$ modulo $p$ such that the [[greatest common divisor]] of $p$ and $q$ is an element of the [[group of units]] $\gcd(p, q) \in \overline{F}[x]^\times$.
 
+* Let $R$ be a [[unique factorization domain]]. Given any non-zero element $x \in R$, the [[quotient ring]] $R/x R$ is a prefield ring whose monoid of cancellative elements consists of elements $y \in R$ modulo $x$ such that the [[greatest common divisor]] of $x$ and $y$ is an element of the [[group of units]] $\gcd(x, y) \in R^\times$.
+
 * A prefield ring $F$ is a [[local ring]] if the set of non-cancellative elements, the [[zero divisors]], is the [[Jacobson radical]] $J(F)$. 
 
 * Non-example: the [[integers]] $\mathbb{Z}$ are not a prefield ring. 
