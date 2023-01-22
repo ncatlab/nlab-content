@@ -66,7 +66,9 @@ $$\exists z.x \cdot z = 1 \vdash (0 \lt x) \vee (x \lt 0)$$
 
 * The theory of a [[reduced ring]] is coherent, with the [[trivial nilradical]] axiom being expressed as $x \cdot x = 0 \vdash x = 0$. 
 
-* Similarly, the theory of an [[integral domain]] is coherent, with the [[zero-product property]] axiom being expressed as $x \cdot y \vdash (x = 0) \vee (y = 0)$
+* Similarly, the theory of an [[integral domain]] is coherent, with the [[zero-product property]] axiom being expressed as $(x \cdot y = 0) \vdash (x = 0) \vee (y = 0)$
+
+* Since [[GCD rings]] and [[Bézout rings]] are [[algebraic theories]] and [[integral domains]] are coherent, [[GCD domains]] and [[Bézout domains]] are coherent as well. 
 
 * The theory of an [[elementary topos]] is coherent. However, the well-pointedness condition for a [[well-pointed topos]] is not coherent, which means that the theory [[ETCS]] is not coherent. See [[fully formal ETCS]] for more details. 
 
