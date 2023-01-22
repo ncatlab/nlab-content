@@ -324,6 +324,7 @@ This and much more history is recalled in
 
 * {#MacLaneHistory} [[Saunders MacLane]], _Concepts and Categories in Perspective_, AMS ([pdf](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf))
 
+* [[Ralf Krömer]], *Tool and object: A history and philosophy of category theory*, Science Networks. Historical Studies **32** (2007) &lbrack;[doi:10.1007/978-3-7643-7524-9](https://doi.org/10.1007/978-3-7643-7524-9)&rbrack;
 
 
 \subsection{Textbooks}
