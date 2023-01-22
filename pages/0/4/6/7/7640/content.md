@@ -9,7 +9,12 @@ Introducing the notion of [[inductive types]] and [[inductive families]] in [[ty
 
 * [[Peter Dybjer]], *Inductive families*, Formal Aspects of Computing **6** (1994) 440–465 &lbrack;[doi:10.1007/BF01211308](https://doi.org/10.1007/BF01211308), [doi:10.1007/BF01211308](https://doi.org/10.1007/BF01211308), [pdf](http://www.cse.chalmers.se/~peterd/papers/Inductive_Families.pdf)&rbrack;
 
-Generalization to [[inductive-recursive types]]:
+On [[categorical models of dependent types]]:
+
+* [[Peter Dybjer]], *Internal type theory*, Types for proofs and programs (Torino, 1995), Lecture Notes in Comput. Sci. **1158** Springer (1996) 120-134 &lbrack;[doi:10.1007/3-540-61780-9_66](https://doi.org/10.1007/3-540-61780-9_66), [pdf](http://www.cse.chalmers.se/~peterd/papers/InternalTT.pdf), [MR1474535](http://www.ams.org/mathscinet-getitem?mr=1474535)&rbrack;
+
+
+Generalization of [[inductive types]] to [[inductive-recursive types]]:
 
 * [[Peter Dybjer]], *A general formulation of simultaneous inductive-recursive definitions in type theory*, The Journal of Symbolic Logic **65** 2 (2000) 525-549 &lbrack;[doi:10.2307/2586554](https://doi.org/10.2307/2586554), [pdf](http://www.cse.chalmers.se/~peterd/papers/Inductive_Recursive.pdf)&rbrack;
 
