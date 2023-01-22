@@ -54,6 +54,8 @@ $$\exists y \in R.x \cdot y = 1 \vdash x \in A \quad \mathrm{material}$$
 $$\exists y \in R.x \cdot y = 1 \vdash \exists z \in A.i(z) = x \quad \mathrm{structural}$$
 Furthermore, in the definition of an anti-ideal itself, when one says that $0$ is not in the anti-ideal, one has to express it as a sequent $0 \in A \vdash \bot$, or in the structural case with injection $i:A \hookrightarrow R$, that $\exists x \in A.i(x) = 0 \vdash \bot$. Alternatively, if the set has an apartness relation one could just say that every element in the ideal is apart from zero, $0 \# x$. 
 
+The [[degree of a polynomial]] is only well-defined in any ring with an apartness relation. Anything that depends on well-defined degrees of a polynomial, such as [[algebraic closure]], also is only well-defined for a ring with an apartness relation. 
+
 Sets with [[decidable equality]] are however still definable in coherent mathematics; they are sets $S$ equipped with an [[apartness relation]] such that for all elements $a \in S$ and $b \in S$, $a = b$ or $a \# b$. This is expressed by the sequent
 $$a \in S, b \in S \vdash (a = b) \vee (a \# b)$$
 This means that one could work in predicative [[classical mathematics]] (i.e. a [[Boolean category]]) by stipulating that every set has decidable equality. 
