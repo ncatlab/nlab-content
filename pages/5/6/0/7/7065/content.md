@@ -97,6 +97,14 @@ For any type $A$, the type $isContr(A)$ is an [[h-proposition]].  In particular,
 A type is contractible if and only if it is [[equivalence in homotopy type theory|equivalent]] to the [[unit type]].
 \end{proposition}
 
+### Relation to dependent sum types and equivalences
+
+The [[dependent sum type]] of a family of contractible types $x:A \vdash B(x)$ with witnesses $x:A \vdash p(x):\mathrm{isContr}(B(x))$ is equivalent to the index type $A$ itself:
+
+$$p:A \simeq \sum_{x:A} B(x)$$
+
+A family of elements $x:A \vdash f(x):B$ is an [[equivalence of types]] if its family of [[fiber types]] $y:B \vdash \sum_{x:A} f(x) =_B y$ is a family of [[contractible types]]. 
+
 ## Categorical semantics
  {#CategoricalSemantics}
 
