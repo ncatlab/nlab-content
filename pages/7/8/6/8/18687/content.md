@@ -7,6 +7,10 @@ On [[guarded recursion]]:
 
 * [[Jonathan Sterling]], [[Robert Harper]], *Guarded Computational Type Theory*, LICS '18 (2018) 879–888 &lbrack;[arxiv:1804.09098](https://arxiv.org/abs/1804.09098), [doi:10.1145/3209108.3209153](https://doi.org/10.1145/3209108.3209153)&rbrack;
 
+On [[categorical models of dependent types]] via [[locally Cartesian closed categories]]:
+
+* [[Daniel Gratzer]], [[Jonathan Sterling]], *Syntactic categories for dependent type theory: sketching and adequacy* &lbrack;[arXiv:2012.10783](https://arxiv.org/abs/2012.10783)&rbrack;
+
 
 On [[synthetic Tait computability theory]]:
 
