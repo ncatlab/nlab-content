@@ -12,6 +12,7 @@
 =--
 =--
 
+
 # Categorical models of dependent types
 * table of contents
 {: toc}
@@ -491,11 +492,21 @@ One possible way to construct such a well-behaved model category is as follows (
 
 * [[model of type theory in an (infinity,1)-topos]]
 
+
 ## References
+ {#References}
 
-A general overview may be found in
+General overview:
 
-* [[Martin Hofmann]], *Syntax and semantics of dependent types*, Semantics and logics of computation (Cambridge, 1995), Publ. Newton Inst., vol. 14, Cambridge Univ. Press, Cambridge, 1997, pp. 79--130
+* [[Martin Hofmann]], *Syntax and semantics of dependent types*, in *Semantics and logics of computation*, Publ. Newton Inst. **14**, Cambridge Univ. Press (1997) 79-130 &lbrack;[doi:10.1017/CBO9780511526619.004](https://doi.org/10.1017/CBO9780511526619.004)&rbrack;
+
+which originates as 
+
+* {#Hofmann95} [[Martin Hofmann]], chapter 2 of: *Extensional concepts in intensional type theory*, Ph.D. thesis, University of Edinburgh (1995), Distinguished Dissertations, Springer (1997) &lbrack;[ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]], [doi:10.1007/978-1-4471-0963-1](https://doi.org/10.1007/978-1-4471-0963-1)&rbrack;
+
+Texbook accounts:
+
+* [[Bart Jacobs]], *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
 
 Comprehension categories are defined in
 
@@ -515,12 +526,11 @@ Display maps are discussed in
 
 Categories with attributes are discussed in
 
-* [[John Cartmell]], *Generalised algebraic theories and contextual categories*, Ph.D. thesis, Oxford, 1978 ([GitHub LaTeXing project](https://github.com/peterlefanulumsdaine/cartmell-thesis), organised by [[Peter LeFanu Lumsdaine]]. Currently only sections 1.0-1.4 are done)
+* [[John Cartmell]], *Generalised algebraic theories and contextual categories*, Ph.D. thesis, Oxford (1978), Ann. Pure Appl.  Logic **32** 3 (1986) 209–243 &lbrack;<a href="https://doi.org/10.1016/0168-0072(86)90053-9">doi:10.1016/0168-0072(86)90053-9</a>[MR865990](http://www.ams.org/mathscinet-getitem?mr=865990)&rbrack;
 
+* [[Eugenio Moggi]], *A category-theoretic account of program modules*, Math. Structures Comput. Sci. **1** 1 (1991) 103-139 &lbrack;[MR1108806 ](http://www.ams.org/mathscinet-getitem?mr=1108806), <a href="https://doi.org/10.1017/S0960129500000074">doi:10.1017/S0960129500000074</a>&rbrack;
 
-* [[Eugenio Moggi]], *A category-theoretic account of program modules*, Math. Structures Comput. Sci. 1 (1991), no. 1, 103--139
-
-* Andrew M. Pitts, *Categorical logic*, Handbook of logic in computer science, Vol. 5, Handb. Log. Comput. Sci., vol. 5, Oxford Univ. Press, New York, 2000, pp. 39--128
+* [[Andrew M. Pitts]], *Categorical logic*, in *[[Handbook of Logic in Computer Science]]* **5** Oxford Univ. Press (2000) 39-128 &lbrack;[doi:10.1093/oso/9780198537816.003.0002](https://doi.org/10.1093/oso/9780198537816.003.0002), [pdf](https://www.cl.cam.ac.uk/~amp12/papers/catl/catl.pdf), [MR1859470](http://www.ams.org/mathscinet-getitem?mr=1859470)&rbrack;
 
 Categories with families are defined in
 
@@ -548,14 +558,13 @@ This was formalized inside type theory with set quotients of [[higher inductive 
 
 * {#AltKap2015} [[Thorsten Altenkirch]], Ambrus Kaposi, _Type Theory in Type Theory using Quotient Inductive Types_, (2015) ([pdf](http://www.cs.nott.ac.uk/~txa/publ/tt-in-tt.pdf)), ([formalisation in Agda](https://bitbucket.org/akaposi/tt-in-tt)).
 
-
 Contextual categories were defined in
 
 * {#Cartmell86} [[John Cartmell]], _Generalised algebraic theories and contextual categories_, Annals of Pure and Applied Logic Volume 32, 1986, Pages 209-243 ([doi:10.1016/0168-0072(86)90053-9](http://dx.doi.org/10.1016/0168-0072%2886%2990053-9))
 
-* {#Streicher91} [[Thomas Streicher]], *Semantics of type theory*, Progress in Theoretical Computer Science, Birkh&#228;user Boston Inc., Boston, MA, 1991, Correctness, completeness and independence results.
+* {#Streicher91} [[Thomas Streicher]], *Semantics of type theory -- Correctness, completeness and independence results*, Progress in Theoretical Computer Science, Birkh&#228;user (1991) &lbrack;ISBN:0-8176-3594-7, [doi:10.1007/978-1-4612-0433-6](https://doi.org/10.1007/978-1-4612-0433-6), [MR1134134 ](http://www.ams.org/mathscinet-getitem?mr=1134134)&rbrack;
 
-Review includes
+Review:
 
 * {#KapulkinLumsdaine12} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], section 1.2 and appendix B of _The Simplicial Model of Univalent Foundations (after Voevodsky)_ ([arXiv:1211.2851](https://arxiv.org/abs/1211.2851))
 
@@ -619,22 +628,19 @@ An equivalence between contextual categories and [B-systems](#Voevodsky14) is in
 
 * [[Benedikt Ahrens]], Jacopo Emmenegger, [[Paige Randall North]], [[Egbert Rijke]], _B-systems and C-systems are equivalent_ ([arXiv:2111.09948](https://arxiv.org/abs/2111.09948))
 
+
 ### Another overview
- {}
+ {#AnotherOverview}
+
+> The following list of references overlaps with the [previous one](#References). The two should be merged.
 
 There are various different categorical models for dependent type theory available in the literature. Most are equivalent, or almost so. Here we collect the various definitions, together with (hopefully definitive) references. If you have trouble tracking down any of these refs, email me [PLL]. All equivalences asserted are literal equivalences of 1-categories.  
 
-#### Contextual Categories
 
-* [[John Cartmell]], [Generalised algebraic theories and contextual categories](http://www.ams.org/mathscinet-getitem?mr=865990), 1986; Thomas Streicher, [Semantics of Type Theory](http://www.ams.org/mathscinet-getitem?mr=1134134), 1991.
 
-Very elementarily defined, and stratified by definition.
 
-#### Categories with Attributes, aka Type-categories
 
-* [[John Cartmell]], PhD thesis, [Generalised Algebraic Theories and Contextual Categories](https://dl.dropbox.com/u/2363336/CartmellThesis.pdf), 1978; Eugenio Moggi, [A category-theoretic account of program modules](http://www.ams.org/mathscinet-getitem?mr=1108806), 1989/1991; Andy Pitts, [Categorial Logic](http://www.ams.org/mathscinet-getitem?mr=1859470), 2000 (as type-categories).
 
-Fairly elementarily defined. Stratified CwA’s are equivalent to contextual categories.
 
 #### Categories with Families
 
@@ -674,7 +680,7 @@ Andr&eacute; Joyal's approach based on the notion of a "tribe".  Slides from a t
 
 #### Introductions and surveys
 
-* [[Bart Jacobs]] book; [[Martin Hofmann]] 1997 paper; PLL (Peter LeFanu Lumsdaine) thesis. Sec 1.2; [nLab page](/nlab/show/categorical+model+of+dependent+types)
+* [[Martin Hofmann]] 1997 paper; PLL (Peter LeFanu Lumsdaine) thesis. Sec 1.2; [nLab page](/nlab/show/categorical+model+of+dependent+types)
 
 [[!redirects categorical model of dependent type theory]]
 [[!redirects categorical models of dependent type theory]]
