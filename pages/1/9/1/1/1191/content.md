@@ -52,6 +52,13 @@ If one thinks of $\aleph_0$ as already an inaccessible cardinal, then the [[axio
 
 ## References
 
+Historical review with comprehensive references:
+
+* [[Ralf Krömer]], §6.4.5 in: *Tool and object: A history and philosophy of category theory*, Science Networks. Historical Studies **32** (2007) &lbrack;[doi:10.1007/978-3-7643-7524-9](https://doi.org/10.1007/978-3-7643-7524-9)&rbrack;
+
+
+See also:
+
 * [[Tom Leinster]], *Large Sets 9*, [web](https://golem.ph.utexas.edu/category/2021/07/large_sets_9.html)
 
 The proof that a Tarski-[[Grothendieck universe]] is equivalently a set of $\kappa$-small sets for $\kappa$ an inaccessible cardinal is in 
