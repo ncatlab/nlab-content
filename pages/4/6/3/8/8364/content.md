@@ -31,6 +31,14 @@
 
 ## References
 
+Textbook accounts on proof theory with focus on [[natural deduction]] and [[sequent calculi]]:
+
+* [[Anne Sjerp Troelstra]], [[Helmut Schwichtenberg]], _Basic Proof Theory_ , Cambridge University Press (2000, 2012) &lbrack;[doi:10.1017/CBO9781139168717](https://doi.org/10.1017/CBO9781139168717)&rbrack;
+
+* Sara Negri, Jan von Plato, *Structural Proof Theory*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511527340](https://doi.org/10.1017/CBO9780511527340), [§1 pdf](https://www.logicmatters.net/resources/pdfs/NegriPlato1.pdf), [§2 pdf](https://www.logicmatters.net/resources/pdfs/NegriPlato1.pdf)&rbrack;
+
+See also:
+
 * Wikipedia, _[Proof theory](http://en.wikipedia.org/wiki/Proof_theory)_.
 
 * Georg Kreisel, _A Survey of Proof Theory_, JSL 33(3), 1968, 321-388.
