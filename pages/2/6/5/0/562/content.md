@@ -332,6 +332,11 @@ Textbook accounts:
 
 * [[Francis Borceux]], Chapter 8 of: *[[Handbook of Categorical Algebra]] vol. 2*, Cambridge UP 1994.
 
+* [[Bart Jacobs]], Chapters 1 and 9 in: *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
+
+  > (in the context of [[categorical models for dependent types]])
+
+
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Chapter 9 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
 
 
