@@ -22,9 +22,16 @@
 
 On "natural" [[categorical model of dependent types|models]] ([Awodey 2016](#Awodey2016)) of [[homotopy type theory]]. For the moment see [there](categorical+model+of+dependent+types#NaturalModels).
 
+## Related concepts
+
+* [[categorical model of dependent type theory]]
+
 ## References
 
 * {#Awodey2016} [[Steve Awodey]], *Natural models of homotopy type theory*, Mathematical Structures in Computer Science, **28** 2 (2016) 241-286 $[$[arXiv:1406.3219](https://arxiv.org/abs/1406.3219), [doi:10.1017/S0960129516000268](https://doi.org/10.1017/S0960129516000268)$]$
+
+* Clive Newstead, *Algebraic models of dependent type theory* &lbrack;[arXiv:2103.06155](https://arxiv.org/abs/2103.06155)&rbrack;
+
 
 [[!redirects natural models of homotopy type theory]]
 
