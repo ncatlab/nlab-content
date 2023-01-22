@@ -23,7 +23,7 @@ In the same vein that [[commutative rings]] are to [[integral domains]] and [[GC
 
 ## Definition ##
 
-A commutative ring $R$ is a **prefield ring** if the [[ring of fractions]] of $R$ isomorphic to $R$. Equivalently, a commutative ring $R$ is a prefield ring if for all elements $a \in R$, $a$ is a [[cancellative element]] if and only if $a$ is a [[unit]]; the [[monoid of cancellative elements]] $\mathrm{Can}(F)$ is equivalent to the [[group of units]] $R^\times$. 
+A commutative ring $R$ is a **prefield ring** if the [[ring of fractions]] of $R$ is isomorphic to $R$. Equivalently, a commutative ring $R$ is a prefield ring if for all elements $a \in R$, $a$ is a [[cancellative element]] if and only if $a$ is a [[unit]]; the [[monoid of cancellative elements]] $\mathrm{Can}(F)$ is equivalent to the [[group of units]] $R^\times$. 
 
 ## Examples ##
 
@@ -31,12 +31,13 @@ A commutative ring $R$ is a **prefield ring** if the [[ring of fractions]] of $R
 
 * A classical field $F$ is a prefield ring whose monoid of cancellative elements is the set of elements [[not equal to]] zero. 
 
-* A [[Heyting field]] $F$ is a prefield ring whose monoid of cancellative elements is the multiplicative monoid of elements [[tight apartness relation|apart from]] zero
-
-* A [[local ring]] $F$ is a prefield ring whose monoid of cancellative elements is the multiplicative monoid of elements [[apartness relation|apart from]] the [[ideal]] of [[zero divisors]] $D$. 
+* A [[Heyting field]] $F$ is a prefield ring whose monoid of cancellative elements is the multiplicative monoid of elements [[tight apartness relation|apart from]] zero.
 
 * The [[trivial ring]] $0$ is the unique prefield ring up to unique isomorphism such that zero is in the monoid of cancellative elements. The trivial ring is also the terminal prefield. 
-* Given any composite [[square-free]] integer $n$, the [[integers modulo n|integers modulo 6]] $\mathbb{Z}/n\mathbb{Z}$ is a prefield ring which is not a [[local ring]], because the prime factors $p_i$ of $n$ are zero-divisors:  $\prod p_i = 0$ and $p_i \cdot 0 = 0$, but $p_i \neq 0$. 
+
+* Given any positive integer $n$, the [[integers modulo n]] $\mathbb{Z}/n\mathbb{Z}$ is a prefield ring whose monoid of cancellative elements consists of all integers $m$ modulo $n$ which are [[coprime]] with $n$.
+
+* A prefield ring $F$ is a [[local ring]] if the set of non-cancellative elements, the [[zero divisors]], is the [[Jacobson radical]] $J(F)$. 
 
 * Non-example: the [[integers]] $\mathbb{Z}$ are not a prefield ring. 
 
