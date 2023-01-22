@@ -186,10 +186,12 @@ Textbook accounts of proof systems in natural deduction format, sequent calculi 
 
 * Sara Negri, Jan von Plato, §1, §2 in: *Structural Proof Theory*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511527340](https://doi.org/10.1017/CBO9780511527340), [§1 pdf](https://www.logicmatters.net/resources/pdfs/NegriPlato1.pdf), [§2 pdf](https://www.logicmatters.net/resources/pdfs/NegriPlato1.pdf)&rbrack;
 
+Introductions:
 
-An introductory lecture using [[dependent type theory]] in [[intuitionistic logic]] is
+* {#MartinLoef96} [[Per Martin-Löf]], *On the Meanings of the Logical Constants and the Justifications of the Logical Laws*, Nordic Journal of Philosophical Logic, **1** 1 (1996) 11-60 &lbrack;[pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf), [[MartinLofOnTheMeaning96.pdf:file]]&rbrack;
 
-* [[Per Martin-Löf]], _On the meaning of logical constants and the justifications of the logical laws_, leture series in Siena (1983) ([web](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf))
+* [[Paul Downen]], [[Zena M. Ariola]], *A tutorial on computational classical logic and the sequent calculus*, Journal of Functional Programming **28** (2018) e3 &lbrack;[doi:10.1017/S0956796818000023](https://doi.org/10.1017/S0956796818000023), [pdf](https://www.pauldownen.com/publications/sequent-intro.pdf)&rbrack;
+
 
 A formalization of the general [[logical framework]] of natural deduction is discussed in section 3 of 
 
