@@ -589,10 +589,27 @@ Discussion of B-systems, another essential algebraic model, is in
 * {#Voevodsky14} [[Vladimir Voevodsky]], _B-systems_ ([arXiv:1410.5389](https://arxiv.org/abs/1410.5389))
 
 
+The model of [[dependent type theory]] with [[dependent product types]]/[[dependent function types]] in [[locally cartesian closed categories]] was first made explicit in
 
-Strictification is discussed in
+* {#Seely} [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. **95** (1984) 33-48  &lbrack;[doi:10.1017/S0305004100061284](https://doi.org/10.1017/S0305004100061284), [pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf)&rbrack;
 
-* [[Martin Hofmann]], *On the interpretation of type theory in locally cartesian closed categories*
+The problem with strict substitution compared to weak pullback in this argument was discussed and fixed in 
+
+* {#Curien} [[Pierre-Louis Curien]], *Substitution up to isomorphism*, Fundamenta Informaticae, **19** 1-2 (1993) 51-86 &lbrack;[doi:10.5555/175469.175471](https://dl.acm.org/doi/10.5555/175469.175471)&rbrack; and: Diagrammes **23** (1990) 43-66 &lbrack;[numdam:DIA_1990__23__43_0](http://www.numdam.org/item/DIA_1990__23__43_0)&rbrack;
+
+
+* {#Hofmann} [[Martin Hofmann]], *On the interpretation of type theory in locally cartesian closed categories*, in *Computer Science Logic. CSL 1994*, Lecture Notes in Computer Science **933** (1994) 427–441 &lbrack;[doi:10.1007/BFb0022273](https://doi.org/10.1007/BFb0022273)&rbrack;
+
+but in the process the equivalence of categories was lost. This was finally all rectified in 
+
+* {#ClairambaultDybjer} [[Pierre Clairambault]], [[Peter Dybjer]], *The Biequivalence of Locally Cartesian Closed Categories and Martin-L&#246;f Type Theories*, in *Typed lambda calculi and applications*, Lecture Notes in Comput. Sci. **6690** Springer (2011) &lbrack;[arXiv:1112.3456](http://arxiv.org/abs/1112.3456), [doi:10.1007/978-3-642-21691-6_10](https://doi.org/10.1007/978-3-642-21691-6_10)&rbrack;
+ 
+and
+
+* {#CurienGarnerHofmann} [[Pierre-Louis Curien]], [[Richard Garner]], [[Martin Hofmann]], *Revisiting the categorical interpretation of dependent type theory*, Theoretical Computer Science **546** 21 (2014) 99-119 &lbrack;[doi:10.1016/j.tcs.2014.03.003](https://doi.org/10.1016/j.tcs.2014.03.003), [[CurienGarnerHofmann.pdf:file]]&rbrack;
+
+
+See also:
 
 * {#LumsdaineWarren13} [[Peter LeFanu Lumsdaine]], [[Michael Warren]], _The local universes model: An overlooked coherence construction for dependent type theory_, [arXiv:1411.1736](https://arxiv.org/abs/1411.1736), ACM Transactions on Computational Logic.
 
