@@ -4,7 +4,7 @@
 
 ## Selected writings
 
-On [[categorical semantics]] of ([[dependent type theory|dependent]]) [[type theory]] (and proving an [[initiality conjecture]] in Ch. 4):
+On [[categorical semantics]] of ([[dependent type theory|dependent]]) [[type theory]] (and proving an [[initiality conjecture]] in Ch. 4), see at *[[categorical model of dependent types]]*:
 
 * {#Streicher91} [[Thomas Streicher]], _Semantics of type theory -- Correctness, completeness and independence results_, Progress in Theoretical Computer Science, Birkhäuser Boston (1991) &lbrack;ISBN:0-8176-3594-7, [doi:10.1007/978-1-4612-0433-6](https://doi.org/10.1007/978-1-4612-0433-6)&rbrack;
 
