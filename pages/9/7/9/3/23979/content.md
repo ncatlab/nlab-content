@@ -31,6 +31,10 @@ A [[commutative ring]] $R$ is a **Bézout ring** if it has functions $\beta_0:R 
 \end{definition}
 
 \begin{definition}
+A [[commutative ring]] $R$ is a **Bézout ring** if it has functions $\beta_0:R \times R \to R$, $\beta_1:R \times R \to R$, $\gamma:R \times R \to R$, $q_0:R \times R \to R$, $q_1:R \times R \to R$ such that for every element $a \in R$ and $b \in R$, $a \cdot \beta_0(a, b) + b \cdot \beta_1(a, b) = \gamma(a, b)$, $q_0(a, b) \cdot \gamma(a, b) = a$ and $q_1(a, b) \cdot \gamma(a, b) = b$. 
+\end{definition}
+
+\begin{definition}
 A [[commutative ring]] $R$ is a **Bézout ring** if every ideal with 2 generators is a [[principal ideal]]: 
 \end{definition}
 
@@ -39,6 +43,8 @@ A [[commutative ring]] $R$ is a **Bézout ring** if every finitely generated ide
 \end{definition}
 
 If the commutative ring is a [[GCD ring]] and the common divisor is the [[greatest common divisor]], then the Bézout ring condition $a \cdot \beta_0(a, b) + b \cdot \beta_1(a, b) = \gcd(a, b)$ is called the **Bézout identity**. There might be multiple Bézout coefficient functions for each Bézout ring. 
+
+The third definition implies that Bézout rings are [[algebraic theory|algebraic]]. 
 
 ## See also ##
 
