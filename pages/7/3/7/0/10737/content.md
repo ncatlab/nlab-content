@@ -105,5 +105,3 @@ See also
 
 [[!redirects p-complete homotopy type]]
 [[!redirects p-complete homotopy types]]
-
-[[!redirects adic completion]]
