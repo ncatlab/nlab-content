@@ -442,8 +442,8 @@ An [[adjunction]] between the category of [[type theory|type theories]] with [[p
 
 The [[equivalence of categories]] between [[locally cartesian closed categories]] and [[dependent type theories]] was originally claimed in 
 
-* {#Seely} [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
-  
+* {#Seely} [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. **95** (1984) 33-48  &lbrack;[doi:10.1017/S0305004100061284](https://doi.org/10.1017/S0305004100061284), [pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf)&rbrack;
+
 
 following a statement earlier conjectured in 
 
