@@ -10,6 +10,11 @@ __Andrew Mawdesley Pitts__ is a professor of theoretical computer science at Cam
 
 * _Tripos theory in retrospect_, [pdf](http://www.cl.cam.ac.uk/~amp12/papers/tritr/tritr.pdf)
 
+On [[categorical semantics]] and the [[categorical model of dependent types]]:
+
+* [[Andrew M. Pitts]], *Categorical logic*, in *[[Handbook of Logic in Computer Science]]* **5** Oxford Univ. Press (2000) 39-128 &lbrack;[doi:10.1093/oso/9780198537816.003.0002](https://doi.org/10.1093/oso/9780198537816.003.0002), [pdf](https://www.cl.cam.ac.uk/~amp12/papers/catl/catl.pdf), [MR1859470](http://www.ams.org/mathscinet-getitem?mr=1859470)&rbrack;
+
+
 On [[denotational semantics]] and [[domain theory]]:
 
 * [[Andrew M. Pitts]], *Lecture Notes on Denotational Semantics* (2012) &lbrack;[pdf](https://www.cl.cam.ac.uk/teaching/1112/DenotSem/dens-notes-bw.pdf), [[Pitts-DenotationalSemantics.pdf:file]]&rbrack;
