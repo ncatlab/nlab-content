@@ -6,6 +6,11 @@
 
 ## Selected writings
 
+On [[Grothendieck universes]] for [[category theory]]:
+
+* [[Zhen Lin Low]], _Universes for category theory_ &lbrack;[arxiv/1304.5227](http://arxiv.org/abs/1304.5227)&rbrack;
+
+
 On [[geometric homotopy theory|geometric]] [[homotopy theory]] via [[simplicial objects]] [[internalization|internal]] to a [[Grothendieck topos]] ([[simplicial sheaves]]):
 
 * {#Low14} [[Zhen Lin Low]], _Internal and local homotopy theory_ (2014) $[$[arXiv:1404.7788](https://arxiv.org/abs/1404.7788)$]$ 
