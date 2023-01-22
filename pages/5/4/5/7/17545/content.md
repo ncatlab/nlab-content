@@ -31,6 +31,8 @@ Given any positive integer $n$, $\mathbb{Z}/n\mathbb{Z}$ is a [[prefield ring]] 
 
 * [[multiplicative group of integers modulo n]]
 
+* [[modular polynomial]]
+
 ## References
 
 e.g. example 5 in these notes: [pdf](http://www-math.mit.edu/~dav/fields.pdf)
