@@ -23,6 +23,8 @@ As a result, the theory of a reduced ring is a [[coherent theory]].
 
 * An example of a reduced ring which is not an [[integral domain]] is the quotient ring $R[x, y]/(x \cdot y)$. 
 
+* Every [[finite set|finite]] [[cyclic group|cyclic]] [[ring]] of [[square-free]] [[characteristic]] $\mathbb{Z}/n\mathbb{Z}$ is a reduced ring. It is an [[integral domain]] if and only if $n$ is a [[prime number]]. 
+
 ## See also
 
 * [[radical]]
