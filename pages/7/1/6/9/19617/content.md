@@ -62,8 +62,13 @@ PhD thesis:
 
 ## Invited talks
 
+On [[non-perturbative quantum field theory|non-perturbative]] [[BV-BRST formalism]] with an eye towards [[M-theory]]:
+
+* [[Luigi Alfonsi]], *Derived $n$-plectic geometry: towards non-perturbative BV-BFV quantisation and M-theory*, talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Alfonsi2023)&rbrack;
+
 * _Classical BV-BFV theory as derived $n$-plectic geometry_, seminar talk at [Monthly Global Diffeology Seminar series](https://diffeology.net/index.php/seminar), 2nd December 2022
 
+On [[higher structures]] in [[string dualities]]:
 
 * *Higher quantum geometry and global string duality*, talk at NYU Abu Dhabi (April 2022) $[$[web](Center+for+Quantum+and+Topological+Systems#AlfonsiFeb2022)$]$
 
@@ -79,10 +84,6 @@ PhD thesis:
 
 * _Global Double Field Theory as gerbe geometry_, talk at [Generalized Geometry and Applications](https://www.math.uni-hamburg.de/projekte/gg2020/), University of Hamburg, 3rd March 2020.
 
-On [[non-perturbative quantum field theory|non-perturbative]] [[BV-BRST formalism]] with an eye towards [[M-theory]]:
-
-* [[Luigi Alfonsi]], *Derived $n$-plectic geometry: towards non-perturbative BV-BFV quantisation and M-theory*, talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Alfonsi2023)&rbrack;
-
 
 
 
@@ -91,7 +92,9 @@ On [[non-perturbative quantum field theory|non-perturbative]] [[BV-BRST formalis
 
 ## Related entries
 
-* [[double field theory]]
+* [[BV-BRST formalism]]
+
+* [[T-duality]], [[double field theory]]
 
 * [[non-geometry]]
   * [[T-folds]]
@@ -101,6 +104,8 @@ On [[non-perturbative quantum field theory|non-perturbative]] [[BV-BRST formalis
 
 * [[Kaluza-Klein compactification]]
   * [[Kaluza-Klein monopole]]
+
+* [[non-perturbative quantum field theory]]
 
 category: people
 
