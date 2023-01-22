@@ -29,10 +29,13 @@ On [[internal type theory]]:
 
 * [[Peter Dybjer]], *Internal type theory*, in:  *Types for Proofs and Programs*, Lecture Notes in Computer Science **1158** (1996) 120-134 &lbrack;[doi:10.1007/3-540-61780-9_66](https://doi.org/10.1007/3-540-61780-9_66), [pdf](http://www.cse.chalmers.se/~peterd/papers/InternalTT.pdf)&rbrack;  
 
-
 On the [[categorical semantics]] of [[W-types]] by [[initial algebras over an endofunctor]]:
 
 * [[Peter Dybjer]], *Representing inductively defined sets by wellorderings in Martin-Löf's type theory*, Theoretical Computer Science **176** 1–2 (1997) 329-335 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(96)00145-4">doi:10.1016/S0304-3975(96)00145-4</a>&rbrack;
+
+On the [[categorical model of dependent types]] by [[locally cartesian closed categories]]:
+
+* {#ClairambaultDybjer} [[Pierre Clairambault]], [[Peter Dybjer]], *The Biequivalence of Locally Cartesian Closed Categories and Martin-L&#246;f Type Theories*, in *Typed lambda calculi and applications*, Lecture Notes in Comput. Sci. **6690** Springer (2011) &lbrack;[arXiv:1112.3456](http://arxiv.org/abs/1112.3456), [doi:10.1007/978-3-642-21691-6_10](https://doi.org/10.1007/978-3-642-21691-6_10)&rbrack;
 
 
 
