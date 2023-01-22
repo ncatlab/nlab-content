@@ -68,3 +68,5 @@ $$- \; :\mathbb{Z} \times \mathbb{Z} \rightarrow \mathbb{Z}.$$
 
 
 [[!redirects subtraction]]
+[[!redirects subtract]]
+[[!redirects subtracts]]
