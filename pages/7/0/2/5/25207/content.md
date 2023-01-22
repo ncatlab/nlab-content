@@ -16,7 +16,7 @@ Let $R$ be a [[unique factorization domain]]. An element $r \in R$ is **square-f
 
 ## Properties
 
-Given a [[unique factorization domain]] $R$ and a square-free element $x \in R$, the [[quotient ring]] $R/x R$ is a [[reduced ring]]. Since for every non-zero element $r \in R$, $R/x R$ is a [[prefield ring]], $R/x R$ is an [[integral domain]] and thus a [[field]] if and only if $x$ is an [[irreducible element]] in $R$.  
+Given a [[unique factorization domain]] $R$ such that for every [[irreducible element]] $p \in R$, the [[ideal]] $p R$ is a [[maximal ideal]], and a square-free element $x \in R$, the [[quotient ring]] $R/x R$ is a [[reduced ring]]. Since for every non-zero element $r \in R$, $R/x R$ is a [[prefield ring]], $R/x R$ is an [[integral domain]] and thus a [[field]] if and only if $x$ is an [[irreducible element]] in $R$.  
 
 ## Square-free factorization
 
