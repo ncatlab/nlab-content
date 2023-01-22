@@ -475,11 +475,18 @@ See [[cut elimination]].
 
 Sequent calculus was introduced in
 
-* {#Gentzen} [[Gerhard Gentzen]]  _Untersuchungen &#252;ber das logische Schlie&#223;en I_ _Mathematische Zeitschrift_ **39** 1 (1935) &lbrack;[doi:10.1007/BF01201353](http://dx.doi.org/10.1007/BF01201353)&rbrack;
+* {#Gentzen} [[Gerhard Gentzen]],  _Untersuchungen &#252;ber das logische Schlie&#223;en I_ _Mathematische Zeitschrift_ **39** 1 (1935) &lbrack;[doi:10.1007/BF01201353](http://dx.doi.org/10.1007/BF01201353)&rbrack;
+
+Introduction:
+
+* [[Paul Downen]], [[Zena M. Ariola]], *A tutorial on computational classical logic and the sequent calculus*, Journal of Functional Programming **28** (2018) e3 &lbrack;[doi:10.1017/S0956796818000023](https://doi.org/10.1017/S0956796818000023), [pdf](https://www.pauldownen.com/publications/sequent-intro.pdf)&rbrack;
 
 Textbook accounts:
 
 * Morten Heine Sørensen, Pawel Urzyczyn, Chapter 7 of: *Lectures on the Curry-Howard isomorphism*, Studies in Logic **149** (2006) &lbrack;[ISBN:9780444520777](https://www.elsevier.com/books/lectures-on-the-curry-howard-isomorphism/sorensen/978-0-444-52077-7), [pdf](https://disi.unitn.it/~bernardi/RSISE11/Papers/curry-howard.pdf)&rbrack;
+
+* Sara Negri, Jan von Plato, §1, §2 in: *Structural Proof Theory*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511527340](https://doi.org/10.1017/CBO9780511527340), [§1 pdf](https://www.logicmatters.net/resources/pdfs/NegriPlato1.pdf), [§2 pdf](https://www.logicmatters.net/resources/pdfs/NegriPlato1.pdf)&rbrack;
+
 
 For the basic definitions in a context of [[topos theory]]:
 
@@ -491,11 +498,11 @@ See also:
 
 * [Sequent Calculus Primer](http://sakharov.net/sequent.html)
 
-In 
+Discussion for [[type theory]]:
 
 * St&#233;phane Lengrand,  Roy Dyckhoff, James McKinna, _A Sequent Calculus for Type Theory_ ([inria](http://hal.inria.fr/hal-00150286/), [pdf](http://138.251.206.45/~rd/publications/42070441.pdf))
 
-is discussion of a sequent calculus for [[type theory]].
+
 
 
 [[!redirects sequent calculus]]
