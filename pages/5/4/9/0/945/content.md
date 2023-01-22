@@ -151,7 +151,7 @@ More recently, [[Jacob Lurie]] has referred to the analogue notion for [[(∞,1)
 
 * [[Saunders Mac Lane]], _Categories for the Working Mathematician_ , Springer Heidelberg 1998&#178;. (section X.6, pp.245ff, 250)
 
-* Horst Schubert, _Kategorien II_ , Springer Heidelberg 1970. (section 17.2, pp.29ff)
+* [[Horst Schubert]], _Kategorien II_ , Springer Heidelberg 1970. (section 17.2, pp.29ff)
 
 * [[Friedrich Ulmer]], _Properties of dense and relative adjoint functors_ , J. of Algebra **8** (1968) pp.77-95.
 
