@@ -75,6 +75,13 @@ On [[data type|data-]][[type theory]] in [[programming languages]]:
 
 ## Volume 5 -- Logic and Algebraic Methods
 
+* [doi:10.1093/oso/9780198537816.001.0001](https://doi.org/10.1093/oso/9780198537816.001.0001)
+
+On [[categorical semantics]] and the [[categorical model of dependent types]]:
+
+* [[Andrew M. Pitts]], *Categorical logic*, in *[[Handbook of Logic in Computer Science]]* **5** Oxford Univ. Press (2000) 39-128 &lbrack;[doi:10.1093/oso/9780198537816.003.0002](https://doi.org/10.1093/oso/9780198537816.003.0002), [pdf](https://www.cl.cam.ac.uk/~amp12/papers/catl/catl.pdf), [MR1859470](http://www.ams.org/mathscinet-getitem?mr=1859470)&rbrack;
+
+
 (...)
 
 \linebreak
