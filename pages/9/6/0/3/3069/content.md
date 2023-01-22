@@ -30,7 +30,7 @@ The Beck-Chevalley condition may be understood as a natural compatibility  condi
 ### From integral transforms
  {#MotivationFromIntegralTransforms}
 
-From the point of view of [[geometry]], in contexts such as of [[integral transforms]] one considers [[correspondences]] between [[spaces]] $A$,$B$ given by [[spans]] of [[maps]] between them:
+From the point of view of [[geometry]], in contexts such as of [[integral transforms]] one considers [[correspondences]] between [[spaces]] $A$, $B$ given by [[spans]] of [[maps]] between them:
 
 \begin{tikzcd}[sep=20]
   & 
@@ -42,11 +42,11 @@ From the point of view of [[geometry]], in contexts such as of [[integral transf
 \end{tikzcd}
 
 
-Via [[composition]] of such correspondenced by [[fiber product]] of adjacent legs, they form the [[1-morphisms]] in a [[2-category]] *[[Span]]*.
+Via [[composition]] of such correspondences by [[fiber product]] of adjacent legs, they form the [[1-morphisms]] in a [[2-category]] *[[Span]]*.
 
 Assuming some [[base change]] [[adjoint pair]] $f^\ast \vdash f_\ast$ is [[functor|functorially]] associated with [[maps]] $f$ (i.e. such that there are [[natural isomorphisms]] $(f_2 f_1)_\ast \,\simeq\, (f_2)_\ast (f_1)_\ast$ and dually), the [[integral transform]] encoded by any span as above is the "pull-push" operation given by $g_* f^*$. 
 
-Now the Beck-Chevalley condition (on such assignment of [[base change]] adjoints to maps) essentially says that this their pull-push construction is ([[2-functor|2-]])[[functor|functorial]] under [[composition]] of [[spans]]:
+Now the Beck-Chevalley condition (on such assignment of [[base change]] adjoints to maps) essentially says that this pull-push construction is ([[2-functor|2-]])[[functor|functorial]] under [[composition]] of [[spans]]:
 
 Concretely, given a pair of composable spans:
 
