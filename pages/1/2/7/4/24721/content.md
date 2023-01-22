@@ -308,9 +308,14 @@ Other mathematical structures and their univalent counterparts:
 
 ## References
 
-The notion is due to:
+Historical review of [[Alfred Tarski]]'s original notion in [[set theory]]:
+
+* [[Ralf Krömer]], §6.4.5 in: *Tool and object: A history and philosophy of category theory*, Science Networks. Historical Studies **32** (2007) &lbrack;[doi:10.1007/978-3-7643-7524-9](https://doi.org/10.1007/978-3-7643-7524-9)&rbrack;
+
+The terminology "universe &agrave; la Tarski" --- and now in the context of [[type universes]] for [[Martin-Löf dependent type theory]] --- is due to:
 
 * [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]): p. 48 in: _Intuitionistic type theory_, Lecture notes Padua 1984, Bibliopolis, Napoli (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
+
 
 Further discussion:
 
