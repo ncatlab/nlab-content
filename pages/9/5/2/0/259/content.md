@@ -201,6 +201,11 @@ An overview of the material there is contained in
 
 * [[Denis-Charles Cisinski]], _Cat&#233;gories sup&#233;rieures et th&#233;orie des topos_, S&#233;minaire Bourbaki, 21.3.2015, [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/1097.pdf).
 
+Comprehensive textbook account:
+
+* [[Denis-Charles Cisinski]], _[[Higher Categories and Homotopical Algebra]]_,  Cambridge University Press (2019) &lbrack;[doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf)&rbrack;
+
+
 The relation between [[quasi-category|quasi-categories]] and [[simplicially enriched categories]] was discussed in detail in 
 
 * [[Dan Dugger]], [[David Spivak]], _Rigidification of quasi-categories_ ([arXiv:0910.0814](http://arxiv.org/abs/0910.0814))
