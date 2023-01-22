@@ -19,6 +19,31 @@
 
 The **[[Jon Beck|Beck]]--[[Claude Chevalley|Chevalley]] condition**, also sometimes called just the *Beck condition* or the *Chevalley condition*, is a "commutation of [[adjoint functor|adjoint]]s" property that holds in many "[[base change|change of base]]" situations.
 
+## Motivation
+
+From an [answer](https://math.stackexchange.com/questions/2200469/understanding-the-beck-chevalley-condition/2201201#2201201) by [[Fosco Loregian]]:
+
+When you do algebraic geometry, you can consider diagrams like
+\begin{xymatrix}
+X \ar[r]^f \ar[d]_g & A\cr
+B\cr
+\end{xymatrix}
+where $X,A,B$ are spaces and $g,f$ maps thereof. It is fairly natural to think these as "generalized functions" between $A$ and $B$. They are in fact called "correspondences" between $A$ and $B$, and they organize in a category that contains your category of spaces in (actually two) canonical way(s).
+
+Morally, these guys correspond to "pull-push" functors like $g_*f^* : D(A)\to D(B)$. But there is a subtlety: in order for this to be a well-defined (bi)category, you must specify *coherence conditions* on a composition law: the most natural thing to do, given a diagram
+\begin{xymatrix}
+&X \ar[r]^f \ar[d]_g & A\cr
+Y \ar[r]^h \ar[d]_k & B\cr
+C\cr
+\end{xymatrix}
+is to complete it to a pullback
+\begin{xymatrix}
+P \ar[r]^q \ar[d]_p & X \ar[r]^f \ar[d]_g & A\cr
+Y \ar[r]^h \ar[d]_k & B\cr
+C\cr 
+\end{xymatrix}
+Notice that you have *two* seemingly different ways to read your composition, now: the first, as $(kp)_*(fq)^* = k_* p_* q^* f^*$ and the second as $k_* h^* g_* f^*$. When will these two be equal (or rather, canonically isomorphic)?
+
 
 ## Definition
 
