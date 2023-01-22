@@ -36,8 +36,7 @@ A commutative ring $R$ is a **prefield ring** if the [[ring of fractions]] of $R
 * A [[local ring]] $F$ is a prefield ring whose monoid of cancellative elements is the multiplicative monoid of elements [[apartness relation|apart from]] the [[ideal]] of [[zero divisors]] $D$. 
 
 * The [[trivial ring]] $0$ is the unique prefield ring up to unique isomorphism such that zero is in the monoid of cancellative elements. The trivial ring is also the terminal prefield. 
-
-* The [[integers modulo n|integers modulo 6]] $\mathbb{Z}/6\mathbb{Z}$ is a prefield ring which is not a [[local ring]], because $2$, $3$, and $4$ are not cancellative: $2 \cdot 3 = 0$, $4 \cdot 3 = 0$ and $2 \cdot 0 = 0$, $3 \cdot 0 = 0$, $4 \cdot 0 = 0$, but $2 \neq 0$, $3 \neq 0$, $4 \neq 0$, and thus, the monoid of cancellative elements is the same as the group of units $\{1, 5\}$. 
+* Given any composite [[square-free]] integer $n$, the [[integers modulo n|integers modulo 6]] $\mathbb{Z}/n\mathbb{Z}$ is a prefield ring which is not a [[local ring]], because the prime factors $p_i$ of $n$ are zero-divisors:  $\prod p_i = 0$ and $p_i \cdot 0 = 0$, but $p_i \neq 0$. 
 
 * Non-example: the [[integers]] $\mathbb{Z}$ are not a prefield ring. 
 
