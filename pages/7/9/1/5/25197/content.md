@@ -34,6 +34,25 @@ where $\mathbb{R}\Gamma(\mathbb{D}_n^\circ,\mathcal{O}_X)$ is the [[commutative 
 
 A __higher Kac-Moody algebra__ $\tilde{\mathfrak{g}}_{n,P}$ is the [[central extension]] of the higher current algebra $\mathfrak{g}_n$ by an invariant polynomial $P$ on $\mathfrak{g}_n$ of degree $(n+1)$.
 
+### Gwilliam-Williams higher Kac-Moody factorisation algebras
+
+Let $X$ be a [[complex manifold]] of dimension $n$ equipped with a holomorphic [[principal bundle]] $P\rightarrow X$ with [[structure group]] $G$. 
+
+Let $\mathfrak{ad}(P) \coloneqq P\times_G\mathfrak{g}$ be the [[adjoint bundle]] associated to $P$.
+Now, let $\mathscr{Ad}(P)$ be the [[local Lie algebra]] whose sections are $\Omega_c^{0,\ast}(U,\mathfrak{ad}(P))$ on any open set $U\subset X$ and whose differential is the $(0,1)$-connection $\bar{\partial}_P$. 
+
+Let $\Theta$ be a degree $1$ [[cocycle]] in the [[local Chevalley-Eilenberg cochains]] $\mathrm{CE}_{\mathrm{loc}}(\mathscr{Ad}(P))$, which defines a $1$-shifted [[central extension]] $\widehat{\mathscr{Ad}(P)}_\Theta$.
+
+The __higher Kac-Moody factorization algebra__ on $X$ of type $\Theta$ is defined as the twisted enveloping [[factorization algebra]] $\mathbb{U}_\Theta(\mathscr{Ad}(P))$ whose sections are
+
+$$ \Big(\mathrm{Sym}\left(\Omega_c^{0,\ast}(U,\mathfrak{ad}(P))[1]\right), \; \bar{\partial} + \mathrm{d}_\mathrm{CE} + \Theta \Big) $$
+
+on any open set $U\subset X$.
+
+### Relation between the two
+
+*Under construction*
+
 ## Examples
 
 ### Ordinary Kac-Moody algebras
