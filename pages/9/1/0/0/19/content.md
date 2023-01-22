@@ -352,6 +352,8 @@ This and much more history is recalled in
 
    ([[formal category theory]] in the [[2-category]] [[Cat]])
 
+* [[Horst Schubert]], *Categories*, Springer (1972) &lbrack;[doi:10.1007/978-3-642-65364-3](https://doi.org/10.1007/978-3-642-65364-3)&rbrack;
+
 * {#Geroch85} [[Robert Geroch]], _Mathematical Physics_, Chicago 1985 ([ISBN:9780226223063](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html))
 
   > (introduces categories by examples arising in [[mathematical physics]])
@@ -468,9 +470,9 @@ The [[foundation]] of category theory in [[homotopy type theory]] (see at _[[int
 
 * [[David Spivak]], _Category theory for scientists_ ([arXiv:1302.6946](http://arxiv.org/abs/1302.6946))
 
-* [[André Joyal]], *[[joyalscatlab:Categories]]*
+* [[André Joyal]], *[[joyalscatlab:Categories]]*
 
-* [[Benedikt Ahrens]] and [[Kobe Wullaert]], _Category Theory for Programming_, ([arXiv:2209.01259](https://arxiv.org/abs/2209.01259))
+* [[Benedikt Ahrens]] and Kobe Wullaert, _Category Theory for Programming_, ([arXiv:2209.01259](https://arxiv.org/abs/2209.01259))
 
 \subsection{Videos} 
 
