@@ -21,28 +21,139 @@ The **[[Jon Beck|Beck]]--[[Claude Chevalley|Chevalley]] condition**, also someti
 
 ## Motivation
 
-From an [answer](https://math.stackexchange.com/questions/2200469/understanding-the-beck-chevalley-condition/2201201#2201201) by [[Fosco Loregian]]:
+The Beck-Chevalley condition may be understood as a natural compatibility  condition for
 
-When you do algebraic geometry, you can consider diagrams like
-\begin{xymatrix}
-X \ar[r]^f \ar[d]_g & A\cr
-B\cr
-\end{xymatrix}
-where $X,A,B$ are spaces and $g,f$ maps thereof. It is fairly natural to think these as "generalized functions" between $A$ and $B$. They are in fact called "correspondences" between $A$ and $B$, and they organize in a category that contains your category of spaces in (actually two) canonical way(s).
+**[(1)](#MotivationFromIntegralTransforms)** [[integral transforms]] in [[geometry]]
 
-Morally, these guys correspond to "pull-push" functors like $g_*f^* : D(A)\to D(B)$. But there is a subtlety: in order for this to be a well-defined (bi)category, you must specify *coherence conditions* on a composition law: the most natural thing to do, given a diagram
-\begin{xymatrix}
-&X \ar[r]^f \ar[d]_g & A\cr
-Y \ar[r]^h \ar[d]_k & B\cr
-C\cr
-\end{xymatrix}
-is to complete it to a pullback
-\begin{xymatrix}
-P \ar[r]^q \ar[d]_p & X \ar[r]^f \ar[d]_g & A\cr
-Y \ar[r]^h \ar[d]_k & B\cr
-C\cr 
-\end{xymatrix}
-Notice that you have *two* seemingly different ways to read your composition, now: the first, as $(kp)_*(fq)^* = k_* p_* q^* f^*$ and the second as $k_* h^* g_* f^*$. When will these two be equal (or rather, canonically isomorphic)?
+**[(2)](#MotivationFromLogicAndTypeTheory)** [[quantifiers]] in [[formal logic]]/[[type theory]]
+
+### From integral transforms
+ {#MotivationFromIntegralTransforms}
+
+From the point of view of [[geometry]], in contexts such as of [[integral transforms]] one considers [[correspondences]] between [[spaces]] $A$,$B$ given by [[spans]] of [[maps]] between them:
+
+\begin{tikzcd}[sep=20]
+  & 
+  X
+  \ar[dl, "f"{swap}]
+  \ar[dr, "g"]
+  \\
+  A && B
+\end{tikzcd}
+
+
+Via [[composition]] of such correspondenced by [[fiber product]] of adjacent legs, they form the [[1-morphisms]] in a [[2-category]] *[[Span]]*.
+
+Assuming some [[base change]] [[adjoint pair]] $f^\ast \vdash f_\ast$ is [[functor|functorially]] associated with [[maps]] $f$ (i.e. such that there are [[natural isomorphisms]] $(f_2 f_1)_\ast \,\simeq\, (f_2)_\ast (f_1)_\ast$ and dually), the [[integral transform]] encoded by any span as above is the "pull-push" operation given by $g_* f^*$. 
+
+Now the Beck-Chevalley condition (on such assignment of [[base change]] adjoints to maps) essentially says that this their pull-push construction is ([[2-functor|2-]])[[functor|functorial]] under [[composition]] of [[spans]]:
+
+Concretely, given a pair of composable spans:
+
+\begin{tikzcd}[sep=20]
+  & 
+  X
+  \ar[dl, "f"{swap}]
+  \ar[dr, "g"]
+  &&
+  Y
+  \ar[dl, "h"{swap}]
+  \ar[dr, "k"]
+  \\
+  A && B && C
+\end{tikzcd}
+
+and their composite in [[Span]] formed by the [[fiber product]] of the adjacent legs
+
+\begin{tikzcd}[sep=20]
+  &&
+  X \times_B Y
+  \ar[dl, "q"{swap}]
+  \ar[dr, "p"]
+  \ar[dd, phantom, "{\lrcorner}"{rotate=-45, pos=.3}]
+  \\
+  & 
+  X
+  \ar[dl, "f"{swap}]
+  \ar[dr, "g"]
+  &&
+  Y
+  \ar[dl, "h"{swap}]
+  \ar[dr, "k"]
+  \\
+  A && B && C
+\end{tikzcd}
+
+then functoriality of pull-push means that the
+ *two* different ways to pull-push through the diagram coincide:
+
+Pull-pushing through the spans separately results in
+
+$$
+  (k_\ast h^\ast)
+  \circ
+  (g_\ast f^\ast)
+  \;=\;
+  k_\ast 
+  \,
+  \underbrace{h^\ast \, g_\ast}
+  \,
+  f^\ast
+  \,,
+$$
+
+while pull-pushing through the composite span results in
+
+$$
+  (k p)_* (f q)^* 
+  = 
+  k_* 
+  \,
+  \underbrace{p_* \, q^*}
+  \,
+  f^*
+  \,.
+$$
+
+For these two operations to coincide, up to [[isomorphism]], hence for pull-push to respect composition of spans, we need an isomorphism between the operations shown over braces, hence of the form
+
+\[
+  \label{BCConditionInMotivationFromIntegralTransform}
+  h^\ast \, g_\ast
+  \;\simeq\;
+  p_* \, q^*
+\]
+
+between the two ways of  push-pulling along the sides of any [[pullback square]]
+
+\begin{tikzcd}[sep=20]
+  &
+  X \times_B Y
+  \ar[dl, "q"{swap}]
+  \ar[dr, "p"]
+  \ar[dd, phantom, "{\lrcorner}"{rotate=-45, pos=.3}]
+  \\
+  X
+  \ar[dr, "g"]
+  &&
+  Y
+  \ar[dl, "h"{swap}]
+  \\
+  & B &
+\end{tikzcd}
+
+This (eq:BCConditionInMotivationFromIntegralTransform) is the Beck-Chevalley condition: 
+
+A natural necessary condition to ensure that [[integral transforms]] by pull-push [[base change]] through [[correspondences]] is functorial under [[composition]] of [[correspondences]] by [[fiber product]] of adjacent legs.
+
+More motivation along these lines also be found at *[[dependent linear type theory]]*. As a formulation of propagation in cohomological [[quantum field theory]] this is [Sc14](dependent+linear+type+theory#Schreiber14) there.
+
+
+### From logic and type theory
+ {#MotivationFromLogicAndTypeTheory}
+
+From the point of view of [[formal logic]] and [[dependent type theory]], the three items $f_! \dashv f^\ast \vdash f_\ast$ in a [[base change]] [[adjoint triple]] constitute the [[categorical semantics]] of [[quantification]] and [[context extension]] ([[existential quantification]]/[[dependent pair type]] $\dashv$ [[context extension]] $\dashv$ [[universal quantification]]/[[dependent product type]]), and so the Beck-Chevalley condition says that these are compatible with each other: concretely that [[substitution]] of [[free variables]] commutes with [[quantification]] --- a condition which [[syntax|syntactically]] is "self-evident", at least it is evidently desirable.
+
 
 
 ## Definition
@@ -81,6 +192,8 @@ More generally, it is clear that for this to make sense, we only need a transfor
 Of course, if $g^*$ and $k^*$ also have [[left adjoints]], there is also a Beck--Chevalley condition stating that the corresponding mate $k_! h^* \to f^* g_!$ is an isomorphism, and this is not equivalent in general.  Context is usually sufficient to disambiguate, although some people speak of the "left" and "right" Beck--Chevalley conditions.
 
 Note that if $k^* f^* \to h^* g^*$ is not an isomorphism, then there is only one possible Beck-Chevalley condition.
+
+
 
 
 ### Dual Beck--Chevalley condition
