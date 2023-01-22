@@ -17,9 +17,11 @@ Given a natural number $n$, the ring of **integers modulo $n$** is the [[quotien
 
 These are also the [[quotient]] [[rig]] $\mathbb{N}/n\mathbb{N}$. 
 
-For $n$ a [[prime number]] this is a [[prime field]], and for $n$ a [[prime power]] this is a [[prime power local ring]]. 
+## Properties
 
-The underlying [[abelian group]] of the integers modulo $n$ is the [[cyclic group]] of order $n$. 
+The integers modulo $n$ are precisely the [[finite set|finite]] [[cyclic group|cyclic]] [[rings]], since the underlying [[set]] is the [[finite set]] of [[cardinality]] $n$ and the underlying [[abelian group]] is the [[cyclic group]] of order $n$.
+
+Given any positive integer $n$, $\mathbb{Z}/n\mathbb{Z}$ is a [[prefield ring]] whose [[monoid of cancellative elements]] consists of all integers $m$ modulo $n$ which are [[coprime]] with $n$. For $n$ a [[prime number]] this is a [[prime field]], and for $n$ a [[prime power]] this is a [[prime power local ring]].  
 
 ## See also
 
@@ -41,4 +43,7 @@ e.g. example 5 in these notes: [pdf](http://www-math.mit.edu/~dav/fields.pdf)
 [[!redirects rings of integers modulo n]]
 
 [[!redirects integers modulo]]
+
+[[!redirects finite cyclic ring]]
+[[!redirects finite cyclic rings]]
 
