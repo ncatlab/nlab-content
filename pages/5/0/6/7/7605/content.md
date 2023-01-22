@@ -94,7 +94,7 @@ Generally one wants at least to require that all fibrant objects are cofibrant, 
 
 * {#AK} [[Peter Arndt]] and [[Krzysztof Kapulkin]], *Homotopy-Theoretic Models of Type Theory*, In: Ong L. (eds) Typed Lambda Calculi and Applications. TLCA 2011. Lecture Notes in Computer Science, vol 6690. Springer, Berlin, Heidelberg, [doi](https://doi.org/10.1007/978-3-642-21691-6_7)
 
-* {#Shulman15} [[Michael Shulman]], _Univalence for inverse diagrams and homotopy canonicity_, Mathematical Structures in Computer Science, Volume 25, Issue 5 ( _From type theory and homotopy theory to Univalent Foundations of Mathematics_ ) June 2015 ([arXiv:1203.3253](https://arxiv.org/abs/1203.3253), [doi:/10.1017/S0960129514000565](https://doi.org/10.1017/S0960129514000565))
+* {#Shulman15} [[Michael Shulman]], *Univalence for inverse diagrams and homotopy canonicity*, Mathematical Structures in Computer Science **25** 5 "From type theory and homotopy theory to Univalent Foundations of Mathematics" (2015)  1203-1277 &lbrack;[arXiv:1203.3253](https://arxiv.org/abs/1203.3253), [doi:/10.1017/S0960129514000565](https://doi.org/10.1017/S0960129514000565)&rbrack;
 
 * {#Shulman12a} [[Mike Shulman]], _[Minicourse on Homotopy Type Theory](https://home.sandiego.edu/~shulman/hottminicourse2012/)_ part 3, _Categorical models of homotopy type theory_, April 2012 ([pdf](https://home.sandiego.edu/~shulman/hottminicourse2012/03models.pdf))
 
