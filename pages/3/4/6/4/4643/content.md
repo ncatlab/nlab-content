@@ -87,18 +87,27 @@ The statement of the quantum geometric Langlands correspondence is surveyed on [
 
 * [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_ ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172)).
 
+with more details in:
+
+* [[Dennis Gaitsgory]], *Quantum Langlands Correspondence* &lbrack;[arXiv:1601.05279](https://arxiv.org/abs/1601.05279)&rbrack;
+
+
 The construction of the correspondence in the abelian case, where it is given by a [[Fourier-Mukai transform]], is given in
 
 * {#PolishukRothenstein} A. Polishchuk and M. Rothstein, _Fourier transform for D-algebras_ , DukeMath. J. 109 (2001) 123&#8211;146.
 
 
-An interpretation of the quantum Langlands correspondence in terms of the [[B-model]] is given in
+An interpretation of the quantum Langlands correspondence in terms of the [[B-model]] [[topological string]] is given in
 
 * [[Anton Kapustin]], _A Note on Quantum Geometric Langlands Duality, Gauge Theory, and Quantization of the Moduli Space of Flat Connections_ ([arXiv:0811.3264](http://arxiv.org/abs/0811.3264))
 
 A general quantum geometric Langlands correspondence is produced in
 
-* {#AganagicFrenkelOkounkov17} [[Mina Aganagic]], [[Edward Frenkel]], [[Andrei Okounkov]], _Quantum $q$-Langlands Correspondence_ ([arXiv:1701.03146](https://arxiv.org/abs/1701.03146))
+* {#AganagicFrenkelOkounkov17} [[Mina Aganagic]], [[Edward Frenkel]], [[Andrei Okounkov]], Trans. Moscow Math. Soc. (2018) 1-83 , _Quantum $q$-Langlands Correspondence_ &lbrack;[arXiv:1701.03146](https://arxiv.org/abs/1701.03146), [doi:10.1090/mosc/278]( https://doi.org/10.1090/mosc/278) &rbrack;
+
+see also
+
+* [[David Ben-Zvi]], [[Adrien Brochier]], David Jordan, *Quantum character varieties and braided module categories*,  Sel. Math. New Ser. **24** (2018) 4711–4748 &lbrack;[doi:10.1007/s00029-018-0426-y](https://doi.org/10.1007/s00029-018-0426-y), [arXiv:1606.04769](https://arxiv.org/abs/1606.04769)&rbrack;
 
 Relation to [[semi-topological 4d Chern-Simons theory]]:
 
