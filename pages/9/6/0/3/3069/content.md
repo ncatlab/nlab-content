@@ -44,7 +44,15 @@ From the point of view of [[geometry]], in contexts such as of [[integral transf
 
 Via [[composition]] of such correspondences by [[fiber product]] of adjacent legs, they form the [[1-morphisms]] in a [[2-category]] *[[Span]]*.
 
-Assuming some [[base change]] [[adjoint pair]] $f^\ast \vdash f_\ast$ is [[functor|functorially]] associated with [[maps]] $f$ (i.e. such that there are [[natural isomorphisms]] $(f_2 f_1)_\ast \,\simeq\, (f_2)_\ast (f_1)_\ast$ and dually), the [[integral transform]] encoded by any span as above is the "pull-push" operation given by $g_* f^*$. 
+Assuming some [[base change]] [[adjoint pair]] $f^\ast \vdash f_\ast$, thought of as
+
+* *push-forward* $f_\ast \,\colon\, \mathcal{D}(X) \longrightarrow \mathcal{D}(A)$
+
+and
+
+* *pull-back* $f^\ast \,\colon\, \mathcal{D}(A) \longrightarrow \mathcal{D}(X)$
+
+is [[functor|functorially]] associated with [[maps]] $f$ (i.e. such that there are [[natural isomorphisms]] $(f_2 f_1)_\ast \,\simeq\, (f_2)_\ast (f_1)_\ast$ and dually), the [[integral transform]] encoded by any span as above is the "pull-push" operation given by $g_* f^*$. 
 
 Now the Beck-Chevalley condition (on such assignment of [[base change]] adjoints to maps) essentially says that this pull-push construction is ([[2-functor|2-]])[[functor|functorial]] under [[composition]] of [[spans]]:
 
@@ -142,9 +150,7 @@ between the two ways of  push-pulling along the sides of any [[pullback square]]
   & B &
 \end{tikzcd}
 
-This (eq:BCConditionInMotivationFromIntegralTransform) is the Beck-Chevalley condition: 
-
-A natural necessary condition to ensure that [[integral transforms]] by pull-push [[base change]] through [[correspondences]] is functorial under [[composition]] of [[correspondences]] by [[fiber product]] of adjacent legs.
+This (eq:BCConditionInMotivationFromIntegralTransform) is the Beck-Chevalley condition:  A natural necessary condition to ensure that [[integral transforms]] by pull-push [[base change]] through [[correspondences]] is functorial under [[composition]] of [[correspondences]] by [[fiber product]] of adjacent legs.
 
 More motivation along these lines also be found at *[[dependent linear type theory]]*. As a formulation of propagation in cohomological [[quantum field theory]] this is [Sc14](dependent+linear+type+theory#Schreiber14) there.
 
@@ -153,6 +159,8 @@ More motivation along these lines also be found at *[[dependent linear type theo
  {#MotivationFromLogicAndTypeTheory}
 
 From the point of view of [[formal logic]] and [[dependent type theory]], the three items $f_! \dashv f^\ast \vdash f_\ast$ in a [[base change]] [[adjoint triple]] constitute the [[categorical semantics]] of [[quantification]] and [[context extension]] ([[existential quantification]]/[[dependent pair type]] $\dashv$ [[context extension]] $\dashv$ [[universal quantification]]/[[dependent product type]]), and so the Beck-Chevalley condition says that these are compatible with each other: concretely that [[substitution]] of [[free variables]] commutes with [[quantification]] --- a condition which [[syntax|syntactically]] is "self-evident", at least it is evidently desirable.
+
+For more on this logical aspect see [below](#InTypeTheory).
 
 
 
