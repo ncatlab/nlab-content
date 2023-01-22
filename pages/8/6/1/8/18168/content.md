@@ -144,20 +144,19 @@ Let $(X,\tau)$ be a [[normal topological space]] and $\{U_i \subset X\}_{i \in \
 As in the proof of lemma \ref{ShrinkinglemmaForFiniteCovers}, there exist $V_i$ for $i \in \mathbb{N}$ such that $V_i \subset Cl(V_i) \subset U_i$ and such that for every finite number, hence every $n \in \mathbb{N}$, then 
 
 $$
-  \underoverset{i = 0}{n}{\cup} V_i
-  \;=\; 
-  \underoverset{i = 0}{n}{\cup} U_i
-  \,.
+  \underoverset{i = 0}{n}{\cup} V_i \cup
+  \underoverset{i = n+1}{\infty}{\cup} U_i
+  \;=\; X\,.
 $$ 
 
 Now the extra assumption that $\{U_i \subset X\}_{i \in I}$ is [[locally finite cover|locally finite]] implies that every $x \in X$ is contained in only finitely many of the  $U_i$, hence that for every $x \in X$ there exists $n_x \in \mathbb{N}$ such that
 
 $$
-  x \in \underoverset{i = 0}{n_x}{\cup} U_i
+  x \notin \underoverset{i = n_x+1}{\infty}{\cup} U_i
   \,.
 $$
 
-This implies that for every $x$ then
+This implies that for each $x$
 
 $$
   x \in \underoverset{i = 0}{n_x}{\cup} V_i 
