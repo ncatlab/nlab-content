@@ -30,10 +30,12 @@ Given a square-free integer $n$, the [[integers modulo n]] $\mathbb{Z}/n\mathbb{
 
 * [[prime power]]
 
+* [[square-free]]
+
 * [[square-free polynomial]]
 
 ## External links
 
 * Wikipedia, [Square-free integer](https://en.m.wikipedia.org/wiki/Square-free_integer)
 
-[[!redirects square-free]]
+[[!redirects square-free integer]]
