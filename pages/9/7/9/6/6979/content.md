@@ -88,6 +88,11 @@ Introductory accounts:
 
 * [[Simon Thompson]], §6.3 in: *[[Type Theory and Functional Programming]]*, Addison-Wesley (1991) &lbrack;ISBN:0-201-41667-0, [webpage](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP), [pdf](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)&rbrack;
 
+* [[Bart Jacobs]], Chapter 10 in: *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
+
+  > (emphasis on the [[categorical model of dependent types]])
+
+
 * [[Nicola Gambino]], _Lectures on dependent type theory_ (2009) &lbrack;[pdf](http://www.cs.le.ac.uk/events/mgs2009/courses/gambino/lecturenotes-gambino.pdf)&rbrack;
 
   > (In [part I](http://www.math.unipa.it/~ngambino/Research/Lectures/lecture1.pdf) there the standard [[type formation]], [[term introduction]]/[[term elimination]] and [[computation rules]] of dependent type theory are listed.)
