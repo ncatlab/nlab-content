@@ -151,24 +151,42 @@ Now let $ C $ be a $ U $-moderate category (and not small). Then the category of
 ## References
  {#References}
 
-* [[Nicolas Bourbaki]], _Univers_, Appendix to Expose I in [[SGA 4]].
+The original account:
 
-* [[Mike Shulman]], _Set theory for category theory_, [arXiv:0810.1279](http://arxiv.org/abs/0810.1279).
+* [[Nicolas Bourbaki]], _Univers_, Appendix to Expose I in [[SGA 4]] (1963-64)
 
-* Zhen Lin Low, _Universes for category theory_, [arxiv/1304.5227](http://arxiv.org/abs/1304.5227)
 
-* [[Daniel Murfet]], _Foundations for category theory_,
-[pdf](http://therisingsea.org/notes/FoundationsForCategoryTheory.pdf)
+Further early discussion:
+
+* [[Saunders MacLane]], *One universe as a foundation for category theory*,  In: *Reports of the Midwest Category Seminar III*, Lecture Notes in Mathematics **106**, Springer (1969) 192-200 &lbrack;[doi:10.1007/BFb0059147](https://doi.org/10.1007/BFb0059147)&rbrack;
+
+Comprehensive historical review with further references:
+
+* [[Ralf Krömer]], §6.4.4 in: *Tool and object: A history and philosophy of category theory*, Science Networks. Historical Studies **32**, Springer (2007) &lbrack;[doi:10.1007/978-3-7643-7524-9](https://doi.org/10.1007/978-3-7643-7524-9)&rbrack;
+
+Most texts on [[category theory]] and related topics mention the topic of Grothendieck universes without providing details. One textbook which states at least the precise definition is:
+
+* [[Horst Schubert]], §3.2 in: *Categories*, Springer (1972) &lbrack;[doi:10.1007/978-3-642-65364-3](https://doi.org/10.1007/978-3-642-65364-3)&rbrack;
+
+An introductory review spelling out more details:
+
+* {#Murfet06} [[Daniel Murfet]], _Foundations for category theory_ (2006) &lbrack;[pdf](http://therisingsea.org/notes/FoundationsForCategoryTheory.pdf), [[Murfet-GrothendieckUniverses.pdf:file]]&rbrack;
+
+Further discussion:
+
+* [[Mike Shulman]], _Set theory for category theory_ &lbrack;[arXiv:0810.1279](http://arxiv.org/abs/0810.1279)&rbrack;
+
+* [[Zhen Lin Low]], _Universes for category theory_ &lbrack;[arxiv/1304.5227](http://arxiv.org/abs/1304.5227)&rbrack;
+
 
 The proof that a Grothendieck universe is equivalently a set of $ \kappa $-small sets for $ \kappa $ an [[inaccessible cardinal]] is in 
 
-* N. H. Williams, _On Grothendieck universes_, Compositio Mathematica, tome 21 no 1 (1969) ([numdam]( http://www.numdam.org/item?id=CM_1969__21_1_1_0))
- {#Williams}
+* {#Williams} N. H. Williams, _On Grothendieck universes_, Compositio Mathematica, tome 21 no 1 (1969) ([numdam]( http://www.numdam.org/item?id=CM_1969__21_1_1_0))
+ 
 
 SGA uses universes and much of modern results in algebraic geometry use general results from SGA, including Wiles proof of Fermat's theorem. Colin McLarty discusses how to remove the need for universes in Wiles' proof in
 
-*  Colin McLarty, _What does it take to prove Fermat's last theorem?
-Grothendieck and the logic of number theory_, [pdf](http://www.cwru.edu/artsci/phil/Proving_FLT.pdf)
+* [[Colin McLarty]], _What does it take to prove Fermat's last theorem? -- Grothendieck and the logic of number theory_, [pdf](http://www.cwru.edu/artsci/phil/Proving_FLT.pdf)
 
 
 category: foundational axiom
