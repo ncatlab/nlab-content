@@ -5,9 +5,6 @@ With [[S. Eilenberg|"Sammy" Eilenberg]], Saunders Mac Lane was one of the origin
 With [[Henry Whitehead]] he gave the first algebraic description of the [[homotopy 2-type]] of a space.
 
 
-
-
-
 * [English Wikipedia entry](https://secure.wikimedia.org/wikipedia/en/wiki/Saunders_Mac_Lane)
 
 * [MacTutor biography](http://www-history.mcs.st-andrews.ac.uk/Biographies/MacLane.html)
@@ -31,6 +28,11 @@ Introducing [[Eilenberg-MacLane spaces]]:
 Introducing the [[simplicial classifying space]] construction $\overline{W}G$:
 
 * {#MacLane54} [[Saunders MacLane]], *Constructions simpliciales acycliques*, Colloque Henri Poincar&eacute; 1954 ([[MacLaneConstructionsSimplicialesAcycliques.pdf:file]])
+
+On [[Grothendieck universes]] in the [[mathematical foundations]] of [[category theory]]:
+
+* [[Saunders MacLane]], *One universe as a foundation for category theory*,  In: *Reports of the Midwest Category Seminar III*, Lecture Notes in Mathematics **106**, Springer (1969) 192-200 &lbrack;[doi:10.1007/BFb0059147](https://doi.org/10.1007/BFb0059147)&rbrack;
+
 
 On [[geometric realization of simplicial topological spaces]] for constructing [[classifying spaces]], understood as simplicial [[coends]] in [[compactly generated topological spaces]]:
 
