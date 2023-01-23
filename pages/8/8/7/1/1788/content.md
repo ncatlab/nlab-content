@@ -1,105 +1,101 @@
 
-$$
-  p
-  \;\;\;\;
-  \colon
-  \;\;\;\;
-  A 
-  \;\;
-  \simeq 
-  \;\;
-  \sum_{y:B} \sum_{x:A} 
-  \big(
-    f(x) =_B y
-  \big)
-$$
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
+# Judgments
+* table of contents
+{: toc}
+
+## Idea
+
+In [[formal logic]], a __judgment__, or __judgement__, is a "meta-[[proposition]]"; that is, a proposition belonging to the [[meta-language]] (the [[deductive system]] or [[logical framework]]) rather than to the [[object language]].
+
+More specifically, any [[deductive system]] includes, as part of its specification, which strings of symbols are to be regarded as the _judgments_.  Some of these symbols may themselves express a [[proposition]] in the object language, but this is not necessarily the case.
+
+The interest in judgements is typically in how they may arise as _theorems_, or as _consequences_ of other judgements, by way of the [[deduction]] rules in a deductive system.  One writes
+$$\vdash J$$
+to mean that $J$ is a judgment that is derivable, i.e. a [[theorem]] of the deductive system.
+
+
+## Examples
+
+### In first-order logic
+
+In [[first-order logic]], a paradigmatic example of a judgement is the judgement that a certain string of symbols is a well-formed [[proposition]].  This is often written as "$P \;prop$", where $P$ is a [[metavariable]] standing for a string of symbols that denotes a proposition.
+
+Another example of a judgement is the judgement that these symbols form a proposition [[proof|proved]] to be [[true]].  This judgment is often written as "$P\;true$".
+
+Neither of these judgements is the same thing as the proposition $P$ itself.  In particular, the proposition is a statement *in* the logic, while the judgement that the proposition is a proposition, or is provably true, is a statement *about* the logic.  However, often people abuse notation and conflate a proposition with the judgment that it is true, writing $P$ instead of $P\;true$.
+
+
+### In type theory
+
+The distinction between judgements and [[propositions]] is particularly important in [[intensional type theory]].
+
+The paradigmatic example of a judgment in [[type theory]] is a *typing judgment*.  The assertion that a [[term]] $t$ has [[type]] $A$ (written "$t:A$") is not a statement *in* the type theory (that is, not something which one could apply logical operators to in the type-theoretic system) but a statement *about* the type theory.
+
+Often, type theories include only a particular small set of judgments, such as:
+
+* typing judgments (written $t:A$, as above)
+
+* judgments of typehood (usually written $A \;type$)
+
+* judgments of [[equality]] between typed terms (written say $(t=t'):A$)
+
+(In a type theory with a [[type of types]], judgments of typehood can sometimes be incorporated as a special case of typing judgments, writing $A:Type$ instead of $A\;type$.)
+
+These limited sets of judgments are often defined [[inductive definition|inductively]] by giving [[type formation]]/[[term introduction]]/[[term elimination]]- and [[computation rules]] (see [[natural deduction]]) that specify under what hypotheses one is allowed to conclude the given judgment.
+
+These inductive definitions can be formalized by choosing a particular [[type theory]] to be the meta-language; usually a very simple type theory suffices (such as a [[dependent type theory]] with only [[dependent product types]]).  Such a meta-type-theory is often called a [[logical framework]].
+
+
+## Hypothetical and generic judgments
+
+It may happen that a judgment $J$ is only derivable under the assumptions of certain other judgments $J_1,\dots, J_2$.  In this case one writes
+$$ J_1,\dots,J_n \;\vdash J.$$
+Often, however, it is convenient to incorporate hypotheticality into judgments themselves, so that $ J_1,\dots,J_n \;\vdash J $ becomes a single _[[hypothetical judgment]]_.  It can then be a consequence of other judgments, or (more importantly) a hypothesis used in concluding other judgments.  For instance, in order to conclude the truth of an [[implication]] $\phi\Rightarrow\psi$, we must conclude $\psi$ *assuming* $\phi$; thus the [[introduction rule]] for implication is
+$$ \frac{\phi \;\vdash\; \psi}{\vdash\; \phi\Rightarrow\psi}$$
+with a hypothetical judgment as its hypothesis.  See [[natural deduction]] for a more extensive discussion.
+
+In a [[type theory]], we may also consider the case where the hypotheses $J_1$ are typing judgments of the form $x:A$, where $x$ is a [[variable]], and in which the conclusion judgment $J$ involves these variables as [[free variables]].  For instance, $J$ could be $\phi\;prop$, where $\phi$ is a valid (well-formed) proposition only when $x$ has a specific [[type]] $X$.  In this case we have a _[[generic judgement]]_, written
+$$ (x \colon X) \;\vdash\; (\phi \; prop). $$
+which expresses that _assuming the hypothesis or [[antecedent]] judgement_ that $x$ is of type $X$, as a consequence we have the [[succedent]] judgement that $\phi$ is a proposition. If on the right here we have a typing judgment 
 
 $$
-  y \colon B 
-  \;\;\;\vdash\;\;\; 
-  q(y) 
-  \;\;\;
-     \colon 
-  \;\;\;
-  A(y) 
-  \;\simeq\; 
-  \sum_{
-     \mathclap{
-       z \colon \sum_{x:B} A(x)
-     }
-  } 
-  \big(
-    \pi_1(z) =_A y
-  \big)
+  (x \colon X) \;\vdash\; (t \colon A)
 $$
 
+we have a _[[term in context]]_.
 
-For $B \,\colon\, Type$ be a (base)type, 
-there is a precise sense in which $B$-[[dependent types]] may be regarded as [[function type|functions]] into $B$, hence as "[[bundles]] over $B$" (in the common sense of [[topology]]) and conversely.
+For more about the precise relationship between the various meanings of $\vdash$ here, see [[natural deduction]] and [[logical framework]].
 
-The idea is that the total space of this bundle is the [[dependent pair]]-type of the components of the dependent type, mapping back to the base type via [[projection]] to the first element in the pair. Conversely, given such a function $f \,\colon\, E \to B$, its [[fiber types]] 
-
-$$
-  fib_b(f)
-  \;\coloneqq\;
-  (e \colon E) \times Id_{B}\big( f(e),\, b \big)
-$$
-
-form a $B$-dependent type:
+While this may seem to be a very basic form of (hypothetical/generic) judgement only, in systems such as [[dependent type theory]] or [[homotopy type theory]], all of [[logic]] and a good bit more is all based on just this.
 
 
-$$
-  \array{
-    \underset{ Y \,\colon\, Type }{\sum} \big( Y \to X \big)
-    &\longrightarrow&
-    \underset{x \,\colon\, X}{\prod} Type
-    \\
-    (Y,f)
-    &\mapsto&
-    \big(
-      x \colon X \;\vdash\; fib_x(f)
-    \big)
-  }
-$$
+## Notation and history
 
-and
+\begin{imagefromfile}
+    "file_name": "Frege-DasUrtheil.jpg",
+    "float": "right",
+    "width": 570,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 10, 
+        "left": 20
+    }
+\end{imagefromfile}
 
-$$
-  \array{
-    \underset{x \,\colon\, X}{\prod} Type
-    &\longrightarrow&
-    \underset{ Y \,\colon\, Type }{\sum} \big( Y \to X \big)
-    \\
-    \big(
-      x \,\colon\, X 
-      \;\;\vdash\;\; E(x)
-    \big)
-    &\mapsto&
-    \Big(
-      \big(
-      \pi_1 
-        \,\colon\,
-      \underset{x \,:\, X}{\sum}  
-      E(x)
-      \big)
-      \to
-      X
-    \Big)
-  }
-$$
-
-
-***
-
-[[DependentFunctionsAndPairs-230120.jpg:file]]
-
-<img src="/nlab/files/DependentFunctionsAndPairs-230120.jpg" width="680">
-
-see:
-
-| [[type former]]:  |  meaning of [[terms]]:  |
-|--|--|
-| [[dependent product]] | [[dependent function]]<br/> / [[section]] of [[bundle]] |
-| [[dependent sum]] | [[dependent pair]] / <br/> [[generalized element|element]] of [[bundle]] |
-
-[[dependent functions and dependent pairs -- table]]
