@@ -88,12 +88,12 @@ While this may seem to be a very basic form of (hypothetical/generic) judgement 
  {#History}
 
 \begin{imagefromfile}
-    "file_name": "Frege-DasUrtheil.jpg",
+    "file_name": "Frege-Urtheil.jpg",
     "float": "right",
     "width": 570,
     "unit": "px",
     "margin": {
-        "top": -40,
+        "top": -10,
         "bottom": 20,
         "right": 10, 
         "left": 20
@@ -116,14 +116,14 @@ for the *judgement* of *content* $A$ is due to [Frege (1879, §2)](#Frege1879) (
     "width": 650,
     "unit": "px",
     "margin": {
-        "top": -40,
+        "top": -30,
         "bottom": 20,
         "right": 10, 
         "left": 20
     }
 \end{imagefromfile}
 
-and then by [Church (1940, §5)](#Church40) --- now allowing hypotheses/assumptions on the left of the *Urteilsstrich* --- to mean *provable* under these assumptions:
+and then by [Church (1940, §5)](#Church40) (without any attribution) --- now allowing hypotheses/assumptions on the left of the *Urteilsstrich* --- to mean *provable* under these assumptions:
 
 \begin{imagefromfile}
     "file_name": "Church-ProvableUnderAssumptions.jpg",
@@ -137,21 +137,45 @@ and then by [Church (1940, §5)](#Church40) --- now allowing hypotheses/assumpti
     }
 \end{imagefromfile}
 
+Similarly, [Kochen (1961, p.2)](#Kochen61) introduced (in a context of [[model theory]]) the notation "$\mathfrak{A} \;\vDash\; P$" (apparently not actively remembering its historical origin, cf. [Kochen (2017)](#Kochen17)) for a notion in [[model theory]] pronounced  "$\mathfrak{A}$ *validates* $P$" --- which is at least closely related to these hypothetical judgements (and often used synonymously, e.g. [here](https://open.conted.ox.ac.uk/sites/open.conted.ox.ac.uk/files/resources/Create%20Document/Turnstiles.pdf)):
 
-The need (which had been contested by some logicians such as [[Ludwig Wittgenstein]], cf. [jstor:43154266](https://www.jstor.org/stable/43154266)) for Frege's distinction between a proposition "$A$" as such and its judgement/assertion/provability "$\vdash A$" was vocally argued for by [Martin-Löf (1984, pp. 2)](#Martin-Löf84), [(1987)](#Martin-Löf87) and in [(1996, lectures 1-2)](#Martin-Löf96), together with a re-promotion of Frege's *Urteilsstrich* notation "$\vdash$" ([ML84, p. 2](#Martin-Löf84),  [ML96, p. 2, 6](#Martin-Löf96)).
+\begin{imagefromfile}
+    "file_name": "Kochen-Validation.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 10, 
+        "left": 20
+    }
+\end{imagefromfile}
 
-While (Church's) notation for hypothetical judgements
+
+The need (which had been contested by some logicians such as [[Ludwig Wittgenstein|Wittgenstein]], cf. [jstor:43154266](https://www.jstor.org/stable/43154266)) for Frege's distinction between a proposition "$A$" as such and its judgement/assertion/proof/validation "$\vdash A$" was vocally argued for by [Martin-Löf (1984, pp. 2)](#Martin-Löf84), [(1987)](#Martin-Löf87) and in [(1996, lectures 1-2)](#Martin-Löf96), together with a re-promotion of Frege's *Urteilsstrich* notation "$\vdash$" ([ML84, p. 2](#Martin-Löf84),  [ML96, p. 2, 6](#Martin-Löf96)):
+
+\begin{imagefromfile}
+    "file_name": "Martin-Loef--Judgement.jpg",
+    "width": 620,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 10, 
+        "left": 20
+    }
+\end{imagefromfile}
+
+
+
+The notation for *hypothetical* judgements
 
 \[
   \label{GenericHypotheticalJudgement}
   context \;\vdash\; judgement
 \]
 
-became the trademark of the practice of [[Martin-Löf dependent type theory]] --- often without any attribution, e.g. [Jacobs (1998, p. 2, 121, 586)](dependent+type+theory#Jacobs98); [Bauer, Haselwarter & Lumsdaine (2020)](#BauerHaselwarterLumsdaine20) ---, it seems that [[Per Martin-Löf]] did not actually use this notation in publications: When in [Martin-Löf (1996, p. 29)](#Martin-Löf96) it comes to hypothetical judgements, the authors switches to using just a vertical "$\vert$" instead of "$\vdash$".
-
-On the other hand [Kochen (1961, p.2)](#Kochen61) introduced (in a context of [[model theory]]) the notation "$\mathfrak{A} \;\vDash\; P(a)$" (apparently not actively remembering its historical origin, cf. [Kochen (2017)](#Kochen17)) for a notion in [[model theory]] pronounced  "$a \in \mathfrak{A}$ *satisfies* $P$" --- which is at least closely related to hypothetical judgements (and often used synonymously, e.g. [here](https://open.conted.ox.ac.uk/sites/open.conted.ox.ac.uk/files/resources/Create%20Document/Turnstiles.pdf)).
-
-Early use of the modern notation (eq:GenericHypotheticalJudgement) for hypothetical judgements specifically in [[dependent type theory]] appears in [Hofmann (1995, p. 31)](#Hofmann95), later published as [Hofmann (1997, p. 82)](#Hofmann97):
+was then (without attribution to Church or Martin-Löf) adopted for [[dependent type theory]] in [Hofmann (1995, p. 31)](#Hofmann95), later published as [Hofmann (1997, p. 82)](#Hofmann97):
 
 \begin{imagefromfile}
     "file_name": "Hofmann-judgements.jpg",
@@ -164,6 +188,21 @@ Early use of the modern notation (eq:GenericHypotheticalJudgement) for hypotheti
         "left": 20
     }
 \end{imagefromfile}
+
+This eventually became the trademark of the practice of [[dependent type theory]] (though mostly used without any attribution), e.g.: [Jacobs (1998, p. 2, 121, 586)](dependent+type+theory#Jacobs98); [Bauer, Haselwarter & Lumsdaine (2020)](#BauerHaselwarterLumsdaine20).
+
+(Curiously, apparently [[Per Martin-Löf|Martin-Löf]] did not actually use the general notation (eq:GenericHypotheticalJudgement) in publications: When in [1996, p. 29](#Martin-Löf96) it comes to hypothetical judgements, he switched to using just a vertical "$\vert$" instead of "$\vdash$".)
+
+{#HistorySummary} In summary:
+
+| terminology | author | 
+| ------------|--------|
+| *judgement* | [Frege (1879)](#Frege1879) |
+| *assertion* | [Russell & Whitehead (1910)](#RussellWhitehead1910) |
+| *proof*     | [Church (1940)](#Church40) |
+| *validation* | [Kochen (1961)](#Kochen61) |
+| *judgement* | [Martin-Löf (1984](#Martin-Löf84), [1996)](#Martin-Löf96) <br/> [Hofmann (1995](#Hofmann95), [1997)](#Hofmann97) |
+
 
 \linebreak
 
@@ -202,6 +241,8 @@ and under the name "assertion" in:
 Keeping the symbol "$\vdash$", now allowing hypothesis on the left, but pronouning it as "[[proof]] under assumptions":
 
 * {#Church40} [[Alonzo Church]], §5 of: *A Formulation of the Simple Theory of Types*, The Journal of Symbolic Logic **5** 2 (1940) 56-68  &lbrack;[doi:10.2307/2266170](https://doi.org/10.2307/2266170)&rbrack;
+
+  > (see also at *[[simple type theory]]*)
 
 Discussion in the context of what became known as [[Martin-Löf dependent type theory]]:
 
@@ -264,5 +305,8 @@ See also:
 
 [[!redirects assertion]]
 [[!redirects assertions]]
+
+[[!redirects validation]]
+[[!redirects validations]]
 
 
