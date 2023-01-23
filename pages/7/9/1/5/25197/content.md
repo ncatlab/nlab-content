@@ -100,6 +100,13 @@ Higher Kac-Moody algebras were casted in the language of [[factorization algebra
 
 * {#GW21} O. Gwilliam and B.R. Williams, _Higher Kac-Moody algebras and symmetries of holomorphic field theories_, Adv.Theor.Math.Phys. 25 (2021) 1, pages 129-239 [math.QA/1810.06534](https://arxiv.org/abs/1810.06534v2).
 
+A variant of this construction on the product of a [[worldsheet]] and a [[spectral curve|spectral plane]] (i.e. another copy of
+the complex plane $\mathbb{C}$ with marked points which defines any rational [[Gaudin integrable model|Gaudin model]]) was proposed in
+
+* [[Luigi Alfonsi]] and Charles Young, _Higher current algebras, homotopy Manin triples, and a rectilinear adelic complex_, [math.QA/2208.06009](https://arxiv.org/abs/2208.06009).
+
 
 [[!redirects higher Kac-Moody algebra]]
 [[!redirects higher Kac-Moody algebras]]
+[[!redirects higher current algebra]]
+[[!redirects higher current algebras]]
