@@ -109,7 +109,7 @@ $$
 
 for the *judgement* of *content* $A$ is due to [Frege (1879, §2)](#Frege1879) (Frege's *das Urtheil* -- or *das Urteil* in modern German spelling -- directly translates to: *the judgement*).
 
-{#RusselWhiteheadAssertion} This notion and notation (often "Frege's Urteilsstrich" -- "judgement stroke") was adopted by [Russell & Whitehead (1910, p. xviii)](#RussellWhitehead1910), who however speak of "assertion" instead of "judgement" (see [Martin-Löf (1996, p. 6)](#Martin-Löf96) for speculation that these authors may have wanted "to avoid any association with Kantian philosophy", cf. [below](#KantTheoryOfJudgement))
+{#RusselWhiteheadAssertion} This notion and notation (often "Frege's Urteilsstrich" -- "judgement stroke") was adopted by [Russell & Whitehead (1910, p. xviii)](#RussellWhitehead1910), who however speak of "assertion" instead of "judgement"  --- see [Martin-Löf (1996, p. 6)](#Martin-Löf96) for speculation that these authors may have wanted "to avoid any association with Kantian philosophy" (cf. [below](#KantTheoryOfJudgement)):
 
 \begin{imagefromfile}
     "file_name": "RussellWhitehead-Assertion.jpg",
