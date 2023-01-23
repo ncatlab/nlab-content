@@ -796,6 +796,12 @@ Cohomological spectral sequences are compatible with [[cup product]] structure o
 
 ## References
 
+Spectral sequences were originally introduced in 1946 by [[Jean Leray]] in the paper
+
+* [[Jean Leray]], _Structure de l'anneau d'homologie d'une représentation_, Comptes rendus hebdomadaires des séances de l’Académie des Sciences 222 (1946) 1419–1422.
+
+### General exposition
+
 * [[Frank Adams]], part III section 7 of _[[Stable homotopy and generalised homology]]_, 1974
 
 ### Abelian/stable theory
