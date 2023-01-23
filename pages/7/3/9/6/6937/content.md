@@ -42,6 +42,11 @@ Formalization of (the proof of) the [[Blakers-Massey theorem]] in [[homotopy typ
 * {#FFLL16} [[Kuen-Bang Hou]] ([[Favonia]]), [[Eric Finster]], [[Dan Licata]], [[Peter LeFanu Lumsdaine]], *A mechanization of the Blakers-Massey connectivity theorem in Homotopy Type Theory*, LICS '16 (2016) 565–574  &lbrack;[arXiv.1605.03227](https://arxiv.org/abs/1605.03227), [doi:10.1145/2933575.2934545](https://doi.org/10.1145/2933575.2934545)&rbrack;
 
 
+On [[dependent type theory]]:
+
+* {#BauerHaselwarterLumsdaine20} [[Andrej Bauer]], [[Philipp G. Haselwarter]], [[Peter LeFanu Lumsdaine]], *A general definition of dependent type theories* &lbrack;[arXiv:2009.05539](https://arxiv.org/abs/2009.05539)&rbrack;
+
+
 ## Related entries
 
 * [[initiality conjecture]]
