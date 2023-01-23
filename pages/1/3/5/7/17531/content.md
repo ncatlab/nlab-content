@@ -48,7 +48,7 @@ or
 
 is slightly more awkward, and certainly less "pure" (mixing two relations $|$ and $\leq$). It is also less robust, because the notion of $gcd$ is at bottom an [[ideal]]-theoretic notion: the divisibility order on elements of a [[principal ideal domain]] is a [[preorder]] whose posetal collapse is the collection of ideals, ordered oppositely to [[inclusion]]. Thus, in [[ring]]-theoretic contexts where there is no sensible notion of $\leq$, for example in the ring of [[Gaussian integers]], the notion of $gcd$ still makes perfectly good sense if we use the first formulation above, expressed purely in terms of divisibility. 
 
-From the point of view of principal ideals in a [[pid]] $R$, the gcd corresponds to taking their [[join]]: $(\gcd(a, b)) = (a) + (b)$. Thus the [[Euclidean algorithm]], which applies generally to [[Euclidean domains]] $R$, is a way of calculating a generator of $(a) + (b)$ which consists of $R$-linear combinations of $a$ and $b$. 
+From the point of view of principal ideals in a [[pid]] or [[Bézout domain]] $R$, the gcd corresponds to taking their [[join]]: $(\gcd(a, b)) = (a) + (b)$. Thus the [[Euclidean algorithm]], which applies generally to [[Euclidean domains]] $R$, is a way of calculating a generator of $(a) + (b)$ which consists of $R$-linear combinations of $a$ and $b$. 
 
 ### In the integers
 
