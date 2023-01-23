@@ -84,11 +84,14 @@ _[[relation between type theory and category theory]]_.
 
 ## References
 
-For original references see at *[[Martin-Löf dependent type theory]]*.
+For original references see at *[[Martin-Löf dependent type theory]]*, such as:
 
-For a more general notion:
+* {#Hofmann95} [[Martin Hofmann]], *Syntax and semantics of dependent types*, Chapter 2 in: _Extensional concepts in intensional type theory_, Ph.D. thesis, University of Edinburgh (1995), Distinguished Dissertations, Springer (1997) &lbrack;[ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]], [doi:10.1007/978-1-4471-0963-1](https://doi.org/10.1007/978-1-4471-0963-1)&rbrack;
 
-* {#BauerHaselwarterLumsdaine20} [[Andrej Bauer]], [[Philipp G. Haselwarter]], [[Peter LeFanu Lumsdaine]], *A general definition of dependent type theories* &lbrack;[arXiv:2009.05539](https://arxiv.org/abs/2009.05539)&rbrack;
+also published as:
+
+* [[Martin Hofmann]], *Syntax and semantics of dependent types*, in *Semantics and logics of computation*, Publ. Newton Inst. **14**, Cambridge Univ. Press (1997) 79-130 &lbrack;[doi:10.1017/CBO9780511526619.004](https://doi.org/10.1017/CBO9780511526619.004)&rbrack;
+
 
 Introductory accounts:
 
@@ -105,7 +108,7 @@ Introductory accounts:
 
 An introduction with parallel details on [[Coq]]-programming is in 
 
-* [[Adam Chlipala]], _[Certified programming with dependent types](http://adam.chlipala.net/cpdt/)_ 
+* [[Adam Chlipala]], _Certified programming with dependent types_, MIT Press 2013 &lbrack;[ISBN:9780262026659 ](https://mitpress.mit.edu/books/certified-programming-dependent-types), [pdf](http://adam.chlipala.net/cpdt/cpdt.pdf),  [book webpage](http://adam.chlipala.net/cpdt/)&rbrack;
 
 Discussion for [[Agda]]:
 
@@ -117,9 +120,9 @@ A discussion of dependent type theory as the [[internal language]] of [[locally 
 
 * {#Seely} [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
 
-A formal definition of dependent type theories is given in
+A formal definition of dependent type theories beyond [[Martin-Löf dependent type theory]]:
 
-* [[Andrej Bauer]], Philipp Haselwarter, [[Peter LeFanu Lumsdaine]], _A general definition of dependent type theories_, ([arXiv:2009.05539](https://arxiv.org/abs/2009.05539))
+* {#BauerHaselwarterLumsdaine20} [[Andrej Bauer]], [[Philipp G. Haselwarter]], [[Peter LeFanu Lumsdaine]], *A general definition of dependent type theories* &lbrack;[arXiv:2009.05539](https://arxiv.org/abs/2009.05539)&rbrack;
 
 {#CSystemsReferences} On ([[essentially algebraic theory|essentially algebraic]])  formulations of dependent type theory (see [here](categorical+model+of+dependent+types#ContextualCategoriesOrCSystems) at *[[categorical models of dependent type theory]]*):
 
