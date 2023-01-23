@@ -41,7 +41,7 @@ Let $X$ be a [[complex manifold]] of dimension $n$ equipped with a holomorphic [
 Let $\mathfrak{ad}(P) \coloneqq P\times_G\mathfrak{g}$ be the [[adjoint bundle]] associated to $P$.
 Now, let $\mathscr{Ad}(P)$ be the [[sheaf of L-∞ algebras#LocalLieAlgebra|local Lie algebra]] whose sections are $\Omega_c^{0,\ast}(U,\mathfrak{ad}(P))$ on any open set $U\subset X$ and whose differential is the $(0,1)$-connection $\bar{\partial}_P$. 
 
-Let $\Theta$ be a degree $1$ [[cocycle]] in the [[local Chevalley-Eilenberg cochains]] $\mathrm{CE}_{\mathrm{loc}}(\mathscr{Ad}(P))$, which defines a $1$-shifted [[central extension]] $\widehat{\mathscr{Ad}(P)}_\Theta$.
+Let $\Theta$ be a degree $1$ [[cocycle]] in the [[sheaf of L-∞ algebras#LocalLieAlgebra|local Chevalley-Eilenberg cochains]] $\mathrm{CE}_{\mathrm{loc}}(\mathscr{Ad}(P))$, which defines a $1$-shifted [[central extension]] $\widehat{\mathscr{Ad}(P)}_\Theta$.
 
 The __higher Kac-Moody factorization algebra__ on $X$ of type $\Theta$ is defined as the twisted enveloping [[factorization algebra]] $\mathbb{U}_\Theta(\mathscr{Ad}(P))$ whose sections are
 
@@ -67,9 +67,11 @@ $$ \mathrm{H}^i(\mathbb{D}_n^\circ,\mathcal{O}_X) \;=\; \begin{cases}\mathbb{C}[
 
 ## Related concepts
 
-* [[Kac-Moody algebra]]
+* [[Kac-Moody algebras]]
 
 * [[derived algebraic geometry]]
+
+* [[factorization algebras]]
 
 
 ## References
