@@ -28,7 +28,7 @@ Original articles:
 
 * {#Russell08} [[Bertrand Russell]], _Mathematical Logic as Based on the Theory of Types_, American Journal of Mathematics, Vol. 30, No. 3 (Jul., 1908), pp. 222-262
 
-* [[Alonzo Church]], _A Formulation of the Simple Theory of Types_, The Journal of Symbolic Logic Vol. 5, No. 2 (Jun., 1940), pp. 56-68 ([JSTOR](http://www.jstor.org/stable/2266170?seq=1#page_scan_tab_contents))
+* {#Church40} [[Alonzo Church]], §5 of: *A Formulation of the Simple Theory of Types*, The Journal of Symbolic Logic **5** 2 (1940) 56-68  &lbrack;[doi:10.2307/2266170](https://doi.org/10.2307/2266170)&rbrack;
 
 Textbook accounts:
 
