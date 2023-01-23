@@ -22,7 +22,13 @@
 
 ## Idea
 
-The idea underpinning the definition of higher Kac-Moody algebras in [FHK 19](#FHK19) is that the natural framework to construct higher-dimensional generalizations of [[Kac-Moody algebras]] is [[derived algebraic geometry]].
+* In dimension $1$, we have that $\mathcal{O}(\mathbb{A}^1-\{0\})\otimes\mathfrak{g} = \mathfrak{g}[[z,z^{-1}]]$ and, thus, we can consider its non-trivial [[central extensions]] by $2$-[[cocycles]]. These are the essential ingredients of an (ordinary) [[Kac-Moody algebra]].
+
+* In higher dimension, [[analytic geometry#hartogs_theorem|Hartogs' extension theorem]] tells us that $\mathcal{O}(\mathbb{A}^n-\{0\})\otimes\mathfrak{g} = \mathcal{O}(\mathbb{A}^n)\otimes\mathfrak{g}$, which means that we do not have any interesting central extension. On the other hand, the punctured affine spaces $\mathbb{A}^n-\{0\}$ have non-trivial higher [[cohomology]].
+
+The idea underpinning the definition of higher Kac-Moody algebras in [FHK 19](#FHK19) is that the natural framework to solve this issue and construct a higher-dimensional generalization of [[Kac-Moody algebras]] is [[derived algebraic geometry]]. This is achieved by replacing the algebra $\mathcal{O}(\mathbb{A}^n-\{0\})$ with the dg-algebra $\mathbb{R}\Gamma(\mathbb{A}^{n}-\{0\},\mathcal{O})$ of derived sections.
+
+This principle can be applied not only to punctured [[affine spaces]] $\mathbb{A}^{n}-\{0\}$, but also to punctured [[formal disks]] $\mathbb{D}_n^\circ$.
 
 ## Details
 
@@ -32,7 +38,7 @@ Let $X$ be an $n$-dimensional [[variety]] over $\mathbb{C}$ and $\mathfrak{g}$ a
 $$ \mathfrak{g}_n \;=\; \mathfrak{g}\otimes\mathbb{R}\Gamma(\mathbb{D}_n^\circ,\mathcal{O}_X), $$
 where $\mathbb{R}\Gamma(\mathbb{D}_n^\circ,\mathcal{O}_X)$ is the [[commutative dg-algebra]] of derived [[global sections]] of the [[structure sheaf]] $\mathcal{O}_X$ on the punctured [[formal disk]] $\mathbb{D}_n^\circ = \mathrm{Spec}(\mathbb{C}[[z_1,\dots,z_n]])-\{0\}$.
 
-A __higher Kac-Moody algebra__ $\tilde{\mathfrak{g}}_{n,P}$ is the [[central extension]] of the higher current algebra $\mathfrak{g}_n$ by an invariant polynomial $P$ on $\mathfrak{g}_n$ of degree $(n+1)$.
+A __higher Kac-Moody algebra__ $\widehat{\mathfrak{g}}_{n,P}$ is the [[central extension]] of the higher current algebra $\mathfrak{g}_n$ by an invariant polynomial $P$ on $\mathfrak{g}_n$ of degree $(n+1)$.
 
 ### Gwilliam-Williams higher Kac-Moody factorisation algebras
 
@@ -45,7 +51,7 @@ Let $\Theta$ be a degree $1$ [[cocycle]] in the [[sheaf of L-∞ algebras#LocalL
 
 The __higher Kac-Moody factorization algebra__ on $X$ of type $\Theta$ is defined as the twisted enveloping [[factorization algebra]] $\mathbb{U}_\Theta(\mathscr{Ad}(P))$ whose sections are
 
-$$ \Big(\mathrm{Sym}\left(\Omega_c^{0,\ast}(U,\mathfrak{ad}(P))[1]\right), \; \bar{\partial} + \mathrm{d}_\mathrm{CE} + \Theta \Big) $$
+$$ \mathbb{U}_\Theta\left(\mathscr{Ad}(P)\right)(U) \;=\; \Big(\mathrm{Sym}\left(\Omega_c^{0,\ast}(U,\mathfrak{ad}(P))[1]\right), \; \bar{\partial} + \mathrm{d}_\mathrm{CE} + \Theta \Big) $$
 
 on any open set $U\subset X$.
 
@@ -57,7 +63,7 @@ on any open set $U\subset X$.
 
 ### Ordinary Kac-Moody algebras
 
-For $n=1$, one recovers $\mathfrak{g}_1 = \mathfrak{g}((z))$ and its [[central extension]] $\tilde{\mathfrak{g}}_{1,P}$ is an ordinary [[Kac-Moody algebra]].
+For $n=1$ and $X=\mathbb{D}_1^\circ$, one recovers $\mathfrak{g}_1 = \mathfrak{g}((z))$ and its [[central extension]] $\tilde{\mathfrak{g}}_{1,P}$ is an ordinary [[Kac-Moody algebra]].
 
 ### Affine space $\mathbb{A}^n_{\mathbb{C}}$
 
