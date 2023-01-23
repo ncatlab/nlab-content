@@ -22,7 +22,7 @@
 
 ## Idea
 
-* In dimension $1$, we have that $\mathcal{O}(\mathbb{A}^1-\{0\})\otimes\mathfrak{g} = \mathfrak{g}[[z,z^{-1}]]$ and, thus, we can consider its non-trivial [[central extensions]] by $2$-[[cocycles]]. These are the essential ingredients of an (ordinary) [[Kac-Moody algebra]].
+* In dimension $1$, we have that $\mathcal{O}(\mathbb{A}^1-\{0\})\otimes\mathfrak{g} = \mathfrak{g}[z,z^{-1}]$ and, thus, we can consider its non-trivial [[central extensions]] by $2$-[[cocycles]]. These are the essential ingredients of an (ordinary) [[Kac-Moody algebra]].
 
 * In higher dimension, [[analytic geometry#hartogs_theorem|Hartogs' extension theorem]] tells us that $\mathcal{O}(\mathbb{A}^n-\{0\})\otimes\mathfrak{g} = \mathcal{O}(\mathbb{A}^n)\otimes\mathfrak{g}$, which means that we do not have any interesting central extension. On the other hand, the punctured affine spaces $\mathbb{A}^n-\{0\}$ have non-trivial higher [[cohomology]].
 
