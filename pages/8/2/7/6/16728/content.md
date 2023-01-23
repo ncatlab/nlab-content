@@ -70,7 +70,7 @@ The next result warrants the importance of the dense topology:
 
 +-- {: .num_prop}
 ###### Proposition
-For every small category $\mathcal{C}$, the [[Lawvere-Tierney topology]] on the [[presheaf topos]] $Set^{\mathcal{C}^{op}}$ corresponding to the dense topology on $\mathcal{C}$ is the [[double negation|double negation topology]] $\neg\neg$ on $Set^{\mathcal{C}^{op}}$ . In other words, 
+Assuming the law of excluded middle, for every small category $\mathcal{C}$, the [[Lawvere-Tierney topology]] on the [[presheaf topos]] $Set^{\mathcal{C}^{op}}$ corresponding to the dense topology on $\mathcal{C}$ is the [[double negation|double negation topology]] $\neg\neg$ on $Set^{\mathcal{C}^{op}}$ . In other words, 
 $Sh(\mathcal{C},J_d)\simeq Sh_{\neg\neg}(Set^{\mathcal{C}^{op}})$ .
 =--
 
