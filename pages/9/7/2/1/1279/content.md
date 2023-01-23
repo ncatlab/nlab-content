@@ -477,6 +477,11 @@ Sequent calculus was introduced in
 
 * {#Gentzen} [[Gerhard Gentzen]],  _Untersuchungen &#252;ber das logische Schlie&#223;en I_ _Mathematische Zeitschrift_ **39** 1 (1935) &lbrack;[doi:10.1007/BF01201353](http://dx.doi.org/10.1007/BF01201353)&rbrack;
 
+which appeared in English translation as:
+
+* [[Gerhard Gentzen]], *Investigations into Logical Deduction*, in M. E. Szabo (ed.), *The Collected Papers of Gerhard Gentzen*, Studies in Logic and the Foundations of Mathematics **55**, Springer (1969) 68-131 &lbrack;[ISBN:978-0-444-53419-4](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/55), [pdf](https://logic-teaching.github.io/prop/texts/Gentzen%201969%20-%20Investigations%20into%20Logical%20Deduction.pdf)&rbrack;
+
+
 Introduction:
 
 * [[Paul Downen]], [[Zena M. Ariola]], *A tutorial on computational classical logic and the sequent calculus*, Journal of Functional Programming **28** (2018) e3 &lbrack;[doi:10.1017/S0956796818000023](https://doi.org/10.1017/S0956796818000023), [pdf](https://www.pauldownen.com/publications/sequent-intro.pdf)&rbrack;
