@@ -41,9 +41,51 @@ which are alternating, of cohomological degree $2-n$ and such that they endow $\
 
 \end{definition}
 
+One usually denotes by $\mathcal{L}$ the sheaf of sections of the bundle $L$.
+
+\begin{definition}
+
+The __Chevalley-Eilenberg cochain complex__ $\mathrm{CE}(\mathcal{L})$ of the local $L_\infty$-algebra $\mathcal{L}$ is defined by
+
+$$ \mathrm{CE}\left(\mathcal{L}(U)\right) \;=\; \prod_{n\geq 0} \mathrm{Hom}\left( (\mathcal{L}(U)[1])^{\hat{\otimes} n}, \,\mathbb{R}  \right)_{S_n} $$
+
+equipped with the usual [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg]] differential; where $\hat{\otimes}$ denotes the completed projective tensor product, $\mathrm{Hom}$ denotes the dg-vector space of continuous linear maps and the subscript $S_n$ denotes the [[coinvariants]] respect to the action of the [[symmetric group]] $S_n$.
+
+\end{definition}
+
+\begin{definition}
+
+The __reduced Chevalley-Eilenberg cochain complex__ $\mathrm{CE}_{\mathrm{red}}(\mathcal{L})$ of the local $L_\infty$-algebra $\mathcal{L}$ is defined by the [[kernel]]
+
+$$ \mathrm{CE}_{\mathrm{red}}(\mathcal{L}) \subset \mathrm{CE}(\mathcal{L}) $$
+
+of the natural augmentation map $\mathrm{CE}\left(\mathcal{L}(U)\right) \rightarrow \mathbb{R}$.
+
+\end{definition}
+
+Both $\mathrm{CE}(\mathcal{L})$ and $\mathrm{CE}_{\mathrm{red}}(\mathcal{L})$ are differentiable pro-cochain complexes.
+
+
+\begin{definition}
+
+The __local Chevalley-Eilenberg cochain complex__ $\mathrm{CE}_{\mathrm{loc}}(\mathcal{L})$ of the local $L_\infty$-algebra $\mathcal{L}$ is defined by
+
+$$ \mathrm{CE}_{\mathrm{loc}}(\mathcal{L}) \;\coloneqq\;  \mathscr{Dens}_X \otimes_{D_X} \mathrm{CE}_{\mathrm{red}}(\mathscr{Jet}(L)) $$
+
+where $\mathscr{Jet}(L)$ is the local $L_\infty$-algebra, in the category of $D_X$-modules, of sections of the [[jet bundle]] of $L$ and $mathscr{Dens}_X$ is the right $D_X$-module of densities on $X$.
+
+\end{definition}
+
+The cochain complex $\mathrm{CE}_{\mathrm{loc}}(\mathcal{L})$ can be thought as the sheaf of [[Lagrangian density|Lagrangian densities]] on the graded vector bundle $L$.
+
+
 ## Related concepts
 
 * [[descent for L-∞ algebras]]
+
+* [[factorization algebras]]
+
+* [[formal moduli problems]]
 
 * [[L-∞ algebroid]]
 
@@ -69,6 +111,11 @@ Discussion in [[physics]], of sheaves of $L_\infty$-algebras of [[physical field
 
 * [[Anton Zeitlin]], _Conformal Field Theory and Algebraic Structure of Gauge Theory_ ([arXiv:0812.1840](http://arxiv.org/abs/0812.1840))
 
+
+Local $L_\infty$-algebras are defined and discussed by
+
+* [[Kevin Costello]], [[Owen Gwilliam]], _[[Factorization algebras in perturbative quantum field theory]]_
+
 [[!redirects sheaf L-∞ algebras]]
 [[!redirects sheaves L-∞ algebras]]
 
@@ -80,3 +127,8 @@ Discussion in [[physics]], of sheaves of $L_\infty$-algebras of [[physical field
 
 [[!redirects sheaf of dg-Lie algebras]]
 [[!redirects sheaves of dg-Lie algebras]]
+
+[[!redirects local L-∞ algebras]]
+[[!redirects local L-∞ algebra]]
+[[!redirects local L-infinity algebras]]
+[[!redirects local L-infinity algebra]]
