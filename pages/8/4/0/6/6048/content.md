@@ -238,6 +238,7 @@ For the [[type II string theory]]-version see at _[[NS5-brane]]_ the sectoin _[N
 
 [[!include table of branes]]
 
+
 ## References
 
 
@@ -282,6 +283,11 @@ See also
 * M.P. Garcia del Moral, C. Las Heras, P. Leon, J.M. Pena, A. Restuccia, _Fluxes, Twisted tori, Monodromy and $U(1)$ Supermembranes_ ([arXiv:2005.06397](https://arxiv.org/abs/2005.06397))
 
 * Pedro D. Alvarez, Pedro García, Maria Pilar Garcia del Moral, Joselen M. Peña, Reginaldo Prado, *Spinning solutions for the bosonic M2-brane with $C_{\pm}$ fluxes* ([arXiv:2104.08927](https://arxiv.org/abs/2104.08927))
+
+On possible structures in M2-brane dynamics and [[M2-M5-brane bound states]] which could be [[M-theory]]-lifts of the familiar [[integrable system|integrability]] of the [[Green-Schwarz superstring]] on [[AdS spacetime|$AdS_5$]] $\times$ [[5-sphere|$S^5$]]:
+
+* [[Kirill Gubarev]], [[Edvard Musaev]], *Integrability structures in string theory* &lbrack;[arXiv:2301.06486](https://arxiv.org/abs/2301.06486)&rbrack;
+ 
 
 
 
