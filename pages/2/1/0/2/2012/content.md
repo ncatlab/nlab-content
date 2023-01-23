@@ -56,6 +56,8 @@ were invented with a view toward quantum integrable systems systematizing analog
 
 ## References
 
+### General
+
 * O. Babelon, D. Bernard, M. Talon, _Introduction to classical integrable systems_, Cambridge Univ. Press 2003.
 * V.E. Korepin, N. M. Bogoliubov, A. G. Izergin, _Quantum inverse scattering method and correlation functions_, Cambridge Univ. Press 1997.
 * Ron Donagi, Eyal Markman, _Spectral covers, algebraically completely integrable, Hamiltonian systems, and moduli of bundles_, pp. 1-119 in Integrable systems and quantum groups (expanded CIME lectures, Montecatini Terme, 1993), Lecture Notes in Math. __1620__ (1996) [arXiv:alg-geom/9507017](http://arxiv.org/abs/alg-geom/9507017), [MR97h:14017](http://www.ams.org/mathscinet-getitem?mr=1397273)
@@ -78,6 +80,13 @@ Discussion in the context of [[harmonic maps]] is in
 See also 
 
 * Wikipedia, _[Integrable system](https://en.wikipedia.org/wiki/Integrable_system)_
+
+### In string/M-theory
+
+On possible structures in [[M2-brane]] dynamics and [[M2-M5-brane bound states]] which could be [[M-theory]]-lifts of the familiar [[integrable system|integrability]] of the [[Green-Schwarz superstring]] on [[AdS spacetime|$AdS_5$]] $\times$ [[5-sphere|$S^5$]]:
+
+* [[Kirill Gubarev]], [[Edvard Musaev]], *Integrability structures in string theory* &lbrack;[arXiv:2301.06486](https://arxiv.org/abs/2301.06486)&rbrack;
+
 
 [[!redirects integrable systems]]
 [[!redirects integrable model]]
