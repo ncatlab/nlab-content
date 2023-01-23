@@ -26,7 +26,7 @@
 
 * In higher dimension, [[analytic geometry#hartogs_theorem|Hartogs' extension theorem]] tells us that $\mathcal{O}(\mathbb{A}^n-\{0\})\otimes\mathfrak{g} = \mathcal{O}(\mathbb{A}^n)\otimes\mathfrak{g}$, which means that we do not have any interesting central extension. On the other hand, the punctured affine spaces $\mathbb{A}^n-\{0\}$ have non-trivial higher [[cohomology]].
 
-The idea underpinning the definition of higher Kac-Moody algebras in [FHK 19](#FHK19) is that the natural framework to solve this issue and construct a higher-dimensional generalization of [[Kac-Moody algebras]] is [[derived algebraic geometry]]. This is achieved by replacing the algebra $\mathcal{O}(\mathbb{A}^n-\{0\})$ with the dg-algebra $\mathbb{R}\Gamma(\mathbb{A}^{n}-\{0\},\mathcal{O})$ of derived sections.
+The idea underpinning the definition of higher Kac-Moody algebras in [FHK 19](#FHK19) is that the natural framework to solve this issue and construct a higher-dimensional generalization of [[Kac-Moody algebras]] is [[derived algebraic geometry]]. This is achieved by replacing the algebra $\mathcal{O}(\mathbb{A}^n-\{0\})$ with the dg-algebra $\mathbb{R}\Gamma(\mathbb{A}^{n}-\{0\},\mathcal{O})$ of derived sections, which allows interesting [[central extensions]].
 
 This principle can be applied not only to punctured [[affine spaces]] $\mathbb{A}^{n}-\{0\}$, but also to punctured [[formal disks]] $\mathbb{D}_n^\circ$.
 
@@ -38,7 +38,7 @@ Let $X$ be an $n$-dimensional [[variety]] over $\mathbb{C}$ and $\mathfrak{g}$ a
 $$ \mathfrak{g}_n \;=\; \mathfrak{g}\otimes\mathbb{R}\Gamma(\mathbb{D}_n^\circ,\mathcal{O}_X), $$
 where $\mathbb{R}\Gamma(\mathbb{D}_n^\circ,\mathcal{O}_X)$ is the [[commutative dg-algebra]] of derived [[global sections]] of the [[structure sheaf]] $\mathcal{O}_X$ on the punctured [[formal disk]] $\mathbb{D}_n^\circ = \mathrm{Spec}(\mathbb{C}[[z_1,\dots,z_n]])-\{0\}$.
 
-A __higher Kac-Moody algebra__ $\widehat{\mathfrak{g}}_{n,P}$ is the [[central extension]] of the higher current algebra $\mathfrak{g}_n$ by an invariant polynomial $P$ on $\mathfrak{g}_n$ of degree $(n+1)$.
+A __higher Kac-Moody algebra__ $\widehat{\mathfrak{g}}_{n,\Theta}$ is the [[central extension]] of the higher current algebra $\mathfrak{g}_n$ by an invariant polynomial $\Theta$ on $\mathfrak{g}_n$ of degree $(n+1)$.
 
 ### Gwilliam-Williams higher Kac-Moody factorisation algebras
 
@@ -49,7 +49,7 @@ Now, let $\mathscr{Ad}(P)$ be the [[sheaf of L-∞ algebras#LocalLieAlgebra|loca
 
 Let $\Theta$ be a degree $1$ [[cocycle]] in the [[sheaf of L-∞ algebras#LocalLieAlgebra|local Chevalley-Eilenberg cochains]] $\mathrm{CE}_{\mathrm{loc}}(\mathscr{Ad}(P))$, which defines a $1$-shifted [[central extension]] $\widehat{\mathscr{Ad}(P)}_\Theta$.
 
-The __higher Kac-Moody factorization algebra__ on $X$ of type $\Theta$ is defined as the twisted enveloping [[factorization algebra]] $\mathbb{U}_\Theta(\mathscr{Ad}(P))$ whose sections are
+The __higher Kac-Moody factorization algebra__ on $X$ of type $\Theta$ is defined in [GW 21](#GW21) as the twisted [[universal enveloping algebra|enveloping]] [[factorization algebra]] $\mathbb{U}_\Theta(\mathscr{Ad}(P))$ whose sections are
 
 $$ \mathbb{U}_\Theta\left(\mathscr{Ad}(P)\right)(U) \;=\; \Big(\mathrm{Sym}\left(\Omega_c^{0,\ast}(U,\mathfrak{ad}(P))[1]\right), \; \bar{\partial} + \mathrm{d}_\mathrm{CE} + \Theta \Big) $$
 
@@ -57,7 +57,15 @@ on any open set $U\subset X$.
 
 ### Relation between the two
 
-*Under construction*
+Let $r : \mathbb{A}^{n}_{\mathbb{C}} - \{0\} \rightarrow (0,+\infty)$ be the radial projection map sending $(z_1,\dots,z_n)\mapsto \sqrt{|z_1|^2+\dots+|z_n|^2}$.
+
+In [GW 21](#GW21) the following map of [[factorization algebras]] on the positive reals is constructed:
+
+$$ \mathbb{U}(\hat{\pi}_{\mathfrak{g},n,\Theta}) \, : \; \mathbb{U}(\Omega^{0,\ast}_c\otimes\hat{\mathfrak{g}}_{n,\Theta}) \; \longrightarrow \; r_\ast\mathbb{U}_\Theta(\mathscr{Ad}(P)), $$
+
+where on the left-hand side we have the enveloping factorization algebra which encodes the [[universal enveloping algebra|enveloping $A_\infty$-algebra]] of the [FHK 19](#FHK19) higher Kac-Moody algebra $\hat{\mathfrak{g}}_{n,\Theta}$.
+
+This map establishes a relation between [[derived algebraic geometry]] and [[quantum field theory]], formulated the language of [[factorization algebras]]. In particular, the _higher Kac-Moody algebra_ $\hat{\mathfrak{g}}_{n,\Theta}$ "controls" its corresponding _higher Kac-Moody factorization algebra_ just like an affine [[Kac-Moody algebra]] "controls" its corresponding [[vertex algebra]].
 
 ## Examples
 
@@ -90,7 +98,7 @@ Higher Kac-Moody algebras were proposed in
 
 Higher Kac-Moody algebras were casted in the language of [[factorization algebras]] in
 
-* O. Gwilliam and B.R. Williams, _Higher Kac-Moody algebras and symmetries of holomorphic field theories_, Adv.Theor.Math.Phys. 25 (2021) 1, pages 129-239 [math.QA/1810.06534](https://arxiv.org/abs/1810.06534v2).
+* {#GW21} O. Gwilliam and B.R. Williams, _Higher Kac-Moody algebras and symmetries of holomorphic field theories_, Adv.Theor.Math.Phys. 25 (2021) 1, pages 129-239 [math.QA/1810.06534](https://arxiv.org/abs/1810.06534v2).
 
 
 [[!redirects higher Kac-Moody algebra]]
