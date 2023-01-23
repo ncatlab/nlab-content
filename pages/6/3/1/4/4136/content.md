@@ -7,6 +7,11 @@ Simon Kochen is Professor and Associate Chair in the Department of Mathematics a
 
 ## Selected writings
 
+On [[model theory]] and introducing the notation for "$\vDash$-[[judgements]]" (cf. [there](judgment#History)):
+
+* {#Kochen61} [[Simon Kochen]], p. 223 in: *Ultraproducts in the Theory of Models*, Ann. Math.  **74** 2 (1961) 221-261 &lbrack;[doi:10.2307/1970235](https://doi.org/10.2307/1970235)&rbrack;
+
+
 Introducing the [[Kochen-Specker theorem]]:
 
 * {#KochenSpecker67} [[Simon Kochen]], [[Ernst Specker]], _The problem of hidden variables in quantum mechanics_, Journal of Mathematics and Mechanics **17** (1967) 59-87 &lbrack;[pdf](http://www.iumj.indiana.edu/IUMJ/FTDLOAD/1968/17/17004/pdf), [jstor:24902153](https://www.jstor.org/stable/24902153), [doi:10.1007/978-94-010-1795-4_17](https://doi.org/10.1007/978-94-010-1795-4_17)&rbrack;
