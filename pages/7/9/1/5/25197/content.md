@@ -71,7 +71,7 @@ This map establishes a relation between [[derived algebraic geometry]] and [[qua
 
 ### Ordinary Kac-Moody algebras
 
-For $n=1$ and $X=\mathbb{D}_1^\circ$, one recovers $\mathfrak{g}_1 = \mathfrak{g}((z))$ and its [[central extension]] $\tilde{\mathfrak{g}}_{1,P}$ is an ordinary [[Kac-Moody algebra]].
+For $n=1$ and $X=\mathbb{A}^1_{\mathbb{C}}$, one recovers the formal current algebra $\mathfrak{g}_1 = \mathfrak{g}((z))$, whose [[central extensions]] $\tilde{\mathfrak{g}}_{1,\Theta}$ are ordinary [[Kac-Moody algebras]].
 
 ### Affine space $\mathbb{A}^n_{\mathbb{C}}$
 
