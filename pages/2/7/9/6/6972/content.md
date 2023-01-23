@@ -27,4 +27,9 @@ Introducing the [[homotopy type theory]]-interpretation of [[identity types]]. a
 
 * [[relation between category theory and type theory]]
 
+* [[judgement]]
+
+* [[homotopy type theory]]
+
+
 category: people
