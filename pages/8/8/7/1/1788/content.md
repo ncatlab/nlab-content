@@ -1,6 +1,8 @@
 
 $\mathfrak{A}$
 
+[[Frege-Urtheil.jpg:file]]
+
 | terminology | author | 
 | ------------|--------|
 | *judgement* | [Frege (1879)](#Frege1879) |
