@@ -176,8 +176,14 @@ By a similar argument, (if ZFC is consistent) there are models $M'$ of classical
 ## References
  {#References}
 
-Discussion of classical first-order model theory includes
+Early original texts"
 
+* {#Kochen61} [[Simon Kochen]], p. 223 in: *Ultraproducts in the Theory of Models*, Ann. Math.  **74** 2 (1961) 221-261 &lbrack;[doi:10.2307/1970235](https://doi.org/10.2307/1970235)&rbrack;
+
+  > (also introducing the notation for "$\vDash$-[[judgements]]", cf. [there](judgment#History))
+
+
+Discussion of classical first-order model theory includes
 
 * {#SEPEntry} Stanford Encyclopedia of Philosophy, _[First-order Model Theory](http://plato.stanford.edu/entries/modeltheory-fo/)_
 
