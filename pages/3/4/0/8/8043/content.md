@@ -49,7 +49,9 @@ The paradigmatic example of a judgment in [[type theory]] is a *typing judgment*
 Often, type theories include only a particular small set of judgments, such as:
 
 * typing judgments (written $t:A$, as above)
+
 * judgments of typehood (usually written $A \;type$)
+
 * judgments of [[equality]] between typed terms (written say $(t=t'):A$)
 
 (In a type theory with a [[type of types]], judgments of typehood can sometimes be incorporated as a special case of typing judgments, writing $A:Type$ instead of $A\;type$.)
@@ -82,36 +84,149 @@ For more about the precise relationship between the various meanings of $\vdash$
 While this may seem to be a very basic form of (hypothetical/generic) judgement only, in systems such as [[dependent type theory]] or [[homotopy type theory]], all of [[logic]] and a good bit more is all based on just this.
 
 
+## History of the notion and notation
+ {#History}
+
+\begin{imagefromfile}
+    "file_name": "Frege-DasUrtheil.jpg",
+    "float": "right",
+    "width": 570,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 10, 
+        "left": 20
+    }
+\end{imagefromfile}
+
+
+The terminology of *judgement* in [[formal logic]], and the notation
+
+$$
+  \vdash A
+$$
+
+for the *judgement* of *content* $A$ is due to [Frege (1879, §2)](#Frege1879) (Frege's *das Urtheil* -- or *das Urteil* in modern German spelling -- directly translates to: *the judgement*).
+
+{#RusselWhiteheadAssertion} This notion and notation (often "Frege's Urteilsstrich" -- "judgement stroke") was adopted by [Russell & Whitehead (1910, p. xviii)](#RussellWhitehead1910), who however speak of "assertion" instead of "judgement" (see [Martin-Löf (1996, p. 6)](#Martin-Löf96) for speculation that these authors may have wanted "to avoid any association with Kantian philosophy", cf. [below](#KantTheoryOfJudgement)).
+
+\begin{imagefromfile}
+    "file_name": "RussellWhitehead-Assertion.jpg",
+    "width": 650,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 10, 
+        "left": 20
+    }
+\end{imagefromfile}
+
+The need (which had been contested by some logicians such as [[Ludwig Wittgenstein]], cf. [jstor:43154266](https://www.jstor.org/stable/43154266)) for Frege's distinction between a proposition "$A$" as such and its judgement/assertion "$\vdash A$" was vocally argued for by [Martin-Löf (1984, pp. 2)](#Martin-Löf84), [(1987)](#Martin-Löf87) and in [(1996, lectures 1-2)](#Martin-Löf96), together with a re-promotion of Frege's *Urteilsstrich* notation "$\vdash$" ([ML84, p. 2](#Martin-Löf84),  [ML96, p. 2, 6](#Martin-Löf96)).
+
+So far this concerns absolute judgements with no hypothesis/[[context]] on the left of the *Urteilsstrich*: While the notation for hypothetical judgements
+
+\[
+  \label{GenericHypotheticalJudgement}
+  context \;\vdash\; judgement
+\]
+
+became the trademark of the practice of [[Martin-Löf dependent type theory]] --- often without any attribution, e.g. [Jacobs (1998, p. 2, 121, 586)](dependent+type+theory#Jacobs98); [Bauer, Haselwarter & Lumsdaine (2020)](#BauerHaselwarterLumsdaine20) ---, it seems that [[Per Martin-Löf]] did not actually use this notation in publications: When in [Martin-Löf (1996, p. 29)](#Martin-Löf96) it comes to hypothetical judgements, the authors switches to using just a vertical "$\vert$" instead of "$\vdash$".
+
+On the other hand [Kochen (1961, p.2)](#Kochen61) introduces (in a context of [[model theory]]) the notation "$\vDash$" (apparently not actively remembering its historical origin, cf. [Kochen (2017)](#Kochen17)) for a notion at least closely related with hypothetical judgements (and these days often used synonymously, e.g. [here](https://open.conted.ox.ac.uk/sites/open.conted.ox.ac.uk/files/resources/Create%20Document/Turnstiles.pdf)).
+
+Early use of the modern notation (eq:GenericHypotheticalJudgement) for hypothetical judgements specifically in [[dependent type theory]] appears in [Hofmann (1995, p. 31)](#Hofmann95), later published as [Hofmann (1997, p. 82)](#Hofmann97):
+
+\begin{imagefromfile}
+    "file_name": "Hofmann-judgements.jpg",
+    "width": 610,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 10, 
+        "left": 20
+    }
+\end{imagefromfile}
+
+\linebreak
+
 ## Related concepts
 
 * [[infinite judgment]]
 
+* [[natural deduction]], [[sequent calculus]]
+
+* [[context]], [[context extension]]
+
+* [[type theory]], [[dependent type theory]]
+
 ## References
+ {#References}
 
-Foundational discussion of the notion of _judgement_ in [[formal logic]] and [[type theory]]:
+{#PreHistory} Pre-history of the notion of judgement (*Urteil*) in (informal) logic:
+
+* {#KantTheoryOfJudgement} SEP: *[Kant’s Theory of Judgment](https://plato.stanford.edu/entries/kant-judgment/)*
+
+* [[Georg Hegel]], first section, second chapter of *[[Science of Logic]]* (1813)
+
+* [[Franz Brentano]], *Psychologie vom empirischen Standpunkte* (1874) &lbrack;[web](https://archive.org/details/psychologievome00kraugoog/page/n8/mode/2up)&rbrack;
+
+  see: SEP: *[Brentano’s Theory of Judgement](https://plato.stanford.edu/entries/brentano-judgement/)*
+
+The origin of the notion of "judgement" (and of the notation "$\vdash$" for it) in [[formal logic]]:
+
+* {#Frege1879} [[Gottlob Frege]], *Begriffsschrift* (1879) &lbrack;[web scan](https://gdz.sub.uni-goettingen.de/id/PPN538957069?tify=%7B%22pages%22%3A%5B4%5D%2C%22view%22%3A%22info%22%7D), [Wikipedia entry](https://en.wikipedia.org/wiki/Begriffsschrift)&rbrack;
 
 
-* [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), p. 2-4 in: _Intuitionistic type theory_, Lecture in Padua 1984, Bibliopolis (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
+and under the name "assertion" in:
 
-* [[Per Martin-Löf]], *Truth of a proposition, evidence of a judgement, validity of a proof*, Synthese **73** (1987) 407–420 &lbrack;[doi:10.1007/BF00484985](https://doi.org/10.1007/BF00484985), [pdf](https://archive-pml.github.io/martin-lof/pdfs/Truth-of-a-Proposition-Evidence-of-a-Judgment-1987.pdf)&rbrack; 
+* {#RussellWhitehead1910} [[Bertrand Russell]], [[Alfred Whitehead]], p. xviii in: *[[Principia Mathematica]]* (1910)
 
-* {#Martin-L&#246;f83} [[Per Martin-Löf]], *On the Meanings of the Logical Constants and the Justifications of the Logical Laws*, Nordic Journal of Philosophical Logic, **1** 1 (1996) 11-60 &lbrack;[pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf), [[MartinLofOnTheMeaning96.pdf:file]]&rbrack;
+Discussion in the context of what became known as [[Martin-Löf dependent type theory]]:
+
+* {#Martin-Löf84} [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), p. 2-4 in: _Intuitionistic type theory_, Lecture in Padua 1984, Bibliopolis (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
+
+* {#Martin-Löf87} [[Per Martin-Löf]], *Truth of a proposition, evidence of a judgement, validity of a proof*, Synthese **73** (1987) 407–420 &lbrack;[doi:10.1007/BF00484985](https://doi.org/10.1007/BF00484985), [pdf](https://archive-pml.github.io/martin-lof/pdfs/Truth-of-a-Proposition-Evidence-of-a-Judgment-1987.pdf)&rbrack; 
 
 * {#MartinLoef90} [[Per Martin-Löf]], _A path from logic to metaphysics_, talk at _Nuovi problemi della logica e della filosofia della scienza_, Jan 1990 ([pdf](https://github.com/michaelt/martin-lof/raw/master/pdfs/A-path-from-logic-to-metaphysics-1991.pdf))
 
+* {#Martin-Löf96} [[Per Martin-Löf]], *On the Meanings of the Logical Constants and the Justifications of the Logical Laws*, Nordic Journal of Philosophical Logic, **1** 1 (1996) 11-60 &lbrack;[pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf), [[MartinLofOnTheMeaning96.pdf:file]]&rbrack;
 
-More on this is in in sections 2 and 3 of
+* {#Hofmann95} [[Martin Hofmann]], §2.1.2 in: *Syntax and semantics of dependent types*, Chapter 2 in: _Extensional concepts in intensional type theory_, Ph.D. thesis, University of Edinburgh (1995), Distinguished Dissertations, Springer (1997) &lbrack;[ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]], [doi:10.1007/978-1-4471-0963-1](https://doi.org/10.1007/978-1-4471-0963-1)&rbrack;
 
-* {#Pfenning-Davies} [[Frank Pfenning]], Rowan Davies, _A judgemental reconstruction of modal logic_ (2000) ([pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf))
+  also published as:
+  
+* {#Hofmann97} [[Martin Hofmann]], p. 82 of: *Syntax and semantics of dependent types*, in *Semantics and logics of computation*, Publ. Newton Inst. **14**, Cambridge Univ. Press (1997) 79-130 &lbrack;[doi:10.1017/CBO9780511526619.004](https://doi.org/10.1017/CBO9780511526619.004)&rbrack;
+
+Reviewed in:
+
+* {#PfenningDavies01} [[Frank Pfenning]], Rowan Davies, §2, §3 of: _A judgemental reconstruction of modal logic_, Mathematical Structures in Computer Science **11** 4 (2001) 511-540 &lbrack;[doi:10.1017/S0960129501003322](https://doi.org/10.1017/S0960129501003322), [pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf)&rbrack;
  
+Further discussion in 
 
-A textbook acccount is in section I.3 of 
+* Greta Coraglia, [[Ivan Di Liberti]], *Context, Judgement, Deduction* &lbrack;[arXiv:2111.09438](https://arxiv.org/abs/2111.09438)&rbrack;
 
-* [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
+Textbook acccount in a context of [[programming languages]]:
 
-Something called _judgement_ (Urteil) appears in 
+* [[Robert Harper]], section I.3 of  _[[Practical Foundations for Programming Languages]]_ (2015)
 
-* [[Georg Hegel]], second part, first section, second chapter of _[[Science of Logic]]_.
+The alternative notation "$\vDash$" with closely related (if different) usage [seems](https://mathshistory.st-andrews.ac.uk/Miller/mathsym/set/) to originate in 
+
+* {#Kochen61} [[Simon Kochen]], p. 223 in: *Ultraproducts in the Theory of Models*, Ann. Math.  **74** 2 (1961) 221-261 &lbrack;[doi:10.2307/1970235](https://doi.org/10.2307/1970235)&rbrack;
+
+whose author
+
+> cannot recollect whether &lbrack;he&rbrack; originated it or took it from some other paper.
+
+according to:
+
+* {#Kochen17} [[Simon Kochen]], *Origins of the double turnstile*, FOM mailing list posting (Feb 2017) &lbrack;[web](https://cs.nyu.edu/pipermail/fom/2017-February/020265.html), [screenshot](/nlab/files/Kochen-OriginOfDoubleTurnstile.jpg)&rbrack;
+
+
+
+
 
 [[!redirects judgment]]
 [[!redirects judgments]]
@@ -125,3 +240,8 @@ Something called _judgement_ (Urteil) appears in
 [[!redirects generic judgments]]
 [[!redirects generic judgement]]
 [[!redirects generic judgements]]
+
+[[!redirects assertion]]
+[[!redirects assertions]]
+
+
