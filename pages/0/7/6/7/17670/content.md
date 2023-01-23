@@ -143,7 +143,8 @@ Discussion in Lorentzian signature:
 
 * Fabien Besnard, Christian Brouder, _Noncommutative geometry, the Lorentzian Standard Model and its B-L extension_ ([arXiv:2010.04960](https://arxiv.org/abs/2010.04960))
 
- 
+* Manuele Filaci, Pierre Martinetti, *A critical survey of twisted spectral triples beyond the Standard Model* &lbrack;[arXiv:2301.08346](https://arxiv.org/abs/2301.08346)&rbrack;
+
 
 
 [[!redirects Connes-Lott-Chamseddine-Barrett models]]
