@@ -53,6 +53,8 @@ A commutative ring $R$ is a **prefield ring** if the [[ring of fractions]] of $R
 
 * [[Bézout ring]]
 
+* [[unique factorization ring]]
+
 * [[Euclidean ring]]
 
 * [[ring of fractions]]
