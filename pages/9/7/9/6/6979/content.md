@@ -74,15 +74,21 @@ _[[relation between type theory and category theory]]_.
 * [[univalent type theory]]
 * [[propositional logic as a dependent type theory]]
 
+
 ## Related concepts
 
 * [[linear dependent type theory]]
 * [[dependent type theoretic methods in natural language semantics]]
 * [[set theory and dependent type theory]]
 
+
 ## References
 
-For original references see at *[[Martin-Löf dependent type theory]]*
+For original references see at *[[Martin-Löf dependent type theory]]*.
+
+For a more general notion:
+
+* {#BauerHaselwarterLumsdaine20} [[Andrej Bauer]], [[Philipp G. Haselwarter]], [[Peter LeFanu Lumsdaine]], *A general definition of dependent type theories* &lbrack;[arXiv:2009.05539](https://arxiv.org/abs/2009.05539)&rbrack;
 
 Introductory accounts:
 
