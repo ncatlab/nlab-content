@@ -48,6 +48,8 @@ Let $R$ be an [[integral domain]]. Then, $R$ is a UFD iff every non-zero [[prime
 
 * [[GCD domain]]
 
+* [[unique factorization ring]]
+
 ## References
 
 * [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
