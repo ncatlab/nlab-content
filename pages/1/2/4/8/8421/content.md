@@ -17,6 +17,8 @@
 =--
 =--
 
+
+
 # Contents
 * table of contents
 {: toc}
@@ -170,9 +172,11 @@ The next step to the modern conception was an observation by the Polish logician
 
 At about the same time [[Gerhard Gentzen|G. Gentzen]] developed a system of natural deduction in his thesis[^Dummett] - a landmark of 20th century [[mathematical logic]] introducing proof systems for [[predicate logic]] (in both [[classical logic|classical]] and [[intuitionistic logic|intuitionistic]] versions) and the concept of [[cut-elimination]] - that was published as
 
-* {#Gentzen} [[Gerhard Gentzen]], _Untersuchungen &#252;ber das logische Schlie&#223;en_, _Mathematische Zeitschrift_ **39** 1, Springer (1934-35)  &lbrack;[doi:10.1007/BF01201353](http://dx.doi.org/10.1007/BF01201353)&rbrack;
+* {#Gentzen} [[Gerhard Gentzen]], _Untersuchungen &#252;ber das logische Schlie&#223;en_, _Mathematische Zeitschrift_ **39** 1, Springer (1934-35) &lbrack;[doi:10.1007/BF01201353](http://dx.doi.org/10.1007/BF01201353)&rbrack;
 
-  (English translation _Investigations into Logical Deduction_ in Szabo)  
+and in English translation as :
+
+* [[Gerhard Gentzen]], *Investigations into Logical Deduction*, in M. E. Szabo (ed.), *The Collected Papers of Gerhard Gentzen*, Studies in Logic and the Foundations of Mathematics **55**, Springer (1969) 68-131 &lbrack;[ISBN:978-0-444-53419-4](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/55), [pdf](https://logic-teaching.github.io/prop/texts/Gentzen%201969%20-%20Investigations%20into%20Logical%20Deduction.pdf)&rbrack;
 
 [^Dummett]: *It can be said of Gentzen that it was he who first showed how proof theory should be done*. (M. Dummett, _Frege- Philosophy of Language_ , Harvard UP 1981$^2$. p.434)
  
