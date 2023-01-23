@@ -109,7 +109,7 @@ $$
 
 for the *judgement* of *content* $A$ is due to [Frege (1879, §2)](#Frege1879) (Frege's *das Urtheil* -- or *das Urteil* in modern German spelling -- directly translates to: *the judgement*).
 
-{#RusselWhiteheadAssertion} This notion and notation (often "Frege's Urteilsstrich" -- "judgement stroke") was adopted by [Russell & Whitehead (1910, p. xviii)](#RussellWhitehead1910), who however speak of "assertion" instead of "judgement" (see [Martin-Löf (1996, p. 6)](#Martin-Löf96) for speculation that these authors may have wanted "to avoid any association with Kantian philosophy", cf. [below](#KantTheoryOfJudgement)).
+{#RusselWhiteheadAssertion} This notion and notation (often "Frege's Urteilsstrich" -- "judgement stroke") was adopted by [Russell & Whitehead (1910, p. xviii)](#RussellWhitehead1910), who however speak of "assertion" instead of "judgement" (see [Martin-Löf (1996, p. 6)](#Martin-Löf96) for speculation that these authors may have wanted "to avoid any association with Kantian philosophy", cf. [below](#KantTheoryOfJudgement))
 
 \begin{imagefromfile}
     "file_name": "RussellWhitehead-Assertion.jpg",
@@ -123,9 +123,24 @@ for the *judgement* of *content* $A$ is due to [Frege (1879, §2)](#Frege1879) (
     }
 \end{imagefromfile}
 
-The need (which had been contested by some logicians such as [[Ludwig Wittgenstein]], cf. [jstor:43154266](https://www.jstor.org/stable/43154266)) for Frege's distinction between a proposition "$A$" as such and its judgement/assertion "$\vdash A$" was vocally argued for by [Martin-Löf (1984, pp. 2)](#Martin-Löf84), [(1987)](#Martin-Löf87) and in [(1996, lectures 1-2)](#Martin-Löf96), together with a re-promotion of Frege's *Urteilsstrich* notation "$\vdash$" ([ML84, p. 2](#Martin-Löf84),  [ML96, p. 2, 6](#Martin-Löf96)).
+and then by [Church (1940, §5)](#Church40) --- now allowing hypotheses/assumptions on the left of the *Urteilsstrich* --- to mean *provable* under these assumptions:
 
-So far this concerns absolute judgements with no hypothesis/[[context]] on the left of the *Urteilsstrich*: While the notation for hypothetical judgements
+\begin{imagefromfile}
+    "file_name": "Church-ProvableUnderAssumptions.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 10, 
+        "left": 20
+    }
+\end{imagefromfile}
+
+
+The need (which had been contested by some logicians such as [[Ludwig Wittgenstein]], cf. [jstor:43154266](https://www.jstor.org/stable/43154266)) for Frege's distinction between a proposition "$A$" as such and its judgement/assertion/provability "$\vdash A$" was vocally argued for by [Martin-Löf (1984, pp. 2)](#Martin-Löf84), [(1987)](#Martin-Löf87) and in [(1996, lectures 1-2)](#Martin-Löf96), together with a re-promotion of Frege's *Urteilsstrich* notation "$\vdash$" ([ML84, p. 2](#Martin-Löf84),  [ML96, p. 2, 6](#Martin-Löf96)).
+
+While (Church's) notation for hypothetical judgements
 
 \[
   \label{GenericHypotheticalJudgement}
@@ -134,7 +149,7 @@ So far this concerns absolute judgements with no hypothesis/[[context]] on the l
 
 became the trademark of the practice of [[Martin-Löf dependent type theory]] --- often without any attribution, e.g. [Jacobs (1998, p. 2, 121, 586)](dependent+type+theory#Jacobs98); [Bauer, Haselwarter & Lumsdaine (2020)](#BauerHaselwarterLumsdaine20) ---, it seems that [[Per Martin-Löf]] did not actually use this notation in publications: When in [Martin-Löf (1996, p. 29)](#Martin-Löf96) it comes to hypothetical judgements, the authors switches to using just a vertical "$\vert$" instead of "$\vdash$".
 
-On the other hand [Kochen (1961, p.2)](#Kochen61) introduces (in a context of [[model theory]]) the notation "$\vDash$" (apparently not actively remembering its historical origin, cf. [Kochen (2017)](#Kochen17)) for a notion at least closely related with hypothetical judgements (and these days often used synonymously, e.g. [here](https://open.conted.ox.ac.uk/sites/open.conted.ox.ac.uk/files/resources/Create%20Document/Turnstiles.pdf)).
+On the other hand [Kochen (1961, p.2)](#Kochen61) introduced (in a context of [[model theory]]) the notation "$\mathfrak{A} \;\vDash\; P(a)$" (apparently not actively remembering its historical origin, cf. [Kochen (2017)](#Kochen17)) for a notion in [[model theory]] pronounced  "$a \in \mathfrak{A}$ *satisfies* $P$" --- which is at least closely related to hypothetical judgements (and often used synonymously, e.g. [here](https://open.conted.ox.ac.uk/sites/open.conted.ox.ac.uk/files/resources/Create%20Document/Turnstiles.pdf)).
 
 Early use of the modern notation (eq:GenericHypotheticalJudgement) for hypothetical judgements specifically in [[dependent type theory]] appears in [Hofmann (1995, p. 31)](#Hofmann95), later published as [Hofmann (1997, p. 82)](#Hofmann97):
 
@@ -162,6 +177,7 @@ Early use of the modern notation (eq:GenericHypotheticalJudgement) for hypotheti
 
 * [[type theory]], [[dependent type theory]]
 
+
 ## References
  {#References}
 
@@ -179,10 +195,13 @@ The origin of the notion of "judgement" (and of the notation "$\vdash$" for it) 
 
 * {#Frege1879} [[Gottlob Frege]], *Begriffsschrift* (1879) &lbrack;[web scan](https://gdz.sub.uni-goettingen.de/id/PPN538957069?tify=%7B%22pages%22%3A%5B4%5D%2C%22view%22%3A%22info%22%7D), [Wikipedia entry](https://en.wikipedia.org/wiki/Begriffsschrift)&rbrack;
 
-
 and under the name "assertion" in:
 
 * {#RussellWhitehead1910} [[Bertrand Russell]], [[Alfred Whitehead]], p. xviii in: *[[Principia Mathematica]]* (1910)
+
+Keeping the symbol "$\vdash$", now allowing hypothesis on the left, but pronouning it as "[[proof]] under assumptions":
+
+* {#Church40} [[Alonzo Church]], §5 of: *A Formulation of the Simple Theory of Types*, The Journal of Symbolic Logic **5** 2 (1940) 56-68  &lbrack;[doi:10.2307/2266170](https://doi.org/10.2307/2266170)&rbrack;
 
 Discussion in the context of what became known as [[Martin-Löf dependent type theory]]:
 
@@ -212,7 +231,7 @@ Textbook acccount in a context of [[programming languages]]:
 
 * [[Robert Harper]], section I.3 of  _[[Practical Foundations for Programming Languages]]_ (2015)
 
-The alternative notation "$\vDash$" with closely related (if different) usage [seems](https://mathshistory.st-andrews.ac.uk/Miller/mathsym/set/) to originate in 
+The alternative notation "$\vDash$" for *satisfaction* with closely related (if different) usage [seems](https://mathshistory.st-andrews.ac.uk/Miller/mathsym/set/) to originate in 
 
 * {#Kochen61} [[Simon Kochen]], p. 223 in: *Ultraproducts in the Theory of Models*, Ann. Math.  **74** 2 (1961) 221-261 &lbrack;[doi:10.2307/1970235](https://doi.org/10.2307/1970235)&rbrack;
 
@@ -224,7 +243,9 @@ according to:
 
 * {#Kochen17} [[Simon Kochen]], *Origins of the double turnstile*, FOM mailing list posting (Feb 2017) &lbrack;[web](https://cs.nyu.edu/pipermail/fom/2017-February/020265.html), [screenshot](/nlab/files/Kochen-OriginOfDoubleTurnstile.jpg)&rbrack;
 
+See also:
 
+* Formal Logic Wikibook: *[Satisfaction](https://en.wikibooks.org/wiki/Formal_Logic/Predicate_Logic/Satisfaction)*
 
 
 
