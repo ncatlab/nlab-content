@@ -42,6 +42,8 @@ The last definition implies that GCD rings are [[algebraic theory|algebraic]].
 
 * [[Bézout ring]]
 
+* [[unique factorization ring]]
+
 * [[GCD domain]]
 
 * [[Euclidean ring]]
