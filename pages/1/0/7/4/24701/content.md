@@ -369,43 +369,6 @@ $$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma, x:A \vdash B:\mathcal{U} \quad
 Uniqueness rules for internal sigma types:
 $$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash B:\mathcal{U} \quad \Gamma, z:\mathcal{T}(\Sigma_\mathcal{U} (x:A).B(x)) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B(x)) \vdash c:\mathcal{T}(C[\mathrm{in}(x, y)/z]) \quad \Gamma, z:\mathcal{T}(\Sigma_\mathcal{U} (x:A).B(x)) \vdash u:\mathcal{T}(C) \quad \Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B(x)) \vdash i_\mathrm{in}(u):u[\mathrm{in}(x, y)/z] =_{\mathcal{T}(C[\mathrm{in}(x, y)/z])} c}{\Gamma, e:\mathcal{T}(\Sigma_\mathcal{U} (x:A).B(x)) \vdash \eta_{\Sigma_\mathcal{U} (x:A).B(x)}^C(c):u[e/z] =_{\mathcal{T}(C[e/z])} \mathrm{ind}_{\Sigma_\mathcal{U} (x:A).B(x)}^C(c)[e/z]}$$
 
-### Sum types
-
-Formation rules for sum types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A + B \; \mathrm{type}}$$
-
-Introduction rules for sum types:
-$$\frac{\Gamma \vdash a:A}{\Gamma \vdash \mathrm{inl}(a):A + B} \qquad \frac{\Gamma \vdash b:B}{\Gamma \vdash \mathrm{inr}(b):A + B}$$
-
-Elimination rules for sum types:
-$$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c(x):C(\mathrm{inl}(x)) \quad \Gamma, y:B \vdash d(y):C(\mathrm{inr}(y))}{\Gamma, z:A + B \vdash \mathrm{ind}_{A + B}^C(c(x), d(y)):C}$$
-
-Computation rules for sum types:
-$$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c(x):C(\mathrm{inl}(x)) \quad \Gamma, y:B \vdash d(y):C(\mathrm{inr}(y)) \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_1:\mathrm{ind}_{A + B}^C(c(x), d(y))(\mathrm{inl}(a)) =_{C(\mathrm{inl}(a))} c(a)}$$
-$$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c(x):C(\mathrm{inl}(x)) \quad \Gamma, y:B \vdash d(y):C(\mathrm{inr}(y)) \quad \Gamma \vdash b:B}{\Gamma \vdash \beta_2:\mathrm{ind}_{A + B}^C(c(x), d(y))(\mathrm{inr}(b)) =_{C(\mathrm{inr}(b))} d(b)}$$
-
-Uniqueness rules for sum types:
-$$\frac{\Gamma, z:A + B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c(x):C(\mathrm{inl}(x)) \quad \Gamma, y:B \vdash d(y):C(\mathrm{inr}(y)) \quad \Gamma, x:A + B \vdash u:C \quad \Gamma, a:A \vdash i_\mathrm{inl}(u):u(\mathrm{inl}(a)) =_{C(\mathrm{inl}(a))} c(a) \quad \Gamma, b:B \vdash i_\mathrm{inr}(u):u(\mathrm{inr}(b)) =_{C(\mathrm{inr}(b))} d(b)}{\Gamma, z:A + B \vdash \eta_{A + B}:u(z) =_{C(z)} \mathrm{ind}_{A + B}^C(c(\mathrm{inl}(z)), d(\mathrm{inl}(z)))(z)}$$
-
-A universe $\mathcal{U}$ is closed under sum types if it for each element $A:\mathcal{U}$ and $B:\mathcal{U}$, there is an element $A +_\mathcal{U} B:\mathcal{U}$ which behaves as the internal encoding of the sum type $A + B$ in the universe
-
-Formation rules for internal sum types:
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma \vdash A +_\mathcal{U} B:\mathcal{U}}$$
-
-Introduction rules for internal sum types:
-$$\frac{\Gamma \vdash a:\mathcal{T}(A)}{\Gamma \vdash \mathrm{inl}(a):\mathcal{T}(A +_\mathcal{U} B)} \qquad \frac{\Gamma \vdash b:\mathcal{T}(B)}{\Gamma \vdash \mathrm{inr}(b):\mathcal{T}(A +_\mathcal{U} B)}$$
-
-Elimination rules for internal sum types:
-$$\frac{\Gamma, z:\mathcal{T}(A +_\mathcal{U} B) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash c(x):\mathcal{T}(C(\mathrm{inl}(x))_ \quad \Gamma, y:\mathcal{T}(B) \vdash d(y):\mathcal{T}(C(\mathrm{inr}(y)))}{\Gamma, z:\mathcal{T}(A +_\mathcal{U} B) \vdash \mathrm{ind}_{A +_\mathcal{U} B}^C(c(x), d(y)):\mathcal{T}(C)}$$
-
-Computation rules for internal sum types:
-$$\frac{\Gamma, z:\mathcal{T}(A +_\mathcal{U} B) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash c(x):\mathcal{T}(C(\mathrm{inl}(x))) \quad \Gamma, y:\mathcal{T}(B) \vdash d(y):\mathcal{T}(C(\mathrm{inr}(y))) \quad \Gamma \vdash a:\mathcal{T}(A)}{\Gamma \vdash \beta_1:\mathrm{ind}_{A + B}^C(c(x), d(y))(\mathrm{inl}(a)) =_{\mathcal{T}(C(\mathrm{inl}(a)))} c(a)}$$
-
-$$\frac{\Gamma, z:\mathcal{T}(A +_\mathcal{U} B) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash c(x):\mathcal{T}(C(\mathrm{inl}(x))) \quad \Gamma, y:\mathcal{T}(B) \vdash d(y):\mathcal{T}(C(\mathrm{inr}(y))) \quad \Gamma \vdash b:\mathcal{T}(B)}{\Gamma \vdash \beta_2:\mathrm{ind}_{A +_\mathcal{U} B}^C(c(x), d(y))(\mathrm{inr}(b)) =_{\mathcal{T}(C(\mathrm{inr}(b)))} d(b)}$$
-
-Uniqueness rules for internal sum types:
-$$\frac{\Gamma, z:\mathcal{T}(A +_\mathcal{U} B) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash c(x):\mathcal{T}(C(\mathrm{inl}(x))) \quad \Gamma, y:\mathcal{T}(B) \vdash d(y):\mathcal{T}(C(\mathrm{inr}(y))) \quad \Gamma, x:\mathcal{T}(A +_\mathcal{U} B) \vdash u:\mathcal{T}(C) \quad \Gamma, a:\mathcal{T}(A) \vdash i_\mathrm{inl}(u):u(\mathrm{inl}(a)) =_{\mathcal{T}(C(\mathrm{inl}(a)))} c(a) \quad \Gamma, b:\mathcal{T}(B) \vdash i_\mathrm{inr}(u):u(\mathrm{inr}(b)) =_{\mathcal{T}(C(\mathrm{inr}(b)))} d(b)}{\Gamma, z:\mathcal{T}(A +_\mathcal{U} B) \vdash \eta_{A + B}:u(z) =_{\mathcal{T}(C(z))} \mathrm{ind}_{A +_\mathcal{U} B}^C(c(\mathrm{inl}(z)), d(\mathrm{inl}(z)))(z)}$$
-
 ### Empty type
 
 Formation rules for the empty type:
@@ -429,6 +392,28 @@ Uniqueness rules for the internal empty type:
 $$\frac{\Gamma, x:\mathcal{T}(\mathbb{0}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(\mathbb{0}_\mathcal{U}) \vdash c:\mathcal{T}(C)}{\Gamma, x:\mathcal{T}(\mathbb{0}_\mathcal{U}) \vdash \eta_{\mathbb{0}_\mathcal{U}}(c):c =_{\mathcal{T}(C)} \mathrm{ind}_{\mathbb{0}_\mathcal{U}}^{C}}$$
 
 ### Other types
+
+#### Copy types
+
+Formation rules for copy types:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{Copy}(A) \; \mathrm{type}}$$
+
+Introduction rules for sum types:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{copy}_A:A \to \mathrm{Copy}(A)}$$
+
+Dependent universal property rule for sum types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:\mathrm{Copy}(A) \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{copy}_A}:\prod_{x:A} C(\mathrm{copy}_A(x))}{\Gamma \vdash \mathrm{up}_{\mathrm{Copy}(A)}^C(c_{\mathrm{copy}_A}):\mathrm{isContr}\left(\sum_{c:\prod_{x:\mathrm{Copy}(A)} C(x)} \prod_{a:A} c(\mathrm{copy}_A(a)) =_{C(\mathrm{copy}_A(a))} c_{\mathrm{copy}_A}(a)\right)}$$
+
+#### Sum types
+
+Formation rules for sum types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A + B \; \mathrm{type}}$$
+
+Introduction rules for sum types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{in}_A:A \to A + B} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{in}_B:B \to A + B}$$
+
+Dependent universal property rule for sum types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A + B \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{in}_A}:\prod_{x:A} C(\mathrm{in}_A(x)) \quad \Gamma \vdash c_{\mathrm{in}_B}:\prod_{y:B} C(\mathrm{in}_B(y))}{\Gamma \vdash \mathrm{up}_{A + B}^C(c_{\mathrm{in}_A}, c_{\mathrm{in}_B}):\mathrm{isContr}\left(\sum_{c:\prod_{x:A + B} C(x)} \left(\prod_{a:A} (c(\mathrm{in}_A(a)) =_{C(\mathrm{in}_A(a))} c_{\mathrm{in}_A}(a))\right) \times \left(\prod_{b:B} (c(\mathrm{in}_B(b)) =_{C(\mathrm{in}_B(b))} c_{\mathrm{in}_B}(b))\right)\right)}$$
 
 #### Booleans type
 
