@@ -96,10 +96,16 @@ category: category
 
 [[!redirects free boolean algebra]]
 [[!redirects free Boolean algebra]]
+[[!redirects free boolean algebras]]
+[[!redirects free Boolean algebras]]
 [[!redirects free boolean lattice]]
 [[!redirects free Boolean lattice]]
+[[!redirects free boolean lattices]]
+[[!redirects free Boolean lattices]]
 [[!redirects free boolean ring]]
 [[!redirects free Boolean ring]]
+[[!redirects free boolean rings]]
+[[!redirects free Boolean rings]]
 
 [[!redirects double powerset]]
 [[!redirects double power set]]
