@@ -16,9 +16,9 @@ On the mathematical foundations of [[quantum mechanics]]:
 
 Lectures by Hilbert on [[physics]] and especially on [[general relativity]] are collected here:
 
-* {#SauerMajer} [[Tilman Sauer]], [[Ulrich Majer]] with  Arne Schirrmacher, Heinz-J&#252;rgen Schmidt (eds.), _David Hilbert's "Lectures on the foundations of physics"_, 1915-1927 : relativity, quantum theory and epistemology, Springer 2009
+* {#SauerMajer} [[Tilman Sauer]], [[Ulrich Majer]] with  Arne Schirrmacher, Heinz-J&#252;rgen Schmidt (eds.): *David Hilbert's Lectures on the foundations of physics 1915-1927 --- Relativity, Quantum Theory and Epistemology*, Springer (2009) &lbrack;[doi:10.1007/b12915](https://doi.org/10.1007/b12915)&rbrack;
   
-  Around pages 417, 423 there is discussion of "Weltgesetze", roughly what today in  fundamental physical might be called [[theories of everything]], with some remarks comparing to the perspective of [[Hegel]] in the _[[Science of Logic]]_.
+  > Around pages 417, 423 there is discussion of "Weltgesetze", roughly what today in  fundamental physical might be called [[theories of everything]], with some remarks comparing to the perspective of [[Hegel]] in the _[[Science of Logic]]_.
 
 * _[[Naturerkennen und Logik]]_, Lecture at the _Kongress der Gesellschaft Deutscher Naturforscher und &#196;rtze_, 1930  ([pdf](http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.pdf), [audio](http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.mp3)), 
 
