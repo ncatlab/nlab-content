@@ -25,6 +25,8 @@ Every [[subgroup]] of a free group is itself a free group. This is the _[[Nielse
 
 * [[free abelian group]], [[free groupoid]]
 
+* [[free group type]]
+
 * [[Fox derivative]]
 
 ## References
