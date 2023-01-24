@@ -38,7 +38,23 @@ $$\frac{\Gamma, n:\mathbb{N} \vdash A(n) \; \mathrm{type}}{\Gamma, a:(n:\mathbb{
 Dependent sequence types also have their own extensionality principle, called [[dependent sequence extensionality]]. This states that given two dependent sequences $a:(n:\mathbb{N}) \to A(n)$ and $b:(n:\mathbb{N}) \to A(n)$ there is an [[equivalence of types]] between the [[identity type]] $a =_{(n:\mathbb{N}) \to A(n)} b$ and the dependent sequence type $(n:\mathbb{N}) \to (a(n) =_{A(n)} b(n))$:
 $$\frac{\Gamma, n:\mathbb{N} \vdash A(n) \; \mathrm{type}}{\Gamma,a:(n:\mathbb{N}) \to A(n), b:(n:\mathbb{N}) \to A(n) \vdash \mathrm{dseqext}(a, b):(a =_{(n:\mathbb{N}) \to A(n)} b) \simeq (n:\mathbb{N}) \to (a(n) =_{A(n)} b(n))}$$
 
-Dependent sequence types are used in [[strongly predicative mathematics]], where one does not have [[dependent function types]], to construct the [[real numbers]]. It is also used in defining the [[axiom of countable choice]] in [[dependent type theory]]:
+Dependent sequence types are used in [[strongly predicative mathematics]], where one does not have [[dependent function types]], to construct the [[natural numbers type]], as dependent sequence types are used in the [[elimination rules]], [[computation rules]], and [[uniqueness rules]] of the natural numbers type:
+
+Elimination rules for the natural numbers type:
+
+$$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{N}} C(x) \to C(s(x)) \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash \mathrm{ind}_\mathbb{N}^C(c_0, c_s, n):C(n)}$$
+
+Computation rules for the natural numbers type:
+
+$$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{N}} C(x) \to C(s(x))}{\Gamma \vdash \beta_\mathbb{N}^0(c_0, c_s):\mathrm{Id}_{C(0)}\mathrm{ind}_\mathbb{N}^C(c_0, c_s, 0), c_0)}$$
+
+$$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{N}} C(x) \to C(s(x)) \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash \beta_\mathbb{N}^s(c_0, c_s, n):\mathrm{Id}_{C(s(n))}(\mathrm{ind}_\mathbb{N}^C(c_0, c_s, s(n)), c_s(n)(\mathrm{ind}_\mathbb{N}^C(c_0, c_s, n)))}$$
+
+Uniqueness rules for the natural numbers type:
+
+$$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{x:\mathbb{N}} C(x) \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash \eta_\mathbb{N}(c, n):\mathrm{Id}_{C(n)}(\mathrm{ind}_\mathbb{N}^C(c(0), \lambda x:\mathbb{N}.c(s(x)), n), c(n))}$$ 
+
+It is also used in defining the [[axiom of countable choice]] in [[dependent type theory]]:
 
 $$\frac{\Gamma, n:\mathbb{N} \vdash A(n) \; \mathrm{type}}{\Gamma, a:(n:\mathbb{N}) \to \left[A(n)\right] \vdash \mathrm{countablechoice}(a):\left[(n:\mathbb{N}) \to A(n)\right]}$$
 
