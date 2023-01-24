@@ -152,7 +152,7 @@ Similarly, [Kochen (1961, p.2)](#Kochen61) introduced (in a context of [[model t
 \end{imagefromfile}
 
 
-The need (which had been contested by some logicians such as [[Ludwig Wittgenstein|Wittgenstein]], cf. [jstor:43154266](https://www.jstor.org/stable/43154266)) for Frege's distinction between a proposition "$A$" as such and its judgement/assertion/proof/validation "$\vdash A$" was vocally argued for by [Martin-Löf (1984, pp. 2)](#Martin-Löf84), [(1987)](#Martin-Löf87) and in [(1996, lectures 1-2)](#Martin-Löf96), together with a re-promotion of Frege's *Urteilsstrich* notation "$\vdash$" ([ML84, p. 2](#Martin-Löf84),  [ML96, p. 2, 6](#Martin-Löf96)):
+The need (which had been contested by some logicians such as [[Ludwig Wittgenstein|Wittgenstein]], cf. [jstor:43154266](https://www.jstor.org/stable/43154266)) for Frege's distinction between a proposition "$A$", as such, and its judgement/assertion/proof/validation "$\vdash A$" was vocally argued for by [Martin-Löf (1984, pp. 2)](#Martin-Löf84), [(1987)](#Martin-Löf87) and in [(1996, lectures 1-2)](#Martin-Löf96), together with a re-promotion of Frege's *Urteilsstrich* notation "$\vdash$" ([ML84, p. 2](#Martin-Löf84),  [ML96, p. 2, 6](#Martin-Löf96)):
 
 \begin{imagefromfile}
     "file_name": "Martin-Loef--Judgement.jpg",
