@@ -20,8 +20,15 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-**Mathematical physics** is a discipline at the interface of [[mathematics]] and [[physics]], concerned with developing mathematical models of physical phenomena and mathematical apparatus arising or needed in such models. It intersects with **theoretical physics** which deals with theoretical arguments in consideration of physical phenomena and the development of models of known and of conjectured physics; theoretical physics is in a sense wider as it deals also with interpretations, non-rigorous and sometimes speculative argument from experiments or from rough comparisons of different models and various experimental data, not entering or forming together a necessarily compatible mathematical entity. For example, the calculations of fitting parameters and adjusting models to complicated experimental data, called the [[phenomenology]] is part of the work of a theoretical physicist, but most such work is not nowadays considered to belong to mathematical physics, unless one is developing a really new mathematical model or tool for such work. 
+**Mathematical physics** is a discipline at the interface of [[mathematics]] and [[physics]], concerned with developing mathematical [[theory (physics)|theories]] and [[model (in theoretical physics)|models]] of physical phenomena and mathematical apparatus arising or needed in such models. 
+
+Mathematical physics intersects with **theoretical physics** which deals with theoretical arguments in consideration of physical phenomena and the development of models of known and of conjectured physics. Theoretical physics is commonly more widely conceived as it deals also with interpretations, non-rigorous and sometimes speculative argument from experiments or from rough comparisons of different models and various experimental data, not necessarily being mathematically satisfactoy. 
+
+For example, the calculations of fitting parameters and adjusting models to complicated experimental data, called *[[phenomenology]]* is part of the work of a theoretical physicist, but most such work is not nowadays considered to belong to mathematical physics, unless one is developing a really new mathematical model or tool for such work. 
+
+On the other hand, ever since [Galilei 1623](Galileo+Galilei#TheBookOfnature) ($\sim$ "The book of nature is written in the language of mathematics."), [[Naturerkennen und Logik|Hilbert 1930]] ("The instrument that mediates between theory and practice, between thought and observation, is mathematics.") and [[The Unreasonable Effectiveness of Mathematics in the Natural Sciences|Wigner 1959]] ("unreasonable effectiveness of mathematics in the natural sciences") it may be understood that *ultimately*, when the dust has settled, all physics is mathematical physics (cf. *[[theory of everything]]*).
 
 ## History
 
@@ -67,13 +74,27 @@ The version of this belief in the necessity of deep mathematics for physics to b
 
 ## Related entries
 
-* [[theory (physics)]]
+* [[theory (physics)]], [[model (in theoretical physics)]]
+
+* [[high energy physics]]
+
+* [[solid state physics]]
+
+* [[mesoscopic physics]]
+
+* [[nuclear physics]]
+
+* [[quantum gravity]]
+
+* [[theory of everything]]
+
+* [[Hilbert's sixth problem]]
 
 * [[The Unreasonable Effectiveness of Mathematics in the Natural Sciences]]
 
 * [[The Unreasonable Effectiveness of Physics in the Mathematical Sciences]]
 
-* See the related, but disputable notion of [[applied mathematics]]. 
+* See also the related, but disputable, notion of [[applied mathematics]]. 
 
 
 ## Literature and links
