@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[M-theory on 8-manifolds]] and [[conifold transition]]:
+
+* [[Sergei Gukov]], [[James Sparks]], [[David Tong]], *Conifold Transitions and Five-Brane Condensation in M-Theory on $Spin(7)$ Manifolds*, Class. Quant. Grav. **20** (2003) 665-706 &lbrack;[arXiv:hep-th/0207244](https://arxiv.org/abs/hep-th/0207244)&rbrack;
+
+
 On [[moduli stabilization]] in [[heterotic string theory]]:
 
 * [[Sergei Gukov]], [[Shamit Kachru]], Xiao Liu, [[Liam McAllister]], _Heterotic Moduli Stabilization with Fractional Chern-Simons Invariants_,  Phys.Rev.D **69** (2004) 086008 &lbrack;[arXiv:hep-th/0310159](http://arxiv.org/abs/hep-th/0310159)&rbrack;
