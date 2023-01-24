@@ -78,6 +78,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 * [[Richard Szabo]]
 
+* [[Meng-Chwan Tan]] (had to cancel last minute)
+
 * [[Dimitrios Tsimpis]]
 
 * [[Alexander Voronov]]
