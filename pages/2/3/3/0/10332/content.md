@@ -35,6 +35,8 @@ On the [[Milky Way]]:
 
 * [[physics]], [[natural philosophy]]
 
+* [[mathematical physics]]
+
 * [[Galilei group]]
 
 * [[Milky Way]]
