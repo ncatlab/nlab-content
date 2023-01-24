@@ -36,6 +36,8 @@ See [[ordered pair]] for methods of formalising ordered pairs (which are $2$-tup
 
 * [[dependent tuple]], [[dependent sequence]], [[dependent function]]
 
+* [[list]], [[indexed set]]
+
 [[!redirects tuple]]
 [[!redirects tuples]]
 [[!redirects n-tuple]]
