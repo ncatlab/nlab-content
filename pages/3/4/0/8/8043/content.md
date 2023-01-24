@@ -19,14 +19,69 @@
 {: toc}
 
 ## Idea
+ {#Idea}
 
-In [[formal logic]], a __judgment__, or __judgement__, is a "meta-[[proposition]]"; that is, a proposition belonging to the [[meta-language]] (the [[deductive system]] or [[logical framework]]) rather than to the [[object language]].
+In [[mathematics]] and especially in [[formal logic]], by a *judgement* &lbrack;[Frege (1879, §2)](#Frege1879)&rbrack; one means the *assertion* &lbrack;[Russell & Whitehead (1910, p. xviii)](#RussellWhitehead1910)&rbrack; or *validation* &lbrack;[Kochen (1961, p. 2)](#Kochen61)&rbrack; of a [[proposition]] $P$, hence the claim (or even the specification) of a [[proof]] of $P$ &lbrack;[Church (1940, §5)](#Church40)&rbrack;. 
 
-More specifically, any [[deductive system]] includes, as part of its specification, which strings of symbols are to be regarded as the _judgments_.  Some of these symbols may themselves express a [[proposition]] in the object language, but this is not necessarily the case.
+To bring out the subtle (cf. [jstor:43154266](https://www.jstor.org/stable/43154266)) but crucial distinction --- eloquently amplified by [Martin-Löf (1996, lectures 1-2)](#Martin-Löf96) --- between the notion of a [[proposition]] $P$ as such and the judgement/assertion/validation/proof of its [[truth]], it is tradition to prefix the latter with the symbol "$\vdash$", known as the *Urteilsstrich* (German: "judgement stroke") of &lbrack;[Frege (1879, §2)](#Frege1879)&rbrack; (see the historical pointers [below](#History)), as:
 
-The interest in judgements is typically in how they may arise as _theorems_, or as _consequences_ of other judgements, by way of the [[deduction]] rules in a deductive system.  One writes
-$$\vdash J$$
-to mean that $J$ is a judgment that is derivable, i.e. a [[theorem]] of the deductive system.
+\[
+  \label{JudgementInIntroduction}
+  \vdash \; P
+  \,.
+\]
+
+For example, the [[Riemann hypothesis]] certainly is a [[proposition]], but it remains open whether we may truthfully assert or validate it, hence we cannot yet *judge* that it holds true: No [[proof]] is known, even though it seems likely to be in fact [[true]].
+
+In other words, the judgement symbols "$\vdash \, P$ " convey that *we know* (a proof of, hence the truth of) $P$ &lbrack;[Martin-Löf (1996, lectures 1-2)](#Martin-Löf96)&rbrack;. 
+
+As such, judgements may be formalized as "meta-proposition", namely [[propositions]] but in an ambient [[meta-language]] (the [[deductive system]] or [[logical framework]]) rather than to the [[object language]] in which the given $P$ itself is formulated. (More specifically, any [[deductive system]] includes, as part of its specification, which strings of symbols are to be regarded as the _judgments_.  Some of these symbols may themselves express a [[proposition]] in the object language, but this is not necessarily the case.)
+
+More generally, one considers *hypothetical judgements* (maybe first made explicit in &lbrack;[Church (1940, §5)](#Church40)&rbrack;) which are such assertions/validations but conditioned on premises, hence claims/specifications of [[proofs]] based on assumptions $A$: Writing
+
+\[
+ \label{HypotheticalJudgementInIntroduction}
+  A \;\;\vdash\;\; P
+\]
+
+is to express the judgement that *given* any assertion/validation/proof of $A$ we know how to produce (from that) a validation/proof of $P$. 
+
+In systems of ([[dependent type theory|dependent]]) [[type theory]] (where such notation seems to go back to [Hofmann (1995, p. 31)](#Hofmann95), cf. [below](#MLDidNot)) this is quite literally the case in that the [[categorical semantics]] of such a hypothetical judgement is a given by a [[function]] (and typically a [[computable function]], hence an [[algorithm]]) which [[map|maps]] proofs of $A$ to proofs of $P$.
+
+
+More generally yet, in [[type theory]] the [[propositions]] $A$ and $P$ appearing here are allowed to be any ([[dependent type|dependent]]) [[types]] (see at *[[propositions as types]]*). In this generality, the [[denotational semantics]] of hypothetical judgements (eq:HypotheticalJudgementInIntroduction) is given by (computable) [[functions]]/[[morphisms]] with [[domain]] $A$ and [[codomain]] $P$.
+
+Judgements are themselves subject to a calculus of [[natural deduction]] by which further judgements may be inferred from given ones. For example the notation
+
+$$
+  \frac{
+    A \;\;\vdash\;\; P_1
+    ,\,
+    \;\;\;\;\;\;\;
+    A \;\;\vdash\;\; P_1    
+  }{
+    A 
+      \;\;\vdash\;\; 
+    P_1 \times P_2
+  }
+$$
+
+traditionally expresses that whenever we can assert both $P_1$ as well as $P_2$ assuming a validation of $A$ (hence: given a [[pair]] of [[functions]] with [[domain]] [[type]] $A$), then with that same assumption we find assertion/validation/proof of their [[logical conjunction]] $P_1 \times P_2$ (namely a [[function]] with [[codomain]] to their [[product type]]).
+
+Finally, to make explicit which particular assumptions a hypothetical judgement really depends on, it is common to adjoin a generic [[context]] symbol $\Gamma$ to the hypothesis on the left hand side of the *Urteilsstrich*: Notation such as
+
+$$
+  \Gamma
+  ,\,\;\;
+  a \colon A
+  \;\;\;
+  \vdash
+  \;\;\;
+  p_a \,\colon\, P
+$$
+
+expresses the judgement that $P$ may be asserted given validation of $\Gamma \times A$, but that in doing so only the validation of $A$ is actually made use of, while $\Gamma$ may be any [[context]] of assumptions (whose validation might however be used in previous/further [[natural deduction|deduction]] steps).
+
 
 
 ## Examples
@@ -137,7 +192,7 @@ and then by [Church (1940, §5)](#Church40) (without any attribution) --- now al
     }
 \end{imagefromfile}
 
-Similarly, [Kochen (1961, p.2)](#Kochen61) introduced (in a context of [[model theory]]) the notation "$\mathfrak{A} \;\vDash\; P$" (apparently not actively remembering its historical origin, cf. [Kochen (2017)](#Kochen17)) for a notion in [[model theory]] pronounced  "$\mathfrak{A}$ *validates* $P$" --- which is at least closely related to these hypothetical judgements (and often used synonymously, e.g. [here](https://open.conted.ox.ac.uk/sites/open.conted.ox.ac.uk/files/resources/Create%20Document/Turnstiles.pdf)):
+Similarly, [Kochen (1961, p. 2)](#Kochen61) introduced (in a context of [[model theory]]) the notation "$\mathfrak{A} \;\vDash\; P$" (apparently not actively remembering its historical origin, cf. [Kochen (2017)](#Kochen17)) for a notion in [[model theory]] pronounced  "$\mathfrak{A}$ *validates* $P$" --- which is at least closely related to these hypothetical judgements (and often used synonymously, e.g. [here](https://open.conted.ox.ac.uk/sites/open.conted.ox.ac.uk/files/resources/Create%20Document/Turnstiles.pdf)):
 
 \begin{imagefromfile}
     "file_name": "Kochen-Validation.jpg",
@@ -152,7 +207,7 @@ Similarly, [Kochen (1961, p.2)](#Kochen61) introduced (in a context of [[model t
 \end{imagefromfile}
 
 
-The need (which had been contested by some logicians such as [[Ludwig Wittgenstein|Wittgenstein]], cf. [jstor:43154266](https://www.jstor.org/stable/43154266)) for Frege's distinction between a proposition "$A$", as such, and its judgement/assertion/proof/validation "$\vdash A$" was vocally argued for by [Martin-Löf (1984, pp. 2)](#Martin-Löf84), [(1987)](#Martin-Löf87) and in [(1996, lectures 1-2)](#Martin-Löf96), together with a re-promotion of Frege's *Urteilsstrich* notation "$\vdash$" ([ML84, p. 2](#Martin-Löf84),  [ML96, p. 2, 6](#Martin-Löf96)):
+The need (which had been contested by some logicians such as [[Ludwig Wittgenstein|Wittgenstein]], cf. [jstor:43154266](https://www.jstor.org/stable/43154266)) for Frege's distinction between a proposition "$A$", as such, and its judgement/assertion/proof/validation "$\vdash A$" was eloquently argued for by [Martin-Löf (1984, pp. 2)](#Martin-Löf84), [(1987)](#Martin-Löf87) and in [(1996, lectures 1-2)](#Martin-Löf96), together with a re-promotion of Frege's *Urteilsstrich* notation "$\vdash$" ([ML84, p. 2](#Martin-Löf84),  [ML96, p. 2, 6](#Martin-Löf96)):
 
 \begin{imagefromfile}
     "file_name": "Martin-Loef--Judgement.jpg",
@@ -191,7 +246,7 @@ was then (without attribution to Church or Martin-Löf) adopted for [[dependent 
 
 This eventually became the trademark of the practice of [[dependent type theory]] (though mostly used without any attribution), e.g.: [Jacobs (1998, p. 2, 121, 586)](dependent+type+theory#Jacobs98); [Bauer, Haselwarter & Lumsdaine (2020)](#BauerHaselwarterLumsdaine20).
 
-(Curiously, apparently [[Per Martin-Löf|Martin-Löf]] did not actually use the general notation (eq:GenericHypotheticalJudgement) in publications: When in [1996, p. 29](#Martin-Löf96) it comes to hypothetical judgements, he switched to using just a vertical "$\vert$" instead of "$\vdash$".)
+{#MLDidNot} (Curiously, apparently [[Per Martin-Löf|Martin-Löf]] did not actually use the general notation (eq:GenericHypotheticalJudgement) in publications: When in [1996, p. 29](#Martin-Löf96) it comes to hypothetical judgements, he switched to using just a vertical "$\vert$" instead of "$\vdash$".)
 
 {#HistorySummary} In summary:
 
