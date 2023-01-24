@@ -42,11 +42,25 @@ $$\frac{\Gamma, x:\mathbb{Z} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_
 
 Computation rules for the integers type:
 
+* Judgmental computation rules
+
+$$\frac{\Gamma, x:\mathbb{Z} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{Z}} C(x) \simeq C(s(x))}{\Gamma \vdash \mathrm{ind}_\mathbb{Z}^C(c_0, c_s, 0) \equiv c_0:C(0)}$$
+
+$$\frac{\Gamma, x:\mathbb{Z} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{Z}} C(x) \simeq C(s(x)) \quad \Gamma \vdash n:\mathbb{Z}}{\Gamma \vdash \mathrm{ind}_\mathbb{Z}^C(c_0, c_s, s(n)) \equiv c_s(n)(\mathrm{ind}_\mathbb{Z}^C(c_0, c_s, n)):C(s(n))}$$
+
+* Typal computation rules
+
 $$\frac{\Gamma, x:\mathbb{Z} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{Z}} C(x) \simeq C(s(x))}{\Gamma \vdash \beta_\mathbb{Z}^0(c_0, c_s):\mathrm{Id}_{C(0)}(\mathrm{ind}_\mathbb{Z}^C(c_0, c_s, 0), c_0)}$$
 
 $$\frac{\Gamma, x:\mathbb{Z} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{Z}} C(x) \simeq C(s(x)) \quad \Gamma \vdash n:\mathbb{Z}}{\Gamma \vdash \beta_\mathbb{Z}^s(c_0, c_s, n):\mathrm{Id}_{C(s(n))}(\mathrm{ind}_\mathbb{Z}^C(c_0, c_s, s(n)), c_s(n)(\mathrm{ind}_\mathbb{Z}^C(c_0, c_s, n)))}$$
 
 Uniqueness rules for the integers type:
+
+* Judgmental uniqueness rules
+
+$$\frac{\Gamma, x:\mathbb{Z} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{x:\mathbb{Z}} C(x) \quad \Gamma \vdash n:\mathbb{Z}}{\Gamma \vdash \mathrm{ind}_\mathbb{Z}^C(c(0), \lambda x:\mathbb{Z}.c(s(x)), n) \equiv c(n):C(n)}$$
+
+* Typal uniqueness rules
 
 $$\frac{\Gamma, x:\mathbb{Z} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{x:\mathbb{Z}} C(x) \quad \Gamma \vdash n:\mathbb{Z}}{\Gamma \vdash \eta_\mathbb{Z}(c, n):\mathrm{Id}_{C(n)}(\mathrm{ind}_\mathbb{Z}^C(c(0), \lambda x:\mathbb{Z}.c(s(x)), n), c(n))}$$
 
