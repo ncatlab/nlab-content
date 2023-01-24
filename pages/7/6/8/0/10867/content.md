@@ -23,6 +23,8 @@
 
 ## Related concepts
 
+* [[mathematical physics]]
+
 * [[solid state physics]]
 
 * [[mesoscopic physics]]
