@@ -94,6 +94,8 @@ By
 
   * [[finite ∞-group]]
 
+* [[free infinity-group type]]
+
 * [[∞-action]]
 
 
