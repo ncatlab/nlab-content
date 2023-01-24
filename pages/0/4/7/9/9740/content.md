@@ -42,9 +42,15 @@ Hilbert's original example of [[probability theory]] is considered to be fully a
 
 ## Related pages
 
-* [[mathematical physics]], [[higher category theory and physics]], [[geometry of physics]]
+* [[mathematical physics]]
 
-Related expositions include the following:
+* [[theory of everything]]
+
+* [[Naturerkennen und Logik]]
+
+* [[higher category theory and physics]], [[geometry of physics]]
+
+Related expositions:
 
 * [[geometry of physics]]
 
