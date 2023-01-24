@@ -7310,9 +7310,9 @@ Related discussion in view of [[infinitesimals]] is in
 * {#Cohen83} [[Hermann Cohen]], _Das Prinzip der Infinitesimal-Methode und seine Geschichte_ , Berlin 1883. ([html](http://www.gleichsatz.de/b-u-t/archiv/Cohen/hc-infinit1.html))
 
 
-Reflections by [[David Hilbert]] on the claim that laws of physics may follow from pure concepts, in view of more modern developments in physics, are reproduced around pages 417, 423 of
+Reflections by [[David Hilbert]] on the claim that laws of physics may follow from pure concepts, in view of more modern developments in physics (cf. *[[theory of everything]]*), are reproduced around pages 417, 423 of:
 
-* {#SauerMajer09} [[Tilman Sauer]], [[Ulrich Majer]] with  Arne Schirrmacher, Heinz-J&#252;rgen Schmidt (eds.), _David Hilbert's "Lectures on the foundations of physics"_, 1915-1927 : relativity, quantum theory and epistemology, Springer 2009
+* {#SauerMajer} [[Tilman Sauer]], [[Ulrich Majer]] with  Arne Schirrmacher, Heinz-J&#252;rgen Schmidt (eds.): *David Hilbert's Lectures on the foundations of physics 1915-1927 --- Relativity, Quantum Theory and Epistemology*, Springer (2009) &lbrack;[doi:10.1007/b12915](https://doi.org/10.1007/b12915)&rbrack;
 
 
 Comments on the similarity of Hegel's physics to aspects of [[general relativity]] are in
