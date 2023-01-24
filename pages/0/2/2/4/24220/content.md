@@ -71,3 +71,18 @@ $$\prod_{(a:A)} \prod_{(b:A)} \phi(\mu_A(a, b)) = \mu_B(\phi(a),\phi(b))$$
 * [[H-category]]
 * [[An-space]]
 * [[grouplike A3-space]]
+
+[[!redirects A3-type]]
+[[!redirects A3-types]]
+[[!redirects A3 type]]
+[[!redirects A3 types]]
+
+[[!redirects A3-space]]
+[[!redirects A3-spaces]]
+[[!redirects A3 space]]
+[[!redirects A3 spaces]]
+
+[[!redirects A3-space type]]
+[[!redirects A3-space types]]
+[[!redirects A3 space type]]
+[[!redirects A3 space types]]
