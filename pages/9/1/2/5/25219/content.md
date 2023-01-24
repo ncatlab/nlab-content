@@ -108,6 +108,8 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:\mathrm{List}(A) \vdash
 
 * [[natural numbers type]] (the list on the unit type $\mathrm{List}(\mathbb{1})$)
 
+* [[free infinity-group type]] (the invertible version of the type of lists)
+
 ## References
 
 Types of lists are defined in section 5.1 in:
