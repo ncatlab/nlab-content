@@ -68,6 +68,12 @@ The elimination, computation, and uniqueness rules for the integers type state t
 
 $$\frac{\Gamma, x:\mathbb{Z} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{Z}} C(x) \simeq C(s(x))}{\Gamma \vdash \mathrm{up}_\mathbb{Z}^C(c_0, c_s):\exists!c:\prod_{x:\mathbb{Z}} C(x).\mathrm{Id}_{C(0)}(c(0), c_0) \times \prod_{x:\mathbb{Z}} \mathrm{Id}_{C(s(x))}(c(s(x)), c_s(c(x)))}$$
 
+### As the free group on the unit type
+
+The integers type is the [[free group type]] on the [[unit type]]
+
+$$\mathbb{Z} \coloneqq \mathrm{FreeGroup}(\mathbb{1})$$
+
 ### As the loop space of the circle type
 
 Given a [[dependent type theory]] with [[identity types]], [[equivalence types]], a [[univalent universe]], and the [[circle type]] which is an [[essentially small type]] relative to the universe universe, the type of integers is defined as the [[loop space type]] of the circle type at the canonical element $\mathrm{base}:S^1$:
