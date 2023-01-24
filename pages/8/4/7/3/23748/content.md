@@ -77,6 +77,10 @@ See also:
 
 * Wikipedia, *[Adiabatic theorem](https://en.wikipedia.org/wiki/Adiabatic_theorem)*
 
+On adiabatic transport subject to repeated [[quantum measurement]]:
+
+* Ludmila Viotti, Ana Laura Gramajo, Paula I. Villar, Fernando C. Lombardo, Rosario Fazio, *Geometric phases along quantum trajectories* &lbrack;[arXiv:2301.04222](https://arxiv.org/abs/2301.04222)&rbrack;
+
 
 
 ### In condensed matter theory
