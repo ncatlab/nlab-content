@@ -17,6 +17,33 @@
 
 The __free group__ on a given [[set]] $S$ is the [[free object]] on $S$ in [[Grp|the category of groups]].  The elements of $S$ are called the __generators__ of this group.
 
+## Definition
+
+### In type theory
+
+Formation rules for free groups:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{FreeGroup}(A) \; \mathrm{type}}$$
+
+Introduction rules for free groups:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \eta:A \to \mathrm{FreeGroup}(A) \; \mathrm{type}} \quad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mu:\mathrm{FreeGroup}(A) \times \mathrm{FreeGroup}(A) \to \mathrm{FreeGroup}(A)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \epsilon:\mathrm{FreeGroup}(A)} \quad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \iota:\mathrm{FreeGroup}(A) \to \mathrm{FreeGroup}(A)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:\mathrm{FreeGroup}(A) \quad \Gamma \vdash y:\mathrm{FreeGroup}(A) \quad \Gamma \vdash z:\mathrm{FreeGroup}(A)}{\Gamma \vdash \alpha(x, y, z):\mathrm{Id}_{\mathrm{FreeGroup}(A)}(\mu(x, \mu(y, z)),\mu(\mu(x, y), z))}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:\mathrm{FreeGroup}(A)}{\Gamma \vdash \lambda_\epsilon(x):\mathrm{Id}_{\mathrm{FreeGroup}(A)}(\mu(\epsilon, x), x)} \quad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:\mathrm{FreeGroup}(A)}{\Gamma \vdash \rho_\epsilon(x):\mathrm{Id}_{\mathrm{FreeGroup}(A)}(\mu(x, \epsilon), x)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:\mathrm{FreeGroup}(A)}{\Gamma \vdash \lambda_\iota(x):\mathrm{Id}_{\mathrm{FreeGroup}(A)}\mu(\iota(x), x),  \epsilon)} \quad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:\mathrm{FreeGroup}(A)}{\Gamma\vdash \rho_\iota(x):\mathrm{Id}_{\mathrm{FreeGroup}(A)}(\mu(x, \iota(x)), \epsilon)}$$
+
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:\mathrm{FreeGroup}(A) \quad \Gamma \vdash y:\mathrm{FreeGroup}(A) \\
+      \Gamma \vdash p:\mathrm{Id}_{\mathrm{FreeGroup}(A)}(x, y) \quad \Gamma \vdash q:\mathrm{Id}_{\mathrm{FreeGroup}(A)}(x, y)
+    \end{array}
+  }{\Gamma \vdash \tau(x, y, p, q):\mathrm{Id}_{\mathrm{Id}_{\mathrm{FreeGroup}(A)}(x, y)}(p, q)}$$
+
 ## Properties
 
 Every [[subgroup]] of a free group is itself a free group. This is the _[[Nielsen-Schreier theorem]]_.
