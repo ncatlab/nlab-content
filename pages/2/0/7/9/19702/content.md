@@ -35,6 +35,12 @@ particular natural science there is only as much true science as there is mathem
 
 > We will know.
 
+## Related entries
+
+* [[Hilbert's sixth problem]]
+
+* [[mathematical physics]]
+
 ## Related references
 
 * [[Galileo Galilei]] ([quote](Galileo+Galilei#Quotes)):
