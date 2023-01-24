@@ -22,11 +22,11 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 ## M-Theory and Mathematics 2023
  {#2023}
 
-* January 12-15, 2023
+* on: January 12-15, 2023
 
-  [[CQTS]] @ New York University, Abu Dhabi
+  at: [[CQTS]] @ New York University, Abu Dhabi
 
-  [event webpage](https://nyuad.nyu.edu/en/events/2023/january/m-theory-and-mathematics-conference-2023.html)
+  see: [event webpage](https://nyuad.nyu.edu/en/events/2023/january/m-theory-and-mathematics-conference-2023.html)
 
 
 <center>
@@ -92,8 +92,7 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 \linebreak
 
-
-{#Talks2023} **Titles, Abstracts, and Slides** (in chronological order):
+{#Talks2023} **Titles, Abstracts, and Slides**  (in chronological order):
 
 * {#Sen2023} [[Ashoke Sen]]:
 
@@ -167,6 +166,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **Exact Renormalisation Group and statistical Inference**
 
+  slides: [[Berman-MTheoryAndMath2023.pdf:file]]
+
   cf.: [arXiv:2212.11379](https://arxiv.org/abs/2212.11379)
 
   > The [[exact renormalisation group]] is used to describe the process of [[statistical inference]] in the [[Bayesian reasoning|Bayesian sense]].
@@ -177,6 +178,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 * {#He2023} [[Yang-Hui He]]:
 
   **Machine-Learning Mathematical Structures**
+
+  slides: [[He-MTheoryAndMath2023.pdf:file]]
 
   cf.: [arXiv:2101.06317](https://arxiv.org/abs/2101.06317)
 
@@ -190,6 +193,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 * {#Sharpe2023} [[Eric Sharpe]]:
 
   **An introduction to decomposition**
+
+  slides: [[Sharpe-MTheoryAndMath2023.pdf:file]]
 
   cf.: [arXiv:2204.09117](https://arxiv.org/abs/2204.09117)
 
@@ -206,6 +211,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **D-branes and doubled geometry**
 
+  slides: [[Szabo-MTheoryAndMath2023.pdf:file]]
+
   cf.: [arXiv:1910.09997](https://arxiv.org/abs/1910.09997)
 
   > We formulate the [[open string]] version of the Born [[sigma-model]] and describe its conformal [[boundary conditions]]. This leads to a general characterisation of [[D-branes]] in [[doubled geometry]] as maximally [[isotropic subspace|isotropic]] sub-bundles on a [[para-Hermitian manifold]]. The reduction of D-branes to a physical spacetime is obtained by describing them as [[Dirac structures]]. We also introduce a para-complex counterpart of the generalised complex branes of [[generalized complex geometry|generalised geometry]].
@@ -216,6 +223,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 * {#Hull2023} [[Chris Hull]]:
 
   **Charges and Duality in Gravity**
+
+  slides: [[Hull-MTheoryAndMath2023.pdf:file]]
 
   cf. [arXiv:2209.11716](https://arxiv.org/abs/2209.11716) and refs [here](https://ncatlab.org/nlab/show/D%3D6+supergravity#ReferencesFourZero)
 
@@ -299,6 +308,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **Exceptional super Yang-Mills in $27 + 3$ and worldvolume M-theory**
 
+  slides: [[Marrani-MTheoryAndMath2023.pdf:file]]
+
   cf.: [arXiv:1906.10709](https://arxiv.org/abs/1906.10709)
 
   > Some time ago, [[D=14 supersymmetry|Bars and Sezgin proposed]] a [[super Yang-Mills theory]] in $D=s+t=11+3$ space-time dimensions, with an electric 3-brane that generalizes the 2-brane of M-theory. More recently, Rios, Chester and the speaker found an infinite family of "exceptional" super Yang-Mills theories in $D=s+t=(8n+3)+3$. A particularly interesting case occurs for $n=3$, namely in signature $D=27+3$, in which the superalgebra is centrally extended by an electric 11-brane and its 15-brane magnetic dual. The worldvolume symmetry of the 11-brane has signature $D=11+3$ and can reproduce super Yang-Mills theory in D=$11+3$. Upon reduction to $D=26+2$, the 11-brane reduces to a 10-brane with $10+2$ worldvolume signature. A single time projection gives a $10+1$ worldvolume signature, and it can serve as a model for $D=10+1$ [[M-theory]] as a reduction from the $D=26+1$ signature of the [[bosonic M-theory]] of [[Gary Horowitz|Horowitz]] and [[Leonard Susskind|Susskind]]; this is further confirmed by the reduction of chiral $(1,0)$, $D=11+3$ superalgebra to the $\mathcal{N}=1$ superalgebra in $D=10+1$, as found by Rudychev, Sezgin and Sundell some time ago. Extending previous results of Dijkgraaf, Verlinde and Verlinde, I will also put forward the realization of spinors as total cohomologies of (the largest spatially extended) branes which centrally extend the $(1,0)$ superalgebra underlying the corresponding "exceptional" super Yang-Mills theory. Moreover, by making use of an “anomalous” Dynkin embedding, I will present further evidence about [[Pierre Ramond|Ramond]]'s and [[Hisham Sati|Sati]]'s argument that M-theory has hidden Cayley plane fibers.
@@ -309,6 +320,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 * {#Alfonsi2023} [[Luigi Alfonsi]]:
 
   **Derived $n$-plectic geometry: towards non-perturbative BV-BFV quantisation and M-theory**
+
+  slides: [[Alfonsi-MTheoryAndMath2023.pdf:file]]
 
   > In this talk I will propose the notion of [[derived geometry|derived]] [[n-plectic geometry|$n$-plectic geometry]] and show that a classical [[BV formalism|BV-BFV theory]] can be globally reformulated in this framework.
 
@@ -342,14 +355,14 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 </div>
 
 
-* January 27-30, 2020
+* on: January 27-30, 2020
 
-  [Research Institute](https://nyuad.nyu.edu/en/research/research-institute-centers.html) of New York University, Abu Dhabi
+* at: [Research Institute](https://nyuad.nyu.edu/en/research/research-institute-centers.html) of New York University, Abu Dhabi
 
 
-* [event webpage](https://nyuadi.secure.force.com/Events/NYUEventRegistration?event=u2f8V99W_2FoUW_2FK0f7HydVQ_3D_3D)
+* see: [event webpage](https://nyuadi.secure.force.com/Events/NYUEventRegistration?event=u2f8V99W_2FoUW_2FK0f7HydVQ_3D_3D)
 
-* [mtheorymath.org](http://mtheorymath.org)
+* and: [mtheorymath.org](http://mtheorymath.org)
 
 * [Program](https://hisham-sati.github.io/M-theory-and-Mathematics/)
 
