@@ -28,7 +28,7 @@ For definiteness and to fix notation which we need in the following, we recall t
 
 For $n \in \mathbb{N}$ write
 
-* $S^n \in $ [[Top]] for the standad $n$-[[sphere]];
+* $S^n \in $ [[Top]] for the standard $n$-[[sphere]];
 
 * $D^n \in $ [[Top]] for the standard $n$-[[disk]];
 
