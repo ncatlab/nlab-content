@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[string theory]] by a "probe branes" authors refer to the idea of "adding" to a configuration of [[black branes]] one (or a small number) of further branes whose ([[gravity|gravitational]], [[electromagnetism|electric]], and/or [[RR-field]]) [[backreaction]] on the given [[black brane]] [[background field|background]] is neglected. (So a probe brane "probes" the background geometry with affecting it.)
+In [[string theory]] by a "probe branes" authors refer to the idea of "adding" to a configuration of [[black branes]] one (or a small number) of further branes whose ([[gravity|gravitational]], [[electromagnetism|electric]], and/or [[RR-field]]) [[backreaction]] on the given [[black brane]] [[background field|background]] is neglected. (So a probe brane "probes" the background geometry without backreacting it.)
 
 This is, of course, the case for [[Green-Schwarz sigma-model]]-branes in the given background, but authors tend to speak of "probe branes" when they think of these as actually being [[black branes]] themselves, just so light (i.e. of such small [[number]] compared to the number of background branes) that their backreaction may be neglected not in principle but for practical purposes.
 
