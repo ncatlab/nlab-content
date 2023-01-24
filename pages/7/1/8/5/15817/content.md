@@ -4,14 +4,19 @@
 
 ## Selected writings
 
+On [[string theory]]:
+
+* {#Tong09} [[David Tong]], _Lectures on String Theory_ ([arXiv:0908.0333](https://arxiv.org/abs/0908.0333))
+
+
 Identification of the [[Coulomb branch]] of [[D=3 N=4 super Yang-Mills theory]] with the [[moduli space of monopoles]] in [[Yang-Mills theory]]:
 
 * N. Dorey, V. V. Khoze, M. P. Mattis, [[David Tong]], S. Vandoren, _Instantons, Three-Dimensional Gauge Theory, and the Atiyah-Hitchin Manifold_, Nucl. Phys. B502 (1997) 59-93 ([arXiv:hep-th/9703228](https://arxiv.org/abs/hep-th/9703228))
 
+On [[M-theory on 8-manifolds]] and [[conifold transition]]:
 
-On [[string theory]]:
+* [[Sergei Gukov]], [[James Sparks]], [[David Tong]], *Conifold Transitions and Five-Brane Condensation in M-Theory on $Spin(7)$ Manifolds*, Class. Quant. Grav. **20** (2003) 665-706 &lbrack;[arXiv:hep-th/0207244](https://arxiv.org/abs/hep-th/0207244)&rbrack;
 
-* {#Tong09} [[David Tong]], _Lectures on String Theory_ ([arXiv:0908.0333](https://arxiv.org/abs/0908.0333))
 
 On [[vortex strings]]:
 
@@ -38,9 +43,6 @@ On [[fractional M2-branes]]
 
 * [[Neil Lambert]], [[David Tong]], _Membranes on an Orbifold_, Phys.Rev.Lett.101:041602, 2008 ([arXiv:0804.1114](https://arxiv.org/abs/0804.1114))
 
-On [[M-theory on 8-manifolds]] and [[conifold transition]]:
-
-* [[Sergei Gukov]], James Sparks, [[David Tong]], _Conifold Transitions and Five-Brane Condensation in M-Theory on $Spin(7)$ Manifolds_, Class.Quant.Grav.20:665-706, 2003 ([arXiv:hep-th/0207244](https://arxiv.org/abs/hep-th/0207244))
 
 On [[mirror symmetry]]:
 
