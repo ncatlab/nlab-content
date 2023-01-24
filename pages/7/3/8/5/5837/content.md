@@ -228,11 +228,14 @@ The observation that infinite-dimensional  [[smooth groups]] such as diffeomorph
 
 ### For 2-manifolds (surfaces)
 
-{#EarleEells67} C.J. Earle,  J. Eells, _The diffeomorphism group of a compact Riemann surface,
+* {#EarleEells67} C.J. Earle,  J. Eells, _The diffeomorphism group of a compact Riemann surface,
 Bulletin of the American Mathematical Society 73(4) 557--559, 1967
 
-
 * {#ZieschangVogtColdeway} Zieschang, Vogt and Coldeway, _Surfaces and planar discontinuous groups_
+
+
+* J. S. Dowker, *Note on the structure constants for the diffeomorphisms of the two-sphere* &lbrack;[arXiv:2301.09487](https://arxiv.org/abs/2301.09487)&rbrack;
+
 
 
 ### For 3-manifolds
