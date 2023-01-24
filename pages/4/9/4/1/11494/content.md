@@ -28,7 +28,8 @@ This page collects resources related to
 
   [Wikipedia entry](https://en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences)
 
-See also
+
+## Related references
 
 * [[Galileo Galilei]] ([quote](Galileo+Galilei#Quotes)):
 
@@ -41,7 +42,9 @@ See also
 
   on, conversely: _[[The Unreasonable Effectiveness of Physics in the Mathematical Sciences]]_
 
+## Related entries
 
+* [[mathematical physics]]
 
 
 category: reference
