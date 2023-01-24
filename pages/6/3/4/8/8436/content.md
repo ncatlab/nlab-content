@@ -33,6 +33,10 @@ See at _[[K-theory classification of topological phases of matter]]_.
 
 * [[quantum many-body physics]]
 
+* [[mathematical physics]]
+
+* [[high energy physics]]
+
 * [[Bloch's theorem]]
 
 * [[phonon]]
