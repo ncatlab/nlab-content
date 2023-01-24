@@ -474,6 +474,8 @@ for $n:\mathbb{N}$, $m:\mathbb{N}_{\neq 0}$.
 
 * [[equivalence type]]
 
+* [[free group type]]
+
 ## References
 
 For definitions as a [[higher inductive type]] in [[homotopy type theory]], see: 
