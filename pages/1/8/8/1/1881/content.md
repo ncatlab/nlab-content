@@ -184,15 +184,10 @@ The list [[monad]] as a [[monad in computer science]]:
 
 [[!redirects free monoids]]
 
-[[!redirects list]]
-[[!redirects lists]]
 [[!redirects finite list]]
 [[!redirects finite lists]]
 [[!redirects finite sequence]]
 [[!redirects finite sequences]]
-
-
-[[!redirects cons]]
 
 [[!redirects free monoid]]
 [[!redirects free monoid functor]]
