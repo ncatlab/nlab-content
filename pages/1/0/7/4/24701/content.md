@@ -428,81 +428,40 @@ $$\frac{\Gamma, x:\mathcal{T}(\mathbb{0}_\mathcal{U}) \vdash C:\mathcal{U}}{\Gam
 Uniqueness rules for the internal empty type:
 $$\frac{\Gamma, x:\mathcal{T}(\mathbb{0}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(\mathbb{0}_\mathcal{U}) \vdash c:\mathcal{T}(C)}{\Gamma, x:\mathcal{T}(\mathbb{0}_\mathcal{U}) \vdash \eta_{\mathbb{0}_\mathcal{U}}(c):c =_{\mathcal{T}(C)} \mathrm{ind}_{\mathbb{0}_\mathcal{U}}^{C}}$$
 
-### Booleans
+### Other types
 
-Formation rules for the booleans:
+#### Booleans type
+
+Formation rules for the booleans type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{2} \; \mathrm{type}}$$
 
-Introduction rules for the booleans:
+Introduction rules for the booleans type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{2}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathbb{2}}$$
 
-Elimination rules for the booleans:
-$$\frac{\Gamma, x:\mathbb{2} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x]}{\Gamma, x:\mathbb{2} \vdash \mathrm{ind}_\mathbb{2}^{C}(c_0, c_1):C}$$
+Dependent universal property rule for the booleans type:
+$$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1)}{\Gamma \vdash \mathrm{up}_\mathbb{2}^C(c_0, c_1):\mathrm{isContr}\left(\sum_{c:\prod_{x:\mathbb{N}} C(x)} (c(0) =_{C(0)} c_0) \times (c(1) =_{C(1)} c_1)\right)}$$
 
-Computation rules for the booleans:
-$$\frac{\Gamma, x:\mathbb{2} \vdash C \; \mathrm{type}  \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x]}{\Gamma \vdash \beta_\mathbb{2}^{0}: \mathrm{ind}_\mathbb{2}^{C}(c_0, c_1)[0/x] =_{C[0/x]} c_0}$$
+#### Natural numbers type
 
-$$\frac{\Gamma, x:\mathbb{2} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma \vdash c_1:C[1/x]}{\Gamma \vdash \beta_\mathbb{2}^{0}: \mathrm{ind}_\mathbb{2}^{C}(c_0, c_1)[1/x] =_{C[1/x]} c_1}$$
-
-Uniqueness rules for the booleans:
-$$\frac{\Gamma, x:\mathbb{2} \vdash C \; \mathrm{type} \quad \Gamma, x:\mathbb{2} \vdash c:C}{\Gamma, x:\mathbb{2} \vdash \eta_\mathbb{2}(c):c =_{C} \mathrm{ind}_\mathbb{2}^{C}(c[0/x], c[1/x])}$$
-
-A universe $\mathcal{U}$ is closed under the booleans if it has an element which behaves as an internal encoding of the booleans in the universe: 
-
-Formation rules for the internal booleans:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{2}_\mathcal{U}:\mathcal{U}}$$
-
-Introduction rules for the internal booleans:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathcal{T}(\mathbb{2}_\mathcal{U})} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathcal{T}(\mathbb{2}_\mathcal{U})}$$
-
-Elimination rules for the internal booleans:
-$$\frac{\Gamma, x:\mathcal{T}(\mathbb{2}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma \vdash c_0:\mathcal{T}(C[0/x]) \quad \Gamma \vdash c_1:\mathcal{T}(C[1/x])}{\Gamma, x:\mathcal{T}(\mathbb{2}_\mathcal{U}) \vdash \mathrm{ind}_{\mathbb{2}_\mathcal{U}}^{C}(c_0, c_1):\mathcal{T}(C)}$$
-
-Computation rules for the internal booleans:
-$$\frac{\Gamma, x:\mathcal{T}(\mathbb{2}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma \vdash c_0:\mathcal{T}(C[0/x]) \quad \Gamma \vdash c_1:\mathcal{T}(C[1/x])}{\Gamma \vdash \beta_{\mathbb{2}_\mathcal{U}}^{0}: \mathrm{ind}_{\mathbb{2}_\mathcal{U}}^{C}(c_0, c_1)[0/x] =_{\mathcal{T}(C[0/x])} c_0}$$
-
-$$\frac{\Gamma, x:\mathcal{T}(\mathbb{2}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma \vdash c_0:\mathcal{T}(C[0/x]) \quad \Gamma \vdash c_1:\mathcal{T}(C[1/x])}{\Gamma \vdash \beta_{\mathbb{2}_\mathcal{U}}^{0}: \mathrm{ind}_{\mathbb{2}_\mathcal{U}}^{C}(c_0, c_1)[0/x] =_{\mathcal{T}(C[1/x])} c_1}$$
-
-Uniqueness rules for the internal booleans:
-$$\frac{\Gamma, x:\mathcal{T}(\mathbb{2}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(\mathbb{2}_\mathcal{U}) \vdash c:\mathcal{T}(C)}{\Gamma, x:\mathcal{T}(\mathbb{2}_\mathcal{U}) \vdash \eta_{\mathbb{2}_\mathcal{U}}(c):c =_{\mathcal{T}(C)} \mathrm{ind}_{\mathbb{2}_\mathcal{U}}^{C}(c[0/x], c[1/x])}$$
-
-### Natural numbers
-
-Formation rules for the natural numbers:
+Formation rules for the natural numbers type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{N} \; \mathrm{type}}$$
 
-Introduction rules for the natural numbers:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{N}} \qquad \frac{\Gamma \vdash n:\mathbb{N}}{\Gamma \vdash s(n):\mathbb{N}}$$
+Introduction rules for the natural numbers type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{N}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash s:\mathbb{N} \to \mathbb{N}}$$
 
-Elimination rules for the natural numbers:
-$$\frac{\Gamma, x:\mathbb{N} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma, x:\mathbb{N}, c:C \vdash c_s:C[s(x)/x]}{\Gamma, x:\mathbb{N} \vdash \mathrm{ind}_\mathbb{N}^C(c_0, c_s):C}$$
+Dependent universal property rule for the natural numbers type:
+$$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{N}} C(x) \to C(s(x))}{\Gamma \vdash \mathrm{up}_\mathbb{N}^C(c_0, c_s):\mathrm{isContr}\left(\sum_{c:\prod_{x:\mathbb{N}} C(x)} (c(0) =_{C(0)} c_0) \times \prod_{x:\mathbb{N}} c(s(x)) =_{C(s(x))} c_s(c(x))\right)}$$
 
-Computation rules for the natural numbers:
-$$\frac{\Gamma, x:\mathbb{N} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma, x:\mathbb{N}, c:C \vdash c_s:C[s(x)/x]}{\Gamma \vdash \beta_\mathbb{N}^{0}: \mathrm{ind}_\mathbb{N}^C(c_0, c_s)[0/x] =_{C[0/x]} c_0}$$
+#### Integers type
 
-$$\frac{\Gamma, x:\mathbb{N} \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma, x:\mathbb{N}, c:C \vdash c_s:C[s(x)/x]}{\Gamma \vdash \beta_\mathbb{N}^{s(n)}: \mathrm{ind}_\mathbb{N}^C(c_0, c_s)[s(n)/x] =_{C[s(n)/x]} c_s(n, \mathrm{ind}_\mathbb{N}^C(c_0, c_s)[n/x])}$$
+Formation rules for the integers type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{Z} \; \mathrm{type}}$$
 
-Uniqueness rules for the natural numbers:
-$$\frac{\Gamma, x:\mathbb{N} \vdash C \; \mathrm{type} \quad \Gamma, x:\mathbb{N} \vdash c:C}{\Gamma, x:\mathbb{N} \vdash \eta_\mathbb{N}(c):c =_{C} \mathrm{ind}_\mathbb{N}^{C}(c[0/x], c[s(x)/x])}$$
+Introduction rules for the integers type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{Z}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash s:\mathbb{Z} \simeq \mathbb{Z}}$$
 
-A universe $\mathcal{U}$ is closed under the booleans if it has an element which behaves as an internal encoding of the natural numbers in the universe: 
-
-Formation rules for the internal natural numbers:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{N}_\mathcal{U}:\mathcal{U}}$$
-
-Introduction rules for the internal natural numbers:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathcal{T}(\mathbb{N}_\mathcal{U})} \qquad \frac{\Gamma \vdash n:\mathcal{T}(\mathbb{N}_\mathcal{U})}{\Gamma \vdash s(n):\mathcal{T}(\mathbb{N}_\mathcal{U})}$$
-
-Elimination rules for the internal natural numbers:
-$$\frac{\Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma \vdash c_0:\mathcal{T}(C[0/x]) \quad \Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}), c:\mathcal{T}(C) \vdash c_s:\mathcal{T}(C[s(x)/x])}{\Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}) \vdash \mathrm{ind}_{\mathbb{N}_\mathcal{U}}^C(c_0, c_s):\mathcal{T}(C)}$$
-
-Computation rules for the internal natural numbers:
-$$\frac{\Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma \vdash c_0:\mathcal{T}(C[0/x]) \quad \Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}), c:\mathcal{T}(C) \vdash c_s:\mathcal{T}(C[s(x)/x])}{\Gamma \vdash \beta_{\mathbb{N}_\mathcal{U}}^{0}: \mathrm{ind}_{\mathbb{N}_\mathcal{U}}^C(c_0, c_s)[0/x] =_{\mathcal{T}(C[0/x])} c_0}$$
-
-$$\frac{\Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma \vdash c_0:\mathcal{T}(C[0/x]) \quad \Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}), c:\mathcal{T}(C) \vdash c_s:\mathcal{T}(C[s(x)/x])}{\Gamma \vdash \beta_{\mathbb{N}_\mathcal{U}}^{s(n)}: \mathrm{ind}_{\mathbb{N}_\mathcal{U}}^C(c_0, c_s)[s(n)/x] =_{\mathcal{T}(C[s(n)/x])} c_s(n, \mathrm{ind}_{\mathbb{N}_\mathcal{U}}^C(c_0, c_s)[n/x])}$$
-
-Uniqueness rules for the internal natural numbers:
-$$\frac{\Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}) \vdash c:\mathcal{T}(C)}{\Gamma, x:\mathcal{T}(\mathbb{N}_\mathcal{U}) \vdash \eta_{\mathbb{N}_\mathcal{U}}(c):c =_{\mathcal{T}(C)} \mathrm{ind}_{\mathbb{N}_\mathcal{U}}^{C}(c[0/x], c[s(x)/x])}$$
+Dependent universal property rule for the integers type:
+$$\frac{\Gamma, x:\mathbb{Z} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{Z}} C(x) \simeq C(s(x))}{\Gamma \vdash \mathrm{up}_\mathbb{Z}^C(c_0, c_s):\mathrm{isContr}\left(\sum_{c:\prod_{x:\mathbb{Z}} C(x)} (c(0) =_{C(0)} c_0) \times \prod_{x:\mathbb{Z}} c(s(x)) =_{C(s(x))} c_s(c(x))\right)}$$
 
 ## Categorical semantics
 
