@@ -217,7 +217,7 @@ $$
 
 \linebreak
 
-**[[term elimination rules]]:**
+{#TermElimination} **[[term elimination rules]]:**
 
 $$
   \frac{
