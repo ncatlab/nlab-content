@@ -207,28 +207,6 @@ $$\frac{\Gamma, x:\mathcal{T}(A), y:\mathcal{T}(A), p:\mathcal{T}(\mathrm{Id}^\m
 Optional uniqueness rules for identity types:
 $$\frac{\Gamma \vdash A:\mathcal{U}}{\Gamma, x:\mathcal{T}(A), p:\mathcal{T}(\mathrm{Id}^\mathcal{U}(A, x, x)), \vdash \eta_{\mathrm{Id}^\mathcal{U}(A)}(x, p):p =_{\mathcal{T}(\mathrm{Id}^\mathcal{U}(A, x, x))} \mathrm{refl}_A^\mathcal{U}(x)}$$
 
-### Unit type
-
-Formation rule for the unit type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1} \; \mathrm{type}}$$
-
-Introduction rule for the unit type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:\mathbb{1}}$$
-
-Uniqueness rules for the unit type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, p:\mathbb{1} \vdash \eta_\mathbb{1}(p):* =_\mathbb{1} p}$$
-
-A universe $\mathcal{U}$ is closed under the unit type if it has an element which behaves as an internal encoding of the unit type in the universe: 
-
-Formation rule for the internal unit type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1}:\mathcal{U}}$$
-
-Introduction rule for the internal unit type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:\mathcal{T}(\mathbb{1})}$$
-
-Uniqueness rules for the internal unit type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, p:\mathcal{T}(\mathbb{1}) \vdash \eta_{\mathcal{T}(\mathbb{1})}(p):* =_{\mathcal{T}(\mathbb{1})} p}$$
-
 ### Function types
 
 Formation rules for function types:
@@ -305,13 +283,13 @@ Formation rules for product types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \times B \; \mathrm{type}}$$
 
 Introduction rules for product types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma\vdash B \; \mathrm{type}}{\Gamma, x:A, y:B \vdash (x, y):A \times B}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma\vdash B \; \mathrm{type}}{\Gamma, x:A, y:B \vdash \mathrm{in}(x, y):A \times B}$$
 
 Elimination rules for product types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, z:A \times B \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[(x, y)/z]}{\Gamma, z:A \times B \vdash \mathrm{ind}_{A \times B}^C(c):C}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, z:A \times B \vdash C(z) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{x:A} \prod_{y:B} C(\mathrm{in}(x, y))}{\Gamma, z:A \times B \vdash \mathrm{ind}_{A \times B}^C(c, z):C(z)}$$
 
 Computation rules for product types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, z:A \times B \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[(x, y)/z]}{\Gamma, x:A, y:B \vdash \beta_{A \times B}^C(c):\mathrm{ind}_{A \times B}^C(c)[(x, y)/z] =_{C[(x, y)/z]} c}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, z:A \times B \vdash C(z) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{x:A} \prod_{y:B} C(\mathrm{in}(x, y))}{\Gamma, x:A, y:B \vdash \beta_{A \times B}^C(c, \mathrm{in}(x, y)):\mathrm{ind}_{A \times B}^C(c, \mathrm{in}(x, y) =_{C(\mathrm{in}(x, y))} c(\mathrm{in}(x, y))}$$
 
 Uniqueness rules for product types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma\vdash B \; \mathrm{type} \quad \Gamma, z:A \times B \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[(x, y)/z] \quad \Gamma, z:A \times B \vdash u:C \quad \Gamma, x:A, y:B \vdash i_{(-,-)}(u):u[(x, y)/z] =_{C[(x, y)/z]} c}{\Gamma, z:A \times B \vdash \eta_{A \times B}^C(c):u =_{C} \mathrm{ind}_{A \times B}^C(c)}$$
@@ -393,6 +371,17 @@ $$\frac{\Gamma, x:\mathcal{T}(\mathbb{0}_\mathcal{U}) \vdash C:\mathcal{U} \quad
 
 ### Other types
 
+#### Unit type
+
+Formation rules for the unit type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1} \; \mathrm{type}}$$
+
+Introduction rules for the unit type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{pt}:\mathbb{1}}$$
+
+[[singleton induction]]:
+$$\frac{\Gamma, x:\mathbb{1} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{pt}:C(\mathrm{pt})}{\Gamma \vdash \mathrm{up}_\mathbb{1}^C(c_\mathrm{pt}):\mathrm{isContr}\left(\sum_{c:\prod_{x:\mathbb{1}} C(x)} (c(\mathrm{pt}) =_{C(\mathrm{pt})} c_\mathrm{pt})\right)}$$
+
 #### Copy types
 
 Formation rules for copy types:
@@ -404,6 +393,17 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{copy}_A:A \to \m
 Dependent universal property rule for sum types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:\mathrm{Copy}(A) \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{copy}_A}:\prod_{x:A} C(\mathrm{copy}_A(x))}{\Gamma \vdash \mathrm{up}_{\mathrm{Copy}(A)}^C(c_{\mathrm{copy}_A}):\mathrm{isContr}\left(\sum_{c:\prod_{x:\mathrm{Copy}(A)} C(x)} \prod_{a:A} c(\mathrm{copy}_A(a)) =_{C(\mathrm{copy}_A(a))} c_{\mathrm{copy}_A}(a)\right)}$$
 
+#### Booleans type
+
+Formation rules for the booleans type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{2} \; \mathrm{type}}$$
+
+Introduction rules for the booleans type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{2}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathbb{2}}$$
+
+Dependent universal property rule for the booleans type:
+$$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1)}{\Gamma \vdash \mathrm{up}_\mathbb{2}^C(c_0, c_1):\mathrm{isContr}\left(\sum_{c:\prod_{x:\mathbb{2}} C(x)} (c(0) =_{C(0)} c_0) \times (c(1) =_{C(1)} c_1)\right)}$$
+
 #### Sum types
 
 Formation rules for sum types:
@@ -414,17 +414,6 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}
 
 Dependent universal property rule for sum types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A + B \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{in}_A}:\prod_{x:A} C(\mathrm{in}_A(x)) \quad \Gamma \vdash c_{\mathrm{in}_B}:\prod_{y:B} C(\mathrm{in}_B(y))}{\Gamma \vdash \mathrm{up}_{A + B}^C(c_{\mathrm{in}_A}, c_{\mathrm{in}_B}):\mathrm{isContr}\left(\sum_{c:\prod_{x:A + B} C(x)} \left(\prod_{a:A} (c(\mathrm{in}_A(a)) =_{C(\mathrm{in}_A(a))} c_{\mathrm{in}_A}(a))\right) \times \left(\prod_{b:B} (c(\mathrm{in}_B(b)) =_{C(\mathrm{in}_B(b))} c_{\mathrm{in}_B}(b))\right)\right)}$$
-
-#### Booleans type
-
-Formation rules for the booleans type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{2} \; \mathrm{type}}$$
-
-Introduction rules for the booleans type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{2}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathbb{2}}$$
-
-Dependent universal property rule for the booleans type:
-$$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1)}{\Gamma \vdash \mathrm{up}_\mathbb{2}^C(c_0, c_1):\mathrm{isContr}\left(\sum_{c:\prod_{x:\mathbb{N}} C(x)} (c(0) =_{C(0)} c_0) \times (c(1) =_{C(1)} c_1)\right)}$$
 
 #### Natural numbers type
 
