@@ -1,18 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {:toc}
 
 ## Idea
 
-Call-by-push-value is a type theory and programming language which contains full embeddings of [[call-by-value]] and [[call-by-name]], including their operational semantics and equational theories.
+Call-by-push-value is a [[type theory]] and [[programming language]] paradigm which subsumes full embeddings of [[call-by-value]] and [[call-by-name]], including their [[operational semantics]] and [[equational theories]]].
 
-Its semantics decomposes the semantics of effectful languages using a [[strong monad]] into a [[strong adjunction]]. Then the embeddings of call-by-value and call-by-name correspond to the construction of [[Kleisli category|Kleisli and co-Kleisli categories]] from an adjunction.
+Its [[semantics]] decomposes the semantics of [[monad (in computer science)|effectful languages]] using a [[strong monad]] into a [[strong adjunction]]. Then the embeddings of call-by-value and call-by-name correspond to the construction of [[Kleisli category|Kleisli and co-Kleisli categories]] from an adjunction.
 
 ## Syntax
 
 ### Judgmental Structure
 
-CBPV has two "kinds" of types: value types, written $A,A',A_i$ and computation types written $B,B',B_i$. As originally presented there are 3 term judgments of CBPV: Values, Terms, and Stacks.
+CBPV has two "kinds" of [[types]]: value types --- written $A,A',A_i$ --- and computation types --- written $B,B',B_i$. As originally presented. there are 3 term [[judgments]] of CBPV: Values, Terms, and Stacks.
 
 The value judgment is an ordinary simple type theory. A context $\Gamma$ is a sequence of value typed variables $x_1:A_1,\ldots$ and the judgment $\Gamma \vdash V : A$ admits symmetry, contraction, weakening and the corresponding substitution principle: if for every $x_i:A_i$ in $\Gamma$, $\Gamma' \vdash \gamma(x_i) : A_i$, then there is a value $\Gamma' \vdash V[\gamma] : A$.
 
