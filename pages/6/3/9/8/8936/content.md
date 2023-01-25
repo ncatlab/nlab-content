@@ -75,6 +75,8 @@ Judgmental UIP is implied by [[boundary separation]] in [[cubical type theory]].
 
 * [[boundary separation]]
 
+* [[axiom of circle type localization]]
+
 ## References
 
 * "[The groupoid interpretation of type theory](http://www.tcs.ifi.lmu.de/mitarbeiter/martin-hofmann/pdfs/agroupoidinterpretationoftypetheroy.pdf)" [PDF], by Martin Hofmann and Thomas Streicher, 1996.
