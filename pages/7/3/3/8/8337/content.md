@@ -23,10 +23,15 @@
   * [[axiom of materialization]]
 
 * [[type theory|type theoretic axioms]]:
-  * [[axiom K]]
-  * [[axiom UIP]]
-  * [[univalence axiom]]
-  * [[Whitehead's principle]]
+  * [[axioms of set truncation]]
+    * [[uniqueness of identity proofs]]
+    * [[axiom K]]
+    * [[boundary separation]]
+    * [[equality reflection]]
+    * [[axiom of circle type localization]]
+  * [[homotopy type theory|homotopy type theoretic axioms]]:
+    * [[univalence axiom]]
+    * [[Whitehead's principle]]
 
 * [[axioms of choice]]:
   * [[axiom of choice]]
