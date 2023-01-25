@@ -34,9 +34,15 @@ In one more well-developed version of flat space holography, [[scattering amplit
 
 ### General
 
-Introduction and survey:
+Early comments:
 
-* [[Daniel Grumiller]], *Flat Space Holograohy*, 2015 ([pdf](http://quark.itp.tuwien.ac.at/~grumil/pdf/schwarzschild2015.pdf), [[Grumiller_FlatSpaceHolography.pdf:file]])
+* [[Edward Witten]], *Baryons and Branes in Anti de Sitter Space* talk at *[String98](https://online.kitp.ucsb.edu/online/strings98/)* (1998) &lbrack;[web](https://online.kitp.ucsb.edu/online/strings98/witten/)&rbrack;
+
+  > (by the title, apparently originally intended to touch on [[AdS-QCD]], but de facto ending with focus on the problem of flat space holography)
+
+Dedicayed introduction and survey:
+
+* [[Daniel Grumiller]], *Flat Space Holography*, 2015 ([pdf](http://quark.itp.tuwien.ac.at/~grumil/pdf/schwarzschild2015.pdf), [[Grumiller_FlatSpaceHolography.pdf:file]])
 
 Activities:
 
