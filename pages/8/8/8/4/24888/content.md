@@ -33,7 +33,7 @@ A crisp type $\Xi \vert () \vdash A$ is **discrete** if the function $(-)_\flat:
 
 The **axiom of cohesion** for type $R$ states that there is a crisp type $\Xi \vert () \vdash R \; \mathrm{type}$ such that given any crisp type $\Xi \vert () \vdash A \; \mathrm{type}$, $A$ is discrete if and only if $A$ is $(\mathrm{const}_{A, 1}^{-1} \circ \mathrm{const}_{A, R})$-local, or equivalently, if $\mathrm{const}_{A, R}$ is an [[equivalence of types]]. 
 
-$$\frac{\Xi \vert () \vdash A \; \mathrm{type}}{\Xi \vert () \vdash R \flat\mathrm{ax}_A:\mathrm{isEquiv}(\mathrm{const}_{A, R}) \simeq \mathrm{isEquiv}((-)_\flat)}$$
+$$\frac{\Xi \vert () \vdash A \; \mathrm{type}}{\Xi \vert () \vdash R \flat\mathrm{ax}_A:\mathrm{isEquiv}(\mathrm{const}_{A, R}) \simeq \mathrm{isEquiv}(\lambda x:\flat A.x_\flat)}$$
 
 This allows us to define discreteness for non-crisp types: a type $A$ is **discrete** if $A$ is $(\mathrm{const}_{A, 1}^{-1} \circ \mathrm{const}_{A, R})$-local, or equivalently, if $\mathrm{const}_{A, R}$ is an [[equivalence of types]]. 
 
