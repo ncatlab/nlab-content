@@ -61,20 +61,21 @@ There are a number of axioms which in general could be called an axiom of cohesi
 
 | number/symbol | name | associated [[shape modality]] | additional requirements |
 |--------|------|------|-----------|
-| $C_0$ | cohesion/stable [[locally ∞-connected (∞,1)-topos|local connectedness]] | [[localization of a type at a family of functions|localization]] at a [[type]] $R$ |  |
-| $C_1$ | punctual cohesion/punctual [[locally ∞-connected (∞,1)-topos|local connectedness]] | [[localization of a type at a family of functions|localization]] at a [[pointed type]] $R$ |  |
-| $C_2$ | contractible codiscreteness | [[localization of a type at a family of functions|localization]] at a non-trivial [[bi-pointed type|bi-pointed]] [[h-set]] $R$ |  |
-|  | discrete cohesion | [[localization of a type at a family of functions|localization]] at a [[contractible type]] $R$ |  |
-|  | affine cohesion/algebraic cohesion/$\mathbb{A}^1$-cohesion | [[localization of a type at a family of functions|localization]] at an [[affine line]] $\mathbb{A}^1$ |  |
-|  | [[compact connectedness]] | [[localization of a type at a family of functions|localization]] at a [[type]] $R$ | the [[type of booleans]] $\mathbb{2}$ is discrete |
-|  | [[continuum]] cohesion | [[localization of a type at a family of functions|localization]] at a [[Hausdorff space]] $R$ | $\mathbb{2}$ is discrete. |
-|  | [[metric continuum]] cohesion | [[localization of a type at a family of functions|localization]] at a [[metric space]] $R$ | $\mathbb{2}$ is discrete. |
-| $\mathbb{R} \flat$ | [[Dedekind real number|real]] cohesion | [[localization of a type at a family of functions|localization]] at the impredicative [[Dedekind real numbers]] or [[generalized Cauchy real numbers]] $\mathbb{R}$ | A [[type of all propositions]] $\Omega$ |
-| $\mathbb{R}_{U} \flat$ | locally $U$-small real cohesion | [[localization of a type at a family of functions|localization]] at the $U$-[[Dedekind real numbers]] or $U$-[[generalized Cauchy real numbers]] $\mathbb{R}_U$ | A [[Tarski universe]] $(U, T)$ |
-| $\mathbb{R}_{U}^\mathrm{loc} \flat$ | locally $U$-small localic real cohesion | [[localization of a type at a family of functions|localization]] at the $U$-[[localic real numbers]] $\mathbb{R}_{U}^\mathrm{loc}$ | A [[Tarski universe]] $(U, T)$. |
-|  | [[unit interval]] cohesion | [[localization of a type at a family of functions|localization]] at the [[unit interval]] $[0, 1]$ | a higher [[coinductive type]] representing the [[homotopy]] [[terminal]] [[dyadic interval coalgebra]]. |
-|  | $U$-small unit interval cohesion | [[localization of a type at a family of functions|localization]] at the $U$-small [[unit interval]] $[0, 1]_\mathbb{U}$ | A [[Tarski universe]] $(U, T)$. |
-|  | smooth cohesion | [[localization of a type at a family of functions|localization]] at a [[local Artin algebra|local Artin $\mathbb{R}$-algebra]] | A [[local Artin algebra|local Artin $\mathbb{R}$-algebra]] $R$ |
+| $C_0$ | cohesion/stable [[locally ∞-connected (∞,1)-topos|local connectedness]] | [[localization of a type|localization]] at a [[type]] $R$ |  |
+| $C_1$ | punctual cohesion/punctual [[locally ∞-connected (∞,1)-topos|local connectedness]] | [[localization of a type|localization]] at a [[pointed type]] $R$ |  |
+| $C_2$ | contractible codiscreteness | [[localization of a type|localization]] at a non-trivial [[bi-pointed type|bi-pointed]] [[h-set]] $R$ |  |
+|  | discrete cohesion | [[localization of a type|localization]] at a [[contractible type]] $R$ |  |
+|  | affine cohesion/algebraic cohesion/$\mathbb{A}^1$-cohesion | [[localization of a type|localization]] at an [[affine line]] $\mathbb{A}^1$ |  |
+|  | [[compact connectedness]] | [[localization of a type|localization]] at a [[type]] $R$ | the [[type of booleans]] $\mathbb{2}$ is discrete |
+|  | [[continuum]] cohesion | [[localization of a type|localization]] at a [[Hausdorff space]] $R$ | $\mathbb{2}$ is discrete. |
+|  | [[metric continuum]] cohesion | [[localization of a type|localization]] at a [[metric space]] $R$ | $\mathbb{2}$ is discrete. |
+| $\mathbb{R} \flat$ | [[Dedekind real number|real]] cohesion | [[localization of a type|localization]] at the impredicative [[Dedekind real numbers]] or [[generalized Cauchy real numbers]] $\mathbb{R}$ | A [[type of all propositions]] $\Omega$ |
+| $\mathbb{R}_{U} \flat$ | locally $U$-small real cohesion | [[localization of a type|localization]] at the $U$-[[Dedekind real numbers]] or $U$-[[generalized Cauchy real numbers]] $\mathbb{R}_U$ | A [[Tarski universe]] $(U, T)$ |
+| $\mathbb{R}_{U}^\mathrm{loc} \flat$ | locally $U$-small localic real cohesion | [[localization of a type|localization]] at the $U$-[[localic real numbers]] $\mathbb{R}_{U}^\mathrm{loc}$ | A [[Tarski universe]] $(U, T)$. |
+|  | [[unit interval]] cohesion | [[localization of a type|localization]] at the [[unit interval]] $[0, 1]$ | a higher [[coinductive type]] representing the [[homotopy]] [[terminal]] [[dyadic interval coalgebra]]. |
+|  | $U$-small unit interval cohesion | [[localization of a type|localization]] at the $U$-small [[unit interval]] $[0, 1]_\mathbb{U}$ | A [[Tarski universe]] $(U, T)$. |
+|  | smooth cohesion | [[localization of a type|localization]] at a [[local Artin algebra|local Artin $\mathbb{R}$-algebra]] | A [[local Artin algebra|local Artin $\mathbb{R}$-algebra]] $R$ |
+| $S^1 \flat$ | [[circle type cohesion]] | [[localization of a type|localization]] at the circle type | The [[circle type]] $S^1$ |
 
 ## See also
 
