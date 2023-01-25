@@ -20,23 +20,7 @@ In [[dependent type theory]], the [[0-truncation]] [[modality]] of a type $A$ ca
 
 Assuming that one has the function $\mathrm{const}_{A, S^1}:A \to (S^1 \to A)$ defined in the [[dependent type theory]], the syntactic rules for the axiom of $S^1$-localization is given by:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:S^1 \to A}{\Gamma \vdash \epsilon_A(f):A}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:S^1 \to A}{\Gamma \vdash \eta_A(f):\mathrm{Id}_{S^1 \to A}(\mathrm{const}_{A, S^1}(\epsilon_A(f)), f)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:S^1 \to A \quad \Gamma \vdash x:A \quad \Gamma \vdash y:\mathrm{Id}_{S^1 \to A}(\mathrm{const}_{A, S^1}(x), f)}{\Gamma \vdash c_{\epsilon_A}(f, x, y):\mathrm{Id}_{A}(\epsilon_A(f), x)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:S^1 \to A \quad \Gamma \vdash x:A \quad \Gamma \vdash y:\mathrm{Id}_{S^1 \to A}(\mathrm{const}_{A, S^1}(x), f)}{\Gamma \vdash c_{\eta_A}(f, x, y):\mathrm{hId}_{z:A.\mathrm{Id}_{S^1 \to A}(\mathrm{const}_{A, S^1}(z), f)}(\epsilon_A(f), x, c_{\epsilon_A}(f, x, y), \eta_A(f), y)}$$
-
-In the context of [[function extensionality]], this is equivalent to
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:S^1 \to A}{\Gamma \vdash \epsilon_A(f):A}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:S^1 \to A \quad \Gamma \vdash y:S^1}{\Gamma \vdash \eta_A(f, y):\mathrm{Id}_{A}(\mathrm{const}_{A, S^1}(\epsilon_A(f)), y), f(y))}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:S^1 \to A \quad \Gamma \vdash x:A \quad \Gamma \vdash z:\prod_{y:S^1} \mathrm{Id}_{A}(\mathrm{const}_{A, S^1}(x, y), f(y))}{\Gamma \vdash c_{\epsilon_A}(f, x, z):\mathrm{Id}_{A}(\epsilon_A(f), x)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:S^1 \to A \quad \Gamma \vdash x:A \quad \Gamma \vdash z:\prod_{y:S^1} \mathrm{Id}_{A}(\mathrm{const}_{A, S^1}(x, y), f(y))}{\Gamma \vdash c_{\eta_A}(f, x, z):\mathrm{hId}_{w:A.\prod_{y:S^1} \mathrm{Id}_{A}(\mathrm{const}_{A, S^1}(w, y), f(y))}(\epsilon_A(f), x, c_{\epsilon_A}(f, x, z), \eta_A(f), z)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:S^1 \to A}{\Gamma \vdash \mathrm{circlocal}_{A}:\mathrm{isEquiv}(\mathrm{const}_{A, S^1})}$$
 
 ## Consequences
  
