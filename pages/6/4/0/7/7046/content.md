@@ -11,6 +11,10 @@ On the [[categorical semantics]] of well-founded [[inductive types]] ([[W-types|
 
 * {#MoerdijkPalmgren00} [[Ieke Moerdijk]], [[Erik Palmgren]], *Wellfounded trees in categories*, Annals of Pure and Applied Logic **104** 1-3 (2000) 189-218 &lbrack;<a href="https://doi.org/10.1016/S0168-0072(00)00012-9">doi:10.1016/S0168-0072(00)00012-9</a>&rbrack;
 
+On [[FOLDS]]:
+
+* [[Erik Palmgren]], _Categories with families, FOLDS and logic enriched type theory_ (2016) &lbrack;[arXiv:1605.01586](https://arxiv.org/abs/1605.01586), [diva2:926427](http://su.diva-portal.org/smash/record.jsf?pid=diva2%3A926427)&rbrack;
+
 
 ## Related entries
 
