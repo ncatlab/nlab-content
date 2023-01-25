@@ -54,6 +54,11 @@ Note that the morphisms $\epsilon : A\to I$, $p:A\otimes A\to I$, and the induce
 There is another relation between Frobenius algebras and $\ast$-autonomous categories: ([Egger10](#Egger10)) shows that cocomplete $\ast$-autonomous [[posets]] are equivalently Frobenius algebras in the $\ast$-autonomous category [[Sup]].
 =--
 
++-- {: .un_remark}
+###### Remark
+This characterisation of $\ast$-autonomous algebras in terms of pseudo-Frobenius algebras can further be refined to characterise [[autonomous categories]]. Namely, an autonomous category is a representable pseudo-Frobenius algebra in [[Prof]] whose pseudomonoid and pseudocomonoid structure not only are adjoint, but which also satsify "locality" coherence equations [Bartlett-Vicary 10](#BartlettVicary10).
+=--
+
 
 ## References
 
@@ -65,6 +70,9 @@ There is another relation between Frobenius algebras and $\ast$-autonomous categ
 
 * [[Brian Day]] and [[Ross Street]], *Quantum categories, star autonomy, and quantum groupoids*, 2003, [arxiv](https://arxiv.org/abs/math/0301209)
  {#DayStreet03}
+
+* [[Bruce Bartlett]] and [[Jamie Vicary]], *Compact categories as dagger-Frobenius pseudoalgebras*, 2010, [QPL2010](https://www.youtube.com/watch?v=rZp1dPJxG3I)
+ {#BartlettVicary10}
 
 * [[Ross Street]], *Frobenius monads and pseudomonoids*, 2004, [DOI](http://dx.doi.org/10.1063/1.1788852), [pdf](http://maths.mq.edu.au/~street/Frob.pdf)
  {#Street04}
