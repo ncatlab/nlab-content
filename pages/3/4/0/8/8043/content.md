@@ -33,7 +33,7 @@ To bring out the subtle (cf. [jstor:43154266](https://www.jstor.org/stable/43154
 
 For example, the [[Riemann hypothesis]] certainly is a [[proposition]], but it remains open whether we may truthfully assert or validate it, hence we cannot yet *judge* that it holds true: No [[proof]] is known, even though it seems likely to be in fact [[true]].
 
-In other words, the judgement symbols "$\vdash \, P$ " convey that *we know* (a proof of, hence the truth of) $P$ &lbrack;[Martin-Löf (1996, lectures 1-2)](#Martin-Löf96)&rbrack;. 
+In other words, the judgement symbols "$\vdash \, P$ " convey that *we know* (a [[proof]] of, hence the [[truth]] of) $P$ &lbrack;[Martin-Löf (1996, lectures 1-2)](#Martin-Löf96)&rbrack;. 
 
 As such, judgements may be formalized as "meta-proposition", namely [[propositions]] but in an ambient [[meta-language]] (the [[deductive system]] or [[logical framework]]) rather than to the [[object language]] in which the given $P$ itself is formulated. (More specifically, any [[deductive system]] includes, as part of its specification, which strings of symbols are to be regarded as the _judgments_.  Some of these symbols may themselves express a [[proposition]] in the object language, but this is not necessarily the case.)
 
@@ -46,10 +46,9 @@ More generally, one considers *hypothetical judgements* (maybe first made explic
 
 is to express the judgement that *given* any assertion/validation/proof of $A$ we know how to produce (from that) a validation/proof of $P$. 
 
-In systems of ([[dependent type theory|dependent]]) [[type theory]] (where such notation seems to go back to [Hofmann (1995, p. 31)](#Hofmann95), cf. [below](#MLDidNot)) this is quite literally the case in that the [[categorical semantics]] of such a hypothetical judgement is a given by a [[function]] (and typically a [[computable function]], hence an [[algorithm]]) which [[map|maps]] proofs of $A$ to proofs of $P$.
+In systems of ([[dependent type theory|dependent]]) [[type theory]] (where such notation seems to go back to [Hofmann (1995, p. 31)](#Hofmann95), cf. [below](#MLDidNot)) this is quite literally the case in that the [[categorical semantics]] of such a hypothetical judgement is a given by a [[function]] (and typically a [[computable function]], hence an [[algorithm]]) which [[map|maps]] proofs of $A$ to proofs of $P$. 
 
-
-More generally yet, in [[type theory]] the [[propositions]] $A$ and $P$ appearing here are allowed to be any ([[dependent type|dependent]]) [[types]] (see at *[[propositions as types]]*). In this generality, the [[denotational semantics]] of hypothetical judgements (eq:HypotheticalJudgementInIntroduction) is given by (computable) [[functions]]/[[morphisms]] with [[domain]] $A$ and [[codomain]] $P$.
+More generally yet, in [[type theory]] the [[propositions]] $A$ and $P$ appearing here are allowed to be any ([[dependent type|dependent]]) [[types]] (see at *[[propositions as types]]*). In this generality, the [[denotational semantics]] of hypothetical judgements (eq:HypotheticalJudgementInIntroduction) is given by (computable) [[functions]]/[[morphisms]] with [[domain]] $A$ and [[codomain]] $P$. In [[programming languages]] based on such [[type theories]] this translates to the denotation of an actual [[program]] which produces [[data]] of [[data type]] $P$ when run on input [[data]] of [[data type]] $A$.
 
 Judgements are themselves subject to a calculus of [[natural deduction]] by which further judgements may be inferred from given ones. For example the notation
 
