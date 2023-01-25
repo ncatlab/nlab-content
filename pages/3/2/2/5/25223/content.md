@@ -95,13 +95,7 @@ $$\frac{\Gamma \vdash A \;  \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \
 
 In [[dependent type theory]], the [[axiom of S1-localization|axiom of $S^1$-localization]] is given by the following rules:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:S^1 \to A}{\Gamma \vdash \epsilon_A(f):A}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:S^1 \to A}{\Gamma \vdash \eta_A(f):\mathrm{Id}_{S^1 \to A}(\mathrm{const}_{A, S^1}(\epsilon_A(f)), f)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:S^1 \to A \quad \Gamma \vdash x:A \quad \Gamma \vdash y:\mathrm{Id}_{S^1 \to A}(\mathrm{const}_{A, S^1}(x), f)}{\Gamma \vdash c_{\epsilon_A}(f, x, y):\mathrm{Id}_{A}(\epsilon_A(f), x)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:S^1 \to A \quad \Gamma \vdash x:A \quad \Gamma \vdash y:\mathrm{Id}_{S^1 \to A}(\mathrm{const}_{A, S^1}(x), f)}{\Gamma \vdash c_{\eta_A}(f, x, y):\mathrm{hId}_{z:A.\mathrm{Id}_{S^1 \to A}(\mathrm{const}_{A, S^1}(z), f)}(\epsilon_A(f), x, c_{\epsilon_A}(f, x, y), \eta_A(f), y)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:S^1 \to A}{\Gamma \vdash \mathrm{circlocal}_{A}:\mathrm{isEquiv}(\mathrm{const}_{A, S^1})}$$
 
 ## See also
 
