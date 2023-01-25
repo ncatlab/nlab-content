@@ -82,32 +82,93 @@ A family of types is a type $B$ in the context of the element judgment $x:A$, $x
 
 A family of terms is a term $b:B$ in the context of the variable judgment $x:A$, $x:A \vdash b:B$. They are likewise usually written as $b(x)$ to indicate its dependence upon $x$. Given a particular element $a:A$, the element $b(a)$ is an element dependent upon $a:A$. 
 
-### Identity types
+### Basic type formers
 
-Equality in objective type theory is represented by the [[identity type]], which is also called the path type or identification type. The terms of the identity type could be called paths or identifications. 
+In this section, we give the rules for the basic type formers of type theory. This includes [[identification types]], [[dependent identification types]], [[function types]], [[dependent function types]], [[pair types]], and [[dependent pair types]]. 
 
-Equality comes with a formation rule, an introduction rule, an elimination rule, and a computation rule:
+#### Formation rules
 
-Formation rule for identity types:
+Formation rules for identification types:
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, b:A \vdash a =_A b \; \mathrm{type}}$$
 
-Introduction rule for identity types:
+Formation rules for dependent function types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \Pi(x:A).B(x) \; \mathrm{type}}$$
+
+Formation rules for dependent pair types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma \vdash \Sigma(x:A).B(x) \; \mathrm{type}}$$
+
+#### Introduction rules
+
+Introduction rules for identification types:
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A \vdash \mathrm{refl}_A(a) : a =_A a}$$
 
-Elimination rule for identity types:
-$$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C \mathrm{type} \quad \Gamma, a:A \vdash t:C[a, a, \mathrm{refl}_A(a)/x, y, p]}{\Gamma, x:A, y:A, p:x =_A y \vdash J(t, x, y, p):C}$$
+Introduction rules for dependent function types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma \vdash \lambda(x:A).b(x):\Pi(x:A).B(x)}$$
 
-Computation rules for identity types:
-$$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C \mathrm{type} \quad \Gamma, a:A \vdash t:C[a, a, \mathrm{refl}_A(a)/x, y, p]}{\Gamma, a:A \vdash \beta_{=_A}(a) : J(t, a, a, \mathrm{refl}(a)) =_{C[a, a, \mathrm{refl}_A(a)/x, y, p]} t}$$
+Introduction rules for dependent pair types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A, y:B(x) \vdash \mathrm{in}(x, y):\Sigma(x:A).B(x)}$$
 
-Optional uniqueness rules for identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A, p:x =_A x, \vdash K(x, p):p =_{x =_A x} refl_A(x)}$$
+#### Elimination rules
 
-The uniqueness rule for identity types is usually not included in objective type theory. However, if it were included in objective type theory it turns the type theory into a [[set-level type theory]]. 
+Elimination rule for identification types:
+$$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p) \; \mathrm{type}}{\Gamma, t:\Pi(a:A).C(a, a, \mathrm{refl}_A(a)), x:A, y:A, p:x =_A y \vdash \mathrm{ind}_{=_A}(t, x, y, p):C}$$
+
+Elimination rules for dependent function types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, f:\Pi(x:A).B(x), a:A \vdash \mathrm{ind}_{\Pi(x:A).B(x)}(f, a):B(a)}$$
+
+Elimination rules for dependent pair types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, z:\Sigma(x:A).B(x) \vdash \mathrm{ind}_{\Sigma(x:A).B(x)}^A(z):A} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, z:\Sigma(x:A).B(x) \vdash \mathrm{ind}_{\Sigma(x:A).B(x)}^B(z):B(\mathrm{ind}_{\Sigma(x:A).B(x)}^A(z))}$$
+
+#### Computation rules
+
+Computation rules for identification types:
+$$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p) \; \mathrm{type}}{\Gamma, t:\Pi(a:A).C(a, a, \mathrm{refl}_A(a)), x:A \vdash \beta_{=_A}(t, x):\mathrm{ind}_{=_A}(t, x, x, \mathrm{refl}_A(x)) =_{C(x, x, \mathrm{refl}_A(x))} t}$$
+
+Computation rules for dependent function types
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma, a:A \vdash \beta_{\Pi(x:A).B(x)}(a):\mathrm{ind}_{\Pi(x:A).B(x)}(\lambda(x:A).b(x), a) =_{B(a)} b(a)}$$
+
+Computation rules for dependent pair types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A, y:B(x) \vdash \beta_{\Sigma(x:A).B(x)}^A(x, y):\mathrm{ind}_{\Sigma(x:A).B(x)}^A(\mathrm{in}(x, y)) =_A x}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A, y:B(x) \vdash \beta_{\Sigma(x:A).B(x)}^B(x, y):\mathrm{ind}_{\Sigma(x:A).B(x)}^B(\mathrm{in}(x, y)) =_{B(\mathrm{ind}_{\Sigma(x:A).B(x)}^A(\mathrm{in}(x, y)))} y}$$
+
+#### Uniqueness rules
+
+Uniqueness rules for dependent function types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, f:\Pi(x:A).B(x) \vdash \eta_{\Pi(x:A).B(x)}(f):f =_{\Pi(x:A).B(x)} \lambda(x).f(x)}$$
+
+Uniqueness rules for dependent pair types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, z:\Sigma(x:A).B(x) \vdash \eta_{\Sigma(x:A).B(x)}(z):z =_{\Sigma(x:A).B(x)} \mathrm{in}(\mathrm{ind}_{\Sigma(x:A).B(x)}^A(z), \mathrm{ind}_{\Sigma(x:A).B(x)}^B(z))}$$
+
+### Dependent identification types
+
+Now that we have identification types, dependent sum types, and dependent product types, we can define dependent identification types, which are important for defining the rules for higher inductive types. 
+
+Formation rule for dependent identification types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, a:A, y:B(a), b:A, z:B(b), p:a =_A b \vdash y =_B^{p} z \; \mathrm{type}}$$ 
+
+Introduction rule for dependent identification types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, f:\Pi(x:A).B(x), a:A, b:A, p:a =_A b \vdash \mathrm{apd}_B(f, a, b, p):f(a) =_B^{p} f(b)}$$ 
+
+Elimination rule for dependent identification types:
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, a:A, y:B(a), b:A, z:B(b), p:a =_A b, q:y =_B^p z \vdash C(a, y, b, z, p, q) \; \mathrm{type} \\
+      \Gamma \vdash t:\Pi(a:A).\Pi(b:A).\Pi(p:a =_A b).\Pi(f:\Pi(x:A).B(x)).C(a, f(a), b, f(b), p, \mathrm{apd}_B(f, a, b, p))
+    \end{array}
+  }{\Gamma, a:A, y:B(a), b:A, z:B(b), p:a =_A b, q:y =_B^p z \vdash J_B^p(t, a, y, b, z, p, q):C(a, y, b, z, p, q)}$$
+
+Computation rules for dependent identification types:
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, a:A, y:B(a), b:A, z:B(b), p:a =_A b, q:y =_B^p z \vdash C(a, y, b, z, p, q) \; \mathrm{type} \\
+      \Gamma \vdash t:\Pi(a:A).\Pi(b:A).\Pi(p:a =_A b).\Pi(f:\Pi(x:A).B(x)).C(a, f(a), b, f(b), p, \mathrm{apd}_B(f, a, b, p))
+    \end{array}
+  }{\Gamma, f:\Pi(x:A).B(x), a:A, b:A, p:a =_A b \vdash \beta_{=_B^p}(t, f, a, b, p):J_B(t, a, f(a), b, f(b), p, \mathrm{apd}_B(f, a, b, p)) =_{C(a, f(a), b, f(b), p, \mathrm{apd}_B(f, a, b, p))} t}$$
 
 ### Structural rules for definitions
 
-Now that we have finally defined identity types, we can define the structural rules for term definitions. The structural rules for term definitions say that given a term $a:A$ and a term definition $b \coloneqq a:A$, one could derive that $b$ is a term of $A$, and that there is an identification between $b$ and $a$:
+Now that we have finally defined identification types, we can define the structural rules for term definitions. The structural rules for term definitions say that given a term $a:A$ and a term definition $b \coloneqq a:A$, one could derive that $b$ is a term of $A$, and that there is an identification between $b$ and $a$:
 
 $$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash a:A \quad \Gamma \vdash b \coloneqq a:A}{\Gamma \vdash \delta_A(a, b):b =_A a}$$
 
@@ -123,25 +184,6 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \m
 
 and uniqueness rules:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash e:B \quad \Gamma, y:B \vdash u:C \quad \Gamma, a:A \vdash i_\mathrm{copy}(u):u[\mathrm{copy}(a)/y] =_{C[\mathrm{copy}(a)/y]} c[a/x]}{\Gamma \vdash \eta_{B}:u[e/z] =_{C[e/z]} \mathrm{ind}_{B}^C(c, e)}$$
-
-### Dependent identity types
-
-The rules for dependent identity types are as follows:
-
-Formation rule for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, y:B(a), z:B(b) \vdash y =_B^{p} z \; \mathrm{type}}$$ 
-
-Introduction rule for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A, w:B(x) \vdash \mathrm{apd}_B^{p}(w):w(a) =_B^{p} w(b)}$$ 
-
-Elimination rule for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, y:B(a), z:B(b), q:y =_B^p z \vdash C(y, z, q) \; \mathrm{type} \quad \Gamma, x:A, w:B(x) \vdash t:C(w(a), w(b), \mathrm{apd}_B^{p}(w))}{\Gamma, y:B(a), z:B(b), q:y =_B^p z \vdash J_B^p(t, y, z, q):C(y, z, q)}$$
-
-Computation rules for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, y:B(a), z:B(b), q:y =_B^p z \vdash C(y, z, q) \; \mathrm{type} \quad \Gamma, x:A, w:B(x) \vdash t:C(w(a), w(b), \mathrm{apd}_B^{p}(w))}{\Gamma, x:A, w:B(x) \vdash \beta_{=_B^p}(w):J(t, w(a), w(b), \mathrm{apd}_B^{p}(w)) =_{C(w(a), w(b), \mathrm{apd}_B^{p}(w))} t}$$
-
-Optional uniqueness rules for dependent identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A, w:B(x), q:w(a) =_B^{p} w(b) \vdash K_B^p(x, w, q):q =_{w(a) =_B^{p} w(b)} \mathrm{apd}_B^{p}(w)}$$
 
 ### isEquiv types and equivalences
 
@@ -187,166 +229,6 @@ $$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash 
 Uniqueness rules:
 $$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash f:T[B/X] \quad \Gamma, z:A =_U B \vdash C \; \mathrm{type} \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash c:C[\mathrm{equiv}(f, y)/z] \quad \Gamma, z:A =_U B \vdash u:C \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash i_\mathrm{in}(u):u[\mathrm{equiv}(f, y)/z] =_{C[\mathrm{in}(x, y)/z]} c}{\Gamma, e:A =_U B \vdash \eta_{A =_U B}^C(c):u[e/z] =_{C[e/z]} \mathrm{ind}_{A =_U B}^C(c)[e/z]}$$
 
-### Internal identity types
-
-A universe $\mathcal{U}$ is closed under identity types if for each element $A:\mathcal{U}$, $a:\mathcal{T}(A)$, and $b:\mathcal{T}(A)$, there is an element $\mathrm{Id}^\mathcal{U}(A, a, b):\mathcal{U}$ which behaves as the internal encoding of the identity type $a =_A b$ in the universe
-
-
-Formation rule for identity types:
-$$\frac{\Gamma \vdash A:\mathcal{U}}{\Gamma, a:\mathcal{T}(A), b:\mathcal{T}(A) \vdash \mathrm{Id}^\mathcal{U}(A, a, b):\mathcal{U}}$$
-
-Introduction rule for identity types:
-$$\frac{\Gamma \vdash A:\mathcal{U}}{\Gamma, a:\mathcal{T}(A) \vdash \mathrm{refl}_A^\mathcal{U}(a) : \mathcal{T}(\mathrm{Id}^\mathcal{U}(A, a, a))}$$
-
-Elimination rule for identity types:
-$$\frac{\Gamma, x:\mathcal{T}(A), y:\mathcal{T}(A), p:\mathcal{T}(\mathrm{Id}^\mathcal{U}(A, x, y)) \vdash C:\mathcal{U} \quad \Gamma, a:\mathcal{T}(A) \vdash t:\mathcal{T}(C[a, a, \mathrm{refl}_A^\mathcal{U}(a)/x, y, p])}{\Gamma, x:\mathcal{T}(A), y:\mathcal{T}(A), p:\mathcal{T}(\mathrm{Id}^\mathcal{U}(A, x, y)) \vdash J(t, x, y, p):\mathcal{T}(C)}$$
-
-Computation rules for identity types:
-$$\frac{\Gamma, x:\mathcal{T}(A), y:\mathcal{T}(A), p:\mathcal{T}(\mathrm{Id}^\mathcal{U}(A, x, y)) \vdash C:\mathcal{U} \quad \Gamma, a:\mathcal{T}(A) \vdash t:\mathcal{T}(C[a, a, \mathrm{refl}_A^\mathcal{U}(a)/x, y, p])}{\Gamma, a:\mathcal{T}(A) \vdash \beta_{\mathrm{Id}^\mathcal{U}(A)}(a) : J(t, a, a, \mathrm{refl}_A^\mathcal{U}(a)) =_{\mathcal{T}(C[a, a, \mathrm{refl}_A^\mathcal{U}(a)/x, y, p])} t}$$
-
-Optional uniqueness rules for identity types:
-$$\frac{\Gamma \vdash A:\mathcal{U}}{\Gamma, x:\mathcal{T}(A), p:\mathcal{T}(\mathrm{Id}^\mathcal{U}(A, x, x)), \vdash \eta_{\mathrm{Id}^\mathcal{U}(A)}(x, p):p =_{\mathcal{T}(\mathrm{Id}^\mathcal{U}(A, x, x))} \mathrm{refl}_A^\mathcal{U}(x)}$$
-
-### Function types
-
-Formation rules for function types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \to B \; \mathrm{type}}$$
-
-Introduction rules for function types:
-$$\frac{\Gamma, x:A \vdash b(x):B}{\Gamma \vdash (x \mapsto b(x)):A \to B}$$
-
-Elimination rules for function types:
-$$\frac{\Gamma \vdash f:A \to B \quad \Gamma \vdash a:A}{\Gamma \vdash f(a):B}$$
-
-Computation rules for function types:
-$$\frac{\Gamma, x:A \vdash b(x):B \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_{A \to B}:(x \mapsto b(x))(a) =_{B} b}$$
-
-Uniqueness rules for function types:
-$$\frac{\Gamma \vdash f:A \to B}{\Gamma \vdash \eta_{A \to B}:f =_{A \to B} (x \to f(x))}$$
-
-A universe $\mathcal{U}$ is closed under function types if for each element $A:\mathcal{U}$ and $B:\mathcal{U}$ there is an element $A \to_\mathcal{U} B:\mathcal{U}$ which behaves as the internal encoding of the function type $A \to B$ in the universe
-
-Formation rules for internal function types:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A:\mathcal{U}, B:\mathcal{U} \vdash A \to_\mathcal{U} B:\mathcal{U}}$$
-
-Introduction rules for internal function types:
-$$\frac{\Gamma, x:\mathcal{T}(A) \vdash b(x):\mathcal{T}(B)}{\Gamma \vdash (x \mapsto b(x)):\mathcal{T}(A \to_\mathcal{U} B)}$$
-
-Elimination rules for internal function types:
-$$\frac{\Gamma \vdash f:\mathcal{T}(A \to_\mathcal{U} B) \quad \Gamma \vdash a:\mathcal{T}(A)}{\Gamma \vdash f(a):\mathcal{T}(B)}$$
-
-Computation rules for internal function types:
-$$\frac{\Gamma, x:\mathcal{T}(A) \vdash b(x):\mathcal{T}(B) \quad \Gamma \vdash a:\mathcal{T}(A)}{\Gamma \vdash \beta_{A \to_\mathcal{U} B}:(x \mapsto b(x))(a) =_{\mathcal{T}(B)} b}$$
-
-Uniqueness rules for internal function types:
-$$\frac{\Gamma \vdash f:\mathcal{T}(A \to_\mathcal{U} B)}{\Gamma \vdash \eta_{A \to_\mathcal{U} B}:f =_{\mathcal{T}(A \to_\mathcal{U} B)} (x \to f(x))}$$
-
-### Pi types
-
-Formation rules for Pi types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \prod_{x:A} B(x) \; \mathrm{type}}$$
-
-Introduction rules for Pi types:
-$$\frac{\Gamma, x:A \vdash b(x):B(x)}{\Gamma \vdash \lambda(x:A).b(x):\prod_{x:A} B(x)}$$
-
-Elimination rules for Pi types:
-$$\frac{\Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash f(a):B[a/x]}$$
-
-Computation rules for Pi types:
-$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_\Pi:\lambda(x:A).b(x)(a) =_{B[a/x]} b[a/x]}$$
-
-Uniqueness rules for Pi types:
-$$\frac{\Gamma \vdash f:\prod_{x:A} B(x)}{\Gamma \vdash \eta_\Pi:f =_{\prod_{x:A} B(x)} \lambda(x).f(x)}$$
-
-A universe $\mathcal{U}$ is closed under pi types if for each element $A:\mathcal{U}$ and family of elements $x:A \vdash B(x):\mathcal{U}$ there is an element $\Pi_\mathcal{U}(x:A).B(x):\mathcal{U}$ which behaves as the internal encoding of the pi type $\prod_{x:A} B(x)$ in the universe
-
-Formation rules for internal Pi types:
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash B(x):\mathcal{U}}{\Gamma \vdash \Pi_\mathcal{U}(x:A).B(x):\mathcal{U}}$$
-
-Introduction rules for internal Pi types:
-$$\frac{\Gamma, x:\mathcal{T}(A) \vdash b(x):\mathcal{T}(B(x))}{\Gamma \vdash \lambda(x:A).b(x):\mathcal{T}(\Pi_\mathcal{U}(x:A).B(x))}$$
-
-Elimination rules for internal Pi types:
-$$\frac{\Gamma \vdash f:\mathcal{T}(\Pi_\mathcal{U}(x:A).B(x)) \quad \Gamma \vdash a:\mathcal{T}(A)}{\Gamma \vdash f(a):\mathcal{T}(B[a/x])}$$
-
-Computation rules for internal Pi types:
-$$\frac{\Gamma, x:\mathcal{T}(A) \vdash b(x):\mathcal{T}(B(x)) \quad \Gamma \vdash a:\mathcal{T}(A)}{\Gamma \vdash \beta_{\Pi_\mathcal{U}(x:A).B(x)}:\lambda(x:A).b(x)(a) =_{\mathcal{T}(B[a/x])} b[a/x]}$$
-
-Uniqueness rules for internal Pi types:
-$$\frac{\Gamma \vdash f:\mathcal{T}(\Pi_\mathcal{U}(x:A).B(x))}{\Gamma \vdash \eta_{\Pi_\mathcal{U}(x:A).B(x)}:f =_{\mathcal{T}(\Pi_\mathcal{U}(x:A).B(x))} \lambda(x).f(x)}$$
-
-### Product types
-
-We use the positive presentation for product types. 
-
-Formation rules for product types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \times B \; \mathrm{type}}$$
-
-Introduction rules for product types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma\vdash B \; \mathrm{type}}{\Gamma, x:A, y:B \vdash \mathrm{in}(x, y):A \times B}$$
-
-Elimination rules for product types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, z:A \times B \vdash C(z) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{x:A} \prod_{y:B} C(\mathrm{in}(x, y))}{\Gamma, z:A \times B \vdash \mathrm{ind}_{A \times B}^C(c, z):C(z)}$$
-
-Computation rules for product types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, z:A \times B \vdash C(z) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{x:A} \prod_{y:B} C(\mathrm{in}(x, y))}{\Gamma, x:A, y:B \vdash \beta_{A \times B}^C(c, \mathrm{in}(x, y)):\mathrm{ind}_{A \times B}^C(c, \mathrm{in}(x, y) =_{C(\mathrm{in}(x, y))} c(\mathrm{in}(x, y))}$$
-
-Uniqueness rules for product types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma\vdash B \; \mathrm{type} \quad \Gamma, z:A \times B \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[(x, y)/z] \quad \Gamma, z:A \times B \vdash u:C \quad \Gamma, x:A, y:B \vdash i_{(-,-)}(u):u[(x, y)/z] =_{C[(x, y)/z]} c}{\Gamma, z:A \times B \vdash \eta_{A \times B}^C(c):u =_{C} \mathrm{ind}_{A \times B}^C(c)}$$
-
-A universe $\mathcal{U}$ is closed under product types if it for each element $A:\mathcal{U}$ and $B:\mathcal{U}$, there is an element $A \times_\mathcal{U} B:\mathcal{U}$ which behaves as the internal encoding of the product type $A \times B$ in the universe
-
-Formation rules for internal product types:
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma \vdash A \times_\mathcal{U} B:\mathcal{U}}$$
-
-Introduction rules for internal product types:
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U}}{\Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B) \vdash (x, y):\mathcal{T}(A \times_\mathcal{U} B)}$$
-
-Elimination rules for internal product types:
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U} \quad \Gamma, z:\mathcal{T}(A \times_\mathcal{U} B) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B) \vdash c:\mathcal{T}(C[(x, y)/z)]}{\Gamma, z:\mathcal{T}(A \times_\mathcal{U} B) \vdash \mathrm{ind}_{A \times_\mathcal{U} B}^C(c):\mathcal{T}(C)}$$
-
-Computation rules for internal product types:
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U} \quad \Gamma, z:\mathcal{T}(A \times_\mathcal{U} B) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B) \vdash c:\mathcal{T}(C[(x, y)/z])}{\Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B) \vdash \beta_{A \times_\mathcal{U} B}^C(c):\mathrm{ind}_{A \times_\mathcal{U} B}^C(c)[(x, y)/z] =_{\mathcal{T}(C[(x, y)/z])} c}$$
-
-Uniqueness rules for internal product types:
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash B:\mathcal{U} \quad \Gamma, z:\mathcal{T}(A \times_\mathcal{U} B) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B) \vdash c:\mathcal{T}(C[(x, y)/z]) \quad \Gamma, z:\mathcal{T}(A \times_\mathcal{U} B) \vdash u:\mathcal{T}(C) \quad \Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B) \vdash i_{(-,-)}(u):u[(x, y)/z] =_{\mathcal{T}(C[(x, y)/z])} c}{\Gamma, z:\mathcal{T}(A \times_\mathcal{U} B) \vdash \eta_{A \times_\mathcal{U} B}^C(c):u =_{\mathcal{T}(C)} \mathrm{ind}_{A \times_\mathcal{U} B}^C(c)}$$
-
-### Sigma types
-
-We use the positive presentation for sigma types. 
-
-Formation rules for sigma types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma \vdash \Sigma (x:A).B(x) \; \mathrm{type}}$$
-
-Introduction rules for sigma types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, y:B \vdash \mathrm{in}(x, y):\Sigma (x:A).B(x)}$$
-
-Elimination rules for sigma types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, z:\Sigma (x:A).B(x) \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[\mathrm{in}(x, y)/z]}{\Gamma, z:\Sigma (x:A).B(x) \vdash \mathrm{ind}_{\Sigma (x:A).B(x)}^C(c):C}$$
-
-Computation rules for sigma types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, z:\Sigma (x:A).B(x) \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[\mathrm{in}(x, y)/z]}{\Gamma, x:A, y:B \vdash \beta_{\Sigma (x:A).B(x)}^C(c):\mathrm{ind}_{\Sigma (x:A).B(x)}^C(c)[\mathrm{in}(x, y)/z] =_{C[\mathrm{in}(x, y)/z]} c}$$
-
-Uniqueness rules for sigma types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, z:\Sigma (x:A).B(x) \vdash C \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash c:C[\mathrm{in}(x, y)/z] \quad \Gamma, z:\Sigma (x:A).B(x) \vdash u:C \quad \Gamma, x:A, y:B \vdash i_\mathrm{in}(u):u[\mathrm{in}(x, y)/z] =_{C[\mathrm{in}(x, y)/z]} c}{\Gamma, e:\Sigma (x:A).B(x) \vdash \eta_{\Sigma (x:A).B(x)}^C(c):u[e/z] =_{C[e/z]} \mathrm{ind}_{\Sigma (x:A).B(x)}^C(c)[e/z]}$$
-
-A universe $\mathcal{U}$ is closed under sigma types if for each element $A:\mathcal{U}$ and family of elements $x:A \vdash B(x):\mathcal{U}$ there is an element $\Sigma_\mathcal{U}(x:A).B(x):\mathcal{U}$ which behaves as the internal encoding of the sigma type $\Sigma(x:A).B(x)$ in the universe
-
-Formation rules for internal sigma types:
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash B:\mathcal{U}}{\Gamma \vdash \Sigma_\mathcal{U} (x:A).B(x):\mathcal{U}}$$
-
-Introduction rules for internal sigma types:
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash B:\mathcal{U}}{\Gamma, x:A, y:B \vdash \mathrm{in}(x, y):\mathcal{T}(\Sigma_\mathcal{U} (x:A).B(x))}$$
-
-Elimination rules for internal sigma types:
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash B:\mathcal{U} \quad \Gamma, z:\mathcal{T}(\Sigma (x:A).B(x)) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B(x)) \vdash c:\mathcal{T}(C[\mathrm{in}(x, y)/z])}{\Gamma, z:\mathcal{T}(\Sigma_\mathcal{U} (x:A).B(x)) \vdash \mathrm{ind}_{\Sigma_\mathcal{U} (x:A).B(x)}^C(c):\mathcal{T}(C)}$$
-
-Computation rules for internal sigma types:
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma, x:A \vdash B:\mathcal{U} \quad \Gamma, z:\mathcal{T}(\Sigma_\mathcal{U} (x:A).B(x)) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B(x)) \vdash c:\mathcal{T}(C[\mathrm{in}(x, y)/z])}{\Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B(x)) \vdash \beta_{\Sigma_\mathcal{U} (x:A).B(x)}^C(c):\mathrm{ind}_{\Sigma_\mathcal{U} (x:A).B(x)}^C(c)[\mathrm{in}(x, y)/z] =_{\mathcal{T}(C[\mathrm{in}(x, y)/z])} c}$$
-
-Uniqueness rules for internal sigma types:
-$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A) \vdash B:\mathcal{U} \quad \Gamma, z:\mathcal{T}(\Sigma_\mathcal{U} (x:A).B(x)) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B(x)) \vdash c:\mathcal{T}(C[\mathrm{in}(x, y)/z]) \quad \Gamma, z:\mathcal{T}(\Sigma_\mathcal{U} (x:A).B(x)) \vdash u:\mathcal{T}(C) \quad \Gamma, x:\mathcal{T}(A), y:\mathcal{T}(B(x)) \vdash i_\mathrm{in}(u):u[\mathrm{in}(x, y)/z] =_{\mathcal{T}(C[\mathrm{in}(x, y)/z])} c}{\Gamma, e:\mathcal{T}(\Sigma_\mathcal{U} (x:A).B(x)) \vdash \eta_{\Sigma_\mathcal{U} (x:A).B(x)}^C(c):u[e/z] =_{\mathcal{T}(C[e/z])} \mathrm{ind}_{\Sigma_\mathcal{U} (x:A).B(x)}^C(c)[e/z]}$$
-
 ### Empty type
 
 Formation rules for the empty type:
@@ -369,7 +251,9 @@ $$\frac{\Gamma, x:\mathcal{T}(\mathbb{0}_\mathcal{U}) \vdash C:\mathcal{U}}{\Gam
 Uniqueness rules for the internal empty type:
 $$\frac{\Gamma, x:\mathcal{T}(\mathbb{0}_\mathcal{U}) \vdash C:\mathcal{U} \quad \Gamma, x:\mathcal{T}(\mathbb{0}_\mathcal{U}) \vdash c:\mathcal{T}(C)}{\Gamma, x:\mathcal{T}(\mathbb{0}_\mathcal{U}) \vdash \eta_{\mathbb{0}_\mathcal{U}}(c):c =_{\mathcal{T}(C)} \mathrm{ind}_{\mathbb{0}_\mathcal{U}}^{C}}$$
 
-### Other types
+### Other positive types
+
+Now that we have [[identification types]], [[dependent sum types]], and [[dependent product types]], we can combine the [[elimination rule]], the [[computation rule]], and the [[uniqueness rule]] for any [[positive type]] into one rule, the [[universal property]] rule. 
 
 #### Unit type
 
@@ -379,7 +263,7 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1} \; \mathrm{type}}$$
 Introduction rules for the unit type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{pt}:\mathbb{1}}$$
 
-[[singleton induction]]:
+Universal property rule for the unit type:
 $$\frac{\Gamma, x:\mathbb{1} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{pt}:C(\mathrm{pt})}{\Gamma \vdash \mathrm{up}_\mathbb{1}^C(c_\mathrm{pt}):\mathrm{isContr}\left(\sum_{c:\prod_{x:\mathbb{1}} C(x)} (c(\mathrm{pt}) =_{C(\mathrm{pt})} c_\mathrm{pt})\right)}$$
 
 #### Copy types
@@ -387,10 +271,10 @@ $$\frac{\Gamma, x:\mathbb{1} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_
 Formation rules for copy types:
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{Copy}(A) \; \mathrm{type}}$$
 
-Introduction rules for sum types:
+Introduction rules for copy types:
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{copy}_A:A \to \mathrm{Copy}(A)}$$
 
-Dependent universal property rule for sum types:
+Universal property rule for copy types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:\mathrm{Copy}(A) \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{copy}_A}:\prod_{x:A} C(\mathrm{copy}_A(x))}{\Gamma \vdash \mathrm{up}_{\mathrm{Copy}(A)}^C(c_{\mathrm{copy}_A}):\mathrm{isContr}\left(\sum_{c:\prod_{x:\mathrm{Copy}(A)} C(x)} \prod_{a:A} c(\mathrm{copy}_A(a)) =_{C(\mathrm{copy}_A(a))} c_{\mathrm{copy}_A}(a)\right)}$$
 
 #### Booleans type
@@ -401,7 +285,7 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{2} \; \mathrm{type}}$$
 Introduction rules for the booleans type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{2}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathbb{2}}$$
 
-Dependent universal property rule for the booleans type:
+Universal property rule for the booleans type:
 $$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1)}{\Gamma \vdash \mathrm{up}_\mathbb{2}^C(c_0, c_1):\mathrm{isContr}\left(\sum_{c:\prod_{x:\mathbb{2}} C(x)} (c(0) =_{C(0)} c_0) \times (c(1) =_{C(1)} c_1)\right)}$$
 
 #### Sum types
@@ -412,7 +296,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}
 Introduction rules for sum types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{in}_A:A \to A + B} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{in}_B:B \to A + B}$$
 
-Dependent universal property rule for sum types:
+Universal property rule for sum types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A + B \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{in}_A}:\prod_{x:A} C(\mathrm{in}_A(x)) \quad \Gamma \vdash c_{\mathrm{in}_B}:\prod_{y:B} C(\mathrm{in}_B(y))}{\Gamma \vdash \mathrm{up}_{A + B}^C(c_{\mathrm{in}_A}, c_{\mathrm{in}_B}):\mathrm{isContr}\left(\sum_{c:\prod_{x:A + B} C(x)} \left(\prod_{a:A} (c(\mathrm{in}_A(a)) =_{C(\mathrm{in}_A(a))} c_{\mathrm{in}_A}(a))\right) \times \left(\prod_{b:B} (c(\mathrm{in}_B(b)) =_{C(\mathrm{in}_B(b))} c_{\mathrm{in}_B}(b))\right)\right)}$$
 
 #### Natural numbers type
@@ -423,7 +307,7 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{N} \; \mathrm{type}}$$
 Introduction rules for the natural numbers type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{N}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash s:\mathbb{N} \to \mathbb{N}}$$
 
-Dependent universal property rule for the natural numbers type:
+Universal property rule for the natural numbers type:
 $$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{N}} C(x) \to C(s(x))}{\Gamma \vdash \mathrm{up}_\mathbb{N}^C(c_0, c_s):\mathrm{isContr}\left(\sum_{c:\prod_{x:\mathbb{N}} C(x)} (c(0) =_{C(0)} c_0) \times \prod_{x:\mathbb{N}} c(s(x)) =_{C(s(x))} c_s(c(x))\right)}$$
 
 #### Integers type
@@ -434,7 +318,7 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{Z} \; \mathrm{type}}$$
 Introduction rules for the integers type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{Z}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash s:\mathbb{Z} \simeq \mathbb{Z}}$$
 
-Dependent universal property rule for the integers type:
+Universal property rule for the integers type:
 $$\frac{\Gamma, x:\mathbb{Z} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{Z}} C(x) \simeq C(s(x))}{\Gamma \vdash \mathrm{up}_\mathbb{Z}^C(c_0, c_s):\mathrm{isContr}\left(\sum_{c:\prod_{x:\mathbb{Z}} C(x)} (c(0) =_{C(0)} c_0) \times \prod_{x:\mathbb{Z}} c(s(x)) =_{C(s(x))} c_s(c(x))\right)}$$
 
 ## Categorical semantics
