@@ -43,12 +43,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:\mathrm{FreeGroup
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:\mathrm{FreeGroup}(A)}{\Gamma \vdash \lambda_\iota(x):\mathrm{Id}_{\mathrm{FreeGroup}(A)}\mu(\iota(x), x),  \epsilon)} \quad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:\mathrm{FreeGroup}(A)}{\Gamma\vdash \rho_\iota(x):\mathrm{Id}_{\mathrm{FreeGroup}(A)}(\mu(x, \iota(x)), \epsilon)}$$
 
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:\mathrm{FreeGroup}(A) \quad \Gamma \vdash y:\mathrm{FreeGroup}(A) \\
-      \Gamma \vdash p:\mathrm{Id}_{\mathrm{FreeGroup}(A)}(x, y) \quad \Gamma \vdash q:\mathrm{Id}_{\mathrm{FreeGroup}(A)}(x, y)
-    \end{array}
-  }{\Gamma \vdash \tau(x, y, p, q):\mathrm{Id}_{\mathrm{Id}_{\mathrm{FreeGroup}(A)}(x, y)}(p, q)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:S^1 \to \mathrm{FreeGroup}(A)}{\Gamma \vdash \mathrm{circlocal}(f):\mathrm{isContr}\left(\sum_{x:\mathrm{FreeGroup}(A)} \mathrm{const}_{\mathrm{FreeGroup}(A), S^1}(x) =_{S^1 \to \mathrm{FreeGroup}(A)} f\right)}$$
 
 ## Properties
 
