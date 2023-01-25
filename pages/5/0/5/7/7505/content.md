@@ -20,9 +20,9 @@ In [[type theory]], a **positive type** is one whose *constructors* are regarded
 The opposite notion is a [[negative type]], forming two [[polarity in type theory|polarities]].
 
 
-In [[categorical semantics]] of type theory, positive types correspond to "from the left" universal properties (i.e. for mapping out).
+In [[categorical semantics]] of type theory, positive types correspond to "from the left" [[universal properties]] (i.e. for mapping out).
 
-In [[denotational semantics]], positive types behave well with respect to "call-by-value" and other [[eager evaluation]] strategies.
+In [[denotational semantics]], positive types behave well with respect to "[[call-by-value]]" and other [[eager evaluation]] strategies.
 
 
 ## Examples
