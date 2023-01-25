@@ -196,6 +196,59 @@ of $F$-[[algebra for an endofunctor|algebra]] maps $W \to X$ is
 
 \linebreak 
 
+### Empty type
+ {#ExamplesEmptyType}
+
+
+The inductive [[inference rules]] for the [[empty type]]:
+
+
+**[[type formation rule]]:**
+
+$$
+  \frac{
+  }{
+    \mathclap{\phantom{\vert^{\vert}}}
+    \varnothing \,\colon\, Type
+  }
+$$
+
+\linebreak
+
+
+**[[term introduction rule]]:**
+
+$$
+\text{--- none ---}
+$$
+
+\linebreak
+
+**[[term elimination rule]]:**
+
+$$
+  \frac{
+    x \,\colon\, \varnothing
+    \;\vdash\;\;
+    D(x) \,:\, Type
+  }{
+    \mathclap{\phantom{\vert^{\vert}}}
+    ind_{(D)}
+    \,\colon\,
+    \underset{x \colon \varnothing}{\prod}
+    D(x)
+  }
+$$
+
+\linebreak
+
+**[[computation rule]]:**
+
+$$
+\text{--- none ---}
+$$
+
+
 ### Unit type
  {#UnitType}
 
@@ -649,7 +702,7 @@ In the case that $X_\bullet$ is the classifier of the [[codomain fibration]], th
 
 ## Related concepts
 
-* **inductive type, [[initial algebra of an endofunctor]]
+* [[initial algebra of an endofunctor]]
 
 * [[inductive-inductive type]]
 
