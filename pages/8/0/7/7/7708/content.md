@@ -126,6 +126,11 @@ The [[dependent pair]]-type declaration of [[group objects|group structure]]:
 
 * {#AdamekRosickyVitale09} Adamek, Rosicky, Vitale, _Algebraic theories_ [pdf](http://www.iti.cs.tu-bs.de/~adamek/algebraic_theories.pdf) (2009)
 
+See also 
+
+* Wikipedia, *[Mathematical structure](https://en.wikipedia.org/wiki/Mathematical_structure)*
+
+* Wikipedia, *<a href="https://en.wikipedia.org/wiki/Structure_(mathematical_logic)">Structure_(mathematical_logic)</a>*
 
 [[!redirects structure]]
 [[!redirects structures]]
