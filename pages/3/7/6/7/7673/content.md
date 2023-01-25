@@ -418,7 +418,7 @@ Ignoring coherence issues, the CwF induced by a locally cartesian closed (lcc) c
 | Contexts          | Objects $\Gamma \in \mathcal{C}$                                     | Slice categories $\mathcal{C}_{/ \Gamma}$                                                         | Lcc categories $\Gamma$                                                           |
 | Context Morphisms | Morphisms $f : \Gamma \rightarrow \Delta$                            | Lcc functors $f^* : \mathcal{C}_{/ \Delta} \rightarrow \mathcal{C}_{/ \Gamma}$ over $\mathcal{C}$ | Lcc functors $f : \Delta \rightarrow \Gamma$                                      |
 | Types             | Morphisms $\sigma : \operatorname{dom} \sigma \rightarrow \Gamma$    | Objects $\sigma \in \mathcal{C}_{/ \Gamma}$                                                       | Objects $\sigma \in \Gamma$                                                       |
-| Terms             | Sections $s : \Gamma \leftrightarrows \operatorname{dom} \sigma : \sigma$ | Morphisms $s : \mathrm{id}_\sigma \rightarrow \sigma$ in $\mathcal{C}_{/ \Gamma}$                 | Morphisms $s : 1 \rightarrow \sigma$ in $\Gamma$, where $1$ is a terminal object. |
+| Terms             | Sections $s : \Gamma \leftrightarrows \operatorname{dom} \sigma : \sigma$ | Morphisms $s : \mathrm{id}_\Gamma \rightarrow \sigma$ in $\mathcal{C}_{/ \Gamma}$                 | Morphisms $s : 1 \rightarrow \sigma$ in $\Gamma$, where $1$ is a terminal object. |
 | Substitution      | Pullback along $f$                                                   | Application of $f^*$                                                                              | Application of $f$
 
 The next column describes the same CwF in the terminology of slice categories:
