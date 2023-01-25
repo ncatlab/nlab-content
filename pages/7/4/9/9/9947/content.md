@@ -37,18 +37,33 @@ Similar to Mizar is [[NuPRL]], [[HOL light]] and [[Isabelle]], which all have de
 
 ## References
 
+Gentle exposition in 
+
+* [[Théo Winterhalter]], §1 of: *Formalisation and Meta-Theory of Type Theory*, Nantes (2020) &lbrack;[pdf](https://github.com/TheoWinterhalter/phd-thesis/releases/download/v1.2.1/TheoWinterhalter-PhD-v1.2.1.pdf), [github](https://github.com/TheoWinterhalter/phd-thesis)&rbrack;
+
+Further exposition:
+
+* {#Avigad12} [[Jeremy Avigad]], _Interactive Theorem Proving, Automated Reasoning, and Mathematical Computation_, (2012) [pdf slides](http://www.andrew.cmu.edu/user/avigad/Talks/icerm.pdf)
+
+On computer assisted proofs in [[analysis]]:
+
+* [[Oscar E. Lanford]], *Computer assisted proofs*, in: *Computational Methods in Field Theory*, Lecture Notes in Physics, **409**, Springer (1992) &lbrack;[doi:10.1007/3-540-55997-3_30](https://doi.org/10.1007/3-540-55997-3_30)&rbrack;
+
+   
+See also:
+
 * Wikipedia, _[Proof assistant](https://en.wikipedia.org/wiki/Proof_assistant)_
 
-* Oscar Lanford III., _Computer assisted proofs in analysis_, Proceedings of the International Congress of Mathematicians, 1986 ([pdf](http://www.mathunion.org/ICM/ICM1986.2/Main/icm1986.2.1385.1394.ocr.pdf))
-
+List of web resources:
 
 * [[Freek Wiedijk]], _Digital math by alphabet_ ([web](http://www.cs.ru.nl/~freek/digimath/index.html))
 
-* [[Carlos Simpson]], _[Verification and creation of proofs by computer](http://math.unice.fr/~carlos/themes/verif.html)_
 
 
-* {#Avigad12} [[Jeremy Avigad]], _Interactive Theorem Proving,
-Automated Reasoning, and Mathematical Computation_, 2012 [pdf slides](http://www.andrew.cmu.edu/user/avigad/Talks/icerm.pdf)
+
+
+See also
+
 
 
 * _[Conference Series on Intelligent Computer Mathematics](http://www.cicm-conference.org/)_
