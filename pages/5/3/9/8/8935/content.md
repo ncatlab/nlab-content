@@ -85,6 +85,8 @@ This sort of computational axiom K can also be implemented with, and is sufficie
 
 * [[uniqueness of identity proofs]]
 
+* [[axiom of circle type localization]]
+
 * [[boundary separation]]
 
 ## References
