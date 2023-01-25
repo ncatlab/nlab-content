@@ -57,6 +57,15 @@ The monoid of natural numbers is naturally even a [[rig]] -- in fact the [[initi
 
 * The integers satisfy the Archimedean property, making it into an [[Archimedean integral domain]]. 
 
+### Bijection of the integers with the natural numbers
+
+The integers are in bijection with the natural numbers. Both the integers and the natural numbers are [[submonoids]] of the [[rational numbers]], with [[pointed set|pointed]] [[monoid]] [[monomorphisms]] 
+$i_\mathbb{Z}:\mathbb{Z} \hookrightarrow \mathbb{Q}$ and $i_\mathbb{N}:\mathbb{N} \hookrightarrow \mathbb{Q}$ preserving addition, zero, and one. Let us take the relation on the rational numbers 
+$$x:\mathbb{Q}, y:\mathbb{Q} \vdash \left| x + x + \frac{1}{2} \right| =_\mathbb{Q} y + \frac{1}{2}$$ 
+The relation 
+$$x:\mathbb{Z}, y:\mathbb{N} \vdash \left| i_\mathbb{Z}(x + x) + \frac{1}{2} \right| =_\mathbb{Q} i_\mathbb{N}(y) + \frac{1}{2}$$ 
+is a [[one-to-one correspondence]], meaning that the integers are in bijection with the natural numbers. 
+
 ### Sequential Cauchy completeness
 
 Let $x:\mathbb{N} \to \mathbb{Z}$ be a sequence of integers, and let $b:\mathbb{Z}$ be an integer. Then, there is a limit relation defined as
