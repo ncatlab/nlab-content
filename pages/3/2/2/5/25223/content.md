@@ -23,13 +23,35 @@ In [[dependent type theory]], an **axiom of set truncation** is a [[axiom]] or u
 
 TODO: show that each of the axioms below implies the [[uniqueness of identity proofs]]. 
 
+### Uniqueness of identity proofs
+
+...
+
 ### Axiom K
 
 In [[dependent type theory]], [[axiom K (type theory)|axiom K]] is given by the following rule:
 
-$$
-\frac{\Gamma\vdash A\; type \quad \Gamma\vdash a : A \quad  \quad \Gamma \vdash p : a =_A a}{\Gamma\vdash K : p =_{a =_A a} refl_A(a)}
-$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma\vdash a:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, a)}{\Gamma\vdash K_A(a, p):\mathrm{Id}_{\mathrm{Id}_A(a, a)}(p, refl_A(a))}$$
+
+There are also axiom K for [[heterogeneous identity types]]:
+
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
+      \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \\
+     \Gamma \vdash q:\mathrm{hId}_{B}(a, b, p, f(a), f(b))
+    \end{array}
+}{\Gamma \vdash K_{B}(f, a, b, p, q):\mathrm{Id}_{\mathrm{hId}_{B}(a, b, p, f(a), f(b))}(q, \mathrm{ap}_{B}(f, a, b, p))}$$
+
+and for [[dependent heterogeneous identity types]]:
+
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
+      \Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash  a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \\
+     \Gamma \vdash q:\mathrm{hId}_{x:A.B(x)}(a, b, p, f(a), f(b))
+    \end{array}
+}{\Gamma \vdash K_{x:A.B(x)}(f, a, b, p, q):\mathrm{Id}_{\mathrm{hId}_{x:A.B(x)}(a, b, p, f(a), f(b))}(q, \mathrm{apd}_{x:A.B(x)}(f, a, b, p))}$$
 
 ### Boundary separation
 
