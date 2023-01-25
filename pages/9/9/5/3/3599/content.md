@@ -32,8 +32,28 @@ Dependent types can be thought of as [[fibrations]] ([[Serre fibrations]]) in cl
 
 $$P(\star_X)\to \sum_{x:X}P(x) \to X$$
 
+
+
 ## Relation to families of elements. 
  {#RelationToFamiliesOfElements}
+
+One may understand $A$-dependent types $a \colon A \;\vdash\; B(a)$ equivalently as [[function types|functions]] $B \to A$ with [[codomain]] $A$, i.e. as "type-[[bundles]]" (in the general, *not* locally trivial sense) or "type-[[fibrations]]" (in a rather accurate sense):
+
+The [[domain]] $B$ --- i.e. the "total space" of these bundles --- is identified with the [[dependent sum]] of the "[[fibers]]" $B(a)$, and conversely these fibers are indeed recovered from any such bundle as the [[fiber types]].
+
+Under the [[categorical semantics]] of [[dependent type theory]] (cf. [[categorical model of dependent types]] and [[relation between type theory and category theory]]) it is exactly these associated "type bundles" which are identified with actual [[fibrations]] ("[[display maps]]") in the given semantix [[category]].
+
+We now say this in more detail, first 
+
+* [purely syntactically](#TypeBundlesSyntactically)
+
+and then as
+
+* [reflected in a type universe](#TypeBundlesReflectedInTypeUniverse).
+
+
+### Syntactically
+ {#TypeBundlesSyntactically}
 
 Given a family of types, $x:A \vdash B(x)$, one can construct a family of elements $z:\sum_{x:A} B(x) \vdash \pi_1(z):A$ via the [[elimination rules]] for [[negative type|negative]] [[dependent sum types]]: 
 
@@ -89,6 +109,30 @@ $$
   \big)
 $$
 
+### Reflected in the type universe
+ {#TypeBundlesReflectedInTypeUniverse}
+
+Assuming the [[univalence]]-[[axiom]], the analogous statement holds reflected within a [[type universe]] $Type$: Given $X \,\colon\, Type$, the type $X \to Type$ of $X$-dependent types is [[equivalence of types|equivalent]] to the type $(X \colon Type) \times (Y \to X)$ of [[function type|functions]] with [[codomain]] $X$, via forming [[fiber types]] and [[dependent sum]]-types, respectively
+ &lbrack;[UFP13, Thm. 4.8.6](#UFP13)&rbrack; 
+
+$$
+  X \colon Type
+  \;\;\;\;
+  \vdash
+  \;\;\;\;
+  (Y \colon Type) \times (Y \to X)
+  \;\;
+  \simeq
+  \;\;
+  \big( X \to Type \big)
+  \,.
+$$
+
+<img src="https://ncatlab.org/nlab/files/TypeTheoreticObjectClassification-210125.jpg" width="600">
+
+Under the [[categorical semantics]] of [[homotopy type theory]] in [[(infinity,1)-topos|$\infty$-toposes]], this characterizes the [[type universe]] as (interpreted by) the (small) [[object classifier in an (infinity,1)-topos|object classifier in an $\infty$-topos]].
+
+
 ## Examples
 
 When the [[theory]] of a [[category]] is phrased in dependent type theory then there is one type "$obj$" of [[objects]] and a type $hom$ of [[morphisms]], which is dependent on two terms of type $obj$, so that for any $x,y:obj$ there is a type $hom(x,y)$ of arrows from $x$ to $y$.  This dependency is usually written as $x,y:obj \vdash hom(x,y):Type$.  In some theories, it makes sense to say that the type of "$hom$" itself is $obj, obj\to Type$ (usually understood as $obj \to (obj \to Type)$ or $(\obj \times \obj) \to Type$), i.e. a function from pairs of elements of $A$ to the [[type of types|universe]] $Type$ of types.
@@ -109,11 +153,17 @@ When the [[theory]] of a [[category]] is phrased in dependent type theory then t
 
 See the references at *[[dependent type theory]]*.
 
+Exposition:
+
 * Blog post: [In praise of dependent types](http://golem.ph.utexas.edu/category/2010/03/in_praise_of_dependent_types.html)
 
 In [[Coq]]:
 
 * Yves Bertot, _Introduction to dependent types in Coq_ ([pdf](http://www-sop.inria.fr/members/Yves.Bertot/tsinghua/tsinghua-1.pdf))
+
+The relation between dependent types and bundles (functions of given codomain)
+
+* {#UFP13} [[Univalent Foundations Project]], §4.8 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
 
 [[!redirects dependent types]]
