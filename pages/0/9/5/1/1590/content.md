@@ -71,7 +71,7 @@ A strict 2-monad $T$ has an underlying [[monad]] $T_0$, such that strict $T$-alg
 
 * F. Marmolejo, _Doctrines whose structure forms a fully faithful adjoint string_, Theory and Applications of Categories 3 (1997), 23--44. ([TAC](http://www.tac.mta.ca/tac/volumes/1997/n2/3-02abs.html))
 
-* [[Stephen Lack|S. Lack]], _A coherent approach to pseudomonads_, Adv. Math. 152 (2000), 179--202. ([ps](http://www.maths.usyd.edu.au:8000/u/stevel/papers/psm.ps.gz))
+* [[Stephen Lack]], _A coherent approach to pseudomonads_, Advances in Mathematics 152 (2000), 179--202. ([doi:10.1006/aima.1999.1881](https://doi.org/10.1006/aima.1999.1881))
 
 * [[Max Kelly]] and [[Steve Lack]], _On property-like structures_, Theory and Applications of Categories 3 (1997) 213--250.  ([TAC](http://www.tac.mta.ca/tac/volumes/1997/n9/3-09abs.html))
 
