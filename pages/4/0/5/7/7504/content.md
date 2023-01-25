@@ -19,9 +19,9 @@ In [[type theory]], a **negative type** is one whose *eliminators* are regarded 
 
 The opposite notion is a [[positive type]], forming two [[polarity in type theory|polarities]].
 
-In [[categorical semantics]] of type theory, negative types correspond to "from the right" universal properties (i.e. for mapping in).
+In [[categorical semantics]] of type theory, negative types correspond to "from the right" [[universal properties]] (i.e. for mapping in).
 
-In [[denotational semantics]], negative types behave well with respect to "call-by-name" and other [[lazy evaluation]] strategies.
+In [[denotational semantics]], negative types behave well with respect to "[[call-by-name]]" and other [[lazy evaluation]] strategies.
 
 
 ## Examples
