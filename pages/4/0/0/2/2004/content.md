@@ -223,6 +223,10 @@ For instance ([Borceux, vol 2, cor. 4.2.4](#Borceux)).
 
 ## References
 
+Original reference: 
+
+* [[Samuel Eilenberg]], [[John Moore]], _Adjoint functors and triples_, Illinois J. Math. 9 (3), pp. 381 - 398, September 1965. ([doi:10.1215/ijm/1256068141](https://doi.org/10.1215/ijm/1256068141))
+
 General discussion:
 
 * [[Fred Linton]], §7 in: *An outline of functorial semantics*, in *[[Seminar on Triples and Categorical Homology Theory]]*, Lecture Notes in Mathematics **80**, Springer (1969) 7-52 &lbrack;[doi:10.1007/BFb0083080](https://doi.org/10.1007/BFb0083080)&rbrack;
