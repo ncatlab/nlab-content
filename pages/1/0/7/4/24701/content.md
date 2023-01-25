@@ -148,7 +148,41 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \m
 
 ### Heterogeneous identification types
 
-To be done...
+Formation rule for dependent heterogeneous identification types:
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
+      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash y:B \quad \Gamma \vdash z:B
+    \end{array}
+  }{\Gamma \vdash y =_{B}^{p} z \; \mathrm{type}}$$ 
+
+Introduction rule for dependent heterogeneous identification types:
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
+      \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b
+    \end{array}
+  }{\Gamma \vdash \mathrm{ap}_{B}(f, a, b, p):f(a) =_{B}^{p} f(b)}$$ 
+
+Elimination rule for dependent heterogeneous identification types:
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
+      \Gamma, a:A, b:A, p:a =_A b, y:B(a), z:B(b), q:y =_{B}^p z \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
+      \Gamma \vdash t:\prod_{f:A \to B} \prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} C(a, b, p, f(a), f(b), \mathrm{ap}_{B}(f, a, b, p)) \\
+      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash y:B \quad \Gamma \vdash z:B \quad \Gamma \vdash q:y =_{B}^p z
+    \end{array}
+  }{\Gamma \vdash J_{B}^p(t, a, y, b, z, p, q):C(a, y, b, z, p, q)}$$
+
+Computation rules for dependent heterogeneous identification types:
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
+      \Gamma, a:A, b:A, p:a =_A b, y:B, z:B, q:y =_{B}^p z \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
+      \Gamma \vdash t:\prod_{f:A \to B} \prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} C(a, b, p, f(a), f(b), \mathrm{ap}_{B}(f, a, b, p)) \\
+      \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b
+    \end{array}
+  }{\Gamma \vdash \beta_{=_{B}^p}(t, f, a, b, p):J_{B}(t, a, f(a), b, f(b), p, \mathrm{ap}_{B}(f, a, b, p)) =_{C(a, f(a), b, f(b), p, \mathrm{ap}_{B}(f, a, b, p))} t}$$
 
 ### Dependent heterogeneous identification types
 
@@ -168,7 +202,7 @@ $$\frac{
       \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
       \Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b
     \end{array}
-  }{\Gamma, \vdash \mathrm{apd}_{x:A.B(x)}(f, a, b, p):f(a) =_{x:A.B(x)}^{p} f(b)}$$ 
+  }{\Gamma \vdash \mathrm{apd}_{x:A.B(x)}(f, a, b, p):f(a) =_{x:A.B(x)}^{p} f(b)}$$ 
 
 Elimination rule for dependent heterogeneous identification types:
 $$\frac{
