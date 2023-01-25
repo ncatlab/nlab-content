@@ -36,6 +36,7 @@ which are mutually defined with their action on terms and types.
 
 $$\frac{\Delta \vdash A\; \mathrm{type} \quad \delta:\Delta}{A[\delta]\; \mathrm{type}} \qquad \frac{\Delta \vdash a:A \quad \delta:\Delta}{a[\delta]:A[\delta]}$$
 
+
 ## See also
 
 * [[term in context]]
@@ -46,7 +47,7 @@ $$\frac{\Delta \vdash A\; \mathrm{type} \quad \delta:\Delta}{A[\delta]\; \mathrm
 
 ## References
 
-* [[Théo Winterhalter]], Formalisation and Meta-Theory of Type Theory ([web](https://github.com/TheoWinterhalter/phd-thesis))
+* [[Théo Winterhalter]], *Formalisation and Meta-Theory of Type Theory*, Nantes (2020) &lbrack;[pdf](https://github.com/TheoWinterhalter/phd-thesis/releases/download/v1.2.1/TheoWinterhalter-PhD-v1.2.1.pdf), [github](https://github.com/TheoWinterhalter/phd-thesis)&rbrack;
 
 * [[Mike Shulman]], Towards a Third-Generation HOTT Part 2 ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU))
 
@@ -54,3 +55,4 @@ $$\frac{\Delta \vdash A\; \mathrm{type} \quad \delta:\Delta}{A[\delta]\; \mathrm
 
 [[!redirects telescope]]
 [[!redirects telescopes]]
+
