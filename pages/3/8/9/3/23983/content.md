@@ -166,17 +166,6 @@ $$\frac{
     \end{array}
   }{\Gamma \vdash \beta_{\mathrm{hId}_{x:A.B(x)}}(t, f, a, b, p):\mathrm{Id}_{C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p))}(\mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)), t)}$$
 
-The same is true of the optional uniqueness rules for heterogeneous identity types:
-
-Optional uniqueness rules for judgmentally strict heterogeneous identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A, w:B(x), q:w(a) =_B^{p} w(b) \vdash q \equiv \mathrm{apd}_B^{p}(w):w(a) =_B^{p} w(b)}$$
-
-Optional uniqueness rules for propositionally strict heterogeneous identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A, w:B(x), q:w(a) =_B^{p} w(b) \vdash q \equiv_{w(a) =_B^{p} w(b)} \mathrm{apd}_B^{p}(w) \; \mathrm{true}}$$
-
-Optional uniqueness rules for weak heterogeneous identity types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A, w:B(x), q:w(a) =_B^{p} w(b) \vdash K_B^p(x, w, q):q =_{w(a) =_B^{p} w(b)} \mathrm{apd}_B^{p}(w)}$$
-
 ### As weak transport along an identity
 
 Another way to define the dependent heterogeneous identity type is by using [[weak transport]] along the identity $p$:
