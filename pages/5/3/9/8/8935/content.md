@@ -20,9 +20,9 @@
 
 ## Idea 
 
-In [[intensional type theory]], _axiom K_ refers to a couple of different axioms and rules applicable to individual [[types]] to turn them into [[h-sets]], [[type families]] to turn them into [[families of sets]] (and in particular, [[universes]] to turn them into internal types of sets), as well as the type theory as a whole to turn it into an actual [[set-level type theory]], where all types are [[h-sets]]. Under certain conditions, axiom K for universes is incompatible with the [[univalence axiom]], and axiom K for the whole type theory is incompatible with the existence of a [[univalent universe]]. 
+In [[dependent type theory]], _axiom K_ refers to a couple of different axioms and rules applicable to individual [[types]] to turn them into [[h-sets]], [[type families]] to turn them into [[families of sets]] (and in particular, [[universes]] to turn them into internal types of sets), as well as the type theory as a whole to turn it into an actual [[set-level type theory]], where all types are [[h-sets]]. Under certain conditions, axiom K for universes is incompatible with the [[univalence axiom]], and axiom K for the whole type theory is incompatible with the existence of a [[univalent universe]]. 
 
-Heuristically, the axiom asserts that each [[term]] of each [[identity type]] $\mathrm{Id}_A(a, a)$ (of [[equivalences]] of a [[term]] $a:A$) is [[typal equality|typally equal]] to the canonical [[reflexive relation|reflexivity]] equality proof $refl_A(a):\mathrm{Id}_A(a, a)$. This is equivalent to saying that for every element $a:A$, [[reflexivity]] $\mathrm{refl}_A(a)$ is the [[center of contraction]] of the [[loop space type]] of $a$. 
+Heuristically, the axiom asserts that for each element $a:A$, every [[identification]] of the [[identity type]] $\mathrm{Id}_A(a, a)$ is [[typal equality|typally equal]] to the canonical [[reflexive relation|reflexivity]] identification $refl_A(a):\mathrm{Id}_A(a, a)$. This is equivalent to saying that for every element $a:A$, [[reflexivity]] $\mathrm{refl}_A(a)$ is the [[center of contraction]] of the [[loop space type]] of $a$. 
 
 ## Statement
 
@@ -33,7 +33,7 @@ There are multiple notions of axiom K: for individual types, for type families a
 The following definition is adapted from theorem 7.2.1 of the [[HoTT book]]. Given a type $A$, axiom K is the axiom that for all elements $a:A$ and identifications $p:\mathrm{Id}_A(a, a)$, there is an identification $K(a, p):\mathrm{Id}_{\mathrm{Id}_A(a, a)}(p, refl_A(a))$. This is the same as stating that there is a dependent function
 $$K_A: \prod_{a:A} \prod_{p:\mathrm{Id}_A(a, a)} \mathrm{Id}_{\mathrm{Id}_A(a, a)}(p, refl_A(a))$$
 
-Axiom K implies that $A$ is an [[h-set]], and can be used in the definition of an [[h-set]]. Since this axiom K applies to types, it should probably be called the **typal axiom K** to distinguish it from other axioms K.
+Axiom K implies that $A$ is an [[h-set]], and can be used in the definition of an [[h-set]]. 
 
 ### For type families and universes
 
@@ -41,7 +41,7 @@ Axiom K for type families $(A, B)$ says that given a type $A$ with a type family
 
 $$K_{A, B}: \prod_{a:A} \prod_{b:B(a)} \prod_{p\mathrm{Id}_{B(a)}(b, b)} \mathrm{Id}_{\mathrm{Id}_{B(a)}(b, b)}(p,  \mathrm{refl}_{B(a)}(b))$$
 
-This definition of axiom K could be used in the definition of [[family of sets]]. Since this definition applies to type families, this should probably be called the **familial axiom K** to distinguish it from the typal axiom K above. 
+This definition of axiom K could be used in the definition of [[family of sets]]. Since this definition applies to type families, this should probably be called the **familial axiom K** to distinguish it from the axiom K above. 
 
 Since every Tarski universe consists of a type $U$ of encodings and a type family $T$ representing the actual small types indexed by the type $U$, with addition structure representing the closure of $U$ under all type formers, the familial axiom K definition works for Tarski universes as well, and this could equivalently be called the **Tarski universe axiom K**. 
 
