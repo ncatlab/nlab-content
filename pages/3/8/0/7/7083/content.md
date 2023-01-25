@@ -31,19 +31,22 @@ h-Sets can also be regarded as a way of embedding [[extensional type theory]] in
 
 Let $A$ be a [[type]] in [[dependent type theory]] with [[dependent sums]], [[dependent products]], and [[identity types]].  We define a new type $isSet(A)$ as follows:
 
-$$isSet(A) \coloneqq \prod_{x\colon A} \prod_{y\colon A} isProp(x=y)$$
+$$isSet(A) \coloneqq \prod_{x\colon A} \prod_{y\colon A} isProp(\mathrm{Id}_{A}(x, y))$$
 
-(using any equivalent definition of the [[predicate]] [[isProp]] for [[h-propositions]]; and where "$\prod$" denotes [[dependent product]] types and "$=$" denotes [[identity types]]).
+(using any equivalent definition of the [[predicate]] [[isProp]] for [[h-propositions]]; and where "$\prod$" denotes [[dependent product]] types and "$\mathrm{Id}_A$" denotes [[identity types]] on $A$).
 
 
 In other words, the only relationship between two elements of an h-set is whether they are equal; there is no room for more than one path between them.  By [[beta reduction|beta-reducing]] this definition, we can express it as
-$$isSet(A) \coloneqq \prod_{x,y\colon A} \prod_{p,q\colon x=y} (p=q)$$
+$$isSet(A) \coloneqq \prod_{x,y\colon A} \prod_{p,q\colon \mathrm{Id}_A(x, y)} \mathrm{Id}_{\mathrm{Id}_A(x, y)}(p, q)$$
 In other words, any two parallel paths in $A$ are equal.
 
 A provably [[equivalence in homotopy type theory|equivalent]] definition is
-$$isSet(A) \coloneqq \prod_{x\colon A} \prod_{p\colon x=x} (p=id_x)$$
+$$isSet(A) \coloneqq \prod_{x\colon A} \prod_{p\colon \mathrm{Id}_A(x, x)} \mathrm{Id}_{\mathrm{Id}_A(x, x)}(p, \mathrm{refl}_A(x))$$
 This says that a version of Streicher's "[[axiom K]]" holds for h-sets. (See also at _[[axiom UIP]]_.)
 
+Another definition of a h-set is an $S^1$-[[localization of a type|local type]], a type for which the canonical function $\mathrm{const}_{A, S^1}:A \to (S^1 \to A)$, which takes elements of $A$ to [[constant functions]] $S^1 \to A$ from the [[circle type]] $S^1$ to $A$, is an [[equivalence of types]]:
+
+$$\mathrm{isSet}(A) \coloneqq \prod_{f:S^1 \to A} \sum_{y:\sum_{x:A} \mathrm{Id}_{S^1 \to A}(\mathrm{const}_{A, S^1}(x), f)} \prod_{z:\sum_{x:A} \mathrm{Id}_{S^1 \to A}(\mathrm{const}_{A, S^1}(x), f)} \mathrm{Id}_{\sum_{x:A} \mathrm{Id}_{S^1 \to A}(\mathrm{const}_{A, S^1}(x), f)}(y, z)$$
 
 ## Examples
 
