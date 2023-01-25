@@ -43,7 +43,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:\mathrm{FreeGroup
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:\mathrm{FreeGroup}(A)}{\Gamma \vdash \lambda_\iota(x):\mathrm{Id}_{\mathrm{FreeGroup}(A)}\mu(\iota(x), x),  \epsilon)} \quad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:\mathrm{FreeGroup}(A)}{\Gamma\vdash \rho_\iota(x):\mathrm{Id}_{\mathrm{FreeGroup}(A)}(\mu(x, \iota(x)), \epsilon)}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:S^1 \to \mathrm{FreeGroup}(A)}{\Gamma \vdash \mathrm{circlocal}(f):\mathrm{isContr}\left(\sum_{x:\mathrm{FreeGroup}(A)} \mathrm{const}_{\mathrm{FreeGroup}(A), S^1}(x) =_{S^1 \to \mathrm{FreeGroup}(A)} f\right)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \tau:\mathrm{isSet}(\mathrm{FreeGroup}(A))}$$
 
 ## Properties
 
