@@ -102,21 +102,22 @@ Introductory accounts:
   > (emphasis on the [[categorical model of dependent types]])
 
 
-* [[Nicola Gambino]], _Lectures on dependent type theory_ (2009) &lbrack;[pdf](http://www.cs.le.ac.uk/events/mgs2009/courses/gambino/lecturenotes-gambino.pdf)&rbrack;
+Introduction with parallel details on using [[proof assistants]]:
 
-  > (In [part I](http://www.math.unipa.it/~ngambino/Research/Lectures/lecture1.pdf) there the standard [[type formation]], [[term introduction]]/[[term elimination]] and [[computation rules]] of dependent type theory are listed.)
-
-An introduction with parallel details on [[Coq]]-programming is in 
+for [[Coq]]:
 
 * [[Adam Chlipala]], _Certified programming with dependent types_, MIT Press 2013 &lbrack;[ISBN:9780262026659 ](https://mitpress.mit.edu/books/certified-programming-dependent-types), [pdf](http://adam.chlipala.net/cpdt/cpdt.pdf),  [book webpage](http://adam.chlipala.net/cpdt/)&rbrack;
 
-Discussion for [[Agda]]:
+* [[Théo Winterhalter]], *Formalisation and Meta-Theory of Type Theory*, Nantes (2020) &lbrack;[pdf](https://github.com/TheoWinterhalter/phd-thesis/releases/download/v1.2.1/TheoWinterhalter-PhD-v1.2.1.pdf), [github](https://github.com/TheoWinterhalter/phd-thesis)&rbrack;
+
+
+for [[Agda]]:
 
 * {#Norell08} [[Ulf Norell]], *Dependently Typed Programming in Agda*, p. 230-266 in: *Advanced Functional Programming* AFP 2008. Lecture Notes in Computer Science **5832** (2009) &lbrack;[doi:10.1007/978-3-642-04652-0_5](https://doi.org/10.1007/978-3-642-04652-0_5), [pdf](https://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf)&rbrack;
 
 * [[Agda]] Tutorial: _Introduction to dependent type theory_ ([webpage](http://ocvs.cfv.jp/Agda/tutorial/node128.html))
 
-A discussion of dependent type theory as the [[internal language]] of [[locally cartesian closed categories]] is in 
+Original  discussion of dependent type theory as the [[internal language]] of [[locally cartesian closed categories]] is in 
 
 * {#Seely} [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
 
