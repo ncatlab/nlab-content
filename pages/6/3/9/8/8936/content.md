@@ -75,6 +75,8 @@ Judgmental UIP is implied by [[boundary separation]] in [[cubical type theory]].
 
 ## Related concepts
 
+* [[axiom of set truncation]]
+
 * [[axiom K]]
 
 * [[boundary separation]]
