@@ -21,6 +21,12 @@ The __free group__ on a given [[set]] $S$ is the [[free object]] on $S$ in [[Grp
 
 ### In type theory
 
+In [[dependent type theory]], the free group on a type $A$ is the [[0-truncation]] of the [[underlying type of free infinity-group]] of $A$, $\mathrm{FreeGroup}(A) \coloneqq [\mathrm{UTFIG}(A)]_0$. This is because in any dependent type theory with [[uniqueness of identity proofs]], where every type is 0-truncated, the underlying type of the free infinity-group of $A$ is the free group of $A$. 
+
+In addition, one could construct the free group directly from the traditional axioms of a [[group]], as detailed below:
+
+#### Rules for free groups
+
 Formation rules for free groups:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{FreeGroup}(A) \; \mathrm{type}}$$
