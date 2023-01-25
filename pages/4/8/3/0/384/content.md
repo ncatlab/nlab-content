@@ -594,7 +594,7 @@ The introduction of the term is contained in
 * [[J. H. C. Whitehead]], _Combinatorial homotopy I_ , Bull. Amer. Math. Soc, 55, (1949), 213–245.
 
 
-Basic textbook accounts include
+Basic textbook accounts:
 
 * Brayton Gray, _Homotopy Theory: An Introduction to Algebraic Topology_, Academic Press, New York (1975). 
 
