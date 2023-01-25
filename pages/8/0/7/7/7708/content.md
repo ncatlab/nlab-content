@@ -132,6 +132,27 @@ See also
 
 * Wikipedia, *<a href="https://en.wikipedia.org/wiki/Structure_(mathematical_logic)">Structure_(mathematical_logic)</a>*
 
+Discussion of mathematical structures via [[dependent type theory]]:
+
+in [[Coq]]:
+
+* Herman Geuvers, Randy Pollack, [[Freek Wiedijk]], Jan Zwanenburg, *A Constructive Algebraic Hierarchy in Coq*, Journal of Symbolic Computation **34** 4 (2002) 271-286 &lbrack;[doi:10.1006/jsco.2002.0552](https://doi.org/10.1006/jsco.2002.0552), [pdf](http://www.cs.ru.nl/~herman/PUBS/JSC2002-GeuversPollackWiedijkZwanenburg-alghier1.pdf)&rbrack;
+
+* Claudio Sacerdoti Coen, Enrico Tassi, *Working with Mathematical Structures in Type Theory*, in: *Types for Proofs and Programs. TYPES 2007*, Lecture Notes in Computer Science **4941** Springer (2008) &lbrack;[doi:10.1007/978-3-540-68103-8_11](https://doi.org/10.1007/978-3-540-68103-8_11), [pdf](https://www.cs.unibo.it/~sacerdot/PAPERS/types07.pdf)&rbrack;
+
+* François Garillot, Georges Gonthier, Assia Mahboubi & Laurence Rideau, *Packaging Mathematical Structures*, in: *Theorem Proving in Higher Order Logics. TPHOLs 2009*, Lecture Notes in Computer Science **5674**, Springer (2009) &lbrack;[doi:10.1007/978-3-642-03359-9_23](https://doi.org/10.1007/978-3-642-03359-9_23)&rbrack;
+
+* [[Bas Spitters]], Eelis van der Wegen *Type classes for mathematics in type theory*, Mathematical Structures in Computer Science **21** 4 "Interactive Theorem Proving and the Formalisation of Mathematics" (2011) 795-825 &lbrack;[doi:10.1017/S0960129511000119](https://doi.org/10.1017/S0960129511000119)&rbrack;
+
+  > (via [[ufias2012:Type classes]])
+
+* Kazuhiko Sakaguchi, *Validating Mathematical Structures*, in *Automated Reasoning. IJCAR 2020*, Lecture Notes in Computer Science **12167**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-51054-1_8](https://doi.org/10.1007/978-3-030-51054-1_8)&rbrack;
+
+in [[Lean]]:
+
+* The mathlib Community, §4 in: *The Lean mathematical library*, in *CPP 2020: Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs* (2020) 367–381 &lbrack;[arXiv:1910.09336](https://arxiv.org/abs/1910.09336), [doi:10.1145/3372885.3373824](https://doi.org/10.1145/3372885.3373824)&rbrack;
+
+
 [[!redirects structure]]
 [[!redirects structures]]
 
