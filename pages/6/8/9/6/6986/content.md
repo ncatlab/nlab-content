@@ -48,53 +48,55 @@ That is, given a [[term]] of $\varnothing$, we can construct a [[term]] of any [
 
 More generally, in [[dependent type theory]] the elimination rule involves any $\varnothing$-[[dependent type]]:
 
-{#InferenceRules} The full positive [[inference rules]] for the [[empty type]] are as follows:
+{#InferenceRules} The inductive [[inference rules]] for the [[empty type]]:
 
 
-* **[[type formation rule]]:**
+**[[type formation rule]]:**
 
-  $$
-    \frac{
-    }{
-      \mathclap{\phantom{\vert^{\vert}}}
-      \varnothing \,\colon\, Type
-    }
-  $$
-
-\linebreak
-
-
-* **[[term introduction rule]]:**
-
-  $$
-  \text{--- none ---}
-  $$
+$$
+  \frac{
+  }{
+    \mathclap{\phantom{\vert^{\vert}}}
+    \varnothing \,\colon\, Type
+  }
+$$
 
 \linebreak
 
-* **[[term elimination rule]]:**
 
-  $$
-    \frac{
-      x \,\colon\, \varnothing
-      \;\vdash\;\;
-      D(x) \,:\, Type
-    }{
-      \mathclap{\phantom{\vert^{\vert}}}
-      ind_{(D)}
-      \,\colon\,
-      \underset{x \colon \varnothing}{\prod}
-      D(x)
-    }
-  $$
+**[[term introduction rule]]:**
+
+$$
+\text{--- none ---}
+$$
 
 \linebreak
 
-* **[[computation rule]]:**
+**[[term elimination rule]]:**
 
-  $$
-  \text{--- none ---}
-  $$
+$$
+  \frac{
+    x \,\colon\, \varnothing
+    \;\vdash\;\;
+    D(x) \,:\, Type
+  }{
+    \mathclap{\phantom{\vert^{\vert}}}
+    ind_{(D)}
+    \,\colon\,
+    \underset{x \colon \varnothing}{\prod}
+    D(x)
+  }
+$$
+
+\linebreak
+
+**[[computation rule]]:**
+
+$$
+\text{--- none ---}
+$$
+
+
 
 In fact these are the rules of the *[[inductive type]]* given by *no constructors*. Therefore, in [[programming languages]] supporting a [[calculus of constructions]], such as *[[Coq]]*,  the empty type may be defined by the following [[syntax]] for [[inductive type|inductive]] [[data types]] using literally an [[empty set|empty]] [[string (computer science)|string]] of constructors on the right:
 
@@ -139,9 +141,15 @@ The two definitions are provably equivalent, but only using the [[contraction ru
 
 ## References
 
-* {#UFP13} [[Univalent Foundations Project]], §1.7 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+* {#UFP13} [[Univalent Foundations Project]], §1.7 and §A.28 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
-* [[Egbert Rijke]], Def. 4.3.1 in: *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press &lbrack;[arXiv:2212.11082](https://arxiv.org/abs/2212.11082)&rbrack;
+* [[Egbert Rijke]], Def. 3.2.1 in: *Inductive types and the universe*, Lecture 3 in: *[Introduction to Homotopy Type Theory 2018](https://www.andrew.cmu.edu/user/erijke/hott/)* &lbrack;[pdf](https://www.andrew.cmu.edu/user/erijke/hott/inductive.pdf)&rbrack;
+
+
+In [[Agda]]: 
+
+* [[Martín Hötzel Escardó]], [§2.6](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html#emptytype) in *[Introduction to Univalent Foundations of Mathematics with Agda](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)* (2019-2022)
+
 
 
 [[!redirects bottom type]]
