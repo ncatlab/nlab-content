@@ -109,7 +109,7 @@ The h-sets in [[HoTT]] form a [[ΠW-pretopos]] ([Rijke-Spitters 13](#RijkeSpitte
 * {#Hedberg} Michael Hedberg, *A coherence theorem for Martin-L&#246;f's type theory*, J. Functional Programming, (1998)
  
 
-* Nicolai Kraus, *A direct proof of Hedberg's theorem*, [blog post](http://homotopytypetheory.org/2012/03/30/a-direct-proof-of-hedbergs-theorem/)
+* [[Nicolai Kraus]], *A direct proof of Hedberg's theorem*, [blog post](http://homotopytypetheory.org/2012/03/30/a-direct-proof-of-hedbergs-theorem/)
 
 * {#KECA} [[Nicolai Kraus]], [[Martin Escardo]], [[Thierry Coquand]] , [[Thorsten Altenkirch]], _Generalizations of Hedberg's theorem_, in M. Hasegawa (Ed.): TLCA 2013, LNCS 7941, pp. 173-188. Springer, Heidelberg 2013. ([pdf](http://www.cs.bham.ac.uk/~mhe/papers/hedberg.pdf))
  
