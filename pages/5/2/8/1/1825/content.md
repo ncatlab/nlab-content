@@ -346,7 +346,7 @@ $$
 
 *  The $(-1)$-sphere is the [[empty space]].
 
-*  The [[0-sphere]] is the [[disjoint union]] of two [[points]].
+*  The [[0-sphere]] is the [[disjoint union]] of two [[points]] (the classical [[boolean domain]]).
 
 *  The [[1-sphere]] is the [[circle]].
 
