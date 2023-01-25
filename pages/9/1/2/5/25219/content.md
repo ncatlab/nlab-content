@@ -138,6 +138,8 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:\mathrm{List}(A) \vdash
 
 * [[underlying type of free infinity-group]] (the invertible version of the type of lists)
 
+* [[James construction type]], [[free monoid]]
+
 ## References
 
 Types of lists are defined in section 5.1 in:
