@@ -450,6 +450,10 @@ Via [[exceptional field theory]]:
 
 Surveys and introductions:
 
+* [[Edward Witten]], *Baryons and Branes in Anti de Sitter Space* talk at *[String98](https://online.kitp.ucsb.edu/online/strings98/)* (1998) &lbrack;[web](https://online.kitp.ucsb.edu/online/strings98/witten/)&rbrack;
+
+  > (by the title, apparently originally intended to touch on [[AdS-QCD]], but de facto ending with focus on the problem of [[flat space holography]])
+
 * [[Alexander Polyakov]], *The wall of the cave*, Int. J. Mod. Phys. A **14** (1999) 645-658 &lbrack;[arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057), [doi:10.1142/S0217751X99000324](https://doi.org/10.1142/S0217751X99000324)&rbrack;
 
   > (early account with focus on [[AdS-QCD duality]])
