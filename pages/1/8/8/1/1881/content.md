@@ -92,6 +92,11 @@ which thereby becomes the free monoid on $c$.
 
 This applies immediately to $C = Set$, as this is a cocomplete [[cartesian closed category]]. 
 
+### In dependent type theory
+
+In a general [[dependent type theory]] where we do not assume [[uniqueness of identity proofs]], the free monoid on a type $A$ is the [[0-truncation]] of the [[type of lists]] of $A$, $\mathrm{FreeMonoid}(A) \coloneqq [\mathrm{List}(A)]_0$. This is because in any dependent type theory with [[uniqueness of identity proofs]], where every type is 0-truncated, the type of lists of $A$ is the free monoid of $A$. 
+
+Alternatively, the free monoid on $A$ can be constructed via the [[James construction type]] of $A$. 
 
 ## Examples
 
