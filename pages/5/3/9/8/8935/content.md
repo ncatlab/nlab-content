@@ -5,6 +5,10 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Foundational axiom
++-- {: .hide}
+[[!include foundational axiom - contents]]
+=--
 =--
 =--
 
