@@ -43,7 +43,7 @@ There is an equivalence of types $J A \simeq \Omega \Sigma A$ if $A$ is [[0-conn
 
 * [[pointed type]]
 
-* [[free monoid]]
+* [[free monoid]], [[list]]
 
 * [[James construction]]
 
