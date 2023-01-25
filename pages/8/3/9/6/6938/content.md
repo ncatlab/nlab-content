@@ -1,6 +1,5 @@
 
 
-
 **[[type]]**, [[type theory]]
 
 * [[propositions as types]], [[inductive type]], [[W-type]]
@@ -15,7 +14,7 @@
 
 **[[homotopy type]]**, [[homotopy type theory]]
 
-* [[identity type]], [[dependent identity type]]
+* [[identity type]], [[heterogeneous identity type]], [[dependent heterogeneous identity type]]
 
 * [[homotopy n-type]], [[connected type]]
 
