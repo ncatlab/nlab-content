@@ -113,36 +113,91 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathr
 Uniqueness rules for dependent function types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, f:\Pi(x:A).B(x) \vdash \eta_{\Pi(x:A).B(x)}(f):f =_{\Pi(x:A).B(x)} \lambda(x).f(x)}$$
 
+### Function types
+
+To be done...
+
+### isEquiv types
+
+The rules for isEquiv types are as follows:
+
+Formation rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B}{\Gamma \vdash \mathrm{isEquiv}(f) \; \mathrm{type}}$$
+
+Introduction rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \quad \Gamma \vdash a:A \quad \Gamma, y:B \vdash b(y):f(a) =_B y \quad \Gamma, x:A, y:B, z:f(x) =_B y \vdash \tau_A(x, y, z):a =_A x \quad \Gamma, x:A, y:B, z:f(x) =_B y \vdash \tau_B(x, y, z):b(y) =_B^{\tau_A(x, y, z)} z}{\Gamma \vdash w(a, b, \tau_A, \tau_B):\mathrm{isEquiv}(f)}$$
+
+Elimination rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash e:B}{\Gamma \vdash \mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, e):C[e/z]}$$
+
+Computation rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_B:\mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, f(a)) =_{C[f(a)/z]} c[a/x]}$$
+
+Uniqueness rules for isEquiv:
+$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash e:\mathrm{isEquiv}(f) \quad \Gamma, y:B \vdash u:C \quad \Gamma, a:A \vdash i_f(u):u[f(a)/y] =_{C[f(a)/y]} c[a/x]}{\Gamma \vdash \eta_{\mathrm{isEquiv}(f)}:u[e/z] =_{C[e/z]} \mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, e)}$$
+
+### Structural rules for definitions
+
+Now that we have finally defined identification types, we can define the structural rules for term definitions. The structural rules for term definitions say that given a term $a:A$ and a term definition $b \coloneqq a:A$, one could derive that $b$ is a term of $A$, and that there is an identification between $b$ and $a$:
+
+$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash a:A \quad \Gamma \vdash b \coloneqq a:A}{\Gamma \vdash \delta_A(a, b):a =_A b}$$
+
+Similarly, now that we have finally defined function types and isEquiv types, we can define the structural rules for type definitions. The structural rules for type definitions say that given a type $A$ and a type definition $B \coloneqq A \; \mathrm{type}$, one could derive that $B$ is a type, that there is a function between $A$ and $B$, and that function is an equivalence:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash \delta_{A, B}:A \to B} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash \epsilon_{A, B}:\mathrm{isEquiv}(\delta_{A, B})}$$
+
+### Heterogeneous identification types
+
+To be done...
+
 ### Dependent heterogeneous identification types
 
 Now that we have identification types and dependent product types, we can define dependent heterogeneous identification types, which are important for defining the rules for higher inductive types. 
 
 Formation rule for dependent heterogeneous identification types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, a:A, y:B(a), b:A, z:B(b), p:a =_A b \vdash y =_B^{p} z \; \mathrm{type}}$$ 
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
+      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash y:B(a) \quad \Gamma \vdash z:B(b)
+    \end{array}
+  }{\Gamma \vdash y =_{x:A.B(x)}^{p} z \; \mathrm{type}}$$ 
 
 Introduction rule for dependent heterogeneous identification types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, f:\Pi(x:A).B(x), a:A, b:A, p:a =_A b \vdash \mathrm{apd}_B(f, a, b, p):f(a) =_B^{p} f(b)}$$ 
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
+      \Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b
+    \end{array}
+  }{\Gamma, \vdash \mathrm{apd}_{x:A.B(x)}(f, a, b, p):f(a) =_{x:A.B(x)}^{p} f(b)}$$ 
 
 Elimination rule for dependent heterogeneous identification types:
 $$\frac{
     \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, a:A, y:B(a), b:A, z:B(b), p:a =_A b, q:y =_B^p z \vdash C(a, y, b, z, p, q) \; \mathrm{type} \\
-      \Gamma \vdash t:\Pi(a:A).\Pi(b:A).\Pi(p:a =_A b).\Pi(f:\Pi(x:A).B(x)).C(a, f(a), b, f(b), p, \mathrm{apd}_B(f, a, b, p))
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
+      \Gamma, a:A, b:A, p:a =_A b, y:B(a), z:B(b), q:y =_{x:A.B(x)}^p z \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
+      \Gamma \vdash t:\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) \\
+      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash y:B(a) \quad \Gamma \vdash z:B(b) \quad \Gamma \vdash q:y =_{x:A.B(x)}^p z
     \end{array}
-  }{\Gamma, a:A, y:B(a), b:A, z:B(b), p:a =_A b, q:y =_B^p z \vdash J_B^p(t, a, y, b, z, p, q):C(a, y, b, z, p, q)}$$
+  }{\Gamma \vdash J_{x:A.B(x)}^p(t, a, y, b, z, p, q):C(a, y, b, z, p, q)}$$
 
 Computation rules for dependent heterogeneous identification types:
 $$\frac{
     \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, a:A, y:B(a), b:A, z:B(b), p:a =_A b, q:y =_B^p z \vdash C(a, y, b, z, p, q) \; \mathrm{type} \\
-      \Gamma \vdash t:\Pi(a:A).\Pi(b:A).\Pi(p:a =_A b).\Pi(f:\Pi(x:A).B(x)).C(a, f(a), b, f(b), p, \mathrm{apd}_B(f, a, b, p))
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
+      \Gamma, a:A, b:A, p:a =_A b, y:B(a), z:B(b), q:y =_{x:A.B(x)}^p z \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
+      \Gamma \vdash t:\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) \\
+      \Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b
     \end{array}
-  }{\Gamma, f:\Pi(x:A).B(x), a:A, b:A, p:a =_A b \vdash \beta_{=_B^p}(t, f, a, b, p):J_B(t, a, f(a), b, f(b), p, \mathrm{apd}_B(f, a, b, p)) =_{C(a, f(a), b, f(b), p, \mathrm{apd}_B(f, a, b, p))} t}$$
+  }{\Gamma \vdash \beta_{=_{x:A.B(x)}^p}(t, f, a, b, p):J_{x:A.B(x)}(t, a, f(a), b, f(b), p, \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) =_{C(a, f(a), b, f(b), p, \mathrm{apd}_{x:A.B(x)}(f, a, b, p))} t}$$
+
+### Pair types
+
+To be done...
 
 ### Dependent pair types
 
 Formation rules for dependent pair types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma \vdash \Sigma(x:A).B(x) \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \Sigma(x:A).B(x) \; \mathrm{type}}$$
 
 Introduction rules for dependent pair types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A, y:B(x) \vdash \mathrm{in}(x, y):\Sigma(x:A).B(x)}$$
@@ -158,63 +213,14 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathr
 Uniqueness rules for dependent pair types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, z:\Sigma(x:A).B(x) \vdash \eta_{\Sigma(x:A).B(x)}(z):z =_{\Sigma(x:A).B(x)} \mathrm{in}(\mathrm{ind}_{\Sigma(x:A).B(x)}^A(z), \mathrm{ind}_{\Sigma(x:A).B(x)}^B(z))}$$
 
-### Non-dependent function types
-
-To be done...
-
-### Non-dependent heterogeneous identification types
-
-To be done...
-
-### Non-dependent pair types
-
-To be done...
-
-### Structural rules for definitions
-
-Now that we have finally defined identification types, we can define the structural rules for term definitions. The structural rules for term definitions say that given a term $a:A$ and a term definition $b \coloneqq a:A$, one could derive that $b$ is a term of $A$, and that there is an identification between $b$ and $a$:
-
-$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash a:A \quad \Gamma \vdash b \coloneqq a:A}{\Gamma \vdash \delta_A(a, b):b =_A a}$$
-
-The structural rules for type definitions are the natural deduction rules for [[copying]] types, with formation and introduction rules:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{copy}(a):B}$$
-
-elimination rules:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash e:B}{\Gamma \vdash \mathrm{ind}_{B}^C(c, e):C[e/z]}$$
-
-computation rules:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_B:\mathrm{ind}_{B}^C(c, \mathrm{copy}(a)) =_{C[\mathrm{copy}(a)/z]} c[a/x]}$$
-
-and uniqueness rules:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type} \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[\mathrm{copy}(x)/z] \quad \Gamma \vdash e:B \quad \Gamma, y:B \vdash u:C \quad \Gamma, a:A \vdash i_\mathrm{copy}(u):u[\mathrm{copy}(a)/y] =_{C[\mathrm{copy}(a)/y]} c[a/x]}{\Gamma \vdash \eta_{B}:u[e/z] =_{C[e/z]} \mathrm{ind}_{B}^C(c, e)}$$
-
-### isEquiv types and equivalence types
-
-The rules for isEquiv types are as follows:
-
-Formation rules for isEquiv:
-$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B}{\Gamma \vdash \mathrm{isEquiv}(f) \; \mathrm{type}}$$
-
-Introduction rules for isEquiv:
-$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B \quad \Gamma \vdash a:A \quad \Gamma, y:B \vdash b(y):f(a) =_B y \quad \Gamma, x:A, y:B, z:f(x) =_B y \vdash \tau_A(x, y, z):a =_A x \quad \Gamma, x:A, y:B, z:f(x) =_B y \vdash \tau_B(x, y, z):b(y) =_B^{\tau_A(x, y, z)} z}{\Gamma \vdash w(a, b, \tau_A, \tau_B):\mathrm{isEquiv}(f)}$$
-
-Elimination rules for isEquiv:
-$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash e:B}{\Gamma \vdash \mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, e):C[e/z]}$$
-
-Computation rules for isEquiv:
-$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_B:\mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, f(a)) =_{C[f(a)/z]} c[a/x]}$$
-
-Uniqueness rules for isEquiv:
-$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash e:\mathrm{isEquiv}(f) \quad \Gamma, y:B \vdash u:C \quad \Gamma, a:A \vdash i_f(u):u[f(a)/y] =_{C[f(a)/y]} c[a/x]}{\Gamma \vdash \eta_{\mathrm{isEquiv}(f)}:u[e/z] =_{C[e/z]} \mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, e)}$$
-
-A family of elements $x:A \vdash f(x):B$ is an equivalence if it comes with a family of elements
-$$y:B \vdash \epsilon(f)(y):\mathrm{isEquiv}(f)$$
-
 ### Positive types
 
-Now that we have [[identification types]], [[dependent heterogeneous identification types]], [[equivalence types]], [[dependent sum types]], and [[dependent product types]], we can use that to define the [[uniqueness quantifier]]
-$$\exists!x:A.B(x) \coloneqq \sum_{y:\sum_{x:A} B(x)} \prod_{z:\sum_{x:A} B(x)} y =_{\sum_{x:A} B(x)} z$$
+Now that we have [[identification types]], [[dependent heterogeneous identification types]], [[equivalence types]], [[dependent sum types]], and [[dependent product types]], we can use that to define the [[equivalence type]], the [[isContr]] [[modality]], the [[uniqueness quantifier]]
+$$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{isEquiv}(f)$$
+
+$$\mathrm{isContr}(A) \coloneqq \sum_{y:A} \prod_{z:A} y =_{A} z$$
+
+$$\exists!x:A.B(x) \coloneqq \mathrm{isContr}\left(\sum_{x:A} B(x)\right)$$
 and combine the [[elimination rule]], the [[computation rule]], and the [[uniqueness rule]] for any [[positive type]] into one rule, the [[universal property]] rule.   
 
 #### Unit type
@@ -245,7 +251,7 @@ Introduction rules for the interval type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{I}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathbb{I}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash p:0 =_{\mathbb{I}} 1}$$
 
 Universal property rule for the interval type:
-$$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \mathrm{up}_\mathbb{I}^C(c_0, c_1, c_p):\exists!c:\prod_{x:\mathbb{I}} C(x).(c(0) =_{C(0)} c_0) \times (c(1) =_{C(1)} c_1) \times (\mathrm{apd}_C(c, c_0, c_1, c_p) =_{c_0 =_C^p c_1} c_p)}$$
+$$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \mathrm{up}_\mathbb{I}^C(c_0, c_1, c_p):\exists!c:\prod_{x:\mathbb{I}} C(x).(c(0) =_{C(0)} c_0) \times (c(1) =_{C(1)} c_1) \times (\mathrm{apd}_{x:\mathbb{I}.C(x)}(c, c_0, c_1, c_p) =_{c_0 =_C^p c_1} c_p)}$$
 
 #### Copy types
 
@@ -287,7 +293,7 @@ Introduction rules for the circle type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{base}:S^1} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{loop}:\mathrm{base} =_{S^1} \mathrm{base}}$$
 
 Universal property rule for the circle type:
-$$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_C^\mathrm{loop} c_\mathrm{base}}{\Gamma \vdash \mathrm{up}_\mathbb{I}^C(c_\mathrm{base}, c_\mathrm{loop}):\exists!c:\prod_{x:\mathbb{I}} C(x).(c(\mathrm{base}) =_{C(\mathrm{base})} c_\mathrm{base}) \times (\mathrm{apd}_C(c, c_\mathrm{base}, c_\mathrm{base}, c_\mathrm{loop}) =_{c_\mathrm{base} =_C^\mathrm{loop} c_\mathrm{base}} c_\mathrm{loop})}$$
+$$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_C^\mathrm{loop} c_\mathrm{base}}{\Gamma \vdash \mathrm{up}_\mathbb{I}^C(c_\mathrm{base}, c_\mathrm{loop}):\exists!c:\prod_{x:\mathbb{I}} C(x).(c(\mathrm{base}) =_{C(\mathrm{base})} c_\mathrm{base}) \times (\mathrm{apd}_C(c, c_\mathrm{base}, c_\mathrm{base}, c_\mathrm{loop}) =_{c_\mathrm{base} =_{x:S^1.C(x)}^\mathrm{loop} c_\mathrm{base}} c_\mathrm{loop})}$$
 
 Extensionality rules for the circle type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{S^1}:(\mathrm{base} =_{S^1} \mathrm{base}) \simeq \mathbb{N} + \mathbb{1} + \mathbb{N}}$$
