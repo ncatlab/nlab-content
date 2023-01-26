@@ -19,7 +19,6 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -287,6 +286,8 @@ For more see [[counterexamples in algebra]].
 
 ## Literature
 
+For more see also the references at *[[group theory]]*.
+
 The original article that gives a definition equivalent to the modern definition of a group:
 
 * [[Heinrich Weber]], *Beweis des Satzes, dass jede eigentlich primitive quadratische Form unendlich viele Primzahlen darzustellen fähig ist*, Mathematische Annalen 20:3 (1882), 301–329 ([doi:10.1007/bf01443599](http://dx.doi.org/10.1007/bf01443599))
@@ -295,16 +296,36 @@ Textbook account in relation to applications in [[physics]]:
 
 * {#Sternberg94} [[Shlomo Sternberg]], *Group Theory and Physics*, Cambridge University Press 1994 ([ISBN:9780521558853](https://www.cambridge.org/gb/academic/subjects/mathematics/algebra/group-theory-and-physics?format=PB&isbn=9780521558853))
 
-Discussion in [[univalent foundations of mathematics]] ([[homotopy type theory]], but mostly for 1-groups):
-
-* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: Chapter 4 of: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$
-
 
 See also:
 
 * Wikipedia, *<a href="https://en.wikipedia.org/wiki/Group_(mathematics)">Group_(mathematics)</a>*
 
 * [[bananaspace]], *[群](https://www.bananaspace.org/wiki/%E7%BE%A4)* (Chinese)
+
+
+Formalization of groups in [[dependent type theory]] with the [[calculus of constructions]] 
+
+in [[Coq]]:
+
+* Farida Kachapova, *Formalizing groups in type theory* &lbrack;[arXiv:2102.09125](https://arxiv.org/abs/2102.09125)&rbrack;
+
+with [[univalence axiom]]:
+
+* [[unimath]] -> [UniMath.Algebra.Groups](https://unimath.github.io/doc/UniMath/d4de26f//UniMath.Algebra.Groups.html)
+
+in [[Agda]]:
+
+* [agda-unimath](https://unimath.github.io/agda-unimath/) -> [group-theory.groups](https://unimath.github.io/agda-unimath/group-theory.groups.html)
+
+in [[Lean]]:
+
+* [Lean Community](https://leanprover-community.github.io/) --> [mathlib](https://leanprover-community.github.io/mathlib-overview.html) --> [algebra.group.defs](https://leanprover-community.github.io/mathlib_docs/algebra/group/defs.html#top) --> [group](https://leanprover-community.github.io/mathlib_docs/algebra/group/defs.html#group)
+
+Alternative discussion (under [[looping and delooping]]) of groups in [[homotopy type theory]] as pointed connected [[homotopy 1-types]]:
+
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: Chapter 4 of: *[[Symmetry]]* (2021) &lbrack;[pdf](https://unimath.github.io/SymmetryBook/book.pdf)&rbrack;
+
 
 [[!redirects groups]]
 
