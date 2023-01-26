@@ -5,15 +5,15 @@
 
   \linebreak
 
-  _Perspectives on M-Theory_
+  **Perspectives on M-Theory**
 
   \linebreak
 
   interview/opening remarks at 
 
-  _[[M-Theory and Mathematics]]_
+  _[M-Theory and Mathematics 2020](/nlab/show/M-Theory+and+Mathematics#2020)_
 
-  January 2020
+  January 2020, NYU Abu Dhabi
 
   \linebreak
 
@@ -23,9 +23,12 @@
 
   view recording:
 
-  * [lead-in and first min](https://youtu.be/hCCmYwwKmhc)
+  * first min: [YT](https://youtu.be/hCCmYwwKmhc)
 
-  * **[full video stream](https://nyu.zoom.us/rec/share/zJBpF4Ch-39JWdLy62vjQvQiGaq6aaa8hCQX_qILzRpfMN17dpCEJSXld0pzPxFC?startTime=1579698234000)**
+  * full: [YT](https://youtu.be/aHj_Thu8d54)
+
+  * [pre-recording](https://nyu.zoom.us/rec/share/zJBpF4Ch-39JWdLy62vjQvQiGaq6aaa8hCQX_qILzRpfMN17dpCEJSXld0pzPxFC?startTime=1579698234000)
+
 
 on the early history of and the perspective of [[M-theory]].
 
