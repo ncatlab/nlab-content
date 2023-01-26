@@ -66,7 +66,7 @@ The same is true in the archetypical [[(∞,1)-topos]] [[∞Grpd]]. From that pe
 
 * a set as a 0-[[truncated]] $\infty$-groupoid: a [[0-groupoid]];
 
-* a [[subsingleton]] set as a $(-1)$-[[truncated]] $\infty$-groupoid: a [[(?1)-groupoid]].
+* a [[subsingleton]] set as a $(-1)$-[[truncated]] $\infty$-groupoid: a [[(-1)-groupoid]].
 
 In this sense, the object $false$ in [[Set]] or [[∞Grpd]] may canonically be thought of as being [[generalized the|the]] unique [[empty groupoid]].
 
@@ -75,7 +75,7 @@ In this sense, the object $false$ in [[Set]] or [[∞Grpd]] may canonically be t
 
 * [[true]], [[unit type]]
 
-* **false**, [[empty type]]
+* [[empty type]], [[ex falso quodlibet]]
 
 * [[contradiction]], [[inconsistency]], [[consistency]]
 
