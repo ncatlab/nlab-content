@@ -15,13 +15,15 @@
 
 ## Idea
 
+### General
+
 A _certification_ or _formal verification_ of a computer program is a formalized guarantee -- a [[proof]] -- that the program has given specified properties.  For instance, it could be guaranteed to compute a given output based on a given input, or to always terminate, or to not include a certain kind of security hole.
 
 Certifications often take the form of a [[proof]] that a program, regarded as a [[term]] of some sort (under _[[programs as proofs]]_), has a specified [[type]].  Thus, [[programming languages]] based on highly expressive [[type theories]] (including [[dependent types]]) are a natural place to do certified programming "natively".  Examples are _[[Coq]]_ and _[[Agda]]_. In this case, the program is written at the same time as a proof of its certification.  One often then wants to "extract" the executable code or "ignore" the proof part of the terms when actually running the code, for performance reasons; Coq and Agda include mechanisms designed for this.
 
-It is also possible to write a program in some less strongly typed language and provide an "external" certification for it, rather than one built into the program itself.  Computer proof assistants like Coq and Agda are also used for this, using a formal representation of some other programming language.  There are also other program analysis tools which can produce automated proofs of certain aspects of a computer program, such as safety and termination (although of course a *complete* solution to termination-checking is impossible, being the [[halting problem]]).
+It is also possible to write a program in some less strongly typed language and provide an "external" certification for it, rather than one built into the program itself.  Computer proof assistants like [[Coq]] and [[Agda]] are also used for this, using a formal representation of some other programming language.  There are also other program analysis tools which can produce automated proofs of certain aspects of a computer program, such as safety and termination (although of course a *complete* solution to termination-checking is impossible, being the [[halting problem]]).
 
-So far, fully certified programming in the type-theoretic sense is largely an academic endeavor, see for instance ([SpittersKrebbersvdWeegen](#SpittersKrebbersvdWeegen)); the tools available at present usually require too much time and effort to be worth the payoff in industry.  As automation progresses, this may change.
+### Via homotopy type theor
 
 From [Ghani et al. 15](#GhaniEtAl15):
 
@@ -179,6 +181,10 @@ and here again specifically for [[cryptography]]:
 * [[Paventhan Vivekanandan]], *A Homotopical Approach to Cryptography*, talk at [FCS 2018](https://www.andrew.cmu.edu/user/liminjia/events/fcs2018/papers/s33.pdf) ([pdf](https://www.andrew.cmu.edu/user/liminjia/events/fcs2018/papers/s33.pdf), [easychair:GLtQ#](https://easychair.org/smart-slide/slide/GLtQ#)), In: Charles Morisset and Limin Jia (eds.) FCS Informal Proceedings  **[55](http://t-news.cn/Floc2018/FLoC2018-pages/volume55.html)** (2018) 
 
 * [[Paventhan Vivekanandan]], *HoTT-Crypt: A Study in Homotopy Type Theory based on Cryptography*, Kalpa Publications in Computing Volume 9, 2018, Pages 75-90 ([doi:10.29007/tvpp](https://doi.org/10.29007/tvpp), [web slides](https://easychair.org/smart-slide/slide/WSST#), [[VivekanandanHoTTCryptography.pdf:file]])
+
+Explicitly using [[type equivalences]]:
+
+* [[Talia Ringer]], *Proof repair along type equivalences*, §4 in: *Proof Repair*, Univ. Washington (2021) &lbrack;[proquest:2568297410](https://www.proquest.com/docview/2568297410), [video](https://www.youtube.com/watch?v=_BkTrp44uBU)&rbrack;
 
 
 ### For quantum programming languages
