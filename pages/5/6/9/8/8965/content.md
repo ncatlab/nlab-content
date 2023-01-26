@@ -18,7 +18,6 @@
 =--
 
 
-
 # Contents
 * table of contents
 {: toc}
@@ -766,11 +765,14 @@ Discussion in a context of [[homotopy type theory]] and in view of [[higher indu
 
 * {#UFP13} [[Univalent Foundations Project]], §1.9 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
-
 * {#Söhnen18} Kajetan Söhnen, §2.4.5 in: *Higher Inductive Types in Homotopy Type Theory*, Munich (2018) &lbrack;[pdf](https://www.math.lmu.de/~petrakis/Soehnen.pdf), [[Soehnen-HigherInductiveTypes.pdf:file]]&rbrack;
 
 
+Equivalence to binary presentations:
 
+* [[Nicolas Magaud]], [[Yves Bertot]], *Changing Data Structures in Type Theory: A Study of Natural Numbers*, in *Types for Proofs and Programs. TYPES 2000*, Lecture Notes in Computer Science **2277** &lbrack;[doi:10.1007/3-540-45842-5_12](https://doi.org/10.1007/3-540-45842-5_12), [pdf](https://dpt-info.u-strasbg.fr/~magaud/papers/types2000-nmagaud.pdf)&rbrack;
+
+* [[Nicolas Magaud]], *Changing Data Representation within the Coq*, in *Theorem Proving in Higher Order Logics. TPHOLs 2003*, Lecture Notes in Computer Science **2758** &lbrack;[doi:10.1007/10930755_6](https://doi.org/10.1007/10930755_6)&rbrack;
 
 [[!redirects natural number type]]
 [[!redirects natural-number type]]
