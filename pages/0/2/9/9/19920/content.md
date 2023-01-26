@@ -16,6 +16,8 @@ Introducing the notion of [[type telescopes]]:
 
 ## Related entries
 
+* [[Automath]]
+
 * [[de Bruijn indices]]
 
 * [[type telescope]]
