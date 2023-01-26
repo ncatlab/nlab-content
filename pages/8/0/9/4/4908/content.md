@@ -24,6 +24,10 @@ On [[locally presentable categories|locally presentable]] and [[accessible categ
 
 * {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, London Mathematical Society Lecture Note Series **189**, Cambridge University Press 1994 ([doi:10.1017/CBO9780511600579](https://doi.org/10.1017/CBO9780511600579))
 
+On [[algebraic theories]]:
+
+* [[Jiří Adámek]], [[Jiří Rosický]], [[Enrico Vitale]], *Algebraic theories*, Cambridge University Press (2011) &lbrack;[doi:10.1017/CBO9780511760754](https://doi.org/10.1017/CBO9780511760754), [pdf](https://perso.uclouvain.be/enrico.vitale/gab_CUP2.pdf)&rbrack;
+
 
 
 ## Related entries
