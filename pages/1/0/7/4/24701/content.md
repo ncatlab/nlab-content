@@ -459,7 +459,7 @@ The fragment of objective type theory consisting of only [[identity types]] and 
 
 There are plenty of questions which are currently unresolved in objective type theory. Van der Berg and Besten in particular listed the following problems in their article:
 
-* Does [[univalence]] imply [[function extensionality]] in [[objective type theory]]?
+* Does [[univalence]] imply [[function extensionality]] for types in the universe in [[objective type theory]]?
 
 * Is (the [[homotopy type theory]] based upon) [[Martin-Löf type theory]] conservative over (the [[homotopy type theory]] based upon) [[objective type theory]]?
 
