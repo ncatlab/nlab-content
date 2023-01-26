@@ -438,11 +438,12 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 \linebreak
 
-* [[Michael Duff]]:
+* {#Duff2020} [[Michael Duff]]:
 
   _[[Duff interview at M-Theory-Mathematics 2020|Perspectives on M-Theory]]_
 
-  download: [video stream](https://nyu.zoom.us/rec/share/zJBpF4Ch-39JWdLy62vjQvQiGaq6aaa8hCQX_qILzRpfMN17dpCEJSXld0pzPxFC?startTime=1579698234000)
+  video: [YT](https://youtu.be/aHj_Thu8d54)
+
   
 \linebreak
 
