@@ -1,5 +1,5 @@
 
-> This entry is about a general concepts of "mathematical structure" in [[category theory]]. It subsumes but is more general than the concept of [[structure in model theory]].
+> This entry is about a general concepts of "mathematical structure" such as formalized by [[category theory]] and/or [[dependent type theory]]. This subsumes but is more general than the concept of [[structure in model theory]].
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -156,6 +156,11 @@ the general idea of representing mathematical structures as [[type telescopes]]:
   also in: Studies in Logic and the Foundations of Mathematics **133** (1994) 127-139 &lbrack;<a href="https://doi.org/10.1016/S0049-237X(08)70202-7">doi:10.1016/S0049-237X(08)70202-7</a>&rbrack;
 
 * [[Nicolaas de Bruijn]], *Telescopic mappings in typed lambda calculus*, Information and Computation **91** 2 (1991) 189-204 &lbrack;<a href="https://doi.org/10.1016/0890-5401(91)90066-B">doi:10.1016/0890-5401(91)90066-B</a>&rbrack;
+
+and with emphasis of the notion of [[isomorphism]] between such structures:
+
+* [[David McAllester]], *Dependent Type Theory as Related to the Bourbaki Notions of Structure and Isomorphism* &lbrack;[arXiv:2104.08958](https://arxiv.org/abs/2104.08958)&rbrack;
+
 
 in [[Coq]]:
 
