@@ -61,19 +61,39 @@ This is only true for the evident type of homotopy equivalences if we assume [[a
 Given types $A$ and $B$ and [[function]] $f:A \to B$, $f$ is an [[equivalence of types]] if $f$ has [[contractible type|contractible]] [[fiber type|fibers]] and $B$ satisfies the [[universal property]] of a [[unary sum]]/[[copy]] of $A$ with copy function $f:A \to B$. This means that one could define the type family $f:A \to B \vdash \mathrm{isEquiv}(f)$ using very similar natural deduction rules to the rules for [[unary sums]], but where the [[introduction rule]] states that given a function $f:A \to B$ and evidence that $f$ has contractible fibers, one could form a witness of $\mathrm{isEquiv}(f)$:
 
 Formation rules for isEquiv:
-$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B}{\Gamma \vdash \mathrm{isEquiv}(f) \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B}{\Gamma \vdash \mathrm{isEquiv}(f) \; \mathrm{type}}$$
 
 Introduction rules for isEquiv:
-$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma, y:B \vdash b(y):f(a) =_B y \quad \Gamma, x:A, y:B, z:f(x) =_B y \vdash \tau_A(x, y, z):a =_A x \quad \Gamma, x:A, y:B, z:f(x) =_B y \vdash \tau_B(x, y, z):b(y) =_B^{\tau_A(x, y, z)} z}{\Gamma \vdash w(a, b, \tau_A, \tau_B):\mathrm{isEquiv}(f)}$$
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:\prod_{y:B} f(a) =_B y \\
+      \Gamma \vdash \tau_A:\prod_{x:A} \prod_{y:B} (f(x) =_B y) \to (a =_A x) \quad \Gamma \vdash \tau_B:\prod_{x:A} \prod_{y:B} \prod_{z:f(x) =_B y} b(y) =_B^{\tau_A(x, y, z)} z
+    \end{array}
+  }{\Gamma \vdash \mathrm{witn}(a, b, \tau_A, \tau_B):\mathrm{isEquiv}(f)}$$
 
 Elimination rules for isEquiv:
-$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash e:B}{\Gamma \vdash \mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, e):C[e/z]}$$
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \\
+      \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c_f:\prod_{x:A} C(f(x)) \quad \Gamma \vdash b:B
+    \end{array}
+  }{\Gamma \vdash \mathrm{ind}_{\mathrm{isEquiv}(f)}^C(f, p, c_f, b):C(b)}$$
 
 Computation rules for isEquiv:
-$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_B:\mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, f(a)) =_{C[f(a)/z]} c[a/x]}$$
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \\
+      \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c_f:\prod_{x:A} C(f(x)) \quad \Gamma \vdash a:A
+    \end{array}
+  }{\Gamma \vdash \beta_{\mathrm{isEquiv}(f)}(f, p, c_f, a):\mathrm{ind}_{\mathrm{isEquiv}(f)}^C(f, p, c_f, f(a)) =_{C(f(a))} c_f(a)}$$
 
 Uniqueness rules for isEquiv:
-$$\frac{\Gamma A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \quad \Gamma, z:B \vdash C \; \mathrm{type} \quad \Gamma, x:A \vdash c:C[f(x)/z] \quad \Gamma \vdash e:\mathrm{isEquiv}(f) \quad \Gamma, y:B \vdash u:C \quad \Gamma, a:A \vdash i_f(u):u[f(a)/y] =_{C[f(a)/y]} c[a/x]}{\Gamma \vdash \eta_{\mathrm{isEquiv}(f)}:u[e/z] =_{C[e/z]} \mathrm{ind}_{\mathrm{isEquiv}(f)}^C(c, e)}$$
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \\
+      \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{y:B} C(y) \quad \Gamma \vdash b:B
+    \end{array}
+  }{\Gamma \vdash \eta_{\mathrm{isEquiv}(f)}(f, p, c, b):c(b) =_{C(b)} \mathrm{ind}_{\mathrm{isEquiv}(f)}^C(f, p, c, b)}$$
 
 #### Defining isEquiv from other type formers
 
