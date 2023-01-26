@@ -159,7 +159,7 @@ Exposition:
 
 In [[Coq]]:
 
-* Yves Bertot, _Introduction to dependent types in Coq_ ([pdf](http://www-sop.inria.fr/members/Yves.Bertot/tsinghua/tsinghua-1.pdf))
+* [[Yves Bertot]], _Introduction to dependent types in Coq_ &lbrack;[pdf](http://www-sop.inria.fr/members/Yves.Bertot/tsinghua/tsinghua-1.pdf)&rbrack;
 
 The relation between dependent types and bundles (functions of given codomain)
 
