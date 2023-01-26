@@ -20,7 +20,7 @@ It is common in [[mathematics]] to speak of
 
 1. objects enjoying "extra properties" (for instance a [[ring]] being [[commutative ring]]); 
 
-1. objects carrying "extra structure" (for instance a [[set]] carrying a [[topological space|topology]]);
+1. objects carrying "extra [[structure]]" (for instance a [[set]] carrying a [[topological space|topology]]);
 
 1. objects being equipped with "extra stuff" (for instance a [[ring]] being equipped with a [[module]]).
 
@@ -259,16 +259,22 @@ A map between [[homotopy type theory|homotopy types]] is equivalent to a [[depen
 
 ## References
 
+The original proposal for formalizing notions of [[mathematical structures]] via [[category theory]], specifically via the [[forgetful functors]] between the [[groupoids]] which they form:
+
+* {#Ehresmann57} [[Charles Ehresmann]], *Gattungen in Lokalen Strukturen*, Jahresbericht der Deutschen Mathematiker-Vereinigung **60** (1958) 49-77 &lbrack;[dml:146434](https://eudml.org/doc/146434)&rbrack;
+
+* {#Ehresmann65} [[Charles Ehresmann]], _Cat&#233;gories et Structures_, Séminaire Ehresmann. Topologie et géométrie différentielle **6** (1964) 1-31 &lbrack;[numdam:SE_1964__6__A8_0](http://www.numdam.org/item?id=SE_1964__6__A8_0), [dml:112200](https://eudml.org/doc/112200)&rbrack;
+
+Exposition and re-amplification:
+
 * {#BaezBartelsDolan98} [original UseNet discussion](http://math.ucr.edu/home/baez/qg-spring2004/discussion.html) on `sci.physics.research` in 1998;
 * a pedagogical comparison to quadratic, linear, and constant polynomials ([PDF](http://math.ucr.edu/home/baez/qg-spring2004/polynomials.pdf)) by Toby Bartels in 2004;
 
 * {#BaezShulman06} [section 2.4, p. 15](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=15) and [section 3.1, p. 17](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=17) of J. Baez and M. Shulman, _[[Lectures on n-Categories and Cohomology]]_ ([arXiv](http://arxiv.org/abs/math/0608420)).
 
-* {#Ehresmann57} [[Charles Ehresmann]], _Gattungen in Lokalen Strukturen_, 1957
+For modern accounts on mathematical structures via [[categorical algebra]] see also at *[[algebraic theory]]*, *[[monad]]*, *[[sketch]]*.
 
-* {#Ehresmann65} [[Charles Ehresmann]], _Cat&#233;gories et Structures_, Dunod, 1965
 
-* {#AdamekRosickyVitale09} Adamek, Rosicky, Vitale, _Algebraic theories_ [pdf](https://perso.uclouvain.be/enrico.vitale/gab_CUP2.pdf) (2009)
 
 
 [[!redirects stuff, structure, property]]
