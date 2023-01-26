@@ -57,6 +57,10 @@ Indications that the Hubble constant is decreasing over time:
 
 * Xuan-Dong Jia, Jian-Ping Hu, Fa-Yin Wang, *The evidence for a decreasing trend of Hubble constant*, ([arXiv:2212.00238](https://arxiv.org/abs/2212.00238))
 
+On the status of the Hubble tension as of 25 January 2023
+
+* Maria Dainotti, Biagio De Simone, Giovanni Montani, Tiziano Schiavone, Gaetano Lambiase, *The Hubble constant tension: current status and future perspectives through new cosmological probes* ([arXiv:2301.10572](https://arxiv.org/abs/2301.10572))
+
 [[!redirects Hubble constant]]
 
 [[!redirects Hubble tension]]
