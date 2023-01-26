@@ -10,7 +10,6 @@
 =--
 
 
-
 # Contents
 * table of contents
 {: toc} 
@@ -19,7 +18,7 @@
 
 In [[type theory]] the _empty type_ is the [[type]] with no [[term]].
 
-In a [[model]] by [[categorical semantics]], this is an [[initial object]]. In [[set theory]], it is an [[empty set]]. In [[logic]], especially via the [[propositions as types]] interpretation of type theory, it represents [[falsehood]]; and constructing a [[term]] of an empty type represents a [[contradiction]]; thus [[functions]] into the empty type are regarded as the [[negation]] of their [[domain]] [[proposition]]. 
+In a [[model]] by [[categorical semantics]] (cf. [[relation between type theory and category theory]]), this is an [[initial object]]. In [[set theory]], it is an [[empty set]]. In [[logic]], especially via the [[propositions as types]] interpretation of type theory, it represents [[falsehood]]; and constructing a [[term]] of an empty type represents a [[contradiction]]; thus [[functions]] into the empty type are regarded as the [[negation]] of their [[domain]] [[proposition]]. 
 
 ## Definition
 
@@ -29,27 +28,63 @@ To start with, since the empty type is not [[dependent type|dependent]], its [[t
 
 $$\frac{ }{\emptyset\colon Type}$$
 
+
 ### As a positive type
 
 The empty type is most naturally presented as a [[positive type]], so that the [[term introduction|constructor rules]] are primary.  However, since the empty type is supposed to contain no elements, there *are* no constructor rules.
 
-The [[term elimination|eliminator rules]] are derived from the constructor rules in the usual way: to use a term $e \,\colon\, \varnothing$, it suffices to specify what should be done for all the ([[zero]]) ways that $e$ could have been constructed.  Thus, we don't need any hypotheses:
+
+In fact one may understand the positively defined empty type as that *[[inductive type]]* which is given by *no constructors*. 
+
+Therefore, in [[programming languages]] supporting a [[calculus of constructions]], such as *[[Coq]]*,  the empty type may be defined by the following [[syntax]] for [[inductive type|inductive]] [[data types]] using literally an [[empty set|empty]] [[string (computer science)|string]] of constructors on the right:
+
+    Inductive empty : Type :=
+
+
+#### Recursion principle
+ {#RecursionPrinciple}
+
+We start by considering the [[recursion principle]] of the empty type, hence its un-[[dependent type|dependent]] [[elimination rule]]:
+
+The [[term elimination|eliminator rules]] are derived from the constructor rules in the usual way: to use a term $x \,\colon\, \varnothing$, given any $D \,\colon\, Type$,
+it suffices to specify what should be done for all the ways that $x \,\colon\, \varnothing$ could have been constructed. But for the empty type there are [[empty set|no such]] ways and hence -- *assuming* $x \,\colon\, \varnothing$ -- we obtain a term of any type $D$ under no further conditions:
 
 $$
-  \frac{ }
+  \frac{ 
+    D \,\colon\, Type
+  }
   {
-    e \,\colon\, \varnothing 
+    x \,\colon\, \varnothing 
     \;\; \vdash \;\; 
-    abort_C(e) \,\colon\, C
+    ind_D(x) \,\colon\, D
   }
 $$
 
-That is, given a [[term]] of $\varnothing$, we can construct a [[term]] of any [[type]] $C$.  
+Some ways to read this recursion principle:
 
-More generally, in [[dependent type theory]] the elimination rule involves any $\varnothing$-[[dependent type]]:
+* Understood as a statement in [[propositional logic]] (regarding *[[propositions as types]]*), this says that from a [[false]] assumption every [[proposition]] $D$ is [[implication|implied]] (*[[ex falso quodlibet]]*):
 
-{#InferenceRules} The inductive [[inference rules]] for the [[empty type]]:
+$$
+  False \;\Rightarrow\; D
+  \,.
+$$
 
+* Understood in the [[categorical semantics]] (cf. the [[relation between type theory and category theory]]) this translates to the first part of the characterization of an [[initial object]], namely the existence of [[morphisms]] into any [[codomain]] [[object]]:
+
+$$
+  \varnothing \xrightarrow{\exists} D
+  \,.
+$$
+
+What is not manifest from the above rule is the (essential) uniqueness of these morphisms; on that point see also the [eta conversion rule](#EtaConversion), below.
+
+
+#### Induction principle
+ {#InductionPrinciple}
+
+In [[dependent type theory]] the elimination rule of an [[inductive type]] is a dependent [[induction principle]] which involves any $\varnothing$-[[dependent type]]. 
+
+{#InferenceRules}  Applying the general rules for [[inductive types]] to the case of no generators, one obtains the following [[inference rules]]:
 
 **[[type formation rule]]:**
 
@@ -96,13 +131,32 @@ $$
 \text{--- none ---}
 $$
 
+Notice that the induction principle entails the recursion principle [above](#RecursionPrinciple) (cf. e.g. [MHE, §2.6](#MHE)), as for any inductive type:
+
+$$
+  \frac{
+  \frac{
+    D \,\colon\, Type
+  }
+  {
+  \big(
+    (x \,\colon\, \varnothing)
+    \mapsto
+    D
+  \big)
+  \,\colon\,
+  (\varnothing \to Type)
+  }
+  }{
+  ind_{ (x \mapsto D) }
+  \,\colon\,
+  (x \colon \varnothing) \to D
+  }
+$$
 
 
-In fact these are the rules of the *[[inductive type]]* given by *no constructors*. Therefore, in [[programming languages]] supporting a [[calculus of constructions]], such as *[[Coq]]*,  the empty type may be defined by the following [[syntax]] for [[inductive type|inductive]] [[data types]] using literally an [[empty set|empty]] [[string (computer science)|string]] of constructors on the right:
-
-    Inductive empty : Type :=
-
-\linebreak
+#### Eta-conversion
+ {#EtaConversion}
 
 Notice that there is no [[beta-reduction]] rule for the positive empty type, since there are no constructors to compose with the eliminator.  
 
@@ -133,7 +187,7 @@ The two definitions are provably equivalent, but only using the [[contraction ru
 
 [[!include empty objects -- contents]]
 
-* [[falsehood]]
+* [[falsehood]], [[ex falso quodlibet]]
 
 * [[sum type]]
 
@@ -148,8 +202,11 @@ The two definitions are provably equivalent, but only using the [[contraction ru
 
 In [[Agda]]: 
 
-* [[Martín Hötzel Escardó]], [§2.6](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html#emptytype) in *[Introduction to Univalent Foundations of Mathematics with Agda](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)* (2019-2022)
+* {#MHE} [[Martín Hötzel Escardó]], [§2.6](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html#emptytype) in *[Introduction to Univalent Foundations of Mathematics with Agda](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)* (2019-2022)
 
+See also: 
+
+* Wikipedia, *[Principle of explosion](https://en.wikipedia.org/wiki/Principle_of_explosion)*
 
 
 [[!redirects bottom type]]
