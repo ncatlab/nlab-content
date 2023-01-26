@@ -348,10 +348,6 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{copy}_A:A \to \m
 Universal property rule for copy types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:\mathrm{Copy}(A) \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{copy}_A}:\prod_{x:A} C(\mathrm{copy}_A(x))}{\Gamma \vdash \mathrm{up}_{\mathrm{Copy}(A)}^C(c_{\mathrm{copy}_A}):\exists!c:\prod_{x:\mathrm{Copy}(A)} C(x).\prod_{a:A} c(\mathrm{copy}_A(a)) =_{C(\mathrm{copy}_A(a))} c_{\mathrm{copy}_A}(a)}$$
 
-### Positive types with extensionality rules
-
-The following positive types has an additional extensionality rule characterizing the [[identification type]] of the positive type, defined using [[equivalence types]]. Otherwise, it is possible that the type is a proposition. 
-
 #### Booleans type
 
 Formation rules for the booleans type:
@@ -363,11 +359,6 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{2}} \qquad \frac{\Gamma 
 Universal property rule for the booleans type:
 $$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1)}{\Gamma \vdash \mathrm{up}_\mathbb{2}^C(c_0, c_1):\exists!c:\prod_{x:\mathbb{2}} C(x).(c(0) =_{C(0)} c_0) \times (c(1) =_{C(1)} c_1)}$$
 
-Extensionality rules for the booleans type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{2}}^{0, 0}:(0 =_{\mathbb{2}} 0) \simeq \mathbb{1}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{2}}^{0, 1}:(0 =_{\mathbb{2}} 1) \simeq \mathbb{0}}$$
-
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{2}}^{1, 0}:(1 =_{\mathbb{2}} 0) \simeq \mathbb{0}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{2}}^{1, 1}:(1 =_{\mathbb{2}} 1) \simeq \mathbb{1}}$$
-
 #### Circle type
 
 Formation rules for the circle type:
@@ -377,10 +368,7 @@ Introduction rules for the circle type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{base}:S^1} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{loop}:\mathrm{base} =_{S^1} \mathrm{base}}$$
 
 Universal property rule for the circle type:
-$$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_C^\mathrm{loop} c_\mathrm{base}}{\Gamma \vdash \mathrm{up}_\mathbb{I}^C(c_\mathrm{base}, c_\mathrm{loop}):\exists!c:\prod_{x:\mathbb{I}} C(x).(c(\mathrm{base}) =_{C(\mathrm{base})} c_\mathrm{base}) \times (\mathrm{apd}_C(c, c_\mathrm{base}, c_\mathrm{base}, c_\mathrm{loop}) =_{c_\mathrm{base} =_{x:S^1.C(x)}^\mathrm{loop} c_\mathrm{base}} c_\mathrm{loop})}$$
-
-Extensionality rules for the circle type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{S^1}:(\mathrm{base} =_{S^1} \mathrm{base}) \simeq \mathbb{N} + \mathbb{1} + \mathbb{N}}$$
+$$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_C^\mathrm{loop} c_\mathrm{base}}{\Gamma \vdash \mathrm{up}_\mathbb{I}^C(c_\mathrm{base}, c_\mathrm{loop}):\exists!c:\prod_{x:S^1} C(x).(c(\mathrm{base}) =_{C(\mathrm{base})} c_\mathrm{base}) \times (\mathrm{apd}_C(c, c_\mathrm{base}, c_\mathrm{base}, c_\mathrm{loop}) =_{c_\mathrm{base} =_{x:S^1.C(x)}^\mathrm{loop} c_\mathrm{base}} c_\mathrm{loop})}$$
 
 #### Sum types
 
@@ -392,15 +380,6 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}
 
 Universal property rule for sum types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A + B \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{in}_A}:\prod_{x:A} C(\mathrm{in}_A(x)) \quad \Gamma \vdash c_{\mathrm{in}_B}:\prod_{y:B} C(\mathrm{in}_B(y))}{\Gamma \vdash \mathrm{up}_{A + B}^C(c_{\mathrm{in}_A}, c_{\mathrm{in}_B}):\exists!c:\prod_{x:A + B} C(x).\left(\prod_{a:A} (c(\mathrm{in}_A(a)) =_{C(\mathrm{in}_A(a))} c_{\mathrm{in}_A}(a))\right) \times \left(\prod_{b:B} (c(\mathrm{in}_B(b)) =_{C(\mathrm{in}_B(b))} c_{\mathrm{in}_B}(b))\right)}$$
-
-Extensionality rules for the sum type:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{ext}_{A + B}^{\mathrm{in}_A, \mathrm{in}_A}:\prod_{a:A} \prod_{b:A} (\mathrm{in}_A(a) =_{A + B} \mathrm{in}_A(b)) \simeq (a =_A b)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{ext}_{A + B}^{\mathrm{in}_A, \mathrm{in}_B}:\prod_{a:A} \prod_{b:B} (\mathrm{in}_A(a) =_{A + B} \mathrm{in}_B(b)) \simeq \mathbb{0}}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{ext}_{A + B}^{\mathrm{in}_B, \mathrm{in}_A}:\prod_{a:B} \prod_{b:A} (\mathrm{in}_B(a) =_{A + B} \mathrm{in}_A(b)) \simeq \mathbb{0}}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{ext}_{A + B}^{\mathrm{in}_B, \mathrm{in}_B}:\prod_{a:B} \prod_{b:B} (\mathrm{in}_B(a) =_{A + B} \mathrm{in}_B(b)) \simeq (a =_B b)}$$
 
 #### Natural numbers type
 
@@ -447,6 +426,30 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}
 #### Propositional truncations and set truncations
 
 The propositional truncation $[A]$ of a type $A$ is localization of $A$ at the booleans type $\mathbb{2}$, $[A] \coloneqq L_\mathbb{2}(A)$. The set truncation $[A]_0$ of a type $A$ is localization of $A$ at the circle type $S^1$, $[A]_0 \coloneqq L_{S^1}(A)$. 
+
+### Extensionality rules
+
+The following types has an additional extensionality rule characterizing the [[identification type]] of the type, defined using [[equivalence types]]. 
+
+Extensionality rules for the booleans type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{2}}^{0, 0}:(0 =_{\mathbb{2}} 0) \simeq \mathbb{1}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{2}}^{0, 1}:(0 =_{\mathbb{2}} 1) \simeq \mathbb{0}}$$
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{2}}^{1, 0}:(1 =_{\mathbb{2}} 0) \simeq \mathbb{0}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{2}}^{1, 1}:(1 =_{\mathbb{2}} 1) \simeq \mathbb{1}}$$
+
+Extensionality rules for the circle type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{S^1}^{\mathrm{base}}:(\mathrm{base} =_{S^1} \mathrm{base}) \simeq \mathbb{N} + \mathbb{1} + \mathbb{N}}$$
+
+Extensionality rules for the copy type:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{ext}_{\mathrm{Copy}(A)}^{\mathrm{copy}_A}:\prod_{a:A} \prod_{b:A} (\mathrm{copy}_A(a) =_{\mathrm{Copy}(A)} \mathrm{copy}_A(b)) \simeq (a =_A b)}$$
+
+Extensionality rules for the sum type:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{ext}_{A + B}^{\mathrm{in}_A, \mathrm{in}_A}:\prod_{a:A} \prod_{b:A} (\mathrm{in}_A(a) =_{A + B} \mathrm{in}_A(b)) \simeq (a =_A b)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{ext}_{A + B}^{\mathrm{in}_A, \mathrm{in}_B}:\prod_{a:A} \prod_{b:B} (\mathrm{in}_A(a) =_{A + B} \mathrm{in}_B(b)) \simeq \mathbb{0}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{ext}_{A + B}^{\mathrm{in}_B, \mathrm{in}_A}:\prod_{a:B} \prod_{b:A} (\mathrm{in}_B(a) =_{A + B} \mathrm{in}_A(b)) \simeq \mathbb{0}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{ext}_{A + B}^{\mathrm{in}_B, \mathrm{in}_B}:\prod_{a:B} \prod_{b:B} (\mathrm{in}_B(a) =_{A + B} \mathrm{in}_B(b)) \simeq (a =_B b)}$$
 
 ## Categorical semantics
 
