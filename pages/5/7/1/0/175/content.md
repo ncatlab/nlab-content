@@ -42,9 +42,17 @@ There are many generalizations and related structures; for example the vertical 
 
 ## Literature
 
+Lecture notes
+
+* [[James Milne]], *Group theory* (2021) &lbrack;[web](https://www.jmilne.org/math/CourseNotes/gt.html), [pdf](https://www.jmilne.org/math/CourseNotes/GT.pdf)&rbrack;
+
 Textbook accounts
 
-in relation to applications in ([[quantum physics|quantum]]) [[physics]]:
+in general 
+
+* [[Joseph J. Rotman]], *An Introduction to the Theory of Groups*, Springer (1995) &lbrack;[doi:10.1007/978-1-4612-4176-8](https://doi.org/10.1007/978-1-4612-4176-8), [pdf](https://eclass.uoa.gr/modules/document/file.php/MATH676/Rotman%20An%20introduction%20to%20the%20theory%20of%20groups.pdf)&rbrack;
+
+and in relation to applications in ([[quantum physics|quantum]]) [[physics]]:
 
 * {#Wigner31} [[Eugene P. Wigner]]: *Gruppentheorie und ihre Anwendung auf die Quantenmechanik der Atomspektren*, Springer (1931) &lbrack;[doi:10.1007/978-3-663-02555-9](https://doi.org/10.1007/978-3-663-02555-9), [pdf](https://digbib.ubka.uni-karlsruhe.de/volltexte/wasbleibt/33355459/33355459.pdf)&rbrack;
 
