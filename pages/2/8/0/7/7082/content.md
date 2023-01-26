@@ -449,6 +449,8 @@ $$
 ## References
  {#References}
 
+### General
+
 The notion of two-sided homotopy equivalence of types in [[homotopy type theory]] appears (together with the formulation of the [[univalence axiom]]) already in
 
 * {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]], §5.4 of:  _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), *Twenty-five years of constructive type theory*, Proceedings of a congress, Venice, Italy, October 19-21, 1995. Oxford: Logic Guides. **36**, Clarendon Press (1998) 83-111 &lbrack;[ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz), [[HofmannStreicherGroupoidInterpretation.pdf:file]]&rbrack;
@@ -494,6 +496,10 @@ in [[Agda]]:
 On equivalences as one-to-one correspondences in homotopy type theory:
 
 * Mike Shulman, *Towards a Third-Generation HOTT* Part 1 &lbrack;[slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA)&rbrack;
+
+### Application in proof reuse
+
+* Gilles Barthe, Olivier Pons, *Type Isomorphisms and Proof Reuse in Dependent Type Theory*, in *Foundations of Software Science and Computation Structures. FoSSaCS 2001*, Lecture Notes in Computer Science **2030**, Springer (2001) &lbrack;[doi:10.1007/3-540-45315-6_4](https://doi.org/10.1007/3-540-45315-6_4)&rbrack;
 
 
 [[!redirects equivalence of types]]
