@@ -30,6 +30,10 @@ On [[algebraic number theory]]:
 
 * [[James Milne]], *Algebraic number theory*, 2020 ([pdf](https://www.jmilne.org/math/CourseNotes/ANT.pdf))
 
+On [[group theory]]:
+
+* [[James Milne]], *Group theory* (2021) &lbrack;[web](https://www.jmilne.org/math/CourseNotes/gt.html), [pdf](https://www.jmilne.org/math/CourseNotes/GT.pdf)&rbrack;
+
 
 
 ## Related entries
