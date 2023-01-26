@@ -196,7 +196,7 @@ In _[[Set]]_,
 #### Modules
  {#ExamplesModules}
 
-In the category *[[RMod]]* of [[module|modules]] over a [[commutative ring]] $R$ (recalling that we use thenotation of Def. \ref{QuillenNegation}):
+In the category *[[RMod]]* of [[module|modules]] over a [[commutative ring]] $R$ (recalling that we use the notation of Def. \ref{QuillenNegation}):
 
 The [[surjection|surjective]] [[homomorphisms]] are those with the [[right lifting property]] against the [[initial object|initial]] [[homomorphism]] from the [[zero]] [[module]] into the [[ground ring]]:
 
