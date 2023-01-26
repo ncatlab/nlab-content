@@ -451,7 +451,9 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **Lie superalgebra deformations and d=11 supergravity backgrounds**
 
-  download: [pdf slides](https://ncatlab.org/nlab/files/FigueroaOFarSlidesAtMTheoryAndMathematics2020.pdf) 
+  slides: [pdf](https://ncatlab.org/nlab/files/FigueroaOFarSlidesAtMTheoryAndMathematics2020.pdf) 
+
+  video: [YT](https://www.youtube.com/watch?v=e49vkX6HVQ0)
 
   > To every ([[supersymmetry|supersymmetric]]) background of [[d=11 supergravity]] there is associated a [[filtered object|filtered]] [[super Lie algebra|Lie superalgebra]]. For ($\gt 1/2$)-[[BPS state|BPS backgrounds]], this Lie superalgebra determines the background up to local [[isometry]]. I will then report on an [[Spencer cohomology|algebraic reformulation]] of this classification problem. This is [joint work with Andrea Santi](https://ncatlab.org/nlab/show/Spencer+cohomology#FFS17).
 
