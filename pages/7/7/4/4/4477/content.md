@@ -18,7 +18,7 @@
 +-- {: .num_defn #ProjectiveModule}
 ###### Definition
 
-For $R$ a [[ring]], a _projective $R$-module_ is a [[projective object]] in the [[category]] $R$[[Mod]]. 
+For $R$ a [[ring]], a _projective $R$-module_ is a [[projective object]] in the [[category]] $R$[[Mod]] of $R$-[[modules]]. 
 
 Hence an $R$-module $N$ is _projective_ precisely if for all [[diagrams]] of $R$-[[module]] [[homomorphisms]] of the form
 
@@ -290,7 +290,7 @@ For an $R$-module $P$, the following statements are equivalent:
 
 1. $P$ is finitely generated and projective.
 
-1. $P$ is a [[dualizable object]] in the category of $R$-modules (equipped with the tensor product as monoidal structure).
+1. $P$ is a [[dualizable object]] in the category of $R$-[[modules]] (equipped with the tensor product as monoidal structure).
 
 1. There exist elements $x_1,\ldots,x_n \in P$ and linear forms $\vartheta_1,\ldots,\vartheta_n \in Hom(P,R)$ such that $x = \sum_i \vartheta_i(x) x_i$ for all $x \in P$.
 
