@@ -24,6 +24,8 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, a:A, b:A \vdash \mathrm{p
 
 * [[excluded middle]]
 
+* [[ex falso quodlibet]]
+
 * [[closed subspace]]
 
 
