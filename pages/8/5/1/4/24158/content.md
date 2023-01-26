@@ -139,7 +139,7 @@ See also the commented list of problems at:
 
 ## In objective type theory
 
-* Does [[univalence]] imply [[function extensionality]] in [[objective type theory]]?
+* Does [[univalence]] imply [[function extensionality]] for types in the universe in [[objective type theory]]?
 
 * Is (the [[homotopy type theory]] based upon) [[Martin-Löf type theory]] conservative over (the [[homotopy type theory]] based upon) [[objective type theory]]?
 
