@@ -383,6 +383,7 @@ Let us denote the category of models and homomorphisms (in $Set$) of an algebrai
 
 * {#Manes76} [[Ernest G. Manes]], *Algebraic Theories*, Springer (1976) &lbrack;[doi:10.1007/978-1-4612-9860-1](https://doi.org/10.1007/978-1-4612-9860-1)&rbrack;
 
+* [[Jiří Adámek]], [[Jiří Rosický]], [[Enrico Vitale]], *Algebraic theories*, Cambridge University Press (2011) &lbrack;[doi:10.1017/CBO9780511760754](https://doi.org/10.1017/CBO9780511760754), [pdf](https://perso.uclouvain.be/enrico.vitale/gab_CUP2.pdf)&rbrack;
 
 * {#Johnstone} [[Peter Johnstone]], _[[Stone Spaces]]_
 
