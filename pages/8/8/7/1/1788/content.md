@@ -1,4 +1,15 @@
 
+* Gilles Barthe, Olivier Pons, *Type Isomorphisms and Proof Reuse in Dependent Type Theory*, in *Foundations of Software Science and Computation Structures. FoSSaCS 2001*, Lecture Notes in Computer Science **2030**, Springer (2001) &lbrack;[doi:10.1007/3-540-45315-6_4](https://doi.org/10.1007/3-540-45315-6_4)&rbrack;
+
+* Roberto di Cosmo, *A short survey of Isomorphisms of Types* &lbrack;[pdf](https://www.dicosmo.org/Articles/mscs-survey.pdf)&rbrack;
+
+* Sergei Soloviev, *On Isomorphism of Dependent Products in a
+Typed Logical Framework* &lbrack;[pdf](https://drops.dagstuhl.de/opus/volltexte/2015/5501/pdf/15.pdf)&rbrack;
+
+* [arXiv:2104.08958](https://arxiv.org/abs/2104.08958)
+
+    
+
 
 $$
   \frac{
