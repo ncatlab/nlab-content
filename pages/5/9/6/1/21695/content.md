@@ -7,7 +7,7 @@
 
 An indefinite integral is something less definite than a [[definite integral]].  Whereas a definite integral is typically some kind of number or other concrete quantity, an indefinite integral is typically another variable quantity of the same type as the integrand.
 
-The term 'indefinite integral' is itself rather indefinite, having been used for a variety of slightly different concepts.  Both _semidefinite integrals_ and _antiderivatives_ are more precise versions of indefinite integrals.  The [[fundamental theorem of calculus]] is basically the theorem that these two kinds of indefinite integral are essentially the same thing.
+The term 'indefinite integral' is itself rather indefinite, having been used for a variety of slightly different concepts.  Both _semidefinite integrals_ and _antiderivatives_ are more precise versions of indefinite integrals.  The [[fundamental theorem of calculus]] is basically the theorem that these different kinds of indefinite integral are essentially the same thing.
 
 
 ## Definitions and notation
@@ -69,15 +69,27 @@ is the indefinite integral of $f$ with initial point $a$ and initial value $C$:
 $$ F(x) = C + \int_a f(x) \,\mathrm{d}x .$$
 
 
-## On manifolds
+## Generalizations
 
-If we think of the [[real line]] as the prototypical $1$-dimensional [[differentiable manifold]] and $f(x) \,\mathrm{d}x$ as a [[differential form]] on that manifold, then we can try to generalize this to other [[exterior differential forms]], generalizing the FTC to the [[Stokes theorem]].  It\'s clear what an antiderivative is in this context: $\alpha$ is an __exterior antiderivative__ of $\omega$ iff $\omega$ is the [[exterior derivative]] of $\alpha$.  On a [[smooth manifold]], we know what 'almost' means and so can also define exterior almost antiderivatives.  However, it\'s less clear what a semidefinite integral or indefinite integral should be.
+### In cartesian spaces
 
-When $\omega$ is an exterior $1$-form on a subspace of $\mathbb{R}^n$ and $P$ is a point in its domain, then we can define the value of the semidefinite integral of $\omega$ with initial point $P$ to be the integral of $\omega$ along a straight line segment from $P$; the domain is a [[star-convex set]] radiating from $P$ and contained in $\dom \omega$.  If we define an indefinite integral as a semidefinite integral plus a constant initial value, then every antiderivative of $\omega$ on a star-convex set is an indefinite integral.  Conversely, every indefinite integral is an antiderivative if $\omega$ is closed.  This can perhaps be generalized to [[Riemannian manifolds]] by considering integrals along [[geodesics]]; although the geodesic between two points is not always unique (even when it exists), it is unique on a sufficiently small (and often quite large) neighbourhood.  (For example, on a [[sphere]], as long as $\omega$ is integrable, we can define the indefinite integral this way at every point except the one directly opposite the initial point.)
+When $\omega$ is an exterior $1$-form on a subspace $S$ of the [[cartesian space]] $\mathbb{R}^n$, then we can define an antiderivative (or antidifferential) of $\omega$ to be any real-valued function $f$ on $S$ such that $\mathrm{d}f = \omega$.  Then when $P$ is a point in $S$ (or perhaps its closure), we can define the value of the semidefinite integral of $\omega$ with initial point $P$ to be the integral of $\omega$ along a straight line segment from $P$; the domain is a [[star-convex set]] radiating from $P$ and contained in (the closure of) $S$.  If we define an indefinite integral as a semidefinite integral plus a constant initial value, then every antiderivative of $\omega$ on a star-convex set is an indefinite integral.  Conversely, every indefinite integral is an antiderivative if $\omega$ is closed.  If $\omega$ is not closed, then it still has indefinite integrals (as long as it\'s continuous or otherwise locally integrable), but these are no longer antiderivatives (which non-closed forms never have).
 
-On a more general manifold, we need a definition of semidefinite integral that exists much less often, but the value is that we no longer have to assume that $\omega$ is closed for half of the FTC; so this is probably the better definition.  So, if $\omega$ is a $1$-form on any differentiable manifold and $P$ is a point in its domain, then the semidefinite integral of $\omega$ with initial point $P$ is defined at another point $Q$ iff the integral of $\omega$ is the same along any path from $P$ to $Q$ (and then that integral is the value).  Then we can define an indefinite integral by adding a constant initial value.  It\'s still true that every antiderivative is an indefinite integral (at least on a [[path-connected space|path-connected]] domain, or more generally when the domain is a manifold in which we can [[axiom of choice|choose]] an initial point in each [[connected component]]), and now it\'s also true that every indefinite integral is an antiderivative.  By definition, $\omega$ is exact iff an antiderivative exists, and therefore iff an indefinite integral exists.  Similarly, $\omega$ is closed iff it has an indefinite integral on a neighbourhood of each point; if the domain of $\omega$ is simply connected, then the indefinite integral can be extended to the entire domain.
+This can perhaps be generalized to [[Riemannian manifolds]] by considering integrals along [[geodesics]]; although the geodesic between two points is not always unique (even when it exists), it is unique on a sufficiently small (and often quite large) neighbourhood.  (For example, on a [[sphere]], as long as $\omega$ is integrable, we can define the indefinite integral this way at every point except the one directly opposite the initial point.)
 
-## More general ##
+However, this straight-line definition seems rather artificial, and it might be best to use the more notion of semidefinite integral below, applicable only to closed forms but on more general manifolds.
+
+
+### On manifolds
+
+We can generalize to [[exterior differential forms]] on [[differentiable manifolds]], generalizing the FTC to the [[Stokes theorem]].  It\'s clear what an antiderivative is in this context: $\alpha$ is an __exterior antiderivative__ of $\omega$ iff $\omega$ is the [[exterior derivative]] of $\alpha$.  On a [[smooth manifold]], we know what 'almost' means and so can also define exterior almost antiderivatives.
+
+If $\omega$ is a $1$-form on any differentiable manifold and $P$ is a point in its domain, then the semidefinite integral of $\omega$ with initial point $P$ is defined at another point $Q$ iff the integral of $\omega$ is the same along any path from $P$ to $Q$ (and then that integral is the value).  We can define an indefinite integral by adding a constant initial value.  Then every antiderivative on a [[path-connected space|path-connected]] domain is an indefinite integral, and conversely every indefinite integral is an antiderivative.  By definition, $\omega$ is exact iff an antiderivative exists, and therefore iff an indefinite integral exists on each [[path-connected component]].  Similarly, $\omega$ is closed iff it has an indefinite integral on a neighbourhood of each point; if the domain of $\omega$ is [[simply-connected space|simply connected]], then the indefinite integral can be extended to the entire domain.
+
+It remains to consider a good notion of semidefinite and indefinite integrals for higher-rank forms.
+
+
+### In algebraic limit fields
 
 In an [[algebraic limit field]] $F$, the notion of a derivative is well defined and is represented by the [[Newton-Leibniz operator]] $\tilde{D}$. Given a [[subset]] $S \subseteq F$, and a function $f:S \to F$, the set of antiderivatives of $f$ is the [[fiber]] of the [[Newton-Leibniz operator]] at $f$:
 
@@ -85,9 +97,12 @@ $$\{g \in D^1(S, F) \vert \tilde{D}(g) = f\}$$
 
 An __antiderivative__ is an element of the above subset. 
 
-## See also ##
+
+## See also
 
 * [[differentiable function]]
+* [[integrable function]]
+
 
 [[!redirects indefinite integral]]
 [[!redirects indefinite integrals]]
