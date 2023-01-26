@@ -16,11 +16,11 @@
 ## Idea
  {#Idea}
 
-In [[computer science]], originally in [[database theory]], a data structure called *lenses* ([Foster, Greenwald, Moore, Pierce & Schmitt  (2007)](#FosterGreenwaldMoorePierceSchmitt07)) is used to formally capture situations where from  some data([[database|-base]]) may be extracted a specific *view* (say one field  in a record structure) in such a way that changes made to the view can be reflected as *updates* to the original data. 
+In [[computer science]], originally in [[database theory]], a data structure called *lenses* &lbrack;[Bohannon, Pierce & Vaughan (2006, §3)](#BohannonPierceVaughan06), [Foster, Greenwald, Moore, Pierce & Schmitt  (2007, §3)](#FosterGreenwaldMoorePierceSchmitt07)&rbrack; is used to formally capture situations where from  some [[data]]([[database|-base]]) may be extracted a specific *view* (say one field  in a record structure) in such a way that changes made to the view can be reflected as *updates* to the original data. 
 
 The same construction has been devised on numerous occasions (cf. [Hedges (2018)](#Hedges18)).
 
-In particular,  "well-behaved lenses" (those for which updates of the "view" completely overwrite any previous such changes) turn out to equivalently be just the [[coalgebra over a comonad|coalgebras]] of the [[costate comonad]] (cf. *[[monads in computer science]]*),  an observation due to [O’Connor (2010)](#O’Connor10), [(2011)](#O’Connor11);  see Prop. \ref{LensesAreCostateCoalgebras} below.
+In particular, "well-behaved lenses" ([BPV06, Def. 3.2](#BohannonPierceVaughan06)those for which updates of the "view" completely overwrite any previous such changes) turn out to equivalently be just the [[coalgebra over a comonad|coalgebras]] of the [[costate comonad]] (cf. *[[monads in computer science]]*),  an observation due to [O’Connor (2010)](#O’Connor10), [(2011)](#O’Connor11);  see Prop. \ref{LensesAreCostateCoalgebras} below.
  
 More generally, there are two different approaches to lenses:
 
@@ -156,9 +156,9 @@ $\varphi(s, u) : s \to p(s, u)$ in $S$ where $p(s, u) = cod(\varphi(a, u))$ is t
 
 ### General
 
-* {#LastnameAnotherlastnameYear} Aaron Bohannon, Benjamin C. Pierce, Jeffrey A. Vaughan, _Relational lenses: a language for updatable views_, Proceedings of Principles of Database Systems (PODS), 2006 ([doi:10.1145/1142351.1142399](https://doi.org/10.1145/1142351.1142399))
+* {#BohannonPierceVaughan06} Aaron Bohannon, [[Benjamin C. Pierce]], Jeffrey A. Vaughan, *Relational lenses: a language for updatable views*, Proceedings of Principles of Database Systems (PODS) (2006) 338-347 &lbrack;[doi:10.1145/1142351.1142399](https://doi.org/10.1145/1142351.1142399), [pdf](https://www.cis.upenn.edu/~bcpierce/papers/dblenses-pods.pdf)&rbrack;
 
-* {#FosterGreenwaldMoorePierceSchmitt07} J. N. Foster, M. B. Greenwald, J. T. Moore, B. C. Pierce, A. Schmitt, _Combinators for bidirectional tree transformations: A linguistic approach to the view-update problem_, ACM Transactions on Programming Languages and Systems, 29, 2007 ([doi:x10.1145/1232420.1232424](https://doi.org/10.1145/1232420.1232424))
+* {#FosterGreenwaldMoorePierceSchmitt07} J. N. Foster, M. B. Greenwald, J. T. Moore, [[Benjamin C. Pierce]], A. Schmitt, _Combinators for bidirectional tree transformations: A linguistic approach to the view-update problem_, ACM Transactions on Programming Languages and Systems **29** 3 (2007) 17-es &lbrack;[doi:x10.1145/1232420.1232424](https://doi.org/10.1145/1232420.1232424)&rbrack;
 
 * {#JohnsonRosebrughWood10} [[Michael Johnson]], [[Robert Rosebrugh]], [[Richard Wood]], _Algebras and Update Strategies_, Journal of Universal Computer Science, 16, 2010 ([doi:10.3217/jucs-016-05-0729](http://dx.doi.org/10.3217/jucs-016-05-0729))
 
