@@ -108,7 +108,7 @@ Similarly, one may define a successor [[functor]] on the [[category]] of well-or
 ## Related entries
 
 * [[well-quasi-order]]
-
+* [[marked extensional well-founded relation]]
 
 [[!redirects well order]]
 [[!redirects well orders]]
