@@ -19,6 +19,11 @@ On [[convenient categories of topological spaces]] and [[directed homotopy theor
 
 * {#FajstrupRosicky08} [[Lisbeth Fajstrup]], [[Jiří Rosický]], _A convenient category for directed homotopy_, Theory and Applications of Categories, Vol. 21, 2008, No. 1, pp 7-20. ([arXiv:0708.3937](https://arxiv.org/abs/0708.3937), [tac:21-01](http://www.tac.mta.ca/tac/volumes/21/1/21-01abs.html))
 
+On [[algebraic theories]]:
+
+* [[Jiří Adámek]], [[Jiří Rosický]], [[Enrico Vitale]], *Algebraic theories*, Cambridge University Press (2011) &lbrack;[doi:10.1017/CBO9780511760754](https://doi.org/10.1017/CBO9780511760754), [pdf](https://perso.uclouvain.be/enrico.vitale/gab_CUP2.pdf)&rbrack;
+
+
 On [[class-locally presentable categories]]:
 
 * [[Boris Chorny]], [[Jiří Rosický]], _Class-locally presentable and class-accessible categories_, Journal of Pure and Applied Algebra **216**, Issue 10 (2012) pp 2113–2125 ([doi:10.1016/j.jpaa.2012.01.015](https://doi.org/10.1016/j.jpaa.2012.01.015))
