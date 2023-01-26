@@ -77,6 +77,8 @@ where $A \vee B \coloneqq \left[A + B\right]$ and $\neg A \coloneqq A \to \mathb
 
 * [[law of double negation]]
 
+* [[ex falso quodlibet]]
+
 * [[proof by contradiction]]
 
 * [[De Morgan law]]
@@ -89,7 +91,7 @@ where $A \vee B \coloneqq \left[A + B\right]$ and $\neg A \coloneqq A \to \mathb
 
 * {#McLarty96} [[Colin McLarty]], _Elementary Categories, Elementary Toposes_, Oxford University Press, 1996
 
-### Relation to the axiom of choice
+### Relation to other axioms:
 
 Relation to the [[axiom of choice]] ([[Diaconescu-Goodman-Myhill theorem]]):
 
@@ -97,7 +99,10 @@ Relation to the [[axiom of choice]] ([[Diaconescu-Goodman-Myhill theorem]]):
 
 * {#GoodmanMyhill78} N. D. Goodman J. Myhill, _Choice Implies Excluded Middle_, Zeitschrift fuer Mathematische Logik und Grundlagen der Mathematik 24:461 (1978)
 
-Discussion in [[toposes]] is for instance in 
+Relation to *[[ex falso quodlibet]]* and the *[[law of double negation]]*:
+
+* Pedro Francisco, Valencia Vizcaíno, *Relations between ex falso, tertium non datur, and double negation elimination* &lbrack;[arXiv:1304.0272](https://arxiv.org/abs/1304.0272)&rbrack;
+
 
 
 ### In homotopy type theory
