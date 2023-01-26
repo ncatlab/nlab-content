@@ -61,11 +61,13 @@ Every [[subgroup]] of a free group is itself a free group. This is the _[[Nielse
 
 ## References
 
-Discussion in [[homotopy type theory]]:
+Discussion of free groups in [[homotopy type theory]]:
 
 * [[Univalent Foundations Project]], §6.11 of: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]*, Institute for Advanced Study (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
 * [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: §6.2 in: *[[Symmetry]]* (2021) &lbrack;[pdf](https://unimath.github.io/SymmetryBook/book.pdf)&rbrack;
+
+* [[Nicolai Kraus]], [[Thorsten Altenkirch]], *Free Higher Groups in Homotopy Type Theory*, LICS '18: Proceedings of the 33rd Annual ACM/IEEE Symposium on Logic in Computer Science, (2018) &lbrack;[arXiv;1805.02069](https://arxiv.org/abs/1805.02069), [doi:10.1145/3209108.3209183](https://doi.org/10.1145/3209108.3209183)&rbrack;
 
 
 
