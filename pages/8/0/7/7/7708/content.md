@@ -66,7 +66,7 @@ Generally the [[forgetful functor]] from a category of algebras over an [[algebr
 ## Structures in dependent type theory
  {#InDependentTypeTheory}
 
-In [[dependent type theory]] the notion of "mathematical structure" and/or *data structure* on a base $B \,\colon\, Type$ is given by iterated [[dependent pairs|dependent pairing]] with $B$-dependent types encoding operations on/with this type together with their behavioural specification.
+In [[dependent type theory]] the notion of "mathematical structure" and/or *data structure* on a base $B \,\colon\, Type$ is given by iterated [[dependent pairs|dependent pairings]] (hence forming "[[type telescopes]]|) with $B$-dependent types encoding operations on/with this type together with their behavioural specification.
 
 
 The following shows some examples, using the notation for [[dependent pairs]] from [[dependent functions and dependent pairs -- table|here]].
@@ -120,6 +120,8 @@ The [[dependent pair]]-type declaration of [[group objects|group structure]]:
 
 ## References
 
+### General
+
 * {#Ehresmann57} [[Charles Ehresmann]], _Gattungen in Lokalen Strukturen_, 1957
 
 * {#Ehresmann65} [[Charles Ehresmann]], _Cat&#233;gories et Structures_, Dunod, 1965
@@ -132,6 +134,9 @@ See also
 
 * Wikipedia, *<a href="https://en.wikipedia.org/wiki/Structure_(mathematical_logic)">Structure_(mathematical_logic)</a>*
 
+### In dependent type theory
+ {#ReferencesInDependentTypeTheory} 
+
 Discussion of mathematical structures via [[dependent type theory]]:
 
 in [[Coq]]:
@@ -142,7 +147,7 @@ in [[Coq]]:
 
 * François Garillot, Georges Gonthier, Assia Mahboubi & Laurence Rideau, *Packaging Mathematical Structures*, in: *Theorem Proving in Higher Order Logics. TPHOLs 2009*, Lecture Notes in Computer Science **5674**, Springer (2009) &lbrack;[doi:10.1007/978-3-642-03359-9_23](https://doi.org/10.1007/978-3-642-03359-9_23)&rbrack;
 
-* [[Bas Spitters]], Eelis van der Wegen *Type classes for mathematics in type theory*, Mathematical Structures in Computer Science **21** 4 "Interactive Theorem Proving and the Formalisation of Mathematics" (2011) 795-825 &lbrack;[doi:10.1017/S0960129511000119](https://doi.org/10.1017/S0960129511000119)&rbrack;
+* [[Bas Spitters]], Eelis van der Wegen *Type classes for mathematics in type theory*, Mathematical Structures in Computer Science **21** 4 "Interactive Theorem Proving and the Formalisation of Mathematics" (2011) 795-825 &lbrack;[doi:10.1017/S0960129511000119](https://doi.org/10.1017/S0960129511000119), [arXiv:1102.1323](https://arxiv.org/abs/1102.1323)&rbrack;
 
   > (via [[ufias2012:Type classes]])
 
