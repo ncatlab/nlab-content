@@ -33,6 +33,7 @@ A system of [[formal logic]] that proves a contradiction is called [[inconsisten
 
 ## Examples
 
+
 * [[Russell's paradox]]
 
 * [[Burali-Forti's paradox]]
@@ -40,6 +41,8 @@ A system of [[formal logic]] that proves a contradiction is called [[inconsisten
 * [[Cantor's paradox]]
 
 ## Related concepts
+
+* [[ex falso quodlibet]], [[empty type]]
 
 * [[paradox]]
 
