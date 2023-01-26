@@ -261,6 +261,7 @@ With the notation of Def. \ref{QuillenNegation} this reads as follows:
 
 
 #### Groups
+ {#ExamplesGroups}
 
 In the category _[[Grp]]_ of [[Group|groups]], 
 
