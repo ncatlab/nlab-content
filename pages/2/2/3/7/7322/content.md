@@ -31,10 +31,13 @@ Introducing [[relative monad|relative]] [[monads in computer science]]:
 
 * [[Thorsten Altenkirch]], [[James Chapman]], [[Tarmo Uustalu]], *Monads need not be endofunctors*, Logical Methods in Computer Science **11** 1:3 (2015) 1–40 &lbrack;[arXiv:1412.7148](https://arxiv.org/abs/1412.7148), [pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), <a href="https://doi.org/10.2168/LMCS-11(1:3)2015">doi:10.2168/LMCS-11(1:3)2015</a>&rbrack;
 
-
 On [[quotient inductive types]]:
 
 * {#ADK2017} [[Thorsten Altenkirch]], [[Nils A. Danielsson]], [[Nicolai Kraus]], _Partiality, Revisited: The Partiality Monad as a Quotient Inductive-Inductive Type_, FoSSaCS 2017, Lecture Notes in Computer Science **10203** Springer (2017) &lbrack;[arXiv:1610.09254](https://arxiv.org/abs/1610.09254)&rbrack; 
+
+On [[free groups]] and [[infinity-groups|$\infty$-groups]] in [[homotopy type theory]]:
+
+* [[Nicolai Kraus]], [[Thorsten Altenkirch]], *Free Higher Groups in Homotopy Type Theory*, LICS '18: Proceedings of the 33rd Annual ACM/IEEE Symposium on Logic in Computer Science, (2018) &lbrack;[arXiv;1805.02069](https://arxiv.org/abs/1805.02069), [doi:10.1145/3209108.3209183](https://doi.org/10.1145/3209108.3209183)&rbrack;
 
 
 ## Related entries
