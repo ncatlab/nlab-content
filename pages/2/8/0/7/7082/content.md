@@ -501,6 +501,9 @@ On equivalences as one-to-one correspondences in homotopy type theory:
 
 * Gilles Barthe, Olivier Pons, *Type Isomorphisms and Proof Reuse in Dependent Type Theory*, in *Foundations of Software Science and Computation Structures. FoSSaCS 2001*, Lecture Notes in Computer Science **2030**, Springer (2001) &lbrack;[doi:10.1007/3-540-45315-6_4](https://doi.org/10.1007/3-540-45315-6_4)&rbrack;
 
+* [[Talia Ringer]], RanDair Porter, Nathaniel Yazdani, John Leo, Dan Grossman, *Proof Repair across Type Equivalences* &lbrack;[arXiv:2010.00774](https://arxiv.org/abs/2010.00774)&rbrack;
+
+* [[Talia Ringer]], *Proof repair along type equivalences*, §4 in: *Proof Repair*, Univ. Washington (2021) &lbrack;[proquest:2568297410](https://www.proquest.com/docview/2568297410), [video](https://www.youtube.com/watch?v=_BkTrp44uBU)&rbrack;
 
 [[!redirects equivalence of types]]
 [[!redirects equivalences of types]]
@@ -572,3 +575,7 @@ On equivalences as one-to-one correspondences in homotopy type theory:
 
 [[!redirects homotopy isomorphism]]
 [[!redirects h-isomorphism]]
+
+
+[[!redirects type equivalence]]
+[[!redirects type equivalences]]
