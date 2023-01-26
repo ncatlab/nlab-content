@@ -20,7 +20,7 @@
 
 For $\mathcal{C}$ any [[category]] or, more generally, [[(n,r)-category]], its *core* is the maximal [[groupoid]] inside it, generally the maximal sub-[[(n,0)-category]], hence the maximal [[infinity-groupoid|$\infty$-groupoid]] inside it.
 
-Since[[functor]] out of a groupoid $\mathcal{G}$, and generally an [[(infinity,n)-functor|(n,r)-functor]] out of an [[infinity-groupoid|$\infty$-groupoid]], necessarily takes values in [[isomorphisms]] or generally in [[equivalences]], hence in the core of its [[codomain]], 
+Since a [[functor]] out of a groupoid $\mathcal{G}$, and generally an [[(infinity,n)-functor|(n,r)-functor]] out of an [[infinity-groupoid|$\infty$-groupoid]], necessarily takes values in [[isomorphisms]] or generally in [[equivalences]], hence in the core of its [[codomain]], 
 
 $$
   Cat_{n,r}
