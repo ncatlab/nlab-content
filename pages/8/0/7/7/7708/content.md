@@ -173,7 +173,7 @@ in [[Coq]]:
 
 in [[Lean]]:
 
-* The mathlib Community, §4 in: *The Lean mathematical library*, in *CPP 2020: Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs* (2020) 367–381 &lbrack;[arXiv:1910.09336](https://arxiv.org/abs/1910.09336), [doi:10.1145/3372885.3373824](https://doi.org/10.1145/3372885.3373824)&rbrack;
+* [The mathlib Community](https://leanprover-community.github.io/mathlib-overview.html), §4 in: *The Lean mathematical library*, in *CPP 2020: Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs* (2020) 367–381 &lbrack;[arXiv:1910.09336](https://arxiv.org/abs/1910.09336), [doi:10.1145/3372885.3373824](https://doi.org/10.1145/3372885.3373824)&rbrack;
 
 
 [[!redirects structure]]
