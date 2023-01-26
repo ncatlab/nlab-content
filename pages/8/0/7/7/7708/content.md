@@ -122,24 +122,27 @@ The [[dependent pair]]-type declaration of [[group objects|group structure]]:
 
 ### General
 
+On the history of the notion of "mathematical structure" with some focus on what [[Bourbaki]] did and did not contribute to the subject:
+
 * [[Leo Corry]], *Mathematical Structures from Hilbert to Bourbaki: The Evolution of an Image of Mathematics*, in: *Changing Images of Mathematics in History. From the French Revolution to the new Millenium* Harwood Academic Publishers (2001) 167-186 &lbrack;[ISBN:9780415868273](https://www.routledge.com/Changing-Images-in-Mathematics-From-the-French-Revolution-to-the-New-Millennium/Bottazini-Dalmedico/p/book/9780415868273), [pdf](https://www.leocorry.com/_files/ugd/e6fef7_15c7077b08ec4f249fb40eb961256ced.pdf)&rbrack;
 
 * [[Leo Corry]], *Modern Algebra and the Rise of Mathematical Structures*, Springer (2004) &lbrack;[doi:10.1007/978-3-0348-7917-0](https://doi.org/10.1007/978-3-0348-7917-0)&rbrack;
-
-
-See also:
-
-* {#Ehresmann57} [[Charles Ehresmann]], _Gattungen in Lokalen Strukturen_, 1957
-
-* {#Ehresmann65} [[Charles Ehresmann]], _Cat&#233;gories et Structures_, Dunod, 1965
-
-* {#AdamekRosickyVitale09} Adamek, Rosicky, Vitale, _Algebraic theories_ [pdf](http://www.iti.cs.tu-bs.de/~adamek/algebraic_theories.pdf) (2009)
 
 See also 
 
 * Wikipedia, *[Mathematical structure](https://en.wikipedia.org/wiki/Mathematical_structure)*
 
 * Wikipedia, *<a href="https://en.wikipedia.org/wiki/Structure_(mathematical_logic)">Structure_(mathematical_logic)</a>*
+
+
+Early proposal to grasp the notion of mathematical structures via [[category theory]] (specifically via [[forgetful functors]] between [[groupoids]]):
+
+* {#Ehresmann57} [[Charles Ehresmann]], *Gattungen in Lokalen Strukturen*, Jahresbericht der Deutschen Mathematiker-Vereinigung **60** (1958) 49-77 &lbrack;[dml:146434](https://eudml.org/doc/146434)&rbrack;
+
+* {#Ehresmann65} [[Charles Ehresmann]], _Cat&#233;gories et Structures_, Séminaire Ehresmann. Topologie et géométrie différentielle **6** (1964) 1-31 &lbrack;[numdam:SE_1964__6__A8_0](http://www.numdam.org/item?id=SE_1964__6__A8_0), [dml:112200](https://eudml.org/doc/112200)&rbrack;
+
+For modern accounts on mathematical structures via [[categorical algebra]] see also at *[[algebraic theory]]*, *[[monad]]*, *[[sketch]]*.
+
 
 ### In dependent type theory
  {#ReferencesInDependentTypeTheory} 
