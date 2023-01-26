@@ -66,7 +66,7 @@ Generally the [[forgetful functor]] from a category of algebras over an [[algebr
 ## Structures in dependent type theory
  {#InDependentTypeTheory}
 
-In [[dependent type theory]] the notion of "mathematical structure" and/or *data structure* on a base $B \,\colon\, Type$ is given by iterated [[dependent pairs|dependent pairings]] (hence forming "[[type telescopes]]|) with $B$-dependent types encoding operations on/with this type together with their behavioural specification.
+In [[dependent type theory]] the notion of "mathematical structure" and/or *data structure* on a base $B \,\colon\, Type$ is given by iterated [[dependent pairs|dependent pairings]] (hence forming "[[type telescopes]]" also called  "records" in [[Coq]]) with $B$-dependent types encoding operations on/with this type together with their behavioural specification.
 
 
 The following shows some examples, using the notation for [[dependent pairs]] from [[dependent functions and dependent pairs -- table|here]].
@@ -138,6 +138,14 @@ See also
  {#ReferencesInDependentTypeTheory} 
 
 Discussion of mathematical structures via [[dependent type theory]]:
+
+the general idea of representing mathematical structures as [[type telescopes]]:
+
+* [[Jeffery Zucker]], *Formalization of Classical Mathematics in Automath*, Colloques Internationaux du Centre National de la Recherche Scientifique **249** (1975) 135-145 &lbrack;[web](https://www.win.tue.nl/automath/archive/webversion/aut042/aut042.html), [pdf](https://www.win.tue.nl/automath/archive/pdf/aut042.pdf)&rbrack;
+
+  also in: Studies in Logic and the Foundations of Mathematics **133** (1994) 127-139 &lbrack;<a href="https://doi.org/10.1016/S0049-237X(08)70202-7">doi:10.1016/S0049-237X(08)70202-7</a>&rbrack;
+
+* [[Nicolaas de Bruijn]], *Telescopic mappings in typed lambda calculus*, Information and Computation **91** 2 (1991) 189-204 &lbrack;<a href="https://doi.org/10.1016/0890-5401(91)90066-B">doi:10.1016/0890-5401(91)90066-B</a>&rbrack;
 
 in [[Coq]]:
 
