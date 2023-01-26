@@ -116,18 +116,18 @@ One also speaks of *[[objects]]* having left or right lifting properties (for in
 
 
 
-\begin{definition}\label{QuillenNegation}
+\begin{definition}
+\label{QuillenNegation}
 **([[orthogonal class]]/[[Quillen negation]])**
 \linebreak
 Given a [[class]] $M \;\subset\; Mor(\mathcal{C})$ of [[morphisms]] in a [[category]] $\mathcal{C}$, its 
 
 * *left weak orthogonal class* or *left [[Quillen negation]]*
- ${}^{&solb;} M$ 
+ $\multiscripts{^&solb;}{M}{}$ 
 
 or 
 
-* *right weak orthogonal class* or *right [[Quillen negation]]* 
-$M^{&solb;}$  
+* *right weak orthogonal class* or *right [[Quillen negation]]*  $\multiscripts{}{M}{^&solb;}$  
 
 is the class of all morphisms which have the left, respectively right, lifting property (in the sense of Def. \ref{LiftingPropertiesOfMorphisms}) with respect to each morphism in the class $M$:
 
@@ -162,23 +162,103 @@ Decyphering notation in most of the examples below leads to standard definitions
 is that the class of morphisms consists of simple or archetypal examples
 related to the property defined. 
 
+We use the notation of Def. \ref{QuillenNegation}.
+
 ### Elementary examples 
 
 #### Sets
 
 In _[[Set]]_, 
 
-* $\{\emptyset\to \{*\}\}^{&solb;  r}$ is the class of surjections,
+* $
+    \big\{
+      \varnothing \to \{*\}\big
+    \}^{&solb;}
+    \;\;\;
+    =
+    \;\;\;
+    Srjctv
+  $ 
 
-* $(\{a,b\}\to \{*\})^{&solb;  r}=(\{a,b\}\to \{*\})^{&solb; \ell}$ is the class of injections.
+  is the class of [[surjective functions]],
+
+* $
+    \big( \{a,b\}\to \{*\} \big)^{&solb;}
+    \;\;\;
+    =
+    \;\;\;
+    Injctv
+  $ 
+
+  is the class of [[injective functions]].
+
 
 #### Modules
+ {#ExamplesModules}
 
-In the category *[[RMod]]* of [[module|modules]] over a [[commutative ring]] $R$,
+In the category *[[RMod]]* of [[module|modules]] over a [[commutative ring]] $R$ (recalling that we use thenotation of Def. \ref{QuillenNegation}):
 
-* $\{0\to R\}^{&solb;  r}, \{R\to 0\}^{&solb;  r}$ is the class of surjections, resp. injections,
+The [[surjection|surjective]] [[homomorphisms]] are those with the [[right lifting property]] against the [[initial object|initial]] [[homomorphism]] from the [[zero]] [[module]] into the [[ground ring]]:
 
-* A module $M$ is projective, resp. [[injective]], iff $0\to M$ is in $\{0\to R\}^{&solb; \ell r}$, resp. $M\to 0$ is in $\{R\to 0\}^{&solb;  rr}$.
+
+\[
+  \label{SurjectiveModuleMapsAsRightOrthClass}
+  \{ 0 \to R \}^{&solb;} 
+  \;\;\;=\;\;\; 
+  Srjctv
+  \,.
+\]
+
+The [[injection|injective]] [[homomorphisms]] are those with the [[right lifting property]] against the [[terminal object|terminal]] [[homomorphism]] from the [[ground ring]] 
+into the [[zero]] [[module]]:
+
+\[
+  \label{InjectiveModuleMapsAsRightOrthClass}
+  \{ R \to 0 \}^{&solb;}
+  \;\;\;=\;\;\;
+  Injctv
+  \,.
+\]
+
+
+An $R$-[[module]] $M$ is [[projective module|projective]] iff (by direct unwinding of the definitions of [[projective objects]] and lifts) the [[initial object|initial morphism]] $0 \to R$ (out of the [[zero]] [[module]] into the [[ground ring]]) has the [[left lifting property]] against all surjective homomorphisms.
+
+With the notation of Def. \ref{QuillenNegation} this reads as follows:
+
+  $$
+    M\;\text{projective}
+    \;\;\;\;\;
+      \Leftrightarrow
+    \;\;\;\;\;
+    \{ 0 \to M \}
+    \;&solb;\;
+    Srjctv
+    \;\;\;\;\;
+      \overset{
+        \text{(eq:SurjectiveModuleMapsAsRightOrthClass)}
+      }{
+      \Leftrightarrow
+      }
+    \;\;\;\;\;
+    \{ 0 \to M \}
+    \;&solb;\;
+    \Big(
+      \{ 0 \to R \}^{&solb;}
+    \Big)
+    \;\;\;\;\;
+      \Leftrightarrow
+    \;\;\;\;\;
+    \{ 0 \to M \}
+    \;\in\;
+    \multiscripts{^{&solb;}}
+    {
+    \Big(
+      \{ 0 \to R \}^{^&solb;}
+    \Big)
+    }{}
+  $$
+
+
 
 #### Groups
 
