@@ -93,7 +93,7 @@ To say that a given data (base) type $B \,\colon\, Set$ is
 
 1. such that this does behave as expected, namely as a [well-behaved](lens+in+computer+science#LensesAreCostateCoalgebras) $D$-[[lens (in computer science)|lens]]-structure on $B$
 
-means to declare it to be of the following iterated [[dependent pair]]-type:
+means to declare it to be of the following iterated [[dependent pair]]-[[telescope]] [[type]]:
 
 <img src="/nlab/files/WellBehavedLensDataStructure-210121.jpg" width="740">
 
@@ -101,9 +101,18 @@ means to declare it to be of the following iterated [[dependent pair]]-type:
 ### Group data structure
  {#GroupDataStructure}
 
-The [[dependent pair]]-type declaration of [[group objects|group structure]]:
+The [[dependent pair]]-[[telescope]] [[type]] declaration of [[group objects|group structure]]:
 
 <img src="/nlab/files/GroupDataType-230121.jpg" width="740">
+
+
+### Vector space structure
+ {#VectorSpaces}
+
+Given a [[ground field]] type $\mathbb{K}$, the type of [[vector spaces]] is the following [[dependent pair]]-[[telescope]]:
+
+<img src="/nlab/files/VectorSpaceDataStructure-230128b.jpg" width="740">
+
 
 
 ## Related entries
