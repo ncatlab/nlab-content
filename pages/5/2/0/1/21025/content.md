@@ -463,6 +463,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
   
   **Off-shell Supersymmetry and the M-theory Effective Action**
 
+  video: [YT](https://www.youtube.com/watch?v=w50XhsA4AYo)
+
   cf.: [arXiv:2101.11671](https://arxiv.org/abs/2101.11671)
 
 \linebreak
@@ -507,7 +509,7 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 \linebreak
 
-* [[Urs Schreiber]]: 
+* {#Schreiber2020} [[Urs Schreiber]]: 
 
   **[[schreiber:Microscopic Brane Physics from Cohomotopy]]**
 
