@@ -465,9 +465,9 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **M-theory and cohomotopy**
 
-  slides [pdf](https://ncatlab.org/nlab/files/Sati_MTheoryCohomotopy_2020.pdf)
+  slides: [pdf](https://ncatlab.org/nlab/files/Sati_MTheoryCohomotopy_2020.pdf)
 
-  [[Cohomotopy theory]] has recently emerged as the proper [[generalized cohomology|generalized cohomology theory]] to describe the [[field (physics)|fields]] in [[M-theory]]. It is hoped that viewing M-theory from a mathematical perspective will shed the light on the nature of the theory and will allow for progress. I will survey this area, illustrating how cohomotopy captures the nature of the [[nLab:supergravity C-field|C-field]] and its dual as well as of the [[M-branes]], allows for cancellation of various [[nLab:quantum anomaly|anomalies]], and provides a firm grounding for further study of M-theory. This is joint work [[Urs Schreiber]] and [[Domenico Fiorenza]].
+  > [[Cohomotopy theory]] has recently emerged as the proper [[generalized cohomology|generalized cohomology theory]] to describe the [[field (physics)|fields]] in [[M-theory]]. It is hoped that viewing M-theory from a mathematical perspective will shed the light on the nature of the theory and will allow for progress. I will survey this area, illustrating how cohomotopy captures the nature of the [[nLab:supergravity C-field|C-field]] and its dual as well as of the [[M-branes]], allows for cancellation of various [[nLab:quantum anomaly|anomalies]], and provides a firm grounding for further study of M-theory. This is joint work [[Urs Schreiber]] and [[Domenico Fiorenza]].
 
 \linebreak
 
@@ -571,9 +571,19 @@ This is joint work with [[nLab:Hisham Sati|H. Sati]] ([[schreiber:Equivariant Co
 
   slides: [pdf](https://ncatlab.org/nlab/files/HeSlidesAtMTheoryAndMathematics2020.pdf)
 
+  video: [YT](https://www.youtube.com/watch?v=i-kuoXjcKls)
+
   > We review how historically the problem of [[string phenomenology]] lead theoretical physics first to algebraic/differential geometry, and then to computational geometry, and now to data science and AI. With the concrete playground of the [[Calabi-Yau manifold|Calabi-Yau]] [[landscape of string theory vacua|landscape]], accumulated by the collaboration of physicists, mathematicians and computer scientists over the last 4 decades, we show how the latest techniques in [[machine learning|machine-learning]] can help explore problems of physical and mathematical interest.
 
+\linebreak
+
+* {#Varghese2020} [[Mathai Varghese]]
+
+  **T-Duality, loop spaces and Witten gerbe modules**
+
+  cf.: [arXiv:2001.00322](https://arxiv.org/abs/2001.00322)
  
+
 \linebreak
 
 \linebreak
