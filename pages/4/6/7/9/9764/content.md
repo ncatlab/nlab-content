@@ -3,9 +3,17 @@
 
 ## Selected writings
 
+On the [[superembedding approach]] for [[super p-branes|super $p$-branes]]/[[Green-Schwarz sigma-models]]:
+
+* {#BPSTV95} [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], [[Dmitry Volkov]], _Superstrings and supermembranes in the doubly supersymmetric geometrical approach_, Nucl. Phys. B **446** (1995) 79-118 &lbrack;[arXiv:hep-th/9501113](https://arxiv.org/abs/hep-th/9501113)&rbrack;
+
+* [[Igor A. Bandos]], [[Dmitri P. Sorokin]], *Superembedding approach to superstrings and super-$p$-branes*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2301.10668](https://arxiv.org/abs/2301.10668)&rbrack;
+
+
 On [[superstrings]] and [[super membranes]] formulated in [[superspace]]:
 
 * [[Igor Bandos]], [[Dmitrij Sorokin]], [[Dmitrij Volkov]], _On the generalized action principle for superstrings and supermembranes_, Phys. Lett. B352:269-275, 1995 ([arXiv:hep-th/9502141](https://arxiv.org/abs/hep-th/9502141))
+
 
 
 On the [[Green-Schwarz sigma-model]] for the [[M5-brane]]:
@@ -36,8 +44,14 @@ Proposal for a non-abelian and [[supersymmetry|supersymmetric]] [[DBI-action]] f
 
 * [[Igor Bandos]], Unai D. M. Sarraga, *Properties of multiple D0-brane system: 11D origin, equations of motion and their solutions* &lbrack;[arXiv:2212.14829](https://arxiv.org/abs/2212.14829)&rbrack;
 
+* [[Igor A. Bandos]], [[Dmitri P. Sorokin]], *Superembedding approach to superstrings and super-$p$-branes*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2301.10668](https://arxiv.org/abs/2301.10668)&rbrack;
+
+
+
 ## Related entries
 
 * [[M5-brane]]
 
 category: people
+
+[[!redirects Igor A. Bandos]]
