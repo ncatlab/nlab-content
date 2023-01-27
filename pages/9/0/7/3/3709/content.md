@@ -13,10 +13,10 @@ The theory of **meromorphic connections** is a modern viewpoint on local behavio
 Consider the field $\mathcal{K}$ of meromorphic functions in a neighborhood of $0\in \mathbb{C}$ with possible pole at $0$ and a finite dimensional $\mathcal{K}$-module $M$. A **meromorphic** connection at $x=0$ is a $\mathbb{C}$-linear operator $\nabla:M\to M$ satisfying
 
 $$
-\nabla(fu) = \frac{df}{dx}u + f\nabla(u),\,\,\,\,f\in\mathcal{K}, u\in M
+\nabla(f u) = \frac{d f}{d x}u + f\nabla(u),\,\,\,\,f\in\mathcal{K}, u\in M
 $$
 
-In fact, it is customary, in modern literature to consider just a germ: the connections on two different neighborhoods agreeing on the intersection are identified. This way $\mathcal{K}$ is isomorphic to the field of formal Laurant power series $\mathbb{C}[ [u] ][u^{-1}]$.
+In fact, it is customary, in modern literature to consider just a germ: the connections on two different neighborhoods agreeing on the intersection are identified. This way $\mathcal{K}$ is isomorphic to the field of formal [[Laurent series]] $\mathbb{C}[ [u] ][u^{-1}]$.
 
 There is a natural tensor product on the category of $\mathcal{K}$-modules with meromorphic connections. Namely $(M,\nabla_M)\otimes (N\nabla_N) = (M\otimes N,\nabla)$ where
 
@@ -45,3 +45,7 @@ $$
 * V.S. Varadarajan, _Linear meromorphic differential equation: a modern point of view_, Bull. AMS __33__, n. 1, 1996, [pdf](http://www.ams.org/bull/1996-33-01/S0273-0979-96-00624-6/S0273-0979-96-00624-6.pdf), [citeseer:pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.104.8107&rep=rep1&type=pdf).
 
 * [[Pierre Deligne]], _&#201;quations diff&#233;rentielles &#224; points singuliers r&#233;guliers_, Lect. Notes in Math. __163__, Springer-Verlag (1970)
+
+A discussion of meromorphic connections on the [[complex projective line]]:
+
+* Daniel S. Sage, _Meromorphic connections on the projective line with specified local behavior_ ([arXiv:2212.14108](https://arxiv.org/abs/2212.14108))
