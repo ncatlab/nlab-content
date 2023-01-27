@@ -5,7 +5,7 @@
 
 ## Idea
 
-An "[[affine Lie algebra|affine]]" version of the [[double Hecke algebra]].
+An "[[affine Lie algebra|affine]]" version of the [[double Hecke algebra]], also known as a *Cherednik algebra*.
 
 ## Related concepts
 
@@ -24,3 +24,5 @@ Construction via [[factorization homology]] of [[quantum group]] [[representatio
 * [[David Ben-Zvi]], [[Adrien Brochier]], [[David Jordan]], _Integrating quantum groups over surfaces: quantum character varieties and topological field theory_ ([arXiv:1501.04652](http://arxiv.org/abs/1501.04652))
 
 [[!redirects double affine Hecke algebras]]
+[[!redirects Cherednik algebras]]
+[[!redirects Cherednik algebra]]
