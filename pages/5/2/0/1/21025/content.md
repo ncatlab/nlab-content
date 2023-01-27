@@ -561,7 +561,6 @@ This is joint work with [[nLab:Hisham Sati|H. Sati]] ([[schreiber:Equivariant Co
 
   video: [YT](https://www.youtube.com/watch?v=s4eLW84tNQs)
 
-\linebreak
 
 \linebreak
 
@@ -577,12 +576,35 @@ This is joint work with [[nLab:Hisham Sati|H. Sati]] ([[schreiber:Equivariant Co
 
 \linebreak
 
-* {#Varghese2020} [[Mathai Varghese]]
+* {#Varghese2020} [[Mathai Varghese]]:
 
   **T-Duality, loop spaces and Witten gerbe modules**
+  
+  video: [YT](https://www.youtube.com/watch?v=JpFjtL14exA)
 
   cf.: [arXiv:2001.00322](https://arxiv.org/abs/2001.00322)
- 
+
+\linebreak
+
+* {#Sorokin2020} [[Dmitri Sorokin]]:
+
+  **What do SYM domain walls look like?** 
+
+  video: [TY](https://www.youtube.com/watch?v=yHgBmTgfVoM)
+
+  cf.: [arXiv:2004.11232](https://arxiv.org/abs/2004.11232)
+
+\linebreak
+
+* {#Sen2020} [[Ashoke Sen]]:
+
+  **Gravitational waves from soft theorem**
+
+  video: [YT](https://www.youtube.com/watch?v=FgESLruEeN0)
+
+  cf.: [arXiv:1912.06413](https://arxiv.org/abs/1912.06413)
+
+  > on the [[soft graviton theorem]]
 
 \linebreak
 
