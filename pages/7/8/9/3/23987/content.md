@@ -371,6 +371,22 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
   > In the second one, I will try to convey some level of technical detail about our work. In particular, I will first present a hybrid classical-quantum algorithm to simulate high-connectivity quantum circuits from low-connectivity ones. This provides a versatile toolbox for both error-mitigation and circuit boosts useful for NISQ computations. Then, I will move on to algorithms for the forthcoming quantum hardware of the early fault-tolerant era: I will present a new generation of high-precision algorithms for [simulating quantum imaginary-time evolution](repeat-until-success+computing#AolitaEtAl21) (QITE) that are significantly simpler than current schemes based on quantum amplitude amplification (QAA). QITE is central not only to ground-state optimisations but also to partition-function estimation and Gibbs-state sampling, with a plethora of computational applications. 
 
 
+\linebreak
+
+### Jan 2023
+
+* {#SinghJan2023} 30 Jan 2023
+
+  [[Vivek Singh]] ([[CQTS]] @ NYU Abu Dhabi)
+
+  **Chern-Simons theory, Knot polynomials & Quivers**
+
+  cf. [arXiv:2103.10228](https://arxiv.org/abs/2103.10228)
+
+  >  First, I will give a brief introduction to [[knot theory]] and its connection to [[Chern-Simons theory|Chern-Simons]] [[quantization of 3d Chern-Simons theory|quantum field theory]]. Then I discuss the method of obtaining polynomial invariants and limitations towards tackling classification of knots. In particular, we will highlight our new results on weaving knots and review the recent developments on Knot-Quiver correspondence.
+
+
+
 
 
 
@@ -585,7 +601,7 @@ Stone-von Neumann**
 
   notes: [pdf](https://github.com/adrianclough/adrianclough.github.io/raw/main/The%20smooth%20Oka%20principle%206.pdf)
 
-  > on [Clough 2021](shape+via+cohesive+path+∞-groupoid#Clough21)
+  cf.: [Clough 2021](shape+via+cohesive+path+∞-groupoid#Clough21)
 
 > The infinity topos of differentiable sheaves contains all smooth manifolds as a full subcategory and has excellent formal properties. In particular, it admits an intrinsic notion of underlying homotopy type of any differentiable sheaf, which coincides with classical constructions such as taking smooth total singular complexes. Moreover, there is a canonical sense in which the mapping sheaf between any two differentiable sheaves may have the correct homotopy type. This latter notion is reminiscent of the Oka principle in complex geometry. In this talk I will show how to exhibit the Oka principle in the smooth setting using model structures and other homotopical calculi on the infinity topos of differentiable sheaves. 
 
@@ -698,6 +714,18 @@ Stone-von Neumann**
   video: [rec](https://nyu.zoom.us/rec/share/MFJT2B2SX8XUsB0n4z-hwMKb-mxyenQhE5HgBC72qIdHb-ixm7FqQ_KN8hDa0YWl.tEp5kHPzkef1ZDHU)
 
   > A major outstanding difficulty in [[homotopy type theory|Homotopy Type Theory]] is the description of [[coherence law|coherent]] [[nLab:higher algebra|higher algebraic structures]]. As an example, we know that the algebraic structure possessed by the collection of types and functions between them is *not* a traditional 1-category, but rather an [[(infinity,1)-category|(∞,1)-category]]. In this talk, I will describe how the addition of a finite collection of additional definitional equalities designed to render the notion of "[[opetopic type theory|opetopic type]]" definable in fact allows one to construct the [[(∞,1)-category]] structure on the [[universe of types]].
+
+\linebreak
+
+### Jan 2023
+
+* {#Creutzig23} 25 Jan 2023
+
+  [[Thomas Creutzig]] (University of Alberta)
+
+  **Representation Theory of affine vertex algebras**
+
+  > Recently there has been increased interest in non-[[semisimple]] [[braided tensor categories]]. [[vertex operator algebra|Vertex algebras]] are a rich source of such categories and so I will give an overview on the [[representation theory]] of [[affine Lie algebra|affine]] vertex algebras with a focus on the simplest example of [[sl(2)|$\mathfrak{sl}(2)$]]. As we will see, already in this example quite rich and non-semisimple categories of modules appear. 
 
 
 \linebreak
