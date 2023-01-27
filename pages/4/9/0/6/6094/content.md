@@ -100,9 +100,11 @@ This appears as ([Ginzburg, prop. 3.3.1](#Ginzburg)).
 
 #### $0$-Calabi-Yau algebras
 
-A cochain dg-algebra over $k$ is $0$-Calabi-Yau iff it is Koszul and $Tor^0_A(k_A,{}_A k)$ is a symmetric coalgebra. Proven in  
+A cochain dg-algebra over $k$ is $0$-Calabi-Yau iff it is Koszul and $Tor^0_A(k_A,{}_A k)$ is a symmetric coalgebra.  Proven in  
 
-*  J.-W. He, X.-F. Mao, _Connected cochain DG algebras of Calabi-Yau dimension 0_, Proc. Amer. Math. Soc. 145 (2017) 937-953 [doi](https://doi.org/10.1090/proc/13081) 
+*  J.-W. He, X.-F. Mao, _Connected cochain DG algebras of Calabi-Yau dimension 0_, Proc. Amer. Math. Soc. __145__ (2017) 937--953 [doi](https://doi.org/10.1090/proc/13081) 
+
+It follows that a Koszul dg-algebra is $0$-Calabi-Yau iff its Ext-algebra is symmetric [[Frobenius algebra|Frobenius]].
 
 ### Relation to 2d extended TQFT and the Cobordism hypothesis
 
