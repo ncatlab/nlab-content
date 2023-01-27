@@ -8,6 +8,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 [CQTS](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) hosts cross-disciplinary research on *[[topological physics -- contents|topological]] [[quantum systems]]*,  such as [[topological phases of matter]] understood [[AdS-CFT in condensed matter physics|via holography]] and using tools from [[topological data analysis]], ultimately aimed at addressing open questions in [[topological quantum computation|topological]] [[quantum computation]]. A unifying theme is the use of new methods from ("[[persistent cohomotopy|persistent]]") *[[Cohomotopy]]* and [[generalized cohomology]]-theory, developed [[Hypothesis H|in string theory]]. 
 
+
 \linebreak
 
 \begin{imagefromfile}
@@ -730,10 +731,10 @@ Stone-von Neumann**
 
 \linebreak
 
-## External talks
+## External presentations
  {#ExternalTalk}
 
-Talks reporting on work at CQTS.
+Presentations reporting on work at CQTS.
 
 \linebreak
 
@@ -780,6 +781,20 @@ Talks reporting on work at CQTS.
 
   > The proper concept of [[nLab:data types]] in [[nLab:quantum programming languages]], hence of their [[nLab:certified programming|formal verification]] and [[nLab:categorical semantics]], has remained somewhat elusive, as witnessed by the issue of "[dynamic lifting](https://ncatlab.org/nlab/show/Quipper#ReferencesDynamicLifting)" encountered in the [[nLab:Quipper]] language family. In this talk I explain our claim that a powerful [[nLab:quantum computation|quantum]] [[nLab:data type]]-system elegantly solving these problems is naturally provided by the *[[nLab:linear homotopy type theory]]* recently [realized](https://ncatlab.org/nlab/show/dependent+linear+type+theory#Riley22) by [[nLab:Mitchell Riley|M. Riley]]. Together with our [previous claim](Topological+Quantum+Programming+in+TED-K#GMConAbs) that [[nLab:homotopy type theory]] natively knows about the fine detail of [[nLab:su(2)-anyon|$\mathfrak{su}$(2)-]][[nlab:anyon]] [[nLab:braid representation|braid]] [[nLab:quantum gates]], this shows that [[nLab:linear homotopy type theory]] is a natural substrate for [[nLab:type theory|typed]] [[nLab:quantum programming languages]] aware of [[nLab:topological phases of matter|topological]] [[nLab:quantum materials|quantum hardware]]. 
 
+\linebreak
+
+### Dec 2020
+
+* {#ValeraDec2020} 17 Dec 2022 at [AQIS 2022](http://aqis-conf.org/2022/)
+
+  [[Sachin Valera]]:
+
+  **Braidless Topological Quantum Teleportation**
+
+  poster: [[Valera-BraidlessTopologicalQT-230127.pdf:file]]
+
+  > on [[quantum teleportation]] with/of [[anyons]]
+ 
 \linebreak
 
 ### Jan 2023
