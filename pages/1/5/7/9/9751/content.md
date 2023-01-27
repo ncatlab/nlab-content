@@ -12,11 +12,17 @@ On [[superstrings]] and [[super membranes]] formulated in [[superspace]]:
 * [[Igor Bandos]], [[Dmitrij Sorokin]], [[Dmitrij Volkov]], _On the generalized action principle for superstrings and supermembranes_, Phys. Lett. B352:269-275, 1995 ([arXiv:hep-th/9502141](https://arxiv.org/abs/hep-th/9502141))
 
 
-On the [[superembedding approach]] for [[Green-Schwarz sigma-models]]:
+On the [[superembedding approach]] for [[super p-branes|super $p$-branes]]/[[Green-Schwarz sigma-models]]:
+
+* {#BPSTV95} [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], [[Dmitry Volkov]], _Superstrings and supermembranes in the doubly supersymmetric geometrical approach_, Nucl. Phys. B **446** (1995) 79-118 &lbrack;[arXiv:hep-th/9501113](https://arxiv.org/abs/hep-th/9501113)&rbrack;
 
 * {#Sorokin99} [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys.Rept.329:1-101, 2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
 
 * {#Sorokin01} [[Dmitri Sorokin]], _Introduction to the Superembedding Description of Superbranes_, AIP Conference Proceedings 589, 98 (2001) ([arXiv:hep-th/0105102](https://arxiv.org/abs/hep-th/0105102))
+
+* [[Igor A. Bandos]], [[Dmitri P. Sorokin]], *Superembedding approach to superstrings and super-$p$-branes*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2301.10668](https://arxiv.org/abs/2301.10668)&rbrack;
+
+
 
 On [[kappa-symmetry]] explained via the [[superembedding approach]]:
 
@@ -64,3 +70,4 @@ category: people
 
 [[!redirects Dmitrij Sorokin]]
 
+[[!redirects Dmitri P. Sorokin]]
