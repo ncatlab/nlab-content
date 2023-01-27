@@ -5,19 +5,19 @@
 
 ## Idea
 
-An indefinite integral is something less definite than a [[definite integral]].  Whereas a definite integral is typically some kind of number or other concrete quantity, an indefinite integral is typically another variable quantity of the same type as the integrand.
+An indefinite integral is something less definite than a [[definite integral]].  Whereas a definite integral is typically some kind of [[number]] or other concrete quantity, an indefinite integral is typically another variable quantity of the same type as the integrand.
 
-The term 'indefinite integral' is itself rather indefinite, having been used for a variety of slightly different concepts.  Both _semidefinite integrals_ and _antiderivatives_ are more precise versions of indefinite integrals.  The [[fundamental theorem of calculus]] is basically the theorem that these different kinds of indefinite integral are essentially the same thing.
+The term 'indefinite integral' is itself rather indefinite, having been used for a variety of slightly different concepts.  Both _semidefinite integrals_ and _antiderivatives_ are more precise versions of indefinite integrals.  The [[fundamental theorem of calculus]] is basically the [[theorem]] that these different kinds of indefinite integral are essentially the same thing.
 
 
 ## Definitions and notation
 
-To begin with, we will discuss the integration of [[real number|real]]-valued functions on the [[real line]], but much of this can be generalized to other contexts.  So let $f$ be a [[partial function]] from $\mathbb{R}$ to $\mathbb{R}$; typically, the domain of $f$ will be an [[interval]], but we do not require this.
+To begin with, we will discuss the [[integration]] of [[real number|real]]-valued [[functions]] on the [[real line]], but much of this can be generalized to other contexts.  So let $f$ be a [[partial function]] from $\mathbb{R}$ to $\mathbb{R}$; typically, the [[domain]] of $f$ will be an [[interval]], but we do not require this.
 
 +-- {: .num_defn #semi}
 ###### Definition
 
-If $a$ is a real number (usually in the domain of $f$, or at least in the domain\'s [[topological closure|closure]]), then the __semidefinite integral__ of $f$ from $a$ (or with __initial point__ $a$) is the function
+If $a$ is a [[real number]] (usually in the domain of $f$, or at least in the domain\'s [[topological closure|closure]]), then the __semidefinite integral__ of $f$ from $a$ (or with __initial point__ $a$) is the function
 $$ x \mapsto \int_a^x f(t) \,\mathrm{d}t .$$
 (If $x \lt a$, then we must define $\int_a^x$ as $-\int_x^a$.)
 =--
