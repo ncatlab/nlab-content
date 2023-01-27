@@ -427,15 +427,6 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 **Abstracts, Slides and Talk notes:**
  {#Abstracts2020}
 
-
-* [[Bianca Cerchiai]]
-
-  _Supergravity in a pencil_
-
-  download: [[CerchiaiSlidesAtMTheoryAndMathematics2020.pdf:file]]
-
-  **Abstract:** In the [[AdS/CFT in condensed matter physics|spirit of the gauge-gravity correspondence]], we derive a 2+1 dimensional model with "unconventional" supersymmetry at the boundary of a 4-dimensional Anti de Sitter N-extended supergravity, which in the case N=2 reproduces the AVZ model [P.D. Alvarez, M. Valenzuela, J. Zanelli, JHEP 1204 (2012) 058, arXiv:1109.3944 [hep-th]]. The extended supersymmetry of the boundary model is instrumental to describe the electronic properties of [[graphene]], in particular at the two Dirac points. The two valleys correspond to the two independent sectors of the OSp(p|2)×OSp(q|2) boundary model in the p=q case, which are related by a parity transformation. The Semenoff and the Haldane masses entering the corresponding Dirac equations for the graphene pseudoparticles are identified with supergravity torsion parameters.
-
 \linebreak
 
 * {#Duff2020} [[Michael Duff]]:
@@ -487,15 +478,6 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   > We review how historically the problem of [[string phenomenology]] lead theoretical physics first to algebraic/differential geometry, and then to computational geometry, and now to data science and AI. With the concrete playground of the [[Calabi-Yau manifold|Calabi-Yau]] [[landscape of string theory vacua|landscape]], accumulated by the collaboration of physicists, mathematicians and computer scientists over the last 4 decades, we show how the latest techniques in [[machine learning|machine-learning]] can help explore problems of physical and mathematical interest.
 
-\linebreak
-
-* [[Neil Lambert]],
-
-  **Lagrangians with $(2,0)$ Supersymmetry**
-
-  slides: [pdf](https://ncatlab.org/nlab/files/LambertSlidesAtMTheoryMathematics2020.pdf)
-
-  > We will discuss free and interacting six-dimensional actions which admit $(2,0)$ supersymmetry including their application to abelian and non-abelian [[nLab:M5-branes]].
 
 \linebreak
 
@@ -515,11 +497,57 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   slides: [pdf](https://ncatlab.org/schreiber/files/Schreiber-MTheoryMathematics2020-v200126.pdf)
 
-  > As reviewed in [[nLab:Hisham Sati|H. Sati]]'s talk, assuming that the [[nLab:supergravity C-field|C-field]] is [[nLab:Dirac charge quantization|charge-quantized]] in the [[nLab:generalized cohomology theory]] called [[nLab:J-homomorphism|J-]][[nLab:twisted cohomotopy|twisted]] [[nLab:Cohomotopy]] ("[[Hypothesis H]]") implies a list of [[nLab:M-theory|M-theoretic]] [[nLab:anomaly cancellation]] conditions, such as [[nLab:shifted C-field flux quantization]], DMW anomaly cancellation and [[nLab:C-field tadpole cancellation]] [[nLab:M-theory on 8-manifolds|on 8-manifolds]]. In this talk I review the further [[nLab:(infinity,1)-topos|geometric]] refinement of the [[nLab:cohomology|cohomology theory]] to [[nLab:equivariant|equivariant Cohomotoy theory]] and to [[nLab:differential cohomotopy|differential Cohomotopy theory]]. Now we find that [[Hypothesis H]] implies also the Witten mechanism of multiple [[nLab:M5-branes]] on [[nLab:MO5]]-[[nLab:orientifolds]] in [[nLab:heterotic M-theory on ADE-orbifolds]], hence [[nLab:RR-field tadpole cancellation]] in [[nLab:type I' string theory]]; as well as a multitude of effects associated with [[nLab:Dp-D(p+2) brane bound state|Dp/D(p+2)-brane intersections]]: [[nLab:Chan-Paton factors]], [[nLab:BMN matrix model]] [[nLab:fuzzy funnel]] states and [[nLab:BLG 3-algebras]], the [[nLab:Hanany-Witten rules]], [[nLab:AdS3/CFT2|AdS3-gravity]] observables, [[nLab:supersymmetric indices]] of [[nLab:Coulomb branches]] as well as [[nLab:AdS/CFT|gauge/gravity duality]] between all these.
-This suggests that [[Hypothesis H]] is a correct assumption about the elusive mathematical fomulation of [[nLab:M-theory]].
+  video: [YT](https://www.youtube.com/watch?v=PAo4cCqQhks)
+
+  > As reviewed in [[nLab:Hisham Sati|H. Sati]]'s talk, assuming that the [[nLab:supergravity C-field|C-field]] is [[nLab:Dirac charge quantization|charge-quantized]] in the [[nLab:generalized cohomology theory]] called [[nLab:J-homomorphism|J-]][[nLab:twisted cohomotopy|twisted]] [[nLab:Cohomotopy]] ("[[Hypothesis H]]") implies a list of [[nLab:M-theory|M-theoretic]] [[nLab:anomaly cancellation]] conditions, such as [[nLab:shifted C-field flux quantization]], DMW anomaly cancellation and [[nLab:C-field tadpole cancellation]] [[nLab:M-theory on 8-manifolds|on 8-manifolds]]. In this talk I review the further [[nLab:(infinity,1)-topos|geometric]] refinement of the [[nLab:cohomology|cohomology theory]] to [[nLab:equivariant|equivariant Cohomotoy theory]] and to [[nLab:differential cohomotopy|differential Cohomotopy theory]]. Now we find that [[Hypothesis H]] implies also the Witten mechanism of multiple [[nLab:M5-branes]] on [[nLab:MO5]]-[[nLab:orientifolds]] in [[nLab:heterotic M-theory on ADE-orbifolds]], hence [[nLab:RR-field tadpole cancellation]] in [[nLab:type I' string theory]]; as well as a multitude of effects associated with [[nLab:Dp-D(p+2) brane bound state|Dp/D(p+2)-brane intersections]]: [[nLab:Chan-Paton factors]], [[nLab:BMN matrix model]] [[nLab:fuzzy funnel]] states and [[nLab:BLG 3-algebras]], the [[nLab:Hanany-Witten rules]], [[nLab:AdS3/CFT2|AdS3-gravity]] observables, [[nLab:supersymmetric indices]] of [[nLab:Coulomb branches]] as well as [[nLab:AdS/CFT|gauge/gravity duality]] between all these. This suggests that [[Hypothesis H]] is a correct assumption about the elusive mathematical fomulation of [[nLab:M-theory]].
 This is joint work with [[nLab:Hisham Sati|H. Sati]] ([[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation|arxiv:1909.12277]], [[schreiber:Differential Cohomotopy implies intersecting brane observables|arxiv:1912.10425]]).
 
+\linebreak
 
+* {#Hull2020} [[Chris Hull]]:
+
+  **Dualities, K3, Exotic Branes and Orientifolds**
+
+  video: [YT](https://www.youtube.com/watch?v=9hfym2ACPo0)
+
+  cf.: [arXiv:1907.04040](https://arxiv.org/abs/1907.04040)
+
+\linebreak
+
+  * {#Samtleben2020} [[Henning Samtleben]]:
+
+    **Exceptional Field Theories and AdS Compactifications**
+
+    video: [YT](https://www.youtube.com/watch?v=JSSmUAHYdBs)
+ 
+\linebreak
+
+
+* {#Cerchiai2020} [[Bianca Cerchiai]]
+
+  **Supergravity in a pencil**
+
+  slides: [[CerchiaiSlidesAtMTheoryAndMathematics2020.pdf:file]]
+
+  video: [YT](https://www.youtube.com/watch?v=xE7TmwyqqaU)
+
+  > In the [[AdS/CFT in condensed matter physics|spirit of the gauge-gravity correspondence]], we derive a 2+1 dimensional model with "unconventional" supersymmetry at the boundary of a 4-dimensional Anti de Sitter N-extended supergravity, which in the case N=2 reproduces the AVZ model [P.D. Alvarez, M. Valenzuela, J. Zanelli, JHEP 1204 (2012) 058, arXiv:1109.3944 [hep-th]]. The extended supersymmetry of the boundary model is instrumental to describe the electronic properties of [[graphene]], in particular at the two Dirac points. The two valleys correspond to the two independent sectors of the OSp(p|2)×OSp(q|2) boundary model in the p=q case, which are related by a parity transformation. The Semenoff and the Haldane masses entering the corresponding Dirac equations for the graphene pseudoparticles are identified with supergravity torsion parameters.
+
+\linebreak
+
+\linebreak
+
+* {#Lambert2020} [[Neil Lambert]],
+
+  **Lagrangians with $(2,0)$ Supersymmetry**
+
+  slides: [pdf](https://ncatlab.org/nlab/files/LambertSlidesAtMTheoryMathematics2020.pdf)
+
+  > We will discuss free and interacting six-dimensional actions which admit $(2,0)$ supersymmetry including their application to abelian and non-abelian [[M5-branes]].
+
+
+\linebreak
+ 
 \linebreak
 
 \linebreak
