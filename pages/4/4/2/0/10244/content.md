@@ -11,7 +11,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -153,7 +152,7 @@ In [FSS 19c](#FSS19c) is offered a proof that combining super-embedding formalis
 
 Under the name "doubly supersymmetric geometrical approach" the formalism originates in
 
-* {#BPSTV95} [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], [[Dmitry Volkov]], _Superstrings and supermembranes in the doubly supersymmetric geometrical approach_, Nucl. Phys. B446:79-118, 1995 ([arXiv:hep-th/9501113](https://arxiv.org/abs/hep-th/9501113))
+* {#BPSTV95} [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], [[Dmitry Volkov]], _Superstrings and supermembranes in the doubly supersymmetric geometrical approach_, Nucl. Phys. B **446** (1995) 79-118 &lbrack;[arXiv:hep-th/9501113](https://arxiv.org/abs/hep-th/9501113)&rbrack;
 
 * {#HoweSezgin97} [[Paul Howe]], [[Ergin Sezgin]], _$D=11$, $p=5$_, Phys.Lett. B394 (1997) 62-66 ([arXiv:hep-th/9611008](https://arxiv.org/abs/hep-th/9611008))
 
@@ -165,6 +164,11 @@ Review is in
 * {#Sorokin01} [[Dmitri Sorokin]], _Introduction to the Superembedding Description of Superbranes_, AIP Conference Proceedings 589, 98 (2001) ([arXiv:hep-th/0105102](https://arxiv.org/abs/hep-th/0105102))
 
 where also the term "superembedding approach" is introduced.
+
+Further review:
+
+* [[Igor A. Bandos]], [[Dmitri P. Sorokin]], *Superembedding approach to superstrings and super-$p$-branes*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2301.10668](https://arxiv.org/abs/2301.10668)&rbrack;
+
 
 Derivation of [[BPS state|1/2 BPS]] superembedding via [[rational equivariant homotopy theory|rational]] [[ADE-singularity|ADE-]][[equivariant cohomotopy]]:
 
