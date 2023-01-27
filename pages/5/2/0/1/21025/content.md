@@ -458,26 +458,6 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   cf.: [arXiv:2101.11671](https://arxiv.org/abs/2101.11671)
 
-\linebreak
-
-* {#Fiorenza2020} [[Domenico Fiorenza]]:
-
-  **Twisted Cohomotopy implies level quantization of the 6d WZ term of the M5-brane** 
-
-  slides: [pdf](https://ncatlab.org/nlab/files/FiorenzaSlidesAtMTheoryMathematics2020v2.pdf)
-
-  > The [[Hopf-Wess-Zumino term|6d Wess-Zumino term]] in the [[action functional]] for the [[M5-brane]] is anomalous as traditionally defined. What has been missing is a condition implying a higher analogue of level quantization familiar from the 2d [[WZW term|Wess-Zumino term]]. We prove that such an anomaly cancellation condition is implied by the [[Hypothesis H|hypothesis]] that the [[supergravity C-field|C-field]] is [[Dirac charge quantization|charge-quantized]] in [[twisted cohomotopy|twisted]] [[Cohomotopy theory]]. The proof follows by a twisted/parametrized generalization of the [[Hopf invariant]], after identifying the [[Hopf-Wess-Zumino term|6d Wess-Zumino term]] with a twisted [[Whitehead integral formula|homotopy Whitehead integral formula]], which we establish. Joint work with Hisham Sati and Urs Schreiber, [[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization|arXiv:1906.07417]].
-
-\linebreak
-
-* [[Yang-Hui He]], 
-
-  **Universes as big data**
-
-  slides: [pdf](https://ncatlab.org/nlab/files/HeSlidesAtMTheoryAndMathematics2020.pdf)
-
-  > We review how historically the problem of [[string phenomenology]] lead theoretical physics first to algebraic/differential geometry, and then to computational geometry, and now to data science and AI. With the concrete playground of the [[Calabi-Yau manifold|Calabi-Yau]] [[landscape of string theory vacua|landscape]], accumulated by the collaboration of physicists, mathematicians and computer scientists over the last 4 decades, we show how the latest techniques in [[machine learning|machine-learning]] can help explore problems of physical and mathematical interest.
-
 
 \linebreak
 
@@ -533,7 +513,6 @@ This is joint work with [[nLab:Hisham Sati|H. Sati]] ([[schreiber:Equivariant Co
 
   > In the [[AdS/CFT in condensed matter physics|spirit of the gauge-gravity correspondence]], we derive a 2+1 dimensional model with "unconventional" supersymmetry at the boundary of a 4-dimensional Anti de Sitter N-extended supergravity, which in the case N=2 reproduces the AVZ model [P.D. Alvarez, M. Valenzuela, J. Zanelli, JHEP 1204 (2012) 058, arXiv:1109.3944 [hep-th]]. The extended supersymmetry of the boundary model is instrumental to describe the electronic properties of [[graphene]], in particular at the two Dirac points. The two valleys correspond to the two independent sectors of the OSp(p|2)×OSp(q|2) boundary model in the p=q case, which are related by a parity transformation. The Semenoff and the Haldane masses entering the corresponding Dirac equations for the graphene pseudoparticles are identified with supergravity torsion parameters.
 
-\linebreak
 
 \linebreak
 
@@ -543,10 +522,57 @@ This is joint work with [[nLab:Hisham Sati|H. Sati]] ([[schreiber:Equivariant Co
 
   slides: [pdf](https://ncatlab.org/nlab/files/LambertSlidesAtMTheoryMathematics2020.pdf)
 
+  video: [YT](https://www.youtube.com/watch?v=36SQG-o9b9k)
+
+  cf.: [arXiv:1908.10752](https://arxiv.org/abs/1908.10752)
+
   > We will discuss free and interacting six-dimensional actions which admit $(2,0)$ supersymmetry including their application to abelian and non-abelian [[M5-branes]].
 
+\linebreak
+
+* {#Saemann2020} [[Christian Saemann]]:
+
+  **Towards an M5-Brane Model: Progress Report**
+
+  video: [YT](https://www.youtube.com/watch?v=EjolwjlgTK4)
+
+  cf.: [arXiL1712.06623](https://arxiv.org/abs/1712.06623),  [arXiv:1908.08086](https://arxiv.org/abs/1908.08086), [arXivL2012.09253](https://arxiv.org/abs/2012.09253)
 
 \linebreak
+
+
+* {#Fiorenza2020} [[Domenico Fiorenza]]:
+
+  **Twisted Cohomotopy implies level quantization of the 6d WZ term of the M5-brane** 
+
+  slides: [pdf](https://ncatlab.org/nlab/files/FiorenzaSlidesAtMTheoryMathematics2020v2.pdf)
+
+  video: [YT](https://www.youtube.com/watch?v=1wjD4ilp2qU)
+
+  cf.: [arXiv:1906.07417](https://arxiv.org/abs/1906.07417)
+
+  > The [[Hopf-Wess-Zumino term|6d Wess-Zumino term]] in the [[action functional]] for the [[M5-brane]] is anomalous as traditionally defined. What has been missing is a condition implying a higher analogue of level quantization familiar from the 2d [[WZW term|Wess-Zumino term]]. We prove that such an anomaly cancellation condition is implied by the [[Hypothesis H|hypothesis]] that the [[supergravity C-field|C-field]] is [[Dirac charge quantization|charge-quantized]] in [[twisted cohomotopy|twisted]] [[Cohomotopy theory]]. The proof follows by a twisted/parametrized generalization of the [[Hopf invariant]], after identifying the [[Hopf-Wess-Zumino term|6d Wess-Zumino term]] with a twisted [[Whitehead integral formula|homotopy Whitehead integral formula]], which we establish. Joint work with Hisham Sati and Urs Schreiber, [[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization|arXiv:1906.07417]].
+
+\linebreak
+
+* {#Berman2020} [[David Berman]]:
+
+  **Strings, Branes, and Boltzmann machines**
+
+  video: [YT](https://www.youtube.com/watch?v=s4eLW84tNQs)
+
+\linebreak
+
+\linebreak
+
+* {#He2020} [[Yang-Hui He]]:
+
+  **Universes as Bigdata**
+
+  slides: [pdf](https://ncatlab.org/nlab/files/HeSlidesAtMTheoryAndMathematics2020.pdf)
+
+  > We review how historically the problem of [[string phenomenology]] lead theoretical physics first to algebraic/differential geometry, and then to computational geometry, and now to data science and AI. With the concrete playground of the [[Calabi-Yau manifold|Calabi-Yau]] [[landscape of string theory vacua|landscape]], accumulated by the collaboration of physicists, mathematicians and computer scientists over the last 4 decades, we show how the latest techniques in [[machine learning|machine-learning]] can help explore problems of physical and mathematical interest.
+
  
 \linebreak
 
