@@ -23,13 +23,21 @@ __Andrey Lazarev__ is a mathematician at the University of Lancaster. His resear
 
 * [[Andrey Lazarev]], Def. 5.1 in: *Maurer-Cartan moduli and models for function spaces* ([arxiv:1109.3715](http://arxiv.org/abs/1109.3715))
 
-* Joseph Chuang, [[Andrey Lazarev]], Def. 1.6 in: *Combinatorics and formal geometry of the master equation*,  Lett. Math. Phys. **103** (2013) 79–112  ([arXiv:1205.5970](https://arxiv.org/abs/1205.5970), [doi:10.1007/s11005-012-0586-1](https://doi.org/10.1007/s11005-012-0586-1)) 
+* [[Joseph Chuang]], [[Andrey Lazarev]], Def. 1.6 in: *Combinatorics and formal geometry of the master equation*,  Lett. Math. Phys. **103** (2013) 79–112  ([arXiv:1205.5970](https://arxiv.org/abs/1205.5970), [doi:10.1007/s11005-012-0586-1](https://doi.org/10.1007/s11005-012-0586-1)) 
 
  
-* [[Julian Holstein]] and A. Lazarev, _Categorical Koszul duality_ [Arxiv 2006.01706](https://arxiv.org/pdf/2006.01705.pdf)
+On [[Koszul duality]] duality:
+
+* [[Julian Holstein]], [[Andrey Lazarev]], *Categorical Koszul duality*, Advances in Mathematics **409** B (2022) 108644 &lbrack;[arXiv:Koszul duality2006.01706](https://arxiv.org/pdf/2006.01705.pdf), [doi:10.1016/j.aim.2022.108644](https://doi.org/10.1016/j.aim.2022.108644)&rbrack;
+
+On the [[Riemann-Hilbert correspondence]]:
+
+* [[Joseph Chuang]], [[Julian Holstein]], [[Andrey Lazarev]] _Maurer–Cartan moduli and theorems of Riemann–Hilbert type_, Applied Categorical Structures **29** (2021) 685–728 &lbrack;[doi:10.1007/s10485-021-09631-3](https://doi.org/10.1007/s10485-021-09631-3)&rbrack;
+
+
 category: people
 
-## Related $n$Lab entries
+## Related entries
 
 * [[L-infinity algebra]]
 
