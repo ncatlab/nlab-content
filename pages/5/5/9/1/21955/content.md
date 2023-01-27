@@ -10,5 +10,8 @@ Julian Holstein  is Junior Professor in the Algebra and Number Theory group at t
 
 * Julian Holstein and [[A. Lazarev]], _Categorical Koszul duality_ [Arxiv 2006.01706](https://arxiv.org/pdf/2006.01705.pdf)
 
+* [[J. Chuang]], J. Holstein, and [[A. Lazarev]]. _Maurer–Cartan moduli and theorems of Riemann–Hilbert type_. Applied Categorical Structures, 29:685–728, 2021.
+
+
 
 category:people
