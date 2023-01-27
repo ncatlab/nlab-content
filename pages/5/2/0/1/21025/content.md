@@ -459,6 +459,14 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 \linebreak
 
+* {#Linch2020} [[William Linch III]]
+  
+  **Off-shell Supersymmetry and the M-theory Effective Action**
+
+  cf.: [arXiv:2101.11671](https://arxiv.org/abs/2101.11671)
+
+\linebreak
+
 * {#Fiorenza2020} [[Domenico Fiorenza]]:
 
   **Twisted Cohomotopy implies level quantization of the 6d WZ term of the M5-brane** 
@@ -473,7 +481,7 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **Universes as big data**
 
-  slides [pdf](https://ncatlab.org/nlab/files/HeSlidesAtMTheoryAndMathematics2020.pdf)
+  slides: [pdf](https://ncatlab.org/nlab/files/HeSlidesAtMTheoryAndMathematics2020.pdf)
 
   > We review how historically the problem of [[string phenomenology]] lead theoretical physics first to algebraic/differential geometry, and then to computational geometry, and now to data science and AI. With the concrete playground of the [[Calabi-Yau manifold|Calabi-Yau]] [[landscape of string theory vacua|landscape]], accumulated by the collaboration of physicists, mathematicians and computer scientists over the last 4 decades, we show how the latest techniques in [[machine learning|machine-learning]] can help explore problems of physical and mathematical interest.
 
