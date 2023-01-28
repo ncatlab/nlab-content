@@ -150,7 +150,7 @@ The simplicial version is due to [[Daniel M. Kan]], see Theorem 7.2 in
 * [[Daniel M. Kan]], _On c.s.s. categories_, Boletín de la Sociedad Matemática Mexicana 2 (1957), 82–94.  [PDF](https://dmitripavlov.org/scans/kan-on-css-categories.pdf).
 
 
-Other sources:
+Review:
 
 * {#Bredon93} [[Glen Bredon]], Cor. 11.14 in: _Topology and Geometry_, Graduate texts in mathematics **139**, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
 
@@ -160,13 +160,13 @@ Other sources:
 * [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], Thm. 6.3.31 in: *Algebraic topology from a homotopical viewpoint*, Springer (2008) ([doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586))
 
 
-Discussion for [[equivariant homotopy theory]] includes
+Discussion of the [[equivariant Whitehead theorem]]:
 
 * {#GreenleesMay95} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
-The $(\infty,1)$-topos version is in section 6.5 of
+The [[(infinity,1)-topos|$(\infty,1)$-topos]] theoretic version: 
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], section 6.5 of [[Higher Topos Theory]]
 
 A formalization in [[homotopy type theory]] written in [[Agda]] is in 
 
