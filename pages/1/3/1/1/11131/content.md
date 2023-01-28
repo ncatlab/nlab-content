@@ -6,7 +6,7 @@
 +-- {: .hide}
 [[!include analysis - contents]]
 =--
-#### Constructivism, Realizability, Computability
+#### Constructivism
 +-- {: .hide}
 [[!include constructivism - contents]]
 =--
@@ -45,16 +45,24 @@ In applications in [[computer science]] one uses for instance the _[[completion 
 
 Introducing the formulation of [[analysis]] in [[constructive mathematics]], together with the notions of [[Bishop set]]/[[setoid]]:
 
+* {#Bishop} [[Errett Bishop]], *[[Foundations of Constructive Analysis]]*, Mcgraw-Hill (1967)
 
-* {#Bishop} [[Errett Bishop]], _Foundations of constructive analysis._ McGraw-Hill, (1967)
-
-
+* [[Errett Bishop]], [[Douglas Bridges]] *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
 
 Introduction and review:
+
+* [[Douglas Bridges]], *Constructive mathematics: a foundation for computable analysis*, Theoretical Computer Science **219** 1–2 (1999) 95-109 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(98)00285-0">doi:10.1016/S0304-3975(98)00285-0</a>&rbrack;
 
 * [[Herman Geuvers]], [[Milad Niqui]], [[Bas Spitters]], [[Freek Wiedijk]], _Constructive analysis, types and exact real numbers_, Mathematical Structures in Computer Science **17** 01 (2007) 3-36 &lbrack;[doi:10.1017/S0960129506005834](https://doi.org/10.1017/S0960129506005834)&rbrack;
 
 * [[Helmut Schwichtenberg]], *Constructive analysis with witnesses* (2013) &lbrack;[pdf](https://www.mathematik.uni-muenchen.de/~schwicht/seminars/semss13/constr13.pdf), [[Schwichtenberg-ConstructiveAnalysis.pdf:file]]&rbrack;
+
+* {#Johansson19} Fredrik Johansson, *Reliable real computing*, talk at Mathematical Institute of Oxford (2019) &lbrack;[pdf](http://fredrikj.net/math/oxford2019.pdf)&rbrack;
+
+
+See also:
+
+* [[Helmut Schwichtenberg]], *Program Extraction in Constructive Analysis*, in *Logicism, Intuitionism, and Formalism*, Synthese Library, **341** Springer (2009) &lbrack;[doi:10.1007/978-1-4020-8926-8_13](https://doi.org/10.1007/978-1-4020-8926-8_13)&rbrack;
 
 An undergraduate real analysis textbook taking a constructive approach using interval analysis is
 
@@ -78,8 +86,15 @@ With emphasis on the use of the [[univalence axiom]]:
 
 * {#Booij18} Auke Booij, _Extensional constructive real analysis via locators_ ([arXiv:1805.06781](https://arxiv.org/abs/1805.06781))
 
-See also 
+Implementation in [[Agda]]:
 
-* {#Johansson19} Fredrik Johansson, _Reliable real computing_, talk at Mathematical Institute of Oxford, 2019 ([pdf](http://fredrikj.net/math/oxford2019.pdf))
+* [[Martin Lundfall]], *Formalizing real numbers in Agda* (2015) &lbrack;<a href="https://wcl.cs.rpi.edu/pilots/library/papers/TAGGED/4211-Lundfall%20(2015)%20-%20Formalizing%20Real%20Numbers%20in%20Agda.pdf">pdf</a>, [[Lundfall-RealNumbersInAgda.pdf:file]]&rbrack;
+
+* [[Zachary Murray]], *Constructive Analysis in the Agda Proof Assistant* &lbrack;[arXiv:2205.08354](https://arxiv.org/abs/2205.08354), [github](https://github.com/z-murray/honours-project-constructive-analysis-in-agda)&rbrack;
+
+
+
+
+
 
 [[!redirects exact analysis]]
