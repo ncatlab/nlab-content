@@ -152,7 +152,13 @@ The simplicial version is due to [[Daniel M. Kan]], see Theorem 7.2 in
 
 Other sources:
 
+* {#Bredon93} [[Glen Bredon]], Cor. 11.14 in: _Topology and Geometry_, Graduate texts in mathematics **139**, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
+
+
 * {#ElmendorfKrizMay95} [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], section 1 of _[[Modern foundations for stable homotopy theory]]_, in [[Ioan Mackenzie James]] (ed.),  _[[Handbook of Algebraic Topology]]_,  1995 Amsterdam: North-Holland, pp. 213&#8211;253,   ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+
+* [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], Thm. 6.3.31 in: *Algebraic topology from a homotopical viewpoint*, Springer (2008) ([doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586))
+
 
 Discussion for [[equivariant homotopy theory]] includes
 
