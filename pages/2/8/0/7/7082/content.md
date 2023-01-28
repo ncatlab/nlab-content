@@ -24,7 +24,7 @@ In ([[dependent type theory|dependent]]) [[type theory]] and in particular in [[
 
 > &lbrack;[Rittri (1989)](#Rittri89), [Cosmo (1995, §1.8)](#Cosmo95), [Hofmann & Streicher (1998, §5.4)](#HofmannStreicher98), [Kapulkin & Lumsdaine (2012, 2021, Def. 3.1.1)](#KapulkinLumsdaine21), but see [below](#HistoricalNote)&rbrack; 
 
-or *[[equivalence|equivalent]]* &lbrack;[UFP13, §4](#UFP13)&rbrack; if there is a transformation $D \to C$ which may be [[inverse|inverted]] (up to the relevant re-[[identification type|indentifications]]), hence if any program operating on data of type $A$ may be transformed into a program operating on data of type $B$, and vice versa (see practical examples referenced [below](#ApplicationsInProofReuse)).
+or *[[equivalence|equivalent]]* &lbrack;[UFP13, §4](#UFP13)&rbrack; (for fine-print see the definitions [below](#Definition)) if there exists a transformation $D \to C$ which may be [[inverse|inverted]] (up to the relevant re-[[identification type|indentifications]]), hence if any program operating on data of type $A$ may be transformed into a program operating on data of type $B$, and vice versa (see practical examples referenced [below](#ApplicationsInProofReuse)).
 
 
 Alternatively, a [[function type|function]] $D \to C$ may be called a *[[bijection]]* if all its [[pre-images]] are essentially unique, namely if all its [[fiber types]] are [[contractible types]]. In the [[categorical semantics]] this is called a *[[weak homotopy equivalence]]*, whence this term is also used for the type-theoretic notion &lbrack;[Voevodsky (2010), p. 8, 10](#Voevodsky10)&rbrack;.
@@ -33,13 +33,16 @@ Alternatively, a [[function type|function]] $D \to C$ may be called a *[[bijecti
 
 These two notions are in fact equivalent &lbrack;[UFP13, around Thm. 4.4.5](#UFP13)&rbrack;.
 
+<img src="https://ncatlab.org/nlab/files/TypeBijectionIsEquivalence-230128.jpg" width="750">
+
+
 In the special case of [[0-truncated]] types ([[h-sets]]), hence in [[dependent type theories]] with *[[axiom K]]* or the axiom imposing *[[uniqueness of identity proofs]]*, the notion of  type equivalence corresponds essentially to the notion of *[[bijection]]* or *[[one-to-one correspondence]]* in [[set theory]]. 
 
 In the special case of [[1-truncated]] types ([[h-groupoids]]), type equivalence corresponds essentially to the notion of *[[equivalence of groupoids]]* in [[category theory]].
 
-In full [[homotopy type theory]] the [[categorical semantics]] of type equivalence is *[[homotopy equivalence]]* and that of type bijection is *[[weak homotopy equivalence]]*. That these notions coincide corresponds to the [[categorical semantics]] of types being as [[cofibrant object|co]]-/[[fibrant objects]], on which [[weak homotopy equivalences]] coincide with [[homotopy equivalences]].
+In full [[homotopy type theory]] the [[categorical semantics]] of type equivalence is *[[homotopy equivalence]]* and that of type bijection is *[[weak homotopy equivalence]]*. That these notions coincide corresponds to the [[categorical semantics]] of types being as [[cofibrant object|co]]-/[[fibrant objects]], on which [[weak homotopy equivalences]] coincide with [[homotopy equivalences]] (by the [[Whitehead theorem]]).
 
-Finally, the notion of equivalence/bijection of types is *a priori* different from that of *[[identification type|identification]]* of types in the [[type universe]]. To assert that the two notions do agree after all is to impose the [[univalence]] axiom, in which case the [[categorical semantics]] of type equivalence/isomorphism is that of *[[homotopy equivalence]]*.
+Finally, the notion of equivalence/bijection of types is *a priori* different from that of *[[identification type|identification]]* of types in the [[type universe]]. To assert that the two notions do agree after all is to impose the [[univalence axiom]].
 
 
 ## Definitions
