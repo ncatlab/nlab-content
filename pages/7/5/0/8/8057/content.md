@@ -138,8 +138,12 @@ However, it is possible to add a fixed-point combinator to typed $\lambda$-calcu
 
 ## References
 
-* {#Klop07} Jan Willem Klop, _[New Fixed Point Combinators from Old](http://www.cs.ru.nl/barendregt60/essays/klop/)_, in  	
-_Reflections on Type Theory, Lambda Calculus, and the Mind: Essays Dedicated to Henk Barendregt on the Occasion of his 60th Birthday_
+* {#Klop07} Jan Willem Klop, _[New Fixed Point Combinators from Old](http://www.cs.ru.nl/barendregt60/essays/klop/)_, in: _Reflections on Type Theory, Lambda Calculus, and the Mind: Essays Dedicated to Henk Barendregt on the Occasion of his 60th Birthday_
+
+In [[type theory]]:
+
+* [[Herman Geuvers]], Joep Verkoelen, *On Fixed point and Looping Combinators in Type Theory* (2009) &lbrack;[pdf](http://www.cs.ru.nl/~herman/PUBS/TLCApaper.pdf), [citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.158.1478)&rbrack;
+
 
 [[!redirects fixed-point combinator]]
 [[!redirects fixed-point combinators]]
