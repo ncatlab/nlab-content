@@ -13,7 +13,12 @@ valid in [[LF]]/λP) of various kinds of foundations of mathematics. Then it com
 
 On [[mathematical structures]] formulated in [[dependent type theory]], specifically in [[Coq]]:
 
-* Herman Geuvers, Randy Pollack, [[Freek Wiedijk]], Jan Zwanenburg, *A Constructive Algebraic Hierarchy in Coq*, Journal of Symbolic Computation **34** 4 (2002) 271-286 &lbrack;[doi:10.1006/jsco.2002.0552](https://doi.org/10.1006/jsco.2002.0552), [pdf](http://www.cs.ru.nl/~herman/PUBS/JSC2002-GeuversPollackWiedijkZwanenburg-alghier1.pdf)&rbrack;
+* [[Herman Geuvers]], [[Randy Pollack]], [[Freek Wiedijk]], [[Jan Zwanenburg]], *A Constructive Algebraic Hierarchy in Coq*, Journal of Symbolic Computation **34** 4 (2002) 271-286 &lbrack;[doi:10.1006/jsco.2002.0552](https://doi.org/10.1006/jsco.2002.0552), [pdf](http://www.cs.ru.nl/~herman/PUBS/JSC2002-GeuversPollackWiedijkZwanenburg-alghier1.pdf)&rbrack;
+
+
+On [[constructive analysis]] with exact [[real numbers]] via [[type theory]]:
+
+* [[Herman Geuvers]], [[Milad Niqui]], [[Bas Spitters]], [[Freek Wiedijk]], _Constructive analysis, types and exact real numbers_, Mathematical Structures in Computer Science **17** 01 (2007) 3-36 &lbrack;[doi:10.1017/S0960129506005834](https://doi.org/10.1017/S0960129506005834)&rbrack;
 
 
 ## Related entries
