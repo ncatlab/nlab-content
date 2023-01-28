@@ -18,22 +18,28 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-In [[type theory]], two [[types]] $A$, $B$ are called (homotopy-)*[[isomorphism|isomorphic]]* or *[[equivalence|equivalent]]* if there is a transformation $A \to B$ which may be [[inverse|inverted]] up to the relevant re-indentifications, hence if any program operating on data of type $A$ may be transformed into a program operating on data of type $B$, and vice versa (see practical reference [below](#ApplicationsInProofReuse)).
+In ([[dependent type theory|dependent]]) [[type theory]] and in particular in [[homotopy type theory]], two [[types]] $D$, $C$ are called (homotopy-)*[[isomorphism|isomorphic]]* 
 
-The notion of equivalence of types is *a priori* different from that of *[[identification type|identification]]* of types in the [[type universe]]. To assert that the two notions do agree after all is to impose the [[univalence]] axiom, in which case the [[categorical semantics]] of type equivalence/isomorphism is that of *[[homotopy equivalence]]*, in fact that of homotopy equivalence between [[cofibrant object|co]]-/[[fibrant objects]], hence equivalently that of [[weak homotopy equivalence]].
+> &lbrack;[Rittri (1989)](#Rittri89), [Cosmo (1995, §1.8)](#Cosmo95), [Hofmann & Streicher (1998, §5.4)](#HofmannStreicher98), [Kapulkin & Lumsdaine (2012, 2021, Def. 3.1.1)](#KapulkinLumsdaine21), but see [below](#HistoricalNote)&rbrack; 
 
+or *[[equivalence|equivalent]]* &lbrack;[UFP13, §4](#UFP13)&rbrack; if there is a transformation $D \to C$ which may be [[inverse|inverted]] (up to the relevant re-[[identification type|indentifications]]), hence if any program operating on data of type $A$ may be transformed into a program operating on data of type $B$, and vice versa (see practical examples referenced [below](#ApplicationsInProofReuse)).
+
+
+Alternatively, a [[function type|function]] $D \to C$ may be called a *[[bijection]]* if all its [[pre-images]] are essentially unique, namely if all its [[fiber types]] are [[contractible types]]. In the [[categorical semantics]] this is called a *[[weak homotopy equivalence]]*, whence this term is also used for the type-theoretic notion &lbrack;[Voevodsky (2010), p. 8, 10](#Voevodsky10)&rbrack;.
+
+<img src="https://ncatlab.org/nlab/files/TypeEquivalence-230128b.jpg" width="800">
+
+These two notions are in fact equivalent &lbrack;[UFP13, around Thm. 4.4.5](#UFP13)&rbrack;.
 
 In the special case of [[0-truncated]] types ([[h-sets]]), hence in [[dependent type theories]] with *[[axiom K]]* or the axiom imposing *[[uniqueness of identity proofs]]*, the notion of  type equivalence corresponds essentially to the notion of *[[bijection]]* or *[[one-to-one correspondence]]* in [[set theory]]. 
 
 In the special case of [[1-truncated]] types ([[h-groupoids]]), type equivalence corresponds essentially to the notion of *[[equivalence of groupoids]]* in [[category theory]].
 
-Generally, in [[homotopy type theory]], type equivalence corresponds to ([[weak homotopy equivalence|weak]]) [[homotopy equivalences]]:
+In full [[homotopy type theory]] the [[categorical semantics]] of type equivalence is *[[homotopy equivalence]]* and that of type bijection is *[[weak homotopy equivalence]]*. That these notions coincide corresponds to the [[categorical semantics]] of types being as [[cofibrant object|co]]-/[[fibrant objects]], on which [[weak homotopy equivalences]] coincide with [[homotopy equivalences]].
 
-<img src="https://ncatlab.org/nlab/files/TypeEquivalence-230128.jpg" width="700">
-
-
-
+Finally, the notion of equivalence/bijection of types is *a priori* different from that of *[[identification type|identification]]* of types in the [[type universe]]. To assert that the two notions do agree after all is to impose the [[univalence]] axiom, in which case the [[categorical semantics]] of type equivalence/isomorphism is that of *[[homotopy equivalence]]*.
 
 
 ## Definitions
@@ -158,6 +164,7 @@ In all three cases, by [[function extensionality]] for the first two and additio
 $$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{isEquiv}(f)$$
 
 ### Historical note
+ {#HistoricalNote}
 
 The first attempt at a definition of an equivalence of type was the definition of a quasi-invertible function by [Hofmann & Streicher (1998), §5.4](#HofmannStreicher98). In the absence of [[axiom K]] or [[uniqueness of identity proofs]], this definition suffers from a subltety in the construction of equivalence types, see [below](#TheIssueWithQuasiInverses). In the absence of [[function extensionality]], the definition of an equivalence as a homotopy isomorphism, first proposed by [[André Joyal]] in a 2011 Oberwolfach meeting, recorded in [Kapulkin & Lumsdaine (2012, 2021), Def. 3.1.1](#KapulkinLumsdaine21), similarly suffers from a subltety in the construction of equivalence types. 
 
@@ -504,10 +511,19 @@ On equivalences as one-to-one correspondences in homotopy type theory:
 
 * Mike Shulman, *Towards a Third-Generation HOTT* Part 1 &lbrack;[slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA)&rbrack;
 
-### Application in proof reuse
+
+### Applications
  {#ApplicationsInProofReuse}
 
+Origin of the notion of type isomorphy in and application to [[programming language]]-theory and -practice:
+
+* {#Rittri89} Mikael Rittri, *Using types as search keys in function libraries*, in: *FPCA '89: Proceedings of the fourth international conference on Functional programming languages and computer architecture* (1989) 174–183 &lbrack;[doi:10.1145/99370.99384](https://doi.org/10.1145/99370.99384), [pdf](https://dl.acm.org/doi/pdf/10.1145/99370.99384)&rbrack;
+
+* {#Cosmo95} [[Roberto Di Cosmo]], *Isomorphisms of Types -- from $\lambda$-calculus to information retrieval and language design*, Progress in Theoretical Computer Science, Birkhäuser (1995) &lbrack;[doi:10.1007/978-1-4612-2572-0](https://doi.org/10.1007/978-1-4612-2572-0)&rbrack;
+
 * Gilles Barthe, Olivier Pons, *Type Isomorphisms and Proof Reuse in Dependent Type Theory*, in *Foundations of Software Science and Computation Structures. FoSSaCS 2001*, Lecture Notes in Computer Science **2030**, Springer (2001) &lbrack;[doi:10.1007/3-540-45315-6_4](https://doi.org/10.1007/3-540-45315-6_4)&rbrack;
+
+* [[Roberto Di Cosmo]], *A short survey of isomorphisms of types*, Mathematical Structures in Computer Science **15** 5  (2005) 825-838 &lbrack;[doi:10.1017/S0960129505004871](https://doi.org/10.1017/S0960129505004871), [pdf](https://www.dicosmo.org/Articles/mscs-survey.pdf)&rbrack;
 
 * [[Talia Ringer]], RanDair Porter, Nathaniel Yazdani, John Leo, Dan Grossman, *Proof Repair across Type Equivalences* &lbrack;[arXiv:2010.00774](https://arxiv.org/abs/2010.00774)&rbrack;
 
