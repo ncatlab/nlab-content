@@ -19,13 +19,20 @@
 
 ## Idea
 
-We discuss the correct (operational) notion of [[equivalence]] in [[type theory]].
+In [[type theory]], two [[types]] $A$, $B$ are called (homotopy-)*[[isomorphism|isomorphic]]* or *[[equivalence|equivalent]]* if there is a transformation $A \to B$ which may be [[inverse|inverted]] up to the relevant re-indentifications, hence if any program operating on data of type $A$ may be transformed into a program operating on data of type $B$, and vice versa (see practical reference [below](#ApplicationsInProofReuse)).
 
-In [[dependent type theory]] with [[axiom K]] or [[uniqueness of identity proofs]], the notion of **equivalence** corresponds roughly to the notion of [[bijection]] or [[one-to-one correspondence]] in [[set theory]]. 
+The notion of equivalence of types is *a priori* different from that of *[[identification type|identification]]* of types in the [[type universe]]. To assert that the two notions do agree after all is to impose the [[univalence]] axiom, in which case the [[categorical semantics]] of type equivalence/isomorphism is that of *[[homotopy equivalence]]*, in fact that of homotopy equivalence between [[cofibrant object|co]]-/[[fibrant objects]], hence equivalently that of [[weak homotopy equivalence]].
 
-In the context of dependent type theories without [[axiom K]] or [[uniqueness of identity proofs]], such as [[homotopy type theory]], **equivalence** corresponds to the notion of [[equivalence of categories|equivalence]] in [[groupoid|groupoid theory]] and, more generally, the notion of [[homotopy equivalence]] in [[homotopy theory]]. 
 
-In [[point-set topology]] and generally in the context of [[homotopical category|homotopical]] [[1-category]]-[[category theory|theory]], these are called *[[weak equivalences]]*, since without suitable [[resolution]] they may not be [[homotopy equivalences]]. However, via the [[categorical semantics]] of [[homotopy type theory]] in [[type-theoretic model categories]], the required [[resolutions]] are all implicit (essentially since all objects are assumed to be [[cofibrant object|cofibrant]] and [[identity types]] are interpreted as [[fibrant resolution]] of [[diagonal maps]]) so that all (weak) equivalences are actually homotopy equivalences.
+In the special case of [[0-truncated]] types ([[h-sets]]), hence in [[dependent type theories]] with *[[axiom K]]* or the axiom imposing *[[uniqueness of identity proofs]]*, the notion of  type equivalence corresponds essentially to the notion of *[[bijection]]* or *[[one-to-one correspondence]]* in [[set theory]]. 
+
+In the special case of [[1-truncated]] types ([[h-groupoids]]), type equivalence corresponds essentially to the notion of *[[equivalence of groupoids]]* in [[category theory]].
+
+Generally, in [[homotopy type theory]], type equivalence corresponds to ([[weak homotopy equivalence|weak]]) [[homotopy equivalences]]:
+
+<img src="https://ncatlab.org/nlab/files/TypeEquivalence-230128.jpg" width="700">
+
+
 
 
 
@@ -498,6 +505,7 @@ On equivalences as one-to-one correspondences in homotopy type theory:
 * Mike Shulman, *Towards a Third-Generation HOTT* Part 1 &lbrack;[slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA)&rbrack;
 
 ### Application in proof reuse
+ {#ApplicationsInProofReuse}
 
 * Gilles Barthe, Olivier Pons, *Type Isomorphisms and Proof Reuse in Dependent Type Theory*, in *Foundations of Software Science and Computation Structures. FoSSaCS 2001*, Lecture Notes in Computer Science **2030**, Springer (2001) &lbrack;[doi:10.1007/3-540-45315-6_4](https://doi.org/10.1007/3-540-45315-6_4)&rbrack;
 
