@@ -125,7 +125,11 @@ Textbook account:
 
 * [[Aaron Stump]], *Verified Functional Programming in Agda*, Association for Computing Machinery and Morgan & Claypool (2016) &lbrack;[doi:10.1145/2841316](https://doi.org/10.1145/2841316), ISBN:978-1-970001-27-3&rbrack;
 
-Introductions to Agda as implementation of [[homotopy type theory]]/[[univalent foundations of mathematics]]:
+Introductions:
+
+* [[Peter Selinger]], *Lectures on Agda* (2021) &lbrack;[web](https://www.mathstat.dal.ca/~selinger/agda-lectures/)&rbrack;
+
+and as implementation of [[homotopy type theory]]/[[univalent foundations of mathematics]]:
 
 * {#Brunerie} [[Guillaume Brunerie]], _Agda for homotopy type theory_ ([web](https://github.com/guillaumebrunerie/HoTT/tree/master/Agda/tutorial))
  
