@@ -54,6 +54,7 @@ it was claimed that from Girard's paradox one could actually construct a fixed-p
 
 Further analysis is in
 
-* Herman Geuvers and Joep Verkoelen, "On Fixed point and Looping Combinators in Type Theory", [citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.158.1478)
+* [[Herman Geuvers]], Joep Verkoelen, *On Fixed point and Looping Combinators in Type Theory* (2009) &lbrack;[pdf](http://www.cs.ru.nl/~herman/PUBS/TLCApaper.pdf), [citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.158.1478)&rbrack;
+
 
 [[!redirects looping combinators]]
