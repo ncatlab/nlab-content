@@ -5,7 +5,7 @@
 
 On [[higher inductive types]] in [[homotopy type theory]]:
 
-* Henning Basold, Herman Geuvers, [[Niels van der Weide]], *Higher Inductive Types in Programming*, Journal of Universal Computer Science **23** 1 (2017) 63-88 &lbrack;[pdf](https://www.jucs.org/jucs_23_1/higher_inductive_types_in/jucs_23_01_0063_0088_basold.pdf), [slides pdf](https://nmvdw.github.io/pubs/Agda25.pdf)&rbrack;
+* [[Henning Basold]], [[Herman Geuvers]], [[Niels van der Weide]], *Higher Inductive Types in Programming*, Journal of Universal Computer Science **23** 1 (2017) 63-88 &lbrack;[pdf](https://www.jucs.org/jucs_23_1/higher_inductive_types_in/jucs_23_01_0063_0088_basold.pdf), [slides pdf](https://nmvdw.github.io/pubs/Agda25.pdf)&rbrack;
 
 * [[Niccolò Veltri]], [[Niels van der Weide]], *Constructing Higher Inductive Types as Groupoid Quotients*, Logical Methods in Computer Science **17** 2 (2021)  &lbrack;[arXiv:2002.08150](https://arxiv.org/abs/2002.08150), <a href="https://doi.org/10.23638/LMCS-17(2:8)2021">doi:10.23638/LMCS-17(2:8)2021</a>&rbrack;
 
