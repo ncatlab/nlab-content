@@ -16,7 +16,7 @@
 # Contents
 * table of contents
 {: toc}
-f
+
 ## Idea 
 
 A _real number_ is a [[number]] that may be [[Dedekind completion|approximated]] by [[rational numbers]].  Equipped with the operations of [[addition]] and [[multiplication]] induced from the rational numbers, real numbers form a _[[field]]_, commonly denoted _$\mathbb{R}$_. The underlying set is the _[[Dedekind completion|completion]]_ of the [[ordered field]] $\mathbb{Q}$ of rational numbers: the result of adjoining to $\mathbb{Q}$ [[suprema]] for every [[inhabited set|inhabited]] [[bounded set|bounded subset]] with respect to the natural [[order|ordering]] of rational numbers.
@@ -329,6 +329,18 @@ A formalization of the real numbers in [[homotopy type theory]] is in
 For more see the references at _[[analysis]]_.
 
 * {#PavlovicPratt} [[Dusko Pavlovic]], [[Vaughan Pratt]], _On coalgebra of real numbers_, Electronic Notes in Theoretical Computer Science **19** (1999) 103-117, doi:[10.1016/S1571-0661(05)80272-5](https://doi.org/10.1016/S1571-0661%2805%2980272-5), [CiteSeerx](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.5204)
+
+Overview of implementation of real numbers in [[proof assistants]] (cf. [[constructive analysis]]):
+
+* Sylvie Boldo, Catherine Lelay, Guillaume Melquiond, *Formalization of Real Analysis: A Survey of Proof
+Assistants and Libraries*, Mathematical Structures in Computer Science **26** 7 (2016) 1196-1233  &lbrack;[hal:00806920](https://hal.inria.fr/hal-00806920v1), [doi:10.1017/S0960129514000437](https://doi.org/10.1017/S0960129514000437)&rbrack;
+
+implementation in [[Agda]]:
+
+* [[Martin Lundfall]], *Formalizing real numbers in Agda* (2015) &lbrack;<a href="https://wcl.cs.rpi.edu/pilots/library/papers/TAGGED/4211-Lundfall%20(2015)%20-%20Formalizing%20Real%20Numbers%20in%20Agda.pdf">pdf</a>, [[Lundfall-RealNumbersInAgda.pdf:file]]&rbrack;
+
+* [[Zachary Murray]], *Constructive Analysis in the Agda Proof Assistant* &lbrack;[arXiv:2205.08354](https://arxiv.org/abs/2205.08354), [github](https://github.com/z-murray/honours-project-constructive-analysis-in-agda)&rbrack;
+
  
 [[!redirects real number]]
 [[!redirects real numbers]]
