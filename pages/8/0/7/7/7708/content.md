@@ -111,7 +111,7 @@ The [[dependent pair]]-[[telescope]] [[type]] declaration of [[group objects|gro
 
 Given a [[ground field]] type $\mathbb{K}$, the type of [[vector spaces]] is the following [[dependent pair]]-[[telescope]]:
 
-<img src="/nlab/files/VectorSpaceDataStructure-230128b.jpg" width="740">
+<img src="/nlab/files/VectorSpaceDataStructure-230129.jpg" width="740">
 
 
 
