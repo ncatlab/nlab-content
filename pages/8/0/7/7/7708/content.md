@@ -71,14 +71,14 @@ In [[dependent type theory]] the notion of "mathematical structure" and/or *data
 
 The following shows some examples, using the notation for [[dependent pairs]] from [[dependent functions and dependent pairs -- table|here]].
 
-Via the [[extension (semantics)|extensionality]] principles for [[dependent pairs]] ([here](dependent+sum+type#ExtensionalityPrinciple)) and for [[dependent functions]] ([here](function+extensionality#StatementForDependentFunctions)) 
+Via the [[extension (semantics)|extensionality]] principles for [[dependent pairs]] ([here](dependent+sum+type#ExtensionalityPrinciple)) and for [[dependent functions]] ([here](function+extensionality#StatementForDependentFunctions)) such type theoretic structure automatically obey the *[[structure identity principle]]*:
 
 <img src="/nlab/files/DependentPairExtensionality-230121.jpg" width="600">
 
 <img src="/nlab/files/DependentFunctionExtensionality-230121.jpg" width="600">
 
+In that any equivalence/identification between pairs of data of the following types are isomorphisms in the sense of bijective [[homomorphisms]].
 
-such type theoretic structure automatically obey the *[[structure identity principle]]*.
 
 
 ### Lensed data structure
