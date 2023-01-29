@@ -106,12 +106,22 @@ The [[dependent pair]]-[[telescope]] [[type]] declaration of [[group objects|gro
 <img src="/nlab/files/GroupDataType-230121.jpg" width="740">
 
 
-### Vector space structure
- {#VectorSpaces}
+### Ring data structure
+ {#RingDataStructure}
 
-Given a [[ground field]] type $\mathbb{K}$, the type of [[vector spaces]] is the following [[dependent pair]]-[[telescope]]:
+The [[dependent pair]]-[[telescope]] [[type]] declaration of [[unital ring|unital]] [[ring objects|ring structure]]:
 
-<img src="/nlab/files/VectorSpaceDataStructure-230129.jpg" width="740">
+<img src="/nlab/files/RingDataStruture-230129.jpg" width="740">
+
+
+### Module data structure
+ {#ModuleDataStructure}
+
+Given a [[unital ring|unital]] [[ring]] type $R \colon Ring$ (as [above](#RingDataStructure)), the type of $R$-[[module objects]] is the following [[dependent pair]]-[[telescope]]:
+
+
+<img src="/nlab/files/ModuleDataStructure-230129.jpg" width="740">
+
 
 
 
@@ -126,6 +136,7 @@ Given a [[ground field]] type $\mathbb{K}$, the type of [[vector spaces]] is the
 * [[structuralism]], [[structure identity principle]]
 
 * [[exceptional structure]]
+
 
 ## References
 
