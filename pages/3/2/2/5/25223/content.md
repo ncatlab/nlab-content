@@ -25,11 +25,15 @@ TODO: show that each of the axioms below implies the [[uniqueness of identity pr
 
 ### Uniqueness of identity proofs
 
-In [[dependent type theory]], [[uniqueness of identity proofs]] is given by the following rule:
+#### For identification types
+
+In [[dependent type theory]], [[uniqueness of identity proofs]] for [[identification types]] is given by the following rule:
 
 $$\frac{\Gamma \vdash A \; type \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash q:\mathrm{Id}_A(a, b)}{\Gamma \vdash \mathrm{UIP}_A(a, b, p, q):\mathrm{Id}_{\mathrm{Id}_A(a, b)}(p, q)}$$
 
-There is also uniqueness of identity proofs for [[heterogeneous identity types]]:
+#### For heterogeneous identification types
+
+There is uniqueness of identity proofs for [[heterogeneous identification types]]:
 
 $$\frac{
     \begin{array}{l}
@@ -39,7 +43,11 @@ $$\frac{
     \end{array}
 }{\Gamma \vdash \mathrm{UIP}_{B}(a, b, p, y, z, q, r):\mathrm{Id}_{\mathrm{hId}_{B}(a, b, p, y, z)}(q, r)}$$
 
-and for [[dependent heterogeneous identity types]]:
+Uniqueness of identity proofs for identification types follows from uniqueness of identity proofs for heterogeneous identification types by taking canonical element $\mathrm{pt}:\mathbb{1}$ of the [[unit type]] $\mathbb{1}$, identification $\mathrm{refl}_{\mathbb{1}}(\mathrm{pt}):\mathrm{Id}_{\mathbb{1}}(\mathrm{pt}, \mathrm{pt})$, and elements $a:A$ and $b:A$. Since the following two types are equivalent: 
+$$\mathrm{Id}_{A}(a, b) \simeq \mathrm{hId}_{A}(\mathrm{pt}, \mathrm{pt}, \mathrm{refl}_{\mathbb{1}}(\mathrm{pt}), a, b)$$
+and because $\mathrm{hId}_{A}(\mathrm{pt}, \mathrm{pt}, \mathrm{refl}_{\mathbb{1}}(\mathrm{pt}), a, b)$ is always a [[mere proposition]] by uniqueness of identity proofs for heterogeneous identification types, it follows that $\mathrm{Id}_{A}(a, b)$ is also always a mere proposition. 
+
+Similarly, there is also uniqueness of identity proofs for [[dependent heterogeneous identification types]]:
 
 $$\frac{
     \begin{array}{l}
@@ -49,13 +57,21 @@ $$\frac{
     \end{array}
 }{\Gamma \vdash \mathrm{UIP}_{x:A.B(x)}(a, b, p, y, z, q, r):\mathrm{Id}_{\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)}(q, r)}$$
 
+Uniqueness of identity proofs for identification types follows from uniqueness of identity proofs for dependent heterogeneous identification types by defining the type $A$ to be the dependent type $C(\mathrm{pt})$ for type family $x:\mathbb{1} \vdash C(x)$ indexed by the [[unit type]] $\mathbb{1}$, and taking the canonical element $\mathrm{pt}:\mathbb{1}$, identification $\mathrm{refl}_{\mathbb{1}}(\mathrm{pt}):\mathrm{Id}_{\mathbb{1}}(\mathrm{pt}, \mathrm{pt})$, and elements $a:C(\mathrm{pt})$ and $b:C(\mathrm{pt})$. Since the two types are equivalent:
+$$\mathrm{Id}_{A}(a, b) \equiv \mathrm{Id}_{C(\mathrm{pt})}(a, b) \simeq \mathrm{hId}_{x:\mathbb{1}.C(x)}(\mathrm{pt}, \mathrm{pt}, \mathrm{refl}_{\mathbb{1}}(\mathrm{pt}), a, b)$$
+and because $\mathrm{hId}_{x:\mathbb{1}.C(x)}(\mathrm{pt}, \mathrm{pt}, \mathrm{refl}_{\mathbb{1}}(\mathrm{pt}), a, b)$ is always a [[mere proposition]] by uniqueness of identity proofs for dependent heterogeneous identification types, it follows that $\mathrm{Id}_{C(\mathrm{pt})}(a, b)$ and thus by definition $\mathrm{Id}_{A}(a, b)$ is also always a mere proposition. 
+
 ### Axiom K
+
+#### For identification types
 
 In [[dependent type theory]], [[axiom K (type theory)|axiom K]] is given by the following rule:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma\vdash a:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, a)}{\Gamma\vdash K_A(a, p):\mathrm{Id}_{\mathrm{Id}_A(a, a)}(p, refl_A(a))}$$
 
-There is also axiom K for [[heterogeneous identity types]]:
+#### For heterogeneous identification types
+
+There is an axiom K for [[heterogeneous identification types]]:
 
 $$\frac{
     \begin{array}{l}
@@ -65,7 +81,11 @@ $$\frac{
     \end{array}
 }{\Gamma \vdash K_{B}(f, a, b, p, q):\mathrm{Id}_{\mathrm{hId}_{B}(a, b, p, f(a), f(b))}(q, \mathrm{ap}_{B}(f, a, b, p))}$$
 
-and for [[dependent heterogeneous identity types]]:
+Axiom K for identification types follows from axiom K for heterogeneous identification types by taking canonical element $\mathrm{pt}:\mathbb{1}$ of the [[unit type]] $\mathbb{1}$, identification $\mathrm{refl}_{\mathbb{1}}(\mathrm{pt}):\mathrm{Id}_{\mathbb{1}}(\mathrm{pt}, \mathrm{pt})$, and elements $a:A$ and $b:A$. Since the following two types are equivalent: 
+$$\mathrm{Id}_{A}(a, b) \simeq \mathrm{hId}_{A}(\mathrm{pt}, \mathrm{pt}, \mathrm{refl}_{\mathbb{1}}(\mathrm{pt}), a, b)$$
+and because $\mathrm{hId}_{A}(\mathrm{pt}, \mathrm{pt}, \mathrm{refl}_{\mathbb{1}}(\mathrm{pt}), a, a)$ is always a [[contractible type]] with [[center of contraction]] $\mathrm{ap}_{A}(f, \mathrm{pt}, \mathrm{pt}, \mathrm{refl}_{\mathbb{1}}(\mathrm{pt}))$ for element $a:A$, and function $f:\mathbb{1} \to A$, by axiom K for heterogeneous identification types, it follows that $\mathrm{Id}_{A}(a, a)$ is also always a contractible type, with center of contraction $\mathrm{refl}_A(a)$. 
+
+Similarly, there is also an axiom K for [[dependent heterogeneous identification types]]:
 
 $$\frac{
     \begin{array}{l}
@@ -74,6 +94,10 @@ $$\frac{
      \Gamma \vdash q:\mathrm{hId}_{x:A.B(x)}(a, b, p, f(a), f(b))
     \end{array}
 }{\Gamma \vdash K_{x:A.B(x)}(f, a, b, p, q):\mathrm{Id}_{\mathrm{hId}_{x:A.B(x)}(a, b, p, f(a), f(b))}(q, \mathrm{apd}_{x:A.B(x)}(f, a, b, p))}$$
+
+Axiom K for identification types follows from axiom K for dependent heterogeneous identification types by defining the type $A$ to be the dependent type $C(\mathrm{pt})$ for type family $x:\mathbb{1} \vdash C(x)$ indexed by the [[unit type]] $\mathbb{1}$, and taking the canonical element $\mathrm{pt}:\mathbb{1}$, identification $\mathrm{refl}_{\mathbb{1}}(\mathrm{pt}):\mathrm{Id}_{\mathbb{1}}(\mathrm{pt}, \mathrm{pt})$, and elements $a:C(\mathrm{pt})$ and $b:C(\mathrm{pt})$. Since the two types are equivalent:
+$$\mathrm{Id}_{A}(a, b) \equiv \mathrm{Id}_{C(\mathrm{pt})}(a, b) \simeq \mathrm{hId}_{x:\mathbb{1}.C(x)}(\mathrm{pt}, \mathrm{pt}, \mathrm{refl}_{\mathbb{1}}(\mathrm{pt}), a, b)$$
+and because $\mathrm{hId}_{x:\mathbb{1}.C(x)}(\mathrm{pt}, \mathrm{pt}, \mathrm{refl}_{\mathbb{1}}(\mathrm{pt}), a, b)$ is always a [[contractible type]] with [[center of contraction]] $\mathrm{apd}_{x:\mathbb{1}.C(x)}(f, \mathrm{pt}, \mathrm{pt}, \mathrm{refl}_{\mathbb{1}}(\mathrm{pt}))$ for element $a:A$, and dependent function $f:\prod_{x:\mathbb{1}} C(x)$, by axiom K for heterogeneous identification types, it follows that $\mathrm{Id}_{C(\mathrm{pt}}(a, a)$ and thus by definition $\mathrm{Id}_{A}(a, a)$ is also always a contractible type, with center of contraction $\mathrm{refl}_A(a)$. 
 
 ### Boundary separation
 
