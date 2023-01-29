@@ -406,16 +406,17 @@ In order to economically define and denote the [[finite topological spaces]] whi
 
 Recall that the [[specialisation preorder]] on the [[underlying]] [[set]] of points of a [[topological space]] $X$ is the [[preorder]] whose [[order relation]], for any $x, y \in X$, is
 
-$$
+\[
+  \label{SpecializationPreorder}
   x \,\leq\, y
   \;\;\;\;\;\;\text{iff}\;\;\;\;\;\;
-  y \,\in\, cl(x)
+  x \,\in\, cl(y)
   \,,
-$$
+\]
 
 where the right hand side means that the following two equivalent conditions hold:
 
-1. $y$ is in the [[topological closure]] of $x$;
+1. $x$ is in the [[topological closure]] of $y$;
 
 1. every [[open subset]] which contains $x$ also contains $y$.
 
