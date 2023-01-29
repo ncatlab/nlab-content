@@ -108,26 +108,56 @@ We discuss the [[syntax]] of 1-images in this theory.
 
 +-- {: .num_prop #SyntaxOfInfinityImage}
 ###### Proposition
+
 If 
-$$ a\colon A \;\vdash \; f(a) \colon B $$
-is a [[term]] whose [[categorical semantics]] is a [[morphism]] $A \xrightarrow{f} B$ in $\mathbf{H}$, then the 1-image of that morphism, when regarded as an object of $\mathbf{H}/B$, is the categorical semantics of the [[dependent type]]
+$$ 
+  a \colon A 
+  \;\vdash\; 
+  f(a) \,\colon\, B 
 $$
-  (b:B) \; \vdash \; 
-  \Big(\Big[
-    \sum_{a \colon A} (b = f(a))
-  \Big]
-  : Type\Big).
+is a [[term]] whose [[categorical semantics]] is a [[morphism]] $A \xrightarrow{f} B$ in $\mathbf{H}$, then the 1-image of that morphism, when regarded as an object of $\mathbf{H}/B$, is the [[categorical semantics]] of the [[dependent type]]
+
+$$
+  (b:B) 
+  \;\; 
+  \vdash 
+  \;\; 
+    \Big[
+      (a \colon A)
+      \times
+      \big(b = f(a) \big)
+    \Big]_0
+    \,\colon\,
+    Type
+    \,,
 $$
 =--
 
-Here $=$ denotes the [[identity type]] or "path type", $\sum$ denotes the [[dependent sum type]], and $[-]$ denotes the [[bracket type]] (which is constructible in homotopy type theory either as a [[higher inductive type]] or using the [[univalence axiom]] and a resizing rule to obtain a [[subobject classifier]]).
+Here 
+
+* $(a \colon A) \times C_a$ denotes the [[dependent pair type]],
+
+* "$=$" denotes the [[identification type]], 
+
+* $[-]_0$ denotes the [[bracket type]] (which is constructible in homotopy type theory either as a [[higher inductive type]] as described at *[[n-truncation modality]]*m or using the [[univalence axiom]] and a resizing rule to obtain a [[subobject classifier]]).
 
 
 +-- {: .proof}
 ###### Proof
 
 Let $\mathbf{M}$ be a suitable [[model category]] [[presentable (∞,1)-category|presenting]] $\mathbf{H}$.  Then by the rules for [[categorical semantics]] of [[identity types]] and [[substitution]], the interpretation of
-$$ (b:B),\, (a:A) \;\vdash\; ((b = f(a)) : Type)$$
+
+$$ 
+  (b \colon B)
+  ,\, 
+  (a \colon A) 
+  \;\;\vdash\;\; 
+  \big(
+    b = f(a)
+  \big) 
+  \,:\, Type
+$$
+
 in $\mathbf{M}$ a is the following [[pullback]] $\tilde A$ (see _[[homotopy pullback]]_ for more details):
 
 $$
