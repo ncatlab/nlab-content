@@ -18,7 +18,7 @@
 ## Idea
 
 What has come to be called __Stein duality__ establishes an [[equivalence of categories|equivalence]]
-between a certain [[category]] of [[complex algebras]]
+between a certain [[category]] of complex [[algebras]]
 and a certain category of [[Stein spaces]]
 in a completely analogous manner
 to the equivalence between [[commutative rings]] and [[affine schemes]],
@@ -27,24 +27,24 @@ and, more closely, [[C^∞-rings]] and [[smooth loci]] (see also at *[[duality b
 ## Preliminaries
 
 Recall that a [[Stein manifold]] is a [[complex manifold]]
-that admits a proper holomorphic [[immersion]] into some $C^n$.
+that admits a proper holomorphic [[immersion]] into some $\mathbf{C}^n$.
 More generally, a [[Stein space]] is a [[complex analytic space]]
-(i.e., a [[locally ringed space]] that is locally isomorphic to the vanishing locus of some ideal of [[holomorphic functions]] on~$C^n$)
+(i.e., a [[locally ringed space]] that is locally isomorphic to the vanishing locus of some ideal of [[holomorphic functions]] on $\mathbf{C}^n$)
 whose reduction is a [[Stein manifold]].
-A Stein spaces is __globally finitely presented__
-if it admits a closed embedding in $C^n$ whose defining ideal is globally finitely generated.
+A Stein space is __globally finitely presented__
+if it admits a closed embedding in $\mathbf{C}^n$ whose defining ideal is globally finitely generated.
 
 ## Definition
 
-(See Proposition~1.13 in Pridham.)
+(See Proposition 1.13 in Pridham.)
 The category of globally [[finitely presented object|finitely presented]] [[Stein spaces]]
 is [[contravariant functor|contravariantly]] [[equivalence of categories|equivalent]] to the category of [[finitely presented object|finitely presented]]
 [[EFC-algebras]].
 The equivalence functor sends a [[Stein space]] to its EFC-algebra of [[global sections]].
 
-(See Theorem~3.23 in Pirkovskii.)
+(See Theorem 3.23 in Pirkovskii.)
 The category of [[Stein spaces]] of finite embedding dimension
-is contravariantly equivalent to the category of those finitely generated [[EFC-algebras]] defined by closed ideals.
+is contravariantly equivalent to the category of those finitely generated [[EFC-algebras]] defined by closed ideals (*holomorphically finitely generated algebras* in Pirkovskii's terminology of Definition 3.16).
 The equivalence functor sends a [[Stein space]] to its [[EFC-algebra]] of global sections.
 
 ## Related concepts
