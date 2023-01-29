@@ -105,6 +105,10 @@ The [[dependent pair]]-[[telescope]] [[type]] declaration of [[group objects|gro
 
 <img src="/nlab/files/GroupDataType-230121.jpg" width="740">
 
+Further restriction to [[abelian groups]]:
+
+<img src="/nlab/files/AbelianGroupData-230129.jpg" width="650">
+
 
 ### Ring data structure
  {#RingDataStructure}
