@@ -48,8 +48,8 @@ Some examples from [[general topology]], [[measure theory]], [[differential geom
 |[[complete Boolean algebra]]|complete homomorphism|$\mathbf{Z}/2$|closed ideal|compact extremally disconnected Hausdorff space ([[Stonean space]])|open continuous map|[[Stonean duality]]|
 |[[localizable Boolean algebra]]|complete homomorphism|$\mathbf{Z}/2$|closed ideal|[[hyperstonean space]]|open continuous map||
 |[[localizable Boolean algebra]]|complete homomorphism|$\mathbf{Z}/2$|closed ideal|[compact strictly localizable enhanced measurable space](https://mathoverflow.net/questions/20740/is-there-an-introduction-to-probability-theory-from-a-structuralist-categorical/20820#20820)|measurable map||
-|[[commutative von Neumann algebra]]|normal \*-homomorphism|$\mathbf{C}$|closed \*-ideal|compact strictly localizable enhanced measurable space|measurable map||
-|commutative unital [[C*-algebra]]|\*-homomorphism|$\mathbf{C}$|closed \*-ideal|compact Hausdorff space|continuous map|[[Gelfand duality]]|
+|[[commutative von Neumann algebra]]|normal \*-homomorphism|$\mathbf{C}$|ultraweakly closed \*-ideal|compact strictly localizable enhanced measurable space|measurable map||
+|commutative unital [[C*-algebra]]|\*-homomorphism|$\mathbf{C}$|norm-closed \*-ideal|compact Hausdorff space|continuous map|[[Gelfand duality]]|
 |[[commutative algebra]] over $k$|homomorphism|$k$|ideal|[[coherent space]] / [[affine scheme]]|[[continuous map]] / [[morphism of schemes]]|[[Zariski duality]]|
 |finitely generated germ-determined [[C^∞-ring]]|C$^\infty$-homomorphism|$\mathbf{R}$|germ-determined ideal|[[smooth locus]] (e.g., [[smooth manifold]])|[[smooth map]]|[[Milnor duality]]|
 |finitely presented complex [[EFC-algebra]]|EFC-homomorphism|$\mathbf{C}$|ideal|globally finitely presented [[Stein space]]|holomorphic map|[[Stein duality]]|
