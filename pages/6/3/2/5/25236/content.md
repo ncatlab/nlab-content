@@ -1,5 +1,5 @@
 
-* [LinedIn page](https://ca.linkedin.com/in/zachary-murray-dal)
+* [LinkedIn page](https://ca.linkedin.com/in/zachary-murray-dal)
 
 ## Selected writings
 
