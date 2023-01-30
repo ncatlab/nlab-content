@@ -1,7 +1,9 @@
 
 * member of [[CQTS]]
 
-* [old institute page](https://math.uiowa.edu/people/mitchell-riley)
+* [institute page](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts/mitchell-riley.html) at NYU Abu Dhabi
+
+* [old institute page](https://math.uiowa.edu/people/mitchell-riley) at Iowa
 
 
 ## Selected writings
