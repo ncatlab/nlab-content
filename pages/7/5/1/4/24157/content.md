@@ -12,18 +12,24 @@
 * table of contents
 {:toc}
 
+## Idea
+
+In [[dependent type theory]], an **identity system** is a [[correspondence]] on a type $A$
+
+$$a:A, b:A \vdash R(a, b)$$
+
+which behaves like a [[weak identity type]] on $A$. 
+
 ## Definition ##
 
 In [[dependent type theory]], an __identity system__ on a [[type]] $A$ is a [[correspondence]] on $A$, $a:A, b:A \vdash R(a, b)$, with a [[dependent function]] 
-$$r_0: \prod_{a:A} R(a, a)$$ 
+$$a:A \vdash r_0(a):R(a, a)$$ 
 such that for any [[dependent type|family of types]] 
-$$a:A, b:B, r:R(a, b) \vdash D(a, b, r)$$
-and [[dependent function]] 
-$$d:\prod_{a:A} D(a, a, r(a))$$ 
+$$a:A, b:A, p:R(a, b) \vdash C(a, b, p)$$
 there exists a dependent function 
-$$f:\prod_{a:A} \prod_{b:B} \prod_{r:R(a, b)} D(a, b, r)$$
+$$t:\prod_{c:A} C(c, c, r_0(c)), a:A, b:A, p:R(a, b) \vdash J(t, a, b, p):C(a, b, p)$$
 and a dependent function
-$$e:\prod_{a:A} f(a, a, r(a)) = d(a)$$
+$$t:\prod_{c:A} C(c, c, r_0(c)), a:A \vdash \beta(t, a):J(t, a, a, r_0(a)) =_{C(a, a, r_0(a))} t(a)$$
 
 ## See also ##
 
