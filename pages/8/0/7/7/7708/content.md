@@ -95,7 +95,8 @@ To say that a given data (base) type $B \,\colon\, Set$ is
 
 means to declare it to be of the following iterated [[dependent pair]]-[[telescope]] [[type]]:
 
-<img src="/nlab/files/WellBehavedLensDataStructure-210121.jpg" width="740">
+<img src="/nlab/files/WellBehavedLensDataStructure-230130.jpg" width="740">
+
 
 
 ### Group data structure
@@ -103,7 +104,7 @@ means to declare it to be of the following iterated [[dependent pair]]-[[telesco
 
 The [[dependent pair]]-[[telescope]] [[type]] declaration of [[group objects|group structure]]:
 
-<img src="/nlab/files/GroupDataType-230121.jpg" width="740">
+<img src="/nlab/files/GroupDataType-230130.jpg" width="740">
 
 Further restriction to [[abelian groups]]:
 
