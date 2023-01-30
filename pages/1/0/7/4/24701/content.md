@@ -90,28 +90,31 @@ Formation rules for identification types:
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, b:A \vdash a =_A b \; \mathrm{type}}$$
 
 Formation rules for dependent function types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \Pi(x:A).B(x) \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \prod_{x:A} B(x) \; \mathrm{type}}$$
 
 Introduction rules for identification types:
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A \vdash \mathrm{refl}_A(a) : a =_A a}$$
 
 Introduction rules for dependent function types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma \vdash \lambda(x:A).b(x):\Pi(x:A).B(x)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma \vdash \lambda(x:A).b(x):\prod_{x:A} B(x)}$$
 
 Elimination rule for identification types:
-$$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p) \; \mathrm{type}}{\Gamma, t:\Pi(a:A).C(a, a, \mathrm{refl}_A(a)), x:A, y:A, p:x =_A y \vdash \mathrm{ind}_{=_A}(t, x, y, p):C}$$
+$$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p) \; \mathrm{type}}{\Gamma, t:\prod_{a:A} C(a, a, \mathrm{refl}_A(a)), x:A, y:A, p:x =_A y \vdash J_A(t, x, y, p):C(x, y, p)}$$
 
 Elimination rules for dependent function types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, f:\Pi(x:A).B(x), a:A \vdash \mathrm{ind}_{\Pi(x:A).B(x)}(f, a):B(a)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, f:\prod_{x:A} B(x), a:A \vdash \mathrm{ind}_{\prod_{x:A} B(x)}(f, a):B(a)}$$
 
 Computation rules for identification types:
-$$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p) \; \mathrm{type}}{\Gamma, t:\Pi(a:A).C(a, a, \mathrm{refl}_A(a)), x:A \vdash \beta_{=_A}(t, x):\mathrm{ind}_{=_A}(t, x, x, \mathrm{refl}_A(x)) =_{C(x, x, \mathrm{refl}_A(x))} t}$$
+$$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p) \; \mathrm{type}}{\Gamma, t:\prod_{a:A} C(a, a, \mathrm{refl}_A(a)), x:A \vdash \beta_{=_A}(t, x):\mathrm{ind}_{=_A}(t, x, x, \mathrm{refl}_A(x)) =_{C(x, x, \mathrm{refl}_A(x))} t}$$
 
 Computation rules for dependent function types
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma, a:A \vdash \beta_{\Pi(x:A).B(x)}(a):\mathrm{ind}_{\Pi(x:A).B(x)}(\lambda(x:A).b(x), a) =_{B(a)} b(a)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma, a:A \vdash \beta_{\prod_{x:A} B(x)}(a):\mathrm{ind}_{\prod_{x:A} B(x)}(\lambda(x:A).b(x), a) =_{B(a)} b(a)}$$
+
+Optional Uniqueness rules for identification types
+$$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p) \; \mathrm{type}}{\Gamma, t:\prod_{a:A} C(a, a, \mathrm{refl}_A(a)), x:A, y:A, p:x =_A y, q:C(x, y, p) \vdash \eta_{=_A}(t, x, y, p, q):J_A(t, x, y, p) =_{C(x, y, p)} q}$$
 
 Uniqueness rules for dependent function types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, f:\Pi(x:A).B(x) \vdash \eta_{\Pi(x:A).B(x)}(f):f =_{\Pi(x:A).B(x)} \lambda(x).f(x)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, f:\prod_{x:A} B(x) \vdash \eta_{\prod_{x:A} B(x)}(f):f =_{\prod_{x:A} B(x)} \lambda(x).f(x)}$$
 
 ### Function types
 
@@ -158,7 +161,7 @@ $$\frac{
       \Gamma \vdash t:\prod_{f:A \to B} \prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} C(a, b, p, f(a), f(b), \mathrm{ap}_{B}(f, a, b, p)) \\
       \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash y:B \quad \Gamma \vdash z:B \quad \Gamma \vdash q:y =_{B}^p z
     \end{array}
-  }{\Gamma \vdash J_{B}^p(t, a, y, b, z, p, q):C(a, y, b, z, p, q)}$$
+  }{\Gamma \vdash J_{B}(t, a, y, b, z, p, q):C(a, y, b, z, p, q)}$$
 
 Computation rules for heterogeneous identification types:
 $$\frac{
@@ -281,21 +284,21 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}
 ### Dependent pair types
 
 Formation rules for dependent pair types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \Sigma(x:A).B(x) \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \sum_{x:A} B(x) \; \mathrm{type}}$$
 
 Introduction rules for dependent pair types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A, y:B(x) \vdash \mathrm{in}(x, y):\Sigma(x:A).B(x)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A, y:B(x) \vdash \mathrm{in}(x, y):\sum_{x:A} B(x)}$$
 
 Elimination rules for dependent pair types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, z:\Sigma(x:A).B(x) \vdash \mathrm{ind}_{\Sigma(x:A).B(x)}^A(z):A} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, z:\Sigma(x:A).B(x) \vdash \mathrm{ind}_{\Sigma(x:A).B(x)}^B(z):B(\mathrm{ind}_{\Sigma(x:A).B(x)}^A(z))}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{ind}_{\sum_{x:A} B(x)}^A:\left(\sum_{x:A} B(x)\right) \to A} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{ind}_{\sum_{x:A} B(x)}^B:\prod_{z:\sum_{x:A} B(x)} B(\mathrm{ind}_{\sum_{x:A} B(x)}^A(z))}$$
 
 Computation rules for dependent pair types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A, y:B(x) \vdash \beta_{\Sigma(x:A).B(x)}^A(x, y):\mathrm{ind}_{\Sigma(x:A).B(x)}^A(\mathrm{in}(x, y)) =_A x}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A, y:B(x) \vdash \beta_{\sum_{x:A} B(x)}^A(x, y):\mathrm{ind}_{\sum_{x:A} B(x)}^A(\mathrm{in}(x, y)) =_A x}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A, y:B(x) \vdash \beta_{\Sigma(x:A).B(x)}^B(x, y):\mathrm{ind}_{\Sigma(x:A).B(x)}^B(\mathrm{in}(x, y)) =_{B(\mathrm{ind}_{\Sigma(x:A).B(x)}^A(\mathrm{in}(x, y)))} y}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A, y:B(x) \vdash \beta_{\Sigma(x:A).B(x)}^B(x, y):\mathrm{ind}_{\sum_{x:A} B(x)}^B(\mathrm{in}(x, y)) =_{B(\mathrm{ind}_{\sum_{x:A} B(x)}^A(\mathrm{in}(x, y)))} y}$$
 
 Uniqueness rules for dependent pair types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, z:\Sigma(x:A).B(x) \vdash \eta_{\Sigma(x:A).B(x)}(z):z =_{\Sigma(x:A).B(x)} \mathrm{in}(\mathrm{ind}_{\Sigma(x:A).B(x)}^A(z), \mathrm{ind}_{\Sigma(x:A).B(x)}^B(z))}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, z:\sum_{x:A} B(x) \vdash \eta_{\sum_{x:A} B(x)}(z):z =_{\sum_{x:A} B(x)} \mathrm{in}(\mathrm{ind}_{\sum_{x:A} B(x))}^A(z), \mathrm{ind}_{\sum_{x:A} B(x)}^B(z))}$$
 
 ### Positive types
 
