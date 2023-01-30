@@ -21,7 +21,9 @@
 In general, by *synthetic $(\infty,1)$-category theory* one will want to mean some formulation of [[(∞,1)-category theory]] in the spirit of [[synthetic mathematics]], here specifically relating to [[synthetic homotopy theory]] as $\infty$-category theory relates to [[homotopy theory]].
 
 One implementation of this idea was proposed by 
-[Riehl & Shulman 2017](#RiehlShulman17), based on a variant of [[homotopy type theory]] called *[[simplicial type theory]]*. This is further developed by [Buchholtz & Weinberger 2021](#BuchholtzWeinberger21).
+[Riehl & Shulman 2017](#RiehlShulman17), based on a variant of [[homotopy type theory]] called *[[simplicial type theory]]*. This is further developed by [Buchholtz & Weinberger 2021](#BuchholtzWeinberger21). 
+
+Another implementation of this idea was proposed by [Weaver & Licata 2020](#WeaverLicata20S). 
 
 ## See also
 
@@ -35,8 +37,13 @@ One implementation of this idea was proposed by
 
 ## References
 
-* {#RiehlShulman17} [[Emily Riehl]], [[Michael Shulman]], *A type theory for synthetic $\infty$-categories* $[$[arXiv:1705.07442](https://arxiv.org/abs/1705.07442)$]$
+For synthetic (infinity, 1)-category theory in [[cubical type theory]]:
 
+* {#WeaverLicata20} [[Matthew Weaver]], [[Daniel Licata]]. “A Constructive Model of Directed Univalence in Bicubical Sets”. In: Proceedings of the 35th Annual ACM/IEEE Symposium on Logic in Computer Science. LICS ’20. Saarbrücken, Germany: Association for Computing Machinery, 2020, pp. 915–928. ([doi:10.1145/3373718.3394794](https://doi.org/10.1145/3373718.3394794))
+
+For synthetic (infinity, 1)-category theory in [[simplicial type theory]]:
+
+* {#RiehlShulman17} [[Emily Riehl]], [[Michael Shulman]], *A type theory for synthetic $\infty$-categories* $[$[arXiv:1705.07442](https://arxiv.org/abs/1705.07442)$]$
 
 * {#BuchholtzWeinberger21} [[Ulrik Buchholtz]], [[Jonathan Weinberger]], *Synthetic fibered $(\infty,1)$-category theory* $[$[arXiv:2105.01724](https://arxiv.org/abs/2105.01724), [talk slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Weinberger-2022-01-20-HoTTEST.pdf)$]$
 
