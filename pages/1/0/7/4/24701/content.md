@@ -151,14 +151,14 @@ $$\frac{
       \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
       \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b
     \end{array}
-  }{\Gamma \vdash \mathrm{ap}_{B}(f, a, b, p):f(a) =_{B}^{p} f(b)}$$ 
+  }{\Gamma \vdash \mathrm{ap}_{B}(f, a, b, p):\mathrm{ind}_{A \to B}(f, a) =_{B}^{p} \mathrm{ind}_{A \to B}(f, b)}$$ 
 
 Elimination rule for heterogeneous identification types:
 $$\frac{
     \begin{array}{l}
       \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
       \Gamma, a:A, b:A, p:a =_A b, y:B(a), z:B(b), q:y =_{B}^p z \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
-      \Gamma \vdash t:\prod_{f:A \to B} \prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} C(a, b, p, f(a), f(b), \mathrm{ap}_{B}(f, a, b, p)) \\
+      \Gamma \vdash t:\prod_{f:A \to B} \prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} C(a, b, p, \mathrm{ind}_{A \to B}(f, a), \mathrm{ind}_{A \to B}(f, b), \mathrm{ap}_{B}(f, a, b, p)) \\
       \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash y:B \quad \Gamma \vdash z:B \quad \Gamma \vdash q:y =_{B}^p z
     \end{array}
   }{\Gamma \vdash J_{B}(t, a, y, b, z, p, q):C(a, y, b, z, p, q)}$$
@@ -168,10 +168,22 @@ $$\frac{
     \begin{array}{l}
       \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
       \Gamma, a:A, b:A, p:a =_A b, y:B, z:B, q:y =_{B}^p z \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
-      \Gamma \vdash t:\prod_{f:A \to B} \prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} C(a, b, p, f(a), f(b), \mathrm{ap}_{B}(f, a, b, p)) \\
+      \Gamma \vdash t:\prod_{f:A \to B} \prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} C(a, b, p, \mathrm{ind}_{A \to B}(f, a), \mathrm{ind}_{A \to B}(f, b), \mathrm{ap}_{B}(f, a, b, p)) \\
       \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b
     \end{array}
-  }{\Gamma \vdash \beta_{=_{B}^p}(t, f, a, b, p):J_{B}(t, a, f(a), b, f(b), p, \mathrm{ap}_{B}(f, a, b, p)) =_{C(a, f(a), b, f(b), p, \mathrm{ap}_{B}(f, a, b, p))} t}$$
+  }{\Gamma \vdash \beta_{=_{B}^p}(t, f, a, b, p):J_{B}(t, a, \mathrm{ind}_{A \to B}(f, a), b, \mathrm{ind}_{A \to B}(f, b), p, \mathrm{ap}_{B}(f, a, b, p)) =_{C(a, \mathrm{ind}_{A \to B}(f, a), b, \mathrm{ind}_{A \to B}(f, b), p, \mathrm{ap}_{B}(f, a, b, p))} t}$$
+
+### Function extensionality
+
+Function extensionality states that given functions $f:A \to B$ and $g:A \to B$ the dependent function type
+
+$$\prod_{x:A} \mathrm{ind}_{A \to B}(f, x) =_B \mathrm{ind}_{A \to B}(g, x)$$
+
+behaves as an [[identity system]]. 
+
+$$\frac{\Gamma, f:A \to B, g:A \to B, h:\prod_{x:A} \mathrm{ind}_{A \to B}(f, x) =_B \mathrm{ind}_{A \to B}(g, x) \vdash C(f, g, h)}{\Gamma, t:\prod_{k:A \to B} C(k, k, \mathrm{ap}_B(k)), f:A \to B, g:A \to B, h:\prod_{x:A} \mathrm{ind}_{A \to B}(f, x) =_B \mathrm{ind}_{A \to B}(g, x) \vdash J(t, f, g, h):C(f, g, h)}$$
+
+$$\frac{\Gamma, f:A \to B, g:A \to B, h:\prod_{x:A} \mathrm{ind}_{A \to B}(f, x) =_B \mathrm{ind}_{A \to B}(g, x) \vdash C(f, g, h)}{\Gamma, t:\prod_{k:A \to B} C(k, k, \mathrm{ap}_B(k)), f:A \to B \vdash \beta(t, f):J(t, f, f, \mathrm{ap}_B(f)) =_{C(f, f, \mathrm{ap}_B(f))} \mathrm{ind}_{\prod_{k:A \to B} C(k, k, \mathrm{ap}_B(k))}(t, f)}$$
 
 ### isEquiv types
 
