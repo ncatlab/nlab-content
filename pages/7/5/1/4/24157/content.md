@@ -20,7 +20,9 @@ $$a:A, b:A \vdash R(a, b)$$
 
 which behaves like a [[weak identity type]] on $A$. 
 
-## Definition ##
+Identity systems are very useful in characterizing the [[extensionality]] principle of [[types]] such as [[function types]], [[dependent function types]], and [[Tarski universes]]. 
+
+## Definition
 
 In [[dependent type theory]], an __identity system__ on a [[type]] $A$ is a [[correspondence]] on $A$, $a:A, b:A \vdash R(a, b)$, with a [[dependent function]] 
 $$a:A \vdash r_0(a):R(a, a)$$ 
@@ -31,6 +33,28 @@ $$t:\prod_{c:A} C(c, c, r_0(c)), a:A, b:A, p:R(a, b) \vdash J(t, a, b, p):C(a, b
 and a dependent function
 $$t:\prod_{c:A} C(c, c, r_0(c)), a:A \vdash \beta(t, a):J(t, a, a, r_0(a)) =_{C(a, a, r_0(a))} t(a)$$
 
+## Extensionality principles
+
+* [[product extensionality]] states that the correspondence 
+$$x:A \times B, y:A \times B \vdash (\pi_1(x) =_A \pi_1(y)) \times (\pi_2(x) =_B \pi_2(y))$$
+is an identity system. 
+
+* dependent pair extensionality states that the correspondence 
+$$y:\sum_{x:A} B(x), z:\sum_{x:A} B(x) \vdash \sum_{p:\pi_1(y) =_A \pi_1(z)} \pi_2(y) =_{x:A.B(x)}^p \pi_2(z)$$
+is an identity system. 
+
+* [[function extensionality]] states that the correspondence 
+$$f:A \to B, g:A \to B \vdash \prod_{x:A} \mathrm{ev}(f, x) =_B \mathrm{ev}(g, x)$$
+is an identity system. 
+
+* dependent function extensionality states that the correspondence 
+$$f:\prod_{x:A} B(x), g:\prod_{x:A} B(x) \vdash \prod_{x:A} \mathrm{ev}(f, x) =_{B(x)} \mathrm{ev}(g, x)$$
+is an identity system. 
+
+* [[univalence]] or [[universe extensionality]] states that the correspondence 
+$$A:U, B:U \vdash T(A) \simeq T(B)$$
+is an identity system. 
+
 ## See also ##
 
 * [[identity type]]
@@ -39,6 +63,7 @@ $$t:\prod_{c:A} C(c, c, r_0(c)), a:A \vdash \beta(t, a):J(t, a, a, r_0(a)) =_{C(
 
 * [[one-to-one correspondence]]
 
+* [[extensionality]]
 
 ## References ##
 
