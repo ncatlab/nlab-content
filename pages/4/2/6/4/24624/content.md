@@ -1,6 +1,8 @@
 
 member of [[CQTS]]
 
+* [institute page](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts/sachin-valera.html) at NYU Abu Dhabi
+
 * [personal page](https://sites.google.com/view/sachinvalera/home)
 
 ## Selected writings
