@@ -585,7 +585,7 @@ Stone-von Neumann**
 
   slides: [[DavidJazMyers-ObjectiveCohomology-220928.pdf:file]]
 
-  > In this talk, we will see the homotopy type theory point of view on defining twisted cohomology classes by means of bundle gerbes. We'll take an increasingly less leisurely tour up the tower of cohomology degrees, seeing characters, principal bundles,  entral extensions, and characteristic classes along the way. Finally, we will go through the construction of the cohomology of the braid groups valued in the complex numbers, twisted by a complex character of the braid group. Through the work of many people, and in particular Feigin, Schechtman, Varchenko, the actions of the braid group of $d$ "defects" on the twisted complex cohomology of the braid group of $n$ "particles" is the monodromy action of the Knizhnik-Zamolodchikov connection on a space of conformal blocks. At CQTS we use this as a way to go from abstract homotopy type theory to protocols for topological quantum computation. 
+  > In this talk, we will see the [[homotopy type theory]] point of view on defining pptwisted cohomology]] classes by means of [[bundle gerbes]]. We'll take an increasingly less leisurely tour up the tower of cohomology degrees, seeing [[group character|characters]], [[principal bundles]],  [[central extensions]], and [[characteristic classes]] along the way. Finally, we will go through the construction of the cohomology of the [[braid groups]] valued in the [[complex numbers]], twisted by a complex [[group character|character]] of the braid group. Through the [work of many people](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces), and in particular Feigin, Schechtman, Varchenko, the actions of the braid group of $d$ "defects" on the twisted complex cohomology of the braid group of $n$ "particles" is the monodromy action of the [[Knizhnik-Zamolodchikov connection]] on a space of [[conformal blocks]]. At [[CQTS]] [[schreiber:Topological Quantum Programming in TED-K|we use this]] as a way to go from abstract [[homotopy type theory]] to protocols for [[topological quantum computation]]. 
 
 \linebreak
 
@@ -604,13 +604,13 @@ Stone-von Neumann**
 
   cf.: [Clough 2021](shape+via+cohesive+path+∞-groupoid#Clough21)
 
-> The infinity topos of differentiable sheaves contains all smooth manifolds as a full subcategory and has excellent formal properties. In particular, it admits an intrinsic notion of underlying homotopy type of any differentiable sheaf, which coincides with classical constructions such as taking smooth total singular complexes. Moreover, there is a canonical sense in which the mapping sheaf between any two differentiable sheaves may have the correct homotopy type. This latter notion is reminiscent of the Oka principle in complex geometry. In this talk I will show how to exhibit the Oka principle in the smooth setting using model structures and other homotopical calculi on the infinity topos of differentiable sheaves. 
+> The [[(infinity,1)-topos|infinity topos]] of [[smooth infinity-groupoid|differentiable sheaves]] contains all [[smooth manifolds]] as a [[full sub-(infinity,1)-category|full subcategory]] and has excellent formal properties. In particular, it admits an [[shape modality|intrinsic notion]] of [[underlying]] [[homotopy type]] of any [[smooth infinity-groupoid|differentiable sheaf]], which coincides with classical constructions such as taking smooth total [[singular simplicial complexes|singular complexes]]. Moreover, there is a canonical sense in which the [[mapping stack|mapping sheaf]] between any two [[smooth infinity-groupoid|differentiable sheaves]] may have the correct homotopy type. This latter notion is [reminiscent of](shape+via+cohesive+path+∞-groupoid#ConsequenceSmoothOkaPrinciple) the [[Oka principle]] in [[complex geometry]]. In this talk I will show how to exhibit the [Oka principle in the smooth setting](shape+via+cohesive+path+∞-groupoid#ConsequenceSmoothOkaPrinciple) using [[model category|model structures]] and other [[homotopical algebra|homotopical calculi]] on the [[(infinity,1)-topos|infinity topos]] of [[smooth infinity-groupoids|differentiable sheaves]]. 
 
 \linebreak
 
 * 12 Oct 2022
 
-  Salah Mehdi ([U Lorraine](https://mehdi.perso.math.cnrs.fr/) and [NYU Abu Dhabi](https://nyuad.nyu.edu/en/academics/divisions/science/faculty/salah-mehdi.html))
+  [Salah Mehdi](https://nyuad.nyu.edu/en/academics/divisions/science/faculty/salah-mehdi.html) ([U Lorraine](https://mehdi.perso.math.cnrs.fr/) and [NYU Abu Dhabi](https://nyuad.nyu.edu/en/academics/divisions/science/faculty/salah-mehdi.html))
 
   **Algebraic and geometric aspects of the Dirac equation**
 
@@ -722,12 +722,24 @@ Stone-von Neumann**
 
 * {#Creutzig23} 25 Jan 2023
 
-  [[Thomas Creutzig]] (University of Alberta)
+  [[Thomas Creutzig]] (University of Alberta):
 
   **Representation Theory of affine vertex algebras**
 
   > Recently there has been increased interest in non-[[semisimple]] [[braided tensor categories]]. [[vertex operator algebra|Vertex algebras]] are a rich source of such categories and so I will give an overview on the [[representation theory]] of [[affine Lie algebra|affine]] vertex algebras with a focus on the simplest example of [[sl(2)|$\mathfrak{sl}(2)$]]. As we will see, already in this example quite rich and non-semisimple categories of modules appear. 
 
+\linebreak
+
+* {#MyersFeb2023} 01 Feb 2023
+
+  [[David Jaz Myers]] ([[CQTS]] @ NYU Abu Dhabi):
+
+  **Simplicial, Differential, and Equivariant Homotopy Type Theory**
+
+  > on [[cohesive homotopy type theory]] with two commuting notions of [[cohesion]]
+
+
+  
 
 \linebreak
 
@@ -813,6 +825,8 @@ Presentations reporting on work at CQTS.
 \linebreak
 
 * 15 Jan 2023 at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi:
+
+  [[Urs Schreiber]]
 
   **[[schreiber:Topological Quantum Gates from M-Theory]]**
 
