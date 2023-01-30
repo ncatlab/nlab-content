@@ -1,7 +1,9 @@
 
 * member of [[CQTS]]
 
-* [webpage](https://adrianclough.github.io/)
+* [institute page](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts/christopher-adrian-clough.html) at NYU Abu Dhabi
+
+* [personal webpage](https://adrianclough.github.io/)
 
 
 ## Selected writings
