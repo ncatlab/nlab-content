@@ -24,7 +24,7 @@ The definition of (the [[syntactic category]] of) a _[[Lawvere theory]]_ as a [[
 +-- {: .num_defn #SimplicialLawvereTheory}
 ###### Definition
 
-Let $\Gamma = (Skel(FinSet^{\ast/}))$ be [[Segal's category]], the [[opposite category]] of a [[skeleton]] of [[finite set|finite]] [[pointed sets]].
+Let $\Gamma = (Skel(FinSet^{\ast/}))^{\mathrm{op}}$ be [[Segal's category]], the [[opposite category]] of a [[skeleton]] of [[finite set|finite]] [[pointed sets]].
 
 A _[[simplicial Lawvere theory]]_ is a a pointed [[simplicial category]] $T$ equipped with a [[functor]] $i \;\colon\;\Gamma \to T$ such that 
 
