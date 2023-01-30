@@ -51,6 +51,9 @@ Analogous discussion for [[gluons]]:
 
 * Peng Cheng, Pujian Mao, *Soft gluon theorems in curved spacetime* &lbrack;[arXiv:2211.00031](https://arxiv.org/abs/2211.00031)&rbrack;
 
+Analogous discussion for [[phonons]]:
+
+* Clifford Cheung, Maria Derda, Andreas Helset, Julio Parra-Martinez, *Soft Phonon Theorems* &lbrack;[arXiv:2301.11363](https://arxiv.org/abs/2301.11363)&rbrack;
 
 
 
