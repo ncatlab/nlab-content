@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -469,20 +468,20 @@ Whereas for 1-toposes the _subobject classifier_ is the key structural ingredien
 
 The concept was introduced in
 
-* [[William Lawvere]], _Quantifiers and sheaves_ , Actes Congrès intern. math. **1** (1970), pp.329-334. ([pdf](http://www.mathunion.org/ICM/ICM1970.1/Main/icm1970.1.0329.0334.ocr.pdf)) 
+* [[William Lawvere]], *Quantifiers and sheaves*, Actes Congrès intern. Math. **1** (1970) 329-334 &lbrack;[pdf](https://raw.githubusercontent.com/mattearnshaw/lawvere/master/pdfs/1970-quantifiers-and-sheaves.pdf), [[Lawvere-QuantifiersAndSheaves.pdf:file]]&rbrack;
 
 Discussion of the concept can be found in the usual suspects
 
-* [[Francis Borceux]], _Handbook of Categorical Algebra 3_ , Cambridge UP 1994. {#Borceux3}
+* [[Francis Borceux]], _[[Handbook of Categorical Algebra]] 3_ , Cambridge UP 1994. {#Borceux3}
 
 * {#Goldblatt84} R. Goldblatt, *Topoi - The Categorical Analysis of Logic*, 2nd ed. North-Holland Amsterdam 1984. (Dover reprint New York 2006; [project euclid](http://projecteuclid.org/euclid.bia/1403013939))
 
 * {#J77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977.
 
-* [[Peter Johnstone]], _Sketches of an Elephant I_ , Oxford UP 2002.
+* [[Peter Johnstone]], _[[Sketches of an Elephant]] I_ , Oxford UP 2002.
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (section I.3-4)
- {#MacLaneMoerdijk}  
+* {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (section I.3-4)
+   
 
 See also
 
