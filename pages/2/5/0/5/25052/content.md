@@ -1,4 +1,6 @@
 
+* [institute page](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts/researchers/vivek-kumar-singh.html) at NYU Abu Dhabi
+
 * [GoogleScholar page](https://scholar.google.com/citations?user=lL8i4AsAAAAJ&hl=en&oi=sra)
 
 * [inspire page](https://inspirehep.net/authors/1418741)
