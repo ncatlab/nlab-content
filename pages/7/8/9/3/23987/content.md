@@ -374,6 +374,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 \linebreak
 
+
 ### Jan 2023
 
 * {#SinghJan2023} 30 Jan 2023
@@ -381,6 +382,8 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
   [[Vivek Singh]] ([[CQTS]] @ NYU Abu Dhabi)
 
   **Chern-Simons theory, Knot polynomials & Quivers**
+
+  slides: [[Singh-CQTS-230130.pdf:file]]
 
   video: [rec](https://nyu.zoom.us/rec/play/muLFC8rM9dqGp9OALgnVHx7zlkOkMGNA0OT4_OLowBMr1DfH2FL0ZHPC1JcBjxzMc1dwWYWivPkxCkNc.iXT4MQtD8XwT_av3?continueMode=true&_x_zm_rtaid=PE1QubLLRRqlcRKK1X-mgA.1675146681717.847782ca2b7ab36562f3b33ce99ec7dd&_x_zm_rhtaid=941)
 
