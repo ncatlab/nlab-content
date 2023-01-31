@@ -221,9 +221,9 @@ Along similar lines, the delooping of a [[braided monoidal category]] produces a
 
 Discussion in [[homotopy type theory]]:
 
-* [[Ulrik Buchholtz]], [[J. Daniel Christensen]], [[Jarl G. Taxerås Flaten]], [[Egbert Rijke]], *Central H-spaces and banded types* &lbrack;[arXiv:2301.02636](https://arxiv.org/abs/2301.02636)&rbrack;
+* {#BCFR23} [[Ulrik Buchholtz]], [[J. Daniel Christensen]], [[Jarl G. Taxerås Flaten]], [[Egbert Rijke]], *Central H-spaces and banded types* &lbrack;[arXiv:2301.02636](https://arxiv.org/abs/2301.02636)&rbrack;
 
-* [[David Wärn]], _Eilenberg-MacLane spaces and stabilisation in homotopy type theory_ &lbrack;[arXiv:2301.03685](https://arxiv.org/abs/2301.03685)&rbrack;
+* {#Wärn23} [[David Wärn]], _Eilenberg-MacLane spaces and stabilisation in homotopy type theory_ &lbrack;[arXiv:2301.03685](https://arxiv.org/abs/2301.03685)&rbrack;
 
 
 
