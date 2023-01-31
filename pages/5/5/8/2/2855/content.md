@@ -13,9 +13,10 @@ On the [[small object argument]]:
 
 * [[Richard Garner]], _Understanding the small object argument_, Applied Cat. Structures, [arXiv:math.CT/0712.0724](http://arXiv.org/abs/0712.0724).
 
-On [[categorical semantics]] of [[homotopy type theory]] in [[omega-groupoids]]:
+On [[infinity-groupoid]]/[[omega-groupoid]]-[[structure]] on [[types]] in [[homotopy type theory]]:
 
-* [[Benno van den Berg]], Richard Garner, *Types are weak $\omega$-groupoids* &lbrack;[arXiv:0812.0298](http://arxiv.org/abs/0812.0298)&rbrack;
+* [[Benno van den Berg]], [[Richard Garner]], *Types are weak omega-groupoids*, Proceedings of the London Mathematical Society **102** 2 (2011) 370-394 &lbrack;[arXiv:0812.0298](https://arxiv.org/abs/0812.0298), [doi:10.1112/plms/pdq026](https://doi.org/10.1112/plms/pdq026)&rbrack;
+
 
 On [[dependent product types]] and [[function extensionality]]:
 
