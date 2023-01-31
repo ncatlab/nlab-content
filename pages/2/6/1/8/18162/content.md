@@ -448,7 +448,7 @@ In doing so, often it will be convenient to show multiple copies of the *same* o
   (hence, because the [[category]] is [[thin category|thin]], the existence of arrows back and forth $\leftrightarrows$).
 
 
-{#ForExample} For example:
+{#BasicExamplesForNotation} For example:
 
 |[[finite topological space]] |[[open subsets]] |[[specialization order]]|as picture |
 |--|--|--|--|
@@ -458,7 +458,7 @@ In doing so, often it will be convenient to show multiple copies of the *same* o
 | [[point space]] <br/> $\ast$ | $\Big\{ \varnothing,\, \{0\} = \{1\}  \;\Big\}$ |  $\Big\{\; 0 = 1 \;\Big\}$  | $\boxed{*}$ |
 
 
-Notice here how in $\big\{\; 0 \rightarrow 1 \;\}$ the point $0$ is [[open point|open]] (as there do emanate arrows form it) while the point ${1}$ is [[closed point|closed]] (as no arrows emanate from it).
+{#NoArrowsFromClosedPoints} Notice here how in $\big\{\; 0 \rightarrow 1 \;\}$ the point $0$ is not [[closed point|closed]] (as there do emanate arrows form it) while the point ${1}$ is [[closed point|closed]] (as no arrows emanate from it).
 
 
 Under this identitification of [[finite topological spaces]] $X$ with  [[preordered sets]] regarded as [[thin categories]] $Spec(X)$, the [[continuous maps]] between topological spaces correspond to [[functors]] between their specialization preorders:
