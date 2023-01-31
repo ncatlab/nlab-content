@@ -262,6 +262,8 @@ and $u$ is an equivalence in the vertical [[2-category]] of $A$.
 
 * [[applications of double category theory]]
 
+* [[right-connected double category]]
+
 
 ## References ##
 
