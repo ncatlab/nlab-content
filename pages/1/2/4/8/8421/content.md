@@ -190,6 +190,11 @@ Textbook accounts of proof systems in natural deduction format, sequent calculi 
 
 * Sara Negri, Jan von Plato, §1, §2 in: *Structural Proof Theory*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511527340](https://doi.org/10.1017/CBO9780511527340), [§1 pdf](https://www.logicmatters.net/resources/pdfs/NegriPlato1.pdf), [§2 pdf](https://www.logicmatters.net/resources/pdfs/NegriPlato1.pdf)&rbrack;
 
+Inference rules in [[type theory]], for [[type formation]], [[term introduction]] and [[term elimination]]:
+
+* [[Per Martin-Löf]], §4.3.4 in: *A Theory of Types*, unpublished note (1971) &lbrack;[pdf](https://raw.githubusercontent.com/michaelt/martin-lof/master/pdfs/martin-loef1971%20-%20A%20Theory%20of%20Types.pdf), [[MartinLoef1971-ATheoryOfTypes.pdf:file]]&rbrack;
+
+
 Introductions:
 
 * {#MartinLoef96} [[Per Martin-Löf]], *On the Meanings of the Logical Constants and the Justifications of the Logical Laws*, Nordic Journal of Philosophical Logic, **1** 1 (1996) 11-60 &lbrack;[pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf), [[MartinLofOnTheMeaning96.pdf:file]]&rbrack;
