@@ -58,7 +58,7 @@ Essentially this idea appears earlier in:
 
 * {#Simpson99} [[Carlos Simpson]],  *A Giraud-type characterization of the simplicial categories associated to closed model categories as $\infty$-pretopoi* ([arXiv:math/9903167](http://arxiv.org/abs/math/9903167))
 
-* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry I: Topos theory_, Advances in Mathematics 193.2 (2005): 257-372. ([arXiv:math.AG/0207028](http://arxiv.org/abs/math.AG/0207028))
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry I: Topos theory_, Advances in Mathematics **193** 2 (2005)  257-372  &lbrack;[arXiv:math.AG/0207028](http://arxiv.org/abs/math.AG/0207028), [doi:10.1016/j.aim.2004.05.004](https://doi.org/10.1016/j.aim.2004.05.004)&rbrack;
 
 
 
