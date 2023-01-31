@@ -95,7 +95,7 @@ Every Alexandroff space is obtained by equipping its [[specialization order]] wi
 +-- {: .num_cor}
 ###### Corollary
 
-The specialization topology embeds the category $\Pros$ of preordered sets [[full subcategory|fully-faithfully]] in the category [[Top]] of topological spaces.  
+The specialization topology embeds the category $\Proset$ of preordered sets [[full subcategory|fully-faithfully]] in the category [[Top]] of topological spaces.  
 
 $$
   Proset \hookrightarrow Top
