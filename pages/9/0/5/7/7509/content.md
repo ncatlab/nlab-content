@@ -213,7 +213,11 @@ Under [[categorical semantics]], a dependent type $x\colon A \vdash B(x)\colon T
 ## Related concepts
 
 * [[dependent sum]], [[disjoint union]]
+
+* [[telescope type]]
+
 * [[product type]]
+
 * [[dependent product type]]
 
 
