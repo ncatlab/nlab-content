@@ -27,7 +27,7 @@ We are working in a [[dependent type theory]] with [[judgmental equality]].
 
 ### Telescopes ###
 
-Telescopes represent lists of terms in the context. 
+[[telescope types]] contain lists of iteratively dependent terms 
 
 Rules for the empty telescope
 
