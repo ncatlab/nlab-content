@@ -33,7 +33,7 @@ The latter is what [Aczel (2011, p. 22)](#Aczel11) calls "[[isomorphisms]]". Whi
 
 To make this more concrete and more manifest, we may notice that:
 
-1. at least a large class of kinds of [[mathematical structures]] on a base type $B \,\colon\, Type$ are expressible as nothing but [[dependent pairs]] of $B$ with an iteration of further [[dependent pair]]- and [[dependent function]]- and [[identification types]] (for examples, such as [[group object|group structure]], see [here](structure#InDependentTypeTheory));
+1. at least a large class of kinds of [[mathematical structures]] on a base type $B \,\colon\, Type$ are expressible as nothing but "[[telescope type|telescopes]]" of [[dependent pairs]] of $B$ with an iteration of further [[dependent pair]]- and [[dependent function]]- and [[identification types]] (for examples, such as [[group object|group structure]], see [here](structure#InDependentTypeTheory));
 
 1. the [[univalence axiom]] implies extensionality principles for all three of these [[type formations]] (so with regards to [UFP13](#UFP13) this is now using §2, instead), namely [[dependent function|dependent]] [[function extensionality]] ([here](function+extensionality#InTypeTheory)) and its analog for dependent pairs ([here](dependent+sum+type#ExtensionalityPrinciple)):
 
