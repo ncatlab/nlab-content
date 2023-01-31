@@ -420,14 +420,21 @@ where the right hand side means that the following two equivalent conditions hol
 
 1. every [[open subset]] which contains $x$ also contains $y$.
 
-
-We may regard these [[preordered sets]] equivalently as ([[thin category|thin]] and [[strict category|strict]]) [[categories]], whose
+{#ProsetsAsCategories} We may regard these [[preordered sets]] equivalently as ([[thin category|thin]] and [[strict category|strict]]) [[categories]], whose
 
 * [[objects]] are the points of $X$,
 
 * [[morphisms]] reflect the order relation:
 
-  for $x, y \,\in\, X$ there exists a unique morphism $;\x \,\leftarrow\, y\;$ iff $\;y \,\leq\, x\;$ in the [[specialization order]].
+  for $x, y \,\in\, X$ there exists a unique morphism 
+
+  $$
+    y \,\leftarrow\, x
+    \;\;\;\text{iff}\;\;\; 
+    y \,\leq\, x\;
+  $$ 
+
+  (the mnemonic: view the arrow head of "$\leftarrow$" as a "$\lt$"-symbol)
 
 For a [[finite topological space]] $X$, this [[specialisation preorder]] $Spec(X)$ -- or equivalently the corresponding category, which we shall conceptually conflate with the pre-ordering -- uniquely determines the topology:
 
