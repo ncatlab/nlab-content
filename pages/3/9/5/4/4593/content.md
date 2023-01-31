@@ -110,13 +110,14 @@ In classical mathematics, at least, formulas with unbounded quantifiers can be c
 
 * [[generalized quantifier]]
 
+
 ## References
 
 The identification of universal/existential quantification with [[adjoints]] of [[substitution]]/[[context extension]] ([[dependent product]]/[[dependent sum]]) originates around
 
 * [[William Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
 
-* [[William Lawvere]], _Quantifiers and sheaves_, Actes, Congr&#232;s intern, math., 1970. Tome 1, p. 329 &#224; 334 ([pdf](https://pdfs.semanticscholar.org/6630/846a00261a071b71e264e0f532e29cd9152f.pdf))
+* [[William Lawvere]],  *Quantifiers and sheaves*, Actes Congrès intern. Math. **1** (1970) 329-334 &lbrack;[pdf](https://raw.githubusercontent.com/mattearnshaw/lawvere/master/pdfs/1970-quantifiers-and-sheaves.pdf), [[Lawvere-QuantifiersAndSheaves.pdf:file]]&rbrack;
 
 A definition of guarded and bounded quantification for the membership relation could be found in 
 
