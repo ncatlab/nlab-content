@@ -319,7 +319,7 @@ $$
 
 * [[Peter May]], _The uniqueness of infinite loop space machines_, Topology, vol 17, pp. 205-224 (1978) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/22.pdf))
 
-* {#Lurie} [[Jacob Lurie]], Section 5.1.3 of _[[Higher Algebra]]_ 
+* {#Lurie} [[Jacob Lurie]], Section 5.2.6 of _[[Higher Algebra]]_ 
 
 On the [[Morava K-theory]] of iterated loop spaces of [[n-spheres]]:
 
@@ -332,7 +332,7 @@ In relation to [[configuration spaces of points]]:
 
 * {#May72} [[Peter May]], _The geometry of iterated loop spaces_, Springer 1972 ([pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), [doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491))
 
-* {#Segal73} [[Graeme Segal]], _Configuration-spaces and iterated loop-spaces_, Invent. Math. __21__ (1973), 213&#8211;221. MR 0331377 ([pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf))
+* {#Segal73} [[Graeme Segal]], _Configuration-spaces and iterated loop-spaces_, Invent. Math. **21** (1973) 213-221. MR 0331377 &lbrack;[pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf), [doi:10.1007/BF01390197](https://doi.org/10.1007/BF01390197)&rbrack;
 
 * {#Snaith74} [[Victor Snaith]],  _A stable decomposition of $\Omega^n S^n X$_, Journal of the London Mathematical Society 7 (1974), 577 - 583 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/snaiths.pdf))
 
