@@ -189,7 +189,7 @@ Reprints in Theory and Applications of Categories, No. 11 (2005) pp. 1-35 ([tac]
 
     (on [[comprehension]] in [[hyperdoctrines]])
 
-*  _Quantifiers and sheaves_, Actes, Congr&#232;s intern, math., 1970. Tome 1, p. 329 &#224; 334 ([pdf](https://pdfs.semanticscholar.org/6630/846a00261a071b71e264e0f532e29cd9152f.pdf))
+* *Quantifiers and sheaves*, Actes Congrès intern. Math. **1** (1970) 329-334 &lbrack;[pdf](https://raw.githubusercontent.com/mattearnshaw/lawvere/master/pdfs/1970-quantifiers-and-sheaves.pdf), [[Lawvere-QuantifiersAndSheaves.pdf:file]]&rbrack;
 
     on [[geometric modalities]]/[[Lawvere-Tierney topology]] and [[universal quantifier|universal]]/[[existential quantifier|existential]] [[quantifiers]] related to [[dependent product]]/[[dependent sum]] further developed in:
 
