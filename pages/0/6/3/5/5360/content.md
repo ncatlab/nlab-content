@@ -36,12 +36,12 @@ fixing the point $a$ and acting as $-1$ on the tangent space of $a$.  This opera
 
 More precisely, a **symmetric pair** is a pair $(G,H)$ where $G$ is a [[Lie group]] and the subgroup $H$ is the set of fixed points of some [[involution]] $\sigma : G \to G$.  Different pairs $(G,H)$, $(G',H')$ can give what is normally considered the same symmetric space $G/H \cong G'/H'$.   In other words, not every morphism of symmetric spaces arises from a morphism of symmetric pairs.
 
-To avoid this problem, symmetric space is (equivalent to) a smooth manifold $M$ with multiplication $\cdot : M\times M\to M$ which is a smooth map such that for all $x,y,z\in M$ 
+To avoid this problem, we can define a symmetric space as a smooth manifold $M$ with a smooth map $\triangleright : M\times M\to M$ such that for all $x,y,z\in M$ 
 
-1. $x \cdot x = x$ (idempotence)
-2. $x \cdot (x\cdot y) = y$ 
-3. $x\cdot (y \cdot z) = (x \cdot y)\cdot (x \cdot z)$ ([[left self-distributivity]])
-4. for every $x$ there is a neighborhood $U\subset M$ such that $x\cdot y = y$ implies $x = y$ for all $z\in U$.
+1. $x \triangleright x = x$ (idempotence)
+2. $x \triangleright (x\triangleright y) = y$ 
+3. $x \triangleright (y \triangleright z) = (x \triangleright y)\triangleright (x \triangleright z)$ ([[left self-distributivity]])
+4. for every $x$ there is a neighborhood $U\subset M$ such that $x \triangleright y = y$ implies $x = y$ for all $z\in U$.
 
 This amounts to an involutory [[quandle]] object $Q$ in the category of smooth manifolds, with the property that each point $a \in Q$ is an _isolated_ fixed point of the map $a \triangleright - : Q \to Q$. 
 
@@ -69,6 +69,8 @@ The definition in terms of quandles coincides with the classical definition in t
 The relation to quandles is given in Theorem I.4.3.  Bertram attributes this result to part I, chapter II of
 
 * Ottmar Loos, _Symmetric Spaces I, II_, Chapter II, Benjamin, New York, 1969.
+
+See also:
 
 * Sigurdur Helgason, _Differential geometry, Lie groups and symmetric spaces_,
 
