@@ -111,9 +111,11 @@ Kęstutis Česnavičius and Peter Scholze they write
 * [[Jacob Lurie]], Section 1.1.2 in: *[[Higher Topos Theory]]*, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
 
 
-Formulations in [[homotopy type theory]] include
+Formulations in/from [[homotopy type theory]]:
 
-* [[Thorsten Altenkirch]], Ondrej Ryp&#225;cek, _A Syntactical Approach to Weak $\omega$-Groupoids_ ([pdf](http://www.cs.nott.ac.uk/~txa/publ/weakomega2.pdf))
+* [[Benno van den Berg]], [[Richard Garner]], *Types are weak omega-groupoids*, Proceedings of the London Mathematical Society **102** 2 (2011) 370-394 &lbrack;[arXiv:0812.0298](https://arxiv.org/abs/0812.0298), [doi:10.1112/plms/pdq026](https://doi.org/10.1112/plms/pdq026)&rbrack;
+
+* [[Thorsten Altenkirch]], Ondrej Ryp&#225;cek, _A Syntactical Approach to Weak $\omega$-Groupoids_, Computer Science Logic (CSL'12) **16** (2012) 16-30 &lbrack;[pdf](http://www.cs.nott.ac.uk/~txa/publ/weakomega2.pdf), [doi:10.4230/LIPIcs.CSL.2012.16](https://doi.org/10.4230/LIPIcs.CSL.2012.16)&rbrack;
 
 See also at _[[category object in an (infinity,1)-category]]_ for more along these lines.
 
