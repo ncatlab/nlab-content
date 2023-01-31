@@ -72,7 +72,8 @@ In [[dependent type theory]] the notion of "mathematical structure" and/or *data
 
 The following shows some examples, using the notation for [[dependent pairs]] from [[dependent functions and dependent pairs -- table|here]].
 
-Via the [[extension (semantics)|extensionality]] principles for [[dependent pairs]] ([here](dependent+sum+type#ExtensionalityPrinciple)) and for [[dependent functions]] ([here](function+extensionality#StatementForDependentFunctions)) such type theoretic structure automatically obey the *[[structure identity principle]]*:
+
+{#StructureIdentityPrinciple} Via the [[extension (semantics)|extensionality]] principles for [[dependent pairs]] ([here](dependent+sum+type#ExtensionalityPrinciple)) and for [[dependent functions]] ([here](function+extensionality#StatementForDependentFunctions)) such type theoretic structure automatically obey the *[[structure identity principle]]*:
 
 <img src="/nlab/files/DependentPairExtensionality-230121.jpg" width="600">
 
@@ -105,11 +106,16 @@ means to declare it to be of the following iterated [[dependent pair]]-[[telesco
 
 The [[dependent pair]]-[[telescope]] [[type]] declaration of [[group objects|group structure]]:
 
-<img src="/nlab/files/GroupDataType-230130.jpg" width="740">
+<img src="/nlab/files/GroupDataType-230130.jpg" width="710">
 
 Further restriction to [[abelian groups]]:
 
-<img src="/nlab/files/AbelianGroupData-230129.jpg" width="650">
+<img src="/nlab/files/AbelianGroupData-230129.jpg" width="620">
+
+Via the [[structure identity principle]] ([above](#StructureIdentityPrinciple)), the [[identification type|identitifications]]/[[type equivalence|equivalences]] between such group data types are indeed bijective [[group homomorphisms]], hence group-[[isomorphisms]]:
+
+<img src="/nlab/files/GroupDataIsomorphism-230131.jpg" width="820">
+
 
 
 ### Ring data structure
@@ -147,6 +153,9 @@ pointed]] types (cf. [Wärn (2023, §2)](delooping#Wärn23), [BCFR23](delooping#
 
 <img src="/nlab/files/PointedHigherDeloopingStructure-230131.jpg" width="700">
 
+Similarly there is [[iterated loop space|iterated delooping structure]]:
+
+<img src="/nlab/files/PointedIteratedDeloopingStructure-230131.jpg" width="740">
 
 
 
