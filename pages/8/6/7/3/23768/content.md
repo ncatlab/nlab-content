@@ -62,7 +62,8 @@ The notion was motivated by and still plays a key role in the formalization of d
 
 * [[dependent type]]
 
-* [[dependent identity type]]
+* [[structure]], [[structure identity principle]]
+
 
 ## References
 
@@ -96,6 +97,10 @@ and more widely, often without attribution, for instance in:
 [[!redirects telescope]]
 [[!redirects telescopes]]
 
+[[!redirects telescope type]]
+[[!redirects telescope types]]
 
 [[!redirects record]]
 [[!redirects records]]
+
+
