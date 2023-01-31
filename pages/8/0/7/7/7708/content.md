@@ -15,6 +15,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -126,6 +127,25 @@ Given a [[unital ring|unital]] [[ring]] type $R \colon Ring$ (as [above](#RingDa
 
 
 <img src="/nlab/files/ModuleDataStructure-230129.jpg" width="740">
+
+## Higher structures in homotopy type theory
+ {#HigherStructuresInHoTT}
+
+The [above](#InDependentTypeTheory) examples of structures formulated in dependent type theory all had data [[h-set|sets]] as their base, which is the classical situation. But in [[dependent type theory]] with untruncated [[identification types]], hence in [[homotopy type theory]], we may simply drop this constraint and consider structures whose base is any higher [[homotopy type]]: This yields the notion of *[[higher structures]]*.
+
+### Delooping
+
+Given a set-based [[group object|group structure]] (as [above](#GroupDataStructure)), [[delooping]] structure is 
+
+(...)
+
+
+### Higher delooping
+
+More generally, one may consider delooping of [[n-groups|$n$-groups]], but this is a lot of (higher) structure if spelled out in detail. Yet more generally and again more readily axiomatized there is the notion of deloopings of any [[pointed object|
+pointed]] types (cf. [Wärn (2023, §2)](delooping#Wärn23), [BCFR23](delooping#BCFR23)), which we may write as follows:
+
+<img src="/nlab/files/PointedHigherDeloopingStructure-230131.jpg" width="700">
 
 
 
