@@ -448,7 +448,7 @@ In doing so, often it will be convenient to show multiple copies of the *same* o
   (hence, because the [[category]] is [[thin category|thin]], the existence of arrows back and forth $\leftrightarrows$).
 
 
-For example:
+{#ForExample} For example:
 
 |[[finite topological space]] |[[open subsets]] |[[specialization order]]|as picture |
 |--|--|--|--|
