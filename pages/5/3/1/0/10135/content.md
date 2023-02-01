@@ -186,6 +186,10 @@ A formulation of orbifold cohomology in the [[singular-cohesive (infinity,1)-top
 
 * {#SatiSchreiber20} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Proper Orbifold Cohomology]]_ ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
 
+On the resulting [[cohesive homotopy type theory]] with a pair of commuting cohesive structures:
+
+* [[David Jaz Myers]], [[Mitchell Riley]], *Commuting Cohesions* &lbrack;[arXiv:2301.13780](https://arxiv.org/abs/2301.13780)&rbrack;
+
 
 
 
