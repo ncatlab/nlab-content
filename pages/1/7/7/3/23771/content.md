@@ -43,7 +43,7 @@ The hope is therefore that higher observational type theory would provide a type
 
 1. its [[inference rules]] for [[identification types]] make the [[univalence axiom]] be a computable function as it is in [[cubical type theories]].
 
-At the moment this seems to remain a hope, certainly there is currently no [[proof assistant]] implementing the principles of higher observational type theory. Ideally the references below would elucidate which questions remain open and which problems remain to be solved.
+To which extent this hope is being realized would ideally be elucidated by the references [below](#References).
 
 
 
@@ -202,9 +202,13 @@ $$\mathrm{id}_{\mathcal{T}_\mathcal{U}(z.B)}^{p}(u, v) \equiv \mathrm{id}_{\math
 * [[cubical type theory]]
 
 ## References 
+ {#References}
 
 Higher observational type theory was introduced as joint work of [[Thorsten Altenkirch]], [[Ambrus Kaposi]] and [[Michael Shulman]], first presented in:
 
-* [[Michael Shulman]], *Towards a Third-Generation HOTT:*, talk at *[Homotopy Type Theory at CMU](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html)* (2022)  &lbrack; Part 1: [slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA)); part 2: [slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU); part 3: [slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-12.pdf), [video](https://www.youtube.com/watch?v=9pDddxB7LbE)&rbrack;
+* [[Michael Shulman]], *Towards a Third-Generation HOTT:*, talk at *[Homotopy Type Theory at CMU](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html)* (2022)  &lbrack;part 1: [slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA); part 2: [slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU); part 3: [slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-12.pdf), [video](https://www.youtube.com/watch?v=9pDddxB7LbE)&rbrack;
+
+* {#AgdaCode} Agda code: [github.com/mikeshulman/ohtt](https://github.com/mikeshulman/ohtt)
+
 
 [[!redirects higher observational type theories]]
