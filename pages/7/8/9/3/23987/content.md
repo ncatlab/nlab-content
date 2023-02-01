@@ -741,6 +741,8 @@ Stone-von Neumann**
 
   **Simplicial, Differential, and Equivariant Homotopy Type Theory**
 
+  cf.: [arXiv:2301.13780](https://arxiv.org/abs/2301.13780)
+
   > on [[cohesive homotopy type theory]] with two commuting notions of [[cohesion]]
 
 
