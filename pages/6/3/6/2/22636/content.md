@@ -34,4 +34,9 @@ On [[homotopy type theory|homotopy]] [[dependent linear type theory]] of depende
 
 * [[Mitchell Riley]], *Dependent Type Theories à la Carte*, talk at *[[CQTS]] Initial Researcher's Meeting* (Sep 2022) &lbrack;[[CQTS-InitialResearcherMeeting-Riley-220913.pdf:file]]&rbrack;
 
+On [[cohesive homotopy type theory]] with a pair of commuting cohesive structures (such as for [[differential cohomology|differential]] [[orbifold cohomology]]):
+
+* [[David Jaz Myers]], [[Mitchell Riley]], *Commuting Cohesions* &lbrack;[arXiv:2301.13780](https://arxiv.org/abs/2301.13780)&rbrack;
+
+
 category: people
