@@ -1,5 +1,5 @@
 
-* member of [[CQTS]]
+Mitchell Riley is postdoctoral researcher at [[CQTS]]  @ NYU Abu Dhabi.
 
 * [institute page](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts/mitchell-riley.html) at NYU Abu Dhabi
 
