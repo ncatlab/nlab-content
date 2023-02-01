@@ -116,6 +116,13 @@ Via the [[structure identity principle]] ([above](#StructureIdentityPrinciple)),
 
 <img src="/nlab/files/GroupDataIsomorphism-230131.jpg" width="820">
 
+The structure of [[subgroups]] of a given group structure:
+
+[[SubgroupDataStructure-230201.jpg:file]]
+
+and their underlying abstract group structure:
+
+[[UnderlyingGroupOfSubgroupStructure-230201.jpg:file]]
 
 
 ### Ring data structure
