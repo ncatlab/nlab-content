@@ -16,7 +16,6 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 \linebreak
 
-
 \linebreak
 
 ## M-Theory and Mathematics 2023
@@ -94,11 +93,13 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 \linebreak
 
-{#Talks2023} **Titles, Abstracts, and Slides**  (in chronological order):
+{#Talks2023} **Titles, Abstracts, and Slides** for *M-Theory & Math 2023* (in chronological order of talks delivered):
 
 * {#Sen2023} [[Ashoke Sen]]:
 
   **D-instanton amplitudes in string theory**
+  
+  slides: [[Sen-MTheoryMath2023.pdf:file]]
   
   cf. [arXiv:2204.02981](https://arxiv.org/abs/2204.02981), [arXiv:2207.07138](https://arxiv.org/abs/2207.07138)
 
@@ -110,6 +111,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 * {#Lambert2023} [[Neil Lambert]]:
 
   **A non-Lorentzian View of the M5-brane**
+
+  slides: [[Lambert-MTheoryMath2023.pdf:file]]
 
   cf.: [arXiv:2011.06968](https://arxiv.org/abs/2011.06968), [arXiv:2212.07717](https://arxiv.org/abs/2212.07717)
 
@@ -135,6 +138,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **T-duality for loop spaces, or equivalently for the 1D sigma model**
 
+  slides: [[Mathai-MTheoryMath2023.pdf:file]]
+
   cf.: [arXiv:1405.1320](https://arxiv.org/abs/1405.1320)
 
   > We define exotic [[twisted de Rham cohomology|twisted]] [[circle group|$S^1$]]-[[equivariant de Rham cohomology|equivariant cohomology]] for the [[free loop space|loop space]] $\mathcal{L}Z$ of a [[smooth manifold]] $Z$ via the [[invariant]] [[differential forms]] on $\mathcal{L}Z$ with [[coefficients]] in the (typically non-flat) [[higher holonomy|holonomy]] [[complex line bundle|line bundle]] of a [[bundle gerbe|gerbe]], with differential given by an equivariantly [[flat connection|flat]] [[superconnection]]. We introduce the twisted [[Bismut-Chern character]] form, a loop space refinement of the [[twisted Chern character]] form, which represent classes in the completed periodic exotic twisted [[circle group|$S^1$]]-[[equivariant de Rham  cohomology|equivariant cohomology]] of $\mathcal{L}Z$. We establish a localisation theorem for the completed periodic exotic twisted $S^1$-equivariant cohomology for loop spaces and apply it to establish [[topological T-duality|T-duality]] in a [[background field|background]] [[flux]] in [[type II String Theory]] from a [[loop space]] perspective. Finally we reinterpret these results as [[topological T-duality|T-duality]] for the 1D sigma model.
@@ -146,6 +151,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **Graded T-duality with H-flux for 2d sigma models**
 
+  slides: [[Han-MTheoryMath2023.pdf:file]]
+
   cf.: [arXiv:2207.03134](https://arxiv.org/abs/2207.03134)  
 
   > [[T-duality]] in [[string theory]] can be realised as a transformation acting on the [[worldsheet]] fields in the two-dimensional nonlinear [[sigma model]]. [Bouwknegt-Evslin-Mathai](topological+T-duality#BouwknegtEvslinMathai04) established the [[topological T-duality|T-duality in a background flux]] for the first time upon compactifying spacetime in one direction to a principal circle by constructing the T-dual maps transforming the twisted cohomology of the dual spacetimes. In this talk, we will describe our recent work on how to promote the T-duality maps of Bouwknegt-Evslin-Mathai in two aspects. More precisely, we will introduce (1) graded T-duality, concerning the graded T-duality maps of all levels of twistings; (2) the 2-dimensional sigma model picture, concerning the [[iterated loop space|double]] loop space of spacetimes. This represents our joint work with Mathai. 
@@ -156,6 +163,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 * {#Saemann23} [[Christian Saemann]]:
 
   **Geometric and Non-Geometric T-duality with Higher Bundles**
+
+  slides: [[Saemann-MTheoryMath2023.pdf:file]]
 
   cf.: [arXiv:2204.01783](https://arxiv.org/abs/2204.01783)
 
@@ -200,11 +209,11 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   cf.: [arXiv:2204.09117](https://arxiv.org/abs/2204.09117)
 
-  > In this talk I will review work on `decomposition,' a property of 2d theories with 1-form symmetries and, more generally, d-dim'l theories with (d-1)-form symmetries.  Decomposition is the observation that such quantum field theories are equivalent to ('decompose into’) disjoint unions of other QFTs, known in this context as "universes.”
+  > In this talk I will review work on 'decomposition', a property of 2d [[field theory|theories]] with [[2-group|1-form symmetries]] and, more generally, d-dim'l theories with [[higher gauge theory|$(d-1)$-form symmetries]]. Decomposition is the observation that such [[quantum field theories]] are equivalent to ('decompose into’) [[disjoint unions]] of other QFTs, known in this context as "universes".
 
-  > Examples include two-dimensional gauge theories and orbifolds with matter invariant under a subgroup of the gauge group. Decomposition explains and relates several physical properties of these theories -- for example, restrictions on allowed instantons arise as a "multiverse interference effect" between contributions from constituent universes.
+  > Examples include two-dimensional gauge theories and [[orbifolds]] with matter invariant under a [[subgroup]] of the [[gauge group]]. Decomposition explains and relates several physical properties of these theories -- for example, restrictions on allowed [[instantons]] arise as a "multiverse interference effect" between contributions from constituent universes.
 
-  > First worked out in 2006 as part of efforts to understand string propagation on stacks, decomposition has been the driver of a number of developments since. I will walk through general aspects of 2d gauge theories that exhibit decomposition, dive into specifics in orbifold examples, and as time permits, discuss recent work in progress.
+  > First worked out in 2006 as part of efforts to understand [[string]] propagation on [[stacks]], decomposition has been the driver of a number of developments since. I will walk through general aspects of 2d gauge theories that exhibit decomposition, dive into specifics in orbifold examples, and as time permits, discuss recent work in progress.
 
 
 \linebreak
