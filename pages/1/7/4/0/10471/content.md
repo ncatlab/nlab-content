@@ -224,7 +224,7 @@ is a collection of, for each $p,q\in \mathbb{N}$, base-point preserving $O(p) \t
 $$
   b_{p,q}
    \;\colon\;
-  X_p \wedge X_q 
+  X_p \wedge Y_q 
     \longrightarrow
   Z_{p+q}
 $$
@@ -233,7 +233,7 @@ $$
 
 $$
   \array{
-    X_p \wedge X_q \wedge S^1
+    X_p \wedge Y_q \wedge S^1
      &\stackrel{b_{p,q} \wedge S^1}{\longrightarrow}&
     Z_{p+q} \wedge S^1
     \\
@@ -242,30 +242,30 @@ $$
     \downarrow^{\mathrlap{\sigma_{p+q}}}
     \\
     X_p \wedge Y_{q+1}
-     &\stackrel{b_{p,q+1}}{\longrightarrow}&
+     &\stackrel{b_{p+1,q}}{\longrightarrow}&
     Z_{p+q+1}
   }
   \;\;\;\;,\;\;\;\;\;
   \array{
-    X_p \wedge X_q \wedge S^1
+    X_p \wedge Y_q \wedge S^1
      &\stackrel{b_{p,q} \wedge S^1}{\longrightarrow}&
     Z_{p+q} \wedge S^1
     \\
-    \downarrow^{\mathrlap{X_p \wedge braid_{X_q, S^1}}}
+    \downarrow^{\mathrlap{X_p \wedge braid_{Y_q, S^1}}}
      &&
-    \downarrow^{\mathrlap{id}}
-    \\
-    X_p \wedge S^1 \wedge X_q 
-     &&
-    Z_{p+q} \wedge S^1
-    \\
-    \downarrow^{\mathrlap{\sigma_p \wedge Y_q}} 
-      && 
     \downarrow^{\mathrlap{\sigma_{p+q}}}
     \\
-    X_p \wedge Y_{q+1}
-     &\stackrel{b_{p,q+1}}{\longrightarrow}&
+    X_p \wedge S^1 \wedge Y_q 
+     &&
     Z_{p+q+1}
+    \\
+    \downarrow^{\mathrlap{\sigma_{p} \wedge Y_q}} 
+      && 
+    \downarrow^{\mathrlap{id \times \chi_{1,q}}}
+    \\
+    X_{p+1} \wedge Y_{q}
+     &\stackrel{b_{p+1,q}}{\longrightarrow}&
+    Z_{p+1+q}
   }
   \,.
 $$
