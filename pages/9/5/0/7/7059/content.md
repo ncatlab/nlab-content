@@ -257,7 +257,11 @@ A formalization in homotopy type theory with [[adjoint logic]] added is in
 
 * {#LicataShulman} [[Dan Licata]], [[Mike Shulman]], _Adjoint logic with a 2-category of modes_, in _[Logical Foundations of Computer Science 2016](http://lfcs.info/lfcs-2016/)_ ([pdf](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint.pdf), [slides](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint-lfcs-slides.pdf))
 
-See also
+A philosophical treatment:
+
+* [[David Corfield]], Chap. 5 of *[Modal Homotopy Type Theory](https://ncatlab.org/davidcorfield/show/Modal+Homotopy+Type+Theory)*
+
+See also:
 
 * {#Wellen18} [[Felix Wellen]], _[[schreiber:thesis Wellen|Cartan Geometry in Modal Homotopy Type Theory]]_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966), [thesis pdf](http://www.math.kit.edu/iag3/~wellen/media/diss.pdf))
 
@@ -278,9 +282,12 @@ Formalization of the shape/flat-[[fracture square]] ([[differential cohomology h
 
 * [[David Jaz Myers]], _Modal Fracture of Higher Groups_,  talk at _[CMU-HoTT Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html), 2021 ([pdf](http://davidjaz.com/Talks/CMU_March_2021.pdf), [[MyersModalFracture2021.pdf:file]])
 
-For a philosophical treatment 
+Discussion of pairs of commuting cohesive structures (such as the combination of real cohesion and equivariant relevant for [[differential cohomology|differential]] [[orbifold cohomology]]:
 
-* [[David Corfield]], Chap. 5 of [Modal Homotopy Type Theory](https://ncatlab.org/davidcorfield/show/Modal+Homotopy+Type+Theory)
+* [[David Jaz Myers]], [[Mitchell Riley]], *Commuting Cohesions* &lbrack;[arXiv:2301.13780](https://arxiv.org/abs/2301.13780)&rbrack;
+
+
+
 
 [[!redirects cohesive homotopy type theories]]
 
