@@ -126,6 +126,13 @@ On [[causal dynamical triangulation]]:
 * Dario Benedetti, *Landau Theory of Causal Dynamical Triangulations*, in: [[Handbook of Quantum Gravity]], Springer (2023) &lbrack;[arXiv:2212.11043](https://arxiv.org/abs/2212.11043)&rbrack;
 
 
+\linebreak
+
+On [[Hořava–Lifshitz gravity]]:
+
+* Andrei O. Barvinsky, *Horava models as palladium of unitarity and renormalizability in quantum gravity* &lbrack;[arXiv:2301.13580](https://arxiv.org/abs/2301.13580)&rbrack;
+
+
 
 \linebreak
 
