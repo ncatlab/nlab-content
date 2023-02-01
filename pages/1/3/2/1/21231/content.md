@@ -575,6 +575,8 @@ Discussion of [[experiments]] that could/should see the [[Schwinger effect]]:
 
 * {#Hebenstreit14} Florian Hebenstreit, _A space-time resolved view  of the Schwinger effect_, Frontiers of intense laser physics – KITP 2014 ([[HebenstreitSchwingerEffect2014.pdf:file]])
 
+* A. Fedotov et al.,  Section 8 of: *Advances in QED with intense background fields* &lbrack;[arXiv:2203.00019](https://arxiv.org/abs/2203.00019)&rbrack;
+
 and in relation to [[magnetic monopoles]]:
 
 * B. Acharya et al., *First experimental search for production of magnetic monopoles via the Schwinger mechanism* ([arXiv:2106.11933](https://arxiv.org/abs/2106.11933))
