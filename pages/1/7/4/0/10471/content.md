@@ -242,7 +242,7 @@ $$
     \downarrow^{\mathrlap{\sigma_{p+q}}}
     \\
     X_p \wedge Y_{q+1}
-     &\stackrel{b_{p+1,q}}{\longrightarrow}&
+     &\stackrel{b_{p,q+1}}{\longrightarrow}&
     Z_{p+q+1}
   }
   \;\;\;\;,\;\;\;\;\;
