@@ -55,7 +55,7 @@ Then
 
 * [[dense subsite]]
 
-* "[[comparison functor]]" is mostly understood to refer to a differenr concept in [[categorical algebra]]
+* "[[comparison functor]]" is mostly understood to refer to a different concept in [[categorical algebra]]
 
 ## References
 
