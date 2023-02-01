@@ -15,6 +15,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -22,12 +23,18 @@
 
 ## Idea
 
-_Cohesive homotopy type theory_ is an [[axiom|axiomatic]] [[theory]] of the [[higher geometry]] of [[cohesive homotopy theory]], the pairing with [[homotopy theory]] of [[geometry]] in general and in particular of [[differential topology]] ([[differential geometry]]).
-The _[[objects]]_ or _[[types]]_ that it describes are _[[cohesive topos|cohesive]] [[homotopy types]]_, hence [[cohesive ∞-groupoids]], such as for instance [[smooth ∞-groupoids]]. See also at _[[motivation for cohesive toposes]]_ for a non-technical discussion.
+By *cohesive homotopy type theory* one will mean a [[modal type theory|modal]] [[homotopy type theory]] implementing [[cohesive homotopy theory]] via an [[adjoint triple]] of [[modal operators]]  ([[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]), hence with [[relation between category theory and type theory|categorical semantics]] in [[cohesive (infinity,1)-topos|cohesive $\infty$-toposes]].
 
-To the extent that plain [[homotopy type theory]] is a formalization of [[homotopy theory]] in that it is the [[internal language of an (∞,1)-topos]], _cohesive_ homotopy type theory is the [[internal logic|internal language]] of a _[[cohesive (∞,1)-topos]]_.
+A first formulation of cohesive homotopy type theory &lbrack;[Schreiber & Shulman (2012)](#SchreiberShulman2012)&rbrack; added the required [[adjoint triple]] of [[modal operators]] as [[axioms]] to plain [[homotopy type theory]]. 
 
-One way to arrive at cohesive homotopy type theory is to start with the external axioms for [[cohesive toposes|cohesion]] on a given [[topos]] in terms of an [[adjoint quadruple]] of functors _on_ the given [[topos]] and attempt to formulate them instead in the [[internal logic|internal]] [[Mitchell-Bénabou language|Mitchell-Bénabou]] [[type theory]] language of the topos. This fails, since for formulating the [[reflective subcategories]] of [[discrete objects]] and [[codiscrete objects]] internally one needs instead of the [[type of propositions]] a full [[type of types]], as exists only in [[homotopy type theory]]. Passing to this, the axioms for cohesion can be formulated ([Shulman](#ShulmanInternalizing)) and are automatically that of [[cohesive (∞,1)-topos|homotopy cohesion]].
+Another  approach &lbrack;[Shulman (2015)](#Shulman15)&rbrack; is to change the underlying rules of [[dependent type theory]] itself by adjoining [[syntax]] for [[flat modality|flat]]-[[modal type|modal]] [[contexts]] ("crisp contexts").
+
+This second approach, via a modified type theory with crisp contexts (which has meanwhile be implemented in actual [[proof assistants]] such as *[[Agda-flat]]*), better lends itself to producing [[proofs]] internal to the theory and is what most authors now mean by (real-)cohesive homotopy type theory, see e.g. developments in: [Myers (2019)](#Myers19), [Myers (2021)](#Myers21), [Myers & Riley (2023)](#MyersRiley23).
+
+In any case, *Cohesive homotopy type theory* is an [[axiom|axiomatic]] [[theory]] of the [[higher geometry]] of [[cohesive homotopy theory]], i.e. of the [[homotopy theory]] of [[differential topology]]:
+
+In its [[categorical semantics]], the  [[types]] in cohesive HoTT are interpreted as _[[cohesive topos|cohesive]] [[homotopy types]]_, hence as [[cohesive ∞-groupoids]], such as for instance [[smooth ∞-groupoids]]. See also at _[[motivation for cohesive toposes]]_ for a non-technical discussion.
+
 
 
 ## The Axioms
@@ -240,51 +247,61 @@ We give the [[Coq]]-formalization of [Differential cohomology](http://ncatlab.or
 ## References
  {#References}
 
-A survey with discussion of applications to [[gauge theory]] and [[quantum field theory]] is at
-
-* {#SchreiberShulman2012} [[Urs Schreiber]], [[Mike Shulman]], _[[schreiber:Quantum gauge field theory in Cohesive homotopy type theory]]_, 2012
-
-The formulation of [[cohesive topos|axiomatic cohesion]] on 1-[[categories]] is due to [[Bill Lawvere]], see [there](http://ncatlab.org/nlab/show/cohesive+topos#References) for a detailed bibliography.
-
-The [[Coq]] formalization of [[cohesive (infinity,1)-topos|axiomatic homotopy cohesion]] is discussed in 
-
-* {#ShulmanInternalizing} [[Mike Shulman]], _Internalizing the external, or The Joys of Codiscreteness_ ([blog post](http://golem.ph.utexas.edu/category/2011/11/internalizing_the_external_or.html))
-
-
-A formalization in homotopy type theory with [[adjoint logic]] added is in 
-
-* {#Shulman15} [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
-
-* {#LicataShulman} [[Dan Licata]], [[Mike Shulman]], _Adjoint logic with a 2-category of modes_, in _[Logical Foundations of Computer Science 2016](http://lfcs.info/lfcs-2016/)_ ([pdf](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint.pdf), [slides](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint-lfcs-slides.pdf))
-
-A philosophical treatment:
-
-* [[David Corfield]], Chap. 5 of *[Modal Homotopy Type Theory](https://ncatlab.org/davidcorfield/show/Modal+Homotopy+Type+Theory)*
-
-See also:
-
-* {#Wellen18} [[Felix Wellen]], _[[schreiber:thesis Wellen|Cartan Geometry in Modal Homotopy Type Theory]]_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966), [thesis pdf](http://www.math.kit.edu/iag3/~wellen/media/diss.pdf))
-
-* [[David Jaz Myers]], _Good Fibrations through the Modal Prism_ ([arXiv:1908.08034v2](https://arxiv.org/abs/1908.08034v2))
-
-
-In the [pseudocode](http://en.wikipedia.org/wiki/Pseudocode) formerly known as traditional mathematics, homotopy cohesion is discussed in
+First discussion of a ([[homotopy type theory|homotopy]]) [[type theory|type theoretic]] formulation of the [[modal type theory|modal]] [[cohesive homotopy theory]] (adopting terminology from [Lawvere 2007](cohesive+topos#LawvereAxiomatic) ) considered in
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
 
-See also 
+was given in
 
-* [[Urs Schreiber]], _[[schreiber:Modern Physics formalized in Modal Homotopy Type Theory ]]_
+* {#SchreiberShulman2012} [[Urs Schreiber]], [[Mike Shulman]], *[[schreiber:Quantum gauge field theory in Cohesive homotopy type theory]]*, EPTCS **158** (2014) 109-126 &lbrack;[arXiv:1408.0054](https://arxiv.org/abs/1408.0054), [doi:10.4204/EPTCS.158.8](https://doi.org/10.4204/EPTCS.158.8)&rbrack;
+
+following
+
+* {#ShulmanInternalizing} [[Mike Shulman]], _Internalizing the external, or The Joys of Codiscreteness_ ([blog post](http://golem.ph.utexas.edu/category/2011/11/internalizing_the_external_or.html))
+
+by adding [[axioms]] for the [[adjoint triple]] of [[modal operators]] to plain [[homotopy type theory]].
+
+
+See also broader discussion in:
+
+* [[Urs Schreiber]], _[[schreiber:Modern Physics formalized in Modal Homotopy Type Theory ]]_ (2016)
+
+* [[David Corfield]], Chap. 5 of *[[davidcorfield:Modal Homotopy Type Theory]]*, Oxford University Press (2020) &lbrack;[ISBN:9780198853404](https://global.oup.com/academic/product/modal-homotopy-type-theory-9780198853404)&rbrack;
+
+Another type-theoretic formulation of [[cohesive homotopy theory]], now obtained by changing the rewrite rules of type theory itself -- adding a [[syntax|syntactic]] notion of [[flat modality|flat]]-[[modal type|modal]] ("crisp") [[contexts]]:
+
+* {#Shulman15} [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science **28** 6 (2018) 856-941 *lbrack;[arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147)&rbrack;
+
+following a general pattern for [[modal type theory]] laid out in
+
+* {#LicataShulman} [[Dan Licata]], [[Mike Shulman]], *Adjoint logic with a 2-category of modes*, in _[Logical Foundations of Computer Science 2016](http://lfcs.info/lfcs-2016/)_,  Lecture Notes in Computer Science **9537** (2016) &lbrack;[doi:10.1007/978-3-319-27683-0_16](https://doi.org/10.1007/978-3-319-27683-0_16), [pdf](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint.pdf), [slides](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint-lfcs-slides.pdf)&rbrack;
+
+with exposition in:
 
 * {#Shulman19} [[Mike Shulman]], _Comonadic modalities and cohesion_, talk at _[Geometry in Modal Homotopy Type Theory](http://felix-cherubini.de/modal-workshop.html)_, 2019 ([pdf slides](http://home.sandiego.edu/~shulman/papers/cmu2019a.pdf), [talk recording](https://youtu.be/GA93Hjh-Alk))
 
+
+This approach (also "real cohesive type theory") is now what most people refer to when speaking of cohesive homotopy type theory. 
+
+Notice that at this point there is no [[proof assistant]] that actually implements the [[shape modality]] this way, only the system consisting of [[flat modality]] $\dashv$ [[sharp modality]] (*[[spatial type theory]]*) runs on computers: eg. via *[[Agda-flat]]*.
+
+Discussion of a fragment of [[differential cohesive (infinity,1)-topos|differential cohesive]] homotopy type theory with [[Agda-flat]]:
+
+* {#Wellen18} [[Felix Wellen]], _[[schreiber:thesis Wellen|Cartan Geometry in Modal Homotopy Type Theory]]_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966), [thesis pdf](http://www.math.kit.edu/iag3/~wellen/media/diss.pdf))
+
+Further development of (real-)cohesive homotopy type theory:
+
+* {#Myers19} [[David Jaz Myers]], _Good Fibrations through the Modal Prism_, Higher Structures **6** 1 (2022) 212–255 &lbrack;[arXiv:1908.08034v2](https://arxiv.org/abs/1908.08034), [higher-structures:Vol6Iss1/Myers](https://higher-structures.math.cas.cz/api/files/issues/Vol6Iss1/Myers)&rbrack;
+
 Formalization of the shape/flat-[[fracture square]] ([[differential cohomology hexagon]]):
 
-* [[David Jaz Myers]], _Modal Fracture of Higher Groups_,  talk at _[CMU-HoTT Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html), 2021 ([pdf](http://davidjaz.com/Talks/CMU_March_2021.pdf), [[MyersModalFracture2021.pdf:file]])
+* {#Myers21} [[David Jaz Myers]], _Modal Fracture of Higher Groups_ &lbrack;[arXiv:2106.15390](https://arxiv.org/abs/2106.15390)&rbrack;
+
+  also: talk at *[CMU-HoTT Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html)*, 2021 ([pdf](http://davidjaz.com/Talks/CMU_March_2021.pdf), [[MyersModalFracture2021.pdf:file]])
 
 Discussion of pairs of commuting cohesive structures (such as the combination of real cohesion and equivariant relevant for [[differential cohomology|differential]] [[orbifold cohomology]]:
 
-* [[David Jaz Myers]], [[Mitchell Riley]], *Commuting Cohesions* &lbrack;[arXiv:2301.13780](https://arxiv.org/abs/2301.13780)&rbrack;
+* {#MyersRiley23} [[David Jaz Myers]], [[Mitchell Riley]], *Commuting Cohesions* &lbrack;[arXiv:2301.13780](https://arxiv.org/abs/2301.13780)&rbrack;
 
 
 
