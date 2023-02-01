@@ -156,5 +156,6 @@ category: software
 [[!redirects cubical Agda]]
 [[!redirects cubical agda]]
 
+[[!redirects Agda-flat]]
 
 
