@@ -1,6 +1,6 @@
 [[!redirects David Myers]]
 
-David Jaz Myers is postdoctoral researcher at [[CQTS]].
+David Jaz Myers is postdoctoral researcher at [[CQTS]] @ NYU Abu Dhabi.
 
 * [personal webpage](http://davidjaz.com/)
 
@@ -39,7 +39,7 @@ On [[modal type theory]] and [[cohesive homotopy type theory]]
 
 Formalization of the [[shape modality|shape]]/[[flat modality|flat]]-[[fracture square]] ([[differential cohomology hexagon]]) in [[cohesive homotopy type theory|cohesive]] [[modal homotopy type theory|modal homotopy type theory]] [[homotopy type theory]]: 
 
-* [[David Jaz Myers]], _Modal Fracture of Higher Groups_ ([arXiv:2106.15390](https://arxiv.org/abs/2106.15390)), related talk at _[CMU-HoTT Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html), 2021 ([pdf](http://davidjaz.com/Talks/CMU_March_2021.pdf), [[MyersModalFracture2021.pdf:file]])
+* [[David Jaz Myers]], _Modal Fracture of Higher Groups_ ([arXiv:2106.15390](https://arxiv.org/abs/2106.15390)), related talk at *[CMU-HoTT Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html)*, 2021 ([pdf](http://davidjaz.com/Talks/CMU_March_2021.pdf), [[MyersModalFracture2021.pdf:file]])
 
 \begin{imagefromfile}
     "file_name": "MyersModalFracture2021AbstractShot.jpg",
