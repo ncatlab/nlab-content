@@ -77,6 +77,13 @@ Notably in [[homotopy type theory]] with [[univalence]], which is the [[internal
 
 ## References
 
+See also
+
+* Wikipedia, _[Structuralism](http://en.wikipedia.org/wiki/Structuralism)_
+
+
+Discussion in view of [[category theory]]:
+
 * {#Awodey96} [[Steve Awodey]], _Structure in mathematics and logic: a categorical perspective_, Philosophia Mathematica (3), vol. 4,  p. 209-237, 1996 ([doi:10.1093/philmat/4.3.209](https://doi.org/10.1093/philmat/4.3.209))
 
 * {#Awodey03} [[Steve Awodey]], _An Answer to Hellman's Question: "Does Category Theory Provide a Foundation for Mathematical Structuralism?"_, 2003 ([pdf](http://www.andrew.cmu.edu/user/awodey/preprints/awodeyVhellman.pdf), [doi:10.1093/philmat/12.1.54](https://doi.org/10.1093/philmat/12.1.54))
@@ -85,13 +92,14 @@ Notably in [[homotopy type theory]] with [[univalence]], which is the [[internal
  
 * {#Kantor11} [[Jean-Michel Kantor]], _Bourbaki's Structures and Structuralism_, The Mathematical Intelligencer __33__:1 (2011), 1, [doi](http://dx.doi.org/10.1007/s00283-010-9173-4)
 
+Discussion in view of [[univalent foundations of mathematics]] ([[homotopy type theory]] with the [[univalence axiom]]):
+
 * {#Awodey15} [[Steve Awodey]], _Structuralism, Invariance and Univalence_, 2014 ([pdf](https://www.andrew.cmu.edu/user/awodey/preprints/siu.pdf))
 
 * {#Corfield15} [[David Corfield]], _Expressing 'The Structure of' in Homotopy Type Theory_, 2015 ([pdf](https://dl.dropboxusercontent.com/u/16936016/The_Structure.pdf))
 
-See also
+* [[Dimitris Tsementzis]], *Univalent foundations as structuralist foundations*, Synthese **194** 9 (2017) 3583–3617 &lbrack;[jstor:26748765](https://www.jstor.org/stable/26748765), [doi:10.1007/s11229-016-1109-x](https://doi.org/10.1007/s11229-016-1109-x), [pdf](https://core.ac.uk/download/pdf/157866891.pdf)&rbrack;
 
-* Wikipedia, _[Structuralism](http://en.wikipedia.org/wiki/Structuralism)_
 
 
 category: philosophy
