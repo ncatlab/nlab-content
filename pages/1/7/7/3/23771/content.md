@@ -13,15 +13,43 @@
 * table of contents
 {: toc}
 
+
 ## Idea
+ {#Idea}
 
-What is called _higher observational type theory_ (HOTT or HigherOTT) is a flavor of  [[intensional type theory]] that is a [[higher homotopy]] version of [[observational type theory]] (OTT). 
+Where the idea of (non-higher) [[observational type theory]] is to equip all [[type formation]] rules (notably [[dependent functions]], [[dependent pairs]] and [[W-types|inductive constructions]]) with their dedicated notion of *structure preserving* [[definitional equality]] --- namely: component-wise, ie. [[homomorphism|homo-morphic]], hence: "observational" ---; the idea of *higher* observational type theory is to do the same for [[propositional equality]] hence for [[identification types]] used in [[homotopy type theory]] (where [[types]] behave like [[homotopy n-type|*higher* homomotopy types]], whence the qualifier "higher").
 
-{#MayBeRegarded} It may be regarded as a [[homotopy type theory]] ([[HoTT]]): the [[propositions]] of OTT correspond to the [[h-propositions]] of HoTT, the [[sets]] in OTT correspond to [[h-sets]] in HoTT, and so forth. The notion of [[equality]] on HOTT in a [[type universe]] is based on [[bijection|one-to-one]] [[correspondences]], but is usually defined as a primitive [[identity type]] for types outside a universe. Since equality is defined type-by-type, HOTT enjoys [[function extensionality]].
+Concretely:
 
-There are a few technical differences (e.g. [[proofs]] of [[types]] in a [[universe]] are [[definitional equality|definitionally equal]] in HOTT, whereas proofs of types in a universe are only [[propositional equality|propositionally equal]] in HoTT) but on the whole HoTT looks a lot like HOTT.
+* the "observational" principle for identification of [[dependent functions]] is to say that these are dependent functions of identifications of arguments and values (a statement otherwise known as [[function extensionality]]),
 
-## Altenkirch-Kaposi-Shulman's higher observational type theory
+* the "observational" principle for identifications of [[dependent pairs]] is to say that these are dependent pairs of identifications of factors,
+
+and in ordinary [[univalence axiom|univalent]] [[homotopy type theory]] this form of the "[[structure identity principle]]" follows as a [[type equivalence]] between [[identification types]]:
+
+<img src="/nlab/files/DependentPairExtensionality-230121.jpg" width="660">
+
+<img src="/nlab/files/DependentFunctionExtensionality-230121.jpg" width="660">
+
+The idea of higher observational type theory is to make these and analogous structural characterizations of [[identification types]] be part of their definitional [[inference rules]], thus building the [[structure identity principle]] right into the rewrite rules of the type theory.
+
+In such a higher observational theory, in particular also the [[univalence axiom]] would be a [[definitional equality]] and hence would "compute". 
+
+This most desirable property of any [[homotopy type theory]] has previously been accomplished only by [[cubical type theories]].  However, cubical type theories achieve this only by adding syntax for auxiliary/spurious [[interval types]] with rewrite rules which encode technical detail that has no abstract motivation other than making the univalence axiom compute and which one would rather keep out of the syntactic logic and instead relegate to the construction of [[categorical semantics]]. 
+
+The hope is therefore that higher observational type theory would provide a type system which achieves both:
+
+1. its syntax is as logically clean as that of [[Martin-Löf dependent type theory]] equipped with the [[univalence axiom]];
+
+1. its [[inference rules]] for [[identification types]] make the [[univalence axiom]] be a computable function as it is in [[cubical type theories]].
+
+At the moment this seems to remain a hope, certainly there is currently no [[proof assistant]] implementing the principles of higher observational type theory. Ideally the references below would elucidate which questions remain open and which problems remain to be solved.
+
+
+
+## Details
+
+> This section does not quite get to the key points across and may need to be largely rewritten from scratch.
 
 We are working in a [[dependent type theory]] with [[judgmental equality]]. 
 
@@ -69,7 +97,7 @@ The [[identity types]] in higher observational type theory is defined as
 
 $$a =_A a^{'} \equiv a =_{\epsilon.A}^{()} a^{'}$$
 
-Computation rules are defend for pair types:
+Computation rules are defined for pair types:
 
 $$(s =_{A \times B}^\varsigma t) \equiv (\pi_1(s) =_A^\varsigma \pi_1(t)) \times (\pi_2(s) =_B^\varsigma \pi_2(t))$$
 
@@ -175,8 +203,8 @@ $$\mathrm{id}_{\mathcal{T}_\mathcal{U}(z.B)}^{p}(u, v) \equiv \mathrm{id}_{\math
 
 ## References 
 
-Higher observational type theory was introduced in a joint work between [[Thorsten Altenkirch]], [[Ambrus Kaposi]] and [[Michael Shulman]], and first presented at the CMU HoTT Seminar by Shulman in 2022:
+Higher observational type theory was introduced as joint work of [[Thorsten Altenkirch]], [[Ambrus Kaposi]] and [[Michael Shulman]], first presented in:
 
-* *Towards a Third-Generation HOTT:* Part 1 ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA)); Part 2 ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU)); Part 3 ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-12.pdf), [video](https://www.youtube.com/watch?v=9pDddxB7LbE))
+* [[Michael Shulman]], *Towards a Third-Generation HOTT:*, talk at *[Homotopy Type Theory at CMU](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html)* (2022)  &lbrack; Part 1: [slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA)); part 2: [slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU); part 3: [slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-12.pdf), [video](https://www.youtube.com/watch?v=9pDddxB7LbE)&rbrack;
 
 [[!redirects higher observational type theories]]
