@@ -118,11 +118,11 @@ Via the [[structure identity principle]] ([above](#StructureIdentityPrinciple)),
 
 The structure of [[subgroups]] of a given group structure:
 
-[[SubgroupDataStructure-230201.jpg:file]]
+<img src="/nlab/files/SubgroupDataStructure-230201.jpg" width="900">
 
-and their underlying abstract group structure:
+and their [[underlying]] abstract group structure:
 
-[[UnderlyingGroupOfSubgroupStructure-230201.jpg:file]]
+<img src="/nlab/files/UnderlyingGroupOfSubgroupStructure-230201.jpg" width="900">
 
 
 ### Ring data structure
