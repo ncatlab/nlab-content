@@ -28,6 +28,7 @@ Concretely,  [Aczel (2011, p. 9)](#Aczel11) declares that the structure identity
 
 The latter is what [Aczel (2011, p. 22)](#Aczel11) calls "[[isomorphisms]]". While this matches the usage of the term "[[isomorphism]]" in abstract [[category theory]] to mean "[[invertible morphism]]", to complete the notion of "structure identity" one may want a further argument to verify that such isomorphisms really are invertible [[homomorphisms|*homo*-morphism]] with respect to some given [[mathematical structure]] (such as [group structure](structure#GroupDataStructure) etc.). Such enhancement of Aczel's notion of SIP is considered in [Coquand & Danielsson (2013)](#CoquandDanielsson13) (who do not use the terminology "structure udentity principle") and in [UFP13, §9.8](#UFP13) (who do).
 
+
 ## Examples
  {#Examples}
 
@@ -76,6 +77,10 @@ then the above extensionality principles (eq:ExtensionalityPrinciples) imply tha
 * [[structuralism]]
 
 * [[homotopy type theory]]
+
+* The idea of building the structure identity principle right into the [[inference rules]] for identifications in a [[type theory]] leads to the notion of ([[higher observational type theory|higher]]) [[observational type theory]].
+
+
 
 ## References
   
