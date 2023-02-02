@@ -108,7 +108,8 @@ The proof that filtered colimits in $R Mod$ are exact is spelled out for instanc
 See also 
 
 * [[Peter Freyd]], _Abelian categories_, Harper (1966O) 
-* Nicolae Popescu, [[An introduction to Abelian categories with applications to rings and modules]]_, Academic Press 1973
+
+* Nicolae Popescu, *An introduction to Abelian categories with applications to rings and modules*_, Academic Press 1973
 
 The fact that all Grothendieck categories are [[locally presentable]] is proved in Corollary 5.2 of
 
@@ -125,6 +126,14 @@ The duality of Grothendieck categories with categories of modules over [[linearl
 Discussion of [[model structures on chain complexes]] in Grothendieck abelian categories is in
 
 * [[Denis-Charles Cisinski]], F. D&#233;glise, _Local and stable homologial algebra in Grothendieck abelian categories_, Homology, Homotopy and Applications, vol. 11 (1) (2009)  ([pdf](http://www.intlpress.com/HHA/v11/n1/a11/v11n1a11.pdf))
+
+Formalization of Grothendieck categories as [[univalent categories]] in [[homotopy type theory]]:
+Formalization of [[abelian category|abelian]] [[univalent categories]] of [[ring]]-[[modules]], in [[homotopy type theory]] ([[univalent foundations of mathematics]]):
+
+* [[Jarl G. Taxerås Flaten]], Section 3.1 in *Univalent categories of modules* &lbrack;[arXiv:2207.03261](https://arxiv.org/abs/2207.03261)&rbrack;
+
+
+
 
 [[!redirects Grothendieck categories]]
 
