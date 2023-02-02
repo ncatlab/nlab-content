@@ -318,6 +318,11 @@ in [[Agda]]:
 
 * [agda-unimath](https://unimath.github.io/agda-unimath/) -> [group-theory.groups](https://unimath.github.io/agda-unimath/group-theory.groups.html)
 
+in [[cubical Agda]]:
+
+* [[1lab]]: *[Algebra.Group](https://1lab.dev/Algebra.Group.html)*
+
+
 in [[Lean]]:
 
 * [Lean Community](https://leanprover-community.github.io/) --> [mathlib](https://leanprover-community.github.io/mathlib-overview.html) --> [algebra.group.defs](https://leanprover-community.github.io/mathlib_docs/algebra/group/defs.html#top) --> [group](https://leanprover-community.github.io/mathlib_docs/algebra/group/defs.html#group)
