@@ -3,10 +3,10 @@
 
 ## Selected writings
 
-On [[generalized (Eilenberg-Steenrod) cohomology]] formulated in [[homotopy type theory]]:
+On [[generalized (Eilenberg-Steenrod) cohomology]] formulated in [[homotopy type theory]] (cf. *[[cohomology in homotopy type theory]]*):
 
 
-* [[Evan Cavallo]], _Synthetic Cohomology in Homotopy Type Theory_ MSc Thesis 2015 ([pdf](https://www.cs.cmu.edu/~rwh/theses/cavallo-msc.pdf))
+* [[Evan Cavallo]], Section 3.2 of: *Synthetic Cohomology in Homotopy Type Theory* (2015) &lbrack;[pdf](https://staff.math.su.se/evan.cavallo/works/thesis15.pdf), [[Cavallo-CohomologyInHoTT.pdf:file]]&rbrack;
 
 
 category: people
