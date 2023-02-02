@@ -134,6 +134,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   slides: [[Lambert-MTheoryMath2023.pdf:file]]
 
+  video: [YT](https://www.youtube.com/watch?v=SlEYRaq2AO8)
+
   cf.: [arXiv:2011.06968](https://arxiv.org/abs/2011.06968), [arXiv:2212.07717](https://arxiv.org/abs/2212.07717)
 
   > In this talk we will discuss a [[path-integral]] formulation of the [[M5-brane]] [[D=6 N=(2,0) SCFT|(2,0) theory]] based upon a [[Lagrangian density|Lagrangian]] without [[Lorentz group|Lorentz]] [[gauge invariance|invariance]] but a novel $SU(1,3)$ spacetime symmetry. This provides a [[UV completion|UV complete]] five-dimensional [[quantum field theory|field theoretic]] description that we will argue admits a six-dimensional Lorentz invariance at [[non-perturbative quantum field theory|strong coupling]].
