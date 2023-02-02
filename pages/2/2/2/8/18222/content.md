@@ -3,6 +3,13 @@
 
 ## Selected writings
 
+On the [[UniMath project]]:
+
+* [[Benedikt Ahrens]], _UniMath: its origins, present, and future_ (2017) &lbrack;[pdf](https://unimath.github.io/bham2017/UniMath_origins-present-future.pdf), [[Ahrens-UniMathHistory.pdf:file]]&rbrack;
+
+
+On [[2-dimensional type theory]]:
+
 * [[Benedikt Ahrens]], [[Paige Randall North]], [[Niels van der Weide]], *Semantics for two-dimensional type theory*, LICS '22: Proceedings of the 37th Annual ACM/IEEE Symposium on Logic in Computer Science, August 2022, No. 12, Pages 1–14, ([doi:10.1145/3531130.3533334](https://doi.org/10.1145/3531130.3533334))
 
 * [[Benedikt Ahrens]], [[Paige Randall North]], [[Michael Shulman]], [[Dimitris Tsementzis]], *The Univalence Principle* ([arXiv:2102.06275](https://arxiv.org/abs/2102.06275))
@@ -19,5 +26,7 @@ On [[2-dimensional type theory]]:
 ## Related entries
 
 * [[internal category in homotopy type theory]]
+
+* [[UniMath project]]
 
 category: people
