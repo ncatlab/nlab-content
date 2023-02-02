@@ -477,17 +477,22 @@ $$
 
 ### General 
 
-A standard textbook is
+Textbook accounts:
 
 * F.W. Anderson, K.R. Fuller, _Rings and Categories of Modules_, Graduate Texts in Mathematics, Vol. 13, Springer-Verlag, New York, (1992)
 
-Lectures notes on [[sheaves]] of modules / modules over a [[ringed space]] are in
+Lectures notes on [[sheaves]] of modules / modules over a [[ringed space]]:
 
 * [[Daniel Murfet]], _Modules over a ringed space_ ([pdf](http://therisingsea.org/notes/RingedSpaceModules.pdf))
 
 Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
 
 * _[[geometry of physics -- categories and toposes]]_, Section 2: _[Basic notions of categorical algebra](geometry+of+physics+--+categories+and+toposes#BasicNotionsOfCategoricalAlgebra)_
+
+
+Formalization in [[cubical type theory|cubical]] [[homotopy type theory]]:
+
+* [[1lab]]: *[Algebra.Ring.Module](https://1lab.dev/Algebra.Ring.Module.html)*
 
 
 ### On modules as enriched presheaves
