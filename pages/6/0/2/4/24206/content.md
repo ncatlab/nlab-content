@@ -1,3 +1,4 @@
+[[!redirects ordinary cohomology in homotopy type theory]]
 
 
 +-- {: .rightHandSide}
@@ -13,6 +14,7 @@
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -75,17 +77,23 @@ Ordinary cohomology also satisfies the _dimension axiom_:
 * [[homology]]
 
 ## References
+ {#References}
+
+The notion of [[Whitehead generalized cohomology]], [[Brown representability theorem|i.e.]] with [[coefficients]] in any [[spectrum type]]:
+
+* [[Evan Cavallo]], Section 3.2 of: *Synthetic Cohomology in Homotopy Type Theory* (2015) &lbrack;[pdf](https://staff.math.su.se/evan.cavallo/works/thesis15.pdf), [[Cavallo-CohomologyInHoTT.pdf:file]]&rbrack;
+
+In the further generality of [[twisted cohomology]] with [[coefficients]] in any [[spectrum type]]:
+
+* [[Floris van Doorn]], Def. 5.4.2 in: _On the Formalization of Higher Inductive Types and Synthetic Homotopy Theory_ (2018) &lbrack;[arXiv:1808.10690](https://arxiv.org/abs/1808.10690), [pdf](http://florisvandoorn.com/papers/dissertation.pdf)&rbrack;
+
+Implementation of [[ordinary cohomology|ordinary]] [[integral cohomology]] (i.e. with [[coefficients]] in the [[Eilenberg-MacLane spaces]]/[[Eilenberg-MacLane spectra|-spectra]]) in [[cubical type theory|cubical]] [[Agda]]:
 
 * [[Guillaume Brunerie]], [[Axel Ljungström]], [[Anders Mörtberg]], *Synthetic Integral Cohomology in Cubical Agda*, 30th EACSL Annual Conference on Computer Science Logic (CSL 2022) **216** (2022) $[$[doi:10.4230/LIPIcs.CSL.2022.11](https://doi.org/10.4230/LIPIcs.CSL.2022.11)$]$
 
-  > (in [[cubical type theory|cubical]] [[Agda]])
 
-* [[Floris van Doorn]] (2018), _On the Formalization of Higher Inductive Types and Synthetic Homotopy Theory_, ([arXiv:1808.10690](https://arxiv.org/abs/1808.10690), [web](http://florisvandoorn.com/papers/dissertation.pdf))
 
-* [[Evan Cavallo]], *Synthetic Cohomology in Homotopy Type Theory*, ([pdf](http://www.cs.cmu.edu/~rwh/theses/cavallo-msc.pdf))
 
-See also:
 
-* [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
 [[!redirects cohomology in homotopy type theory]]
