@@ -110,7 +110,7 @@ Conversely, given the latter then the [[dualizing object]] $\bot$ is defined as 
 
 =--
 
-(See [this discussion](https://github.com/punkdit/categories/blob/master/www.mta.ca/cat-dist/archive/2007/07-12#L2488-L2574) on the [[categories mailing list]] for alternative definitions and remarks about coherence.)
+(See [this discussion](https://github.com/punkdit/categories/blob/master/www.mta.ca/cat-dist/archive/2007/07-12#L2488-L2574) on the [categories mailing list](https://www.mta.ca/~cat-dist/) for alternative definitions and remarks about coherence.)
 
 +-- {: .num_remark}
 ###### Remark
