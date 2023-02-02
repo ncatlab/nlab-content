@@ -44,7 +44,6 @@ An [[initial object]] $\varnothing$ is called a **strict initial object** if eve
   \,.
 \]
 
-This corresponds to the initial object being a [[van Kampen colimit]].
 
 
 ## Properties
@@ -61,6 +60,8 @@ This corresponds to the initial object being a [[van Kampen colimit]].
     \varnothing
     \,.
   $$
+
+* Strict initial objects may be understood as [[van Kampen colimits]], see e.g. [Sobocinski & Heindel (2011), Exp. 4.5 (i)](#SobocinskiHeindel11).
 
 
 
@@ -100,6 +101,11 @@ At the other extreme, a [[zero object]] is a strict initial object only if the c
 ## References
 
 * {#CarboniLackWalters93} [[Aurelio Carboni]], [[Stephen Lack]], [[Bob Walters|R. F. C. Walters]], Def. 2.7 in: _Introduction to extensive and distributive categories_, JPAA **84** (1993) pp. 145-158 (<a href="https://doi.org/10.1016/0022-4049(93)90035-R">doi:10.1016/0022-4049(93)90035-R</a>)
+
+Discussion as [[van Kampen colimits]]:
+
+* {#SobocinskiHeindel11} [[Pawel Sobocinski]], [[Tobias Heindel]], Exp. 4.5 (i) in: *Being Van Kampen is a universal property*, Logical Methods in Computer Science, **7** 1 (2011) &lbrack;[arXiv:1101.4594](https://arxiv.org/abs/1101.4594), <a href="https://doi.org/10.2168/LMCS-7(1:14)2011">doi:10.2168/LMCS-7(1:14)2011</a>&rbrack;
+
 
 
 [[!redirects strict initial objects]]
