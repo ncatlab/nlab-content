@@ -331,9 +331,14 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 ### General
  {#ReferencesGeneral}
 
-Lecture notes include
+Lecture notes:
 
 * Arno Fehm, _Ringe_ ([pdf](http://www.math.uni-konstanz.de/~fehm/teaching/algebra/geyer2.pdf)) (in German)
+
+Formalization in [[cubical type theory|cubical]] [[homotopy type theory]]:
+
+* [[1lab]]: *[Algebra.Ring](https://1lab.dev/Algebra.Ring.html)*
+
 
 ### History
  {#ReferencesHistory}
