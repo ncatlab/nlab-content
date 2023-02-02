@@ -25,9 +25,11 @@ based on [[dependent type theory]]/[[homotopy type theory]]:
 
   * [library and demos](https://github.com/agda/cubical)
 
+  * [[1lab]] (cross-linked reference resource)
+
 based on [[modal type theory]]:
 
-* Agda-flat: [installation instructions](http://www.cl.cam.ac.uk/~amp12/agda/internal-universes/code/agda-flat/install.txt)
+* [[Agda-flat]]: [installation instructions](http://www.cl.cam.ac.uk/~amp12/agda/internal-universes/code/agda-flat/install.txt)
 
 For [[monoidal category|monoidal]] [[category theory]]:
 
