@@ -310,7 +310,7 @@ in [[Coq]]:
 
 * Farida Kachapova, *Formalizing groups in type theory* &lbrack;[arXiv:2102.09125](https://arxiv.org/abs/2102.09125)&rbrack;
 
-with [[univalence axiom]]:
+and with the [[univalence axiom]]
 
 * [[unimath]] -> [UniMath.Algebra.Groups](https://unimath.github.io/doc/UniMath/d4de26f//UniMath.Algebra.Groups.html)
 
@@ -321,6 +321,11 @@ in [[Agda]]:
 in [[Lean]]:
 
 * [Lean Community](https://leanprover-community.github.io/) --> [mathlib](https://leanprover-community.github.io/mathlib-overview.html) --> [algebra.group.defs](https://leanprover-community.github.io/mathlib_docs/algebra/group/defs.html#top) --> [group](https://leanprover-community.github.io/mathlib_docs/algebra/group/defs.html#group)
+
+Exposition in a context of [[homotopy type theory]]:
+
+* [[Egbert Rijke]], Section 19 in: *Introduction to Homotopy Type Theory*, Cambridge Studies in Advanced Mathematics, Cambridge University Press &lbrack;[arXiv:2212.11082](https://arxiv.org/abs/2212.11082)&rbrack;
+
 
 Alternative discussion (under [[looping and delooping]]) of groups in [[homotopy type theory]] as pointed connected [[homotopy 1-types]]:
 
