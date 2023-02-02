@@ -118,6 +118,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
   **D-instanton amplitudes in string theory**
   
   slides: [[Sen-MTheoryMath2023.pdf:file]]
+
+  video: [YT](https://www.youtube.com/watch?v=I9_OaFW9KHw)
   
   cf. [arXiv:2204.02981](https://arxiv.org/abs/2204.02981), [arXiv:2207.07138](https://arxiv.org/abs/2207.07138)
 
