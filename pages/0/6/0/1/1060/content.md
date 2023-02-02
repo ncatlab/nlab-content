@@ -262,7 +262,7 @@ Combination with traces yields compact closure:
 
 A wide-ranging summary of different model constructions:
 
-* [[Martin Hyland]] and [[Andreas Schalk]], _Glueing and orthogonality for models of linear logic_, [pdf](http://www.cs.man.ac.uk/~schalk/publ/gomll.pdf)
+* [[Martin Hyland]] and [[Andrea Schalk]], _Glueing and orthogonality for models of linear logic_, [pdf](http://www.cs.man.ac.uk/~schalk/publ/gomll.pdf)
  {#HylandSchalk01}
 
 [[!redirects star-autonomous categories]]
