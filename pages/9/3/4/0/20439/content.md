@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Constructivism, Realizability, Computability
+#### Constructivism, Computability
 +-- {: .hide}
 [[!include constructivism - contents]]
 =--
@@ -13,24 +13,56 @@
 =--
 =--
 
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The _UniMath_ project (short for _[[univalent foundations for mathematics|Univalent Mathematics]]_) on formalization of [[mathematics]] ([[formal proof]]) with emphasis on the use of the [[univalence axiom]].
+_UniMath_ is a library of [[formal logic|formalized]] [[mathematics]] ([[formal proof]]) based on the [[univalent foundations of mathematics]] ([[homotopy type theory]] with the [[univalence axiom]]) and currently developed with the [[Coq]] [[proof assistants]].
+
+Current "coordinating committee" (according to the [home page](http://unimath.github.io/UniMath/)):
+
+
+* [[Benedikt Ahrens]]
+
+* [[Daniel Grayson]]
+
+* [[Michael Lindgren]]
+    
+* [[Peter LeFanu Lumsdaine]]
+
+* [[Ralph Matthes]]
+
+* [[Niels van der Weide]]
+
+
+Web resources:
+
+* [Home page](http://unimath.github.io/UniMath/)
+
+* [GitHub page](https://github.com/UniMath)
+
+* [table of contents](https://unimath.github.io/UniMath/UniMath/CONTENTS.html)
+
+* [index](https://unimath.github.io/doc/UniMath/d4de26f/)
+
+## Further references
+
+* [[Benedikt Ahrens]], _UniMath: its origins, present, and future_ (2017) &lbrack;[pdf](https://unimath.github.io/bham2017/UniMath_origins-present-future.pdf), [[Ahrens-UniMathHistory.pdf:file]]&rbrack;
+
 
 ## Related projects
 
 [[!include proof assistants and formalization projects -- list]]
 
-## References
 
-* [[Benedikt Ahrens]], _UniMath: its origins, present, and future_ ([pdf](https://unimath.github.io/bham2017/UniMath_origins-present-future.pdf))
-
-Implementation in [[Coq]]:
-
-* _Univalent Mathematics_ ([github.com/UniMath/UniMath](https://github.com/UniMath/UniMath))
 
 [[!redirects UniMath]]
+[[!redirects unimath]]
+
+
+category: reference
+
