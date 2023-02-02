@@ -3733,7 +3733,7 @@ $$
 and its unit is the corresponding [[adjunction unit]] (Def. \ref{AdjunctionUnitFromHomIsomorphism})
 
 $$
-  X \overset{\eta_X}{\longrightarrow} \iota \circ L
+  X \overset{\eta_X}{\longrightarrow} \iota(L(X))
   \,.
 $$
 
