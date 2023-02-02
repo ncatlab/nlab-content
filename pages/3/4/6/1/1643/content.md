@@ -79,6 +79,10 @@ The wikipedia entry [magma](http://en.wikipedia.org/wiki/Magma_%28algebra%29) is
 * [[eom]]: [magma](http://www.encyclopediaofmath.org/index.php?title=m/m110040)
 * R.H. Bruck, _A survey of binary systems_, Springer-Verlag 1958
 
+Formalization in [[cubical type theory|cubical]] [[homotopy type theory]]:
+
+* [[1lab]]: *[Algebra.Magma](https://1lab.dev/Algebra.Magma.html)*
+
 
 category: algebra
 
@@ -94,3 +98,4 @@ category: algebra
 
 [[!redirects square function]]
 [[!redirects square functions]]
+
