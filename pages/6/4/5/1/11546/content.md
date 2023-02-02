@@ -15,13 +15,12 @@
 
 ## Idea
 
-A [[localization]] is a universal functor from a given category $C$ with respect to the inversion of some family $\Sigma$ of morphisms in $C$; sometimes one says also quotient category. In topos theory and some other subjects one often restricts to the situation when $\Sigma$ is a [[calculus of left fractions]], and the corresponding localization functor has a [[right adjoint]] (which is then necessarily fully faithful); even more, one often requires that the localization functor is also left exact, hence exact. 
+A [[localization]] is a universal functor from a given category $C$ with respect to the inversion of some family $\Sigma$ of morphisms in $C$; sometimes one says also quotient category. In topos theory and some other subjects one often restricts to the situation when $\Sigma$ is a [[calculus of left fractions]], and the corresponding localization functor has a [[right adjoint]] (which is then necessarily fully faithful); even more, one often requires that the localization functor is also [[left exact]], hence [[exact functor|exact]]. 
 
-Dual to that, othus, one often speaks of _colocalization_  as the dual case (of the universal functor into the quotient category) where $\Sigma$ admits a [[calculus of right fractions]] and the corresponding quotient functor has a [[left adjoint]].  See also at _[[right Bousfield localization]]_.
+One may then speak of _colocalization_ as the [dual](duality#abstractformalaxiomatic_duality) version of localization, a universal functor into a quotient category where now $\Sigma$ admits a [[calculus of right fractions]] and the corresponding quotient functor has a [[left adjoint]].  See also at _[[right Bousfield localization]]_.
 
 
-The theory of colocalization in [[co-Grothendieck categories]] has some features of its own as compared to the localization in [[Grothendieck categories]]. Namely, while
-by Gabriel-Popescu's theorem, every Grothendieck category is a localization of a category of modules over a fixed unital ring, their dual categories may be presented
+The theory of colocalization in [[co-Grothendieck categories]] has some features of its own as compared to the localization in [[Grothendieck categories]]. Namely, while by Gabriel-Popescu's theorem, every Grothendieck category is a localization of a category of modules over a fixed unital ring, their dual categories may be presented
 in terms of the theory of linear topological rings with some compactness properties, which is the content of [[Gabriel-Oberst duality]] theory. 
 
 ## Related concepts
@@ -30,7 +29,7 @@ in terms of the theory of linear topological rings with some compactness propert
 
 ## References
 
-* C. N&#259;st&#259;sescu, B. Torrecillas, _Colocalization on Grothendieck categories with applications to coalgebras_, J. Algebra __185__ (1996), 108&#8211;124[pdf available](http://www.sciencedirect.com/science/article/pii/S0021869396903154)
+* C. N&#259;st&#259;sescu, B. Torrecillas, _Colocalization on Grothendieck categories with applications to coalgebras_, J. Algebra __185__ (1996), 108&#8211;124 ([pdf](http://www.sciencedirect.com/science/article/pii/S0021869396903154))
 
 A textbook exposition is in the chapter 6, _Duality_ of
 
