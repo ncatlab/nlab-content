@@ -99,13 +99,16 @@ In this case, being van Kampen is also equivalent to being preserved by the comp
 ## Related pages
 
 * [[exactness property]]
+
 * [[object classifier in an (∞,1)-topos]]
+
 * [[descent]] / [[universal colimit]]
 
+* [[strict initial object]]
 
 ## References
 
-* Pawel Sobocinski and Tobias Heindel, *Being Van Kampen is a universal property*, [arXiv:1101.4594](http://arxiv.org/abs/1101.4594)
-{#SH}
+* {#SH} [[Pawel Sobocinski]], [[Tobias Heindel]], *Being Van Kampen is a universal property*, Logical Methods in Computer Science, **7** 1 (2011) &lbrack;[arXiv:1101.4594](https://arxiv.org/abs/1101.4594), <a href="https://doi.org/10.2168/LMCS-7(1:14)2011">doi:10.2168/LMCS-7(1:14)2011</a>&rbrack;
+
 
 [[!redirects van Kampen colimits]]
