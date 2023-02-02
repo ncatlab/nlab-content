@@ -382,7 +382,12 @@ Prop. \ref{SemiaddtiveStructureUnderlyingAdditiveInducesOriginalEnrichment} says
 
 Discussion of [[model category]] structures on additive categories is around def. 4.3 of 
 
-* Apostolos Beligiannis, _Homotopy theory of modules and Gorenstein rings_, Math. Scand. 89 (2001) ([pdf](http://users.uoi.gr/abeligia/mathscand.pdf))
- {#Beligiannis}
+* {#Beligiannis} Apostolos Beligiannis, _Homotopy theory of modules and Gorenstein rings_, Math. Scand. 89 (2001) ([pdf](http://users.uoi.gr/abeligia/mathscand.pdf))
+ 
+
+Formalization of additive categories as [[univalent categories]] in [[univalent foundations of mathematics]] ([[homotopy type theory]]):
+
+* [[unimath]], *Additive categories* &lbrack;[UniMath.CategoryTheory.Additive](https://unimath.github.io/doc/UniMath/4dd5c17/UniMath.CategoryTheory.Additive.html)&rbrack;
+
 
 [[!redirects additive categories]]
