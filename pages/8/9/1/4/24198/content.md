@@ -40,11 +40,13 @@ $$\Spectrum \equiv \sum_{E : \PreSpectrum} \prod_{n : \mathbb{Z}} \IsEquiv (e_n)
 
 * [[spectrification of a sequential spectrum type]]
 
+* [[cohomology in homotopy type theory]]
+
 ## References ##
 
-* [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
+* [[Evan Cavallo]], §3.2 of: *Synthetic Cohomology in Homotopy Type Theory* (2015) &lbrack;[pdf](https://staff.math.su.se/evan.cavallo/works/thesis15.pdf), [[Cavallo-CohomologyInHoTT.pdf:file]]&rbrack;
 
-* [[Floris van Doorn]] (2018), _On the Formalization of Higher Inductive Types and Synthetic Homotopy Theory_, ([arXiv:1808.10690](https://arxiv.org/abs/1808.10690), [web](http://florisvandoorn.com/papers/dissertation.pdf))
+* [[Floris van Doorn]], §5.3 in: _On the Formalization of Higher Inductive Types and Synthetic Homotopy Theory_ (2018) &lbrack;[arXiv:1808.10690](https://arxiv.org/abs/1808.10690), [web](http://florisvandoorn.com/papers/dissertation.pdf)&rbrack;
 
 [[!redirects Omega-spectrum types]]
 
