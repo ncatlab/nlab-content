@@ -4,7 +4,7 @@
 
 ## Selected writings
 
-On [[higher inductive types]] and ([[Atiyah-Hirzebruch spectral sequence|Atiyah-Hirzebruch]]-/[[Serre spectral sequence|Serre]]-)[[spectral sequences]] in [[homotopy type theory]] formalized in [[Lean]] (cf. *[[spectral sequences in homotopy type theory]]*):
+On [[higher inductive types]] and ([[Atiyah-Hirzebruch spectral sequence|Atiyah-Hirzebruch]]-/[[Serre spectral sequence|Serre]]-)[[spectral sequences]] in [[homotopy type theory]] formalized in [[Lean]] (cf. *[[cohomology in homotopy type theory]]* and *[[spectral sequences in homotopy type theory]]*):
 
 * [[Floris van Doorn]], _Spectral_ ([github.com/cmu-phil/Spectral](https://github.com/cmu-phil/Spectral))
 
