@@ -44,6 +44,8 @@ An [[initial object]] $\varnothing$ is called a **strict initial object** if eve
   \,.
 \]
 
+This corresponds to the initial object being a [[van Kampen colimit]].
+
 
 ## Properties
  {#Properties}
