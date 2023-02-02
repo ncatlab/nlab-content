@@ -430,6 +430,11 @@ A summary of the discussion in [Mod as a bifibration](#ModAsBifibration) and [Ta
 
 * [[Jacob Lurie]], _[[Deformation Theory]]_
 
+Formalization of [[abelian category|abelian]] [[univalent categories]] of [[ring]]-[[modules]], in [[homotopy type theory]] ([[univalent foundations of mathematics]]):
+
+* [[Jarl G. Taxerås Flaten]], *Univalent categories of modules* &lbrack;[arXiv:2207.03261](https://arxiv.org/abs/2207.03261)&rbrack;
+
+
 
 
 category: category
