@@ -305,10 +305,12 @@ The proof that $R Mod$ is an abelian category is spelled out for instance in
 
 * Rankeya Datta, _The category of modules over a commutative ring and abelian categories_ ([pdf](http://www.math.columbia.edu/~ums/pdf/Rankeya_R-mod_and_Abelian_Categories.pdf))
 
-
 A discussion about to which extent abelian categories are a general context for [[homological algebra]] is archived at nForum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2052&Focus=17680#Comment_17680).
 
 See also the [catlist 1999 discussion](http://www.mta.ca/~cat-dist/catlist/1999/atcat) on comparison between abelian categories and topoi ([[AT categories]]).
 
+Formalization of abelian categories as [[univalent categories]] in [[univalent foundations of mathematics]] ([[homotopy type theory]]):
+
+* [[unimath]], *Abelian Categories* &lbrack;[UniMath.CategoryTheory.Abelian](https://unimath.github.io/doc/UniMath/4dd5c17/UniMath.CategoryTheory.Abelian.html)&rbrack;
 
 [[!redirects abelian categories]]
