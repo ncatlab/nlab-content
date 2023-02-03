@@ -33,7 +33,7 @@ Of course, if each set $I(x)$ is always a [[singleton]], then Def. \ref{MultiAdj
 If in Def. \ref{MultiAdjoints} we weaken the notion of [[adjunction]] in the opposite way, by removing the uniqueness requirement but keeping $I$ a singleton (or equivalently add to the solution-set condition that $I$ is a singleton), we obtain the notion of a [[weak adjoint]].
 \end{remark}
 
-\begin{theorem}
+\begin{theorem}\label{HomCharacterization}
 Having a left multi-adjoint can be equivalently characterized as follows:
 
 $R : D \to C$ has a left multi-adjoint $(I, L)$ with $I : Obj(C) \to Set$ and $L : (x : Obj(C)) \to I(x) \to Obj(D)$ if for all $x$ and $y$, there is an isomorphism $\alpha : \Sigma(i \in I(x)).Hom_D(L(x, i), y) \cong Hom_C(x, Ry)$, natural in $y$.
@@ -49,11 +49,89 @@ Now let $\alpha$ be given. Then we define $\eta_{x, i} = \alpha(i, id) : x \to R
 By naturality, $\alpha(i, \phi) = R\phi \circ \eta_{x, i}$. Then invertibility of $\alpha$ proves the condition in the definition.
 \end{proof}
 
+\begin{theorem}
+Let $Fam(D)$ be the category
+
+* whose objects are pairs $(I, h)$ such that $I$ is a set and $h : I \to Obj(D)$,
+
+* whose morphisms $(f, \phi) : (I, h) \to (I', h')$ consist of a function $f : I' \to I$ (note the contravariance) and $\phi: (i \in I) \to Hom_D(h(i), h'(f(i)))$.
+
+This is an example of a [[Grothendieck construction]].
+
+Define $J : D \to Fam(D) : d \mapsto (\{*\}, * \mapsto d)$.
+
+Then a multi-adjoint to $R : D \to C$ is a functor $K : C \to Fam(D)$ such that $R$ is the [[relative adjoint functor | $J$-right adjoint to $K$]], meaning that
+\[
+        \alpha : Hom_{Fam(D)}(K c, J d) \cong Hom_{C}(c, R d),
+\]
+naturally in $c$ and $d$.
+\end{theorem}
+\begin{proof}
+We use the characterization in theorem \ref{HomCharacterization}.
+
+First of all, note that the type of the object part of $K$ is the same as the type of $(I, L)$; let us identify these.
+Next, note that $Hom_{Fam(D)}(K c, J d) \cong \Sigma(i \in I(x)).Hom_D(L(c, i), d)$.
+
+So to show that the characterization here implies the definition, we simply need to forget functoriality of $K$ and naturality in $c$.
+
+Conversely, assume that the object part of $K$ is given. Then we construct a morphism part such that $\alpha$ is natural in $c$.
+
+Take $\phi : Hom_C(c, c')$. We want $K\phi : Hom_{Fam(D)}(Kc, Kc')$, i.e.
+\[
+        (i' \in I(c')) \to \Sigma(i \in I(c)).Hom_D(L(c, i), L(c', i')),
+\]
+i.e.
+\[
+        (i' \in I(c')) \to Hom_{Fam(D)}(Kc, JL(c', i'))
+\]
+so we can take $K(\phi, i') = \alpha^{-1}(\eta_{c', i'} \circ \phi)$. Denote the components of $K\phi$ as $I\phi : I(c') \to I(c)$ and $L\phi : (i' \in I(i')) \to Hom_D(L(c, I(\phi, i')), L(c', i'))$.
+
+* This preserves the identity: $K(id) = \lambda i.\alpha^{-1}(\eta_{x, i} \circ id) = \lambda i.(i, id)$.
+
+* This preserves composition. Let $\phi : Hom_C(c, c')$ and $\chi : Hom_C(c', c'')$. With some abuse of notation:
+
+  $K \chi \circ K \phi = (I\phi \circ I\chi, \lambda i''.L(\chi, i'') \circ L(\phi, I(\chi, i'')))$
+  
+  $= \lambda i''.(I(\phi, I(\chi, i'')), L(\chi, i'') \circ L(\phi, I(\chi, i'')))$
+  
+  $= \lambda i''.JL(\chi, i'') \circ (I(\phi, I(\chi, i'')), L(\phi, I(\chi, i'')))$
+  
+  $= \lambda i''.JL(\chi, i'') \circ K(\phi, I(\chi, i''))$
+  
+  $= \lambda i''.JL(\chi, i'') \circ \alpha^{-1}(\eta_{c', I(\chi, i'')} \circ \phi)$
+  
+  $= \lambda i''.\alpha^{-1}(RL(\chi, i'') \circ \alpha(I(\chi, i''), id_{c'}) \circ \phi)$
+  
+  $= \lambda i''.\alpha^{-1}(\alpha(I(\chi, i''), L(\chi, i'')) \circ \phi)$
+  
+  $= \lambda i''.\alpha^{-1}(\alpha(K(\chi, i'')) \circ \phi)$
+  
+  $= \lambda i''.\alpha^{-1}(\eta_{c'', i''} \circ \chi \circ \phi)$.
+
+Now we prove that $\alpha$ is natural in $c$. Let $\psi : Hom_{Fam(D)}(Kc', Jd)$ and $\phi : Hom_{C}(c, c')$.
+Note that $\psi$ is essentially of the form $(i', \chi)$ for $i' \in I(c')$ and $\chi \in \Hom_D(L(c', i), d)$.
+With more abuse of notation:
+
+$\alpha(\psi \circ K\phi) = \alpha((i', \chi) \circ K\phi) = \alpha(I(\phi, i'), \chi \circ L(\phi, i'))$
+
+$= \alpha(J\chi \circ K(\phi, i')) = \alpha(J\chi \circ \alpha^{-1}(\eta_{c', i'} \circ \phi))$
+
+$= R\chi \circ \eta_{c', i'} \circ \phi = \alpha(J\chi \circ (i', id_{c'})) \circ \phi = \alpha(i', \chi) \circ \phi = \alpha(\psi) \circ \phi$.
+\end{proof}
 
 ## Examples
 
 \begin{example}
-Every [[parametric right adjoint]] with [[locally small category|locally small]] codomain has a left multi-adjoint.  And conversely, if $D$ has a [[terminal object]] and $R \colon D\to C$ has a left multi-adjoint, then it is a parametric right adjoint.
+Every [[parametric right adjoint]] $R : D \to C$ with [[locally small category|locally small]] codomain has a left multi-adjoint, where
+
+* $I(c) = Hom_C(c, R\top)$,
+* $L$ is the left adjoint to $R^{/\top} : D \to C/R\top : d \mapsto (Rd, R())$.
+
+Conversely, if $D$ has a [[terminal object]] and $R \colon D\to C$ has a left multi-adjoint, then it is a parametric right adjoint. Indeed, using the characterization in theorem \ref{HomCharacterization}, we see immediately that
+\[
+        Hom_C(c, R\top) \cong \Sigma(i \in I(c)).Hom_D(L(c, i), \top) \cong I(c).
+\]
+Moreover, by naturality in $d$, for any morphism $\phi : Hom_C(c, Rd)$, the first component of $\alpha^{-1}(\phi)$ is fully determined by $R() \circ \phi : Hom_C(c, R\top)$.
 \end{example}
 
 \begin{example}\label{MultiInitialObjectsInFields}
