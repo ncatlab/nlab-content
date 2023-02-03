@@ -15,5 +15,13 @@ On [[2-dimensional type theory]]:
 
 * [[Benedikt Ahrens]], [[Paige Randall North]], [[Niels van der Weide]], *Semantics for two-dimensional type theory*, LICS '22: Proceedings of the 37th Annual ACM/IEEE Symposium on Logic in Computer Science, 12 (2022) 1–14, &lbrack;[doi:10.1145/3531130.3533334](https://doi.org/10.1145/3531130.3533334)&rbrack;
 
+## Related entries
+
+* [[univalent foundations of mathematics]]
+
+* [[UniMath project]]
+
+
+
 
 category: people
