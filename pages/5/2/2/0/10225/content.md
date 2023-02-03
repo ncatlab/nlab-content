@@ -19,7 +19,7 @@ $$
   f\colon A\to B
 $$ 
 
-is *weakly constant* if we have a [[term]] of [[type]] of the [[dependent product]] over the [}identification types]] of all the values of $f$ on all [[pairs]] of arguments:
+is *weakly constant* if we have a [[term]] of [[type]] of the [[dependent product]] over the [[identification types]] of all the values of $f$ on all [[pairs]] of arguments:
 
 $$ 
   \prod_{(x,y:A)}
