@@ -51,6 +51,9 @@ On [[dependent type theory]]:
 
 * [[initiality conjecture]]
 
+* [[univalent foundations of mathematics]]
+
+* [[UniMath project]]
 
 category: people
 
