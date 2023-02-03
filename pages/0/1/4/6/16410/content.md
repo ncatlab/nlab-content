@@ -185,7 +185,7 @@ Discussion of *asymptotic* de Sitter spacetimes from time-dependent [[KK-compact
 
 reviewed in:
 
-* [[Dimitrios Tsimpis]], *Universal accelerating cosmologies from 10d supergravity*, talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (Jan 2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Tsimpis2023)&rbrack;
+* [[Dimitrios Tsimpis]], *Universal accelerating cosmologies from 10d supergravity*, talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (Jan 2023) &lbrack;slides:[[Tsimpis-MTheoryMath2023.pdf:file]], video:video: [YT](https://www.youtube.com/watch?v=LEiqYz-G34g), [web](/nlab/show/M-Theory+and+Mathematics#Tsimpis2023)&rbrack;
 
 
 [[!redirects de Sitter spacetimes]]
