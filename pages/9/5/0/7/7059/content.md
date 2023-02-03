@@ -303,6 +303,10 @@ Discussion of pairs of commuting cohesive structures (such as the combination of
 
 * {#MyersRiley23} [[David Jaz Myers]], [[Mitchell Riley]], *Commuting Cohesions* &lbrack;[arXiv:2301.13780](https://arxiv.org/abs/2301.13780)&rbrack;
 
+Exposition in:
+
+* [[David Jaz Myers]], *Simplicial, Differential, and Equivariant Homotopy Type Theory*, talk at [[CQTS]] (Jan 2023) &lbrack;video: [rec](https://nyu.zoom.us/rec/play/uk0LXy5ub2YUpJPhYq5p7GvpZ2I8_CZaWHSpWvZgwuUyHeWjXgUj2AQd21K1WSJo90V5DrE0BVhl7NuB.QbyHhtPHaJVQUj2A?continueMode=true&_x_zm_rtaid=Xyx9WZFLQzyRzu0Oh-2mNQ.1675318497581.13147cc7929a947e978b29124a207f98&_x_zm_rhtaid=938)&rbrack;
+
 
 
 
