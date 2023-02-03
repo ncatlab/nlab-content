@@ -239,6 +239,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   slides: [[Sharpe-MTheoryAndMath2023.pdf:file]]
 
+  video: [YT](https://www.youtube.com/watch?v=rUpEQniWho4)
+
   cf.: [arXiv:2204.09117](https://arxiv.org/abs/2204.09117)
 
   > In this talk I will review work on 'decomposition', a property of 2d [[field theory|theories]] with [[2-group|1-form symmetries]] and, more generally, d-dim'l theories with [[higher gauge theory|$(d-1)$-form symmetries]]. Decomposition is the observation that such [[quantum field theories]] are equivalent to ('decompose into’) [[disjoint unions]] of other QFTs, known in this context as "universes".
