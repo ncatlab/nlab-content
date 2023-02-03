@@ -34,7 +34,7 @@ See also [[constant morphism]].
 
 * [[local system]]
 
-* [[steady function]]
+* [[weakly constant function]]
 
 * [[deterministic random variable]], [[almost surely]]
 
