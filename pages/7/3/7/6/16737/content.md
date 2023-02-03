@@ -28,19 +28,19 @@
 
 In the [[philosophy of science]] and particularly the _[[philosophy of physics]]_, the [[philosophy|philosophical]] sentiment which expresses the following perspective on the description of [[physics]] by [[mathematics]] might deserve to be called _exceptional naturalism_ or similar:
 
-> _Since nature (reality) is exceptional in that it has existence, it is plausible that it is the [[exceptional structures]] among all [[mathematical structures|mathematical]] [[structures]] -- such as the exceptional examples in the classification of [[simple Lie groups]], the [[exceptional Lie groups]] -- that play a role in the mathematical description of nature, hence in [[physics]] and specifically in [[phenomenology]]._
+> Since nature (reality) *is exceptional in that it has existence*, it is plausible that it is the [[exceptional structures]] among all [[mathematical structures|mathematical]] [[structures]] -- such as the exceptional examples in the classification of [[simple Lie groups]], the [[exceptional Lie groups]] -- that play a role in the mathematical description of nature, hence in [[physics]] and specifically in [[phenomenology]].
 
 In that this perspective provides _a priori_ grounds for the way the universe is, it may be contrasted with [[empiricism]].
 
 ## Sources
 
-Sources where a sentiment of universal exceptionalism has been expressed include the following:
+Sources where a sentiment of exceptional naturalism has been expressed include the following:
 
-[[David Olive]] in [Olive and Landsberg 89](#OliveLand89) writes
+[[David Olive]] (in [Olive & Landsberg 1989](#OliveLand89)) writes:
 
 > The results...add the stunning new question as to why nature has an apparent predilection for exceptional structures such as the E groups.
 
-and
+and:
 
 > I sense that the trail of exceptional structures is growing even warmer.
 
@@ -52,13 +52,13 @@ and
 
 > Nature relishes unique mathematical structures. 
 
-and
+and:
 
 > The [[exceptional Lie algebra|Exceptional Algebras]] are most unique and beautiful among [[Lie algebra|Lie Algebras]], and no one should be surprised if Nature uses them.
 
 [Witten 02a](#Witten02a), in the context of [[M-theory on G2-manifolds]] says, with regard to the [[exceptional Lie group]] [[G2]]:
 
-> arise in [[KK-compactification|compactifying]] from [[11-dimensional supergravity|eleven]] to four dimensions on a compact seven-manifold $X$ of [[G2-manifold|G2-holonomy]]. This seems like an interesting starting point for making a model of the real world, which is certainly exceptional
+> ...arise in [[KK-compactification|compactifying]] from [[11-dimensional supergravity|eleven]] to four dimensions on a compact seven-manifold $X$ of [[G2-manifold|G2-holonomy]]. This seems like an interesting starting point for making a model of the real world, which is certainly exceptional
 
 [Witten 02b](#Witten02b), in the context of [[grand unified theory]] and [[heterotic string theory]] says:
 
@@ -72,7 +72,7 @@ and
 
 > If the current [[M-theory]] is a _unique theory_, one should expect it to make use of singular, non-generic mathematical structures. Now it is known that many of the special objects in mathematics are related to [[octonions]], and therefore it is not surprising that this putative _theory-of-everything_ should display geometric and algebraic structures derived from this unique non-associative [[normed division algebra|division algebra]].
 
-[Toppan 03](#Toppan03) writes
+[Toppan 03](#Toppan03) writes:
 
 > There is a growing interest in the logical possibility that [[exceptional  mathematical structures]] ([[exceptional Lie algebra|exceptional Lie and superLie algebras]], the [[exceptional Jordan algebra]], etc.) could be linked to an ultimate "exceptional" formulation for a [[theory of everything|Theory Of Everything]] (TOE). The maximal [[division algebra]] of the [[octonions]] can be held as the mathematical responsible for the existence of the [[exceptional structures]] mentioned above.
 
@@ -86,11 +86,13 @@ A related comment in the context of [[F-theory]] [[GUT]] [[phenomenology]] requi
 >The [[landscape of string theory vacua|landscape]] concept typically goes against things being exceptional. Here we seem
 to have evidence to the contrary. 
 
-[Penrose 15](#Penrose15), thinking of _[[twistor space]]_, voices the idea that nature realizes very special mathematical spaces (in the first few minutes of the [video recording](https://www.youtube.com/watch?v=kmYfYOW0vSg)).
+[Penrose 2015](#Penrose15), thinking of _[[twistor space]]_, voices the idea that nature realizes very special mathematical spaces (in the first few minutes of the video recording [here](https://www.youtube.com/watch?v=kmYfYOW0vSg)).
 
-[Harvey and Moore 20](#HarveyMoore20) write
+[Harvey & Moore 2020](#HarveyMoore20) write:
 
 > Physicists who wonder about the ultimate structure of our universe can be divided into two classes. The first class believes that our universe is chosen at random from a huge ensemble of possible universes. The second class believes that our universe and the fundamental laws that govern it are based on some beautiful and exceptional mathematical structure. String theory provides evidence for both points of view... The authors of the present paper are philosophically inclined towards the point of view of the second class of physicists and are thus interested in studying special points in the landscape of string compactifications that involve beautiful and exceptional mathematical structures. Certainly among these special points the ones associated to moonshine are amongst the most beautiful.
+
+\linebreak
 
 ## Related entries
 
