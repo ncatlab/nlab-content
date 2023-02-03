@@ -135,11 +135,16 @@ New kinds of absolute (co)limits also arise in [[higher category theory]].
 
 * in [[stable (∞,1)-categories]] (which are enriched, in the $(\infty,1)$-categorical sense, over the $(\infty,1)$-category of [[spectra]]), initial objects and [[pushouts]] are absolute, and therefore so are all finite colimits.
 
+## Generalisations
+
+If $K : A \to C$ is a functor, then a colimit in $A$ is **$K$-absolute** if it is preserved by the [[nerve]] $N_K : C \to [A^{\mathrm{op}}, \mathscr{V}]$ of $K$. This generalises absoluteness, taking $K$ to be the [[identity functor]].
+
 ## References
 
 
 * [[Ross Street]], *Absolute colimits in enriched categories*, [Cahiers 1983](http://www.numdam.org/item/CTGDC_1983__24_4_377_0/)
 * [[Robert Pare]], *On absolute colimits*, J. Alg. 19 (1971), 80-95.
+* [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, Cambridge University Press, Lecture Notes in Mathematics 64 (1982)
 * [[Mike Shulman]]'s answer to [*What are _all_ of the exactness properties enjoyed by stable ∞-categories?*](https://mathoverflow.net/a/267324)
 
 [[!redirects absolute colimits]]
