@@ -93,7 +93,9 @@ $$x:A, y:A \vdash (x =_A y) \equiv (\mathrm{copy}(x) =_{\mathrm{Copy}(A)} \mathr
 
 ## Relation to equivalences
 
-Given types $A$ and $B$ and $f:A \to B$, $f$ is an [[equivalence of types]] if $B$ satisfies the [[universal property]] of a positive copy type of $A$ with copy function $f:A \to B$. Indeed, one could define the [[isEquiv]] type family $f:A \to B \vdash \mathrm{isEquiv}(f)$ by very similar rules to the rules for positive copy types:
+Given types $A$ and $B$ and $f:A \to B$, $f$ is an [[equivalence of types]] if $B$ satisfies the [[universal property]] of a positive copy type of $A$ with copy function $f:A \to B$. 
+
+Indeed, one could define the [[isEquiv]] type family $f:A \to B \vdash \mathrm{isEquiv}(f)$ by very similar rules to the rules for positive copy types:
 
 Formation rules for isEquiv:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B}{\Gamma \vdash \mathrm{isEquiv}(f) \; \mathrm{type}}$$
@@ -130,6 +132,45 @@ $$\frac{
     \end{array}
   }{\Gamma \vdash \eta_{\mathrm{isEquiv}(f)}(f, p, c, b):c(b) =_{C(b)} \mathrm{ind}_{\mathrm{isEquiv}(f)}^C(f, p, c, b)}$$
 
+Similarly, one could define the type of equivalences between $A$ and $B$ by very similar rules to the rules for positive copy types and isEquiv types:
+
+Formation rules for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
+
+Introduction rules for equivalence types:
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:\prod_{y:B} f(a) =_B y \\
+      \Gamma \vdash \tau_A:\prod_{x:A} \prod_{y:B} (f(x) =_B y) \to (a =_A x) \quad \Gamma \vdash \tau_B:\prod_{x:A} \prod_{y:B} \prod_{z:f(x) =_B y} b(y) =_B^{\tau_A(x, y, z)} z
+    \end{array}
+  }{\Gamma \vdash \mathrm{equiv}(f, a, b, \tau_A, \tau_B):A \simeq B}$$
+
+Elimination rules for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, R:A \simeq B}{\Gamma, x:A \vdash f_R(x):B}$$
+
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, R:A \simeq B \\
+      \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c_R:\prod_{x:A} C(f_R(x)) \quad \Gamma \vdash b:B
+    \end{array}
+  }{\Gamma \vdash \mathrm{ind}_{A \simeq B}^C(R, c_R, b):C(b)}$$
+
+Computation rules for equivalence types:
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:A \simeq B \\
+      \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c_R:\prod_{x:A} C(f_R(x)) \quad \Gamma \vdash a:A
+    \end{array}
+  }{\Gamma \vdash \beta_{A \simeq B}(R, c_R, a):\mathrm{ind}_{A \simeq B}^C(R, c_R, f_R(a)) =_{C(f_R(a))} c_R(a)}$$
+
+Uniqueness rules for equivalence types:
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:A \simeq B \\
+      \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{y:B} C(y) \quad \Gamma \vdash b:B
+    \end{array}
+  }{\Gamma \vdash \eta_{A \simeq B}(R, c, b):c(b) =_{C(b)} \mathrm{ind}_{A \simeq B}^C(R, c, b)}$$
+
 ## See also
 
 * [[equivalence in type theory]]
@@ -148,6 +189,9 @@ The above notion of "copy of a type" is considered in §2.12.8 of:
 [[!redirects copies]]
 [[!redirects copying]]
 
+[[!redirects wrapped copy]]
+[[!redirects wrapped copies]]
+
 [[!redirects universal property of a copy]]
 [[!redirects dependent universal property of a copy]]
 
@@ -157,10 +201,16 @@ The above notion of "copy of a type" is considered in §2.12.8 of:
 [[!redirects universal property of copies]]
 [[!redirects dependent universal property of copies]]
 
+[[!redirects universal property of wrapped copies]]
+[[!redirects dependent universal property of wrapped copies]]
+
 [[!redirects copy type]]
 [[!redirects copy types]]
 
 [[!redirects copying types]]
+
+[[!redirects wrapped copy type]]
+[[!redirects wrapped copy types]]
 
 [[!redirects unary sum]]
 [[!redirects unary sums]]
@@ -175,4 +225,6 @@ The above notion of "copy of a type" is considered in §2.12.8 of:
 [[!redirects unary product types]] 
 
 [[!redirects copy induction]] 
+
+[[!redirects wrapped copy induction]] 
 
