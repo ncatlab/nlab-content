@@ -473,13 +473,17 @@ $$
 
 * [[module over an algebra over an operad]]
 
+
 ## References
 
 ### General 
 
 Textbook accounts:
 
-* F.W. Anderson, K.R. Fuller, _Rings and Categories of Modules_, Graduate Texts in Mathematics, Vol. 13, Springer-Verlag, New York, (1992)
+* [[Frank W. Anderson]], [[Kent R. Fuller]], _Rings and Categories of Modules_, Graduate Texts in Mathematics, **13** Springer (1992) &lbrack;[doi:10.1007/978-1-4612-4418-9](https://doi.org/10.1007/978-1-4612-4418-9)&rbrack;
+
+* [[Paul Edwin Bland]], *Rings and Their Modules*, De Gruyter (2011) &lbrack;[doi:10.1515/9783110250237](https://doi.org/10.1515/9783110250237), [pdf](http://site.iugaza.edu.ps/mashker/files/%D9%85%D8%AD%D8%A7%D8%B6%D8%B1%D8%A7%D8%AA-%D8%AC%D8%A8%D8%B1-%D8%AF%D9%83%D8%AA%D9%88%D8%B1%D8%A7%D8%A9.pdf)&rbrack;
+
 
 Lectures notes on [[sheaves]] of modules / modules over a [[ringed space]]:
 
