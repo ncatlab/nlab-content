@@ -344,6 +344,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   notes: [pdf](/schreiber/show/Topological+Quantum+Gates+from+M-Theory#Notes)
 
+  video: [YT](https://www.youtube.com/watch?v=Ob9tOgWumPI)
+
   cf.: [[schreiber:Anyonic defect branes in TED-K-theory|arXiv:2203.11838]]
 
 
