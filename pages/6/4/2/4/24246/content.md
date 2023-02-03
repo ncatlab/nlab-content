@@ -5,6 +5,8 @@
 
 On [[WZW models]] at [[rational number|fractional]] [[level (Chern-Simons theory)|level]]:
 
+* [[Hidetoshi Awata]], [[Yasuhiko Yamada]], *Fusion rules for the fractional level $\widehat{\mathfrak{sl}(2)}$ algebra*,     Mod. Phys. Lett. A **7** (1992) 1185-1196 $[$[spire:332974](https://inspirehep.net/literature/332974), [doi:10.1142/S0217732392003645](https://doi.org/10.1142/S0217732392003645)$]$
+
 * P. Furlan, [[A. Ch. Ganchev]], R. Paunov, [[Valentina B. Petkova]], *Solutions of the Knizhnik-Zamolodchikov Equation with Rational Isospins and the Reduction to the Minimal Models*, Nucl. Phys. B394 (1993) 665-706 ([arXiv:hep-th/9201080](https://arxiv.org/abs/hep-th/9201080), <a href="https://doi.org/10.1016/0550-3213(93)90227-G">doi:10.1016/0550-3213(93)90227-G</a>)
 
 * J. L. Petersen, J. Rasmussen, M. Yu, *Fusion, Crossing and Monodromy in Conformal Field Theory Based on $SL(2)$ Current Algebra with Fractional Level*, Nucl. Phys. B481 (1996) 577-624 ([arXiv:hep-th/9607129](https://arxiv.org/abs/hep-th/9607129), <a href="https://doi.org/10.1016/S0550-3213(96)00506-8">doi:10.1016/S0550-3213(96)00506-8</a>)
