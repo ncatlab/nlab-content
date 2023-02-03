@@ -19,6 +19,8 @@
 
 * [[lax-idempotent 2-adjunction]]
 
+* [[Kan extension]]
+
 category: people
 
 [[!redirects Fernando Nunes]]
