@@ -165,6 +165,8 @@ The concept of relative adjoint functors is a generalization of the concept of a
 
 ## References ##
 
+### General
+
 *  F. Ulmer, _Properties of dense and relative adjoint functors_, Journal of Algebra, Volume 8, Issue 1, 1968, Pages 77-95, [pdf](http://www.sciencedirect.com/science/article/pii/0021869368900367)
 
 *  {#StreetWalters1978} [[Ross Street]], Bob Walters - _Yoneda structures on 2-categories_, Journal of Algebra, Volume 50, Issue 2, February 1978, Pages 350-379, [article at mendeley](http://www.mendeley.com/research/yoneda-structures-2categories/)
@@ -173,6 +175,12 @@ The concept of relative adjoint functors is a generalization of the concept of a
 
 
 *  {#Weber2007} [[Mark Weber]] - _Yoneda structures from 2-toposes_, Appl Categor Struct (2007) 15: 259. doi:10.1007/s10485-007-9079-2, [pdf](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes)
+
+### Examples
+
+On the [[categorical semantics]] of [[dependent product types]] as *[[relative adjoint functor|relative]]* [[right adjoints]] to [[context extension]] in [[comprehension categories]]:
+
+* [[Michael Lindgren]], *Dependent products as relative adjoints*, Stockholm (2021) &lbrack;[[Lindgren-DependentProductsAsRelativeAdjoints.pdf:file]]&rbrack;
 
 
 
