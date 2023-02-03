@@ -41,11 +41,11 @@ A [[colimit]] in $C$ is **van Kampen** if it is [[preserved limit|preserved]] by
 
 ### Universality and descent
 
-Let $G:D\to C$ be a diagram with colimit $x$.  Let $D'$ denote the category $D$ with a new [[terminal object]] adjoined, and $G':D'\to C$ the extension of $D$ by the colimiting cocone with vertex $x$.
+Let $G:D\to C$ be a diagram with colimit $x$.  Let $D'$ denote the category $D$ with a new [[terminal object]] adjoined, and $G':D'\to C$ the extension of $G$ by the colimiting cocone with vertex $x$.
 
 +-- {: .num_theorem #UniversalityAndDescent}
 ###### Theorem
-Suppose $C$ has all colimits of $D$-shaped diagrams.  Then the colimit $x$ of $G:D\to C$ is van Kampen if and only if the following condition holds: for any diagram $F':D'\to C$ and natural transformation $\alpha':F'\to G'$ whose restriction $\alpha:F\to G$ to $D\subset D$ is [[equifibered natural transformation|equifibered]], the following are equivalent:
+Suppose $C$ has all colimits of $D$-shaped diagrams.  Then the colimit $x$ of $G:D\to C$ is van Kampen if and only if the following condition holds: for any diagram $F':D'\to C$ and natural transformation $\alpha':F'\to G'$ whose restriction $\alpha:F\to G$ to $D\subset D'$ is [[equifibered natural transformation|equifibered]], the following are equivalent:
 
 1. $\alpha'$ is equifibered.
 1. $F'$ is a colimiting cocone.
