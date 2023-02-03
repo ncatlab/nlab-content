@@ -258,6 +258,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   slides: [[Szabo-MTheoryAndMath2023.pdf:file]]
 
+  video: [YT](https://www.youtube.com/watch?v=D1E4Tlq7zf0)
+
   cf.: [arXiv:1910.09997](https://arxiv.org/abs/1910.09997)
 
   > We formulate the [[open string]] version of the Born [[sigma-model]] and describe its conformal [[boundary conditions]]. This leads to a general characterisation of [[D-branes]] in [[doubled geometry]] as maximally [[isotropic subspace|isotropic]] sub-bundles on a [[para-Hermitian manifold]]. The reduction of D-branes to a physical spacetime is obtained by describing them as [[Dirac structures]]. We also introduce a para-complex counterpart of the generalised complex branes of [[generalized complex geometry|generalised geometry]].
@@ -271,6 +273,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   slides: [[Hull-MTheoryAndMath2023.pdf:file]]
 
+  video: [YT](https://www.youtube.com/watch?v=7ho3n3tMTOI)
+
   cf. [arXiv:2209.11716](https://arxiv.org/abs/2209.11716) and refs [here](https://ncatlab.org/nlab/show/D%3D6+supergravity#ReferencesFourZero)
 
   > on exotic $\mathcal{N} = (4,0)$ [[D=6 supergravity]] 
@@ -282,6 +286,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 * {#Jurco2023} [[Branislav Jurčo]]:
   
   **Correspondences of Quantum $L_\infty$ Algebras (BV-theories)**
+
+  video: [YT](https://www.youtube.com/watch?v=eOLyUqyKS0A)
 
   cf.: [arXiv:1912.06695](https://arxiv.org/abs/1912.06695), [arXiv:2002.11168](https://arxiv.org/abs/2002.11168)
 
@@ -295,9 +301,11 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **Matrix Quantization of Classical Nambu Brackets and Super $p$-Branes**
 
+  video: [YT](https://www.youtube.com/watch?v=FP_gHnSOBDk)
+
   cf.: [arXiv:2103.06666](https://arxiv.org/abs/2103.06666)
 
-  > We will present an explicit matrix algebra quantization of the algebra of volume-preserving diffeomorphisms of the $n$-torus. That is, we approximate the corresponding classical [[Nambu brackets]] using $\mathfrak{sl}\big(N^{\lceil n/2\rceil}, \mathbb{C}\big)$-matrices equipped with the finite bracket given by the completely anti-symmetrized matrix product, such that the classical brackets are retrieved in the $N \to \infty$ limit. We then apply this approximation to the [[super 4-brane in 9 dimensions]] and give a regularized action in analogy with the matrix quantization of the supermembrane. This action exhibits a reduced gauge symmetry that we discuss from the viewpoint of [[L-infinity algebras|$L_\infty$-algebras]] in a slight generalization to the construction of [[Lie 2-algebras]] from [[M-brane 3-algebra|Bagger-Lambert 3-algebras]]. 
+  > We will present an explicit matrix algebra quantization of the algebra of volume-preserving diffeomorphisms of the $n$-torus. That is, we approximate the corresponding classical [[Nambu brackets]] using $\mathfrak{sl}\big(N^{\lceil n/2\rceil}, \mathbb{C}\big)$-matrices equipped with the finite bracket given by the completely anti-symmetrized matrix product, such that the classical brackets are retrieved in the $N \to \infty$ limit. We then apply this approximation to the [[super 4-brane in 9 dimensions]] and give a regularized action in analogy with [the matrix quantization of the supermembrane](membrane#LightConeQuantizationOfM2BranesToBFSSMatrixModel). This action exhibits a reduced gauge symmetry that we discuss from the viewpoint of [[L-infinity algebras|$L_\infty$-algebras]] in a slight generalization to the construction of [[Lie 2-algebras]] from [[M-brane 3-algebra|Bagger-Lambert 3-algebras]]. 
 
 \linebreak
 
