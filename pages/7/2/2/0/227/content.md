@@ -325,6 +325,7 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 * [[module]], [[bimodule]]
 
 
+
 ## References
  {#References}
 
@@ -334,6 +335,12 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 Lecture notes:
 
 * Arno Fehm, _Ringe_ ([pdf](http://www.math.uni-konstanz.de/~fehm/teaching/algebra/geyer2.pdf)) (in German)
+
+Textbook accounts:
+
+* [[Frank W. Anderson]], [[Kent R. Fuller]], _Rings and Categories of Modules_, Graduate Texts in Mathematics, **13** Springer (1992) &lbrack;[doi:10.1007/978-1-4612-4418-9](https://doi.org/10.1007/978-1-4612-4418-9)&rbrack;
+
+* [[Paul Edwin Bland]], *Rings and Their Modules*, De Gruyter (2011) &lbrack;[doi:10.1515/9783110250237](https://doi.org/10.1515/9783110250237), [pdf](http://site.iugaza.edu.ps/mashker/files/%D9%85%D8%AD%D8%A7%D8%B6%D8%B1%D8%A7%D8%AA-%D8%AC%D8%A8%D8%B1-%D8%AF%D9%83%D8%AA%D9%88%D8%B1%D8%A7%D8%A9.pdf)&rbrack;
 
 Formalization in [[cubical type theory|cubical]] [[homotopy type theory]]:
 
