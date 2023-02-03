@@ -9,6 +9,12 @@ On [[symmetry]] and introducing the language of [[homotopy type theory]] for [[u
 * [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$
 
 
+## Related entries
+
+* [[univalent foundations of mathematics]]
+
+* [[UniMath project]]
+
 
 category: people
 
