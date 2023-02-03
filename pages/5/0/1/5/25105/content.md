@@ -81,41 +81,46 @@ $$A \simeq_U B \coloneqq \sum_{f:F_U(A, B)} \mathrm{isEquiv}_U(f)$$
 
 $F_U(A, B)$ could be the type of $U$-small [[spans]], the type of $U$-small [[multivalued partial functions]], or the type of $U$-small [[correspondences]]. 
 
-#### As a type whose elements are encodings for one-to-one correspondence
+#### Rules for weak equivalence types
 
-Given types $A$ and $B$, we form the type $A \simeq B$ such that given element $R:A \simeq B$, there is a type family $x =_{A, B}^R y$ indexed by $x:A$ and $y:B$, with rules stating that $(-) =_{A, B}^R (-)$ is a [[one-to-one correspondence]], and that given a type $A$, elements $a:A$ and $b:A$, identity $p:a =_A b$, a type family $B$ indexed by $A$ and a family of elements $w:B$ indexed by $A$, one could form the [[transport]] equivalence across $p$ for $B$, $\mathrm{tr}_B(p):B(a) \simeq B(b)$, and the dependent action on $p$ for $w$, $\mathrm{apd}_B(p, w):w(a) =_{B(a), B(b)}^{\mathrm{tr}_B(p)} w(b)$. 
+In the same way that [[isEquiv]] could be defined in a way such that given the function $f:A \to B$ and a witness $p:\mathrm{isEquiv}(f)$, $(B, f, p)$ satisfies the universal property of a [[wrapped copy]] of $A$, one could define weak equivalence types such that given an equivalence $R:A \simeq B$, $(B, R)$ satsifes the universal property of a [[wrapped copy]] of $A$:
 
-Rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A, y:B \vdash x =_{A, B}^R y \; \mathrm{type}}$$
+Formation rules for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{tr}_B(p):B(a) \simeq B(b) \; \mathrm{type}}$$
+Introduction rules for equivalence types:
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:\prod_{y:B} f(a) =_B y \\
+      \Gamma \vdash \tau_A:\prod_{x:A} \prod_{y:B} (f(x) =_B y) \to (a =_A x) \quad \Gamma \vdash \tau_B:\prod_{x:A} \prod_{y:B} \prod_{z:f(x) =_B y} b(y) =_B^{\tau_A(x, y, z)} z
+    \end{array}
+  }{\Gamma \vdash \mathrm{equiv}(f, a, b, \tau_A, \tau_B):A \simeq B}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, w:B \vdash \mathrm{apd}_B(p, w):w(a) =_{B(a), B(b)}^{\mathrm{tr}_B(p)} w(b)}$$ 
+Elimination rules for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, R:A \simeq B}{\Gamma, x:A \vdash f_R(x):B}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, x:A \vdash \exists !y:B.x =_{A, B}^R y}$$
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, R:A \simeq B \\
+      \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c_R:\prod_{x:A} C(f_R(x)) \quad \Gamma \vdash b:B
+    \end{array}
+  }{\Gamma \vdash \mathrm{ind}_{A \simeq B}^C(R, c_R, b):C(b)}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \simeq B, y:B \vdash \exists !x:A.x =_{A, B}^R y}$$
+Computation rules for equivalence types:
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:A \simeq B \\
+      \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c_R:\prod_{x:A} C(f_R(x)) \quad \Gamma \vdash a:A
+    \end{array}
+  }{\Gamma \vdash \beta_{A \simeq B}(R, c_R, a):\mathrm{ind}_{A \simeq B}^C(R, c_R, f_R(a)) =_{C(f_R(a))} c_R(a)}$$
 
-#### As a type whose elements are encodings for spans with contractible fibers
-
-Given types $A$ and $B$, we form the type $A \simeq B$ such that given element $R:A \simeq B$, there is a type $C(R)$ and families of elements $x:C(R) \vdash g(R, x):A$ and $x:C(R) \vdash h(R, x):B$, with rules stating that the above structures have contractible fibers, and that given a type $A$, elements $a:A$ and $b:A$, identity $p:a =_A b$, a type family $B$ indexed by $A$ and a family of elements $w:B$ indexed by $A$, one could form the [[transport]] equivalence across $p$ for $B$, $\mathrm{tr}_B(p):B(a) \simeq B(b)$, and the components for the dependent action on $p$ for $w$, $\mathrm{apd}_B(p, w) \coloneqq (\alpha_B(p, w), \gamma_B(p, w), \eta_B(p, w))$ with $\alpha_B(p, w):C(\mathrm{tr}_B(p))$, $\gamma_B(p, w):g(\mathrm{tr}_B(p), \alpha_B(p, w)) =_{B(a)} w(a)$, and $\eta_B(p, w):h(\mathrm{tr}_B(p), \alpha_B(p, w)) =_{B(b)} w(b)$.
-
-Rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B \vdash C_{A, B}(R) \; \mathrm{type}}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, z:C_{A, B}(R) \vdash g(R, z):A} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, z:C_{A, B}(R) \vdash h(R, z):B}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{tr}_B(p):B(a) \simeq B(b) \; \mathrm{type}}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, w:B \vdash \alpha_B(p, w):C_{B(a), B(b)}(\mathrm{tr}_B(p))}$$ 
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, w:B \vdash \gamma_B(p, w):g(\mathrm{tr}_B(p), \alpha_B(p, w)) =_{B(a)} w(a)}$$ 
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma, x:A, w:B \vdash \eta_B(p, w):h(\mathrm{tr}_B(p), \alpha_B(p, w)) =_{B(b)} w(b)}$$ 
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \eta_g(R, x):\exists!z:C_{A, B}(R).g(R, z) =_A x}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, y:B \vdash \eta_h(R, y):\exists!z:C_{A, B}(R).h(R, z) =_B y}$$
+Uniqueness rules for equivalence types:
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:A \simeq B \\
+      \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{y:B} C(y) \quad \Gamma \vdash b:B
+    \end{array}
+  }{\Gamma \vdash \eta_{A \simeq B}(R, c, b):c(b) =_{C(b)} \mathrm{ind}_{A \simeq B}^C(R, c, b)}$$
 
 #### Coinductive definition
 
