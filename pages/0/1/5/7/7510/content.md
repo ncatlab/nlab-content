@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Dependent product types
 * table of contents
 {: toc}
@@ -125,10 +126,13 @@ The standard rules for type-formation, term introduction/elimination and computa
 
 * [[Nicola Gambino]], _Lectures on dependent type theory_ ([pdf](http://www.cs.le.ac.uk/events/mgs2009/courses/gambino/lecturenotes-gambino.pdf))
 
-See also
+See also:
 
-* [[Richard Garner]], *On the strength of dependent products in the type theory of Martin-L&#246;f*, [arXiv](http://arxiv.org/abs/0803.4466).
-  {#GarnerSDP}
+* {#GarnerSDP} [[Richard Garner]], *On the strength of dependent products in the type theory of Martin-L&#246;f*, [arXiv](http://arxiv.org/abs/0803.4466).
+  
+On the [[categorical semantics]] of [[dependent product types]] as *[[relative adjoint functor|relative]]* [[right adjoints]] to [[context extension]] in [[comprehension categories]]:
+
+* [[Michael Lindgren]], *Dependent products as relative adjoints*, Stockholm (2021) &lbrack;[[Lindgren-DependentProductsAsRelativeAdjoints.pdf:file]]&rbrack;
 
 
 [[!redirects dependent product type]]
