@@ -172,6 +172,9 @@ Exposition:
 
 * [[Mike Shulman]],  _[Category Theory in Homotopy Type Theory](https://golem.ph.utexas.edu/category/2013/03/category_theory_in_homotopy_ty.html)_, 2013
 
+* [[Amélia Liao]], *Univalent Category Theory*, [[Homotopy Type Theory Electronic Seminar Talks]], (October 2022) &lbrack;[video](https://www.youtube.com/watch?v=asY6dXkR2yg)&rbrack;
+
+
 Implementation in [[Coq]]:
 
 * [[Jason Gross]], [[Adam Chlipala]], [[David Spivak]], *Experience Implementing a Performant Category-Theory Library in Coq*,  In:  *Interactive Theorem Proving. ITP 2014* Lecture Notes in Computer Science, **8558** Springer (2014)  $[$[arXiv:1401.7694](http://arxiv.org/abs/1401.7694), [doi:10.1007/978-3-319-08970-6_18](https://doi.org/10.1007/978-3-319-08970-6_18)$]$
@@ -179,6 +182,11 @@ Implementation in [[Coq]]:
 [[Coq]] code formalizing this includes the following:
 
 * _[github.com/benediktahrens/rezk_completion](https://github.com/benediktahrens/rezk_completion)_
+
+and in [[cubical Agda]]:
+
+* [[1lab]]: *[Cat.Base](https://1lab.dev/Cat.Base.html)*
+
 
 Generalization to [[(n,1)-categories]] is discussed in
 
@@ -194,17 +202,14 @@ Formalization of [[bicategories]]:
 
 * [[Benedikt Ahrens]], Dan Frumin, Marco Maggesi, Niels van der Weide, _Bicategories in Univalent Foundations_ ([arXiv:1903.01152](https://arxiv.org/abs/1903.01152))
 
-Lemmas and proofs are taken from 
+Lemmas and proofs above are taken from:
 
 * [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
-For univalent categories on the [[1lab]]:
+On [[monoidal category|monoidal]] [[univalent categories]]:
 
-* [1lab.dev/Cat.Base.html](https://1lab.dev/Cat.Base.html)
+* [[Kobe Wullaert]], [[Ralph Matthes]], [[Benedikt Ahrens]], *Univalent Monoidal Categories* &lbrack;[arXiv:2212.03146](https://arxiv.org/abs/2212.03146)&rbrack;
 
-A talk on univalent category theory delivered at the [[Homotopy Type Theory Electronic Seminar Talks]]
-
-* [[Amélia Liao]], *Univalent Category Theory*, [[Homotopy Type Theory Electronic Seminar Talks]], 6 October 2022, ([video](https://www.youtube.com/watch?v=asY6dXkR2yg))
 
 ### By coinduction
   {#ReferencesCoinduction}
