@@ -904,6 +904,10 @@ Concerning the scalars:
 
 * {#AbramskyCoecke04}[[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_ , Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) &lbrack;[arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130)&rbrack;
 
+On [[monoidal category|monoidal]] [[univalent categories]] in [[univalent foundations of mathematics]] ([[homotopy type theory]] with the [[univalence axiom]]):
+
+* [[Kobe Wullaert]], [[Ralph Matthes]], [[Benedikt Ahrens]], *Univalent Monoidal Categories* &lbrack;[arXiv:2212.03146](https://arxiv.org/abs/2212.03146)&rbrack;
+
 
 [[!redirects monoidal category]]
 [[!redirects monoidal categories]]
