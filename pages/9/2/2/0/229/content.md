@@ -164,10 +164,17 @@ An abelian group may also be seen as a [[discrete category|discrete]] [[compact 
 
 ## References
 
-For abelian groups in the context of [[homotopy type theory]]: 
+Textbook account:
 
-* Univalent Foundations Project, Section 6.11 of [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
-* Marc Bezem, Ulrik Buchholtz, Pierre Cagne, Bjørn Ian Dundas, and Daniel R. Grayson, Section 4.12 of [Symmetry book](https://unimath.github.io/SymmetryBook/book.pdf) (2021) 
+* [[László Fuchs]], *Abelian Groups*, Springer (2015) &lbrack;[doi:10.1007/978-3-319-19422-6](https://doi.org/10.1007/978-3-319-19422-6)&rbrack;
+
+    
+
+Formalization of abelian groups in [[univalent foundations of mathematics]] ([[homotopy type theory]] with the [[univalence axiom]]): 
+
+* [[Univalent Foundations Project]], Section 6.11 of: *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
+
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]], Section 4.12 of: **[[Symmetry]]** (2021) 
 
 [[!redirects abelian groups]]
 [[!redirects Abelian group]]
