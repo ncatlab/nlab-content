@@ -164,6 +164,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   slides: [[Mathai-MTheoryMath2023.pdf:file]]
 
+  video: [YT](https://www.youtube.com/watch?v=--CFSc6VVqI)
+
   cf.: [arXiv:1405.1320](https://arxiv.org/abs/1405.1320)
 
   > We define exotic [[twisted de Rham cohomology|twisted]] [[circle group|$S^1$]]-[[equivariant de Rham cohomology|equivariant cohomology]] for the [[free loop space|loop space]] $\mathcal{L}Z$ of a [[smooth manifold]] $Z$ via the [[invariant]] [[differential forms]] on $\mathcal{L}Z$ with [[coefficients]] in the (typically non-flat) [[higher holonomy|holonomy]] [[complex line bundle|line bundle]] of a [[bundle gerbe|gerbe]], with differential given by an equivariantly [[flat connection|flat]] [[superconnection]]. We introduce the twisted [[Bismut-Chern character]] form, a loop space refinement of the [[twisted Chern character]] form, which represent classes in the completed periodic exotic twisted [[circle group|$S^1$]]-[[equivariant de Rham  cohomology|equivariant cohomology]] of $\mathcal{L}Z$. We establish a localisation theorem for the completed periodic exotic twisted $S^1$-equivariant cohomology for loop spaces and apply it to establish [[topological T-duality|T-duality]] in a [[background field|background]] [[flux]] in [[type II String Theory]] from a [[loop space]] perspective. Finally we reinterpret these results as [[topological T-duality|T-duality]] for the 1D sigma model.
