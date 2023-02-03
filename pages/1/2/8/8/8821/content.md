@@ -61,7 +61,7 @@ An [[initial object]] $\varnothing$ is called a **strict initial object** if eve
     \,.
   $$
 
-* Strict initial objects may be understood as [[van Kampen colimits]], see e.g. [Sobocinski & Heindel (2011), Exp. 4.5 (i)](#SobocinskiHeindel11).
+* Strict initial objects may be understood as [[van Kampen colimits]], see e.g. [Sobocinski & Heindel (2011), Exp. 4.5 (i)](#SobocinskiHeindel11). Indeed, van Kampenness in this case requires that the slice category $C/\varnothing$ be equivalent to the [[terminal category]] $\mathbf{1}$.
 
 
 
