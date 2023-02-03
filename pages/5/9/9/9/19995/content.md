@@ -60,9 +60,9 @@ Application of [[machine learning]] to [[mathematical structures]] in [[algebrai
 
 reviewed in:
 
-* [[Yang-Hui He]], *Universes as Bigdata*, [talk](M-Theory+and+Mathematics#He2020) at *[M-Theory and Mathematics 2020](M-Theory+and+Mathematics#2020)* &lbrack;slides: [pdf](https://ncatlab.org/nlab/files/HeSlidesAtMTheoryAndMathematics2020.pdf), video: [YT](https://www.youtube.com/watch?v=i-kuoXjcKls)&rbrack;
+* [[Yang-Hui He]], *Universes as Bigdata*, [talk](M-Theory+and+Mathematics#He2020) at *[M-Theory and Mathematics 2020](M-Theory+and+Mathematics#2020)*, NYU Abu Dhabi (Jan 2020) &lbrack;slides: [pdf](https://ncatlab.org/nlab/files/HeSlidesAtMTheoryAndMathematics2020.pdf), video: [YT](https://www.youtube.com/watch?v=i-kuoXjcKls)&rbrack;
 
-* [[Yang-Hui He]], *Machine-Learning Mathematical Structures*, talk at *[M-Theory and Mathematics 2023](M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (Jan 2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#He2023)&rbrack;
+* [[Yang-Hui He]], *Machine-Learning Mathematical Structures*, [talk](/nlab/show/M-Theory+and+Mathematics#He2023) at *[M-Theory and Mathematics 2023](M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (Jan 2023) &lbrack;slides: [[He-MTheoryAndMath2023.pdf:file]], video: [YT](https://www.youtube.com/watch?v=SlF2T4fxroQ)&rbrack;
 
 
 Discussion via [[machine learning]] of [[connection on a bundle|connections]] on [[heterotic line bundles]] over [[Calabi-Yau manifold|Calabi-Yau 3-folds]]:
