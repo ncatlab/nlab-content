@@ -181,7 +181,7 @@ For analogous discussion of embedding of the [[ekpyrotic cosmology]]-scenario in
 
 Discussion of *asymptotic* de Sitter spacetimes from time-dependent [[KK-compactification]] of [[type II supergravity]]:
 
-* Paul Marconnet, [[Dimitrios Tsimpis]], *Universal accelerating cosmologies from 10d supergravity*,  J. High Energ. Phys. **2023** 33 (2023) &lbrack;[arXiv:2210.10813](https://arxiv.org/abs/2210.10813), <a href="https://doi.org/10.1007/JHEP01(2023)033">doi:10.1007/JHEP01(2023)033</a>&rbrack;
+* {#MarconnetTsimpis23} Paul Marconnet, [[Dimitrios Tsimpis]], *Universal accelerating cosmologies from 10d supergravity*,  J. High Energ. Phys. **2023** 33 (2023) &lbrack;[arXiv:2210.10813](https://arxiv.org/abs/2210.10813), <a href="https://doi.org/10.1007/JHEP01(2023)033">doi:10.1007/JHEP01(2023)033</a>&rbrack;
 
 reviewed in:
 
