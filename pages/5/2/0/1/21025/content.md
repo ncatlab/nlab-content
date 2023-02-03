@@ -148,6 +148,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
   **Universal accelerating cosmologies from 10d supergravity**
 
   slides: [[Tsimpis-MTheoryMath2023.pdf:file]]
+  
+  video: [YT](https://www.youtube.com/watch?v=LEiqYz-G34g)
 
   cf.: [arXiv:2210.10813](https://arxiv.org/abs/2210.10813)
 
