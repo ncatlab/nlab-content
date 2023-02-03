@@ -115,9 +115,9 @@ $$
   \Gamma(-) = Hom_{\mathcal{T}}({*}, -)
 $$
 
-and hence assigns to each object $A\in \mathcal{T}$ its set of [[global element]]s $\Gamma(A) = Hom_E(*,A)$. 
+and hence assigns to each object $A\in \mathcal{T}$ its set of [[global element]]s $\Gamma(A) = Hom_{\mathcal{T}}(*,A)$. 
 
-The [[left adjoint]] $LConst : Set \to E$ of the global section functor is the canonical [[Set]]-[[copower|tensoring]] functor
+The [[left adjoint]] $LConst : Set \to \mathcal{T}$ of the global section functor is the canonical [[Set]]-[[copower|tensoring]] functor
 
 $$
   \otimes : Set \times \mathcal{T} \to \mathcal{T}
