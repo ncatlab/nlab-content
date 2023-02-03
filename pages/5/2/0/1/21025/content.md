@@ -209,6 +209,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   slides: [[Berman-MTheoryAndMath2023.pdf:file]]
 
+  video: [YT](https://www.youtube.com/watch?v=h5x-aNiokLg)
+
   cf.: [arXiv:2212.11379](https://arxiv.org/abs/2212.11379)
 
   > The [[exact renormalisation group]] is used to describe the process of [[statistical inference]] in the [[Bayesian reasoning|Bayesian sense]].
@@ -312,6 +314,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 * {#Bah2023} [[Ibrahima Bah]]:
 
   **Non-invertible symmetry, holography and branes**
+
+  video: [YT](https://www.youtube.com/watch?v=yOBkH-n0JBY)
 
   cf.: [arXiv:2208.07373](https://arxiv.org/abs/2208.07373)
 
