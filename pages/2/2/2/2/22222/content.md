@@ -22,23 +22,38 @@ A **multi-adjoint** is like an [[adjoint functor]] but sends each [[object]] to 
 ## Definition
 
 \begin{defn}\label{MultiAdjoints}
-Let $G \colon D\to C$ be a [[functor]].  We say $G$ has a **left multi-adjoint** if for each $x \in C$ there is a [[family]] of [[morphisms]] $\{\eta_{x,i} \colon x \to G z_i\}_{i\in I}$ such that for any morphism $f  \colon x\to G y$ there exists a unique [[pair]] of an index $i\in I$ and a morphism $g \colon z_i \to y$ such that $f = G g \circ \eta_{x,i}$.
+Let $R \colon D\to C$ be a [[functor]].  We say $R$ has a **left multi-adjoint** if for each $x \in C$ there is a [[family]] of [[morphisms]] $\{\eta_{x,i} \colon x \to R L(x,i)\}_{i\in I(x)}$ such that for any morphism $f  \colon x\to R y$ there exists a unique [[pair]] of an index $i\in I(x)$ and a morphism $g \colon L(x, i) \to y$ such that $f = R g \circ \eta_{x,i}$.
 \end{defn}
 
-
 \begin{remark}
-Of course, if each set $I$ is a [[singleton]], then Def. \ref{MultiAdjoints} reduces to the notion of an actual [[left adjoint]].  On the other hand, if we remove the uniqueness requirement, this reduces to the [[solution set condition]].  Thus, a multi-adjoint is "halfway between" the solution-set condition and the actual existence of an adjoint.
+Of course, if each set $I(x)$ is always a [[singleton]], then Def. \ref{MultiAdjoints} reduces to the notion of an actual [[left adjoint]].  On the other hand, if we remove the uniqueness requirement, this reduces to the [[solution set condition]].  Thus, a multi-adjoint is "halfway between" the solution-set condition and the actual existence of an adjoint.
 \end{remark}
 
 \begin{remark}
 If in Def. \ref{MultiAdjoints} we weaken the notion of [[adjunction]] in the opposite way, by removing the uniqueness requirement but keeping $I$ a singleton (or equivalently add to the solution-set condition that $I$ is a singleton), we obtain the notion of a [[weak adjoint]].
 \end{remark}
 
+\begin{theorem}
+Having a left multi-adjoint can be equivalently characterized as follows:
+
+$R : D \to C$ has a left multi-adjoint $(I, L)$ with $I : Obj(C) \to Set$ and $L : (x : Obj(C)) \to I(x) \to Obj(D)$ if for all $x$ and $y$, there is an isomorphism $\alpha : \Sigma(i \in I(x)).Hom_D(L(x, i), y) \cong Hom_C(x, Ry)$, natural in $y$.
+\end{theorem}
+\begin{proof}
+We first prove the Hom-characterization from the definition. Given $(i, \phi : L(x, i) \to y)$, we get $\alpha(\phi) := R\phi \circ \eta_{x, i} : x \to Ry$. The definition demands that this is an isomorphism. To see naturality, let $\chi : y \to z$.
+Then
+\[
+        R\chi \circ \alpha(i, \phi) = R\chi \circ R\phi \circ \eta_{x,i} = \alpha(i, \chi \circ \phi).
+\]
+
+Now let $\alpha$ be given. Then we define $\eta_{x, i} = \alpha(i, id) : x \to RL(x, i)$.
+By naturality, $\alpha(i, \phi) = R\phi \circ \eta_{x, i}$. Then invertibility of $\alpha$ proves the condition in the definition.
+\end{proof}
+
 
 ## Examples
 
 \begin{example}
-Every [[parametric right adjoint]] with [[locally small category|locally small]] codomain has a left multi-adjoint.  And conversely, if $D$ has a [[terminal object]] and $G \colon D\to C$ has a left multi-adjoint, then it is a parametric right adjoint.
+Every [[parametric right adjoint]] with [[locally small category|locally small]] codomain has a left multi-adjoint.  And conversely, if $D$ has a [[terminal object]] and $R \colon D\to C$ has a left multi-adjoint, then it is a parametric right adjoint.
 \end{example}
 
 \begin{example}\label{MultiInitialObjectsInFields}
