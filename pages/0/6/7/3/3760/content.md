@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
 # Presentations of groups
 * table of contents
 {: toc}
@@ -123,30 +135,37 @@ The study of group presentations, their transformations etc. forms part of [[com
 
 The theory of group presentations generalises to that of presentations of monoids and then to general [[rewriting]] systems.
 
+## Related concepts
 
+* [[finitely presentable group]]
+
+* [[combinatorial group theory]]
 
 ## References
 
-A basic introduction to the theory of group presentations can be found in some standard texts, both on group theory itself and on related areas of low dimensional topology, for instance,
+Textbook accounts:
 
+* [[Wilhelm Magnus]], A. Karras, D. Solitar, *Combinatorial group theory: Presentation of groups in terms of generators and relations*, Courier Corporation (1966, 2004) &lbrack;[ISBN:0-486-43830-9](https://www.maa.org/press/maa-reviews/combinatorial-group-theory-presentations-of-groups-in-terms-of-generators-and-relations), [GoogleBooks](https://books.google.com/books?hl=en&lr=&id=1LW4s1RDRHQC&oi=fnd&pg=PP1&ots=WszNa-0hEz&sig=Hn_MTbyLcEreBBNZ8jJtQUVKlZk)&rbrack;
 
- * [[N. D. Gilbert]] and [[T. Porter]], Knots and Surfaces, Oxford U.P., 1994.
+* [[David Lawrence Johnson]], *Topics in Theory of Group Presentations*, London Mathematical Society Lecture notes series **42**, Cambridge Univ. Press (1980) &lbrack;[doi:10.1017/CBO9780511629303](https://doi.org/10.1017/CBO9780511629303)&rbrack;
 
+* [[David Lawrence Johnson]], *Presentations of Groups*, London Mathematical Society Student Texts **15**, Cambridge Univ. Press (1990) &lbrack;[doi:10.1017/CBO9781139168410](https://doi.org/10.1017/CBO9781139168410)&rbrack;
 
-For more elementary or introductory texts, see, for instance,
+* [[N. D. Gilbert]] and [[T. Porter]], Knots and Surfaces, Oxford U.P., 1994.
 
-* D. L. Johnson, Presentations of Groups (London Mathematical Society Student Texts 15) 1990, Cambridge Univ. Press,
+In the context of [[combinatorial group theory]]:
 
-or his earlier:
+* [[Roger C. Lyndon]], [[Paul E. Schupp]], _Combinatorial group theory_, Springer, 1977; [toc](http://elib.tu-darmstadt.de/tocs/94684782.pdf).
 
-* D. L. Johnson, Topics in Theory of Group Presentations, London Mathematical Society Lecture notes series 42) 1980, Cambridge Univ. Press,
+Lecture notes:
 
-which have some very useful material in them.
+* Derek Holt (notes by Florian Bouyer), *Presentation of Groups* (2013) &lbrack;[pdf](https://warwick.ac.uk/fac/sci/maths/people/staff/fbouyer/presentation_of_group.pdf)&rbrack;
 
+On (finitely) presented groups as [[fundamental groups]] of ([[finite cell complex|finite]]) [[simplicial complexes]]/[[CW-complexes]]:
 
-For a deeper treatment of the area, more specialised sources are needed:
+* [[Joseph J. Rotman]], around Thm. 7.34 in: *An Introduction to Algebraic Topology*, Graduate Texts in Mathematics **119** (1988) $[$[doi:10.1007/978-1-4612-4576-6](https://doi.org/10.1007/978-1-4612-4576-6)$]$ 
 
-* [[Roger C. Lyndon]] and [[Paul E. Schupp]], _Combinatorial group theory_, Springer, 1977; [toc](http://elib.tu-darmstadt.de/tocs/94684782.pdf).
+* Behrooz Mashayekhy, Hanieh Mirebrahimi, *Some Properties of Finitely Presented Groups with Topological Viewpoints*, International Journal of Mathematics, Game Theory and Algebra **18** 6 (2010) 511-515 &lbrack;[arXiv:1012.1744](https://arxiv.org/abs/1012.1744)&rbrack;
 
 
 category: group theory
