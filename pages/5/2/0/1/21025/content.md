@@ -329,6 +329,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **M-theory and matter via Twisted Equivariant Differential (TED) K-theory**
 
+  video: [YT](https://www.youtube.com/watch?v=MQiGYl-KKfA)
+
   cf.: [[schreiber:Anyonic topological order in TED K-theory|arXiv:2206.13563]]
 
   > Various flavors of [[topological K-theory|K-theory]] [[D-brane charge quantization in K-theory|play an important role]] in geometric/topological perspectives on [[string theory]]. Ultimately, the [[twisted equivariant differential K-theory|twisted equivariant differential (TED) version of K-theory]] would be what is needed to describe [[field (physics)|fields]] and [[branes]] in the most general backgrounds. However, this theory has not been constructed yet, but major progress has been made in that direction requiring highly nontrivial machinery. I will describe the main conceptual points here. I will also explain how TED K-theory enters naturally into [[condensed matter theory|condensed matter]] ([[topological phases of matter|topological phases]]) and highlight analogies with [[high energy physics]]. All of this embeds in [[M-theory]] via [[schreiber:Hypothesis H]], both from physical and mathematical perspectives. 
