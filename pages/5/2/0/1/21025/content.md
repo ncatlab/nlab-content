@@ -18,6 +18,7 @@
 =--
 
 
+
 \linebreak
 
 
@@ -358,7 +359,10 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **The $E_k$ symmetry of dimensional reductions of M-theory**
 
+  video: [YT](https://www.youtube.com/watch?v=otpT7bQwiqQ)
+
   cf.: [arXiv:2111.14810](https://arxiv.org/abs/2111.14810), [arXiv:2212.13968](https://arxiv.org/abs/2212.13968)
+
 
   > [[Hisham Sati]] and I, on the way to revealing the mystery of 2001 [[Mysterious Duality]] of [Iqbal, Neitzke, and Vafa](mysterious+duality#INV01), generalized [[schreiber:Hypothesis H|hypothesis H]] and presented a universal target for each [[double dimensional reduction|dimensional reduction]] of [[M-theory]]. Each of these targets has the [[dynamics]] of [[supergravity]] embedded into its structure. The target for $(11-k)$-dimensional [[M-theory]] also has an [[Lie algebra representation|action]] of the [[Lie algebra]] of [[exceptional Lie algebra|type $E_k$]], responsible for [[U-duality|symmetries]] of $(11-k)$-dim [[supergravity]] along with its [[equations of motion]] in any spacetime.
 
@@ -370,6 +374,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
   **Exceptional super Yang-Mills in $27 + 3$ and worldvolume M-theory**
 
   slides: [[Marrani-MTheoryAndMath2023.pdf:file]]
+
+  video: [YT](https://www.youtube.com/watch?v=yTpiqozLuXY)
 
   cf.: [arXiv:1906.10709](https://arxiv.org/abs/1906.10709)
 
@@ -383,6 +389,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
   **Derived $n$-plectic geometry: towards non-perturbative BV-BFV quantisation and M-theory**
 
   slides: [[Alfonsi-MTheoryAndMath2023.pdf:file]]
+
+  video: [YT](https://www.youtube.com/watch?v=O7pQkyqCiA4)
 
   > In this talk I will propose the notion of [[derived geometry|derived]] [[n-plectic geometry|$n$-plectic geometry]] and show that a classical [[BV formalism|BV-BFV theory]] can be globally reformulated in this framework.
 
