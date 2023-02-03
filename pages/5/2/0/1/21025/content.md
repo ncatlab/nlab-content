@@ -17,7 +17,9 @@
 =--
 =--
 
+
 \linebreak
+
 
 This page collects material related to:
 
@@ -219,6 +221,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
   **Machine-Learning Mathematical Structures**
 
   slides: [[He-MTheoryAndMath2023.pdf:file]]
+
+  video: [YT](https://www.youtube.com/watch?v=SlF2T4fxroQ)
 
   cf.: [arXiv:2101.06317](https://arxiv.org/abs/2101.06317)
 
