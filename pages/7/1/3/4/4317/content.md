@@ -101,7 +101,8 @@ Also:
 Using the correct definition of the 2-category of symmetric rig categories, the groupoid $FinSet^{\times}$ of finite sets and bijections is the [[initial object|initial]] symmetric rig category, just as $\N$ is the initial commutative rig.   Note that a suitably weakened concept of 'initial' is needed here; see [[2-limit]].  In other words, given any symmetric rig category $R$, there is a unique symmetric rig morphism $FinSet^{\times} \to R$, up to an [[equivalence]] which is itself unique up to an [[isomorphism]] which is actually unique (up to [[equality]]).
 =--
 
-This conjecture has been established in ([Elgueta 2021](#Elg21)). See also ([Comfort-Delpeuch-Hedges, Sec. 8](#CDH)).
+This conjecture was established in ([Elgueta 2021](#Elg21)). See also the proof using sheet diagrams in ([Comfort-Delpeuch-Hedges, Sec. 8](#CDH)), and the detailed proof of a restricted version in ([Johnson-Yau, Part I Sec. 2.7](#JY)).
+Yau has also proved a braided analogue of this conjecture ([Johnson-Yau, Part II Thm. 7.3.4](#JY)).
 
 ## Related concepts
 
@@ -127,7 +128,7 @@ This conjecture has been established in ([Elgueta 2021](#Elg21)). See also ([Com
 
 A textbook treatment is given in 
 
-* [[Niles Johnson]], [[Donald Yau]], _Bimonoidal Categories, $E_n$-Monoidal Categories, and Algebraic K-Theory_ ([three volume book](https://nilesjohnson.net/En-monoidal.html); abridged version [arXiv:2107.10526](https://arxiv.org/abs/2107.10526)).
+* {#JY} [[Niles Johnson]], [[Donald Yau]], _Bimonoidal Categories, $E_n$-Monoidal Categories, and Algebraic K-Theory_ ([three volume book](https://nilesjohnson.net/En-monoidal.html); abridged version [arXiv:2107.10526](https://arxiv.org/abs/2107.10526)).
 
 The [[coherence law|coherence]] for the [[distributivity law]] in bimonoidal categories has been given in
 
@@ -156,6 +157,7 @@ A [[string diagram]] treatment of rig categories via _sheet diagrams_ is in
 
 * {#Elg21} Josep Elgueta, _The groupoid of finite sets is biinitial in the 2-category of rig categories_, Journal of Pure and Applied Algebra
 **225** Issue 11 (2021) 106738, doi:[10.1016/j.jpaa.2021.106738](https://doi.org/10.1016/j.jpaa.2021.106738), [arXiv:2004.08684](https://arxiv.org/abs/2004.08684).
+
 
 [[!redirects rig category]]
 [[!redirects rig categories]]
