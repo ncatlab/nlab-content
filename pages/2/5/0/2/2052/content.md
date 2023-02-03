@@ -19,16 +19,15 @@ Nowadays combinatorial group theory uses fruitful connections to [[topology]] an
 
 ## References
 
-Two of the classic texts on the subject:
+Textbook accounts:
 
-* [[Wilhelm Magnus]], A. Karras, D. Solitar, *Combinatorial group theory: Presentation of groups in terms of generators and relations*, Courier Corporation (1966, 2004) &lbrack;[GoogleBooks](https://books.google.com/books?hl=en&lr=&id=1LW4s1RDRHQC&oi=fnd&pg=PP1&ots=WszNa-0hEz&sig=Hn_MTbyLcEreBBNZ8jJtQUVKlZk)&rbrack;
+* [[Wilhelm Magnus]], A. Karras, D. Solitar, *Combinatorial group theory: Presentation of groups in terms of generators and relations*, Courier Corporation (1966, 2004) &lbrack;[ISBN:0-486-43830-9](https://www.maa.org/press/maa-reviews/combinatorial-group-theory-presentations-of-groups-in-terms-of-generators-and-relations), [GoogleBooks](https://books.google.com/books?hl=en&lr=&id=1LW4s1RDRHQC&oi=fnd&pg=PP1&ots=WszNa-0hEz&sig=Hn_MTbyLcEreBBNZ8jJtQUVKlZk)&rbrack;
 
 * R. Lindon, P. Schupp, _Combinatorial group theory_, Springer 1977 (Russian transl. Mir, Moskva 1980)
 
-For more elementary or introductory texts, see, for instance,
+* [[David Lawrence Johnson]], *Topics in Theory of Group Presentations*, London Mathematical Society Lecture notes series **42**, Cambridge Univ. Press (1980) &lbrack;[doi:10.1017/CBO9780511629303](https://doi.org/10.1017/CBO9780511629303)&rbrack;
 
-* D. L. Johnson, Presentations of Groups (London Mathematical Society Student Texts 15) 1990, Cambridge Univ. Press
+* [[David Lawrence Johnson]], *Presentations of Groups*, London Mathematical Society Student Texts **15**, Cambridge Univ. Press (1990) &lbrack;[doi:10.1017/CBO9781139168410](https://doi.org/10.1017/CBO9781139168410)&rbrack;
 
-* D. L. Johnson, Topics in Theory of Group Presentations, London Mathematical Society Lecture notes series 42) 1980, Cambridge Univ. Press
 
 category: group theory, algebra
