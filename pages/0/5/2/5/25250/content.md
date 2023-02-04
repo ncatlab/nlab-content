@@ -1,3 +1,4 @@
+[[!redirects model structure on chain complexes of sheaves of abelian groups]]
 \tableofcontents
 
 ## Introduction
