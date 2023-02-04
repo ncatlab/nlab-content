@@ -470,5 +470,242 @@ b_i^{-1}
 \end{tikzcd}
 
 
+\begin{tikzcd}
+\color{orange}
+\left[
+\color{black}
+\raisebox{-24pt}{
+\begin{tikzpicture}[yscale=.5]
+
+\begin{scope}[shift={(-1.6,0)}]
+\draw[line width=1.4]
+  (-.5,5) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,5) to (+.5,-1);
+\draw
+  (-0,2.2) node {$\mathclap{\cdots}$};
+\end{scope}
+
+\begin{scope}[shift={(0,4)}]
+\draw[line width=1.4]
+  (-.35,-1) 
+  .. controls (-.35,0) and (+.35,0)  .. 
+  (+.35,1);
+
+\draw[line width=4.5, white]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\draw[line width=1.4]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\end{scope}
+
+\draw[line width=1.4]
+  (-.35,3) 
+  --
+  (-.35,1);
+
+\draw[line width=1.4]
+  (+1.05,5) 
+  --
+  (+1.05,3);
+
+
+\begin{scope}[shift={(.7,2)}]
+\draw[line width=1.4]
+  (-.35,-1) 
+  .. controls (-.35,0) and (+.35,0)  .. 
+  (+.35,1);
+
+\draw[line width=4.5, white]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\draw[line width=1.4]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\end{scope}
+
+
+\begin{scope}
+\draw[line width=1.4]
+  (-.35,-1) 
+  .. controls (-.35,0) and (+.35,0)  .. 
+  (+.35,1);
+
+\draw[line width=4.5, white]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\draw[line width=1.4]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\end{scope}
+
+ \draw[line width=1.4]
+   (1.05,1) to (1.05,-1);
+
+\begin{scope}[shift={(+2.4,0)}]
+\draw[line width=1.4]
+  (-.5,5) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,5) to (+.5,-1);
+\draw
+  (-0,2.2) node {$\mathclap{\cdots}$};
+\end{scope}
+
+\draw 
+  (-2.1, -1.4) node {\color{blue}\scalebox{.5}{$1$}};
+
+\draw 
+  (-1.1, -1.4) node {\color{blue}\scalebox{.5}{$i\!-\!1$}};
+
+\draw 
+  (-.4, -1.4) node {\color{blue}\scalebox{.5}{$i$}};
+
+\draw 
+  (+.35, -1.4) node {\color{blue}\scalebox{.5}{$i\!+\!1$}};
+
+\draw 
+  (+1.1, -1.4) node {\color{blue}\scalebox{.5}{$i\!+\!2$}};
+
+\draw 
+  (+1.9, -1.4) node {\color{blue}\scalebox{.5}{$i\!+\!3$}};
+
+\draw 
+  (+2.9, -1.4) node {\color{blue}\scalebox{.5}{$n\!+\!1$}};
+\end{tikzpicture}
+}
+\color{orange}
+\right]
+\color{black}
+\;\;\;\;\;
+=
+\;\;\;\;
+\color{orange}
+\left[
+\color{black}
+\raisebox{-24pt}{
+\begin{tikzpicture}[yscale=.5]
+
+\begin{scope}[shift={(-1.6,0)}]
+\draw[line width=1.4]
+  (-.5,5) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,5) to (+.5,-1);
+\draw
+  (-0,2.2) node {$\mathclap{\cdots}$};
+\end{scope}
+
+\begin{scope}[shift={(.7,4)}]
+\draw[line width=1.4]
+  (-.35,-1) 
+  .. controls (-.35,0) and (+.35,0)  .. 
+  (+.35,1);
+
+\draw[line width=4.5, white]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\draw[line width=1.4]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\end{scope}
+
+
+\draw[line width=1.4]
+  (1.05,3) 
+  --
+  (1.05,1);
+
+\draw[line width=1.4]
+  (-.35,5) 
+  --
+  (-.35,3);
+
+
+\draw[line width=1.4]
+  (-.35,1) 
+  -- 
+  (-.35,-1);
+
+
+\begin{scope}[shift={(0,2)}]
+\draw[line width=1.4]
+  (-.35,-1) 
+  .. controls (-.35,0) and (+.35,0)  .. 
+  (+.35,1);
+
+\draw[line width=4.5, white]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\draw[line width=1.4]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\end{scope}
+
+
+\begin{scope}[shift={(.7,0)}]
+\draw[line width=1.4]
+  (-.35,-1) 
+  .. controls (-.35,0) and (+.35,0)  .. 
+  (+.35,1);
+
+\draw[line width=4.5, white]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\draw[line width=1.4]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\end{scope}
+
+
+\begin{scope}[shift={(+2.4,0)}]
+\draw[line width=1.4]
+  (-.5,5) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,5) to (+.5,-1);
+\draw
+  (-0,2.2) node {$\mathclap{\cdots}$};
+\end{scope}
+
+\draw 
+  (-2.1, -1.4) node {\color{blue}\scalebox{.5}{$1$}};
+
+\draw 
+  (-1.1, -1.4) node {\color{blue}\scalebox{.5}{$i\!-\!1$}};
+
+\draw 
+  (-.4, -1.4) node {\color{blue}\scalebox{.5}{$i$}};
+
+\draw 
+  (+.35, -1.4) node {\color{blue}\scalebox{.5}{$i\!+\!1$}};
+
+\draw 
+  (+1.1, -1.4) node {\color{blue}\scalebox{.5}{$i\!+\!2$}};
+
+\draw 
+  (+1.9, -1.4) node {\color{blue}\scalebox{.5}{$i\!+\!3$}};
+
+\draw 
+  (+2.9, -1.4) node {\color{blue}\scalebox{.5}{$n\!+\!1$}};
+\end{tikzpicture}
+}
+\color{orange}
+\right]
+\color{black}
+\end{tikzcd}
+
+
+
 
 
