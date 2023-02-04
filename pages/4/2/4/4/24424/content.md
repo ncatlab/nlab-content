@@ -4,7 +4,7 @@ I'm interested by the [[logic|logical]] approach to [[differentiation]] through 
 
 I currently work on this stuff:
 
-- Graded differential linear logic and graded differential categories (with [[Jean-Simon Lemay]]) which index the exponential modality of differential linear logic or differential categories by any [[rig]].
+- Graded differential linear logic and graded differential categories (with [[Jean-Simon Lemay]]) which index the [[exponential modality]] of differential linear logic or differential categories by any [[rig]].
 - Higher-order differential linear logic and higher-order differential categories which replace differentiation by [[Hasse-Schmidt derivative|Hasse-Schmidt differentiation]].
 - A [[string diagrams|string-diagrammatic]] calculus for [[symmetric powers]] based on an algebraic characterization of symmetric powers in symmetric monoidal $\mathbb{Q}^{+}$-linear categories.
 
