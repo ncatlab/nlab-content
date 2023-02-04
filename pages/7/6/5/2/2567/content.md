@@ -21,32 +21,36 @@ A _(left) Quillen [[bifunctor]]_ is a [[functor]] of two variables between [[mod
 
 The notion of Quillen bifunctor enters the definition of [[monoidal model category]] and of [[enriched model category]].
 
-##Definition##
+## Definition
 
-+-- {: .num_defn}
-###### Definition
+\begin{definition}
+\label{QuillenBifunctor}
 **(Quillen bifunctor)**
-
+\linebreak
 Let $C, D, E$ be [[model category|model categories]]. A
-[[functor]] $F : C \times D \to E$ is a **Quillen bifunctor** 
-if it satisfies the following two conditions:
+[[functor]] $F \,\colon\, C \times D \to E$ is a **Quillen bifunctor**  if it satisfies the following two conditions:
 
-1. for any cofibration $i : c \to c'$ in $C$ and cofibration 
-   $j : d \to d'$ in $D$, the induced ([[pushout product]]) morphism 
+1. for any 
+
+   * [[cofibration]] $i \,\colon\, c \to c'$ in $C$ 
+
+   * [[cofibration]] $j : d \to d'$ in $D$, 
+
+   the induced ([[pushout product]]) morphism 
    
    $$
      F(c', d) \coprod_{F(c,d)} F(c,d') \to F(c', d')
    $$
 
-   is a cofibration in $E$, which is a weak equivalence if either $i$ or $j$ is  a weak equivalence
+   is a [[cofibration]] in $E$, which is a [[weak equivalence]] if either $i$ or $j$ is a weak equivalence
 
-1. it preserves [[colimit]]s separately in each variable
+1. it [[preserved colimit|preserves]] [[colimits]] separately in each variable.
 
-=--
+\end{definition}
 
-##Remarks##
-
-In full detail the [[pushout]] appearing in the first condition is the one sitting in the pushout diagram
+\begin{remark}
+\label{UnwindingTheDefinition}
+In more detail, the [[pushout]] appearing in the first condition in Def. \ref{QuillenBifunctor} is the one sitting in the following pushout [[square]]:
 
 $$
   \array{
@@ -60,7 +64,7 @@ $$
   \,.
 $$
 
-In particular, if $i = (\emptyset \hookrightarrow c)$ we have $F(\emptyset, d) = F(\emptyset, d') = \emptyset$ (since the [[initial object]] is the [[colimit]] over the empty diagram and $F$ is assumed to preserve colimits) and the above pushout diagram reduces to
+In particular, if $i = (\emptyset \hookrightarrow c)$ we have $F(\emptyset, d) = F(\emptyset, d') = \emptyset$ (since the [[initial object]] is the [[colimit]] over the [[empty diagram]] and $F$ is assumed to preserve colimits) and the above pushout diagram reduces to
 
 $$
   \array{
@@ -74,7 +78,15 @@ $$
   \,.
 $$
 
-Therefore for $c$ a cofibrant object the condition is that $F(c,-) : D \to E$ preserves cofibrations and acyclic cofibrations. Similarly for $d$ fibrant the condition is that $F(-,d) : C \to E$ preserves cofibrations and acyclic cofibrations.
+Therefore: 
+
+* for $c$ a [[cofibrant object]] the condition is that $F(c,-) \,\colon\, D \to E$ preserves [[cofibrations]] and [[acyclic cofibrations]]; 
+
+* for $d$ a [[cofibrant object]], the condition is that $F(-,d) \,\colon\, C \to E$ preserves [[cofibrations]] and [[acyclic cofibrations]].
+
+\end{remark}
+
+
 
 ## Properties {#Properties}
 
