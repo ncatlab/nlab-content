@@ -26,7 +26,7 @@ The literature on the subject arguably suffers from absence of global convention
 
 Concretely,  [Aczel (2011, p. 9)](#Aczel11) declares that the structure identity principle (SIP) in [[homotopy type theory]] *is* the [[univalence axiom]]: This of course identifies [[terms]] $p \,\colon\, Id_{Type}(A,B)$ of [[identification type]] between [[types]] $A,B \,\colon\, Type$ with [[functions]] that are  [[equivalence in type theory|type-theoretic equivalences]] $f \,\colon\,  A \stackrel{\sim}{\longrightarrow} B$. 
 
-The latter is what [Aczel (2011, p. 22)](#Aczel11) calls "[[isomorphisms]]". While this matches the usage of the term "[[isomorphism]]" in abstract [[category theory]] to mean "[[invertible morphism]]", to complete the notion of "structure identity" one may want a further argument to verify that such isomorphisms really are invertible [[homomorphisms|*homo*-morphism]] with respect to some given [[mathematical structure]] (such as [group structure](structure#GroupDataStructure) etc.). Such enhancement of Aczel's notion of SIP is considered in [Coquand & Danielsson (2013)](#CoquandDanielsson13) (who do not use the terminology "structure udentity principle") and in [UFP13, §9.8](#UFP13) (who do).
+The latter is what [Aczel (2011, p. 22)](#Aczel11) calls "[[isomorphisms]]". While this matches the usage of the term "[[isomorphism]]" in abstract [[category theory]] to mean "[[invertible morphism]]", to complete the notion of "structure identity" one may want a further argument to verify that such isomorphisms really are invertible [[homomorphisms|*homo*-morphism]] with respect to some given [[mathematical structure]] (such as [group structure](structure#GroupDataStructure) etc.). Such enhancement of Aczel's notion of SIP is considered in [Coquand & Danielsson (2013)](#CoquandDanielsson13) (who do not use the terminology "structure udentity principle") and in [UFP (2013, §9.8)](#UFP13), [Escardó (2019, §3.33.1)](#Escardó19) (who do).
 
 
 ## Examples
@@ -89,6 +89,11 @@ then the above extensionality principles (eq:ExtensionalityPrinciples) imply tha
 * {#CoquandDanielsson13} [[Thierry Coquand]], [[Nils Anders Danielsson]], *Isomorphism is equality*, Indagationes Mathematicae **24** 4 (2013) 1105-1120 &lbrack;[doi:10.1016/j.indag.2013.09.002](https://doi.org/10.1016/j.indag.2013.09.002)&rbrack;
 
 * {#UFP13} [[Univalent Foundations Project]], §9.8 but also §2 of: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+* {#Escardó19} [[Martín Escardó]], *[A structure identity principle for a standard notion of structure](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html#sns)*, §3.33.1 in: *Introduction to Univalent Foundations of Mathematics with Agda* &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580),  [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html)&rbrack;
+
+  > (formalized in the [[Agda]] [[proof assistant]])
+
 
 * [[Benedikt Ahrens]], [[Paige Randall North]], [[Michael Shulman]], [[Dimitris Tsementzis]], *A Higher Structure Identity Principle*, LICS '20 (2020) 53–66 &lbrack;[arXiv:2004.06572](https://arxiv.org/abs/2004.06572), [doi:10.1145/3373718.3394755](https://doi.org/10.1145/3373718.3394755)&rbrack;
 
