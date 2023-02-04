@@ -17,6 +17,7 @@
 =--
 =--
 
+
 \tableofcontents
 
 ## Definitions
@@ -208,6 +209,18 @@ Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
 Properties of monoids expressed through properties of their [[toposes]] of [[presheaves]]:
 
 * Jens Hemelaer, Morgan Rogers, _Monoid Properties as Invariants of Toposes of Monoid Actions_, [arXiv:2004.10513](https://arxiv.org/abs/2004.10513).
+
+Formalization of [[monoid objects]] as [[mathematical structures]] in [[proof assistants]]:
+
+in a context of plain [[Agda]]:
+
+* [[Martín Escardó]], *[The Types of Magmas and Monoids](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html#magmasandmonoids)*, §4 in: *Introduction to Univalent Foundations of Mathematics with Agda* &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580),  [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html)&rbrack;
+
+in a context of [[cubical type theory|cubical]] [[Agda]]:
+
+* [[1lab]]: *[Algebra.Monoid](https://1lab.dev/Algebra.Monoid.html)*
+
+
 
 
 [[!redirects monoid]]
