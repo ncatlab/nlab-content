@@ -318,7 +318,7 @@ in [[Agda]]:
 
 * [agda-unimath](https://unimath.github.io/agda-unimath/) -> [group-theory.groups](https://unimath.github.io/agda-unimath/group-theory.groups.html)
 
-* [[Martín Escardó]], *[Groups](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html#groups-sip)*, §33.10 in: *Introduction to Univalent Foundations of Mathematics with Agda* &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580),  [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html)&rbrack;
+* [[Martín Escardó]], *[Groups](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html#groups-sip)*, §3.33.10 in: *Introduction to Univalent Foundations of Mathematics with Agda* &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580),  [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html)&rbrack;
 
 
 in [[cubical Agda]]:
