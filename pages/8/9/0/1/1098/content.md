@@ -115,6 +115,8 @@ Finally, the [[model structure on internal inverse diagrams]] is constructed, an
 [[!redirects (∞,1)-presheaf]]
 [[!redirects (∞,1)-presheaves]]
 [[!redirects (infinity,1)-presheaves]]
+[[!redirects ∞-presheaf]]
+[[!redirects ∞-presheaves]]
 
 [[!redirects ∞-prestack]]
 [[!redirects ∞-prestacks]]
