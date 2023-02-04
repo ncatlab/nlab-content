@@ -92,6 +92,10 @@ also published as:
 
 * [[Martin Hofmann]], *Syntax and semantics of dependent types*, in *Semantics and logics of computation*, Publ. Newton Inst. **14**, Cambridge Univ. Press (1997) 79-130 &lbrack;[doi:10.1017/CBO9780511526619.004](https://doi.org/10.1017/CBO9780511526619.004)&rbrack;
 
+Gentle exposition of the basic principles:
+
+* [[Thomas Kehrenberg]], *Introduction to dependent type theory* (2022-23) &lbrack;[blog series](https://tm.kehrenberg.net/series/introduction-to-dependent-type-theory/)&rbrack;
+
 
 Introductory accounts:
 
