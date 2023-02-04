@@ -578,9 +578,7 @@ Further developments with categorical perspectives and generalizations can be fo
 
 
 [[!redirects descent and codescent]]
-
 [[!redirects codescent]]
-
 [[!redirects descent theory]]
-
+[[!redirects ∞-descent]]
 
