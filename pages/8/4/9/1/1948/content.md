@@ -341,8 +341,10 @@ See also
 [[!redirects model structures on functors]]
 
 [[!redirects injective model structure]]
+[[!redirects injective model structures]]
 [[!redirects injective model structure on functors]]
 [[!redirects projective model structure]]
+[[!redirects projective model structures]]
 [[!redirects projective model structure on functors]]
 
 [[!redirects global model structure on functor categories]]
