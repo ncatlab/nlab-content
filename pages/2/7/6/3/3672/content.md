@@ -105,9 +105,9 @@ The case of 2-component quaternionic spinors in 6d (see at [[SL(2,H)]]) is discu
 
 Discussion with an emphasis on [[super Yang-Mills theory]] and [[U-duality]] in [[supergravity]] and the [[Freudenthal magic square]] is in
 
-* [[Leron Borsten]], [[Michael Duff]], L. J. Hughes, S. Nagy, _A magic square from Yang-Mills squared_ ([arXiv:1301.4176](http://arxiv.org/abs/1301.4176))
+* [[Leron Borsten]], [[Michael Duff]], [[Mia J. Hughes]], [[Silvia Nagy]], _A magic square from Yang-Mills squared_ ([arXiv:1301.4176](http://arxiv.org/abs/1301.4176))
 
-* A. Anastasiou, [[Leron Borsten]], [[Mike Duff]], L. J. Hughes, S. Nagy, _Super Yang-Mills, division algebras and triality_ ([arXiv:1309.0546](http://arxiv.org/abs/1309.0546))
+* [[Alexandros Anastasiou]], [[Leron Borsten]], [[Mike Duff]], [[Mia J. Hughes]], [[Silvia Nagy]], _Super Yang-Mills, division algebras and triality_ &lbrack;[arXiv:1309.0546](http://arxiv.org/abs/1309.0546)&rbrack;
 
 * {#ABDHN} A. Anastasiou, [[Leron Borsten]], [[Michael Duff]], L. J. Hughes, S. Nagy, _A magic pyramid of supergravities_, [arXiv:1312.6523](http://arxiv.org/abs/1312.6523)
 
