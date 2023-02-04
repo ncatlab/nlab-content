@@ -150,7 +150,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
   **[M-Theory and Mathematics 2023](M-Theory+and+Mathematics#2023)** -- *Classical and Quantum Aspects*
 
-  > on [[M-theory]] ([[non-perturbative]] [[string theory]])
+  > on [[M-theory]] ([[non-perturbative]] [[string theory]] and related [[quantum field theories]])
 
 <center>
 <a href="https://ncatlab.org/nlab/show/M-Theory+and+Mathematics#2023">
@@ -158,6 +158,16 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 </a>
 </center>
 
+> $\phantom{-----}$ (logo adapted from [JMP **62** (2021) 042301](/schreiber/show/Twisted+Cohomotopy+implies+twisted+String+structure+on+M5-branes))
+
+
+\linebreak
+
+### Feb 2023
+
+* 24 Feb 2023 (upcoming)
+
+  **TII/CQTS workshop**
 
 \linebreak
 
