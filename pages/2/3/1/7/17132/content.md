@@ -4,6 +4,13 @@
 
 ## Selected writings
 
+On [[Freudenthal magic square|magic squares]] of [[magic supergravities]]  and [[U-duality]] via the [[classical double copy]]:
+
+* {#BorstenDuffHughesNagy13} [[Leron Borsten]], [[Michael Duff]], [[Mia J. Hughes]], [[Silvia Nagy]], *A magic square from Yang-Mills squared*, Phys. Rev. Lett. **112** (2014) 131601  &lbrack;[arXiv:1301.4176](http://arxiv.org/abs/1301.4176)&rbrack;
+
+* {#ABDHN} [[Alexandros Anastasiou]], [[Leron Borsten]], [[Michael Duff]], [[Mia J. Hughes]], [[Silvia Nagy]], *A magic pyramid of supergravities*, JHEP (2014) 178 &lbrack;[arXiv:1312.6523](http://arxiv.org/abs/1312.6523)&rbrack;
+
+
 On the [[classical double copy]] ([[KLT relations]], relating [[gravity]] to [[Yang-Mills theory]]) via [[L-infinity algebras|$L_\infty$-algebras]]:
 
 * [[Leron Borsten]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Tommaso Macrelli]], [[Christian Saemann]], [[Martin Wolf]], _Double copy from homotopy algebras_, Fortschritte der Physik, **69** 8-9 (2021) 2100075 $[$[arXiv:2102.11390](https://arxiv.org/abs/2102.11390), [doi:10.1002/prop.202100075](https://doi.org/10.1002/prop.202100075)$]$
