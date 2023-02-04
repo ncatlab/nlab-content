@@ -133,5 +133,7 @@ Section 6.2.2 in
 [[!redirects (infinity,1)-sheaves]]
 [[!redirects infinity-sheaf]]
 [[!redirects infinity-sheaves]]
+[[!redirects ∞-sheaf]]
+[[!redirects ∞-sheaves]]
 [[!redirects (∞,1)-sheaf]]
 [[!redirects (∞,1)-sheaves]]
