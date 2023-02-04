@@ -16,25 +16,15 @@
 
 ## Idea
 
-A normed division algebra is a [[not-necessarily associative algebra]], over some [[ground field]], that is 
+A normed division algebra is a [[not-necessarily associative algebra]] over the real numbers that is: 
 
-1. a [[division algebra]] $\big( \text{i.e.}\, (a \cdot b = 0) \Rightarrow (a = 0 \,\text{or}\, b = 0) \big)$  
+1. [[unital]] (there is an element $1$ such that $1a = a = a1$ for all $a$),
 
-1. a multiplicatively [[normed algebra]] $\big( \text{i.e.}\, {\Vert a \cdot b\Vert}  \leq C \cdot  {\Vert a\Vert} \cdot {\Vert b\Vert} \big)$.
+1. a [[division algebra]] $\big( \text{i.e.}\, (a \cdot b = 0) \Rightarrow (a = 0 \,\text{or}\, b = 0) \big)$, and  
 
-It should be the case (at least maybe for finite-dimensional algebras) that the division property (1) implies that the norm property (2) holds in the stronger form
+1. a [[normed algebra]] such that $\|a b\| = \|a\| \|b\|$ for all $a,b$.
 
-$$
-  {\vert a \cdot b\vert} 
-  \;=\;
-  {\vert a \vert} \cdot {\vert b \vert}
-$$
-
-and this is how most (or all) authors actually define normed division algebras, and that's what we assume to be meant now.
-
-$\,$
-
-It turns out ([[Hurwitz' theorem]]) that over the [[real numbers]] there are precisely only four normed division algebras up to [[isomorphism]]: the algebras of 
+It turns out (by [[Hurwitz' theorem]]) that over the [[real numbers]] there are precisely only four finite-dimensional normed division algebras up to [[isomorphism]]: the algebras of 
 
 1. [[real numbers]], 
 
@@ -69,16 +59,17 @@ This classification of real normed division algebras is closely related to vario
 
 A __normed division algebra__ is 
 
-* a [[division algebra]];
+* a [[division algebra]]
 
-* that is also a [[Banach algebra]].
+* that is also a [[Banach algebra]]
 
-While the [[norm]] in a [[Banach algebra]] is in general only submultiplicative (${\|x y\|} \leq {\|x\|} {\|y\|}$), the norm in a normed division algebra must be multiplicative (${\|x y\|} = {\|x\|} {\|y\|}$).  Accordingly, this norm is considered to be an [[absolute value]] 
-and often written ${|{-}|}$ instead of ${\|{-}\|}$.  There is also a converse: if the norm on a Banach algebra is multiplicative (including ${\|1\|} = 1$), then it must be a division algebra.  While the term 'normed division algebra' does not seem to include the [[complete space|completeness]] condition of a Banach algebra, in fact the only examples have finite [[dimension]] and are therefore complete.
+* such that ${\|x y\|} = {\|x\|} {\|y\|}$
 
-Accordingly, a normed division algebras is in particular a division [[composition algebra]].
+While the [[norm]] in a [[Banach algebra]] is in general only submultiplicative (${\|x y\|} \leq {\|x\|} {\|y\|}$), the norm in a normed division algebra must obey the stronger condition ${\|x y\|} = {\|x\|} {\|y\|}$.  Accordingly, this norm is considered to be an [[absolute value]] 
+and often written ${|{-}|}$ instead of ${\|{-}\|}$.  There is also a converse: if the norm on a Banach algebra is multiplicative (including ${\|1\|} = 1$), then it must be a division algebra.  While the usual definition of a 'normed division algebra' does not include the [[complete space|completeness]] condition of a Banach algebra, in fact 
+([UrbanikWright60](#UrbanikWright60)) the only examples have finite [[dimension]] and are therefore complete, hence Banach algebras.
 
-
+Any normed division algebras is in particular a [[composition algebra]].
 
 ## Properties
 
@@ -119,8 +110,6 @@ However, these algebras do all have some useful algebraic properties; in particu
 A __[[normed field]]__ is a commutative normed division algebra; it follows from the preceding that the only normed fields over $\mathbb{R}$ are $\mathbb{R}$ and $\mathbb{C}$ (e.g. [Tornheim 52](#Tornheim52)).
 
 It is in fact true that all _unital_ normed division algebras over $\mathbb{R}$ are already finite dimensional, by ([Urbanik-Wright 1960](#UrbanikWright60)) (the authors give a reference on a non-unital infinite-dimensional normed division algebra). Hence the [[Hurwitz theorem]] together with [Urbanik-Wright 1960](#UrbanikWright60) says that the above four exhaust all real normed division algebras.
-
-For purely inseparable characteristic 2 field extensions one can apparently get infinite-dimensional examples; see [this MathOverflow answer](http://mathoverflow.net/a/45655/4177) for reference.
 
 ### Automorphisms
  {#Automorphisms}
@@ -187,7 +176,7 @@ Volume 33, Number 1 (1970), 15-20 ([JSTOR](http://projecteuclid.org/euclid.pjm/1
 
 The result about removing the assumption of finite-dimensionality from unital normed division algebras appears in:
 
-* {#UrbanikWright60} Kazimierz Urbanik and Fred B. Wright, _ Absolute-valued algebras_, Proc. Amer. Math. Soc. **11** (1960), 861-866, doi:[10.1090/S0002-9939-1960-0120264-6](https://doi.org/10.1090/S0002-9939-1960-0120264-6)
+* {#UrbanikWright60} Kazimierz Urbanik and Fred B. Wright, _Absolute-valued algebras_, Proc. Amer. Math. Soc. **11** (1960), 861-866, doi:[10.1090/S0002-9939-1960-0120264-6](https://doi.org/10.1090/S0002-9939-1960-0120264-6)
 
 
 Exposition with emphasis on the [[octonions]] is in
