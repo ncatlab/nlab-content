@@ -95,9 +95,9 @@ and is further discussed in
 
 * [[Zvi Bern]], D.C. Dunbar, T. Shimada, _String-Based Methods in Perturbative Gravity_, Phys.Lett.B312:277-284, 1993 ([arXiv:hep-th/9307001](https://arxiv.org/abs/hep-th/9307001))
 
-* A. Anastasiou, L. Borsten, [[Mike Duff]], A. Marrani, S. Nagy, M. Zoccali, _Are all supergravity theories Yang-Mills squared?_ ([arXiv:1707.03234](https://arxiv.org/abs/1707.03234))
+* [[Alexandros Anastasiou]], [[Leron Borsten]], [[Mike Duff]], [[Alessio Marrani]], [[Silvia Nagy]], M. Zoccali, _Are all supergravity theories Yang-Mills squared?_ ([arXiv:1707.03234](https://arxiv.org/abs/1707.03234))
 
-* A. Anastasiou, L. Borsten, M. J. Duff, M. J. Hughes, A. Marrani, S. Nagy, M. Zoccali, _Twin Supergravities from Yang-Mills Squared_, Phys. Rev. D 96, 026013 (2017) ([arXiv:1610.07192](https://arxiv.org/abs/1610.07192))
+* [[Alexandros Anastasiou]], [[Leron Borsten]], [[Mike J. Duff]], M. J. Hughes, A. Marrani, [[Silvia Nagy]], M. Zoccali, _Twin Supergravities from Yang-Mills Squared_, Phys. Rev. D 96, 026013 (2017) ([arXiv:1610.07192](https://arxiv.org/abs/1610.07192))
 
 * {#ABDNZ18} A. Anastasiou, L. Borsten, M. J. Duff, S. Nagy, M. Zoccali, _BRST squared_ ([arXiv:1807.02486](https://arxiv.org/abs/1807.02486))
 
