@@ -107,7 +107,13 @@ $$
 
 ## References
 
-Discussion in [[univalent foundations of mathematics]] ([[homotopy type theory]], but mostly for 1-groups):
+Discussion in [[univalent foundations of mathematics]] ([[homotopy type theory]] with the [[univalence axiom]], but for 1-groups):
+
+
+* [[Martín Escardó]], *[Subgroups](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html#subgroups-sip)*, §33.12 in: *Introduction to Univalent Foundations of Mathematics with Agda* &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580),  [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html)&rbrack;
+
+  > (in [[Agda]])
+
 
 * [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: Chapter 5 of: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$
 
