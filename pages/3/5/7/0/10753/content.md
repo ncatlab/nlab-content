@@ -45,6 +45,11 @@ $$\mathcal{U}_+\equiv \sum_{X:\mathcal{U}}X$$
 
 ## References
 
-* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+* [[Univalent Foundations Project]], [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+
+* [[Martín Escardó]], *[Pointed types](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html#pointed-types)*, §33.5 in: *Introduction to Univalent Foundations of Mathematics with Agda* &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580),  [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html)&rbrack;
+
+
+
 
 [[!redirects pointed types]]
