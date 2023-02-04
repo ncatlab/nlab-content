@@ -185,57 +185,6 @@ $$\frac{\Gamma, f:A \to B, g:A \to B, h:\prod_{x:A} \mathrm{ind}_{A \to B}(f, x)
 
 $$\frac{\Gamma, f:A \to B, g:A \to B, h:\prod_{x:A} \mathrm{ind}_{A \to B}(f, x) =_B \mathrm{ind}_{A \to B}(g, x) \vdash C(f, g, h)}{\Gamma, t:\prod_{k:A \to B} C(k, k, \mathrm{ap}_B(k)), f:A \to B \vdash \beta(t, f):J(t, f, f, \mathrm{ap}_B(f)) =_{C(f, f, \mathrm{ap}_B(f))} \mathrm{ind}_{\prod_{k:A \to B} C(k, k, \mathrm{ap}_B(k))}(t, f)}$$
 
-### Equivalence types
-
-The rules for equivalence types are as follows:
-
-Formation rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
-
-Introduction rules for equivalence types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:\prod_{y:B} f(a) =_B y \\
-      \Gamma \vdash \tau_A:\prod_{x:A} \prod_{y:B} (f(x) =_B y) \to (a =_A x) \quad \Gamma \vdash \tau_B:\prod_{x:A} \prod_{y:B} \prod_{z:f(x) =_B y} b(y) =_B^{\tau_A(x, y, z)} z
-    \end{array}
-  }{\Gamma \vdash \mathrm{equiv}(f, a, b, \tau_A, \tau_B):A \simeq B}$$
-
-Elimination rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:A \simeq B, x:A \vdash \mathrm{ev}(R, x):B}$$
-
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, R:A \simeq B \\
-      \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c_R:\prod_{x:A} C(\mathrm{ev}(R, x)) \quad \Gamma \vdash b:B
-    \end{array}
-  }{\Gamma \vdash \mathrm{ind}_{A \simeq B}^C(R, c_R, b):C(b)}$$
-
-Computation rules for equivalence types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:A \simeq B \\
-      \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c_R:\prod_{x:A} C(\mathrm{ev}(R, x)) \quad \Gamma \vdash a:A
-    \end{array}
-  }{\Gamma \vdash \beta_{A \simeq B}(R, c_R, a):\mathrm{ind}_{A \simeq B}^C(R, c_R, \mathrm{ev}(R, a)) =_{C(\mathrm{ev}(R, a))} c_R(a)}$$
-
-Uniqueness rules for equivalence types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:A \simeq B \\
-      \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{y:B} C(y) \quad \Gamma \vdash b:B
-    \end{array}
-  }{\Gamma \vdash \eta_{A \simeq B}(R, c, b):c(b) =_{C(b)} \mathrm{ind}_{A \simeq B}^C(R, c, b)}$$
-
-### Structural rules for definitions
-
-Now that we have finally defined identification types, we can define the structural rules for term definitions. The structural rules for term definitions say that given a term $a:A$ and a term definition $b \coloneqq a:A$, one could derive that $b$ is a term of $A$, and that there is an identification between $b$ and $a$:
-
-$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash a:A \quad \Gamma \vdash b \coloneqq a:A}{\Gamma \vdash \delta_A(a, b):a =_A b}$$
-
-Similarly, now that we have finally defined function types and equivalence types, we can define the structural rules for type definitions. The structural rules for type definitions say that given a type $A$ and a type definition $B \coloneqq A \; \mathrm{type}$, one could derive that $B$ is a type and that there is an equivalence between $A$ and $B$:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash \delta_{A, B}:A \simeq B}$$
-
 ### Dependent heterogeneous identification types
 
 Now that we have identification types and dependent product types, we can define dependent heterogeneous identification types, which are important for defining the rules for higher inductive types. 
@@ -313,6 +262,16 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathr
 
 Uniqueness rules for dependent pair types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, z:\sum_{x:A} B(x) \vdash \eta_{\sum_{x:A} B(x)}(z):z =_{\sum_{x:A} B(x)} \mathrm{in}(\mathrm{ind}_{\sum_{x:A} B(x))}^A(z), \mathrm{ind}_{\sum_{x:A} B(x)}^B(z))}$$
+
+### Structural rules for definitions
+
+Now that we have finally defined identification types, we can define the structural rules for term definitions. The structural rules for term definitions say that given a term $a:A$ and a term definition $b \coloneqq a:A$, one could derive that $b$ is a term of $A$, and that there is an identification between $b$ and $a$:
+
+$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b \coloneqq a:A}{\Gamma \vdash b:A} \qquad \frac{\Gamma \vdash a:A \quad \Gamma \vdash b \coloneqq a:A}{\Gamma \vdash \delta_A(a, b):a =_A b}$$
+
+Similarly, now that we have finally defined identification types, dependent function types, function types, and dependent pair types, we can define the structural rules for type definitions. The structural rules for type definitions say that given a type $A$ and a type definition $B \coloneqq A \; \mathrm{type}$, one could derive that $B$ is a type and that there is an equivalence between $A$ and $B$:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash \delta_{A, B}:\sum_{f:A \to B} \prod_{y:B} \sum_{p:\sum_{x:A} f(x) =_B y} \prod_{q:\sum_{x:A} f(x) =_B y} p =_{\sum_{x:A} f(x) =_B y} q}$$
 
 ### Positive types
 
