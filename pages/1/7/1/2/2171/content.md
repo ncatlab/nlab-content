@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -421,13 +420,17 @@ It has been shown ([An & Maciazek 2006](#AnMaciazek2006), using discrete [[Morse
 \linebreak
 
 
+
 #### By generators and relations
  {#ByGeneratorsAndRelations}
 
-The braid group as  a [[finitely generated group]]:
+The braid group as  a [[finitely generated group]]
+([Artin 1925, (5)-(6)](#Artin25); [Artin 1947, (18)-(19)](#Artin47);
+review in, e.g.:  [Fox & Neuwirth 1962, §7](#FoxNeuwirth62)):
 
 \begin{definition}\label{ArtinPresentation}
 **(Artin presentation)**
+
 \linebreak
 
 The **Artin braid group**, $Br({n+1})$, on $n+1$ strands is the [[finitely generated group]] given via [[generators and relations]] by:
@@ -442,7 +445,9 @@ The **Artin braid group**, $Br({n+1})$, on $n+1$ strands is the [[finitely gener
 \begin{tikzcd}
 b_i
 \;:=\;
+\color{orange}
 \left[
+\color{black}
 \raisebox{6pt}{
 \begin{tikzpicture}
 
@@ -498,14 +503,18 @@ b_i
 
 \end{tikzpicture}
 }
+\color{orange}
 \right]
+\color{black}
 \end{tikzcd}
 
 
 \begin{tikzcd}
 b_i^{-1}
 \;:=\;
+\color{orange}
 \left[
+\color{black}
 \raisebox{6pt}{
 \begin{tikzpicture}
 
@@ -561,40 +570,613 @@ b_i^{-1}
 
 \end{tikzpicture}
 }
+\color{orange}
 \right]
+\color{black}
 \end{tikzcd}
 
 
 
 
-* relations: 
+* relations I: 
 
   \[
     \label{ArtinRelations}
-    \begin{array}{ccccc}
     \underset{
       i+1 \lt j    
     }{\forall}
-    &\;&
+    \;\;\;
      b_i \cdot b_j 
-     &=&  
+     \;=\;  
      b_j \cdot b_i
-    \\
+  \]
+
+\begin{tikzcd}
+\color{orange}
+\left[
+\color{black}
+\raisebox{-20pt}{
+\begin{tikzpicture}
+
+\begin{scope}
+
+\begin{scope}[shift={(-1.6,0)}]
+\draw[line width=1.4]
+  (-.5,1) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,1) to (+.5,-1);
+\draw
+  (-0,-.1) node {$\mathclap{\cdots}$};
+\end{scope}
+
+\draw[line width=1.4]
+  (-.35,-1) 
+  .. controls (-.35,0) and (+.35,0)  .. 
+  (+.35,1);
+
+\draw[line width=4.5, white]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\draw[line width=1.4]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+
+\begin{scope}[shift={(+1.6,0)}]
+\draw[line width=1.4]
+  (-.5,1) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,1) to (+.5,-1);
+\draw
+  (-0,-.1) node {$\mathclap{\cdots}$};
+\end{scope}
+
+
+\begin{scope}[shift={(3.2,0)}]
+\draw[line width=1.4]
+  (-.35,-1)
+  -- 
+  (-.35,1);
+
+\draw[line width=1.4]
+  (+.35,-1) 
+  --
+  (+.35,1);
+\end{scope}
+
+\begin{scope}[shift={(+4.8,0)}]
+\draw[line width=1.4]
+  (-.5,1) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,1) to (+.5,-1);
+\draw
+  (-0,-.1) node {$\mathclap{\cdots}$};
+\end{scope}
+
+
+\draw 
+  (-2.1, -1.3) node {\color{blue}\scalebox{.5}{$1$}};
+
+\draw 
+  (-1.1, -1.3) node {\color{blue}\scalebox{.5}{$i\!-\!1$}};
+
+\draw 
+  (-.4, -1.3) node {\color{blue}\scalebox{.5}{$i$}};
+
+\draw 
+  (+.35, -1.3) node {\color{blue}\scalebox{.5}{$i\!+\!1$}};
+
+\draw 
+  (+1.1, -1.3) node {\color{blue}\scalebox{.5}{$i\!+\!2$}};
+
+\draw 
+  (+2.1, -1.3) node {\color{blue}\scalebox{.5}{$j\!-\!1$}};
+
+\draw 
+  (+2.8, -1.3) node {\color{blue}\scalebox{.5}{$j$}};
+
+\draw 
+  (+3.5, -1.3) node {\color{blue}\scalebox{.5}{$j\!+\!1$}};
+
+\draw 
+  (+4.3, -1.3) node {\color{blue}\scalebox{.5}{$j\!+\!2$}};
+
+\draw 
+  (+5.3, -1.3) node {\color{blue}\scalebox{.5}{$n\!+\!1$}};
+
+\end{scope}
+
+
+
+\begin{scope}[shift={(0,2)}]
+
+\begin{scope}[shift={(-1.6,0)}]
+\draw[line width=1.4]
+  (-.5,1) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,1) to (+.5,-1);
+\draw
+  (-0,-.1) node {$\mathclap{\cdots}$};
+\end{scope}
+
+\begin{scope}
+\draw[line width=1.4]
+  (-.35,-1)
+  -- 
+  (-.35,1);
+
+\draw[line width=1.4]
+  (+.35,-1) 
+  --
+  (+.35,1);
+\end{scope}
+
+\begin{scope}[shift={(+1.6,0)}]
+\draw[line width=1.4]
+  (-.5,1) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,1) to (+.5,-1);
+\draw
+  (-0,-.1) node {$\mathclap{\cdots}$};
+\end{scope}
+
+
+\begin{scope}[shift={(3.2,0)}]
+\draw[line width=1.4]
+  (-.35,-1) 
+  .. controls (-.35,0) and (+.35,0)  .. 
+  (+.35,1);
+\draw[line width=4.5, white]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\draw[line width=1.4]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\end{scope}
+
+\begin{scope}[shift={(+4.8,0)}]
+\draw[line width=1.4]
+  (-.5,1) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,1) to (+.5,-1);
+\draw
+  (-0,-.1) node {$\mathclap{\cdots}$};
+\end{scope}
+
+\end{scope}
+
+\end{tikzpicture}
+}
+\color{orange}
+\right]
+\color{black}
+\;\;\;\;\; 
+  =
+\;\;\;\;\;
+\color{orange}
+\left[
+\color{black}
+\raisebox{-20pt}{
+\begin{tikzpicture}
+
+
+\begin{scope}[shift={(0,2)}]
+
+\begin{scope}
+
+\begin{scope}[shift={(-1.6,0)}]
+\draw[line width=1.4]
+  (-.5,1) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,1) to (+.5,-1);
+\draw
+  (-0,-.1) node {$\mathclap{\cdots}$};
+\end{scope}
+
+\draw[line width=1.4]
+  (-.35,-1) 
+  .. controls (-.35,0) and (+.35,0)  .. 
+  (+.35,1);
+
+\draw[line width=4.5, white]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\draw[line width=1.4]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+
+\begin{scope}[shift={(+1.6,0)}]
+\draw[line width=1.4]
+  (-.5,1) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,1) to (+.5,-1);
+\draw
+  (-0,-.1) node {$\mathclap{\cdots}$};
+\end{scope}
+
+
+\begin{scope}[shift={(3.2,0)}]
+\draw[line width=1.4]
+  (-.35,-1)
+  -- 
+  (-.35,1);
+
+\draw[line width=1.4]
+  (+.35,-1) 
+  --
+  (+.35,1);
+\end{scope}
+
+\begin{scope}[shift={(+4.8,0)}]
+\draw[line width=1.4]
+  (-.5,1) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,1) to (+.5,-1);
+\draw
+  (-0,-.1) node {$\mathclap{\cdots}$};
+\end{scope}
+
+\end{scope}
+
+\end{scope}
+
+
+\begin{scope}[shift={(0,0)}]
+
+\begin{scope}[shift={(-1.6,0)}]
+\draw[line width=1.4]
+  (-.5,1) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,1) to (+.5,-1);
+\draw
+  (-0,-.1) node {$\mathclap{\cdots}$};
+\end{scope}
+
+\begin{scope}
+\draw[line width=1.4]
+  (-.35,-1)
+  -- 
+  (-.35,1);
+
+\draw[line width=1.4]
+  (+.35,-1) 
+  --
+  (+.35,1);
+\end{scope}
+
+\begin{scope}[shift={(+1.6,0)}]
+\draw[line width=1.4]
+  (-.5,1) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,1) to (+.5,-1);
+\draw
+  (-0,-.1) node {$\mathclap{\cdots}$};
+\end{scope}
+
+
+\begin{scope}[shift={(3.2,0)}]
+\draw[line width=1.4]
+  (-.35,-1) 
+  .. controls (-.35,0) and (+.35,0)  .. 
+  (+.35,1);
+\draw[line width=4.5, white]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\draw[line width=1.4]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\end{scope}
+
+\begin{scope}[shift={(+4.8,0)}]
+\draw[line width=1.4]
+  (-.5,1) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,1) to (+.5,-1);
+\draw
+  (-0,-.1) node {$\mathclap{\cdots}$};
+\end{scope}
+
+
+\draw 
+  (-2.1, -1.3) node {\color{blue}\scalebox{.5}{$1$}};
+
+\draw 
+  (-1.1, -1.3) node {\color{blue}\scalebox{.5}{$i\!-\!1$}};
+
+\draw 
+  (-.4, -1.3) node {\color{blue}\scalebox{.5}{$i$}};
+
+\draw 
+  (+.35, -1.3) node {\color{blue}\scalebox{.5}{$i\!+\!1$}};
+
+\draw 
+  (+1.1, -1.3) node {\color{blue}\scalebox{.5}{$i\!+\!2$}};
+
+\draw 
+  (+2.1, -1.3) node {\color{blue}\scalebox{.5}{$j\!-\!1$}};
+
+\draw 
+  (+2.8, -1.3) node {\color{blue}\scalebox{.5}{$j$}};
+
+\draw 
+  (+3.5, -1.3) node {\color{blue}\scalebox{.5}{$j\!+\!1$}};
+
+\draw 
+  (+4.3, -1.3) node {\color{blue}\scalebox{.5}{$j\!+\!2$}};
+
+\draw 
+  (+5.3, -1.3) node {\color{blue}\scalebox{.5}{$n\!+\!1$}};
+
+
+\end{scope}
+
+\end{tikzpicture}
+}
+\color{orange}
+\right]
+\color{black}
+\end{tikzcd}
+
+\linebreak
+
+* relations II
+
+  \[
     \underset{
       1 \leq i \lt n    
     }{\forall}
-    &&
+    \;\;\;
     b_i \cdot b_{i+1} \cdot b_i 
-    &=&
+    \;=\;
     b_{i+1} \cdot b_i \cdot b_{i+1}
-    \end{array}
   \]
+
+\begin{tikzcd}
+\color{orange}
+\left[
+\color{black}
+\raisebox{-24pt}{
+\begin{tikzpicture}[yscale=.5]
+
+\begin{scope}[shift={(-1.6,0)}]
+\draw[line width=1.4]
+  (-.5,5) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,5) to (+.5,-1);
+\draw
+  (-0,2.2) node {$\mathclap{\cdots}$};
+\end{scope}
+
+\begin{scope}[shift={(0,4)}]
+\draw[line width=1.4]
+  (-.35,-1) 
+  .. controls (-.35,0) and (+.35,0)  .. 
+  (+.35,1);
+
+\draw[line width=4.5, white]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\draw[line width=1.4]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\end{scope}
+
+\draw[line width=1.4]
+  (-.35,3) 
+  --
+  (-.35,1);
+
+\draw[line width=1.4]
+  (+1.05,5) 
+  --
+  (+1.05,3);
+
+
+\begin{scope}[shift={(.7,2)}]
+\draw[line width=1.4]
+  (-.35,-1) 
+  .. controls (-.35,0) and (+.35,0)  .. 
+  (+.35,1);
+
+\draw[line width=4.5, white]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\draw[line width=1.4]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\end{scope}
+
+
+\begin{scope}
+\draw[line width=1.4]
+  (-.35,-1) 
+  .. controls (-.35,0) and (+.35,0)  .. 
+  (+.35,1);
+
+\draw[line width=4.5, white]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\draw[line width=1.4]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\end{scope}
+
+ \draw[line width=1.4]
+   (1.05,1) to (1.05,-1);
+
+\begin{scope}[shift={(+2.4,0)}]
+\draw[line width=1.4]
+  (-.5,5) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,5) to (+.5,-1);
+\draw
+  (-0,2.2) node {$\mathclap{\cdots}$};
+\end{scope}
+
+\draw 
+  (-2.1, -1.4) node {\color{blue}\scalebox{.5}{$1$}};
+
+\draw 
+  (-1.1, -1.4) node {\color{blue}\scalebox{.5}{$i\!-\!1$}};
+
+\draw 
+  (-.4, -1.4) node {\color{blue}\scalebox{.5}{$i$}};
+
+\draw 
+  (+.35, -1.4) node {\color{blue}\scalebox{.5}{$i\!+\!1$}};
+
+\draw 
+  (+1.1, -1.4) node {\color{blue}\scalebox{.5}{$i\!+\!2$}};
+
+\draw 
+  (+1.9, -1.4) node {\color{blue}\scalebox{.5}{$i\!+\!3$}};
+
+\draw 
+  (+2.9, -1.4) node {\color{blue}\scalebox{.5}{$n\!+\!1$}};
+\end{tikzpicture}
+}
+\color{orange}
+\right]
+\color{black}
+\;\;\;\;\;
+=
+\;\;\;\;
+\color{orange}
+\left[
+\color{black}
+\raisebox{-24pt}{
+\begin{tikzpicture}[yscale=.5]
+
+\begin{scope}[shift={(-1.6,0)}]
+\draw[line width=1.4]
+  (-.5,5) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,5) to (+.5,-1);
+\draw
+  (-0,2.2) node {$\mathclap{\cdots}$};
+\end{scope}
+
+\begin{scope}[shift={(.7,4)}]
+\draw[line width=1.4]
+  (-.35,-1) 
+  .. controls (-.35,0) and (+.35,0)  .. 
+  (+.35,1);
+
+\draw[line width=4.5, white]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\draw[line width=1.4]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\end{scope}
+
+
+\draw[line width=1.4]
+  (1.05,3) 
+  --
+  (1.05,1);
+
+\draw[line width=1.4]
+  (-.35,5) 
+  --
+  (-.35,3);
+
+
+\draw[line width=1.4]
+  (-.35,1) 
+  -- 
+  (-.35,-1);
+
+
+\begin{scope}[shift={(0,2)}]
+\draw[line width=1.4]
+  (-.35,-1) 
+  .. controls (-.35,0) and (+.35,0)  .. 
+  (+.35,1);
+
+\draw[line width=4.5, white]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\draw[line width=1.4]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\end{scope}
+
+
+\begin{scope}[shift={(.7,0)}]
+\draw[line width=1.4]
+  (-.35,-1) 
+  .. controls (-.35,0) and (+.35,0)  .. 
+  (+.35,1);
+
+\draw[line width=4.5, white]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\draw[line width=1.4]
+  (+.35,-1) 
+  .. controls (+.35,0) and (-.35,0)  .. 
+  (-.35,1);
+\end{scope}
+
+
+\begin{scope}[shift={(+2.4,0)}]
+\draw[line width=1.4]
+  (-.5,5) to (-.5,-1);
+\draw[line width=1.2]
+  (+.5,5) to (+.5,-1);
+\draw
+  (-0,2.2) node {$\mathclap{\cdots}$};
+\end{scope}
+
+\draw 
+  (-2.1, -1.4) node {\color{blue}\scalebox{.5}{$1$}};
+
+\draw 
+  (-1.1, -1.4) node {\color{blue}\scalebox{.5}{$i\!-\!1$}};
+
+\draw 
+  (-.4, -1.4) node {\color{blue}\scalebox{.5}{$i$}};
+
+\draw 
+  (+.35, -1.4) node {\color{blue}\scalebox{.5}{$i\!+\!1$}};
+
+\draw 
+  (+1.1, -1.4) node {\color{blue}\scalebox{.5}{$i\!+\!2$}};
+
+\draw 
+  (+1.9, -1.4) node {\color{blue}\scalebox{.5}{$i\!+\!3$}};
+
+\draw 
+  (+2.9, -1.4) node {\color{blue}\scalebox{.5}{$n\!+\!1$}};
+\end{tikzpicture}
+}
+\color{orange}
+\right]
+\color{black}
+\end{tikzcd}
+
 
 \end{definition}
 
 
-([Artin 1925, (5)-(6)](#Artin25); [Artin 1947, (18)-(19)](#Artin47);
-review in, e.g.:  [Fox & Neuwirth 1962, §7](#FoxNeuwirth62))
 
 
 
