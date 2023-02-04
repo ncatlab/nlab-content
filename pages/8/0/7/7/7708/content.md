@@ -257,6 +257,12 @@ Discussion in the context of the [[philosophy]] of [[structuralism]]:
 
 * [[Dimitris Tsementzis]], §5.1 in: *Univalent foundations as structuralist foundations*, Synthese **194** 9 (2017) 3583–3617 &lbrack;[jstor:26748765](https://www.jstor.org/stable/26748765), [doi:10.1007/s11229-016-1109-x](https://doi.org/10.1007/s11229-016-1109-x), [pdf](https://core.ac.uk/download/pdf/157866891.pdf)&rbrack;
 
+Expressions towards the notion that, thereby the notions of *mathematical structures* are *data structures* may be understood to coincide (just along the lines of *[[types]]* being *[[data types]]*):
+
+* [[Thomas Kehrenberg]], *Basic building blocks of dependent type theory* (Dec. 2022) &lbrack;[post on LessWrong](https://www.lesswrong.com/posts/ccbsYSpTcTqXwukH8/basic-building-blocks-of-dependent-type-theory), [post on personal blog](https://tm.kehrenberg.net/a/type-theory1/)&rbrack;
+
+> "An example of a use case for non-binary sum types is the definition of mathematical “data structures” like a ring or a group. These data structures are usually defined as..."
+
 
 
 
