@@ -171,9 +171,9 @@ A textbook account is in
 
 Systematization of U-duality via the relation between [[supersymmetry and division algebras]] and the [[Freudenthal magic square]] is due to
 
-* [[Leron Borsten]], [[Michael Duff]], L. J. Hughes, S. Nagy, _A magic square from Yang-Mills squared_ ([arXiv:1301.4176](http://arxiv.org/abs/1301.4176))
+* {#BorstenDuffHughesNagy13} [[Leron Borsten]], [[Michael Duff]], [[Mia J. Hughes]], [[Silvia Nagy]], *A magic square from Yang-Mills squared*, Phys. Rev. Lett. **112** (2014) 131601  &lbrack;[arXiv:1301.4176](http://arxiv.org/abs/1301.4176)&rbrack;
 
-* {#ABDHN} A. Anastasiou, [[Leron Borsten]], [[Michael Duff]], L. J. Hughes, S. Nagy, _A magic pyramid of supergravities_, [arXiv:1312.6523](http://arxiv.org/abs/1312.6523)
+* {#ABDHN} [[Alexandros Anastasiou]], [[Leron Borsten]], [[Michael Duff]], [[Mia J. Hughes]], [[Silvia Nagy]], *A magic pyramid of supergravities*, JHEP (2014) 178 &lbrack;[arXiv:1312.6523](http://arxiv.org/abs/1312.6523)&rbrack;
 
 
 Quick surveys include
