@@ -42,7 +42,7 @@ Relation to [[Hypothesis H]] via [[automorphisms]] of [[iterated loop space|iter
 
 * [[Hisham Sati]], [[Alexander Voronov]], *Mysterious Triality and Rational Homotopy Theory*, Comm. Math. Phys. (2023) &lbrack;[arXiv:2111.14810](https://arxiv.org/abs/2111.14810)&rbrack;
 
-* [[Hisham Sati]], [[Alexander Voronov]], *Mysterious Triality and M-Theory* &lbrack;[arXiv:2212.13968](https://arxiv.org/abs/2212.13968)
+* [[Hisham Sati]], [[Alexander Voronov]], *Mysterious Triality and M-Theory* &lbrack;[arXiv:2212.13968](https://arxiv.org/abs/2212.13968)&rbrack;
 
 
 review:
