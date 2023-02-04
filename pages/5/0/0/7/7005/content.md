@@ -469,6 +469,10 @@ Implementation of univalence in [[proof assistants]]:
 
 in [[Agda]]:
 
+* [[Martín Escardó]], *[Voevodsky’s univalence axiom](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html#univalence)*, §3.11 in: *Introduction to Univalent Foundations of Mathematics with Agda* &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580),  [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html)&rbrack;
+
+[[cubical Agda]]:
+
 * [[1lab]], *[Univalence](https://1lab.dev/1Lab.Univalence.html)*
 
 in [[Coq]]:
