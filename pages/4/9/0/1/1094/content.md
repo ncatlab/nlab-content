@@ -393,4 +393,5 @@ Discussion in [[homotopy type theory]] is in
 category: sheaf theory
 [[!redirects sheafification functor]]
 [[!redirects associated sheaf]]
+[[!redirects associated sheaves]]
 [[!redirects associated sheaf functor]]
