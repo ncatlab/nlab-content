@@ -79,7 +79,13 @@ The wikipedia entry [magma](http://en.wikipedia.org/wiki/Magma_%28algebra%29) is
 * [[eom]]: [magma](http://www.encyclopediaofmath.org/index.php?title=m/m110040)
 * R.H. Bruck, _A survey of binary systems_, Springer-Verlag 1958
 
-Formalization in [[cubical type theory|cubical]] [[homotopy type theory]]:
+Formalization of magmas as [[mathematical structures]] in [[proof assistants]]:
+
+in a context of plain [[Agda]]:
+
+* [[Martín Escardó]], *[The Types of Magmas and Monoids](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html#magmasandmonoids)*, §4 in: *Introduction to Univalent Foundations of Mathematics with Agda* &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580),  [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html)&rbrack;
+
+in a context of [[cubical type theory|cubical]] [[Agda]]:
 
 * [[1lab]]: *[Algebra.Magma](https://1lab.dev/Algebra.Magma.html)*
 
