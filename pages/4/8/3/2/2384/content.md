@@ -115,15 +115,15 @@ A [[pedigrad]] is a model for a limit sketch defined on a [category of segments]
 
 Stock-flow diagrams and petri nets:
 
-* [[John Baez|JC Baez]], X Li, S Libkind, N Osgood and E Patterson, _Compositional modeling with stock and flow diagrams_, [pdf](https://arxiv.org/pdf/2205.08373.pdf)
+* [[John Baez|JC Baez]], X Li, S Libkind, N Osgood and E Patterson, _Compositional modeling with stock and flow diagrams_, [arXiv:2205.08373](https://arxiv.org/abs/2205.08373)
 
-* A Baas, J Fairbanks, M Halter, S Libkind and E Patterson, _An algebraic framework for structured epidemic modeling_, [pdf](https://arxiv.org/pdf/2203.16345.pdf)
+* A Baas, J Fairbanks, M Halter, S Libkind and E Patterson, _An algebraic framework for structured epidemic modeling_, [arXiv:2203.16345](https://arxiv.org/abs/2203.16345)
 
-* [[John Baez|JC Baez]], BS Pollard, _A Compositional Framework for Reaction Networks_, [pdf](https://arxiv.org/pdf/1704.02051.pdf)
+* [[John Baez|JC Baez]], BS Pollard, _A Compositional Framework for Reaction Networks_, [arXiv:1704.02051](https://arxiv.org/abs/1704.02051)
 
 Pedigrads:
 
-* [[Remy Tuyeras|R Tuyeras]], _Category theory for genetics I: mutations and sequence alignments_, Theory and Applications of Categories, Vol. 33, 2018, No. 40, pp 1269-1317, [pdf](http://www.tac.mta.ca/tac/volumes/33/40/33-40abs.html5)
+* [[Remy Tuyeras|R Tuyeras]], _Category theory for genetics I: mutations and sequence alignments_, Theory and Applications of Categories, Vol. 33, 2018, No. 40, pp 1269-1317, [link](http://www.tac.mta.ca/tac/volumes/33/40/33-40abs.html)
 
 * [[Remy Tuyeras|R Tuyeras]], _Category theory for genetics II: genotype, phenotype and haplotype_, [arXiv:1805.07004](https://arxiv.org/abs/1805.07004)
 
