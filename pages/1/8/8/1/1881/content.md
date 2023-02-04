@@ -106,7 +106,7 @@ Alternatively, the free monoid on $A$ can be constructed via the [[James constru
 
 *  If $S$ is $\mathbf{N}$, then $\mathbf{N}^*$ is still a [[denumerable set]].  But note that $\mathbf{N} \cong \mathbf{N}^*$ only as sets (that is, ${|\mathbf{N}^*|} = {|\mathbf{N}|} = \aleph_0$ as [[cardinal numbers]]); they are quite different as monoids.
 
-*  Generalising the above, ${|S^*|} = {|S|}$ is $S$ is an [[infinite set]], or more generally ${|S^*|} = max(\aleph_0,S)$ if $S$ is an [[inhabited set]].  (These theorems probably require the [[axiom of choice]], but I haven\'t checked thoroughly.)
+*  Generalising the above, ${|S^*|} = {|S|}$ if $S$ is an [[infinite set]], or more generally ${|S^*|} = max(\aleph_0,S)$ if $S$ is an [[inhabited set]].  (These theorems probably require the [[axiom of choice]], but I haven\'t checked thoroughly.)
 
 In [[computer science]], the free monoid on a given [[alphabet]] is the [[categorical semantics]] for the [[data type]] "[[String (computer science)|String]]" with characters in that alphabet.
 
