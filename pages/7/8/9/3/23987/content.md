@@ -203,6 +203,9 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 ## Quantum Colloquium
  {#CQTSColloquium}
 
+Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum computation]] and specifically on [[topological quantum computation]] and [[dependent type theory|dependently typed]] [[quantum programming languages]].
+
+\linebreak
 
 ### May 2022
 
@@ -448,7 +451,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 ## Geometry, Topology & Physics (GTP) Seminar
  {#GTPSeminar}
 
-**Geometry, Topology and Physics Seminar**
+Weekly seminar, broadly on topics in [[geometry]], [[topology]] and [[theoretical physics|theoretical]]/[[mathematical physics]], with some focus on applicability to [[high energy physics]]/[[string theory]] and [[quantum systems]].
 
 \linebreak
 
