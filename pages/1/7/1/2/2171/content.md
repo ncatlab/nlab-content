@@ -1512,6 +1512,7 @@ Survey of the early history:
 
 * [[Michael Friedman (historian)]], *Mathematical formalization and diagrammatic reasoning: the case study of the braid group between 1925 and 1950*, British Journal for the History of Mathematics **34** 1 (2019) 43-59 &lbrack;[doi:10.1080/17498430.2018.1533298](https://doi.org/10.1080/17498430.2018.1533298)&rbrack;
 
+
 The understanding of the braid group as the [[fundamental group]] of a [[configuration space of points]] was re-discovered/re-vived (after [Hurwitz 1891](#Hurwitz1891)) in:
 
 * {#FoxNeuwirth62} [[Ralph H. Fox]], [[Lee Neuwirth]], *The braid groups*, Math. Scand. **10** (1962) 119-126 $[$[doi:10.7146/math.scand.a-10518](https://doi.org/10.7146/math.scand.a-10518), [pdf](https://www.mscand.dk/article/view/10518/8539), [MR150755](http://www.ams.org/mathscinet-getitem?mr=150755)$]$
@@ -1538,11 +1539,24 @@ Further introduction and review:
 
 * {#Williams20} [[Lucas Williams]], *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal, **21** 1 (2020) Article 8. ([arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8](https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8))
 
+See also:
+
+* Wikipedia: _[Braid group](http://en.wikipedia.org/wiki/Braid_group)_
+
+
+
 Algebraic presentation of braid groups:
 
 * [[Warren Dicks]], Edward Formanek, around Ex. 15.2 of: *Algebraic Mapping-Class Groups of Orientable Surfaces with Boundaries*, in: *Infinite Groups: Geometric, Combinatorial and Dynamical Aspects*, Progress in Mathematics **248** Birkhäuser (2005) &lbrack;[doi :10.1007/3-7643-7447-0_4](https://doi.org/10.1007/3-7643-7447-0_4)&rbrack;
 
 * [Bacardit & Dicks 2009](#BacarditDicks09)
+
+More [[finitely presented group|finite presentations]] of the *pure* braid group:
+
+* [[Dan Margalit]], [[Jon McCammond]], *Geometric presentations for the pure braid group*,  Journal of Knot Theory and Its Ramifications **18** 01 (2009) 1-20 &lbrack;[arXiv:math/0603204](https://arxiv.org/abs/math/0603204), [doi:10.1142/S0218216509006859](https://doi.org/10.1142/S0218216509006859)&rbrack;
+
+* [[Eon-Kyung Lee]], *A positive presentation of the pure braid group*, Journal of the Chungcheong Mathematical Society **23** 3 (2010) 555-561 &lbrack;[JAKO201007648745187](https://koreascience.kr/article/JAKO201007648745187.view?orgId=anpor), [pdf](http://www.ccms.or.kr/data/pdfpaper/jcms23_3/23_3_555.pdf)&rbrack;
+
 
 More on the braid representation on [[automorphism group|automorphisms]] of [[free groups]]:
 
@@ -1553,9 +1567,6 @@ More on the braid representation on [[automorphism group|automorphisms]] of [[fr
 * Tetsuya Ito, *Actions of the $n$-strand braid groups on the free group of rank n which are similar to the Artin representation*, Quart. J. Math **66** (2015) 563-581 &lbrack;[arXiv;1406.2411](https://arxiv.org/abs/1406.2411), [doi:10.1093/qmath/hau033](https://doi.org/10.1093/qmath/hau033)&rbrack;
 
 
-See also:
-
-* Wikipedia: _[Braid group](http://en.wikipedia.org/wiki/Braid_group)_
 
 On the [[group homology]] and [[group cohomology]] of braid groups:
 
@@ -1566,7 +1577,7 @@ Relation of [[automorphism groups]] of the [[profinite completion]] of braid gro
 * [[Pierre Lochak]], [[Leila Schneps]], *The Grothendieck-Teichmüller group and automorphisms of braid groups*, in: *The Grothendieck Theory of Dessins d’Enfant*, Cambridge University Press (1994, 2011) &lbrack;[pdf](https://webusers.imj-prg.fr/~leila.schneps/Fls.pdf), [doi:10.1017/CBO9780511569302](https://doi.org/10.1017/CBO9780511569302)&rbrack;
 
 
-For orderings of the braid group see
+On orderings of the braid group:
 
 * [[Patrick Dehornoy]], _Braid groups and left distributive operations_ , Transactions AMS **345** no.1 (1994) pp.115&#8211;150.
 
@@ -1574,7 +1585,8 @@ For orderings of the braid group see
 
 On geometric presentations of braid groups:
 
-* An, Byung Hee and Maciazek, Tomasz, Geometric Presentations of Braid Groups for Particles on a Graph, Communications in Mathematical Physics (2021) volume 384, pp. 1109-1140,(http://dx.doi.org/10.1007/s00220-021-04095-x)  
+* Byung Hee An, Tomasz Maciazek, *Geometric Presentations of Braid Groups for Particles on a Graph*, Communications in Mathematical Physics **384** (2021) 1109-1140 &lbrack;[doi:10.1007/s00220-021-04095-x](http://dx.doi.org/10.1007/s00220-021-04095-x)&rbrack;  
+
 
 
 [[!include braid group representations -- references]]
