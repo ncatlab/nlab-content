@@ -767,7 +767,21 @@ Stone-von Neumann**
   > on [[cohesive homotopy type theory]] with two commuting notions of [[cohesion]]
 
 
-  
+\linebreak
+
+### Feb 2023
+
+* {#HuangFeb23} 8 Feb 2023
+
+  [[Ruizhi Huang]] (Chinese Academy of Sciences) 
+
+  **Fractional structures on bundle gerbe modules and fractional classifying spaces**
+
+  cf.: [arXiv:2203.14439](https://arxiv.org/abs/2203.14439)
+
+  > Both [[higher structures]] and [[bundle gerbe modules]] play important roles in modern [[geometry]] and [[mathematical physics]]. [[bundle gerbe module|Bundle gerbe modules]] is a [[twisted vector bundle|twisted version]] of [[vector bundles]], and was introduced by Bouwknegt-Carey-Mathai-Murray-Stevenson in 2002. In particular, they introduced the [[twisted Chern character]] from the perspective of [[Chern-Weil theory]]. In a recent joint work with Han and Mathai, we study the [[homotopy theory]] aspects of the twisted Chern classes of torsion bundle gerbe modules. Using Sullivan's [[rational homotopy theory]], we realize the twisted Chern classes at the level of [[classifying spaces]]. The construction suggests a notion, which we call fractional U-structure serving as a universal framework to study the twisted Chern classes of torsion bundle gerbe modules from the perspective of classifying spaces. Based on this, we introduce and study higher fractional structures on torsion bundle gerbe modules parallel to the higher structures on ordinary vector bundles.   
+
+
 
 \linebreak
 
