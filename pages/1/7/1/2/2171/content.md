@@ -6,8 +6,13 @@
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
 =--
 =--
+=--
+
 
 
 #Contents#
@@ -15,423 +20,58 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-The _braid group_ $Br(n)$ is the [[group]] whose elements are [[isotopy]] classes of $n$ [[dimension|1-dimensional]] _braids_ running vertically in 3-dimensional [[Cartesian space]], the group operation being their concatenation.
-
-Here a _braid_ with $n$ strands is thought of as $n$ pieces of string joining $n$ points at the top of the diagram with $n$-points at the bottom.
-
+By a *braid group* &lbrack;[Artin (1925)](#Artin25)&rbrack; one means the [[group]] of joint continuous *motions* &lbrack;cf. [Goldsmith (1981)](#Goldsmith81)&rbrack; of a fixed number $n+1$ of non-coincident points in the [[plane]], from any fixed [[configuration space of points|configuration]] back to that fixed configuration. The  "[[worldlines]]" traced out by such points in space-time under such an operation look like a braid with $n+1$ strands, whence the name. 
 
 
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="169.27875"
-   height="252.11273"
-   id="svg2"
-   sodipodi:version="0.32"
-   inkscape:version="0.46"
-   sodipodi:docname="3-braid.svg"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   version="1.0">
-  <defs
-     id="defs4">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 526.18109 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="744.09448 : 526.18109 : 1"
-       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
-       id="perspective10" />
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     gridtolerance="10000"
-     guidetolerance="10"
-     objecttolerance="10"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="375"
-     inkscape:cy="708.93575"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="640"
-     inkscape:window-height="701"
-     inkscape:window-x="0"
-     inkscape:window-y="22">
-    <inkscape:grid
-       type="xygrid"
-       id="grid2385"
-       visible="true"
-       enabled="true" />
-  </sodipodi:namedview>
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-116.64286,-131.85007)">
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.80512744px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 188.32014,243.16382 L 285.40892,298.64313 L 285.51904,383.56023 M 117.04542,132.25263 L 118.97101,201.55434 L 160.58048,229.294"
-       id="path2383"
-       sodipodi:nodetypes="cccccc" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.69349128px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 202.18997,132.20522 L 202.18997,215.42417 L 118.97101,298.64313 L 118.97101,381.86208"
-       id="path2387" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.69349128px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 285.40892,215.42417 L 235.87382,262.97786 M 226.95752,274.86628 L 202.18997,298.64313 L 202.18997,381.86208 M 285.40892,132.20522 L 285.40892,215.42417"
-       id="path2389"
-       sodipodi:nodetypes="ccccccc" />
-  </g>
-</svg>
+<img src="/nlab/files/GenericBraidGroupElement-230205.jpg" width="280">
 
 
-(This is a picture of a 3-strand braid.) 
-
-We can transform / 'isotope' these braid diagrams just as we can transform [[knot diagrams]], again using [[Reidemeister moves]]. The 'isotopy' classes of braid diagrams form a group in which the composition is obtained by putting one diagram above another. 
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="162.66582"
-   height="336.51199"
-   id="svg2481"
-   sodipodi:version="0.32"
-   inkscape:version="0.46"
-   sodipodi:docname="composition.svg"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   version="1.0">
-  <defs
-     id="defs2483">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 526.18109 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="744.09448 : 526.18109 : 1"
-       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
-       id="perspective2489" />
-    <inkscape:perspective
-       id="perspective10"
-       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
-       inkscape:vp_z="744.09448 : 526.18109 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 526.18109 : 1"
-       sodipodi:type="inkscape:persp3d" />
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     gridtolerance="10000"
-     guidetolerance="10"
-     objecttolerance="10"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="250.30935"
-     inkscape:cy="631.41075"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="640"
-     inkscape:window-height="701"
-     inkscape:window-x="93"
-     inkscape:window-y="22">
-    <inkscape:grid
-       type="xygrid"
-       id="grid2557"
-       visible="true"
-       enabled="true" />
-  </sodipodi:namedview>
-  <metadata
-     id="metadata2486">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-117.83419,-176.3502)">
-    <g
-       transform="matrix(0.9585536,0,0,0.6593193,5.9599101,89.473516)"
-       id="g2552"
-       inkscape:label="Layer 1">
-      <path
-         sodipodi:nodetypes="cccccc"
-         id="path2383"
-         d="M 188.32014,243.16382 L 285.40892,298.64313 L 285.51904,383.56023 M 117.04542,132.25263 L 118.97101,201.55434 L 160.58048,229.294"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.80512744px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         id="path2387"
-         d="M 202.18997,132.20522 L 202.18997,215.42417 L 118.97101,298.64313 L 118.97101,381.86208"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.69349128px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         sodipodi:nodetypes="ccccccc"
-         id="path2389"
-         d="M 285.40892,215.42417 L 235.87382,262.97786 M 226.95752,274.86628 L 202.18997,298.64313 L 202.18997,381.86208 M 285.40892,132.20522 L 285.40892,215.42417"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.69349128px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    </g>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 120,342.36218 L 120,382.36218 L 200,472.36218 L 200,512.36218"
-       id="path2559" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 200,382.36218 L 168.98985,425.39264 M 156.96954,437.41295 L 120,472.36218 L 120,512.36218 M 200,342.36218 L 200,382.36218"
-       id="path2561"
-       sodipodi:nodetypes="ccccccc" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 280,342.36218 L 280,512.36218"
-       id="path2563" />
-  </g>
-</svg>
-
-The identity consists of $n$ vertical strings, so the inverse is obtained by turning a diagram upside down:
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="169.27875"
-   height="252.11273"
-   id="svg2"
-   sodipodi:version="0.32"
-   inkscape:version="0.46"
-   sodipodi:docname="3-braid-inverse.svg"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   version="1.0">
-  <defs
-     id="defs4">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 526.18109 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="744.09448 : 526.18109 : 1"
-       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
-       id="perspective10" />
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     gridtolerance="10000"
-     guidetolerance="10"
-     objecttolerance="10"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="141.43554"
-     inkscape:cy="44.033213"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="640"
-     inkscape:window-height="701"
-     inkscape:window-x="0"
-     inkscape:window-y="22">
-    <inkscape:grid
-       type="xygrid"
-       id="grid2385"
-       visible="true"
-       enabled="true" />
-  </sodipodi:namedview>
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-116.64286,-131.85007)">
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.80512744px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 188.32014,272.64904 L 285.40892,217.16973 L 285.51904,132.25263 M 117.04542,383.56023 L 118.97101,314.25852 L 160.58048,286.51886"
-       id="path2383"
-       sodipodi:nodetypes="cccccc" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.69349128px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 202.18997,383.60764 L 202.18997,300.38869 L 118.97101,217.16973 L 118.97101,133.95078"
-       id="path2387" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.69349128px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 285.40892,300.38869 L 235.87382,252.835 M 226.95752,240.94658 L 202.18997,217.16973 L 202.18997,133.95078 M 285.40892,383.60764 L 285.40892,300.38869"
-       id="path2389"
-       sodipodi:nodetypes="ccccccc" />
-  </g>
-</svg>
-
-This is the inverse of the first 3-braid we saw. 
+As with actual braids, here it is understood that two such operations are identified if they differ only by continuous deformations of the "strands" without breaking or intersecting these, hence that one identifies those such systems of [[worldlines]] which are [[isotopy|isotopic]] in $\mathbb{R}^3$. (This is just the kind of invariance considered for [[link diagrams]] --- such as under [[Reidemeister moves]] --- and in fact every link diagram may be obtained by "closing up" a braid diagram, in the evident sense.)
 
 
-There are useful [[group presentations]] of the braid groups.   We will return later to the interpretation of the [[generators and relations]] in terms of diagrams. 
+A quick way of saying this with  precision is to observe that 
+a braid group is thus the *[[fundamental group]]* $\pi_1$ of a [[configuration space of points]] in the plane (see [below](#AsFundamentalGroupOfConfigurationSpace) for more). 
+
+Here it makes a key difference whether 
+
+* one considers the points in a configuration as *ordered* (labeled by numbers $1, \cdots, n+1$) in which case one speaks of the *[[pure braid group]]*, 
+
+* or as indistinguishable (albeit in any case with distinct positions!) in which case one speaks of the *braid group* proper: 
+
+After traveling along a general braid $b$ the order of the given points may come out permuted by a [[permutation]] $\mathrm{perm}(b)$, and the braid is *pure* precisely if this permutation is trivial:  
+
+<img src="/nlab/files/BraidGroupFibration-230205.jpg" width="600">
+
+More explicitly, braid groups admit [[finitely presented group|finite presentations]] by [[generators and relations]]. To these we now turn first:
 
 \linebreak
 
 ## Definitions and characterizations
  {#DefinitionsAndCharacterizations}
 
-* *[As the fundamental group of a configuration space of points](#AsFundamentalGroupOfConfigurationSpace)*
-
 * *[Via generators and relations](#ByGeneratorsAndRelations)*
+
+* *[As the fundamental group of a configuration space of points](#AsFundamentalGroupOfConfigurationSpace)*
 
 * *[As mapping class group of a punctured disk](#AsMappingClassGroupOfAPuncturedDisk)*
 
 * *[As automorphisms of a free group](#AsAutomorphismsOfAFreeGroup)*
 
-#### As fundamental group of a configuration space of points
- {#AsFundamentalGroupOfConfigurationSpace}
 
-Geometrically, one may understand the group of braids in $\mathbb{R}^3$ as the [[fundamental group]] of the [[configuration space of points]] in the [[plane]] $\mathbb{R}^2$ (traditionally regarded as the [[complex plane]] $\mathbb{C}$ in this context, though the [[complex structure]] plays no role in the definition of the braid group as such).
-
-(originally due to [Hurwitz 1891, §II](#Hurwitz1891), then re-discovered/re-vived in [Fadell & Neuwirth 1962, p. 118](#FadellNeuwirth62), [Fox & Neuwirth 1962, §7](#FoxNeuwirth62), review includes [Birman 1975, §1](#Birman75), [Williams 2020, pp. 9](#Williams20))
-
-
-\linebreak
-
-
-**In the plane**
-
-We say this in more detail:
-
-Let $C_n \hookrightarrow \mathbb{C}^n$ denote the space of [[configuration space of points|configurations of n ordered  points]] in the [[complex plane]], whose elements are those [[n-tuples]] $(z_1, \ldots, z_n)$ such that $z_i \neq z_j$ whenever $i \neq j$. In other words, $C_n$ is the [[complement]] of the [[fat diagonal]]:
-
-$$
-  C_n 
-    \;\coloneqq\; 
-  \mathbb{C}^n \setminus \mathbf{\Delta}^n_{\mathbb{C}}
-  \,.
-$$
-
-
-The [[symmetric group]] $S_n$ [[group action|acts]] on $C_n$ by [[permutation|permuting]] coordinates. Let:
-
-* $C_n/S_n$  denote the [[quotient]] by this group action, hence the [[orbit]] space (the space of $n$-element subsets of $\mathbb{C}$ if one likes), 
-
-* $[z_1, \ldots, z_n]$ denote the image of $(z_1, \ldots, z_n)$ under the quotient [[coprojection]] $\pi \colon C_n \to C_n/S_n$ (i.e. its the [[equivalence class]]). 
-
-We understand $p = (1, 2, \ldots, n)$ as the basepoint for $C_n$, and $[p] = [1, 2, \ldots n]$ as the basepoint for the [[configuration space of unordered points]] $C_n/S_n$, making it a [[pointed topological space]].
-
-+-- {: .num_defn} 
-###### Definition 
-
-The _braid group_ is the [[fundamental group]] of the [[configuration space of unordered points|configuration space of n unordered points]]:
-
-$$
-  Br(n) 
-    \;\coloneqq\; 
-  \pi_1
-  \big(
-    C_n/S_n, [p]
-  \big)
-$$
-
-The _pure braid group_  is the [[fundamental group]] of the [[configuration space of ordered points|configuration space of n ordered points]]: 
-
-$$
-  PBr(n)
-    \;\coloneqq\;
-  \pi_1
-  \big(
-    C_n, p 
-  \big)
-  \,.
-$$
-
-=-- 
-
-Evidently a braid $\beta$ is represented by a path $\alpha: I \to C_n/S_n$ with $\alpha(0) = [p] = \alpha(1)$. Such a path may be uniquely lifted through the [[covering]] projection $\pi: C_n \to C_n/S_n$ to a path $\tilde{\alpha}$ such that $\tilde{\alpha}(0) = p$. The end of the path $\tilde{\alpha}(1)$ has the same underlying subset as $p$ but with coordinates permuted: $\tilde{\alpha}(1) = (\sigma(1), \sigma(2), \ldots, \sigma(n))$. Thus the braid $\beta$ is exhibited by $n$ non-intersecting strands, each one connecting an $i$ to $\sigma(i)$, and we have a map $\beta \mapsto \sigma$ appearing as the quotient map of an exact sequence 
-
-$$1 \to PBr(n) \to Br(n) \to Sym(n) \to 1$$ 
-
-which is part of a [[long exact sequence of homotopy groups|long exact homotopy sequence]] corresponding to the [[fibration]] $\pi \colon C_n \to C_n/S_n$. 
-
-\linebreak
-
-**In general surfaces or graphs**
- {#ForMoreGeneralTopologicalSpaces}
-
-Since the notion of a [[configuration space of points]] makes sense for points in any [[topological space]], not necessarily the [[plane]] $\mathbb{R}^2$, the [above](#GeometricDefinition) geometric definition has an immediate generalization:
-
-For $\Sigma$ any [[surface]], the [[fundamental group]] of the (ordered) [[configuration space of points]] in $\Sigma$ may be regarded as generalized (pure) braid group.
-These *surface braid groups are of interest in [[3d topological field theory]] and in particular in [[topological quantum computation]] where it models [[non-abelian anyons]].
-
-
-Yet more generally, one may consider the fundamental group of the configuration space of points of any topological space $X$.
-
-For example for $X$ a 1-dimensional [[CW-complex]], hence an ([[undirected graph|undirected]]) [[graph]], one speaks of *graph braid groups* (e.g. [Farley & Sabalka 2009](#FarleySabalka2009)).
-
-> The following should maybe not be here in the Definition-section, but in some Properties- or Examples-section, or maybe in a dedicated entry on *[[graph braid groups]]*:
-
-It has been shown ([An & Maciazek 2006](#AnMaciazek2006), using discrete [[Morse theory]] and combinatorial analysis of small graphs) that graph braid groups are generated by particular particle moves with the following description:
-
-1. Star-type generators: exchanges of particle pairs on vertices of the particular graph
-
-2. loop type generators: circular moves of a single particle around a simple cycle of the graph
-
-\linebreak
-
-
-
-#### By generators and relations
+#### Via generators and relations
  {#ByGeneratorsAndRelations}
 
-The braid group as  a [[finitely generated group]]
+
+##### Presentation of general braids
+
+We discuss the braid group as  a [[finitely generated group]]
 ([Artin 1925, (5)-(6)](#Artin25); [Artin 1947, (18)-(19)](#Artin47);
 review in, e.g.:  [Fox & Neuwirth 1962, §7](#FoxNeuwirth62)):
 
 \begin{definition}\label{ArtinPresentation}
 **(Artin presentation)**
-
-\linebreak
 
 The **Artin braid group**, $Br({n+1})$, on $n+1$ strands is the [[finitely generated group]] given via [[generators and relations]] by:
 
@@ -1176,6 +816,310 @@ b_i^{-1}
 
 \end{definition}
 
+##### Presentation of pure braids
+ {#PresentationOfPureBraids}
+
+Similarly, the [[pure braid group]] has a [[finitely presented group|finite presentation]].
+
+One possible set of generators (also originally considered by Artin) are the "weave" braids where one strands lassos exactly one other strand:
+
+
+\begin{tikzcd}
+b_{ij}
+\;\;
+  :=
+\;\;
+\color{orange}
+\left[
+\color{black}
+\raisebox{5pt}{
+\begin{tikzpicture}[yscale=1, xscale=1.3]
+
+\draw[line width=1.4]
+  (.55,0)
+  .. controls (.55, +.5) and (-.8, +.5) ..
+  (-.8,+1);
+
+
+\begin{scope}[shift={(-1.4,0)}]
+\draw[line width=1.4]
+  (-.3,1) to (-.3,-1);
+\draw[line width=1.4]
+  (+.4,1) to (+.4,-1);
+\draw
+  (+.05,-.1) node {$\mathclap{\cdots}$};
+\end{scope}
+
+\begin{scope}[shift={(-0,0)}]
+\draw[line width=1.4]
+  (-.6,1) to (-.6,-1);
+\draw[line width=1.4]
+  (-.4,1) to (-.4,-1);
+\draw[line width=4, white]
+  (+.4,1) to (+.4,-1);
+\draw[line width=1.4]
+  (+.4,1) to (+.4,-1);
+\draw[line width=4, white]
+  (+.2,1) to (+.2,-1);
+\draw[line width=1.4]
+  (+.2,1) to (+.2,-1);
+\draw
+  (-.1,-.1) node {$\mathclap{\cdots}$};
+\end{scope}
+
+
+\begin{scope}[shift={(+.8,0)}]
+\draw[line width=1.4]
+  (-.4,1) to (-.4,-1);
+\draw[line width=1.2]
+  (+.3,1) to (+.3,-1);
+\draw
+  (-.01,-.1) node {$\mathclap{\cdots}$};
+\end{scope}
+
+\draw[line width=4, white]
+  (-.8,-1)
+  .. controls   (-.8, -.5)  and (.55, -.5)  ..
+  (.55,0);
+\draw[line width=1.4]
+  (-.8,-1)
+  .. controls   (-.8, -.5)  and (.55, -.5)  ..
+  (.55,0);
+
+\begin{scope}
+\clip
+  (-.9,0) rectangle (+.3,1.2); 
+\draw[line width=4, white]
+  (.55,0)
+  .. controls (.55, +.5) and (-.8, +.5) ..
+  (-.8,+1);
+\draw[line width=1.4]
+  (.55,0)
+  .. controls (.55, +.5) and (-.8, +.5) ..
+  (-.8,+1);
+\end{scope}
+
+\draw
+  (-.8,-1.3) node {
+    \scalebox{.7}{
+      \color{blue}
+      $i$
+    }
+  };
+
+\draw
+  (+.4,-1.3) node {
+    \scalebox{.7}{
+      \color{blue}
+      $j$
+    }
+  };
+
+\end{tikzpicture}
+}
+\color{orange}
+\right]
+\color{black}
+\;\;
+=
+\;\;
+\color{orange}
+\left[
+\color{black}
+\raisebox{5pt}{
+\begin{tikzpicture}[yscale=-1, xscale=-1.3]
+
+\draw[line width=1.4]
+  (.55,0)
+  .. controls (.55, +.5) and (-.8, +.5) ..
+  (-.8,+1);
+
+
+\begin{scope}[shift={(-1.4,0)}]
+\draw[line width=1.4]
+  (-.3,1) to (-.3,-1);
+\draw[line width=1.4]
+  (+.4,1) to (+.4,-1);
+\draw
+  (+.05,-.1) node {$\mathclap{\cdots}$};
+\end{scope}
+
+\begin{scope}[shift={(-0,0)}]
+\draw[line width=1.4]
+  (-.6,1) to (-.6,-1);
+\draw[line width=1.4]
+  (-.4,1) to (-.4,-1);
+\draw[line width=4, white]
+  (+.4,1) to (+.4,-1);
+\draw[line width=1.4]
+  (+.4,1) to (+.4,-1);
+\draw[line width=4, white]
+  (+.2,1) to (+.2,-1);
+\draw[line width=1.4]
+  (+.2,1) to (+.2,-1);
+\draw
+  (-.1,-.1) node {$\mathclap{\cdots}$};
+\end{scope}
+
+
+\begin{scope}[shift={(+.8,0)}]
+\draw[line width=1.4]
+  (-.4,1) to (-.4,-1);
+\draw[line width=1.2]
+  (+.3,1) to (+.3,-1);
+\draw
+  (-.01,-.1) node {$\mathclap{\cdots}$};
+\end{scope}
+
+\draw[line width=4, white]
+  (-.8,-1)
+  .. controls   (-.8, -.5)  and (.55, -.5)  ..
+  (.55,0);
+\draw[line width=1.4]
+  (-.8,-1)
+  .. controls   (-.8, -.5)  and (.55, -.5)  ..
+  (.55,0);
+
+\begin{scope}
+\clip
+  (-.9,0) rectangle (+.3,1.2); 
+\draw[line width=4, white]
+  (.55,0)
+  .. controls (.55, +.5) and (-.8, +.5) ..
+  (-.8,+1);
+\draw[line width=1.4]
+  (.55,0)
+  .. controls (.55, +.5) and (-.8, +.5) ..
+  (-.8,+1);
+\end{scope}
+
+\draw
+  (-.8,+1.3) node {
+    \scalebox{-.7}{
+      \color{blue}
+      $j$
+    }
+  };
+
+\draw
+  (+.4,+1.3) node {
+    \scalebox{-.7}{
+      \color{blue}
+      $i$
+    }
+  };
+
+\end{tikzpicture}
+}
+\color{orange}
+\right]
+\color{black}
+\end{tikzcd}
+
+In terms of these generators the [[pure braid group]] is obained by quotienting out the following relations --- an optimization of Artin's original pure braid relations, due to [Lee (2010, Thm. 1.1)](#Lee10):
+
+
+<img src="/nlab/files/PureBraidGroupPresentation-230205b.jpg" width="830">
+
+
+
+
+
+
+#### As fundamental group of a configuration space of points
+ {#AsFundamentalGroupOfConfigurationSpace}
+
+Geometrically, one may understand the group of braids in $\mathbb{R}^3$ as the [[fundamental group]] of the [[configuration space of points]] in the [[plane]] $\mathbb{R}^2$ (traditionally regarded as the [[complex plane]] $\mathbb{C}$ in this context, though the [[complex structure]] plays no role in the definition of the braid group as such).
+
+(originally due to [Hurwitz 1891, §II](#Hurwitz1891), then re-discovered/re-vived in [Fadell & Neuwirth 1962, p. 118](#FadellNeuwirth62), [Fox & Neuwirth 1962, §7](#FoxNeuwirth62), review includes [Birman 1975, §1](#Birman75), [Williams 2020, pp. 9](#Williams20))
+
+
+\linebreak
+
+
+**In the plane**
+
+We say this in more detail:
+
+Let $C_n \hookrightarrow \mathbb{C}^n$ denote the space of [[configuration space of points|configurations of n ordered  points]] in the [[complex plane]], whose elements are those [[n-tuples]] $(z_1, \ldots, z_n)$ such that $z_i \neq z_j$ whenever $i \neq j$. In other words, $C_n$ is the [[complement]] of the [[fat diagonal]]:
+
+$$
+  C_n 
+    \;\coloneqq\; 
+  \mathbb{C}^n \setminus \mathbf{\Delta}^n_{\mathbb{C}}
+  \,.
+$$
+
+
+The [[symmetric group]] $S_n$ [[group action|acts]] on $C_n$ by [[permutation|permuting]] coordinates. Let:
+
+* $C_n/S_n$  denote the [[quotient]] by this group action, hence the [[orbit]] space (the space of $n$-element subsets of $\mathbb{C}$ if one likes), 
+
+* $[z_1, \ldots, z_n]$ denote the image of $(z_1, \ldots, z_n)$ under the quotient [[coprojection]] $\pi \colon C_n \to C_n/S_n$ (i.e. its the [[equivalence class]]). 
+
+We understand $p = (1, 2, \ldots, n)$ as the basepoint for $C_n$, and $[p] = [1, 2, \ldots n]$ as the basepoint for the [[configuration space of unordered points]] $C_n/S_n$, making it a [[pointed topological space]].
+
++-- {: .num_defn} 
+###### Definition 
+
+The _braid group_ is the [[fundamental group]] of the [[configuration space of unordered points|configuration space of n unordered points]]:
+
+$$
+  Br(n) 
+    \;\coloneqq\; 
+  \pi_1
+  \big(
+    C_n/S_n, [p]
+  \big)
+$$
+
+The _pure braid group_  is the [[fundamental group]] of the [[configuration space of ordered points|configuration space of n ordered points]]: 
+
+$$
+  PBr(n)
+    \;\coloneqq\;
+  \pi_1
+  \big(
+    C_n, p 
+  \big)
+  \,.
+$$
+
+=-- 
+
+Evidently a braid $\beta$ is represented by a path $\alpha: I \to C_n/S_n$ with $\alpha(0) = [p] = \alpha(1)$. Such a path may be uniquely lifted through the [[covering]] projection $\pi: C_n \to C_n/S_n$ to a path $\tilde{\alpha}$ such that $\tilde{\alpha}(0) = p$. The end of the path $\tilde{\alpha}(1)$ has the same underlying subset as $p$ but with coordinates permuted: $\tilde{\alpha}(1) = (\sigma(1), \sigma(2), \ldots, \sigma(n))$. Thus the braid $\beta$ is exhibited by $n$ non-intersecting strands, each one connecting an $i$ to $\sigma(i)$, and we have a map $\beta \mapsto \sigma$ appearing as the quotient map of an exact sequence 
+
+$$1 \to PBr(n) \to Br(n) \to Sym(n) \to 1$$ 
+
+which is part of a [[long exact sequence of homotopy groups|long exact homotopy sequence]] corresponding to the [[fibration]] $\pi \colon C_n \to C_n/S_n$. 
+
+\linebreak
+
+**In general surfaces or graphs**
+ {#ForMoreGeneralTopologicalSpaces}
+
+Since the notion of a [[configuration space of points]] makes sense for points in any [[topological space]], not necessarily the [[plane]] $\mathbb{R}^2$, the [above](#GeometricDefinition) geometric definition has an immediate generalization:
+
+For $\Sigma$ any [[surface]], the [[fundamental group]] of the (ordered) [[configuration space of points]] in $\Sigma$ may be regarded as generalized (pure) braid group.
+These *surface braid groups are of interest in [[3d topological field theory]] and in particular in [[topological quantum computation]] where it models [[non-abelian anyons]].
+
+
+Yet more generally, one may consider the fundamental group of the configuration space of points of any topological space $X$.
+
+For example for $X$ a 1-dimensional [[CW-complex]], hence an ([[undirected graph|undirected]]) [[graph]], one speaks of *graph braid groups* (e.g. [Farley & Sabalka 2009](#FarleySabalka2009)).
+
+> The following should maybe not be here in the Definition-section, but in some Properties- or Examples-section, or maybe in a dedicated entry on *[[graph braid groups]]*:
+
+It has been shown ([An & Maciazek 2006](#AnMaciazek2006), using discrete [[Morse theory]] and combinatorial analysis of small graphs) that graph braid groups are generated by particular particle moves with the following description:
+
+1. Star-type generators: exchanges of particle pairs on vertices of the particular graph
+
+2. loop type generators: circular moves of a single particle around a simple cycle of the graph
+
+\linebreak
+
+
+
 
 
 
@@ -1537,11 +1481,19 @@ Further introduction and review:
 
 * Dale Rolfsen, *New developments in the theory of Artin’s braid groups* ([pdf](https://personal.math.ubc.ca/~rolfsen/papers/newbraid/newbraid2.pdf))
 
+* [[Jennifer C. H. Wilson]], *The geometry and topology of braid groups*, lecture at *[2018 Summer School on Geometry and Topology](https://www.pims.math.ca/scientific-event/180611-ssgt)*, Chicago (2018) &lbrack;[pdf](http://www.math.lsa.umich.edu/~jchw/RTG-Braids.pdf), [[Wilson-BraidGroups.pdf:file]]&rbrack;
+
 * {#Williams20} [[Lucas Williams]], *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal, **21** 1 (2020) Article 8. ([arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8](https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8))
+
+* [[Jennifer C. H. Wilson]], *Representation stability and the braid groups*, talk at *[ICERM -- Braids](https://icerm.brown.edu/programs/sp-s22/)* (Feb 2022) &lbrack;[pdf](https://app.icerm.brown.edu/assets/362/3661/3661_3250_021720221430_Slides.pdf)&rbrack;
 
 See also:
 
 * Wikipedia: _[Braid group](http://en.wikipedia.org/wiki/Braid_group)_
+
+As an example of motion general "motion groups" (such as [[loop braid groups]]):
+
+* {#Goldsmith81} Deborah L. Goldsmith, *The theory of motion groups*, Michigan Math. J. 28(1): 3-17 (1981) ([doi:10.1307/mmj/1029002454](https://projecteuclid.org/journals/michigan-mathematical-journal/volume-28/issue-1/The-theory-of-motion-groups/10.1307/mmj/1029002454.full))
 
 
 
@@ -1555,7 +1507,7 @@ More [[finitely presented group|finite presentations]] of the *pure* braid group
 
 * [[Dan Margalit]], [[Jon McCammond]], *Geometric presentations for the pure braid group*,  Journal of Knot Theory and Its Ramifications **18** 01 (2009) 1-20 &lbrack;[arXiv:math/0603204](https://arxiv.org/abs/math/0603204), [doi:10.1142/S0218216509006859](https://doi.org/10.1142/S0218216509006859)&rbrack;
 
-* [[Eon-Kyung Lee]], *A positive presentation of the pure braid group*, Journal of the Chungcheong Mathematical Society **23** 3 (2010) 555-561 &lbrack;[JAKO201007648745187](https://koreascience.kr/article/JAKO201007648745187.view?orgId=anpor), [pdf](http://www.ccms.or.kr/data/pdfpaper/jcms23_3/23_3_555.pdf)&rbrack;
+* {#Lee10} [[Eon-Kyung Lee]], *A positive presentation of the pure braid group*, Journal of the Chungcheong Mathematical Society **23** 3 (2010) 555-561 &lbrack;[JAKO201007648745187](https://koreascience.kr/article/JAKO201007648745187.view?orgId=anpor), [pdf](http://www.ccms.or.kr/data/pdfpaper/jcms23_3/23_3_555.pdf)&rbrack;
 
 
 More on the braid representation on [[automorphism group|automorphisms]] of [[free groups]]:
