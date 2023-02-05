@@ -29,7 +29,7 @@ $$
 
 of the [[Cartesian space|Cartesian plane]], regarded as an [[abelian group]], by the subgroup of pairs of [[integers]].
 
-As a [[topological space]] this is the [[quotient topological space]] obained from the [[square]] by identifying opposite sides:
+As a [[topological space]] this is the [[quotient topological space]] obtained from the [[square]] by identifying opposite sides:
 
 <img src="https://ncatlab.org/nlab/files/TorusAsQuotientOfSquare.png" width="400">
 
