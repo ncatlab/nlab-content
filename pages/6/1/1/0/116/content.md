@@ -288,6 +288,10 @@ For more see [[counterexamples in algebra]].
 
 For more see also the references at *[[group theory]]*.
 
+The terminology "group" was introduced (for what today would more specifically be called *[[permutation groups]]*) in 
+
+* [[Évariste Galois]], *[[Galois' last letter|letter to Auguste Chevallier]]*, (May 1832)
+
 The original article that gives a definition equivalent to the modern definition of a group:
 
 * [[Heinrich Weber]], *Beweis des Satzes, dass jede eigentlich primitive quadratische Form unendlich viele Primzahlen darzustellen fähig ist*, Mathematische Annalen 20:3 (1882), 301–329 ([doi:10.1007/bf01443599](http://dx.doi.org/10.1007/bf01443599))
