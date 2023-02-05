@@ -675,6 +675,7 @@ The tensor product $\boxtimes$ on $Schur$ goes by another name: it is the **plet
 ## Related concepts
 
 * [[plethory]]
+* [[Specht module]]
 
 
 ## References ##
