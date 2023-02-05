@@ -22,6 +22,9 @@ Although the term 'excluded middle' (sometimes even _excluded third_) suggests t
 
 In fact, intuitionistic logic proves that there is no truth value that is neither true nor false; in this sense, the possibility of a 'middle' or 'third' truth value is still 'excluded'.  But since the relevant [[de Morgan law]] fails in intuitionistic logic, we may not conclude that every truth value is either true or false, which is the actual PEM.
 
+## In set theory
+
+In [[material set theory]], [Shulman 18](#Shulman18) makes the distinction between **full classical logic**, where the principle of excluded middle holds for all logical formulae in the [[material set theory]], and **$\Delta_0$-classical logic**, where the principle of excluded middle holds for only holds for $\Delta_0$-formulae. $\Delta_0$-formulae are logical formulae where every [[quantifier]] $Q$ has to be bounded by the membership relation; i.e. $Q x \in y.P(x) \coloneqq Q x.x \in y \wedge P(x)$. In [[structural set theory]], the above difference between full classical logic and $\Delta_0$-classical logic in [[material set theory]] is the difference between defining [[structural set theory]] as a [[well-pointed topos|well-pointed]] [[Boolean topos]] in [[classical logic]] and in [[intuitionistic logic]] respectively. 
 
 ## Relation to the axiom of choice
  {#RelationToTheAxiomOfChoice}
@@ -39,6 +42,12 @@ The proof is as follows.  If $p$ is a truth value, then divide $\{0,1\}$ by the 
 On the other hand, if PEM holds, then we can show by induction that if $A$ and $B$ are choice, so is $A\sqcup B$ (add details).  Thus, all finite sets are choice.  Now if $n\to A$ is a surjection, exhibiting $A$ as finitely indexed, it has a section $A\to n$.  Since a finite set is always projective, and any retract of a projective object is projective, this shows that $A$ is projective.
 
 In particular, the axiom of choice implies PEM.  This argument, due originally to Diaconescu, can be internalized in any [[topos]]. However, other weak versions of choice such as [[countable choice]] (any surjection to a countable set (which for this purpose is any set isomorphic to the set of natural numbers) has a section), [[dependent choice]], or even [[COSHEP]] do not imply PEM. In fact, it is often claimed that axiom of choice is *true* in constructive mathematics (by the BHK or [[Brouwer-Heyting-Kolmogorov interpretation]] of predicate logic), leading to much argument about exactly what that means.
+
+## Other equivalent statements
+
+* Morgan Rogers showed [here](https://golem.ph.utexas.edu/category/2023/01/freedom.html#c062002) that the fact that the [[category of sets]] is a [[Boolean topos]] is equivalent to the fact that every [[pointed set]] is a [[free object|free]] pointed set. 
+
+* [[compact spaces equivalently have converging subnets]]
 
 ## Double-negated PEM
  {#DoubleNegatedPEM}
@@ -90,6 +99,8 @@ where $A \vee B \coloneqq \left[A + B\right]$ and $\neg A \coloneqq A \to \mathb
 ### General
 
 * {#McLarty96} [[Colin McLarty]], _Elementary Categories, Elementary Toposes_, Oxford University Press, 1996
+
+* {#Shulman18} [[Mike Shulman]], *Comparing material and structural set theories*, Annals of Pure and Applied Logic, Volume 170, Issue 4, April 2019, Pages 465-504 ([doi:10.1016/j.apal.2018.11.002](https://doi.org/10.1016/j.apal.2018.11.002), [arXiv:1808.05204](https://arxiv.org/abs/1808.05204))
 
 ### Relation to other axioms:
 
