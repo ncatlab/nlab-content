@@ -17,7 +17,9 @@
 
 ## Idea
 
-A **multi-adjoint** is like an [[adjoint functor]] but sends each [[object]] to a family of objects rather than a single one.
+A **multi-adjoint** is like an [[adjoint functor]] but sends each [[object]] to a family of objects rather than a single one. 
+
+Under mild conditions it is equivalent to the notion of [[parametric right adjoint]].
 
 ## Definition
 
