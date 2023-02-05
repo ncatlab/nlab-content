@@ -22,26 +22,58 @@
 +-- {: .num_defn #Definition}
 ###### Definition
 
-In a [[finitely complete category]] $C$, a **congruence** on an object $X$ is an [[internalization|internal]] [[equivalence relation]] on $X$. This means that it consists of a [[subobject]] of the product $R\stackrel{(p_1,p_2)}\hookrightarrow X \times X$ equipped with the following [[morphisms]]: 
+In a [[finitely complete category]] $C$, a **congruence** on an [[object]] $X$ is an [[internalization|internal]] [[equivalence relation]] on $X$ (i.e.: an [[internal groupoid]] --- hence an [[internal category]] with all [[morphisms]] being [[isomorphisms]] --- but with no non-[[identity morphism|identity]] [[automorphisms]]). 
+
+This means that it consists of a [[subobject]] $R\stackrel{(p_1,p_2)}\hookrightarrow X \times X$ of the [[Cartesian products]] of $X$ with itself, equipped with the following [[morphisms]]: 
 
 * internal [[reflexive relation|reflexivity]]: $r \colon X \to R$ which is a [[section]] both of $p_1$ and of $p_2$, i.e., $p_1 r = p_2 r = 1_X$;
 
 * internal [[symmetric relation|symmetry]]: $s \colon R \to R$ which interchanges $p_1$ and $p_2$, i.e., $p_1\circ s = p_2$ and $p_2\circ s = p_1$;
 
-* internal [[transitive relation|transitivity]]: $t: R \times_X R \to R$ which factors the left/right projection map $R \times_X R \to X \times X$ through $R$, i.e., the following diagram commutes
-  $$\array{
-    && R \\  
-    & {}^{\mathllap{t}}\nearrow & \downarrow \\
-    R \times_X R & \stackrel{(p_1 q_1,p_2 q_2)}\rightarrow & X \times X
-  }
+* {#InternalTransitivity} internal [[transitive relation|transitivity]]: 
+
+  $t \,\colon\, R \times_X R \to R$ 
+
+  (where on the left we have the [[fiber product]] 
+   of $R \hookrightarrow X \times X \overset{pr_2}{\to} X$
+   with $R \hookrightarrow X \times X \overset{pr_1}{\to}$, i.e. the subobject of pairs of *composable* pairs in relation)
+
+  which factors the left/right projection map $R \times_X R \to X \times X$ through $R$, i.e., the following [[commuting diagram|diagram commutes]]
+
   $$
-where $q_1$ and $q_2$ are the projections defined by the [[pullback | pullback diagram]]
+    \array{
+      && R 
+      \\  
+      & 
+        {}^{\mathllap{t}}\nearrow 
+      & 
+      \big\downarrow 
+      \\
+      R \times_X R 
+      & 
+        \underset{(p_1 q_1,p_2 q_2)}{\longrightarrow}
+      & 
+      X \times X
+      \mathrlap{\,,}
+    }
+  $$
+  where $q_1$ and $q_2$ are the [[projections]] defined by the [[pullback | pullback diagram]]
   $$\array{
-    R \times_X R & \stackrel{q_2}\rightarrow & R
+    R \times_X R 
+    & 
+      \overset{q_2}\longrightarrow 
+    & 
+    R
     \\
-    \downarrow^{\mathrlap{q_1}} && \downarrow^{\mathrlap{p_1}}
+    \big\downarrow{\mathrlap{{}^{q_1}}} 
+    && 
+    \big\downarrow{\mathrlap{{}^{p_1}}}
     \\
-    R & \stackrel{p_2}\rightarrow & X
+    R 
+    & 
+      \underset{p_2}\longrightarrow 
+    & 
+    X
   }
   $$
 =--
