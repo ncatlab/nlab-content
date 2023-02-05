@@ -170,7 +170,6 @@ On the [[flat vector bundles]] underlying the KZ-equation:
 
 
 
-
 [[!redirects Knizhnik-Zamolodchikov equations]]
 
 [[!redirects Knizhnik-Zamolodchikov form]]
@@ -189,5 +188,8 @@ On the [[flat vector bundles]] underlying the KZ-equation:
 
 [[!redirects KZ connection]]
 [[!redirects KZ connections]]
+
+[[!redirects KZ-connection]]
+[[!redirects KZ-connections]]
 
 
