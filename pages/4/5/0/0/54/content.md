@@ -41,7 +41,7 @@ I am doing research in mathematical fundamental physics (e.g. on *[[Hypothesis H
 For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References).
 
 
-Upcoming activity:
+Latest activity:
 
 <center>
 <a href="https://ncatlab.org/nlab/show/M-Theory+and+Mathematics#2023">
