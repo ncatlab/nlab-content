@@ -154,3 +154,11 @@ This class (eq:TwistedChernCharacterAsTwistedDeRhamClassOfTwistedCharClass) is t
 In twisted [[orbifold K-theory]]:
 
 * [[Jean-Louis Tu]], [[Ping Xu]], _Chern character for twisted K-theory of orbifolds_, Advances in Mathematics Volume 207, Issue 2, 20 December 2006, Pages 455-483 ([arXiv:math/0505267](https://arxiv.org/abs/math/0505267), [doi:10.1016/j.aim.2005.12.001](https://doi.org/10.1016/j.aim.2005.12.001))
+
+
+On [[bundle gerbe modules]] with [[higher structure|higher]] [[G-structures]] (including [[String structure]], etc.) and the corresponding [[twisted Chern character]]:
+
+* [[Fei Han]], [[Ruizhi Huang]], [[Varghese Mathai]], *Fractional structures on bundle gerbe modules and fractional classifying spaces* &lbrack;[arXiv:2203.14439](https://arxiv.org/abs/2203.14439)&rbrack;
+
+
+
