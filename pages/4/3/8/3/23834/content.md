@@ -46,9 +46,10 @@ Review:
 
 * {#EtingofFrenkelKirillov98} [[Pavel Etingof]], [[Igor Frenkel]], [[Alexander Kirillov]], Lecture 7 in: *Lectures on Representation Theory and Knizhnik-Zamolodchikov Equations*, Mathematical surveys and monographs **58**, American Mathematical Society (1998) $[$[ISBN:978-1-4704-1285-2](https://bookstore.ams.org/surv-58), [review pdf](http://www.ams.org/journals/bull/2000-37-02/S0273-0979-00-00853-3/S0273-0979-00-00853-3.pdf)$]$
 
+* [[Toshitake Kohno]], *Homological representations of braid groups and KZ connections*, Journal of Singularities **5** (2012) 94-108  $[$[doi:10.5427/jsing.2012.5g](http://dx.doi.org/10.5427/jsing.2012.5g),  [pdf](https://www.journalofsing.org/volume5/kohno.pdf)$]$
+
 * [[Toshitake Kohno]], *Local Systems on Configuration Spaces, KZ Connections and Conformal Blocks*, Acta Math Vietnam **39** (2014) 575–598 $[$[doi:10.1007%2Fs40306-014-0088-6](https://link.springer.com/article/10.1007%2Fs40306-014-0088-6), [pdf](https://www.ms.u-tokyo.ac.jp/~kohno/papers/kohno_config.pdf)$]$
 
-* [[Toshitake Kohno]], *Homological representations of braid groups and KZ connections*, Journal of Singularities **5** (2012) 94-108  $[$[doi:10.5427/jsing.2012.5g](http://dx.doi.org/10.5427/jsing.2012.5g),  [pdf](https://www.journalofsing.org/volume5/kohno.pdf)$]$
 
 
 
@@ -79,7 +80,7 @@ also:
 
 reviewed in:
 
-* Yukihito Kawahara, *The twisted de Rham cohomology for basic constructionsof hyperplane arrangements and its applications*, Hokkaido Math. J. **34** 2 (2005) 489-505 $[$[doi:10.14492/hokmj/1285766233](https://projecteuclid.org/journals/hokkaido-mathematical-journal/volume-34/issue-2/The-twisted-de-Rham-cohomology-for-basic-constructionsof-hyperplane-arrangements/10.14492/hokmj/1285766233.full)$]$
+* Yukihito Kawahara, *The twisted de Rham cohomology for basic constructions of hyperplane arrangements and its applications*, Hokkaido Math. J. **34** 2 (2005) 489-505 $[$[doi:10.14492/hokmj/1285766233](https://projecteuclid.org/journals/hokkaido-mathematical-journal/volume-34/issue-2/The-twisted-de-Rham-cohomology-for-basic-constructionsof-hyperplane-arrangements/10.14492/hokmj/1285766233.full)$]$
 
 {#HypergeometricReferencesForVanishingLevel} Discussion for the special case of [[level (Chern-Simons theory)|level]]$=0$ (cf. at *[logarithmic CFT -- Examples](logarithmic+CFT#Examples)*):
 
