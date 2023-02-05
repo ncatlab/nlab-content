@@ -67,7 +67,7 @@ This "hypergeometric" construction uses results on the [[twisted de Rham cohomol
 
 * [[Peter Orlik]], [[Louis Solomon]], *Combinatorics and topology of complements of hyperplanes*, Invent Math **56** (1980) 167–189  $[$[doi:10.1007/BF01392549](https://doi.org/10.1007/BF01392549)$]$
 
-* Kazuhiko Aomoto, *Gauss-Manin connection of integral of difference products*,  J. Math. Soc. Japan **39** 2 (1987) 191-208  $[$[doi:10.2969/jmsj/03920191](https://projecteuclid.org/journals/journal-of-the-mathematical-society-of-japan/volume-39/issue-2/Gauss-Manin-connection-of-integral-of-difference-products/10.2969/jmsj/03920191.full)$]$
+* [[Kazuhiko Aomoto]], *Gauss-Manin connection of integral of difference products*,  J. Math. Soc. Japan **39** 2 (1987) 191-208  $[$[doi:10.2969/jmsj/03920191](https://projecteuclid.org/journals/journal-of-the-mathematical-society-of-japan/volume-39/issue-2/Gauss-Manin-connection-of-integral-of-difference-products/10.2969/jmsj/03920191.full)$]$
 
 * [[Hélène Esnault]], [[Vadim Schechtman]], [[Eckart Viehweg]], *Cohomology of local systems on the complement of hyperplanes*,  Inventiones mathematicae 109.1 (1992)  557-561 $[$[pdf](http://page.mi.fu-berlin.de/esnault/preprints/helene/26-es_sch_vi.pdf)$]$
 
