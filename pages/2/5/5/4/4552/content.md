@@ -22,7 +22,7 @@ On the relation between [[free loop spaces]]/[[cyclic loop spaces]] and [[Hochsc
 
 On [[operads]]:
 
-* [[Jean-Louis Loday]], [[Bruno Vallette]], *Algebraic Operads*, Grundlehren der mathematischen Wissenschaften **346**, Springer 2012 ([ISBN 978-3-642-30362-3](https://www.springer.com/gp/book/9783642303616), [pdf](http://irma.math.unistra.fr/~loday/PAPERS/LodayVallette.pdf))
+* [[Jean-Louis Loday]], [[Bruno Vallette]], *Algebraic Operads*, Grundlehren der mathematischen Wissenschaften **346**, Springer 2012 ([ISBN 978-3-642-30362-3](https://www.springer.com/gp/book/9783642303616), [pdf](https://pure.mpg.de/rest/items/item_3121746_1/component/file_3121747/content))
 
 
 Other:
