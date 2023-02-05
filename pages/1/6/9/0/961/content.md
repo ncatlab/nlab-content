@@ -13,9 +13,21 @@
 =--
 =--
 
+
 # Congruences
 * table of contents
 {: toc}
+
+## Idea
+ {#Idea}
+
+In [[Euclidean geometry]], by *congruence* one means the [[equivalence relation]] on the collection of [[subsets]] of a [[Euclidean space]] which regards two of these as equivalent if one is carried into the other by an [[isometry]] (of the ambient Euclidean space).
+
+Similarly, in [[algebra]], by a *congruence* one means certain [[equivalence relations]] on elements of algebraic [[structures]], such as [[groups]] or [[rings]] (cf. e.g. the [[multiplicative group of integers modulo n]]).
+
+Therefore, in [[category theory]] the term *congruence* is used in the broad generality of
+[[equivalence relations]] on (the [[generalized elements]] of) *any object* [[internalization|internal to]] *any* [[finitely complete category]].
+
 
 ## Definitions
 
@@ -189,7 +201,22 @@ A special case of this is that of a _[[quotient module]]_.
 ## See also 
 
 * [[preordered object]]
+
 * [[setoid object]]
+
+
+## References
+
+### In common mathematics
+
+* Wikipedia, <a href="https://en.wikipedia.org/wiki/Congruence_(geometry)">Congruence (geometry)</a>
+
+* Wikipedia, *[Congruence relation](https://en.wikipedia.org/wiki/Congruence_relation)*
+
+### In category theory
+
+...
+
 
 [[!redirects congruence]]
 [[!redirects congruences]]
