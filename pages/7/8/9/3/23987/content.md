@@ -402,6 +402,15 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
   >  First, I will give a brief introduction to [[knot theory]] and its connection to [[Chern-Simons theory|Chern-Simons]] [[quantization of 3d Chern-Simons theory|quantum field theory]]. Then I discuss the method of obtaining polynomial invariants and limitations towards tackling classification of knots. In particular, we will highlight our new results on weaving knots and review the recent developments on Knot-Quiver correspondence.
 
 
+\linebreak
+
+### Feb 2023
+
+* {#MurrayFeb2023} 20 Feb 2023
+
+  [[Zachary Murray]] 
+
+  > on coding the [[real numbers]] in [[Agda]]
 
 
 
