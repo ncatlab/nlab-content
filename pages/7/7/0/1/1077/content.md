@@ -19,7 +19,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {: toc}
@@ -30,10 +29,20 @@ A _biproduct_ in a [[category]] $\mathcal{C}$ is an operation that is both a [[p
 
 Finite biproducts are best known from [[additive category|additive categories]]. A category which has biproducts but is not necessarily [[enriched category|enriched]] in [[Ab]], hence not necessarily [[additive category|additive]], is called a _semiadditive category_.
 
+## Definition in an additive category
 
-## Definition 
+Let $\mathcal{C}$ be an [[additive category]]; that is, $\mathcal{C}$ is enriched over [[abelian groups]]. For $a, b$ a [[pair]] of objects in $\mathcal{C}$, a __biproduct__ of $a$ and $b$ ([MacLane](#MacLane) p.194) is an object $a \oplus b$ together with maps
+\begin{tikzcd}
+a \arrow[rr, "i_{1}"', shift right] &  & a \oplus b \arrow[ll, "p_{1}"', shift right] \arrow[rr, "p_{2}", shift left] &  & b \arrow[ll, "i_{2}", shift left]
+\end{tikzcd}
+which satisfy the identities
+$$
+i_{1};p_{1}=1_{a}, \quad i_{2};p_{2}=1_{b}, \quad p_{1};i_{1} + p_{2};i_{2} = 1_{a \oplus b}
+$$
 
-Let $\mathcal{C}$ be a [[category]] with [[zero morphisms]]; that is, $C$ is [[enriched category|enriched]] over [[pointed sets]] (which is notably the case when $C$ has a [[zero object]]).  For $c_1, c_2$ a [[pair]] of objects in $C$, suppose a [[product]] $c_1 \times c_2$ and a [[coproduct]] $c_1 \sqcup c_2$ both exist.  
+## Definition in a category with zero morphisms
+
+Let $\mathcal{C}$ be a [[category]] with [[zero morphisms]]; that is, $\mathcal{C}$ is [[enriched category|enriched]] over [[pointed sets]] (which is notably the case when $\mathcal{C}$ has a [[zero object]]).  For $c_1, c_2$ a [[pair]] of objects in $\mathcal{C}$, suppose a [[product]] $c_1 \times c_2$ and a [[coproduct]] $c_1 \sqcup c_2$ both exist.  
 
 +-- {: .num_defn #TheCanonicalComparisonMorphism}
 ###### Definition
@@ -223,6 +232,8 @@ Some categories possess all [[binary products]] and [[coproducts]] but they are 
 * [[pointed category]]
 
 ## References
+
+* {#MacLane} [[Saunders MacLane]], _[[Categories Work|Categories for the working mathematician]]_
 
 * {#Lack09} [[Stephen Lack]], _Non-canonical isomorphisms_, ([arXiv:0912.2126](http://arxiv.org/abs/0912.2126)).
 
