@@ -6,6 +6,8 @@ A [[double category]] $\mathbb{D} = (D_{0}, D_{1})$ is *right-connected* if its 
 
 Dually, a double category $\mathbb{D} = (D_{0}, D_{1})$ is *left-connected* if its [[identity morphisms|identity]]-assigning map $id \colon D_{0} \rightarrow D_{1}$ is [[left adjoint]] to its [[domain]]-assigning map $dom \colon D_{1} \rightarrow D_{0}$. 
 
+### Unpacking the definition
+
 We can unpack the definition of right-connectedness as follows. 
 Let $\rho \colon 1_{D_{1}} \Rightarrow id \circ cod$ denote the [[unit of an adjunction|unit]] of the adjunction $cod \dashv id$, and let the [[counit of an adjunction|counit]] be the identity natural transformation by the axioms of an [[internal category]]. 
 Given a vertical morphism $f \colon A \nrightarrow B$ in $\mathbb{D}$, the component of the unit may be depicted as follows: 
@@ -65,6 +67,38 @@ and
     & D
     \end{tikzcd}
 are equal. 
+
+## Properties
+
+\begin{proposition}
+If $\mathbb{D} = (D_{0}, D_{1})$ is a right-connected double category, 
+then there is a [[double functor]] $U \colon \mathbb{D} \rightarrow \mathbb{S}q(D_{0})$ with assignment given below. 
+\begin{tikzcd}
+A
+\arrow[r, "h"]
+\arrow[d, "\bullet"{anchor=center}, "f"']
+\arrow[rd, phantom, "\alpha"]
+& C
+\arrow[d, "\bullet"{anchor=center}, "g"]
+& \phantom{X}
+\arrow[d, phantom, "\longmapsto"]
+& A
+\arrow[r, "h"]
+\arrow[d, "Uf"']
+& C
+\arrow[d, "Ug"]
+\\
+B
+\arrow[r, "k"']
+& D
+& \phantom{X}
+& B
+\arrow[r, "k"']
+& D
+\end{tikzcd} 
+\end{proposition}
+
+A proof can be found in [Bourke & Garner, Section 3.5](#BourkeGarner2016a).
 
 ## Examples
 
