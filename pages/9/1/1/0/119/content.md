@@ -54,7 +54,7 @@ such that
 ### As a category ###
  {#AsACategory}
 
-[[relation between preorders and (0,1)-categories|Equivalently, a proset is]] a ([[strict category|strict]]) [[thin category]]: a [[strict category]] such that for any [[pair]] of [[objects]] $x, y$, there is at most one [[morphism]] from $x$ to $y$.  The existence of such a morphism corresponds to the truth of the relation $x \leq y$.  [[relation between preorders and (0,1)-categories|In other words, it's]] a (strict) [[category enriched]] over the [[cartesian monoidal category]] of [[truth values]] (a [[(0,1)-category]]).
+[[relation between preorders and (0,1)-categories|Equivalently, a preordered set is]] a ([[strict category|strict]]) [[thin category]]: a [[strict category]] such that for any [[pair]] of [[objects]] $x, y$, there is at most one [[morphism]] from $x$ to $y$.  The existence of such a morphism corresponds to the truth of the relation $x \leq y$.  [[relation between preorders and (0,1)-categories|In other words, it's]] a (strict) [[category enriched]] over the [[cartesian monoidal category]] of [[truth values]] (a [[(0,1)-category]]).
 
 
 ### In homotopy type theory
