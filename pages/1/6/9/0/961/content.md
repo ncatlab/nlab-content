@@ -224,7 +224,16 @@ A special case of this is that of a _[[quotient module]]_.
 
 ### In category theory
 
-References using terminology as above still need to be given here...
+References using terminology as above:
+
+
+* [[Jiri Adamek]], [[Horst Herrlich]], [[George Strecker]], p. 195 of: *[[Abstract and Concrete Categories]]*, John Wiley and Sons, New York (1990) reprinted as: Reprints in Theory and Applications of Categories **17** (2006) 1-507 &lbrack;[tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html), [book webpage](http://katmat.math.uni-bremen.de/acc/)&rbrack;
+
+* [[Francis Borceux]], Exp. 2.10.3.b in: *[[Handbook of Categorical Algebra]]* Vol. 1 *Basic Category Theory*,   Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
+
+* [[Francis Borceux]], Exps. 2.5.6 in: *[[Handbook of Categorical Algebra]]* Vol. 2 *Categories and Structures*,   Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)&rbrack;
+
+
 
 ...
 
