@@ -84,6 +84,9 @@ See Definition B2.4.1 in the [[Elephant]].
 
 * The existence of a small (co)separating family is one of the conditions in one version of the [[adjoint functor theorem]].
 
+* In $Set^{op}$, the two-element set $2$ is a separator, thus every [[continuous functor]] $F:Set\to C$ into a locally small category $C$ has a [[left adjoint]] by the special [[adjoint functor theorem]].
+
+* On the other hand, the opposite of the category of groups does not admit a separator, since there exists a continuous functor $ML: Group\to Set$ which does not have a left adjoint (see Example 3.1 on the page [[adjoint functor theorem]]).
 
 ## Strengthened separators
 
