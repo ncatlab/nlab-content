@@ -1,10 +1,23 @@
 \tableofcontents
 
+## Idea 
+
+A [[double category]] consists of [[objects]], two classes of [[morphisms]] ([[horizontal morphism|horizontal]] and vertical), and cells between them. 
+The idea behind a right-connected double category is that each vertical morphism $f \colon A \nrightarrow B$ has an *underlying* horizontal morphism $Uf \colon A \rightarrow B$.
+Therefore, the vertical morphisms should be understood as horizontal morphisms with certain [[properties]] or equipped with additional [[structure]].
+Correspondingly, the main examples of right-connected double categories arise from [[orthogonal factorization systems]] or [[algebraic weak factorization systems]], where the vertical morphisms are in the *right class* of the factorization system. 
+
+The concept of a right-connected double category is unrelated to the notion of a [[connection on a double category]]. 
+
 ## Definition 
 
 A [[double category]] $\mathbb{D} = (D_{0}, D_{1})$ is *right-connected* if its [[identity morphisms|identity]]-assigning map $id \colon D_{0} \rightarrow D_{1}$ is [[right adjoint]] to its [[codomain]]-assigning map $cod \colon D_{1} \rightarrow D_{0}$. 
 
 Dually, a double category $\mathbb{D} = (D_{0}, D_{1})$ is *left-connected* if its [[identity morphisms|identity]]-assigning map $id \colon D_{0} \rightarrow D_{1}$ is [[left adjoint]] to its [[domain]]-assigning map $dom \colon D_{1} \rightarrow D_{0}$. 
+
+\begin{remark}
+This definition makes sense for any pseudo [[category object]] in a [[2-category]].
+\end{remark}
 
 ### Unpacking the definition
 
@@ -97,10 +110,30 @@ B
 & D
 \end{tikzcd} 
 \end{proposition}
-
 A proof can be found in [Bourke & Garner, Section 3.5](#BourkeGarner2016a).
 
+Let $\mathbf{RcDbl}$ denote the [[2-category]] of right-connected double categories, *unitary* [[double functors]] (those which preserve vertical identities strictly), and [[vertical transformation|horizontal transformations]]. 
+Let $Obj \colon \mathbf{RcDbl} \rightarrow \mathbf{Cat}$ denote the [[2-functor]] which assigns a double category $\mathbb{D} = (D_{0}, D_{1})$ to 
+its category $D_{0}$ of objects and horizontal morphisms. 
+
+\begin{proposition}
+There is an [[adjoint triple]] of $2$-functors: 
+\begin{tikzcd}
+\mathbf{RcDbl} 
+\arrow[r, "\mathrm{Obj}" description]
+& \mathbf{Cat}
+\arrow[l, phantom, shift right = 5, "\bot"]
+\arrow[l, phantom, shift left = 5, "\bot"]
+\arrow[l, "\mathbb{H}"', shift right = 8]
+\arrow[l, "\mathbb{S}q", shift left = 8]
+\end{tikzcd}
+\end{proposition}
+
 ## Examples
+
+\begin{example}
+For each category $C$, the horizontal double category $\mathbb{H}(C)$ ---whose objects and horizontal morphisms come from $C$, and whose vertical morphisms and cells are identities --- is right-connected. 
+\end{example}
 
 \begin{example}
 For each category $C$, the [[double category of squares]] $\mathbb{S}q(C)$ is right-connected. 
