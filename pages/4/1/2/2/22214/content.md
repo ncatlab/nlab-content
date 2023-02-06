@@ -30,6 +30,8 @@ _Machine learning_ is a branch of [[computer science]] which devises algorithms 
 
 * [[statistical learning theory]]
 
+* [[singular learning theory]]
+
 ## References
 
 ### Classical machine learning
