@@ -295,10 +295,13 @@ Discussion in the context of [[(2,1)-dimensional Euclidean field theories and tm
 * {#StolzTeichner11} [[Stefan Stolz]], [[Peter Teichner]], section 5.2 of _Supersymmetric field theories and generalized cohomology_, in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[Mathematical foundations of Quantum field theory and String theory](http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionStolzTeichner)_, Proceedings of Symposia in Pure Mathematics, Volume 83, AMS (2011)
 
 
-
 Discussion in the context of the [[cobordism hypothesis]]:
 
 * {#FiorenzaValentino14} [[Domenico Fiorenza]], [[Alessandro Valentino]], *Boundary Conditions for Topological Quantum Field Theories, Anomalies and Projective Modular Functors*, Commun. Math. Phys. **338** (2015) 1043–1074  $[$[arXiv:1409.5723](http://arxiv.org/abs/1409.5723), [doi:10.1007/s00220-015-2371-3](https://doi.org/10.1007/s00220-015-2371-3)$]$
+
+Constructing [[modular functors]] from [[pivotal category|pivotal]] [[bicategories]] using [[string net models]]:
+
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Yang Yang]], *String-net models for pivotal bicategories* &lbrack;[arXiv:2302.01468](https://arxiv.org/abs/2302.01468)&rbrack;
 
 
 [[!redirects modular functors]]
