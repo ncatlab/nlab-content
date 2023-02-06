@@ -5,7 +5,7 @@
 
 ## Idea
 
-A theory that applies [[algebraic geometry]] to [[statistical learning theory]]. In the case of learning algorithms, such as deep neural networks, where there are multiple parameter values corresponding to the same statistical distribution, the [[preimage]] of the target distribution may take the form of a [[singular point|singular]] subspace of the parameter space. Techniques from algebraic geometry may then be applied to study learning with such devices.
+*Singular learning theory* applies results from [[algebraic geometry]] to [[statistical learning theory]]. In the case of learning algorithms, such as deep neural networks, where there are multiple parameter values corresponding to the same statistical distribution, the [[preimage]] of the target distribution may take the form of a [[singular point|singular]] subspace of the parameter space. Techniques from algebraic geometry may then be applied to study learning with such devices.
 
 ## References
 
