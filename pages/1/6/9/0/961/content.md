@@ -36,7 +36,16 @@ Therefore, in [[category theory]] the term *congruence* is used in the broad gen
 
 In a [[finitely complete category]] $C$, a **congruence** on an [[object]] $X$ is an [[internalization|internal]] [[equivalence relation]] on $X$ (i.e.: an [[internal groupoid]] --- hence an [[internal category]] with all [[morphisms]] being [[isomorphisms]] --- but with no non-[[identity morphism|identity]] [[automorphisms]]). 
 
-This means that it consists of a [[subobject]] $R\stackrel{(p_1,p_2)}\hookrightarrow X \times X$ of the [[Cartesian products]] of $X$ with itself, equipped with the following [[morphisms]]: 
+This means that it consists of a [[subobject]] 
+
+\[
+  \label{TheSubobject}
+  i 
+  \;\colon\;
+  R\stackrel{(p_1,p_2)}\hookrightarrow X \times X
+\] 
+
+of the [[Cartesian products]] of $X$ with itself, equipped with the following [[morphisms]]: 
 
 * internal [[reflexive relation|reflexivity]]: $r \colon X \to R$ which is a [[section]] both of $p_1$ and of $p_2$, i.e., $p_1 r = p_2 r = 1_X$;
 
@@ -215,8 +224,13 @@ A special case of this is that of a _[[quotient module]]_.
 
 ### In category theory
 
+References using terminology as above still need to be given here...
+
 ...
 
+But, for what it's worth, a *different* use of the term "congruence" in category theory appears in Def. 3.5.1 on [p. 89](https://www.math.mcgill.ca/triples/Barr-Wells-ctcs.pdf#page=107) in:
+
+* {#BarrWells95} [[Michael Barr]], [[Charles Wells]], *Category theory for computing science*, Prentice-Hall International Series in Computer Science (1995); reprinted in: Reprints in Theory and Applications of Categories **22** (2012) 1-538 &lbrack;[pdf](http://www.math.mcgill.ca/barr/papers/ctcs.pdf), [tac:tr22](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html)&rbrack;
 
 [[!redirects congruence]]
 [[!redirects congruences]]
