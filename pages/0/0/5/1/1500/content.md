@@ -24,7 +24,7 @@ A **fusion category** is a [[rigid monoidal category|rigid]] [[semisimple catego
 
 =--
 
-Often one also assume a [[braided monoidal category|braiding]] and speaks of a *braided fusion category*.
+Often one also assumes a [[braided monoidal category|braiding]] and speaks of a *braided fusion category*.
 
 
 ## Examples
