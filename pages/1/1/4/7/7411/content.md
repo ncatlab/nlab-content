@@ -26,7 +26,7 @@
 +-- {: .num_defn}
 ###### Definition 
 
-A **monoidal monad** is a [[monad]] in the [[2-category]] of [[monoidal category|monoidal categories]], [[lax monoidal functor|lax monoidal functors]], and monoidal transformations. 
+A **monoidal monad** is a [[monad]] in the [[2-category]] of [[monoidal category|monoidal categories]], [[lax monoidal functor|lax monoidal functors]], and [[monoidal natural transformation|monoidal transformations]]. 
 
 =-- 
 
