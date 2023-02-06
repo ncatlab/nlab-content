@@ -41,13 +41,18 @@ Current "coordinating committee" (according to the [home page](http://unimath.gi
 
 Web resources:
 
-* [Home page](http://unimath.github.io/UniMath/)
+* *Univalent Mathematics in [[Coq]]* 
 
-* [GitHub page](https://github.com/UniMath)
+  [unimath.github.io/UniMath](http://unimath.github.io/UniMath)
 
-* [table of contents](https://unimath.github.io/UniMath/UniMath/CONTENTS.html)
+  * [table of contents](https://unimath.github.io/UniMath/UniMath/CONTENTS.html)
 
-* [index](https://unimath.github.io/doc/UniMath/d4de26f/)
+  * [index](https://unimath.github.io/doc/UniMath/d4de26f/)
+
+* *Univalent Mathematics in [[Agda]]* 
+
+  [unimath.github.io/agda-unimath](https://unimath.github.io/agda-unimath)
+
 
 ## Further references
 
