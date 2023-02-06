@@ -1,13 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+
+
 \tableofcontents
 
 ## Idea 
 
-A [[double category]] consists of [[objects]], two classes of [[morphisms]] ([[horizontal morphism|horizontal]] and vertical), and cells between them. 
-The idea behind a right-connected double category is that each vertical morphism $f \colon A \nrightarrow B$ has an *underlying* horizontal morphism $Uf \colon A \rightarrow B$.
+A [[double category]] consists of [[objects]], two [[classes]] of [[1-morphisms]] ([[horizontal morphism|horizontal and vertical]]), and [[2-morphisms]] between these.  
+
+The idea behind a right-connected double category is that each vertical morphism $f \colon A \nrightarrow B$ has an *[[underlying]]* horizontal morphism $U f \colon A \rightarrow B$.
 Therefore, the vertical morphisms should be understood as horizontal morphisms with certain [[properties]] or equipped with additional [[structure]].
 Correspondingly, the main examples of right-connected double categories arise from [[orthogonal factorization systems]] or [[algebraic weak factorization systems]], where the vertical morphisms are in the *right class* of the factorization system. 
 
-The concept of a right-connected double category is unrelated to the notion of a [[connection on a double category]]. 
+The concept of a right-connected double category is unrelated to the notion of a "[[connection on a double category]]". 
 
 ## Definition 
 
@@ -39,6 +53,7 @@ B
 The [[triangle identities]] of an adjunction imply that: 
 
 1. the bottom boundary of $\rho_{f}$ is an identity morphism;
+
 2. the component of $\rho$ at an identity vertical morphism $id_{A} \colon A \nrightarrow A$ is the identity cell on $A$.
 
 Given a cell $\alpha$ in $\mathbb{D}$, naturality of $\rho$ states that the cells 
@@ -145,11 +160,11 @@ For each [[algebraic weak factorization system]] $(K, R, L)$ on a category $K$, 
 
 ## References
 
-The notion was first defined in Section 3.5 of the paper:
+The notion was first defined in Section 3.5 of:
 
  * {#BourkeGarner2016a} [[John Bourke]], [[Richard Garner]], _Algebraic weak factorisation systems I: Accessible AWFS_, Journal of Pure and Applied Algebra, **220**, 2016 ([arXiv:1412.6559](https://arxiv.org/abs/1412.6559), [doi:10.1016/j.jpaa.2015.06.002](https://doi.org/10.1016/j.jpaa.2015.06.002))
 
-Further discussion of right-connected double categories appears in Section 2.5 of the paper: 
+Further discussion of right-connected double categories appears in Section 2.5 of: 
 
  * {#BourkeGarner2016b} [[John Bourke]], [[Richard Garner]], _Algebraic weak factorisation systems II: Categories of weak maps_, Journal of Pure and Applied Algebra, **220**, 2016 ([arXiv:1412.6560](https://arxiv.org/abs/1412.6560), [doi:10.1016/j.jpaa.2015.06.003](https://doi.org/10.1016/j.jpaa.2015.06.003))
 
