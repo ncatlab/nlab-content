@@ -31,6 +31,8 @@ An **operad** is a gadget used to describe algebraic structures in [[symmetric m
 
 * subject to evident [[associativity]] and [[unitality]] conditions.
 
+Just like a monoid can be seen as a single-object category, an operad is equivalently a single-object multicategory. Multicategories with multiple objects are also called colored operads.
+
 An [[algebra over an operad]] is a concrete realization of these abstract operations: an [[object]] $A$ equipped with $n$-ary operations $A \otimes \cdots \otimes A \to A$ as specified by the operad, subject to the composition relation as specified by the operad.
 
 This way an operad is like a [[Lawvere theory]] in that it can be used to describe algebraic structures having finitary operations obeying equational laws.  However, unlike Lawvere theories, operads can be defined internal to general [[symmetric monoidal categories]] where the [[tensor product]] might not be the [[cartesian product]]. 
