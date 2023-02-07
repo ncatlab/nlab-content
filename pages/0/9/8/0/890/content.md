@@ -60,8 +60,16 @@ Quotient sets in [[Set]] generalise to [[quotient object]]s in other categories.
 ## See also 
 
 * [[equivalence relation]]
+
 * [[setoid]]
+
+* [[quotient type]]
+
 * [[higher inductive type]]
+
+## Rereferences
+
+See the references at *[[quotient type]]*.
 
 category: foundational axiom
 
