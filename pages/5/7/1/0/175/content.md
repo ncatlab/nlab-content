@@ -52,6 +52,10 @@ in general
 
 * [[Joseph J. Rotman]], *An Introduction to the Theory of Groups*, Springer (1995) &lbrack;[doi:10.1007/978-1-4612-4176-8](https://doi.org/10.1007/978-1-4612-4176-8), [pdf](https://eclass.uoa.gr/modules/document/file.php/MATH676/Rotman%20An%20introduction%20to%20the%20theory%20of%20groups.pdf)&rbrack;
 
+in a more general context of [[algebra]]:
+
+* [[Anthony Knapp]], *Basic Algebra*, Springer (2006) &lbrack;[doi:10.1007/978-0-8176-4529-8](https://doi.org/10.1007/978-0-8176-4529-8), [pdf](https://www.math.mcgill.ca/darmon/courses/19-20/algebra2/knapp.pdf)&rbrack;
+
 and in relation to applications in ([[quantum physics|quantum]]) [[physics]]:
 
 * {#Wigner31} [[Eugene P. Wigner]]: *Gruppentheorie und ihre Anwendung auf die Quantenmechanik der Atomspektren*, Springer (1931) &lbrack;[doi:10.1007/978-3-663-02555-9](https://doi.org/10.1007/978-3-663-02555-9), [pdf](https://digbib.ubka.uni-karlsruhe.de/volltexte/wasbleibt/33355459/33355459.pdf)&rbrack;
