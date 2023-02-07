@@ -384,6 +384,8 @@ One could analytically define the concepts of [[limit of a function]] and [[cont
 
 ## References
 
+* [[Leo Corry]], *A Brief History of Numbers*, Oxford University Press (2015) &lbrack;[ISBN:9780198702597](https://global.oup.com/academic/product/a-brief-history-of-numbers-9780198702597)&rbrack;
+
 Discussion in [[homotopy type theory]]:
 
 * {#UBP13} [[Univalent Foundations Project]], §11.1 of: *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
