@@ -32,9 +32,9 @@ We can typically invert elements in a left or right Ore subset $S\subset R$ or m
 
 Let $R$ be a [[ring]] and $(S, 1, \cdot)$ be a multiplicative [[submonoid]] of $(R, 1, \cdot)$ with [[monoid]] [[monomorphism]] $i:S \hookrightarrow R$. The **localization** of $R$ at $S$ is defined as the [[initial object|initial]] ring $S^{-1} R$ with a ring homomorphism $h:R \to S^{-1} R$ and monoid homomorphism $j:S \to S^{-1} R$ such that for all $s \in S$, $j(s) \cdot h(i(s)) = 1$ and $h(i(s)) \cdot j(s) = 1$: for every other ring $A$ with a ring homomorphism $k:R \to A$ and monoid homomorphism $l:S \to A$ such that for all $s \in S$, $l(s) \cdot k(i(s)) = 1$ and $k(i(s)) \cdot l(s) = 1$, there is a unique ring homomorphism $g:S^{-1} R \to A$. 
 
-This needs conditions in order to exist, see at *[[Ore localization]]* or *[[noncommutative localization]]*.
-
 The localization of a ring at a multiplicative submonoid $S$ which contains $0$ is the [[trivial ring]]. 
+
+See also at *[[Ore localization]]* or *[[noncommutative localization]]*.
 
 
 
