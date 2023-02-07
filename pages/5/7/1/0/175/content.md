@@ -65,6 +65,15 @@ See also:
 
 * Wikipedia, *[Group theory](https://en.wikipedia.org/wiki/Group_theory)*
 
+Formalization in [[univalent foundations of mathematics]] ([[homotopy type theory]] with the [[univalence axiom]])
+
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: Chapter 4 of: *[[Symmetry]]* (2021) &lbrack;[pdf](https://unimath.github.io/SymmetryBook/book.pdf)&rbrack;
+
+and implementation in [[Agda]]:
+
+* [[UniMath project]]: [agda-unimath/src/group-theory](https://github.com/UniMath/agda-unimath/tree/master/src/group-theory)
+
+
 On aspects of group theory seen inside [[homotopy theory]]/[[infinity-group|$\infty$-group theory]]:
 
 * [[Roman Mikhailov]], *Homotopy patterns in group theory*,  Proceedings of the [ICM 2022](https://icm2022.org) ([arXiv:2111.00737](https://arxiv.org/abs/2111.00737))
