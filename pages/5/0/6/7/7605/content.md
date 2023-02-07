@@ -108,6 +108,10 @@ Generally one wants at least to require that all fibrant objects are cofibrant, 
 
 * {#GK} [[David Gepner]] and [[Joachim Kock]], *Univalence in locally cartesian closed categories*, [arxiv:1208.1749](https://arxiv.org/abs/1208.1749)
 
+Combination with the terminology of *[[model topos]]* to *type-theoretic model topos*:
+
+* {#Shulman19} [[Michael Shulman]], §1.3 in: _All $(\infty,1)$-toposes have strict univalent universes_ ([arXiv:1904.07004](https://arxiv.org/abs/1904.07004)).
+
 
 [[!redirects presentation of homotopy type theory]]
 [[!redirects categorical semantics of homotopy type theory]]
