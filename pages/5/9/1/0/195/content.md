@@ -96,9 +96,10 @@ Finally, skeletality is mostly meaningless in HoTT because paths are the only no
 
 ### General
 
-Formalization of sets in [[homotopy type theory]] (via [[h-sets]]) is discussed in 
+Formalization of sets in [[homotopy type theory]] (via [[h-sets]]):
 
-* [[Egbert Rijke]], [[Bas Spitters]], _Sets in homotopy type theory_ ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
+* [[Egbert Rijke]], [[Bas Spitters]], *Sets in homotopy type theory*, Mathematical Structures in Computer Science **25**  5 "From type theory and homotopy theory to Univalent Foundations of Mathematics" (2015) 1172-1202 
+&lbrack;[doi:10.1017/S0960129514000553](https://doi.org/10.1017/S0960129514000553), [arXiv:1305.3835](http://arxiv.org/abs/1305.3835)&rbrack;
 
 
 ### History
