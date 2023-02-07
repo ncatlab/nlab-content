@@ -320,6 +320,11 @@ So in summary, this page is about the _real, finite, located, standard, analytic
 
 ## References
 
+Review and history:
+
+* [[Leo Corry]], §10.5 in: *A Brief History of Numbers*, Oxford University Press (2015) &lbrack;[ISBN:9780198702597](https://global.oup.com/academic/product/a-brief-history-of-numbers-9780198702597)&rbrack;
+
+
 A formalization of the real numbers in [[homotopy type theory]] is in 
 
 * [[Univalent Foundations Project]], chapter 11 of _[[Homotopy Type Theory – Univalent Foundations of Mathematics]]_
