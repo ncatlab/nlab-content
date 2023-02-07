@@ -125,4 +125,13 @@ By [[Henselian ring|Hensel's lemma]], the group of units $\mathbb{Z}_p^\times$ h
 
 * [[exponential sequence]], [[Kummer sequence]]
 
+## References
+
+For instance:
+
+* [[Anthony Knapp]], p. 143 in: *Basic Algebra*, Springer (2006) &lbrack;[doi:10.1007/978-0-8176-4529-8](https://doi.org/10.1007/978-0-8176-4529-8), [pdf](https://www.math.mcgill.ca/darmon/courses/19-20/algebra2/knapp.pdf)&rbrack;
+
+
+
+
 [[!redirects groups of units]]
