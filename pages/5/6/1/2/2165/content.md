@@ -107,6 +107,10 @@ It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C
 
 ## References
 
+* [[Leo Corry]], *A Brief History of Numbers*, Oxford University Press (2015) &lbrack;[ISBN:9780198702597](https://global.oup.com/academic/product/a-brief-history-of-numbers-9780198702597)&rbrack;
+
+See also:
+
 * Wikipedia, _[Complex numbers](https://en.wikipedia.org/wiki/Complex_number)_
 
 * [[Tom Leinster]], _Objects of categories as complex numbers_, [	arXiv:math/0212377v1](http://arxiv.org/abs/math/0212377)
