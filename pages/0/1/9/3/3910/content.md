@@ -143,6 +143,10 @@ The symbol '$\mathbb{Z}$' derives from the German word 'Zahlen', which is a gene
 
 * [[integers type]]
 
+## References
+
+* [[Leo Corry]], *A Brief History of Numbers*, Oxford University Press (2015) &lbrack;[ISBN:9780198702597](https://global.oup.com/academic/product/a-brief-history-of-numbers-9780198702597)&rbrack;
+
 [[!redirects integer]]
 [[!redirects integers]]
 
