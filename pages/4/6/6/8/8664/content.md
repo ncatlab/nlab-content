@@ -60,6 +60,9 @@ Essentially this idea appears earlier in:
 
 * [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry I: Topos theory_, Advances in Mathematics **193** 2 (2005)  257-372  &lbrack;[arXiv:math.AG/0207028](http://arxiv.org/abs/math.AG/0207028), [doi:10.1016/j.aim.2004.05.004](https://doi.org/10.1016/j.aim.2004.05.004)&rbrack;
 
+In the context of [[categorical semantics]] for [[univalence|univalent]] [[homotopy type theory]], the combination of terminology "model topos" with *[[type-theoretic model category]]* to *type-theoretic model topos*:
+
+* {#Shulman19} [[Michael Shulman]], §1.3 in: _All $(\infty,1)$-toposes have strict univalent universes_ ([arXiv:1904.07004](https://arxiv.org/abs/1904.07004)).
 
 
 [[!redirects model toposes]]
