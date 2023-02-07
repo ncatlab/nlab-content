@@ -87,6 +87,10 @@ Sometimes one singles out subtypes of such types; for example, the field of all 
 
 (...)
 
+## References
+
+* [[Leo Corry]], *A Brief History of Numbers*, Oxford University Press (2015) &lbrack;[ISBN:9780198702597](https://global.oup.com/academic/product/a-brief-history-of-numbers-9780198702597)&rbrack;
+
 
 [[!redirects number]]
 [[!redirects numbers]]
