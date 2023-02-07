@@ -9,6 +9,12 @@ On the history of the notion of *[[mathematical structures]]* such as attributed
 
 * [[Leo Corry]], *Modern Algebra and the Rise of Mathematical Structures*, Springer (2004) &lbrack;[doi:10.1007/978-3-0348-7917-0](https://doi.org/10.1007/978-3-0348-7917-0)&rbrack;
 
+On the history of notions of *[[numbers]]* ([[natural numbers]], [[rational numbers]], [[real numbers]], [[complex numbers]], ...):
+
+* [[Leo Corry]], *A Brief History of Numbers*, Oxford University Press (2015) &lbrack;[ISBN:9780198702597](https://global.oup.com/academic/product/a-brief-history-of-numbers-9780198702597)&rbrack;
+
+
+
 
 
 
