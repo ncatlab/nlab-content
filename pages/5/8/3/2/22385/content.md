@@ -217,6 +217,22 @@ A similar result holds for [[SEAR plus epsilon|SEAR+$\epsilon$]].
 
 [[!include types and logic - table]]
 
+
+
+## References
+
+The notion goes to back the definition of sets in [[constructive mathematics]] according to
+
+* {#Bishop} [[Errett Bishop]], *[[Foundations of Constructive Analysis]]*, Mcgraw-Hill (1967)
+
+* [[Errett Bishop]], [[Douglas Bridges]], p. 15 of:  *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
+
+Review and formalization in [[type theory]]:
+
+* Gilles Barthe, Venanzio Capretta, Olivier Pons, *Setoids in type theory*, Journal of Functional Programming **13** 2 (2003) 261-293 &lbrack;[doi:10.1017/S0956796802004501](https://doi.org/10.1017/S0956796802004501)&rbrack;
+
+
+
 [[!redirects setoids]]
 
 [[!redirects pseudo-equivalence relation]]
