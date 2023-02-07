@@ -18,6 +18,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -55,7 +56,7 @@ describes the process by which
 
   On the other hand, if the category is $R$-linear ([[enriched category|enriched]] in [[R Mod]]) then it may again be referred to as an *[[algebroid]]* over $R$.
 
-* A horizontal categorification of a [[monad]] is a [[category enriched in a bicategory]].
+* A horizontal categorification of the notion of *[[monads]]* is that of *[[categories enriched in a bicategory]]*.
 
 * A horizontal categorification of a single-sorted [[Lawvere theory]] is a multisorted Lawvere theory. Analogously an [[operad]] categorifies to a many-colored operad.
 
