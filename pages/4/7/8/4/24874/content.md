@@ -14,7 +14,7 @@ On [[software verification]] for [[quantum programming languages]]:
 
 and introducing the [[quantum programming language]] *[[CoqQ]]*:
 
-* Li Zhou, Gilles Barthe, Pierre-Yves Strub, Junyi Liu, [[Mingsheng Ying]], *CoqQ: Foundational Verification of Quantum Programs* &lbrack;[arXiv:2207.11350](https://arxiv.org/abs/2207.11350)&rbrack;
+* Li Zhou, [[Gilles Barthe]], Pierre-Yves Strub, Junyi Liu, [[Mingsheng Ying]], *CoqQ: Foundational Verification of Quantum Programs* &lbrack;[arXiv:2207.11350](https://arxiv.org/abs/2207.11350)&rbrack;
 
   > (in [[Coq]])
 
