@@ -86,9 +86,14 @@ fibration" should be defined using right homot equivs.
 
 ### As a higher inductive type
 
-* {#HofmannThesis} [[Martin Hofmann]], *Extensional concepts in intensional type theory*, Ph.D. Thesis, University of Edinburgh, 1995 (see page 111).
+As [[higher inductive types]]:
+
+* {#HofmannThesis} [[Martin Hofmann]], p. 111 in: _Extensional concepts in intensional type theory_, Ph.D. thesis, University of Edinburgh (1995), Distinguished Dissertations, Springer (1997) &lbrack;[ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]], [doi:10.1007/978-1-4471-0963-1](https://doi.org/10.1007/978-1-4471-0963-1)&rbrack;
+
 
 * {#Maietti99} [[Maria Emilia Maietti]], *About effective quotients in constructive type theory*, in "Types for proofs and programs", 1999
+
+* [[Thorsten Altenkirch]], [[Paolo Capriotti]], [[Gabe Dijkstra]], [[Nicolai Kraus]], [[Fredrik Forsberg]], *Quotient inductive-inductive types*, Foundations of Software Science and Computation Structures (FoSSaCS 2018), Lecture Notes in Computer Science **10803** (2018) &lbrack;[doi:10.1007/978-3-319-89366-2_16](https://doi.org/10.1007/978-3-319-89366-2_16), [arXiv:1612.02346](https://arxiv.org/abs/1612.02346)&rbrack;
 
 ### From univalence
  {#FromUnivalenceReferences}
@@ -105,23 +110,23 @@ A more readable version of this is in section 6.10 of
 
 * _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
-Def. 6.10.5 there is the definition of the quotients.  This uses
-truncation, for which something like univalence and resizing is
-necessary and univalence and truncation is sufficient for. 
-Then theorem 6.10.6 right below that definition checks that these
-quotient do indeed behave like quotients should, and this is where
-univalence proper comes in.
+Def. 6.10.5 there is the definition of the quotients.  This uses truncation, for which something like univalence and resizing is necessary and univalence and truncation is sufficient. 
+Then theorem 6.10.6 right below that definition checks that these quotient do indeed behave like quotients should, and this is where univalence proper comes in.
 
 This discussion of quotients from univalence in the HoTT book
 originally comes from 
 
-* [[Egbert Rijke]], [[Bas Spitters]], _Sets in homotopy type theory_,
-([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
+* [[Egbert Rijke]], [[Bas Spitters]], *Sets in homotopy type theory*, Mathematical Structures in Computer Science **25**  5 "From type theory and homotopy theory to Univalent Foundations of Mathematics" (2015) 1172-1202 
+&lbrack;[doi:10.1017/S0960129514000553](https://doi.org/10.1017/S0960129514000553), [arXiv:1305.3835](http://arxiv.org/abs/1305.3835)&rbrack;
 
 The relevant section there is 2.4 "Voevodsky's impredicative
 quotients", see def. 2.24 and the lines right below.
 
-The category theoretic ("semantics") version of the argument for colimits from a subobject classifier in an elementary topos is due to
+Review of this and related constructions:
+
+* Nuo Li, *Quotient Types in Type Theory*, Nottingham (2014) &lbrack;[pdf](https://eprints.nottingham.ac.uk/28941/1/Nuo%20Li%27s_Thesis.pdf), [oai:eprints.nottingham.ac.uk:28941](https://core.ac.uk/display/33573841), [[Li-QuotientTypes.pdf:file]]&rbrack;
+
+The [[categorical semantics]]-version of the argument for colimits from a [[subobject classifier]] in an [[elementary topos]] is due to
 
 * {#Pare74} [[Robert Paré]], _Colimits in Topoi_, Bull. AMS 80 (1974) pp.556-661. ([pdf](http://www.ams.org/journals/bull/1974-80-03/S0002-9904-1974-13497-X/S0002-9904-1974-13497-X.pdf))
 
