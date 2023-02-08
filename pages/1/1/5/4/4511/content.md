@@ -36,7 +36,7 @@ and
 $$
   Tor(A,-)
   : 
-  Mod_R \to Ab
+  {}_{R}Mod \to Ab
 $$ 
 
 with respect to one argument with fixed another, if they exist, are parts of a bifunctor 
@@ -491,7 +491,7 @@ We first give a proof for $R$ a [[principal ideal domain]] such as $\mathbb{Z}$.
 +-- {: .proof}
 ###### Proof
 
-Let $R$ be a [[principal ideal domain]] such as $\mathbb{Z}$ (in the latter case $R$[[Mod]]$\simeq$ [[Ab]]). Then by the discussion at _[projective resolution -- length-1 resolutions](projective%20resolution#Lenght1ResolutionsOfAbelianGroups)_ there is always a [[short exact sequence]]
+Let $R$ be a [[principal ideal domain]] such as $\mathbb{Z}$ (in the latter case $R$[[Mod]]$\simeq$ [[Ab]]). Then by the discussion at _[projective resolution -- length-1 resolutions](projective+resolution#Lenght1ResolutionsOfAbelianGroups)_ there is always a [[short exact sequence]]
 
 $$
   0 \to F_1 \to F_0 \to N \to 0
