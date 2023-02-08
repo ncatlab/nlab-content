@@ -132,6 +132,7 @@ The [[dependent pair]]-[[telescope]] [[type]] declaration of [[unital ring|unita
 
 <img src="/nlab/files/RingDataStruture-230129.jpg" width="740">
 
+For examples see at *[[numbers]]* -- *[In dependent type theory](https://ncatlab.org/nlab/show/number#InDependentTypeTheory)*.
 
 ### Module data structure
  {#ModuleDataStructure}
