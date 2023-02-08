@@ -279,6 +279,14 @@ There is also
 
 See also the references at _[[intuitionistic mathematics]]_ for more.
 
+Original texts:
+
+* {#Bishop} [[Errett Bishop]], *[[Foundations of Constructive Analysis]]*, McGraw-Hill (1967)
+
+rewritten as:
+
+* [[Errett Bishop]], [[Douglas Bridges]] *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
+
 
 Gentle introductions:
 
@@ -299,7 +307,6 @@ An more technical introduction to constructive reasoning in mathematics is (with
 
 Other accounts:
 
-*  [[Errett Bishop]] (1967). _Foundations of Constructive Analysis_. Rewritten with Douglas Bridges in 1985 as _Constructive Analysis_.
 
 * [[Michael J. Beeson]], *Foundations of Constructive Mathematics*,  Ergebnisse der Mathematik und ihrer Grenzgebiete **3** 6, Springer 1985 ([doi:10.1007/978-3-642-68952-9](https://link.springer.com/book/10.1007/978-3-642-68952-9), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-642-68952-9.pdf))
 
