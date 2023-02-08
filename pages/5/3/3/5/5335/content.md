@@ -9,6 +9,15 @@ Important results:
 *  [[intuitionistic mathematics]],
 *  [[fan theorem]] and [[bar theorem]].
 
+* [[Brouwer-Heyting-Kolmogorov interpretation]]
+
+## Brouwer's intuitionism
+ {#BrouwerIntuitionism}
+
+From p. 6 of [[Errett Bishop]]'s *[[Foundations of Constructive Analysis]]* (McGraw-Hill, 1967):
+
+<img src="/nlab/files/BishopOnBrouwer.jpg" width="570">
+
 
 category: people
 
