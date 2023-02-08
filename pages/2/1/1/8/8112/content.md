@@ -172,9 +172,9 @@ Introductions and surveys include
 * {#Litt} [[Daniel Litt]], _Automorphic forms notes, part I_ ([pdf](http://math.stanford.edu/~dlitt/Talks/automorphicformspt1.pdf))
 
 
-* [pdf](http://math.stanford.edu/~conrad/modseminar/pdf/L10.pdf)
+* Denis Trotabas, Modular Forms and Automorphic Representations (2010) ([pdf](http://math.stanford.edu/~conrad/modseminar/pdf/L10.pdf))
 
-* [pdf](http://www.math.uni-bonn.de/people/mueller/skripte/specauto.pdf)
+* Werner Muller, Spectral theory of automorphic forms (2010) ([pdf](http://www.math.uni-bonn.de/people/mueller/skripte/specauto.pdf))
 
 * {#Miyake76} Toshitsune Miyake's _Modular Forms_ 1976 (English version 1989) ([review pdf](projecteuclid.org/euclid.bams/1183556263))
 
