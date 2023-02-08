@@ -48,7 +48,16 @@ Since a complex number can be understood as a pair of [[real numbers]], this wou
 * Robert C. Gunning, Hugo Rossi, _Analytic functions of several complex variables_, AMS Chelsea Publishing
 
 * Douglas N. Arnold, _Complex analysis_, lecture notes, [pdf](http://www.ima.umn.edu/~arnold/502.s97/complex.pdf)
-* [[Elias Stein|Elias M. Stein]], Rami Shakarchi, _Complex analysis_, Princeton University Press 2003, 2012
+
+* Elias M. Stein, Rami Shakarchi, _Complex analysis_, Princeton University Press 2003, 2012
+
+Via [[constructive analysis]]:
+
+* [[Errett Bishop]], Chapter 5 of: *[[Foundations of Constructive Analysis]]*, McGraw-Hill (1967)
+
+* [[Errett Bishop]], [[Douglas Bridges]], Chapter 5 of: *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
+
 
 category: analysis
+
 [[!redirects complex analysis]]
