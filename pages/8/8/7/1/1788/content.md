@@ -1,4 +1,249 @@
 
+The [[ring]] of [[integer numbers]]:
+
+\[
+  \label{TypeOfIntegers}
+  \begin{array}{l}
+    \mathllap{
+      \vdash
+      \;\;\;\;\;\;
+    }
+    \big(
+      \mathbb{Z}
+      ,\,
+      0 
+      ,\,
+      +
+      ,\,
+      -
+      ,\,
+      1
+      ,\,
+      \cdot
+    \big)
+    \;\colon\;
+    Ring
+    \\
+    \text{where}
+    \\
+    \begin{array}{ccl}
+      \mathbb{Z}
+      &\coloneqq&
+      \mathbb{N} \times \mathbb{N}
+      \;\bigg/\;
+      \big(
+        (n_1,\,m_1)
+        ,\,
+        (n_2,\,m_2)
+        \;\colon\;
+        \mathbb{N} \times \mathbb{N}
+      \big)
+      \times
+      Id_{\mathbb{N}}
+      \big(
+        n_1 + m_2
+        ,\;
+        m_1 + n_2
+      \big)
+      \\
+      0 
+      &\coloneqq& 
+      (0,0)
+      \\
+      + 
+      &\colon&
+      \big(
+        (n_1,\,m_1)
+        ,\,
+        (n_2,\,m_2)
+      \big)
+      \;\mapsto\;
+      \big(
+        n_1 + n_2
+        ,\,
+        m_1 + m_2
+      \big)
+      \\
+      - 
+      &\colon&
+      (n,\, m)
+      \;\mapsto\;
+      (m,\, n)
+      \\
+      1 
+      &\coloneqq& 
+      \big( 
+        \mathrm{succ}(0) 
+        ,\,
+        0 
+      \big)
+      \\
+      \cdot 
+      &\colon&
+      \big(
+        (n_1,\,m_1)
+        ,\,
+        (n_1,\,m_2)
+      \big)
+      \;\mapsto\;
+      \big(
+        n_1 \cdot n_2
+        +
+        m_1 \cdot m_2
+       ,\;\;
+       m_1 \cdot n_2
+       +
+       n_1 \cdot m_2
+      \big)
+    \end{array}
+  \end{array}
+\]
+
+The inclusion of [[natural numbers]] into [[integer numbers]]:
+
+\[
+  \begin{array}{rcl} 
+    \iota \;\colon &
+    \mathbb{N}
+    &\longrightarrow&
+    \mathbb{Z}
+    \\
+    &
+    n &\mapsto& (n,\,0)
+  \end{array}
+\]
+
+The [[ordering]] of [[integer numbers]]:
+
+\[
+  \label{OrderRelationOnIntegers}
+  \begin{array}{rrcl}
+    \leq \;\colon
+    &
+    \mathbb{Z} \times \mathbb{Z}
+    &\longrightarrow&
+    Prop
+    \\
+    &
+    (n_1 ,\, n_2) 
+      &\mapsto& 
+    (k \colon \mathbb{N}) 
+     \times 
+    Id_{\mathbb{Z}}
+    \big(    
+      n_2 ,\;  n_1 + \iota(k) 
+    \big)
+  \end{array}
+\]
+
+The [[positive number|positive]] [[integer numbers]]:
+
+\[
+  \label{PositiveNaturalNumbers}
+    \mathbb{Z}_+
+    \;\coloneqq\;
+    (n \,\colon\, \mathbb{Z})
+    \times
+    (1 \leq n)
+\]
+ 
+The [[ring]] of [[rational numbers]]:
+
+\[
+  \label{DataStructureOfRationalNumbers}
+  \begin{array}{l}
+    \mathllap{
+      \vdash
+      \;\;\;\;\;\;
+    }
+    \big(
+      \mathbb{Q}
+      ,\,
+      0
+      ,\,
+      +
+      ,\,
+      -
+      ,\,
+      1
+      ,\,
+      \cdot
+    \big)
+    \;\colon\;
+    Ring
+    \\
+    \text{where}
+    \\
+    \begin{array}{ccl}
+      \mathbb{Q}
+      &:=&
+     \mathbb{Z} 
+       \times
+     \mathbb{Z}_+
+     \;\bigg/\;
+     \big(
+       (p_1 ,\, q_1)
+       ,\,
+       (p_1 ,\, q_2)
+       \,:\,
+       \mathbb{Z}  
+       \times
+       \mathbb{Z}_+
+     \big)
+     \times
+     \Id_{\mathbb{Z}}
+     \big(
+       p_1 \cdot q_2 
+       ,\;
+       q_1 \cdot p_2
+     \big)
+      \\
+      0 &:=& (0,1)
+      \\
+      + 
+      &:&
+      \big(
+        (p_1 ,\, q_1)
+        ,\,
+        (p_2 ,\,q_2)
+      \big)
+      \;\;\mapsto\;\;
+      \big(
+        p_1 \cdot q_2 
+        \,+\,
+        p_2 \cdot q_1
+        ,\;\;
+        q_1 \cdot q_2
+      \big)
+      \\
+      - 
+      &\colon&
+      (p,\,q) 
+        \;\mapsto\;
+      (-p,\, q)
+      \\
+      1 
+      &\coloneqq& 
+      (1,\, 1)
+      \\
+      \cdot 
+      &\colon&
+      \big(
+        (p_1,\, q_1)
+        ,\,
+        (p_,\,q_2)
+      \big)
+      \;\mapsto\;
+      \big(
+        p_1 \cdot p_2
+        ,\;
+        q_1 \cdot q_2
+      \big)
+    \end{array}
+  \end{array}
+\]
+
+
 $$
   \begin{array}{ll}  
     xx
