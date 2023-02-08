@@ -60,6 +60,8 @@ A [[category]] equipped with such a notion of being is, naturally, called a _[[c
 
 * [[beable]]
 
+* [[existential quantifier]]
+
 ## References
 
 * {#Hegel12} [[Hegel]], _[[Science of Logic]]_, Volume One: _The Objective Logic_, Book One, _The Doctrine of Being_, Chapter 1 _Being_
