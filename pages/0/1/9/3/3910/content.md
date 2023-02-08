@@ -151,9 +151,17 @@ History:
 
 * [[Leo Corry]], *A Brief History of Numbers*, Oxford University Press (2015) &lbrack;[ISBN:9780198702597](https://global.oup.com/academic/product/a-brief-history-of-numbers-9780198702597)&rbrack;
 
+See also:
+
+* Wikipedia, *[Integer](https://en.wikipedia.org/wiki/Integer)*
+
 Formalization in [[univalent foundations of mathematics]] ([[homotopy type theory]] with the [[univalence axiom]]):
 
 * {#UFP13} [[Univalent Foundations Project]], Rem. 6.10.7 *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+and specifically in [[Agda]]:
+
+* [[UniMath project]], *[agda-unimath/elementary-number-theory.integers](https://unimath.github.io/agda-unimath/elementary-number-theory.integers.html#1032)*
 
 and specifically in [[cubical Agda]]
 
