@@ -239,14 +239,15 @@ In [[classical mathematics]], $f$ is uniformly differentiable if and only if $f$
 
 In addition, one could talk about **locally uniform differentiablilty**, which is a continuously differentiable function on a set $U$ which is uniformly differentiable on every closed and bounded subset $V \subseteq U$. 
 
-### Symmetry of higher derivatives
+### Symmetry of higher derivatives {#symmetry}
 
 If $f:U\to \mathbb{R}^m$ is twice differentiable with $U\subseteq \mathbb{R}^n$, its second derivative
 $$d(d f) : U \to L(\mathbb{R}^n,L(\mathbb{R}^n,\mathbb{R}^m)) \cong Bilin(\mathbb{R}^n,\mathbb{R}^n;\mathbb{R}^m)$$
 is a function from $U$ into the space of [[bilinear maps]] from $\mathbb{R}^n\times \mathbb{R}^n$ to $\mathbb{R}^m$.
 
-+-- {: .num_theorem}
++-- {: .num_theorem #symmetrythm}
 ###### Theorem
+**(Symmetry of higher derivatives)**.
 If $f:U\to \mathbb{R}^m$ is twice differentiable, then its second derivative $d(d f)$ lands in the space of *symmetric* bilinear maps, i.e. for any $x\in U$ and $v,w\in \mathbb{R}^n$ we have
 $$ d(d f)_x(v,w) = d(d f)_x(w,v). $$
 =--
@@ -284,8 +285,9 @@ The second-order partial derivatives may *exist* without the mixed partials bein
 
 In particular, we have the following corollary, which is more commonly found in textbooks.
 
-+-- {: .num_cor}
++-- {: .num_cor #symmetrycontcor}
 ###### Corollary
+**(Symmetry of continuous higher derivatives)**.
 If $f$ has first and second-order partial derivatives, and the latter are continuous in a neighborhood of $x$, then the mixed partial derivatives are equal,
 $$\frac{\partial^2 f}{\partial x_i \partial x_j} = \frac{\partial^2 f}{\partial x_j \partial x_i}.$$
 =--
