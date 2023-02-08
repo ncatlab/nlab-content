@@ -26,11 +26,8 @@ A morphism $(u,v)$ (in notation as above) is [[cartesian morphism|cartesian]] if
 
 #References#
 
-The notion was first defined in Section 3 of:
+The notion appears in Section 3 of:
 
 * [[Dominique Bourn]], _Normalization equivalence, kernel equivalence and affine categories_, Lecture Notes in Mathematics, **1488**, 1991. ([doi:10.1007/BFb0084212](https://doi.org/10.1007/BFb0084212))
-
-* [[Borceux-Bourn]]
-
 
 [[!redirects category of points]]
