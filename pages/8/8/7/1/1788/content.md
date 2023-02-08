@@ -1,4 +1,12 @@
 
+$$
+  \begin{array}{ll}  
+    xx
+    \\
+    \hline
+    yy
+  \end{array}
+$$
 
 §
 
