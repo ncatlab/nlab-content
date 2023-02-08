@@ -66,7 +66,7 @@ in [[dependent type theory]] with [[quotient types]] (such as [[homotopy type th
 
 Here we use the notation for [[dependent functions]], [[dependent pairs]] and their [[type telescopes]] from *[[dependent functions and dependent pairs -- table]]*.
 
-Throughout we omit displaying the certificates of [[identification type]] involved ([[associativity]] etc.). Mostly their construction is immediate, a little thought is required only for the [[real numbers]]: We show the "regular Cauchy real number type" due to [Bishop (1967)](#Bishop67); the ideas for obtaining the required identification certificates may be found in in [Bishop (1967, pp. 15)](#Bishop67) and [Bishop & Bridges (1985, pp. 18)](#BishopBridges85), full formalization in [[Agda]] is in [Murray (2022)](#Murray22).
+Throughout we omit displaying the certificates of [[identification type]] involved ([[associativity]] etc.). Mostly their construction is immediate, a little thought is required only for the [[real numbers]]: We show the "regular Cauchy real number type" due to [Bishop (1967)](#Bishop67); the ideas for obtaining the required identification certificates may be found in [Bishop (1967, pp. 15)](#Bishop67) and [Bishop & Bridges (1985, pp. 18)](#BishopBridges85), full formalization in [[Agda]] is in [Lundfall (2015)](#Lundfall15),  [Murray (2022)](#Murray22).
 
 For $X \,\colon\, Set$ and $P \colon X \to Prop$ an [[equivalence relation]] with [corresponding](dependent+type#TypeBundlesReflectedInTypeUniverse) $R \,\coloneqq\, (x \colon X) \times P(x)$, we write
 
@@ -380,6 +380,34 @@ The [[ring]] of [[rational numbers]]:
   \end{array}
 \]
 
+[[ordering]] of the rational numbers induced from the ordering (eq:OrderRelationOnIntegers) of the integer numbers:
+
+\[
+  \label{OrderRelationOnRationals}
+  \begin{array}{rrcl}
+    \leq \;\colon
+    &
+    \mathbb{Q} \times \mathbb{Q}
+    &\longrightarrow&
+    Prop
+    \\
+    &
+    \big(
+      (q_1 ,\, p_1)
+      ,\,
+      (q_2 ,\, p_2)
+    \big)
+      &\mapsto& 
+    \big(
+      q_1 \cdot p_2 
+      \,\leq\,
+       q_2 \cdot p_1
+    \big)
+  \end{array}
+\]
+
+When constructing the real numbers in (eq:DataStructureOfRealNumbers) below, we use the following common abbreviations:
+
 The [[fraction|multiplicative inverse]] of a [[positive number|positive]] [[natural number]]:
 
 \[
@@ -419,6 +447,7 @@ The [[monomial|square]] of a [[rational number]]:
 The [[real numbers]]:
 
 \[
+  \label{DataStructureOfRealNumbers}
   \begin{array}{l}
     \mathllap{
       \vdash
@@ -724,6 +753,8 @@ Construction of the number systems up to the [[real numbers]] in [[constructive 
 * {#BishopBridges85} [[Errett Bishop]], [[Douglas Bridges]] *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
 
 Formalization in [[Agda]]:
+
+* {#Lundfall15} [[Martin Lundfall]], *Formalizing real numbers in Agda* (2015) &lbrack;<a href="https://wcl.cs.rpi.edu/pilots/library/papers/TAGGED/4211-Lundfall%20(2015)%20-%20Formalizing%20Real%20Numbers%20in%20Agda.pdf">pdf</a>, [[Lundfall-RealNumbersInAgda.pdf:file]]&rbrack;
 
 * {#Murray22} [[Zachary Murray]], *Constructive Analysis in the Agda Proof Assistant* &lbrack;[arXiv:2205.08354](https://arxiv.org/abs/2205.08354), [github](https://github.com/z-murray/honours-project-constructive-analysis-in-agda)&rbrack;
 
