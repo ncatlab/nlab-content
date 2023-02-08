@@ -58,7 +58,7 @@ The [[triangle identities]] of an adjunction imply that:
 
 2. the component of $\rho$ at an identity vertical morphism $id_{A} \colon A \nrightarrow A$ is the identity cell on $A$.
 
-Given a cell $\alpha$ in $\mathbb{D}$, naturality of $\rho$ states that the cells 
+Given a cell $\alpha$ in $\mathbb{D}$, [[natural transformation|naturality]] of $\rho$ states that the cells 
   \begin{tikzcd}
     A
     \arrow[r, "h"]
@@ -109,19 +109,21 @@ with [[identity morphisms|identity]]-assigning map and  [[codomain]]-assigning m
 
 \begin{example}\label{double-category-of-squares}
 For each category $C$, the [[double category of squares]] $\mathbb{S}q(C)$ is both right-connected and left-connected. 
+
+More generally, if $C$ is a category equipped with a [[wide subcategory]] $B$, the double category $\mathbb{S}q(C, B)$ -- whose objects and horizontal morphisms come from $C$, whose vertical morphisms comes from $B$, and whose cells are commutative squares -- is both right-connected and left-connected. 
 \end{example}
 
-If we modify the above example to consider only [[pullback squares]] or [[pushout|pushout squares]], then it is no longer right-connected or left-connected; we must also modify the vertical morphisms. 
+If we modify the above example to consider only [[pullback squares]] or [[pushout|pushout squares]], then it is no longer right-connected or left-connected; we must also modify the classes of vertical morphisms. 
 
 \begin{example}
-Consider a category $C$ equipped with a [[wide subcategory]] $M$ of [[monomorphisms]] stable under pullback along morphisms in $C$.
+Consider a category $C$ equipped with a wide subcategory $M$ of [[monomorphisms]] stable under pullback along morphisms in $C$.
 The double category $\mathbb{P}b(C, M)$ --- whose objects and horizontal morphisms come from $C$, whose vertical morphisms comes from $M$, and whose cells are pullback squares --- is left-connected. 
 
 Dually, consider a category $C$ equipped with a wide subcategory $E$ of [[epimorphisms]] stable under pushout along morphisms in $C$.
 The double category $\mathbb{P}o(C, E)$ --- whose objects and horizontal morphisms come from $C$, whose vertical morphisms comes from $E$, and whose cells are pushout squares --- is right-connected. 
 \end{example}
 
-\begin{example}
+\begin{example}\label{split-epimorphisms}
 Given a category $C$, let $\mathbb{S}plEpi(C)$ denote the double category whose objects and horizontal morphisms come from $C$, whose vertical morphisms are [[split epimorphisms]] with a chosen [[section]], and whose cells are squares
 \begin{tikzcd}
 A
@@ -154,8 +156,25 @@ B
 If $C$ has pullbacks, the [[codomain]]-assigning map of this double category is not only a left adjoint, but also a [[Grothendieck fibration]], namely, the [[fibration of points]]. 
 \end{example}
 
+\begin{example}
+The double category $\mathbb{S}plFib$ --- whose objects are [[categories]], whose horizontal morphisms are [[functors]], whose vertical morphisms are [[cleavage|split]] [[Grothendieck fibrations]], and whose [[2-morphisms]] are commutative squares which preserve chosen [[cartesian lifts]] --- is right-connected. 
+\end{example}
+
+\begin{example}
+The double category $\mathbb{L}ens$ --- whose objects are categories, whose horizontal morphisms are functors, and whose vertical morphisms are [[delta lenses]] --- is right-connected (see [Clarke, Section 3.3](#Clarke2022)).
+\end{example}
+
+The previous three examples (although Example \ref{split-epimorphisms} only if $C$ has coproducts) are all instances of the following. 
+
 \begin{example}\label{awfs}
-For each [[algebraic weak factorization system]] $(C, R, L)$ on a category $C$, the double category $R$-$\mathbb{A}lg$ of $R$-algebras is right-connected. 
+For each [[algebraic weak factorization system]] $(R, L)$ on a category $C$, the double category $R$-$\mathbb{A}lg$ of $R$-algebras is right-connected. 
+\end{example}
+
+\begin{example}\label{ofs}
+Consider an [[orthogonal factorization system]] $(R, L)$ on a category $C$, where $R$ denotes the right class and $L$ denotes the left class. 
+Then the double category $\mathbb{S}q(C, R)$ is right-connected. 
+This is a special case of both Example \ref{double-category-of-squares} and 
+Example \ref{awfs}.
 \end{example}
 
 ## Properties
@@ -193,6 +212,13 @@ B
 \end{proposition}
 A proof can be found in [Bourke & Garner, Section 3.5](#BourkeGarner2016a).
 
+Let $U_{1} \colon D_{1} \rightarrow Sq(D_{0})$ denote the functor underlying the double functor $U \colon \mathbb{D} \rightarrow \mathbb{S}q(D_{0})$ above. 
+
+\begin{proposition}
+A right-connected double category is [[thin category|thin]] if and only if the functor $U_{1} \colon D_{1} \rightarrow Sq(D_{0})$ is [[faithful]]. 
+\end{proposition}
+In the terminology of [Bourke & Garner, Section 2.8](#BourkeGarner2016a), a thin right-connected double category $\mathbb{D} = (D_0, D_1)$ is an example of a *concrete double category* over $D_{0}$. 
+
 Let $Obj \colon \mathbf{RcDbl} \rightarrow \mathbf{Cat}$ denote the [[2-functor]] which assigns a double category $\mathbb{D} = (D_{0}, D_{1})$ to 
 its category $D_{0}$ of objects and horizontal morphisms. 
 Let $\mathbb{H} \colon \mathbf{Cat} \rightarrow \mathbf{RcDbl}$ be the $2$-functor which assigns each category to its horizontal double category (see Example \ref{horizontal-double-category}), and let $\mathbb{S}q \colon  \mathbf{Cat} \rightarrow \mathbf{RcDbl}$ be the $2$-functor which assigns each category to its double category of squares (see Example \ref{double-category-of-squares}).
@@ -218,14 +244,17 @@ Let $\mathbf{AWFS}_{lax}$ denote the $2$-category of [[algebraic weak factorizat
 There is a $2$-functor $\mathbf{AWFS}_{lax} \rightarrow \mathbf{RcDbl}$ which assigns each algebraic weak factorisation system to its double category of $R$-algebras (see Example \ref{awfs}). 
 The following theorem characterises the [[essential image]] of the this $2$-functor. 
 
-First, given a right-connected double category $\mathbb{D} = (D_0, D_1)$, 
-let $U_{1} \colon D_{1} \rightarrow Sq(D_{0})$ denote the functor underlying the double functor $U \colon \mathbb{D} \rightarrow \mathbb{S}q(D_{0})$ in Proposition \ref{double-functor-U}. 
-
 \begin{theorem}
 The $2$-functor $\mathbf{AWFS}_{lax} \rightarrow \mathbf{RcDbl}$ has in its essential image exactly those right-connected double categories 
 $\mathbb{D} = (D_0, D_1)$ for which the functor $U_{1} \colon D_{1} \rightarrow Sq(D_{0})$ is [[monadic|strictly monadic]]. 
 \end{theorem}
 The proof combines the results in Theorem 6 and Proposition 11 of [Bourke & Garner](#BourkeGarner2016a).
+
+\begin{corollary}
+An [[orthogonal factorization system]] correspond exactly those right-connected double categories 
+$\mathbb{D} = (D_0, D_1)$ for which the functor $U_{1} \colon D_{1} \rightarrow Sq(D_{0})$ is [[fully faithful]] and [[monadic|strictly monadic]]. 
+\end{corollary}
+This is follows essentially [Bourke & Garner, Proposition 3](#BourkeGarner2016a).
 
 ## References
 
@@ -236,6 +265,10 @@ The notion was first defined in Section 3.5 of:
 Further discussion of right-connected double categories appears in Section 2.5 of: 
 
  * {#BourkeGarner2016b} [[John Bourke]], [[Richard Garner]], _Algebraic weak factorisation systems II: Categories of weak maps_, Journal of Pure and Applied Algebra, **220**, 2016 ([arXiv:1412.6560](https://arxiv.org/abs/1412.6560), [doi:10.1016/j.jpaa.2015.06.003](https://doi.org/10.1016/j.jpaa.2015.06.003))
+
+The example of the double category of [[delta lenses]] first appeared in:
+
+* {#Clarke2022} [[Bryce Clarke]], _The double category of lenses_, PhD thesis, Macquarie University, 2022. ([doi:10.25949/22045073.v1](https://doi.org/10.25949/22045073.v1))
 
 [[!redirects right-connected double categories]]
 [[!redirects left-connected double category]]
