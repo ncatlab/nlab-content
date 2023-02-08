@@ -114,10 +114,10 @@ For each category $C$, the [[double category of squares]] $\mathbb{S}q(C)$ is bo
 If we modify the above example to consider only [[pullback squares]] or [[pushout|pushout squares]], then it is no longer right-connected or left-connected; we must also modify the vertical morphisms. 
 
 \begin{example}
-Consider a category $C$ equipped with a [[wide subcategory]] $M$ of [[monomorphisms]].
+Consider a category $C$ equipped with a [[wide subcategory]] $M$ of [[monomorphisms]] stable under pullback along morphisms in $C$.
 The double category $\mathbb{P}b(C, M)$ --- whose objects and horizontal morphisms come from $C$, whose vertical morphisms comes from $M$, and whose cells are pullback squares --- is left-connected. 
 
-Dually, consider a category $C$ equipped with a wide subcategory $E$ of [[epimorphisms]].
+Dually, consider a category $C$ equipped with a wide subcategory $E$ of [[epimorphisms]] stable under pushout along morphisms in $C$.
 The double category $\mathbb{P}o(C, E)$ --- whose objects and horizontal morphisms come from $C$, whose vertical morphisms comes from $E$, and whose cells are pushout squares --- is right-connected. 
 \end{example}
 
@@ -151,9 +151,10 @@ B
 & B
 \arrow[u, shift left = 2, "1_{B}"]
 \end{tikzcd}
+If $C$ has pullbacks, the [[codomain]]-assigning map of this double category is not only a left adjoint, but also a [[Grothendieck fibration]], namely, the [[fibration of points]]. 
 \end{example}
 
-\begin{example}
+\begin{example}\label{awfs}
 For each [[algebraic weak factorization system]] $(C, R, L)$ on a category $C$, the double category $R$-$\mathbb{A}lg$ of $R$-algebras is right-connected. 
 \end{example}
 
@@ -204,14 +205,27 @@ There is an [[adjoint triple]] of $2$-functors:
 & \mathbf{Cat}
 \arrow[l, phantom, shift right = 5, "\bot"]
 \arrow[l, phantom, shift left = 5, "\bot"]
-\arrow[l, "\mathbb{H}"', shift right = 8, hook]
-\arrow[l, "\mathbb{S}q", shift left = 8, hook]
+\arrow[l, "\mathbb{H}"', shift right = 8, hook']
+\arrow[l, "\mathbb{S}q", shift left = 8, hook']
 \end{tikzcd}
 \end{proposition}
 \begin{proof}(*Idea*)
 The component of the counit of the adjunction $\mathbb{H} \dashv \mathrm{Obj}$ at a right-connected double category $\mathbb{D} = (D_{0}, D_{1})$ is given by the double functor $\mathbb{H}(D_{0}) \rightarrow \mathbb{D}$ determined by the pair of functors $(1 \colon D_{0} \rightarrow D_{0}, id \colon D_{0} \rightarrow D_{1})$. 
 The component of the unit of the adjunction $\mathrm{Obj} \dashv \mathbb{S}q$ is given in Proposition \ref{double-functor-U}. 
 \end{proof}
+
+Let $\mathbf{AWFS}_{lax}$ denote the $2$-category of [[algebraic weak factorization systems]].
+There is a $2$-functor $\mathbf{AWFS}_{lax} \rightarrow \mathbf{RcDbl}$ which assigns each algebraic weak factorisation system to its double category of $R$-algebras (see Example \ref{awfs}). 
+The following theorem characterises the [[essential image]] of the this $2$-functor. 
+
+First, given a right-connected double category $\mathbb{D} = (D_0, D_1)$, 
+let $U_{1} \colon D_{1} \rightarrow Sq(D_{0})$ denote the functor underlying the double functor $U \colon \mathbb{D} \rightarrow \mathbb{S}q(D_{0})$ in Proposition \ref{double-functor-U}. 
+
+\begin{theorem}
+The $2$-functor $\mathbf{AWFS}_{lax} \rightarrow \mathbf{RcDbl}$ has in its essential image exactly those right-connected double categories 
+$\mathbb{D} = (D_0, D_1)$ for which the functor $U_{1} \colon D_{1} \rightarrow Sq(D_{0})$ is [[monadic|strictly monadic]]. 
+\end{theorem}
+The proof combines the results in Theorem 6 and Proposition 11 of [Bourke & Garner](#BourkeGarner2016a).
 
 ## References
 
