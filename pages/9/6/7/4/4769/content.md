@@ -194,16 +194,23 @@ A __[[logarithm]]__ is a [[local section]] of an exponential map.
 
 ## References
 
+Discussion in [[constructive analysis]] of the exponential function on [[real numbers]]:
+
+* {#Bishop} [[Errett Bishop]], §7 in: *[[Foundations of Constructive Analysis]]*, McGraw-Hill (1967)
+
+* [[Errett Bishop]], [[Douglas Bridges]] §7 in: *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
+
 See also:
 
 * Wikipedia, [exponential map (Lie theory)](https://en.wikipedia.org/wiki/Exponential_map_%28Lie_theory%29), [derivative of the exponential map](https://en.wikipedia.org/wiki/Derivative_of_the_exponential_map), [exponential map (Riemannian geometry)](https://en.wikipedia.org/wiki/Exponential_map_(Riemannian_geometry))
+
 * Springer [[eom]]: [exponential mapping](https://www.encyclopediaofmath.org/index.php/Exponential_mapping)
 
 An extensive treatment for the general exponential map for an affine connection, for exponential map for Riemannian manifolds and the one for Lie groups is
 
 * Sigurdur Helgason, Differential geometry, Lie groups and symmetric spaces
 
-Specifically for Lie groups, a different detailed treatment of the exponential map is in 
+Specifically for [[Lie groups]], a different detailed treatment of the exponential map is in 
 
 * [[M M Postnikov]], _Lie groups and Lie algebras_, Geometry V
 
