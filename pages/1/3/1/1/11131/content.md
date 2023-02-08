@@ -45,7 +45,7 @@ In applications in [[computer science]] one uses for instance the _[[completion 
 
 Introducing the formulation of [[analysis]] in [[constructive mathematics]], together with the notions of [[Bishop set]]/[[setoid]]:
 
-* {#Bishop} [[Errett Bishop]], *[[Foundations of Constructive Analysis]]*, Mcgraw-Hill (1967)
+* {#Bishop} [[Errett Bishop]], *[[Foundations of Constructive Analysis]]*, McGraw-Hill (1967)
 
 * [[Errett Bishop]], [[Douglas Bridges]] *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
 
