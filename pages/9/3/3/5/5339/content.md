@@ -21,7 +21,9 @@ This pages compiles material related to the book
 
   **Foundations of Constructive Analysis**
 
-  Mcgraw-Hill (1967)
+  McGraw-Hill (1967)
+
+  > &lbrack;p. ix:&rbrack; This book is a piece of constructivist propaganda, designed to show that there does exist a satisfactory algebrative &lbrack;to [[classical mathematics]]&rbrack;. To this end we develop a large portion of abstract analysis within a constructive framework.
 
 revised as
 
