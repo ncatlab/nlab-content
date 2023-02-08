@@ -28,9 +28,9 @@ $$
   \,,
 $$
 
-from the [[arrow category]] $[I,C] = Arr(C)$ that sends each [[morphism]] $(c_1 \stackrel{f}{\to} c_2) \in [I,C]$ to its codomain $c_2$.
+from the [[arrow category]] $[I,C] = Arr(C)$ that sends each [[morphism]] $(c_1 \stackrel{f}{\to} c_2) \in [I,C]$ to its [[codomain]] $c_2$.
 
-This functor is always an [[Grothendieck fibration|opfibration]]. It corresponds under the [[Grothendieck construction]] to the [[pseudofunctor]]
+This functor is always an [[Grothendieck fibration|opfibration]]. Under the [[Grothendieck construction]] it corresponds to the [[pseudofunctor]]
 
 $$
   C/(-) : C \to Cat
@@ -38,7 +38,7 @@ $$
 
 that sends each object $c \in C$ to the [[overcategory]] $C/c$.
 
-If $C$ has all [[pullback]]s, then the functor is in addition a [[Grothendieck fibration|fibration]], hence a [[bifibration]]. 
+If $C$ has all [[pullbacks]], then the functor is in addition a [[Grothendieck fibration|fibration]], hence a [[bifibration]]. 
 Traditionally, though, its fibered aspect is emphasised (and it even motivates the notion of cartesianess for categories over categories).  A right adjoint $u_*$ of $u^*$ exists for every morphism $u$ in $C$ iff C is a [[locally cartesian closed category]].
 
 This functor $cod : [I,C] \to C$ is called the **codomain fibration** of $C$.
@@ -449,12 +449,13 @@ $\mathbf{H}_{/Type}$ is the "context of the universe". And so this says that the
 
 ## Related concepts
 
+* [[fibration of points]]
+
 * [[tangent category]]
 
 * [[tangent (infinity,1)-category]]
 
 ## References
-
 
 
 * {#Lurie} [[Jacob Lurie]], Section 2.4.7 of: _[[Higher Topos Theory]]_ 
