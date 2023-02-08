@@ -1,12 +1,34 @@
-Given a category $C$ and an object $I\in Ob(C)$, the __category of points over $I$__ is the category $Pt_I(C)$ of [[pointed objects]] of the [[slice category]] $C/I$; or alternatively the [[under category|coslice]]-slice category
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Universes
++-- {: .hide}
+[[!include universe - contents]]
+=--
+=--
+=--
+
+
+\tableofcontents
+
+## Idea
+
+Given a [[category]] $C$ and an [[object]] $I\in Ob(C)$, the __category of points over $I$__ is the category $Pt_I(C)$ of [[pointed objects]] of the [[slice category]] $C/I$; or alternatively the [[under category|coslice]]-slice category
 
 $$
-Pt_I(C) = (I,id_I)\backslash(C/I)
+  Pt_I(C) 
+   \;=\; 
+  (I,id_I)\backslash(C/I)
 $$
 
 This can be unpacked the following way:
 
-* An object of $Pt_I(C)$ is a pair $(p:X\leftrightarrow I:s)$ of morphisms of $C$ such that $s$ is a [[section]] of $p$; in other words it is a [[split epimorphism]] $p$ to $I$ with a fixed choice of splitting $s$.
+* An [[object]] of $Pt_I(C)$ is a [[pair]] $(p:X\leftrightarrow I:s)$ of morphisms of $C$ such that $s$ is a [[section]] of $p$; in other words it is a [[split epimorphism]] $p$ to $I$ with a fixed choice of splitting $s$.
 
 * A morphism $f:(q:Y\leftrightarrow I:t)\to(p:X\leftrightarrow I:s)$ is any morphism $f:Y\to X$ such that $p\circ f= q$ and $f\circ t=s$. 
 
@@ -20,14 +42,19 @@ q\downarrow\uparrow t & & p\downarrow\uparrow s\\
 J&\stackrel{v}\to & I
 }$$
  
-The __fibration of points__ is the codomain-assigning functor $\pi:Pt(C)\to C$, $\pi:(p:X\leftrightarrow I:s)\to I$, $(u,v)\mapsto v$. It is a [[fibered category]] in the sense of Grothendieck. Its fibers are the $Pt_I(C)$ which are (as mentioned above) pointed and finitely complete. 
+The __fibration of points__ is the [[codomain]]-assigning functor $\pi \,\colon\, Pt(C)\to C$, $\pi:(p:X\leftrightarrow I:s)\to I$, $(u,v)\mapsto v$. It is a [[fibered category]] in the sense of Grothendieck (cf. *[[codomain fibration]]*). Its [[fibers]] are the $Pt_I(C)$ which are (as mentioned above) pointed and finitely complete. 
 A morphism $(u,v)$ (in notation as above) is [[cartesian morphism|cartesian]] iff $q,u,p,v$ are the sides of a [[pullback square]] in $C$ (i.e. $q$ is a pullback of $p$ along $v$ and $u$ a pullback of $v$ along $p$). The inverse image functor for this fibration is exactly described by the rule $v\mapsto v^*$ above. 
 
+## Related concepts
 
-#References#
+* [[codomain fibration]]
+
+## References
 
 The notion appears in Section 3 of:
 
-* [[Dominique Bourn]], _Normalization equivalence, kernel equivalence and affine categories_, Lecture Notes in Mathematics, **1488**, 1991. ([doi:10.1007/BFb0084212](https://doi.org/10.1007/BFb0084212))
+* [[Dominique Bourn]], *Normalization equivalence, kernel equivalence and affine categories*, Lecture Notes in Mathematics **1488** (1991) &lbrack;[doi:10.1007/BFb0084212](https://doi.org/10.1007/BFb0084212)&rbrack;
 
 [[!redirects category of points]]
+
+
