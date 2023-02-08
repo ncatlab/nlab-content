@@ -4,19 +4,62 @@ A tabulator is a kind of [[limit]] in a [[double category]] generalizes the noti
 
 ## Definition
 
-If $f$ is a [[vertical arrow]] in a [[double category]] $C$,
-its __tabulator__ is the [[terminal object]]
-in the category whose objects are [[objects]] $T$ of $C$
-equipped with a 2-cell $\pi\colon id_T\to f$
-and morphisms $\pi'\to\pi$ are [[horizontal arrows]] $g\colon T'\to T$
-such that the horizontal composition of the identity 2-cell on $h$
-and the 2-cell $\pi$ yields $\pi'$.
+The _tabulator_ of a [[vertical morphism]] $u \colon A \nrightarrow B$ in a [[double category]] $\mathbb{D}$ consists of an object $Tu$ and a cell
+\begin{tikzcd}
+Tu
+\arrow[r, "p"]
+\arrow[d, "\bullet"{anchor=center}, "id"']
+\arrow[rd, phantom, "\tau_{u}"]
+& A
+\arrow[d, "\bullet"{anchor=center}, "u"]
+\\
+Tu
+\arrow[r, "q"']
+& B
+\end{tikzcd}
+with the universal properties:
+
+1. For every cell 
+\begin{tikzcd}
+X
+\arrow[r, "f"]
+\arrow[d, "\bullet"{anchor=center}, "id"']
+\arrow[rd, phantom, "\xi"]
+& A
+\arrow[d, "\bullet"{anchor=center}, "u"]
+\\
+X
+\arrow[r, "g"']
+& B
+\end{tikzcd}
+there is a unique horizontal morphism $x \colon X \rightarrow Tu$ such that 
+$\tau_{u} x = \xi$. 
+
+2. The tetrahedron condition holds (see [Paré, page 478](#Pare2011)). 
+
+If only the first universal property holds, we say that the vertical morphism has a _$1$-tabulator_. 
+
+## Properties
+
+* A double category $\mathbb{D} = (D_{0}, D_{1})$ has all $1$-tabulators (resp. $1$-cotabulators) if and only if the [[identity morphisms|identity]]-assigning map $id \colon D_{0} \rightarrow D_{1}$ has a [[right adjoint]] (resp. [[left adjoint]]). 
+
+* A double category has all small [[double limits]] if and only if it has small double products, double equalisers, and tabulators. 
 
 ## References
 
-* [[Marco Grandis]], [[Robert Pare]], _Limits in double categories_.  Cahiers Topologie Géom. Différentielle Catég. 40 (1999), no. 3, 162–220. 
+The definition of a (co)tabulator was first introduced in Section 5.3 of: 
 
-* [[Marco Grandis]], _Higher Dimensional Categories.  From Double to Multiple Categories_, [doi](https://doi.org/10.1142/11406)
+* [[Marco Grandis]], [[Robert Pare]], _Limits in double categories_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, **40**, 1999. ([url](http://www.numdam.org/item/CTGDC_1999__40_3_162_0/))
+
+The $2$-dimensional universal property of a tabulator is stated in Section 3 of:
+
+* {#Pare2011} [[Robert Pare]], _Yoneda theory for double categories_, Theory and Applications of Categories_, **25**, 2011. ([url](http://www.tac.mta.ca/tac/volumes/25/17/25-17abs.html))
+
+Other references on (co)tabulators include:
+
+* [[Susan Niefield]], _Span, cospan, and other double categories_ Theory and Applications of Categories_, **26**, 2012. ([url](http://www.tac.mta.ca/tac/volumes/26/26/26-26abs.html))
+
+* [[Marco Grandis]], _Higher Dimensional Categories. From Double to Multiple Categories_, 2019. ([doi:10.1142/11406](https://doi.org/10.1142/11406))
 
 [[!redirects tabulators]]
 [[!redirects cotabulator]]
