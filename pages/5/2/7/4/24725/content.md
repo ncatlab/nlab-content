@@ -18,7 +18,7 @@
 
 The **1lab** is an online reference maintained by [[Amélia Liao]] primarily for [[category theory]] done in [[univalent type theory|univalent]] [[cubical type theory]] implemented in [[cubical Agda]]. 
 
-The name "1lab" is apparently a reference to (the name of) the "[[nLab|$n$Lab]]", with the specification $n = 1$ meant to highlight this focus on [[univalent category|type-theoretic]] [[1-categories]] (as opposed to [[higher category theory|higher categories]], whose type-theoretic formulation remains underdevelopd, generally).
+The name "1lab" is apparently a reference to (the name of) the "[[nLab|$n$Lab]]", with the specification $n = 1$ meant to highlight this focus on [[univalent category|type-theoretic]] [[1-categories]] (as opposed to [[higher category theory|higher categories]], whose type-theoretic formulation remains underdeveloped, generally).
 
 
 Web:
