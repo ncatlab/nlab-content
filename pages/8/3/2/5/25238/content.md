@@ -33,6 +33,8 @@ Dually, a double category $\mathbb{D} = (D_{0}, D_{1})$ is *left-connected* if i
 This definition makes sense for any pseudo [[category object]] in a [[2-category]].
 \end{remark}
 
+Let $\mathbf{RcDbl}$ denote the [[2-category]] of right-connected double categories, *unitary* [[double functors]] (those which preserve vertical identities strictly), and [[vertical transformation|horizontal transformations]].
+
 ### Unpacking the definition
 
 We can unpack the definition of right-connectedness as follows. 
@@ -96,9 +98,72 @@ and
     \end{tikzcd}
 are equal. 
 
+## Examples
+
+\begin{example}\label{horizontal-double-category}
+For each category $C$, the horizontal double category $\mathbb{H}(C)$ ---whose objects and horizontal morphisms come from $C$, and whose vertical morphisms and cells are identities --- is right-connected. 
+
+Viewing double categories as [[internal categories]] in $\mathbf{Cat}$, we can see that $\mathbb{H}(C) = (C, C)$ is the discrete internal category on $C$, 
+with [[identity morphisms|identity]]-assigning map and  [[codomain]]-assigning map are both the [[identity functor]] on $C$ and therefore adjoint to each other. 
+\end{example}
+
+\begin{example}\label{double-category-of-squares}
+For each category $C$, the [[double category of squares]] $\mathbb{S}q(C)$ is both right-connected and left-connected. 
+\end{example}
+
+If we modify the above example to consider only [[pullback squares]] or [[pushout|pushout squares]], then it is no longer right-connected or left-connected; we must also modify the vertical morphisms. 
+
+\begin{example}
+Consider a category $C$ equipped with a [[wide subcategory]] $M$ of [[monomorphisms]].
+The double category $\mathbb{P}b(C, M)$ --- whose objects and horizontal morphisms come from $C$, whose vertical morphisms comes from $M$, and whose cells are pullback squares --- is left-connected. 
+
+Dually, consider a category $C$ equipped with a wide subcategory $E$ of [[epimorphisms]].
+The double category $\mathbb{P}o(C, E)$ --- whose objects and horizontal morphisms come from $C$, whose vertical morphisms comes from $E$, and whose cells are pushout squares --- is right-connected. 
+\end{example}
+
+\begin{example}
+Given a category $C$, let $\mathbb{S}plEpi(C)$ denote the double category whose objects and horizontal morphisms come from $C$, whose vertical morphisms are [[split epimorphisms]] with a chosen [[section]], and whose cells are squares
+\begin{tikzcd}
+A
+\arrow[d, shift left = 2, "f"]
+\arrow[r, "h"]
+& C
+\arrow[d, shift left = 2, "g"]
+\\
+B
+\arrow[u, shift left = 2, "s"]
+\arrow[r, "k"']
+& D
+\arrow[u, shift left = 2, "t"]
+\end{tikzcd}
+such that $k \circ f = g \circ h$ and $h \circ s = t \circ k$. 
+This double category is right-connected, since for each vertical morphism there is a cell:
+\begin{tikzcd}
+A
+\arrow[d, shift left = 2, "f"]
+\arrow[r, "f"]
+& B
+\arrow[d, shift left = 2, "1_{B}"]
+\\
+B
+\arrow[u, shift left = 2, "s"]
+\arrow[r, "1_{B}"']
+& B
+\arrow[u, shift left = 2, "1_{B}"]
+\end{tikzcd}
+\end{example}
+
+\begin{example}
+For each [[algebraic weak factorization system]] $(C, R, L)$ on a category $C$, the double category $R$-$\mathbb{A}lg$ of $R$-algebras is right-connected. 
+\end{example}
+
 ## Properties
 
 \begin{proposition}
+If a double category is right-connected, then it has all [[cotabulators|1-cotabulators]]. 
+\end{proposition}
+
+\begin{proposition}\label{double-functor-U}
 If $\mathbb{D} = (D_{0}, D_{1})$ is a right-connected double category, 
 then there is a [[double functor]] $U \colon \mathbb{D} \rightarrow \mathbb{S}q(D_{0})$ with assignment given below. 
 \begin{tikzcd}
@@ -127,9 +192,9 @@ B
 \end{proposition}
 A proof can be found in [Bourke & Garner, Section 3.5](#BourkeGarner2016a).
 
-Let $\mathbf{RcDbl}$ denote the [[2-category]] of right-connected double categories, *unitary* [[double functors]] (those which preserve vertical identities strictly), and [[vertical transformation|horizontal transformations]]. 
 Let $Obj \colon \mathbf{RcDbl} \rightarrow \mathbf{Cat}$ denote the [[2-functor]] which assigns a double category $\mathbb{D} = (D_{0}, D_{1})$ to 
 its category $D_{0}$ of objects and horizontal morphisms. 
+Let $\mathbb{H} \colon \mathbf{Cat} \rightarrow \mathbf{RcDbl}$ be the $2$-functor which assigns each category to its horizontal double category (see Example \ref{horizontal-double-category}), and let $\mathbb{S}q \colon  \mathbf{Cat} \rightarrow \mathbf{RcDbl}$ be the $2$-functor which assigns each category to its double category of squares (see Example \ref{double-category-of-squares}).
 
 \begin{proposition}
 There is an [[adjoint triple]] of $2$-functors: 
@@ -139,24 +204,14 @@ There is an [[adjoint triple]] of $2$-functors:
 & \mathbf{Cat}
 \arrow[l, phantom, shift right = 5, "\bot"]
 \arrow[l, phantom, shift left = 5, "\bot"]
-\arrow[l, "\mathbb{H}"', shift right = 8]
-\arrow[l, "\mathbb{S}q", shift left = 8]
+\arrow[l, "\mathbb{H}"', shift right = 8, hook]
+\arrow[l, "\mathbb{S}q", shift left = 8, hook]
 \end{tikzcd}
 \end{proposition}
-
-## Examples
-
-\begin{example}
-For each category $C$, the horizontal double category $\mathbb{H}(C)$ ---whose objects and horizontal morphisms come from $C$, and whose vertical morphisms and cells are identities --- is right-connected. 
-\end{example}
-
-\begin{example}
-For each category $C$, the [[double category of squares]] $\mathbb{S}q(C)$ is right-connected. 
-\end{example}
-
-\begin{example}
-For each [[algebraic weak factorization system]] $(K, R, L)$ on a category $K$, the double category of $R$-algebras is right-connected. 
-\end{example}
+\begin{proof}(*Idea*)
+The component of the counit of the adjunction $\mathbb{H} \dashv \mathrm{Obj}$ at a right-connected double category $\mathbb{D} = (D_{0}, D_{1})$ is given by the double functor $\mathbb{H}(D_{0}) \rightarrow \mathbb{D}$ determined by the pair of functors $(1 \colon D_{0} \rightarrow D_{0}, id \colon D_{0} \rightarrow D_{1})$. 
+The component of the unit of the adjunction $\mathrm{Obj} \dashv \mathbb{S}q$ is given in Proposition \ref{double-functor-U}. 
+\end{proof}
 
 ## References
 
