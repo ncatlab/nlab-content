@@ -1,4 +1,89 @@
 
+## In dependent type theory
+
+Assuming the [[type of natural numbers]], we display the construction of, consecutively, the [[rings]] of 
+
+* [[integer numbers]]
+
+* [[rational numbers]]
+
+* [[real numbers]]
+
+* [[complex numbers]]
+
+in [[dependent type theory]] with [[quotient types]] (such as [[homotopy type theory]] with the [[univalence axiom]]), as [[terms]] of [[ring]] [[structure]] (see [there](structure#RingDataStructure)):
+
+<img src="/nlab/files/RingDataStruture-230129.jpg" width="740">
+
+Here we use the notation for [[dependent functions]], [[dependent pairs]] and their [[type telescopes]] from *[[dependent functions and dependent pairs -- table]]*.
+
+Throughout we omit displaying the certificates of [[identification type]] involved ([[associativity]] etc.). Mostly their construction is immediate, a little thought is required only for the [[real numbers]]: We show the "regular Cauchy real number type" due to [Bishop (1967)](#Bishop67); the ideas for obtaining the required identification certificates may be found in in [Bishop (1967, pp. 15)](#Bishop67) and [Bishop & Bridges (1985, pp. 18)](#BishopBridges85), full formalization in [[Agda]] is in [Murray (2022)](#Murray22).
+
+For $X \,\colon\, Set$ and $P \colon X \to Prop$ an [[equivalence relation]] with [corresponding](dependent+type#TypeBundlesReflectedInTypeUniverse) $R \,\coloneqq\, (x \colon X) \times P(x)$, we write
+
+$$
+  X / R \,\colon\, Set
+$$
+
+for the corresponding [[quotient type]].
+
+We display functions on such quotient sets as operations on the quotien*ed* set $X$, leaving again implicit the certificates that these functions do respect the relations and hence do restrict to the quotient.
+ 
+
+### The natural numbers
+
+Here we assume the [[type of natural numbers]], for detailed discussion see there.
+
+Just briefly:
+
+$$
+  \mathbb{N}
+  \;\colon\;
+  Type
+$$
+
+denotes the [[inductive type]] generated from
+
+$$
+  0 \,\colon\, \mathbb{N}
+  ,\;\;\;\;
+  succ \,\colon\, \mathbb{N} \to \mathbb{N}
+  \,.
+$$
+
+By [[recursion]] this induces the usual operations of 
+[[addition]] and [[multiplication]], which we denote as usual:
+
+$$
+  \begin{array}{ccl}
+  + &\colon& \mathbb{N} \times \mathbb{N} \to \mathbb{N}
+  \\
+  \cdot &\colon& \mathbb{N} \times \mathbb{N} \to \mathbb{N}
+  \,.
+  \end{array}
+$$
+
+Not to clutter the notation, we will consecutively *overload* this notation in the following. For example, the addition of integer numbers in the following is defined on representatives as
+
+$$
+  (n_1 ,\, m_1)
+  \;+\;
+  (n_2 ,\, m_2)
+  \;\;
+  =
+  \;\;
+  \big(
+    n_1 + n_2
+    ,\,
+    m_1 + m_2
+  \big)
+$$
+
+and it is tacitly understood that the addition symbol operation on the left goes $\mathbb{Z} \times \mathbb{Z} \to \mathbb{Z}$, while that on the right is the one from above: $\mathbb{N} \times \mathbb{N} \to \mathbb{N}$.
+
+
+### The integer numbers
+
 The [[ring]] of [[integer numbers]]:
 
 \[
@@ -146,6 +231,9 @@ The [[positive number|positive]] [[integer numbers]]:
     \times
     (1 \leq n)
 \]
+
+
+### The [[rational numbers]]
  
 The [[ring]] of [[rational numbers]]:
 
@@ -176,7 +264,7 @@ The [[ring]] of [[rational numbers]]:
     \\
     \begin{array}{ccl}
       \mathbb{Q}
-      &:=&
+      &\coloneqq&
      \mathbb{Z} 
        \times
      \mathbb{Z}_+
@@ -198,7 +286,7 @@ The [[ring]] of [[rational numbers]]:
        q_1 \cdot p_2
      \big)
       \\
-      0 &:=& (0,1)
+      0 &\coloneqq& (0,1)
       \\
       + 
       &:&
@@ -242,6 +330,294 @@ The [[ring]] of [[rational numbers]]:
     \end{array}
   \end{array}
 \]
+
+The [[fraction|multiplicative inverse]] of a [[positive number|positive]] [[natural number]]:
+
+\[
+  \label{MultiplicativeInverseOfPositiveNaturalNumber}
+  \begin{array}{rrcl}
+    \frac{1}{(-)}
+    \;\colon
+    &
+    \mathbb{N}_+
+    &\longrightarrow&
+    \mathbb{Q}
+    \\
+    &
+    n &\mapsto& (1,\,n)
+  \end{array}
+\]
+
+The [[monomial|square]] of a [[rational number]]:
+
+\[
+  \label{SquareOfARationalNumber}
+  \begin{array}{rrcl}
+    (-)^2
+    \;\colon
+    &
+    \mathbb{Q}
+    &\longrightarrow&
+    \mathbb{Q}
+    \\
+    &
+    r &\mapsto& r \cdot r
+  \end{array}
+\]
+
+### The real numbers
+
+The [[real numbers]]:
+
+\[
+  \begin{array}{l}
+    \big(
+      \mathbb{R}
+      ,\,
+      0
+      ,\,
+      +
+      ,\,
+      -
+      ,\,
+      1
+      ,\,   
+      \cdot
+    \big)
+    \;\colon\;
+    Ring
+    \\
+    \text{where}
+    \\
+    \begin{array}{ccl}
+    \mathbb{R}
+    &\coloneqq&
+    \Big(
+      x_{(-)}
+      :
+      \mathbb{Z}_+
+      \to
+      \mathbb{Q}
+    \Big)
+    \times
+    \bigg(
+      (
+        n,\,m \,\colon\, \mathbb{Z}_+
+      )
+      \to
+      \Big(
+        (x_n - x_m)^2
+        \,\leq\, 
+        \big(
+          \frac{1}{n} + \frac{1}{m}
+        \big)^2
+      \Big)
+    \bigg)
+    \\
+    &&
+    \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+    \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+    \bigg/
+    \Big(
+      x_{(-)} ,\, y_{(-)}
+    \Big)
+    \times
+    \bigg(
+      (n \colon \mathbb{Z}_{+})
+      \to
+      \Big(
+        (x_n - y_b)^2
+        \,\leq\,
+        \big(\frac{2}{n}\big)^2
+      \Big)
+    \bigg)
+    \\
+    0 &\colon& n \mapsto 0
+    \\
+    + 
+    &\colon& 
+    \big(
+      x_{(-)}
+      ,\,
+      y_{(-)}
+    \big)
+    \;\mapsto\;
+    \big(
+      n \,\mapsto\, x_n + y_n
+    \big)
+    \\
+    - 
+    &\colon&
+    x_{(-)}
+    \,\mapsto\,
+    \big(
+      n \,\mapsto\, - x_n
+    \big)
+    \\
+    1 
+    &\colon&
+    n \,\mapsto\, 1
+    \\
+    \cdot
+    &\colon&
+    \big(
+      x_{(-)}
+      ,\,
+      y_{(-)}
+    \big)
+    \;\mapsto\;
+    \big(
+      n
+      \,\mapsto\,
+      x_n
+      \cdot
+      y_n
+    \big)
+    \end{array}
+  \end{array}
+\]
+
+### The complex numbers
+
+The [[complex numbers]]:
+
+$$
+  \begin{array}{l}
+    \big(
+      \mathbb{C}
+      ,\,
+      0
+      ,\,
+      +
+      ,\,
+      -
+      ,\, 
+      1
+      ,\,
+      \cdot
+    \big)
+    \;\colon\;
+    Ring
+    \\
+    \text{where}
+    \\
+    \begin{array}{ccl}
+    \big(
+      z \colon \mathbb{C}
+    \big)
+    &\coloneqq&
+    \big(
+      \mathrm{Re}(z)
+      ,\,
+      \mathrm{Im}(z)
+    \big)
+    \,:\,
+    \mathbb{R} \times \mathbb{R}
+    \\
+    0  
+    &\coloneqq& 
+    (0,\,0) 
+    \\
+    + 
+    &\colon&
+    \Big(
+    \big(
+      \mathrm{Re}(z_1)
+      ,\,
+      \mathrm{Im}(z_1)
+    \big)
+    ,\,
+    \big(
+      \mathrm{Re}(z_2)
+      ,\,
+      \mathrm{Im}(z_2)
+    \big)
+    \Big)
+    \;\;\mapsto\;\;
+    \big(
+      \mathrm{Re}(z_1) + \mathrm{Re}(z_2)
+      ,\,
+      \mathrm{Re}(z_1) + \mathrm{Re}(z_2)
+    \big)
+    \\
+    - 
+    &\colon&
+    \big(
+      \mathrm{Re}(z)
+      ,\,
+      \mathrm{Im}(z)
+    \big)
+    \;\mapsto\;
+    \big(
+      - \mathrm{Re}(z)
+      ,\,
+      - \mathrm{Im}(z)
+    \big)
+    \\
+    1 
+    &\coloneqq& 
+    (1,\, 0)
+    \\
+    \cdot 
+    &\colon&
+    \Big(
+      \big(
+        \mathrm{Re}(z_1)
+        ,\,
+        \mathrm{Im}(z_1)
+      \big)
+      ,\,
+      \big(
+        \mathrm{Re}(z_2)
+        ,\,
+        \mathrm{Im}(z_2)
+      \big)
+    \Big)
+    \\
+    \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+    &&
+    \;\;\mapsto\;\;
+    \Big(
+    \mathrm{Re}(z_1)
+    \cdot
+    \mathrm{Re}(z_2)
+    -
+    \mathrm{Im}(z_1)
+    \cdot
+    \mathrm{Im}(z_2)
+    ,\;\;
+    \mathrm{Re}(z_1) \cdot \mathrm{Im}(z_2)
+    +
+    \mathrm{Im}(z_1) \cdot \mathrm{Re}(z_2)
+    \Big)
+    \end{array}
+  \end{array}
+$$
+
+
+
+
+## References
+
+Construction of the number systems up to the [[real numbers]] in [[constructive analysis]]:
+
+* {#Bishop67} [[Errett Bishop]], *[[Foundations of Constructive Analysis]]*, McGraw-Hill (1967)
+
+* {#BishopBridges85} [[Errett Bishop]], [[Douglas Bridges]] *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
+
+Formalization in [[Agda]]:
+
+* {#Murray22} [[Zachary Murray]], *Constructive Analysis in the Agda Proof Assistant* &lbrack;[arXiv:2205.08354](https://arxiv.org/abs/2205.08354), [github](https://github.com/z-murray/honours-project-constructive-analysis-in-agda)&rbrack;
+
+
+
+
+
+
+
+
+
+
 
 
 $$
