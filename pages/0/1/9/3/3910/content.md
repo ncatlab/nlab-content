@@ -12,6 +12,8 @@
 =--
 =--
 =--
+
+
 # Contents
 * table of contents
 {: toc}
@@ -145,7 +147,18 @@ The symbol '$\mathbb{Z}$' derives from the German word 'Zahlen', which is a gene
 
 ## References
 
+History:
+
 * [[Leo Corry]], *A Brief History of Numbers*, Oxford University Press (2015) &lbrack;[ISBN:9780198702597](https://global.oup.com/academic/product/a-brief-history-of-numbers-9780198702597)&rbrack;
+
+Formalization in [[univalent foundations of mathematics]] ([[homotopy type theory]] with the [[univalence axiom]]):
+
+* {#UFP13} [[Univalent Foundations Project]], Rem. 6.10.7 *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+and specifically in [[cubical Agda]]
+
+* [[1lab]], *[Data.Int](https://1lab.dev/Data.Int.html)*
+
 
 [[!redirects integer]]
 [[!redirects integers]]
