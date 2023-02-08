@@ -96,6 +96,14 @@ The following conditions are equivalent.
      \,.
    $$
 
+1. for all functors $G: D \to E$, the canonical map
+
+   $$
+     Nat(G,\Delta-)\to Nat(GF,\Delta-) : E \to Set
+   $$
+
+   between the functors of [[cocones]] on $G$ and $GF$ is an [[isomorphism]]. (Here, the $\Delta$'s denote the functors sending objects to constant functors, and $Nat$ stands for the set of natural transformations.)
+
 
 =--
 
