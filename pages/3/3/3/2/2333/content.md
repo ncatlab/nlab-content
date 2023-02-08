@@ -23,16 +23,17 @@
 
 A **convex space** (also called **barycentric algebra** and other terms, invented independently many times) is a [[set]] [[extra structure|equipped]] with a notion of taking weighted averages, or convex-[[linear combinations]], of its elements.  Do not confuse this with an (abstract) _[[convex set]]_, which a special kind of convex space, also defined below.
 
-The [[category]] of convex spaces is an algebraic theory, being the affine part of the theory of $K$-(semi)modules with only the idempotent operations.  This definition is used by [Meng (1989)](#Meng), and many basic properties of the category are detailed therein.  The category is complete, cocomplete, symmetric monoidal closed under the (usual) tensor product construction, and has a cogenerator [B&ouml;rger and Kemper (1994)](#Borger).   The subcategory consisting of the single object, the unit interval, is dense (left-adequate) in the category.  This follows from Isbell's theorem on left adequate subcategories for algebraic theories, using the fact that the free convex space on 2 elements is the unit interval. 
+The [[category]] of convex spaces is the category of algebras of a [[Lawvere theory]], being the affine part of the theory of $K$-(semi)modules with only the idempotent operations.  This definition is used by [Meng (1989)](#Meng), and many basic properties of the category are detailed therein.   Equivalently, the category of convex spaces is the [[Eilenberg-Moore category|category of algebras]] of a [[finitary monad]], as explained by [Jacobs (2010)](#Jacobs10) and [Swirszcz](#Swirszcz).
+
+The category of convex spaces is is complete, cocomplete, symmetric monoidal closed under the (usual) tensor product construction, and has a cogenerator [B&ouml;rger and Kemper (1994)](#Borger).   The subcategory consisting of the single object, the unit interval, is dense (left-adequate) in the category.  This follows from Isbell's theorem on left adequate subcategories for algebraic theories, using the fact that the free convex space on 2 elements is the unit interval. 
 
 Axiomatically, a convex space can be characterized as a [[set]] $X$ equipped with a family of [[functions]] $c_p : X \times X \to X$ satisfying some natural [[axioms]] (described below). 
 
 For examples all [[nonunital ring|nonunital]] [[commutative rings]] are convex spaces, with the map $c_p(x,y) = x + p(y-x)$. 
 
+The [[monad]] assigning to any set the free convex space on that set is a [[finitary monad|finitary]] [[commutative monad]] (see [Jacobs (2010)](#Jacobs10)). We can thus follow Durov in thinking of it as a [[generalized ring]].  This allows us to think of convex spaces as 'modules' of a generalized ring, very much as [[vector spaces]] are modules of a field.  This is also true of the relatives of convex spaces: [[affine space|affine spaces]] and [[conical space|conical spaces]].  For example, all **affine spaces** are convex spaces as defined below.
 
-The [[monad]] assigning to any set the free convex space on that set is a [[finitary monad|finitary]] [[commutative monad]].  We can thus follow Durov in thinking of it as a [[generalized ring]].  This allows us to think of convex spaces as 'modules' of a generalized ring, very much as [[vector spaces]] are modules of a field.  This is also true of the relatives of convex spaces: [[affine space|affine spaces]] and [[conical space|conical spaces]].  For example, all **affine spaces** are convex spaces as defined below.
-
-Of particular importance are convex spaces parametrized by the interval $P = [0,1]$ or the Boolean algebra $P = \{0,1\}$. These two algebras are dual, in a certain sense described by [Jacobs (2009)](#Jacobs). This duality is functorial, and therefore is present for convex spaces for general $P$. This leads to the notion of a [[dual convex space]].
+Of particular importance are convex spaces parametrized by the interval $P = [0,1]$ or the Boolean algebra $P = \{0,1\}$. These two algebras are dual, in a certain sense described by [Jacobs (2009)](#Jacobs09). This duality is functorial, and therefore is present for convex spaces for general $P$. This leads to the notion of a [[dual convex space]].
 
 ## Definition
 
@@ -112,7 +113,9 @@ Convex spaces have been rediscovered many times under many different names.  Ref
 
 * [[John Baez]], [[Tobias Fritz]], [[Tom Leinster]], [[johnbaez:Convex spaces and an operadic approach to entropy]], $n$Lab draft
 
-* {#Jacobs} [[Bart Jacobs]], _Duality for convexity_ [arXiv/0911.3834](http://arxiv.org/abs/0911.3834)
+* {#Jacobs09} [[Bart Jacobs]], _Duality for convexity_ [arXiv/0911.3834](http://arxiv.org/abs/0911.3834)
+
+* {#Jacobs10} [[Bart Jacobs]], Convexity, duality and effects. In: IFIP International Conference on Theoretical Computer Science. Springer. 2010, pp. 1–19.  ([pdf](https://link.springer.com/content/pdf/10.1007/978-3-642-15240-5_1.pdf))
 
 * J.R. Isbell, Adequate subcategories, Illinois Journal of Math, 4, 541-552  (1960).
 
@@ -120,7 +123,7 @@ Convex spaces have been rediscovered many times under many different names.  Ref
 
 * Joe Flood, _Semiconvex geometry_, J. Austral. Math. Soc. Ser. A **30** (1980/81), 496-&#8211;510. 
 
-* T. Swirszcz, _Monadic functors and categories of convex sets_ , Preprint No. **70**, _Proc. Inst. Math. Pol. Acad. Sci._, Warsaw; _Monadic functors and convexity_, _Bull. Acad. Polon. Sci. Ser. Sci. Math. Astronom. Phys._ **22** (1974), 39--42. 
+* {#Swirszcz} T. Swirszcz, _Monadic functors and categories of convex sets_ , Preprint No. **70**, _Proc. Inst. Math. Pol. Acad. Sci._, Warsaw; _Monadic functors and convexity_, _Bull. Acad. Polon. Sci. Ser. Sci. Math. Astronom. Phys._ **22** (1974), 39--42. 
 
 * Stanley P. Gudder, _Convexity and mixtures_, SIAM Review **19** (1977), 221--240; _A general theory of convexity_, Milan Journal of Mathematics, **49** (1979), 89--96.
 
