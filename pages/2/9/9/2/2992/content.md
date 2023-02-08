@@ -386,14 +386,19 @@ One could analytically define the concepts of [[limit of a function]] and [[cont
 
 * [[Leo Corry]], *A Brief History of Numbers*, Oxford University Press (2015) &lbrack;[ISBN:9780198702597](https://global.oup.com/academic/product/a-brief-history-of-numbers-9780198702597)&rbrack;
 
-Discussion in [[homotopy type theory]]:
-
-* {#UBP13} [[Univalent Foundations Project]], §11.1 of: *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
-
-
 See also:
 
 * Wikipedia, *[Rational number](https://en.wikipedia.org/wiki/Rational_number)*
+
+Discussion in [[univalent foundations of mathematics]] ([[homotopy type theory]] with the [[univalence axiom]]):
+
+* {#UBP13} [[Univalent Foundations Project]], §11.1 of: *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
+
+and specifically in [[Agda]]:
+
+* [[UniMath project]], *[agda-unimath/elementary-number-theory.rational-numbers](https://unimath.github.io/agda-unimath/elementary-number-theory.rational-numbers.html)*
+
+
 
 [[!redirects rational number]]
 [[!redirects rational numbers]]
