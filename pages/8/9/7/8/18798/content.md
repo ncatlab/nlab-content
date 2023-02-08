@@ -78,11 +78,11 @@ The [[dual number]] real algebra $\mathbb{D} \coloneqq \mathbb{R}[\epsilon]/\eps
 
 ## In constructive mathematics
 
-In classical mathematics, one could prove that the [[modulated Cantor real numbers]] $\mathbb{R}_C$ are [[sequentially Cauchy complete]] and equivalent to the [[HoTT book real numbers]] $\mathbb{R}_H$. However, in constructive mathematics, the above cannot be proven; while the HoTT book real numbers $\mathbb{R}_H$ are still sequentially Cauchy complete, the modulated Cantor real numbers $\mathbb{R}_C$ in general cannot be proven to be sequentially Cauchy complete. In particular, this means that the sequence 
+In [[classical mathematics]], one could prove that the [[modulated Cantor real numbers]] $\mathbb{R}_C$ are [[sequentially Cauchy complete]] and [[type equivalence|equivalent]] to the [[HoTT book real numbers]] $\mathbb{R}_H$. However, in [[constructive mathematics]], the above cannot be proven; while the HoTT book real numbers $\mathbb{R}_H$ are still sequentially Cauchy complete, the modulated Cantor real numbers $\mathbb{R}_C$ in general cannot be proven to be sequentially Cauchy complete. In particular, this means that the sequence 
 
 $$\sum_{i = 0}^{n} \frac{(-1)^i x^{2 i}}{(2 i)!}$$ 
 
-does not have a limit for all modulated Cantor real numbers $x \in \mathbb{R}_C$. However, the sequence, by definition of $\mathbb{R}_C$, does have a limit for all [[rational numbers]] $x \in \mathbb{Q}$; this means that one could restrict the [[domain]] of the cosine function to the rational numbers $\cos:\mathbb{Q} \to \mathbb{R}_C$, and define it in the usual manner:
+does not have a [[limit of a sequence|limit]] for all modulated Cantor real numbers $x \in \mathbb{R}_C$. However, the sequence, by definition of $\mathbb{R}_C$, does have a limit for all [[rational numbers]] $x \in \mathbb{Q}$; this means that one could restrict the [[domain]] of the cosine function to the rational numbers $\cos:\mathbb{Q} \to \mathbb{R}_C$, and define it in the usual manner:
 
 * For all rational numbers $x \in \mathbb{Q}$, there exists a unique modulated Cantor real number $\cos(x) \in \mathbb{R}_C$ such that for all positive rational numbers $\epsilon \in \mathbb{Q}_+$, there exists a natural number $N \in \mathbb{N}$ such that for all natural numbers $n \in \mathbb{N}$, if $n \geq N$, then $-\epsilon \lt \sum_{i = 0}^{n} \frac{(-1)^i x^{2 i}}{(2 i)!} - \cos(x) \lt \epsilon$.
 
