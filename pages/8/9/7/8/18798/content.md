@@ -106,6 +106,16 @@ does not have a limit for all modulated Cantor real numbers $x \in \mathbb{R}_C$
 
 ## References
 
+Discussion in [[constructive analysis]]:
+
+* [[Errett Bishop]], §7 in: *[[Foundations of Constructive Analysis]]*, McGraw-Hill (1967)
+
+* [[Errett Bishop]], [[Douglas Bridges]] §7 in: *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
+
+See also:
+
+
+
 * Wikipedia, _[Sine and cosine](https://en.wikipedia.org/wiki/Sine_and_cosine)_
 
 [[!redirects cos]]
