@@ -1,10 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+
+\tableofcontents
+
 ## Idea
 
-A tabulator is a kind of [[limit]] in a [[double category]] generalizes the notion of the [[graph of a profunctor]] (also called the _cocollage_). Dually, a cotabulator generalizes the [[cograph of a profunctor]] (also called the _collage_).
+A *tabulator* is a kind of [[limit]] in a [[double category]], generalizing the notion of the *[[graph of a profunctor]]* (also called the _cocollage_). Dually, the notion of a *cotabulator* generalizes that of the *[[cograph of a profunctor]]* (also called the _collage_).
 
 ## Definition
 
-The _tabulator_ of a [[vertical morphism]] $u \colon A \nrightarrow B$ in a [[double category]] $\mathbb{D}$ consists of an object $Tu$ and a cell
+The _tabulator_ of a [[vertical morphism]] $u \colon A \nrightarrow B$ in a [[double category]] $\mathbb{D}$ consists of an object $Tu$ and a [[2-morphism]]
 \begin{tikzcd}
 Tu
 \arrow[r, "p"]
@@ -19,7 +37,7 @@ Tu
 \end{tikzcd}
 with the universal properties:
 
-1. For every cell 
+1. For every [[2-morphism]] 
 \begin{tikzcd}
 X
 \arrow[r, "f"]
