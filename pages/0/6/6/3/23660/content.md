@@ -20,7 +20,9 @@
 
 ## Idea ##
 
-A notion of real numbers that is [[sequentially modulated Cauchy complete]], because the [[modulated Cauchy real numbers]] are not sequentially modulated Cauchy complete in [[constructive mathematics]]
+A notion of [[real numbers]] in [[homotopy type theory]] that is [[sequentially modulated Cauchy complete]]. 
+
+(The [[modulated Cauchy real numbers]] are not sequentially modulated Cauchy complete in [[constructive mathematics]].)
 
 ## Definition ##
 
@@ -33,6 +35,8 @@ Let $F$ be an [[Archimedean field]]. $F$ is *[[sequentially modulated Cauchy com
 The set of __HoTT book real numbers__ $\mathbb{R}_H$ is the initial object in the category of [[Cauchy structures]] and [[Cauchy structure homomorphisms]]. 
 
 ### As a higher inductive-inductive type ###
+
+As a [[higher inductive type]]:
 
 Let $\mathbb{Q}$ be the [[rational numbers]] and let 
 
@@ -77,5 +81,8 @@ The [[analytic functions]], such as the [[exponential function]], the [[sine fun
 
 ## References ##
 
-* Auke B. Booij, Analysis in univalent type theory ([pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf))
-* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+* [[Auke B. Booij]], Analysis in univalent type theory ([pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf))
+
+* [[Univalent Foundations Project]], *[[Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
+
+
