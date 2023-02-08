@@ -197,6 +197,10 @@ Remarks about refinements to correspondences of smooth $\infty$-groupoids in the
 * [[Urs Schreiber]], _[[schreiber:Synthetic Quantum Field Theory]]_, Talk at [CMS Summer Meeting 2013](http://cms.math.ca/Events/summer13/)
  {#SyntheticQFT}
 
+String diagrams for the linear and affine Weinstein category using graphical linear algebra
+
+* Cole Comfort, [[Aleks Kissinger]], _A Graphical Calculus for Lagrangian Relations_, In Proceedings ACT 2021. [doi](https://doi.org/10.4204/EPTCS.372.24)
+
 
 [[!redirects stable symplectic category]]
 
