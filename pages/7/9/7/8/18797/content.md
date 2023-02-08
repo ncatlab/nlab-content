@@ -137,11 +137,18 @@ The [[roots]] of the sine function, hence the argument where its value is [[zero
 
 ## References
 
-* {#Trimble} [[Todd Trimble]], _[[toddtrimble:Characterization of sine]]_
+Discussion in [[constructive analysis]]:
+
+* [[Errett Bishop]], §7 in: *[[Foundations of Constructive Analysis]]*, McGraw-Hill (1967)
+
+* [[Errett Bishop]], [[Douglas Bridges]] §7 in: *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
 
 See also
 
 * Wikipedia, _[Sine and cosine](https://en.wikipedia.org/wiki/Sine_and_cosine)_
+
+* {#Trimble} [[Todd Trimble]], _[[toddtrimble:Characterization of sine]]_
+
 
 [[!redirects sin]]
 
