@@ -13,6 +13,14 @@ On [[constructive analysis]] with exact [[real numbers]] via [[type theory]]:
 
 * [[Herman Geuvers]], [[Milad Niqui]], [[Bas Spitters]], [[Freek Wiedijk]], _Constructive analysis, types and exact real numbers_, Mathematical Structures in Computer Science **17** 01 (2007) 3-36 &lbrack;[doi:10.1017/S0960129506005834](https://doi.org/10.1017/S0960129506005834)&rbrack;
 
+and specifically with [[ufias2012:Type classes]] in [[Coq]]:
+
+* {#KrebbersSpitters11} [[Robbert Krebbers]], [[Bas Spitters]], *Type classes for efficient exact real arithmetic in Coq*, Logical Methods in Computer Science, **9** 1 (2013) lmcs:958 &lbrack;[arXiv:1106.3448](http://arxiv.org/abs/1106.3448/), <a href="https://doi.org/10.2168/LMCS-9(1:1)2013">doi:10.2168/LMCS-9(1:1)2013</a>&rbrack;
+
+Exposition:
+
+* [[Bas Spitters]], *Verified Implementation of Exact Real Arithmetic in Type Theory*, talk at *Computable Analysis and Rigorous Numeric* (2013) &lbrack;[pdf](https://users-cs.au.dk/spitters/CARN.pdf), [[Spitters-ExactRealArithmetic.pdf:file]]&rbrack;
+
 
 On [[mathematical structures]] formulated in [[dependent type theory]], specifically via [[ufias2012:Type classes]] in [[Coq]]:
 
