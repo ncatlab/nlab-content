@@ -160,6 +160,8 @@ Notice that before the $(-1)$-truncation the operation remembers not just _that_
 
 * [[generalized quantifier]]
 
+* [[being]]
+
 [[!include logic symbols -- table]]
 
 
