@@ -106,6 +106,8 @@ Given a general spacetime, there is not necessarily a globally defined coordinat
 
 * [[Roger Penrose]], _Gravitational collapse and space-time singularities_, Phys. Rev. Lett. __14__, 57--59
 
+* Paul Ernest, The Mathematics of Space-Time and the Limits of Human Understanding, Philosophy of Mathematics Education Journal, No. 30 (October 2016) ISSN:1465-2978
+
 category: physics, geometry
 
 [[!redirects space-time]]
