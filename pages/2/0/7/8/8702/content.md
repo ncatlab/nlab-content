@@ -259,6 +259,9 @@ This image is the _[[Cantor space]]_ as a subspace of the closed interval.
 
 =--
 
+###### Example
+
+A Cartesian product of countably many copies of the real closed interval $[0,1]$ (as a topological space) is the [[Hilbert cube]]. 
 
 ## Properties
 
@@ -401,6 +404,7 @@ The _Tychonoff topology_ is named after [[A. N. Tychonoff]].
 [[!redirects Tikhonoff topologies]]
 [[!redirects Tikhonov topology]]
 [[!redirects Tikhonov topologies]]
+[[!redirects Tihonov topology]]
 [[!redirects Тиьонов topology]]
 [[!redirects Тиьонов topologies]]
 
