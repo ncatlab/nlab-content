@@ -20,6 +20,8 @@
 
 An __absorption monoid__ or __annihilation monoid__ is a [[monoid]] $(M,1,\cdot)$ that is also an [[absorption magma]] $(M,0)$. 
 
+Equivalently, it is a [[monoid object]] in the [[category]] of [[pointed sets]], since left and right multiplication $\cdot$ by any element $x$ preserves the point $0$. 
+
 ## Properties
 
 ### Zero divisors
