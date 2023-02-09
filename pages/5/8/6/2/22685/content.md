@@ -6,6 +6,8 @@
 
 An __absorption magma__ or __annihilation magma__ is a [[magma]] $(M,\cdot)$ with an element $0\in M$ satisfying the absorption/annihilation axioms: for all $a \in M$, $0 \cdot a = 0$ and $a \cdot 0 = 0$. 
 
+Equivalently, this is a [[magma object]] in the [[category]] of [[pointed sets]]. 
+
 ## Properties
 
 ### Zero divisors
