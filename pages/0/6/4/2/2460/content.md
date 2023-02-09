@@ -45,31 +45,44 @@ Cohn localization induces a hereditary torsion theory, i.e. a localization endof
 
 Universal localization is much used in algebraic K-theory, algebraic L-theory and surgery theory -- see [[Andrew Ranicki]]'s slides in the references at Cohn localization and his papers, specially the series with Amnon Neeman.
 
+## Related concepts
+
+* [[localization of a ring]]
+
+* [[localization of a commutative ring]]
+
+* [[noncommutative localization]]
+
 ## References
 
-The existence of the universal localization is exhibited in
+The original articles:
 
-* P. M. Cohn, _Free rings and their relations_, Academic Press 1971
+* [[Paul M. Cohn]], _Free rings and their relations_, Academic Press (1971) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/cohnfree.pdf)&rbrack;
 
-Original articles include
+* [[Paul M. Cohn]], _Inversive localization in noetherian rings_, Communications on Pure and Applied Mathematics __26__ 5-6 (1973 ) 679-691 &lbrack;[doi:10.1002/cpa.3160260510](http://dx.doi.org/10.1002/cpa.3160260510)&rbrack; 
 
-* [[P. M. Cohn]], _Inversive localization in noetherian rings_, Communications on Pure and Applied Mathematics __26__:5-6, pp. 679&#8211;691, 1973 [doi](http://dx.doi.org/10.1002/cpa.3160260510) 
+Reviews and lecture notes:
 
-Reviews and lecture notes include
+* [[V. Retakh]], R. Wilson, _Advanced course on quasideterminants and universal localization_ (2007) &lbrack;[[RetakhWilson-Quasideterminants.pdf:file]]&rbrack; 
 
-* [[V. Retakh]], R. Wilson, _Advanced course on quasideterminants and universal localization_, [pdf](http://castellet.cat/Publications/quaderns/Quadern41.pdf) 
+*  [[Andrew Ranicki]] (ed.),  _Noncommutative localization in algebra and topology_, (Proceedings of Conference at ICMS, Edinburgh, 29-30 April 2002) London Math. Soc. Lecture Notes Series **330** Cambridge University Press (2006) &lbrack;[pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)&rbrack;
 
+containing this article on applications to [[topology]]:
 
-* (NLOC) _Noncommutative localization in algebra and topology_,
-(Proceedings of Conference at ICMS, Edinburgh, 29-30 April 2002),
-London Math. Soc. Lecture Notes Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)), ed. [[Andrew Ranicki]], Cambridge University Press (2006) 
+* [[Andrew Ranicki]], *Noncommutative localization in topology* &lbrack;[arXiv:math/0303046](https://arxiv.org/abs/math/0303046)&rbrack;
+
+reviewed in:
+
+* [[Andrew Ranicki]], _Noncommutative localization in algebra and topology_, talk at Knot theory meeting (2008) &lbrack;slides [pdf](http://www.maths.ed.ac.uk/~aar/slides/heidel2.pdf)&rbrack; 
+
+* [[Andrew Ranicki]], _Noncommutative localization_, [[Pierre Vogel]] 65th birthday conference, Paris, 27 October 2010 &lbrack;[slides pdf](http://www.maths.ed.ac.uk/~aar/slides/vogel.pdf)&rbrack;
+
+See also:
 
 * [[Z. Škoda]], _Noncommutative localization in noncommutative geometry_, in (NLOC, above) pp. 220--313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276)
 
-* [[Andrew Ranicki]], _Noncommutative localization in algebra and topology_, talk at Knot theory meeting, 2008, slides [pdf](http://www.maths.ed.ac.uk/~aar/slides/heidel2.pdf); _Noncommutative localization_, [[Pierre Vogel]] 65th birthday conference, Paris, 27 October 2010, [slides pdf](http://www.maths.ed.ac.uk/~aar/slides/vogel.pdf)
 
-
-One can also look at localization with inverses just from one side:
+On localization with inverses just from one side:
 
 * [[P. M. Cohn]], _One-sided localization in rings_, J. Pure Appl. Algebra __88__ (1993), no. 1-3, 37&#8211;42 []()
 
