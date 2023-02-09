@@ -1,5 +1,5 @@
 
-> This entry is meant to be about the general notion of localization of a possible noncommutative ring. For the more restrictive but traditional notion for commutative rings see at *[[localization of a commutative ring]]*. 
+> This entry is meant to be about the general notion of localization of a possible noncommutative ring (a special case of *[[Cohn localization]]*). For the more restrictive but traditional notion for commutative rings see at *[[localization of a commutative ring]]*. 
 
 
 +-- {: .rightHandSide}
@@ -21,32 +21,46 @@
 
 ### General
 
-Given a (possibly noncommutative) unital [[ring]] $R$ there are many situations when certain elements or matrices can be inverted in a universal way obtaining a new "localized" ring $S^{-1}R$ equipped with a localization [[homomorphism]] $R\to S^{-1}R$ under which all elements in $S$ are mapped to multiplicatively invertible elements ([[units]]). The latter property must be modified for Cohn localization at multiplicative set of matrices. 
+Given a (possibly noncommutative) unital [[ring]] $R$ there are many situations when certain elements or matrices can be inverted in a universal way obtaining a new "localized" ring $S^{-1}R$ equipped with a [[localization]] [[homomorphism]] $R\to S^{-1}R$ under which all elements in $S$ are mapped to multiplicatively [[invertible elements]] ([[units]], hence elements of the [[group of units]]). 
 
-We can typically invert elements in a left or right Ore subset $S\subset R$ or much more generally some multiplicative set or matrices ([[Cohn localization]]) etc. There are also some specific localizations like Martindale localizations in ring theory. 
+This is a special case of and generalizes to the notion of *[[Cohn localization]]* where one may also force certain [[matrices]] with [[coefficients]] in the ring to become invertible.
+
+Often one inverts elements in a left or right [[Ore subset]] $S\subset R$ in which case the localized ring is expressed by fractions as naively expected, called *[[Ore localization]]*. 
+
+The Ore-condition is automatic for [[commutative rings]] which leads to the notion of *[[localization of a commutative ring]]*.
+
+Another special case is known as *[[Martindale localization]]*.
+
 
 
 ## Definition
 
 ### For general rings
 
-Let $S$ be a subset of a ring $R$.   A ring homomorphism $f:R \to A$ is _$S$-inverting_ if the image of $S$ is contained in the units of $A$, i.e. for every $s \in S$ there is a $t \in A$ so that $tf(s) = 1 = f(s) t$.   The _localization of $R$ with respect to $S$_ is a ring homomorphism $h : R \to R_S$ which is initial with respect to $S$-inverting ring homomorphisms.   The localization is therefore unique up to isomorphism.   It is a special case of [[universal localization]] and is the result of a formal construction. 
+Let $S$ be any [[subset]] of a [[ring]] $R$.  
 
-The localization of a ring at a multiplicative submonoid $S$ which contains $0$ is the [[trivial ring]]. 
+Say that a ring [[homomorphism]] $f \colon R \to A$ is _$S$-inverting_ if the [[image]] of $S$ under $f$ is contained in the [[units]] $A^\times \subset A$, i.e. if for every $s \in S$ there is a $t \in A$ so that $t \cdot f(s) = 1 = f(s) \cdot t$ in $A$. 
 
-If $S$ is an [[Ore set]], then the localization of $R$ with respect to $S$ has an explicit description in terms of fractions, see  [[Ore localization]]. 
+Then the _localization of $R$ with respect to $S$_ is a ring homomorphism $h \colon R \to R_S$ which is [[initial object|initial]] with respect to such $S$-inverting ring homomorphisms.  
+
+By this defining [[universal property]] the localization is unique up to [[isomorphism]], when it exists.  Its existence is a special case of [[universal localization]]/[[Cohn localization]], a general abstract construction. 
+
+If $S$ is an [[Ore set]], then the localization of $R$ with respect to $S$ has an explicit description in terms of fractions, see at *[[Ore localization]]*. 
+
+## Examples
+
+* The localization of a ring at a multiplicative submonoid $S$ which contains $0$ is the [[trivial ring]]. 
 
 
 
 ## References
 
+See the references at *[[Cohn localization]]*, also at *[[noncommutative localization]]*.
+
 For references on the [[localization of commutative rings]] see [there](localization+of+a+commutative+ring#References).
 
-Discussion of the general concept in [[noncommutative geometry]]:
 
-See references at *[[noncommutative localization]]*
-
-and:
+See also:
 
 * [[Zoran Škoda]], _Noncommutative localization in noncommutative geometry_,  London Math. Society Lecture Note Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)), ed.  A. Ranicki; pp. 220--313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276).
 
