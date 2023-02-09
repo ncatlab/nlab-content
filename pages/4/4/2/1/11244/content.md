@@ -4,6 +4,13 @@
 
 ## Selected writings
 
+
+On [[exact real computer arithmetic]]:
+
+* Dave Plume (supervised by [[Martín Escardó]], [[Alex Simpson]]): *A Calculator for Exact Real Number Computation*, University of Edinburgh  (1998) &lbrack;[web](https://www.dcs.ed.ac.uk/home/mhe/plume/)&rbrack;
+
+
+
 On [[probability theory]] in [[topos theory]]:
 
 * _Probability sheaves_, talk at Topos &#224; l'IH&#201;S, November 2015 ([YouTube](https://www.youtube.com/watch?v=IMGoluu1mgc))
