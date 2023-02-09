@@ -1,6 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A multiplicative closed subset $S\subset R$ containing a unit element in a [[monoid]] $R$ is a **left Ore set** if it satisfies the 
 
-* (left cancellability) If $ns = ms$ for $n,m\in R$ and $s\in S$, then $\exists s'\in S$ such that $s'n=s'm$.
+* (left cancellability) If $n s = m s$ for $n,m\in R$ and $s\in S$, then $\exists s'\in S$ such that $s' n = s' m$.
 
 * (left Ore condition) For any $r\in R$ and $s\in S$ there
 $\exists r'\in R$, $\exists s'\in S$ such that $s'r = r's$. 
@@ -8,7 +25,7 @@ $\exists r'\in R$, $\exists s'\in S$ such that $s'r = r's$.
 Sometimes both conditions are called "Ore conditions". 
 Notice that in both conditions the new elements whose existence is required are on the left. 
 
-If $S$ is a left Ore set in a monoid than there is a well-defined equivalence relation $\sim$ on pairs $(s,r)\in S\times R$ such that the set of equivalence classes, which are denoted by $s^{-1}r := [(s,r)]\in S^{-1}R:=S\times R/\sim$ becomes a monoid together with a monoid map $j_S: R\to S^{-1}R$ given by $r\mapsto 1^{-1}r$ is a homomorphism of monoids; moreover this monoid map satisfies a universal property, see [[Ore localization]]. The Ore localization of monoids has been generalized to categories, see [[category of fractions]].
+If $S$ is a left Ore set in a monoid than there is a well-defined [[equivalence relation]] $\sim$ on pairs $(s,r)\in S\times R$ such that the set of equivalence classes, which are denoted by $s^{-1}r := [(s,r)]\in S^{-1}R:=S\times R/\sim$ becomes a monoid together with a monoid map $j_S: R\to S^{-1}R$ given by $r\mapsto 1^{-1}r$ is a homomorphism of monoids; moreover this monoid map satisfies a universal property, see [[Ore localization]]. The Ore localization of monoids has been generalized to categories, see [[category of fractions]].
 
 If $R$ is a (unital) ring and $S\subset R$ is left Ore in a multiplicative monoid underlying $R$, then the addition on $S^{-1}R$ is also well defined, commutative and associative (checking all this is rather complicated) on $S^{-1}R$ such that the localization map is the map of rings and satisfies the universal property for the Ore localization of *rings*.
 
@@ -20,5 +37,19 @@ The left and right Ore conditions for rings were introduced by [[Øystein Ore]] 
 
 (nlab note: there are many results on Ore conditions which are independent from the study of Ore localization; thus the entries should be separated)
 
+## Related concepts
+
+* [[localization of a ring]]
+
+* [[Cohn localization]]
+
+* [[Ore localization]]
+
+## References
+
+* Wikipedia, *[Ore condition](https://en.wikipedia.org/wiki/Ore_condition)*
+
 [[!redirects Ore sets]]
 
+[[!redirects Ore subset]]
+[[!redirects Ore subsets]]
