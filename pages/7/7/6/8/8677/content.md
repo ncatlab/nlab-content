@@ -30,11 +30,11 @@ We can typically invert elements in a left or right Ore subset $S\subset R$ or m
 
 ### For general rings
 
-Let $R$ be a [[ring]] and $(S, 1, \cdot)$ be a multiplicative [[submonoid]] of $(R, 1, \cdot)$ with [[monoid]] [[monomorphism]] $i:S \hookrightarrow R$. The **localization** of $R$ at $S$ is defined as the [[initial object|initial]] ring $S^{-1} R$ with a ring homomorphism $h:R \to S^{-1} R$ and monoid homomorphism $j:S \to S^{-1} R$ such that for all $s \in S$, $j(s) \cdot h(i(s)) = 1$ and $h(i(s)) \cdot j(s) = 1$: for every other ring $A$ with a ring homomorphism $k:R \to A$ and monoid homomorphism $l:S \to A$ such that for all $s \in S$, $l(s) \cdot k(i(s)) = 1$ and $k(i(s)) \cdot l(s) = 1$, there is a unique ring homomorphism $g:S^{-1} R \to A$. 
+Let $S$ be a subset of a ring $R$.   A ring homomorphism $f:R \to A$ is _$S$-inverting_ if the image of $S$ is contained in the units of $A$, i.e. for every $s \in S$ there is a $t \in A$ so that $tf(s) = 1 = f(s) t$.   The _localization of $R$ with respect to $S$_ is a ring homomorphism $h : R \to R_S$ which is initial with respect to $S$-inverting ring homomorphisms.   The localization is therefore unique up to isomorphism.   It is a special case of [[universal localization]] and is the result of a formal construction. 
 
 The localization of a ring at a multiplicative submonoid $S$ which contains $0$ is the [[trivial ring]]. 
 
-See also at *[[Ore localization]]* or *[[noncommutative localization]]*.
+If $S$ is an [[Ore set]], then the localization of $R$ with respect to $S$ has an explicit description in terms of fractions, see  [[Ore localization]]. 
 
 
 
