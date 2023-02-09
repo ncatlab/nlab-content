@@ -320,31 +320,52 @@ So in summary, this page is about the _real, finite, located, standard, analytic
 
 ## References
 
+For more see the references at _[[analysis]]_.
+
 Review and history:
 
 * [[Leo Corry]], §10.5 in: *A Brief History of Numbers*, Oxford University Press (2015) &lbrack;[ISBN:9780198702597](https://global.oup.com/academic/product/a-brief-history-of-numbers-9780198702597)&rbrack;
 
-
-A formalization of the real numbers in [[homotopy type theory]] is in 
-
-* [[Univalent Foundations Project]], chapter 11 of _[[Homotopy Type Theory – Univalent Foundations of Mathematics]]_
-
-* Ga&#235;tan Gilbert, _Formalising Real Numbers in Homotopy Type Theory_ ([arXiv:1610.05072](https://arxiv.org/abs/1610.05072))
-
-For more see the references at _[[analysis]]_.
+As the [[coalgebra of the real interval]]:
 
 * {#PavlovicPratt} [[Dusko Pavlovic]], [[Vaughan Pratt]], _On coalgebra of real numbers_, Electronic Notes in Theoretical Computer Science **19** (1999) 103-117, doi:[10.1016/S1571-0661(05)80272-5](https://doi.org/10.1016/S1571-0661%2805%2980272-5), [CiteSeerx](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.5204)
+
+
+The definition of the real numbers in [[constructive analysis]] as [[Cauchy real numbers]], namely as [[regular sequences|regular]] [[Cauchy sequences]] of [[rational numbers]] is due to:
+
+* {#Bishop67} [[Errett Bishop]]: *[[Foundations of Constructive Analysis]]*, McGraw-Hill (1967)
+
+* [[Errett Bishop]], [[Douglas Bridges]]: *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
+
+Direct formalization of the definition from [Bishop (1967)](#Bishop67) in [[Agda]] is developed in
+
+* [[Martin Lundfall]], *Formalizing real numbers in Agda* (2015) &lbrack;<a href="https://wcl.cs.rpi.edu/pilots/library/papers/TAGGED/4211-Lundfall%20(2015)%20-%20Formalizing%20Real%20Numbers%20in%20Agda.pdf">pdf</a>, [[Lundfall-RealNumbersInAgda.pdf:file]]&rbrack;
+
+* [[Zachary Murray]], *Constructive Analysis in the Agda Proof Assistant* &lbrack;[arXiv:2205.08354](https://arxiv.org/abs/2205.08354), [github](https://github.com/z-murray/honours-project-constructive-analysis-in-agda)&rbrack;
+
+and closely related constructions in [[Coq]] have been implemented in 
+
+* {#KrebbersSpitters11} [[Robbert Krebbers]], [[Bas Spitters]], *Type classes for efficient exact real arithmetic in Coq*, Logical Methods in Computer Science, **9** 1 (2013) lmcs:958 &lbrack;[arXiv:1106.3448](http://arxiv.org/abs/1106.3448/), <a href="https://doi.org/10.2168/LMCS-9(1:1)2013">doi:10.2168/LMCS-9(1:1)2013</a>&rbrack;
+
+following a [[monad (in computer science)|monadic]] re-formulation (via the [[completion monad]]) due to
+
+* [[Russell O'Connor]], *A Monadic, Functional Implementation of Real Numbers*, Math. Struc. Comp. Sci. **17** 1 (2007) 129-159 &lbrack;[arXiv:cs/0605058](https://arxiv.org/abs/cs/0605058), [doi:10.1017/S0960129506005871](https://doi.org/10.1017/S0960129506005871)&rbrack;
+
+Further discussion:
+
+* [[Gaëtan Gilbert]], *Formalising Real Numbers in Homotopy Type Theory*, in *CPP 2017: Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs*  (2017) 112–124 &lbrack;[arXiv:1610.05072](https://arxiv.org/abs/1610.05072), [doi:10.1145/3018610.3018614](https://doi.org/10.1145/3018610.3018614)&rbrack;
+
+A novel construction principle of the type of real numbers, more intimately based on the notion of [[higher inductive types]] in [[univalence axiom|univalent]] [[homotopy type theory]], not reliant on representatives by sequences of [[rational numbers]], and with provable [[Cauchy completeness]] even without extra [[axioms of choice]] is laid out in
+
+* [[Univalent Foundations Project]]: Chapter 11 of:  *[[Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+but has not yet been implemented in any [[proof assistant]],
 
 Overview of implementation of real numbers in [[proof assistants]] (cf. [[constructive analysis]]):
 
 * Sylvie Boldo, Catherine Lelay, Guillaume Melquiond, *Formalization of Real Analysis: A Survey of Proof
 Assistants and Libraries*, Mathematical Structures in Computer Science **26** 7 (2016) 1196-1233  &lbrack;[hal:00806920](https://hal.inria.fr/hal-00806920v1), [doi:10.1017/S0960129514000437](https://doi.org/10.1017/S0960129514000437)&rbrack;
 
-implementation in [[Agda]]:
-
-* [[Martin Lundfall]], *Formalizing real numbers in Agda* (2015) &lbrack;<a href="https://wcl.cs.rpi.edu/pilots/library/papers/TAGGED/4211-Lundfall%20(2015)%20-%20Formalizing%20Real%20Numbers%20in%20Agda.pdf">pdf</a>, [[Lundfall-RealNumbersInAgda.pdf:file]]&rbrack;
-
-* [[Zachary Murray]], *Constructive Analysis in the Agda Proof Assistant* &lbrack;[arXiv:2205.08354](https://arxiv.org/abs/2205.08354), [github](https://github.com/z-murray/honours-project-constructive-analysis-in-agda)&rbrack;
 
  
 [[!redirects real number]]
