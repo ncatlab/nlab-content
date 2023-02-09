@@ -208,6 +208,10 @@ Even for Dedekind reals without $WCC$, we can always approximate a real number i
 
 ## References
 
+See also the references at *[[real number]]* and *[[constructive analysis]]*.
+
+Original articles:
+
 *  [[Georg Cantor]]; 1872; _[Ueber die Ausdehnung eines Satzes aus der Theorie der trigonometrischen Reihen](http://www.maths.tcd.ie/pub/HistMath/People/Cantor/Ausdehnung/)_; Section 1.
 
 *  [[Fred Richman]], Douglas Bridges, Peter Schuster; 1998; _A weak countable choice principle_; available from <http://math.fau.edu/richman/html/docs.htm>.
@@ -221,7 +225,7 @@ On why the modulated Cauchy real numbers are not [[sequentially Cauchy complete]
 * [[Robert Lubarsky]], _On the Cauchy Completeness of the Constructive Cauchy Reals_, [doi](https://doi.org/10.1016/j.entcs.2006.09.012)
  {#Lubarsky}
 
-* Auke Booij, *Extensional constructive real analysis via locators*, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
+* [[Auke Booij]], *Extensional constructive real analysis via locators*, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
 
 A [[constructive mathematics|constructive]] algebraic proof of the [[fundamental theorem of algebra]] for the [[modulated Cauchy real numbers]] without choice princples such as [[weak countable choice]]
 
