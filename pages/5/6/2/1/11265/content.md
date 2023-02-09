@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -31,9 +32,11 @@ Exact real computer arithmetic essentially implements what in mathematical [[com
 
 ## References
 
+
 For more see the references at *[[real number]]* and at *[[constructive analysis]]*.
 
-Discussion of implementation of exact real computer arithmetic includes
+* [[Chee-Keng Yap]], [[Thomas Dubé]], *The exact computation paradigm*,  in: *Computing in Euclidean Geometry*, Lecture Notes Series on Computing, World Scientific (1995) 452-492  &lbrack;[doi:10.1142/9789812831699_0011](https://doi.org/10.1142/9789812831699_0011), [[YapDube-ExactComputationParadigm.pdf:file]]&rbrack;
+
 
 * [[Jean Vuillemin]], *Exact real computer arithmetic with continued fractions*, in *LFP '88: Proceedings of the 1988 ACM conference on LISP and functional programming* (1988) 14–27 &lbrack;[doi:10.1145/62678.62681](https://doi.org/10.1145/62678.62681)&rbrack;
 
@@ -53,7 +56,7 @@ Discussion relating to [[computability theory]], [[Type Two Theory of Effectivit
 
 Efficient exact representations of [[pi]] and related [[irrational numbers]] ([[Bailey-Borwein-Plouffe algorithm]])
 
-* [[David Bailey]], [[Peter Borwein]], [[Simon Plouffe]]: *On the Rapid Computation of Various Polylogarithmic Constants*, Math. Comp. **66** (1997) 903-913 &lbrack;[doi:1997-66-218/S0025-5718-97-00856-9](https://www.ams.org/journals/mcom/1997-66-218/S0025-5718-97-00856-9)&rbrack;
+* [[David Bailey]], [[Peter Borwein]], [[Simon Plouffe]]: *On the Rapid Computation of Various Polylogarithmic Constants*, Math. Comp. **66** (1997) 903-913 &lbrack;[doi:1997-66-218/S0025-5718-97-00856-9](https://www.ams.org/journals/mcom/1997-66-218/S0025-5718-97-00856-9), [pdf](https://www.davidhbailey.com/dhbpapers/digits.pdf)&rbrack;
 
 further discussed in:
 
