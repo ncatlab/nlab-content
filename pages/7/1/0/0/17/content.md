@@ -1143,7 +1143,7 @@ This will tell Emacs to automatically edit nLab pages (and nCafe comments as wel
 
 ### How to print a page from the nLab
 
-If you just print it directly, the logo will become a huge blob that takes up the entire first page.  I know, we can and should fix this, but we haven\'t.  So for now, use the 'Print' link at the bottom of the page.  As a shortcut in most browsers on most operating systems, hit Alt-Shift-P while the focus is in the page to go to the printable page.
+Use the 'Print' link at the bottom of the page.  As a shortcut in most browsers on most operating systems, hit Alt-Shift-P while the focus is in the page to go to the printable page.
 
 ### How to customize the nLab
 
@@ -1158,9 +1158,9 @@ Currently, the following stylish themes are available:
 
 ### How to download a local copy of the nLab 
   {#download}
+
+A current git repository of the source code for nLab pages is available at <https://github.com/ncatlab/nlab-content> and a current git repository of the compiled HTML code for nLab pages is available at <https://github.com/ncatlab/nlab-content-html>.
  
 It is possible to download an SQL dump of the nLab database, from which both the nLab and nForum can be reconstructed. Some of us are running cron jobs to do this regularly. The more the merrier: if you are interested, please request that we create a user for you to be able to do this in the [nForum](https://nforum.ncatlab.org/discussions/?CategoryID=21), say in [this thread](https://nforum.ncatlab.org/discussion/8991/nlab-database-backups/?Focus=71715#Comment_71715).
-
-If you would like instead to download rendered nLab pages for local viewing, let us know as well at the nForum.
 
 category: meta
