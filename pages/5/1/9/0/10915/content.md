@@ -3,6 +3,7 @@
 * table of contents 
 {: toc}
 
+
 ## Idea
 
 The [[real number]] $\pi \in \mathbb{R}$ is the [[length]] of one [[hemisphere|semi-circle]] of the [[unit circle]]. Hence $2 \pi$ is the circumference of the full [[unit circle]].
@@ -169,8 +170,20 @@ The material on the Euler series for $\pi^{2 n}$ in terms of the zeta function w
 
 The proof of irrationality of $\pi$ given by Legendre is said to be given in the following treatise: 
 
-* A.-M. Legendre, _El&#233;ments de g&#233;om&#233;trie_ (11th edition), Note IV. F. Didot, Paris (1817). Translation by Charles Davies: ([web](http://quod.lib.umich.edu/cgi/t/text/text-idx?c=moa;idno=ABN7066.0001.001)) 
- {#Leg} 
+* {#Leg}  A.-M. Legendre, _El&#233;ments de g&#233;om&#233;trie_ (11th edition), Note IV. F. Didot, Paris (1817). Translation by Charles Davies: ([web](http://quod.lib.umich.edu/cgi/t/text/text-idx?c=moa;idno=ABN7066.0001.001)) 
+
+{#BBPFormulaReferences} On efficient representations in [[exact real computer arithmetic]] of [[pi]] and related [[irrational numbers]] ([[Bailey-Borwein-Plouffe algorithm]])
+
+* [[David Bailey]], [[Peter Borwein]], [[Simon Plouffe]]: *On the Rapid Computation of Various Polylogarithmic Constants*, Math. Comp. **66** (1997) 903-913 &lbrack;[doi:1997-66-218/S0025-5718-97-00856-9](https://www.ams.org/journals/mcom/1997-66-218/S0025-5718-97-00856-9), [pdf](https://www.davidhbailey.com/dhbpapers/digits.pdf)&rbrack;
+
+further discussed in:
+
+* [[Jerzy Karczmarczuk]], *Infinite precision real fractions, and lazy carry propagation* or: *The Most Unreliable Technique in the World to Compute $\pi$*, A Braga School (1998) &lbrack;[pdf](https://karczmarczuk.users.greyc.fr/arpap/lazypi.pdf), [[Karczmarczuk-Pi.pdf:file]]&rbrack;
+
+* [[Simon Plouffe]], *On the computation of the $n^{th}$ decimal digit of various transcendental numbers* &lbrack;[arXiv:0912.0303](https://arxiv.org/abs/0912.0303)&rbrack;
+
+* MathWorld, *[BBP-Type formula](https://mathworld.wolfram.com/BBP-TypeFormula.html)*    
+ 
 
 
 [[!redirects pi]]
