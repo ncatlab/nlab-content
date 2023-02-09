@@ -52,6 +52,10 @@ In particular, note that $J$ in a virtual duoidal category is a functor of multi
 
 Nearly all the definitions given below for duoidal categories (except for coduoids and colax/colax functors) make sense just as well for virtual ones.
 
+### Produoidal categories
+
+A [[produoidal category]] is a pair of pseudomonoids that interchange laxly (a *duoidale*) in the monoidal bicategory of [[profunctor|profunctors]]. Produoidal categories are the profunctorial analogue of duoidal categories, much in the same way that [[promonoidal category|promonoidal categories]] are the profunctorial analogue of monoidal categories.
+
 
 ## Examples
 
