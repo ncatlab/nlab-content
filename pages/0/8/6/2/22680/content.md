@@ -72,7 +72,7 @@ An absorption monoid $M$ is a [[division monoid]] if every non-invertible elemen
 
 An element $a \in M$ is a **regular element**, **cancellative element**, or **cancellable element** if for all elements $b \in M$ and $c \in M$, $b = c$ if and only if $a \cdot b = a \cdot c$ and $c \cdot a = c \cdot b$. 
 
-The set of regular elements $\mathrm{Reg}(M)$ in an absorption monoid $M$ is always closed under multiplicaiton; i.e. $\mathrm{Reg}(M)$ is a [[submonoid]] of $M$. 
+The set of regular elements $\mathrm{Reg}(M)$ in an absorption monoid $M$ is always closed under multiplication; i.e. $\mathrm{Reg}(M)$ is a [[submonoid]] of $M$. 
 
 ### Integral monoids
 
@@ -89,7 +89,7 @@ A absorption monoid is an Ore absorption monoid if $\mathrm{Reg}(M)$ is an Ore s
 
 ### Localization and group completion
 
-The [[localization of a monoid|localization]] of an absorption monoid at $0$ is the [[trivial group]]. Because of this, the [[group completion]] of any absorption monoid is the [[trivial group]]. This is why one speaks of [[division monoids]] instead of groups in the context of absorption monoids, and in particular, why the additive [[identity element]] in any [[trivial ring|nontrivial]] [[field]] has no multiplicative [[inverse]]. 
+The localization of an Ore integral monoid $M$ at $\mathrm{Reg}(M)$ is a [[division monoid]]. The [[localization of a monoid|localization]] of an absorption monoid at $0$ is the [[trivial group]]; thus, the [[group completion]] of any absorption monoid is the [[trivial group]]. 
 
 ### Actions and modules
 
