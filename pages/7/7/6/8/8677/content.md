@@ -19,8 +19,6 @@
 
 ## Idea
 
-### General
-
 Given a (possibly noncommutative) unital [[ring]] $R$ one may ask to universally force some [[subset]] $S$ of its elements to become multiplicatively [[invertible element|invertible]] in that there is a "localized" ring $S^{-1}R$ equipped with a [[universal construction|universal]] [[localization]] [[homomorphism]] $R\to S^{-1}R$ under which all elements in $S$ are mapped to [[units]]. 
 
 This is a special case of and generalizes to the notion of *[[Cohn localization]]* where one may also force certain [[matrices]] with [[coefficients]] in the ring to become invertible.
@@ -31,11 +29,7 @@ This [[Ore subset|Ore condition]] is automatic for [[commutative rings]] which l
 
 Another special case is known as *[[Martindale localization]]*.
 
-
-
 ## Definition
-
-### For general rings
 
 Let $S$ be any [[subset]] of a [[ring]] $R$.  
 
@@ -46,6 +40,8 @@ Then the _localization of $R$ with respect to $S$_ is a ring homomorphism $h \co
 By this defining [[universal property]] the localization is unique up to [[isomorphism]], when it exists.  Its existence is a special case of [[universal localization]]/[[Cohn localization]], a general abstract construction. 
 
 If $S$ is an [[Ore set]], then the localization of $R$ with respect to $S$ has an explicit description in terms of fractions, see at *[[Ore localization]]*. 
+
+If $S$ is a [[submonoid]] of the [[center]] $Z(R)$ of the multiplicative monoid of $R$, then the localization of $R$ at $S$ follows the same definition as that of [[localization of a commutative ring]]. 
 
 ## Examples
 
