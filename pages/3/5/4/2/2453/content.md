@@ -5,7 +5,7 @@
 
 ## Definition
 
-If $S\subset R$ is a left [[Ore set]] in a monoid (or a ring) $R$, then we call the pair $(j,S^{-1}R)$ where $j:R\to S^{-1}R$ is a morphism of monoids (rings) the __left Ore localization__ of $R$ with respect to $S$ if it is the  universal object in the category $C = C(R,S)$
+If $S\subset R$ is a left [[Ore set]] in a [[monoid]] (or a [[ring]]) $R$, then we call the pair $(j,S^{-1}R)$ where $j:R\to S^{-1}R$ is a morphism of monoids (rings) the __left Ore localization__ of $R$ with respect to $S$ if it is the  universal object in the category $C = C(R,S)$
 whose objects are the pairs $(f,Y)$ where $f : R \rightarrow Y$ is a morphism of rings from $R$ into a
 ring $Y$ such that the image $f(S)$ of $S$ consists of units (=multiplicatively invertible elements), and
 the morphisms $\alpha : (f,Y) \rightarrow (f',Y')$
@@ -50,6 +50,10 @@ The left Ore localization $j : R\to S^{-1}R$ induced a flat localization functor
 ## Related concepts
 
 * [[Ore domain]]
+
+* [[localization of a ring]]
+
+* [[Cohn localization]]
 
 ## References
 
