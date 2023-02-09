@@ -34,7 +34,7 @@
 
 ## Idea
 
-A **setoid** is a [[set]] equipped with a [[pseudo-equivalence relation]]. In the same way that [[magmoids]] are the raw structure used to build [[semicategories]] and [[pseudo-prosets]] are the raw structure used to build [[categories]], setoids are the raw structure used to build [[dagger categories]] and [[groupoids]] (i.e. a groupoid without associativity, unital laws, and inverse laws). Setoids are also sometimes used in "impoverished" [[foundations of mathematics]] that lack a primitive notion of [[quotient set]]; see for instance [[Bishop set]].
+A **setoid** is a [[set]] equipped with a [[pseudo-equivalence relation]]. In the same way that [[magmoids]] are the raw structure used to build [[semicategories]] and [[pseudo-prosets]] are the raw structure used to build [[categories]], setoids are the raw structure used to build [[dagger categories]] and [[groupoids]] (i.e. a groupoid without associativity, unital laws, and inverse laws). Setoids are also sometimes used in "impoverished" [[foundations of mathematics]] that lack a primitive notion of [[quotient set]]; see for instance *[[Bishop set]]*.
 
 ## Note on terminology
 
@@ -202,15 +202,26 @@ A similar result holds for [[SEAR plus epsilon|SEAR+$\epsilon$]].
 
 ## See also 
 
+* [[Bishop set]], [[quotient type]]
+
 * [[directed graph]]
+
 * [[pseudo-proset]]
+
 * [[equivalence relation]]
+
 * [[ex/lex completion]]
+
 * [[extensional function]]
+
 * [[dagger functor]]
+
 * [[presetoid]]
+
 * [[univalent setoid]]
+
 * [[setoid object]]
+
 * [[completely presented set]]
 
 [[!include oidification - table]]
@@ -221,13 +232,17 @@ A similar result holds for [[SEAR plus epsilon|SEAR+$\epsilon$]].
 
 ## References
 
-The notion goes to back the definition of sets in [[constructive mathematics]] according to
+The notion of "[[Bishop sets]]" goes to back the definition of sets in [[constructive mathematics]]/[[constructive analysis]] according to:
 
 * {#Bishop} [[Errett Bishop]], *[[Foundations of Constructive Analysis]]*, Mcgraw-Hill (1967)
 
 * [[Errett Bishop]], [[Douglas Bridges]], p. 15 of:  *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
 
-Review and formalization in [[type theory]]:
+The connection to [[dependent type theory]] and the term *setoid* is due to 
+
+* {#Hofmann95} [[Martin Hofmann]], §1.3, §5.1 in: _Extensional concepts in intensional type theory_, Ph.D. thesis, University of Edinburgh (1995), Distinguished Dissertations, Springer (1997) &lbrack;[ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]], [doi:10.1007/978-1-4471-0963-1](https://doi.org/10.1007/978-1-4471-0963-1)&rbrack;
+
+Survey of further developments:
 
 * Gilles Barthe, Venanzio Capretta, Olivier Pons, *Setoids in type theory*, Journal of Functional Programming **13** 2 (2003) 261-293 &lbrack;[doi:10.1017/S0956796802004501](https://doi.org/10.1017/S0956796802004501)&rbrack;
 
