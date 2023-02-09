@@ -29,13 +29,13 @@ $$f\colon colim_K lim_I D \to lim_I colim_K D$$
 induced using the universal property of $colim_K$ and $lim_I$ by the family of composites
 $$ lim_I D(-,k) \to D(i,k) \to colim_K D(i,-) $$
 of the limit projection for $i\in I$ and the colimit injection for $k\in K$.
-Recall that $I$-[[limits]] are said to [[commutativity of limits and colimits|commute]] with $K$-[[colimits]] if and only if $f$ is an [[isomorphism]] for any $D$.
+Recall that $I$-[[limits]] are said to [[commutativity of limits and colimits|commute]] with $K$-[[colimits]] if and only if $f$ is an [[isomorphism]] for all $D$.
 
 Now we note that $f$ factors as a [[composition]]
 $$colim_K lim_I D \xrightarrow{g} colim_{K^I} lim_I D' \xrightarrow{h} lim_I colim_K D.$$
 Here $K^I$ is the [[functor category]] and $D'\colon I\times K^I\to C$ is obtained from $D$ by [[precomposition]] with the functor $(\pi_1,ev) : I\times K^I \to I\times K$ that sends a pair $(i,s)$ to $(i,s(i))$.  The map $g$ is induced by the diagonal functor $K\to K^I$ sending each $k$ to the corresponding [[constant functor]], while $h$ is defined by the universal properties of $colim_{K^I}$ and $lim_I$ from the family of composites
 $$ lim_I D'(-,s) \to D'(i,s) = D(i,s(i)) \to colim_K D(i,-) $$
-of the limit projection for $i\in I$ and the colimit injection for $c(i)\in K$.  We say that **$I$-limits distribute over $K$-colimits** if $h$ is an isomorphism for any $D$.
+of the limit projection for $i\in I$ and the colimit injection for $c(i)\in K$.  We say that **$I$-limits distribute over $K$-colimits** if $h$ is an isomorphism for all $D$.
 
 More generally, we can allow $K$ to vary with $i$, becoming a functor $K\colon I\to Cat$.  Now instead of $K^I$ we use the limit category $lim_I K$, and the diagram $D$ is defined on the [[Grothendieck construction]] ([[lax colimit]]) $\int^I K$.  We recover the above definition when $K$ is a [[constant functor]].
 
