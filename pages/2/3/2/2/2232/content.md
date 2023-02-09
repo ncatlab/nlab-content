@@ -34,6 +34,10 @@ Let $C$ be an object in a [[2-category]]. The center of $C$, $Z(C)$ is the [[mon
 
 One can invoke the [[Eckmann-Hilton argument]] to prove that vertical and horizontal composition agree on $Z(C)$ and are commutative. 
 
+### Of rings
+
+The __center__ $Z(R)$ of a [[ring]] $R$ is defined to be the [[multiplicative subset]] consisting of all elements $r \in R$ such that for all elements $s \in R$, $r \cdot s = s \cdot r$ is true. $R$ is a [[commutative ring]] if $R$ is isomorphic to $Z(R)$. 
+
 ### Of Lie algebras
 
 The __center of a [[Lie algebra]]__ $L$ is an abelian Lie subalgebra $Z(L)$, consisting of all elements $ z\in L$ such that $[l,z]=0$ for all $l\in L$. There are generalizations for some other kinds of algebras.
