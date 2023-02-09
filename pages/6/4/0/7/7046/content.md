@@ -13,7 +13,11 @@ On the [[categorical semantics]] of well-founded [[inductive types]] ([[W-types|
 
 On [[set theory]] in [[constructive mathematics]] via [[Bishop sets]] and constructive [[ETCS]]:
 
+* {#Palmgren05} [[Erik Palmgren]],  _Bishop's set theory_ (2005) &lbrack;[pdf](http://www.cse.chalmers.se/research/group/logic/TypesSS05/Extra/palmgren.pdf), [[Palmgren-BishopSetTheory.pdf:file]]&rbrack;
+
 * [[Erik Palmgren]], _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_, Annals of Pure and Applied Logic **163** 10 (2012) 1384-1399 (2009) &lbrack;[doi:10.1016/j.apal.2012.01.011](https://doi.org/10.1016/j.apal.2012.01.011), [arXiv:1201.6272](https://arxiv.org/abs/1201.6272)&rbrack;
+
+* [[Erik Palmgren]], *Bishop-style constructive mathematics in type theory -- a tutorial* (2013) &lbrack;[pdf](https://staff.math.su.se/palmgren/Palmgren_Nis.pdf), [[Palmgren-BishopConstructiveMathematics.pdf:file]]&rbrack;
 
 
 On [[FOLDS]]:
