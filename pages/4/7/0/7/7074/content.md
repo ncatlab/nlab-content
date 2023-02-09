@@ -74,7 +74,7 @@ fibration" should be defined using right homot equivs.
 
 ## Related concepts
 
-* [[setoid]]
+* [[setoid]]/[[Bishop set]]
 
 * [[quotient]]
 
@@ -84,6 +84,14 @@ fibration" should be defined using right homot equivs.
 
 ## References
 
+On the convoluted history of the notion of quotient types, from [[setoids]]/[[Bishop sets]] to [[higher inductive types]] and in [[univalent foundations of mathematics]]:
+
+* Nuo Li, *Quotient Types in Type Theory*, Nottingham (2014) &lbrack;[pdf](https://eprints.nottingham.ac.uk/28941/1/Nuo%20Li%27s_Thesis.pdf), [oai:eprints.nottingham.ac.uk:28941](https://core.ac.uk/display/33573841), [[Li-QuotientTypes.pdf:file]]&rbrack;
+
+* {#Murray22} [[Zachary Murray]], §4.3.2 in: *Constructive Analysis in the Agda Proof Assistant* &lbrack;[arXiv:2205.08354](https://arxiv.org/abs/2205.08354), [github](https://github.com/z-murray/honours-project-constructive-analysis-in-agda)&rbrack;
+
+
+
 ### As a higher inductive type
 
 As [[higher inductive types]]:
@@ -91,7 +99,7 @@ As [[higher inductive types]]:
 * {#HofmannThesis} [[Martin Hofmann]], p. 111 in: _Extensional concepts in intensional type theory_, Ph.D. thesis, University of Edinburgh (1995), Distinguished Dissertations, Springer (1997) &lbrack;[ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]], [doi:10.1007/978-1-4471-0963-1](https://doi.org/10.1007/978-1-4471-0963-1)&rbrack;
 
 
-* {#Maietti99} [[Maria Emilia Maietti]], *About effective quotients in constructive type theory*, in "Types for proofs and programs", 1999
+* {#Maietti99} [[Maria Emilia Maietti]], *About effective quotients in constructive type theory*, in "Types for proofs and programs" (1999)
 
 * [[Thorsten Altenkirch]], [[Paolo Capriotti]], [[Gabe Dijkstra]], [[Nicolai Kraus]], [[Fredrik Forsberg]], *Quotient inductive-inductive types*, Foundations of Software Science and Computation Structures (FoSSaCS 2018), Lecture Notes in Computer Science **10803** (2018) &lbrack;[doi:10.1007/978-3-319-89366-2_16](https://doi.org/10.1007/978-3-319-89366-2_16), [arXiv:1612.02346](https://arxiv.org/abs/1612.02346)&rbrack;
 
@@ -122,9 +130,7 @@ originally comes from
 The relevant section there is 2.4 "Voevodsky's impredicative
 quotients", see def. 2.24 and the lines right below.
 
-Review of this and related constructions:
 
-* Nuo Li, *Quotient Types in Type Theory*, Nottingham (2014) &lbrack;[pdf](https://eprints.nottingham.ac.uk/28941/1/Nuo%20Li%27s_Thesis.pdf), [oai:eprints.nottingham.ac.uk:28941](https://core.ac.uk/display/33573841), [[Li-QuotientTypes.pdf:file]]&rbrack;
 
 The [[categorical semantics]]-version of the argument for colimits from a [[subobject classifier]] in an [[elementary topos]] is due to
 
