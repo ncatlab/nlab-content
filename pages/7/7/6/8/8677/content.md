@@ -21,13 +21,13 @@
 
 ### General
 
-Given a (possibly noncommutative) unital [[ring]] $R$ there are many situations when certain elements or matrices can be inverted in a universal way obtaining a new "localized" ring $S^{-1}R$ equipped with a [[localization]] [[homomorphism]] $R\to S^{-1}R$ under which all elements in $S$ are mapped to multiplicatively [[invertible elements]] ([[units]], hence elements of the [[group of units]]). 
+Given a (possibly noncommutative) unital [[ring]] $R$ one may ask to universally force some [[subset]] $S$ of its elements to become multiplicatively [[invertible element|invertible]] in that there is a "localized" ring $S^{-1}R$ equipped with a [[universal construction|universal]] [[localization]] [[homomorphism]] $R\to S^{-1}R$ under which all elements in $S$ are mapped to [[units]]. 
 
 This is a special case of and generalizes to the notion of *[[Cohn localization]]* where one may also force certain [[matrices]] with [[coefficients]] in the ring to become invertible.
 
-Often one inverts elements in a left or right [[Ore subset]] $S\subset R$ in which case the localized ring is expressed by fractions as naively expected, called *[[Ore localization]]*. 
+Often one inverts elements in a left or right [[Ore subset]] $S\subset R$ in which case the localized ring is expressed by fractions as naively expected, in which case one speaks of *[[Ore localization]]*. 
 
-The Ore-condition is automatic for [[commutative rings]] which leads to the notion of *[[localization of a commutative ring]]*.
+This [[Ore subset|Ore condition]] is automatic for [[commutative rings]] which leads to the notion of *[[localization of a commutative ring]]*.
 
 Another special case is known as *[[Martindale localization]]*.
 
@@ -55,10 +55,22 @@ If $S$ is an [[Ore set]], then the localization of $R$ with respect to $S$ has a
 
 ## References
 
-See the references at *[[Cohn localization]]*, also at *[[noncommutative localization]]*.
+See the references at *[[Cohn localization]]*, going back to
+
+* [[Paul M. Cohn]], _Free rings and their relations_, Academic Press (1971) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/cohnfree.pdf)&rbrack;
+
+* [[Paul M. Cohn]], _Inversive localization in noetherian rings_, Communications on Pure and Applied Mathematics __26__ 5-6 (1973 ) 679-691 &lbrack;[doi:10.1002/cpa.3160260510](http://dx.doi.org/10.1002/cpa.3160260510)&rbrack; 
+
+with more discussion in:
+
+* [[V. Retakh]], R. Wilson, _Advanced course on quasideterminants and universal localization_ (2007) &lbrack;[[RetakhWilson-Quasideterminants.pdf:file]]&rbrack; 
+
+*  [[Andrew Ranicki]] (ed.),  _Noncommutative localization in algebra and topology_, (Proceedings of Conference at ICMS, Edinburgh, 29-30 April 2002) London Math. Soc. Lecture Notes Series **330** Cambridge University Press (2006) &lbrack;[pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)&rbrack;
+
+
+and see also at *[[noncommutative localization]]*.
 
 For references on the [[localization of commutative rings]] see [there](localization+of+a+commutative+ring#References).
-
 
 See also:
 
