@@ -45,14 +45,13 @@ Let $R$ be a [[commutative ring]]. Let $S \hookrightarrow U(R)$ be a [[multiplic
 
 The following gives the [[universal property]] of the localization.
 
-+-- {: .num_defn #UniversalPropertyOfLocalizationOfARing}
-###### Definition
-
+\begin{definition}
+{#UniversalPropertyOfLocalizationOfARing}
 The **localization** $L_S \colon R \to R[S^{-1}]$ is a [[homomorphism]] to another commutative ring $R[S^{-1}]$ such that 
 
-1. for all elements $s \in S \hookrightarrow R$ the image $L_S(s) \in R[S^{-1}]$ is invertible (is a [[unit]]);
+* for all elements $s \in S \hookrightarrow R$ the image $L_S(s) \in R[S^{-1}]$ is invertible (is a [[unit]]);
 
-1. for every other homomorphism $R \to \tilde R$ with this property, there is a unique [[homomorphism]] $R[S^{-1}] \to \tilde R$ such that we have a [[commuting diagram]]
+* for every other homomorphism $R \to \tilde R$ with this property, there is a unique [[homomorphism]] $R[S^{-1}] \to \tilde R$ such that we have a [[commuting diagram]]
 
    $$
      \array{
@@ -64,24 +63,17 @@ The **localization** $L_S \colon R \to R[S^{-1}]$ is a [[homomorphism]] to anoth
      }
      \,.
    $$
-
-=--
+\end{definition}
 
 The special case of inverting an element $r$ of $R$, in which $S$ is the set $\{ r, r^{2}, r^{3}, \ldots \}$, is discussed at [[localisation of a commutative ring at an element]]. See also for example [Sullivan 70, first pages](#Sullivan70).
 
-+-- {: .num_remark }
-###### Remark
-
+\begin{remark}
 The [[Isbell duality|formal duals]] $Spec(R[S^{-1}]) \longrightarrow Spec(R)$ of the localization maps $R \longrightarrow R[S^{-1}]$ (under forming [[spectrum of a commutative ring|spectra]]) serve as the standard [[open immersion of schemes|open immersions]] that define the [[Zariski topology]] on [[algebraic varieties]].
-
-=--
+\end{remark}
 
 Explicitly:
 
-+-- {: .num_defn }
-###### Definition
-
-
+\begin{definition}
 The localization of a [[commutative ring]] $R$ at a [[multiplicative subset]] $S$ is the [[commutative ring]] whose underlying  [[set]] is the set of [[equivalence classes]] on $R \times S$ under the [[equivalence relation]]
 
 $$
@@ -103,13 +95,13 @@ $$
   (r_1 s_1^{-1})(r_2 s_2^{-1}) \coloneqq r_1 r_2 (s_1 s_2)^{-1}
   \,.
 $$
-
-
-=--
+\end{definition}
 
 (e.g. [[The Stacks Project|Stacks Project, def. 10.9.1]])
 
-
+\begin{remark}
+The above definitions also work for non-commutative [[rings]] $R$ as well, so long as the [[multiplicative subset]] $S$ is a [[submonoid]] of the [[center]] $Z(R)$ of the multiplicative monoid of $R$. 
+\end{remark}
 
 ### For $E_\infty$-rings
  {#ForEInfinityRings}
