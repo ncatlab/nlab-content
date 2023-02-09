@@ -66,7 +66,7 @@ in [[dependent type theory]] with [[quotient types]] (such as [[homotopy type th
 
 Here we use the notation for [[dependent functions]], [[dependent pairs]] and their [[type telescopes]] from *[[dependent functions and dependent pairs -- table]]*.
 
-Throughout we omit displaying the certificates of [[identification type]] involved ([[associativity]] etc.). Mostly their construction is immediate, a little thought is required only for the [[real numbers]]: We show the "regular Cauchy real number type" due to [Bishop (1967)](#Bishop67); the ideas for obtaining the required identification certificates may be found in [Bishop (1967, pp. 15)](#Bishop67) and [Bishop & Bridges (1985, pp. 18)](#BishopBridges85), full formalization in [[Agda]] is in [Lundfall (2015)](#Lundfall15),  [Murray (2022)](#Murray22).
+Throughout we omit displaying the certificates of [[identification type]] involved ([[associativity]] etc.). Mostly their construction is immediate, a little thought is required only for the [[convergence of a sequence|convergence]] certificates of the operations on the [[real numbers]]: We show the "regular Cauchy real number type" due to [Bishop (1967)](#Bishop67); the ideas for obtaining the required identification certificates may be found in [Bishop (1967, pp. 15)](#Bishop67) and [Bishop & Bridges (1985, pp. 18)](#BishopBridges85), full formalization in [[Agda]] is in [Lundfall (2015)](#Lundfall15),  [Murray (2022)](#Murray22).
 
 For $X \,\colon\, Set$ and $P \colon X \to Prop$ an [[equivalence relation]] with [corresponding](dependent+type#TypeBundlesReflectedInTypeUniverse) $R \,\coloneqq\, (x \colon X) \times P(x)$, we write
 
