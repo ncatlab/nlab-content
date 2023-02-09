@@ -27,7 +27,7 @@
 
 ## Idea
 
-A _Bishop set_ is a notion of _[[set]]_ in [[constructive mathematics]], commonly used in [[Bishop's constructive mathematics]].
+A _Bishop set_ is a notion of _[[set]]_ in [[constructive mathematics]], commonly used in [[Bishop's constructive mathematics]] (cf. [[constructive analysis]]).
 
 In ([Bishop](#Bishop)) the notion of _[[set]]_ is specified by stating that a set has to be given by a description of how to build [[elements]] of this set and by giving a binary [[relation]] of [[equality]], which has to be an [[equivalence relation]]. 
 
@@ -47,7 +47,7 @@ Frequently, the type theories used for this purpose do not even have a separate 
 
 For example, see ([Palmgren05](#Palmgren05)) for an exposition and ([Coquand-Spiwack, section 3](#CoquandSpiwack)) for a brief list of the axioms.
 
-In the context of type theory a Bishop set is sometimes called a __[[setoid]]__.
+In the context of [[type theory]] Bishop sets are also called _[[setoids]]_.
 
 
 ## Properties
@@ -68,54 +68,55 @@ This is ([van den Berg, theorem 6.2](#vdBerg)), based on ([Moerdijk-Palmgren, se
 
 ## Related concepts
 
+* [[setoid]], [[quotient type]]
+
+* [[constructive mathematics]]
+
 * [[ETCS]]
 
 [[!include oidification - table]]
 
-[[!include types and logic - table]]
 
 
 
 ## References
 
-The original publication is 
+The original texts, with focus on [[constructive analysis]]:
 
-* [[Errett Bishop]], _Foundations of Constructive Analysis_. New York: McGraw-Hill (1967)
- {#Bishop}
+* {#Bishop} [[Errett Bishop]]: *[[Foundations of Constructive Analysis]]*, McGraw-Hill (1967)
 
-in the context of [[constructive analysis]]. A detailed discussion is in 
+* [[Errett Bishop]], [[Douglas Bridges]]: *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
 
-* M. Hofmann, _Extensional constructs in Intensional Type theory_, Springer (1997)
+Discussion of Bishop sets --- under the name *[[setoids]]* ---  as [[categorical semantics]] for [[dependent type theory]]:
 
-Reviews include
+* {#Hofmann95} [[Martin Hofmann]], _Extensional concepts in intensional type theory_, Ph.D. thesis, University of Edinburgh (1995), Distinguished Dissertations, Springer (1997) &lbrack;[ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]], [doi:10.1007/978-1-4471-0963-1](https://doi.org/10.1007/978-1-4471-0963-1)&rbrack;
 
-* [[Erik Palmgren]],  _Bishop's set theory_ (2005) ([pdf](http://www.cse.chalmers.se/research/group/logic/TypesSS05/Extra/palmgren.pdf))
- {#Palmgren05}
+Review and relation to [[ETCS]]:
 
-* [[Erik Palmgren]], _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_ (2009) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.158.8166)) 
+* {#Palmgren05} [[Erik Palmgren]],  _Bishop's set theory_ (2005) &lbrack;[pdf](http://www.cse.chalmers.se/research/group/logic/TypesSS05/Extra/palmgren.pdf), [[Palmgren-BishopSetTheory.pdf:file]]&rbrack;
 
+* [[Erik Palmgren]], _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_, Annals of Pure and Applied Logic **163** 10 (2012) 1384-1399 (2009) &lbrack;[doi:10.1016/j.apal.2012.01.011](https://doi.org/10.1016/j.apal.2012.01.011), [arXiv:1201.6272](https://arxiv.org/abs/1201.6272)&rbrack;
 
-The formalization of Bishop set is reviewed for instance in section 3 of 
+* [[Erik Palmgren]], *Bishop-style constructive mathematics in type theory -- a tutorial* (2013) &lbrack;[pdf](https://staff.math.su.se/palmgren/Palmgren_Nis.pdf), [[Palmgren-BishopConstructiveMathematics.pdf:file]]&rbrack;
 
-* [[Thierry Coquand]], [[Arnaud Spiwack]], _Towards constructive homological algebra in type theory_ ([pdf](https://hal.inria.fr/inria-00432525/document))
- {#CoquandSpiwack}
+The term "Bishop set" and their formalization in [[type theory]] (essentially as for [[setoids]], but not mentioning this term) appears (in a context of formalization of [[homological algebra]]) in:
 
-(there with an eye towards further formalization of [[homological algebra]]).
+* {#CoquandSpiwack} [[Thierry Coquand]], [[Arnaud Spiwack]], section 3 of: *Towards constructive homological algebra in type theory*, in: *Towards Mechanized Mathematical Assistants. MKM Calculemus 2007*,  Lecture Notes in Computer Science **4573** Springer (2007) &lbrack;[doi:10.1007/978-3-540-73086-6_4](https://doi.org/10.1007/978-3-540-73086-6_4), [pdf](https://hal.inria.fr/inria-00432525/document)&rbrack;
 
 Some of the text above is taken from this section.
 
 The [[predicative topos]] formed by Bishop sets in type theory is discussed in 
 
-* [[Ieke Moerdijk]], [[Erik Palmgren]], _Wellfounded trees in categories. Ann. Pure Appl. Logic, 104(1-3):189&#8211;218, (2000)
- {#MoerdijkPalmgren}
+* {#MoerdijkPalmgren} [[Ieke Moerdijk]], [[Erik Palmgren]], _Wellfounded trees in categories. Ann. Pure Appl. Logic, 104(1-3):189&#8211;218, (2000)
+ 
 
 * [[Benno van den Berg]], _Predicative toposes_  ([arXiv:1207.0959](http://arxiv.org/abs/1207.0959))
  {#vdBerg}
 
 A formalization of constructive set theory in terms of setoids in [[intensional type theory|intensional]] [[type theory]] coded in [[Coq]] is discussed in 
 
-* [[Erik Palmgren]], Olov Wilander, _Constructing categories of setoids in type theory_, ([pdf](http://www2.math.su.se/~palmgren/coq/czf_and_setoids/czf&setoids.pdf), [Coq](http://www2.math.su.se/~palmgren/coq/czf_and_setoids))
- {#PalmgrenWilander}
+* {#PalmgrenWilander} [[Erik Palmgren]], Olov Wilander, _Constructing categories of setoids in type theory_, ([pdf](http://www2.math.su.se/~palmgren/coq/czf_and_setoids/czf&setoids.pdf), [Coq](http://www2.math.su.se/~palmgren/coq/czf_and_setoids))
+ 
 
 See also 
 
