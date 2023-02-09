@@ -1,6 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
 # Produoidal category
-* this block creates the table of contents, leave as is
+* table of contents
 {: toc}
 
 ## Idea
@@ -40,3 +51,4 @@ The first mention of produoidal categories as a duoidale seems to be:
 A explicit unpacking of the definition, along with examples including the category of [[optic (in computer science)|optics]] appears in
 
  * [[Matt Earnshaw]], [[James Hefford]], [[Mario Román]]. _The Produoidal Algebra of Process Decomposition_ ([link](https://arxiv.org/abs/2301.11867)).
+
