@@ -9,13 +9,29 @@
 =--
 =--
 
-* [[Eric Schechter]], 
 
-  _Handbook of Analysis and its Foundations_
+This page compiles pointers related to:
+
+
+* [[Eric Schechter]]:
+
+  \linebreak
+
+  **Handbook of Analysis and its Foundations**
+
+  \linebreak
 
   Academic Press (1996)
 
-  ([errata](http://www.math.vanderbilt.edu/~schectex/ccc/addenda/))
+  \linebreak
+
+  [doi:10.1016/B978-0-12-622760-4.X5000-6](https://doi.org/10.1016/B978-0-12-622760-4.X5000-6)
+
+  [webpage](https://math.vanderbilt.edu/schectex/ccc/)
+
+  [pdf](http://staffwww.dcs.shef.ac.uk/people/R.Chisholm/docs/Eric%20Schechter%20Handbook%20of%20Analysis%20and%20Its%20Foundations%20%201996.pdf)
+  
+  [errata](http://www.math.vanderbilt.edu/~schectex/ccc/addenda/)
 
 on [[analysis]].
 
