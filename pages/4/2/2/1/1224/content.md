@@ -54,7 +54,7 @@ The following conditions are equivalent.
 
 1. $F$ is final.
 
-1. For all functors $G : D \to Set$ the natural [[function]] between [[colimit]]s
+1. {#AnItem} For all functors $G : D \to Set$ the natural [[function]] between [[colimit]]s
 
    $$
      \lim_\to G \circ F \to \lim_{\to} G
