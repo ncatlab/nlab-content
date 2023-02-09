@@ -6,9 +6,14 @@
 
 Om [[synthetic topology]]:
 
-* [[Martín Escardó]], _Synthetic topology of data types and classical spaces_, ([pdf](http://www.cs.bham.ac.uk/~mhe/papers/barbados.pdf))
+* [[Martín Escardó]], _Synthetic topology of data types and classical spaces_  &lbrack;[pdf](http://www.cs.bham.ac.uk/~mhe/papers/barbados.pdf)&rbrack;
 
-* [[Martín Escardó]], {#EscardoPopl2012} _The topology of Seemingly impossible functional programs_, ([pdf](http://www.cs.bham.ac.uk/~mhe/.talks/popl2012/escardo-popl2012.pdf))
+* [[Martín Escardó]], {#EscardoPopl2012} _The topology of Seemingly impossible functional programs_ (2012) &lbrack;[pdf](http://www.cs.bham.ac.uk/~mhe/.talks/popl2012/escardo-popl2012.pdf)&rbrack;
+
+On [[exact real computer arithmetic]]:
+
+* Dave Plume (supervised by [[Martín Escardó]], [[Alex Simpson]]): *A Calculator for Exact Real Number Computation*, University of Edinburgh  (1998) &lbrack;[web](https://www.dcs.ed.ac.uk/home/mhe/plume/)&rbrack;
+
 
 On [[differential calculus]] via [[coinduction]]:
 
