@@ -44,7 +44,8 @@ engl. transl. __21__ (1991), pp. 51--58.
 * D.Krob, B.Leclerc, _Minor identities for quasi-determinants and quantum determinants_, Comm.Math.Phys. 169 (1995), pp. 1--23 [doi](https://doi.org/10.1007/BF02101594)
 
 * Chapter 16: Quasideterminants and Cohn localization in [[Z. Škoda]], _Noncommutative localization in noncommutative geometry_, London Math. Society Lecture Note Series 330, ed.  A. Ranicki; pp. 220--313, [arXiv:math.QA/0403276](http://arxiv.org/abs/math/0403276))
-* [[V. Retakh]], R. Wilson, _Advanced course on quasideterminants and universal localization_,  124 pp, CRM, Barcelona, 2007 [pdf](http://castellet.cat/Publications/quaderns/Quadern41.pdf); citeseer cashed [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.123.3499&rep=rep1&type=pdf)
+
+* [[V. Retakh]], R. Wilson, _Advanced course on quasideterminants and universal localization_ (2007) &lbrack;[[RetakhWilson-Quasideterminants.pdf:file]]&rbrack; 
 
 category: algebra
 [[!redirects quasideterminants]]
