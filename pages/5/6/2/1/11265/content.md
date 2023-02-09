@@ -31,13 +31,15 @@ Exact real computer arithmetic essentially implements what in mathematical [[com
 
 ## References
 
+For more see the references at *[[real number]]* and at *[[constructive analysis]]*.
+
 Discussion of implementation of exact real computer arithmetic includes
 
 * Peter Potts, Abbas Edalat, _Exact real computer arithmetic_, 1997 [pdf](http://www.doc.ic.ac.uk/research/technicalreports/1997/DTR97-9.pdf)
 
 Discussion relating to [[computability theory]], [[Type Two Theory of Effectivity]] and [[constructive analysis]]/[[computable analysis]] includes
 
-* Herman Geuvers, Milad Niqui, [[Bas Spitters]], [[Freek Wiedijk]], _Constructive analysis, types and exact real numbers_, 2006 ([pdf](http://www.cs.ru.nl/~spitters/editorial.pdf))
+* [[Herman Geuvers]], Milad Niqui, [[Bas Spitters]], [[Freek Wiedijk]], _Constructive analysis, types and exact real numbers_, 2006 ([pdf](http://www.cs.ru.nl/~spitters/editorial.pdf))
 
 * The Haskell Wiki, _[Exact real arithmetic](http://www.haskell.org/haskellwiki/Exact_real_arithmetic)_
 
