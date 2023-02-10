@@ -201,9 +201,15 @@ Even for Dedekind reals without $WCC$, we can always approximate a real number i
 ## See also ##
 
 * [[generalized Cauchy real number]]
+
 * [[HoTT book real number]]
+
+* [[Dedekind real number]]
+
 * [[Eudoxus real number]]
+
 * [[prealgebra real number]]
+
 * [[locator]]
 
 ## References
@@ -216,14 +222,15 @@ Original articles:
 
 *  [[Fred Richman]], Douglas Bridges, Peter Schuster; 1998; _A weak countable choice principle_; available from <http://math.fau.edu/richman/html/docs.htm>.
 
-On why Cauchy sequences with a modulus of convergence are sequentially Cauchy complete. 
+On why Cauchy sequences with a modulus of convergence are [[sequentially Cauchy complete]]: 
 
-*  [[Fred Richman]]; 1998; _The fundamental theorem of algebra: a constructive development without choice_; available from <http://math.fau.edu/richman/html/docs.htm>.
+* [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice* (1998) &lbrack;[pdf](http://math.fau.edu/richman/docs/Fta.pdf)&rbrack;
 
 On why the modulated Cauchy real numbers are not [[sequentially Cauchy complete]]
 
-* [[Robert Lubarsky]], _On the Cauchy Completeness of the Constructive Cauchy Reals_, [doi](https://doi.org/10.1016/j.entcs.2006.09.012)
- {#Lubarsky}
+* {#Lubarsky} [[Robert Lubarsky]], _On the Cauchy Completeness of the Constructive Cauchy Reals_, Electronic Notes in Theoretical Computer Science **167** (2007) 225-254 &lbrack;[doi:10.1016/j.entcs.2006.09.012](https://doi.org/10.1016/j.entcs.2006.09.012)&rbrack;
+ 
+See also
 
 * [[Auke Booij]], *Extensional constructive real analysis via locators*, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
 
@@ -231,11 +238,18 @@ A [[constructive mathematics|constructive]] algebraic proof of the [[fundamental
 
 * Wim Ruitenberg, Constructing Roots of Polynomials over the Complex Numbers, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract, Vol. 84, Centre for Mathematics and Computer Science, Amsterdam, 1991, pp. 107–128. ([pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf))
 
-Formalization of Cauchy real numbers in [[homotopy type theory]] is discussed in 
 
-* [[Egbert Rijke]], [[Bas Spitters]], _Cauchy reals in the univalent foundations_ (talk notes, May 2013) ([pdf](http://www.cs.ru.nl/~spitters/presentation_reals.pdf))
-* {#Booij20} Auke B. Booij, Analysis in univalent type theory ([pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf))
-* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+A novel construction principle of the type of real numbers, as a [[higher inductive-inductive type]] in [[univalence axiom|univalent]] [[homotopy type theory]], not reliant on representatives by sequences of [[rational numbers]], and with provable [[Cauchy completeness]] even without extra [[axiom of countable choice]] is laid out (cf. *[[HoTT book real numbers]]*) in
+
+* [[Univalent Foundations Project]]: Chapter 11 of:  *[[Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+but has not yet been implemented in any [[proof assistant]],
+
+See also:
+
+* {#Booij20} [[Auke B. Booij]], *Analysis in univalent type theory* &lbrack;[pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)&rbrack;
+
+
 
 [[!redirects Cauchy real number]]
 [[!redirects Cachy real number]]
