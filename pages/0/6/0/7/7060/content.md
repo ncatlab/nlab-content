@@ -118,6 +118,8 @@ is the type of all propositions.
 
 ## Related concepts
 
+* [[dominance]]
+
 * [[propositional extensionality]]
 
 * [[subobject classifier]]
