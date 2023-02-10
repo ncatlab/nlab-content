@@ -64,23 +64,23 @@ A __filter of subsets__ of a given set $S$ is a filter in the [[power set]] of $
 
 ### In homotopy type theory
 
-Let $S$ be a [[set]], $Prop_{\mathcal{U}(i)}$ be the type of [[propositions]] in a [[universe]], and $Prop_{\mathcal{U}(s(i))}$ be the type of propositions in a successor universe. Then a filter on $S$ is a [[predicate]] $F:(S \to Prop_{\mathcal{U}(i)}) \to Prop_{\mathcal{U}(s(i))}$ with dependent functions
+Let $S$ be a [[set]] and $\mathrm{Prop}_{U}$ and $\mathrm{Prop}_{V}$ be the type of [[propositions]] in a [[Tarski universe]] $(U, T_U)$ and $(V, T_V)$ respectively. Then a filter on $S$ is a [[predicate]] $F:(S \to \mathrm{Prop}_{U}) \to \mathrm{Prop}_{V}$ with dependent functions
 
-$$p:\prod_{a:S \to Prop_{\mathcal{U}(i)}} \prod_{b:S \to Prop_{\mathcal{U}(i)}} (a = a \wedge b) \times \mathcal{T}_{\mathcal{U}(i)}(F(a)) \to \mathcal{T}_{\mathcal{U}(i)}(F(b))$$
+$$p:\prod_{a:S \to \mathrm{Prop}_{U}} \prod_{b:S \to \mathrm{Prop}_{U}} (a = a \wedge b) \times T_{V}(F(a)) \to T_{V}(F(b))$$
 
-$$q:\left[\sum_{a:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(a))\right]$$
+$$q:\left[\sum_{a:S \to \mathrm{Prop}_{U}} T_{V}(F(a))\right]$$
 
-$$r:\left[\sum_{a:S \to Prop_{\mathcal{U}(i)}} \sum_{b:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(a)) \times \mathcal{T}_{\mathcal{U}(i)}(F(b)) \to \left[\sum_{c:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(c)) \times (c = c \wedge a) \times (c = c \wedge b)\right]\right]$$
+$$r:\left[\sum_{a:S \to \mathrm{Prop}_{U}} \sum_{b:S \to \mathrm{Prop}_{U}} T_{V}(F(a)) \times T_{V}(F(b)) \to \left[\sum_{c:S \to \mathrm{Prop}_{U}} T_{V}(F(c)) \times (c = c \wedge a) \times (c = c \wedge b)\right]\right]$$
 
 The filter properties could also be turned into structure:
 
-A filter structure on $S$ is a [[predicate]] $F:(S \to Prop_{\mathcal{U}(i)}) \to Prop_{\mathcal{U}(s(i))}$ with dependent functions
+A filter structure on $S$ is a [[predicate]] $F:(S \to \mathrm{Prop}_{U}) \to \mathrm{Prop}_{V}$ with dependent functions
 
-$$p:\prod_{a:S \to Prop_{\mathcal{U}(i)}} \prod_{b:S \to Prop_{\mathcal{U}(i)}} (a = a \wedge b) \times \mathcal{T}_{\mathcal{U}(i)}(F(a)) \to \mathcal{T}_{\mathcal{U}(i)}(F(b))$$
+$$p:\prod_{a:S \to \mathrm{Prop}_{U}} \prod_{b:S \to \mathrm{Prop}_{U}} (a = a \wedge b) \times T_{V}(F(a)) \to T_{V}(F(b))$$
 
-$$q:\sum_{a:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(a))$$
+$$q:\sum_{a:S \to \mathrm{Prop}_{U}} T_{V}(F(a))$$
 
-$$r:\sum_{a:S \to Prop_{\mathcal{U}(i)}} \sum_{b:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(a)) \times \mathcal{T}_{\mathcal{U}(i)}(F(b)) \to \sum_{c:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(c)) \times (c = c \wedge a) \times (c = c \wedge b)$$
+$$r:\sum_{a:S \to \mathrm{Prop}_{U}} \sum_{b:S \to \mathrm{Prop}_{U}} T_{V}(F(a)) \times T_{V}(F(b)) \to \sum_{c:S \to \mathrm{Prop}_{U}} T_{V}(F(c)) \times (c = c \wedge a) \times (c = c \wedge b)$$
 
 ## Kinds of filters
 
