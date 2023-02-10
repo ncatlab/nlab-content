@@ -45,8 +45,13 @@ Equivalently, a [[predicate]] $F:L \to \Omega$ is a __filter__
 2. There exists an $A \in L$, such that $F(A)$;
 3. if there exist $A \in L$ and $B \in L$ such that $F(A)$ and $F(B)$, then there is a $C \in L$ such that $F(C)$, $C \leq A$ and $C \leq B$.
 
-Sometimes the term 'filter' is used for an [[upper set]], that is any set satisfying axiom (1).  (Ultimately this connects with the use of '[[ideal in a monoid|ideal]]' in [[monoid]] theory.)
+One could also use a $\mathbb{N}$-overt [[dominance]] $\Sigma$, a sub-[[sigma-frame|$\sigma$-frame]] $\Sigma \subseteq \Omega$. A [[predicate]] $F:L \to \Sigma$ is a __filter__ 
 
+1. If for all $A \in L$ and $B \in L$, if $A \leq B$ and $F(A)$, then $F(B)$;
+2. There exists an $A \in L$, such that $F(A)$;
+3. if there exist $A \in L$ and $B \in L$ such that $F(A)$ and $F(B)$, then there is a $C \in L$ such that $F(C)$, $C \leq A$ and $C \leq B$.
+
+Sometimes the term 'filter' is used for an [[upper set]], that is any set satisfying axiom (1).  (Ultimately this connects with the use of '[[ideal in a monoid|ideal]]' in [[monoid]] theory.)
 
 In a [[lattice]], one can use these alternative axioms:
 
@@ -64,23 +69,23 @@ A __filter of subsets__ of a given set $S$ is a filter in the [[power set]] of $
 
 ### In homotopy type theory
 
-Let $S$ be a [[set]] and $\mathrm{Prop}_{U}$ and $\mathrm{Prop}_{V}$ be the type of [[propositions]] in a [[Tarski universe]] $(U, T_U)$ and $(V, T_V)$ respectively. Then a filter on $S$ is a [[predicate]] $F:(S \to \mathrm{Prop}_{U}) \to \mathrm{Prop}_{V}$ with dependent functions
+Let $S$ be a [[set]], let $\Omega$ be the type of $U$-small propositions in a [[Tarski universe]] $(U, T_U)$, and let $\Sigma$ be a locally $V$-small $\mathbb{N}$-overt dominance, a sub-[[sigma-frame|$\sigma$-frame]] of the type of $V$-small propositions in a Tarski universe $(V, T_V)$. Then a filter on $S$ is a [[predicate]] $F:(S \to \Omega) \to \Sigma$ with dependent functions
 
-$$p:\prod_{a:S \to \mathrm{Prop}_{U}} \prod_{b:S \to \mathrm{Prop}_{U}} (a = a \wedge b) \times T_{V}(F(a)) \to T_{V}(F(b))$$
+$$p:\prod_{a:S \to \Omega} \prod_{b:S \to \Omega} (a = a \wedge b) \times T_{V}(F(a)) \to T_{V}(F(b))$$
 
-$$q:\left[\sum_{a:S \to \mathrm{Prop}_{U}} T_{V}(F(a))\right]$$
+$$q:\left[\sum_{a:S \to \Omega} T_{V}(F(a))\right]$$
 
-$$r:\left[\sum_{a:S \to \mathrm{Prop}_{U}} \sum_{b:S \to \mathrm{Prop}_{U}} T_{V}(F(a)) \times T_{V}(F(b)) \to \left[\sum_{c:S \to \mathrm{Prop}_{U}} T_{V}(F(c)) \times (c = c \wedge a) \times (c = c \wedge b)\right]\right]$$
+$$r:\left[\sum_{a:S \to \Omega} \sum_{b:S \to \Omega} T_{V}(F(a)) \times T_{V}(F(b)) \to \left[\sum_{c:S \to \mathrm{Prop}_{U}} T_{V}(F(c)) \times (c = c \wedge a) \times (c = c \wedge b)\right]\right]$$
 
 The filter properties could also be turned into structure:
 
-A filter structure on $S$ is a [[predicate]] $F:(S \to \mathrm{Prop}_{U}) \to \mathrm{Prop}_{V}$ with dependent functions
+A filter structure on $S$ is a [[predicate]] $F:(S \to \Omega) \to \Sigma$ with dependent functions
 
-$$p:\prod_{a:S \to \mathrm{Prop}_{U}} \prod_{b:S \to \mathrm{Prop}_{U}} (a = a \wedge b) \times T_{V}(F(a)) \to T_{V}(F(b))$$
+$$p:\prod_{a:S \to \Omega} \prod_{b:S \to \Omega} (a = a \wedge b) \times T_{V}(F(a)) \to T_{V}(F(b))$$
 
-$$q:\sum_{a:S \to \mathrm{Prop}_{U}} T_{V}(F(a))$$
+$$q:\sum_{a:S \to \Omega} T_{V}(F(a))$$
 
-$$r:\sum_{a:S \to \mathrm{Prop}_{U}} \sum_{b:S \to \mathrm{Prop}_{U}} T_{V}(F(a)) \times T_{V}(F(b)) \to \sum_{c:S \to \mathrm{Prop}_{U}} T_{V}(F(c)) \times (c = c \wedge a) \times (c = c \wedge b)$$
+$$r:\sum_{a:S \to \Omega} \sum_{b:S \to \Omega} T_{V}(F(a)) \times T_{V}(F(b)) \to \sum_{c:S \to \Omega} T_{V}(F(c)) \times (c = c \wedge a) \times (c = c \wedge b)$$
 
 ## Kinds of filters
 
