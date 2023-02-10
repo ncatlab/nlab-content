@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -240,9 +241,9 @@ A [[constructive mathematics|constructive]] algebraic proof of the [[fundamental
 
 Implementation of [[Errett Bishop|Bishop]]-style [[Cauchy real numbers]] in [[Agda]]:
 
-* [[Martin Lundfall]], *Formalizing real numbers in Agda* (2015) &lbrack;<a href="https://wcl.cs.rpi.edu/pilots/library/papers/TAGGED/4211-Lundfall%20(2015)%20-%20Formalizing%20Real%20Numbers%20in%20Agda.pdf">pdf</a>, [[Lundfall-RealNumbersInAgda.pdf:file]]&rbrack;
+* {#Lundfall15} [[Martin Lundfall]], *Formalizing real numbers in Agda* (2015) &lbrack;<a href="https://wcl.cs.rpi.edu/pilots/library/papers/TAGGED/4211-Lundfall%20(2015)%20-%20Formalizing%20Real%20Numbers%20in%20Agda.pdf">pdf</a>, [[Lundfall-RealNumbersInAgda.pdf:file]], [github](https://github.com/MrChico/Reals-in-agda)&rbrack;
 
-* [[Zachary Murray]], *Constructive Analysis in the Agda Proof Assistant* &lbrack;[arXiv:2205.08354](https://arxiv.org/abs/2205.08354), [github](https://github.com/z-murray/honours-project-constructive-analysis-in-agda)&rbrack;
+* {#Murray22} [[Zachary Murray]], *Constructive Analysis in the Agda Proof Assistant* &lbrack;[arXiv:2205.08354](https://arxiv.org/abs/2205.08354), [github](https://github.com/z-murray/honours-project-constructive-analysis-in-agda)&rbrack;
 
 
 
@@ -252,10 +253,12 @@ A novel construction principle of the type of real numbers, as a [[higher induct
 
 but has not yet been implemented in any [[proof assistant]],
 
-See also:
+Exposition and review:
 
-* {#Booij20} [[Auke B. Booij]], *Analysis in univalent type theory* &lbrack;[pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)&rbrack;
+* [[Andrej Bauer]], *The real numbers in homotopy type theory*, talk at *[Computability and Complexity in Analysis](http://cca-net.de/cca2016/)*, Faro (2016) &lbrack;[pdf](https://math.andrej.com/wp-content/uploads/2016/06/hott-reals-cca2016.pdf), [[Bauer-RealsInHoTT.pdf:file]]&rbrack;
 
+
+* {#Booij20} [[Auke Booij]], *Analysis in Univalent Type Theory* (2020) &lbrack;[etheses:10411](http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf), [[Booij-AnalysisInUF.pdf:file]]&rbrack;
 
 
 [[!redirects Cauchy real number]]
