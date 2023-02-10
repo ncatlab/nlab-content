@@ -1,7 +1,13 @@
 
 * [personal page](https://jashug.github.io/)
 
+
 ## Selected writings
+
+On [[higher inductive-inductive types]] in [[cubical type theory]]:
+
+* {#Hugunin19} [[Jasper Hugunin]], _Constructing Inductive-Inductive Types in Cubical Type Theory_, in *Foundations of Software Science and Computation Structures. FoSSaCS 2019*, Lecture Notes in Computer Science **11425** (2019) &lbrack;[doi:10.1007/978-3-030-17127-8_17](https://link.springer.com/chapter/10.1007/978-3-030-17127-8_17)&rbrack;
+
 
 On  [[W-types]]:
 
