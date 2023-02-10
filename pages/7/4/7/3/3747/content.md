@@ -214,6 +214,7 @@ Even for Dedekind reals without $WCC$, we can always approximate a real number i
 * [[locator]]
 
 ## References
+ {#References}
 
 See also the references at *[[real number]]* and *[[constructive analysis]]*.
 
