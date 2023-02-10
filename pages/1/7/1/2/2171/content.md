@@ -34,13 +34,13 @@ As with actual braids, here it is understood that two such operations are identi
 A quick way of saying this with  precision is to observe that 
 a braid group is thus the *[[fundamental group]]* $\pi_1$ of a [[configuration space of points]] in the plane (see [below](#AsFundamentalGroupOfConfigurationSpace) for more). 
 
-Here it makes a key difference whether 
+Here it makes a key difference whether:
 
 * one considers the points in a configuration as *ordered* (labeled by numbers $1, \cdots, n+1$) in which case one speaks of the *[[pure braid group]]*, 
 
-* or as indistinguishable (albeit in any case with distinct positions!) in which case one speaks of the *braid group* proper: 
+* or as indistinguishable (albeit in any case with distinct positions!) in which case one speaks of the *braid group* proper.
 
-After traveling along a general braid $b$ the order of the given points may come out permuted by a [[permutation]] $\mathrm{perm}(b)$, and the braid is *pure* precisely if this permutation is trivial:  
+Namely, after traveling along a general braid $b$ the order of the given points may come out permuted by a [[permutation]] $\mathrm{perm}(b)$, and the braid is called *pure* precisely if this permutation is trivial:  
 
 <img src="/nlab/files/BraidGroupFibration-230205.jpg" width="600">
 
@@ -1016,7 +1016,15 @@ b_{ij}
 \color{black}
 \end{tikzcd}
 
-In terms of these generators, the [[pure braid group]] is obained by quotienting out the following relations --- an optimization of Artin's original pure braid relations, due to [Lee (2010, Thm. 1.1, Rem. 3.1)](#Lee10):
+
+{#LeeRelationsForPureBraidGroup} In terms of these generators, the [[pure braid group]] is obained by quotienting out the following relations --- an optimization of Artin's original pure braid relations, due to [Lee (2010, Thm. 1.1, Rem. 3.1)](#Lee10):
+
+
+<img src="/nlab/files/PureBraidGroupPresentation-230205b.jpg" width="830">
+
+
+
+
 
 
 \begin{tikzcd}
@@ -1198,6 +1206,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 \;\;\;
 =
 \;\;\;
+\color{orange}
 \left[
 \color{black}
 \raisebox{7pt}{
@@ -1375,6 +1384,10 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 \end{tikzcd}
 
 
+
+
+
+
 \begin{tikzcd}
 \color{orange}
 \left[
@@ -1384,7 +1397,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \begin{scope}[shift={(0,-1)}]
 
-\begin{scope}[shift={(-1,0)}]
+\begin{scope}[shift={(-1,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1392,7 +1405,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \draw (-1,-1) to (-1,1);
 
-\begin{scope}[shift={(0,0)}]
+\begin{scope}[shift={(0,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1400,7 +1413,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \draw (0,0) to (0,1);
 
-\begin{scope}[shift={(+1,0)}]
+\begin{scope}[shift={(+1,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1433,7 +1446,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
   (0,-1) to (0,0);
 
 
-\begin{scope}[shift={(+2,0)}]
+\begin{scope}[shift={(+2,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1444,13 +1457,13 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \begin{scope}[shift={(0,1)}]
 
-\begin{scope}[shift={(-1,0)}]
+\begin{scope}[shift={(-1,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
 \end{scope}
 
-\begin{scope}[shift={(0,0)}]
+\begin{scope}[shift={(0,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1458,15 +1471,15 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \draw (0,-1) to (0,0);
 
-\begin{scope}[shift={(+1,0)}]
+\begin{scope}[shift={(+1,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
 \end{scope}
 
-\draw[] (+1,-1) to (+1,0);
+\draw (+1,-1) to (+1,0);
 
-\begin{scope}[shift={(+2,0)}]
+\begin{scope}[shift={(+2,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1548,7 +1561,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \begin{scope}[shift={(0,+1)}]
 
-\begin{scope}[shift={(-1,0)}]
+\begin{scope}[shift={(-1,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1556,7 +1569,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \draw (-1,-1) to (-1,1);
 
-\begin{scope}[shift={(0,0)}]
+\begin{scope}[shift={(0,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1564,7 +1577,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \draw (0,0) to (0,1);
 
-\begin{scope}[shift={(+1,0)}]
+\begin{scope}[shift={(+1,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1597,7 +1610,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
   (0,-1) to (0,0);
 
 
-\begin{scope}[shift={(+2,0)}]
+\begin{scope}[shift={(+2,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1608,13 +1621,13 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \begin{scope}[shift={(0,-1)}]
 
-\begin{scope}[shift={(-1,0)}]
+\begin{scope}[shift={(-1,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
 \end{scope}
 
-\begin{scope}[shift={(0,0)}]
+\begin{scope}[shift={(0,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1622,7 +1635,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \draw (0,-1) to (0,0);
 
-\begin{scope}[shift={(+1,0)}]
+\begin{scope}[shift={(+1,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1630,7 +1643,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \draw (+1,-1) to (+1,0);
 
-\begin{scope}[shift={(+2,0)}]
+\begin{scope}[shift={(+2,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1702,6 +1715,10 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 \right]
 \color{black}
 \end{tikzcd}
+
+
+
+
 
 
 
@@ -1714,7 +1731,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \begin{scope}[shift={(0,-1)}]
 
-\begin{scope}[shift={(-1,0)}]
+\begin{scope}[shift={(-1,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1722,7 +1739,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \draw (-1,0) to (-1,1);
 
-\begin{scope}[shift={(0,0)}]
+\begin{scope}[shift={(0,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1730,7 +1747,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \draw (1,-1) to (1,1);
 
-\begin{scope}[shift={(+1,0)}]
+\begin{scope}[shift={(+1,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1766,7 +1783,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \end{scope}
 
-\begin{scope}[shift={(+2,0)}]
+\begin{scope}[shift={(+2,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1777,13 +1794,13 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \begin{scope}[shift={(0,1)}, scale=-1]
 
-\begin{scope}[shift={(-1,0)}]
+\begin{scope}[shift={(-1,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
 \end{scope}
 
-\begin{scope}[shift={(0,0)}]
+\begin{scope}[shift={(0,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1791,7 +1808,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \draw (0,-1) to (0,0);
 
-\begin{scope}[shift={(+1,0)}]
+\begin{scope}[shift={(+1,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1799,7 +1816,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \draw (+1,-1) to (+1,0);
 
-\begin{scope}[shift={(+2,0)}]
+\begin{scope}[shift={(+2,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1881,7 +1898,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \begin{scope}[shift={(0,+1)}]
 
-\begin{scope}[shift={(-1,0)}]
+\begin{scope}[shift={(-1,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1889,7 +1906,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \draw (-1,0) to (-1,1);
 
-\begin{scope}[shift={(0,0)}]
+\begin{scope}[shift={(0,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1897,7 +1914,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \draw (1,-1) to (1,1);
 
-\begin{scope}[shift={(+1,0)}]
+\begin{scope}[shift={(+1,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1933,7 +1950,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \end{scope}
 
-\begin{scope}[shift={(+2,0)}]
+\begin{scope}[shift={(+2,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1944,13 +1961,13 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \begin{scope}[shift={(0,-1)}, scale=-1]
 
-\begin{scope}[shift={(-1,0)}]
+\begin{scope}[shift={(-1,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
 \end{scope}
 
-\begin{scope}[shift={(0,0)}]
+\begin{scope}[shift={(0,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1958,7 +1975,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \draw (0,-1) to (0,0);
 
-\begin{scope}[shift={(+1,0)}]
+\begin{scope}[shift={(+1,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -1966,7 +1983,7 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 \draw (+1,-1) to (+1,0);
 
-\begin{scope}[shift={(+2,0)}]
+\begin{scope}[shift={(+2,0)}, gray]
 \draw (-.75,-1) to (-.75,1);
 \draw (-.25,-1) to (-.25,1);
 \draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
@@ -2041,10 +2058,714 @@ In terms of these generators, the [[pure braid group]] is obained by quotienting
 
 
 
-...
 
 
-<img src="/nlab/files/PureBraidGroupPresentation-230205b.jpg" width="830">
+
+
+
+
+
+
+\begin{tikzcd}
+\color{orange}
+\left[
+\color{black}
+\raisebox{8pt}{
+\begin{tikzpicture}[line width=1.2]
+
+\begin{scope}[shift={(0,+1)}]
+
+\begin{scope}[shift={(-1,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (-1,0) to (-1,1);
+
+\begin{scope}[shift={(0,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (0,-1) to (0,1);
+
+\begin{scope}[shift={(+1,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+
+\begin{scope}[shift={(+2,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw[line width=4, white]
+  (+1, -1)
+    --
+  (+1, -.8)
+    .. controls (+1, -.4) and (-1.14, -.4) ..
+  (-1.15, 0)
+    .. controls (-1.15, .4) and (+1, .4) ..
+  (+1, .8)
+    --
+  (+1, 1);
+\draw
+  (+1, -1)
+    --
+  (+1, -.8)
+    .. controls (+1, -.4) and (-1.14, -.4) ..
+  (-1.15, 0)
+    .. controls (-1.15, .4) and (+1, .4) ..
+  (+1, .8)
+    --
+  (+1, 1);
+
+\draw[line width=4, white]
+  (-1,-1) to (-1,0);
+\draw 
+  (-1,-1) to (-1,0);
+
+
+\end{scope}
+
+
+\begin{scope}[shift={(0,-1)}]
+
+\begin{scope}[shift={(-1,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (-1,-.35) to (-1,1);
+
+\begin{scope}[shift={(0,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+
+\begin{scope}[shift={(+1,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (+1,-1) to (+1,.4);
+
+\begin{scope}[shift={(+2,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw[line width=4, white]
+  (0,-1)
+    --
+  (0,-.8)
+    .. controls (0,-.6) and (-1.15, -.6) ..
+  (-1.15, -.4)
+    .. controls (-1.15, 0) and (+1.15, 0) ..
+  (+1.15, +.4)
+    .. controls (+1.15, .6) and (0, .6) ..
+  (0, +.8)
+    --
+  (0,1);
+\draw
+  (0,-1)
+    --
+  (0,-.8)
+    .. controls (0,-.6) and (-1.15, -.6) ..
+  (-1.15, -.4)
+    .. controls (-1.15, 0) and (+1.15, 0) ..
+  (+1.15, +.4)
+    .. controls (+1.15, .6) and (0, .6) ..
+  (0, +.8)
+    --
+  (0,1);
+
+\draw[line width=4, white]
+  (-1,-1) to (-1,-.35);
+\draw 
+  (-1,-1) to (-1,-.35);
+
+\draw[line width=4, white]
+  (+1, .4) to (+1, 1);
+\draw 
+  (+1, .4) to (+1, 1);
+
+\end{scope}
+
+\node
+  at (-1, -2.4) {
+    \color{blue}
+    $r$
+  };
+
+\node
+  at (0, -2.4) {
+    \color{blue}
+    $i$
+  };
+
+\node
+  at (+1, -2.4) {
+    \color{blue}
+    $j$
+  };
+
+
+\end{tikzpicture}
+}
+\color{orange}
+\right]
+\color{black}
+\;\;\;
+=
+\;\;\;
+\color{orange}
+\left[
+\color{black}
+\raisebox{8pt}{
+\begin{tikzpicture}[line width=1.2]
+
+\begin{scope}[shift={(0,-1)}]
+
+\begin{scope}[shift={(-1,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (-1,0) to (-1,1);
+
+\begin{scope}[shift={(0,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (0,-1) to (0,1);
+
+\begin{scope}[shift={(+1,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+
+\begin{scope}[shift={(+2,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw[line width=4, white]
+  (+1, -1)
+    --
+  (+1, -.8)
+    .. controls (+1, -.4) and (-1.14, -.4) ..
+  (-1.15, 0)
+    .. controls (-1.15, .4) and (+1, .4) ..
+  (+1, .8)
+    --
+  (+1, 1);
+\draw
+  (+1, -1)
+    --
+  (+1, -.8)
+    .. controls (+1, -.4) and (-1.14, -.4) ..
+  (-1.15, 0)
+    .. controls (-1.15, .4) and (+1, .4) ..
+  (+1, .8)
+    --
+  (+1, 1);
+
+\draw[line width=4, white]
+  (-1,-1) to (-1,0);
+\draw 
+  (-1,-1) to (-1,0);
+
+\end{scope}
+
+
+\begin{scope}[shift={(0,+1)}]
+
+\begin{scope}[shift={(-1,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (-1,-.35) to (-1,1);
+
+\begin{scope}[shift={(0,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+
+\begin{scope}[shift={(+1,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (+1,-1) to (+1,.4);
+
+\begin{scope}[shift={(+2,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw[line width=4, white]
+  (0,-1)
+    --
+  (0,-.8)
+    .. controls (0,-.6) and (-1.15, -.6) ..
+  (-1.15, -.4)
+    .. controls (-1.15, 0) and (+1.15, 0) ..
+  (+1.15, +.4)
+    .. controls (+1.15, .6) and (0, .6) ..
+  (0, +.8)
+    --
+  (0,1);
+\draw
+  (0,-1)
+    --
+  (0,-.8)
+    .. controls (0,-.6) and (-1.15, -.6) ..
+  (-1.15, -.4)
+    .. controls (-1.15, 0) and (+1.15, 0) ..
+  (+1.15, +.4)
+    .. controls (+1.15, .6) and (0, .6) ..
+  (0, +.8)
+    --
+  (0,1);
+
+\draw[line width=4, white]
+  (-1,-1) to (-1,-.35);
+\draw 
+  (-1,-1) to (-1,-.35);
+
+\draw[line width=4, white]
+  (+1, .4) to (+1, 1);
+\draw 
+  (+1, .4) to (+1, 1);
+
+\end{scope}
+
+\node
+  at (-1, -2.4) {
+    \color{blue}
+    $r$
+  };
+
+\node
+  at (0, -2.4) {
+    \color{blue}
+    $i$
+  };
+
+\node
+  at (+1, -2.4) {
+    \color{blue}
+    $j$
+  };
+
+
+\end{tikzpicture}
+}
+\color{orange}
+\right]
+\color{black}
+\end{tikzcd}
+
+
+
+
+
+
+
+
+\begin{tikzcd}
+\color{orange}
+\left[
+\color{black}
+\raisebox{8pt}{
+
+\begin{tikzpicture}[line width=1.2]
+
+\begin{scope}[shift={(0,+1)}]
+
+\begin{scope}[shift={(-1,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (-1,0) to (-1,1);
+
+\begin{scope}[shift={(0,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (0,-1) to (0,1);
+
+\begin{scope}[shift={(+1,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+
+\begin{scope}[shift={(+2,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (+2,-1) to (+2,1);
+
+\begin{scope}[shift={(+3,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+
+
+\draw[line width=4, white]
+  (+1, -1)
+    --
+  (+1, -.8)
+    .. controls (+1, -.4) and (-1.14, -.4) ..
+  (-1.15, 0)
+    .. controls (-1.15, .4) and (+1, .4) ..
+  (+1, .8)
+    --
+  (+1, 1);
+\draw
+  (+1, -1)
+    --
+  (+1, -.8)
+    .. controls (+1, -.4) and (-1.14, -.4) ..
+  (-1.15, 0)
+    .. controls (-1.15, .4) and (+1, .4) ..
+  (+1, .8)
+    --
+  (+1, 1);
+
+\draw[line width=4, white]
+  (-1,-1) to (-1,0);
+\draw 
+  (-1,-1) to (-1,0);
+
+\end{scope}
+
+\begin{scope}[shift={(0,-1)}]
+
+\begin{scope}[shift={(-1,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (-1,-1) to (-1,1);
+
+\begin{scope}[shift={(0,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (0,-1) to (0,1);
+
+\begin{scope}[shift={(+1,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (+1,-1) to (+1,1);
+
+\begin{scope}[shift={(+2,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\begin{scope}[shift={(+3,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw[line width=4, white]
+  (+2, -1)
+    --
+  (+2, -.8)
+    .. controls (2, -.4) and (-1.15, -.4) ..
+  (-1.15, 0)
+    .. controls (-1.15, +.4) and (2, +.4) ..
+  (+2, +.8)
+    --
+  (+2, 1);
+\draw
+  (+2, -1)
+    --
+  (+2, -.8)
+    .. controls (2, -.4) and (-1.15, -.4) ..
+  (-1.15, 0)
+    .. controls (-1.15, +.4) and (2, +.4) ..
+  (+2, +.8)
+    --
+  (+2, 1);
+
+\draw[line width=4, white]
+  (-1,-1) to (-1,0);
+\draw 
+  (-1,-1) to (-1,0);
+
+\draw[line width=4, white]
+  (0,-1) to (0,0);
+\draw 
+  (0,-1) to (0,0);
+
+\draw[line width=4, white]
+  (1,-1) to (1,0);
+\draw 
+  (1,-1) to (1,0);
+
+\end{scope}
+
+\node
+  at (-1, -2.4) {
+    \color{blue}
+    $r$
+  };
+
+\node
+  at (0, -2.4) {
+    \color{blue}
+    $i$
+  };
+
+\node
+  at (+1, -2.4) {
+    \color{blue}
+    $s$
+  };
+
+\node
+  at (+2, -2.4) {
+    \color{blue}
+    $j$
+  };
+
+
+\end{tikzpicture}
+}
+\color{orange}
+\right]
+\color{black}
+\;\;\;
+=
+\;\;\;
+\color{orange}
+\left[
+\color{black}
+\raisebox{8pt}{
+
+\begin{tikzpicture}[line width=1.2]
+
+\begin{scope}[shift={(0,-1)}]
+
+\begin{scope}[shift={(-1,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (-1,0) to (-1,1);
+
+\begin{scope}[shift={(0,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (0,-1) to (0,1);
+
+\begin{scope}[shift={(+1,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+
+\begin{scope}[shift={(+2,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (+2,-1) to (+2,1);
+
+\begin{scope}[shift={(+3,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+
+
+\draw[line width=4, white]
+  (+1, -1)
+    --
+  (+1, -.8)
+    .. controls (+1, -.4) and (-1.14, -.4) ..
+  (-1.15, 0)
+    .. controls (-1.15, .4) and (+1, .4) ..
+  (+1, .8)
+    --
+  (+1, 1);
+\draw
+  (+1, -1)
+    --
+  (+1, -.8)
+    .. controls (+1, -.4) and (-1.14, -.4) ..
+  (-1.15, 0)
+    .. controls (-1.15, .4) and (+1, .4) ..
+  (+1, .8)
+    --
+  (+1, 1);
+
+\draw[line width=4, white]
+  (-1,-1) to (-1,0);
+\draw 
+  (-1,-1) to (-1,0);
+
+\end{scope}
+
+\begin{scope}[shift={(0,+1)}]
+
+\begin{scope}[shift={(-1,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (-1,-1) to (-1,1);
+
+\begin{scope}[shift={(0,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (0,-1) to (0,1);
+
+\begin{scope}[shift={(+1,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw (+1,-1) to (+1,1);
+
+\begin{scope}[shift={(+2,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\begin{scope}[shift={(+3,0)}, gray]
+\draw (-.75,-1) to (-.75,1);
+\draw (-.25,-1) to (-.25,1);
+\draw (-.5,-.6) node {\scalebox{.7}{$\cdots$}};
+\end{scope}
+
+\draw[line width=4, white]
+  (+2, -1)
+    --
+  (+2, -.8)
+    .. controls (2, -.4) and (-1.15, -.4) ..
+  (-1.15, 0)
+    .. controls (-1.15, +.4) and (2, +.4) ..
+  (+2, +.8)
+    --
+  (+2, 1);
+\draw
+  (+2, -1)
+    --
+  (+2, -.8)
+    .. controls (2, -.4) and (-1.15, -.4) ..
+  (-1.15, 0)
+    .. controls (-1.15, +.4) and (2, +.4) ..
+  (+2, +.8)
+    --
+  (+2, 1);
+
+\draw[line width=4, white]
+  (-1,-1) to (-1,0);
+\draw 
+  (-1,-1) to (-1,0);
+
+\draw[line width=4, white]
+  (0,-1) to (0,0);
+\draw 
+  (0,-1) to (0,0);
+
+\draw[line width=4, white]
+  (1,-1) to (1,0);
+\draw 
+  (1,-1) to (1,0);
+
+\end{scope}
+
+\node
+  at (-1, -2.4) {
+    \color{blue}
+    $r$
+  };
+
+\node
+  at (0, -2.4) {
+    \color{blue}
+    $i$
+  };
+
+\node
+  at (+1, -2.4) {
+    \color{blue}
+    $s$
+  };
+
+\node
+  at (+2, -2.4) {
+    \color{blue}
+    $j$
+  };
+
+
+\end{tikzpicture}
+}
+\color{orange}
+\right]
+\color{black}
+\end{tikzcd}
+
 
 
 
