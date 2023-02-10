@@ -305,6 +305,10 @@ So in summary, this page is about the _real, finite, located, standard, analytic
 
 * [[computable real number]]
 
+* [[Cauchy real number]]
+
+* [[Dedekind real number]]
+
 * [[real cohomology]], [[real homotopy theory]]
 
 * [[p-adic numbers]]
@@ -355,16 +359,18 @@ Further discussion:
 
 * [[Gaëtan Gilbert]], *Formalising Real Numbers in Homotopy Type Theory*, in *CPP 2017: Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs*  (2017) 112–124 &lbrack;[arXiv:1610.05072](https://arxiv.org/abs/1610.05072), [doi:10.1145/3018610.3018614](https://doi.org/10.1145/3018610.3018614)&rbrack;
 
-A novel construction principle of the type of real numbers, more intimately based on the notion of [[higher inductive types]] in [[univalence axiom|univalent]] [[homotopy type theory]], not reliant on representatives by sequences of [[rational numbers]], and with provable [[Cauchy completeness]] even without extra [[axioms of choice]] is laid out in
+Overview of implementation of real numbers in [[proof assistants]] (cf. [[constructive analysis]]):
+
+* Sylvie Boldo, Catherine Lelay, Guillaume Melquiond, *Formalization of Real Analysis: A Survey of Proof
+Assistants and Libraries*, Mathematical Structures in Computer Science **26** 7 (2016) 1196-1233  &lbrack;[hal:00806920](https://hal.inria.fr/hal-00806920v1), [doi:10.1017/S0960129514000437](https://doi.org/10.1017/S0960129514000437)&rbrack;
+
+
+A novel construction principle of the type of real numbers, as a [[higher inductive-inductive type]] in [[univalence axiom|univalent]] [[homotopy type theory]], not reliant on representatives by sequences of [[rational numbers]], and with provable [[Cauchy completeness]] even without extra [[axiom of countable choice]] is laid out (cf. *[[HoTT book real numbers]]*) in
 
 * [[Univalent Foundations Project]]: Chapter 11 of:  *[[Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
 but has not yet been implemented in any [[proof assistant]],
 
-Overview of implementation of real numbers in [[proof assistants]] (cf. [[constructive analysis]]):
-
-* Sylvie Boldo, Catherine Lelay, Guillaume Melquiond, *Formalization of Real Analysis: A Survey of Proof
-Assistants and Libraries*, Mathematical Structures in Computer Science **26** 7 (2016) 1196-1233  &lbrack;[hal:00806920](https://hal.inria.fr/hal-00806920v1), [doi:10.1017/S0960129514000437](https://doi.org/10.1017/S0960129514000437)&rbrack;
 
 
  
