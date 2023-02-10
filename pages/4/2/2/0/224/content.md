@@ -36,6 +36,21 @@ If $G$ is a group, every finite-dimensional $G$-graded vector space has a [[left
 
 By far the most widely-used examples are $G = \mathbb{Z}$ and $G = \mathbb{N}$.  Indeed, the term _graded vector space_ is often used to mean a $G$-graded vector space with one of these choices of $G$.  The case $G = \mathbb{Z}/2$ is also important: a $\mathbb{Z}/2$-graded vector space is also called a [[supervector space]]. However, in this case one often uses a different braiding on $Vect^G$, one which uses the [[ring]] structure of $\mathbb{N}$; see [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Super_vector_space#The_category_of_super_vector_spaces).
 
+### Explicit definition
+
+Let $G$ be a [[set]] with [[decidable equality]]. Then, given a [[commutative ring]] $R$ (usually a [[field]] $F$), a **$G$-graded $R$-module** is an $R$-[[module]] $V$ (usually a [[vector space]] $V$) with a binary function $\langle - \rangle_{(-)}: V \times G \to V$ called the **grade projection operator** such that
+
+* for all $v:V$, $v = \sum_{g:G} \langle v \rangle_g$
+
+* for all $a:R$, $b:R$, $v:V$, $w:V$, and $g:G$, $\langle a v + b w \rangle_g = a \langle v \rangle_g + b \langle w \rangle_g$
+
+* for all $v:V$ and $g:G$, $\langle \langle v \rangle_g \rangle_g = \langle v \rangle_g$
+
+* for all $v:V$, $g:G$, and $h:G$, $(g \neq h) \Rightarrow (\langle \langle v \rangle_g \rangle_h = 0)$
+
+For an element $g:G$, the [[image]] of $\langle - \rangle_g$ under $V$ is denoted as $\langle V \rangle_g$. 
+
+$$\langle V \rangle_g \coloneqq \mathrm{im}(\langle - \rangle_g)$$ 
 
 ## Remarks
 
@@ -204,6 +219,10 @@ Notice that given suitable [[cocycles]] on $G$, then $G$-graded vector spaces ma
 * [[chain complex]]
 
 * [[differential graded algebra]]
+
+## References
+
+* {#AragonEtAl97} G. Aragón, J.L. Aragón, M.A. Rodríguez (1997), Clifford Algebras and Geometric Algebra, _Advances in Applied Clifford Algebras_ Vol. 7 No. 2, pg 91–102, doi:10.1007/BF03041220, S2CID:120860757
 
 [[!redirects graded vector space]]
 [[!redirects graded vector spaces]]
