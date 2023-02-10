@@ -254,7 +254,7 @@ The proof combines the results in Theorem 6 and Proposition 11 of [Bourke & Garn
 An [[orthogonal factorization system]] correspond exactly those right-connected double categories 
 $\mathbb{D} = (D_0, D_1)$ for which the functor $U_{1} \colon D_{1} \rightarrow Sq(D_{0})$ is [[fully faithful]] and [[monadic|strictly monadic]]. 
 \end{corollary}
-This is follows essentially [Bourke & Garner, Proposition 3](#BourkeGarner2016a).
+This is essentially [Bourke & Garner, Proposition 3](#BourkeGarner2016a).
 
 ## References
 
