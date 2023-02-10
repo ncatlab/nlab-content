@@ -31,9 +31,11 @@ Notice that this crucial property of the [[real number]] fails for other constru
 
 ## Definition ##
 
-### As a sequentially modulated Cauchy complete Archimedean field ###
+### As a sequentially modulated Cauchy complete Archimedean ordered field ###
 
-Let $F$ be an [[Archimedean field]]. $F$ is *[[sequentially modulated Cauchy complete]]* if every [[Cauchy sequence]] in $F$ with a [[modulus of convergence]] [[converges]]. The set of __HoTT book real numbers__ $\mathbb{R}_H$ is the [[initial object]] in the [[category]] of sequentially modulated Cauchy complete Archimedean fields. 
+Let $K$ be an [[Archimedean ordered field]]. $K$ is *[[sequentially modulated Cauchy complete]]* if every [[Cauchy sequence]] in $K$ with a [[modulus of convergence]] [[converges]]. The set of __HoTT book real numbers__ $\mathbb{R}_H$ is the [[initial object]] in the [[category]] of sequentially modulated Cauchy complete Archimedean fields. 
+
+More abstractly, let $\mathrm{ArchiFields}$ be the [[category]] of [[Archimedean ordered fields]] and Archimedean ordered field homomorphisms, and let $F:\mathrm{ArchiFields} \to \mathrm{ArchiFields}$ be the [[endofunctor]] which takes an Archimedean ordered field $K$ to the Archimedean ordered field $F(K)$ which is the [[quotient set]] of the set of [[Cauchy sequences]] in $K$ with a [[modulus of convergence]]. $K$ is [[sequentially modulated Cauchy complete]] if there is an isomorphism $K \cong F(K)$, and the **HoTT book real numbers** $\mathbb{R}_H$ is the initial Archimedean ordered field with an isomorphism $\mathbb{R}_H \cong F(\mathbb{R}_H)$. 
 
 ### As a Cauchy structure ###
 
