@@ -238,6 +238,13 @@ A [[constructive mathematics|constructive]] algebraic proof of the [[fundamental
 
 * Wim Ruitenberg, Constructing Roots of Polynomials over the Complex Numbers, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract, Vol. 84, Centre for Mathematics and Computer Science, Amsterdam, 1991, pp. 107–128. ([pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf))
 
+Implementation of [[Errett Bishop|Bishop]]-style [[Cauchy real numbers]] in [[Agda]]:
+
+* [[Martin Lundfall]], *Formalizing real numbers in Agda* (2015) &lbrack;<a href="https://wcl.cs.rpi.edu/pilots/library/papers/TAGGED/4211-Lundfall%20(2015)%20-%20Formalizing%20Real%20Numbers%20in%20Agda.pdf">pdf</a>, [[Lundfall-RealNumbersInAgda.pdf:file]]&rbrack;
+
+* [[Zachary Murray]], *Constructive Analysis in the Agda Proof Assistant* &lbrack;[arXiv:2205.08354](https://arxiv.org/abs/2205.08354), [github](https://github.com/z-murray/honours-project-constructive-analysis-in-agda)&rbrack;
+
+
 
 A novel construction principle of the type of real numbers, as a [[higher inductive-inductive type]] in [[univalence axiom|univalent]] [[homotopy type theory]], not reliant on representatives by sequences of [[rational numbers]], and with provable [[Cauchy completeness]] even without extra [[axiom of countable choice]] is laid out (cf. *[[HoTT book real numbers]]*) in
 
