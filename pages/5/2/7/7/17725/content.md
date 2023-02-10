@@ -20,6 +20,14 @@ The second condition implies that $\Sigma$ is closed under binary [[meets]] $\we
 
 The elements of $\Sigma$ are called **open** truth values.
 
+### In homotopy type theory
+
+In [[homotopy type theory]], every [[univalent]] [[type of propositions]] is a [[subtype]] of the [[type of all propositions]] $\Omega$. A **dominance** is a univalent type of propositions $(\Sigma, \mathrm{El}_\Sigma)$ with an element $\top:\Sigma$ such that
+
+* $\mathrm{El}_\Sigma(\top)$ is a [[contractible type]]
+* given a [[mere proposition]] $P$, for all elements $U:\Sigma$ with a function from $\mathrm{El}_\Sigma(U)$ to the type that $P$ is essentially $\Sigma$-small, the [[product type]] $\mathrm{El}_\Sigma(U) \times P$ is essentially $\Sigma$-small. 
+$$\frac{\Gamma \vdash P \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(P)}{\Gamma, U:\Sigma \vdash q:\left(\mathrm{El}_\Sigma(U) \to \sum_{B:\Sigma} \mathrm{El}_\Sigma(B) \simeq P\right) \to \left(\sum_{C:\Sigma} \mathrm{El}_\Sigma(C) \simeq \mathrm{El}_\Sigma(U) \times P\right)}$$
+
 ## Open subsets
 
 We define a subset $U\subseteq A$ of an arbitrary set $A$ to be **open** if for each $x\in A$, the proposition "$x\in U$" is an open truth value.  The second condition above is equivalent to saying that if $U\subseteq A$ is open and also $V\subseteq U$ is open, then $V\subseteq A$ is open.
