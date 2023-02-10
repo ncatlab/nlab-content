@@ -221,13 +221,25 @@ Original articles:
 
 *  [[Georg Cantor]]; 1872; _[Ueber die Ausdehnung eines Satzes aus der Theorie der trigonometrischen Reihen](http://www.maths.tcd.ie/pub/HistMath/People/Cantor/Ausdehnung/)_; Section 1.
 
-*  [[Fred Richman]], Douglas Bridges, Peter Schuster; 1998; _A weak countable choice principle_; available from <http://math.fau.edu/richman/html/docs.htm>.
+Dicussion in [[constructive analysis]]:
 
-On why Cauchy sequences with a modulus of convergence are [[sequentially Cauchy complete]]: 
+* {#Bishop67} [[Errett Bishop]]: *[[Foundations of Constructive Analysis]]*, McGraw-Hill (1967)
+
+* {#BishopBridges85} [[Errett Bishop]], [[Douglas Bridges]]: *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
+
+*  [[Fred Richman]], [[Douglas Bridges]], Peter Schuster; 1998; _A weak countable choice principle_; available from <http://math.fau.edu/richman/html/docs.htm>.
+
+{#ReferencesCauchyCompleteness} The proof that Cauchy sequences (with a modulus of convergence) as such (i.e. not passing to their [[equivalence classes]]) are [[sequentially Cauchy complete]]:
+
+* [Bishop (1967, p. 27)](#Bishop67)
+
+* [Bishop & Bridges (1985, p. 29)](#BishopBridges85)
+
+See also
 
 * [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice* (1998) &lbrack;[pdf](http://math.fau.edu/richman/docs/Fta.pdf)&rbrack;
 
-On why the modulated Cauchy real numbers are not [[sequentially Cauchy complete]]
+On why the (modulated) Cauchy real numbers, hence after passage to [[equivalence classes]] of Cauchy sequences, are not [[sequentially Cauchy complete]] (without the [[axiom of countable choice]]):
 
 * {#Lubarsky} [[Robert Lubarsky]], _On the Cauchy Completeness of the Constructive Cauchy Reals_, Electronic Notes in Theoretical Computer Science **167** (2007) 225-254 &lbrack;[doi:10.1016/j.entcs.2006.09.012](https://doi.org/10.1016/j.entcs.2006.09.012)&rbrack;
  
