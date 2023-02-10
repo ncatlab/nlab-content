@@ -44,7 +44,7 @@ Its [[boundary]] is the $(n-1)$-[[sphere]].
 More generally, for $(X,d)$ a [[metric space]] then an open ball in $X$ is a subset of the form
 
 $$
-  B(x,r) \coloneqq \{x \in X \;|\; d(x,y) \lt r \}
+  B(x,r) \coloneqq \{y \in X \;|\; d(x,y) \lt r \}
 $$
 
 for $x \in X$ and $r \in (0,\infty) \subset \mathbb{R}$.
