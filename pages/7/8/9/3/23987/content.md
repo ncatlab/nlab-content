@@ -409,6 +409,20 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 ### Feb 2023
 
+* 13 Feb 2023
+
+  Kazuki Ikeda ([Co-design Center for Quantum Advantage](https://www.bnl.gov/quantumcenter/), Stony Brook University, USA)
+
+  **Demonstration of Quantum Energy Teleportation by Superconducting Quantum Processors and Implications for Communications and High Energy Physics**
+
+  > Quantum energy teleportation is a theoretical concept in [[quantum physics]] that describes the transfer of [[energy]] from one location to another without the need for a physical medium to carry it. This is made possible by means of universal properties of [[quantum entanglement]] and measurement of quantum states. The role of QET in physics and information engineering is largely unexplored, as the theory has not received much attention for long time since it was proposed about 15 years ago. To validate it on a real quantum processor, my research has tested the energy teleportation protocol in its most visible form for the first time on IBM's superconducting quantum computer. In my colloquium talk, I will explain the historical background of quantum energy teleportation, quantum circuits and quantum operations. Moreover I will present a concrete setup for a long-distance and large-scale quantum energy teleportation with real quantum networks.
+
+  > In addition, I will present the results of quantum simulations with relativistic field theory as a study based on the high-energy physics perspective and the [[symmetry protected topological phase|symmetry-protected topological (SPT) phase of matter]] of quantum energy teleportation. The models will describe include the two dimensional QED (the massive Thirring model), the AKLT model, the [[Haldane model]], and the Kitaev model. Those results show that the phase diagrams of the field theory and SPT phase are closely related to energy teleportation.
+
+  > In summary my talk will provide a novel suggestion that quantum energy teleportation paves a new pathway to a link between quantum communication on real quantum network, phase diagram of quantum many-body system, and quantum computation.
+
+\linebreak
+
 * {#MurrayFeb2023} 20 Feb 2023
 
   [[Zachary Murray]] 
@@ -786,6 +800,24 @@ Stone-von Neumann**
 
   > Both [[higher structures]] and [[bundle gerbe modules]] play important roles in modern [[geometry]] and [[mathematical physics]]. [[bundle gerbe module|Bundle gerbe modules]] is a [[twisted vector bundle|twisted version]] of [[vector bundles]], and was introduced by Bouwknegt-Carey-Mathai-Murray-Stevenson in 2002. In particular, they introduced the [[twisted Chern character]] from the perspective of [[Chern-Weil theory]]. In a recent joint work with Han and Mathai, we study the [[homotopy theory]] aspects of the twisted Chern classes of torsion bundle gerbe modules. Using Sullivan's [[rational homotopy theory]], we realize the twisted Chern classes at the level of [[classifying spaces]]. The construction suggests a notion, which we call fractional U-structure serving as a universal framework to study the twisted Chern classes of torsion bundle gerbe modules from the perspective of classifying spaces. Based on this, we introduce and study higher fractional structures on torsion bundle gerbe modules parallel to the higher structures on ordinary vector bundles.   
 
+\linebreak
+
+* 15 Feb 2023
+
+  [[Eugene Rabinovich]] (University of Notre Dame, USA) 
+
+  **Classical Bulk-Boundary Correspondences via Factorization Algebras**
+
+  cf. [arXiv:2202.12332](https://arxiv.org/abs/2202.12332) (a form of [[Poisson holography]])
+
+  > A [[factorization algebra]] is a [[cosheaf]]-like local-to-global object which is meant to model the structure present in the [[observables]] of [[classical field theory|classical]] and [[quantum field theories]]. In the [[BV-formalism|Batalin-Vilkovisky (BV) formalism]], one finds that a factorization algebra of classical observables possesses, in addition to its factorization-algebraic structure, a compatible [[Poisson bracket]] of cohomological degree +1.  Given a "sufficiently nice" such factorization algebra on a [[manifold]] $N$, one may associate to it a factorization algebra on $N\times \mathbb{R}_{\geq 0}$.
+
+  > The aim of the talk is to explain the sense in which the latter factorization algebra "knows all the classical data" of the former.
+
+  > This is the bulk-boundary correspondence of the title. Time permitting, we will describe how such a correspondence appears in the [[deformation quantization]] of [[Poisson manifolds]].
+
+
+ 
 
 
 \linebreak
