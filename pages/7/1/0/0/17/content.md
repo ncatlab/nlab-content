@@ -1099,9 +1099,10 @@ $$\multiscripts{_0^2_1}{R}{_i^j_k}$$
 ### Software required to use the $n$Lab
 {#software}
 
-The $n$Lab serves mathematical symbols as [MathML](http://en.wikipedia.org/wiki/MathML). Presently the only browser with _native_ MathML support, and hence immediate rendering of the formulas, is [Firefox](http://www.mozilla.com/firefox/).
+The $n$Lab serves mathematical symbols as [MathML](http://en.wikipedia.org/wiki/MathML). Presently the browsers with _native_ MathML support, and hence immediate rendering of the formulas, are those based on the Gecko, Blink, and WebKit rendering engines, e.g., Firefox, Chrome/Chromium, Safari, etc.
 
-Essentially all other browsers fall back to rendering MathML formulas using the [MathJax](https://www.mathjax.org/) [polyfill](https://en.wikipedia.org/wiki/Polyfill_(programming%29). This works, but is slow.  On small pages it is fine, on larger pages with many formulas MathJax may take up to several minutes for rendering.
+Older unmaintained browsers like Internet Explorer, as well as a few obscure mobile and desktop browsers,
+fall back to rendering MathML formulas using the [MathJax](https://www.mathjax.org/) [polyfill](https://en.wikipedia.org/wiki/Polyfill_(programming%29). This works, but is slow.  On small pages it is fine, on larger pages with many formulas MathJax may take up to several minutes for rendering.
  
 ### How to search the nLab & nForum from firefox
 
