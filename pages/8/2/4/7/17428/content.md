@@ -1,3 +1,3 @@
+[[!redirects history &gt; n-equivalence]]
+[[!redirects history &gt; n-equivalence]]
 
-
-> see _[[n-connected map]]_
