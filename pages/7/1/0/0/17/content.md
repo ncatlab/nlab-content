@@ -1161,6 +1161,4 @@ Currently, the following stylish themes are available:
 
 A current git repository of the source code for nLab pages is available at <https://github.com/ncatlab/nlab-content> and a current git repository of the compiled HTML code for nLab pages is available at <https://github.com/ncatlab/nlab-content-html>.
  
-It is possible to download an SQL dump of the nLab database, from which both the nLab and nForum can be reconstructed. Some of us are running cron jobs to do this regularly. The more the merrier: if you are interested, please request that we create a user for you to be able to do this in the [nForum](https://nforum.ncatlab.org/discussions/?CategoryID=21), say in [this thread](https://nforum.ncatlab.org/discussion/8991/nlab-database-backups/?Focus=71715#Comment_71715).
-
 category: meta
