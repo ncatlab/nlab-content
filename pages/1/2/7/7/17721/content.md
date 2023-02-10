@@ -47,7 +47,7 @@ The consistency of the framework used for the elimination (e.g. in the [[theorem
 
 ## Higher inductive inductive types ##
 
-Experiments with higher inductive inductive types (elaborate versions of [[higher inductive types]]) are sections 11.3 "Cauchy reals" and section 11.6 "Conway surreals"  of the [HoTT book](#HoTTBook). As they are at the set level, these are instances of [[quotient inductive type|quotient inductive-inductive types]]; see [QIIT](#QIIT). An experimental syntax for HIITs by [Kaposi and Kovacs](#KaposiKovacs).
+Experiments with higher inductive inductive types (elaborate versions of [[higher inductive types]]) are sections 11.3 "Cauchy reals" and section 11.6 "Conway surreals"  of the [HoTT book](#HoTTBook) (cf. the *[[HoTT book real numbers]]*). As they are at the set level, these are instances of [[quotient inductive type|quotient inductive-inductive types]]; see [QIIT](#QIIT). An experimental syntax for HIITs by [Kaposi and Kovacs](#KaposiKovacs).
 
 Another example of a higher inductive-inductive type is a [[univalent Tarski universe]], where the where a type $U$ is defined inductively together with a [[type family]] $a:U \vdash T(a) \; \mathrm{type}$ and has constructors 
 
@@ -59,7 +59,9 @@ $$\mathrm{fiber}(\mathrm{transport}^T(a, b), f) \coloneqq \sum_{p:a =_U b} \math
 
 This means that $h(a, b, f)$ is the [[center of contraction]] of the fiber of transport across $T$ at the equivalence $f:T(a) \simeq T(b)$. 
 
-## References ##
+## References 
+
+### Plain inductive-inductive types
 
 * [[Andrej Bauer]], _[What is induction-induction?](http://cs.stackexchange.com/q/64139)_
 
@@ -70,21 +72,32 @@ This means that $h(a, b, f)$ is the [[center of contraction]] of the fiber of tr
 * {#ForsbergThesis}[[Fredrik Nordvall Forsberg]], _Inductive-inductive definitions_, PhD thesis
 Swansea University, 2013.  [PDF](http://cs.swan.ac.uk/~csfnf/thesis/thesis.pdf)
 
-* {#HoTTBook} [[Univalent Foundations Project]], section 11 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013)
+* {#cat} [[Thorsten Altenkirch]], Peter Morris, [[Fredrik Nordvall Forsberg]], [[Anton Setzer]],  _A Categorical Semantics for Inductive-Inductive Definitions_, CALCO, 2011 [link](https://link.springer.com/chapter/10.1007%2F978-3-642-22944-2_6)
 
-* {#cat} Thorsten Altenkirch, Peter Morris, [[Fredrik Nordvall Forsberg]], [[Anton Setzer]],  _A Categorical Semantics for Inductive-Inductive Definitions_, CALCO, 2011 [link](https://link.springer.com/chapter/10.1007%2F978-3-642-22944-2_6)
+* {#QIIT}  [[Thorsten Altenkirch]], [[Paolo Capriotti]], [[Gabe Dijkstra]], [[Fredrik Nordvall Forsberg]], _Quotient inductive-inductive types_ &lbrack;[arXiv:1612.02346](https://arxiv.org/abs/1612.02346)&rbrack;
 
-* {#QIIT}  Thorsten Altenkirch, Paolo Capriotti, Gabe Dijkstra, Fredrik Nordvall Forsberg, _Quotient inductive-inductive types_, [arXiv](https://arxiv.org/abs/1612.02346), 2016
+### Higher inductive-inductive types:
 
-* {#KaposiKovacs} Ambrus Kaposi and András Kovács, _A Syntax for Higher Inductive-Inductive Types_, [PDF](http://drops.dagstuhl.de/opus/volltexte/2018/9190/), 2018
+For the example of constructing the [[real numbers]] (cf. *[[HoTT book real number]]*)
 
-* {#Hugunin19} Jasper Hugunin, _Constructing Inductive-Inductive Types in Cubical Type Theory_, [PDF](https://link.springer.com/chapter/10.1007/978-3-030-17127-8_17)
+* {#HoTTBook} [[Univalent Foundations Project]], section 11 of: _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013)
 
+Approaches to a general definition:
 
-Parts of the above text are taken from 
+* {#KaposiKovacs} [[Ambrus Kaposi]], [[András Kovács]], *A Syntax for Higher Inductive-Inductive Types*, at *3rd International Conference on Formal Structures for Computation and Deduction (FSCD 2018)* (2018) 20:1-20:18 &lbrack;[pdf](http://drops.dagstuhl.de/opus/volltexte/2018/9190/), [doi:10.4230/LIPIcs.FSCD.2018.20](https://doi.org/10.4230/LIPIcs.FSCD.2018.20)&rbrack;
 
-* [[homotopytypetheory:HomePage|Homotopy Type Theory Wiki]], _[[homotopytypetheory:inductive-inductive type]]_
+* [[Ambrus Kaposi]], [[András Kovács]], *Signatures and Induction Principles for Higher Inductive-Inductive Types*, Logical Methods in Computer Science **16** 1 (2020) lmcs:6100 &lbrack;[arXiv:1902.00297](https://arxiv.org/abs/1902.00297), <a href="https://doi.org/10.23638/LMCS-16(1:10)2020">doi:10.23638/LMCS-16(1:10)2020</a>&rbrack;
+
+Discussion of examples in [[cubical type theory]] ([[cubical Agda]]):
+
+* {#Hugunin19} [[Jasper Hugunin]], _Constructing Inductive-Inductive Types in Cubical Type Theory_, in *Foundations of Software Science and Computation Structures. FoSSaCS 2019*, Lecture Notes in Computer Science **11425** (2019) &lbrack;[doi:10.1007/978-3-030-17127-8_17](https://link.springer.com/chapter/10.1007/978-3-030-17127-8_17)&rbrack;
+
 
 [[!redirects Inductive Inductive Type]]
 [[!redirects induction-induction]]
 [[!redirects inductive-inductive types]]
+
+[[!redirects higher inductive-inductive type]]
+[[!redirects higher inductive-inductive types]]
+
+
