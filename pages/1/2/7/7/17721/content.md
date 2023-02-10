@@ -76,6 +76,9 @@ Swansea University, 2013.  [PDF](http://cs.swan.ac.uk/~csfnf/thesis/thesis.pdf)
 
 * {#QIIT}  [[Thorsten Altenkirch]], [[Paolo Capriotti]], [[Gabe Dijkstra]], [[Fredrik Nordvall Forsberg]], _Quotient inductive-inductive types_ &lbrack;[arXiv:1612.02346](https://arxiv.org/abs/1612.02346)&rbrack;
 
+* [[Marcelo P. Fiore]], [[Andrew M. Pitts]], [[S. C. Steenkamp]], *Quotients, inductive types, and quotient inductive types*, Logical Methods in Computer Science **18** 2 (2022) lmcs:7076  &lbrack;[arXiv:2101.02994](https://arxiv.org/abs/2101.02994), <a href="https://doi.org/10.46298/lmcs-18(2:15)2022">doi:10.46298/lmcs-18(2:15)2022</a>&rbrack;
+
+
 ### Higher inductive-inductive types:
 
 For the example of constructing the [[real numbers]] (cf. *[[HoTT book real number]]*)
