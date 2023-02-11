@@ -125,7 +125,12 @@ Symmetries of depth two inclusions of subfactors may be described via associativ
 
 ### Relation to quantum field theory
 
-* [[Jakob Yngvason]], _The role of type III factors in quantum field theory_ ([arXiv:math-ph/0411058](https://arxiv.org/abs/math-ph/0411058))
+On von Neumann algebra factors as algebras of [[quantum observables]] in [[quantum physics]] and [[quantum field theory]]:
+
+* [[Jakob Yngvason]], _The role of type III factors in quantum field theory_ &lbrack;[arXiv:math-ph/0411058](https://arxiv.org/abs/math-ph/0411058)&rbrack;
+
+* [[Jonathan Sorce]], *Notes on the type classification of von Neumann algebras* &lbrack;[arXiv:2302.01958](https://arxiv.org/abs/2302.01958)&rbrack;
+
 
 
 [[!redirects von Neumann algebra factors]]
