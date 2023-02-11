@@ -1,3 +1,19 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
 # Funny tensor products
 
 * table of contents
@@ -20,8 +36,11 @@ where $C_0,D_0$ are the [[discrete categories]] of objects of $C,D$ and the maps
 The funny tensor product can also be generalized to [[higher categories]].
 
 ## Separate functoriality
+ {#SeparateFunctoriality}
 
-A functor $F : C \Box D \to E$ can be described as being a functor of 2-variables that is "separately" functorial in the $C$ and $D$ arguments, in analogy with separate continuity.  That is it has an action on objects $F : C_0 \times D_0 \to E_0$ and for each object $c \in C$, a functorial action $F(id_c,-) : D \to E$ and for each object $d \in D$, a functorial action $F(-,id_d) : C \to E$, both of which agree on objects with $F$.
+A functor $F : C \Box D \to E$ can be described as being a functor of 2-variables that is "separately" functorial in the $C$ and $D$ arguments, in analogy with separate continuity. (See at [[multifunctor]] -- [separately functorial maps](multifunctor#SeparatelyFunctorialMaps)).
+
+That is, it has an action on objects $F : C_0 \times D_0 \to E_0$ and for each object $c \in C$, a functorial action $F(id_c,-) : D \to E$ and for each object $d \in D$, a functorial action $F(-,id_d) : C \to E$, both of which agree on objects with $F$.
 
 Contrast this to a "jointly" functorial functor of 2-arguments, also known as a [[bifunctor]], which is equivalent to a functor from the cartesian product $F : C \times D \to E$ where we have to define for any $f : c \to c'$ and $g : d \to d'$ a morphism $F(f,g) : F(c,d) \to F(c',d')$. With a separately functorial $F$, there are two candidates for this morphism: $F(f,id) \circ F(id,g)$ and $F(id,g) \circ F(f,id)$ that are not in general equal.
 
