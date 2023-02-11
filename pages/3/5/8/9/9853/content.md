@@ -5,7 +5,9 @@
 
 ## Idea
 
-A _multifunction_ is a [[function]] of several [[variables]], hence equivalently an ordinary [[function]] on a [[cartesian product]].  [[set|Sets]] and multifunctions form a [[multicategory]].
+A _multifunction_ is a [[function]] of several [[variables]], hence equivalently an ordinary [[function]] on a [[cartesian product]].  
+
+[[set|Sets]] with multifunctions as [[morphisms]] between them form a [[multicategory]].
 
 ## Related concepts
 
