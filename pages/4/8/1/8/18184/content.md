@@ -20,6 +20,8 @@
 
 In [[topology]], the result of a _space attachment_ (sometimes called an _attaching space_ or _adjunction space_) is a [[topological space]], denoted $X \cup_{f} Y$, which is constructed by "attaching" or "gluing" two topological spaces $X$ and $Y$ along a [[topological subspace]] $A \subset X$ by means of a [[continuous function]] $f \colon A \to Y$. The function $f$ is then called the _attaching map_. 
 
+> (graphics taken from [AGP08, §3.1 ](#))
+
 More [[category theory|abstractly]], space attachments are [[pushouts]] along [[monomorphisms]] in the [[category]] [[Top]] of all [[topological spaces]]. The [[formal dual|formally dual]] concept is that of [[fiber]] spaces or more generally of [[fiber products]] of topological spaces.
 
 ## Definition
@@ -67,6 +69,8 @@ For more on this see at _[Top -- Universal constructions](Top#UniversalConstruct
 * [[Whitehead product]]
 
 ## References
+
+* {#AGP08} [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], §3.1 in: *Algebraic topology from a homotopical viewpoint*, Springer (2008) &lbrack;[doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586)&rbrack;
 
 * {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Chapter 17, p. 217 of:  _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics **82**, Springer (1982) &lbrack;[doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0)&rbrack;
 
