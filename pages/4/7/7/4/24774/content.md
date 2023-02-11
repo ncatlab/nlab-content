@@ -112,6 +112,12 @@ On [[asymptotic safety]]:
 
 * Astrid Eichhorn, Marc Schiffer, *Asymptotic safety of gravity with matter*, in: [[Handbook of Quantum Gravity]], Springer (2023) &lbrack;[arXiv:2212.07456](https://arxiv.org/abs/2212.07456)&rbrack;
 
+\linebreak
+
+On [[black holes]] in the context of [[asymptotic safety]]:
+
+* Alessia Platania, *Black Holes in Asymptotically Safe Gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2302.04272](https://arxiv.org/abs/2302.04272)&rbrack;
+
 
 \linebreak
 
