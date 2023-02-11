@@ -20,7 +20,7 @@
 
 In [[topology]], the result of a _space attachment_ (sometimes called an _attaching space_ or _adjunction space_) is a [[topological space]], denoted $X \cup_{f} Y$, which is constructed by "attaching" or "gluing" two topological spaces $X$ and $Y$ along a [[topological subspace]] $A \subset X$ by means of a [[continuous function]] $f \colon A \to Y$. The function $f$ is then called the _attaching map_. 
 
-> (graphics taken from [AGP08, §3.1 ](#))
+> (graphics taken from [AGP08, §3.1](#AGP08))
 
 More [[category theory|abstractly]], space attachments are [[pushouts]] along [[monomorphisms]] in the [[category]] [[Top]] of all [[topological spaces]]. The [[formal dual|formally dual]] concept is that of [[fiber]] spaces or more generally of [[fiber products]] of topological spaces.
 
