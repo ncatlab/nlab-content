@@ -3,6 +3,8 @@
 
 * [Wikipedia entry](http://de.wikipedia.org/wiki/Steven_Weinberg)
 
+* Rohini M. Godbole, Urjit Yajnik: *Steven Weinberg (1933 - 2021)*, Current Science [**121** 5](https://www.currentscience.ac.in/show.issue.php?volume=121&issue=5) (10 Sep 2021) &lbrack;[arXiv:2302.02704](https://arxiv.org/abs/2302.02704)&rbrack;
+
 
 ## Selected writings
 
