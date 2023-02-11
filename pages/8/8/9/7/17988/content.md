@@ -141,6 +141,11 @@ Unitarity, causality and stability in Asymptotic Safety:
 
 * Alessia Platania _Causality, unitarity and stability in quantum gravity: a non-perturbative perspective_ ([arXiv:2206.04072](https://arxiv.org/abs/2206.04072))
 
+On [[black holes]] in the context of asymptotic safety:
+
+* Alessia Platania, *Black Holes in Asymptotically Safe Gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2302.04272](https://arxiv.org/abs/2302.04272)&rbrack;
+
+
 Relation to String Theory:
 
 * Senarath de Alwis, et al. _Asymptotic safety, string theory and the weak gravity conjecture_ ([arXiv:1907.07894](https://arxiv.org/abs/1907.07894))
