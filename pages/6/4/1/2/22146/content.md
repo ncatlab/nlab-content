@@ -17,6 +17,9 @@ Review:
 
 * Nur R. Ayukaryana, Mohammad H. Fauzi, Eddwi H. Hasdeo, _The quest and hope of Majorana zero modes in topological superconductor for fault-tolerant quantum computing: an introductory overview_ ([arXiv:2009.07764](https://arxiv.org/abs/2009.07764))
 
+* Yusuke Masaki, Takeshi Mizushima, Muneto Nitta, *Non-Abelian Anyons and Non-Abelian Vortices in Topological Superconductors* &lbrack;[arXiv:2301.11614](https://arxiv.org/abs/2301.11614)&rbrack;
+
+
 Further development:
 
 * Meng Cheng, Victor Galitski, [[Sankar Das Sarma]], _Non-adiabatic Effects in the Braiding of Non-Abelian Anyons in Topological Superconductors_, Phys. Rev. B 84, 104529 (2011) ([arXiv:1106.2549](https://arxiv.org/abs/1106.2549))
