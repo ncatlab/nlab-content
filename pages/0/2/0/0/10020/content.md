@@ -55,17 +55,20 @@ A general argument that in sectors of the [[AdS-CFT correspondence]] the [[confo
 
 The original article on the CS/WZW correspondence is
 
-* {#Witten89} [[Edward Witten]], _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([project EUCLID](http://projecteuclid.org/euclid.cmp/1104178138))
+* {#Witten89} [[Edward Witten]], _Quantum Field Theory and the Jones Polynomial_, Commun. Math. Phys. **121** 3 (1989) 351399 &lbrack;[euclid:.cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138), [doi:10.1007/BF01217730](https://doi.org/10.1007/BF01217730), MR0990772&rbrack;
 
-More details were developed in 
+More details worked out:
 
-* D. C. Cabra, G. L. Rossini, _Explicit connection between conformal field theory and 2+1 Chern-Simons theory_, Mod. Phys. Lett. A12 (1997) 1687-1697 ([arXiv:hep-th/9506054](https://arxiv.org/abs/hep-th/9506054))
+* [[Daniel C. Cabra]], [[Gerardo L. Rossini]], *Explicit connection between conformal field theory and 2+1 Chern-Simons theory*, Mod. Phys. Lett. A **12** (1997) 1687-1697 &lbrack;[arXiv:hep-th/9506054](https://arxiv.org/abs/hep-th/9506054), [doi:10.1142/S0217732397001722](https://doi.org/10.1142/S0217732397001722)&rbrack;
+
+  > (with motivation from [[Laughlin wavefunctions]] for [[anyons]] in [[condensed matter theory]])
 
 
-Reviews include
+Reviews:
 
-* {#Gawedzki99} [[Krzysztof Gawędzki]], around p. 30 of _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
- 
+* {#Gawedzki99} [[Krzysztof Gawędzki]], *Conformal field theory: a case study*, in Y. Nutku, C. Saclioglu, T. Turgut (eds.) *Conformal Field Theory -- New Non-perturbative Methods In String And Field Theory*, CRC Press (2000) &lbrack;[arXiv:hep-th/9904145](https://arxiv.org/abs/hep-th/9904145), [doi:10.1201/9780429502873](https://doi.org/10.1201/9780429502873)&rbrack;
+
+
 * {#Witten96} [[Edward Witten]], section 2 of _Five-Brane Effective Action In M-Theory_ J. Geom. Phys. 22: 103-133, 1997 ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
 
 The relation of this $CS_3/WZW_2$-duality to the [[AdS-CFT correspondence]] is discussed in
