@@ -19,32 +19,36 @@
 
 ## Definition
 
-Let $X$ and $X$ be [[smooth manifolds]] of finite [[dimension]].
-Let $f : X \to Y$ be a [[differentiable function]]. 
+Let $f \colon X \to Y$ be a [[differentiable function]]
+between [[smooth manifolds]] $X$ and $X$ of [[finite number|finite]] [[dimension]].
+
+We denote by $T X$,  $T Y$ the [[tangent bundles]] and by $(-)\times_Y (-)$ the [[fiber product]] of [[differentiable functions]] into $Y$. Notice that $f^\ast T Y \,=\, X \times_Y T Y$ is the [[pullback bundle]] of $T Y$ along $f$ to a [[real vector bundle]] over $X$.
 
 +-- {: .num_defn}
 ###### Definition
 
 
-A [[differentiable function]] $f : X \to Y$ is called an **immersion** precisely if the canonical morphism
+The [[differentiable function]] $f : X \to Y$ is called an **immersion** precisely if the canonical [[map]]
 
 $$
-  T X \to X \times_Y T Y \eqqcolon f^* T Y
+  T X \longrightarrow X \times_Y T Y \eqqcolon f^* T Y
 $$
 
 is a [[monomorphism]]. 
 
 =--
 
-This morphism is the one induced from the [[universal property]] of the [[pullback]] by the [[commuting diagram]]
+This map is the one induced from the [[universal property]] of the [[pullback]] by the [[commuting diagram]]
 
 $$
   \array{
-    T X &\stackrel{d f}{\to}& T Y
+    T X &\overset{d f}{\longrightarrow}& T Y
     \\
-    \downarrow && \downarrow
+    \big\downarrow 
+      && 
+    \big\downarrow
     \\
-    X &\stackrel{f}{\to}&  Y
+    X &\underset{f}{\longrightarrow}&  Y
   }
 $$
 
@@ -58,7 +62,7 @@ Equivalently this means the following:
 The function $f : X \to Y$ is an immersion precisely if for every point $x \in X$ the [[differential]] 
 
 $$
-  d f|_x : T_x X \to T_{f(x)} Y
+  d f|_x \;\colon\; T_x X \to T_{f(x)} Y
 $$ 
 
 between the [[tangent space]] of $X$ at $x$ and the tangent space of $Y$ at $f(y)$ is an [[injection]].
@@ -81,7 +85,7 @@ An immersion whose underlying [[continuous function]] is an [[embedding of topol
 <img src="https://ncatlab.org/nlab/files/Immersion.png" width="150">
 </div>
 
-Consider an immersion $f \;\colon\; (a,b) \to \mathbb{R}^2$ of an [[open interval]] into the [[Euclidean plane]] (or the [[2-sphere]]) as shown on the right. This is not a [[embedding of smooth manifolds]]: around the points where the image crosses itself, the function is not even injective, but even 
+Consider an immersion $f \;\colon\; (a,b) \to \mathbb{R}^2$ of an [[open interval]] into the [[Euclidean plane]] (or the [[2-sphere]]) as shown on the right. This is not an [[embedding of smooth manifolds]]: around the points where the image crosses itself, the function is not even injective, but even 
 at the points where it just touches itself, the pre-images under $f$ of open subsets of $\mathbb{R}^2$ do not exhaust the open subsets of $(a,b)$, hence do not yield the [[subspace topology]].
 
 <div style="float:left;margin:0 10px 10px 0;">
