@@ -7,7 +7,16 @@ Relating [[anyon|anyonic]] [[topological order|topologically ordered]] [[Laughli
 
 * {#MooreRead91} [[Gregory Moore]], [[Nicholas Read]], Section 2.2 of: *Nonabelions in the fractional quantum hall effect*, Nuclear Physics B **360** 2–3 (1991) 362-396 $[$<a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>, [pdf](https://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)$]$
 
+* {#Wen91} [[Xiao-Gang Wen]], *Non-Abelian statistics in the fractional quantum Hall states*, Phys. Rev. Lett. **66** (1991) 802 $[$[doi:10.1103/PhysRevLett.66.802](https://doi.org/10.1103/PhysRevLett.66.802), [pdf](https://xgwen.mit.edu/sites/default/files/documents/nab.pdf)$]$
+
+* B. Blok, [[Xiao-Gang Wen]], *Many-body systems with non-abelian statistics*, Nuclear Physics B **374** 3 (1992) 615-646 $[$<a href="https://doi.org/10.1016/0550-3213(92)90402-W">doi:10.1016/0550-3213(92)90402-W</a>$]$
+
 * [[Xiao-Gang Wen]], Yong-Shi Wu, *Chiral operator product algebra hidden in certain fractional quantum Hall wave functions*, Nucl. Phys. B **419** (1994) 455-479 $[$<a href="https://doi.org/10.1016/0550-3213(94)90340-9">doi:10.1016/0550-3213(94)90340-9</a>$]$
+
+Review in the broader context of the [[CS-WZW correspondence]]:
+
+* [[Daniel C. Cabra]], [[Gerardo L. Rossini]], *Explicit connection between conformal field theory and 2+1 Chern-Simons theory*, Mod. Phys. Lett. A **12** (1997) 1687-1697 $[$[arXiv:hep-th/9506054](https://arxiv.org/abs/hep-th/9506054), [doi:10.1142/S0217732397001722](https://doi.org/10.1142/S0217732397001722)$]$
+
 
 Specifically for [[logarithmic CFT]]:
 
