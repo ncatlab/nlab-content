@@ -209,7 +209,7 @@ The proposal that ground state degeneracy is a signature of "topological order":
 
 * {#WenNiu90} [[Xiao-Gang Wen]],  Q. Niu, *Ground-state degeneracy of the fractional quantum Hall states in the presence of a random potential and on high-genus Riemann surfaces*, Phys. Rev. B **41** (1990) 9377 $[$[doi:10.1103/PhysRevB.41.9377](https://doi.org/10.1103/PhysRevB.41.9377)$]$
 
-* {#Wen91} [[Xiao-Gang Wen]], *Non-Abelian statistics in the fractional quantum Hall states*, Phys. Rev. Lett. **66** (1991) 802 ([doi:10.1103/PhysRevLett.66.802](https://doi.org/10.1103/PhysRevLett.66.802))
+* {#Wen91} [[Xiao-Gang Wen]], *Non-Abelian statistics in the fractional quantum Hall states*, Phys. Rev. Lett. **66** (1991) 802 &lbrack;[doi:10.1103/PhysRevLett.66.802](https://doi.org/10.1103/PhysRevLett.66.802), [pdf](https://xgwen.mit.edu/sites/default/files/documents/nab.pdf)&rbrack;
 
 * {#Wen93} [[Xiao-Gang Wen]], *Topological order and edge structure of $\nu = 1/2$ quantum Hall state*, Phys. Rev. Lett. **70** (1993) 355 $[$[doi:10.1103/PhysRevLett.70.355](https://doi.org/10.1103/PhysRevLett.70.355)$]$
 
