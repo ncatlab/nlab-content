@@ -2221,3 +2221,24 @@ Concretely, consider the function $\big([[sin]](2-), sin(-)\big) \;\colon\; (-\p
 \color{black}
 \end{tikzcd}
 
+## Level 2
+
+The following are equivalent:
+
+\begin{itemize}
+\item A;
+\item B;
+\item C.
+\end{itemize}
+
+The following are equivalent:
+
+* $\mathrm{A}$;
+
+* $x_\bullet \to x$;
+
+* C.
+
+\begin{theorem}
+Assuming the axiom of choice, I can.
+\end{theorem}
