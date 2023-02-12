@@ -241,6 +241,11 @@ In the context of [[topological quantum computation]]:
 
 * [[Eric Rowell]], [[Zhenghan Wang]], Section 4 of: _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
 
+In the context of [[chemistry]]:
+
+* Bradlyn et al. *Topological quantum chemistry*, Nature **547** (2017) 298–305 &lbrack;[doi:10.1038/nature23268](https://doi.org/10.1038/nature23268)&rbrack;
+
+
 
 ### Early discovery articles
 
