@@ -20,9 +20,9 @@
 ## Definition
 
 Let $f \colon X \to Y$ be a [[differentiable function]]
-between [[smooth manifolds]] $X$ and $X$ of [[finite number|finite]] [[dimension]].
+between [[smooth manifolds]] (or just [[differentiable manifolds]]) of [[finite number|finite]] [[dimension]].
 
-We denote by $T X$,  $T Y$ the [[tangent bundles]] and by $(-)\times_Y (-)$ the [[fiber product]] of [[differentiable functions]] into $Y$. Notice that $f^\ast T Y \,=\, X \times_Y T Y$ is the [[pullback bundle]] of $T Y$ along $f$ to a [[real vector bundle]] over $X$.
+We denote by $T X$,  $T Y$ the [[tangent bundles]] and by $(-)\times_Y (-)$ the [[fiber product]] of [[differentiable functions]] into $Y$. In particular, $f^\ast T Y \,=\, X \times_Y T Y$ is the [[pullback bundle]] of $T Y$ along $f$ to a [[real vector bundle]] over $X$.
 
 +-- {: .num_defn}
 ###### Definition
@@ -81,25 +81,24 @@ An immersion whose underlying [[continuous function]] is an [[embedding of topol
 ###### Example
 **(immersions that are not embeddings)**
 
-<div style="float:right;margin:0 10px 10px 0;">
+<div style="float:right;margin:0px 10px 10px 10px;">
 <img src="https://ncatlab.org/nlab/files/Immersion.png" width="150">
 </div>
 
-Consider an immersion $f \;\colon\; (a,b) \to \mathbb{R}^2$ of an [[open interval]] into the [[Euclidean plane]] (or the [[2-sphere]]) as shown on the right. This is not an [[embedding of smooth manifolds]]: around the points where the image crosses itself, the function is not even injective, but even 
+Consider an immersion $f \;\colon\; (a,b) \to \mathbb{R}^2$ of an [[open interval]] into the [[Euclidean plane]] (or the [[2-sphere]]) as shown on the right. This is not an [[embedding of smooth manifolds]]: around the points where the image crosses itself, the function is not even [[injective]], but even 
 at the points where it just touches itself, the pre-images under $f$ of open subsets of $\mathbb{R}^2$ do not exhaust the open subsets of $(a,b)$, hence do not yield the [[subspace topology]].
 
-<div style="float:left;margin:0 10px 10px 0;">
+<div style="float:left;margin:10px 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/Figure8Immersion.png" width="400">
 </div>
 
-As a concrete examples, consider the function  $(sin(2-), sin(-)) \;\colon\; (-\pi, \pi) \longrightarrow \mathbb{R}^2$. While this is an immersion and [[injective]], it fails to be an embedding due to the points at $t = \pm \pi$ "touching" the point at $t = 0$.
+Concretely, consider the function $\big($[[sin]]$(2-),$ [[sin]]$(-)\big) \;\colon\; (-\pi, \pi) \longrightarrow \mathbb{R}^2$. While this is an immersion and [[injective]], it fails to be an [[embedding of smooth manifolds|embedding]] due to the points at $t = \pm \pi$ "touching" the point at $t = 0$.
 
-> graphics grabbed from <a href="https://books.google.de/books?id=xygVcKGPsNwC&lpg=PP1&pg=PA86&redir_esc=y#v=onepage&q&f=false">Lee</a>
-
+> figure from [Lee (2012, Fig. 4.3)](#Lee12)
 
 =--
 
-
+\linebreak
 
 ## Properties
 
@@ -136,6 +135,14 @@ The analogue between arbitrary [[topological spaces]] (not manifolds) is simply 
 * [[embedding of smooth manifolds]]
 
 * [[regular value]]
+
+
+## References
+
+
+* {#Lee12} [[John Lee]], Chapter 4 of: *Introduction to Smooth Manifolds*, Springer (2012) &lbrack;[doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/), [pdf](https://math.berkeley.edu/~jchaidez/materials/reu/lee_smooth_manifolds.pdf)&rbrack;
+
+
 
 [[!redirects immersion of differentiable manifolds]]
 [[!redirects immersions of differentiable manifolds]]
