@@ -1,4 +1,6 @@
 
+Concretely, consider the function $\big([[sin]](2-), sin(-)\big) \;\colon\; (-\pi, \pi) \longrightarrow \mathbb{R}^2$. While this is an immersion and [[injective]], it fails to be an [[embedding of smooth manifolds|embedding]] due to the points at $t = \pm \pi$ "touching" the point at $t = 0$.
+
 
 
 \begin{tikzcd}
