@@ -376,7 +376,7 @@ A basic introduction also to the super-WZW model (and with an eye towards the co
 
 A useful account of the WZW model that encompasses both its [[action functional]] and [[path integral]] quantization as well as the [[current algebra]] aspects of the QFT is in
 
-* {#Gawedzki99} [[Krzysztof Gawedzki]], _Conformal field theory: a case study_ in Y. Nutku, C. Saclioglu, T. Turgut (eds.) _Frontier in Physics_ 102, Perseus Publishing (2000) ([hep-th/9904145](http://xxx.lanl.gov/abs/hep-th/9904145))
+* {#Gawedzki99} [[Krzysztof Gawędzki]], *Conformal field theory: a case study*, in Y. Nutku, C. Saclioglu, T. Turgut (eds.) *Conformal Field Theory -- New Non-perturbative Methods In String And Field Theory*, CRC Press (2000) &lbrack;[arXiv:hep-th/9904145](https://arxiv.org/abs/hep-th/9904145), [doi:10.1201/9780429502873](https://doi.org/10.1201/9780429502873)&rbrack;
 
 This starts in section 2 as a warmup with describing the 1d QFT of a particle propagating on a group manifold. The [[Hilbert space]] of [[states]] is expressed in terms of the [[Lie theory]] of $G$ and its [[Lie algebra]] $\mathfrak{g}$.
 
