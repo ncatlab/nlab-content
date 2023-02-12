@@ -38,6 +38,9 @@ The additional requirement that the Berry connection be non-abelian (and/or the 
 
 On understanding generalized [[Laughlin wavefunctions]] as [[conformal blocks]]:
 
+* B. Blok, [[Xiao-Gang Wen]], *Many-body systems with non-abelian statistics*, Nuclear Physics B **374** 3 (1992) 615-646 $[$<a href="https://doi.org/10.1016/0550-3213(92)90402-W">doi:10.1016/0550-3213(92)90402-W</a>$]$
+
+
 * [[Xiao-Gang Wen]], Yong-Shi Wu, *Chiral operator product algebra hidden in certain fractional quantum Hall wave functions*, Nucl. Phys. B **419** (1994) 455-479 $[$<a href="https://doi.org/10.1016/0550-3213(94)90340-9">doi:10.1016/0550-3213(94)90340-9</a>$]$
 
 Suggestion that [[topological order]] goes along with [[long-range entanglement]]:
