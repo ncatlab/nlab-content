@@ -158,7 +158,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 </a>
 </center>
 
-> $\phantom{-----}$ (logo adapted from [JMP **62** (2021) 042301](/schreiber/show/Twisted+Cohomotopy+implies+twisted+String+structure+on+M5-branes))
+> $\phantom{-----}$ &lbrack;logo adapted from [JMP **62** (2021) 042301](/schreiber/show/Twisted+Cohomotopy+implies+twisted+String+structure+on+M5-branes)&rbrack;
 
 
 \linebreak
@@ -167,7 +167,9 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 * 24 Feb 2023 (upcoming)
 
-  **TII/CQTS workshop**
+  **CQTS and TII Workshop**
+
+  > on [[quantum materials]], [[quantum computation]] and [[quantum programming]]
 
 \linebreak
 
@@ -175,13 +177,22 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 * 15-18 Mar 2023 (upcoming)
 
-  **Geometric/Topological Quantum Field Theories and Cobordisms**
+  **Quantum Field Theories and Cobordisms 2023**
 
   > on [[functorial quantum field theory]], [[knot homology]] and [[cobordism theory]]/[[cobordism categories]]/[[cobordism hypothesis]]
 
 
 \linebreak
 
+### Apr 2023
+
+* 27 Apr - 1 Mar 2023 (upcoming)
+
+  **[NYUAD Hackaton on Quantum Computing](https://nyuad.nyu.edu/en/events/2023/april/nyuad-hackathon-event.html)** 2023
+
+  > on [[quantum computing]]/[[quantum programming]]
+
+\linebreak
 
 ### May 2023
 
