@@ -164,7 +164,7 @@ Basics are recalled for instance in
 
 * Fernando Falceto, [[Krzysztof Gawedzki]], _Chern-Simons States at Genus One_, Commun.Math.Phys. 159 (1994) 549-580 ([arXiv:hep-th/9211003](http://arxiv.org/abs/hep-th/9211003))
 
-* {#Gawedzki99} [[Krzysztof Gawedzki]], _Conformal field theory: a case study_ in Y. Nutku, C. Saclioglu, T. Turgut (eds.) _Frontier in Physics_ 102, Perseus Publishing (2000) ([hep-th/9904145](http://xxx.lanl.gov/abs/hep-th/9904145))
+* {#Gawedzki99} [[Krzysztof Gawedzki]], *Conformal field theory: a case study*, in Y. Nutku, C. Saclioglu, T. Turgut (eds.) *Conformal Field Theory -- New Non-perturbative Methods In String And Field Theory*, CRC Press (2000) &lbrack;[arXiv:hep-th/9904145](https://arxiv.org/abs/hep-th/9904145), [doi:10.1201/9780429502873](https://doi.org/10.1201/9780429502873)&rbrack;
 
 * Yasuhiro Abe, _Application of abelian holonomy formalism to the elementary theory of numbers_ ([arXiv:1005.4299](http://arxiv.org/abs/1005.4299))
 
@@ -243,3 +243,7 @@ Another approach is
 [[!redirects quantization of Chern-Simons theory]]
 
 [[!redirects perturbative quantization of 3d Chern-Simons theory]]
+
+
+[[!redirects quantum Chern-Simons theory]]
+
