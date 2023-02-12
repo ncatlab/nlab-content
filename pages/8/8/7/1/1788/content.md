@@ -2242,3 +2242,13 @@ The following are equivalent:
 \begin{theorem}
 Assuming the axiom of choice, I can.
 \end{theorem}
+
+### Level 3
+
+# Level 1
+
+
+\begin{tikzcd}
+a \rar \dar & b \dar \\
+c \rar & c
+\end{tikzcd}
