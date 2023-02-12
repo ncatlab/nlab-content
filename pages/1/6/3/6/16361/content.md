@@ -83,6 +83,12 @@ After its motivation from [[D-brane]] reaction processes, the study of [[triangu
 
 * {#BaezNet} [[John Baez]], [chemical reaction networks](http://math.ucr.edu/home/baez/networks/)
 
+On chemical [[topological phases of matter]] ("topological materials"):
+
+* Bradlyn et al. *Topological quantum chemistry*, Nature **547** (2017) 298–305 &lbrack;[doi:10.1038/nature23268](https://doi.org/10.1038/nature23268)&rbrack;
+
+On some kind of "chemistry" of [[D-brane]] reactions in [[topological string theory]]:
+
 * {#Aspinwall04} [[Paul Aspinwall]], _D-Branes on Calabi-Yau Manifolds_ ([arXiv:hep-th/0403166](https://arxiv.org/abs/hep-th/0403166))
 
 
