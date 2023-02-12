@@ -2252,3 +2252,6 @@ Assuming the axiom of choice, I can.
 a \rar \dar & b \dar \\
 c \rar & c
 \end{tikzcd}
+
+1. Yes
+1. No
