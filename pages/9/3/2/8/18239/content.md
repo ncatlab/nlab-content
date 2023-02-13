@@ -55,7 +55,7 @@ Such $f$ is proper iff for every net $x_\bullet \in X$ and every $y \in Y$, if $
  {#UsingClosedness}
 
 
-Recall that, equivaletly, a [[topological space]] $X$ is [[compact topological space|compact]] if and only if the [[projection map]] 
+Recall that, equivalently, a [[topological space]] $X$ is [[compact topological space|compact]] if and only if the [[projection map]] 
 
 $$
   X \times Z \longrightarrow Z
@@ -136,12 +136,12 @@ The notion of compact space is subject to naming ambiguity. For the same notion,
 
 For _properness_ the situation is _worse_ as there are three competing definitions. We have defined the one similar to _quasi-compact_ spaces.
 
-In addition one could require $f$ to be separated, that is to require that if a net $x_\bullet$ converges to both $x_1$ and $x_2$ with $f(x_1) = f(x_2)$, then $x_1 = x_2$. This definition of properness ressembles the one used in algebraic geometry: see [[ proper morphism ]]. It is also the one to be used in the proper base change theorem.
+In addition one could require $f$ to be separated, that is to require that if a net $x_\bullet$ converges to both $x_1$ and $x_2$ with $f(x_1) = f(x_2)$, then $x_1 = x_2$. This definition of properness resembles the one used in algebraic geometry: see [[ proper morphism ]]. It is also the one to be used in the proper base change theorem.
 
 Finally, some authors use a weaker version of properness, where $f \colon X \to Y$ is proper when $f^{-1}(K)$ is compact for every compact $K \subset Y$. But as explained below, this definition is usually used in situations where these maps are always closed.
 \end{remark} 
 
-## Further criterions
+## Further criteria
 
 A continuous map $f \colon X \to Y$ such that $f^{-1}(K)$ is compact for every compact $K \subset Y$ may not be closed. However this is very often the case in practice: for example when $Y$ is a metric space or a locally compact separated space.
 
@@ -176,7 +176,7 @@ then $f$ is proper.
 Proper maps enjoy analogous properties as [[compact topological spaces]] do, for example the product of proper maps is again proper:
 
 \begin{theorem}
-Let $\{f_i \colon X_i \to Y_i\}_{i \in I}$ be a small [[indexed family]] of continuous proper maps (Def. \ref{ProperContinuous}), then their [[functor|funcotrial]] [[product topological space|product]]
+Let $\{f_i \colon X_i \to Y_i\}_{i \in I}$ be a small [[indexed family]] of continuous proper maps (Def. \ref{ProperContinuous}), then their [[functor|functorial]] [[product topological space|product]]
 
 $$
   \prod_{i \in I} \,f_i 
