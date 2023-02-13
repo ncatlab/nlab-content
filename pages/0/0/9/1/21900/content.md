@@ -18,7 +18,7 @@ On [[12-dimensional supergravity]], [[D=14 supersymmetry]] et al. and further in
 
 Relation to the [[Monster group]], [[Moonshine]] and the [[Monster vertex operator algebra]]:
 
-* [[Alessio Marrani]], [[Michael Rios]], [[David Chester]], _Monstrous M-theory_ ([arXiv:2008.06742](https://arxiv.org/abs/2008.06742))
+* [[Alessio Marrani]], [[Michael Rios]], [[David Chester]], *Monstrous M-theory*, Symmetry **15** 2 (2023) 490; &lbrack;[doi:10.3390/sym15020490](https://doi.org/10.3390/sym15020490), [arXiv:2008.06742](https://arxiv.org/abs/2008.06742)&rbrack;
 
 On [[quasicrystals]] as a substrate for [[topological quantum computation]] with [[Fibonacci anyons]]:
 
