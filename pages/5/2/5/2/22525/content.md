@@ -63,6 +63,10 @@ See also:
 * Wikipedia, *[Hyperbolic Geometry -- Hyperbolic Tesselations](https://mathstat.slu.edu/escher/index.php
 /Hyperbolic_Geometry#Hyperbolic_Tessellations)*
 
+Claim of a hyperbolic tessalation approximated by a [[photonic crystal]]:
+
+* Alicia J. Kollár, Mattias Fitzpatrick, Andrew A. Houck, *Hyperbolic Lattices in Circuit Quantum Electrodynamics*, Nature **571**  (2019) 45–50 &lbrack;[arXiv:1802.09549](https://arxiv.org/abs/1802.09549), [doi:10.1038/s41586-019-1348-3](https://doi.org/10.1038/s41586-019-1348-3)&rbrack;
+
 ### Via inflation rules
 
 On iterative constructions of hyperbolic tesselations from "inflation rules":
