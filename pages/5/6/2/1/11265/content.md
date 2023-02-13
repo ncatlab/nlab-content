@@ -14,6 +14,7 @@
 =--
 
 
+
 # Contents
 * table of contents
 {: toc}
@@ -37,10 +38,9 @@ For more see the references at *[[real number]]* and at *[[constructive analysis
 
 * [[Chee-Keng Yap]], [[Thomas Dubé]], *The exact computation paradigm*,  in: *Computing in Euclidean Geometry*, Lecture Notes Series on Computing, World Scientific (1995) 452-492  &lbrack;[doi:10.1142/9789812831699_0011](https://doi.org/10.1142/9789812831699_0011), [[YapDube-ExactComputationParadigm.pdf:file]]&rbrack;
 
-
 * [[Jean Vuillemin]], *Exact real computer arithmetic with continued fractions*, in *LFP '88: Proceedings of the 1988 ACM conference on LISP and functional programming* (1988) 14–27 &lbrack;[doi:10.1145/62678.62681](https://doi.org/10.1145/62678.62681)&rbrack;
 
-* Peter Potts, Abbas Edalat, _Exact real computer arithmetic_, 1997 [pdf](http://www.doc.ic.ac.uk/research/technicalreports/1997/DTR97-9.pdf)
+* Peter Potts, Abbas Edalat, *Exact real computer arithmetic* (1997) &lbrack;[pdf](http://www.doc.ic.ac.uk/research/technicalreports/1997/DTR97-9.pdf), [[PottsEdalat-ExactRealComputerArithmetic.pdf:file]]&rbrack;
 
 * Dave Plume (supervised by [[Martín Escardó]], [[Alex Simpson]]): *A Calculator for Exact Real Number Computation*, University of Edinburgh  (1998) &lbrack;[web](https://www.dcs.ed.ac.uk/home/mhe/plume/)&rbrack;
 
