@@ -521,7 +521,7 @@ This emphasises the adjunction corresponding to the homotopy coherent ("simplici
 
 A review of this latter aspect is also in
 
-* Vivek Dhand, _The simplicial nerve of a simplicial category_ ([pdf](http://www.math.msu.edu/~dhand/sSet.pdf))
+* Vivek Dhand, _The simplicial nerve of a simplicial category_ ([pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=374dc56d9a4352b8f9f71cc12dd7331e9285bb0c))
 
 * Mitya Boyarchenko, _Notes and exercise on $\infty$-categories_ ([pdf](http://math.uchicago.edu/~mitya/langlands/quasicategories.pdf))
 
