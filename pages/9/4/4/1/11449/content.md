@@ -69,7 +69,7 @@ On the [[differential K-theory]] for KO:
 
 On the full [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[KO-theory|orthogonal]] [[topological K-theory|K-theory]]:
 
-* {#GradySati19} Daniel Grady, [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
+* {#GradySati19} [[Daniel Grady]], [[Hisham Sati]], _Twisted differential KO-theory_ &lbrack;[arXiv:1905.09085](https://arxiv.org/abs/1905.09085)&rbrack;
 
 ### For D-brane charge 
 
