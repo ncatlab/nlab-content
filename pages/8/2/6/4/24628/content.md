@@ -105,6 +105,13 @@ See also:
 
 * Wikipedia, *[Photonic crystal](https://en.wikipedia.org/wiki/Photonic_crystal)*
 
+Claim of photonic [[hyperbolic tesselations]]:
+
+* Alicia J. Kollár, Mattias Fitzpatrick, Andrew A. Houck, *Hyperbolic Lattices in Circuit Quantum Electrodynamics*, Nature **571**  (2019) 45–50 &lbrack;[arXiv:1802.09549](https://arxiv.org/abs/1802.09549), [doi:10.1038/s41586-019-1348-3](https://doi.org/10.1038/s41586-019-1348-3)&rbrack;
+
+
+
+
 ### Topological photonics
  {#ReferencesTopologicalPhotonics}
 
