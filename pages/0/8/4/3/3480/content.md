@@ -165,7 +165,7 @@ $$
     Aut_{PSh(PSh(\mathbf{B}G)^{op})} Y_{\mathbf{PSh(\mathbf{B}G)^{op}}} Y_{\mathbf{B}G} *
     \\
     & \simeq
-    Aut_{PSh(\mathbf{B}G)^{op})} Y_{\mathbf{B}G} *
+    Aut_{PSh(\mathbf{B}G)^{op}} Y_{\mathbf{B}G} *
     \\
     & \simeq
     Aut_{\mathbf{B}G} *
