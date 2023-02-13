@@ -106,7 +106,7 @@ in Combinatorics, Paul Erd&#337;s is Eighty, Bolyai Society Mathematical Studies
 
 Possible relation to [[bosonic M-theory]]:
 
-* [[Alessio Marrani]], [[Michael Rios]], [[David Chester]], _Monstrous M-theory_ ([arXiv:2008.06742](https://arxiv.org/abs/2008.06742))
+* [[Alessio Marrani]], [[Michael Rios]], [[David Chester]], *Monstrous M-theory*, Symmetry **15** 2 (2023) 490; &lbrack;[doi:10.3390/sym15020490](https://doi.org/10.3390/sym15020490), [arXiv:2008.06742](https://arxiv.org/abs/2008.06742)&rbrack;
 
 
 <div style="float:right;margin:0 20px 10px 20px;"><img width = "80" src="http://t0.gstatic.com/images?q=tbn:nJNML0QhNiejuM:http://open.salon.com/files/cookie-monster3-7769871237963363.jpg
