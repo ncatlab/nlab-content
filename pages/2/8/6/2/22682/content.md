@@ -7,6 +7,10 @@ On [[linear representations]] of braid groups (see also at *[[braid group statis
 
 Review:
 
+* [[Chen Ning Yang]], M. L. Ge (eds.). *Braid Group, Knot Theory and Statistical Mechanics*, Advanced Series in Mathematical Physics **9**, World Scientific (1991) $[$[doi:10.1142/0796](https://doi.org/10.1142/0796)$]$
+
+  > (focus on [[quantum Yang-Baxter equation]])
+
 * [[Camilo Arias Abad]], *Introduction to representations of braid groups*, Rev. colomb. mat. vol.49 no.1 (2015) ([arXiv:1404.0724](https://arxiv.org/abs/1404.0724), [doi:10.15446/recolma.v49n1.54160](https://doi.org/10.15446/recolma.v49n1.54160))
 
 * [[Toshitake Kohno]], *Introduction to representation theory of braid groups*, Peking 2018 ([pdf](https://www.math.pku.edu.cn/misc/puremath/summerschool/Peking_SummerSchool_kohno.pdf), [[KohnoBraidRepresentations.pdf:file]])
