@@ -1,9 +1,17 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Chen_Ning_Yang)
 
+## Selected writings
+
 Introducing [[Yang-Mills theory]] (eventually: [[quantum chromodynamics]]):
 
 * [[Chen Ning Yang]], [[Robert Mills]], _Conservation of Isotopic Spin and Isotopic Gauge Invariance_. Physical Review 96 (1): 191&#8211; 195. (1954) ([web](http://prola.aps.org/abstract/PR/v96/i1/p191_1))
+
+On the [[braid group]], [[knot theory]] and [[braid representations]] via the [[quantum Yang-Baxter equation]]:
+
+* [[Chen Ning Yang]], M. L. Ge (eds.). *Braid Group, Knot Theory and Statistical Mechanics*, Advanced Series in Mathematical Physics **9**, World Scientific (1991) &lbrack;[doi:10.1142/0796](https://doi.org/10.1142/0796)&rbrack;
+
+
 
 ## Quotes
  {#Quotes}
