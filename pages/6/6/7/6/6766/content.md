@@ -68,6 +68,11 @@ The original articles:
 
 * [[Daniel Friedan]], [[Stephen Shenker]], *The analytic geometry of two-dimensional conformal field theory*, Nuclear Physics B281 (1987) ([pdf](http://www.physics.rutgers.edu/~friedan/papers/Nucl_Phys_B281_509_1987.pdf))
 
+Textbook account, specifically for the [[su(2)|$\mathfrak{su}()2$]]/[[sl(2)|$\mathfrak{sl}(2,\mathbb{Z})$]]-[[WZW model]]:
+
+* [[Philippe Di Francesco]], Pierre Mathieu, David Sénéchal: §15.3.2, §15.4 in: *Conformal field theory*, Springer (1997) &lbrack;[doi:10.1007/978-1-4612-2256-9](https://doi.org/10.1007/978-1-4612-2256-9)&rbrack;
+
+
 Relation to [[braid representations]]:
 
 * {#TodorovHadjiivanov01} [[Ivan Todorov]], [[Ludmil Hadjiivanov]], *Monodromy Representations of the Braid Group*, Phys. Atom. Nucl. **64** (2001) 2059-2068; Yad.Fiz. **64** (2001) 2149-2158 &lbrack;[arXiv:hep-th/0012099](https://arxiv.org/abs/hep-th/0012099), [doi:10.1134/1.1432899](https://doi.org/10.1134/1.1432899)&rbrack;
@@ -123,9 +128,8 @@ In relation to [[hypergeometric functions]] and [[quantum groups]] (for more see
 
 See also
 
-* wikipedia [Knizhnik-Zamolodchikov equations](http://en.wikipedia.org/wiki/Knizhnik&#8211;Zamolodchikov_equations)
+* Wikipedia, *[Knizhnik-Zamolodchikov equations](http://en.wikipedia.org/wiki/Knizhnik&#8211;Zamolodchikov_equations)*
 
-* Philippe Di Francesco,Pierre Mathieu,David S&#233;n&#233;chal, _Conformal field theory_, Springer 1997
 
 * I. B. Frenkel, N. Yu. Reshetikihin, _Quantum affine algebras and holonomic diference equations_, Comm. Math. Phys. __146__ (1992), 1-60, [MR94c:17024](http://www.ams.org/mathscinet-getitem?mr=94c:17024)
 
