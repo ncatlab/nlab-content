@@ -49,8 +49,6 @@ reviewed in:
 * [[Alessio Marrani]], *Exceptional super Yang-Mills in $27 + 3$ and worldvolume M-theory*, talk at *[M-Theory and mathematics 2023](https://ncatlab.org/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (Jan, 2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Marrani2023)&rbrack;
 
 
-
-
 Relation to the [[Monster group]], [[Moonshine]] and the [[Monster vertex operator algebra]]:
 
-* [[Alessio Marrani]], [[Michael Rios]], [[David Chester]], _Monstrous M-theory_ ([arXiv:2008.06742](https://arxiv.org/abs/2008.06742))
+* [[Alessio Marrani]], [[Michael Rios]], [[David Chester]], *Monstrous M-theory*, Symmetry **15** 2 (2023) 490; &lbrack;[doi:10.3390/sym15020490](https://doi.org/10.3390/sym15020490), [arXiv:2008.06742](https://arxiv.org/abs/2008.06742)&rbrack;
