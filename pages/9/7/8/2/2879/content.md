@@ -103,7 +103,7 @@ A different and more widely used concept was developed independently in these tw
 
 * [[G. Böhm]], _An alternative notion of Hopf algebroid_; in "Hopf algebras in noncommutative geometry and physics",  31--53, Lecture Notes in Pure and Appl. Math. __239__, Dekker, New York, 2005; <a href="http://arxiv.org/abs/math.QA/0301169"> math.QA/0301169 </a>
 
-* [[R. Street]], [[B. Day]], Quantum categories, star autonomy, and quantum groupoids, in "Galois Theory, Hopf Algebras, and Semiabelian Categories", Fields Institute Communications __43__ (American Math. Soc. 2004) 187-226; <a href = "http://arxiv.org/abs/math/0301209">arXiv:0301209</a>
+* [[R. Street]], [[B. Day]], Quantum categories, star autonomy, and quantum groupoids, in "Galois Theory, Hopf Algebras, and Semiabelian Categories", Fields Institute Communications __43__ (American Math. Soc. 2004) 187-226; <a href = "http://arxiv.org/abs/math/0301209">arXiv:math/0301209</a>
 
 and also described in:
 
