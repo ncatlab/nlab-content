@@ -49,7 +49,7 @@ The above quote is from:
 
 * {#Streicher93} [[Thomas Streicher]], p. 1-2 of: *Investigations into Intensional Type Theory*, Habilitation Thesis, Darmstadt (1993) &lbrack;[pdf](https://www2.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf), [[Streicher-IntensionalTT.pdf:file]]&rbrack;
 
-which otherwise is about [[intensional type theory|intensional]] [[dependent type theory]]/
+which otherwise is about [[intensional type theory|intensional]] [[dependent type theory]].
 
 
 [[!redirects Hoare logics]]
