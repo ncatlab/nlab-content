@@ -18,63 +18,120 @@
 
 ## Idea
 
-Properness is compactness, but for continuous functions.
-Compactness for topological spaces can described in multiple ways; the same applies to properness. Let us see two lines of intuition for the definition of proper maps, following two equivalent definitions of compact spaces.
+In [[topology]], the notion of *properness* is that of [[compact topological space|compactness]], but generalized from [[topological spaces]] to [[continuous functions]] between them. 
 
-### Using nets
+## Definition
 
-A topological space $X$ is compact when every [[ net ]] $x_\bullet$ has a cluster point in $X$. Equivalently, it is compact when every net admits a convergent subnet.
+Just like there are various equivalent ways of characterizing [[compact topological spaces]], there are also various equivalent ways of characterizing proper functions.
 
-A generalisation of this characterisation to a continuous map $f \colon X \to Y$ would then be:
+In the following we discuss:
 
-$f$ is proper when for every net $x_\bullet$ in $X$ and for every cluster point $y$ of $f(x_\bullet)$, $x_\bullet$ has a cluster point $x \in X$ with $f(x) = y$.
+* [characterization via nets](#UsingNets),
 
-Or equivalently, $f$ is proper when for every net $x_\bullet \in X$ and every $y \in Y$, if $f(x_\bullet)$ converges to $y$ then $x_\bullet$ admits a subnet converging to $x \in X$ with $f(x) = y$.
+* [characterization via closedness](#UsingClosedness),
 
-### Using closeness
+* [further characterizations](#FurtherCharacterizations).
 
-A topological space $X$ is compact if and only if the projection map
-$$X \times Z \longrightarrow Z$$
-is closed for every topological space $Z$.
+### Via nets
+ {#UsingNets}
 
-Then one can extend this property by defining a proper map $f \colon X \to Y$ to be a continuous map such that
-$$ f \times \mathrm{Id}_Z \colon X \times Z \longrightarrow Y \times Z$$
-is closed for every topological space $Z$.
+Recall that for a [[topological space]] $X$ to be [[compact topological space|compact]] means for every [[ net ]] $x_\bullet$ in $X$ to have a [[cluster point]] in $X$; hence for every net to admits a [[convergence of a net|convergent]] subnet.
 
-## Definitions
+A generalisation of this characterisation to a [[continuous map]] $f \colon X \to Y$ is the following:
 
-\begin{theorem}
-Given a continuous function $f \colon X \to Y$, the following properties are
-equivalent:
+\begin{definition}
+\label{PropernessViaNets}
 
-1. For every net $x_\bullet$ in $X$ and every cluster point $y$ of $f(x_\bullet)$, $x_\bullet$ admits a cluster point $x$ with $f(x) = y$;
+A [[continuous map]] $f \,\colon\, X \to Y$ is *proper* iff for every [[net]] $x_\bullet$ in $X$ and for every [[cluster point]] $y$ of $f(x_\bullet)$ in $Y$, the net $x_\bullet$ has a [[cluster point]] $x \in X$ with $f(x) = y$.
 
-1. If $\mathcal{F}$ is a [[ filter ]] on $X$ and if $y$ is a cluster point of $f(\mathcal{F})$, then $\mathcal{F}$ has a cluster point $x \in X$ with $f(x) = y$;
+Equivalently:
 
-1. $f \times \mathrm{Id}_Z \colon X \times Z \to Y \times Z$ is closed for every topological space $Z$;
+Such $f$ is proper iff for every net $x_\bullet \in X$ and every $y \in Y$, if $f(x_\bullet)$ [[convergence of a net|converges]] to $y$ then $x_\bullet$ admits a subnet [[convergence of a net|converging]] to $x \in X$ with $f(x) = y$.
 
-1. __([[ universally closed morphism | universally closed ]])__ For every continuous map $g \colon Z \to Y$, the resulting pullback map
-\[g^\ast(f) \colon X \times_Y Z \to Z\]
-is closed;
-
-1. $f$ is closed and $f^{-1}(y)$ is compact for every $y \in Y$;
-
-1. $f$ is closed and $f^{-1}(K)$ is compact for every compact $K \subset Y$.
-
-\end{theorem}
+\end{definition}
 
 
+### Via closedness
+ {#UsingClosedness}
 
-+-- {: .num_defn #ProperContinuous}
-###### Definition
+
+Recall that, equivaletly, a [[topological space]] $X$ is [[compact topological space|compact]] if and only if the [[projection map]] 
+
+$$
+  X \times Z \longrightarrow Z
+$$
+
+out of the [[product topological space]] with some $Z$
+is a [[closed map]], for every [[topological space]] $Z$.
+
+\begin{definition}
+\label{PropernessViaClosedness}
+
+A [[continuous map]]  $f \,\colon\, X \to Y$  is *proper* iff its image under the [[Cartesian product]]-[[functor]]
+
+$$ 
+  f \times \mathrm{Id}_Z 
+   \;\colon\; 
+  X \times Z 
+   \;\longrightarrow\; 
+  Y \times Z
+$$
+
+is a [[closed map]] for every [[topological space]] $Z$.
+
+\end{definition}
+
+
+### Further characterizations
+ {#FurtherCharacterizations}
+
+\begin{proposition}
+\label{EquivalenceOfCharacterization}
+Given a [[continuous map]] $f \colon X \to Y$, the following properties are all equivalent:
+
+1. (Def. \ref{PropernessViaNets}) 
+
+   For every [[net]] $x_\bullet$ in $X$ and every [[cluster point]] $y$ of $f(x_\bullet)$, the net $x_\bullet$ admits a cluster point $x$ with $f(x) = y$.
+
+
+1. (Def. \ref{PropernessViaClosedness}) 
+
+   The image $f \times \mathrm{Id}_Z \,\colon\, X \times Z \to Y \times Z$ under the [[Cartesian product]]-[[functor]] is a [[closed map]] for every topological space $Z$.
+
+1. ([[universally closed morphism|universally closed]]) 
+   
+   For every [[continuous map]] $g \colon Z \to Y$, the resulting [[pullback]] map
+
+   \[
+      g^\ast(f) 
+        \;\colon\; 
+      X \times_Y Z \to Z
+   \]
+
+   is a [[closed map]];
+
+1. If $\mathcal{F}$ is a [[filter]] on $X$ and if $y$ is a [[cluster point]] of $f(\mathcal{F})$, then $\mathcal{F}$ has a cluster point $x \in X$ with $f(x) = y$;
+
+1. $f$ is a [[closed map]] and the [[inverse image]] $f^{-1}\big(\{y\}\big)$ of every $y \in Y$ is [[compact topological space|compact]]. 
+
+1. $f$ is a [[closed map]] and the [[inverse image]] $f^{-1}(K)$ of every [[compact subspace]] $K \subset Y$ is [[compact topological space|compact]].
+
+\end{proposition}
+
+
+\begin{definition}
+\label{ProperContinuous}
 **([[proper maps]])**
-
+\linebreak
 A [[continuous function]] $f  \colon X \to Y$
-is called _[[proper map|proper]]_ if it satisfies one of the equivalent properties listed above.
+is called _[[proper map|proper]]_ if it satisfies one of the equivalent properties listed in Prop. \ref{EquivalenceOfCharacterization}.
 
-=--
+\end{definition}
 
-\begin{remark} __(Ambiguous terminology)__
+
+\begin{remark} 
+**(Ambiguous terminology)**
+\linebreak
 The notion of compact space is subject to naming ambiguity. For the same notion, some authors will use the term _quasi-compact_, using _compact_ only when the space is also separated.
 
 For _properness_ the situation is _worse_ as there are three competing definitions. We have defined the one similar to _quasi-compact_ spaces.
@@ -84,7 +141,7 @@ In addition one could require $f$ to be separated, that is to require that if a 
 Finally, some authors use a weaker version of properness, where $f \colon X \to Y$ is proper when $f^{-1}(K)$ is compact for every compact $K \subset Y$. But as explained below, this definition is usually used in situations where these maps are always closed.
 \end{remark} 
 
-## Criterions for properness
+## Further criterions
 
 A continuous map $f \colon X \to Y$ such that $f^{-1}(K)$ is compact for every compact $K \subset Y$ may not be closed. However this is very often the case in practice: for example when $Y$ is a metric space or a locally compact separated space.
 
@@ -116,14 +173,19 @@ then $f$ is proper.
 
 ## Properties
 
-Proper maps enjoy similar properties as compact spaces do, for example their product is proper.
+Proper maps enjoy analogous properties as [[compact topological spaces]] do, for example the product of proper maps is again proper:
 
 \begin{theorem}
-Let $\{f_i \colon X_i \to Y_i\}_{i \in I}$ be a small family of continuous proper maps, then their product
+Let $\{f_i \colon X_i \to Y_i\}_{i \in I}$ be a small [[indexed family]] of continuous proper maps (Def. \ref{ProperContinuous}), then their [[functor|funcotrial]] [[product topological space|product]]
+
 $$
-\prod_{i \in I}f_i \colon \prod_{i \in I} X_i \longrightarrow \prod_{i \in I} Y_i
+  \prod_{i \in I} \,f_i 
+    \;\colon\; 
+  \prod_{i \in I} \, X_i 
+  \longrightarrow 
+  \prod_{i \in I} Y_i
 $$
-is proper.
+is also a proper map.
 \end{theorem}
 
 
