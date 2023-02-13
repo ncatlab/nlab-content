@@ -9,7 +9,7 @@ Introducing [[Yang-Mills theory]] (eventually: [[quantum chromodynamics]]):
 
 On the [[braid group]], [[knot theory]] and [[braid representations]] via the [[quantum Yang-Baxter equation]]:
 
-* [[Chen Ning Yang]], M. L. Ge (eds.). *Braid Group, Knot Theory and Statistical Mechanics*, Advanced Series in Mathematical Physics **9**, World Scientific (1991) &lbrack;[doi:10.1142/0796](https://doi.org/10.1142/0796)&rbrack;
+* [[Chen Ning Yang]], M. L. Ge (eds.), *Braid Group, Knot Theory and Statistical Mechanics*, Advanced Series in Mathematical Physics **9**, World Scientific (1991) &lbrack;[doi:10.1142/0796](https://doi.org/10.1142/0796)&rbrack;
 
 
 
