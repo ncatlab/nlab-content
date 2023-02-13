@@ -2,7 +2,7 @@
 
 [webpage](https://diliberti.github.io)
 
-## Sekected writings
+## Selected writings
 
 On [[judgements]], [[natural deduction]] and [[dependent type theory]]:
 
