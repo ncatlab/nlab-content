@@ -377,7 +377,7 @@ It turns out that for modeling additional [[type-forming operations]], however, 
 
 Given $E\to C$, one construction due to [[Benabou]] (called the "right adjoint splitting"), defines $E'\to C$, where the objects of $E'$ over $\Gamma\in C$ are functors $C/\Gamma \to E$ over $C$ which map every morphism of $C/\Gamma$ to a cartesian arrow.  Type-theoretically, we can think of such an object as a type together with *specified* compatible substitutions along any possible morphism.  That type-formers may be extended in this case was proven by [[Martin Hofmann]] for [[dependent sums]] and [[dependent products]] and the [[identity types]] of [[extensional type theory]].  But this is not generally possible for the identity types of [[intensional type theory]] (particularly not their [[term elimination|eliminator]]), which do not have a 1-categorical universal property and hence are not stable under pullback up to isomorphism.
 
-A different construction (due to [[John Power]], called the "left adjoint splitting") defines an object of $E'$ over $\Gamma\in C$ to consist of a morphism $f:\Gamma \to \Delta$ in $C$ along with an object $A$ of $E$ over $\Delta$.  Type-theoretically, we can regard $(f,A)$ as a type $A$ with a "delayed substitution" $f$.  This produces a split fibration (the chosen cartesian arrows are given by composition of morphisms in $C$), and it was proven by [Lumsdaine and Warren](#LumsdaineWarren13) that essentially all type formers can be extended to it from $E$.
+A different construction (due to [[John Power]], called the "left adjoint splitting") defines an object of $E'$ over $\Gamma\in C$ to consist of a morphism $f:\Gamma \to \Delta$ in $C$ along with an object $A$ of $E$ over $\Delta$.  Type-theoretically, we can regard $(f,A)$ as a type $A$ with a "delayed substitution" $f$.  This produces a split fibration (the chosen cartesian arrows are given by composition of morphisms in $C$), and it was proven by [Lumsdaine & Warren (2015)](#LumsdaineWarren13) that essentially all type formers can be extended to it from $E$.
 
 =--
 
@@ -611,7 +611,7 @@ and
 
 See also:
 
-* {#LumsdaineWarren13} [[Peter LeFanu Lumsdaine]], [[Michael Warren]], _The local universes model: An overlooked coherence construction for dependent type theory_, [arXiv:1411.1736](https://arxiv.org/abs/1411.1736), ACM Transactions on Computational Logic.
+* {#LumsdaineWarren13} [[Peter LeFanu Lumsdaine]], [[Michael Warren]], *The local universes model: An overlooked coherence construction for dependent type theory*, ACM Trans. Comput. Log., **16** 3 no 23 (2015) 1-31 &lbrack;[arXiv:1411.1736](https://arxiv.org/abs/1411.1736), [doi:10.1145/2754931](https://doi.org/10.1145/2754931)&rbrack; 
 
 * [[Vladimir Voevodsky]], [Notes on type systems](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/expressions_current.pdf)
 
@@ -649,13 +649,18 @@ An equivalence between contextual categories and [B-systems](#Voevodsky14) is in
 [[!redirects categorical model of dependent type theory]]
 [[!redirects categorical models of dependent type theory]]
 
+[[!redirects categorical semantics of dependent types]]
+[[!redirects categorical semantics of dependent type theory]]
+
+
 [[!redirects categorical model of dependent types]]
 [[!redirects categorical models of dependent types]]
 [[!redirects category-theoretic model of dependent types]]
 [[!redirects category-theoretic models of dependent types]]
 [[!redirects split model of type theory]]
 [[!redirects split models of type theory]]
-[[!redirects categorical semantics of dependent types]]
+
+
 [[!redirects category-theoretic semantics of dependent types]]
 
 [[!redirects comprehension category]]
