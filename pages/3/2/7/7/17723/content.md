@@ -15,3 +15,5 @@ On [[quotient types]] and [[higher inductive types]]:
 * [[inductive-inductive type]]
 
 category: people
+
+[[!redirects Fredrik Nordvall Forsberg]]
