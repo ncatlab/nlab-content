@@ -820,7 +820,7 @@ Early development:
 * Donald W. Kahn, _The spectral sequence of a Postnikov system_, Comm. Math. Helv. 40, n.1, 169--198, 1965 [doi](http://dx.doi.org/10.1007/BF02564370)
 
 * P. I. Booth, _An explicit classification of three-stage Postnikov towers_, Homology, homotopy and applications 8 (2006), No. 2, 133--155
-* [[G. J. Ellis]] and R. Mikhailov, _A colimit of classifying spaces_, [arXiv:0804.3581](http://www.arxiv.org/abs/0804.3581).
+* [[G. J. Ellis]] and R. Mikhailov, *A colimit of classifying spaces* &lbrack;[arXiv:0804.3581](http://www.arxiv.org/abs/0804.3581)&rbrack;
 
 Probably the earliest treatment of Postnikov systems for [[simplicial sets]] is in
 
