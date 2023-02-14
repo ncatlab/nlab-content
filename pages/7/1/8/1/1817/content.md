@@ -1,4 +1,7 @@
-__&#1052;&#1080;&#1093;&#1072;&#1080;&#1083; &#1052;&#1080;&#1093;&#1072;&#1081;&#1083;&#1086;&#1074;&#1080;&#1095; &#1055;&#1086;&#1089;&#1090;&#1085;&#1080;&#1082;&#1086;&#1074;__, (that is _Mihail Mihajlovi&#269; Postnikov_ (in a slavistic transliteration as in ISO9 or G. Shevelov, A prehistory of Slavic, Columbia 1965) or _Mikhail Mikhailovich Postnikov_) is a former Russian (Soviet) topologist (27.10.1927--27.5.2004) and a professor at MGU until his sudden death.
+
+* [MacTutor biography](https://mathshistory.st-andrews.ac.uk/Biographies/Postnikov/)
+
+__Михаил Михайлович Постников__, (that is _Mihail Mihajlovi&#269; Postnikov_ (in a slavistic transliteration as in ISO9 or G. Shevelov, A prehistory of Slavic, Columbia 1965) or _Mikhail Mikhailovich Postnikov_) is a former Russian (Soviet) topologist (27.10.1927--27.5.2004) and a professor at MGU until his sudden death.
 
 His thesis under the mentorship of [[L. S. Pontrjagin]] ([ru.wiki](http://ru.wikipedia.org/wiki/&#1055;&#1086;&#1085;&#1090;&#1088;&#1103;&#1075;&#1080;&#1085;,_&#1051;&#1077;&#1074;_&#1057;&#1077;&#1084;&#1105;&#1085;&#1086;&#1074;&#1080;&#1095;)), contained a construction of a homotopical decomposition of a topological space into a tower of [[fibration]]s (now called a [[Postnikov tower]]) and cohomological invariants ([[Postnikov invariant]]s) which together with the tower form a "system" ([[Postnikov system]]). The use of these data enabled him to effectively encode the full [[homotopy type]] of a space. 
 
