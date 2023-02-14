@@ -137,6 +137,8 @@ specifically with [[Quipper]]:
 
 * {#FKRS20} [[Peng Fu]], [[Kohei Kishida]], [[Neil Ross]], [[Peter Selinger]],  _A Tutorial Introduction to Quantum Circuit Programming in Dependently Typed Proto-Quipper_, in I. Lanese, M. Rawski  (eds.) _Reversible Computation_ RC 2020. Lecture Notes in Computer Science, vol 12227 ([arXiv:2005.08396](https://arxiv.org/abs/2005.08396), [doi:10.1007/978-3-030-52482-1_9](https://doi.org/10.1007/978-3-030-52482-1_9))
 
+See also [QS](https://ncatlab.org/schreiber/show/QS).
+
 On quantum [[software verification]]:
 
 with [[Quipper]]:
