@@ -23,7 +23,8 @@
 
 ## Idea
 
-In the [[categorical semantics]] of [[dependent type theory]] in some suitable [[category]] $\mathcal{C}$ (see at _[[relation between category theory and type theory]]_) a [[type]] $X$ in the empty [[context]] is usually interpreted as an [[object]] $[X]$ in the given target [[category]], such that the unique [[morphism]] $[X]\to \ast$ to the [[terminal object]] (which interprets the [[unit type]]) is a special morphism called a [[display map]]. Specifically in the context of [[homotopy type theory]] display maps are typically [[fibrations]] with respect to some [[homotopical category]] structure on $\mathcal{C}$ (for instance the structure of a [[category of fibrant objects]] or even that of a [[model category]], in particular that of a [[type-theoretic model category]]). Since in $\mathcal{C}$ objects $[X]$ for which $[X] \to \ast$ is a [[fibration]] are called _[[fibrant objects]]_, one may then call a type which is to be interpreted this way as a _fibrant type_.
+In the [[categorical semantics]] of [[dependent type theory]] in some suitable [[category]] $\mathcal{C}$ (see at _[[relation between category theory and type theory]]_) a [[type]] $X$ in the empty [[context]] is usually interpreted as an [[object]] $[X]$ in the given target [[category]], such that the unique [[morphism]] $[X]\to \ast$ to the [[terminal object]] (which interprets the [[unit type]]) is a special morphism called a [[display map]]. Specifically in the context of [[homotopy type theory]] display maps are typically [[fibrations]] with respect to some [[homotopical category]] structure on $\mathcal{C}$ (for instance the structure of a [[category of fibrant objects]] or even that of a [[model category]], in particular that of a [[type-theoretic model category]]). Since in $\mathcal{C}$ objects $[X]$ for which $[X] \to \ast$ is a [[fibration]] are called _[[fibrant objects]]_, one may then call a closed type which is to be interpreted this way as a _fibrant type_.
+More generally, an open type $T$ in context $\Gamma$ is called _fibrant_ if $[\Gamma.T] \to [\Gamma]$ is a fibration.
 
 Usually _all_ types are required to be interpreted this way, and hence often the term "fibrant type" is not used, since often non-fibrant types are never considered. 
 
@@ -32,5 +33,6 @@ However in general one may want to consider flavors of [[dependent type theory]]
 ## Related concepts
 
 * [[fibrant replacement]]
+* [[contextual fibrancy]]
 
 [[!redirects fibrant types]]
