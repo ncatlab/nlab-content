@@ -81,7 +81,9 @@ This has the possibility of leading to computations, by applying [[van Kampen th
 
 ## Related concepts
 
-* [[n-groupoid]], [[n-truncated object in an (∞,1)-category]]
+* [[n-groupoid]]
+
+* [[n-truncated object in an (∞,1)-category]]
 
 * [[model structure for homotopy n-types]]
 
@@ -101,11 +103,13 @@ Discussion in traditional [[homotopy theory]]:
 
 ### In homotopy type theory
 
-Discussion in [[homotopy type theory]]:
+Discussion of [[homotopy n-types|homotopy $n$-types]]/[[n-truncated object in an (infinity,1)-category|$n$-truncated objects]] in [[homotopy type theory]]:
 
 * [[Univalent Foundations Project]], §7 of: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
 * [[Nicolai Kraus]], *Truncation levels in Homotopy Type Theory*, Nottingham (2015) &lbrack;[pdf](https://eprints.nottingham.ac.uk/28986/1/thesis.pdf), [eprints:28986](https://eprints.nottingham.ac.uk/28986)&rbrack;
+
+* [[Felix Cherubini]], [[Egbert Rijke]], Thm. 3.10 of: *Modal Descent*, Mathematical Structures in Computer Science , **31** 4 (2021) 363-391  &lbrack;[doi:10.1017/S0960129520000201](https://doi.org/10.1017/S0960129520000201), [arXiv:2003.09713](https://arxiv.org/abs/2003.09713)&rbrack;
 
 
 
