@@ -134,6 +134,12 @@ A new proof of the [[Strøm model structure]] using algebraic weak factorization
 
 * {#BarthelRiehl13} [[Tobias Barthel]], [[Emily Riehl]], _On the construction of functorial factorizations for model categories_, Algebr. Geom. Topol. 13 (2013) 1089-1124 ([arXiv:1204.5427](http://arxiv.org/abs/1204.5427), [doi:10.2140/agt.2013.13.1089](http://dx.doi.org/10.2140/agt.2013.13.1089), [euclid:agt/1513715550](https://projecteuclid.org/euclid.agt/1513715550))
 
+Introductory texts:
+
+* {#Riehl2008} [[Emily Riehl]], [_Factorization Systems_](https://math.jhu.edu/~eriehl/factorization.pdf), 2008
+* The following dissertation section is entirely written after learning from Riehl's note above, but has complementary examples and may dive deeper into some proofs:
+  * {#Nuyts2020} [[Andreas Nuyts]], _Contributions to Multimode and Presheaf Type Theory, section 2.4: Factorization Systems_, [PhD thesis](https://lirias.kuleuven.be/retrieve/581985), KU Leuven, Belgium, 2020
+
 
 [[!redirects natural weak factorisation system]]
 [[!redirects natural weak factorisation systems]]
