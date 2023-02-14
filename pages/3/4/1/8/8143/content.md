@@ -25,6 +25,8 @@ If the factorization is functorial, then it yields a **fibrant replacement funct
 ## Related concepts
 
 * [[functorial factorization]]
+* [[algebraic weak factorization system]]
+* [[contextual fibrancy]]
 
 
 
