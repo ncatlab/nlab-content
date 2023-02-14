@@ -116,6 +116,11 @@ Given a [[continuous map]] $f \colon X \to Y$, the following properties are all 
 
    The image $f \times \mathrm{Id}_Z \,\colon\, X \times Z \to Y \times Z$ under the [[Cartesian product]]-[[functor]] is a [[closed map]] for every topological space $Z$;
 
+
+1. (Def. \ref{PropernessAsAContinuousFamilyOfCompactFibres})
+
+   $f$ is a [[closed map]] and the [[inverse image]] $f^{-1}\big(\{y\}\big)$ of every $y \in Y$ is [[compact topological space|compact]];
+
 1. ([[universally closed morphism|universally closed]]) 
    
    For every [[continuous map]] $g \colon Z \to Y$, the resulting [[pullback]] map
@@ -128,9 +133,6 @@ Given a [[continuous map]] $f \colon X \to Y$, the following properties are all 
 
    is a [[closed map]];
 
-1. (Def. \ref{PropernessAsAContinuousFamilyOfCompactFibres})
-
-   $f$ is a [[closed map]] and the [[inverse image]] $f^{-1}\big(\{y\}\big)$ of every $y \in Y$ is [[compact topological space|compact]];
 
 1. $f$ is a [[closed map]] and the [[inverse image]] $f^{-1}(K)$ of every [[compact subspace]] $K \subset Y$ is [[compact topological space|compact]].
 
