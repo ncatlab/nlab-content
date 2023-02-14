@@ -58,6 +58,8 @@ Review:
 
 * S. F. King, S. Moretti, R. Nevzorov, _A Review of the Exceptional Supersymmetric Standard Model_ ([arXiv:2002.02788](https://arxiv.org/abs/2002.02788))
 
+* [[Michael Dine]], _Supersymmetry and string theory: beyond the standard model_, Cambridge University Press (2006, 2007) &lbrack;[ISBN:9781009290920](https://www.cambridge.org/ae/academic/subjects/physics/particle-physics-and-nuclear-physics/supersymmetry-and-string-theory-beyond-standard-model-2nd-edition?format=HB), [pdf](http://www.nucleares.unam.mx/~alberto/apuntes/dine.pdf)&rbrack;
+
 
 
 ### Relation to flavour anomalies
