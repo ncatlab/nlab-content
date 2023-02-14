@@ -138,6 +138,10 @@ Cartesian theories were introduced under different names in the early seventies 
 
 * {#Johnstone02}[[Peter Johnstone]], _Sketches of an [[Elephant]] II_ , Oxford UP 2002. (Around D1.3.4 p.833)
 
+A short introductory/overview note:
+
+* {#keml-diagrams} [[Andreas Nuyts]], _Understanding Universal Algebra Using Kleisli-Eilenberg-Moore-Lawvere Diagrams_, [note](https://anuyts.github.io/files/keml-diagrams.pdf)
+
 [[!redirects essentially algebraic]]
 [[!redirects essentially algebraic theory]]
 [[!redirects essentially algebraic theories]]
