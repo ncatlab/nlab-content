@@ -1,5 +1,5 @@
 
-* [webpage](http://www.gdi.uni-bamberg.de/personnel/mendler/index.htm)
+* [webpage](https://www.uni-bamberg.de/gdi/team/michael-mendler/)
 
 ## Related entries
 
