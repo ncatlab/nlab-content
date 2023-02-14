@@ -51,3 +51,14 @@ The intended meaning is that the head of the stream is available now while the t
 A general calculus for dependent modal type theories.
 
 *  Ranald Clouston, Bassel Mannaa, Rasmus Ejlers Møgelberg, Andrew M. Pitts, [[Bas Spitters]], _Modal Dependent Type Theory and Dependent Right Adjoints_ [arxiv](https://arxiv.org/abs/1804.05236)
+
+
+
+[[!redirects guarded recursions]]
+
+[[!redirects guarded recursive]]
+
+
+
+
+
