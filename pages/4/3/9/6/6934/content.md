@@ -6,12 +6,13 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
-#### Constructivism, Realizability, Computability
+#### Constructivism, Computability
 +-- {: .hide}
 [[!include constructivism - contents]]
 =--
 =--
 =--
+
 
 
 #Contents#
@@ -23,7 +24,8 @@
 A [[dependent type|dependently typed]] [[functional programming language]] with applications to [[certified programming]]. It is also  used as a [[proof assistant]]. 
 
 Besides [[Coq]], Agda is one of the languages in which [[homotopy type theory]] has been implemented ([Brunerie](#Brunerie)).
-Agda can be compiled to Haskell, Epic or Javascript.
+
+Agda can be compiled to [[Haskell]], Epic or Javascript.
 
 ## Variants
 
@@ -104,49 +106,105 @@ Since Agda has many experimental features under active development, bugs in thes
 ## References
  {#References}
 
-Agda originates with:
+### General
+
+Agda landing page:
+
+* [wiki.portal.chalmers.se/agda/pmwiki.php](http://wiki.portal.chalmers.se/agda/pmwiki.php)
+
+Plain Agda originates with:
 
 * [[Ulf Norell]], _Towards a practical programming language based on dependent type theory_, PhD thesis (2007) &lbrack;[pdf](https://www.cse.chalmers.se/~ulfn/papers/thesis.pdf), [[Norell-PracticalDTT.pdf:file]]&rbrack;
 
 * [[Ulf Norell]], *Dependently Typed Programming in Agda*, in: *Advanced Functional Programming* AFP 2008, Lecture Notes in Computer Science **5832** (2009) 230-266 &lbrack;[doi:10.1007/978-3-642-04652-0_5](https://doi.org/10.1007/978-3-642-04652-0_5), [pdf](https://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf)&rbrack;
 
-
-General information on Agda:
-
-* [Agda Wiki](http://wiki.portal.chalmers.se/agda/pmwiki.php)
-
-* _['Hello World!' in Adga](http://progopedia.com/example/hello-world/251/)_
-
-* _[learn-you-an-agda (and achieve enlightment)](https://github.com/liamoc/learn-you-an-agda)_
-
-* [[Dan Licata]], Ian Voysey, _[Programming and proving in Agda](http://www.cs.cmu.edu/~drl/teaching/oplss13/)_
-
 Textbook account:
 
 * [[Aaron Stump]], *Verified Functional Programming in Agda*, Association for Computing Machinery and Morgan & Claypool (2016) &lbrack;[doi:10.1145/2841316](https://doi.org/10.1145/2841316), ISBN:978-1-970001-27-3&rbrack;
 
-Introductions:
 
-* [[Peter Selinger]], *Lectures on Agda* (2021) &lbrack;[web](https://www.mathstat.dal.ca/~selinger/agda-lectures/)&rbrack;
-
-and as implementation of [[homotopy type theory]]/[[univalent foundations of mathematics]]:
-
-* {#Brunerie} [[Guillaume Brunerie]], _Agda for homotopy type theory_ ([web](https://github.com/guillaumebrunerie/HoTT/tree/master/Agda/tutorial))
- 
-* [[Guillaume Brunerie]], _The Agda proof assistant_ (2012) &lbrack; slides: [pdf](http://web.archive.org/web/20160101212359/http://uf-ias-2012.wikispaces.com/file/view/agda.pdf/390147250/agda.pdf)&rbrack;
-
-* [[Martín Hötzel Escardó]], *Introduction to Univalent Foundations of Mathematics with Agda* (2019) &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580), [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)&rbrack;
-
-and specifically of [[Cubical Agda]] as an implementation of [[cubical type theory]]:
+[[Cubical Agda]] (an implementation of [[cubical type theory]], for [[univalence axiom|univalently]] computing [[homotopy type theory]]) originates with:
 
 * [[Anders Mörtberg]], *Cubical Agda* (2018) &lbrack;[blog post](https://homotopytypetheory.org/2018/12/06/cubical-agda)&rbrack;
 
 * {#VMA19} [[Andrea Vezzosi]], [[Anders Mörtberg]], [[Andreas Abel]], *Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types*, Proceedings of the ACM on Programming Languages **3** ICFP 87  (2019) 1–29 &lbrack;[doi:10.1145/3341691](https://doi.org/10.1145/3341691), [pdf](https://www.cse.chalmers.se/~abela/icfp19.pdf)&rbrack;
 
+### Libraries
 
-The HoTT-Agda library is at
+Libraries for/with [[homotopy type theory]]/[[univalent foundations of mathematics]]:
 
-* github, _[hott-agda](https://github.com/hott/hott-agda/)_
+* original HoTT library: [github.com/hott/hott-agda](https://github.com/hott/hott-agda)
+
+* [[UniMath project]]: [unimath.github.io/agda-unimath](https://unimath.github.io/agda-unimath)
+
+* [[1lab]]
+
+  > (motivated towards [[univalent categories]])
+
+E.g. on [[group theory]] (cf. *[[Symmetry]]*):
+
+* [[UniMath project]]: [agda-unimath/src/group-theory](https://github.com/UniMath/agda-unimath/tree/master/src/group-theory)
+
+
+Implementation of [[Cauchy real numbers]] (in [[Errett Bishop|Bishop]]-style [[constructive analysis]]) in [[Agda]] (cf. *[[exact real computer arithmetic]]*):
+
+* [[Martin Lundfall]], *Formalizing real numbers in Agda* (2015) &lbrack;<a href="https://wcl.cs.rpi.edu/pilots/library/papers/TAGGED/4211-Lundfall%20(2015)%20-%20Formalizing%20Real%20Numbers%20in%20Agda.pdf">pdf</a>, [[Lundfall-RealNumbersInAgda.pdf:file]], [github](https://github.com/MrChico/Reals-in-agda)&rbrack;
+
+* [[Zachary Murray]], *Constructive Analysis in the Agda Proof Assistant* &lbrack;[arXiv:2205.08354](https://arxiv.org/abs/2205.08354), [github](https://github.com/z-murray/honours-project-constructive-analysis-in-agda)&rbrack;
+
+
+
+### Introductions
+ {#Introductions}
+
+#### Quick expositions 
+ {#Expositions}
+
+* _['Hello World!' in Adga](http://progopedia.com/example/hello-world/251/)_
+
+* [[Guillaume Brunerie]], _The Agda proof assistant_ (2012) &lbrack;slides:[[Brunerie-AgdaProofAssistant.pdf:file]]&rbrack;
+
+* [[Scott Fleischman]], *Agda from Nothing*, talk at λC (2016) &lbrack;[video 1](https://www.youtube.com/watch?v=-i-QQ36Nfsk&list=PLCqzQM-xq02Uv4OmcckrFsIyZ20hWEeAx&index=7), [video 2](https://www.youtube.com/watch?v=XprGyVWXwks)&rbrack;
+
+* [[Philip Wadler]], *(Programming Languages) in Agda = Programming (Languages in Agda)*, talk at *Codegram* (Sep 2019) &lbrack;[video](https://www.youtube.com/watch?v=R49VgxNLmsY&t=372s)&rbrack;
+
+* [[Fredrik Nordvall Forsberg]], *The basic syntax of Agda*, talk at CS410 Advanced Functional Programming (2021) &lbrack;[video](https://www.youtube.com/watch?v=yreLHTXwkts)&rbrack;
+
+
+ 
+On [[cubical Agda]]:
+
+* [[Andrea Vezzosi]], *Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types* (2019) &lbrack;[video](https://www.youtube.com/watch?v=AZ8wMIar-_c)&rbrack;
+
+#### Tutorials & Lectures
+
+General:
+
+* *Learn you an Agda* (2011) &lbrack;[web](http://learnyouanagda.liamoc.net/pages/introduction.html), [github](https://github.com/liamoc/learn-you-an-agda)&rbrack;
+
+* [[Dan Licata]], Ian Voysey, _[Programming and proving in Agda](http://www.cs.cmu.edu/~drl/teaching/oplss13/)_, course material (2013)
+
+* [[Peter Selinger]], *Lectures on Agda* (2021) &lbrack;[web](https://www.mathstat.dal.ca/~selinger/agda-lectures/)&rbrack;
+
+
+With emphasis on implementing [[homotopy type theory]] and [[univalent foundations of mathematics]]:
+
+* {#Brunerie} [[Guillaume Brunerie]], _Agda for homotopy type theory_ &lbrack;[github](https://github.com/guillaumebrunerie/HoTT/tree/master/Agda/tutorial)&rbrack;
+
+
+* [[Martín Hötzel Escardó]], *Introduction to Univalent Foundations of Mathematics with Agda* (2019) &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580), [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)&rbrack;
+
+
+
+
+
+
+
+
+
+
+
+
 
 category: software
 
