@@ -70,7 +70,7 @@ An original article collecting all the weak/strong electric/magnetic dualities i
 * {#Schwarz97} [[John Schwarz]], _Lectures on Superstring and M Theory Dualities_, Nucl. Phys. Proc. Suppl. 55B:1-32, 1997 ([arXiv:hep-th/9607201](https://arxiv.org/abs/hep-th/9607201))
 
 
-* [[Michael Dine]], _String Theory Dualities_ ([arXiv:hep-th/9609051](https://arxiv.org/abs/hep-th/9609051))
+* [[Michael Dine]], _String Theory Dualities_ &lbrack;[arXiv:hep-th/9609051](https://arxiv.org/abs/hep-th/9609051)&rbrack;
 
 * {#AlvarezGaume98} [[Luis Alvarez-Gaumé]], Frederic Zamora, _Duality in Quantum Field Theory (and String Theory)_, AIP Conference Proceedings 423, 46 (1998) ([arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180))
 
