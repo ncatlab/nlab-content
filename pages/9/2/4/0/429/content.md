@@ -71,6 +71,6 @@ As with the category-theoretic understanding of many other branches of mathemati
 
 A short introductory/overview note:
 
-* {#keml-diagrams} [[Andreas Nuyts]], _Understanding Universal Algebra Using Kleisli-Eilenberg-Moore-Lawvere Diagrams_, [note](https://anuyts.github.io/files/keml-diagrams.pdf)
+* {#keml-diagrams} [[Andreas Nuyts]], _Understanding Universal Algebra Using Kleisli-Eilenberg-Moore-Lawvere Diagrams_, (2022) &lbrack;[pdf](https://anuyts.github.io/files/keml-diagrams.pdf)&rbrack;
 
 [[!redirects universal algebras]]
