@@ -143,7 +143,18 @@ Finally, some authors use a weaker version of properness, where $f \colon X \to 
 
 ## Further criteria
 
-A continuous map $f \colon X \to Y$ such that $f^{-1}(K)$ is compact for every compact $K \subset Y$ may not be closed. However this is very often the case in practice: for example when $Y$ is a metric space or a locally compact separated space.
+A continuous map $f \colon X \to Y$ such that $f^{-1}(K)$ is compact for every compact $K \subset Y$ may not be closed; even when both $X$ and $Y$ are very nice spaces like $\mathbf{T}_5$ spaces.
+
+\begin{example}
+Let $X$ be an uncountable set and let $p \in X$. Let's still write $X$ for the discrete topological space associated to it. Let $X_p$ denote the topological space whose underlying set is $X$ but whose opens sets are either all the sets not containing $p$ or the sets containing $p$ with countable complement in $X$.
+
+Then $X_p$ is a $\mathbf{T}_5$ topological space and its compact subsets are all finite.
+But the identity map
+$$ X \longrightarrow X_p$$
+ is not closed.
+\end{example}
+
+However this is very often the case in practice: for example when $Y$ is a metric space or a locally compact separated space.
 
 \begin{proposition}
 Let $f \colon X \to Y$ be a continuous map such that
