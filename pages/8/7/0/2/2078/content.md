@@ -10,11 +10,14 @@ __Peter Tennant Johnstone__ is a Professor of Mathematics at the University of C
 
 ## External links
 
-*  [home page](https://www.dpmms.cam.ac.uk/people/ptj1000)
+* [university page](https://www.dpmms.cam.ac.uk/person/ptj1000)
+
+* [archived university page](https://web.archive.org/web/20160527024824/https://www.dpmms.cam.ac.uk/people/ptj1000/)
 
 
 category: people
 
+[[!redirects Johnstone]]
 [[!redirects P. T. Johnstone]]
 [[!redirects P. Johnstone]]
 [[!redirects Peter Tennant Johnstone]]
