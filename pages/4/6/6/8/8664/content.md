@@ -62,7 +62,13 @@ Essentially this idea appears earlier in:
 
 In the context of [[categorical semantics]] for [[univalence|univalent]] [[homotopy type theory]], the combination of terminology "model topos" with *[[type-theoretic model category]]* to *type-theoretic model topos*:
 
-* {#Shulman19} [[Michael Shulman]], §1.3 in: _All $(\infty,1)$-toposes have strict univalent universes_ ([arXiv:1904.07004](https://arxiv.org/abs/1904.07004)).
+* {#Shulman19} [[Michael Shulman]], §1.3 in: _All $(\infty,1)$-toposes have strict univalent universes_ ([arXiv:1904.07004](https://arxiv.org/abs/1904.07004))
+
+reviewed in
+
+
+* {#Riehl22} [[Emily Riehl]], §6.1 of: *On the $\infty$-topos semantics of homotopy type theory*, lecture at *[Logic and higher structures](https://conferences.cirm-math.fr/2689.html)* CIRM (Feb. 2022) &lbrack;[pdf](https://emilyriehl.github.io/files/semantics.pdf), [[Riehl-InfinityToposSemantics.pdf:file]]&rbrack;
+
 
 
 [[!redirects model toposes]]
