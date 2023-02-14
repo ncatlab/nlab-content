@@ -234,10 +234,30 @@ is also a proper map.
 
 * [[proper equivariant homotopy theory]]
 
+## References
+
+One of the early reference on proper maps is
+
+* [[Nicolas Bourbaki]], _Topologie Générale_ (Éléments de Mathématique, Livre III), Chapitres 1 à 2.  Second Edition, 1951.  Actualites Sci. Ind. 1142, Hermann, Paris.
+
+A considerable expanded treatment is given in the third edition, see Chapter I, Section 10:
+
+* [[Nicolas Bourbaki]], _Topologie Générale_ (Éléments de Mathématique, Livre III), Chapitres 1 à 2.  Third Edition, 1961.  Actualites Sci. Ind. 1142, Hermann, Paris.
+
+English translation of the 1971 edition:
+
+* [[Nicolas Bourbaki]], _General Topology_ (Elements of Mathematics), Chapters 1–4.  Springer, 1987.
+
+The localic version of proper maps was introduced by [[Johnstone]]:
+
+* [[Peter Johnstone]], _Factorization and pullback theorems for localic geometric morphisms_, Univ. Cath. de Louvain, Sem. de math, pure, Rapport no. 79.
+
+* [[Peter Johnstone]], _The Gleason cover of a topos, II_, Journal of Pure and Applied Algebra 22:3 (1981), 229–247.  [doi](http://dx.doi.org/10.1016/0022-4049(81)90100-6).
+
+
 [[!redirects proper maps]]
 [[!redirects proper continuous map]]
 [[!redirects proper continuous maps]]
 
 [[!redirects proper continuous function]]
 [[!redirects proper continuous functions]]
-
