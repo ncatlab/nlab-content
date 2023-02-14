@@ -559,6 +559,10 @@ Lawvere theories, and finitary monads, are identified with certain [[enriched ca
 
 * [[Richard Garner]] and [[John Power]], *An enriched view on the extended finitary monad--Lawvere theory correspondence*, 2017, [arxiv](https://arxiv.org/abs/1707.08694)
 
+A short introductory/overview note:
+
+* {#keml-diagrams} [[Andreas Nuyts]], _Understanding Universal Algebra Using Kleisli-Eilenberg-Moore-Lawvere Diagrams_, [note](https://anuyts.github.io/files/keml-diagrams.pdf)
+
 
 [[!redirects lawvere theory]]
 [[!redirects Lawvere theory]]
