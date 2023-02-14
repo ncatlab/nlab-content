@@ -24,7 +24,9 @@ On [[modal homotopy type theory]]:
 
 * {#RSS} [[Egbert Rijke]], [[Mike Shulman]], [[Bas Spitters]], _Modalities in homotopy type theory_,  Logical Methods in Computer Science, January 8, 2020, Volume 16, Issue 1 ([arXiv:1706.07526](https://arxiv.org/abs/1706.07526), [episciences:6015](https://lmcs.episciences.org/6015))
 
-* [[Felix Cherubini]], [[Egbert Rijke]], _Modal Descent_, ([arXiv:2003.09713](https://arxiv.org/abs/2003.09713))
+* [[Felix Cherubini]], [[Egbert Rijke]], *Modal Descent*, Mathematical Structures in Computer Science **31** 4 (2021) 363-391  &lbrack;[doi:10.1017/S0960129520000201](https://doi.org/10.1017/S0960129520000201), [arXiv:2003.09713](https://arxiv.org/abs/2003.09713)&rbrack;
+
+  > (such as concerning [[homotopy n-types]]/[[n-truncation modality]] and [[covering spaces]])
 
 * {#ChristensenRijke20} [[J. Daniel Christensen]], [[Egbert Rijke]], _Characterizations of modalities and lex modalities_ ([arXiv:2008.03538](https://arxiv.org/abs/2008.03538))
 
