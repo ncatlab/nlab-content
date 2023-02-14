@@ -63,8 +63,6 @@ Note that $\Omega$ is a capital Greek letter; $\omega$-[[infinity-group|group]] 
 [[!redirects Omega-groups]]
 [[!redirects $\Omega$-group]]
 [[!redirects $\Omega$-groups]]
-[[!redirects ∞-group]]
-[[!redirects ∞-groups]]
 
 [[!redirects group with operators]]
 [[!redirects groups with operators]]
