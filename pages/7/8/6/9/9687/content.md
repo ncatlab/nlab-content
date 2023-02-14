@@ -307,9 +307,11 @@ Confinement in [[N=2 D=4 super Yang-Mills theory]] by a version of the monopole 
 
 * {#SeibergWitten94b} [[Nathan Seiberg]], [[Edward Witten]], _Monopoles, Duality and Chiral Symmetry Breaking in N=2 Supersymmetric QCD_,  	Nucl.Phys.B431:484-550,1994 ([arXiv:hep-th/9408099](http://arxiv.org/abs/hep-th/9408099))
   
-Reviews with discussion of the impact on confinement in plain YM include
+Reviews with discussion of the impact on confinement in plain YM:
 
-* {#Yung00} Alexei Yung, _What Do We Learn about Confinement from the Seiberg-Witten Theory_ ([arXiv:hep-th/0005088](http://arxiv.org/abs/hep-th/0005088))
+* {#Yung00} Alexei Yung, _What Do We Learn about Confinement from the Seiberg-Witten Theory_ &lbrack;[arXiv:hep-th/0005088](http://arxiv.org/abs/hep-th/0005088)&rbrack;
+
+* [[Michael Dine]], *On the Possibility of Demonstrating Confinement in Non-Supersymmetric Theories by Deforming Confining Supersymmetric Theories* &lbrack;[arXiv:2211.17134](https://arxiv.org/abs/2211.17134)&rbrack;
 
 
 
