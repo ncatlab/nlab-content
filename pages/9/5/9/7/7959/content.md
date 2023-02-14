@@ -151,6 +151,9 @@ Technical surveys on particle physics string phenomenology include
 
 * {#Nilles04} [[Hans-Peter Nilles]], _String phenomenology_ (2004) ([pdf](http://www.th.physik.uni-bonn.de/nilles/db/HPtalks/1204desy.pdf))
 
+* [[Michael Dine]], _Supersymmetry and string theory: beyond the standard model_, Cambridge University Press (2006, 2007) &lbrack;[ISBN:9781009290920](https://www.cambridge.org/ae/academic/subjects/physics/particle-physics-and-nuclear-physics/supersymmetry-and-string-theory-beyond-standard-model-2nd-edition?format=HB), [pdf](http://www.nucleares.unam.mx/~alberto/apuntes/dine.pdf)&rbrack;
+
+
 * [[Ralph Blumenhagen]], Boris Kors, [[Dieter Lüst]], Stephan Stieberger, _Four-dimensional String Compactifications with D-Branes, Orientifolds and Fluxes_, Phys.Rept.445:1-193,2007 ([arXiv:hep-th/0610327](http://arxiv.org/abs/hep-th/0610327))
 
 
