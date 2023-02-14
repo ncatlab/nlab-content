@@ -26,9 +26,11 @@ Just like there are various equivalent ways of characterizing [[compact topologi
 
 In the following we discuss:
 
-* [characterization via nets](#UsingNets),
+* [characterization via nets](#UsingNets);
 
-* [characterization via closedness](#UsingClosedness),
+* [characterization via closedness](#UsingClosedness);
+
+* [characterization as a continuous family of compact fibres](#AsAContinousFamilyOfCompactSpaces);
 
 * [further characterizations](#FurtherCharacterizations).
 
@@ -81,6 +83,21 @@ is a [[closed map]] for every [[topological space]] $Z$.
 
 \end{definition}
 
+### As a continuous family of compact spaces
+ {#AsAContinousFamilyOfCompactSpaces}
+
+With every function $f \colon X \to Y$, the space $X$ can be described as the union of the fibres $f^{-1}(y)$ with $y \in Y$. The map $f$ is proper when each fibre is compact and the family is continuous in the sense that: for every net $y_\bullet$ converging to $y \in Y$, we ask that the net of sets $f^{-1}(y_\bullet)$ converges to $f^{-1}(y)$. This is equivalent to ask that $f$ be closed.
+
+\begin{definition}
+\label{PropernessAsAContinuousFamilyOfCompactFibres}
+
+A [[continuous map]]  $f \,\colon\, X \to Y$  is *proper* if:
+
+1. $f^{-1}(\{y\})$ is compact for every $y \in Y$;
+
+1. $f$ is closed.
+
+\end{definition}
 
 ### Further characterizations
  {#FurtherCharacterizations}
@@ -91,12 +108,13 @@ Given a [[continuous map]] $f \colon X \to Y$, the following properties are all 
 
 1. (Def. \ref{PropernessViaNets}) 
 
-   For every [[net]] $x_\bullet$ in $X$ and every [[cluster point]] $y$ of $f(x_\bullet)$, the net $x_\bullet$ admits a cluster point $x$ with $f(x) = y$.
+   For every [[net]] $x_\bullet$ in $X$ and every [[cluster point]] $y$ of $f(x_\bullet)$, the net $x_\bullet$ admits a cluster point $x$ with $f(x) = y$;
 
+1. If $\mathcal{F}$ is a [[filter]] on $X$ and if $y$ is a [[cluster point]] of $f(\mathcal{F})$, then $\mathcal{F}$ has a cluster point $x \in X$ with $f(x) = y$;
 
 1. (Def. \ref{PropernessViaClosedness}) 
 
-   The image $f \times \mathrm{Id}_Z \,\colon\, X \times Z \to Y \times Z$ under the [[Cartesian product]]-[[functor]] is a [[closed map]] for every topological space $Z$.
+   The image $f \times \mathrm{Id}_Z \,\colon\, X \times Z \to Y \times Z$ under the [[Cartesian product]]-[[functor]] is a [[closed map]] for every topological space $Z$;
 
 1. ([[universally closed morphism|universally closed]]) 
    
@@ -110,9 +128,9 @@ Given a [[continuous map]] $f \colon X \to Y$, the following properties are all 
 
    is a [[closed map]];
 
-1. If $\mathcal{F}$ is a [[filter]] on $X$ and if $y$ is a [[cluster point]] of $f(\mathcal{F})$, then $\mathcal{F}$ has a cluster point $x \in X$ with $f(x) = y$;
+1. (Def. \ref{PropernessAsAContinuousFamilyOfCompactFibres})
 
-1. $f$ is a [[closed map]] and the [[inverse image]] $f^{-1}\big(\{y\}\big)$ of every $y \in Y$ is [[compact topological space|compact]]. 
+   $f$ is a [[closed map]] and the [[inverse image]] $f^{-1}\big(\{y\}\big)$ of every $y \in Y$ is [[compact topological space|compact]];
 
 1. $f$ is a [[closed map]] and the [[inverse image]] $f^{-1}(K)$ of every [[compact subspace]] $K \subset Y$ is [[compact topological space|compact]].
 
