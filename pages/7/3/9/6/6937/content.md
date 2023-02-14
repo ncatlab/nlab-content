@@ -2,6 +2,7 @@
 * Webpage: [http://peterlefanulumsdaine.com](http://peterlefanulumsdaine.com)
 
 
+
 ## Selected writings
 
 On the [[relation between type theory and category theory|categorical semantics]] of [[homotopy type theory]] in [[simplicial sets]]/[[infinity-groupoids|$\ionfty$-groupoids]]:
@@ -36,6 +37,11 @@ Introducing the [[functional programming language|functional]] [[quantum program
 * [[Alexander Green]], [[Peter LeFanu Lumsdaine]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], _Quipper: A Scalable Quantum Programming Language_, ACM SIGPLAN Notices 48(6):333-342, 2013 ([arXiv:1304.3390](https://arxiv.org/abs/1304.3390))
 
 * [[Alexander Green]], [[Peter LeFanu Lumsdaine]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], _An Introduction to Quantum Programming in Quipper_, Lecture Notes in Computer Science 7948:110-124, Springer, 2013 ([arXiv:1304.5485](https://arxiv.org/abs/1304.5485))
+
+On the [[categorical semantics of dependent type theory]] via [[comprehension categories]]:
+
+* {#LumsdaineWarren13} [[Peter LeFanu Lumsdaine]], [[Michael Warren]], *The local universes model: An overlooked coherence construction for dependent type theory*, ACM Trans. Comput. Log., **16** 3 no 23 (2015) 1-31 &lbrack;[arXiv:1411.1736](https://arxiv.org/abs/1411.1736), [doi:10.1145/2754931](https://doi.org/10.1145/2754931)&rbrack; 
+
 
 Formalization of (the proof of) the [[Blakers-Massey theorem]] in [[homotopy type theory]]:
 
