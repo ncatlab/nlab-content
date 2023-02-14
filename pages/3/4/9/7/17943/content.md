@@ -24,11 +24,17 @@
 
 ## Idea
 
-In [[topological homotopy theory]], the _fundamental theorem of covering spaces_ says that for a sufficiently well-behaved [[topological space]] $X$, the [[functor]] which sends a [[covering space]] of $X$ to the [[Set]]-[[action]] ([[permutation representation]]) of the [[fundamental groupoid]] of $X$ on the [[fibers]] of $E$ is an [[equivalence of categories]]. 
+In [[topological homotopy theory]], the _fundamental theorem of covering spaces_ says that for a sufficiently well-behaved [[topological space]] $X$, the [[functor]] which sends a [[covering space]] of $X$ to its [[monodromy]] [[Set]]-[[action]] ([[permutation representation]]) of the [[fundamental groupoid]] of $X$ on the [[fibers]] of $E$ is an [[equivalence of categories]]. 
 
-This is a basic instance of the general principle of [[Galois theory]]. 
+{#PathLifting} This is a basic instance of the general principle of [[Galois theory]]. 
 
-It follows in particular that for [[connected topological space|connected]] $X$ then the [[automorphism group]] of the [[universal covering space]] of $X$ coincides with the [[fundamental group]] $\pi_1(X,x)$ itself (for any basepoint $x$). This often yields a convenient means to determine the [[fundamental group]] of $X$ in the first place.
+<img src="https://ncatlab.org/nlab/files/PathLiftingInCoveringSpace-230214.jpg" width="500">
+
+
+
+
+
+It follows in particular that for [[connected topological space|connected]] $X$ the [[automorphism group]] of the [[universal covering space]] of $X$ coincides with the [[fundamental group]] $\pi_1(X,x)$ itself (for any basepoint $x$). This often yields a convenient means to determine the [[fundamental group]] of $X$ in the first place.
 
 This is closely related to the [[(∞,1)-Grothendieck construction]]; the equivalence $\infty Grpd_{/\esh X} \simeq \infty Grpd^{\esh X}$ restricts to an equivalence between the subcategories of bundles $Y \to \esh X$ with 0-truncated fibers and of set-valued functors on $\esh X$. Observe in particular that $Set^{\Pi_1(X)} \simeq Set^{\esh X}$.
 
