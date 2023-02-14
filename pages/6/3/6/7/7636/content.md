@@ -533,7 +533,7 @@ Proof of [[Awodey's conjecture]], that all [[∞-stack]] [[(∞,1)-topos]] have 
 
 Introduction and review in: 
 
-* {#Riehl22} [[Emily Riehl]], *On the $\infty$-topos semantics of homotopy type theory*, lecture at *[Logic and higher structures](https://conferences.cirm-math.fr/2689.html)* CIRM (Feb. 2022) $[$[pdf](https://emilyriehl.github.io/files/semantics.pdf), [[Riehl-InfinityToposSemantics.pdf:file]]$]$
+* {#Riehl22} [[Emily Riehl]], *On the $\infty$-topos semantics of homotopy type theory*, lecture at *[Logic and higher structures](https://conferences.cirm-math.fr/2689.html)* CIRM (Feb. 2022) &lbrack;[pdf](https://emilyriehl.github.io/files/semantics.pdf), [[Riehl-InfinityToposSemantics.pdf:file]]&rbrack;
 
 Discussion of weak Tarskian homotopy type universes is in 
 
