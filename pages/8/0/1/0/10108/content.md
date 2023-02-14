@@ -22,7 +22,7 @@
 
 Despite its fundamental role in the [[standard model of particle physics]], various details of the [[non-perturbative quantum field theory|non-perturbative]] [[quantization]] of the class of [[field theories]] known as [[Yang-Mills theory]] for [[non-abelian group|non-abelian]] [[gauge group]] (such as [[QCD]] but not [[QED]]) are still open, such as derivations of the phenomena 
 
-* [[quark]] [[confinement]]
+* [[quark]]  [[confinement]]
 
 and notably
 
