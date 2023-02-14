@@ -1,0 +1,61 @@
+# Idea
+In a categorical model of dependent type theory, a type $T$ in context $\Gamma$ is called [[fibrant type | fibrant]] if the projection morphism $p : \Gamma.T \to \Gamma$ from the extended context, is a fibration.
+
+When we want to study or use fibrancy within type theory, we may be interested in the following properties, which do not necessarily hold:
+
+1. The Π-type is fibrant if its codomain is,
+2. The [[fibrant replacement]] monad commutes with substitution,
+3. A type in context $\Gamma$ is fibrant if and only if its pullback (substitution) along any morphism/cell $\gamma : y W \to \Gamma$ from a representable context $y W$, is fibrant.
+
+The first property is just practical.
+The second property allows the fibrant replacement to be internalized as a [[monad]] on types, so that fibrancy can be defined internally as being an [[algebra over a monad | algebra for that monad]].
+The third property allows a direct construction of a [[Hofmann-Streicher universe]] ([Hofmann and Streicher](#HofmannStreicher)) of fibrant types.
+It should be straightforward to prove that this is equivalent with the second property, and with the property that the fibrant replacement can be taken cellwise.
+
+One way to guarantee that properties 1-2 hold, is by defining fibrations as the right class of an [[algebraic weak factorization system]] whose left class is closed under pullbacks ([Nuyts 2020](#Nuyts2020)).
+
+Important notions of fibrancy violate the properties above:
+* Kan fibrancy as used in models of HoTT. The problem is that a filling of a horn or open box takes place above a cell that is not part of that horn or open box.
+* [[Segal condition | Segal]] fibrancy as one would like to use in models of directed type theory, for the same reason.
+
+For this reason, [Boulier and Tabareau](#BoulierTabareau2021) introduced contextual Kan fibrancy. A type $T$ in a context $\Gamma.\Theta$ is contextually Kan fibrant in context $\Gamma$ if it has fillers for open boxes whose "open" dimension is $\Gamma$-homogeneous, i.e. if it lifts diagrams of the following shape:
+\begin{xymatrix}
+\sqcup
+\ar[r] \ar[d]
+& \Gamma.\Theta.T
+\ar[d]
+\\
+\square
+\ar[r] \ar[d] \ar@{.>}[ru]
+& \Gamma.\Theta
+\ar[d]
+\\
+{-}
+\ar[r]
+& \Gamma
+\end{xymatrix}
+
+This is an instance of a _damped_ algebraic weak factorization system ([Nuyts 2020](#Nuyts2020)).
+We can also build a damped AWFS for the Segal condition, where at most one of the morphisms-to-be-composed can be $\Gamma$-heterogeneous:
+\begin{xymatrix}
+\Lambda_n
+\ar[r] \ar[d]
+& \Gamma.\Theta.T
+\ar[d]
+\\
+\Delta_n
+\ar[r] \ar[d] \ar@{.>}[ru]
+& \Gamma.\Theta
+\ar[d]
+\\
+\Delta_1
+\ar[r]
+& \Gamma
+\end{xymatrix}
+Both damped AWFSs have the property that the class of left "damped arrows" (which are just sequences of two composable arrows) is closed under pullbacks, and the result is that we get a form of properties 1-2 (Nuyts [2018](#Nuyts2018), [2020](#Nuyts2020)) for these notions of contextual fibrancy.
+
+# References
+* {#Nuyts2020} [[Andreas Nuyts]], _Contributions to Multimode and Presheaf Type Theory, chapter 8: Fibrancy_, [PhD thesis](https://lirias.kuleuven.be/retrieve/581985), KU Leuven, Belgium, 2020
+* {#Nuyts2018} [[Andreas Nuyts]], [_Robust Notions of Contextual Fibrancy_](https://anuyts.github.io/files/abstract-robust.pdf), HoTT/UF, 2018
+* {#HofmannStreicher} [[Martin Hofmann]], [[Thomas Streicher]], _Lifting Grothendieck Universes_ , ms. University of Darmstadt (unpublished). ([pdf](http://www.mathematik.tu-darmstadt.de/~streicher/NOTES/lift.pdf)) 
+* {#BoulierTabareau2021} [[Simon Boulier]], [[Nicolas Tabareau]], _Model structure on the universe of all types in interval type theory_, MSCS, vol. 31, 2021 ([doi:10.1017/S0960129520000213](https://doi.org/10.1017/S0960129520000213))
