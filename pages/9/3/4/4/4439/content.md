@@ -66,7 +66,7 @@ See also
 
 * [[Elias Kiritsis]], _String theory in a nutshell_, Princeton UP 2007, 608 pp. ([description](http://press.princeton.edu/titles/8456.html)); 1998 early version _Introduction to superstring theory_ (244 pp) is available as [hep-th/9709062](http://xxx.lanl.gov/abs/hep-th/9709062)
 
-* [[Michael Dine]], _Supersymmetry and string theory: beyond the standard model_, Cambridge University Press 2006, 2007
+* [[Michael Dine]], _Supersymmetry and string theory: beyond the standard model_, Cambridge University Press (2006, 2007) &lbrack;[ISBN:9781009290920](https://www.cambridge.org/ae/academic/subjects/physics/particle-physics-and-nuclear-physics/supersymmetry-and-string-theory-beyond-standard-model-2nd-edition?format=HB), [pdf](http://www.nucleares.unam.mx/~alberto/apuntes/dine.pdf)&rbrack;
 
 * [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], *Basic Concepts of String Theory*, Theoretical and Mathematical Physics, Springer (2013) &lbrack;[doi:10.1007/978-3-642-29497-6](https://doi.org/10.1007/978-3-642-29497-6)&rbrack;
 
