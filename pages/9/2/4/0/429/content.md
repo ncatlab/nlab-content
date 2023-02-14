@@ -69,4 +69,8 @@ As with the category-theoretic understanding of many other branches of mathemati
 
 * {#BaiGuoLoday11} Chengming Bai, Li Guo, [[Jean-Louis Loday]], _[Proceedings of the China-France Summer Institute on Operads and Universal Algebra](http://andromeda.rutgers.edu/~liguo/OUA10/book.htm)_, World Scientific 2011 ([web](http://andromeda.rutgers.edu/~liguo/OUA10/operadua.html))
 
+A short introductory/overview note:
+
+* {#keml-diagrams} [[Andreas Nuyts]], _Understanding Universal Algebra Using Kleisli-Eilenberg-Moore-Lawvere Diagrams_, [note](https://anuyts.github.io/files/keml-diagrams.pdf)
+
 [[!redirects universal algebras]]
