@@ -14,17 +14,23 @@
 
 
 
-# Categorical models of dependent types
+# Categorical semantics of dependent types
 * table of contents
 {: toc}
 
 ## Idea
 
-In the [[relation between type theory and category theory]], [[dependent types]] are said to correspond to morphisms regarded as indexed families.  That is, if a [[type]] $A$ corresponds to an [[object]] in some [[category]], then a [[dependent type]]
+In the [[relation between type theory and category theory]], [[dependent types]] (in [[dependent type theory]]) have [[categorical semantics]] given by [[morphisms]] which are the [[bundles]] whose [[fibers]] are the [[indexed family|families]] indexed by the base (see also at [dependent type -- Relation to families of elements](dependent+type#RelationToFamiliesOfElements)).
 
-$$ (x:A) \;\vdash\; (B(x) \;type) $$
+More concretely: if a [[type]] $A$ interprets as an [[object]] in some [[category]] $\mathcal{C}$, then an $A$-[[dependent type]]
 
-corresponds to a [[morphism]] $B\to A$ in that category.  We think of this morphism as a [[bundle]] or [[fibration]], whose [[fiber]] over $x:A$ is the type $B(x)$.  We can then say that [[type former|type forming operations]] such as [[dependent sum type]] and [[dependent product type]] correspond to category-theoretic operations of [[dependent sum]] and [[dependent product]].
+$$ 
+  (x \colon A) 
+  \;\;\;\vdash\;\;\; 
+  B(x) \;Type
+$$
+
+interprets as a [[morphism]] $B \to A$ in $\mathcal{C}$ (hence as an object in the [[slice category]] $\mathcal{C}_{/A}$).  We may think of this morphism as a [[bundle]] or [[fibration]], whose [[fiber]] over $x \colon A$ is the type $B(x)$.  We can then say that [[type former|type forming operations]] such as [[dependent sum type]] and [[dependent product type]] correspond to category-theoretic operations of [[dependent sum]] and [[dependent product]].
 
 However, this correspondence is not quite precise; in the case of dependent types there are extra [[coherence]] issues.  [[substitution|Substitution]] in [[type theory]] should correspond to [[pullback]] in [[category theory]] (but see at _[substitution -- Categorical semantics](substitution#CategoricalSemantics)_ for more); that is, given a term
 
@@ -645,6 +651,10 @@ An equivalence between contextual categories and [B-systems](#Voevodsky14) is in
 * [[Benedikt Ahrens]], Jacopo Emmenegger, [[Paige Randall North]], [[Egbert Rijke]], _B-systems and C-systems are equivalent_ ([arXiv:2111.09948](https://arxiv.org/abs/2111.09948))
 
 
+[[!redirects category-theoretic semantics of dependent types]]
+
+
+[[!redirects categorical model of dependent types]]
 
 [[!redirects categorical model of dependent type theory]]
 [[!redirects categorical models of dependent type theory]]
@@ -661,7 +671,6 @@ An equivalence between contextual categories and [B-systems](#Voevodsky14) is in
 [[!redirects split models of type theory]]
 
 
-[[!redirects category-theoretic semantics of dependent types]]
 
 [[!redirects comprehension category]]
 [[!redirects comprehension categories]]
