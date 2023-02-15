@@ -40,6 +40,8 @@ A _coalgebra_ or _comodule_ over a [[comonad]] $C$ on a [[category]] $A$ is an [
 
 * [[coalgebra over an endofunctor]]
 
+* [[cocommutative coalgebra]]
+
 
 
 ## References
