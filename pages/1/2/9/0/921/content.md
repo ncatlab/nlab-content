@@ -357,9 +357,6 @@ following a [[monad (in computer science)|monadic]] re-formulation (via the [[co
 
 * [[Russell O'Connor]], *A Monadic, Functional Implementation of Real Numbers*, Math. Struc. Comp. Sci. **17** 1 (2007) 129-159 &lbrack;[arXiv:cs/0605058](https://arxiv.org/abs/cs/0605058), [doi:10.1017/S0960129506005871](https://doi.org/10.1017/S0960129506005871)&rbrack;
 
-Further discussion:
-
-* [[Gaëtan Gilbert]], *Formalising Real Numbers in Homotopy Type Theory*, in *CPP 2017: Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs*  (2017) 112–124 &lbrack;[arXiv:1610.05072](https://arxiv.org/abs/1610.05072), [doi:10.1145/3018610.3018614](https://doi.org/10.1145/3018610.3018614)&rbrack;
 
 Overview of implementation of real numbers in [[proof assistants]] (cf. [[constructive analysis]]):
 
@@ -371,7 +368,9 @@ A novel construction principle of the type of real numbers, as a [[higher induct
 
 * [[Univalent Foundations Project]]: Chapter 11 of:  *[[Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
-but has not yet been implemented in any [[proof assistant]],
+Something like this has been implemented in [[Coq]]:
+
+* [[Gaëtan Gilbert]], *Formalising Real Numbers in Homotopy Type Theory*, in *CPP 2017: Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs*  (2017) 112–124 &lbrack;[arXiv:1610.05072](https://arxiv.org/abs/1610.05072), [doi:10.1145/3018610.3018614](https://doi.org/10.1145/3018610.3018614)&rbrack;
 
 
 
