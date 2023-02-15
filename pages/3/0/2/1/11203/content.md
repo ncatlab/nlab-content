@@ -33,6 +33,8 @@
 
 * [[Landau-Ginzburg model]]
 
+* [[Josephson junction]]
+
 * [[AdS/CFT in condensed matter physics]]
 
 * [[colour superconductivity]]
@@ -107,6 +109,35 @@ On [[superfluidity]]/superconductivity *of* [[anyons]]:
 * Yi-Hong Chen, [[Frank Wilczek]], [[Edward Witten]], [[Bertrand Halperin]], *On Anyon Superconductivity*,  International Journal of Modern Physics B **03** 07 (1989) 1001-1067 (reprinted in [Wilczek 1990](#Wilczek90))  $[$[doi:10.1142/S0217979289000725](https://doi.org/10.1142/S0217979289000725), [[CWWH-AnyonSuperfluidity.pdf:file]]$]$
 
 
+### Superconducting qbits
+ {#SuperconductingQBitsReferences}
+
+[[superconducting qbits -- references]]
+
+On realizing [[qbits]] and [[quantum gates]] (hence [[quantum computation]]) via [[quantum states]] of [[magnetic flux]] through ([[Josephson junctions]] in) [[superconductors]], manipulated via [[electromagnetic radiation|electromagnetic pulses]]:
+
+* M. H. Devoret, A. Wallraff, J. M. Martinis, *Superconducting Qubits: A Short Review* &lbrack;[arXiv:cond-mat/0411174](https://arxiv.org/abs/cond-mat/0411174)&rbrack;
+
+
+* John Clarke, Frank K. Wilhelm, *Superconducting quantum bits*, Nature **453** (2008) 1031–1042 &lbrack;[doi:10.1038/nature07128](https://doi.org/10.1038/nature07128)&rbrack;
+
+* Jerry Moy Chow, *Quantum Information Processing with Superconducting Qubits* (2010) &lbrack;[pdf](https://rsl.yale.edu/sites/default/files/files/RSL_Theses/jmcthesis.pdf)&rbrack;
+
+* Jay M. Gambetta, Jerry M. Chow, Matthias Steffen, *Building logical qubits in a superconducting quantum computing system*, npj Quantum Information **3** 2 (2017) &lbrack;[doi:10.1038/s41534-016-0004-0](https://doi.org/10.1038/s41534-016-0004-0)&rbrack;
+
+* Morten Kjaergaard et al. *Superconducting Qubits: Current State of Play*, Annual Review of Condensed Matter Physics **11** (2019) 369-395 &lbrack;[doi:10.1146/annurev-conmatphys-031119-050605](https://doi.org/10.1146/annurev-conmatphys-031119-050605)&rbrack;
+
+* S. Kwon et al., *Gate-based superconducting quantum computing*, Journal of Applied Physics **129** (2021) 041102 &lbrack;[doi:10.1063/5.0029735](https://doi.org/10.1063/5.0029735)&rbrack;
+
+Fine detail of the pulse control:
+
+* M. Werninghaus, D. J. Egger, F. Roy, S. Machnes, F. K. Wilhelm, S. Filipp: *Leakage reduction in fast superconducting qubit gates via optimal control*, npj Quantum Information **7** 14 (2021) &lbrack;[doi:10.1038/s41534-020-00346-2](https://doi.org/10.1038/s41534-020-00346-2)&rbrack;
+    
+* M. Carroll, S. Rosenblatt, P. Jurcevic, I. Lauer & A. Kandala. *Dynamics of superconducting qubit relaxation times*, npj Quantum Information **8** 132 (2022) &lbrack;[doi:10.1038/s41534-022-00643-y](https://doi.org/10.1038/s41534-022-00643-y)&rbrack;
+
+* Elisha Siddiqui Matekole, Yao-Lung L. Fang, Meifeng Lin, *Methods and Results for Quantum Optimal Pulse Control on Superconducting Qubit Systems*, 2022 IEEE International Parallel and Distributed Processing Symposium Workshops (2022)  &lbrack;[arXiv:2202.03260](https://arxiv.org/abs/2202.03260), [doi:10.1109/IPDPSW55747.2022.00102](https://doi.org/10.1109/IPDPSW55747.2022.00102)&rbrack;
+
+
 
 [[!include anyons in topological superconductors -- references]]
 
@@ -117,6 +148,8 @@ On [[superfluidity]]/superconductivity *of* [[anyons]]:
 
 
 Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
+
+
 
 * [[Sean Hartnoll]], [[Christopher Herzog]], [[Gary 
  Horowitz]], _Building an AdS/CFT superconductor_, Phys. Rev. Lett. 101:031601, 2008 ([arXiv:0803.3295](https://arxiv.org/abs/0803.3295))
