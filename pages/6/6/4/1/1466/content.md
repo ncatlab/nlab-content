@@ -245,11 +245,16 @@ A filter $F$ on $X$ is Cauchy iff the obvious map $E_F\rightarrow F_X$ is well-d
 
 ## References
 
-*  A. Weil, _Sur les espaces &#224; structure uniforme et sur la topologie g&#233;n&#233;rale_, Actualit&#233;s Sci. Ind. 551, Paris, (1937).
 
-* John Kelley, _General Topology_, GTM 27, 1955.
+*  [[André Weil]], _Sur les espaces &#224; structure uniforme et sur la topologie g&#233;n&#233;rale_, Actualit&#233;s Sci. Ind. 551, Paris, (1937).
 
-* Eric Schechter, _[[Handbook of Analysis and its Foundations]]_.
+* [[John Kelley]], _General Topology_, GTM 27, 1955.
+
+* [[Nicolas Bourbaki]], *Uniform Structures*, Chapter II in: *General topology*, Elements of Mathematics, Springer (1971, 1990, 1995) &lbrack;[doi:10.1007/978-3-642-61701-0](https://doi.org/10.1007/978-3-642-61701-0)&rbrack;
+
+
+
+* Eric Schechter, _[[Handbook of Analysis and its Foundations]]_ (1996)
 
 * Warren Page, _Topological Uniform Structures_, Dover
 
