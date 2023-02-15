@@ -53,6 +53,8 @@ In [[geometric quantization]] qbits are naturally understood as the states given
 
 ## References
 
+### General
+
 The term *q-bit* goes back to
 
 * [[Benjamin Schumacher]], *Quantum coding*, Phys. Rev. A **51** (1995) 2738 $[$[doi:10.1103/PhysRevA.51.2738](https://doi.org/10.1103/PhysRevA.51.2738)$]$
@@ -68,6 +70,19 @@ See also:
 Laboratoy-realizations of qbits for use in [[quantum computers]]:
 
 * *[Qubit Zoo](https://qubitzoo.org/qubitzoo/)*
+
+
+
+[[!include spin resonance qbits -- references]]
+
+
+
+
+[[!include superconducting qbits -- references]]
+
+
+
+
 
 [[!redirects Qbit]]
 [[!redirects qbits]]
