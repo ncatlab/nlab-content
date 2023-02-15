@@ -73,3 +73,12 @@ reviewed in
 
 [[!redirects model toposes]]
 [[!redirects model topoi]]
+
+[[!redirects type-theoretic model topos]]
+[[!redirects type-theoretic model topoi]]
+[[!redirects type-theoretic model toposes]]
+
+[[!redirects type theoretic model topos]]
+[[!redirects type theoretic model topoi]]
+[[!redirects type theoretic model toposes]]
+
