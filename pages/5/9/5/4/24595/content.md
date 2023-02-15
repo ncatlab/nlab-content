@@ -5,9 +5,9 @@
 +--{: .hide}
 [[!include 2-category theory - contents]]
 =--
-#### Higher category theory
-+--{: .hide}
-[[!include higher category theory - contents]]
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
 =--
 =--
 =--
@@ -34,6 +34,8 @@ A univalent bicategory in [[set-level foundations]] is the same thing as a [[loc
 
 ## References
 
-* [[Benedikt Ahrens]], Dan Frumin, Marco Maggesi, Niels van der Weide, _Bicategories in Univalent Foundations_ ([arXiv:1903.01152](https://arxiv.org/abs/1903.01152))
+* [[Benedikt Ahrens]], [[Dan Frumin]], [[Marco Maggesi]], [[Niels van der Weide]], _Bicategories in Univalent Foundations_, Mathematical Structures in Computer Science **31** 10 (2022) 1232-1269 &lbrack;[arXiv:1903.01152](https://arxiv.org/abs/1903.01152), [doi:10.1017/S0960129522000032](https://doi.org/10.1017/S0960129522000032)&rbrack
 
 [[!redirects univalent bicategories]]
+
+
