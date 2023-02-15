@@ -185,6 +185,14 @@ For the moment see [[Liouville cocycle]].
 
 * [References on gauge anomalies](#ReferencesGaugeAnomaly)
 
+Anomalies originate in the 1949 article by Steinberger:
+
+* J. Steinberger, _On the Use of Subtraction Fields and the Lifetimes of Some Types of Meson Decay_, Phys. Rev. 76, 1180 – Published 15 October 1949.  [doi](https://doi.org/10.1103/PhysRev.76.1180).
+
+Another early reference is
+
+* Stephen L. Adler, _Axial-Vector Vertex in Spinor Electrodynamics_, Phys. Rev. 177, 2426 – Published 25 January 1969.  [doi](https://doi.org/10.1103/PhysRev.177.2426).
+
 ### Anomalous action functional
  {#AnomalousActionFunction}
 
