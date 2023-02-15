@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
 =--
 =--
 
@@ -112,6 +116,9 @@ Combination with the terminology of *[[model topos]]* to *type-theoretic model t
 
 * {#Shulman19} [[Michael Shulman]], §1.3 in: _All $(\infty,1)$-toposes have strict univalent universes_ ([arXiv:1904.07004](https://arxiv.org/abs/1904.07004)).
 
+reviewed in 
+
+* {#Riehl22} [[Emily Riehl]], §6.1 of: *On the $\infty$-topos semantics of homotopy type theory*, lecture at *[Logic and higher structures](https://conferences.cirm-math.fr/2689.html)* CIRM (Feb. 2022) &lbrack;[pdf](https://emilyriehl.github.io/files/semantics.pdf), [[Riehl-InfinityToposSemantics.pdf:file]]&rbrack;
 
 [[!redirects presentation of homotopy type theory]]
 [[!redirects categorical semantics of homotopy type theory]]
@@ -123,3 +130,4 @@ Combination with the terminology of *[[model topos]]* to *type-theoretic model t
 [[!redirects type theoretic model category]]
 [[!redirects type theoretic model categories]]
 [[!redirects type theoretic model cateory]]
+
