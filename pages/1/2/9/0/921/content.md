@@ -326,6 +326,8 @@ So in summary, this page is about the _real, finite, located, standard, analytic
 
 For more see the references at _[[analysis]]_.
 
+* {#Bourbaki71} [[Nicolas Bourbaki]], *Real Numbers*, Chapter IV in: *General topology*, Elements of Mathematics, Springer (1971, 1990, 1995) &lbrack;[doi:10.1007/978-3-642-61701-0](https://doi.org/10.1007/978-3-642-61701-0)&rbrack;
+
 Review and history:
 
 * [[Leo Corry]], §10.5 in: *A Brief History of Numbers*, Oxford University Press (2015) &lbrack;[ISBN:9780198702597](https://global.oup.com/academic/product/a-brief-history-of-numbers-9780198702597)&rbrack;
