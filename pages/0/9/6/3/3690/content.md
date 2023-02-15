@@ -96,8 +96,7 @@ Discussion of Bourbaki's notion of _[[mathematical structure]]_ and the relation
 * {#Corry} [[Leo Corry]]: _Nicolas Bourbaki: Theory of structures_ &lbrack;[pdf](http://www.tau.ac.il/~corry/publications/articles/pdf/bourbaki-structures.pdf)&rbrack; Chapter 7  of: *Modern Algebra and the Rise of Mathematical Structures*, Springer (2004) &lbrack;[doi:10.1007/978-3-0348-7917-0](https://doi.org/10.1007/978-3-0348-7917-0)&rbrack;
 
 
-* {#CTList} Category Theory List, _[Bourbaki & category theory](http://comments.gmane.org/gmane.science.mathematics.categories/7283)_
-  
+* {#CTList} Category Theory List, Staffan Angere, _[Bourbaki & category theory](https://web.archive.org/web/20160427073919/http://comments.gmane.org/gmane.science.mathematics.categories/7283)_
 
 * David Aubin, _The Withering Immortality of Nicolas Bourbaki: A Cultural Connector at the Confluence of Mathematics, Structuralism, and the Oulipo in France_, Science in Context 10 (1997), 297-342. ([pdf](http://www.math.jussieu.fr/~daubin/publis/1997.pdf))
  {#Aubin}
