@@ -164,6 +164,8 @@ Implementation of [[Cauchy real numbers]] (in [[Errett Bishop|Bishop]]-style [[c
 
 * [[Guillaume Brunerie]], _The Agda proof assistant_ (2012) &lbrack;slides:[[Brunerie-AgdaProofAssistant.pdf:file]]&rbrack;
 
+* [[Ulf Norell]], *Programming in Agda*, presentation at *Oregon Programming Languages Summer School* (2014) &lbrack;lecture 1: [video](https://www.youtube.com/watch?v=NrSW7YsneVg), 2: [video](https://www.youtube.com/watch?v=X0JWsoWTWnI), 3: [video](https://www.youtube.com/watch?v=HjpLZr_sirY), 4: [video](https://www.youtube.com/watch?v=Yw2VGwxn_g8)&rbrack;
+
 * [[Scott Fleischman]], *Agda from Nothing*, talk at λC (2016) &lbrack;[video 1](https://www.youtube.com/watch?v=-i-QQ36Nfsk&list=PLCqzQM-xq02Uv4OmcckrFsIyZ20hWEeAx&index=7), [video 2](https://www.youtube.com/watch?v=XprGyVWXwks)&rbrack;
 
 * [[Philip Wadler]], *(Programming Languages) in Agda = Programming (Languages in Agda)*, talk at *Codegram* (Sep 2019) &lbrack;[video](https://www.youtube.com/watch?v=R49VgxNLmsY&t=372s)&rbrack;
