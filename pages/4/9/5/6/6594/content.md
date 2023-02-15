@@ -354,15 +354,11 @@ $$
   \,.
 $$
 
-(
-
-For instance in the case of applications to [[supergravity]] that we turn to [below](#MotivationSuperCartanGeometry), these structures are extensions of strutures given by solutions to the super-[[Einstein equations]].
+(For instance in the case of applications to [[supergravity]] that we turn to [below](#MotivationSuperCartanGeometry), these structures are extensions of strutures given by solutions to the super-[[Einstein equations]].
 
 It is here that developing a theory of higher Cartan geometry has much potential, since, while the globalizations of the forms $\omega_V$ have been extensively studied in the literature, the globalization of their pre-quantized refinement to higher WZW-terms $\mathbf{L}_{p+2}$ has traditionally received almost no attention yet. A brief mentioning of the necessity of considering appears for instance in ([Witten 86, p. 17](#Witten86)), but traditional tools do get one very far in this question.
 
-More precisely, this is the situation for all those [[branes]] in the old [[brane scan]] which have no tensor-multiplets on the [[worldvolume]], equivalently those on which no other branes may end (such as the [[string]] or the [[M2-brane]], but not the [[D-branes]] and not the [[M5-brane]]). For more general branes, it turns out that the target space itself is a higher geometric space. This leads us to higher Cartan geometry proper. This we turn to [below](#MotivationSuperCartanGeometry).
-
-)
+More precisely, this is the situation for all those [[branes]] in the old [[brane scan]] which have no tensor-multiplets on the [[worldvolume]], equivalently those on which no other branes may end (such as the [[string]] or the [[M2-brane]], but not the [[D-branes]] and not the [[M5-brane]]). For more general branes, it turns out that the target space itself is a higher geometric space. This leads us to higher Cartan geometry proper. This we turn to [below](#MotivationSuperCartanGeometry).)
 
 
 Accordingly, now the symmetries of $\mathbf{L}_{p+2}^X$ form an extension of the _[[isometries]]_ of the induced $Stab^h_{GL(V)}(\mathbf{L}_{p+2}|_{\mathbb{D}})$-structure.
