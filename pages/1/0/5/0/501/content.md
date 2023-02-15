@@ -140,15 +140,19 @@ One can view $X$ as a 'constant scheme' over any other base scheme $Y$ by [[base
 
 \section{References}
 
+Original articles:
+
 * [[Kazimierz Kuratowski|C. Kuratowski]], _Sur la notion d'ensemble fini_ , Fund. Math. **I** (1920) pp.130-131. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm1/fm1117.pdf))
 
-For a treatment in [[homotopy type theory]] see
-
-* Dan Frumin, Herman Geuvers, Léon Gondelman, Niels van der Weide, _Finite Sets in Homotopy Type Theory_, ([pdf](http://cs.ru.nl/~nweide/FiniteSetsInHoTT.pdf))
-
-See also
+See also:
 
 * Wikipedia, _[Finite set](https://en.wikipedia.org/wiki/Finite_set)_
+
+
+Formalization in [[homotopy type theory]]/[[univalent foundations of mathematics]]:
+
+* [[Dan Frumin]], [[Herman Geuvers]], [[Léon Gondelman]], [[Niels van der Weide]], _Finite Sets in Homotopy Type Theory_, in *CPP 2018: Proceedings of the 7th ACM SIGPLAN International Conference on Certified Programs and Proofs* (2018) 201–214 &lbrack;[doi:10.1145/3167085](https://doi.org/10.1145/3167085), [pdf](http://cs.ru.nl/~nweide/FiniteSetsInHoTT.pdf)&rbrack;
+
 
 
 [[!redirects finite set]]
