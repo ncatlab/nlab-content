@@ -22,6 +22,10 @@ On [[2-dimensional type theory]]:
 
 * [[Benedikt Ahrens]], [[Paige Randall North]], [[Niels van der Weide]], *Semantics for two-dimensional type theory*, LICS '22: Proceedings of the 37th Annual ACM/IEEE Symposium on Logic in Computer Science, 12 (2022) 1–14, &lbrack;[doi:10.1145/3531130.3533334](https://doi.org/10.1145/3531130.3533334)&rbrack;
 
+On [[univalent bicategory|univalent]] [[bicategories]] in [[homotopy type theory]]:
+
+* [[Benedikt Ahrens]], [[Dan Frumin]], [[Marco Maggesi]], [[Niels van der Weide]], _Bicategories in Univalent Foundations_, Mathematical Structures in Computer Science **31** 10 (2022) 1232-1269 &lbrack;[arXiv:1903.01152](https://arxiv.org/abs/1903.01152), [doi:10.1017/S0960129522000032](https://doi.org/10.1017/S0960129522000032)&rbrack
+
 On [[monoidal category|monoidal]] [[univalent categories]]:
 
 * [[Kobe Wullaert]], [[Ralph Matthes]], [[Benedikt Ahrens]], *Univalent Monoidal Categories* &lbrack;[arXiv:2212.03146](https://arxiv.org/abs/2212.03146)&rbrack;
