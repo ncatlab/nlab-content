@@ -17,6 +17,8 @@ See the discussion and references here:
 
 ## Further literature
 
+* [[Joost Nuiten]], Sec. 5.2.2 in: *[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]*  (August 2013)
+
 Alternative discussion via [[factorization algebras]]:
 
 * [[Eugene Rabinovich]], *A Classical Bulk-Boundary Correspondence* &lbrack;[arXiv:2202.12332](https://arxiv.org/abs/2202.12332)&rbrack;
