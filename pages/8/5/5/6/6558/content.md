@@ -34,7 +34,7 @@ $$
   \varepsilon: A \to I
 $$
 
-("[[counit]]") that satisfy the [[coassociativity]] and [[couniticity]] equations: 
+("[[counit]]") that satisfy the [[coassociativity]] and [[counicity]] equations: 
 
 $$
   \array{
