@@ -5,7 +5,7 @@
 
 The very first proof-of-principle [[quantum computations]] were made with [[nuclear magnetic resonance]]-technology:
 
-* *NMR Based Quantum Information Processing: Achievements and Prospects*, Fortsch. Phys. **48** 9-11 (2000) 875-907 $[$[arXiv:quant-ph/0004104](https://arxiv.org/abs/quant-ph/0004104)$]$
+* D. G. Cory et al, *NMR Based Quantum Information Processing: Achievements and Prospects*, Fortsch. Phys. **48** 9-11 (2000) 875-907 $[$[arXiv:quant-ph/0004104](https://arxiv.org/abs/quant-ph/0004104)$]$
 
 * [[Jonathan A. Jones]], *Quantum Computing and Nuclear Magnetic Resonance*, PhysChemComm **11** (2001) $[$[doi:10.1039/b103231n](https://doi.org/10.1039/b103231n), [arXiv:quant-ph/0106067](https://arxiv.org/abs/quant-ph/0106067)$]$
 
