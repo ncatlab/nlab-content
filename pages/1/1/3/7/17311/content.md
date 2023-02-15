@@ -27,6 +27,8 @@ A _coalgebra_ or _comodule_ over a [[comonad]] $C$ on a [[category]] $A$ is an [
 ## Examples
  {#Examples}
 
+* the modality ! (of course) in [[linear logic]] is modeled by a comonad and its coalgebras, which are also comonoids, allow us to model intuitionistic formulas in categorical logic
+
 * [[partial differential equations]] are the coalgebras of a [[jet comonad]] (see [there](jet+comonad#References))
 
 * well-behaved [[lenses (in computer science)]] are the coalgebras of the [[costate comonad]] (see [there](lens+in+computer+science#LensesAreCostateCoalgebras))
@@ -43,6 +45,8 @@ A _coalgebra_ or _comodule_ over a [[comonad]] $C$ on a [[category]] $A$ is an [
 ## References
 
 Some introductory material on [[comonads]], [[coalgebras]] and [[co-Kleisli morphisms]] can be found in
+
+* [[Valeria de Paiva]], _The Dialectica Categories_, Chapter 2. ([Ph Thesis](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-213.pdf))
 
 * [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_, Chapter 5. ([arXiv](http://arxiv.org/abs/1912.10642))
 
