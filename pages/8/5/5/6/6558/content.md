@@ -34,7 +34,7 @@ $$
   \varepsilon: A \to I
 $$
 
-("[[counit]]") that satisfy the [[coassociativity]] and [[counicity]] equations: 
+("[[counit]]") that satisfy the [[coassociativity]] and [[counitality]] equations: 
 
 $$
   \array{
@@ -109,6 +109,7 @@ The 2-category of cartesian monoidal categories is comonadic (in the bicategoric
 ## Related concepts
 
 * [[monoid]], [[commutative monoid]], [[category of monoids]]
+
 
 
 [[!redirects cocommutative]]
